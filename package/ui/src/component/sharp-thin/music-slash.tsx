@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `music-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-slash?s=sharp-thin music-slash}
  * @preview ![music-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/music-slash.svg)
  */
-const MusicSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5zM367.3 201.6L560 139l0 184.7c-17.2-21.6-46.6-35.8-80-35.8c-1.1 0-2.1 0-3.2 0l22.5 17.8c29.2 5.7 50.6 24.2 57.9 45.7L576 366.4 576 128l0-112 0-10.8L565.7 8.3l-320 96-1.2 .3 15.3 12.1L560 26.8l0 95.4L352.2 189.7l15.1 11.9zM240 284.6l0 103.2c-17.2-21.6-46.6-35.8-80-35.8c-53 0-96 35.8-96 80s43 80 96 80s96-35.8 96-80c0 0 0 0 0 0l0-134.8-16-12.6zM240 432s0 0 0 0c0 32.7-33 64-80 64s-80-31.3-80-64s33-64 80-64s80 31.3 80 64z" />
-    </Icon>
-);
+const MusicSlash = createIcon("music-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfAAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCIAsGAAE2AiQDCAQgBYMtBzIbIgXIjpQuYxbx8Pw66M99Mwt41mYTIhHttP5QBxOUfmIp0k5c7vynPT3gsid4lLFt6qb/xsIxhkDngRaVjkW9SBZmiWK2zQrCoBpuswiJ0ogfNof1L5DH35YpQTqXPsUR/tD4VR0HSLIMQFQGwOCZU8d7+X18H/HJ/4+JT4xFQAwGhUCGDPUF6CcTqC9XIJcLvo///6f/wIIAoiSknECOktiEXYAcJHmeV2lZp1a5EhXyGWVH2bk1a9SsHjVic7q0VtSMLYtnTpsp7oxQdm/Z1vG4QfNAVD0WhSleGmIao9NwhpO2ulb/Uuvr3Z+2vdlob+yNiJoaR9rZLa3bkzY36l4wej5WD9RpcqPyjd8bf7riU5VeTMOei6ZZ/ZNpLvTMzwvevhxQ03vufucIMdmX9zv4wyblHDdwIX7VdraFvhjq111TVoIzVe25fCXiyuU9fCMc9vcJoPSQKZ06TRlSOrwOBIIKzb/NF1bq91fpcgn8+OLPX8Pz/n+Z9qQbKC2BIGv3fzvz0h4gZgDZFDs0Ub4okKySw7uWd1qAUBYBkpLKCpCpp7IAubLaClBCQ90FKKmsqTKRlxGqmz+JpLzNRKaHnUSuuodECf18kCmpemSOJ7mN9NuXPkICw7cVnTt0KvoUx7Yh+5JQ1/sW12arHXmsdTxihY022Ga5ZVYzJ/Atxue3W2+Ehg33Q4XOOuik0Efx3HvVZ4jsFlut3svvm+ir+N5tZYc+u3V0ErB2UZMkIpVzyIr2W9ct3roK");
 
 export default MusicSlash;

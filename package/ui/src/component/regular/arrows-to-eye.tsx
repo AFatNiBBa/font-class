@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-to-eye` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-eye?s=regular arrows-to-eye}
  * @preview ![arrows-to-eye](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrows-to-eye.svg)
  */
-const ArrowsToEye: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M49 15C39.6 5.7 24.4 5.7 15 15S5.7 39.6 15 49l63 63L40 112c-13.3 0-24 10.7-24 24s10.7 24 24 24l96 0c13.3 0 24-10.7 24-24l0-96c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 38.1L49 15zM320 352c-64.5 0-113.8-52.1-138.5-96c24.7-43.9 74-96 138.5-96s113.8 52.1 138.5 96c-24.7 43.9-74 96-138.5 96zm0-240c-97.3 0-161.4 81.6-186.5 131.9c-3.8 7.6-3.8 16.5 0 24.2C158.6 318.4 222.7 400 320 400s161.4-81.6 186.5-131.9c3.8-7.6 3.8-16.5 0-24.2C481.4 193.6 417.3 112 320 112zM625 15c-9.4-9.4-24.6-9.4-33.9 0l-63 63L528 40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 96c0 13.3 10.7 24 24 24l96 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-38.1 0 63-63c9.4-9.4 9.4-24.6 0-33.9zM49 497l63-63 0 38.1c0 13.3 10.7 24 24 24s24-10.7 24-24l0-96c0-13.3-10.7-24-24-24l-96 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l38.1 0L15 463c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0zm576 0c9.4-9.4 9.4-24.6 0-33.9l-63-63 38.1 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-96 0c-13.3 0-24 10.7-24 24l0 96c0 13.3 10.7 24 24 24s24-10.7 24-24l0-38.1 63 63c9.4 9.4 24.6 9.4 33.9 0zM320 320a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const ArrowsToEye = createIcon("arrows-to-eye", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABsgAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDJwsGAAE2AiQDCAQgBYMtBzQbqwXIjsK2tXOMQ5owSUE4vvHw/LH33PdzVdS+URdI60BHslkUYCZQAzaNx//+5fQucc3fFCBnapM4jO3bNcF/f+p5bFMAv1FQXsayMTsmjsl7nkcg56VQW57Wq0CtV5CKYi11q8AVcc3+YVi4QDa+oxVypB3KNbDhfWj8kdREkssAQNQCAFMrgd6w/4APgVelFeKJJxAQUwDogMgggxYIRlEFWtB0AFlZwQf+/+M/kIAAIg8Bnnx/FmW4xCMgC5JClibVoCAtI83LTeelhXDTuSJHlXol/ZELhyX6lLlxTBqxX2VYAnA++dQCcVNnznLL9cR8Q3vabN0JjwcR19UQxyU6RfvUJ8w3nM8stzSnpHvE+jUmLTZdEkeV/HC3dBYghgsDcUAqL9AvsC+drtzV6Ie9kiOq/FNeAC6EQWWJ4Y/uixLWNKc0Jk2W1cbVJ4w5kwKTTwrXKdegd8LLe//+DCr8m0T941IAuJAeU4FnPj/UBqP1Qlba6CZGORxx/pUzmDsA67eRkRvNQ85N0MvNF56eFyjqrfLyngQQIJ0G4NEA9/e2j8/BGMNheHntXqABb9M70dORl9fRS58HgEDw22I/Hctv9c/ipgB8bb68qcexdJBqKZNAUQJBpqukJSrVQYiZSEAIKilKgMMPheRQAX/XSpsChHIESPLKBchoJgBBVrlOCHLaGEOQV24BVWTZEBpF1yiptIYy+lWjrEZLKGfUWSmvMai0K1Ge9OuY7tLGnKOIvo4esSCTfaVMjoK9b0lWm2olak6dn4QUuXIUSZYkXVGLLeBdLZbNZY5x9kOEPh16CAtk9+h+IkRyWiyUblzZH8YSOT+jpmR+tTp3KALObjFJIhJvfMGn1apdlKudXJ4MAA==");
 
 export default ArrowsToEye;

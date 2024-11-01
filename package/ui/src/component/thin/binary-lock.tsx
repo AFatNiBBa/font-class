@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `binary-lock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary-lock?s=thin binary-lock}
  * @preview ![binary-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/binary-lock.svg)
  */
-const BinaryLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M308.6 1.4c-2.2-1.5-4.9-1.8-7.4-.9l-64 24c-4.1 1.6-6.2 6.2-4.7 10.3s6.2 6.2 10.3 4.7L296 19.5 296 208l-64 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l72 0 72 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-64 0L312 8c0-2.6-1.3-5.1-3.4-6.6zm-224 288c-2.2-1.5-4.9-1.8-7.4-.9l-64 24c-4.1 1.6-6.2 6.2-4.7 10.3s6.2 6.2 10.3 4.7L72 307.5 72 496 8 496c-4.4 0-8 3.6-8 8s3.6 8 8 8l72 0 72 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-64 0 0-200c0-2.6-1.3-5.1-3.4-6.6zM80 0C44.7 0 16 28.7 16 64l0 96c0 35.3 28.7 64 64 64l32 0c35.3 0 64-28.7 64-64l0-96c0-35.3-28.7-64-64-64L80 0zM32 64c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-96zM208 352l0 96c0 35.3 28.7 64 64 64l32 0c35.3 0 64-28.7 64-64l0-96c0-35.3-28.7-64-64-64l-32 0c-35.3 0-64 28.7-64 64zm64-48l32 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-96c0-26.5 21.5-48 48-48zm256-96c26.5 0 48 21.5 48 48l0 64-96 0 0-64c0-26.5 21.5-48 48-48zm-64 48l0 64-16 0c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-16 0 0-64c0-35.3-28.7-64-64-64s-64 28.7-64 64zm-16 80l16 0 16 0 96 0 16 0 16 0c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const BinaryLock = createIcon("binary-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAAB1AAAAKtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRCEMgsGAAE2AiQDCAQgBYMtBzIbNAbIngU5WbQLjUq7pw8xQdy2T/Hw/OHv3PveX69f28bSoklt0IgCC781tklAAbY1CqOM2u91N+G7MFwAGFRqidCVhe4XplMF/BrAwOKq0+0jZIA3o1dDKs7/5bgxPcDPgeaZhXfbWmPhnM8TCGTanLbAs6xEA0lEs5yOe6Dinp0wbD1AjT96GZJP+Ai4CF40fuBsF0ilACCmAADHrynDax115EftAcQLSkBAnABYQRQULCDYoy+wwMAKqKrgk5pm/AeuQADRRcRN6yrG8AeRMB5DGlQDT08XpFkH2khDc4P67HuIgYMs5H4dcCwhonE/D9hLeSgHHQTJLTcu/ezm80NebvDpXPGTvPSuuZJH71V/kXks5KEteUEHnMFH7vcVvOiDLmwCbRWd5+eyU4UUMozHciigYUpKmvLGQXgpqMXeFjMQ59vNUnIf4O/YDwrBCyGDUvvgAwJvKXjQ5KF4X7W6+sXrY/9Hsc9RUT9QPb/OHDxHps6MOgsL8z5k4i0M1j57rk00UKetgenWCTFtfVqhhxuTNP1PwGukQuTrJ/1OAIf61uqMsvfiJNZUlE04sbUOMWD6M9Epc0RkRrFWsBh9i8288nSrs0LmjZARZVlhZXVaN6n/PI3yegACwej/ZZcOy9RvJlIP8P306292Cf5fYxNXC/oSBGVDC9XqWAp4/AQ8GfPwxkdBIP0yFT3r0D0IQkOA1NUEKOZZIaiadQQdS+IQdDWn9EU1RZjT1oI0dAaKXWugmnMPdOx54+2aC30dgKhf5P8zMr9Py+ulosIjVbJazKhRRQ25nSlqtyRw3qwIwlT0mzBuVp9eQ2Z7vGllgTlj8tcE896rRAkXSUmmTucfk/U977QZQ/P4+W5SqPsNgebX6wdBricSumlWSiJl99B41/RSmO4EAA==");
 
 export default BinaryLock;

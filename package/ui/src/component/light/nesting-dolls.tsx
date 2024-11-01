@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nesting-dolls` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nesting-dolls?s=light nesting-dolls}
  * @preview ![nesting-dolls](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/nesting-dolls.svg)
  */
-const NestingDolls: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 32c53 0 96 43 96 96l0 80 0 16 32 0 0-16 0-80C320 57.3 262.7 0 192 0S64 57.3 64 128l0 80 0 16 32 0 0-16 0-80c0-53 43-96 96-96zm64.6 448L74.5 480c-9.2 0-14-3.5-15.9-6.4C46.9 455.7 32 424.8 32 384c0-32.6 13.6-63.3 30-96l250.2 0c5.4-11.4 12.1-22.2 19.9-32L51.9 256c-5.9 0-11.3 3.3-14 8.6C20.2 299.6 0 339.6 0 384c0 48.8 17.9 85.7 31.8 107.1C41.1 505.3 57.5 512 74.5 512l186.9 0c-4.8-10.1-6.4-21.3-4.8-32zM148.2 131.8c17.1-5.3 32.2-15.2 43.8-28.3c11.5 13.1 26.6 23 43.8 28.3c-2.3 5.1-5.6 9.9-9.8 14.2c-18.7 18.7-49.1 18.7-67.9 0c-4.2-4.2-7.5-9-9.8-14.2zm65.1-52.7c-5.6-7.3-14.1-10.2-21.3-10.2s-15.7 2.9-21.3 10.2c-9.2 11.9-22.4 20.4-37.5 23.5c-10.8 2.3-22.6 13.4-18.8 28.7c3.4 13.6 10.4 26.5 21.1 37.2c31.2 31.2 81.9 31.2 113.1 0c10.6-10.6 17.7-23.5 21.1-37.2c3.8-15.4-8-26.5-18.8-28.7c-15.1-3.2-28.3-11.7-37.5-23.5zM464 343.5c11.5 13.1 26.6 23 43.8 28.3c-2.3 5.1-5.6 9.9-9.8 14.2c-18.7 18.7-49.1 18.7-67.9 0c-4.2-4.2-7.5-9-9.8-14.2c17.1-5.3 32.2-15.2 43.8-28.3zm0-34.6c-7.3 0-15.7 2.9-21.3 10.2c-9.2 11.9-22.4 20.4-37.5 23.5c-10.8 2.3-22.6 13.4-18.8 28.7c3.4 13.6 10.4 26.6 21.1 37.2c31.2 31.2 81.9 31.2 113.1 0c10.6-10.6 17.7-23.5 21.1-37.2c3.8-15.4-8-26.5-18.8-28.7c-15.1-3.2-28.3-11.7-37.5-23.5c-5.6-7.3-14.1-10.2-21.3-10.2zM588.7 455.3c3.7 8.1 7.8 16.4 12.7 24.7l-274.8 0c4.9-8.3 9-16.6 12.7-24.7C353.1 425 360 393.3 360 360c0-57.4 46.6-104 104-104s104 46.6 104 104c0 33.3 6.9 65 20.7 95.3zm46.8 18.7c-7-10-12.6-20.9-17.7-32C605.9 415.9 600 388.7 600 360c0-75.1-60.9-136-136-136s-136 60.9-136 136c0 28.7-5.9 55.9-17.8 82.1c-5 11.1-10.7 22-17.7 32c0 0 0 0 0 0c-5.2 7.3-5.9 16.9-1.8 24.9c4.1 8 12.3 13 21.3 13l304 0c9 0 17.2-5 21.3-13s3.4-17.6-1.8-24.9z" />
-    </Icon>
-);
+const NestingDolls = createIcon("nesting-dolls", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABxAAAALqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCDXQsGAAE2AiQDCAQgBYMtBzQb4QVRVA3iZD8O7IavIkwDIQ6aWA7CC0OEYNjyZHHzFA/1+72e3XcDCC5RqMI2ko0C1NDxdaRsVR2grfxTWx1VeD79qX9yAvgutBcnFlqU2h5WK1pBWuqRXc4mvn0woioQLNlKrer8zzWfn53fO6AvfmeF0qvW4jVGJKbAADvB9wY+G0oK2P5+3ofnBOD6C23zFUr8CTWSfJtXeOk+aPw25k0qFYDoRQDsnXYt+TaiEfG13iK+OkAExD6CWRQVKkyiYBMXmCTMIooiaERdi/9AIAFEMx9Nhwra8QM/KQ8jtZbyryhDFraCmZKYm8zlrdcQAVvKCM2JA4LAyE8etzh2uDQ7lILSnUZUFwz9CEx0C3SL9IuMaGI0IEhC9axeoV6xIeE+dh/GqFvQf0Z1Tr6T1UnUC3QL+HQTbWo5l7PDhOdwg+qAaE9V27SIXzs+o4pIyhO6Ca8uNgn1CK4sq9pqcImXqhtbxuV9BZWq9bLKUMCNCurCZNQgKG4iM0+b/5a+ir6Ck5HSeTDP5wq9pNC4QpOeraurrR53KQRa5+dLrU62/ZdxxxrKzqJorvzD+VgICKP7oyUo/f0rX2L7cKGZGNDLYPYYen0zmd9ehlZ6dSRS3XtUaoyPiN1fNaSq/+xEfHxKo97/W3s4e5iyjAr33MCXVNjmmMCABEdHHXz9tLr6dI11HD+WQwVU+aO8W1u9o/hVBUKHAUBBYCJFCyiJgQlChEAgeLP4OwtRzJ5bcYJf736fw19R/T5f5DxaJQiq5VrNlKXU/7JCAAAy7mn5gED6oJVv7/RqrC+0k0Jq1g6VCSoU7ZagybRE6Dn7EBelTRg0w5A6XUFlwwuKQR9osunvbjYYFVhLQCkdVaZu8kg9CIHro0RjSixDqmC1Vuht1p+lEgOvIEsnR3cLc5uQy2FXre/hoGkj1s+FgMsHJYzOXl48Wri62Tg5Ov1UML9d92yvbmAb47OuSExJZNf5037tx5XzHwLNDQ==");
 
 export default NestingDolls;

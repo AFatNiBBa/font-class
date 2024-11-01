@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flashlight` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flashlight?s=sharp-regular flashlight}
  * @preview ![flashlight](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/flashlight.svg)
  */
-const Flashlight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M413.8 314.4l-13-10.4L384 304 48 304l0-96 336 0 16.8 0 13-10.4s0 0 0 0l.2-.2c.3-.2 .9-.7 1.8-1.3c1.8-1.3 4.6-3.3 8.5-5.8c7.7-5 19.3-11.9 34.1-18.8c15.2-7.1 33.2-14.1 53.6-19.3l0 207.7c-20.3-5.1-38.4-12.1-53.6-19.3c-14.7-6.9-26.3-13.8-34.1-18.8c-3.9-2.5-6.7-4.5-8.5-5.8c-.9-.6-1.5-1.1-1.8-1.3l-.2-.2s0 0 0 0zM576 368c-5.4 0-10.8-.2-16-.5l0-223c5.2-.3 10.6-.5 16-.5l16 0 0 224-16 0zM592 96l-16 0c-112 0-192 64-192 64L48 160 0 160l0 48 0 96 0 48 48 0 336 0s80 64 192 64l16 0 48 0 0-48 0-224 0-48-48 0zM248 232l-24 0 0 48 24 0 48 0 24 0 0-48-24 0-48 0z" />
-    </Icon>
-);
+const Flashlight = createIcon("flashlight", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdgAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCGQsGAAE2AiQDCAQgBYMtBzEbGgXIjsK2bRNHmCznSxg2kYiwJZu9+39add2Dqqo7ZGnCIkFhEQ7XZDcSYbqQBIvFr/1mv8Idcog1tYdJNfXmliDRTLSSRZMkks7/NfnePT86wG8XBIcSEYvWAup+PoEBzsIbh9Oy4Ww0QZ7/u/QUkvBuEpL91trhtn+4bQ9NvjOAlnIvugFclzfNP/S0QNFWAGQUALBzGhmMg3u6J7r+XyXvCASB7ACYR6iomEZgnVgwTWIeNBrhl/7//X+gPgRIB964gAYdzsElgAYUTSOxVTLieamyJIaXcpnaWtqcEpEyr0ONTiEb7dYZwhqzcTPQq+mY9qDRuRONK0V3cURDPE9IfyLHcydOK8YjGOxHRAaUG0xGnVe9JZZ0hdJcZN7CGU4JU+8GNzk3hlsvea9qYWkIG7sEEMTY4Xp84dsP3goS1iPVQAAPTgoKdyjrFXAPYURVEISy/bm6fgpjDGkYtkf9dXP7ZQJjuE/R03Zd5Bh0dyMWID95e/m4TVX1+urlRYC/rc/PdmG5Ek2BXgWEuvi/KKk0AJ4coFBSA0Phg4LijARfddANAqIfAUWnX0A1RUCg0W8BgdYsZwQ6/Q6JpVFETEoeoBh0Aao1taAxaRm01p3nO5MRKx2vMvw/X4rPCnuv0re3Zfoe+pcNXdAjNi166t92zGvCgAV2IkepElWyZclXtaAVgkvVivlIiLcv0mfPFqPPg/7j9vvmGNkqVMpXqiQv40n//ZS5Gnm8BXwRUi4pKwopnN5ynyIA");
 
 export default Flashlight;

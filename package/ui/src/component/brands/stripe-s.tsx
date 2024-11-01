@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stripe-s` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stripe-s?s=brands stripe-s}
  * @preview ![stripe-s](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/stripe-s.svg)
  */
-const StripeS: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M155.3 154.6c0-22.3 18.6-30.9 48.4-30.9 43.4 0 98.5 13.3 141.9 36.7V26.1C298.3 7.2 251.1 0 203.8 0 88.1 0 11 60.4 11 161.4c0 157.9 216.8 132.3 216.8 200.4 0 26.4-22.9 34.9-54.7 34.9-47.2 0-108.2-19.5-156.1-45.5v128.5a396.09 396.09 0 0 0 156 32.4c118.6 0 200.3-51 200.3-153.6 0-170.2-218-139.7-218-203.9z" />
-    </Icon>
-);
+const StripeS = createIcon("stripe-s", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYQAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBLwsGAAE2AiQDCAQgBYMtBy8brgTIHodxTLExojkm8fC8XV/nvqr+A6iGUkZgiRSKJlt1uArtuPMr8DlDzPanv/nnnUcBPhCpjekCGRNozvMEOs+7PLH9l41pXxS/ddM7akhpTV50kuzJDVsj5HE4biiRHqYyrpcrjV+1cIaklAGI+gAYv3ThbI+/iq8iypW3iLKZCIgJoBDIkKG1AKNkAq3lCuRywVdRqYT/wIIAokrdRQI5MozEZEAOksjzgbVKdfIltUo1Vz4z+PLgt4ZHfL7o01nlRU91f63zS4NfwsO3eND4Ts23h7w9QnxW6/Lclz7f4/Uh7w95ucvLLTu8Xv/135Ure9Sp/teWTa9/zpSWUyw1fLiZdVetrFRq/rxyZpZ+/LF5vyeuTMyMdvNXrF1iVrZ1azs1vhwxAhAImp/9a7t6o/6vXiuBb97/c0xXq/I49qbXUV0CQdar0suqOKGWWrFXAABS7NOBfFEgGSjBpdZ2T4BQEwGSKjUFyLRSX4BcTT0FKGlrsABValooE3kNobHVHSS17QSZIY6CXGNvgJJRPpCqNI5MP/jr49+3mCkemtxW9O/TrxhRTG2NkASa6iOLZbbbvhjrboPW2W6bPdZaY6M9DtlltrrXVlMYPNkPFfrro5/CCMW299i/xFq77LbRdttyk5GK82I3+3h2d+smAQbcvDURqfpuoXNre+8G");
 
 export default StripeS;

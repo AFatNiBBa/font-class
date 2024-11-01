@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-exclamation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-exclamation?s=regular location-exclamation}
  * @preview ![location-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/location-exclamation.svg)
  */
-const LocationExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M336 192c0-79.5-64.5-144-144-144S48 112.5 48 192c0 12.4 4.5 31.6 15.3 57.2c10.5 24.8 25.4 52.2 42.5 79.9c28.5 46.2 61.5 90.8 86.2 122.6c24.8-31.8 57.8-76.4 86.2-122.6c17.1-27.7 32-55.1 42.5-79.9C331.5 223.6 336 204.4 336 192zm48 0c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192zM192 96c13.3 0 24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-112c0-13.3 10.7-24 24-24zM160 320a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const LocationExclamation = createIcon("location-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABewAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBfAsGAAE2AiQDCAQgBYMtBzsbBwXIHoVxY11C0YSTnfmVGCFJJ8/T79fOfV8wbd7ZhCUPUSzSrBHaNrbRrNG6hsoQoYRvz8uh9wLxB7QrbLKndG3V/k+dep7zbMC3LPGgjYVLA7LA9up5BSrWq2+xbQULqJW1QdFtYoEdYfiGSJBIdHw73q6OUKeBRtFQXjlugcfxpfknrxOKpgJApgEAhxcRQTj3jn6Smx3IuwAQyCGAVYQKFRYR2MEpWMRlFdRq4Ye6/B/IgABpob+ggBotrsAdgBoUdc2lqCwsKcgtzBUtyC2Qse5MdMb7kuMp1qp80Oig3l69/Qb7TQ6brJDgoinREVeic71JgX6ZQ+4XzI+pPI14GPM47H5U9JY86EVzW4FoQSeyTZZoRnBAegp9qdwdTJP6PrF9v9VuZd9CSKdUCzycP99TqyT5mfs1PKVER6ekxH2O+/OcqdIL4C8buH5bEBFZWM3J/vFCicKiosIQiooKnU0Jky6F9FHlqL4VGcBAJMVUgFz2rWyymyLquMsnyAH4PfH3H+Tm7jz1OfaBYQWEqvffEIlpBQo7gFtSDfVgZUFxiQv0U8c9ISBGEVC0RgVUFoghUBu1hkBjmRUCrVEnOKXmR8xLMlCMuweVbU2gNu84aOy46rbmwwkzCSTSIy/d20Neu5iZsSmzZ9vUlJEj9E0HljZ0q1tLjw4iW4lilbJkylPpyHJBQZUi3hHsZUWMGWOmGHvsuHjdHy1LuQp5ShTLNg7YfUdXdTysRzYH5V0XKwopUvhsG31gYaUVGQ==");
 
 export default LocationExclamation;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-user` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-user?s=solid book-user}
  * @preview ![book-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/book-user.svg)
  */
-const BookUser: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 96C0 43 43 0 96 0L384 0l32 0c17.7 0 32 14.3 32 32l0 320c0 17.7-14.3 32-32 32l0 64c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0L96 512c-53 0-96-43-96-96L0 96zM64 416c0 17.7 14.3 32 32 32l256 0 0-64L96 384c-17.7 0-32 14.3-32 32zM304 128a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM128 304c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80l-64 0c-44.2 0-80 35.8-80 80z" />
-    </Icon>
-);
+const BookUser = createIcon("book-user", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcwAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBbgsGAAE2AiQDCAQgBYMtBzAb7gTIhuD7Nf/rc2eSD0DziUgBkwPEXcug4hZYuNSzS+gycc3zP396wCZ9tEjKnJZH5PkEJrZ7W4mvbWBtMAGbtbNH/4PoF4M+hCTDdsNqD3k8y84rkZ6kb3Ar32n8pIPzJA0yANEcANNXLFmsUo1qxNe1D4mvLURATAeFQIYMnQWYJBPoLFcglwuqUavxf2BBAFGmZ5JAjjLWYBMgB0me571aNGnRqNQkX96o1DB7eWDE62ObNLrW5oEUp1vfbyiM4vUaNv5owGtds1Wn20Q8aNQkIhrH1ZltzUshsd8rnV/0f3Xg692WPmjTKB6161NjGsYH9L0erzV/7Zfu32z/xsb6r/Ha6aJoevly02kKxflFcfq11+pPmzrVyQiBaSj7rVtW98cfdZk/yNtvN61WVJvG8m3Np2m+bXkAgeCNH5t8sKHZpH/qN0qg7rPf/ie/ololKuk11JdAkA2qDbI2KhAVAQBIcVyPqCCQLJHTW23soQChIQIkZQ0FyHTSXIBcQwMFKOlqtABlDS2RibyB0No6g5PGDsGZMU7Audbeh0sm+Txd1joyfDHoYH53iXNaYPayYviQYcWEYllXWchQcX5icaz0Oy59/SnRdgfsd9Q2W+1ytIEOW5w7Zp85O3C2ByoMN8QwhQmK69bj6uW2OeyIXQ7YnxaZqHgf9HN8P7o/6YmSjlCUJCI1AJ80GJYAAA==");
 
 export default BookUser;

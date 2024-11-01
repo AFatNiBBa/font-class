@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `servicestack` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/servicestack?s=brands servicestack}
  * @preview ![servicestack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/servicestack.svg)
  */
-const Servicestack: typeof Icon = x => (
-    <Icon viewBox="0 0 496 512" {...x}>
-        <path d="M88 216c81.7 10.2 273.7 102.3 304 232H0c99.5-8.1 184.5-137 88-232zm32-152c32.3 35.6 47.7 83.9 46.4 133.6C249.3 231.3 373.7 321.3 400 448h96C455.3 231.9 222.8 79.5 120 64z" />
-    </Icon>
-);
+const Servicestack = createIcon("servicestack", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABVgAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBFgsGAAE2AiQDCAQgBYMtBzMbmQTILgt4Q3ypGyJARlNVy4IRTtj1922w08Tz0Nr/zp2d/SKONF7CJZlGQsFLokGyUAmRkD+hi1h8Cq1prkz2QRWIHdIA0AEpy7ZqblVDsFNybbY4qqoXLn+ZNUAcaK0EOnuvkP2pm+edRwE+RxDaWLg0kAU893kCiXXZ2PYiWWAvlBC3O9uzLaJ9kpayJMejHY5HNqgZ5IGW8qSs435+aT6bd0rRNgDIGAA4crVWwO2LvEieu5N1J0EgRwHWEDRosISA/biCJTxroKrCi3T/8R9IQ4D0QKAWUFHRAXsBVFCUytOOS1s5rxnuS1pfTn7Ok3xcluXuUJs6enVYvzn9PDVkyO8VnpBnr8f+ap5x9f2ZZYBgHHF3PHnP5hOX3JkXlP9zupQJ/8ZhuH6imq2VXPCBFkAQNr22a8r9f/sGOYBXz15u5kd5ij4FhKbT7ejnByA5gFGyC2sgFhSbcUCeOuShgBhAQNFjQEBjkQoB1YAtCGit8CGgx4CLuFLFiCkjDRRD7oDGTnugmjIArf3ujB5TaXyGPXH2xZaU11iuj3bZnXSYHroq5wZ0bEfoadm4SykTjGLWmlXbZkxbsK2ITQV7x4q8hecgRHOxc6KF0cvB/XDTjE1bFqxZTV0i6P260a5dbAKNQyi3chSFFNmvBPoWUKaWAAAAAA==");
 
 export default Servicestack;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `presentation-screen` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/presentation-screen?s=sharp-thin presentation-screen}
  * @preview ![presentation-screen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/presentation-screen.svg)
  */
-const PresentationScreen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M8 0L0 0 0 16l8 0 560 0 8 0 0-16-8 0L8 0zM48 56l0-8L32 48l0 8 0 288c0 4.4 3.6 8 8 8l240 0 0 52.7-85.7 85.7-5.7 5.7L200 507.3l5.7-5.7L288 419.3l82.3 82.3 5.7 5.7L387.3 496l-5.7-5.7L296 404.7l0-52.7 240 0c4.4 0 8-3.6 8-8l0-288 0-8-16 0 0 8 0 280-240 0L48 336 48 56z" />
-    </Icon>
-);
+const PresentationScreen = createIcon("presentation-screen", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABYQAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBTQsGAAE2AiQDCAQgBYMtBzob1wTIjsO44TuymcofLSJ4fs2c93eTu9uUYXuqTOzq6qtQ2Ni6skMhgUAnmYtrp049z3kogM8hCNoeOm1jfI3O8wpUCzS0W6zbirWKYncXtVZkrv0kia7k8bPHzwHyeGqvCul6gkvhQ+Orni6SZBmA6ACAWRvWLHP/VbyKeNKIeGIJAmIWKAUyZOgjwFSZQB+5Erlc8CoaDfUfWBJAVHE6gRyfZTHWAHKQpDyvTahV2ubra5ViS1ErRK19RHE0RBEixeWutRBro0t0je6xIdah3y3WR6x5cbV7BiRtLIqstd6h/n2A/TTda2avg+aJxmyaUHZSqu78ZZx1a81Tt9aq1RSuVTevc51xftlZLTXroFkPv371AALBxx93Tu5oP/V/cy2BNzd/fpUuaJxmpjqaJRBkQxtDbY0eOHQAQYrzWuGrCCSzJfyubVwRIBQIkFQVAmR66yBArjBEgIp+xglQVVgjE3mL0MW2ApI2ToHMeBdArosboGKqB2FVl8jEiRQG8jcXN7+G5i0rRw0fWU4uh5lMSQhu56eU29rA87ozCLba74Tjztpnr0POVshpy5Jzjpk/g+f5odIow41Umqw8Lm/Xr7fPaWcccsJxv8gU5X1roPPz0YPATBhztBVJIlLnxykOEzg=");
 
 export default PresentationScreen;

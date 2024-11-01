@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice-d12` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-d12?s=solid dice-d12}
  * @preview ![dice-d12](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dice-d12.svg)
  */
-const DiceD12: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M318.2 0c4.2 0 8.4 1.1 12 3.2l72 41.6c5.9 3.4 5.1 12.2-1.3 14.5L264.1 108.1c-5.2 1.9-10.9 1.9-16.1 0L111.1 59.3c-6.4-2.3-7.2-11.1-1.3-14.5l72-41.6c3.6-2.1 7.8-3.2 12-3.2L318.2 0zM149.9 490.4L74.2 446.6c-3.6-2.1-6.7-5.1-8.8-8.8L3.2 330.2c-2.1-3.6-3.2-7.8-3.2-12l0-84.2c0-7.1 8.6-10.7 13.7-5.7l96.1 96.1c2.7 2.7 4.8 6.1 5.9 9.8L161.6 481c2.2 7-5.3 13-11.6 9.3zM512 233.9l0 84.2c0 4.2-1.1 8.4-3.2 12L446.6 437.8c-2.1 3.6-5.1 6.7-8.8 8.8l-75.8 43.7c-6.3 3.6-13.8-2.4-11.6-9.3l45.9-146.9c1.2-3.7 3.2-7.1 5.9-9.8l96.1-96.1c5-5 13.7-1.5 13.7 5.7zM15.3 184.7c-5.1-5.1-6.2-13-2.5-19.3L57.4 88c3.9-6.7 12-9.7 19.2-7.1l152.8 54.6c6.4 2.3 10.6 8.3 10.6 15.1l0 85.7c0 6.1-3.4 11.6-8.8 14.3l-89.7 44.8c-6.2 3.1-13.6 1.9-18.5-3L15.3 184.7zM454.6 88l44.7 77.3c3.6 6.3 2.6 14.2-2.5 19.3L389 292.4c-4.9 4.9-12.3 6.1-18.5 3l-89.7-44.8c-5.4-2.7-8.8-8.3-8.8-14.3l0-85.7c0-6.8 4.3-12.8 10.6-15.1L435.4 80.9c7.3-2.6 15.4 .4 19.2 7.1zM295.5 512l-78.9 0c-7 0-13.2-4.5-15.3-11.2L151.4 341.2c-2.3-7.5 1.1-15.6 8.1-19.1l89.3-44.7c4.5-2.3 9.8-2.3 14.3 0l89.3 44.7c7 3.5 10.5 11.6 8.1 19.1L310.7 500.8c-2.1 6.7-8.3 11.2-15.3 11.2z" />
-    </Icon>
-);
+const DiceD12 = createIcon("dice-d12", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABlwAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCeQsGAAE2AiQDCAQgBYMtBy8beAXIjtNltOIafTx8b/P13LeSDEBrO2wg4ipE2BR/0iF1SmZPlfm/5vN7fnSA3+hQoq2xcxSU+XwCAx0Oo8DmZQOb6QRsb1N67BgzBz0jZaRG8zg99u8EhXg3O65IupO+wyX80PhJE8dJqmQAojYAhsyaNsFHFVER8W35deJb4xAQQ0AukCFDcwH6ywSaK8hRUBBURLkM/4E5AUQJPVQCBVTGZbwOKICkVCjUb9q0fsOG1Yo1CjOrFauuOtdgRtyoPz2uN5wZNxvNilvVqs2eOWPmTV4TEUca3VJJBwbxMuGwk3STQJxOgxuWMsLjEoejgmUzZs54V41Yc2ZXrVa1MW4yau82z9R+5pfWVjLgw0pDR93v1I3TnW3d2sUbp3jt0Er7n/xhXHjTsO4D1rmr0nTFIV2GLlqke/0OVxW7dh26pjydxEp3GUL3YZ7I0K7dClOxQTe8tevgIaXfO++e2268va/e6unRajNUPT67ncd2rVv75mIkLmHu7tFg1/U57RyvqtVfv9XDp2t/chJtfalPlwe1e2N2e0uXdvGNdvwufV4CAsG2c4teXFSr/z+VqyXw/Tu//a/9isofJekZVJZAkLUvtzc/gUQAAFLs1CZBIDmthN61upsChKoIkJRUFSDTTG0BCqpqJ0BRSz0EKKlqmkwUqgj1LRggqW4LyPR0ABTU9yoo6u/LuKR+ZElKpRj1jxg/UkIjNuVdOnbO++Zqy03nHXGs9suXxft21pH7y04rbbLRdisst8Z2gWw1Idthg5EWPMIX5broqLNcX/l216dopqjZaps15sz+Ov3k8dp9dtrT7y9KQqhdNSWJSJW/QnaH5V26AgAAAA==");
 
 export default DiceD12;

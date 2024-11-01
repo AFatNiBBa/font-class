@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `child` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child?s=sharp-light child}
  * @preview ![child](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/child.svg)
  */
-const Child: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M128 64a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 0A64 64 0 1 0 96 64a64 64 0 1 0 128 0zM94.5 160l-9 0-4.7 7.6L2.4 295.6l27.3 16.7L80 230.2 80 496l0 16 32 0 0-16 0-112 96 0 0 112 0 16 32 0 0-16 0-265.8 50.4 82.1 27.3-16.7-78.5-128-4.7-7.6-9 0-131 0zM208 352l-96 0 0-152 0-8 96 0 0 8 0 152z" />
-    </Icon>
-);
+const Child = createIcon("child", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbAAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBfAsGAAE2AiQDCAQgBYMtBywb+ATIjsM4hvwSS/lHUOmqslqaiV3NMeiY0UN+BPvAfEKPzQ9/Y90HtieZH5zn/3LP7/ltwA92Yoc2pq35/HbL9n6eQMDZWW2irIAyTcCydvYGktItkr4Pj2TYfljdII9tMVyF9Fb6GS/kN41fdXWTJM8ARBsAzNm0boVvm6Ip4uf6R8TPliEg5oJSIEOGHgJMlwn0kCuRywVNUa/7/8CSAKIKH5RAjip24yggB0me5+1bDmtZq7TMN9YqxbZrnSPeqD3o+JqrHV4t7nd6PWrvD302+EmP94Y8Hfa89/qiVnSI9TEgNkUKUYuIiFrgY1lsiEGxMTpFsScqJ/R91ubZ730c5MqVVne526r0+MbdWfPffzdn5Fzd1YiyRVZe8Y0xaxTaKB1y2m6elWKofKNXLNLY5pvdiN7UYHekvAnEU1/+MuRdTf+/oZZA8+d//l1/Rqn+bcxMz9AggSAbXh9ue1yUpJgpAAApLuobsyWBZLMcXrWF1wUIBQIkVYUAme7aCJArDBOgopcJAlQV1slE3ih0sINB0sIZkJnoEsh18AGomO67uKpDZGbGGQn3yUteKKEFh8oxI0eXU0u1p/GWw6TdaeWxOvhimBlCpQ465aTzDtjviPOCPGtFdsEJC1fwAl9UGmOk0UpTldfDe3mjiM8658hcvN9nmvJ9ONjF9fIhZCSgHaspSUSqmDUA");
 
 export default Child;

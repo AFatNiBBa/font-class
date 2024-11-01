@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sun-bright` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-bright?s=solid sun-bright}
  * @preview ![sun-bright](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sun-bright.svg)
  */
-const SunBright: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-13.3 0-24 10.7-24 24l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64c0-13.3-10.7-24-24-24zm0 400c-13.3 0-24 10.7-24 24l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64c0-13.3-10.7-24-24-24zM488 280c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0zM112 256c0-13.3-10.7-24-24-24l-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0c13.3 0 24-10.7 24-24zM437 108.9c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-45.3 45.3c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0L437 108.9zM154.2 357.8c-9.4-9.4-24.6-9.4-33.9 0L75 403.1c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l45.3-45.3c9.4-9.4 9.4-24.6 0-33.9zM403.1 437c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-45.3-45.3c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9L403.1 437zM154.2 154.2c9.4-9.4 9.4-24.6 0-33.9L108.9 75c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l45.3 45.3c9.4 9.4 24.6 9.4 33.9 0zM256 368a112 112 0 1 0 0-224 112 112 0 1 0 0 224z" />
-    </Icon>
-);
+const SunBright = createIcon("sun-bright", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABmAAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCUgsGAAE2AiQDCAQgBYMtBzEbUwXIjsO44SsxaBFliCsfKh7+2d9/+5yLDw2kxOQsRoUGNhBp0g9x3IX+1rRxUrsXY+5/YvpbEpW2JIhqotHE0qTilSN589L5+1PPg5MC+IEiGJT3M19sLEraajfgnOcVKODYXt+gtYL0aloBK0S6mfsy9hSuCMkZyngujqnI2/kKF6M3je9GOiR1FAAQAwCA5VsadfhoRSvit3kiXloBBMRygAkQBQqMgWARpsAYLBOAUiloRdNY/4EEAogakoclKNGFU7gKKEHqKFliscisMnZVYlaf+4lg+OEIwNtTb0djdKcxBtgfgjiCmIIVC3e0GCuHp3ujbqZk8NbI6+n5CRDBVgSWk8MpWHF2qEVcybWOpuOlJ/Xi8KjutJvOM1OuRrQdGtmZet01qX/Aw8+Jr+ZeaZ6vG1oA9bqy73zg/O83QdgCxPvaiCKrXL5719PzJx71H4rzf7UNsK/E/0cpyrLZz+Me8ODr13HjLOfBAwCrvxwAAsG6g7bbrX2L/rQLGQBfHv3+X/+MNC9S9qNdgqCY08wxkiAJAEDGHntCIB3SIXnVbjcECJ0IkGqdAhRGk0FQ6jQbgso4UQhqnTZgipIPYYhRIanbTlJY6ICUhngklUU+87UhUehIXT/p/4PZtTFTXURBX4BStFnTGppM9WfTdNp17Nk9Tk7CnHVrdsyasWhnJG2pl3atqu2JVV9EgnwCSArdbj7HvhEtcTtU163786TR+4nD3v5wJwFDojjX5pRECrb3rnmnvlQA");
 
 export default SunBright;

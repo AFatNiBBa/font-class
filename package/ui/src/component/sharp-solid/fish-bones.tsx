@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fish-bones` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fish-bones?s=sharp-solid fish-bones}
  * @preview ![fish-bones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/fish-bones.svg)
  */
-const FishBones: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 96L0 128 64 256 0 384l32 32 64-64 0-48 0-24 40 0 0 72 0 24 48 0 0-24 0-72 48 0 0 72 0 24 48 0 0-24 0-72 48 0 0 72 0 24 48 0 0-24 0-72 40 0 0 120 32 0L576 256 448 112l-32 0 0 120-40 0 0-72 0-24-48 0 0 24 0 72-48 0 0-72 0-24-48 0 0 24 0 72-48 0 0-72 0-24-48 0 0 24 0 72-40 0 0-24 0-48L32 96z" />
-    </Icon>
-);
+const FishBones = createIcon("fish-bones", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABagAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiCIQsGAAE2AiQDCAQgBYMtBzEbIgXIHgXunhM2YVHEMg75DRHEz33OvuQo/4qccq4AwL6OhD1bV1WHQgLZ6uokc+17todAjJwab7zU+OUSFO08fBfkgZTuW7wCA9/3TzAbziY0gQnQ3jZM0BGFV0SCRKIxpXE6Qx7fsheaSG8TvJwvGv8M8IKkLQMQ3QGwdPf2jT78jt8RX+uIr9YjIJaCUiBDhsECLJAJDJYrkcsFv6Ou6T+wJIBoJr+BBHJkuImHgBwkkecXG01d8l2NpmJ/Nb7aGTuiI7ZHREQjhGgYTfDu2BUFUkRElIMj20Z01mmnGHa4RmvxY7y5Vpuiv8oa/XHJGlMwVrmj9PhlE0son6f1C2ogEMwdVbUc7rbgf2sjgb/vRw+mJakTrRIIsgn1BAfSEiBiAEGKW0YEbxRILkrkWdu9EiAUCJA0KwTIDNJdgFxhvABNhpopQLPCdpnI24TeDhqetLuKZ2Z5iOd6e4c3WeCj36x3ZIXHlA3z70tc5YGV68qpk6aU88ptQtlaovrq/DItVbe40QEnnXLZJTecdMJZNxx0zcbopotWReBKH1SaapIpSvOUx/nr4V1Ouua6sy67NJbMV973Krfi/g5QEyGdJpYkIhVPSJ54rKoBAAAA");
 
 export default FishBones;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-tennis-paddle-ball` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-tennis-paddle-ball?s=sharp-solid table-tennis-paddle-ball}
  * @preview ![table-tennis-paddle-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/table-tennis-paddle-ball.svg)
  */
-const TableTennisPaddleBall: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M416 288c-50.1 0-93.6 28.8-114.6 70.8L68.9 126.3l60.7-60.7c87.5-87.5 229.3-87.5 316.8 0c67.1 67.1 82.7 166.3 46.8 248.3C471.8 297.6 445 288 416 288zM46.3 148.9L290.1 392.7c-1.4 7.5-2.1 15.3-2.1 23.3c0 23.3 6.2 45.2 17.1 64L240 480l-75.4-75.4L64 512 0 448 107.4 347.4 32 272l0-108.8 14.3-14.3zM416 320a96 96 0 1 1 0 192 96 96 0 1 1 0-192z" />
-    </Icon>
-);
+const TableTennisPaddleBall = createIcon("table-tennis-paddle-ball", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABcAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBYwsGAAE2AiQDCAQgBYMtBz8b8gTIjtRG+UVWEsHzdn1f53bPW0C9NjMoIj+gDFJIRs6mat/n/2bPex4F+I1CGhOXBrKA9n6eQBrQoukBd8MO7ExPwM7a2f/wBuE3GS5FkmE8w2RxQh7PZSeUSDfS+ziXPzR+18QJkioZgKgNgNEL50738jfxTcR7ZcR7piIgRoNCIEOG5gIMkwk0lyuQywXfRLls/4EFAUQFv20COUqYjdWAHCRZnjdq1KxaqUa+oFqp6tqTnSIe7LQg5sZLE98a/8bwT+Z/0evZAWvmL5h/2ZHOVWNBzIs5sVCfJKLR6lPtI+5rcsORxtfb3Vv1ZIf7m96Mo81u6fhAtTYP1374z9bvb3jfHXd0+IxPa/38i/c8d/bMmbPPtak6ptqYxys/ufvkX7LYtHrb6qNNmWLdFmVb1pU12325++Gmy1j2xptNmrz5xrJlTcFl14FAUPPMt/+srDXsn8rVEvju2X/Wn5Hyy6lyehiVJRBk3crdLEso/58qCwBAigPaJAgkk2X8Xau7KkCoigBJhaoCZJqpLUCuqq4ClLTUX4AKVc2VibyKUN9yBUl1u0FmgIMgV98zoGSYt5QK9SNjFskL8mEXNwGh8X1F7x69iiHF0NUosuCxPbRY5jsdCKnOMmuDnXbYZ711NtsHyB7T9f22mzCDx/uiQm899FIYotgO7scXWG+PvTbbaUfqMlRxXu7kwLy4s0iJo/ZhSBKRGpNusPu+9Tt2bN7b/QMKDPA7AwA=");
 
 export default TableTennisPaddleBall;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `key` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/key?s=sharp-regular key}
  * @preview ![key](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/key.svg)
  */
-const Key: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M315.7 302.4l-24.2-3.8-17.3 17.3L254.1 336 224 336l-48 0 0 48 0 16-16 0-48 0 0 48 0 16-64 0 0-78.1L196.1 237.8l17.3-17.3-3.8-24.2c-1-6.6-1.6-13.4-1.6-20.3c0-70.7 57.3-128 128-128s128 57.3 128 128s-57.3 128-128 128c-6.9 0-13.7-.5-20.3-1.6zM272 384l1.9 0 7-7 27.2-27.2c9.1 1.4 18.4 2.2 27.9 2.2c97.2 0 176-78.8 176-176S433.2 0 336 0S160 78.8 160 176c0 9.5 .7 18.8 2.2 27.9L7 359l-7 7L0 376l0 88 0 24 0 24 24 0 24 0 64 0 24 0 24 0 0-16 0-8 0-24 0-16 16 0 24 0 8 0 16 0 0-16 0-8 0-24 0-16 40 0 8 0zm96-208a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Key = createIcon("key", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgAAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCQwsGAAE2AiQDCAQgBYMtByobPQXIjsQ4JvGLKEzi4f/n/nOfm2QgGYYMMxeQFblvC0z2r0qS1a9C3uf/mn73/Brw25EdWhQWlUbREjOfT2CA0VYFvNlsYDOdgO1tw6OBKB6HRARFVGM6Xqcj5PFuPKYgPZ++w6P6ofGPnu4iKTIA0QEAC7ZtWuOj5miO+LbxOvGtVQiIBaAWyJChjwCzZQJ95GrkckFzNBr4H1gTQLRgr00gR4E78BggB0mW52NndK6KtvnWqigPDR0ydHgMj7IU4EkRsS1GRa94Jl6Z9+Gyz+e8P+DF2e8tfqDb5qqsuseoeLr6c9Ov2/7Y+MvW39b/tPm2rpujS2CnqsIKA932YPcxz8bt3Z4pH+jylOWHnq4GNnVo+s93R78z6/GLFy92MEm/8eN10MH3m2+tJ5/EcD3LYvKi9esXTS5oi/LxURtSSkc1+bndyogOUaCVfJ3aru8LLziqtF0PTbmvg1Z6nBQjf/ixH9vdx33tvADpQFz229+/bd/Xfvb/raoE/npn8itqfJSkJrSSQJCNboy2O4FEAABSXDUwQSC5QUbftY1nBAglAiQtlAJkeusgQK40SoBCP1MEaKG0SSby1kIXeypI2rgAMlPdDHJdvAoKs30ZttAlskzk84h/CKYsbeElo+oJY8fXM+thQQjJxfLgrHpZHX6VGkbARkedc9ZlRxx2wuWGumhNcsUZS2fIEl9Um2Cs8Woz1dvl+9VbHXHRJSecc1aGmaW+7wx3dd5+BBiJMU7kJsmHxOapI9cD");
 
 export default Key;

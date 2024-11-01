@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-arrow-up-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-arrow-up-left?s=thin square-arrow-up-left}
  * @preview ![square-arrow-up-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-arrow-up-left.svg)
  */
-const SquareArrowUpLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm280 64c4.4 0 8 3.6 8 8s-3.6 8-8 8l-124.7 0L317.7 338.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L144 187.3 144 312c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-144c0-4.4 3.6-8 8-8l144 0z" />
-    </Icon>
-);
+const SquareArrowUpLeft = createIcon("square-arrow-up-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcwAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBZAsGAAE2AiQDCAQgBYMtBzsb7wQjEaZysET2jwTbDVcLYaqLgwViaPDAO7TGw//v12+f+97MghFUHz/hKuk3uphGGuk3PDQ8QiZP1r7r69iw0jCM4annBksuTlzz/M+fHrCC4FGisfS9Ytp5PoGJzqJtgG0De1Hc7jTHhGiPQ1piSY5vHJ8j5HHHbiXSrfQFF/KPxj/dnSfJMgDRDgAz1q1aouVX/Ir40kB8sQgBMRMUAhky9BJgskygl1yBXC74FY0G/gcWBBBldKcEcpSwFlsAOUiyPM/3MF61VM/XhgepbHqKiKsxxS271urxwm+ULG7zeq8tvnMi3ox6PFuvUoqb82WtxfP9Omc7rtlVVGJNXMNVrg3Brr/OiBtebXodXv9+X/Z+Me3CM/CNr9l02ddvw6czGmYblfa0fwiYh+3bV6bTYKuu07aXy9ubPX5kzJhVqx491izxvXGx8EgBcdmLOX91W9vJ/6WawJ93Ld3c+BUt6TVaSSDIBjeuzdEClh1AkOKsJqFkgWSpDOhba64LECoIkJRVBMj01E6AXMUgAUr6GCNAWcUqmchbC51saXBScwLOjNUM5zp5C5dM9j4oG3aKTLVkxZA/dhlzOTBnXTFi6PBiYjFtqoq2iHF5UrFs9j/rhgbARnsdc9Rpe+x2wGkGnbQkPuOIuRI4R4kKIww1XGGiYrtzb6xlwUmnHBhr+6tMUpx3+zsrTx4ATkKcI1UliUi4nfoQX3Hy2LkhZ46/PAAA");
 
 export default SquareArrowUpLeft;

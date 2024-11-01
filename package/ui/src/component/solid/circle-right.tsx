@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-right` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-right?s=solid circle-right}
  * @preview ![circle-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/circle-right.svg)
  */
-const CircleRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm395.3 11.3l-112 112c-4.6 4.6-11.5 5.9-17.4 3.5s-9.9-8.3-9.9-14.8l0-64-96 0c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32l96 0 0-64c0-6.5 3.9-12.3 9.9-14.8s12.9-1.1 17.4 3.5l112 112c6.2 6.2 6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const CircleRight = createIcon("circle-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZQAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBRgsGAAE2AiQDCAQgBYMtBzMbyQTIjsK25RMjGIcxdYgKvKhE/PfLb33uvNkQEsGyiqRCdikZC8blIOTadTg0xvzCUkj0XI21vTdP4vufxD2JI6JNLBEZEiFSGZJrglKpTJ2qGeehgOWNgjYWLssFZAHudR6BgK+2voGq2wpW0wpY1W384Q+irBhEjuARMbSDIekeWs67fT31vT6At+VD85fMPmWyA4AsAACXH1crcDPKKHkfzshvJSCQywBHEXTosIOAc6iCHTRHgaYJowyD/AciCJAxwK0WaGi4DtwFoIFSjaY4zu35tMZ0zyE/l0lub35Ov7z9ffX+8e+Vu1tfUy9ufFy6eTBUa9aOxF/WEg45YCjEzvrXae7Fqw/zeeX4ycLBP+3H+IcbmUk2D3+lUreHsknXrV+0F5wFTI8f7rPjBgmePRNgvfagOM6nD+MLC3D8A0AQHj8Z7xsQnvs/MU0B+PPz75/+ioabUgeYUCB0+8O+XoEiAIDKOl1BUM6j4Hed8UVATCGgjJkS0NkmQkAz5QQCens8CBgz5T6qNDbEir4OyoynoHPWBmhWnILeOc/GmJV0scREAvOSS8xaNDOGDqsdgzj1NTY8qNQP4bKkX9ecgXbCuAXzVo0ZNWXV4Msq9po5WQ/L+CLkYGWHgnA7etzcMGbZiikL5vOQEDyv66371QZSKUB6kqMUKd6XG+YqAgAAAA==");
 
 export default CircleRight;

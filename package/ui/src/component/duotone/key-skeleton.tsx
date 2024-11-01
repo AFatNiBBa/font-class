@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `key-skeleton` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/key-skeleton?s=duotone key-skeleton}
  * @preview ![key-skeleton](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/key-skeleton.svg)
  */
-const KeySkeleton: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 416c0 8.2 3.1 16.4 9.4 22.6l64 64c6.2 6.2 14.4 9.4 22.6 9.4s16.4-3.1 22.6-9.4c12.5-12.5 12.5-32.8 0-45.3L77.3 416 96 397.3l41.4 41.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L141.3 352l86.1-86.1c-18.3-11.5-33.8-27-45.3-45.3L9.4 393.4C3.1 399.6 0 407.8 0 416z" />
-        <path d="M304 64a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm0 224A144 144 0 1 0 304 0a144 144 0 1 0 0 288z" />
-    </Icon>
-);
+const KeySkeleton = createIcon("key-skeleton", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABfAAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBZAsIAAE2AiQDCgQgBYMtB1QbCgUR1ZpJyD4S0+2M8gfFjVEkab5E8PxcOe8nu3dFQM0kq9kBoWsVAMYVhWVLoGO0OSRUjvyRiUbI0FYXkvvUqeexTQF8j3jQxrKpAVnL52jPe14MYKypF5cWpEI1rYH1bcNjwxRHjSgpiojGszG7QR4Xsh0qpLPpHQ7L/wDGV23sIKmTAYjGAJiycO50xaf4lOJdeZd4ZxoCYiroLJAhQ3sBxssE2st1Ri4XfEplSXyKsgQBRJXAmXdXUcF8LAPkIEkizxu061Gv0iBfUK9Sd9W96Fr/q8PvD7w+6MYo+8dFPCEltraBsY/r7hv9cKzYMt0e86hebGkxO07W29/qNK+2nBj9YoK5Y2Fc7jsvTuh6ufHl713eNe8M2lxsWLhwQ5H3PvVKpCFdevbsMiSlXpDBTZ0b7C2dadDgzN4GeH5GV3sNZf5859teveJ1IBAsem/aykbj/9fWS+DL459/4w9JWUSRLqNWAkHWv+xvWRQQhQAApNigaxTOIZDpLdFPre+UAKEuAiRVdQXItNNYgFxd/QSo6GiEAFV1zZWJvI7Q3PIKkvpWg8xIG0GuuTugYryXVlXzQNy3OM/gfnbJzkJ2DVmcQmOaKby7MHRssK2qJ3Q8uEoaq8WlVuldhjwU7m3mVoT1RZCJpUDDcXl/uVQ7nHqrhU8xcN9UnvW4BwajtLk9LoMmysVY/9GZUlN9rUvkpn05EF8k");
 
 export default KeySkeleton;

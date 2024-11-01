@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `candy-bar` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candy-bar?s=sharp-thin candy-bar}
  * @preview ![candy-bar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/candy-bar.svg)
  */
-const CandyBar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M166.8 64l6.2 0 147 0 8 0 8 0 288 0 16 0 0 16 0 352 0 16-16 0-288 0-8 0-8 0L8 448l-8 0 0-8L0 237l0-6.2 6-1.5C44 219.5 72 185 72 144l0-8 8 0c41 0 75.5-28 85.2-66l1.5-6zM184 80l0 112 136 0 0-112L184 80zm-16 23.4c-17.1 27.1-46.5 45.8-80.3 48.3c-1.1 14.4-5.1 28.1-11.4 40.3l91.7 0 0-88.6zM66 208c-12.7 16.2-30 28.5-50 35l0 77 152 0 0-112L66 208zM16 336l0 96 152 0 0-96L16 336zm168 96l136 0 0-96-136 0 0 96zM336 320l0 16 0 96 288 0 0-352L336 80l0 112 0 16 0 112zM320 208l-136 0 0 112 136 0 0-112z" />
-    </Icon>
-);
+const CandyBar = createIcon("candy-bar", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCHwsGAAE2AiQDCAQgBYMtBzAbHwXIjpQuL5Tx8L3Ot3OfZI8tf1CIFYYlYP0QapndLRB2QNV2waJJ92fbzJYE5fw+/9fke/f86AC/0aF1LSKeRzRPYGJ7s8SJReNsQhPi7U1jNsmyb5KUkvT1TsfTAfL420Yt0mvpEJ5JbxpHTPEESZYBiBIAp11zxUV+Go3RiIP/f0McdAEC4jRQCWTIMF2AE2UC0+Uq5HLBaPz/P/0HVgQQbXoCCeQo0OBeQA6STp7P7naKbndMt9cazK/utYobesWgSCGKodDCSfHJ0i+mRfQsMWm+EHIiislfnvnqZExf+ek80chX9p1X9QrasAjXCGIwshgIIVxdgCb44eZ8Xn7+y+xDmw/5+OF2+3CpViqbjoPaLrN34sShjo7RkZEHJgw3TdPX6P/241ETnrvRdZu2Hnv4Iq9qbF79cF3Xr6q9+skt/X6/1le/sqcsy1qlVmmUmuE9CDU/0ACB4O0D77tl+MRfO70Efv7xETsiPZI+R0cCQbbs/2VuTI/IXHHvcNxlDnxQINmqQy91wMsChAIBkrZCgMw0pQC5wlIBWmY6SoC2whUykXeF8W4qIBlwK8gc7UGQG+8r0HKivam28ZH5Hek15Lcv7uwaPmtZtXrFqur4aliVKVfC4/QJ1bK26C7uWgxrbbbHbnfYZKNt7qjQ21yUvdMuZ8+Qs3xRZbUVVqkcr9pu3K6+2ia3ud02e+yWRU5Qnfcuctd88GIwE8VcIz9JROpueJuh5etHbgMA");
 
 export default CandyBar;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mask-ventilator` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask-ventilator?s=solid mask-ventilator}
  * @preview ![mask-ventilator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mask-ventilator.svg)
  */
-const MaskVentilator: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M159.1 176C139.4 219.2 128 264.7 128 300.8c0 15.9 2.2 31.4 6.3 46l-31.8-7.9C70.5 330.9 48 302.1 48 269l0-85c0-4.4 3.6-8 8-8l103.1 0zm26-48L56 128c-30.9 0-56 25.1-56 56l0 85c0 55.1 37.5 103.1 90.9 116.4l71.3 17.8c22.7 30.5 55.4 54.1 93.8 66.6l0-76.6c-19.7-16.4-32-40.3-32-66.9c0-49.5 43-134.4 96-134.4c52.5 0 96 84.9 96 134.4c0 26.7-12.4 50.4-32 66.8l0 76.6c38-12.6 70.6-36 93.5-66.4l71.6-17.9C602.5 372.1 640 324.1 640 269l0-85c0-30.9-25.1-56-56-56l-129.5 0C419.7 73.8 372.1 32 320 32c-52.6 0-100.2 41.8-134.9 96zm295.6 48L584 176c4.4 0 8 3.6 8 8l0 85c0 33-22.5 61.8-54.5 69.9l-31.8 8c4.2-14.7 6.4-30.1 6.4-46.1c0-36.1-11.6-81.6-31.3-124.8zM288 320l0 192 64 0 0-192c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-    </Icon>
-);
+const MaskVentilator = createIcon("mask-ventilator", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABhwAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCLAsGAAE2AiQDCAQgBYMtBzYbMgXIBp7/z6vu+0kp1UYaxkArSKzdiGcP6uLU85yHAviWQRC0sXBpQBb4nOcRiNhYtFovaMFqBbaq1rzlRHuk7JfMjCbT47fHNzqALr+1aVhArVbXgYXjreQ1wUwDhUMDAEC8AACAqpZNm+B6IA9Erv0/DnKNRoAASBUAJgJoeEUYAkApGgKEoWMCOjoCD+T/f/oPNEEAQKzwPQWADliBUcAUsD8fKHRd9yr38XJa3PUWTovR9r45KThedoSsEZGVgc4Mw2ls81sWhKxP2p3XXM43ENkTMTl0bcrehO1Ju4NXsy4RuVbRUk6m7I0UWROwIt6QA8Vn8o8Vnkrt7DScy/2RSUGrYmNlrWxp0QzBKSKTA1YYc/yWEb3Ha8/bqOs9rrPBM7zGHtT8OTMePQpujrVTz42TJ08e9O+9rTmOiQtn1/UmfWsTXtpDbt5sXnfTprrNb94Msb9swtLyut7MXjjR0Rzb+3+DJrM7OLnToJCk1QkZPXv27GRtTvCjRyO+0zzIHl7jWuhyuSpx4TFrlkfBA4Dca3H7Q3pHz9KvdqcC4NGZ9z+YT/93qUlqD2BHASCgpf5PpZ2aBFCpAgCWkhFEOx8kgGIQOmy4sSLqCAYIKKwYoBGKF+gYpICFCPIOWDFoioboDgQ/2iOgcGMwaOQzHnT8OAoWSrlkWvETLf245OEef8l1NVKnz8xKzzSLza1r8RnFtHaJeawkjqBUEibpwUAGMIzudKM3wxQ2hCbOcPpT10Pr8EVMskgnE5NizHCwHW5Bd4YwlN4MZEDvUoJ530hkhF+cBF3BtNnsKBSI8uzfeWjftBE/35r9Og8bOAQAAAA=");
 
 export default MaskVentilator;

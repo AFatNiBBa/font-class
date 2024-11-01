@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pencil-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pencil-slash?s=sharp-duotone-solid pencil-slash}
  * @preview ![pencil-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/pencil-slash.svg)
  */
-const PencilSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 512.6l51-10.2 109-21.8L340.1 364.5 263.2 304l-27.9 27.9L224 343.2l-22.6-22.6 11.3-11.3L237.9 284l-41-32.3L96 352.6l-21.8 109L64 512.6zm61.2-61.2l15-75.1 23.7-23.7 12.1 0 0 48 48 0 0 12.1-23.7 23.7-75.1 15zM265.3 183.2l41.3 32.1 50-50L368 153.9l22.6 22.6-11.3 11.3-47.2 47.2 77.3 60 75.2-75.2-16-16-96-96-16-16-91.3 91.3zm114-114l16 16 96 96 16 16 34.7-34.7L576 128.6 542.1 94.6 481.9 34.5 448 .6 414.1 34.5 379.3 69.3z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const PencilSlash = createIcon("pencil-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABiQAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCMwsIAAE2AiQDCgQgBYMtB1QbWQXIjsO44TuyxVL+I3h+jmzeTwrA2TKTAyRZtbZVSAfCHUtWp9PMgKqfR06NN15q/HIJinI+3Y/tzgW5Nz6BiTaj82k2oIHNZoo72/bmiHhoXCiMM+SpS3ZaFdKDBNfC/wDGX1o4TVIjAxD1ATBuyYJZ3v4Wv6X4oXxG/GAmAmI8KAQyZGgtwEiZQGu5Arlc8FsqS36LsiwIIKoKr89AVVTDAVwC5CAJeZ43aNWgRZNaVerki0NBzRWdOnfaF52iZ3SO/fTgPoumTJyyJJbE4ugajaN7NIseMTwWiqxYsGThkp5XKxDZWtPCFcOGD1ug5W6HvJGx6ILcVFJZtnBJk6ZN+l6TGOO80TGf7BsZI9tX1q/8p8JmWr/5KAS/0NsnvnbHjO0ent3Z2IEDZo70QqVNXjjvmo0bNdnp5o91p1P4sNr6prUd1ncv1Rq5q4FKmz33r5kjzJiutGaN0orl+/aVMdu1V2iggRfFOyqAQPCkz0+P19Qb+X/1Wgn88fy/P8mHyzepdFSXQJD1LHtamY4DJgZQTnFY+42vGiuQWS4Xf2ptdwUINREgqaqmAJlW6guQq6mHAFW0NUiAqmpaIBN5DaGxVR2e1LYPzwx2BM819hSvYqQvpaoaRwaCHABxf4DJk4fApF1Fv959i+HFakfDQxVjN0cUh7Wuh+VEN1xosz12O2iTjbY5OID2m1U9ZJfJW+AkP1Top7e+CsMVl/tP5cUU3u+Abcru69uMUDwfdXV4e343bCYxaX+XZjIiRdZ476bdG7bt7HVg57oDW3tB83TTGfHNBQ==");
 
 export default PencilSlash;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-code` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-code?s=solid rectangle-code}
  * @preview ![rectangle-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/rectangle-code.svg)
  */
-const RectangleCode: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm294.2 71.9c-8.9 9.9-8.1 25 1.8 33.9L356.1 256l-60.2 54.2c-9.9 8.9-10.7 24-1.8 33.9s24 10.7 33.9 1.8l80-72c5.1-4.6 7.9-11 7.9-17.8s-2.9-13.3-7.9-17.8l-80-72c-9.9-8.9-25-8.1-33.9 1.8zm-78.1 33.9c9.9-8.9 10.7-24 1.8-33.9s-24-10.7-33.9-1.8l-80 72c-5.1 4.6-7.9 11-7.9 17.8s2.9 13.3 7.9 17.8l80 72c9.9 8.9 25 8.1 33.9-1.8s8.1-25-1.8-33.9L155.9 256l60.2-54.2z" />
-    </Icon>
-);
+const RectangleCode = createIcon("rectangle-code", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABawAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBUAsGAAE2AiQDCAQgBYMtBzUb1QTIrgp4Mt6QIQ5IE6FGpbZpX1M5AxwYTxF9v99nz7n3LVCAUKECkitDMlw+wkW4OHKr4wl1jPkViyp238+Py/ePYL5rl5QgNKgEZW2Li25MecNOu9QXS/M87G8s5/Fv5i3CwB1wdBkcNuA00RASXYD/31vP93w0wG80tK0TLw3kAj/P51FAifXCyxPKAss0AI8h3SY+dkSxqwgRIZHo+Ow4O6Dnpd1AvSx42m+aX7bZU2YbAGQtAHDldjIBn5NMkr/xNflhGQjkCsBeCA0NOyFwHlawE85eoOvCJOPI/8C9IECmAB9ToGPAMnADgA5K6zjJJh51oOMy85SCPZ+AeToicjn2iVEOR18dz/X4L8H3XmzKUqZts3G0ZpsH98a27YuumTzZ1F1bTkFR9/+s/1/j7pwB61bWVtYZymWUdbLmUPi/11779311Zwzm82w+RmWraYTIeRCE619musP0/2EYgJ8f/t18i8ZJqVeYUSC0k+NJ2QJQBABQmdMUBOUaLFx1wTMBMYeAMmVOQLMDCwLdnBMQGOzmh8CUOddhpZMhNsoJlAWPoTlnAd1GzzA478uesjEtoYR0EL5zqXGNYlMq53CpIqqtb4k5wmo/qgprdl5yZlqEuoG+qZqqlqkiYwlvpifu4ZgHqbg5uKhEqI6j7XxGzdhEy0C/DYlS3bdM5n61mUwMUE/ZUIoUY/yoMi31G92a/aUB");
 
 export default RectangleCode;

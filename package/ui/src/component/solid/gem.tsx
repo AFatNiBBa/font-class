@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gem` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gem?s=solid gem}
  * @preview ![gem](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/gem.svg)
  */
-const Gem: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M116.7 33.8c4.5-6.1 11.7-9.8 19.3-9.8l240 0c7.6 0 14.8 3.6 19.3 9.8l112 152c6.8 9.2 6.1 21.9-1.5 30.4l-232 256c-4.5 5-11 7.9-17.8 7.9s-13.2-2.9-17.8-7.9l-232-256c-7.7-8.5-8.3-21.2-1.5-30.4l112-152zm38.5 39.8c-3.3 2.5-4.2 7-2.1 10.5l57.4 95.6L63.3 192c-4.1 .3-7.3 3.8-7.3 8s3.2 7.6 7.3 8l192 16c.4 0 .9 0 1.3 0l192-16c4.1-.3 7.3-3.8 7.3-8s-3.2-7.6-7.3-8L301.5 179.8l57.4-95.6c2.1-3.5 1.2-8.1-2.1-10.5s-7.9-2-10.7 1L256 172.2 165.9 74.6c-2.8-3-7.4-3.4-10.7-1z" />
-    </Icon>
-);
+const Gem = createIcon("gem", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABYQAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBRgsGAAE2AiQDCAQgBYMtByobwATIHgm2zYb1kU7RFaKb8fD/c1X3/aSqIT3IGWZ0QIrZz+yqPavYsRHMujtAF3xf/uOHzP819eL50QF+o8MzisSi0qjnZxXL5w020NHeMBJknjawieJ2pz1zSJbDkpZYS45vx6scIY/3sisqpCfpS9ziL41fdXCFpC4DEM0BMH3tysU+jq8ivmh8l/jCQgTEdFAKZMjQWYBJMoHOciVyueArGuF/YEkAUUWPkkCOHDOxEpCDJOV5295FpUm+pqjUb3xUFHGtzep40HpV3K+/2nZNPGy3dvL9iUK59QOOX4uLxdp41O7hmgK57UMTZbi1dY/XzV//3pd7vnTqxf6GvzTsP/rIq7d/ZG9R7G07v/3q6KO1M3uP3+peYVm1uuyjZoIItFh/tzBuq94zV85av029x6yVQCB4/0V2aWuzSf/XFgl845/zjW4sVdJr1EogyAY1DrIpUaCXBeSnOKMHxASSiYUcn9rgoQChHgGSqnoBMp00FyBXb6AAFV2NFqCq3kqZyOuE1jYPkDQ4DjJjnAW51t4BFZN84le1jsyXWE9gX3JJcyQ6e1U5fMiwckK5TXTOPeg0PrE0y/3OxEZ/2GqPo444Zbdd9jsl8BMWR6cdNkfDZvuh0nBDDFOaoDzOnzevsdsJJ+131JE8yUTlfaufM3rv/qAlRDiCnSRfCut7dx8GAA==");
 
 export default Gem;

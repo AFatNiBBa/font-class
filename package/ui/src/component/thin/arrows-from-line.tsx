@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-from-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-from-line?s=thin arrows-from-line}
  * @preview ![arrows-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrows-from-line.svg)
  */
-const ArrowsFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M218.3 2.3c3.1-3.1 8.2-3.1 11.3 0l88 88c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L232 27.3 232 184c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-156.7-74.3 74.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l88-88zm11.3 507.3c-3.1 3.1-8.2 3.1-11.3 0l-88-88c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0L216 484.7 216 328c0-4.4 3.6-8 8-8s8 3.6 8 8l0 156.7 74.3-74.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3l-88 88zM8 248l432 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 264c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const ArrowsFromLine = createIcon("arrows-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABawAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBUwsGAAE2AiQDCAQgBYMtBzcb2gTIngV2s8sTOqHocXexWXgtxMPTGu39md1FxJZLiGsSt0ajq4RyCWl481DEK9kkmYFre+qL9h006W4DGlQpvhD91KnnOQ8F8I2CsobNjQt8ToGcF7hWrxd8WcFqGgHr24YIOYLwOCJEUkIaL8frDkVcY6uSdGXh1PjS+KKbkyQ5A4i2AJi+Yslijz/Ox4iX/yNeWoiAmAFqgYyMngJMkgV6KtQoFIKP8f9/+w+sCSAq/EwJFCixACsBBUhyUXTv3rpF2apY3qJsvuaSl8UFnc/yEOd1MRFL43wudsUqiyERYXySX+oFixVxyRe0dHWrlq0u+LxaxsVcakPjNf6+tvPqAaxYYfToJUvmL3BDtXFjdYP5CyxZMnr0ihUtfnvGu/ImYyaqNt5EHgcCwZXVPdtM+tq0RQKf7/6LTiP/H8apEZpKIMiD/g+yNh5DPBYAgBTHNcRjBJIZMvzUli4KEJojQFJpLkDWQ1sBCs0NFKDU22gBKs0tkUXRTOho3QJJS4dANsYJUOjoDihN8iSudIxcUVQ9UB+6+Dkamn2pHj5kWD2hdnOTLhKi7yfWx2K/49TrDzdtd8B+R22z1S5HFXLY4uyYfeZE8Gw/VBtuiGFqE9TpassvR0z4I5rY0/kjJqrvu/0cj6f7g5Iw6ghXkkSktpsOF7ww+PEJg58dAAAA");
 
 export default ArrowsFromLine;

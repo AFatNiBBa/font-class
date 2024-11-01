@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard-user` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-user?s=sharp-thin clipboard-user}
  * @preview ![clipboard-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/clipboard-user.svg)
  */
-const ClipboardUser: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M254.7 67.2C248.8 38 222.9 16 192 16s-56.8 22-62.7 51.2L126.7 80l-13.1 0L80 80l0 64 112 0 112 0 0-64-33.6 0-13.1 0-2.6-12.8zM80 64l33.6 0C121 27.5 153.3 0 192 0s71 27.5 78.4 64L304 64l16 0 0 16 0 16 56 0 8 0 0 8 0 400 0 8-8 0L8 512l-8 0 0-8L0 104l0-8 8 0 56 0 0-16 0-16 16 0zM64 112l-48 0 0 384 352 0 0-384-48 0 0 32 0 16-16 0-112 0L80 160l-16 0 0-16 0-32zM176 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm16 224a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0-112a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM123.5 368l-21.3 64 179.6 0-21.3-64-136.9 0zM272 352l26.7 80 5.3 16-16.9 0L96.9 448 80 448l5.3-16L112 352l160 0z" />
-    </Icon>
-);
+const ClipboardUser = createIcon("clipboard-user", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABlQAAAKJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCcQsGAAE2AiQDCAQgBYMtBzUbdgXIjsQ4RvIsmh8RD09233dudY+qx+hvLWhFP1sw3QhAuu9tw+11T91PpeoapO6a/2vqxfOjA/x2QXBokVS11DVHxPMJDPhsGgU0TtuAphO0DdtG5gKzxuvvHso412GaSHenj3BjetP4xYjLSIoCQHQDYOM9d93e6i/jy4gPG4/40LYIiI1BLVCgwLgA6ykExpVqlErBl9FosP/AmgCiWbidBEpk3InHACVIWstyeN5AW0dHW0fV1FHuUTXlfe+ZDfFEvmZmDFPkLKoq0DaDe1S5undBzznzcgQrIVBUCpHbI4qIWSyUx1U6p+hoBzmMQfmDY887h2xA+31Qnhzbo2t2DI+ROQten5dz78o/vxb0mrx0xdIqlkfec/c9dh+InIdiz6imP9Ndv0376IiP/H/e5h10Dg93dmw+rmP6Rk46aSPTO8ZfSNOnT993440++2yjjfed3t2t21qtrW7SqvWs5K/VLWqNpaH8Ige5yFJ1K+LPbvWJU51fftnpq7q+eOj7N9/8/iFOPGnp4qmpxUu9TV88EJe/ZkdX39o1uiMt2VHPpztKV/EQEAiGvnvm8wO71vuvFRP4+p0/fpEubqyOi9IzaJVAUCxsLLRfXASMHsBPSnGG6XERAsmNWoVXbXeHACEjQNIsC1AY0y1AKVsgQJNJqwRolu2qEGWb0G//CiTtTgaFNZwPSv1eBU3W826mWX8UFyh/efH/hylbNNHN19XLFi+t16lHmwrhmmP18rr1Yn3uGXxoHtzoCCc6wWkOd5ijndbAT7F9/nTH22IK29wX1ZZZbKnaOurNnbvKHjhzilMdPSxtX2Vd9fHxuc6YnjwPWklgXK4sSUTq/Dpwp6+66NQGAA==");
 
 export default ClipboardUser;

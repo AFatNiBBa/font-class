@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reflect-both` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-both?s=thin reflect-both}
  * @preview ![reflect-both](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/reflect-both.svg)
  */
-const ReflectBoth: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M113.2 25.9c-2.5 6-1.1 12.9 3.5 17.4l128 128c6.2 6.2 16.4 6.2 22.6 0l128-128c4.6-4.6 5.9-11.5 3.5-17.4s-8.3-9.9-14.8-9.9L128 16c-6.5 0-12.3 3.9-14.8 9.9zM233.4 182.6l-128-128c-9.2-9.2-11.9-22.9-6.9-34.9S115.1 0 128 0L384 0c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-128 128c-12.5 12.5-32.8 12.5-45.3 0zM25.9 113.2c-6 2.5-9.9 8.3-9.9 14.8l0 256c0 6.5 3.9 12.3 9.9 14.8s12.9 1.1 17.4-3.5l128-128c6.2-6.2 6.2-16.4 0-22.6l-128-128c-4.6-4.6-11.5-5.9-17.4-3.5zM182.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-128 128c-9.2 9.2-22.9 11.9-34.9 6.9S0 396.9 0 384L0 128c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l128 128zM486.1 113.2c-6-2.5-12.9-1.1-17.4 3.5l-128 128c-6.2 6.2-6.2 16.4 0 22.6l128 128c4.6 4.6 11.5 5.9 17.4 3.5s9.9-8.3 9.9-14.8l0-256c0-6.5-3.9-12.3-9.9-14.8zM329.4 233.4l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128c-12.5-12.5-12.5-32.8 0-45.3zM128 496l256 0c6.5 0 12.3-3.9 14.8-9.9s1.1-12.9-3.5-17.4l-128-128c-6.2-6.2-16.4-6.2-22.6 0l-128 128c-4.6 4.6-5.9 11.5-3.5 17.4s8.3 9.9 14.8 9.9zM278.6 329.4l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8l-256 0c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128c12.5-12.5 32.8-12.5 45.3 0z" />
-    </Icon>
-);
+const ReflectBoth = createIcon("reflect-both", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABpAAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDEQsGAAE2AiQDCAQgBYMtBzMblAXIjsJxrwSFEJaYLCg4WBFVyyyrd2QN89Aii+SZsAVEgAhQMSH/xkFPwAP0BCiePsAf9//vr+7HAH47KzjBTKDiusoNCnX2dCVh4prnb01/nv7ij1Jrq/SqxAlMbDdLigaeDWQ30wnYZs5NNd2dbvTvoeUIrlGoD/gtcO/eNP8odFG6DgAyCQDg+CouFs4f8prc9nbIH9FAICcAWIahQ4d5GNhDCOaRloGmCa9Yr8f+AxEIkH4IYDm8YRhf8BvQQBlspEBMQ4ViVh+HTJRrMdOmJAnYtCwJm5XOSNkZECckwn1nVIvmnKwo5sXx2BRzQJo4BZU2yRhLIjbDLNOQmjjgMltVEplIrEkS8mZkG6XMyoi0S+OTYuas6YoCz5zJ8hy+GStL5rA5g7IVxIkp05KkhMSEafmgh51V5cLqT2ENSvSb/M0no9vCW6j+alnY2gobP1tboXA1YgwMnzYttYYDDLkdAQBHt7mG1laYG+PM3YdOMcHwy8R4cOEj+2mpqZ8Dxu4+gV8zC5K2Yvbb2mrXNELXxZjDj5NtWeZUsJBntkuqIytcYpaZ1QtcDyAI/x93b7J4Pq90Fg7w9/DlK/kZ6Z2X+gUMKhC6jX8b6QVQBABQaQR9QVDeGBReddRbATGMgNJvWEBnDh8GmmHrMNBnkSsM9Bt2hpDGgJiVUTBl1A3T2dXMNLO2mD57Ljz9ZtPdsLLbTfa/mDqsCoQuQo52DsgL9ZZk8ntQ1KPeaLLWopG3WMKVUKhKpXoF8pWor+C1Yv0NKoQNYaG+CHFkxwHiBS2u3lyeqECtOiWqVNp5vKHtnRYah7tbQgMucG7KK0WK/cHS2N7h");
 
 export default ReflectBoth;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `films` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/films?s=duotone films}
  * @preview ![films](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/films.svg)
  */
-const Films: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 120L0 344c0 75.1 60.9 136 136 136l320 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-320 0c-48.6 0-88-39.4-88-88l0-224c0-13.3-10.7-24-24-24S0 106.7 0 120zm256-8l0 48c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-48c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32 14.3-32 32zm0 144l0 48c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-48c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M96 96c0-35.3 28.7-64 64-64l352 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64l-352 0c-35.3 0-64-28.7-64-64L96 96zm56 0l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16zM488 80c-8.8 0-16 7.2-16 16l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0zM152 200l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16zm336-16c-8.8 0-16 7.2-16 16l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0zM152 304l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16zm336-16c-8.8 0-16 7.2-16 16l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0zM256 112l0 48c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-48c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32 14.3-32 32zm32 112c-17.7 0-32 14.3-32 32l0 48c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-48c0-17.7-14.3-32-32-32l-96 0z" />
-    </Icon>
-);
+const Films = createIcon("films", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAAB5QAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTyEXQsIAAE2AiQDCgQgBYMtB0YbdQbIjtRW94qViofn9f77tXPydKGRMiI/rEpEKXduinyzGuT/q9n8X5PvGuQAPx/o+aHkosoqOCLxBPYGOppFWoEPaDqCGY7QNzhvO+BJISKUHyGPvek6XWQPZ1/izuF/AOMXQ1xHpi8BiBYAVh920HYfl1Fm8eWB14kvbUNArAGFQELCcAGWSQLD5QrkckGZHUAZBxQEEN2mJybQjQZRIQYBcpDpk/J8aKeVa4fCaLWrnh86fmHlqEenRrw6sR7PT355iHho0kvjavHClFeGRlW4f0A1HhwU8cDAStzX/6T7+gt83McLoUO3vWrA/dVq3DrowYi4euADlUrc0v8+hyQrR9xHDFsm4enlH6yvx4vDHplQizenvDIy4pb33ODDHA2GecWYV1qv/Db6y7503HGVNu2njvdUu10pIarCvKg1FTTKlrLRcrp2NhMJ/sDOy8TuH5415TVuuqlxvH1ilpccdd4UpApuYVNZln2nHHrXKrsHDNi9yqrenZc6DlnsQI+1we5i3g4Egv9v3XD0cc1l//VWM/D1u3/8c17jQJmtyl5BrwwEadqBaY7uItDRA4hlcakx8IOORyB5XZ/pVWseECBUECDTrSJAMkxLgFzFVAG6jDRfgG4VB0ki7xP6O+YFmZoLQLLA5SDX32ugyzKfxLv1jxQvJF8t/Zam2YAi65cVs2fMKpYU3Ipb4dWFdnJpoWyZdGnZMRludKrznOtipzjZGS5GqAttT13iHBtEzPXvLcw2wyyFJQrj+qTmUCR+oYucwVaZy1mqcB+Y5FJx/8nQnplY51iTJCKLVI+nhunhS99EVOEIAAAA");
 
 export default Films;

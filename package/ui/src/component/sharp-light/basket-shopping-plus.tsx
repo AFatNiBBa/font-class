@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `basket-shopping-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/basket-shopping-plus?s=sharp-light basket-shopping-plus}
  * @preview ![basket-shopping-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/basket-shopping-plus.svg)
  */
-const BasketShoppingPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M253.8 17.9l-7.9 13.9L155.4 192l265.2 0L330.1 31.9l-7.9-13.9L350.1 2.2l7.9 13.9L457.3 192l53.7 0 33 0 32 0 0 32-40 0L464 512l-352 0L40 224 0 224l0-32 32 0 33 0 53.7 0L218.1 16.1l7.9-13.9 27.9 15.7zM503 224L73 224l64 256 302 0 64-256zM192 336l16 0 64 0 0-64 0-16 32 0 0 16 0 64 64 0 16 0 0 32-16 0-64 0 0 64 0 16-32 0 0-16 0-64-64 0-16 0 0-32z" />
-    </Icon>
-);
+const BasketShoppingPlus = createIcon("basket-shopping-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABawAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBdQsGAAE2AiQDCAQgBYMtBzsbAAXIngV241WNA0rMLMyUsnYsQz727hGSdPL8/9+b+9z3Jq1b93xKo3TQUoGCIYo1oZBEYFY0AuM/v587Z2Jvf6L1TlTaqilS0m80WlqlUcVD81LIQADXvGXo6IP3w2kGRWEXjnieNt5Q0qIYAw4IJxrAmvipU89zHgrgcwiCNNak0TXA5jyvQLGAjbabKlQLWESxMdidlpqktMOjtWBJjs+Oz+EOPR8ZYKa+1eA9FzT/XK6h9AaArAAArh6yGU6/qnHyPjlAfqUgkGuAPURDwxaCU0bBFpM90HVhzMkf/wNFECBToKIV6BjhBV4BOiitmzL2iDJrprUyOw6BcGCp0rhmiCkGuaJSyBy3dHJPB0mlNgwzsbJqzhU1bi4tDkWSiojFxIFAnnyB0ZNzfZY08d21XllhVq5ZOrJU/cF7JSJtsotL15cm5KGHa95j+5rvj0e+d+T0TP04CY8x/0pcvpTfAxCEteFOiKP/Z7QYAH+3v8PnTE7qS8MJzCgQ2vDv5lhjAKJVQKOiQ1ZKFpQbGqBfXfCBCsQcAsqUOQHNJg+Cbs4+gpEdDQRT5tzQSLcjNpwxKAveQHPiCnQbbsDIqafGlI0YTYwyEOqFFx+VUOSUWCmWpSvTgUpbDZEOe7Ksp/WwkIFcmkaG5hrqOuYCmcq0FwaiGhxRIlFFUZnoku3xLV/wjamZzlixf0yPnI/TdH19Biw1wjxwphSpwF+4imKUgnJPAQAAAA==");
 
 export default BasketShoppingPlus;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-tanakh` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-tanakh?s=sharp-duotone-solid book-tanakh}
  * @preview ![book-tanakh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/book-tanakh.svg)
  */
-const BookTanakh: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 384l64 0 96 0 160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-160 0-96 0-64 0 0-64z" />
-        <path d="M448 96c0-53-43-96-96-96L64 0 32 0 0 0 0 384l32 0 64 0 96 0 160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-160 0-96 0-64 0L0 448l0 64 32 0 32 0 288 0c53 0 96-43 96-96l0-320zM208 40l13.9 24 27.7 48 55.4 0 27.7 0-13.9 24-27.7 48 27.7 48 13.9 24L305 256l-55.4 0-27.7 48L208 328l-13.9-24-27.7-48L111 256l-27.7 0 13.9-24 27.7-48L97.1 136 83.3 112l27.7 0 55.4 0 27.7-48L208 40zm55.4 96l13.9 24 13.9-24-27.7 0zm0 48l-27.7-48-55.4 0-27.7 48 27.7 48 55.4 0 27.7-48zm13.9 24l-13.9 24 27.7 0-13.9-24zm-55.4 48l-27.7 0L208 280l13.9-24zm-69.3-24l-13.9-24-13.9 24 27.7 0zm-13.9-72l13.9-24-27.7 0 13.9 24zm55.4-48l27.7 0L208 88l-13.9 24z" />
-    </Icon>
-);
+const BookTanakh = createIcon("book-tanakh", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABogAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCcQsIAAE2AiQDCgQgBYMtB1IblQUR1ZrhyD4S45jInZmZH9HESzx86Erfl3QkmWhhbNkVIoawQ4btghWqvUnJVeoNgIlr6sf5U1MbPUotMdOiOaI4AQccZekFPqGZzsC2bA6zi3koLLTfIYtX0ht1kDyW/IR7wv8BjL/U3EiiJwUQAwCwbM+OTVq90ZvET+0PxU82IiCWg1IgRYqmAAulAk2ZEplM0Ju023qj3S4FEJ3Ct6agE33wCJ4FZCDRI7KsHNfVtytO61909M1255fnZ54eH/H67D55EkXfO4Y+5NohD+Z5bnD8kwlvjEp31+q1SVEUI2JiVEQt8lxyrnpMFq5GTCFEPYrC1Ni1K6sRucmTJuf6/CKm1EY0RhRR35gXeS0au+u1+ogodk/pRh61LeGiHiNmlKVvnhtjXh/w+j+jfzr9k2+OdL/O69eWS68VUv1uvbVf6NnWUpNrX3+9e+l/c6qq+sacZuUb36g05wSTK4Fr9pEqJjSnvpMx1zveQZRxuKm6qEnilWrl8PXxvmvmlrSXLv0WePZxEAhe/Hl460j/hf93Fwn44/P//lT9jtqtaCWvo1sCgnRie+LBaEG0BAAgiSuNiRZKgdS1esSf2sfDAoQcARKdcgFSDQMEyOQmCNBhpFkCdMrtkIqsRxjiUCck+rhESM12lZAZ4gOhw0LfRjsNCZFCqAa+ND+IGVcP4VWrymmTp5bzy9WSRgt0ih1dUB42jb1y0jIOn3T6ogsvP3XynMsH6KWbEldcsHoLWfXFctrkqeX88nL16eHdpy697JyLLgymWVA+7xt75Xb3cdiaiEWnr0mlRBLpYPjNm3T5sQuPnXd2kmdvGzrV+2sAAAA=");
 
 export default BookTanakh;

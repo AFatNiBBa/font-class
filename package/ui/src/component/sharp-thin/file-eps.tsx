@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-eps` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-eps?s=sharp-thin file-eps}
  * @preview ![file-eps](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-eps.svg)
  */
-const FileEps: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 496l96 0 0 16-96 0L0 512l0-16L0 16 0 0 16 0 224 0 384 160l0 144-16 0 0-128-152 0-8 0 0-8 0-152L16 16l0 480zM361.4 160L224 22.6 224 160l137.4 0zM168 368l8 0 64 0 8 0 0 16-8 0-56 0 0 48 40 0 8 0 0 16-8 0-40 0 0 48 56 0 8 0 0 16-8 0-64 0-8 0 0-8 0-64 0-64 0-8zm136 0l32 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-24 0 0 40 0 8-16 0 0-8 0-48 0-80 0-8 8 0zm32 80c17.7 0 32-14.3 32-32s-14.3-32-32-32l-24 0 0 64 24 0zm117.7-80l26.3 0 8 0 0 16-8 0-26.3 0c-12 0-21.7 9.7-21.7 21.7c0 8.2 4.6 15.7 12 19.4l31.2 15.6c12.8 6.4 20.8 19.4 20.8 33.7c0 20.8-16.9 37.7-37.7 37.7L424 512l-8 0 0-16 8 0 34.3 0c12 0 21.7-9.7 21.7-21.7c0-8.2-4.6-15.7-12-19.4l-31.2-15.6C424.1 433 416 419.9 416 405.7c0-20.8 16.9-37.7 37.7-37.7z" />
-    </Icon>
-);
+const FileEps = createIcon("file-eps", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABjQAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniDAwsGAAE2AiQDCAQgBYMtBy8bggXIHge5yfKG3ES9UTz8v97T73OT9yaTDDJyhsYnO8ilVMkdvPrvVqgfMuS+QCTHALA2+2yeN3FN/Th/esAif5RcVGJ5RGoJDDjKssDLBjadoM3cNIOg8HJbEBHB1LYZxnSYuoE83nNGi/RE+hL3tQ+NXw1yM0mWAYgaACu7e6uPf4qfIr7ovEF8YTMCYiVoBDJkGCrAEpnAULkGuVzwU3Q64T+wIYBow0MlkKPAU3gVkIOknecju4wYVo+rWt3zfVWrHFaVlSjLiCwiqmpviDIiygREfDpn3959otpz0i4qlgck1W7cs/0eGfR434fHlOEFQRu0964BEY/FDf0fLZ2h2q8T+szA6/uNjWcHXX/DWpalVz8/5MJC4+K5wTcMeKwa9VL90u8jv+RLnRNQ1+J5tZ/U6m+d+9Wu93hReNzHfjqw/Xaae4c7Pv6mKHbUigUzTCgYmAAtIG0orLBCfXtDh8/4riz76rsZA01QqBVm2KFQjNje43Zu71HocMpAKwy8avvgwaNqxeCZfbq/8adFrfqll+pRWmWjlvuBQPDy5C8/3nPJ/0WVwC/v/lc+XOfj+Cu9hEICQTalM8WRQC20C/hNUlxtVIJA8qQ2vGs3jwoQSgRI2koBMkPUAuRKkwVoGW6uAG2l3TKRdxX6OjqwpJvLsMw812C5vl7DWpb4xNfWNzJL5e2M/1FMsm6G1/ZrZk6b0SxqtildYHxsbl3cHGsmXB1LJtJcZ7vExa50ljPOc+WEXm5r8CoXWScha31RY6ZpZmgs0jzOvk7f5yyXu8J5LnFx7WWxRt8xwdVy9YmkT0A5S0SSiFR8Fd6pZ116BQA=");
 
 export default FileEps;

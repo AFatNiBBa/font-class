@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin?s=thin face-grin}
  * @preview ![face-grin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-grin.svg)
  */
-const FaceGrin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256.3 91.8c-43 0-84.1-5.5-121.5-15.4c-3.9-1-7.1 .3-8.7 1.8c-.7 .7-.9 1.2-.9 1.4c0 0 0 0 0 0c0 .1-.1 .7 .5 1.9c25 46.8 74.1 78.5 130.5 78.5s105.5-31.7 130.5-78.5c.7-1.2 .6-1.8 .5-1.9c0 0 0 0 0 0c0-.2-.2-.7-.9-1.4c-1.6-1.5-4.8-2.8-8.7-1.8c-37.4 9.9-78.4 15.4-121.5 15.4zm144.6-2.7C373.2 396.8 318.8 432 256.3 432s-116.9-35.2-144.6-86.9c-9.1-17 8.7-33.1 27.3-28.2c36 9.6 75.6 14.9 117.3 14.9s81.4-5.3 117.3-14.9c18.6-4.9 36.4 11.2 27.3 28.2zM160.4 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm176-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const FaceGrin = createIcon("face-grin", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABlQAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCWAsGAAE2AiQDCAQgBYMtBzAbWAXIjtFjxxCycuRyhIF4vHh4/n7Uufe/iWqcoaRomt4UXtDFtgRcXdG01YjQb5BcNnuBtLHZQSpTS6zjByt46tTznIcC+EZBGRuXBmSBhOY8j0DAs213UEUaKmBNK2C1dna+Z9DLJiFFknb1htEBJZaRhIW8zzjB7XCp+GJEDaSqAkB0A4Dty4He2LiP+yAn9SzEYwcgIHYATCOoMDOOgDVMQnsAs2lQFMFL8r+W/0AKAUQj4gcmKGjGNfAAQAGpsTBLjSmKcbRwsfAwh3A1cCbeGZCY8jnibHI70ZsIutWf9D7kavY8N5wO5X6xS2L75Jyr2fvUfjP4xm7D64SzyefMYSskuMmlT7gHlcFtIqPmi8bzlsu6/Zy0WLRPeIczdMSMxILRnMWSTp9Yv8guV7MrdfYKh/SL9Yr0CPeJhjJWP6UwxD/0Sf4k5QQ/1mH3Hv7ntdvatud9e8UWWe38Tzi3MPJo09Fxc1qCwz6seJs60r7cTwEEYK5feHBQWNgQBELvabt9B8MlFLj08z4k1CWqoeExxtY252qgIeprw+TFfSfv/fPJcb6EmdcBAsHdjrn3sXxr/5q5GIDXS19+4UeIeiORDwHNEgTVQq0lKkESAICMEigkBNJVF3zVdncQEFoRIDVqFaAyhh8BRat5BDSYZIyARq3OYxKFA6FfdAGp3RVQWVUKin7ToMGafbVRf1RKSakU9SWMdyHIuYnq6+hRCzq0ZFrPCF+1pMuCWomLqGMGKXLlKJIsSXrCGqSAt1Esm8sMdvZFlD4deigLdNu9Hw+RrEChdLlypI4lel5RUzJPV4fMEFEXmVISyfHiVe3UgvQcAAAA");
 
 export default FaceGrin;

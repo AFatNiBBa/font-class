@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hryvnia-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hryvnia-sign?s=solid hryvnia-sign}
  * @preview ![hryvnia-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hryvnia-sign.svg)
  */
-const HryvniaSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M121.9 116.2C138.3 103.1 158.7 96 179.6 96L223 96c27.1 0 49 21.9 49 49c0 11.5-4 22.4-11.1 31L32 176c-17.7 0-32 14.3-32 32s14.3 32 32 32l123.5 0-50.6 28.9c-1.7 1-3.4 2-5.1 3.1L32 272c-17.7 0-32 14.3-32 32s14.3 32 32 32l20.3 0c-2.8 9.9-4.3 20.4-4.3 31c0 62.4 50.6 113 113 113l43.4 0c35.5 0 70-12.1 97.7-34.3L308 441c13.8-11 16-31.2 5-45s-31.2-16-45-5l-5.9 4.7c-16.4 13.1-36.7 20.2-57.7 20.2L161 416c-27.1 0-49-21.9-49-49c0-11.5 4-22.4 11.1-31L352 336c17.7 0 32-14.3 32-32s-14.3-32-32-32l-123.5 0 50.6-28.9c1.7-1 3.4-2 5.1-3.1l67.8 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-20.3 0c2.8-10 4.3-20.4 4.3-31c0-62.4-50.6-113-113-113l-43.4 0c-35.5 0-70 12.1-97.7 34.3L76 71c-13.8 11-16 31.2-5 45s31.2 16 45 5l5.9-4.7z" />
-    </Icon>
-);
+const HryvniaSign = createIcon("hryvnia-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhwAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCMwsGAAE2AiQDCAQgBYMtBzMbNgXIHoVN2Xw0IZRRFV4Ah5h9MfE8td/v3N3939Gs00lkz0ynVdFGFm1ZKgmvlPAsGtNmg3gp4LUKmBUC2pCqQ3BVdWwEyydwrdr/+b/m86uiAvmIRx6NhwlSfB9vGVoCez4vHjXv+Wxgw5FOwGbuaqntoRWvS9JCkseLPX5O0DIlXEYPyrXgCVzhTfPP2TIU8goAMg8A2DsoKsTNc36Sxw55kQ8CZA/AGgIVVLCEAJuECCwR4aARIfihLv8HcghA+kh08dQGKjgEpwAaoKAmGleK1aJSpVhRdaRU0o7J4jzPFLTJzDg0WcxiDplZg3LvexAJbyU7ks3R5mDNEGO0r1DQroYuC45drUPSgm4W88nGGpRtv8MoeDOBkZmZTZZ8pqOj96Hu8IvXa+uTif0lL3+kfLy1xeMPaC7XNVKdRgC+kBG+liFpXvv5u7/o52J2V9XkxsXNXrE99VNwexwQEHhvt97WaRP+yJQCAH/X3/7Dr6h7zqHgEAwJAIG6/hmgOvNADhEAACWj8M48CCjGCaRXnbIigFCAAAoJBQJUrnQI0Cj4I0CPh0gE6FMoIkRNDsLUVCCgMgCEoswAEeYKiCW4zSRYhB5o+Y/1AczPapHMTTw0KITH8WGt2E5lxPl4vhz4jEqfLx1Aqz69hrVo1gGtEQcVliN6ZM2ETB/EhQoSgovDt1vb3aVaDBrSoU+vrhOPn099jM5H+9J2BAA27u6IAFJU7YMTo70dDYHPFwAA");
 
 export default HryvniaSign;

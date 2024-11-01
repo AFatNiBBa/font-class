@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `centos` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/centos?s=brands centos}
  * @preview ![centos](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/centos.svg)
  */
-const Centos: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M289.6 97.5l31.6 31.7-76.3 76.5V97.5zm-162.4 31.7l76.3 76.5V97.5h-44.7zm41.5-41.6h44.7v127.9l10.8 10.8 10.8-10.8V87.6h44.7L224.2 32zm26.2 168.1l-10.8-10.8H55.5v-44.8L0 255.7l55.5 55.6v-44.8h128.6l10.8-10.8zm79.3-20.7h107.9v-44.8l-31.6-31.7zm173.3 20.7L392 200.1v44.8H264.3l-10.8 10.8 10.8 10.8H392v44.8l55.5-55.6zM65.4 176.2l32.5-31.7 90.3 90.5h15.3v-15.3l-90.3-90.5 31.6-31.7H65.4zm316.7-78.7h-78.5l31.6 31.7-90.3 90.5V235h15.3l90.3-90.5 31.6 31.7zM203.5 413.9V305.8l-76.3 76.5 31.6 31.7h44.7zM65.4 235h108.8l-76.3-76.5-32.5 31.7zm316.7 100.2l-31.6 31.7-90.3-90.5h-15.3v15.3l90.3 90.5-31.6 31.7h78.5zm0-58.8H274.2l76.3 76.5 31.6-31.7zm-60.9 105.8l-76.3-76.5v108.1h44.7zM97.9 352.9l76.3-76.5H65.4v44.8zm181.8 70.9H235V295.9l-10.8-10.8-10.8 10.8v127.9h-44.7l55.5 55.6zm-166.5-41.6l90.3-90.5v-15.3h-15.3l-90.3 90.5-32.5-31.7v78.7h79.4z" />
-    </Icon>
-);
+const Centos = createIcon("centos", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABpgAAALGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDYAsGAAE2AiQDCAQgBYMtBy0b3QVRVA4aZB+HccNXYlliaMMQw7IN8aM0JQ6i3COI1rLqWQgA60ShCltCiUKxsXFsPNALdUY8udevz+dba//foTO4LCT36Cc+93YRsySWSFRCZBuWuYZmKoTC3evYxDXPl7b2bOGhVFg2VVBEnk9ggLvRZtFW4S80UdzRvKfarFAu1GkLeTzHhYL0mN5wGwAV//Q5IykyANEKAJYPfQ6EfvIzWKneExWrICBWAKOIDN9kEMEcq8CgKKMglwt+xn+V/A8chQCilM6cQI528AN/ATlIWvOo89jY5NTY1OTkeKqKxSLsl9GJUUrdTsyVV5T7SX9ABUiRLYUEM5lNUtLrz8rMEiTd9LS02cGpL5AVAa/HCwpmMJOSoG+ys60zQElSsZIiUUhRTj9BySDL8wQ/yynVWgHFtomyyjIVAAMsk+KFaQFWulVAYTox6A8KItAzi8xiBkFBD1czX8rPDoKy1Ewxv8Yqs29KRsKJ1WbH8k6RHb+M6ssq6xGueMqRauwVfJhYWuCxiyp4zI3OZUxXjfD4+J6mujON6UgVdg9cSXieriMFyTAM/HF3O1NSmG4guR3QEb7+Wplqt+Ff9fnNCqG32ZDUdRHRGNPIFOi+CJznPGRH5M1GkpdR/dBls/O4FVS/z1bjkguDs6vjhk7gKcqQXvKaTW6AQLC+EO86Su76XysT+P0R+ZadXP3FUDJRK4Egm6hWGY4QCN4AgilulE78WCB50QokoDa6EyDUI0BSqhcgMyAFQa7eOILCsGYEpXq7rCKvEzqNVJSk0TklM2ufkut0SynMeQyWOsMK2DKwlN1Wpu5tgnomafU1dVqHNlpSyGFVYkc7tcXasl3ZUo4XYtaaVdtmTFuw3cBtckR2rOidQvT4IU29GnU0HbTN1btqRfGbtiyYrW4fp5N2vLPM7nT3cmywSEInFSaJSOXZ/4Q1Ww==");
 
 export default Centos;

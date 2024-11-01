@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tennis-ball` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tennis-ball?s=light tennis-ball}
  * @preview ![tennis-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tennis-ball.svg)
  */
-const TennisBall: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256.6 480c-4.5-58.4 15.6-118.4 60.3-163.1s104.6-64.8 163.1-60.3l0-.6C480 132.3 379.7 32 256 32l-.6 0c4.5 58.4-15.6 118.4-60.3 163.1S90.4 259.9 32 255.4l0 .6c0 123.7 100.3 224 224 224l.6 0zm31.9-2.3c97.7-14.2 174.9-91.4 189.1-189.1c-49.5-3.8-100.3 13.2-138.1 51s-54.8 88.6-51 138.1zM223.5 34.3C125.8 48.6 48.6 125.8 34.3 223.5c49.5 3.8 100.3-13.2 138.1-51s54.8-88.6 51-138.1zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
-    </Icon>
-);
+const TennisBall = createIcon("tennis-ball", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgAAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCDgsGAAE2AiQDCAQgBYMtBzIbEAXIjtFjR46R5MjlcWUNXgTf7/e657wbIPCJYlKRKCOj0Rh2SStra2ssq9pMXacK9fefH/ee+4k4v9lsUIlzEpWUnZY3cnPePArwEod2Hj4N5IHfO08gsWfPA/0WWKYJWLpNfeYRhV9EiJBEdHzS8bVAiXWaxiffcj6Cp/bQ+IUhPaRSASA6AcD2aWI0dt7pleLif5H4iAMQEDsAJhEqVBhFYA1XYBTPJCiK4JVqNfwDGQQQ9dClCQrqcQ5uAL8BpFJ4Jh1KrRa+nJci5Uvy+/WIBny3XZediYYd5iLOQiTUp93rteG04AJ6Zz8bfhosNf2eSHSfukRbMxvR7tXJeIgjukladF22HNcb0E16DiTaj72W3kVf+u8mP/jtRF1IbmOuAvZSDMZUY9/6FyUXMLH6AT/V6v6pedL+bc9K552QExb9DpcawkxLeIKX58b5/ryx33oE4SLiPb3WL0a8vmC/CYY+7AYG7s5riLEPG9YDAsHss0FHrtLrv0jKAfxY+/3Tv6LaTsr3oFGCoJquWclKQBIAgIwWGCQQSGd49K6tngUIzQiQ6jULUBmhQqBoNoVAnXHOCNRrdogrihihV/aEU6sLuLKgFS56zcN11hxr9XqDm290ttC/vYQQCwQ3MXsbO+bBlpbBpBBZqp5sWzRrkYg596JErRpNihUp12SgBtFms2ohERjsRYw9G3YYD+zY3benKNagUblaNbWOJ3ZfNdMSp5uzwqGEM4ZSEiltKq6pKW+0fkI=");
 
 export default TennisBall;

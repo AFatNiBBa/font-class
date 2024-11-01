@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `send-back` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/send-back?s=light send-back}
  * @preview ![send-back](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/send-back.svg)
  */
-const SendBack: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 32c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32L64 224c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l128 0zM64 0C28.7 0 0 28.7 0 64L0 192c0 35.3 28.7 64 64 64l128 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64L64 0zM576 288c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l128 0zM448 256c-35.3 0-64 28.7-64 64l0 128c0 35.3 28.7 64 64 64l128 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64l-128 0zM160 288l0 64c0 35.3 28.7 64 64 64l128 0 0-32-128 0c-17.7 0-32-14.3-32-32l0-64-32 0zM416 96L288 96l0 32 128 0c17.7 0 32 14.3 32 32l0 64 32 0 0-64c0-35.3-28.7-64-64-64zm0 96c0-17.7-14.3-32-32-32l-96 0 0 32 96 0 0 56.4c9.2-8.3 20.1-14.8 32-19l0-37.5zM256 320l0-56.4c-9.2 8.3-20.1 14.8-32 19l0 37.5c0 17.7 14.3 32 32 32l96 0 0-32-96 0z" />
-    </Icon>
-);
+const SendBack = createIcon("send-back", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABpgAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDPAsGAAE2AiQDCAQgBYMtBzAbvAXIhof/t/uvfW7V1602qiVFAEbKZnX1CAzlaBxkUMqoo8Gb/8s9P9t0gJ+P4JD2blu0QD41F0UJhHH0s7EpoSzMIk9EUjfFJ4I++YqMbnO1FI+v2/HtDGX8E1O1kR5P3+FeedP43WA3kZQFgOgFgFW7t2/z+S/xS8R3rXeI72xBQKwGtUCBAsMEWKoQGKZUo1QKfolWC/+BNQFEO+LJwyUyPsVXgBIknWU5hL/v/gP69K7aupe7qra8/87+EQ8TTb+Hco47BjwSEecHPlpVu16aGPHaIPH4pNfHVfHqlDeHRjwx+Y3x+aS/fES4SSPa9rw7V1lUcWf/h4nsg50fEPFIznFGiEcnxI4QD40VjcessF8e/UavN/4c9d2p73z2bI/buK1HQ1oBeW7kc73pnRu5d+/nGkrD0lsjA9mRI1dSGkW11Y0r1a3PmqbRkZXNPrIdcUTtiIW+HzDu2XMLKYi0JM+eBoHg+y8uWnq459ILnVUCv3349wV5XOvz1KQ30CmBoJjamupAagDcACoprjPa+CSB5F2d+KrdPCJAyAiQtMsCFIbqJUApmyJAmxHmCdAu264QZZfQz8EDJN1cCQrzXQ9K/bwF2iz1ZaVdvyjSWE5C+ScyY73G1q2rZ02fWS+uHxuGkpliX1xSu4OJ19WBSWWnUy53mWucdMJZ1yj2Ktvq17rUeotZ54tqs0w3U22xOtz+Cu9y0lWudnauxVdZot5fmug6e/ykEifknQ1KEpG6PiFz2ssNAAAA");
 
 export default SendBack;

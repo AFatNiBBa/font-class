@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `garage-car` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/garage-car?s=sharp-thin garage-car}
  * @preview ![garage-car](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/garage-car.svg)
  */
-const GarageCar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M322.9 8.5L320 7.4l-2.9 1.1-312 120-5.1 2L0 136 0 504l0 8 16 0 0-8 0-362.5L320 24.6 624 141.5 624 504l0 8 16 0 0-8 0-368 0-5.5-5.1-2-312-120zM104 192l-8 0 0 8 0 304 0 8 16 0 0-8 0-296 416 0 0 296 0 8 16 0 0-8 0-304 0-8-8 0-432 0zm121.3 48l5.8 0 177.8 0 5.8 0 1.8 5.5L445.8 336l26.2 0 8 0 0 8 0 160 0 8-16 0 0-8 0-40-288 0 0 40 0 8-16 0 0-8 0-160 0-8 8 0 26.2 0 29.3-90.5 1.8-5.5zM176 448l288 0 0-96-288 0 0 96zM403.1 256l-166.1 0L211 336l218 0-25.9-80zM208 400a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm208-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const GarageCar = createIcon("garage-car", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABjQAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSDAQsGAAE2AiQDCAQgBYMtBzEbggXIHgPuDI6IToU4EW1Tz1HE8eqLoFrLnr39AFtAh6DCNpaNJxvhXoeEjgMujy4S7evo87/W9P3DZC8M26gCsSNgByRkwEaVbKeWWLgI3+n4NnOgKvjp753/bTvAx+U41vY9aM7zBMI1LB2LugSyMEsUO9v2KohoSOxC4ww5/s2SIZ0IUA0fGjWdzknEAgBEBwBY2+lpw+MP/UT8lHfEiw0QQKwBGECgAAXoQYBFIgI9JBxkEoKfKEvxH8ghAKIOyesSIINGcIFLQAYkapYy+jP0iV+TjVJ/kc8WXE6XgyaJ0aA0vZmIRJqhqdEsIldM9zKNbbcbhZNNaqzIGX2kaaCUbiJqNfQqWk8dIPem0WBU5ww0aayXNOrvTbhjzqgj7hqohMPdkRvLze+gedav0pKjUHaEBrJNOhY6y/L2pW55HNgkazjgSl3pEhvyfSRd0lAvnu/ULUwqyr0TgT34CJ7EOZTM6+odgjz1wROBSXCTf88Xfm8HUoqk56rpPyZGfLRL++eBAAGfX1tNmKv/dZoA4O/ur1Y/rnxMx8JAAwEQUIyV2UbTMSD4AyCUYh+RnS8KkMTUS961RVwAAgMBSBQMAQp+FgTImCwEqAgpQYA6TA8RZT2Iw1gPBAZbQFTqAEgcboGs2kdQ4QgRUKVgJv1PTNU6hlsm8YLcfF7JN0taGeyJ7WgVP21K35ctGfgg5m1Yt2vOrCW7I962tsieNa17ZIsf4grkysdV4rerz1X9o+C2HUvrivvjVOHv+9Lt73fPwMsQAMx8YrHcH4ktTG1PLczlzExtAw==");
 
 export default GarageCar;

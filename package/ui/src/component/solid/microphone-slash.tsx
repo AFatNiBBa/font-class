@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microphone-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-slash?s=solid microphone-slash}
  * @preview ![microphone-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/microphone-slash.svg)
  */
-const MicrophoneSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L472.1 344.7c15.2-26 23.9-56.3 23.9-88.7l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 21.2-5.1 41.1-14.2 58.7L416 300.8 416 96c0-53-43-96-96-96s-96 43-96 96l0 54.3L38.8 5.1zM344 430.4c20.4-2.8 39.7-9.1 57.3-18.2l-43.1-33.9C346.1 382 333.3 384 320 384c-70.7 0-128-57.3-128-128l0-8.7L144.7 210c-.5 1.9-.7 3.9-.7 6l0 40c0 89.1 66.2 162.7 152 174.4l0 33.6-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-33.6z" />
-    </Icon>
-);
+const MicrophoneSlash = createIcon("microphone-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcgAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBagsGAAE2AiQDCAQgBYMtBzcb8QTIjpMldrmJ4Hm9p59zkwWcBeyS+iArqHTFjhX8Mv85d/6vqRfWdIDf6PDMOvRAFmURxXsTmNjevEH2vAJsojhzV2vYQ9hXWsqSPH6Xx88G8vgnO6UM6Ub6BOfql8aPGjhFUiEDENUBMHzuzMne/Sa+ifi49BLxsYkIiOGgEMiQobEAg2QCjeUK5HLBN1Eqpf/AggCiLMUSK+cD52EFIAdJyvN27SqVqZLPiW9RceHDta/X2R4P1btVd0480zLiZpsH64tj9dtExN0Oj/d5sd2jjcWc1Y+0HRIPVnxvyNstIobEZeKzwW/NFhXjwfo3Wleq9Eijm20qRrR4vPrjPzf/ZM0n2rze8dfn/586OYe7B63VTp3p0+u0U3zdxKfKP/74sWOPP16+j1fPd3v0+zv3qVN72sheZSr4QcraMfKZe4ZXaKGb6XXqTB83LpykmxZAIDib7X9pabVBv5WvlMB3r//6pxxZUiqdTY+jvASCrFOpk0XpmAOZI2gsxR4tKE8gmda4cauVXRUgVESApKyKAmQaqS5ArqKOApTRVG8ByqpopkzkFYTaFg+QVLYdZPo4DHK1vQDKGOT9WFm1I0OXiA3xb5c2xqKjlxXdu3QrBhTLmi4Bhs+zA4ttr90e6WlPa62x1Ra7rLbKersMs8Pk5G6bjfHo0X6o0F0X3RQGKI6bz6vnWG2HndbbaktZZKDiftTOHn94ewoTZe2hKElEqv4sBQTmdN65afnOdQAA");
 
 export default MicrophoneSlash;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-bus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-bus?s=sharp-light car-bus}
  * @preview ![car-bus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/car-bus.svg)
  */
-const CarBus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 96l160 0 160 0 0-11.7C341.3 68.5 297.3 32 192 32S42.7 68.5 32 84.3L32 96zm0 32l0 96 144 0 0-96L32 128zm0 128l0 128 192 0 0 32L64 416l0 48 0 16-32 0 0-16 0-48-16 0L0 416l0-16L0 80l0-3.8 1.7-3.4C16.2 43.8 73.8 0 192 0S367.8 43.8 382.3 72.8l1.7 3.4 0 3.8 0 64-32 0 0-16-144 0 0 96 76.9 0-9.1 32L224 256l-32 0L32 256zm72 32a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM331.9 176l12.1 0 208 0 12.1 0 3.3 11.6L596.1 288l11.9 0 32 0 0 32 0 96 0 16 0 32 0 48-32 0 0-48-320 0 0 48-32 0 0-48 0-32 0-16 0-96 0-32 32 0 11.9 0 28.7-100.4 3.3-11.6zM608 320l-23.6 0c-.2 0-.5 0-.7 0l-271.3 0c-.2 0-.5 0-.7 0L288 320l0 96 0 16 320 0 0-16 0-96zM539.9 208l-183.9 0-22.9 80 229.6 0-22.9-80zM336 352a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm200 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const CarBus = createIcon("car-bus", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABnwAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDTwsGAAE2AiQDCAQgBYMtBy4bzQXIhqDSkfVIOpJ0ZZl4jUjPGAHl5+iZUgAODekzRjhxTf04f3rACtfIRQRG8duyziew81GkrsU3G84mijua98QAh3ah7QJF/B0TtZDdmX2CrvCh8YP+biVT5ACiAcCyPTs2eePT+DTik/+fJT6xAQGxHCSBHDkGCbBQLjBIIaFQCD6N//8X/4GJAKJV8mIZKFDhbZwEFCDTURTdOuZ1TOrf0dFRtXQWu6uW8kBVdkbcNv+l3SfmvtALoYqIMgICgciJrbRAvjf6xt0LXt5zct6L/XvvyGfEs0C/u3c+2v+OkY8NuHvMnqqseseuqCoheFft9eRUVe2JvsfKqrwpboo6SvVDqNO2e7G6M6rY/aa5S6vdg8Ofap76adgn53xi6JEHHlhau2j7sk2xKZZtv6hORxPKcUcdv9H6huQBUzUBakR8pqUKPdx+6vSe2BOnT93eQ2Hpnnxl1SZdZl47dFvv3tvy8764tK6/nWDQmeqUHNVIpiJgqdpbNY5KUn0gO6FnV7/kNDSgn6MaS110xaUv4FyfLb5WhD/uejv4ft8o5mwg7nt96B29jnRb+Fd7lYHPX/rlN/jp/9/IbsyeQrsMBPnE/yc6mN0IQhhAMYtrDN/5okDmZR2Sd63dJkAoESDTqhQgN1AjQKE0QYAWQ8wSoFVph1wUHUIvh3osU7scy812HVbo5WmsxULvF1r1ihyeVWhUfyezrR7DqxalaZOnpvlps6bVQFS2swvSad/Ya2TPOHzUOS51iauc7Sznu2qEXmFT+WoXW72HrPJDyTSTTZXMl243n9t20+IVrnT+un5/ngXS+6mxrtkfPg4vIwNMhwRZrois7cxjV0w64+orAQAA");
 
 export default CarBus;

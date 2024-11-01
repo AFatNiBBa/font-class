@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-sms` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-sms?s=light message-sms}
  * @preview ![message-sms](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/message-sms.svg)
  */
-const MessageSms: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 416c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32l0 288c0 17.7-14.3 32-32 32l-138.7 0c-6.9 0-13.7 2.2-19.2 6.4L192 464l0-48zM64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l64 0 32 0 0 32 0 48c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM96 180.8c0 12.3 6.2 23.8 16.4 30.7l29.4 19.6c1.3 .9 2.2 2.4 2.2 4c0 2.7-2.2 4.8-4.8 4.8L112 240c-8.8 0-16 7.2-16 16s7.2 16 16 16l27.2 0c20.3 0 36.8-16.5 36.8-36.8c0-12.3-6.2-23.8-16.4-30.7l-29.4-19.6c-1.3-.9-2.2-2.4-2.2-4c0-2.7 2.2-4.8 4.8-4.8l19.2 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-19.2 0C112.5 144 96 160.5 96 180.8zM372.8 144c-20.3 0-36.8 16.5-36.8 36.8c0 12.3 6.2 23.8 16.4 30.7l29.4 19.6c1.3 .9 2.2 2.4 2.2 4c0 2.7-2.2 4.8-4.8 4.8L352 240c-8.8 0-16 7.2-16 16s7.2 16 16 16l27.2 0c20.3 0 36.8-16.5 36.8-36.8c0-12.3-6.2-23.8-16.4-30.7l-29.4-19.6c-1.3-.9-2.2-2.4-2.2-4c0-2.7 2.2-4.8 4.8-4.8l19.2 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-19.2 0zm-152 6.4c-4.1-5.5-11.3-7.8-17.9-5.6S192 153.1 192 160l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 19.2 25.6c3 4 7.8 6.4 12.8 6.4s9.8-2.4 12.8-6.4L288 208l0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96c0-6.9-4.4-13-10.9-15.2s-13.7 .1-17.9 5.6L256 197.3l-35.2-46.9z" />
-    </Icon>
-);
+const MessageSms = createIcon("message-sms", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABswAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDUwsGAAE2AiQDCAQgBYMtBzIb1QXIjtLUcJI0YV5wouIh2q+9md0zRKNZIpHxUmhRvGmCEEkVkjW8ki9/+Ifsqvcbi6o1asEDHdHoOSMEnARzqYPwhq7J/23fgGc0lI+0ZWN5RApsPvDRLK1tXjawmU7Apm6KiO3hYQ+hDFecy4p4nD2+HaDGMzUVIu+973ClHxr/Cu2AFBQAxBgA7O4PH8breMRD35sHiGdDIEDsAeYJChSYJmCDTzAt4KAKCD/639B/oEMAoo08XAIVOvAE3gFUIIU1qF1taKy2YWowyoZm9NY8KTJG+/Ii+dqaH7Op2p97Ei+25JxYPVbOCGnctXrpVoGn0w23a6xFdJh7Mn+0rG42uVvs60zjndqUkadzG3SSLcboRM7JXKv9+TGdyWtUpK3WKpYf5Z3yn2B6X1Q6wVdyROTPQUA0DslpWuxtIisikTbtqu6LdzLu/Fn4Puu7V+Vpe+AybQoqEuJ6t4zb7MecTR1Ey4OLlzJhfMAx4+OXejpHS+Zk+4p1E9jPs05HbCm/7/16kZlhWCyelhafIuPhdob383WGsrnUH5P2nOpqB27XmxMLZ185bqbQxPuqlhr06yb1a6BluecUzN2V2c1pDggIfNwacmRyetd+13qAv6f/+vRX1LxMvEfQ5QGBstY0NSEBiQAAyFhFZQIB6R0hedchEQKCgQBSAkNAUSyDgMpoQkBLmXYEtBnD+VSTkRwTB/CkWAp87W0EgRz3QKirT6kEOeFHtBqP6g9lVv+M9FvmWjVv6Tq715pLC1K5znZxbkf9Ku5pSGuYZbFFVphphrkqGmGZYdmVFuqPqH6+yGmluZacztx289kalf3LLGd5re/Powt3PlJvFR7ekNwesbmuLHmItHGebLZ84XIA");
 
 export default MessageSms;

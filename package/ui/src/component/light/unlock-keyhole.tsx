@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `unlock-keyhole` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/unlock-keyhole?s=light unlock-keyhole}
  * @preview ![unlock-keyhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/unlock-keyhole.svg)
  */
-const UnlockKeyhole: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 32c-53 0-96 43-96 96l0 64 240 0c44.2 0 80 35.8 80 80l0 160c0 44.2-35.8 80-80 80L80 512c-44.2 0-80-35.8-80-80L0 272c0-44.2 35.8-80 80-80l16 0 0-64C96 57.3 153.3 0 224 0c58 0 107 38.6 122.7 91.4c2.5 8.5-2.3 17.4-10.8 19.9s-17.4-2.3-19.9-10.8C304.2 60.9 267.5 32 224 32zM80 224c-26.5 0-48 21.5-48 48l0 160c0 26.5 21.5 48 48 48l288 0c26.5 0 48-21.5 48-48l0-160c0-26.5-21.5-48-48-48L80 224zM264 368l-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0c8.8 0 16 7.2 16 16s-7.2 16-16 16z" />
-    </Icon>
-);
+const UnlockKeyhole = createIcon("unlock-keyhole", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABewAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCAQsGAAE2AiQDCAQgBYMtBzUbBgXIhocHvf47N8m8DygfMGqYK3brbst1K9Qzdep5zkMBfA5B0MbCuXFMoLE61nkFChyrb2pFIlStoJWluk2Gh0cUPh0hEiUhHacdVxfI4kq0UyC5lHyNE21W8as6jpHIUgBRGQCDZ04d79Of4qeIr4tvEV8bi4AYAnKBFNP1BegnFfYCmRyZTPBTFIv1NzAngCghf3YCMhSwHGsBGUikWda9bsVyhQrZjHKFsnPfbBXxsL4oF2+1ftRAXG31sFv5eLvN44YRN9o+6VkuIu4M/GTkW73fa3Cu+tmal9s87jHtbvWIs7XFpRrnmleIB7Uu1Iu4XPN8i/LTy5Yre77mhVrl4lyNs9WbPK78+PfGX6/42o83Dj3mcelB/lJ5+Yy4KWYsr5zrWyobpNBt6KSXpUt/1uHbX8YdP3LYiU86fcc36U3pN991yjED7Z0Tk6j0U8WKP03SXwcCwfPDrUYurNTv/9LlEvDL+3/+z88rfhqfJo9RWgKCtF2xnXnxKQAdwFdKYocm8SkCiflSNNfyzgsQyiJAokRZAVL1VBYgU1ZbAQoa6i5AibKmSkVWRqhuvoJEeZtBqof9IFPdG6Cgn8/CEtUjTTQyTch/XtwICw0/lXfu0Cnvk28rg8odvBz2zY/5Vjt4oTXOWmGjDbZZbpnVthlki/HJduuN8ODhPijXWQed5PrIw+0zN4O0LbYyvmbix/SV37db2eGvbw0pIZhdTCQSIqm4fcMTCNqvXb77xQMAAA==");
 
 export default UnlockKeyhole;

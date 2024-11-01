@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-rainbow` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-rainbow?s=thin cloud-rainbow}
  * @preview ![cloud-rainbow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cloud-rainbow.svg)
  */
-const CloudRainbow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M568 16C439.2 16 328.2 92.1 277.4 201.8c-3.9-3.9-8.1-7.6-12.5-11C319.1 77.9 434.5 0 568 0c4.4 0 8 3.6 8 8s-3.6 8-8 8zM447.8 292l-.4-.1c-.9-8.7-2.9-17.1-5.7-25C466.2 222.2 513.6 192 568 192c4.4 0 8 3.6 8 8s-3.6 8-8 8c-55.2 0-102.3 35-120.2 84zm-76-94.1C415.2 136.2 486.9 96 568 96c4.4 0 8 3.6 8 8s-3.6 8-8 8c-74.4 0-140.4 36.3-181.1 92.2c-4.8-2.5-9.9-4.6-15.1-6.4zm27 119c.8-4.1 1.3-8.4 1.3-12.8c0-35.3-28.7-64-64-64c-19.5 0-36.9 8.7-48.6 22.4c-3.5 4-8.7 6.1-13.9 5.5s-9.9-3.8-12.4-8.5C245 228.8 212.9 208 176 208c-53 0-96 43-96 96c0 6.1 .6 12.1 1.7 17.8c1.5 7.9-3.1 15.6-10.7 18.2C39 350.5 16 380.6 16 416c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80s-35.8-80-80-80l-.4 0-.9 0c-4.8 .1-9.5-2-12.6-5.8s-4.3-8.7-3.4-13.4zM176 192c37.1 0 70 18.1 90.4 45.9c3.3 4.5 6.2 9.2 8.8 14.1c3.6-4.2 7.6-8 12-11.4C300.7 230.2 317.6 224 336 224c44.2 0 80 35.8 80 80c0 5.5-.6 10.8-1.6 16c.5 0 1.1 0 1.6 0c4.9 0 9.8 .4 14.5 1.1c46.2 7 81.5 46.8 81.5 94.9c0 53-43 96-96 96L96 512c-53 0-96-43-96-96c0-42.5 27.6-78.6 65.9-91.2C64.7 318.1 64 311.1 64 304c0-61.9 50.1-112 112-112z" />
-    </Icon>
-);
+const CloudRainbow = createIcon("cloud-rainbow", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABpgAAAK4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iCewsGAAE2AiQDCAQgBYMtBzQbfwXIjtMdMfA1hRo8z79nnfuSKu3QGWltf4HK2iLI3X394ggSass809AjC/qfaz6/50ftn4/g0CKt6G5tURiRzycwwHtnG0VblMhwNlHc5bahlqYe4h+h0NgBPW7TChvUUWeACeeHyiOMUaBoFQAA6QAAQPG6NStz4IE8EDnzfyvIpSIgAJkAmAjQgAYiEQCF0AiIRGcCOp3ggfz/P/4HmiAAkMZ9aQVABw4wF1gDAOgAFFvqfv5+OTPdNi+9zpph9LxSS6QPTQ++XnfMmhY0NbCe4TYken3B3W6vLSkrI+vsryhyuuwQOpJvR4bDrfYMmZ1mJS1NmRq8R2YnLTciVhkWNC1waehM5qWuyu0l29NXx8wfM/KIGDK6cQupczRzWtCMkNXura5o1LDAMfJoQVyZm5aVyyPb0qzoOeGh5OmyYD8tb5zla72NPdPmDHnXN6dSDqiYPblm6VaptavmfJa3opnd3qxvgIh4CsZqeqroOfHbtysVG3unQdqB4cbdnr942bJ7eB+bw/DzW3ghsXS3YXm2d24cOcyynK5Qz5a+Tz5HSJ3WvsXwbV1H6AYgnKt08L1Bk36XyVO7VrFI6wbOEEE4dmL7+rrTsoYVI/utPqEhJ8PcPv/+BwAQIFhXK+pTU59CX51uBcCjXf8X+Oz/B1QxZQFOCoBAG/8zaKSKAYxMAUBcRR/iPF8kQJmKze33mJ6bFAY4KHYGaCLwBZ0hHWyiyb2DnaEmGkkXIpDGcFA8uoMmD4NBF8hmsCnE8ZhdoGhQKsCY8JGYWkZGSs8zs2fJZhYwnVVUBDxumy5oRuspfaau1GYhbehKF3rRmla0p5eE9aBysjedKeNDS/NDTLKThWyYFMDMbqyrdaRYD3rS3i7nz1IQs74/hT7+wamNpdysOShRFKR4/a5Qy3yV7BZd+wIAAA==");
 
 export default CloudRainbow;

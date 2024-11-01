@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ban` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban?s=regular ban}
  * @preview ![ban](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/ban.svg)
  */
-const Ban: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M385.1 419.1L92.9 126.9C64.8 162.3 48 207.2 48 256c0 114.9 93.1 208 208 208c48.8 0 93.7-16.8 129.1-44.9zm33.9-33.9C447.2 349.7 464 304.8 464 256c0-114.9-93.1-208-208-208c-48.8 0-93.7 16.8-129.1 44.9L419.1 385.1zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
-    </Icon>
-);
+const Ban = createIcon("ban", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABYgAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBOAsGAAE2AiQDCAQgBYMtByobsgTIhof/Xyu771f1BIAqzKgAVViRjWwbAF5AO2ctql3bU6ee5zwUwDcK2li4aOlY4HOeRyBiueDyCIVWW65pBazWzn55SXSbxKd8kmG7YVU2yONJXFMi3UpfcbVcNP7UynmSUgYgGgJg4vLFc72sjuqIL5V7xBezERATQSGQIUNbAcbIBNrKFcjlguqoVPQ/sCCAqIKTJZCjhJGYB8hBkuV53dpt6pTq5cvqlGpv3rZ128slvy78cenv88e/Wf7bop+W/TJn66bfJ0e8mf99nYtzv018tfSXCS/nfK19Yd53k14v61RuWP6749dtX51u2xmf3TMrlpfLy2OW1Y2GWZ073z5tai1a3Xk1efKrO61qmRp9uh8Egmtdrh5f32DMfzXrJPDH43//V39FlZdJKqOmBIKsT6WPNQkkAgCQ4phOCQLJQBkcta7rAoTaCJBUqS1Apo2GAuRq6y1ASXtDBahS22KZyGsJTa3tIKnrIMgMcwLkmroDSsb4YFVpGhmJCAoQT7jYaRaaOlQM7DegGFUsPY3kBZa6o4ttrsexkOkpk7bZb58jttpipyMGOWSue9Re0zx4qi8qDNTPAIVRiuPweXyZrQ45bKf99uU+oxX31R6O+eU9RUyAOoiWJH8JS5s27gM=");
 
 export default Ban;

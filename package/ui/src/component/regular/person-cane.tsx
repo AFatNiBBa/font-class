@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-cane` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-cane?s=regular person-cane}
  * @preview ![person-cane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/person-cane.svg)
  */
-const PersonCane: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M176 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM128 209.5L76.9 299.8c-6.5 11.5-21.2 15.6-32.7 9.1s-15.6-21.2-9.1-32.7L93.7 172.7c15.6-27.6 44.9-44.7 76.6-44.7l35 0c26 0 50.6 11.5 67.3 31.4l81.7 97.2c8.5 10.1 7.2 25.3-2.9 33.8s-25.3 7.2-33.8-2.9L256 214.2 256 488c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-136-32 0 0 136c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-278.5zm80-33.4c-.9-.1-1.8-.1-2.7-.1L176 176l0 128 32 0 0-127.9zM352 376l0 8c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-8c0-30.9 25.1-56 56-56s56 25.1 56 56l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-112c0-4.4-3.6-8-8-8s-8 3.6-8 8z" />
-    </Icon>
-);
+const PersonCane = createIcon("person-cane", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfAAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCDwsGAAE2AiQDCAQgBYMtBzIbEQXIHgd2w9cXuiyG4UZsZzz8vy7zvi+ZNMugBSAMElTeKtgUPmmxSkpPcyDBMYv3+b/m83t+dIDf6FCiMRvLDm8dzycw4CjL51FAs+Fsoji/nZ8URfQM0qULjvSH8YbtnyCPl+JxNaQX0u94LH9o/Kmru0lqMgDRBgBzNq1bobEpmiJ+q35D/GYZAmIOKAUyZOghwHSZQA+5Erlc0BTVqvsPLAkgauHMCeSoxWFcAOQgyfO85bCiV6WmZb4x7FJse2nQewPe6fp8/7cHvttt/fpN65+3RvdNsdhUqcQ3QzbECx3e7rQxUoiYiyOKQGG26cHCZysRG4RN4Uudnxv0Tsdnujo88dlOT3fo+2GbD//u88F99lhx8tq1k0UNR70xdku5ya3J3DX1oK+nTevSz+2frN7jVjMz1E7HNWs63q90P23qtKpPpJ5uV7r9sZ/qQUxm1qv7t7ma607jrzqtdvfuWiAQnN646vFdraf/V19J4I8f/2+v7FZtjNfTh6iXQJANrw63PRp1U8brAkCc4qK+whcFkt1yeNcWnhUgFAiQ1CoEyHTXRoBcYZgANXqZIECtwjqZyBuEDnZ0kLRwBmQmugFyHXwFakz3U1SrQ2T6RmkL9bsXv5BDC6aVY0aOLqeW2zKiVYiI49PKa2HwRd82xGx10CknnXfAfkecZ8hZK9ILTlgowQv8UGmMkUYrTVU+1x7Xb3TAWeccccrJNMk05ffOYBfl3kOMnAB1rFySiFRRz2jEvj0nDwAA");
 
 export default PersonCane;

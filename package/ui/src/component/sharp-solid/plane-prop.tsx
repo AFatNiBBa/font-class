@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-prop` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-prop?s=sharp-solid plane-prop}
  * @preview ![plane-prop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plane-prop.svg)
  */
-const PlaneProp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 0l64 0 8 64 40 0 0-16 0-16 32 0 0 16 0 32c8.8 0 16 7.2 16 16s-7.2 16-16 16l0 32 0 16-32 0 0-16 0-16-32 0 8 64 138.3 0c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64L344 320l-8 64 32 0 0-16 0-16 32 0 0 16 0 32c8.8 0 16 7.2 16 16s-7.2 16-16 16l0 32 0 16-32 0 0-16 0-16-40 0-8 64-64 0-8-64-56 0 0-64 48 0-8.3-66.4-110-11L112 384l-64 0L36 287.8c-1.3 .2-2.6 .2-4 .2c-17.7 0-32-14.3-32-32s14.3-32 32-32c1.3 0 2.7 .1 4 .2L48 128l64 0 9.7 77.4 110-11L240 128l-48 0 0-64 56 0 8-64z" />
-    </Icon>
-);
+const PlaneProp = createIcon("plane-prop", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABfAAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCTQsGAAE2AiQDCAQgBYMtBzEbTgXIhofv57469yVNyTBkgDg9BAqYHPAil2dL7Fgo/r0W1eo//9fUi+dHB/iNDi3SKu2ogKoW+XwCEysrGkj5bDjbDCdgW9x2c0Q8xEEonCGPX7IHWkhvpJ/wXHjR+MtgD0g6MgDRCwCdO7du8U0jGhE/Nj8kfrQJAdEJKoEMGYYJsFQmMEyuQi4XNKLZFP+BFQFEq/hBCeTI8AReAeQgiTy/W7Z0z3eULcXesihHRRnx3jKEeKX/y/2EKCKWi9h49zcnvTv49YnvjC2iOiZUGTSa2hJ2OGtbFMUhTxZPDng17g58rXyq3BllbI+dmD6wZczo93q998+on078pPl1HSdvm6iXXirtN3r0aDT09Ptue9I3XV2Tp3Q1vnnSbdUxeKJQ0wsWqs3U1ul8oWOzWnlQSj0ef7wHklLqi/WsfL7Ycb2ZagvdBgLBzp9/3n6w59L/28sE/vzsv39Uv6LmN6lO76FdAkE2tTnVvlRDqgUAIMUNo1ONQHJXEj9rN68KEAoESFoVAmSG6iVArjBFgBYjzBOgVWGrTOQdQj/7O5B0cxlk5rsJcv28D1os9W3Qql9k4EgDE/03mLB2iK5ZV82aPrNaXK2WGgbCSLu8pDosTbwhhybhnU646IJrjjvmtGsD/Iot8XXnrd3C1vigyizTzVRZrLrcPN28w3FXXHXaRRf8KktUz3sT3diePAmrSUw4WyJJRCpeHXHaJwsAAAA=");
 
 export default PlaneProp;

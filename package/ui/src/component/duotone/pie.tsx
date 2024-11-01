@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pie` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pie?s=duotone pie}
  * @preview ![pie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/pie.svg)
  */
-const Pie: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M49.1 307.2l32.3 97c8.7 26.1 33.2 43.8 60.7 43.8l291.7 0c27.5 0 52-17.6 60.7-43.8l32.3-97c-8.9-4.5-17.9-8.9-26.8-13.4c-14.7-7.4-31.7-8.8-47.4-3.9c-13.9 4.3-27.7 8.5-41.6 12.8c-23.3 7.2-48.3 6.5-71.2-1.8c-10-3.6-20-7.3-30-10.9c-1.8-.6-3.6-1.2-5.4-1.7s-3.6-.9-5.4-1.2c-3.7-.6-7.4-1-11.1-1c-7.4 0-14.8 1.3-21.9 3.9c-10 3.6-20 7.3-30 10.9c-22.9 8.3-47.9 9-71.2 1.8c-13.9-4.3-27.7-8.5-41.6-12.8c-15.7-4.8-32.6-3.4-47.3 3.9c-9.1 4.5-18 9-27 13.5z" />
-        <path d="M542.1 243.3c-7.5-3.8-13.2-10.4-16.3-18.2C488.1 130.7 395.8 64 288 64S87.9 130.7 50.2 225.1c-3.1 7.8-8.8 14.4-16.3 18.2l-16.2 8.1C1.9 259.3-4.5 278.5 3.4 294.3s27.1 22.2 42.9 14.3l29.6-14.8c14.7-7.4 31.7-8.8 47.4-3.9l41.6 12.8c23.3 7.2 48.3 6.5 71.2-1.8l30-10.9c14.1-5.1 29.6-5.1 43.7 0l30 10.9c22.9 8.3 47.9 9 71.2 1.8l41.6-12.8c15.7-4.8 32.7-3.4 47.4 3.9l29.6 14.8c15.8 7.9 35 1.5 42.9-14.3s1.5-35-14.3-42.9l-16.2-8.1zM206.3 151.2l-16 32c-4 7.9-13.6 11.1-21.5 7.2s-11.1-13.6-7.2-21.5l16-32c4-7.9 13.6-11.1 21.5-7.2s11.1 13.6 7.2 21.5zm192-14.3l16 32c4 7.9 .7 17.5-7.2 21.5s-17.5 .7-21.5-7.2l-16-32c-4-7.9-.7-17.5 7.2-21.5s17.5-.7 21.5 7.2zM304 144l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const Pie = createIcon("pie", true, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABswAAAK6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDBgsIAAE2AiQDCgQgBYMtB0IbmgXIjsQ4JvLAlwgteP7fv9593nsf8P0UAmiqpEsFsoMwK5U0K601BLb71S6OIKGBWOiRJbCLUzmX89D2NwrKGra7Bm3PleY8r0AAg52LejGo1RQ7bBv0y7JiPBzTOzDir74QG2hXMwPLxf8AyieAhaBxmAAAyAYAAMp7O5u5ZBGLJmbrMZBHEyAAKQAUAnSgg2AEQBE6AcEYFGAwCCyatcEi1lYgAJCFiF4HYAvswA7gMABgANAYJI0cV1fXPCcbF6NHrHWcsc73Ycu9nvtN5q413t6C42t81rJGv1jZH50tx3MjEo3mcmvaeuT3XefrO9o/yH9NyvsFyfqDJe/egMAAwfVUoKzzC+lCrPFe5yuCLlnr09vd070xeq2Tiyz22x/UK+uu5vdFrfHWzLGcdb7aIp5zXOQ9k3fOijjkfuhduHm8mRDz3saQ2jdv2tGc53JUjXt/cKKwsHHK0aPHXjLZtIX8xKf09j4lMX8LpskvOXb06JTG3dKJH62DVuWbf/3GMCtTH2DzoktLDbvxYOq2oZvX5w+zVUq5WiyuClghbUnYSB0yxumPTxQ+f5zG1MsZPaZj9GTTrlWrducnzh49a7RSmmqzcdpN4rMT81eKq3aZJu9/DgACBJOXd+8a4Vb0zd5JA+D1mQ9f4pv9H7TSDgH2NAAC/ViTGNLKdjjOwUAEoCpamIiA30U6AnQjMcBDztYhAIQjKmhsOYIuCHcwOEoEG6FkH7blqBOdpAPCm2EVNM5mgS6HBWDw5ijYKOJmxZa36INVGmrSr2J6TY9WB6n0lDRVoDabsjz+hN3lQnXajDPxoXi4gfHMYDpzGcdYJkWuw2fTXJ/HNGr2sGp+iCKdFNJQFKBud57rPV1lNnOYtK7eX6UQ9X4mDtP+5HjoaBRrBgd0OmSI7jRz0rjkT95wqeqXDQ==");
 
 export default Pie;

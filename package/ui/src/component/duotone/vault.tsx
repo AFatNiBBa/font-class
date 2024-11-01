@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vault` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vault?s=duotone vault}
  * @preview ![vault](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/vault.svg)
  */
-const Vault: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 64L0 416c0 35.3 28.7 64 64 64l16 0 16 32 64 0 16-32 224 0 16 32 64 0 16-32 16 0c35.3 0 64-28.7 64-64l0-352c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64zM384 240A160 160 0 1 1 64 240a160 160 0 1 1 320 0zm32-64c0-26.5 21.5-48 48-48s48 21.5 48 48c0 20.9-13.4 38.7-32 45.3L480 336c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-114.7c-18.6-6.6-32-24.4-32-45.3z" />
-        <path d="M304 240a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM64 240a160 160 0 1 1 320 0A160 160 0 1 1 64 240zm448-64c0 20.9-13.4 38.7-32 45.3L480 336c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-114.7c-18.6-6.6-32-24.4-32-45.3c0-26.5 21.5-48 48-48s48 21.5 48 48z" />
-    </Icon>
-);
+const Vault = createIcon("vault", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABqwAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SCfwsIAAE2AiQDCgQgBYMtB0YblwXIBp7/7L7uq+ovjNwDM9qJFkYGRQQyMF732VSI1P9zzef3/OgAPx/BoXUs6nmCd+IEBhqRNNCJt+BMfLbNEKKGIFxCoo7Hj+ilYclh+wMw5K9egQPUDvUUWFf+B1A+ksAKUHg0AAASBgAA2gf27eW+JZaSp/ZlkKf0AQRAOgAwEUADGkhGAGhCI0AyBiZgYCBgKdsGS2zbBAEAcVLuRgPgBNzAAeA4AGAAoNBowwgkxRQkxfkcAWOAz+Edu7fhZt315D31NxpvpXmXloqcy7pv1fgTxWdYUnS67rp3ZcPNkrMydncWsjl6a6zI0dRdcdtyj8RsSdBKqx35J7J9kiA+SRL5zrHCU0ladhaczPHL4bzj8aOXFIkYuZaWHtCpJFskxdkfkHEyfPJz+tMJTyl94Z84f/5Ef+3yrbAL+nX3KygIelchxMTN77WGX88laFnBubwO62dvysrePNMsGcXDvRER+8PYtGFjiTvMfsXrHYUu3e8tLj73ccTWz8As7sDtACCAwKaXf9aPDDX9dvsUAB9ufv0p12PfV23qJOBGASCgi+wihqk2gIgXAAgqWUCG9kRtgACaYWh4mZ+tCACCFzoonHhBk0QYDLwUgoNUqsnF4X3RiOFBiGY4gcLPbNDUsBAMorkEDpp4EHISLdpRaTej/xMTehDp7mSWl5SZDeZrTGN8j8y1jeaykbcg5eTTVCYwkxnMYzzjmMw8wObQG53PdHpmaDcPxKScEsowacDcTv4UBkBoDnOZrHP77TRi2gfyWDAvnk+2ggkrWKrRIEp0YMHo+dPmFV94OQTcxQYAAA==");
 
 export default Vault;

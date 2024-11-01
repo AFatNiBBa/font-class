@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lollipop` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lollipop?s=light lollipop}
  * @preview ![lollipop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/lollipop.svg)
  */
-const Lollipop: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 352c-27 0-52.4-6.7-74.7-18.5c8.7 1.6 17.6 2.5 26.7 2.5l16 0c75.1 0 136-60.9 136-136l0-8c0-57.4-46.6-104-104-104S88 134.6 88 192c0 35.3 28.7 64 64 64s64-28.7 64-64l0-8c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 8c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-39.8 32.2-72 72-72s72 32.2 72 72l0 8c0 57.4-46.6 104-104 104l-16 0C82.1 304 32 253.9 32 192c0-88.4 71.6-160 160-160s160 71.6 160 160s-71.6 160-160 160zM0 192C0 298 86 384 192 384c47.3 0 90.5-17.1 124-45.4L484.7 507.3c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L338.6 316c28.3-33.5 45.4-76.7 45.4-124C384 86 298 0 192 0S0 86 0 192z" />
-    </Icon>
-);
+const Lollipop = createIcon("lollipop", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABgwAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCJQsGAAE2AiQDCAQgBYMtBy8bJAXIjpSuxmQE9Tk/e570SV4GLTCF2P4B4hsjaIPoypXgGtfu/vxfUy8sA+QD+GU+P5AYeObzCdzztc2bJjQb2IHiGLc3m7HJyN7MpCbpuLLj6wp5vBDTtZGuSxUuaV8avxjqTJI8AxB9ALCme8etvdqMZkTVeoqobImAWAtKgQwZRgiwXCYwQq5ELhc0o9Wi/8CSAKKdYkmU428/GmcBcpCkPN96eK2tZ96otRXd5y+9qlaLd1a9Mi7i5qn3L3xy8r0jrpty34R7pj0wPOLqQVcOEKcOuLI4f9DVccO0BybdNeW+oeLGyffOL+LpqfeP+mrVK91frHip/vnyF3dqfLF9xCf1r7atx1WDrxnUiDe6v9zh08bn232809j7+9z/25jqwMore03p+1qvPi5tHNDVqbbx+0cf/X5jrejb99Zb+/YtOvVqNnt16nXuub2KMm9esxn22jrWx59//N871lXVOmGiqkx74ZVbYvs69e1jU8vuvcd9911//T33esKmM5VUZKJefx8IBPtd0tWxV+/l/3XWEvj5+T/+q69pSW3pfnRKIMimt6bbPQmgtQK0SHGisdCwQHKwBPCpPVwtQCgQIGlXCJAZro8AucI0AdqMskCAdoUdZSLvEgbYw0DSwzEgs9BJIDfAE6DNcu8U7QZElnpm4pg/v7xNPLqhrpwzc3a5tFy2dSubdFlfVm5nk0/ksSlw0YGOcqTjHWB/hzjeicfaunWCI2wS0Rs0qDTHTLOVliqPe49eA4tjHeeQuXkO2WSZ8n4+2Ynx7CmwjQSY+2g6n4vUefhRhx9+yNFHHQ0AAA==");
 
 export default Lollipop;

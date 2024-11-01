@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `land-mine-on` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/land-mine-on?s=sharp-light land-mine-on}
  * @preview ![land-mine-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/land-mine-on.svg)
  */
-const LandMineOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M336 0L304 0l0 16 0 160 0 16 32 0 0-16 0-160 0-16zM44.8 121.6L25.6 147.2l12.8 9.6 128 96 12.8 9.6 19.2-25.6-12.8-9.6-128-96-12.8-9.6zm569.6 25.6l-19.2-25.6-12.8 9.6-128 96-12.8 9.6 19.2 25.6 12.8-9.6 128-96 12.8-9.6zM192 336l0 32-32 0-32 0L78.2 480 64 512l35 0 442 0 35 0-14.2-32L512 368l-32 0-32 0s0 0 0 0l0-32 0-16 0-32-32 0-192 0-32 0 0 32 0 16zm224 32l-192 0 0-48 192 0 0 48zM224 400l192 0 32 0s0 0 0 0l43.2 0 35.6 80-413.5 0 35.6-80 43.2 0s0 0 0 0l32 0z" />
-    </Icon>
-);
+const LandMineOn = createIcon("land-mine-on", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeQAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCPQsGAAE2AiQDCAQgBYMtBzMbQAXIhocnPb4/d5KnZI1Zm1/s2Jmt3Llol+2HK05ck//fmt4j8cWHUkHZFm0ReT6BPx9FcYMNaDawieIG3U0Mwp+PqxuU8XeM1EB6Kn2Px5wvjR909yBJWQCIdgCYt2XDKl9ej+sR3///HvG9FQiI+SALFCjQS4CZCoFeShmlUnA9/v+f/QdmAohGHpy8XKIZd+IRQAmSxrJsD0r6tXStG1qXm9Xu6khVV0KIOmDJ3qEjhnaOTSGpEdElNstODR82vFNsDGpYdI0tBXuFqmoku0XduseourTdFz4YGigVNlV1lajDxppp+4vr2BStYovR1a7t/3a7t3/q9/3h7635IufczovayaCv/21DvdqP3LPH14bS9qnd2uDXwEd6GHjt04zLx51xzYAr18B0ztgjnuXrynet75e4aKwvjf3CbrsOIwxY4/nobSNABgLBrhn3P7Sn7cy/musEbn78y2/49R7/f5kOp7fRLIGgGPn/SDvTvXroMaIowEunuKw/3GAgueiYfmorjwsQKgRIGlUCFHpqJ0CpMkKABn1MEqBRZYNClC1CJ7tKPmnlHF+Y7C6+1Mk7fIOZvko16hTFa6h/ifR/gVkW16FFSnnc6LF5eh5syQ1vllavzsiz7UMv85Fh8KLDzjjtokMOOuZijTxvVfaSUxaPEYv8UDbOaGNl0+XV3dunNzvkvAuOOeO0XWeGvH94qMvj04dBV+KpHK8iSURq9cRaR327gVFnTgM=");
 
 export default LandMineOn;

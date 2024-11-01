@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-columns` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-columns?s=regular building-columns}
  * @preview ![building-columns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/building-columns.svg)
  */
-const BuildingColumns: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M267.6 3c-7.2-4-16-4-23.2 0L17.6 128.1C6.7 134.1 0 145.5 0 157.9C0 176.8 15.2 192 34.1 192l443.9 0c18.8 0 34.1-15.2 34.1-34.1c0-12.4-6.7-23.8-17.6-29.8L267.6 3zM228.3 144L88.2 144 256 51.4 423.8 144l-140.1 0c2.7-4.7 4.3-10.2 4.3-16c0-17.7-14.3-32-32-32s-32 14.3-32 32c0 5.8 1.6 11.3 4.3 16zM64 224l0 160c-13.3 0-24 10.7-24 24s10.7 24 24 24l392 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-160-48 0 0 160-64 0 0-160-48 0 0 160-64 0 0-160-48 0 0 160-64 0 0-160-48 0zM32 464c-13.3 0-24 10.7-24 24s10.7 24 24 24l456 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L32 464z" />
-    </Icon>
-);
+const BuildingColumns = createIcon("building-columns", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdwAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCDwsGAAE2AiQDCAQgBYMtBzcbFgXIhof/X7O671clp1PpQa5hRoW0xIrAEjs2onctKlSZ/t6d//NPH/AZfbSxlo9V4RjjPIG88y6PtlAWWKZZ4NjubBM7NO2VRk2S4zPH5Qx5fBFPqZBeTj/jyfKm8ZtubpNUMgDRFgBzN69f6duWaIn4qfER8ZPlCIi5oBTIkKGnADNkAj3lSuRyQUs0Guk/sCSAqJLfO4EcVRzFBUAOkjzPO3Ye3lyvtMo31SvF4Rc6bog3u17v9Hy9VTzq8mK8MmjThqJebI6NUcSLcaPzC8XDjs+53mmD8GbXlwe2ind6vDKoiIgiBE5tWLmgud/7bd//o+/Ph35W//Kjj365rJa1fvnl1l8KSlbr1MGPifvODlT3mEm11vfvt45RbdIbq1/FmrWdOq29jw9t8qoxXjWHtD5/2cb38HkQCF7odPj/3W1m/N1UT+DXz//6B36LGt8m6X00SSDIRjRG2JFAIgAAKS7plyCQ7JWTV232ggChQICkqhAg00NbAXKF4QJU9DZRgKrCepnIa0JHOxtImp0FmUmugFxHH4CKGb5LqjpG5m+EtxDfvdhFGlq4rxw7akw5rTS7KulCWN6eXi6rQy7R1FA46ZDTTrngoAOOuqCQc1bmF520aAYv9EGlsUYZozRNuT14PL7JQeecd9Rpp3iX6crz4RCX5ouHgpEI6jhtSSJS2xspjnzPAAAA");
 
 export default BuildingColumns;

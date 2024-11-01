@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trailer` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trailer?s=solid trailer}
  * @preview ![trailer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trailer.svg)
  */
-const Trailer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 32C21.5 32 0 53.5 0 80L0 336c0 26.5 21.5 48 48 48l17.1 0c7.8-54.3 54.4-96 110.9-96s103.1 41.7 110.9 96L488 384l8 0 112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-240c0-26.5-21.5-48-48-48L48 32zM80 96c8.8 0 16 7.2 16 16l0 131.2c-11.4 5.9-22.2 12.9-32 21L64 112c0-8.8 7.2-16 16-16zm96 128c-5.4 0-10.7 .2-16 .7L160 112c0-8.8 7.2-16 16-16s16 7.2 16 16l0 112.7c-5.3-.5-10.6-.7-16-.7zm80 19.2L256 112c0-8.8 7.2-16 16-16s16 7.2 16 16l0 152.2c-9.8-8.1-20.6-15.2-32-21zM368 96c8.8 0 16 7.2 16 16l0 192c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-192c0-8.8 7.2-16 16-16zm112 16l0 192c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-192c0-8.8 7.2-16 16-16s16 7.2 16 16zM176 480a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-112a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Trailer = createIcon("trailer", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABlwAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCYQsGAAE2AiQDCAQgBYMtBy4bXwXIhofv8/6/tU/yAOeDalC8s3bN26kemnfimud//vSAWWKPEo29Kiug7vMJTHTeomXD2URxg/MmH0Jo7D9BHv9kF6gh3Zo+xNXuQ+MbAy4gacgARDsA1u28/ZYqZZQRH1RfJD6wOQJiHSgEMmQYFmClTGBYrkAuF5RRrbL/wIIAopZ/XQI5GnEtbqP7ICT1eT69qaW5pbWlq6mmJd+pqaZx9we6I27oT3Frz42TmuLuGY8veXHaoyNNTZf33Rzn9t7U2BgRt/XeNLl53o09YmHl5r4dL0u1ljKa3zFU/uSdceWG7pt6F+QFpAw9zAEvz3l69lOLX5j5xKwnF8XlPRE3Oqf7hsbLem+Kc/tubhr/WPtj34378KAPzbl77md8lJF99NncDod+/PU993z98aHvndJ6ySWtUWatH4dvq1TL1vPVf3OL1nLvs+uPOVZrWbYe65j6rTvPd1pN6cd/U3/0dWVrxUiSR7dVsIE1JJlzdOWknXc+qVI/pvUSTrAMFYjrJr+10RF7t638rb4pga9e++FP2d3VMp2THkO9BIJsZnWmPdI5gNkB1FKcZPzEFwWSS9Xz37XZTQKERgRIajUKkBnSLkCu0QwBaoxaJECtRtvLRN4gdNuzgpNmx8KZxc6Ec92eh2us9E61VndkF6ZxWRn/hbkbNYENDxXzZs8tlhejPYV5rWl6d0Wx2Jt6Ep+ZBo86yNGOcoIDHeBQJzSg42zZONGRNpoCN/RDhXlmm6uwXLF5eNfdCdeOc7xDh63t+6xQHJ+b6qTp5dNgmPiy8zUliUh1Xwb/wOMAAAAA");
 
 export default Trailer;

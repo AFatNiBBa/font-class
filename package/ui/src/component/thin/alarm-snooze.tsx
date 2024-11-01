@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alarm-snooze` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-snooze?s=thin alarm-snooze}
  * @preview ![alarm-snooze](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/alarm-snooze.svg)
  */
-const AlarmSnooze: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M157.4 25c3.2 3 3.4 8.1 .4 11.3s-8.1 3.4-11.3 .4C132.7 23.9 114.1 16 93.7 16C50.8 16 16 50.8 16 93.7c0 15.4 4.4 29.7 12.1 41.7c2.4 3.7 1.3 8.7-2.4 11s-8.7 1.3-11-2.4C5.4 129.5 0 112.2 0 93.7C0 42 42 0 93.7 0c24.6 0 47 9.5 63.7 25zm-54.1 427L45.7 509.7c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l57.7-57.7C54.8 400.6 32 347 32 288C32 164.3 132.3 64 256 64s224 100.3 224 224c0 59-22.8 112.6-60.1 152.6l57.7 57.7c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-57.7-57.7C368.6 489.2 315 512 256 512s-112.6-22.8-152.6-60.1zM464 288A208 208 0 1 0 48 288a208 208 0 1 0 416 0zM354.6 25C371.3 9.5 393.7 0 418.3 0C470 0 512 42 512 93.7c0 18.5-5.4 35.8-14.6 50.3c-2.4 3.7-7.3 4.8-11 2.4s-4.8-7.3-2.4-11c7.7-12 12.1-26.3 12.1-41.7C496 50.8 461.2 16 418.3 16c-20.4 0-39 7.9-52.8 20.7c-3.2 3-8.3 2.8-11.3-.4s-2.8-8.3 .4-11.3zM192 192l128 0c3 0 5.8 1.7 7.1 4.4s1.1 5.9-.7 8.3L207.7 368 320 368c4.4 0 8 3.6 8 8s-3.6 8-8 8l-128 0c-3 0-5.8-1.7-7.1-4.4s-1.1-5.9 .7-8.3L304.3 208 192 208c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const AlarmSnooze = createIcon("alarm-snooze", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABpAAAAKxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CCcwsGAAE2AiQDCAQgBYMtBzMbdgXIHgfVrR/GI4MNQxb9POBKPMDvj69znwaSQvl5BFRQzWkyuHuwrmYO9tPRUIaaleiouqF81vq+/3Hvzv/5p+3P6KONMWvj8i6a8zyBALNF0wu7gAPpMk3AsnaVEko0P2lsCrr2/vfYx+9ukIRL01GJtkUPsaa+afiqjDEicQwAoTAA0GVUajzcvQ/vQ/j6H+GhfkCA0BWgMkSMGOUhaI8soDyKykAiEXgf/v8//AdWBgEIGeDVEUiQC9twBJCASJpQlDXVSh075VIy8qWs3E3FZ2W7tnPHtmZIya3LuKfeXsCFU1ZSalK8cF6eis9HHmh2Fvug160+95qcM34PHoI3J6fg0+Gvh04bbojhsO/9vMt7361/EnIaHCQ734rDcqMzOFaB3tEOKZpWcHfdXf91B+M0dt71gRJzkjTMh3MlZiWsMOMfnYl5cb7kgty0K9j9r/Jw5kM7D/doPjw1lDBiBMjP2UJL/b6Uz7X92OLOCy12p/GkYcP8WizCrjC24LPr9SsQ7yvUf3hWMOTs2qpFi9TUae/GhrHh3ewDbW7A6fz5Alqx8x9ebiNaeLSOtqXz4p3tucp/aTEt1HZO/koj0W1Yml/31cM5+DQtVtzcvmqxoiwryjHeDyAgUK/xX71J/PbfcucjAXw8/+/2M/J/keg4cotAIK7/f315EYgIAIAodDBFEBBZJ4V6fpsFzXpehJTL5CXEyhFAIq96kKrI74ZMXsOQhYQJQXH5CJH8lkCspX5IFHcGqfZeK5niIbZQ3r74H8SUCImEbzI0cfc0BBuWLV0wOjavhhiundodccTJHYQKjRq0KVemWpvAWsTX29WL2KHhvsjAiztPBsEMj7vPuzOUa9GqWqOGsk4Ig37OoWM/3cn5JGBsSos+wZGIUzy/uKXebVlDY2NPOQA=");
 
 export default AlarmSnooze;

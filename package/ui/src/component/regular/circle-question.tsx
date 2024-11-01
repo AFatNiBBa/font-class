@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-question` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-question?s=regular circle-question}
  * @preview ![circle-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-question.svg)
  */
-const CircleQuestion: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm169.8-90.7c7.9-22.3 29.1-37.3 52.8-37.3l58.3 0c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24l0-13.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1l-58.3 0c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const CircleQuestion = createIcon("circle-question", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABiQAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCMgsGAAE2AiQDCAQgBYMtBzYbOAXIhuD7nFm/L9mVkRxkBQEWEOk2lesyzf/Nnvc8CvBbZKHtoYEswL2eJ5Do94aGgSR0pgdgx3jqNl5ukJ8Xg8gQPSKGdkPUHfJ4Ji5UI12V3sUF+qr4WlenktQyANEGAHM2rVvhxeZojnjn/8eIdyxDQMwBlUBGkB4CTJcJuEOuQi4XNMf//8t/YEUAUWe/KIEcdRyD0wA5SPI87959aPuy1jLfWNaKXU4aGXH/0reLsxe/OfxeJ464b8lb5TnL3hn1QDS+mBfxyqoPynNWvDfnpQ2fzn5x+bvF2Svfn/vyxk3XdI64oizjtiF3db128OC4sv/t3SJO6jwtrojLOxVxdgdx5cDbu3fecNLSTed0vMyJHS4tzu50efS9u83d3/Z5d/d3ffDClOe5v1FOmlQ27n9+CiQY/qEFTXR95KV58156pGuTBZKEJ+7aevVXfNV+qhvbKrItP+q4Zk3Hllo9/pRDmlp+OFW9Q3LJgsnzY8LTrc7kzFYlwXggrt3Ss9tfO7Se/muLMoEtT3//G/kW/f9iku5GCwkE2fD/h9s2gUQAAFIcrm+CQHKInL614XIBQoEASV0hQKa7NgLkCsMEqOllggB1hXUykTcJHWzXQNJwEMhMdBzIdfAIqJnuDbeuQ2QRSMcP/f5LWIjIgq1qzMjR1dRqmqhMUJF5Oa1aNgYfnhpDCGp3B9jfoXazq70cCtjBVgSH2c9CD13ggypjjDRaZapqO78XNoJ7sEPsNVbtr5mmOu8MdrjfP4TsxAjHCiWJSK0/6qgjbikAAAA=");
 
 export default CircleQuestion;

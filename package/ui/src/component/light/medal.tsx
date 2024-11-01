@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `medal` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/medal?s=light medal}
  * @preview ![medal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/medal.svg)
  */
-const Medal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M106.4 191.5c7.5-7.8 15.6-14.9 24.2-21.4L38.5 32l103.4 0 61.6 102.7c10.9-2.8 22.2-4.8 33.8-5.9l-68-113.3C163.5 5.9 153.1 0 141.9 0L24.6 0C11 0 0 11 0 24.6c0 4.8 1.4 9.6 4.1 13.6L106.4 191.5zm168.3-62.7c11.6 1 22.9 3 33.8 5.9L370.1 32l103.4 0L381.5 170.1c8.6 6.5 16.7 13.7 24.2 21.4L507.9 38.2c2.7-4 4.1-8.8 4.1-13.6C512 11 501 0 487.4 0L370.1 0c-11.2 0-21.7 5.9-27.4 15.5l-68 113.3zM256 192a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 320a176 176 0 1 0 0-352 176 176 0 1 0 0 352zm38.8-229.5l-17.3-35.1c-8.8-17.8-34.2-17.8-43 0l-17.3 35.1-38.7 5.6c-19.7 2.9-27.5 27.1-13.3 40.9l28 27.3L186.5 395c-3.4 19.6 17.2 34.6 34.8 25.3L256 402.1l34.6 18.2c17.6 9.3 38.2-5.7 34.8-25.3l-6.6-38.6 28-27.3c14.2-13.9 6.4-38.1-13.3-40.9l-38.7-5.6zM244 300.5l12-24.3 12 24.3c3.5 7.1 10.3 12 18.1 13.1l26.8 3.9-19.4 18.9c-5.7 5.5-8.2 13.5-6.9 21.2l4.6 26.7-24-12.6c-7-3.7-15.3-3.7-22.3 0l-24 12.6 4.6-26.7c1.3-7.8-1.2-15.7-6.9-21.2l-19.4-18.9 26.8-3.9c7.8-1.1 14.6-6 18.1-13.1z" />
-    </Icon>
-);
+const Medal = createIcon("medal", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABqQAAAK/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDKAsGAAE2AiQDCAQgBYMtBywbpAXIhocHO/87dzIPcPKEfMgVpJXQgqhc/27XnVDHpz/1POehAC7yoLyM2b11TPrYuQR6XsCxvectlpZoTStgHdUrBqhS/uF4d4U0PohxRSSPJd/gnuZw/KrNjSTSjI4VtXwsS7Zu3ODTH+KHiG8KbxHfWIeAWAqyAhlk0CnAfBmBTqksUqnghygUqP4DswQQxeDnJiBFKd7AZ4AUJIrTtLm5o2MkW1FUlW6pKCrf+kjLlqiIzfHI0JZ4eLA8nmy9tmnz1qcGtkZFbIqHmrbGI/G46BaNmybfMSfivYmXXDv+4ux3y2+f+37+5bhu0ivzPqhI7pgX8cGBK2jwwIcMcq9r9Yg571VszU/kH07XN47H9Hiw8cGmkeiMWfBQy7yYE4JHmrtjLIiHm2eu7mjtaKNzTQMxLMVeOxgPN/ZHh+QhozEUj7T0Pl/7/O+5b45843jhgy933uaoBUf8Z9m57q69yP7mkhmHH3t2oXT+Ecfk3vc+IEkzSpr3X6T2boNz+aGEZEpucDA3JUmGiIbk3OLJl3DxpZfl85ddevElk2EDjA7+kunudWV19akGm/wzf8Hj79ui+5lnz+bknH32me4t3vf4gvk/Hcq92z3XjteekHNr5xxXeOqpK6xReekUT3htBxAI3v/+29l7a+b/X1qRgJ/e//N/66+o8GkieR6lEhBkxgvjdiUgIQAASVysN4FA4gXF4IdUeliAUI4AiWLlAmR0qBUgVW5MgCLdZghgeHijjEjLhEa7TzZR6Tw2Y6ar2FSjN9gi832eL9YYmY9X/fTUX8eslSS1YlV2Sn5ydm5W2rBr36NcLs7LGvuGL04HRuAFR5zjjAsddsjxFQRzvg2li5y2UkWv8EVZU+RNljVX1rk9a20hMFsXkLJYc1/GPNnwqWEXq8ePwGCiE53KkdyC+qTo9OFD+08BAAAA");
 
 export default Medal;

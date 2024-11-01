@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vector-circle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vector-circle?s=sharp-solid vector-circle}
  * @preview ![vector-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/vector-circle.svg)
  */
-const VectorCircle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 0L320 0l0 41.3C392.2 62.8 449.2 119.8 470.7 192l41.3 0 0 128-41.3 0C449.2 392.2 392.2 449.2 320 470.7l0 41.3-128 0 0-41.3C119.8 449.2 62.8 392.2 41.3 320L0 320 0 192l41.3 0C62.8 119.8 119.8 62.8 192 41.3L192 0zM402.7 192c-16.1-36.9-45.8-66.6-82.7-82.7l0 18.7-128 0 0-18.7c-36.9 16.1-66.6 45.8-82.7 82.7l18.7 0 0 128-18.7 0c16.1 36.9 45.8 66.6 82.7 82.7l0-18.7 128 0 0 18.7c36.9-16.1 66.6-45.8 82.7-82.7L384 320l0-128 18.7 0zM240 48l0 32 32 0 0-32-32 0zm32 384l-32 0 0 32 32 0 0-32zM432 240l0 32 32 0 0-32-32 0zM80 240l-32 0 0 32 32 0 0-32z" />
-    </Icon>
-);
+const VectorCircle = createIcon("vector-circle", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABeAAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCJgsGAAE2AiQDCAQgBYMtBzQbKgXIjsO44TuyxVL+4+H/17Lu+1Xpk1RnkGuISAGTI1TjCGXUIDnYdStUzlpUq7uZCX17T1xOf+M/PeDmF3uU1prgc54nEOCe3iUeWKYJWLbNCiqIIm5okRCxkGjYHNbnn5DHpyx1pLsJbo4Pjb90cZmkIQMQrQEwe82K5b43R3PE77U3xO+WIiBmg1IgQ4buAkyTCXSXK5HLBc1Rq5X/wJIAogJvSyBHPU7hDCAHSSXPB5cNyFTrWuSr533FhmpRFb+mb3Q1RBHPp31eVHkRv834GIkmeDXz29JY9XKJ4+cok+3FYj0ufh9riKwWBhDZdUW1kF2xRmCN0/s0tW76p7fdfPt2HnsH27rndGWw8warnN6zlSrLpX98u3OjnfPauXGnV+LeZzdLaGVXr3OEP/5m2ppeBwLB3IEXHm1pNe3/+moCf37875/0M1L7nqQm1EsgyIbVhtmYQCIAAClO65MgkBxSgVONbgkQChaVVBRUppvWVK4wlKrT0/jTFYUVMpE3CO1tClTS6BiVmeAMlWvvFVVnmh+5ivaR+Z7CcxRffmkXcHj+pHL0iFHllHJbQkp3krXRqaXZOui0aBkcd9rtiMNO2mWnfU4y8rjlxVMOWXAi5vui0mgjjFKaoryuLrWrWe64E/bpJvfjTFW+Dw5y+tx9cHQkEB3jVJKI1OL0rh0njxwf/pcOAAAA");
 
 export default VectorCircle;

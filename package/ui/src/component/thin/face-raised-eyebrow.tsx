@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-raised-eyebrow` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-raised-eyebrow?s=thin face-raised-eyebrow}
  * @preview ![face-raised-eyebrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-raised-eyebrow.svg)
  */
-const FaceRaisedEyebrow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM192.4 240a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm144 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm36-115l4.9 7.4c2.5 3.7 7.4 4.7 11.1 2.2s4.7-7.4 2.2-11.1l-4.9-7.4c-16.8-25.2-52.5-28.7-73.9-7.3l-29.5 29.5c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l29.5-29.5c14.3-14.3 38.1-11.9 49.3 4.9zM120 160c0 4.4 3.6 8 8 8l64 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-64 0c-4.4 0-8 3.6-8 8zm48 184c-4.4 0-8 3.6-8 8s3.6 8 8 8l176 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-176 0z" />
-    </Icon>
-);
+const FaceRaisedEyebrow = createIcon("face-raised-eyebrow", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABmAAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCTAsGAAE2AiQDCAQgBYMtBzobVgXIhof/1/v/n2snF3AegS+hJEZPsbXOxannOQ8F8I2CNtai2ChIac7zChRwbF+LJGA1rYD1bNubIKahHazbEfJ4xP7KSNemV3GxV9D4RpfzSbIMQDQCYNGOLes8+WV8GfFq6T7iVWsQEItBIZAhQ68Ac2UCvXIFcrngyyiVxH9gQQBRLihoAjmqcB6uAOQgqcjznp6qqu662pqyunx7TVn1bu+tinhp0V3Onvjkyhe3vr/65cV3xzlTnlnzyo70wYaIN5Y8E+csfnr969vfXfvqwiedveipda9t2/Wq9itar2y7umPb1R3V4R1t7W1Xdlzd3h7XDb9+6Mi4Qntj4mqqtW1VRk0s0apDctsI27xp8M2NN3836NUDX1W6Y6EjOarizwUL/qw46siFeKU4/OMyl3DpnN4lS3rnXHrJMrgSz13QUP/lm/39b35Zf3FDTDnekGOXB08u27x1+HJvb1rU8Klp07Zsec3Db715wT/N5XsvtHd5akx4oLTuhD8GgeD3w1dv36th7m+VNQl8/fAPf8ufkdKTSboZlRIIsrGlsXZPIBEAgBQnGpwgkJymQlCqdZU4s1SNUHG5alzK9GisIVdtDJTpN41YuXmLTORVQqs9MCS1joHMdGdArtU9UGauF9JyrZGBIwVM1M9g/PI2smxWMWn8xGJ2MVlR0hBG2Mk5xWp95ImyYxQ+6EBHOdLxDrC/Qxzfwo61rnSCIyyfQ5f5osIk401UmK3YXb+/e7sDHOs4hzjKke40cxTnxyOdON9/FLaSAHeysiQRqeVal8bdAcm4A0454GEZAAAA");
 
 export default FaceRaisedEyebrow;

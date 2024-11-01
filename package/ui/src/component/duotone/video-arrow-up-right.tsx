@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `video-arrow-up-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-arrow-up-right?s=duotone video-arrow-up-right}
  * @preview ![video-arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/video-arrow-up-right.svg)
  */
-const VideoArrowUpRight: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 128L0 384c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-68.2 0-119.6 0-68.2c0-35.3-28.7-64-64-64L64 64C28.7 64 0 92.7 0 128zM96 328c0-6.1 2.3-12.3 7-17l103-103L152 208c-13.3 0-24-10.7-24-24s10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-54.1L137 345c-9.4 9.4-24.6 9.4-33.9 0c-4.7-4.7-7-10.8-7-17z" />
-        <path d="M559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2l0 256c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6L384 315.8l0-119.6 142.2-94.8c9.8-6.5 22.4-7.2 32.9-1.6zM152 160l112 0c13.3 0 24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-54.1L137 345c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l103-103L152 208c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const VideoArrowUpRight = createIcon("video-arrow-up-right", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABkAAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCIQsIAAE2AiQDCgQgBYMtB2QbVwXIjtRW80EoQTImHr5f6/Pc93qmdnuWoWsVICgEtEAQkImKiiMQ7ldsNMHgvEFRStvB0F5ivqdOPc95KIBvFJQ9Nby6xuAKBLCD6lt4g7ciFeOam4YEPwS5QRApQR5ScdhMh6kHKOKffAXUSA/Rt7ie3zh+0dUVkuYZQLQBwLTli+f6vAk2pfj2/0+Jb81BQEwHlUBGRg8BJsoCPRQqFApBU/r/f5rC/fNVBBB1hMwM6nT7B3AWUIAkSUXRtkevno1ay2JZo1YevptSPLBv/LKIWB73hw2NsvE2iQf9uxyxJN6Mj8ryKONdfjzllNPD5cOhZbzfPi4B99H60dhCkDV/EJdeDHFJI95fcw/2+Uh+dNZvt31r8Oo/EOmPZn9eXeeE4v7B7x0HELew4wEdF6bC0bZt07Lljz9abTSO9WtNRdm27QvgBQWWM50wkzvrvyi3yZYdcOIXtpVAILj1U7dofeuJv4pGAj9/dv/1yjQ1fQRoJoEgD/x/tyZNBbckwEtxTJ/RF61EIJsgwaO2cE+AUCJAUlcKkHXXRoBCaYAANb2MEqCutFgWRXOhg7UPSFo4CLLRzoJCB5+Amom+8Os6RNY8Sm+oH7/42RyaFVQNGzy0Gl9N6xqtTESan1CJ9b7HfF8/s9c2++1zxFZb7HSEIYfMjRy11+wVPMsHVYYZbKjKeNV2655fRv4hh+0cs/urTFCdt/s6th7dz1gJUIfbkWUiRe5xG8sHbTx0aP/xQUcPfL7yIEUe3WvCXlwAAA==");
 
 export default VideoArrowUpRight;

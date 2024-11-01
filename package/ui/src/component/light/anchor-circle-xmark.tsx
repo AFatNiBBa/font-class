@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `anchor-circle-xmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-circle-xmark?s=light anchor-circle-xmark}
  * @preview ![anchor-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/anchor-circle-xmark.svg)
  */
-const AnchorCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M336 80a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zM288 0c-44.2 0-80 35.8-80 80c0 38.7 27.5 71 64.1 78.4c-.1 .5-.1 1-.1 1.6l0 32-64 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0 0 256-32 0c-79.5 0-144-64.5-144-144l0-25.4 36.7 36.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-64-64c-6.2-6.2-16.4-6.2-22.6 0l-64 64c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L64 310.6 64 336c0 97.2 78.8 176 176 176l48 0 48 0c17.2 0 33.8-2.5 49.5-7c-9.8-7.9-18.8-16.9-26.7-26.7c-7.4 1.2-15 1.8-22.8 1.8l-32 0 0-256 64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0 0-32c0-.5 0-1.1-.1-1.6C340.5 151 368 118.7 368 80c0-44.2-35.8-80-80-80zm96 368a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm256 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-84.7-36.7c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L496 345.4l-36.7-36.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L473.4 368l-36.7 36.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L496 390.6l36.7 36.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L518.6 368l36.7-36.7z" />
-    </Icon>
-);
+const AnchorCircleXmark = createIcon("anchor-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABuQAAALGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDRAsGAAE2AiQDCAQgBYMtBzobzgVRlO1FnewjITc1ei0+iRmdwrEJ/ild+v5KZ9CZYR0ihv4mXbhyFdDSuq0e/ICbS8z/P9d8fmlHBfKNDq1DDyQWzzt5bzSgiYVFUokPZwPlMc3cmvdRQZB9RGIMqRGjEf/V4xedgKs/WgmA2W5eAWv7m+o76SwCg+sAAKA4AACgfteOrbkXUkh65V8GvaIlIAA1AMAiwAEcIAsBUAsHAVm4WMDFRRCS7+f/QAsCAIVBJxoAXCAceAS8BlZJ++kB1x2I7p6Z2GAg2u0SDHhDt7WH+iPxzuFodzjqcmmUjqXbp+PdPECeNrnNXlBGnp7UuVNLtbU52Op30BbXTpu8zUFdoc/t33cOBlcOW/xNxJOjoLYGW3xP0nw8upxM9swnzu7zE2nncJSu7A5H22FeuK09RFb0R+IdGD1/l868N8iK+9p6CuZtp5/rdOV38ziLXbb6W1wt1dEWt8mrrVp+0g1Oq6O6BU6oE3/1asgr2o71xsycOcYbryvbNs7nYOiiaDfpsmSpRygmJlQPsNxfOi0rnYYcP75jh584nx07ihuSjlrE1bUqVy5jyvc7+6MsWHa1SJeT3Gh1GRzXd2zOV/i6Z09OTuO+fs3JUXkTRS3YxIQiRRISrS1aahB1KuQhuS6tRCXk3QAIENzf26pf39ha+RHUAPDlxu/8eaP/x79n5pkTQAQGAIFTyl/pZeYpJMxBUGo0hQL4IAGGWwRAHMUWa054wGAIwwOHTOLAxaMkBMih8glheHTEQW4kIoneMBiiGA8OVZgNLklchAC1eJqEkSQnlKVAlD4k05tIpPEqW75MOVvDHtZscnQKbbamPe0Xm1J6imMrQxjLGCYxmEEMZ5KgJ9A6N5nRNNGoxnwRS3nKUA5LDay5+ap3EckEJjJ8X7UvUhN7fVyMKfrw4ogMxFuBEoMBmcSXzC79009QetqTDw==");
 
 export default AnchorCircleXmark;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-half-dress` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-half-dress?s=sharp-regular person-half-dress}
  * @preview ![person-half-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-half-dress.svg)
  */
-const PersonHalfDress: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M154.3 .3a48 48 0 1 1 11.3 95.3A48 48 0 1 1 154.3 .3zM176 128l35.1 0 14.1 0 6.9 12.4 75.3 136 11.6 21-42 23.3-11.6-21L224 224.9 224 488l0 24-48 0 0-24 0-136s0 0 0 0l0-48s0 0 0 0l0-128s0 0 0 0l0-48zm-81.2 0l14.1 0 19.1 0 16 0 0 109.7L113.3 336l30.7 0 0 48s0 0 0 0l0 104 0 24-48 0 0-24 0-104-48 0 15-48 37-118.3L54.6 299.6 43 320.6 1 297.4l11.6-21 75.3-136L94.8 128z" />
-    </Icon>
-);
+const PersonHalfDress = createIcon("person-half-dress", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbgAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSCEgsGAAE2AiQDCAQgBYMtBzgbGgXIhofv18o/93X3JukJQ4d4NsjkiFyiWMInCQRGbH2LKnqmTj3PtFAA3yhoe2jOJ0XX6ljnFajAtgleKtYKVrNeBazWzn5hUPpF+vTEE4btyjC5Qx4745GC9Cz9iYfxTeNvvdwhKTIA0REA87duXO3blmiJ+KPxEfGHlQiI+aASyJChrwCzZAJ95SrkckFLNBruP7AigGjCX0wCOQqcxBVADpIsz9uNHl0r2uVbakW58+2Rz3o+HfJq1Ht9XgzfXCtr3WJz9Ipp0Tu2RApRRkTEzbhJUjmXFJuiFioD+WUMiK1dv2fMiD5yTo9B73V879+Bfx7507Nv3i/ePPv0ZcKLd5/e7frgwc0nrbjvQ098aMQKrfRU19MDUAc3QH19+/bNZ/Tfb4A6OLa27Zi6/w25bMz6I/S1B5wEAsHm5S0/7u0w603rWgJ/ff7///lnFI1vY256D60lEGRjGmPsiitCxFwBAEhxxaCYJwSSgzL8qm09FiCUCJA0KQXI9NFRgFxptACF/iYL0KS0USbyNkJXuwtI2joPMlNcBbmuPgCFWX4JmnSNDHEsXtj/XtISDS3eVDWPq1czqmFJOBDRYXVmtWyNuOJHRtJJR5x1xiWHHXLcJUVesDq+7LQlFrHYB1WajVNXmaHabm6lLcq/4KLjyjizv85M1X1vhCv29JHkJkw5QSpJROoEUHksmJWxbxgAAAA=");
 
 export default PersonHalfDress;

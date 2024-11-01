@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swap-arrows` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swap-arrows?s=duotone swap-arrows}
  * @preview ![swap-arrows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/swap-arrows.svg)
  */
-const SwapArrows: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M288 160l0 96 64 0 0-96c0-35.3 28.7-64 64-64s64 28.7 64 64l0 242.7-41.4-41.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l96 96c6.2 6.2 14.4 9.4 22.6 9.4s16.4-3.1 22.6-9.4l96-96c6.2-6.2 9.4-14.4 9.4-22.6s-3.1-16.4-9.4-22.6c-12.5-12.5-32.8-12.5-45.3 0L544 402.7 544 160c0-70.7-57.3-128-128-128s-128 57.3-128 128z" />
-        <path d="M150.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L96 109.3 96 352c0 70.7 57.3 128 128 128s128-57.3 128-128l0-96-64 0 0 96c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-242.7 41.4 41.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-96-96z" />
-    </Icon>
-);
+const SwapArrows = createIcon("swap-arrows", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABjgAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCLAsIAAE2AiQDCgQgBYMtB1IbUAXIhofvdb6d+yR7EjkMCjBWCLAM2BR/tiWoPXXqec5DAXyO89y0QRb4nOfBnPe8IC2vBb6Eaor12/lZKOWyouviEdrp9Ifp7yBP/bKrVUgPpJ9xG/0PYPyqo6tJGmcAogUAZqxcOt/nDdGQ4uf628TP5iEgZoJSIEOGLgJMlgl0kSuRywUNqV6nIer1kgCiil4+A1XkOIUrgBwkIfJ8/PhapWm+olYp1t5bRNzYZlnc7VLbe2o3tZ8W4okpn8z5btpnvSKKEPf3f773swNf7BQxJeBl98Xldit2CrWIeGjQS/2eGfBCRzE17i1ubLNCWN6jrwyHS26yf4Unp3469+vJH5c9X2zx4u89ft7xs3vfvb8pTe/fuNENTZvecH/Tpvff4F+V0bMWLZo1urLJdJsULVs+/njLlsW/bgDxgHUb3btvihkRlrPtfB4IBO91fPXBjc0n/9+olsAvH/75L52v/nm6lF5EIwkE2eD6YOvSJbDoALwUJ/QEcpzzovGS+K1N3CtAKBAgqSoEyHTWQoBcYZAAFd2MEaCqsFQm8sZCG+sLSJo4DDJjnQe5Nt4CFZN951W1iUz/SO0h//7i5nJozqpyxNDh5cSyGUmUSuFwOqkc1vqfcJUBZqMdDjrgmO222e0YQ46YHx6331wEz/FDpRGGGq40UTmdLrkVzDviqN11Zn7OJOV+t78TuH2AWU8CjLy5bRmRImt99OTmQ0M2H/lCpCEvudZWMo8WAAAA");
 
 export default SwapArrows;

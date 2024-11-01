@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-half` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-half?s=sharp-thin star-half}
  * @preview ![star-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/star-half.svg)
  */
-const StarHalf: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M148.1 328.5L124.4 493.4 121.7 512l17.2-7.4 173.1-74.4 0-401.6 0-28.6-16 23.7L201.6 164 38 192.3l-19.1 3.3 13.5 13.9 115.7 119zM51.5 206.2l152.8-26.4 6.7-1.2 3.8-5.7L296.1 52.4l0 367.3L141.6 486l22.3-155.3L165 323l-5.5-5.6L51.5 206.2z" />
-    </Icon>
-);
+const StarHalf = createIcon("star-half", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABVwAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBLwsGAAE2AiQDCAQgBYMtBzAbrwTIjsO44TuyxVKG+BLx8P1+/1v73PtNMbuImDWaWrL2h0Yj0fCQxCpDZIgvmWvf5/9yz+/50QF+o0Mb09YEGUuP5nyeQIDZ4ijKJ2Vhlii2uO2q0TALCRYaZ8jji13KSI8T3AwfGn90cIUkywBEIwCmr1252Juf8TPiYynio4UIiOmgEMiQobMAk2QCneUK5HLBzyiVxH9gQQBRLl01gRw5xmA+IAdJyvMObWrK6vI1Rqteu0rtaB99Y21kEVHYVTjWK9rE6jWLertox9g0ZteW021jTY+Wxpa/3e3h7pl2L/Jlzcq9XOC2Lv7bfNWLTnr67OSZrRcedkAv2ma0Zecc83i6Nk9UmO3gESAQPN075OnWhkn/KmsS+P36P+52rUpvYlxqQaUEgmxQaZBNaZpWZsU4AQBIcUaPjS8KJEMk6V1rPRAgVCNAUq5agEwnjQLkqg0UoExXowUoV22lTORVQmubG0hqHQeZMS6DXGuvQJlJ3jrlWkcGP8TbJ37fYucModnbiuFDhhUTitVUIUECs+uJxWG+3xnZ6o+P2uOoI07ZbZf9Tg2QExb7px02Zwue7YcKww0xTGGC4nLxdP8au51w0n5HHfGbTFQ8b/dzZnu4P5aShDpCIklEqvrAucGQCQA=");
 
 export default StarHalf;

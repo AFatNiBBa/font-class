@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-circle` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-circle?s=light pen-circle}
  * @preview ![pen-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pen-circle.svg)
  */
-const PenCircle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm331.5-92.7c-6.2-6.2-16.4-6.2-22.6 0l-21.4 21.4 40 40 21.4-21.4c6.2-6.2 6.2-16.4 0-22.6l-17.4-17.4zm-149 126.4c-2.1 2.1-3.5 4.6-4.2 7.4l-12.3 49 49-12.3c2.8-.7 5.4-2.2 7.4-4.2l82.3-82.3-40-40-82.3 82.3zm103.8-149c18.7-18.7 49.1-18.7 67.9 0l17.4 17.4c18.7 18.7 18.7 49.1 0 67.9L245.1 352.3c-6.2 6.2-13.9 10.5-22.3 12.6l-74.9 18.7c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l18.7-74.9c2.1-8.4 6.5-16.1 12.6-22.3L286.2 140.7z" />
-    </Icon>
-);
+const PenCircle = createIcon("pen-circle", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhgAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCLAsGAAE2AiQDCAQgBYMtBzEbLQXIhof/t5ne92e0IMnIY2auzGEskypnqxBAZ2pDlWtNf+7Pdz4a4DMaUiSWDqTAM88nMJH0JIkCm+kA6LN+c1dLTdK0h490iSV5/Pb4MkAe78UQJdLz6Xs8Wh4af+vkLpI8AxAtATBz/eqlPr4ZNyO+r71BfG8xAmIWKAQyZOgqwBSZQFe5ArlccDNqNf4PLAgg6ugPSiBHPc7gbkAOklKed+lSbd61UmqWr6uUyrtfHBXx6qJvyw8s+HrEy8ULI19Z+E3lwcXfjX6td/Wv2RGfLf+p8uDSH2Z+svb3GR8v+b78wLIfZ326bvczbQfE1Bgcz7YftOaptkXMj2c7rI9psWb9s5WIB9sNjKddbrsmngp8+2fmmLWgV1PLpn97fr/vezc+qn7Kr9OWTp68dNqvn1bBwP03zW2k02ufzJ79yWudGs0VIyxavOXtl+Y6b64HHoinLo7KXlYxoteqVc6rO9j/1L9taPNvS9fbtLl+8YL7P13U2pV1azu2WmTy/RcuAIFg74Bf+29vMeVOQyWB2+/+fyd9RmofJ6kJDRIIsiG1IbYkkAgAQIpzeiUIJEeU6FqrnhEglBEgqVMWINNFSwFyZYMFKOlurAB1ylbLRN4otLW1g6TqJMiMcwHk2noNlEzxlVKnbWTuRzoP+fiLm4fQ3Kpi5LARxaRiaWiUR+G5OLnY5geci4GB1Guf4445Y689DjoDyClL9bOOmmfBc72oMNIwIxQmKY7tx/Z19jrltIOOOyZlJivuywOcs+MHkpQo6ii1SSJS+cTeY0P/6QAA");
 
 export default PenCircle;

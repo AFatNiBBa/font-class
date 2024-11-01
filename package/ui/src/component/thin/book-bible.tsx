@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-bible` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-bible?s=thin book-bible}
  * @preview ![book-bible](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/book-bible.svg)
  */
-const BookBible: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 56C0 25.1 25.1 0 56 0L408 0c22.1 0 40 17.9 40 40l0 336c0 19.4-13.7 35.5-32 39.2l0 80.8 24 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L56 512c-30.9 0-56-25.1-56-56L0 56zM56 416c-22.1 0-40 17.9-40 40s17.9 40 40 40l344 0 0-80L56 416zm-40 .8C26.2 406.4 40.3 400 56 400l352 0c13.3 0 24-10.7 24-24l0-336c0-13.3-10.7-24-24-24L56 16C33.9 16 16 33.9 16 56l0 360.8zM224 80l32 0c13.3 0 24 10.7 24 24l0 40 40 0c13.3 0 24 10.7 24 24l0 32c0 13.3-10.7 24-24 24l-40 0 0 88c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-88-40 0c-13.3 0-24-10.7-24-24l0-32c0-13.3 10.7-24 24-24l40 0 0-40c0-13.3 10.7-24 24-24zm-8 24l0 48c0 4.4-3.6 8-8 8l-48 0c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l48 0c4.4 0 8 3.6 8 8l0 96c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-96c0-4.4 3.6-8 8-8l48 0c4.4 0 8-3.6 8-8l0-32c0-4.4-3.6-8-8-8l-48 0c-4.4 0-8-3.6-8-8l0-48c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8z" />
-    </Icon>
-);
+const BookBible = createIcon("book-bible", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABmwAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDBAsGAAE2AiQDCAQgBYMtBzEbhQXILgrshuMjZMSlaFNDsRcLWJ14+H6/ynPf/92zDYv8ahUjKQwQuWUZN2pckOxUbCoykdv9zvzdUE/2Cf3/UI0QZUSIfsHVTlyTv/gpes0jGFpUgZRH5PkEBhrpTZtIFM4mirN2dqk3iH6TJPieDNtn2GyhjE9xVIX0cYQ304fGPwZ6jqQoAEQPACzasWWdjs7ojPi+lfjeGgTEYpAFChQYIsBchcAQpYxSKeiMVov+AzMBRBW/QgIl2nAfTwAlSCplmXv0Gj25Uelabm9U6sWnjvjwusarfF+Kj0Y04n2+16cZ9/XBoGLXK30i3sOdvu83FhHNqbqkB13EJ9uM+fT3pD2NeuNeikY49qOpB3u/IuhPrxFJA4T3+tSDROJ9NtQx8KEDagQ+UB1AKDUXHfG4x+N/6/j3XmrDUwf1fNJuo2F/bTLAwWr14B0Xn2p7608M7fiterY/sdNGOy+2HLSp70Z9N21MOvXTxpzzpr4jjUxA1o9UUPpuys07e2Ck/cZEzqoenOhgNcvAQTiXzpCJ5wOB4Le1//9A97n/dWkk8He7cbpWR3Skx6CLBIJibGusvdEBJB9ANMV1I4RvEki+UMHX2vSBAKGOAElVXYDCYD0EKNWNEaBimGkCVNVtUYiyJvSxr8qSpkuywnQ3ZaU+vpRVzPVVtKpPFKaqNjT1RzHD8hZaNi5PGj8xz87LoqKxPmUYnpPVjpHXfdMobHTcBedddcxRp1xtsMvWJa45Z7mELvND2STjTZTNlo8r96u3O+ayK0654HwcZY58PzLSdbnzKLgTVjhZWpKIVLdj07g3DQ==");
 
 export default BookBible;

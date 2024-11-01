@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `baby-carriage` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baby-carriage?s=sharp-solid baby-carriage}
  * @preview ![baby-carriage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/baby-carriage.svg)
  */
-const BabyCarriage: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 192L.1 192C3.1 108 52.3 35.8 123 0L256 192zM384 96l32 0 64 0 32 0 0 64-32 0-32 0 0 64c0 25.2-5.8 50.2-17 73.5s-27.8 44.5-48.6 62.3s-45.5 32-72.7 41.6S253.4 416 224 416s-58.5-5-85.7-14.6s-51.9-23.8-72.7-41.6s-37.3-39-48.6-62.3S0 249.2 0 224l224 0 160 0 0-96 0-32zM80 416a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm240 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const BabyCarriage = createIcon("baby-carriage", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbAAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBTgsGAAE2AiQDCAQgBYMtBzQb0gTIrgbsxmFDHGDBQ7lCDCV77bEFW68Kq4iHaOzbm9k9MYkmSBJrXEPjNUyyePJmzaRUIhcqWsnkfzAu716O0D3M9kkY7LpQ3VYX3Vj62kJZB+iC/xs8JzwsLKMpziteQYUHOelB3i1/5uoazPH23fzf7HnPowXywRILbSybtEAWSDTn8wQS6+V5IOm8O7AzPQE7dRvn4IIoryJX8IgY2kI1uEKNp/JAE/kqt/Gsfmj8M+aC1FYAIHoBgIOnalV4j4Kfxkl8twkExEGAWYiCgkkI9mAKTGKZBaoq+M2n/8BZEEA0g90lQUUzjgBHAagg1cri67q6hGwxq9nRJGh1donuD3/blC1huxCiXQBxZ2m1jaFD8HD35Zg9O3YIEXHiAzBybeqVVuWsEtJgHnBtai37ogfZ/Ae3T78aYzWi9+Bxi2ZPcmg2x1LyfyX06vI/i+X3a9Bq9ub3rqyERfvl6/tLgu1AIDj94xzZ6tnzv7WDAfDXP/yMNEz5Fa0SBGWpsaSfIAkAQMYWQ0IgHcJiR+30XIDQjgCpWbsAxQQZBFW7RQiaTAtD0KzdMUxR+RAGDTpIna6BYrdDUA16BE32+LCbDUbhE8MG5jWXWPFQeYrWPT5K0DLQWIpQeZikbXluCwW7LMKUZUs2TJowa8Mha6repkWVCC77IuLn4UMS6Dh+nm+atGbdrGVLZUwS3bdstuJ6u2gMRrrBl5JIMeUr3D9l6KPTkwAAAA==");
 
 export default BabyCarriage;

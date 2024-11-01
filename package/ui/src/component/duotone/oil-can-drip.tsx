@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `oil-can-drip` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-can-drip?s=duotone oil-can-drip}
  * @preview ![oil-can-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/oil-can-drip.svg)
  */
-const OilCanDrip: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M160 96c0 17.7 14.3 32 32 32l32 0 0 32 64 0 0-32 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 64c-17.7 0-32 14.3-32 32zM544 400c0 26.5 21.5 48 48 48s48-16 48-48c0-21-20.6-62.6-34.9-88.8c-5.8-10.6-20.5-10.6-26.3 0C564.6 337.4 544 379 544 400z" />
-        <path d="M368.9 160c9.9 0 19.7 2.3 28.6 6.8L448 192l167-35.8c18.1-3.9 30.7 17.6 18.4 31.5L451.1 394.3c-12.1 13.8-29.6 21.7-48 21.7L144 416c-26.5 0-48-21.5-48-48l0-21.3-67.5-30C11.2 309 0 291.8 0 272.8L0 208c0-26.5 21.5-48 48-48l48 0 48 0 224.9 0zM96 208l-48 0 0 64.8 48 21.3L96 208z" />
-    </Icon>
-);
+const OilCanDrip = createIcon("oil-can-drip", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhQAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCEAsIAAE2AiQDCgQgBYMtB1QbNgXIjpQuH7Tx8GTXf+dW9cwD1B/mishgRV/pvmgFpUK6kxWptVOnnsc2BfCNgjLWBlkgoc51XoGKVsfiUs8rFKEYca3Ncb/8IMpHhEgcmW9Iw/YNYzco0rR8rQrpofQu7ij/Axi/GHAtSUMGEO0A2HDYQft48cf4McW7tXHiXXsjIDaCUiAjY1iA1bLAsEKJQiH4MdVq/Bi1WkkAUVXgzKjKt8/ARYACJEkqiokNY31NlZbi0KZK42m32CMOiwd67us+OHZMbo5tvfcPRhwa2/StR/oemNaksalRrIg46koR9zU1hWiKgHzLyI6rZtuNjXFz971OeQjKlE489PDgRmda7Af75dMTd7Xv+m3Cu6e+6/yxts/7bZvkozOPvOX3TH4xm//te7nHxhHPtWyQ3/t2vl20wb8O9cRxrTdyY2uptN5BM03srl3Z7CvmTdto/7q/eafOjp3ju9XX7zbeDkAgeLVv/+Hj2lb/V9+UwM9P//FP7WW6Ou1CvQSCPLs229HpSmr/p6sFVqa41ESna08KZEsl4Gc1u1+A0IgASVWjANmQdgEKjWYJUDFqiQBVjQ6SRdEgdDvmBEmzC0C21GWg0O0pULHaG2VVd+SI4+OF/99L2crQllPlgrnzy5XlcKAJQcSmw1XlY2f6pbowA2ec6jznutgpTnZGpYm80D7NJc6x1SO26FBpgbnmK61ULo+/KodSeaGLnHEvrR+zSvl+Md2l/voZ8BOjXOjeLBMpcvd5Z5w956QTzp1z8oVnnD8neJd7O9J3CgAAAA==");
 
 export default OilCanDrip;

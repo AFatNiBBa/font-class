@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `id-card` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/id-card?s=solid id-card}
  * @preview ![id-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/id-card.svg)
  */
-const IdCard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 96l576 0c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm0 32L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-288L0 128zM64 405.3c0-29.5 23.9-53.3 53.3-53.3l117.3 0c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7L74.7 416c-5.9 0-10.7-4.8-10.7-10.7zM176 192a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm176 16c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const IdCard = createIcon("id-card", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABgwAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCFwsGAAE2AiQDCAQgBYMtBy4bFQXIjtRgrTGrETxv9191bvcH3GNhwQyKREaTLcPNOMpWkbIXF/N/zef3/OgAP1+KHUo0lhZfA+Yqnk9ggNFebQOZDWcTxVk7Y6DodYtBfOJJhs0Pmw3k8VN2pzLSk+kH3J8+NH7X5U6SqgxANAJg0Y4t65w7H+cjvi99SnxvDQJiESgEMmToFWCuTKBXrkAuF5yPUsn9BxYEEOXwvARyVOFKXA/IQVKR5/VNLXV4aU1ZXb69pqw6a6hveGr0W8Nr45WRb3RKWXpy1JvD6uL1MW/3ZFG/6+mIx0fUxKttj3Y90lodj7Xv+HTKrLlTPxv9Frkztj0+Nh9tc+1pRg5+q/GtPwf9cPwHBxciWd3U9MI5L2StukCaXWjhgtayv/hr4402/vVXWdUD33mg6qofJ44fGBg/0VLeb6g/f6vz9e0tDPcDgeCuHz69fKBh7j+VNQlc/Orv/+l4pfNpYXoLlRIIsrGlsfamhWDRAfgpbjRY+KJAclwFvGutxwQI1QiQlKsWINOjUYBctTEClOk3TYBy1bbIRF4ltNpXQVLrGpCZ7iaQa/UxKDPX11651sh0TtAY4cuXupxDy4YVk8ZPLGYX01QR1YiL/XOKbW3kjb5ulFnruKtc6XrHHHXK9Qy51rrwBldYLsHL/FBhkvEmKsxWHBf3y7c75lrXOeUqV9IgcxT3rZFulFuPMmYC2skmJYlIFaeOjnvg");
 
 export default IdCard;

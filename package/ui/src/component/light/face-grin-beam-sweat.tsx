@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-beam-sweat` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-beam-sweat?s=light face-grin-beam-sweat}
  * @preview ![face-grin-beam-sweat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-grin-beam-sweat.svg)
  */
-const FaceGrinBeamSweat: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M432.2 68.6c-5.4 8.5-9.8 16.4-12.8 23.1c-2.6 5.8-3.2 8.8-3.4 9.6c0 .2 0 .2 0 .1c0 12.2 11.7 26.7 32 26.7s32-14.5 32-26.7c0 .1 0 .1 0-.1c-.2-.7-.8-3.7-3.4-9.5c-3-6.7-7.4-14.6-12.8-23.1c-5-7.9-10.5-15.8-15.8-23c-5.3 7.2-10.8 15.1-15.8 23zm7.3-64.5c4.3-5.5 12.8-5.5 17.1 0C473.9 25.8 512 76.3 512 101.3c0 32.5-28.7 58.7-64 58.7s-64-26.2-64-58.7c0-25 37.9-75.5 55.5-97.2zM256 32C132.3 32 32 132.3 32 256s100.3 224 224 224s224-100.3 224-224c0-20.7-2.8-40.7-8.1-59.7c-2.4-8.5 2.6-17.3 11.2-19.7s17.3 2.6 19.7 11.2c6 21.7 9.2 44.6 9.2 68.3c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0c43.1 0 83.8 10.7 119.5 29.5c7.8 4.1 10.8 13.8 6.7 21.6S368.3 62 360.5 57.8C329.3 41.3 293.8 32 256 32zm90 313.8c-28.5 5.4-58.7 8.3-89.9 8.3s-61.4-2.9-89.9-8.3c22.6 23.6 54.5 38.3 89.9 38.3s67.3-14.7 89.9-38.3zm33.8-41.1c12.3-3.7 24.2 7 19.1 18.7c-24.1 54.6-79 92.7-142.8 92.7s-118.7-38.1-142.8-92.7c-5.2-11.7 6.8-22.4 19.1-18.7c37.3 11.1 79.3 17.4 123.8 17.4s86.4-6.3 123.8-17.4zM143.5 219.9c-2.1 8.6-10.8 13.8-19.4 11.6s-13.8-10.8-11.6-19.4c3.2-12.7 9.8-27.1 19.9-38.6C142.4 161.9 157.2 152 176 152s33.6 9.9 43.7 21.5c10 11.5 16.7 25.9 19.9 38.6c2.1 8.6-3.1 17.3-11.6 19.4s-17.3-3.1-19.4-11.6c-2.1-8.6-6.7-18.2-12.9-25.4c-6.2-7.1-12.8-10.5-19.5-10.5s-13.4 3.4-19.5 10.5c-6.2 7.2-10.8 16.8-12.9 25.4zm172.9-25.4c-6.2 7.2-10.8 16.8-12.9 25.4c-2.1 8.6-10.8 13.8-19.4 11.6s-13.8-10.8-11.6-19.4c3.2-12.7 9.8-27.1 19.9-38.6C302.4 161.9 317.2 152 336 152s33.6 9.9 43.7 21.5c10 11.5 16.7 25.9 19.9 38.6c2.1 8.6-3.1 17.3-11.6 19.4s-17.3-3.1-19.4-11.6c-2.1-8.6-6.7-18.2-12.9-25.4c-6.2-7.1-12.8-10.5-19.5-10.5s-13.4 3.4-19.5 10.5z" />
-    </Icon>
-);
+const FaceGrinBeamSweat = createIcon("face-grin-beam-sweat", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABxgAAALvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCDSwsGAAE2AiQDCAQgBYMtBzsb1gVRlO5BmewjMYWbo0MWSLIsQx7gkNh8wOQqgu/3/txz3qW0pkFVRbfIKpHorhC+FWEzsekyFhdhfmKj0e8wLpsUYirZ326/Jxp16fhT0/e64u+PUrpVfZCWRHOU2oRDEaleLRNLLOOxgEbQMmybWYtMdTwcK09Q4ldIIyXf8ho3y4fGf2OKSaUCEL0AwPaRkw3sN6IR8V5/Id7tAgGxAzALoUKFSQisIRaYRGIWKIqgEXXd/AdiEEA025j04oI2/MYfQAGppZSpAQ1K9jFOatKuctjR1H7yOPjocgHKR/msLdRV7G3YLxhptlZd+2C3NtYOiQnOdvFh4VHRSa4uqSlu52NzhM7lUczjAYUFiwuTM6srpSWhAq5Wdsfb4Vl/3/ra+dX21vDQ9c3oyO7O7cWihaWZbdPUY5mqUnWnDfX0fEIUMjGtvm68qrkpG9N4QV1l5drMRpq6uLvERjg7ON3N8/UhYJn1vgf1mwlOMkx+mbsOvYa5zGwLMQRCVGnl9PTlaVQIASJRi+yszMwscv20soc1GWaKXv7+fn4GigEZ6R9r3O+8ANKHAA90dA+H0rzvvN7ozSH+bJnnD5s6YTDj4GwoMAMCFDRwcrj88/Uhes076/h/vofGmJzcmLK9vzBHowuAi7iEuzl8d3eXEHcJKcw3Msr/tG9DeJZVIvxaWPj114jvmaCjU9lJRbWskZniqJTRcw829ysDgeD6c7PdMf3aRyt1gn8/v33A7er9lJ/QKiNI1UItzTttSALlN8m4IpiAQPqlxZZ1eo6tQjsUqVk7KhMYULSbR5NpKqbn9j3EorQJg3xypE6nqKzKQTFoCU3WnOXNBoM4Ndtp0b6ZLDDlKZNNWEFWHmtiYwt2Eqg5rmph70g8tR2RyI9AqDixkoUIFgF1jk9kU6WIYWpTm3wXUyBLHqYJR3eXA1cuT5QkQu/Gh7SaXo7PxKXap0vkKZFNcxGRksjBa2WrTFhiRKxMYEhAjEzS/+8BAAAA");
 
 export default FaceGrinBeamSweat;

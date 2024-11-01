@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `receipt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/receipt?s=sharp-regular receipt}
  * @preview ![receipt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/receipt.svg)
  */
-const Receipt: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M93.5 437.1L73.2 426.9l-20.7 9.2-4.5 2L48 73.9l4.5 2 20.7 9.2L93.5 74.9l41-20.5 33.7 19.3L192 87.3l23.8-13.6 33.7-19.3 41 20.5 20.3 10.1 20.7-9.2 4.5-2 0 364.3-4.5-2-20.7-9.2-20.3 10.1-41 20.5-33.7-19.3L192 424.7l-23.8 13.6-33.7 19.3-41-20.5zM0 512l48-21.3L72 480l64 32 56-32 56 32 64-32 24 10.7L384 512l0-52.5 0-406.9L384 0 336 21.3 312 32 248 0 192 32 136 0 72 32 48 21.3 0 0 0 52.5 0 459.5 0 512zM120 144l-24 0 0 48 24 0 144 0 24 0 0-48-24 0-144 0zM96 320l0 48 24 0 144 0 24 0 0-48-24 0-144 0-24 0zm24-88l-24 0 0 48 24 0 144 0 24 0 0-48-24 0-144 0z" />
-    </Icon>
-);
+const Receipt = createIcon("receipt", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCTQsGAAE2AiQDCAQgBYMtBy4bSwXIrgpscM1NlIZF5kEM02352Gdh7YX0II3n+eY+75tMFpISo64kEJpBVhEIRUJW1a8x/9RWV+d/7vfe+7uxqqkoKqhWx2cjGMhsKM8/bMChJhzBAsmlytwQV6/t8r02ZOKa+mFNf15B+GhRGKvUAuo+n8AAR8UbltBsYLOJzSdgs3Y6A+nhV0l6kgzjD5tygZon+dZSvpV4k180/yz2RdE2ADILADh9sV6Dv1FGydQwmXIGCOQ0wCqIBg2WQXAMWbAMxSqgqsIow+D+A1eBABnDSPHtFeN4jXeACoq21v3b2cy+b6fXCz21u7hBp9eiJOTMjy6GRBKy++UhZUH00SaYsKk9dzQYMWAplSLXJRRMoz4Ubcopnq1POJASVzt2J32fdOcgGrsw7l7zC3dd70p8RRFc1lKCSr40nroR+3KYSLsUheC5ADlxXQIfkpd7eglhnx/7EQRwf2HfgxsKFJ2g+BES3wNGXXuj8DiAINyZPb7Q40f/T/QF/P1N/BkZ/uRlgQkFhGbbsE07b5CXAgAouU+dNwTFKy1+1mk+C4gOAcWYTkBjKQEEVWcrBK0VfBCM6ZxFljop5uk0vpjmFt844M5X8/zyrWP+S2PmhayOpjKZr8G8fA/ntilddqcyrJy2VUvDdFqPKLd949WPmXASpna2zibGFs4ddVSrXmzkV2TOGym52DkphSmPe4+HWyaOThZ2tmmTCOX9rNF1PduECAlr7tFUFFLGPz4E+zMA");
 
 export default Receipt;

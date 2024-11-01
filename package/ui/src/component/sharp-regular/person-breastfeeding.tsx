@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-breastfeeding` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-breastfeeding?s=sharp-regular person-breastfeeding}
  * @preview ![person-breastfeeding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-breastfeeding.svg)
  */
-const PersonBreastfeeding: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M192 80a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm112 0A80 80 0 1 0 144 80a80 80 0 1 0 160 0zM136 192l-12.1 0-7.2 9.7L12.7 342.4 8 348.8l0 7.9 0 57.4 0 15.7L22.3 436l168 73.9L209.7 466 56 398.4l0-33.8L148.1 240l152.5 0 87.6 107.7-64 94.8-13.4 19.9 39.8 26.9 13.4-19.9 74-109.6 10-14.8-11.2-13.8-106-130.4-7.2-8.9L312 192l-176 0zm56 136l0-24-48 0 0 24 0 56 0 13.2 11.1 7.1 88 56L249 464l7 0 24 0 0-48-17 0-71-45.2 0-42.8zm80 56a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const PersonBreastfeeding = createIcon("person-breastfeeding", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABhQAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCSgsGAAE2AiQDCAQgBYMtBzsbVQXIhocHvf47N5N5SOb7CfmGlkYFuN2eqrae+b/m83t+VCCfj+DQIq0SpOwwalXPJ3Ci8yodSPpsojhzWxwLBlGuGESG6FT50Pbwofwa0ngwblMmuT/5Frfmh4q/tLqKRLkEIHoDYP7Wjat9+H18H/FN9TXiGysREPNBIVCC1KFwzFpboEOqQCoVfB/VavoPLAggavDzE5CiFlfiLkAKEuU07ddjYnuPvNwj3ZKXs52XN0fcm9/YeLfLGu7Kbmi6J/JHZrw97c2Oh6e/NfOd7k1ZnjXEpmgIIURjbI6xsSUitkYem2NTtMT0aI+t0RxNsUVas00hslW8MfJcyg723fxs+4NtDwx5quW+1vsHD3ih9wv/9P/2yLc+OLXndVzXs5QkeVrl6NlnH63AevbUCu943NEbLVFnut6+8+xyM92/UH87L3K/LSeau8fHLvCJ5Sd5xMuOX+6YyrnXtvD8cVpM08Mztk61UW3LOH0sGWXk2qmP/frGG78+Vm4HAsHpz11z+95es/6vyxPw49v//RcOr6t+HB8mL6BOAoLSqOoou+JDdYAYQJjEOQYYXxRIXKiMj1pxjwAhQ4BEjUyAkna9BUhlRgpQ1mWyADUyG5VEWi802N1AouJ0UDLFxSDV4BVQNssXQY2GKHkj40vMv2DiEg0tbivGjxlXzCimpco6GBUXZxbb8rBzwsBwrHTEqU5xlsMOOe4shZxhdXy2ky2x4MV+qDDeGOMUZiium3txi4RnONPxMXe/zEzF8/4w59jjh0NLkHSCVCIhkgbndUYfOOPNZj/MAA==");
 
 export default PersonBreastfeeding;

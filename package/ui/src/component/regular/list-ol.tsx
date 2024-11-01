@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-ol` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-ol?s=regular list-ol}
  * @preview ![list-ol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/list-ol.svg)
  */
-const ListOl: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M24 56c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 120 16 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l16 0 0-96-8 0C34.7 80 24 69.3 24 56zM86.7 341.2c-6.5-7.4-18.3-6.9-24 1.2L51.5 357.9c-7.7 10.8-22.7 13.3-33.5 5.6s-13.3-22.7-5.6-33.5l11.1-15.6c23.7-33.2 72.3-35.6 99.2-4.9c21.3 24.4 20.8 60.9-1.1 84.7L86.8 432l33.2 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88 0c-9.5 0-18.2-5.6-22-14.4s-2.1-18.9 4.3-25.9l72-78c5.3-5.8 5.4-14.6 .3-20.5zM216 72l272 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-272 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm0 160l272 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-272 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm0 160l272 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-272 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const ListOl = createIcon("list-ol", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABhQAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCIgsGAAE2AiQDCAQgBYMtBy4bIAURlZolyH4kZGeMdyZ2hkYHB42Dxia+RBDZPV/17L4PcD9ERPQhvOycOQjhSEpfAORr7fv8X/P5Pb/mo290aNFUVB61DUeZzycw4CjMEpkNbDpBm7Wztxj0usEP0qc8ZNjeMNpBHu/FTSXS3fQlbuQPjV80dlZSygBELQCMWjBnmo+/i+8ivignvjAFATEKFAIZMjQTYKhMoJlcgVwu+C7KZfkPLAQQFeBlCeSoiL04AshBUsrz5u1qwKtaqp7PL2OqLLnfoWq8bCwk507bKvGqSadH1KMW3apXL+60f9W0Ybzd4XWnu41ONho6NfZWg1sNF8TtBkuqV6se1Gp7nVLrtX6r1lu/tfpy/ZcNL9SfVZhV/6BagtefNdOvZaVKvO3wZp+/7bvONZ591PHjj+f/XaHRX+1a2UsW+m7r9MsTpjm0+WS1WuBOGOn0iXoeCAQ/1/n2qxU1h/5XqWoCP7z7/3x7lL9L0luoJIEg61ruujQRBAp+Uor9WidCINmqBO9aza0AoQoCJBVUESDTVC0BclV0EaCkhX4CVFDFHJnIKwv1LGsgqWYXyPR3DOTqeQeUDPVJUEG9yDyP8xvu35cMx2to3KiiV/eexeBiWFB5Z2LS4JBiWeu4PzZ0opXW79i+d93aTXsVuXtavG/beAse98WiV/eexeDiuHy/eP663Xs27djOwwwp7rsd99vtO5GZgLZ3XpKIVPHhWt12bAU=");
 
 export default ListOl;

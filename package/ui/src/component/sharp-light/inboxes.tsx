@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inboxes` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inboxes?s=sharp-light inboxes}
  * @preview ![inboxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/inboxes.svg)
  */
-const Inboxes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 198.4l2.7-6.4 83.4 0 27.6 55.2 4.4 8.8 9.9 0 192 0 9.9 0 4.4-8.8L393.9 192l83.4 0 2.7 6.4 0 89.6L32 288l0-89.6zM48 160L101.3 32l309.3 0L464 160l-80 0-9.9 0-4.4 8.8L342.1 224l-172.2 0-27.6-55.2-4.4-8.8-9.9 0-80 0zM80 0L0 192l0 96 0 32 32 0 448 0 32 0 0-32 0-96L432 0 80 0zm64 352L32 352 0 352l0 32 0 96 0 32 32 0 448 0 32 0 0-32 0-96 0-32-32 0-112 0-32 64-160 0-32-64zm243.8 32l92.2 0 0 96L32 480l0-96 92.2 0 23.2 46.3 8.8 17.7 19.8 0 160 0 19.8 0 8.8-17.7L387.8 384z" />
-    </Icon>
-);
+const Inboxes = createIcon("inboxes", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdgAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCLAsGAAE2AiQDCAQgBYMtBy4bKgXIHoPjbgyo/2GJfj0fCqVMl1c8/3H5nvt2f0ofr+PpnC4S0Q4WD1XQcCiApYHtRMOVFv7JsfL9XU6OIQcElogLDmh8VW2rb+qIHSsLqDdZhJjn/5rP7/k14PcrsUOrXFKXny3z+QQGvrZInMhsYDOdgM1v53foLoneJkkEybBdf9j+Fdq8Dvyo2xou0ofmS7q7KL4GAJkBAHsHE0N86NQl3/qnyLMBCMg+YJGggQZmCdjkJZjl46DlI3Tpe/4PdAggQ+BlBbQwDGdwDtACxd/60pPjpWD90b5pOcHMpCalWtUpWdamqkG2PIMmpNyZyZloTcmYJNXKqF4pMtP9Y5OIxqMlaVpRc8YaxOk6FTk9ZY19cbysqpQuazNVk38Rd/E979v2cv+L4JrgmVbm0VOfmVBk3ofQd+MN9jZDIUbHxtajndTqg5H3FlnFFTrHqlrL6s7K6ek9x0DI7sOIhyJ/cxeRWOUDT1l05Jake84RIA99XEa1Etv5P2Q9gM+Hn7/Nz0j/oXjuYIQHCJqlCIsFKAQAoHKV/AIC5Ygf3nXCfQLCQIASYAhoZIojoGVUEDCQo4mAIcYEL7VhJMlSBR5RzoBXs2vAJ8lj4NfpYykgKV71k5RH+vlL726hrmWurrrWtbtpXZE1SgjzHe7YV3pV+sroINtOHLtsy6Y9lxvy3FD1iiPdK7jLFzl1qtVy2rnr1v3uaVvOXbLnxHFcpIN7Hy11dT26jIIe4N2woniQCu4df5kAAAA=");
 
 export default Inboxes;

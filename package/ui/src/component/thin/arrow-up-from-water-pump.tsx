@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-from-water-pump` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-water-pump?s=thin arrow-up-from-water-pump}
  * @preview ![arrow-up-from-water-pump](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-from-water-pump.svg)
  */
-const ArrowUpFromWaterPump: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 16C94.3 16 80 30.3 80 48l0 208 192 0 0-208c0-17.7-14.3-32-32-32L112 16zM288 48l0 208 152 0 0-228.7-82.3 82.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l96-96c3.1-3.1 8.2-3.1 11.3 0l96 96c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L456 27.3 456 256l56 0c35.3 0 64 28.7 64 64l0 105c-4.9-2.8-10.3-5-16-6.5l0-98.5c0-26.5-21.5-48-48-48l-224 0-16 0L80 272l-16 0c-26.5 0-48 21.5-48 48l0 98.5C10.3 420 4.9 422.2 0 425L0 320c0-35.3 28.7-64 64-64L64 48C64 21.5 85.5 0 112 0L240 0c26.5 0 48 21.5 48 48zm6.6 387.4c8 11.2 17.5 21.4 27.6 30.7C339.5 481.8 361.5 496 384 496s44.6-14.2 61.8-29.9c10.1-9.2 19.7-19.5 27.6-30.7c1.5-2.1 3.9-3.4 6.6-3.4s5.1 1.3 6.6 3.4c7.3 10.3 15.9 19.6 25 28.3c15.7 14.8 36.1 29.2 57.4 31.9c4.4 .6 7.5 4.6 6.9 8.9s-4.6 7.5-8.9 6.9c-26.5-3.3-50-20.7-66.4-36.1c-8.8-8.3-15.9-16.4-20.6-22.2c-5.2 6.4-13.3 15.6-23.4 24.8c-18 16.3-43.9 34.1-72.6 34.1s-54.6-17.8-72.6-34.1c-10.2-9.2-18.2-18.4-23.4-24.8c0 0 0 0 0 0c0 0 0 0 0 0c-5.2 6.4-13.3 15.6-23.4 24.8c-18 16.3-43.9 34.1-72.6 34.1s-54.6-17.8-72.6-34.1c-10.2-9.2-18.2-18.4-23.4-24.8c-4.7 5.8-11.8 13.9-20.6 22.2C59 490.7 35.5 508.1 9 511.4c-4.4 .6-8.4-2.6-8.9-6.9s2.6-8.4 6.9-8.9c21.3-2.7 41.7-17.1 57.4-31.9c9.1-8.6 17.7-18 25-28.3c1.5-2.1 3.9-3.4 6.6-3.4s5.1 1.3 6.6 3.4c7.9 11.2 17.5 21.5 27.6 30.7C147.4 481.8 169.5 496 192 496s44.6-14.2 61.8-29.9c10.1-9.2 19.6-19.5 27.6-30.7c3-4.3 10.2-4.3 13.2 0z" />
-    </Icon>
-);
+const ArrowUpFromWaterPump = createIcon("arrow-up-from-water-pump", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABtwAAALAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDPQsGAAE2AiQDCAQgBYMtBz8bzAVRVA4qZD8OY+dJGAL/XxShKUZhRQpjyxlnEVWrltUzvI/7Paf4FL+wr0ZIjMPhPiXBocGICywOYdae/Kvqzbj/Gr0QUgMphCMzOBfC2YtcQKp/f+p5bFMAl4UgKO9ndoyF24OdS6DnBS021DGBlteKtQpViDtsG5lGxHgyngfoeaeUlHqvl+DZvWn+GBultAaALAOAy/uUODweZ5y8HG6QHzEgkCvALkJDwyYCJ8SCTRK7oOvCOMPA/gM5BMgkAl6e3jGBL/ANoIPSumRQJ7JAkKpL0gUpy5nWI5oFIhDRkME8Y2kgDBKpNMuthhm0oJ9Gc3p9KJ0OXLnndGQMmjcgWjaYt2dsV2/WCDSrR7TicuJQJg0XHHRRf844a0kBDwgzE+AB04UajaxHfnOYNdi3378WMJhlGdtd2z4yRLFhriHH7HrZ8JbLguHdxrc217c+1jpWWb0sf4mGSxqTwJPGWzz2FgZWGLxk+TasXsQPSclISfHzKyhwiAEGhKYX/BBoU1ubVaFkqATiV+89P3/2fP9KXIIh6ArT1t58y/FBiGXDl1Uv/v6F/HdeqC5bSyTWl953ygrlhoXeSnbvfWXXxXsn48REY6f3F10AgGwq399jSu9CA0WhrPP9pbsNb92krAyAgMC/8PBOgWboL4WgJwL8fv78r756eFwXFdMKhDYaRnILwKQEVCrtrHc+KCgfmvCq814ExCwCyqRZAc0GLQS6WXsITNjmh8CkWdfE0pWIdXk9V+Y9cs2xPq5bd42bcOJJedJ6WjLWEqH2F5kzfIyFLeNe7p48mG/WtXrKVPR8CD8ddGznfU5wDco1qNeqTKmqGkZss7hamzrhe0yYL+K8uPPEBeO3W88D6XClWYuqdf3+IkLw97OO2vdHO8GISJDdZ1+KlNFDc3NDh1tbo9sn73ZL7GW3xra6RgAA");
 
 export default ArrowUpFromWaterPump;

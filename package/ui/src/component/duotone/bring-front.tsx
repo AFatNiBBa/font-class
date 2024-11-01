@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bring-front` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bring-front?s=duotone bring-front}
  * @preview ![bring-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bring-front.svg)
  */
-const BringFront: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 64L0 192c0 35.3 28.7 64 64 64l96 0 0-64-96 0L64 64l128 0 0 40.6c9.4-5.4 20.3-8.6 32-8.6l32 0 0-32c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64zM384 416l0 32c0 35.3 28.7 64 64 64l128 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64l-96 0 0 64 96 0 0 128-128 0 0-40.6c-9.4 5.4-20.3 8.6-32 8.6l-32 0z" />
-        <path d="M224 96c-35.3 0-64 28.7-64 64l0 192c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-192c0-35.3-28.7-64-64-64L224 96z" />
-    </Icon>
-);
+const BringFront = createIcon("bring-front", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABggAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCCwsIAAE2AiQDCgQgBYMtB1IbLwXIhuD7td7vc2d2K5kNw4SIFDC5FHsiRSQTFfVcsHwcWcD/9U5/787/+acF8gD8z2kbZAGt3dgaBdR5IF06LZESyjQDa9g2sh6YNRYxllfIU7/svArpVvqAC+5/AOObjs6TNM4ARAsAzFi5dImGz/E5xYf6S+KDxQiImaAUyJChiwCTZQJd5ErkcsHnVK/zOer1kgCiyr1dBqqoYDcOAnKQhJTnnXr3qlWa5itqlWLtg/4RTzqIWwOe9qnF40HPO0fcHvisb5EJK3hEEZlaiBu1WuwJcYtgh7cL0AzXZNefu1oUPZ+1ePajx4cdH3zaeKclLYsGRcuWdxpMeGY6HShzeZPpNjnttAE+tiqVR/Lpa9apjSUujXeedvp1EAhmz1u/eGPzyf83qiXw9dWvf+LvqN6QTqdnaCSBIBtcH2xdOg3ptAAApDihZzrtDgKZeRL8qU1cFyAUCJBUFQJkOmshQK4wSICKbsYIUFVYKhN5Y6GN9QNImjgMMmOdBLk2XoCKyV4HVW0iq25MZWH+9hLnTqE5x8oRQ4eXE8vdUsfWIEqvTyovm/1P8NEAeNYOBx1wzHbb7HZsghyxJD5uv7lH8BxfVBphqOFKE5WPm5fiChwccdTubf75PpOU3/v9nTiePQCeJgFGZlQiI1JkrZuJPKSSqkNK7kTbJV9IAQAA");
 
 export default BringFront;

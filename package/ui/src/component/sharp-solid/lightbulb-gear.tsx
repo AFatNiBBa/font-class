@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-gear` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-gear?s=sharp-solid lightbulb-gear}
  * @preview ![lightbulb-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/lightbulb-gear.svg)
  */
-const LightbulbGear: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M225.9 372.5l6.6 11.5L112 384c-9.6-31.9-29.5-59.1-49.2-86.2c0 0 0 0 0 0c-5.2-7.1-10.4-14.2-15.4-21.4C27.6 247.9 16 213.3 16 176C16 78.8 94.8 0 192 0c96.7 0 175.1 77.9 176 174.4l-28 0 0 44.6-37.1-21.4L225.9 330.9 262 351.7l-36.1 20.8zM112 416l139 0 21 36.3 0 59.7-160 0 0-96zm0-240c0-44.2 35.8-80 80-80l0-32C130.1 64 80 114.1 80 176l32 0zm260 30.4l88.1 0 0 42.4c7.9 3.4 15.4 7.7 22.3 12.8l35-20.2 45 77.8-35.2 20.3c.4 4 .7 8.1 .7 12.3s-.2 8.2-.7 12.3l35.2 20.3-45 77.8-35.1-20.2c-6.9 5.1-14.3 9.4-22.3 12.8l0 42.4L372 497l0-42.2c-8-3.4-15.6-7.7-22.5-12.9l-34.9 20.1-45-77.8 34.9-20.1c-.4-4.1-.7-8.2-.7-12.4s.2-8.3 .7-12.4l-34.9-20.2 44.9-77.8 34.9 20.2c6.9-5.1 14.5-9.4 22.5-12.9l0-42.2zm92.1 145.3a48.1 48.1 0 1 0 -96.1 0 48.1 48.1 0 1 0 96.1 0z" />
-    </Icon>
-);
+const LightbulbGear = createIcon("lightbulb-gear", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABiQAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCUwsGAAE2AiQDCAQgBYMtBzUbWAXIjsN0+yJjhFFDxSF4jYhaI3v24CkIoJAcsCL7KgAobPQbF2NSsUT2rVrLng8QbYBAIqJM3IMMEKh3AeDyJFRu/q/5/M6vAb+f+KFFWer1KMoi8vkEDnC2N4vETZtmw9lEceY2YkENsnFNHsQfMcQFuzuo8yIxqKG8L6eAp/Kh+QI9gxRdFQAyBABsPZYQBfEnfRKdcFuQj4gAgWwFTEGoUGECAhtICCaQNAXUauETcZz9D2RAgLTAVQuo0YF7eAeoQdHUkpY9yp4DFaSUJJN7GvmUkaO05Gl5UV/M5YWjlqc9JNyk3MVdJckHWZfErI3P4Z5uBccg3UQ0Mp9oYTXR5pzZCQp5zWzk9Uh/Ssqa4Lk2wnc7si78EYuqcFSHlpz1EaZv9OkpWRvRaEq6bjU9Y9K1mVOzZ2L2Ycj8N9PT4lN8hZfjfG1Q+k+A3t5nWQofkvDsyBC8HRM4ChR5Cyt4XJ33ECtvR4BRJ39SMpwbMgV/v/8qrDI6jrn2Nt/OgMMe5qRhSpmnTFHfPKSy68PTSalW5iWaZvrmZzw3rHk0dNlwQvXj4UuGAEG4eNBhxwmVDf9kFXiAz/u/33K6ar+Y51bm0amAUC3od0Bm2UKVMociQLSkmRl9E0JxTQPvOsAbAdGNgKLVLaAynioCtW7zEWhM4olAq9shElLLIUbIyqAY4CqorNIFaiNsgMYGB9HWiEhoJK9P/IcwJbiEgsLYUicX5seGVVFQMtZP+7NtbU6z67KlpShWo1qjIoXKNBZUvahEkyrBMyTIDzGunLhg/LDjxvXiZEXqNShTo5pn8cfuWzaa54NtyeQB4zIFRSFFWUmj+U2V+Y7vAA==");
 
 export default LightbulbGear;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `prescription-bottle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/prescription-bottle?s=regular prescription-bottle}
  * @preview ![prescription-bottle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/prescription-bottle.svg)
  */
-const PrescriptionBottle: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 48l288 0 0 32L48 80l0-32zM40 0C17.9 0 0 17.9 0 40L0 88c0 22.1 17.9 40 40 40l304 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40L40 0zM32 160l0 288c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-288-48 0 0 288c0 8.8-7.2 16-16 16L96 464c-8.8 0-16-7.2-16-16l0-32 56 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-56 0 0-48 56 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-56 0 0-48 56 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-56 0 0-16-48 0z" />
-    </Icon>
-);
+const PrescriptionBottle = createIcon("prescription-bottle", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdgAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCAgsGAAE2AiQDCAQgBYMtBzobDAXIHge5SfOambg/ViIevl/r89zX/alnFrkXkDSjAwQFAA7luq+WIEZMxaYiEzvWzsu3G1aZdjaTMkxeffFfsO+q9n3q1POchwL4RkEbi7YGJBtwzvMATuDV4QUv0FhgxZJWwPq2YZCNKDwNERGMiMZz3Gh0gjxOxS0NpMfpL9zsbxr/6OEySUMGINoDYP6aWvBrUYv4U0f8sQAExHxAKZAhQ28BZskEesuVyOWCWtTr+B9YEkA0okdLIEcDtoJdAHKQZHne0nNmpaFNvrrSUGxoU20jqhF9r3SOuEec73K/0iaudnsYERe6PiiqK1OWHg9/O7gSr0e+75VFESnudS7iQdcI26HXkyFF8JFiwLv27/7t/9fWv4y9WRIrz57r8J7WDuN0aH0/uPciNL307UWHDq8+epW+riiNU2pb+6jWtjTNsi5dlk0zjs/T3jggEHxZM3jhFj/rv+ZKAn+3/h/+iuof43x6h2YJBNmo+igb4zzEeQEASHFUjPMIJJsRutSqBwKEAgGSRoUAmV7aC5ArjBSgQV+TBWhUWIFE3iJ0tklAUnUAZKY4A3KdfQANZvmhNuocWaQRcULc82KzhtJUGD9mXDmjdB1MBg9WmzPLZWHY0ZIYDkcxGHWxTlyFbMV4ljyDkw8KxhtjnNIM5ba/3d+w7RBGW5uZyvPKMEfn+cNBdgh1gq0kEanT/oP8jEcR098axckA");
 
 export default PrescriptionBottle;

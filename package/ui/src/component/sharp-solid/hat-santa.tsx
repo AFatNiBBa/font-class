@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-santa` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-santa?s=sharp-solid hat-santa}
  * @preview ![hat-santa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hat-santa.svg)
  */
-const HatSanta: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M149.7 137.8L64 352l384 0L384 192l81.3 22.2-2.6-13.4-6.3-32.2 32.3-5.6 5.4-.9L434.4 91.6c-32-37.8-79-59.6-128.5-59.6c-68.8 0-130.7 41.9-156.3 105.8zm395.8 23.5L526.9 189l-32.8 5.6 6.4 32.7-19.2 27.2L509 273.1l5.6 32.8 32.7-6.4 27.2 19.2L593.1 291l32.8-5.6-6.4-32.7 19.2-27.2L611 206.9l-5.6-32.8-32.7 6.4-27.2-19.2zM0 384l0 96 48 0 416 0 48 0 0-96-48 0L48 384 0 384z" />
-    </Icon>
-);
+const HatSanta = createIcon("hat-santa", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABZgAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBWQsGAAE2AiQDCAQgBYMtBzAb2QTIHge5afKOdDF5owiet/v6Orf7zQLqWVsRmDGSw8mWyPThlKkQMZmJcQvMbOKa53/+7W30aJFWWlz255FbawnsfBZlUWC7nc8GNlGctbP7gUH0JkmfckmG8YdFrpDH39kJJdKlBGfLl8YPmjhBUiUDELUBMGrBnGlefxvfRnzw/wPiA1MQEKNAIZAhQ3MBhsoEmssVyOWCb+P//8N/YEEAUUbfn0COEqZjMSAHSZbnzcurVCvVyOdXK1VdMnfB3BoxP+ZFw2gaA6LROLWi/8OqD6znqo5dOvaNJtExOkWL6CBaF6o1BdE5Wkbbc7cK1WpEVG1dUbvip3I/dK7fvK/qk0eMuGFmA83tUDLSkHEO1GzVbuTJKz1PNuyiR0t2GOKOmf5yVzMWHeyuf7v8a3hVz0/pCQSCb19e/n1FraF/Va6WwPdPf/lJe/r/b9PhVIHKEgiyrv93tTQdQZBJQRJS7Ncay0IyXgafWt15AUJVBEjKVBUg00xtAXJVdRGgpKV+ApSpao5M5FWE+pYNNqluF5vp7yCbq+8eWzLUm6BM/cicSnQJ8U+XNt4C4xYVvbr3LAYXy1SX/IRP40OKbaPj/tjqhIPW22G7vdZZa5O9Bt9tWrzPNuMZOM4PFXrprqfCYMVx8bx7vnV222OTHbbneYYo7jsd7ee9O8FOlLO3lUkiUpWNq/Z2e2LUVwEAAA==");
 
 export default HatSanta;

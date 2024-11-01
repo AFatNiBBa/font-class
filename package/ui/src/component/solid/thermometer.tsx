@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `thermometer` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thermometer?s=solid thermometer}
  * @preview ![thermometer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/thermometer.svg)
  */
-const Thermometer: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 382.1l0-88.8c0-14.9 5.9-29.1 16.4-39.6l27.3-27.3 57 57c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-57-57 41.4-41.4 57 57c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-57-57 41.4-41.4 57 57c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-57-57 45.5-45.5C355.2 10.9 381.4 0 408.8 0C465.8 0 512 46.2 512 103.2c0 27.4-10.9 53.6-30.2 73L258.3 399.6c-10.5 10.5-24.7 16.4-39.6 16.4l-88.8 0L41 505c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l89-89z" />
-    </Icon>
-);
+const Thermometer = createIcon("thermometer", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABYgAAAHqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBPAsGAAE2AiQDCAQgBYMtBzIbvgTInge2rSW7ZSSPsAiz8MbD93b/39qn++nik/1tZlImDhHKGVz5OJ2acOKbzCH4Bfteufnzf83nl3Z0gN/o0KKw9EAKqPv5rcAmFhZJE5vNNhvhRHDmLTeqSNl3MtEkPX6jf3SGPD7LrqojPUk/4lZ70fhXR1dJmjIA0QIAM9atWuLrv+KviB9qHxA/WISAmAEKgQwZuggwWSbQRa5ALhf8FbVa/A8sCCDq8a9PIEeGWVgIyEESeT6pXFfN15brSutCXGo/KFbEg/aP2q2MabLl3XEfDHi763P9V8f9Uiloj9f6Pu28ruc7Ld75L3vZNmMDva997TM3vf3206c3PaGDf/fbS35ULv30559q7TdYv161+uuv+WEQCIqJRzZvaz75/8ZyAv98+nBnbU2S3kGjBIJscG2wzYmBsypgM8VZPfFBgWSSBM9a8VCAUEKApF5JgExnLQTIlQwSoE43YwSoV7JKJvImoY0tHSQVJ0BmrHMg18Z7oM5k3xj12kTmRqwTsJ+4pLkamrOuGDF0eDGxmIaE8wy6jCcVy3L/s6k0ADvtdcxRp+2x2wGnFXnSEvuMI+ZaxBxfVBhhqOEKExXbyePmtfY46ZQDjjlap0xSnNf7O2s3D4CWMOVIjiQRqfyIpR45dpsA");
 
 export default Thermometer;

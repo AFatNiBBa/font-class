@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volume-high` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-high?s=sharp-regular volume-high}
  * @preview ![volume-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/volume-high.svg)
  */
-const VolumeHigh: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M592 256c0 78.5-37.7 148.2-96 192l28.8 38.4C594.7 433.9 640 350.3 640 256.1l0-.1 0-.1c0-94.2-45.3-177.8-115.2-230.3L496 64c58.3 43.8 96 113.5 96 192zM438.4 371.2l28.8 38.4c46.6-35 76.8-90.8 76.8-153.6s-30.2-118.6-76.8-153.6l-28.8 38.4c35 26.3 57.6 68.1 57.6 115.2s-22.6 88.9-57.6 115.2zM400 256c0 15.7-7.5 29.6-19.2 38.4l28.8 38.4C432.9 315.3 448 287.4 448 256s-15.1-59.3-38.4-76.8l-28.8 38.4c11.7 8.8 19.2 22.7 19.2 38.4zM159.9 316.1L146.2 304 128 304l-80 0 0-96 80 0 18.2 0 13.6-12.1L272 96.2l0 319.6L159.9 316.1zM0 352l48 0 80 0L272 480l48 0 0-48 0-352 0-48-48 0L128 160l-80 0L0 160l0 48 0 96 0 48z" />
-    </Icon>
-);
+const VolumeHigh = createIcon("volume-high", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABfAAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCIQsGAAE2AiQDCAQgBYMtBzIbIwXIhofn7b4691X9RtUYTVSPvRKzGecLRyIzMRxGG43m/2bPex4F+DmC0Ma0pYEssD2fJ5BYL9+UUN3EswPVYztrZ7+8QXSbxFM+ybC5YTNBHvvjdjXSA+k73JbfNHaZbAdJLQMQowCw8rSTjvHRP/FPxLeHXye+dRQCYiVoEsiQYZoAS2QC0+SakMsF/8Thw/of2EQAUQePlECOelyPTYAcJLU8nzph+OjJZW14fmpZK657qIp4aUl//Dj71dMiIn6a9cqxffH+0MvNJ/cP9L87+GJsHXhhUV88PfkBWybd33Xq/W398W7rI+NPfHzyyRPGTyiKiLKcGKdFilNPLovylCgjIouIIk6OohBCyzOjntnT/N2l3znuw2Ird7z0ufU7f7cOrPt95/rPvXTH1uKBG7/44otF89dV1br5i77w6J4DbW0H9jzafmP99C8sHjVq8Rem1+9b/Pvvv485/nzHj/nddRdZ4bqLHmytqi23bVapnK9SuW2z46vuOAgEz596W9t5I5f831Am8N87+/Ypuw//lrakZ9AggSDrO9zn7LQFFB2AluJWLc4HBZLL1eCsw9wrQCgQIKlTCJCZapQAuUKvADUzzBWgTuEkmcgbhXHOaSAZ5gaQmWcjyI3zKqhZ4ku1zrjIiEfShvz3xa2z0Nq+pqGBqmlR09JVKS7hsb24aVvoujWkumXUpa5zrZtd4mJXuNkgNzrGuMU11nnwWl/UZMiASpNFmo6D5+FTXeJGN7nCda5NXRZruq90udUv7hY5AeYspiQRqXzUfD9LAQAA");
 
 export default VolumeHigh;

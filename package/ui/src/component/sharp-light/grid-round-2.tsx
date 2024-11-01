@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grid-round-2` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-round-2?s=sharp-light grid-round-2}
  * @preview ![grid-round-2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/grid-round-2.svg)
  */
-const GridRound_2: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 192a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm96-64A96 96 0 1 1 32 128a96 96 0 1 1 192 0zM128 448a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm96-64A96 96 0 1 1 32 384a96 96 0 1 1 192 0zm96-256a64 64 0 1 0 128 0 64 64 0 1 0 -128 0zm64 96a96 96 0 1 1 0-192 96 96 0 1 1 0 192zm0 224a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm96-64a96 96 0 1 1 -192 0 96 96 0 1 1 192 0z" />
-    </Icon>
-);
+const GridRound_2 = createIcon("grid-round-2", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABrgAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDEAsGAAE2AiQDCAQgBYMtBzMbkwXIjsM4RnziqUwiHr5f6+3c1x0A7hCRAuwAoANS7AhkKhJxd7Jo1099u8B6bHPEhRLEnB8wvXN1m//LPT/btEC+0aHsqeerrE17APc80fywIZQFtoUCSsB6myJSElH4RETEaCKu45PtuFZAHm9jiHqkW+lnXKs3Gr/q5AJJngGIlgCYuWrZUp+qUY34ufaJny1GQMwChUCGDF0FmCIT6CpXIJcLqlGrxf/AggCiPoaT43M0xiM8AeQgaZjnzbqEpEm9ZvnK9MVovOrl4Dtox70BM/CM5TMdETf7ROOL/aqzxtku1r+bXOqbncRqjbfqnsQVr4cTB15Xwq0I4mxCXIZTBXo9brm/9/x5x89O10YM69Fj2Ij2gY3TO1eolPs6ddpXViqdO1cmtx+OqrKW1f39d12GjdM3di4pK1+B+Vopy7FyLqX63OVAIOj+S9l/Y4sp/zdskkDdmz//7j+jolZFNT1GQwkE2ZDaEGWiUERVAABSnNArUQgkDzXE19rUdQFCYwRI6mssQKaLlgLkGhssQD3djRWgvsaWyUTeSGhrPYKkqcMgM85JkGvrKahniu+y+tpG5rCSu0m/i+nzVmjuvmLksBHFpOK2bcg+KOT1yYXaH3CCxgbCQTscdMAx222z27GFPGJp+bj95knEXHdUGGmYEQqTFObeV30lck0/WoS9bN/FZMX5eIAT8uyBECXMOkpLkojU9LM0h75ZwdBRAAAA");
 
 export default GridRound_2;

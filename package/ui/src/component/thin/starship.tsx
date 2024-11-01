@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `starship` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starship?s=thin starship}
  * @preview ![starship](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/starship.svg)
  */
-const Starship: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M624 256a176 176 0 1 0 -352 0 176 176 0 1 0 352 0zm16 0c0 106-86 192-192 192c-83.8 0-155.1-53.7-181.3-128.6L183.3 308l-1.7 1.7L139.3 352l60.7 0c22.1 0 40 17.9 40 40s-17.9 40-40 40L40 432c-22.1 0-40-17.9-40-40s17.9-40 40-40l76.7 0 46.7-46.7-36.8-5C104.5 297.2 88 278.3 88 256s16.5-41.2 38.6-44.3l36.8-5L116.7 160 40 160c-22.1 0-40-17.9-40-40S17.9 80 40 80l160 0c22.1 0 40 17.9 40 40s-17.9 40-40 40l-60.7 0 42.3 42.3 1.7 1.7 83.4-11.4C292.9 117.7 364.2 64 448 64c106 0 192 86 192 192zM261.7 209.5L128.8 227.6C114.6 229.5 104 241.7 104 256s10.6 26.5 24.8 28.4l132.9 18.1C258 287.6 256 272 256 256s2-31.6 5.7-46.5zM16 120c0 13.3 10.7 24 24 24l160 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L40 96c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24s10.7 24 24 24l160 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L40 368zm408-48a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm0-144a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm16 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const Starship = createIcon("starship", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABxwAAALfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCEAAsGAAE2AiQDCAQgBYMtBy8b/wVRlO1FkuwjITfReomIYhnacNRuwkeOEUT7/Wb3DjHp/IQlvBK1ZC+VZrG/RvRuoajB5+XPtM6rkUrZ1D7t+mWrT7A4fVAn6sq7PP+Xe37AC+TbjfX8/ExOx7ZRWZSNSb1oD63nYWK909a0gDqgAkmQG3Q3KYh/Pq52UOPbSN7kfTa4tkMV76asJJUCIAYBwO6J04w7b3yLaP4vEo19EBB7gEVEgQGzCDZ4CtUdeFkEVRW8xf+/9R+4CAFEO3e3BBU9eMQXTX3onbtqfRvfHRQYEBjoHy68A70M4a1MWaaRp6quKesrruSfwNKCk5VXxYbq66bTFK9t5HPX3bqnRQYjWEPBDZG7sDRip6JwfdRuLovuFYL1LOOhynJWOevYXTn1tFpG0s3z1tvtb+wv5HCX23Ugpj9DcoDL4o20RPBw/ECmwhZHSr38whGX847nHiu7kH0k52gpLxaczD9Rckk7ZTpdLndH7YzYFdkbrSyLJnvFLsq+J6QeCzn2KeXx6MeYclufA4xZ06tpvWvGzNErFezZENolIO38+t2j0qmAOIpahB6/Fhp67XjoHkYz4y1KwBNY6PETnPcW5gmb1uIoCKeCSo/vX+2UkvZ5BStDvV1GREeNXBkGIyZG/uqMtO+BPTKKRf/BMuT1mnQtOVnT8VvvzHa7Z98pCrYGvX8fxKT0oLXA2qCgtXgAAPiTFcNfNw4JrvnVKTwAAB+vfflv3eCx1OOYMjolCErrv6Unlw7MFMcpEVdS4RcF0oMublh73QgQuhEgtesWoJgRgqDqtoSgzbxSBO26HfAUtUsYNagAqdcpKNYtAtWo86DNhnvJdqNRbnTtNtV+M7PbqlDrKrVQ09Uqtbci0+9dRU9Wq5Pd7Nm8IwcGYrQpJptplJHGmVmBpzNnZpmkbUjY+llVIY1OVUVdXL+53jDKdDOMM8Vka5Fq6vbxbLOH++fAiAdXdFlZSiI7P0TlZQIAAAA=");
 
 export default Starship;

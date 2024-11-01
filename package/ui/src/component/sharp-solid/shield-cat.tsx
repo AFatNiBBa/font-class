@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-cat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-cat?s=sharp-solid shield-cat}
  * @preview ![shield-cat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shield-cat.svg)
  */
-const ShieldCat: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 5.7l11.5 4.4L475 90.2l19.2 7.4 1.2 20.6c2.9 49.7-4.9 125.6-37.3 199.8C425.4 392.8 367 467.1 268.6 509.4L256 514.8l-12.6-5.4C145 467.1 86.6 392.8 53.9 318C21.4 243.7 13.6 167.8 16.6 118.1l1.2-20.6L37 90.2l207.5-80L256 5.7zM224 208l-64-64 0 128c0 53 43 96 96 96s96-43 96-96l0-128-64 64-64 0zm-8 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm64 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const ShieldCat = createIcon("shield-cat", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcQAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBXwsGAAE2AiQDCAQgBYMtBzEb4ATIjtRW94RR6Xj4Ry/6+5LMLKAsYPTwp1jP+a1QpxEAm53N/zX14vnRAX47AMh+fiDXgBXL5xPY8zVtFkUUBTbTCdh2p1HWWi2PAy0hyXFpx+cIWbyRXlAiuS35EhflQ+NXzVwgUS0FEHUBMHbx/JnerUQl4oviJeIL0xEQY0EukCJFSwFGSAVayuTIZIJKFEX8D8wJIMrSIyYgQxnzsByQgUSWZR0bVKtWo1QrW1SjVH15o8aNFkbHaBZ35ff2eXbMuwsaRuP4edz7/Z5vd3+bFtE5FkeTBfPmzhN3dX1s4Cvdn2gTMSeqt7ze6FrDG41vNpmIbF3c7vG6j//e9stNXypee8Fv9WydpToe2H/kyPffT2nzkY9kspBqzf4DHVOdfTPbA20+K0L0jKqPP660ijMKY05XateuOLUgEohAXPTiw11fXWfE/9RIwC+v//k7/4xqF2/FP8njqCoBQdqj6GFFQm214x8BAEjikHYJtQUS02TkWmu6IUCojgCJsuoCpFqoK0Cmuu4ClLQ2UICy6uZLRVZNaGhlA4ma9oLUICdBpqEXQMkInzhlDSO1K9Yq2G9d0iSNThyX9+3VJx+WT2OFMxWah4fn21aXQ1jrChttstsuB2y0wVYHFL7PTP+gnSatsIm+KNdXL33khsmPs3tpkXL22W/rmD2HjDJcft/u4tC6c1eYRALo9yI0ro6k+v4tWzfu2NBz/doDAAA=");
 
 export default ShieldCat;

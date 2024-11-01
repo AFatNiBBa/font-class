@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-chef` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-chef?s=sharp-solid hat-chef}
  * @preview ![hat-chef](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hat-chef.svg)
  */
-const HatChef: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M153.5 51.3C176.9 20.2 214.1 0 256 0s79.1 20.2 102.5 51.3C374.6 39.2 394.7 32 416.4 32C469 32 512 74.6 512 127.2c0 11.1-1.9 22.1-5.7 32.5L448 320l-74.2 0 26-149.3 2.7-15.8L371 149.5l-2.7 15.8L341.3 320 272 320l0-160 0-16-32 0 0 16 0 160-69.3 0L143.8 165.3 141 149.5 109.5 155l2.7 15.8 26 149.3L64 320 5.7 159.8C1.9 149.3 0 138.3 0 127.2C0 74.6 43 32 95.6 32c21.7 0 41.7 7.2 57.9 19.3zM448 352l0 160L64 512l0-160 384 0z" />
-    </Icon>
-);
+const HatChef = createIcon("hat-chef", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABaAAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBZwsGAAE2AiQDCAQgBYMtBy8b5gTIhofn7fo693UN4BqbmYTdj2jFDApiZkLc09/P829VgM/oo2SttLGAus8nMMBoX4PMS2imE7Dtzpbk0LRH0hq1kfQ7dnyOkMVHhRMqkO6mb3G5fFT8qokTJFUKAKI2AEYvnDvd5z/EDxHfFN8hvjEVATEa5AIFsJsLimHHBprL5Mhkgh+iWMT/wJwAoiKCEzcLVy7AakAGkpRl46tUq1AjWxDvrrq0tGPE62rn27/sXDrwnc5vtjhSf15UjYXRKDpE/WCJhEoJ+QuiYbSLBjGfU7ficdeD51gvVI+IGm1Kapf83vrbDd+6e6FiOQ/z/GF5w92OlJRUqrNy8GNTNLmhp//00PSe8Z6oLVfbE+OHdA+/aKUHp1ict7JOpZKSI4627/aEHnXEE0eAQPD9qQc9V9Ya9n/lagn89OGfv2u/ouLnSSpBZQkEhW7FbpYlkAgAQIoD2iQIJDMk8KnV3RIgVEWApKKqAhQ0U1uATFVdBaigpf4CVFTVXAWRVRHqW84gqW43KBjgIMjU9xaoYJgv0hXVj4JvKZ6hfO0yJ0ho/Ky8d49e+ZBcreiqu0h5cmi+Hex0IHV0hoM22GmHfdZbZ7N9gttjem6/7SZYxHhflOuth15yQ+TH9efdC6y3x16b7bQDpxkqvx/t5IDdvzNEEuLtw05PsCRV3rR6X/e1m9ZvAA==");
 
 export default HatChef;

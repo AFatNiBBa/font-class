@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `apple` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apple?s=brands apple}
  * @preview ![apple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/apple.svg)
  */
-const Apple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" />
-    </Icon>
-);
+const Apple = createIcon("apple", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABagAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBSgsGAAE2AiQDCAQgBYMtBywbxgTIhof/6vq6LzKqGlA2AIywpb2b3T+ztCdudt55FOAC4LGw80AWBTLneQKd512e2Bo2f9iL4ls7+4VBvl/Rp1zIsOgMowZynBGXqpCuSx/iEj1ofK2NC0kqBYBoDIDJK5fO92pN1ER8+P9TxIfmIiCmgFKgQIH2AoxTCLSXlciyoCb+/z/8B5YEEFU29QQyMuZgESCDJOU8sFm9SoO8ol6l7tbb5z484+5udza/svnVPe7u8eS4F5ed2+G6Ntf1vq/7Na3u6XlX96u639P3gXY3tHu+7fWtzosVFRNxQ8sI7s6FW97b4amBXe5vfP+3nT/c8aEJj1f7v3NMzm/+eujW6mnnPdq4jCk9v9jy7z8rVpz7w2+tzz1U6/dBh6dN/+rrJe9efFELRt3RayhdWkPj3m0+eqjNps+BQLBz11/zNjYa92vtegl8+fz3f2t7+f+aODPdj9oSCIp+//ezLs6V5ThTAABSnNAFfFEgmSKxvdZ3tQChLgIkVXUFKLTTWICsrr4CVHQ0XICqupYqRK4jNLe+wUl9h+HCCGfBWXNPwBXjvCNWNY+CTSQXyL9c3AwPTC8qBw8YVI4ph5pCEQRP2bHlNN/rRPT0llo7HHTAMdtts9sxBx0xXzluvxkInO6HSoMNMEhpjHLbvK9eYbsjjtrtoAM5z1jleaGXEzi8t5STAEPuQZWIVHnB");
 
 export default Apple;

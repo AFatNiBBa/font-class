@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sensor-cloud` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-cloud?s=sharp-duotone-solid sensor-cloud}
  * @preview ![sensor-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sensor-cloud.svg)
  */
-const SensorCloud: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 32l448 0 0 202.8c-14.5-6.9-30.8-10.8-48-10.8c-60.1 0-109.1 47.3-111.9 106.7C250.2 348.7 224 387.3 224 432l0 48L0 480 0 32zM64 96l0 24 0 144 0 24 48 0 0-24 0-144 0-24L64 96zm96 0l0 24 0 144 0 24 48 0 0-24 0-144 0-24-48 0z" />
-        <path d="M320 353.6c-36.5 7.4-64 39.7-64 78.4l0 80 80 0 16 0 192 0 16 0 80 0 0-80c0-38.7-27.5-71-64-78.4l0-9.6c0-30.9-25.1-56-56-56c-18.1 0-34.1 8.6-44.4 21.8C464.8 278.5 435 256 400 256c-44.2 0-80 35.8-80 80l0 17.6z" />
-    </Icon>
-);
+const SensorCloud = createIcon("sensor-cloud", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABfQAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBewsIAAE2AiQDCgQgBYMtB1QbIQXIhof/1vq8r6o/DSxiLzAqInAEcqNQAYH6LoBCzokkksnM/zWfnzUd4Dc6tA49b/BaNU9g4KOIEpnQZmpb3Ha1JqiExkKCxB6KNCbf00J6Kn2DR+F/AONn/d0j6cgAohsAlm3fvFZnIxopvml+QHxjDQJiOSgFMjIGCbBQFhikUKJQCBqp2aQRzWZJANEqwJnWSt5wEMcABUhCLorhvbt3r7bUi218g8rhF8ZGvNJPVOsRT49/bTTfq8/jo1/o9/TolyofjH1lkFyv1UVHfIHOJSqRNwpCVCMNrFQHbx/+WrfXfh32zbFvLNn7YS+K+gYbpm5QL3p9WNH2+/8X3vnn4eLFA7sd3RY9PNOJb/vargE//PrfpG87BgyfqqGz2a9fv8f0M1U/ueEB8joQCPZMfWvl/q4L/22vJvDjZ7//hC/X7Ey30mtol0CQJzYn2pNugRgQkp/imuFzvxQQyObI8KfWPC5AqCBA0qoiQDZQNwEKFRMEaDHELAFaVWyWRdEh9LK3BUnNRZDNdh0UenkftFjo87BVr8hgxgIJ+5WXtLoPrRpVTps8tZxfLqYqBzm07V1Q7rbGXpM14/BEx5x3zhVHHXHSlR55ydrkqrNWrxGrfFFpmsmmKs1Xni4eS9toeMllJ+eF88MsUN7vjXVtvfk47CaJcroxWSZS5F5vqbzzlyb9dFCbBLH1fSaEpxMAAAA=");
 
 export default SensorCloud;

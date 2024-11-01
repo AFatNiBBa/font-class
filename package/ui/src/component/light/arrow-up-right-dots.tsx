@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-right-dots` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-right-dots?s=light arrow-up-right-dots}
  * @preview ![arrow-up-right-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-up-right-dots.svg)
  */
-const ArrowUpRightDots: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M144 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l121.4 0L4.7 292.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L288 54.6 288 176c0 8.8 7.2 16 16 16s16-7.2 16-16l0-160c0-8.8-7.2-16-16-16L144 0zM528 64a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 64a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM400 192a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 64a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-16 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM400 448a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 64a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm128-64a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 64a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM256 336a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM272 448a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 64a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM128 464a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM528 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 64a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM512 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const ArrowUpRightDots = createIcon("arrow-up-right-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAAB/gAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhjCETwsGAAE2AiQDCAQgBYMtBzobWQbIjlQ1f/A8+vd1bpIPvfkjZ7AA0YvuXHTMytVsuS919ff/55p6Yef3DuiLH8U2lGhLbWqaRgVN4ERW1AU8sGhR2+S6iQ8hxN2Hwikw8kpqEgC1R70ENnmd5Se5bASF0XiUJLlM2g0Z0IvHTpzIS/8GyEt6AAIg7QGwCKABDRQgALREI0ABBgsYDAJOfN/8B1oQAJAgkFAMMkA28B/Eg/4VQJFpTF4koR2xQMIMlktFR2zP2JEZk4myPXNH9hRBdmTuyhbZmRUdV4rHxUbc+gFO5e/L21v5eM7u3D2VBo6IrdyqY1Z7spyLofZElbk41uUeMlKs8btzD0ZMTThf6dnk2d8lLye/ZNMj53luGdqwd++ZM0azDM857zCeO7ymzYQ09m17+MutW18O87iGjCl9mL/z2kZnr1gxO4qaV2fOAYxdqr2pzsqm9dl07v4AIICAN+Ph/DEpLSvCMQXAh7t/K/IV/X2qszoLhFEACOiafk1GqrYzSLwIQOBSsphSeEsIoPhHJtAUZ+derxCFGhRBoqDJJwmGKDUgQBGNpCvbD0AjJoKQwSgIijjzQNOYVWDI4BoEaMkTV5AM0deD3DXLb0fTdG7jnfhsvdp1bXM7GVYqnLhUl7ewq3VVF/O0arAvk5nDbBYyiYlMY2GLnE8v7yJm0XmO3um6lnrUpi6W5tjdOel3H8wk5rOAacxhtm2lBfZ8U1UWz+euBo2KQGR9XlMoEJU+bv78OUtqLZpb6//C9olzFi4AAAAA");
 
 export default ArrowUpRightDots;

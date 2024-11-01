@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-pen` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-pen?s=sharp-regular comment-pen}
  * @preview ![comment-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/comment-pen.svg)
  */
-const CommentPen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M101.9 387.7l10.8-28.9L90.9 336.9C63 308.9 48 275.1 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-26.8 0-52.3-3.9-75.7-11l-13.9-4.2-13.9 4.2L94.9 406.2l7-18.5zM16 480l57.8-17.3 92.6-27.8c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L37.2 423.5 16 480zM304.8 144l-29.1 29.1L323 220.4l29.1-29.1L304.8 144zm-51.7 51.7l-85.2 85.2L160 336.1l55.3-7.9L300.4 243l-47.3-47.3z" />
-    </Icon>
-);
+const CommentPen = createIcon("comment-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdgAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBdAsGAAE2AiQDCAQgBYMtBzIb9gTIjtFLzzieUaYJJ5wyFQ/fX+Kfe9/uplUrTROqjVvXaCwcgVgDDWBAI7IT/cB/1v//MXcfYvo3xCxNRBGRJpaWlhFtHBqHJKYlMRKZ+b/c83t+dICfjvDQxsJle/iarfE8gQDPenngAWWBZRoAxN7bhoJJROFpSEiQRDSejdkDqtgPp5r8ygfw1t40/om1AKkuAIhRAMDxg0aGk5baiPtuj/glAQFxDGAeoaBgGoE97gLTPMyDSiVoo+vSfyCDAKKB/JgEFRo8gmcAFUhV5ZGY7Ovv7xnooff39DPEx8Rn09HiluLZ8Cl75KxLH7SO8iiKICHFayVCiYH2Br5P7huOUzbrj8R3+g/hTe0B+1QVUmFnZk5mHeVQvVJr0DISkIHqudsh2z+ch44HtO/uSFaHRc/A6Sm7G8lT04E6m1n9jnNOPN1ZnDhvicdyoQCOpaQkX9/sLjkEMFmSdJRCMK94QLQLD1yrWmMCnfpT4AIIBK//JRONwbV/Pv5ugL+f31/wt6hrU36jV4KgLP/nsiYgCQBAxgS4CQTSJQ/4qoPeESD0I0Bq9AtQTAlBoNJvCYHarDIEGv1uuIvKF2GSbYA06AUUGyZBZdIuqO25jhqT4R5iZICQH7w4voV411hRfiGrZsuOUlGDl/Mats1nTvBaFtxFh0EDxrRr023MICNk6bh+fA/m+SCmSL5CTDV2PD7f1ms3YlS3QQP1khrsvpppwt+dBZIbwVxRS0mk/5u28obaBwAAAAA=");
 
 export default CommentPen;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wand-magic` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wand-magic?s=duotone wand-magic}
  * @preview ![wand-magic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/wand-magic.svg)
  */
-const WandMagic: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M284.7 124.7l39.6 39.6 105-105 23.3 23.3-105 105c13.2 13.2 26.4 26.4 39.6 39.6c36.9-36.9 73.8-73.8 110.7-110.7c18.7-18.7 18.7-49.1 0-67.9L463.3 14.1C453.9 4.7 441.7 0 429.4 0s-24.6 4.7-33.9 14.1L284.7 124.7z" />
-        <path d="M387.2 227.2L284.7 124.7 14.1 395.4c-18.7 18.7-18.7 49.1 0 67.9l34.6 34.6c18.7 18.7 49.1 18.7 67.9 0L387.2 227.2z" />
-    </Icon>
-);
+const WandMagic = createIcon("wand-magic", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABZgAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBJAsIAAE2AiQDCgQgBYMtB1AbxgTIjsQ4JvGLWNDi4f/X/rfPnXnvq6PDT4h5MrMkltRC5FdIJJonqHhlkVjkV+//U6ee5zwUwDcK2h6a8wm093kEIto1wAtUKmBNa2B92xSHI5BuhEVJSOOENV5PyONzdl2J9Dx9wl35H8D4o8d1kpoMQDQDYN761Uu9+Rk/U3yqvCI+WYKAmA8KgQwZBggwUyYwQK5ALhf8TJX8jMqCAKJMPiYDZeQYj7mAHCQh8rylp67UkK+rK9XuXrd23Z545HLHrHhcd7Nr//5Zs2etj2GxJl4M+7L6aVzpnB1Pam+0r+nta+77O+TTvk+uft0L1zQ2+N7W9r3Xt/a2vw2NBszfB9aBA84TX++Ec/u/tbV/M17y7dgxIBDc27Ls3fammf+r6xL4/do/+iGpvElSH6olEGQjKyNtSSARAIAU5/QmxECBTI+E3rXeEwFCLQIkZbUCZPprFiBXa4QAJYNMEqCs1mqZyGuEdlsrSOqdBJnJLoBcu5egZKa3dll7ZLFDnDzxc4tdrKFFW8W40WOL6cU0UchwwNJyRrGsDj3HjWG40z7HHXPGXnscdEYhpyz1zjpqsQUv8kWFcUYbqzBd4c7v2XVkn3LawTHtXzNDsd8c6pzdPwyNJKOOdyiTESmy1vM7j+0Z9VDEUVHYbG/p+wY=");
 
 export default WandMagic;

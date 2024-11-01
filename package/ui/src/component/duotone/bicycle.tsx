@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bicycle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bicycle?s=duotone bicycle}
  * @preview ![bicycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bicycle.svg)
  */
-const Bicycle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 352c0 70.7 57.3 128 128 128c65.3 0 119.1-48.9 127-112l-56.8 0c-7.3 32.1-36 56-70.2 56c-39.8 0-72-32.2-72-72s32.2-72 72-72c1.7 0 3.4 .1 5.1 .2l26.2-52.3c-10-2.5-20.5-3.8-31.2-3.8C57.3 224 0 281.3 0 352zm384 0c0 70.7 57.3 128 128 128s128-57.3 128-128s-57.3-128-128-128c-13.5 0-26.5 2.1-38.7 6c9.2 17 18.3 33.9 27.5 50.9c3.6-.6 7.4-.9 11.2-.9c39.8 0 72 32.2 72 72s-32.2 72-72 72s-72-32.2-72-72c0-18.6 7-35.5 18.6-48.3c-9.2-17-18.3-33.9-27.5-50.9C402.4 276.3 384 312 384 352z" />
-        <path d="M312 32c-13.3 0-24 10.7-24 24s10.7 24 24 24l25.7 0 34.6 64-149.4 0-27.4-38C191 99.7 183.7 96 176 96l-56 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l43.7 0 22.1 30.7-77 153.9c-9 18.1 4.1 39.4 24.3 39.4L304 368c8.5 0 16.3-4.5 20.7-11.8l84.8-143.5 81.4 150.7c6.3 11.7 20.9 16 32.5 9.7s16-20.9 9.7-32.5L375.4 48.8C369.8 38.4 359 32 347.2 32L312 32zM166.8 320l50.7-101.3 72.9 101.2-.1 .1-123.5 0zm90.6-128l108.5 0L317 274.8 257.4 192z" />
-    </Icon>
-);
+const Bicycle = createIcon("bicycle", true, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABpgAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCdgsIAAE2AiQDCgQgBYMtB0obkgXIBp7n7fLPfW92k8zEmBD6givQlSqj6FkK9frE/Tz/VhsN8PEIhtKppVE46jifwACjAit0QhuhzdomV94gyBsWZBziPJGF9qblrYChkvU2HKCOqffAntJevhLGNlB4aAoQX/gfINQO93fy+KN8VPLedQfkPR2AAEgdADYCaEADkQgAFWgEiMTABgwMBD4qlws+istlgwCAOHFS824n4AYcBa4BAAYACo0yjBwPt8R0y+FlDFkOc+bF0GOJltSKKVly2DSFPy1VBuRg0KEgS3aEDMugHEu+Ej5GDieZI8MDw4MiYg5bpjUgQ3KuUuRB46vyezGmHE24aF5Oux5+Iv1G8g5rs+TLYfN5xX3bS6hV/Sj+fNXDpu0Jh4JqiyPWpdRrYUdTribo+sPB4GsHxV33vf499v2M9xSf6Q0K6g0nhkNcYrVnCXyMDCbQcYzxc+f+uoHX2oHd9BziVkn61lPx7LHj98bkTauBzdOAtaMb5/tMOX2U9zHJUQD1Pb5Z2QtLGbn8wj/m53t724iPWsEBvvj2FNQ7Ngn2nvoCR+NbUGDivLnz5tU4NSGMnv79TZ5HAYAAAh+4uWKiT8V/d0sB8Pnuz79gb9dHtUldB9xRAAjoDFcG49QmAOMWAHAoWUHc6IcmAQJoetD4SE8OIwAIJnBD4cSEJgJfGJikw0E0hcLF9v1oxPBACGQ8oPBkMTRFrIdBILfhoIJXTieBooNUHGLiX8QUTUw0VrNzs3LsMvsxrEniTpjLy+1lQ8qKlJaKvsxgIQtYxnSmMZtlxFlCp2c582masRv5Ija5ZJGDTRn2duxeMUTOJSxl9li2X0k59vuWFFbMc6fCrHCeebTRaBAl2uejosk87Fo/lp1q");
 
 export default Bicycle;

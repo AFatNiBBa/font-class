@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-minus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-minus?s=solid octagon-minus}
  * @preview ![octagon-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/octagon-minus.svg)
  */
-const OctagonMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M140.6 21.2C154.1 7.7 172.4 .1 191.5 .1l129 0c19.1 0 37.4 7.6 50.9 21.1L490.8 140.6c13.5 13.5 21.1 31.8 21.1 50.9l0 129c0 19.1-7.6 37.4-21.1 50.9L371.4 490.8c-13.5 13.5-31.8 21.1-50.9 21.1l-129 0c-19.1 0-37.4-7.6-50.9-21.1L21.2 371.4C7.7 357.9 .1 339.6 .1 320.5l0-129c0-19.1 7.6-37.4 21.1-50.9L140.6 21.2zM184 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0z" />
-    </Icon>
-);
+const OctagonMinus = createIcon("octagon-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABWgAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBIQsGAAE2AiQDCAQgBYMtBzQbpQTIngVOmT0a0VFRES+9G6Py85+qaeLhn/3cfe/LMGtilSUsechaMolMSDQLDVbSOuJ9h6qJ/P2PcfUWUPuzyYrywU7XNt45oUJRblJIBzE6vErC8IeOKawPG3CRBoSB2vb/3Ewbz6MAv1FoY9rSQBbYns8TSKxteQQd2JmegJ1uEz3yiGJviAhJRMcVHl9HN5RxaxUq8lo/wHn/0PhiUIHUXwAgxgDA3nFNAU//0ot4b84Rd3IgIPYALGCgQIEZDLCJJTCDbQGUSkGP0bz8BxIQQNTAyxOUKLEGtgCUIGXJpqFBjoRdL6qELSdTFHu7jnGbwbhatYybJoz9U8/oFEbs3Ia63bTVRXFQt4dwqRPH34/+D5aOYz/pxhYW4Bs+Y2jtdAGxbp4dMoQOuyx/VRpN1Rr8HASCj83t4Q7Z5r+LmIDPm78hv6LmSWUH+iQIinbz0JogCQBAxjyMCYHUxoSrIRcIEAZQSLUBKEyTQ2nAMlTm+K9rA/axRClAmNKmkIacQGHDIpSmnEJl07NZm4oicdhrZ99tSUmLJ+bI7XBRhKahweUCXcdRWlZM81Iy0yb6TRg3q0+vIbOGnFZw5oxJRkTCFxE3BxcSQdvJfrlen2kzhkwYb1Oi6LxhMh83m0lnAuWKy5RESiZ6ZrsGJsbt/83LMwAAAA==");
 
 export default OctagonMinus;

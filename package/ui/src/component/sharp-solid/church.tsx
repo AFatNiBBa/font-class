@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `church` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/church?s=sharp-solid church}
  * @preview ![church](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/church.svg)
  */
-const Church: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M344 24l0-24L296 0l0 24 0 24-32 0-24 0 0 48 24 0 32 0 0 46.4L160 224l0 288 96 0 0-96c0-35.3 28.7-64 64-64s64 28.7 64 64l0 96 96 0 0-288L344 142.4 344 96l32 0 24 0 0-48-24 0-32 0 0-24zM0 344L0 512l128 0 0-238.4L0 344zM640 512l0-168L512 273.6 512 512l128 0z" />
-    </Icon>
-);
+const Church = createIcon("church", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYQAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBVQsGAAE2AiQDCAQgBYMtBy0b0gTIHoexG/rILkalw9L4EvHw/Vpv577umcr0hKHDjI5AAqGMi4pbMubXWnKrMJlVQ/On9n3+r6kXz48O8BsdSqem1soi6vkEBjgLb6Dy2cBmOgGbtbMfMIi/iZDgkwzjD5sj5PF3dkWF9CjBjfih8ZsOrpDUMgDRHADT165c7HtDNET88n/ELxYiIKaDUiBDhs4CTJIJdJYrkcsFDfH///Y/sCSAqMKrEshRwWKsBeQgyfJ8ZK1WrzTJ19Qrxd4QRaCbC1Gvi1WRoh4RTwZ+6fuu/6cOoh5ZrIkQpDiIY5fA0arDYQXZ3uNz889/dLeHtR/ao3SY9tor8/5yiOvLlbbZpmjR4uVLlosmlzNtiBy2X+sjyi740/nZ5z9UMt3Jny4AgeBurdNbm036q1E9gV+//QfzK/r/e7qQRiMJBNmg/wfZlC5AuiAAACnO6JEuIJDMlsG7NnZfgFAgQFJVCJDppLkAucJAASq6Gi1AVWGlTOQ1obXNDSSNHQeZMc6CXGtfQcUkP8RVrSNTKVYh2B9d0pwenb2pHD5kWDmh3LYUTktovzqxPLb6nXEj/emgPY464pTddtnvVIefsDg77bA5EjbbF5WGG2KY0gTldfdx9xq7nXDSfkcdCetMVL73+jkjT+9PbgLCEWqSRKSqEgM=");
 
 export default Church;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-walking-luggage` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking-luggage?s=sharp-light person-walking-luggage}
  * @preview ![person-walking-luggage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-walking-luggage.svg)
  */
-const PersonWalkingLuggage: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M448 56a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm-80 0a56 56 0 1 1 112 0A56 56 0 1 1 368 56zM347.7 163.5l-46.9 31.3-30.1 67.8-6.5 14.6-29.2-13 6.5-14.6 32-72 1.9-4.2 3.9-2.6 72-48 6.1-4 7 1.9 88 24 8.5 2.3 2.6 8.4 30.3 98.6 43.3 28.8-17.8 26.6-48-32-4.7-3.2-1.7-5.4-15-48.7L411.3 331l47.2 40.9 3.5 3 1.3 4.5 32 107.2 4.6 15.3-30.7 9.2-4.6-15.3L434 393 333.4 305.8c-14.4-12.5-20.1-32.4-14.4-50.6l28.7-91.8zm35-4.7l-33.1 106c-1.9 6.1 0 12.7 4.8 16.9l30.9 26.8 47.1-136.1-49.7-13.6zm-53 186.2l25 21.6-36.3 72.6c-.8 1.5-1.8 2.9-3 4.2l-56 56L248 510.6 225.4 488l11.3-11.3 54.2-54.2 38.8-77.6zM187.1 357.3l-55.4-32-64 110.9 55.4 32 4.7-8.2c0 0 0 0 0 0l2.5-4.2 56.8-98.5zM157.9 471.9l-7.1 12.3-16 27.7-27.7-16-55.4-32L24 447.9l16-27.7 64-110.9 16-27.7 27.7 16 55.4 32 1.3 .7 29.8-50.5 27.6 16.3L163.5 462.4l-5.6 9.5z" />
-    </Icon>
-);
+const PersonWalkingLuggage = createIcon("person-walking-luggage", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABowAAALAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDKwsGAAE2AiQDCAQgBYMtBz0buAXIngeZm5dmRzTRsOzOjiLK9yQevtbQ9/c2SYEQVGUnrnVAMrJTRWQBNZBjV0V3/Lj37kN8Xx7tBoUIVarNzSUsLkQomYfeKyR+4lznO18DNfnQ1t8FUhHnLzDA6VueN0iBvb0ovnmm3KOhJUIfVWtMGlN7PMP8d4Icb6MfOulieo6zworvWltIJLkglGgEHsrklaX5cP8pPkU8L28Qz80FAmIKQCeIAvdoB8E4VIF2aDoBWRZ8irLk/8BOIICohPMnkFEb1/AEkEFSlXPt+lPrShsa69Lr5xX1QXV2Xuqx2Wqt+05bzkbPne5brVe7bfbYblM2amxUWcjCHsqoDCUIeZSHPDM6nBETCkmYoyzinYA8rMVQgfPst60cuWxl2WJzF1ZGxjJXH1dZLDYrClm4QxmlUbksJzunGrKXwGy05ApZS5kK7ZHTYW1UGmybADeGjkPKQtZlv9H+T3bwqLp58WI58hc1PHn06HpD9jfd+0sy2qffK57BOBPNYJkDlWpW2dKsnvRbHGrt3xAyb3oc8KELqo57FXg3gWGHthVQdkq3tmun7qLXe8dXA6rVG3bnNHbqlgkbn3Rgh0vL2eefqXtQ2YkHDMrEbipqS7sje3W+PXLQnT/8gC/LY6E3HtlcYzWAQFAOOXF1Y8O437XqJvDl7o0zaFU+Tq3TPmpJICj6lf3UpSQqjkALAommOMFM3wSR1Kiin1rPOQFCHQRIKtURoNCWCIKsjr4QVOggHIJKdSxFFbm20Ez9RSX1HKYKI0xSWTMXVIVxHqKVmgU1e8XcE38eM2RYIF2LDPYHkRiybZtSQvJtPZY8dvSa4DEXbYUOgwaMadem25jBR+QnxvXLiMB0P0QE8wtCxCDHve+GChMYMcq8L59vEou8H3GaiGe7yE2hnEPUJYlILZLd4vvqVPn2He/sbO5sBwAA");
 
 export default PersonWalkingLuggage;

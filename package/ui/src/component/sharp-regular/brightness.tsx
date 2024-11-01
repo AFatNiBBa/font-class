@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brightness` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brightness?s=sharp-regular brightness}
  * @preview ![brightness](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/brightness.svg)
  */
-const Brightness: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M232 88l0 24 48 0 0-24 0-64 0-24L232 0l0 24 0 64zm24 120a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 144a96 96 0 1 0 0-192 96 96 0 1 0 0 192zM0 232l0 48 24 0 64 0 24 0 0-48-24 0-64 0L0 232zm424 0l-24 0 0 48 24 0 64 0 24 0 0-48-24 0-64 0zM232 512l48 0 0-24 0-64 0-24-48 0 0 24 0 64 0 24zM92 58L58 92l17 17 45.3 45.3 17 17 33.9-33.9-17-17L108.9 75 92 58zM391.8 357.8l-17-17-33.9 33.9 17 17L403.1 437l17 17L454 420l-17-17-45.3-45.3zM58 420L92 454l17-17 45.3-45.3 17-17-33.9-33.9-17 17L75 403.1 58 420zM357.8 120.2l-17 17 33.9 33.9 17-17L437 108.9l17-17L420 58l-17 17-45.3 45.3z" />
-    </Icon>
-);
+const Brightness = createIcon("brightness", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABnwAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDFwsGAAE2AiQDCAQgBYMtBzEbmAXIhof/X6u871cNVS/BDNcys8IkKqwYLRAIj6Qic3r+r6kXz4/O2+jQoixXSZUWFTaBD3i2zRJo4LOBDWQEE7AN22YGmdrjyXg+II+34141pAfTN7hnedP4U5PbSGoyANENAPO2bFjlg+/iu4ivq68SX1uBgJgHSoEMGVoFmCkTaJUrkcsF30W12vwHlgQQtcAzE8jRCS/hVUAOkiLPu3duaah0B4lKTed8M6ksdgiVABcXIWx6tunBxgcGPtf8UMvDQ9wxJOJ5ocdNs2Dwc8XtA58J625sxgc9W9l8CaqUF52LSiGUvrWiW59xCNtnzpk5LGYFJubE8JgNPDR82PCZ4Sb3zpo9a4SCRkRjaMwsgEeGjhg6Kwrn/i91e+nvft8c/savRxpB1ViN5mrEa/peeeKX11//5Ynm1L3NO9n56WdNTZ99unNns9XSeKtXxoKKxq1jNa69zyuj2jfQ+lJC4x2fdgdVfIPu+MqIEVrM91w1a/97QCD4/7Fbv93TdeZ/9ZUEfnjr33/zX1H1gyS9hHoJBNnI6kg7E0gEACDFZf0TBJKnFMCrdnKfAKFAgKRWIUCmRTcBcoURAtRoN0mAWoUNMpE3CL3s0mzSyTk2M9lVNtfLy2yNmT5P1eoVWZoVU5z4y5i22EYXgcpxo8eW08vNFiklQ35cnVGeNoZebkeG5WcddsZpFx1y0DEXLfy8VdlLTlm8hy3yQaVxRhurNF15u7t/fLNDzrvgmDNOz4fMUL4fGury/vRhuZ0AzvGqk0SkYv+nHD996MIFAAA=");
 
 export default Brightness;

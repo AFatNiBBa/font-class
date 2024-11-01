@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `apple-core` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apple-core?s=sharp-light apple-core}
  * @preview ![apple-core](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/apple-core.svg)
  */
-const AppleCore: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M178.3 128L160 128l0-18.3L160 96l0-16c0-44.2 35.8-80 80-80l16 0 13.7 0L288 0l0 18.3L288 32l0 16c0 44.2-35.8 80-80 80l-16 0-13.7 0zM240 32c-26.5 0-48 21.5-48 48l0 16 16 0c26.5 0 48-21.5 48-48l0-16-16 0zM80 128l112 32 112-32c13.9 0 26.4 2.8 37.7 7.8c10.5 4.7 19.9 11.4 28.2 19.5c-9.2 5.8-17.7 12.4-25.7 19.8C309.6 207.2 288 253.1 288 304c0 53.7 24.1 101.8 62 134.1c4.8 4.1 9.7 7.9 14.9 11.4c-6.7 8.8-14 16.8-21.6 24C317.2 498 286.6 512 256 512l-64-16-64 16c-30.6 0-61.2-14-87.3-38.6c-7.6-7.1-14.8-15.2-21.6-24c5.2-3.5 10.2-7.3 14.9-11.4C71.9 405.8 96 357.7 96 304c0-50.9-21.6-96.8-56.2-128.9c-7.9-7.4-16.5-14-25.7-19.8c8.2-8.2 17.6-14.8 28.2-19.5c11.2-5 23.8-7.8 37.7-7.8zm120.8 62.8l-8.8 2.5-8.8-2.5L75.9 160.1c-1.8 .1-3.5 .3-5.2 .5C106.2 197.9 128 248.4 128 304c0 58.3-24 111-62.6 148.7c19.4 17.3 40.2 26.2 59 27.2L184.2 465 192 463l7.8 1.9 59.8 14.9c18.8-1 39.6-9.9 59-27.2C280 415 256 362.3 256 304c0-55.6 21.8-106.1 57.3-143.4c-1.7-.2-3.4-.4-5.2-.5L200.8 190.8z" />
-    </Icon>
-);
+const AppleCore = createIcon("apple-core", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABkAAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCVwsGAAE2AiQDCAQgBYMtBzEbWAXIjtEnY0yEmSMeD4gRMS+e59svvW92Qj+ALmVHClVZOAB2BA6YjW11U+FzautI7/Hj3rtvDXqDmGQ0KG0VzoAb4LQkTH/zzzuPAnxGoY1pS7NoAe19nkCAWZd2eRcOzvvDvij+t00RaoRhU0ICJaIxbaxWqDkfM3TKc8o+cLffKr+paKaoLQAZAgBWbowIgs1nnEwm2nNkQgAQyCqAGRAtnJkCwRJUYVegmQFUVZjEdpv/AwkIkE5yUQEVnbiBl4AKilrr+IiFIZfeXzf00putDbcJnPPWdMSRyxWRV0aDdpyYTzLER8qAvfmq1KmG2KxbHx0Vg6367fI22XFkvXm/sS5YtfNGz8x7dCg6lUa0JvByDRw0wI0aU5IpMDotsgY8WV9v1mc0pO+DSpHHKwOmw5rjeLW2gxM5a1g0/Ka9n71varkEn4LAENywXyQiPGqZYnUP8JM6RETxorxNKdEaO4O86+XH9XIYBs/G762sqr7lyuc2tE1WLfVXZm39QeMEr16+Xvnvkp/xaJBd4Mg0oA6Bw4mcR/+7v9lch6PKrPt+ff9HN0vkYRHV3wwQhF1XXnHnoNv/bm4Bv5Y/vug6QftbjpVhoFsBoTWvbSYx9TBgIMcgAKDkFJ3gi4Ligoru2ueJgGgQUHRqBLSME0FQNeZC0GEaewg6NdaiSu0RY5ImKPocBS2L1YBqzAzosMSW2mks1JwkMor4EsZ6W8hriFhbWBEX4nqUTDOsdV3JNm9UXTPGOAvZShSrlCVTnkqDlAsyqhTxjmAvP0RYs2CFcEGOw9fpaFnKVchTopj7uCL3ZSPVcbkxShSCOp+pKKQ0D4EzfzgA");
 
 export default AppleCore;

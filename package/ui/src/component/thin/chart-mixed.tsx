@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-mixed` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-mixed?s=thin chart-mixed}
  * @preview ![chart-mixed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chart-mixed.svg)
  */
-const ChartMixed: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M510 34.8c2.9 3.3 2.5 8.4-.8 11.3l-184 160c-3.2 2.8-7.9 2.6-10.9-.4l-123-123L12.9 222.3c-3.5 2.7-8.5 2.1-11.2-1.4s-2.1-8.5 1.4-11.2l184-144c3.2-2.5 7.7-2.2 10.6 .6L320.4 189.1 498.8 34c3.3-2.9 8.4-2.5 11.3 .8zM80 448l0-96c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16zM64 320c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32zm128-80c-8.8 0-16 7.2-16 16l0 192c0 8.8 7.2 16 16 16s16-7.2 16-16l0-192c0-8.8-7.2-16-16-16zm-32 16c0-17.7 14.3-32 32-32s32 14.3 32 32l0 192c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-192zM336 448l0-128c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16zM320 288c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32zm128-48c-8.8 0-16 7.2-16 16l0 192c0 8.8 7.2 16 16 16s16-7.2 16-16l0-192c0-8.8-7.2-16-16-16zm-32 16c0-17.7 14.3-32 32-32s32 14.3 32 32l0 192c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-192z" />
-    </Icon>
-);
+const ChartMixed = createIcon("chart-mixed", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABqAAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDKQsGAAE2AiQDCAQgBYMtBzIbqwXIngfZaelEo8HmpFeJ4HtbtH5/5kR8TtQ8VlwiT4ItUooMQm4zYPG2ft8rRH/gdLpzKco/SOBRaOdeekfPeZxAwFn+D1gWZrEE6l1umyliUml/C4U55PGtdSqQHqc/cTN60/hbE+dIsgxA1AbA6IVzp/upFKWIP8ufE3+aioAYAwqBDBmaCzBMJtBcrkAuF5SiXBb/gQUBREXJFRPIUQ0f42dADpIqed6kZqMaDWmgWoUa+QI+perG+/XnuddwAcrxoNFCDxvM96R1xIOG9+qL+w0eNlpQg4j7xKn696peafggIk43elht4Z4szunana60D6u5YvEL89/YpM3r2q//8eeGP/3/rP+4Xxo798gRH18xd9yQdtPcsYfJT55Y3z1blaTULJVqrlKm1jpZ8xKXRtJLmC+ELe3kzFLNn5Qloiwf4AvdT7CwtX7oVMKnylPPIC/xU8gpLnseDwSCXv/Oqryy1rD/KldL4K9vrjcsvy+XUkqvUVkCQdat3M2yZAd4P1J8vD8OaIM/CSSvVJG8anUPBAhVESCpqKoAmWZqC5CrqqsAFbTUX4CKqporE3kVob7lPTupbjc7M8Bxdq6+T9kVDPNLqKL6kQGvEPSE/47JJozh8ZOK3j16FUOKzYJWBI98Ozi0OK3rdEA2dMYzbbDTDvust85m+0bUPaZH99tuwh5lvC8q9NZDL4Uhitvl57IFlLbHXpstdtwfZ6jifVcnB/bbd8bGJOHZR1qSiFQt2Cq6hyk=");
 
 export default ChartMixed;

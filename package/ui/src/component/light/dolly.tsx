@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dolly` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dolly?s=light dolly}
  * @preview ![dolly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dolly.svg)
  */
-const Dolly: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M24 0C15.2 0 8 7.2 8 16s7.2 16 16 16l64.9 0c6.9 0 13 4.4 15.2 10.9L211.6 365.4C190.1 379.8 176 404.2 176 432c0 44.2 35.8 80 80 80c43 0 78-33.9 79.9-76.4L565.5 351c8.3-3.1 12.5-12.3 9.5-20.5s-12.3-12.5-20.5-9.5L330.7 403.4C319.2 373.3 290.1 352 256 352c-5 0-9.9 .5-14.7 1.3L134.5 32.8C127.9 13.2 109.6 0 88.9 0L24 0zM256 384a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm96.8-201.1c3 8.3 12.2 12.6 20.5 9.6s12.6-12.2 9.6-20.5l-19.2-52.6 60.1-21.9 54.7 150.4L328.2 302.5 273.5 152.2l60.1-21.9 19.2 52.6zM243.4 163.1l54.7 150.4c6 16.6 24.4 25.2 41 19.1l150.4-54.7c16.6-6 25.2-24.4 19.1-41L453.9 86.5c-6-16.6-24.4-25.2-41-19.1L262.5 122.1c-16.6 6-25.2 24.4-19.1 41z" />
-    </Icon>
-);
+const Dolly = createIcon("dolly", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfwAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCGAsGAAE2AiQDCAQgBYMtBywbFAXIBoq0ZT1aGYBlPzBQhsSRw6/zea6pF8+PDvAbHVI03S3L0qOCJzDQSB+tdX6As4nijuY9PMhx7UIdL8DqlQriB2aduQ0scXfrF0nMBIP18AGKxK5AtTYtGnH+vd5Lt31HQLdpAAhA1QFwCPAAD0hFAFTEQ0AqFgdYLIL38vns/0AHAgD5g99sALCAP9APmAQAWAAM1tq8YdHJIX5htrXJCe6wMnZVXIjYB9vpeOqmfPtKHStwIKWN1sSvjm2p9bl3B8+Pba/1pYPb7Upal7g25+7k9Skb8rRZlbAmvrgaqJVaqrXnK9a6lW2uiuvjN/H9wdZavdUOK2NXxmXtj9z/J/N279sknHsfHv6+GlvLDahGQrJa94qkZa+MLy25UqnTo3fNmF2pUnLA0H5VuKtq36Zs/Xrs2NetyRVdr3d8+LRSTg5TehWrS1NqNUfIOSim9Oog1uDIzktWksMd6lcc0xs2iFXk5dcBQIBg3okzB7tEVMwODDEAfDz5LzvbGeg7b2qY/UAgZJ3AK+grSEdTlRH/F6JzTmg0WfibEGDohsUPh7J6a1YEQwWDP8HwSCESlmAKwI90SgkL9RaLymWDELF0IjCEMgwepZkESyyH4EdFrqX8iZUHdBLISJd86bWbdK1Vrljhoq68G60pZDgSrNkKbrGVd7TsyYfP0pshDGYkvehJP0Y22OE0yo5iELWnmFr8EEcxClMUR3nc5ubd463pxXBG0I8hDHaWqYA7PpyX0dPD82GXwecsTpnBgIzfHwKMcQAA");
 
 export default Dolly;

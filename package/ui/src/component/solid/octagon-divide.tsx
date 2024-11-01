@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-divide` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-divide?s=solid octagon-divide}
  * @preview ![octagon-divide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/octagon-divide.svg)
  */
-const OctagonDivide: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M140.6 21.2C154.1 7.7 172.4 .1 191.5 .1l129 0c19.1 0 37.4 7.6 50.9 21.1L490.8 140.6c13.5 13.5 21.1 31.8 21.1 50.9l0 129c0 19.1-7.6 37.4-21.1 50.9L371.4 490.8c-13.5 13.5-31.8 21.1-50.9 21.1l-129 0c-19.1 0-37.4-7.6-50.9-21.1L21.2 371.4C7.7 357.9 .1 339.6 .1 320.5l0-129c0-19.1 7.6-37.4 21.1-50.9L140.6 21.2zM256 192a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm-88 40c-13.3 0-24 10.7-24 24s10.7 24 24 24l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-176 0zM288 352a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const OctagonDivide = createIcon("octagon-divide", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABcwAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBcQsGAAE2AiQDCAQgBYMtBzUb9gTIjtRG94xd4uH/5/5tn5sUgFNmVoBgkVzZwbCQf41FNfplSC3+/5xLF0mjAX6joVRR6UDKt+t+fgInVu1HcmBnmuB+bxseG5H4KkIMLaLxcrxukMeH7LhypDvpF1yiB42/NHKcpFIGIGoCYOT82VN9LYuyiJ9LET+bjIAYCQqBDBmaCjBEJtBUrkAuF5RFqYT/gQUBRHn8mxLIUR6LsBaQgyTP86JO1TpVylXL51UpV3nxs/ZV4kHHufGkkbjdYU48blM5HnaaF08bR9zrPH/uuQYRt+JI/ZuVz9a97nC9G1Xm3G94p22VeNTkbrvKc4/Uj5iLiyKe2uppzaf/+GXdL84/Hf3HEV9H79+vT7XGVu3DjP7q/KGQqmi1zK6n1U9zujrVYNH89jPr1Zv5Goh2E7wfCAQnJrSvs7zGkP8rVkngz/f/XV9GSl+T9BQVJRBkXUpdLEkgEQCAFPu0ShBIZsnxzqpuChAqY0BSXmXINFETcpV1hnKa6ytv7pgtE3kloa6lAJKqdkKmnwOQq+sdlDPEt6i8upEFmBoe6v8ua5zExy4qenbrUQwqzJquxYycZwcX226HfamnI6y1znbb7LHWGhvtEfwuU9O9thrncWM9UaGnbnooDFIcN9fL51lrl9022m5bmWew4n7YwT5/eEcIEhbsZWeSiFR9++o9K9dv39b1tQM=");
 
 export default OctagonDivide;

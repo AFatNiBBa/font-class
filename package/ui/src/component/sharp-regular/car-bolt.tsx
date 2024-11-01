@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-bolt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-bolt?s=sharp-regular car-bolt}
  * @preview ![car-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/car-bolt.svg)
  */
-const CarBolt: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M120 32l-17 0L97.3 48.1 52.6 176 48 176 0 176l0 48L0 352l0 48 0 80 48 0 0-80 416 0 0 80 48 0 0-80 0-48 0-128 0-48-48 0-4.6 0L414.7 48.1 409 32l-17 0L120 32zM408.6 176L384 176l0 48 80 0 0 128L48 352l0-128 80 0 0-48-24.6 0L137 80 375 80l33.6 96zM112 320a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm320-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM160 224l88 0-24 96L352 192l-88 0 24-96L160 224z" />
-    </Icon>
-);
+const CarBolt = createIcon("car-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABewAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCQQsGAAE2AiQDCAQgBYMtBy8bQAXIjsQ4JvKLKOwiHv5/7t/2uUkKSRnSKkZSQKha/W1d2XXIj/1rLLnRL99rQ+b/ms/v+TXQvW90KFHrBKloncAAoy19QmcDm+kEbOp09FjLmEIOIYiOSqeK/B49Pl+Qx+d4qiC9S3/gCT80/tbTTZIiAxAdADB749rlfjRHc8TvjYnfLUVAzAa1QIYMfQSYJhPoI1cjlwuao9HQ/8CaAKIFKCeBHC1xBU8AOUiKPB/as3PntlXRNt9QFeXWsiq7xLooSyGEqCKiLQXJK8sN0S3K9ee4I1S00VRmjo28bf2uB90j3sS1bq/L+11eutr1VbV3NxNhTMho8p6qrNbFxhsX1g1s6tD0b38c+MPF9x2xaaehVxSjRrmqQqv0Hyh486gijNmpY4cnPcFN1FUfXI3racBO/y05g560u8vddqVGl8zs713tZ25CSfedrlyxCd8HgeDwsZV/7mw/7f9WVQJ/fQJ/RY3mJDWhlQSCbFhjmG0JJAIAkOKCgQkCyUUFKLWN1wKEEgGSFkoBMr11ECBXGipAoZ/xArRQWisTeWuhi+0bSNo4DTITXAK5Lj6CwjQ/Ay10iSwRhTQS/gNTL+ih+evq0SNG1VPqsGYVc4trs1Pry+ZBF6xnsFxxwEknnLPfPofJdOQZy8PnHbdgBM/3RbXRRhilNkX9uLk/v8F+Z5x12Ekn5lWmqt/3D3JhPHyw2BLQjqFNn2BHarV395nhe04eOwcAAA==");
 
 export default CarBolt;

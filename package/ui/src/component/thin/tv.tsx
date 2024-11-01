@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tv` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv?s=thin tv}
  * @preview ![tv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/tv.svg)
  */
-const Tv: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M576 16c26.5 0 48 21.5 48 48l0 320c0 26.5-21.5 48-48 48L64 432c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l512 0zM64 0C28.7 0 0 28.7 0 64L0 384c0 35.3 28.7 64 64 64l512 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 0zM96 504c0 4.4 3.6 8 8 8l432 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-432 0c-4.4 0-8 3.6-8 8zM80 80l480 0 0 288L80 368 80 80zM64 80l0 288c0 8.8 7.2 16 16 16l480 0c8.8 0 16-7.2 16-16l0-288c0-8.8-7.2-16-16-16L80 64c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const Tv = createIcon("tv", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABewAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCAgsGAAE2AiQDCAQgBYMtBykb+wTIhof//Ou/fapu9wN0v6RIHDuDcknRz8ZBpl6TMoJ75NR446UCPqv7efguyAP7N16Bxhff/NOEZsXZRHG706jtUNojSQuW5Hi043WFIv5xngrp4fQV7kwHjR8NuYMkZwDRCYBNh/fvc6YWtYiv6u8TX9mDgNgMSoGMjFEB1soCowolCoWgFvU6/geWBBBVfPgECjTgPFwKKEBSKYrh4bam7pZKW3GopdJ87fN9EfcPpXio976p7fFC/wPDOR4deHBGxznPzYx4aTDFw7NentYRL855dSTHI7Nfmd5+9P6+tnhw4IH+1riv91hba1uK1sjNKaehnIOemPxK5ys/T/rqgq9seHPhN3ydN8pff7MQweLZesdTXXQ1b9Tc1fUUwEJo4o/qWW85q5r1jhdrjC3VlJ0l1+59tfZSeR8IBCsf+HDO6Y61vzW2JPDDJ7/+7V5XP5NuSa+gUQJBnluf60S6BQI+AC/FDSYrXxRITqjgT231gAChGQGSqmYBshGdAhSazRGgYtwyAaqa7ZdF0ST0OtngpNXVcLbcjXCh17twxVqfulW9kS2NshPqnxe/XQLb9spF8xeWq8tlqtLGQ8T1mnJbmHkDtWbBRRe40hWuc77zXOw6AV1jX3C9y23XwG1+qLTIfAuVViuPi3v+kHCvca2L5+z5ljXK+85MN+jDs+AUCbD4jQhyI6XrbgAAAA==");
 
 export default Tv;

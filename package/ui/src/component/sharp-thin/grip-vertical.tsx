@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grip-vertical` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grip-vertical?s=sharp-thin grip-vertical}
  * @preview ![grip-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/grip-vertical.svg)
  */
-const GripVertical: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M16 464l0-96 96 0 0 96-96 0zM0 480l16 0 96 0 16 0 0-16 0-96 0-16-16 0-96 0L0 352l0 16 0 96 0 16zm208-16l0-96 96 0 0 96-96 0zm-16 16l16 0 96 0 16 0 0-16 0-96 0-16-16 0-96 0-16 0 0 16 0 96 0 16zM16 208l96 0 0 96-96 0 0-96zM0 304l0 16 16 0 96 0 16 0 0-16 0-96 0-16-16 0-96 0L0 192l0 16 0 96zm208 0l0-96 96 0 0 96-96 0zm-16 16l16 0 96 0 16 0 0-16 0-96 0-16-16 0-96 0-16 0 0 16 0 96 0 16zM16 48l96 0 0 96-96 0 0-96zM0 144l0 16 16 0 96 0 16 0 0-16 0-96 0-16-16 0L16 32 0 32 0 48l0 96zm208 0l0-96 96 0 0 96-96 0zm-16 16l16 0 96 0 16 0 0-16 0-96 0-16-16 0-96 0-16 0 0 16 0 96 0 16z" />
-    </Icon>
-);
+const GripVertical = createIcon("grip-vertical", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABigAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiDCgsGAAE2AiQDCAQgBYMtBzQbjgXIngVOmRUf8Z2PMNxo4iaa8/+Q4nn+9/u2z3137L4/ophUJmHJM9G8UfFIqDQ8kjx5JXqIf1Enk5///9u8D8n8EO8h2VQyNNIkiUkTi22hrC2ZTd8T4qt9/i/3/OYG/EaHdjtc0zf4nhhI1vO5NNIssECOIIED9cxtxIKKyPDaEJkvIoa2UH1BzWUjJuVZgUfyodmwxYei6wBkAQCcPF+L8BtnnPwYPpIfToFATgJ2E3TosJ2AI3TBdobdoKrCOMPg/wMJATIJZOFexRxe4S2ggmJU68yiy/QTs/VcfNZWI32krfStD1bWmojzU9+lhpe2cIbo2Tv9+d69r71+jwnDDTxFT2+w8KBHUbdktj/WGPsQn7++gNZd9tLfC/cAgvDw+96yjvyf7gv49+0N+RUN45worzGtgNCtD+taeQDkBAEAlDxg5wQIipdG8K4jjwVEQ0AxqQnobKMIqJp9BEzYKU/ApOY0XeqMWNGuoBi5DTqHXUG14gsmHPHPTVpJZ62GrRl/xXyhhoJlTCdSrHBZUkwD1NJolcd+5xJaXLqLia2Nk7GRuZNSDqLi2Vq44wJfRGkJKVTB6+r99aaxg6O5rQ3PU8X3acdl392lkAaq+10uCimzN+/Md3H7BwAAAA==");
 
 export default GripVertical;

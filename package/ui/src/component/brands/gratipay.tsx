@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gratipay` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gratipay?s=brands gratipay}
  * @preview ![gratipay](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/gratipay.svg)
  */
-const Gratipay: typeof Icon = x => (
-    <Icon viewBox="0 0 496 512" {...x}>
-        <path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm114.6 226.4l-113 152.7-112.7-152.7c-8.7-11.9-19.1-50.4 13.6-72 28.1-18.1 54.6-4.2 68.5 11.9 15.9 17.9 46.6 16.9 61.7 0 13.9-16.1 40.4-30 68.1-11.9 32.9 21.6 22.6 60 13.8 72z" />
-    </Icon>
-);
+const Gratipay = createIcon("gratipay", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZAAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBPwsGAAE2AiQDCAQgBYMtBy8bvgTIHoNt6/EYDkszpzWtjmXqlA6Ogy8i+uW3nrdvL4Ts71QO5SEbe8hvFC55jEJojPhgU9Dr//+4un8gvpFXqHAS3TZDFWqs09Yp7tnIY5cXZ6EtmzREIwwzHbp/Tt087zwK8Dn3sTBdFi0KZM7zBDrPu3wLtS2wRBLydJv46BGFXSExgiSi4wqPJ+qh5jZJS3lfOnhdHpqvzLYp2gYAmQIANy+rKpHsp5+8d/fkk3IQyC0AWxgaNFjDwDmuYA3PFqiq0E/X8T+QIEAGoJsvoKLiCjwCUEFRKs++Im3lvFrcSpoehfJ+jZJ89tKih/vt4i18rJrpXXVddS17s3IUOfed6ncDO8b9gH330rSuc1+prj5dvbfD96MwDg+DDLpXMDg4HgtQYPxBiPLk55jrWnptOyH1upsPFXk/8erLO/gLPQCCsPChtdemPP8vknIAXz5+/WuLu+f8KlcYUkBodrqo5vwCRgdQSmbB7bwsKI5wQO865o2AGEFAMWBEQGOVCgPViG0MtDZkYmDAiKe4UsWIOS0dFGNegcahFVDNuQWtc0/KgLk0cUREAfGNiy1CqLCOUuMplEdTk5GhgaVyPi1zwVkJhagTvcaMmtaj24BpQCZV6jNGFHlwoReRVHEpSB7adh7ba/WYNGXAmNFcJR+dl4Jm/eQQNcMB7N6AsZAi6nt248c7FgA=");
 
 export default Gratipay;

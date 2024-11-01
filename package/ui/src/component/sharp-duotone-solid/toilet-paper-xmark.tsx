@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-xmark` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-xmark?s=sharp-duotone-solid toilet-paper-xmark}
  * @preview ![toilet-paper-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/toilet-paper-xmark.svg)
  */
-const ToiletPaperXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 192C0 298 43 384 96 384l32 0 32 0 256 0c-52.4 0-94.9-83.9-96-188.1c0-1.3 0-2.6 0-3.9C320 86 363 0 416 0L96 0C43 0 0 86 0 192zm86.1-48L120 110.1l17 17 31 31 31-31 17-17L249.9 144l-17 17-31 31 31 31 17 17L216 273.9l-17-17-31-31-31 31-17 17L86.1 240l17-17 31-31-31-31-17-17z" />
-        <path d="M416 384c-52.4 0-94.9-83.8-96-188.1c0-1.3 0-2.6 0-3.9C320 86 363 0 416 0s96 86 96 192l0 320-352 0 0-128 256 0zm0-128c17.7 0 32-28.7 32-64s-14.3-64-32-64s-32 28.7-32 64s14.3 64 32 64z" />
-    </Icon>
-);
+const ToiletPaperXmark = createIcon("toilet-paper-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABkgAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCMwsIAAE2AiQDCgQgBYMtB2AbZQXIFkrLw/+vld33q6YDQJUoQFBIYIFIEahxSZbQzlnJanVPf+/437e1AB+I/LEGSAN8zvMEOp/apXlhIIFlkXSegWVuGicYByG4BhF/QoepvWFrdg6lG+TxU3ZCBelq+gan9X8A4y8tnCCpkQGI+gAYNXv6RJVVUZXim/Jr4hsTEBCjQSGQIUNrAYbKBFrLFcjlgqpULlMV5XJBAFGiSMYuhQfsxSlADpIk5XnLRq061aqok8+K31Nz+dveES9nHY2j8XufVwPe9HoxM0XtiKgTl1tFXI+jLa81vdD8iiMtrjbJfu0V8aJfrTpve5+frR2vez6fMXvE0BGdQqEu9LDoKDTZ0OgMAUEMnwp4Rodn9Z/90/6bVd+4PWLrAx7E5IgIUx8+PHr04UNTR1riCEd+OMrRVq2OHv3BJPEZHskrCleXhCMhm9mjQXlj/vUvGrD7QSDYvqxR5eJ6Q/+vXiuBPz7+9yf5HZUrk/QM1SUQZF3LXS1IIBEAgBS7dEjcQSAzVhJetbZLAoSaCJCU1BQg00p9AXI1dRGgQlv9BCipabpM5DWExhZWkNS2FWT6Owhyjb0CFYb61ChpHBkFJQJJf4Dp44XH7Sp6de9ZDC6WHSazSsibQ4prv+OuJjrholU222SHlVZYawf8NhPbO200fkeO80GFXrrrqTBY4e7f67NobLPd2rnq32aI4vm6o137+Z2wnwTo/fKuZUSKrOWOzWs3rNzRjexBtz2UtbsRel7rsfr9AgA=");
 
 export default ToiletPaperXmark;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-thinking` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-thinking?s=sharp-solid face-thinking}
  * @preview ![face-thinking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-thinking.svg)
  */
-const FaceThinking: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 256c0 141.4-114.6 256-256 256c-10.6 0-21.1-.6-31.4-1.9c4-5.7 7.3-12 9.8-18.8l21-57.7 35.8-13 52.6-19.1-22.1-60.7-10.2-40.6-2.2-8.9-8.8-2.6-136-40-15.3-4.5-9 30.7 15.4 4.5 108.6 31.9-11.2 4.1L144 355l0-3 0-56L32 296l0 56 0 28C11.6 343.3 0 301 0 256C0 114.6 114.6 0 256 0S512 114.6 512 256zM208.4 176a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm128 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM143 121.9c23.5-13.4 52.9-10.6 73.4 7l13.2 11.3 12.1 10.4 20.8-24.3-12.1-10.4-13.2-11.3C206.4 78.1 162.3 74 127.1 94.1l-7.1 4L106.2 106 122 133.8l13.9-7.9 7.1-4zM112 352l0 48.6 151.8-55.2 22.6-8.2 16.4 45.1-22.6 8.2-49.8 18.1-31.8 87.5L192.8 512 176 512l-88 0-24 0 0-24 0-136 0-24 48 0 0 24z" />
-    </Icon>
-);
+const FaceThinking = createIcon("face-thinking", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABnAAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDHwsGAAE2AiQDCAQgBYMtBzQbowUR1ZpdyT4ScjOWb/AoqFSnCSPxPPz+/v/HXHtfPZMfcAWRqAgnOtlJZ+Jmbcu6eKypZWlAe9gr/T3wT1zu/M9/+5jkjzJnw7pAlnfRnOcJBPz23rQHbQ2wTBOwzK2xPU5RkPlRJIaZxOjxXD0+raHO09UFmii3ltdxdfnQ/KivCyjaKgDpAoClu7dv9MJn+Sx5rfEjr1mPQJaCIYIKFQYIWKASDFAbglotfJZGA/+BFAHSTNIuoEYLHsYLgBoUTXW9vHv3QQPbN3Wsd6VD2x3+/pLkhQ3J6zsuI2/uPT2zsz7TMii90iu7OKZPemZnemRHOLV2EXly10fLX9781u4PNr6x9MWdh51LJje1u6zHDT1u7Hlj+8t735ydHCVBOm1A7a77+OSenj1T4fHpJXhw1L0jegTqm95JO8TujM7EjMia7KBCu3aRY2ofwx7s8uDPQ18/6nWN563uQ99rOXe1Lp/vHrfGAssc4BZjnOri0f5ylT8dP9hdThitMscp5hjgW8ttEiRIjXDutX37xE7e3OkSLunU8ZJLOkZJScifPXmWqGF19y8c2XcqU3/61FPWeMWrTn/p3UcP95F/fOTwQV9PnTr15tl26+AYXQ3a5WBdT+njEn1M0QcIwnsv3engzgv+bm1fwBdP/fpz/xlpvFCUB9GqgFBNaExwQAGFAABKzjKsQFDcrYlcawc3CYh2CCiatRNQ6a+LgFo74wU0GWSmgGbtbFdJ3SZ6OPBgiw7IwcICHxZB+LKozL+EIQL7reZ12m9jdqGBfBVlGxaVUJcNQ3dFJS+m1O2M9IYBmRKA1mZ1a9SGLin8VFYfi2IH5r6IYjNYKAnK3H62K1U6XYa1aV8mRT1flLz78TLlISI6TV0BAVLwtyLQvy8AAA==");
 
 export default FaceThinking;

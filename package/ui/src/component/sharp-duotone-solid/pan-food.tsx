@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pan-food` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pan-food?s=sharp-duotone-solid pan-food}
  * @preview ![pan-food](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/pan-food.svg)
  */
-const PanFood: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M112 256a208 208 0 1 0 416 0 208 208 0 1 0 -416 0zm43.7-24c4.7-4.7 9.4-9.4 14.1-14.1c10.7-10.7 21.3-21.3 32-32c4.7-4.7 9.4-9.4 14.1-14.1c9.4 9.4 18.9 18.9 28.3 28.3c-4.7 4.7-9.4 9.4-14.1 14.1c-10.7 10.7-21.3 21.3-32 32c-4.7 4.7-9.4 9.4-14.1 14.1L155.7 232zm21.7 80l11.3-11.3 8-8 8-8L216 273.4 238.6 296l-8 8 16 16 33.4 0c30.9 0 56 25.1 56 56s-25.1 56-56 56s-56-25.1-56-56l0-33.4-16-16-8 8L177.4 312zM248 136c0-39.8 32.2-72 72-72s72 32.2 72 72l0 8-144 0 0-8zm48.1 85.5c.1-.8 .2-1.6 .4-2.4c.3-1.6 .8-3.1 1.4-4.5c1.2-2.9 3-5.5 5.1-7.6c4.3-4.3 10.3-7 17-7c13.3 0 24 10.7 24 24s-10.7 24-24 24c-6.6 0-12.6-2.7-17-7c-2.2-2.2-3.9-4.8-5.1-7.6c-.6-1.4-1.1-2.9-1.4-4.5c-.2-.8-.3-1.6-.4-2.4s-.1-1.6-.1-2.6c0-.7 0-1.5 .1-2.3zM368 272l96-96 11 11c13.4 13.4 21 31.6 21 50.6l0 4.8c0 18.7-8.5 36.4-23.1 48.1c-10.9 8.7-24.5 13.5-38.5 13.5l-4.1 0c-19.4 0-38-7.7-51.8-21.4L368 272zm72 112a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M528 256a208 208 0 1 0 -416 0 208 208 0 1 0 416 0zM64 256a256 256 0 1 1 512 0A256 256 0 1 1 64 256zm576-72l0 144 0 24-48 0 0-24 0-144 0-24 48 0 0 24zM48 160l0 24 0 144 0 24L0 352l0-24L0 184l0-24 48 0zm182.1 54.1l-32 32L184 260.3 155.7 232l14.1-14.1 32-32L216 171.7 244.3 200l-14.1 14.1zM464 176l11 11c13.4 13.4 21 31.6 21 50.6l0 4.8c0 18.7-8.5 36.4-23.1 48.1C462 299.2 448.4 304 434.4 304l-4.1 0c-19.4 0-38-7.7-51.8-21.4L368 272l96-96zM320 200a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const PanFood = createIcon("pan-food", true, "data:font/woff2;base64,d09GMgABAAAAAAOYAAoAAAAACBAAAANLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhjSFLgsIAAE2AiQDCgQgBYMtB0wbzAbIjtRWcxRJchMP/439um9mEJNulkyqaCQ0C4lKg2SJ0MQyoVDCP1s39F3/wS19Hzjl4miSthwxVY6qy2puU2StT13LxDX1A/DvAUvw/UGecFFJmRjROIENbFYUbaXTAW0CA5ywT7O59EbA/kGo7aGkGHY1bKQn5jXgtiDFX6hWh5K6DJ8hWvHQ9dOOJtzvpV6GXluXgfhFIwiIDQCjCBn6E3AQgSWswCDOKCiKoMJYFlAhy9KAAKIauGIG1WiFGAdiCwAFJDVqChcWFhRGh7jClKjAsNzL2/w4n/5s97QVyURn61+6N9Y+TzyN5Uln6l7wmxpepZwjz7cKokct7/hNTW/KHhifS+83vnZvbH5b/tA3DUTUEzl4wnkv1/gBIzYhVqB4kimBZIojwRQl8QQQj7GH3W7aGC+R2XlE3R95NPRQjLk8iehW44rk1zhR8CBHjD3iboEcb8iCLBP32keQSDwdEfeo+4XdkUelvaFEEgkUbx5KIDoVcyTuhPouk7FCJmCfhL/VtFHaC4DgFVMNs9MU6XUy42WsbWfoJwNP/va+HvsaAT95d4EXD5+Tw3vO3s3r5OjL36OqDvo+H1RUPLikurDt5ZJptWZ7mKQglWI7CtOurKB3O4am7ywLSV24hS5YKEzfo05iy8q+HJoOPBKH4a2TGHa2TW4TxTZrVEx7jfraWFKtX09rdHUFBVVWzl83bq6uZ2TcElpuYst5mOcUxprHgtf0f38djr//pxd38MLCPGN3zvlnAHOV3owMfyfu4JwyGKQQ9LHuR2e6x+oCMQhSEFKTNqz/JL7prJkmtqnfAyAQXN/URQ8LKPzn5BnAn5t/fxQX/7/PLGdOAmolEORxKxGD03IAvZ+ECVLMhb7wUZcI2TMc8KqN7kEg1CNAUq1egGxAIAJFvTEEqgzLQqBavUOsKC6ETkMaLGl0hWWLlmBFp0tYlSXP/NU6gxVAPObP+31NXN2FqyZpacmpWr42m1PxxQTH6S3QNqtj5xo1cViKsaaZarYxRptgdgedqSk0xxTVS9Sq92rSJEulyacdLj6c7zPGTLNMMM1Ub5wC2vX2WHOXm8dBxwhpZ63IMpGIDZw+YmqSTJQniURlcE8o5QAAAAA=");
 
 export default PanFood;

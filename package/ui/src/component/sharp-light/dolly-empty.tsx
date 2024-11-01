@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dolly-empty` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dolly-empty?s=sharp-light dolly-empty}
  * @preview ![dolly-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/dolly-empty.svg)
  */
-const DollyEmpty: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M8 0L24 0l88 0c6.9 0 13 4.4 15.2 10.9L241.3 353.3c4.8-.9 9.7-1.3 14.7-1.3c34.1 0 63.2 21.3 74.7 51.4L554.5 321l15-5.5 11.1 30-15 5.5L335.9 435.6C334 478.1 299 512 256 512c-44.2 0-80-35.8-80-80c0-27.8 14.1-52.2 35.6-66.6L100.5 32 24 32 8 32 8 0zM304 432a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const DollyEmpty = createIcon("dolly-empty", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABYQAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBMQsGAAE2AiQDCAQgBYMtBzIbswTIHge5afKOdDF6k3j4f7u+3+d2PVWPUSMpkpDNmhT0JzIHmRAx+hGTedEtQ6Lip07VjPNQAN8oGLOxcGlA1vkY63y1YBXrxTupQhEqqJat6jbGw4NcX0WO4BExJH1oFm+QxVfRUwXpUoIT+VDxq+aOkWQlAFEPAOPmz57l4+/j+4gv/3+D+NIMBMR4UAiUsNNKgJFKgr1BpkAmE3wf//8v/38FAUQl9UkgI/9ITAL6BSQpy7rULlfUzuaVK/LF5bx8rvHCuFC+073m86NpNI9GMScudn048M3uj9vcGLEo8jzWXu58v+PdZpc63evyoGX7x/Ue/866L1V9VK/ehpvDds61o6rFqFHHv8vPnvnZL3O0XTtHvbXzokXTbTPNqld0eZF3+PC2nD4HAkHrP5aeXV535F/V5QR+fPfP+b3q/z9Ok9JjVEsgKPX8v6claawD/X0uUD3FPu1hE0gGFnIctZbzAoQcAZJKuQAlLdUTIJPrIUCFNgYJUCk3W0lkNUIjSxtIatkJSgY7CjKNvAYqjPSJXqlRlAKIOX7m/ZY42aKTLhX9evcthhfDSGVjgkrTEcW01HUfV7ph1zrbbbPHWmtstMfgu8yy9tpqsodN8kWFfnrrqzBcsZzeX59nrV1222i7bTJnhGK/1tU+v70b1EQJ+/MliUjl3/6Vg73uMQAAAA==");
 
 export default DollyEmpty;

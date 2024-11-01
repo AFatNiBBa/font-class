@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-mirrors` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-mirrors?s=regular car-mirrors}
  * @preview ![car-mirrors](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/car-mirrors.svg)
  */
-const CarMirrors: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M197.4 80c-17 0-32.1 10.7-37.8 26.8L135.4 176l305.1 0-24.2-69.2c-5.6-16-20.8-26.8-37.8-26.8L197.4 80zM44.8 224L40 224c-13.3 0-24-10.7-24-24s10.7-24 24-24l44.6 0 29.8-85.1C126.7 55.6 160 32 197.4 32l181.2 0c37.4 0 70.7 23.6 83.1 58.9L491.4 176l44.6 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-4.8 0c8.2 14.1 12.8 30.5 12.8 48l0 80 0 48 0 56c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-56L80 400l0 56c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-56 0-48 0-80c0-17.5 4.7-33.9 12.8-48zm83.2 0c-26.5 0-48 21.5-48 48l0 80 416 0 0-80c0-26.5-21.5-48-48-48l-320 0zm-16 64a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm320-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const CarMirrors = createIcon("car-mirrors", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABiwAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCUQsGAAE2AiQDCAQgBYMtBzIbUwXIhocHvaj3g0UyS2flWZqdeKBaqJKLCmpZ3bVjxKnnOQ8FcAHgZyxLznPxbMCxugZoz3Pepa2NZS3gtmKtoljblhwDfSyGj0UMEymJ2OM1fPy2hyx+jAfkJE8m3+P+60PjT11cJ5GnAKI1AGZtWLPMx7/FbxHfNd4lvrMEATELVAIpUnQXYKpUoLtMhUwm+C0aDfoPrAggmpAbSkCGprgLjwAykMizrDa9bbt2Zd4iW1/mxZZXOq+NFrE+nhpQrC3K4rWuTw8sY0PAeL08OHf3f7XLugCWPtGviCcJIRQLdkStCHKVK93KV9pHPNJZtIiIpzo+NqBWXekU8Xh5d4dHXW7/SHGXN2JPNxDBmII26fNW67f+7v39/u99fuKFJzvPNdodefKF9x6/P5dNVnXosGq47ms9teNE9/d0P7HjqQ5OGC3Jfd5tpbqJFNae6IVybt1K3T5fU/+JH9KVXrBS+sNP9ZmNlre53bLGaMyMXv5yIBC07nBx6Y5WU/9rVibgj4/+/b+d17rxW1JP3kIzCQjSYY1htiYzAzBQK0CcJM7rg28SSFyVw7vWPCZAKBAg0UQhQKqb1gJkCkMFyPU0ToAmCmukImsutLdN6UTNKTo13gU6097bdG6qr5wm2keakFI6Sf+D6fMtMa+uGjWiXk2uprFHzjHhHJxSLZuDznPDYKyw3wnHnbXPXocaDHXaMv+cY+ZH5Dw/VBllhLrKZNV2ttfXG1T9jBXG8v4kpqjetwY5H7cfjGkkgNGfUuA1kZR7dp0efuzQ6dMnTp8BAAAA");
 
 export default CarMirrors;

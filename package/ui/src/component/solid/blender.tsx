@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blender` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blender?s=solid blender}
  * @preview ![blender](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/blender.svg)
  */
-const Blender: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0l64 0 32 0L470.1 0c21.1 0 36.4 20.1 30.9 40.4L494.5 64 336 64c-8.8 0-16 7.2-16 16s7.2 16 16 16l149.8 0-17.5 64L336 160c-8.8 0-16 7.2-16 16s7.2 16 16 16l123.6 0-17.5 64L336 256c-8.8 0-16 7.2-16 16s7.2 16 16 16l97.5 0L416 352l-256 0-8.7-96L64 256c-35.3 0-64-28.7-64-64L0 64zM145.5 192L133.8 64 64 64l0 128 81.5 0zM144 384l288 0c26.5 0 48 21.5 48 48l0 32c0 26.5-21.5 48-48 48l-288 0c-26.5 0-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48zm144 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Blender = createIcon("blender", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgAAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCKAsGAAE2AiQDCAQgBYMtBy4bJgVRlKzFOtkLpeXhebu+zn1VX9U9dI3NaLyCQjlbB9k6JaKeOpVzOQ8F8C1kwZiNaWuCZGNw7O7zChS81KsuXcC1gm2DCljfNmx4QrPRkIaUhDSeYwXVobODPN7NrlVHeih9gTv4TuNHnVxL0pQBiJYAmLl+9VIffRffRXxee5343GIExExQCmTI0FWAKTKBrnIlcrngu6jV8D+wJICoJ8clkKMe53AZeyKSSp7nE5o6t6nUNcvXVeqK7JHBEa/0rzS7r919bTtGEfe2VeJKjLCqsa7084Ne7hxr1/VTFSEqa5pVmz3X7r5O4sG29/apxvPt7+8c8UiHB/qvvaVDxANxpV23uLntvS63u6/S6+WWL//c84t9X7hctKLVkzPW/fbILdMMr/eE75o3/+5+PVyr0Hn4ELRrG43brfdkq1bF5bsuVcqX5rlsVXxYluWIr77MStmXX40oUeaO7c1v5MbmI4dYIL5ye/7hvu0tpvzdWEngh3d+/Y9+RbWP4v/0MholEGRDakNsSdAQ/wsAQIpzeiUIJMfk+Far7hcgFAiQ1CsEyHTRUoBcYbAAdbobK0C9wmqZyJuEtrZOkFSdBJlxLoBcW6+COlN87NdrG1ny0alDf/0S5g3PXVWOHDainFRuc8rkE1kXJ5fH0oBzegNho32OO+aMvfY46EzoKUujs46a5yFzPVBppGFGKE1ShqutsC7/lNMOrrn4MpOV970BzvnjB4KaCO4oa5JEpIZdR165xFMAAAA=");
 
 export default Blender;

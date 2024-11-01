@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-robot-xmarks` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-robot-xmarks?s=light user-robot-xmarks}
  * @preview ![user-robot-xmarks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-robot-xmarks.svg)
  */
-const UserRobotXmarks: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M240 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48-64 0c-44.2 0-80 35.8-80 80l0 96c0 44.2 35.8 80 80 80l160 0c44.2 0 80-35.8 80-80l0-96c0-44.2-35.8-80-80-80l-64 0 0-48zM96 144c0-26.5 21.5-48 48-48l160 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l0-32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32-32 0 0-32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32-32 0 0-32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32c-26.5 0-48-21.5-48-48l0-96zM16 128c-8.8 0-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96c0-8.8-7.2-16-16-16zm432 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96zM96 384l256 0c35.3 0 64 28.7 64 64l0 16c0 8.8-7.2 16-16 16l-32 0 0-32c0-17.7-14.3-32-32-32l-48 0-64 0-64 0-48 0c-17.7 0-32 14.3-32 32l0 32-32 0c-8.8 0-16-7.2-16-16l0-16c0-35.3 28.7-64 64-64zm16 64l32 0 0 32-32 0 0-32zm96 0l0 32-32 0 0-32 32 0zm16 64l64 0 48 0 32 0 32 0c26.5 0 48-21.5 48-48l0-16c0-53-43-96-96-96L96 352c-53 0-96 43-96 96l0 16c0 26.5 21.5 48 48 48l32 0 32 0 48 0 64 0zm16-64l32 0 0 32-32 0 0-32zm96 0l0 32-32 0 0-32 32 0zM137.3 118.7c-5.2-5.2-13.5-5.2-18.7 0s-5.2 13.5 0 18.7L141.3 160l-22.7 22.7c-5.2 5.2-5.2 13.5 0 18.7s13.5 5.2 18.7 0L160 178.7l22.7 22.7c5.2 5.2 13.5 5.2 18.7 0s5.2-13.5 0-18.7L178.7 160l22.7-22.7c5.2-5.2 5.2-13.5 0-18.7s-13.5-5.2-18.7 0L160 141.3l-22.7-22.7zm109.3 0c-5.2 5.2-5.2 13.5 0 18.7L269.3 160l-22.7 22.7c-5.2 5.2-5.2 13.5 0 18.7s13.5 5.2 18.7 0L288 178.7l22.7 22.7c5.2 5.2 13.5 5.2 18.7 0s5.2-13.5 0-18.7L306.7 160l22.7-22.7c5.2-5.2 5.2-13.5 0-18.7s-13.5-5.2-18.7 0L288 141.3l-22.7-22.7c-5.2-5.2-13.5-5.2-18.7 0z" />
-    </Icon>
-);
+const UserRobotXmarks = createIcon("user-robot-xmarks", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAAB6QAAALMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWCEfgsGAAE2AiQDCAQgBYMtBzgbhgbIBv7h517PfUkp+UV+JU4HDKSqNhZubFFN/5NL42/vD9JkLcB6Ua5jD+rGT2kPLn0+3hRobFpDpEC1iryY98hdkK4H065h6gZcnVY1EWBOmo/A/uxL9YtMtoDBdQAAUAIAANBx+OC+NHzXd+lj+CnoI70BAagTABYBDuAAOQiANjgIyMHFAi4ugu8Kh73/QAsCAEVSoIZjLhAHygWVAboPDCHXLWwSGyqNiclO822BHxHrDvM/5o0+lnYkBXl6Un4jB52tuNnU1/Oq2/nSucpbzTxpyOl06XiZr6upRzPRiZQjxZJChZHjWtqxLA2LHU09nk7QTwwVS5EJsaHYqxU3M2EtE9dsFNR4RWxXyhHUwVsina66XVbgez5cIh/hSfL9xPX049kXMoYuOvPJ1KMl/nBO/KhjKUdSK1SuluVoepUqxHI8rVJVAiL5clX6DI1aqgtvJdz6U/Bx2kf+3Y/7/j0uoAMJU4dpAho2NeHCfEoHgv3rnU/wObhA8PmTMwEfTJtFhthiGRUClv7xsX5CJGsd9+NHuTlv/D/gQmKilwCUyyR37IgLHrQyAExPAh6DdiFsrXXZCUMs3KHDA834BKJv3doAGzJHdMJZxp9vLzjndY/t21esGMYwWhiJpjIV2PU8hsykDgAECIJ5j5aMj2/zP9o3APx89e9//3a4QQ3mFhCNAUDgVIerGaMGAE9YAJAyWkYhQy9AKpUQBUeIY4iM8CChGyLx6A7ZJNBdPKroEeTRVCa4eTAOcmMQKYw16YYQC+kOzVhLd0nhMT2CNrxJRpIi5z1R3OWKv9S03SDSdZqtrw1sK0stGpW3viwebm2FreXL/KYK8yDTmM88ljCVKcxkCcAW0TezlLl0Y4l3/a2lnloCLK2wypXR3cOYyiIWM5P5zEsnaY3dPljOMnbnCtNhKCQ2osBgQCbx29LXvO32mhWfNgAA");
 
 export default UserRobotXmarks;

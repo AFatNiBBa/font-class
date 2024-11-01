@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-eyes-xmarks` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-eyes-xmarks?s=thin face-eyes-xmarks}
  * @preview ![face-eyes-xmarks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-eyes-xmarks.svg)
  */
-const FaceEyesXmarks: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm251.8 48l8.4 0c46.3 0 83.8 37.5 83.8 83.8c0 6.7-5.5 12.2-12.2 12.2l-151.6 0c-6.7 0-12.2-5.5-12.2-12.2c0-46.3 37.5-83.8 83.8-83.8zm8.4 16l-8.4 0c-36.2 0-65.7 28.3-67.7 64l143.8 0c-2-35.7-31.5-64-67.7-64zM106.3 138.3c3.1-3.1 8.2-3.1 11.3 0L160 180.7l42.3-42.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L171.3 192l42.3 42.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L160 203.3l-42.3 42.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L148.7 192l-42.3-42.3c-3.1-3.1-3.1-8.2 0-11.3zm192 0c3.1-3.1 8.2-3.1 11.3 0L352 180.7l42.3-42.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L363.3 192l42.3 42.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L352 203.3l-42.3 42.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L340.7 192l-42.3-42.3c-3.1-3.1-3.1-8.2 0-11.3z" />
-    </Icon>
-);
+const FaceEyesXmarks = createIcon("face-eyes-xmarks", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABpAAAAKHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDAgsGAAE2AiQDCAQgBYMtBzcbiQXIngNuywznYcG5Wi/6FGXXFwwdSlfEw++Pb85972sBRDnBSQxl3bZUN6Zf187rhATjYH/v3ScY1V76cJrR1ta3xCQkJ8ClLm/+b9YYQ/vRoG1talsR9rJEpp0uPNiA00Asm3fZnzr1POehAC6MeNDGtDVBsjm0Zsd5BSrWe++kCtUKVtMKWJmr22SPHVH4RESIoER0fFLH1RnqnEArUSm7kGvYVt80r/U2TVFVAJBOAMD0FQUCLh/kQfL6f+SaOUAgMwAGQVSo0A+CSciCfigGAbVaeJD//+k30AIB0gj8T1VAjWa04iCgBkVjTVH3FfHAYDbOpZTbNrDaboeBD6YrzMbmmn+4eCs4QlxmN/U3o2OVdndmYm4WfLCbxuvV1fxbXg6vzMbpRn29lNht2MfuR3tIGHjOeLl/cZ3Fstadt4KFl7yvbbn1DIvc+ilJMcupHbIc0xzGJS8wz2Wy5kP2ruD7N/haXqH3l0x7BvnWbUUxM/ztmWmyTOAPZrfQ+9jVzMzVvzcNzUYZ9u9RMCiwZiW3WX60tqkm1wR2ld8DQDULfRp5b/HEkiVL0G6EaLIDe9TKjS7N5wEgCHfX/w9RnPQVlgTw6Oz7X/1r5P8RZS9EswJCNfz/cM0CCgEAlEwyFQhBsVMjftV2tguINggoGrURUOlLAEGtjWEQNBggCkGjNpYgS82E6KY10aKdDWhloim01s0h2mCSh7BRt6CRysYZ+09Myksod8wQ+AKGlMEsDS746LyfNiwrzmQaOQGETkMGjevQrse4QEYRyYQBeQ/O+SCDIJ8AgxTDdrM+XdZh1JgeQwbLIWmG84HDpL/shE7ClGMVikKK4BnI3lunebfLBQAAAA==");
 
 export default FaceEyesXmarks;

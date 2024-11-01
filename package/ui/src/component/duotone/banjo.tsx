@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `banjo` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/banjo?s=duotone banjo}
  * @preview ![banjo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/banjo.svg)
  */
-const Banjo: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M24 320c0-8.1 .6-16.2 1.7-24c4.1-28.5 15.3-54.6 31.7-76.6c9.6-12.9 21.1-24.3 33.9-33.9c22-16.5 48.2-27.7 76.6-31.7c7.8-1.1 15.9-1.7 24-1.7s16.2 .6 24 1.7c25.7 3.7 49.5 13.1 70 27c2.2 1.5 4.4 3.1 6.6 4.7c12.9 9.6 24.3 21.1 33.9 33.9c1.6 2.2 3.2 4.4 4.7 6.6c13.9 20.5 23.4 44.3 27 70c1.1 7.8 1.7 15.9 1.7 24s-.6 16.2-1.7 24c-4.1 28.5-15.3 54.6-31.7 76.6c-9.6 12.9-21.1 24.3-33.9 33.9c-22 16.5-48.2 27.7-76.6 31.7c-7.8 1.1-15.9 1.7-24 1.7s-16.2-.6-24-1.7c-28.5-4.1-54.6-15.3-76.6-31.7c-12.9-9.6-24.3-21.1-33.9-33.9C41 398.6 29.8 372.5 25.7 344c-1.1-7.8-1.7-15.9-1.7-24zm56 0a112 112 0 1 0 224 0A112 112 0 1 0 80 320z" />
-        <path d="M465 7c-9.4-9.4-24.6-9.4-33.9 0L383 55c-2.4 2.4-4.3 5.3-5.5 8.5l-15.4 41L286 180.7c2.2 1.5 4.4 3.1 6.6 4.7c12.9 9.6 24.3 21.1 33.9 33.9c1.6 2.2 3.2 4.4 4.7 6.6l76.1-76.1 41-15.4c3.2-1.2 6.1-3.1 8.5-5.5l48-48c9.4-9.4 9.4-24.6 0-33.9L465 7zM192 128c-13.3 0-24 10.7-24 24l0 1.7c7.8-1.1 15.9-1.7 24-1.7s16.2 .6 24 1.7l0-1.7c0-13.3-10.7-24-24-24zM360 320c0 8.1-.6 16.2-1.7 24l1.7 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-1.7 0c1.1 7.8 1.7 15.9 1.7 24zM292.6 454.6l1.2 1.2c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-1.2-1.2c-9.6 12.9-21.1 24.3-33.9 33.9zM192 488c-8.1 0-16.2-.6-24-1.7l0 1.7c0 13.3 10.7 24 24 24s24-10.7 24-24l0-1.7c-7.8 1.1-15.9 1.7-24 1.7zM57.4 420.6l-1.2 1.2c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l1.2-1.2c-12.9-9.6-24.3-21.1-33.9-33.9zM24 320c0-8.1 .6-16.2 1.7-24L24 296c-13.3 0-24 10.7-24 24s10.7 24 24 24l1.7 0c-1.1-7.8-1.7-15.9-1.7-24zM91.4 185.4l-1.2-1.2c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l1.2 1.2c9.6-12.9 21.1-24.3 33.9-33.9zm41.3 123.2c-6.2 6.2-6.2 16.4 0 22.6l48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48c-6.2-6.2-16.4-6.2-22.6 0z" />
-    </Icon>
-);
+const Banjo = createIcon("banjo", true, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAAB0QAAALxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGyDcQsIAAE2AiQDCgQgBYMtB0YbCQZRVE5qZD8SYwfLWrko8DqjfDzwr/ff73OS52SIu/IGEL/b6T7UuYNRNPcDqmLQ5rj6X9GdLGXMUh6oNkvlK1bG2M29a2urd8Ww/9C0uyEIFkGwxK7Pc67nAy7f++LzodRlaeM1YJeewAAvIinBDnSkeMvmMLmohTJC+hnS8GlykxriHfF9XAs2hB91dhNRQ0KE0Ap/AzR97crFXq6Gagzvl48T3rcIAcIMUAhIkKCbACZJBHSTKpBKBaqxLKmGsiwIQKgVfTMBtcjxGb4EpCBqENO0kucZTx7ctakmT2Oy3oPcyzxBpzUYDOZYOL9XwRaWXuHF5ZabAKs/GHCXpBJFNXQfAgMYy6So5Z+awk6miQBnVgPQmyyqaHtRM5QhcyXIzZkUJipTnpZp+wReSTqfYaglF5ikcI1ur/7vI6HnafAHHmp2A1TyLzs/j940eX1ljIeJVHWEhmJbn6qGhzzcVS69JXOzYdNu7S+n+f097/v46TwvjUz/s3Ch5uEM+aJtm+a+a6aNLH388dlW55a3jx7Jskei9ssfeCnrGo2E+pyoazbjFuT5xx/zxZBdxbJma/CWGRwVFqTbuhe7Toxt5dMh/S/eeWfpoYfyYTpezbpuuP6LwZ3ve63P7q+aRwz+tGebJWuIMMceuP7TIZ32uK/TkC+u39A1G1f5nu/vvbdSSZnvv69U9O3zQEBg4oPV17e2nPR3PY3gi2d//bO8X/lyrIsPo14EgWRQOcimiPL/FUUBonAMZ/TA6uskIHGjBvgcZG4VQNCIFlGtRiS6aoVUo4GoUTF6c61GKyVC2iBoZ3OLKHMciTEuI9XOY6gxyVvhWu1CAuEa+NT8YGac0ydmKxXDhwwrJhSLKbUWaCXbOrHY7ex3Rpb0xwvtcdQRp+y2y36neuQJi2OnHTZnjTtb3cJwQwxTmKA4nX1sXNMLn3DS/nn9+V4mKu739nNmvXp/7Iki3hE2JhJCDEm+Y/uRA0cHuxRLy57eRQAA");
 
 export default Banjo;

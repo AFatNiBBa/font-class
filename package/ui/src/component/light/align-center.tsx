@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `align-center` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/align-center?s=light align-center}
  * @preview ![align-center](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/align-center.svg)
  */
-const AlignCenter: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M112 48c-8.8 0-16 7.2-16 16s7.2 16 16 16l224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L112 48zM16 176c-8.8 0-16 7.2-16 16s7.2 16 16 16l416 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 176zM96 320c0 8.8 7.2 16 16 16l224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-224 0c-8.8 0-16 7.2-16 16zM16 432c-8.8 0-16 7.2-16 16s7.2 16 16 16l416 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 432z" />
-    </Icon>
-);
+const AlignCenter = createIcon("align-center", false, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABYQAAAHKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBKwsGAAE2AiQDCAQgBYMtBzMbrgTIHoVx41PiYo7FomflM3E4yGoVD/+tvd43OwEizVSwiEYAGYusv5BVPT5CFgKywHqN2Nw/I0OIfyRwzgyN5EhjjWYzNs9uMyWbmeXv6/xfTm88PzrAz0dwaHvTxAk0m+t5Aon14m15noVZopi1s+tDEn4xSBKSDBMyLC6Q42XEJj1PcNd9aHzV50WSCwDRCgAOXWjF+O5wJ2K7/BDbjoCAOAwYRRQoMIhggykwyDIKsizYibKU/4GCAKIavziBjGqsgoMAMkhyzo2NTY0NVU35fENV/ZVHnY+7Gvi050l3fTuhTX5jpwKxT5/hVVor38csuHp3p7l5ZwfBGl7Y78A5cbfGYPfEVf88EAg+7v/nczb+1zYksPf+53/7iPIXP6QKaiUQFBNlepQAEQNIU9zh4asIJLMs/K6NnggQ6hEgqVYvQGGAiyCrN46gyrAygmr1zjBFrhM69RNIGl0HhSVPkHV6gyobflm1zjBvD7P3zOctMcrR8JDymZwaavZE9kJQZrepYdN/qJkAJ7FwdHAzN7N2y/CLuLzbi3pY6IckLyNHGjQ9vDzeNXdxtXZ0sPs0aX3ge/SXB3AMTDqnkiQiNT4cJX1+AQ==");
 
 export default AlignCenter;

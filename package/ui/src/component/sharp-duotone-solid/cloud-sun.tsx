@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-sun` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-sun?s=sharp-duotone-solid cloud-sun}
  * @preview ![cloud-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-sun.svg)
  */
-const CloudSun: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 121.3L60.7 208 0 294.7 104 312l17.3 104 42-29.4c8.8-37.6 34.2-68.7 68-85.4c-7.5 1.9-15.3 2.9-23.4 2.9c-53 0-96-43-96-96s43-96 96-96s96 43 96 96c0 .4 0 .7 0 1.1c18.4-10.7 39.8-16.8 62.5-17.1L416 121.3 312 104 294.7 0 208 60.7 121.3 0 104 104 0 121.3zM144 208a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-        <path d="M559.9 511.9l80 0 0-80c0-39.3-28.4-72.1-65.8-78.7c1.2-5.6 1.9-11.3 1.9-17.2c0-44.2-35.8-80-80-80c-17 0-32.8 5.3-45.8 14.4C433.3 242.6 402.8 224 368 224c-53 0-96 43-96 96l0 1.3c-45.4 7.6-80 47.1-80 94.6l0 96 96 0 271.9 0z" />
-    </Icon>
-);
+const CloudSun = createIcon("cloud-sun", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhgAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCFAsIAAE2AiQDCgQgBYMtB04bNAXIhocnu6j3q3pmAfXK6hUPRARqLgQc5IvwrJk69Tzn2YDPcV2LEhpbk/Z8jHVegZ6v7ZtakQpVa2gdnLf5IEMZQjwvUKTh+Xo10v3pK9zq/Q9gfKOX60laZQDREQALt21e672jcTTFV82XiK+sQUAsAqVARkZfAebIAn0VShQKwdHUbHI0ms2SAKLOe3cGddRwEi4FFCAJqSgGj2/XptauqLwTrc9o07pNxAOjGsPujUfo7mk3DHlg2DOtXxrxXF8BMtrkrdXWLbHVe2Z2PLn6rtavjGr0f3T0C9NfHvl8v2tcE89O3xYV0LZwc8vWh8fomWjAI6MaW9cPanRsfDfwqxO/Mn7+huAx7bp1/bhHq6hO6Nh77kerd/e+utFoGYbt2JH3o8TyOdVmJ3XU8SQP+XvWE23n5ZauenVeIHi348Rlk0Y1J6ILppl3a5WP//TT8ey9DgSCX44srPZ1mPNbyzYJHH/jh6/585rvpatTAy0lEOQxzTF2p6sBUgP4USkuNChd7T0EsjmS4FPbukeA0BoBkrrWAmR9dBSg0NpoAWr6mypAXWubZVG0ErraU4OkrXNANs0VoNDVi6Bmjk/juq6R1RyvYvgrvpRlbWjptHLiuAnlrHKyrBSUEWuPzy5X6yMu5G0j4VknOsuZzneCw05xfos819r0Bc6wbA5e6otKE40zQWmWcnft/vHKCc51nlOc5Ux3ktnK870RLpzvPRLOJgEmiVZBJlLkTn8fTI8974Izx2reti49SZsCAA==");
 
 export default CloudSun;

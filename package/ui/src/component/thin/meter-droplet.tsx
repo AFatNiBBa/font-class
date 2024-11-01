@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `meter-droplet` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-droplet?s=thin meter-droplet}
  * @preview ![meter-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/meter-droplet.svg)
  */
-const MeterDroplet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 496c51.3 0 98.9-16.1 137.9-43.5c2 5.1 4.2 10 6.8 14.8C359.5 495.5 309.7 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0C366.8 0 461.2 70.4 496.8 169c-4.9 3-9.3 6.8-13.1 11.2C452 84.8 362 16 256 16C123.5 16 16 123.5 16 256s107.5 240 240 240zM176 160c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32zm-48 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32zm144 32l0-32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16zm-16-64c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32zm112 32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32zm-48 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32zm96 240c0-18.4 4.5-36.5 13.2-52.7l75.3-141.2c4.6-8.7 13.7-14.1 23.5-14.1s18.9 5.4 23.5 14.1l75.3 141.2c8.7 16.2 13.2 34.3 13.2 52.7c0 61.9-50.1 112-112 112s-112-50.1-112-112zm27.3-45.2C435.9 368.7 432 384.2 432 400c0 53 43 96 96 96s96-43 96-96c0-15.8-3.9-31.3-11.3-45.2L537.4 213.6c-1.9-3.5-5.5-5.6-9.4-5.6s-7.6 2.2-9.4 5.6L443.3 354.8z" />
-    </Icon>
-);
+const MeterDroplet = createIcon("meter-droplet", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABuwAAAK3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDWAsGAAE2AiQDCAQgBYMtBzQb3AXInge2bWrtC016diOPJh7+savvvqqaHkD1ZXTPX4gR6My9mwHsdM9mjORIrbI72NyPfPzFf9CSwyupkkIpQ/L0J655/udPD1j2BI9SvaYoXXtU2M6HA19btA2wbTgbyIv5zK0xTichyD4FEiK5ZPb4DXy82kMW/zhRDcmDSQW3lw+NH/W7hkSaAog2AKwbO7DL21/H1xGV6gtExQ4ExHqQC6RIMSTASqnAkEyOTCb4OqpV/g/MCSAK5IoJyNCI9/AlIAOJ+iyb1tTT0ovo7q7GmuasFC9oKH6xx7orB+/uub6V3oa+Z42d4ihqV7e0tLfmXD/4+bzY9kmR7+s59BP3dt/fGw1X9kbc33hz973EFV33NNzUc19EMcQLcbzSGZHEMJDcYHGF98rBsVDIctvFeNAjU59a+OL08sicBzw67elFL814ZvTKgVLc13BT18Hx5bbyz+rkUp2zyyuTF/+4j7a48s7+Plts6eu/88otDlg7+7/BCzf1ba1U9tJ6xxzz99/WW3+SdcJ6e/a0fP11S46wc1tu4IYWks05YjFy+2ie5xNqNfBDHoOdM7pknWN+Hcod4szffrvkFh8P4f9f88pf/8ezj/XVlctXXFEu1/U9Bt+kQmHSpRsIBPd91z8GK/+ua0zAt6/+ery4+nZyRVJGnQQE6czqTEcmVwDjAwgkcbHxyhcFEq+pJ+/a5D4BQgMCJAoaBEgNahMg02CGADVGLBKgoMEBqcjqhS5H3XCiyXlwarFL4UyX5+AaK33kL+iK1KlZl2R/KZM2t8Cmcfm82XPz5fkwrXJ+Suf2Ffm0eerFqWwarXSyc5ztQic50WkubKDz7Qpd5CybNXCTH8rNM9tcueVyc+5eKiFwvguc9szbh1kh/9411cV67WlkSwjhfDGJhEiaN7Y8a0/ZzzzpQgAAAA==");
 
 export default MeterDroplet;

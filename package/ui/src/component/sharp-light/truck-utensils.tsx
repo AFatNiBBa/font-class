@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-utensils` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-utensils?s=sharp-light truck-utensils}
  * @preview ![truck-utensils](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck-utensils.svg)
  */
-const TruckUtensils: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 32l0 352 37.5 0c13.2-37.3 48.7-64 90.5-64s77.4 26.7 90.5 64L384 384l0-352L32 32zM64 416l-32 0L0 416l0-32L0 32 0 0 32 0 384 0l32 0 0 32 0 64 80 0 7.4 0 4.8 5.6 96 112 3.9 4.5 0 5.9 0 160 16 0 16 0 0 32-16 0-16 0-32 0c0 53-43 96-96 96s-96-43-96-96l-128 0c0 53-43 96-96 96s-96-43-96-96zM570.9 224l-82.3-96L416 128l0 96 154.9 0zM416 256l0 88.4c17-15.2 39.4-24.4 64-24.4c41.8 0 77.4 26.7 90.5 64l5.5 0 0-128-160 0zM224 416A64 64 0 1 0 96 416a64 64 0 1 0 128 0zm256 64a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM320 112l0 16 0 96 0 32 0 48 0 16-32 0 0-16 0-48-32 0-32 0 0-32 0-64c0-41.8 26.7-77.4 64-90.5c10-3.5 20.8-5.5 32-5.5l0 32 0 16zM288 224l0-96 0-16 0-7.4c-19.1 11.1-32 31.7-32 55.4l0 64 32 0zM160 206.1l0 1.9 0 64 0 16-32 0 0-16 0-65.9c-31.6-7.6-54.4-37.2-52-71.1l4-56.1 1.1-16 31.9 2.3-1.1 16-4 56.1C106.5 158.2 123 176 144 176s37.5-17.8 36.1-38.7l-4-56.1-1.1-16 31.9-2.3 1.1 16 4 56.1c2.4 33.9-20.4 63.5-52 71.1zM160 80l0 48 0 16-32 0 0-16 0-48 0-16 32 0 0 16z" />
-    </Icon>
-);
+const TruckUtensils = createIcon("truck-utensils", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABxwAAALsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiELAsGAAE2AiQDCAQgBYMtBzUbMQbIhoeHvKr3k7SSRnqkysg1MyuhxryBp4VcfVzxJh1OIHr+r/n8nl8Dlt1KbCgRYU1tUfl8Al9g0dQ0mw03OpxNFHe27U0QtfUbocEJsvgnZmghuS15C9d4PI1vDLeHRJYCiBIAR55/9qle+TA+jHir/0niLScjII4ClUCKFKMEOEQqMEqmQiYTfBj9/eI/sCKAaBXwIAEZOvEzkQAykMizbOA+HT1dXWO75vYWLV3ZeUVLfnGSJkXcMb1v8kNTHxteRBqdF+ZFHpFGRNElRFEMjnNjcNRHRJ7fOeXRfZ6a1hyTh4guPO/c8/K5pHOEvv3PCUfk59ztyaZto+5qh6f31c59OpEZ235PSBlO3vciQYRoHmHMM8UzCm4phHPCkGwnSBTnCaue9vCI20eOj6ExMQZFFTcOvqm4YugtQ8bFkJgcg2Ns3Dbs1gkhrP28iCKMa5bN78a+teQttXsajcYkd6xf9+OP69b37dXQqG2vqiMqDZVqR+UIZ7Qd6/K15ml1r7KslPX2ZnPHjmazfYcy9PfLZ14eZp2o4Y7baxcEjpvPOG5+ix3uffme9OOffvo4TSX6D6/PqtVm1W33rMUvKBsqdaVKqa6qKkfoaRv67Ge9lbK2ttFolNq8P+gI1fbeJEmOWMc+yuZPPujYP+InPXJQ846yvKPZ0yvr+OCTzdvq9fq5KvIwCAR7L1h84eU9h/zWXiTg4+d++Andr/+VZEfSRLsEBOmM/hkuSXaA4AYQS2KLcTNfFEh8LRe8a6ebBQg5AiRa5QKkRioFyOSmC9BijH0FaJU7WyqyDmGQS2sq0Wk9ldrPViozyONUi0O8Gm01KFLwVwGv6uMz/XFt6FhQNWdWvTqomqwq1RCtsNMHV6vtU7bIrql4oyXWWmOTxRZZblOL3ODUxGarHTcHH+uHKnPMUlc5SLW7cX/1eRbbYKPl1lrjznKw6nzvFFvmB0/FrkQgda6CREIk3e+3Z+bm/0ocqzYCAAA=");
 
 export default TruckUtensils;

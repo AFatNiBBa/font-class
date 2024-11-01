@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ship` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ship?s=sharp-solid ship}
  * @preview ![ship](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/ship.svg)
  */
-const Ship: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M192 0L384 0l0 64 64 0 32 0 0 32 0 144 96 32L441.4 395.3c-5.5 3.6-10.9 6.6-16.7 9.3C411.6 410.7 397 415 384 415s-27.6-4.3-40.7-10.3c-12-5.5-21.7-12.5-35.5-22.5c0 0 0 0 0 0s0 0 0 0L288 368l-18.6 13.4-1.1 .8s0 0 0 0c-13.9 10-23.6 17-35.5 22.5C219.6 410.7 205 415 192 415s-27.6-4.3-40.7-10.3c-5.9-2.7-11.2-5.7-16.7-9.3L0 272l96-32L96 96l0-32 32 0 64 0 0-64zM160 218.7L288 176l128 42.7 0-90.7-256 0 0 90.7zM272.4 493.1c-19.8 9-48.5 18.9-80.4 18.9s-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7C60.6 502.1 31.9 512 0 512l0-64c19.3 0 38.6-6.1 54-13.1c14.9-6.8 26.9-15.4 40-24.7c.7-.5 1.4-1 2.1-1.5c.7 .5 1.4 1 2.1 1.5c13.1 9.3 25.1 17.9 40 24.7c15.4 7 34.7 13.1 54 13.1s38.6-6.1 54-13.1c14.9-6.8 26.9-15.4 40-24.7c.7-.5 1.4-1 2.1-1.5c.7 .5 1.4 1 2.1 1.5c13.1 9.3 25.1 18 40 24.7c15.4 7 34.7 13.1 54 13.1s38.6-6.1 54-13.1c14.9-6.8 26.9-15.4 40-24.7c.7-.5 1.4-1 2.1-1.5c.7 .5 1.4 1 2.1 1.5c13.1 9.3 25.1 18 40 24.7c15.4 7 34.7 13.1 54 13.1l0 64c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9s-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7z" />
-    </Icon>
-);
+const Ship = createIcon("ship", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABlwAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDAQsGAAE2AiQDCAQgBYMtBysbfAXIhof/t+v7fW5VP9UbugZyv5HxYYSgIiEGU0Z/Tdjzfzm94Xd0gN+O7NDGGg0cW6M5nycQ4GmejwVUFlimCVjqdBtBe/jUK8go0nVSPM7i8XiEPH7KblAhPZq+wd380PhLNzeQNGYAoi0AWjauXe7T3+P3iK9rbxFfW4qAaAGlQIYMPQWYIRPoKVcilwt+j1pt/w8sCSDq6AslkKOCx/AKIAdJluezi5VFpVW+oag0bS2aClEUQqyPdfFAxycHPD3ooUHXxlYfFAOi41Cf9CudN8TGQKkoYt1GSOvR3hw2Pznvs4n5QEcWI54ZjIyH4+Hi9k63e2pgY23x2uLhEOzBQrk2VK6xvkiyzO73fNvn/+n7zYFvfPLJp3rVqmpZusfOPm66zPmzi8aMWXRhFMBMIwCMuuCbZ8+v0IvhPcqTVK32+fHqYU+xFVtPtvsvpf+u37v3+v9S1Q+XL+6FCBG9Fl/+gy0RCDq1MTJIYVjVPomsZXk6EAiWLP/u0Z1tZvzfUCTw5/v//cOfkdqnqSU9jwYJBNmI2gjbUpVaLbUIAECKi/RLVQSSR2X0XZs9JEBoQoCkTpMAmR7aCpBrMlyAit4mClCnyVqZyBuFjrYPkDQ7DTKTXAlyHb0BKmb4vFKnY2SFypYZ+5+YtMCi8/eVY0eNKaeV066Lqz362J5ePraGXCRTQ/tBB5x0wjn77XPYOUOcsbx+3nELIny+LyqNNcoYpWnK9OC7tAGVM8467LN5yC7Tle/nhrgoXjy0u4lSjtORJCLlnwIAAA==");
 
 export default Ship;

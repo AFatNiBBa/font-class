@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `merge` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/merge?s=sharp-light merge}
  * @preview ![merge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/merge.svg)
  */
-const Merge: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 64l16 0 80 0 64 0 8.1 0 4.8 6.6L296.1 240l153.2 0-52.7-52.7L385.4 176 408 153.4l11.3 11.3L494.6 240l1.4 0 0 1.4 3.3 3.3L510.6 256l-11.3 11.3-3.3 3.3 0 1.4-1.4 0-75.3 75.3L408 358.6 385.4 336l11.3-11.3L449.4 272l-153.2 0L172.9 441.4l-4.8 6.6-8.1 0-64 0-80 0L0 448l0-32 16 0 80 0 55.9 0L268.2 256 151.9 96 96 96 16 96 0 96 0 64z" />
-    </Icon>
-);
+const Merge = createIcon("merge", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABWwAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBSgsGAAE2AiQDCAQgBYMtBywbxgTIHgVuywMvmcuJFprB5oTzbQjxPP/7fdvn3jt235gi2hiSJrxBHK2E6iGLNUsQWYQIoU4Jf1HJ5OcH+6s36/jrtlnAGUxKkA8uZUM7RChdu5ZYLMxTN887bwO+UShj49JAFshTc50nEKZRlwcUp1lgCQWegLU7Wys7RMsjrVFGcnw7Xo8dWv4QUso3UfAp3zT/KN1A0SqALAOAB8e5LD4nNElOxmcgJ9IgkIeACwgVFWcQuE0sOEPiAmiaMMk4hn8gQ4BM45MLaKh4BPYANFCktQfD1EI7GqZ6HfqwkcMM2ctmdiMaZAlfzzrec+BfyVb2Be49GYbjHMHRl34J99+qnbhYFm5jjn468PrQ8SD9GCQu+/BBg6SHH3R88DosLsUofjCE18vvyiuCTxiAIJT3upvq0u3/iqGAv79//+s3lLHcA2YVEOrVkVKBZEQAgJJX1AWC4gERvuq8zwhER0AxrQuoThMQaLpdBKac40NgWrdPLG1OrCsLKOY9BdUtp6BZ9wim3PblTFtP9SbRF8S3XFpMI9EpdtmdHOZpoEkOwsdhhLd144YKJthEx9TESltL30rRC1l/bSxmoVEPYi52TiyMj+PH9aK2haW+qUkaE8H3baONXW8CS4QZr5ktCilTf2ACAAAA");
 
 export default Merge;

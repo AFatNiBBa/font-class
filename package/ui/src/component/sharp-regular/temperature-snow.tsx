@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-snow` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-snow?s=sharp-regular temperature-snow}
  * @preview ![temperature-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/temperature-snow.svg)
  */
-const TemperatureSnow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M357.3 307.7L368 294.5l0-17L368 48l128 0 0 229.5 0 17 10.7 13.2C520 324.2 528 345.1 528 368c0 53-43 96-96 96s-96-43-96-96c0-22.9 8-43.8 21.3-60.3zM544 0L496 0 368 0 320 0l0 48 0 229.5c-20 24.7-32 56.2-32 90.5c0 79.5 64.5 144 144 144s144-64.5 144-144c0-34.3-12-65.8-32-90.5L544 48l0-48zM432 416c26.5 0 48-21.5 48-48c0-20.9-13.4-38.7-32-45.3l0-50.8 0-16-32 0 0 16 0 50.8c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48zM288 96.9l-22.6-6.1-4.1 15.5-12.9 48.2L200 182.4l0-55.8 35.3-35.3L246.6 80 224 57.4 212.7 68.7 200 81.4 200 56l0-24-48 0 0 24 0 25.4L139.3 68.7 128 57.4 105.4 80l11.3 11.3L152 126.6l0 55.8-48.3-27.9L90.7 106.3 86.6 90.8 55.7 99.1l4.1 15.5 4.6 17.3-15-8.7-20.8-12-24 41.6 20.8 12 15 8.7-17.3 4.6L7.7 182.3 16 213.2 31.4 209l48.2-12.9L128 224 79.7 251.9 31.4 239 16 234.8 7.7 265.7l15.5 4.1 17.3 4.6-15 8.7-20.8 12 24 41.6 20.8-12 15-8.7-4.6 17.3-4.1 15.5 30.9 8.3 4.1-15.5 12.9-48.2L152 265.6l0 55.8-35.3 35.3L105.4 368 128 390.6l11.3-11.3L152 366.6l0 25.4 0 24 48 0 0-24 0-25.4 12.7 12.7L224 390.6 246.6 368l-11.3-11.3L200 321.4l0-55.8 48.3 27.9 10.9 40.7c4.8-24.7 14.8-47.6 28.8-67.4l0-19.1-15.7 4.2L224 224l48.3-27.9 15.7 4.2 0-68.7-.5 .3 .5-1.8 0-33.2z" />
-    </Icon>
-);
+const TemperatureSnow = createIcon("temperature-snow", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABvwAAALlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiEMwsGAAE2AiQDCAQgBYMtBzcbOgbIHoXpdpbN2X/8JGXSTMiI/zi0fT+tjlfgcB8PB8OhEFTzgB945sYP7OB5sMveHwSzG88EnMgTSNXBFcwSwibdydW5qGAyGNwJDaQjDzjpwvP2/aX85savA34+gkMqbc+aBqQ0LKVRKALBYILxDhSgWDAWUA5TWGJtjhvUQYLbnogj7HkeaZjE2DtBU27LanSoLcpN8LYXzWsiLEOhqwBIYADgeO7VxaWvPBC58f84coMOCJA6wIqABmiAGQFsqAiY0bChiYbAN///199AGwGIF/xHCtAEbfCPaACagELTtOiMOOLS/bS+Lt0YGmaGiYi4BEEsR2K2px0uPJHhid2VOchwGQjSY++pOt90peZi4t4cEel/KExkU9TOFBERQxBkf/QWa0PywJTkFFNspURqhMlgMgUQ2g+lsVRByiUIJSHCSlNkSWYdZJaHaZEypZqHYjiLTCFbqgEyy8MkqoBUAukihiFyCWEVZKZOqyZSJsauTBFTuQoWwf6EDvS8jb854ibD7j38akE8s8gzQXqUlo/Hs2iRx+OjlE6B4zxweOZpI7pWXr68cla0+vQZzm2Xcwd+GoFbQCBboAK3p+qtO86q6uHDh1dzyS8lEp0xQrcbIoRzhItwQ7cRzkhU4pdLqj1Xw/FChdkqPKfx2AKPufntN7cgxKUOdBhqw2t57oXq3w6Zdgrh86wHftYIRTwgIHD9W/HzElB5Pi4F8Pt5/97u1/9fUmoVD+iiAAKNrM8yuGrRoWoFIFMygwTnjQQUX2nwWYdsJIBggAAKLwwE0CBKIAE0McgkgBaxigigjUEvKqL5IpiGXEzBzWSmUmw+0zAdZTqVrqS9MKPuAHv92j+goVm5pm12Xo5jl9uPLaezqM2+WmGHw7QZbSQdRxlhogmmGW6Y0aaJOkVXbrrxmj2+yQfZ8uRw2MrZ6e539JX0FFONHnv5TSrY81NpZvjT05EoUHdtZ6FAlMDNEWR/XgAA");
 
 export default TemperatureSnow;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-swimming` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-swimming?s=light person-swimming}
  * @preview ![person-swimming](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-swimming.svg)
  */
-const PersonSwimming: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M104 128a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm0 112a72 72 0 1 0 0-144 72 72 0 1 0 0 144zm29.8 122.8c-9.7-6.6-18-14-25.9-21.9c-6.6-6.5-17.2-6.5-23.8 0c-7.9 7.9-16.1 15.2-25.9 21.9c-12.8 8.7-28.1 16.6-44 19.8C6.4 384.1 0 390.4 0 398.2c0 9.8 8 17.9 17.7 16.2c23.1-4 43.6-15 58.5-25.2c7.9-5.4 14.6-10.8 19.8-15.3c5.1 4.5 11.9 9.9 19.8 15.3C134.4 401.9 161.7 416 192 416s57.5-14.1 76.2-26.8c7.9-5.4 14.6-10.8 19.8-15.3c5.1 4.5 11.9 9.9 19.8 15.3C326.4 401.9 353.7 416 384 416s57.5-14.1 76.2-26.8c7.9-5.4 14.6-10.8 19.8-15.3c5.1 4.5 11.9 9.9 19.8 15.3c15 10.2 35.4 21.2 58.5 25.2c9.7 1.7 17.7-6.4 17.7-16.2c0-7.9-6.4-14.1-14.1-15.7c-16-3.1-31.3-11.1-44.1-19.8c-9.8-6.7-18-14-26-21.9c-6.6-6.5-17.2-6.5-23.7 0c-7.9 7.9-16.1 15.2-25.9 21.9C425.6 374 404.9 384 384 384s-41.7-9.9-58.2-21.2c-9.8-6.7-18-14-26-21.9c-6.6-6.5-17.2-6.5-23.7 0c-7.9 7.9-16.1 15.2-25.9 21.9C233.6 374 212.9 384 192 384s-41.7-9.9-58.2-21.2zM258.4 185L412.3 315.5c10.7-3.5 21.4-8.8 30.9-15.4l.2-.2-163-138.3C309.5 140.5 345.3 128 384 128l80 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-80 0c-114.9 0-208 93.1-208 208l0 14.8c5.5 1.1 10.9 1.7 16 1.7c5.4 0 10.7-.5 16-1.6l0-14.9c0-46.8 18.3-89.4 48.1-121l2.3 2z" />
-    </Icon>
-);
+const PersonSwimming = createIcon("person-swimming", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABngAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCVwsGAAE2AiQDCAQgBYMtBzYbXQXIjpMlJgYuCXrIrr5eT88eoD5/ExHETIpEZ2K80y5Lc+8iL8B0LF3jx0L+vz/1POehAD4LWVDGxqUbl2d3ThwTMMDt9k9asFrBKlYtuNZcG8cHg1NmMDxjyH4cwxAXmk0ErF6rDD6YLeYOsOp8Kn0ljflgsB4AAIoFAAAadu/clgsf9EG6E3xAd2gNCECNAHAI8HA8EwFQBw95BCwOsFgEHxQMHv+BDgQACqA/ogHAAgFgObAFALAAGKy1UVHN8yP8KNstwg/vvSvNppqClO4yfDE4Xn4rt6rdZUbZWRVvTFaJIjEUiESb8pXWKTJJFsaIZcU5xZxaVWaQRiqiD0pBKjUd0rVbV8Sguul88wgNOowhPenwoAuqKFzQnjdOytsf277n3hl2h+H1Bxxat+7QgJs8YXajypUbzf7ILPry9MmTBz6XXXApIvZX8YDj06Ydf1m9REpKieov7ciA4l+xEZcWlP0P0Adrf/9eKx47uGXu9RX8l7B9CRe2duBDdPSHDnTX/v3qHsOECaETY1DzB3EAIEDwPbzVg/4xdf6HRhgAPp36+V/ypoHZD4Syigu8MsEy9In4pBIBaGA0jTy8kADDfCwwI9lYjUQ4GBgChINHBrFgCac0+GRTlSUvd8ZDNgyRSF+AIZKJ4FGNGWBJ5DD41OG6HyBRXk/yHcV/EqY081jTKlexXAVXyy3rptBm7D5f29FqiWlbX0k8ZBjjGccUhjKEkUxxxCTaRlMZS7MMb8obcVSkHBVw1MKVWz+VbsOfxGRGxlJ9k9q4980STMtHl4RhUMpK5AwGZGJaeLHs5Om/xNDGDQcA");
 
 export default PersonSwimming;

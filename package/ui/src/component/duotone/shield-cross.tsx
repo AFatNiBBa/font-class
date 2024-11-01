@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-cross` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-cross?s=duotone shield-cross}
  * @preview ![shield-cross](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/shield-cross.svg)
  */
-const ShieldCross: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M16 139.7c0-26.1 16.4-47.6 38.3-56.9L224 10.8c0 39.1 0 78.1 0 117.2c0 .1 0 .3 0 .7c0 .1 0 .5 0 .9c0 .5-.1 1.1-.1 1.6c-.1 1.1-.3 2.2-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2s-6.3 5.2-10.2 6.9c-1.9 .8-3.9 1.4-6 1.9c-1 .2-2.1 .4-3.2 .5s-2.2 .2-3.3 .2c-58.5 0-116.9 0-175.4 0c-.4-7-.6-13.7-.6-20.3zM24.7 224c55.7 0 111.5 0 167.3 0c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.4c0 .4 .1 .8 .1 1c0 .1 0 .3 0 .4c0 .5 0 .8 0 .9c0 .2 0 .5 0 .7c0 81.5 0 162.9 0 244.4C97.4 437.2 43.7 319.9 24.7 224zM288 10.8c56.6 24 113.1 48 169.7 72C479.6 92.1 496 113.6 496 140c0 6.4-.2 13-.6 20c-58.5 0-117 0-175.4 0c-17.7 0-32-14.3-32-32c0-39.1 0-78.1 0-117.2zM288 256c0-17.7 14.3-32 32-32c55.8 0 111.5 0 167.3 0c-19 95.9-72.7 213.2-199.3 276.4c0-81.5 0-163 0-244.4z" />
-        <path d="M288 10.8L269.4 2.9C265.2 1 260.7 0 256 0s-9.2 1-13.4 2.9L224 10.8 224 128c0 17.7-14.3 32-32 32L16.6 160c1.1 19.4 3.6 41.1 8.1 64L192 224c17.7 0 32 14.3 32 32l0 244.4c1.9 .9 3.7 1.8 5.6 2.7c16.7 8 36.1 8 52.8 0c1.9-.9 3.8-1.8 5.6-2.7L288 256c0-17.7 14.3-32 32-32l167.3 0c4.5-22.9 7.1-44.6 8.1-64L320 160c-17.7 0-32-14.3-32-32l0-117.2z" />
-    </Icon>
-);
+const ShieldCross = createIcon("shield-cross", true, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABrgAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDQAsIAAE2AiQDCgQgBYMtB1Qb5gUR1ZpVyX4m8GYxJ4X2DaNiFQOJgeRIief5n6u67ydNqYYMIauZBSKhZnX1AqECouMJdJ+1RLY6lP39X7qmHhlxsw3UxY/tpWVpQHtYSgk0/9fUi7KjA/xGh/Ivc5UYicPM5xMY4OFC5wNOHNBMZ2BbNof4PZniIe2E9ivU+a66QR/l0fIF7m7/BzC/mOUGiqEKQFoAHDrnjJN8PpGJki96b5MvnIhADoOFggoV5grYqxLMVVuIWi1MlN6EifQGAdKv/dwK9GMAn+ArQA2KqOt627oVs6Z0+kbqszt9zTXLly1/qLlt6tJId+oDTZNH53Vy+7QHyYPTbp/2zIqHZyTjMx7udPL0nCa3TX8ouWB8RvLwjHPS1TWecaJ3BTIVewBp8Ns6H8pZt3cSnL592oMYIVliUTx0hPnp7MoVH+xKpGgR604NQ6aLVpZMQef2gfnhTJFGL36xffG3RV80X1jw9or+8ukDA6evcNzoLbeMvmb48ufmiH9p0z7++MJFs7ivP+fy4dfwHR43tmXqq7z6/5k3b/48BCGKOsu2HjltUq2krF27ds1QM3jGqtWsXj16y9ZlqRUBAmFff+SijetOXHfC8NH+H+4F3fU/U5uhNWuxmK8yb/68ef9NPrK8evWq1TbQDtpCe9HrdiAId353t5eM7f1vsFPAzx/2z/hDanuf5M/yIgYVEKq1vbUuLLTa/CkAgJJrLS5M0goqXbX+XYc9JCAaBBT9GgGVOVoBtcYaAX3m2yagX+MMldRDYqqLVlAM4zug+V7A4H2AlfprHD4VJMtwKP9HZuR7PDsESzcR47FnVoBTrHYTOAfiI2ckfJJorBaXWqV37bhD0bzN8jc280Vg0ZkghuDhZ6OktcOpv9fC90kgfUH0vC+XcJzS8252uUIjUlJNPbu+niqtMDpaoZgXLrTvHwA=");
 
 export default ShieldCross;

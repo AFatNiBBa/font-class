@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-xmark?s=duotone trash-xmark}
  * @preview ![trash-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/trash-xmark.svg)
  */
-const TrashXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 96l384 0L394.6 466.8c-1.5 25.4-22.5 45.2-47.9 45.2l-245.4 0c-25.4 0-46.5-19.8-47.9-45.2L32 96zM143 207c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7l47-47 47 47c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
-        <path d="M135.2 17.7C140.6 6.8 151.7 0 163.8 0L284.2 0c12.1 0 23.2 6.8 28.6 17.7L320 32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64S14.3 32 32 32l96 0 7.2-14.3zM143 207c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const TrashXmark = createIcon("trash-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABlgAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCPAsIAAE2AiQDCgQgBYMtB1IbYAVRVMsVZD8SsrOJq8SiGKjo3uUIHuz+3zm7+wDvl1RRitTCVVLFndjGrbqkvQn8Pp/uhh8T1/SvpAcsAKxelDVGgWWeT2DnqRvuRmuRCc10Bra3KQoZUUnfiJAg2WTHM/Q4d4EsXktvKCJ5Ifkaj/H/AMZf2twgUZYCiFoAzFq9fJlPf4/fk/i68B7xtaUIiNkgF0iRolOAqVKBTpkcmUzwe1Io8HsUCjkBRDEmUkExnnMZdwEZSOhQlm3yXnX9KoqqslXlbeXrXxpQEa+0NUVF3G96xpXGp8sr417zs3G15bmKimhZ+Vq/aTEjkuSF1qkxLSQv958eU0PyYseMmB6N66sqq9bE8xagvKF93crn26apMuaeqbjf0uWlXrmX2qcHyE3yat+pMT2u6P1m7Zv/9Pp619d+58rIM0ZeOWiL6jt3qil8ZR7a4mDJh1VV/wKx77/HaCtz2nxlHG48pv7rnxv+1/Dz1/WcOnToVNhVXr6LVWr7/HUgEAyf+dPCzTVT/yut0CTgz/cbfkgK4tPkTZRKQJAOLQy1IUB8KgAASZzSOyAXSM2SGJ9a6VkBQjkCJIqVC5DqUCtAptwQAYp0GydAsXLLpSIrExptXHyi0lE+Nd5FPtM2epcvMtVnxWKNkfqh7kX6X2DOfAnOW5ePGj4yn5wfm6bhWmpdnpLfjg48lYcGwVG7HHbICTvtsNcJwR2zrHLSQfM1dp4vyo0y3Ei5yXJz591ZJSTHHLdX+JB9lSny99MDndInD4LNJIDRX/BUSiSRNpw4tvX4nmFnYjYYFtEjTbsVvAA=");
 
 export default TrashXmark;

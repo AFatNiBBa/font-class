@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trademark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trademark?s=duotone trademark}
  * @preview ![trademark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/trademark.svg)
  */
-const Trademark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M288 128l0 256c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 86.4 115.2c6 8.1 15.5 12.8 25.6 12.8s19.6-4.7 25.6-12.8L576 224l0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-256c0-13.8-8.8-26-21.9-30.4c-3.3-1.1-6.7-1.6-10.1-1.6c-9.9 0-19.4 4.6-25.6 12.8L464 266.7 345.6 108.8C339.4 100.6 329.9 96 320 96c-3.4 0-6.8 .5-10.1 1.6C296.8 102 288 114.2 288 128z" />
-        <path d="M32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l64 0 0 224c0 17.7 14.3 32 32 32s32-14.3 32-32l0-224 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 96z" />
-    </Icon>
-);
+const Trademark = createIcon("trademark", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABfAAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBeAsIAAE2AiQDCgQgBYMtB04bGAXIjsM4hvwSS/nHw/NzvZ37khRmypASkQImR0Dq2y6rukWhS3aB9S9W5v+53PN7fnSAH+RED2Ws2cS29bI5uRf2PIyzbOIBBRTmCSXGja076SGtMxQ9IU+9sjMK0sP0C67bbxy/ausMSf0MQDQBwJSlCxd49zE+pvil9gviF/MREFNBKZAhQwcBxssEOsiVyOWCj6m2lo/B/vxKAog6uC/PQB3kWINtgBwkIfK8+9Bq0TBfUi0qKy+1iLjjRMu71WoIhLvc+n5EVOPUyVb3KpWtKUut9uKwppeOPJvFo573KpdaLIolga9606ZrTZOa37vcUue1jS5woREjWXmyjxANCx9NLtre6TwJ2fnC4gOeNGnyJDZedLRQzJpSkOjwUz7Z9xvFlFkFEAi+fT/B2sbj/69XTeDzd3/+m2RIJ1IN6kkgyPrX9rcqnVA7BLeS4oiuUI+9edBQCcrUwD0BQgUBkjoqCsi01wRyFf2g0MmIJ+qoWCgTeX2hhdUKSBrYD5mRjkKuhbdQGO/7Sh0tIrvK2GuE/cdLmllFZhwrhwwcXI4te7sy7sKh9fa4crLV+wif6gMv2mKvPQ7ZbJPtDlWwAxbUD9tt5hA6wxeVhhhosNJY5eLBTWkJrhxw0PZuYfk+45Tb53o7Mry4D3QTl3CoDzIZkSJr+kBNG3C7TjVvCDcmAA==");
 
 export default Trademark;

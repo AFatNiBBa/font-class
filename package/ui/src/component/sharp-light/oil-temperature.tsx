@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `oil-temperature` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-temperature?s=sharp-light oil-temperature}
  * @preview ![oil-temperature](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/oil-temperature.svg)
  */
-const OilTemperature: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272 0l16 0 80 0 16 0 0 32-16 0-64 0 0 64 64 0 16 0 0 32-16 0-64 0 0 97.6c36.5 7.4 64 39.7 64 78.4c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-38.7 27.5-71 64-78.4L272 112l0-96 0-16zm16 352a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM133.8 314.8c13.5 9.2 29.7 17.5 46.6 20.2c3.4 11.9 8.8 23 15.7 32.9c-1.3 .1-2.7 .1-4 .1c-30.3 0-57.6-14.1-76.2-26.8c-7.9-5.4-14.6-10.8-19.8-15.3c-5.1 4.5-11.8 9.8-19.8 15.3C57.6 353.9 30.3 368 0 368l0-32c20.9 0 41.6-9.9 58.2-21.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.7 23.2 24.3 37.8 34.2zM384 368c-1.3 0-2.7 0-4-.1c6.9-9.9 12.2-21 15.7-32.9c16.8-2.8 33.1-11.1 46.5-20.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.8 23.1 24.2 37.8 34.2C534.4 326.1 555.1 336 576 336l0 32c-30.3 0-57.6-14.1-76.2-26.8c-7.9-5.4-14.7-10.8-19.8-15.3c-5.1 4.5-11.8 9.9-19.8 15.3C441.5 353.9 414.3 368 384 368zM192 480c20.9 0 41.6-9.9 58.2-21.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.8 23.1 24.2 37.8 34.2C342.3 470.1 363.1 480 384 480s41.6-9.9 58.2-21.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.8 23.1 24.2 37.8 34.2C534.4 470.1 555.1 480 576 480l0 32c-30.3 0-57.6-14.1-76.2-26.8c-7.9-5.4-14.7-10.8-19.8-15.3c-5.1 4.5-11.8 9.9-19.8 15.3C441.5 497.9 414.3 512 384 512s-57.6-14.1-76.2-26.8c-7.9-5.4-14.7-10.8-19.8-15.3c-5.1 4.5-11.8 9.9-19.8 15.3C249.5 497.9 222.3 512 192 512s-57.6-14.1-76.2-26.8c-7.9-5.4-14.6-10.8-19.8-15.3c-5.1 4.5-11.8 9.8-19.8 15.3C57.6 497.9 30.3 512 0 512l0-32c20.9 0 41.6-9.9 58.2-21.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.7 23.2 24.3 37.8 34.2C150.3 470.1 171.1 480 192 480z" />
-    </Icon>
-);
+const OilTemperature = createIcon("oil-temperature", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABtAAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDIQsGAAE2AiQDCAQgBYMtBzYbpwXIhuB5u++rc7tH/Qb95f4WFsw2m2hBhnLmIAEZvf+55vPTogP8fASHkrW2gRTIKNsbbCKNmcKRNlGcuik1WEFQ+skmMmgoY8fZ49sM8vgwxmkg3ZHew3XzSuNHfXSS5BmAKAGweOfW9d74LD6LeK/+LPGetQiIJaASyJChvwDzZAL95SrkcsFnUa/rf2BFANHITp1AjiY8jZcBOUga8nxkW79+i2sNbfmO3rM4WStqoihEDeMfGf1En7tHPT7tuTFPDrxr7FMjw06y+7F+d/W9c8TDvW/vc8fwHY8Mv6PHlcWVIx7teWvPm7vfPOzhIuKxsTXyieHbryxu6/fYyJuRGuEb2yhTuJXAS2r7IqKTDnmyfPLnwe+deE/H62V5YaVctMiiErse8Wz3vC12HC/L4zuiLe/+7MUOKTsO3v/N889/c79e5I5hGzo335tSr1Ez33/+8suff3/mqF6V32/ckNKG/6eldO/mzg3ouPH3Ckdfv8Bx4+9IyJKCrxI9HggEH145/eaDHfP+bq4l8MVLv/6O9dXfSIvSk2iWQJCNq4+zLy0CpQYQTHG5IeSLAslTGthOrW4VIBQIkDQqbMj0U0KuMBYaDDSdC/beKhN5i9DdfoGk1UWQmeEKyHX3NDSY581Ao+6RJa6QdsJ/Y+qKE1nerZo8YVI1p3KjLjEXOVo9two7R13eskbLSCdc4HyXOu6Y0y49yIutD1/mPCsYsdwPVSabYJLKHNXrxM/BOxx3sUucdoHzRz1zVd/7R7mcFx4tnsRop3g6SUTquOD0ufFZDQAAAA==");
 
 export default OilTemperature;

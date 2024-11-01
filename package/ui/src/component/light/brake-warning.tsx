@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brake-warning` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brake-warning?s=light brake-warning}
  * @preview ![brake-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/brake-warning.svg)
  */
-const BrakeWarning: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 64a192 192 0 1 1 0 384 192 192 0 1 1 0-384zm0 416a224 224 0 1 0 0-448 224 224 0 1 0 0 448zm16-336c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128zM320 376a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM77.5 100.6c4.8-7.4 2.6-17.3-4.8-22.1s-17.3-2.6-22.1 4.8C18.5 133.2 0 192.4 0 256s18.5 122.8 50.5 172.7c4.8 7.4 14.7 9.6 22.1 4.8s9.6-14.7 4.8-22.1C48.7 366.6 32 313.3 32 256s16.7-110.6 45.5-155.4zm512-17.3c-4.8-7.4-14.7-9.6-22.1-4.8s-9.6 14.7-4.8 22.1C591.3 145.4 608 198.7 608 256s-16.7 110.6-45.5 155.4c-4.8 7.4-2.6 17.3 4.8 22.1s17.3 2.6 22.1-4.8C621.4 378.8 640 319.6 640 256s-18.6-122.8-50.5-172.7z" />
-    </Icon>
-);
+const BrakeWarning = createIcon("brake-warning", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjQAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCNgsGAAE2AiQDCAQgBYMtBzQbOgXIjtFLz3CGECZNOOGFE/Hw/Rq/c9++LyZdxKppSQ5kNhSGJJYCQ0tfIpm8PjTu681CnLXZoPS3EoxgY/LdJRpyafzjTw94/ASPMjZ2LZAxdW+BxhtvfMwFWvCKYqfmPTVA1xXqlpDjd0xiJf1I5+CzGxH/SKolyQUERDvobu8myAfbz+Q54rxawCzPCwTEPoBxBAX8jGEEbGIWGMZiHGRZ8BxVBf8DKQQQtcBXTyCjHh/AJ0AGSW1mkR7i4RTs4GblZQlVX8CVVmdByMrUBMrJcfNlLsb6qu4kqZqZslrjZjo6IHG2MEeq5mc9T1333Y/1p1HOzXicuEQ1itWLgHzpaRInwUPSrar9Ei0qkU1ijSIXwZchDeJNYleh12FJjSL1om22z2YsZDELp1McFRh9UzhPPYfdR+MV+PO73cgosS6vGHeSWLfubW1g6u3CyuriUUd7GybBCP4TvudnvlIW1vZ6JioawE79EooePmQYeCFe/JwX42AkW8sJoUInnf4L/jwcxixyZY8cbPjErBcAgaD39sE+jn/zf30TE+D178cvu7vqOZVpFPUSCIrJalJ0KgHRA/CkKIXiQgcDya376Wr29agvNNIgqdWIwhABZI0mUGOUyehajS4wi8yJ0C2mQdLsEYVlZci6zaHGpiN3re5g/gbFL0j8A0xz7RIu7aiBrj61pLNJlfRZ8brZim7WqZfyIg3YE6ny5CqWIlmG4g5VyMdXIofrEunihygDuvRRlujhzEMtFHsKFcmYlo63wgq93qWudLmyBjQyCYzzRiSJSLyJhQlZKTofPgAA");
 
 export default BrakeWarning;

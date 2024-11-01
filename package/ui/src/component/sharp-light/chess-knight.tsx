@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-knight` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-knight?s=sharp-light chess-knight}
  * @preview ![chess-knight](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chess-knight.svg)
  */
-const ChessKnight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M80 0L64 0l0 16 0 32 0 9.9 8.8 4.4L85 68.4 68.7 84.7 64 89.4 64 96l-.4 159.6 0 8.3 6.7 4.8L98.9 289 71.4 306.5 64 311.2l0 8.8 0 32 32 0 0-23.2L264.6 221.5l13.5-8.6-17.2-27-13.5 8.6L128 270.5 95.6 247.4 96 102.6l27.3-27.3L139 59.6l-19.9-9.9L96 38.1 96 32l134.6 0C315.3 32 384 100.7 384 185.4c0 8.8-.8 17.6-2.3 26.3L357.3 352l32.5 0 23.5-134.9c1.8-10.5 2.7-21.1 2.7-31.8C416 83 333 0 230.6 0L80 0zM48 470.5L81.8 416l284.4 0L400 470.5l0 9.5L48 480l0-9.5zM64 384L16 461.3 16 480l0 32 32 0 352 0 32 0 0-32 0-18.7L384 384 64 384zm84-216a20 20 0 1 0 0-40 20 20 0 1 0 0 40z" />
-    </Icon>
-);
+const ChessKnight = createIcon("chess-knight", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABgQAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCTQsGAAE2AiQDCAQgBYMtBzMbUAXIjpQuZyTx8I9dffdV1ajxyfo2I3kdEYjW4ZxNxWy7QuLn/5p68fwa8BsdSjSWnt4tEmeZzycw0M0yafMKG84mitudbYeJ0hyStMSSHJ8dnyVkcUf0VUVyW/IlbkwfGj9p7QKJLAUQjQAwacWSed6tj/qILysvEV+ag4CYDHKBFCnaCTBWKtBOJkcmE9RHpeL+A3MCiGp84ARkqMYF3ALIQCLLsmXlxnXFqnK2PHQsrCkUC0KI5t5tFc1CML2iZ2IxIlZEy+hN+tLCIdxH7571mMd/O+6tZWeaLW1Tr4hb4rvFXy0vrJwycUo5JoUoRaxYiuIFqLxLxPIorXik7e3dH2x1W7fOjzd6/Bdfbv/SgncahVuWKzjvJb+bosa9ai31gedsUSeXa+nR3T5V8IPjc/znJk/43yh7VLtsYjz+eExs0K7VtTppccmARjFv6JR5cUvH71pw93ZaqLNRXcPlA+ZmvKncdybXVA+buOT7xojaJxA88ZtfNjQc+09tMQE/vv7berxGlXfj2eRx1EpAkPat9LU23tVIo3hWAACSOK6z8kWBxAkZfNeSmwUIBQRIVCsIkGqrkQCZgj4CVOlgmADVCpZIRVYnNLOug0TJIZAa7iTINPMCqDLWJ4FqzSI1R8mYpN9g+nSJTmuXD+o/MB+dL5OabGFCbB6Tbxs9j1NRL+hpuwP2O2qbrXY5KpjD5oWP2We6hk3zQ7lB+hsoN1p+nHnUl4vAYUfsmqvnrYyR33d6Oq5X7gV2glkHG5RIiKS0Zee2I0f67Xm0AAA=");
 
 export default ChessKnight;

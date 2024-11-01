@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `t-rex` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/t-rex?s=sharp-thin t-rex}
  * @preview ![t-rex](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/t-rex.svg)
  */
-const TRex: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 80c0-44.2 35.8-80 80-80l72 0 3.3 0 2.3 2.3L547.3 40 568 40c39.8 0 72 32.2 72 72l0 72 0 8-8 0-24 0-4.7 0-29.7 29.7-2.3 2.3-3.3 0-92.9 0-51.5 47.7L468 297.1l4 2.3 0 4.6 0 32 0 8-16 0 0-8 0-27.4-44.7-25.5-.8 .8c-1.7-5.5-3.9-10.8-6.3-15.9l62.4-57.8 2.3-2.1 3.1 0 92.7 0 16-16L544 192l-3.3 0-2.3-2.3L508.7 160 480 160l-8 0 0-16 8 0 32 0 3.3 0 2.3 2.3L547.3 176l49.4 0 3.3 0 8 0 16 0 0-64c0-30.9-25.1-56-56-56l-24 0-3.3 0-2.3-2.3L500.7 16 432 16c-35.3 0-64 28.7-64 64l0 8 0 3.7-2.8 2.4-56 48L307 144l-3 0-40 0c-66.3 0-120 53.7-120 120l0 24 0 8-8 0-48 0-4.9 0-2.2-4.4L36 201.9l-4.8 9.6c-10 20-15.2 42-15.2 64.3C16 348.8 75.2 408 148.2 408l59.8 0 0-48 0-8 16 0 0 8 0 52.9L299.5 496 400 496l0-16c0-17.7-14.3-32-32-32l-8 0-6 0-1.7-5.8-16-56-.9-3 1.4-2.8L368 318.2c-1-38.9-32.8-70.2-72-70.2l-8 0 0-16 8 0c48.6 0 88 39.4 88 88l0 1.9-.8 1.7-30.6 61.2L366 432l2 0c26.5 0 48 21.5 48 48l0 24 0 8-8 0-112 0-3.5 0-2.4-2.6L212.5 424l-64.3 0C66.3 424 0 357.7 0 275.8c0-24.8 5.8-49.3 16.9-71.5l8-15.9 2.2-4.4 4.9 0 8 0 4.9 0 2.2 4.4L92.9 280l35.1 0 0-16c0-75.1 60.9-136 136-136l37 0 51-43.7 0-4.3zM496 64a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const TRex = createIcon("t-rex", false, "data:font/woff2;base64,d09GMgABAAAAAANoAAoAAAAABvQAAAMdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyEMwsGAAE2AiQDCAQgBYMtBywbLwbILgdsNwUNqIUyYUcuRrJfdMyE5sjTvxhC8A/ZVe9X16h6lu6d3TOZSRnEEFIQnbNzJBAUY23vMbFk3sQkQbVE/BCJVCqhQcg6XVPiU4DsXyf3pYeoA1cgYa5xGLG7AT9ICUJEcZxjHG6yDczb3fmNkcj87o/7qf/31rTzerYAn2KWRmIkRsT5BAYeqZFUIMPxbKI4dTpKxX1S6CFDyujCqD126Dc8HnfA6reEwOywV7DumK4P8qzE4HmIIqDUeGGb/e1VN/7iL+JxyuixbkAAagNAQICn9ykkAJrzEFDIEgCLRfA6UlP+A5shAFAYYRmsVlv/PorVojc11n7MyQsl2YF+hpu0r086Nb6fpQVfR+pEHkLOVZbJue4alwUh5CRJTaGt6hdVfD+Hc9mqck4KI1XSfWmntlb0kJZTdTiP5yKUqXuW8M5UAlRsHNhkbMfj9NUODMnwhdAAmdAybXV4ekK2HPXs7JMVHQ6drRNFWa7aimZlxBY9Zefq3kwTy2rlTGbNyvmYQ3u9E6OXYtCWis2ZW7O35SROpp78tH+ZUVexBxOKF9Ja6iDL60EldyZKtOgo5Y2o5YJ+IQJRUkUp8JCoNPpOGm/Efx1ppT1VlJ1atKxm161rLfLl/xp+aQf7S9JcFEupJdJ4lVdamsktSrTBUP1QF59a0b/D9ZTat9/WQLct46VKXnuF2eGsvkO6T5La1vvsG1q729ITiOeeMdT+ektLu+u8hO472njzYGNFLSFDKCmjGsfKpIpNGHjfQTV2nf8VFr5WaQDouKbPU/7cp142DQBvX77Os/9P0p6AKAYAgVf90/BEEmBXDACIGC0kAb5IgOErSCzOVpHpdXCBIYwDjwKpYHFUgxDFGqgG5/fjIRtDZBpBYIgzBzwaWgSWTKchRHP3w2Eyw/sCNOtX8wOacc7is5Oa+2vWDpoG3ZKqXdQqONosGHZ2LywtVWitiWaZab4JxptivhHM1SO2wAwdEb+DHwrUUVNtgaaCcPXWOJDDc80zxdfHx2kmyPdWthB3rUL6F1ReNxXAYLZ0E5pf4/biDgA=");
 
 export default TRex;

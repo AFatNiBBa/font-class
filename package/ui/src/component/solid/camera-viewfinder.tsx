@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-viewfinder` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-viewfinder?s=solid camera-viewfinder}
  * @preview ![camera-viewfinder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/camera-viewfinder.svg)
  */
-const CameraViewfinder: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M56 0l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L56 48c-4.4 0-8 3.6-8 8l0 80c0 13.3-10.7 24-24 24s-24-10.7-24-24L0 56C0 25.1 25.1 0 56 0zM376 0l80 0c30.9 0 56 25.1 56 56l0 80c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-80c0-4.4-3.6-8-8-8l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zM48 376l0 80c0 4.4 3.6 8 8 8l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-30.9 0-56-25.1-56-56l0-80c0-13.3 10.7-24 24-24s24 10.7 24 24zm464 0l0 80c0 30.9-25.1 56-56 56l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l80 0c4.4 0 8-3.6 8-8l0-80c0-13.3 10.7-24 24-24s24 10.7 24 24zM180 128l6.2-16.4c3.5-9.4 12.5-15.6 22.5-15.6l94.7 0c10 0 19 6.2 22.5 15.6L332 128l36 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-224 0c-26.5 0-48-21.5-48-48l0-160c0-26.5 21.5-48 48-48l36 0zM320 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const CameraViewfinder = createIcon("camera-viewfinder", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABnwAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCbwsGAAE2AiQDCAQgBYMtBzgbdwXIhofn9f77tU/yAGck5834Q6ygDmQpd3AptHI1d/6v+fys6QC/0SFV0C2qOSJ5AhNobxrv+WxgbTAB2+K2K2J+D2mEAjvI4/XsWlWke9JHuCm70/hJn2tJ6jIA0QqANQf27PDO9/F9xIeVF4kPbUNArAGFQIYMgwIslwkMyhXI5YLvo1Lx/gMLAohqBZycnaMW9+IRQA6S6jzvRZkTmhqqmvL90ab6IxvqG57ou3t8fdzeKWj2k/0R9/XcNanpzNV1R9/ec2d3fZAF9006SbijqyHEbU923ykqTVrlNQl3d94+XiDQEHf1nHlO6OnsmWnRZFdXNIQxRoRR491coWHfg1Ofnfz04ANTnpn23MjYZ1uf/WXMR6d8ZNHbZVmOdnWNlo6rLnWNjnaVan47fN7qs9B5h3+r2fuqjyuJaJsuPRQWY6Vr+bMzRmpKSZdl23/HFt895/djOOZY483++uPsYdnHX8/+fs4ff90V2Y9//PFj1l4OBIL33/x8+NiW5f/UNiTw42u//e//jFTeSdKzqJVAkE2vTHdUAokAAKS4xNgEgeRW1eitNrpTgFCPAEm1egEyA1oFyNWbJkCVYQsEqFZvj0zkdUKnoylIGp0PMgtdBnKdngdVlns3Vq0zMvjkoIv7PUzeuIY2zCvmzJxdLC0uy0Ye5Jh4fFkhrE2+xG+bgrc6xbnOcZGTneR0F63IC+xIXuxsG++IDR6oMMdMsxWWKpRr7+X91HKBC33mXFSfZZnCvHOyS+57T8GGpKCcKy9JRGp7xZQZUKye8nVLuQAA");
 
 export default CameraViewfinder;

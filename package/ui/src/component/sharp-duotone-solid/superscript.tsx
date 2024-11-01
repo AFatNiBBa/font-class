@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `superscript` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/superscript?s=sharp-duotone-solid superscript}
  * @preview ![superscript](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/superscript.svg)
  */
-const Superscript: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64l32 0 32 0 16.7 0 9.6 13.6L176 200.2 261.8 77.6 271.3 64 288 64l32 0 32 0 0 64-32 0-15.3 0L215.1 256l89.6 128 15.3 0 32 0 0 64-32 0-32 0-16.7 0-9.6-13.6L176 311.8 90.2 434.4 80.7 448 64 448l-32 0L0 448l0-64 32 0 15.3 0 89.6-128L47.3 128 32 128 0 128 0 64z" />
-        <path d="M416 0L384 0l0 64 32 0 0 96-32 0 0 64 32 0 64 0 32 0 0-64-32 0 0-128 0-32L448 0 416 0z" />
-    </Icon>
-);
+const Superscript = createIcon("superscript", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABbgAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBYwsIAAE2AiQDCgQgBYMtB1IbBwXIjsPGMR1p0hLGYwTfL799nzvzXsEMOVxCjiqGaClcUvi1oMguK4TaQib55a8t5veJa+rH+dMDNgBmnadGai/jfAI7H8iwSAt8QBOfiG13tlYoaJ+WpJHkuNjxyR3K+Fk80iC9SPAkvXH80dcjkvYFgOgCgCVbN672qTVaU/xoe038sAoBsRRkgQIFBggwXyEwQCmjVApaU1sbrWH+/DIBRBN69AI0UWID9gJKkIQoy75T6kbHckvdqI5WdSXqEFWIuo6oIiKiKuqq7hmbY2v0jroWVbUpNjO1V2yJTdGDHlHXW2PLpUNburT8G+IILz/mnBfL9slQ2ReBe0wo57z+sc3XXfBY18Vi0Hn7XaB0nl5zivw1EAj+nzBp+N7O8/9rVyfw683f+VeUpBa0k0BQjG8bb1cCiQAApLhiaBL3EChMkdCjdvBUgFAhQNJUCVDor4sApco4ARoGmSFAU2WjQpTthR52Fyzp4DxWmOk2VurhFdYw3+ewqUcUqsUpBveyS15ZwyuO5SkTJ+e5udtjXlsYvz8vT9ujr9i5MXDWEWedcclhhxx3qUIvWJ1cdtrKEbLCB2VTTDRZNldeHt3KWzC84KLjsrh+yDx5vzPalfHqMXCaBJh6KJWCSFF0V2D+644+4ZYu9GzFCwkAAAA=");
 
 export default Superscript;

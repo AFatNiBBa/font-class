@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-chevron-left` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-chevron-left?s=sharp-regular square-chevron-left}
  * @preview ![square-chevron-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-chevron-left.svg)
  */
-const SquareChevronLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 432l352 0 0-352L48 80l0 352zM0 480l0-48L0 80 0 32l48 0 352 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480zM135 239L239 135l17-17L289.9 152l-17 17-87 87 87 87 17 17L256 393.9l-17-17L135 273l-17-17 17-17z" />
-    </Icon>
-);
+const SquareChevronLeft = createIcon("square-chevron-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABXQAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBMQsGAAE2AiQDCAQgBYMtBzobuwTIjsO44TuyxVKeRTz8/5p5359JFoCmqwqMighcfatYuLV1VXElY3JqCXSSuRZy4mbnnUcBLvLQxsJlXSALZIxxnkCgUZcHHk8LLNMXsDdvOaM9EvtNMqNJeryqHq82yONNpER6leCpvjS+GvCEpJQBiHYArNm7c4dKNaoRn2sTn21DQKwBhUCGDMMCLJcJDMsVyOWCatRq6T+wIIAok6MnkKOEZdgAyEGS5XlDx0BTqSXf01RqXNTS3JJFc6TlIbKIaGoRKUTjib279k6LFTE5dsXumBLLY2rsoflp4xPtE98nOUPtGDCOOVabbTtmttnPZlOl/tdZWOjAnj1MNcLvAhAIHv5sfXm0bfn/+qYEvrz7+ZP+imrVqKQJ1EsgyKbXpjsUFYiKAACkuGM8Kggk82Tkqc2eCxAaESApaxQgM6RdgFyjaQKUjFogQFmjnTKRNwjdDhOcNLsOZxZ6DOe6vYVLlnuvlXVHdoGo7af+b/EbLbBhqpgzc3axtOgGKn0niDxcVgwLk+9wYQpWnXHVFbecdsp5twx0ww7ztss2RuAGHyrMMdNshaWK6Xi/vMdpN9x03lVXyphlivXqZHfi+imQE8Gdy5EkInUdQtuMk+dO37lx9cr7AgAA");
 
 export default SquareChevronLeft;

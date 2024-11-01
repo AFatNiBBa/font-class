@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list?s=sharp-solid list}
  * @preview ![list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/list.svg)
  */
-const List: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 48L16 48l0 96 96 0 0-96zm80 16l-32 0 0 64 32 0 288 0 32 0 0-64-32 0L192 64zm0 160l-32 0 0 64 32 0 288 0 32 0 0-64-32 0-288 0zm0 160l-32 0 0 64 32 0 288 0 32 0 0-64-32 0-288 0zM16 208l0 96 96 0 0-96-96 0zm96 160l-96 0 0 96 96 0 0-96z" />
-    </Icon>
-);
+const List = createIcon("list", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABXQAAAHOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBRQsGAAE2AiQDCAQgBYMtBysbwATInoONmxhiQCSRsOiu78f1ltt/uXj4fr927v1vRdHmHZIm0WoSCZmUaBbqhkioGuoOETL5+z1j8x/mlXaPJO5JRGbW1iidEGfRm9dlewhEs9S+wxs5Nd54qYCPvEjnWr9dfSClf7Fgu6L1+UCms4HNdAI23SYeuaMo3xAJEomOL4+vB5R4rnYa5Gv+gcf+ofFHb0fqVACISQBwcFev4WNM44jfWuJdBQTEAYBlhAoV5hHYJhSYJ7IMiiIYR13zfyBDANGEvDZBQRvH4ARAAalZRHKlUimXK8VqUUspVvQVSgWiR9Qcp9VEigmcGUhEIwWOiAyjRv5b/eH0cSJYTEzOtCwmgSgblvaqf98F9ft9ex4gEPweFv/H2uh/WykA/LyFf0a6+kSO0JYgqFZrDBImIQkAQMYNDMkkQtomIe/a9yRA6CJAauoKUJmjQ6DoWkGgYZEPgaauK0JR5Aizhgqnvge4suUWLmY9wQ3bPt2m2ahSiU4E+ieXkLdA7h677E4O8zYymewg6zTCYcl4g4qJDrFy6sSVpYWtKwNdqAXXjuU9MOeLmIudEwvj4/RVaBnMhUtb+onzPRF83zC68dtNpAoI7ppQSiJFTxE=");
 
 export default List;

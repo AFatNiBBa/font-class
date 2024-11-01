@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-sunglasses` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sunglasses?s=sharp-solid face-sunglasses}
  * @preview ![face-sunglasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-sunglasses.svg)
  */
-const FaceSunglasses: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512c141.4 0 256-114.6 256-256c0-31.8-5.8-62.2-16.4-90.3l.4-1.3 0-4.5 0-32 0-32-32 0-8.1 0C408.9 37.5 336.8 0 256 0S103.1 37.5 56.1 96L48 96 16 96l0 32 0 32 0 4.5 .4 1.3C5.8 193.8 0 224.2 0 256C0 397.4 114.6 512 256 512zM208 272L80 272 48 160l0-32 192 0 0 16 32 0 0-16 192 0 0 32L432 272l-128 0-27.4-96-41.1 0L208 272zm-78.3 71.2l28.6-14.3c8.7 17.5 41.3 55.2 97.7 55.2s88.9-37.7 97.7-55.2l28.6 14.3C369.7 368.3 327.6 416 256 416s-113.7-47.7-126.3-72.8z" />
-    </Icon>
-);
+const FaceSunglasses = createIcon("face-sunglasses", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABeAAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCFwsGAAE2AiQDCAQgBYMtBzYbHQXIhoc3W9n71T2rdY8Zyox8SCmSckN4wJSuLgKKMJqJm3HXeRTgJA5tLFwayAKJ5jxPIMCsC5do+98e7E1fwN7a6RY/fPSbPj1FkmHzw2a0QhmvFveokZ5Mn+H+/KHxmx7uIWlVAIj2AJi/deNqb7VES8SnjeeJT61EQMwHWaBAgd4CzFII9FbKKJWClmg04n9gJoBoIhsnUKKGU7gJUIKkKMvxfbrWa23KLfVatfnHtRFfLox4d+udfSP0VNUbKz5Z8t6yj2apKnjKM76f//bqzzdvqerVloioBwKCKDZFFVtOvGnT0EFDHx1+efKLI692GxxPDLu06IMRV3oOuNL+yh/9Pzvymcbcpe7kwR50t3Tc/0kpy3LzzOHT3npr2vCZzTnLasL/4yzt3uPBO5ca+9cdMt7vrOwt7WXtvSVreu/Qc6/heu1dveR1HHLmwl0PPnjXhTOvu+e/n9ev//m/e4BA8NWf93bd227W3831BH565a8/lF9R460kXUGzBIJiVGOUXQkkAgCQ4joDEgSSQwp419YeEyBUCJA0qQQo9NJegFJlpAA1fU0WoEllo0KUrYTOdlckae08UpjiVqTU2bNIzSwf6k06R+FzjMcwT77EJRZc3JXHjxmXZ+ShQ1k3org5My9Lw66jxHCMOuKsM65x2CHHXWPgC1Zb1zptyQxa7Iuy8cYYJ5shb/v3w1scdsFFx511JrWZKZ/Xhrlunj8caiKkE9iSRKR2N7pj9MVrzxw99dcCAAAA");
 
 export default FaceSunglasses;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `h4` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/h4?s=thin h4}
  * @preview ![h4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/h4.svg)
  */
-const H4: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M433.5 64.1c-4.3-.8-8.5 2-9.4 6.3l-40 208c-.5 2.3 .2 4.8 1.7 6.6s3.8 2.9 6.2 2.9l232 0 0 152c0 4.4 3.6 8 8 8s8-3.6 8-8l0-368c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 200-222.3 0L439.9 73.5c.8-4.3-2-8.5-6.3-9.4zM16 72c0-4.4-3.6-8-8-8s-8 3.6-8 8L0 248 0 440c0 4.4 3.6 8 8 8s8-3.6 8-8l0-184 288 0 0 184c0 4.4 3.6 8 8 8s8-3.6 8-8l0-192 0-176c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 168L16 240 16 72z" />
-    </Icon>
-);
+const H4 = createIcon("h4", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABZAAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBTQsGAAE2AiQDCAQgBYMtBykbxgTIjsR0G488IkOWPIiH/7cDu+/PBPDEZgf1QpkuJxWoomPF3a2EZFZdmP9r6sXzowP8duGexVFY4LmK5xPY81GUR4luNpyNJsjbnS01h7ZWcgiRkRyXdnyOkMfflilBOp3gIL9pfFfHAZIsAxCVATB45tTx7n+MjxGv/79CvDYWATEEFAIZMtQXoJ9MoL5cgVwu+Bj//4//gQUBREnybAnkyDEWUwA5SFKeN2pWrkSFfEa5EmVXnqg+LY7VOF6uEMdrnKyVxYmax6qLsjEzTtZcVHHjIKIC67HyePmIJucqn/upsRVc2L2pZst3siZV8y9OKbloUclNadlz7zV/otTiM6Xq+Lz7KL2ucN05952H8KxCJID4ye3NT/9fWKnfr6VL4PPNX/6CG9OeNEpLIMja/d/OvLQHkB5AmmKHJsoHBZKhEnnV8k4IEMoiQFJSWQEy9VQWIFdWWwFKaKi7ACWVNVUm8jJCdfMLSMrbDDI97AS56i6BEvp5lpRUPTJz4oyB+80lj2jR4fOKzh06FX2KaSHzFsKE6b7Ftt1qh+9qDQetsNEG2yy3zGrbGnyL8fl2643QsOG+qNBZB50U+iiO6/vdMyy3xVarbbSBZumruO+1skMf3BoWkwBdHgJKSaS0qhs=");
 
 export default H4;

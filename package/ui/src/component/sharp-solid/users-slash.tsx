@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-slash?s=sharp-solid users-slash}
  * @preview ![users-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/users-slash.svg)
  */
-const UsersSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M202.6 134.5C215.9 120.2 224 101.1 224 80c0-44.2-35.8-80-80-80C115.8 0 90.9 14.6 76.7 36.8l-28.3-22L29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7L441.5 320 640 320 592 192l-148 0c2.6 10.2 4 21 4 32c0 30.1-10.4 57.7-27.7 79.5L395 283.9c13.1-16.4 21-37.2 21-59.9c0-53-43-96-96-96c-31.3 0-59.1 15-76.6 38.2l-40.8-31.7zM48 192L0 320l235.3 0c-20.6-18.2-35.3-42.8-40.8-70.8L121.9 192 48 192zM176 352L128 512l384 0-5-16.5L324.9 352 176 352zM512 160A80 80 0 1 0 512 0a80 80 0 1 0 0 160z" />
-    </Icon>
-);
+const UsersSlash = createIcon("users-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdAAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBegsGAAE2AiQDCAQgBYMtBzIb/ATIhofv7fg693UP4B6bGcxUWjsJfm0qRPzjfp7/8095/vgTfLQojEWeR2v3+QQGHlnCw9lEcbbNOoiEKhGaKiJ6keeHzWH9LeTxd3ZIKdL19B3O8ofGD+o5RFIuAxBVATB09vSJPiqJkohv/39NfGs8AmIoKAQyZGgowACZQEO5ArlcUBL//5/+AwsCiNLkyQnkKI352AjIQZLneZcKFSpVKFUpn5VXKT//YYM77R70etWhXbSKDtEytkal87LOigpwlY/Lbt21h00MwZ916DdjxuwZrD5oTMrMSVWK2vGe5W92ftrpSa9XHR51fNyz2YOqD35q+t2q73zTp1eVmLWy6vNln+ukGwe8W897ccIXOu91yaBqle4f1CeVffBgX7zcc6NP57210w9+ODGmj3F773YOU/eZ7PVZlyd/+NGu2bN3fcSPA4Hg5NE/Ny2uMuCvshUS+P6dX36i0/3/UdqXHqCsBIKsw/8dLEj7APQAPCl2aaZ8USCZLidTK7oiQCiPBUlp5SHTQFXIldceSmmsJ2ucMl0m8nJCTQsBkoq2QqaX3ZCr6SWUMsCX7tJqRuZlvI/w/3gpo3ZkZLuia6cuRb/iMWkIjsOW5v6FWW2zi4raYqRVNttkh5VWWGvHhm0z0bfTRqM0dKQfKnTVSReFforXmc/Bs6y0zXZrbbaptdJf8b2zjV165bYwJMLYTUSSiFTBacM6bt+wdPsaAAA=");
 
 export default UsersSlash;

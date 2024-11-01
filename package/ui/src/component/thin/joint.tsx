@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `joint` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/joint?s=thin joint}
  * @preview ![joint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/joint.svg)
  */
-const Joint: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 35c0 48.8 19.4 95.6 53.9 130.1l21 21C520.4 207.6 528 225.9 528 245l0 35c0 4.4 3.6 8 8 8s8-3.6 8-8l0-35c0-23.3-9.3-45.7-25.8-62.2l-21-21C465.7 130.3 448 87.5 448 43l0-35zM624 280c0 4.4 3.6 8 8 8s8-3.6 8-8l0-35c0-48.8-19.4-95.6-53.9-130.1l-21-21C551.6 80.4 544 62.1 544 43l0-35c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 35c0 23.3 9.3 45.7 25.8 62.2l21 21C606.3 157.7 624 200.5 624 245l0 35zM266 368l140 0 3.6 4.8L502 496l-140 0-3.6-4.8L266 368zm160 0l166 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-70 0-3.6-4.8L426 368zM342 496l-83.4 0c-63.1 0-125.6-12-184.2-35.5L20.8 439.1c-2.9-1.2-4.8-4-4.8-7.1s1.9-5.9 4.8-7.1l53.6-21.4c54.7-21.9 112.9-33.8 171.7-35.3l3.5 4.6L342 496zM592 352l-333.4 0c-65.1 0-129.7 12.4-190.2 36.6L14.9 410.1C5.9 413.6 0 422.3 0 432s5.9 18.4 14.9 21.9l53.6 21.4c60.5 24.2 125 36.6 190.2 36.6L592 512c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48z" />
-    </Icon>
-);
+const Joint = createIcon("joint", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkAAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCZwsGAAE2AiQDCAQgBYMtBywbYwXIjpQuJ6Tx8P95fb/PTarW60KTaZofsIfy1EwHA5r/OdfzpY0G+HkEh1aZ2v38BA40mlMgEnB2onjmdHFdCi83tRSNwZYgDmMcJg+Qx992KJGuSG/jvLY4vtbOySRZhkxEU75y6urlCz3/RXwR8fb/jxBvm4+AmAYKgQwZOgowQSbQUa5ALhd8Ef//X/4DCwKIMnxdAjkacB5uBuQgKed5x471Fi06Vkv1fFW1VNnt0tYXtxTvLu0bdxCXtLqsTcS1/frFi6tirSDfW+a/MyJM5DV9d7+w0pZqpdoqVkYlWseqalpwVqtLiONbXly5qldU9MwzV82LS+OENvPj/dW2a62u1WtnrpgTF7e8pNXceLdaj9vaXNYh4srWl/bqdmfTO7/t+vautz33WFu2lLszf+YMMzp3d2Z5dsYMP5rR/b4mK/PO1Wcze+uPdLauvv5WZDn9dFMk2SxtXn7ccu7bsqbbTFNLpakzLCvWpDvzn+ctxEO3r+8xw7tNmry7wroe2xca8sk72RTZO58MAQLBd19++tvmJhN+bagm8NWT3/9lXPD/8+n4dCcaJBBkA/4fYEPwQGEGEElxqG5gFYHkNGW8Ss2lAoQKAiRlFQEyHTQVIFfRH6Cks5EHlFUsl4m8kdDSRgckNQdAZpRjINfSQ1AywWvRspaR+Sbfs/i/hklmSWTmtGLooCHFuGJZNgXuxs3j4wuzps+hsa0vdtplP/s62E477OFgQR9oYeIQ+5i1o2b6ocJQgwxRGKd4XFtvXmWnAx1kD/vZt04yXvG+o49D9737Qp+Q4zA5SSJS6RMFAA==");
 
 export default Joint;

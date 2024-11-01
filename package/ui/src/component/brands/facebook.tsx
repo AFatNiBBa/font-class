@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `facebook` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/facebook?s=brands facebook}
  * @preview ![facebook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/facebook.svg)
  */
-const Facebook: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
-    </Icon>
-);
+const Facebook = createIcon("facebook", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABXwAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBSgsGAAE2AiQDCAQgBYMtBy8byQTIjsQ4JvIHnV1EUL9WX9brno39zB2rPhM7IIUkLLAjOpw7heAI9XRISe2+qZvnnUcBvlFoY+HSQMayaI/zBBLr8sALtwWWaQKWucsUe4juJ2mtLMnjt/J4mSGPx3FOiXQ9lXG2PTR+1cpxklIGIBoCYNSCOdO8+CF+iChXIsqmICBGg0IgQ4a2AgyVCbSVK5DLBT9EpZL/gQUBRBWsn0CODGOxAJCDJPJ8aJ1SvXx+nVLtNZ+Njng1PeLj+Z9MLY98MffTeckaUTsi6vDUZ/NOermZuFL7RNNLaNvcqB3i8wVxg1Fzo+GN3ymvL6s8N6Elrc5zZIIJjpxv1dKEWNJ3dL/Rc5vf1M90/dRw+EDUi7/PT3CuaYdvPmrf1lz1pxnnnpX1ho8Ly8QaQCA4fH3FzysaDP2/uk4CPz36c/0rqrxK0g1USyDIula6WppAIgAAKfarSRBIhkpw17quCBBqI0BSpbYAmTYaCpCrrYsAJe31E6BKbXNkIq8lNLVsgqSuXSDT3wGQa+ohKBnqXblK08i8ifAF4i8XO15C44aKXt17FoOLpWeQDoKV7pBim+u4nzOdaNJ6O2y31zprbbJXILtN0/bZZrwFj/OiQi/d9VQYrDgO1+PzrbPbHpvssL32GaK4L3W03y7vRGIC1N4cSSJS9asGAA==");
 
 export default Facebook;

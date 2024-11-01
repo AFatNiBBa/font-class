@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tape` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tape?s=solid tape}
  * @preview ![tape](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tape.svg)
  */
-const Tape: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M380.8 416c41.5-40.7 67.2-97.3 67.2-160C448 132.3 347.7 32 224 32S0 132.3 0 256S100.3 480 224 480l320 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-163.2 0zM224 160a96 96 0 1 1 0 192 96 96 0 1 1 0-192zm64 96a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const Tape = createIcon("tape", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcAAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBXwsGAAE2AiQDCAQgBYMtBysb2gTIHidZo2JH4uF7u/5/7dM9tx6AfpIiWJEVyR9ARMecuumH43luOFIl1PBHYGOomLRC8EdOjTdeqn8uQZHOxacFeSDnnHgFKna8ezSh2XA2UB3bdJvs0SMsn44QCZKIjlM6nk7I44fspBLpZvoKV+qbxq9aOklSMwMQDQAwYeHcOd4rRzniy8obxJdmISAmgEIgQ4Y2AoyWCbSRK5DLBeWoVOg/sCCAqKI/LIEcJczDEkAOkizPO7euW7tUN19Qu1Rr7XP9IF6KRwP/zC+mfjT9s/4vFzngzfh8St240JzjWDOqVWvBhS4QT7RUR1tI56p1vmu3sjjW2rut2vPv9Zzuu030OL1ue3y2wfzuqw1fOdj+jxa06Ffv+w96ty2X2/b+4Pt6Bo9X7+xZuu0/dqfSahnLPv6kZctPPl62rJXEzDduZVb999/VWX8eCARr3nrs6sr6o/+vUTuB6nf/zI+rlNP49CxqSCDIeld6W5bGA8gBWCkO6Bh8UCCZLaOvWsc1AUItBEiq1BIg01oDAXK19BKgpJ0hAlSpZa5M5DWFJpYbkdSxm8gMdYjINfEaUTLap2aVJpHlFZcV3LcueaoHpqwVA/r2L0YWy9jgU4Up81HFttL9ANd64NAGO+2wz3rrbLbPQXvMcfbbbmoETvFFhQH66q8wUnGcPW8vsN4ee2220w5ZMkpx3+juQNzdA3qilAO5kkSk/F0DAA==");
 
 export default Tape;

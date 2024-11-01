@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `skeleton-ribs` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skeleton-ribs?s=sharp-regular skeleton-ribs}
  * @preview ![skeleton-ribs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/skeleton-ribs.svg)
  */
-const SkeletonRibs: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M344 24l0-24L296 0l0 24 0 40-80 0-14.2 0-6.8 12.5L216 88c-21.1-11.5-21.1-11.5-21.1-11.5s0 0 0 0s0 0 0 0l-.1 .1-.2 .4-.9 1.6c-.7 1.4-1.8 3.4-3.2 6C187.9 90 184 97.5 179.4 107c-9.2 18.9-21.4 45.4-33.7 76.1C121.5 243.6 96 323.2 96 392l0 64 0 24 24 0 64 0 5.4 0 4.9-2.3L296 429.8l0 58.2 0 24 48 0 0-24 0-58.2 101.8 47.9 4.9 2.3 5.4 0 64 0 24 0 0-24 0-64c0-68.8-25.5-148.4-49.7-208.9c-12.3-30.7-24.5-57.2-33.7-76.1c-4.6-9.5-8.4-17-11.2-22.2c-1.4-2.6-2.4-4.6-3.2-6l-.9-1.6-.2-.4-.1-.1c0 0 0 0 0 0s0 0 0 0L424 88l21.1-11.5L438.2 64 424 64l-80 0 0-40zm-48 88l0 60.3L193.6 192.8c10.6-25.9 21-48.4 29-64.8c3.1-6.3 5.7-11.7 8-16l65.5 0zM173.6 245.8L296 221.3l0 56.7L152.7 319.8c5.3-24.7 12.7-49.8 21-74.1zM144.8 372.1L296 328l0 48.8L178.6 432 144 432l0-40c0-6.5 .3-13.1 .8-19.9zM344 376.8l0-48.8 151.2 44.1c.5 6.8 .8 13.4 .8 19.9l0 40-34.6 0L344 376.8zm143.3-57L344 278l0-56.7 122.4 24.5c8.3 24.2 15.6 49.4 21 74.1zm-40.9-127L344 172.3l0-60.3 65.5 0c2.2 4.3 4.9 9.7 8 16c8 16.4 18.4 38.9 29 64.8zM0 64L0 88 0 194.4 0 208l0 24 0 24L0 488l0 24 48 0 0-24 0-232 0-24 0-10.4 21.7-13c36.1-21.7 58.3-60.7 58.3-102.9L128 88l0-24-24 0L24 64 0 64zM48 165.5L48 112l31.7 0c-1.9 21.7-13.6 41.4-31.7 53.5zM616 64l-80 0-24 0 0 24 0 17.6c0 42.2 22.1 81.2 58.3 102.9l21.7 13 0 10.4 0 24 0 232 0 24 48 0 0-24 0-232 0-24 0-24 0-13.6L640 88l0-24-24 0zm-24 48l0 53.5c-18.2-12.1-29.8-31.8-31.7-53.5l31.7 0z" />
-    </Icon>
-);
+const SkeletonRibs = createIcon("skeleton-ribs", false, "data:font/woff2;base64,d09GMgABAAAAAANoAAoAAAAABzQAAAMbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHSFEgsGAAE2AiQDCAQgBYMtBzQblgbIHoVxwx1F0UQszuL8VkTQfq+z918IFaEEBBWXKBOduMjoCkW2rrayxhBpAv9pTXs/4dmWN8mUp7wpAIE9JomgEISsPkCJ8f/L/Zr/+aecP/6u10FRGA2WOT+8+c0jmwtL5L4oHgRtjmfiHhpHaNtAlf90AHVQHqg+gPv4q/KFix0otDUAkE4AsHdZXYonL+ll8v7/PcgLxSBA9gCMIFCj9QACbFKj6QY0BKhoELzM/+g/UAABSD3SDyuACrRBBiBbACpAIVWaSVtmZ8ts/BsDGyStraZO0rJ+AjUTCDUzOf45Zj5m2qSMA2tpPSJvoGAZY0+EXBUXBAi1SJbUUyeh1FlLpkhBg0s+l8Kuux4zb5oLqXlb8M3CfgmMOYxRDUhNzrsdp+MWqaY+U4PGCq9Owq7bLLUEKnRHYepXV19XW0em4axHXddfoqOmk6FdIIgMayFyBuaK22m0rGaVqTPKOJMYCN26nLT6n+cZr8pCkMueks8Th8s/vD/0fUD9Q855BDhFRfsIinwajQQAEOgOOU34x++FhX78qNkFx48y0TuDJFwELmn05EzaK44MmvfvQ8P2RvNVIAQAOFdkhN2FEl6fkpLSK+P3GypxE5mLu4ucVonYZ8Xsc/fVY8FiQCRmluFLwZpeVXMma0HB2KxYZ5b3JVziGK0SsdiD59fKWq8srkhBloDTh/pHG5zzIdjhuM+4iGYg0+LC13/CCRxf6Y1LrQKRT4MfVVQMcDgRv75eaAG74eDsDBnim6s3uRMpAAgI3H0aTWq3T/lqkFQAXj/79Yvj8f+J6lZ1GTRSAQK1yf8haCkbgE0PgLNkDj4H0kxKkklSZ6tjCO5gYEOhw6DGjQNUmGCo4ymWc7F7NTWqjCCyVkDFxiSoxVkFDdkd0Erx2qEjR61jeOqd97+aOG+K5JYTkWERIknsBnR8TcAJCpPFZbUy5yRYGYo+48bM6NVj0MwEm1LqnjUq7wjNxSAhUpgIQhLxOPxSXGc4p0wb3BY8LyaZ+N6kmDtOb6USKgDzao3jjEyxnR7uHemdGR8LnRrsmgYAAAA=");
 
 export default SkeletonRibs;

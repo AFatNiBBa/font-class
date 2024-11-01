@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rv` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rv?s=thin rv}
  * @preview ![rv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/rv.svg)
  */
-const Rv: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M248 16c-4.4 0-8 3.6-8 8l0 8 128 0 0-8c0-4.4-3.6-8-8-8L248 16zM224 32l0-8c0-13.3 10.7-24 24-24L360 0c13.3 0 24 10.7 24 24l0 8 126.4 0c53.9 0 97.6 43.7 97.6 97.6c0 16.8-13.6 30.4-30.4 30.4L408 160c-13.3 0-24 10.7-24 24l0 208c0 4.4-3.6 8-8 8l-91.3 0c2.2 7.6 3.3 15.7 3.3 24c0 48.6-39.4 88-88 88s-88-39.4-88-88c0-10.5 1.8-20.6 5.2-30L22.9 324.8C8.5 314.3 0 297.5 0 279.7L0 88C0 57.1 25.1 32 56 32l168 0zM384 48l-16 0L240 48l-16 0L56 48C33.9 48 16 65.9 16 88l0 191.7c0 12.7 6.1 24.7 16.3 32.3l91.8 67.4C139.5 353.4 167.7 336 200 336c34.2 0 63.8 19.5 78.4 48l89.6 0 0-200c0-22.1 17.9-40 40-40l169.6 0c8 0 14.4-6.4 14.4-14.4C592 84.5 555.5 48 510.4 48L384 48zM200 496a72 72 0 1 0 0-144 72 72 0 1 0 0 144zm288 0a72 72 0 1 0 0-144 72 72 0 1 0 0 144zm0-160a88 88 0 1 1 0 176 88 88 0 1 1 0-176zM272 128l-160 0c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16zM112 112l160 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zm304 88c0-4.4 3.6-8 8-8l93.1 0c8.8 0 17.4 2.9 24.4 8.3l82.9 63.8c9.8 7.6 15.6 19.3 15.6 31.7l0 64.2c0 22.1-17.9 40-40 40l-8 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l8 0c13.3 0 24-10.7 24-24l0-64.2c0-2.7-.4-5.3-1.3-7.8L424 288c-4.4 0-8-3.6-8-8s3.6-8 8-8l184.5 0-76.7-59c-4.2-3.2-9.3-5-14.6-5L424 208c-4.4 0-8-3.6-8-8z" />
-    </Icon>
-);
+const Rv = createIcon("rv", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAAB0AAAAMKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQiEKAsGAAE2AiQDCAQgBYMtBykbIQZRlA5Gi+zHgeM8Q0SHkUiLqItLeHKrGUl+6DlJ9NApgqc19vP2FjHpkFQrNI1komdCo1mqhOKhW4TGNzkjNvesDCH+kfbK0EioSdsezaSxmWw0j9bazOuyy70gbslMMlE8uXij0jXS+OPenX/gD/j4g37FMWZj4rKx5nkCnQfSpZu6PMCshC2mjua9NFD9Qt0Jcvwxp5Cu0xPO/TeNDz0+JEUBIJoBwOpu32F4iZeIp3KbeLIOAmINwDABBQr0E8ACSaCfbBhkWfASZSl+AwkBRKXwr0ogow6foASQQVKTc/30OVOO45S07JmQEyQyIU3rUoFgiNijRk0QcNCc4bQmBMNty3ndapUuSnFKA6JLhWI3DFnMuexYLejVqCfighbioHqvOUugTLFBpQsA+1UTcDWo0XRakyFijXovY9irPmK14EaTd+1X7VbctmyWbJdduZaB1ylRGv43PcH+WDqRMvoZq1vVUR8yElm/oFG1GwBfEmtQ67lWyGEGw3E/ASW5lhqas9qzmlonkog9k082WpAtfBs+FT75W80WEagGAqLsoipCiGpMEcSoEqiEtsUDBa62mFvwxLe5yjSw4gR1dd7eyYsFsogMf4hmZyD+/T/PjUplsmD54oH8DPifab5QZ6gV7j6dCnfkB4vyBTir5xUWGlTunlb7Ojv7Vsspg1bhmLy/rKxfjoP317Gw4UPiDZKPMXjmqNoPS+rqJJltjEFzxD5JlJ0BktkYL/ij4v1YkkC2iNYTiFH1lkEubjtVPxtzmFdnsMcBBIL9gffznur+jbAE3m5+fxf3oxzSWVpAtQSCYrQcNU3VILABZFOcQl/4okDyrkYYq3dxNB9qaSCpVAuFPhpktUagwqD0hEq1Nkki1wjtZhpI6h1AYcoLsnZfqLDgn6nUHhLwM6DL/Homtl2k2cXQC1hxtqNi4ZmymzU3m8ZTTpj4IJZOju4W5jbuHfSqyz8ctEv45rMU8gSowsP9h8KkQ2bCzaOmNce3qfH6mOG5PN/E+xABY2BDyUykdPgE");
 
 export default Rv;

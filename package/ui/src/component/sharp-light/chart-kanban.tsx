@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-kanban` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-kanban?s=sharp-light chart-kanban}
  * @preview ![chart-kanban](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chart-kanban.svg)
  */
-const ChartKanban: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M352 448l0-384 64 0 0 384-64 0zm-32 32l32 0 64 0 32 0 0-32 0-384 0-32-32 0-64 0-32 0 0 32 0 384 0 32zM96 384l-64 0L32 64l64 0 0 320zM32 416l64 0 32 0 0-32 0-320 0-32L96 32 32 32 0 32 0 64 0 384l0 32 32 0zM256 256l-64 0 0-192 64 0 0 192zm-64 32l64 0 32 0 0-32 0-192 0-32-32 0-64 0-32 0 0 32 0 192 0 32 32 0z" />
-    </Icon>
-);
+const ChartKanban = createIcon("chart-kanban", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABZwAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBbQsGAAE2AiQDCAQgBYMtBzMb8ATIHoVxGz3SnSYk5c2vxMN/a+XfV907Z7cnDJUoRnBAPios3NqE1big8CT5o55kBmLpL7PPXvN/Ob7FRwf4wU7skMbENX0Nbc/nCQSY9tJNJZIFlmkClrnLqU1S2k/SEpI8nsvj4wxlPIm0kB4luJs/NH7o6w5JWQCILgCYv3Xjao0v8SXiU/M58clKBMQCkAUKFBggwCyFwACljFIp+BLNJv8HZgKIGnldAiVasQN7ASVIamXZ1rWtO4X1lo7llvh41bFIRT1SVMPqVT2iiIiqEilsqepVEeO5y9iJ+lZAgcICdnBoe5f2X0PIvhtyejfMa+Z8I7shy/uK85khI6npSfuyebJMT6CgBtpAGxyeBwLBvdnf39t51v+t9QS+vfnzt/sZaX6JRmpHqwSCYlQzu6IB0RAAgBRXDI0GAskGNfKuHdwXIFQIkNRUAhT66yJAqTJSgBaDTBagprJRIco2oYfdDSQdnAeFKa6CUg9PQYtZ3sY1PaIwL844uN9d8hKNLN6Xx48Zl2fkaVflLYZJ2zPztjLsSpgajqOOOOuMSw475LhLirhgdXbZaUtW+GJflI03xjjZDPl4cC9vUc4FFwMzFs53mSnfD4a5sl48HHoilBM0JIlIHR5WffTJ/WcO7D8DAAAA");
 
 export default ChartKanban;

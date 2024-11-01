@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `subscript` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/subscript?s=solid subscript}
  * @preview ![subscript](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/subscript.svg)
  */
-const Subscript: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 64C14.3 64 0 78.3 0 96s14.3 32 32 32l15.3 0 89.6 128L47.3 384 32 384c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0c10.4 0 20.2-5.1 26.2-13.6L176 311.8l85.8 122.6c6 8.6 15.8 13.6 26.2 13.6l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-15.3 0L215.1 256l89.6-128 15.3 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32 0c-10.4 0-20.2 5.1-26.2 13.6L176 200.2 90.2 77.6C84.2 69.1 74.4 64 64 64L32 64zM480 320c0-11.1-5.7-21.4-15.2-27.2s-21.2-6.4-31.1-1.4l-32 16c-15.8 7.9-22.2 27.1-14.3 42.9C393 361.5 404.3 368 416 368l0 80c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-128z" />
-    </Icon>
-);
+const Subscript = createIcon("subscript", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABewAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCJQsGAAE2AiQDCAQgBYMtBzAbJQXIjtMlNOabMB6en7P+3JcMtcuQZUYHiMKMXf7sWGhULMm18t7n/3LPzzYd4Dc6pL1bk8YCm/P5BEyzNNoUSJZlgWWagGXeckaiZPpNZiqZHs89ftEd8vg0u6iK9Cz9gDvtQ+NPbV0kqcsARBMATFm1bIGvfo6fI76vvCW+Nw8BMQUUAhkydBBgvEygg1yBXC74OSqV9B9YEEBUYzjRc3rRcZwD5CBJeT63a7mqYb6yXFVad71FxENnWz4ql2NFLI9SXG+hIzdar7KcHHgS51o9LpViZaCJItdbLAdN8hadbtE9Hjq3Wj4ru2CU6yPRtb5J/d9dftj5g85nGl3laqNGV682amzNmZ5vrNFVU19o8moFSL9qUkD3Jye/rDT77bd/K96NGzfvXvPFslHIE84CgeDHvt932NR4/D+15QR+/eT/6Wek8lWS6lErgSDrX+lvfQKJAACkOKlrgkCyX8Lv2sBjAUIJAZJqJQEy7TURIFfST4AqnYwQoFrJMpnI64QWNgyQNHAEZEY6BXItvAZVxvu6UK1FZKHHBQ738kueqaEZu4ohAwcXY4tlg/DRxJTFccWx3fukGeiDo3Y65KDjdthuj+OKPGpB+YQDZu6IGb6oMMRAgxXGKtztrbySCkcds2du8C8zTnE/0dvJ/fg+8BKmHGpPkohU918BAAAA");
 
 export default Subscript;

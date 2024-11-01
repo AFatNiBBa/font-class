@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `water-arrow-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/water-arrow-down?s=thin water-arrow-down}
  * @preview ![water-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/water-arrow-down.svg)
  */
-const WaterArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 0c4.4 0 8 3.6 8 8l0 220.7 74.3-74.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3l-88 88c-3.1 3.1-8.2 3.1-11.3 0l-88-88c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0L280 228.7 280 8c0-4.4 3.6-8 8-8zm34.2 338.1C339.5 353.8 361.5 368 384 368s44.6-14.2 61.8-29.9c10.1-9.2 19.7-19.5 27.6-30.7c1.5-2.1 3.9-3.4 6.6-3.4s5.1 1.3 6.6 3.4c7.3 10.3 15.9 19.6 25 28.3c15.7 14.8 36.1 29.2 57.4 31.9c4.4 .6 7.5 4.6 6.9 8.9s-4.6 7.5-8.9 6.9c-26.5-3.3-50-20.7-66.4-36.1c-8.8-8.3-15.9-16.4-20.6-22.2c-5.2 6.4-13.3 15.6-23.4 24.8c-18 16.3-43.9 34.1-72.6 34.1s-54.6-17.8-72.6-34.1c-10.2-9.2-18.2-18.4-23.4-24.8c0 0 0 0 0 0c0 0 0 0 0 0c-5.2 6.4-13.3 15.6-23.4 24.8c-18 16.3-43.9 34.1-72.6 34.1s-54.6-17.8-72.6-34.1c-10.2-9.2-18.2-18.4-23.4-24.8c-4.7 5.8-11.8 13.9-20.6 22.2C59 362.7 35.5 380.1 9 383.4c-4.4 .6-8.4-2.6-8.9-6.9s2.6-8.4 6.9-8.9c21.3-2.7 41.7-17.1 57.4-31.9c9.1-8.6 17.7-18 25-28.3c1.5-2.1 3.9-3.4 6.6-3.4s5.1 1.3 6.6 3.4c7.9 11.2 17.5 21.5 27.6 30.7C147.4 353.8 169.5 368 192 368s44.6-14.2 61.8-29.9c10.1-9.2 19.6-19.5 27.6-30.7c3-4.3 10.2-4.3 13.2 0c8 11.2 17.5 21.4 27.6 30.7zm-27.6 97.3c8 11.2 17.5 21.4 27.6 30.7C339.5 481.8 361.5 496 384 496s44.6-14.2 61.8-29.9c10.1-9.2 19.7-19.5 27.6-30.7c1.5-2.1 3.9-3.4 6.6-3.4s5.1 1.3 6.6 3.4c7.3 10.3 15.9 19.6 25 28.3c15.7 14.8 36.1 29.2 57.4 31.9c4.4 .6 7.5 4.6 6.9 8.9s-4.6 7.5-8.9 6.9c-26.5-3.3-50-20.7-66.4-36.1c-8.8-8.3-15.9-16.4-20.6-22.2c-5.2 6.4-13.3 15.6-23.4 24.8c-18 16.3-43.9 34.1-72.6 34.1s-54.6-17.8-72.6-34.1c-10.2-9.2-18.2-18.4-23.4-24.8c0 0 0 0 0 0c0 0 0 0 0 0c-5.2 6.4-13.3 15.6-23.4 24.8c-18 16.3-43.9 34.1-72.6 34.1s-54.6-17.8-72.6-34.1c-10.2-9.2-18.2-18.4-23.4-24.8c-4.7 5.8-11.8 13.9-20.6 22.2C59 490.7 35.5 508.1 9 511.4c-4.4 .6-8.4-2.6-8.9-6.9s2.6-8.4 6.9-8.9c21.3-2.7 41.7-17.1 57.4-31.9c9.1-8.6 17.7-18 25-28.3c1.5-2.1 3.9-3.4 6.6-3.4s5.1 1.3 6.6 3.4c7.9 11.2 17.5 21.5 27.6 30.7C147.4 481.8 169.5 496 192 496s44.6-14.2 61.8-29.9c10.1-9.2 19.6-19.5 27.6-30.7c3-4.3 10.2-4.3 13.2 0z" />
-    </Icon>
-);
+const WaterArrowDown = createIcon("water-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAAB0wAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQiEAQsGAAE2AiQDCAQgBYMtBzcbCAbIjsK2eXNkQBJwZDE5GHzi4b+xb/fNzIppMtybShWtNDZkzCuNtJvR0/mhIRY1mVgwp/cdEP2A0SGQkEE/tsSOhVsqZKrrdnHqeYAD+BzQeFDWoKnRNbV7nlegonNSSWKtScUC7H3T4Q7HGGxeRQyTEjGP0zqerlDizwlWpLupgssjp/FBnyOSnAEQrQBg8+HGary/iTcRv/9viIrtICC2AEYRMjIGEVjHQmCQpVFQFMGb+P+P/4EMAUQ1KHcJFFThPT4BCkhysQw42utg5WTZ0mBlP3qzC3Q45C7Rs4mE7haSemSvZiKSe9rFLgqx4XyP7CMHyA7nu0Svi0wRN7pPo069JW/BU4g4jljGPvUGyRbSmNn3uYuXfbySWoUoislNraCPnx526Xqpj1VGKkae9lUbbd2Gxv2Zy1tbNwrJSRbq/DNG1UfG9v784Iebm9n8o8+NW5awWe1cdV+Nz5G0uvqnF2dmTC8m++rq/CY10wwAcs0Z7WF9XdoR79oj1WsvZr3WnP7sR5Ry8iQz+o+IQoa/D0AguLfz/upel4Kvtg4GwLsHX37tr/v/njalS9RKIMjz/ifoSiUAYgnwU6wIU74okDyXkdnoljcM9SxIqtVDNsAVinrTUGVYJmXcYT8LUewQOnUDJI3OQrbCNhSdrqDKOh9etc7Iic6mKfufmVTFkcplvDgphfP4tu7gcpfu8/lsVidWal8srMSIWTOWDBsybomhC6rDZdOqNHzlZ1mqJClYHna3llIL8xYsGr8W/Ivk43gzxoo+OhYMAyJcoiRJRHL9DrKJRxcWZlcT3wAAAA==");
 
 export default WaterArrowDown;

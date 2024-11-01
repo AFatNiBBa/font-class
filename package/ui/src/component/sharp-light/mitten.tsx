@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mitten` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mitten?s=sharp-light mitten}
  * @preview ![mitten](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mitten.svg)
  */
-const Mitten: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 135.4C0 60.6 60.6 0 135.4 0C195.1 0 247.7 39.1 265 96.2l30.8 101.7 18.7-30.3 8.2-13.3 13.5 7.9 96 56 13.2 7.7-7.1 13.6L370.5 368l-36.2 0 68.4-129.9-69.3-40.4L304.3 245l-18.6 30.3-10.3-34.1L234.3 105.5C221.1 61.8 180.9 32 135.4 32C78.3 32 32 78.3 32 135.4l0 8.9c0 9.2 1.1 18.3 3.3 27.2L84.5 368l-33 0L4.3 179.2C1.4 167.7 0 156 0 144.2l0-8.9zM64 432l0 48 288 0 0-48L64 432zM32 400l32 0 288 0 32 0 0 32 0 48 0 32-32 0L64 512l-32 0 0-32 0-48 0-32z" />
-    </Icon>
-);
+const Mitten = createIcon("mitten", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbQAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBfQsGAAE2AiQDCAQgBYMtBy0b+gTIjpMlZn6J53nsqr+vqrrPzJq1kiLjUxmcQoogreIf2XFH7dWt8Rs/OsAFkevHvEA+kOh9xxNoPG8Oe/wDbbLAMk3A2p02srLglZayJMelHZ8VqtybiRoUdxfHcGN5aH7V33UUqhJAugFg2fbNm7z7Vb5KjrXIMRsQyHJQC0qUGCRgoVIwSKVGpRK+SqsV/4E1AdLU9i1AhQYO4BxABQplVS1u796x0bnalqZ1KB9dkryzZt5rg7dmQvqmd7YGVq9sSYdsz7ZMzNgMqWc+MP6ZDi+OfWqQXNV7azpkW+5JdorOSTqN79ihs4h06BR/8eHPdHvm92HHTjtmXttRtl11aty4L4ccNcnlPrF/jk+cY/lVRll5tVVjnDDYw8be4OZHHx3x7LFjHdt1mTjtQ8NMedPUHu1Lxk6dOrU2Vd2q6wOsqZfidhCEW364a8n+rgv/b+tYgG9e//Nv7itqvZu3imfQpgChnNiaaE/eRZm3BABQ5DLD8y6Cwg4lvGsndwiIDggoNHUQUBqom4BKBxMENAwxS0BTB5uVUrWLXvYOKHRyIZRmuxwqvbwADQt9YjT1SmlmvJHwv7yU1RKt6qunTZ5az6+Xri5YDuX2gnpbHXsZpcYB02nOd55LHHXEmS4R5CKb7Euda7WGV3lRbZrJpqrNVx8Hz+PbHHWRi53pfOflLgvU9/WxLtOLx8EQBWD6A1Fypmiee+Yllxw9DwA=");
 
 export default Mitten;

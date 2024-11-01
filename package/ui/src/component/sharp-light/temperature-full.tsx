@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-full` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-full?s=sharp-light temperature-full}
  * @preview ![temperature-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/temperature-full.svg)
  */
-const TemperatureFull: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M96 275l-10.7 9.5C62.4 305.1 48 334.9 48 368c0 61.9 50.1 112 112 112s112-50.1 112-112c0-33.2-14.4-62.9-37.3-83.5L224 275l0-14.3L224 32 96 32l0 228.7L96 275zM224 0l32 0 0 32 0 228.7c29.5 26.4 48 64.7 48 107.3c0 79.5-64.5 144-144 144S16 447.6 16 368c0-42.6 18.5-81 48-107.3L64 32 64 0 96 0 224 0zM160 400a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0 32c-35.3 0-64-28.7-64-64c0-29.8 20.4-54.9 48-62l0-210 0-16 32 0 0 16 0 210c27.6 7.1 48 32.2 48 62c0 35.3-28.7 64-64 64z" />
-    </Icon>
-);
+const TemperatureFull = createIcon("temperature-full", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfAAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCEgsGAAE2AiQDCAQgBYMtBzcbGQXIngm2rYL1K4QhT57SckZQ2SqzeuZp9mHuCfuJyAJgIYIHzCZbCplytYX3niHB8Qn/4D/9zT/vPArwGYU2pi0NZIHPeZ5AGFiXjmX5pCywTL+AfXUbKxeUy4pB5AgXEUO7ITpAGdtijFake9KXuKm+NP7Ry+UkZQEgagAs3LRurXd/i98ivmy+RHxpNQJiEcgCBQr0FWCOQqCvUkapFPwWzab8B2YCiNa4cQIlWuM4TgeUICnLsk+vLv0arTqUG3OXalPXHl1fzQ+MfGbqK6OfG/DorO6BXasQtjWqhhBvbXh4zptLPp739qBf5kdENLZc1yPirrik+53VtV1vd3G3OxqeHBXxbO9L+tw13F8QQjzR7R53j3h6yKBn62f/9eXBL+16/hmsmJ86/Z+X5j+jo79d7G8dL+qcudDffo2Ffc++6r2u0jcW/vq3LM+/qePVXN2xGeTm/HALLVWPb79Z+r1aVvve0m++7VG1tDwMBIKhJ563dFenOf+1bSTwx+vXn1HdfDcmpWfRVgJBMaY5xvY4U62OSQIAkOJMg2KBWiDZr8SntnenAKFCgKS1SoBCH7UApcpoAVrpb6oArVXWKUTZTuhqxwBJe6eAwjQXgFJXL4BW5vhEaa1rFBFHxAvx34tdZqGlVXniuAl5VnYNnQwirBRn521+xJkpMBKtDjrJiU53wH5HnG6QU63Vz3CCZSt4qQ9lE40zQTZLPrafmzc64FSnOeIkJ2qZ2fJ9eYQz1/EjISVEnaQ2SUSqg5Eb+zYBAAAA");
 
 export default TemperatureFull;

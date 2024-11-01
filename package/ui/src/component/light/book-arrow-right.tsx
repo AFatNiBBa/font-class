@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-arrow-right` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-arrow-right?s=light book-arrow-right}
  * @preview ![book-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/book-arrow-right.svg)
  */
-const BookArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448s0 0 0 0c0 35.3 28.7 64 64 64l368 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-66.7c18.6-6.6 32-24.4 32-45.3l0-96-32 0 0 96c0 8.8-7.2 16-16 16L64 384c-11.7 0-22.6 3.1-32 8.6L32 64c0-17.7 14.3-32 32-32l336 0c8.8 0 16 7.2 16 16l0 96 32 0 0-96c0-26.5-21.5-48-48-48L64 0zM384 416l0 64L64 480c-17.7 0-32-14.3-32-32s14.3-32 32-32l320 0zM539.3 100.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L585.4 192 272 192c-8.8 0-16 7.2-16 16s7.2 16 16 16l313.4 0-68.7 68.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l96-96c6.2-6.2 6.2-16.4 0-22.6l-96-96z" />
-    </Icon>
-);
+const BookArrowRight = createIcon("book-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfQAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCGQsGAAE2AiQDCAQgBYMtBzcbIAXIjtRG+UVWEkFlq8zqmadjnAcAFCG48sSe2CdwFTLfEmzVvk+dep7zUADfKChj49LFy7JpzvMIBDTt9nqL7XmtYDWtgNXcNILwo2QSHg7RWIrDmA5Tb5DHPzFCD9Jz6Vs8Uj40/tLqTpI8AxA1AJi7ef1Kn/8ev0d8W0J8azkCYh4oBDJk6BBghkygQ65ALhf8HqWS/Q8sCCB64scmkKMHTuMqIAdJluezqtvKe1Tmm+JW2fY3h0S825LiNv+a54a+N7Aynml+uqksIt7pjigL8WRDRdzfkMVtzc+UV8ZTjaI8Ip5venpQxUFhg3WKQtufbniycWNUnGMnemVsCHjOU82b45mmTf3er3n/777fHvrW7M9eraW27FZQVlv76hm/V1X9XmO+n2r2KOwBW2vUfb9U1b33Vq0RqEUo++7nMWtmvzKHySVh9s15ftp77z3//PwFpl4QpuoYYrOwe3fF7P1AILgy85bu3dUzrvcuT+DPD18PPyOlz9Nd6X30lkCQjSiNsCPdSumfdJcAAKS4pF+6FYHksAy/a4WnBQhlCJD0VCZApl2NALkywwXooctEAXoqs14m8j5Cg50DJBXOgswkN4Fcgw9ADzN8YfTUEJnSUSpD/fPFL0Jo4VoxdtSYYlqxjTVaj4g0n148FoZccrWhdNUhp51ywUEHHHUBkHNW2hedtEiCF/qiwlijjFGYpnidPZ/f5KBzzjvqtFN5yXTFfWWIS3L3UJITRh0nkiQi1WikY+Tec+dOX/5sAQ==");
 
 export default BookArrowRight;

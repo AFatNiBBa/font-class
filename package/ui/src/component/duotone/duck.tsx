@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `duck` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/duck?s=duotone duck}
  * @preview ![duck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/duck.svg)
  */
-const Duck: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M400.2 220.8c-.1 .6-.1 1.1-.2 1.6c0 .5-.1 1-.1 1.5c7 0 13.9 0 20.9 0c50.3 0 91.1-40.8 91.1-91.1c0-6.4-5.2-11.4-11.4-11.4c-.5 0-1 0-1.4 .1L463.9 126c-10.5 1.3-21.2 1.3-31.8 0l-.6-.1c.3 3.3 .5 6.7 .5 10.1c0 24.6-8.5 47.2-22.8 65c-.7 .8-1.3 1.7-1.9 2.5s-1.2 1.8-1.7 2.7c-1.1 1.8-2.1 3.7-2.9 5.6s-1.5 3.9-1.9 6c-.1 .5-.2 1-.3 1.5s-.2 1-.2 1.5z" />
-        <path d="M409.2 201c-5.4 6.8-9.2 15-9.2 23.7l0 24c0 6.6 2.8 12.8 7.2 17.7C427.6 289.1 440 319.1 440 352c0 70.7-57.3 128-128 128l-116 0C87.8 480 0 392.2 0 284l0-5.4C0 266.1 10.1 256 22.6 256c6 0 11.8 2.4 16 6.6L54 278c6.2 6.2 15.2 8.5 23.6 6.1l172.8-49.4c10.4-3 15.7-14.5 7.8-21.7c-21-19-34.1-46.5-34.1-77c0-57.4 46.6-104 104-104s104 46.6 104 104c0 24.6-8.5 47.2-22.8 65zM368 136a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM340.6 296.9c.5-8.8-6.2-16.4-15-16.9s-16.4 6.2-16.9 15c-2.4 41.2-32.6 79-77.3 90.1c-40.3 10.1-80.5-4.6-103.7-33.5c-5.5-6.9-15.6-8-22.5-2.5s-8 15.6-2.5 22.5c31.1 38.7 84 57.6 136.4 44.5c58-14.5 98.3-63.8 101.5-119.3z" />
-    </Icon>
-);
+const Duck = createIcon("duck", true, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABmgAAAKIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCSwsIAAE2AiQDCgQgBYMtB0QbYQXIhof/dObfNyMtyAnLGyCF+QMDdUgV+aT8RK3/55rPr4oO8BsdWoceSIH3op9PYKJpLTob7flMZ2Czdv4bGNRnk/jEp8+wuWFzgSK+yhcpSbenT3Ct/A9g/GKMi0j6M4AYBoD1d91xa+91opPik+5LxCe2QkBsABqBjIzxAqwlC4xXaFAoBJ3U7dKJbrchgOghdOb1hDe/BNcDCpBkURQL+8fMb5WDi11aZXXgTbU4r/305PvWemujKr7b4atdIu6ceWW7HTeP2jVuHXXrwBsT75375MqXZz8+4a5Zu9wx46HRt09/dNxOtwzcVN8267FlD814ZM4t9U3tx5e/vPLVuc9OOvB8EefHefGZK1uvzn1y0i0DV9TL4qaBiPPcNesm59c3uYnJ8+IVpjwx7InfJn9yyCdu+//0waNVh/wT5bINtzvJDnHKobFDqV6//5Df3f71k4ucMGP6zoOHtH745Lnnvv+0Ve4xa7329tu36ZPG3jfky86EhSs3G/3da4+173j/9rPOWnOt09989rnZrl0lIISqtd/lt/VU14Wp/vqLsiz3EIgRaUQOAggER/588Vb7Dl3rv75WAqve+OMf9XfU7STpCfRJIMjzuvPslUAiAAApTjElIa4TyLaXyblBbhEgVHRIelSQjTMMCpW5UJpo+fkelR1lUfQLtb0JkkGOh2yFs6FQexFKa3k/71FHhqMKJvU3mLWJRjbe1SxesKhZo9nWmoYwOW+u2RxHs05JE7N5r0Mc6xgnOdhBDneSEk+wdXWyo21iCRv7osZiCyzSWEPj7p6tXVR+ghMdvjb826ypuZ/Ncoo9fzanSZFc4lyWiRR50EEnH3jkfFQ7Qwbj9QIAAA==");
 
 export default Duck;

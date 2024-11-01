@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sliders-simple` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sliders-simple?s=sharp-thin sliders-simple}
  * @preview ![sliders-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sliders-simple.svg)
  */
-const SlidersSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 432l128 0 0-56 0-16 0-56L16 304l0 128zm144-56l0 56 0 16-16 0L16 448 0 448l0-16L0 304l0-16 16 0 128 0 16 0 0 16 0 56 344 0 8 0 0 16-8 0-344 0zM8 152l-8 0 0-16 8 0 344 0 0-56 0-16 16 0 128 0 16 0 0 16 0 128 0 16-16 0-128 0-16 0 0-16 0-56L8 152zm360 56l128 0 0-128L368 80l0 56 0 16 0 56z" />
-    </Icon>
-);
+const SlidersSimple = createIcon("sliders-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABZAAAAHuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBZAsGAAE2AiQDCAQgBYMtBzUb6QTIngNu0zyO61SIGNI28XwoioeXOo8RxK+9zu69AKFNFJImLPnqKpUqEvYLWWFrBKKqPkvWbA7BNXWbKkbbuioAfGD3SUm6l4jJXPtQEO3T37vzf/5pgbzzL/zRxqY1QRbYmrW5SyDgsTzALM4CCyjxBCy/nbxLMYjeJumX88mwXYbNHUrcmxDI1wn34U3jlzEHSFUFgOgFAId35RJe3jPvI/7rgXjrCATEIYBZDCpUmMSAHZzAJN4sKIrgfdS1+Q8kCCCagSclKGjGLXgCoIBUCm84JwxNMPiaJqiODlVjcExlcIch2tUK1zQEsUtDtI9UTR0ZPW5G04fbslo/xnxD45wZ9WazSbOlbWzuUxvptA37ORtxX1qj1Sb/eye3qs0P0uCcp6kNfGzc+BogEIz1fH7rl//fqrGAj2/+/dK/oZQN0CpBUC3Wfp0EJAEAyLiBK4FAOsXDq3Z6gQGhHQFSs3YBKhNsDCjaLWBAk2kJDGjW7gonioIwqJtB6vQMVNbcgmLQHWiy4ztsNhicaDGCwXzsEoslVNhFkWCYsjQsJVZaKLeeo2XFfWNHHrqJmVMnrkxNLF0VyIVScu1YkYMLPohEBIWRLDpubi/XTF24tHTqxG+TQ/cDtxt+tod0FkiXpFISab4d/TIgng==");
 
 export default SlidersSimple;

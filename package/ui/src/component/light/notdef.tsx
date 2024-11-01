@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `notdef` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notdef?s=light notdef}
  * @preview ![notdef](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/notdef.svg)
  */
-const Notdef: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M32 452.5L172.3 256 32 59.5l0 392.9zM51.7 480l280.7 0L192 283.5 51.7 480zm160-224L352 452.5l0-392.9L211.7 256zM332.3 32L51.7 32 192 228.5 332.3 32zM0 48C0 21.5 21.5 0 48 0L336 0c26.5 0 48 21.5 48 48l0 416c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 48z" />
-    </Icon>
-);
+const Notdef = createIcon("notdef", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYwAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBQQsGAAE2AiQDCAQgBYMtBy0bvgTInoWxm2OIlp3iNB8bU8Tz8PvVzn3/LWpWTSMkokuEZJLMQiRPnA0Nj9bYPH7Pqf8yPID3QntxYqGkY9keVqtYBQtSa28Of7/LxVrgiWvqx/nTAya9azSWvkfyU9XqfAI7T9y8KYFnAxtOEHe27VWToBISu9A4QM2VLCBTnpU27pQPzR9jvSlqAyBDAMDWw22D34/8SNqdSNt2EMg2wBSEBg0mILCBKJhAMgVUVfiRTkf8B06BAOklPaiAit7YBPYAqKDoqrU3io3r3zWwHjJb+808fGDQpzJ34ICBknLgcK/fE5nBKwcczOGjn9HJk9kD83bko7ElT0c8nDEg70Y9HtdM+zTk07+p7WNt/7WyrVvrxzC2MNp83oJ62+oXvlugtbu1fXDTzZclU+B96W5e8ClyOwjCmN/PODJ4Q0+f/gX8+nyPcnXn3Cyf0EcBoVnQWWCamyDoAX665Dw1NxEUq8jSG2OAxwKiHwKKXvoJaIynIFD1Mx+BLpPECPTSz36i1L5ihBnFigFOYY1VXlg1whfrssHf7WVEGkASwED4j0utx3C1iJc6Hhe8mWoibHB2tuTT2pynbOl4D5ZOju4W5jaFGaFXTfBwUO8hlS9iPoeHFfh28VztU/fqZrMu35+nxO9bmuf+sI6XIwCWfQKgJFN6HT9xny+WAAA=");
 
 export default Notdef;

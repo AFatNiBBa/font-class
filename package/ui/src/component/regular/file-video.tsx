@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-video` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-video?s=regular file-video}
  * @preview ![file-video](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-video.svg)
  */
-const FileVideo: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 464c8.8 0 16-7.2 16-16l0-288-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16l256 0zM0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 448c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM80 288c0-17.7 14.3-32 32-32l96 0c17.7 0 32 14.3 32 32l0 16 44.9-29.9c2-1.3 4.4-2.1 6.8-2.1c6.8 0 12.3 5.5 12.3 12.3l0 103.4c0 6.8-5.5 12.3-12.3 12.3c-2.4 0-4.8-.7-6.8-2.1L240 368l0 16c0 17.7-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32l0-96z" />
-    </Icon>
-);
+const FileVideo = createIcon("file-video", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdQAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCAAsGAAE2AiQDCAQgBYMtBzEbAQXIHge5SfNW4lLqfaxEPPz/2r/uc2feX8m8MEyAmAqsgrKuKq4sdMB2Vbb2JXPte16s5M3/5Z7f86MD/EaHMubka2s0p0DPE2lrngYyFlimCVjPDUeR4HQUgnPo8DFDwxA9QR7n4rEK6ev0Fx7lD41/tHWdpJIBiCYAmLJq2QLvP8bHiD9rEX+ah4CYAkqBDBk6CDBeJtBBrkQuF3yMWi38B5YEEHXoeRLIUcF27APkIMnyvFWHvtVKw3xltVJs+VIWRdxt9UVEFPG8RYoXLRvu/LaId72qca/PingjxVe9X3dvEC/7vm2Xrbgi4suqXtPyBTGuYts805q7rcaGuNzieXHrIl3fNnn7bxc7mdT4Y6PSYo1u32602E8+Nrqs0UeTHhVNafrTS+26rlmja/seGix4/MRZcXnRh1UNFDefHG/ib13yn4rdip/yLn9rosib+XwQCOa/u/OmxuP/q1dN4PMv/w9/RbX3cTm9RT0JBFn/Wn/r4zLEZQEASHFS17iMQLJehq61gS8ECAUCJHUKATLtNREgV+gnQEUnIwSoU1gmE3l9oYUNFSQNHAGZkS6AXAs/g4rxfs3rtIjM0Sg3ob558TMlNGNVOWTg4HJsOWwotO8QcXFcua33PokDfWCvnQ456LgdttvjuECOWlA64YCZM3iGLyoNMdBgpbFKc/ueXykw5o8lQqftyxinvB/3dnI+vg9YCaEOVZckIhVvWhzgfQAAAA==");
 
 export default FileVideo;

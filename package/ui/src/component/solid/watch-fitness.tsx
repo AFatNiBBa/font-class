@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `watch-fitness` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-fitness?s=solid watch-fitness}
  * @preview ![watch-fitness](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/watch-fitness.svg)
  */
-const WatchFitness: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 48C64 21.5 85.5 0 112 0L272 0c26.5 0 48 21.5 48 48L64 48zm0 416l256 0c0 26.5-21.5 48-48 48l-160 0c-26.5 0-48-21.5-48-48zM0 160c0-44.2 35.8-80 80-80l224 0c44.2 0 80 35.8 80 80l0 192c0 44.2-35.8 80-80 80L80 432c-44.2 0-80-35.8-80-80L0 160zm141.3 0C107.4 160 80 187.4 80 221.3c0 16.2 6.5 31.8 17.9 43.3l82.7 82.7c6.2 6.2 16.4 6.2 22.6 0l82.7-82.7c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3c-16.2 0-31.8 6.5-43.3 17.9l-7.4 7.4-7.4-7.4c-11.5-11.5-27.1-17.9-43.3-17.9z" />
-    </Icon>
-);
+const WatchFitness = createIcon("watch-fitness", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdAAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBbwsGAAE2AiQDCAQgBYMtBzQb8wTIjpQuZyTx8Pyavee+mWQBaD4yFggVIOXLltW6snBli6o6FYI/dfO88yjANwptDw1kAe19nkCC5YEHlAWWaQAcS+YtsyyJ7NEnmtQkPZ5H/h2Qx13Zw0qkl9OPeLLcNP7S52GSugxAtAJgzaF9O4z+Hr9H/FD9jPjBNgTEGlAIZMgwKMBymcCgXIFcLvg9qlX5BxYEEGX6hQnkKOMYzgJykOR53tzcP9RQasoPNpTqj73aE/HipIZ4v+v5vsbU1Nj0Uudz4+vjg+4X+o++OS3i0qKG+GzKx0Pitckfza+Pz6dWhqPhvckRH/XeP+VAPN9zKC4NvDK1MvGRyZ3RHZX6sZXWyj9+vPijVU9mP/Hz7LfM/vmnzFvIfuo3V82Kg1xo/V3rhYMxKtCy8/hTUNfXvnePjz+up6faOp7qb7voVm19QCD47fd3d59qWf5/bUMCf379X+ktqo7G/amCWgkE2fTqdMfjfoj7BQAgxa3Gxv0IJPvk9KqNXhAg1CNAUlYvQGZAqwC5etMEKBm2QICyevtkIq8TOp1gkDS6AWQWugfkOn0CSpb7xirrjAxfBDqI713sRgttWCvmzJxdLC2WsUZCBsvzZcW2OvnWWJtCuy66zrVudsF5V7jZIDfa4d7iGhs9eIMHFeaYabbCUsVx9sgeZOtGN7liTp8vWaa4b052q989hYxEUefyJIlITZAUZzwpAAAA");
 
 export default WatchFitness;

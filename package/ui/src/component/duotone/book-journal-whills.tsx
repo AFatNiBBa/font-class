@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-journal-whills` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-journal-whills?s=duotone book-journal-whills}
  * @preview ![book-journal-whills](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/book-journal-whills.svg)
  */
-const BookJournalWhills: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 416c0-17.7 14.3-32 32-32l160 0 96 0 64 0 0 64-64 0-96 0L96 448c-17.7 0-32-14.3-32-32z" />
-        <path d="M96 0C43 0 0 43 0 96L0 416c0 53 43 96 96 96l288 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0-96 0L96 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l160 0 96 0 64 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L384 0 96 0zm58.4 181.6c3.1 3.1 8.1 3.1 11.2 0s3.1-8.1 0-11.2l-26.4-26.5c8.2-17 20.6-31.6 35.8-42.6c2.7-1.9 6.2 1.4 5 4.5c-8.5 22.4-3.5 48 13.1 65.5c3.2 3.4 3.6 8.8 .9 12.7c-9.8 14-12.7 31.9-7.6 48.5c5.9 19.4 22 34.1 41.9 38.3l1.4-32.8-10.4 7.1c-.6 .4-1.5 .6-2.2 .6c-1 0-2-.4-2.8-1c-.8-.9-1.2-1.9-1.2-3c0-.6 .2-1.4 .5-2l8.6-14.2-18-3.8c-1.8-.4-3.1-2.1-3.1-4s1.4-3.5 3.1-3.9l18-3.7-8.6-14.3c-.9-1.6-.6-3.7 .8-5s3.5-1.5 5-.4l12 8.1L236 87.9c.1-2.2 1.9-3.9 4-3.9s3.9 1.6 4 3.9l4.8 112.3 14.1-9.6c.6-.5 1.4-.6 2.1-.7l.1 0c1.5 0 2.7 .7 3.5 2s.6 2.9-.1 4.1L260 210.1l18 3.7c1.8 .4 3.1 2 3.1 3.9s-1.4 3.6-3.1 4l-18 3.6 8.5 14.4c.8 1.2 .9 2.7 .1 4s-2 2-3.5 2c-.8 0-1.6-.2-2.3-.6l-12.6-8.6 1.4 34.3c19.9-4.1 36-18.9 41.9-38.3c5.1-16.5 2.2-34.5-7.5-48.5c-2.7-3.9-2.4-9.3 .9-12.7c16.6-17.5 21.6-43.1 13-65.6c-1.2-3.1 2.3-6.4 5-4.5c15.3 10.9 27.7 25.6 35.9 42.6l-26.4 26.5c-3.1 3.1-3.1 8.1 0 11.2s8.1 3.1 11.3 0l21.2-21.2c3 10.1 5.1 20.6 5.1 31.6c0 .2 0 .5-.1 .8s-.1 .5-.1 .8L314.8 226c-1.6 1.6-2.6 3.8-2.8 6c.1 1.9 .7 3.8 2 5.2c1.6 1.6 3.8 2.6 6 2.8c2 0 3.9-.8 5.3-2l23.6-20.6C337.3 267 293.1 304 240 304s-97.2-37-108.9-86.6L154.8 238c1.5 1.2 3.4 1.9 5.2 2c3.4 0 6.2-2.1 7.5-5.1c1.1-3.1 .2-6.7-2.3-8.9l-37.1-32.5c0-.3 0-.5-.1-.8s-.1-.5-.1-.8c0-11 2.1-21.5 5.1-31.6l21.2 21.2z" />
-    </Icon>
-);
+const BookJournalWhills = createIcon("book-journal-whills", true, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAAB0gAAAL0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSEBQsIAAE2AiQDCgQgBYMtB2IbOQbIHoVx81KJiEsnfkRhO4t4nt6/qHPf+90D6A+gpRjNOHK0QgQhG1a+oR33wTXvvmtdGC0+02Hif68ssXgoi//5v+bzS2zAsgM95VpUYfnHZT2fwES/Lgt074Buxra3KRXosRHbJTFEmojskN86nu2gyfPkVuhQHiMOYnf/H8D8apytFP0qgAwFwNEXnnu6L77Cr0oO9t7koNMQyDGgFVRUTBRwmCqYqNGi0QhflR5fpdcSIF39KyvoooPv8TugAUWRpln0tC7Sg5oLBtD9L31nDuILeQKf6tyHsrg9FeAmxxf6D9zm+LgpFYgDpK9i6LyHzt2cbpJeAE/O9awwEzVKseIKxkoqzRDVigNJBbadZQJxO5yfFG24CZPttmdZacSDjSPrseNZPsBJIddckrWDz6Jv3zPtuJZwqgewTTZlE6yJCxtHeeJ2CR7at8G3+yh2FC0U6cyMO5XqnIoRxLAxiX7htJe0x3/qwRsOwpWfb3yJl/oepe9Lj41tefB6PbgmjjKWnr1wC7Xfv3vuuStXvgj7rjqq+9ofv+r7W179cajnSIYGY50R2kq2I6wzfNjUoR9Ac4dam6a505cEyrDgTsvHh9slGVbQXsP9+NrN34+O3/F256yr9t2tXHHeecc5Y5ggZ5pWyWFNfp+H9uxZbbzAu8+wSs9o+meKYNgZx+kpaxA4dhR4HgjCmm8uPuLKIYv/+4oFfPPRn//S+Xq/fFFeAvoqINQFvQUuyw9AGaBW8oBpyk8dJagOKi6rDvSwgOiPgKKrv4BqgqECGv3NF9Ax2UoBXf2dq0rTT4x0+SMUA90tVKusExojvS10HGZPtWtkyFw3MtX41cx9AkeOX9cuXbSkPaR9bRpm+mrH8qGtOTznARyaW6BucKc73Od617nZfYy/x+mN+93uBE19vL2tpRZZonWI1t1Zui9oqXvci9rc6V/lUO33+Tke0CfPLTYXwDJZomE1JXXCTvAv3CvRhQ/uZv/CpTNx0ty5UgAAAA==");
 
 export default BookJournalWhills;

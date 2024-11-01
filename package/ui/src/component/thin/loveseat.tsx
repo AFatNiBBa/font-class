@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `loveseat` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/loveseat?s=thin loveseat}
  * @preview ![loveseat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/loveseat.svg)
  */
-const Loveseat: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M320 48L192 48C130.1 48 80 98.1 80 160l0 33.3c-5.2-.9-10.5-1.3-16-1.3l0-32C64 89.3 121.3 32 192 32l128 0c70.7 0 128 57.3 128 128l0 32c-5.5 0-10.8 .5-16 1.3l0-33.3c0-61.9-50.1-112-112-112zM112 288c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 144c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-144zM0 288c0-35.3 28.7-64 64-64s64 28.7 64 64l256 0c0-35.3 28.7-64 64-64s64 28.7 64 64l0 144c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l-256 0c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48L0 288zM128 416l256 0 0-112-256 0 0 112zM496 288c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 144c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-144z" />
-    </Icon>
-);
+const Loveseat = createIcon("loveseat", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABkwAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCXAsGAAE2AiQDCAQgBYMtBy8bWwXIHge5aelq8bQ4ZkKoIoh0VtUjac8n+5B1TPRAGSGEQBgkzylB+s6QBf18h/ef/2s+v+dH7d/o0KIskwvkaFnPB5g4nIXPEzgKZzOdgG13th1zQHskraVo4fiW47ODPN5wSEG6N32Jm8ubxi96uIIkywBEewDM37pxtXd/jB8jvmy+RHxpJQJiAagEMmToLcAsmUBvuQq5XPBjNJv0H1gRQLTg+00gRyvcinsAOUiKPB/QfUzr7vWiTb6lXpRHy3r54rBneou7yojH576ztB4fzX6rv7iuc8RDI56bsum+rhF3DXmi8x3dxSVd7qzX4/pud0eU94+MeH7ok8Of7dEmhCVb3GNZOqiMp7re1bOBcWxu00iTRCMcPLV6wHPtn/vNl0e+NPfmS/j8f7odZ9UqxaSF6y6xbuGkolI7q792/+sb2Vd8O27ct19lt2h7zTVtq7rhlrPKDnR45JEOHUqEJfkWRvLbcZVW+Dm3XHwxzsJZZ158bH8gEFyyauo7e9vN+q9WAj+/7vYz0vwxSc+hJoEgG9UcZVcCiQAApLjAgASB5FoFvtSGuwQIJQIkLUoBMr20FyBXGilAoa/JArQobZSJvLXQ2W4BScPZIDPFhSDX2QugMMsnSYvOkbkl61TspzBpiYYWL6rGjxlXzaimJZ3zNDqOzqzMyrALQstw2OqIM53hPIcdctx5CjnH6vx8py1ZwYt9UWW8McapzFBtVx/Xb3HYOc513JnOyOPMVN0Phrlg3X046AlTTlBIEpFqLku/JgAA");
 
 export default Loveseat;

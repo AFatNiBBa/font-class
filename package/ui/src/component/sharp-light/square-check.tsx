@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-check` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-check?s=sharp-light square-check}
  * @preview ![square-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-check.svg)
  */
-const SquareCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 64l0 384 384 0 0-384L32 64zM0 32l32 0 384 0 32 0 0 32 0 384 0 32-32 0L32 480 0 480l0-32L0 64 0 32zM331.3 203.3l-128 128L192 342.6l-11.3-11.3-64-64L105.4 256 128 233.4l11.3 11.3L192 297.4 308.7 180.7 320 169.4 342.6 192l-11.3 11.3z" />
-    </Icon>
-);
+const SquareCheck = createIcon("square-check", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABWwAAAHiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBMAsGAAE2AiQDCAQgBYMtBzMbswTIHoVxjKyUELm61vr1PAQw8bzj+f/G/rfPnflikiWhniCqhOiVEGkmMbwSWFRKeH78nL4rALhrFaMj147YMTggpxK5sfpuxrIE1CkW5qlTz3MeCuBzIh60sWlZLiALbM/zCEQsF58V6raCVStotXZ2L28Q/SbpUyQZFr1htELP94CW+lrxMX9o/ttwDqU3AJkHAFy9P9SFeMxjaDC8ggzcAoFcA7CP0NCwjcAFasE2jX3QdeEvKUP+D2QIkFFyjwU6RnAe3ADQQWm9TywEzdqZfs+snXysUtdMWqYPzKYZqcjkdNKSl8Njwx7y0aC7IE5eGqAx8lOUPGHJIb2HBvPtfTgGz2OHvC/YMRb/FO2mdERXkyFTcG+erGn3DWTz7gGCcHLtrfzc3vgfNxf4d//5DRcPHyNKAuMKhHakMB0BjA7wkyrvEY5AUI5To3ed9gmBmERAGTUpoNniQKCbdIjAiF1FBEZNuk0tfUIsm2mgTHsFmlMOQLfsAoy44MEYtRy1AVHXT33f4jsaak9xNpXhGg8DlbYJIg7rvCxF9kMhikXM27Bu15xZS3YVsq1r71nTmcFtX8SyUjJYDW/H9/Oj5mzbsWTDehpTx+f1iP15fRSqiuAe4yhFavoNiklLBA==");
 
 export default SquareCheck;

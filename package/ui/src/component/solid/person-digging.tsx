@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-digging` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-digging?s=solid person-digging}
  * @preview ![person-digging](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-digging.svg)
  */
-const PersonDigging: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M208 64a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM9.8 214.8c5.1-12.2 19.1-18 31.4-12.9L60.7 210l22.9-38.1C99.9 144.6 129.3 128 161 128c51.4 0 97 32.9 113.3 81.7l34.6 103.7 79.3 33.1 34.2-45.6c6.4-8.5 16.6-13.3 27.2-12.8s20.3 6.4 25.8 15.5l96 160c5.9 9.9 6.1 22.2 .4 32.2s-16.3 16.2-27.8 16.2l-256 0c-11.1 0-21.4-5.7-27.2-15.2s-6.4-21.2-1.4-31.1l16-32c5.4-10.8 16.5-17.7 28.6-17.7l32 0 22.5-30L22.8 246.2c-12.2-5.1-18-19.1-12.9-31.4zm82.8 91.8l112 48c11.8 5 19.4 16.6 19.4 29.4l0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-74.9-60.6-26-37 111c-5.6 16.8-23.7 25.8-40.5 20.2S-3.9 486.6 1.6 469.9l48-144 11-33 32 13.7z" />
-    </Icon>
-);
+const PersonDigging = createIcon("person-digging", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfQAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCDgsGAAE2AiQDCAQgBYMtBzUbEwVRlMvJDtnDw4fO7H1J3knsDbICQHyMUF1FUDF5/q+pF8+PDvAbHUo0ljaWRy6TJzDQSD+gPZ9F4WyiuN3Zou0QzSFJSybJ6dvxqiCLD9NTFEiuTN7B+elD4xuNnEKiagogagJg5PzZU73wWXwW8Xb5UeJtkxEQI0EukCJFUwGGSAWayuTIZILPolzG/8CcAKICP20CMhSwHvsAGUikRZZV6966VKiWzSsViouvbn9721sbXdHmlna3NZ5zddu20T3uH/9oxzubzY25MTwuL11ab25cWveSNpVxVv3LGjSJq9uXonOsituazJ07b+6tjcQJdS8pzkMRMSnmxCWCRGqr6vxoEW3daHVXzbu+a/nOune8f7y47fDhbcUSevWyi8f1t5Z25hVff/BKq3WmtdTMPbV+PG/59c4/fl1Nap933vayC/LcVtPPNnDNrMXbu+dYg2yF6mecUZ0uNNmb2mwz5NFbXn558aQh3c93g/+AQNB2Ydunl9cY8luVUgK+eOqHP+v28v/l55IxyV2owq0K0i7lLpYkIzz071zxXCf2aQXfJJBYLsXXWukyAUIRARIVigKkmqgpQKaoswAFzfUVoELRbKnIqgp1Le0gUWknSPVzFGTqehgUDPG6W6FupPbGWgv720saJ9Gxy/Ke3Xrkg3K11DgTosP04Hxb7rCPujrCSetst80ea62x0R6B7zI12GurcStsrB/K9dRND7lB8uPG4+F51tplt4222xYXGSy/r3ewbz24I2gJJuwllUiIpLp5xrqu2bh+/cZt6wE=");
 
 export default PersonDigging;

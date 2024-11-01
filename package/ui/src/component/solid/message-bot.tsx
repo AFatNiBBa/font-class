@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-bot` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-bot?s=solid message-bot}
  * @preview ![message-bot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/message-bot.svg)
  */
-const MessageBot: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 0C124.7 0 96 28.7 96 64l0 112-36.3 0c-5.5-9.6-15.9-16-27.7-16c-17.7 0-32 14.3-32 32s14.3 32 32 32c11.8 0 22.2-6.4 27.7-16L96 208l0 144c0 35.3 28.7 64 64 64l64 0 0 80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L373.3 416 480 416c35.3 0 64-28.7 64-64l0-144 36.3 0c5.5 9.6 15.9 16 27.7 16c17.7 0 32-14.3 32-32s-14.3-32-32-32c-11.8 0-22.2 6.4-27.7 16L544 176l0-112c0-35.3-28.7-64-64-64L160 0zm0 128c0-17.7 14.3-32 32-32l256 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-256 0c-17.7 0-32-14.3-32-32l0-128zm64 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm192 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const MessageBot = createIcon("message-bot", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABjgAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCWAsGAAE2AiQDCAQgBYMtBzIbWgXIhqDSVWW1NBN30jHoABCegE1ijx1j4120CCbOdb75GrBs4NOhRGPpeA2yxo86f4EX/Lcs4LTHtxfF3532bIdi5ZA0YiTHt+P1WEMef2c3q5GeSN/hvvCh8YOObiZpnAGIFgCYsW7VEl80REPEt/+/S3xrEQJiBqgEMmToIsBkmUAXuQq5XNAQ//+P/4EVAUQd32UCOeq4H48CcpDkeT6/U+vWZa1pvrasFZte7h/xegdRxKN972zzsOttHylfa1+GeGLAG33KEB3cfl0wXhv0VueIfR/pc1f7x+KGdo8WL7cpIuLJgW/2beKG9hGPlU3jrs1pxPU2DxdN4s52j0ascW4Eabe7lO1RPd9s8eZPPb7b+53nPn++JS2L43q7t2p2++3N0rzVvb3dr2jZ8vnplituuun0xc0OWROQ+37wePZ6s9u5vRkj/7pmt1d32rYoop66fNHeDgSCU2+82GJb88m/NioT+P6jX/7Ih/v/s3Q9vYlGEgiywf8PtjldB2QHEKc4q6fyRYHkdjl+1yYeFSAUCJDUFQJkOmshQK4wSICabsYIUFdYJRN5Y6GNLZVMmjhBZsa6QubaeJusmezLqK5NZEapmJTyJMycK4E5k6oRQ4dXE6tpo6h2JvnRSdW21f8stQyAmfY65qjT9tjtgNOCOGlJesYRczVojh+qjDDUcJWJquOuenOtiE465cBYPx9nkuq+199ZvfsAcBPmHamUJCKVpqp+6wA=");
 
 export default MessageBot;

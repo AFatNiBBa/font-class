@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `custard` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/custard?s=sharp-solid custard}
  * @preview ![custard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/custard.svg)
  */
-const Custard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M448 64l25.9 116.5-69.5-19.9-4.4-1.3-4.4 1.3L288 191.4 180.4 160.6l-4.4-1.3-4.4 1.3-69.5 19.9L128 64l320 0zM64.3 350.9L94.2 216 176 192.6l107.6 30.7 4.4 1.3 4.4-1.3L400 192.6 481.8 216 512 352 64.3 350.9zM32 384l512 0 32 0 0 64-32 0L32 448 0 448l0-64 32 0z" />
-    </Icon>
-);
+const Custard = createIcon("custard", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABXQAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBQQsGAAE2AiQDCAQgBYMtBy4bvwTIjsO44TuyxVKeRQTPr9Hm/d1zRxaSqzSTSLNQr9LwppkkVk3yVS3z9Pfz/J9/yvNnPwg+UiS2FZcmxSrPJzDgKF/TRGbD2WiCvLNtr5YMlRAvFMYJ8nibXVNCupfiVnjT+KrDNZKKDEDUA2Dm+tVLPfsUnyJe9yBeW4yAmAkKgQwZegkwRSbQS65ALhd8ip4e8R9YEECUSs9NIEcJpmI1IAdJludtTVVVJTX5OhNU7l+7TqWjNZpjTcRj66Nmz/o169fH2miJtkAcfmDXkLraOlFZG1HVv7u++3u/+3p6seMMIuY2GWkc7s35xk1KHWfMuNin9w3qrGxd5DI3WNn7pqd+UcxQBDIQP1n75v6q7XVT/pdXJfDlwc/v5c40I3WjXAJBNqRniC1pBghmAFGKc/rvfFAgGSuTXrXabQFCJQIkpSoFyHSpFyBXabAAJfoYK0CpSqtlIq8Qmm3tQVLtJMiMcx7kmt0HJaZ4HpZqjgyQRDAQ/+PS5o2hucuKkcNGFJOKzUqTYIO385OL0/qAc7JvID5qn+OOOWOvPQ46M0JOWZqcddS8PXiuLyqMNMwIhUmK263n+9fZ65TTDjrumF9ksuJ9d4Bz+6MHYitJrKOsSxKRynafPf2FEAAAAA==");
 
 export default Custard;

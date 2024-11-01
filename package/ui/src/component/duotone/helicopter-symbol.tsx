@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `helicopter-symbol` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helicopter-symbol?s=duotone helicopter-symbol}
  * @preview ![helicopter-symbol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/helicopter-symbol.svg)
  */
-const HelicopterSymbol: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M2 224l64.7 0C80.1 143.6 143.6 80.1 224 66.7L224 2C108.2 16.4 16.4 108.2 2 224zm0 64C16.4 403.8 108.2 495.6 224 510l0-64.7C143.6 431.9 80.1 368.4 66.7 288L2 288zM288 2l0 64.7C368.4 80.1 431.9 143.6 445.3 224l64.7 0C495.6 108.2 403.8 16.4 288 2zm0 443.4l0 64.7c115.8-14.4 207.6-106.2 222-222l-64.7 0C431.9 368.4 368.4 431.9 288 445.3z" />
-        <path d="M176 128c17.7 0 32 14.3 32 32l0 64 96 0 0-64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 192c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64-96 0 0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-192c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const HelicopterSymbol = createIcon("helicopter-symbol", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABjgAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCKgsIAAE2AiQDCgQgBYMtB14bWgXIjtRG+QMZxsP3ul7PfdKubckM8q/MxB1hEDqqiCogLg1tJlUmrTc1K97n/5rP7/nRAX6jQ4oIKo4Cu17k8wlMdBZNewMtoZnOwGbt7BcGpS+DPl16Dxm2N4yOkMdv2RU10rPpBzyc/wcw/tHNFZIWGYBoC4Dpa1cu9sntuJ3ih8a7xA8WISBmgEogQ4aeAkySCfSUq5DLBbdTo8HtaDQqAoi6/LgM1NEMJ3EJkIMk5Hk+sjVvX9Za5WvKWrHx/iKeJMqIuNjl6RLxULzQ8Ynivs5P9U4RRJlPubYsyhenfjw34o9lv6zy5/KIX1dHfDXlo6Zir/Dl5A/7lvHXit/WJOHvlb+vLeK5SR/Manq57cv/9v1hzw/emNr6BjdaT7PNNK1v3Ghd5E+kWQvErel846te+m66deUH35frppXrvueDdeV0373k1em9eg0J4ahY4N5Hck6fbut+IBAMHv3Jpq1tJv3fvEzg7nv/V39IqfFZ3Esvo7kEgmxQY5BNiSTFPQEASHFGU+IRSSAzTo4/taWnBAgFAiR1hQCZHtoKkCsMFKCmt9EC1BVWykTeQuhocwNJS8dBZoyzINfRO6Bmkq/Duo6RuR/pPOTnL24OQrPXVcOHDKsmVMOSUB6Fp+WJ1bLW70wc6k8b7XHUEafstst+pwA5YXFy2mFzLHi2L6oMN8QwlQmq4+aeWwPhCSft15nzVSaq7rv9nLEn9yczYdQRjstkRIqs277dh/bvPHrs1O4Tg/1cGvyWJ/RQmZcLAAA=");
 
 export default HelicopterSymbol;

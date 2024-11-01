@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `7` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/7?s=solid 7}
  * @preview ![7](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/7.svg)
  */
-const $7: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M0 64C0 46.3 14.3 32 32 32l256 0c11.5 0 22 6.1 27.7 16.1s5.7 22.2-.1 32.1l-224 384c-8.9 15.3-28.5 20.4-43.8 11.5s-20.4-28.5-11.5-43.8L232.3 96 32 96C14.3 96 0 81.7 0 64z" />
-    </Icon>
-);
+const $7 = createIcon("7", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABTgAAAHAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBAgsGAAE2AiQDCAQgBYMtBygbegTIngl2TGRKmGYgOjdEUKyVPbv7GKYNIKFjmbgoQuHJpiKjL1lqbTPkHb+8+Y049TznoQDlniSKY2F0gYwFNud5BCIyrcsbLXjBKordnU0aTfBKS6wlr0OO1wuymJ+eUERyN/mBy+lL4696TpAoSwFEVQAMnT19oje/4lfE90LEd+MREENBLpAiRUMBBkgFGsrkyGSCX1Eo4H9gTgBRrFyZgAwpWqMDIAOJyLImFYoqZbPotvL0aJ2I2xUqxeNaN2vOiRs1b9S+5QN15kd5nMuXRbMXVV/882PVD0cqn+FMZao+Onz452H7X75s7ee/n+yLMYtvQyDYveHOlMVVBvwvrZCAP6+b+UhBjEheoFQCgrRDgQWxi8IYIQAACdDNYghINJGkkFnRrVU3lNOQKFaOVANVkSnXHkUa68kq16dLRVYm1LQQkKhoK1K9HESmplcoMsBnq1jNSF8Kf8/8Py1lFCdGLuVdO3XJ++XTSBUunw3T/rlabbPLVdrCqVU222SHlVZYawejtpno7rTRKIkc6YdyXXXSRa6ffDm9359lpW22W2uzTXFOf/l+s41dcntbEA/I3C0MicRqSfQGAAA=");
 
 export default $7;

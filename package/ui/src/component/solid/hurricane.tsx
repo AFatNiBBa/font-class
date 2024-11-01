@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hurricane` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hurricane?s=solid hurricane}
  * @preview ![hurricane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hurricane.svg)
  */
-const Hurricane: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M0 208C0 104.4 75.7 18.5 174.9 2.6C184 1.2 192 8.6 192 17.9l0 63.3c0 8.4 6.5 15.3 14.7 16.5C307 112.5 384 199 384 303.4c0 103.6-75.7 189.5-174.9 205.4c-9.2 1.5-17.1-5.9-17.1-15.2l0-63.3c0-8.4-6.5-15.3-14.7-16.5C77 398.9 0 312.4 0 208zm288 48A96 96 0 1 0 96 256a96 96 0 1 0 192 0zm-96-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Hurricane = createIcon("hurricane", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABbwAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBaAsGAAE2AiQDCAQgBYMtBzAb6AQRlZphyH4k2LYu1kqYYYaRQxV1NDZ8Ew8P657+3JlZkQmg6rpCCVDF/01uLwCgGUf6WNI13dT39zfP//mnD/gsABoLOw9keTjneQKdR2P5IsoCyzQAijXdJj7zEKWnI0KEJKLjCY+3DbJYm26Th+R08hIH7abxkwq2kSiQAojiAOg8cmh/d7/G14gXuevihb4IiM6gukCKFJUFaCcVqCxTHZlM8DVyOfwDEUDk1c4lIEMeDMcU4qeQSLOsWqVShfIUyUYUylMwvnSN+DDyZBlxvMynwe+Gf+z0dtieshEnyn4e8n7E5M0VI87UvVBwT+1z5U/ZVOF0nfOF9ta7WOlsjNhbJuK4TaWPFdxT9kRsLneyUM0rxa/8UuPljJd+jwH/y9e38NdqHRV5369Q/nwxMAb+l69vkWJVOyn8vl9hLFZrVvERj8bNq1Bh3rhHjyo6C0wTqxXdxa6i3QIqEOcubP9x1cRi7f7JXygB3+/89r++RbkHsSm5gvwSEKSNc43HxSaITQIAkMQKNWMTAon+UnbVwk4IEAoiQCKvggKkKikuQKagRgLkUVUbAfIqaKhUZAWE0sZPSBS2GFJtrYdMaVchj3aeqHmVjrS42NJgv3ZJvIdH3ZuqT8qytAyuXmipHtuyniOmVTMWLlg2fdrsZY4s6W8sn98jw90frD4py7F7nB8xfcnS2QsXaJ3jvqLP001tJEDLZ6G5M5ICs5YvWTJ76uQF0wEAAAA=");
 
 export default Hurricane;

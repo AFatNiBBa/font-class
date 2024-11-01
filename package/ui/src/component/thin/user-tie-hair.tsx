@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tie-hair` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie-hair?s=thin user-tie-hair}
  * @preview ![user-tie-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-tie-hair.svg)
  */
-const UserTieHair: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M336 128c0-5.4-.4-10.8-1.1-16L312 112c-22.1 0-43-10.2-56.6-27.5L251 89.9C231.2 114 201.7 128 170.5 128L112 128l0 16c0 61.9 50.1 112 112 112s112-50.1 112-112l0-16zM267.2 73.6C277.8 87.7 294.4 96 312 96l19.4 0c-6.8-22.8-20.6-42.5-39-56.7L265.8 71.8l1.4 1.8zM279 30.4C262.7 21.2 244 16 224 16c-56.4 0-103.1 41.7-110.9 96l57.4 0c26.4 0 51.4-11.8 68.1-32.3L279 30.4zM96 128C96 57.3 153.3 0 224 0s128 57.3 128 128l0 16c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-16zm80.9 180.3c1.4-2.7 4.1-4.3 7.1-4.3l80 0c3 0 5.7 1.7 7.1 4.3s1.1 5.9-.6 8.3l-37.2 52.1 23.2 46.3 47.1-94.2c81.2 8.4 144.4 77 144.4 160.4c0 17-13.8 30.7-30.7 30.7l-191.4 0-3.8 0L30.7 512C13.8 512 0 498.2 0 481.3c0-83.4 63.3-152 144.4-160.4l47.1 94.2 23.2-46.3-37.2-52.1c-1.7-2.4-2-5.6-.6-8.3zM199.5 320L224 354.2 248.5 320l-48.9 0zm10.1 167.2L135.3 338.3C67.5 350.6 16 409.9 16 481.3c0 8.1 6.6 14.7 14.7 14.7l183.4 0-4.4-8.8zm-9.2-54.2l14.6 29.2L224 480l8.9-17.9 14.6-29.2L224 385.9l-23.5 47.1zM432 481.3c0-71.4-51.5-130.7-119.3-143L238.3 487.2l-4.4 8.8 183.4 0c8.1 0 14.7-6.6 14.7-14.7z" />
-    </Icon>
-);
+const UserTieHair = createIcon("user-tie-hair", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABpAAAALNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDEAsGAAE2AiQDCAQgBYMtBzQblAVRlA5GjOzjMG74SkyWoSxDDAeFJU4MIo7KXzz8t1+7b2YWMY2QNIlFooZCKF4qTSx6JpE4fUvYQ6WEb3xybzMf2hgbSyewktXlXdEAnP/LPb/nRwf4+QgOZWxcunhMPFq7ep5AgEVd3hZpW2AHarFm7ewGbxC9QZKkfMiwvQyTPZR4ckpNekh13IQvjX+j5pHkDCB6AMDOSUURrjbYiKhXp4i6fRAQu4AZREbGBIJ1SoEJKjOgKIJGVBX9B0oIIJrw70igoB2v+AYUkLSWMtLWcc/GT2tsbCrUxqpqoTb0zLYx8LS/FQ9GGojY5Lcv6kzAAVdW7/MS3OwfSGvX3YaTvnudBM8EZFTuSCGv5NxKuuQGbk28mHk7+bI7qzYKwaXW661SGcQaCsYsq3UGGEtsNnAap/EqhjCdG2y9goKDQmioqo78zcXNcr21oI27vYO9PR1xx8EMrNqeTF7OrqQVBTfauu832//O7WH3Q5SktGhtIesiff2YwAym/z98/Pjhv6lZZlQ5aok1t1bhheUuW18/64s36/Do023qSGCvtDQjsmaGytA1pScs1aVQW1pZVmA6gpswPHWpqfGiRcZXbqQx06VTh0OaMIQMeFgNjObwbITpd+evM+viNRq18dMzYte/xU1nm423mIERz0PUGmiKz1+HWJzBU2MgQMD858F1LaaJ33RCXwJ/Px9+yxdXV/mbvtAigSAvVoEa4yoQOgAzxTV3YWKB5EUr8Kd2uBUgtCFA0qRNgGycGYKizQKCmilRCJq0OaAUpVUY0FRB0uEMZGumg2LACVCz7o7ZZCCywtLqRn8XE7JbKGuVDAsOlfFyGCuMDpJuMUFOi74TbM0PO9FtpBHG6dKpz7gGGaPIGW9ItgRnmZAUJlgoKZ7czu63V+syxlh9Rhrhl0kgz6u+JsjdflAUGHNJJElE6rzkZtC4vq6gNwsA");
 
 export default UserTieHair;

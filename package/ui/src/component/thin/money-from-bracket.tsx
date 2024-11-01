@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-from-bracket` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-from-bracket?s=thin money-from-bracket}
  * @preview ![money-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/money-from-bracket.svg)
  */
-const MoneyFromBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M72 16C41.1 16 16 41.1 16 72l0 80c0 4.4-3.6 8-8 8s-8-3.6-8-8L0 72C0 32.2 32.2 0 72 0L568 0c39.8 0 72 32.2 72 72l0 80c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-80c0-30.9-25.1-56-56-56L72 16zM504 80c4.4 0 8 3.6 8 8l0 376c0 26.5-21.5 48-48 48l-288 0c-26.5 0-48-21.5-48-48l0-376c0-4.4 3.6-8 8-8s8 3.6 8 8l0 376c0 17.7 14.3 32 32 32l288 0c17.7 0 32-14.3 32-32l0-376c0-4.4 3.6-8 8-8zM320 200c-50 0-88 33.5-88 72s38 72 88 72s88-33.5 88-72s-38-72-88-72zm104 72c0 49.9-48 88-104 88s-104-38.1-104-88s48-88 104-88s104 38.1 104 88zm48 120c0 4.4-3.6 8-8 8l-8 0c-30.9 0-56 25.1-56 56l0 8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-8c0-39.8 32.2-72 72-72l8 0c4.4 0 8 3.6 8 8zm-296-8l8 0c39.8 0 72 32.2 72 72l0 8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-8c0-30.9-25.1-56-56-56l-8 0c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const MoneyFromBracket = createIcon("money-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABrgAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDFQsGAAE2AiQDCAQgBYMtBzkbngXIhofn87469yU/lbLTgAeUV70bCFtz/i/3/D8/WiDLjuBQ5uiWtnCCjDGeJxAfNaa2wQIqCrNEMYXNMeDiHtJC+wXy+NseaqRr0yu4OPzQ+Fq/M0iyDEC0AWDVrTff0PIv4ouIV/5/knjF+giI1UAlkCHDkAAryASG5CrkcsEX8f//5n9gRQBRiN8qgRwlHsCTgBwkRZ5PnNDZ2T/QWGvOt2qsNWx/R1fEFX3iiq6reiKun3b/pOa4c8q9/ZPD1/VcNbFp1yu7U1zTdcX4prjLTA9kcXUvVpzSfWVjc5zfe3WI07Z4YnLEPX3XTrl3wdPT7h+8bup9C7e8wXDmP9U6IzfDWfTkfIjhLa/oaog7ut4L2RhXdu/W2ND4qtMQzQNX9469r+2+b8e8stcr1n74kP/4vm4TxS67FAW1Zd68L37whd0yObXu+/8O+eHhlXcpjpG9+snsyuxPXs2OscICaznnnBZe8Vj49NGbnMHhzc2Hn7FJI5oL91679gHv33LL+x/UIGLdrKOLXUqH/Pd9XfmEUb7plBp10oSN+Y9BCUp+9hnFLkAguKX/rUt3bl3h17Ixga+e+/6v6hH/L0+npPtQSiDIpv8/3Q5uEnx6AKkURxmLryKQ3KEQv2qTqwQIDQiQFBoEyAxqEyDXYJoANSMWCFBosLlM5PVClx07PGlyKJ5Z6EQ81+VxvGYFz6cLXZFRViSc+MeYttYQrDmvmjNzdrW0Wq1qJBby3vSy6rA7+ahJ1xQctZeDHeQIe9rDvo4YwIfZMHekA621Ba3phypzzDRbZanqcuOpsxWVPszh9l22XZ9lmer56GRHbQ+egiCJGecqSBKROgiuzyB33ozdDtt19/33PAI=");
 
 export default MoneyFromBracket;

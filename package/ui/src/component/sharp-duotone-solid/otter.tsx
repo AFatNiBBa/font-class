@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `otter` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/otter?s=sharp-duotone-solid otter}
  * @preview ![otter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/otter.svg)
  */
-const Otter: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 144c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 16 0 32 0 16-32 0-16 0-19.2-14.4c-2.6-2-5.3-3.9-7.9-5.9c2.5-1.7 5-3.3 7.5-5l3.6-2.4 0-4.3 0-24 0-8-8 0-48 0-8 0 0 8 0 24 0 4.3 3.6 2.4 7.5 5-7.9 5.9L112 208l-16 0-32 0 0-8 0-56zm16 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zM96 256l32 0 32-24 32 24 37.5 0c13.2 37.3 48.7 64 90.5 64l32 0 32 0 0 32 0 32-128 0 0-64-32 0-64 0c-35.3 0-64-28.7-64-64zM208 144a16 16 0 1 0 32 0 16 16 0 1 0 -32 0z" />
-        <path d="M188.8 193.6L208 208l16 0 32 0 0-16 0-32 0-16c0-35.3-28.7-64-64-64l-64 0c-35.3 0-64 28.7-64 64l0 56 0 8 32 0 16 0 19.2-14.4 7.9-5.9-7.5-5-3.6-2.4 0-4.3 0-24 0-8 8 0 48 0 8 0 0 8 0 24 0 4.3-3.6 2.4-7.5 5 7.9 5.9zM256 320l0 64 128 0 0-32 0-32 32-32 32-32 0-32 0-32 64 0 0 48 0 16 0 64 32 0 0-115.7c0-48.2-30.8-91-76.6-106.3l-8.5-2.8 8.2-30.9 19.9 4C576 86.1 640 164.2 640 254.9l0 1.1s0 0 0 0c0 123.7-100.3 224-224 224l-1.1 0L256 480l-.6 0C132 480 32 380 32 256.6l0-.6-16 0 0-48 0-64L0 144 0 96l24 0 2.8 0C44.8 58.2 83.3 32 128 32l64 0c44.7 0 83.2 26.2 101.2 64l2.8 0 24 0 0 48-16 0 0 16 48 0 32 0 0 64-32 0-32 0 0 32 80 0-48 48 0 16-32 0c-41.8 0-77.4-26.7-90.5-64L192 256l-32-24-32 24-32 0c0 35.3 28.7 64 64 64l64 0 32 0z" />
-    </Icon>
-);
+const Otter = createIcon("otter", true, "data:font/woff2;base64,d09GMgABAAAAAANkAAoAAAAAB4wAAAMYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTSFGQsIAAE2AiQDCgQgBYMtB0YbsQbIBv6puu87N7NaVY18X8yGXF/mDtqBQ3KnF7OUVxP1x/3k/5ceRfl4oPOhRCZWgWSeT2DAEUU7n+AGrBOmjXOjwsjcLxyPFxCYcnuaDDDXm4+AC97/AOonhnMaDDkWAAA5AABg3JIFs3gtrbTRR8lToI+YCQhA4wHwCLCABUYhAHqwCBhFgAcCAgRpkySQVpJ4EAAoE++tFoBMIBtUA2oHAAIADIYgCNpP9OSMyYky8oLFUUa4pLSsNIoUHHdD1QNloe6quG8YQlFUrqEaEmLEjCKEDIoPXoTYoa6G0imsJCPLT1Q90DZEI1Wqr8e9vgidCC+6reGxqe9NDMN3pn/Q9ESRFEpKw1F0Y/WDJKozlfcPvwAJpTkSetSjXuieqgdGOPQqVUh1/RpXabRifUh6sJwjdxORZG2oTNcMCYnXDiUNlST7JRAZHBukEoWXma4ePCtaM+mqQYuiMKpWpaLzciKEwh2SuwxLlvz8ogfcA78UfrT5I176v7a21nmHxxGmUrfF3JZKhR1k410th9hIEwHDyCa7I5thBDSxkUPjj8RxfByPJyHB44lpwBHjOUjpjJnV+zlKMxPyL19mkgDI//yNmtFp3fbZqNovXs8TjgZiHA0Ms99cvL0opuj2i9/YYQ04HA0+xnvPXBIcnt/37ruxjP/4D/9KU3997oD3St8vdS0pF7bhXj2aWpzPpsPlp9P5brRgj/f+yKwybty39/frWJ7jxJoYOvbsWfQ6AAgQTBiZs3tNQc8/2ZEB4IcXfvsxf54kbY6bB4BsDAACW5PUsNIcB2D8AoCY0WGKZr4qRoDlOQKCbblcgwAQIdRgyCQEy0gcBIRUQwZjaJWsnL4Ai4IcxCBWQTDksg8sbRyBgEE8CRn08G40k0Gytkb2zct+WlNPbmMmDfONdQ2+y0/mlXKLINH93X61ueIwr6uES9nMHnZzkE1sZBsHW5T9zEocYheT5wQnfdbTSB0NeLrwu0v31Ytb0f0cYNu4cv8g3fjz/RUcnm9dCW2GQGgTWy0WZGTz9hw8uGl/renTFbSUpgwAAA==");
 
 export default Otter;

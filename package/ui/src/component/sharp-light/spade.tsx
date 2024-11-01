@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spade` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spade?s=sharp-light spade}
  * @preview ![spade](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/spade.svg)
  */
-const Spade: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 400.2l-6.5 6.6-1.4 1.4c-53.1 53.1-139.2 53.1-192.3 0s-53.1-139.2 0-192.3L256 0s0 0 0 0L472.2 215.8c53.1 53.1 53.1 139.2 0 192.3s-139.2 53.1-192.3 0l-1.4-1.4-6.5-6.6 0 79.8 64 0 16 0 0 32-16 0-64 0-32 0-64 0-16 0 0-32 16 0 64 0 0-79.8zm-6.8-38.7L256 338.4l22.8 23.1 23.8 24.1c40.6 40.5 106.4 40.5 147-.1c40.6-40.6 40.6-106.5 0-147.1c0 0 0 0 0 0L256 45.2 62.5 238.5s0 0 0 0c-40.6 40.6-40.6 106.5 0 147.1c40.6 40.6 106.4 40.6 147 .1l23.8-24.1z" />
-    </Icon>
-);
+const Spade = createIcon("spade", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABaQAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBcAsGAAE2AiQDCAQgBYMtBywb7ATIjtRG94xd4uH7td7Ofd3zK5kJQweAQbEjoQgdkEp22UUuWFQrU5MhtfHzf7nn9/zoAL/Roe2hG8ekO1ur9TyBQLMrDrzX8yywTBOw1E0JRUV88hWRIlWHjH/Q490D8ngTvZVId9OPuKkfGn9p6TJJngGIBgCYsGzRHB9/j98jfqxG/GgWAmIiKAQyZGgjwGiZQBu5Arlc8HtUq/k/sCCAqMGXJ5Ajx2psBuQgSXner0ulVDdfWimVlzVp3qRJvC1fGfs+LoxbFhdSbkm8c370rDQLlEWlIsrl0PvRrlf3Xj2iRzyoXO31LC70PPWWxuKAe9/5Ht7WqF4dHzZ4+I8ft/7ov35LmW7g9tCht0/U0omvX0HFDOZcZav5xjcoNHgu7vj5W7ax4JhvPXp++xWbv8Gnjz5+Av8J85/7nB51twGBYNKje7fW1R/9f61KAn++/m/6K6p+TNJD1JJAkPWu9rY6gUQAAFIc1TFBIFks4bvWcUuAUEaApEZZgExrDQTIlfUSoKSdIQLUKFskE3ltoYk1AyR1HACZoc6AXBOvQMlon/0aTSILMCI8iN+72KkWmnKpGNC3fzGyWFY6GTNYOx1VPFa7Hy2THrhpq332OmyLzXY4bJCD5kRH7DF1B0/xRYUB+uqvMFJx3T6zS8U/6JAdPn1/zijF+2Z3R/frPWAkRB2IT58gn0qH9m/YvAUAAAA=");
 
 export default Spade;

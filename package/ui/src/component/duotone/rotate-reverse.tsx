@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rotate-reverse` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rotate-reverse?s=duotone rotate-reverse}
  * @preview ![rotate-reverse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/rotate-reverse.svg)
  */
-const RotateReverse: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M44.5 330.6C55.3 361.3 73 390 97.4 414.4C141.1 458.1 198.4 480 255.8 480c56.9 0 113.8-21.5 157.4-64.6L454.8 457c6.9 6.9 17.2 8.9 26.2 5.2s14.8-12.5 14.8-22.2l0-119.6 0-.4 0-.4 0-7.6c0-13.3-10.7-24-24-24l-7.6 0c-.2 0-.5 0-.7 0l-119.6 0c-9.7 0-18.5 5.8-22.2 14.8s-1.7 19.3 5.2 26.2l41.1 41.1c-62.6 61.5-163.1 61.2-225.3-1c-17.5-17.5-30.1-38-37.8-59.8c-4.6-13.1-17-21.4-30.2-21.4c-3.5 0-7.1 .6-10.6 1.8c-16.7 5.9-25.4 24.2-19.5 40.8z" />
-        <path d="M406.6 202.6c-7.7-21.8-20.2-42.3-37.8-59.8c-62.2-62.2-162.7-62.5-225.3-1L184.7 183c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8L48.3 224c0 0 0 0 0 0l-8.4 0c-13.3 0-24-10.7-24-24l0-128c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2L98.3 96.6c87.6-86.5 228.7-86.2 315.8 1c24.4 24.4 42.1 53.1 52.9 83.7c5.9 16.7-2.9 34.9-19.5 40.8s-34.9-2.9-40.8-19.5z" />
-    </Icon>
-);
+const RotateReverse = createIcon("rotate-reverse", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABiQAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCFAsIAAE2AiQDCgQgBYMtB1gbPgXIhiA+77+vPsnTmBkA+iJXMPcg7sWpmnEeCuCDxGlvDMhYYKtrnVeg5/W1zwtWq0hNa2Ddne2iZO2TEBmT49E4Pk/I493sFGWkK9PrOB//BzC+0dQpJFUZgKgDgDGL5s3w9IfxYYrXS/cTr5uOgBgLCoEMGVoIMFwm0EKuQC4XfJhKJT6MUqkggCiHL85AOXLsxH5ADpIQed5rUPWymvlC3F1t3XVd36x21vQRcWmDSxpUixPtXdXitmYRlze+vOGIeGrSSxNeGPFES6ZwSaPLGi26NisPeaD62YMeGjVO94PGQd5VHYVINWaIEVFfr3bWzLtaXdXxrA9r2PauOnd91+b1ja+77Nd7rqw1elTNM1w9Y8eHh0GlOQ1PUPuDDx4902vnHnvueY+N/2/4tKXP33f/rdN03/9f/zq7z+/e7fjzXemuzz6oLXh3wzmVEIf8uGLF3WeoOXpUrbtuOHl0+Zjnpy6bDgSCPy+/7OtVtYf/Vlk9gY8f/eGX8EOqU/owfkx3oVICQda91N3yRB114kcBAEhxUNtEHZ0FMoMkdKqGywQI1UiQlKsGmebqQK6ablCmlQHM5AnzZCKvEhpYAZDUsAcyAx0LuQbugzLDvRSVaxCZzvEaw//4UiaW+IRVRZ+evYuhRbcSBTVi3eKwYtrpfNAMdIGdNtplp/02WG+L/QW514z0gB0mcsQEX1Too6feCkMVy+315oU22GufLXbZ6ZcZptgfdnaQH98F1pMAfU/rVEakyBrt3bV/zf4NPd6O0UN/RzVpSXcVAAA=");
 
 export default RotateReverse;

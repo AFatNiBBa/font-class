@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ring-diamond` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ring-diamond?s=duotone ring-diamond}
  * @preview ![ring-diamond](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/ring-diamond.svg)
  */
-const RingDiamond: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M98.5 61.3C95 68.4 95.2 76.7 99 83.7l30.4 54.8c19.6-6.8 40.7-10.4 62.6-10.4c1.4 0 2.7 0 4.1 0s2.7 .1 4.1 .1c2.7 .1 5.4 .3 8.1 .5c5.4 .4 10.7 1.1 15.9 2c10.4 1.8 20.6 4.4 30.4 7.7L285 83.7c3.8-6.9 4-15.3 .5-22.4l-24-48C257.4 5.1 249.1 0 240 0L144 0c-9.1 0-17.4 5.1-21.5 13.3l-24 48z" />
-        <path d="M192 192a128 128 0 1 0 0 256 128 128 0 1 0 0-256zM384 320A192 192 0 1 1 0 320a192 192 0 1 1 384 0z" />
-    </Icon>
-);
+const RingDiamond = createIcon("ring-diamond", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABggAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBegsIAAE2AiQDCgQgBYMtB1QbIAXIjsQ4hvKnaFY8fNhFvd/dMwuoV1IEKwIjunKAky3uUkdTlwrxFPn//F9TL54fFcjnc8+yBimQo1jl8wnsebW3Hc5GE5rO0DY4b/IBh+KQfoEs9qXHFEiuJd/ijPsfwPhVM8dIVEsBRF0AjJ03a6ZSOcpJfFt5RnxrBgJiHMgFUqRoKcAIqUBLmRyZTFBOKilHZU4AUeRenIIiCliOdYAMJBKRZS1atKtRqJXNrVGoPu94l4hbXW451PU2pWqc6H6XisPd7lRQfc6hHhH3hryqfnzYm14P4nDvh8Pf1jgx9HXP+xZdbNQ3btYECDWq7lKj/nGlca+43Lh6HG/Yo92dund+b/vt2m99rLQvUWpVq127Wq1KpfY6x1Z9PDjgBie+fOnfP3JO3BiAcmiPlUcWLfzez23Df0/Wp+qOv31n4fSDNpWXq735IBAINpSmjVhWZ8T/VWsk4Jc3f/4re7pSikPJHVSVgCDtUelhcRwCRg/gRyWxV7s4hCUCqUES6FNruixAqI4AiaLqAqRaqCtAprruAhS0NlCAoupmSUVWTWhoSQUSNe0AqUH2g0xDT0HBCJ+iooaR3mbcTcL95CVPaqITp+V9e/XJh+WjuYK/cxg9PjxfbHfZy9u6wrPW2mar3dZYbYPdDXynmekeW0yawib6olxfvfSRGybfXLsrz21EO+2yYVjcPslw+fFhF3une3eFs0kA/U5QJiWSSBt+JHrPl1vvecd2Nu4RH04A");
 
 export default RingDiamond;

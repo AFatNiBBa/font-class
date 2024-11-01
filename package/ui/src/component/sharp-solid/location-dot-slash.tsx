@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-dot-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-dot-slash?s=sharp-solid location-dot-slash}
  * @preview ![location-dot-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/location-dot-slash.svg)
  */
-const LocationDotSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M457.5 332.4C488.3 282.6 512 231.4 512 192C512 86 426 0 320 0C248.8 0 186.6 38.8 153.5 96.4L48.4 14.8 29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7L457.5 332.4zM257.7 177.3c6.6-28.3 32-49.3 62.3-49.3c35.3 0 64 28.7 64 64c0 24.6-13.9 46-34.3 56.7l-92-71.4zM402.1 412.8L128.1 196.9C133.5 310 320 512 320 512s39.1-42.4 82.1-99.2z" />
-    </Icon>
-);
+const LocationDotSlash = createIcon("location-dot-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABawAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBTAsGAAE2AiQDCAQgBYMtBzkb1QTIjsN06yPHMSRJ8x1B/Npvdt/dfUSsmieTLFYyFUqgWcqESCkWKQELxtXsvZ0AqEHJUXZyZRMSp049z3kogM8hCNpYuDQgC3SP8wgEeCycHVYrUKxYqyjWvGVkZSnrmZlokh6/e3w7oIpvpgo1+Z4ngOf+ofEHCRWQ2gsAog8AcHTv646Na7omOv6fhfiEKwiIIwBzCAUFUwjsYhKYwmwOVCrBF/3/83+gFBBANNDXJqhQ4xzcAqhAKhWzFC8/FwsPc4Cs54wdlyRqn7z0OQ3YMVpQCyAFUiN5yk6cpl0kIKBZkai/s3d+UKJFKcA/JjqmVXvSelN9UKReddhSZoh/6En6JOEEh7lx98AvD3n7+3uT1+JgZbIXNOxCg9lH2dhVtN9kxwPdox0CApyib6GOdQ8CV+PNJrM71lYT6/D4xAkQCC7WbV4i+cy+2LkYgJ+llyfI0/8bjJIcQpsEQVn6V0NYlgCjA1AzCiATfFEg7WOiV+3yggChAwFSo0OAYhI/ApUOiwjUZugj0OhwjUlUHAhDwg2kLg+g2FEIKkOmQW3XvtIYCiY4kWAgP3NxDh6yb5LS1tCSMpHaWiaFELxWTaWOeaWCHFGmRSTIlCFPvDjJ8hySw13Pl84hgu39kBRtGrRIMSF17b5OB4iXI1eyTBmtjimp97KSgjhdmSQGxdxgSEmkIA5b1OMy89Rz06JzkwA=");
 
 export default LocationDotSlash;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bat` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bat?s=solid bat}
  * @preview ![bat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bat.svg)
  */
-const Bat: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M235.6 52.8l10.8 14.4c6 8.1 15.5 12.8 25.6 12.8l32 0c10.1 0 19.6-4.7 25.6-12.8l10.8-14.4c2.3-3 5.8-4.8 9.6-4.8c5.8 0 10.8 4.1 11.8 9.8l19 101.4L452.6 125c16.2-7.7 35.5-3.6 47.1 10C548.9 192.4 576 265.6 576 341.2l0 37.6c0 9.7-10.2 16-18.9 11.7l-63.8-31.9c-7.5-3.7-16.6-1.1-20.9 6.1l-29.8 49.7c-5.4 8.9-17.7 10.4-25 3.1l-36.6-36.6c-6.8-6.8-18.1-6.1-24 1.6l-56.2 73.1c-6.4 8.3-19 8.3-25.4 0l-56.2-73.1c-5.9-7.7-17.2-8.4-24-1.6l-36.6 36.6c-7.4 7.4-19.7 5.8-25-3.1l-29.8-49.7c-4.3-7.2-13.4-9.8-20.9-6.1L18.9 390.5c-8.7 4.3-18.9-2-18.9-11.7l0-37.6C0 265.6 27.1 192.4 76.3 135c11.6-13.6 30.9-17.7 47.1-10l71.8 34.2 19-101.4c1.1-5.7 6-9.8 11.8-9.8c3.8 0 7.4 1.8 9.6 4.8z" />
-    </Icon>
-);
+const Bat = createIcon("bat", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbwAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbQsGAAE2AiQDCAQgBYMtByob5wTIhuB5vaefc5MFnAWMyqr5YbVwy0rd+/tT+V3OQwH8HIKgjYWLlo4FPkd7XoECj+UbqDytWKsoVreJBnZIsTdCgiSk4/T4ejpAHt9np5Qh3Upf4EL/0PhdA6dIKmQAojoAhs+dOdk7v8QvEZ+XXiQ+NxEBMRwUAhkyNBZgkEygsVyBXC74JUol+Q8sCCDKwr0mkCPDAqwC5CCJPJ9RqUyVfE6lMhUX1qlb51qlSnGmXr24UelandkxN+63f7P7s8Sx2lfrTojrtbvF1bpDGGbBHBgEPWDcgusRcbzn80Mftw7tvlHvTJ0Wj6o/+rP5F2u+8Pvpe7iju9UL1e/e06vsxfo1Vxnb3KNeE1r16t9GuZkzV5R8ePAdT347yqeP+47z+ed9x3n8aS/fPvmNgx+WrJg5s1wb/Xu1mtDrkd6u5irtjpXtBQSCmQvqV19abdA/5Ssl8Ntrf/+vXF36Iw1Lj1BeAkHWqdTJojQMhBxAkGKPFs4XBZIZErxrZdcFCBURICmrogCZRqoLkKuoowBlNNVbgLIqmikTeQWhtsUTJZVtR5k+DqNcbc+jMgb52C+rdmTpxSYH+7pLGmOx0fOK7l26FQOKbWxwGUPr9MDiWG63p9ba015rbLXFLqutst4uQ+wwOdptszEePtoPFbrropvCAEU4e90+x2o77LTeVlvaLAMV96129vjd7UlLQNmDnSS/DOsrlu8CAA==");
 
 export default Bat;

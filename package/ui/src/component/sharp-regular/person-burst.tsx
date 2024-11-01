@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-burst` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-burst?s=sharp-regular person-burst}
  * @preview ![person-burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-burst.svg)
  */
-const PersonBurst: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M222.7 79L203.9 47.1 176 0 148.1 47.1 129.3 79 92.6 73.8 38.4 66.3l19.4 51.2L71 152 44.1 177.5 4.4 215.2l52.1 16.7 35.2 11.3L95 280l4.7 54.6 45.6-30.3L176 283.7l30.8 20.5 45.6 30.3L257 280l3.2-36.9 35.2-11.3 18.1-5.8 15.9-28.2-21.6-20.4L281 152l13.1-34.6 19.4-51.2-54.2 7.6L222.7 79zM239.9 125l-3.8 10-11.4 29.9 23.2 22 7.7 7.3-10.1 3.3-30.4 9.8-2.7 31.9-.9 10.6-8.9-5.9L176 226l-26.6 17.7-8.9 5.9-.9-10.6-2.7-31.9-30.4-9.8-10.1-3.3 7.7-7.3 23.2-22L115.9 135l-3.8-10 10.6 1.5 31.7 4.4 16.3-27.5 5.4-9.2 5.4 9.2 16.3 27.5 31.7-4.4 10.6-1.5zM480 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-51.1 32l-14.1 0-6.9 12.4-75.3 136-11.6 21 42 23.3 11.6-21L416 224.9 416 488l0 24 48 0 0-24 0-136 32 0 0 136 0 24 48 0 0-24 0-263.1 41.4 74.8 11.6 21 42-23.3-11.6-21-75.3-136L545.2 128l-14.1 0-102.2 0zM496 304l-32 0 0-128 32 0 0 128z" />
-    </Icon>
-);
+const PersonBurst = createIcon("person-burst", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABogAAAKkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDRwsGAAE2AiQDCAQgBYMtBzMbygXIHoexe2RFXnEqwvyl4uH/7fp+n1vVD91j1EiKYGVSNhNR/zuCmAJaOQfnDW2r88kGR3cRLK/HDDqPKMMhDnUi40ZOjTfeH7/xChftPLs7D+RcO+fFJ9D4ni3F7YMs42sFmyjO3NU+JNF9pLVEG8njucfPCfL42zkl0qX0Ps5Wj8ZvWjpBUsoARIMAYMLCuXO8/LUX3vv/CeI9sxAQE0AhkCFDGwFGywTayBXI5YKvY/8P/4EFAUQVPEMCOarxBj4C5CAp5fmortskLdXNF1RK5aU9e/TsG7Vc74gBHCZWdwzZN7CoFCYRzyBjKZVx78YWg6tJ8yYtosAxMQVEM0XLCyEYKSFVTIhLWJMBKmR3nPtbX2l1uevdFhdbXuoyvVwpN/FECxPLHylEJSIiKkFcs5gfLS2ML5oh8/YFbXvHhxo89EeH9ze878td/eDZF72on8E2GuQVD9pnvJ46m+pD3/nOh6bqrKcufjPZA1410EaD60494lHrHXDHx/qpOOmWW/Yr6+cTtx2w3qNGuOU7FdNNV/G9m3+1ufnjU0/9eLPp/eqhYKuZpz3uQmJ1n6laC/2hMwpJtOqlaPJ7D96qXsdbFMURhSNAIJg57f2XVtYf/WsqCXz77F9/9dvz/19OJz2EGgkEWe+tLUtH5MJwFIBkigM60rKQvKAE31rHeQFCGQGSKmUBMq01ECBX1kuAknaGCFClbK5M5LVCE8uFSerYzWSGOsjkmniMKRntrXiVJoF9WfRE8SuZNnUEpjgVA/r2L0YWah1L7snn+VHFsdH9QOzrQa422GmHfdZbZ7N9A77HnNR+2021wCl+qDBAX/0VRiquW8+7F1hvj70222lHWWSU4n2suwP26B5kJ+AcqCxJRKrj+nl91uzfs3cfAAA=");
 
 export default PersonBurst;

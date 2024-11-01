@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-day` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-day?s=regular house-day}
  * @preview ![house-day](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/house-day.svg)
  */
-const HouseDay: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M174.2 8.3C171.4 3.2 166-.1 160.1-.1s-11.3 3.2-14.1 8.4L118.4 59.5 62.8 42.8c-5.6-1.7-11.7-.1-15.9 4s-5.7 10.3-4 15.9l16.7 55.7L8.3 146c-5.2 2.8-8.4 8.2-8.4 14.1s3.2 11.3 8.4 14.1l51.2 27.6L42.8 257.4c-1.7 5.6-.1 11.7 4 15.9s10.3 5.7 15.9 4l55.7-16.7 6.2 11.5 24-19.6 14.5-11.8c-1 0-2.1 .1-3.1 .1c-44.2 0-80-35.8-80-80s35.8-80 80-80s80 35.8 80 80c0 6.6-.8 13-2.3 19.2l54.6-44.5-31.7-17.1 16.7-55.7c1.7-5.6 .1-11.7-4-15.9s-10.3-5.7-15.9-4L201.8 59.5 174.2 8.3zM208 160a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm207.2-58.6c-8.8-7.2-21.5-7.2-30.3 0l-216 176c-10.3 8.4-11.8 23.5-3.4 33.8s23.5 11.8 33.8 3.4L224 294.4 224 456c0 30.9 25.1 56 56 56l240 0c30.9 0 56-25.1 56-56l0-161.6 24.8 20.2c10.3 8.4 25.4 6.8 33.8-3.4s6.8-25.4-3.4-33.8l-216-176zM528 255.3L528 456c0 4.4-3.6 8-8 8l-240 0c-4.4 0-8-3.6-8-8l0-200.7L400 151 528 255.3zM352 312l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24z" />
-    </Icon>
-);
+const HouseDay = createIcon("house-day", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABmgAAAKhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCcwsGAAE2AiQDCAQgBYMtBzAbcwXIngeZm5dmRziUZav0H48jqNbe79mDECuWqJCERgukIxx6IonOxJhULH3h/jN4/7KZQHyR/wYuDdQAT6xyFdSq2jbVUbUAqbphmZxC7EAIqJcTj7GKicud//nTAy7yRxqT5qxwAe3NXQKBjulrimRhFqjFmm6zdegRhE9EhARKSMfp8bWFPH4zCtIjvQCc9zeNb5ibgKTIABDNAIDljfREXMgpJ5//vwPxgXgQEMsA+hAZMnQhmKMo0EVJH8jlgk/+/0//gQIIIErIr04gRxWewDuAHCRFrhShLXQNNJW1lbI0lTXyFzXmRGIcF2VeZYzhPI6MYylxXhc8msb0oCnnwhzfPadt6569O/ukjkgy3enAJVuUGPpmrjof9v20Mg7WUcleNMrgfF5YHkQ86sLQ5JEvFdKNB75mWZmgGyMNLhqZzcwM0KNP0DNWpwb3k/1pPP12L6pe4Mq9aHX16FvYNFZV5aqCWR0a0xEGFf0XjzWjTrt3oAi9qkwyq1JPrzKLGmYFkONbnVeCW3ZL3NTf36Qxjn8Venn5+hoqj95bTuAZVf/+tXxAy//3qrs4Q2flxn/Dall5KhNUSj6gpHyK4QO2rgVLyDBOlZDaIWE+DkAg2H5b6ynWDf+qRgHw9fD9t3I8KhcK03QKqiUQZMP/PVGQRqDy0xmCIPEUXbDHJwkkVyjgVevdIUCoRYCkVCtAppMeglytIQSFHgEISrVWKIpcHaFd4YaTeodwZsIgnGt3Cy7MeRwvtYdihtL5RX8QE6I0EDlOyLwlESrMgsUkHdkGw8S17NrFDW7YiCrNmnSoVKFWh4LaJKY6NYrywEhfJMh4kwihRLj8KWQpq007ExCb4qOEEe99V11+ezdoCgR3RFqSiKSevTGvitJeAA==");
 
 export default HouseDay;

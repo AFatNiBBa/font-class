@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ear-listen` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ear-listen?s=sharp-regular ear-listen}
  * @preview ![ear-listen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ear-listen.svg)
  */
-const EarListen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M508 177.6l3.5 17.7-47.1 9.4L460.9 187c-11.8-58.9-47.1-110.5-97.8-142.7L388.9 3.8C450.6 43 493.6 105.8 508 177.6zM240 112c-70.7 0-128 57.3-128 128l0 24-48 0 0-24c0-97.2 78.8-176 176-176s176 78.8 176 176c0 50.8-21.6 96.6-56 128.7l0 7.3c0 75.1-60.9 136-136 136l-24 0 0-48 24 0c48.6 0 88-39.4 88-88l0-18.1 0-11.4 8.8-7.2C349.7 315.7 368 280 368 240c0-70.7-57.3-128-128-128zm0 88c-22.1 0-40 17.9-40 40l0 24-48 0 0-24c0-48.6 39.4-88 88-88s88 39.4 88 88l0 24-48 0 0-24c0-22.1-17.9-40-40-40zM168 320a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM24 464a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm57-97l64 64 17 17L128 481.9l-17-17L47 401l-17-17L64 350.1l17 17z" />
-    </Icon>
-);
+const EarListen = createIcon("ear-listen", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkwAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCXwsGAAE2AiQDCAQgBYMtBzEbYAXIjsM4JlwZ+IjCJYJAZzYryQdyGBRmruABACpu818Cm2hyV1uU0ItoKs3/NfXi+dEBfqNDirZKkAKrWtTzCQw00r9vIrMDm+kEbLvTanFASom0yJL8njkuELJ4MS5TIrk++QiXhonGKS2dRaKUAogGAJiwbNEcr/0YP0Z8WHma+NAsBMQEUAikSNFGgNFSgTYyBTKZ4MeoVPR/YEEAUSVCJiBDDS7FTeg5bkpVWdZoUPva2oblUt1sabmUb2vZquXgaBW39H1kZL94vs/DHTa+NTripULkEfHtoi+Xfb3g8yVfzRe3jX5pch4R5Xi214PtIyKax6ud7hj7ylQXNIm4isgj4tZeDw57usf9bcn905tdky++u+V1ne9pdWO3cmzZgoULesTo6BkL0/vHRY+ODzR44Nd8tPUj/9Tt37//X+KiM69afq3vTv1yz06YP4nB00J/LcTMBkijEjkzZ2G12i1LLxvDjj/vvKyRsnO91bY0eNL85Q0f5IWGBsmU8VOOnGh4DzacdmxB06YLknXppdUZvr4SMjREhXsdBIKH519097r6o3+rKSfg5xf+qd9g5bVE8gBqJCBIe1d6W52AhAAAJHFUx4ZA4lyX/Kl1XCNAyBEgUSUXINVaAwEyuV4ClLQzRIAquUVSkdUKTaxpIFHHAZAa6jjINPEkKBnt3ahKk0rlkpMq7luYPJXiUw4VA/r2L0YW00rlRY2xu6OKZbX7UTPTA57aap+9Dttisx0OE/KgOekRe0zliCm+qDBAX/0VRiq22/v7S21x0CE77LPX7zNKcT7s7ii/vAcYiUg50MVEQiT5lg0H+zwxAA==");
 
 export default EarListen;

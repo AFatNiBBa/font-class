@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `suitcase-medical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/suitcase-medical?s=thin suitcase-medical}
  * @preview ![suitcase-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/suitcase-medical.svg)
  */
-const SuitcaseMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M168 16l176 0c13.3 0 24 10.7 24 24l0 56L144 96l0-56c0-13.3 10.7-24 24-24zM128 40l0 56L64 96C28.7 96 0 124.7 0 160L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64l-64 0 0-56c0-22.1-17.9-40-40-40L168 0c-22.1 0-40 17.9-40 40zm8 72l240 0 32 0 0 352-304 0 0-352 32 0zM88 464l-24 0c-26.5 0-48-21.5-48-48l0-256c0-26.5 21.5-48 48-48l24 0 0 352zM424 112l24 0c26.5 0 48 21.5 48 48l0 256c0 26.5-21.5 48-48 48l-24 0 0-352zM232 200c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 56c0 4.4 3.6 8 8 8l56 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-56 0c-4.4 0-8 3.6-8 8l0 56c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-56c0-4.4-3.6-8-8-8l-56 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8l56 0c4.4 0 8-3.6 8-8l0-56zm8-24c-13.3 0-24 10.7-24 24l0 48-48 0c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l48 0 0 48c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-48 48 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-48 0 0-48c0-13.3-10.7-24-24-24l-32 0z" />
-    </Icon>
-);
+const SuitcaseMedical = createIcon("suitcase-medical", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABsAAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDRwsGAAE2AiQDCAQgBYMtBzcbzgXIHoPjblkwWKLo60eJMOjX83j+//f731z7nGf3i5LEqlkyi6Ilk5JJqJBNEo0fOoNKaO4/2b1/7u6LZmJM5Ik3lCuoSm1/sPvuvouORQPWTzdF8bhjRLxXx/xfjm/x0dGaRRzKWBukjb2j9sIEAvzWC8eyhLKAyjQAijXfbT0zaPi+NkRkqIgYmvNCuTP0PJUuBtRz/QC4m140P+FkFSitASDLAIAztyuL8eobfSP6oH8F+YZCEMhZADsQGhq2IHCcKthCZwfouvCd9Hr7HyggQMbA7yjQMcNXwAYAOiiTrjMP4itWMoCPzHQ13IA1csYvAjQQ0d5oIEPO99pRyc658TXL1bvtomb33vJjIVriJmO0hnVUzzEzhUxJJV7HOLvkprOaPd/y51F6zx1kG05KtrHuw6JWbTnwbBiylVOPwAgCz7JJspJ5xWg0tPncETSQo54XD3WVFHK3WcC7blne+r7zQ88HV/cfAFi+ScM3aOyuzmqoTcOxlRVjMPPHi/W+NBqr97etHsDq5RMro0u/flm2QWoj9rc64s3y00cV2sYn6Yi2ywLwpXbcJtA21sCQhol1NPSqZ8vtJKSgL2B3VUKuFJCPA4Lw53yU2WqR9N+YK4AfT37+wt+i/98K9UJgqkBoe/RfUwGKAAAqM/AqCMonGMGzznsCAjEgoIwNAprNLBHoBrsRGNkmBoGxwXWqdBPEuuYql3l35OaYOblb91geOe51fmw9TZetmmj9lcyV0yLZ20REmBQJYlhXbOpp9vOJYjkUMOP6AmkveowaMaVbl35TDTGhuDRtWM4Mz/ZBQoQwkpBAbLeWu2t0mzCp36iRuEkicT4XYGY+OpCiChg8RFOKlOVjNV99X+i3DQAAAA==");
 
 export default SuitcaseMedical;

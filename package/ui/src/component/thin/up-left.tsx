@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-left?s=thin up-left}
  * @preview ![up-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/up-left.svg)
  */
-const UpLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 96c-8.8 0-16 7.2-16 16l0 235.7c0 11.2 9.1 20.3 20.3 20.3c5.4 0 10.5-2.1 14.3-5.9l75.7-75.7c3.1-3.1 8.2-3.1 11.3 0L290.3 423c5.7 5.7 13.5 9 21.7 9s15.9-3.2 21.7-9L359 397.6c5.7-5.7 9-13.5 9-21.7s-3.2-15.9-9-21.7L222.3 217.7c-1.5-1.5-2.3-3.5-2.3-5.7s.8-4.2 2.3-5.7l75.7-75.7c3.8-3.8 5.9-9 5.9-14.3c0-11.2-9.1-20.3-20.3-20.3L48 96zM16 112c0-17.7 14.3-32 32-32l235.7 0c20 0 36.3 16.2 36.3 36.3c0 9.6-3.8 18.9-10.6 25.7L239.3 212l131 131c8.7 8.7 13.7 20.6 13.7 33s-4.9 24.2-13.7 33L345 434.3c-8.7 8.7-20.6 13.7-33 13.7s-24.2-4.9-33-13.7l-131-131L77.9 373.4c-6.8 6.8-16 10.6-25.7 10.6c-20 0-36.3-16.2-36.3-36.3L16 112z" />
-    </Icon>
-);
+const UpLeft = createIcon("up-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABawAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBaAsGAAE2AiQDCAQgBYMtBy4b5gTIjpQuZyQRBHPlbJL/AlAKCChcz7as6lhYtgT6KkR/6lTNOA8F8M/juAYlHpqDV/fgCvR809RidYHUirWKYncbsgUND5vIRccQo0UGhuQVsthvhRKSu8k7XPYfGl/Vc4JEmgKIqgAYOnv6RC8+xaeId8VHxDvjERDDQC6QIkVDAQZIBRrK5Mhkgk9RLKr/wJwAolR4eQIyZJiFZYAMJJIsa9WmQkmlbFaFkvLzb9QUd1uerzM7bteaGTcrJKh9Io7WnhW3kBo4ca9V+RYIxb4KFeJ8rZuO1JwRLIIjNdvEjfLn5Bn2HrcimhWqFr57t+qdzos/Vf6mWrVyM8eNN3366TPOVKp0Ru06rXqaVh8/zsxyZPpbsfIZzjAvV7l3v0qVwsiRjh3zvkaN92eQLMhWLVQhnvANCAQ/fnU5sLjKgP9lKyTgy/Of421ViSNJAWUlIEg7FDtYEEdgrjibHrs0gy8KJCZJhHet6JYAoTwCJEqVFyDVQFUBMuW1F6BEYz0FKFXedKnIygk1LcwgUdFWkOrlIMjU9ACUGOClV6pmpMLFiAbztUscVaMjl+VdO3XJ++XTqsTKC2Wm++dspc0u3dUWTlpls012WGmFtXZU+DYTw502GkVhI/1QrqtOusj1ky837g/PstI226212Sa3SH/5fq2NXfTgtrCaBNDtWjIJkZTZueXRAQAA");
 
 export default UpLeft;

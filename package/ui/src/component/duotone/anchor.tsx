@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `anchor` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor?s=duotone anchor}
  * @preview ![anchor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/anchor.svg)
  */
-const Anchor: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M192 96c0 33.4 17 62.8 42.9 80L224 176c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0 64 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-10.9 0C367 158.8 384 129.4 384 96c0-53-43-96-96-96s-96 43-96 96zm128 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M256 448l0-208 64 0 0 208 48 0c53 0 96-43 96-96l0-6.1-7 7c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l56-56c9.4-9.4 24.6-9.4 33.9 0l56 56c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-7-7 0 6.1c0 88.4-71.6 160-160 160l-80 0-80 0c-88.4 0-160-71.6-160-160l0-6.1-7 7c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l56-56c9.4-9.4 24.6-9.4 33.9 0l56 56c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-7-7 0 6.1c0 53 43 96 96 96l48 0z" />
-    </Icon>
-);
+const Anchor = createIcon("anchor", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABlgAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCSgsIAAE2AiQDCgQgBYMtB0gbZAXIHoex26TS3o5LEeaLoNJVZbU0E7vSMegY4dkiwnmT2EOyN94lsqiA8/s/APyoz//91B/HP33AB+D396qtscA6eWcCO55WlM3jgc02U9vgvEEHOIdyhfYN5PFPdpUa6f70CW5N/wcwftDdVSTNGYBoB4B5Wzas8l5LPPXJ/y8Rn1iJgJgPKoEMGXoJMFMm0EuuQi4XtCRoCSoCiLr0VRmoo4ZrcRsgB0lIeb5sQMey1jrfXNaK1iFKtNCrI17oG9Epnhr8QM8NPTtoXfd3m36gS4hvZr61sSi+m/3OZtnDHx72/KRyx+PTirih010u63x3WZY3dr03Lu9yT1HEmwMeGd6Y/NLQ53qVl3WKuKu4YQ/7OMM5lJ6gf6Nd46d+nxz+hC+++GKuL4x1WaPRVHdY69ZffHFRA4YEaOxhdbHgk08WxNq1CAhTHvK5TY3GZWO9u6fjjaU2113XBnuqvUOodGNHqehfd1nqgqvwdiAQ3PFo89972s78q6lM4Ps3fvmjO9L/paUGmiQQZCP/H2lnmhtSOwh5OMWF+sPPQiCzTALftZV7BAgFAiR1hQCZntoJkCuMEKCmj0kC1BU2yETeLHSyayJJK+eQzGQXk1wnL5Kamd4P13WK7HGUHyb5ZzD94iW7qFc1bvTYanp1mjYoT5gobZ9RaduHXsjLhsEZDjvjtPMdctCxDgv+XKtiFzhlsYxb5Isq44w2VmW6yjr3dvJmh5zrPMeccTrpZobKv3eoC+W1h8H+JMD4CxmXESmyNl+KedRjbW43115fAAA=");
 
 export default Anchor;

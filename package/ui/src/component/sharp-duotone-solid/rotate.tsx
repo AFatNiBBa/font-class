@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rotate` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rotate?s=sharp-duotone-solid rotate}
  * @preview ![rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/rotate.svg)
  */
-const Rotate: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M16 288l0 160 24 24 57.6-57.6C141.4 458.1 198.7 480 256 480c57.3 0 114.7-21.9 158.4-65.6c24.4-24.4 42.1-53.1 52.9-83.7l-60.4-21.3c-7.7 21.8-20.2 42.3-37.8 59.8c-62.5 62.5-163.8 62.5-226.3 0L200 312l-24-24L16 288z" />
-        <path d="M105.1 202.6c7.7-21.8 20.2-42.3 37.8-59.8c62.5-62.5 163.8-62.5 226.3 0c0 0 0 0 0 0L312 200l24 24 160 0 0-160L472 40 414.4 97.6s0 0 0 0c-87.5-87.5-229.3-87.5-316.8 0C73.2 122 55.6 150.7 44.8 181.4l60.4 21.3z" />
-    </Icon>
-);
+const Rotate = createIcon("rotate", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABbQAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBSgsIAAE2AiQDCgQgBYMtB0gb5ATIjpQuZyTx8P2afee+7mSAPkLXqM8IikHBAulxC4hCpdYSyK1kCKu6T9z8886jAB9IjnOdB7LA5zxPoPO8bfkHTvibfgP75jZiySAbNpE5lB9DkTNEH8jjp+yqEunJ9A0eyP8Axi+6u0pSlwGIdgCYvnblYh9UopLim+orxDcWISBmgEIgQ4ZeAkySCfSSK5DLBZVUrVKJarUggCiTd2SgjBzzsRSQgyREnrf2bSg15WsaSvVrnx/4fcOdxZfiUiyL/tEQEQP43ZfivTmfzfpk0ju95q8V+sfKeHf8qw13xr499f2+C+KZft/U316yMgZEfWtbu7bffLPnG/v+ffHJ5mnTmuGms17wgrOexNv37927//as/1/V8vwLL7xQoXPxwcCBDy7iVrjxj0EgeNj2a1tbJv1X25DAz2/9cfwhtatW4s/UhloJBNmg6iCbEu20iz8FACDFGa2JwdoJZFol4a7RIwFCPYqkrB6ZntohV28gSvoYfV9Wb6VM5HVCJ5sVSaPjyIxxDrlOXkbJJJ+7ZZ0igxMHBu4zlzzHErPniuFDhhUTimYo8Qhh/HhiMW33O+NK/WnXHkcdccpuu+x3ylAnLA5OO2xOj5ztiwrDDTFMYYJiO7lcX2O3E07a76gjPGWi4rzTz5l+c39aJgFGXMRdRqTImk8cPbX91O7BsNTb5eLzAwA=");
 
 export default Rotate;

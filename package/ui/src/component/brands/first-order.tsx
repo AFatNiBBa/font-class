@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `first-order` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/first-order?s=brands first-order}
  * @preview ![first-order](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/first-order.svg)
  */
-const FirstOrder: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M12.9 229.2c.1-.1.2-.3.3-.4 0 .1 0 .3-.1.4h-.2zM224 96.6c-7.1 0-14.6.6-21.4 1.7l3.7 67.4-22-64c-14.3 3.7-27.7 9.4-40 16.6l29.4 61.4-45.1-50.9c-11.4 8.9-21.7 19.1-30.6 30.9l50.6 45.4-61.1-29.7c-7.1 12.3-12.9 25.7-16.6 40l64.3 22.6-68-4c-.9 7.1-1.4 14.6-1.4 22s.6 14.6 1.4 21.7l67.7-4-64 22.6c3.7 14.3 9.4 27.7 16.6 40.3l61.1-29.7L97.7 352c8.9 11.7 19.1 22.3 30.9 30.9l44.9-50.9-29.5 61.4c12.3 7.4 25.7 13.1 40 16.9l22.3-64.6-4 68c7.1 1.1 14.6 1.7 21.7 1.7 7.4 0 14.6-.6 21.7-1.7l-4-68.6 22.6 65.1c14.3-4 27.7-9.4 40-16.9L274.9 332l44.9 50.9c11.7-8.9 22-19.1 30.6-30.9l-50.6-45.1 61.1 29.4c7.1-12.3 12.9-25.7 16.6-40.3l-64-22.3 67.4 4c1.1-7.1 1.4-14.3 1.4-21.7s-.3-14.9-1.4-22l-67.7 4 64-22.3c-3.7-14.3-9.1-28-16.6-40.3l-60.9 29.7 50.6-45.4c-8.9-11.7-19.1-22-30.6-30.9l-45.1 50.9 29.4-61.1c-12.3-7.4-25.7-13.1-40-16.9L241.7 166l4-67.7c-7.1-1.2-14.3-1.7-21.7-1.7zM443.4 128v256L224 512 4.6 384V128L224 0l219.4 128zm-17.1 10.3L224 20.9 21.7 138.3v235.1L224 491.1l202.3-117.7V138.3zM224 37.1l187.7 109.4v218.9L224 474.9 36.3 365.4V146.6L224 37.1zm0 50.9c-92.3 0-166.9 75.1-166.9 168 0 92.6 74.6 167.7 166.9 167.7 92 0 166.9-75.1 166.9-167.7 0-92.9-74.9-168-166.9-168z" />
-    </Icon>
-);
+const FirstOrder = createIcon("first-order", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABowAAAK4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDRgsGAAE2AiQDCAQgBYMtBzIbyAVRVE5KZB+HcbP1FpclA6E4qiaKUOwieL4urN7vngmgTk4SeyaQdm/QHcQJ4GSta3RamIDm9UadjURrZVy07azM/zX14vlRJH6jQ6pcU4FEUkQ+n8AwQebzTSQKbGIDsjHP3Bqb4kBBhggSQ8JGSY9X9/h2hDxuiStVSDelBq6obxqndHM5SSUDEG0BMKO+aolXfoqfIhr/P0k0LEJAzASFQIYMPQWYLBPoKVcglwt+iv//T/+BBQFElZ4tgRxN8SS+B+QgqeZ5oPneRbM6xEqrvNazmtdfIoryC+rfWhrp3jrCTPfmJRa6MS9Qc214trr5bjoWWeymNstw97VRVrsu/ntN6YFrpBkeKEstcEtZqHSDN622yM3nfMvc3Kcb5f4+XN3185iytFpNFnVlrY3a6mCoCwuXYg3F/YXPJke8cH8+5cXyy2kv17+Y+lKt38NtHz7Tt7HLVkPLbwB8clmLK9Msm80e+L3X9Hx1sJPuXv2bWZnmLVo0n5X5VXn3SYO92vM13xk0e7NsljtbtLgzm63TdGX3hte0lLUa7ip/NfMRPAfqCbXkG3qszv+mN765qKkj2uzdEznulHfP4/ipd3c8f5B83wgSS1Qwam6c5VxEeu65s3O9Z+10IBA8Ny5dvrnN5F+bxgR+ee7c3/wlKv+/4vn0MJpKIMgG/z/YhnhFRSWeFzSe4nz9nH0KJI/5Lpfa0vUChOYIkFQ1FyDTQ1sBcs0NEqCitzECVDW3SibyZkJHGw0kLR0FmbEuALmOHgcVk70dr+oYGZYVJCp/kplzZ3TOqmLE0OHFxOKy4VDhKZXFScVtf//zZWAAHbTLYYecsNMOe52Y8GOWpM5z0FwPm+ODCiMMNVxhomK7/dmshfgxx+1dK/uQZSYp3o/1d74/fgCFEhUcqSxJRGqBbnsIzgEAAA==");
 
 export default FirstOrder;

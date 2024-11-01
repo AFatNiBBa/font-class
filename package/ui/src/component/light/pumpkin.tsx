@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pumpkin` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pumpkin?s=light pumpkin}
  * @preview ![pumpkin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pumpkin.svg)
  */
-const Pumpkin: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M299.1 36.1l20.9 9 0 53.8c11.1 2 21.8 5.1 32 9.1l0-72.6c0-6.9-4.1-13.2-10.5-15.9L299.3 1.4c-2.2-.9-4.5-1.4-6.8-1.4l-1.2 0c-6.9 0-13.1 4.1-15.8 10.4l-41.1 94c12.2-3.9 25-6.5 38.3-7.7l26.5-60.5zM166 145.1c9.5-9.2 20.1-17.3 31.5-24.1c-14.3-5.8-29.5-9-45.5-9c-43.8 0-82.2 24.1-109 60.4S0 258.1 0 312s16.1 103.3 43 139.6S108.2 512 152 512c24.7 0 47.8-7.7 68-20.9c20.2 13.3 43.3 20.9 68 20.9s47.8-7.7 68-20.9c20.2 13.3 43.3 20.9 68 20.9c43.8 0 82.2-24.1 109-60.4s43-85.7 43-139.6s-16.1-103.3-43-139.6S467.8 112 424 112c-15.9 0-31.2 3.2-45.5 9c11.4 6.8 22 14.9 31.5 24.1c4.6-.8 9.3-1.1 14-1.1c31.3 0 60.9 17.1 83.3 47.4S544 264.3 544 312s-14.3 90.3-36.7 120.6s-52 47.4-83.3 47.4c-20.7 0-40.6-7.5-58.1-21.2c-5.8-4.5-13.9-4.5-19.7 0C328.6 472.5 308.7 480 288 480s-40.6-7.5-58.1-21.2c-5.8-4.5-13.9-4.5-19.7 0C192.6 472.5 172.7 480 152 480c-31.3 0-60.9-17.1-83.3-47.4S32 359.7 32 312s14.3-90.3 36.7-120.6s52-47.4 83.3-47.4c4.7 0 9.4 .4 14 1.1zM288 160c38.5 0 72.4 19.4 92.6 49c5 7.3 14.9 9.2 22.2 4.2s9.2-14.9 4.2-22.2c-25.9-38-69.6-63-119.1-63s-93.2 25-119.1 63c-5 7.3-3.1 17.3 4.2 22.2s17.3 3.1 22.2-4.2c20.2-29.6 54.1-49 92.6-49z" />
-    </Icon>
-);
+const Pumpkin = createIcon("pumpkin", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkAAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCPgsGAAE2AiQDCAQgBYMtBy4bPAXIjtFLz5QTwiQFzGnvIqjfD917/wUILAC7TBzLxMViW9mpRdZ1LsIVWFVX4c/v7z332w2czAa4Lb1V+6UJSHMG5/9m2ngeBfg597Gw5/kGn/N5Aj2PsmyNW358gZ2dKN7ubHZMadonaYmRHI92vGbI8S6GkUmvCCd4kC8VP3VoIMkFgKgHADYOo0Nh4xl9jrj6P0tc2QYCYhMA/RAK6OiGwDKioGcg6QeyLPiM/v/n/0AFCCBKyUcnkFGCm8B9QAZJkXPHlphJrskHTHLliVanBfRWjNAtiRNqYTDitigGjeqtY1r1IwzMYMhgI+Z2Y1w7zpw3xrsbjUeNt+PvNnEdzsA0w+JW5qzrauzN8ooNZtQiGmOEIXNua3H3a+v2jeLY3ZVmaasEN1qVDcYMmsTq3ev+KpyHvytPMk4MvgkICLADwo8tYD7th/6CoGphIBU0E10NeQ8dCTLlxLpTG+yIeum0PqH0ePuuRZvBTFkA/eGY+mVqjgJQgLnpl3yopWVIziboST2u5kxysL2xPJfnZ63u4tklb2wPi68DCAR/fv/sHXFdftGqEvi69Plfjvu/kdYJOFAugaAY/j8sJXkAgEQEaCmug8r4okByA5FctdpzAUIlAiSlKgUodOFBIKs0BIESvWwhUKrSLqLIFUKz1AaSamegMKseZM2mQYll+2qp5iD6Ie1F9C8wwU+jvnUKSzMLhZNiaqqMa5Gp7KzYFg0qKGQInZChUIEy6dJkK1N4iVCjXD4/C/P1QwqWzFhQcKI4du6FOFRLlMoe0+eQKs4U9yUDFXayITRBAEy+IEktkcpOy/OLcrMLAAAAAA==");
 
 export default Pumpkin;

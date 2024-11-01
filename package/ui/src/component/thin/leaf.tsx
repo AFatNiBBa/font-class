@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `leaf` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leaf?s=thin leaf}
  * @preview ![leaf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/leaf.svg)
  */
-const Leaf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M114.6 243.1C140.5 230.8 169.5 224 200 224l112 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-112 0c-31.8 0-61.6 8-87.7 22.2c-.2 3.2-.3 6.5-.3 9.8c0 88.4 71.6 160 160 160c0 0 0 0 0 0l.9 0C393.5 431.4 496 311.3 496 156.6c0-35.1-5.3-68.5-15-99.3C457.8 90.3 419.5 112 376 112l-104 0c-78.5 0-143.8 56.5-157.4 131.1zm-17.5 9.4C106.8 164.5 181.4 96 272 96l104 0c42.7 0 79.9-23.9 98.8-59.1c3.5-6.5 13.6-6.8 16.2 .1c13.5 36.5 21.1 77 21.1 119.6C512 317.1 405.1 447.3 273 448l-1 0c-97.1 0-175.9-78.7-176-175.8C47.7 305.4 16 361 16 424l0 48c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-48c0-72.8 38.9-136.5 97.1-171.5z" />
-    </Icon>
-);
+const Leaf = createIcon("leaf", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdAAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCAwsGAAE2AiQDCAQgBYMtBysb/gTIjpQuYxZDaXn4x+7J+0ZnMz/xCrM2u8QV6RWqsHQlRODl6XnOQwV8o6KNTUsLMibQnOcVqFgvHtII1bQgXoXq5liWiVUMwuWc0x8W2uvQoZDFG9bISW5L9uMaZyp+0MhlJNIUQJwNgJHzZ0/17jfxTcT+/18i9puMgBgFKoEUhKYCDJEKU8hUyGSCb+L///kPrAggCvFlE5AhwyrsBGQgkWRZ5+61/IxsXi0v579Rq8VN9W6sW8blAy5yYuhbc+PiqMUn0w/1fmF+80fbPFiW8eGQN6s2p4ZHHJpfiyvaP9LkltoV9Z5zfM7xKfvnlHFy1tF5r3Z5krix7s31Ix7o/szgVo+f/fhPLfev22/X/lXddlhRFCt26LE3z2P0/v2jA8K757X+8ktT+/7c8OmnW27w7IMPPNqozui/KcfEBtU993zfJi/qjhtpRosRzUfOmzdKmBTOiUkTx83r0UOxYkXRQ3Hnna8BgSD9dNux5WcN+bVOLQHfvf7LX/gW/f9NInkcdSQgSLv838WSBCQEACCJfVolEEgskgCrp7tZgFAiQKJQCpBq4mwBMqXOAuSa6ytAoTRbKrLThLqWFiROtxNS/ZwPmbpegNwQn/iFupEqTdKJ9NFLHzcae1X17NajGlQtCymLR7Dj4Grb6rDPoCOI1tlumz3WWmOjPXG7TI322mrchMd6UKWnbnqoDFId1/f7edbaZbeNttvGM4NV970O9s3zHeEmgrcXM3mCXJJtWbtyHQA=");
 
 export default Leaf;

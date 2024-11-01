@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `filter` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filter?s=light filter}
  * @preview ![filter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/filter.svg)
  */
-const Filter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 71.5C0 49.7 17.7 32 39.5 32l432.9 0C494.3 32 512 49.7 512 71.5c0 9.2-3.2 18.1-9.1 25.2L320 317.8l0 128.4c0 18.7-15.2 33.9-33.9 33.9c-7.5 0-14.8-2.5-20.8-7.1l-61-47.4c-7.8-6.1-12.4-15.4-12.4-25.3l0-82.4L9.1 96.7C3.2 89.6 0 80.7 0 71.5zM39.5 64c-4.2 0-7.5 3.4-7.5 7.5c0 1.8 .6 3.4 1.7 4.8L220.3 301.8c2.4 2.9 3.7 6.5 3.7 10.2l0 88.2 61 47.4c.3 .3 .7 .4 1.1 .4c1 0 1.9-.8 1.9-1.9L288 312c0-3.7 1.3-7.3 3.7-10.2L478.3 76.3c1.1-1.3 1.7-3 1.7-4.8c0-4.2-3.4-7.5-7.5-7.5L39.5 64z" />
-    </Icon>
-);
+const Filter = createIcon("filter", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYAAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBRQsGAAE2AiQDCAQgBYMtBy0bwgTIhuD5uf+cc5OfBaAsEGNbYQHAEcuyRbX6TX/ztXEeBfiMQhsLlwaywPY8TyDQqMvmeVFAWWCZfgH71s5/A0X0m6SnfMgw3rA5II8Popcq0nPpa9wtL42/tXCJJM8ARH0AjF+6cLZP/4g/Ir6uvEV8bSYCYgIoBTJkaC3AKJlAa7kSuVzwR1Qq/j+wJIAoyKkJ5MgxFXMAOUhSnndsXauqTr4kLqqZnW8W8UytOnGzyWPnGi8K4cYe1bzRdE48iYgltGToo8bnmiyOx8TsOF/rZkQcQEsvjidNa3d4vv7z/7b/esvXjjV4nxcavKrBC+83qHvj7V+cU+/Z5+rWevKt9+ovMKy+UffouiI1eO9PA4tlviNSuqIYSHc1SMW814BA8FWfn/uurTfqafVaCfz1/v9P1V9R5Y8kPY/qEgiyXpVeViWQCABAiiM6JAgkYyXy1NqeCBBqIkBSqClAppX6AuRq6ilAlbYGC1CoaaFM5DWExlZ3kNS2H2SGOA1yjb0BqozymVZoHBmUaCDQP7mEKRqdPFT279OvHFEuPY1BB5m6I8ttsduRkOnOs7bYa49DNttku0MKP2C2edhuUyxssg+V+uujn9II5XX4PL3EZgcctN1ee3Kfkcr3ajdH7PLurCRCOIAlSUQqMAYAAAA=");
 
 export default Filter;

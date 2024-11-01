@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-xmark?s=thin heart-circle-xmark}
  * @preview ![heart-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/heart-circle-xmark.svg)
  */
-const HeartCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M393.6 57.7c-42.9-5.6-85.8 12.6-111.2 47.6l-20 27.5c-1.5 2.1-3.9 3.3-6.5 3.3s-5-1.2-6.5-3.3l-20-27.5c-25.4-34.9-68.3-53.2-111.2-47.6C60.1 65.3 16 114.9 16 173.5c0 30.3 11.8 59.4 32.9 81.2L248 460.4c2.2 2.3 5.2 3.6 8.4 3.6s6.2-1.3 8.4-3.6l11-11.4c2.6 4.9 5.4 9.7 8.4 14.4l-7.8 8.1c-5.2 5.4-12.4 8.5-19.9 8.5c-7.5 0-14.7-3-19.9-8.4L37.4 265.8C13.4 241.1 0 208 0 173.5C0 106.8 50.2 50.4 116.3 41.8c48.6-6.3 97.4 14.3 126.2 54L256 114.4l13.5-18.6c28.9-39.7 77.6-60.4 126.2-54c66.1 8.6 116.3 65 116.3 131.8c0 12-1.6 23.9-4.8 35.3c-4.9-2.3-9.8-4.4-14.9-6.2c2.4-9.4 3.7-19.2 3.7-29C496 115 451.9 65.3 393.6 57.7zM560 368a128 128 0 1 0 -256 0 128 128 0 1 0 256 0zm-272 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm205.7-50.3L443.3 368l50.3 50.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L432 379.3l-50.3 50.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L420.7 368l-50.3-50.3c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0L432 356.7l50.3-50.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3z" />
-    </Icon>
-);
+const HeartCircleXmark = createIcon("heart-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABrAAAALoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDEAsGAAE2AiQDCAQgBYMtBzkbmQXIngVO2V54wAFnzAUes3HLueqQDb6awT+ff+R982cBz8IIrQqsUomooaJMTr88/HPsve9HLxKjEzSPl3AVUINNtIoHOIHBw3Pv/jb3OD6WUB5BD7AN3gkskMD/5n9wzbvHiLJse5sOCCtsNNEHGUhPXPP8z58KpMgfpXNRIOVRwROY4GbRNIE+n00Up25KHj0UqUeP4sLoypAdX9nxbQdg45vp+MBcid/B3kHSnwS2ZwwviWCoEu4V2rfDBvBkES2BH/6P0Lt+gABaAQCHgAc8kIwANOERSMZygGUJv/HfTf8DmyAAKAPu0wCwwBech+sAYAEYNmX7WZ6MIFmIHUnJAmed2iQ6kczTQX1hL9Atfqq9EV6wj2UjQtBcOuIk2KL9DUbGI3y8eLy6PX4zSpBHdG/YBS/nH4LN+hH1KN6nL/Vj9nskOpc+R14kz0wU9rrPotRl5nw2lrYUJLrcuX+8tHU3uwh7fRfGO+RF+15+CTfXwwYPkWA9pA6NGSrpiDYsFkg6qgyJJdLux2Sc4889g/fdd3uOk7/4MM0SKZVmdMh/v0mOr4227N/jO5kyWeUNJuqrrdJoVz0+qJFK/qfqpw263d1XmKDzT+ulP8nq4daSZoP28fN4HM8MhuCf73DLlx8tnUlVZZUx14GzRObkREY5l4sqRD4ON0s21bVhq5FEorTNSYdvBwABodp3d5hU0f3zLxoA/t4+Xv16up+YmbgBfwaA4PX9FxkvHgKgc0RSJlZCRvBFAsZxKXjWYEcEAAkEAmD4CiQAniTCEQArUCEC4COVagTAV6BheJQKQKKZsDAj2BLMU8MGzIrmOuajiddJX9EiScLy6cZ/Lqb0ZKDHMlcqKXMN7rLKhBxk23Sju+0kV9aufKxlJotYyHJmMJ05LCdoKQMyK1hAzwjswQ9xlFNCGY4G3HbjszKSkktZxhxf2l+kEfd8Io+V8eB8+IZQVlBgGCgR+c4Yxb/2uMX7/AYAAA==");
 
 export default HeartCircleXmark;

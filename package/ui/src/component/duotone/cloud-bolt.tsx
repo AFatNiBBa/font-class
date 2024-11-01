@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-bolt` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-bolt?s=duotone cloud-bolt}
  * @preview ![cloud-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cloud-bolt.svg)
  */
-const CloudBolt: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M144.9 373.3c2.2 6.4 8.3 10.7 15.1 10.7l70.1 0L177.7 488.8c-3.4 6.7-1.6 14.9 4.3 19.6c2.9 2.4 6.5 3.6 10.1 3.6c3.5 0 7.1-1.2 10-3.5l160-128c5.3-4.2 7.4-11.4 5.1-17.8s-8.3-10.7-15.1-10.7l-70.1 0 52.4-104.8c3.4-6.7 1.6-14.9-4.2-19.6s-14.2-4.7-20.1-.1l-160 128c-5.3 4.2-7.4 11.4-5.1 17.8z" />
-        <path d="M96 320c-53 0-96-43-96-96c0-42.5 27.6-78.6 65.9-91.2C64.7 126.1 64 119.1 64 112C64 50.1 114.1 0 176 0c43.1 0 80.5 24.3 99.2 60c14.7-17.1 36.5-28 60.8-28c44.2 0 80 35.8 80 80c0 5.5-.6 10.8-1.6 16c.5 0 1.1 0 1.6 0c53 0 96 43 96 96s-43 96-96 96l-64 0-18.3 0 29.3-58.5c10.1-20.2 4.8-44.6-12.8-58.8s-42.6-14.2-60.2-.2L143.2 320 96 320z" />
-    </Icon>
-);
+const CloudBolt = createIcon("cloud-bolt", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgQAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBewsIAAE2AiQDCgQgBYMtB1AbHQXIHomxrYbtizhmQq3c8fC9zddz36408soMa7PMhJVDBEoJVLnjKqWrP2kz6ZI2ync6+AxRmx85Nd54qf4B/B1rygV5eN5ZfAKLX9x4i9cKNKGZzsC2O9uBQy3lWNJoluS42PH5vCGPP7OnVEjvpwd4Ff8HMP7Wx1Mk7TIA0RkAi3ZsWedWW7SleND6iXhgLQJiMSgFMmToL8BcmUB/uRK5XNCWWi3aotUqCSCqcOMMVJHjAE4DcpCEyPOZg+qVDvl2fFTs+GV0RHPgh2N+GPlOfOrgGS82vu7j+bnx/YDHur8YSJd7H436bmpRTIl3e74DLxUvdN8axY63e9Rja7zV4+36i712iGoRJHcXNh3S7Nz8x4PjDxx49LEmzVqn3r3u9ql3+t9e+/RhGzsf2x61XiFopBdreafHFna968KEBffuden88I1M8NrqWZ8tN+Wk1c8uqVQnf/qoG41ut3fe/vQx1xtAIGi+tvffA53m/lerJ/DXH6YfktatJDVRk0CQjW2NtTeBRAAAUlw3JMErApmZkvSp7b0jQCgQIKkqBMj001mAXGGMABUDTROgqrBFJvJ2Qnf7KpG0d4nITHeTyHX3I1Ex1229qntkZsYaCfvKS1rOgWWnyknjJ5azy2GmcJZDx8M55bQy6nroNOCp4y4476pjjjrlKoMuW2ddc85yDVzmi0qTjDdRabZyubyXtjP9sitOycL6MXOU+7VRruvjDThPAkw+oFhGpMi6fjhoG3f4wtmr4wy2270V7iYAAAA=");
 
 export default CloudBolt;

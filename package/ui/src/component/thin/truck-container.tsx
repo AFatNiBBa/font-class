@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-container` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-container?s=thin truck-container}
  * @preview ![truck-container](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/truck-container.svg)
  */
-const TruckContainer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 88C0 57.1 25.1 32 56 32l304 0c30.9 0 56 25.1 56 56l0 224c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-224c0-22.1-17.9-40-40-40L56 48C33.9 48 16 65.9 16 88l0 224c0 4.4-3.6 8-8 8s-8-3.6-8-8L0 88zm448 72c0-13.3 10.7-24 24-24l72 0c12.6 0 24.4 5.9 32 16l56 74.7c5.2 6.9 8 15.3 8 24l0 53.3 0 72c0 17.7-14.3 32-32 32l-.4 0c-4 40.4-38.1 72-79.6 72c-44.2 0-80-35.8-80-80l-144 0c0 44.2-35.8 80-80 80c-31.7 0-59-18.4-72-45.1C139 461.6 111.7 480 80 480c-44.2 0-80-35.8-80-80s35.8-80 80-80c31.7 0 59 18.4 72 45.1c13-26.7 40.3-45.1 72-45.1c38.7 0 71 27.5 78.4 64L448 384l0-32 0-192zM608 392c8.8 0 16-7.2 16-16l0-72 0-48-160 0 0 96c14.6-19.4 37.8-32 64-32c41.5 0 75.6 31.6 79.6 72l.4 0zm13.5-152c-.6-1.3-1.4-2.6-2.3-3.7l-56-74.7c-4.5-6-11.6-9.6-19.2-9.6l-72 0c-4.4 0-8 3.6-8 8l0 80 157.5 0zM120 104l0 160c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-160c0-4.4 3.6-8 8-8s8 3.6 8 8zm96 0l0 160c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-160c0-4.4 3.6-8 8-8s8 3.6 8 8zm96 0l0 160c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-160c0-4.4 3.6-8 8-8s8 3.6 8 8zM528 464a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM288 400a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM80 464a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const TruckContainer = createIcon("truck-container", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAAB0AAAALUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHyECgsGAAE2AiQDCAQgBYMtBzYbEAbIjtMd80BniLTg+f+89/e5Nw9NXulUTvtBaCjP4BmY1T80efh2vsIo+BVgjWjnUxn5wCYzHPY/19QLO7/e8IPt+Xwo0Vha2BQZfgIDjaQu4dkmbFOnIx5DEEcPPYaUWOso7riKxydugSG/GYgH1LZ8B1hTP1ReE28hKLQGAEDCAACAel06tOKaK67Inf+nQe7QAhAAqQ+ATQANaCCJAFCTRoAkBjYwMBBw5f//8h9ogwCAeBFCscgAAsAr4D1wP1CYhpHdMCIESLDT8gQbnbebTb1jiGyZwXKobYpHNsbmGJF5fbMZkOWxEZrZb0eOJStaJ9kEQeaaM0yRreto5pn84ymm7GyxFZdnH07YmnnQpIg9BSeqrMg6FB+IOmIdOo7FWyJspy2x4jAFcZTGNtJlc0xn2VxM2RiI1R9htPyW0E3RlprV7WzBifzjlU/lHs07Vqnz7pnJPZq0S37SldrRfEb68bDjb9PuDL7DUN97+DfWYey/7XPx9u3rdQl/T4RXcfhzIfy9V8/odk2J+qo0Z1pIJZoSsvQOgdpXhw91UGdZSzoPCosrLNiwoaAwjrLKsx/UrddjPbZre343pCmOvfRl9NwPHTrUJnhLCq/SjGGBpvT1tmX31yV7RTlO7iv3RvuqhIdDnOLU1GIHEu/r6PKPH8t11/069uMAIIDAppbK6RNa86vfUgCUX9i/1tP576q5+TjwowAQ0IX/C+mp5gKmbkH8UDKZdOeHBFA8xQS3BNiMACCYgACg8GIeoEkUBgYmBeAhRSVl5/gOaMQIQojSC6AIMA40lc0CgygnwUNN191eopLOdnWuqr81MzTWeKNedmmxY1e3LzOaJoGVS2cNu9uYO5kq8jCXwYxhNBMZxECGMVGR42nlm8QoGnvSjb5rK1XMYavODudnQ2flHs8Ehtm6uJAa7OetuSb79fNgUYjMMnEKBaJCX+esvyIBAAA=");
 
 export default TruckContainer;

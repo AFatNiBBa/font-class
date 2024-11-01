@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice-three` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-three?s=thin dice-three}
  * @preview ![dice-three](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dice-three.svg)
  */
-const DiceThree: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm144 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM224 272a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-48a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM336 352a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const DiceThree = createIcon("dice-three", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABmQAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCXQsGAAE2AiQDCAQgBYMtBzEbXgURVZpTyL5K4OYQ1yEdUVzxYdH51Q4uyxsRCg5shWPwSDz8/9r/9rl3ns0XTR+8miU8QzJpLKpYM5XEopF+Ag/NZlF/Jo/v3+gTKYJtjnpcRWheV1IWACCwTSRiKYueHyFDsxrSP/X1niG1+hPXPP/zpwcse4JHqaLS9wp8qloUTmCi86YC3mw4myhO3ZQctogoBQ8RKZsrUnacPfbvAEXcwzYN0h39A1xqHxpjouMkOQOIfgAsX796ldEqqogfdeKHh4BYASYLZGSMF2CRLDBeYTIKhaCKuqb/QAQQTfK8BAqUuIxbgAIk7aIYGekMJaur0VOsyy9Zbn7uI66HFHfoRu2JV3Ir57jLN1v3yns74l3viRfzTUxxe7wu3fFyvU157U2+7m/QLSmPSMQte45u4PDwdXOWb6q1t8QQY7MQweQRSZU9F0x9695+P7b/uJfOL/iZl8k/f81eRgkUrdUAA4+BeTwwUC4jIHHp9lZVb4/O7j0Np3s5A+PQjnsSZXXTHYdctwOBYNLYp/f6Fv1v+wn8+/hxfV3FaHoL2hII8vQ62RKjAOEV4KbYb6rxRYHktDZ51243BQglAiRNpQDZOP0CFErTBGiYaIEATaXVsig6wrCtC0667YKzhQ7AhWEf4IZFPjtNw5HDkg0q9q8wyTsN2F2UWYHmMTO5SKPLouFYDX7uhNgr+mN/u3Z6FXTX/rc5C7Q/pMwKNO7yq9Qo536mveDfxvC+Gfz2eAhDEsIqJSW8pL47Shru");
 
 export default DiceThree;

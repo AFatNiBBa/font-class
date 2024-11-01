@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `engine` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/engine?s=light engine}
  * @preview ![engine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/engine.svg)
  */
-const Engine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M416 80c0 8.8-7.2 16-16 16l-80 0 0 32 16 0 60.6 0c12.6 0 25 3.7 35.5 10.7L483.5 173c17.8 11.9 28.5 31.9 28.5 53.3L512 384c0 35.3-28.7 64-64 64l-193.2 0c-19.4 0-37.8-8.8-50-24l-32-40L144 384c-26.5 0-48-21.5-48-48l0-64-8 0-56 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16L0 160c0-8.8 7.2-16 16-16s16 7.2 16 16l0 80 56 0 8 0 0-64c0-26.5 21.5-48 48-48l16 0 128 0 0-32-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l192 0c8.8 0 16 7.2 16 16zM304 160l-144 0-16 0c-8.8 0-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16l28.8 0c9.7 0 18.9 4.4 25 12l32 40c6.1 7.6 15.3 12 25 12L448 416c17.7 0 32-14.3 32-32l0-157.7c0-10.7-5.3-20.7-14.2-26.6l-51.4-34.3c-5.3-3.5-11.4-5.4-17.8-5.4L336 160l-32 0s0 0 0 0s0 0 0 0zM168 256a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm120-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm72 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm216-32l0 192 32 0 0-192-32 0zm-32 0c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 192c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-192z" />
-    </Icon>
-);
+const Engine = createIcon("engine", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABpQAAAKeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDMAsGAAE2AiQDCAQgBYMtBy0brQXIjtMdMRFp5mUiqHSUPSsdScewD4RGoIiIM5cjOyKOAVVOXQ4JKGjXXk2QWmJhIPTKP3FN/m97esCyJxhKZGIFReT5BCbQFo0/Hc+GswFNjHe27c0Rk5BuhMYJyvg7lmohPZo+x93hTeNnY24gKQsA0QuAne4h+3m7iSbi8/8/4nP7ICB2BlmgQIFJAbYqBCaVMkqloIn//xf/gZkAolXMWwIlOvAm3gWUIGkry70Wd8S8jNerqzy8bqnOeGCwStT17UP7xatT4pGFr8ytemnx8iDZww+NR1UlDuQ9NBw9PPLg0LGMiMdHHl5QGatYEgpjHQ4eWtXVAZUmVHf70DIB1ELCiohrh/dXVrH12uALDn18wYtjj8x9afyIUtg3HKYjQh3vRa4diR4+nzX0IHHN4APiuXHb8EMRs1/rfe2XWZ+f/rmnL+huDpT1bhv4a5XnPaXq63vmHc38301Z+d0XxY7aNx6ou2m63y52ONDG9qP44ruVvddkB2q6reptHLrggHvueYY/8BndzZSex3/3eM87um+5pfspfV+tdunelgFuPmHooIOGFH7FiLSz7zEydX4583ackr0t57NGpCbfoXq7qOp+BgLBX4Or4vVs/bW9TuCnt/5f/Z3pmvQa2iUQFEv/X+rYcQ0QbgCRFJebvfFJAsnr2sSv2ukhAUKFAEmrSoDChF4BSpUlArSYtk6AVpVDFKLsEAYd11FJp4uownpXUqVBb1Attvoo0mowJgBLwU/6+5hq9yG027y8avnKvDmvVjUymBTb6S35sGnh5bJrEd7qdBc436VOc6qzXDogL7Zf/DLn2X2L2M0XZasst1K2Wb7ceKo6nAoL1SVevCy/PssW+XnfQpdvD16ErUkscLWiJBGp9QsC");
 
 export default Engine;

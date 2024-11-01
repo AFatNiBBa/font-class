@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `street-view` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/street-view?s=sharp-solid street-view}
  * @preview ![street-view](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/street-view.svg)
  */
-const StreetView: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 64a64 64 0 1 1 128 0A64 64 0 1 1 192 64zm32 96l64 0c35.3 0 64 28.7 64 64l0 80-33.8 0L304 432l-96 0L193.8 304 160 304l0-80c0-35.3 28.7-64 64-64zM55.3 419.2c-3.6 2.4-3.6 7.2 0 9.6c8.8 5.7 23.1 11.8 43 17.3C137.7 457 193.5 464 256 464s118.3-7 157.7-17.9c19.9-5.5 34.2-11.6 43-17.3c3.6-2.4 3.6-7.2 0-9.6c-2.1-1.4-4.8-2.9-7.9-4.5c-15.3-7.7-38.8-14.9-69-20.5l8.6-47.2c32.4 5.9 60.9 14.2 82 24.8c10.5 5.3 20.3 11.7 27.8 19.6c7.6 8.1 14 19.1 14 32.6c0 21.4-15.5 36.1-29.1 45c-14.7 9.6-34.3 17.3-56.4 23.4C381.8 504.7 321.6 512 256 512s-125.8-7.3-170.4-19.6c-22.1-6.1-41.8-13.8-56.4-23.4C15.5 460.1 0 445.4 0 424c0-13.5 6.4-24.5 14-32.6c7.5-7.9 17.3-14.3 27.8-19.6c21-10.6 49.5-18.9 82-24.8l8.6 47.2c-30.2 5.5-53.7 12.8-69 20.5c-3.2 1.6-5.8 3.1-7.9 4.5z" />
-    </Icon>
-);
+const StreetView = createIcon("street-view", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfgAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCBwsGAAE2AiQDCAQgBYMtBzIbCQXIjtRgrTKL8fD/urT7vjSOowmD7DDCIlaAXAJj6+N2geup9/v5vybfu+dHB/iNDi3SKj1qzzufT2DAURZtE4kCm+kEbNbOXjI89Isk6eOTDOMNmx3k8UZ2rQrp3vQlbi4fGr/q7lqSlhmAaAeAOZvWrfBuUzRFfFF7ifjCMgTEHFAKZMjQS4DpMoFeciVyuaAparXwH1gSQNSRyyaQo4L9OAvIQZLleeseE6qV1vlGPqfY9vCw54c82/uBwc8Mfa7PhmpRfXLIs91FEes9tFGPuN9cddDmOzrfOeCzDb8se7rr3V3u6vLUxL7x0YAn9ZLuV3a6o9MT439c//PGlwfetWTvt1K7Pr2od7zYP+3Q+Fy7535v+PLgl965Imv+++/mrOp9d82WkY+0b1+s1qj1FXaz22i1Qi965Jk0f/6nv3y7yy7f/vLpuLOGOZd8erlutRbPfZm1u+66p07UL+iw337zO3Q78dR1F7fNvnx9rdvlPr1kTAMQCHZ+tvSxXW2n/19fTaD5db9rv6Lau0l6DvUSCLLhteG2J5AIAECK8zUmCCTbZeRaW7lLgFAgQFKnECDTUzsBcoVhAlT0MUGAOoV1MpG3FDrZ4UDSyhmQmegykOvkBVAx3Sd+nU6RYY1ECvnVi1s4wwuGlWNGji6nltu8TsEHj/3TymNh8PmqbggtddApJ53rgP2OOHdCz1oRneeEhRaywBeVxhhptNJU5XVpPX+jA846xxGnnMyDTFO+dwY73249hOREMMdKSxKRqtjlRyAS");
 
 export default StreetView;

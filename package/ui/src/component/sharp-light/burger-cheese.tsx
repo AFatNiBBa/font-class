@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `burger-cheese` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-cheese?s=sharp-light burger-cheese}
  * @preview ![burger-cheese](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/burger-cheese.svg)
  */
-const BurgerCheese: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M477.7 224C462.2 115.4 368.8 32 256 32S49.8 115.4 34.3 224c-1.5 10.5-2.3 21.1-2.3 32l32 0 160 0 14.5 0 162.9 0 14.5 0 32 0 32 0c0-10.9-.8-21.5-2.3-32zM448 352l-17.5 0-48 32 65.5 0 0 64L64 448l0-64 193.5 0-48-32L64 352l-32 0 0 32 0 64 0 32 32 0 384 0 32 0 0-32 0-64 0-32-32 0zm-2.7-128L66.7 224C81.9 133.2 160.9 64 256 64s174.1 69.2 189.3 160zM160 160a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm112-48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm80 48a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM32 288l-16 0 0 32 16 0 187.2 0 92 61.3 8.9 5.9 8.9-5.9 92-61.3 59.2 0 16 0 0-32-16 0-64 0-4.8 0-4 2.7L320 348.8l-87.1-58.1-4-2.7-4.8 0L32 288z" />
-    </Icon>
-);
+const BurgerCheese = createIcon("burger-cheese", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABiAAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCTwsGAAE2AiQDCAQgBYMtBzQbUwUR1Zq3yH4kxsbKG++4qzfLSHKniW/i4WGu7P1MZiGZaVPiBVkksACgCVz12jqiQ1RFe8D2JgCMtumZ0kfHrJChWQ2Ftdy5Of/n0kXZaIAfwJdxlSCRdJj5/AT2/JIWfAV2QKMDnCieOt1yjTHKooelaBmsiHhc0uPzAWk8iAHKJHeSL3BJIxW/6OECibQEIAoATF29fKGn7+JdxBe1n/jCfATENNAkUEJAbwEmKAn+AakmpFLBu6jV5D8QAog6/IEEpGjEOdwGpCBRn6YdWiuNjY398nI1XZWXs+0/LYv4btUPS75ZcV1ePdt1RZZnYyIPUYmIPMZFlgkh8mqUR7NVlWrl58Vfr/5x4Zcrt93qdrPr9c43uqzu7NVe2YK2ZHkm8nxldIlusdo+j8iyzrEiVkXXyFrairbfmr/Y9YXXb6vLXvFyZWyJl6+kv1/RdLfo1+d0BwbXTDXFGVM8V3O1qckSTVaSFpLTx3ijMrP/hDnmmNDfenpPfteu3btB7R4sSm7x4Lkw+XTBe02KB+snuOiiQx/vazOHWTV2/8owZSAQ/O/uvdvcfsJ/DXkCPtz/4y/9vKi9iz+TNjRIQFAaUBuwIaFQBK4CWEvikBbELJA4ph4Q1YqbAoQMARJ1MgFKeikESGX6C1DW10gB6mSWK4m0Uehs4wkSFXtBySgnQaqze6Bsgo9rdTpHKR/FbBJ/B9MM9yhzwzotIFgOmJRifD+kuJ1svrrQIrDSJT9Kuscx19Z8E49oFiPWaQHB4/Gz966u25Usx1C8X22+eH2L09SAYV8SSkIjqW57L6OuUVilbgUAAAA=");
 
 export default BurgerCheese;

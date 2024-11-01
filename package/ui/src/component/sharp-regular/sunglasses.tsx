@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sunglasses` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sunglasses?s=sharp-regular sunglasses}
  * @preview ![sunglasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sunglasses.svg)
  */
-const Sunglasses: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M61 31.9l21.8 3.2 88.7 13.2 23.7 3.5-7 47.5-23.7-3.5L97.6 85.8c-8.4 34.3-15.4 59.6-22.4 84.6c0 0 0 0 0 0l-.3 1c-8.1 29-16.1 57.8-26.2 100.6L232 272l24 0 0 24 0 8 64 0 0-8 0-24 24 0 183.3 0c-10.1-42.8-18.1-71.7-26.2-100.6l-.3-1s0 0 0 0s0 0 0 0s0 0 0 0c-7-25-14-50.3-22.4-84.6l-66.9 9.9-23.7 3.5-7-47.5 23.7-3.5 88.7-13.2L515 31.9l5 21.5c10.5 44.8 18.8 74.3 27.1 104.2l.2 .9c8.5 30.3 17.1 61.2 28 108.1l.6 2.7 0 2.8s0 0 0 0l0 24 0 16s0 0 0 0l0 160s0 0 0 0l0 8-24 0-208 0-24 0 0-24 0-88-64 0 0 104s0 0 0 0l0 8-24 0L24 480 0 480l0-24 0-80 0-24 0-56 0-24s0 0 0 0l0-2.8 .6-2.7c10.9-46.9 19.5-77.7 28-108.1l.3-.9C37.2 127.7 45.5 98.1 56 53.4l5-21.5zM200 320L48 320l0 32 0 24 0 20 152-76zm168 0l0 16 0 60 152-76-152 0z" />
-    </Icon>
-);
+const Sunglasses = createIcon("sunglasses", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABkAAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCDJgsGAAE2AiQDCAQgBYMtBzEbpwXIjsN04yuXN5pglYt4nn+7+t/nVvWsmaon1Dz2AxXTX4qgDMrp0BEUTfaZ/giK5LivbT445nUiZ0ruRgJH3qsUQzI1qxPXPP/zb2/+F2/jKIzRmuv8bVnnExjgRrt522zaFmkTxb1tiaQjAk9IhARJROM5bq851Pkqj+hRni1f4GG90vxq1EMUvQpAJgHgwFnO4P8+3yefD94lnzsIBHIAoC+oUGGOgN0qwRy1Pmq18H0GA/oPpATIENmbAmr08C7GADUoqrp+th1pe+PrM22vubhk6ZLTWZI5WZozeWXO/bk/8kyX+W0r0iZE2va5Werk/kkvLTyVxZmXZTnL6dE8OwrR+6ZTaO70JO4P0jDUNEnSxFhsi1ZDycy8PPv52ejMbFt5fv7s803biMjZVsjZNAtfn/T67wu+aL6w++UT+Ii57RqLgj9i7DGI02eb9es6w/bTdbr3b74hTRAAeGzswIjbLE7ZOCeE1uszgUtcd64/kAqdSXgFw7qfiHNcHbBrH0Ns14FK3HZT3gAUp85mW/jMfwbGUJ1pnj746iRxd+tOvEAQvvyn99oVE3f/r7cF/PjRn39KGw++x/vL6xhWQKhWD1a7VPYDiIuAbMldHOeLguItFbzUcZ4SEA0CiiGNgMpskwTUGqsE9MyzRcCQxkmS1CNimssGW4xzK1vZ6m62Ns3bbM9uH2eGTEsVu0bkGS/H3NgC0Si6Ye36/s7+sqCb4aiVwV39bW/5XdywAmZCY7W41Cq9y+AHlr/NYg+M/BC1wVrr9e3UPy4/T0/VDqfeaqnD7NK/n1juLr/9CohgIrjRc0Uhpbn9zqWdPmwAAAA=");
 
 export default Sunglasses;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial-min` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-min?s=sharp-solid dial-min}
  * @preview ![dial-min](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dial-min.svg)
  */
-const DialMin: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 0l0 64-64 0 0-64 64 0zM128 64l0 64-64 0 0-64 64 0zm384 0l0 64-64 0 0-64 64 0zm0 192l64 0 0 64-64 0 0-64zm0 192l0 64-64 0 0-64 64 0zM64 448l64 0 0 64-64 0 0-64zM0 256l64 0 0 64L0 320l0-64zM400.9 401c-56.7 56.7-145.4 62-208 15.7L304.7 304.9l17-17-33.9-33.9-17 17L158.9 382.8c-46.2-62.6-41-151.3 15.7-208c62.5-62.5 163.8-62.5 226.3 0s62.5 163.8 0 226.3z" />
-    </Icon>
-);
+const DialMin = createIcon("dial-min", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABcAAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCBwsGAAE2AiQDCAQgBYMtBy8bBgXIjtRG+UVWMkKSTh6+n3vs3JcUgFMgTonRATkEXUeqjllV0YLdqVz9q/b9fy73/IYeHeAnOzu0PXTjrG17PU8goeWBLI8SyjQBKyi6TfQREmJnESIVIR2nx9fVDfL4kZ1WhXQrfcaFejr+08JpkhoZQNTHS41bsmCW53/H3xGfKohPZiAgxoFCIMOvaC3AKJlAa7kCuVzwd1Qq8h9YEEBUhRclkKMmNmIXIAdJ9Tyvgao2tarUyRefqrlFqBkRtRY2vE6NWjVrCTE4vLaxmO+47vHEiNezl0TPGBPdYmG87Hh77LdaZ2a9cLzscKf+nT/tP2/+bOyzEm1K5bOxahxnis/7Iu+/ePHhZU7Fnj1ogD17FMOG361blnX/Lsu/gUBw//uhY2vqjfq/eq0E/n34T/kZqTxPZbqD6hIIsl6VXlamElIpAAApDuuQSgSSlarDp9Z2XYBQEwGSqmoKkGmlvgC5mnoKUEVbgwWoqqYFMpHXEBpbNSCpbR9khjgCucYeQBWjvEurahxZrnGZwj31kidbZNKxon+ffsWIYtnX+fRhdH9kcWx3Oyxz3emqzfbY7aBNNtrmoCH3m1UcssvkHTHJFxX666OfwghFeLSXF5t0vwO2zQ3xQ0Yq7vvdHN6v7k5eAtoBOpJEpOpfASS9d23bDQAAAA==");
 
 export default DialMin;

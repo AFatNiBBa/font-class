@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `image-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image-slash?s=duotone image-slash}
  * @preview ![image-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/image-slash.svg)
  */
-const ImageSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 146.4L64 416c0 35.3 28.7 64 64 64l359.4 0-81.2-64L320 416l-72 0-96 0c-9.3 0-17.8-5.4-21.8-13.9s-2.6-18.5 3.5-25.6l88-104c.3-.4 .6-.7 1-1.1L64 146.4zM89.5 44.9c23.1 18.1 46.2 36.2 69.3 54.3c5.3-2 11.1-3.2 17.2-3.2c26.5 0 48 21.5 48 48c0 2-.1 4-.4 6c34.8 27.3 69.7 54.6 104.5 81.9l20-29.4c4.5-6.6 11.9-10.5 19.8-10.5s15.4 3.9 19.8 10.5L499.4 366.1l75.9 59.5c.5-3.1 .7-6.3 .7-9.6l0-320c0-35.3-28.7-64-64-64L128 32c-14.4 0-27.8 4.8-38.5 12.9z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const ImageSlash = createIcon("image-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfwAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBbwsIAAE2AiQDCgQgBYMtB1IbEwXIHolxjMpWReiL4MnuqXrd8xfgLGCdrOgyMEjOqRQt4r9y8//nmnrx/OgAv5/4oUVhaXHhedZ4bwIDX3u0JtCez2aKM3d1ljzU8iJJYml5/LbHzxaK1CVfVCE9mL7E7fw/gPGL5i6SVM8Aoh4Axi1ZMMvHP8aPKb689g7xpZkIiPGgFMjIaCXASFmglUKJQiH4MV3jx7hWEkBUwZ+TQRVUsASbAAVIQiqK2k171KzULhbXrNRYcX+nfXFvs3s674/7Wq5IOT3Y7cVOtWNx1KhxX5P7mi6Jc00XL7m3ccSL3e6v+Wzje5ufddaL3SKlR9xf8+bGi+LW+yPHQ91f6lwrbmrU/qV6L/3W7svNXyre+6PHnG9cfavaxvSqE95ao379J7aYO8biF37cueqhJVuEx0423/jCB6xbt79632+/yilSXLjwzDMjba9d6/jup8wYoaiMpbvPWU0uA4Hg9f8/6bum7sj/qtVM4OeP/vinnfiadH16CdUkEOSe13pamc4KyDECOSkOa4/vMlYgGy+BUct9aj/UYEBSRQ3IWqoHhRp6QEUbg5jLxQtkUVQXGlkFSGrZB9lgp6DQyNtQMdInThWNIjsY5x7c/y558oxPmlb26923HF4eQ533GSaPjiivla6HU6kbNtpsj90O2mSjbQ5O5H6z/EN2mSwRk/xQqZ/e+ioNV6qTV3kxOfsdsG0v6icZoXxvdHVYbu4GPSm0/c3IMpEiNzTIYK8DO9cd2NrLVkcbb1tFswQA");
 
 export default ImageSlash;

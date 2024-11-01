@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vihara` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vihara?s=regular vihara}
  * @preview ![vihara](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/vihara.svg)
  */
-const Vihara: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M308.5 61.4c-31 21.7-64.8 39-100.5 51.3l0 47.3 112 0 112 0 0-47.3c-35.7-12.3-69.5-29.6-100.5-51.3L320 53.3l-11.5 8.1zm173.2 65.8l-1.7-.5 0 39.7 1.7 1.9 2.5 2.9c27.3 31.5 62.5 55.1 102.1 68.3l4.8 1.6c1.6 .5 3.2 1.2 4.6 2c3.1 1.7 5.8 4.1 7.8 7s3.5 6.1 4.1 9.6c.5 2.7 .6 5.5 .1 8.3s-1.4 5.4-2.7 7.8c-1.7 3.1-4.1 5.8-7 7.8s-6.1 3.5-9.6 4.1c-1.6 .3-3.3 .4-5 .4L544 288l0 36.6 4.3 7.4 1.9 3.3c17.2 29.6 43.4 52.9 74.8 66.5c8.8 3.6 15 12.2 15 22.3c0 13.3-10.7 24-24 24l-40 0 0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-40-184 0 0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-40-184 0 0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-40-40 0c-13.3 0-24-10.7-24-24c0-10.1 6.2-18.7 15-22.3c31.4-13.6 57.6-36.9 74.8-66.5l1.9-3.3 4.3-7.4L96 288l-39.4 0c-1.7 0-3.4-.1-5-.4c-3.5-.7-6.8-2.1-9.6-4.1s-5.2-4.7-7-7.8c-1.3-2.4-2.3-5-2.7-7.8s-.4-5.6 .1-8.3c.7-3.5 2.1-6.8 4.1-9.6s4.7-5.2 7.8-6.9c1.4-.8 3-1.5 4.6-2l4.8-1.6c39.5-13.2 74.8-36.8 102.1-68.3l2.5-2.9 1.7-1.9 0-39.7-1.7 .5c-12.8 3.5-26-4.1-29.5-16.8s4.1-26 16.8-29.5l23.6-6.4C209.2 63.5 247 45.8 281 22L305.8 4.7c1.3-.9 2.7-1.8 4.1-2.4C313.1 .7 316.6 0 320 0s6.9 .7 10.1 2.2c1.4 .7 2.8 1.5 4.1 2.4L359 22C393 45.8 430.8 63.5 470.8 74.4l23.6 6.4c12.8 3.5 20.3 16.7 16.8 29.5s-16.7 20.3-29.5 16.8zM496 320l0-32-176 0-176 0 0 32 176 0 176 0zM152.8 240L320 240l167.2 0c-12.3-9.6-23.9-20.3-34.5-32L320 208l-132.7 0c-10.6 11.7-22.2 22.4-34.5 32zM100.5 400L320 400l219.5 0c-9.5-9.8-18.1-20.5-25.5-32l-194 0-194 0c-7.5 11.5-16 22.2-25.5 32z" />
-    </Icon>
-);
+const Vihara = createIcon("vihara", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABrwAAALyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDRQsGAAE2AiQDCAQgBYMtBy0bwgXIrgfsYBp+OofUi1UVC1rt0Nw3D991kMr8GozgHxr3/bmDxbw1ZvFFJjF+NyjRCgnqzLw8zQAP/4V8UDRAa3R7FVr/86KXh+ePvee+/9dJid8WXaIJNKBomw2wQBtwPt34D13zCvCDIinJ2/RFnqu22bT1N3xaAkXq3ODikohXm3iZFhh4wBPJ7dQNTuOAIiyQVgoQTrMHgalTPdtC258znMa2z1s6bGyQp84lkPOeF6S+xTZYrcBQhqpzErFVDMYmKroTTl9OuZAV7gfg4jdsBTD36WH9fCv9arESMHwGAABVAwCAHvujhoA/cQ34Ov+iN8sIAmgSBIgELFAZwqAzS8TsROC40uf4//ofCBAAVMh6OAPAgWTwFN4CgANg+KzL2FTCkPDpbqx8mHkALUtIr8aEqN2QCKgh6Fgs0oobmrqUK6q0KlA+nA12tKOWLM1wrETQLGDbC283KxQbZCXRNG64TI6DSqGGcd98pHVXvXoa1vULE9WwNb+B9rOaquYddccIlQZUNlYh/VjrSXd0jTZi2y3VV5/KOvVN+uz0nH52bGYfNGPk9xN4nAYZU0+2HPvnBlDdsqaVJ87mdrVsOdzYeupoK8fZzzi9WZ/6lBuRP+8GYH34DZnj34y0VUc9Ng2PVjW5ljhf090yK3bnSUi2eoxeJ637TQc7b2qqe3jfw9lL6fwCTM/8XukP2iBeuCAu1Ndc7tf2XPf+d4enW7rdPpwBAAFh4FnhxMzO/5AB4Ovr/SfX+49FaSGFASDYXD5nXFoKQBsAaJpYCBl8kIBxFxRY75pmGwgAEoAAGEkCAbBKZREAJ2hEALwKbQhAkmAUTtlUJM/4Cxhp5gCrrUXAyXMZeJ09byTJC1zKXiF6f5LFfZnssy22aNo8doyPHeZXpzM2O8XXSf2FMtEAe4kW0ynwipOEnW1fBh3xyheBFppqLuoopvvfUydofLDj+/ksOonfF+tbGM9vgF0wANCyCBzBlZIW5qzJcycD");
 
 export default Vihara;

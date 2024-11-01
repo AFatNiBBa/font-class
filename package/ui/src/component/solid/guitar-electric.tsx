@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `guitar-electric` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/guitar-electric?s=solid guitar-electric}
  * @preview ![guitar-electric](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/guitar-electric.svg)
  */
-const GuitarElectric: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 81.1l0 33.6L243.8 223c-14.6-26.1-5.5-50.4 3.2-64.7c4.8-7.9 4.8-18.7-1.7-25.3s-17.1-6.6-23.6 0l-29.9 30.2c-9.1 9.2-14.7 21.5-20.2 33.5c0 0 0 0 0 0s0 0 0 0c-1.2 2.6-2.3 5.1-3.5 7.6c-3.5 7.3-8.9 15.7-17.1 24c-24.7 25-64.7 40.2-89.6 47.7c-14.5 4.4-28.1 11.7-38.7 22.4c-30 30.4-30 79.6 0 110l79.9 80.8c30 30.4 78.7 30.4 108.8 0c10.7-10.8 17.9-24.5 22.2-39.2c7.5-25.2 22.5-65.6 47.2-90.6c10-10.1 20-16 28.3-19.3l1.1-.5s0 0 0 0c11.3-4.6 23-9.4 31.6-18l21.6-21.8c6.5-6.6 6.5-17.3 0-23.8s-17.3-6.6-25.8-3c-11.1 4.7-28 7.3-48.3-4.7L461.3 96l2.7 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-1.1 0c-9.7 0-19.2 2.9-27.3 8.3L366.2 54.5C357.3 60.4 352 70.4 352 81.1zM195.3 268.7l48 48c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-48-48c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zm-64 64l48 48c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-48-48c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0z" />
-    </Icon>
-);
+const GuitarElectric = createIcon("guitar-electric", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABjQAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCPgsGAAE2AiQDCAQgBYMtBzYbRAXIjpQuH7RDaXl4Xu+pc1/yB2DG5orV0CVULoROblmxSomk/s81n59VAX6jQ6lalLYlWLdPYIDR1rzz8YRmOgGbtbPrDR/RT0oG8ekzbB/DJDuHwQPyeCV7WoV0OX2Kk+Wj4jfNPU1SPQMQ9QAwbsmCWd78OX6O+KR8jvjEDATEOFAIZDjTSoCRMsEH5ArkcsHPUZb5P7AggKhCvE0gRwVP4iggB0mW56vr1KlZqZ0vjk/W2CIsjCstrza92ORCo65xrtnj8QSj5xrRtztel2ilx7stijs1j/a42PIqJESb1tQzt5r2CFP2euclURP6YssrF3WuEUcaLYxzFo4aPep8o3NNRseF6XzjuVjd/m69u3+0+3Tzp9bsbi/e7tjhbFFsf/jql37w+boAQIoZr7h6ZNCickvbtlvmzLW5vnFzuXnCizv88W6Axt9NcvXq7S+a/3nvnkzf7z/Lss++7xvqvjCpt6/rX3ulLMsrV+7cKYV6eh0IBP93rvvomroj/65WM4FfX/7rv/wzUr6ZpLuoJoEg61n2tDKBRAAAUhzWPkEgeVBGirVcECeLNRAcr6IGipmW6nXI1dADKtoYpGzuXyATeXWhkVWApJZ9kBnsEcg18gxUjPRBropGkfmh5kXaLzB7ssikZUW/3n2L4cWypumupaTZEcV2uOvhe7rhrM322O2gTTba5iDCfrOKh+wyWaMm+aJCP731VRiuMDcf7cXl9jtg2zzAvsgIxfl4V4f14d0QS0S0v5IkEanuMw30uj8=");
 
 export default GuitarElectric;

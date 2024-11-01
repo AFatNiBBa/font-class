@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left-long` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-long?s=sharp-regular left-long}
  * @preview ![left-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/left-long.svg)
  */
-const LeftLong: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 224l48 0 256 0 0 64-256 0-48 0 0 48 0 12.1L67.9 256 160 163.9l0 12.1 0 48zM33.9 222.1L0 256l33.9 33.9L160 416l48 0 0-32 0-16 0-32 48 0 208 0 48 0 0-48 0-64 0-48-48 0-208 0-48 0 0-32 0-16 0-32-48 0L33.9 222.1z" />
-    </Icon>
-);
+const LeftLong = createIcon("left-long", false, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABVwAAAHJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBNQsGAAE2AiQDCAQgBYMtBzAbtQTIHoex22RJF81QPgon8fD/c+V9P8lCJkVOmdGNq68jVb+2hA6NINtTWT3JDDmW7zAhE5c7/9e/pz+fRo+yhq0JMhb+05i1zxNIsDyyLgssoMQTsMxdLQWR7idpyZbk8bPHzwPyeBcrSE8SPKhvGn8Ncp+kyABETwCs3L97q8+/4lfEj9YL4ofNCIiVoBbIkGGoAEtkAkPlauRywa9otfx/YE0A0QZPlUCOHMuwHpCDJOV5n9GNolu+r1GU+xtlN1GVQuyL/SHsW7J8ydLYG40A7cBuUFndij2junp2/cs5nv6c3BWUWOXw4VipzGhGL9Q1m2ao9UzoDDOskDgrfA0Egg9F2473WPK/o5HAn7e031CSutAhgSCb0priSAKJAACkuGdUgkAyT4JXrTwUIJQIkLQpBcgM0VOAXGmyAIXh5grQprRbJvJOoa+jg0wqN8nMPE0y19czsrDEl7hN38hMiDcA/geXso4Da6/VM6fNqBfVYqsLVsHm88X1tjbhXlhNpLvOue6aO84646I7DLlla3bXVes0eK0Pqs00zQy1Rerj4VnZx+Jbbru4ls4vWay+H01wT989kcwElLM0kkSkzmelTjUzAA==");
 
 export default LeftLong;

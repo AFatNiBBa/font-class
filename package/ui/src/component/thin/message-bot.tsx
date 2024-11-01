@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-bot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-bot?s=thin message-bot}
  * @preview ![message-bot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/message-bot.svg)
  */
-const MessageBot: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 400c8.8 0 16 7.2 16 16l0 80 123.7-92.8c2.8-2.1 6.1-3.2 9.6-3.2L480 400c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48L160 16c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48l64 0zM96 64c0-35.3 28.7-64 64-64L480 0c35.3 0 64 28.7 64 64l0 120 33 0c3.6-13.8 16.1-24 31-24c17.7 0 32 14.3 32 32s-14.3 32-32 32c-14.9 0-27.4-10.2-31-24l-33 0 0 152c0 35.3-28.7 64-64 64l-106.7 0L249.6 508.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3l0-64 0-16-16 0-48 0c-35.3 0-64-28.7-64-64l0-152-33 0c-3.6 13.8-16.1 24-31 24c-17.7 0-32-14.3-32-32s14.3-32 32-32c14.9 0 27.4 10.2 31 24l33 0L96 64zM32 208a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm592-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM176 96c-8.8 0-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16l288 0c8.8 0 16-7.2 16-16l0-160c0-8.8-7.2-16-16-16L176 96zm-32 16c0-17.7 14.3-32 32-32l288 0c17.7 0 32 14.3 32 32l0 160c0 17.7-14.3 32-32 32l-288 0c-17.7 0-32-14.3-32-32l0-160zm80 56a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm40 24a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zm128 0a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm24 40a40 40 0 1 1 0-80 40 40 0 1 1 0 80z" />
-    </Icon>
-);
+const MessageBot = createIcon("message-bot", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABygAAALHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiDewsGAAE2AiQDCAQgBYMtBzIb/QXIBv75zy3v+wmcIQEKY5qKi+9UdvVdl+KCT3+489q0AT93gXVpKHO91vI1dS+BzgMM56ZIsiJJiFNw232YpIuBh/jQaFyArT/0wwdms7kFrBzeVG9IYx4YLAsAAEUAAIDaHds258pDPZRuxU6CbtEUEIDqAOAhwAIsIBMBUA0LAZnYeICNjeChYjH1H+iBAEB+JrZhnw0EgbvAC4gXgcGx7TxNAoFIeiDURlxfyO5Qv6vTcX0S6qiNrquDKRszLG1J3lAgqH2J61KNNietz+922VpUOlowpP2FD6chV1sLLk1az6zEdc6BdEdoU6FD+Ry107rkDZIkxzlQ5Ei65GhTviXJGzQ7ZaO7P82V2m1M2ZC8LnF90khwNqb0AQJCAqQEgvnOQYIjpNcdCIGglrw5p/2+1M35D2ZsKVC5EttX4ED61oIH86tjeV5fPMKWDCan2Jy69wN5jkSOvMt9a8AtHpR8GG7F1G6U8Q2l1N3blod1+26pWvbkmS2dKER31WJXNOpMIjf9R4cXLQqvGN2/xya4XK0aypRujJs716lFhEipY9I35U6qufJhOPxwZbbMpba43JNiF53bQ+ljRwGAB5Mryi6NzWlZsXVSUuuucKK/aOXKRf3MPCuWs8KJvY6tXXusF3sdAAQIrlzV5565qn2Lcw0Aj899+I3niV0ys8wRIA4DgMAqFitGNzMLgIoKAOJGE8iz80UCDHdwmMJBNtwtFA4gAL+nUcQigwixcShKfGRT/gI/Dm2xkB1AJNIdSwxBRhOLCkwnNokcJz6qcTXmJ1FWKVeXUfVHZoYGPqX+LK90iVJeFW+zQmsKrrKdrOqdtheagI7CdCkDGMkIxtGffgxmnCccQ/PkeIbTYE+y/mc9SlOCUnhUwbtdP0YHuH8MY6HMa+5PQ1W898OFmLDfvzB1GSaZZSgyGJBxy77mPxEAAAA=");
 
 export default MessageBot;

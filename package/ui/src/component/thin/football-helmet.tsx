@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `football-helmet` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/football-helmet?s=thin football-helmet}
  * @preview ![football-helmet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/football-helmet.svg)
  */
-const FootballHelmet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M279.1 237c-22.3 2.8-39.1 21.8-39.1 44.3c0 6.9 1.6 13.8 4.7 19.9l38.2 76.4c3.3 6.7 5.1 14 5.1 21.5l0 .9c0 26.5-21.5 48-48 48l-2.9 0c-6.5 0-12.9-1.3-18.9-3.9l-93.9-40.2c-6-2.6-12.4-3.9-18.9-3.9l-14 0c-4.7 0-8.7-2-11-4.9C50.1 356.9 32 308.6 32 256C32 132.3 132.3 32 256 32c104 0 191.4 70.8 216.7 166.9c1.7 6.3-2.8 14.2-12.2 15.4L279.1 237zm183.4-6.8c17.5-2.2 30.2-18.3 25.7-35.3C461.1 91.9 367.4 16 256 16C123.5 16 16 123.5 16 256c0 56.3 19.4 108.1 51.9 149.1c5.7 7.1 14.4 10.9 23.5 10.9l14 0c4.3 0 8.6 .9 12.6 2.6l93.9 40.2c8 3.4 16.5 5.2 25.2 5.2l2.9 0c35.3 0 64-28.7 64-64l0-.9c0-9.9-2.3-19.7-6.8-28.6L280 336l52 0 12.1 57.5C354.1 452.7 405.3 496 465.3 496l7.7 0c21.5 0 39-17.5 39-39l0-65 0-32c0-22.1-17.9-40-40-40l-127 0-15.4-73.2 132.9-16.6zM313.7 248.8l15 71.2L272 320l-13-26c-2-4-3-8.4-3-12.8c0-14.4 10.7-26.6 25.1-28.4l32.6-4.1zM176 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm182.5 16l-10.1-48L472 336c13.3 0 24 10.7 24 24l0 24-137.5 0zm3.4 16L496 400l0 57c0 12.7-10.3 23-23 23l-7.7 0c-49 0-91.4-33.3-103.5-80z" />
-    </Icon>
-);
+const FootballHelmet = createIcon("football-helmet", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAABsAAAAMEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDRgsGAAE2AiQDCAQgBYMtBzYbzAXIrgZsYyr0g4GKAYUFg+iF8VhX9C8reP717799kjzlfiMf4ECoIHQAXL81/ZTDA/y4f8/9kJqggQhFSGpC2hIZl+TGvhIe/OOu3rL+FlVp4IG2FkEGAWUncJDKeXxl8V4h+sUC/T/XfH7Pjw7w+4mfyWkkVoJEPl/28wlMpK1o2F5gs4HaWGfbjJsaorApIiRMRBza/WH8AzDhIVv5oC6rT7C1v5X8V2gVio4GAEAyDAAAdFoxpB/P/oV/IXyKHOSDWSAAGQHgCNBYk0EAtKUJfgDDAcMQhEMk0v4DCwQAEgc9mgJgQAg8gt8AYAAogRhT2VIT4+U9X6QZnhxrx98Mwi6O5g4L5yGXEnblWzYkDQ8XbDvVi+U36s0+7yd/zvu47HwYumJvFvYm/Vn8bfmPqTdND4b+XHRenmx0UtjibNnFdGF5UqVIcnha7jfIQfJeERHosGOGhxVLhw0fZkMaWw4WNQ09H3cl7Enam8zGUMagbEh45Zfu9oaVlWZ5nE5FkhLlPORSvuVO6YWs3AsxF/75sP2DvG/hDi5meqN8Tq/kgP74qyna2BMjK61MiiLQ9lmQ9vV1XWl4vsvXc3oVfX/qrv/5Pkyty+3/5d/SMGL0hv/XSFhWdioqisDidUVupWqOZcZaiN4bpd59Z5K9bwlib13I7MSJfXUxc6moKasydsVF9bGp23vl8WlGn+z+Ly0tXMia0hbWpUWts+5EXyX8QYNyC1jfuOae3SQMJ+j45JwFQICg/9F35YbovpsgBcDfV897ZkRGUbdAkAIg0HU/I6IQAwUBAAIVFslVPokA5ZZ48CPs8cbCYoPiZ0FLFwOGVQY+WRpo4/whNIkJIRKMBCgR5oLWaDEYCW6CT1tvA7+EYHOZzUT2TzKpO0e6zXLNldWu1V0rFpeedJ1s48xy1aLSUYK1TDLbLAtMNMFUCxg2T794oZm6a2g3X+TUqFTNaeXc9U9pOAvmmW+qLPinacPF+8UW6f1LoClEWKtEUZCo6I+/WLFz24yZExcAAAA=");
 
 export default FootballHelmet;

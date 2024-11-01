@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice-one` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-one?s=sharp-thin dice-one}
  * @preview ![dice-one](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/dice-one.svg)
  */
-const DiceOne: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 48l0 416 416 0 0-416L16 48zM0 32l16 0 416 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zM240 256a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const DiceOne = createIcon("dice-one", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABXgAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBMwsGAAE2AiQDCAQgBYMtBy8bsgTIhof/Xyu771d1n5kwVqIYwQGTHhVg1S6wK3zALqnVPf/XfH7Pjw7w25X4mRxHU2ljJB5FLer5BCa2Ny+iKLCZTsCm22SHdYTiFxESJBEdV3j0d4Q8HtukRHqY/sR1+dD4S1tnSLIMQDQBwPilC2er/IyfEX9U3xF/mImAGA8KgQwZOggwSibQQa5ALhf8jGo1/QcWBBBl+pQJ5ChjDCYCcpDkeV7btLZ5/VLDfEn9Ur2VKUsNI4sGrerXayhSiHoNIrKIxfda3Wlxt+X91vVOto64X/9yy7tOtLhT71Kre9G1rkndP13+3PKnxtdfqIzI1SZNKk280ER9WQv//Wj082cjpuvX6AIXGjW6gAbisu6vFkxc23jU/zX1E/j9+b+/4FdU/RmVVIcaCQRZr2ovq6ICUREAgBRHdI0KAskQObnWBu4JEOohQFJWT4BMe00EyNXTU4CSTgYLUFbPQpnIa4UWVneQNLAfZIY4CnItvAElo3wJylpEFkHc/XMfuOQpFpq8q+jfp18xophWGh8UTNkcWSxr3Y7kie44aIu99jhks022O2SQA2bHh+02xYMn+6JCf330Uxih2G4f9y+x2QEHbbfXHt5mpOK81c0Rf353mIlSDlBKEpFqngi/9949mwE=");
 
 export default DiceOne;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash?s=duotone trash}
  * @preview ![trash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/trash.svg)
  */
-const Trash: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 96L53.4 466.8c1.5 25.4 22.5 45.2 47.9 45.2l245.4 0c25.4 0 46.5-19.8 47.9-45.2L416 96 32 96z" />
-        <path d="M163.8 0c-12.1 0-23.2 6.8-28.6 17.7L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-7.2-14.3C307.4 6.8 296.3 0 284.2 0L163.8 0z" />
-    </Icon>
-);
+const Trash = createIcon("trash", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZwAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBLgsIAAE2AiQDCgQgBYMtB0YbxgTIrgKcsmMFKaRehd0uGBp8F77tPsTgQoiHr/1+5+4uYpLwpB4iJWtpYs1C/SGSmE4Jb6gMkfz8nrH5DxFJ3CO5VkiQfKZe51WsbtWaowqXgtBxwPJkprDvkPf5f2nGzH1xqifnoQA+x32u84As8DnPI5DzUGzaagtSrnBMsW8bItRI/CJSJSH9iBqzA0o85F1i0kf6By/8P4Dxy24XSNoyAKIXAJxcuYTPiqoU//UrxLciCIhTALMIGRmTCOwTCkwSmQVFEVSpHqqoZwggmsE/mkEzCnbAGYACkhBFxH1KsVpUU4oVLbejJlLQ8eCpTfNZh5pORi5ia/i8XUGWuJ5TtDQ1N101EeUHEy2kcjZ6n/+Am4/Q5oVOmttbDWqbMtmJMZuhRThmmqavG/43joHP0DQ2AQgEj297vdPm/mVKAeDn09Db9WdfqQFaJRDklXpFa59AIhJgpZiH03ncLEI2SwC41+kVBEI7Ckmzdsgm6KBotwxNpsX3m7U7JxRFjjCoTSHpdAPZpjUoBr1Ak31fVrPBhBeIPn76+5ZQsGh+iMOBEGd46BHmTpClm+VpwzWfM26YRb8J42b16TVk1uDTSu6cMQUPy3sQCwsIYRkcDq+FmrGmzRjqc/E+WbzedJn3y90wjgCwuvU7mUgkVM9Od80M+t+hrDXcewM=");
 
 export default Trash;

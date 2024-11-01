@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-vneck-hair-long` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-vneck-hair-long?s=sharp-thin user-vneck-hair-long}
  * @preview ![user-vneck-hair-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-vneck-hair-long.svg)
  */
-const UserVneckHairLong: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M336 144l0-8 0-8c0-5.4-.4-10.8-1.1-16L280 112l-4 0-2.4-3.2L255.4 84.5l-33.2 40.6-2.4 2.9-3.8 0-104 0 0 8 0 8c0 61.9 50.1 112 112 112s112-50.1 112-112zm8.6 43.1C326.9 236.6 279.6 272 224 272s-102.9-35.4-120.6-84.9L48 235.6 48 256l72 0 8 0 0 16-8 0-80 0-8 0 0-8 0-32 0-3.6 2.7-2.4L96 172.4 96 144l0-8 0-8C96 57.3 153.3 0 224 0s128 57.3 128 128l0 8 0 8 0 28.4L413.3 226l2.7 2.4 0 3.6 0 32 0 8-8 0-80 0-8 0 0-16 8 0 72 0 0-20.4-55.4-48.5zM284 96l47.4 0c-6.8-22.8-20.6-42.5-39-56.7L265.8 71.8 284 96zm-5-65.6C262.7 21.2 244 16 224 16c-56.4 0-103.1 41.7-110.9 96l99.1 0L279 30.4zm-67.1 380L134.4 320l-58.5 0L21.7 496l404.7 0L372.2 320l-58.5 0-77.5 90.4L224 424.6l-12.1-14.2zM384 304l59.1 192 4.9 16-16.7 0L16.7 512 0 512l4.9-16L64 304l77.7 0 71.8 83.7L224 400l10.5-12.3L306.3 304l77.7 0z" />
-    </Icon>
-);
+const UserVneckHairLong = createIcon("user-vneck-hair-long", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABmwAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDHwsGAAE2AiQDCAQgBYMtBzsbqgVRlA5GiuxjMbZVw5a4sg3/xcM/dn3dV13dU79qADEUIkXWCogG2Sr7Z0P7Ypv/SCfEP5JbhkayBE18Ym1tsS2Utc3/5Z7ftKOx9PO9Ez60MWnqVTwmRnM+TyDAomljguSLCixN0FI3pRUroko+GaMIkzJ2fNbj2h7SuG4jnuRqchun+4fG15r5kCiVAERdAGDckrKAX3VUR9z6/2XilhlAQIwDaAtRQgktIRiJFWiJ0xZIpYLq+P9/+Q9sCwKICrxPAlJkeBLvAVKQqKRp2z+Tq/IGTYpyrXRxUc63hIg41DjPG0f3GBkNI8+FuNnt8UGv9niyTasbXSNeG/jK8Cdazw1RFCLPA0KTWBCbHxzz7pSPR73dTggxLxoFzYQXxdXzFxd5cU/3ntFt8SP5S10fa1nEkqWLFy3OY2HUisVBiYbReMk0e1GjyGs2iSVRxKK4VZnf/om6T3zb7vbm2+b0yXA3shpD0vq6qKG+dGsmU+e/73/44fv/6hz75DcqZ85UfvtkrYamZnVlSzNtpdr5WEuZTHnghLlzJwwss7Slj7WTautlS435UxtaO3J5H97u3MdnNEnHnWx931dfbNtg/LzxB2cti0XDDXrWhewOp1zvMPfktuHv5s1R79k56s3NNmWB6540eYHZQCD4++7RqjV1Rv6aFfoS8OUb339tXPz/e/Fe8gQyCQhKPf/vqY33QMQB/KQk9hDjPQQSD6rAq9Z0SYCQI0CiIhegpAUBglSuBwRlrfkQVOQWYEVaJTTUBZCoaTsoGewNUg19QdlI/2RFwyj5reZ12m9jdq6hbBr1MyxK6LHs0l1RKeMpmb2ur9Qm00oYnZ08DHqLhyJviszTIV8RmS8iNoOFJOh17XlxY3Bztzg7tUlS9H0kea17yxQyINtfSSIhkoab3df3HHBHP7yOvsMBAAA=");
 
 export default UserVneckHairLong;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `onion` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/onion?s=regular onion}
  * @preview ![onion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/onion.svg)
  */
-const Onion: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M171.3 33.9c.2-.7 .4-1.5 .6-2.2c1-3.8 1.9-7.8 2.5-11.9C176.2 9 184.9 0 195.8 0c6.3 0 12.1 3 15.8 7.9c0 0 0 0 0 0c.7 .9 1.3 1.9 1.9 3l3.4 6.8c2.9 5.9 11.4 5.9 14.3 0l3.4-6.8c.5-1.1 1.2-2.1 1.9-3c0 0 0 0 0 0C240.1 3 245.9 0 252.2 0c10.9 0 19.6 9 21.3 19.8c.6 4.1 1.5 8.1 2.5 11.9c.2 .7 .4 1.5 .6 2.2c0 0 0 0 0 .1c11.6 39.7 43.1 65.3 76 92C399 163.7 448 203.5 448 288c0 80.4-58 135.2-131.9 160.3l10.7 32.1c4.2 12.6-2.6 26.2-15.2 30.4s-26.2-2.6-30.4-15.2L269.4 460c-7.1 1.2-14.2 2.1-21.4 2.7l0 25.3c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-25.3c-7.2-.7-14.3-1.6-21.4-2.7l-11.9 35.6c-4.2 12.6-17.8 19.4-30.4 15.2s-19.4-17.8-15.2-30.4l10.7-32.1C58 423.2 0 368.4 0 288c0-84.5 49-124.3 95.3-162c32.9-26.7 64.4-52.4 76-92c0 0 0 0 0-.1zm31.3 48.2c-7.9 13.9-17.4 26-27.5 36.8c-.5 .5-1 1.1-1.5 1.6c-.4 .8-.9 1.9-1.5 3.2c-1.5 3.2-3.6 7.9-6.2 13.7c-5.1 11.7-12 28.2-18.9 46.9c-13.9 38.1-27 83.8-27 119.5c0 32.5 9.2 60.2 18.5 79.8c3.8 8.1 7.6 14.7 10.8 19.7c17.4 5.8 36.1 9.6 55.3 11.4C194.2 389.7 184 354.2 184 312c0-61.9 6.1-128.6 12.1-179.6c2.3-19.3 4.6-36.4 6.5-50.2zm34.3-13.5c-.3 1.8-.6 3.8-.9 5.8c-2.2 15.1-5.2 36.5-8.2 61.7C221.9 186.6 216 251.9 216 312c0 37.9 9.4 69.8 18.8 92.2c1.7 4 3.3 7.7 4.9 11c21.3-1.7 41.9-5.9 61-12.4c3.3-4.4 7.1-10.2 11-17.2c9.9-17.9 19.7-43.2 19.7-73.6c0-37.1-15.8-88.6-32.6-132.5c-8.3-21.6-16.6-40.7-22.8-54.5c-.8-1.9-1.7-3.7-2.4-5.3c-.2-.2-.4-.5-.7-.7c-13.2-14.2-25.6-30.8-34.5-50.7c-.5 .1-.9 .2-1.4 .3zm91.9 99.9c16.8 43.9 34.6 100.1 34.6 143.5c0 25.2-5.5 47.4-12.6 65.7C382.1 355.2 400 325.3 400 288c0-53.7-25.3-81.3-63.6-113.2c-2.4-2-5-4.1-7.6-6.3zM102.6 381.4C94.6 360.5 88 334.1 88 304c0-41.6 14.9-91.9 29-130.5c.6-1.5 1.1-3.1 1.7-4.6c-2.5 2-4.8 4-7.1 5.8C73.3 206.7 48 234.3 48 288c0 37.7 18.2 67.7 50 90.2c1.5 1.1 3.1 2.1 4.6 3.2z" />
-    </Icon>
-);
+const Onion = createIcon("onion", false, "data:font/woff2;base64,d09GMgABAAAAAANoAAoAAAAAByAAAAMbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiEBwsGAAE2AiQDCAQgBYMtBywbAwYRVZs62UdiHFP4XcxFwyj4h3Rp748kkxKzvEAKM3Y0TjrAXQeIKjqEOt0B4rYZbe20/7mc3lg2NsjnO+ex8J5PXX7vqLmeJ9DzQLKxNdA0sDRQT6G3LRs2ghAaESFlItKYjtcZuDqpg3hgjpt3gQPtTfUNMXaDwXMAAFA5AAAwYNqkMbz4oT6U3skHeodRgAA0AIAQAQ7gAEkEQG8cBCRxCQEXF8GHyufxPzAEAYAKoPMMAC5QCHwBfAe7oz3Vc90laxu1qor5Xn13qu+VzLK+ZHU0crLZnsDKKhcEykUishEraf7l2M4QK7/A8RbXW1g9anO7wbneT4fHdLzxpXha2Wp0rPGVuFRXk9SxplcSCb3d9/mGF9vd7WV1s9XNhFWbY9W22pLtWVbHorgf51vkgstN7jS0mbOZk4luWSR71pKnkqeQNvWrzY5GbmZs+gxw8TrdY2usbsStsppyOiWd5lT0hUa25Y2WdTXJOPlE2mbOJmyEyVb/rNeaX+P8mFyQ8xveKL/xXYN3eZcbpyUQntehomQaAGrK8uVdMQBMK6noUBAggL1DOh+Bnq+Y8ocPq73LkO6Tdz3k0LkYwYQJQYxzhx6ya3L3IXepHTbcTz18tScc6TxkL+Rf/QEQoKpmsPHmrR3bk+Wlo4Zee7lppl3ftkN7N07KAWg2ZGjrPm1jChr/9NbQGX4qdbj2xZeyEgIY/B7ArEUv5uBKA+/mT4XNioueUVFe8dHv1w9t7S2DKK8o17Oi4mZFAAYABAjK/t7ovLLevxX5BoCPH//wO+Ph/FO9aG4ARRgABE7rfGtm60UA1AsAvpLRVhrqRUCA4QM8KKpHnbcSJbDAUEAJOCQoB5cSWoFHmi6mMZhk0uQWE1UzJ4OhHhvAoSvbwKWah+DRmzfyAqrlxLodqfZXs2Aox4dsCju0bR/2DK8t0wlfs672Cs1h861lpAXsZCnrWMtmlrCYFWxm8kbGVFtYw1CNHcIHCelAW9oT0pPQ3X0PprJ8I5tYIdt+hHV6Eb6PmrNVn94CtmMAgI5RgpiGjLdu7Yp1awEAAAA=");
 
 export default Onion;

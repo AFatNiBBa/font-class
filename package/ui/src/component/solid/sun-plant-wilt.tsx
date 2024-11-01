@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sun-plant-wilt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-plant-wilt?s=solid sun-plant-wilt}
  * @preview ![sun-plant-wilt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sun-plant-wilt.svg)
  */
-const SunPlantWilt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 0c-6.3 0-12 3.7-14.6 9.5L120.6 64.9 63.9 43.2c-5.9-2.3-12.6-.8-17 3.6s-5.9 11.1-3.6 17l21.7 56.7L9.5 145.4C3.7 148 0 153.7 0 160s3.7 12 9.5 14.6l55.4 24.8L43.2 256.1c-2.3 5.9-.8 12.6 3.6 17s11.1 5.9 17 3.6l56.7-21.7 24.8 55.4c2.6 5.8 8.3 9.5 14.6 9.5s12-3.7 14.6-9.5l24.8-55.4 56.7 21.7c5.9 2.3 12.6 .8 17-3.6s5.9-11.1 3.6-17l-21.7-56.7 55.4-24.8c5.8-2.6 9.5-8.3 9.5-14.6s-3.7-12-9.5-14.6l-55.4-24.8 21.7-56.7c2.3-5.9 .8-12.6-3.6-17s-11.1-5.9-17-3.6L199.4 64.9 174.6 9.5C172 3.7 166.3 0 160 0zm0 96a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm32 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm312 16c0-17.7 14.3-32 32-32s32 14.3 32 32l0 53.4c-14.8 7.7-24 23.1-24 44.6c0 16.8 16 44 37.4 67.2c5.8 6.2 15.5 6.2 21.2 0C624 318 640 290.7 640 274c0-21.5-9.2-37-24-44.6l0-53.4c0-44.2-35.8-80-80-80s-80 35.8-80 80l0 22.7c-9.8-4.3-20.6-6.7-32-6.7c-44.2 0-80 35.8-80 80l0 21.4c-14.8 7.7-24 23.1-24 44.6c0 16.8 16 44 37.4 67.2c5.8 6.2 15.5 6.2 21.2 0C400 382 416 354.7 416 338c0-21.5-9.2-37-24-44.6l0-21.4c0-17.7 14.3-32 32-32s32 14.3 32 32l0 8 0 168L32 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l576 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-104 0 0-168 0-8 0-96z" />
-    </Icon>
-);
+const SunPlantWilt = createIcon("sun-plant-wilt", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABugAAAKvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDVQsGAAE2AiQDCAQgBYMtBzUb2gXIrgpsY9rQhWLA4FKyP2YBi0g8H6GOJkRQrf3bs3efkBwlOh7IfhAmsYCOXBSRkFweuPyruFQUkDuj1nT3/1II401UgVEBk0Nw7KIztZ36Oja6rkLh6GkvUHdEe3TxHpERVuA8kKfLeoGwFlgyf70namjk1KnnOQ8F8IeFIGAhGpuya9HOjXOeV6Dg3bYGSEWKtYoVCMta3VSEYl+fIu0mhYWSeZyy49kJ8vjOVAbpRvrAFX/R+K7LIUl8BgCiEQDsP9TWiqdSlCLei4jXDoAAYj+AQQQZyEAvAtapCHoJEuQEQimKQv8DByEAohz2MxIgB+XgPb4AckAiclFpYNs11CA6dVTbd97KaZlag0NQMzjdZoJHaIsuFyJizUWHomHsyE5Jx9yRnDZU5PZk1yEjVeNxaiaMnD9pJe98seeE8Lb6vDVD4MoyR/Y6ILxb3H0niHu93lM90dV9nZFxCCNERt6XMPygCV4HcqSiQazlq7aJPWevPWm1tK8SfmJeX0O2ufmqunETR65vbyceNuW6Wnu9o1vi9vblBSc1ViOWw6r4w/w3Yz4USssY+H/9ZS7XV+hEfsP+YK45htvXfvCj6zC3hgcnzI0TB3n7bPJeJwy0yUjFIepRMCrm86YRVWkYIEDAic/flmp4/lSiAPj69P/07uJ0Ot2jkgIIyGaLWf3Jg9IDIJZiE2HwRgGSZznza92yiaCFCyQxtCDjYwY5rWRQJihXOFzeRsU8HmQ3IEChtwJUebaAYPcANEo8R2PYA5e0VJDSH2V6XSRqZ8mltAxZJB8rplylApwslsfW5GbvSJQtmLRk0boJ42acC9Sq1sSGBXWIrPVBUqY0GaQikq6/650BW7VmhrHIT1NM5vsJNnH/RHEVxrhsbqJAJOPaxmLqFxhNPbU3vw4AAAA=");
 
 export default SunPlantWilt;

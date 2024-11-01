@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wind-turbine` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wind-turbine?s=sharp-solid wind-turbine}
  * @preview ![wind-turbine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/wind-turbine.svg)
  */
-const WindTurbine: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M340.8 425L317.1 202.8 415.4 2 234.8 133.7l-223 15.2 204.4 90.6L340.8 425zM288 403.8l-64-95.2L224 464l-72 0-24 0 0 48 24 0 208 0 24 0 0-48-24 0-72 0 0-60.2zM256 168a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const WindTurbine = createIcon("wind-turbine", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVgAAAHaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBHwsGAAE2AiQDCAQgBYMtBzMbogTIhuD5tf/NubtfFLXFXRMk6DTxhEfz5qF6EkvkN/8308bzKMBvUaKhjYVLA1nPfzTn8wQSW7g1kezAzvQE7Han7TCRtU9iKZIcl+R4HJDH0+yUMtL59AGn+UPjl1ZOkVRlAKIhACYuXzzXqy/xJeJ96T7x3mwExERQCGTI0FaAMTKBtnIFcrngS5RK9j+wIIAoJ88mkKMM/TEekIMky/O6RlU1ZXX5Mg9Vb162dNnyWOKQpcqsChbV1aKmJtLmWHat1bku11tf7N7pdsPbfzp+2PbBkuYtPuL6xjfunvSp3vtVjj+aMn6dgS6a0XKAlt+JNmNMh18LmzVbSAXi1t87N7avbzDmf2VNAt+e/PuDP6Pa0qu4mm6jUgJB1qfUx5pErSlxVQAAUhzTKVErkHSX4bfWOiNAqEaApFy1AJk2GgqQq9ZbgDLtDRWgXLXFMpFXCU2tLSCpdRBkhjkBck3dBWXGeG2VaxrZveFPnf+2pUzT+NSxYmC/AcWoouvLwlVgQ390Ma32OEa5nrBom/32OWKrLXY6oshD5rpH7TVtREz1RYWB+hmgMEqxHN1OL7PVIYfttN++OGS0Yr/Zw7FxdU8wEmEcxJMkItU+IE/fI0cPbdq5bys=");
 
 export default WindTurbine;

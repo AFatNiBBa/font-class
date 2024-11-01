@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-breastfeeding` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-breastfeeding?s=sharp-duotone-solid person-breastfeeding}
  * @preview ![person-breastfeeding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/person-breastfeeding.svg)
  */
-const PersonBreastfeeding: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M128 288l0 44.4 0 8.9 0 26.7c0 .7 0 1.4 .1 2.1l69.2 34.3 43 21.3L213.4 480l107.5 0c-17.2-12.1-34.5-24.1-51.7-36.2c7.7-11 15.3-21.9 23-32.9l-52.8-8.8L192 354.7l0-66.7-24 0-1.9 0L128 288zm104 44a44 44 0 1 0 88 0 44 44 0 1 0 -88 0z" />
-        <path d="M144 80a80 80 0 1 1 160 0A80 80 0 1 1 144 80zM269.2 443.8l23-32.9-52.8-8.8L192 354.7l0-66.7-24 0-40 0 0 53.3 0 26.7c0 .7 0 1.4 .1 2.1l69.2 34.3 43 21.3-42.6 86-43-21.3L26.7 427 0 413.8 0 384l0-16 0-16 9.6-12.8 96-128L120 192l24 0 176 0 26.2 0 14.2 22 72 112 17.4 27.1-18.5 26.4-56 80-27.5 39.3-78.6-55zM276 376a44 44 0 1 0 0-88 44 44 0 1 0 0 88z" />
-    </Icon>
-);
+const PersonBreastfeeding = createIcon("person-breastfeeding", true, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABnAAAAKAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCVwsIAAE2AiQDCgQgBYMtB2QbjQXIngd2Y8cTpBUQ7MKoTRtKy8P/r1XeV7+6F4BqlpkUsVoHrIAcJlGEKiznRLIC7leH5Kl0MW0cEAc/mphlZ2MizP/P/zX1ouzoAL/RoWQskyueZz6fwACj/XwiN/AynYHN3BaHoEGQGQxiEB0yZkhe+P55GHRcyONhOqdEdiP7HFfK/wDGj1o5R6ZWAhANATBh2aI53q6O6iw+ryzxudkIiImgEEhIaCvAaEmgrVyBXC6ozipTHZULAoiy4vUEyqiBy7gByEEmyfK83oh6VfXqlOrlS+uUaq+69z/itovhZ+RrT/1695saYyOidm0hTlkSI2JxjIyl0TVkR4tYFm2iTp1WsU70iO6g3q8tezhvbV2zpbTSLigYa/pHnbjavFLcQvbV5uj+6nbMRX93hgt40nB+rvp86+eu7Ku77ciRbXVb/Niu9eKJ6X4xScvuQ7QRMbnKfT2WuO/kWM+011BDt6076QstP/3atH1a62nYPA/MHVqedMrLl04h7+S9MFbL4+x9u338xncfL1s+bdmN1n/MXrVqds3wOBAI/uyedQ1G/6ZOBr5/69cf0g9J5e14N3uCmjIQpN6VrI63qfwf7woAQBZHdYy3cUogWSSRZ63rqgChNgJkymoLkLTRUIBcbb0EKGlviABltS2SRF5LaGrNAJm6DoBkqOMg19RzUDLaR4WyppFIKVFK+idMn3p0yrZiQN/+xchi29Zlngl5fVRxHOh+1FgP3LXVPnsdtsVmOxwec9Cc8hF7TNXoKb6oMEBf/RVGKsy9Z31phYMO2bFW7ZuMUvhnujuqz+6BcEZYBzqRJCKL1JbEyT4bDz5x+QNt9+H47PYb9U0DAAA=");
 
 export default PersonBreastfeeding;

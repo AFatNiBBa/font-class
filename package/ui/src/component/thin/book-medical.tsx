@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-medical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-medical?s=thin book-medical}
  * @preview ![book-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/book-medical.svg)
  */
-const BookMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 56C0 25.1 25.1 0 56 0L408 0c22.1 0 40 17.9 40 40l0 336c0 19.4-13.7 35.5-32 39.2l0 80.8 24 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L56 512c-30.9 0-56-25.1-56-56L0 56zM56 416c-22.1 0-40 17.9-40 40s17.9 40 40 40l344 0 0-80L56 416zm-40 .8C26.2 406.4 40.3 400 56 400l352 0c13.3 0 24-10.7 24-24l0-336c0-13.3-10.7-24-24-24L56 16C33.9 16 16 33.9 16 56l0 360.8zM208 120l0 56c0 4.4-3.6 8-8 8l-56 0c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l56 0c4.4 0 8 3.6 8 8l0 56c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-56c0-4.4 3.6-8 8-8l56 0c4.4 0 8-3.6 8-8l0-32c0-4.4-3.6-8-8-8l-56 0c-4.4 0-8-3.6-8-8l0-56c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8zm8-24l32 0c13.3 0 24 10.7 24 24l0 48 48 0c13.3 0 24 10.7 24 24l0 32c0 13.3-10.7 24-24 24l-48 0 0 48c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-48-48 0c-13.3 0-24-10.7-24-24l0-32c0-13.3 10.7-24 24-24l48 0 0-48c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const BookMedical = createIcon("book-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABmwAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDBAsGAAE2AiQDCAQgBYMtBzMbhwXIrgrshvMPISNixaI7NTz2YgNWJx6+9uvz3H5v5i8AdK1iJAWEIbcs43hcULH9FZuKjN3pd+bqhgkGV6sn+4T+f6hGiCIiQ9705/9yfMOPxtJJfGhjtxe3sRftBdrzgM/y7yWyQTNNwLItx/GDwyMJERIhnz36NGzSsAWgjE+xU4X0MsJ9vav4V1dXSIoCQLQBwLQ1KxapNUZjxK/1iV8tQEBMB1mggH8PASYqhAVQyiiVgsao1/k/MBNAVMknJFCiAa/xAVCCpFKWuU274f2bV1qWq5tXmhWfOuL5tYzbfCrFixHN4ymfdGgRr/WsW7HuVoeIJ7jQ8WnzRUSLkbGON13EJ9si/PYn0gZhizSL3ZFSk7pmnzuajuwzNQMUasSne/NmzV+laB7MvZhmwb2uCObTax437fO+zfv/tPtXNxrwMdp++GqpXn8v08XWanXrBUc/anjwe24jEFDbrz6stdTao/VY1nGpjssSlX3f9x0r2erWsZzIFBqL5uFe5EyWtmUdhxrqkGcdlw019Eg2Xg8Egt8evy2tJ/7fpHkC/3xl/hmp16KW3oMmEgiKgfWBNkYNoiYAAClO6xM1BJIvVMi9tvBMgNAMAZKqZgIUumsjQKmZAQJU9DJKgKpmVihE2VToYNPFJy0c4wujneVLHXzJV0z0Q7WqQxSlqhea/qOYM9sis87lYYOH5vH5sec0qk/tuxNyONr3NM30w0W7HXHYSbvstM9Jgx+3qHHKIbNn2CxflA0z2FDZeHl5+BhZrWWPO0Gqb6yfYoL8frGv0/Pl/ZBIRHG4riQRqUUdBwd9uA==");
 
 export default BookMedical;

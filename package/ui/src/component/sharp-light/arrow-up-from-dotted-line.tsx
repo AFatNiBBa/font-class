@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-from-dotted-line` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-dotted-line?s=sharp-light arrow-up-from-dotted-line}
  * @preview ![arrow-up-from-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-up-from-dotted-line.svg)
  */
-const ArrowUpFromDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M235.3 44.7L224 33.4 212.7 44.7l-128 128L73.4 184 96 206.6l11.3-11.3L208 94.6 208 336l0 16 32 0 0-16 0-241.4L340.7 195.3 352 206.6 374.6 184l-11.3-11.3-128-128zM56 424L8 424l0 48 48 0 0-48zm96 0l-48 0 0 48 48 0 0-48zm48 48l48 0 0-48-48 0 0 48zm144-48l-48 0 0 48 48 0 0-48zm48 0l0 48 48 0 0-48-48 0z" />
-    </Icon>
-);
+const ArrowUpFromDottedLine = createIcon("arrow-up-from-dotted-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABagAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBbgsGAAE2AiQDCAQgBYMtB0Ab/gTILg6MbTZrDZEwXB/RaGZLKIfnhxtLIyTp5Hn6/Wjnvv9WzLJZwqt5E6sWPcRtSKiERGQ6Q8g7JEuavwVj7n4i0n5iFre2ZNLMwBONkKiEuIZYonkJhDpgA06zIluYbhYeVWa5Wvs+/f08/6G/AZ/RR+tYlEdTUeb5BHY+i8LdvHQ8G9hEcUWg+O76VjYH0TsSIkvSXe0fjv8GNbeBmPKhjMP0pfllxjVFbQCQYQBw+majjve/HCW/beSLsyCQM4BlhAYN5hE4RiiYJ7IMqiocUdvKf+AyBEgn8KoCKrpxC9wDUEHRWUWuHqSVYrWovVYxmDRbTNSMykCs6YQQfUTbW5lIKJa0byn6FBNLmdUKVxEpCDfnMYScI4XzY33lR/t5A1d68wZvHtl7cB8HYTqHJrP3yNsqdvd8CyrYupPRNnw4trbofoAgfE37f9tj/7v7BIBvb/9276P9nk8ldCsgNGsthvmsW3deBABQcsGpbDAoLnmrT+33VkD0IqDo1CugMUeHQNVrFYEOizIIdOp1lVCqHDFuVEHR7yloHLgC1bh70OGYj2yn8QjtS7AO4e8utdZD1XWciMa5yMumIpoMF5ZLvO36L/xQgM5iamfrzMTYwlnHnKgXzm3UNKzqh1hCVBwr4uPO4/G2iROnFna2cZUSvp/yu9AnBygQAOuOy0UhxX732cnuMnL+JPIpNkTGj8/OJuOIIQIAAA==");
 
 export default ArrowUpFromDottedLine;

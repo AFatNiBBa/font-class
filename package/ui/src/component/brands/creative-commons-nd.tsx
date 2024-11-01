@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `creative-commons-nd` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/creative-commons-nd?s=brands creative-commons-nd}
  * @preview ![creative-commons-nd](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/creative-commons-nd.svg)
  */
-const CreativeCommonsNd: typeof Icon = x => (
-    <Icon viewBox="0 0 496 512" {...x}>
-        <path d="M247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3zm94 144.3v42.5H162.1V197h180.3zm0 79.8v42.5H162.1v-42.5h180.3z" />
-    </Icon>
-);
+const CreativeCommonsNd = createIcon("creative-commons-nd", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABawAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBWwsGAAE2AiQDCAQgBYMtBzob5QTIjpQuZyTx8P92j7/PnQngCQRVSaXVu4MrfaMFVL4K2Z+4pn6cPz1g2RM8SjQWFUaCRi7yfAIT282bBtq2G8iL4qydXekNwq3Sp3ySYfPDZnGAPO7FRWVIV9M7uFC+NH7WwCmSMhmAqA6A4XNnTvbsi/gi4p3SA+IdExEQI0AhkCFDYwEGyQQayxXI5YIvolSS/8CCAKIs/lICOcpiApYCcpDked6kVoUKlcpUyedUKlNx4aeTI97tHnFn9ifDno17Y9ZnU94a8WLO5z3vTX1/rk+mRXww69PpH87+fObHcz+b8dGc2ULFiKik3lmL29Vv/+qdNe/4/9EY29j2H/8bbXzbukeODDfStqP1yhltxPf/b98+Vuf56QAHTI9Z56/MTtM8vJYWxZxz5+bE4gsdQb6vo/vTOjAAOtwOBIIDbQ+/WFpt0L/lKyXw1dPfh+uV3og/0m2Ul0CQdSp1sij+AKEGEKfYo4UxsEAyQg781MouCRAqIkBSVkUBMo1UFyBXUUcBymiqtwBlVTRTJvIKQm2LO5ZUth3L9HEYy9V2DytjkNfjsmpH5lWCTwiPutQxGh69rejepVsxoJiWmugoXFofWCxr7fbEsfbYa42ttthltVXW26XQHSZnu202xkJGG1Chuy66KQxQbDePu+dYbYed1ttqS95koOK8284ee3Z7mAlpe8gliUi17qXXeeXWzZ/0W523rAIAAA==");
 
 export default CreativeCommonsNd;

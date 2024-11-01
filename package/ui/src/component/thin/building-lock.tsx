@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-lock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-lock?s=thin building-lock}
  * @preview ![building-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/building-lock.svg)
  */
-const BuildingLock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 16l288 0c17.7 0 32 14.3 32 32l0 208c0-19.6 5.9-37.9 16-53.1L384 48c0-26.5-21.5-48-48-48L48 0C21.5 0 0 21.5 0 48L0 464c0 26.5 21.5 48 48 48l96 0 16 0 64 0 16 0 88.6 0c-2.9-5-5.1-10.3-6.5-16l-82 0 0-80c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 80-96 0c-17.7 0-32-14.3-32-32L16 48c0-17.7 14.3-32 32-32zM224 496l-64 0 0-80c0-17.7 14.3-32 32-32s32 14.3 32 32l0 80zM104 232c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32zm128 0l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zM104 104c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32zm128 0l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zm216 88c26.5 0 48 21.5 48 48l0 64-96 0 0-64c0-26.5 21.5-48 48-48zm-64 48l0 64-16 0c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-16 0 0-64c0-35.3-28.7-64-64-64s-64 28.7-64 64zm-16 80l16 0 16 0 96 0 16 0 16 0c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const BuildingLock = createIcon("building-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAAB7AAAAK7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXCFEAsGAAE2AiQDCAQgBYMtBzQblAZRVE3KZD8OcrIeE3uy+U7VdRVHoBMPz/vX+2vfO28C6MR2JXWvCzh1qCodvjupZQUPPPJr2zt8w6yKlUCIRLFW+JWrYhXPHciLlbK3OZlg/i/3PIs2hp8LMA9tzUljTAtk4nF0g6KxbQJnWcLY4LzBh1UV0k9QiC9tUEF2OfsAleaXxo+aOU0mzwFEXQCMXTx/ptffxXcRH5SfEh+YjoAYB5JAjhwtBRghF2ipIKGgIPguymX2H5gIIIpsfGZbAXWITkRvquhkWo1icdNqt7tdK9hZd62kCw/a0/TaqDd8QoEbyCpa1nkoGHukhAuzqBRwTWwWFJR7hkkB59jOagrjTEa5PCKka7wXCZ6O41GWESIEUvRVTJA2aB5ZmRpfNrEP03P3TyBs4dBZuePVVhAGq0BwIzTDb+BeSKzd62f/Wz7Wn/FunrdMf+3ffyLkg00f6H0/pVT7/PnmJ1r/flX+4Vd9kj5ffZiXMpg1Lydlnjkafp2xG9xzrDFQUgqM978dY0vmpGyLcc7hKnMbJY3m8kzC4eIa2ppiEjieUmrjwMDhlJLBgdOurJwB+9PFfb7iw3yMNcZcQlkeY0vq7rPz+OG5WWZdY1SvV69U8tKr15ldt27pu1rrdyXR/UAgaDPk9jer64z4rapl4IdXv/4NblF+nY3JbqGqDAR5j3IPK5QLdPoAQlkc0g5aiMJMrdVif2pNFwQI1REgU1RdgFwLdQUoqK67ABVaGyhAUXXz5aJQTWhopQ4yNe0FuUGOgIKGHoMKI7wJFzWM/IXh3u7c39VEk4q4iVCpb68+aVhqrUh47wBbmxyeBqu6HOIdXeFGm+y2ywEbbbDVgQJ1n5mxg3aa1MU88bdJX730kQyTJtevihYVwvvst7WZP30Ww6XlbV0c6u7fFWozNst+SjIZkdX6osQ932YAAAA=");
 
 export default BuildingLock;

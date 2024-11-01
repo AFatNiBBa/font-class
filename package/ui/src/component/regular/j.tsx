@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `j` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/j?s=regular j}
  * @preview ![j](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/j.svg)
  */
-const J: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M296 32c13.3 0 24 10.7 24 24l0 264c0 88.4-71.6 160-160 160S0 408.4 0 320l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 61.9 50.1 112 112 112s112-50.1 112-112l0-264c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const J = createIcon("j", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABUgAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBCQsGAAE2AiQDCAQgBYMtBygbgQTIHoVxs/Ok29qOsvhwRY+Hf9a+3Tczqw4+i5o0l0ajQxJPeBRLppFD3kM1a/CT2Ze3vt6nTj3PeTbgg0iyMecbF/ic5xHI+aZcbNVbkVrBaloB695sRaOUfUlmNEn+TMfXA7JYHycUkZxJ4Hj90PikvWMkilIAUQuAqauXL/SoLdoi3hbuEG/NR0BMBblAihSdBJggFegkkyOTCdqiUIj/gTkBRDF6ZQIypOiLoYAMJCLLWiuKqrJV6UD51svtk3g/oRUfJr0q4lxvviYu9L0+8l7/m11Td6zbjdobX1ptofelpU2lYvq7d9MBiXfvtD6alsq1Pmr+//79/5pS/zwQCDY//TdBzYQ/pRUJ+Pjw3/YzUmiLKckNlEpAkA4oDLAhjkBMEQCAJI7oFlMQSLRK0LtWOilAKEeARLFyAVId1QqQKddfgCJdjBSgWLnlUpGVCY02DpCotB+kRjkKMo1ugSITvDSLNUb6WBhTM3+1xFkBmtmXDx00JB+XT12dtT+V2+PzZanPEUz1hV1b7LXHIZttst0hRh6w0Dlst1kaPNMX5YYaZIjcOPl2sNxeZbMDDtpurz2ly3j5ebmPI3pxXxgiAQy7ZgqNSGIHAAAA");
 
 export default J;

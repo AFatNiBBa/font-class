@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-pen` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-pen?s=regular location-pen}
  * @preview ![location-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/location-pen.svg)
  */
-const LocationPen: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M336 192c0-79.5-64.5-144-144-144S48 112.5 48 192c0 12.4 4.5 31.6 15.3 57.2c10.5 24.8 25.4 52.2 42.5 79.9c28.5 46.2 61.5 90.8 86.2 122.6c24.8-31.8 57.8-76.4 86.2-122.6c17.1-27.7 32-55.1 42.5-79.9C331.5 223.6 336 204.4 336 192zm48 0c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192zM276.8 107c14.7 14.7 14.7 38.6 0 53.3l-14.9 14.9L208.6 122 223.5 107c14.7-14.7 38.6-14.7 53.3 0zM114.1 216.5L186 144.6l53.3 53.3-71.9 71.9c-4.1 4.1-9.2 7-14.9 8.4l-36.6 9.2c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l9.2-36.7c1.4-5.6 4.3-10.8 8.4-14.9z" />
-    </Icon>
-);
+const LocationPen = createIcon("location-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfAAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCCgsGAAE2AiQDCAQgBYMtBzMbDQXIjsK2tXMUl5niC62YiOexZXt/ZneP1lz3nKKpLnRVBEXQF4TBIVHVoVEWYy5I0Oi1SA6bDcQLSHbiw6qo7qe/+eedRwE+jiC0sWzqxgW6x3kCiXX5/EAf6G/ARPFbN53kh3xuTV70kobthrUVmjTQKLgpHxwPwHN/qPyR1wkUbQVAFgDA2XVEEK68p3Fyvz+BfAsAgZwB2EKoWFhD4BCniCtw2QKNRhhT3/t/IAMCpAPfuoAGHe7AA4AGFE3DpbguLiXILcwVLcgtkLHuTHTJ+4bjBdaqvGO0o7eht2WwZbJnskKCi6ZE+65EV4aTAv0yu+7XzA9VXkc8j3kZ9jQqegqUVikpCifZzAgOSEfG1J8Ko0ialLKkSZlpWVWakVXfFNv8o/Yg+wFCeqVa4Onq1Z5aJckv3B/hKSU6OiUl7nPcX5ZNld4Bv9nA/eeCiMjCak72z3dKFBYVFUZhFBVFYfmRW6Iw//UXnv5iU1T03HqRD3hPlHsjauSLtqgouU7IXgEQhJeyq7y3oo7/E4IcgJ9z//6zm/ur9MixCZhQQKjDfojEtAIATYBVUg315GJBcYML+KgzXkEgphBQdKYEVKvEEGhM2UagtcEKgc6Uc5zS8CNWJE1QzBiB6kATaKw4Aq1Dt63OSjjVRmqF/OvFeUfIa4qZGZsye7YNDEpAeBs6sGNBt9oKelhEthLFKmXJlKcyIOWC3CpFvDPYy4UYM8ZMMfbYdfw6Hy1LuQp5ShT7GAfsvaKrOq/Xg8yBmDs8RSFFSKamUWlWMQ==");
 
 export default LocationPen;

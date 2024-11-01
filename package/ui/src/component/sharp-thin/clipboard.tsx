@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard?s=sharp-thin clipboard}
  * @preview ![clipboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/clipboard.svg)
  */
-const Clipboard: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M257.3 80l13.1 0L304 80l0 64-112 0L80 144l0-64 33.6 0 13.1 0 2.6-12.8C135.2 38 161.1 16 192 16s56.8 22 62.7 51.2L257.3 80zM113.6 64L80 64 64 64l0 16 0 16L8 96 0 96l0 8L0 504l0 8 8 0 368 0 8 0 0-8 0-400 0-8-8 0-56 0 0-16 0-16-16 0-33.6 0C263 27.5 230.7 0 192 0s-71 27.5-78.4 64zM16 112l48 0 0 32 0 16 16 0 112 0 112 0 16 0 0-16 0-32 48 0 0 384L16 496l0-384zM192 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Clipboard = createIcon("clipboard", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcQAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCAwsGAAE2AiQDCAQgBYMtBzAbAwXIjtMlNObSmXj4/zWr+35VctJVnR6kGiJSRLToEC2SWzVuAYXMWUugUw+109/8886jAJ9FFtqYtjSQBTLGOE8gwKxLN0GXBZbpF7C/25AZZjhzTURE/Biaw1DcIY87jqqRXkvf4xl6afxqgMdJsgxAdAfA8h1bNnvQilbEd+3EdzYiIJaDSiBDhsECLJIJDJarkMsFrWi38T+wIoCo47snkKOOYzgLyEGS53m/cX06yloz317WihNlUYqiiCjLfvHG2HfKJ0a/NaDP9qIshCgKkUKUzYgsYghX1tcnvD/mzXHv9t+6ykG89owyUnRGtuOVfi/3fbH3S31GvN/9/d+Hf3/8ey40m1OXuXhxmRHNwVY3u/r372quHvx0txEjZnTX3bxGw7MaGjcDP89Odx+xZ/myn39etnzPoanTmK9oxV/dVaZ52EEPf6LV1dXyaCCunfl2/vsHLPq/USbwy5d//ir8itoP4uH0PhoSCLJJ7Un2xsMQDwsAQIrrRsTDCCT75PipnV4WIBQIkNQVAmQG6S5ArjBRgJqhZgtQV9giE3mH0Nu+BJJOl0Bmjnsg19sXoGaRr9S63pFJGikn5Ecvbk0OrR6rpk+ZVi2omr5ICQ9u+guraWHcdZ0bD4uOu+C8q4456pSrGXLZZuOac9b04NU+VJluimkqC1Tb0eX8dsdcdsUpF5x3QxaqzivjXO9Xjwc5YcwZTEkiUsczJ+4hAAAA");
 
 export default Clipboard;

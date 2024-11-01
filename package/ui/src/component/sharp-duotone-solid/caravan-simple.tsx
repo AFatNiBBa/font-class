@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `caravan-simple` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caravan-simple?s=sharp-duotone-solid caravan-simple}
  * @preview ![caravan-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/caravan-simple.svg)
  */
-const CaravanSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 128l0 128 192 0 0-128L64 128zm48 304a80 80 0 1 0 160 0 80 80 0 1 0 -160 0zM320 128l0 128 128 0 0-128-128 0z" />
-        <path d="M416 32L0 32 0 416l81.1 0c7.8-54.3 54.4-96 110.9-96s103.1 41.7 110.9 96L576 416l32 0 32 0 0-64-32 0-32 0 0-160c0-88.4-71.6-160-160-160zM64 128l192 0 0 128L64 256l0-128zm384 0l0 128-128 0 0-128 128 0z" />
-    </Icon>
-);
+const CaravanSimple = createIcon("caravan-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABewAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBawsIAAE2AiQDCgQgBYMtB1gbFQURlZpxyD4S45jInZlfqniJ4Pu1qnz/V3dMV/Ui1wKjIgK3EejPEdibk8QOF9yBmzjJilwHwNSp5zkPBSj3RkEaY1BAsgHX6jqvQAHHtukVKve8pjWwmtuIBTGIY0VwyPBDxNC80Aw+oUiT82MN0ivpCV7g/wGM3w3zmKSVAURfAKzdt2uLr3uiJ8WTzvvEE5sREOtALZCRMVKAFbLASIUahULQkzodPdHp1AKIJv7cDJrowh4cBxQgyXJRjGy1Wr1aVaNXsbdqlOfavdopqnhr+ruLP5j6zqheVURZRvy46su9x6uyEmVEL6GMiOqQUEVEeeCNpZ8s/2zMm8s+XfLxyM76cd19u/8c++TsE2+99Tal79vhwi+/5at+++VCvzVr1PXbYv2TJ+vj2LGvCb3va/cFTl+9WvFqj69nz26fu3PnXDu5z2ePXweBoP//5/Yf67Pin64qgV8//fs38XfU+SDdT93okkCQZ3RmHE73Id0XAIAUd41L97FGIJslk3dte1GAUCJA0lQKkI3QV4BCaboADaMtFKCptEsWRUsY6EgBSdsNkC1yDxQGeg80rPCN3zQwXIYXBQ7qdRe/yUIbV9VzZ82pl9XDjNKIIcLi8npZn3LXd6bSRWevXb195vSF2wa5uSW6c2XTDN74xXrurDn1snq7vOb3Gv/mrQt9dn+Z5fV5b8rd+fhUshLBnHc8y0SKPPjUiZvfAUszMSrPhOrQ0BZ7LwEAAAA=");
 
 export default CaravanSimple;

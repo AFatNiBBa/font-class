@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coffee-pot` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-pot?s=sharp-light coffee-pot}
  * @preview ![coffee-pot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/coffee-pot.svg)
  */
-const CoffeePot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 32l16 0 80 0 32 0 16 0 301.9 0L480 32 468.4 64l-41 112.8C478.4 211.3 512 269.7 512 336l0 8c0 80-72 136-72 136l-304 0s-72-56-72-136l0-8c0-65.4 32.7-123.2 82.7-157.9L96 64 32 64l0 144 0 16L0 224l0-16L0 48 0 32zM180.8 176l212.8 0L434.3 64 144 64l-13 0 49.8 112zM416 208l-256 0s0 0 0 0c-26.4 19.9-46.5 47.7-56.7 80l369.4 0c-10.1-32.3-30.2-60.1-56.7-80c0 0 0 0 0 0zm63.2 112L96.8 320c-.5 5.3-.8 10.6-.8 16l0 8c0 30.4 13.8 57.7 29.6 78.8c7.8 10.3 15.5 18.6 21.3 24.2l1.1 1L428 448l1.1-1c5.8-5.6 13.6-13.8 21.3-24.2C466.2 401.7 480 374.4 480 344l0-8c0-5.4-.3-10.7-.8-16z" />
-    </Icon>
-);
+const CoffeePot = createIcon("coffee-pot", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeAAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCGAsGAAE2AiQDCAQgBYMtBzEbGQXIhof/t+v7fW7VU2NNjVwjKYL5BUcAM6c/7/VDKe6Ja57/+dMDFvmjRWFpY4F17XwCE0mLxIGthWY6AZt5y9mjKct+mUyUpMdv9Hh1gDw+i7FaSE+mH3F//aj4VW+3kOQZgCgAsGjz+nW+bkQj4sfmB8SP1iAgFoNSIMOafgLMlQn+ALkSuVzQiGZT/gNLAohWeuUEcrTiFK4A5CDJ83xSR5c+1ZZ6vilvUMmqlXqv2BCfjHtjkHhm5MuMqdTirtGvrhkQceOEt+ZsikoIRNKuG6uV6uaoVTZurNVrN8aN8fHEerw024jhTh8hnh33aPfuUY+e8XjPtwZG3Nhj8KvFq78P+vHQj14oisZXRp5x9MjWaNc2oB5FTBRF1Ae0tZt8eMu2yWct9IBCqfCC4v37f9LLRpw2uD7p9C8DAdc556/7YP7p6/RWbe3txr3w5R30wu1fvTCuXXsbEAhuvHL5nN2d5v7fXk3g50///Lv9jDQbSXoV7RIIsrHNsXYkkAgAQIpLBicIJIfk4NY8Jm66FQQrrSpwM30VHc5VjIFbDDCN2Jy/XibyDqGbnYCTmrNwZrpr4Vw378Et5vrGatUtsqCjQob68sUv98CyWeWk8RPL2eU0YnQcEWVyTrktjLyUKqOw1iGnnXLBQQccdcFB56xzLzpp+Qpc5otKk4w3UWm28jh9XL7JQeecd9Rpp2SaOcr7ykiX1u2jICeKO5knSUSqPFJz3JnTFwA=");
 
 export default CoffeePot;

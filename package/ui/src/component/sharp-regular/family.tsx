@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `family` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/family?s=sharp-regular family}
  * @preview ![family](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/family.svg)
  */
-const Family: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 64A64 64 0 1 0 64 64a64 64 0 1 0 128 0zM78 208l50 0 50 0 4.7 0c-4.3-9.8-6.7-20.6-6.7-32c0-5.5 .6-10.8 1.6-16L32 160 26 304l-2 48 40 0 0 136 0 24 48 0 0-24 0-136 32 0 0-48-32 0-38 0 4-96zm258-32c0 11.4-2.4 22.2-6.7 32l26.9 0 27.8 0 27.8 0 36.6 128L368 336l0 48 32 0 0 104 0 24 48 0 0-24 0-104 14.1 0 49.9 0-13.7-48L448 160l-113.6 0c1 5.2 1.6 10.5 1.6 16zM448 64A64 64 0 1 0 320 64a64 64 0 1 0 128 0zM256 224a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM224 368l0-64 64 0 0 64-64 0zm112 48l0-48 0-64 0-48-48 0-64 0-48 0 0 48 0 64 0 48 32 0 0 96 96 0 0-96 32 0z" />
-    </Icon>
-);
+const Family = createIcon("family", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiwAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCaQsGAAE2AiQDCAQgBYMtBy0bZgXIHge5afRGumiivNMIIl1Z9UhHkhlk4r0zEj5myJRhEhjSB443mSEDC9R84pr89+dPBdKkj5K5LC2wTi2BAc52wwJ/X9hotntRnN9OvpdySXTLDZLE5TeMN2zukMdXsQbSEwnuyx8av+rtZpKGDEB0AsD8rRtX+/5CXIj4pf4J8YuVCIj5oBLIkKGfALNkAv3kKuRywYWo1/1/YEUA0YgfNYEcLXgILwBykDTleftBg9q3b+ldNrTPt5QNxc5nR7858vV+z4x6Y8xbAzeVRflo1LOITdEvyhCiDBbkO0Wx9eD13cpycxRBKZUDYstg8xFbbx19re9TfZ4c/nKvx3s/MSyAsGJzEGHbl27cUw5+s9Obvw9yhO+uyy79/felTC6/7L62tuNnOjf3fFDDfQYa6Xa91PQioLqrGp7tjYGdz/SdNuQ669RUjk05/KBD23mt77lcz+azZx/Wffecn332eUkNvG8eU80z7+yEGucYNbVzNZnKvuhDBQSCxgfH1/d2nPV/c5nApS///BN+9qp/n6Q30SyBIBtbH2tXoheJAFBOcbXBSsACyV2aAO/azqMChAIBkkaFAJm+OgmQK4wRoMEAkwVoVNgoE3mL0M3uiiftXIZnprgGz3XzEd5glh/KjbpFZpySaUl/w/QlLbj4UNU6vlbNqKZtRbY3Ia7PrJZDI6+msVE464izzrjSYYccd2UDX2517SqnLdGgxQJUaTVeTWWG6rh3f3qLwy53hePOOpP2mal6nxvpan32KEQTZm1TlyQiNdowAA==");
 
 export default Family;

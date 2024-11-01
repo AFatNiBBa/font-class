@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `burger-glass` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-glass?s=sharp-solid burger-glass}
  * @preview ![burger-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/burger-glass.svg)
  */
-const BurgerGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M76.7 160L69.2 64l245.6 0-7.5 96L76.7 160zM40 512l216 0 0-229.4c3-9.1 6.7-17.5 11.6-25.9c6.6-11.3 17-25.9 32.7-40.4c17.2-15.9 40.1-31 70.1-41.6L379 64l5-64L319.8 0 64.2 0 0 0 5 64 40 512zM640 287.8s-32-96-176-96s-176 96-176 96l0 32 352 0 0-32zm-256-48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm64 0a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm96 0a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-256 112l0 64 352 0 0-64-352 0zm0 96l0 64 352 0 0-64-352 0z" />
-    </Icon>
-);
+const BurgerGlass = createIcon("burger-glass", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfwAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCGAsGAAE2AiQDCAQgBYMtBzMbGwXIhuB5Pb6fc5OnNbOA0YvdLwF0LtmRFZypU89zHgrgGwVtzGWr1fKc5xWIWJdOWxSQWrFWUezuyiIL0fwgrSzJ47fu8bsT5PFPdlkF6V56H1fKh8aPWrpMUpMBiAYAmLBs0RxvfhafRbxXPke8ZxYCYgIoBDJkaCPAaJlAG7kCuVzwWZSl/w8sCCAq0esSyFELO3ACkIOkOs9rmjarMVntirr50pjUWrV0CdYUi6PW8tq1akfcaf6g1yOjlkWnqFWnQ6zYd6dVxP2RES8v/WD4iy3uNhV1I5beanqzye1mZ0ztQAypNksXC2IUdbQDHR9u8PDPHd7f+r7Z7avWVeV3mPmm87pPqK6vjTl1YeudJ6v3mmf8+Hk6vrHs0/iGj5aydWpMja1LP/omCusVZb/P6tX9/PO69T4bj8SQ1jOn3Dfetqw33vr17X4gENT79qFR6+qP/q26dgJfvPzrz+525ZvpQnoY1RIIst5lb6vTecpSqBRgixRHdYRvEkg2qAbvWsdtAUItBEgq1RIg01oDAXK19BKgQjtDBKhUyyKZyGuEJtZMkNRxAGSGOgNyTTwDKoz2VlGpSWRKR6gM8csXO3WFplQVA/r2L0YW27ZO6hGW1kcVx2r3ozjWA/baap+9Dttisx0OL8hBc5pH7DFVgqf4ocIAffVXGKm47s23L7XFQYfssM/evMkoxfuwu6Py7B5gJIQ60LEkEanOxiMHt2052OcrAw==");
 
 export default BurgerGlass;

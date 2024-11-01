@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volume` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume?s=sharp-thin volume}
  * @preview ![volume](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/volume.svg)
  */
-const Volume: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M170.6 340l-4.5-4-6.1 0L48 336l0-160 112 0 6.1 0 4.5-4L310.1 48 336 48l0 416-25.9 0L170.6 340zM32 352l16 0 112 0L304 480l32 0 16 0 0-16 0-416 0-16-16 0-32 0L160 160 48 160l-16 0 0 16 0 160 0 16zm409.6-19.2C464.9 315.3 480 287.4 480 256s-15.1-59.3-38.4-76.8L432 192c19.4 14.6 32 37.8 32 64s-12.6 49.4-32 64l9.6 12.8zm57.6 76.8c46.6-35 76.8-90.8 76.8-153.6s-30.2-118.6-76.8-153.6l-9.6 12.8C532.4 147.3 560 198.4 560 256s-27.6 108.7-70.4 140.8l9.6 12.8z" />
-    </Icon>
-);
+const Volume = createIcon("volume", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBbQsGAAE2AiQDCAQgBYMtBy0b6gTIjsM4FjzSqcI/gkpXldXSTOxJx6Bj5iey2CP0gMEwGS3yJpkDIeb/cs/v/OgAP98UO7SxcE2QWdkY83kCAWa987bYtDBLFLud1BlO0XNloTcuybC5YXOAPD63T410V4Lb/IfG77q4gSTLAERrAMzeuHa5t7+JbyI+a7xAfGYpAmI2qAQyZOguwDSZQHe5Crlc8E00GvgfWBFA1NE9JZCjjk3YC8hBkud5hy7NO5a1FvmGslZs7NihY1FElGWn2BhlpChiw7qyKNf3lRFZRBTFunCLEPa+1vfhKe3jkR73Duqw/rWREU/FI540RcOfcM2wxye7+zza+tE/ezvAo0fnUm791INO1ee68XJdPahrKr+xrPU1t12twlIPaq11VcGnnLvaTlWXTL3XT01NP907admUiSwYNWrBxCk3+79v32HDIv3/m4E469oF77bY2WraP01lAt+9+vfv5vqq8U2alR5FkwSCbFhjmG1plgrEBhCnuKAP80WBZJUcvWtztwsQCgRI6goBMt20FiBXGCpATU/jBagrrJWJvJnQ3vYCkuZOg8wEV4Jce8+Bmmk+iuraRyZevHDwv7uUBS00f1s1esSoakq1bMuCxLB2fWq1rQ66oMcGQ64DTjrhnP32Oexcg56xPD3vuAUcMt8PVUYbYZTKFNVx73H/BvudcdZhJ51wm0xV3Q8HucDPHgxGQoxj1CWJSPWnCwAAAA==");
 
 export default Volume;

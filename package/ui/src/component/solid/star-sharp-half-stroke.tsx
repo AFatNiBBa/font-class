@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-sharp-half-stroke` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-sharp-half-stroke?s=solid star-sharp-half-stroke}
  * @preview ![star-sharp-half-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/star-sharp-half-stroke.svg)
  */
-const StarSharpHalfStroke: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M56 230.4L41.3 218.9c-8.1-6.3-11.3-17-8-26.7S45.7 176 56 176l18.7 0 2.5 0 .1 0 137.2 0L258.6 37.2l.1-.3 1.3-4s0 0 0 0l5.2-16.2C268.3 6.8 277.6 0 288 0s19.7 6.8 22.9 16.7L316 32.9l1.3 4 .1 .3L361.6 176l137.2 0 .1 0 2.5 0 18.7 0c10.3 0 19.4 6.5 22.7 16.2s.1 20.4-8 26.7L520 230.4l-2 1.5-.1 .1-114 88.7 44.4 139.5 .1 .4 1.4 4.5 5 15.7c3.2 10-.5 21-9.1 27s-20.2 5.7-28.5-.7l-13-10.1-3.7-2.9-.3-.3L288 406.4 175.8 493.7l-.3 .3-3.7 2.9-13 10.1c-8.3 6.5-19.8 6.8-28.5 .7s-12.3-16.9-9.1-27l5-15.7 1.4-4.5 .1-.4 44.4-139.5L58.1 232l-.1-.1-2-1.5zM288 335.5s0 0 0 0l34.4 26.7 47.9 37.2-19.7-61.8-11.8-37.2 30.8-24L426.7 232l-65.2 0-41 0-12.4-39L288 129.5s0 0 0 0l0 205.9z" />
-    </Icon>
-);
+const StarSharpHalfStroke = createIcon("star-sharp-half-stroke", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABfwAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCUwsGAAE2AiQDCAQgBYMtBz0bYAXIhuf5t+v7fW7VU/cYNbC+qAziyp3K0YxX/kFkPf/XfH7WdIDf6FAiYpFcIKPM5xM4wZtH2WhvHoWzieKszfEc6GJxTRHxiJ0h0TB9DUtDK6jzUXWbLsrTZS8enD80PxntNoq+CkAGAWDT8Ucf6v3P83myp/MK2eNgBLIJNIIKFcYJWKsSjFNrUKuFz9PppP/AhgDpRrgwapzzXjwFqEFR6vrcCe2u/vVx7a7W8SOGj3hi5JMz2u2kneOTjMzNuTkjU8c8M3x4hic5Nu0kkvbFx4cNy5JKjoErgi7Fx0aMCFKtHNdwE0Wj+MTIkUEqOR7HJCOOvTnJzVmVdVmcCZmTw9NqTcjiW2JMfnHQi79M2nveXis++JEXenPDaYYW7jHnHlTgcKdz+uEqzL3H3ShDnbbhzR8NxpUndJ4mhjrcht3ff7DLZHH58S4/Hovt8sH3uzccbqh00dNdYPB3FwKj/W2uV3znXptmbbce7AOC8M9PfU+fPnDtP73tAr5887f/193Hd94qU8qL6FVAqOZ25jqlbDTeeBEpwFLJdSbbNwmKWxW81n6eEBAtBBTdWgIqYw0SUGuZI6DLBMsEdGs5WiV1nxjm1B0U/VwJKstdD2rDvAS6rLWj1G1Yqojk44n/IEzZz0PboppF8xc2q5vDuk0IMlbOr2lOOzOvy32zbKnzXO4y1zjXOS50jSOvcmj1WpfaTxHb/FBjkfkWaqzWDLeuleNQusrVLmybxhdZo7k+N9N1evQs8wtSLlZTFFJGPDLavJdWnRfu5rz/6roXnwsA");
 
 export default StarSharpHalfStroke;

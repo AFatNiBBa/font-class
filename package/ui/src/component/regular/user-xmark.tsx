@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-xmark` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-xmark?s=regular user-xmark}
  * @preview ![user-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-xmark.svg)
  */
-const UserXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 128a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zm208 0A128 128 0 1 0 96 128a128 128 0 1 0 256 0zM269.7 352c65.7 0 120.1 48.7 129 112L49.3 464c8.9-63.3 63.3-112 129-112l91.4 0zm-91.4-48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304L224 304l-45.7 0zM455 143c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
-    </Icon>
-);
+const UserXmark = createIcon("user-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhgAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCKAsGAAE2AiQDCAQgBYMtBzEbKQXIjsK2eXOE45IM+cKQzYqH59fRn/sGKzYwSskhrkuS4oa2TTELP0v557FIZ84+kKRHPPuBqAICKAMMbVI0cTqeONf50kYFUuRDi8LSgRTIKPN8AhMLn+/xse3B3vQF7HWbKWRHGL4RI0giOj47zg7I4z/NoiDdSr0Gl+1D4x89g5AUGQCiFQCsbCdE4f53+hzxqrpC3IkAAbECoB8hQ4ZuBOZJC3ST0Q9yueAzVZX8BzIIIErYLSWQowYn4AJADpIilxEMmrUHOFlBJpmTVcrY8b3lfcNo0+u6z01jrs+G6NzmXGnc6jRTuLA+o7gJ24uLUuITb6IbIp4OfG+FcMmfY4neb/RqLXECTeis0Ne1j8lKKat6/uQXzDmyDCT/4GzoB1BgcI7N/CggDojPVc9/iF4Xv8ZMIF/S1FTCp633Qzw0vjyLxe8/8I2mEJErrH5TDQDG9rNROxagmpnhGE4iaI9wYaRVGETT+YhA4eqicHL4ufv+vQQSMCo0oRIk4nmAQPDJ+nVdjorffwVOCvD15s9f+jNS3U9nUuegVgJBNlLZyUy9oC61gAAAKZohTr0gkOyQZe/a6AoBQj0CJKV6ATJdVBHI1RtGoNDLHYFSvXXSIldE6JQ16KTRAZ2Z00XnOl2iC/OeuaXOkA4+KXSkr196MAJBS8zZwYn5sGWky/Ek1Kkv2zasmkvFmnZRrEa1RkUKlWkEvF5U0KRKsIcF+SLGmQMnjA92nD6vJytSr0GZGtU6xxe771hp9tutyZZivFNCSSKS0oM17VvjFAA=");
 
 export default UserXmark;

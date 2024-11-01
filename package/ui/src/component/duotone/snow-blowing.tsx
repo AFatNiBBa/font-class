@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snow-blowing` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snow-blowing?s=duotone snow-blowing}
  * @preview ![snow-blowing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/snow-blowing.svg)
  */
-const SnowBlowing: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M384 208c0 17.7 14.3 32 32 32l128 0c53 0 96-43 96-96s-43-96-96-96l-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-128 0c-17.7 0-32 14.3-32 32zm0 96c0 17.7 14.3 32 32 32l120 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-24 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l24 0c53 0 96-43 96-96s-43-96-96-96l-120 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M176 64c13.3 0 24 10.7 24 24l0 25.4 12.7-12.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L200 158.6l0 55.8 48.3-27.9 12.9-48.2c2.3-8.5 11.1-13.6 19.6-11.3s13.6 11.1 11.3 19.6l-4.6 17.3 22-12.7c11.5-6.6 26.2-2.7 32.8 8.8s2.7 26.2-8.8 32.8l-22 12.7 17.3 4.6c8.5 2.3 13.6 11.1 11.3 19.6s-11.1 13.6-19.6 11.3l-48.2-12.9L224 256l48.3 27.9L320.6 271c8.5-2.3 17.3 2.8 19.6 11.3s-2.8 17.3-11.3 19.6l-17.3 4.6 22 12.7c11.5 6.6 15.4 21.3 8.8 32.8s-21.3 15.4-32.8 8.8l-22-12.7 4.6 17.3c2.3 8.5-2.8 17.3-11.3 19.6s-17.3-2.8-19.6-11.3l-12.9-48.2L200 297.6l0 55.8 35.3 35.3c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L200 398.6l0 25.4c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-25.4-12.7 12.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L152 353.4l0-55.8-48.3 27.9L90.7 373.7c-2.3 8.5-11.1 13.6-19.6 11.3s-13.6-11.1-11.3-19.6l4.6-17.3-22 12.7C31 367.4 16.4 363.5 9.7 352s-2.7-26.2 8.8-32.8l22-12.7-17.3-4.6c-8.5-2.3-13.6-11.1-11.3-19.6s11.1-13.6 19.6-11.3l48.2 12.9L128 256 79.7 228.1 31.4 241c-8.5 2.3-17.3-2.8-19.6-11.3s2.8-17.3 11.3-19.6l17.3-4.6-22-12.7C7 186.2 3.1 171.5 9.7 160s21.3-15.4 32.8-8.8l22 12.7-4.6-17.3c-2.3-8.5 2.8-17.3 11.3-19.6s17.3 2.8 19.6 11.3l12.9 48.2L152 214.4l0-55.8-35.3-35.3c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L152 113.4 152 88c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const SnowBlowing = createIcon("snow-blowing", true, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAAB4wAAAL7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiERwsIAAE2AiQDCgQgBYMtB1QbbQbILgbsJvnizKBCoXVymZfDWx/CHMwi+Fjjt+/uviHulsQSXiGZT2eoDKE4/NPvt85FkiVvD5J48grpkzREsUjlRULe7mnzJqav2HTP60nd4MJtDj0ZBKdlhvnhZOF8bwKzyXDT37vzD9wAmeu8CzDRwP4c581FD9vzPIEAP1Y0NiWwPbREtNFtN0FMK+2yzgGypL57Dy/JxeQtcDz64PgB7YFEQQogSgBAz2G3w7M73bn09r8h3iIIiF5ADYEUKaoI0EUqUEWmBjKZ4Jvr/+Gb2D+fQQCRC3EXKchFDpFHFAVkIBGSLLvTuLEvp2g2zuctNHmXorzOlz1bpotEZ9XuZSuovm5VvFinjuqKF58p104d1FH91+E5eKPChXr1VBGCtdRJomsvW07iQp2blSLKiGfOle+uuMVU6cXKgnrXK12qX1+G58qfL9tWnZk+6/AcvFn5ct26qgTBquqoiG49VZZFLtefbdkGZwsXjqeN71W/1uhuu0JxqMwZKzBzO1z2LBs6U4jhWG2MwyZXf57k3RJ3fyZOPaXWEY7zhjy8dKm29n6xRfe3hRJT6HB/d5EppL4WnPsfvvnG75NTuIXJVDl9v8MUWmj2dWfLUlHbpZ07d95AZUe+p/rNhf8NnmcyZdRFdt8fAPXwdcEtZftLcIMDwR3s0d38/Nx4Rw3FDhwoVtNCO9gZx4QNS70VEH4V3bkdCAT9n4+b7s0v8yXg+8kf9fX8H5dN7kK+BARpk39McVnAbAVkk1hHLcQG06Tu4GqCnrWIcwiEQgiQyFVIgFRlJQTIFNJYgBzVtBUgVyGjSUVWIJQxtdckilipSbWzVZMp46EmRxcvsrnKROoYUKOM/otGtcdQa5EpF0qmbjZrWsx8w3q2YU5LqRXvScOVzGM5y1jDXOawkDUjxSqGFtaylH57nn2/W0NLzbRQQyc1bjefU+NwdhWrWbhO3J+nsxrvBxpYtz+8IcQ/0HurNZBKiSTSMp4Mnfc2EpPlKO+u+iMLhB0CAAAA");
 
 export default SnowBlowing;

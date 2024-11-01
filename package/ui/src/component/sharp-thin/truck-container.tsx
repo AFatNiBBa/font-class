@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-container` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-container?s=sharp-thin truck-container}
  * @preview ![truck-container](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/truck-container.svg)
  */
-const TruckContainer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 32l8 0 400 0 8 0 0 8 0 272 0 8-16 0 0-8 0-264L16 48l0 264 0 8L0 320l0-8L0 40l0-8zm448 96l8 0 104 0 4 0 2.4 3.2 72 96 1.6 2.1 0 2.7 0 168 0 8-8 0-24.4 0c-4 40.4-38.1 72-79.6 72s-75.6-31.6-79.6-72l-.4 0 0-8-144 0c0 44.2-35.8 80-80 80c-31.7 0-59-18.4-72-45.1C139 461.6 111.7 480 80 480c-44.2 0-80-35.8-80-80s35.8-80 80-80c31.7 0 59 18.4 72 45.1c13-26.7 40.3-45.1 72-45.1c38.7 0 71 27.5 78.4 64L448 384l0-32 0-216 0-8zM624 392l0-152-160 0 0 112c14.6-19.4 37.8-32 64-32c41.5 0 75.6 31.6 79.6 72l16.4 0zm-8-168l-60-80-92 0 0 80 152 0zM120 104l0 160 0 8-16 0 0-8 0-160 0-8 16 0 0 8zm96 0l0 160 0 8-16 0 0-8 0-160 0-8 16 0 0 8zm96 0l0 160 0 8-16 0 0-8 0-160 0-8 16 0 0 8zM528 464a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM288 400a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM80 464a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const TruckContainer = createIcon("truck-container", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABvAAAAKbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyEAgsGAAE2AiQDCAQgBYMtBzYbCAbIjsPGMR0xNkHyJsTD83b//tpn5r1M5saYpDJVQXX8hQ5wB1eoovZbA+fcLFK7sASjaEgb9rM1hE76gXPqwzJABnaxo3Xgmyoooj3aD3icPUvodry9Bfln294MMQ/lRmiMJeTxty3qSPekHy76Nxpfa+88SZYBiGYAmLh88Vzv3oybER/9/yE+MhsBMRFUAhkydBJgjEygk1yFXC64Gf//L/4DKwKIeiEimZSjEa7jG4ZjSco87zydbNgcQxqba3WN82XpF8usVjYWKUQZEVk0anxjY62stY6lYfACeFne3eOuXZ0nA0ZEGfd7h/qNcWVm7Yx8ez2FnfuKWv1Cr8wbeun5oNEIRSsvk4sZ1ohp2bKly9rW2iZhkh0OVwu1HtjKV3q/nGf4tu72I6i2Nc26c5su9yUWdLzyOPX8d/t428ceLqBYAzTD8YXTvO7076wviiMtTF+vucyjCkW7cYvzH37AvxpH4ZJYtrVZuz69r3a9vXbNtlaBQT6fMHH1FZWvFM80mEOvhx2w7/Qxa7MGj4yObXhtgbu/P/7ww8+rHlaUt6EX8uX2Af26du03wNF9Pz67/eOPt7O6z8ZPXw4Egt8vbOi3nhzza4EmcPv177+mu/v/ZjqdnigkEGR9/vesSaeB1IfQS4pjui/ck0DyhRK+1kbuFCCUCJDUKwXIdNRMgFyptwB1uhgqQL3SYpnIGwqtrG2ApJGDQGaYE0CulReAOmO8Z63XKjJIZ8Mp+zszwbQufOqoamC/AdWoajam4gAv09aOrjYrehyTOT0xuG322+eIrbbY6YgO+ZC5jqP2mraEneqBKgP1M0BllOpw8qFgGbUectjOad7xRkarrtf2cGy5eE+sTkKGgwQliUhNX+W4PyIBAAAA");
 
 export default TruckContainer;

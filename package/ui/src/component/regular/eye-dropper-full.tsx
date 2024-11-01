@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye-dropper-full` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-dropper-full?s=regular eye-dropper-full}
  * @preview ![eye-dropper-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/eye-dropper-full.svg)
  */
-const EyeDropperFull: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M199 169L233 202.9 309.1 279 343 313l8 8c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-8-8 33.9-33.9 71.3-71.3c19.1-19.1 29.8-45 29.8-72C512 45.6 466.4 0 410.2 0c-27 0-52.9 10.7-72 29.8l-71.3 71.3L233 135l-8-8c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9c0 0 0 0 0 0l8 8zm249.2-29.1L343 245.1 266.9 169 372.1 63.8C382.2 53.7 395.9 48 410.2 48c29.7 0 53.8 24.1 53.8 53.8c0 14.3-5.7 28-15.8 38.1zM53.1 329C39.6 342.5 32 360.8 32 379.9l0 52.9-28 42c-6.3 9.5-5.1 22.2 3 30.3s20.8 9.3 30.3 3l42-28 52.9 0c19.1 0 37.4-7.6 50.9-21.1L313.4 328.6 183.4 198.6 53.1 329z" />
-    </Icon>
-);
+const EyeDropperFull = createIcon("eye-dropper-full", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABcQAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBdAsGAAE2AiQDCAQgBYMtBzcb+wQjEWZj7kX2j4TsxPT+4GIRXxVopMTD/9v1/T63qnsA1QBGRHw6lCMhCN/6KSO4AyCJtrnn/5rPL+3oAL/RoURj6dFZAWUveQITSa8Qmw1nA4YxzNrZLW8QfrBIn/gko+0No+whj/fjphLpkfQ1bsQ3jR+1cElSygBEfQCMX7pwtk+qoiriq8qbxFdmIiDGQyGQIUNrAUbJBFrLFcjlgqqoVOg/sBBAlPFPTSBHCcuxA5CDJMvznvWTm9Yq1cmX1CrVXDl6zOjFMTqaxAtdH2vZNMbG0nit3ZM9Xh3yRrdFMSqaxoudHrY4H+ejydJFSxctiaXxoNYLTe61ONd43ctEr7jb5F6zkVErrvRcGktiUYdX67/6c/uvt3zt06YNGjSYOVMDR9Wp8/33RzUwZYpvatT8+uunbz5lStcHR/9svQ3MNJ3vVGm67pdfyk0rlz/QdrB33fiwPx8brO2k8+eh9DQIBD0+6dlxbb1Rv1WvlcAP7/36ezqz8k/l/SS9iuoSCLJelV6rEgVnrjihFUc64IMCyXwZftXa7gcINREgKaspQKaV+gLkauopQElbgwUoq2mhTOQ1hDuNra4gqW0/yAxxGuQaex2UjPKZXdY4MhPjDYR/4KVMkdDkZUX/Pv2KEcUwUQSrYf30yGJa7XbENbpjpy179xzavGn7IUEemO0d3j1FIyZ/sdBfH/0URiiW89vNSzYfOLh9756wyEjFfrObI3p/dxgJUw6wMklEqr/5+Obev1y0A70vIwAAAA==");
 
 export default EyeDropperFull;

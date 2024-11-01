@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `computer` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer?s=sharp-regular computer}
  * @preview ![computer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/computer.svg)
  */
-const Computer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M400 80l0 256-118.7 0L264 336l-80 0-17.3 0L48 336 48 80l352 0zM48 384l102.7 0-16 48L64 432l0 48 54.7 0 33.3 0 144 0 33.3 0 54.7 0 0-48-70.7 0-16-48L400 384l48 0 0-48 0-256 0-48-48 0L48 32 0 32 0 80 0 336l0 48 48 0zm137.3 48l16-48 45.4 0 16 48-77.4 0zM528 80l64 0 0 32-64 0 0-32zm0 80l64 0 0 32-64 0 0-32zm64 80l0 192-64 0 0-192 64 0zM480 32l0 48 0 352 0 48 48 0 64 0 48 0 0-48 0-352 0-48-48 0-64 0-48 0zm80 328a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Computer = createIcon("computer", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCJAsGAAE2AiQDCAQgBYMtBy8bIwXIjsQ4JvKLKOwiHv5fV3rfl2bPjGQGmVhGhABAZ1cJd+E2XartAlS0e9JhCax8rw2Z/2vqxfOjAvl2JX5oUVirtIp6PoGBHs6bYDacTRRn7ez6vEHxG5LEhwzbD6sr5PFP3NMivZm+wd34ofGz4V4kaWUAoh8A1h7ev1N3T/REfN1MfG07AmItqAQyZBglwAqZwCi5Crlc0BNNw/+BFQFEF3ksgRwF7seTjC4k7TzvTOjg5f6dstU7P1S2isspS0WRRe8LZVGOiiJE2TsyNAYqzSxaspdIM5eDY0eNLWN0FJf3YN5QUgeFApnykODUw6ePfDjyrcnvDXtz0vhP+n3ya99c+sbd23jkR86cnnNZWhub1RZ36kw1LtcMavU9/6tzGvBma+w6dHpNXWWNak/wr97dDd4a3dbc/r7uOKNW36lR2djNewcP3pvoQDz258+93z3dd8Vv7TKBHz4DXm560rPpE7QlEGQzm5lOpGeBuQFkUjxsvPJFgeSaNnnXXl4TIBQIkHQpBMiM1E+AXGGGAC1jLBSgS2G/TOQdYZCTDSS93AcyizwFcoN8ClpW+DzdZVBkpicbjvzxy9jUoxvPVXNn19WyajlUFWsSw/Hyatuc+rBfmoaLLrntlgdddMFVD3b4/XbmHnLTJg3b6Icqc81WqyxTXU8ejUOUud8Drs7V+1OWq95HpnpY3zwNTiKC8/QliUhtKwYAAA==");
 
 export default Computer;

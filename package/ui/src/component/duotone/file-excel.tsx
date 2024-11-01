@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-excel` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-excel?s=duotone file-excel}
  * @preview ![file-excel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-excel.svg)
  */
-const FileExcel: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM116.3 277.8L162.7 344l-46.4 66.2c-7.6 10.9-5 25.8 5.9 33.4c4.2 2.9 9 4.3 13.7 4.3c7.6 0 15-3.6 19.7-10.2L192 385.8l36.3 51.9C233 444.4 240.5 448 248 448c4.8 0 9.6-1.4 13.7-4.3c10.9-7.6 13.5-22.6 5.9-33.4c-15.5-22.1-30.9-44.2-46.4-66.2c15.5-22.1 30.9-44.2 46.4-66.2c7.6-10.9 5-25.8-5.9-33.4s-25.8-5-33.4 5.9L192 302.1c-12.1-17.3-24.2-34.6-36.3-51.9c-7.6-10.9-22.6-13.5-33.4-5.9s-13.5 22.6-5.9 33.4z" />
-        <path d="M384 160L224 0l0 128c0 17.7 14.3 32 32 32l128 0zM155.7 250.2c-7.6-10.9-22.6-13.5-33.4-5.9s-13.5 22.6-5.9 33.4L162.7 344l-46.4 66.2c-7.6 10.9-5 25.8 5.9 33.4s25.8 5 33.4-5.9L192 385.8l36.3 51.9c7.6 10.9 22.6 13.5 33.4 5.9s13.5-22.6 5.9-33.4L221.3 344l46.4-66.2c7.6-10.9 5-25.8-5.9-33.4s-25.8-5-33.4 5.9L192 302.1l-36.3-51.9z" />
-    </Icon>
-);
+const FileExcel = createIcon("file-excel", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABlgAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCQAsIAAE2AiQDCgQgBYMtB1AbYgXIrgdsYyb0HwYFCIa42FinObbLo/z2nIZ4nn7t9dx9GyIJpAF1WMeh0LGxuDJc3apMjazQv67jQ66karv+8+Pec98HNLxJSkISWEGFsubSltcLwNXkGiXm61ORxNaMWYdkkc9LBEnaqVPPY5sC+ACeuWkNXBZN5z6vQL21Uoq5eoUiVNMaWEf1Cg1k/uI4hzfUGS/z6ILqM/vFJ/9/APPTuHkqsgIAMgoAdk+Ki/D+kpcqv+2kYx8EyB5gDoECCphCgA0CBKYIcVATInip2paXtO0cBCDd8OFC70bDvQSfADWgwrBaqOAzgYoulbBsQCRvOi4tAzWmDYWi5It1W2lKsu114chIWnZ8tuxlKc+e96U1NellL4By56PI1h7EaNv32lOZS/9bu+DoqKx0HzXqrFk8pnh5Zd8079q3LHuOPe9LY2o6zA3P3W+1t/90dlzPHnY2hm+Wh6f/fJn/33IafsfpsP8LEQbt6X4djD0fO+BiDqS6LjxnDXnT1/JuRK/O63qUI7z3yKCkbvh07f5H9+d/fB3y/0vFyfOTPwcCAt/PDtwbSfwHBuDt29+LH5LWNOwW9GKAQFlsF9VkGkiDAACoMsg9DU5BQJGPCYc6aFMAIQcBVMTkCFA4aBGgJheAAF1cRCFAN7liAlTLQIxqG8Ao9QCBaBNAyOgNiCT6KMSMKTqR00fcc2BydhfKusUNDuXxfHai4jUX41wm8M02g3zDD3agUZdO/RrUaymoDtmrqB7QIXuJyPJFXJhgobh4/PD8oVzWcXv1cWZaPH5NAn595Gtweb8ffAQDsC6HDC9SkUBv6s2gv+PqQXp609gXTS8=");
 
 export default FileExcel;

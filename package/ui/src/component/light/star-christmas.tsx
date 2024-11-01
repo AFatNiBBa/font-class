@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-christmas` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-christmas?s=light star-christmas}
  * @preview ![star-christmas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/star-christmas.svg)
  */
-const StarChristmas: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M216.9 205.5L256 55.7l39.1 149.8c1.5 5.6 5.8 10 11.4 11.4L456.3 256 306.5 295.1c-5.6 1.5-10 5.8-11.4 11.4L256 456.3 216.9 306.5c-1.5-5.6-5.8-10-11.4-11.4L55.7 256l149.8-39.1c5.6-1.5 10-5.8 11.4-11.4zM256 0c-10.9 0-20.5 7.4-23.2 17.9L188.3 188.3 17.9 232.8C7.4 235.5 0 245.1 0 256s7.4 20.5 17.9 23.2l170.4 44.4 44.4 170.4c2.8 10.6 12.3 17.9 23.2 17.9s20.5-7.4 23.2-17.9l44.4-170.4 170.4-44.4c10.6-2.8 17.9-12.3 17.9-23.2s-7.4-20.5-17.9-23.2L323.7 188.3 279.2 17.9C276.5 7.4 266.9 0 256 0zM443.3 68.7c-6.2-6.2-16.4-6.2-22.6 0l-64 64c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l64-64c6.2-6.2 6.2-16.4 0-22.6zm-374.6 0c-6.2 6.2-6.2 16.4 0 22.6l64 64c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-64-64c-6.2-6.2-16.4-6.2-22.6 0zm86.6 310.6c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-64 64c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l64-64zm201.4-22.6c-6.2 6.2-6.2 16.4 0 22.6l64 64c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-64-64c-6.2-6.2-16.4-6.2-22.6 0z" />
-    </Icon>
-);
+const StarChristmas = createIcon("star-christmas", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABiQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCOgsGAAE2AiQDCAQgBYMtBzUbPwXIhof/t/uvfW5VA66GXwushpxBuRTz/bU68oyzcT6hHb+Ja+rH+VNpldDroyzSqj3aItonMMFK30RmA5vpBGzj5lBtcJX1e0h/QB7vREU90v30Oa66D41fdXKFJM8AREsAzChXLfHhV/FVxOe1l8TnFiEgZoJCIEOGrgJMlgl0lSuQywVfRa3G/gMLAoj6wssTyNEQZ3ANkIOkfp537tmsWdNmTeo1y9eqwsZlubpcE7fbEWJ13GpLrI077YvKuNuhfNhxdYfOCu73XRNrQvCkSxllCB70WxtrY8OaO22Xx612tzusirvtm0piRdzu4FgZXbb1xto/VIoDvepa1v3e8/M9n/vy7363Y57+l271Q8lLA/rdQg44cbufi0/07/dFy+mVqmpFHpFXKypV01u2gcEqdRVvz65Wax488MozDx7UVKu+NWO8Hi590q77eSAQPBv0469bW0z+v2GTBL55+8//7Y9Q7cMk1aGhBIKsUqvYlEAiAAApzuiVIJAccUTftak7AoTGCJDU11iATBctBcg1NliAerobI0B9ja2SibyR0Nbmkk2aOs5mxjrL5tp6ztYz2UeJ+tpGdhea7iHTP2D2uXV4zrpixNDhxcRisCGbbyyDXpxUzHYOOMMHBsKt9jjqiFN222W/UzX0hCXp0w6bO4bM8UWFEYYarjBRsbp92762ljjhpP391vWrTFLsHx3gzPj4gdCTBM2RSpJEpOZfSWzIzn0n9qfQ4e0nAQAAAA==");
 
 export default StarChristmas;

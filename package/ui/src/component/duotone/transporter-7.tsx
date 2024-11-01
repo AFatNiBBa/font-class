@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transporter-7` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-7?s=duotone transporter-7}
  * @preview ![transporter-7](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/transporter-7.svg)
  */
-const Transporter_7: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 304c0 4.1 2.7 7.6 6.6 8.7L32 320l7.3 25.4c1.1 3.9 4.7 6.6 8.7 6.6s7.6-2.7 8.7-6.6L64 320l25.4-7.3c3.9-1.1 6.6-4.7 6.6-8.7s-2.7-7.6-6.6-8.7L64 288l-7.3-25.4c-1.1-3.9-4.7-6.6-8.7-6.6s-7.6 2.7-8.7 6.6L32 288 6.6 295.3C2.7 296.4 0 299.9 0 304zM416 80c0 4.1 2.7 7.6 6.6 8.7L448 96l7.3 25.4c1.1 3.9 4.7 6.6 8.7 6.6s7.6-2.7 8.7-6.6L480 96l25.4-7.3c3.9-1.1 6.6-4.7 6.6-8.7s-2.7-7.6-6.6-8.7L480 64l-7.3-25.4c-1.1-3.9-4.7-6.6-8.7-6.6s-7.6 2.7-8.7 6.6L448 64l-25.4 7.3c-3.9 1.1-6.6 4.7-6.6 8.7z" />
-        <path d="M96 480c0-17.7 14.3-32 32-32H384c17.7 0 32 14.3 32 32s-14.3 32-32 32H128c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const Transporter_7 = createIcon("transporter-7", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABfwAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBewsIAAE2AiQDCgQgBYMtB1YbIwXIHgPuCkTBmU4RWrpcdYIK0StfPHx/+Z773v5aLNVbo3TQqgmFA14toUbxDxjgCOxEI7D+w/78cyanrd63ZOWtLSmBn2xEi8prn6ka/tPN91vD7rY2TNLSE4vDpQs84qNAmv9bPu95FOAH8I4Te3F4nOD3bQmEJ0hW23xCE9lMpyOnvW3YsBFILyIkVEIaqxz9HlDElx+gJX0FN+CV/gcw/mnbkLQyAGIIADi9LpcwKFmm8NUJxK8BBMQZgGVERsY8ggNqgXkay6BQCMpUVVBGVQkEEHXQLymDOmq4BXcACpCEVERSUcxxHU3mWjFuuIie0koHv7A+PU0W2sVNLryl5lUeScueD22IjoZ3ccgUG57oqafcM8d7q/hhzy3ZVuClDwlFHAWA9741OrsY5WykYtSuToMP+v7N54FA0Nw4+3L2g9fMHAD+fu6f2xdJNUjSDNCUQJBX/wPqCSQCAJBihjvBDQhkZ1Tqq3a9IwhtBEjq2gJkcxwICm0rCGoWJRHUtZ1TiyJHmGoMkHTdg2zfCihMHYOaA+d63TTCMCODhPzlxRU5VJiSaCgiOVFtnYocvNTzssx7lnPMC4cYNmPaoiF9YxYZMq9kLZlStOCCDxJRIREiR9zeM1dj+rwFYzLjH5Mn+0WPZTvbC/uoANsHNJOJRCF/GqT5YDp4ZVNcAnM9AQ==");
 
 export default Transporter_7;

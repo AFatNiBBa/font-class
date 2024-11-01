@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-mov` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-mov?s=thin file-mov}
  * @preview ![file-mov](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-mov.svg)
  */
-const FileMov: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 496l16 0 0 16-16 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L204.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 145.9c9 9 14.1 21.2 14.1 33.9L384 304l-16 0 0-124.1c0-1.3-.1-2.6-.2-3.9L248 176c-22.1 0-40-17.9-40-40l0-119.8c-1.3-.2-2.6-.2-3.9-.2L64 16C37.5 16 16 37.5 16 64l0 384c0 26.5 21.5 48 48 48zM361.1 160c-.8-1-1.6-1.9-2.4-2.7L226.7 25.4c-.9-.9-1.8-1.7-2.7-2.4L224 136c0 13.3 10.7 24 24 24l113.1 0zM150.7 371.6l41.3 62 41.3-62c2-2.9 5.6-4.2 9-3.2s5.7 4.1 5.7 7.7l0 128c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-101.6-33.3 50c-1.5 2.2-4 3.6-6.7 3.6s-5.2-1.3-6.7-3.6l-33.3-50L152 504c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-128c0-3.5 2.3-6.6 5.7-7.7s7 .3 9 3.2zM440 376l0 31.6c0 29.1 8.3 57.5 24 82c15.7-24.5 24-52.9 24-82l0-31.6c0-4.4 3.6-8 8-8s8 3.6 8 8l0 31.6c0 33.2-9.8 65.6-28.2 93.2l-5.1 7.7c-1.5 2.2-4 3.6-6.7 3.6s-5.2-1.3-6.7-3.6l-5.1-7.7c-18.4-27.6-28.2-60-28.2-93.2l0-31.6c0-4.4 3.6-8 8-8s8 3.6 8 8zM296 400c0-17.7 14.3-32 32-32l16 0c17.7 0 32 14.3 32 32l0 80c0 17.7-14.3 32-32 32l-16 0c-17.7 0-32-14.3-32-32l0-80zm32-16c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-80c0-8.8-7.2-16-16-16l-16 0z" />
-    </Icon>
-);
+const FileMov = createIcon("file-mov", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABqgAAALbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDPQsGAAE2AiQDCAQgBYMtBy8bvAXIPgyYcs06WFVcFWVaxOiOoh7qnXnl0R2NLzd/8E/a0vcl3fqsNawdog0wVwasAsDUEUzPbSYldccD//fuvkF/NfbxtUHKoyiEOKLAEk2LuAxYUIUNuAnDdYbBBsAd4x78FrJl4AVus8Hmd7AB1zZOsCBOfoXoFwTw1Kmcy3kogO8RD8oaNGfn0jHGeQUKGA23Xu55rWA1LQCXpYvbbo6YhDZC4g6cHhsjAeZgfAe2hzfVLybWwGAtAACKAACAvveSPF48fJfePdA7rkAA6gdATIAFLFCTAOjBIqAmRwwcDsF3pi7+A4EAQAHxLzIAOCAJvABeAwAOAEPgXLeMRvWqR2Ei05WHCZ8X+hB5nVtdqm51eH25cajNgzLthbyklWFl8No03CdpU+F1pr+nqtHBwd6G4/e5XPuG6OA0LO3br29/7R/sBe3p76ss9dGeYtOwn4byytEGZiRixfa6eveP9lZCKzYVDwSVdW0qlFqylsr3KSGv6K+xL5cb76mIvBjuSZf2DX29S9Gl3878xQlETnRy/Aq+eOaJLSr+1BeNyBLGwAI5r0edBRizRZtvaQX7fgcXoNUPkZkq3WZ+/jzjG3W4FAUrBCNGBOMQ9bOrL8YNyYW2oj4dsHFcazF3bgtMZ0y792D19uQH8ehkEraPsjZgQxNREQIq5Ds19WH4PaKPAyBAcPF8PW14do8/zgDws4e+Ran+x0ESA4DAtkjVkAiQ1H8AAAAAo3nUiwACDA8ExK+awT4CQHhAABgCPALAUkNEADg8zQmABLV1JAACPCUscumIioZSYMhgJrB0shQ4KroNEvTwshpQMVgwZoCQ+YtMHEThgdfitGoTd4tXxxoWMil73j0+rHieXGuKUxlnumnmGGuMieYM0FnyGnNNNWgLGeiDYm210kasm/jy7KlYTp1ZZg/JZf76Jd3FzwdNzNve3RTrhhi3nS6DAZnkJ5Nt2enzAAAAAA==");
 
 export default FileMov;

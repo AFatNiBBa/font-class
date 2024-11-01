@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `backpack` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backpack?s=sharp-regular backpack}
  * @preview ![backpack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/backpack.svg)
  */
-const Backpack: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M136 0l24 0L288 0l24 0 0 24 0 56 8 0c70.7 0 128 57.3 128 128l0 256 0 48-48 0-32 0-48 0-192 0-48 0-32 0L0 512l0-48L0 208C0 137.3 57.3 80 128 80l8 0 0-56 0-24zm-8 464l192 0 0-64-192 0 0 64zm240 0l32 0 0-256c0-44.2-35.8-80-80-80l-32 0-128 0-32 0c-44.2 0-80 35.8-80 80l0 256 32 0 0-88 0-112 0-24 24 0 240 0 24 0 0 24 0 112 0 88zM264 48l-80 0 0 32 80 0 0-32zM144 160l160 0 24 0 0 48-24 0-160 0-24 0 0-48 24 0zM320 352l0-64-192 0 0 64 192 0z" />
-    </Icon>
-);
+const Backpack = createIcon("backpack", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdQAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCHAsGAAE2AiQDCAQgBYMtBy8bGwXIhof/dL3eN9Ku15IZ5rtCoABhR2VchQAV4qL9Jy1BvfN/Tb14fnSA3+jQoilTYyCjzOcTGHAFNm2AbQOb6QRs1jbkg4rIuCYiMhkY2oXqDsp4IE5rke5LP+Cu8KHxq9FuI2kVAGIQANYc2rdD0xu9Ed933yK+tw0BsQZkgQIFxgmwXCEwTimjVAp6o9vV/4GZAKIN10qgRAdX4AZACZJ2Wfb0VVAdtfqXB+251bG6qoWo48sVH/WkEFW/iCKeWPXJpjpgH66rGFehVluLeHjq8wur6s3Jz45LUQfG1v2FcLSqKx1p/zu5qobigXDjIepJzw96/veeH877wZ2fjBr16iiLdexeN7/FbLNPz0Zr/rrdHYuN6vNz0zSrNVb/lXMmDp47KD866NyDQXbYFUYZ1RnlCofPf2Q3xme75esvf/TRd2cbZa1XPlktSuP8chAIrrtt78RTA5f/36kT+OX9P/+UfkXdJpr0PDoSCIrp3emORwPRCABAiutMigaB5AJteNd+7hYgVAiQtFUCFMYaJECpMk2AlgkWCNBW2acQZV9hmBMFJP1cCQoL3QpKw7wBWpb7OmkbFgXtaNLQn76EjTW6YVSeM3N2XpqnBZlhEukGl+VtefJ1pmGKrHSey13mGuc6x4WuqfCr7Mhd61IbV9gGX5TNMdNs2VL5uny7+KBzXeVqF7rcZX6YZfJ7f7Lr1u2niJaAcK68JBGpQ0WS+QAA");
 
 export default Backpack;

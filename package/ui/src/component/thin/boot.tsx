@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `boot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boot?s=thin boot}
  * @preview ![boot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/boot.svg)
  */
-const Boot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 16l320 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16L16 112l0-80c0-8.8 7.2-16 16-16zM0 32l0 80 0 16 16 0 336 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L32 0C14.3 0 0 14.3 0 32zM240 160c-4.4 0-8 3.6-8 8s3.6 8 8 8l96 0 0 48-96 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l108.6 0 100.3 45.1c28.7 12.9 47.2 41.5 47.2 73l0 41.9L16 400l0-240L0 160 0 400l0 16 0 41.4c0 14.5 5.8 28.4 16 38.6s24.1 16 38.6 16l14.9 0c17 0 33.3-6.7 45.3-18.7l7.6-7.6c3.1-3.1 8.2-3.1 11.3 0l7.6 7.6c12 12 28.3 18.7 45.3 18.7l11 0c17 0 33.3-6.7 45.3-18.7l7.6-7.6c3.1-3.1 8.2-3.1 11.3 0l7.6 7.6c12 12 28.3 18.7 45.3 18.7l11 0c17 0 33.3-6.7 45.3-18.7l7.6-7.6c3.1-3.1 8.2-3.1 11.3 0l7.6 7.6c12 12 28.3 18.7 45.3 18.7l14.9 0c14.5 0 28.4-5.8 38.6-16s16-24.1 16-38.6l0-41.4 0-16 0-41.9c0-37.8-22.2-72-56.6-87.5L352 224l0-56c0-4.4-3.6-8-8-8l-104 0zM16 416l480 0 0 41.4c0 10.2-4.1 20.1-11.3 27.3s-17.1 11.3-27.3 11.3l-14.9 0c-12.7 0-24.9-5.1-33.9-14.1l-7.6-7.6c-9.4-9.4-24.6-9.4-33.9 0l-7.6 7.6c-9 9-21.2 14.1-33.9 14.1l-11 0c-12.7 0-24.9-5.1-33.9-14.1l-7.6-7.6c-9.4-9.4-24.6-9.4-33.9 0l-7.6 7.6c-9 9-21.2 14.1-33.9 14.1l-11 0c-12.7 0-24.9-5.1-33.9-14.1l-7.6-7.6c-9.4-9.4-24.6-9.4-33.9 0l-7.6 7.6c-9 9-21.2 14.1-33.9 14.1l-14.9 0c-10.2 0-20.1-4.1-27.3-11.3S16 467.6 16 457.4L16 416z" />
-    </Icon>
-);
+const Boot = createIcon("boot", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABqQAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDTAsGAAE2AiQDCAQgBYMtBysbxwXIHodxTLIqttSbjJCkk6DKlWW1NBO2YHdsD9gsAx0TvgDhTcR/AHwrIBIjRP/i1POchwL4RqEYjk3TsnVMSyjp2ucVKHBpTfCKBCzVklXAGpDBeSMOMDSG8hfk8bzDdEi3pQ9wjWto/GqaC0myDED0ALDxnrtu75Wv4quID9oniQ9si4DYBDQCGTLMFGA9mcBMuQa5XPBVtC37D2wIILqCRiSQo4t38SkgB0me572ph61edup8j7JT7FtX9U0DcWO/iohbRgsEUdZXjG6JiPOGNxdVXN6/0e439m8alCGKKEu7x53TbiO2GEUIP/XcwU1lGVcsO4pbBoO4t2aOluJ4b/rti/ZA3+LmYbFbXdXi3P6NRRGXD4dx14J+gJ03R8y7r3ff731wxAfmPLxR8auxjYx9tZOdUrndKd/T22ns0ktHeLT1z3MO6nYPOshKDlIePd6hy9n78dcs4yt/MfcsNWrb0bjp846w225HmDejtMQzbJY9w+QZ44arbluqZxmzfvjhjiNXsJbuQUd92X5FDrV+/3Nj+p+fqa6P9PuUEr/z8/643n3PLwUCwWfffDHpwPH1/p9QJvDNc38u/xW1ryTpPkyQQJAt1y5nvwQSAQBIcYZ5CQLJq3KBVbl5bxQKMCRdBWRm6EGusCx0zLb6C12FXWUinyj07Q9AUjkZMms4C3J9j0PHet72u/qRXc7Mxcj8TCZu0UY239SsvMJKzTrNZKVkr1BKr67brFaWnMFHlsK9jnCiE5zmcIc52mkt7BTbR6c73hZz6OZa1FjZClbSWEezu3tf3AP7pzjV0eP8/nXW1ZxvLXHG/PSlUE8C3FWUkkSk/AMCAA==");
 
 export default Boot;

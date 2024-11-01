@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-cross` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-cross?s=sharp-light arrows-cross}
  * @preview ![arrows-cross](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrows-cross.svg)
  */
-const ArrowsCross: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M288 32l-16 0 0 32 16 0 105.4 0L12.7 444.7 1.4 456 24 478.6l11.3-11.3L416 86.6 416 192l0 16 32 0 0-16 0-144 0-16-16 0L288 32zM35.3 44.7L24 33.4 1.4 56 12.7 67.3 173.1 227.7l22.6-22.6L35.3 44.7zm217 262.2L393.4 448 288 448l-16 0 0 32 16 0 144 0 16 0 0-16 0-144 0-16-32 0 0 16 0 105.4L274.9 284.3l-22.6 22.6z" />
-    </Icon>
-);
+const ArrowsCross = createIcon("arrows-cross", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABYwAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBWQsGAAE2AiQDCAQgBYMtBzMb3ATIjsO44TuyxVI+lYqHj7ny/SR7c83uTVPi9FSBURGBq0RFoK8SSJ0rjq/cqSXQm8yrLBennuc8FA69UZD20oAs8DnPIxDgdCxsMd6eF4u1imKtnf3yBujWTxLvyTB+hsUDsrgXqZDcSeB6+dD4qpfLJLIUQBQAmL1mxXLt9ahHfGo8Jz5ZioCYA0qBFCn6CjBNKtBXpkQmE9Sj0eD/wJIAogneJgEZKliODYAMJNIsG9DSq1ppyVZXK/mevJqLanVndI3B0SP2hBDVwD351u7dug+KbrEqhsbqdatWr8qNrEKnF6yOQa1tRdv3gXYz4FFRFKVi34WL3tjtiYsX7FMoFW4oFFdq48Zubzx6bLfHjz5XrkDat6M8XiDlafa5csVuIBD0GD1u15aO0/43VxPw5c3P37w9GvVoT9rQLAFBOqyRjdEuYBz8JE5rHX1RIDFfCptqbgoQcgRINMkRpPooIJMbChX9jaeMh1dIRdZB6GpThUTNMUhNcAkyXT2Fimneek26RupUjEswf7rEBS0yf6kcPWJUOaWcRoT1EypOp5Zmc9DpUBlMF+12xGEn7bLTPicb7Ljl4SmHLNDQ+X6oNNoIo5SmKI/T+9Or7XLcCfsccTjPmaq87w5yWm8fTE4ChGOsJBIiqW077vPy8GcBAAAA");
 
 export default ArrowsCross;

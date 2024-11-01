@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `drumstick-bite` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drumstick-bite?s=regular drumstick-bite}
  * @preview ![drumstick-bite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/drumstick-bite.svg)
  */
-const DrumstickBite: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 272c0 17.7 14.3 32 32 32l16 0 51.2 0c-2.1-10.4-3.2-21.1-3.2-32c0-82.8 62.8-150.8 143.4-159.1C425.4 74.1 383.7 48 336 48c-70.7 0-128 57.3-128 128l0 64 0 32zm-48-32l0-64C160 78.8 238.8 0 336 0c86.5 0 158.5 62.5 173.2 144.8c2.1 11.8-10.3 20.1-22 17.6c-7.5-1.6-15.3-2.4-23.2-2.4c-61.9 0-112 50.1-112 112c0 19.2 4.8 37.2 13.3 53c5.7 10.5 1.1 24.8-10.8 26c-6.1 .6-12.3 1-18.5 1l-80 0-12 0c-17.7 0-31.3 15.6-41.5 30c-1.7 2.4-3.6 4.6-5.7 6.7c-12 12-11.1 31.5-6.8 47.9c1.3 4.9 2 10 2 15.4c0 33.1-26.9 60-60 60s-60-26.9-60-60c0-6.3-5.7-12-12-12c-33.1 0-60-26.9-60-60s26.9-60 60-60c5.3 0 10.5 .7 15.4 2c16.4 4.3 35.9 5.2 47.9-6.8c2.1-2.1 4.4-4 6.8-5.7c14.4-10.2 30-23.9 30-41.5l0-28z" />
-    </Icon>
-);
+const DrumstickBite = createIcon("drumstick-bite", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhAAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCEQsGAAE2AiQDCAQgBYMtBzUbFgXIjpTuhuR4+L6uvnNfZjXA/AIHlrYds5VXXXE+/5d7frbpAL/RoYy1Wrg9nFOg5wFn+cSiyVlgmSZg7c5Y7FCaQ5KWRshxznHZQx6vxJVKpJvSp7gifmj8pNu5JKUMQDQBYMUO22zmzaEYivik/BzxiU0QECtAIZAhQ58Ai2UCfXIFcrlgKMpl/x9YEEBUIDgxcjjzMBwLyEGS8rxnk9pSfb69a6rZ4cz2iOtq7fWuj3uWvbHu4YkP17y7+NVCWBjih22+2eG7Ja+NuK7t2o7ra54d/2Dfmd2NRrnG0lkIpfbr3Cjao+/fS3uu74DyLZMeGXeJ4HfekC4XMfLhpod/GfHp/p/64omGC7mwoWnWtKbGky/5oP7Nt0ZvuWp2abmivJzi2NiEr4gV/n+9at99z7qr7vffhhv7P5jXOf7MK6u3rHvzwRsPHjXywrq6xR1VVZx5JlU1d54Ju3XVXu+8+eaFI2c8cNPF9X1AIGh958D/9mhc/E9VbQI/vvzbv8qvqPxmDKeHUSWBIJtcnmzXBCmGBQAgxfFGJggk+0ngXetcL0CoQYCkQo0AmV5NAuRqTBKgZMAcASrU2EYm8mqhzW4NJHWOApm5TgO5Ns+AksU+qFZoi0zheHXh/3spazm0ZlMxY+r0YmExbKmCDrFhdVGx7Iw/HkcmmJ32d4TDHWs/+zrIsYw82maN4xxm7YxY44sKM0w1XWGh4rh7r2wPpaMdA1lZOF/HIsX9/HjHz6dPMH5ClDNtTxKRGvY9+rjDjnlR1Sl7H3Tsfg==");
 
 export default DrumstickBite;

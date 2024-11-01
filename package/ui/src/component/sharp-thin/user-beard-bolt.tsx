@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-beard-bolt` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-beard-bolt?s=sharp-thin user-beard-bolt}
  * @preview ![user-beard-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-beard-bolt.svg)
  */
-const UserBeardBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M336 127.8l-1 16c-1.6 25-11.3 47.7-26.5 65.4l-30.8-30.8-2.3-2.3-3.3 0-96 0-3.3 0-2.3 2.3-30.8 30.8c-15.2-17.8-25-40.4-26.5-65.4l-1-16 0-12.9 0-2.8 80 0 3.3 0 2.3-2.3L224 83.3l26.3 26.3 2.3 2.3 3.3 0 80 0 0 2.8 0 12.9zm-38.8 92.8C277.6 237.7 251.9 248 224 248s-53.6-10.3-73.2-27.5L179.3 192l89.4 0 28.5 28.5zM352 112l0-8C352 46.6 305.4 0 248 0L200 0C142.6 0 96 46.6 96 104l0 8L64 200l0 40 32 32 0 32 48 48 32 0 32 32 32 0 32-32 32 0 48-48 0-32 32-32 0-40-32-88zM224 264c64.2 0 117.8-47.7 126.1-110.4L368 202.8l0 30.6-27.3 27.3-4.7 4.7 0 6.6 0 25.4L297.4 336 272 336l-6.6 0-4.7 4.7L233.4 368l-18.7 0-27.3-27.3-4.7-4.7-6.6 0-25.4 0L112 297.4l0-25.4 0-6.6-4.7-4.7L80 233.4l0-30.6 17.9-49.2C106.2 216.3 159.8 264 224 264zM335.6 96l-76.3 0L232 68.7 232 56l0-8-16 0 0 8 0 12.7L188.7 96l-76.3 0c4-44.9 41.7-80 87.6-80l48 0c45.9 0 83.6 35.1 87.6 80zM428 400l-21.7 86.9L400 512l20.4-15.8L576 376l0-8 0-16-16 0-47.5 0L496 352l4-16 21.7-86.9L528 224l-20.4 15.8L352 360l0 8 0 16 16 0 47.5 0 16.5 0-4 16zm-60-32l0-.1 133.3-103-20.8 83.3-5 19.9 20.5 0 64 0 0 .1-133.3 103 20.8-83.3 5-19.9L432 368l-64 0zm3 128L22.2 496 75.5 336l1.8-5.4-4-4L66.7 320 64 320 5.3 496 0 512l16.9 0L367 512l4-16z" />
-    </Icon>
-);
+const UserBeardBolt = createIcon("user-beard-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAANYAAoAAAAABxAAAAMOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyEVgsGAAE2AiQDCAQgBYMtBzYbXAbIjsJxL5rQhCUmSxnKG8HTWL95e/tNqpgnz6ZNtIpDhkz2Co0MKeOVEs7ns6v+7x5WTc94wdo9rYReKDOyg4JUCGG/fN8FIaPLNHFN/v/zpz+PpCd4pF4lRWk0bZR5PoEBz7J5PmqezXACuKl5Lw5SSL6+LeT46pwV0lvtM944jPivwaFoohfgkaIeWILlg952PP/DPxGfincg3tkKCCCWAbQjKOBLNCNgjo6gmYUCmQXhTxT/w/9ABQEQpfDePQEyqITIQDQDIAMSR7bsEun5cQmhkLQaln5pFVPB8OCppBSGUYggk3gxLowkKWU4U5nMEKUEmV/y7qakUjJ5gOCnlIsFgreTzseAuwQHCM4PCBhIRStJpu7Wb74rJR/FZxPsZ5Agzh3iFDzQVkHPxrDaUDKXp4sf1A8IKWo6jrtB87Y5m3qpUPJO8oXYIXPAjOAuDozaRHgejuZ2miijSgZbSA5UdRHMTZpDicJ0Ga4BYjSMYRRLBCmN8MSL3os/Ej5PfsbGosf7lXbM/kQH/cyHn172eGDQdWUfTjghgb6pw+gd3Tp3busxhj2enXc4HPLLj+tZuP7jiyxH/AGS/IeSuqSB5fYeRQaMXHkR55JadpEmIassDw/5g3nsDfUl2NW6JI7X0kgGlj63e2dehMHBy8FwUbvsx8MqC+r1ZvZIZqifpg2i0smnCQHvUiUaDUAnPAO8ukRgG7WCSyUYDITm9o55V8k/C4tc/XQlX9HJd1gJQICAu2+vxZGn7LdDagD+ff/1LT1d8Xla0i4CymmAgMLw/zSjqQqAcQkQTrGJxJEPCpD84eDdarUjCAgCBCCxEQgoiOZFQCakIqBEnHwElBJ66ZidoKCxktS4rJC6ArtJi6BbpFWZdyGbYOj3hHxGy3+k6RrqUP0glZ2RpUrUYE6unOai7i1Vs21Jm7wmGY7EpCWL1k0YN2O9hqxqj25Y0DAG1/siJVuGLEoJtbp4W9eP0VVrZiyL6/sppfb3Jtkcb54MnRqPd1JWokEkz3OkT/9iaMdj19L8Og==");
 
 export default UserBeardBolt;

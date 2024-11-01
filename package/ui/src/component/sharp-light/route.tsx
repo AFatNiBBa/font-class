@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `route` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/route?s=sharp-light route}
  * @preview ![route](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/route.svg)
  */
-const Route: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M468.4 133.7c-7.8 15.7-18.6 32-30 47.1c-7.7 10.3-15.5 19.8-22.4 27.8c-6.9-8-14.7-17.5-22.4-27.8c-11.4-15.1-22.1-31.4-30-47.1C355.5 117.5 352 104.7 352 96c0-35.3 28.7-64 64-64s64 28.7 64 64c0 8.7-3.5 21.5-11.6 37.7zm-30.7 98.7C466 199.9 512 140.3 512 96c0-53-43-96-96-96s-96 43-96 96c0 40.7 38.8 94.3 67.1 128L272 224l-16 0 0 16 0 128 0 16 16 0 208 0 0 96-314 0c-9.4 12.3-18.6 23.2-26.4 32L496 512l16 0 0-16 0-128 0-16-16 0-208 0 0-96 128 0s9.1-9.1 21.7-23.6zM148.4 389.7c-7.8 15.7-18.6 32-30 47.1c-7.7 10.3-15.5 19.8-22.4 27.8c-6.9-8-14.7-17.5-22.4-27.8c-11.3-15.1-22.1-31.4-30-47.1C35.5 373.5 32 360.7 32 352c0-35.3 28.7-64 64-64s64 28.7 64 64c0 8.7-3.5 21.5-11.6 37.7zm-23.8 90.7C152.9 446.7 192 392.8 192 352c0-53-43-96-96-96s-96 43-96 96c0 44.3 46 103.9 74.3 136.4C86.9 502.9 96 512 96 512s6.5-6.5 16-17.2c0 0 0 0 0 0c1.8-2 3.7-4.1 5.6-6.4c2.2-2.5 4.5-5.2 6.9-8.1zM440 96a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM96 376a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Route = createIcon("route", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABnQAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCbQsGAAE2AiQDCAQgBYMtBywbaQXIHoVxw11C0UQs7u/Miofv92vn3vcW8yYaIWkyCUVDp1HCZkgWqaSsIe5QNVH5Btnl7L/vXo42H4CVzA4qSomdq6RoUjRMgID/i1M52RYK4INGJGhj4dLFY2rSPc4j0AFS61V78RK0YDWZAtbdaQmHaHIILUXSfs9yPBqocUPc8ckHzju4jg8an4xGINUCgBgBAHsXmcl4/CKd4v0ziGeJICD2AcwhKCiYQsAmrsAUnjlQVUGHNNv/QAoEEF3AO0tQ0YN78AiggtRVedpVra1YzPKlvByWz9ROOo9qxnXbpmky47bjtOayZRwwZO14EXJgM++6HXjqvGk55bHnwjAIIfpZxACZ1EhZgj7DENJqTriVcZAWyFxhSzuhHySJntCfqJ12XDVMOWxYVBlJv0bztmL72/a95h2fIRe6/d3dfd3FpZRRji4uKpWM9NKqvK4baKtE29sDA9vbIpv9iPpOhQIDGKF4L0Ooj9sqeuQAHM/PsXB0+fkZwP7s1ap2d10M8Asg5hfN/qH92vR0baZz9VK/HYBAcPlvGC+Vh/+JWA7g4/r3v/wI0Txy5BPokSAoy407ihKQBAAgowfmBALpBncdD7hFcDp9aEhd+qCYpICqzxK0zAho0KXPCa6oYoQJxRSkAVdQbOiFasIJtGx6CrpMBFc8JeGSfofpMRSL3kV9PL1pKJ12VVniBL8dRrcN5x435QIXUaNViy7VqtTrImyH5Lhbs5gVE+2JKB+evFGh6PHg8XyOah061WvVEuqEofyOs571YhewOZB3RSklkfwXAwAAAA==");
 
 export default Route;

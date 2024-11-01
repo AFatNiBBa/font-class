@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `binary-circle-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary-circle-check?s=regular binary-circle-check}
  * @preview ![binary-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/binary-circle-check.svg)
  */
-const BinaryCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M318 4.5C324.3 9 328 16.3 328 24l0 152 32 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-56 0-56 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l32 0 0-118.7-16.4 5.5C251 67 237.4 60.2 233.2 47.6S235.8 21.4 248.4 17.2l48-16C303.7-1.2 311.8 0 318 4.5zM94 292.5c6.3 4.5 10 11.8 10 19.5l0 152 32 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-56 0-56 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l32 0 0-118.7-16.4 5.5C27 355 13.4 348.2 9.2 335.6S11.8 309.4 24.4 305.2l48-16c7.3-2.4 15.4-1.2 21.6 3.3zM72 0l48 0c39.8 0 72 32.2 72 72l0 80c0 39.8-32.2 72-72 72l-48 0c-39.8 0-72-32.2-72-72L0 72C0 32.2 32.2 0 72 0zM48 72l0 80c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L72 48C58.7 48 48 58.7 48 72zM192 360c0-39.8 32.2-72 72-72l48 0c8.8 0 17.2 1.6 25 4.5c-6.8 14.4-11.8 29.8-14.5 45.9c-3.2-1.5-6.7-2.4-10.5-2.4l-48 0c-13.3 0-24 10.7-24 24l0 80c0 13.3 10.7 24 24 24l48 0c0 0 .1 0 .1 0l36.4 0c5.4 8.2 11.4 15.9 18 23.1C353.2 502.4 333.7 512 312 512l-48 0c-39.8 0-72-32.2-72-72l0-80zm160 8a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm211.3-43.3c-6.2-6.2-16.4-6.2-22.6 0L480 385.4l-28.7-28.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l40 40c6.2 6.2 16.4 6.2 22.6 0l72-72c6.2-6.2 6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const BinaryCircleCheck = createIcon("binary-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABuQAAAKwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDVAsGAAE2AiQDCAQgBYMtBzob3gXIjsJxr0SEoC1lsRRKHFY8fO33eu6+fQFmhaQj0egIR+NTBGPKsrLRJfentkZ8+14u991dAP/ArghVdAuxc6U6KZpMKmHimud//g3YK4KhRDVIBmbiznf+gKu0poE/8Gw3wwnQptxFPBE4bBqmrgvk+KYHKEkvOTe4687Ef/3aScoCABFtAL46uggLwFmFKhHX1Y/EvWMQEEeAMYQCBYYQ2MUVGMIzBrIsqET1H+h/4BgEEDUAP4kEMurxAz8BGSS1maehoSxtpCIjwifGi2wshbOeQjTStNKYjrDwjPKkvggRydKU8oS+PY3KRU/NjhVpEJk2nFcCvTCYKx+kGaMFZaJJ40X9cJCX0yI0q0I0oSdMU4oxQzaiXOayOuXGFEeEHaBpfQvME6FhuTmbzTyJuDYnWnU+FOl03DddxtXSksOecIfTgdkKRT2TDaYFGpEdknOlYYUoei6vtSC58Kx5k3lj79uI6BjGhHTLhTg40K9gqPIq/NbX4d/Gs0eNOZ+cjgVIfbK2Fg8mHk08WUD7FPyDgWyt3mKfKxjc1qsx6ACWcIh9GLL35O/XANPqXvlLbt/5XkCfAWOd0np60jKM6VtlWcmt0fz8Ne5ReGKiyufvj/J1gECw9ffBKEli91WwkQP49+3lLXke1bN0xVkAdRIIiqX/JfHpCogkA4imqKQ180aB5Lta4FyTZwKEBjSR1GggCoMkiazBIlEaYatYuf4EV2QhhC4JIZE0uSQK6xqIrMsmUdp1HqnRFdxLWnVBqj4o0/vZgC8XszSzYE5sskyqr1JFPe7MVtsNKvM2w3AvMhUpVC5DuhzlFl4qIF6hgN8c6OuDGEtmLDBO2O7avj7SipYqkzOu3j8NZ+z8sIHK+d6GoYsDSF12LklEkknNKUwprTH9+cdo+noAAAA=");
 
 export default BinaryCircleCheck;

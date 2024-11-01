@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tachograph-digital` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tachograph-digital?s=solid tachograph-digital}
  * @preview ![tachograph-digital](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tachograph-digital.svg)
  */
-const TachographDigital: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l512 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm32 64l224 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32L96 256c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zM64 368c0-8.8 7.2-16 16-16l256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 384c-8.8 0-16-7.2-16-16zm320 0c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16zM80 288a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const TachographDigital = createIcon("tachograph-digital", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABlwAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCRQsGAAE2AiQDCAQgBYMtBzkbTgXIHgk2TnOdKBTFps54+H6tz3Nf96eeZegFQkxYEclUfBwbMRWLKoqmwR10A1YI/tSpnMt5KIDPIQjKnhqQBb522/Nizws8lm8t0LZirUAV455texVENMQLjbGDPP7J7qojvZd+wYvwpvGbzu6SNGUAohUAZm1Ys8x3Vo34ufYt8bMlCIhZoBTIkKGbAFNlAt3kSuRyQXW1mvgPLAkg6iUXTCBHBXfwBJCDpCnPu3Rp3rwpuaJKXfN8faWu2PLJwIgvOqV4b9CX/VrG50O+7prF+4O/6t9iVKWoPGn/FnGz3ZtFEY87vB0Rtzq+U1n7Tsfm8Vb7N9s1i7c7NB/AFaiQdjeEIKbCOM10HTfMTuj9Vauv/vDL/l/MuPFBa1oXFK1bf0DkxYwaeviwmcqRKmz2/EsLNhgqzOTQBwy2RqyIlFNqdNJqK1pOfwcEgu3VV8N2tJz6d2MlgV//V3tmupm+QqMEgmxobait6SYIbAB+ivN673xQILmiSfKqzbwtQCgQIKlXCJDpqpUAucIQAer0ME6AeoU1MpE3Ce1s60HSzCmQGe8ayLXzDagz1fdevXaRgSIDSMyXYOL8MTxvWjlq+MhycrkZaVnoouzolPK0OfC8rAzCW+13wnFn7bPXIWdH6GnLwnOOmb+HzPNFpVGGG6k0WXk7fb5+vX1OO+OQE477caYo33cHOr/fPgg7SYI72uokEanN2V17Dp74K0IdBt8A");
 
 export default TachographDigital;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tickets-simple` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tickets-simple?s=sharp-duotone-solid tickets-simple}
  * @preview ![tickets-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tickets-simple.svg)
  */
-const TicketsSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 32l544 0 0 128c-26.5 0-48 21.5-48 48s21.5 48 48 48l0 128L96 384l0-128c26.5 0 48-21.5 48-48s-21.5-48-48-48L96 32z" />
-        <path d="M48 96l0 24 0 312 472 0 24 0 0 48-24 0L24 480 0 480l0-24L0 120 0 96l48 0z" />
-    </Icon>
-);
+const TicketsSimple = createIcon("tickets-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABaQAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBKAsIAAE2AiQDCgQgBYMtB1gb0gTIjsQ4JvGLWNDi4Wku8v2Z7B5SjnPAqBDQMxTItqqqruwJJMnqrff/+b/Z855HAX6OILQ9NJAFPufzBBKZvumETihSOuazdvYGBvVZpQs+ybDoGDY7FGlQvqVGepq+w239H8D4R1e3SJplANEWAHPWrlzsiz/ijxTfNT4jvrMIATEXVAIZGT0EmC4L9FCoUCgEf6RG/ojGigCiTn+RDOooMBkzAQVIQhRFh54taq2KNS1qzTcKKVq1EM1bR+SIaLGxTes24r2OD8qnnR4OEK0j4sMuj7s/6/xoYPT9pO0n//X5bs93Rm0ty3KyH8rRyqalZUqjbX1dVdU1o3/5Pufvfxl9TQU+B4Ggw7muk7e2mf5/0xYJ/PW5v7nHjT/StfQJmkogyMMbw21K18CjA7BTnNHXeNs2gaynBP1aLT0SIDRHgKSuuQBZd20FKDQ3TICaXiYIUNfcSlkUzYSONheQtHQcZBNdBoWOPgU1031p13WMzB7y7Mm/W9xChBaMVWNGjq6mVkNfpgiBx/60alobfCbkhsimPY464pTddtnvFCAnLPZOO2yhBS/wosoYI41Wmapajq65NWCfcNL+PrM+ZJpqvzXYGbt6iJhJwhxrIstEitz5KYkjKCiNYGJZ2WJuHQA=");
 
 export default TicketsSimple;

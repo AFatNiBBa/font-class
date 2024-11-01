@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-sparkles` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-sparkles?s=sharp-light hand-sparkles}
  * @preview ![hand-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hand-sparkles.svg)
  */
-const HandSparkles: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M272 0l16 0 80 0 16 0 0 16 0 16 64 0 16 0 0 16 0 48s0 0 0 0l64 0 16 0 0 16 0 208-32 0 0-192-48 0 0 112 0 16-32 0 0-16 0-112s0 0 0 0l0-16 0-48-48 0 0 16 0 160 0 16-32 0 0-16 0-160 0-16s0 0 0 0l0-16 0-16-48 0 0 16 0 192 0 16-32 0 0-16 0-176-48 0 0 240 0 6.6-4.7 4.7L207.6 327l-11.3 11.3L185 327l-48-48-17-17-24 24 0 19.9 7 7L206.8 416.7c40.5 40.5 95.4 63.3 152.7 63.3l8.4 0c0 0 0 0 0 0c29.6 0 57.1-8.9 80-24.2l0 24.2 21.2 0c-28.6 20.2-63.5 32-101.2 32c0 0 0 0 0 0l-8.5 0c-65.8 0-128.9-26.1-175.4-72.6L80.4 335.6 68.7 323.9 64 319.2l0-6.6 0-33.1 0-6.6 4.7-4.7 40-40L120 216.8l11.3 11.3 28.3 28.3L192 288.8 192 48l0-16 16 0 64 0 0-16 0-16zM96 80l0 48 48 0 16 0 0 32-16 0-48 0 0 32 0 16-32 0 0-16 0-32-48 0L0 160l0-32 16 0 48 0 0-48 0-16 32 0 0 16zM336 304l0 32 32 0 16 0 0 32-16 0-32 0 0 32 0 16-32 0 0-16 0-32-32 0-16 0 0-32 16 0 32 0 0-32 0-16 32 0 0 16zm240 64l0 48 48 0 16 0 0 32-16 0-48 0 0 48 0 16-32 0 0-16 0-48-48 0-16 0 0-32 16 0 48 0 0-48 0-16 32 0 0 16z" />
-    </Icon>
-);
+const HandSparkles = createIcon("hand-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABswAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyEawsGAAE2AiQDCAQgBYMtBzQbbwbIhofn9f77tU/ylAzOyBk5b2B9UBVUuWP1W8FFo1aodKe/d+f/78YGfFrgaWivMbbv8x4113ngBR59bi3gaeFYotjgvJHpHA6GhlA+hTL+iXm6SA+kz3CPu9H40Ri3kZQFgMgA2Hjc4b3e+i6+i/is8zzxmd0IiE2gEShQYLwAaxQC45UalErBd9HpsP/AhgCiW2CT5Ut0E6OJyYASJGVZPj4ZJOqugeUxNaY6r65qIWpkvtnpOqUqIqqwxqQzSh0vzfMT6/A4ychYF3NiVogRcTQeXvl8XR9AXlwt6nhpy5Bbxe2rXll3LEYiXQiPivUyPSJmx/z03bqOiCNCXYuqusdezQw36nB0dqMpj+RHfp782bmfGfxmzpdn2YactdBxfaXxltblskZmEiCtVvaQCR3UWSwTbx35U1q/6bHZo17xiA6uM9y5zjvPz6dfNq8XvDVjtBHeuAn69H/zzpTzzvWoLbpN1mOL6zziEZ/6ze+yvCHLT+5vQzI3citxuhRvw79+2wRonc1iozT46/rjRKumPRwIBCMeHDDttMFr/u6tE/jhlV9/b1bXeSvdlB5BrwSCYl5nnpPTTcBUA0inuNaUhTsKpMhK4VoHuFeAUCFA0q0SoDBOFqBUmStAl4mWCtCtclghyj5huFMGkAxwBSgscz0oDfcs6LLGh6luw6P4OnTPtu7nNPO2FNs6qulf0Darmtm8Tv/AQ92/utnsnnUtr5sNOZ3rMpe62jnOdoGrE8WV9mavcYltS6KtfqjRb4FWY5XmcOnSfCwJX+kqDqcNxwdZrbk+Psu1y61nQ18SNC6CJIlIAz8mz/yr3sDIxedcBQAA");
 
 export default HandSparkles;

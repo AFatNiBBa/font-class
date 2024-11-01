@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `router` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/router?s=solid router}
  * @preview ![router](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/router.svg)
  */
-const Router: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M352 48c58.8 0 112.5 21.8 153.4 57.9c9.9 8.8 25.1 7.8 33.9-2.1s7.8-25.1-2.1-33.9C487.8 26.4 422.9 0 352 0S216.2 26.4 166.9 69.9c-9.9 8.8-10.9 23.9-2.1 33.9s23.9 10.9 33.9 2.1C239.5 69.8 293.2 48 352 48zm24 200c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72L64 320c-35.3 0-64 28.7-64 64l0 64c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64l-136 0 0-72zM96 384a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm64 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM276.5 186.7C297.1 170 323.4 160 352 160s54.9 10 75.5 26.7c10.3 8.3 25.4 6.8 33.8-3.5s6.8-25.4-3.5-33.8C428.8 126 392 112 352 112s-76.8 14-105.7 37.4c-10.3 8.3-11.9 23.5-3.5 33.8s23.5 11.9 33.8 3.5z" />
-    </Icon>
-);
+const Router = createIcon("router", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhwAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCKAsGAAE2AiQDCAQgBYMtBy0bJQXIhof/r6u670dkIaqajqY5xM7Ubs6sYOX8X/P5Pb8G/HwEh1JBqQdy7RWLfj6Bie3NG2w2isLZRHG7s6W2ItojSZAlHN9yfLaQxzvZiSqky9KbOCd8aHyjgxNJ6jMA0RwA09euXOzZD+PDiDeqDxFvWIiAmA5KgQwZOgswSSbQWa5ELhd8GNUq/geWBBA1+LETyFGLI3EMIAdJJc/b9GjVqkVDpUm+pqFS7PX28pvaXdH26QmPF6ePe3TShR0u6vvW2tWX97mxvWiMG/vd2l5c1v+23k3iloF3dIq4fMDtfYqIbWe0ibjIsa0vLE5ve3Ec1+6ShvlWjyBmWEJv7R1jH+p/2prz4tlz9Li9+e3fdX9zz5u2nrM+vuj8/3M/TPvo59Gjf/5o2g/P/d/5i/XR7pU2y5e3mafOtS1aFNMUcfHaZ0vsVPPandIUEKc2LeGYanuRwz/96t57/+r0w3PVF5599oUf7vthIBAITmjX8qqtzSb9VteQwMeP//CndHL12TQt3Y46CQTZoOogm9I0MNQAvBRH6iF8USA5UAVfa6OLBQgFAiQ1CgEynTQXIFcYKEBFV6MFqFFYKRN5vdDa5gKSRoeAzBhHgVxrD4CKSV5xa7SOTPkE1RG+fqlzamj2qnL4kGHlhHJayqI+cW5xYrls9DuSBvrDRnsc5ECH222XfRxekYdaHBzhAHMkeLYfKg03xDClCcrt5n79Grsd6jD7OMiBfpmJyvtOP0fK4/uDnTDtCIkkEanmPWiHAg==");
 
 export default Router;

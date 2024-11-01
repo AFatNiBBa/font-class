@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snow-blowing` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snow-blowing?s=sharp-regular snow-blowing}
  * @preview ![snow-blowing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/snow-blowing.svg)
  */
-const SnowBlowing: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M200 64l0 24 0 25.4 12.7-12.7L224 89.4 246.6 112l-11.3 11.3L200 158.6l0 55.8 48.3-27.9 12.9-48.2 4.1-15.5 30.9 8.3-4.1 15.5-4.6 17.3 15-8.7 20.8-12 24 41.6-20.8 12-15 8.7 17.3 4.6 15.5 4.1L336 245.2 320.6 241l-48.2-12.9L224 256l48.3 27.9L320.6 271l15.5-4.1 8.3 30.9-15.5 4.1-17.3 4.6 15 8.7 20.8 12-24 41.6-20.8-12-15-8.7 4.6 17.3 4.1 15.5-30.9 8.3-4.1-15.5-12.9-48.2L200 297.6l0 55.8 35.3 35.3L246.6 400 224 422.6l-11.3-11.3L200 398.6l0 25.4 0 24-48 0 0-24 0-25.4-12.7 12.7L128 422.6 105.4 400l11.3-11.3L152 353.4l0-55.8-48.3 27.9L90.7 373.7l-4.1 15.5-30.9-8.3 4.1-15.5 4.6-17.3-15 8.7-20.8 12-24-41.6 20.8-12 15-8.7-17.3-4.6L7.7 297.7 16 266.8 31.4 271l48.2 12.9L128 256 79.7 228.1 31.4 241 16 245.2 7.7 214.3l15.5-4.1 17.3-4.6-15-8.7-20.8-12 24-41.6 20.8 12 15 8.7-4.6-17.3-4.1-15.5 30.9-8.3 4.1 15.5 12.9 48.2L152 214.4l0-55.8-35.3-35.3L105.4 112 128 89.4l11.3 11.3L152 113.4 152 88l0-24 48 0zM480 448l0-48 24 0 48 0c22.1 0 40-17.9 40-40s-17.9-40-40-40l-144 0-24 0 0-48 24 0 144 0c48.6 0 88 39.4 88 88s-39.4 88-88 88l-48 0-24 0zM504 64l48 0c48.6 0 88 39.4 88 88s-39.4 88-88 88l-144 0-24 0 0-48 24 0 144 0c22.1 0 40-17.9 40-40s-17.9-40-40-40l-48 0-24 0 0-48 24 0z" />
-    </Icon>
-);
+const SnowBlowing = createIcon("snow-blowing", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABxwAAAKoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFyEWAsGAAE2AiQDCAQgBYMtBzMbWwbInoexseyxJ6aCLzcWjbK6aARF6cqe1epB0gPrjDKx3kCPHBkJI3PlD6EJM8AgJQ4SHnQXfA+MvAlkwjUxTeki5yrk3f/n3vH7//hoAHUeWZaVWfv2qLV9gUR7YCfseALbwyX0PQ8sMI0xc2vcEPcIYZ8YBcNsioiPjwTy7wasfjuLC+aieQGcUVPpOwkOgsF1AABQZgAAoGLKhBYevXHy/P910HOaAAGoAoAIAQ6kizGgWMSw7mGwWARvtJ3/gREIAJSEiAHZcy4oKyg/5L8JDI61L7t29800O9l3vRkIVACrAAtFRRJYBiCwQicFZCAC+TTW6FcBCkhBmVYOoaAUEpsoKgGVEEQR8iRJuYAatlM1lgDkMD7C0Stg4tlXRRFPUdh8IMgAYigUUcqqKjXUGJB6yV8k5PsnCs5rX/45TyC8dX1AW9cr/VtHerrvhbWeqkzQs5ntP71Y/ILHe8IwTPCcDhZzh16M4RePKOUzZcR8oYhtFPEFh/fs5j0Bv/lNQGXLZzcbU4YvKOURvxhDL+6wmA6ekyAkJmSC+9+89vwZixyiJjTB6fKLBXviOA7jrI47WVl3OrLO3hcIz5YfPWrt0aPl8d5Ygsn/HKxS4tcBQIDg4dGT/eZkFH+KbwB4d2e9zwWz17QDKRgABM7gtcw0e50NCKkabaYnRGanVBykGnAOoS48iGxIwmOHzmSyxWMQu3RjlLcRE5oM2dRiLrOIDQHr2GE0u9iSy1V2KeZxJYlc6R+Ff0n7f0lDrVVr9kWFQ+NofPTadAXWufdYLoqao/0389AAXGUxa1jNRhaxkGVsNPb1tNQ3sYpaT6vhg0QUMpSYiPFE3Z1zTDbZ9WxgbznYv00R0fhifzb7kwcgYRCXw2kwGJAJtprIkM0jt2z1EgAA");
 
 export default SnowBlowing;

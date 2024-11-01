@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `address-card` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/address-card?s=regular address-card}
  * @preview ![address-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/address-card.svg)
  */
-const AddressCard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 80c8.8 0 16 7.2 16 16l0 320c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l448 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM208 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-32 32c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80l-64 0zM376 144c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0z" />
-    </Icon>
-);
+const AddressCard = createIcon("address-card", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABggAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCDQsGAAE2AiQDCAQgBYMtBzMbEAXIjsQ4JvJIF00cxMP3a36d+7qT+tPJIPcwoxs3HgAWJbFDITG1FtWuTTK7PEydep54KIDPIQjKGrYom5cFx+pa5xXoea3bNxV0W8+XKHZ3thSHyCNpCcbkd9jx2UIeP8d1FdKDBNf8i8afurtKUskARDsAzNuyYZVvG9GI+Kn5EfGTFQiIeaAUyJChlwAzZQK95ErkckEjmk39H1gSQFSFS08gRwuO4SwgB0k1z9v1aN2hXq9VWueba5XiyJ3OKW53qsfdLlnc69p6/+uhEe90S/Fg2LuDWsfbI97vmcXD4e8Nrm/6BAnlTv5w6DtdfdLQD2eEXkyxxhCftt4strzu9mBQLd7u+XBwAXfq/1679/7u5zDNM402c7VpfCut/WbM8/a0L+Yq2rd//i3HY+za72Pv23f02BhttjvE5uDNjs2H2s397tq6zp3XrQXQXtj5IBDU/6r+vKeZ/7XUEvjj83//Z05uNtLc9B5aJBBkI5sj7UxzAbAB+Cku609MMZDsc3fPWndXgFAgQFJVCJDpqZ0AucIIASr6mCRAVWGDTOSthE52IUjqzoHMZFdArpMPQMVM33lVnSITN0ZYmN9e4uISWjSpHDd6bDm9HOYyK0GUHZ1RLstDL5uWYbDRYWecdtEhBx1zsUDPWxVecspiClnkh0rjjDZWabpyu7oWNyvvvAuO9fn9cWYoz1tDXaa7DwMtCbjjJZJEpPq7lEZJNwAA");
 
 export default AddressCard;

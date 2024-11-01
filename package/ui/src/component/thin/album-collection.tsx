@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `album-collection` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/album-collection?s=thin album-collection}
  * @preview ![album-collection](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/album-collection.svg)
  */
-const AlbumCollection: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 0L448 0c17.7 0 32 14.3 32 32l0 8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-8c0-8.8-7.2-16-16-16L64 16c-8.8 0-16 7.2-16 16l0 8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-8C32 14.3 46.3 0 64 0zM16 112c0-17.7 14.3-32 32-32l416 0c17.7 0 32 14.3 32 32l0 8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-8c0-8.8-7.2-16-16-16L48 96c-8.8 0-16 7.2-16 16l0 8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-8zM4.2 212.6C1.5 184.4 23.7 160 52 160l408 0c28.3 0 50.5 24.4 47.8 52.6l-24.4 256c-2.3 24.6-23 43.4-47.8 43.4L76.4 512c-24.7 0-45.4-18.8-47.8-43.4L4.2 212.6zM52 176c-18.9 0-33.6 16.2-31.9 35L44.5 467c1.6 16.4 15.4 29 31.9 29l359.3 0c16.5 0 30.3-12.5 31.9-29l24.4-256c1.8-18.8-13-35-31.9-35L52 176zM416 340c0-30.3-16.3-58.9-45.1-80.5S301.5 224 256 224s-86 13.8-114.9 35.5S96 309.7 96 340s16.3 58.9 45.1 80.5S210.5 456 256 456s86-13.8 114.9-35.5S416 370.3 416 340zm16 0c0 72.9-78.8 132-176 132s-176-59.1-176-132s78.8-132 176-132s176 59.1 176 132zM281.8 368.6c-7.3 4.9-16.5 7.4-25.8 7.4s-18.5-2.5-25.8-7.4C223 363.8 216 355.4 216 344s7-19.8 14.2-24.6c7.3-4.9 16.5-7.4 25.8-7.4s18.5 2.5 25.8 7.4C289 324.2 296 332.6 296 344s-7 19.8-14.2 24.6zM256 360c13.3 0 24-7.2 24-16s-10.7-16-24-16s-24 7.2-24 16s10.7 16 24 16z" />
-    </Icon>
-);
+const AlbumCollection = createIcon("album-collection", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABtwAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDPgsGAAE2AiQDCAQgBYMtBzcbxQXIBiLKqbN3ks2KHUIVGPAFRCrwL9Avk32ec+ni+WiA31biQ4uy1Pl27RGNJ3AiSdFA93yiZ3oCdup05NhyCFLQgaJlzFqKx1d2fN6BIefpiwlqk3KAFetueUMSc0GhNQIJAUmlVoc2zbiSLdkiTuQkiEMTQACkNgA2AmhAA6kIAFXRCJCKgQ0YGAhkSyQC7T/QBgEAcYHXFAAG4APOAQ+h/ywoPIaRO3dyfDgm7PWbQaO93/R1CQaCS+LWgayNXR8vsj4+IGtjVTQrYYO/7e6IcLWgvPHabjaJAsS+JCW2lY2xa30BWRy/Prl9jcWxImvj2smmfEE5kNJBNsSv9wV6ba9+qf3zqhdSt1W72O5VjcsZ/p1NRZy2L5s/zL2nxaMOL5o9yNV2rS/83paEDf4lceuSNsbmP5CwPv/e2HX5ch8OHX6Xy+nvELJmymlr4ULLg6tnT5cHK3sm2UoZOiVGNAe4YCceZifv+PuaDyGz5UZaZj40EyOEnfsxA4m574RvhV+jFsEi65BQeddAdjVOuMpatChq45A91pGr9aQe145Y1tEr5eDVo1YoIRbMxjTGjE2ggR3rUk9Z1qnTodDpmtrYMj295cYFAHnJ/6TjpB5RVb95/AqA1+c+/MbPSEeuyD91GPCgABDQRSNF6apAo+UfAgAAACgZT24FGgEUx/AgYYD10azggwsKFz5oUgjBwEcRmKRTTnFub4NGDC9CLN0ARYBR0JRnGgxiOQ6TqtxOuYgVncdaFmp/kdn1NV1vk12qeEm7sv1Yc+qpqSyzVWy3W3A8ewrhKP0ZwXDG0o++DGKsYkfTLDuOYdS3mHp8EZtSFKckNpWxw017h/YqYjRjoDI24utUwf4+LMh4e3ghBAqRLU2RQoGo0GzqKTbBAAA=");
 
 export default AlbumCollection;

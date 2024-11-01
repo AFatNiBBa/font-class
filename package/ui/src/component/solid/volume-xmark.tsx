@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volume-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-xmark?s=solid volume-xmark}
  * @preview ![volume-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/volume-xmark.svg)
  */
-const VolumeXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M301.1 34.8C312.6 40 320 51.4 320 64l0 384c0 12.6-7.4 24-18.9 29.2s-25 3.1-34.4-5.3L131.8 352 64 352c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l67.8 0L266.7 40.1c9.4-8.4 22.9-10.4 34.4-5.3zM425 167l55 55 55-55c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-55 55 55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-55-55-55 55c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l55-55-55-55c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z" />
-    </Icon>
-);
+const VolumeXmark = createIcon("volume-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABZwAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBRQsGAAE2AiQDCAQgBYMtBzMbyATInoWxm6NkF5uhO9WbIoLn58Lm/aS0UMQUgNHWMcu6U+eAHZFFdXqb+WGveoXgZ+12/sQ1z7+KHrDIHyVzVd5gnecTeNF52iYyG9iL4qydnQ+D6FfpiU8ybH7Y3CCPn7Jr6pDuJrhZfjT+0sY1kgYZgGgMgMkrl8738e/xe8QXNcQX5iIgJoNCIEOG9gKMkwm0lyuQywW/R60W/gMLAoi6GE+CnF6ciQWAHCQpzzt0Kdep5iv8R0s7X7ZJcafbi5YrohSv+rxrG3G/7/ue5VgZt7svX7xk8dJ43f1u60WxOEj0oseSWBSie+2WxpKQpy93edf43T/soN+D1tklWeuef984aZonTZqUJimh8mSarvV3z13dwU3V6rffOnQHtFqdIt8HAsGp73p8Y+P+r19O4M+P/ptfVyvNTO9QXwJB1q/Wz7o0idpKogBupzihC1IWSCZKgG+tuCVAKCFAUldJgEw7jQXIlfQVoI6OhgtQV8lSmcgbCM2tb1xScZjLjHCeyzX3gatjnE/adTWPzJR0Q9B/cjkzJDA9qRg8YFAxpliOVcM61HQ+ttjO9DoR13rjqh0OOuCY7bbZ7Zhgj5jfO26/GRozXYoKgw0wSGGM4nj26Kyg9hFH7Z5b55eMVdxv9HJC390b+YQlh+hLEpEqzzTb/5TZAQ==");
 
 export default VolumeXmark;

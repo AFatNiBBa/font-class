@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pills` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pills?s=sharp-duotone-solid pills}
  * @preview ![pills](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/pills.svg)
  */
-const Pills: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 144l0 80 0 32 32 0 160 0 32 0 0-32 0-80c0-61.9-50.1-112-112-112S0 82.1 0 144zM256 320c0 88.4 71.6 160 160 160c38.4 0 73.7-13.5 101.3-36.1L292.1 218.7C269.5 246.3 256 281.6 256 320zm58.7-123.9L539.9 421.3C562.5 393.7 576 358.4 576 320c0-88.4-71.6-160-160-160c-38.4 0-73.7 13.5-101.3 36.1z" />
-        <path d="M32 256L0 256l0 32 0 80c0 61.9 50.1 112 112 112s112-50.1 112-112l0-80 0-32-32 0L32 256z" />
-    </Icon>
-);
+const Pills = createIcon("pills", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABcgAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBVwsIAAE2AiQDCgQgBYMtB0Yb7wTIngm2rYL1K4QpkdL4rHj4XtfruXraP/aCEWUAhj6IpaEMMNQ7KalMZ6iB94R/8K/X//+55vOzpgP8fASH1KWJCb6s5xOYaJZNeMCbqc3c1e1BmdZ+kpaQ5PGzx88N8rjnphLZc9n3eET+BzD+0d5NMo0TgGgGgGlrVizycT3qWXz/8HXiewsRENNBIZCQ0EmAiZJAJ7kCuVxQzx6mHg8XBBANBE2sBvrI+VgHyEEmpDxv3apWrZRq+epKqbymXCkL8VK/26PeGnC3a0REOQmiUomIeLn/ndGv973VadUfkyI+WPXVlNXxfrFm1epVH/X4c/KHqz+f2P1Oszv/dft+9/e6flTgFEs1fZC3VKEwdKlyZejj4VUPxYzv+X5GvPp4va5fefyFOnn9ykkI7wOB4Jd2157e0nTi/40qGfjr3X+XVzysZ1OzO2gkA0Ea+HCgjZxBZgaQZ3Fad/wQBJJBEt1X9bQAoUyDTIMyJB01g1zZACjpYhS3uccKSeSNhVY2ATJVxyAZ7RLkWnkNSib6qmjQKpJTiS4h/unSZltk1qpi2OChxfhi2lAlP+F5cUKx7fU9HQf6Ya3djjjspF122uekoY9bVJ9yyOwVNcsXFYYZbKjCeMVx+15bbYrjTtg3Vs6XmaC4H/V1ej2+H8KMsg63N0lEFql2dN/BgycGPU6zqVEeIQA=");
 
 export default Pills;

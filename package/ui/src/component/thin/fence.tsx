@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fence` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fence?s=thin fence}
  * @preview ![fence](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/fence.svg)
  */
-const Fence: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M72 32c2.5 0 4.9 1.2 6.4 3.2l44.8 59.7c3.1 4.2 4.8 9.2 4.8 14.4l0 50.7 72 0 0-50.7c0-5.2 1.7-10.2 4.8-14.4l44.8-59.7c1.5-2 3.9-3.2 6.4-3.2s4.9 1.2 6.4 3.2l44.8 59.7c3.1 4.2 4.8 9.2 4.8 14.4l0 50.7 72 0 0-50.7c0-5.2 1.7-10.2 4.8-14.4l44.8-59.7c1.5-2 3.9-3.2 6.4-3.2s4.9 1.2 6.4 3.2l44.8 59.7c3.1 4.2 4.8 9.2 4.8 14.4L496 456c0 13.3-10.7 24-24 24l-64 0c-13.3 0-24-10.7-24-24l0-88-72 0 0 88c0 13.3-10.7 24-24 24l-64 0c-13.3 0-24-10.7-24-24l0-88-72 0 0 88c0 13.3-10.7 24-24 24l-64 0c-13.3 0-24-10.7-24-24l0-346.7c0-5.2 1.7-10.2 4.8-14.4L65.6 35.2c1.5-2 3.9-3.2 6.4-3.2zM312 352l72 0 0-176-72 0 0 176zM200 176l-72 0 0 176 72 0 0-176zM72 53.3L33.6 104.5c-1 1.4-1.6 3.1-1.6 4.8L32 456c0 4.4 3.6 8 8 8l64 0c4.4 0 8-3.6 8-8l0-346.7c0-1.7-.6-3.4-1.6-4.8L72 53.3zm368 0l-38.4 51.2c-1 1.4-1.6 3.1-1.6 4.8L400 456c0 4.4 3.6 8 8 8l64 0c4.4 0 8-3.6 8-8l0-346.7c0-1.7-.6-3.4-1.6-4.8L440 53.3zM217.6 104.5c-1 1.4-1.6 3.1-1.6 4.8L216 456c0 4.4 3.6 8 8 8l64 0c4.4 0 8-3.6 8-8l0-346.7c0-1.7-.6-3.4-1.6-4.8L256 53.3l-38.4 51.2z" />
-    </Icon>
-);
+const Fence = createIcon("fence", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABlgAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCDBgsGAAE2AiQDCAQgBYMtBywbggXIjpQuZyQRPG8XVe93zyygXsDIqFMEKVsG6TEV4smHEP35P9vzPR8N8IPIzsNuml160nmWlkDPA5kHHlCWDQea4ASstw0RNOj4RKSiQqJxwnF7QR5f2qBEup+e4ap+afyqmQskWQYg6gJg7OL5M333U/wU8azyMfHMdATEOFAIZMjQUoARMoGWcgVyueCnqFToP7AggCiTkyiBHFXxMt4G5CAp5/n8atUaNKhfo1QrX1SjVH35xUZj4zZRIyLONhkfd2sM+6W416F6vNI8onpwIQvaS2tUrzGjF6lWXfjGojHjx9yS4najGnG3SeRG43G1+r4F5WfFmHZv1H3j955tembyS3n9pyZW7W+K/qpOfKp+zvst12juGHMbLTHFEheWB9U/R0+R4HumeG/3u6aePjYfDqmXliuvGWNNeblUf96e/tr3/ekd5gOB4MUnLq2uM+L/qjUS+OWLP9fTqG7lp/grvYGqEgiyHpUeViTqqht/CQBAikPaJeoKJC8ow0+t6Y4AoToCJGXVBci0UFeAXHXdBShpbaAAZdXNl4m8mtDQSgdJTXtBZpCTINfQh6BkhIdOWcPIchXPNPynGDOphSY+Kvr26lMMK5YpI9IPrevhRVjpcohbXWHTJrvtcsBGG2x1oEH2mekftNOkHTzRgQp99dJHYZjiuHhkFqG6z35G59T5PcMV960uDu2Hu8IzEqDfK6OciFTatHHX+o0=");
 
 export default Fence;

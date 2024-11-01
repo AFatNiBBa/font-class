@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link-horizontal` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-horizontal?s=sharp-solid link-horizontal}
  * @preview ![link-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/link-horizontal.svg)
  */
-const LinkHorizontal: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 64C64.5 64 0 128.5 0 208s64.5 144 144 144l16 0 0-64-16 0c-44.2 0-80-35.8-80-80s35.8-80 80-80l160 0c44.2 0 80 35.8 80 80c0 36.2-24.1 66.8-57.1 76.7c-3.7 1.1-7.5 1.9-11.4 2.5l9.1 63.4c7-1 13.9-2.5 20.6-4.5C404.6 328.3 448 273.3 448 208c0-79.5-64.5-144-144-144L144 64zM496 448c79.5 0 144-64.5 144-144s-64.5-144-144-144l-16 0 0 64 16 0c44.2 0 80 35.8 80 80s-35.8 80-80 80l-160 0c-44.2 0-80-35.8-80-80c0-36.2 24.1-66.8 57.1-76.7c3.7-1.1 7.5-1.9 11.4-2.5l-9.1-63.4c-7 1-13.9 2.5-20.6 4.5C235.4 183.7 192 238.7 192 304c0 79.5 64.5 144 144 144l160 0z" />
-    </Icon>
-);
+const LinkHorizontal = createIcon("link-horizontal", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABgQAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCDQsGAAE2AiQDCAQgBYMtBzYbEwXIhofn10F/7ptZwLOAHa0EfgihugqJU6ee5zwUwOcI54I2lk0ckxZIaK5Oq0DFFm8ucC1YK1DFuG8bHhtR+EJEgkzE8XK8LpDH39kxJUhX0pc4NWcaP6jjGEmZDEBUBsDgmVPHe/fb+Dbii/9fIr4wFgExGBQCGTLUF6CfTKC+XIFcLvg2/v8f/wMLAoiSaC4J5MixDpsBOUhSnnfpUq5EhXxGuRJl537YL+LN4k7/t4aXi4iy8XKbBw1vtX3Ys1y81Pp+g0O1Lzc7X71xXKr1SsenTe8OeHtE2eWfDIx4R9QQHvd6q3vdYubhetdaOoUmEVBfbPco8zVNHlR+8FPjL1d86dTB906yq379XSffq2yQyiovnxExY3nl23ym/h9/npw06JQzZ7968cVwbH174T1m0q3fAYGg19fjui2s1O+v0uUS+P71X35aT6ZD6QFKSyDI2v3fzrx0CBAdgJ9ihybGBwWSZRJ61/IuChDKIkBSUlkBMvVUFiBXVlsBSmiouwAllTVVJvIyQnXzBSTlbQaZHvaDXHUvgBL6+cQrqXpk5UYVC/Xbix+hoeH7is4dOhV9imOM6Qoi+mLfwi222tFqreGkFTbaYJvlllltm0K2GB9ut94ICx7uiwqdddBJoY8inL0fnmG5LbZabaMNY5e+inytlR12d2tQEsLtIpIkIlV61bX2tQgA");
 
 export default LinkHorizontal;

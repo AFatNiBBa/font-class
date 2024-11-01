@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `album-collection-circle-user` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/album-collection-circle-user?s=sharp-regular album-collection-circle-user}
  * @preview ![album-collection-circle-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/album-collection-circle-user.svg)
  */
-const AlbumCollectionCircleUser: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 0l0 48 24 0 400 0 24 0 0-48L456 0 56 0 32 0zM320 368c0-40.2 13.4-77.2 36.1-106.8C330.2 243.1 294.9 232 256 232c-79.5 0-144 46.6-144 104s64.5 104 144 104c26.9 0 52-5.3 73.6-14.6c-6.2-18-9.6-37.3-9.6-57.4zM53.8 208l368.8 0c22.3-10.3 47.2-16 73.4-16c4.1 0 8.2 .1 12.3 .4L512 160l-48.3 0L48.3 160 0 160l5.5 48L40 512l354.8 0c-18.3-12.9-34.1-29.2-46.3-48L82.9 464 53.8 208zM40 80L16 80l0 48 24 0 432 0 24 0 0-48-24 0L40 80zM256 368c-17.7 0-32-10.7-32-24s14.3-24 32-24s32 10.7 32 24s-14.3 24-32 24zm384 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-63.3 77.7c-20.4 21.2-49 34.3-80.7 34.3s-60.3-13.2-80.7-34.3L440 416l112 0 24.7 29.7zM448 336a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const AlbumCollectionCircleUser = createIcon("album-collection-circle-user", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABlwAAAKJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCVAsGAAE2AiQDCAQgBYMtB0MbZwXIjtEnY45heKbqqAgXL4JqrcrqmQMCiaBYn0TjyJ4CVvykLFtA93bjLQs3R3Y580z2Ymxgdl+FcEewasGK83/N5/f86AA/H8EhdemBFFDlop5PYICzsGiaSCTOJorz2/ld6gzCWwzSpRzJsB3D9vtbyOM7bqGM9IL1iJv0ofFLl3qSsgwAohEAwNqOnwBOS1GKeCi2iE/WgYBYA8AgRIYMvRAsYgv04hgEcrmgFEXB/4EUBBDlgO0SyFGNazyhp7RLUplzhCXlGWllIspwRTmBTBkJA1RTh0iCJ9z2fS/td1WGHPZ82uz6MVa0VnSHaWOUkYioYgjW4byhCAYGkhoCMf9YrXKI3Vgj38O0yXbBUWsnEa0xRVx23Cet9rvGi3A0vuSwx7Q5HZitoP+i97WpETJoEDigN6MzpdirPak7raQ5LzH/pPGY+BkG3pmbmyvMmoPCZZbIeNnqaXuFsnJF+6mBWL+a8EgOlhYf4vHcwPx7FI1JiLPRQ6C3EK1SAL7Ov89Tf6iLNYKLatLYKFYpnletRwEGW6R0daWkKdUTKd7GVfDK/w77Oo4yyG5ZWSYp5wOBoPbQLCVKfPGrsoYF8PPly4s7XXGajljzQKUEgmzs31h4OgIQOgA3RSFoKl8USI5VwrXWeipAqEaApFy1AJkeEhDkqo1CUKafDQTlqm1gi1wYQquIBpJaByCzoALkWm2AMotunHKtwTZJyqCoD8J4Xwn5TKIWpubUkQ5TlbYyIow60WVdv9C3GNBCSJQlU74E8VLkCySXwC+QwVeDffwQZcGUOcoR3S7uZwdKkCtPiiyZcRwn9Lytr1DvbkAWCzBnBJJEJJWH0WLyVmSTP3gEkysNAA==");
 
 export default AlbumCollectionCircleUser;

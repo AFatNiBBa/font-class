@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-lock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-lock?s=sharp-regular house-lock}
  * @preview ![house-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-lock.svg)
  */
-const HouseLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M303.5 13.7L288 .5 272.5 13.7l-264 224 31.1 36.6L64 253.5 64 488l0 24 24 0 296 0 0-48s0 0 0 0l0-168 0-24-24 0-144 0-24 0 0 24 0 168-80 0 0-251.2L288 63.5 445.1 196.7c11.2-12.3 25-22.1 40.6-28.5L303.5 13.7zM336 464l-96 0 0-144 96 0 0 144zM528 240c17.7 0 32 14.3 32 32l0 48-64 0 0-48c0-17.7 14.3-32 32-32zm-80 32l0 48-32 0 0 192 224 0 0-192-32 0 0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80z" />
-    </Icon>
-);
+const HouseLock = createIcon("house-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbwAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCCwsGAAE2AiQDCAQgBYMtBzEbDAXIHoex26SKpWiG8lE4iSDSlVWPdKQ1g0y8ZoQHwtgQPVLEQW7KHsKPTPXKnO8hDvN/zef3/OgAPx/BoVRRJUh5rPP5BCa2N6sEX9twNlGcuo2F36DKqhwRPCKGeENyA3nci1fVkN5Lf+GV9qHxj/aeJKnJAEQzAExdvXyhn2/FrYg/H31B/Gk+AmIqKAUyZOgkwASZQCe5ErlccCsePdL/wJIAohbvJIEctdiNY4AcJHmeD2po3q5S0zhfVakpdrdp3aZVbIlBMSCEqDSOeExIXF4UQhQRsTpWxo0+q9YWlSKiEla/0DriLYvEY23fqawQVCBSzIt93P/6qM/7Xu3U/Xqz6/99V0M+uc8V/1V3013H/a2ddn2r4KoteLWdq5a4x5s+fFI6+8V7XX/ZgkVetcWrP93sWZ5tUjVFFXC1Fnet8jqln93ys1JVrNrZrNnOVQEEgvWPN6lsbjrh//pKAne+pRzf8OjndCVdR70Egmzgo4E2pCsaUHQAYYpTujtfFEg2y/FdG3lbgFAgQFKrECDTUTMBcoUBAtToYqQAtQrLZSJvEFrZaCBp5CjIjHIR5Fr5DNSY4NegVqvIoo2OFfqzlzBrhGZOK4cOrpbjymVZZwKIzOPjy22576nU1g9z7XLYISfstMNeJwbkmIXxSQfN8uCZfqg01GBVpXHK49rz7FV2Oua4vQ47VCcZr7zv93XK790PWkLMYXKSRKQiEsVBLwEAAA==");
 
 export default HouseLock;

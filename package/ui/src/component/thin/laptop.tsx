@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop?s=thin laptop}
  * @preview ![laptop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/laptop.svg)
  */
-const Laptop: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M512 48L128 48c-26.5 0-48 21.5-48 48l0 256-16 0L64 96c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 256-16 0 0-256c0-26.5-21.5-48-48-48zM19.2 400c-1.8 0-3.2 1.4-3.2 3.2C16 436.8 43.2 464 76.8 464l486.4 0c33.6 0 60.8-27.2 60.8-60.8c0-1.8-1.4-3.2-3.2-3.2L19.2 400zM0 403.2C0 392.6 8.6 384 19.2 384l601.6 0c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8L76.8 480C34.4 480 0 445.6 0 403.2z" />
-    </Icon>
-);
+const Laptop = createIcon("laptop", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABagAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBTAsGAAE2AiQDCAQgBYMtBy0byQTILgcyubI7JTIxctW6yBRRxHsx+bJNKYeNCL721vrNzKUYVYjujuwwDuFWk1UKUizCb50FJPr//LF87zLA/kU039lplHVYFGDW1lg8a8DxRNYHZLXv2kGVORsPn7f3xxNYkZdF1YVdQA1CSDjiIEogKQFhAPLLrHn6m3/eeRTg49zHws4XL++iOc8T6Dzv8m1hIO0Plih+3SY7TCgKn44ICZSIjic83noo8U900ucU3rUfjT/GTEhyBoDoBQAul3Hw9kQj4ucvUXcLBMQVwCxERsYkBCeoApNoZoGiCBpRVek/cBYEEM0g6yZQ0IRb4DEABSS50KS9Ym4TnxbK/TnZ3MW7GpyOUoKDVNxsPK7w43rtfkzr1sPz5dRLn0la4setsc3EsB351xVhXI9tV+8OefG6/jAtfeh9+NfUq6ve4d8zvUB7X9+x1q9+Ng69QP597/6VMxu8f72nLVNjbS8+h738kz9uZgACwf3Ja8/J/9YOCsD99YcXV41US6JVAkHerDYlUg2ADkBO0SF1PhZIrlFB9trpgwChHQGSZu0CZBNEEBTtNiBoMs0BQbN2z1BFYUMYlJwg6fQCZMe6oBj0BJqceJebDUYOJyIYiM9cbK+hrq7sGc3ES0zTICMEK2Uf2eZWOxzSoFNGVUVLWkpeSyENQa2tLODBfh8iLIzMCC9y7Ly2h6Q1NOVVVWoVH3KfV+v4yRo0QQHsPwTGxkiM0laPvQIAAA==");
 
 export default Laptop;

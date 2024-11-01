@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `speakap` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/speakap?s=brands speakap}
  * @preview ![speakap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/speakap.svg)
  */
-const Speakap: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 391.78C-15.41 303.59-8 167.42 80.64 87.64s224.8-73 304.21 15.24 72 224.36-16.64 304.14c-18.74 16.87 64 43.09 42 52.26-82.06 34.21-253.91 35-346.23-67.5zm213.31-211.6l38.5-40.86c-9.61-8.89-32-26.83-76.17-27.6-52.33-.91-95.86 28.3-96.77 80-.2 11.33.29 36.72 29.42 54.83 34.46 21.42 86.52 21.51 86 52.26-.37 21.28-26.42 25.81-38.59 25.6-3-.05-30.23-.46-47.61-24.62l-40 42.61c28.16 27 59 32.62 83.49 33.05 10.23.18 96.42.33 97.84-81 .28-15.81-2.07-39.72-28.86-56.59-34.36-21.64-85-19.45-84.43-49.75.41-23.25 31-25.37 37.53-25.26.43 0 26.62.26 39.62 17.37z" />
-    </Icon>
-);
+const Speakap = createIcon("speakap", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfwAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCBwsGAAE2AiQDCAQgBYMtBy4bBQXIFkpL8Lwd2Ly/G8AbwC7BQ5u4PFhdWJ41cc3zt6YHbADq8Pdc2yjzfAJ/vtK3RZH8DWQ2UZy1s0tK6fUGSZL4JMOkN0yycwjdIY9H47QSpIfT+zgVShVfq+MYSYkMQFQGwOCZU8d7+W7cjXj//yeI941FQAwBhUCGgvoC9JMJ3iFXIJcL7sb//9N/YEEAURKDiZ2bN5diGyAHScrzBgPKlaiQz7Cnyk79cmbEVzO/mv6FY037fNr5Ghcuqf70sNfHfDlk5sB+Ay+2uNriyVbX66/X/Ao4qne++vmah4Oii3X7xY2uveWFltfa3mp0qeaSdjVF8WitSzXi+xdqNLlZ+ea3jd9f8b7f+wzPppFPHzJgWN/p2fR8wOA+w7zQnjHj5Mm3npw2fcmZn+79PKjaj59/too/eUWdVj8cuny5ZumJAyb0Gd78zTcrVfzi9dN0evDg492GzphRTFqydNLgWuUmTGw3dlj1J9+sWPnB54t8+uotIBD80u/goYWV+v1aulwC95/9/u/8fon/b8fz6SZKSyDI2v3fzrx4WQm5kCuAkxQ7NME3CSRzJShreRcFCGURICmprACZeioLkCurrQAlNNRdgJLKmioTeRmhuvmVSMrbTGR62E/kqnuMKKGft5KSqkema5KmSF+99BECw/OKzh06FX2KaUeR1Ufwm32LZb/VjiZao9AKG22wzXLLrLYNfIvxle3WGyFhw/1QobMOOin0UWz37/UZJFtstXqs7m/TV3E+bGWHPL81dpMAXW6pJRGp1BsLFm8CAAA=");
 
 export default Speakap;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-pants` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-pants?s=light people-pants}
  * @preview ![people-pants](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/people-pants.svg)
  */
-const PeoplePants: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M136 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 104 56a56 56 0 1 0 112 0zM147.3 160l25.4 0c6.8 0 13.3 1.4 19.3 4l0 156-64 0 0-156c6-2.6 12.5-4 19.3-4zM128 496l0-144 64 0 0 144c0 8.8 7.2 16 16 16s16-7.2 16-16l0-293.8 49.9 93.4c4.2 7.8 13.9 10.7 21.7 6.6s10.7-13.9 6.6-21.7L243.3 170.3c-13.9-26-41-42.3-70.6-42.3l-25.4 0c-29.5 0-56.7 16.3-70.6 42.3L17.9 280.5c-4.2 7.8-1.2 17.5 6.6 21.7s17.5 1.2 21.7-6.6L96 202.1 96 496c0 8.8 7.2 16 16 16s16-7.2 16-16zM456 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 424 56a56 56 0 1 0 112 0zM467.3 160l25.4 0c6.8 0 13.3 1.4 19.3 4l0 156-64 0 0-156c6-2.6 12.5-4 19.3-4zM448 496l0-144 64 0 0 144c0 8.8 7.2 16 16 16s16-7.2 16-16l0-293.8 49.9 93.4c4.2 7.8 13.9 10.7 21.7 6.6s10.7-13.9 6.6-21.7L563.3 170.3c-13.9-26-41-42.3-70.6-42.3l-25.4 0c-29.5 0-56.6 16.3-70.6 42.3L337.9 280.5c-4.2 7.8-1.2 17.5 6.6 21.7s17.5 1.2 21.7-6.6L416 202.1 416 496c0 8.8 7.2 16 16 16s16-7.2 16-16z" />
-    </Icon>
-);
+const PeoplePants = createIcon("people-pants", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABpAAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDDwsGAAE2AiQDCAQgBYMtBzMbkgXIjtRgrTKL8fC9rtdzn/RJu0aWkagD5DCXRFSlX6fNpHQVSq6v9/m/3PN7fnSA3+jQxlq+7XA2x/MEAkyL84lhLwuzWMIAPWtn34dNt0mSuIRh88NmcYQ8/o4h6kiPp59xb3zR+FMn10jyDEC0BMDM9auX+rwWtYif/3+H+NliBMQsUApkyNBVgCkyga5yJXK5oBb//+//A0sCiHq4XgI5CjyNdwA5SBrzvKlZ80EaVeqa5evcAxWbn+z/TKfH+jzbufJEv2f7PN3x8b7P9H+uy5pKUbmznSgi4tHKhhCVEA+3e7RDFmvj4Q6Ptl8Xr44r4u0ha+Khdg93WB+JfM/OQwd7vdjyxb96/rzjZ7fe2m7lynZaXNHitc8+e61FcObs7IzdxdWnzPCUq0Xr5ffhNjPcp3mt1ryfkVud/f09kw7YeaOzGzsnHbDlu2/OjtyqH/21+e9tPB0IBJPv+u32Wky52VhJ4I8Pv5nuV/3/83QsvYhGCQTZkP+H2JIuqaqmYwIAkOKEXuSNAslTGuFZqx4RIBQIkNQrBMh00VKAXGGwAHW6GytAvcJqmcibhLa2FpBUHQaZcc6DXFtvgTpTfJfUaxuZvRLWRjwXY+fV0Nxt5chhI8pJ5bCVSRPE6PrkclodcCKMDZS9djjogGO222a3YxVyxNL8uP3mMXiuDyqNNMwIpUnK5d4tu06TI47a3ZesbzJZeT4c4ASfPVCMBKijlJJEpOoVl4b+JMwdBQAAAA==");
 
 export default PeoplePants;

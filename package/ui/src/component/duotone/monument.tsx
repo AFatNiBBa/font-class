@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `monument` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/monument?s=duotone monument}
  * @preview ![monument](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/monument.svg)
  */
-const Monument: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 480c0-17.7 14.3-32 32-32l19.9 0 280.2 0 19.9 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32z" />
-        <path d="M203.3 4.7c-6.2-6.2-16.4-6.2-22.6 0l-80 80c-2.5 2.5-4.1 5.8-4.6 9.3L51.9 448l280.2 0L287.9 94c-.4-3.5-2-6.8-4.6-9.3l-80-80zM128 296c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const Monument = createIcon("monument", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABagAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBNQsIAAE2AiQDCgQgBYMtB0wb0wTIHgd2w9cXYWjZFicXO4LCVuvZ3bt/R21x10jUYk8hIjJNgi9SiogivkJgzqfU96lTz3MeCuBzXPfwgCywPc8r0POxqL6pQhO4WEOsuatrZY/V/mKEJP2V5fFxhCyOpmcVSB4lv3BD/wcw/mjhLImKFEDUB8D4pQtne1cXdUn8Kr0hfpmFgJgAcoEUKVoLMEoq0FomRyYT1CWlEnVRKuUEEEX64SkoooBRmALIQCIRWVa/pllVoSZbUlWoXHm/8aK423hZ1MSKuN90ybInXaviaYuHnSrjWUunmkU8qKqqudLknpON71ZWx+Wm96PDq/qv/ra/pR9vCwOznus1p1o2MPfM6NBk/jzzm8gGee1FLtY27sUYiGCMg/uBQLDyYxtr6436ryoBv9/+j25Xehcnk1col4Ag7VXqZVWcBKAD+P0kjugQJw1CINVGAvSo1e4LECoRIFFUKUCqlfoCZCr1FKCgrcECFFVaKBVZhdDY6gQS1faD1BDHQKax16BglK9WUeNIfYjyAOoLFz/FQpPn5f379MtH5N1IpN2CkOnIfFrvdoQr3XHQFnvtcchmm2x3yCAHzHYP223KCJ7si3L99dFPboR8Ob3ml5B1wEHb2+z6LCPl+81ujozbu2MxCWDA6e9LiSTS+rv37nnScm9nVBsW7LUDAA==");
 
 export default Monument;

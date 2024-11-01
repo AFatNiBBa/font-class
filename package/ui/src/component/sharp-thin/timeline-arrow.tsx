@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `timeline-arrow` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/timeline-arrow?s=sharp-thin timeline-arrow}
  * @preview ![timeline-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/timeline-arrow.svg)
  */
-const TimelineArrow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176 32l0 96-96 0 0-96 96 0zM80 16L64 16l0 16 0 96 0 16 16 0 40 0 0 104L8 248l-8 0 0 16 8 0 112 0 16 0 80 0 0 104-40 0-16 0 0 16 0 96 0 16 16 0 96 0 16 0 0-16 0-96 0-16-16 0-40 0 0-104 372.7 0-66.3 66.3-5.7 5.7L544 347.3l5.7-5.7 80-80 5.7-5.7-5.7-5.7-80-80-5.7-5.7L532.7 176l5.7 5.7L604.7 248 360 248l0-104 40 0 16 0 0-16 0-96 0-16-16 0-96 0-16 0 0 16 0 96 0 16 16 0 40 0 0 104-208 0 0-104 40 0 16 0 0-16 0-96 0-16-16 0L80 16zM360 128l-16 0-40 0 0-96 96 0 0 96-40 0zM176 384l96 0 0 96-96 0 0-96z" />
-    </Icon>
-);
+const TimelineArrow = createIcon("timeline-arrow", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABfAAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCWQsGAAE2AiQDCAQgBYMtBzUbXgXIhof/Xyu771d1n5mqMFSiABBk4khF8xKodQh+zlpUUQs9/9fUi+fXgN/o0KLW9fwCZBENmHigwxunTSgKZxPFmVtjCoIKcn4KiTHWkBE9Xnv8+rWHPP6xR430JH2DB+ND43fd3SHJMgDRDgAz169e6rOWaIn4uvEB8bXFCIiZoBLIkKGXAFNkAr3kKuRyQUs0GuU/sCKAqMMdJZCjjvt4AshBkud588Gyuay1zteVtWKzUEREua4oCyFEWYqiSKJ0BuyKIqJ1rIlO0Tm6xvqKd4l1PN9cG0XEluTqQouvLcqcV4Yo1pSFsb3/83bP/+z3zb5vvPV0B1Qzvr1tOxxhh3baDTjgRFM7TT8cMEC2ndB3nzVrprmeW2P5cnPNPbS1Xpg75njD0fFD8310fEETuJkZ8FHj/cuBQPDr8Wffb2875U1TmcBvn/79+3m+xg/pcnqOJgkE2ZDGEFvSDdQMSwHQUpzTn75JILknh2tt5aEAoUCApK4QINNTOwFyhcEC1PQxVoC6wmqZyJuFTrZeIGnlJMiMcxXkOnkP1EzxuVbXKbKgFEJK+CZMncfRuVbVyGEjqknVbdkS44zr45Orbf+Ac6JtINna57hjzthrj4POMOaUpeZZR82zsLl+qDLSMCNUJqnctaW6LmunnHZQl/yLmKx6Pj3AObv3QAolYB0lK0lEahOmFT+q0HaeOnX8PAA=");
 
 export default TimelineArrow;

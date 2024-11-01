@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-dashed-line` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-dashed-line?s=solid file-dashed-line}
  * @preview ![file-dashed-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-dashed-line.svg)
  */
-const FileDashedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 64c0-35.3 28.7-64 64-64L352 0l0 128c0 17.7 14.3 32 32 32l128 0 0 96-384 0 0-192zm0 304l384 0 0 80c0 35.3-28.7 64-64 64l-256 0c-35.3 0-64-28.7-64-64l0-80zM512 128l-128 0L384 0 512 128zM56 288l112 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L56 336c-13.3 0-24-10.7-24-24s10.7-24 24-24zm224 0l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm192 0l112 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const FileDashedLine = createIcon("file-dashed-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdwAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBewsGAAE2AiQDCAQgBYMtBzcbAgXIHoVxMz3SRXNsbxfx8P9zZPf9ZCgpQ8pM40rgqgBA1lWN64Ixc9aiWoXJDLiQIbX4E5c7//OnB1zkjzK2rX0+Nj6N3T5PoPO8y/Pe4yywTBOw/HbyPYpBp1sM0uWXZDe4YfOAPP7ObqghPUpwN35o/KqrGyQNGYBoA4A5m9at0NQczRE//x/xs2UIiDmgEsiQoYcA02UCPeQq5HJBc/z/v/sPrAggavF6CeSox24cAuQgqc3zTm3rWvFvtKxpmW8sa4ptT4ZFfBlUhrjS8V5ZiBYRqWWLluLh4I/9W8T7oZ+7xb6iLCI27C6L8l3Xh/2LeN/tyaBSrNH3c5vPv3OQy5eLtrR9+dIVre7cabXdrmgaPaTV2oSzeJmCYvXlP69YjMuXv784XVrTseOa0yA1rwZFympm2dR/HggEZ45OPLGr9fS/6ssEfvn25+Z11f9NaXf6jHoJBNnw/4fbnq6oVGm3AACkaNSXrhhINruyd23hvgChQICkViFAprs2AuQKwwSo0csEAWoV1slE3iB0sKPASQtn4MxEF+FcB1/hGtN9D2t1iEzLGB1hPnmJCyWw4FI1ZuToamo1rGVWcahwOq1algc3+tkQ3HXQKSedd8B+R5wX0FkrkgtOWDgDF/iiyhgjjVaZqtrurm9vdMBZ5xxxykk6Z5rqvD9Y43z7EGgJ445VSRKR2rzoyoj9e84dPrB/xFME");
 
 export default FileDashedLine;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-flag` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-flag?s=thin building-flag}
  * @preview ![building-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/building-flag.svg)
  */
-const BuildingFlag: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 16C30.3 16 16 30.3 16 48l0 416c0 17.7 14.3 32 32 32l96 0 0-80c0-26.5 21.5-48 48-48s48 21.5 48 48l0 80 96 0c17.7 0 32-14.3 32-32l0-416c0-17.7-14.3-32-32-32L48 16zM224 496l0-80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 80 64 0zm-80 16l-96 0c-26.5 0-48-21.5-48-48L0 48C0 21.5 21.5 0 48 0L336 0c26.5 0 48 21.5 48 48l0 416c0 26.5-21.5 48-48 48l-96 0-16 0-64 0-16 0zM104 232l32 0c13.3 0 24 10.7 24 24l0 32c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-32c0-13.3 10.7-24 24-24zm-8 24l0 32c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-32c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8zm128 0c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 32c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-32zm24-8c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-32c0-4.4-3.6-8-8-8l-32 0zM104 104l32 0c13.3 0 24 10.7 24 24l0 32c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-32c0-13.3 10.7-24 24-24zm-8 24l0 32c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-32c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8zm128 0c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 32c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-32zm24-8c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-32c0-4.4-3.6-8-8-8l-32 0zM424 0c4.4 0 8 3.6 8 8l0 24 184 0c13.3 0 24 10.7 24 24l0 128c0 13.3-10.7 24-24 24l-184 0 0 296c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-296 0-16 0-144 0-16 0-24c0-4.4 3.6-8 8-8zm8 192l184 0c4.4 0 8-3.6 8-8l0-128c0-4.4-3.6-8-8-8L432 48l0 144z" />
-    </Icon>
-);
+const BuildingFlag = createIcon("building-flag", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAAB3gAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTiEZQsGAAE2AiQDCAQgBYMtBzQbaQbIjtRG+UVWEvyTtvR9ae/srMygECB04aILt5mUBFX7/v/fu+O1PcA/rBNYHsr7f9/2pjWA9rBAOh54NCdQIlkiiXmH60Zcm14MEaH8FQT6zQgiYPaaV8Dm9KH6TDYrwGAtAABKAgAAmvbu3pEnH/RBevUf6BXtAQGoGQAeARawQB4CoAEWAXkEeCAgQPBB//+L/0APAgBFAbXhUAAkgpJAOTBeA4b4ICiTmJuSkpQU40XjXcSJveyxYf91adIOjJak73RO0v7M3aVPNlI2clq/TFZLM3aFcX2FQls37AC5HqELT2XsyrHcGS/pN9qzEC8R9nMsdTIb7ak/1qkcaX/pLMTOdKfdmdKujFA70tz+0k4bxNLDaeQm3eu82LtNoVUw29GM1wrQjkRPF7qrjqPYuaRzX4q+GvWKypcT1sCahCMkJDYNoQv29ZsqVd68tl0YMmZn4/7y+y5AF5qWdKFJ58QhQO8xHdk95WlbhqzO9N53Tfekd/UkmD1SRocoh0RZbFuywGLbbMfiWW/efAFcHgSyuENhyXLgDmU8wrplSGILSWT5Yx7fAeRhSX3PHbYAgADBiF7zxwxObPA11hkAPt37C/Xy/ydmiTkHxGIAENgK/yswwCwBENoCgKzRLIqtmNSbK5Z4YGscuxAAIgQcZogSYpZckrCAkPJYhAJq0ju3dMeioAgijYFgzBDHVMxSi4VYQBrXsQgNeJqJkib7abAPNvtnGrTqS1ou8lUrVfH1/GJV4Z522k7X97sdZWbJrrJ4JaOYzCRmMJIRjGVGTzONjvmZTKTVmn7L73qqUokqeOrhTzceQy8amMZ0Sc9z5+ehPv7+SBlmrQ8ui90GMFiNMoMBmfiXx1jxLQQA");
 
 export default BuildingFlag;

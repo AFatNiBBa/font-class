@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `github` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/github?s=brands github}
  * @preview ![github](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/github.svg)
  */
-const Github: typeof Icon = x => (
-    <Icon viewBox="0 0 496 512" {...x}>
-        <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
-    </Icon>
-);
+const Github = createIcon("github", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABswAAALIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDHwsGAAE2AiQDCAQgBYMtBy0bnAXIjtMVdyBJmoVL8ER19q9qepKFJit18gWfYJ0A8QboGh7edu/f3S64ophsoynBlCJHE7vQrQuN+b+mXjw/OsBfdOkURbnh+aLwv1Hm8wnseerGTZY4myjubNubIyahsAuNEzBxKOZzoVe6DcwLHyov6SaDcjMAANIDAAC1jubNOP9SXorcDh8BuWkCBCA7AJYABzggiwCoyiEgi2GBYQheSjgs/gMtCACkEl+nAAyIAruBMzClQEUUE4mjnpFxLtqNNa3y26NaL46aGcvarCH/4uQlqctSliZVWMyS6GWxtGv/uIUIo57UutByS8oEEeqZ8+b8WzMmpCytKbAseUn6jlPUuCr1aOWTrSboY6lLM1Zmbsu3JXmCbGuzlsn+Zckr0pYnLUlewuq07f6ivEuyxzOexQWe1bnU+mnti41vtmrzZjZlfB1Uow6+JbQzYee36Xav22wp7RifUePqG61VU52aGXlgM+rWcvCx/aROHXgs6UuL50XT9IQYE52aqpJQttxIHTP6WEKrnnD50oaM5JQjFU4ccFTqJXVoeirZ82YExswOwPOg/SjXjv37f3CG5+U7NWBAUvx/d9l54dN82bFuTEKT9Bf3aKFeTRk3tx6L2nihkIdkgeA2DVoR3NNAntJBxbwzXmLI6vMEAUCu+zo351rn+Kr/IqIVgNcnf/yYu8OP5afuBBEUgMBZw0XpED8BhFQAUNQYRWjjiwSozUSI0xhLr5ZFFDqgfKKAI1MCMKIUAa4c5U7widKcQ0okIklHCKgYQ4GjvDHASHIIuKq6VvBJCgduLaizfhvz6w/5eqtsqeIlbWW72tDYoGjYxSr2cFRwlBwohA/Sy2CDjNBTD32NGIjDNCuPNFD9LaGeH7JKKa4kqzJ7uf3Ub0WxYYbrKxh0fZkq7PNpQaO2xxfC61EAUPqLM1ovyde774g+I7sBAAA=");
 
 export default Github;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `xmarks-lines` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xmarks-lines?s=thin xmarks-lines}
  * @preview ![xmarks-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/xmarks-lines.svg)
  */
-const XmarksLines: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M8 32l624 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 48c-4.4 0-8-3.6-8-8s3.6-8 8-8zM8 464l624 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 480c-4.4 0-8-3.6-8-8s3.6-8 8-8zm99.3-208l82.3 82.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L96 267.3 13.7 349.7c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L84.7 256 2.3 173.7c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0L96 244.7l82.3-82.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L107.3 256zm130.3-93.7L320 244.7l82.3-82.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L331.3 256l82.3 82.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L320 267.3l-82.3 82.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L308.7 256l-82.3-82.3c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0zm212.7 0c3.1-3.1 8.2-3.1 11.3 0L544 244.7l82.3-82.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L555.3 256l82.3 82.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L544 267.3l-82.3 82.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L532.7 256l-82.3-82.3c-3.1-3.1-3.1-8.2 0-11.3zM0 424c0-4.4 3.6-8 8-8l624 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 432c-4.4 0-8-3.6-8-8zM8 80l624 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 96c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const XmarksLines = createIcon("xmarks-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABqAAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDHwsGAAE2AiQDCAQgBYMtBzMbogXIHoVN2XwUYZSZw5xcIsKbLx7+26/dNzOLmFU2YQmvRC2ZUAmFZl4aoXgJe6g0y9/4n9O7MtqfKhiibd0QQMiA8FFDx4rY2L35rcD9J66pH9b0gEn8aNFUtCiM1IjSTWCAb7t5hdhsOBvRRHiD8zZfcFIo30OJf4PMpAvDM060N41vow4hyRkA0QMAtg4bqnDTiEbEc3UO8WkHBMQ2gBlERsYEglVGgQkmM6AogkZUlfsfKCCAaIKBJL9d0Ion8AIoIGkuJo9HmpPcHqfZbWp2mh0dXo9XCcshD9WIFjWkfFuampuUkBxpZiMRR422sJkcLdzEFgaUUGOlEq1kE5tZTrHd6uygFvVyuiYL8Y/pPv1Heh5+RvPdrFHUa7H0zsIdPEol+t/q68zCoqKGhrp6UH7DblFRfR2a5t39rmYj6xs0R9a32Cn2bs3rkN1Fa8vSngcgEPy0XRT0eCv/W5wGwNfz7596YbWSjg06oEUCQa5XdZ1ptwa4FLzuRCwjBj8JkVyxMl61wymC0IYASZM2AbJxPgRFm3kENVOKEDRps8soih1hQFdMJx2O6GzFFl0MOKVrVt0lmwyE8bmVnzr5tzEjnYZTm0Redq4oF5V1ofIoivJ8hWhtx5d5XwLuxLAZ0xYNGTRmMUXNq8osmZKuI1O+SMiTLZdQTvRund/ebMi8BWNmTKvrVBDjh+OW60cnoGdgCC4oTRKRXKtfmZV1rwMA");
 
 export default XmarksLines;

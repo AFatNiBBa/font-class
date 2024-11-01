@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `charging-station` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/charging-station?s=solid charging-station}
  * @preview ![charging-station](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/charging-station.svg)
  */
-const ChargingStation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M96 0C60.7 0 32 28.7 32 64l0 384c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-144 16 0c22.1 0 40 17.9 40 40l0 32c0 39.8 32.2 72 72 72s72-32.2 72-72l0-123.7c32.5-10.2 56-40.5 56-76.3l0-32c0-8.8-7.2-16-16-16l-16 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48-32 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48-16 0c-8.8 0-16 7.2-16 16l0 32c0 35.8 23.5 66.1 56 76.3L472 376c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-32c0-48.6-39.4-88-88-88l-16 0 0-192c0-35.3-28.7-64-64-64L96 0zM216.9 82.7c6 4 8.5 11.5 6.3 18.3l-25 74.9 57.8 0c6.7 0 12.7 4.2 15 10.4s.5 13.3-4.6 17.7l-112 96c-5.5 4.7-13.4 5.1-19.3 1.1s-8.5-11.5-6.3-18.3l25-74.9L96 208c-6.7 0-12.7-4.2-15-10.4s-.5-13.3 4.6-17.7l112-96c5.5-4.7 13.4-5.1 19.3-1.1z" />
-    </Icon>
-);
+const ChargingStation = createIcon("charging-station", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjwAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCVwsGAAE2AiQDCAQgBYMtBzcbXgXIHgl27MhWxHD7YwSVrTKrZ55mH3afcB4AQQRsyhN7bHh4YCrkSfYmX+17htDjT3/vzn9rUBQ/bgmGtJeuvc43WGKL16IozsIsUczaHOejDnry0PSECD0RDuPTsARtIY/fswe1IL2WfsMz40PjHz08SNImAxBVAMzfunG1HxqiIeLXesSvViIg5oNSIEOG3gLMkgn0liuRywUNUa+X/8CSAKIlxSSyXI58Bq8CcpCkPD/Rp9KiXb4lv67Y+eGwiE+7p3i884vudXmp0i6e6PZK3Nf15SKiEk90eYl4bfhngz8Z+UWviE96vRERL3ctZO7FzsLY2Hivx2uDxauDPu4Z8faIz6d4wtcZNaTY/FLnTdtYYHyx68vdtkYRL5/xSpcBn1c//9dvR36z9/t3a9SKe9o/+mj7Q1Ey5VlVtS++qi3GiRMbGlJo+1seaa5XNzVUjSOqob2iNGUVnlvq9V/zI3RZv75LKX/00XlVPyhqtXffvbbh4RHdV5ihMn341bN7PfySkN+dNuLK40Ag2Hhq7H17O8z6v3Ulgaavnqer/5Dmpc/RWgJBNqo+yq40DxJlAJ4UVwxwviiQPCLRd23rZQFCgQBJS4UAmV6qAuQKIwVooa/JArRU2CgTeRuhs90nSNo6DzJT3Aa5zr4ELczyo7ulzpHFJDeiuJ+EiZbM0OJF5fgx48oZ5WWR8cKM3YZnlrdVw67UpuFY64izzrjksEOOuzSRLljtu+y0JR5xsR8qjTfGOKUZyseV1+VbHHbBRceddYajzFTu1w1zxe88HNpEmU6QlSQiVf+NsR0/c3T02wMAAAA=");
 
 export default ChargingStation;

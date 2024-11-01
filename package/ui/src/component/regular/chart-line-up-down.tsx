@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-line-up-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-line-up-down?s=regular chart-line-up-down}
  * @preview ![chart-line-up-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chart-line-up-down.svg)
  */
-const ChartLineUpDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M24 32c13.3 0 24 10.7 24 24l0 352c0 13.3 10.7 24 24 24l416 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L72 480c-39.8 0-72-32.2-72-72L0 56C0 42.7 10.7 32 24 32zm352 80c-13.3 0-24-10.7-24-24s10.7-24 24-24l80 0c6.4 0 12.5 2.5 17 7s7 10.6 7 17l0 80c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-22.1L305 273c-9.4 9.4-24.6 9.4-33.9 0l-63-63-63 63c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l80-80c9.4-9.4 24.6-9.4 33.9 0l63 63L398.1 112 376 112zm0 272c-13.3 0-24-10.7-24-24s10.7-24 24-24l22.1 0-47-47L385 255l47 47 0-22.1c0-13.3 10.7-24 24-24s24 10.7 24 24l0 80c0 6.4-2.5 12.5-7 17s-10.6 7-17 7l-80 0z" />
-    </Icon>
-);
+const ChartLineUpDown = createIcon("chart-line-up-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBewsGAAE2AiQDCAQgBYMtBzkbBAXIhofv1/o893XPrwWAXmZ0QA6QLFDQAQs5FYsqsTNxufO3TQ847cUfZWxcNGY2lo0xzxMIsKx8WolkgWWagDU4b8QBhqZQ3n6BPL6Ii0qkW+lnXMg/NP7U3GmSUgYg6gFg3JIFs3xbjnLET5V3xE9mICDGgUIgQ4ZWAoyUCbSSK5DLBeWoVNh/YEEAUSV4bQI5SliHbYAcJFmeN+3aomapdr5YHaix4lnzFLc61Q586mbHWvG8++sWWdzpsu55C1hVM840vkYM8q3aiIXxtPP8mJuybrdcEi86zQunRlpTOTrGxKiITY89ay6ON7pao0b71/Ve/93u580/a/pgXuO1Gs97KBdxWh4woE4bXDOHOVeNzZtrzOXZkSaOHlW79j/+QZnff58zR2V37dKk3rLGJv5R3z+acHXT8yAQ9On41Z01dUf+V61mAn98/vd/+a+oUk7Sa1STQJD1rPS0MoFEAABSHNY+QSBZJhO8ay3XBQg1ECCpUkOATEv1BMjV0EOAkjYGCVClhgUykVcXGllVE0kt+4jMYEeIXCNviJKRvstWaRTZXSbfI/JHXsbkNjBpX9Gvd99ieDHZVSo3jqi3RxSrza6H+VQ3eMZme+x20CYbbcv5Fr7frMIhu0yewyb5okI/vfVVGK7YPbjfuNgm+x2wbVzdv8sIxflBV4fnF3eDThJw9teQJCI1eL9mev16wj20t9f1BwAAAA==");
 
 export default ChartLineUpDown;

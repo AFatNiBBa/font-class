@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-wink` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-wink?s=light face-smile-wink}
  * @preview ![face-smile-wink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-smile-wink.svg)
  */
-const FaceSmileWink: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm164.1 69.5C182 346.2 212.6 368 256 368s74-21.8 91.9-42.5c5.8-6.7 15.9-7.4 22.6-1.6s7.4 15.9 1.6 22.6C349.8 372.1 311.1 400 256 400s-93.8-27.9-116.1-53.5c-5.8-6.7-5.1-16.8 1.6-22.6s16.8-5.1 22.6 1.6zM152.4 208a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm148.4 25.6c-5.3 7.1-15.3 8.5-22.4 3.2s-8.5-15.3-3.2-22.4c30.4-40.5 91.2-40.5 121.6 0c5.3 7.1 3.9 17.1-3.2 22.4s-17.1 3.9-22.4-3.2c-17.6-23.5-52.8-23.5-70.4 0z" />
-    </Icon>
-);
+const FaceSmileWink = createIcon("face-smile-wink", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABiwAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCJAsGAAE2AiQDCAQgBYMtBzYbKgXIjsJxrwQlNEtMFlN5Iyj2++3dE0S0Q9IkPt0stJ8YOqGaZBqVUkmExFApAR9+nL2/g/RPZoKUyAYlAnEL5aC8+b/m87OmA/xGhxKNpU1R41Hm8wkMMNoixdZCM52Azdy1fSialCTpUpbk8ZvH0xHK2CIG4CLfGNeAm/RR8Qc5daSyAEB0AwA2jsMDsc8iLEKu2SvEF/xBQGwCmEZQ8PRxBCzjEHgETtOgVAp+CJst/4EUAogaGU5Xl2jCFbgGUIJUlZwKlMsnJsAlxBkVHo0/adCMkEW/S/4Wn3OTeTpguuB7IdDqf2W+pC745k7iKPhOoDXwxvUg8tllP+CavyXo1u0wKrJTk5ARyzXtMZluqU7JcY1hi1WtUb0uGBvVrz0i16MxKh/ZIe2dKYFWXY3uV/bxt8iqTYpOvqtep16DuSd4CHw7BdrbBzo9HgpCgdvMgmcLI58H7u4HS3J82JFC2O7dkxkNNKBxwZxc72vluLurqirTOFonxycFSqRCQ6XoFh1yfWe92e0aGu3Zvae9D1JSDwAEgt2Hhr84keV/XgEG4Hfz87/9jPzvJ/IDNEsQFLNsA9EJkgAAZJRCLYFAauCSPrXdswChFQFSrVWAwhhRBJRazSCgMskSAbVW+zhEyYfQL2aA1O4SFJaUg1K/JVBZdhbW+oPD9HjD4T9+KV4IeY6ipkYm1I4uC7pgTWwctKfbqk6pb9DljUiVJ1exFMkyFANZKDApkcNLIzx9EWXKiAnKDj0uP6+OkqJQkQx5cmUYe/S+qaNUb6/LBkOmnJOXkkiRd+0bFuVkZFevLCM3Cw==");
 
 export default FaceSmileWink;

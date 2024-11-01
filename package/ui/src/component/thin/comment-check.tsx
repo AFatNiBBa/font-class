@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-check` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-check?s=thin comment-check}
  * @preview ![comment-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/comment-check.svg)
  */
-const CommentCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M157.3 415c-5-1.8-10.6-1-14.9 2.1c-11 8-29.4 19.3-51.2 28.8C68.3 456 41.6 464 16 464l.1-.1c0 0 0 0 0 0s0 0 0 0l.3-.3c0 0 0 0 .1-.1c.4-.4 .9-.9 1.5-1.6c1.3-1.4 3.2-3.6 5.4-6.3l-12.2-10 12.2 10C28 450 34 442 40 432c10.7-17.9 21.4-42.1 23.6-69.9c.3-4.3-1.1-8.6-3.9-11.8C31.9 318.8 16 280.7 16 240C16 136.9 120.2 48 256 48s240 88.9 240 192s-104.2 192-240 192c-35.2 0-68.6-6.1-98.7-17zM4.7 452.7s0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c0 0 0 0 0 0zm353-271c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L224 292.7l-58.3-58.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l64 64c3.1 3.1 8.2 3.1 11.3 0l128-128z" />
-    </Icon>
-);
+const CommentCheck = createIcon("comment-check", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABigAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCVQsGAAE2AiQDCAQgBYMtBzQbWQVRlMvJDtnHyrsxluLheb2nzn3JAM5A5JIVgI5sB+XC7f4MIdOfOvU800IBfI94UNaiZblQdoePNbggtYIWa2NiqFeQWrFWUezitpsiJpXECIkL5PGuVcqQHkhf4GrwofGLBk6RZBmAqA6A4XNnTvbRzbgZ8UXpdeILExEQI0AhkCFDYwEGyQQayxXI5YKbUSqJ/8CCAKKsKN0EcpTBGTwKyEGSFXnedXDNSmWq5HPMropz7639dK+3ekUcVyylVjpe7756daNOFDzb7HjdD1r8PBfjP87Gf5jlXBgwa4OMU7i7zj2V3hz4btu3K/088fOhH7Z8csgHEz6b88O4Twa9V/w4/OF2d9dG/rGKx+0vXHtf3Xtrz4oZkTOHXjM97qk3t4Ubz1R/5jdfrPnCw8WOVZWbFdsARKjR8m1v23el0fxyvV6sElNH9KH42uBKpifJzd7f3NdadMCa9uMrvjyt6PxXv7EuPNS0aYUKOnjowlj0QaPujKpweE3LGhECWFa1d++ZM/cf8KCQCdSSecbRo0AgaHTut5ZWG/Rf+UoJ3H7nj+WDpf9LN5P0DMpLIMg6lTpZlKzgrBSP5MUeLfAXBZIjMtG7VnavAKEiAiRlVRQg00h1AXIVdRSgjKZ6C1BWRTNlIq8g1La4BUll20Gmj8MgV9uroIxBPs6UVTsykBQASvgjTB3Th0ZvK7p36VYMKBYbahHKOLs4sNhttNsjB9rjvdbYaotdVltlvV09cofJ+d02G7NGjPZDhe666KYwQHG6/VidQzM77LR+Xj6/zkDF/W47e9bHt8d2EtH2UJUkIlX5CPTOLzcA");
 
 export default CommentCheck;

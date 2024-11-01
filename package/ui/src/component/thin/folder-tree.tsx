@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-tree` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-tree?s=thin folder-tree}
  * @preview ![folder-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/folder-tree.svg)
  */
-const FolderTree: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 8c0-4.4-3.6-8-8-8S0 3.6 0 8L0 128 0 384c0 22.1 17.9 40 40 40l216 0 0-16L40 408c-13.3 0-24-10.7-24-24l0-248 240 0 0-16L16 120 16 8zM304 32c0-8.8 7.2-16 16-16l74.7 0c4.2 0 8.3 1.7 11.3 4.7l21.7 21.7c3.6 3.6 8.5 5.6 13.6 5.6L544 48c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16l0-160zm-16 0l0 160c0 17.7 14.3 32 32 32l224 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32L441.3 32c-.8 0-1.7-.3-2.3-.9L417.4 9.4c-6-6-14.1-9.4-22.6-9.4L320 0c-17.7 0-32 14.3-32 32zm16 288c0-8.8 7.2-16 16-16l74.7 0c4.2 0 8.3 1.7 11.3 4.7l21.7 21.7c3.6 3.6 8.5 5.6 13.6 5.6L544 336c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16l0-160zm-16 0l0 160c0 17.7 14.3 32 32 32l224 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-102.7 0c-.8 0-1.7-.3-2.3-.9l-21.7-21.7c-6-6-14.1-9.4-22.6-9.4L320 288c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const FolderTree = createIcon("folder-tree", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABkAAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCbQsGAAE2AiQDCAQgBYMtBzIbbwXIhof/15Xe96UZrzVmkLcyMwcIqq2CJVDlLnh6IJ20jBPXPP+0pwJJeoJHq1xqU4V220BKJ7qbNm0is+Fsori3WcRLRCA0SIREickNo3fDcmfI41N71UjPpA/xEH5ofK2n20myDEB0AMCsDWuWuVFFFfHh/68RH1qCgJgNSoEMGfoIMFUm0EeuRC4XVPH//+k/sCSAqIOXJZCjFZ5FCyAHSS3P+/VojqlGrW2+vpxdbHmy2+NdRIqbuz7RaEREEc/1ihhU7Hqqe/K+roNiH3+iq5D5ixCjUTjCyfu6PxURt3R7siji3m6DA/fT5XGbVHc1v9ThpW8HfLj/Q+3fqO/cWb+Ijm+/3PEjHXT+qq5/+EGHu072796uWqI+d615TQdU7W7WrqpU7Vo6tEBFu7vvbldpwM3VB4R17m67hKynff+754FA8M9TQ4sd7af+2tRI4Ku3v/8LH/f/jTQzvYQmCQTZ0P+H2ppmghcGkE1xXjPzRYHkUTXwrm08KUAoECCpKwTI9NZBgFxhiAA1/YwToK6wRiby1kIX2yadtHGKzox3jc518QpdM9U7mboukZmnYlzK32HmfArMO1SOGj6ynFweW4ZqcVJdnVKKAwPP55FB7qj9TjjurH32OuQswU9blj/nmPkcNs8PlUYZbqTSZKW6+1q93j6nnXFor+o3MUX5fGSg8/z0QS6cgOho1UkiUmP/m2EN+3IBAA==");
 
 export default FolderTree;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sd-cards` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sd-cards?s=regular sd-cards}
  * @preview ![sd-cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sd-cards.svg)
  */
-const SdCards: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 352l0-288c0-8.8-7.2-16-16-16L234.5 48c-4.2 0-8.3 1.7-11.3 4.7l-74.5 74.5c-3 3-4.7 7.1-4.7 11.3L144 352c0 8.8 7.2 16 16 16l224 0c8.8 0 16-7.2 16-16zM114.7 93.3l74.5-74.5C201.3 6.7 217.5 0 234.5 0L384 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-224 0c-35.3 0-64-28.7-64-64l0-213.5c0-17 6.7-33.3 18.7-45.3zM24 96c13.3 0 24 10.7 24 24l0 256c0 48.6 39.4 88 88 88l224 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-224 0C60.9 512 0 451.1 0 376L0 120c0-13.3 10.7-24 24-24zm280 0l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16zm64 0l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const SdCards = createIcon("sd-cards", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABgAAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCGwsGAAE2AiQDCAQgBYMtBy8bGgXIjsO44TsihljKfwT1uj57nrQftMegYyYTYwgUbWSML1c5xchOt5kXfCHP/7me7/logN9oaFGWOpCigWQ+n8AAo32+C+AosKMjPwG7ty0RbIThaYRIYUQ0pjROG+TxZkyN9HqCZ+ubxp/6eoiklgGILgBYsmvbBo0qqojfm98Qv1uHgFgCSoEMGQYIMF8mMECuRC4XVNFs0n9gSQDRQh4rgRytuITbATlIannea0DfTp3qtY75znqtOJal7JVeRTzRY3u8RLzcsx6v9j65a/uuL+vFx2M+75vitdGfDS/ik7Ff9Iu4f9z2j/umeHvM5zM8vu9r02//tPBDs3hzVEfhpR6v9Ip4tffLPevmPEO/6PLF30Oc5NlDZVl2ql7WunzNGstbb+pUVapOA9IabBra/2Xvde1alIomvlfp4k39h+5NW3qSP/bY4go19NxSeW7niXYS12cxGjpVVafF0Gr2A4Fg0op1jx7qPP+/thL448d//+efkWYjGukLtEkgyMY3x9sfDYiGAACkuMXQaCCQnFKDl9rBKwKEAgGSFoUAmf66CJArjBOgZpAZArQobJOJvF3o4YCCpIMrIDPT3SDXw1egZr6flRY9Ios6ImaIT1/sSgutqCunTJxczi1dUycDCSvleeU2P/qWHBoDq0665KLrTjjujOsGuWqDfsMFK1fwCh9UmmKiyUpzlcfO4/xOJ1x1zRmXXOQq85T35dFuWSePASkR1Kn6kkSktmvHJzwoAA==");
 
 export default SdCards;

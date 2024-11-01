@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-medical` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical?s=sharp-duotone-solid house-medical}
  * @preview ![house-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/house-medical.svg)
  */
-const HouseMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 272l.1 240 448.5 0-.5-224c-.1-5.3-.1-10.7-.1-16L288 88C213.3 149.3 138.7 210.6 64 272zm128 16l64 0 0-64 64 0 0 64 64 0 0 64-64 0 0 64-64 0 0-64-64 0 0-64z" />
-        <path d="M288 0L0 240l0 32 64 0L288 88 512 272l64 0 0-32L288 0zM256 288l-64 0 0 64 64 0 0 64 64 0 0-64 64 0 0-64-64 0 0-64-64 0 0 64z" />
-    </Icon>
-);
+const HouseMedical = createIcon("house-medical", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABcwAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBeAsIAAE2AiQDCgQgBYMtB1YbIAXIjsQ4JvGH2NDi4fn9/bf2ufd9eOQ7kwC9YZpJsBqU3BQqoOQ4XVFqqq//6e/n+bNfcZ5GHy1y3RoJ1IkTGHgUz+fTCc50BrbdaRs5SFySJLTk+CbH5Ql5/MkOKZHOpFc4Ef4HMD5q5xBJdQYgmgAwfvb0aR6/jbcpXv2/TrwyFQExARQCGTJ0FGC0TKCjXIFcLnib/udt/F8QQFQIUMZTgW+ei/WAHCRJyvNm7Rra1Zbq81m1pZrVS5YvEbUxO2ZGbUQsm1NTWyNqQ4EANYTZuPqYFfvzr2fMrOV4QkuiJjyKbmebzn7u+mrVK10edfmamgplb26ZQlmhC3Qp+6koPu7SN2h8whtVVVz/5vm4295G/zoIBDNvOKxx9O+q2gTe3/36Qf4d/X+cyuksqiQQZL3/97YglSGVBQAgxS7dUhllgUxPSfyMOicFCDUIkFSoESDTQZMAuRq9BCjpbIgAPD9dJvJqoaWFVUrqbJUyQ+2Wci1dk0pGe1qs0DIyKdNkRPvjZU9pweRDxYC+/YuRxbSl6IKjuNVRBTvQfZcd6QF3rbLZJjustMJaOxp2m2mVnTaassIn+6LCAH31Vxip2O7e27OouM12a8fm/j6jFOcz3e1aT+8B4STKDnQkkxEpslYi6Onz6Dx9LuyENgPzcgIA");
 
 export default HouseMedical;

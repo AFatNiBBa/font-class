@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sleigh` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sleigh?s=sharp-regular sleigh}
  * @preview ![sleigh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sleigh.svg)
  */
-const Sleigh: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M24 32L0 32 0 80l24 0 8 0 0 176c0 62.5 44.8 114.5 104 125.8l0 50.2-80 0-24 0 0 48 24 0 560 0 24 0 0-24 0-72 0-24-48 0 0 24 0 48-152 0 0-48.2C507 379.6 560 324 560 256l0-112 24 0 24 0 0-48-24 0-24 0-24 0-24 0-48 0-48 0 0 48 0 32 0 48-6.6 0c-14 0-27.8-1.3-41.4-3.7c-64.2-11.6-121.3-49.7-156.6-106C182.5 67.9 133.7 38.1 80 32.8c-2.7-.3-5.3-.5-8-.6l0-.2-9 0L48 32 32 32l-8 0zM392 432l-208 0 0-48 208 0 0 48zm40-96l-40 0-208 0-24 0c-44.2 0-80-35.8-80-80L80 81.1c37.2 5 70.5 26.3 90.7 58.6C222.2 222 312.3 272 409.4 272l6.6 0 48 0 0-48 0-80 48 0 0 112c0 44.2-35.8 80-80 80z" />
-    </Icon>
-);
+const Sleigh = createIcon("sleigh", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABeQAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCKAsGAAE2AiQDCAQgBYMtBy0bJQXIjsQ4JvGLKEwiqHSUPSsdSc+gJ9YzgAkicwScEmAQPoQuh46wQt4nrsl/f/7051H2BI8WhZW+CpDM8wkMOMrXgPMonE0UtzfN2I400VHJlCbp+HZc0Rby+Dse0UB6Iv2Mh+VD4w/d3UvSkAGIdgCYu3n9Sp9fjasRP/3/DvGT5QiIuaASyJChlwAzZAK95CrkcsHV+P9/+g+sCCAapcsnkKMBV3AHIAdJludLW/qUDa3zTWVDsb0oC1GW4plRr0wUhTLaBsSLEJAW8d3szwZoZTlaBc69b/C30z4c/WrWJj26RoqDRVm4YXOd3urd4S/2ifhm7hcrf9l4wE/Pj6eHPj+h/4vtXvzTz4d+1vW5bt261bo1v67tF1/8MM4aFVvSzRIZrIHHiwZ26JidsXXM87VKrUnn8c033/fiuk6d7qlzWpY8/LvcS+139ZDdQ4e2a3dwU7zm8Th5/doSTXVtjdoZselgOyAQ3Lhpcs/dbWf81VwmcP3DlZP/v5ruTC+iWQJBNvL/kXakO4GYASRTXNLf+KJAckYGr7WVRwUIBQIkjQoBMj21EyBXGCFAgz4mCtCosF4m8hahk52dSFo5S2QmuY3IdfIW0WCG7xKNOkXmfILrCF+/1EUaXDipGju6rqZVy5Im+hMXRqdX29rQS9wyDDY65LRTLjjogKMuKPiclemLTlpkQQv9UGWs0WqVaarj6uPqTQ4657yjTjsVx5muuh8NdcnuPgzMJLGOMyNJRGo8f+KRDAAA");
 
 export default Sleigh;

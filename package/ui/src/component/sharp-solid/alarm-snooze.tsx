@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alarm-snooze` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-snooze?s=sharp-solid alarm-snooze}
  * @preview ![alarm-snooze](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/alarm-snooze.svg)
  */
-const AlarmSnooze: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 25.4C143 9.6 120.2 0 95.2 0C42.6 0 0 42.6 0 95.2c0 18.8 5.5 36.3 14.9 51.1L160 25.4zM256 512c50.3 0 96.8-16.6 134.2-44.6l19.2 19.2L432 509.3 477.3 464l-22.6-22.6-19.2-19.2c28-37.4 44.6-83.8 44.6-134.2C480 164.3 379.7 64 256 64S32 164.3 32 288c0 50.3 16.6 96.8 44.6 134.2L57.4 441.4 34.7 464 80 509.3l22.6-22.6 19.2-19.2c37.4 28 83.8 44.6 134.1 44.6zM497.1 146.4C506.5 131.6 512 114 512 95.2C512 42.6 469.4 0 416.8 0C391.8 0 369 9.6 352 25.4L497.1 146.4zM200 192l96 0 40.8 0L317 227.7 256.8 336l55.2 0 24 0 0 48-24 0-96 0-40.8 0L195 348.3 255.2 240 200 240l-24 0 0-48 24 0z" />
-    </Icon>
-);
+const AlarmSnooze = createIcon("alarm-snooze", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdAAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBeQsGAAE2AiQDCAQgBYMtBzMb/ATIhofn6/w696W+Km1UmxyIKyurEbC11/mfaz6/59eA3+jQoqn0QCKBIrd+PoGJlV34BtjgZToB2+7cLovGHgdaipB+x47PCFk8W7pQDenG9B6uiU8Vv2rvQpKGEoBoBoBpa1Ys8tJX8VXEu9XHiXctQEBMA4VACbVOCmPiaIFOMgUymeCrqFb5P7AggKglZ04gQy024gAgA0mWZXm/vG25pnG22nfLN1RGP9b3gU7ntl+z7ssl/aJfTIn+1PXVNXcNf2T+O7Nfm/vW0IeKz6f1jb4xKQZA8v1VG26O2/rvdFi1tZyXB8bKKJdFng+JNfmiIsrdK80qv3d7b/d7br/v+q1HK5W6zt9fe+qWHxa6oodd3rPacE9Z2OTjVwZ2/uqrzgNf+biJhU8Nt9p7dunhioX+OvR957qEHd16/at9B23detkIEw4Y026odvV0IBAsv/SsE7Y0nfh/fTmBb57583f6Gam+lKQK6iUQlAZWB9qYQCIAAClO1j1BIFkpI34j14mbfo4gu1aOfklHzRpkcgOgRhejRtTKrVASWYPQyiYASSPHoGS0syDTyqNQY6I3nVqtomRkvInwf7yU2RqZta0YNnhoMb4YpopgN2xYn1As631Pdq1+eNBuRxx2ol122udERR+3yD/JIbNn6CxfVBhmsKEK4xXHxf3u1XY57gT7HHGYN5mguG/3dfJ8dj+0EmEcTktPcCQ12nZw2/FDg044fOTI6bsAAAA=");
 
 export default AlarmSnooze;

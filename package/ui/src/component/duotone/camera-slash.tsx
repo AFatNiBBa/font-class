@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-slash?s=duotone camera-slash}
  * @preview ![camera-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/camera-slash.svg)
  */
-const CameraSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 160l0 256c0 35.3 28.7 64 64 64l359.4 0L356.4 376.8c-11.2 4.6-23.5 7.2-36.4 7.2c-53 0-96-43-96-96c0-5 .4-9.9 1.1-14.6L65.2 147.4c-.8 4.1-1.2 8.3-1.2 12.6zm90.8-64c43.6 34.1 87.1 68.3 130.7 102.4c10.7-4.1 22.4-6.4 34.6-6.4c53 0 96 43 96 96c0 4.1-.3 8.2-.8 12.2c53.4 41.8 106.7 83.6 160 125.4c.5-3.1 .7-6.3 .7-9.6l0-256c0-35.3-28.7-64-64-64l-74.7 0L426.9 64.8C420.4 45.2 402.1 32 381.4 32L258.6 32c-20.7 0-39 13.2-45.5 32.8L202.7 96l-47.9 0z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const CameraSlash = createIcon("camera-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfQAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBZgsIAAE2AiQDCgQgBYMtB1QbDAXIHoexe2TLuTKI0C8e/t/u+/a5t16t/nZ9QBwohPDCkTMwmrzXpEI6nf/gAZWbP3WqZpyHAvggiWDQxsKlixfG5zyPQASSDt/WDdIrWK2m2LcNcTgCsRURkiURjWc0Vjso0uB8txrpyfQd7uf/AYxfdHM3SbMMINoCYO7m9St90dip75reIb6zAgExD1QCGRk9BZghC/RUqFAoBI0JGoOKAKLEl86gRA3rsQdQgCSkomjVdVCLWqtiE3968+2PDzwbj3Z9ZNC5eKzH9pTTk0PfHNgqNsUrzd8bVu99R5dN8YjNbw6N+HDq4y3eHfpmr9s7/rTx8cjx1LD6oObRPZ6a1Dze6do1mvert63/1ve7Q98p3vtj+Oof/f8W3cjsPmjert0Lh915SNnh9nq9oaF8/qay3Db7lVfZeeK/9oZV1lbPylpRW3zxcs/5rN017T57zhggEPw685cbu9vM+K+hRQI/f/THP+VMm6T7Uh0NEgjyiKYRdqTbHShJAERIcUm/7zJHIJslkfdo6TEBQnMESErNBch6aCtAobnhAtT0NlEALq+XRdFM6GhnA0lLZ0E2yU1Q6OhtUDPDl3apY+TgYkOD/dolLdLowqlq7Kgx1bRqGqhcvNBpOL1alodcosJQ2OqQ00654KADjrqg8HNWehedtMjDFvqhylijjFGZptqO76VNaJ9z3tGxsD9muuq8PsQlv34oaIlQjjOTZSJF7vg+/CPPn9h7/sjIOC13NoQrCQ==");
 
 export default CameraSlash;

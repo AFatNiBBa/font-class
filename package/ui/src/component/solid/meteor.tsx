@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `meteor` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meteor?s=solid meteor}
  * @preview ![meteor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/meteor.svg)
  */
-const Meteor: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M493.7 .9L299.4 75.6l2.3-29.3c1-12.8-12.8-21.5-24-15.1L101.3 133.4C38.6 169.7 0 236.6 0 309C0 421.1 90.9 512 203 512c72.4 0 139.4-38.6 175.7-101.3L480.8 234.3c6.5-11.1-2.2-25-15.1-24l-29.3 2.3L511.1 18.3c.6-1.5 .9-3.2 .9-4.8C512 6 506 0 498.5 0c-1.7 0-3.3 .3-4.8 .9zM192 192a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm16 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Meteor = createIcon("meteor", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfAAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCDgsGAAE2AiQDCAQgBYMtBy0bCwXIHgl27MRWxHAr8fD/Osv7vjQ+O/IyaJmxAw5y0QGQuzBUTkoqU7vLWoXfZYgS/sQ19eP8qUCiyB4tylIf5Nt7GecTmFhYBU1kNrCZTsC2N61YLJs9HclEk3R8O750hjw+yG5pIj2TvsJD8qHxj25ukTRnAKItAOZuXr9SrR71iC8bbxFfWo6AmAtKgQwZegowQybQU65ELhfUo9HA/8CSAKJCX5xAjgoO4yIgB0me50N6dGiuNrXKN9HjxeENmzf0iOudn+y4Id4d8aKf136/8b7pH4zeHE91frIYEHl7PNn53o577hsa8dzQ51wb8qwQxb3Dnifi+vAXrKpDI3ygeP5x1zo9Ub2vy1Ox8akuT3Z+vOMTnfo93/b5/3x16Cv/fVzp7pGK8wduvnrQPy87OTbe8/TGmPzH3x/zqimTFhc/oH1FVn01azvy4/41ar1a9evXqlet1t80MLun9d3c3bo1kNNmd71167oQiNv+7Ljpsd1tZvzfoprAX+8//hU1akl6Hi0kEGQjGiPsSCARAIAUl/RLEEh2y8m7tvSkAKFAgKSiECDTQ1sBcoXhAjTpbaIAFYX1MpE3Cx3tHGTS0lkyM8llMtfRG2STGT4NKjpGFm9KtCi/vcxFFl64rhw7akw5rVw2uhpCUl2eXm7bQy6VoaGw0yGnnXLBQQccdcGg56yMLzppkYcs9EWlsUYZozRNedx53rzJQeecd9Rpp3iV6cr7/hCX/MlDwUtUdJxckohUeXNzTp8D");
 
 export default Meteor;

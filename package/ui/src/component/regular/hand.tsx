@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand?s=regular hand}
  * @preview ![hand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hand.svg)
  */
-const Hand: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-25.3 0-47.2 14.7-57.6 36c-7-2.6-14.5-4-22.4-4c-35.3 0-64 28.7-64 64l0 165.5-2.7-2.7c-25-25-65.5-25-90.5 0s-25 65.5 0 90.5L106.5 437c48 48 113.1 75 181 75l8.5 0 8 0c1.5 0 3-.1 4.5-.4c91.7-6.2 165-79.4 171.1-171.1c.3-1.5 .4-3 .4-4.5l0-176c0-35.3-28.7-64-64-64c-5.5 0-10.9 .7-16 2l0-2c0-35.3-28.7-64-64-64c-7.9 0-15.4 1.4-22.4 4C303.2 14.7 281.3 0 256 0zM240 96.1l0-.1 0-32c0-8.8 7.2-16 16-16s16 7.2 16 16l0 31.9 0 .1 0 136c0 13.3 10.7 24 24 24s24-10.7 24-24l0-136c0 0 0 0 0-.1c0-8.8 7.2-16 16-16s16 7.2 16 16l0 55.9c0 0 0 .1 0 .1l0 80c0 13.3 10.7 24 24 24s24-10.7 24-24l0-71.9c0 0 0-.1 0-.1c0-8.8 7.2-16 16-16s16 7.2 16 16l0 172.9c-.1 .6-.1 1.3-.2 1.9c-3.4 69.7-59.3 125.6-129 129c-.6 0-1.3 .1-1.9 .2l-4.9 0-8.5 0c-55.2 0-108.1-21.9-147.1-60.9L52.7 315.3c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L119 336.4c6.9 6.9 17.2 8.9 26.2 5.2s14.8-12.5 14.8-22.2L160 96c0-8.8 7.2-16 16-16c8.8 0 16 7.1 16 15.9L192 232c0 13.3 10.7 24 24 24s24-10.7 24-24l0-135.9z" />
-    </Icon>
-);
+const Hand = createIcon("hand", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABkgAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCegsGAAE2AiQDCAQgBYMtBysbdQXIhof/15Xe96WZM9aukWVm7BwgqgCx44rYUIaqpMxMXPP8C58esAA0Ev+8sWJRcT6Bnaft5rPU4tnAZjoB29uGoxwh+ERChETCccJxO0Ie78UdKqQH05e4XT40/tDRNSSVDEC0AMCMdauW+Ph8nI/4ov4G8YVFCIgZoBTIkKGLAJNlAl3kSuRywfmo1+d/YEkAUcX3TiBHjofxLCAHScrzSVsaKk3ztQ2VYtPrg+8rHu//dAfRLp4tbtJ8VwxYEx9MeKcB5JsH5ftpH627MqoiHhr4bN+b2oj14tjVwZT729/bVhSJB/s81Tkix3laW1K+Kz08+f3ZNxW887uVa+O+9ve3nRL3tg+4Gj798p7Ptnj2rx5f7v1S/aMTLe9ufLhly+JJPfXs1HFkr46deq5bZ9Slr0bXahGR5lT//r8yJ0XEy4qWLR+unUhyYuPdLU8034ZSs/Pnm5W4QdsVK9reAD45HixHZP6pLxBi9KhRsyIqtTV+XrvOQw8988y73v3mu+a/xw0ltwkEU5+7p+O25pP/rTUkcPHdf/4jv6L6x3E+PYuaBIJscH2wzQnKOC8AACnO6pkgkDwg4XdtdJ8AoUCApKoQINNZCwFyhUECVHQzRoCqwiqZyJsIbWzZeNLoBJ4Z6xyea+M1vGKyT+yqNpF1Kddj3B8xea4F5iwrRwwdXk4sj3XKNx6z5ieVaaX/WewbAAftdcxRp+2x2wGnDXbSEu+MI+ZG6BxfVBphqOFKE5XXrf3+tfY46ZQDjjlKi0xS1qv9nY1HD4DVJMDI940lIuVNDQ==");
 
 export default Hand;

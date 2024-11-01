@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `soft-serve` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/soft-serve?s=light soft-serve}
  * @preview ![soft-serve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/soft-serve.svg)
  */
-const SoftServe: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 0c-5.9 0-11.3 3.2-14.1 8.5s-2.5 11.5 .8 16.4l10.8 16.3c1.6 2.4 2.5 5.3 2.5 8.2c0 8.1-6.6 14.7-14.7 14.7L116 64c-37.6 0-68 30.4-68 68c0 11.5 2.8 22.2 7.8 31.7C23.5 174 0 204.2 0 240c0 32.8 19.7 61 48 73.3L48 352c0 22.2 15.1 41 35.7 46.4L92.6 470c3 24 23.4 42 47.6 42l103.5 0c24.2 0 44.6-18 47.6-42l8.9-71.6C320.9 393 336 374.2 336 352l0-38.7c28.3-12.3 48-40.5 48-73.3c0-37.2-25.4-68.5-59.8-77.4c7.5-12.1 11.8-26.3 11.8-41.6C336 54.2 281.8 0 215 0L192 0zM304 288L80 288c-26.5 0-48-21.5-48-48s21.5-48 48-48l8.3 0 23.7 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-18.6 0C85.2 153.4 80 143.3 80 132c0-19.9 16.1-36 36-36l61.3 0C203.1 96 224 75.1 224 49.3c0-5.9-1.1-11.7-3.2-17.1c46.5 3 83.2 41.6 83.2 88.8c0 16.2-8.2 30.5-20.8 39L240 160c-8.8 0-16 7.2-16 16s7.2 16 16 16l47.7 0 .3 0 16 0c26.5 0 48 21.5 48 48s-21.5 48-48 48zM80 320l224 0 0 32c0 8.8-7.2 16-16 16l-2 0c-8.1 0-14.9 6-15.9 14l-10.5 84c-1 8-7.8 14-15.9 14l-103.5 0c-8.1 0-14.9-6-15.9-14l-10.5-84c-1-8-7.8-14-15.9-14l-2 0c-8.8 0-16-7.2-16-16l0-32z" />
-    </Icon>
-);
+const SoftServe = createIcon("soft-serve", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABoQAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDBQsGAAE2AiQDCAQgBYMtBzEbhgXInge2m5UjkIaQpxGHrh+Cf17d632SQnYYVCKaABAnANrRpx07Np3/44aZbWzzwLuML0XXwHeZbduoFAK/h+1ooFqK0VCChJAthHef55rP7/nRAX4+gkOL6A2kNClTYM8nkt44Kp7YQHVsU6cjMLZD0YKHihaJpSseZ3dcHoHTUtUmDszh9BHYuWzXXwpYBwZnESgd+Ew6DOzbh6eRIulj7IE+0gsQgDoC4BFgAQsUIwBaYxFQjMMDDocgUiw2/wd6EAAoHvwWA4AD4oDzwE0AwAFgsM51bl0SxqW4AWFcMHRLdoPTftmXDTp37VawGsuqgrGUVgERdRiYQ20lRdZBkkoXQ/SIz0P0zPPfYHAQBhesu5BOGx5kN9ABr6SeO+hqe/cZPEH7KsJKCnUe2Lm2GcIghLFcC3tywNLG4lm64pVy/wofJ3zkyZOk7s263STLpXxtw9OKFZMzVmz8Ux79+YtB1cg4tv/pRsaHb5mTyKxKxu3t//axDM+gF88LwvLyC3fyTGYFnzezLIqi+t8/Wfvpe/3E/Cg1NcrintIuf2ltyP70PTupWsNJk2xim1rwivpAOl71V6ftWbcYntZO6kvtp5OOBxmiVA8AAgSFNQKNTGv9X2gA+H3//3I7sadala4IJGIAENjasdoM0yoBKl0AUDBaQEVDhcJwHNtB8skciJZFABcM8QSwFJEOR0AtxFFKE9a5uS8WuSRENsMBQzKzYWnKcjiyuYs4WvOmEE+2bKryicb/KaZ01USXdb5B3fq+pX9tOoXsY6flVt7tVF/QhmrgIBOYyQzmMZ5xTGaeoubQpzyf6XS1yC58EU8D6lIfT0t8uPNTGaCSOcxtLBfiq9AK/32+OgvsyTXgG4SxIQ0GAzLBuNbqjCYAAA==");
 
 export default SoftServe;

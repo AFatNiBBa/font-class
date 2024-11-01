@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microphone-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-slash?s=sharp-thin microphone-slash}
  * @preview ![microphone-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/microphone-slash.svg)
  */
-const MicrophoneSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M387.6 401.1l-14.3-11.3C356.8 396.4 338.8 400 320 400c-79.5 0-144-64.5-144-144l0-22-16-12.6 0 34.6c0 85.7 67.4 155.6 152 159.8l0 80.2-80 0-8 0 0 16 8 0 88 0 88 0 8 0 0-16-8 0-80 0 0-80.2c21.2-1 41.3-6.2 59.6-14.7zM240 101.1L240 16l160 0 0 211.4 16 12.6L416 16l0-16L400 0 240 0 224 0l0 16 0 72.5 16 12.6zM476.8 288c2.1-10.4 3.2-21.1 3.2-32l0-56 0-8-16 0 0 8 0 56c0 7.1-.5 14-1.5 20.8L476.8 288zM16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5z" />
-    </Icon>
-);
+const MicrophoneSlash = createIcon("microphone-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcgAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCAQsGAAE2AiQDCAQgBYMtBzcbCAXIjpQuN4Tx8P92VPf9qoZr5BoTCyjajEAGRX02kqNRTM7/Nf3u+dEBfj6CQ4u00gOJpMpVPJ/AgCMp2mYDmg1nE8WZt5yyUcroU5Jokh7P6fHpDHkct0sF6db0BW7MHxq/6uBqkiwDEAUApq9dudg7zdEc8fnpF4nPLURATAelQIYMnQWYJBPoLFcilwua4/Rp+g8sCSAqyZMTyFGJHTgMyEGS53mvNkWLuoqGfE14sHZn2zZtH6j9aMpbPSLahvh68purRW2tqKsLtzPi4b4bQtSFaBMRs6Arq29mKAKXt26zp22btq3X/Bllj3bRNs7s8Vjx2O/dv9jzhauG/CIP3ND53evO79zWCT3F9NufmJYvs6y6UP0KfMuW+fuNgavxwD2+dEKzQvFMYb7jv702tBinWgHfOHU1P3zRcRVm3GGV/T9Z5fb6ip+BQPDeV7O7bG2a9H91XQI/vvbnr/zDp99Jl6fHUC2BIBt0epBN6XIgbAB6inP1UL4okGyQk3etd5MAoRYBkkq1AmQ6KQTI1RooQIWuRgtQqdZKmchrhNY2d5DUOwNkxrgE5Fp7HlSY5GOtUuvIDI0yE+qfFz9nhGdPK4cPGVZOKJe5RtsOEccnlttiv3O5rT+22uOoI8622y77nT2gZ1psnuOwORoy2w+VhhtimNIE5XH1vH6N3c50lv2OOpImmai8r/Zzrt67P5REcEeIJIlIxQsljdEz+KxD28/aBw==");
 
 export default MicrophoneSlash;

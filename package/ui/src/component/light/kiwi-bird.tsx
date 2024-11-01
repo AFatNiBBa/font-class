@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kiwi-bird` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kiwi-bird?s=light kiwi-bird}
  * @preview ![kiwi-bird](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/kiwi-bird.svg)
  */
-const KiwiBird: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M192 384c33.9 0 65.3-10.5 91.2-28.5c33.7-23.4 78.2-51.5 130.4-51.5l50.4 0c44.2 0 80-35.8 80-80s-35.8-80-80-80l-50.4 0c-52.2 0-96.7-28.1-130.4-51.5C257.3 74.5 225.9 64 192 64C103.6 64 32 135.6 32 224s71.6 160 160 160zm311.3-55.1L544 402.3l0-99.9c-11.4 11.6-25.2 20.7-40.7 26.5zM546 471.8l-75.5-136c-2.1 .1-4.3 .2-6.5 .2l-50.4 0c-41.2 0-78.3 22.3-112.1 45.8c-13.9 9.7-29.2 17.5-45.4 23.3l0 58.9c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-50.7c-10.4 1.7-21.1 2.7-32 2.7c-22.4 0-44-3.8-64-10.9l0 58.9c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-73.7C38.6 357.1 0 295.1 0 224C0 118 86 32 192 32c40.7 0 78.4 12.6 109.4 34.2c33.8 23.5 71 45.8 112.1 45.8l50.4 0c61.9 0 112 50.1 112 112l0 240c0 7.3-4.9 13.7-12 15.5s-14.5-1.3-18-7.7zM448 200a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const KiwiBird = createIcon("kiwi-bird", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABiQAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCMQsGAAE2AiQDCAQgBYMtBzAbMQXIjtRe8cUEcgTf5yz7fcmuGXkZtAgcQAZXrkTHOHsh3uf/ms/v+TXgt2vRQ4vC0sa7FQ4zn09gwFEapaNp2nA2UdzeNGONKTsiSVKTdJzT8bSHPL6N4Sqkq9N7uDB9aPysq9NI8gxAtAHAnE3rVnipHvWI9xqPE+9ZhoCYC0qBDBl6CDBdJtBDrkQuF9Sj0aD/wJIAokrvOIEcVRyBswE5SPI879M0vblWaZlvrFWKTW9Ou3fQk5Nq8eSwe3vfMPSeiUU8MfGOoc8s/Gz6c+s/n/H8hl03bNwQcVd/Kd54TlHEbf1vG8yF4rIOV3QK9ItzBratnhn5QN8v13266fUZdw+4fUAtHh9yd8/5TS7rtPX2rlf1v6PbtYP63tPmnl/7vLfHe16cNXqfSxqtDxqrze4bIzbu3masg1o3Lt539Lx4773IyLz33osnThy8mAW7iaOGXrD0zC3zbKz6c05ecdY0rer1VuP8Vd9v8Eof9VrqqWvPqcSaDRvWxEf1iz1XH+uP/2/9h9qtD2/ZufWajh3XRCoQp1XavfPfjq2n/9tUS+CnZ/5XubjxQ5qd7kGTBIJseGO47dJsIHYAaYoj9DW+KJAcIKfv2sIVAoQCAZKqQoBMd20EyBWGCVDRywQBqgrrZCJvFjrYvoGkhYNBZqLjQa6DR0HFdG8mVR0ic0DFfZT/X+bCHlowqRwzcnQ5tVyWVNWnJBmdVm5bg48ILUNgoz0c6ACH2d1u9nZYRx5iRfZw+1towQv8UGmMkUYrTVUeVx9Xb7S7Qxxqbwc6II4zTXnfG+wIu/sQcBMVHWt6kojUvO/eR+494l0CAA==");
 
 export default KiwiBird;

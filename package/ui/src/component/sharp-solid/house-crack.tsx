@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-crack` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-crack?s=sharp-solid house-crack}
  * @preview ![house-crack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/house-crack.svg)
  */
-const HouseCrack: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M511.8 287.6l64.2 0 0-47.6L288.4 0 0 240l0 47.6 64.1 0 0 224.4 166.3 0L192 448l96-80L224 256 384 368l-96 80 38.4 64 186.4 0-1-224.4z" />
-    </Icon>
-);
+const HouseCrack = createIcon("house-crack", false, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABTgAAAHLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeIEMCwYAATYCJAMIBCAFgy0HMhuOBMgeh7Eb+sgulnZ0iD8RD8/PvZ77kgJwWjUmdnP1c6SqhnZu7FBIIItq+idzLV59BU5/787/+acP+Iw+2li4dOOYuvd5AoFGQ7vAJ2eBZZqApdtElDyi2FmEBElExxMeb1fI41M2rIx0L8Gt+qHxS5dhkqoMQDQCYPHOreu9+R7fIz6WJj5ai4BYDAqBDBl6BZgnE+iVK5DLBd+jVEr/gQUBRDm8MoEcGUZjGiAHSeT5YE1ZXb6jpqz6aE11TcSROBSihg8tiZ2xI7bHtlhsTuwYetL45M+gE5RGFkGfZOCfXjDJIt89cNDBjRZeNHKx3eyg53wDAsH9pdMw739lTQI/n/37Q35FpTdpUXqCSgkE2bjSOPvSIkiLBAAgxQ1DaRECyaCE37XWbQFCNQIk5aoFyPRoFCBXbawAZfpNF6Bcta0ykVcJrfYPkNS6DDIz3AS5Vk9BmXneGuVaIwsX4rGJz1rsCgst31dMnjCpmFMsM52MACxv5xbb3Kgb2hlNZ51w0QXXHHfMadcMcsV6+7rzVnjwcl9UmGyCSQpzFMfl8/EdjrviqtMuulB2mau4L41ywx8fTWIC1ClCSSJSTSgFxh+9cvjoWQ==");
 
 export default HouseCrack;

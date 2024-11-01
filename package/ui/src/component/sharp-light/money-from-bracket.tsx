@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-from-bracket` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-from-bracket?s=sharp-light money-from-bracket}
  * @preview ![money-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/money-from-bracket.svg)
  */
-const MoneyFromBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 0L16 0 624 0l16 0 0 16 0 160 0 16-32 0 0-16 0-144L32 32l0 144 0 16L0 192l0-16L0 16 0 0zM512 96l0 16 0 384 0 16-16 0-352 0-16 0 0-16 0-384 0-16 32 0 0 16 0 272c53 0 96 43 96 96l128 0c0-53 43-96 96-96l0-272 0-16 32 0zM224 480c0-35.3-28.7-64-64-64l0 64 64 0zm256 0l0-64c-35.3 0-64 28.7-64 64l64 0zM320 208c-47 0-80 31.3-80 64s33 64 80 64s80-31.3 80-64s-33-64-80-64zm112 64c0 55.6-53 96-112 96s-112-40.4-112-96s53-96 112-96s112 40.4 112 96z" />
-    </Icon>
-);
+const MoneyFromBracket = createIcon("money-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiQAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCQQsGAAE2AiQDCAQgBYMtBzkbSgXIjpTudpDj4f91lvd9yT4eeUGzhFoGCBBU4YrJKYGq6YJt+jlpmVwL0H/cT/1Bn0YF8ngEQ/nRtMrzKI4IgZ3vvNqyfMADmyjuTafHhAjCjggRk2kh/T0eXwfI45+YqkZ6Kn2JR7cvjW8Mdj9JngGIEgCrDuzZpqs7uiO+bL9HfGkLAmI1qAQyZBgmwFKZwDC5Crlc0B3tNv0HVgQQdfzpBHI0cB8eAOQgqef58HFFR9++zVrPfH+zVmTNorcQoggo76VEnJLTgvSQsqFphpjy3qS3hjfjhSlvL/Abn316ckRrvGj2DPHqxDcHNQ+/OzHiFJ+6pZ/3AYlDQ29r/r5nF14j574/+eMRLywpPf/epI+Gj26Vre9GfXn+S11leXfpRaVK6TErPaaUd7RPlFGCUnl16e4ZJRGtVuNujYMqUTRm5F1FJ50vrrSTvPrFzs5i5Qu9Z+5mdaOxevdMYWnkVSs6Cv76r6IDWXwfCAR/qH11ovfS3xrNBL7++Ief4HrtrnR3aqEhgSCb2p7qaLobSDsAf4objU56GEhu81Wf6eFxAUKBAEldoZAZqoRcYQrUjDDvgLrCHpnIO4R+jgFIergGMvPdAbl+3oGapT7x1fWLrBHZNmL/A5PWW3xdt2rW9JnV4ipME6636LV9SfXYMPFGVzYJ1zrvKle63jlnXeJ6o7zWtuANrrA+U6zzQ5VZppupslhVzu2l/cZ/retcMufqnViiet8z0Y157UloTljnbDFJIlKftpWntWzUtNPXnjpz2bnrAQAAAA==");
 
 export default MoneyFromBracket;

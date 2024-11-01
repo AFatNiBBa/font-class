@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ticket-perforated` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ticket-perforated?s=thin ticket-perforated}
  * @preview ![ticket-perforated](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ticket-perforated.svg)
  */
-const TicketPerforated: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 128c0-26.5 21.5-48 48-48l512 0c26.5 0 48 21.5 48 48l0 64c-35.3 0-64 28.7-64 64s28.7 64 64 64l0 64c0 26.5-21.5 48-48 48L64 432c-26.5 0-48-21.5-48-48l0-256zM64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l512 0c35.3 0 64-28.7 64-64l0-66.4c0-8-8-13.6-16-13.6c-26.5 0-48-21.5-48-48s21.5-48 48-48c8 0 16-5.6 16-13.6l0-66.4c0-35.3-28.7-64-64-64L64 64zm416 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm0 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-16 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const TicketPerforated = createIcon("ticket-perforated", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABjwAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCKgsGAAE2AiQDCAQgBYMtBzgbMgXIjtRG+UVWEg/frz167tsNAG8AGDwQusRFxQG21WXbqQT+Vfs+/5d7ftOODvDzERzKHO1Ba/hezxPoedvybSWQBRZQYtzYuhMe4rpD0xny+McqZUhX00ectj40ftHAKZIsAxDVATB87szJXv8YP0Z8LCE+moiAGAEKgQwZGgswSCbQWK5ALhf8GKUS+w8sCCDKcl6WQI7y2IcjgBwkZfO8VbsKTqpSmSr5nOBJFRderxdxuW21eFjnYgPxoN2T+lfbP20trtS+0KpqPKp7qWE2ssUewZ0p+JFq8bjj80YRl+pyZibD9lyuF3Gtw7M2VZfX4xdqX6xTtiTKLClgqwm7t8Wz6s9+bf5xzUfVhmaf+LYb3b79lA1zp0aNihV9/51h2iSGK9mBTriuPzlC469Mzgx/1XgErri9tOqPP1b1rWGJvdpUKORWqfo7IBCUf3H6m6XVBv1WvlICP7/6d/xgOpaeobwEgqxTqZNF6RgwagDZFHu06FljINlmS75rZZcECBURICmrogCZRqoLkKuoowBlNNVbgLIqmikTeQWhtsU5SCrbDjJ9HAa52l6CMgZ5kymrdmRnn3DuCM9+qWPK0OhVRfcu3YoBRWdDKp5QnF4cWIx2tNvDB9rDk9bYaotdVltlvV0lcofJ+d02G9NHjPZFhe666KYwQDG7fV2dgzM77LS+3TJ/mYGK9SPt7Okf3x66E4e2h6okEanGmzgjOv8rg78rAQ==");
 
 export default TicketPerforated;

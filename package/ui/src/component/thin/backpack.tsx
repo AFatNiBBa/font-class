@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `backpack` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backpack?s=thin backpack}
  * @preview ![backpack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/backpack.svg)
  */
-const Backpack: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M184 16l80 0c13.3 0 24 10.7 24 24l0 40L160 80l0-40c0-13.3 10.7-24 24-24zM144 40l0 40-16 0C57.3 80 0 137.3 0 208L0 448c0 35.3 28.7 64 64 64l24 0 272 0 24 0c35.3 0 64-28.7 64-64l0-240c0-70.7-57.3-128-128-128l-16 0 0-40c0-22.1-17.9-40-40-40L184 0c-22.1 0-40 17.9-40 40zM368 496l0-112 0-40c0-30.9-25.1-56-56-56l-176 0c-30.9 0-56 25.1-56 56l0 40 0 112-16 0c-26.5 0-48-21.5-48-48l0-240C16 146.1 66.1 96 128 96l192 0c61.9 0 112 50.1 112 112l0 240c0 26.5-21.5 48-48 48l-16 0zM96 496l0-104 256 0 0 104L96 496zm40-304c-4.4 0-8 3.6-8 8s3.6 8 8 8l176 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-176 0zM352 376L96 376l0-32c0-22.1 17.9-40 40-40l176 0c22.1 0 40 17.9 40 40l0 32z" />
-    </Icon>
-);
+const Backpack = createIcon("backpack", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABkgAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCYQsGAAE2AiQDCAQgBYMtBy8bYAVRlA1Gn+wjITfF+hGLiKiKTTN54AiVq5iG0vLw/2v/2+fO/fNFtKklAypRq3j0UlRDwzNpVn+d+hZVE3kMkstmEu+eIm+8F0idhAqqklZvlBCKTkUV1K//vfV8z0cD/EZD2zrx0kAuyqLzfJ5AYr35wAOaUKaBWIqp21g+O6tiEDyihjgMxTp0JOR47zJ70tvUwONUKn4Zt0lSFACiDwAcP1dbjpdNNiMa9T2i4SQIiBOAOUQBwRSCfbbCEuzMgSwLmlHX/AcqCCBK+vwJZLThOd4BMkjKnKeZomKdDS7S3mjXIO1FqxTyqg8oSJ6OzAAh+DbnqQJPWm+GS+P16Nt+5KW852WC5JrnnhDcct9BM0HylOdehOAV9x1vEBS85rnnS56Pvp0uec96MwA84b4TJgwEjQQNrTtDux6S+157nqLeYDSQa177UnLbYxcIuWW5dRD8deCrB1+rqqqqPTRWaXhUL2qtLagqTrE/JlxcLnjrCy4u4ph9SnGVBRouj2+7VMHl9mOXXx+mpqY0HI/+T30z9f+fo8YULEj4/s32mPn/v+OXOP7333zM9tv3BIvF1tD1IeA6zK93leX5b5D68QBzB9G3O+YACARXb9Q3dpr3/7fJBH5+//cb36K6YpU+oE0CQbFSr2iLCqISAIAU94REhUByX0mqdnklQOhAgKTUIUBhkgVB1mEZQYsZqQhKHU6xFbldGNLeIelyEwp7liAbcgda7PsQloaiMKZmK+1fmF02Kj1TiXEJKktNc033Got9tlp29IKeFUIMmDRhTr8+w+YiM8qTeePKKlzqQUqiOAmULGq7erxu0G/GrGGTJngkm7ofaAv1tBW+DVG3ZJJEpDazsrcBAAA=");
 
 export default Backpack;

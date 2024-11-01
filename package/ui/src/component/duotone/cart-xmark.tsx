@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-xmark?s=duotone cart-xmark}
  * @preview ![cart-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cart-xmark.svg)
  */
-const CartXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M120.1 32c2 4.2 3.5 8.8 4.4 13.5c15.4 80.8 30.8 161.6 46.2 242.5l288.5 0c32.6 0 61.1-21.8 69.5-53.3l41-152.3c.9-3.5 1.4-7 1.4-10.5c0-21.4-17.4-39.9-40-39.9l-411 0zm156.5 68.6c7.8-7.8 20.5-7.8 28.3 0L336 131.7l31.1-31.1c7.8-7.8 20.5-7.8 28.3 0s7.8 20.5 0 28.3L364.3 160l31.1 31.1c7.8 7.8 7.8 20.5 0 28.3s-20.5 7.8-28.3 0L336 188.3c-10.4 10.4-20.7 20.7-31.1 31.1c-7.8 7.8-20.5 7.8-28.3 0s-7.8-20.5 0-28.3L307.7 160c-10.4-10.4-20.7-20.7-31.1-31.1c-7.8-7.8-7.8-20.5 0-28.3z" />
-        <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48l45.5 0c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5L488 384c13.3 0 24-10.7 24-24s-10.7-24-24-24l-288.3 0c-11.5 0-21.4-8.2-23.6-19.5l-51.6-271C119.5 19.1 96.4 0 69.5 0L24 0zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM395.4 128.9c7.8-7.8 7.8-20.5 0-28.3s-20.5-7.8-28.3 0L336 131.7l-31.1-31.1c-7.8-7.8-20.5-7.8-28.3 0s-7.8 20.5 0 28.3L307.7 160l-31.1 31.1c-7.8 7.8-7.8 20.5 0 28.3s20.5 7.8 28.3 0L336 188.3l31.1 31.1c7.8 7.8 20.5 7.8 28.3 0s7.8-20.5 0-28.3L364.3 160l31.1-31.1z" />
-    </Icon>
-);
+const CartXmark = createIcon("cart-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABrwAAAKaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yCfwsIAAE2AiQDCgQgBYMtB1AboQVRlE49keyLg3gMtxTBspIx6jRGRqJ35ep8sR4P3+/3v7X3OV/EgSpiGZJpyKbtd5p4KDRI+PSfyW+oJo2Z+/Nr8z/E9KHeuDoRiSKaLlPPkIiHOMleV+IIdR1BtG2unm47BPR228Q1z5+q5tE+saF0aidY5vkEBhjtoxZq0MeBzUin4LaLI+ahMULiADX+l0Vt5MP8wd3wfwDjiymLpK4CIAYBsP/44UM+tqKVsdS8IpYcREAcAMsECgpmBdilCMyqlqGqglY2Da1ommUEEO3CTymgHZ14iheAClKVtR6hVou2iFqqlayoparNpqMaUUPFug7VREuthY67FtVA27UBNRunUq133HVXLdp0CM5qZKsWbYd3O1uxOecGv5W0xCEJhRRjTUAcpFh7ChKgXJyXhNQma/1d1kJlX3IVaDudldg4lWaZ94gU8JAlDloYIxOotCxnTwEN3HHBvqH/x8/uD/uHeat1Pktk7SUdGVuXcyMZcZHg/uLqoS9fR7P8v3eZnJzq9OnpVDXjeubtrb8bIMpGXVUdFt09j9ht98lXInGuyezFBZIpEhv7L9QbXoqWNj33dZBMM6huBwLBm5lPK+cHdv3r7Enw+fWPP+RHaJ6Tyj46JQjKqmaVM7kPbblTiNMZV63YYN11geKUCvRee90TIHQjQGrXLUAxY1CAqttKAdrM2yxAu26HFVG7hFFnO1HqdUFUbHFHVI16KWqzy/Q9LWMJMVC1MNP+J2YaGQLD07CQzWMZV8saHfbU3jiFh13xW92WoHvJrjOnru3YduB6wLk0nbtxYmQLH8YiVJCVh8rwcu2paWWQvnTlYNlwfRIKPu+Lu93unaBekVhh0QIxMQIJYtPH7s7cg9qWgXy7ZWx4uwE=");
 
 export default CartXmark;

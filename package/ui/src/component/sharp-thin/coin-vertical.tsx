@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coin-vertical` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coin-vertical?s=sharp-thin coin-vertical}
  * @preview ![coin-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/coin-vertical.svg)
  */
-const CoinVertical: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M272 256c0-68.5-15.6-129.7-40.1-173.2C207.1 38.8 175.4 16 144 16s-63.1 22.8-87.9 66.8C31.6 126.3 16 187.5 16 256s15.6 129.7 40.1 173.2c24.8 44 56.5 66.8 87.9 66.8s63.1-22.8 87.9-66.8C256.4 385.7 272 324.5 272 256zM144 512C64.5 512 0 397.4 0 256S64.5 0 144 0l16 0 96 0c70.7 0 128 114.6 128 256s-57.3 256-128 256l-96 0-16 0zM279.3 344l80.7 0c4.7-24.8 7.5-51.8 8-80l-80 0c-.5 28-3.5 54.9-8.7 80zm-3.6 16c-5.9 23.4-13.6 44.9-23 64l82.4 0c8.7-18.6 16-40.2 21.6-64l-81 0zM194.2 496l61.8 0c24 0 49.5-18.2 70.8-56l-82.7 0c-14.1 24.3-31.1 43.6-49.9 56zM360 168l-80.7 0c5.2 25.1 8.2 52 8.7 80l80 0c-.4-28.2-3.2-55.2-8-80zm-84.3-16l81 0c-5.5-23.8-12.8-45.4-21.6-64l-82.4 0c9.3 19.1 17.1 40.6 23 64zM256 16l-61.8 0C213 28.4 230 47.7 244.1 72l82.7 0C305.5 34.2 280 16 256 16zM64 256c0 49.9 9.3 94.8 23.9 126.8c14.9 32.7 34 49.2 52.1 49.2s37.2-16.5 52.1-49.2c14.6-32 23.9-76.9 23.9-126.8s-9.3-94.8-23.9-126.8C177.2 96.5 158.1 80 140 80s-37.2 16.5-52.1 49.2C73.3 161.2 64 206.1 64 256zM140 64c28.2 0 51.2 24.7 66.7 58.6C222.5 157.1 232 204.3 232 256s-9.5 98.9-25.3 133.4C191.2 423.3 168.2 448 140 448s-51.2-24.7-66.7-58.6C57.5 354.9 48 307.7 48 256s9.5-98.9 25.3-133.4C88.8 88.7 111.8 64 140 64z" />
-    </Icon>
-);
+const CoinVertical = createIcon("coin-vertical", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABngAAALDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDDgsGAAE2AiQDCAQgBYMtBzQbkgXIHoVxs3NEgWbW2LHoZMJLxMP/r6X3/T+h2Q0UGBUQWUBX1uhYlYWLax2wTSTZPbUEevz/9mt3dv0Nppbc5mMuIeFpMU0k007aUDmEiNlu0wXaeTrQBgPJI4lCTyzcN5CuLh3/at8Bl//FH6WlWuveClCtAhkP4FEKtUIBrmCxUEQjojG3xQU1OGQGg+gh7xD50MaH9nsoYkIjJemprBcPyuz4aoxFkpyhEF3gOa0/WpSDh0Y0Ir6rQ/TYCQJiPWAyhoyM8RhYRS4wnsJkUCgEjagq+Q+cDAFEM0AnqylQx0N8YkWSlIXCdCS1Em6XTMfxJkOFqCmpYUA8ul3cV4wS8DvSoDTeBLOfIyllWuGvh1ESxZEsUo34vjPFjoPFjg2PbWc6VCO+kVSyM5+KktOuI489JwF6z47bdBT0caDj6STUH/oi/JzwW2kg7CXdDrkqProxh4XO9rqkL+SJxxHd9juwuxGD4c+9T/nUbpOT3ym9Zy46P7BzM2xmX6JeiTMsWgl17f/z7K0wa2t0Vq1pA/nZ5NgBD5/mOnVCk8SB2uHD/YpupHzaq4u2/gB935pdK2ug9LQukvxZt3W/ckibj04dNC4oXeg5QPqbw7b006ZV1jPu/+w63utQe48jW//mzvsRgM5Xg/LkXbnrNGIEXQ8QCPLfv6Zxwv/Wmgzw5fXPr3K56mNcl3WDVgkEeX41X2XMAlEeQDrFMDfjjQLJPSV91bpHAoQSAZJmpQDZOCYYKJTmYaDJRJEYaFY6SC4KLcJwVQOSuouQrTQFheFuockq76lmwyP7q8XbLH+LOVMZS5nmokEhLnEu27JudUEjj8e7HLvbcGrzxVI069FtUJNGbQZJ6peTHdIl1WJSfJCLUEFCuIjjcl17dQpK9xvQ9my9n0Q8l/fjPobt3r7wyajqUrOTRCTDhvNt3YFfAAAAAA==");
 
 export default CoinVertical;

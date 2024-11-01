@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-magnifying-glass` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-magnifying-glass?s=thin folder-magnifying-glass}
  * @preview ![folder-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/folder-magnifying-glass.svg)
  */
-const FolderMagnifyingGlass: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 464L64 464c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48l133.5 0c12.7 0 24.9 5.1 33.9 14.1l35.9 35.9c9 9 21.2 14.1 33.9 14.1L448 112c26.5 0 48 21.5 48 48l0 256c0 26.5-21.5 48-48 48zM64 480l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L301.3 96c-8.5 0-16.6-3.4-22.6-9.4L242.7 50.7c-12-12-28.3-18.7-45.3-18.7L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64zM240 192a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm0 176c23.6 0 45.3-8.5 62-22.7l52.4 52.4c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L313.3 334c14.2-16.7 22.7-38.4 22.7-62c0-53-43-96-96-96s-96 43-96 96s43 96 96 96z" />
-    </Icon>
-);
+const FolderMagnifyingGlass = createIcon("folder-magnifying-glass", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABigAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCHAsGAAE2AiQDCAQgBYMtBz4bKgURlZrDyH4k2LZq1kk4Q8uCkmlxJITBVpflk3j4f//62ue+V7V+F5qsBh2CygQO7GycTjROGQkBsN54Sg/lReh/U1WF24PbIJj/yz3/z48O8Bsd2h66aS28a4/nCSTWy6YnlAWWaQAUa9ZOR71B/1kMkhRJhu1lmAwekMfb1iqQ7qTPcEneNH7QynGSLAMQDQEwccGcaT74Nr6N+Oz/V8VnpiAgJoGaQIYMbQUYIxNoK1dDLhd8G///T/+BKIAoig8nkKOIrdgN2oAkx+/q1Knaqlyo5vPLhdKqSrXyWPObrbO4u8Wt7uU412xs3CiX49FmN1qluN30epeV1Ur18d5Pt8nirl5PdSvF2ebj4qlSKR7p8UTLFHd6Ptl1yav0bJ9nhrzW77n+zw/3eu9ZcaPFreaz4+kO9/V6atgrPZ5oe2/PJ4d2eqrhUz91/Gz9Z95vcPjw4QFffp5NkH3+5YCTmnw12FdNrwHAH+oXH2jUqEQpBQ9cUz0Nv1ObExyY0Hq+wwc7FyzY+YG94IUBN4aYM2fo0MkWZXVPPXX4MPF1/DwQCHp9cd/C2mDMr3XlBL5/65e/zNfo/29Begp1EgiyPv/3WZpAIgAAKXbqlCCQbJaTV624KUAoIUBSVBIg00ZDAXIlvQUoaG+oAEUlc2Qiryc0tazApGILzAxzAOaaehkWjPFhVNQ0MrUjlYZ89MVpqQEfw4H9BtRG1bp9mdIkPOyPrk1rPXb6uZ44G3T57c1uhe6cvikjhD+IA/sNqI2qLY9uT5e+jy3nQ0bX9ls9do5X94QJImZqgkRMLfTAK/Rzbk2/+aDLBgAA");
 
 export default FolderMagnifyingGlass;

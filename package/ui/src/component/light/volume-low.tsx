@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volume-low` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-low?s=light volume-low}
  * @preview ![volume-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/volume-low.svg)
  */
-const VolumeLow: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M151.6 188L288 66.7l0 378.6L151.6 324c-2.9-2.6-6.7-4-10.6-4l-85 0c-13.3 0-24-10.7-24-24l0-80c0-13.3 10.7-24 24-24l85 0c3.9 0 7.7-1.4 10.6-4zM290.2 32c-7.3 0-14.3 2.7-19.8 7.5L134.9 160 56 160c-30.9 0-56 25.1-56 56l0 80c0 30.9 25.1 56 56 56l78.9 0L270.4 472.5l10.6-12-10.6 12c5.5 4.8 12.5 7.5 19.8 7.5c16.5 0 29.8-13.3 29.8-29.8l0-388.4C320 45.3 306.7 32 290.2 32zM409.6 179.2c-7.1-5.3-17.1-3.9-22.4 3.2s-3.9 17.1 3.2 22.4C406 216.5 416 235.1 416 256s-10 39.5-25.6 51.2c-7.1 5.3-8.5 15.3-3.2 22.4s15.3 8.5 22.4 3.2C432.9 315.3 448 287.4 448 256s-15.1-59.3-38.4-76.8z" />
-    </Icon>
-);
+const VolumeLow = createIcon("volume-low", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABbgAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBZQsGAAE2AiQDCAQgBYMtBzEb5gTIFkrLw//rSu/70pLGDDIAY4CpJK7CTbEnLVZuPdPf/PPOowCfUWhj2dSNC2zP8wQS69Iu8AJZ4Jl+AfvqNhaezs/qMQgeEUNzoVmHzg55vBKD1ZBeSn/iibxU/K2j2yR5BiBaAGDGulVL/NQYjRF/Vj8n/rQIATETlAIZVroIMFkmvEOuRC4XNEa1Gv+BJQFELb4ygRw1WI3tgBwkWZ6369OyUtM0X1upKTatW70uxdp4viji/U4Rr/SrxCPt1z3cZnUU8W6bZzuIl9o+16cSa6J9tInnKo+0fyGyuNHu+WLN822ebftRxxf7Y9Nz7b/t9fbEnh+3+PjfHn/u/dML2QPnnbsI55tVu8aKtsu1XbFG7ayHXqk8cPecZY7f/79uubr/7x9f5u55n/jE3UrT8w80va3pA+ebnnv655cOv3SzefObdtjLv0xq0WISEAjePTfvjW3NJ9+rryTw1zf/32O/ompj/JQ+Rr0EgmxwdbDN8RPETwIAkOKsnvETAsliGV61iecFCAUCJLUKATKdtRAgVxgkQI1uxghQq7BKJvIGoY0tAyRNnACZsa6AXBufghqT/WLWahOZtAhhED+72LlDc+bKEUOHlxPLZahItWA+nlRu8/3PKg3Aqr2OOeq0PXY74HTISUucM46Y28FzfKg0wlDDlSYqj5Pn5bX2OOmUA445GlMmKe/L/Z3tmwdASog6kitJRCqerTHk8LFzAAAA");
 
 export default VolumeLow;

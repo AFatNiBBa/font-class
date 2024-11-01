@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person?s=thin person}
  * @preview ![person](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person.svg)
  */
-const Person: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M160 96a40 40 0 1 0 0-80 40 40 0 1 0 0 80zm0-96a56 56 0 1 1 0 112A56 56 0 1 1 160 0zM141.1 144c-21.5 0-41.1 12.3-50.4 31.7L23.2 315.5c-1.9 4-6.7 5.6-10.7 3.7s-5.6-6.7-3.7-10.7L76.3 168.7c12-24.9 37.2-40.7 64.8-40.7l37.8 0c27.6 0 52.8 15.8 64.8 40.7l67.5 139.8c1.9 4 .3 8.8-3.7 10.7s-8.8 .3-10.7-3.7L229.3 175.7C220 156.3 200.4 144 178.9 144l-37.8 0zM104 248l0 232c0 8.8 7.2 16 16 16s16-7.2 16-16l0-120c0-13.3 10.7-24 24-24s24 10.7 24 24l0 120c0 8.8 7.2 16 16 16s16-7.2 16-16l0-232c0-4.4 3.6-8 8-8s8 3.6 8 8l0 232c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-120c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 120c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-232c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const Person = createIcon("person", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhwAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCLAsGAAE2AiQDCAQgBYMtBy0bKQXIHgk2TnGPlYXjGg//zPV2X5KfAlAKxLyArOoWjZizith2KkS/JeD1901c8/wLnx4wiuxRKtat6/PO8wkMOMqaN5HZwGY6AdvRvKcGKLQLdXfIYql1KkieTH7AzeZD41dNnCORpgCiNgBGL5w73aNSlCJ+KH9K/GAqAmIMKARSpGguwDCpQHOZAplMUIpyWfwHFgQQufTiBGTIcQhnABlIZFlWo0bzIdUqamQLzNGqS19v9nTTpzq80viJJk+2j1eR0LrbvTYTVs7sOO+TxvPiXsMHjRbG+wOrxafd58f9+ubYgnhqQNV5wv0GDxtFXBGu+8UgUKEJi1MnDla90vBBRDxoeK8+ohw90Oat2m/97ocNP3h+5aqP7t79aFXF+evnRdys/XjsVf3nrG0/5qoJH3bw4QSdaT93Tf+1sse1O7Tb+FNaW7NUqnlIg9mzGxwyUH+Sr1qV/xS9dKlmtB2aIoeUo+eBQNBw7rfLV9Ya9n/lagn48as/Nz+jvPwohiRvobIEBGm3cjfL4oBcHkMEACCJA9rEKLlAYpdMetfqHggQqiJAIldVgFQztQXIVNVVgAot9RcgV9VcqciqCPUtH/BEdbvx1ADH8Ux9H+MVhvk6m6sfKfgpwKP8/GVOmALjVxW9e/QqhhS7DZ0KUZJdHFpc9nQ6IAc64xM22GmHfdZbZ3MjTLA9phf2227CETreFxV666GXwhDF4/bLwwust8dem+20wy8zVPF9opMDx+M7Y38i8fZRkUiIJIdWAA==");
 
 export default Person;

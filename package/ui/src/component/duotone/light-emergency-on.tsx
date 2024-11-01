@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `light-emergency-on` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-emergency-on?s=duotone light-emergency-on}
  * @preview ![light-emergency-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/light-emergency-on.svg)
  */
-const LightEmergencyOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M160 192l0 160 320 0 0-160c0-88.4-71.6-160-160-160s-160 71.6-160 160zm48 0c0-61.9 50.1-112 112-112c8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80c0 8.8-7.2 16-16 16s-16-7.2-16-16z" />
-        <path d="M69.3 36c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l48 32c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3l-48-32zM597.3 76c11-7.4 14-22.3 6.7-33.3s-22.3-14-33.3-6.7l-48 32c-11 7.4-14 22.3-6.7 33.3s22.3 14 33.3 6.7l48-32zM24 192c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0zm528 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0zM128 352c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-384 0z" />
-    </Icon>
-);
+const LightEmergencyOn = createIcon("light-emergency-on", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABmAAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCLgsIAAE2AiQDCgQgBYMtB2AbYAXIjpQuV0Tx8LxdX+e+qu4PqEbmgshEhDvROqNiO91KM1Hi+b+c339+G/DzLcFDGZvuWgvH9MPmep5AgGNzm3pZIIFliWTkWTu9LwalHyyS4JMM2zFsTpCnCdmVKqT70nu4Jf4PYPyiz5UkdRmAaAXAqoP2bPPGl/FlivfKA8R7tiIgVoNCIEOGQQGWygQG5QrkcsGXqSz5MsqyIICoik/LQBV1uACXA3KQVKQ8bxRPf2tHQ6Up359+tP6wp3vvHbconhp4YPziM57pv3/swniy774JS05/sve+cQ3xzMD94+tbyuuOvr4z4k7i0q67Gprihp57IuKy7rvrGw8SmiLii+Wv7f9s6St7Gx6ZEvHCgru67uw8MPHZwXDU3d2jn299/rdR73nP2gcmf9xQyQhaJjTd/tGkkmDpebu6unatBFqBOc880nwt1zav5CVCLjU5+kj5qHhXelSsee+9NQmL997bN7Plf/7488vm5i9bT9gfLOXHgUDQtuyHj2pZ+l9tQwJfv/THP+5+5Zfp0vQ8aiUQZFPLqQ5Pl4JlBlBMcaHRykc9KpDZrELetdHdAoR6BEiq6gXIDGgVIFdvigAVw+YJUFVvj0zkdUKnIwpMGp0DM/NdBHOdXoQVS71ZqOqMDIAafLTvX/b6GqybVcyaPrNYXEwrso4pJUwuKZZ9Ey/0HZPooBOd5UznO8HxTnF+RZ9rW/kCZ1ivoet8UWGW6WYqLFZs12/t/Vw413lOGZv70yxRnE9NdKHefxIFExGdbUUmI1Jk/aB0pj2Y9LSzzpwG536DffPyAgA=");
 
 export default LightEmergencyOn;

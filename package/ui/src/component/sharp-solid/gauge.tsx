@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge?s=sharp-solid gauge}
  * @preview ![gauge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/gauge.svg)
  */
-const Gauge: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm320 96c0-26.9-16.5-49.9-40-59.3L280 88l0-24-48 0 0 24 0 204.7c-23.5 9.5-40 32.5-40 59.3c0 35.3 28.7 64 64 64s64-28.7 64-64zM144 176a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm-16 80a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM400 144a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const Gauge = createIcon("gauge", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABjgAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCWAsGAAE2AiQDCAQgBYMtBywbVAXIhuB7nVW/L9k1Iy+DlhkzOADMECidupCjiz116nnOQwF8ouCjZA1aGpAxgfbSCAQLWt/UK3CvVrCaVsD6tuGxEYjQiCiRFIn4geN2gjzezq5SId2fvsGt9KHxl86uImnMAEQrAMzasGaZD5qiKeLr+qvE15YgIGaBUiBDhm4CTJUJdJMrkcsFTVGv439gSQBRxU9LIEcDbsJ9gBwk1Tzv2r0tv2St0jxfX6sU8fuciI9XfF+7cdm3sz5c98vMD5Z+U9yw/LvZH63fdXmHiHv6R0QUIcQj7e5y/6An+z0+5Omu62/sGHFvXN7hnuKGdne5rP3dtbVRfiVMAlt2BXDW39P7qVZP/dPrm/3f+MC8Rjq//OGcOR++3LnRPBnFW2bsaPc8z3f4VicjdfKtDs8/365o3fqBB5pQ0IEW13FdixbXwUrLFRrSsyek5a2PA4Hghrfqf+5oOfX/hloCf7z13z/9R6j+QZKeQoMEgmxofaitCSQCAJDivN4JAslVHvhdm7lHgFAgQFJVCJDpqpUAucIQASp6GCdAVWGNTOSNQjvbJkiaOQUy410AuXZeBhVTfW5WtYssKZmUYr6EifMlMm+vHDV8ZDm5NCODzTOqTqeUYWXg+VIZBEftd8JxZ+2z1yFnBXbaMuecY+Z76DxfVBpluJFKk5XH6VpcL8zTzji058+3TFHeNwY677cPAj1h6GhyeoJwqhzYde7APgA=");
 
 export default Gauge;

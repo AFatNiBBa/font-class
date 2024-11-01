@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-santa` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-santa?s=duotone hat-santa}
  * @preview ![hat-santa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hat-santa.svg)
  */
-const HatSanta: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64s-28.7-64-64-64L64 352c-35.3 0-64 28.7-64 64zM480 240c0 12.7 9.8 23 22.2 23.9c-8.1 9.4-7.7 23.7 1.2 32.6s23.2 9.4 32.6 1.2C537 310.2 547.3 320 560 320s23-9.8 23.9-22.2c9.4 8.1 23.7 7.7 32.6-1.2s9.4-23.2 1.2-32.6C630.2 263 640 252.7 640 240s-9.8-23-22.2-23.9c8.1-9.4 7.7-23.7-1.2-32.6s-23.2-9.4-32.6-1.2C583 169.8 572.7 160 560 160s-23 9.8-23.9 22.2c-7.7-6.7-18.7-7.6-27.3-2.8c-1.9 1.1-3.7 2.4-5.3 4c-8.9 8.9-9.4 23.2-1.2 32.6c-3.9 .3-7.5 1.5-10.7 3.4c-6.9 4.2-11.6 11.8-11.6 20.5z" />
-        <path d="M64 352l85.7-214.2C175.2 73.9 237.1 32 305.9 32c49.5 0 96.5 21.8 128.5 59.6l74.3 87.8c-1.9 1.1-3.7 2.4-5.3 4c-8.9 8.9-9.4 23.2-1.2 32.6c-3.9 .3-7.5 1.5-10.7 3.4L402 192.6c-1.3-.4-2.7-.6-4-.6l-.8 0c-7.3 0-13.2 5.9-13.2 13.2c0 1.8 .4 3.7 1.1 5.4L448 352 64 352z" />
-    </Icon>
-);
+const HatSanta = createIcon("hat-santa", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiwAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCCQsIAAE2AiQDCgQgBYMtB04bKQXIHgnZWcxdEfW2TBHU23rtebt3JX3GPRFBBEQ2RyTKTIwZYORYEBoilzNBU8hAvWszWOt/83+u58OkAZaNYCjRmDgbFXjm8wlMME7bvh3QCZ2eod3bRHzsEMSuCJEYzOPL44mukKfh2Tkl0hPpV9zH/wMYf+t0jmRgBiAaALBw07q1vr8QF1L8eu1j4ldrEBCLQCGQIUOPAHNkAj1yBXK54EK6Nhfi2gUBRBmDzkAZJRzADYAcJCHleaV9aHWpNt/IL1Rt2rR+00ezv1p+19RPRm6Ih1se7ny4ZWM8WlWlIE61boiaeGJkxBtDa+O10W91PznqzWE18fKI1zv2PTH08dZHhhPjte5X2h/rYjw57Km2R4f4L3c82rKDh5NBbza8+W/lV341f9eGPyPgCU/dtWBof91tqzaqVP6wiVs6NaTwfnWW5t3tlKKqkcbnT3m+sbFKVdw5/x6T3v/jcvXghQsHV1+eMm2x8O9X3vlTlcbzNvHVWiAQTFn016xd9XP+H1CdwKUv/y+97tqFdCq9iQESCLIx18bYnk4BsgP4USluNSidsgCBzByJfGqNRwUIVQiQlFUJkOnWIECuymgBSvpMFaCsyjqZyAcKLXYomdS4gcxMczuZa/ERWTLHD0FZS2TeJvuK/NnLWGahpVvFxHETillFM5EVBxJpObsYNkfcGhoj4dBB1znpZgfsd8TNhrjR2vgWJyzr4Ut9UWGicSYozFIs55fGRhPc6CZH6tr6mtmK894It/b7R4KTCOckFzIZkSJrPLzn5rGPj+6esfe20VxoNxQAAAA=");
 
 export default HatSanta;

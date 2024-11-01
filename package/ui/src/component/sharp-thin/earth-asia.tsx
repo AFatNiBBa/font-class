@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `earth-asia` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-asia?s=sharp-thin earth-asia}
  * @preview ![earth-asia](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/earth-asia.svg)
  */
-const EarthAsia: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M383.8 459.2L356.7 432 296 432l-8 0 0-8 0-64 0-3.3 2.3-2.3 64-64 2.3-2.3 3.3 0 64 0 8 0 0 8 0 24 55.4 0c5.6-20.4 8.6-41.8 8.6-64c0-116.1-82.5-213-192-235.2l0 83.2 0 3.3-2.3 2.3L272 139.3l0 76.7 0 8-8 0-40 0 0 88 0 8-8 0-64 0-3.3 0-2.3-2.3L116.7 288l-98.6 0C33.8 405.4 134.3 496 256 496c47 0 90.8-13.5 127.8-36.8zM120 272l3.3 0 2.3 2.3L155.3 304l52.7 0 0-88 0-8 8 0 40 0 0-72 0-3.3 2.3-2.3L288 100.7l0-82.6c-10.5-1.4-21.2-2.1-32-2.1C123.5 16 16 123.5 16 256c0 5.4 .2 10.7 .5 16L120 272zM397.3 450c38.8-28.3 68.7-67.9 85-114L424 336l-8 0 0-8 0-24-52.7 0L304 363.3l0 52.7 56 0 3.3 0 2.3 2.3L397.3 450zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM336 152l0 32 0 8-16 0 0-8 0-32 0-8 16 0 0 8zM288 264l0 32 0 8-16 0 0-8 0-32 0-8 16 0 0 8zM152 352l32 0 8 0 0 16-8 0-32 0-8 0 0-16 8 0z" />
-    </Icon>
-);
+const EarthAsia = createIcon("earth-asia", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABpgAAALUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDXwsGAAE2AiQDCAQgBYMtBzEb4AXILgdsYzRaPzQ4SzA1u5Yqx95v5tE7MSiO/2dpPPz/3Pfuc5NHyWfIZ0YHVGDHwo3rqmNWdWVLoMfydk8xksaUjwgmMyFShSJkvYsJ1ORuSW2J9KQfYCIYAXC5+9U0SYu2LerzIomLLH2LBs2lAQZWA8ACM+8Klq9/HnCxPkSLOKVkSEPX1I+yb8CzJ3u0XxRVgkRiRPJoQAMedYrOBjbTCdim5j01QCHq+k6Qxxs4aqSXxBHPuQ+NX/X1ECRZBiC6AGDJrm0bvPtT8I3gi3YD8YV1CIgloBLIkGGAAPNlAgPkKuRywU/xn/0HDgFEXbgugRwtfIafGT5H0sjzxSN6BGtNWeuY7yxrxZGxY7IuArp7x7bkpbIUooxX6L31ngrRI0aHEEXBmV4x1hXf7jBTP4NxWZQ9Y0yUgU1lzvaOcSue18/V20qcUj7yzej6xCI2hyg3M0c/rXs+2HQpz+epsR4+66vusTRb5+YmnQiMOowvw/YeWxYlVMwoh7ZhMV1Hd4o2+OwoNC2W6aadZKub+pjlWQW7N23a1nXbZPJ3Nmhqjt6dHbpsiK8c03HP4jlLqvuDlR7kUkbZhHWGRfvo1QcO3OZv2KFD/x83G6d6vBrXqTUvd8/Qlhhmo33+fPqxokXfrNt6L/NFK7r5zLXpVBVSlC6aKsXQSZcG1GPbEKGSSIG47os/f1fn+f9XJ/DL6//BX1H7QmoDNCUQZOPbtT+BRAAAUtw0NIRA8p6G8K4dPA+BUCBAUlcIkOmviwC5wjgBagaZIUBdYZtM5C2hhwMNSDq4AjIz3QK5Hl4DNfN9EqjrEWT3tfquVP9WZljZRVdMqqaUyo1n8yrNraro/s6bzaMvr0twrpMuuei6E44743pHvGpD+IYLVi7RK3xRZYqJJqvMVR0uPTTsxK6rrnWVad3xUeaprvePdnO59RhoS4LsVClJIlLxsBgnfBoAAAA=");
 
 export default EarthAsia;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-info` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-info?s=sharp-regular file-circle-info}
  * @preview ![file-circle-info](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-circle-info.svg)
  */
-const FileCircleInfo: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 464l236.5 0c12.3 18.8 28 35.1 46.3 48L48 512 0 512l0-48L0 48 0 0 48 0 256 0 384 128l0 70.6c-17.2 4.9-33.4 12.3-48 21.8l0-60.5-112 0 0-112L48 48l0 416zM432 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm15.3 64l-32 0 0 32 32 0 0-32zm1.2 64l-16 0L416 352l-16 0 0 32 16 0 .5 0 0 48-.5 0-16 0 0 32 16 0 32 0 .5 0 15.5 0 0-32-15.5 0 0-64 0-16z" />
-    </Icon>
-);
+const FileCircleInfo = createIcon("file-circle-info", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBewsGAAE2AiQDCAQgBYMtBzcbAgXIjtMV8Uyb4BIP/28Xdd+v6j4zVWPUyN0DIYKVQZF2N5KQwTmUMtq4850nZOJy53/+9IDLnuDR9tCntwXytHZ1nkCARV2+qQ2yLMwSxfx2PuEMorchXcrF7w+bG7bfX0MeP8U9aqQH0re4u3xo/KW3GyS1DEB0AsCCjWvX+Pz3+D3im9Y7xDdWISAWgEogQ4Z+AsyWCfSTq5DLBb9Hq0X/gRUBRB0eKYEcdezBQUAOkjzPB/Zt27Ostc83lLViSlmUL4xqV0RkEVGW60M8PTSiCHeftPfWjIgPxr3iytiXp79f3Jz54fhX4+qE12Z9VA4qykKUEc0tReHpw/kx+MVOL/7Ttwe+1foHJ+37Vt9Gw+MaGj9evmyZe7fvlFNe9/hlIxKpOWj48EHNlEawGBn/VRCEhQM7dWpWOkVDdKqYRqWj+ccDgeChaUcu7uw4+/82ZQJ/fog5XOvzND+9iDYSCLKxrbG2pflA+AD8FBcMFr4okGyRw7u2c68AoUCApK4QINNXJwFyhTEC1AwwRYC6wlqZyNsK3WwfcNLOaTgz1UU4181bcM1sX3h13SLTMlpH6I+8hKUcWDKrao5vVDOrZawzikOmyVnVtjHyQqyNsisdcNIJ5+y3z2HnGHTGmvC845ZK4BI/VGkar6EyU/U4e16+wX5nnHXYSSfyNLNU7zsjXZC7R1k7AeFEkSQRqdONVsb9jyOOu8EAAA==");
 
 export default FileCircleInfo;

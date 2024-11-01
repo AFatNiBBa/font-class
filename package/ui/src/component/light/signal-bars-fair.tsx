@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signal-bars-fair` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-bars-fair?s=light signal-bars-fair}
  * @preview ![signal-bars-fair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/signal-bars-fair.svg)
  */
-const SignalBarsFair: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M240 288c-8.8 0-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16s16-7.2 16-16l0-160c0-8.8-7.2-16-16-16zm-48 16c0-26.5 21.5-48 48-48s48 21.5 48 48l0 160c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-160zM96 432c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32zm-64 0c0-26.5 21.5-48 48-48s48 21.5 48 48l0 32c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-32z" />
-    </Icon>
-);
+const SignalBarsFair = createIcon("signal-bars-fair", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABbQAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBUQsGAAE2AiQDCAQgBYMtBzcb2ATIHgd2M9cIkWJoHBZ5iofn7Z48980s4FnA6CG1UtK5KOOW1VbBLxjmMmue/5s9b2EU4DcKbUxbGsgC2/N5AgFmvXxpdovPDs9OFG93ttQmwh6HJGUkxzmOxwZ5/BOdlCFdTXE6fmj8roFTJHkGIKoDYPjcmZN9+Uv8EvF96SXxvYkIiBGgEMiQobEAg2QCjeUK5HLBL1Eq4X9gQQBRFl+cQI6ymIwZgBwkeZ5XqVu5bqUyVfI5brXi3Au1xcU6l+tFXKrb6zqdutz2YZ2LDcSV2hdaPap7qWHMulR3or6i3dDiWfVnfzavv2//UvWOqr/k+VKWH7r5YXZHZVFZelRSC6YwLGHFDQogECzp92H/0mqDPpevlMBv7/7+HF5XlL6MHukZyksgyDqVOlmUjimMih4CAJBijxbCFwWS0XL8rpVdEiBURICkrIoCZBqpLkCuoo4ClNFUbwHKqmimTOQVhNoWV5BUth1k+jgMcrU9B2UM8pVRVu3IFIpRB+Y/lzimhUZPFd27dCsGFMNAYXWE8sOBxbLcbg8V2sOqNbbaYpfVVllvV0PsMNnebbMxEj7aDxW666KbwgDFdny/PMdqO+y03lZbwpiBivN6O3vk+vagJUzagyNJRKp+V6TO91Dq/FAAAAAA");
 
 export default SignalBarsFair;

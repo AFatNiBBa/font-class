@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelope-open-text` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-open-text?s=solid envelope-open-text}
  * @preview ![envelope-open-text](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/envelope-open-text.svg)
  */
-const EnvelopeOpenText: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M215.4 96L144 96l-36.2 0L96 96l0 8.8L96 144l0 40.4 0 89L.2 202.5c1.6-18.1 10.9-34.9 25.7-45.8L48 140.3 48 96c0-26.5 21.5-48 48-48l76.6 0 49.9-36.9C232.2 3.9 243.9 0 256 0s23.8 3.9 33.5 11L339.4 48 416 48c26.5 0 48 21.5 48 48l0 44.3 22.1 16.4c14.8 10.9 24.1 27.7 25.7 45.8L416 273.4l0-89 0-40.4 0-39.2 0-8.8-11.8 0L368 96l-71.4 0-81.3 0zM0 448L0 242.1 217.6 403.3c11.1 8.2 24.6 12.7 38.4 12.7s27.3-4.4 38.4-12.7L512 242.1 512 448s0 0 0 0c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64c0 0 0 0 0 0zM176 160l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const EnvelopeOpenText = createIcon("envelope-open-text", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABggAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCNgsGAAE2AiQDCAQgBYMtBzkbPwXIjtRG945VIqh0VVktzcStNIesY8AnshDAe/aATGIPwZvKq5069TznoQC+UdDGwqUBGZOCc55HIIBjtR5ueWkEejWtgNW8ZVtJsuwVyYmS9Pjt8e2APF7NLlEj3Zk+wPX1VPGT7i4hackARDsAzNuyYZW3vo1vI95vJt63AgExD1QCGU33EmCmTOABuQq5XPBtNJv6H1gRQNTZuxLIUce5uByQgyTP82lVmzZlrXW+uawVO4qyENG8Oe4eMSKCb+l6+5Ay1sTt5dWdV0UZj3a+tbsYFk923xjsKA6G2BSPri1DtoS4UCbuGPrEwEY8NvypHvDpjrIob+18S6cibutye1fwwP5PtXvql34fHP7Ax3uWLDmnxRBDbbNnkZF71xop+/DLsat08nnHjj/mVhn75YfZSGvtHSmD2ww1RIvGzXs+MutnD2h07txowx+Bon37By7wQHAU8HzfB9j2bZs23z6AsnPhfiAQ/PDXZ/a0nflPqzKB71/57X/9GWm+laSn0EoCQTayOdLOBBIBAEhxtv4JAslZcnbWhtsECAUCJHWFAJme2gmQK4wQoKaPSQLUFTbIRN4idLJrgKThNJCZ7FyQ6+RlUDPT23Jdp8h8kPAg4gcYuxihRX3VuNFjq+nV0tVJt8JKe0Z1zA09O6WG0VWHneJkZzrkoGPOBOR0q7SznGTxDl7kiyrjjDZWZbrqOnje3+yQ053hmFOcrF1mqN5LQ529Lx5GYmKo411PEpE6HDr57EMnnnLqoVGZP3mUkwI=");
 
 export default EnvelopeOpenText;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hospitals` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hospitals?s=regular hospitals}
  * @preview ![hospitals](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hospitals.svg)
  */
-const Hospitals: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 48l192 0c8.8 0 16 7.2 16 16l0 192-208 0 0 48 208 0 0 48-208 0 0 48 208 0 0 48c0 8.8-7.2 16-16 16l-192 0c0 17.3-5.5 33.2-14.7 46.3c4.7 1.1 9.7 1.7 14.7 1.7l192 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L320 0c-35.3 0-64 28.7-64 64l0 1.6c19.5 4 36.5 15 48 30.4l0-32c0-8.8 7.2-16 16-16zm88 48l0 24-24 0c-8.8 0-16 7.2-16 16l0 16c0 8.8 7.2 16 16 16l24 0 0 24c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-24 24 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-24 0 0-24c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16zM136 176c-8.8 0-16 7.2-16 16l0 24-24 0c-8.8 0-16 7.2-16 16l0 16c0 8.8 7.2 16 16 16l24 0 0 24c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-24 24 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-24 0 0-24c0-8.8-7.2-16-16-16l-16 0zM64 144l160 0c8.8 0 16 7.2 16 16l0 192L48 352l0-192c0-8.8 7.2-16 16-16zM48 400l192 0 0 48c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-48zM0 160L0 448c0 35.3 28.7 64 64 64l160 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 96C28.7 96 0 124.7 0 160z" />
-    </Icon>
-);
+const Hospitals = createIcon("hospitals", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABrAAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDTwsGAAE2AiQDCAQgBYMtBzAbzwXIhqDe5mfP25Xq3+oY9pgxQ9s5EIZAkRwhRPghNEV2qonLnf/509iNaRGENubSOWhvTaC4jfmmhLLAIknEG5w3+KCrQ/kF8vglHlAhPZm+wv3mh8af+riPpJIBiM4AWLxz63r15miO+LLxHvGltQiIxaAUyJChvwDzZAL95UrkckFzNBrsP7AkgKiyfy+BHE34HD8AcpBU83zOmFEdO/StVTrkO2qV4mStqD3aQxQhaoFKHulexJ3ej9ay514f+3a/LJ4a89aIIl4Z9UZv8eroiMd7bReKITni0R61CMjHe0Xgj/UsQtKpOSRb7WfccQzJ0uptBTWoLuo3iR0pS0+OfnP4Xo4PeavzW38P/urEVxbeX7fXN3es+84kWdKxua5v2+EmLvxCly7FHYXuhexU8nOvUsfmnRN747Dmjp01d2+9sbqztqC36sJOG5saQdfKQS/Ykr1ItMyOzZ0a9XrdLHlBc8dJE/8tseQIwAtTpex1IBC03HPfcwc7zfuvqZZA68f//h89r1FPi9JbaJJAkI1rjLMvLQImGkA0xQ1DOrYYSD5xct61vccECAUCJFWFAJl+OguQK4wVoGKg6QJUFbbKRN5O6G5/xkvau8zLzHCTl+vuHV7FPJ9GqrpH9jzLnkbZ72TqFUVg+apy8oRJ5ZyytSqRP6ISbXpuOdg86gbvGg3POuGiC6457pjTrhWgK9bHrztvRRe43BeVJptgktIc5eTGVfUOzLriqtPGC9OXmatc3j/Kje7Bo6EtscVOUZYkIrX7PDRXAQ==");
 
 export default Hospitals;

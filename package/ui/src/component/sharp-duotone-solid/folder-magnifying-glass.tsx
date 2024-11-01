@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-magnifying-glass` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-magnifying-glass?s=sharp-duotone-solid folder-magnifying-glass}
  * @preview ![folder-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/folder-magnifying-glass.svg)
  */
-const FolderMagnifyingGlass: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l512 0 0-384L272 96 224 32 0 32zM144 272c0-53 43-96 96-96s96 43 96 96c0 17.8-4.9 34.5-13.3 48.9L361 359.2l17 17L344 410.1l-17-17-38.4-38.4C274.4 363.2 257.8 368 240 368c-53 0-96-43-96-96zm48 0a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M322.7 320.9c8.5-14.3 13.3-31 13.3-48.9c0-53-43-96-96-96s-96 43-96 96s43 96 96 96c17.8 0 34.4-4.8 48.7-13.2L327 393.1l17 17 33.9-33.9-17-17-38.3-38.3zM192 272a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const FolderMagnifyingGlass = createIcon("folder-magnifying-glass", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABjwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCCAsIAAE2AiQDCgQgBYMtB2obRAXIngfZ2eJUZmdKPjZei4fv13o7972en0n/MHSAUSWKQAHC7jpWTL0SSBGNWqGmVhLpif9lh6DDffoYlKhVX+//czm/e360QL7RoYw1KpBFG+d8nkDgY1PvPPFAM83Aetvw1IjEFxERZBqNpzRWoxyK+Ck/pEF6JrXwOP4PYPxquIdIemYA0Q8A63Zt2+qzdrRTtDrvEy1bEBDrQSWQkTFKgJWywCiFCoVC0E4d2tGpCCC64Gdm0IUeOILTgAIkSS6KEb17j+7d3ehd7OxulAefixen1+/9eVtf2Hfuw70qpsWamB6rdz435a18g56O1+tNzimnvpGjjPVR7nhpRsS7Sz7Yd+weSpGVnfF6+eH02rufUVD9ljzLqF7F8TXUf1zrSMv6O1+PbNb1vXt13Sx5Ru7fgf7Y8cDc8szNm2fKkHj5M3rGPX/RfnyzRhOP/Ho9s3/k0Kt6HwgE5dDWA/qu/L/ZncDPn/6l/JB02kmq0ZRAkGd2ZtqfQCIAACmuGJ94AoFsiYye9vKkAKFEg6RLCdlI/aBQmgENYyzihE+2yaLoKQxyAEDSy3nIFrsNhUHeg4aVvi13GRTZ2gRbEd56qZt7dNO+6syeWy2vpl1VNCAuba+oxO5ciVPT4KYjzjrjksMOOe5Sh1+wtXbZaZs5bJMvqswz21yV5artwePlnQ674KLjzjqTd1mhOl+a6gq/eBoECdHOdyjLRIo89oij27N+zK07cv34maOzLpk5y3uXGsfJ7go=");
 
 export default FolderMagnifyingGlass;

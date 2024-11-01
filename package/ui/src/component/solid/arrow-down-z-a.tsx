@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-z-a` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-z-a?s=solid arrow-down-z-a}
  * @preview ![arrow-down-z-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-down-z-a.svg)
  */
-const ArrowDownZA: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M183.6 469.6C177.5 476.2 169 480 160 480s-17.5-3.8-23.6-10.4l-88-96c-11.9-13-11.1-33.3 2-45.2s33.3-11.1 45.2 2L128 365.7 128 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 301.7 32.4-35.4c11.9-13 32.2-13.9 45.2-2s13.9 32.2 2 45.2l-88 96zM320 64c0-17.7 14.3-32 32-32l128 0c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9L429.3 160l50.7 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-128 0c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9L402.7 96 352 96c-17.7 0-32-14.3-32-32zm96 192c12.1 0 23.2 6.8 28.6 17.7l64 128 16 32c7.9 15.8 1.5 35-14.3 42.9s-35 1.5-42.9-14.3L460.2 448l-88.4 0-7.2 14.3c-7.9 15.8-27.1 22.2-42.9 14.3s-22.2-27.1-14.3-42.9l16-32 64-128c5.4-10.8 16.5-17.7 28.6-17.7zM395.8 400l40.4 0L416 359.6 395.8 400z" />
-    </Icon>
-);
+const ArrowDownZA = createIcon("arrow-down-z-a", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABiwAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCQQsGAAE2AiQDCAQgBYMtBzUbRgXIjtEnY4Qx8cTjARFzzCQeiv1Yb/cLItohqUWyWGnQaJJI5i1ApxTm6pXAz+/vPedD2O4gJzAZ6k5CWnNoDkVq738u9/yeH93mb3QoY9vt1qCb4M3Fcc8T2TSm5XGBZYlituW4yaeeR2gIecTU4mnYcti6QBl3RT9U5DvtFrgdq+M/rX5SUwEMohPgTdk+jIuF82d8Drz5OyR+RAMBsQ0wCVGgwCgEa+gCoxgmgVIp+EWK6v+BBAQQNeDiBCVqXOIGWJ9U4mFbGws2nylkJLZUvIQn3qgqEV/US+ol5YLSCenYIwZ/jGLIcEGHXFDEpxmI5PNxTbuistiC6SEXvfM8Hq7rVtVJ2IyjqkVMaH4CDuHCJUcV1aJK1R0FzhcsqvWYFJ828fxmvjM6mm9Ltl/MbgtvHfetiEQrSVkw2iIY2dw5X/7iTHQ9LDoMZ1D+8vfO5oivjcbG0II1AK3ohq2r3KedCPC41XgcnPVFpkO6gBK9GnB0sL9fVgHJKpSJcXC0ZaIpgT89KZ+yZcYHfDwTCE5mOv+yxGs/nBYawL+zt//zcfO/x5TRtoFGCYJimnKUnlvMOSdzAHGQ0cgcX2UDkc4x4FNbvQgQmhEg1ZoFKIyQQFBqNgVBZZwXBLVmu+ii5ELolTEhtTqFwoIOKPXah8qai7DWG/RClMpI+g9MD9NI6DLi5uxK/ElYI3JtCftsAHls2jZSjx12QqEqleoVyFeiXmG1YpMGFcIyNNQPEW6cuSL8keXm1kikMrXqSPDl9UUEIO8XbDXmw+3g0DDrjD0piRTlnNVWNTl9nlWnVqccAA==");
 
 export default ArrowDownZA;

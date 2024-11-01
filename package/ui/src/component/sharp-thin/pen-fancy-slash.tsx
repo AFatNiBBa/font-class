@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-fancy-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-fancy-slash?s=sharp-thin pen-fancy-slash}
  * @preview ![pen-fancy-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pen-fancy-slash.svg)
  */
-const PenFancySlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M564.1 114.7L576 104 564.7 92.7 483.3 11.3 472 0 461.3 11.9 322.4 166.2l12.6 9.9L472.6 23.2l80.2 80.2L408 233.7l12.7 10.1L564.1 114.7zm-251.7 227l-29.2 93.5L100.4 493.8 97 490.3l73-73c6.3 4.2 13.9 6.6 22.1 6.6c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 8.2 2.4 15.7 6.6 22.1l-73 73-3.4-3.4 58.5-182.8 78.6-24.6-15.2-12L128 280 64 480l10.3 10.3 11.3 11.3L96 512l200-64 29.9-95.6-13.4-10.6zM168 384a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5z" />
-    </Icon>
-);
+const PenFancySlash = createIcon("pen-fancy-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfgAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCKQsGAAE2AiQDCAQgBYMtBzYbLwXIhqCyVWb1zAHwPCHPsxDJxT1ThN6jY1y8JbElCy9O9eQ8FMDnEARprMesdZ60G2jO8wpUKMO7aSyggtUqij3b9iqIaIgXGmMLefztMlWkt9NZvBjS41d9HiPJMgGiFfnWHT6wy49jMRZx5v/PcNvbgYBYBwqBDL3NoAArZQKDcgVyuWAs/v8f/B9YEEBUoxdOIEc1bsDTgBwkeZ73Lahra6hqyg+Zrepv7ens6Y5D0R2dUUZXHI6DtVaWjlva4nC83vBhz5vxcPcb9c90vtb7UBfDwyWWKdEljgvKd6e83/fWxA/6j3V3dXdSvDnHnjM5t4yvtFZ+H3f2irMW7Pw6nFuxb5+KUc+87ZSn37Jnj5ceccoLD/19bvA8nv/5chNs3eqNRpWv29q+HqXxaEXj1dNbzLf8c7t6/WpHjzUnvO0bbzuxxtCFTr00rWvfvi7svnlPmbz9PaWrf1J6V+nqn4FAsPHCX9KFLSv/qm1I4NzXf/5an+7/H9NDqYJaCQTZzP9nOi89BIIZQCnFHcbvfFEguUKOfmqjNwQI9QiQVKsXIDOgVYBcvRkCVBm2SIBq9Q7IRF4ndDq/h6TRzZBZ7H7IdfoEqqx0IqnWGRnwiaAjfvuFm8fkpk3FvNlzi+XFZksrwRNvV1cUp7Wpd8iRabjQFW50g9tc7jJXu21E32JX5XbX27xHbfJDhXlmm6uwXHG7+xwP0eQWt7p6Xbm/zgrF+9FUd+xPn4bNJGGdLzVJRGq56fIbZv2x0TTr1usuvvUqAAAA");
 
 export default PenFancySlash;

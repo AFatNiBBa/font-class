@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `horse-head` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/horse-head?s=solid horse-head}
  * @preview ![horse-head](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/horse-head.svg)
  */
-const HorseHead: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 464l0-147.1c0-108.4 68.3-205.1 170.5-241.3L404.2 15.5C425.6 7.9 448 23.8 448 46.4c0 11-5.5 21.2-14.6 27.3L400 96c48.1 0 91.2 29.8 108.1 74.9l48.6 129.5c11.8 31.4 4.1 66.8-19.6 90.5c-16 16-37.8 25.1-60.5 25.1l-3.4 0c-26.1 0-50.9-11.6-67.6-31.7l-32.3-38.7c-11.7 4.1-24.2 6.4-37.3 6.4c0 0 0 0-.1 0c0 0 0 0 0 0c-6.3 0-12.5-.5-18.6-1.5c-3.6-.6-7.2-1.4-10.7-2.3c0 0 0 0 0 0c-28.9-7.8-53.1-26.8-67.8-52.2c-4.4-7.6-14.2-10.3-21.9-5.8s-10.3 14.2-5.8 21.9c24 41.5 68.3 70 119.3 71.9l47.2 70.8c4 6.1 6.2 13.2 6.2 20.4c0 20.3-16.5 36.8-36.8 36.8L112 512c-26.5 0-48-21.5-48-48zM392 224a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const HorseHead = createIcon("horse-head", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABcgAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBcQsGAAE2AiQDCAQgBYMtBzEb8gTIhuB5u/+qc7t70H/G7w/YY3IVgY7G6a4jOZaydQS/iWvqZ9ADRpE9WixDi9fefT6BF51FCpcN7EVxfjvfdUEp3iZJ4pIM4xmmv/wr5PFPdpOC9Hj6EPemH40fdXYTSfMMQLQBwKwNa5Z59Zv4JuKD+vPEB5YgIGaBSiBDhm4CTJUJdJOrkMsF30S97v4DKwKIJkAlsZyf3IL9gBwkKc8XN28oWubrbWM5L8THG8LTG+J848Odr6tNjDsHXey+Lh7v9NjAC2PLeGHw9DhTXh+GuKODlRtfGP5I7aHGixvAOMXDHqo9VB5/rsMjXfac7/pE/zOdHu/X+1KbSz/3+nD/h+oPomj1sJn8Wsu6XpiieO9d7b4v9HvzjddGXueqhQva3lrlrnumUNSgvL6YBR/uv/Otl7aO+O67VSPm29jQ+vEn2vxo5BcfZQt+XdXYuMobgXjowaXnH9/ReupvzRoS+O6VX/8sz/Wuv5rGpUtoJoEgG1ofamu6TiDMdRGABimu1Js8N1MgWSMBvrWFRwQIJQIkTZQCZLpqI0CuNESAQg/jBGiitEYm8uZCzbYmJi2cEjPjXS3map4VC1O9U2qiFpmCOerhfN8Vmt/D89yqUcNHVpOrZU/16YwVd6dU26mBV/qZQXTQficcd7l99jrk8k44bVn1CsfMl/h5PFQZZbiRKpNVx8PH0HounXaZQ/PA+T5TVPdzA10pLx9E2QSmozUliUjlywv88BY=");
 
 export default HorseHead;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `credit-card` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/credit-card?s=regular credit-card}
  * @preview ![credit-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/credit-card.svg)
  */
-const CreditCard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 80c8.8 0 16 7.2 16 16l0 32L48 128l0-32c0-8.8 7.2-16 16-16l448 0zm16 144l0 192c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16l0-192 480 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm56 304c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0zm128 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0z" />
-    </Icon>
-);
+const CreditCard = createIcon("credit-card", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABcAAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBYAsGAAE2AiQDCAQgBYMtBzIb4gTIjsN0Gy+PbFnyLfHw/2uS9/2ZLAQWcZYZHZBELLGsKzvA4zFnbUm1Nslc+zJ1qmboogA+hyBIY9vSgCygvc8jEMHUN1WoVqwVpeBe3SZ79AjCJyJEpCSi47Pj7Ax5/BJ3lEhPE9yubxp/6uw6SSkDEK0AMGvDmmW+qkc94vvGxPeWICBmgUIgQ4ZuAkyVCXSTK5DLBfVoNOg/sCCAaEJ+cAI5mmINNgNykJTyvFrrUq1WSrV8faVUPvCwvahGxOOOtXXCg3bVeNQhorb77YER73dK8XTQB/1q8d6Qj7pm8Wzwh/2rm97u9LRfJd7r+qx/uaJ39P6w1Yd/97Kfxol6i0JdoUX9q5a3vwLbFR766vDnL19vTevyTOXWrV//ipEpMKFV7duvGqkhl7GTngeBoN/LFzd2tJz6X7NKAi8/+fd//HCjnmamD9FMAkE2tDHU1jQTQA/ATXFe7+CDAskSJfKqVY8ECGUESJooC5DpqpUAubIhApT0ME6AJsrWyETeXGhnm4Kk6hTIjHcB5Nr5GJRM9bXTRLvIEktIC+FblzrfovP2ilHDRxaTi2VqiLnClfWUYlsfeJ5bg3DSficcd9Y+ex1y1lCnLfPPOWZ+RM7zRYVRhhupMFlxXOzV9cY57YxDc/l8yxTFfXug8/HwIFiJMI4WShKRKomtDXvG");
 
 export default CreditCard;

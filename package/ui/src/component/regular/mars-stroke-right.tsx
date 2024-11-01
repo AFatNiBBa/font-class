@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mars-stroke-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-stroke-right?s=regular mars-stroke-right}
  * @preview ![mars-stroke-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mars-stroke-right.svg)
  */
-const MarsStrokeRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 256a128 128 0 1 1 256 0A128 128 0 1 1 80 256zm302.4-24C370.7 146.2 297.1 80 208 80C110.8 80 32 158.8 32 256s78.8 176 176 176c89.1 0 162.7-66.2 174.4-152l33.6 0 0 48c0 13.3 10.7 24 24 24s24-10.7 24-24l0-48 78.1 0-31 31c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l72-72c9.4-9.4 9.4-24.6 0-33.9l-72-72c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l31 31L464 232l0-48c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 48-33.6 0z" />
-    </Icon>
-);
+const MarsStrokeRight = createIcon("mars-stroke-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdQAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBfQsGAAE2AiQDCAQgBYMtBzgbBQXIhofn7fo691V9dffQNbYjKBpH2k1nHK6YkalCc/4v53e2aYF8o0PZE1e8QPd4nsABZl04Fp4FlIVZotjVuoMfcog7H4qvkMffcU0V6VZ6G1fdD42vtXKepCoDEA0BMHH54rle/Tw+j3jr/6eIt8xGQEwEhUCGDG0FGCMTaCtXIJcLPo///xf/gQUBRDUfSZyctq3HPnRLSFKetxlTrqqXL7P2l5af6R3xqPej8sWeDxTrdI/7bOlCr4cVx+ZPx0W8vOzjBe8v+WThB0s/G//K8nKIW13vtYkoR4+42epO9+XxeOtlcbdLVVXPKEXEY91utxSlTg8bPvy249vb3jb/lc4VKh+836nT+x9UKp1lFy7r26Ju4p/8NdmsiIYRQ7Nqk/3159BJnQzQbOHCZgPM8533369Xb/p0RyC8x5P8O/OmXtAJCAQNfv/qh/UNxvxaW07gy+e//816viAdTw9RK4Eg6/N/H2vSaYU6u1CAX09xTCf8TQLJcgl+14rrAoQSAiTVSgJk2mgoQK6ktwBV2hsqQLWSxTKR1wlNra1AUnEQZIY5AXJNPQGqjPFavVrTyMBMBhL5Ki9jWhOeWlQM7DegGFWMdhUK5IjW9uhicdDjmJzqiY/aZr99jthqi52ONKhD5raO2mvaFDnVDxUG6meAwijF5sHdw8tsdchhO+23z9lltOL4tIdj04t74jjxOQdpSxKRGv2Rt/eDGMn+3VtPVAAAAA==");
 
 export default MarsStrokeRight;

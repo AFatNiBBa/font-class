@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tags` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tags?s=duotone tags}
  * @preview ![tags](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tags.svg)
  */
-const Tags: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M303.9 56c0 6.1 2.3 12.2 6.9 16.9L438.6 202.1c33.9 34.3 33.9 89.4 0 123.7L326.7 439.1c-9.3 9.4-9.2 24.6 .2 33.9c4.7 4.6 10.8 6.9 16.9 6.9c6.2 0 12.4-2.4 17.1-7.1L472.8 359.6c26.2-26.5 39.3-61 39.3-95.6s-13.1-69.1-39.3-95.6L345 39.1c-4.7-4.8-10.9-7.1-17.1-7.1c-6.1 0-12.2 2.3-16.9 6.9c-4.8 4.7-7.1 10.9-7.1 17.1z" />
-        <path d="M0 80L0 229.5c0 17 6.7 33.3 18.7 45.3l168 168c25 25 65.5 25 90.5 0L410.7 309.3c25-25 25-65.5 0-90.5l-168-168c-12-12-28.3-18.7-45.3-18.7L48 32C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Tags = createIcon("tags", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdgAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbAsIAAE2AiQDCgQgBYMtB0QbAgXIhof/t+v7fW5V95pXPUYNzGgmgpVBzMH/HX1nUgqlQtzzf029eH50gN8OgLIsWsvvHeUqnk9gzxM3XBMl8ExnYBucN6L5YigM7RfI45vslArpfvoMV93/AMavOjhF0pABiOYAmL54/jwf/BQ/pfis/ibxmbkIiBmgFMiQobMAk2QCneVK5HLBT6le56eo10sCiCr3ERmoooJFWA/IQZJEnndu1a1WaZIvqlWKTDjWf2E8rV0cuDiex/EBi+JZUcSD1rfaL7zYJuK2Y61vFRfa3onj7e7WNh9rsy7nWL8Fca/D7fVQO+h9aIp5p7jAduvxrPmz37t/tukze+7g3R17PH6sR8cOI06f1jKIrVr7Ot027LvPs93dmp7jXFNVYscZerbYdPSYCz17Xti9x1dfbSoaDvlo65gxW4fCTUWxCRGBuO+VbydeWt1s0v+Nagn88taf/4q/o/pPSXqGRhIIskH1QVYkkAgAQIpDeiTEMIHMUIl71MbuCBAKBEiqCgEynTQXIFcYKEBFV6MFqCrMl4m8QWhtZQVJY3tBZozDINfaG6Bikg/jqtaRPV/000H/3SXMaaOzl5XDhwwrJ5STpcw8MqSen1iuNvod4n394UGb7LbLARttsNWBFr7PvOygnebMYbN9UWm4IYYpTVDubu4Li1rxPvttHef2LzJReb7Xz6H50f3hahJgxJUpZESKrPEXogx+TKWmDe5tBAA=");
 
 export default Tags;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-down-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-down-right?s=duotone square-down-right}
  * @preview ![square-down-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-down-right.svg)
  */
-const SquareDownRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM112 200c0-5.1 2-10 5.7-13.7l36.7-36.7c3.6-3.6 8.5-5.7 13.7-5.7s10 2 13.7 5.7L248 216l33.4-33.4c4.2-4.2 10-6.6 16-6.6c12.5 0 22.6 10.1 22.6 22.6L320 336c0 8.8-7.2 16-16 16l-137.4 0c-12.5 0-22.6-10.1-22.6-22.6c0-6 2.4-11.8 6.6-16L184 280l-66.3-66.3C114 210 112 205.1 112 200z" />
-        <path d="M320 336l0-137.4c0-12.5-10.1-22.6-22.6-22.6c-6 0-11.8 2.4-16 6.6L248 216l-66.3-66.3C178 146 173.1 144 168 144s-10 2-13.7 5.7l-36.7 36.7C114 190 112 194.9 112 200s2 10 5.7 13.7L184 280l-33.4 33.4c-4.2 4.2-6.6 10-6.6 16c0 12.5 10.1 22.6 22.6 22.6L304 352c8.8 0 16-7.2 16-16z" />
-    </Icon>
-);
+const SquareDownRight = createIcon("square-down-right", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABhwAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBwsIAAE2AiQDCgQgBYMtB14bNwXIhof/36/Xfe59MwGgF2BUiQImB8SKsGVV9V3RiFmxBdYzcU39KHt6wArnX8Z58fo8IngCO2/Lpk1kQsMZ4gbnDT7kkKZQfoEi3uRzKqTH6RfcjP8HMH7VxTmSJhlAtAbA7OWLF2moRS3FL/VviV8sREDMAaVARkZ3AabJAt0VShQKQS3V69SiXi8JIKrid2dQRQVbsR9QgCSkoujTtXezSotiWbyq6eYQTwZcaT8tlsWDpkhwz6kOS+Owx/2bxcNOOeX0ePC7/i3izdAP3fLF5UPeD2geLwe97bz0dKeZ8bDZVapDc151EffaN43XXbd0by2IPu9bv/+99y/bfjFz/+V0TfvZTbYxe7aljRsvHVtpoyDbmmwmXlZracMsnNi0TZunszzFQNOsod/+7ZeJ2e2DLWuXNebvXgcCweeNP61a32ra/42bJfDpuz//hc+r16IhvUdjCQR5WH2YNdEATB3A76c4pk80OIBANlUC9qnNPRAgNEWApKqpAFk3rQUoNDVUgIqexgtQ1dRiWRRNhPbWDnTS3EE6m+A4XWjvG7pimu9DVe0jWzaDVTH862VdMIXnDytHjxhVTil3szqj/dEF3VPLy95Bx3jVYLjUNvvtc8RWW+x0ZEIdsih61F4Ljsj5vqg02gijlKYoHxdeWpfh0CGH7dw2Px9kqvJ73yDHjhsPhqNJgDHalJSJFLmLibUNt4MG/+ocbnQbdNs0G1QA");
 
 export default SquareDownRight;

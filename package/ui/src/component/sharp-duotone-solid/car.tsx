@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car?s=sharp-duotone-solid car}
  * @preview ![car](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/car.svg)
  */
-const Car: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 400l0 80 96 0 0-80L0 400zM109.1 192l293.8 0L369.3 96 142.7 96c-11.2 32-22.4 64-33.6 96zM416 400l0 80 96 0 0-80-96 0z" />
-        <path d="M120 32L97.3 32 89.8 53.4 41.3 192 0 192 0 400l512 0 0-208-41.3 0L422.2 53.4 414.7 32 392 32 120 32zM402.9 192l-293.8 0 33.6-96 226.6 0 33.6 96zM64 288a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm352-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Car = createIcon("car", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABgQAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCHgsIAAE2AiQDCgQgBYMtB0IbMgXIjsN0a3FXzieihvHw//v5uc99L1mTlwzyG2BUDFhS479tVVUdkVBZIwuyOnnB/P4/l3t+z48O8BsdypgTrzb1wr00gQDTaXmigWeagbW3/u1QScwikjX9ZN7htg7H94I8/soeqJC+Sr/gNf4PYPyjtwcktQxAdALAos3rV/quGc0Uv7S+IX6xAgGxGJQCGTL0E2CuTKCfXIlcLmimVotmtFolAUQVflAGqqjhBK4DcpDksjzvWevatdao1Svt8031SrG9qBe9YkMUITpGRBGbok8UGxvtG5ujHhv33BXxRf1598/c6faheNbj89jf7UQEYkv4agh1ZbG5faN9LIr4slfW9k4uD27r1PbfoA7l8kd044CJz4zyB/4wqms7oGfxcTiUg3b7pHSt293hCU86uB5/ZPfAMTBxDXbuscaeE78rjceXkzf599X7QCD4LI2p7u449/929QQ+ffvf9Yek1UxSG9pJIMjGtsbakUAiAAApLhmcgEBmuRw9a/hcgFDAkFQVkOmrE+QKY6BigGnPqwrrZSKvCd3sZEgazkJmupuQ6+ZrqJjr+2pVt8gMjzEb5rcvcblElp0rJ42fWM4utz2NtSUq7c4pr82Rl8LMKLjqkNNOueCgA466ILBzVjYuOmn5CV3mi0qTjDdRabZSPXwUN4nqOecdXfP6U+Yov09HunRePgqchHAne5LJiBRZff/ec+Oer9Se+VcKAAA=");
 
 export default Car;

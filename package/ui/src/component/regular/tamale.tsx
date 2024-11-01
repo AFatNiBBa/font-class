@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tamale` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tamale?s=regular tamale}
  * @preview ![tamale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tamale.svg)
  */
-const Tamale: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M319.6 69.3L296.4 208l-.4 0-48.2 0L270.7 70.3c-6.4-4.6-14.9-8.8-25.4-12.1L229.2 208l-32.2 0L213.8 51.3c-12.5-1.8-25.3-2.7-37.8-3L176 208l-16 0-16 0 0-159.8c-12.5 .4-25.4 1.3-37.8 3L122.9 208l-32.2 0L74.7 58.2c-10.6 3.4-19 7.5-25.4 12.1L72.2 208 24 208l-.4 0L.4 69.3c-1.7-10.2 1.7-20.6 9-27.9C46 5 112.3 0 160 0s114 5 150.6 41.3c7.3 7.3 10.7 17.7 9 27.9zM296 304l.4 0 23.1 138.7c1.7 10.2-1.7 20.6-9 27.9C274 507 207.7 512 160 512s-114-5-150.6-41.3c-7.3-7.3-10.7-17.7-9-27.9L23.6 304l.4 0 42.7 0c-3.7 10.5-3.6 22 .1 32.3L49.3 441.7c6.4 4.6 14.9 8.8 25.4 12.1l10.1-94.3c9.5 6.5 20.6 9.2 31.3 8.3l-10 92.9c12.5 1.8 25.3 2.6 37.8 3l0-108c2.3-2.1 4.5-4.4 6.4-7L160 336l9.6 12.8c1.9 2.6 4.1 4.9 6.4 7l0 108c12.5-.4 25.4-1.3 37.8-3l-10-92.9c10.7 .9 21.8-1.7 31.3-8.3l10.1 94.3c10.6-3.4 19-7.5 25.4-12.1L253.2 336.3c3.7-10.3 3.8-21.7 .1-32.3l42.7 0zM24 240l136 0 136 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-104 0 28.8 38.4c5.3 7.1 3.9 17.1-3.2 22.4s-17.1 3.9-22.4-3.2L160 282.7l-35.2 46.9c-5.3 7.1-15.3 8.5-22.4 3.2s-8.5-15.3-3.2-22.4L128 272 24 272c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const Tamale = createIcon("tamale", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABmAAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDCwsGAAE2AiQDCAQgBYMtBy0biAXIjlQ1fwT1Or96JNm1X/7AC/SWiCI+JJKPIQSKCJPAdRFC6vr1n7ic/jj/7bsiD2Vsm1vbWLYHJxBwNsYUyMLsRbHLbUMtTb3S/giFHRRxTDyoRvZE9j0eOL80fjHarWRqOYDoBcCmw/v3+bgVrYjv2u8S39mDgNgEkkCOHOMEWCsXGKeQUCgErWi3x//ARABRd782AwVqeAEfAgqQyYti5abUqHUVh9Yp5RkHDh+IKONwVMMHOvTV6WTKiJenHmTjUDw6aIwppRr51or3lz3hd2c9NpjgioPRhV5f+s7yx/TebHva4YhoxKNDI/rY0GHDyC7zlWkRzZEjY0hLEa/NOBQW48FG0aU2hxsnN8ouE/3oYBnzUgcfHV4fa2PfuBq5IMqohpsjJ7/Z++Zvk74//Xsbrh5597MqCw3fpfq35zFJ79Mmpef19k7mNEkwJybzv5UzvBCRIk1865vXmhs3Nl/75q2JI3/W33M35jjhhL6zVP92HOfHPzuONSmda/KUpz1tYPG50qTe/OePDvO/VYgi7sI5PRvuvLO31d3dOtMXzn3iyyfmm+/Jr5449wtnsj0OBILvDt/wywk9a/8b0cjADx/98T8+s70tNmdvYoQMBPnc9lzHxuUeYF/xtilxucmxsfklgcwTcvendqoECCUCZOpKAXJj9QpQKM0RoGaCZQLUlfbLRdEhDDqOC5lOFwm55a4TCoPeFmrW+ipSNxg5tGpgTfOzmHG7DG8blhbNX5hWJ2cW1QKgautek6LNMy+fqmY1Y53uAue71GlOdZZLJepi++KXOc92H7KNiJJF5lsoWS1lF9aNh7rIxS5xll2fP8gaqb5/psv9jWc1tswtd7ERmYzI6pee9JkC");
 
 export default Tamale;

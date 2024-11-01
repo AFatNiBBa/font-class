@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cucumber` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cucumber?s=sharp-regular cucumber}
  * @preview ![cucumber](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cucumber.svg)
  */
-const Cucumber: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M71.4 440.6c-31.2-31.2-31.2-81.9 0-113.1l256-256c31.2-31.2 81.9-31.2 113.1 0s31.2 81.9 0 113.1L385.1 240 336 240l0 49.1L184.6 440.6c-31.2 31.2-81.9 31.2-113.1 0zM37.5 474.5c47.8 47.8 123.9 49.9 174.2 6.4L232 501.3 277.3 456l-20.1-20.1L435.9 257.1 456 277.3 501.3 232l-20.4-20.4c43.5-50.3 41.4-126.4-6.4-174.2c-50-50-131-50-181 0L172.1 158.9 152 138.7 106.7 184l20.1 20.1L37.5 293.5c-50 50-50 131 0 181zM184 296l-48 0 0 48 48 0 0-48zM376 104l-48 0 0 48 48 0 0-48z" />
-    </Icon>
-);
+const Cucumber = createIcon("cucumber", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbwAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCAQsGAAE2AiQDCAQgBYMtBy8bAAXIjtMV8WWKNMElHv7fZnrfn5G8OzLDNzMEmNpUhioIHTfFnrQEZaJkDnmfOvU856EAvlFQxsZtmzb4nOcRCODo9npBiq0VrKYVsFo7vfdvULpVQkgyjD9s7lDGZ/GiGumt9CNeyB8aP+vjUZJaASA6A2Dxzq3rfd0WbRE/ND8gfrAWAbEYZIECBfoLME8h0F8po1QK2qLZ1P/ATABRh9dOoEQdR3AeUIKkLMsBY1tbG7UO5Y5Grdp5MyIeGrszbjWeGX3Dg6M2RRViW1yvnh4z74vlER8sHB0LY0zsDO98NfDtBV8uhHnbKj9vxPjy5x6cv7NqVKIRIU8ccrPzzV9zghX1U5l8stn0RM5PnMz51O0mm+z1Nzye8+1dlgR/XprqR1O9+y53ot2gzsOvTZ167K67OnPXbjuCtfOldyeBJ+pXX5XHgUDwzn+L3jvYad6/LY0Efvr01dT8MuEHdBMtEgiKcc1x9iU0/09JAABS3G5IgkCyRwnv2t7rAoQKAZK6SoBCP50FKFXGClAz0HQB6ipbFaJsFbrbX0HS3mVQmOE+UOruPVAzzzdeXfcoDI0yE+qfF7+ihZYv5ckTJuU5eRkptO0QaTo3Hwujbo+V0XTTCRddcM1xx5x2rUGuWB/e5rwVO3i5L8omm2CSbI58nT7yO9i74qrTc/Z+zlz5vTbK7fv20SQnQJ1iJUlEajl6m9jnjxy/AgAAAA==");
 
 export default Cucumber;

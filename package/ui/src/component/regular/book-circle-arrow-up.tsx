@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-circle-arrow-up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-circle-arrow-up?s=regular book-circle-arrow-up}
  * @preview ![book-circle-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/book-circle-arrow-up.svg)
  */
-const BookCircleArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M88 0C39.4 0 0 39.4 0 88L0 424l.4 0c-.3 2.6-.4 5.3-.4 8c0 44.2 35.8 80 80 80l314.8 0c-18.3-12.9-34.1-29.2-46.3-48L80 464c-17.7 0-32-14.3-32-32s14.3-32 32-32l242.9 0c-1.9-10.4-2.9-21.1-2.9-32c0-5.4 .2-10.7 .7-16L80 352c-11.4 0-22.2 2.4-32 6.7L48 88c0-22.1 17.9-40 40-40l304 0c4.4 0 8 3.6 8 8l0 164.5c14.6-9.5 30.8-17 48-21.8L448 56c0-30.9-25.1-56-56-56L88 0zM496 224a144 144 0 1 0 0 288 144 144 0 1 0 0-288zM428.7 371.3c-6.2-6.2-6.2-16.4 0-22.6l56-56c6.2-6.2 16.4-6.2 22.6 0l56 56c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L512 342.6l0 89.4c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-89.4-28.7 28.7c-6.2 6.2-16.4 6.2-22.6 0z" />
-    </Icon>
-);
+const BookCircleArrowUp = createIcon("book-circle-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABhwAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCLwsGAAE2AiQDCAQgBYMtBzsbOgXIhuB5Pfqfc5MFnH2UP6UKcueiBzl16nlwUgCfE/Gg7KkBWSCh3bHPK1DAWq86Fi2gbcVaRbF70zYWpYyOJBNN0nHu+NIG8vg7rlVCui29h2vKh8bXOlxIUpIBiHoAzN+6cbU3PogPIt79/1niXSsREPNBIZAhQ7cAs2QC3XIFcrngg/j/f/4PLAggSsl5E8hRgjNxPiAHSZbnc7q6qkpq8i2RWrnzmWERD3SnVeNcdw1/cHJNPDSiOi5vvTnOa7ulqipIqdRwc3YLNXFTi7h/aMTtrTcPqd7v8mkRL4x6xLmjH53+YtUVM18e+3icN+axGS9Vbrq5bWPc0rI+bmq+sXVEiBubb26NGBZ8pQEP1T/0bf97B79n6+vzLuXSfB3yPLYcVD/T0101ai+9tLae+2dj68vLftTwWZ2Glx5uGGdf6b323HyNsu//O3bcLe8PTaTx/UOG9I9PaSjkeM6C62+//RQPPniKxjDlXdvVfvBBrfMuOh0IBKMvu3vw3rpZv5ZXJfDRS9//hsf7/410bnoI5RIIslH/j7IrnQtIDiBOcbIBxhcFkhNl5F2r3SxAqESApFSlAJku9QLkKo0UoESvyQKUqrRRJvIKodnuAZJqx4HMFGeBXLOnQYlZ3oxKNUfmf4L3CM+/1CUaWjyrGD9mXDGjWOa66FJcmpxZbLvDTg4dw2Gpgx3jaCc6yIEOc6Iijrc6PclRllj4Yj9UGG+McQozFMfV8+ItDnK8ExzmGEfnaWYq7ofDnGz3Hw5BIrQTZJJEpGbnNEf/1MmO3u/44485ZfRJxwI=");
 
 export default BookCircleArrowUp;

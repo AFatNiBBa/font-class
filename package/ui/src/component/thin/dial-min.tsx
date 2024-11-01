@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial-min` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-min?s=thin dial-min}
  * @preview ![dial-min](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dial-min.svg)
  */
-const DialMin: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272 32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM282.3 282.3L180.7 384c-50.7-56.5-48.8-143.5 5.5-197.8c56.2-56.2 147.4-56.2 203.6 0s56.2 147.4 0 203.6C335.5 444.2 248.5 446 192 395.3L293.7 293.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0zM174.9 401.1A160 160 0 1 0 401.1 174.9 160 160 0 1 0 174.9 401.1zM544 272a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM16 288a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0A32 32 0 1 0 0 288a32 32 0 1 0 64 0zM96 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM464 96a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM96 464a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm368-32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const DialMin = createIcon("dial-min", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAAB6AAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWSEUAsGAAE2AiQDCAQgBYMtBy8bTwbIBp4vu//O7ekHeP5KiAAwAlE5pzZlJPzPNZ+fnd8b0OeBZpGOo7A006MSJzDAiKaJ3POVsM1vc89bnsgfGiLiEDrk1GGShq2pM9DyisHYQO1Qz4B1ebp8IMViUBgGmSBB8EnTbp06cssSS+TZ//Mgz2gPCIA0A8BEAAMwgCwCQAMMBMiiMQGNRsCS///jf6AJAgBiB6hilwbCIAISgrYfKIJauyLpTEmgy2Pz6a4ej+5h2xJbYpujW+OeBXGRre6V0c3Mj23xrEpsk86du3W+UfxQ45ueVQ2vM7/BtRb3GnWTbfGt0c4naoqcr32x/KnCvvzecidrXahxrszx7O7cnrKDRr2yLcGqhMg2WRAfWOnYRZV2s9A6iBmDlxY7GTz5qejZ0GcE9vkty3+IquJfDsv9/uWWkj8HD2FgL4d95eO6dR/vxl27j/cff37IYGrW7NRp5NQvq2DVyVNv3lw5eenSP5FA2/j5ln9qOnYaKCzstPDSRPM4oewb9zwACCAw4/SqLv0CDb46PQqA91e+/Dof5/8t1USdBJwoAASMCv8r0Fs1ASCxAIBXyVSKKT8kgOInQarey1arX3DDDQo7bjDIEASNm/JgI09NcefkThiIdiFE6QNQeJkABrWYA5ooZ8FGAx567ETFeCGk21n6OZqqlURa9jKrVqpi1jMfEy7ZHheHxvpmt7rMVFdQFgsZyjjGMpkhDGYEkwU2kY7+KYyhlUba8rsmValEFUzqYZrTt7O7MoSJTGIE4xibuqmPOV9fhql6+bLQKSrXakQpFIhy/q7AUnHMiLE=");
 
 export default DialMin;

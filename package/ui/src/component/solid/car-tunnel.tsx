@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-tunnel` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-tunnel?s=solid car-tunnel}
  * @preview ![car-tunnel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/car-tunnel.svg)
  */
-const CarTunnel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0C114.6 0 0 114.6 0 256L0 448c0 35.3 28.7 64 64 64l42.8 0c-6.6-5.9-10.8-14.4-10.8-24l0-112c0-20.8 11.3-38.9 28.1-48.6l21-64.7c7.5-23.1 29-38.7 53.3-38.7l115.2 0c24.3 0 45.8 15.6 53.3 38.7l21 64.7c16.8 9.7 28.2 27.8 28.2 48.6l0 112c0 9.6-4.2 18.1-10.8 24l42.8 0c35.3 0 64-28.7 64-64l0-192C512 114.6 397.4 0 256 0zM362.8 512c-6.6-5.9-10.8-14.4-10.8-24l0-40-192 0 0 40c0 9.6-4.2 18.1-10.8 24l213.7 0zM190.8 277.5L177 320l158 0-13.8-42.5c-1.1-3.3-4.1-5.5-7.6-5.5l-115.2 0c-3.5 0-6.5 2.2-7.6 5.5zM168 408a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm200-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const CarTunnel = createIcon("car-tunnel", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfwAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCHQsGAAE2AiQDCAQgBYMtBzEbHgXIhqDSVWW1pAXNMugA6RHZQkaLvY33ni3y5u9PPc+0UACfUVDWoqUBWeBznkcgwEk3fy9ouVewmlbAujtbiiTaRZpFRtLv2PFBkMdb2RUK0h3pa1yXPjR+N+gKkuYMQHQAYNPeu+/o/YmYiPiq/grxle0REJtAJZAhw4gAa2UCI3IVcrlgIup1+x9YEUA0wDdLIEcjTsb5gBwkRZ6vaWlrbq4VrfletaLc/7sdIr7eGPH+HuKOWU9Mq8WtEXHfjCVxV/9ttVpc1XvL4KJ4ZFRc0lOLx+Y8NRzxw2Yf7vTtXvsuuWUMkfcaGR+pxVjcWpZxZc8ejw3fOf3hgTum7Z359oUnP9nx5J+Tvj7qa/X3tnYpNwwyYOv3lZ2d98/xePspPLezXX/+resMXb/9vOvOnnOK9sfnuL+zs3yfrQcGb7h0a8fVH2+f6X0ztT/+w1O//owP7/Wz3uIMRW/fpbv29u7q6c/6ZXoeCAQ3DK++4+D2tf801RL45c2//y8/I/X3k/QkmiQQZHPrcx2QQCIAACnOMjlBIDlaAf0Wt57GocRA0qCEzLAOyJXmQGHMMoQGpd1lIm8WehyIIGlxKmSWuxByPV6CwlqfBQ16IlM7WWnkX1/GVhzbcqtaNH9htbqaJqqiSWJYrqm27ZlnucYsuOsoJzvJGY50hGOdwdjT7Bif6URbScyWvqiyyHwLVVarjvP763s50mlOd6yTnRTXrFHd92c6S+6fBV6CnItZ6Ql2U3n4oafNO+PMk0468gQAAAA=");
 
 export default CarTunnel;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wagon-covered` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wagon-covered?s=sharp-thin wagon-covered}
  * @preview ![wagon-covered](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/wagon-covered.svg)
  */
-const WagonCovered: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M13.2 4.8L1.7 4.3l3.5 11L77 240l-5 0-8 0 0 8 0 40 0 8 16 0 0-8 0-32 480 0 0 32 0 8 16 0 0-8 0-40 0-8-8 0-5 0L634.8 15.2l3.5-11-11.5 .5L391.9 16 248.2 16 13.2 4.8zM256 32l128 0 0 208-128 0 0-208zm-16-.4L240 240 93.8 240 23.9 21.3 240 31.6zM353.1 416c7.8 54.3 54.4 96 110.9 96c61.9 0 112-50.1 112-112s-50.1-112-112-112s-112 50.1-112 112l-64 0c0-61.9-50.1-112-112-112s-112 50.1-112 112s50.1 112 112 112c56.4 0 103.1-41.7 110.9-96l66.3 0zM368 400s0 0 0 0c0-53 43-96 96-96s96 43 96 96s-43 96-96 96c-52.9 0-95.8-42.8-96-95.6l0-.4zM80 400a96 96 0 1 1 192 0A96 96 0 1 1 80 400zm104-72l0-8-16 0 0 8 0 64-64 0-8 0 0 16 8 0 64 0 0 64 0 8 16 0 0-8 0-64 64 0 8 0 0-16-8 0-64 0 0-64zm288-8l-16 0 0 8 0 64-64 0-8 0 0 16 8 0 64 0 0 64 0 8 16 0 0-8 0-64 64 0 8 0 0-16-8 0-64 0 0-64 0-8zM616.1 21.3L546.2 240 400 240l0-208.4L616.1 21.3z" />
-    </Icon>
-);
+const WagonCovered = createIcon("wagon-covered", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABvgAAAK1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiEKAsGAAE2AiQDCAQgBYMtBzQbLAbIBgrSpbMnvaM/mUEhogoYK5urAMKnBKoQO0MVxspOMnFN/TjPDfCTdChRDRJps2xvT8FMT5HhbKI4dVO6gT18Ag6KhFK0DNmxX3Z8OwFX1cwkBGaPeQRssg/VJzIoA4PjAACgeAAAoPeYEcO59lzPpYf/L4AeMhQQgHoDECDAARwgGwHQDQcB2bgEgIuL4Ln+/y//gQEIABQFLjMAuIAPfAMZiDcBhrDrtg6HG6Rn1a4d9kMx7mg/ZCekplSuRslahPlScQxVGu89RmlK1khZjR7lWx9ZySL8pRo17kBj6Uz7S03P5h1sEulwvtHpbKsuPKQlyk8rltSUh2jseCEac/aPje0u5nfKVXRxlrSv4Sl/Xf0TGXsoSt9d77hd2+Bk5l6NEbJCvKzJ91VIleKwmmF9O4uTJowcM9JmjKkTiY98qf1o9iOirx7GmU0Y+JyQ59EIj3g8Ap4TUBxNXmia0ITDfLRsvpw/M4vAfEYRz+KfHbqV/lWU26WF8yrh4+Hv3/7Fxf379t3svVCxzD78sXJen28A4EUiRUVN78lMgszbcHviwoyMhRNv3850SXTOGeghPh6PXvQ6gV6tHt6ZVyse2WZxeJua9K+q79rKM8otAAgQeCc6vpwS1+2P5xsAXl799sluN/+vmQITATwMAAKn2f9mTDRFGEwyiAABo9XUkS8SYHhHGFkXzU4EgLBA0hCFJR2yiCddLE3JELm0Xx+FZQQOcsOIZCaRNESzjHToQD7pksw5MkQ37vqjSJaz+aVbV/rrmWqAh/tPC1q3aBV0CaZJXbafxbW5a3Db1Gi1FjWWGcxmCYtZySxmMs9Ejr+c4aFVLGJAhvTnhwS0pgWtCOhCsJw5qkY753JWePFYz3o7XQme9zVidV65sVgNENiGNQYDMjFrps1Zsrj5twcA");
 
 export default WagonCovered;

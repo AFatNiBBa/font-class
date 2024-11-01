@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-showers-heavy` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-showers-heavy?s=sharp-thin cloud-showers-heavy}
  * @preview ![cloud-showers-heavy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cloud-showers-heavy.svg)
  */
-const CloudShowersHeavy: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M400 128l0 16 16 0c44.2 0 80 35.8 80 80l0 80-80 0L96 304l-80 0 0-80c0-34.8 22.2-64.5 53.3-75.5L80 144.8l0-11.3L80 112c0-53 43-96 96-96c32.4 0 61.1 16.1 78.5 40.8l8.9 12.6 12.9-8.4C288.9 52.8 303.9 48 320 48c44.2 0 80 35.8 80 80zM0 320l16 0 80 0 320 0 80 0 16 0 0-16 0-80c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C247.3 18.8 213.9 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 80 0 16zM0 512l16 0L88 352l-16 0L0 512zM192 352L120 512l16 0 72-160-16 0zm128 0l-16 0L232 512l16 0 72-160zm104 0L352 512l16 0 72-160-16 0z" />
-    </Icon>
-);
+const CloudShowersHeavy = createIcon("cloud-showers-heavy", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABhAAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCNAsGAAE2AiQDCAQgBYMtBzobPgXIHoVxMz3SRXOUj5EpgkhXVj3SkWSQiXVGpCfCiGk/BMAkMYQPnP42M8RoxXif/2s+v+dHBfKNDq3D7h1Ib/MuTIEBRnuV0GxgM52A7WrdwQ85tJ0PzXvI42NnaiE9meAR90PjFwPcSZJlAKICwLI9Ozb54kSciPi5+S7xsw0IiGWgFsiQYbAAC2UCg+Vq5HLBiWg2xX9gTQDRyt83gRztuAb3QXcWktY8H9/Zga8sW7rmu8uW4hyhjHfHvTlEFF0ibhv09Jh+4c99fsJbc76dtOgXr5dT+NGy6J4S8dz4xmxv2v0jP1v9ztg3BotX5I7+grIo90QRO/fYRhmlUGJjZ2C17Mwe3qgav3U6m0eWVP71qrN2x1ZbH91q0OnT51ypr/ZG49bO927wvYX9p8xHPp9l2dpLRmcMuaTri3/+372vD/u1dd+q+qKqWvO8Cnc+f36NIqs+1a29deey14FAcNZhY490X/hfe5nAqY9+yX5Gml8kqYF2CQTZxOZEBxNIBAAgxdWGJwgkl2jlv2sXjwkQCgRIWhUCZAapBMgVJgjQYqhZArQq7JCJvEPo7VAFki4uA5nZbgK53t4GLRb63mvVOzIQpAGIvgBMWN2EVk2qp02eWs+vR3MKBqpIq3dBvdgYe7WsGYd3OtslLnals5zpPFc2kMttCq9ykdVT8CpfVJtmsqlq89Wbi3c373aWy13hPJe42Blngfp4d6yrp5uPw3biE06XliQi9foXoTzpNh3n8ismnU0A");
 
 export default CloudShowersHeavy;

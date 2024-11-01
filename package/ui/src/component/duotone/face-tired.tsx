@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-tired` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-tired?s=duotone face-tired}
  * @preview ![face-tired](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-tired.svg)
  */
-const FaceTired: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm116-98.9c0-9 9.6-14.7 17.5-10.5c30 16 59.9 32 89.9 47.9c10.7 5.7 10.7 21.1 0 26.8c-30 16-59.9 32-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6c12-14.4 24-28.8 36-43.2l-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6zM128 400c0-11.6 4.2-24.2 10.3-35.9c6.3-12 15.3-24.3 26.4-35.4c22-22 53.9-40.7 91.3-40.7s69.3 18.7 91.3 40.7c11.1 11.1 20.1 23.4 26.4 35.4c6.2 11.7 10.3 24.4 10.3 35.9c0 5.2-2.6 10.2-6.9 13.2s-9.8 3.7-14.7 1.8l-20.5-7.7c-26.9-10.1-55.5-15.3-84.3-15.3l-3.2 0c-28.8 0-57.3 5.2-84.3 15.3L149.6 415c-4.9 1.8-10.4 1.2-14.7-1.8s-6.9-7.9-6.9-13.2zM288.6 194.6c30-16 59.9-32 89.9-47.9c1.8-1 3.7-1.4 5.6-1.4c6.2 0 11.9 5 11.9 11.9c0 2.8-1 5.5-2.8 7.6c-12 14.4-24 28.8-36 43.2c12 14.4 24 28.8 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5c-30-16-59.9-32-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8z" />
-        <path d="M116 157.1c0-9 9.6-14.7 17.5-10.5l89.9 47.9c10.7 5.7 10.7 21.1 0 26.8l-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6l36-43.2-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6zm280 0c0 2.8-1 5.5-2.8 7.6l-36 43.2 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5l-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8l89.9-47.9c7.9-4.2 17.5 1.5 17.5 10.5z" />
-    </Icon>
-);
+const FaceTired = createIcon("face-tired", true, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABwAAAAL4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDPgsIAAE2AiQDCgQgBYMtB1Ab4AXIvgyYY4ji7L3OYjMhQZcZjiFM+e7PsvFdIm7zGks8POh9/blJHrR8MwtlYVYSOumDLonKlVq2Qj0EtPPr6gLuLgjTBLKRDTfh3Y14oxkNnHBlHghGv8oJT7ZaCIQ62T5nJYhCqkY9NBmQttcXG7W2wAm3ojikjG7wzKh975Ah03nT37vzb5u2P6OPshY1dCxaY5wnEPCnyhYujruEMs3AGpw36LD6ENKvkMU3aRVIHkm+xl3+/wDGr6qrJCopgOgAgLnrVi3xye8Tf932El/bEBDzQC6QIkVPAWZIBXrK5Mhkgp8i8FOATgBRFMKptyuijA/wNSADiUSWZT269ejTv3+t0MjW1grVTZeIeKhljQdcbK52f+uDcanL7JgVD0bjYnNGzBzl7m9dy1y37sYHxPdzFZ8umdouu/m97ufV0q3OYubkaj8r/EDLu1N59P7mO1M4/NrwijWP+djwxwa/dChv4AvdXun2yLn1g+KtajVunTDgYad1DxHx/vSHag+0HBW4UAhceT78YOt70/jp/V7t8OrvcDj6lZXM27l+tFOV8un82M55K0uFftNM0z91zfrzYL9cWjmRvWG00+XKKSS29pd8YlXo9nyqffq6ChV5J/Se2nlq+IUUNPrCBIWbLa+p/eM9/PXesx36L/c9Le/efXKyO4dnhl+Tndy9u/z014Xo0DF9ulrod+stHwqp8hH7zSsF53kgEHzU74dF+xn/RwJ++b74IWk7K3kVZQkI0hFtsTkBCQEASOKsfpHTCKQuyoSfWvegAKGKAImiqgCpHjoIkKkaLkBBbxMFKKpaJRVZRWja0oBE3QmQmuQcyDS9Dgpm+CxW1AypRFakofIbmbmoCy3clc9RY/Jp+WxHpcpNydmcnm92jbN8Yig8aK9jjjptj90OON0hT1qSPOOIRUvEQl+UG2uUMXLT5If7D821ndhJpxyY1o9vM11+vW+Is8vzh0JvIuQdxyGVEkmknYxJ8cizk3t2j9QSk82+rvgBAAA=");
 
 export default FaceTired;

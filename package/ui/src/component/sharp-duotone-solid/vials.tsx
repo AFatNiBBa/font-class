@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vials` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vials?s=sharp-duotone-solid vials}
  * @preview ![vials](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/vials.svg)
  */
-const Vials: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 32l32 0 56 0 48 0 56 0 32 0 0 64-32 0 0 304c0 44.2-35.8 80-80 80s-80-35.8-80-80L32 96 0 96 0 32zM88 96l0 160 0 144c0 13.3 10.7 24 24 24s24-10.7 24-24l0-144 0-160L88 96zM288 32l32 0 56 0 48 0 56 0 32 0 0 64-32 0 0 304c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-304-32 0 0-64zm88 64l0 160 0 144c0 13.3 10.7 24 24 24s24-10.7 24-24l0-144 0-160-48 0z" />
-        <path d="M88 256l48 0 0 144c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-144zm288 0l48 0 0 144c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-144z" />
-    </Icon>
-);
+const Vials = createIcon("vials", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABgAAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCEgsIAAE2AiQDCgQgBYMtB0YbKgXIjsQ4JvGLWNDi4b/9fH+fmfsoKcMtccqoiMDV1beKQKEldqwqVFYlfPl16v3/4tTznIcC+EZB20PjG3zO83A4oMEuq6eE9W1QA+vubEpatPaJtYSWHN8cpysU8Stf1kS6mX7iCv0PYPzV22WStgwgOgFg4aZ1K3yuRz3Fz8Zz4qflCIhFoBTIyOgnwBxZoJ9CiUIhqKdG6tFYEkA0o1tm0IxWHMVZQAGSpCiKarVnx+hUm9oXG/G+yqZqpSpuDH3YJ9p3JG9XIsWdkY+nvBz9dEDG148Ngrg57FHfiIjKJsO3Bj/t9PS/QT8P/rTpU61Wu6r7mjXdr5ZhnwdlWV+gVBMbD3TqdGBj1JQWbJr/4MGDsoDal/mW/UAgmHNxQrddHef831pN4Pdbf+oPSaOepKdolUCQxzbG2p5AIgAAKS4anNiMQLZcgS+1c02AUEEgaVaBrK9OUKgYA00GmHq5WcU6WRRtQjc7BJJ2zkA2zSUodPMMmszxxWvWLbLLUQ5Dffjil2lk6Vo5cXytnFUuI432IiJPZ5dmfeTFVBkFBx10yknnHbDfEecVdtaK8IITlu3QpR6oNNF4NaVZyuP0kd+ovLPOOTJnz+fMVt63R7q4bx8FVsK4k1zMMpEit794ZM/xc+NertRRsS8UAAA=");
 
 export default Vials;

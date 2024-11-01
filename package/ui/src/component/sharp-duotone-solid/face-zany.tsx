@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-zany` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-zany?s=sharp-duotone-solid face-zany}
  * @preview ![face-zany](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-zany.svg)
  */
-const FaceZany: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M34.4 384c36.2 62.7 94.9 104.3 160.1 120.5c-11.5-15.8-18.4-35.4-18.4-56.5l0-44.5c-16-10.5-30.2-24-41.9-40.2L409.9 204.1c29.4 65.1 11.7 141.7-41.9 187.4l0 56.5c0 15.4-3.6 30-10.1 42.9c8.8-3.8 17.5-8.2 26.1-13.2c82.1-47.4 128-133.5 128-221.9c0-43.4-11.1-87.4-34.3-127.8C407.1 5.6 250.5-36.4 128.1 34.3S-36.3 261.6 34.4 384zM192 224A64 64 0 1 1 64 224a64 64 0 1 1 128 0zm192-72a72 72 0 1 1 -144 0 72 72 0 1 1 144 0z" />
-        <path d="M296 104a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM104 224a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM336 384l0 64c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-64 48 0 0 24 32 0 0-24 48 0z" />
-    </Icon>
-);
+const FaceZany = createIcon("face-zany", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABmwAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCRAsIAAE2AiQDCgQgBYMtB04bZAXIjsQ4RvGAGyEqHr5y+/7c7kDxwrhkTOWLuq7d1yAObkUcegyZx/qJa+rH+VOBtJXYo+QKK73aOs8nMODZLJJKIIFnOgPb7myOUUp7FLEWQo5vO057KOLTfLoa6Zr0Pi5K/wMYv+rtdJK2DCA6AWDRVput8/JX8VWK91uPE+9bi4BYDCqBjIx+AsyVBfopVCgUgq9SK3wVrVQEEHXpAzKoo4GTcSGgAEmWi6JrW88x7ds3a+2LLZu1cq/zukdc4eRul5fn9rgyTul5VXPz60bc0fvqoXf22UK4euTdQ+8cfW+fiGZwQOQueWBWxDPLpDI8e7d4pLp5rji511U9P1ryWpyy+NX1H2755dr3F768+eeLtrr+VMHMATeNuW/UPf07YubTs59dd85zs57pP/jeTvf+Puj9Pd83Yjuczdkdcg1yXjqq+yabdPf9eNPCECk7d775ZuCVC03US3XniQb+jVzQr1fHsU7q1fVGmzx662kz9bw33vy8LJcs7r/24psXW+zT19tKpXTcDTflb/7++5scJC+taAydMmVo43IgEAycZy7fqePc/xvNBL559s9fvLVFP6OXk3QvGhII8tjWWNsnrZAIAECKIw1u9m5FIFsmo0dt50oBQokASV0pQNZXJwEKpTEC1AwwTYC60mayKNqEbnZoZNLOIWQ23QlkoZvHyJq53orVdausi4YmGT/BbMs5vGxRNWn8xGp2Na2pJvXS4uycats+8kjfMwpW2tNBDnS4PexuH4cz9FDrkkc4wPIVsswXVSYZb6LKbNV1c2nbksUOdZh9xpb7eeao3odHOnI9fBS4EpKdbEmWiRS5s6UXjTt2lwOPGWfUPV2FxXwB");
 
 export default FaceZany;

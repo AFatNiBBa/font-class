@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-arrow-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-arrow-up?s=light cloud-arrow-up}
  * @preview ![cloud-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cloud-arrow-up.svg)
  */
-const CloudArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M389.8 125.2C363.7 88.1 320.7 64 272 64c-77.4 0-140.5 61-143.9 137.5c-.6 13-9 24.4-21.3 28.8C63.2 245.7 32 287.2 32 336c0 61.9 50.1 112 112 112l368 0c53 0 96-43 96-96c0-36.8-20.7-68.8-51.2-84.9c-13.4-7.1-20-22.5-15.8-37.1c2-6.9 3-14.3 3-22c0-44.2-35.8-80-80-80c-12.3 0-23.9 2.8-34.3 7.7c-14.1 6.7-30.9 2.3-39.9-10.5zM272 32c59.5 0 112.1 29.5 144 74.8C430.5 99.9 446.8 96 464 96c61.9 0 112 50.1 112 112c0 10.7-1.5 21-4.3 30.8C612.3 260.2 640 302.9 640 352c0 70.7-57.3 128-128 128l-368 0C64.5 480 0 415.5 0 336c0-62.8 40.2-116.1 96.2-135.9C100.3 106.6 177.4 32 272 32zM228.7 244.7l80-80c6.2-6.2 16.4-6.2 22.6 0l80 80c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L336 214.6 336 368c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-153.4-52.7 52.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const CloudArrowUp = createIcon("cloud-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABiQAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCJQsGAAE2AiQDCAQgBYMtBzUbKgXIjtFjRxhCPLlygJErL56n1sr3e3oOgC2xurCNQxlhAMuvcCFQ0VEahZyKjRF7JKf3SQr4C8ErrbVbJ3Di/F/z+T0/OsDPR3Ao0VYNUiCVixTY8wFO500TisLZRHG6TSS0Iwi/iBhSEtFxenx97aDmG8kAGeVrOQFe1w/Nf1xKKGoDAJkCAHDjgbMtbDygLjnpz5KfrIFAbgJgC0KDBmsQuEQUrCHZAqoqdKjfl/9ADAJkAPT5C6ho8QroASoomkqSFuWlaelIbjQtdfiQGMrQyM7lCm4QmZEY4G2VHFSly/zusEAhd5NYH089atsZUqti7eF2q9ZEWdzvp5ndHuQrYO2VHITvlysmtNm7uibULj+ufm9//sCF37eezRV9nKthd0LyYa6OHcUBfVio4xAaYhx6EjwJO1F6U/sF4K9oR1maFos4zW1t0uTfy2sCFPwYouS9vY2xMZekjVsoI8tjxkeqj6wxwJ0XXtyvL38MjHovfLKiZGfGDgmwWZ7By/D+/TjJnH7CAu3c2JM4OJhMaPrGG42h0UTX0X91C+DmcgBBGJlNoHjIcPlFSUMA+Lf08tXO1+9KrwxhSAGh2fuX4VN6IOgAQUkaCDlfFBSPEOm1jvkkIEYQUAwYEdBYxQiBasQuBFobVCEwYMQdRKlUEHN8ByjGPAeNC7mgmjMNWpf2/QFzaUKPDhz65ZdghpDpOqwop4C18LLUmWgiy7I23pYk0vKQJG2FMPHipAgVIlIKIElso1SxzDzY1A9hiuQowLTg42YruEGQJFnknDlfhTZ835OQ5k+WJJVAMU9kikIK/R+EcdnApKT4dNnUBA==");
 
 export default CloudArrowUp;

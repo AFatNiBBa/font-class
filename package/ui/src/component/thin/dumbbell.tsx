@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dumbbell` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dumbbell?s=thin dumbbell}
  * @preview ![dumbbell](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dumbbell.svg)
  */
-const Dumbbell: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M184 48c13.3 0 24 10.7 24 24l0 184 0 184c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-64 0-240 0-64c0-13.3 10.7-24 24-24l32 0zM112 408l0 32c0 22.1 17.9 40 40 40l32 0c22.1 0 40-17.9 40-40l0-176 192 0 0 176c0 22.1 17.9 40 40 40l32 0c22.1 0 40-17.9 40-40l0-32c6.7 5 15 8 24 8l16 0c22.1 0 40-17.9 40-40l0-112 24 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-24 0 0-112c0-22.1-17.9-40-40-40l-16 0c-9 0-17.3 3-24 8l0-32c0-22.1-17.9-40-40-40l-32 0c-22.1 0-40 17.9-40 40l0 176-192 0 0-176c0-22.1-17.9-40-40-40l-32 0c-22.1 0-40 17.9-40 40l0 32c-6.7-5-15-8-24-8L72 96c-22.1 0-40 17.9-40 40l0 112L8 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l24 0 0 112c0 22.1 17.9 40 40 40l16 0c9 0 17.3-3 24-8zM528 136c0-13.3 10.7-24 24-24l16 0c13.3 0 24 10.7 24 24l0 120 0 120c0 13.3-10.7 24-24 24l-16 0c-13.3 0-24-10.7-24-24l0-240zM512 376l0 64c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-184 0-184c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 64 0 240zM112 136l0 240c0 13.3-10.7 24-24 24l-16 0c-13.3 0-24-10.7-24-24l0-120 0-120c0-13.3 10.7-24 24-24l16 0c13.3 0 24 10.7 24 24z" />
-    </Icon>
-);
+const Dumbbell = createIcon("dumbbell", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABrAAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDXQsGAAE2AiQDCAQgBYMtBy8b3AXIHoPjbkz6cksUxVJ4Xl+PFc9/v3Tnvv1JaNXV8Sg0XTi6lSuhC4NwCN0lLoPFiEDU74fufZrk/TBciLjEpFpLpJhVXMvKMXQAIPi/+b/m83t+dIDf6EyOozBLa+CZzxtns3mURdOej2fD2VqQp25KPfQQRr5RRti0SBFW/rLj2RZaflvARd1br6A/bjT/4h1AsTsAZAkAnNyMH2J0TOHV5D7ybgACcgrYIdBBBxsE2GcT2OBQaByCcb7+ByoCyBBcvIAGI/iBX4AGFLc5MZsiYqN8N9iZ5Ltm+vl4hNxlGrmQIPjVqRx/CmLP+hHfl0Oxx0TEF4QThv6x2KMxRjH2xhw1Rg5GdRyGCMkJ0nU46kj01t7Fp3J8idIxAfEuZlZq3tOS6VfCrrxNe7XolYf92PVHPBJ9pmjQyget7Ts9i1U1/MnVcCX89Un4LUbdwqFybCGsjFpDnDlDb04ca6wBCSPkVnGNPRcaPTaMsetb2KJ4H0LfH4MMlhhR699/QNLF8wECwfXLm6uzFxu/BvgW4O/t/a/zdCaV1hUwxQKCbvd/oRm1B6hdAggrm0g37ihQnnPhWuccJUAYCFA8hgCdRGEEaIwCAgykqCLAkDGeTVogIsrMC1iCrAW2ajuBI8pd4Gr0NPBExU5rMinJv8q4boa6+mlZcanW6zROqUzFe32DLvO5m1penixkkdVW2WChBZbaQMg6Q7GNVuq24C4PpMoUK6XqqTv1nZtEwTrrLR0z/kYa6H471ya7dJ5IFqDuGVospAIWbFw577MGAAA=");
 
 export default Dumbbell;

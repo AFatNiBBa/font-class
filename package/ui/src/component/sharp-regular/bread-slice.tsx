@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bread-slice` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bread-slice?s=sharp-regular bread-slice}
  * @preview ![bread-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bread-slice.svg)
  */
-const BreadSlice: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 208l0 48 0 176 288 0 0-176 0-48 48 0c8.8 0 16-7.2 16-16c0-34.5-24.6-62.3-74.9-83.9C340.2 87.2 282.8 80 256 80s-84.2 7.2-133.1 28.1C72.6 129.7 48 157.5 48 192c0 8.8 7.2 16 16 16l48 0zM448 432l0 48-48 0-288 0-48 0 0-48 0-128 0-48c-35.3 0-64-28.7-64-64C0 64 192 32 256 32s256 32 256 160c0 35.3-28.7 64-64 64l0 48 0 128z" />
-    </Icon>
-);
+const BreadSlice = createIcon("bread-slice", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZgAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBSwsGAAE2AiQDCAQgBYMtBzIbzQTIjsK25RMXg5lDPAjEi0o8xM/pu/tJ2hE4QEmkxrJubPSUmiNhq+yMIYlqOv6TXb4fiHMR5wLWuxHRQVUqsBQqmH22jef/cs/PNh3gNzq0PXTx7TSa83kCYWC9bC4NJAss0wQsa2efkES36dMnJBnGz7AY7aCKPeqHMvmicA8e8ofGF3O9QKoLAGIcAJzdJcXgWIq3iLt2A+JVFAiIM8AiQkHBLAKHFAVmKVkElUrwRm3r/gMZBBANACetMif2wAWACqSslGxXNJW1lVJtuUYaIkYIV2jSmGlX6ubBpkaf37rfO0aMNQuQwWHCa+fcliym457Crvy3hIuYB9m4y4IDyHJfb+lXdl96j7o/zvkymGVwnKSz17PNFQVjY0HM5VI/HWkr7oPTCvEcneAm9PU1vFLh4ICxECooeA1KeaL7PCAQfLZ+9ufpHv53NRUAH7v//8qvqJVS9gFdCYKy1q7JTpAEACCjlV0CgXROAd512CMIhEEESI1BAYoZeghUBq0iUJvnj0Bj0BVFUakjTMupIA27B8WBNlCZtgZqh66ixnQoahOrC+xjLkmUkDCLyb04C2HDCuYUhI6ToWzZcmn1Ha60FKXq1GpWoliFZkE2iklb1BBnhOCLGDkvHBOCbddvF6cq0ahJhTq1aZpQ7LznonXe35VcBaDcMSclkZr/DFA8by0AAAA=");
 
 export default BreadSlice;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-sliders-vertical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-sliders-vertical?s=sharp-light square-sliders-vertical}
  * @preview ![square-sliders-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-sliders-vertical.svg)
  */
-const SquareSlidersVertical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 64l0 384L32 448 32 64l384 0zM32 32L0 32 0 64 0 448l0 32 32 0 384 0 32 0 0-32 0-384 0-32-32 0L32 32zm128 96l-32 0 0 16 0 48-24 0-16 0 0 32 16 0 24 0 32 0 24 0 16 0 0-32-16 0-24 0 0-48 0-16zm0 128l-32 0 0 16 0 96 0 16 32 0 0-16 0-96 0-16zM320 128l-32 0 0 16 0 112-24 0-16 0 0 32 16 0 24 0 32 0 24 0 16 0 0-32-16 0-24 0 0-112 0-16zm0 192l-32 0 0 16 0 32 0 16 32 0 0-16 0-32 0-16z" />
-    </Icon>
-);
+const SquareSlidersVertical = createIcon("square-sliders-vertical", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABdAAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCGwsGAAE2AiQDCAQgBYMtBz4bKQXIHoNts3nkICSRxTj+f3AZI/OJ5+mXP899+yiteFBV0S2yWiSSqMiPcHFNEf2FjNrxMeIPNhPZ3FpwuPv2xi/ai8uisZdliSUYSLZNqtr3/7mc3hx0VyDfIgtljGFzgu35PIFAj3phWxPJAss0AWt3thZLopVDEgqS4zPH5QY1t3iJKd/KD5/8h+aXNVeK2gAgswDg6rGQx2NAg+TXIT/dgECuAbsIDRpsInBKKNgksguqKgzSdfo/kCFAhsGvK6BiFC/gI4AKiuEqkhuX9KqiHFKLyuZcxaQ0AhUJSd0fn1AghZAJNVV5IkWRsjKuIETJKBQiwQxe4vUrC9qO/mz/t/03/nnrvYKb0vd2mE0R7OLv4a5Ta+gQZJtl6J4Csxr0vjp9l44Vo289P7udQbZ4u8OCASDPvf+/vzra0z+jSgHg/cc/8FfUDagtfYwqIDT7nVczLaQVAEDJmSMtguKZBL/rpM8CYhwBxbBxAY0NOgSqcXsIDNkWQ2DYuFtCqXLEolaGYtIHaJy4QLXoDkNOPWvDFtNInU1mbJ++3LkSzx7ikD/Iae72JLsgWexuhpfDzjPNuOAkxjbWjkaGZo6FspdvnqzkRnLWF7EQvyCWxtvD2+NlI3sHMxtrt08Gn086ncfLXRATYKMHWopCivXm+nxPK3HwCTMAAAA=");
 
 export default SquareSlidersVertical;

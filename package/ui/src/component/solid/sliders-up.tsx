@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sliders-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sliders-up?s=solid sliders-up}
  * @preview ![sliders-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sliders-up.svg)
  */
-const SlidersUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 0c17.7 0 32 14.3 32 32l0 54.7c28.3 12.3 48 40.5 48 73.3s-19.7 61-48 73.3L128 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-246.7C35.7 221 16 192.8 16 160s19.7-61 48-73.3L64 32C64 14.3 78.3 0 96 0zm0 192a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM256 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm80-32c0 32.8-19.7 61-48 73.3l0 54.7c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-54.7c-28.3-12.3-48-40.5-48-73.3s19.7-61 48-73.3L224 32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 246.7c28.3 12.3 48 40.5 48 73.3zM448 192a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm0 73.3L448 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-214.7c-28.3-12.3-48-40.5-48-73.3s19.7-61 48-73.3L384 32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 86.7c28.3 12.3 48 40.5 48 73.3s-19.7 61-48 73.3z" />
-    </Icon>
-);
+const SlidersUp = createIcon("sliders-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABrgAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDPQsGAAE2AiQDCAQgBYMtBzEbvgXIhof/t+v7fW7V6wFUYzMD8eUUUjrpWz+Vs57+fp7/wt+Az+ijRVGUNeZ2HlE60BLbzecFPhvYCKcTsJ1texNEdf1GKFwhj3ezUypI99N3uOq9afykmVMk1TIAURcAYxfPn+mjyqiM+Lb8OvGt6QiIsaAQyJChpQAjZAIt5QrkckFllMviP7AggCgJ7pZAjqr4GF8BcpCU8rx7gwayqluNilr5Ivl1qi+/2CjiNvF8s/uONb3XQRxreKv6hcZ3IuKF5g/ieIuHnSOON7lbw8UmEXfjeOM71S80vOVYo9s1FnaJxcea9nyEd7HRVeriPSsRUr04sUcQjPzGJ7R7pe4rv7T9btN3Vn9Y+xznag+25NNPmjX75NMl/6l97lztWP+vDw3OP6p9jmGZbHnyQ2LMbrPcQ/Jxjwdv2f3kXmPqo0Cu9Ue7sMX64v7tQCB4tucPX66uM+KfqjUS+PGd3/7Pf0Z1yx/F7+kVVJVAkPUo97AiUVfd+F0AAFIc0i5RVyB5W0nwqjXdESBUR4CkpLoAmRbqCpCrrrsAFVobKEBJdfNlIq8mNLSyBklNe0FmkMMg19CroMIIX6YlDSMDYxEIxb/ItEltaOKpom+vPsWwYrKllCCTt6vDi9Vml0NypCu+aJPddjlgow22OtBi95lZHLTTpDl8og8q9NVLH4Vhit3d++cX2Wif/bbabZe7y3DF+X4Xh+and8VOEnD2U5MkIlX/TpP9PQ/uAQA=");
 
 export default SlidersUp;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `yin-yang` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/yin-yang?s=sharp-light yin-yang}
  * @preview ![yin-yang](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/yin-yang.svg)
  */
-const YinYang: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256c0 123.7-100.3 224-224 224c-57.4 0-104-46.6-104-104s46.6-104 104-104c75.1 0 136-60.9 136-136c0-26.5-7.6-51.2-20.6-72C436.5 103.1 480 174.5 480 256zM256 32c57.4 0 104 46.6 104 104s-46.6 104-104 104c-75.1 0-136 60.9-136 136c0 26.5 7.6 51.2 20.6 72C75.5 408.9 32 337.5 32 256C32 132.3 132.3 32 256 32zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM224 376l32 32 32-32-32-32-32 32zm32-272l-32 32 32 32 32-32-32-32z" />
-    </Icon>
-);
+const YinYang = createIcon("yin-yang", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABhAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCGAsGAAE2AiQDCAQgBYMtBy8bFwXIjsK2tXNMGIzkC+FIQjw8f+w99/1aRPlGSZFWCTRMG240rAAd6Gw8r9IJfP//x9x9E0O7foaIeILTR1fRqKGIZqa/+eedRwE+o1DWojVBFvic5wkEnOV5QllgiQUcgHzmr9vEo3UE4WshYSIRf+DxdkA21skYfNId5wIn/abxr1UbJNkMAKIGADC5GRWCnVf6ibgoLhJPZkFATAHoQcgggw4ERnAFOvD0gKys4IeKRfwH9gABRB78kxLIooBtcAAgC5JclqemoiIWy/EVeLFyOUlWjznRjD/FycyS4Zh6t9G43bHbtlaX4anFrGbsogHRqFqH/oj1gfMG6zQ4s5yT9lvNB537cZ4XKa6n9+nIcy/0KvYh+MJ9B4ceuyGXMbEGhgZGZEj6SfpG+gY0XlY6pjz2pnmRe4HvbcVbHo2Bzp+Zx0u58suPGVlsjrjgpra7q/D9PfMIBhbGgGH/1QcyOHNS9fJSdWqX+UDHYWkc/zOv6BpKch4gEPQ8cFrTlEb+RHIcwN/axxc+I8WdJN2DEgkEmb5/YyQnkAgAQIpaSBMQSLbw8VUrXCNAKEOAJK9MgIx2yghklelFIKeLDQJ5ZVZxRVaM0CBlgqTCPsgY1gKyGsyDnBHHfl5DcJOOShnqyxfvqyGfNWZhas4c2TYmdB4Rbe7EwpJ+ba0Z0C5ylSlVLUe2AtUKqRQS1Sjh68E+HsRYMGWOccSOs1c+VvmVqhTY7PkSJ+y+p6/W7zYglYNR+4npCTaSqKGg1KQhozQPAAA=");
 
 export default YinYang;

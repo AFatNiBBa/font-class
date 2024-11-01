@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `golf-ball-tee` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/golf-ball-tee?s=sharp-regular golf-ball-tee}
  * @preview ![golf-ball-tee](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/golf-ball-tee.svg)
  */
-const GolfBallTee: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M336 192c0 55.7-31.7 104.1-78 128l77.1 0c30.4-34 48.9-78.8 48.9-128C384 86 298 0 192 0S0 86 0 192c0 49.2 18.5 94 48.9 128l77.1 0c-46.3-23.9-78-72.3-78-128c0-79.5 64.5-144 144-144s144 64.5 144 144zM226.1 248.6c0 18.5-15 33.5-33.5 33.5c-4.9 0-9.6-1.1-13.8-3c5.3 11.6 16.9 19.7 30.5 19.7c18.5 0 33.5-15 33.5-33.5c0-13.6-8.1-25.3-19.7-30.5c1.9 4.2 3 8.9 3 13.8zm-52.3-49.3c-4.9 0-9.6-1.1-13.8-3c5.3 11.6 16.9 19.7 30.5 19.7c18.5 0 33.5-15 33.5-33.5c0-13.6-8.1-25.3-19.7-30.5c1.9 4.2 3 8.9 3 13.8c0 18.5-15 33.5-33.5 33.5zm113.5-17.5c0 18.5-15 33.5-33.5 33.5c-4.9 0-9.6-1.1-13.8-3c5.3 11.6 16.9 19.7 30.5 19.7c18.5 0 33.5-15 33.5-33.5c0-13.6-8.1-25.3-19.7-30.5c1.9 4.2 3 8.9 3 13.8zM64 400l96 0 0 112 64 0 0-112 96 0 0-48L64 352l0 48z" />
-    </Icon>
-);
+const GolfBallTee = createIcon("golf-ball-tee", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgwAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCJgsGAAE2AiQDCAQgBYMtBzQbKgXIjtRG+YSdxMODXt+fm2QWYN6CcLcdvzoJHatfTznUTlxTP86/7e2bnuBRohdR1CCjzPMJTHTe9hOYDexFcburlkxSWnlICBvpHr/l8bsbZLE3LimQ3E4+xMX4o/GXuo6RKKQAogoABs+cOt6rv8avER8UEx8Yi4AYDHKBFCkaCNBPKtBAJkcmE/waxSL+B+YEEKWQbwnIUBpbcQiQgUQhy5pWr2rb5QsVsxne/3JL77WLeNSrfLwx8+spn8/4ctKn074aXD6e7/Ck0f2Br4x8q/9LJdMO1Yi4Vu5MrdvNb9aG7p0W101pgLNQqJyK8ZmyMxNPK1+uvChvpFcrhCYPqjz4p+TDFR+aWCw7mMEl4/0ZY2Ly9OmTLRbTp39mzJ/jlQweXLbBrpOvvXZyV4P1vSrd4nSlMlOODPr11ClZq+ZlOjeSSZVO31JQORXzm6psOKvCz98tosYmg3hmkU7QiOe+frfOhYWV+/1fpnwCfn/+v//kt4uvxqHkAcpIQJC2K7YzLw4BygPoJrFDEyFggcRaBaBvreCGAKEcAiRKKSdAqr4qAmTKaStAQSPdBSilnKlSkZUVaphfuUQFm7lUD/u5TA3PcQX9vNMtpUakumdqjvnnlzeih4dfyjt36JT3ydmRYqmTHk775sfJVjvcSmu4YoWNNthmuWVWZ7Wjthg/2G69ERIyXIBynXXQSa6P/Hr66M0w3S22Wr127s/pK/++2soOeXtryCRIsYuhREIkFV90qP1rarXftnw5AA==");
 
 export default GolfBallTee;

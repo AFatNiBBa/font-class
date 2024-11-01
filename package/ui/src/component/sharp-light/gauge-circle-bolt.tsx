@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-circle-bolt` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-circle-bolt?s=sharp-light gauge-circle-bolt}
  * @preview ![gauge-circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/gauge-circle-bolt.svg)
  */
-const GaugeCircleBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 480c32.2 0 62.8-6.8 90.5-19c5.8 9.3 12.5 18.1 19.8 26.1C333 503 295.5 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0C375.4 0 475.6 81.7 504 192.2c-2.6-.1-5.3-.2-8-.2c-8.4 0-16.7 .6-24.8 1.7C444.3 100.3 358.1 32 256 32C132.3 32 32 132.3 32 256s100.3 224 224 224zm0-96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0 32c-35.3 0-64-28.7-64-64c0-29.8 20.4-54.9 48-62l0-194 0-16 32 0 0 16 0 194c27.6 7.1 48 32.2 48 62c0 35.3-28.7 64-64 64zM144 120a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM72 256a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM344 144a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM608 368a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm168-80l-10.7 64 66.7 0L472 448l10.7-64L416 384l104-96z" />
-    </Icon>
-);
+const GaugeCircleBolt = createIcon("gauge-circle-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAABvAAAAL0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDTgsGAAE2AiQDCAQgBYMtBzgb1gXIngdlm0p7yzi4pUtt6Y+dB414+Gd//e9z5z77A050YgQjlOc3GElIgKLaWz8xjx+Me999DdANcBbdhEwytB/KQpoB17yPSPy2wLDaRtFYygNq4dnSs/bd57nm80s7OsDPR3AouajEooFkPp/AAA+XSSW057OJ4nRTq1A9CiV7CptIWWWUHZ/Hu2cnSOM/+hCTHCRfYXtfE7806SSRZgCISvBWY+bGReDme3yP+MhFvDINBMRYQAeEDH4XbRAYTijQhkgHkEoF3yOXQ/8DO0AAkQ+cnIAUJbiPL2DWI1GUiuxrjOToZoMWpRKxkiixJE8+YXM3qPUy/svyTf/g+HV4uHp7+nyomU3iJpv3PT5aPKsu86zrbshvis0exTCx3h1a7DGAbN2ggnO9KNbCNoNha8LOCoQQZ51RHOixYpF6NhixWNIft45X7XLmyefkrA8pxrIl+U3Jgu4Isk2jlosKm/Nlg3EqbSsptrtzhc3NqeMmsn02fE7kN7VnTls0t0PMChEfnaOYkjo9VNf+Or5a+gq59gP7mp7eThDadjbpIkhQY9DbNgmpMXbIcasbl6ZKu3bQ4fsMSNv2uXtfXv77oE9b6fzyDbChvJfJOzqcUAOqihvevZ3wAJWYqjsT3v4biquqZqryTZ0TU9hJPZoFteWix31r10rrMe2MOdza2s6V2SzWHYAONepWVuoazNZURuHlqC9Kx6FoHraNxwGBYP/1ddG5Yvj/whIB4Ofdf6t35+4lWfISKJSAINMn10d6kgVEGEA+iUZmwRcFEncUwbpS+wQIxRgS+YqR0UIVqWK9kacdz/X5is0kFKkcQq0MQ6LUSmQM04RUrX3kGe45l682MvmsZaP2NZkl0BMB07h2cmE/XpadhhRV2rg/P/YUjdpmS3NRqEqlegXylah3fK2IYoMKgREX4IeYKycumB/erj1bEl2uVp2Se9P+JP74/YSNxri3LfkFIDrImkRCJGrLFjQUFTj++U8a2dvy8noAAA==");
 
 export default GaugeCircleBolt;

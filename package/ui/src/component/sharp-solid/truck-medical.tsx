@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-medical` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-medical?s=sharp-solid truck-medical}
  * @preview ![truck-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/truck-medical.svg)
  */
-const TruckMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M416 0L0 0 0 416l64 0c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0 32 0 0-64-32 0 0-64 0-32 0-32 0-13.3-9.4-9.4-96-96L493.3 96 480 96l-64 0 0-96zM544 240l0 16-128 0 0-96 48 0 2.7 0L544 237.3l0 2.7zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM176 64l64 0 0 64 64 0 0 64-64 0 0 64-64 0 0-64-64 0 0-64 64 0 0-64z" />
-    </Icon>
-);
+const TruckMedical = createIcon("truck-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgQAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCLwsGAAE2AiQDCAQgBYMtBzQbMwXIjtRGecSPRBDN9V/1JPsgefsR84lIEdKxOsdoiR0bgaRO0erJQulvrw2qMWQzcU39OH/68+Sc2FCiGiSSIvJ8AgMdhUXThGYDixa0QbQ5jkdFxXhoiCdMSCIaxq9haQN5/JPdrUZ6NH2FB5cLjd/0dDdJawYgOgBgwca1a3zydXwd8WXjiC+tQkAsAJVAhgx9BJgtE+gjVyGXC76ORiP+B1YEEE104wRyNOMy7gJjMkktzyfUeX3PslbPN5S14mBbvS1FGU+O6Ck/avtbpIwoAne32JBVxQFbLxSLlOX6sOvFntpDBmcv6+3DWEw1BFE0xVCSUBalKGOFCziAcvLA1zrMHwO+OvCVpz9+RpPM1/Laa7du4Wy5ZQlVNV+F2ZW6B+zc6RH1+btu/tVBNrhll/HZ6tWymzef+fHtt398pgm0H1ecuHr1ROFu7JxPR+F0EAh2rr2ya2f72X+3lAl8+95ff9iObnySbqXX0CKBIBvdGG1bugVCD+AnpbhgYLqFQHJajZxrm4cECAUCJE0KATK9dRAgVxglQE0/UwRoUlgrE3mr0MX2nUranKYyU12ncl28TtXM9mmgSZfI/E/mPbLfv9RLe3jJuGrC2PHVzOq0yOQuJanDs6rL5uEXUtMI5jrgpBPO2W+fw8516Blrwucdt3SGLHFFlQnGGq8yU3W78jh9g/3OOOuwk060UWapnvcPd2HeeQS2RIVOlJEkItU/MP2Y1xEAAAA=");
 
 export default TruckMedical;

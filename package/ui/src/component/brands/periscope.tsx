@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `periscope` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/periscope?s=brands periscope}
  * @preview ![periscope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/periscope.svg)
  */
-const Periscope: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M370 63.6C331.4 22.6 280.5 0 226.6 0 111.9 0 18.5 96.2 18.5 214.4c0 75.1 57.8 159.8 82.7 192.7C137.8 455.5 192.6 512 226.6 512c41.6 0 112.9-94.2 120.9-105 24.6-33.1 82-118.3 82-192.6 0-56.5-21.1-110.1-59.5-150.8zM226.6 493.9c-42.5 0-190-167.3-190-279.4 0-107.4 83.9-196.3 190-196.3 100.8 0 184.7 89 184.7 196.3.1 112.1-147.4 279.4-184.7 279.4zM338 206.8c0 59.1-51.1 109.7-110.8 109.7-100.6 0-150.7-108.2-92.9-181.8v.4c0 24.5 20.1 44.4 44.8 44.4 24.7 0 44.8-19.9 44.8-44.4 0-18.2-11.1-33.8-26.9-40.7 76.6-19.2 141 39.3 141 112.4z" />
-    </Icon>
-);
+const Periscope = createIcon("periscope", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABegAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyBeQsGAAE2AiQDCAQgBYMtBzAb+QTIjsK2eXNEQiRDNsNx5cGK5/m/93Of++77U1rRGao0HaSlUYBCAepWrQG35QVwBP6KhqN5F3a5+4G0sdlBNahKcJkrfzJ9/v7m+T+PAnxGoY1lUwNZgHudJ5BYl83zRLIwSyxASSFzV2tlIrqvtJQlefzs8fOxQ81AWrWUL+UG+FAvmr/kNIGibQAgkwDAxaPwQDjoYz+56VbJHX8gkEsAbEI0aLAKwTEOwSpOm0BVhX66LvwDCQRID3BsARUtHgNPAKigaCqnypKSQCvEGZXm8Wc/Rb2EPETUKQ3pzsktOW5qzugvRFFmgD+CyojKW1jMtBNm7xLxaPs9/Dn6NfQxctTlwGFHI35QBzN7cKY3rzxsjOmb69KckelR6Nc6d9xVVZsXnWer3mTdQOmzvTCIyeBXjNP+ZZyMDk7JeMx1utvHx+vAyIhhuDz80bxUegvwOxngaglvvb1DMQC9rfFWLjh4Z8m1SFmw4//j1g/bx3YVlF93RDfbLMU3C6WlsgAQhNfMhkmyiMM/XgEWwJ+ff//yEhLdQX6UeQwqIDS7nYGEHJAgnh8CekkVqBl3gige4ICzjvoIATGMgKJnWEBjhSgE1bAdCFrrLCHoGXYPh1Q+iFmJHYpRT6FxpBqqWcvQOnau98ymcTLaReg3XoKXRp5DZGpkQnY09TTGb8jctadlSadKMro0CVmKFamQKUOuCoWXCbQqFfKyME8PIqaMmCB2aDt8HI+SqUy5XMWKSh97dF7TUWWX65LKAsI9tqKQwvdrP3XXAQAAAA==");
 
 export default Periscope;

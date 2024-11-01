@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-question` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-question?s=sharp-thin message-question}
  * @preview ![message-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/message-question.svg)
  */
-const MessageQuestion: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 416l-16 0L16 416 0 416l0-16L0 16 0 0 16 0 496 0l16 0 0 16 0 384 0 16-16 0-192 0L176 501.3 160 512l0-19.2 0-60.8 0-16zm0-16l16 0 0 16 0 66.1 119.1-79.4 4-2.7 4.8 0 192 0 0-384L16 16l0 384 144 0zm8-264c0-30.9 25.1-56 56-56l56.2 0c35.2 0 63.8 28.6 63.8 63.8c0 21.4-10.8 41.5-28.7 53.3L264 230.9l0 25.1 0 8-16 0 0-8 0-29.5 0-4.3 3.6-2.4 54.9-36.2c13.4-8.8 21.5-23.8 21.5-39.9c0-26.4-21.4-47.8-47.8-47.8L224 96c-22.1 0-40 17.9-40 40l0 6.5-16 0 0-6.5zm72 152l32 0 0 32-32 0 0-32z" />
-    </Icon>
-);
+const MessageQuestion = createIcon("message-question", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdwAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCJAsGAAE2AiQDCAQgBYMtBzcbKwXIjsO44TuyxVL+I6h0lD0rHUkPuifUM4OdAUWAnCFk5iC/csrYzDhUCuf/ms/v+dEBfqND6dQDKcCKRT2fwMBHlVzhmw1sphOwmdtoky8IsqjI8EOe0C5Ut5DHuw5rID2Y4Pb0ofG1nm4kyTIAUQFgwbZNa3zUFm0Rn///OvG5VQiIBaAWyJChjwCzZQJ95GrkckFb/P+//w+sCSAayeskkKMRV+AqQA6SPM/7dp3YUja0z7eWDcW2oiwisogo24sUoig2R5egS5ZFKcS26B5lmUW7SFHuerh7xP3Dynh2xIs9Hxm+OoQogrD+hHXxfO+Hut1XLG7qcg8rbLlB5F0HvlS99O0AR3m8f1U9UblWpfrBDvvomvtLZ3NUsoSFrlxrooaPrtXmWnc00TO+57/zeaK1tYhXBuipWaVZXw0mOGRuc/7Fl13T+vI7rU0qTcvur0ng9gaBYNimBYv2dZz9a3OZwFfvfP+1+Rn5/6MkvYRmCQTZ6P9H251AIgAAKa40MEEgOSMn79rOfQKEAgGSRoUAmd4qAXKFUQI06GeKAI0Km2QibxG62FNB0s4FkJnqKpDr4lXQYLaPnUZdIoMeBRzq4xe/VENLBtUTxo6vZ9bTWKHRRMTeWfW2PvzKUDOCRzrqnLMuO+KwEy4r5KI1/hXOWLqCl/ii2gRjjVebqT7ObvmtyrnokhNjxXk/s9Tv7eGuXDcfwVYiqBMFkkSkCpDKGHwCAA==");
 
 export default MessageQuestion;

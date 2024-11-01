@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-group` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-group?s=sharp-duotone-solid people-group}
  * @preview ![people-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/people-group.svg)
  */
-const PeopleGroup: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 280L64 384l0 64 128 0 0-64 0-2.5-42-58.9L138 305.9l10.2-17.8 64-112C154.8 176 97.4 176 40 176L0 280zm53.3-4.9L64 247.3l0 45.1L53.3 275.1zM72 88a56 56 0 1 0 112 0A56 56 0 1 0 72 88zm355.7 88c21.4 37.5 42.7 74.8 64.1 112.1L502 305.9 490 322.6l-42 58.9 0 2.5 0 64 128 0 0-64 64-104L600 176l-172.3 0zM456 88a56 56 0 1 0 112 0A56 56 0 1 0 456 88zM576 247.3l10.7 27.8L576 292.4l0-45.1z" />
-        <path d="M384 96A64 64 0 1 0 256 96a64 64 0 1 0 128 0zM256 260.7l0 72.7-23.1-32.3L256 260.7zm128 72.7l0-72.7 23.1 40.4L384 333.4zm0 82.6l80-112L400 192l-160 0L176 304l80 112 0 64 128 0 0-64z" />
-    </Icon>
-);
+const PeopleGroup = createIcon("people-group", true, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABnQAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCaAsIAAE2AiQDCgQgBYMtB1QbjgXIHodxjLI9k0dfiXj4z+7/26eqH+D+FAZwBEWCs3HmJLjrhSOGN//5aUv7fv6v+fyeHx3g5yM4lKp1WgVQ5vPG2QCjLdqigAY2myluVK/wIOevjnM7KNK0fJca0lPpRzwQ/w9g/GzAXSQNGUC0A2DDsUN7fF2JSoofqxE/2o2A2AhKgYyMYQFWywLDCiUKhaCSqqhEVUkAUSu+dAa1aMY9eAVQgKRQWxQtdXUdA3UtvdDTVNNSHBU3arzo+ZlvT39z+LkZb816Z+ywMDPmHQkxJ6Y7dvjY0WiMwzEzNUUg3dEjdGDExhiMoTgWdzdmEYe3DfUPwfsee2rKa9PeGHp66uuTX+0/56MFA9Ef68PN3mNxNBr3dz8yMDjQHzHx7fa3f53w44U/uvWsPP7nn+O5Mt366vbUe5WLbt0WxVzkqkP7rgq8667yIol3buvdpixvrrsI06NVkqd96CHrrrJ9W1vrtIs2v6MmzfFi56dtH3z11Qdt1cTzjv3/IR96WvLEtO4i17q8O3TsjPqm52++50VzgEBQ3bGz2lb/W9+UwPinv/+kObtaSbelt1EvgSDPrs52Ot0GFToAb4obTdz6yg8RyI7R6U9t9rgAoREBklqNAmRD2gUoNJolQI1RSwSo1eiQLIoGodsZA0iaXQOypW4GhW6fgBqrfeOr1R3ZddJui/43TNg6hbb0KxfMnV+uLHfjOsbBkUH9qvKyevqNPG8GXOpCV7nS9S5wvktcP0GutSd4gytsPYK3+KHSAnPNV1qpfJx6aTrqgsrrOpfY5p43skr5vX26G49Lz4C6JMVcaEKWiRS520NLc5yvfI5DL+xd4fw0");
 
 export default PeopleGroup;

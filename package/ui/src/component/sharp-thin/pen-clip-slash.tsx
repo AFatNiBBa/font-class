@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-clip-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-clip-slash?s=sharp-thin pen-clip-slash}
  * @preview ![pen-clip-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pen-clip-slash.svg)
  */
-const PenClipSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M327.6 353.8L216.1 465.3 84.4 491.6l26.3-131.7 99.1-99.1-12.6-10L96 352 67.4 495 64 512l17-3.4L224 480 340.3 363.7l-12.6-10zM298.3 42.3l-58.6 58.6 12.6 10L304 59.3l42.3 42.3-46.6 46.6 12.6 10L357.7 113 463 218.3l-32.9 32.9 12.6 10 31.6-31.6s0 0 0 0l11.3-11.3s0 0 0 0l79-79L576 128l-11.3-11.3L459.3 11.3 448 0 436.7 11.3l-79 79-48-48L304 36.7l-5.7 5.7zM474.3 207L369 101.7l79-79L553.4 128l-79 79zM16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5z" />
-    </Icon>
-);
+const PenClipSlash = createIcon("pen-clip-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABeQAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCKwsGAAE2AiQDCAQgBYMtBzUbMAXIhuB5u/+qc7sHcI/onv8GcgZl5IYbAciGQbhGtJHe9Pfu/J//Dfj4E3yUsW2tAhnTxljnCQTYZcXbxgLKwixR7GzbqyVDJcQbobCFPP6xVS3SvfQMV8KHxm/aOU+SZQCiKQCmVpYv9NnX8XXE0+rbxFPzERBTQSGQIUNHASbIBDrKFcjlgq+jWhX/gQUBRG3pzAnkqI39uADIQZLnebvh9Zo1qNUorzF59beUlbKMikJbRxlpG71HS1cvWb6kVSyPiTEhCj45Vvj94wxR20i1Iv3WUYNjLaOMSV5bUePUyqGscnPrVq1bngwPRauw6XC3F5q+8EfXZ9ufmb3uwH567Ln22p+zebPHtm7V8bJCcrmjI0e832n0fXaj9w133xfe97mdO/HYn+BDLFrkBS/YtSuzo6KqUvnq8zsJ6xmqYN7jxyV9+XNKu35WeqC06xcgEFz/qeetDU0m/F23QQLffvDXb/501c/S6fQC6kogyAZUB1ibTgOhBhBPcVy3nS8KJNvl6Ls2dFuAUB8BktrqC5DpoKkAufr6C1BLZyMFqK2+5TKR1xNaWteDpKFDIDPKCZBr6U1QywQPY7W1jAz6BNgRfv5SZ42hmYuKoYOGFOOKzZomAhRnZ8cXp/U+x2VPX7zWdgfsd9Q2W+1ydEQetjB5zD6z9uCZfqgw1CBDFMYpbjefqzU0dtgRu9bl+/OMV7wf7eP4/vC+2EoS7TArk0Skxge37R/48ecMPLJ305GdAA==");
 
 export default PenClipSlash;

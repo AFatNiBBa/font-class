@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-circle-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-circle-exclamation?s=thin calendar-circle-exclamation}
  * @preview ![calendar-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/calendar-circle-exclamation.svg)
  */
-const CalendarCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56L64 64C28.7 64 0 92.7 0 128l0 48 0 16L0 448c0 35.3 28.7 64 64 64l266.8 0c-6.9-4.9-13.5-10.2-19.6-16L64 496c-26.5 0-48-21.5-48-48l0-256 336 0 80 0 16 0 0-16 0-48c0-35.3-28.7-64-64-64l-48 0 0-56c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56L128 64l0-56zM112 80l0 40c0 4.4 3.6 8 8 8s8-3.6 8-8l0-40 192 0 0 40c0 4.4 3.6 8 8 8s8-3.6 8-8l0-40 48 0c26.5 0 48 21.5 48 48l0 48L16 176l0-48c0-26.5 21.5-48 48-48l48 0zM304 368a128 128 0 1 1 256 0 128 128 0 1 1 -256 0zm272 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM432 448a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-168c-4.4 0-8 3.6-8 8l0 96c0 4.4 3.6 8 8 8s8-3.6 8-8l0-96c0-4.4-3.6-8-8-8z" />
-    </Icon>
-);
+const CalendarCircleExclamation = createIcon("calendar-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABrAAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDIQsGAAE2AiQDCAQgBYMtB0IbswXIjtRW+YRkEvzzr1Pv+5J9EslBVrAJq8i4MeMMtOLU2Rlyr39xKudyHloUew5BUPZoadkcFOrc5xXoeb2pjkUl6RWkotjBeRN+J6MzJOgKbH1iFAEwO80bYL31ofpFGkvAYFkAACgWAABo3rdnZx5813fpTfgq6A0dAQGoBQAeAizAAjIRAI2wEJCJjQfY2Ai+Kxxm/4EeCAAUxPkKA4ANRACXgVsAgA2AIWjbDQozMiKj3ECU3ccNOAO3JW9JRI6OFJ9IRchoZ8nJwihtS3Z0LHlbuqUoV5J2lZ4qciQ1DasXYmvS9pSAdoWeOZq0NQ2FJO1O2V7N7b+wTDpddtpdXXLSpVhQfIJyVpWeCitqYaV0rsGt+Fn1bpSfYUHF2fo33dUNb1edV6/tKWMktiZpGsngUs/mnYo99cebMW+Yfz04bFiwHj4H4uIcn1jACaIOuBxbEf7ntxZ0G1aA+hmfejRteEC9mLbFjpBAiuPFBKbf/BmfA/hYbz/7/v2c/BCEPn7Iy/vwMRTKT3SxqNhqHngJ8UVF8QmeVw12wZb1Xb9HR3/3CyeGBYdBJPk+AAgQPG79LHtoTKP/Ea4B4Oetf/PXCT8wzcwpIAIDgMAqD5czyDQDgEwBQNloDnkVBxRgOM1cKIfYhoKqcICDIYgDFhnEgo1DGQTIprbQUO/ZiJIdSTqRwQgMIaaDRR3mgk0ilyFAI56XgiTK2nClzU46bkxvk0Rb7/OqV/peA6+0K5C3RUFvN/Qa+8Vz+FQJPMkYpjKFWYxmFOOZlcBn0Lk6m8m0qcJa80M8qlOJj0cDvM6Ds8f7MJoZzGQ8U5li7tIQb/h0MXOqF5fAuMFhrUGbwYBMxnptV1zkM13xW4zY8Mk7JA==");
 
 export default CalendarCircleExclamation;

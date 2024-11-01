@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-sad-tear` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sad-tear?s=regular face-sad-tear}
  * @preview ![face-sad-tear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-sad-tear.svg)
  */
-const FaceSadTear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M175.9 448c-35-.1-65.5-22.6-76-54.6C67.6 356.8 48 308.7 48 256C48 141.1 141.1 48 256 48s208 93.1 208 208s-93.1 208-208 208c-28.4 0-55.5-5.7-80.1-16zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM128 369c0 26 21.5 47 48 47s48-21 48-47c0-20-28.4-60.4-41.6-77.7c-3.2-4.4-9.6-4.4-12.8 0C156.6 308.6 128 349 128 369zm128-65c-13.3 0-24 10.7-24 24s10.7 24 24 24c30.7 0 58.7 11.5 80 30.6c9.9 8.8 25 8 33.9-1.9s8-25-1.9-33.9C338.3 320.2 299 304 256 304zm47.6-96a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm-128 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceSadTear = createIcon("face-sad-tear", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABkgAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCTAsGAAE2AiQDCAQgBYMtBzQbUAVRVC5KZD8TMoF7YQnnqSKcb0xMTnUo/8qECm8MpeXhYX9f596HmVlAVUpQFOO07XQCk0L9ack4yJsB1Hf/p94l4bwA3gvtxT8WWrS6t9WKVpBaJ675EbnxBlitVaIDHI+juHU3bc3m0UDXpK/V4Ka/+eedRwE+iyyUsW1qIAskmvM8gcS6bEwOPAss0wD4s3zzliPbI2UkSRFNkn+sx7M6dFYo42FcVJFXsxcX4kPji9E+pKoAEIMAgGVbqxJ+L+NlRE9zm+ixEgiIZQCTIAoUGAfBQrzAOIJJQKkUvIymof/ASSCAqMnvSFCiHSdwCVCCVJdlT7eq7FCZrlik0Lei6IodjJ7luOWWPRUv6UP+nNrnKo5CYTAWqzf0meQuuipeI8vEljodW4fmuXxLBaNGn9Eb1rqlrdWVqtFUihgt28Td1TvatFAsq6JeJ5E6DRGouwYYjE9xOjVlJIx+k3u3rYFrYwOAxD491sXW1mgruDUy7ug2YmrSGdaBeXOxIroYjyaZ4MT1R0twL59hwz698MDvi+nm/PT6gT+6NK0OT8+O+z//8QgDM3U6xZOcHND/5Mn+CQdO4tGJaMBkQgNx6ELXr1bnwIX/2vsmeP3gx//yEWqepWyhXYKgmNZM0yVIAgCQsYecEEgHXO1d+7kkQOiDAKnWR4DCWBIEpT6mQlCZIISg1sdGvCg7hGH6BlI/20FhgTcoDfMFlYX+em1YFOZIGxP9GUwohlgXuZZDGU0dlbEw0jdzWpaUl4SKQVg5O3lYWth6hNyU1tNRocHMi4jL4iAZ2vYf+1tLN3dbZ6fQJkfnNcVLz1ehcgRzDltKIvu/dbt5ny7Mx3J6AwA=");
 
 export default FaceSadTear;

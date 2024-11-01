@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-reddit` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-reddit?s=brands square-reddit}
  * @preview ![square-reddit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-reddit.svg)
  */
-const SquareReddit: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32zM305.9 166.4c20.6 0 37.3-16.7 37.3-37.3s-16.7-37.3-37.3-37.3c-18 0-33.1 12.8-36.6 29.8c-30.2 3.2-53.8 28.8-53.8 59.9l0 .2c-32.8 1.4-62.8 10.7-86.6 25.5c-8.8-6.8-19.9-10.9-32-10.9c-28.9 0-52.3 23.4-52.3 52.3c0 21 12.3 39 30.1 47.4c1.7 60.7 67.9 109.6 149.3 109.6s147.6-48.9 149.3-109.7c17.7-8.4 29.9-26.4 29.9-47.3c0-28.9-23.4-52.3-52.3-52.3c-12 0-23 4-31.9 10.8c-24-14.9-54.3-24.2-87.5-25.4l0-.1c0-22.2 16.5-40.7 37.9-43.7l0 0c3.9 16.5 18.7 28.7 36.3 28.7zM155 248.1c14.6 0 25.8 15.4 25 34.4s-11.8 25.9-26.5 25.9s-27.5-7.7-26.6-26.7s13.5-33.5 28.1-33.5zm166.4 33.5c.9 19-12 26.7-26.6 26.7s-25.6-6.9-26.5-25.9c-.9-19 10.3-34.4 25-34.4s27.3 14.6 28.1 33.5zm-42.1 49.6c-9 21.5-30.3 36.7-55.1 36.7s-46.1-15.1-55.1-36.7c-1.1-2.6 .7-5.4 3.4-5.7c16.1-1.6 33.5-2.5 51.7-2.5s35.6 .9 51.7 2.5c2.7 .3 4.5 3.1 3.4 5.7z" />
-    </Icon>
-);
+const SquareReddit = createIcon("square-reddit", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABkwAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCQgsGAAE2AiQDCAQgBYMtBzQbRgXIjsN06yPHMSRJk3zFw/f7sc59XxDXpBqqhkykMkSaNvFMiXRCZqXubMj43/tXndvi7xHfAFZkrRRCqHyynsoXijj/19SL50cH+PkIDinaShsLrHr9fAIT25tF20DTBnbAMIaZu9oeFpr2JEm5JI/fPJ6OkMd+rChIj+kDuC1fGv8Ym4WkyAAQjQCA3eOcNDzRkjbow89NiC8pICD2AAwiZMjQi8AGvkAvgUGQywW/6f//8B/IgACihB2XQI4KXIBLmDn0eEUuMAlSK5VyoVKQLxfKSpQK5YWpK8Y82pm8bKugi9NXTfi0P3PNIW/ekGg7ptq3ZOc7z+vtGBG9WNmyP6+3gVe7w6C7ca9D7lteskQUb3UvnmiqY9uQaHcsd16faNNDVEy2k5xXoSlRzvfZ1I888L1lsWV4ST4/tqlnfZW7+snqQ/0HRLxHRkae1mhkkZAV6HSm/4pvc9wefHDclT3u6Uj1F60YmpaOuczPnwzx0X3p8OTkcMn9Iwz/f87kjuM1QNPzte/A2edWprwJOGlwrpo0UQ0Onr5gJZs8dVE1NckVQ42qlb9dVd/5ntOmZt2efIBAsPD9rrxCHfpLIucB/t778ht684+WnqSrqJRAkM3+d0VpPAGYSICXoh/WYGCB5JwQ7FNr3SFAqEaApFQtQKYHh0Cu2gwChX5+CJSq7eOLXIrQqqyDpNYpyCwZA7lW10Fhw2uv1Bp8T2T9iP0HJsWPaNwq5uXuyYLZMtM456LzYgjbVhz7peNEG1GvQ7tedWo16R3wbmlhnzbxCIszIMaLO09MMHZcPq/PV6dbjyYd2nWZEOy+4agfj3cincdI50SSRCTlYxbdxK2tbeoF");
 
 export default SquareReddit;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mustache` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mustache?s=solid mustache}
  * @preview ![mustache](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mustache.svg)
  */
-const Mustache: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M147.9 148.4C169.3 125.2 199.4 112 231 112c33 0 64.4 14.4 85.9 39.5l3.1 3.6 3.1-3.6C344.6 126.4 376 112 409 112c31.6 0 61.7 13.2 83.1 36.4l2 2.1c27.6 29.9 74.6 30.9 103.4 2.1L599 151c2.5-2.5 5.5-4.4 8.6-5.5c2.6-1 5.4-1.5 8.4-1.5c5.7 0 10.9 2 15 5.2c1.3 1.1 2.6 2.3 3.6 3.6c.4 .5 .7 1 1.1 1.4c.3 .4 .5 .8 .7 1.1c.3 .5 .6 .9 .8 1.4c1.8 3.3 2.7 7.1 2.7 11.2l0 39.4C640 313.8 553.8 400 447.4 400c-46.7 0-91.7-16.9-126.9-47.7l-.5-.4-.5 .4C284.4 383.1 239.3 400 192.6 400C86.2 400 0 313.8 0 207.4L0 168c0-4.2 1.1-8.1 2.9-11.5c.6-1 1.2-2.1 2-3c1.2-1.6 2.6-3 4.1-4.2c1.5-1.2 3.1-2.2 4.8-3c3.1-1.5 6.5-2.3 10.2-2.3c2.9 0 5.8 .5 8.4 1.5c3.1 1.2 6.1 3 8.6 5.5l1.6 1.6c28.8 28.8 75.8 27.9 103.4-2.1l2-2.1z" />
-    </Icon>
-);
+const Mustache = createIcon("mustache", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcAAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBdQsGAAE2AiQDCAQgBYMtBy8b9ATIjtMF9cyWl8TD92vln/u6ZwJAvRtmcEAOQSiycWGHpLdiU5HwP2dt8fv09+78n/8N+PgTfLQ9aExcINGc5wkksH1bF3gWZoliTJm3tmJRyr7JRDPp8bzHrxPk8Xd2Sol0M73G+fGm8V0Lp0hqZACiPgDGLp4/09OqqIp49T/ilekIiLGgEMiQobUAI2QCreUK5HJBVfz/v/wGFgQQZfq8BHJkWIUtgBwkkeeLapXq1A01lz+Z3Mgm0Szy4+50PN29WVxvdr3W6SZXmxyPY7WOxfG4GsddJT7Peb/g66yaEfGakHkfF/nHmx0PGs3C/0aTuFPrVvdmlXfr3/1R8XrTa5e7N9SnaaVKTfto2NDCp203hP5jKko1FjRoQEQA0aHcWcxdtHFuTLYqsGuyubFxUcztrNwh0LBB/Yq+5bzvmP4NLGj7dGFDIBBc/TtbuLreiJ/VayXw7f5/pDvTsXQX1SUQZD3+72FFOgZCDaBMcUil80GBZJFEX7W2awKEmgiQlNUUINNKfQFyNXUXoKStgQKU1TRfJvIaQmMrF0hq2wsygxwGucbugZIRnhVljSODGAcQ7oeXPMlCE9cVfXv1KYYVx6bJo4Zpy8OLsN3lUBnqykdtstsuB2y0wVYHDLnPzPqgnSZ58ERfVOirlz4KwxTXnff9i2y0z35b7barrzJc8T7q4pA/uSt7idL205AkIlUHfL52/ZaNAA==");
 
 export default Mustache;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diploma` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diploma?s=sharp-regular diploma}
  * @preview ![diploma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/diploma.svg)
  */
-const Diploma: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M208 144l0-31 0-.5c.3-18 14.9-32.5 33-32.5c9.5 0 18.6 4.1 24.8 11.3L312 144l-72 0-32 0zm120 0l46.1-52.7C380.4 84.1 389.5 80 399 80l1 0c17.7 0 32 14.3 32 32l0 .5 0 .5 0 31-32 0-72 0zm152 48l112 0 0 84.7-42.7 85.5L384 331.2 384 192l48 0 48 0zM384 380l192 36 64-128 0-96 0-48-48 0-112 0 0-31c0-44.7-36.3-81-81-81c-23.4 0-45.6 10.1-61 27.7L320 80.3 302 59.7C286.6 42.1 264.4 32 241 32c-44.7 0-81 36.3-81 81l0 31L48 144 0 144l0 48 0 96L64 416l192-36 0 100 64-40 64 40 0-100zM256 331.2l-165.3 31L48 276.7 48 192l112 0 48 0 48 0 0 139.2z" />
-    </Icon>
-);
+const Diploma = createIcon("diploma", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABeAAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCLAsGAAE2AiQDCAQgBYMtBy4bKgXIjpQuJ6TxPP92/7XPrXqNqjaqO4Leb2oAIRqnciav/K/JxpFQDiMTlzv/86cH+W1P8Chj41zpAp/zPIEwDOupMYECGguzRLHduU3mUNonSWJpOb4dLzuo83fu1qM8Uj7BXeVD84OprqfoVQAyBgBbD9pvD+8NZjD5+P+Xycd2QyBbQSeoUGGGgA0qwQy1DrVaGMz///N/YEeADCGvUkCNoTgPNwJqUPTqevT4kQNt2xtZH9j2msMiyUOTH2pvm7g1Tbvdlu0eatvcNvEBkkhzQNu0sn8OTNLuf8CBBxwUyGia5MkFL6x6ad68LAh5z82w2EbkgBwU2St7JAfuf9D+pkWtuS+MeeGnOZ+c+InPl86W+Yy8+RajH/3Gzgd/Ays8OjpG3XyzYLZur6VnQ9YBFuzvqVlu01/65rsjafNVjtY/5+zZcuKJY/q3jjfepVvGnHhiZju733e0PXOSc7zfCT7+qv5Tsy63YH8HOPvo24AgPPz+d5uOGr3h12FtAd++8csv9Xz/D5arywsYpoBQLfp/kcPL1cDUAIWSC81VvigoTtMj1zrCgwKiQUAxRCOgMt0YAbXGQgE9s6wUMERjP5XUw8UER3SsGOEcrLLKFVhtghexng3ezw8xIZX7Cc4jPP5SdxyBHaZ1A0v63bpuW9ZEj+Ly+PruWJt3YWqbj0ud6CxnOt8JjneK8wfoXHuULnCGHTVwBz/UGbBEX2edzlx7Vg8M+XOd55S1bJ9kve5+NM+Feu/5aBZCu8yMopAy9N8EAAAA");
 
 export default Diploma;

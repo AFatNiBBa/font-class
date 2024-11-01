@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bacterium` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bacterium?s=sharp-light bacterium}
  * @preview ![bacterium](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bacterium.svg)
  */
-const Bacterium: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M409.3 39.9C434.6 50 456 69.1 468.4 94.3l29.1-12.9 13 29.2-32.1 14.3c5.1 29.3-1.8 58.3-17.3 81.5l14.3 14.3L486.6 232 464 254.6l-11.3-11.3-13.1-13.1c-13 10.8-28.7 18.9-46.4 22.9c-10.8 2.5-20.7 5.4-29.7 8.7l3.9 13.8 4.4 15.4L341 299.8l-4.4-15.4-2.7-9.4c-30.3 16.6-47.7 37-58.4 54.3l18.8 8.1 14.7 6.3L296.4 373l-14.7-6.3-20.5-8.8c-2.7 7.2-4.7 14.7-5.9 22.2c-2.5 22.7-11.6 43.1-25.2 59.4l13.1 13.1L254.6 464 232 486.6l-11.3-11.3L206.4 461c-20.6 13.8-45.9 20.9-72.5 18.5c-3-.3-6-.7-9-1.2l-14.3 32.1-29.2-13 12.9-29.1c-22.5-11.1-40.5-29.5-51.2-51.8l-31.6 7L4.5 392.4 33.4 386c-1.5-9.1-1.8-18.5-1-28.1c2-18.7 5.9-37.5 11.4-55.9l-17.8-7.1-14.9-5.9 11.9-29.7 14.9 5.9 16.5 6.6c7.7-19.4 17.1-38 27.5-55.4c3.3-5.5 6.7-10.9 10.4-16.4L78 188.5l-12.5-10 20-25 12.5 10 13.4 10.7c17.1-21.3 37.7-42 62.1-61.1L162.7 96.9l-8.9-13.3 26.6-17.8 8.9 13.3 10.3 15.4c21.8-14.2 46.2-27.1 73.5-38l-7.8-18.2L259 23.6 288.4 11l6.3 14.7 8.6 20c12.6-4 25.8-7.7 39.5-10.8c11.9-2.7 23.8-3.5 35.4-2.4l6.2-27.9 31.2 6.9-6.3 28.4zM223.7 375.3c3.4-22.5 12.7-43.2 22.9-60.1c20-33.3 58.7-74.6 139.4-93.2c43-9.9 69.9-52.9 60-95.9S393.1 56.1 350 66C222.8 95.4 149.4 166.1 109.4 232.8C86 271.9 69 317.1 64.3 361c-3.9 43.9 28.5 82.7 72.4 86.7c43.5 4 82.1-27.7 86.8-71c0-.5 .1-.9 .2-1.4zM216 208a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM144 320a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 48a48 48 0 1 1 0-96 48 48 0 1 1 0 96z" />
-    </Icon>
-);
+const Bacterium = createIcon("bacterium", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABvwAAALuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhECDaAsGAAE2AiQDCAQgBYMtBzAb6AXIrgrsxscbAhwsjZcJrorKs3iGG/CICB7spJ+32ZzpCmB/LexK7lySH0B+2F++fyBGIVkNCvGENAhtbkKCk3KhpTaPVImTmfOhDf6mzU1ck/+enp7a294tcpHUIBXnmecT2PnT1v6+m1ULTRSnTrc8yyGVgZeUILWU4fH1eLUhjavRCJZkR/IAWHd+VXxDaJhEmgEQxQCA7mNz02H/bbyNeJCbeCAVCIgeANUgyGBLJQjoBC2oDRjVgFQqeBu5nP0HVgMBRB7rlRKQIi8eA28ASEEim6ZrqxOJhQtmC6djCmYLzDjf2DGE4RfmRtzghlPwghfjtVQcAe1C6+XsJxQCv0NE4yanSl4bDWllGQE2iGOziV2IwjE0ZY1ikLwQh+hBLd9crjY+1dGhtiLA8dDCGKs7Zi8O+xCM29fQGDqVeLHhlMziMul3PkizW6OuP+G/4jolH0BWxJhddUeEOrtRUd6W0lq+hqfiSEfQIA78egGvbXOSMfld/cF0dNus/dIZqrlLHm2absoDXkd+ToY3kZxsPi/rxakLSUIqtOj3oLLf7zytKIZGFXvj3ilG/JtgReXCrqt48GzHJ/+u/c2tDe0u4V3WQeestuH05/y2brFyp5p1sO9VMkr9m3NpyHDis/x/3chbsMDEhfP7GV9mj7mO+WKL921XMoaWdEOEvEdLZw/nDl7fBbS3b4uU5vZ/vnjx/dwdCAR5kq5PJ9Tpt3wS8P7KDz/xctncncglIZ8EBJlGuUbKErIicgIAkMRyNolVSDyCtXiFbBXSoQBOJfIoQGVUxKBSBTSksqrwl4vLR0KLNL9QSjmoRCGLqIw2eqhUKUtUVicHiTxKBbq51dZUfy1zJCgYP03RvEmzah2qvZbdWr/Kx3jHauVAveVsq4+tUK1Fs05VKtXpFKRderpLk4QMjvdDCt48eFEIodiu/XQUSKhdB+XY2J8klOL7uJPuvLczrEABWrSFzJmR5J88qaKzqr2uqwk=");
 
 export default Bacterium;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-divide` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-divide?s=regular hexagon-divide}
  * @preview ![hexagon-divide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hexagon-divide.svg)
  */
-const HexagonDivide: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M17.1 292c-12.9-22.3-12.9-49.7 0-72L105.4 67.1c12.9-22.3 36.6-36 62.4-36l176.6 0c25.7 0 49.5 13.7 62.4 36L494.9 220c12.9 22.3 12.9 49.7 0 72L406.6 444.9c-12.9 22.3-36.6 36-62.4 36l-176.6 0c-25.7 0-49.5-13.7-62.4-36L17.1 292zm41.6-48c-4.3 7.4-4.3 16.6 0 24l88.3 152.9c4.3 7.4 12.2 12 20.8 12l176.6 0c8.6 0 16.5-4.6 20.8-12L453.4 268c4.3-7.4 4.3-16.6 0-24L365.1 91.1c-4.3-7.4-12.2-12-20.8-12l-176.6 0c-8.6 0-16.5 4.6-20.8 12L58.6 244zM256 128a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM168 232l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm56 120a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const HexagonDivide = createIcon("hexagon-divide", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfgAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCGgsGAAE2AiQDCAQgBYMtBzUbHwXILgbsxuliW7GRGTCWocRa2SAxLJQHtf8Ivt/vt+c+wbThmZ+w5CHi0ZN49EijeYweIkPVBhELTv3L0LXsMXsAhtI1RFOqFbBkFejR2prFLBMtk0UTNNJZRkQqzS2Lyfc///9vdX+4rrqv6KWQR2lxBIFEc4ZfffvP/zX1ouwa8BMcH1otsBIkkoZdtjeBiUWU2Gw4myiOZbpN1mFHKJ5FSJBFdHxCx9Ue8nixBgrSLUcjl/Km8cH3IUmRAUA0gwBMLWI2+HvxFvH/fyEeLEBATAGgF5AhQyeAUaJAJ0kvkssFb+yf6DeQUQBRgv4VCeSowhZwBEAOkiJnSV1TMQVZzCKFbAG1bSi0W4S4VATalDhajwJca9L8tQjUtYToOxTq2yTq2QJ0TJwqWwhdnFsdvmT3WN7pC7hQIJx4g1CAqT9OiLyD0BfK1sKmikNdfn20h6bdB8rzADPnp/NdzTTsvrlRG6/U6ypFynMoKcCFImnkprx7TZq27HWP1EP9mj8PIBD88a/fkmr4VwsMgPf755cvpCQlxhJUSyDIKlTxSOBA+0DQYIoMKPBJAJJ1bHjVelcUINQiQFKqFSDTQQOQq9UPoNCtBVCqNYspcj6Eds8Oknr7IDPiDXLtfqAw6h8stYcYdVrMaH++zFaLWobJyqzgiadpTQ8kpbTPvG0JtlwWYiJ4REWkuLn4pYyYYIukhVk92uKLZEqZApvwce5xNMktIckvKsKDzPh+ILD5tUPYGVR2wNwkEUnic+fs3mhE9QIAAAAA");
 
 export default HexagonDivide;

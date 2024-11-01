@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flask-gear` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask-gear?s=light flask-gear}
  * @preview ![flask-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/flask-gear.svg)
  */
-const FlaskGear: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M288 196.8L288 32 160 32l0 164.8c0 17.8-4.9 35.2-14.2 50.3L100.9 320l203.7 0c2.2 13.3 10.3 25 21.2 32L81.2 352 37.5 423c-3.6 5.9-5.5 12.7-5.5 19.6C32 463.3 48.7 480 69.4 480L351 480c15.6 13.1 36.9 13.7 53 4.8l0 .9c0 6.7 1.5 13.5 4.2 19.7c-9 4.3-19 6.6-29.7 6.6L69.4 512C31.1 512 0 480.9 0 442.6c0-12.8 3.6-25.4 10.3-36.4L118.5 230.4c6.2-10.1 9.5-21.7 9.5-33.5L128 32l-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l48 0L288 0l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 164.8c0 11.8 3.3 23.5 9.5 33.5L336 241c-4.9 6.4-9.5 13.1-13.6 20.3c-1.9 3.3-3.7 6.6-5.4 10l-14.8-24.1C292.9 232 288 214.6 288 196.8zm175.3 43c-3.1 16.6-14 29.5-26.6 36.7c-13 7.4-30 9.9-46 3.7l-17.2 30.5c12.8 11.4 18.5 27.7 18.5 42.4s-5.7 31-18.5 42.4L390.7 426c15.9-6.3 33-3.7 46 3.7c12.6 7.2 23.6 20.1 26.6 36.7l33.7 0c3-16.6 13.9-29.5 26.5-36.7c12.9-7.4 30-9.9 45.9-3.6l17.2-30.5c-12.8-11.4-18.5-27.7-18.5-42.4s5.7-31 18.5-42.4l-17.2-30.5c-15.9 6.3-32.9 3.7-45.9-3.6c-12.6-7.2-23.5-20.2-26.5-36.7l-33.7 0zm43.5-32c11.8 0 21.4 9.6 21.4 21.4l0 1.6c0 7.5 4.6 14.2 11.1 18c6.5 3.7 14.5 4.2 21 .3l1.8-1c10.7-6.3 24.4-2.6 30.5 8.2L619 303.1c5.7 10.2 2.3 23.1-7.8 29c-7.3 4.3-11.2 12.6-11.2 21s3.9 16.7 11.2 21c10 5.9 13.5 18.8 7.8 29L592.5 450c-6.1 10.8-19.9 14.5-30.5 8.2l-1.8-1c-6.5-3.8-14.5-3.4-21 .3c-6.5 3.7-11.1 10.4-11.1 18l0 1.6c0 11.8-9.6 21.4-21.4 21.4l-53.4 0c-11.7 0-21.3-9.5-21.3-21.3l0-1.4c0-7.6-4.6-14.4-11.3-18.2c-6.6-3.7-14.7-4.2-21.2-.3l-1.6 1c-10.7 6.3-24.4 2.6-30.5-8.2L341 403.1c-5.7-10.2-2.3-23.1 7.8-29c7.3-4.3 11.2-12.5 11.2-21s-3.9-16.7-11.2-21c-10-5.9-13.5-18.8-7.8-29l26.4-46.9c6.1-10.8 19.9-14.5 30.5-8.2l1.6 1c6.5 3.9 14.6 3.4 21.2-.3c6.6-3.8 11.3-10.6 11.3-18.2l0-1.4c0-11.7 9.5-21.3 21.3-21.3l53.4 0zM424.1 353.1a56 56 0 1 1 112.1 0 56 56 0 1 1 -112.1 0zm56 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const FlaskGear = createIcon("flask-gear", false, "data:font/woff2;base64,d09GMgABAAAAAANkAAoAAAAABxAAAAMZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCDdAsGAAE2AiQDCAQgBYMtBzEb9QUjEXZqLsqS/SMxNlb2mDmTWV3t0RI6/qrAayNZPgl6ep2570sOSAbNRT5A2UHgirHKjC9cAYDuQtCFK3aZSYVcEgRAf9X2vvP5v5/Hf+inD3htJT6UaMvkSIrI4xMYYESJP9GZTsCmm0qeerQthV4ypDgR2XY8HrsHewJbv9WICJg9JgtsGof0iQLWYLAtYAJ5QCx0HztyMLee67mU/S/KMhAQgHoAECDAAiygGAHQCQsBxdgEgI2N4Ln+/6f9BwYIAFQFfGYAsIGqwGPgDewKi7iIbQ+pNShW3Y3E7DFuxJki5Ahl8kfJ1Z7ajkZpO5k2kzvcmE7WRZnkdieqiganCsuLxmqXJEc7c3flue6O5HbfERmSYhldX6i9Gr271vE69XSSTL36qqwdFrjaV7elNNQplTdsID1QUeh0VA6gHckdeXmqLGisPf5dKfmNtLtOrnYKgw87ajly6SR0uTTN1/HCJtqbt0vlkChqqn21k9phyBM76rqjluIBUnfXO17nVGH/yqK9dY7n76mdPuWd+pLKTs+W/QrDMENI0aNG/cjSyvnaoA/jXO/kXq+QrWeF0+6214ZbLWpG/c1zz7MxJ8TjeTz+vNmFTrpHSM7BCcya5dd6x6Oicw3GdRy4oZRUfn66hPUDO4xLM25Ax/UlpPPz0qVs6DhwXPpmKsfg7gh3eNS7cJBFvypj8Ypfiw5yoZ7H9nCHK2qk2pCqIQe7nauIS7Aj3OkYcqaM2Jw4f+PG+UTiMJIPJ1YMTyaHF0FSANBnow6siUSnr9VcA8DLK3/tv6L/t8wScwqohgFAYDX632iSyQAxswQBAAAARstJmwwgwPCQCMMbZWc0Ihw4YKiCA4siPNg4NESEUlornKtHYiG7OsJnMmCIsggWbVgJG5/LiNCJO8Eq+LJSXJWgqh/M9ON9JNV7UtC8SbOgQ3BawuqsVdTRjoHbWG85tdTHTqYvmL902tRZSwW/eHBk2bw+Ftf7i0HzJs2CDkG4+q4fIxyLl5BC18bH6Rhc76233O5eHxbDlNoiy2BAxvlKZprT+LUCAA==");
 
 export default FlaskGear;

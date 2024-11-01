@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-pen` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-pen?s=sharp-light comment-pen}
  * @preview ![comment-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/comment-pen.svg)
  */
-const CommentPen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M86.9 382l7.2-19.3L79.6 348.2C49.1 317.6 32 279.9 32 240c0-91.3 93.8-176 224-176s224 84.7 224 176s-93.8 176-224 176c-28.4 0-55.5-4.2-80.3-11.7l-9.2-2.8-9.3 2.8L68.6 430.8 86.9 382zM16 480l38.5-11.6 111.9-33.6c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L30.1 442.4 16 480zM294.1 189.3l12.5 12.5-13.1 13.1L281 202.4l13.1-13.1zm-93.4 93.4L258.4 225l12.5 12.5-57.7 57.7-14.8 2.3 2.3-14.8zM329.3 179.2L294.1 144 170.7 267.5l-5.5 35.2L160 335.9l33.2-5.2 35.3-5.5L329.3 224.4l22.6-22.6-22.6-22.6z" />
-    </Icon>
-);
+const CommentPen = createIcon("comment-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABgQAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCIAsGAAE2AiQDCAQgBYMtBzIbIgXIhofn7fo691X1B1gjc2lGGyoCOEK2SoW4p7/5551HAS7y0MayqRsX4F7nCQT4oi5PPMoC+6YfAD/bt266pZeU25L3opc0bN8wdkEe78d4JdJzaRceaS+NX3W7kyTPAEQTAJYcs22DT36KnyJ2ld8kdlmHgFgKCoEMGfoEmC8T6JMrkMsFP0W5nP4DCwKICvzJCeSoxAW4HZCDpJTn/YPVta21pfp8Z22p5pjert6O+Gjo0W0Hjzm8Zf+OQ5v3bb9/Zke0xfaYtn3W9FnHxJu1R9d9v+jjYS8t/GjtdzsPrf5m/gfF4S3bo++c9o72tuiIzu3bNm9rj83RFp3HLFywcHv0RV/MillxTIyLsUNfbnr59yG7zt5l55LTTz/9B3/UxcrPDp4ep8fBz2Klgsetu81jjunRtPK0CwC+uPDi5FXuf2FgoLo6Sy/cr6zsxLqze1Y63D50F4l22XXiSfcBdnnWLybecs5Q3nH9DbZaLDfDGWc6y9lAIGhteO3aUxrn/19Vm8Av7/35t/4tKv+UpJdRJYEgG18e78QEEgEASHG1oQkCyRlK8NQ6TwsQahAgqVAjQKZXkwC5GuMEKBkwQ4AKNbbJRF4ttDlJ0aTOZWhmppvQXJvX0ZL5vnYrtEUWeEzYMN++xJUWWrFVTJk4uZhbLBODjSWqLOcV2/Loq6UxBqfOdomLXeksZzrPlQa53IbgKhdZ6cErfFBhiokmK8xVHOfPxzud5XJXOM8lLq5r5inu66Nd7fePgZaQdKpQkohU+9KdCZeedTEAAAA=");
 
 export default CommentPen;

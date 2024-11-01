@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fire` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire?s=regular fire}
  * @preview ![fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/fire.svg)
  */
-const Fire: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M89.3 156.3C113 115 143.2 77 170.5 50.4c18.7 18.7 40.9 47.2 60.1 71.7c3.8 4.8 7.4 9.5 10.9 13.9c4.6 5.8 11.7 9.2 19.1 9.1s14.4-3.6 18.9-9.5c3.3-4.3 7.7-10.8 12.3-17.4c2.6-3.8 5.3-7.6 7.8-11.2c5.6-7.9 10.5-14.5 14.4-19.1c20 20.8 41 53 57.4 88.4c17.7 38.2 28.6 77 28.6 106.3c0 103-78.8 181.4-176 181.4c-98.3 0-176-78.4-176-181.4c0-37.5 16.2-82.4 41.3-126.2zM199.5 11.6C183.3-3.8 158-3.9 141.8 11.5c-32 30.1-67 73.6-94.1 121C20.7 179.5 0 233 0 282.6C0 410.9 98.1 512 224 512c124.6 0 224-100.9 224-229.4c0-39.1-13.9-85.2-33.1-126.5C395.7 114.6 369.8 74.9 343 49c-16.3-15.8-42-15.8-58.3-.1c-7.9 7.6-17 20-24.3 30.3l-1.1 1.6C240.6 57 218.4 29.5 199.5 11.6zM225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4c-4.5-9-16-9.6-22.5-2l-25.2 29.3c-6.6 7.6-18.5 7.4-24.7-.5c-16.5-21-46-58.5-62.8-79.8c-6.3-8-18.3-8.1-24.7-.1c-33.8 42.5-50.8 69.3-50.8 99.4C112 375.4 162.6 416 225.7 416z" />
-    </Icon>
-);
+const Fire = createIcon("fire", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABjAAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCMAsGAAE2AiQDCAQgBYMtBysbKwURlZoTyT4SchOtT+UozvwRS3kSFPReffUki7NzT7T+DALb/W678QgSCQQzyyNs6uZ551EcvVEoY+PSfINEc54nEHjbO3+RLLBMA/AY0m3iMyMpfCUkSCI6PjvOTmDHQk3DBXPMJWBqv6k+MYwCw5UAAGgAAIDidWtW5tgzPZMu/t8NPSoCAmgD4CBgAQvEIwCFsAjEY3MAm014pv//8Q90IACoUbgGgA1coC8wDgCwARhW2ekzxvm5Auw6dcK34cmis2Pmx8yOKLjfxKi5cDdn355wq9q1Wndq3Kizsm7dOb7ShPB16dZl2hS/iNvVb9e+W/dm3eGJS2IXZNiQISBhzIoO1wK3F1l/YsaNSUuzzAlPp1mRc0SMtc9dFz2P5enX+6XYELzhbfKlNpeol7Lp/ssvPt6AsBQpU7Tz9+uXuo5CQ1MqZGCdZ3MOBqpKiCqooiRViU1TssvUi8EQfHH00Ck5S5y5nUbN3xcu1kxNVaTYezVPHDbs3bu4jDkvBgdfvLRNXP/04lHMzNRf3vRuFbb44iQuHLwaGXnt4IGle85EWr//ZAeAgDD+dUj2pkGFvnr9DAAvDrz/htfI/2M6ZjYAXgaAYK3/mTTSMQBdBAAAAEz0IYWOAQJGVyx6VX9zEADxBQJguPkSAEscwQiAzVdGBMAlkdwIgJuvmlhUPkg4jQcw/HUHljwMBrZwdgKXQpy13MJlJSCbPuz3L0mV8UjpMSd7lmxOAWfpMy6naOkXdLbldH04l54OaaOrLnpprZX2ejmsh8pub52VidDSHuTILotsHAU4x9Hzdh2t9dBTe111aUMKcu7r6fSJq9OTZlDCHDwGAzL2SwYAAAA=");
 
 export default Fire;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flask-round-poison` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask-round-poison?s=sharp-thin flask-round-poison}
  * @preview ![flask-round-poison](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/flask-round-poison.svg)
  */
-const FlaskRoundPoison: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 170.6l0-10.7L160 16l128 0 0 143.9 0 10.7 9.8 4.1C367.3 203.7 416 272.2 416 352c0 57.3-25.1 108.8-65 144L97 496c-39.9-35.2-65-86.7-65-144c0-79.8 48.7-148.3 118.2-177.3l9.8-4.1zm144-10.7L304 16l24 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L304 0 288 0 160 0 144 0 120 0l-8 0 0 16 8 0 24 0 0 143.9C68.8 191.3 16 265.5 16 352c0 64.3 29.2 121.8 75.1 160l265.8 0c45.9-38.2 75.1-95.7 75.1-160c0-86.5-52.8-160.7-128-192.1zM120 312c0-42.5 44.7-80 104-80s104 37.5 104 80c0 26.3-16.7 50.3-43.8 65.2l-4.2 2.3 0 4.7 0 31.8-112 0 0-31.8 0-4.7-4.2-2.3c-27.2-14.9-43.8-39-43.8-65.2zm104-96c-64.4 0-120 41.3-120 96c0 32 19.4 59.7 48 76.9l0 35.1 0 8 8 0 128 0 8 0 0-8 0-35.1c28.6-17.2 48-44.8 48-76.9c0-54.7-55.6-96-120-96zm40 112a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-32-16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm-32 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-16-32a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
-    </Icon>
-);
+const FlaskRoundPoison = createIcon("flask-round-poison", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABrwAAALJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDNgsGAAE2AiQDCAQgBYMtBzkbvwVRlO5FmOzjMG74GiVMMQ0Xzkq4ik94GUrL8zxz9d6XyVLyEUEySmzrCEABk0Y1p66sancG5jmwKQGsWwYTHpLR8+b/ms/v+dEBfqMzOexcBVZo9/MJnOi8ElNnw9lEcdbOfqAE3SJJn/gkw/ZlV+rQWUKZR52EUjxc/AhwZ/rQ/IVzHYVGA0D6AGDtnmkE1maayQ+tt8gPeoBA1gIwRtBAAyMErNAQjFAag1IpNNNq2f9AlQBph2sWoESFD/AVAJSg0FmWYydIHMmaWI32LHe7W1cHYj5JHZGB+W7mS2OvmvHilCrPz3o5z85+ZfvgPZE6Dw5+YFBVSV3Lt2s+3XnVzJeW9swH0z3y07rPt+18cnrywuK3pj438rElAyJSBS8dlPdH7flySfLuiKeXitR1knww/oll72/a9cCgBwffP/C+AZOuGpjcX986+MFcPeiB6pYB96nuG5D4YSya3EessVcb93yf5//Rftz/6MkBdV3f5Sp3qd1rY3d3j2BA+Vu338oB03uw2MZ776zuwhZDHG1vPzrkU0rnkLvcOG6ctXOXLJlRmZG9c63lj77xnQd9zdeffvr114Y86HSe0hjnqErzPDjkzBGKA0zr0r43dOq8qdN434/t8odSzqPZq1czYLV63cRNvXrdJI8Z4tQsXg4E4YYhf6BHeq/4v7MuwO/v//dX2Z5qrXm1eB6dChAaM1qhg/kUpU90FECiyGV0+iZB4Q2d8K49PCAgKgQU2lUCGobrI6BUmS6gzSgLBbSr7ABL2SUGONRAoYfzoGGRy0FpgDdAmxW+SbQbEFiHaQ2kf5AJ1VDppGZxqubqtKYyakn62UJdNty/Ho8WAnsPd187WyffkLcx/XNTSXDph1RzzTLHGMuM2W7eC5sSbx+nMbc/z3JjzoemuEwePpVsCFDnKSoUpOj3DGZdostWGD3Pnj6POwA=");
 
 export default FlaskRoundPoison;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `badger-honey` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badger-honey?s=sharp-solid badger-honey}
  * @preview ![badger-honey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/badger-honey.svg)
  */
-const BadgerHoney: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 400l20.6-48 118.1 0L320 480l96 0L393 342.1c27.9-29 80.6-70.8 144.1-90.8L560 288l29.5-47.2c6.1-.5 12.3-.8 18.5-.8l32-32 0-64L496 64l-64 0L368 96 192 96l-32 0-32 0C57.3 96 0 153.3 0 224l0 32 0 32 49.1 0c9 15.5 21.1 29 35.6 39.5L64 400l24 80 96 0-24-80zM368 144l11.3 0 10.1-5.1L443.3 112l40.2 0L570 160l-51.3 0c.9 2.5 1.4 5.2 1.4 8c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-2.8 .5-5.5 1.4-8L432 160 272 256l-80 0c-52.3 0-96.2-35.8-108.5-84.3c14.7-17 36.4-27.7 60.5-27.7l224 0z" />
-    </Icon>
-);
+const BadgerHoney = createIcon("badger-honey", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABbwAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBfQsGAAE2AiQDCAQgBYMtBzMbAAXIHgduTMe75JMYD9/rPj33SX/HK5lBBgAMcYXYcQmEXdJhm3GZilRAsKX2Pv3NP+88CvBx7mNhtkEWSDTneQKd54u3YH9s/PZF8b9tiKAjKkcnQoLEorHC8Zogj3+yOzVIT6bvcX/50PhLN3eSNGcAoi0A5m5ev9LHv8fvEd/VbxDfWY6AmAsqgQwZegowQybQU65CLhf8HnVN/4EVAUQTOUwCOXLswUlADpKU5xP7l41W+aayUWwePWJ0GRujjE3x6vT3Jo+M0fF4OTxCTyliSRTF5zPer4Qo48mBG1ymzWVRdonlsXXgIh71xIAXut/WpYgNUcSbw17p/erkst8rbV+53vf7Q997fvTq1asv6XiLPTrfZ9HWpfUBv7q1ucb9q81RO2fN/AmNSmWsX3Z3XKzLansa/1Ndyh08YpuhNo42XpZ3Wru2U95hmOd3W+PMlz/fac7vQCBo//TbA3e3mfF3izKBP999ve5X/55uTa+ghQSCbEQ9wo50KxA6AC3FJf2MLwokWyR4rS09JkAoECBpUgiQ6aGtALnCcAEaepsoQJPCepnIm4WOdg6QtHQWZCa5CeQ6eg00zPCV2qRjZGFGBAnxy4tdpKGFTdXYUWOqadXS0snIwVJ1euXmhlziyFAYdMhpp1xw0AFHXVDIOSuNi05aZMEL/VBlrFHGqExTHbvP3ZscdM55R512KteZrrqvDHHJTh8KbSTAuAfCeCxSy317Dxw+eG7kkdOnDl4FAA==");
 
 export default BadgerHoney;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heading` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heading?s=thin heading}
  * @preview ![heading](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/heading.svg)
  */
-const Heading: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 40c0-4.4 3.6-8 8-8l64 0 64 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L80 48l0 192 288 0 0-192-56 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l64 0 64 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-56 0 0 200 0 216 56 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-64 0-64 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l56 0 0-208L80 256l0 208 56 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-64 0L8 480c-4.4 0-8-3.6-8-8s3.6-8 8-8l56 0 0-216L64 48 8 48c-4.4 0-8-3.6-8-8z" />
-    </Icon>
-);
+const Heading = createIcon("heading", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABaAAAAHMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBXAsGAAE2AiQDCAQgBYMtBy4b2gTIHgXunhM2YWj5yU+Ih/+fK+/7yaTbzBY5Z1WBUQGTq6snFG5tHY8rotxTi6p6khnsoUNqhfX9/q35n38K8IFIx0lxi7IL8/OcR2VR87zl+RfKAsvoErCsnZ3hDaLfpO/7kGRY9GWY7JDHffvUSHcTXC4njV8GuESSZQCiOwAWbFy7RqMjOiLeNCXeWIWAWAgqgQwZBgswWyYwWK5CLhd0RLNJ/8CKAKLAd5BAjgzrsQmQgyTyfE291iXfUK+V2e1+9frNPjd6lyG6REQZt/paQ9RDlLI3FhGtgd0hbWvv3v4HB7hTPH/+rqLYNV1DpWG6XQWGvPCDpj6ofID2wwuQA4Hgy9NN7Wz2/5Z6Aj8f/rt+Rpod0UjtaJFAkI1ujrYtGhANAQBIcUFbNBBI1kj4qK1uCRBKBEgKpQCZQboLkCuNEqBmqCkCFEprZSLvLPS2XSBpdRoyU12EXG8PoGa252ahd2RuxToF+6lLWqrRkrlqwtjx1cxq6Gmcp9CpO6taVodfiJkR2HTASSecs98+h51T1BlrnPOOWzrDS1yoMsFY41VmqrbD7foG+51x1mEnnch9ZqnO68NdmJePwDIJMPFCXIlInV4AAAA=");
 
 export default Heading;

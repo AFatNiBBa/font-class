@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-falling-burst` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-falling-burst?s=sharp-thin person-falling-burst}
  * @preview ![person-falling-burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-falling-burst.svg)
  */
-const PersonFallingBurst: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M505.4 90.1L472.8 19.2 464 0l-8.8 19.2L422.6 90.1 346.9 71.3l-20.5-5.1 9.5 18.8L371 154.8l-61.9 47.5-16.7 12.8 20.6 4.3 76.4 16-.9 48.9 22.2 31.1L464 271.4l60.1 49.7 16.2 13.4-.4-21.1-1.4-78 76.4-16 20.6-4.3-16.7-12.8L557 154.8l35.1-69.7 9.5-18.8-20.5 5.1L505.4 90.1zm66.3 .1l-28.9 57.4-6 11.8 10.5 8.1 51 39.2-62.9 13.2-13 2.7 .2 13.2 1.2 64.3-49.5-41L464 250.6l-10.2 8.4-49.5 41 1.2-64.3 .2-13.2-13-2.7-62.9-13.2 51-39.2 10.5-8.1-6-11.8L356.4 90.2l62.4 15.4 12.9 3.2 5.5-12L464 38.3l26.9 58.4 5.5 12 12.9-3.2 62.4-15.4zm-386.4 88l57.1-39.9 13.6-9.6 0-16.7 0-80 0-16-16 0-32 0-16 0 0 16 0 63.3L45.6 197.8 32 207.3 32 224l0 128 0 16 0 16 16 0 32 0 16 0 0-16 0-16 0-80.4 0-29.5 16 24.7L250.8 481.4l8.7 13.4 8.7 13.4 13.4-8.7 26.9-17.4 13.4-8.7L313.2 460l-8.7-13.4L222.6 320l-10.4-16 19.1 0 57.7 0 70.4 84.5 10.2 12.3 10.2 12.3 12.3-10.2 24.6-20.5 12.3-10.2-10.2-12.3-10.2-12.3-80-96L319 240l-15 0-78.6 0-40.1-61.8zM311.5 256l4.8 5.8 80 96L406.5 370l-24.6 20.5-10.2-12.3-70.4-84.5-4.8-5.8-7.5 0-76.8 0-29.4 0 16 24.7 92.3 142.6 8.7 13.4-26.9 17.4-8.7-13.4L109.4 233.5l-9.7-15L80 232.3 80 352l0 16-32 0s0 0 0 0s0 0 0 0l0-16 0-128 0-8.3 6.8-4.8L80 193.3s0 0 0 0l2.3-1.6s0 0 0 0l118.8-83.2 6.8-4.8 0-8.3L208 32l32 0 0 80 0 8.3-6.8 4.8-57.1 39.9-12.7 8.9 8.4 13L212 248.7l4.7 7.3 8.7 0 78.6 0 7.5 0zM56 48a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm56 40A56 56 0 1 0 0 88a56 56 0 1 0 112 0z" />
-    </Icon>
-);
+const PersonFallingBurst = createIcon("person-falling-burst", false, "data:font/woff2;base64,d09GMgABAAAAAAOQAAoAAAAAB4wAAANGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUSFYAsGAAE2AiQDCAQgBYMtBzsb6wbIjsK22TOGJF8QrCEZDlzxPLFf+ue+faXdlIElkUOW7BhlZWWmrrH1mVpU+FGhNc31CzxgRI2kCNRsVYUaWP7jfuqiQEajejaB+VB+r/u8CiMSJzCBNacVNc2mE8ad5uU6gPWEN/PfFsr8LReD4jatAdf9+fmsq14oVCpCkDbwqczdvH6l60bSmHz4/xTywXIQyFxAHwQVVNADATNQgh7o+oBSKTTm//+R/QdqQoA0BZoCvq5Ec7IEshNACQpNy3Ly1M0ZLQW1Ji3LTTVGdc+mjZu6RTGxiY9+lBKX0OhGL3FBhiYiUZELyaYkxCDyCU9CVKKb2Jrl+DEdIpew+MZQabFV8p4wNDohfv9ERAH5reMXOfDYxApSA7auXrG6c8J51arIhsgGmqBWS/BdaOS6a0wm8csnPvKykpxEbnXexo6dOrINhv5A1+Aa3al91VyImMFcDNN0zlSbDSwM1iLOgZ1K5ZVcj7fpudLtLrcGvOh2p/vdwSuX9V8MeNbl9sDng1927/emzZuvfRvyG/zepbFI53UD8a6JkHZ8TdNeCLE684W0xljpQhz6J4+sFNoa4/0Ry13TfHsb57+EN0u2SN+benVa62LBAkUaBOp9MdiCZC++q7fcli0hbn2/mDAQbhZpK5IkyTFteJjaDYLWSRo3lRRJ3Zfhj65qJfLIsytaRZ21T2bawljbVlzqdWnFiogtVkisPnN25USEtt60rdcq//XssPf/lnIVYzaNWv7mGleNJGkCoI1ObDt1YZuBo+vk4phNUySBZmD12W38sV+9bn07M3OUmUk3tN6/utqXOB0IwuRL71tvae36g10rwKd3n5+N4/1/X5wqtgDNFSBURvxvKrXoBDSRTEUgDBY5Shs0wcac4yIR17mBhKOKC4WmqlDRnSSUqoZDE73YYT3nr0dJ2UJ0kAZQqHMAKiZpg1IHx9DEDE+BpjqEurGI24L4rU21CGcunNZn7Kgxfab1EeZV5L2CSfun9+ltGnLUqBsKa+WrUK5WnlxFajF+tbBwnTL+Mlm/32qyYs6SJmeao0vTqnhMWK1GkaF8/CQuNOf3GaqXtzYCK00od5y0QkGKDvehbuQnKmHk9rqDhw4D");
 
 export default PersonFallingBurst;

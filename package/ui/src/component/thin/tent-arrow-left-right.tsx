@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tent-arrow-left-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrow-left-right?s=thin tent-arrow-left-right}
  * @preview ![tent-arrow-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/tent-arrow-left-right.svg)
  */
-const TentArrowLeftRight: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M477.4 2.1c-3.3-3-8.3-2.8-11.3 .5s-2.8 8.3 .5 11.3L547.4 88 28.6 88l80.8-74.1c3.3-3 3.5-8 .5-11.3s-8-3.5-11.3-.5l-96 88C.9 91.6 0 93.8 0 96s.9 4.4 2.6 5.9l96 88c3.3 3 8.3 2.8 11.3-.5s2.8-8.3-.5-11.3L28.6 104l518.9 0-80.8 74.1c-3.3 3-3.5 8-.5 11.3s8 3.5 11.3 .5l96-88c1.7-1.5 2.6-3.7 2.6-5.9s-.9-4.4-2.6-5.9l-96-88zM292.6 161.5c-2.8-2-6.5-2-9.2 0L103 289.3c-9.2 6.5-15.2 16.7-16.6 27.9l-18 150.1C65.5 491 84.1 512 108.1 512l291.8 0 .3 0 67.8 0c24 0 42.6-21 39.7-44.8l-18-150.1c-1.3-11.2-7.4-21.3-16.6-27.9L292.6 161.5zM296 317.8l0-134.3L463.8 302.3c5.5 3.9 9.1 10 10 16.7l18 150.1c1.7 14.3-9.4 26.9-23.8 26.9l-63.4 0L296 317.8zm0 30.8L385.8 496 296 496l0-147.5zm-16-28.4L280 496l-171.9 0c-14.4 0-25.5-12.6-23.8-26.9l18-150.1c.8-6.7 4.4-12.8 10-16.7L280 183.5l0 136.4c0 .1 0 .2 0 .3z" />
-    </Icon>
-);
+const TentArrowLeftRight = createIcon("tent-arrow-left-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABiAAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCSQsGAAE2AiQDCAQgBYMtBzwbVQXIhofn9f77tU/ylDtGxnYlfbuEXVRgy0qYuKZ+nH978xM8yi+yrCmKMs+HOx/oZsNIoHHawCaKG7YNMxYdYyLjeIQ8vrBVFemu9BluuL80ftDaBZIsAxCNADBpxZJ53vo2vo347P/nic/MQUBMBqVAhgztBBgrE2gnVyKXC76N//+f/wNLAohq74MkkKMGp3AnIAdJVZ73bde4pkWlqn6+vFJV7Li92a3Nl0WDWBF3tLi92dK41RnRflvLObE8Gkanb84UZnuc7U1LXfFWS+NOtaJb/YioxIMhQBv93ebEshAxyriKZrcWRSy3TJUhHW2E4NUtbs+guAPi7Lxb50caPfJTp8+2f+bL16csHTptwSzVtnXThi6dsmGFzlnWedEYiRoLwSVAE6DJDS89MHnys6d8Xja+TXrs1UZdMVX56GNJspefH/50z+U39eBxx1v3m4odOyoT7H2646qbj+Rqt/zzVO9/TMVkKGz3bX38wWOuACAQ/PvzO89taDj219pKAt+/8stf0BX/v5UmpkdQK4Eg6/t/X2v7BJziAFIpjuvcBQkBsEgV76fWc7sAoUCApFohQKatRgLkCn0EqNLBMAGqFZbIRF4nNLOOCUk9h4TMcCeFXDPPClXG+jBdrVlklVFdldT/ghmmi/C0VeWg/gPL0aW1jmjql/KYH1MGO3oeX/p6dVttd8B+R22z1S5HBeqweblj9pnuQqb5odIg/Q1UGq1Mbq0alguBw44sSrMmfRljlOUjPR13j+7VuZNXcrCaJBGpeRvM67fp8OEDJ75UdYMGAA==");
 
 export default TentArrowLeftRight;

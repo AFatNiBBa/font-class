@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `anchor` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor?s=regular anchor}
  * @preview ![anchor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/anchor.svg)
  */
-const Anchor: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 80a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM288 0c-44.2 0-80 35.8-80 80c0 35.9 23.7 66.3 56.3 76.4c-.2 1.2-.3 2.4-.3 3.6l0 32-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0 0 224-24 0c-73.7 0-133.7-58.6-135.9-131.8l16.3 14c10.1 8.6 25.2 7.5 33.8-2.6s7.5-25.2-2.6-33.8l-56-48c-9-7.7-22.3-7.7-31.2 0l-56 48c-10.1 8.6-11.2 23.8-2.6 33.8s23.8 11.2 33.8 2.6L56 332.1C58.2 431.8 139.8 512 240 512l48 0 48 0c100.2 0 181.8-80.2 184-179.9l16.4 14.1c10.1 8.6 25.2 7.5 33.8-2.6s7.5-25.2-2.6-33.8l-56-48c-9-7.7-22.2-7.7-31.2 0l-56 48c-10.1 8.6-11.2 23.8-2.6 33.8s23.8 11.2 33.8 2.6l16.3-14C469.7 405.4 409.7 464 336 464l-24 0 0-224 48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-32c0-1.2-.1-2.4-.3-3.6C344.3 146.3 368 115.9 368 80c0-44.2-35.8-80-80-80z" />
-    </Icon>
-);
+const Anchor = createIcon("anchor", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABiQAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCQQsGAAE2AiQDCAQgBYMtBy0bPgXIjlQ1fwRVTqxnJbsSOwwKIx68COFLiE8mF3D+/F9TL6zpAL/RoUVh6YEURy+D9yYwsaJokL1h23A2wInhdJvssSMKnwgRiZKIjlM6nraQx8dxgRLpyvQKzq9vGt9o7RSSUgYgGgFg0ool8zzxRXwR8XLtXuJlcxAQk0AhkCFDOwHGygTayRXI5YIvolaj/8CCAKKMrzOBHDlOwbmAHCQpz5vuqpbq58urpcqOE5pFXFI5q8VlcWLLy6tnN7/U8nt6RtzR7oTWV3Y7gajELa0Eq8bPPDf+sc7N49aWV7eYH5c1mxuXtL60R8t4d9Gby6rV95e8vWK+4Iaxj0ytREQ1bm97VXfAJy59dVzX+67hne9qdNd3nV7Z/ooJBxqcwRkNWoEu3HFBo20sj7a/fn16SoWBFjVvvmigL7RywtJlPf7T7v8nfzjeP/8c74cn/2/3n2xup8FzY+DAuTG4k1bw/D2WLT2hlS+unLeQ0ulf/9o2lm9rBASC82uv/bGh4djf6lQT+OqhH37vJ9bWpBnpLtSRQJD1rfW1Nk10oCMEtlMcrTM+SSA5RoJXrecyAUIFAZKyigCZthoJkKvoI0BJB8MEKKtYIhN5XaGZdQqSeg6BzHDHglwzd4OSsZ63y5pFFohCGAn/wNTpFp02qRjUf2AxulgWRIwtLg+PKba1nkenpl6Ya7sD9jvSNlvtcqRhDpvnHWWf6R49zRcVBulvoMJoxXHlcfpy2xx2hF0O2F/GGaO4b/V0tN+5F8yEWQdLJIlI5ScC");
 
 export default Anchor;

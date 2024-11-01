@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shuffle` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shuffle?s=thin shuffle}
  * @preview ![shuffle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/shuffle.svg)
  */
-const Shuffle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M410.3 466.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l88-88c3.1-3.1 3.1-8.2 0-11.3l-88-88c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3L484.7 376 344 376c-12.6 0-24.4-5.9-32-16L144 136c-7.6-10.1-19.4-16-32-16L8 120c-4.4 0-8 3.6-8 8s3.6 8 8 8l104 0c7.6 0 14.7 3.6 19.2 9.6l168 224C309.8 383.7 326.4 392 344 392l140.7 0-74.3 74.3zM144 376l60-80-10-13.3-62.8 83.7c-4.5 6-11.6 9.6-19.2 9.6L8 376c-4.4 0-8 3.6-8 8s3.6 8 8 8l104 0c12.6 0 24.4-5.9 32-16zM254 229.3L312 152c7.6-10.1 19.4-16 32-16l140.7 0-74.3 74.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l88-88c3.1-3.1 3.1-8.2 0-11.3l-88-88c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3L484.7 120 344 120c-17.6 0-34.2 8.3-44.8 22.4L244 216l10 13.3z" />
-    </Icon>
-);
+const Shuffle = createIcon("shuffle", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCFwsGAAE2AiQDCAQgBYMtBy4bFQXILg5sOvxCC/FQ6lEtzW4xJh9fDePh+zV+5973dj8q3lSTSSQkhulqodB+RkOh0TVCFl8ffly+f2b9d8nKYII8trUlNTDOddHNqS6Za23qS7Kg3qdO1YzzUAAfwDOm5c8zcU0OjtXzCvS8NJZN8Pqy6TWtgPVs26sgoiGxC40T1Hh2Fpt8lHAjPGh8NdYuqRQAxBAAsPVoNoOPj/Ex4q+beGsnCIhtgCkICgomIGADpsAELFNAVQUfo+vEf+AUCCBaJBeRoKLBBXAFQAWpVJZphE7YiFmF/o2gfXfksbYYD0YV4v6II3U++pG9XupHo0cjjtXC2J8rz2biD3Kni7miJg7F3WU4ukjgaX/fEE/sfD0nFyOnPcoe/6c6z6OhXm/2YLGIihZUpMieye04NOLN3QdvRoy02rZ1EaJLQ6P2XrNh8Y+v35vmn9p0wHjALnXYml+bJtQN5kgznjxbb227KyAQvPtyFemGb336MwCfn/+t/hV17zMZj+gjQVAWdAvUEt3/TAQAIGObPiGQTmBK7nWA+wKEfgiQWv0EKMaTIaDqZz4CGpN4EdDq5yCmqHyEEeo9SANcBsUqO6Aa4Qk0Nvi0WyOiwBwHMdwvX3J0jEcm0aU2Bw3RzULLgxFjR8P0NJyzLUtGvBUDSwub+nrGNkfkuoy3ZS66R0R8EeVk40CF0NuN5usL+tZtGFta+HHC6PuqwfZ+sxFPhwFY9rWQnBHJ3bi4NRjM+gA=");
 
 export default Shuffle;

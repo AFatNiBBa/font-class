@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-wash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-wash?s=sharp-light car-wash}
  * @preview ![car-wash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/car-wash.svg)
  */
-const CarWash: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M76.3 92.5c1.2-1.1 3.7-4 3.7-12.5c0-.7-.5-4.5-4.1-11.7c-3-6-7.2-12.5-11.9-18.9c-4.7 6.4-8.9 13-11.9 18.9C48.5 75.5 48 79.3 48 80c0 8.8 7.2 16 16 16c7 0 10.7-2.1 12.3-3.5zM42.9 24.2C53.9 10.1 64 0 64 0s10.1 10.1 21.1 24.2C98 40.7 112 62.7 112 80c0 32-21.5 48-48 48s-48-21.5-48-48c0-17.3 14-39.3 26.9-55.8zM240 80c0-.7-.5-4.5-4.1-11.7c-3-6-7.2-12.5-11.9-18.9c-4.7 6.4-8.9 13-11.9 18.9C208.5 75.5 208 79.3 208 80c0 8.8 7.2 16 16 16c7 0 10.7-2.1 12.3-3.5c1.2-1.1 3.7-4 3.7-12.5zm-64 0c0-17.3 14-39.3 26.9-55.8C213.9 10.1 224 0 224 0s10.1 10.1 21.1 24.2C258 40.7 272 62.7 272 80c0 32-21.5 48-48 48s-48-21.5-48-48zm-68.1 96l12.1 0 208 0 12.1 0 3.3 11.6L372.1 288l11.9 0 32 0 0 32 0 96 0 16 0 32 0 48-32 0 0-48L64 464l0 48-32 0 0-48 0-32 0-16 0-96 0-32 32 0 11.9 0 28.7-100.4 3.3-11.6zM384 320l-23.6 0c-.2 0-.5 0-.7 0L88.4 320c-.2 0-.5 0-.7 0L64 320l0 96 0 16 320 0 0-16 0-96zM315.9 208l-183.9 0-22.9 80 229.6 0-22.9-80zM112 352a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm200 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM400 80c0-.7-.5-4.5-4.1-11.7c-3-6-7.2-12.5-11.9-18.9c-4.7 6.4-8.9 13-11.9 18.9C368.5 75.5 368 79.3 368 80c0 8.8 7.2 16 16 16c7 0 10.7-2.1 12.3-3.5c1.2-1.1 3.7-4 3.7-12.5zm-64 0c0-17.3 14-39.3 26.9-55.8C373.9 10.1 384 0 384 0s10.1 10.1 21.1 24.2C418 40.7 432 62.7 432 80c0 32-21.5 48-48 48s-48-21.5-48-48z" />
-    </Icon>
-);
+const CarWash = createIcon("car-wash", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABwgAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyEAwsGAAE2AiQDCAQgBYMtBy8bAgbIjtEnYwTGzBGPJ4K4vHieb43ffbPzxaSbJZWKRQ2JlCBZaT8TMpUkVjk0yHs0rmYO2jP2bScoE/UdHeXQPkv/czm+23Z0IAvA/60W/WxsW4uyMQYl0PNoLO6853EWZhElwg3bZpNh5ziMpw01a+iKTfnAeARe8zfNHzoTFLUBgAwDAKdPctLg9Gd+Jo/tIfkkBQjkDGAZokGDeQgOMAXzWJaBqgo/07bFfyAFAdIJ0nYBFQP4BvwFGF+h6KssiWpoZk3Hj8En+jpErPziiqDknWZJvaieV86rFlRtIn9Ps+AEfQvwfoCCzUnUjy7NaPJWAbgEY8QA2DVnFMHZXCIgqjwKIRCV7UVEYemIYS1WEM3zfXHBKI5y3QGTIDLgzp+8lhuC+Q83dMu2m/o1hzxtNuMo+cQPWu9Kd7+tHusfIeUFJe5umpoSk0H8842MxtrJZHbrQ5Mi7sOXcc/np2Zgcmj9MmAdyckEAgDb5gCA+86fCoVvK2B8CcLlZagkRXkaItJsK6QqUbR/Q8xlbEorCSgfBpje7olc9p13nMiEOgNe2JKHqSyVKivjbzRmu44Ch+88DgSh8+W/3wpJ6H8eYQD8/vj7Xz5P2p7mnrELdCsgNKutq9KckpLmHgIAKOlnvfJBiOIzQr5qv7cCohcBRadeAY05UgiqXisQdFjkB0GnXg8wpfIhxpW1atHvldrYN6hW4/bVDgduUp3G04R0M5yaP5q54/tU3Dbq5e5Jg+liVW0FXp1Mh9DdXsd+0OUU34B6Hdr1qlOrqYSe2C0t26dN/JoQ54soL+48UcHo6cbjy/nqdOvRpEM72yQEvT/sqH99sFO8CwZgO4zoYF8Kr+Z5t9tAVU8jAAA=");
 
 export default CarWash;

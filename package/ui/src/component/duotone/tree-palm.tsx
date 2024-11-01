@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree-palm` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-palm?s=duotone tree-palm}
  * @preview ![tree-palm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tree-palm.svg)
  */
-const TreePalm: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M224 480c0 6.7 2.1 13.4 6.2 19c6 8.2 15.6 13 25.8 13l64 0c16.1 0 29.8-12 31.8-28c3-24 4.4-48.4 4.4-73c0-77-13.8-154.7-36.1-219c-16 0-32 0-48 0c-2.5 0-5-.6-7.1-1.7c-5.5 5.5-11 11-16.5 16.5c4 10.8 7.8 26.2 9.7 47.2c4.2 46.5-1.6 116.8-32.7 216.4c-1 3.1-1.5 6.3-1.5 9.5z" />
-        <path d="M133.2 141.9L102.9 91.4c-3.1-5.2-10.6-5.2-13.7 0L69.5 124.1c-1.4 2.4-4 3.9-6.9 3.9L16 128c-8.8 0-16.1-7.2-14.4-15.9C10.7 64.2 59.6 0 160 0c88 0 136.5 49.4 153.2 93.8C338.4 76.2 372.3 64 416 64c100.4 0 149.3 64.2 158.4 112.1c1.7 8.7-5.6 15.9-14.4 15.9l-46.7 0c-2.8 0-5.4-1.5-6.9-3.9l-19.6-32.7c-3.1-5.2-10.6-5.2-13.7 0l-19.6 32.7c-1.4 2.4-4.1 3.9-6.9 3.9L272 192c-2.5 0-5-.6-7.1-1.7L109.8 345.5c-6.2 6.2-16.5 6.3-21.4-1C61 304.1 50.2 224.1 121.1 153.1c4-4 8-7.7 12-11.2z" />
-    </Icon>
-);
+const TreePalm = createIcon("tree-palm", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgwAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyBfAsIAAE2AiQDCgQgBYMtB04bHAXIhoc3W9n71TUjb+8auY2MBwCYcUSxIT3g7KSZOvU856EAPoBnTMx5QBZumpNzEch5eNnswFp5gtVqirV2+pBBfZkkfeKSDItehskBOf4vrlUjPZS+xx38P4Dxi+6uJWkqAEQ7AMzbsmGVL4/G0RTfN94lvrcSATEfVAIFCvQSYKZCoJesQpYFR1OjwdFoNCoCiDq+cQHqyNiDUwAZJCFyntq3udY6b+bF5Y7x48bf32lk3FuWcX/XJ+Z8seXnaR/1/sQPzfqs932dyri5y+hAaGU35tVdXh7wzIYHum66svN9zc3xQs8n4qr+T4+/uUyLu9zb6b7uj1VPbrxX/5fbvfxbv+8Pf+/acT+4Rzp8uDIgj3G0zaYD65enebFi59s75sbytP7ApjZHx8gDKocPj9UxvyH3e/gRHz60p1PHwZs2OtK33Ppou7nu2jZh0PQbHtBiUHjXC284Y/T4g4e6LMs1IBD8Pb+p/562M/9r1ZzA8Y//+CdfH40v05z0MlpJIChGNkbameYKARoEK6U4X3/6qqMChakS+tQW9wsQSgRI6koBCj21EyArjRCgpo9JAtSVNihEbhI62VVB0uIsUJjsMpB18g6omekrsa5TFHpGagn5y4tbLKFFXdW40WOr6dXQVijVwWN9RjXNDz0/xIbRrMPOcLpzHXLQSc4VyNlWKec5zWIEL/JDlXFGG6syXbXs3XKbhXi2c5zUZ9bbzFDtF4Y6H2cPo34SYPwJWQoiRdH+/alGnbnv1NNGXdhYx4a5mgAA");
 
 export default TreePalm;

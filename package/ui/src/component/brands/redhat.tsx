@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `redhat` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/redhat?s=brands redhat}
  * @preview ![redhat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/redhat.svg)
  */
-const Redhat: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M341.52 285.56c33.65 0 82.34-6.94 82.34-47 .22-6.74.86-1.82-20.88-96.24-4.62-19.15-8.68-27.84-42.31-44.65-26.09-13.34-82.92-35.37-99.73-35.37-15.66 0-20.2 20.17-38.87 20.17-18 0-31.31-15.06-48.12-15.06-16.14 0-26.66 11-34.78 33.62-27.5 77.55-26.28 74.27-26.12 78.27 0 24.8 97.64 106.11 228.47 106.11M429 254.84c4.65 22 4.65 24.35 4.65 27.25 0 37.66-42.33 58.56-98 58.56-125.74.08-235.91-73.65-235.91-122.33a49.55 49.55 0 0 1 4.06-19.72C58.56 200.86 0 208.93 0 260.63c0 84.67 200.63 189 359.49 189 121.79 0 152.51-55.08 152.51-98.58 0-34.21-29.59-73.05-82.93-96.24" />
-    </Icon>
-);
+const Redhat = createIcon("redhat", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBcwsGAAE2AiQDCAQgBYMtBy0b8ATIhofv7fg693UP4B7AiOQVFBnhr02FaPTH/dQfVgX4QOBnnce4QEaZWgI7n6ZHEg5sOkAfw6ybTrqGlF/zXvSShik/bJ0gj7fjvFKkO9PnONffNH5VzwmSUhmAqAqAobOnT/RBSZREfH77VeJz4xEQw0AhkCFDQwEGyAQayhXI5YKSuH2b/4EFAURpQiRBnm5cgNWAHCQpz9u3rVCqUj4rHyq//FTriMcbHI1rta/Ouoq41WPkal+uqWih9smGL/B3VzgaV9o+OfaTmbOv1Iq4IuJo3NHikfIfjvu03VP1j9Y52eOVhvdO/GLmDzN/av9246PtnurX7KmqT/3e9PNVn5v5YIM7eKJhMKhj5aEd1u7ZP+/6ryUPrFnz9QevPvZCnRdbDOgfVPr45+Y9hprVqHNOHlDhuffb/TV8+vXr5cr3aVGhQq36+/ZNbTi14ZSYG7cqV68/du5WIBC8evvLwYurDPi/bIUEfnnrz+ssuH0ryalPoawEgqzD7Q4WJM68gO8kxS7NEgSSGRJ5qaKrAoTyCJCUVp5CpoGqkCuvPZTSWE91c/t0mcjLCTUtBCQVbYVMLwchV9PLUMoAHxVLqxlZhOnxoX/wckZZfOS6omunLkW/YlkzjKBR62z/Yjtps6v0tMVRq2y2yQ4rrbDWDiNvM7Gy00ajPHakDyp01UkXhX6K4+bz/llW2ma7tTbb1Fbpr7iftrHLH94Wm0mAbm+DpOpIpbetXLFm6Q4A");
 
 export default Redhat;

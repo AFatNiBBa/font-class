@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transporter-2` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-2?s=sharp-thin transporter-2}
  * @preview ![transporter-2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/transporter-2.svg)
  */
-const Transporter_2: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M56 8l0-8L40 0l0 8 0 32L8 40 0 40 0 56l8 0 32 0 0 32 0 8 16 0 0-8 0-32 32 0 8 0 0-16-8 0L56 40 56 8zM472 328l0-8-16 0 0 8 0 32-32 0-8 0 0 16 8 0 32 0 0 32 0 8 16 0 0-8 0-32 32 0 8 0 0-16-8 0-32 0 0-32zM104 448l-8 0 0 8 0 48 0 8 16 0 0-8 0-40 288 0 0 40 0 8 16 0 0-8 0-48 0-8-8 0-304 0zM288 48a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM256 0a48 48 0 1 0 0 96 48 48 0 1 0 0-96zM193.4 128l-3.8 0-2.4 3-74.5 93 20.5 0 64.1-80 117.5 0 64.1 80 20.5 0-74.5-93-2.4-3-3.8 0-125.2 0zm144.5 96l-11.6-14.5L312 191.7l0 22.8 0 9.5 25.9 0zM200 224l0-9.5 0-22.8-14.2 17.8L174.1 224l25.9 0zM168 384l-8 0 0 16 8 0 176 0 8 0 0-16-8 0-176 0zm-8-64l0 16 8 0 176 0 8 0 0-16-8 0-176 0-8 0zm-56-64l-8 0 0 16 8 0 304 0 8 0 0-16-8 0-304 0z" />
-    </Icon>
-);
+const Transporter_2 = createIcon("transporter-2", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABqAAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDcwsGAAE2AiQDCAQgBYMtBzQb9wXIhocnu74/t7pHVbt+Qu/6g2QqZ0RORT+eocvpD3p6esCzX+KPNBpjWrTWsgQe4yzd4ssCy7QEqFG9CgOZn//OUMdbjtYiPZA+xW3Wm8ZfRl1NUlUAYg4Atthvr128/318H/FJ/xXiEzshILYAjUCFChMCbKwSmFBrUKsF30e/z/4DGwKINueHlUCNmfgOvwBqkJS6XrBgev7M4VJKr5TWzHrf0soHhcghRM6iFCFKRESUEpFzHNMpcXguWTT1z8x5dF8HXj4QcXe+cejeuGL4vnLT4D1WfXrk/tEHljw3/tDYg0v3ziUPxN5RYr8osU+U2DeGIu8zNDg0FkKUHCJiJAaiDNTZNLCvkMjq8MwjF74458V/Fnx67KfWe63b7c7R1WgU1Cx2lTd6bLNe7LTz/F2rt0HL7ZabQj2/e95ts67n+llhHUvvP/7ra6/9+jh0bXpZZe1baIeDDdhsN+cq9UAx3jz1vMPeQeyvDOsZu7FXPuwr7xibfuxE6tdt12ubzUFiqv/vnOr1MRmIm+66qLPuYbM3/r9bEvjxzf/+ir9G+u8n6UV0JRBUK/dXdnACiQAApDjXwgSB5DOF9aoz3CtAyAiQtGUBKuPmCFDLVhKgZco6ArRle6lE3RMGHJKDZIYzQGVdl4DagJdAy8Y+CLYNRHWFy65P2Q9m6m3L6DZSzRqrrt5s2HTWpfKLVtDzGzWjzcvPrfWtAA861mlOdbZjHO0EZ5eIM+0SOccptu3Dt/FBjTWsanWNDTWzW9fV+5ZcZzqrLLQr52+zkWZ9/3Ln9o9eAdoSh3NNO5JEpJkfJc+Zq6wJAAAA");
 
 export default Transporter_2;

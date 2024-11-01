@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `conveyor-belt` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/conveyor-belt?s=sharp-light conveyor-belt}
  * @preview ![conveyor-belt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/conveyor-belt.svg)
  */
-const ConveyorBelt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 32l0 224-320 0 0-224 80 0 0 90.7 0 37.3 32-19.2L320 112l48 28.8L400 160l0-37.3L400 32l80 0zM272 32l96 0 0 71.5L336.5 84.6 320 74.7l-16.5 9.9L272 103.5 272 32zM480 0L400 0 368 0 272 0 240 0 160 0 128 0l0 32 0 224 0 32 32 0 320 0 32 0 0-32 0-224 0-32L480 0zM608 416c0 35.3-28.7 64-64 64L96 480c-35.3 0-64-28.7-64-64s28.7-64 64-64l448 0c35.3 0 64 28.7 64 64zM96 320c-53 0-96 43-96 96s43 96 96 96l448 0c53 0 96-43 96-96s-43-96-96-96L96 320zm56 96a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm168 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm216-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const ConveyorBelt = createIcon("conveyor-belt", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABkQAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCWgsGAAE2AiQDCAQgBYMtBzQbXgXIHoVNWTd2PA5JbWtimu94/v/vxfa5/6UWq50qpVu4CgcoFMyKNQuHeBrgrNEBGhqL/HtnvxDyAhhNQb+UUPW7sE+pHqwYAFeXjn+1p+7HT/Bopac3LhVDtY5HIBpb/HinCMWCsYhi1E0JYh89ynaUrUjQMmTH1+Mdu0DLNzlDSH3UDeDFPjR/YWgaSusAkHEAwMV9VgpU93RPdPN/KN+QBAK5BLCI0KHDLALH+IJZAougacJv+v+X/0CGAOmF3ligYRDP4A0wTOlvAmN1bX09KZ6WC5WCXLlQVgcyHCI5IbJDQRRADkREjqyByDbZkg7ZE+X1nAKBNKQkysoKZmbgzqqCtrY5o3mnPbvatbm1a1h5IJHZxbvio6RjRMyXVqCvImfOdsNg1mbbOOfQSyiPYEtOg3uyuKm9wd3yvcLhuEe6IjbefyrwbqNI+q9y3BqPR0j9e4//aZ6eXs5wD4aZz+OyTBOY+FRhRVNT5qb4/JeNc/AlkXBf4yrAQJdfmW5Ghu5Jb+vrnrrV59cBCMLV/mhlmXrwl0TOA/w5e3mz5/FfxRsvDv0KhG7337m4xkHkAWqVXlgGXxSUJ/TTdx32ioAYREDpNSigM0MDgWbQDgI95vkg0GvQNb40KWJaiaMy7AF1joygZto+6nHsvNprOvys1HNK/ybMiR2xmGPMw9WdBbJl32Ukmtr2g9jjqH0vzTngLGq1adWtRrUG3QPbKaXRo0VsxMT4IcaDK3dMILY9mp3cUuvUpWFu7h8ShL1ftNcbr3ZAgkcV95wsRUr5Y3fPQFunS2VNczc=");
 
 export default ConveyorBelt;

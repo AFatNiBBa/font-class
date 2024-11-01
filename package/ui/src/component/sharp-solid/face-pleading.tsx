@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-pleading` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-pleading?s=sharp-solid face-pleading}
  * @preview ![face-pleading](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-pleading.svg)
  */
-const FacePleading: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm160 64c44.2 0 80-35.8 80-80c0-41.5-31.5-75.6-72-79.6c10-10.8 17.6-24.1 21.9-38.8l1.5-5.2 4.4-15.4L165 92.2l-4.4 15.4-1.5 5.2c-7 24.7-28.1 42.7-53.6 45.9L94 160.1l-15.9 2 4 31.8 13.8-1.7C85.9 205.5 80 222.1 80 240c0 44.2 35.8 80 80 80zm192 0c44.2 0 80-35.8 80-80c0-17.9-5.9-34.5-15.9-47.9l13.8 1.7 4-31.8-15.9-2-11.5-1.4c-25.5-3.2-46.6-21.3-53.6-45.9l-1.5-5.2L347 92.2 316.2 101l4.4 15.4 1.5 5.2c4.2 14.8 11.8 28 21.9 38.8c-40.4 4-72 38.1-72 79.6c0 44.2 35.8 80 80 80zM280.1 426.7l10.7 11.9 23.8-21.4-10.7-11.9C294.7 395.1 278.7 384 256 384s-38.7 11.1-47.9 21.3l-10.7 11.9 23.8 21.4 10.7-11.9c4.7-5.3 12.7-10.7 24.1-10.7s19.4 5.4 24.1 10.7zM128 232c17.7 0 32-14.3 32-32c0-5.8-1.5-11.2-4.2-15.8c1.4-.1 2.8-.2 4.2-.2c30.9 0 56 25.1 56 56s-25.1 56-56 56s-56-25.1-56-56c0-5.7 .8-11.2 2.4-16.4c5.7 5.2 13.3 8.4 21.6 8.4zm224-32c0-5.8-1.5-11.2-4.2-15.8c1.4-.1 2.8-.2 4.2-.2c30.9 0 56 25.1 56 56s-25.1 56-56 56s-56-25.1-56-56c0-5.7 .8-11.2 2.4-16.4c5.7 5.2 13.3 8.4 21.6 8.4c17.7 0 32-14.3 32-32z" />
-    </Icon>
-);
+const FacePleading = createIcon("face-pleading", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABsgAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDNQsGAAE2AiQDCAQgBYMtBzQbuQXIBp7n8/LPfUkGbjtCvs0dICwBbDs+z7l4b89HA9r7RkOJxu0qtYqOMp+fQIFFaRS10IEe4ImegJ06HTFQD3HUc0iRus7h8QjV43EPdDmjTcUAtUrdBRaUxfKVCFNBYddQID54LdRo16oJF1/JK5E76WMgd2gECIDUAMBEAI1pehwBoDIaYvdAxwR0dAReSTq9/geaIAAgFvguCgAdsAFngOsAgA6AwqLrsXz5grGI03DrbZ2GQ17UErnS7IFzTpN7NS61eVr9YuO7jtlN79e83LbNiUIie1KrC+7OuyIWkpDkFb/4ZW1p6BFmr2RdgV1lnJHUSdGAxCS4mceTdOWWANJWBbbm3xlmqHUgGCjkBVeXPRq+ShT42hX5tgXazgmJrJBJwTnObYFlkZX+pbm3B5dHJ4WWOdsVLsrJJTl3+3Z/z3G3710uUscOkSOXatW6dCRip47Nl9dtqObrA23FW6bM2599DJryiWr4uT72IL+pxiP+xaRtH9/FyKbYv0dU4zcbmX7dTzVOaYpBn59vy5Txwllv4B6dMoY9PMrMfLSHuvUAGLDismcmzPTYyyo1PPun1foze7hMaA/OcL9MOVwvJ9cDgAACR+XOwW7eyv9tTgXAm9M/v/NHSPqiQu0GbCgABLTC6cJ0VgAoEAAAAEDJWHIqAAEUR3gejIvlSExwwA6FBQc0Yvig46AQDJKUEbi4FRqi2xH8dAEULkZAoyzjoOPnCAwqcyNswS9aCksJKP1Bpte1ZJ1hZomixc2K5mlelbNSWPormd1G/rFzXQFspC/DGMpo+tCbAYw29EiaxMYwhLotqg4fxKQERSmOSUXM4dJHvS3DIxnFAF8dH6QS5v2+/Ixtty4Aq0JZS5KjUCDK/YLYigz/LgAAAA==");
 
 export default FacePleading;

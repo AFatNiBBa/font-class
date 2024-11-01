@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `slider` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/slider?s=regular slider}
  * @preview ![slider](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/slider.svg)
  */
-const Slider: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 144c8.8 0 16 7.2 16 16l0 192c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-192c0-8.8 7.2-16 16-16l32 0zM320 96c-35.3 0-64 28.7-64 64l0 192c0 35.3 28.7 64 64 64l32 0c35.3 0 64-28.7 64-64l0-72 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-72 0 0-72c0-35.3-28.7-64-64-64l-32 0zM0 256c0 13.3 10.7 24 24 24l200 0 0-48L24 232c-13.3 0-24 10.7-24 24z" />
-    </Icon>
-);
+const Slider = createIcon("slider", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABYwAAAHoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBRAsGAAE2AiQDCAQgBYMtBy0bwQTIjtRG+UVWEsH3NtF9/04a+2SGMwBR5x4IS3d2qOOm0KTNpExaVe37/9zsec+jAL8nHtpYNrXnY/EY43kCAWa9PE3g/MAO6MRPwG53GsWxaK9maZbk+Jbjc0Me3+OmCulR+gs32pvGPzq7TlLJAEQrAMzasGaZX+pRj/izgfjTEgTELFAKZMjQTYCpMoFuciVyuaAejUb+DywJIKroNRPIUcECLAXkIMnyvFXfWq3SPF9fqxQH7rUXd9sVcb9DxIOOteFvB0Z87CQeDfrUrxYfhnzpGhEPuj7uX0TE48Gfg7Tzkfogooi3nXp/bvX5315/7f/LjhH1Fr9oUS+Bt/GyNa0LxhWtW78svWztW2ihVe3brwJKEWe8GPTfjPQbfg8IBD3bZpd2tJz6X5NaAn9/+3/6DSXpM5pIIMiGNobamkAiAAApzuudIJDMkKEnzdwXIBQIkFQVDJmuWkGuMAQqehh3o6qwRibypkI72zAkzZyCzHjXINfOV6iY6lejql1krkQ7Av2RS5gvkXl75ajhI8vJ5TLVGe8gcT2l3JYGni+tQXBpvxOOO2ufvQ45K7DTltnnHDPfQuf5oNIow41Umqw8Lp7P19vntDMOOeF43TJFeV8b6Lw9PAjUhAhHCyWJSNW3AgAA");
 
 export default Slider;

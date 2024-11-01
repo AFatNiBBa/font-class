@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-keyhole` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-keyhole?s=sharp-solid shield-keyhole}
  * @preview ![shield-keyhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shield-keyhole.svg)
  */
-const ShieldKeyhole: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 5.7l11.5 4.4L475 90.2l19.2 7.4 1.2 20.6c2.9 49.7-4.9 125.6-37.3 199.8C425.4 392.8 367 467.1 268.6 509.4L256 514.8l-12.6-5.4C145 467.1 86.6 392.8 53.9 318C21.4 243.7 13.6 167.8 16.6 118.1l1.2-20.6L37 90.2l207.5-80L256 5.7zM312 208c0-30.9-25.1-56-56-56s-56 25.1-56 56c0 22.3 13.1 41.6 32 50.6l0 69.4 0 24 48 0 0-24 0-69.4c18.9-9 32-28.3 32-50.6z" />
-    </Icon>
-);
+const ShieldKeyhole = createIcon("shield-keyhole", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABZgAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBRQsGAAE2AiQDCAQgBYMtBzUbygTIjsN0Gy/fZciBDEPi4Xm7x859MwE8AaQuPaRKFRZwG7QLt/kJV/s+/9d8ftZ0gN/oUDr1QAo8ev18Aie2zSKB51FgJ4qzdvYJA75bDJ8+5ZMM4xsmR8jjeXZEGdL59BWO8o/Grxo4QlIhAxDVATB87szJ3nsZLyO+LEV8aSICYjgoBDJkaCzAIJlAY7kCuVzwMkql9B9YEECUBTgx8nDlGEwF5CBJed66QaUyVfI58XYVF9apW2d2tI4Gcbm41u3hsPdm1Y668cuID3o8bnGjWaNoG3Oj3uwLdSPOtLlV+1T9y62FqBRYd7dZiwfVH/ze/Ks1Xyk9fYKtvpmqrUzrXTv37fvhh3HNPvaxTgutnmTnrtaZtr6d6mbfz8v9yRveXK7mi9Hq66a+0V7UBALB8ypPPl1abdD/5Ssl8PrZv9frq5bejn/SA5SXQJB1KnWyKFFVVaNPAA5T7NGCBhZIhkiAe63sjAChIgIkZVUUINNIdQFyFXUUoIymegtQVkUzZSKvINS2eICksu0g08dhkKvtCShjkE/DsmpH5kq8I/A/uZQxGhrdV3Tv0q0YUCxTIngHWxYHFttOuz251Z42WmOrLXZZbZX1dilyh8nJbpuNsYjRBlTorotuCgMUx8Xz6jlW22Gn9bba0pYZqLgftLPHHt+e/ASUPeyRJCJV3blu/epNqzpvXL3/TQMAAA==");
 
 export default ShieldKeyhole;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-medical-circle-exclamation` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical-circle-exclamation?s=sharp-duotone-solid house-medical-circle-exclamation}
  * @preview ![house-medical-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/house-medical-circle-exclamation.svg)
  */
-const HouseMedicalCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 240l0 47.6 64.1 0 0 224.4 330.7 0c-45.2-31.8-74.7-84.4-74.8-143.8c-.1 8.7-7.2 15.8-16 15.8l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 40.2 0c32.3-39.1 81.1-64 135.8-64c8.3 0 16.5 .6 24.5 1.7L288.4 0 0 240zM320 352l0 15.3c0-5.2 .3-10.3 .7-15.3l-.7 0z" />
-        <path d="M352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160 48l-32 0 0 32 32 0 0-32zm0-128l0-16-32 0 0 16 0 80 0 16 32 0 0-16 0-80z" />
-    </Icon>
-);
+const HouseMedicalCircleExclamation = createIcon("house-medical-circle-exclamation", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABlAAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCMAsIAAE2AiQDCgQgBYMtB3wbfgXIhof/1vy6r6qT+b8zDDXItECskNR6AFLAQuasAlKrM3G58z9/2sue4NH+G2OCLLA9zxMIvI1jUomEAaUZWtbm+EUHQW55ROqQMhGH7aphqjNUaXJ+SIP0UvoRT+T/AYy/DPMQSXcGEH0BsPbw/p2+akc7xY+d94gf7UBArANFICNjpAArZIGRKgWVStBOnQ7t6HQKAUQTPiCDJnrgdjwAqECSpaoa0d1vYY9Wo1d1qNWoz98/O+LN5Z+2Hln68czX3TfjtSUf1Q8v+2TWG3GwbtWiFREh6hBiz4XQCvaKkdLRzw6s4/nBEU6+MKQV6HODhOvVta8ZdCjOnBXuH1KPe6XvK/+M/fGSH53ePblQBvSfNKn/gFImU01Ivjy7QKUo9/UtKfrao68S+HWOHbJG23aTF07o2btdtHvPMccDBRnV1u6c4rFSpvb8+vevjflv9bV9QHQ1wzOBYOm0h1ec7rPi/65WAr998t+f5XGdr9J96RV0SSDIMzoznEj3QdAG8KNS3GJcui/OIJCtkOFde3pegFAjQNJUC5CN0FeASm26AA2jLRSgqbZfFlW3MNDJTUp6ul7KFrlbqgz0rtSwwje5poGRFWjRj+X7L+cmBjYuKnNnzSnLymlNtYrKSLPLy3Bwyi2xZ6rtdYlrXeMmF11wuZsIusHO4s2utqkHbvRFxVyzzFEsU6abt8lDLrrzRjaObfPzLFfWZ6e4pT98qkUS6M6zJMtEijxFnt6ZL6R35g87iZkXb/Pw2asfLu9MWY837ZL9XgYAAA==");
 
 export default HouseMedicalCircleExclamation;

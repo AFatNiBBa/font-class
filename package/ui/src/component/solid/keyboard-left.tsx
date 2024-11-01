@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `keyboard-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard-left?s=solid keyboard-left}
  * @preview ![keyboard-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/keyboard-left.svg)
  */
-const KeyboardLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 64c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64l352 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L224 64zm16 64l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM224 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm16 80l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80-176c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm16 80l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM320 336c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16l0-32zM432 128l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM416 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM528 128l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM512 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm16 80l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM113.2 153.8c-9-3.7-19.3-1.7-26.2 5.2L7 239c-9.4 9.4-9.4 24.6 0 33.9l80 80c6.9 6.9 17.2 8.9 26.2 5.2s14.8-12.5 14.8-22.2l0-160c0-9.7-5.8-18.5-14.8-22.2z" />
-    </Icon>
-);
+const KeyboardLeft = createIcon("keyboard-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABzwAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHyEKgsGAAE2AiQDCAQgBYMtBzQbLgbIjtMVcxRJ0sZ3KC0Pz98Pz33/rSIoqYFTBzqweQbyeJ5l0ZrOBsml6hJVJotIwgKzqkPQfeGqgH/+L/f87PwAv/itibIL1wRZz7OxpkDgbVqbA8uyMkjE8/+WXtHlV/1bkkRPJrP7N+a+PFA6B8jxI+wlJt2mK8BxftP4hlEvkFQUAIh6AMDadkwYTjjiiC75PSDuEAICYg1AP0KBAt0ILBIKdBPpB1kWPBDPh/9ABgQQpVA4WZdRh38gMC8gqckiC4NO3HqlOJriyw8qUmbHiRbbBTQ0sTSipoWplS4hDU8uj6pMSoWyrwV00ayg/laigbbYgTYlSeE4Si0BL5bpBPy4Fdn9zbE02BFHfW0DbeQC83L98q/pKv8KLx2TDUBDJVQ26Cd3MBhhKs8Y4zQMmgeG6tJWQEVjbQSXFLGhnoA6Nddmxe09na+oeEr0+NzzcUQE7u563tHTs3aS9h6AQFC9X52aofV9kykFgKfj10//IP8FpL20DMolEBTTvC1SUycZgGgoRT3M+CJC8g41vGq1KxAIlQiQlKoUoNBFh0BWaQqBEr3cEChVaZ1QZDlCs7QOkmq7oLCgDWTNdkCJRafBUs0htH7VdtV/z8z+h/zGMSd7R+bNljFNM2hZan3YtsWyXo4VViJfhXK18uQqUjukWlikThl/hvb7LOPEniPGG7ucfF4cL0+1GkUqlKdRfLDzAUv1vLgV7AIqOGNSkoikLslrejWUDwM=");
 
 export default KeyboardLeft;

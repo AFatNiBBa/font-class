@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-open` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-open?s=sharp-light box-open}
  * @preview ![box-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/box-open.svg)
  */
-const BoxOpen: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M76.6 48.1L320 77.2 563.4 48.1l11.9-1.4 4.7 11 48 112 7.5 17.4-18.4 4.4-200 48-10.5 2.5-6.3-8.8L320 120.9 239.7 233.3l-6.3 8.8-10.5-2.5-200-48L4.5 187.1 12 169.7l48-112 4.7-11 11.9 1.4zM48.8 164.9l171.1 41.1L291.3 106 84.7 81.3 48.8 164.9zM544 239l32-8 0 185L320 480 64 416l0-185 32 8 0 152 208 52 0-219 32 0 0 219 208-52 0-152zM555.3 81.3L348.7 106l71.4 99.9 171.1-41.1L555.3 81.3z" />
-    </Icon>
-);
+const BoxOpen = createIcon("box-open", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABbgAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCDwsGAAE2AiQDCAQgBYMtBy8bDgXIngU5GW8qoZRtEeVQq2UtwIP8rRYRfb/fZ895dwkDgApV2CUWScUBKRJyXUjqBWF/xUYDv58/lu9dUIZFpUbVogNkowP+tKAbzY4GsgbpZO68r5/a+b+mXtDR0QF+o0PKWlA0Rdss83mDDbCS1raJzIazieIWt101CSqhsdC4QMufmNGpTwVYKB+ar2QuKa0DkFkA4Ny1UgYePzNIFvtkUQoI5DzAdogOHTZDcBJVsBnNdqBpwgD7XvwHykGADEsvLtAwjLvAOwAaKK21A2ObxiaGptpVc/f4rSvVSg0lWZMrkWV3LkeYtblKg9psyp5y+RC1GHqgU+uAZFaD2RO5UuAJ6Jp57XKWKvZYdSfhki/F4jTphf/N+DQ3LrI9hlUqI5trj+Qec8esq4lDqL+VnnSzaZPo6bToBDxJqS59XzgFhnpyz9APAysuLyD3UsOD8ZaklDqLkf3PA0AQlp4/F3qc8LdRRoEvDz9/5XF6P6jXRTCqQOgO92btOjWk7YxDaKTyihJ/UVCuojHvOum9gBhHQBk2LqCzCReCZtwhCIZs5YFg2LhLqNLGxGqdHpRJT0HnhCPQrHYPhpw0Cg9bnQ7eWGhhf/eSomM0MknusNrlQflmVuNAiLbdIflpi35bVhnwTpi2YtmmKZPmbI6IdZnYliXRPTzih+QcrOzkguS3C883V01Zt2HOimXfS4j8fbfe9n5jA7ZTJNIj5pYiNfrw8a7lSwQAAAA=");
 
 export default BoxOpen;

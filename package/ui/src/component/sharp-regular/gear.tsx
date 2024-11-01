@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gear` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gear?s=sharp-regular gear}
  * @preview ![gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/gear.svg)
  */
-const Gear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M328 0l14.6 66.8c11.9 5.5 23.3 12 33.8 19.6l65.2-20.8 72 124.7-50.6 46.1c.6 6.4 .9 12.9 .9 19.5s-.3 13.1-.9 19.5l50.6 46.1-72 124.7-65.2-20.8c-10.6 7.5-21.9 14.1-33.8 19.6L328 512l-144 0-14.6-66.8c-11.9-5.5-23.3-12-33.8-19.6L70.3 446.4l-72-124.7 50.6-46.1c-.6-6.4-.9-12.9-.9-19.5s.3-13.1 .9-19.5L-1.7 190.4l72-124.7 65.2 20.8c10.6-7.5 21.9-14.1 33.8-19.6L184 0 328 0zm63 132.2l-22.9 7.3-19.5-13.9c-8.2-5.8-16.9-10.9-26-15.1l-21.8-10-5.1-23.4L289.4 48l-66.7 0-6.4 29.1-5.1 23.4-21.8 10c-9.2 4.2-17.9 9.3-26 15.1l-19.5 13.9L121 132.2l-28.4-9L59.2 180.9l22 20.1 17.7 16.1-2.2 23.8c-.5 5-.7 10-.7 15.1s.2 10.1 .7 15.1l2.2 23.8L81.2 311l-22 20.1 33.4 57.8 28.4-9 22.9-7.3 19.5 13.9c8.2 5.8 16.9 10.9 26 15.1l21.8 10 5.1 23.4 6.4 29.1 66.7 0 6.4-29.1 5.1-23.4 21.8-10c9.2-4.2 17.9-9.3 26-15.1l19.5-13.9 22.9 7.3 28.4 9 33.4-57.8L430.8 311l-17.7-16.1 2.2-23.8c.5-5 .7-10 .7-15.1s-.2-10.1-.7-15.1l-2.2-23.8L430.8 201l22.1-20.1-33.4-57.8-28.4 9zM304 256a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-144 0a96 96 0 1 1 192 0 96 96 0 1 1 -192 0z" />
-    </Icon>
-);
+const Gear = createIcon("gear", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABrQAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDWgsGAAE2AiQDCAQgBYMtBysb1QVRlA5Gi+yLg0yuzk6JCMFg0AaXNzs89Yy0dvZLUxun8fD95XvufW83pVTPpzTqHKxAGQ9HINZIog0LcGY9Auvzvx/zXvD/cXmIuCT1ilebKXje6YsWl5b+wLUJaJZRIe8T19SvWCRgCg+HFmWZGIm7p2XxbgITWFMmyHA2nE0UNzhvxAGGxlC+hRrvYk1DvuYLHt2Hxr8V86SmACCmAcD5bV4GPnfRRTz3ET8uQECcA7YRBQXrCI4oCqxTsg2qKuii79l/oIAAokXw5AQVLb7xB6gg1aoUcPdB01xW1lQqVCdJTQWFBceGRSxgOrfBIIP5LOSWfT4lbDkxajGZxR3OGGdyhXnXKc2WC+yd7B25Y8RMZowv0UTRnlsG9nSMRtOFDr3oFhiajkWdGUMnpOjAbUMHmvJlmoeduGsMQYdoHF3piKO7nDEyg0u7MZb2+QeOJ/ZHJvsOx06n5tKMOXlYmOXFZobpPpjsDZulhcnFZge0vdC5+Ou38QVJ71qx4SLjXzH6SHqAB/VRSc2zisTM4//QqBtrwC2AUL+N3ZFzTcHrPPBwW4Ik7WK1S1Li9sFDk9dIHmvGVIbVVIxhLY+p15iH+7sSJK4GE4kfr5Q3jlL3UDgmdY6NdUrprDWzW+C2vN3UtL389taslcPuBwAggBD55pdUpR3+T01WAAD8fHt+ooBef6bCBYYlCMqgHyhPM4A+CEEsY5At/CZE+lLBdx33JEAYRYDUGhWgWKODoBq1g6CxKQBBa9QlRVHVEeZV1JI07l5SHJqQVPMuJY0j97HWfChe1dprUvtPmSmxDScMEz6e3iJUTOaUugtVrXvDxGqL8yCvcYFz0ahLp34N6rXob4l7ZSQHdEic4yb4IcGHJ29CKLG7eN9UiGO9+rSMG/YPEkacH3A2ON/cBdoVBCp3MVISqfQZAQA=");
 
 export default Gear;

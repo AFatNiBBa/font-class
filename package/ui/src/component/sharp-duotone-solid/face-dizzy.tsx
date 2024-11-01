@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-dizzy` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-dizzy?s=sharp-duotone-solid face-dizzy}
  * @preview ![face-dizzy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-dizzy.svg)
  */
-const FaceDizzy: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM89.4 144L112 121.4l11.3 11.3c12.2 12.2 24.5 24.5 36.7 36.7l36.7-36.7c3.8-3.8 7.5-7.5 11.3-11.3c7.5 7.5 15.1 15.1 22.6 22.6c-3.8 3.8-7.5 7.5-11.3 11.3c-12.2 12.2-24.5 24.5-36.7 36.7c12.2 12.2 24.5 24.5 36.7 36.7c3.8 3.8 7.5 7.5 11.3 11.3c-7.5 7.5-15.1 15.1-22.6 22.6c-3.8-3.8-7.5-7.5-11.3-11.3c-12.2-12.2-24.5-24.5-36.7-36.7c-12.2 12.2-24.5 24.5-36.7 36.7c-3.8 3.8-7.5 7.5-11.3 11.3c-7.5-7.5-15.1-15.1-22.6-22.6l11.3-11.3L137.4 192c-12.2-12.2-24.5-24.5-36.7-36.7c-3.8-3.8-7.5-7.5-11.3-11.3zM320 352a64 64 0 1 1 -128 0 64 64 0 1 1 128 0zM281.4 144L304 121.4l11.3 11.3L352 169.4c12.2-12.2 24.5-24.5 36.7-36.7c3.8-3.8 7.5-7.5 11.3-11.3c7.5 7.5 15.1 15.1 22.6 22.6c-3.8 3.8-7.5 7.5-11.3 11.3c-12.2 12.2-24.5 24.5-36.7 36.7c12.2 12.2 24.5 24.5 36.7 36.7c3.8 3.8 7.5 7.5 11.3 11.3c-7.5 7.5-15.1 15.1-22.6 22.6c-3.8-3.8-7.5-7.5-11.3-11.3c-12.2-12.2-24.5-24.5-36.7-36.7c-12.2 12.2-24.5 24.5-36.7 36.7c-3.8 3.8-7.5 7.5-11.3 11.3c-7.5-7.5-15.1-15.1-22.6-22.6l11.3-11.3c12.2-12.2 24.5-24.5 36.7-36.7c-12.2-12.2-24.5-24.5-36.7-36.7c-3.8-3.8-7.5-7.5-11.3-11.3z" />
-        <path d="M123.3 132.7L112 121.4 89.4 144l11.3 11.3L137.4 192l-36.7 36.7L89.4 240 112 262.6l11.3-11.3L160 214.6l36.7 36.7L208 262.6 230.6 240l-11.3-11.3L182.6 192l36.7-36.7L230.6 144 208 121.4l-11.3 11.3L160 169.4l-36.7-36.7zm192 0L304 121.4 281.4 144l11.3 11.3L329.4 192l-36.7 36.7L281.4 240 304 262.6l11.3-11.3L352 214.6l36.7 36.7L400 262.6 422.6 240l-11.3-11.3L374.6 192l36.7-36.7L422.6 144 400 121.4l-11.3 11.3L352 169.4l-36.7-36.7z" />
-    </Icon>
-);
+const FaceDizzy = createIcon("face-dizzy", true, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAAB4QAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSSEHgsIAAE2AiQDCgQgBYMtB1AbQAbIjsQ4JvIsuKEFz//r1Pv+VwBYTgoBYB1nKpDsEqrMGxCthjGdnKXMM/LKiOItXKLxhOBG506deh7gBbKF4kH5jIVLNy7LpqRrn1egwLFeaXl7XqGWLAI1kA7Om3RIoQ0h/QEMeay3EAbqpLoL7I//B1A+k8UWUERpAAAkcQAAoMc7djgXX8gLJXf/XwC5yzBAAKQXABMBNKCBXASAdjQC5GJgAgYGAi/U/8IL+V8TBAAknPjXRQMQDkQC34BfAIABgEJhGEbJ5tTHNScszvDEhEVPSk9LL5Y0HdqlKpGhS4c0ZdJ16pKhVKp2nTn1Cs96RC4Nvxeze+QD64r3ee/lEfejdw27231xnLesuCxNjqbpsEuOZ2DGkVRfsb+Eciw9UOorFjhAwscAC+iCfabYVxrIP18WLPHneW7rHTcFNOa+BIVIgEKEBcsCpUNcGEgMfHXdde6yoTUYDDqEqKeeEA5BLCyCLHdy8dQVXMQdBVn9lyzrUn9WFO5pe/Le8UsdxwlyZ8C2Ldx2XZ2z1h6XnJSUPM4OBW23KynJJYlXX285Toh6BgY89jj73QP96ufPV7qyhrz7H7A4GViztqjQlcwb9RZy4uS67QVYZmqLgqEQ288DgAACFyd4u6cltP/IKABehb5/agaC/xcVKgBEogAQ0OUtZ7ICQIGQ9ipZQ6GCCQDCNUcwxkBGLMcQUiEaBlwRTjSuySERN4imDA8jnwbhoj72EiZGFE4qUxCuiGU5rmlkM26QSj8eRjs3onBSRVt8ydpKv53pfVPIfcqsqaw2W83dVifbZUEftpmXjeI1fKEEnsVhKUtYxRxmM59VE3gFw9PVLKbviO3+rkkNlVRj0or5ePxS9+BoBSuZv60+P6YN83unmDXH60ugrUg5a+nRaBAlOjlY5Stmz9+wYX2FF1pMnauBBQA=");
 
 export default FaceDizzy;

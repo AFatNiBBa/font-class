@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bong` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bong?s=sharp-solid bong}
  * @preview ![bong](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bong.svg)
  */
-const Bong: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 273.1c-19.5 11.3-35.7 27.5-46.9 46.9l221.8 0c-11.2-19.4-27.4-35.6-46.9-46.9l-32-18.5 0-36.9L224 64l-64 0 0 153.7 0 36.9-32 18.5zm228.6 12.2C374 314.1 384 347.9 384 384c0 49.2-18.5 94-48.9 128L48.9 512C18.5 478 0 433.2 0 384c0-71.1 38.6-133.1 96-166.3L96 64 64 64 64 0 96 0l64 0 64 0 64 0 32 0 0 64-32 0 0 153.7c14.2 8.2 27.2 18.2 38.8 29.6L366.1 208l-7-7-17-17L376 150.1l17 17 24 24 24 24 17 17L424 265.9l-17-17-7-7-43.3 43.3z" />
-    </Icon>
-);
+const Bong = createIcon("bong", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYgAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBVwsGAAE2AiQDCAQgBYMtBysb0gTIHidZsyKHInjeLqre755ZQL22Iyhy5pC6c2TG50xKJ7ATyKxz6uZ551GAT5LiXOeBjEnhnOcJJJp2CeXZOs80Acva2Ut+UHqDQbr0Pslq+2GzQR7Xs9NKpKvpE1wsJ41fNHOapFoGIOoCYOzi+TO98X18H/Fx5SXiY9MREGNBIZAhQ0sBRsgEWsoVyOWC76NSSf/AggCiTHZLIEeOOVgMyEGS8rzhgBqlWvmiGqXqi+92qRH3u3ULWVU9hOiy8FHbb9SMtxbd6P1kuGJE1KjBCNzqOjoaR7doYtfKjgCmcXhsu/t17//W9pM+cezxF7W+VeuLv3R0zRjXdPTXzzWul2Paz639HNNKZ66/ek1hjOJ7CtdMr7vJJtTDYYdRD5vcBwLBv61eXWfEf1VrJPDj63/8hr+iyhvxUbqPqhIIsh6VHlbEG1T+j48EACDFIe3iDQSSKRI5ak2XBAjVESApqy5ApoW6AuSq6y5ASWsDBSirbr5M5NWEhlYOkNS0F2QGOQJyDb0ASkZ4Xy9rGJlPER5BfOliJyE0ca7o26tPMaxYhjrpJlgeDy+21S6HuNSVFm2y2y4HbLTBVgcA2WemddBOkyx4ohcV+uqlj8IwxXHyzC4CY5/9turU+ZThivtaF4fs5q5EPRC9nxeSFH0pX7d712YAAA==");
 
 export default Bong;

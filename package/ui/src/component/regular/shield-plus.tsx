@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-plus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-plus?s=regular shield-plus}
  * @preview ![shield-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/shield-plus.svg)
  */
-const ShieldPlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M73 127L256 49.4 439 127c5.9 2.5 9.1 7.8 9 12.8c-.4 91.4-38.4 249.3-186.3 320.1c-3.6 1.7-7.8 1.7-11.3 0C102.4 389 64.5 231.2 64 139.7c0-5 3.1-10.2 9-12.8zM457.7 82.8L269.4 2.9C265.2 1 260.7 0 256 0s-9.2 1-13.4 2.9L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.8 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2zM232 344c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0 0-64c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 64-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0 0 64z" />
-    </Icon>
-);
+const ShieldPlus = createIcon("shield-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABeQAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCCwsGAAE2AiQDCAQgBYMtBzIbDQXIhofn8/g89yUDOAMRpbDF9rdb8/cvjV/8aMb/ID+Ud2Ph0sXLD9fojFeggE1pYr3A9YLVtAJWa2f3HwbRL5L0CUmG8YfNE/J4Ja4oRbopfYrL+UPja/WcICmVAYiqABg6e/pEb5ZEScQn/z9HfGI8AmIoKAQyZGgowACZQEO5ArlcUBL//+//AwsCiNLkfRPIUQpLsA+QgyTL87pFUaFUpXxWhVLl58+eMXtmXOdIceeQN2dcW/vzYW83uzuO1lk+a+as68ufqzkj7q15rTtnfuak+1p/MftCs6O1r28156aWDzSIqBBE3dyqfERQ99YV5QOmjyuEZg9Xffjbpp+u+tSYIc9PpJNOlO38z997z4xpMXVqOHdm79//dC574kj7VycjmVamzLRUUvr2x2umaiNQ6jSk49CZ7W65haFCV4dLqebjt5f+Mq81dWqtIYYo0FTfqF8GgeCnSdc9v7jKgF/LVkjgq5e//w0/oyr/vxY/podRVgJB1uH/DhYkqqgSPwoAQIpdmiWqCCRzZORhRdcLEMqjo6S08ijTQFWUK689KqWxnurhg+kykZcTaloIKKloK8r0chDlanoGlTLAB2lpNSOzNt1W9M9ezijNjDxWdO3UpehXLCvNMCA17vcvjt02u8KkLa5YZbNNdlhphbUVFLfNxGKnjUbt2JG+qNBVJ10U+imu20dnFkNxtid1bt4f0l/xPmxj1351WwSJyHZzK0lEqrB9zdqVG1Z0tFYAAA==");
 
 export default ShieldPlus;

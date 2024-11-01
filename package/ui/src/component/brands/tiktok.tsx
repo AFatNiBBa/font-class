@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tiktok` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tiktok?s=brands tiktok}
  * @preview ![tiktok](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/tiktok.svg)
  */
-const Tiktok: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
-    </Icon>
-);
+const Tiktok = createIcon("tiktok", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABXgAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBKQsGAAE2AiQDCAQgBYMtBy0bpgTIrgLsluYQzzQs2i06nM329hyTGUOeNxrVePja7/XcfRtAcIlCFBbHR0Wy/jrosAhKoRGZ2gqJB5e767ONY13fWIP6t2gN24uyMKKwQLK87XFA/f2p72WDJd9yEQgFLJvGtG8cXNY1aS2c1IL06m2A//qFjnGmwzI4nk+04KfJu/z0N/+8aVGAjyTFsbDzKBtLoz04gcS6fJJkYRaof5Zv7ewkBtGv0qdcksVg0Q+bDXI8iVIZ6T69gOvy0PiF2IOkrAAQjQDA+m4+B5cvPkb8+L8C8YMJBMQGwCBEgQK9ECxhBHoJDQJZFjzi/8J/oAoCiHLy8xPIKLAIrAKQQRI5T46vyzs1fPXemQNL47PYTV9nzmzHu0weOPh+tKeooERqc986VLfIRk2U2hBfzY/D2lE++Rle9AWXf5aeYOrLdr9H8Nd2h3XMsc1u6ftR5MePBtvu7U0yFaJu8HpWHwAEguFnn2ohMy4tgZ/7/u5iz3hNn1EpgaAYjxpxJTij8HA1TrF4USCZJCB3rXUDAUI1AiTlqgUo9JBDkFUbg6BMvzAE5aptYkSuElo1G0hqHYDCjB3IWp1BmSVXrVxrsMbDPj37d0viNcTNkTw+StDQVzl7oFM/SdMyNjFnxyp0TE2stLX0rRS5kDPXxnhGcD5E/Dx8SAItR/fLJW0LS31TkzwlifYrNhtebQd/QeoJNyTJe1L58f5wNR0CAA==");
 
 export default Tiktok;

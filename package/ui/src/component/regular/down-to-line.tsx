@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-to-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-to-line?s=regular down-to-line}
  * @preview ![down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/down-to-line.svg)
  */
-const DownToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M82.2 224L192 334 301.8 224 248 224c-13.3 0-24-10.7-24-24l0-120-64 0 0 120c0 13.3-10.7 24-24 24l-53.8 0zM192 384c-11.5 0-22.5-4.6-30.6-12.7L45.6 255.2C36.9 246.5 32 234.7 32 222.4C32 196.8 52.8 176 78.4 176l33.6 0 0-96c0-26.5 21.5-48 48-48l64 0c26.5 0 48 21.5 48 48l0 96 33.6 0c25.6 0 46.4 20.8 46.4 46.4c0 12.3-4.9 24.1-13.6 32.8L222.6 371.3c-8.1 8.1-19.1 12.7-30.6 12.7zM24 432l336 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 480c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const DownToLine = createIcon("down-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABagAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBXQsGAAE2AiQDCAQgBYMtBzMb4AQRlZL9ZB+JcUzkKmZmfkQTL/Hwz1xv9yWZfwoAKQCDYlZsgVQdToUr2y6oXTsB8D+X0xvPjw7w0y2CQxsLl266xsRozucJBFi0B5UGHliaoKXbRII8otjTESKBItHx5fF1hiwOxAUFkptJEefHh8Yf9Z0kUUgBRDUADJszY5J3P+NnxOfSC/HZBATEMJALpEjRSICBUoFGMjkymeBnlEr1PzAXQJTBOxOQoYCpWAjIQCLNspptqlQsVM5mVyxUmDNr9qw5USEeNgjaT9xoWWHWqTqz41ocq3u9YsWIuF2QNpQHta/WF5MdrTUzrlSYWblS5Qf1o3qls0232zR/Wu3p382Kq4um/diEF+ltWu29htqr9rTem+7XKG7f4Wutml+/1GxuqfTL165DdVXT0qWay4tfa9b8ZkbFGo+6TEXetNq1p001nwcCwc9hLYYsqTrwv3IVE/D77b//8+Oln3E0eYpyEhCkHUsdF8ZRIG4APymJ3ZrHUQQSY6WwqZJrAoQKCCTKVIBUQ9UgU0EHKGii1+YyFcyQiqy8UMsigUQl2yDV2yHI1PIMCgZ6Hy9TK9K0kpJC+tWly9EaHzUu79a5a94/N4uWnClCGx6Qh422u7mpHS20esvmnatWrtupyO2TUrs2jfaIUV/Mu3XumvfPjyvvs2ev2r5j3ZbNfZQB+X2n7W6/czuyE+DtXpBIiKTSSws77dzS6eUBAA==");
 
 export default DownToLine;

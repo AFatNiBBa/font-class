@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-showers` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-showers?s=sharp-duotone-solid cloud-showers}
  * @preview ![cloud-showers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-showers.svg)
  */
-const CloudShowers: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M88 352l0 24 0 80 0 24 48 0 0-24 0-80 0-24-48 0zm96 32l0 24 0 80 0 24 48 0 0-24 0-80 0-24-48 0zm96-32l0 24 0 80 0 24 48 0 0-24 0-80 0-24-48 0zm96 32l0 24 0 80 0 24 48 0 0-24 0-80 0-24-48 0z" />
-        <path d="M0 320l96 0 320 0 96 0 0-96c0-53-43-96-96-96l0-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28C256.5 24.3 219.1 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 96z" />
-    </Icon>
-);
+const CloudShowers = createIcon("cloud-showers", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABfwAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCFwsIAAE2AiQDCgQgBYMtB1YbPwXIjsO44TuyxVL+4+H/1/63z535gvt8xC2ZSRPrkNxeBU80T0TSX0Szyqsv5onLnf/50/uY5I+2h75v8DVagxJIYHvexXFCmWZg7c52yCFrh5I0iyU5Pjs+5fCAPD5kp1SQLqQ4jf8DGF+0cYqkTgYgGgNg0uL5M72sjdoU78uPiPdmICAmg0IgQ4b2AoyVCbSXK5DLBbWpXKY2yuWCAKISvi4DlajCThwE5CAJeZ7XNKGwXkWDfFE6VTfq1W0UcbV3abijPep5sXupLny/vbh9srXFghD1gtbWXdg0VN/XudS49K3mpo6tWWON6lLpWGOxaGPjOds+XjtT8/PH/0YtPW9V1WiNxatbt249R2sDtZb3vrqTeB4IBJtffJyn0dh/1fUS+PTix2f4ISm/TFIJ1RIIsr7lvlYkkAgAQIpDOidYIpCZKkefWt9ZAUJdBEgq1RUg005jAXJ19RGgQkfDBKhU13yZyOsIza2sRFLfXiIz3GEi19xDosJYr+JKzSMzOt5k+DtfynQOTDtWDOo/sBhdDHNFsCM2LI8ppp2eh3yvF9y1yW67HLDRBlsdYNA+M7ODdpqugdN8UWGQ/gYqjFYsV8vri2y0z35b7bYrHjJGsT/o6ZA+uRf4CTEOdiaTESmyFt8P6v1e5gT79vc7wCOtOtJhBQ==");
 
 export default CloudShowers;

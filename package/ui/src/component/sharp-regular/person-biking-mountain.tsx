@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-biking-mountain` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-biking-mountain?s=sharp-regular person-biking-mountain}
  * @preview ![person-biking-mountain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-biking-mountain.svg)
  */
-const PersonBikingMountain: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm-24.5 59.2l13.4 8.5L423 168l57 0 24 0 0 48-24 0-64 0-7 0-5.9-3.8-74.6-47.5-59 40.6c-10 6.9-9 22 1.9 27.5l67.4 33.7 13.3 6.6 0 14.8 0 128 0 24-48 0 0-24 0-113.2-54.1-27c-43.6-21.8-47.8-82.4-7.6-110l72.1-49.6 13.1-9zM96 256l64 0 0 20.6c7.4 2.2 14.6 5.2 21.3 8.8l14.6-14.6 45.3 45.3-14.6 14.6c3.6 6.7 6.6 13.8 8.8 21.3l20.6 0 0 64-20.6 0c-2.2 7.4-5.2 14.6-8.8 21.3l14.6 14.6-45.3 45.3-14.6-14.6c-6.7 3.6-13.8 6.6-21.3 8.8l0 20.6-64 0 0-20.6c-7.4-2.2-14.6-5.2-21.3-8.8L60.1 497.1 14.9 451.9l14.6-14.6c-3.6-6.7-6.6-13.8-8.8-21.3L0 416l0-64 20.6 0c2.2-7.4 5.2-14.6 8.8-21.3L14.9 316.1l45.3-45.3 14.6 14.6c6.7-3.6 13.8-6.6 21.3-8.8L96 256zm96 128A64 64 0 1 0 64 384a64 64 0 1 0 128 0zM544 256l0 20.6c7.4 2.2 14.6 5.2 21.3 8.8l14.6-14.6 45.3 45.3-14.6 14.6c3.6 6.7 6.6 13.8 8.8 21.3l20.6 0 0 64-20.6 0c-2.2 7.4-5.2 14.6-8.8 21.3l14.6 14.6-45.3 45.3-14.6-14.6c-6.7 3.6-13.8 6.6-21.3 8.8l0 20.6-64 0 0-20.6c-7.4-2.2-14.6-5.2-21.3-8.8l-14.6 14.6-45.3-45.3 14.6-14.6c-3.6-6.7-6.6-13.8-8.8-21.3L384 416l0-64 20.6 0c2.2-7.4 5.2-14.6 8.8-21.3l-14.6-14.6 45.3-45.3 14.6 14.6c6.7-3.6 13.8-6.6 21.3-8.8l0-20.6 64 0zM512 448a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM176 176L112 96 213.3 20 256 20l48 60L176 176z" />
-    </Icon>
-);
+const PersonBikingMountain = createIcon("person-biking-mountain", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABxgAAAKtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyEHQsGAAE2AiQDCAQgBYMtBz0bKgbIBp7v877OfclvJA3lN5SWNLJXoJeA11OzArTi9Pfu/FtrAD6OIMxkTxoT1xjnBR5g1kVjbJAPlnWeIGRtjvPBBjW+ISLiEPwifhg/h6U50OW3rMYBaot6AKxaYSUfCGYJKBwaAADiAwAAVHXv3MaVp/JU5P7/kyD3aQEEQKoAsBFAgyiM8FAqEvbUsQFd/AWeyv//+T/QBgEAcUERilE64A58AP5C3w8UrrrumVHlWS5pmg5PvZvpMIZvSzgUdyB4c+z++IMhmZbT6iqmiRiGU7pJq6y3FlStJQBviEzYLOcidqZ0l8AupmEiG6xAKZOAQ2SOPdcHWFIqTrBve250Bki5BIJJkaZsCnRKhVj4oaTrzuSjiYfDdiQdSTkWORjB565idjmdciz5aP6JxMNJR/KGdevarbuYUiVdoo/6HP0U9WDYA/qvMsbNnj3OqPJZd/QNHXMoCsokqKEzTekcYqqb25SaKG7izQKCyCSIifRC+UY9bMji0Zv1lbqXxd71n3jAY5qSLSqxSG56zAM+sX4vsy0an+kZ13++9vzbt+faTqeuLMtyyl/iIi9npkdGpmeKpb13RfvtlUNaSOE38/sDgAACc2YufdPfu/SXm6kAeH7uyxfaxv+vqAXqKOCGAkBAS/2fSh+1ACBRCgDYlEwj2vggARQvcEXh6sFGBADBAAQAhQsGAoBGKD4IADoGKQgADiLIQwBwwaAzGqK7IwTQ9wIKDyYCjXzmAp0AjgMHpdy2uhAgWtizg5b915mgnqG6XnZWeqZdbA/TTk4kM0t7if1YkThtKUvCUIYxnnFMYShDGMkUIk+izTGVsdRb2Dq+iE0W6WRiU4z9Onc/uBtDmcRkRjKeca2TEmx/fSLT7NpJUCuUajZxCgWinLNEkzZo5CckTZtFAA==");
 
 export default PersonBikingMountain;

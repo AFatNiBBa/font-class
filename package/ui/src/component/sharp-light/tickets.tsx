@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tickets` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tickets?s=sharp-light tickets}
  * @preview ![tickets](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tickets.svg)
  */
-const Tickets: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M96 64l0-32 32 0 480 0 32 0 0 32 0 72 0 32c-22.1 0-40 17.9-40 40s17.9 40 40 40l0 32 0 72 0 32-32 0-480 0-32 0 0-32 0-72 0-32c22.1 0 40-17.9 40-40s-17.9-40-40-40l0-32 0-72zm32 79.5c23.7 11.8 40 36.2 40 64.5s-16.3 52.7-40 64.5l0 79.5 480 0 0-79.5c-23.7-11.8-40-36.2-40-64.5s16.3-52.7 40-64.5L608 64 128 64l0 79.5zM32 96l0 16 0 336 496 0 16 0 0 32-16 0L16 480 0 480l0-16L0 112 0 96l32 0zm224 64l0 96 224 0 0-96-224 0zm-32-32l32 0 224 0 32 0 0 32 0 96 0 32-32 0-224 0-32 0 0-32 0-96 0-32z" />
-    </Icon>
-);
+const Tickets = createIcon("tickets", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdwAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCJgsGAAE2AiQDCAQgBYMtBy4bJAXIjtEnJ4TLM5cHCCJ48fz3975rn3t/T6lWx0PhdJFgxGKNOwc4pAGvGIFnD/v7fs6DeHYToCS6QW2r1N9GKG1zCTeUhRL+HzmVm1KpVMBLrXjRzsOnV/t37olPYIAbffw0gelwNlGc76630hTRu0pLjHC4rX+4/Qv0/CQCUqh30RN4Kx+af06rFEkDAFkDAFxcVZXgRogQehrOyKciECCXAA4QaKCBHQQ4JkZghwSDToLgm/4P/B/IEICMgXcrQAcTcANuAXRAkXZJpMWsNKqlWkmtWqpqItBCD0Lo0bKOh+0NNQihuY5AX7Nv0ZJtU0X0mivvfgpomc5f+47SiTSEWkQUrXoZEKeoa0DUHKrC1CrtJVCzPThgCDwHPfU+abtnnAPLx4wf10bj9bFRdBps3i+r9HiqyiCgTFWFKssJ5dfRBoPBfTMwfDHaGfBXdjvIgnbCf85GO8bi64CAwN+YStGmz/hWqEUAfq9f37mnB6EWRQEwJQIE2uH/CM21CDA1AH5lFsHKFwWUUVI4u2RTAKECDS0yKrRxM6CdSjg64pPIbp6pIkZdCWLRglARjQlULMkcKmFxgkpluPVkLBHbHm85/J9fSq4Ec9ZxbFQMp/G0qQrmxKbldN5WQ2bDUCgdRK8xo6b16DZgWiCTSsIZI3I1OMcPsVhRYrA0fNy5312rx6QpA8aM5lXS8XszxKw+OZQMETAeqSkiSMm/QwA=");
 
 export default Tickets;

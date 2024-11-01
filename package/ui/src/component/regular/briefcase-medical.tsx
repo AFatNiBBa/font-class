@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `briefcase-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/briefcase-medical?s=regular briefcase-medical}
  * @preview ![briefcase-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/briefcase-medical.svg)
  */
-const BriefcaseMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zm24 88l208 0 88 0c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l88 0zm72 64l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const BriefcaseMedical = createIcon("briefcase-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhQAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCMgsGAAE2AiQDCAQgBYMtBzgbOgXIjtMNd2QX5RoP/78mdt+fSdpOyjAlIgWMCsgTKSJJC+iAhcxZi2pXNg3JfAR24pr6cf4UpUn8KFGr0rT2qNIJDPBtNx+WUBTYTCdg253NwiHa45CGLC3Ht3JcDpDHF0GFdD+Fq+VD409dXCGpZACiNQBmr1mx3Lf1qEf81HhP/GQpAmI2KAUyZOguwDSZQHe5ErlcUI9GI/wHlgQQVfQECeSo4iwuA3KQ5Hnecki7IbVKi3x1rVJsqBW12x1EERF3O80Ting66GXnFPcHv+rfIl4MfdMtiwdDXg8oIuJBxzsu9bT9rc6rNECL4hS32jePOx0zXbi2ystDQCwjtajM3U4R1J2ORaiifZ/XrV//3fvn3fnkKrJ9dZCHBqluPTOICmd52KZNQYGLDy/0Y2YZpMm/H49y9OO/TTqt+f33QfWWtKxfkJNrN3MUKgwsxaOM0rJerhllvhwIBKdGVbZvaTXtv6a1BP74/N//8WekUU/SazSVQJANawyzMYFEAABSnNYnQSA5JYfX2twdAUKBAElVIUCmm9YC5ApDBajoabwAVYUVMpE3E9rb1NmkuWNsZoKzbK69t2zFNN9lqtpHZoG6/ej/v5wLODx/Wzl6xKhySrltaIZRqWlxankcHHQ6DgyGvXY74rCTdtlpn5MMPW55/pRDFkjIfF9UGm2EUUpTlOr28+7VdjnuhH2OOJw3maq8Hx3ktDx+MEQSkhyjLElEavPAVIP1Dn+RAAAA");
 
 export default BriefcaseMedical;

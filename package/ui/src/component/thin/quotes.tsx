@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `quotes` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quotes?s=thin quotes}
  * @preview ![quotes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/quotes.svg)
  */
-const Quotes: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 80C0 35.8 35.8 0 80 0l8 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-8 0C44.7 16 16 44.7 16 80l0 28.2C24.5 100.6 35.7 96 48 96l32 0c26.5 0 48 21.5 48 48l0 32c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-16 0-16L0 80zm16 64l0 16 0 16c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32zM160 80c0-44.2 35.8-80 80-80l8 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-8 0c-35.3 0-64 28.7-64 64l0 28.2c8.5-7.6 19.7-12.2 32-12.2l32 0c26.5 0 48 21.5 48 48l0 32c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-16 0-16 0-64zm16 80l0 16c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32l0 16zM576 432c0 44.2-35.8 80-80 80l-8 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l8 0c35.3 0 64-28.7 64-64l0-28.2c-8.5 7.6-19.7 12.2-32 12.2l-32 0c-26.5 0-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 16 0 16 0 64zm-16-64l0-16 0-16c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32zM416 432c0 44.2-35.8 80-80 80l-8 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l8 0c35.3 0 64-28.7 64-64l0-28.2c-8.5 7.6-19.7 12.2-32 12.2l-32 0c-26.5 0-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 16 0 16 0 64zm-16-80l0-16c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-16z" />
-    </Icon>
-);
+const Quotes = createIcon("quotes", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAAB6QAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWiFGgsGAAE2AiQDCAQgBYMtBy0blwbIjsQ4JvKLKOwiHr63+Xru2/0aeWWQidfM2AFBGMp0qdyFiwqozaRMrQ6pfdc3dapmUOIBfA5oPGhj09JoOjaOsahU7HkvgO2mNWiD1mr1AkDBtIPzJhxkZyjfQR6/2quJ9Gb6GY+sN41/dXadJMsARB0AszasWeb1X/FXxM8NiZ8tQUDMBqVAhgzdBJgqE+gmVyKXC/6KRoP9B5YEEBUOnizLURDDifHUh5FU83x4t+FdbXetqUW+nt6zyN4fEvH1hFq8aP+8XRGfDPyik3hVq8Wn7V90Fm+0e963iM86vOwSTnQvQVxu/6Lz+93r+CoirnR4WRRxt91zG1aB1xXADrbvnYERX4wt4mWHVx1r8fmQr7tGPC8m2m93fDVgQQdC72BWhNm6tatA6wthT47eX9W/+o+f9//sZKxnX71qZ6Wys+qD1q2Lbn5qWxr52y9ZKfvlt5F5ZF3dzEbdcazl7dsty7B7j2Ysg7VaUQD5OfVHrU50ORAIRr58sWdHq6n/V2sJ/PNtx+drvE4z01eoSiDIhjaG2ppmAiMH4EtxXu8eNUp99VflvGpzLwUIBQIkFYUAma7qAuQKQwRo0sM4ASoKa2Qibya0s80ASXOnQGa8CyDXzjegyVTfeSvaRfbUcNc898+aPL+MzhtUjho+spxcdmak/IPA6M4p5Wht4HleMQgutN8Jx521z16HnC0Rpy0LnHPM/D7qvM+WRhlupNJk5ez89dnr7XPaGYeccNzsZYpyfWug8/31B0EzcWhHS0gSkSofAwAAAA==");
 
 export default Quotes;

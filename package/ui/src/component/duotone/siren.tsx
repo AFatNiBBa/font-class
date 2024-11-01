@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `siren` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/siren?s=duotone siren}
  * @preview ![siren](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/siren.svg)
  */
-const Siren: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M48 352L73 152.1C77 120 104.2 96 136.5 96l175 0c32.3 0 59.5 24 63.5 56.1L400 352l-261.9 0 21.8-174c1.1-8.8-5.1-16.8-13.9-17.9s-16.8 5.1-17.9 13.9L105.9 352 48 352z" />
-        <path d="M32 352c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L32 352z" />
-    </Icon>
-);
+const Siren = createIcon("siren", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABZgAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBOAsIAAE2AiQDCgQgBYMtB0Yb0ATIrgdsYzjWH2LUihZpDDPsbna43Gj49tDTx5CNoFr7t2d37z4QK+IAOnIovwvIeJRAjoQlYaJe+agI9So2FRl9//84/97JeemdJRBtSWhGg9oqlLcvhfKbEZUrLhnp0C+ArwfmDgBwwJgUJ8oZQjif/+C0/3NNv3t+dICfzzX7eWOBRy3q+QT2PDUTaDzh6Qxtu7O1mkOtXNJaMJLfMcfpCiVu8kpF+pL+8YH/BzD+mrJK0pUBIAYBgCv3ohH4bGun+G8ifrkJBMRVgEWIjIxZCM6jCsyiWQSKIminBu1oLIIAogb+8AxqFFwArgFQQBKi0MQz3IpPS/RUnORrGBvixdi2h4/riX0gzsd33bzkvVjy3E0PF9drl6m4Xkw2ydljY7olXwfv/3m/hdO95OW8kCRkJkiwffqvtOTYwtSLyQXhMbxdbeyHgd8Dm2NvzgIIBE8+3jn/P6UA/Pn5yy83a6Wv6JRAkDeayUULiBjAr0kxIokWdiCyGRRwV6+PBQjdICS1bshmiKDotg6VeabdtW63UEVhQxiVF0h6PYbsyBiKUR9QOe8rrI1G9iLWB9g/XFJYo6FJRKfWEjsZpgrnGHQcdZBlSzoKLTJYCSVtLQNFBVUDhfdEkqGmsIWFfBGho6ZF2JHt4lpKYNjTV+0L++M4kPO21MjuLoPpUAB7978jEwmp/P6jXrGleoyqUAmPDgA=");
 
 export default Siren;

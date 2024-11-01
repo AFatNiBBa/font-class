@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `walker` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/walker?s=sharp-thin walker}
  * @preview ![walker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/walker.svg)
  */
-const Walker: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M129.7 0L136 0 392 0l8 0 0 8 0 408c26.5 0 48 21.5 48 48s-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3L384 208 95.1 208 23.8 497.9l-1.9 7.8L6.3 501.9l1.9-7.8 120-488L129.7 0zM99 192l285 0 0-176L142.3 16 99 192zM400 496a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Walker = createIcon("walker", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZgAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBTAsGAAE2AiQDCAQgBYMtBy0byQTIjoTcROtfxM3SIh6et+vr3FfVNYDqD4VMwlIRka2zdbQhxLDzq/Z9+pt/3nkU4LPIQhsLlwayQKI5zxNIbNhYmmfLwuyL4ve9xZux+HrXZKJJOtze4doMeTxgvQrpvvQBbukvjZ+1cZ4kywBEYwBMWrFknre+iC8i3q9GvG8OAmISKAUyZGgvwFiZQHu5Erlc8EVUq/YfWBJAFLBvAjkqmIXFgBwkWZ53q9OsXqVBvjyfu+6aenUbiBSPtrirzb3N7+z6WMu72z7SI6J+rIzm0TJaxZpotbRB/QYRdWPphmutIu6JMy3vrnu1+Z1Ot7irXuenGj/1a80HGz9w5s2iaFjbvQZ+8mGWffjJQO3Z+OOP1Jheo5W/tXLoey06vtkBLS/4S+/n+w5oeJnLDavJ0EBsWtPm6P8ajf23dr0Evnrln/W4ovpWvJWeQm0JBFnfal9r4y0F8ZYAAKQ4qHPwoUAySQZPre9uAUJdBEgKdQXItNNYgFxdfQSo6GiYAIW6lshEXkdobt0ESX17QGa4EyDX3MugYqy3lULzyOhEkoH8zMVN99C0unJQ/4Hl6HJrGhRD8FIeUx7zPQ+mUC/ptNEuO+23wXpb7HfIXvP0A3aYHsHT/FBpkP4GKo1WXjuvzcttsNc+W+yys1UZo3wv93QwTu4lUgLMwQxJIlJBdGHDXg==");
 
 export default Walker;

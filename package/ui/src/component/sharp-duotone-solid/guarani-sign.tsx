@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `guarani-sign` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/guarani-sign?s=sharp-duotone-solid guarani-sign}
  * @preview ![guarani-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/guarani-sign.svg)
  */
-const GuaraniSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M160 0l64 0 0 66.7c-5.2-.9-10.5-1.5-15.8-2c-2.7-.2-5.4-.4-8.1-.5c-1.3-.1-2.7-.1-4.1-.1s-2.7 0-4.1 0c-10.9 0-21.6 .9-32 2.7L160 0zm0 132c5.1-1.3 10.3-2.3 15.7-3c2.7-.3 5.4-.6 8.1-.8c1.4-.1 2.7-.2 4.1-.2s2.7-.1 4.1-.1c11.1 0 21.8 1.4 32 4l0 92 0 64 0 92c-5.1 1.3-10.4 2.3-15.7 3c-2.7 .3-5.4 .6-8.1 .8c-1.4 .1-2.7 .2-4.1 .2s-2.7 .1-4.1 .1c-11 0-21.8-1.4-32-4L160 132zm0 313.3c5.2 .9 10.5 1.5 15.8 2c2.7 .2 5.4 .4 8.1 .5c1.3 .1 2.7 .1 4.1 .1s2.7 0 4.1 0c10.9 0 21.6-.9 32-2.7l0 66.7-64 0 0-66.7z" />
-        <path d="M192 128c-70.7 0-128 57.3-128 128s57.3 128 128 128c59.6 0 109.8-40.8 124-96l-92 0 0-64 128 0 32 0 0 32c0 106-86 192-192 192S0 362 0 256S86 64 192 64c52.3 0 99.8 21 134.4 54.9l-44.8 45.7C258.5 141.9 226.9 128 192 128z" />
-    </Icon>
-);
+const GuaraniSign = createIcon("guarani-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiwAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCLQsIAAE2AiQDCgQgBYMtB1QbUwXIHgl2LOSvYDGQFg//P1d1X36qTncyDBlgVMiOQQEqhFUgt+0Ckx1wS6Ar//HNKudr4pr+b1UezS/4aBVb60AKvIMnMMBo3/lsXkIznYHNbyfvDCSlt0m6/Ppk2NywyQ3yOJkuqpE9lX2B6+F/AONX3V0k05wARDsAzFu/eql3HsbDLL5ovEB8YQkCYj6oBBISegkwUxLoJVchlwseZg08jIaKAKIOUJKq6+c9gQuAHGRCyvNh7Qe2K2ut83Vlrdj8wcyIN6pnZ7256OUZr/ctIqIsxQ8rvlnz06rv1v28+vv1P66cGW8t3lwWpbhX3CsumX2dwv2ul7uei8ulojoLw51Olzqdi0sF1yWyuyVw+b5dRRHRv6Vdy+/9vugLb89ZsYCJtdrEBSu+ae7x3BZzna0qsXLt2pWOiLVrnbxpeax504QVnn57LvQLHG4am2cb2v2z4OLhQ/lYKAzk2z9ZX7JFOb/ZB5lrARAIxv71w1/bzvy/qczA49f+/EX8HTXeibNZC5pkIEgjGyNtibMQZwUAIIsT+sdZPCOQLJLgU1u5J0AoECBTVwiQ9NROgFxhhAA1fUwSoK6wWhJ5s9DJ1ixnWjksJ5OdknOdPC/XzPRxua5TJPlzpMd5/hUu5uCiddW40WOr6VW3LrkiZfn5GdV0bugJ2zeMrtrhoAOO2W6b3Y4x9oilteP2WzzCF/miyjijjVWZrtpuXYbrWPmIo3a3/f1VZqjOl4Y6MR49jIoZmI53JklEFqnT34n87lG3NzVKlAe7VPxrCw==");
 
 export default GuaraniSign;

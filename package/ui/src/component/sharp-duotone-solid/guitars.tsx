@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `guitars` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/guitars?s=sharp-duotone-solid guitars}
  * @preview ![guitars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/guitars.svg)
  */
-const Guitars: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 408c0 57.4 57.3 104 128 104c41.3 0 77.9-15.9 101.4-40.5c-3.5-10.5-5.4-21.7-5.4-33.3c0-20.9 6.2-40.2 15-56.5c2.3-4.3 4.7-9 7-13.9c-3.9-7.6-8.9-14.7-14.8-21.3c-10.3-11.4-11.1-30.4-2.9-43.4C235.8 291.3 240 278 240 264c0-42.1-37.7-77.3-88-86l0 94c9.7 7.3 16 18.9 16 32c0 22.1-17.9 40-40 40s-40-17.9-40-40c0-13.1 6.3-24.7 16-32l0-94c-50.3 8.6-88 43.8-88 86c0 14 4.2 27.3 11.6 39.1c8.2 13 7.5 32-2.9 43.4C9.2 363.7 0 385 0 408zm256 30.2c0 40.8 33 73.8 73.8 73.8l108.4 0c40.8 0 73.8-33 73.8-73.8c0-14.5-4.3-28.6-11.2-41.3C489 374.9 472 337.5 472 304c0-9.8 1.5-18 3.6-24.8c1.2-3.9 2.6-7.9 3.9-11.8c4.2-12.4 8.5-25 8.5-37.8l0-37.5-32 0s0 39.6-48 46.9c-4.8 .7-10.1 1.1-16 1.1l-16 0c-5.9 0-11.2-.5-16-1.5c-48-9.7-48-62.5-48-62.5l-32 0 0 53.5c0 12.9 4.3 25.4 8.5 37.8c1.4 4 2.7 7.9 3.9 11.8c2.1 6.8 3.6 15.1 3.6 24.8c0 33.5-17 70.9-28.8 92.9c-6.9 12.7-11.2 26.9-11.2 41.3zM336 304l16 0 64 0 16 0 0 32-16 0-64 0-16 0 0-32zm0 64l16 0 64 0 16 0 0 32-16 0-64 0-16 0 0-32z" />
-        <path d="M80 0l24 0 48 0 24 0 0 24 0 56 0 5.7-2.5 5.1L152 133.7 152 272c-6.7-5-15-8-24-8s-17.3 3-24 8l0-138.3L82.5 90.7 80 85.7 80 80l0-56L80 0zM328 112L352 0l32 0c22.1 0 40 17.9 40 40l0 4.4c0 12.4-6.4 23.3-16 29.7l0 164.7c-4.8 .7-10.1 1.1-16 1.1l-16 0c-5.9 0-11.2-.5-16-1.5l0-89.9L328 112zm24 192l64 0 16 0 0 32-16 0-64 0-16 0 0-32 16 0zm0 64l64 0 16 0 0 32-16 0-64 0-16 0 0-32 16 0z" />
-    </Icon>
-);
+const Guitars = createIcon("guitars", true, "data:font/woff2;base64,d09GMgABAAAAAANoAAoAAAAAByQAAAMcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEiECAsIAAE2AiQDCgQgBYMtB0obJAbIPgzwZJjXK2CtNbSqDUWQQGPolNrVTnifsME/5d/Xud393wDqAbBiJCnaTFBEZY6cTk22Ujz+w7p6f2YFJPqkJJbAJiRI6eqF4hI2tUGQ3X69yMlKMOFUcyirhn47pMhMXV3QJALbW7LQAlfH//9/P49/oAS84t8/Urc9kAV4JqbAAKOxKBqHAxzqDGxT855as7uv7wCc3rKr4IM5wvwD7HL/A6ivMFsPGCIsAACKBwAA+owdOZhnDWow9IYL9AbdgADUFwCeAAtYIJsA6M4iIJvDA4dD0M5waSduAwGAAtznWQACIBLoAPgBAOAAMDicc3kZUVGt/cTiqFCMGyPlR06USqIQQsmqEjoo2daRapSqcMLowVFjo2ib/hDosA7aL5Foq4FUM3oKV+hSFOIhOpEj3W/5Gkc6tx6nHaUe6ch4rrPIWwt0wLyYfBC5XR13biTdCr2kL2Ycsm2SX7L7T8OkK36pLkXfs5YyzyJ8Ke147pLOraRIHTCdNK3rP6XOuEEidMS8FHWoP+TEhGIGd2ATv7bgavzbd/771/fUZJpmQpuAZBPYimOF4tA2OikS0Cb9b0THuZBwHqh52M+PpiJUREwf5p+9q8M84nnFTJ+irHrAoGG/7UtUfkoHJm7Oy6XjP/TKtbNzpvCVVT+4pl7oTezXCcxZszZOf328VDZvwXCU/UDTC79SGs7u3twUK7tYK8F0E8BL2NOlG584bebklc0mTwszHUoJdYmL2Ly5c2foW1Opph3Brsa3AwABgpR1sjypLP4nNQB0fN7JDwmdMzBXAcIxAAhsVSdMMgAwIAAAAMBoDQoShgECLNvBI6BoDk5Oi0jIwBAQCZYs8eCIpBJC5GrmB2ojB+FyESjZZASGaJaDpcU6cCS7CSG6e54ISA57tovnqvivmTawiA0Y5WM1db6rb81IpBOY153d/GAvtIZXlMONzGEpS1jFbGYxn1UFegWD06tZzMAu5oDvevVq1PG68pPzV7UxhcQKVjK/2Wb6MN345VGZNd31y2FoCKwN5lgsyMjGfQ2ildVPjZ1QVB4PAAA=");
 
 export default Guitars;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-person-return` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-person-return?s=light house-person-return}
  * @preview ![house-person-return](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/house-person-return.svg)
  */
-const HousePersonReturn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M250.4 3.9c-6-5.1-14.8-5.1-20.8 0l-224 192c-6.7 5.8-7.5 15.9-1.7 22.6s15.9 7.5 22.6 1.7L64 187.9 64 352c0 35.3 28.7 64 64 64l220.6 0 9.1-32-5.8 0-32 0-192 0c-17.7 0-32-14.3-32-32l0-191.5L240 37.1 367.9 146.7c5.8-9.1 12.6-17.4 20.4-24.7L250.4 3.9zM192 192l64 0 0 64-64 0 0-64zm-8-32c-13.3 0-24 10.7-24 24l0 80c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24l-80 0zM464 56a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm-80 0a56 56 0 1 0 112 0A56 56 0 1 0 384 56zM522.4 172.3l12.7 6.9c27.5 15 47.4 40.8 55 71.2l2.4 9.6c2.1 8.6 10.8 13.8 19.4 11.6s13.8-10.8 11.6-19.4l-2.4-9.5c-9.8-39-35.4-72.2-70.7-91.5l-12.7-6.9c-19.4-10.6-41.2-16.2-63.4-16.2c-36.9 0-69.7 23.6-81.4 58.7l-17.1 51.4c-3.4 10.1-10 18.8-18.9 24.8l-29.7 19.8c-7.4 4.9-9.3 14.8-4.4 22.2s14.8 9.3 22.2 4.4l29.7-19.8c14.8-9.9 25.9-24.4 31.5-41.3l8.8-26.4L452.7 331l-43.6 37.8c-4.7 4.1-8.1 9.4-9.8 15.4L368.6 491.6c-2.4 8.5 2.5 17.4 11 19.8s17.4-2.5 19.8-11L430.1 393l100.6-87.2c14.4-12.5 20.1-32.4 14.4-50.6l-26.6-85c1.3 .6 2.6 1.3 3.9 2zm-7.9 92.5c1.9 6.1 0 12.7-4.8 16.9l-30.9 26.8-45-130c10-11.5 24.7-18.4 40.6-18.4c2.5 0 5 .1 7.5 .3l32.7 104.5zm6.4 88.9c-7.9 4-11.1 13.6-7.2 21.5l30.8 61.7c1.5 3.1 3.6 5.9 6 8.3l62.2 62.2c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-62.2-62.2-30.8-61.7c-4-7.9-13.6-11.1-21.5-7.2z" />
-    </Icon>
-);
+const HousePersonReturn = createIcon("house-person-return", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABtAAAALrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDQgsGAAE2AiQDCAQgBYMtBzobzAVRlO5FjezHgm27gvUTgqomVA6Y3CN43q7v69zuNwuoF7A+mDESUlGZPVdruwW/R9yrZ5pLiAzTaVZfkGYeIikxhERbQJ3tmv9r6kXZ0QF+o0OJRSW2zbp5vOcTvHkDduFsorjBeYMPKpQhpI8hj3+imwrStellXBl+aHyjiXMkeQYgagNg9MK50z3+eXwe8XL5HuJlUxEQY0AhkCFDcwGGyQSayxXI5YLPo1xm/4EFAURJ/DQJ5KiKh/E6IAdJ5TxvV6V2lSlxTqKsxhVzqgQXt+j65SDVlDYZKK71X90EGAPjhYaGgBpUgNFW51XDBIqqAIabdSiuXRc/GwE2HjxatTsZtt6jHs9QRy/HjCcXEq00oMEDZnVQWkajiV0+c53wJUvRWJAq3zfGYBwLG6MCqQlaVtWQ826oHg+rpzCP2sO1wa13SSTG+ZU1VXxOU7hrqcVIBK1y3Cm7/Vu/vOFlf30183vMnZdeLz03q1qnzvVfVyp9XvOimeQxdOVRJ7e7/M75ZPC5WIWGTs5uIGSbpTI2SnCRoBKt9f583lLuvHj8bHxctz3qR8O/8P92y07+3XGvz9o0X7nykmTl82+5fdslz75p5cUXa7/NPdZ3arFV97ffnN5yi3ULzDveZB61KS1rsuEr3U77cVeKd1Vsqlj03LLv1O/ziTvuuO66T3zn2DNAILixygd3rqw17LfK1RL48sEffqsWLP9TfiidT3eisgSCrFu5m2Xp1Ab0Tx8BRVIc0AZ+k0Byt8rgtVZ3lQChKgIkJVUFyDRTW4BcVV0FqNBSfwFKqporE3kVob7lHUiq2w0yAxwHufruAhWGeS5SUj8ynSzVh9L/yFQThuj4YUXvHr2KIcVqTiPTnILXO7Q4bOp0gNd0hiNtsNMO+6y3zmb7Bswe0+P7bTdhix7vhwq99dBLYYjicvGpagF27bGXC8uy64MYqnje18mB7eadoTWJWftIShKR6ulybXe9r+3u1gAAAAA=");
 
 export default HousePersonReturn;

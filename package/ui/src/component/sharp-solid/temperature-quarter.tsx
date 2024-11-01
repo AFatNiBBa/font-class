@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-quarter` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-quarter?s=sharp-solid temperature-quarter}
  * @preview ![temperature-quarter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/temperature-quarter.svg)
  */
-const TemperatureQuarter: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M112 300.2L97.8 317.8C86.6 331.5 80 348.9 80 368c0 44.2 35.8 80 80 80s80-35.8 80-80c0-19.1-6.6-36.5-17.8-50.3L208 300.2l0-22.7L208 64l-96 0 0 213.5 0 22.7zM208 0l64 0 0 64 0 213.5c20 24.7 32 56.2 32 90.5c0 79.5-64.5 144-144 144S16 447.6 16 368c0-34.3 12-65.8 32-90.5L48 64 48 0l64 0 96 0zm0 368c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-50.8 0-16 32 0 0 16 0 50.8c18.6 6.6 32 24.4 32 45.3z" />
-    </Icon>
-);
+const TemperatureQuarter = createIcon("temperature-quarter", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbgAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBYQsGAAE2AiQDCAQgBYMtBzob6wTIhocHvf86N8mHM3JGUiWhUykvVcmoWG39pj/35zsfDfAZDa1DB1LgmecTGA5s9y3aCjgK7Jt+AfvWTbd8lPJbkvf0kobxGqbWkMWy9KQykuvJBzjbPjT+0spJElUpgMgBMHHRvLle+SV+iXi/9CTxvtkIiImgEEiRoq0AY6QCbWUKZDLBL1EqyX9gQQBRTo+bgAxlWIBlgAwk0ixr06pVTVldtjAvU72oZZuWD7qt50NDn+79SIcbvVoHLlkdwrKa6hohHut455gXprw17qVO9/SPiKhZcq1pxKUu9ze/0vqO7m6uEOK+dp0ezh/+p+MHGz+w6+KnOKBpu1i4Ic83LIza7FPNfWW1rzRf1XuC3puv/Jm2PXzm1VfPHG6b/vmVCSas2pV+yA8DBvzwYZp/P1iukBvs+xwIBJ2+HL5xVcOY/ytrEvDbc//9039GeemVGJQ8jEoJCNI+pT6Wx0G5PAYJAEASB3WKCXKBxFwpXGutKwKEagRIlKsWINVGLkCmWm8ByrQ3VIBy1eZJRVYlNLVigkStPSA1zAmQaepxUGaMt61yTSMlFkEL4l8XO81CU4eKgf0GFKOKpWeQXMFKd3SxrfY4mDI9MdNGu+y03wbrbbHfIHvNdQ/YYVoET/VFhYH6GaAwSnEc7qcX2mCvfbbYZWftM1px3+zhYFzeE0ZCUQcZTSRE0oRzYt9HBQ==");
 
 export default TemperatureQuarter;

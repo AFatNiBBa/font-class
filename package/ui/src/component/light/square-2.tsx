@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-2` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-2?s=light square-2}
  * @preview ![square-2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-2.svg)
  */
-const Square_2: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm185 78.4L171 187.7c-6.4 6.1-16.6 5.7-22.6-.7s-5.7-16.6 .7-22.6l14.1-13.2c15.8-14.9 36.8-23 58.5-22.7C267.3 129 304 166.3 304 212c0 22.2-8.8 43.4-24.5 59.1L198.6 352 304 352c8.8 0 16 7.2 16 16s-7.2 16-16 16l-144 0c-6.5 0-12.3-3.9-14.8-9.9s-1.1-12.9 3.5-17.4L256.9 248.5c9.7-9.7 15.1-22.8 15.1-36.5c0-28.2-22.7-51.2-50.9-51.6c-13.4-.2-26.3 4.8-36.1 14z" />
-    </Icon>
-);
+const Square_2 = createIcon("square-2", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABegAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBAsGAAE2AiQDCAQgBYMtBy8bAwXIjsO44SuhmEzufEX0/H6/2fMuKs2zJE14I2sj0jQkKg2StR8DIWulBPz/36/9Pk8Q0YuYeBWxKJamwRfrWPuJRSLPxLnOdz4aYNkIhhaFlR55np9x/gIv+hZNEAU2UXzdZiLYEcS+iJAwiej47Dg7QssGOUKk3rmf4Kn+aP7om4TSOgBkEgBweJGRBMk7vYd+/l9DPiSAQI4ALCN06DCPwA5eME+wDJomfJNUKv+BDAiQfuD9CzT04QpcA2igdE0wMLBXFJWFbEVRoWBei2gRlVHtJUVlWtBdIZ7GdJYVlGI3HIgubJTpyO5Mn6NV21NLJTq2Pzfgs7R0tRZ1lnV16cLr2u7MeNQ2kxRpSXtRS4HmLS+HVmidt7We1zI/Vzv/MPtZ/RMhDyqz8KgSitSOs1IFdWCqpzC76uoKoeDEuEt6wfPcnS2sP2NajVXXcOa9qamo866i8v6M4WO76oYGfGqLL5+p2h8ABGGl9+9/iWrgl5wiB/h9+Pxqt+P/nSR1DgYVCN2a1BGFkQCCJyCodMPcaVhQLvGAex31goAYRkDpNyygM0cNgWbYKgJ9Fnkh0G/YCV6aPGJW0YDLqHu4s20IbmZdwn12PAb9ZsOHGh0o9EcvIVoDUeuYm7Mr82fLWmeihyzLAWxbtO3OQ3a0EdVaNOtUpVKdTgW1S4q7NIn2wCgNYtw4c8X4Y8edZyGbg3Yd6mzufJUA7L5rq9ufbEcKB4TrcqVIyb1Wyckd");
 
 export default Square_2;

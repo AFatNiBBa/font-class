@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mountain` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain?s=sharp-light mountain}
  * @preview ![mountain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mountain.svg)
  */
-const Mountain: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 448l448 0 0-30.1L369.8 256 264 256l-43.2 57.6-12.4 16.5L195.5 314l-50.1-62.7L32 417.9 32 448zM348 224L256 88.9 164.2 223.7l43.4 54.2 35.6-47.5L248 224l8 0 92 0zM0 448l0-40L236.6 60.4 256 32l19.4 28.4L512 408l0 40 0 32-32 0L32 480 0 480l0-32z" />
-    </Icon>
-);
+const Mountain = createIcon("mountain", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABWgAAAHeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBOAsGAAE2AiQDCAQgBYMtBy8btwTIjsK2bRPLx1liIIKHLRFRa//27O0HQkcqSDISWSgWMjaOJIFw4fJP+A82OvrZ84e737bS9muMzWPSGraHZZmki8vCAAPZUzfPO48CfKPQxsKlgYwFssd5AgFmXR54QGOBZZqAZe3shmcQ3aSkT/kkw3bDaoaaH9nEp7wuLfC8PTT/SO2hqA2ADAOA05cLedy22XbSal8gLVkQyBnAMoYGDeYxcAxXMI9nGVRV2E67nf6BBAHSiccroKIDx8FZABUUTa0TA2N9HQP1Ul9Hb99A/0ByKb05lfFM5lwuxP1LpXKRnc7JTKXvQuR6NrKWqxHp7c/qV8nXt6bVbaG/nKsyeWPo4OHKaf6R6uiz8cyGXLjEidpbZlhfDTY2fTkzQtsEEIS/346m2+Jj/0V9Bex+//7ZV9Te5ihfQbcCQrPZ3tQsoBAAQMlT2gJBsR8X19rvBQaiFwFFp14BjTkSDFS9NjDQYVEAA516nceV2iPGtSYo+j0AjQN2oBp3Ah2OucudxtOIiJAA8YWLTXgo3kcep5uitHUNUhdYacfomDNvc8qCSXTNTK11tA2sHbKU1zYmEhEc9yLi4eRGoug6eB0v61haGZiZ1i4x9F4y28bFFogcRN3DVhRSusUI");
 
 export default Mountain;

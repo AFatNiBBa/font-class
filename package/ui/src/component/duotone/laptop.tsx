@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop?s=duotone laptop}
  * @preview ![laptop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/laptop.svg)
  */
-const Laptop: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 403.2C0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2L19.2 384C8.6 384 0 392.6 0 403.2zM64 96l0 256 64 0 0-256 384 0 0 256 64 0 0-256c0-35.3-28.7-64-64-64L128 32C92.7 32 64 60.7 64 96z" />
-        <path d="M128 96H512V352H128V96z" />
-    </Icon>
-);
+const Laptop = createIcon("laptop", true, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABagAAAHkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBNQsIAAE2AiQDCgQgBYMtB0gbzwTIhqB+Lfye9/YuALQBRpUoYHKpbMDHMUvgD46NYNZ3cep5zkMBfKOg7aEByQac8zwCEV21gpe2aE1rYNVtOoQ6AumNkigJ6fjy+LpCkQbnc2qky+lLnJf/AYxfdXOOpFkGEG0BMHfl0iU+/iq+SvFl4znxpcUIiHmgFMjI6CnADFmgp0KJQiH4KjUafBWNRkkAUScfnEEdNczCAkABkpCKolmH7i1qrYoVLWrN17Zq2SpFy8hxfWjE44mt4tXwp32uDGod97quTTm1iBytIgXuemXYk0Et496QR137PWn75Pe+X+740qmNVVVRYaTlLPADyxZqG2tE29njMAcVRZu3a3ercivdojkQCPqmD59sbDPj/6YtEvjm7Z//wu+o8VWq0hM0lUCQRzRGWJcqSJUAAKQ4oV+qVAhkIyV8qaULAoTmdEjqmkPWQ1soNDccanqbeLmuuaWyKJoJHa0nSFo6DNkkJ6HQ0TOomeETp65j5BiiIoD6wsUv0sjCtXLsqDHltHIba3RYEGU+vTzWh5zItaHYtMNBBxyz3Ta7HVPYEUv84/ZbZKELfVFprFHGKE1TurNnfgU7Rxy1e836l0xX3reHOGF3D4WVVNxxLmeZSJFb79t86NjBQyNjUW47so8OAAA=");
 
 export default Laptop;

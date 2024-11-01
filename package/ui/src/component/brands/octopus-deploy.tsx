@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octopus-deploy` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octopus-deploy?s=brands octopus-deploy}
  * @preview ![octopus-deploy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/octopus-deploy.svg)
  */
-const OctopusDeploy: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M455.6,349.2c-45.891-39.09-36.67-77.877-16.095-128.11C475.16,134.04,415.967,34.14,329.93,8.3,237.04-19.6,134.252,24.341,99.677,117.147a180.862,180.862,0,0,0-10.988,73.544c1.733,29.543,14.717,52.97,24.09,80.3,17.2,50.161-28.1,92.743-66.662,117.582-46.806,30.2-36.319,39.857-8.428,41.858,23.378,1.68,44.478-4.548,65.265-15.045,9.2-4.647,40.687-18.931,45.13-28.588C135.9,413.388,111.122,459.5,126.621,488.9c19.1,36.229,67.112-31.77,76.709-45.812,8.591-12.572,42.963-81.279,63.627-46.926,18.865,31.361,8.6,76.391,35.738,104.622,32.854,34.2,51.155-18.312,51.412-44.221.163-16.411-6.1-95.852,29.9-59.944C405.428,418,436.912,467.8,472.568,463.642c38.736-4.516-22.123-67.967-28.262-78.695,5.393,4.279,53.665,34.128,53.818,9.52C498.234,375.678,468.039,359.8,455.6,349.2Z" />
-    </Icon>
-);
+const OctopusDeploy = createIcon("octopus-deploy", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABhwAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCDQsGAAE2AiQDCAQgBYMtBzUbEgXIjsJxrwRFtBhi8vPG8/+/X9vnvvdnMGveIWnCQ9XViSQWKdAsdkqwSCbPklyVHMQ5COooPtgu+mcFTZ16nvPQPH+SqI2JbxlTxwKb87wCBay2HKIOoQgVjMpQ+53fCQYRk6RLvCTr396w/QN6jrAdBuqD4RnAS/6o/IG4RsrQACBLAMDlfYAXnFORivj8fwfkEzyAQK4AsAPRADcQhZOjwQYmO0DXhS/8/z/9BxIQICMoz1ego+EReAagg5LOlMA5cDMFcw4cCYeIWKezJjOqvWr8MfB94LD0gHiP8IjqvOq+cI/SjkafqEt3C/WL9YsPdCg5ROqQxpL3xEfUepLfh3XYu7gt3CM8oDSjMicxKNErYphKidaJ9P4i+UW+xU9yz8nPcBfPtQ22++zS0mvaiYugrZSttKTTlbD2o7n5TFU2XVhMzJefysc3fXtnJCjY3VbW3f7zxxuqq4DiJCPD22k1PtP/uzO+MTyNmRsxNeRfchtdVsfWcOeWliKgf7u7scHJMdA/l2AAAEH4pczQYnhP/tk4GQB+Dr/8bt86NznC77UITCkQ2t5EU2QxZyHfBfiVYpAXThaUBwyAT53zKiBmEFBGZgQ06/gg6GbsQjDYYgTByIxrjNLZIdZEDVDmPIHmWBXo1myBwYk7f2QtTd14ZeH/9lKcGXG6RvS0dYk52ea6oEFs3FuQY6haHHpquAvJcmQrlCRRmkLC8nlFRbI4S6iTExF6tOkizJHr6lkJJj9fgbS1dH+JBfLeUlUsT6tB/ED6/SyUsg+LJyehMCe3qEArMSk3M6cMAAAA");
 
 export default OctopusDeploy;

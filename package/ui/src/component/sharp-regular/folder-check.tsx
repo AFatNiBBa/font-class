@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-check?s=sharp-regular folder-check}
  * @preview ![folder-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/folder-check.svg)
  */
-const FolderCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 32l48 64 192 0 48 0 0 48 0 288 0 48-48 0L48 480 0 480l0-48L0 80 0 32l48 0 176 0zm48 112l-24 0-14.4-19.2L200 80 48 80l0 352 416 0 0-288-192 0zM241 369l-17 17-17-17-80-80L161 255l63 63L351 191 385 225 241 369z" />
-    </Icon>
-);
+const FolderCheck = createIcon("folder-check", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABXAAAAHjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBOAsGAAE2AiQDCAQgBYMtBzMbuwTIHoVxYz2yK8fHwUaoePj/ufK+n8xCZoucUwWUIqNrVf26gmr12hI6ImHIkqueZIbEyP/3kKmb551HAb5RaGPT0kAW0N7nCSTW5ZGOBZZpABB71k3nqSHl1uRFL2nYrmFshjyexmqkWwna203jt36ukdQyANEVAPO2bFjl1Y/4EfG+cZ94bwUCYh4oBTJkGCjATJnAQLkSuVzwIxrSP7AkgGjCD0kgRw1zsBSQgyTL817dutVrnfLN9VqxY978efW6SCGKtogsIuqbinrRP2ZHESk6RRbFxmEjh42IzTEn1sWWmBUbh3Z07fjbh8N8v03jVVUpVaovlb0q1fczcQvfDHTTXneUXg3+Adas0c0/V6/qpr0dCASTp76YtqfLzP8t9QR+PXl7jTR+JKkDLRIIslGNUXYmkAgAQIrLhiYIJFNksNQ21wUIBQIkTQoBMgN0FSBXGClAzWCTBGhS2CATeavQ064BkjbnQGayKyDX011QM9NrtUnPyERESID4wsUu9tCioXLcmKqcXi49ndQFVrozym1h2OWcGY5Jh51x2kWHHHTMRYect8q45JTFEbzIg0rjjFEpTVceh8/jmx1y3gXHnHG69pmhvK8MczkuHw45Iep45iQRqe3w8+VHqxEAAAA=");
 
 export default FolderCheck;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-cells-unlock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells-unlock?s=sharp-light table-cells-unlock}
  * @preview ![table-cells-unlock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/table-cells-unlock.svg)
  */
-const TableCellsUnlock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 64l0 96 128 0 0-96L352 64zm-32 0L192 64l0 96 128 0 0-96zM160 64L32 64l0 96 128 0 0-96zM32 192l0 128 128 0 0-128L32 192zm0 160l0 96 128 0 0-96L32 352zm160 96l128 0 0-96-128 0 0 96zm160 0l32 0 0 32L32 480 0 480l0-32L0 64 0 32l32 0 448 0 32 0 0 32 0 97.1c-24.1 3.5-45.8 14.6-62.4 30.9L352 192l0 128 32 0 0 32-32 0 0 96zM192 320l128 0 0-128-128 0 0 128zm288-48l0 48 48 0 48 0 32 0 32 0 0 32 0 128 0 32-32 0-160 0-32 0 0-32 0-128 0-32 32 0 0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l-32 0c0-26.5-21.5-48-48-48s-48 21.5-48 48zM448 480l160 0 0-128-160 0 0 128z" />
-    </Icon>
-);
+const TableCellsUnlock = createIcon("table-cells-unlock", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABjAAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCdwsGAAE2AiQDCAQgBYMtBzkbgAXIhof/t/v6fW5Vq94YNZIiWNmsrhlnwidDKOrsQ0HynQoRJ66pH2VPD1j2BI9WuWyNsog8n8AAp/MWGs0GNp2gbdkc5hfxEEdIv0Aef8dIdaRH6VPcCB8aP+juMkmeAYh2AJi3fvUqLd/GtxGf/v8W8akVCIj5oBTIkKGXADNlAr3kSuRywbfx///iP7AkgKiX3phAjlZ4HC9g2UJS5HkTru/XNLypVtc6X1dWF/uFWmCgyNUK0WvCXbPuwvG1tWI3Fmq4VrQqIjJM1FrXijeHFuGJCbvrLvl3u0iImCgkFDdGxNMjXp/y1rBXexfxWJf7g1/odLfbGn26/2vtXvup36f7PrW9eUfKrexQlZVvh959RviamzlRCVfPnIg8vZ0bZeqzQxMVovy2uNOi67smgMiOpx/G+o4ZmzonLjktzeuNFev2tmu3d12Uss++HDv2y8+yvl8888wzlWdUQCBYU309YHvbmX811hL4/v1ffoOe/r8lVek1NEogyEb+P9KWVIHgB/CTUpzTP1UIJHcU0ndt5b4AoUCApF4hQKandgLkCiMEqNPHJAHqFVbLRN4kdLJ1oJNWTtKZyc7TuU7eoOvM9EG+XqfIYFSGMPkXMWPxFF50rBw3emw5vdzt6xSwE+3+jPKyb+g5OTcMn7XPccecsdceB52ZUKesKp111OIjcpEvKo0z2lil6crHo5fGOpo/5bSD29rzQ2Yov08Nde549TAcTFLB8VqSRKQO4GuNitrxUWePxSEA");
 
 export default TableCellsUnlock;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `3` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/3?s=sharp-solid 3}
  * @preview ![3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/3.svg)
  */
-const $3: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M304 32l0 46.1-10.4 9.5L162.3 208l21.7 0c75.1 0 136 60.9 136 136s-60.9 136-136 136l-72.6 0C64.8 480 23 451 6.6 407.3L2 395.2 62 372.8l4.5 12.1c7 18.7 24.9 31.1 44.9 31.1l72.6 0c39.8 0 72-32.2 72-72s-32.2-72-72-72L80 272l-32 0 0-46.1 10.4-9.5L189.7 96 32 96 0 96 0 32l32 0 240 0 32 0z" />
-    </Icon>
-);
+const $3 = createIcon("3", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABWwAAAHsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBMwsGAAE2AiQDCAQgBYMtBygbqwTIjsQ4FvIHu9Tj4Z853/uSfGrHkE8jAEXgmNTUpsaKwKEDAiN6Zgl0K+nr4uZ551GAT5LiWJgukLHA5jxPILEuD3zassAyTcCydnb/YhBZpU95ktWiHzYTZLEiPaiC5EzyGcfzQ+Orjg6SqEkBRAsATF6yYL7npShFfCrfIT6Zi4CYDHKBFCm6CDBOKtBFJkcmE5SiXPb/wJwAolI5fAIypJiI6YAMJCLLRhYrmmaLixWFdUKbWBjFeDP+Se3lcY+nFeJQn+vd2sXcaBtnGotxpe+Nzmf7XO9RKES0jyVBexbrrre4/r3289rPBl4aMGDAGQf2aefE4jU1NWsWn6D+1s0Xc90x1+PflIYObdZs6NDS+nyAubku5pPkQCAYtWTa7c3H/a8uJuDLw5/f4Ssql2JSch3VEhCk/cr9rIy9EJMEACCJvepiEgKJkRJ81yZOChAKCJCoVBAg1VkLATIFfQWo0M1wASoVLJCKrEZoY1WDRBM7IDXCfsi0cQsqjPNOrdQmUgui3p/6wMXPkMj0vnzwgEH5mHzoqrRRELE9Nl8Weu0Nqd4YtdY2W+22xmob7BbYTvONPbaYoaHTvSg32ACD5MbIt4P74cXW2GmXDbbZmrqMlZ9XetmrF/cGc0H8IU5IJE5MYigAAA==");
 
 export default $3;

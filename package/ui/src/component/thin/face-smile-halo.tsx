@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-halo` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-halo?s=thin face-smile-halo}
  * @preview ![face-smile-halo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-smile-halo.svg)
  */
-const FaceSmileHalo: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 80c0 3.6-2.4 9.9-13.6 18.3c-11 8.1-27.8 16.1-50.1 23C387.8 135.2 325.5 144 256 144s-131.9-8.8-176.2-22.7c-22.3-7-39.2-14.9-50.1-23C18.4 89.9 16 83.6 16 80s2.4-9.9 13.6-18.3c11-8.1 27.8-16.1 50.1-23C124.1 24.8 186.5 16 256 16s131.8 8.8 176.2 22.7c22.3 7 39.2 14.9 50.1 23C493.6 70.1 496 76.4 496 80zm16 0C512 35.8 397.4 0 256 0S0 35.8 0 80s114.6 80 256 80s256-35.8 256-80zM45.6 156.5C26.7 190.7 16 230.1 16 272c0 132.5 107.5 240 240 240s240-107.5 240-240c0-41.9-10.7-81.3-29.6-115.5c-4.8 2-9.9 4-15.1 5.8C469.6 194.7 480 232.1 480 272c0 123.7-100.3 224-224 224S32 395.7 32 272c0-39.9 10.4-77.3 28.7-109.7c-5.2-1.9-10.2-3.8-15.1-5.8zm105.3 85.2c7.6-11.6 16.1-17.7 24.9-17.7s17.3 6.1 24.9 17.7c7.4 11.4 12.7 26.3 15.2 39.8c.8 4.3 5 7.2 9.3 6.4s7.2-5 6.4-9.3c-2.8-15-8.7-32-17.6-45.6c-8.7-13.3-21.5-25-38.3-25s-29.6 11.7-38.3 25c-8.8 13.5-14.8 30.6-17.6 45.6c-.8 4.3 2 8.5 6.4 9.3s8.5-2 9.3-6.4c2.5-13.5 7.8-28.4 15.2-39.8zm-11.5 95.7c-3.6 2.5-4.5 7.5-2 11.1c22.4 32 61.9 67.4 118.6 67.4s96.1-35.4 118.6-67.4c2.5-3.6 1.7-8.6-2-11.1s-8.6-1.7-11.1 2C340.6 369.2 305.4 400 256 400s-84.6-30.8-105.4-60.6c-2.5-3.6-7.5-4.5-11.1-2zm156.3-56c2.5-13.5 7.8-28.4 15.2-39.8c7.6-11.6 16.1-17.7 24.9-17.7s17.3 6.1 24.9 17.7c7.4 11.4 12.7 26.3 15.2 39.8c.8 4.3 5 7.2 9.3 6.4s7.2-5 6.4-9.3c-2.8-15-8.7-32-17.6-45.6c-8.7-13.3-21.5-25-38.3-25s-29.6 11.7-38.3 25c-8.8 13.5-14.8 30.6-17.6 45.6c-.8 4.3 2 8.5 6.4 9.3s8.5-2 9.3-6.4z" />
-    </Icon>
-);
+const FaceSmileHalo = createIcon("face-smile-halo", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABtAAAALLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDHAsGAAE2AiQDCAQgBYMtBzYbogVRlO1BluxHYmyrYStxj8jWKyvZIUo5lMJBeB5CtGyZ2aW04kFVRbfIKgzCdGNxdIlCSLDIN+LBotH396f+6QF8F9qLEwstSmzsjmW1ohWk1nn2l/8G/YP+P1B1Ujq2mSFt9ZIxowKqa0t7S5ARp57nfC3NPUE4KGNj0uqm7b3SnOcVKODYHvCe5yrSaqli2sF5Iw4wJIb0BGp8ucDJ57zAvbscf2Z8SKUIIIahtHJwXhbo1452RKvZJFqOIAFxCGEZRkHBPAy2UYF5zDKkqoJ2NI30P3AZCiA6wcQJKrrxjm/Q30fqrPUhhSCgwAqYi8qxJ3eKOn1Er/7B+mTfgv0k0RIwPTsebZvQSAWM2xEIagwXH+gxW9dAe55ZTSvsR81qzWnj5erOdeuOtNZLXOUk1SvVJ+VHtWfaNW5G54dtEdBJCVF8pAAiTA0LJ8hBshfykSI0qxealcwatmXzsgDsJwbFM/ot6RzVT3REaOs14I86Sdw57Nwb56LjAngfhP7+KeVQD9ADlEOU/z/IH8JyqmBAFdQH9KVGHXJQJ7tzW7+HAUo/PhobS4FSIDVKA6UMs9cyvAqib/fkjJcXhnzvFg2ujjR3WVNo1GrKADc151cdHo67Dw9Nec1DeYZVsKFcWHB/kEwe3BcIy1v0XylXcbEr9Vpujpj0qR2MHs5XjsZcR08pgNUhCARrP9P/jZjt/wIwwe/n+6/8crOT8gPdEnxPWW3k2gRJCL5gxh0xIZDeXAK134Nohl5qpE69KOYIqHqtoMMi31p5+RgVtUcY10GkfpcotrxRjfuiw7Z/rdN4lNvWuemcn8bCvE1ku0BjWJDAZEfp3omW3kxhdSR+8QkZPkSjs5OHQW/xaPE3RfPpkM+RmQ8CNoMFJGB3/37Y4NrN3TLu798mBefnJK/5+TLMEoHumraURA59ExV9tH/Z03JX834GAAAA");
 
 export default FaceSmileHalo;

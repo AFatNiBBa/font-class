@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `euro-sign` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/euro-sign?s=sharp-thin euro-sign}
  * @preview ![euro-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/euro-sign.svg)
  */
-const EuroSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M35.7 208c-2.4 13-3.7 26.3-3.7 40l0 16c0 13.7 1.3 27 3.7 40L0 304l0 16 39.3 0C64 412.1 148.1 480 248 480l65 0 8 0 0-16-8 0-65 0c-91 0-167.8-60.8-192.1-144L288 320l0-16L52 304c-2.6-12.9-4-26.3-4-40l0-16c0-13.7 1.4-27.1 4-40l236 0 0-16L55.9 192C80.2 108.8 157 48 248 48l65 0 8 0 0-16-8 0-65 0C148.1 32 64 99.9 39.3 192L0 192l0 16 35.7 0z" />
-    </Icon>
-);
+const EuroSign = createIcon("euro-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABXgAAAHsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBSQsGAAE2AiQDCAQgBYMtBzAbyQTIhod/5sq/L8lSpgwpMypAhw6FXFtCh6T3VMEn9fVMncq5nIcC+CCSsSznY9FaPud5BHIez8UD2AHSWsFqWgGrectIPVLtl8xEM+nxyunx6YIs1tiqguRm8g5X64fGX1q7QCJNAUQjAExasWSeF3VRF/G2fJd4aw4CYhIoBFKkaCfAWKlAO5kCmUxQF+Vy/A8sCCAq8WsmIEOKmVgMyEAismxiqaJ+trxUka+4QZxpnYcoxfd575eVShF5/mP+h8GliMjjVkScbSv67QUfV1jat7nvlvpv3bm2Ue0/nd5tf6fLf4ObN9J8cFeN9NB02omLc0yqbqR60lQjhg/4pZG/Nejv2C8Dho+YGuQ5Lp5wP6uHRroCgeDJ7q/HNzQc+391KQE/H/33l/4rKtfFpKQW1RIQpH3Lfa2N45TLMUkAAJI4rnNMRCAxUYLftZ5rAoQcARKVcgFSbTUSIJPrI0CFDoYJUCm3RCqyGqGZdQIS9RwCqeFOgkwzt0GFsV4alZpFCiYCCsRfLna6hqdtFYP6DyxGF8vEIPGB5eWYws33PJ4avejUdgfsd9Q2W+1yVKGHzbOP2We6hUzzRYVB+huoMFqxnT8fL7fNYUfscsD+smaM4rzQ03G7vxftkwAGX0MgIZKa58z1wyEAAA==");
 
 export default EuroSign;

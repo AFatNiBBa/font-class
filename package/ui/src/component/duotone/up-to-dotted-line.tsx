@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-to-dotted-line` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-to-dotted-line?s=duotone up-to-dotted-line}
  * @preview ![up-to-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/up-to-dotted-line.svg)
  */
-const UpToDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 64A32 32 0 1 1 0 64a32 32 0 1 1 64 0zm96 0A32 32 0 1 1 96 64a32 32 0 1 1 64 0zm96 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm96 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm96 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M196.7 139.3L73.9 262.1c-6.4 6.4-9.9 15-9.9 24C64 304.8 79.2 320 97.9 320l62.1 0 0 128c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-128 62.1 0c18.7 0 33.9-15.2 33.9-33.9c0-9-3.6-17.6-9.9-24L251.3 139.3c-7.2-7.2-17.1-11.3-27.3-11.3s-20.1 4.1-27.3 11.3z" />
-    </Icon>
-);
+const UpToDottedLine = createIcon("up-to-dotted-line", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABngAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCXgsIAAE2AiQDCgQgBYMtB14bjgXIjoTcROtfuGpDxMM/a/3um5n9rshAEpUEyUVC0kgjmZawh8ohSd6k5X3/n2te2T0/Os9vFwSHELlhaWMBdT+fwACLCpuKaD4qhZH6dldtQlLaTxKateTxm8fzXreDLJ6lFxRIniY/cbv8D2D81ukCicoUQDQAYPri+fO8LUYxiZ8lxE9zERAzQC6QIkUPASZJBXrI5MhkgmJSKlGMUikngChT7peCMlTgNp4CMpAIhSzr10w7Vhdqs0XVharlCxYveOBM68Pq6hAout7+OCJmnW1bFI+qrrUsP9MyMw+qrrU90nz74+rrrQ9VE8v7vmx4+afPz00/fRx1DONP6+qeptwpzqi7cqVuWkyeMQWjoy75qHX/iKmn665wpa7uivuVNfPlQCB49eBfq+sn/a+oTsCvN/+t5ysV423yEhUSEKSDSoOsiLcQlAF8qSQO6RtvTUMgtVoBba3xSIBQhQ6JMlWQ6tYAmSoDoaCX0aZyy3ypyCqFFisBJGrshdQYJyHT4jUUTPIlVaYlUsO0zcr+LMw/ZyRnT8uHDxmWT8i3Zc2xNTOPT8zVgX6HYlt/WGmT3XY5YKMNtjow0PvMyx600xyJmu2JcsMNMUxugvy49upf5FL77LeV984nmSi/H+nnkNy7P4QTpDrCq1IpkUTaeXDP4AO7B2/YfeDAxg2D/1jhvPIe3az3pgEA");
 
 export default UpToDottedLine;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `not-equal` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/not-equal?s=duotone not-equal}
  * @preview ![not-equal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/not-equal.svg)
  */
-const NotEqual: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M16 176c0-17.7 14.3-32 32-32l212.2 0c-14.2 21.3-28.4 42.7-42.7 64L48 208c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32l105.5 0c-14.2 21.3-28.4 42.7-42.7 64L48 368c-17.7 0-32-14.3-32-32zm171.8 32c14.2-21.3 28.4-42.7 42.7-64L400 304c17.7 0 32 14.3 32 32s-14.3 32-32 32l-212.2 0zM294.5 208c14.2-21.3 28.4-42.7 42.7-64l62.9 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-105.5 0z" />
-        <path d="M369.8 37.4c14.7 9.8 18.7 29.7 8.9 44.4l-256 384c-9.8 14.7-29.7 18.7-44.4 8.9s-18.7-29.7-8.9-44.4l256-384c9.8-14.7 29.7-18.7 44.4-8.9z" />
-    </Icon>
-);
+const NotEqual = createIcon("not-equal", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABhwAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCEQsIAAE2AiQDCgQgBYMtB04bMQXIhocHvb4/N8nTzBrZrWBXljt9u3K59QfUzvxfUy+SrgG/0aFUbm178wbv0glMsBJ8b5gg0zPFLW67KWIS2kdI3CCLB+lhZSQ3ks9wLvofwPhFY4dJVKUAohYAhk6bNNH7X8aXSXxWepn4zAQExDCQC6RI0UyAAVKBZjI5Mpngy6RU4ssolXICiHLRM6agHBVYgU2ADCRClmUN69atU6dYVj2bWiwrLLtSP+JKvelxud7lBlcbXG04K641vFZ/1oGGEdeKxaXc9UaFOCnnhCk95Rp1q+mPT9W/Yn+9y4XCNHZ668e1Hv/W6rOln9lw80Ez2q8q7bPzgxdfHdhitZo1axzneI0npk///vvHtCKC+1NupeXo4PhTLbeKfP//I6rlmScr71Hm+8F3WAEEgjlfv3N0Xs0B/1UWE/D1m3/8Uz+uVunzeD55jEoJCNIOpQ5mx/tqqRXPCwBAElu13oEGhSyQGicD+q3VXBUgFBAgUa4gQKqpWgJkCtoLUKaFngKUK5gkFVmVUM+cHiSq2QBSvewBmXpeAmUG+LBQrl6kEGfAi/HDlztqjI5clnft1CXvl29WtCYQaXayf3460War7GiL11pqnbU2W2KxFTaPpI0mlrdYY9QeM1KIcl110kWun/x2/bk7lRY22mTFun1/kf7y97NtbN3v3xanE4lsN1tSKZFEWnvtus0dP4xIx7DbUXdmh1IA");
 
 export default NotEqual;

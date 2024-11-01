@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `school-circle-xmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school-circle-xmark?s=light school-circle-xmark}
  * @preview ![school-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/school-circle-xmark.svg)
  */
-const SchoolCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M311.1 2.7c5.4-3.6 12.4-3.6 17.8 0L468.8 96 576 96c35.3 0 64 28.7 64 64l0 106.8c-9.1-12.9-19.9-24.5-32-34.6l0-72.2c0-17.7-14.3-32-32-32l-112 0c-3.2 0-6.2-.9-8.9-2.7L320 35.2 184.9 125.3c-2.6 1.8-5.7 2.7-8.9 2.7L64 128c-17.7 0-32 14.3-32 32l0 288c0 17.7 14.3 32 32 32l192 0 0-96c0-35.3 28.7-64 64-64c2.2 0 4.4 .1 6.5 .3c-2.9 10.2-4.8 20.8-5.8 31.7l-.7 0c-17.7 0-32 14.3-32 32l0 96 32 0 32 0 8.2 0c10 12.1 21.7 22.9 34.6 32L384 512l-32 0-64 0-32 0L64 512c-35.3 0-64-28.7-64-64L0 160c0-35.3 28.7-64 64-64l107.2 0 140-93.3zM416 192c0 7-.7 13.8-2.2 20.3c-31.3 16.5-57 42.2-73.5 73.5c-6.5 1.4-13.3 2.2-20.3 2.2c-53 0-96-43-96-96s43-96 96-96s96 43 96 96zM128 160l32 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zm0 32l0 64 32 0 0-64-32 0zM96 352c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-64zm64 0l-32 0 0 64 32 0 0-64zm160-96a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm16-96l0 16 8 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-24 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16zM608 368a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm166.6 0l36.7 36.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L496 390.6l-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L473.4 368l-36.7-36.7c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L496 345.4l36.7-36.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L518.6 368z" />
-    </Icon>
-);
+const SchoolCircleXmark = createIcon("school-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAOcAAoAAAAAB9gAAANQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhhCFHQsGAAE2AiQDCAQgBYMtBzobpwbIjsK2nRMMSRlJkM47A/3rm8nLKln65wSiE4tm/3XnSiDAxvT+CxZQMjlg4Zs6W1nhurGfMCzdpr935wEvkL9F8lD+aI33W8PHtrEGdlHXeYB7UhZY4Ikk5l1umyjqj3kosFA4noAMv1kaNhCP8SmAdd56/iNhMQgyAY/PLLajwaVTG9zPMUc+/X8F53m0AhAAngCAQYCFqtJAANSmohRIxjJJIuT4/3/6H2iAAABMI1AJfEkCPMAhwCXQnQYIOik7FpKucIonnEoV0DaP7KpfVcPukS7UPNI/kQCfOuSC8laluLLclZ3D5vK54mbEML+0RWuSu4aniq3Sm4tDAFXijrZyHx2cTFrD0zS7neeHr5ferK52QXaf2FbtSokTmYFa6VWlLUCi2nww2Mpgy4LKNg2QDqTqDAAp+2suobbZFOgd6PZZ6lTJk1UvFz9e4kSVbp5+S+ke7NayK6/UHzBgQZLc2TmqVrYOx7fjmthR5Ihe1T2W2kX3gil5bn1Lr1reKHMG19Knq19XK1c3y56lrlO3zpbw5mhd1maK2hqrx7pEbYvUYT2Sg++rXfCk/+SnAk+HPkXVvyVLVvXGKPsDATXKm2xzeG8373i2xdIe8BwVU+M7KpO676M/tYiw35LtMozrz/Ty6+j6W1VmePsorOo9/LaO/9y3QM//OOl0xsr5uTcvzxgzX1d/N1ktrx8AA2w11X26hxEZURw2svWxIOm9X/myeXlly6dWX79sEOlEzuvNxTEwkCSe5nuRfQe827s3mxXg3Ttc9a7ehmI1wBSCRYsGQ8YUk1kYHKscRO3ceeJEIzSSkuWIyqgM/gwAQADhdpP8bD9f7a9OLQAAb29++eqs/X8/zo8ngZPYMNUa/S+td5wP4AwQBD4Rpio4oSIYqxC0wOW2dWuAFNSQYKcgS4ofkpRSkE1WFXrh6k4sTLpAYX0wJLhNgCxVzYGksEuQTW0PvHbhYBkb8UMv/mpN0RRymkwyFcqWNzXNaFYpMQm03V3LLGaLT5VVJfBODDXOWJMNMdgIkwF3ojaBKcZoOiXc5LtGBWWVZ9RkNhfuKroC70STjBiWbR+mFnO8q7ip041LYKMQiKwoSRDAGDJxmjJ/GOnLTH/NAAAA");
 
 export default SchoolCircleXmark;

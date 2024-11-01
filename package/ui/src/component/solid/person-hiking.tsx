@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-hiking` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-hiking?s=solid person-hiking}
  * @preview ![person-hiking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-hiking.svg)
  */
-const PersonHiking: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm51.3 182.7L224.2 307l49.7 49.7c9 9 14.1 21.2 14.1 33.9l0 89.4c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-82.7-73.9-73.9c-15.8-15.8-22.2-38.6-16.9-60.3l20.4-84c8.3-34.1 42.7-54.9 76.7-46.4c19 4.8 35.6 16.4 46.4 32.7L305.1 208l30.9 0 0-24c0-13.3 10.7-24 24-24s24 10.7 24 24l0 55.8c0 .1 0 .2 0 .2s0 .2 0 .2L384 488c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-216-39.4 0c-16 0-31-8-39.9-21.4l-13.3-20zM81.1 471.9L117.3 334c3 4.2 6.4 8.2 10.1 11.9l41.9 41.9L142.9 488.1c-4.5 17.1-22 27.3-39.1 22.8s-27.3-22-22.8-39.1zm55.5-346L101.4 266.5c-3 12.1-14.9 19.9-27.2 17.9l-47.9-8c-14-2.3-22.9-16.3-19.2-30L31.9 155c9.5-34.8 41.1-59 77.2-59l4.2 0c15.6 0 27.1 14.7 23.3 29.8z" />
-    </Icon>
-);
+const PersonHiking = createIcon("person-hiking", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABiQAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCRgsGAAE2AiQDCAQgBYMtBzQbSgXIjtRgrTKL8fCPXfX3VVX3mR2wZ8FawPpmBKeAMyr954fKut7h/+eaz+/50QF+PoJDibaMBUZZRArs+YDPplG856nD2URxtuVw8YeH8AaJEIsSs4bNhrEDZHE2vaZA8nDyJe5cPjT+0sY1Ei1SAFEPgMkrl8737u/xe8QX5ZeIL8xFQEwGuUCKFO0FGCcVaC+TI5MJfo9ymf8DcwKIInnbBGQo4hLuA2QgkWVZzeTG1lWFmmxFVaFy7aM9n+n+VJuHuj3Z4+m2y5etXLY47icule6rvKXlAxGxIp7vtDISRb37R1WEkdlAXIYsaiTHIypD7bbLVqL0/ubxsSzuK913lySl1dp98qEeI8KYJw6vqopbm+8vdXm+/vm/O3+540vv3Fl54OzZA5WaHPJy41xENPiltFrtTTfVjtssNXu2U1tKS+2et+7+byte10lrzYsXN48C8L+P+l5Pd3311WO73oxdpk9/WJutxj391Psf7FnTb+TqrrfhTksm/+fulbPatl7jzMKJ7TPVu3a1AwLBlP9PzttYN+6fiqoE/Pm6/9frC+W341LyPCokIEj7lftZF5cUYHwA6SRO6BJ8USBxSkaCag9Us6ESg0RRJaTaqYdMpb5Q0NHwA4oqLZWKrIVQsp5BotphSI1wHjIlL0DBOJ+kikqR9iLbSeyfYNIMj0zflA8eMCgfk1+2bFx70XN1bJ5Wep0YI71pqx0OOuCY7bbZ7ZjDjpifPW6/GRE63Q/lBhtgkNwYebn7UVrhSE0etds5V1/HWPn7QS8n4um9SU8I4RA1iYRIalrX7b9r92cNAA==");
 
 export default PersonHiking;

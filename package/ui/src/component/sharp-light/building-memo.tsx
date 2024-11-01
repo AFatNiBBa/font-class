@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-memo` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-memo?s=sharp-light building-memo}
  * @preview ![building-memo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/building-memo.svg)
  */
-const BuildingMemo: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 32L32 32l0 448 96 0 0-80 0-32 32 0 64 0 32 0 0 32 0 80 32 0 0 32-32 0-32 0-64 0-32 0-96 0L0 512l0-32L0 32 0 0 32 0 352 0l32 0 0 32 0 32-32 0 0-32zM288 96l0 32-32 0 0 32 32 0 0 32-48 0-16 0 0-16 0-64 0-16 16 0 48 0zm0 128l0 32-32 0 0 32 32 0 0 32-48 0-16 0 0-16 0-64 0-16 16 0 48 0zM224 480l0-80-64 0 0 80 64 0zM80 96l64 0 16 0 0 16 0 64 0 16-16 0-64 0-16 0 0-16 0-64 0-16 16 0zm16 64l32 0 0-32-32 0 0 32zM80 224l64 0 16 0 0 16 0 64 0 16-16 0-64 0-16 0 0-16 0-64 0-16 16 0zm16 64l32 0 0-32-32 0 0 32zM352 128l0 352 256 0 0-352-256 0zM320 96l32 0 256 0 32 0 0 32 0 352 0 32-32 0-256 0-32 0 0-32 0-352 0-32zm56 112a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm24 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM376 400a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm88-208l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0zm-16 96l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32zm16 96l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0z" />
-    </Icon>
-);
+const BuildingMemo = createIcon("building-memo", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABuQAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSEKAsGAAE2AiQDCAQgBYMtBzQbLAbIHoVx41OCn7iUS0Qwr+llETzNfc7b7IcLlJiEQnTVrCvcuQIqVvrAVSOpKor//H7uvM2TSbtTUcQsicVGI/1GJFQypDZ+4pr6vdloNC4bwVAi2yowIs4nsIG3VwvMZpGiuLF1Bz/IdYWkGeT4E6sISXfTEBg0rzS+MfgiyQWAGAcA9p8Yd8H9x+uIoTaIIW0QEAcA8zAUKDALA7vwBWYRmAeyLHjN2pb9BxIEEF32GRPImAB+Av4CMkjG5bx0skY6kdIMjB8YGKjcVafJx2Vsealu6hRV2J6qErJoUdYRRQVqUsqIg5iyBSihqHushnQ0RL/TVVkJSjRfF4fR6Dz01olUpCaKqFdUZSPSXgYcu29/Mv3OoqczjoXMvPyoFJ2YCBCXq/PTimPVHRa8HPfyh6HDIVuPC4UCZ9sAoYtkAmyE0yFStvNsfu0tA+PkKJCTr30VxrHtQXtIAQOFwddCYQD5kWCWhttm5eNt2wNchDJQALZFkAhR1NYrzXCo8fC6OjfT656qMfO/ixevCXLkG3thnPwNMVlGw/EAgWC08mrWBdmu3/0qgbc/v9ZX0XLpZnqJvgSCYlW7yrrhAp0+AE+KG0zwrggkHyFnX2rtlgChRICkqxSgMJMcA1lpJQY65ohioKt0BF/kAWGSjYyc1C6TC1s8k7NJvskdu/x6uyZFcfBzD13uo2eiWhGu9qKgL0Apas1IeMczW+tM02CV45FXOOFUHLpy6d6BfSfuC8Rb3cCDC7UuQtUPkSCfAJJCk/NXRbOC79adk2b+9G7SaHmbw2N3fSfU8tgMN0hJEpGau0Pu/fMuAAAA");
 
 export default BuildingMemo;

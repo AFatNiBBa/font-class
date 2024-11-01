@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bed-front` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-front?s=light bed-front}
  * @preview ![bed-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bed-front.svg)
  */
-const BedFront: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 96l0 40.6c9.4-5.4 20.3-8.6 32-8.6l112 0c19.1 0 36.3 8.4 48 21.7c11.7-13.3 28.9-21.7 48-21.7l112 0c11.7 0 22.6 3.1 32 8.6L448 96c0-17.7-14.3-32-32-32L96 64C78.3 64 64 78.3 64 96zm416 96l0 48c19.4 14.6 32 37.8 32 64l0 96 0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48L32 416l0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-96c0-26.2 12.6-49.4 32-64l0-48 0-96c0-35.3 28.7-64 64-64l320 0c35.3 0 64 28.7 64 64l0 96zm-32 33.6l0-33.6c0-17.7-14.3-32-32-32l-112 0c-17.7 0-32 14.3-32 32l0 32 160 0c5.5 0 10.8 .6 16 1.6zM240 224l0-32c0-17.7-14.3-32-32-32L96 160c-17.7 0-32 14.3-32 32l0 33.6c5.2-1 10.5-1.6 16-1.6l160 0zm240 80c0-26.5-21.5-48-48-48L80 256c-26.5 0-48 21.5-48 48l0 80 448 0 0-80z" />
-    </Icon>
-);
+const BedFront = createIcon("bed-front", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCTgsGAAE2AiQDCAQgBYMtBzAbTgXIhuD5Or+vc7ufOhln4B45I/vLOxFLeQcvIa8zcc3zP396wCJ/k+coyx5VYff5BAa+5k18FAU20wnYrG2FDxo+phgWFUXR9ULbUO8MebwUozWRbk/v4tr8ofGrni4iyTMA0REA87duXO31r+KriHcbzxDvWomAWABKgQwZ+ggwSybQR65ELhd8FY2G+w8sCSCa4d4TyNGCK3A9IAdJU573GVPr0rnS1C7fUmkqdgq3Virx8Ignh1Xiyq4R53e7pajGFbWb7Bce7yvETbVbukVUKRZx7ygt3jmKIbTjlTze0+hggUIWj0ZtGRO3Viqb77iN3zK0Gg9Fs4eIB2LgEx2f+H3Au0feNXfvCJzyUedTfFirfXiKzh+N0P6yy9rPK+a9e+uIfmjdpy376qv2da+rU+E8+7T+UDfYolOn++a5Lyz2/T0QJEM+hebLCYHWUz+IsiwvONCprff9uTZ7j8/q+9Q/ey9b53XrgEDwxkkPzdnbYdb/rZUEvnnxz/+lX1HjqyQ9gVYJBNnoxmi7EkgEACDFWQYmCCQXaIJrrbpFgFAgQNKsECDTW0cBcoVRAjTpZ7IAzQobZSJvE2p2VzipOhXOTHE2nKt5Cm4yyxvJZrXI5JGWJvpvMGFJDyxeVY4fWy9nlMsGYkSMDIszy2Np+Fl+YIQ66oiTneQMhx1yrDM66DSrM2c60ZIduNgXlcYbq640Q8luP+7f4rDTnO5YJzspLTNT+b033Fn78SOUmgB3grVJIlLbgcOHxsgwAA==");
 
 export default BedFront;

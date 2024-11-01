@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `film-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/film-slash?s=sharp-light film-slash}
  * @preview ![film-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/film-slash.svg)
  */
-const FilmSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32.4 10L19.9 .1 .1 25.3l12.6 9.9L607.8 502.2l12.6 9.9 19.8-25.2-12.6-9.9L32.4 10zm468 470L448 438.6l0 9.4-256 0 0-96 0-96 0-16-32 0-64 0 0-64 0-15.3L64 135.4 64 448l0 32 32 0 404.4 0zM139.6 32L192 73.4l0-9.4 256 0 0 96 0 96 0 16 32 0 64 0 0 64 0 15.3 32 25.3L576 64l0-32-32 0L139.6 32zM160 448l-64 0 0-80 64 0 0 80zM96 336l0-64 64 0 0 64-64 0zM480 176l64 0 0 64-64 0 0-64zm64-32l-64 0 0-80 64 0 0 80z" />
-    </Icon>
-);
+const FilmSlash = createIcon("film-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABeAAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCJgsGAAE2AiQDCAQgBYMtBzEbJwXILg7sxh8vYUZYUAy1qRiekxGSdPLw/3Ofv89NhpIypMzogHwdCVtL7FiRn1Vb3f7PL5lV3xOI7bMhSnPbVUj8xDXP//wbMOnvhR8tal3nkbR7Wtb5BAYYbdG0m8BsOJtO0FaQkLWzH5BINynpgycZtjeMTpDHPzFcHeleglvpTeOnrm6S5BmAaAOAOZvWrfC2OZojPtceEZ8tQ0DMBZVAhgw9BJguE+ghVyGXC5qjVrP/gRUBRD08L4EcTTiHy4AcJA153rZ79yZsL+ta5hvLumJbp46dBkfHOOMXD4tOcfbAyhUrRYsAXBRRODRSiHLbiiciWoZgLEshhkS2EtxflD6vDBtDZkSxryzKWMSy/uS+97k/B+n9KDtM9sHaL56Z7Jl1X75+n+x3NmG33dqoZtPaX6aoVMPejANXhrPabKtnnaIzQisVW23yOBAILg+85a7W0381lgn8eP54v9rbdDWFRgkE2fDacNvTVbDsABIpLuorfFAgOaYBXrWF2wKEAgGSeoUAme7aCJArDBOgTi8TBKhXWCcTeZPQwY5KJC2cITITXSJyHTwg6kz3Ll6vQ2S6J2mO9PNLX8iBBeOqMSNHV1OraVGR1UkIw9Oqbefgi65pCG110CknnXfAfkecZ/hZK1IXnLBQAhf4osoYI41Wmao6rtzqG1nirHOOjJXzUaap7kcHuyh3HkKeBLxjGZJEpOLh5o04155zhwE=");
 
 export default FilmSlash;

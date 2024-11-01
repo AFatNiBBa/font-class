@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `card-spade` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-spade?s=light card-spade}
  * @preview ![card-spade](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/card-spade.svg)
  */
-const CardSpade: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 32C46.3 32 32 46.3 32 64l0 384c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-384c0-17.7-14.3-32-32-32L64 32zM0 64C0 28.7 28.7 0 64 0L320 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zm180.7 68.2c6.2-6.2 16.4-6.2 22.6 0l33.9 33.9L297 225.9c25 25 25 65.5 0 90.5c-24.5 24.5-63.9 25-89 1.5l0 34.2 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 0-34.2c-25.1 23.5-64.5 23-89-1.5c-25-25-25-65.5 0-90.5l59.7-59.7 33.9-33.9zM192 166.1l-22.6 22.6-59.7 59.7c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l25.8-25.8c3-3 7.1-4.7 11.3-4.7s8.3 1.7 11.3 4.7l25.8 25.8c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-59.7-59.7L192 166.1z" />
-    </Icon>
-);
+const CardSpade = createIcon("card-spade", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjgAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCSQsGAAE2AiQDCAQgBYMtBzEbSgXIhiDSZVWPZBIYUccPACA/AYbEGSfB+lOMLt6LUzmX81AA3ygoY+OaIGNiaOzu8wpUsLVpuM5rWgAqa982RNDR8UmIRElYjed43SGP22MLPaSX0594Uh80/jbjPpI8AxDDANj35OOP9HMnOhF/dr8g/nQ4AmI/0AhkyDAvwB4ygXm5Brlc0Ilul/4DGwKIXvK7EsjRi4fxBCAHSZ7ns7NbrCp76vyksqc4/ZHxiOekaCeeL+t4dOrFyGJ58oWiOuTVzSM+3VDH+5t+PJPipU0+WlvFB5t9Mpud+OLEnnFsfKzd5KPivc1EGc9PPDdexAuTL06VEfHR+kc2+ySWNz8+9l7YZPNNjonnnCbJ2jxeRGti0zD6CUnnHhebrf5k+JN/V/150Z/2fnPwIR4abClJCMGOdYsRRt7irZGRosUCvN3n+3/00YjvrJmZXb16pt12tWEr9WBnH53BemXYatu2M6tXz86s+c7I2xdddNEnXq7rl1+q6pdedkBv3w4ve6muX3q4rh/+1kVAINhr5YEbzx7aY2N/mcBf3/6/kX6Luj9Hmz5BvwSCbIvuFs6IFqIVAIAUN1kdLQLJspz4lReycShASHoVkJkzDLnC5tBj0Y539CocLxP5gDDuTAZJ5VrI7OROyI37DHrs4Zeg13hkxciWEvsXTDrIowcearbdaptmt2ZZ6Vx90W1392Zb3uQmnmwKJ1zkale5wYUucKmSDr/OkfGNrnRQhB3ogxrb2so2Grtp0u2jdBJa17me6bmQ32d3zX1/EzfFyzcFLRHC7ZSSRKSi7gtbXn/NuRdcCAAAAA==");
 
 export default CardSpade;

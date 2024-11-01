@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scroll` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scroll?s=sharp-solid scroll}
  * @preview ![scroll](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/scroll.svg)
  */
-const Scroll: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 80l0 80 48 0 48 0 0-80c0-26.5-21.5-48-48-48S0 53.5 0 80zM112 32c10 13.4 16 30 16 48l0 304c0 35.3 28.7 64 64 64s64-28.7 64-64l0-48 0-16 16 0 208 0 0-192c0-53-43-96-96-96L112 32zM464 480c61.9 0 112-50.1 112-112l0-16-288 0 0 32c0 53-43 96-96 96l176 0 96 0z" />
-    </Icon>
-);
+const Scroll = createIcon("scroll", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABYwAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBPgsGAAE2AiQDCAQgBYMtBy0buwTIjsK2vTHSJOmMvo6H5+36OvdVdX+oR64BoIVz0RmcQ6kUbhfz+9Sp5zkPBfA5BEEbC5cGJPt8z/MIRGx417L6smKtoljdJj4aROFVRFigRHR8O95WkMfX2XVKpDsTXF8/NH7WyXUkdRmAqABg5vrVS33wQ/wQ8Wn1VeJTixEQM0EhkCFDVwGmyAS6yhXI5YIfolrl/8CCAKJMHy+BHCXMwUJADpIszyudWzeUmvJ1DaX6TGhoiLir/W39Hml7S8f1d0px58An+z4++OkuERHOLe4b9NS4xr2vD454ukdEY4h7BjwxpqHXU5Wnfu1pHydWkHXEiBWyz79pM998nh0f/k+XEepbtXrggXRM/QgVla8+UPvUU1dVtr//R/5vqSgU6z1eAAJBp/8uHNzeMuXf2oYEfnrrr/re1R/SjPQUaiUQZEOqQ2xJM4DRAagpzukVfFEgmSKj79roNgFCPQIkZfUCZLqoCJCrN1iAku7GClBWb7VM5HVCW1snSBqdBJlxLge5tl4GJVN8qJS1jQxHJArIX1zcPAvNHStGDhtRTCpc36Cggef+5OKYH3BOcgNp0T7HHXPGXnscdMYgpyzVzzpqXgTP9UOFkYYZoTBJcR29T6+z1ymnHXTcsTJksuK9PMC5uHogSYlijmJLEpHK8AIA");
 
 export default Scroll;

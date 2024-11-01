@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `binary-lock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary-lock?s=sharp-light binary-lock}
  * @preview ![binary-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/binary-lock.svg)
  */
-const BinaryLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 0l0 32 16 0 48 0 0 160-48 0-16 0 0 32 16 0 64 0 64 0 16 0 0-32-16 0-48 0 0-176 0-16L304 0 240 0 224 0zM0 288l0 32 16 0 48 0 0 160-48 0L0 480l0 32 16 0 64 0 64 0 16 0 0-32-16 0-48 0 0-176 0-16-16 0-64 0L0 288zM16 0L0 0 0 16 0 208l0 16 16 0 160 0 16 0 0-16 0-192 0-16L176 0 16 0zM32 192L32 32l128 0 0 160L32 192zm160 96l0 16 0 192 0 16 16 0 160 0 16 0 0-16 0-192 0-16-16 0-160 0-16 0zm32 32l128 0 0 160-128 0 0-160zm304-96c26.5 0 48 21.5 48 48l0 48-96 0 0-48c0-26.5 21.5-48 48-48zm-80 48l0 48-32 0 0 32 0 128 0 32 32 0 160 0 32 0 0-32 0-128 0-32-32 0 0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80zm0 80l160 0 0 128-160 0 0-128z" />
-    </Icon>
-);
+const BinaryLock = createIcon("binary-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABjgAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniDDgsGAAE2AiQDCAQgBYMtBzIbkAXIhofn9fg69yVfySAjv5EzMFbwqF8IFdmti27dChX/55rPL+3oPL+f+CFVLQtk/bzz+XA0mlBaaflABzZRnLk1DnEyQhn0kBhSS2L5+I0ev+5Qxt8xQwfp/vQ5bm1fGj8Y5ghJWQCIBgBrjtm3w4ffxrcRn///GvG5bQiItSALFCgwUoDlCoGRShmlUvBt/P8//QdmAohO8sYEStR4Bi8BSpD0lOWQIQN6+uXq3FN39C6P5pPVCUJdi6oSdR0ciqAZzryqOb6qKyFIJXZ/iHpLdZRghuvKzUSc8fSgyN3DVBwPDrl38n6h0yvy3vjItBcWvjrluZFcl497oXnhp7Gfn/25bz7IOTftY9oma24D2b64gWb2GCu1akzTwj5U34s9eesHj4nogMccePSUpoMdHHMAocfUx2ef0n7JF0XrVK3iiy/bXbPbts2yA7L8Yd+rFUef1TRnHR27V74OBIJnLvzy+lP6Lv+ru07g+7d/+Q2f8/+H6UB6Ad0SCIoZ/89wYjoA6YAAAKS42rgUCgwe0aOzPNLLPQKECgGSTpVCYYQGSpXp0GG0BXd0quxTiLJHGOgkCkkvl0FhoZugNNAr0GG5j/KdBkYRr1q0aX+L2RtHZMOuPGdWm5fm25ZDD0FlW12WH4emXF1GpuKks13iYlc6y5nOc+VAX25H6SoX2TijNvihbI5ZWtlS2d39fPhoZ7ncFc5ziYvrOsvk9bkprp5Pn4poIpJznUsSkerTz7v4tMuvm/ktAQAA");
 
 export default BinaryLock;

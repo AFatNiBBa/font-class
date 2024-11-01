@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-asl-interpreting` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-asl-interpreting?s=duotone hands-asl-interpreting}
  * @preview ![hands-asl-interpreting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hands-asl-interpreting.svg)
  */
-const HandsAslInterpreting: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M305.1 392.4c4.7 17.1 22.2 27.1 39.3 22.5l100.7-27.5-81.6 68c-13.6 11.3-15.4 31.5-4.1 45.1s31.5 15.4 45.1 4.1l101.9-84.9-23 46c-7.9 15.8-1.5 35 14.3 42.9s35 1.5 42.9-14.3l85.9-171.7c8.9-17.8 13.5-37.4 13.5-57.2l0-9.3c0-70.7-57.3-128-128-128l-72 0-8 0c-35.2 3-65.4 23.1-82.1 52c-8.9 15.3-3.6 34.9 11.7 43.7s34.9 3.6 43.7-11.7c7-12 19.9-20 34.7-20c22.1 0 40 17.9 40 40s-17.9 40-40 40c-14.8 0-27.7-8-34.7-20c-8.9-15.3-28.4-20.5-43.7-11.7s-20.5 28.4-11.7 43.7c12.8 22.1 33.6 39.1 58.4 47.1l-80.8 22c-17.1 4.6-27.1 22.2-22.5 39.3z" />
-        <path d="M142.3 3.4c15.8 7.9 22.2 27.1 14.3 42.9l-23 46L235.5 7.4c13.6-11.3 33.8-9.5 45.1 4.1s9.5 33.8-4.1 45.1l-81.6 68L295.6 97.1c17.1-4.7 34.6 5.4 39.3 22.5s-5.4 34.6-22.5 39.3l-80.8 22c24.9 7.9 45.6 24.9 58.4 47.1c8.8 15.3 3.6 34.9-11.7 43.7s-34.9 3.6-43.7-11.7c-7-12-19.9-20-34.7-20c-22.1 0-40 17.9-40 40s17.9 40 40 40c14.8 0 27.7-8 34.7-20c8.8-15.3 28.4-20.5 43.7-11.7s20.5 28.4 11.7 43.7c-16.7 28.8-46.9 49-82.1 51.7l0 .3-8 0-72 0C57.3 384 0 326.7 0 256l0-9.3c0-19.9 4.6-39.5 13.5-57.2L99.4 17.7c7.9-15.8 27.1-22.2 42.9-14.3z" />
-    </Icon>
-);
+const HandsAslInterpreting = createIcon("hands-asl-interpreting", true, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABvgAAAK4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDGgsIAAE2AiQDCgQgBYMtB2gb1AXIjtRWd+WKCp7/16n3fck+tuKyHEAVWE4J7AIQbyHAbp265XQlmJP/4AET1zx/a3rAsneuoF5rJEj3+YBGOx9FcgONG2g2opnwBuedaqP+UJi9B7oaqN3EAeqd+gg8Gf4HUL4Sxk1QuDUAAKQ7AAAwbc2KRdR0yKqPnQUgH1kICIBMB8BCAA3QgEgEgAAaAkSiYwE6OgIdCugQLBAAECcDqPHrTkAHMoAKAEAHQCGIrq9YFuTooq8OchgbXnlFXpm2rJE33lfeV+ZLcyUxC30J/WXw6+D3A+5nc9X7Kig54k2IcWfGTBHDaJpc1UfkWsQaUek75lNCCmOleLE2HLFtKdQ3cfSDiMTZp2cbRoOt8H4YmJjO4qr50kgKfx382gyyM8cE30aftO5p33t/3P2RRxVFfvAvOMSulbypqbl/zuN5u2wGOyOoS0wK2Ov31y/xsnHEhqF2UWFe3oG8rT3Sy3r0KEvvsZV6u7zCInvohozd4Jq7dMZoh5uYzyvTOZCfX8DwcYEkSKzbGcGyGbz1eM7fq6l5s2slh1jg9xcV5OcfWJVGW4wbx6iZS+e6dmcc8C+Pkgbuz7+q/8CIjUu8fFq/3gcAAghkXHtkbOkW+O8KUgB8Kfv5F1xOZ5W6qtIAFwoAAc3utNmorgIUTAGAuJLT9DF8lsQigMYKFFPIw+vglGAAIRRODEIjgu6EjsFQwkE0YzjH5SvQEN2NYLIpJhQejhEaY7lE6JjkEw4CNMedmKLttsJOJ/w0ps5mgVmTrBGxw62JlrYIiXsi1w77LWdj0OmyaXC8ld0c4TAn2cVO9nGSwY+zKHWKQ8w2YbP4IhYjiGU4FhOxgiuL6uo0fpwT7FPL4aP4sZYPDeK0ufPgeDoKABi5wjM0ECVa9Ik13rftxEHfFZrwvsN7fKd1NTr5sAcAAA==");
 
 export default HandsAslInterpreting;

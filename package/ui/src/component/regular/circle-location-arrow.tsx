@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-location-arrow` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-location-arrow?s=regular circle-location-arrow}
  * @preview ![circle-location-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-location-arrow.svg)
  */
-const CircleLocationArrow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm358.2-73.3l-84 196c-3.5 8.1-11.4 13.3-20.2 13.3c-1.4 0-2.9-.1-4.4-.4C239.4 389.5 232 380.4 232 370l0-90-90 0c-10.4 0-19.5-7.4-21.5-17.6c-2.1-10.2 3.3-20.5 12.9-24.6l196-84c8.5-3.5 18-1.7 24.2 4.7c6.4 6.3 8.2 15.9 4.7 24.2z" />
-    </Icon>
-);
+const CircleLocationArrow = createIcon("circle-location-arrow", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBagsGAAE2AiQDCAQgBYMtBzwb9gTIhiDSic2e5IDsICvMXAFVj1A0hNwiVf+txy6Nf/zpASfxo+2hG8f01TniFahYc/7xWoEWeE0rYLV2dguDnjdJuhRJhu0NIyPk8WLcpEK6O32EG+NTxZ86uEpSyQBEcwBMX7tysde+i+8iPqw/TXxoIQJiOigFMgA6CzBJJvAIuRK5XPBd1OvyH1gSQDSgH5lAjgrWYCcgB0mW5506ta9WmuRrqpVi56UhEY8s+KC4Zt57gx5ycfDD89+vXrvww6GPRu3bmRFvLv20eu3ij6e/vvqraa8t+qi4ZsknM95Ys3PV2lW3tb6muKdjRBG4wx3t1sadbW5v3eOB5g/83f2jPR/59NXxr/BIrTp2bLX2yCvjaeDAn5ndmA5Pvj5z5utPdmhstgwp3j1v5ZuZvPGzlHIbQsOG/poe5av7rlkMBIJHN/3aZ2uzSf81qibwwwv//q/8iuqvJekBNJJAkA2qD7IpgUQAAFKc0SNBIFkio89ac4cAoUCApIFCgEwnzQXIFQYKUNHVaAEaKKyUibyx0NrmhiY1x9HMGOfQXGtPohWTvJs00Doy62Jtg33bJc1haPa1cviQYeWEcjionMHQ4XxiuWz1O+PX+gNoj6OOOGW3XfY7RcgJi/PTDpszg2f7otJwQwxTmqDcnt3fXmO3E07a76gjcslE5XmvnzPz3f3hJko5QitJRGrzCUcffDMbg7efOHH0LAAAAA==");
 
 export default CircleLocationArrow;

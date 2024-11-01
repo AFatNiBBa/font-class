@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-xmark` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-xmark?s=regular phone-xmark}
  * @preview ![phone-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/phone-xmark.svg)
  */
-const PhoneXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M361 286.7c11.3-13.8 30.3-18.5 46.7-11.4l112 48c17.6 7.5 27.4 26.5 23.4 45.1l-24 112c-4 18.4-20.3 31.6-39.1 31.6c0 0 0 0 0 0c-6.1 0-12.2-.1-18.2-.4c0 0-.1 0-.1 0c0 0 0 0 0 0c-10-.4-19.8-1.1-29.6-2.2C207.2 485.6 32 295.2 32 64c0 0 0 0 0 0c0-18.9 13.2-35.2 31.6-39.1l112-24c18.7-4 37.6 5.8 45.1 23.4l48 112c7 16.4 2.4 35.4-11.4 46.7l-40.6 33.2c26.7 46 65.1 84.4 111.1 111.1L361 286.7zm133.8 78.1l-100.4-43L365 357.6c-14.9 18.2-40.8 22.9-61.2 11.1c-53.3-30.9-97.7-75.3-128.6-128.6c-11.8-20.4-7.1-46.3 11.1-61.2l35.9-29.4-43-100.4L80.1 70.5C83.5 286.2 257.8 460.5 473.5 464l21.3-99.2zM375 7c9.4-9.4 24.6-9.4 33.9 0l47 47L503 7c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47L375 41c-9.4-9.4-9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const PhoneXmark = createIcon("phone-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABhgAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCSQsGAAE2AiQDCAQgBYMtBzIbSwXIjsQ4FvIkVK4ieN7u8efc3QDeAFKXPqmEjiWgD7BjhfIN3uxiFlCiuwJdw/N5+9onTougiWuef9rTAxb5o0RjaVP7Iup8Ag/4tptG0QZcNpxNFGfbjBMyKAqXhggpkogfthy2P0Ae38UxZUin0oOj9UPjDw0cISmTAYjqABg+d+ZkT36OnyPeK90k3jMRATEcFAIZMjQWYJBMoLFcgVwu+DlKJf4PLAggypL7JpCjDA7hLCAHSZbnfZo0rxRWyeeknSquvNY6C16H105DtaqjjqUisRyIut8c5kdo2xYh7cI6Weh2MN7ZQ2fPoahTsFYslx9vJOuByCNd8lQyd8Gl1ihINJquDwMFbW2DAwbNNCKB4/GSq9Xvv5q/v+Z96y72vrZ29XLTws71tjr8C1SoAPz8y/bK1aD5g3su7bXULmj61dZ6Pr31clHXrU7P3Kbd6NHtyvWTV3XAVc89SP//07p2nXa0IO8N0mGVFXWkTb3m9pwbinttTvGKvaurRH/7G6Eff4z+raO+HQgEbXbe+H1pNfhv+UoJ/Hrvn//KZUXpSWqbbpSXQJB1KnWyKFED1SBXgMQp9miBbxJIdsngXSs7LkCoiABJWRUFyDRSXYBcRR0FKKOp3gKUVdFMmcgrCLUtHkRS2XYi08dhIlfbdaKMQV7HZdUO3xlFVxL/BdPGaGB0XtG9S7diQLFt6ZJ/8Xl1YHGst9sTR9pjqzW22mKX1VZZb5fCd5ic7bbZGAsb7YcK3XXRTWGA4rr7vHmO1XbYab2ttpR1Biq+t9vZY09vDysRxh6qkkSkSs/V6Lzv4QIAAAA=");
 
 export default PhoneXmark;

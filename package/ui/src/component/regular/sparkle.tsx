@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sparkle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sparkle?s=regular sparkle}
  * @preview ![sparkle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sparkle.svg)
  */
-const Sparkle: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 32c9.4 0 17.9 5.4 21.8 13.9l59.5 128.8 128.8 59.5c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8L305.3 337.3 245.8 466.1c-3.9 8.5-12.4 13.9-21.8 13.9s-17.9-5.4-21.8-13.9L142.7 337.3 13.9 277.8C5.4 273.9 0 265.4 0 256s5.4-17.9 13.9-21.8l128.8-59.5L202.2 45.9C206.1 37.4 214.6 32 224 32zm0 81.2l-41.4 89.6c-2.4 5.2-6.5 9.3-11.7 11.7L81.2 256l89.6 41.4c5.2 2.4 9.3 6.5 11.7 11.7L224 398.8l41.4-89.6c2.4-5.2 6.5-9.3 11.7-11.7L366.8 256l-89.6-41.4c-5.2-2.4-9.3-6.5-11.7-11.7L224 113.2z" />
-    </Icon>
-);
+const Sparkle = createIcon("sparkle", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABYgAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBSgsGAAE2AiQDCAQgBYMtBy4byATIjtRG+YSdxMP/r/1vnzvzXfBBzZpLE+uqlfUrjfQSHrpGTVBffdVOXO78bdMDLgCd235XtAaFe2kCneddOJYllAWWaQLW7mwtK0nxWEKLJTke7XhdIY+ncUsF6XH6jJv8ofFTLzdIKjIA0QyAhds3r1X6Gl8jPpUTn6xGQCwEhUCGDH0FmCMT6CtXIJcLvka5TP+BBQFEpQQmRo5PLsIOQA6SlOcDe9VVNOTbXEPt7vsdW2NrIO1e+5bYErQHndtiW9Aedm2P7ZGxZfuWOatrW4W2XTt926Ce5p7fAz8f+OzLy6/HZl1xZZa3jY1vC9NtPPZV+htH7MzZ6Wd2jsRVzg4fuVPvmX6WWK9Mh5dBIBjw4+ErTXP+Vdcl8P3N3//8M1L+GqXUg2oJBNmY8hh7ogRREgCAFBcMihICySxJetd6DwQItQiQVKoVINNHswC5WqMFqNDfVAEq1dosE3mN0G5vI5J6p4nMNBeJXLvXRIU53uUrtUdmTbwt8H+5lGUjsHRXMXHchGJWsWyqgoGwYXl2se2MuCCGRsJRB5x0wjn77XPYuQE/Y23pvOOWadhSX1SYaJwJCrMUx53l4W32O+Osw046EbeZrbgfjXBBnzwS9pMAk96hPhGp6qy5usf2AwA=");
 
 export default Sparkle;

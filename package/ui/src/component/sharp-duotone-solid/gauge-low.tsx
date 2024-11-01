@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-low` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-low?s=sharp-duotone-solid gauge-low}
  * @preview ![gauge-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/gauge-low.svg)
  */
-const GaugeLow: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm8.4-116.3c14.6-6.4 29.3-12.9 43.9-19.3c3.2 7.3 6.4 14.6 9.7 22c21.4 48.6 42.7 97.1 64.1 145.7c.6 0 1.3 0 1.9 0c35.3 0 64 28.7 64 64s-28.7 64-64 64c-17.7 0-33.7-7.2-45.3-18.7c-5.8-5.8-10.5-12.7-13.7-20.3c-1.6-3.8-2.9-7.8-3.7-12c-.4-2.1-.8-4.2-1-6.4c-.1-1.1-.2-2.2-.2-3.2c-.1-1.1-.1-2.2-.1-3.3c0-1.1 0-2.2 .1-3.3c.1-1.1 .1-2.1 .2-3.2c.2-2.1 .5-4.2 .9-6.2c.8-4.1 2-8.1 3.6-11.8c3.1-7.5 7.7-14.4 13.3-20.1c-21.4-48.6-42.7-97.1-64.1-145.7c-3.2-7.3-6.4-14.6-9.7-22zM288 96a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm112 48a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm48 112a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M190 142.3l-9.7-22-43.9 19.3 9.7 22 64.1 145.7C198.9 318.9 192 334.6 192 352c0 35.3 28.7 64 64 64s64-28.7 64-64s-28.7-64-64-64c-.6 0-1.3 0-1.9 0L190 142.3z" />
-    </Icon>
-);
+const GaugeLow = createIcon("gauge-low", true, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABwgAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDUAsIAAE2AiQDCgQgBYMtB04b8AXIFkrLw/N2fZ37qrpnuvobNTBXVCQy+htBjAfZCnEPnFMXwANqwflQorG0KAo86hV6gePx1JT8C94veNEb2Hen5VFKK2pJLCR2XFaOS3U+d8jj++waFdKD6UvcHv4HMH7V7xqSWgYg2gCw4ZAD9vLuttiW4svGa8SX9kRAbASlQIYMQwKslgkMyZXI5YJtqdFgWzQaJQFEVXhpBqqo4SP8CMhBEqp5PjzYuaITw3qlOT84vU9xxED/wPLoj4Pihb4HZ7w45flZLw8+NPOlqVcWVxYHx08bIt7b66v6zft8s+mDQ37e+P7eXxc37fnl+ncPrF/RFXFPcVPPfXFl7/31m7vvdcj9vRH3997b/eqcB/tvjpvj2Rkv9j8w/YXJz828r8cBV9ICuB/o9R6b+9hId8ghMuMf1G6f+FLbS79P+PLkL7214F48O+Ze6+4QRdHe/sQT7e10sRDr7vSuLTX6x97btOm9sf6aLearTVe03MANLS03RMq4C555hh27775mzeuvh3COpa+5fo/u7iylFIlIESLllcl7XPJ/vvOf3Xe/f5bQknPmcYZ55zwPBILZVzx74jGtq/8fX09gx+t//kI/Q413k/QSxksgyGY3ZjsygUQAAFJcbGLiBgQyT7gdtMl9wg8FmyVVRcEzg9rwXGEWXjFiyR1VhQNkIq8JXY5i8KTJeXhmqUvxXJcxvGK1T+Kqrsg0WtRH8T+ZtlV4y7pywdz55cpymMuSkvJ+dlW5rE+/uJ4ZcNTJznG2C53kRKe5EOR8e2UXOcvWGX3LZ0sLzDVfaaVyu5prBxOf7wKn9ZX9VVYp5e3pLp4PnwFWgowLPZTJiBRZ+ynHXXTKSXPOPOeSOU+jp5MpjwAA");
 
 export default GaugeLow;

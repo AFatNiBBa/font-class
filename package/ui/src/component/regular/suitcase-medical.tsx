@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `suitcase-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/suitcase-medical?s=regular suitcase-medical}
  * @preview ![suitcase-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/suitcase-medical.svg)
  */
-const SuitcaseMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zm240 88l0 288-224 0 0-288 8 0 208 0 8 0zM96 144l0 288-32 0c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l32 0zM416 432l0-288 32 0c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16l-32 0zM229.3 224l0 37.3-37.3 0c-8.8 0-16 7.2-16 16l0 21.3c0 8.8 7.2 16 16 16l37.3 0 0 37.3c0 8.8 7.2 16 16 16l21.3 0c8.8 0 16-7.2 16-16l0-37.3 37.3 0c8.8 0 16-7.2 16-16l0-21.3c0-8.8-7.2-16-16-16l-37.3 0 0-37.3c0-8.8-7.2-16-16-16l-21.3 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const SuitcaseMedical = createIcon("suitcase-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABjwAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCVQsGAAE2AiQDCAQgBYMtBzcbXAXIHgc5Ga955IOYzL12iCgVD8/P9XbuS2b6m5QhJSIFjApQ8i4rIknsCISbriWSnYQEY3aDMWBsxXFz+vt5/ps+RWkSf6RcRICU70aZAjsf4NN/04EPqJJnOgHb4LxJhxTaEMp3kMdHhBrpGY278Z3GL3q6SVLLAEQHACzYuHaNzxtsRHzTfIf4xioExAJQCWTI0EeA2TKBPnIVcrmgEc0m+w+sCCDq0otIIEcLbuNxQA6Sep63G9m6bduRZa1tvqGsFVvLonwiRRERT9VioYiX+rUeKZ6Z14e0jVfvzd5ZPLtvDC0i4lk/iba8FI/3WJ+yVEQWZUHzTzq7Gyv3D25ZGU9kisej2CAUyG+WKiMWn6oI/kkXYR6CB77R4Y3fBnx74Fvv3ZUCqw/3nOHquy4OTxvne65jx4ICrz53dQDPN1yrPx6d4tSjP0RsY5VqGyot06sPNNrRrlHN6z/Jf/jDEAj2sG03bR8OMUTfnzrip75G5e+GTYT3+3EfP/YDAkG7v/+Zne1n/9dSJvDzh3/8z35Gmg1Jb4AWCQTZ6ObblkAiAAApLhiYIJDcUpceahtPChAKBEjqCgEyvXUQIFcYJUBNP1MEqCuslYm8tdDF9kFK2jgtZaa6JOW6eEuqme2LSl2XyJyk7aDsP8L8S6fQkk3VhLHjq5nVbkvnuDJTr86qLseHX+AjI6CrA0464Zz99jns3IQ6Y039vOOWHpFLfFFlgrHGq8xUPe6+9G/A+TPOTs1t5/k6Zqm+Lw934Xj6CJhKUt2JmpJEpA5+zrTB4TFBFAAAAA==");
 
 export default SuitcaseMedical;

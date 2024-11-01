@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `roller-coaster` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/roller-coaster?s=thin roller-coaster}
  * @preview ![roller-coaster](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/roller-coaster.svg)
  */
-const RollerCoaster: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M136 48c-8.2 0-16.2 .8-24 2.4L112 472c0 4.4-3.6 8-8 8s-8-3.6-8-8L96 54.8C49.4 71.3 16 115.8 16 168l0 304c0 4.4-3.6 8-8 8s-8-3.6-8-8L0 168C0 92.9 60.9 32 136 32l6.5 0c43.1 0 83.7 20.4 109.3 55.1l140.6 190c27.4 37 70.8 58.9 116.9 58.9l2.7 0c61.9 0 112-50.1 112-112c0-50.7-33.7-93.6-80-107.4L544 280c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-166.9c-5.2-.7-10.6-1.1-16-1.1l-17.8 0c-15.8 0-31.5 2.9-46.2 8.5L448 248c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-120.1c-1.6 .8-3.1 1.7-4.6 2.6l-47.3 28.4c-3.8 2.3-8.7 1-11-2.7s-1-8.7 2.7-11l47.3-28.4c22.7-13.6 48.6-20.8 75-20.8L512 96c70.7 0 128 57.3 128 128l0 248c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-186c-19.4 34.9-54.6 59.8-96 65l0 121c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-120-2.7 0c-33.8 0-66.4-10.6-93.3-29.7L416 472c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-162.6c-7.4-6.9-14.3-14.4-20.4-22.7L304 184.5 304 472c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-309.1L238.9 96.6C230.3 85 219.8 75.2 208 67.5L208 472c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-413.3c-15.4-7-32.2-10.7-49.5-10.7L136 48z" />
-    </Icon>
-);
+const RollerCoaster = createIcon("roller-coaster", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABmwAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCcgsGAAE2AiQDCAQgBYMtBzUbdwXIhofn9aI/9yUzCygLQR9kBbloWQH4n8s9Px8L8PMtwUO5q41z2FrjeQIBZr14zOdZQGGWKKZORyvOQyr9xghDthJEPJ6y4/MEefxtjRLp5vQhrrw+NL7WyBmSLAMQNQEwcv7sqV79ND6N+PD/p4gPTUZAjAKFQIYMTQUYIhNoKlcglws+jf//L/+BBQFEmb83gRwZ7sD9gBwkkec3VClVy+dVKVVefEndFNfVvaF+Fk92eKgpdt87/JXxVeLStvd3nBsPq6GK1D7T+dEWd3R6pJ+wKeKGypXjkjYmb/hJAzLq39BgcLxABt8a+lLLceCmDg8xMo++PUhW+7z4Sm72W9rhyQcqV271SM1Hvm354boPnb+y6mMPKK9YUb7bkKlLK/TAkz1UWjvvqgqKj18aeOlLJn/3SevMD9//V6O8ZHGne+e1D9pRsbaGC47bsQfULMTXVvVtO+drbTrUNmN0n9If48LnfXnyxBcHmVimx2U3oOZeD186ea0Wu6ivHiO91vi6V91uU+MKQCD4+aaeM5fXGPJrxSoJfP7893+pd///aTqRHkFFCQRZl/+7WJJOQGEHEEuxT6vgiwLJDRI3VhUkEqEygKSsMmSaqAm5yjpDSXN9VWTmbJnIK6mvrqUKSVU7IdPPUcjV9QSUDPFOtKxuZBmqyS/N/2HGcT0ydlvRs1uPYlAxbWvapFOd64ML2tRh3zHWUQ5YZ7tt9lhrjY1V7phdpib22mpchI31Q4WeuumhMEjxuPd9/zxr7bLbRttts00GK973dbAvnt1RrIlL9lKVJCJVX2Oetbu6Lgzz2l0AAAA=");
 
 export default RollerCoaster;

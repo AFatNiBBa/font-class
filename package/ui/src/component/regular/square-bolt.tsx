@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-bolt` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-bolt?s=regular square-bolt}
  * @preview ![square-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-bolt.svg)
  */
-const SquareBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm298.1 19.6c5.8 4.7 7.6 12.9 4.3 19.6L249.9 240l70.1 0c6.8 0 12.9 4.3 15.1 10.7s.2 13.5-5.1 17.8l-160 128c-5.9 4.7-14.2 4.7-20.1-.1s-7.6-12.9-4.3-19.6L198.1 272 128 272c-6.8 0-12.8-4.3-15.1-10.7s-.2-13.5 5.1-17.8l160-128c5.9-4.7 14.2-4.7 20.1 .1z" />
-    </Icon>
-);
+const SquareBolt = createIcon("square-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABbQAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBWAsGAAE2AiQDCAQgBYMtBzIb2gTIjpQuH7Tx8P1ab+e+7vkVAOgws4ojCYQSSI0LGjEVi2rXTlKs/M3/zZ73PArwA7UEQhsLlwbSfr7n8wQS6+XFAd+yAzs74hOw021qgzqi8I2QIJHo+Ow4OyCPW3FeiXQj/cC5/qbxS2unSEoZgGgEgEkrlsxTrkQl4nv1LfHdHATEJFAIZMjQToCxMoF2cgVyuaAS1Wr+DywIIGrIzSeQo4QFWAnIQZLleaM27euW6ufL65bqrLksxZXm9eNayyyutqg39VYRr3rUjye9XrROcb3n86714mnvl22yTVcsjbo+GujLLa62XBF14urJa807v2z08k+nH9t/mHCg0mCiBpWJyFut05jG9yfpfuPGdSaq0/gLezU9O3vITtPdH9XrxL1dvaavA4Hg/Nvy9Q0Nx/5Xq24CPz/9+z/9jFQrUU4vUUsCQda32tfaKEOUBQAgxXGdo4xAMkNGXrWeqwKEOgiQ1KgjQKatRgLk6ugjQEkHwwSoUccSmchrC82sA0jqOQQyw50EuWZeg5KxPhs1mkUWVGxIsF+6pOmApq0Vg/oPLEYX29jg4oSu8zGFW+55vNR68a7tDtjvqG222uWoQg6bZx+zz3QLnuaDCoP0N1BhtOI4e91ebpvDjtjlgP1tyRjFfb2n43Z3L9YSoRzMlyQi1X2XRr/NB/YeBQAA");
 
 export default SquareBolt;

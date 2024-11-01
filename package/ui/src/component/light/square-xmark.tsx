@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-xmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-xmark?s=light square-xmark}
  * @preview ![square-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-xmark.svg)
  */
-const SquareXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm148.7 84.7c6.2-6.2 16.4-6.2 22.6 0L224 233.4l52.7-52.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L246.6 256l52.7 52.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L224 278.6l-52.7 52.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L201.4 256l-52.7-52.7c-6.2-6.2-6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const SquareXmark = createIcon("square-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABdAAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBcAsGAAE2AiQDCAQgBYMtBzMb8wTIjtRgrTKL8fD9Wm/nvu75FQDoACItoARS4xaN+BW7tTJ66ut94lznOx8NsMiHFoWlA1ljRJ5PYKJv6S8UBfamL2Cv22QJdkThGyFREtLx2XF2hjxeRW8l0ov0L+61D43/tHSZJM8ARAMATFi2aI5ydVRH/Fv5ifjXLATERFAIZMjQRoDRMoE2cgVyuaA6KhX+DywIIKrIIyWQo4Q12AjIQZLleatWHWqX6uZLa5dqrbrZJOKxFOebPqldN241fxZZXGj2tFad6a96RXzfrW582ePblimed/+mc534qud3rbIlz5ouiEUBzJMm82NBYB43WxjzA/O0+aJYGHt1/K7Bd/93+Hfrv8adq3ed6/XGoyzYK7Ua0vC9wrxv2LDWeCw7Hi/+9ttJJkmYly8HGyxTXw4EgmPdP36v/uhPNWon8PH3n+rPSKU6yuk71JBAkPWu9LY6yhBlAQBIcVTHKCOQLJGRa63jqQChFgIkVWoJkGmtgQC5WnoJUNLOEAGq1LJIJvKaQhNrBpzUcQDODHUGzjXxA1wy2h9qlSaRBRgVHtT3Ln4qAVO2igF9+xcji22i0zFDlOWo4ljofjQ3emCnrfbZ67AtNtvhsIIOmmMcscdUC5ziiwoD9NVfYaTCnT/zS0k96JAda9a/ZpTivtLdUbu/B+REcAcKJIlIdd6o2Od4MAIAAAA=");
 
 export default SquareXmark;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `starship` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starship?s=sharp-duotone-solid starship}
  * @preview ![starship](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/starship.svg)
  */
-const Starship: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 96l32 0 176 0 32 0 0 64-32 0-71 0-72.9 0L32 160 0 160 0 96zM0 352l32 0 32.1 0 72.9 0 71 0 32 0 0 64-32 0L32 416 0 416l0-64zm256-96c0-24.6 4.6-48 13-69.6C296.9 114.8 366.5 64 448 64c106 0 192 86 192 192s-86 192-192 192c-81.5 0-151.1-50.8-179-122.4c-8.4-21.6-13-45.1-13-69.6zm128 0a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-        <path d="M129.1 216.8L64.1 160l72.9 0 50.4 44.1L269 186.4c-8.4 21.6-13 45.1-13 69.6s4.6 48 13 69.6l-81.6-17.7L137 352l-72.9 0 64.9-56.8L96 288l0-64 33.1-7.2zM384 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm64 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Starship = createIcon("starship", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABkAAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCNgsIAAE2AiQDCgQgBYMtB0wbVAXIBqLSWT27a9VZOoZ9YpD9DJAawrvoOULKmdPX/F/z+T2/Bvxhd+KH1qG3jQs88/kENrCwwtYRDGTaZjxrZ7+88npW6SkShu1kmByAUXX0NkKgTqv7wEH9H0D5QhHbQBHWAABIJgAA0C06YhA3XspLJfeDKpD7DAQEQLoDYBFAAxooRQDoiEaAUgwWMBgEXqoggJcSBBYEAMRB71kD4ABhYCWwCwAwACg0xpiStJxwOC/NC6WZiBdyoxE/4skgico5NpVFZKC4EpXWItLGv9ggWS9edq5urH6ivN/eApGTsjn/hLsn9xib8o572nM9xHVFyc2jmysqu1zv82LYE//50Mcjb3a+1vyCeOfrxRskKy7UT9SNlVZPZCa+Vbs/4z6b3ndtK6v6UcKwLG7UqnUjFEroR7sHh644/2vr179+vdYeD9J3wa70KhYzydqfXbGP9bg8mFjrhv/q5+Nh4vsi1DDfX/T45yv/Rq1Nm34HAAIIrKtasm9iRsd/KZ4C4PWlH5/jlWqTSgApKAAEdMOgIePUJgAWCgA8KSUrqK420RUQQNMBQ9qbygkEAMEFClA4uEBTQiYwuDQAIcppJU/uGYFGTBghl/EQUKSyGGhasx4YcqkEITpyq+iQKxqEKoTUL2BWb0v0mmebNW5q29tuVdZwJct0Bzsd1V3huurRRmawkAUsYzrTmM0ywy9hUGU58+k9InvxQCzNaExTLO2xy41bK2KwJSxlNsGC9Vk6YM9ndVkxHlyPUkWSbM4ajQZRojNfiYx0rxGag+zKuLY=");
 
 export default Starship;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ornament` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ornament?s=sharp-solid ornament}
  * @preview ![ornament](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/ornament.svg)
  */
-const Ornament: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M224 96l-64 0 0-32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32zm32 0l0-32c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 32L96 96l0 57.7C66.9 170.5 42.5 194.9 25.7 224l332.6 0c-16.9-29.1-41.2-53.5-70.3-70.3L288 96l-32 0zM0 320c0 22.4 3.8 44 10.9 64l362.2 0c7.1-20 10.9-41.6 10.9-64s-3.8-44-10.9-64L10.9 256C3.8 276 0 297.6 0 320zm25.7 96c33.2 57.4 95.2 96 166.3 96s133.1-38.6 166.3-96L25.7 416z" />
-    </Icon>
-);
+const Ornament = createIcon("ornament", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZwAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBTgsGAAE2AiQDCAQgBYMtBy8bzQTIhod/dL7eJ8k+P7KDrAARtRMRbTzsgbU0dfbUqec5DwXwjYI2pi2NrwE053kEAp7tDx6gtAWvaQWs5i1nj5Ms+yYTTdLjt8cvQcjiTHpVieSZ5E883h4Vf2ntKol6KYBoBIBJK5bM8/ODeBDxR+0L4g9zEBCTQCGQ4qKdAGOlgoeQKZDJBA+iVtP/wIIAosw+PwEZypiDRYAMJLIsa9i2frVSqp8tr5TyNXklj7jU8qnKneZPUAnxbO93u7/e8+1WIg/xdd/68eHoiHzpxdb147m41KYaT1v2waiIb6b9Mua7AdXO7zZ6959Of27/0/0NEy1QaHDzZoMiFNDyxo1ffhnQeaEw2jfPzfXcN6MVtfudP9jtg868u/WGO9/w9sKFb39zZy4QCAZ8tbLLhoZj/6+rJODRt//9g7+i2s9xMXkXdRIQpH1rfa2NixAXBQAgieM6x0UEElNk5KlVTwoQcgRIlOUCpNpqJEAm10eAkg6GCVCWWyIVWT2hmXUDJKoOgdRw50Cmmc9AyVi/GGXNIs0nKhuo31z8dI9MmysG9R9YjC6WoU6nCFHHY4ptsedxlnrh0nYH7HfUNlvtctRhh82zj9lneoRO80WFQfobqDBacZw8Hy+3zWFH7HLAfp0yRnFf7el43NwLSsJwB1tMJERSd+Dw/k1vigA=");
 
 export default Ornament;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `loader` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/loader?s=thin loader}
  * @preview ![loader](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/loader.svg)
  */
-const Loader: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M264 8l0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-88c0-4.4 3.6-8 8-8s8 3.6 8 8zm0 408l0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-88c0-4.4 3.6-8 8-8s8 3.6 8 8zM0 256c0-4.4 3.6-8 8-8l88 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 264c-4.4 0-8-3.6-8-8zm416-8l88 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-88 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zM435.8 77.8c3.1 3.1 3.1 8.2 0 11.3l-62.2 62.2c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l62.2-62.2c3.1-3.1 8.2-3.1 11.3 0zM147.3 377.6L85.1 439.8c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L136 366.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3zM68.2 72.2c3.1-3.1 8.2-3.1 11.3 0L147.3 140c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L68.2 83.5c-3.1-3.1-3.1-8.2 0-11.3zM373.6 366.3l62.2 62.2c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-62.2-62.2c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0z" />
-    </Icon>
-);
+const Loader = createIcon("loader", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABiwAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCLAsGAAE2AiQDCAQgBYMtBy0bKQXIjpQuZyTx8P9r/9vnznxR1AZ3bWLdJLFo8CumzUP1qon8KkTfx7+ULxc/KuD3ihfldSx7l1T3tDFmvAIVXcsn8Ak0Na2A1dwaF8QRUuyRSGwzpoT0+Ak9Xt0gjxe2KSPdTp9x8dBU/NLGBZIsAxCNATB55dL53n6P7xGfS4+Iz+YiIKaAQiDDW9oLME4m0F6uQC4XfI9SCf8DCwKIcvK2BHJU4zjOAnKQVOZ5fX3dGqspq8tXbB9X7xSuNb/RMuJmq+stknNsAWuCqFgdjGytqa5RRIdXXm++KK61vNFqadxssW3R0kUAHGtOLg+i4opgYPviJYtVWoLosi4NjRv++Lzjs4onq1atKt+0qXyVPHzLseIOuAosUO9UNGwGi16z+8OGf7FsWe4f05YVfb9I3tKp06d9hYLpCwYvXTplKouwYOoUw4cP7v5VOGx44h8GuB8IBH3u3W2zsdG4/5U1Cfx8/m/5GSm9TVIDKiUQZP1K/axLIBEAgBQndEkQSParJFqtdUOAUI0ASblqATLtNBYgV62vAGU6Gi5AuWpLZSKvEppbryKpdVhkRjgpcs09EGXGeZco1zyy6WeZPJafv5wzvDx9VTF4wKBiTNFsuKwzypQWxxaP1V4nONAba+xw0AHHbLfN7gKnO2J++rj9ZvSU6b6oMNgAgxTGKIbb37mCQ+ZRuym2jS8zVvG+u5cT/fG94UrE4BAVSSJS+UcEAAAA");
 
 export default Loader;

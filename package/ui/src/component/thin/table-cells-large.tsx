@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-cells-large` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells-large?s=thin table-cells-large}
  * @preview ![table-cells-large](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/table-cells-large.svg)
  */
-const TableCellsLarge: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M264 48l0 200 232 0 0-152c0-26.5-21.5-48-48-48L264 48zm-16 0L64 48C37.5 48 16 69.5 16 96l0 152 232 0 0-200zM16 264l0 152c0 26.5 21.5 48 48 48l184 0 0-200L16 264zM264 464l184 0c26.5 0 48-21.5 48-48l0-152-232 0 0 200zM0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96z" />
-    </Icon>
-);
+const TableCellsLarge = createIcon("table-cells-large", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbwAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBZgsGAAE2AiQDCAQgBYMtBzgb7gTIHoVxMz3SRXMUUd7+EUFlq8zqmT1YeMR5ZvRY8gnZE9sAYCpkbjPX4r6vEP2Jy53/+dP7Nnq0sWlO/a2NMc4TKLDH8nwIZIFlmoDl/81/NXyInCFS3H5X0rAd3jC9O+Txlr1KpDsSXJc+NP7W2bUkWQYgWgFg1oY1y7z/Q/wQ8Wk94lNLEBCzQSGQIUM3AabKBLrJFcjlgh+iXnf/gQUBRAO8KIEcjViPbYAcJKU8r6HWpVKq5etzvXxAqATgOzvc2r/cUik/3O7mTqJvWyvc0f6WfopdXlcJyWMdb+vanhf23zUk4qkBtXhk0BOdU9w+8PG+1Xh08JNdst5PtnryX/bTeN2HaPrD7bLPvhm5Vq+jceQ3n2W3+8OHv39+O+jZBR/64/8P1lcbT5Rb0/r+y+5v3bo8kxhyj4NAsPW5pcd3tJz6X1MlgZ/efOVXVP8hSU+iSQJBNrQ+1NYEEgEASHFe7wSBZLkSvGvVrQKEMgIkDcoCZLpqJUCubIgAJT2ME6BB2RqZyJuFdrZZIqk6RWTGu0Dk2nmJKJnqg7RBu8i4xTCD+bNLnC+BeeeKUcNHFpOL7VBl6ULF4ynFsTLwvF8aZG7a74Tjztpnr0POCui0ZcU5x8zXwHm+qDDKcCMVJiuuJ4/iepGedsahNX9/yhTF+2Cg8/rmQUZPQDpaR5KI1Jp28rAvUh5GRAAAAA==");
 
 export default TableCellsLarge;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `card-diamond` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-diamond?s=duotone card-diamond}
  * @preview ![card-diamond](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/card-diamond.svg)
  */
-const CardDiamond: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L320 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM80 256c0 4.1 1.6 8.2 4.7 11.3l96 96c3.1 3.1 7.2 4.7 11.3 4.7s8.2-1.6 11.3-4.7l96-96c3.1-3.1 4.7-7.2 4.7-11.3s-1.6-8.2-4.7-11.3l-96-96c-3.1-3.1-7.2-4.7-11.3-4.7s-8.2 1.6-11.3 4.7l-96 96c-3.1 3.1-4.7 7.2-4.7 11.3z" />
-        <path d="M203.3 148.7c-6.2-6.2-16.4-6.2-22.6 0l-96 96c-6.2 6.2-6.2 16.4 0 22.6l96 96c6.2 6.2 16.4 6.2 22.6 0l96-96c6.2-6.2 6.2-16.4 0-22.6l-96-96z" />
-    </Icon>
-);
+const CardDiamond = createIcon("card-diamond", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABdgAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBVwsIAAE2AiQDCgQgBYMtB1Qb/QTIjsQ4JvKLqCy0EZLM8vC+rddz38yuDABjZqwAK0Au7crcUdIUX2mjVFHKaPP/XXj6m3/eeRTgA5Hm8o0LJJrzPIG8zguXf/Al9E2/gf3sUA7Wzj5hUJ9J/QTf9xkmLsPihjyOZGeUSHfSn7jE/wMYf2vuDEn1DEDUA8C4JQtm+V4VVSn+rHwg/jQTATEeFAIZMrQSYKRMoJVcgVwuqEoVVEVFQQBRxk+egTJKmIFlgBwkIeV5vRbNa5Zq54trlmqsuNloYVxvvChuNF0St5oszu71iHjXpXa86PameYrbXV93rBUvu79tkS06YVBrnstynMyOmzXO+g5p/7be23/a/bn5T7+7v3mzZo27d6dk04ka9an/mMf169c4ASotn/OtPHHNGhPL7XEgEPz/u4lr6o78r1rNBP76+L/xh6TyPU6kt6gmgSDrWelpZZyAOCEAACkOax8nzEAgM0BSP7WWmwKEGgiQlNUQINNSPQFyNfQQoKSNQQKU1bBAJvLqQiOrAkhq2Qcygx0FuUbeg5KRfjhljSIDFQ4J/E8XM1lo0lzRr3ffYnixDAmBE7SMRxRmpevhSt1o12Z77HbQJhttcxBkv1n+IbtM1uBJvqjQT299FYYr3Mk9sxhnvwO2zSn/lBGK/VpXh/XmbrROAvQ/jkBGpMgaAVjo9ZSFXvisNhlQdxEAAAA=");
 
 export default CardDiamond;

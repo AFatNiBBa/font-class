@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-hail` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-hail?s=sharp-thin cloud-hail}
  * @preview ![cloud-hail](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cloud-hail.svg)
  */
-const CloudHail: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M400 128l0 16 16 0c44.2 0 80 35.8 80 80l0 80-80 0L96 304l-80 0 0-80c0-34.8 22.2-64.5 53.3-75.5L80 144.8l0-11.3L80 112c0-53 43-96 96-96c32.4 0 61.1 16.1 78.5 40.8l8.9 12.6 12.9-8.4C288.9 52.8 303.9 48 320 48c44.2 0 80 35.8 80 80zM0 320l16 0 80 0 320 0 80 0 16 0 0-16 0-80c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C247.3 18.8 213.9 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 80 0 16zm128 80a16 16 0 1 1 0-32 16 16 0 1 1 0 32zM96 384a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zM64 496a16 16 0 1 1 0-32 16 16 0 1 1 0 32zM32 480a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm240-96a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-16-32a32 32 0 1 0 0 64 32 32 0 1 0 0-64zM192 496a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-32-16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm240-96a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-16-32a32 32 0 1 0 0 64 32 32 0 1 0 0-64zM320 496a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-32-16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-    </Icon>
-);
+const CloudHail = createIcon("cloud-hail", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAAB3wAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTyEPQsGAAE2AiQDCAQgBYMtBzEbPgbIhofn7eo791WNqseo+TAXIHtDwEnwES4cqef/cs/Pzg/wi5+fyfFYuHTTBhyztTGB8LAx9V60hbIs0QR7HmCA3ui2qyCikfgRCo0j5PG+E9SRHk0/4G73pPGjATeQZBmAaAfA+oP339Mn22JbxPe1N4nv7Y6AWA9KgQwZhgVYJRMYliuRywXbolZj/4ElAUS9CE7Kc7Tjn0eB8rKkNc9njDd1aatS15IfJKsWJwuVeHP6qyOiaI64dujxqX0RLX165mtLv5zdE33xcmXNPKZStM2ZT82oLknn3Tbpoy1vTHtlWLzA32+/cOBDvQ/3PdjzQPeUa3oiHqzc3vdwXNv7UHFb9wMOmOcOnqEsN9jTIx6wGmNfd2bxhGp79efxH076wd1r26PTtZ94UOxjn3v2MbRz58nPq+jVWK1eM/7W5b62qh+Jd3+8SbLPJJFWHTm75dnffv2/rde7fQ1t+2i/eu9tra3bUrxa6y3c0tp6y6RjZy+Ivx7NiDQL/d7au0/dDwSCfd6ofn9026q/GysJ7Hjv1x/Lj5HaJ0mqolECQTarNssRCSQCAJDiIhMSBJI/tYoetdlDAoQCAZJ6hQCZIe0C5AozBagzarEA9Qr7y0TeJHQ7sgVJs3NBZokrQa7b66DOKl879bojew2oQEx9hcZv6UObZ5Xz58wrV5SLsZoO2YQeXFnuFqZdxBumw4NOcrazXOBEJzjVBT3kPHv6FzrTljX05teW5ptjntIK5ens8e6DnOg85zvV2c6y06xU3q9Mc9F6++lQTiLMBQJJIlLxP0Rn9inHnnoGAAAA");
 
 export default CloudHail;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `egg` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/egg?s=sharp-thin egg}
  * @preview ![egg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/egg.svg)
  */
-const Egg: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 480C96.4 480 16 386.9 16 288c0-53.4 15.4-118.6 45.8-169.8C92.1 66.9 135.7 32 192 32s99.9 34.9 130.2 86.2C352.6 169.4 368 234.6 368 288c0 98.9-80.4 192-176 192zM0 288C0 394 86 496 192 496s192-102 192-208c0-112-64-272-192-272S0 176 0 288zm80-8c0-25.4 5.2-56.3 15.5-85.4c10.4-29.2 25.8-56.2 45.9-74.5l-10.8-11.8c-22.6 20.6-39.2 50.2-50.1 80.9C69.5 220 64 252.6 64 280l0 8 16 0 0-8z" />
-    </Icon>
-);
+const Egg = createIcon("egg", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcAAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBYwsGAAE2AiQDCAQgBYMtByob3QTIjtRW946BjId/7Pq6r6q6B1ANYMSIpBDCQknwz6ZSNCho7qlTz3MeCuBzCIIyNi7KprHA5zyvQMV69W0VGQssoljdJjawIwrfEAkSiY7T4+vpAFnstUyB5GzyE06MH41f1HGMRJoCiMoAGDxz6nhvS6Ik4scvj4gfjUVADAa5QIoU9QXoJxWoL5MjkwlK4ssX/g/MCSCK5N0SkKGAGZgHyEAizbLGDSqXK1TIZpQrlJ3+uE/E8w4Rt5scbnS54522L3o+6n2t/a0GF11pd7PX024zrraPuNU74tnwb/u+6Hin6eEu9we8HvFVv5ed7poZv23bmvGy3QWiXEST65Wv/9b4pxU/edPozz3s2cPaaP3y5ooV/xdPniz+D1zt1rF2D57wzzdvCse5dIubkybdvHXpeKHP+AXnbvz1141zC8b3mViq1cffnle50pe2pVVWGggE585crb+wUr//SpdLwM/P//hFufqLOJRcR2kJCNJ2X9qZF4eA0QEESezQxFlZIDFBCrjX8k4JEMoiQKKorACpeioLkCmrrQAFDXUXoKisqVKRlRGqm68gUd5mkOphP8hU9wAU9PNtUFQ90syi84J+2CWMsNDwbXnnDp3yPvk2MZlkIduybx4WW+2ojda01wobbbDNcsusts0gW4yPt1tvhAcPt6JcZx10kusjP85fd8+w3BZbrbbRhr5JX/l9o5Udfn9rUhKC2YWTSHwwrC5fuRIAAA==");
 
 export default Egg;

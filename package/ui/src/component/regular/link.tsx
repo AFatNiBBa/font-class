@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link?s=regular link}
  * @preview ![link](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/link.svg)
  */
-const Link: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M580.3 267.2c56.2-56.2 56.2-147.3 0-203.5C526.8 10.2 440.9 7.3 383.9 57.2l-6.1 5.4c-10 8.7-11 23.9-2.3 33.9s23.9 11 33.9 2.3l6.1-5.4c38-33.2 95.2-31.3 130.9 4.4c37.4 37.4 37.4 98.1 0 135.6L433.1 346.6c-37.4 37.4-98.2 37.4-135.6 0c-35.7-35.7-37.6-92.9-4.4-130.9l4.7-5.4c8.7-10 7.7-25.1-2.3-33.9s-25.1-7.7-33.9 2.3l-4.7 5.4c-49.8 57-46.9 142.9 6.6 196.4c56.2 56.2 147.3 56.2 203.5 0L580.3 267.2zM59.7 244.8C3.5 301 3.5 392.1 59.7 448.2c53.6 53.6 139.5 56.4 196.5 6.5l6.1-5.4c10-8.7 11-23.9 2.3-33.9s-23.9-11-33.9-2.3l-6.1 5.4c-38 33.2-95.2 31.3-130.9-4.4c-37.4-37.4-37.4-98.1 0-135.6L207 165.4c37.4-37.4 98.1-37.4 135.6 0c35.7 35.7 37.6 92.9 4.4 130.9l-5.4 6.1c-8.7 10-7.7 25.1 2.3 33.9s25.1 7.7 33.9-2.3l5.4-6.1c49.9-57 47-142.9-6.5-196.5c-56.2-56.2-147.3-56.2-203.5 0L59.7 244.8z" />
-    </Icon>
-);
+const Link = createIcon("link", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABgwAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCIQsGAAE2AiQDCAQgBYMtBysbHAXIHgl2bMrCJuY5bzoTQrSGZfa2QOBbhSQ0GkPg0LJjY2tcjUFXXQX/Fo2lswHCywcAUYEEIAVEMimwMO27ynwtQE6dep61KIAfk5AEeA8NyAIJja55XoEAxnr1adWC1HqlWkWx1k6fMIhuk75P+ZBh88PmDDl+KARJD3yvgJv6pvEFVX1AUlIAiHoAsLgWG47LP/SH6IW3B8QLQkFALALoRyhQoBuBGfwC3QT0gywLXonHi/+BDAggSoFMvOzv3AdHADJIUs5jY+KCNXk1PLdy64IozjzOA+7dFGhIddhQmTbt94zX0WUUR2ti/SYbWjOmyjSptKKgQKc68+5n4gOeiRWnoDjlAf87T2UaVRvRU1jDHfY/gbpNE2lTfMB4XXPaSIHGFJeVlemCs+BxLtbvFsfZkNn4q/Na8Arf50kXYPJpNDv6Nh7cq38a+Xjwsjo+NTQ4rarGi6HBy6aCwKA/rrgaPD+ElSqeHzm7HFVVCytuEdm7ElsfGvH4LHw3MPg+OfThj7RWxZYnZ+cn9zgAgeDT9bN6prTbt4gE3o+5/9v9cv/f+Cr4NgDlEgiKwf9mSEtdkCOn9IIAeYpDcOibEJJ1fPCq1W5BIFQiQFKqUoBCFxkEskoDCJToZY9AqUpL+EWuEJqlM0iq7YDCmHaQNdsBJWY85KWag9/wVLNR/31ZARLy72PWFlbMhU0bXbMlOe+7suXIqCHNGdNJFKhUoU6+PMXqBF8jvKpXLkDj/P0QY82CFcYFOx49Hk+Qr0atYpUqyiGu2P3MSIO+2phSPhAdUksSkfL7BgA=");
 
 export default Link;

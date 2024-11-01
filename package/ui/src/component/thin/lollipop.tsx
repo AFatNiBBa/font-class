@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lollipop` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lollipop?s=thin lollipop}
  * @preview ![lollipop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/lollipop.svg)
  */
-const Lollipop: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 368c-51.8 0-98.4-22.4-130.6-58.1C84.8 326.4 113.3 336 144 336l16 0c70.7 0 128-57.3 128-128l0-16c0-53-43-96-96-96s-96 43-96 96c0 30.9 25.1 56 56 56s56-25.1 56-56l0-8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 8c0 22.1-17.9 40-40 40s-40-17.9-40-40c0-44.2 35.8-80 80-80s80 35.8 80 80l0 16c0 61.9-50.1 112-112 112l-16 0C73.3 320 16 262.7 16 192C16 94.8 94.8 16 192 16s176 78.8 176 176s-78.8 176-176 176zM0 192C0 298 86 384 192 384c50.1 0 95.8-19.2 130-50.7c.1 .1 .2 .2 .3 .4l176 176c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-176-176c-.1-.1-.2-.2-.4-.3c31.5-34.2 50.7-79.9 50.7-130C384 86 298 0 192 0S0 86 0 192z" />
-    </Icon>
-);
+const Lollipop = createIcon("lollipop", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABhQAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCLgsGAAE2AiQDCAQgBYMtBy8bLQXIHge5KeveRRFl7ih6PDxvV/25r2rgmhVrZXTPSp/MoMgOAUcQUyGdLrj3DAnTn/9r6oVVAX4Av+pt1s8TPPP5BO75aDaMsgaNAjtRnLWrxrJCyUtJEtu13eNz7eN7G8jjJcfUkW5P7+Ha+qPxq/4uJ8kyAFEAYFnXjk1e/yl+iniv9gzxng0IiOWgFMiQYZAAC2UCg+RK5HLBT1Gr8X9gSQBRr2GJn9OB5+IKQA6SlOebhrbUteXV8DnNXV9sf2FWS7y55LUREfeMf3D202PvH3R775tH3df31oERt/S5qZe4uNdNzVf0uSXunfDQnGfGPTBY3DX2/pnN8cbiV4d/uePTrs+3fVz5bOtHO6ufb4v4uPLljktU4ua+t/apxhXxadcX2z+p3g4c/mDx4O/eO/49r23ZEmPm/lTYumJmXaHxwQcvvtjdqrHhz266NzSqP3SovlHniw91dj70YmdUjyuK46pR6Oj+lyIZ64sseze6wku+9lhsq1DZFhtjqXjsMTt2zJqFfMhj41liiZioVI4HAsH13/bIwY6F/ze2JPDLi08Hqr2aUnoQjRIIsom1ifYlBKg7VEArpDjfcEQskJwqAe611S0ChGYESOo1C5AZqBAg12yCAHWGmCVAvWY7ZCJvEnrZP0HS6iyQme0CkOvlKVBnoTcL9XpFZn+a9Wh/f9mrV3RVWDlt8tRyfnmtGLpJKWVyQfk4Mfb82DEOCx3vDKc713GOOcm5i3i2TeXznGa1RK8SodI0k01Vmq9U19/tKhXOdo6TzqZ+mgXK93NjnS/3H4dZJMD0L6fEeZEaTz3j1FNPOvOMMwEAAA==");
 
 export default Lollipop;

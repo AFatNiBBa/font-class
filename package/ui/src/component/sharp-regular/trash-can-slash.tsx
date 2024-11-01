@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-slash?s=sharp-regular trash-can-slash}
  * @preview ![trash-can-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/trash-can-slash.svg)
  */
-const TrashCanSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M243.2 0L256 0 384 0l12.8 0L404 10.7 450.2 80 464 80l48 0 32 0 0 48-32 0 0 246.7 108.9 84.6 19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1l19 14.7 84 65.2L176 80l13.8 0L236 10.7 243.2 0zm-49 128L304 213.2l0-21.2 0-16 32 0 0 16 0 46.1 48 37.3 0-83.4 0-16 32 0 0 16 0 108.2 48 37.3L464 128l-269.8 0zM128 196.9l48 37.8L176 464l288 0 0-2.4 48 37.8 0 12.6-48 0-288 0-48 0 0-48 0-267.1zm96 75.6l32 25.2L256 400l0 16-32 0 0-16 0-127.5zm80 63l32 25.2 0 39.3 0 16-32 0 0-16 0-64.5zM247.5 80l145 0L371.2 48 268.8 48 247.5 80z" />
-    </Icon>
-);
+const TrashCanSlash = createIcon("trash-can-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfwAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCTQsGAAE2AiQDCAQgBYMtBzYbUwXIngV2w/URJsWiGGo9z8EwDPHw/3NV9/2kmtI1iBlmVICeSMix43gJ3ArVZy1TJbNqQ77XhqTZSfnENfWTnx6w7IFfMWPDKP0CX9b5BMZZGnX+N54PbKI43+tnN95JnPpKnsmaOf1H9vHXFfL4J+6okJ4muD2+NL7R1S2SSgYg2gBgzqZ1K7zXEi0RX9YmvrQMATEHlAIZMvQQYLpMoIdciVwuaIlaDf+BJQFEne2jEsjRgFt4CMhBUpfng3q3r1Ybi0o131hUmrYVTUXH2BBFIZpCbIgBMTwGxlnVRpF3aZui8/oNGzkdowghZgRXNK+fMXOGqEYsa0VTc0S2YcjQIQAEO9yNRVMxFJEN7vu8zd8FP7+rZ0eNmK/V6tFKfzi+zkgfG2n6K7jrZhveKvSOjr56Yv3udtRG2cORfrWOS477zVdazZn/23BXSv6SqtGrRyt2LftTLJnE1VUzDVp+9qTa3fauXQ5aBQSCiQeubt/VevpvDUUCX7/E8XLtvXQtjQYJBNnw2nDb0zUAMwA/xUV9gykGkkvebVTNHgkQmhAgqdMkQKa7NiRyTYYRFb1M4JO718lE3ih0sINE0uwMkZnoMpHr4AVRMd2nXp0OkZWjWEzi32DaQgsvGFWOGTm6nFreFpxShfHr4LQyHR98sTcMkZMOOuWk8w7Y74jzBj9rRXjBCQsjbIEfKo0x0milqcrp8ldto3pnnXPEF+cBw0xTPp8Z7GLcfohMJwHGfkggnRGp9fmze84dHrFvz8kR547vOXcY");
 
 export default TrashCanSlash;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `copyright` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/copyright?s=sharp-duotone-solid copyright}
  * @preview ![copyright](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/copyright.svg)
  */
-const Copyright: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128 0c0-70.7 57.3-128 128-128c45.9 0 86.2 24.2 108.7 60.5L324 213.8c-14.2-22.8-39.3-37.8-68-37.8c-44.2 0-80 35.8-80 80s35.8 80 80 80c28.7 0 53.8-15.1 68-37.8l40.8 25.4C342.2 359.8 301.9 384 256 384c-70.7 0-128-57.3-128-128z" />
-        <path d="M256 176c-44.2 0-80 35.8-80 80s35.8 80 80 80c28.7 0 53.8-15.1 68-37.8l40.8 25.4C342.2 359.8 301.9 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c45.9 0 86.2 24.2 108.7 60.5L324 213.8c-14.2-22.8-39.3-37.8-68-37.8z" />
-    </Icon>
-);
+const Copyright = createIcon("copyright", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABjAAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCDgsIAAE2AiQDCgQgBYMtB04bLgXIhof/t+u/fW5V9wdU32ZmZFCkERG/NaGjifvi5nnnUYAPIs1xHsgC3lMT6DyQPI87TyjTSe7pNvHyCKQvIoaUSXU8YcfZCnn8nJ1RIt1O3+K6/Acw/tLCGZIaGYCoD4DxSxfO9mFVVKX4tvIq8a1ZCIgJoBDIkKG1AKNkAq3lCuRyQVWqVKiKSqUggCiTb8pAGSVsxwFADpKQ8rxjq461SnXyJbVKNVe+2i3iydb3uz81+I2+w+PJTk/W/HzM+x0ejP1g6uXuj7oPi+eHxG/jIz6a/V2ty3N/mPjJ0t8nfDzn+5qXZn077sNFtR6MjXANvNrtyO4dnq7/9D/tv93yrUq9+ptZErFkc/2PNl7U8oMXO86bOKhUGjRxXscXP2h1wcaPfGhyDVq88tHEiR+90qKGyegG9sRkCx6ov3nXdiAQ9P+qae219Ub9X71WAn+8/d+f5UJS+TBJT6O6BIKsV6WXVQkkAgCQ4ogOiRMIZMZI8lFruyFAqIkASVlNATKt1BcgV1NPAUraGixAWU0LZSKvITS2ukFS237IDHEUco29AiWjfGGUNY4s4MhwIb97cVMQmTxV9O/TrxhRDF2ViiE8tUcWbq3bEU51p0Vb7LXHIZttst0hwA6YbR+22xQLnexEhf766KcwQrEcrLklYBxw0PY+sz5mpOK83s0Ru7g7zZMAA67KkREpsgZhKfV+ualGinmj");
 
 export default Copyright;

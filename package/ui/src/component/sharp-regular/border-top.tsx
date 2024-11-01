@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-top` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-top?s=sharp-regular border-top}
  * @preview ![border-top](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/border-top.svg)
  */
-const BorderTop: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32l448 0 0 48L0 80 0 32zm0 96l64 0 0 64L0 192l0-64zm448 0l0 64-64 0 0-64 64 0zm-256 0l64 0 0 64-64 0 0-64zM64 320l0 64L0 384l0-64 64 0zm320 0l64 0 0 64-64 0 0-64zm-128 0l0 64-64 0 0-64 64 0zM0 224l64 0 0 64L0 288l0-64zm448 0l0 64-64 0 0-64 64 0zm-256 0l64 0 0 64-64 0 0-64zM64 416l0 64L0 480l0-64 64 0zm320 0l64 0 0 64-64 0 0-64zm-128 0l0 64-64 0 0-64 64 0zM96 224l64 0 0 64-64 0 0-64zm64 192l0 64-64 0 0-64 64 0zm128 0l64 0 0 64-64 0 0-64zm64-192l0 64-64 0 0-64 64 0z" />
-    </Icon>
-);
+const BorderTop = createIcon("border-top", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABjgAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniDCgsGAAE2AiQDCAQgBYMtBzEbiwXIHoVxs3PEV1TRWJzZsp8Sz9PPfZ77kiwEdotsiRTrSrQVlm1XuCLbL2RVfFm4P7Wdyur4H5t7H7hOiO9Ia+nO0EiONNZoNmPzzNCskPeJy53/3dj0gJP40fa09w3eXLYFwjDN4xLKAgss4QSs3Wk0CmknCSEtx7fjkzvUeZtHGsrr8g0P05vmr+0+FE0FIOsAwKUbnRzlXObJ1+lHvroMArkE2EdQocIuAs5SBbto9oFaLcwzTfY/kBAgCwgtvrbGRvAZM0ANivV1vayKrhnq6/6xthr6QfpE13bSJoNok3T9AF4FB7Bd43UGeA3swBtXD8zWzf75tvrm00jCUOnYzYsm0BszKHtQoHcRwLUtTGMO+bHwL+g5a/3zAEH4+HjP7/Hq2f9LXQF/vhx/RqZ5xjLDkgJCdWg6ZJARMgoAoOQ+IyOC4rX16FV7LwREi4BiQSugspNOQK11kIDGHlUCFrSuUKVeFpsMK1P0bjGVM95MbZMv0zjrXy3YlEpaFVlT/oqZWQuk5xj5IVtcdhRVAKWw2eZxaL7chAU3sXJ28rC0sPVo6Ju8fTrKdlTqgyjiC1EL2f1Hs2+qm7vt3MM/pY33c9NrP9+CREGiJ1wsCintyxYAAAA=");
 
 export default BorderTop;

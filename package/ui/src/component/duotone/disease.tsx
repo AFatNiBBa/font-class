@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `disease` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/disease?s=duotone disease}
  * @preview ![disease](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/disease.svg)
  */
-const Disease: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M.1 167.1c0 15.9 6.4 31.2 17.6 42.5l29.2 29.2c11 11 17.2 25.9 17.2 41.5c0 15.8-6.4 30.9-17.7 42L33.3 335.1C22.2 345.9 16 360.7 16 376.2c0 36.8 34.1 64.2 70.1 56.2l62.3-13.8c7.7-1.7 15.7-2.6 23.6-2.6l10 0c27.2 0 53.7 9.3 75 26.3L287.8 467c10.5 8.4 23.6 13 37 13c32.7 0 59.3-26.5 59.3-59.3l0-25.2c0-34.9 21.4-66.2 53.9-78.8l36.9-14.3c22.4-8.7 37.2-30.3 37.2-54.3c0-28.1-20.1-52.3-47.8-57.3l-28-5.1c-36.5-6.7-65.4-34.5-73.6-70.7l-7.1-31.5C348.9 53.4 322.1 32 291.3 32c-22 0-42.6 11-54.9 29.4L227 75.5c-21.3 32-59.4 48.5-97.3 42.1l-59.6-9.9C33.4 101.6 0 129.9 .1 167.1zM192 224a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm64.2 92.7c.1-1.1 .3-2.1 .5-3.2c.4-2.1 1.1-4.1 1.9-6c1.6-3.8 4-7.3 6.9-10.2c5.8-5.8 13.8-9.4 22.6-9.4c17.7 0 32 14.3 32 32s-14.3 32-32 32c-8.8 0-16.8-3.6-22.6-9.4c-2.9-2.9-5.2-6.3-6.9-10.2c-.8-1.9-1.4-3.9-1.9-6c-.2-1-.4-2.1-.5-3.2c-.1-.5-.1-1.1-.1-1.6s0-1 0-1.3l0-.4 0-.4c0-.3 0-.8 0-1.3c0-.5 .1-1.1 .1-1.6zm32.2-111.9c.2-1 .5-2 .9-3c.8-1.9 2-3.6 3.4-5.1c2.9-2.9 6.9-4.7 11.3-4.7c8.8 0 16 7.2 16 16s-7.2 16-16 16c-4.4 0-8.4-1.8-11.3-4.7c-1.4-1.4-2.6-3.2-3.4-5.1c-.4-1-.7-2-.9-3c-.1-.5-.2-1.1-.2-1.6s-.1-1-.1-1.8c0-.4 0-.9 .1-1.5c.1-.5 .1-1.1 .2-1.6z" />
-        <path d="M304 224a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM288 352a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Disease = createIcon("disease", true, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABwAAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDXwsIAAE2AiQDCgQgBYMtB0ob+wXIHoVxw12GaCKG/9OLoXAwRPC1H7rv7gIEGhSqsIuOjY7NRCikOhI2U6Fqa4lV0FVXfwvkytmD+LY7urpz+y4TV0kn1SylNg3gcRX4f67JF0VHB/iNDiVqVdqYgZnPJ7CBVtIG0sADnk5sJjgz5/odAZ9PhNoZSrzNR2CT3jCegxf+/wDGP3pbQNKQARDtAGB19ZV4eE/3KZ5XtyA+qAABsQZgHCEjYxiBBUyBYSzjoCiC+1RV3EdVjUMAUQv/rTOoRT2+gL8ACkiSUlh85boy0l/IFrOahGxBv1Pr0NhUdnXDoZbISesah+BAZcOa2i5kroWG0hXWQlR0CXfgVXAxOYVCOkwNJbvwIthrJFo3eoOT6a51z46gIDoPuzYYyBN0LrhlXiHgNKiIzkMudY1rKiKb4EDjoHWtU3iotqPxWqL1tmoI87IuQjTkCCGlcjc7a2ldyK62qdaIY1JC0k6/W9n1D9/nW89F391LWj+JorZdyR5wJjFKMAMDA/Ln0D8gw49pro65/Q43RAJMNHz2X70m/V2vZ3z+sV+FqF71q7v8WziLi22fQlNiXXv5CbgXnvf3cTMnRvQg5eIT2ZsMQOnoKdgTT5wU7xWoFUykgBAUzNh2OtHZkcD9akHdbIeCEL0qIACB4Nfm7Zluacb/eiED8Pju1z/y8uo+SbeAegkEeaqK8KKpiUB+qRRL8EsICGRvwaLGmr0EXRprRJjeWo2IZUNkDRSNJqHGqERp4/INTFH4CN06AUmzHcjmLUPR7SbUWPAoXKs7mIStkKXyX5mxqIsVTvKJjYrxSfOZLalUWpWc0XSfzc6QJaMlFFsxZNqUBYMGjFrocHMqY4smFS2xhT7IR6woMXyk8TlcfWhs6oTnzBud1o+Pk87nem+IpeXuofAwhLzTlmSZSMSUspQ1kkNs8q7OCgA=");
 
 export default Disease;

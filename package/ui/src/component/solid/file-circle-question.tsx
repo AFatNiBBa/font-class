@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-question` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-question?s=solid file-circle-question}
  * @preview ![file-circle-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-circle-question.svg)
  */
-const FileCircleQuestion: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 38.6C310.1 219.5 256 287.4 256 368c0 59.1 29.1 111.3 73.7 143.3c-3.2 .5-6.4 .7-9.7 .7L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zm48 96a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 240a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM368 321.6l0 6.4c0 8.8 7.2 16 16 16s16-7.2 16-16l0-6.4c0-5.3 4.3-9.6 9.6-9.6l40.5 0c7.7 0 13.9 6.2 13.9 13.9c0 5.2-2.9 9.9-7.4 12.3l-32 16.8c-5.3 2.8-8.6 8.2-8.6 14.2l0 14.8c0 8.8 7.2 16 16 16s16-7.2 16-16l0-5.1 23.5-12.3c15.1-7.9 24.5-23.6 24.5-40.6c0-25.4-20.6-45.9-45.9-45.9l-40.5 0c-23 0-41.6 18.6-41.6 41.6z" />
-    </Icon>
-);
+const FileCircleQuestion = createIcon("file-circle-question", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjgAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCQAsGAAE2AiQDCAQgBYMtBzsbSwXIjtRG94xd4uH5vL7OfUk+Um2kCQ3M9Bhe7KCtsK4MqcWf/2s+v+dHB/j5CA4tqkAKZN3PJzDRWTRQUdtwNlGctTOGX4Qrg6Tv45MM2xtG2UAe32aXKEh3pm9wffrQ+FVfl5C0ZwCiCwCW7Nq2wQc/xU8RXzcjvrYOAbEEVAIZMgwQYL5MYIBchVwu+CmaTfoPrAggWuD6CeRoxcW4CpCDpMjz4a3928c3io75zkZRZnePi3h6VCNE3fPWhr+RT+a/U9UTnp1zS9khHhv7VL/s4LJRRuzYcfWciDcnPKse/8zsN8qr5r418bnYO+n5eW83PN7/rpGP9LlzxE7h1p63947IaiNiQd1jdNxCSHVUrFxyb6/bRpbxSI9bDH2qy1O/++aIb9RlV7o+8IBapyuu6FQb5cIF4ztOmD699+KCB7p2LesLF9VYxIUXTjpwVCJNGTJy5JApKY1iFRT/taVnzy3FXXRtC1bq9NNPnVq01aN90KHt0L9c0t6ZPH3hXMeXPb7+ZvJoXd56uxsQCGZuv+jWAzvP/7+tkcAvb/15PV7zg7Q4PYU2CQTZ+OZ4+6XFQOgAkhRnGKp8USA5VwHv2sFtAoQSAZIWpQCZ/roIkCuNE6AwyAwBWpS2yUTeLvSwfwdJByeDzEzng1wPL4PCfJ/HLXpEZoikGZHPwLiVHFoxq5oycXI1t5pWNMq28DA5r1rWRp8hOsa4uY5wohOc5nCHOdppDDnFhux0x1upwSv8UGWKiSarzFVt15fcThaf4lRHj2X708xTnY9GO0PvP8aZCTCnykkSkXrceWnCjx15gr0CAAA=");
 
 export default FileCircleQuestion;

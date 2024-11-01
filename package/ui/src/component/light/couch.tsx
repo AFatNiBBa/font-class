@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `couch` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/couch?s=light couch}
  * @preview ![couch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/couch.svg)
  */
-const Couch: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 64c53 0 96 43 96 96l0 37.5c10-3.5 20.8-5.5 32-5.5l0-32c0-70.7-57.3-128-128-128L192 32C121.3 32 64 89.3 64 160l0 32c11.2 0 22 1.9 32 5.5L96 160c0-53 43-96 96-96l256 0zM96 320l0 96 0 16c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-144c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32zM80 480c20.9 0 38.7-13.4 45.3-32l389.5 0c6.6 18.6 24.4 32 45.3 32l32 0c26.5 0 48-21.5 48-48l0-144c0-35.3-28.7-64-64-64s-64 28.7-64 64l-384 0c0-35.3-28.7-64-64-64s-64 28.7-64 64L0 432c0 26.5 21.5 48 48 48l32 0zm48-64l0-96 384 0 0 96-384 0zm416 16l0-16 0-96 0-32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 144c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const Couch = createIcon("couch", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABjQAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCTgsGAAE2AiQDCAQgBYMtBywbSgXIhofn/fvPtS8+wDOCIqmT+FKCqjWsomqq4E1c8/yt6QHL3j2L/tceSbtR5vkEdj5Ni6b5gCNtojjbZjlUQxBCQ0hI/IscDsvjsP4WivgnpivJHsy+we3zSuN3/a4hU+QAog0Aaw49cG8fbI2tEd9UXyW+sScCYi1IAjlyDAmwXC4wpJBQKARbo1pt/4GJAKIGg5nHLlCLm3AnoACZsijG9k6u72ssm4tDGsuGU1+dEvHisLi/MeKple9tbIpPlr+TxM3dEY9Pe2lR83GCuKerIe7ribiy9/7Gm7vv5aDXB5vjwQWN8Xzv/RHx0NTKxGcmv9DXJJ540JM2oXFdiEoXTceHkGAp7uJjK22VP8d8c8o33r/8igqVuol2tSfl/HX7sd+6+WXSvmuiukrlCsdWjzvuuDYtW5OtLXdoueGGlrVkan083r3Ou5HM/vmXrjs0tLc/8URxG66Q7Dvk3/48O6E5VzjOFY+3tnHkOAk37gg8HwgEo1tn/nRs6/LddY0Z2P7W37v36apbsyuyCupkIMinV6c7KrsCGjOAWBaXGGt8USBzlRKHmtyHJkIDh8jUaCByg9qIQoNpRGnEAtY5+UC5KOqFLkcTkWlyPpFb6FKi0OVlorTc59EaXZHnI59N/N9gykYNbBiV5sycnZam1wIRUowdg8uS25l8SW+YQgud4lznuMjJTnK6ixR+gb0TFzvbRgvb4IeSOWaaLVkqweVv5RAVvcCFTn+W8GGWSfGhyS6x20+hcWSAuV+S7XmRlSeee/GJpwEAAA==");
 
 export default Couch;

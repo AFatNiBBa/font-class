@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ban-smoking` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban-smoking?s=light ban-smoking}
  * @preview ![ban-smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ban-smoking.svg)
  */
-const BanSmoking: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M86.7 109.3L201.4 224l32 32 32 32 32 32L402.7 425.3C363.4 459.4 312.1 480 256 480C132.3 480 32 379.7 32 256c0-56.1 20.6-107.4 54.7-146.7zM278.6 256L384 256l0 32-73.4 0-32-32zm64 64l57.4 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-153.4 0L109.3 86.7C148.6 52.6 199.9 32 256 32c123.7 0 224 100.3 224 224c0 56.1-20.6 107.4-54.7 146.7L342.6 320zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM272 96c-8.8 0-16 7.2-16 16c0 26.5 21.5 48 48 48l32 0c8.8 0 16 7.2 16 16s7.2 16 16 16s16-7.2 16-16c0-26.5-21.5-48-48-48l-32 0c-8.8 0-16-7.2-16-16s-7.2-16-16-16zM220.1 288L128 288l0-32 60.1 0-32-32L112 224c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l140.1 0-32-32z" />
-    </Icon>
-);
+const BanSmoking = createIcon("ban-smoking", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkgAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCXAsGAAE2AiQDCAQgBYMtBzIbXgXIhofvdb6d+yR7fqQwKMRgBxYIOmDof7dE7NkWq9SauOb5W1OBFPmjRFPUGmR93u0TmOieVuDls+aZTsBm2wyRagjimipEgvwvGjZ/GP8IebwaMzRIj6TPcFe50/jbMNeT5BmA6AuAtQf37/RWJzoRn9XPE5/ZjoBYByqBDBlGCrBCJjBSrkIuF3SiruN/YEUA0YTrJZCjC7fgKUAOkmaeD+4xbMSwQWWjV94uG8UxrXZraoQdW/HVgQ+2fTLvmXE/7m+VRSmKmLa3n/OhIREPDi6iHd8efH/rx3OfHvvdnvaBH3dHfLn+3bhm3Tu7vmh/t+OzNW+5eu3bOz9vHXP/wEcGPTCxjAcGkbBJPTr4wUn2g4MpfqAouTzKmBZF2CZLlIhx3X27/x372emfae+76OIK1rY460zvtaIzasY7X/eO1o437z0L3MpWdb30w07vNXp3HnHLzQ922ruv/eZGd3PP8pHr149cfs/dG+nGaPd5aq8s+/y3OZW21Lsj8flvHouKygq1GW6f5nY1EAiu/7sz8IQ+K452lQn89cr/R/GvqH4rSd3okkCQzahnODaBRAAAUlxuXIJAco0m3GpPDwoQCgRImgoBMiP0FSBXmC5Aw2gLBWgq7JeJvIcw0HFCJz1dRGcWuYLODfQs3bDCh9mmgZG5peJUyk9h5iYNbFxXzZ01p1pWLRuG6mlSXlxevXamXJ4GptJGp7vA+S51mlOd5VKFX2xn4TLn2WRhG31RZa5Z5qgsUx23n802cy52ibNY55+vslx1PzPF5fb4qeQn4J0nKklEKk8+6fyZl5x3wQcOAAA=");
 
 export default BanSmoking;

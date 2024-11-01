@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bread-loaf` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bread-loaf?s=sharp-regular bread-loaf}
  * @preview ![bread-loaf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bread-loaf.svg)
  */
-const BreadLoaf: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112 208l-48 0c-8.8 0-16-7.2-16-16c0-36.7 23.6-63.9 68.1-84.4C160.5 87.1 213.4 80 240 80s79.5 7.1 123.9 27.6C408.4 128.1 432 155.3 432 192c0 8.8-7.2 16-16 16l-48 0 0 48 0 176-48 0-208 0 0-176 0-48zm304 48l112 0 0 176-112 0 0-128 0-48zm152-48l-40 0-50 0c1.3-5.1 2-10.5 2-16c0-51.1-28-86.9-65.8-111.5c28.7 2 72.2 9.7 109.7 27C568.4 128.1 592 155.3 592 192c0 8.8-7.2 16-16 16l-8 0zM112 480l208 0 48 0 48 0 112 0 48 0 0-48 0-128 0-48c35.3 0 64-28.7 64-64C640 64 464 32 400 32L240 32C176 32 0 64 0 192c0 35.3 28.7 64 64 64l0 48 0 128 0 48 48 0z" />
-    </Icon>
-);
+const BreadLoaf = createIcon("bread-loaf", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfAAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCFAsGAAE2AiQDCAQgBYMtBzEbFQXIFkoLz6cue1+WN4kcBoXYySFDB9QxQb9zLUGF/3M23tvz0QA/7014KMd1dPIOH3ZeAj0PAyzutiyPwyxRzM/bu0JgPMHsJeOYCe1C/fFn52A4Ay2/ZSUuqE3qKbAif6h8IIXFoHAdAAAkGgAAaNanRyduBiUo8uT/OZAndAAEQJoBYBHAARwgHQGgIQ4CpKOxgEYjEJT///1/oAUBAAmAN1UAaCAATARmAwAaAIXWOsuLK/TcCN3bc00f45n1iXv6XKhzwVtS61ytd9lr440giDEiMswzHkJVjiobZHvJ4ZJ9+ZVL+UjPRAieeKD0SNruxtdb369p5HzLuw2v2k3Fh/IRBPFyDkcf/pT9dPRTpnzxQQpGus0zsvIT7PwsVtzIoI/PyYK8jCsrp+LEk0xlPv6GyqKi/kmhblrqra7v7j/da4c+iHopqr86wM6YGFNx+/acOXYnttG0K8yg75y/wgcAAQTO/3wTNySq4a9QTwHw/vKXL/SH/wfVfHUYCEUBIOCU/S9joJoPEFEAIFcymxzliwRQjESDPJz1CEvBQABFAAMOaUSDxlAKLpnUOiOAoQcOosMQ4hmEA0U408ChNnNAE88ZcGnIgyxAvDgmxxsM/8GX0lq01S5bVeHb+nbZQcGK2LjZwB47RbOfKJajjGYKk5nJKEYyjpng0+lUzmISrTWsFT/EUkUFPpb62Ov+o9KbfDozGDcX7rehAfZ9o4jZ+vxi8RWgrGaPQoEo8y8CWfnEKcNGAwAA");
 
 export default BreadLoaf;

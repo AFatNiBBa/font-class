@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flask-round-poison` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask-round-poison?s=sharp-duotone-solid flask-round-poison}
  * @preview ![flask-round-poison](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/flask-round-poison.svg)
  */
-const FlaskRoundPoison: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M16 352c0 64.3 29.2 121.8 75.1 160l265.8 0c45.9-38.2 75.1-95.7 75.1-160c0-80.2-45.4-149.9-112-184.6L320 64l32 0 0-64L320 0 256 0 192 0 128 0 96 0l0 64 32 0 0 103.4C61.4 202.1 16 271.8 16 352zm96-40c0-48.6 50.1-88 112-88s112 39.4 112 88c0 29.9-19 56.3-48 72.2l0 47.8-128 0 0-47.8c-29-15.9-48-42.3-48-72.2z" />
-        <path d="M288 384.2c29-15.9 48-42.3 48-72.2c0-48.6-50.1-88-112-88s-112 39.4-112 88c0 29.9 19 56.3 48 72.2l0 47.8 128 0 0-47.8zM160 312a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm104-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const FlaskRoundPoison = createIcon("flask-round-poison", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiAAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCBgsIAAE2AiQDCgQgBYMtB2AbOAXIhofn7b46t161qnvoGpsZlE/mhZXBYWeDaKnsz/81+a7t6AC/0aFEY2lqAUat4vkEBr62xLTyPR/PdAa23dmuHbJWjqVZRJLjm/zKEfJ4Ol1RRXYz+wpX6X8A4ycdXCFTlwBEcwBMX7tysU/uxt0svqq8QXxlEQJiBigFEhI6CzBJEugsVyKXC+5mlQp3o1IpCSCq0e0TqEYNduEwIAeZJMvzlnV1PdvUVzXJ19Bpxc73uz004Lkxb/R7pvOD40V9xJrbfZ/scKPXUx3XIlvusfbC4IgXxzeJ94e+HI8NeW1BzPhRFOTF4rNhL5RrHx4Y8fzYN/s/2+WBcaKIiPe69niu+XO/dP9qz1e6TW3smv///e+/f/9/3rVxmAuGnZ/bZvnyNonc207UrTXbOnwc4wYVBo0bN7zhzncD9ipNA+ju5/Ya8N2dhq198//ZcxeNXYFA0CX7rMfWZpP+qa3PwP33fvtRfkjNK5/EK9lzqJWBIA2qDLIpPtFc83hFAACyOKNHfOKY5gLJOAm/a4NrAoQCATLVCgGSTpoLkCsMFKBKV6MFqFZYKYm8Tmhts4JMg+MgGeMsyLX2OqgyyadBtdaRnE10FfGrlzbHIrOnlcOHDCsnlN1clvyHD+MTy2m93xls6w8b7XHUEafstst+pwx9wuL4tMPmjKjZvqg03BDDlCYol6vr1WvsdsJJ+x11JE4yUbnf7ufMuHd/sDLMOMKMJBFZpI4PVubBwdciMfjY0f0njx4Z7Lq9OreVgwoAAAA=");
 
 export default FlaskRoundPoison;

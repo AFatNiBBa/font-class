@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table?s=regular table}
  * @preview ![table](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/table.svg)
  */
-const Table: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 264l0-104 184 0 0 104L48 264zm0 48l184 0 0 120L64 432c-8.8 0-16-7.2-16-16l0-104zM280 432l0-120 184 0 0 104c0 8.8-7.2 16-16 16l-168 0zM464 264l-184 0 0-104 184 0 0 104zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32z" />
-    </Icon>
-);
+const Table = createIcon("table", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABYwAAAHsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBTgsGAAE2AiQDCAQgBYMtBywbygTIjsO44TuyxVL+h9Ly8Lze/7f2SfKQ+418wOgxUCWVcsemoaqZ9iYzJN7IzXnzKMBHHsr5drX5Bfp/nkCAYXleIllgmSZgqdu8wstR1sR0/BExtIVqdhKHA/L4OFaQnk3wYDw0/tTVfZIiAxBtADBn07oVvvguvov4tv4u8a1lCIg5oBLIkKGHANNlAj3kKuRywXdRr+s/sCKAaIC7JJCjEUuxBpCDpMjz5lqtuVutaJlvrBXlphC1EKVaWRNlPNUpNnjpiQ4RYUoZ/aq9Lw+OeL1LimeHvDGgZbw27K3uWTw39M2BLfq+2ebNv/s4yKj3DwP7gcM+GP3BymWv+67V4V8vBaoZrb57/f3Xlg9j88Gvz7elbTlb2bbt87eViJ4HgWDW8Is7d7We/l9TLYEfPvr3f/Mrqn+XpDfRJIEgG14fbnsCiQAApLiob4JAMlcBd23hKQFCiQBJg1KATHdtBMiVhglQ6GWCAA1K62QibxY62FHhpIUzcGaiG3Cug7fhwnRfmg06RMYnhg3Mby5xocCCpWrMyNHV1CqMLJYilE2nVcfy4ItVhsiug0456bwD9jviPNBZK5wLTliYgQu8qDLGSKNVpqqu0724EfOsc47s+fs501Tv9cEu5u1DREuAO5YrSUQqqAYAAA==");
 
 export default Table;

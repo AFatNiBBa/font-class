@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-up?s=thin plane-up}
  * @preview ![plane-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/plane-up.svg)
  */
-const PlaneUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M209.7 33.3C220.2 16.2 236.2 0 256 0c20.2 0 36.3 16.2 46.7 33.3C313.3 50.9 320 72.6 320 89.2l0 86.8 0 1.3 171.3 94.5c12.8 7 20.7 20.5 20.7 35l0 48.1c0 15.9-15.1 27.4-30.4 23.1L320 333.5l0 18.5 0 44 54.4 40.8c6 4.5 9.6 11.6 9.6 19.2l0 34.1c0 12.1-9.8 21.9-21.9 21.9c-2.2 0-4.4-.3-6.4-1L256 480.4 156.4 511c-2.1 .6-4.3 1-6.4 1c-12.1 0-21.9-9.8-21.9-21.9l0-34.1c0-7.6 3.6-14.7 9.6-19.2L192 396l0-44 0-18.5L30.4 378.1C15.1 382.3 0 370.8 0 355l0-48.1c0-14.6 7.9-28 20.7-35L192 177.3l0-1.3 0-86.8c0-16.6 7-38.3 17.7-55.9zM208 176l0 6.1 0 141 0 29 0 48c0 2.5-1.2 4.9-3.2 6.4l-57.6 43.2c-2 1.5-3.2 3.9-3.2 6.4l0 34.1c0 3.3 2.6 5.9 5.9 5.9c.6 0 1.2-.1 1.7-.3l102-31.4c1.5-.5 3.2-.5 4.7 0l102 31.4-2.3 7.5 2.3-7.5c.6 .2 1.1 .3 1.7 .3c3.3 0 5.9-2.6 5.9-5.9l0-34.1c0-2.5-1.2-4.9-3.2-6.4l-57.6-43.2c-2-1.5-3.2-3.9-3.2-6.4l0-48 0-29 0-140.9s0 0 0 0l0-6.1 0-86.8c0-13-5.6-31.9-15-47.5c-9.7-16-21.6-25.6-33-25.6c-10.9 0-22.8 9.6-32.7 25.7C213.7 57.3 208 76.2 208 89.2l0 86.8zm-16 19.6L28.4 285.9c-7.7 4.2-12.4 12.3-12.4 21L16 355c0 5.3 5 9.1 10.1 7.7L192 316.9l0-121.3zM320 316.9l165.9 45.8c5.1 1.4 10.1-2.4 10.1-7.7l0-48.1c0-8.7-4.8-16.8-12.4-21L320 195.6l0 121.3z" />
-    </Icon>
-);
+const PlaneUp = createIcon("plane-up", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABmwAAAKfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDMAsGAAE2AiQDCAQgBYMtBy8brwXIhof/15nd9yVrAEjjENlJFhCdZYYKoSMot5uzFQBNXPP8z78Bi/xRorEodl5R5xMY4G/2PptFYdrAZjoBmzodObYNhhBQKCJFZq3F4yt4XG4hj1cdrEK6I32A6+RD42sjLibJMgDRDYCNGrts562ZmIn44P/niQ9sg4DYGJQCGTKMC7CuTGBcrkQuF8zE///X/8CSAKLAe04gR4Hn8B4gB0me5zts0tHRVunId2+rtO5121DEbW1XDdwycMeIELvFIyPi/P6bB3cPIbaLW4jbZ1+p1+4aN7c+OhpxwdAOQR7Q4K2B3jWvseGuRbsKQoTVbQ06cX7bVW3sGtwt+mNI1Kt6ZlwwuH3cGtQuKDx3uXP0zrkPD9/O8K6NXW8mbhlqROy22+673eK+8e6h+mT3k99Of3DoBz699+wneLmr6+WXz/6ntSE8ua91ipr2Sy995oFFei22yq3tVX31rDxo0uJTZvW+qvZbV1ms1w31GV+wvaZY51lhaGhtj2sLel1jQk1evdP0ptKJEYdMSQn7NGhQRKVSlU/fqZrXTLgGFBryz77o9scXg42fH9qje77QWdN8/iNLnHHe6YNHwvnNNZ0vTC/iDCAQLNqqPme/rnV/bW5L4PNXvv+L/Ir+fytJT6JZAkG2+P/F9k4gEQCAFKeqJggkT8vxXdvdKkBoRYCk0CpAZky3ALlWiwSomLSaAIVWu8hE3iL02+cgknYnEJnVnUPk+j1LVKzr7VChP7IEFtNP/H1M21wDm60q60tr5drlZcMu5SQ/Ftcp3fr8U9vAAvg61HGOdbJDHOwIJyv8RNtFT3GMzS1wM19UqluqprS2Mtz+rO2uQic6yRFzJb7MOsr3A/Odao9fACsh43JlSSJS87dmLznleAAAAA==");
 
 export default PlaneUp;

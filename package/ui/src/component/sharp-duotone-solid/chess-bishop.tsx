@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-bishop` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-bishop?s=sharp-duotone-solid chess-bishop}
  * @preview ![chess-bishop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/chess-bishop.svg)
  */
-const ChessBishop: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M0 480l48-48 16 0 192 0 16 0 48 48 0 32L0 512l0-32z" />
-        <path d="M96 0l32 0 64 0 32 0 0 64-27 0c22.3 21.4 50.8 52.7 73.8 90.6L164.7 260.7 153.4 272 176 294.6l11.3-11.3 99.4-99.4C301.8 215.6 312 250.7 312 288c0 47.4-30.8 72.3-56 84.7l0 59.3L64 432l0-59.3C38.8 360.3 8 335.4 8 288C8 190.2 78.1 107.2 123 64L96 64 96 0z" />
-    </Icon>
-);
+const ChessBishop = createIcon("chess-bishop", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABagAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBOgsIAAE2AiQDCgQgBYMtB1Qb4ATIjsO4sRvZlUM8DqXl4f/X/nWfO/NpXhgmzOiAfFxYA6lEhR1Q62r/qiRZ17UmmYffffqb5//8U4APRJrjPJAFPud5Ap0HMi21TAPxRCHdJrsFf/HQkpCOJ9ZxRnXo3JDH2uymOtK9BLf0P4Dxt65ukjRlAKINAOZsWrfCp+ZoTvGjek38sBwBMReUAhky9BBgukygh1yJXC5oTlVFc1RVSQBRTz9IBuqRYzYWA3KQhMjzYS1rdS3zjbW6YlutqIki3s9ZHx1iSHSOTfGyz8PBT/qLIiIeDX3W6495zSoizJo+q1abEaJFRN9nbZ792+fHQXZ9LMurs3U3esuRI9446Ll9e11pSO3zydN8Ms3kvH1KS7Ysnd3dbGVVVW1+r5RmK4FA8P+XWRN3tZ7+X2MtgT/f/Be8R9WnmJ2eoVECQTa8Gm57XISYLQAAKS7qG7M1IpAZJsFVC7cFCAWOpF6BTHdtkCsMQ51eJlzXK6yTibxJ6GCHI2nhDDITXUKug1eoM91nr16HyGjEk4B/xKUsnCxYKseMHF1OLacRE5jBynRauewMvqgyBJsOOuWk8w7Y74jzMWetCC84YWFFF3hQaYyRRitNVbbTo7Ix76xzjoyl/pxpyv3uYBfr9iFYJwHGHsBFRqTIOuw7fODcuRGfl4wRjKx3SqTLBwA=");
 
 export default ChessBishop;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circles-overlap` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circles-overlap?s=regular circles-overlap}
  * @preview ![circles-overlap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circles-overlap.svg)
  */
-const CirclesOverlap: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 288c0 40.8 10.9 79 30 112c-96.3-1.1-174-79.5-174-176c0-97.2 78.8-176 176-176c38.9 0 74.8 12.6 104 34C248 116.2 192 195.5 192 288zm32 160c11.2 0 22.1-.8 32.8-2.4c40.6 41 96.9 66.4 159.2 66.4c123.7 0 224-100.3 224-224S539.7 64 416 64c-11.2 0-22.1 .8-32.8 2.4C342.6 25.4 286.3 0 224 0C100.3 0 0 100.3 0 224S100.3 448 224 448zm192 16c-38.9 0-74.8-12.6-104-34C392 395.8 448 316.5 448 224c0-40.8-10.9-79-30-112c96.3 1.1 174 79.5 174 176c0 97.2-78.8 176-176 176z" />
-    </Icon>
-);
+const CirclesOverlap = createIcon("circles-overlap", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdAAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBXwsGAAE2AiQDCAQgBYMtBzYb5QTILgd4sgmeGDtE49LtkXE9y1goTfGZ4i9fuklxPHy/H+3c999f8yYazTTS6J43NJo1SMnqJqzvUBlC0v9ba39ur7n+d0lE2gzuzaWJJSjBGpuQJCp1QyWBKlxeITnpwCE3PxxYUy2TYANu0mEx2fy1JPmqLQT3i1PPcx4K4HMIgrYXBmQB7nUegYpM31SSYq2iWMa+bXh0ROGLCBEykcaU6HeBHL9JlKQ3PQEv2pvGTybLJGUBIJoEANZu6irgTCD3EXf/J+6UAQGxBtCDoECBDgQs4gQ6iPUAWRbck//gbyCCAKIC/1USyChxAjwAIIOkyLk5KklZn69ry5qbd+Gf84/G37rPpuv83epZfcOqYWtuv/b24DG61785vrs/tqLl5w9qrnbvQts9G2M7e6UNN4XHjcumzcj32XvDV/VbvZNv4n/56eETnL7sfE8kYi/2m8h+vF0pA9q91vx3dCEodPouPssbPn/y2QTlvHc3J/46EAi+/2MpFocEfhz8/Xn/1208qiQQFIP4tKdbQHwAfornnMYHBZIdHHbrvIyGoYYJSYUaKLRTQlZjAEpd4qRz/wVO5GqhTQdAUucRFKbNQNZmD0qLbr0KbVfkFZ0V9LcugUmE7sJwIIQZXKYGkypkWWfRbbimqeWGs9BtxLBJXTr1mRTYuIpwyhBmodQXobCAEJSB4WJ9vFGXcRP6jBiuW7LwvOsybQ+7wRZhwnGRJBGp8fop/scOAAA=");
 
 export default CirclesOverlap;

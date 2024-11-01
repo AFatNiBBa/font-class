@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-fancy-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-fancy-slash?s=sharp-light pen-fancy-slash}
  * @preview ![pen-fancy-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pen-fancy-slash.svg)
  */
-const PenFancySlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M552.6 125.8L576 104 553.4 81.4 494.6 22.6 472 0 450.2 23.4 314 169.7l25.2 19.9L472.8 46.1l57.1 57.1L392.2 231.4l25.4 20.1 135-125.7zM295.8 318.5L307.4 330l-28.9 92.4L130.8 467.8 198.7 400c.4 0 .9 0 1.3 0c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24c0 .4 0 .9 0 1.3l-67.8 67.8 45.4-147.7 82.9-25.9-30.4-24L128 272 64 480l32 32 208-64 30.9-98.7-39-30.8zM40.4 18L27.8 8.1 8.1 33.4l12.6 9.8L599.8 494.3l12.6 9.8 19.7-25.2L619.5 469 40.4 18z" />
-    </Icon>
-);
+const PenFancySlash = createIcon("pen-fancy-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcAAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCAQsGAAE2AiQDCAQgBYMtBzYbBwXIHgd2jPgRDKN8LSqC59fK6v3u2QBQBwhIEemotcE7hSwcs6JJ5tPFWmAZuqZ+8jfgGT1aFBatsSK1BCbUmrYXmQ1nE8WdbXsVRDTEC41xhTz+iUqkBwmuhQ+NHzVzgSTPAERdAIxdPH+mVz6LzyI+KD8lPjAdATEOFAIZMrQUYIRMoKVcgVwu+CzKZfEfWBBAVEicTSBHCSuxH5CDJMvzZt3r1SjVyheZ4ur7u3fp3i3mBavuEguiayyOuTGwplHjRhxacCHORnGLh50eNT3r7ExffBRfEFwcw5Y1VqEu0Sj25o53j8axr11l3cqf236wiS5jN27cuMkDmyxy+abzLl5zxdXTbrt00iuV6niL5W71NH48wtxGjeZilzB5ouct85r51symRn+s7OPRWq+zs/ylpHiId417zUsa8iXjXwaB4O6npX9X1xnxd1UJfPHyr7+z56uWX0lHUiWqSiDIepRbkc6oqurOqpBkSHFIO/xFgWShDH7Xmu4KEKojQFKhugCZFuoKkKuuuwAlrQ0UoEJ182UiryY0tLIHSU17QWaQkyDX0GNQMsLb4QoNIwM0CUyk77z0SWN04q6ib68+xbBis6mVYUewy8OL00aXQ3KoKz5pk912OWCjDbY6MOL2mRk7aKdJe8REP1Toq5c+CsMUtzvPDy+y0T77bbXbLr/NcMX73i4O7U/uiu0k4e1nb5KIVGfPxl09/85I67l/x9r9WwAAAA==");
 
 export default PenFancySlash;

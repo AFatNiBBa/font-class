@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-to-dotted-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-to-dotted-line?s=thin down-to-dotted-line}
  * @preview ![down-to-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/down-to-dotted-line.svg)
  */
-const DownToDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M216 368.3c2.1 2.1 5 3.3 8 3.3s5.9-1.2 8-3.3L363.8 236.2c2.7-2.7 4.2-6.4 4.2-10.2c0-8-6.5-14.4-14.4-14.4l-73.6 0c-4.4 0-8-3.6-8-8l0-136c0-8.8-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16l0 136c0 4.4-3.6 8-8 8l-73.6 0c-8 0-14.4 6.5-14.4 14.4c0 3.8 1.5 7.5 4.2 10.2L216 368.3zm8 19.3c-7.2 0-14.2-2.9-19.3-8L72.9 247.5C67.2 241.8 64 234.1 64 226c0-16.8 13.6-30.4 30.4-30.4l65.6 0 0-128c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 128 65.6 0c16.8 0 30.4 13.6 30.4 30.4c0 8.1-3.2 15.8-8.9 21.5L243.3 379.6c-5.1 5.1-12.1 8-19.3 8zM416 448a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM32 448a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm304 16a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zM224 448a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-80 16a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-    </Icon>
-);
+const DownToDottedLine = createIcon("down-to-dotted-line", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABjwAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCPQsGAAE2AiQDCAQgBYMtBzobRwXIjsQ4JvKLKOwiHj7m+vfcJLsPgPIBAAuM+qmCKzv2tZnaTmX1dkjtu77/uabeNR7d8/p2ZIdyiwyq4KN14QQGOkybFxXowCaKW9x2FUQ0NBYaF8jiE6eVSD5K/sIb4UvjXz2eJZGmAKIZACv27drilyKKiL8qEn/ZhIBYCXKBFCn6BVgsFeiXyZHJBEVUKuI/MCeAKEseloAMNXgcLwMykKjKspHjapJcXakh21vsrt33Xt0rXfvig3i/s5ahwdXGu+3Q2vNPduzpeb9zb7wfT3V9UFcXESWvdLxHRJ5s330qvOe9DqrY5Add9Y39hFCGzr2a2v2EkcPNw//x19m//L1tVKk06plnzCrX/7LR8fKLGovlisYXlY9v9Et9edYzz9z68m5x1IsNDS/cb1jpSY0vvti4nNc+aaWG+y+sWl7cVN398udFRWNjkTufbPzTmlimaLzWNKe3XQ8EgrE/DCw/1rT4/+q6BPzzXePPNVeK+CoZRrUEBOnkymSH4xfNmuMrAQBI4q6RO9YYIdaqkpyr974AoRYHibJaSPVphkytSVAyaM75slq7pCKrEdodQZCodwNScz0GmXbfQslivxbK2iMFQz0Q6f8Cs6wd42u25TOmTs8X5pt1rQGytHZ+UX7aM/6u7JuA9zrrmqtuO+O0C26P2Ju2lO+4Yu0es8YP5WaYarrcQvnt1nPL3lHhplsurDvd32SR/P3EeHf3R0/A/kQiO5MqkRBJ25eZnnL72pS6cPv2mdNTgBUAAA==");
 
 export default DownToDottedLine;

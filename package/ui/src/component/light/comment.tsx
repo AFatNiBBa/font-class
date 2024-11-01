@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment?s=light comment}
  * @preview ![comment](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/comment.svg)
  */
-const Comment: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 64C125.8 64 32 148.6 32 240c0 37.1 15.5 70.6 40 100c5.2 6.3 8.4 14.8 7.4 23.9c-3.1 27-11.4 52.5-25.7 76.3c-.5 .9-1.1 1.8-1.6 2.6c11.1-2.9 22.2-7 32.7-11.5L91.2 446l-6.4-14.7c17-7.4 33-16.7 48.4-27.4c8.5-5.9 19.4-7.5 29.2-4.2C193 410.1 224.1 416 256 416c130.2 0 224-84.6 224-176s-93.8-176-224-176zM0 240C0 125.2 114.5 32 256 32s256 93.2 256 208s-114.5 208-256 208c-36 0-70.5-6.7-103.8-17.9c-.2-.1-.5 0-.7 .1c-16.9 11.7-34.7 22.1-53.9 30.5C73.6 471.1 44.7 480 16 480c-6.5 0-12.3-3.9-14.8-9.8s-1.1-12.8 3.4-17.4c8.1-8.2 15.2-18.2 21.7-29c11.7-19.6 18.7-40.6 21.3-63.1c0 0-.1-.1-.1-.2C19.6 327.1 0 286.6 0 240z" />
-    </Icon>
-);
+const Comment = createIcon("comment", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcwAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBbwsGAAE2AiQDCAQgBYMtBy4b7QTIjsR0G4/8IleJFUGli+xZ6QFYD8AQMZkwIqCMM5fDd+jL//fX6e/n+a+iD/iMPkr2Nh1IAXadN9jEdrNIoVkUziaK020yIjui8AsJEZKIji+Prz3k8UZ0UoZ0K32JC/1D4x8NnCLJMwBRHQDD586c7N3f4/eIL0svEV+aiIAYAQqBDBkaCzBIJtBYrkAuF/weJfQfWBBAlMVk4uXpzHlYC8hBkvK8dcdKZarkc/IzV1z447SIb2c9PPha7budrjrtyXp1om482fZGnZcq/TLzh7k/z/h+zqxHh0a8MzHii7k/jf9s8FvNHxr05rhPZ3084Xg81erVXqfrXq93o96zzY7H+3NaPFP9mX+bf7nmS6WjK+IH3o8x9Rbur9J3pIjI/1tiidNbf/37t26ORCLC93+QtUpVaErTO5wea6zTd5o2rWBEkuhC06pz6c1pz1Uc327tmxeadOP9NBoIBJ1nVHtxabVB98tXSuDP178/zvR/6fckPYPyEgiyTqVOFiUOzryA0yn2aIEvCiTTJLjWyq4LECoiQFJWRQEyjVQXIFdRRwHKaKq3AGVVNFMm8gpCbYsnSCrbDjJ9HAa52l4AZQzySaqs2pHFlxod6vcua4yGRi8qunfpVgwolkWihYxchwcW21G7PaWpPVZaY6stdlltlfV2KX6HydndNhvjcaP9UKG7LropDFAcV7bL51hth53W22pLG2Wg4n6ynT1+5/ZIJCzYQ06SiFTuRQMA");
 
 export default Comment;

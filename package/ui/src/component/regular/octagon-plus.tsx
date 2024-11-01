@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-plus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-plus?s=regular octagon-plus}
  * @preview ![octagon-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/octagon-plus.svg)
  */
-const OctagonPlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M191.5 48.1c-6.4 0-12.5 2.5-17 7L55.1 174.5c-4.5 4.5-7 10.6-7 17l0 129c0 6.4 2.5 12.5 7 17L21.2 371.4C7.7 357.9 .1 339.6 .1 320.5l0-129c0-19.1 7.6-37.4 21.1-50.9L140.6 21.2C154.1 7.7 172.4 .1 191.5 .1l129 0c19.1 0 37.4 7.6 50.9 21.1L490.8 140.6c13.5 13.5 21.1 31.8 21.1 50.9l0 129c0 19.1-7.6 37.4-21.1 50.9L371.4 490.8c-13.5 13.5-31.8 21.1-50.9 21.1l-129 0c-19.1 0-37.4-7.6-50.9-21.1L21.2 371.4l33.9-33.9L174.5 456.9c4.5 4.5 10.6 7 17 7l129 0c6.4 0 12.5-2.5 17-7L456.9 337.5c4.5-4.5 7-10.6 7-17l0-129c0-6.4-2.5-12.5-7-17L337.5 55.1c-4.5-4.5-10.6-7-17-7l-129 0zM232 344l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z" />
-    </Icon>
-);
+const OctagonPlus = createIcon("octagon-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeQAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCGQsGAAE2AiQDCAQgBYMtBzMbHAXIjtRG+UVWEkG9rdeet3uCPTGsmOm+iCJCU2wOnQFAEP5y6lJop1e17/9zTb3rb0cHWOSHErVOqwTMfD6BiW7cNKEosJlOwLY7WyuOZe0kjQbJ8dnx2UEen8UTFdJb6Xc85g+Nf3V1l6SSAYg2AJizad0KXzdGY8RvdcRvliEg5oBSIEOGHgJMlwn0kCuRywWNUa+H/8CSAKIJgSRNjs9zElcAOUhSns/vW620zDdWK8W2ex3WxwviZsfp8VG3iHeGbYqPB1Xj3SEb4sOu4s3B6+OD/kW8N3RjzIoN8bJajfudN8UbEXGr08Z4VRRbQgwbu70zqBoRKHq3q6iG6M3+RQjZPLfvR20+et3n94O/++pxcbChwcHiluaH2hjf4paW4xuY97f/63kA41s6WxDyNfZ3po2G2rKvVstwqLmoOFhrUIsPGjRbCtZ07LiGYTZY07GNvhwIBL5/3XlX6+n/Nasm8M+n/08/I/Wvk/QRmkkgyIbXh9ueQCIAAClq+iYIJAclcq0tvBIgFAiQNFEIkOmujQC5wjABKnqZIEAThXUykTcXOthRuaSFM1xmomtcroNPuIrpfio10SEyp9NdRv/zZV+I+IJ15ZiRo8up5bCpGH6k0vK0cts/uBaHhsBGB51y0nkH7HfEecWetaJ6wQkLZ8wCX1QaY6TRSlOVx517+0YsnXXOEds6X2Wa8n56sNp88hAIJSI51tYkEanFqX3n9xw6dXLEqwU=");
 
 export default OctagonPlus;

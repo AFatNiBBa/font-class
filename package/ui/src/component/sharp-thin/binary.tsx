@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `binary` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary?s=sharp-thin binary}
  * @preview ![binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/binary.svg)
  */
-const Binary: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M232 0l-8 0 0 16 8 0 64 0 0 192-64 0-8 0 0 16 8 0 72 0 72 0 8 0 0-16-8 0-64 0L312 8l0-8-8 0L232 0zM8 288l-8 0 0 16 8 0 64 0 0 192L8 496l-8 0 0 16 8 0 72 0 72 0 8 0 0-16-8 0-64 0 0-200 0-8-8 0L8 288zM16 0l0 8 0 208 0 8 8 0 144 0 8 0 0-8L176 8l0-8-8 0L24 0 16 0zM32 16l128 0 0 192L32 208 32 16zM216 288l-8 0 0 8 0 208 0 8 8 0 144 0 8 0 0-8 0-208 0-8-8 0-144 0zm8 208l0-192 128 0 0 192-128 0z" />
-    </Icon>
-);
+const Binary = createIcon("binary", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABbwAAAHoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCHQsGAAE2AiQDCAQgBYMtBy0bGgXIhiCw67/qmVnok/MlRTJD6BCELz1pswODkIou3vm/pl48PyqQ//wco6kapECOrhf5fAKJA5mP+vnxbDibKO5tFiYUFEGbxG8W0TAdDttdIIur9imQvJZ8hUf0ofGXnu6RSFMA0QEACzauXaP5fXwf8WXrLeJLqxAQC0AukCJFHwFmSwX6yOTIZILvo9Wy/4E5AURRGjgBGco4hcuADCSKWdazZ8dK50qt0Mg21ArVrdVaVdRqomrg0CPMXPum1BaB7zkbrKtVD8KIzfuTeLa6IkR1YFuHtn8GfHXgK799Ui6XOyjPb5pP6qv+WJ8pKw/rzyLzoO+Y0SxD72H7W4nWdEvznfblKQTt2yYYt8TXQSBY8eT1RTvbz/6/XEvAj+//9xcarNWMW0kbyhIQpKNbo22LWxC3BAAgiQsG4hcFEocU4bvWvRQgVBEgUVQVINVbBwEyVaMEKOhnigBFVWulIqsIXWwvIFF3GqSmug4yXbwBCmb7NCnqEqna8UrD//WlLG3RJdvyCWPH5zPzZSkLmsSG9Vn5sT78ghsbAWcdcNIJ5+y3z2HnGvyMNfl5xy2VsCV+KDfBWOPlZsqvm0dlAyZnnHWY5+8hm8ySv4+HuyDPHgGnSQATPxiUFCMp7jl8YveZywAA");
 
 export default Binary;

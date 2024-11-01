@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stackpath` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stackpath?s=brands stackpath}
  * @preview ![stackpath](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/stackpath.svg)
  */
-const Stackpath: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M244.6 232.4c0 8.5-4.26 20.49-21.34 20.49h-19.61v-41.47h19.61c17.13 0 21.34 12.36 21.34 20.98zM448 32v448H0V32zM151.3 287.84c0-21.24-12.12-34.54-46.72-44.85-20.57-7.41-26-10.91-26-18.63s7-14.61 20.41-14.61c14.09 0 20.79 8.45 20.79 18.35h30.7l.19-.57c.5-19.57-15.06-41.65-51.12-41.65-23.37 0-52.55 10.75-52.55 38.29 0 19.4 9.25 31.29 50.74 44.37 17.26 6.15 21.91 10.4 21.91 19.48 0 15.2-19.13 14.23-19.47 14.23-20.4 0-25.65-9.1-25.65-21.9h-30.8l-.18.56c-.68 31.32 28.38 45.22 56.63 45.22 29.98 0 51.12-13.55 51.12-38.29zm125.38-55.63c0-25.3-18.43-45.46-53.42-45.46h-51.78v138.18h32.17v-47.36h19.61c30.25 0 53.42-15.95 53.42-45.36zM297.94 325L347 186.78h-31.09L268 325zm106.52-138.22h-31.09L325.46 325h29.94z" />
-    </Icon>
-);
+const Stackpath = createIcon("stackpath", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABewAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCHgsGAAE2AiQDCAQgBYMtBzAbHgXIHgm2rZr1CZyI5TbEw/Nzfp37krYzyWfIAOICK2BSgGSH1YLjuqUKuSwZm7XX6YEw/zd73vMowM8RhDI2Ls03+JzPEwi0LN8Y5Uvo9ADtGG93tq3lWNjjkJaQcHw7XhPk8Uo8qUZ6KbXwRHpVfGPUvSS1DED0AGDXqSeeoPlFfBHRaiNajkNA7AaVQAbDEwJslQk7Qa5CLhd8Ee12/A+sCCDq9AckkGMGrsGtgBwk9TzvbSwZbDTKWmd+SlkrTr1zIOLZgSIiynhu8Dmnpix1RHbyK0fuG75rwV5ledfQ8/MfHtgz8uzgc/P2Djw78OzQXbFvvAhx57y95SPTp941FPF8UYQob/TsH35h/ORTTzq1iHxIWZwU5exDPYe+m9W6pOXXGkeyrtlvsX7N9Uc0Pnq/iZfRfL69vPODRZ0rd/ZORc/bHz/Z/2fWeeilbxkv7rq+h1fnTgvDRTG0ct5tG/o/oTW+1sNmWaHfeV9/Uxs4a+VDrE1b8dADBUdcTjEFBILe3jWnndu99bcyga/e/OEfvLv9RTTTIcyQQJAtbS91VjSB0AF8pRS3mB1NBJJL1NFbOzwvQCgQIKkrBMiM6xEgV1giQM2UdQLUFU6UiXymMODsBpIO14PMereB3IA3QM1W7xt1A5H5He019K8v4UgLHdFVrVq+stpcTR2VcSVSmluqbXHhLSGxCEZd4lrXuMnFLnK5mwxygxPsm13tyBV8hA+qrLLcSpXNqmP/XjiFjBvc6PIxd95mi+q9utAt6/xFoCSKudpwkog088abzr/wSq8FAA==");
 
 export default Stackpath;

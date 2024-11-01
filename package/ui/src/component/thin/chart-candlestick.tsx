@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-candlestick` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-candlestick?s=thin chart-candlestick}
  * @preview ![chart-candlestick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chart-candlestick.svg)
  */
-const ChartCandlestick: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M8 32c4.4 0 8 3.6 8 8l0 368c0 30.9 25.1 56 56 56l432 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L72 480c-39.8 0-72-32.2-72-72L0 40c0-4.4 3.6-8 8-8zm280 80c-8.8 0-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16l16 0 16 0c8.8 0 16-7.2 16-16l0-96c0-8.8-7.2-16-16-16l-16 0-16 0zm8 200l0-56-8 0c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32l8 0 0-56c0-4.4 3.6-8 8-8s8 3.6 8 8l0 56 8 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-8 0 0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8zm104-88l0 64c0 8.8 7.2 16 16 16l16 0 16 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0-16 0c-8.8 0-16 7.2-16 16zm24 96l-8 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l8 0 0-56c0-4.4 3.6-8 8-8s8 3.6 8 8l0 56 8 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-8 0 0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56zM208 160c0-8.8-7.2-16-16-16l-16 0-16 0c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16l16 0 16 0c8.8 0 16-7.2 16-16l0-128zM184 320l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56-8 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l8 0 0-56c0-4.4 3.6-8 8-8s8 3.6 8 8l0 56 8 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-8 0z" />
-    </Icon>
-);
+const ChartCandlestick = createIcon("chart-candlestick", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABvAAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDdQsGAAE2AiQDCAQgBYMtBzgb/QURlZqnyH4mZHJ/WO6wKpPYdW7+VJL/NFkeOSSp5eH/1/51nzvzIDMhZpsVxWjDDoDe/yvquwC3dWXHjjCoSqq2r0OeavUFAATcEild5MeKZNrXD2mPi1PPszAUwPeIB20s3MMWBZPucV4uV7QeL0WsYDWtgJWlBflk5zDYnUl5UPuWHMywOL5xPC495PGBnSqkO+lrXMM3jT/1cVqSZQCiMwCWrFmx3Kcv4kXE183E15YhIJaCwQIZMvQXYL5MoL/cYORywYtoNt1vIAKIKvg3E8jRDr/gLSAHSS3P+3Se2HVC5wllpUO+uqwUGxo9Utzp0RjRIRo9bndvH3fHPuybRWuvbbe7i0aPsmztFdHSs1gZooiLPVsi4kSv1rKMiNZejR6ijEs9GsTx7reLIsTt7i091wiTcvFdVhVl4Y1YPS5tz1cK1ZXjwEMfdn74N1/v/lqtbWt1r9q//+99bmu1uvW5F9OmddyrurWXLzpu1fFF587o1D6brVnX8fz5jlsDrW626tat1YWEs2fNYvyssRg6vbbUsfyBxdIFhPFDW8COJ8d7tc02000cX2hfB4GgcrL30y2d5v9XLxN49f6/w29R80WSHqIugSAb3xy/MYFEAABSHDY0QSD5Rg0M1V5LgFAgQFJVCJDpp3OGXGEcVAw0o0dVYYVM5O2E7jbJkLS3DzIzHYFcd+9BxXyfFVXdI1NxXkH5F2YKCSL+EWVWYGlOJUFrWX/tGFb1/5YxT0V/7G/XTi/UXdffFjjSf5AyK7CIF5dKU3E/Ey3Jb3GsD/XPHzbGUICxaikJmbpc7q30F09v7Z5zDAAA");
 
 export default ChartCandlestick;

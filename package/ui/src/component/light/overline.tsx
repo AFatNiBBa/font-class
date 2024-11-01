@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `overline` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/overline?s=light overline}
  * @preview ![overline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/overline.svg)
  */
-const Overline: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 32C7.2 32 0 39.2 0 48s7.2 16 16 16l416 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 32zm208 96c-88.4 0-160 71.6-160 160l0 32c0 88.4 71.6 160 160 160s160-71.6 160-160l0-32c0-88.4-71.6-160-160-160zM96 288c0-70.7 57.3-128 128-128s128 57.3 128 128l0 32c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-32z" />
-    </Icon>
-);
+const Overline = createIcon("overline", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABZAAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBQQsGAAE2AiQDCAQgBYMtBy8bwAQRlZoryD4SclOsVzEz80c0x5OhtDz8M1f+fUlmC0ApMzogz+jWFoA/oJ3zLarqCYD/vfV8z0cD/EZD2rrx0kAukOg8nyeQWMvzhKICyzQBS93GOKyIsmoQwSNiaC4069A5IIvL0UWB5GLyFcfbQ+NvjRwjkaUAoiYARs6fPdXLYhQjvpbuia8mIyBGgVwgRYqmAgyRCjSVyZHJBMUolfgPzAUQZXTnBGQoYCSmAzKQSLOsaoP6VQrVsnlVCpUXn6l7tl61ON/gXP2qc38bEvF0jvh96LO5fw5/MT/ij2HP5825PTzixfh3Q5+1FDeGPB3zftjzVtGqvGb5vy2/rvuqxvVi9erFGyD8cfno+MrXGJ2L0V+/DkwcgoPXC30YPWPG6D6FHFWeBoHg4rM2w5fXGPK9YpUE/PX4/+/8jErFeJmUo6IEBGmXUpcl8RLipQAAJLFPq3iJQGKglK5a1TkBQmUESJSpLECqiZoCZCrrLEBBc30FKFPZbKnIKgl1LQ1IVLUTUv3sh0xdd6BgiA9embqRGkm2gfyPy1DjRmPX8p7deuSD8mWsK97gZT443zY77FPriF3rtm/bs3bNxj2RXVPDvVvHZXjsi3nPbj3yQflx9rw9b+2u3Ru3b6tLBuf33Q778u6OcBKi9ookEiKp6DH+0gAAAA==");
 
 export default Overline;

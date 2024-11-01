@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `maximize` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/maximize?s=sharp-light maximize}
  * @preview ![maximize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/maximize.svg)
  */
-const Maximize: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M216 56L193.4 78.6l-46.1 46.1L256 233.4 364.7 124.7 318.6 78.6 296 56l22.6-22.6L320 32l128 0 32 0 0 32 0 128-1.4 1.4L456 216l-22.6-22.6-46.1-46.1L278.6 256 387.3 364.7l46.1-46.1L456 296l22.6 22.6L480 320l0 128 0 32-32 0-128 0-1.4-1.4L296 456l22.6-22.6 46.1-46.1L256 278.6 147.3 387.3l46.1 46.1L216 456l-22.6 22.6L192 480 64 480l-32 0 0-32 0-128 1.4-1.4L56 296l22.6 22.6 46.1 46.1L233.4 256 124.7 147.3 78.6 193.4 56 216 33.4 193.4 32 192 32 64l0-32 32 0 128 0 1.4 1.4L216 56zm-53.3 8L64 64l0 98.7L162.7 64zM64 349.3L64 448l98.7 0L64 349.3zm384 0L349.3 448l98.7 0 0-98.7zm0-186.5L448 64l-98.7 0L448 162.7z" />
-    </Icon>
-);
+const Maximize = createIcon("maximize", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABggAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCYAsGAAE2AiQDCAQgBYMtBy8bXwXIFiFJJw//rX12X3UPdYehEgXMihhVThy56FFZBMd+VdAusP7+P/fu+P+/vfx54qG1b3vgmIB7HU8g4OxrbUooCyzTBKxQqJvaCD6CFB83RgmdjLLj6/Hu2QXK+CJGaSI9Sz/j0fjQ+FVfd0nKAkB0AcD8DWtW+/ZNvIn4ufER8bOVCIgFIAsUKDBAgFkKgQFKGaVS8CYajfYfmAkgmqkkeb5ECx7iOaAESVNZHmop1bqpY7n+yWrLsJHDZsW62BBzYkSMjN5R10L0iGExgrHWx1zPMjx6hrqqemEksB6Yjeyw6NEQit7AcMYG3z8rat0rIiLqumd1UVVXjm4U6ljfce2GtTVOFlWsG9repf33IT/v/9kvD/bv3//S0SOT96X99uNmzm7C1L105Kh4KsnyzYlHokv3qMju4IAjfnO3lPbY8zm9DgSCHT+82LWj86z/W+sE3n3+59/rZ5Qbb+JNakerBIJiVGOUrYksxxsBAEhx3tBEFkjuaYJ37eCxAKFCgKRZJUChvy4ClCojBWgyyGQBmlXWKETZJvSw7aKkg1NUmOIalXr4gJrM8l29WY8oEtOZVs7PwrDEMosP5fFjxuUZ+bbndOWave/OzI+jw87TzHDhtd8Jx521z16HnDX601a3zjlmyU652Bdl440xTjZDDg9nrK/108445Hvi+8yU3y8Oc36/fLgkErU5QVuSiNT6D73cocv7AA==");
 
 export default Maximize;

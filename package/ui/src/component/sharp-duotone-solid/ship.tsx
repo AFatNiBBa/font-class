@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ship` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ship?s=sharp-duotone-solid ship}
  * @preview ![ship](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/ship.svg)
  */
-const Ship: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 448l0 64c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.6 18.9 80.4 18.9l0-64c-19.3 0-38.6-6.1-54-13.1c-15.6-7.1-28.2-16.3-42-26.2c-13.9 9.9-26.4 19.1-42 26.2c-15.4 7-34.6 13.1-54 13.1s-38.6-6.1-54-13.1c-15.6-7.1-28.2-16.3-42-26.2c-13.9 9.9-26.4 19.1-42 26.2c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-15.6-7.1-28.2-16.3-42-26.2c-13.9 9.9-26.4 19.1-42 26.2C38.6 441.9 19.3 448 0 448z" />
-        <path d="M384 0L192 0l0 64-64 0L96 64l0 32 0 144L0 272 134.6 395.3c5.5 3.6 10.9 6.6 16.7 9.3c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5c0 0 0 0 0 0l1.1-.8L288 368l19.7 14.2s0 0 0 0c13.9 10 23.6 17 35.5 22.5c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c5.9-2.7 11.2-5.7 16.7-9.3L576 272l-96-32 0-144 0-32-32 0-64 0 0-64zM288 176L160 218.7l0-90.7 256 0 0 90.7L288 176z" />
-    </Icon>
-);
+const Ship = createIcon("ship", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABmwAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCYQsIAAE2AiQDCgQgBYMtB0QbdwXIjsM4JrxyFwtthCSdPPy/Xd/vc6u610z1G7oGco8UyUrhz4iMvjM4CN/6oSOh/4HAA05c7vzPnxbIJn2UMVZjahtwzvME4qjL8nyBTaEyzMBqReRSYm6LY8EgiE1kqsz5jA/tL7Q/QR7/ZNdUSI+lL3Gz/A9g/KCTayRNMwDREgAzVi5d4uPGPe3L/98hvrQYATETlAIZMnQVYIpMoKtciVwuaEzQGJQEEFXlHjNQRQW38DQgB0kSeT65NrNWaZavqFWKnUWtEEUhxLJYHvfbPdv3+f4P+1+Oy9Eh+kdf8Nl81qp0WBkrQtiNxrJlK8vRLKxl4ROHC06d00oRz/WT9KC41/aZPn3p/l4vtXzpp55f7vjSxY8+5mapl6VbNvZw44zjR+ePGDH/92HAEFMBw363vKPHz9xV6pZSWr2+8fWLg1rWYq1S1Nkx/XJ169arvyR8Ub49u6ab0LLbgrPf6vlAIGg1xIcbW0z5tUktge/e/eV7/JD8/3EqvYQmEgiyIf8PsS7VIdUFACDFCb1SHQQycyXyrg0eCBAKBEiqCgEyXbQUIFcYLEBFd2MFqCoslYm8qdDWesWSBoexzDjnsVxbb2MVU3xSqWobGTNFXok/hmlzZ2DOtnLksBHlpPLY1iWy8Xl9cvnYG3AijQ3EUTscdMAx222z27EJOmJJ/bj95nrgHB9UGmmYEUqTlOHeu7ZCKkcctdtW4ptMVr6fH+CEP3sgwqQyjnIgkxEpsgbyW0MJbjQflA8Z");
 
 export default Ship;

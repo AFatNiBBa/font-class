@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-horns` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-horns?s=light hand-horns}
  * @preview ![hand-horns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hand-horns.svg)
  */
-const HandHorns: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M88 32c13.3 0 24 10.7 24 24l0 144 0 40-32 0c-5.5 0-10.8 .6-16 1.6L64 56c0-13.3 10.7-24 24-24zm56 117.4L144 56c0-30.9-25.1-56-56-56S32 25.1 32 56l0 200C12.6 270.6 0 293.8 0 320l0 32c0 88.4 71.6 160 160 160l64 0c88.4 0 160-71.6 160-160l0-112 0-120c0-30.9-25.1-56-56-56s-56 25.1-56 56l0 61.4c-7.3-3.5-15.4-5.4-24-5.4c-9.7 0-18.8 2.5-26.7 6.8C214 160.3 192.9 144 168 144c-8.6 0-16.7 1.9-24 5.4zm0 50.6c0-13.3 10.7-24 24-24s24 10.7 24 24l0 31.9c0 0 0 0 0 .1l0 13.4c-7.3-3.5-15.4-5.4-24-5.4l-24 0 0-40zm80 72l0-40c0-13.2 10.8-24 24-24c13.3 0 24 10.7 24 24l0 8 0 56c0 13.3-10.7 24-24 24s-24-10.7-24-24c0 0 0 0 0 0l0-24zm-112 0s0 0 0 0l32 0s0 0 0 0l24 0c13.2 0 24 10.7 24 24c0 0 0 0 0 0c0 13.3-10.7 24-24 24l-56 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l56 0c15.7 0 29.8-6.4 40-16.8c10.2 10.4 24.3 16.8 40 16.8c30.9 0 56-25.1 56-56l0-56 0-8 0-112c0-13.3 10.7-24 24-24s24 10.7 24 24l0 120 0 112c0 70.7-57.3 128-128 128l-64 0C89.3 480 32 422.7 32 352l0-32c0-26.5 21.5-48 48-48l32 0z" />
-    </Icon>
-);
+const HandHorns = createIcon("hand-horns", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABoQAAAKLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDLQsGAAE2AiQDCAQgBYMtBzEbrgXIhofn9f77tZM85Y5xhvQHVYGsIOWXEKpp5/7PNfXi+dEBJh3BofyLsqRYUgWOMp8P93yARfMK0NFsYDOZgO9o3lMDFOKFtj0UcW6M1EB2W1bhmvCh8bfuLiNT5ACiHQDmbdmwyhs/xA8RVf1ZorICATEfJIEcOXoJMFMu0EshoVAIfoh6XfwHJgKIRunnZ6BAE17AW4ACZBqKou3EDp0X1xpaF5trDeWOh7oLUcblnSLuGLIpxO1dbh78YKcbu4lHe4lPZ726qRafz3l9S0RsWzeXl2EiVYY70gvmxZm05pcRHyiuQtw68OEe63aUBRJITZZwIHnAK8u4sdNNnWvxSNebBhXBLT0jaQ9X3zvzlYVlvDf7tf4Rd9Bzh9T6P97u8X/7VUdUttyzrvO1hkqaT35J53VTTttFnm76/9BJJx36v+kDvzUnsaCqFsRcC6KqYsFJzuJXz/Jg67bPzf3rq46tH5zwbMW6zgm0tlbSzdA1S4YmySSbTdXsBd1OAhLoBsPBtql+aNPmh6lOqtfftaZ6gJ/0qrOcpGHigrVzrV0wsSHJP/lmbAICQXX4jpv2tJ15sLmWgZ9e+v+g5uL6G3FR9jiaZSDIR9ZH2hkXgeAHkMriDP0JB8FCT2iQ3rWVmwUIJQJkGpUC5HpqJ0ChNEKABn1MEqBRaYNcFC1CJ7sGKtPKyVRusvOpQidPUw1mej/TqFPk4KsAn/L3mLl4ii9alsaNHpump92aToVIyc7OSJftoWfInmF4pyOc6ASnOdxhjnbahDzFqvzpjrf4iFjki5JxRhsrmS49br40N1OozFO9tK09n2eG9H1kqDOOhw/DXiYJjleVyYishPaKUUedeMoJpwIAAAA=");
 
 export default HandHorns;

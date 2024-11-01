@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `radar` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/radar?s=thin radar}
  * @preview ![radar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/radar.svg)
  */
-const Radar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16C123.5 16 16 123.5 16 256s107.5 240 240 240s240-107.5 240-240c0-4.4 3.6-8 8-8s8 3.6 8 8c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0c67.8 0 129.5 26.4 175.3 69.4l43.1-43.1c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3l-224 224c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l33.5-33.5c-7.8-5.6-17.4-8.9-27.8-8.9c-26.5 0-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48c0-4.4 3.6-8 8-8s8 3.6 8 8c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64c14.8 0 28.4 5 39.2 13.4L352 148.7c-25.5-22.8-59.1-36.7-96-36.7c-57.9 0-107.8 34.1-130.7 83.4c-1.9 4-6.6 5.7-10.6 3.9s-5.7-6.6-3.9-10.6C136.3 133.9 191.7 96 256 96c41.3 0 79 15.7 107.3 41.3L420 80.7C377 40.6 319.4 16 256 16zM96 216a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm24 40a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm96 160a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm40 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM416 256c0 64.3-37.9 119.7-92.6 145.2c-4 1.9-8.8 .1-10.6-3.9s-.1-8.8 3.9-10.6C365.9 363.8 400 313.9 400 256c0-4.4 3.6-8 8-8s8 3.6 8 8zM125.3 316.6c14.3 30.8 39.2 55.7 70 70c4 1.9 5.7 6.6 3.9 10.6s-6.6 5.7-10.6 3.9c-34.2-15.9-61.9-43.6-77.8-77.8c-1.9-4-.1-8.8 3.9-10.6s8.8-.1 10.6 3.9z" />
-    </Icon>
-);
+const Radar = createIcon("radar", false, "data:font/woff2;base64,d09GMgABAAAAAAN8AAoAAAAABygAAAMvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHCDXgsGAAE2AiQDCAQgBYMtBywb2gXIngNu03zYRIRIGm0lz/fvGU5OiIfB858d732zs1/c/eB8WQHVQR2BKu5Sxm1OynT6n2v+fxFBUbTCpIHe8yX4AQ0ocT6KslmUbhDFmu59SBG6cAnRARldC7LjU2GIVUCWUVU4ApvdLWpRUBEHFFDocUvhDf+P+3n+ralAntFQOrWpAiPifAIDjAhtoPHAZjoB26C7KeHKk+9wvJ2AlseYYIM6SPvA9vFD5SduNgEUlgUAgAQBAAANA0M9vHjGZ5H3/ydA3tMCCIA0AmAQwAIsIAYBoBoLAWLQGECjEfgm///lf6AHBADEgxlVbNOAN/AG+AZ8D1B4ar1Sz3ehoXrR9tejmjfzGX/eKPg6E/FG/7J2Ha++q5a9nMPolbvX/VgZad3vvWw/rI71X9XEO44GZlsPK+pk5XudYZnHvvA6WcqM7Yk46O5NOR++XzwOPJB+Iflc5qWow1mX0za7Q3KtY/NBtuXM61WP225lhfz7e8/6ByMOmMyKOhR9OC3nUOqZiIMp56NHTv35FCm/1J9JhfIKWowiR89XBK+ks/Nx3vX48K4pC629DqN/m13dYb+beCno0i/vd3Kf/6VqmAyTX+E31TS+vvb7jRT8UlBepB0Me0Cby71zfQO0sX7dEbTRQ4ti0WBD0VOS9/VpWRjEA3U+H5CqD/eNxqcHy9ElBJtPnBiVPusLwv8M46mtPdVJnTaaWjRmkG9bQ698WNZveHU2tzpcekq3q8tFcUNhJqWoIssDqksBH7nCF6Yg0Teah6ZVTRvwzeGMSxe90MbGTXGvBwABBOyo6QtDaveVRQXAj93/tf6M+B9RUJcAeKEAELCy/ytMUABAgQAAAABKVpGoACCA4iU6Zosf+3z9gg+coPDAByyiCQKND1lgE0eJ0FIxZMWJ9sbiMBGBwo+lYFHKatA43Aabal55PHCE/K7FX6X4rzJFK420dDNZufmm0ijTdsmnKuzaq4y1IXFVVZYBZzCLxSxiBTOZwdxVQNHL6PGvZCGtOqqFL2IoIJd8DJUY79y8YhTlWcZy5spl/p1UYeJb0lmlr50BzYqZZyEqdQsilb1sZMbUZQAAAA==");
 
 export default Radar;

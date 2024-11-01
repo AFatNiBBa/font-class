@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-up-lock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-up-lock?s=sharp-light arrow-down-up-lock}
  * @preview ![arrow-down-up-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-down-up-lock.svg)
  */
-const ArrowDownUpLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 510.6l11.3-11.3 96-96L246.6 392 224 369.4l-11.3 11.3L144 449.4 144 272l160 0 32 0 80 0c0-11.1 1.6-21.9 4.6-32L336 240l0-177.4 68.7 68.7L416 142.6 438.6 120l-11.3-11.3-96-96L320 1.4 308.7 12.7l-96 96L201.4 120 224 142.6l11.3-11.3L304 62.6 304 240l-160 0-32 0-96 0L0 240l0 32 16 0 96 0 0 177.4L43.3 380.7 32 369.4 9.4 392l11.3 11.3 96 96L128 510.6zM112 48l0 152 32 0 0-152 0-16-32 0 0 16zM336 312l-32 0 0 152 0 16 32 0 0-16 0-152zm192-88c26.5 0 48 21.5 48 48l0 48-96 0 0-48c0-26.5 21.5-48 48-48zm-80 48l0 48-32 0 0 32 0 128 0 32 32 0 160 0 32 0 0-32 0-128 0-32-32 0 0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80zm0 80l160 0 0 128-160 0 0-128z" />
-    </Icon>
-);
+const ArrowDownUpLock = createIcon("arrow-down-up-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABjgAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCDBgsGAAE2AiQDCAQgBYMtBzkbjwXIjsQ4JvGLKEzi4f/t/mufW/VV1cZt+TXtSIMcYkRlUBCN01kTTsQMeY+fuOb5nz89YNITvNiLVa8DI4Eyz0cD2nkUbRQNNE4b2ERx6nTUgjsGksdD5pS2hDF+oeJxeYQy/o6xmkiPpe9wz/al8Yfe7iYpCwDRCQALt29e64tf49eI7/5/l/jOagTEIpAFChToJ8AchUA/pYxSKfg1/v9//Q/MBBDN8JAJlGjFc3gTUIKkuSyXtm/fObfVTe3LbXVTtbVnt57bo2eMjm6xJSLq+o6eVURsje4xJnrENqVNWuRRBH57iKqiWuSRQlM5u4Q6sKoKO6u6EuJi3v6SG4uHeot5K5/o+ciILUIVonI8a698evTr094Z+Wo/dVWT8we/3un1P3137Du35r2B/fbv95Fj3rBksTc9e6Hzuq3ePGW94ZiPeMPe8AaC6t6s0wF3xx8eRVb2qE6C5C8tOee2rUc/3974ke+LhgMaiu9/bKyf0EBWlt2261+U+Rpi29FOnY5uiw3P4l63Pes2EAjeeejUL/s7zvmrtU7g94+a3Pz/F+l2eh2tEgiKsf+PtSfdBiUGEE9xzeBgjIHkMc/9U9t5WIBQIUDSrBKg0FcnAUqVMQI0GWCqAM0qmxWibBO62dvgpJ2LcGGaG3Cpm7fhJnN8GWvWLYpc5TKN+1NMXtYDS0flieMbeVZ28w4+/ZjaPzvTlpHXSt0oWeuY88654qgjTrrSQZesTV511rIIXOqHsonGa8hmycOl7/I2jV9y2Ulbz+ODzJbnB0a6FrceJfYEpJNsSBKRuhy8dOn89XEvcHTc1QvjPiUA");
 
 export default ArrowDownUpLock;

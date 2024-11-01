@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `audio-description-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/audio-description-slash?s=sharp-regular audio-description-slash}
  * @preview ![audio-description-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/audio-description-slash.svg)
  */
-const AudioDescriptionSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48.4 14.8L29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7-12.9-10 0-17.3 0-352 0-48-48 0L80 32l-9.5 0L48.4 14.8zm84 65.2L560 80l0 332-94.8-73.6C493.3 321.7 512 291 512 256c0-53-43-96-96-96l-56 0-24 0 0 24 0 54.1-93.9-72.9-2.2-5.2-4.4 0-103-80zM420.6 303.8L384 275.4l0-67.4 32 0c26.5 0 48 21.5 48 48c0 25-19 45.5-43.4 47.8zM32 432l0 48 48 0 407.4 0-60.9-48L80 432l0-273L32 121.2 32 432zm94.4-80l52.2 0 10.3-24.2 70.4 0L269.5 352l52.2 0-1.7-3.9-78.5-61.9 .7 1.6-36.3 0 9.5-22.2-39.1-30.8L126.4 352z" />
-    </Icon>
-);
+const AudioDescriptionSlash = createIcon("audio-description-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABggAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCMQsGAAE2AiQDCAQgBYMtBz4bPwXIjtEn41H1zOUJ1CcmHv5/v1/73CeYNvEGSZM3SKKJShaNJCokK80sREKVkTZrSvhGv/a6exC6/4P4QnQQZHKAwkHLDm/qqpmEq1CdqKjS1KnnOQ8F8DkX4aCNhUsDMqbu1Z5XoIC1Nt4JWCqNhbWKYs1dW6spoj1JUpbk8XOPny3k8ZsXUEk30hdwXj40/gtxAkmRASCaAQBzm53NePE7fkd8rjxBfGoEATEHoBeRIUMngkmyQCdFL8jlgt9Rqeh/oIAAooSdM4EcVTgBZwBykBS5Ehbh7RWiqU6lR1M9BhPiE9IYz3XBGkxgIEn55TwcKd1Oh1NiDx+E3eLdFDvHwwMhNhhID/aMF+QXkBrvBZyHHPifxY2B6hpa6KDMEkq9mocWRo0h1BjIHiJqGcYCdsXY3vav6C8zXxi3uq6/ha7oA7q64SMfY0zmv7HOssd2bBNGFjD49CbMzbYP8oKDkWN4Hv4U24tRP5toqhKC+fU1a/vy1Odk36TV155jkI8ruVut2XS5a6jxQBY/zVOQDDq1wjoAIBCcVSf/GPUqunKrkwB/3y8vxZMrL9KpZAOqJRBkw//TDKUDAEUT0FLsIMb5okCyQyXXWu8SQahFgKRUK0CmgzeCXK0hBIVu2QhKtVbJIndHaDfcQVJvF2Qm7IJcuyegMOm9WmoPGYAUfKj/X3zNCFUvE5ZuigKxjDUaU0SaLxTbQtJOqCXzJGasWrFl2pR5WwOyodnYtqzGg6v9kGDRmYQC4jh7Xt9j2oZN81at5EUKiftKkh2/O5llieGO8CSJSEGvvZ4OVFf65tL45hwAAAA=");
 
 export default AudioDescriptionSlash;

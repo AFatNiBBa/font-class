@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `glasses-round` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glasses-round?s=sharp-duotone-solid glasses-round}
  * @preview ![glasses-round](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/glasses-round.svg)
  */
-const GlassesRound: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M48 344a88 88 0 1 0 176 0A88 88 0 1 0 48 344zm304 0a88 88 0 1 0 176 0 88 88 0 1 0 -176 0z" />
-        <path d="M61 31.9l21.8 3.2 88.7 13.2 23.7 3.5-7 47.5-23.7-3.5L97.6 85.8c-8.4 34.3-15.4 59.6-22.4 84.6c0 0 0 0 0 0l-.3 1c-5.3 19-10.6 38-16.5 60.9C80.4 217 107.2 208 136 208c55.1 0 102.6 32.8 124 80l56.1 0c21.3-47.2 68.8-80 124-80c28.8 0 55.6 9 77.6 24.3c-5.9-22.9-11.1-41.9-16.5-60.9l-.3-1s0 0 0 0c-7-25-14-50.3-22.4-84.6l-66.9 9.9-23.7 3.5-7-47.5 23.7-3.5 88.7-13.2L515 31.9l5 21.5c10.5 44.8 18.8 74.3 27.1 104.2l.2 .9c8.5 30.3 17.1 61.2 28 108.1l.6 2.7 0 2.8 0 48 0 24s0 0 0 0c0 75.1-60.9 136-136 136c-72.4 0-131.6-56.6-135.8-128l-32.5 0c-4.1 71.4-63.3 128-135.8 128C60.9 480 0 419.1 0 344c0 0 0 0 0 0l0-24 0-48 0-2.8 .6-2.7c10.9-46.9 19.5-77.7 28-108.1l.3-.9C37.2 127.7 45.5 98.1 56 53.4l5-21.5zM528 344a88 88 0 1 0 -176 0 88 88 0 1 0 176 0zM48 344a88 88 0 1 0 176 0A88 88 0 1 0 48 344z" />
-    </Icon>
-);
+const GlassesRound = createIcon("glasses-round", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABvQAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDNgsIAAE2AiQDCgQgBYMtB1Yb3gXIhofv98s6972fDAD9AUZF0BmCzgChB1oCB0BqWa1QXStZxW1V/881n9/zowP8BMeH1kGxLPBMLYEBVmJTEc8GqhO2Dc6bdEihDSH9BEX8n+9qID2XfsO9+H8A4y993CVpkwFEZwAsrmxY5fta1FL8Vv+Y+M1KBMQSUApkZPQXYJ4s0F+hRKEQ1FK9Ti3q9ZIAolH8ugwa0Qpf4QdAAZIsFcWNDmmyXUOHYnP5jrbbho8YvimGR/8YEZvj1f634laIZ/t/NfOT2W+Mbxfvje3CL/eN2Jz18pCNMSwGxsioFME+8Vwf5tzsoYkM6BHgplvx6ryvl/2w4NshbSPyGZ1O6RWv9HuhX8StXtXxFwb1q74+58tZn5evzf5i7ldD21N63lAZ4TpMH/Jm5zf/Gfxb82/mvbI+/RVN7e1z3F5L2vj+IYQrN3u+f79oybPkluL++z1vXgnw8P0lbZx23BmV9tZb5kRzZWNKodp06HTIJumNPps23z+5YemK0ooNG3bf31xtA71NkoXTh5qaSTZWKieX/T6zy3OfffZcl6qhhgZMPMAbJsHHgUDw9rXatF2d5rW0bpfAH1/+92dzv3otLUpvorUEgjyuPs72tAjYYJBmUpw35OCjJglkz8ng0faeChDaYoCkUVvI+ukMhbbGQoOBppMXj2yQRdFG6G4HCEl7pyCb4RoUuvsIGszzY7pR98iWmLaC9C9kwoopsnxSOXnCpHJOuZvXMfaS1P1zy8vGqPO8bjTcqdkJx51Vtd8hZyfYaaty5xyz4ghd7otKk00wSWmO8nHp5YzNqk4745Bt7vk4c5Xf+0Y5f9x6NLSTlHCKBVkmUuQeQdatnhkf3pTx4aFJrw3O7QM=");
 
 export default GlassesRound;

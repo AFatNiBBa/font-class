@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-horns` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-horns?s=regular face-smile-horns}
  * @preview ![face-smile-horns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-smile-horns.svg)
  */
-const FaceSmileHorns: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464c141.4 0 256-114.6 256-256c0-24.6-3.5-48.4-9.9-70.9c44.3-59.4 67.4-135 73.6-166c1.3-6.3-1.4-12.8-6.8-16.4s-12.4-3.6-17.8 0c-19.3 12.9-48.5 24.2-78.4 33.1c-23.3 7-46 12.2-63 15.5C430.9 19.1 377.7 0 320 0S209.1 19.1 166.2 51.3c-17-3.3-39.7-8.6-63-15.5C73.4 26.9 44.2 15.5 24.9 2.7C19.5-.9 12.5-.9 7.1 2.7S-1 12.8 .3 19.1c6.2 31 29.3 106.6 73.6 166C67.5 207.6 64 231.4 64 256c0 141.4 114.6 256 256 256zM207.7 332.7c-9.7 9-10.4 24.2-1.4 33.9c22 23.8 60 49.4 113.6 49.4s91.7-25.5 113.6-49.4c9-9.7 8.4-24.9-1.4-33.9s-24.9-8.4-33.9 1.4C383.2 350.5 357.2 368 320 368s-63.2-17.5-78.4-33.9c-9-9.7-24.2-10.4-33.9-1.4zM240.4 288c17.7 0 32-14.3 32-32c0-1.5-.1-3-.3-4.4l10.9 3.6c8.4 2.8 17.4-1.7 20.2-10.1s-1.7-17.4-10.1-20.2l-96-32c-8.4-2.8-17.4 1.7-20.2 10.1s1.7 17.4 10.1 20.2l30.7 10.2c-5.8 5.8-9.3 13.8-9.3 22.6c0 17.7 14.3 32 32 32zm192-32c0-8.9-3.6-17-9.5-22.8l30.2-10.1c8.4-2.8 12.9-11.9 10.1-20.2s-11.9-12.9-20.2-10.1l-96 32c-8.4 2.8-12.9 11.9-10.1 20.2s11.9 12.9 20.2 10.1l11.7-3.9c-.2 1.5-.3 3.1-.3 4.7c0 17.7 14.3 32 32 32s32-14.3 32-32z" />
-    </Icon>
-);
+const FaceSmileHorns = createIcon("face-smile-horns", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABqwAAALWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDDQsGAAE2AiQDCAQgBYMtBzcblAXIHoVN2W40ZZIyr6S5P1zioRr7vd27bxLNG4nsJREr7Q+R6VSxkiiFIYJVuqxHYJaeDthrZswegChzOXuOCOL/f66pF8+PDvD7iR9KBaU21QYy6gDe8wFHcgX4sHA2UdzbFJ86orBDIobYdOH27nPHtS3U+E1LIEI+cg8Ap/ah8Q+tGUASCwCIMQDg9q4gC1dGaITo/v+TEN/IAAHELYANAgUUsECACzwCCwIGKgHBD/1P/4EMAiCawO0SUEELPAG+AClaTyhWQe+nNeqtRUkothatWuaHEZ31O4opvkdCz1jNCz/nf4ymBhyPOG/Nvc4hepxAdL1kqumyz2H9atUqxZ7AE46vil8U7go+5b5KsUK51utg1Aa8jLua9bCoeIV2r9POoNMuuz3Wq3Y5rnDc4bjLedfc7DNfTbSappKSVqpXq4rJNdmJVihWKldal0xVudC9eiEtGC1W0xRMqcz1o1ar7feN3ffJ7kHzA8Scwj4Af1eOhIQcufL+QxjLS8c+ScFU4EELTKQcl0q2plTLoZkzRz+lrYjzLaHOkL8j7NOoeMAhy1STrbTUCSkT7dKpKeh5/3KVLj3q7X10ia5+keQDYW5HjriFHZClP/Ic4F7muG14XhX1ssYWzyq9br7DHEmaM0e6bCvPeYuXUZXPltSbXpXPjoMrsiYr9wMQIOBZvnKwZkzkVwtrDsDvuS/fxon/r+RUbh+gjQMElLP/nipzSkH+DwW9bhjDsIdvQoC0ESJ0+lZ5s8EKDkhmrKDQGwuVFQ9oMAniNucX4FG1BFGoAuDY6ANesIkgUDgOoki3EzOK4MNVCDbhbzE1meNJ45ifty8LZ2reFCOQK/0RbNtwHc51brAGzXp0G9SkUdtgGNkvKzukS7JFJPkhxo83X0w45i4t1WLGkDpQuXPRP4oI7HnH1bDd2g1sDtKey0kcRI79GCKvga62Tkpae/q7BwA=");
 
 export default FaceSmileHorns;

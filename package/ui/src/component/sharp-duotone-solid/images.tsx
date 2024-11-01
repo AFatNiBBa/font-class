@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `images` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/images?s=sharp-duotone-solid images}
  * @preview ![images](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/images.svg)
  */
-const Images: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M96 32l480 0 0 352L96 384 96 32zm80 248.5l0 9.1 0 8 0 24 24 0 56 0 24 0 48 0 24 0 120 0 24 0 0-24 0-8 0-7.6-4.4-6.2-96-136L376 112l-19.6 27.8L299.1 221l-17.1-19.3L264 181.5l-17.9 20.2-64 72-6.1 6.8zM192 128a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M48 120l0-24L0 96l0 24L0 456l0 24 24 0 432 0 24 0 0-48-24 0L48 432l0-312zm347.6 19.8L376 112l-19.6 27.8L299.1 221l-17.1-19.3L264 181.5l-17.9 20.2-64 72-6.1 6.8 0 9.1 0 8 0 24 24 0 56 0 24 0 48 0 24 0 120 0 24 0 0-24 0-8 0-7.6-4.4-6.2-96-136z" />
-    </Icon>
-);
+const Images = createIcon("images", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABhwAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCPgsIAAE2AiQDCgQgBYMtB0gbWAXIhof/1uq9r6p3Fqk/92fisANCFb82UVFxbMScSFbAM3Xqec5DAXzLEg/aHprz6cE1O7kCFdi+LRUoWKk1xVo7Q6Hku8UgpHx6hu0NowsU8W9+ThPp4/Qd3qT/AYwfjfIcSWsGED0A2Hj88F5f1KOe4rvGZ8R39iAgNoFKICNjrABrZIGxChUKhaCeGg3q0WhUBBA1NH0GNTTjcbwGKECS5KLon9w6ub+9qbM4Rs+1nQ7RFiKFaO+MaOvIF2fNnDUjjsSsSLt4IIQVja8NxbHTnR2dKToiHxWIEwjClx5/ajDi/fZXhz+Mp4c+aHtl4D2TRnpGfp743bXvzN9eluUCpQNK5VfV/2jF6f7VmMaKA5J+/dZvd0yrFqVyRqlFi6XOv+j8J3WQLqi7sP/P1nxu3WoHEt0fdb3ES10l5dFA3Hf3h6u7znev+a2lPYHvP//1B/npRj1tSCNokUCQ5zTmOJM2gF0TEKZ4zCTmoy4IZOtleNcOHwgQ2hAgqWkTIBujR4BCm9kCNBlvqQA1bQ7LomgVBpxtIOnwIMiWeRwUBnwKmqzxZVAzEFkRWTViv4FJ20Zo67Zq4bwF1apqmaqcbtFpeXW1bc14LLRmmrOuue+eR1x1xU2PDMhD9saPumsbB2/1Q5WF5lmgskolLp6PH3PVQx5203338iarVfe9GR7jh2caNwHlIjuyTKTIXa9Zm6vQbs/NXni4AA==");
 
 export default Images;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hammer-brush` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer-brush?s=sharp-regular hammer-brush}
  * @preview ![hammer-brush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hammer-brush.svg)
  */
-const HammerBrush: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M136 0C60.9 0 0 60.9 0 136l0 32 0 36.4 33.5-14.3 41.1-17.6L87 185l7 7 9.9 0 13.8 0L96 512l128 0L202.2 192l45.8 0 24 0 0-24 0-8 32 0 0 32 48 0 0-32s0 0 0 0l0-24 0-80 0-24s0 0 0 0l0-32L304 0l0 32-32 0 0-8 0-24L248 0 136 0zM304 112l-56 0-24 0 0 24 0 8-110.1 0L97 127 85.5 115.5l-14.9 6.4-22.4 9.6C50.4 85 88.9 48 136 48l88 0 0 8 0 24 24 0 56 0 0 32zm96 208l192 0 0 144-112 0 0-48 0-16-32 0 0 16 0 48-48 0 0-144zm48-128l-96 64 0 208 0 48 48 0 192 0 48 0 0-48 0-208-96-64L544 0 448 0l0 192zM480 48a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const HammerBrush = createIcon("hammer-brush", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhgAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCfQsGAAE2AiQDCAQgBYMtBzMbgAXIhocnu/86t16/j+4xauQeAgs5JPO/m0EOQkdCxIlr6sf5N2CFe9XCIrHBM88nsPN5YZRg2nA2UdzuqnmghO0lIbKWeHyuPX53hCL+jrs0SQ+nT3Fn+tD4QX+3kjQbAKIbAJbu3r7Rm1/FVxGf/P8c8Yn1CIilIAs00MAgARZoCAxSyCgUgq/i///tf2AmgGiBd5VAgVY8gacBBUiaRbFiaO/e7VWzc7Grapb7310Q8WoWYnbMj97RO6pqT1SxzyQjwgGAcG8iIGwQliHKiMrOsir1l4+PPtErRsaTE56aXYUQVWVnVVayIHwidu+grPAg2LV+q90P9r2/9329HugzvKNbx0/DPj31qTveuGsXJ9uzkQa7yatOKbv0XuxGvReb3K+fNllWy6CfLfrBjGVtx/ebfcGcOVv6aXM+OnzvLCOuuL3ek4tz8uEv3sT97nKhWjdZN7XaXVNuOLyY0C/VxV9rX2oFbzoSBUPv7PLVV12kQFzWd9srVx3uuuCvtiqBb17+5Rfl5v/fTDemDrRJIGhM/H+iA+lGsOoAKikuN5z5okDygCZ0OwEctVDS6KRFSTcM1I0ulCbQTUPM1ITudhEWRXu2l4OGTjq5iG6Y5Tq60MszdNMCH5Rb9IqGmhpKZvwl5q4a4ZXL8tTJdZ6Xt3XV1DwtzM/P4vjYy13fONjqlAuc71InnXCWSwfqYhtrlznPKg5Z6YeyqSarZfPk49bz+l1OutglznKB8+Mi8+X72bEu50ePg9UkwLQPDKRdkTqdOXreeScvnnTs4ssuOQMA");
 
 export default HammerBrush;

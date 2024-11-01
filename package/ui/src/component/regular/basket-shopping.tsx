@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `basket-shopping` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/basket-shopping?s=regular basket-shopping}
  * @preview ![basket-shopping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/basket-shopping.svg)
  */
-const BasketShopping: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M243.1 2.7c11.8 6.1 16.3 20.6 10.2 32.4L171.7 192l232.6 0L322.7 35.1c-6.1-11.8-1.5-26.3 10.2-32.4s26.2-1.5 32.4 10.2L458.4 192l36.1 0 49.5 0 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-20 0L476.1 463.5C469 492 443.4 512 414 512L162 512c-29.4 0-55-20-62.1-48.5L44 240l-20 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l8 0 49.5 0 36.1 0L210.7 12.9c6.1-11.8 20.6-16.3 32.4-10.2zM93.5 240l53 211.9c1.8 7.1 8.2 12.1 15.5 12.1L414 464c7.3 0 13.7-5 15.5-12.1l53-211.9-389 0zM224 312l0 80c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-80c0-13.3 10.7-24 24-24s24 10.7 24 24zm64-24c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-80c0-13.3 10.7-24 24-24zm112 24l0 80c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-80c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const BasketShopping = createIcon("basket-shopping", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgQAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCIgsGAAE2AiQDCAQgBYMtBzYbKAXIHoVxMz3SqY7yFjYRD8/v7+nXPve+AXiHUjMaqOqkNmkaQ4QS/MVm/oKdnrW87/9zuef3/OgAlx3Bocz1b9r5bgHN7QmEgWZjU4lkYZYodjTvpUEK7UKdzpDH8zipRLqU4IT/ofFJfXtJShmAqAaAYXNmTPLwTbyJePY/4pkJCIhhoBDIkKGRAANlAo3kCuRywZv4/3/xH1gQQJQRviyBHGWxDjsBOUhKed6tchWeVCxVzmfrOyosuFZvZlSM2XG5zY36s6JixWv1L7asEDODwtkKknK4zvUGs4PFcKXN9L5z4kqrmbNmzzpXu2JcqDsnKs0SLrbkECHZXeoEHYl2m/FDmt+udvtLM0v5qQ57pl71XvrQng597y28p1W/abVrT6ulz2szK/1b9x91/600s+XVMuWWmz3fcK/v2c89H0H7+XCnf5HYt2vM1JAl7LI3VWb/rnm8uq7u9PNAIFja9vX4qg78tVzFBN49+Dfvcf8/TEPTbZSTQJB1/L+jhWkoEHoAeYqtmi98USBZpiR810rOCxAqIEBSRgUBMg1VEyBXQQcBSproJUAZFcyQiby8UMuiBk8q2YBnetuG52q5j5cM9Cgro1ZkkCfCjXjflza6i4zaVHTr3LXoX8w2VRIw8XZ5QLHZbbtVDrXDOy21zlqbLbHYCps72EaTyi3WGL2EjvJDhW4666rQX3G48xBmo9lGm6yYth1fZ4Di+ritrcuT2+EgCRm725IkIlX9Q67dCVYBAAA=");
 
 export default BasketShopping;

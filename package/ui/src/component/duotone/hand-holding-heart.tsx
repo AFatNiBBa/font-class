@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-heart` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-heart?s=duotone hand-holding-heart}
  * @preview ![hand-holding-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hand-holding-heart.svg)
  */
-const HandHoldingHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 416l0 64c0 17.7 14.3 32 32 32l160 0 160.5 0c29 0 57.3-9.3 80.7-26.5l126.6-93.3c10.6-7.8 16.3-20 16.3-32.2c0-8.2-2.5-16.6-7.8-23.7c-13.1-17.8-38.1-21.6-55.9-8.5L392.6 416 272 416c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0-16 0-78.3 0c-29.1 0-57.3 9.9-80 28L68.8 384 32 384c-17.7 0-32 14.3-32 32z" />
-        <path d="M163.9 28.9c-29.4 29.8-29.4 78.2 0 108L265.5 240.1c6.2 6.3 14.3 9.4 22.5 9.4s16.3-3.1 22.5-9.4L412.1 136.9c29.4-29.8 29.4-78.2 0-108s-77-29.8-106.4 0L288 46.9l-17.7-18c-29.4-29.8-77-29.8-106.4 0z" />
-    </Icon>
-);
+const HandHoldingHeart = createIcon("hand-holding-heart", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfgAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBcQsIAAE2AiQDCgQgBYMtB2AbIwXIjtRG9VZYEVS2sqye2Q3pGEfAaEkWAT0heWAxOMbGu0SWoLL/5/+aevH86AA/n3uWtUfyp1vG8wns+UDmGYAlNJ2hzdrZUwwKJknifZJh4obNCvK4lN2qRHoq/YQH/P8Axi863UoyMAMQDQBYtG7VSp9VopLip6vvEz9ZgYBYDAqBDBl6BJgrE+iRK5DLBZV0NZW4uiCAKPNPlYEycmzCbkAOkhB53j+1ulSbr60uVW16U8SNo9bEY9X3tK+Ld+Km0W9X3T1yZIwOKoVwYysvVltkDvKE2fZ4CltWR1Vo64l2Rmk3YlV07p45Vz307pZHDX674e3fBv209yevvLy2n751e/a6q7b2qd17revrX7unr29Po0bZVixUx9XdeWfdiy+NnXX9Fpeaay8++/dfzq5zQaWurtIg0AFauHXcmC8NU68HAsFH7/7/4rb6uf8NqE7g5w/++Cfv7+pnaWF6GwMkEGRjr461OS0EQw3gR6U4a3Ba6H4EMlMl8VNrPC5AqEKApKxKgEy3BgFyVcYIUNJnmgBlVVbJRD5QaLFFg6TGCZCZ7jqQa/EeKJnr27isJTKEsfhgP3hJy1t82bxi0viJxexiWikcaGg3PadYtkaetV2jaKm9jjnqtD12O+B0Q560MjvjiOUSscwXFSYZb6LCbMV24x5ea4+TTjnAC/uzzFGcD0Y6Kw8eRYtJgMl3A2VEiqwLkdo4yCrjHrs2Dq+DesbC8wQAAAA=");
 
 export default HandHoldingHeart;

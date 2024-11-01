@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `light-switch-off` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-switch-off?s=sharp-light light-switch-off}
  * @preview ![light-switch-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/light-switch-off.svg)
  */
-const LightSwitchOff: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M176 464l0 16L32 480 32 32l144 0 0 16 0 16 32 0 0-16 0-16 144 0 0 448-144 0 0-16 0-16-32 0 0 16zM0 512l32 0 320 0 32 0 0-32 0-448 0-32L352 0 32 0 0 0 0 32 0 480l0 32zM96 272l0 112 0 32 32 0 128 0 32 0 0-32 0-112 0-32 0-112 0-32-32 0L128 96 96 96l0 32 0 112 0 32zm32-32l0-112 128 0 0 112-128 0zm0 32l128 0 0 112-128 0 0-112zm48 72l32 0 16 0 0-32-16 0-32 0-16 0 0 32 16 0z" />
-    </Icon>
-);
+const LightSwitchOff = createIcon("light-switch-off", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABcAAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCGwsGAAE2AiQDCAQgBYMtBzcbIgXIhof/Xyu771d1n5mqQIX4JwqYFRFtyG/UgluNqNotGjFnLYHuiWue//nTA0aRPVrXqqhBIuJ8AhMdVQruZgOb6QRs1s5+QJJ3I+kjQobND5sTlPEwpmuR3k4/43X+0PjVKC9JygJANABYs3fnDp2+6Iv4ufsF8bNtCIi1IAsUKDBWgOUKgbFKGaVS0Bfdrv0PzAQQbXipBEr04BruAkqQtMty4qBRvb113epf7qlb1W6hiiLqEKKOiIg6UlQFW4VdddVfKfy2fiKFvYKo60BFVQlh2naZqNRVzci7Mzd6pp70bvPu7xN/PvOzjwY2TfNKxyuNRuZWmf1oVs5PI6kjy8dCR/+8hqosv5Nd4/kqd7vyUw49zU9hXxPLZm3KeXbWJCoQ141pOtuODlz+f0+dwC/f/vk3/hV1O/E0vYseCQTF9O50h+IpxFMBAEhxx6R4ikByThvetZ83BAgVAiRtlQCFMRoBSpVpArSMt0CAtspOhSh7haEOVzjp5zpcWOgxXBrqM7hlue/ybUOj0DpOZ7hPX/JGCWxYl+fMnJ2X5mFT4RWJCcvL8rI9+Y4bmkIbnXHVFbecdsp5twR0w47SbZdtnIEbfFE2x0yzZUvl486tvEdgbrjpPPPK+SrL5Pvxye7MJ08hLwHtXBVJIlKjiNqMl5mZcfXMGQA=");
 
 export default LightSwitchOff;

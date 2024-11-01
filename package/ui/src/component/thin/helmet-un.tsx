@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `helmet-un` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helmet-un?s=thin helmet-un}
  * @preview ![helmet-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/helmet-un.svg)
  */
-const HelmetUn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 240l0 72c0 30.9 25.1 56 56 56l146.2 0 30.2-90.5c1.1-3.3 4.1-5.5 7.6-5.5l208 0 0-32C464 116.3 363.7 16 240 16S16 116.3 16 240zm464 0l0 32 24 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-32 0-104 0 0 208 104 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-112 0c-2 0-4-.8-5.5-2.2L220.8 384 72 384c-39.8 0-72-32.2-72-72l0-72C0 107.5 107.5 0 240 0S480 107.5 480 240zM261.8 288l-28.6 85.7L352 485.5 352 288l-90.2 0zm8.7-188.6L336 191l0-87c0-4.4 3.6-8 8-8s8 3.6 8 8l0 112c0 3.5-2.2 6.6-5.6 7.6s-6.9-.1-9-3L272 129l0 87c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-112c0-3.5 2.2-6.6 5.6-7.6s6.9 .1 9 3zM144 104l0 72c0 17.7 14.3 32 32 32s32-14.3 32-32l0-72c0-4.4 3.6-8 8-8s8 3.6 8 8l0 72c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-72c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const HelmetUn = createIcon("helmet-un", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABmwAAALBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDAgsGAAE2AiQDCAQgBYMtBzAbggXILgbsxuprhNZyCjEr8jE/a/xwz6XhIBtKy8M/etHfl2RmAeVsZaKTXKkUvlBJLdj//Z9z/Y2ieBa8N+HSKJCRDKzAEgd0ndRgRxU88FzzXyUVHciigKKB7o1mOgAdwaZu9twcNKZ2iSwOtAs3FkjGG3iDTS2/JPcnrqkf509/HkX+KLmopAqgzPMJDDDaomnn47eBzXQCtr1FLYpE1iOZTLfkH3t8q0PnAlk8Nk+B5Gy4AIfDh8ZvODtIpCmAqAgA9J7HDvfiCs6BfPKuIz6hIyD6gFwgRYq6AnSTCtSVyZHJBD+D/9/+B/IEEEWo8ARkKIGLeAjIQKKQZfXlUvXFMoVy2YQyhdIThbN9bJAxMU5XcERcO9TB6N55Dnb3ZVooEyf7iCFKC0rEvsEK/eStRSUh8VXbR+F43r6G+weRMW7iuPERUXri+Amsp8dVDGJLF7HEiS7hZm8dU9YQtvQx3BYz2ADOZPSMSyT+PvEeUf3CJ/EE+/kgZVCJv/5PU++tWvoFXvkvX63q/XxNzV6d7SLP85pmpcVZefKFgA5fJa0U1nDSz27b8oPo879+9NFH4qHE+betOz4u2LDSe5CXPzn6auZExVmziqsUR/dqyzoYb5MNwnj5PV/GGbzmikHST7/ftfp+jfjrQCD4b/eH7XbFyAT8Ol9e+WfkXQOF5B5KSkCQNvtLpoUgIQAASWzQMIRA4qQCVGpZpwQIpREgUVRagFQdFQXIlNZUgIL62gtQVNpYqchKCVVNL1SirNVUqoONVKaqR1RBN++niqoGqaTKcib/E9MNGO4/LXdatMq75MMyUgmf6Me75ts2e4O2xrDXAiutsM588yy2LnSN4dn1lhswQ/r7olxrLbSS6yI/rl3rJpRaY63FfbPzSbrK74ca2TDv3RicCeRsw5A8waKk1KL5y5bPX9e8WgEA");
 
 export default HelmetUn;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `jug-detergent` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jug-detergent?s=sharp-thin jug-detergent}
  * @preview ![jug-detergent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/jug-detergent.svg)
  */
-const JugDetergent: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M112 16l96 0 0 64-96 0 0-64zM96 80L64 80l0 16 32 0 16 0 96 0 16 0 32 0 0-16-32 0 0-64 0-16L208 0 112 0 96 0l0 16 0 64zm272 64l0 352L16 496l0-240c0-61.9 50.1-112 112-112l240 0zM128 128C57.3 128 0 185.3 0 256L0 496l0 16 16 0 352 0 16 0 0-16 0-352 0-16-16 0-240 0zm120 80l-8 0 0 8 0 144 0 8 8 0 64 0 8 0 0-8 0-144 0-8-8 0-64 0zm8 144l0-128 48 0 0 128-48 0z" />
-    </Icon>
-);
+const JugDetergent = createIcon("jug-detergent", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbQAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSCAgsGAAE2AiQDCAQgBYMtBzQbBgXIHgfOqS+m+BzOJE/REOPh/+f+bZ+bPEwZ0ioAQt8qUq2mQcdgxF9jCey8eoCv2veJa57/+VOeJ/EjVVD1Ni2cZ55PYGLV4PNx80wnYIPnd9lzIIn+TYIVk3a4/cNtrV0gj+sOqJCepZ/wMN1p/KK3ByRZBiA6AWDu5vUrfdYWbRE/thA/Wo6AmAtKgQwZ+gkwQybQT65ELhe0Ratl/wNLAogquY0EctSxH8cBOUiqed7o3r5b10ZRaZ9vKirN7UWzEM2Islk0RVFEo4ZhA83elKV2pz0f/mpysemrGREflUIU7SOyG/qGA35UC3iwEMWC5uCXnV7+NuinQz85/fYeoc6xx5xWmeukfOGp5uik05ncnI6z97Ddn/z/1sxnQuXPmbYnB5dX16XcI3X1JfiTH97hWmPcMQYIBO/3mX9hd8cZ/9WLBH7+4C/4FbU+izvpJeoSCLIRrRF2xB2IOwIAkOKSwXEHgWS7Kra181iA0KTiSVUTz/TVCc81DccrBpjIbm6xXibyhtDNTvCknbN4ZpKbeK6b9/GKGb7NV3WLTNMEPRG+81IX9cDCWeXYUWPKaeW0oojKw4XJ6eW2MeSS6xjKUoecdsoFBx1w1IUOOmdl6aKTFq3Ahb6oNNYoY5SmKY/rX+dvctA55x112qk4zXTl88kQl9b9h2InwjjOx0kiUvtjFw+P/JubfzsIAA==");
 
 export default JugDetergent;

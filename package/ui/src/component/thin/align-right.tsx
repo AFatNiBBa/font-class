@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `align-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/align-right?s=thin align-right}
  * @preview ![align-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/align-right.svg)
  */
-const AlignRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M440 56c4.4 0 8 3.6 8 8s-3.6 8-8 8L168 72c-4.4 0-8-3.6-8-8s3.6-8 8-8l272 0zm0 128c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 200c-4.4 0-8-3.6-8-8s3.6-8 8-8l432 0zm8 136c0 4.4-3.6 8-8 8l-272 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l272 0c4.4 0 8 3.6 8 8zm-8 120c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 456c-4.4 0-8-3.6-8-8s3.6-8 8-8l432 0z" />
-    </Icon>
-);
+const AlignRight = createIcon("align-right", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABYgAAAHFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBKgsGAAE2AiQDCAQgBYMtBzIbrATIHoVxw31ki6WMj8GJ/oiHj7ny/SQHwJlTBUYFjIrIEQp3qsBqXYGEvantVFZvMtcedsg7vr75v5zewEkH+I0ObSwakw5kAe39/AQS68XlCWWBRdLzBKy3ifgYsfCJCJGGRHQ8ER1fD8jiud1KSJ4mcDu+afzV4RqJNAUQ9QCYu27VSoXBGIz4UZz4YTkCYh7IBVKk6BZghlSgWyZHJhMMRrGI/4E5AUQp+vIEZCjFVMwGZCCRZVl1dU11VUlNtraqpHLfw5YHzdXxqPVxWw1W16AcneFqe0f/QP3AP+zl/c3tpaXb6yXkEvaCW5aHHMvOtZ8HAsHvYre21c34X16VgD+fPP+MFItCMoByCQjSEcURNkcBoiAAAEmc1R8FBBJjZehVqz0SIFQiQKJUpQCpLvUCZCoNF6BEr4kClKq0SiqyCqHZFgaJaidAapLzINPsNSgxw2e/VHOkt4c/e/7vlrJIogsv5WNHjcmn5cNCES4E647T82l9yFkzGAo37XXMUaftsdsBpwV90srojCMWadRCH5Qba5QxctPky/X19bX2OOmUA445Gs5Ml+/3hjirzw8FK0GM48QSCZFUPRz+8QEA");
 
 export default AlignRight;

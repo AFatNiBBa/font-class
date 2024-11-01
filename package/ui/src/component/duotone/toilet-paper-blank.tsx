@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-blank` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-blank?s=duotone toilet-paper-blank}
  * @preview ![toilet-paper-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/toilet-paper-blank.svg)
  */
-const ToiletPaperBlank: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M16 480c0 5.4 1.4 10.9 4.2 15.8C25.8 505.8 36.5 512 48 512l269.9 0c22.3 0 45.4-12.1 55.4-36.1c7.4-17.9 17.7-47.8 26.3-91.9c9.1-47 16.4-110.1 16.4-192c0-.2 0-.4 0-.5c0-3.1 0-6.2 .1-9.3l0-.5c.1-2.9 .2-6 .3-9l0-.8c.2-2.9 .3-5.9 .6-8.9c.3-3.3 .5-6.4 .8-9.5c1.3-12.6 3.2-24.7 5.6-36.1c4.9-23 11.9-43.6 20.6-61C461.5 21.5 485.5 0 512 0L160 0C107 0 64 86 64 192c0 85.3-.4 193.7-43.5 271.6c-3 5-4.5 10.7-4.5 16.4z" />
-        <path d="M399.6 384L512 384c53 0 96-86 96-192S565 0 512 0s-96 86-96 192c0 81.9-7.3 145-16.4 192zM544 192c0 35.3-14.3 64-32 64s-32-28.7-32-64s14.3-64 32-64s32 28.7 32 64z" />
-    </Icon>
-);
+const ToiletPaperBlank = createIcon("toilet-paper-blank", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABhwAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBQsIAAE2AiQDCgQgBYMtB2AbNwXIhofv7f6/tc/pfgD7AxyaXfWzsSJHdESmryYis3txKudyHgrgGwVtDw1INq/dsc4rUMGlAekWKGBNa2A1t5FOcEGQ1SHyIsPQPENygiItyFuUpPvSR7gl/w9g/GTUFpLWDCB6ALDDYQft4+2ZmEnxUeN54iN7IyB2BJVARsaEAFvLAhMKFQqFYCY1GsxEo1ERQDTJn5RBE0ocjwsBBUiSKIq+/jXtZWdxaHvZdlJ7W/tLa5477JvVz65/fuXTB3918GHXj0TcO3D32P1Rjz8wfNfofUavH7xrXmfcMHzP+AOHfXtYHXUECfcwUiceGH9k/LkNHWHmv+ajK+80+6mep36Z9dGpH7llu/MlXj/6qAMcEORaj13Rtcstb43X1J99VtfjSscraLRseLinS+/331/wfucOXbu4grKkLEJEzkkyfbMu+ODR+nhH3rdD0+7l7j/t2goEgv/fee3747q3/qelPYHvXv3tL/oh9TTeTsenp9AigSAvbSx1dLpejyodLwAAKS41O10ft+oRyNZI6Dkd7hYgtCFA0qRNgGycMhTaLFGgNGXdhCZtDpJF0SoMOIaDpMMFkK13DRQGPAelrb3rNhmIjDUaKfRXL2HXGt3lULVq+cpqczWtKAMfMu1uVW0bCy/lmUX+pFOd51wXO8XJznBxhV9on+AS59h1he3iiyqrLLdSZbPK3N4Khwb3Qhc5Y8zZ99lKdd5Z6NL18kXeToRwtctZJlLksYvPO+PsUy5ehmpp2QNUliF32USfu6g=");
 
 export default ToiletPaperBlank;

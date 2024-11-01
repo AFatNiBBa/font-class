@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-exclamation?s=sharp-thin comment-exclamation}
  * @preview ![comment-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment-exclamation.svg)
  */
-const CommentExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M71.9 376.4l3.6-9.6-7.3-7.3C35.2 326.3 16 284.7 16 240C16 136.9 120.2 48 256 48s240 88.9 240 192s-104.2 192-240 192c-30 0-58.6-4.4-85-12.4l-4.6-1.4-4.6 1.4L42.3 455.4l29.6-79zM16 480l19.3-5.8 131.1-39.3c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L23.1 461.2 16 480zM264 112l-16 0 0 8 0 160 0 8 16 0 0-8 0-160 0-8zM240 352l32 0 0-32-32 0 0 32z" />
-    </Icon>
-);
+const CommentExclamation = createIcon("comment-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdwAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCCgsGAAE2AiQDCAQgBYMtBzobFAXIhofv1/o893UvAPcCMCh2hPLXOsK4RRWWU7GoUpEz/9d8fmlHB/iNDqXCKrFWHpHPJzDAj//5vMBnA5vpBGwGzXt4ujY6NIXkG+Tx1gaVSLfSd1yLPzT+1MwFkiwDEHUBMHbx/Jl+KEUp4lv5OfHNdATEWFAIZMjQUoARMoGWcgVyuaAU5bL6DywIICrDgxPIURmrcAyQgyTP81Zt6lWrUalWvsjBqi9u0rBJ4/hx0W+LDf3LQvrnBS++OKhxNIwFsXhB5w6dF8fzGr9N/zb6Y/vHoz5M+7ro5ymfR7wrfpm7IJour16juiBOjYC+oCykyOqhXUXdir/bft/03eTJQ9B+SHvjY/a4QZLeHGLMl1SN6Hl8rL4Ot9Nq1uDNHQE/18mT3pNdvNO6dbVqNr9zcTIOiemb2i617v/dddFT1UNV1RVHTf4tYJL3g0CwunXp99V1RvxXtUYCf7z590/sV1QuJakCVSUQZD3KPaxIIBEAgBSHtEsQSBbJ4V1rui5AqI4ASWXVBci0UFeAXHXdBaiktYECVFbdfJnIqwkNrcxBUtNekBnkJMg19BRUMsKnemUNI9va5G1FvtbLmFTGJl4r+vbqUwwrOsdSZQMSvfPhxWiryyG91pUibLLbLgdstMHWWCix+8xsHbTTpD5moi8q9NVLH4Vhitmz68YiHu2zX4vt6vxLhivWz7o41L+7K3UTcPYzkCQiNdi913v+x8JZu/MEAg==");
 
 export default CommentExclamation;

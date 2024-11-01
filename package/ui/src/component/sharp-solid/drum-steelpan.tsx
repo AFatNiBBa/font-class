@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `drum-steelpan` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drum-steelpan?s=sharp-solid drum-steelpan}
  * @preview ![drum-steelpan](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/drum-steelpan.svg)
  */
-const DrumSteelpan: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M473 209.8c-22.2 9.4-49.7 17-81 22.2L353.9 176l57.4-84.3c23.4 4.9 44.2 11.2 61.7 18.6c47.1 19.9 55 39.9 55 49.8s-8 29.9-55 49.8zM340.7 238.1c-16.9 1.3-34.5 1.9-52.7 1.9s-35.8-.7-52.7-1.9L249.9 192l76.2 0 14.6 46.1zm-156.6-6.1c-31.4-5.2-58.8-12.8-81-22.2C56 189.9 48 169.9 48 160s8-29.9 55-49.8c17.5-7.4 38.3-13.7 61.7-18.6L222.1 176l-38 55.9zM225.5 82.8C245.3 81 266.2 80 288 80s42.7 1 62.5 2.8L326.1 160l-76.2 0L225.5 82.8zM576 160C576 80 447.1 32 288 32S0 80 0 160L0 352c0 80 128.9 128 288 128s288-48 288-128l0-192z" />
-    </Icon>
-);
+const DrumSteelpan = createIcon("drum-steelpan", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABcQAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbwsGAAE2AiQDCAQgBYMtBzQb8wTIhofn7fo691X1R/UY1WNq4WgnWhgRFIkR5Gjj/p9rPr/nRwf4+QgOJRqLCqTAs/Z8AgOMtmigDRtsNlHc7tzUODTt2SGJLMlxLsdjD3l8lZ1VId2ePsC1ZXr8pauzJM0ZAaKNd8XsjWuXe+X7+D7i/fpzxPuWIiBmg1IgQ4YeAkyTCfSQK5HLBd9Hva7/gSUBRAO5dQI5GrEWhwE5SCp53rZoU3SqVlrmG6qVYu+z4+bExniu/3Mdb+5A69w0bt1DxRUDekc1em54fsLznW7pDHdz68RHJ66PWRsfrV7Zf10UsWH3AxsiPt3w8bqPS3H/+k+qV278rG/0eaLNE//UPjjwgc//6fnbRpPWmnBH76eeamx86ulel3e/vjtN+8cy/9xV+a1nr6dn8h0TNi7YOPim12q1D7sss0znZduXDV1VY3V5kYt06Kra0FcMW1Wurl18cST5KsNeAQLBY9e4Y2fraf83VRP48eX//gEX179Ps9ITaJJAkA2rD7MtzYKAD8BJcb4+xhcFkqUq5FNbuEWAUCBA0qAQINNdGwFyhaECVPQyXoAGhbUykTcLHWxvkLRwGjITXAa5Dp6Bimnetht0iMy/WO9gv3dJC3pk/qBy9IhR5ZRy6aucy9C5d2q5LQ86P+UG40oHnHTCufbb57BzO+yM5d55jltgofP9UGm0EUYpTVEeR4+LN9jvjHMcdtIJ7meq8r41yPl29WDUEiEcY3KSiNRy35nzjg9/6fqp3ScAAAA=");
 
 export default DrumSteelpan;

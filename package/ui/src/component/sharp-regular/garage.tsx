@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `garage` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/garage?s=sharp-regular garage}
  * @preview ![garage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/garage.svg)
  */
-const Garage: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 6.1l9 3.7 296 120 15 6.1 0 16.2 0 336 0 24-48 0 0-24 0-319.8L320 57.9 48 168.2 48 488l0 24L0 512l0-24L0 152l0-16.2 15-6.1L311 9.8l9-3.7zM96 192l24 0 400 0 24 0 0 24 0 272 0 24-48 0 0-24 0-120-352 0 0 120 0 24-48 0 0-24 0-272 0-24zm48 128l352 0 0-80-352 0 0 80zm136 96l80 0 24 0 0 48-24 0-80 0-24 0 0-48 24 0z" />
-    </Icon>
-);
+const Garage = createIcon("garage", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABawAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCCAQsGAAE2AiQDCAQgBYMtBy0b/gTIrgpsY1rQF2GAyCAWLRa55w8lsjeMkKSTCNqP3+w9+SLaxNGEV7VkWUP7jQjJQqURxTolWCWTn///x+q+6cZ/hiLDoil7u9EWZGxLeIS2mVUx7ibEYHt+mdU2Rkjuu4nL6Y/zpwdcw32u86fftTWa87zzsPPOS8ciyMIskYS8ekCsnf3iB4UySDovTzJM+mFzgTr/eaWhvCvwMrxp/pnzQdFUAMgoADh7u1nG/nd+J3/d5KfzIJCzgFWEChUWETiBK1jEswpqtfA7Xef+A1chQFqk+wqo0eIheAwyp6j/onVJPCDly3mdgUaymJrWjzIVKYT0ExGXxrkPOZExj9RvDPTLMdoikhHmUXtoUN7rNxnSCEgOSM3vteL0x56ydgejakw8TDKUj9nJYFONysEC6f1XbO+ohuUbQzckScre8/3hsNZUe+FKbcliZgPkvg/fz50fKE/87x3gAP5+euXp7kc5KKFXAaHa7rZ1ywE4YYByyRWz8kFBcQ9PetVBrwVEPwKKVr+AygIVArV+Wwg0lgURaPW7jiu1GDGp17Bi0HOsctwjVpv0iTVO+Cq1JlMZmmwm8j8vo4RwcRc75PKwGJu2VcV2RL8eZ9vB+hWPWeko5o4duTAztXIB6Jly9dJOSUOKvojxcvFgYthxb2l0gHTm3Ip3dL5JHLsfWlzps620Dw7g8BOJ3JoiWDw4Gy1mAAA=");
 
 export default Garage;

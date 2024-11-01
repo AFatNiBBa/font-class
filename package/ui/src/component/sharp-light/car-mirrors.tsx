@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-mirrors` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-mirrors?s=sharp-light car-mirrors}
  * @preview ![car-mirrors](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/car-mirrors.svg)
  */
-const CarMirrors: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M132.1 32L144 32l288 0 11.9 0 3.4 11.4L491.9 192l20.1 0 32 0 16 0 16 0 0 32-16 0-16 0 0 160 0 16 0 16 0 64-32 0 0-64L64 416l0 64-32 0 0-64 0-16 0-16 0-160-16 0L0 224l0-32 16 0 16 0 32 0 20.1 0L128.7 43.4 132.1 32zM112 224l-16 0-32 0 0 160 448 0 0-160-32 0-16 0-352 0zM420.1 64L155.9 64 117.5 192l341 0L420.1 64zM112 296a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm328-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const CarMirrors = createIcon("car-mirrors", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbwAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBfQsGAAE2AiQDCAQgBYMtBzIb/wTIHoPjbglaLGUohRB3/vr8v+Lh+bnXc2+g/S9pO1QELAyDnGJbIQcsfYTb2E5vNv4/+7k7EU1vIoqYJEgq3xoJSnCpHDJrpGiSAbrg8385vbHs6AAXAI6NZ/v5BF+7ep5Az6Mx+XsU4AllmoB1tu3VkqESErvQAFDH19hORn7JAbwKq4q/XHYh1RWAWAAAzlwbG0BtvyKG8YkY9IGAOAtYTYQKn15OBI6TiDEAqdWgVgt+GUf/H0gQQLTSuhLUmMI98BhADVJT13s61WTSNTP11U5WbnXqmaUxEZpOlCKEECUieq9iq0Rx/8S1cFxWa4qYmUZXe11/mVy6ev8wdO3a89+4Z7I4/JT3wfjw7RnmBzunfX94K+LvseQ0wbjgDAsYNSPNalaO1tk6RNb5Q4Kti5+NxrQYoTPn2Kkynd4wjwnB+dyr7cKITVNdDrV/H4BA0E///7o3V/9P2SX40+9/+RkZz9P5gGkJgmr7GDeVzUCeJgIAZLzkzWYQSNfIpLD38W4WCpRNrcJWljGytWIb21ipANAqLpGIeiIsMa1nU+8JWzlom60t8cg2jnuJW0tCAmYqkKh/eVmdY7TjEGWSaarSZq5pkCPb3To6bYcF2Yvgp5i3YR1nzqwl3IhhDGS8NZ17dIcvIhlJaaSKblfPrUkaM1hL6+p9yD516P0wTNifjuDjiAF7PxCULyK7Rw+YxNoSw2wwLAAAAA==");
 
 export default CarMirrors;

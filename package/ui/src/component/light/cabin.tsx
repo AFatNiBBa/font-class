@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cabin` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cabin?s=light cabin}
  * @preview ![cabin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cabin.svg)
  */
-const Cabin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M237.1 10c11.3-8.3 26.6-8.3 37.8 0L352 66.6 352 56c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24l0 104-.6 0 13 9.6c12.3 9 19.6 23.3 19.6 38.6c0 21.4-14 39.5-33.3 45.6c.9 3.3 1.3 6.7 1.3 10.2l0 16c0 9-3 17.3-8 24c5 6.7 8 15 8 24l0 16c0 9-3 17.3-8 24c5 6.7 8 15 8 24l0 16c0 9-3 17.3-8 24c5 6.7 8 15 8 24l0 16c0 22.1-17.9 40-40 40l-80 0c-22.1 0-40-17.9-40-40l0-16c0-9 3-17.3 8-24c-5-6.7-8-15-8-24l0-16c0-9 3-17.3 8-24c-5-6.7-8-15-8-24l0-16c0-9 3-17.3 8-24c-5-6.7-8-15-8-24l0-16c0-2.7 .3-5.4 .8-8l-129.6 0c.5 2.6 .8 5.3 .8 8l0 16c0 9-3 17.3-8 24c5 6.7 8 15 8 24l0 16c0 9-3 17.3-8 24c5 6.7 8 15 8 24l0 16c0 9-3 17.3-8 24c5 6.7 8 15 8 24l0 16c0 22.1-17.9 40-40 40l-80 0c-22.1 0-40-17.9-40-40l0-16c0-9 3-17.3 8-24c-5-6.7-8-15-8-24l0-16c0-9 3-17.3 8-24c-5-6.7-8-15-8-24l0-16c0-9 3-17.3 8-24c-5-6.7-8-15-8-24l0-16c0-3.5 .5-7 1.3-10.2C14 247.6 0 229.5 0 208.1c0-15.2 7.3-29.6 19.6-38.6L237.1 10zM360 416l80 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8l-80 0c-4.4 0-8 3.6-8 8l0 16c0 4.4 3.6 8 8 8zm80 32l-80 0c-4.4 0-8 3.6-8 8l0 16c0 4.4 3.6 8 8 8l80 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8zm8-104l0-16c0-4.4-3.6-8-8-8l-80 0c-4.4 0-8 3.6-8 8l0 16c0 4.4 3.6 8 8 8l80 0c4.4 0 8-3.6 8-8zM360 224l80 0 24.1 0c8.8 0 15.9-7.1 15.9-15.9c0-5.1-2.4-9.8-6.5-12.8L256 35.8 38.5 195.4c-4.1 3-6.5 7.7-6.5 12.8c0 8.8 7.1 15.9 15.9 15.9L72 224l80 0 208 0zm0 32c-4.4 0-8 3.6-8 8l0 16c0 4.4 3.6 8 8 8l80 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8l-80 0zM72 416l80 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8l-80 0c-4.4 0-8 3.6-8 8l0 16c0 4.4 3.6 8 8 8zm80 32l-80 0c-4.4 0-8 3.6-8 8l0 16c0 4.4 3.6 8 8 8l80 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8zm8-104l0-16c0-4.4-3.6-8-8-8l-80 0c-4.4 0-8 3.6-8 8l0 16c0 4.4 3.6 8 8 8l80 0c4.4 0 8-3.6 8-8zM72 256c-4.4 0-8 3.6-8 8l0 16c0 4.4 3.6 8 8 8l80 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8l-80 0zM448 137l0-73-64 0 0 26L448 137zm-192-9a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm48 16a48 48 0 1 1 -96 0 48 48 0 1 1 96 0z" />
-    </Icon>
-);
+const Cabin = createIcon("cabin", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAACAQAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhkyFagsGAAE2AiQDCAQgBYMtBywb5gbIBv757L7uq66v6jF6Jfes6Ah0KGc++WxGRZPu/+PenWd5l87nAeahrEVz+LK1Fmi0bSzauEQC+2BdQGEi2tG8FwYx1AttvAKrR2pIBMxx8xbY623WLwrZDgbr4WGVwWvSbdSwQTx/r/fS2+Qd0FsGAAJQdwACBHiAB5QgADriIaAESwBYLIL3Siad/8AABACKgtGGQxZIBw0GTYG+MxhSrd2RhUWZGQl5RiKR6kdS7chT3LirtUZIOlnH1+VC5JSr5zhV8zBoc45A5JBz2pF3RNKWfNQApz23XCk7WWfUGN/5R/OlI3lOh3LQ4dwRznel1NeoYZSYY40IR+7AbckbqeF8nDRTVjfATT4y3Amu04Sc0KBBmqAJmvgZrY7VvFT7StHJOldrXS6sfiPjxp9qb2e+5fedBg0GtsUntyKkInc24hWNYpm/bCSDtDVr0lJc5sObmWHHmw8zZ0bYelvx7J7rIvZXZqxR5dm1h8MwnBzNIDo5JC8/pLyrjM3KCIKaDPomo1aF4ez3afHh785QeYbp8bT3BeXlWwYSlp89Od2oU5SrVvYLFnWliP/P4u/T0t5r66RbuG7dQiefBwABAu/b4MeT0jtWxX0DwMeH/6rklyD53GBuAHEMAAKvYbIh4w0ABkTwkYxWUt0ACDDqTSpIl8KRvRbhoAZDFAcexWSAxdEAIpTR6ooojmF4yCYQOUwAgSGFJeDRmg1gyeEWROjIC2OUHHnQxYIN1rVt/N5tVK9hQbPGTYP2wWRQyQYYhi3uEKwW1V0pk+rhvcxkEQtZzgymM4flLcxSBllWsIDec5S9kA1oRmOaEtCeYHfkPn8kNS5lGXPGufu76UBwvq4uK+cz18NSQ0C1OT4GAzKR/xECAAA=");
 
 export default Cabin;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `album-circle-user` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/album-circle-user?s=sharp-regular album-circle-user}
  * @preview ![album-circle-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/album-circle-user.svg)
  */
-const AlbumCircleUser: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 80l352 0 0 114.9c10.4-1.9 21.1-2.9 32-2.9c5.4 0 10.7 .2 16 .7L448 80l0-48-48 0L48 32 0 32 0 80 0 432l0 48 48 0 248.2 0c-11.8-14.3-21.4-30.5-28.2-48L48 432 48 80zm176 32c-79.5 0-144 64.5-144 144s64.5 144 144 144c11.8 0 23.2-1.4 34.2-4.1c-1.4-9.1-2.2-18.4-2.2-27.9c0-71.4 42.5-132.9 103.6-160.5C339.7 151.8 286.5 112 224 112zM192 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM576 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-63.3 77.7c-20.4 21.2-49 34.3-80.7 34.3s-60.3-13.2-80.7-34.3L376 416l112 0 24.7 29.7zM384 336a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const AlbumCircleUser = createIcon("album-circle-user", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjQAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCPwsGAAE2AiQDCAQgBYMtBzgbRwXIhiCq6/vI6p6HnjV65VlIJ8gfEA43+GRPnXqe81AAn0MQlD01INm4Rtc8r0DP68M3VQNSasEqit2d7TCHaI9DLDKS37Mcj3KBPD6Ii1VI16T3cVH40vhaR6eTVDIA0QIA01csWezlT+PTiPf+f4J4z0IExHRQCmTI0EWASTKBLnIlcrng0/j/f/wPLAkg6tAnJZCjAafgXEAOkro879q+deeiabXSNF9erRRrmjZpKq6qntc2IqJoIlKIavXeTkVky16fFPF8ecvkF2af1/7KuG3YQxNvnPDsmKWntI/xxBVObnN5cW67dmzTKUMjHjR40c+4pwff7+QhD4x/pnrexOeGPRRL75/15tBBUY0By6/rd1efOzpe3fv2vnd26nlvi3u/7fH+9vcNO7CR+jvMTy0aDh6ipnZxzUY1tT/aXvOhjQ91f+Usju7S5eizXmn1c9dmlWef+fKv8eN/6H5Rs7M5u1ls4MmTDvQrKVu36tu3Veuy7McaeMmUxT/wwwUOuuDkfcX+447bX8TXgUDw1SODb97QfNKvDdUEPn/2++/t8/5/OU1L96JBAkE2+P/B1qZpAOgAvBRH6ikcMJAc41DftYkrBQgFAiR1CgEynbUQIFcYJEBFN6MFqFNYIhN5o9DGugySJg4BmTFOALk2HgMVk7zl1mkTmR7SWkQ/AxPmcGj2vnL40Fo5oew2EqNapNueWE4b/Y+0UwPgrO0O2O9w22y1y+EMOdTi4Aj7zJHg2X6oNNxQNaUJyuXB9fHltjnUYXY5YL/fZaJyv9PfkfLiAWAnhDlCLklEankblCE/dsQhKgw=");
 
 export default AlbumCircleUser;

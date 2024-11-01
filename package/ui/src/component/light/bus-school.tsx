@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bus-school` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bus-school?s=light bus-school}
  * @preview ![bus-school](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bus-school.svg)
  */
-const BusSchool: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32c105.1 0 146.3 31.1 158.8 47c.4 .6 1.2 2.1 1.2 5.3l0 43.7L96 128l0-43.7c0-3.3 .8-4.5 1-4.8C110.9 63.2 158.3 32 256 32zM96 245.5L96 160l144 0 0 80-112 0c-11.2 0-22 1.9-32 5.5zM272 240l0-80 144 0 0 85.5c-10-3.5-20.8-5.5-32-5.5l-112 0zm176 24.4l0-180.2c0-7.7-1.8-17.1-8.1-25.1C419.2 32.9 366.9 0 256 0C152.4 0 94.5 33 72.6 58.8C65.8 66.9 64 76.6 64 84.3l0 180.2C44.4 282 32 307.6 32 336l0 56c0 22.3 13.1 41.6 32 50.6L64 496c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 320 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-53.4c18.9-9 32-28.3 32-50.6l0-56c0-28.4-12.4-54-32-71.6zM128 376a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm256 0a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM64 336c0-35.3 28.7-64 64-64l256 0c35.3 0 64 28.7 64 64l0 56c0 13.3-10.7 24-24 24L88 416c-13.3 0-24-10.7-24-24l0-56zM192 80c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16zM32 144c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96zm480 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96z" />
-    </Icon>
-);
+const BusSchool = createIcon("bus-school", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABrAAAALdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDLQsGAAE2AiQDCAQgBYMtBzEbrgXIrgZsYzrYD5roxi2CsT6v0zuE2o+1oi/L4lBaHv5/7X/73DdfmP9Q0WQmTSyJemSRXELGEyXAA7JfeyeKaxPR5BIhEQqjUem3jmUPlXUilzHp5I8wNz4SQ9kM1VosqXi1rd2GeEhXwTOUIlYZSqAydCKe/bNY+v4lvE7uh8SbN0+tmKMEEggswFR2A7z8PQxKIAm05GEMURTGFMZNnXqeeGiBvFFQ9tSAdJ/veV6BAu5pmwoWK1hNK2C1bRJCKBTPTUE4BD8Oo8NWHToXyOJJGEpI59MPR8uHxj9V9pNkBQBRDQDDdzeXvfz7EYqvwY34ahEBMQI0EyiggEYCDFIQaCTTDJlM8AP/P/8HKgFEKQQ5gQxFPMJrADKQ5FlWN7e7papO3ipWlFTOpufE8jnZEXpcu4MoRsSeijqGvp++FRIVIfI4UCvT95zJmWkhcbbOnN/2NNzaMsS9RhCXW0Ocrj04VDl4592m6EqHfNfMadEp8uHQYrahh215t9ufHuJcK86dBvguLJYk9sI4VStuFPMW1Vtfda/ocsMcPAoulnVjwrGsk2E6yYLLe2tzrmYNgzLWbFT98158DMjY8VfOU3HF9WzzZ1VgrNfff8re/LH91HgeQJUfL9PNMN36it6+Kw4V/6ailZUF1UBcUJqYQ/VLuFYkMxtE7fUqebj6s/t+CMW5OtTAXYigF9jzIBB8K3pPRsH4P8Um8Ot9j/yK/j+EpQcol0BQ6BSYuWGQCABAiu1ahAOB5KE0BLXojBAIOQIkpXIBChqqJkAm11GAEk30FqBUboqCyCoJtcxTkBRtAgV97ACZWh6BEoN8CJWqFUr35ZyP+z0mzwxN92vssRzikmlW5z2SSd0eObabS1UqLbXcButttcxSq2wN3WxcdJt1xqyQ0b6ome666KaZAZo9Fx7nT7fMZlusssH63MtAzez9dravG7cnLwFpDxOTRKR88dFhh+8DAA==");
 
 export default BusSchool;

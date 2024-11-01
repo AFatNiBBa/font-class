@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `memo` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memo?s=light memo}
  * @preview ![memo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/memo.svg)
  */
-const Memo: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 32C46.3 32 32 46.3 32 64l0 384c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-384c0-17.7-14.3-32-32-32L64 32zM0 64C0 28.7 28.7 0 64 0L320 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zm80 64l224 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 160c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 96l224 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 256c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 96l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 352c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const Memo = createIcon("memo", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABeQAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBAsGAAE2AiQDCAQgBYMtBysb/wTIjtRG+UVWEsH3un/dc6VPet/IMgCxbIcAynSp3AWL3tBmUrp+Vfs+/b07f+d/Az6jjzI2rgmyQOdonCeQYNn0hLLAMg0Dt9RtnIEGUV4Mco7okWNoD9XgA/K4GaM0kD5O/+LN9qbxnx6eI8kzANEeAPO3blzt4eN4HPFvHfGvlQiIBaAUyJChtwCzZAK95UrkcsHjqNfTf2BJANGIf7MJ5GjCEZwE5CBpyPOePdu2bVtraJNvqTUUO1/pHPGeFFWX92tt4tVuH0YW97p+ULQu+3RkxK9D28T3w3/ukeKjYT8Nao0fRvzSM9tcK2rvd3mvcxEfdP2wG3XRgF/a//J//3+P/Gvul21f4qW2FTAARDlVLzrQ4Su+6tChqEAmb+3cxxy3bfv4sT6zD3hVVaB6HggEr9x+dHdvu1nPmmsJPP39s/o1Un8YVfoFzRIIslH1UXZFBVEJAECKKwZEhUCyRwO8aqsPBAgFAiSNCgEyvbQXIFcYKUCDviYL0KiwUSbyFqGz3QKTVudhZorbMNfZb7DBLH/EjTpHFmpCoAgPvdQlGiw+Vo4fM66cUW5LQ4weruzPLI+1YVfyaDiddcRZZ1xy2CHHXVLUBauzy05bYiGLfVBpvDHGKc1QuptndQviCy46vpb9h8xU3o+GuWIvDyczYdoJckkiUv7FLQAA");
 
 export default Memo;

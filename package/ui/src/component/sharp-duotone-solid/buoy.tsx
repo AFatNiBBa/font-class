@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `buoy` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/buoy?s=sharp-duotone-solid buoy}
  * @preview ![buoy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/buoy.svg)
  */
-const Buoy: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 448l0 64c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9l0-64c-19.3 0-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7C38.6 441.9 19.3 448 0 448zM160 0l0 64 25 0 65.3 0 75.5 0L391 64l25 0 0-64L160 0z" />
-        <path d="M442.2 320L391 64l-65.3 0 9.8 49L288 168.5 240.4 113l9.8-49L185 64 133.8 320 64 320l0 70.9c3.8-2.6 7.8-5.5 12.3-8.7l1.1-.8L96 368l18.6 13.4 1.1 .8s0 0 0 0s0 0 0 0c13.9 10 23.6 17 35.5 22.5c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5c0 0 0 0 0 0l1.1-.8L288 368l19.7 14.2s0 0 0 0s0 0 0 0c13.9 10 23.6 17 35.5 22.5c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5c0 0 0 0 0 0L480 368l19.7 14.2c4.4 3.2 8.5 6.1 12.3 8.7l0-70.9-69.8 0zM347.5 172.8l17 84.9-44.9-52.4 27.9-32.6zm-91.1 32.6l-44.9 52.4 17-84.9 27.9 32.6zM221.3 320L288 242.2 354.7 320l-133.4 0z" />
-    </Icon>
-);
+const Buoy = createIcon("buoy", true, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABvgAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDdQsIAAE2AiQDCgQgBYMtB0QbCwbIhuD5vK+vc5NWuofOQM7A/KJX0hbGnlrBb+Ka538+6uIGLZQqysIO6uAJjEd7WyZt5tMZ2ha3XTX9qIU4CIUr5PFvdqE60m3pHVwT/gcwftTNhSRNGYBoC4A5m9at8MJn8VmKd2qPEO9YjoCYC0qBDBl6CjBDJtBTrkQuF3yWajU+i1qtJICoFz6XgXo04lP8AMhBkkt5vqMBxa9taq5rlW8MJxT7Nm7YWETfqGJu9I8i1lOfuKWL4O0Sg2NgdIrziu7tdO/A+wffMriTb1QXMhF/U6eIYuOGvHBuDF9fzas2xcj1m5Buw902rw/m4s2J9y4ovoj7BmXEzXFewXB5x8vdM0A5Ebg57OfFzRQ479xtQnNzREu/h9o+9HPfdw6+48lzxtUIcY5r/eG71hwE1EKLjJsbbRmB+QAd9cfiMWMW/zEKNqYwk9DMJMzr1y2ycMf1bdfHveL5bX0eYeImzR39jpu7gvhdTEXmTL9esG/fBb+mAlL54IwlvRA4W0SvJWd8MOFn6cggBTFyyREf3P58hbHdvq28FQjGH7P8s11tZvzW2JzAF0/9+gP6cu2FVKWH0CiBIBtRG2F7qkBMCORHpThZv1SpEMgcL4d2tbhZgFDQUZN6BTXTQ1tqrjCcWqe3ibvrFdbJRN4kdLQDUZMWx1Ezk5xFzXX0MLXODK8H63WMDMblECr/xUyzcAgsmFWOHTWmnFauljQKsJXa0enlYf2QkyctQ/FKBx3jaCc6YL/DnDiAHm9F5CRHWbgFWeCLSmONMkZpmvJy9almIw0e7wSHLauuTzNd+bx7iJO3uw/FpiSJHGdXJiNSZC17TzrmtJGfiq51T/VKAAA=");
 
 export default Buoy;

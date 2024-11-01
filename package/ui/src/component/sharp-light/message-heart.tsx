@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-heart` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-heart?s=sharp-light message-heart}
  * @preview ![message-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/message-heart.svg)
  */
-const MessageHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 448l0-32-32 0-96 0L0 416l0-32L0 32 0 0 32 0 480 0l32 0 0 32 0 352 0 32-32 0-176 0L192 490.7 160 512l0-38.5 0-25.5zm0-64l32 0 0 32 0 36.2 94.2-62.8 8.1-5.4 9.7 0 176 0 0-352L32 32l0 352 128 0zm96-203l-22.2-21.3-7.7-7.4c-5.5-5.3-12.9-8.3-20.5-8.3l-2.4 0c-15 0-27.2 12.2-27.2 27.2c0 7.4 3 14.5 8.3 19.6L256 259.7l71.7-68.9c5.3-5.1 8.3-12.2 8.3-19.6c0-15-12.2-27.2-27.2-27.2l-2.4 0c-7.7 0-15 3-20.5 8.3l-7.7 7.4L256 181zM244.9 293.5l-82.8-79.6c-11.6-11.2-18.2-26.6-18.2-42.7c0-32.7 26.5-59.2 59.2-59.2l2.4 0c15.9 0 31.2 6.2 42.7 17.2l7.7 7.4 7.7-7.4c11.5-11 26.8-17.2 42.7-17.2l2.4 0c32.7 0 59.2 26.5 59.2 59.2c0 16.1-6.6 31.5-18.2 42.7l-82.8 79.6L256 304.1l-11.1-10.7z" />
-    </Icon>
-);
+const MessageHeart = createIcon("message-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfgAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCNwsGAAE2AiQDCAQgBYMtBzQbOwXIhofvdb6d+yR7fqQwKIywjNBxU3i2Jag9/9fUC6sC/EaHUkWlZ6NI73o+gYFGWoolzQY20wnYrJ0IP0id6ZM+5ZMM42dYXCGPL2KUGumx9DPu4Q+NX/VwI0meAYj2AJi/deNq3zaiEfFz8yPiZysREAtAJZAhQ28BZskEestVyOWCRjSb+T+wIoCoA5bcNEcdV+I2QA6SPM/7dOnfv6y1ybeUtaIMURQRWUSUbUSSzKYYppKsLRZia3SLssyidTyh3Dpi+Iiu8XBRxO2dH3Rtl80u8Uhc1zXYnY8Obdqyecvr8USvV4aWccfwLmS/kU6OlwY/1uPaYZuic3Qd8Hr713/v//ORnz1bofTayj6VqsFL3j27wn+G6DlPOcogu+e4UPHuPt/a59q9P27CoUvcUmbKSy4pW1+ydBEKLmkt5BlqXWRTcW7D2vbyDj1a/mp3bdKj/SUu0b575tp2f7X06LBhrde8DgSCVU83zuxtN+v/ljKBXz7/82/8K2p+m6TX0SKBIBvVHGVXAokAAKS42IAEgeRCObxraw8LEAoESOoKATK9tBcgVxgpQE1fkwWoK2yUibyV0NnuAZLWzgOZKa4Cuc4+ADWzfJes6xyZDeoWpH8Bc5ZIdPG8avyYcdWMalnVDbNSy/TMatsfdjF1DfcHHXHWGRc67JDjLhTi+VZnLnLaEo1e7Isq440xTmWG6rjxvHuLw853gePOOlNnmam6Hw9zsT54uI8SSE5QkiQitbFMb/RTAAAA");
 
 export default MessageHeart;

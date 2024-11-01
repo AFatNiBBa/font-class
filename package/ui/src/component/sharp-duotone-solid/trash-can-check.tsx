@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-check` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-check?s=sharp-duotone-solid trash-can-check}
  * @preview ![trash-can-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/trash-can-check.svg)
  */
-const TrashCanCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 96l0 416 384 0 0-416L32 96zM94.1 288L128 254.1l17 17 47 47L303 207l17-17L353.9 224l-17 17L209 369l-17 17-17-17-64-64-17-17z" />
-        <path d="M144 0L128 32 0 32 0 96l448 0 0-64L320 32 304 0 144 0zM337 241l17-17L320 190.1l-17 17-111 111-47-47-17-17L94.1 288l17 17 64 64 17 17 17-17L337 241z" />
-    </Icon>
-);
+const TrashCanCheck = createIcon("trash-can-check", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABeAAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBaAsIAAE2AiQDCgQgBYMtB1obFAXIjsO44TuyxVL+I6hf++x5u/ePIESbKEZwQD6O3LmATRR/FzTiKpJIbxEyj53GTW1TAc/rPFe8IMsanzNegcYLUlzxlv5BXuhN38B+b9omG7E3SVKTdDzZjrML8niYUUN6kOKO/g9gfNXHbZL6DEC0AWDelg2rVLuiK8Wn8hnxyUoExHxQCGTI0F+AmTKB/nIFcrmgK5UlXVGWBQFEhSIZvYI3bMReQA6SJOV5e5/6Po01zfnm9EzDjt79ejeEaI6IhugbDZtGDB0xO4bGxpgdw2NmDIt1sHdEbNmRstQcWTRtmjNzzrCYFVtiBDNb0FBpPb51yJO2J98HP9ydN2VZXjdX1VzXlTqrv9CO06f9QDtKcO2aQXs6hXZdp+uz3rTLzNDp02iX10EJEAiWdvtY2dM6839dYwKfn//8ovyOympU0xPUSSDIRpYj7YwqRFUAAFJcNiSqKAQywyX0qU3uChAaECCpaBAg00+bALkGIwSoMdAkASoabJCJvF7oblcDSZNzIDPZFZDr7imoMdNbt6J7ZN7F+Qb3t0te3MOLlopxo8cW04tlpPIOw+TpjGLbHnqZK8Ng02FnnHbRIQcdc7GjzlsVXHLKYotc5IsK44w2VmG64jh9lDeTe94Fx+bi+ZwZivvOUJft9mGwTgKMf5cTGZEi63Xx/L4LR0cd2Hd6VKDqoyK1sc9MDEsAAA==");
 
 export default TrashCanCheck;

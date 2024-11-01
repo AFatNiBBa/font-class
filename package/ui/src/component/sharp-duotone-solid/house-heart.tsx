@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-heart` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-heart?s=sharp-duotone-solid house-heart}
  * @preview ![house-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/house-heart.svg)
  */
-const HouseHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 272l.1 240 448.5 0-.5-224c-.1-5.3-.1-10.7-.1-16C437.3 210.7 362.7 149.3 288 88C213.3 149.3 138.7 210.6 64 272zm112 43.2c0-32.7 26.5-59.2 59.2-59.2l2.4 0c15.9 0 31.2 6.2 42.7 17.2l7.7 7.4 7.7-7.4c11.5-11 26.8-17.2 42.7-17.2l2.4 0c32.7 0 59.2 26.5 59.2 59.2c0 16.1-6.6 31.5-18.2 42.7l-82.8 79.6L288 448.1l-11.1-10.7-82.8-79.6c-11.6-11.2-18.2-26.6-18.2-42.7z" />
-        <path d="M288 0L0 240l0 32 64 0L288 88 512 272l64 0 0-32L288 0zM176 315.2c0 16.1 6.6 31.5 18.2 42.7l82.8 79.6L288 448.1l11.1-10.7 82.8-79.6c11.6-11.2 18.2-26.6 18.2-42.7c0-32.7-26.5-59.2-59.2-59.2l-2.4 0c-15.9 0-31.2 6.2-42.7 17.2l-7.7 7.4-7.7-7.4c-11.5-11-26.8-17.2-42.7-17.2l-2.4 0c-32.7 0-59.2 26.5-59.2 59.2z" />
-    </Icon>
-);
+const HouseHeart = createIcon("house-heart", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhwAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCIwsIAAE2AiQDCgQgBYMtB1IbRwVRlMvFCNnH6sf8SlXN4+F7u/9v7dP97gPU3+BIERQ5kxRBQfoRjpBN1U3mKurp7+f5t6YP+Pi7Z53HOBIj4nwCiRnctCcyoZnihm0jQ1fHWNQ43iCP/7M7VJAeSj/gPvc/gPGLbneQVGcAogkAS3Zt2+DL83E+xQ/ld4kfrEdALAWFQIYMfQLMlwn0yRXI5YLzqVzmfJTLBQFEiUMzRglBuAy3AXKQJKnM8+YhTcNqK+rznXRjzanDxw6L2tgVO+imiKO7bxmzI9qjcwHhlXi45/mRNXHn6LboiJdrauLZ4Q927RLqY2fcGj9trLe/vUd6I14YVRt3jbljv1LbpTw34qHuW0ZvDyjv5Ndi6MtNL/82xEkGvxi0/kedVFjs3Ac0sFhhCu2Kud3NWzd5ycu2btTcXfVn4y1Jd9P1rtfUlbml8c8qi97402z9inOqqp54Y92+K2p57Dkbzsx0Nd3ghhJvfQ4EgvfeOnHtocb5/1XVJnDx4z9+bt5X/jItTi+jSgJBNr483v60GBgzgFCK6w094NmMMtMk1bfWuV+AUIMASUmNAJleTQLkaowToMKAGQKU1NgmE3m10ObAAJI6V4HMTDeCXJt3QIX5vg6WtEWW9PiEw//5paycIitGFVMmTi7mFrsFnZCaWD04r7jsjL6eN4yBF510hctd64Tjzrh2Ql9tQ+Q6l1l5RK3wQ4UpJpqsMFfxuPzy9E4nXO0aZ1zhcjvMPMX37mjXH7cfA+eTAFMDLS0jUmSt6VKbUAKMCbG4qX0pRVgAAA==");
 
 export default HouseHeart;

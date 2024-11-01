@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wave-triangle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wave-triangle?s=regular wave-triangle}
  * @preview ![wave-triangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/wave-triangle.svg)
  */
-const WaveTriangle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176.1 32c7.7 0 14.9 3.7 19.4 10L464.1 415.1 596.6 233.8c7.8-10.7 22.8-13 33.5-5.2s13 22.8 5.2 33.5l-152 208c-4.5 6.2-11.8 9.9-19.5 9.8s-14.9-3.7-19.4-10L175.9 96.9 43.4 278.2c-7.8 10.7-22.8 13-33.5 5.2s-13-22.8-5.2-33.5l152-208c4.5-6.2 11.8-9.9 19.5-9.8z" />
-    </Icon>
-);
+const WaveTriangle = createIcon("wave-triangle", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABUQAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBAwsGAAE2AiQDCAQgBYMtBzQbhwTILgacMos3olF7TS/neqWEtBE6x2HTNx7+uR/e936sMqiBU3jCTUU60Abcmc5/GJfviAj9u2RWb0ui07KUyL7mVBeFDCB/7/8A8MMFnj91qmachwL4RsGYjU1LN67zhOZsuQIV69XXEKsVrGgF11o7uxSD6MskPeWTLNbvh4kDlPHtUUW+5jPgIX9o/ENpDlJVACA6AQCnV7k5uP11Rk//N8Q7skBAnAImMVCgwCgGOMASGMU2CUql4Dfw/4EEAUQN+pkTlCgwBzYAlCBFydaKOBJ2QQtHWHrTV68w1ud2FHkWmuf7G+TFyvyuutByi/FQfvhieG54xtl263BLn7lrPyuSy+dvNLd2rwMEgmovv0pZ7LWxhQn4e/vNXem/XB6iUYKgWP1fVZZTAnStuMmNAUZEAGmskONdWz0hQGhGgFRrFqAwQo4BSs1WMEBlnB8D1JqdYYlSgNCrvIHU6hoU9o2DUq8rUDlw59V6g2UpjJ6Zj1pigqPxbeR2uChC00RllU/FZZSWFdNAaJixFw06dehTr06zPob3yAn7tUtIWNwXETcHFxJB2/nj7gL1evRq1qkjbRJF5w2TAbnfDJ2JCLfFUhIpMV7Z/gLmdjS21QMAAA==");
 
 export default WaveTriangle;

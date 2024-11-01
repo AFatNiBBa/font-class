@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-chevron-down` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-chevron-down?s=light circle-chevron-down}
  * @preview ![circle-chevron-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-chevron-down.svg)
  */
-const CircleChevronDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 480a224 224 0 1 1 0-448 224 224 0 1 1 0 448zM256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM132.7 235.3l112 112c6.2 6.2 16.4 6.2 22.6 0l112-112c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L256 313.4 155.3 212.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const CircleChevronDown = createIcon("circle-chevron-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcwAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBZAsGAAE2AiQDCAQgBYMtBzob7gTIHoWNGxmyIJKNA33/RIaV8YmH5+9HnXv/m6jiKpqmpOYBHLAZoNht0CVegbLC6O9/yOn7gWr9y1RAul0YtmQqNkelV1Xt+9Sp5zkPBfCNgjI2rgmSzXN1n1egYr14vRWpFaymE9yr28THIDF2BSESJBEdn8dbFyhxQt7E5GvBA+7bg8ZnI5YhlQoA0Q0A9q6KcqD5oXcRDzXirWMQEPsAphEqVBhHYJNQYJzINCiK4B3VNf8HMhBANAK3TVDQgFNwDaCAVBWR05i1UYOJqLT+CkXJVSbR3cphLAQdHd+nXWbcBhy49d8/uEkWfpwQPexqcJugzXks+c57TtLTXaIu96m0uKS0ZNOujLZtt/qLqZS2rDcGlOpu9deZh9YH1G4ab2D+40dU1Me/j7dG423LPylYgcco56Qk56jVhxT4KluTn/oQV6n6+rC3143mJigmmF0PEAh+f0+urzOL/iYzEgA+HP9GLyO1JuUb0CxBUM3V3qhOQBIAgIxRKBMC6YgQ7rXdCwQIrQiQGrUKUBljjkDRahaBBpNCEGjU6oxQFDlCvxoDqd0NqGyYAUW/I9Bg07XbqD+q1KISg3rYxad6KOUUB/j6cyQvK4POFkIOo3hbcB8tEw9aRKs+vYa1aNZh2CGDcoIRPVIjOMUTsQC+/LFIfNw+ny/VYtCQDn169ZgofN9xNxqv9yBZAKgrcimJtPqBk/Rpam8ZHezr9Uk6AAAA");
 
 export default CircleChevronDown;

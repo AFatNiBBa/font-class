@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-stars` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-stars?s=sharp-regular face-grin-stars}
  * @preview ![face-grin-stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-grin-stars.svg)
  */
-const FaceGrinStars: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM182.7 131.6l-6.7-10-6.7 10-20.5 31-35.8 10-11.6 3.2 7.5 9.4L132 214.3l-1.6 37.1-.5 12 11.3-4.2 34.8-13 34.8 13 11.3 4.2-.5-12L220 214.3l23.1-29.1 7.5-9.4L239 172.5l-35.8-10-20.5-31zm160 0l-6.7-10-6.7 10-20.5 31-35.8 10-11.6 3.2 7.5 9.4L292 214.3l-1.6 37.1-.5 12 11.3-4.2 34.8-13 34.8 13 11.3 4.2-.5-12L380 214.3l23.1-29.1 7.5-9.4L399 172.5l-35.8-10-20.5-31zM255.9 318.8c-50.3 0-97.2-8.6-136.5-23.5C133.2 355.2 189.1 400 255.9 400s122.7-44.8 136.5-104.6c-39.3 14.9-86.2 23.5-136.5 23.5z" />
-    </Icon>
-);
+const FaceGrinStars = createIcon("face-grin-stars", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABmQAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCeQsGAAE2AiQDCAQgBYMtBzYbfwXIhof/t/uvfW7Va4DVHQFiBHAiEelfEzqa+I2cGm+9VMBLXLTz8F2QR7XSvfEKFHC21Hd0IrOBTXxAE7CxT7eJjx1h7YsICdKIjtOOqwvk8XZcVCLdSt/gQnnR+EtTp0hKGYCoA4Dhc2dO9kFFVER8XX6V+NpEBMRwUAhkyNBCgEEygRZyBXK5oCLKZf4NLAggKsEfkgRyVMY9PAnIQVLK8+bN27evWb1UM59TvVRt4Zn+EW92f9Gxbi/0e6Pa6QFv9Xgpjvd8eeDb1dPvUyO+H/lxHB/x0ZTv5vwy6ZthHzg2/MPJ385e0KhhowbRLnpFg2gY7aNFiMbRN3pHw4hoFR2jcTSKPtGhuutRs36bcK//m6M/H/h26y9mtX2qzlP/tPlmzTfKF/r/xZ8fvNC37wsf/PlXf5Xi4x9Gu8ilgS1Gjmwx8NLF0SStrHEH1+MzYoj+XrLPJg3U8IROOnlCDQ1sss9L+hvy0HVizluTvPbupElFUYnPvjYRwLjv0gs/nF5ae9D/Vaon8Mdb//2nfYvKHyTpKVSRQJB1KneyKIFEAABS7NE2QSC5pgTPWsN1AUI1BEgqqSZAprk6AuSq6ShASSu9BaikmpkykVcVGlg8kKSG7Uimj8NIroGXkZJBPvcraRBZkDIhxvwRE8doYPRe0b1Lt2JAsUx1Nu6ovB5YbEvt9qRWezq0xlZb7LLaKuvtUvAOk6PdNhtjQaO9UaG7LropDFAcF8/n51hth53W22qLbBmouO+1s8cebk9qAtIeEkkiUu0nEOu8dsf6LZ2fFgAAAA==");
 
 export default FaceGrinStars;

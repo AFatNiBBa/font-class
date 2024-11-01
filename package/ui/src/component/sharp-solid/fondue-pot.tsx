@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fondue-pot` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fondue-pot?s=sharp-solid fondue-pot}
  * @preview ![fondue-pot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/fondue-pot.svg)
  */
-const FonduePot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M392.9 172.4l-13.3-8.9-19 28.5-38.5 0 30.8-46.2-13.3-8.9L430.9 0l53.3 35.5L392.9 172.4zM231.5 192l9.2-36.8-15.5-3.9L263 0l62.1 15.5L287.3 166.8l-15.5-3.9L264.5 192l-33 0zM0 224l64 0 0 16 0 64 0 16 32 0 0-16 0-48 32 0 0 16 0 16 32 0 0-16 0-32 0-16 192 0 32 0 64 0 32 0 32 0 0 64-32 0-32 0 0 32c0 52.3-25.1 98.8-64 128l0 32 0 32-64 0 0-32 0-3.2c-10.3 2.1-21 3.2-32 3.2l-128 0c-11 0-21.7-1.1-32-3.2l0 3.2 0 32-64 0 0-32 0-32C25.1 418.8 0 372.3 0 320l0-96z" />
-    </Icon>
-);
+const FonduePot = createIcon("fondue-pot", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcwAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCIQsGAAE2AiQDCAQgBYMtBzEbIgXIhuB5u6h6v3sWPWv8lRTBysgTso3PzpxufHY8839NvXh+DfiNDil707IqisjnE5hIWoLPywY20wnYdmdrZaQ0pYQQkhznjosblPFucUWN9HT6Ag+6D41fdXWFpHkBINoAYM7alSt89FV8FfF543Xic8sQEHNAFihQoIcA0xUCPZQySqXgq2g01H9gJoBogh8jgRI1nMRZQAmSoizbtl1Sr7Us19Rr1d5OHTsNjipGRadYGyti1arePXpnaAHXVnaJalW9qgtP1COcehEIqldUlbgw/LnBI7RSH2tjcasTfcIzI1+I6PtMm2d+7/PFni/caP8xnzDMIL/7xIYb5tlw/V77K1z0rwFP+DKUfOuQPj/2ng3RNmYzcDZGU6iNDPGP7s2Wsdxg7mdZtUXhm7YXtP2moPtl9xm8DQgE7f5dMWlr6+n/N6sn8M07f/4u/ooaHyXpGTSTQFAMbwy3KYFEAABSnNE3QSA5qIDv2sITAoQKAZImKgEK3bURoFQZJkBNLxMEaKKyUiHK5kIHmwtIWjgOChOdBaUOXgU1032cbKJDFIInio3470tbiOiCTXnMyNF5ap62JEmWeLs6LW97g8/QyBA4ao+jjjhlt132O1UxJ6zInHbYwhW2wBdlY4w0WjZVPu7ea2swecJJ+8fiOWSdafL90GBn1tOHQDBh1rGqkkSk6mmx6PTuEceOngIAAAA=");
 
 export default FonduePot;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-tree-map` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-tree-map?s=thin chart-tree-map}
  * @preview ![chart-tree-map](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chart-tree-map.svg)
  */
-const ChartTreeMap: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 48c17.7 0 32 14.3 32 32l0 112c0 17.7-14.3 32-32 32L48 224c-17.7 0-32-14.3-32-32L16 80c0-17.7 14.3-32 32-32l128 0zM48 32C21.5 32 0 53.5 0 80L0 192c0 26.5 21.5 48 48 48l128 0c26.5 0 48-21.5 48-48l0-112c0-26.5-21.5-48-48-48L48 32zM176 288c17.7 0 32 14.3 32 32l0 112c0 17.7-14.3 32-32 32L48 464c-17.7 0-32-14.3-32-32l0-112c0-17.7 14.3-32 32-32l128 0zM48 272c-26.5 0-48 21.5-48 48L0 432c0 26.5 21.5 48 48 48l128 0c26.5 0 48-21.5 48-48l0-112c0-26.5-21.5-48-48-48L48 272zM304 48l160 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32zM256 80l0 32c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-32c0-26.5-21.5-48-48-48L304 32c-26.5 0-48 21.5-48 48zM464 208c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32l160 0zM304 192c-26.5 0-48 21.5-48 48l0 32c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-32c0-26.5-21.5-48-48-48l-160 0zm0 176l160 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32zm-48 32l0 32c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-32c0-26.5-21.5-48-48-48l-160 0c-26.5 0-48 21.5-48 48z" />
-    </Icon>
-);
+const ChartTreeMap = createIcon("chart-tree-map", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAAB3AAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSyEWgsGAAE2AiQDCAQgBYMtBzUbXwbIjsQ4JvGLKEzi4f/tnnefO/M17xvzJVWwOlgB0YFFE7dZ6ZL6Zci7/vxf7vnZ+QF+8aONtmZjbZCxJkUBBRSXTS+RLAs1AWtw3qRDDoWhPP0BeXxmvRqke+lHXLE/NP7RykmSLAMQDQEwcdG8ub7+M/6M+LH6AfGj2QiISaAUyJChrQBjZAJt5UrkcsGfUa2y/8CSAKImF06KctQlcKg5zRqSIs9bu+lKjXr5wvCVxbILzSJuEUeb3iyKON/8dkQca3GnUln4fNOImy3FvWa3ulbiJXTcbSLuN7/drVgwPbyoUlRkS7Z/hDDWHM9PmHrLI7B2YadXG776rx83/uitK/XPcrb+bvXPRtBRvjh5pMGAX/kp2y376dcBR3ERbv1IdYG7+sdTlxlhLUVzTxXmaukyw+rTqXOlwvzLEWsl3PH0yT7LS/Om/bZ6HggEH/438dSqBmP+r11J4O9PO/kZqf6ZpFdRWwJB1qfax/IEEgEASHFQpwSBFLmC+6513RYgFAiQ1FQIkGmjoQC5Qm8BamhvqAA1FebJRF5HaGpFAZK69oDMMIdArqn3QA1jfJOtqWlkdwV3TnPfpMnTqtDUQ+XAfgPKUWVvXcaf6IyeH11OtvQ4yPt6wrM22mWn/TZYb4v9FWSvuYUDdpg2hJ763dJA/QxQGqVc3LpZvNAGe+2zpVtcvsto5faBHg4Oj+4J7YlLO0hJkohU/30Q77t/74afUSq7AQ==");
 
 export default ChartTreeMap;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-spock` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-spock?s=sharp-duotone-solid hand-spock}
  * @preview ![hand-spock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hand-spock.svg)
  */
-const HandSpock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M31.4 328.5l29 27.6L156.8 448c43.1 41.1 100.4 64 160 64l2.3 0 16.9 0c57 0 106.9-37.3 123-91.7l83.7-283.2 9.1-30.7L490.4 88.2l-9.1 30.7L440.8 256l-24.7 0L455.3 70.6l6.6-31.3L399.3 26.1l-6.6 31.3L350.7 256l-41.5 0L251.2 39.7 242.9 8.8 181.1 25.4l8.3 30.9L242.9 256l-29.6 0L166.6 102.7l-9.3-30.6L96.1 90.7l9.3 30.6 71.7 235.5-61.6-58.6-29-27.6L31.4 328.5zM224 320c5.3 0 10.7 0 16 0c2.7 0 5.3 0 8 0c50.7 0 101.3 0 152 0c5.3 0 10.7 0 16 0l0 32c-5.3 0-10.7 0-16 0c-25.6 0-51.3 0-77 0c17.9 18.7 29 44.1 29 72l0 8 0 16c-10.7 0-21.3 0-32 0l0-16 0-8c0-39.8-32.2-72-72-72c-2.7 0-5.3 0-8 0c-5.3 0-10.7 0-16 0l0-32z" />
-        <path d="M240 320l-16 0 0 32 16 0 8 0c39.8 0 72 32.2 72 72l0 8 0 16 32 0 0-16 0-8c0-27.9-11-53.3-29-72l77 0 16 0 0-32-16 0-152 0-8 0z" />
-    </Icon>
-);
+const HandSpock = createIcon("hand-spock", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABlwAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyDAQsIAAE2AiQDCgQgBYMtB1AbowXIhof/t/uvfW7dr6o2qkmOpAzMHAkKm9EwmmzWetPfO/5jtYalDzChkNbcQHOeJxBgF5WORXk2hTLNwFJw20URtZBYaCQOkOP/4lZNpEfSN3gg+B/A+FNvt5K0FQCiEwAW7diyzgdH42iKbxqvEN9Yi4BYDGqBAgX6CTBXIdBPViPLgqOp0eBoNBo1AUSzgFa4czOa8CReAGSQhJRz/0Uzq6b2eXvVVO4oq1JU1VOjnustRBXE++Toyr2q3DFq9Kht8eu2qnp9ztsD90TfWB29YmuUscNiy8W3R59YGr1jG7JyxeYYHRt33FNFpA1KJO4uE8/1Fz1tOKlHRz8/fHZDDH6+0/N/D/rm9G/8e0MnulutU+vRKVM6tOqk1kmr8p11MxEDLv+KPt7BPRbP3yt1fqGl9cstfdzvR/cbcafehr/hAn/Zb9RnRpv1u+sdcb1pnxtg3MOe9JH7rPjTV75y1QetOZNzItBwKHNruaZr125d3ymf1rZSqZ/TYcqUo3sU6zeDQPDXyVdvPtBx7n+tVQLH3/r3j/KHNLDxQRqZnkerBIJibGOsvWmhgXqlkQIAkOJyg9NCRw0UKFwliT61nQcFCCUCJM1KAQp9dRIgK40RoMkA0wRoVtqiELlN6GZfC5J2LgKF6a4DWTcvgyZzfZ5r1i0KpCpwpvhQTLu8jyxbVk8aP7GeXS/W1Urwydz5OfVu68jLdd8outXpLnC+S53mVGe5tCe82LriZc6zfI29zBfVJhlvotps9enWY+32Xu5ilzhrXn1+kTnq+4MjXb4+ehR1JJHEydYUCiJF0QXZjnGX/MTPOA7z/d2G6tcbAAA=");
 
 export default HandSpock;

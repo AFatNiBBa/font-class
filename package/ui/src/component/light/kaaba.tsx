@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kaaba` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kaaba?s=light kaaba}
  * @preview ![kaaba](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/kaaba.svg)
  */
-const Kaaba: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 112s0 0 0 0L288 192 32 112 288 32l256 80zM22.5 81.5C9.1 85.6 0 98 0 112L0 400c0 14 9.1 26.4 22.5 30.5l256 80c6.2 1.9 12.9 1.9 19.1 0l256-80C566.9 426.4 576 414 576 400l0-288c0-14-9.1-26.4-22.5-30.5l-256-80c-6.2-1.9-12.9-1.9-19.1 0l-256 80zM544 191.2L292.8 269.7c-3.1 1-6.4 1-9.5 0L32 191.2l0-45.7 246.5 77c6.2 1.9 12.9 1.9 19.1 0l246.5-77 0 45.7zm0 33.5l0 30.5-20.8 6.5c-8.4 2.6-13.1 11.6-10.5 20s11.6 13.1 20 10.5l11.2-3.5L544 400 288 480 32 400l0-111.2 11.2 3.5c8.4 2.6 17.4-2.1 20-10.5s-2.1-17.4-10.5-20L32 255.2l0-30.5 241.7 75.5c9.3 2.9 19.3 2.9 28.6 0L544 224.8zm-427.2 57c-8.4-2.6-17.4 2.1-20 10.5s2.1 17.4 10.5 20l64 20c8.4 2.6 17.4-2.1 20-10.5s-2.1-17.4-10.5-20l-64-20zm352 30.5c8.4-2.6 13.1-11.6 10.5-20s-11.6-13.1-20-10.5l-64 20c-8.4 2.6-13.1 11.6-10.5 20s11.6 13.1 20 10.5l64-20zm-224 9.5c-8.4-2.6-17.4 2.1-20 10.5s2.1 17.4 10.5 20l38.5 12c9.3 2.9 19.3 2.9 28.6 0l38.5-12c8.4-2.6 13.1-11.6 10.5-20s-11.6-13.1-20-10.5l-38.5 12c-3.1 1-6.4 1-9.5 0l-38.5-12z" />
-    </Icon>
-);
+const Kaaba = createIcon("kaaba", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlAAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCbAsGAAE2AiQDCAQgBYMtBywbaAXIjsK25RMjlJnDfOGtEs/T79fOff+h0sQbm7BkUkVLZCiFCM0SmdQpYWcrmfzt+XHUvIX412aTKhzBCjhugxJ5N//X1IuyowP8duEauYi0KIxIgT3f8z3fvAlmh7OJ4s62vQoiGgq7ULlBzVk6uClfHCfgLVg0f+Q1Q1EbAGQSABw/RgRh45q6yUk7S34FgEBOACwjNGgwj8AeTsE8LsugqkKX2lb8BzIIkH4kliigYgiv4AdABcVA5RKRm9IQEpIa4RbmihbkFqhoIKIGiqRoiqGo4hE5DhrQiqIe2RgaV+SkQe1o6pWKLIqMieyWiSai5UYQ6+mWHkCyyk0xsUnTdJ+M9oFoaq/UnsNv7vVPy8WRw/esPyByDbby25CALJ+UsVafEpt6VjvJPoHqJQBtSNbEp/zAw/A8Bm9DB/XDZwRfUJ2def7C/8Gp19VVFmDkJ3C/7jsQRqsqodsbO8aBt0N4euZyiSH0Ao13vKHi3R+np4V/ynYS+IT1pyifDXwC+6/457aCE46CkE2A61HOAuS5b932uxRRx38+QQ5Ab+n1G/Xb7Xpx5ZgCgwoITaftSCyuAEJIQKmkGuo7XxQULxiQfOqodwTEMAKKfsMCGnPEEKiGbSDQZ5EVAv2G3eKUyo+YldSDYtQzaOyqAdWsadBnz36x32w4wVMFLvXnMJv3GPU6xcyMTZk92xxoNYiT7aEDO+3TrZYLevgqspUoVilLpjyVI6ZcUKVKEe892ssPMWaMmWLssdvj57boUalchbx17f4xHLD3U7qq99fr4fNwADY/LFRaUrgL0tLS0wAAAA==");
 
 export default Kaaba;

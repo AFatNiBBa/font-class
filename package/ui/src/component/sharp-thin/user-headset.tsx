@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-headset` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-headset?s=sharp-thin user-headset}
  * @preview ![user-headset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-headset.svg)
  */
-const UserHeadset: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 192c0-88.4 71.6-160 160-160s160 71.6 160 160l0 112-112 0 0-32 0-16-16 0-64 0-16 0 0 16 0 32 0 16 16 0 32 0 32 0 16 0 120 0 8 0 0-8 0-120c0-97.2-78.8-176-176-176S48 94.8 48 192l0 16 0 8 16 0 0-8 0-16zM256 304l-32 0-32 0 0-32 64 0 0 32zM59.9 368l328.2 0 38.4 128-405 0L59.9 368zM400 352L48 352 4.8 496 0 512l16.7 0 414.6 0 16.7 0-4.8-16L400 352zm-96-81.6l0 21.5c29.3-23.5 48-59.5 48-99.9c0-70.7-57.3-128-128-128S96 121.3 96 192c0 40.4 18.7 76.5 48 99.9l0-21.5c-19.8-20.2-32-47.9-32-78.4c0-61.9 50.1-112 112-112s112 50.1 112 112c0 30.5-12.2 58.2-32 78.4z" />
-    </Icon>
-);
+const UserHeadset = createIcon("user-headset", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABgAAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCNQsGAAE2AiQDCAQgBYMtBzMbOAURlZrfyH4m2MasG7yDR6NbSRka7xo2Bp/Ew//799U+D9VVH03etjVyxkjORKS1JlU26fwAiPeEf/CfOvU856EAPocgSGPimhSanguN1bHOK1DARfUNupYVrFpB69G8FwYxtF1o0wqKeMghJdkD2be42/vQ+EsPt5HJcwDRHgDzt25c7cPWaI34pvGa+MZKBMR8kARy5OgtwCy5QG+FhEIhaI1GQ/wHJgFEk+DwGSjQBlfidkABMmVRTGhpqfetlvViS7WsbP1jbsQHW3+b/d5mUQk0p1IRQlSrrYW/b/h5y6/rftwkhPY2V6qV8KbZVK/VN0ctth5Ur1XbFJ2jWu8aW7YIHwx8cs77Sz6d9W56YnbE030fG/nM1NeGP9Xn4WEDnm7/9D/9vz3yrbmNWPgt3y6MhfHtt7HwnHOS9tqva49iPza7SqxoH+GMj8xtr5ma/sHZlOYl86RP5i5TU4bc6B6Db9zYbh+Kj7jbWh1eWKvQ967viq/5a99y0sJ16xZOKvv+2tW/bdv9z7X9FwgEy/5Y1GFvu1n/NVcz8Ofbf5n9NT6MD7On0SwDQT6qMWpXfAgCHcBPyuIKA+JDBDJnlYJ3rblXgFBBgEyTigC5XtoLUKgYKUCpr8kCNKnYKBdFi9DZ7hpkas6D3BTXg0Jnr4DSLF/4TTpHDoIUAFF3gPFiSRtaPCmNHzMuzUiTqZKGKsKOzkyrhWFXyJbheKkjZ89cOnzo+KUWcmF1dPn0kjl48RfT+DHj0oy0u7jPb2n5Fy4eH2f3jzMzne8Mu2K++3AsZwLMCYlMRmS165b9Ja558fAlAAA=");
 
 export default UserHeadset;

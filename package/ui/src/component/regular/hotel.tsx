@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hotel` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hotel?s=regular hotel}
  * @preview ![hotel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hotel.svg)
  */
-const Hotel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48l8 0 0 416-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l464 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-416 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 0zM432 48l0 416-128 0 0-80 32 0c8.8 0 16.1-7.2 14.7-15.9C343.1 322.6 303.6 288 256 288s-87.1 34.6-94.7 80.1c-1.5 8.7 5.8 15.9 14.7 15.9l32 0 0 80L80 464 80 48l352 0zM144 96c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm80 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zM336 96c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM128 208l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm112-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm80 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const Hotel = createIcon("hotel", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABoQAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDGwsGAAE2AiQDCAQgBYMtBywblwXIjsM4FpzcWBmp8fD9mu+5bzd/0s8l3gKSBiBhgByQBwRFKIGFzNSial0n6+3oQv6k/rcnm5DcJvANuhxNXJP//vzpz5Ok6NGiMHqbR3NE8QQGWIHFE5qlz3QCtt1VKFqL9tNiiZE8nusen7tAHi/ikBLpdPqEg+VB44eODpCUMgDRDIAZS7PAr0Ql4mP1EfHRTCAgZgAUAhkydBFgskygi1yBXC6oRLUa/wMLAogadGUCOWpxH08xLkVSzvOie3MrDNeVGvIlsLR25bUOp/vURYra4FUNcbPzmb61kUUdh+vXpyz1QBw9GRcG3hn7sP+tLnva1oXYyGxYd6yNOI6fnmwfcaJd7WKOV2LVaSkwW0S++MSed5rv/OrxqX3S/s38tm3nl11SxpO+ke7JYZdo/h7zoErThuPHhw+HKzc0VQrzPJes6z6sEguNlUJF5jYVRdFiNmljk8721ep8cTsQCP73nv57bdPkv+W6BL4///Mv/IxUf5LuoCyBIBtcHWxVAokAAKTYISUIJNeV0b3WOyFAqEWApEatAJnOmgXI1RokQEk3YwSoUWuhIPIWQhurG5HU20xkxtpJ5Np4QJRM9jZao01kVivYnPDTmMoSpFk4YujwYmKxLGHREDkcnVQca/13pJYB7iA0ZjpU1R0BL5K4BtYg8kVohKGGK0xUXFcfdxdq2Toz8zSTFO9D/e3Quw9wpkesI2UliUiljxQ=");
 
 export default Hotel;

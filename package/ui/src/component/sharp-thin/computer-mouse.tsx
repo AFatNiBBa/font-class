@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `computer-mouse` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-mouse?s=sharp-thin computer-mouse}
  * @preview ![computer-mouse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/computer-mouse.svg)
  */
-const ComputerMouse: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 192l168 0 0-176L16 16l0 176zM184 0l8 0 8 0L368 0l16 0 0 16 0 176 0 8 0 8 0 144c0 88.4-71.6 160-160 160l-64 0C71.6 512 0 440.4 0 352L0 208l0-8 0-8L0 16 0 0 16 0 184 0zM16 208l0 144c0 79.5 64.5 144 144 144l64 0c79.5 0 144-64.5 144-144l0-144-176 0L16 208zm352-16l0-176L200 16l0 176 168 0z" />
-    </Icon>
-);
+const ComputerMouse = createIcon("computer-mouse", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABZAAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBWAsGAAE2AiQDCAQgBYMtBzUb3QTIhod/5nq7L8lMASgFYJYdVZBVQKBgifQ/a1GtnqlTz3MeCuBzCII2Nm0LyALd4zwCEcufZ4Kmi2oFq1bQau3sfnjDh98kfYqQYfsyTBbI4qh1CiTXku9wKX1o/KWJcyTSFEDUBsDohXOn+1gRFRHflp8R35qKgBgNcoEUKZoLMEwq0FwmRyYTVES5zP+BOQFEkV6YgAxFzMAiQAYSWZZVaVunSrVCjWxBtULVhdWqVouoGrIhZO63YW/nVY0/RrxfEASvRrg+/N34avF55Ie2EZtKYFhUa3O79u1/Wn+34Tu1yjfp4EM3PbzxoXLlL7U9VFllJTH2u+/Gxihjo8BibElllT1UW+2fSnhd80MXP43y6eKh5iUPH9R6+PDhTQ/dBALBP6dLd1bWGvZ/5WoJ+PP1f3/B6fLHOJXcRmUJCNJu5W6WxSlgfAA/KYkD2sQpBBITZOhdq7ssQKiKAImiqgKkmqktQKaqrgIUtNRfgKKq5kpFVkWob3kDiep2g9QAx0GmviegYJjPVlH9SJ2Kdgn6S5cwwSLjp/LePXrlQ/JhoDJ+QspwaL4sdzoQCp0Bt8FOO+yz3jqb7WOwPaa7+203YYaO90W53nroJTdEfhzfzy+w3h57bbbTjjhmqPy+2cmBeX1naAkl7MOTSIikpn9K3Z8VAA==");
 
 export default ComputerMouse;

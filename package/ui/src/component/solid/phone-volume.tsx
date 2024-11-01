@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-volume` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-volume?s=solid phone-volume}
  * @preview ![phone-volume](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-volume.svg)
  */
-const PhoneVolume: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z" />
-    </Icon>
-);
+const PhoneVolume = createIcon("phone-volume", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABggAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCHQsGAAE2AiQDCAQgBYMtBzMbIAXIjsQ4hnIJxWRyM5SWIBu22b37Sumqe1C1CV3jkSiEK9XhmnAYh0JhTJMY8f7/21X3VdcA/iOreiBHMEJH9IIR4wmSPRsp2p7+fp7/82iQZ/RROnWJURaR5xMY4Cwsz78NaDawmU7Att3oJizYOJJzwj9OaBaaLhw6H0+ocSMaRIN84z4DnvyHxj/0DELqFADEMADg4DQ9EY8v9EL0SXIG8YV4EBAHAOYQCgqmENgmEpjCmwNVFXyTRIL/gQwIIJoIMSeoaOIcXAKoINXK62io2ShIKfGCvUq+8nss0QdXoqPMVYsd/R9pXwRz5YZ15oQW0RIuNRflx7WXqU9nRUHoZN8E3pkKmG27A69AWMEarUxas0mgo3ZVbDgdWmYuvaSZQSvBDyFyG+fFZgeqBz9NP1d8hs5HCIIQ8gccC5lITdWiRHf3REpcqZF5UB6FR2XuQc8kupedFcrlRBoPWgjHNdbx5TvwWWBdiPEwGdyOrcY0weK90Brf6/KddMRYf+pE2VbkeVkZOqeuxDoABILLRf+lQpWA37IKHOD3+te/9DNC75HjuAPQliAoCxIH5CXo/ec4BAAgowNmCQTSGR6/a79nBAhdBEhNXQGKSaoIVF3zCDTM8ESgqeuQSFQ5hHH5BaR+F6BY1QWqcSegYdu7XNN4iNROUhrp15ceVSjyEHN1cmF+bNiTZU0SaNefiX2bDmds4SIqNGrQplyZam0hWyQW29WLmsGRvohx5cQF44cdD69PC8q1aFWtUYPbxx+7n7DRMV9uCxEnsC5qSkmk4sO0HF81AA==");
 
 export default PhoneVolume;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-svg` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-svg?s=sharp-thin file-svg}
  * @preview ![file-svg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-svg.svg)
  */
-const FileSvg: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 496l96 0 0 16-96 0L0 512l0-16L0 16 0 0 16 0 224 0 384 160l0 144-16 0 0-128-152 0-8 0 0-8 0-152L16 16l0 480zM361.4 160L224 22.6 224 160l137.4 0zM205.7 368l26.3 0 8 0 0 16-8 0-26.3 0c-12 0-21.7 9.7-21.7 21.7c0 8.2 4.6 15.7 12 19.4l31.2 15.6c12.8 6.4 20.8 19.4 20.8 33.7c0 20.8-16.9 37.7-37.7 37.7L176 512l-8 0 0-16 8 0 34.3 0c12 0 21.7-9.7 21.7-21.7c0-8.2-4.6-15.7-12-19.4l-31.2-15.6C176.1 433 168 419.9 168 405.7c0-20.8 16.9-37.7 37.7-37.7zM312 376l0 35c0 18.2 3.3 36.3 9.7 53.4L333.5 496l4.9 0 11.9-31.6c6.4-17.1 9.7-35.1 9.7-53.4l0-35 0-8 16 0 0 8 0 35c0 20.1-3.6 40.1-10.7 59l-13.8 36.8-1.9 5.2-5.5 0-16 0-5.5 0-1.9-5.2L306.7 470c-7.1-18.9-10.7-38.8-10.7-59l0-35 0-8 16 0 0 8zm112 24c0-17.7 14.3-32 32-32l16 0c17.7 0 32 14.3 32 32l0 16-16 0 0-16c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16-8 0-8 0 0-16 8 0 16 0 8 0 0 8 0 24c0 17.7-14.3 32-32 32l-16 0c-17.7 0-32-14.3-32-32l0-80z" />
-    </Icon>
-);
+const FileSvg = createIcon("file-svg", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABmwAAAKJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDNAsGAAE2AiQDCAQgBYMtBy8bswXIjsQ4RvGLKEbx8L3O/HOf5F1FCmgmXmDFG+IPBNQS4vSe32JFnfPT7H3icuedRwH+EoxD+9/WnOs8gQA/2vO88zSwTBOwbMuhwUvDxy0REo98IiE/LELD1AnyeMexWqSH0re44/jQ+N2Ia0myDEDUANjqgH1282E3uhHf9F4jvrELAmIr0AhkyDAuwKYygXG5Brlc0I1er/0HNgQQffA+CeToxzv4HJCDpJXn8/oXrtiwas3K969a5URVVqIsI7KIqKr9QpQRhgnNTSfsv9/+oto3wvro8JUDC+KxkSvb95ZAw/c9MXbV4MJ4fPSqoQeq/YQrR0aiirF4JCJC1wtx5fB4tKMsB2MyHp4J7cfCCImq4paB+yycfP9gGfe2xX0DVTzg4OkWIVbtEDcP3h/Rebp++s953/at3pEQ1uS5Wlet/hF3ql3pwaLwoA91D9zjRrrjJjc9/MPoaKdWjK6ZO+u1v23cqp9+uu4Uhq+jPKl/moLGH/xAbkc+OD6tUK+dNvnsp9r6Btp+9ezkjOWModk3cuPs2oU2Ua3HdGvd2Xuyulbk24YLwz56vmJPIBAs3+HCl46Ys+k/RZXAb2//u+1X1Psw/k9Po5BAkC3vLXdogiL+FwCAFOfrJAgkr2jBupnuFyCU3EDSpwQyY2ogV1oGtExaDw0y+4RyI58htB3GQDLTWUBmfZcBubZXgJZNfeHu046shPECxH8gY7YfOduNa9asXN1s3DwWKVGVqDu8SRMWLT5fmpbQXMc7w+nOdZxjneTcgXe23XznOc32Hnc7X9RYY6XVGhtrXle20/d3nLOd4yRnOL2PsokmX7fY+X7nJSRNIHCttCQRqfhazCvOOf8EAA==");
 
 export default FileSvg;

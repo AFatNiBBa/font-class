@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `luchador-mask` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/luchador-mask?s=solid luchador-mask}
  * @preview ![luchador-mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/luchador-mask.svg)
  */
-const LuchadorMask: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 0C100.3 0 0 100.3 0 224l0 96C0 426 86 512 192 512l64 0c106 0 192-86 192-192l0-96C448 100.3 347.7 0 224 0zM128 384c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-35.3 0-57.4 0L160 352c-17.7 0-32 14.3-32 32zm-32 0c0-33.2 25.2-60.5 57.6-63.7c-1-3.7-1.6-7.6-1.6-11.6c0-7.3 1.8-14.4 5.3-20.7L144 288c-44.2 0-80-35.8-80-80c0-26.5 21.5-48 48-48l32 0c44.2 0 80 35.8 80 80c0-44.2 35.8-80 80-80l32 0c26.5 0 48 21.5 48 48c0 44.2-35.8 80-80 80l-13.3 0c3.4 6.3 5.3 13.4 5.3 20.7c0 4-.6 7.9-1.6 11.6c32.3 3.2 57.6 30.5 57.6 63.7c0 35.3-28.7 64-64 64l-128 0c-35.3 0-64-28.7-64-64zm156.7-64l.2 0c6.1 0 11.1-5 11.1-11.1l0-.1 0-.1c0-3-1.2-5.9-3.3-8l-8-8-4.2-4.2-.4-.4-10.3-10.3C234 274 229.1 272 224 272s-10 2-13.7 5.7L200 288l-.4 .4-4.2 4.2-8 8c-2.1 2.1-3.3 5-3.3 8l0 .1 0 .1c0 6.1 5 11.1 11.1 11.1l.2 0 11.3 0 6 0 .6 0 21.5 0 .6 0 6 0 11.3 0zM112 192c-8.8 0-16 7.2-16 16c0 26.5 21.5 48 48 48l32 0c8.8 0 16-7.2 16-16c0-26.5-21.5-48-48-48l-32 0zm240 16c0-8.8-7.2-16-16-16l-32 0c-26.5 0-48 21.5-48 48c0 8.8 7.2 16 16 16l32 0c26.5 0 48-21.5 48-48z" />
-    </Icon>
-);
+const LuchadorMask = createIcon("luchador-mask", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABswAAALuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDXgsGAAE2AiQDCAQgBYMtBzQb4gVRlA5Gmexngbu3ITJMaGLC99vDhf1x6Ti2NFFBGs2pbogmHv5/jXbfH1kxqWZJkSYiIeIRQmMTop1EJqmdLlbJ5LF/NncfaOAK7R7JPSM0kiNp2yvZiM2Rac7U8Z/fX92z6/dm/LEg4m5is0sdJFVx4caqCCAUts2HPfD5v9nznkfbP0cQ2li4NIsWyBjjeQIJFt+mAzlN6IDtVM/a6SgGPVbpE59kmPyi3RXyuJe5CtKd9MeNdKr4p49LUpcBiFYAsOVI24H3G78jPlYP4qMdICC2AEYJMhwMErBCFfgVNKMglwt+R1XRfyAhgCiVHz2BHLX4im+AHCRlno/0tArhiF405YcbivoTr9oQ72YRT0ZNx13nVS/HQ/dNP7BQs9Vx3DJgFAEn57DLbpgkF2PMJjiI+VMBf6ELJplhr2Qjwy+7Czl2i9fTw6WbjRzLojM5ULRWx+Ako7Cc7E32FK3lMayUbKT0C+CWAcAkSZDAIMHFbIIAQIAABwGAUwQ4BzgA3ucQvKIzn8Mt+yRXAet1SQxLgiPJKXKsyu7UnA3Nxlf26dwpfeyfTlR2RHSlmiB09vZ2opk60duLzglSXR2VpX+OG1QWIovKSCqLReXU3FF7YVbCH39mIY63K0kz20P02WtVVsXRN6shq17PovebqJ3HCea/v1qm1UaMFMHnWKDJJtisA4rxq4rEHYdqaw/dwXYXZgF1mzSWdIPy+rVV53kyfc2/s4D3gUDwaE/PM1b+1/IE/j71/83rKg/P0mPUSiDIJqtJ/XgGnhqAleIKU1AFW+mtOzpro5sChHoESEr1AmQGhAnI1ZsgoDCsRECp3gGqyOuEToMGkkbnQWbZFeQ63UBhxcsqdUam15xWcr/KZJtD1hZz6SzrnCYqr6pMXDa4rETPoRHDIcY21o5GhmaODNlz3JMVW4ItX0Q5aVlUx+383t8zsncwGwv7axp43og6y/0x6IpCO8+XJCI1vWme4WafWp07LAA=");
 
 export default LuchadorMask;

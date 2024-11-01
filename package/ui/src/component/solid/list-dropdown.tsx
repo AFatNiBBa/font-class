@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-dropdown` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-dropdown?s=solid list-dropdown}
  * @preview ![list-dropdown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/list-dropdown.svg)
  */
-const ListDropdown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM448 192l0 224L64 416l0-224 384 0zM436.7 96c7.1 0 10.7 8.6 5.7 13.7l-36.7 36.7c-3.1 3.1-8.2 3.1-11.3 0l-36.7-36.7c-5-5-1.5-13.7 5.7-13.7l73.4 0zM128 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l256 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-256 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l256 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-256 0z" />
-    </Icon>
-);
+const ListDropdown = createIcon("list-dropdown", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABcgAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBZAsGAAE2AiQDCAQgBYMtBzQb6ATIHoVxMz0iimiO7e0iHv5/rn/3uUkeDHzEfGZ0hAVEWVd2aMysWlTV08wLhF8zpBZ//q/5/M6PDvAbHVpUgRTIUa7i+QQmOq8SigKb6QRsuk182hGET0eIRGlIx2fH2RLy+C67gvRmgufbh8ZfertP0p4BiE4AWLRjyzo/N6IR8Ucz4g9rEBCLQCmQIUM/AebKBPrJlcjlgkY0m+U/sCSAaMGvlECOVmzDXkAOkiLP+7R3qdWqRT3fXi0qez4ZGfFFrxRvjvpyWD0+H/N13yzeGv3V8NohoRYR9e1Pd494tdvceKXH/Hit5+vVDn7S602n2vctTzfZYvBXnb76h+MseP+DznSuLFTp3PmD28CQe+v9Bh98W8PtyopudJ06xdatU0zp1q1YPfXRpu7dN9Ghg7DLQSA49su7XxzoOPf/thL489v/hl9Rs5Gkr9AmgSAb2xxrbwKJAACkuG5wgkCyToGvteY1AUIFAZIWFQEyfXUSIFcxRoDCANMEaFGxRSbydqGbfQKSmksgM90NkOvmG1CY65e4RbfIUotMDPJjF7dcQ8vmlZPGTyxnl9vCoLIFr9NzymNt5HV0jaKFjrvgvKuOOeqUqwq9bF12zTnLLWSZLypNMt5EpdnKcP3MbVfuZVeAr5n4LHOU96ORrtuDR5GZMOZkuSQRqf4y5XHPEgAAAA==");
 
 export default ListDropdown;

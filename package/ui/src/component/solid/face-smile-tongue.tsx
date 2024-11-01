@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-tongue` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-tongue?s=solid face-smile-tongue}
  * @preview ![face-smile-tongue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-smile-tongue.svg)
  */
-const FaceSmileTongue: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M503.4 322c5.6-21.1 8.6-43.2 8.6-66C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512c61.5 0 118-21.7 162.1-57.9c-2.8-1.2-5.5-2.7-8.2-4.2l-68.1-40.4C316.3 423.8 287.1 432 256 432c-84.1 0-154-59.7-175.5-139.9c-2.3-8.5 2.8-17.3 11.3-19.6s17.3 2.8 19.6 11.3C129.5 351.5 187.9 400 256 400s126.5-48.5 144.5-116.1c2.3-8.5 11.1-13.6 19.6-11.3c1.5 .4 2.9 1 4.2 1.8l65.4 37.8c5 2.9 9.6 6.2 13.7 10zM370.6 389.3l55.7 33.1c22.6 13.4 51.8 5.8 65-17c13.3-23 5.4-52.3-17.6-65.6l-48.6-28.1c-11.7 30.4-30.5 57.1-54.5 77.6zm-153-160.5s0 0 0 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0zm160 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0s0 0 0 0z" />
-    </Icon>
-);
+const FaceSmileTongue = createIcon("face-smile-tongue", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABswAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDeAsGAAE2AiQDCAQgBYMtBzgbAAbIjsK2eXNkIJIhQxiOiAcrnn9+jXbum79iBlHEqmmIZFLahjSahUioRGhidTPS5mhczRwe4L7NpkP7BKkJTmzQ/F/u+R1tOsBPfoPkgMempedjh9Gcz/M0oeVrYiBZYJn2EpCsnS5hEP0iSZ8QMmxfhskGWhY7tgHqVR1hN75p9qxggzLSAUCmAYBrT0L8YO0n/kwO+2ny0Q0gkGsA2Ibo0GEdgouognU020DThJ/pe/sfSECADALtV6BhEF+wR+tTGp5nNu3hwUvnp4Xz0nlS2vHm+ob/SfiV75HjWui107rfcdhtRJNEOM6d3LFfMW6SbBbvtZp327VZVCln1YiHYeNCqJ+/36DGsGy7TJu6N06cDWcgIsObPMluWgTSIMbPQIbRMLSG/mJsX2vXGJRula4Wa5BQs+NlBPcl3Kj8XmjsY+co/Qj+Vuwqg8eydC3DAzwwaqWlwIM/Ki4uFkZGLhqQ+vP7/Z3v0OcLv+eCAkPDgvwXvwvK9DU1SH3Ick6k3yxpMZXaWidnbl7YuNzSDQAiyMyJsKezs6cwE2FEAgCw/2oQB+//a1HR6z8vh1OgCgDwWtPuOpFBjjAXsy9P31g0JAja/uHipQD8/vD1H/K3qF8r9R7DCoTuYK8rtgCKAAAq5aBcEJRPGv2q455DQIwioAwaFdBZIwRBM+oABAM2mUEwaNQDVGncEPPiKijjnoHOaRWgmTcJBly0Gw6aTyfkkohKX8x0dw65zSNG+obEmgwriiy3gp+0IcuWZrnr0MJaSFcgX6k0qbKUMqqYX1Imj/uMdPNBhBF9hghr5Lh+uzxcmmIlshTID9PYIPc9TeXz/lpwKYjzuLJSpIRfkK9XkpeVm0pKC/IzytIA");
 
 export default FaceSmileTongue;

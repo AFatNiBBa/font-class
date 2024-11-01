@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-check` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-check?s=sharp-duotone-solid plug-circle-check}
  * @preview ![plug-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/plug-circle-check.svg)
  */
-const PlugCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 160l32 0 320 0 32 0 0 38.6C310.1 219.5 256 287.4 256 368c0 11.4 1.1 22.5 3.1 33.3c-11.1 5.1-22.9 9-35.1 11.5l0 99.2-64 0 0-99.2C87 398 32 333.4 32 256l0-32L0 224l0-64zM64 0l64 0 0 32 0 96-64 0 0-96L64 0zM256 0l64 0 0 32 0 96-64 0 0-96 0-32z" />
-        <path d="M432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm67.3-164.7l-72 72L416 430.6l-11.3-11.3-40-40L353.4 368 376 345.4l11.3 11.3L416 385.4l60.7-60.7L488 313.4 510.6 336l-11.3 11.3z" />
-    </Icon>
-);
+const PlugCircleCheck = createIcon("plug-circle-check", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABigAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCJQsIAAE2AiQDCgQgBYMtB14bVQXIFkpL8GXrtd/M3knaE8MIiFdEEQAYgCPOKOIIGCp3+MshR85cdVOnasZ5KIDvEQ/SXpbL+TyP7Y6tS6DAtfpaoFuoQgWvgXV3thjHSvu0HBpJjm8r/ZKDQ2cFVfyfH9IiPZN+xRPlfwDjT6M8RNInA4iBANhwcO8eX/ZET4pfu+8Sv9qNgNgIikBGxlgB1sgCY1UKKpWgJ3W79ES3Wwgg2vj2MmijF27E3YAKJEmuqjGjxvXr12n1qw50WvXpR1ZHfDL/jbh/3uurPq4fXvHhnFfdN/e1lR91Du7DYGgMj3XSs2NYzIy9MaIDhuZO3U98u+bTct+wl6aIOiK+X/f5pBDx4ADqyGgsopN3mPTywJf/nvjrhV+9sX56Ii2cOG3axIUpTcdM8ja+tI3NVyDxVh+74BW/UOALX1VKuW+6e9fO6Tdofq8hZzXOunPWqroomvXPNk1TnNI4pXwZrwcCwZxju387OWDNf707Cfz+8b9/1F+K7pepSS+jtwSCPKc7x7HUQGoEACDFLSalJgoC2XKZ8K59PSlAqBEgaasFyMYYKEClNluAlvGWCtBW2yuLqo8w1PEGkr6uB9kyd4PKUO+AljV+CNuGRvY91nPYp1/S1qNb5pWF8xaUVWWYEc6daBpdXZatGbfUMhOWuuBa17jJeedcdtPwG+xJbna1rTNsiw8qFppngWKVsl3eSweEN7jRZV3Yn2W1ct6f4ZZ595ngJky6yIIsEynyqFtBm/tNR5lryNpcS+4yRhXsFg==");
 
 export default PlugCircleCheck;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-caret-down` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-caret-down?s=light square-caret-down}
  * @preview ![square-caret-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-caret-down.svg)
  */
-const SquareCaretDown: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 448c-17.7 0-32-14.3-32-32L32 96c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32l0 320c0 17.7-14.3 32-32 32L64 448zM0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416zm224-64c9.6 0 18.7-4 25.2-11l95.5-102.8c4.7-5.1 7.3-11.8 7.3-18.7c0-15.2-12.3-27.5-27.5-27.5l-201 0C108.3 192 96 204.3 96 219.5c0 6.9 2.6 13.6 7.3 18.7L198.8 341c6.5 7 15.6 11 25.2 11zm-1.7-32.7L133.8 224l180.3 0-88.4 95.3c-.4 .5-1.1 .7-1.7 .7s-1.3-.3-1.7-.7z" />
-    </Icon>
-);
+const SquareCaretDown = createIcon("square-caret-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdQAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBegsGAAE2AiQDCAQgBYMtBzgbAgXIHgd2DPkXYWg5DAWnePje5uu5b1caeyUjr4moAsYKiIJcAlW/Cxa9oU1SulY9MJfZ+8ip8cZLBXxWgqKdS++D9Mff23nxCUy0vgs0oNnAKopjm24TPfQIws4Ii5KIjm8dZ1fI470YpkJ6J/2D+/lL419dXCHJMwDRGgCz16xYrulVvIr4p/Ej8Y+lCIg5oBTIkKG7ANNkAt3lSuRywatoNOQ3sCSAqLL/VgI5qtiCfYAcJHmed+3aqV6rtMhX1ypF7VbHiGeRxcVOz2st4naHp1JcaP+kqC95Z3DEN/1bxFdDv+uWxbtDvh1Qj88Hfd05rbndaU08j4sdnxVF3Gr/xIUOq+JprefqVatrsTKeFLc69vm29bf/965ZLW9wo+UsLW9QtlG0oc3HDvNxmzbFLJzMvZzp3S3sKepnztT+xHa92NMF77ZqvWZzkX7AbyICEAhut/r7vy2mvW1WS+DNb9/q6xqvoil9i2YSCLJhjWE2RhMQPoAgxWl9goUFkjVysE+teyZAKBAgqSoEyHTTWoBcYagAFT2NF6CqsEIm8uZCe5sanNQdgzMTnIVz7X0PV0zze1DVPjKU0Rih/3gJCzww/1I5esSockq5rFUGOGQ6nVpuy4NO68pgmrXbEYedtMtO+5x00HHL41MOWRCB8y2oNNoIo5SmKI+7R2G1C447Yd+cOz9nqvK+P8jpePtg0hIjHCOXJCK1eajicAwrJ4fDDwAAAA==");
 
 export default SquareCaretDown;

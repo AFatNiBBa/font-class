@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `centercode` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/centercode?s=brands centercode}
  * @preview ![centercode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/centercode.svg)
  */
-const Centercode: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M329.2 268.6c-3.8 35.2-35.4 60.6-70.6 56.8-35.2-3.8-60.6-35.4-56.8-70.6 3.8-35.2 35.4-60.6 70.6-56.8 35.1 3.8 60.6 35.4 56.8 70.6zm-85.8 235.1C96.7 496-8.2 365.5 10.1 224.3c11.2-86.6 65.8-156.9 139.1-192 161-77.1 349.7 37.4 354.7 216.6 4.1 147-118.4 262.2-260.5 254.8zm179.9-180c27.9-118-160.5-205.9-237.2-234.2-57.5 56.3-69.1 188.6-33.8 344.4 68.8 15.8 169.1-26.4 271-110.2z" />
-    </Icon>
-);
+const Centercode = createIcon("centercode", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABawAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBWAsGAAE2AiQDCAQgBYMtBzEb2QTIhofn9cA/9yUFnALS1pWYiC9g1WZPf/PPO48CfEahjYVLA2mf73meQKBRl83zRLLxz7/pF7D/TkWKzaY3k1Fmdnx1nDsgjyfjiBKks+ktHJ43ja/VcYCkRAYgKgNg8Myp4z33WXwW8db/DxNvGYuAGAIKgQwZ6gvQTyZQX65ALhd8Fv//T/+BBQFESXJuAjlKYDQWAHKQZHlerV61ciUq5DPaaWWXnmkWcbnF1brn6p1vea35lTpna0/7ZELEO10iHpj56dAXx346/ePJ7+PooOfGvTVj5qUBEc+M8Uw9npr20fSXeenMJjcr3/y28Vsr3jLqgTYDGXjx4s8/19UPGXjh0s8/1Zv+1eh8JTue5ulSI0sPGjx4z5RmE6tOrDZ+fj7H6DZt7rtvZHrwwVt3ufcszx28WXpOqTl1dowZXn9E/XEDgEAw8uSXDRZW6vdr6XIJfPHE93/Tzyj9/3L8mW6itASCrN3/7cxLJKXiTwEASLFDk0QSSAbLyFXLOyVAKIsASUllBcjUU1mAXFltBSihoe4ClFTWVJnIywjVzV8gKW8zyPSwH+SqexCU0M+rcknVI0sqIiWIL13sCAsNHyo6d+hU9Clcj5J5gvVu3+KYa7WDM61h1gobbbDNcsusts0gW4zXtltvRAQP90WFzjropNBHcR2+T8+w3BZbrbbRhtGnr+K91MqOuLw1iImgdmFJEpHKljRWaw==");
 
 export default Centercode;

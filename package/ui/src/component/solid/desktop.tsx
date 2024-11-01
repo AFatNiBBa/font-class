@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `desktop` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/desktop?s=solid desktop}
  * @preview ![desktop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/desktop.svg)
  */
-const Desktop: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l176 0-10.7 32L160 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-69.3 0L336 416l176 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM512 64l0 224L64 288 64 64l448 0z" />
-    </Icon>
-);
+const Desktop = createIcon("desktop", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABYwAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBQwsGAAE2AiQDCAQgBYMtBy4bwQTIhofn7b4691W16vfQNZIiWJm96whk5lhMGQnzf83nZ00H+PkIDq1Di69BYlnPJzDReQMNKApnE8XpNhHBjiD2hYREiUTHl8fXDvL4IjutinRX+gjX2ofGD9o4TVKXAYjGAJi8ZMF873wb30Z8+P+LxIfmIiAmg1IgQ4b2AoyTCbSXK5HLBd/G///Lf2BJAFENcKLnXJ2JeWBfkCTl+Yi6SlWDfHGlqljxQK+IR1qnuKv3o90r0TqKuNj8Vsdb3FZpEJda3REnWt5eFNE2KvFw38fbZXF3n8d61K8T6iOiQZfHGj/2U+ePNn9k4tv3NKFJUSqaNLnnGU+bruH58w3JpKXpnvaMkCDRO29P/BYXese33gECwd8bP16+ptG4X2srCXz/2i9/9PP9/06alB5DrQSCrN///axMk0CoASQpDuvifFEgmSjBtda7XYBQIEBSrRAg005jAXKFvgJU6Wi4ANUKC2QirxOaWzVAUm8fyIxwBOSaex5UGefduFrzyDKJywPuI5c8w0LTN5WDBwwqx5TbFuWTg6mrY8uw3etwGelNW222x24HbbLRNgcNud/87JBdZnjEdD9UGmyAQUpjlMfdZ3kxJ/sdsG0tnK8zVnnf7+WwP703eQloh6gkiUg1LxU=");
 
 export default Desktop;

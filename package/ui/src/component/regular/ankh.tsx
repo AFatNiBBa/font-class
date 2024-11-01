@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ankh` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ankh?s=regular ankh}
  * @preview ![ankh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/ankh.svg)
  */
-const Ankh: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M80 128c0 42.3 22.6 78.9 50.5 107.6c10.3 10.6 20.6 19.4 29.5 26.3c8.9-6.9 19.3-15.7 29.5-26.3C217.4 206.9 240 170.3 240 128c0-44.2-35.8-80-80-80s-80 35.8-80 80zM98.9 272C66 238.9 32 189.8 32 128C32 57.3 89.3 0 160 0s128 57.3 128 128c0 61.8-34 110.9-66.9 144l74.9 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-112 0 0 168c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-168L24 320c-13.3 0-24-10.7-24-24s10.7-24 24-24l74.9 0z" />
-    </Icon>
-);
+const Ankh = createIcon("ankh", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABZwAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBRwsGAAE2AiQDCAQgBYMtBysbwgTIjsN0OyuPtCnSPMbD92u9nfu6JwDYYUYXF0/ESyxUvvq1NrUO7DTz+1fviZudNy0KcAmnNDZ2HsiYQHOeJ5BoHnj6a4G96QvYm7tcxIO079ISS8vXb4+fDfJYEceVSBcSHOsfGl81d5SklAGIegAYt2TBLN9XRmXEX+U3xF9mICDGgUIgQ4ZWAoyUCbSSK5DLBZVRLuf/wIIAogp6hARy5JiG2YAcJCnPm3avWaqdL65ZqrHiQvOIC93OND7X9FHLSy2vdn84+HXX+60WPewd8bTNrTHfTfll1Ntd7vm4a8240/x8xxohQLvbIqJGHMKlLjXbP6z38J92NjNnTN0KKhb15Ut5UkVF3Vi8qV69TYujwbHzAxhYuzRwwty5EwaWag8ccH6GeY0bz9vrvsAyeh8v95gBBIJ/t36dtLoj/6tWM4G/P/a/9isqfx9j00NUk0CQ9Sz3tDIOQ4wVAIAUh7WPsQgk4yR0rbWcFSDUQICkihoCZFqqJ0Cuhh4ClLQxSIAqalggE3l1oZFVg0hq2UdkBjtC5Bp5RZSM9JtZRaPIfEn0BPErlzY5ApOWin69+xbDi22EJffg63REcax3PVwq3bBqsz12O2iTjbY5KPD9ZjmH7DJZwyb5okI/vfVVGK4wp8/BxTbZ74Dk17J9zgjFfaOrw3p7N8gPZO4fhCSlUMrX7d6xFQAA");
 
 export default Ankh;

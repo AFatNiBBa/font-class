@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `staff` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff?s=regular staff}
  * @preview ![staff](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/staff.svg)
  */
-const Staff: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M238.8 57.5C256.4 22.3 292.4 0 331.8 0L408 0c57.4 0 104 46.6 104 104l0 103.9c0 42.8-26.1 80.8-65.1 96.5l-17.3 30.7c-4.3 7.7-14.1 10.4-21.8 6.1l-29.4-16.6L253.7 360.1 122.9 490.9C94.8 519 49.2 519 21.1 490.9l16.8-16.8L21.1 490.9C-7 462.8-7 417.2 21.1 389.1L96 314.2 96 288c0-8.8 7.2-16 16-16l26.2 0 21-21c12.5-12.5 28-21.6 45-26.5L368 177.7l0-33.7-12.1 0c-19.8 29.8-59.2 40.8-92.1 24.4c-35.6-17.8-50-61-32.2-96.6l7.2-14.3zm93-9.5c-21.2 0-40.6 12-50.1 31l-7.2 14.3c-5.9 11.9-1.1 26.3 10.7 32.2s26.3 1.1 32.2-10.7l2.7-5.5c4.1-8.1 12.4-13.3 21.5-13.3L392 96c13.3 0 24 10.7 24 24l0 75.8c0 10.7-7.1 20.1-17.4 23.1L217.4 270.6c-9.2 2.6-17.5 7.5-24.2 14.2L55 423c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0L224.2 321.8c2.9-2.9 6.5-5 10.4-6.1l188.8-54c24-6.9 40.6-28.8 40.6-53.8L464 104c0-30.9-25.1-56-56-56l-76.2 0z" />
-    </Icon>
-);
+const Staff = createIcon("staff", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABggAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCNQsGAAE2AiQDCAQgBYMtBywbMQXIhofn7fo691X1B1gje2lEMkIoZTST7fb09/P8n3/6gM/oo0RbthZQ9CoEdj7BzScwkIrzmU7Atjtthx20Vg5JSyzJcc5xOUAeb8RNSqS705e4kZ80/tTtMpJSBiCaALBk17YN3v0tfov4ovwS8YV1CIgloBDIkKFPgPkygT65Arlc8FuUy/E/sCCAqCB3kUCOHOfhakAOkpTnyyfXlurznbWlmn3vHRXxSG1tvDTmsX5x0ehHh4+O2zpGxvbYHo/WXDN2XIyOx+Picbsi4s7O2hgXT4zqu2riruEPjny4557ezl0vdrWRMOKhTJrGQ90wbNsetxXzru6HNrEJhkd+pPPOiLin446RNUMfb3r87yFfHvGlfy7//AZuHFjv2Z++qj3KkK7qHxtc+9Gvzh3qkkts7+/fDivqR65Yu1aPht96LDf0jgcmGqrOnituv/apa6754oT9qpr+O99hvSvvG+HY36ba0r6e3S9N88PdV1/t22/r66+4wvLNb8ww4qmnW49S+e//J60HAsGoY/445sDG+burahP44/V/94SfkfK7SXocVRIIsvHl8fZLIBEAgBRnGJogkJwm4VOtc4cAoQYBkgo1AmR6NQmQqzFOgJIBMwSoUGObTOTVQpv9O0jqnAwyM50Pcm1eACXzfRJVaIvMBSkHon6A8Ss1tGJbMWXi5GJusaw12quItD6v2BZHn0FjY2CvI5zoBKc53GGOdppCTrEhPd3xVlrwCl9UmGKiyQpzFcfdI79TGac4lcg5fb6JeYr77mhn2LPHgJII6lSZJBGp9HQAAAA=");
 
 export default Staff;

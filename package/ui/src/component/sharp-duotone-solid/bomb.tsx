@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bomb` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bomb?s=sharp-duotone-solid bomb}
  * @preview ![bomb](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bomb.svg)
  */
-const Bomb: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M352 80l53.3 26.7L432 160l26.7-53.3L512 80 458.7 53.3 432 0 405.3 53.3 352 80z" />
-        <path d="M304 82.7l22.6 22.6 80 80L429.3 208l-22.6 22.6-2.9 2.9c7.9 22 12.2 45.7 12.2 70.5c0 114.9-93.1 208-208 208S0 418.9 0 304S93.1 96 208 96c24.7 0 48.5 4.3 70.5 12.3l2.9-2.9L304 82.7zM96 296c0-57.4 46.6-104 104-104l8 0 0-32-8 0c-75.1 0-136 60.9-136 136l0 8 32 0 0-8z" />
-    </Icon>
-);
+const Bomb = createIcon("bomb", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcgAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBXQsIAAE2AiQDCgQgBYMtB0Qb8wRRlI25I9nDw/N2fZ37qroHUA2N/kNkUOZI2t1IiASGjjbuqVM5l/NQAN8oaGMtkAU+53kEKjI9XqEK1bQAWGHr7rQVDlk+aZayJMdnx+dyQh5fZOeUSDfSR7hM/wMYf2njHEmdDEA0BsDklUvne+23+C3FR9XniY/MQ0BMAYVAhgztBRgnE2gvVyCXC35L1Sq/RbVaEECU0Y/LQBklLMA6QA6SJPK83Kllk3qlBvmKeqW623v36b08ekevaB53fLXos2XfLPlixbdLv1x5fnir6LvsXt+Ix0bWi4i68da4lwpRL2L77DmzB8fQmBtzYkgMilldHm386D+dP6r5yMA9lUpl4UIrrNDF091j5aOProyV8eijsZLPdm/XVOXTr+p9zE9P11ao7cqKSp3gbtw/B9VHeGgOWV8HgaDm5ZObNjYa93/tetwE/njhvz+571H1tSQ9itoSCLJ+1X7WJZAIAECKY7okxCaBzHAJvmt9VwUIdREgKasrQKadxgLk6uorQElHwwUoq2upTOR1hJXm1jNI6jsIMiMcB7nmngMl47wblzWPzK5IqyCfdXEzJDz9UjF4wKBiTDHNNcpU8LQfWyxrvY7FXm94qsZ++xxRsc1ORwR6yPzsqL1maMh0H1QYbIBBCmMU29Xj/RUqDjlsp/325SNjFeejXo7p073BTArmEFcyGZEiq/9/gdTfPIWGHXMNAQAA");
 
 export default Bomb;

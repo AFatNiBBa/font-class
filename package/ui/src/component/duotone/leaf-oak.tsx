@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `leaf-oak` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leaf-oak?s=duotone leaf-oak}
  * @preview ![leaf-oak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/leaf-oak.svg)
  */
-const LeafOak: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M50.9 261.9L66.5 293C75.4 310.7 80 330.3 80 350.2l0 47.8c66.6-66.6 133.3-133.3 199.9-199.9c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7s7 10.8 7 17s-2.3 12.3-7 17C247.2 298.7 180.6 365.3 113.9 432l47.8 0c19.9 0 39.5 4.6 57.2 13.5l31.1 15.5c8.3 4.2 17.3 6.2 26.3 6.2c15.2 0 30.3-5.9 41.6-17.2l3.6-3.6c17.7-17.7 20.4-45.4 6.6-66.2c-3.1-4.7 .8-10.9 6.4-10.1l75.1 10.7c14.1 2 28.3-2.7 38.4-12.8c17.7-17.7 17.7-46.3 0-64l-22-22c-4.4-4.4-2.3-11.9 3.7-13.4l40.8-10.2c24.4-6.1 41.4-28 41.4-53.1c0-18.3-9.1-35.4-24.4-45.5l-14.3-9.5c-5.6-3.8-8.3-10.6-6.6-17.2l5-20.1c5.1-20.4-.9-42-15.8-56.9s-36.5-20.9-56.9-15.8l-20.1 5c-6.6 1.6-13.4-1-17.2-6.6l-9.5-14.3C342.1 9.1 325 0 306.7 0c-25.1 0-47 17.1-53.1 41.4L243.4 82.3c-1.5 6-9 8.1-13.4 3.7L208 64c-17.7-17.7-46.3-17.7-64 0c-10.1 10.1-14.8 24.3-12.8 38.4l10.7 75.1c.8 5.6-5.4 9.5-10.1 6.4C111 170 83.3 172.7 65.6 190.4l-3.6 3.6c-17.9 17.9-22.3 45.2-11 67.8z" />
-        <path d="M7 505c-9.4-9.4-9.4-24.6 0-33.9L279.9 198.1c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L41 505c-9.4 9.4-24.6 9.4-33.9 0z" />
-    </Icon>
-);
+const LeafOak = createIcon("leaf-oak", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABmAAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCPwsIAAE2AiQDCgQgBYMtB0wbXQXIjtRO9ZWwgucpr3q/Ki1n4PSsrZPIE8DM+gTeAMT/xann2ZQN+CCSbMrlfOGYgOkc3KtAzzdOm6SbajXFWju7NxgUJpIQ3yfDxA+bEzDkrp6GA9RqZQML/f8AymtSmAYKjwYAQMIAAECNdq2acPaZPFNi/z8IYtMYEACpCYCFABrQQDoCQGU0AqRjYAEGBgLP1H94Jv8tEAAQJ/4+NQBOwAAmA/MAAAMAhSCGERjscwSMtj6HN74mrZ/szLM6ubdsy9suJTVlNciZavdarfTNTVjOJPN+a5/MzZNHlvvmFkqSlWlrE1cktZHtSStlcmJBWZFUTnZWdk3exE1psrHgnty5ZVli4hDMMZclp0MSmF5QKW0KK3JvM02ZnbUqJXtPeM/buN3Xpv/t2+EwgUDyKXnsXwyuZxbnBBON6+v19g1mL/rc4mTuf8elQHK4FHZUNuZf1NBLi3850WhOG9ovnYO5/5TpH/aS6QVr0b3fjG+l2dxuA9/Omg8f1NhFhelteBSNPnqf4G2Ee8rPcNwuRU48PgIABBBY06vMl26hyl/dPgXAi+PvP+cbf/4/plB7ADcKAAFd+H9hOisMCRMQKFYylmx8VSEE0AxGgWN+ViAACF6ooHDiBU0aYTDwUggcZFJGEpqtRKwYHsekC4HCzwjQlGU8GJgcAAeVuRI5MUUroqJGyj8ws26L1JlllSha3KpoLUtF1S3JjVeyxHb+sbatALbSl2EMZTR96M0ARjfiSJqkYxhCXY6uww+xKEFRimNREWu79mi2NdFIRjFgru9PUwnrvJOfsXzvApiPAgBKXuFxDaJEhwf36dG3yLAeg4potBXt9LcLAA==");
 
 export default LeafOak;

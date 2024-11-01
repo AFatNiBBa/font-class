@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree-city` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-city?s=thin tree-city}
  * @preview ![tree-city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/tree-city.svg)
  */
-const TreeCity: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M304 40c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24l0 160c0 4.4 3.6 8 8 8l64 0 32 0c13.3 0 24 10.7 24 24l0 272c0 4.4 3.6 8 8 8s8-3.6 8-8l0-272c0-22.1-17.9-40-40-40l-24 0 0-88c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 88-48 0 0-152c0-22.1-17.9-40-40-40L328 0c-22.1 0-40 17.9-40 40l0 464c0 4.4 3.6 8 8 8s8-3.6 8-8l0-464zM128 224c-4.4 0-8 3.6-8 8l0 72-40 0c-35.3 0-64-28.7-64-64c0-22.6 11.8-41.3 30.5-54.8c2.4-1.8 3.7-4.8 3.2-7.7c-1-6.2-1.8-11.8-1.8-17.5c0-44.2 35.8-80 80-80s80 35.8 80 80c0 5.6-.8 11.3-1.8 17.5c-.5 3 .8 6 3.2 7.7C228.2 198.7 240 217.4 240 240c0 35.3-28.7 64-64 64l-40 0 0-72c0-4.4-3.6-8-8-8zm-8 96l0 184c0 4.4 3.6 8 8 8s8-3.6 8-8l0-184 40 0c44.2 0 80-35.8 80-80c0-27.1-13.5-49.1-33.2-64.8c.7-4.9 1.2-10 1.2-15.2c0-53-43-96-96-96s-96 43-96 96c0 5.3 .5 10.4 1.2 15.2C13.5 190.9 0 212.9 0 240c0 44.2 35.8 80 80 80l40 0zM360 96l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zM512 264c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32zM488 416l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zM384 200c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32zM360 352l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const TreeCity = createIcon("tree-city", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAAB/gAAAK+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhjyFPgsGAAE2AiQDCAQgBYMtBzAbvgbIBgrSmbMnveJIAfkJL8xcEaE/xFU64h6xIpg6HDemdwE9F2A2UdbalEV7g3Ue4BjbEggskTAhzzZb98nHpAkRo4fJEpM9vov4dwGufjOUODBbzW1g9TZbH0hjARgcB8Er5D1p1KNLO64+1VPp9v/zoNu0AQSgxgBYBDiAA2QiAOriICATFwu4uAie6v9//g+0IACQB7CGfS5QEFQX1ALsBjDkd93apYrFx4dhVQRxLOheFvgjtpcIdDANbUwKggYxJ2xOcTQ3eZPvS9qUvCEREcd4lyVuwJd07Q44VDqWvrvMZm3SMSC3xvlSR7PmJM5JWjxbSh4pmnZ1RYQDUqCLfiBnV+nN2oli1c+VPJI5J+nHd5Y6Wi3ogdhaLNDhDGlbcV8HUksEfrAxCW1I9LUpWdqc0u1AKiqC1GtjIK62a57c3Q8uHAtjnwrdHn6bCpuTOq2hU9IevIENbYOE4wZ6IdErudFUeqpwTyqyxcSuIZp7JXq/84L7Jy8O9FpSkj3RqK/Hhd20iLoPC8NuwxVJcws/lk8D9pSkJd7APAMuCSu++BIlCYd1V+obLxKJxebMqYxm8t6kPtpQ8ssTa21SJ0unJAuEMwx6oIf2BnKgn33S4UA+gznouuDsAWS/9z0AECCovaT6ngEF636NBAaA51e+/MLT/6+aOSYGRDAACJyy/8vS18wBWAkFAGGj6RR2xFI9VSU/sjEfmxAAwgcYGDx84JBBCFx8yoA4sqnGCm7ogoPcvIhE+gFgyMck4FCdmcAlkbMgjrpcC3kkyplHnFnA+YtN2FzDmvWzlcpXtLXtbcLJnRqs0ljHhpUlp1NBKSxlOBMYz1SGMZRRTFW4ybSLTmMczT3SZp+1VKI8FbHUxqbTW2F3FZ7MFEb1ufleqIMdby3JdL98KWgMQrcycQYDMnk/L6JyLxg=");
 
 export default TreeCity;

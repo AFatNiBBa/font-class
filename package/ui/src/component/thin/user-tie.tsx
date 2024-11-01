@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tie` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie?s=thin user-tie}
  * @preview ![user-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-tie.svg)
  */
-const UserTie: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 240a112 112 0 1 0 0-224 112 112 0 1 0 0 224zM352 128A128 128 0 1 1 96 128a128 128 0 1 1 256 0zM176.9 308.3c1.4-2.7 4.1-4.3 7.1-4.3l80 0c3 0 5.7 1.7 7.1 4.3s1.1 5.9-.6 8.3l-37.2 52.1 23.2 46.3 47.1-94.2c81.2 8.4 144.4 77 144.4 160.4c0 17-13.8 30.7-30.7 30.7l-191.4 0-3.8 0L30.7 512C13.8 512 0 498.2 0 481.3c0-83.4 63.3-152 144.4-160.4l47.1 94.2 23.2-46.3-37.2-52.1c-1.7-2.4-2-5.6-.6-8.3zM199.5 320L224 354.2 248.5 320l-48.9 0zm10.1 167.2L135.3 338.3C67.5 350.6 16 409.9 16 481.3c0 8.1 6.6 14.7 14.7 14.7l183.4 0-4.4-8.8zm-9.2-54.2l14.6 29.2L224 480l8.9-17.9 14.6-29.2L224 385.9l-23.5 47.1zM432 481.3c0-71.4-51.5-130.7-119.3-143L238.3 487.2l-4.4 8.8 183.4 0c8.1 0 14.7-6.6 14.7-14.7z" />
-    </Icon>
-);
+const UserTie = createIcon("user-tie", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABmQAAAK+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCcQsGAAE2AiQDCAQgBYMtBy8bcAUjEfZqDmqQ/UWCbYhaO/QVYSWEAdpoy2xpE+L5U2eEAWBHmI53Tuwv50fi4Z91/7/PzDziE0pCQwPUYK0uNacfxfzzbeDad/0NMKETvXvSbqH9tN+8B36HuDaYmCZxbUjdPCIW6ROtPwU2dep5zkML5DkEQRsLl24cE0PZHfO8AgUs5r2birVuoWoFrdbOv4EfRL9I0ickGTY/bLaQxWkL5JGcTF5jf/qo+KeBXSTSFEBUAmDEzKlTPP0cnyNe5yJem4SAGAmaC6SANBZgsFTQW8g0RyYTfI5cLv4HNieAyCf3nIAMRTiOq4AMJAqyrFGjDgVN8/lCwuQzxkry8PjudgA57QvcaJ4dWZywpVWP6LrBkz1Dxre1B8i78jjhKToSbrwlkiTdhWugkeMlBJLyO1lDdInxeMUj87XsFmOcUNxDqv6tfXp0i6Y4prT7A/4g4NEZBH05+KHpTk5A0VKtUatBS5cKhG/6paEAr23TojYIPCgtRVHxv8XrRa99etf0HELn/vxp2pTJc+eaGsTWe7W0VSlS+lu2pD6Ullq5gHPulWuYA/KqlQ7brOt8HzfuruDHYmVvX7lPmDz72G2+xUZpVbu2XLLbhYuyXUfcpoEsFpNPJXK0gptud6NiiyU/u+WxkPxNPCIiVBkQCI4cbZ+Zqhj8v7CEKQFf7+/KyTnxNLmFQgkI0s65zuYF8NQAflISa7QMCCT2KyCfWuqYAKEYARL5igVINVIpQKZYJwHyNNVHgHzFpkpFViSM15poIFFqOUj1dQEytcogz2B/Xr7aSA2UMy/uf5g8ViNj1jXv0bV784HNp4XK2xwTlgc131bar+GhDoBatGXTvgXzVuwrbFdveGBD2wpt9UUmYQEhJlVMx/W9PKa8XXtWxuL5KtVM9w2Xw/VkN3Qaoe0pl0iIpPBVu11WuRA=");
 
 export default UserTie;

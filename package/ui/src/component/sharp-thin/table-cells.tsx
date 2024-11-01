@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-cells` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells?s=sharp-thin table-cells}
  * @preview ![table-cells](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/table-cells.svg)
  */
-const TableCells: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 48l0 128 144 0 0-128L352 48zm-16 0L176 48l0 128 160 0 0-128zM160 48L16 48l0 128 144 0 0-128zM16 192l0 128 144 0 0-128L16 192zm0 144l0 128 144 0 0-128L16 336zM176 464l160 0 0-128-160 0 0 128zm176 0l144 0 0-128-144 0 0 128zM496 320l0-128-144 0 0 128 144 0zM0 32l16 0 480 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zM176 320l160 0 0-128-160 0 0 128z" />
-    </Icon>
-);
+const TableCells = createIcon("table-cells", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABcQAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCFQsGAAE2AiQDCAQgBYMtBzIbFwXIngfZmfEM0mHTOKvwsRLx8P9r5n1/JjSzQA7IboEVgVtVtoy2I1yiCqqry7qsuzEip5bYxWy3vzof4OMmXUFSpCWaZREEnkAN8LWUsWqJJy6nP86fHnCRP9LerYFtGnNgAgGmeR4FmAWWaQKWtU2uvIIgFwzqeJzvRBbiL6Q9II9XTqqRHqQu2vlD45M5JFkGIEYIgF1HDix534texEofseIIiF1gDpAhwxSArYLAlGiOyOWCXvT78h84RwKIOr4ogRwDOI8bgBwkRZ63WDnaKmuD+eFSWZwRygBQZMpCdFGMg/cGRA+VhZkMJaJHgoSjPD1kh0WK1QMRWcQx+/bCo5FHX+a7p7tqVyR3VDojy+TKsupFh9YpVXtudOq5D+9sNH6bHVFRV1a/h+D57NPngUDwfx8a3vqnWSbw8eW3T/gZ6feS9AhNCQTZqv4qI4FEAABS3LaQIJAcV+C7DrgrQCgQIKkrBMhMUgC5wiKAmhkVQF3hgEzkLWHCvLBkwDUss8XGchMeVrPVz9VNROZynMNwf3zJ+zW879pcSZmNZl/jvYhJ+53btq0w57jrtCsuu+mUk865qdDrloq3XLJ/hezzRXOKJKOGx6NH+bDKXXfDubnh/JKO7yfMWq92eAkpN2hJEpFKb1RXf6kAAAA=");
 
 export default TableCells;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-flatbed-boxes` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-flatbed-boxes?s=light cart-flatbed-boxes}
  * @preview ![cart-flatbed-boxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cart-flatbed-boxes.svg)
  */
-const CartFlatbedBoxes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16l64 0c8.8 0 16 7.2 16 16l0 320c0 26.5 21.5 48 48 48l24.6 0c-5.4 9.4-8.6 20.3-8.6 32c0 35.3 28.7 64 64 64s64-28.7 64-64c0-11.7-3.1-22.6-8.6-32l177.1 0c-5.4 9.4-8.6 20.3-8.6 32c0 35.3 28.7 64 64 64s64-28.7 64-64c0-11.7-3.1-22.6-8.6-32l56.6 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-112 0-288 0-80 0c-8.8 0-16-7.2-16-16l0-320c0-26.5-21.5-48-48-48L16 0zM544 448a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM224 480a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm0-416l128 0 0 224-128 0 0-224zm-32 0l0 224c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-224c0-17.7-14.3-32-32-32L224 32c-17.7 0-32 14.3-32 32zm320 0l0 64-64 0 0-64 64 0zM448 32c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-64 0zm0 192l128 0 0 64-128 0 0-64zm-32 0l0 64c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-128 0c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const CartFlatbedBoxes = createIcon("cart-flatbed-boxes", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABugAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDYwsGAAE2AiQDCAQgBYMtBzkb7AXIjtRG+QNZSTz8v+6/7XOTb8m4ZMT8jVklpnjHWhlErPod1kGHd3hlmkXLopwKeUlR+z7/l3t+fkcHuOwIDmXvojaNxdFe1ksgwPDnmxZ4FmZZYAlx5tYYsttjUPtIxBiCouLjacW/PeTxT8zWQXo1fYWnjxeNv4z0AEmeAYgBAFh/YM9unzTRRHzVjvjKTgTEBlAJZMgwRoDVMoExchVyuaCJdhv/gRUBRCd7YAI5SnyDnwA5SHryfPXgwT2jGFR29M33lx3FkRe8OLQM+coUrw59cUoZL3h1xptTXp/19uibw0LFy8NfGlb0IVAWrw17aWpxey3iheIx3xI3h79cPj70RSd5JkKYKgNAVhalKCIKoT6TZRmPkxOhFcNeKop4DFl9BaSj3PHYstVEz5gW/O7Etwa89feEr85/pf/HTb9+TUvTryX7+tf5Iz05qBg4sLd34MBi0JPvBG+FPvi225TWYEW/R3ikX67BknXjS6e3NnKj1lQNp15NZhqutUzFRnvUa0F9dj6pjdxSa1Wt2qkefj0QCF7/btX4E/1X3+ouE/jzvW9dl2t/kur0FrolEGSz27MdTTWAGkA+xT0mNt4okHyphz1rHy8JEAoESDoVAmRGGyBArjBLgA7jLBGgU2GPTOQ9whDHHEv6uB3LLHUvlhviXazDap/mOg2JbGcL+1L4sUzdEqHNm6oFc+dXK6tqzS1uVk5nV1Xd7vR7pGcG7XTeDdfd5ZyzLrkroHfYXbzbNVtayGYfVFlgrvkqK1XTzUtlfyK5w50uRV2fX2eVan1sunvaw2dQkBjtQlVJItKgj4M253XOnD53ds6jDwA=");
 
 export default CartFlatbedBoxes;

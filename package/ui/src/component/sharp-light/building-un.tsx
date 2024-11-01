@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-un` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-un?s=sharp-light building-un}
  * @preview ![building-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/building-un.svg)
  */
-const BuildingUn: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M32 32l0 448 96 0 0-80 0-32 32 0 64 0 32 0 0 32 0 80 96 0 0-448L32 32zM160 480l64 0 0-80-64 0 0 80zm-32 32l-96 0L0 512l0-32L0 32 0 0 32 0 352 0l32 0 0 32 0 448 0 32-32 0-96 0-32 0-64 0-32 0zm96-272l64 0 16 0 0 16 0 64 0 16-16 0-64 0-16 0 0-16 0-64 0-16 16 0zm16 64l32 0 0-32-32 0 0 32zM80 240l16 0 64 0 16 0 0 16 0 64 0 16-16 0-64 0-16 0 0-16 0-64 0-16zm32 32l0 32 32 0 0-32-32 0zm0-176l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64 0-16 32 0 0 16 0 64c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-64 0-16 32 0 0 16zM224 80l8 0 9.9 0 4.4 8.8L272 140.2 272 96l0-16 32 0 0 16 0 96 0 16-16 0-8 0-9.9 0-4.4-8.8L240 147.8l0 44.2 0 16-32 0 0-16 0-96 0-16 16 0z" />
-    </Icon>
-);
+const BuildingUn = createIcon("building-un", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABlAAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCDLQsGAAE2AiQDCAQgBYMtBzIbrwXIjtFjR1iuyHhyDDI8vHgefu6zc18ylBSQFKKwxMIhC0eg6ggcoDBT4cqyVbCr//X7tf0npntmCp7EpImFRKoMmdfw0AhV/+dyz882HeCnIzy0uSrai5bt9TyQbIFuz6MTO7BME7BsW3LE/AjiL2KEpKu2PV7z8dsb6pzJAkzKndIPXBKf5jetO4q6ApAhAMCGbRMDIN+p70l/55H06wGBbASYgkKFChNQYDW6YAKGKUCtFr6n06H/QAQB0k19WUCNFi/xEVCDoq+uR/bJh3OlfZbZfObAemvb1ewqVWmTJG0r0qbKgB1t0yZNzGn4TVIlaQdKiTQ726YVkabJkjX16sKtY8ZclDZ1cWPkLTXzYdvtEdft91Q3dUbdtpYbmUhEvCE6KtFm5h3vpz2SPPq2fKx9MN8lhCzAKIT7EUYtIMoXnsrl8iiUjXYWFq4Q8fjqXhBLqwTKJCRwO6gqHId3S0MkC45MzouypkXfv4sYRW30T5/D4a9PurlyQNzbO2w53FtAF1ggIcHnAILQ/Hn5NS9e/X9vW8DPN7//9WekQ3KxPEKvAkK1oOM3k4uQiwIAKDnOmisExXN91KsBbgqIBgFFt0ZAZTzJCbXGfOgySYKbvL0JXeo+McIsoBjgEFSWOofaCA/QZbXncrcRoaevkHzC32Nqs0caxzASDGMW3Z4mZiTHuzmcdt1nZsaDl7Bm354Tq1ZsOunoI4PaqV3NiGr4IhQRFIaycHu4VadL+cixzbG8v08OPh9zO4uXexCiUdaFOopCSvuBhwOnewA=");
 
 export default BuildingUn;

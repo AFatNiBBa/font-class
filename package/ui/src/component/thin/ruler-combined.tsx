@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ruler-combined` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler-combined?s=thin ruler-combined}
  * @preview ![ruler-combined](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ruler-combined.svg)
  */
-const RulerCombined: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 208l-88 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l88 0 0 80-88 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l88 0 0 88c0 4.4 3.6 8 8 8s8-3.6 8-8l0-88 80 0 0 88c0 4.4 3.6 8 8 8s8-3.6 8-8l0-88 80 0 0 88c0 4.4 3.6 8 8 8s8-3.6 8-8l0-88 48 0c26.5 0 48 21.5 48 48l0 80c0 26.5-21.5 48-48 48l-304 0-80 0c-23.2 0-42.6-16.4-47-38.3c-.6-3.1-1-6.4-1-9.7l0-80L16 64c0-26.5 21.5-48 48-48l80 0c26.5 0 48 21.5 48 48l0 48-88 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l88 0 0 80zm200 96l-96 0-72 0-16 0 0-16 0-72 0-96s0 0 0 0s0 0 0 0l0-56c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 368l0 80c0 4.4 .4 8.7 1.3 12.9C7.3 490.1 33.1 512 64 512l80 0 304 0c35.3 0 64-28.7 64-64l0-80c0-35.3-28.7-64-64-64l-56 0z" />
-    </Icon>
-);
+const RulerCombined = createIcon("ruler-combined", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABkQAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCaQsGAAE2AiQDCAQgBYMtBzUbbgXIhofn7cI/983sJpmNMZEnkCeAP9xBFYHuu+i+W1bC/1zu+T0fG+QbHZ7oAe1pBzICGWM8TyDgqGzqcRZQYJkmYJm3rKMekX2SyaSS7PGcHp+ekMc7jmiQ7kqf44byofGDPq4iyTIA0RkAi7ZvXufDb+PbiM//f4343BoExGJQCmTI0F+AuTKB/nIlcrng2/j///gfWBJANPF7E8iR4248AMhBkvJ877RWo0O+rdUothet4tbut/VohShCRLitxx29Is491uO2PuLO7rcOa19c3fP23B0RWdzT646Rc92i3Fq0imD3ctSKuHvM0yOKeHTUk71TiMt63DX8sVarwxNjn+mH54c83fnpnwZ/fuxzH/yyY8eOA83mgR1qOwi3Q/OA0A71o5Xqyy+yWvbFl1VVd/307QV5o1Zpuw5+ZYHVH+2/+s3OVjoAYKaiS5cHaw/W00Wl1qaxrEPH3nUFu8YrZgKBoN07/V7Y32nur21bCXz/9i9/ab+i/z9M0tNoK4EgG/f/OHsSSAQAIMVFhiQIJDdLuE57twsQCgRImooOmX46Q64wFhoGmvZEU2GzTOTthO726pC0dy5kprsYct29Ag1zfVQ0dY/MORXXUv6Gmcs1suxYOWlCVc4ul32i+puU9+eUx+Goi9LcaLromLOd5QJHHXHSBYo+z7rGhc60fIcu80WlSSaolGYrr0eP5jYU5znfybl+f8gcpX0+ykX71aMpSZh3sqYkEamjw2fnjX8uAA==");
 
 export default RulerCombined;

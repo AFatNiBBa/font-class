@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-vneck-hair` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-vneck-hair?s=sharp-duotone-solid user-vneck-hair}
  * @preview ![user-vneck-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/user-vneck-hair.svg)
  */
-const UserVneckHair: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 128c0 70.7 57.3 128 128 128s128-57.3 128-128c0-11.1-1.4-21.8-4-32l-60 0L256 64l-48 48L97 112c-.7 5.2-1 10.6-1 16z" />
-        <path d="M208 112l48-48 32 32 60 0C333.8 40.8 283.6 0 224 0C158.7 0 104.9 48.9 97 112l111 0zM384 304L64 304 0 512l448 0L384 304z" />
-    </Icon>
-);
+const UserVneckHair = createIcon("user-vneck-hair", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABawAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBLgsIAAE2AiQDCgQgBYMtB1ob2gTILgt4k3UqQyCE0lQltqp6+29rxykxmNFYRTx8jbX3dxcxj1zCJWv0RNUUaJYqIVPCDdEi+axas54gqFTcVhQQ/isicEBCvmZ2ACDkK3cIstshPFp10CwALpHKf2bCdsH9ZZZvtO/1cDz+rZ83jwJ8nPt5evMTJDrPeQLNm5ffQlH9/4Ezxb87N4pD7ZeWZmn5JctxWaDEdk4d6T0Nnul/AOOH3gJJUwZAdAKA3V2aj7tq/Cf6qkV8ygMBsQeYRMjIGEVgA19glMAkKIqgmjhUgzMJAUQ96OcyqEcdVsEegAKSJIpA26RrESoFFS1NVrsdTZhITktrF0tPK47Ky1tTURZJFeerg+j6cDUz2y8jc0RDRoumb+fe39S3+z0CUzbsDkv/OnEMOn47YCR+3aELG0vohf1VlPEKtVtRcGruiBsBAsHTmWvX+n9jCw/w9fG3cLr24y7toVECQa7UKuriAwlNgJligkF52w1CNowHuq1WLwKEZgRI6jULkI3QIFA0m0WgzjgfAvWaneGLIkXoVd9A0uoBZEsmQdHrHNTZ8GrW6w3+BSKOn/i+xeZyKGeIuexOFmZDTyXvBFa6ETatGidyxoSz6DBowJh2bbqNMWREvjOuX64G53gR42LnxIQxc3jPVkRzxKhumbb3iWDrdaMJvdyE4/AAc1vvykQivs7rNNvES+Nsr0i0OWOhXqI9DwA=");
 
 export default UserVneckHair;

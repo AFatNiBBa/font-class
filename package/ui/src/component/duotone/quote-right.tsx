@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `quote-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quote-right?s=duotone quote-right}
  * @preview ![quote-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/quote-right.svg)
  */
-const QuoteRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 160l0 64c0 35.3 28.7 64 64 64l64 0 0 8c0 30.9-25.1 56-56 56l-8 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l8 0c66.3 0 120-53.7 120-120l0-72 0-32 0-32c0-35.3-28.7-64-64-64L64 96C28.7 96 0 124.7 0 160z" />
-        <path d="M328 416c66.3 0 120-53.7 120-120l0-72 0-32 0-32c0-35.3-28.7-64-64-64l-64 0c-35.3 0-64 28.7-64 64l0 64c0 35.3 28.7 64 64 64l64 0 0 8c0 30.9-25.1 56-56 56l-8 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l8 0z" />
-    </Icon>
-);
+const QuoteRight = createIcon("quote-right", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABgwAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCBwsIAAE2AiQDCgQgBYMtB1IbKwXIhod/7L66r6pa9ceokRTByiBHQjoTSesk6LOpkG5Pf+/0j/NPH/CByJ/jfPEC2jMvgc6jLJ+YyDrPAko8EWtw3uSqyyFNofwIWTxJjykjuZ38hIvuheMXzR0jUZUCiHoAGDd/9iwfqqM6iZ9qXhI/mYmAGA8KgRQpWgkwUirQSqZAJhNUJzU1VAf75ysIIMohbpyCcmTYgK2ADCRCZFnfvqWy2tk8HsxXfzsm4n2HMNfc6f68cx4Puz5tJm53e9apFOJWo2sd8ziD38ShxtdLpVRYXxPfjnnl2vbP6z3/rd1P634ypW1Rn/rJVIVCXr/+3bHuIiinhr2VKv74f0elOqdO1TF2pWKsKLc9UP+T7wGBYObhlZ+W1x35X2UpAT+/+uMf/yuKD8lzVEpAkPas6WlJfID4IAAASezTPj4EBFJ9JfC91nJDgJAjQKJcLkCqpXoCZHI9BCjTxiAByuVmS0VWJTSydACJWnaC1GD7QaaRF6DMSN865RpFWtmoqkL968VPnqKTthX9evcthhe7qUjXH0Kvjigu61338VY3eNA6222zx1prbLRngu8yy99rq8lH2CQfVOint74KwxWPi5f8POzsstvGbfb5JiMU3xtd7Tse7gZ3kwD6Z1MgJZJIGzYEqrPKvcptp/GSLaI=");
 
 export default QuoteRight;

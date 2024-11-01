@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `maximize` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/maximize?s=thin maximize}
  * @preview ![maximize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/maximize.svg)
  */
-const Maximize: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M54.7 181.2l-.6-.2s0 0 0 0c-3.6-.9-6.1-4.1-6.1-7.8L48 56c0-4.4 3.6-8 8-8l117.3 0c3.7 0 6.9 2.5 7.8 6.1l.2 .6c.7 2.7-.1 5.6-2.1 7.6L62.3 179.1c-2 2-4.9 2.8-7.6 2.1c0 0 0 0 0 0zM32 173.3c0 11 7.5 20.6 18.2 23.3l.6 .2c8.2 2 16.8-.4 22.8-6.3l52.7-52.7L244.7 256 126.3 374.3 73.6 321.6c-6-6-14.6-8.4-22.8-6.3l-.6 .2C39.5 318.1 32 327.7 32 338.7L32 456c0 13.3 10.7 24 24 24l117.3 0c11 0 20.6-7.5 23.3-18.2l.2-.6c2-8.2-.4-16.8-6.3-22.8l-52.7-52.7L256 267.3 374.3 385.7l-52.7 52.7c-6 6-8.4 14.6-6.3 22.8l.2 .6c2.7 10.7 12.3 18.2 23.3 18.2L456 480c13.3 0 24-10.7 24-24l0-117.3c0-11-7.5-20.6-18.2-23.3l-.6-.2c-8.2-2-16.8 .4-22.8 6.3l-52.7 52.7L267.3 256 385.7 137.7l52.7 52.7c6 6 14.6 8.4 22.8 6.3l.6-.2c10.7-2.7 18.2-12.3 18.2-23.3L480 56c0-13.3-10.7-24-24-24L338.7 32c-11 0-20.6 7.5-23.3 18.2l-.2 .6c-2 8.2 .4 16.8 6.3 22.8l52.7 52.7L256 244.7 137.7 126.3l52.7-52.7c6-6 8.4-14.6 6.3-22.8l-.2-.6C193.9 39.5 184.3 32 173.3 32L56 32C42.7 32 32 42.7 32 56l0 117.3zM54.7 330.8c2.7-.7 5.6 .1 7.6 2.1L179.1 449.7c2 2 2.8 4.9 2.1 7.6l-.2 .6c-.9 3.6-4.1 6.1-7.8 6.1L56 464c-4.4 0-8-3.6-8-8l0-117.3c0-3.7 2.5-6.9 6.1-7.8l.6-.2zM457.9 181l-.6 .2c-2.7 .7-5.6-.1-7.6-2.1L332.9 62.3c-2-2-2.8-4.9-2.1-7.6l.2-.6c.9-3.6 4.1-6.1 7.8-6.1L456 48c4.4 0 8 3.6 8 8l0 117.3c0 3.7-2.5 6.9-6.1 7.8zm-.6 149.8l.6 .2c3.6 .9 6.1 4.1 6.1 7.8L464 456c0 4.4-3.6 8-8 8l-117.3 0c-3.7 0-6.9-2.5-7.8-6.1l-.2-.6c-.7-2.7 .1-5.6 2.1-7.6L449.7 332.9c2-2 4.9-2.8 7.6-2.1z" />
-    </Icon>
-);
+const Maximize = createIcon("maximize", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABrQAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDYgsGAAE2AiQDCAQgBYMtBy8b4QXIhiDQWc5Ksv9eekoiOUAKITww2AGiA+zCLRAVtZMWK4KJy+mPZaPhYxIuyuzHttY6b/sY4zyBBVSWdnmXhssCyzQBa9kc+MW1L9TrBbJ4ywoNkqHkazxmfWj8YHd3k0hTADEFAOfNnn6V97vRjfj6/1eIr12BgDgf1AIpUuwlwJlSgb1kamQyQTf+/1/8B9YEEE3OQyUgwzh8i+8AGUg0smyfNWWrVTQmZrOKRj4/L/I74o7oj4iBXYt4qBJ95YzobbXEDx46SHHp23V6zIwj06K/LOPp3QQOPLfnYKVlqLPby9dGb1XRxPDB+SiGqrOoOnWm3MIb2d5qasyg6nQq00MzB6qZ0VeK3pyypnLHjNssz4u8tzUr+neNGCiK6KvE7eWMIi/6iN4yjwdb0QPMvlO1/4tTXvxpv69Xfe3kPCJgarOtuaStWYV0/x077H8srI5G+HDwRJ22d/YJhj4ki7ZqatuUa8ORD1yg3UGsYTqSc6cQUyt+jvvQCX6hweIWbAjXplpjx25ckYaq2bbkRPtNjSf7IqJRw3o59XUEgqf2XX7e4sln/tpTJOD7N3/5K/4Z1f93o5u8iB4JCNIj/z/SgoRaHV0BAEiiY/+EWiDxqQbnXSfoFyDkCJBoygVI7WmKAJncEQI07OMkAZpy06UiGy+UFub2xARb7amT3WLPlF6yN5zps1xTGSlkC3ApXFemXlyGL9pUH3f0sfXpdWdLKgIrp6+eUY8OHNqRI4fhk1bZbJMdVlphrR0l4zZXFds2uriPvMgX1Y5ztGPVTlfP7l5XZ9HcNtutbZfnr3OGev3MoTr90w/D4YTj83h1iYRIen7Cl1x740oAAAA=");
 
 export default Maximize;

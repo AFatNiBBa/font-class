@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shower-down` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shower-down?s=sharp-duotone-solid shower-down}
  * @preview ![shower-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/shower-down.svg)
  */
-const ShowerDown: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M32 352.4C32 369.8 46.2 384 63.6 384l.8 0C81.8 384 96 369.8 96 352.4c0-5.5-1.4-10.9-4.2-15.7L64 288 36.2 336.7c-2.7 4.8-4.2 10.2-4.2 15.7zm64 128c0 17.5 14.2 31.6 31.6 31.6l.8 0c17.5 0 31.6-14.2 31.6-31.6c0-5.5-1.4-10.9-4.2-15.7L128 416l-27.8 48.7c-2.7 4.8-4.2 10.2-4.2 15.7zm64-128c0 17.5 14.2 31.6 31.6 31.6l.8 0c17.5 0 31.6-14.2 31.6-31.6c0-5.5-1.4-10.9-4.2-15.7L192 288l-27.8 48.7c-2.7 4.8-4.2 10.2-4.2 15.7zm64 128c0 17.5 14.2 31.6 31.6 31.6l.8 0c17.5 0 31.6-14.2 31.6-31.6c0-5.5-1.4-10.9-4.2-15.7L256 416l-27.8 48.7c-2.7 4.8-4.2 10.2-4.2 15.7zm64-128c0 17.5 14.2 31.6 31.6 31.6l.8 0c17.5 0 31.6-14.2 31.6-31.6c0-5.5-1.4-10.9-4.2-15.7L320 288l-27.8 48.7c-2.7 4.8-4.2 10.2-4.2 15.7z" />
-        <path d="M224 32l0-32L160 0l0 32 0 3.2C87 50 32 114.6 32 192L0 192l0 64 32 0 320 0 32 0 0-64-32 0c0-77.4-55-142-128-156.8l0-3.2z" />
-    </Icon>
-);
+const ShowerDown = createIcon("shower-down", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABlAAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCXAsIAAE2AiQDCgQgBYMtB1IbgAXIhuBprbd607MbAOpEAYJKFAMokl8F8JCFD8hDdXrn/3LP7/nRAX6jQxtr+Qbfjf08gQTavGmBJxRgoolBYN7etDMxo8jMzJqk41vHWQco43A6rULxoPgD1/B/AOMvHZym0CABiOYAmDRv1kzffIgPRfxRe0n8YQYCYjLIAgkJnQUYKwl0VsoolYIPRa3Gh6jVMgFEFT4vgSrq4yruA0pQCJWy7NKGokaVJuXcvq/hohANQ4gfxn6R2W3UJMwnPhn/1fSYd7xNxJ1GEZfa3YsTbQfHwLhtTunm0jU96prX/dP9j7V/eP8w5zxRlhzqPbphJuzy9ivUcHTvQ0m3ZU3Pc74pTc+fb1p/+FNPDa8/4ZhzOxAI5rwae3VZs7H/129UgE+f/ffn+CKpfRPHizrUV4Ag9a31tTiOQxwXAIAi9uoRx5EFkg0q6FUbuytAaIgAhaqGAiSdNBeg1FAfASq6GiZAVUOzJFE2EFpbIqDQ2A6QDHcElFp7ASrG+jmpah0pL4msIl6FsdM1NG1RHtR/YB6dpwUmUw2rs2Pystpzr+npBTuttc1Wu62x2ga7FbLTzHyPLaZH8DRvlA3S30DZaHm73rJzVbLTLht8en+eMfL5sKe98fBeYBQIdbAlSSKKSK1+7mg7+6Wr2O+G97Wx9GUG");
 
 export default ShowerDown;

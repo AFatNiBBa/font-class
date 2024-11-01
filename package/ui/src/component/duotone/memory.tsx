@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `memory` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memory?s=duotone memory}
  * @preview ![memory](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/memory.svg)
  */
-const Memory: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 128l0 7.4c0 6.8 4.4 12.6 10.1 16.3C23.3 160.3 32 175.1 32 192s-8.7 31.7-21.9 40.3C4.4 236 0 241.8 0 248.6L0 320l576 0 0-71.4c0-6.8-4.4-12.6-10.1-16.3C552.7 223.7 544 208.9 544 192s8.7-31.7 21.9-40.3c5.7-3.7 10.1-9.5 10.1-16.3l0-7.4c0-35.3-28.7-64-64-64L64 64C28.7 64 0 92.7 0 128zm128 32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64zm128 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64zm128 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64z" />
-        <path d="M192 160l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32zm128 0l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32zm128 0l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32zM0 416l0-96 576 0 0 96c0 17.7-14.3 32-32 32l-48 0 0-32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32-96 0 0-32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32-96 0 0-32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32-96 0 0-32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32-48 0c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const Memory = createIcon("memory", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABzgAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCEFwsIAAE2AiQDCgQgBYMtB0gbMQbIjsQ4JvGLWNDi4Z+53u5L8ilThpSIFDApQrCtWnaAws5ZC6q7rpD/78MT1zx/4H9u8fdHq1oXlv+NMmk0gfZoLGyBAe2BF2a8Nx0iLGIgPhHSZJgMaR2X63g6QRYf0+MqSO4kv+ES/Q9g/K254yRqUgBRDwDj5s+e5YdylJP47ct74jczERDjQSGQIkUrAUZKBVrJFMhkgnLyBeX4oiCAqEQPTUElcvyDD4AMJDJZljVp0mR4Z4JLFbWzeW9Xvlg43Oh6frbJzYg40vRW6VzjG0pG2ooQdUOYUl4mdLPJ9UZC6PicVLjR+EXz2x17pa6z18sW97rcahpxt/vbzrXiedfXzeYeadk5bjG7VSVjevu39d7+2+63db/5vu1YjtU5fbrO7hpLWnUYPd9/WYGxsVaoRu+rUKdcrlNYgUrfQY+xVajPT8yqqZl1Ip+iIFPoq+T16z/+weNj2PxQ2zqnebNbYw8bvwMCwZ9n+2953ZH/V5cS8NdXfzjPSMYmb1EtAUHa80tPS5KxTl8BHE9in/ZgLARS+2X4WWu5KUDIESBRKRcg1VI9ATK5HgJUaGOQAJVys6UiqxEaWXoRiVp2EqnBDhCZRt4RFUb6MV6pUaRJz6Ys+8+ZNFkDk/oV/Xr3LYYXtxnC5TFdO0cUw9au+7aKbrDTOttts8daa2y0R4G7zErttdVkjzzptYV+euurMFwRzt9L89Czy25N20K8lxGK54Nd7fPrdwNHgin7W5JKiSTSOktN6/XxaPVaYZUAAAA=");
 
 export default Memory;

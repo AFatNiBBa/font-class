@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-1-9` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-1-9?s=sharp-light arrow-up-1-9}
  * @preview ![arrow-up-1-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-up-1-9.svg)
  */
-const ArrowUp_1_9: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M368 32l16 0 48 0 16 0 0 16 0 144 32 0 16 0 0 32-16 0-48 0-48 0-16 0 0-32 16 0 32 0 0-128-32 0-16 0 0-32zM160 33.4l11.3 11.3 88 88L270.6 144 248 166.6l-11.3-11.3L176 94.6 176 464l0 16-32 0 0-16 0-369.4L83.3 155.3 72 166.6 49.4 144l11.3-11.3 88-88L160 33.4zM428 288a52 52 0 1 0 0 104 52 52 0 1 0 0-104zm-84 52c0-46.4 37.6-84 84-84s84 37.6 84 84c0 1.3 0 2.7-.1 4c0 0 .1 0 .1 0c0 21.1-7.1 41.6-20.2 58.1L430.1 480l-40.4 0c.5-.9 1-1.8 1.7-2.7l42.4-53.5c-1.9 .1-3.9 .2-5.8 .2c-46.4 0-84-37.6-84-84z" />
-    </Icon>
-);
+const ArrowUp_1_9 = createIcon("arrow-up-1-9", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABeQAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCHAsGAAE2AiQDCAQgBYMtBzMbHwXIjsN0eyOPIimTNF8RVMvWM7efMo6sQ0jCRiFBgsUYXFJ4lMYICosRGGT3/swhADe2K6hKldIqky90YA0VjVT9N//X9LvnRwf4jQ4tCitBCix72/MJTKx41LznUWAznYDtbUNHjTA8jRAxlIj4geO2hRJvwx8q+SE9By/9Q+OPrSVIpQJADAEAF3dlBXj4iZ+Cz/+vAfEtDwTEJYAFRIUKMwiOyQIzFAugKIIfajTlP1BAAFEHXzxBQR2P4BlAAakUxdrN0EVfNVQq9VW9Ln09fYTo6CPaekSIr1ZuaWVZQUt604qllIhok5RZTAv60ppVtG45tFm1XfM4sd+wW/cs3/EjL6Ku+Zw5zmE+5jnnXU49zluncVnvuu+5k+u5yflnl+edzzH0aWJSbIIVYihg8ihgsjAn2itc8LqqKtzW6cIzjDDh8EaQu7D8bRi86Px/+O/1638Px65lYfIkcL8e3DUpSxKwuJ9QAG+MQ8jV6nyAQHDZCL/XZBz/W0dfAvze/vqdfkau/58k5BegKUFQLWv81WcyXCUnBAAgYxKumYwQRHqg4GvtekUQ2giQ6toCVKaZICjalhDUzIlAUNd2RRZFF2FKg4DU9QQqu6ZBMeUS1Bx75NRNhZx2ZNKQn764TA1nLBIhgcEiVriJSWUS3mbjxDbvPVkbPrAWnYYMGtehXY9xhY4q8CcMyIyQDF8khAgUTIgljvPt8kodRo3pMWSQ5okj7tveJuN+H5AkjLlJSE+wIQ1aRkeHpgImhgNCAmIAAAAA");
 
 export default ArrowUp_1_9;

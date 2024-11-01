@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bed-empty` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-empty?s=solid bed-empty}
  * @preview ![bed-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bed-empty.svg)
  */
-const BedEmpty: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64L0 256l0 96 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 288 0 224 0 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128c0-53-43-96-96-96L64 224 64 64z" />
-    </Icon>
-);
+const BedEmpty = createIcon("bed-empty", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABWAAAAHWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBIwsGAAE2AiQDCAQgBYMtBzAbowQRlZLPZD8TbCJzvsDv4NFo1LNwPZRlkUZfbPCbePh+jd+5b98X04iIZIakFpo3cctbaT/RvIQdKkM0CYA0q32HiM3Bp3Rx4hEytNWF5DL/13x+z48K5PMRHEo0lh5IJFDm8wkMfG3RQAOaDeyMJsDTbaKHHVH4hcQIkoiOqzy+rpDjd3FWDelR+ogb9UvjswFnSRoKANEOgLVbNqz3uooq4sP/xAfrEBBrwbhAgQLDAqxQCAzLxpFlQRX//8t/IAKIWvpLEsgosAQrABkkkfOcppqWvLmppnHHqd6I+42Xu+8SQpzsudd0pe9BRLQ0wfHPp5WLmiMmy/byy8RHH1efaL3IxVamJPTaXnsZQ/i48UqAd55UX5YnKy+BQPChoZza07bia31TAp+m/tFe/l/JyVSiXgJBMeP/jJ3pJAgxADPFUZPOzALJHAn0U5vdFyA0IkBSq1GAwpB2AbJG0wWoMWqhALUabVCI3CB029VB0uwAKCxyDGTdXoEaK7wxa3VHETncvXMft2TpEXLLKLMCwzRifDAweWpZVoI/VUI6qPpjf7t2egG5a+fbvAe7GSmzAsN2+ri76e5nOvayiOW8Efx+e0i6UNJqpUjo1LC/a9P3Cw==");
 
 export default BedEmpty;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `itunes-note` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/itunes-note?s=brands itunes-note}
  * @preview ![itunes-note](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/itunes-note.svg)
  */
-const ItunesNote: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M381.9 388.2c-6.4 27.4-27.2 42.8-55.1 48-24.5 4.5-44.9 5.6-64.5-10.2-23.9-20.1-24.2-53.4-2.7-74.4 17-16.2 40.9-19.5 76.8-25.8 6-1.1 11.2-2.5 15.6-7.4 6.4-7.2 4.4-4.1 4.4-163.2 0-11.2-5.5-14.3-17-12.3-8.2 1.4-185.7 34.6-185.7 34.6-10.2 2.2-13.4 5.2-13.4 16.7 0 234.7 1.1 223.9-2.5 239.5-4.2 18.2-15.4 31.9-30.2 39.5-16.8 9.3-47.2 13.4-63.4 10.4-43.2-8.1-58.4-58-29.1-86.6 17-16.2 40.9-19.5 76.8-25.8 6-1.1 11.2-2.5 15.6-7.4 10.1-11.5 1.8-256.6 5.2-270.2.8-5.2 3-9.6 7.1-12.9 4.2-3.5 11.8-5.5 13.4-5.5 204-38.2 228.9-43.1 232.4-43.1 11.5-.8 18.1 6 18.1 17.6.2 344.5 1.1 326-1.8 338.5z" />
-    </Icon>
-);
+const ItunesNote = createIcon("itunes-note", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfQAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCAwsGAAE2AiQDCAQgBYMtBzIbBQXInoWxe6IEZWQSzQJycmX34nm+td99s/Mxb3iGpBqqRiJJUzKJtL4l/EOlBPz/X2v3jewiIh8xSa5J3GbPobklvIolSJ6hEs3zVMh+aevP/zX1ouzoAD+I3DXe87YowKhFPW+wPR9FeQo22GygPpZZOzuFQS8ySPrEJxkm/bA5Qk0fTaJD+ebuwGN8q/wxNwxFpwFAxgAAx5fZqTh/pMfQ3f8haSWDQE4ALCA0WD6DwB5e+BEEC6CqQpdkmf4DGQRID9KNFVDR4BrcAKigSBWKNEVtIU9T1ChbDdwwmTfZomWXBZdtlwXNBVMVLZgu0DotOM4GHtg9GhLNGkv4MZPwZrQ4yo679pHFsoejRkzjC5YrpLJRFbabmg+bDzOHRswlZMjot9jv6e29u6tsMbB7smX49f1iayzo7hkJbYyXKoHFXqU90kYNi493trdFQlcny4cEE4VCqK27N7C/UI70xZ0JQpvApNxALS03V6W9mRmvzOkQU7WfjoeioqGfvph4GxtRyQEEQfv+V6Qb+a+myQF+zz7XK+WySNwe6FNAaJZlT/mRBApmEYxX0gl7fEpQXOHAuw75QEAMIKDoMSCgMU0PgWrAEgIdc4IQ6DHgFC9VHTGloINiyANobBgA1ZR90LHn0u0xFV7TeD3hP3opcRyNncf8vH1ZOFsmmqA8bBiMYNuqa6dvcMNBVGrSqF2FcjXaGdMqNejQIE6iY30R48ebLyYcO84fd+ep0KpNjSaNNEwEdl9z1Sm3d8NiOMDKGy0vpGjWtHc0VrR56S4=");
 
 export default ItunesNote;

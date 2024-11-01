@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-euro` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-euro?s=solid circle-euro}
  * @preview ![circle-euro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/circle-euro.svg)
  */
-const CircleEuro: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM128 272l16 0c-.6-5-.9-10.1-.9-15.2c0-5.7 .4-11.3 1.1-16.8L128 240c-8.8 0-16-7.2-16-16s7.2-16 16-16l24.7 0c19.2-46.9 65.4-80 119.2-80l41.1 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-41.1 0c-26.3 0-49.6 12.6-64.4 32l80.5 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-95.1 0c-1.1 5.4-1.7 11-1.7 16.8c0 5.2 .5 10.3 1.4 15.2l95.4 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-81.6 0c14.7 20.3 38.5 33.5 65.5 33.5l41.1 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-41.1 0c-54.4 0-101-33.8-119.8-81.5L128 304c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const CircleEuro = createIcon("circle-euro", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABewAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCCwsGAAE2AiQDCAQgBYMtBzIbDQXIjpQuZyRDaQkiXVn1SEeSGWRmzIBy+4Gij55DYEyZ480Qe/z5v9zzm3Z0gN/o0Ma0veiuKN7reQKJ5msJZb1AMk3AUrdxw4sgayIPcoccQ7whCdahs4M8ns2uqyPdk97Djfam8avOrpM0ZQCiFQBmbVizzEtfxVcR79YeJ961BAExC1QCGTJ0E2CqTKCbXIVcLvgqajX9D6wIIOrhIxPIkeMQTgNykKQ87zq/rGuery/rinVfroj4cM6rcWX2K8s/WP/Z0vdmvuTyrJeXvb9ufVmUd8aVjkXc2eGujmXcO+SRCWXc1/nuvkU8NrCMO9rf3q6I211ub+ZD41j+xOCHe0TO6v1wq4d/997+99RmzHOTW6Z0mzOn25Rbbs5zq9qX/myFaxoamhpa+apFi686+/b7/y4Psqp9+1WDXD6+0qndoWNTY4cdlq526RaGt1td3vy+bzuV54FA0Lzlz+12tJz6f2OZwDfP/Hn/Gam9lKSH0SiBIBtaG2prAokAAKQ4r3eCQLJLgldt5k4BQoEASb1CgExXrQTIFYYIUKeHcQLUK6yRibxJaGebgaSZUyAz3gWQa+dRUGeqN4t67SLLNjZX2Mde0vyheZuqUcNHVpOrZcvgEoiuq1OqbWXgeSODZKv9TjjurH32OuRs5GnLquccM58R83xRZZThRqpMVoW7z9L6itPOOOQL8XWmqM4HA53n0weJnoBytLokEan8lCMPu/MAAA==");
 
 export default CircleEuro;

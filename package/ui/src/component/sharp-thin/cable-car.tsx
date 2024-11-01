@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cable-car` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cable-car?s=sharp-thin cable-car}
  * @preview ![cable-car](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cable-car.svg)
  */
-const CableCar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM192 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM464 240l0 256L48 496l0-256 200 0 16 0 200 0zm0-16l-200 0 0-97.7L497.8 71.8l7.8-1.8L502 54.4l-7.8 1.8-240 56-240 56L6.4 170 10 185.6l7.8-1.8L248 130.1l0 93.9L48 224l-16 0 0 16 0 256 0 16 16 0 416 0 16 0 0-16 0-256 0-16-16 0zM96 384l0-96 96 0 0 96-96 0zm112 0l0-96 96 0 0 96-96 0zm112 0l0-96 96 0 0 96-96 0zM80 272l0 16 0 96 0 16 16 0 320 0 16 0 0-16 0-96 0-16-16 0L96 272l-16 0z" />
-    </Icon>
-);
+const CableCar = createIcon("cable-car", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABlQAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiDCQsGAAE2AiQDCAQgBYMtBzAbiQXIhqDS9X7PSu/KTzKD7IgRMoTPHAJAZsx/ihQRTFxTP6zpAYv8USJnHRalEXU+gQFW27BIBjawCU/AdrbtVRDREG+Ewg3yeM9mdaSH0y3cGd40ftDOWZIsAxBNATBh2aI5Pv40Po24+f8bxE2zEBATQCWQIUNHAUbLBDrKVcjlgk/j///Ff2BFAFGTIMn1HA3xDF6CeS5Jkef1Lay5T32S1aysa5QvjXcW2x5sc3+r+1o+0Lo81TrigeJyy/ucbHV/eaXNg7F4VdjlutIm4sGoEoc3pCw1jCzKZUVZRCwLHGsdLWNxGmsZraLN7LtFUYgUomwUkUVEsT5EGaIom9RSwTkoTnZ7tumzP3W9tfWWJk82/vTTxnl2/8YXudhYVmH7iSbLAm7kFze5E0/h2idNriU5G303xAHjiPWXYUzpr301xFrXmjZFU01frj37nlyfmPD++xvzL/tOIk3XA/Oh9a8DgeDt97LW65qM/rVBmcDn7/7yg/kZ1f7/OP5Kz6KBBIKs9/+9rU7U1OIvAQBIcVS3RE0geUQhudbQAwKEgp5Oago600FTOlfoRdfpbIh0cvsimcjrhZbWYDpp6ACdGeoYnWvpNbrOaFfjNS0jA1YF1JR/xUxTx/CUedWAvv2rkdVmVavCn2SnR1WnLd2Pyq4e+Kit9tnrsC022+HwiDpoTuqIPabukVN8UGWAvvqrjFTdbjzfv9QWBx2ywz57/SyjVO8Huju6P7gHticJ70AFSSJS/acc7bNpw0EAAA==");
 
 export default CableCar;

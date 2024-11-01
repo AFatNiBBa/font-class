@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `route-interstate` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/route-interstate?s=regular route-interstate}
  * @preview ![route-interstate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/route-interstate.svg)
  */
-const RouteInterstate: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 192l383.3 0c-3.3 42-12.4 79.6-27.6 113.3C391 369 338.9 421.2 255.5 461.7c-84.6-37.1-136.4-89.1-164.6-153.4C75.7 273.8 67 235.1 64 192zM272.6 6c-10.2-6.1-23-6.1-33.2 0c-53.2 31.8-107 33.5-178.8 20c-17.7-3.3-35 8.7-37.7 26.9C8 156.5 12.5 249.5 46.9 327.6c34.7 78.9 98.6 139.8 196.5 181.1c8.3 3.5 17.8 3.3 26-.5c95.4-44.7 158.9-105.4 194.1-183.2c34.9-77.2 40.4-168.5 25.5-272.2c-2.6-18.2-19.9-30.2-37.7-26.9C379.6 39.5 325.8 37.8 272.6 6z" />
-    </Icon>
-);
+const RouteInterstate = createIcon("route-interstate", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABXgAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBJAsGAAE2AiQDCAQgBYMtBzcbqwTIjlQ1fwSVrTKrZx6A5wEYbAAUmMDsXsgTW5K75es//9fUC2s6wG90aB16IAUUuarnDTbReYMNZKPhbKK43dm2cCj2SkssyfFojlPOkMebcV450o30Fc6lD40/NXKGpFwGIGoCYOT82VO9VxZlEV+WXia+NBkBMRIUAhkyNBVgiEygqVyBXC4oi1LJ/wcWBBDlMZaYOd3ZE6MBOUhSnldtVqVctXyee1bl+dWqVrvf46c5v8x7Yd78p21e6/PSuKt1L9f9ae7Pc680+HX+r/Ou1r9a96N+rwxq9XzN5/9u+dW6rwwvHce3nDazw/JDQ44MaL9iVTbiu9crVlz36NGk758+06zhrR77eu09P+yjj8+O6r275+6Gt5o98/T7SY8erQMCQbVuv/+8vMaQ/ypWSeC3N/79Pz9YWpJSeh4VJRBkXUpdLEkU6KEAoxT7tIJvEkg6SuBVq7oqQKiMAEl5lQXINFFTgFxlnQUop7m+ApRX2WyZyCsJdS2tIKlqJ8j0cxTk6noRlDPEp1F5dSMzHeHghYdb6jiJjj1W9OzWoxhUDGtFtAYurg4upt0O+8JIRzhpne222WOtNTbaI5hdpqZ7bTVOo8f6oUJP3fRQGKRY7m7VeRTtstvGvmV9ncGK/WEH+/TpHSFImLWXTJKIVNOara7fDvjbBQA=");
 
 export default RouteInterstate;

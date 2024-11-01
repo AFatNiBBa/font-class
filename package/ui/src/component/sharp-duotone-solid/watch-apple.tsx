@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `watch-apple` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-apple?s=sharp-duotone-solid watch-apple}
  * @preview ![watch-apple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/watch-apple.svg)
  */
-const WatchApple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64l64 0 256 0 64 0 0 384-64 0L64 448 0 448 0 64zM64 256a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm42.7-96a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm0 192a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm42.7-96a42.7 42.7 0 1 0 85.3 0 42.7 42.7 0 1 0 -85.3 0zm64-96c0 17.7 14.3 32 32 32c8.8 0 16.8-3.6 22.6-9.4c2.9-2.9 5.2-6.3 6.9-10.2c.8-1.9 1.4-3.9 1.9-6c.2-1 .4-2.1 .5-3.2c.1-.6 .1-1.1 .1-1.6c0-.5 0-1 0-1.5c0-.8 0-1.3 0-1.8s-.1-1.1-.1-1.6c-.1-1.1-.3-2.1-.5-3.2c-.4-2.1-1.1-4.1-1.9-6c-1.6-3.8-4-7.3-6.9-10.2c-5.8-5.8-13.8-9.4-22.6-9.4c-17.7 0-32 14.3-32 32zm0 192c0 17.7 14.3 32 32 32c8.8 0 16.8-3.6 22.6-9.4c2.9-2.9 5.2-6.3 6.9-10.2c.8-1.9 1.4-3.9 1.9-6c.2-1 .4-2.1 .5-3.2c.1-.6 .1-1.1 .1-1.6c0-.5 0-1 0-1.5c0-.8 0-1.3 0-1.8s-.1-1.1-.1-1.6c-.1-1.1-.3-2.1-.5-3.2c-.4-2.1-1.1-4.1-1.9-6c-1.6-3.8-4-7.3-6.9-10.2c-5.8-5.8-13.8-9.4-22.6-9.4c-17.7 0-32 14.3-32 32zM256 256a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M64 0L320 0l0 64L64 64 64 0zM213.3 160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm0 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM96 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM320 512L64 512l0-64 256 0 0 64z" />
-    </Icon>
-);
+const WatchApple = createIcon("watch-apple", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAAB4wAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiETAsIAAE2AiQDCgQgBYMtB1IbcAbIhofn7ao/973qHkC1MKOdaPUhR6r5glI5c5Avsu+IUfsfp55nbAzgv4jGg5J0zddpy9bgsWhNrEDBSy3XW5EClSzANbAOusuTAvjruHpCETfnO9VIz6Wf8Qj/H8D4zYg7SVoygOgGwK6jB6d9ezyOp/i58SHxswMIiN2gFMjIGBdgqywwrlCiUAiOp0aD49FolAQQdfzNGdTRRQTRCShAUtNcFC1dXX0tLX3SHToWLelrq3UUR9pqrad3tHeI9ojDLww9M/CUqv/J1vsHnx5UNo48MBCBmOlB26mznOBBR8htrR0pWtvz4WoE2h7oQczY9qhK/5OO1rWhp82CvDzvrQXvzCjPf3vumwH/lGMfnQllYz84v9+oabDi6KXcYfb73e//Mevni3624xvsxM4nX4lf/v33/97Oe+/t7Lj33o5vy7jhtgwApxo0+WNTM3tVO3dWFXJixzdTsPhskmULj/E0V3zrDSw6e2T69NOnRyLsOLsrDehbOy9ypKDEMCwFOeatveTMUYsAiZTm+i8xfbHXgUBw9cWLt5/dtfXv5rYETn7+16/JD0nj26jS+2iWQJCXNpY6IyqISgAAUtxkdlR2IpB9rJn81HZPCxBaESCpaxUgG9MtQKHVEgFqJq0ToK7VQVkULUK/MwtK2l1L2Xq3UKHfB1Sz1Xf1uv7I74Pvbvb9jRbeX2X2XStXLV9Zbi57JzL/Le4h+1vKyamFN4G5RfZdF7naVW5woQtc6oaKfp3p1o2utH/IvO+7pVWWW6m0Wbl4pSaOqNSvc71Lu4PLL9mi3L6w0E3DqxfZ2URarnYjy0SK3PcORZd9h/FlX9bCQDP4EQEAAA==");
 
 export default WatchApple;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-ampersand` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-ampersand?s=sharp-thin square-ampersand}
  * @preview ![square-ampersand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-ampersand.svg)
  */
-const SquareAmpersand: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 48l0 416 416 0 0-416L16 48zM0 32l16 0 416 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zm144 96l8 0 104 0 8 0 0 8 0 43.3c0 15.6-7.6 30.2-20.3 39.2l-37.5 26.4 69.6 72.5 45.9-58.4 4.9-6.3 12.6 9.9-4.9 6.3L287 329.1 339.7 384l-22.2 0L277 341.8l-30.7 39.1-2.4 3.1-3.9 0-16 0-104 0-8 0 0-8 0-46.8c0-23.4 11.4-45.3 30.5-58.8l39.3-27.7-22.2-23.1c-10-10.4-15.6-24.3-15.6-38.8l0-44.7 0-8zm51 105.3l39.4-27.8c8.5-6 13.5-15.7 13.5-26.1l0-35.3-88 0 0 36.7c0 10.3 4 20.2 11.1 27.7L195 233.3zm-2 21l-41.3 29.1C136.8 293.9 128 311 128 329.2l0 38.8 108.1 0 29.7-37.8L193 254.3z" />
-    </Icon>
-);
+const SquareAmpersand = createIcon("square-ampersand", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABeQAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCHQsGAAE2AiQDCAQgBYMtBzcbJAXIhuf512nd9yVnHDmgIdbAAgF3BOWeVAtcuVssuWOuPXXqec5DAXxOxIM2Ni0NyJi853kEAhjr1TdQC1IrWLWAUubuzm0yh2ivtJQlOT7L8ThBnWecrUd5qnyMx+qb5leL3U1RVQDSAmCP4446xPCrfJV8NHqDfOQgBLIH6AQVKiwTsLNKsEytQ60WvspoxP+BHQEyRn5mATVm4QrcAKhB0avr8dlbTU8OepP1sYNec1KpymSqTCwYNJNSIs1EUiXHDJqByJNrt88x2SsLMz/zsnuOSJNds3HmpWmS5IWNdsqGeTpJjtlp+52eSNJEbp+/waLtd9r+pUUyyGY5dvVMO/P7qo/P/dj0Yy8CL2JHbTtsvagVXw5Pe+y0fv/6vo30Nz3BPvv50j7esY9f7WuBB/xgjvr2vs3Un17oWH8t2ER/y/MvpP0vZ69xvHW0M9fPexgeesZgPRf71P4HAUHo3fbJ+GnTO//fHxTwzbt//grvHn2VYZlBXwGh2ni0sZMzBEYH+Eol11qdIYLiAj30qhMeFxANAooxjYDKUq2AWmMjAT0rbCNgTOMoldTjYp5TOigmXAEq27oF1OZ5DfTs7D19zLxUbkc5DfXri99XQ/tsdVtsunm3YzdNNNqTiLzcqVuW1r82NTbAo851mUtd7Rxnu8DVCrnSIdY1LrGvBe/jgzpb2NTmOjvqtvPHw8c6x5WucoHLXFrW7KQ7r63vWrt/A1QLwd1SoCiktFfXt8kZl1x+zpVPHQAA");
 
 export default SquareAmpersand;

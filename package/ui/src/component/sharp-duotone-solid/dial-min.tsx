@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial-min` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-min?s=sharp-duotone-solid dial-min}
  * @preview ![dial-min](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/dial-min.svg)
  */
-const DialMin: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 256l0 64 64 0 0-64L0 256zM64 64l0 64 64 0 0-64L64 64zm0 384l0 64 64 0 0-64-64 0zM256 0l0 64 64 0 0-64L256 0zM448 64l0 64 64 0 0-64-64 0zm0 384l0 64 64 0 0-64-64 0zm64-192l0 64 64 0 0-64-64 0z" />
-        <path d="M192.8 416.7c62.6 46.2 151.3 41 208-15.7c62.5-62.5 62.5-163.8 0-226.3s-163.8-62.5-226.3 0c-56.7 56.7-62 145.4-15.7 208L270.7 270.9l17-17 33.9 33.9-17 17L192.8 416.7z" />
-    </Icon>
-);
+const DialMin = createIcon("dial-min", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABewAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCCQsIAAE2AiQDCgQgBYMtB0wbJwXIjsQ4JvGLWNAiqF/77Hm794+DuIkCoA2RIlBMClCxI9BnE8Uoo39FsYyj/H//mv9rPr/CowP8RofWTeetxxXL5xOYSPo8CmxCM52B7W1TT8MSZxEWFBGNl+O1OkMef7JTakhX0gdckP8BjB+6OkVSnwGINgCYtnzxIk+qUU3x4f9d4oOFCIjpoBDIkKGHAJNkAj3kCuRyQTX9RzX+KwggKuR5GaigAeuwE5CDJNTmeY96CBtrmvNl8q6G5R/nRLye+jyOT//UcHrhg+L2tOUxMCZHv1gSQmNENCzPaEJXo0vRhC6/Vd+WNi2/+nzY+MGTXnGSE++qZVntNbXsdW3c+GLXLrQFmE9KyimVUx+zdoz8x49xeuoAm3o5EAg+f/12otaTftc1JvDl3t/jD8n/J6lMLaiTQJAN+j/ImlRCKgUAIMVBfVPpEAKZqWrppza5KEBoQICkokGATHdtBMg1GChAjV5GC1DRYLFM5PVCB2srSJrsAZkxDoNcB3dAjUlexxUdIvM2xleYx17ibAvN2lYMHzKsmFAMC4V1IIrXJxbLZr+DYdAfT9pol53222C9LfYbYq9F2QE7zJ7hs3xRYbghhilMUGzX94eX2WCvfbbYZWfaZKLifNDPwfns/ugkSjrCjkxGpMja/AaQDd6xZedgt9XbNfwFBQA=");
 
 export default DialMin;

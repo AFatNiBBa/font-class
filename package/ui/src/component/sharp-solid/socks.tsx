@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `socks` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/socks?s=sharp-solid socks}
  * @preview ![socks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/socks.svg)
  */
-const Socks: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 0l0 64L128 64l0-64L288 0zm0 96l0 160-76.8 57.6C179 337.8 160 375.7 160 416c0 21.9 5.5 42.6 15.2 60.6l-21.6 16.2C137 505.3 116.8 512 96 512c-53 0-96-43-96-96c0-30.2 14.2-58.7 38.4-76.8L128 272l0-176 160 0zm32 0l192 0 0 272L345.6 492.8C329 505.3 308.8 512 288 512c-53 0-96-43-96-96c0-30.2 14.2-58.7 38.4-76.8L320 272l0-176zM512 64L320 64l0-64L512 0l0 64z" />
-    </Icon>
-);
+const Socks = createIcon("socks", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYAAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBRwsGAAE2AiQDCAQgBYMtBywbwwQRlZobyH4mxGOgvRsaK1JJfV2ztGBMmXgmHr7fzzz3/ZfM5mcLAKpdW0LWrAA9gSKIKpIqG7FTu7OyOgFQaO8Q5Da09I+Ixy1vjaMRitvENc///OkBi/xROvVBIoGiFnXeOJtYWILPywY20wnYdmdri0O0T9IylqTfseNzgxwfi/MqpFvpLy6UD40OA5wnqRUAojsAZm1Ys8y39miP+NN8Lf5YgoCYBYYLFCgwWICpCoHBsuHIsqA9ms3wH4gAooofLYGMKuZjBSCDJOdcG9CrVq90yevrlfKAUEZEnbA2/g4/PWB0PCnfjGkMvT1lg0rAVllPsVYxNpRETg+FkY3ujc4Rf/u/hn2didg7M93Zeef0pZP6dh3RUbk8/HSj0dJ12abZnrkz/BtvdvfwuGZ+HUb3mumbmUAg2P39ox3dpv5vqSfw78NO9VfU/GZJDbRIICjamm1bE0gEACDFMSMTBJLpMnzXVtcFCCUCJFWlAIVBuguQlcYKUDHUOAGqSmsUIteE3rZ1OGl1EC6MdwLOensJV0z1w6vqHYUvMZ7AfOUSlZaA2kWeZAiWuca6B5VmJdum98ceH44a/bG/XTu9ArrL8Nu0BaovkicZguPqcX/d3c907HkeyX3X++3hPjgWxi1k6wmyyX2OZnkAAAA=");
 
 export default Socks;

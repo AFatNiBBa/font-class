@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `forward-step` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forward-step?s=duotone forward-step}
  * @preview ![forward-step](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/forward-step.svg)
  */
-const ForwardStep: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M256 96l0 145 0 30 0 145c0 17.7 14.3 32 32 32s32-14.3 32-32l0-320c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-        <path d="M18.4 445c11.2 5.3 24.5 3.6 34.1-4.4l192-160L256 271l0-30-11.5-9.6-192-160c-9.5-7.9-22.8-9.7-34.1-4.4S0 83.6 0 96L0 416c0 12.4 7.2 23.7 18.4 29z" />
-    </Icon>
-);
+const ForwardStep = createIcon("forward-step", true, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABZgAAAHoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBJwsIAAE2AiQDCgQgBYMtB1QbzQTIjtMd9UalGUI8/P9a6H3zZzcANAFGRQQOCBWxS1RUHBvBLaueKtpE+H2fOvU856EAPohkjvOALJAxxnkEcj41Ho9Q0ha4pjWw7k0zSsb+yVRNJn9qx9cJecxMR5XIbmWfcIH/BzB+18xRMtUSgKgLgLHzZk3x5nN8zuJT5RXxyWQExDhQCCQktBRghCTQUq5ALhd8zioVPkelUhBAlPGHJlBGjsEYBchBJkSeN2peo1Qrn1ujVL3zwybzoklENI65cb3Dg6ZZ3Oq4SBDiYKNrNc40uREpDjW+Xv10w6vaPav77M+2n9Z+Ur/zP932VGtP0e4/naUxUlWVZZfA0toltU+erF2kMXIdCAQvBoz7aVmdEX+rkYGvr/8r/ZBU/okx2TNUlYEg9aj0sDj2QowRAIAs9moXYwgCSXMZvGtN1wUI1REgU1ZdgKSFugLkqusuQElrAwUoq26WJPJqQkNLKsjUtAMkg+wDuYZegpIR3mplDSMFD371+N8tZpKGJk4VfXv1KYYV04AQ8YDScHixrHTZmwtd4dBa22y12xqrbbBbITtNMffYYpIFT/RFhb566aMwTOGOb5m5qO20y4Yx5R8zXLFf7WKvXd8V5skA/Y7dlYgsUsOXxvaMdKFnHJYbd6g3BwAA");
 
 export default ForwardStep;

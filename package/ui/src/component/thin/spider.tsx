@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spider` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spider?s=thin spider}
  * @preview ![spider](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/spider.svg)
  */
-const Spider: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M372.4 .8c-4 2-5.6 6.8-3.6 10.7l46.4 92.8c4.4 8.7 3 19.2-3.4 26.5L328 226.7l0-82.7c0-27.4-15.3-51.2-37.9-63.4c-1.9-1-4.1-1.2-6.1-.6s-3.7 2-4.7 3.9L256 127.1 232.7 83.8c-1-1.9-2.7-3.3-4.7-3.9s-4.2-.4-6.1 .6C199.3 92.7 184 116.6 184 144l0 82.7-83.8-95.8c-6.4-7.3-7.8-17.8-3.4-26.5l46.4-92.8c2-4 .4-8.8-3.6-10.7s-8.8-.4-10.7 3.6L82.5 97.2c-7.3 14.5-5 32 5.7 44.2l83.1 94.9L50.8 204.7c-7.8-2.1-14.1-7.9-16.7-15.6L15.6 133.5c-1.4-4.2-5.9-6.5-10.1-5.1s-6.5 5.9-5.1 10.1l18.5 55.6c4.3 12.8 14.7 22.6 27.8 26L167.8 252 46.7 283.9c-13.1 3.4-23.5 13.2-27.8 26L.4 365.5c-1.4 4.2 .9 8.7 5.1 10.1s8.7-.9 10.1-5.1L34.1 315c2.6-7.7 8.8-13.6 16.7-15.6l103.1-27.1L83.7 365.8c-7.9 10.5-10.1 24.2-5.9 36.6l34.7 104.1c1.4 4.2 5.9 6.5 10.1 5.1s6.5-5.9 5.1-10.1L92.9 397.4c-2.5-7.5-1.2-15.7 3.6-22l50.2-66.9c-1.7 7.5-2.6 15.3-2.6 23.3l0 8.3C144 400 194.5 448 256 448s112-48 112-107.8l0-8.3c0-8-.9-15.8-2.6-23.3l50.2 66.9c4.7 6.3 6.1 14.5 3.6 22L384.4 501.5c-1.4 4.2 .9 8.7 5.1 10.1s8.7-.9 10.1-5.1l34.7-104.1c4.2-12.5 1.9-26.1-5.9-36.6l-70.2-93.6 103.1 27.1c7.8 2.1 14.1 7.9 16.7 15.6l18.5 55.6c1.4 4.2 5.9 6.5 10.1 5.1s6.5-5.9 5.1-10.1l-18.5-55.6c-4.3-12.8-14.7-22.6-27.8-26L344.2 252l121.1-31.9c13.1-3.4 23.5-13.2 27.8-26l18.5-55.6c1.4-4.2-.9-8.7-5.1-10.1s-8.7 .9-10.1 5.1L477.9 189c-2.6 7.7-8.8 13.6-16.7 15.6L340.8 236.4l83.1-94.9c10.7-12.2 12.9-29.7 5.7-44.2L383.2 4.4c-2-4-6.8-5.6-10.7-3.6zM222.7 99L249 147.8c1.4 2.6 4.1 4.2 7 4.2s5.6-1.6 7-4.2L289.3 99c13.8 10.2 22.7 26.6 22.7 45l0 109.1c0 2.5 1.2 4.9 3.2 6.4c22.5 16.9 36.8 43 36.8 72.3l0 8.3c0 50.4-42.7 91.8-96 91.8s-96-41.4-96-91.8l0-8.3c0-29.3 14.3-55.4 36.8-72.3c2-1.5 3.2-3.9 3.2-6.4L200 144c0-18.4 8.9-34.8 22.7-45z" />
-    </Icon>
-);
+const Spider = createIcon("spider", false, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAABvQAAAL1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDcwsGAAE2AiQDCAQgBYMtBy0b8AXIHofpBi3/RKNM3CF4/t+uuu9XDeAaUd0DaAFkoCJlRrZB0mdTIdztwXPb/tM1yrLtF41ULNDiyArRn7jm+VvT/wbyZTywCUUmRlNR5vkEBjjMxhYa2IPiGGee6RJaVSa/mYmyuEb18erjtyPQ5T6YwAbUCfQB2Hd9qXwmgJ2g0DQAAMQdAAAo7zY388QiFpEP1h3kA42AAEgFAAYCaIAGBCMAFKEhQDA6BqCjI2ARq7X8BxogACC2GKjQ65r9EfgB4xRQKF2/opE2LnpXv4/j9GGfXI5QmYicTUbv3tuRFDnKjN5XMJAuOcqWcsxFMznO59XNREKEfUI5oSKtQy5zgahr8ItFTMkgUhEtSy09DJAz5pJ9Jm5hULYxWyRsRimnhEK8lQ4RiuSkhli3XBPjXaqAEFMyiPQXZ+kZ6UecdrGxXOGBbKXvECCnjTnrSFhDoZxLJxE5pUs33devPkx9YMUjc0xyP4tPmYcxE5gZbhiec8zhaRjhmYFmzMOcWpzcT4x5LDt5gGu/TUOsCeVuoy8xI2N2MYxXrw1jbRjV47HYjo1E+1H4fCqQ6kFumSJm8Flqso2YoXBdejkJzva4/P9nsfz772KPc0JGBbOFEdMzkfAZTLeKeM77vDBWmmPXsmOwMy2N8eWvCcU04c+xlI5s05HR/badF2HjtZ9h50XoEfEh9tjeWLZubR+1tSckPkJfhPMwAAggcHqfxz/sVvTX3kkB8One97fKKjc9VqJuArBHASCgJVkdBhRWE6IEIapkNREBxwigeI8CgN+Zo9mE4AgvqbDFkdQIwp3UcSSRtCGUbAm5xIyG6A4I3gwCUuHMMlIjh02kjjd3SRuKeB21xVu0Ey47n7IfzNQ1HqgeZ6SnpBkFxmfRIz+0kj5caNDmuNW1KR4zmWIJi1nJJBPMstLhy2lOrGIRNRFWDYcYpJNCGgYFGOnKo6pLWSxnBbPGxflRCjHW++NYHXeOh1VhAsnArIgKRdmuWDo7MbkcAA==");
 
 export default Spider;

@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shirt-tank-top` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt-tank-top?s=duotone shirt-tank-top}
  * @preview ![shirt-tank-top](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/shirt-tank-top.svg)
  */
-const ShirtTankTop: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M112 32C112 14.3 97.7 0 80 0S48 14.3 48 32l0 32c0 91-19.2 143.6-33.3 170.1C6.7 249.1 0 265.5 0 282.5L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-165.5c0-17-6.7-33.5-14.7-48.4C355.2 207.6 336 155 336 64l0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 48c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-48z" />
-    </Icon>
-);
+const ShirtTankTop = createIcon("shirt-tank-top", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABbgAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBPwsIAAE2AiQDCgQgBYMtB1gb6QTIhoePuc8/N8lSGVMiUsCkCEkCqTqWneqdWvif9Zs69TznoQA+x3VszHlAFvic5xHIeWhMGrNWaoEqFFPs7mwUx7JLSVpkLTkuluOxQxbb0/2KSK4kX3GK/gcwfqpvP4myFEBUA8Cw6ZMneV8e5Ul8LbwgvpqIgBgOcoEUKRoJMFAq0EgmRyYTlCeFAuVRKOQEEMXovSkoRoqRGA/IQILIsoEViypn0+ijFWbvqRNxscLRWueJb42u17tcT1xp96RV5XjU4VnDiKsNrja5OS1iTx3FnettH/d81f5pk2j+tNrT382+Lvtq/a0qhzlcBbEwI2fE5Sd3v5c9UKF69dvchsoKD5R9v/vkshE5mXDf7SqmLa1Wbem06AoEgv9qRM/5VQf+X1oxAT/e/fmv8nLhfexOnqJUAoK0Y6GjObEbPDoAKYltmgtPI5AaKAH9rEouChAqIECiWAUBUg1VEyBTQQcBijTRS4BiFUyWiqxMqGVuA4lKNoJUbztAppbnoMhAH6RitSI1JMoMqH9c/GgOjSrKu3XumvfPp5pK2waB2QG5Wmi7LXrawahl1ltni6WWWGkLQzaZpG611mgJHuVBuW466yrXX75s3vdPs9Qmm6203rqUZ4B8v9jWNjm8HZSTALofwURKJJHW2bxi5aYtnd4mlsX1GzoZZVC9EXsDAQAAAA==");
 
 export default ShirtTankTop;

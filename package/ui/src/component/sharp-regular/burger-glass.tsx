@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `burger-glass` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-glass?s=sharp-regular burger-glass}
  * @preview ![burger-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/burger-glass.svg)
  */
-const BurgerGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64.4 208l20 256L256 464l0 48L40 512 3.8 48 0 0 48.1 0 335.9 0 384 0l-3.8 48-9.9 126.7c-24.6 8.7-44.5 20.5-60.4 33.3L64.4 208zm-3.7-48l262.7 0 8.7-112L51.9 48l8.8 112zM336 301.1l0 35 256 0 0-35c-.7-1.3-1.6-3.1-2.8-5.1c-3.5-5.8-9.3-13.8-18.5-22c-3.1-2.8-6.7-5.7-10.8-8.5c-.7 8.2-7.6 14.6-15.9 14.6c-8.8 0-16-7.2-16-16c0-4.9 2.2-9.4 5.8-12.3c-14.7-5.7-33-10-55.7-11.3c1.2 2.3 1.9 4.9 1.9 7.6c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-2.8 .7-5.3 1.9-7.6c-22.7 1.3-41 5.6-55.7 11.3c3.5 2.9 5.8 7.4 5.8 12.3c0 8.8-7.2 16-16 16c-8.3 0-15.2-6.4-15.9-14.6c-4.1 2.8-7.7 5.7-10.8 8.5c-9.2 8.2-15 16.2-18.5 22c-1.2 2-2.1 3.7-2.8 5.1zm0 115l0 48 256 0 0-48-256 0zm-48-40l0-8 0-8 0-64 0-4 1.3-3.8 22.7 7.8c-22.7-7.8-22.7-7.8-22.7-7.8s0 0 0 0c0 0 0 0 0-.1l.1-.2 .2-.4c.1-.3 .3-.7 .5-1.2c.4-.9 .9-2.2 1.6-3.6c1.3-3 3.3-6.9 6.1-11.5c5.6-9.2 14.4-21.2 27.6-33c27-24.1 70.7-46.1 138.7-46.1s111.7 22 138.7 46.1c13.3 11.8 22.1 23.8 27.6 33c2.8 4.6 4.8 8.6 6.1 11.5c.7 1.5 1.2 2.7 1.6 3.6c.2 .5 .3 .9 .5 1.2l.2 .4 .1 .2c0 0 0 0 0 .1c0 0 0 0 0 0L616 296.1l22.7-7.8 1.3 3.8 0 4 0 64 0 8 0 8 0 8 0 8 0 96 0 24-24 0-304 0-24 0 0-24 0-96 0-8 0-8z" />
-    </Icon>
-);
+const BurgerGlass = createIcon("burger-glass", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABpAAAAKkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDRwsGAAE2AiQDCAQgBYMtBzMbygXIjsK2bTNUxBDHZil+hnj4WOP35+7uE/HFXZtYh6QhUqmukchQNfFFQYK5zPUJ2cGIJMq5Gd36yQfhxnIsNApZ5TpxzfPXaHpdBcFQItsaPPN8ArsBzTrogVc2nE0UZ23OU9RB1NvkiSfosWgYn4alI2Txd1zFQnJT+QZXxofGVxIuI1GQAohqAEy7XLHIQ110kTfGK+INJxAQ00AukCJFuwATpQLtMjkymeCzGP+X/8CcAKIQ7z0BGYrwFHwEkIFEQZY1lQwu2VVmqchWl1lK16xavapMRGmsj2yUVbTHynipOzsryivWhDtWbRMqIuJCVGtcZf+ifiWsptvRS+BLT3lXRgub2fLJIZhoil5xyxNaikiUiWMdw8EDnsa8z3k2ee330LBsUBu0UEWLSIQ5Wjn6REMAXVoeMaf77erH792+r9+y8TNkhG2f9X2i9IENQ5dOoeSsiSd+G1LIZPERzaa/9qYHtqYHkpq5b3dWtP/rXvuKtTXBrPKz8Jhra9auKB7znz6d8fawVk4MBT9D+b14sqlkUnv4NTRH5kIQgvrRZ7oPOtrzvL1jWPczs+slCHTYk8VTmakUo1tpdsxtXkrFHASCXx9v9buqmv4qLkvAl6+fP8HN/z9MVOURFEtAkA78v22jogJFWoBMEqd1N74okLjLgu9a7hoBoRQBEoVKBUi1qRYgU2qAAAU6jRKgUKkVpCIrEeptOtiJcsfYqdHOsDP17rALTPQiXag+Ul9We6L6VzLDbA3MGpYPBg/Nx+eXeaJxT2Xrn5BvO+qna10/zLSbIxzmJLvYyT5OKuo4i3KnOMRsC5nFD8kNM9hQufHyx6XPk1ezi+OcYB9HONwHmSB/P9LXabt1P7gTlDncokRCJOXbTx3fs+v4oI8XAAA=");
 
 export default BurgerGlass;

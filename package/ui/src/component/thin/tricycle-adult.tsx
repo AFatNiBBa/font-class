@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tricycle-adult` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tricycle-adult?s=thin tricycle-adult}
  * @preview ![tricycle-adult](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/tricycle-adult.svg)
  */
-const TricycleAdult: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M296 64c-4.4 0-8 3.6-8 8s3.6 8 8 8l39.1 0c7.9 0 15.3 3.9 19.8 10.4l94.2 137.4L393.5 302c-8.5 11.3-21.8 18-36 18c-3.1 0-6.2-.3-9.2-1L158.8 279.4C142 264.8 120 256 96 256c-9.9 0-19.5 1.5-28.5 4.3L9.6 248.2c-4.3-.9-8.6 1.9-9.5 6.2s1.9 8.6 6.2 9.5l37.2 7.8C17.3 288.7 0 318.4 0 352c0 53 43 96 96 96s96-43 96-96c0-19.4-5.8-37.5-15.7-52.6l88 18.4c4.9 10.4 7.6 21.9 7.6 34.2c0 44.2-35.8 80-80 80c-11.9 0-23.2-2.6-33.3-7.3c-4.5 3.9-9.4 7.4-14.7 10.4c14.1 8.2 30.5 12.8 48 12.8c53 0 96-43 96-96c0-10.6-1.7-20.7-4.9-30.2L345 334.7c4.1 .9 8.3 1.3 12.5 1.3c19.2 0 37.3-9 48.8-24.4l52.4-69.8 24.6 35.9C461.8 295.2 448 322 448 352c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-17.3 0-33.5 4.6-47.5 12.6L368.1 81.4c-7.5-10.9-19.8-17.4-33-17.4L296 64zM464 352c0-24.5 11-46.4 28.4-61.1l45 65.6c2.5 3.6 7.5 4.6 11.1 2.1s4.6-7.5 2.1-11.1l-45-65.7c11.4-6.3 24.5-9.8 38.4-9.8c44.2 0 80 35.8 80 80s-35.8 80-80 80s-80-35.8-80-80zM95 432c-.8 0-1.5 0-2.3-.1C50 430.2 16 395.1 16 352c0-44.2 35.8-80 80-80c21.4 0 40.9 8.4 55.3 22.2c0 0 0 0 0 0C166.5 308.7 176 329.3 176 352c0 44.2-35.8 80-80 80c-.3 0-.7 0-1 0zM55.5 109.3c-1.5-4.2-6.1-6.3-10.3-4.8s-6.3 6.1-4.8 10.3l23 63.2c6.5 18 21.8 31.4 40.5 35.5l86.3 19.1c4.3 1 8.6-1.8 9.5-6.1s-1.8-8.6-6.1-9.5l-86.3-19.1c-13.4-3-24.3-12.5-29-25.4l-23-63.2z" />
-    </Icon>
-);
+const TricycleAdult = createIcon("tricycle-adult", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABrwAAAK5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDHwsGAAE2AiQDCAQgBYMtBzUbpAXIHoVx41MiNBGBpsVnuB1riyDar/zq2XfEexsABJuzYRfWgI5AspBhS18RHL+/mrcAmoC0J7BB6ecT0jqeVbekgw044hQGfBFY+uPenf9pUYDPKJQ1J441OIGA98C487QwSxSzzcbB2KAI7JPEkEkiEvXqJ3t8ukMWfxtGJF1M73CWPzS+aWGXJJcDELUAwIRli+Z4/xyfI979f0O8MwsIiIkAaA8hhxxaQ2A0vEBrBO2BTCb4HP9b/wPbgwCiGL1RAhmKcRcvABlIsixbK20loBdVZUvpxPJte/n9RnqcbGyJZnTUGSu0Rnkols/EQX6v0Y0etj/vURpy16vSbqtlS+y70r04GCvs5XMVI1lIx1Vc69UWZhfeesNFz/JQrHNrHHSlrbjsFUhodlhojULFPUvYJsq/hbNt/4nyg77IK8M0+VbsbJ3OxhOx8lGvHV3sEnqlfEuHolxb/sG7vdPt2Ppi0not5o6e44bOUJ1fFHvuBvvja74u218o2dDmJE+5ebOp6ebN0ra/LeNZb4itLbX1/z00u5VyrHbOe/NLqoXBaUtobX1MvqRltumJF+O7XWtHvNo7LrVxcpcyhdpYO7I00NKRWhjm66Ir02SaZsDRhF0Quk4csmFh8Sw8vUz9S57VWi91aB+AQNBjEH1PX03o11J6Al8f/3J+UElN6SZKJRDkev9v0p02jZHiu11xFBT4okByVYYslc5FI6GcDkmxcshphQOZcr2gSFtupnPxIniRlQl5PYCk0gHIGWoNMnlXUGS0v2CxfOTylp117N/GBFMlMmVS+wEWmywguyw4OanIXAeDMrei+2pr0GODUXNmLRsxbILpgrqoJrJiRsaipP2QjJ2FjUyALFx+XN1qxKIlE+bMbuMEye636Kza7fVQ4xDNgWYliUjVhxd3TBdRnykKAA==");
 
 export default TricycleAdult;

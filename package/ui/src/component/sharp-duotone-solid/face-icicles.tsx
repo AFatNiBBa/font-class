@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-icicles` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-icicles?s=sharp-duotone-solid face-icicles}
  * @preview ![face-icicles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-icicles.svg)
  */
-const FaceIcicles: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256c0 19.7 2.2 38.9 6.5 57.4l18 107.9L28.9 448l54.2 0 .5-2.8C129.1 486.7 189.6 512 256 512c33.3 0 65.1-6.3 94.2-17.9l7.8 17.9 27.9 0 15.4-35.2 6.4-14.6c8.3-6.1 16.2-12.7 23.7-19.8l.7 8.3 5.3 61.2 53.1 0 5.3-61.2 14.2-163.2c1.3-10.4 1.9-20.9 1.9-31.6C512 114.6 397.4 0 256 0S0 114.6 0 256zm32 16l48 0c-8 47.9-16 95.9-24 143.8L32 272zm80 32l56 0 0 40-56 0 0-40zm0 56l56 0 0 40-56 0 0-40zm96.4-152a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM184 304l64 0 0 40-64 0 0-40zm0 56l64 0 0 40-64 0 0-40zm80-56l64 0 0 40-64 0 0-40zm0 56l64 0 0 40-32 48-32-48 0-40zM368.4 208a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM344 304l56 0 0 40-56 0 0-40zm0 56l56 0 0 40-28 64-28-64 0-40zm96-136l48 0L464 448 440 224z" />
-        <path d="M176.4 240a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceIcicles = createIcon("face-icicles", true, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABygAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhESEGAsIAAE2AiQDCgQgBYMtB1QbPgbIjsN0+yJPE2aqqqrmK4J6XW89T/prr2TzJ5CR8AAgA+YQgCKk1JBeXUjZ+vzfz/s+RVHSb/t/xWlRtD2dJek0Emi846XvjCbUgG/icvoDZPuY9MDvjzK2fWvhmBrvwQUecFY0vcsCCSjAJ83AGpw34ZBDGkL6A/L4NbtZE+mJ9D3ui/4HMP7S4WaSegYghgBgxb5dW3xxnBxP8X3jDPG9zQiIlaASyJChW4DFMoFuuQq5XHA8NThwPBrchwCiJnpxBmoYihP4HwA5SJKBeT58+Ix6vT4ceSWVlv3KpoH53nAU++5qI/FY3NC6Lu5sXjavWlZlOT0X13cMw40y2uKPPYtFrd/H6cfazBiBjIp9l8SfK2/9B312Wf0ySMqifLo7jdA9kUwUEUKx7/pmEg8Xd7auWzdtm/KulpXdB7rM9p4cUy/lp8dMftnuoCNfGnL6O2Bjhtd/0m/n9kGlxoCBkDbj+elbfdE7H3qBheZK1iw/K0pvXoZuJ13sg5dEm8212cAX9Q2xrr3jgRsaWOeGB1zHukYhAndRbfdt8+a3jDff+PlN/JTHvnG+ML5Lt52yPMmMt/yI02zZNm+aboDz2efc6/J85nOf8+C26Umm7Rj48yAQfHn9/Tgyyv+ISgInP/q/UP+OGhdBegn9JRBkkxspDidAIgAAKa42MnE/Apm3DZR86gCPChAKBEhqCgEyXYYIkCtMEqBJrzkC1BR2yUReF5od6flkgMv4zFzX8Llmb/NNFvuqVtMcmam3zKz1z5m/dgyvOVTNmDq9WlhttrW2QTb0+qLqdGT81XxsAjzpbJe42JXOcqbzXDkiL7eleZWLrN1TrvluZYappqssVN3uPff3jjKXu4Ib6879XRap3i+Md/X+7AkwniSqMx3JZESKrNlPpaecdwYtXnjWFVMc0GTrgutXAAA=");
 
 export default FaceIcicles;

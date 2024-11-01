@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `earth-oceania` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-oceania?s=solid earth-oceania}
  * @preview ![earth-oceania](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/earth-oceania.svg)
  */
-const EarthOceania: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM208.6 357.3l-39-13.5c-6.5-2.2-13.6-2.3-20.1-.3l-15.3 4.9c-18.5 5.9-38.5-2.4-47.5-19.5l-3.3-6.2c-10.6-20.1-2.3-45 18.2-54.7l35.3-16.8c2.3-1.1 4.4-2.8 5.9-4.8l5.3-7c7.2-9.6 18.6-15.3 30.6-15.3s23.4 5.7 30.6 15.3l4.6 6.1c2 2.6 4.9 4.5 8.1 5.1c7.8 1.6 15.7-1.5 20.4-7.9l10.4-14.2c2-2.8 5.3-4.4 8.7-4.4c4.4 0 8.4 2.7 10 6.8l10.1 25.9c2.8 7.2 6.7 14 11.5 20.2L311 299.8c5.8 7.4 9 16.6 9 26s-3.2 18.6-9 26L299 367.2c-8.3 10.6-21 16.8-34.4 16.8c-8.4 0-16.6-2.4-23.7-7l-25.4-16.4c-2.2-1.4-4.5-2.5-6.9-3.4zm65.2-214.8L296 164.7c10.1 10.1 2.9 27.3-11.3 27.3l-29.9 0c-5.6 0-11.1-1.2-16.2-3.4l-42.8-19c-14.3-6.3-11.9-27.3 3.4-30.3l38.5-7.7c13.1-2.6 26.7 1.5 36.1 10.9zM248 432c0-8.8 7.2-16 16-16l16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16zM431.2 298.9l8 24c2.8 8.4-1.7 17.4-10.1 20.2s-17.4-1.7-20.2-10.1l-8-24c-2.8-8.4 1.7-17.4 10.1-20.2s17.4 1.7 20.2 10.1zm-19.9 80.4l-32 32c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l32-32c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const EarthOceania = createIcon("earth-oceania", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABpAAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CCfQsGAAE2AiQDCAQgBYMtBzQbgQXIBuJ5//Ln3EWkReIXgh9SBVWWO7Zyt3/cz/N/HrlZPrCJDamCKr1Cu88nMMBor9KBNOhMJ2CzLYdLEsFzi0PIUSgiDVvSsLQCermgm4cB1Dr1EFiy7ko+4cM8UDjoAAAQdwAAoLiztZ6r7+W9yAPbKZAH1AICIMUAaAigE70/4ZCnF/Xp0cDE9Qi8F5vtP1ADAQAxgk9TAOgBe2AzcAAA0AOgMOr1fnkWF1dXJ4OLvsPJ4Nj+plHkSekNmV1yveFxx8u6h0VXmVV8rf5Re0dGesZqk0lWWlZbLLLausaaK2usVlkTuctsllXmVc51WmD28UXLKmbVeGsd51siBlk6o2OiV5lWmhyF9Tk9b6bsMXftWqclvZPFuI+vj9HiG3nNbVGxUc5ZbY2VPVeZQva77/8S/HDoQ2yF5SyFZbn+paX+ucuWlsPZmz1h/WjccsWKX7y8dXN0OuMaG/5pBIdUcEnTDpUTVnRtxGFCjXYR68gZbmG+m+uCy1w1u+xeQnJw0esOnDAsK2prIA4Dt7PL0WfHUEq/+miu791572r20/OmyeD8V897TyP+1os+Xo02xO3bt369DbseAAQQuPH2r2c/t7w/9k4KgI/nv/3XnxG2qwq1H7BHASCgi7PF0VsBoEAAAAAAJVMJUQACKFZjBFrnBJGQ4AgOCiOOoMMPd9DjSCwYCCRdVpzeig7ROyCY6COgcGYC6MhgOugxcQIM5HHHb8QkujFVDJniLzFtBSPl/bTkhCQtRwuzTuXkyY7uXK1siJqqVdGylKGMYyyTGcJgRjCZ6InUh6YwhooMLeeLaCSTQBIaOWjtwldtB/EmMokRNsb2e8lFe94TxdS8cbSYFZCYQoJCgSiXd18f/30aRwwAAAA=");
 
 export default EarthOceania;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ban-parking` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban-parking?s=solid ban-parking}
  * @preview ![ban-parking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ban-parking.svg)
  */
-const BanParking: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M412.5 367.2L342.3 297c20.6-17.6 33.7-43.8 33.7-73c0-53-43-96-96-96l-72 0c-9.7 0-18.6 3.5-25.5 9.2L144.8 99.5C176.1 77.1 214.5 64 256 64c106 0 192 86 192 192c0 41.5-13.1 79.9-35.5 111.2zm-45.3 45.3C335.9 434.9 297.5 448 256 448C150 448 64 362 64 256c0-41.5 13.1-79.9 35.5-111.2L367.2 412.5zM296.6 251.4L237.3 192l42.7 0c17.7 0 32 14.3 32 32c0 11.6-6.2 21.7-15.4 27.4zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM232 325.3l-64-64 0 26.7 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-26.7z" />
-    </Icon>
-);
+const BanParking = createIcon("ban-parking", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfQAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCCgsGAAE2AiQDCAQgBYMtBzIbDAXIjtRG94xd4uH/16zu+1VpSHqQ64xiBIe4jC52HQFLAp0MqcWf/2s+v+dHB/jBTuzQorDSIwGrVs8nMLHCKIIosJlOwGbt7Jf/QTiT0KcgGbY3jPaQxzPZBSXS/eld3Bo+NH7VyQWSxgxAtATA5JVL53vxx/gx4p1axDvmIiAmg0IgQ4auAoyTCXSVK5DLBT9Grcb/gQUBRB28cgI56rEFxwE5SEp53rHc1KVVpdQsX1EplbeuWL7imR6P9KmOKMe1thPihZmfLf5o+WPjxj077fMlH694cuL2FUsWL6nE9XZ3u6/tqi8WRnww9ZU4O+XlBe+v+HTeu5NedGbyS/PfW77iCHFGtqpc73BvRM9qy+rv3t3xrocWzZiejq40NVSrZ2Zpcd8y//y4OJYvj8XNe3z3d00MLFemP/40Luir+ZUrzePLXvl0t3H72K5Tp3Yde/tt0+k0ax2ersHsYtIqHlFdgDjpl48//G9ji3H/N1QS+PnpP88/I7UXk1RFgwSCrF+tn3UJJAIAkOKEngkCyRoluNYm9wgQygiQ1CkLkOmipQC5sr4ClHQ3XIA6ZUtlIm8U2lrfQNLkMMiMcBLk2noKlIzzhlenbWTWRtoK+deLm6Gh6YuKwQMGFWOKYapQBoS72bHFNt/rhLR601o7HHTAMdtts9sxhRwxPzxuvxkzeLovKgw2wCCFMYrj4n75CtsdcdRuBx3w84xV3Ld7OTEf7k1SAswhNiWJSJUtmw/0P7T5yLsFAAAA");
 
 export default BanParking;

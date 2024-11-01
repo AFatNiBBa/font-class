@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `card-diamond` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-diamond?s=regular card-diamond}
  * @preview ![card-diamond](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/card-diamond.svg)
  */
-const CardDiamond: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16l0-384c0-8.8-7.2-16-16-16L64 48zM0 64C0 28.7 28.7 0 64 0L320 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zm180.7 84.7c6.2-6.2 16.4-6.2 22.6 0l96 96c6.2 6.2 6.2 16.4 0 22.6l-96 96c-6.2 6.2-16.4 6.2-22.6 0l-96-96c-6.2-6.2-6.2-16.4 0-22.6l96-96z" />
-    </Icon>
-);
+const CardDiamond = createIcon("card-diamond", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZQAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBPgsGAAE2AiQDCAQgBYMtBzMbwQQRVZonyH4m2HT4FXqKWZnRypZbNCuT+kb00rN4GX4yQpJZHj7W0vd39y7AaIvgMlXEwjJ5IJRAKq5kTECWVGsvAJpZ9eG5AttEqoe2iHiEDI1mUUQe8+Hvb57/8yjAZxTaHhrIOi+a8zyBBMvzhLICyjQBKzuUg7qNP6wosioG0SPH0IaheUAWR+OCHMnNBM63m8ZPLc6RyKUAohoAKzauXWNyKqYifhTeiR8mEBArQLdAihTtAiyWCrTLdCOTCaaiUMA/EAKIPD48ARlyWIkJQAYSaZZVt1aX5SqyDWW50q1X6qm42sDG9SY6rjUyq2+PkfF6iI2nI28LFTeG//1MPBv9Wun11xviuFofxZXGJK41pb1Vf797tCw7P1V5SuUUvlUoFal5wIMasfQUOITfRu/LLHPr1lw9DwSC2eld37nF/4rLEjDz+e9/fEaFyTiVhGIJCNLxwvi2OAVxSgAAkjigN04hkFgoxauWuyZAKEWARF6pAKk21QJkSo0JkNNpjgB5pdZKRVYi1Ns+IFFuN6TmOg6Zem8gZ7Evbl59pDqiVUD/4hJ8IPLXYBsWXGxjnZEGWeYejg3pV022XaLd1ruphxv8DINnCSLMfxG2YcFFOnsWEtzzGtZcfomH+470i7tlsykkdCKUBDJhJKvojxcA");
 
 export default CardDiamond;

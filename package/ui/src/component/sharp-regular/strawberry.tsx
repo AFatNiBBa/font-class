@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `strawberry` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/strawberry?s=sharp-regular strawberry}
  * @preview ![strawberry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/strawberry.svg)
  */
-const Strawberry: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M360 0s-40 40-40 80c0 33.9 11 44.3 29.4 61.7c0 0 0 0 0 0c3.3 3.1 6.9 6.5 10.6 10.3s7.1 7.3 10.3 10.6c0 0 0 0 0 0s0 0 0 0C387.7 181 398.1 192 432 192c40 0 80-40 80-40s-29.5-36.8-74.3-39.8c.7-.7 1.5-1.5 2.2-2.2c21.5-21.5 48.2-52.2 62.1-84.5L457.9 6.5C447.8 30.2 426.5 55.5 406 76c-2 2-4.1 4-6 5.9c0-.6 0-1.3 0-2c0-48-40-80-40-80zM192.2 112c20.5 0 40.8 7.8 56.4 23.4l128 128c15.6 15.6 23.4 36 23.4 56.6c0 59.2-62.9 144-224 144L48 464l0-128c0-161 84.9-224 144.2-224zm0-48C96.2 64 0 160 0 336L0 464l0 48 48 0 128 0c176 0 272-96 272-192c0-32.8-12.5-65.5-37.5-90.5l-128-128C257.6 76.6 224.9 64.1 192.2 64zM180.8 188.8c11.9-11.9 9.6-35.2 9.6-35.2s-23.3-2.3-35.2 9.6s-9.6 35.2-9.6 35.2s23.3 2.3 35.2-9.6zm-24 88c11.9-11.9 9.6-35.2 9.6-35.2s-23.3-2.3-35.2 9.6s-9.6 35.2-9.6 35.2s23.3 2.3 35.2-9.6zm57.6 20.8s-23.3-2.3-35.2 9.6s-9.6 35.2-9.6 35.2s23.3 2.3 35.2-9.6s9.6-35.2 9.6-35.2zm46.4 83.2c11.9-11.9 9.6-35.2 9.6-35.2s-23.3-2.3-35.2 9.6s-9.6 35.2-9.6 35.2s23.3 2.3 35.2-9.6zM134.4 329.6s-23.3-2.3-35.2 9.6s-9.6 35.2-9.6 35.2s23.3 2.3 35.2-9.6s9.6-35.2 9.6-35.2zm38.4 83.2c11.9-11.9 9.6-35.2 9.6-35.2s-23.3-2.3-35.2 9.6s-9.6 35.2-9.6 35.2s23.3 2.3 35.2-9.6zm73.6-195.2s-23.3-2.3-35.2 9.6s-9.6 35.2-9.6 35.2s23.3 2.3 35.2-9.6s9.6-35.2 9.6-35.2zm38.4 83.2c11.9-11.9 9.6-35.2 9.6-35.2s-23.3-2.3-35.2 9.6s-9.6 35.2-9.6 35.2s23.3 2.3 35.2-9.6zm73.6 20.8s-23.3-2.3-35.2 9.6s-9.6 35.2-9.6 35.2s23.3 2.3 35.2-9.6s9.6-35.2 9.6-35.2z" />
-    </Icon>
-);
+const Strawberry = createIcon("strawberry", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAACBgAAAK2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhliFZgsGAAE2AiQDCAQgBYMtBzEb5wbIjsQ4JvGLKEzi4Xubr+e+XRmkbxYa10gQRCyRsM2kTK18Pw6Z/ph/vjVFgjzxVZtHYmlqJEUlDnc+0IikiaYN9QvYH5x3TkjQ4VAX2nWCPF6NG5VId6XPcIP40vhXy6UkpQxA9ATA4p1b13vrr/gr4tP288Sn1iIgFoNCIEOG/gLMkwn0lyuQywV/RbsN/gcWBBCdKHSyLUd3Yg1xMMPBJB15vrjRaLUa1LPRp1Lqlu/A68tH3Doq4qHmhbXbahfFRXEblmh50q/y4NhHGxeNeWDGHQ0X0G9O3Nm8s3qrli7de/+YR8rbrhm9PR524bjHVn20rRwRP059du6rlfhuW3B/ISqVH3f+uJGyYEe8MeyORsQd9YiL4vYzkLfWurutcUdjFLP69mp8JtVd1S+K7VvZuYM9O6WAarsSPMOQR3o+8l+fHf6ZI97s2aDzhOa5x/4KS7dvnwbA6x/c/PukE1OatLBKj1LpwWec+PXX7V56RgjVail78ITi8gsucGQxaNOBneobXehCNh4UdqwNnLTGrGXMWp4uudAkky68NC3rrbPWTl2xeofTppbPPatCBXjqqTuoNEhBW42dk85LPUUWT9uasGV1G+dP6ZkbIa5V70gBohoPHoZAcPieI/oc0GPe/10qCfzzCsxfUfutJD2CLhIIsnHtcfYlkAgAQIrTDUkQSLFEB7Wuw+0ChDIBJJ2UQaafniBXNhaUDDRdunH8VpnIuwpV+9Ug6XASyMxwHshVPQtK5vnQ1kk1srIlLxnyO9s0K1LI8l7F5AmTijnFbJxTFBcprZ9bbNaOOh3mja7nOtwJjneqwxzqKKcmxJOtd57mOCuWqJf/tjDZBJMU5igOpx5qdiS2k53iqGnV8U7mKq43jnL6cunRtSFRAqeIShKRyn/w9Tnj4MNOPvks");
 
 export default Strawberry;

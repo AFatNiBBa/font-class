@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-seven-thirty` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-seven-thirty?s=duotone clock-seven-thirty}
  * @preview ![clock-seven-thirty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clock-seven-thirty.svg)
  */
-const ClockSevenThirty: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm168 96c0-4.6 1.3-9.2 4-13.3l64-96c5.9-8.8 16.8-12.7 26.9-9.7s17 12.4 17 23l0 136c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-56.7-20 30c-7.4 11-22.3 14-33.3 6.7c-6.9-4.6-10.7-12.2-10.7-20z" />
-        <path d="M256 416c-13.3 0-24-10.7-24-24l0-56.7-20 30c-7.4 11-22.3 14-33.3 6.7s-14-22.3-6.7-33.3l64-96c5.9-8.8 16.8-12.7 26.9-9.7s17 12.4 17 23l0 136c0 13.3-10.7 24-24 24z" />
-    </Icon>
-);
+const ClockSevenThirty = createIcon("clock-seven-thirty", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABfAAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBXQsIAAE2AiQDCgQgBYMtB2AbDwXIFkrLw//b1f8+t6rnAaoHMzL15RSKAMSzfirE/funxRsvFfCBSMekxj9IB9De8QnYeHV6wZsjPtNJ7mfuam+1/CQJZl0eL8Zf6tC5II/vs9NKpAfpS1zj/wGMXzVzmqRaBiDqAmDsvFlTvFsZlSm+LL9GfGkyAmIcKAQyZGgpwAiZQEu5ArlcUJnKZSqjXC4IICrwb8hABUqYhkWAHCQh5XmjFk1qlGrlc2uUqs97oXlEl7jf6YUW8+JexzvNxP0O8dPYiPemfFXj0rRvxn8w7+dx70/9uvrFyV+OeXf2nBNNNCz2mLvR7pW6r/ze9su1Xyq3mdFoqJG+7Vrr5uhlHs/+d16jGd41sRrNXn1v/Pj3Xm1WzcTd2fTFZVUGjrL4HS/WBALBitFvnV5WZ8T/VWsk8Ms7f/4bXkjK7ybpFVSVQJD1KPewOIFEAABS7NUu8QwCmX4Sj2q6C+uhOgmSCtUh00JdyFXXHUpaG0gq12fJRF5NaGgJQVLTDsgMcgRyDb0KJSN8olRoGJld0VZBf+sSJo1NnCv69upTDCu6rsiYCunawwu13GWvVFc6tdY2W+22xmob7I7YaYq+xxaTJHyiJyr01UsfhWEKOLgU5qbstMuGNod3Ga6Yj7rYKxd3pWUSoN+KGDIiRdb8FEo9L4jU86UK7T7Q00qLWta5TQkAAA==");
 
 export default ClockSevenThirty;

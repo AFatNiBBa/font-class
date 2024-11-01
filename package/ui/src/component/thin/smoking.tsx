@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `smoking` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/smoking?s=thin smoking}
  * @preview ![smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/smoking.svg)
  */
-const Smoking: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M456 0c-4.4 0-8 3.6-8 8l0 35c0 46.7 18.5 91.4 51.5 124.5l21 21c15 15 23.4 35.4 23.4 56.6l0 35c0 4.4 3.6 8 8 8s8-3.6 8-8l0-35c0-25.5-10.1-49.9-28.1-67.9l-21-21C480.9 126.1 464 85.4 464 43l0-35c0-4.4-3.6-8-8-8zM632 288c4.4 0 8-3.6 8-8l0-35c0-46.7-18.5-91.4-51.5-124.5l-21-21C552.4 84.5 544 64.2 544 43l0-35c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 35c0 25.5 10.1 49.9 28.1 67.9l21 21c30 30 46.9 70.7 46.9 113.1l0 35c0 4.4 3.6 8 8 8zM48 368l176 0 0 128L48 496c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zm192-16l-16 0L48 352c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l176 0 16 0 240 0c17.7 0 32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-240 0zM480 496l-240 0 0-128 240 0c8.8 0 16 7.2 16 16l0 96c0 8.8-7.2 16-16 16zM640 360c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 144c0 4.4 3.6 8 8 8s8-3.6 8-8l0-144zm-88-8c-4.4 0-8 3.6-8 8l0 144c0 4.4 3.6 8 8 8s8-3.6 8-8l0-144c0-4.4-3.6-8-8-8zm48 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 144c0 4.4 3.6 8 8 8s8-3.6 8-8l0-144z" />
-    </Icon>
-);
+const Smoking = createIcon("smoking", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABngAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDCAsGAAE2AiQDCAQgBYMtBy4bhgXIjpQu7hIPz9v9v2ufmae5HxIqOrC6uIvLpIpb65Ze7cQ19WvRNMAKgqFEUzd9+CLqfAIDHm2WBV42nE0Ut7jt5ohJSCNENpDHPzapIN2VPsQN4UPjG82dJckyAFEPAOOXLpzt7S/jy4gPy4kPzURATADtBDJkaCXAKJlAK7l2yOWCL6NcLv4D2xFAVIofMYEcBR7Gi4AcJNV53rp1g5Z1atWuVaqonS8pVRRbb20kPp7fPZ5qLW5rfEfTiPt79Ig3l0Tc3mR5n/rJAvrTodlHva87/Y3Fi+wqFSVRxOUmt0fEqaZ3lJb6GcWjjW5tJu5qfFvnUu0rWrOo2vIVxWLriyidQcWtjZY+o3/LsqRR+9bBs6d0eLre09+1/3DLh955a11lR6Z2mmSJjirX9cUrn53kc+OdL7TdAhqyj7bnVD3jnTr3xTj7pBfVuXixzrgi9a269eq93e/TjzKazD76tN88vC764w83/BijJ/3oy4n/ywcu3Oa4UeFcWtXqcOsfi/cDgWD1j2Vr6476rbqUwNev/vC3P0T57XQyPY1qCQRZr3Ivq1wMqGIAaIojOmx8k0Byt2rxu9ZyuwChQICkUiFApqV6AuQKPQWo0MZgASoVFspEXiM0srrjJbXs52WGOMbLNfIKr8Io76CVGkUGrDpQ0/0qZp4yhCdPate/T792I9qtljR6+NPY0ZHtDtu6HZEt3fFcW+y1xyGbbbLdoQH3gNnEYbtN2eJM9kPt9NdHP+2M0O5y9al5CUUPOGj7svH6OCO1ez7UzZHt7t2xM4mVDjAtSUSqOrh770cP");
 
 export default Smoking;

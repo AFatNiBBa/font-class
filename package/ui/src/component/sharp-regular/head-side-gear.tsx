@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-gear` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-gear?s=sharp-regular head-side-gear}
  * @preview ![head-side-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/head-side-gear.svg)
  */
-const HeadSideGear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 361.7l0 19.6 0 66.8 0 16 0 48-16 0-32 0 0-32 0-16 0-82.8c-41-41.9-64-98.3-64-157C0 100.6 100.2 0 224 0l32 0C357.8 0 441.1 79.2 447.6 179.4l56.3 63.4 8.1 9.1 0 12.2 0 24 0 16 0 32-16 0-16 0-16 0-16 0 0 48 0 16 0 16 0 32-32 0-16 0-32 0-48 0 0 16 0 16 0 16 0 16-32 0-16 0 0-48 0-16 0-48 48 0 80 0 0-64 0-48 48 0 16 0 0-17.9-52.3-58.8-11-12.3-1.1-16.5C394.8 107.4 332.3 48 256 48l-32 0C126.8 48 48 127 48 224.2c0 46.1 18.1 90.5 50.3 123.4l13.7 14zM256 133.5c11.2 4 21.5 10 30.4 17.6l32.5-18.7 32 55.4-32.5 18.7c1.1 5.7 1.6 11.6 1.6 17.6s-.5 11.9-1.6 17.5l32.5 18.7-32 55.4L286.4 297c-8.9 7.6-19.2 13.6-30.4 17.6l0 37.5-64 0 0-37.5c-11.2-4-21.5-10-30.4-17.6l-32.5 18.7-32-55.4 32.5-18.7c-1.1-5.7-1.6-11.6-1.6-17.5s.5-11.9 1.6-17.6L97.1 187.7l32-55.4L161.6 151c8.9-7.6 19.1-13.6 30.4-17.6L192 96l64 0 0 37.5zm8 90.5a40 40 0 1 0 -80 0 40 40 0 1 0 80 0z" />
-    </Icon>
-);
+const HeadSideGear = createIcon("head-side-gear", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABmQAAAKhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCDHAsGAAE2AiQDCAQgBYMtBzUboQXIrgZsYyr0gyaglxNaIw40L9gaCfMv4+H/1/51nzuQ5P2frAnxBIDBx6GKAi5IdmhbyRZlZX2e+733/mrMxEzqotl0oAOr0GyL0qABfZDhzvB1IOQoM4jlfVqQlEe7G2QwUN5gg3VByPi7ZKn9n/9rPr/n14Cf/AItmipB7jaQiHg+gQHP5nvTxAqhmU7AtjvblB2L9jiWJJbk+KYcjzXk8VlISnqSBjzIHxV/wuQ+SIoMQFQAYM6mdSt8PZc5+YMQiB/QQEDMAbVABkfpIcB0mUAPuRq5XPAbhaH/wEIAUZLTJpCjwEfAZwDkIMny/NB4rbponW9sKhqbBCFEoxGy4ete12zcQ2NXLH7qvdGKjkTYTVUPdJuaSrA2OvE97898LWv82L3D38vJUWYjzBS3LEc6Qsxwsz+iERHPO6Uiwiy3g86ZiDLNnUFkU9jwdBx7D417vqPAicX92nD+6/fiwdKG9nj8eaiMVtW1yjr//stb+/PRtt+cWBFr5pTLb7msWReVWjV6tEqNencUklb16WijV5fK0ap2pnqD3pILF54VlkZUrFuU/bwSnyL8h0jnVsou1CU/SH2YbYDihyFCXaidRaUDW8zKYekpw0rcHiAQ/DCZXws+/U9hCfzx+PQzwv/vIqTXoKUEgmy4gO0JJAIAkOKivgkIJC8Rk09t9hCC0ECApNQQINNdJUCuYZgAhV4mCFBqWCcTeSuhgx0VJM3OgMxEN0Cug09BYbpv0lKHELut4HTCpzF1YQstWFSHR46up9bTGhU9kePZafWyEbxIPUNgpYNOOem8A/Y74nxDnrUif8EJCy14gS+qjTHSaLWp6u3mvboxpGedc2Qs788zTX0+GeyiPXwI2ImwjlWQJCK18W1txMXWRjwWAA==");
 
 export default HeadSideGear;

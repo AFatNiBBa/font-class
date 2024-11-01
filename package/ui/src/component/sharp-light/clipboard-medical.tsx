@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-medical?s=sharp-light clipboard-medical}
  * @preview ![clipboard-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/clipboard-medical.svg)
  */
-const ClipboardMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M145.5 68c5.3-20.7 24.1-36 46.5-36s41.2 15.3 46.5 36l3.1 12L254 80l34 0 0 48-96 0-96 0 0-48 34 0 12.4 0 3.1-12zM192 0c-32.8 0-61 19.8-73.3 48L80 48 64 48l0 16 0 16L32 80 0 80l0 32L0 480l0 32 32 0 320 0 32 0 0-32 0-368 0-32-32 0-32 0 0-16 0-16-16 0-38.7 0C253 19.8 224.8 0 192 0zM320 144l0-32 32 0 0 368L32 480l0-368 32 0 0 32 0 16 16 0 112 0 112 0 16 0 0-16zM208 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM160 208l-16 0 0 16 0 48-48 0-16 0 0 16 0 64 0 16 16 0 48 0 0 48 0 16 16 0 64 0 16 0 0-16 0-48 48 0 16 0 0-16 0-64 0-16-16 0-48 0 0-48 0-16-16 0-64 0zm16 80l0-48 32 0 0 48 0 16 16 0 48 0 0 32-48 0-16 0 0 16 0 48-32 0 0-48 0-16-16 0-48 0 0-32 48 0 16 0 0-16z" />
-    </Icon>
-);
+const ClipboardMedical = createIcon("clipboard-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABlAAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyDIwsGAAE2AiQDCAQgBYMtBzgbqwXIhof/15nd9yX7TKQBTQh/iBUAWkaqgUrijpvCuy1B7YnL8d+fPz3gJn2ksWZDF8gY4zyBRKPtAYVRgWWagDU4b9IhhQL136GM22OZDunV9BOeTj40fjXFAyRlASAaAOw6+fgjfdOLXsRP/Q+JnxyOgNgNskCBAtMF2KoQmK6UUSoFvej32X9gJoDoct8lgRIDeB9fAEqQdMty8uIJY5bOrjtD5Ul1pzr95UkRL9ePT3hxwoSoa1FVEXU96eTH5kW8PrmqhKgqkULUQxFFxDCDKq8teLM6sascKQZ5UofKiTpOemniC+NfnPDypBOqejHXzUVwRIgbFU8Is4XRZtVLW8+c827z7u+zf7roJ8/evuNTvh8d/f7To5canNM655zWnMEty/dMWcbWBxc2jUbO2TWyfE4S54bXsvDBrcum3P107tN2tgMa/mqu3jHc6w0H8cq7G7es1VrknRpN2y47phmtPLpFblYwCbukv/o4EAgu/vmjtWePbP1/oE7gl8/+/Bv9CPW/iXvSuxiQQFAs6y9zRtwDcY8AAKS4yZy4B4HkPbvhVQe9JECoECDpqgQoTNMIUKosFaBjpnUCdFWOV4hyjDDemQWSDLoWKax3J1Ia732kY6tvK13jo7hyueuO+3FM3l8F9x3Kq1a0eXPu7cn4i5HRu1vyZHvRTXxmMTzqIle7yg0udIFL3VCBr3Nk/UZX2j8E7fNF2SortLLN8uLhTfmkSnyd6znTLSzfZ4u8fb7ITcPLF0MvcSlXa0gSkUY/G+x5rS+/lQEAAAA=");
 
 export default ClipboardMedical;

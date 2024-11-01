@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tower-broadcast` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tower-broadcast?s=regular tower-broadcast}
  * @preview ![tower-broadcast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tower-broadcast.svg)
  */
-const TowerBroadcast: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M54.8 1.9C42.6-3.4 28.5 2.3 23.3 14.4C8.3 49.3 0 87.7 0 128s8.3 78.7 23.3 113.6c5.2 12.2 19.3 17.8 31.5 12.6s17.8-19.3 12.6-31.5C54.9 193.6 48 161.6 48 128s6.9-65.6 19.4-94.6C72.6 21.2 67 7.1 54.8 1.9zm466.4 0C509 7.1 503.4 21.2 508.6 33.4c12.5 29 19.4 61 19.4 94.6s-6.9 65.6-19.4 94.6c-5.2 12.2 .4 26.3 12.6 31.5s26.3-.4 31.5-12.6c15-34.9 23.3-73.3 23.3-113.6s-8.3-78.7-23.3-113.6C547.5 2.3 533.4-3.4 521.2 1.9zM312 187.3c23.5-9.5 40-32.5 40-59.3c0-35.3-28.7-64-64-64s-64 28.7-64 64c0 26.9 16.5 49.9 40 59.3L264 488c0 13.3 10.7 24 24 24s24-10.7 24-24l0-300.7zM166.5 87.6c4.2-12.6-2.6-26.2-15.2-30.3S125.1 59.8 121 72.4c-5.8 17.5-9 36.2-9 55.6s3.1 38.1 9 55.6c4.2 12.6 17.8 19.4 30.3 15.2s19.4-17.8 15.2-30.3c-4.2-12.7-6.5-26.3-6.5-40.4s2.3-27.7 6.5-40.4zM455 72.4c-4.2-12.6-17.8-19.4-30.3-15.2s-19.4 17.8-15.2 30.3c4.2 12.7 6.5 26.3 6.5 40.4s-2.3 27.7-6.5 40.4c-4.2 12.6 2.6 26.2 15.2 30.3s26.2-2.6 30.3-15.2c5.8-17.5 9-36.2 9-55.6s-3.1-38.1-9-55.6z" />
-    </Icon>
-);
+const TowerBroadcast = createIcon("tower-broadcast", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABggAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCBgsGAAE2AiQDCAQgBYMtBzYbDAXIHgVuywMpRDG2FvMRVF/e8fD92u/c+95+TJt3SJo8RLxBo2lKkLwEqodEKTtUSliffq29NcTPDD5i1m4PU2nmSdw7zawxhMyQoNLMgZry/+eaelF2VCCfj+DQoqg1Nozk7ucTmEh6UonuDWcTxek22VOHEp5FSJWEdHzS8XWCGl9xD458poG78qHxT6EfSE0BQIwDAPZOU+Jw00Yb8dhdQ/yKAQGxB2ARhYKCWRTYxAjMYi2Cqgra6P7TfyCBAKIHedcEFX24AJcAKkhNZQUCpUBgzJmy6cacUc6O/Azd3vOOu8oTKs9FB9MtxTG63ebst1WXVD4Ldqm7MoqapeZy4LDltCfvlkzb09S8/a6KSV902JHPoVvhRBZEVcmCHTKPyZHFO5U2BxYH39bKCfjRbZSGh5du6JxLXX19XUudP6oxffXbu/QUeBMbCQRrawKBkfj0VOoOyX6SxH2smI/U9o1qNKN92iC/Eomk2MqcGD65IpkP0vaP0OMABILXz9Sfm4f99g/RgL/Pnz++RXeTu/QBoF+CoCz/u8nlNABLKSCT0Q4bfBUE0hmORMMevIUwSIfUMwjFDAuoBi1BY56/crj9ECOqIcK0PEAadgvFhg6opl1CY9Nttmc6mFjTIkX76WXrNM5vIt4eXiSEbFuaHj4KrYaSY8+pPY844yjKNajXqkypKq2KaxZXaFNHZ7G8HyK8efBChCDu7mN1ujLNWlStDf86ocj9yEm7Pd0ZIU1kV1SlJNL8ITru0QoAAA==");
 
 export default TowerBroadcast;

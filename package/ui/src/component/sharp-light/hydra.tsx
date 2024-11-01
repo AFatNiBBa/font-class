@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hydra` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hydra?s=sharp-light hydra}
  * @preview ![hydra](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hydra.svg)
  */
-const Hydra: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M170.7 0L176 0l32 0c44.2 0 80 35.8 80 80l0 48 0 16 0 3.6c0 33.4 27.1 60.4 60.4 60.4l13 0c44.4 0 85.1 25.1 104.9 64.8L479.9 300c6.1 12.3 18.7 20 32.4 20c28.7 0 46-31.7 30.5-55.9l-20.2-31.5L514 219.4l13.1-8.7 24-16 10.9-7.3 9.3 9.3 30.9 30.9c24.2 24.2 37.8 57.1 37.8 91.3C640 390.2 582.2 448 510.9 448L480 448l0 48 0 16-16 0-80 0-12.5 0-3-12.1-13-51.9-39 0-13 51.9-3 12.1L288 512l-80 0-16 0 0-16 0-48c-53 0-96-43-96-96l0-48-80 0L0 304l0-16 0-48 0-8 6.4-4.8 64-48 4.3-3.2 5.3 0 32 0c8.5 0 16.8 1.3 24.5 3.8c.7 3.1 .7 6.4 .1 9.8l-.6 3.1c-1.3 6.7-2.2 13.4-2.9 20.1c-6.4-3.1-13.5-4.9-21.1-4.9l-26.7 0L32 248l0 24 80 0 16 0 0 16 0 64c0 35.3 28.7 64 64 64l16 0 16 0 0 16 0 48 51.5 0 13-51.9 3-12.1 12.5 0 64 0 12.5 0 3 12.1 13 51.9 51.5 0 0-48 0-16 16 0 46.9 0c53.6 0 97.1-43.5 97.1-97.1c0-25.8-10.2-50.5-28.5-68.7L558 228.6l11.7 18.2c29.2 45.4-3.4 105.2-57.4 105.2c-25.9 0-49.5-14.6-61-37.7l-13.6-27.1c-14.5-28.9-44-47.2-76.3-47.2l-13 0c-51 0-92.4-41.4-92.4-92.4l0-3.6 0-16 0-48c0-26.5-21.5-48-48-48l-26.7 0L128 72l0 24 72 0 19.3 0-3.6 18.9-23.4 125 15.4 77 3.1 15.7-31.4 6.3-3.1-15.7-16-80-.6-3 .6-3L180.7 128 112 128l-16 0 0-16 0-48 0-8 6.4-4.8 64-48L170.7 0zM352 176l-3.6 0c-.6 0-1.1 0-1.7-.1l-2.4-13L340.7 144l19.3 0 72 0 0-24L378.7 80 352 80c-12.3 0-23.5 4.6-32 12.2l0-4.2c0-10.9-1.4-21.4-4.1-31.4C326.7 51.1 339 48 352 48l32 0 5.3 0 4.3 3.2 64 48L464 104l0 8 0 48 0 16-16 0-32 0-36.7 0-17.9 0-9.4 0z" />
-    </Icon>
-);
+const Hydra = createIcon("hydra", false, "data:font/woff2;base64,d09GMgABAAAAAANgAAoAAAAAByQAAAMWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGyEZQsGAAE2AiQDCAQgBYMtBywbYQZRVG2aZD8T7IY/jxG7xZ/RCzXSXIPAlXh4Xq//X/skmQvlPjGP8ifYSS6675YVPEtruz2+IeqJSCSqtfSVr5glsSjaIpHSju+AhSrV8385vUGzsUE+R4GkOCeNtUDmfB72PPCj8+YCzQILKDCOMaO5gZH1Vm+cw+IS8vhHUkG6O32BG603jR/1dhlJngGIEgCLdmxZ553v4ruIL+pX4gtrEBCLQSWQIUM/AebKBPrJVcjlgu+iXpf+AysCiBoHT0w5j0WPwEDqW5OkPI//YklU4mYS7IV0jR1cDNydBkMEQshos5mGdo65Pc7MIsLTmcR8fZvsJ4fDiprRzC/nehllAQBu8aMb9DBYX+KLiATT0AhdA+NIdeWxmmYTVeppgcAQl4nP5ALAsvfEybOKx9lckufMLW03C28RF1c68Zl5FF6K3qquwSTIrAn6tA5QNCTkUZPYEUFFDvSNYd48pjV/RYEJA83+a49/nwlfHPGFx94uimHl4dtjolKukYvaDH72mZ+5ZePGm2++b77rfexCD7vaL5bltSVTDxpoolK5d4z3jfC+MdoOKk100WOPNU60sSxN1GirusWKqu35rEh6N93W0tcKvVDlQs2dnfeUg4xTJzta1y1kmrLosyZc9NrjjQ1PbPWsKWXnzRdP+cyLc+b2bnPQ3XfXcqWJsi+/mmh+Y2XXwXqep2OtCX4zQccGmUy34yw7hPOFp3PnWDHWYF1X9rJCX10/z5Xz/+xWFYvVbdW48eVAIJh96MKxBzrm/tZICfzw2q/j3dXfSRelx9AogSAbWx9rb7oIJOkAMinOMBgYozRXu8R51VZ3CBCaESCpaRYg01cpQK7ZGAEKA0wToKbZFpnIm4Ru9hkgaXUyyEx3Psh18zwozPVxuqZbZJ+GimGr/kzTLy+jyxZVk8ZPrGZXnVWpmrUr4PScarB95Bm1rlGU0RFOdILTHO4wRzutJDzFutzpjrccsZf5oMok401Uma2a3Lju2u7w0HOqo9s102eZo1reN9IZeOAoqn1B+ZNLIUlCeSqOOvuwUw4G");
 
 export default Hydra;

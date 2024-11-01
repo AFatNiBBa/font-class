@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `galaxy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/galaxy?s=sharp-solid galaxy}
  * @preview ![galaxy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/galaxy.svg)
  */
-const Galaxy: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M336 0l32 0L355.4 7.8C303.8 39.5 270.6 93.4 264.9 153c16.5-5.8 34.8-9 55.1-9c2.9 0 5.8 .1 8.7 .2c.9-.1 1.9-.2 2.8-.2c1.9 0 3.7 .3 5.5 .7C435 153.3 512 235.7 512 336l0 32-7.8-12.6c-31.7-51.5-85.7-84.8-145.2-90.5c5.8 16.5 9 34.8 9 55.1c0 2.9-.1 5.8-.2 8.7c.1 .9 .2 1.9 .2 2.8c0 1.9-.3 3.7-.7 5.5C358.7 435 276.3 512 176 512l-32 0 12.6-7.8c51.5-31.7 84.8-85.7 90.5-145.2c-16.5 5.8-34.8 9-55.1 9c-2.9 0-5.8-.1-8.7-.2c-.9 .1-1.9 .2-2.8 .2c-1.9 0-3.7-.3-5.5-.7C77 358.7 0 276.3 0 176l0-32 7.8 12.6c31.7 51.5 85.7 84.8 145.2 90.5c-5.8-16.5-9-34.8-9-55.1c0-2.9 .1-5.8 .2-8.7c-.1-.9-.2-1.9-.2-2.8c0-1.9 .3-3.7 .7-5.5C153.3 77 235.7 0 336 0zM256 296l40-40-40-40-40 40 40 40z" />
-    </Icon>
-);
+const Galaxy = createIcon("galaxy", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdgAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCAwsGAAE2AiQDCAQgBYMtBy0bAAXIhof/t/uvfW5VA66G5IyxR2L616RC/EZOjZebUgEfedHOp3dBHkjp3ngFKtZtPJ8/nA1sphOw7c6thUO0T9ISa0m/Y8fnCnm8np1RjnQ7fYHr9UPjV42cIamUAYiaABg5f/ZU75RFWcTnpReJz01GQIwEhUCGDE0FGCITaCpXIJcLyqJUiv+BBQFEeXzXBHLkWI0dgBwkKc9nVapSrlo+r0q5yuurVK5SN17p8kTTB1Uuh4v1fpz57VxRP54a9Fq/207Axbo/zPhmTuVoEK93f7rF3cqX4GL9n2Z9Ny+iXjw58NW+d+IkvK7Bz7O/n79g+JDhw2JIDG31WM3Hfm/5xbovTH+7KIqPrV+7d8iF5nm5SKmYVCHPY0rhiH3z5r+/wKcKk0aMmBJpG2FkYGT29Pb7SUQ3g0Dw039Nn1xeY8j/Fask8Mtrf/7efkZK7yTpMVSUQJB1KXWxJIFEAABS7NMqQSBZLOF3reqGAKEyAiTlVRYg00RNAXKVdRagnOb6ClBeZbNlIq8k1LV0IElVO5FMP0eRXF3PI+UM8XFQXt3IPI32E/qjlzBOAmP3ip7dehSDim2qM85D5vXgwix32JdaHfGsdbbbZo+11thoj4B3mRrvtdU4DRrriwo9ddNDYZDiuHg+nmetXXbbaLttZctgxX2/g336cEfUEibsRUpPkEjl16/csvLAQQAAAA==");
 
 export default Galaxy;

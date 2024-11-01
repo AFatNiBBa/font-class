@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rockrms` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rockrms?s=brands rockrms}
  * @preview ![rockrms](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/rockrms.svg)
  */
-const Rockrms: typeof Icon = x => (
-    <Icon viewBox="0 0 496 512" {...x}>
-        <path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm157.4 419.5h-90l-112-131.3c-17.9-20.4-3.9-56.1 26.6-56.1h75.3l-84.6-99.3-84.3 98.9h-90L193.5 67.2c14.4-18.4 41.3-17.3 54.5 0l157.7 185.1c19 22.8 2 57.2-27.6 56.1-.6 0-74.2.2-74.2.2l101.5 118.9z" />
-    </Icon>
-);
+const Rockrms = createIcon("rockrms", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABZgAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBVwsGAAE2AiQDCAQgBYMtBy4b1QTIjpQuZyTx8P9rlff9qp7erV6GWmZ0QApDrBI1Z1zCCoAsSULZFbI//c0/7zwK8HHuY2G2QcYEmvM8gc7zLt8E/2+wRPGzfHUbK38Q5U1EhuARMSR9aC6Qx/NxvwrpifQx7itfGj/r6iZJJQMQbQAwZ9O6FV7/Pr6P+Lj+IvGxZQiIuaAUyJChhwDTZQI95ErkcsH3Ua/Lb2BJANHA/tQEcuRYih2AHCQpz3sOqFVa5htrlWLb18sjPp4d8fr6b+a8seKTDd+t+mzeW5u+nfvmyk83bilqxcZ4svtTg2qxMdZHEZvisdrtjhviiS6PF7eK54pbsaFvY5vGX3188GP/vzzfaU5XqZpvfrV6+vR8850+XWX+6We34mFO3fD6tbN7llm31/q9tnqoSVObNk3PvOLNa9c7Z93ub53bfxEIBD+12fjmrtbT/21WS+DH135fz6u/H3+kRjSTQJANrw+3Pf4AQQegprior3OxQDJXArvVFh4VIBQIkDQoBMh010aAXGGYABW9TBCgQWGdTOTNhQ52dJC0cAZkJroEch08Dyqme09t0CGymCIigvjSxS5kaMFQOWbk6HJqOfU0Mkyw1J1WLnODL2pmCGYddMpJ5x2w3xHnCTlrhXHBCQs9eIELlcYYabTSVOV2+Di90QFnnXPEKSdzn2nK88pgF/3yIRgnAcbehisRqfpIxbMnzgEAAAA=");
 
 export default Rockrms;

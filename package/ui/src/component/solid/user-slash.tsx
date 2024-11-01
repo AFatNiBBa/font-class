@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-slash?s=solid user-slash}
  * @preview ![user-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-slash.svg)
  */
-const UserSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L353.3 251.6C407.9 237 448 187.2 448 128C448 57.3 390.7 0 320 0C250.2 0 193.5 55.8 192 125.2L38.8 5.1zM264.3 304.3C170.5 309.4 96 387.2 96 482.3c0 16.4 13.3 29.7 29.7 29.7l388.6 0c3.9 0 7.6-.7 11-2.1l-261-205.6z" />
-    </Icon>
-);
+const UserSlash = createIcon("user-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABXAAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBHwsGAAE2AiQDCAQgBYMtBzEboATIvgVocXifCrYh1jKyhUPw6D4hXIXE+5UWKXe+D5siz594+H6/du79bxHxpJrEIlEjIdMojeYdQt9QKeUPlUzei7W2+2K680kU0/bXMPGkkvHm3tQaoTCdYTpwY6TvgH9wpOCQm6d9HlIqgUJ5xMvcz9jv/ggX9zcwmHHEQa5lAzF4JjBEJgJLbebngsz/NfXi+dEBfqPDM4vC0sZIu6OKrXkCE9ubN0EU2ERx5i1n1GPK6JVMNEmfvrXHrwOU+G9GvucnnvOXxp9JY0idFQDEAABwfp+VAre1h4/WiB9XQECcAyxAVKgwA8ERtsAMjgWgKII6KvwHBgKINpC3SlBQsAscA1BAysIxDYgn5eR2c0VFX17UduDG+IquEq+2juyryddMR1FuwfcZ4u3NEHNiKc6OVzp2Fbu/uZ8Wm56/veA7QZ9z3MjL9PSIcM1i36u4P9Sx3sknY35evoBA8H2eHuSJ/8QC+G12ujJ/JnMXOiQIqvVWinPIgKzluXb0ciAF0mohx632eCEIXQiQ2nQJUJmmgKDosgZBw5woCNp0ucYWRQhhREkDqccjqBzqB8WIM9Bw5MVpMxL5DXPrzLctkdFoaBuF+YMUT8NcZV2B4uUEmpacvbHnwl6o1aZVtxrVGnQrvFOK36MFY2EhP0TC+AWReLRc3e/OVaNTlwZtWtMmCWi/5tRrT3ZBZRHCXZmURIoeW8LX1VzRVQ8AAAA=");
 
 export default UserSlash;

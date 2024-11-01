@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `infinity` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/infinity?s=light infinity}
  * @preview ![infinity](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/infinity.svg)
  */
-const Infinity: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 233.5C0 157.5 61.5 96 137.5 96c39.3 0 76.7 16.8 102.7 46.1L320 231.9l79.8-89.8C425.9 112.8 463.3 96 502.5 96C578.5 96 640 157.5 640 233.5l0 45.1C640 354.5 578.5 416 502.5 416c-39.3 0-76.7-16.8-102.7-46.1L320 280.1l-79.8 89.8C214.1 399.2 176.7 416 137.5 416C61.5 416 0 354.5 0 278.5l0-45.1zM298.6 256l-82.3-92.6c-20-22.5-48.7-35.4-78.8-35.4C79.2 128 32 175.2 32 233.5l0 45.1C32 336.8 79.2 384 137.5 384c30.1 0 58.8-12.9 78.8-35.4L298.6 256zm42.8 0l82.3 92.6c20 22.5 48.7 35.4 78.8 35.4C560.8 384 608 336.8 608 278.5l0-45.1C608 175.2 560.8 128 502.5 128c-30.1 0-58.8 12.9-78.8 35.4L341.4 256z" />
-    </Icon>
-);
+const Infinity = createIcon("infinity", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcQAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBaQsGAAE2AiQDCAQgBYMtBy8b6ATIhuB5Pah5P1nAWcAoWcknqboOYMX5v+bzq6ID/EaHVr1KkEg6XNbzCRzwoiifT2Q2nA1oYrzdaRSxaClJkrIkxznH5QF5/B3tlCCdT+/gVHrT+EEdx0jyDEBUBsDgmVPHe+HT+DTinf8fJd4xFgExBBQCGTLUF6CfTKC+XIFcLvg0/v/f/gcWBBAl0XMTyFEC07AMkIMky/MW1aqVK1EhnxE2l42bAyOeH/lq/+kx05x5trG41u+ZYa8NmBHTQl38XJNYPGP6jPt6PNLqjvricus7uz/ecWa56bN+L/ra3t0o4kqbuxZXt5vW5K7Kd/3U+J0V7/iw7ApWXHvh+MTZ8v7jH5xesaJse2VWrDj9gcFfuNZQpkObmlPmBf9vH7zw0Ufl2ytXUi988Jt22nj80wfIch2IBz79HRAIXtpZ+ZuFlfr9VbpcAp8/9ctf9eJ0KN2F0hIIsnb/tzMPZSZQABVS7NAEPkkgGScDr1reGQFCWQRISiorQKaeygLkymorQAkNdRegpLKmykReRqhufgdJeZtBpof9IFfdw6CEfl4vlFQ9MuGSRUP+22WMGKHhQUXnDp2KPsWyqSnyIuJy32I73GqHG2oNJ62w0QbbLLfMatsGfovx5e3WG8Fxw31RobMOOin0URx3ng/PsNwWW6220Ya4Sl/F/XwrO/jJrSGWkGAX65JEpNKrN6x4HeZuAAA=");
 
 export default Infinity;

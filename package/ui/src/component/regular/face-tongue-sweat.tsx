@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-tongue-sweat` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-tongue-sweat?s=regular face-tongue-sweat}
  * @preview ![face-tongue-sweat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-tongue-sweat.svg)
  */
-const FaceTongueSweat: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M496 256c0 81.7-47.1 152.4-115.7 186.4c2.4-8.4 3.7-17.3 3.7-26.4l0-15.3c10.2-7.2 16-15.7 16-24.7c0-26.5-50.1-48-112-48s-112 21.5-112 48c0 9 5.8 17.5 16 24.7l0 15.3c0 9.2 1.3 18 3.7 26.4c-27.1-13.4-50.8-32.6-69.6-55.9c-3.9 17.1-13.4 32-26.4 42.8C146.4 480.2 213.5 512 288 512c141.4 0 256-114.6 256-256S429.4 0 288 0S32 114.6 32 256c0 1.1 0 2.2 0 3.3c16.3-7.1 36.4-2.8 48 12.8l.7 .9c-.5-5.6-.7-11.3-.7-17C80 141.1 173.1 48 288 48s208 93.1 208 208zM96 369c0-20-28.4-60.4-41.6-77.7c-3.2-4.4-9.6-4.4-12.8 0c-1.7 2.3-3.8 5-5.9 8.1C21.4 319.1 0 351.7 0 369c0 26 21.5 47 48 47c12 0 23-4.3 31.5-11.5C89.6 395.9 96 383.2 96 369zm239.6-97a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm-128 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm19.7-155.3c-6.2-6.2-16.4-6.2-22.6 0l-7.4 7.4c-18.9 18.9-43.2 31.4-69.5 35.7l-2.5 .4c-8.7 1.5-14.6 9.7-13.2 18.4s9.7 14.6 18.4 13.2l2.5-.4c32.9-5.5 63.3-21.1 86.8-44.7l7.4-7.4c6.2-6.2 6.2-16.4 0-22.6zm121.4 22.6l7.4 7.4c23.6 23.6 53.9 39.2 86.8 44.7l2.5 .4c8.7 1.5 17-4.4 18.4-13.2s-4.4-17-13.2-18.4l-2.5-.4c-26.3-4.4-50.6-16.9-69.5-35.7l-7.4-7.4c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6zM352 416c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-21.4c0-14.7 11.9-26.6 26.6-26.6l2 0c11.3 0 21.1 7.9 23.6 18.9c2.8 12.6 20.8 12.6 23.6 0c2.5-11.1 12.3-18.9 23.6-18.9l2 0c14.7 0 26.6 11.9 26.6 26.6l0 21.4z" />
-    </Icon>
-);
+const FaceTongueSweat = createIcon("face-tongue-sweat", false, "data:font/woff2;base64,d09GMgABAAAAAAOIAAoAAAAAByQAAAM7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCDdwsGAAE2AiQDCAQgBYMtBzgb/wVRlO1FneyrA56I2ENviAQlNGAkvFM/GD61h51RAQYAGRuC2dKvK9a9xMP/79dvnztvvqihycQaCbJn1aSJZqHhq2sT8QR1jP+53Z9UMSzdI7nlrS0hCZpLo5FolMgqoazRX7W4zMAhd5AcA+JU2m4P+7l3U/86SUM0uYYyfkVCt8TWkCTiyUwSodDEE36g/497p383aPt84nloYy2QNkdznicQ4J5AUedtLaKEtKN5TyxZId5C8gmyeBln5UkX0zgTlsVPrV4k+RwSEDVwpczeOAgQvYt3EfcLEvctBQExG9BDIIccOggwjSzQQdEDMpngXRQK7j+QEEAUwczk3TOU4il+AjKQFGfZwlbbfs+wHr3SqCgsz+tKL1eAyYLzAmhFR/BI3Kx3iPczFHuZ5eg271riUfnTlRdzdzbez9lecb7hdtnprM11fuzDlSyDFjysvdl4t/pqfdG5FNDBtjia+FK+zdHONOvruFantNcFSivXMkbX1VppnW8DpG7voh7SOceBsRgdmshsjsPBzGa0sr7GJmYttzE6PVpZHebDWbQ4pg7xXcgAY96R8AkR6AzRY1jYW1lciPomLBOvvQ+2nvJeXvBucXKVmX603P8vflU/1UxTD2xvTh96VycttO8j8KQEC1ta6wPq5qwIwo04UlwK6XooOVZcnzjTmVP1Vzy52/XU2TZmBo3y09cNdc+/83+3mI6So5qxutrIEJPXVNVdtJGmnOxuuzQ+XubBHrmbqunvajRnb3P8Xdm4TfWa21xD76ZX3eSUTT0IXft2dMjeymqp7euzWnWMloCMLJnDS7Whs2sSBRKMPACB4PXNhT7tX0l5Ah9u+l/2GwpR6kkhSiQQ5EYXRpukWaAnkUDCKfZIT3yTQPJYMRyqcG5rLJRRQVKkDHLaGZApMwryujTlC8evJYusVGgwxZBU2A45Ezwh0+AHedP8w0UaQoZxJYQqLzHT+U3c68ZqqcIeR9MKFdjKbXufi22ZhyzL4rlYODq4mZtZuzX4F0Hsbs+fkvY+S1UlFdTDzbm7unFDcHG19jhs76SPx4cyHtO1s9gpSWSOkZIkItWeQUnF2/GwvKem6z/xAQAAAA==");
 
 export default FaceTongueSweat;

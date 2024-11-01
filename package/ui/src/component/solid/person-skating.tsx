@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-skating` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-skating?s=solid person-skating}
  * @preview ![person-skating](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-skating.svg)
  */
-const PersonSkating: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M352 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM128 128c0-17.7 14.3-32 32-32l159.4 0c43.6 0 64.6 53.4 32.8 83.1l-74.4 69.4 60.2 60.2c9 9 14.1 21.2 14.1 33.9l0 73.4c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-66.7-77.9-77.8c-26.6-26.6-24.6-70.3 4.3-94.4l20.4-17L160 160c-17.7 0-32-14.3-32-32zM81.4 353.4l86.9-86.9c4.6 10 11 19.3 19.3 27.5l21.8 21.8-82.7 82.7c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3zm322.5 95.1c8.6 2.1 13.8 10.8 11.6 19.4l-.4 1.7c-6.2 24.9-28.6 42.4-54.3 42.4L272 512c-8.8 0-16-7.2-16-16s7.2-16 16-16l88.8 0c11 0 20.6-7.5 23.3-18.2l.4-1.7c2.1-8.6 10.8-13.8 19.4-11.6zM135.2 478.3l-6.2 3.1c-21.6 10.8-47.6 6.6-64.6-10.5L4.7 411.3c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0l59.6 59.6c7.3 7.3 18.5 9.1 27.7 4.5l6.2-3.1c7.9-4 17.5-.7 21.5 7.2s.7 17.5-7.2 21.5z" />
-    </Icon>
-);
+const PersonSkating = createIcon("person-skating", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABjwAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCRwsGAAE2AiQDCAQgBYMtBzUbTAXIjpTuAlOCf3g3/XMfRAqtQ9I6/eKio4hvfxWdfLItBLb71S6OIJHYEs0sjzDA5v+azy/t6AC/0aFEL6IsUiOCx3s+wKJZpNAsCmcTxdk2Q4eCahAiJOKI8h/5YXTYfg/sOGitIgSzzWtgq36oHjmsAiOpAgCgDgAANO/bszP3P+qj9CpxBXTpCAigCUCAgAUskI8ANMIikI8tAGw24aMSifQfGIAAoIa8jAFggwhYCWwHAGwARijtlMqZ8Ww3lGL3cUPO2INlz5Y+nbOv1KkyZ3J7LY9Le11XV3L2l+ul7toNWt4uZ0Nsj6Q+upB3sGJFOUJDr77VsdsvrxpZtC9t+G7P076nZzjaE9sbd3U2T9rrD/Pi3qkyZ2I9tCcO4e7aHY8f9trtlbiQfuFn8esxrxm61ZmycOEUZ6z7oWvqOliXepSMixfHtW/NLd557Sl0YvvSlnTuRO1cp0c1OnKoysc+vdvMKa9a070H+1JS9q3ns9a3GPqmULT49j2rPx9TUz/2J72ZofOn5IIecpmIzNuLHDhw/vxNbv7pwZNFg58CgIDw9fjPhkPTGv2JugaAzzd//9czEz9xdN9cAKIMAMEaiUoM0n0DhzEIR03MoQR9kYCxkBC61mR7EABxgAAYYQ4BsOSRjgDYHBURgJBCaiMAYY6eWJRJiMfgBYxk04GlDouBzeMSCGnEs0iYJysW+UjifwVT2iDUelpQvUq1oEFwLZlCeLF1tGHw2lhuTm4pTysYw1SmMIvRjGK80kDOoHN8NpNpYxGt+SEB1alCNQIaELir70ofoIcyE9mz4J+EhgTfe8sxx+5eniyGUNYgxzBQSQ3djMozJw6fNX7KWAAA");
 
 export default PersonSkating;

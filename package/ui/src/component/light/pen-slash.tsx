@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-slash?s=light pen-slash}
  * @preview ![pen-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pen-slash.svg)
  */
-const PenSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M25.9 3.4C19-2 8.9-.8 3.4 6.1S-.8 23.1 6.1 28.6l608 480c6.9 5.5 17 4.3 22.5-2.6s4.3-17-2.6-22.5L25.9 3.4zM559 138.8c21.9-21.9 21.9-57.3 0-79.2L516.4 17c-21.9-21.9-57.3-21.9-79.2 0L297.5 156.7l25.3 20L382.4 117 459 193.6l-50.6 50.6 25.3 20L559 138.8zM317.2 335.4l-93.6 93.6c-7.6 7.6-16.9 13.1-27.2 16.1l-92.8 27.3 27.3-92.8c3-10.3 8.6-19.6 16.1-27.2l84.6-84.6-25.3-20-81.9 81.9c-11.4 11.4-19.7 25.4-24.2 40.8l-35.6 121c-1.7 5.6-.1 11.7 4 15.8s10.2 5.7 15.8 4l121-35.6c15.4-4.5 29.4-12.9 40.8-24.2l96.2-96.2-25.3-20zM459.8 39.6c9.4-9.4 24.6-9.4 33.9 0l42.6 42.6c9.4 9.4 9.4 24.6 0 33.9L481.6 171 405 94.4l54.8-54.8z" />
-    </Icon>
-);
+const PenSlash = createIcon("pen-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABcwAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBfwsGAAE2AiQDCAQgBYMtBzAb/wTIjpTunhTi4Xm7vs59VQO4/h8R3SNryXwYrpjBQTaIVozUuT+8O3E5/XH+9IALAMfGtw2ywOc8n4F1HmX5tgKdFGaJYruzUdQmcUlaYiHHpR2fPeTxT/RRg/Ry+hJPxg+NH7VxiSTPAERjAExcWprr4/txP+LLyhvEl2YjICaBQiBDhvYCjJEJtJcrkMsF96NScf+BBQFETenKCeSoiZU4AMhBkud5/bZV9evVaJAvwVvUXflC8+da7I/nW73Y8sDuVyPifNtxcaPuI13K0TNKsTgWWHVpuRzU55qXSY0XWxGpV5TjVmtqS36eKTd7d/ey8mbXsfFy6wWxJErVdxrf+bnqyy1favP+m7dP3ll7z1t3Tt5ee7/51d9a0fK3Oxq1bNXokUdddNecOao869Sp31+1Or/je3+ubKvtSvPvlkuetXAhW6qP6bl5yYVj1Y7E2rUuPtGtQYOXffvtEnPm2AwEgu/rv/Dd2kZj/q5dL4GH7/76d7mwolK6nO6gtgSCrE+lj1XpnABYFRg7xRHV8E0CSUkOX7W+FwQIdREgqamuAJl2GguQq6u3ADV0NFSAmuoqyUReR2hudcOS+vZjmWFOY7nmXsNqGOMTu6bmkekZpyXcNy95GoenrisG9htQjCqmvsqrDkP90cWy0uOIz/WEnbbYa49DNttku0MMPWCud9hu0yRkqh8qDNTPAIVRiuPoXl7C7AMO2j7mzgFDRivuWz0ckat7wmYSYNALAWlrpDr7Nu/pe3DX+oPbAA==");
 
 export default PenSlash;

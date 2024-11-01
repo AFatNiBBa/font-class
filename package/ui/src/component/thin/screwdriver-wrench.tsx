@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `screwdriver-wrench` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/screwdriver-wrench?s=thin screwdriver-wrench}
  * @preview ![screwdriver-wrench](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/screwdriver-wrench.svg)
  */
-const ScrewdriverWrench: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M7 47L47 7c8.5-8.5 22-9.4 31.6-2.1l104 80c5.9 4.5 9.4 11.6 9.4 19l0 64 0 8 0 4.7L287.3 276c30.3-24.7 75-22.9 103.3 5.4l112 112c12.5 12.5 12.5 32.8 0 45.3l-64 64c-12.5 12.5-32.8 12.5-45.3 0l-112-112c-28.3-28.3-30-73-5.4-103.3L180.7 192l-4.7 0-8 0-64 0c-7.5 0-14.5-3.5-19-9.4L5 78.6C-2.4 69.1-1.5 55.6 7 47zM168 176l8 0 0-8 0-64c0-2.5-1.2-4.8-3.1-6.3l-104-80c-3.2-2.4-7.7-2.2-10.5 .7l-40 40c-2.8 2.8-3.1 7.3-.7 10.5l80 104c1.5 2 3.9 3.1 6.3 3.1l64 0zM379.3 292.7c-23.9-23.9-62.7-23.9-86.6 0s-23.9 62.7 0 86.6l112 112c6.2 6.2 16.4 6.2 22.6 0l64-64c6.2-6.2 6.2-16.4 0-22.6l-112-112zM21.5 386.5L170.1 237.9l11.3 11.3L32.9 397.8C22.1 408.6 16 423.2 16 438.5C16 470.2 41.8 496 73.5 496c15.3 0 29.9-6.1 40.7-16.9L230.2 363.2c1.5 5.7 3.4 11.3 5.8 16.8L125.5 490.5C111.7 504.3 93 512 73.5 512C32.9 512 0 479.1 0 438.5c0-19.5 7.7-38.2 21.5-52zM496 160c0-17.2-3-33.6-8.5-48.9L416 182.6c-6 6-14.1 9.4-22.6 9.4L352 192c-17.7 0-32-14.3-32-32l0-41.4c0-8.5 3.4-16.6 9.4-22.6l71.5-71.5C385.6 19 369.2 16 352 16c-50.7 0-95.3 26.2-121 65.8l-12.7-9.8C246.9 28.6 296.1 0 352 0c20.1 0 39.4 3.7 57.1 10.5c10 3.8 11.8 16.5 4.3 24.1l-72.7 72.7c-3 3-4.7 7.1-4.7 11.3l0 41.4c0 8.8 7.2 16 16 16l41.4 0c4.2 0 8.3-1.7 11.3-4.7l72.7-72.7c7.6-7.6 20.3-5.7 24.1 4.3c6.8 17.7 10.5 37 10.5 57.1c0 53.8-26.5 101.3-67.2 130.3l-11.5-11.5C471.2 252.9 496 209.3 496 160zM80 416a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const ScrewdriverWrench = createIcon("screwdriver-wrench", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABvQAAAMIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDbwsGAAE2AiQDCAQgBYMtBzkb+AURVZsg2QMR5VrVE2FJlsXW4Cxwou7hxP13P3+5xef/fh7/SxoN8NrIhhZJmViBo8zjDbbjkcHPRjhR3Opc2h2IOxTmKMxvQJez9MAAtVbdAxYn2+QNKcwAhaYBGZAEIAtVWzdvyKVn8kzknncc5B71AQGQagA4CKCBJDIjAFRAQ4DM6DiAjo7AM/E89z/QAQEAMcEHFQA64AMeAm+B9ddBYep6sVmRYNbqsbYRp7eyDat95QqVV+dsKStBEKSlZOTcmbelrGRKsImssOaFW4mbui5/K7HG8HWRlrZlC8qnxmGrghVkRUhwom23dC2ReXn2MEXRGWkuq+GsLq1btA5JC9nD2tDKnPPzt5aVodkoa1c+N3Vq/u5TU1tghGXJvPAqU+dFWssua16ePXnCcrD8WXt+zpWhlUFSBTImW+ZHytWh3r2WKQX20a6M/BnSxTplRXBVeHUk3U1w36Xd63UPc8no7MW3Vu/GzPJXwYdBp04Mu3yox+DBzI2Lm+uxppatmbip6c+ce3usUcffp3FvtjzYMsWXuamCniYZ1rz6aEqU3PwwSa/yZERaFKJpSdFo0uDB7N3rsW7d4ME9Oi5fkStdXEIQjfG8KRGGDydaeuAgWmT9WKJ6IFuLpy9SR9WuzZxAXgJz3PNq16JPaq5Pzyvepkl69nxZ3WGm2Ypm14hxP8tLTI3JKT27dMntZs2bkPj6DFcDgZybvWeoeObwAoA81HTC8uWd4yt889kKgBdnPvyOZV70yiWFcgEfCgABrYBXgA4KggWdCIBXySjSoYcCKG5ysmx+Vqn6BQtGKEwsaGQiAToW+WGQlZICwfDmaIgeu7IF6YhQ+BkKjVJMhE6QozCowE2PSVC051v0dIp+L5PXiqia3ZyihYo45ZzDmF78yArI2vKOsCrPKDcnL6ylF4MZxAh60oO+jJhxh9HQP5KB1KI4NfkhDkUpRBEcyuEoJ18vb0VPhjGcvgxmUFxPeRzztjyMoovnBa0i41uMaIUCUUnDP2jR268sOHowD+reBwAA");
 
 export default ScrewdriverWrench;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-military-to-person` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-military-to-person?s=sharp-solid person-military-to-person}
  * @preview ![person-military-to-person](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-military-to-person.svg)
  */
-const PersonMilitaryToPerson: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M200 0L56 14.1l0 32 144 0L200 0zM189.5 78.1l-122.9 0C64.9 83.8 64 89.8 64 96c0 35.3 28.7 64 64 64s64-28.7 64-64c0-6.2-.9-12.2-2.5-17.9zM192 192L83.8 192 217.8 295 192 192zM32 320l165.8 0L58.7 213.1 32 320zM384 160a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm96 160L448 192l-128 0L288 320l192 0zM272 432l96 80 16 0 0-56 104 0 24 0 0-48-24 0-104 0 0-56-16 0-96 80zM128 352l0 56L24 408 0 408l0 48 24 0 104 0 0 56 16 0 96-80-96-80-16 0z" />
-    </Icon>
-);
+const PersonMilitaryToPerson = createIcon("person-military-to-person", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfgAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCKAsGAAE2AiQDCAQgBYMtB0AbOAXIjsK2bROLciznS4iYrHj4/t489763uymleWvUget4qRShYKyBhjQiO9EIfP//19L7dvlPGH6AwCLMThBZJYolsaOSsBUmp6o6U6ee5zwUwPeIB2XujrlojHlegQps7RW8PK1gNa2AddkccBHFLLQ9xF+hxoN8CkryW/YT8N5/aPzD2hSQegsAYgQAcHadk4bXv9Sl+PF9BfGLFBAQZwBWEAoKFhA4JBdYoLACqiroUtPk/4EcAog2xntLUNGHF/AGgApST1VojdRqfa2pqaDUV0iCkhWKuSKon0hkAtvCvtep27HPue24hY4O6EgSSYEgkVh5IyjwPgu/9DxROsJ00lTESCRBvJICEQlDkDEiQUACuQW0ZMRLckki5nxmdPbl9LPmp7eXVf2pjGMN/r1pg2Ohp5YZGx8eLgVMa0XtTRg1XQPr+4PRo90LDbB5Lj0I9Hd09A/scMrkODrpYyAleP3TWpqBTxghUt1MIKweI2GEdqxmRI4dDdndwgggEMysNy2VGsb+1wgywN/9vy8cv6LmNeUPoEeCoKx9+ypKQBIAgIweOCcQSDc0xncd8AECoQ8BUlufAMU8IwSqPqsItCwJQ6Ctzzm5qFqECcUPSANeQXFgGFQTLkDLobdU20TIgY8GHfrXLyGehuK28SD/QB7NlW0XA09ksx7DrQ3PnmLMC59FjVYtulSrUq+LQjqkZbs1i9fBcb6IC+IvEBeNe/fmBYlydOikSbnKf5MYPL7XU49+the2yIyYO+pSEmkNq6rflxnx62r1YwEAAAA=");
 
 export default PersonMilitaryToPerson;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-board` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-board?s=duotone chess-board}
  * @preview ![chess-board](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chess-board.svg)
  */
-const ChessBoard: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM384 96l0 320L64 416 64 96l320 0z" />
-        <path d="M192 96l-64 0 0 64-64 0 0 64 64 0 0 64-64 0 0 64 64 0 0 64 64 0 0-64 64 0 0 64 64 0 0-64 64 0 0-64-64 0 0-64 64 0 0-64-64 0 0-64-64 0 0 64-64 0 0-64zm0 128l-64 0 0-64 64 0 0 64zm64 0l0 64 64 0 0 64-64 0 0-64-64 0 0 64-64 0 0-64 64 0 0-64 64 0zm0 0l0-64 64 0 0 64-64 0z" />
-    </Icon>
-);
+const ChessBoard = createIcon("chess-board", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABjAAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCWwsIAAE2AiQDCgQgBYMtB1IbfwXIjtMF9S5DHqx4+H6tt3Pf65n60xOGDjCqRAGTA/JxzDJRYbdoxNTarVWp1ZP/7+jT37vzf/434DP603hv+iALfI3meQIJLs27BBKKpPMMrN3ZEg7FPjnWIMbxbcfnAUW8yTfVSPfS37iV/wcw/tXfTZJGBhDdALBs07q1fraileLv9ifib2sQEMtBJZCRMUiAhbLAIIUKhULQSm20oq0igKjD78ugjg7cwm1AAZJCKop5jf6NAY1mrXOxsVkrt5XNUpQhmgH8ZgQ/osTKoDsSOqWmUNSxLFEuvnzby7ERb/uluDfu3ajO8WbCh4E57o9/P7rTnpRTp8jRefj7bu//G/b3wb/92LUU9807V4+2WypWuxeXPHnane7lUmX37k+XImpIlyzZeBoEgl8Xmrir68L/O5oJ/PP5X/WHpN2Kn+k9OiQQ5IntibbHT4ifAgCQ4qLh8dNSBLL9CviundwWIJQIkNSVAmQDdROgUJogQM0QswSoK62TRdEQetnhQNLJGZDNdgkUevkIahb6La/rFdksJaOSfoXpqym06lw1bfLUan41rTXZ0oR0vKDa9sdejLNxcNVBp5x03gH7HXGekGetrS44YfUKXuWDKtNMNlVlvkrczfWNJD/rnCNjVX7KAtX7bKyL683jIEqQcrq7WSZS5J77Dh84d26S2tqTNHzRm6vKDAA=");
 
 export default ChessBoard;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `podcast` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/podcast?s=duotone podcast}
  * @preview ![podcast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/podcast.svg)
  */
-const Podcast: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 224c0 92.5 56 171.8 136 206c-.1-.3-.1-.6-.2-1c-3.1-19.2-6-39.8-7.2-57.1C80.1 340.6 48 286.1 48 224c0-97.2 78.8-176 176-176s176 78.8 176 176c0 62.1-32.1 116.6-80.6 148c-1.2 17.2-4 37.9-7.2 57c-.1 .4-.1 .7-.2 1.1C392 395.9 448 316.5 448 224C448 100.3 347.7 0 224 0S0 100.3 0 224zm80 0c0 44 19.8 83.5 50.9 109.9c1.6-5.7 3.9-11.1 7-16.2c5.8-9.7 13.5-17 21.9-22.4c-19.5-17.6-31.8-43-31.8-71.3c0-53 43-96 96-96s96 43 96 96c0 28.3-12.3 53.8-31.8 71.3c8.4 5.4 16.1 12.7 21.9 22.4c3.1 5.1 5.4 10.5 7 16.2C348.2 307.5 368 268 368 224c0-79.5-64.5-144-144-144S80 144.5 80 224z" />
-        <path d="M224 168a56 56 0 1 1 0 112 56 56 0 1 1 0-112zM160 355.8c0-35.1 31.1-43.8 64-43.8s64 8.6 64 43.8c0 33-12.9 104.1-20.6 132.9c-5.1 19-24.5 23.4-43.4 23.4s-38.2-4.4-43.4-23.4c-7.8-28.5-20.6-99.7-20.6-132.8z" />
-    </Icon>
-);
+const Podcast = createIcon("podcast", true, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABoAAAALPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCSgsIAAE2AiQDCgQgBYMtB0obZgXIHoNt6/FxxDARa7VuqcP4HE2+4PlX7uu+JAM4I6niGugkVdv+syV8+vEfLvf+3QYZC+9ay4vGxAs4wDTKAo6jiZs2eKBzEVD7/fY+ps0kimUxD5VGIz9CozFU0RBJ7k07ofn09/P8W9MHfPxds8+LCzxXcT6Bna/pT6PAhlEC0xnaBudNbvPFUBjad8CEk+wa8FDLzDvAdvc/gPKJbg0obnEAAEg2AACgdqark0cf8qHCu/5rQK6oAAFIOwBLgAYaRBIAFTQBkQwLDEPgiP3/gyP8/1sQAEgiDtYMZ7TJGmAXAGAAKLYo3nhFpMrSErxMr6xyH7yuHww9kHAi/FDE4eRuFkg46SB64GoORB4J3RO4x32Tsi/4UPSxcHmuDeFx6wKtpEPGnawL8qXrceZ57H4qCp8rORC6kmZ4W384s5K80vam+6j3rK5nPZ47l1RYcSb6ePrZ4uupp6OOpOwNAvLHBXb6AdutcWzjdnzP/Izdjbuyzzl8vd+vg79A5q5bCghb3JGXkpI6YHZ85ehqls/VUdP4+gB3DtluaLxA6MzPe73Z1J8tGKKE8PG1Na85vArBm65uGjPvn2TYH46o8MFn79HQkZKbay+/eSSf6UbRzk6yx7eX25pC5VBf2GgtHq9fEAkABAhuDL16GZ7VeE32UAB83f39H3p2/yPZUzsArhQAga76ZzAk7AFgVALAr1FhnriwRwcQoHVTwK/qaR8CINyBAFCcuRMAWgRfAsBwl04AOIlWSAA4c9dFk3g3RKChFSieZgKtyFJgBLoKnFR4GToLDHGPI/8w8T+DKU1tqHGcTdTUldaXTqay8ISxerihdLXjn+dN5XAt40w3zRxjjTHRnBY5S2cy11RNc0SjL7JyZclhlbG7i/tKbyucZbaJ49L+UcrZ890U8+Y7p8LJKACQdyFXaUhMtM+MuTEfj5H5Wpt+ben9BQAAAA==");
 
 export default Podcast;

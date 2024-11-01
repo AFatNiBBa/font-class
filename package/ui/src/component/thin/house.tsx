@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house?s=thin house}
  * @preview ![house](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/house.svg)
  */
-const House: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M293.3 2c-3-2.7-7.6-2.7-10.6 0L2.7 250c-3.3 2.9-3.6 8-.7 11.3s8 3.6 11.3 .7L64 217.1 64 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-230.9L562.7 262c3.3 2.9 8.4 2.6 11.3-.7s2.6-8.4-.7-11.3L293.3 2zM80 448l0-245.1L288 18.7 496 202.9 496 448c0 26.5-21.5 48-48 48l-80 0 0-168c0-13.3-10.7-24-24-24l-112 0c-13.3 0-24 10.7-24 24l0 168-80 0c-26.5 0-48-21.5-48-48zm144 48l0-168c0-4.4 3.6-8 8-8l112 0c4.4 0 8 3.6 8 8l0 168-128 0z" />
-    </Icon>
-);
+const House = createIcon("house", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABbAAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBZQsGAAE2AiQDCAQgBYMtBywb4QTIPgzwYEhD/YYCispWLV5lVNSIuFh4fM15GP4rHr72+527uw+VJFYhacL7T1hiiGQv1SzjKUNIYhW/Z8z9m5jezHCxRqOL1kWLNBKNUtdIRB5xPLzd3r+TtqitkGpeaAlFGp1YeODR8e+AhYHzyQwG1QYstc/KrLlC9NMfGGT+r6kXZUcH+I0OJdqqQQro1vW8wSY6b5CBzYazgdKYp9tkBHkE4RcRVikhHafH1xlKvNsiJt0IgKP6pvHP7o4kZwDRAQBY2pgcxleBCkGvGfFqEATEMmAYISOjH4FZQoF+IsOgKIIfKmb+DwwCiDr8GxMoqLAGtgAUkORShlld1VrW56pp+1nX6Nz8ah0lcRPLhtQeE3knqcWF9d2yMUdiI9ZCXJteggoRt2GFOxuoKR4sb45pEldWpQszqGk0p8v9gmDr3K3/jumuySR+oOjUp9ukF73ikiZ3nBJ8bXD4i+4Z6lsvCxnbdYbx3gxOZb3wvjQDg2dqre4JNxAI1jbL/Kva2b+pBP4+/+3BlJeO8gIaJBDk8aKW0qIBOURwluKQH58kkNQI4VVbXAoQmhAgqdMkQNZHh0DRZAyByqBqBOo0WSEUpVHosTxA0mIHZDNuQdHjA1RmfWd1emKhJQWG9LNL75Fo9zEuLynjBlZbuhwtQllt5GszekMjMZzEjlMnrmzbsu9KMBeGy2vHeiy62xexciXKsAbs7r7qMym7cGn/LPkh6zTi92nUjT09BkeAWSdUkkSkKuwAAAAA");
 
 export default House;

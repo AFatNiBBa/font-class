@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `binoculars` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binoculars?s=regular binoculars}
  * @preview ![binoculars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/binoculars.svg)
  */
-const Binoculars: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 64c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 16L96 80l0-16zM59.6 158c4.8-26.6 28-46 55.1-46l85.3 0c13.3 0 24 10.7 24 24l0 24 64 0 0-24c0-13.3 10.7-24 24-24l85.3 0c27.1 0 50.3 19.4 55.1 46l5 27.3c3.6 19.9 10.8 39 21.2 56.4l2.6 4.4c20.1 33.6 30.8 72 30.8 111.1l0 66.8c0 30.9-25.1 56-56 56l-112 0c-30.9 0-56-25.1-56-56l0-136-64 0 0 136c0 30.9-25.1 56-56 56L56 480c-30.9 0-56-25.1-56-56l0-66.8C0 318 10.6 279.6 30.8 246l2.6-4.4c10.4-17.4 17.6-36.5 21.2-56.4l5-27.3zm55.1 2c-3.9 0-7.2 2.8-7.9 6.6l-5 27.3C97.2 219.5 88 244 74.6 266.4l-2.6 4.4C56.3 296.9 48 326.7 48 357.2L48 424c0 4.4 3.6 8 8 8l112 0c4.4 0 8-3.6 8-8l0-264-61.3 0zm282.6 0L336 160l0 264c0 4.4 3.6 8 8 8l112 0c4.4 0 8-3.6 8-8l0-66.8c0-30.4-8.3-60.3-23.9-86.4l-2.6-4.4c-13.4-22.3-22.6-46.9-27.3-72.5l-5-27.3c-.7-3.8-4-6.6-7.9-6.6zM352 32l32 0c17.7 0 32 14.3 32 32l0 16-96 0 0-16c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const Binoculars = createIcon("binoculars", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABlQAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCeQsGAAE2AiQDCAQgBYMtBzEbegXIhofn7f79tc9lZhI/YULi2xWtzk0RlKw+/D/XfH7Pjw7wGx1KRC/SCjzz+QQGHGWRNjoc2MBmE9rzCdjUTSlKBAXpJyJBXDdk/jt6fDtDOb6M+1RIj6dfcG990Tiq1U0klRKA6AuAhds3r/XdwTgY8fP/HxM/W42AWAgKgRJK6BBgjpJAh7ICZWXBwfj/f/wHFgQQVXp2AmXU8BxeAXNkJJVyuf+yppb+eaVXeVteyXZf3xzxaJ7HnY0PE1nElieReblVhHzEk8ONz2ltjcdbG+N94rGGh4Zk8UrTI20RWXAE109ujifb25fe0dAST41piLeIhxvzeLS5FFmvLM9SJO9tHtcU73S1xSPZtjzLjwdxfTP2GvRG3zeOD/zlzF/sv7b3bdzWu9AIfG1fB/QdvHfyMY41brWxscUCLRo3btV47NjkVfb+NcCR2YvVTv538cUu/u9k7TYL3Mb3Lzbn8AB/7V11Sq26ypkThrhq3GLVAxc7UK2b2zZX1Xretti4qxosOHOVam3MtYXw5yX9cSAQ7H69+Hd/nzm/1vMEDn9x8jf8jPx/MElvoC6BoDTm/zH2JJAIAECKKw1KEEgeU6HP6OkRAUKGAElVJkBJu74ClGVGD6joMvWMqsxmJVHuITTYa0DS0yVQMs3VUNbgQ6iY4/tCVUOUnJRxMeYfMXEZI0tnFRPHTShmFZcVnfU7qkzOLh6bI65MHSNlpzNd5EKXO8PpznE5YZdaW77CBZZZ6FJvVJhonAkKsxTb9WdxGxUudZlz1vz+NLMV7ydHuNLuP1KcRHEnkdMnmJuyU8+58KLTrjj/lEsvAwAAAA==");
 
 export default Binoculars;

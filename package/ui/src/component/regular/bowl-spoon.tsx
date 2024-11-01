@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowl-spoon` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-spoon?s=regular bowl-spoon}
  * @preview ![bowl-spoon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bowl-spoon.svg)
  */
-const BowlSpoon: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 144c-42.6 0-64-28.2-64-48s21.4-48 64-48s64 28.2 64 48s-21.4 48-64 48zm0 48c52.2 0 96-30.6 108.5-72L488 120c13.3 0 24-10.7 24-24s-10.7-24-24-24L220.5 72C208 30.6 164.2 0 112 0C50.1 0 0 43 0 96s50.1 96 112 96zm64.5 266.9c-4.5-11.7-13.5-21.2-25-26.4C90.4 404.8 48 343.3 48 272l416 0c0 71.3-42.4 132.8-103.5 160.5c-11.5 5.2-20.4 14.7-25 26.4c-1.2 3.1-4.2 5.1-7.5 5.1l-144 0c-3.3 0-6.3-2-7.5-5.1zM48 224c-26.5 0-48 21.5-48 48c0 90.8 54.1 169 131.7 204.2c8.1 21 28.4 35.8 52.3 35.8l144 0c23.8 0 44.2-14.9 52.3-35.8C457.9 441 512 362.8 512 272c0-26.5-21.5-48-48-48L48 224z" />
-    </Icon>
-);
+const BowlSpoon = createIcon("bowl-spoon", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfgAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCBAsGAAE2AiQDCAQgBYMtBzEbBQXIjoTcROtn8YEirKG0BM/nPf6cm6R4KJnS+uQKWlnawcr/BYS/v3n+zz8F+IxCGwuXBjImRnOeJ5BY9/2Tfu480wAwttRtXz47r8cgeEQMbRiadehQyOPBOE1BOj+9hFODqfhae8eTFBmAaAaAaWtWLPLYB/FBxIv/3028aAECYhooBTIQOgkwUSZMIVcilws+iP/xH1gSQDSQH5lAjgbYhX0BOUjyPG/ZsXWHalHPV1eLyoZr2kScE8e0PbfP1a3PdnSrs3q6d0DEjR3rcW3HC3rX4oL+N4y+q+91nS7ud/2odRf0fmDwLd3rcdnAm8Ze1e6sSiVOaLP6qlYRZ7V7e9rj8y4eVY17u74448k1F7Q5p3et+w3Nbvi220u7vWT/IT/gv2bN/vPDD3i7oQc8wZO3Vi1r3XpZ1a1PPnHAD1/91ai/vvphauXAhp/e/0BxmeKB+99uu61ncZqi1dFfDX2HlzMzR4264fVlp1n2+g2jRpmZvfzO0MuAQHDO8YfvvqXpxF87gY8e+P439hb9/1iSbkAjCQTZwP8H2phAIgAAKQ7TPUEg2SQHVmvOESBUECBpoCJApqNmAuQqBghQ6GKUAA1UrJCJvLHQyqYBSc2BkBntCMi1cicUJnrWbaBVZFKThCJ99NJnj2adlcMGDy3Hl8tcyeoRfD+h3Db6HqbXD0S72d9+DrHLTns6JO4gi4JD7Wt2h2d5UGmYwYYqjVceV8/Xq+1ykIPtaX/78cgE5X2nr8P66X6wk+QdLpMkIlWebmrQwQfsv/9+AAA=");
 
 export default BowlSpoon;

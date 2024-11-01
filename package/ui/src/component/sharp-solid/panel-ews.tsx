@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `panel-ews` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panel-ews?s=sharp-solid panel-ews}
  * @preview ![panel-ews](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/panel-ews.svg)
  */
-const PanelEws: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 0L0 0 0 288l16 0c44.2 0 80 35.8 80 80l0 16c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32-32 0 0-96 96 0 0 96-32 0 0 32c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-16c0-26.5-21.5-48-48-48L0 320 0 512l512 0L512 0zM112 64l96 0 16 0 0 32-16 0-96 0L96 96l0-32 16 0zm192 0l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0zM112 128l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0zm192 0l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0zM416 256l0 192-128 0 0-192 128 0z" />
-    </Icon>
-);
+const PanelEws = createIcon("panel-ews", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABeAAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCJwsGAAE2AiQDCAQgBYMtBzAbJwXIhof/n6u67ydVpztpyBBniEgB0yoGxWoU2iUqtyzcskW1a2v+L/f8bNMBfjuyQxvL1m5u3/t5Aon10jHFs8ASSSABa3HbVRDREEdInCGPz7JnNEjvpB/wenjT+NMQz5B0ZgCiAsDqPTu2a/0Wv0V83/6A+N5WBMRqUAtkyDBcgGUygeFyNXK54Ldot8V/YE0A0ZTAyeM5OnAbjwJykDTzfHGJajrLRne+2zxcnOnp7UlRxgeTH4wQTwx4o3x50FsRUUREGeg3iLcn3R93d8rDoRHvDnxzQhGiNxpHy6IURRFRlnr+zpXkLuGx58Y8rB7+PfqH0z9of4VapTq1Oyo9L7zQkys1AR1l2lzRp8+dO/mRRSX78adZlRa8vvLo0au1Ck207AJfLTlXHm8lsSe0UAqI287f++3/I73L/usoE/jj03//Vv+K2q0kPUSHBIJsWnuagwkkAgCQ4rYxCQLJZU3Jq3Z5U4BQIEDSVAiQGaYSIFeYKkDDSPMFaCrskIm8U+jvUA+SLtdAZoFHQa6/90DDMl8XmvpHBnsc5HC/fskbxtD6XfXsGbPqJfVmR8uDE2M3l9an1Um35cRkfNBpV1x20yknnXNzRF63vXzLJRv2iPU+qDbbDLPUlqhv95/v3+2U624454rLfpul6vfDSW7vz5+MjSShnaMuSUTq/EIS0089cgM=");
 
 export default PanelEws;

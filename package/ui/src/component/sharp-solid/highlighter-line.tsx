@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `highlighter-line` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/highlighter-line?s=sharp-solid highlighter-line}
  * @preview ![highlighter-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/highlighter-line.svg)
  */
-const HighlighterLine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M231.1 231.1L448.3 82.8l13 13L312.9 312.9l-81.8-81.8zM128 224l0 96s0 0 0 0L80 368l96 96 48-48 96 0L544 88 456 0 128 224zM70 403.3L4.6 468.7l-4.7 4.7 0 6.7 .1 16L.1 512 16 512l79.9 0 6.6 0 4.7-4.7 33.4-33.4L70 403.3zM248 464l-24 0 0 48 24 0 304 0 24 0 0-48-24 0-304 0z" />
-    </Icon>
-);
+const HighlighterLine = createIcon("highlighter-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYAAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBTgsGAAE2AiQDCAQgBYMtBzcb1QTIjtMF9yWrHOPh+7nPc1+yWKa0ihEckEcav66Aqo7HM8vqn8yy7xPXPP/zpwcpK4JHi7KkKP0G61WcT2CAs900iiAK7EVx5i0bLZOyX5JEk/T4XY9nR8jjTXZcGelSeoET5UfjjxaOk1RlAKI+AEYtmDPNo4/xMeJ56Q7x3BQExChQCGTI0FqAoTKB1nIFcrngY5RK8h9YEECUs09OIEc5xmIhIAdJnudVTRrVqlVWJ59fq6x6wYK5C5rE3Jg/XzgSR2JozIsRUSuWxPxYOXfugrmNQwhRq1azGBHz51XXqha16kRUd6ipX/OvvfUvfH/58kxQ0JxZs9aXr+T9oWTFCiUrfZhgwQITPgxq5CiGx6hQf8OCvuobP/7G0OYU9NR8ouKBuKjR9d6TVtQb+r+yVgKfH/6v3q70KI1MNaiUQJB1LXW1NI0EoQYQptivg9OxQDJUDnavtZ0XIFQjQFKuWoBMK/UFyFXrIkCZtvoJUK7aHJnIq4TGlnUsqW0XlunvAJZr7BZWZqjHYbnGkeGJQwP3m0sePwLj1hW9uvcsBhfLUuMhwqTlIcW22nF/HOpEO623w3Z7rbPWJnsHaLdpyT7bjPfAcTpU6KW7ngqDFcfN8/b51tltj0122J5XGaK473S035/ciYzEaHsrJIlI9UFmrtvd7c0BAAA=");
 
 export default HighlighterLine;

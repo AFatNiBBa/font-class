@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `viruses` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/viruses?s=sharp-solid viruses}
  * @preview ![viruses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/viruses.svg)
  */
-const Viruses: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M168 0l24 0 24 0 0 24 0 13.5c0 35.6 43.1 53.5 68.3 28.3l9.5-9.5 17-17 17 17s0 0 0 0s0 0 0 0l17 17-17 17-9.5 9.5C293 124.9 310.9 168 346.5 168l13.5 0 24 0 0 24 0 24-24 0-13.5 0c-35.6 0-53.5 43.1-28.3 68.3c0 0 0 0 0 0l9.5 9.5 17 17-17 17-17 17-17-17-9.5-9.5s0 0 0 0C259.1 293 216 310.9 216 346.5l0 13.5 0 24-24 0-24 0 0-24 0-13.5c0-35.6-43.1-53.5-68.3-28.3l-9.5 9.5-17 17-17-17-17-17 17-17 9.5-9.5C91 259.1 73.1 216 37.5 216L24 216 0 216l0-24 0-24 24 0 13.5 0c35.6 0 53.5-43.1 28.3-68.3l-9.5-9.5-17-17 17-17 17-17 17 17 9.5 9.5s0 0 0 0C124.9 91 168 73.1 168 37.5L168 24l0-24zm72 224a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm-48-64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM597.8 266.2l11.3 11.3-11.3 11.3C574.5 312.1 591 352 624 352l16 0 0 16 0 16-16 0c-33 0-49.5 39.9-26.2 63.2l11.3 11.3-11.3 11.3-11.3 11.3-11.3-11.3C551.9 446.5 512 463 512 496l0 16-16 0-16 0 0-16c0-33-39.9-49.5-63.2-26.2l-11.3 11.3-11.3-11.3s0 0 0 0l-11.3-11.3 11.3-11.3C417.5 423.9 401 384 368 384l-16 0 0-16 0-16 16 0c33 0 49.5-39.9 26.2-63.2l-11.3-11.3 11.3-11.3s0 0 0 0l11.3-11.3 11.3 11.3C440.1 289.5 480 273 480 240l0-16 16 0 16 0 0 16c0 33 39.9 49.5 63.2 26.2l11.3-11.3 11.3 11.3zM512 352a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const Viruses = createIcon("viruses", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAAB2AAAALDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSSFBAsGAAE2AiQDCAQgBYMtBy4bggbIjsO44fsSSxmclR0Pz9v1de6r6o+q6Rq1xjWwdh3BykBEYP9oicxBPkgXGdzJ3Pr+/99PXyUNMGkEMxn+uG8RARKtEQX6j/8zwChvGg3w28BmE9T9vbsPB+AFz13D1gXy+Ce7W4P0QvoRj7kfGj+Z4m6S0QxATADA7lNOON7XB+NgxA+DD4gfHIuA2A1qgQwZpguwTSYwXa5GLhccjMFA/AfWBBBDfGYkkGOYmE8sA+QgaeT5A6OTL5pcNpr5yWWjOKMsSiFemP/60m4sjcVxB8eKvEXRiremDNpKsKgoXus9vxjb2jK1KJZEZ5a7P48AaAk/9eKCNxa1AEzmLY1ujE3twGBpWb457aUlHUGcwm67315ovyMiTnqu+2zn6dYz7T13dCKeLR5sPe329jPlQ93n4rx2p30NdrAi0o5WYOscDQIEXMjZwezghK07bOliODJYls9e0T7R+t05/Qn9X2a7mDe/6vVW9VSmXnra7hf4+S9oPXPvO03YwjrWfOfeZ1rwAmgD2H3apdOakrbX0zRtF7Ra8nIlrF5utVIwtSo68sDBqjoYGRpU93N/Vd0ffuayMb+sL9199x0TcO077r47jekXfKo+6qheF/PdeoW17qwPfWOzCScCZ1hf4p0VJ5106utAIPj17xacM37bbyNlAoc//ZfseYOv0+2pjxEJBNmywTJnpttB6AaQSnGzOYAtGpRmaPCZOs6zAoQCAZIhhQCZaSYIkCssFaBhpvUCDCmcIBP5qNBylq1MxrlOmdngFmWu5T1lwzbfJIe0IvtU4EWHH9UsRzTZ++nq1StW1Vvq0boCvf2ENb+1nu1ZdLPsW4zPutg1rnaji1zoMjc2FNc7PnOTqxwByff7otpqK6xS26Je3bprObmRut4NLhtG66nYqt4/scjN8OjF2J/4etfYlCQiDd982fUfHAAAAA==");
 
 export default Viruses;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `glass-water-droplet` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-water-droplet?s=regular glass-water-droplet}
  * @preview ![glass-water-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/glass-water-droplet.svg)
  */
-const GlassWaterDroplet: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M24 0C17.3 0 10.9 2.8 6.3 7.8S-.5 19.4 .1 26.1L36.3 446.2C39.5 483.4 70.7 512 108 512L276 512c37.4 0 68.5-28.6 71.7-65.8L383.9 26.1c.6-6.7-1.7-13.3-6.2-18.3s-11-7.8-17.7-7.8L24 0zM73.5 319.2L50.2 48l283.7 0L310.5 319.2l-9.3 5.2c-16.2 9-36.2 7.3-50.7-4.3c-34.2-27.4-82.8-27.4-117 0C119 331.6 99 333.3 82.8 324.3l-9.3-5.2zm4.7 55c29 8.6 60.9 2.8 85.2-16.6c16.7-13.3 40.4-13.3 57 0c24.3 19.4 56.2 25.3 85.2 16.6l-5.9 67.9C298.8 454.5 288.4 464 276 464L108 464c-12.5 0-22.8-9.5-23.9-21.9l-5.9-67.9zM256 196c0-24-33.7-70.1-52.2-93.5c-6.1-7.7-17.5-7.7-23.6 0C161.7 125.9 128 172 128 196c0 33.1 28.7 60 64 60s64-26.9 64-60z" />
-    </Icon>
-);
+const GlassWaterDroplet = createIcon("glass-water-droplet", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABegAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBdAsGAAE2AiQDCAQgBYMtBzob/gTIhocHvf47N8k8ZL6RDxgVvURFdS7Kdctqt535v5zeeH50gB/sxA5tbFq0QBbI3C3uJZBYL98ahdvCLFHM2tkN3iBikISUDxm2l2GygyxOxS0lksfJj7jpPjT+1NJlEqUUQDQAwIRli+b4+rf4LeKHygfED2YhICaAQiBFijYCjJYKtJEpkMkEv0WlQv+BBQFEFX9LCchQhZXYDshAIsuyFo0bNS2X6mZLy6V81ZUm95quiMc93uxSjtd7vd16VTxs9iCvs2KlunDdWB5N4pWeb+VXur/RtVmHD0Y9LF9t+smwxfGocx6vtVq67EnPiLdaPWjyqPsbLdYpOqHjWw3e+rvDj1t/1Pyr/Ni22k4v6z1gwNdv+DqKvatg7bZt5fkDxjavF67VRrN67nn2wMtFcffCs5eH/rT7uwYNPtn9V2mSQQPeMKFTadI77zQq0/r3zz77vXW5UU2DBi+8oAk1QBw06uJPy9fVH/1fTTkBf3z67/9JqLhzvo4LyVuokYAg7V3pbXWcZ6DKEgFOEkd1xDcJJBbK4F3reCBAyBEgUSUXINVaAwEyuV4ClLQzRIAquUVSkdUKTawpIFHHAZAa6gzINPEeKBntG6dKk0hFjBEQ5oOXOLVFp6wrBvTtX4wshpnMSg1lFkcV00r3o7rTA1tttc9eh22x2Q6HG/ygOf4Re0zlsCl+qDBAX/0VRiq2y/vNS21x0CE77LPXrjJKcd7u7ig/3gN6wpMOFEokRNL4Pcl9hFDqc8mN3VsOAw==");
 
 export default GlassWaterDroplet;

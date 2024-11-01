@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-wheat` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-wheat?s=solid building-wheat}
  * @preview ![building-wheat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/building-wheat.svg)
  */
-const BuildingWheat: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 48C0 21.5 21.5 0 48 0L336 0c26.5 0 48 21.5 48 48l0 416c0 26.5-21.5 48-48 48l-96 0 0-80c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 80-96 0c-26.5 0-48-21.5-48-48L0 48zM80 224c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm80 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm112-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM64 112l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16L80 96c-8.8 0-16 7.2-16 16zM176 96c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm80 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm384 80l0 16c0 44.2-35.8 80-80 80l-16 0 0-16c0-44.2 35.8-80 80-80l16 0zm0 128c0 44.2-35.8 80-80 80l-16 0 0-16c0-44.2 35.8-80 80-80l16 0 0 16zm0 112c0 44.2-35.8 80-80 80l-16 0 0-16c0-44.2 35.8-80 80-80l16 0 0 16zM512 496l0 16-16 0c-44.2 0-80-35.8-80-80l0-16 16 0c44.2 0 80 35.8 80 80zm0-96l-16 0c-44.2 0-80-35.8-80-80l0-16 16 0c44.2 0 80 35.8 80 80l0 16zm0-128l0 16-16 0c-44.2 0-80-35.8-80-80l0-16 16 0c44.2 0 80 35.8 80 80zM528 32c13.3 0 24 10.7 24 24l0 104c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-104c0-13.3 10.7-24 24-24zm96 64l0 32c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-32c0-13.3 10.7-24 24-24s24 10.7 24 24zM456 72c13.3 0 24 10.7 24 24l0 32c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-32c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const BuildingWheat = createIcon("building-wheat", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAAB8gAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhgSFHAsGAAE2AiQDCAQgBYMtBzUboQbIhof//Pv6fere7jV9X6NGrpH1+oOIoFxSNNmHguQ7ZSRMXPP87f29VoJNj7IKyrb0qLJx4us0omhCs9mEccvc6InZA6OPq47LK9Txd3WzDtJ96VPcEn5p/GCkm0m6KgCRAbCh/9AeR7+NbyM++f8t4hO7EBAbQBGoUGGMAKtVAmPUCmq14Nv4/3/1H1gIIDrFYHKoxiBiOrEUewxJruvpeZBnHDhoEAT09Pa0OnrqtnyuqR4YHnHPtJ54auhdI1PcO+TOyU1E3D/s7qlPdjQjRBNPw6OqI3cOcd81tBX3rCW+e1hzRIikMVWqX3PWZn4k5FThwenPLr7e/cisF5a1UGMEtAngOCw4NG/PfH5cxIi3Zjw3NppWg1uL6f39T40U905+elTEA9OOCB13rKitj5/4fH7+pwmfnvWpW6vP+HJ+Mf/Lz6pHIS43n2J/xbcs+50yOmPfK9/2Fr3fFgzZ11dKKeC3urhvHu+Li7M8Y/J1+3LO0T4zZxkfvj7a4M7yJeC6bl3O1HdmOzIuPYUy5Nb5+umIvl8ODD3H0AOF5+R1pZSeqqC6Z4aHfPo+EAi6vttz5sl9q38d0Erg+/d/+QNe9//RdH16HgMkEFSz/5/thHQ90BYh9qa4ysQZRaCuiiz+1G53CxAaBEg6NQJURssC1BqzBOgwzhIBOjUOqUTdJQxxok9Oul1Krix1Dbk2xBvkDqt94Ok0JKrXRnjTC39ak23FwBaismDu/LKyTCY0ojeB7zWuKquV06+Cghl0pbNc7CJXONMZznUFgi6zx3+lC22do9/y22KBueYrViq709uyNjde5nLgj4v2d2OVcr51uqvmy8+gmiTGXSgmSUTq/a5Uc67+xAE=");
 
 export default BuildingWheat;

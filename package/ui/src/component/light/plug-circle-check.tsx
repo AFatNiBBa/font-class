@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-check?s=light plug-circle-check}
  * @preview ![plug-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/plug-circle-check.svg)
  */
-const PlugCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96 32 0 0-96zm160 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96 32 0 0-96zM16 144c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 64c0 83 63.1 151.2 144 159.2l0 96.8c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96.8c17.3-1.7 33.7-6.2 48.9-12.9c-.6-6-.9-12.1-.9-18.3c0-6 .3-11.8 .9-17.6c-19 11.2-41.2 17.6-64.9 17.6c-70.7 0-128-57.3-128-128l0-64 256 0 0 56.2c9.8-8.1 20.6-15.2 32-21l0-35.2 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0-32 0L64 144l-32 0-16 0zM432 256a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 256a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm67.3-187.3c-6.2-6.2-16.4-6.2-22.6 0L416 385.4l-28.7-28.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l40 40c6.2 6.2 16.4 6.2 22.6 0l72-72c6.2-6.2 6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const PlugCircleCheck = createIcon("plug-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABmgAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCagsGAAE2AiQDCAQgBYMtBzgbcgXIHoWNY1mKJI0z51cR1O+ne/dfUkIH7ABIWDS6RqMjEqrK1IhMbYXuxKKx388ipvceIqoJmmky0QxfrH5PZOJ//q/5/NKuAT8fwaH0IgKk/N4o8/kE9rzaqwBHx3s+UdyoXuFBzg/mX3aAEp/DGPzkE88zuDMNFX+UdQOpVACIXgDA0UVUCM5/0I+g5+YOED+CQEAcA8YRKmgfLlDs2oNTfMapomQ06D34D2RAAFGH/eEEBa14AHwAoIBUL3wiIpaqqrKi/OJ8sR38Ikn3CgNyoA4i0cSSzvBBeR3iy+XEB2R8/bAi0ZzeEHUozovc7p9yicQJ8aBHJErDikMKIjFXOkQzyqNoVxrRnhbp0Z1VGaMO1XG9OVGeXieiI7M16jBddTwU6bHfN15Gu8mKw4Fo3L1cOBnSkNyAvAsNKsbRsAJ3UWrxL+c59xlt3xI/GhLpmPRP5OlpI6K1oBfuJK+aXjJQe0eGvgIhYWGhi+lwL2t+d7Dpt5AWpAybFVamMQW8//ypoeFFpqY0CnnZLugl5BJHV5djwcOjB/OgzvNwYeEJTwiosbG6iJ8f5PsABIL/r5ef0iSd34REeQC/h//fyPVonvO45yKgVYKgmn03RnK6A4hPQDqjFrdjhIF0hzVt1E73IBDaESDVtQtQGSKFQNFuBoGaUTYI1LU7wSuKMMKglAykTpegsq4FFIO2QM2uu1TdYPAeneqxpX4bZvUtQj7DmIWpOXNkrXmJdsDJWr8TG+zVr+V1BnAvcpUpVS1HtgLVBa5SSLZGCd8uwscPMRZMmWMcscmlq9tj5ahUpUCZUmMQJ2z5pL7a7tYGMMDDFlyWk5JI6beG0+Q3HrvJiQ4A");
 
 export default PlugCircleCheck;

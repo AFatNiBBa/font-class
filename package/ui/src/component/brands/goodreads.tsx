@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `goodreads` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/goodreads?s=brands goodreads}
  * @preview ![goodreads](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/goodreads.svg)
  */
-const Goodreads: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M299.9 191.2c5.1 37.3-4.7 79-35.9 100.7-22.3 15.5-52.8 14.1-70.8 5.7-37.1-17.3-49.5-58.6-46.8-97.2 4.3-60.9 40.9-87.9 75.3-87.5 46.9-.2 71.8 31.8 78.2 78.3zM448 88v336c0 30.9-25.1 56-56 56H56c-30.9 0-56-25.1-56-56V88c0-30.9 25.1-56 56-56h336c30.9 0 56 25.1 56 56zM330 313.2s-.1-34-.1-217.3h-29v40.3c-.8.3-1.2-.5-1.6-1.2-9.6-20.7-35.9-46.3-76-46-51.9.4-87.2 31.2-100.6 77.8-4.3 14.9-5.8 30.1-5.5 45.6 1.7 77.9 45.1 117.8 112.4 115.2 28.9-1.1 54.5-17 69-45.2.5-1 1.1-1.9 1.7-2.9.2.1.4.1.6.2.3 3.8.2 30.7.1 34.5-.2 14.8-2 29.5-7.2 43.5-7.8 21-22.3 34.7-44.5 39.5-17.8 3.9-35.6 3.8-53.2-1.2-21.5-6.1-36.5-19-41.1-41.8-.3-1.6-1.3-1.3-2.3-1.3h-26.8c.8 10.6 3.2 20.3 8.5 29.2 24.2 40.5 82.7 48.5 128.2 37.4 49.9-12.3 67.3-54.9 67.4-106.3z" />
-    </Icon>
-);
+const Goodreads = createIcon("goodreads", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABiAAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCNwsGAAE2AiQDCAQgBYMtBzAbNwXIHgPuzFjH0MlpWmmSMDQpo2g8YTx8raHv7+0FCDQA2UjA0nh2naqoMjhVYWpEprbxBfI/1tZ/SFKVxnRohAqNRspaaaRtiJ41DeVm0+X9//eb92EaVTIlQTKrYpJ4FTGbN6TuLP8QN/3NP+88CvBxBKGNaUsXL++iOc8TCDDr8m2JfNr+9Qvaf9swwUYUvoiQINFovByvBXKsMaCS9IlH4EV70Pim24KkLAAgmogAbB06zfD7i98A8f9BfLEDBMQ2wBCgQIE+AKv4An0EhpAsC87BcfQfaEcBRAXwvSSQUeIM9wEZJEWmCIy9WiGX4qkVsqKfhAgL/8Xd0t6MK9M+9OVpBz4s3sQnLdQTNwc37cxIxlo393Fx1UwNrjOEEEadhSA84xgz781797+bF4ajz9l76bEOA4uS0CRydy3SF+/TitXWq6eaj8wj9zKtod7KP/+GicjViPI98OQaK67++Nl+ykx77oNG526+idj4Izr77/YQcv9Y+tB8o+l5yImaJ4gmT/rJD7g1Xnn6FuNxmGb8/Lf/NUAIcj2XIph8pk2X9HySE/WSXV/rLeQGFxc+IAgE359ly1V++Z8hIgF83bO/9dP/f8GkLVElgaAY5cJGwQChA/hJKSrUwSCQ3EWGt1rnvQChBgGSCjUCFHrJAWQ1RgCUBmQAVKixiywyE0KbMYKkzh1QmDcHWZsdKK06GBXagh+DZASRX8A4o4QMQ8pENG4v2reeQYUVXrolu1nwz3ImALMQkZVREhYSVxJIgdkuSzNqsMEXKSVExdkV2Y/D12mPsIKiuKxM7VNiv6/4zfTyAMgkjDnNlSQiMWMYf718EQAA");
 
 export default Goodreads;

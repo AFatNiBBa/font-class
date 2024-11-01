@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-xmark?s=solid cloud-xmark}
  * @preview ![cloud-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-xmark.svg)
  */
-const CloudXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128l-368 0zm95-273c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
-    </Icon>
-);
+const CloudXmark = createIcon("cloud-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbgAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBVQsGAAE2AiQDCAQgBYMtBzIb1wTIjtRGecSPxMP/233fPrfq9QdUH7BDIUjJMbNJe03KSHjb1vds1X31bIeeioJoOYJOI6fGe61UwGclKNp5+LQgD/C/eAUq1tR3aTr8NpxNFGftdAYGvW6VPuWTDJsfNpsd5PF3dkaJdCt9iQv1Q+MHjZwhqZQBiJoAGDl/9lTvlkd5xBf/F/GFyQiIkaAQyJChqQBDZAJN5QrkckF5/P9/+g8sCCDK8KYTyJFjOuYBcpCkPG/XskqpWj6vSqny3I+HRbzdKrqf/hbfDX9n/rOBt+uo8qzjbKYNq+tulkPemKqLbzaiGBKgtfYSQ4PmjTmGB623wRgW14TbNddPLb9c96ULLf55DjStceXKgzyP0V9+OTre7dN39vbmJ27frlh7xsv3H1Uv9Rk9Y8eymt9++7OfBbRaNfRnifpyIBC02rPw3eU1hvxasUoC37/+5Q853//l6US6jYoSCLIu/3exJJ2AyAzASbFPK+OLAsl4Cd+1qusChMoIkJSpLECmiZoC5CrrLEBJc30FKFPZbJnIKwl1Le1EUtVOItPPUSJX1xOiZIhP7DJ1I3MpwSGEF13qOA2MXSp6dutRDCqmkSZ6CVemg4tlrcO+XOmITetst80ea62x0R6F7zLV22urcRY21g8Veuqmh8IgxXb6uD7PWrvsttF222TOYMV5q4N9dntHmAlZe/EliUhV/hbUux64fgA=");
 
 export default CloudXmark;

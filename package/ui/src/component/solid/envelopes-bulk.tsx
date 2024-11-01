@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelopes-bulk` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelopes-bulk?s=solid envelopes-bulk}
  * @preview ![envelopes-bulk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/envelopes-bulk.svg)
  */
-const EnvelopesBulk: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 0C110.3 0 96 14.3 96 32l0 192 96 0 0-32c0-35.3 28.7-64 64-64l224 0 0-96c0-17.7-14.3-32-32-32L128 0zM256 160c-17.7 0-32 14.3-32 32l0 32 96 0c35.3 0 64 28.7 64 64l0 128 192 0c17.7 0 32-14.3 32-32l0-192c0-17.7-14.3-32-32-32l-320 0zm240 64l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM64 256c-17.7 0-32 14.3-32 32l0 13L187.1 415.9c1.4 1 3.1 1.6 4.9 1.6s3.5-.6 4.9-1.6L352 301l0-13c0-17.7-14.3-32-32-32L64 256zm288 84.8L216 441.6c-6.9 5.1-15.3 7.9-24 7.9s-17-2.8-24-7.9L32 340.8 32 480c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-139.2z" />
-    </Icon>
-);
+const EnvelopesBulk = createIcon("envelopes-bulk", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhgAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCQwsGAAE2AiQDCAQgBYMtBzUbSAXIhqCyWWX1jA5GuzqkPiKyGB8AQN4DGa7iXbQI/udyfO9s09HxNzqUORu6sa1jrOcJnFCbegG2gcMsUWzQ3eAATseZ/i5Qxt/FVWqk+9PXuDX+0PhBP1eRdC4ARFcALN22aaNmK1oRX/3/NvGV9QiIpSALFCgwUIAFCoGBShmlUtCK//9n/4GZAKKDFEveW6IjLsetgBIktbLsP7h73z71Wnu5tV6rdt3QM+Iuoh4RD45/cTQKuLz3PVXbls3002Of7wcTN/a596CkXtXv7kVu6FnFPb0j7u2zX9ffEqv82N2mlTywedtmDZ7Vbg1xWa+76+0urjXsha4v/DT066Nfu/TTxnVc12jaL6u6dXusZb/Gddc1llz66DqS9ccYW12mKVfJJb8szmlNq5E1WlkUfXWIdnm7B87QNeeuymqPMoZsvvZwlnym2XymirpxQ4IPuBEIBN/dPOHVfV0W/NqpnsD3H/zyB39k/r+Z9qcX0EkCQTHh/wl2p8tkOe0XAMykOMewg28SSM5Xk55sc48AocIASQcVFAboCqXKeKgZbKaoeWKTQpSdhZ72gJC0OR0Ks1wMpZ7ehJoFPst00DOKK1G+juQfwYxVU3RlUJ46aUqel3dbOuXiEoPV+Vk7NOYcPjIW7nXUqU5xliMOO95ZE+YMG/NnO9mqI3qlH8qmmmSKbJ5s3X25fasjznCm453qlGid+bL/2BjnHE8fC6NJyjnNGUkiUuPIKeccOenU046cOfGrAAA=");
 
 export default EnvelopesBulk;

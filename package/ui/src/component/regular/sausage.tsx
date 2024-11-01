@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sausage` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sausage?s=regular sausage}
  * @preview ![sausage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sausage.svg)
  */
-const Sausage: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M447.5 69.3l15.2-41.9c.8-2.2 1.2-4.6 1.2-7C464 9.1 454.9 0 443.6 0L388.4 0C377.1 0 368 9.1 368 20.4c0 2.4 .4 4.7 1.2 7l15.2 41.9C346.9 82.3 320 118 320 160c0 88.4-71.6 160-160 160c-42 0-77.7 26.9-90.7 64.5L27.4 369.2c-2.2-.8-4.6-1.2-7-1.2C9.1 368 0 377.1 0 388.4l0 55.2C0 454.9 9.1 464 20.4 464c2.4 0 4.7-.4 7-1.2l41.9-15.2C82.3 485.1 118 512 160 512c194.4 0 352-157.6 352-352c0-42-26.9-77.7-64.5-90.7zM112 416c0-26.5 21.5-48 48-48c114.9 0 208-93.1 208-208c0-26.5 21.5-48 48-48s48 21.5 48 48c0 167.9-136.1 304-304 304c-26.5 0-48-21.5-48-48z" />
-    </Icon>
-);
+const Sausage = createIcon("sausage", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeQAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiBfwsGAAE2AiQDCAQgBYMtBy4b/QTIhofn7eI99818wPMBo5NDbdLJXVxRndzu/F/u+dmmA/xGh7Kn3hWPCTTn8wQCHWNZQllgmSZg7c5mmSDNKUkjyfHZ8blCHq/GFRVId6UPcDl/aPyiiXMkFTIAURsAoxfOne6t7+P7iPfLzxPvm4qAGA0KgQwZmgswTCbQXK5ALhd8H+Uy/QcWBBAVMZwYOT65HHsAOUhSng9qUa1CjXyBXVp1Y6vmrW7H3R2qxqONTzVogbmdnmz88bDX5rnogLhVVcgUd7U/32igiXV+qv1nC8uyu7uUOqy7p1HE7Y6fzf1oYaUp57EGN5t8PM8sf7zhraZtSrVLv7X+YMMH3jzyE2ekvE6dQfx9efrJK40q1YqxH3wwNv7ctfuZBxTy6OJ+T+/e9edqM3vM6BGOm2l1rUqNXpm5JPuQr3stjFIpFjaaNvb6+sPMvE5jO44b13Fsp3n6l0Eg2N1z3Z2VtYb9V7laAj++8sf/6Wek/FaSSqgsgSDrVu5mWQKJAACkOKBNgkAyX8LvWt0tAUJVBEgqqipAppnaAuSq6ipABS31F6CiqubKRF5FqG95A0l1u0FmgOMgV9+zoIJh3o5VVD8yPeO1hP/mpUxAaPywonePXsWQYppXBdVhY//QYtvpdMDVdYaVNthph33WW2ezfR25x/TkfttNWBHjfVGhtx56KQxRHJcelQUY22OvzbJ0PshQxf2gkwPr1p3BT5iyjwlJIlKlvavfMA==");
 
 export default Sausage;

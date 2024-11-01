@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-turn-to-dots` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-turn-to-dots?s=sharp-light arrows-turn-to-dots}
  * @preview ![arrows-turn-to-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrows-turn-to-dots.svg)
  */
-const ArrowsTurnToDots: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M260.7 36.7l-80 80L169.4 128l11.3 11.3 80 80L272 230.6 294.6 208l-11.3-11.3L230.6 144 480 144l0 96 0 16 32 0 0-16 0-112 0-16-16 0-265.4 0 52.7-52.7L294.6 48 272 25.4 260.7 36.7zm-9.4 256L240 281.4 217.4 304l11.3 11.3L281.4 368 16 368 0 368l0 16L0 496l0 16 32 0 0-16 0-96 249.4 0-52.7 52.7L217.4 464 240 486.6l11.3-11.3 80-80L342.6 384l-11.3-11.3-80-80zM448 352a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 96a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM96 128a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM0 128a64 64 0 1 0 128 0A64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const ArrowsTurnToDots = createIcon("arrows-turn-to-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABlgAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCdQsGAAE2AiQDCAQgBYMtBzobfwXILgZjt0MMRVRWufsrKxvj0cmaGxFRa1VWzxwQSKJXgJZQAhl974A0ahTuhF4jNta+Qj32/ZruuwsQ/KkKk01cCdDVATk0IpEFQGU7Pna5kyI9iAmazKtbDtri501OA6O/35v/az6/50cF8o0OpcJKc93YpXs+HGiFpu1EZgOb6QRsi9tujoiHOAiFK9S5zRYhlA+lhffhQ/PLnA0KQQUAMgoALtxrrsVTO+3kr/mk5RIIkIuAVQQqUIFFBDiNR2CRAAM1AYJ2mkb8B65CANKN2L0CqEEv+IivgBpQiGqBd12v5CG5UClo0ytk47fbWwwxppWt8seUpgwQiGTjEzJFc2bii+E2UybPjsXGDMogSBpuyGS8RGp3IVPa7uzj5+jY0aTJXk0HPZ9JucvN9SH1PO2dpC6OEUnyoO3o/7JEbuLu8uGCQ8oa/HNLW+qP12L7xrHCDVQ8c+OEqgc0GI0FGpq+hBvPVPqan5ilunR0mfb+AVWEvoF9puTt5PAOL4aLMpH7YG/H7Q5F8Kx+V3Oqzu/rVPh1gIDA0W0790dO/+8d4AB0jjv5M9JQ+rgyenGAQLXVbOkpoLn0gQAAlKypKQABxYFu8bsOOhFAyEAAhYgMASp2GgSoyfgRoItLEgG6yTTjUS0FMejtAEdhEfBS1oGAwSkQKviMiBjCgygLYOwfYlJpCBWXsf1QhOXYalnDQR1tx/PssLK2Jtu8+CTGzJuzYtSISSsDZEltfNWs0hZc9EVMVEgEk8Mu154ebjNqybJJ8+b8PHnsecNjbbu3F+ucmPDAmoKDFP3DvyA5+GaQeUbBJ60sAwAA");
 
 export default ArrowsTurnToDots;

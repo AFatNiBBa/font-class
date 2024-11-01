@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cup-straw-swoosh` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cup-straw-swoosh?s=light cup-straw-swoosh}
  * @preview ![cup-straw-swoosh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cup-straw-swoosh.svg)
  */
-const CupStrawSwoosh: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M202.4 36.4C207.8 15 227 0 249 0l23 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-23 0c-7.3 0-13.7 5-15.5 12.1l-21 83.9L368 128c8.8 0 16 7.2 16 16s-7.2 16-16 16l-175.6 0c-.2 0-.5 0-.7 0L16 160c-8.8 0-16-7.2-16-16s7.2-16 16-16l163.5 0 22.9-91.6zM60.3 468l-23-276 32.1 0L83.9 365.1c29-3.7 48.3-10.6 62.3-18.6c17.1-9.8 27.6-22 39.1-36.1l2-2.5c10.8-13.4 23.2-28.6 42.5-41c19.3-12.3 44.4-21.2 80.6-24.9l4.2-50 32.1 0-23 276c-2.1 24.9-22.9 44-47.8 44l-167.7 0c-25 0-45.8-19.1-47.8-44zM307.7 274.5c-29 3.6-47.5 10.9-60.7 19.4c-14.8 9.5-24.2 21.1-35.5 35l-1.4 1.7c-11.8 14.5-25.4 30.7-48 43.7C143.4 385 119.4 392.9 86.5 397l5.7 68.3c.7 8.3 7.6 14.7 15.9 14.7l167.7 0c8.3 0 15.3-6.4 15.9-14.7l15.9-190.9z" />
-    </Icon>
-);
+const CupStrawSwoosh = createIcon("cup-straw-swoosh", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABegAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCEAsGAAE2AiQDCAQgBYMtBzcbFwXIhqDQlfVI2itbuuMFm2VifCKMECBDU/7AEWG4FzfPO48CfI4gtLFwaSCLsmjO8wQSWr6Fp0Ci2NuGDhtSeCRCJEgiGs9xG82QxUUxXoXk7mQXbmz98bO+riaRpQSiEye1ZL9tG3z0bXwbsav5OrHLOgTEUlAKpEgxQID5UoEBMiUymeDbaDbpP7AkgGgBT0hAhgqOx3mADCTSLBs9tF5U2rKdRSU/6M5GxJ1FEbfXbqvmcVt1e5hwBZ8/jzvqdzaK2G//Aw84sIgd8eaoJ/s34t5xz64aFkXsH3dVb8vzuKZ+R7/9Xhv+WJ8rohp3jX5q+o64vVbEnY39hj7T+cyvQ3Ydu8un9256m0+7Gr5tb/+24aWx1W3uZetL4CW0PaZ20PUv1nvwzaX259w+79Kfuvz46iMrlijVe3R/savnKT27vuj+/6Pbxy/4kS7//f3Qv9kyA/c9Zd/Ajg+AQPDwafMOO6xj/r+9igR8/87v/+qHmx/F5ckz6CUBQTq+Od7BcTkQPgAtiXMNDT4WSBwuBblrqzsECDkCJFrkAqT66xQgkxsnQMUgMwRokdsmFVlvoeoQg0SrMyA10yWQqXoVKub7WGtRjTTh6HShn3sJKz2yoqucMnFyObdcOgaTQyQ355Xb4uhzS2IMTDrWaU51tmMc7QRnO+xMG8xznGJlhK7wodIUE01Wmqs89p+HdzrGmc5ygtOcWtvMU95XRzs3zh8DSkIIp+pNJETSedQ5p0/42JY/T7XzTjvtrOMBAA==");
 
 export default CupStrawSwoosh;

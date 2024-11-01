@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `beer-mug` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/beer-mug?s=solid beer-mug}
  * @preview ![beer-mug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/beer-mug.svg)
  */
-const BeerMug: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M267.7 133.3C253 149.7 231.7 160 208 160s-45-10.3-59.7-26.7c-6.9-7.7-21.4-8.6-29.6-2.3C108 139.1 94.6 144 80 144c-35.3 0-64-28.7-64-64s28.7-64 64-64c14.6 0 28 4.9 38.7 13c8.2 6.3 22.7 5.4 29.6-2.3C163 10.3 184.3 0 208 0s45 10.3 59.7 26.7c6.9 7.7 21.4 8.6 29.6 2.3C308 20.9 321.4 16 336 16c35.3 0 64 28.7 64 64s-28.7 64-64 64c-14.6 0-28-4.9-38.7-13c-8.2-6.3-22.7-5.4-29.6 2.3zM32 448l0-284.8C46.1 171.3 62.5 176 80 176c18.7 0 36.2-5.4 51-14.7c20 19 47.2 30.7 77 30.7s57-11.7 77-30.7c14.8 9.3 32.3 14.7 51 14.7c19.6 0 37.9-5.9 53.1-16l46.1 0c42.4 0 76.8 34.4 76.8 76.8l0 102.1c0 30.3-17.9 57.9-45.6 70.2L384 445.7l0 2.3c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64zm352-72.4l56.4-25.1c4.6-2.1 7.6-6.6 7.6-11.7l0-102.1c0-7.1-5.7-12.8-12.8-12.8L384 224l0 151.6zM160 240c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16s16-7.2 16-16l0-160zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16s16-7.2 16-16l0-160zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16s16-7.2 16-16l0-160z" />
-    </Icon>
-);
+const BeerMug = createIcon("beer-mug", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABngAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCZAsGAAE2AiQDCAQgBYMtBy8bYwXIFkrLw/c63859kj2O5PAnUIhggZgq4KILtEsVdZ469TznoQC+UdDGHJy24HOeV6DAY+uaIrVirGIV0uo28amjjD0eIRElEvEHHm916Owgj8+y69VIj6SfcFf70Phdt+tJhmQAYgQA1hy03x6+3hk7I35sfUD8aBsCYg2oBDJk6BNguUygT65CLhfsjFZL/gMrAog6vC6BHA3cj8cBOUjqeT5n6tAmXlXWhuYHlrXipJfnfzj1wY4H254vXpz6as9j016bdNuEBzof6nxt0QdTHmjvF71UvjDlle6HJ788/taJD7bd33ZwlrIXytsmvbLgo2lJKcMz8ZV+cXXXw+P3D5G1Iu6sOG7b5m0PRcSDHUU4UDJyf5t4oP2hzij1lLGvjnj1zzE/nfiTcukpq1efsv7qq/dvdjw9cmRR1OTpjub+Y1frV87vS/tx2fbevjP//O23P8/sGzhrJgesd6LOd7/Zss94iU/b6cA5atPF2H5e40Tl2/M8vOOmYTt3DnuadLNanwcCwepb7t921PDl/zTKBHZ/+vf//CNGtL5O0qtoSCDIpremOzwxgkRAmuJCY40sCSS3q8O7Nj0oQCgQIKkrBMj0GiFArjBNgJoBCwSoK+wnE/kQoc0RCpKmc0BmoStArs17oGa5b9O6tshCkwgs4mMYu3Fow7hqzszZ1dJqW9TJaMPK8LLKrU6+UNMUWutEZznT+U5wvFOcH3KuPQoXOMNGC97giypzzDRbZanquPK8/EAnONd5TnGWM3mUZar74WQX2p2nkJEAdS4+PcGE1Dj2hBPOnXHGBScB");
 
 export default BeerMug;

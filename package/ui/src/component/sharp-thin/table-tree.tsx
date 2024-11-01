@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-tree` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-tree?s=sharp-thin table-tree}
  * @preview ![table-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/table-tree.svg)
  */
-const TableTree: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 48l0 112 480 0 0-112L16 48zm0 128l0 288 480 0 0-288-384 0 0 96 72 0 8 0 0 16-8 0-72 0 0 80 136 0 8 0 0 16-8 0-144 0-8 0 0-8 0-88 0-8 0-104-80 0zM0 32l16 0 480 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zM224 272l192 0 0 16-192 0 0-16zm192 96l0 16-128 0 0-16 128 0z" />
-    </Icon>
-);
+const TableTree = createIcon("table-tree", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABZgAAAHsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBaAsGAAE2AiQDCAQgBYMtBzEb6QTIhuD5uap6P+mB9ECWOMuMjuCOHbnTY4/QsfAL9oB1T1zu/M+fHnDhiz/SWBNkF+99nkCA2cIu8ICKAss0Acva2f3AAP2G9ClPMmxfhskD8vjSCTXS++kXvJ0/NH7VzyOSLAMQJQCW7t6+0XfP43nEz42PiZ+tR0AsBZVAhgwDBVggExgoVyGXC55Ho+H+AysCiCb8XgnkaMZuHALkIKnleevwbq2t9Vp7vqteK/YL7RHRJmWpPbJoC1Gvi6IgNXBfsatedIoUomiLyCJ21guVrJGwc6E+rKvs+n3oL6d+0fn2FcY+d8Xze9Xt5yr3HLGmpdSyZotXyon3WuzR4owti81lqfSBKP9FwbM/v2Nc6Tvlt4fLZ91TugcEgjdW9354uHPB/y31BF5+8eev8CtqPE9SF1okEGQTGhMcSCARAIAUtwxLEEg2q8GrtnlHgFAgQNKkECAzQClArjBegJrBZgrQpLBdJvJWoaeDHU7aXIUzs9yGcz19CNcs8H3WpGdkxsWYBvO1S1wlgZXHqqmTplTzqmlfY+2FCvvzq21zzC0/NxZXnXLZJTecdMJZNwR0zcbypotWaeBKX1SZapIpKvNUx6PH87ucdM11Z112KR0yX3U/HeOWvnosnIQJp2lJEpEKu5MmPjsAAA==");
 
 export default TableTree;

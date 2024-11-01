@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-down-to-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-down-to-line?s=sharp-regular arrows-down-to-line}
  * @preview ![arrows-down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrows-down-to-line.svg)
  */
-const ArrowsDownToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M552 432L24 432 0 432l0 48 24 0 528 0 24 0 0-48-24 0zM536 238.1l-17 17-47 47L472 56l0-24-48 0 0 24 0 246.1-47-47-17-17L326.1 272l17 17 88 88 17 17 17-17 88-88 17-17L536 238.1zm-320 0l-17 17-47 47L152 56l0-24-48 0 0 24 0 246.1L57 255l-17-17L6.1 272l17 17 88 88 17 17 17-17 88-88 17-17L216 238.1z" />
-    </Icon>
-);
+const ArrowsDownToLine = createIcon("arrows-down-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABagAAAHaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBbAsGAAE2AiQDCAQgBYMtBzob9gTIHoVxMz3SRXOUj8Iu4uH5tX7nvpndL2KDuzYaHZKFopVGgqQhilVrUDeY8702ZP6v+fyeXwN+PoJDi7TSxgLvZdgEBhyl1T6fDWcTxek28TFEir0REmQRHd+Otx3k8SnuK5EeJ9xrHxq/9LhLUsoARDMAlu3Zscnr7/E94mNl4qMNCIhloBDIkKFfgIUygX65Arlc8D0qFf0PLAggyvD6BHKUsA/HATlIsjyvGzGirtSQ764r1V5pbGoUdU0RtbvHThi7MLCuNoRYHONjYYyLXYZOiD1DLq5fbzD8RfOLP502pqm5eexU3fJY0xv89V+3qbr99xct2LMHG7pl6cbzQCB40lE+fqRp4b/qugR+vsLPV/melqYXqJZAkE2sTHQwLQWlBhCkuG148kWBZJsM3rXeAwFCLQIkZbUCZPo0C5CrNUGAkkGzBCirtUMm8hqh3aEBknrXQGa2OyDX7iUoWeitX9YeGb04cnCfu+TVEVo1rpg2eWoxv1jGOs8YxjsXFMfq2NulYpysddoVl910yknn3AzkdZuiWy5ZncGr/FBhmsmmKsxXXGfPy3c75bobzrnich1lgeK9OdbtvP44MRLQTjchSURqO3ad/cok0nmTbl6ZREI=");
 
 export default ArrowsDownToLine;

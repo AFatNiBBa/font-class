@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ban-bug` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban-bug?s=sharp-solid ban-bug}
  * @preview ![ban-bug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/ban-bug.svg)
  */
-const BanBug: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 448C150 448 64 362 64 256c0-41.5 13.1-79.9 35.5-111.2L367.2 412.5C335.9 434.9 297.5 448 256 448zm89-148.3l19.9 4 15.7 3.1 6.3-31.4-15.7-3.1-35.1-7 0-18.6 35.1-7 15.7-3.1-6.3-31.4-15.7 3.1L336 214.1l0-30.6 16.2-9.7 13.7-8.2L349.5 138l-13.7 8.2-18.4 11.1L288 128l-64 0-25.4 25.4L144.8 99.5C176.1 77.1 214.5 64 256 64c106 0 192 86 192 192c0 41.5-13.1 79.9-35.5 111.2L345 299.7zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM140.9 272.3l-15.7 3.1 6.3 31.4 15.7-3.1 28.9-5.8 0 30.6-16.2 9.7L146 346.5 162.5 374l13.7-8.2 18.4-11.1L224 384l64 0 2.7-2.7L175 265.5l-34.1 6.8z" />
-    </Icon>
-);
+const BanBug = createIcon("ban-bug", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhwAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCSwsGAAE2AiQDCAQgBYMtBy4bSQXIhof/t/uvfW7VV5vVsl6LmMmETAgFhG91OtYf9/P8n/8GfEYfpYqqFlwgo8zzCUwsG2f/Bj6wmU7AZu3slxeiWyR9nyKh3fDD5gp5PJtdUkG6I72H6/KHxtdaukRSkwGIBgCYsHTRHC+Voxzx7v+PE++ahYCYAAqBDBnaCDBaJtBGrkAuF5Tj///5P7AggKiEFyeQoxKXcAsgB0me53WHtG5fu6JuXgrp1ar7xcKIT0r3jNscz01e2qVrl6bROprF0IgYFs2jVTSJzhHRXN7XM2pF91gYL077fMHHS+4cXVr85byIDye9GucnvjL3g9Jns98b/5JzE16e8/6SUpPmTVpG8+gWokk2ehBbtNru6VIM7vhwg4e/7fDelvdYEEtYEgvq9atV24/lZTcNQv4na3m8q0ainPy6dv70pb99qaf3jHetxX4qb/J8WvtJE5d9OsX13DCqzaRJbUbdcP0UupqDA9//hF17XfW69v7wlVrePJNaRwcPaAoEgkeOrn5wbf3Rv1bXTuDqM99/q/6K/n8pSQ+jWgJB1vv/3lYlkAgAQIojOiYIJKfksKuOWwUItRBIKtWCTGsNIFdLL6jQzpDdlWpZJBN5jdDEaoGkjv2QGeo05Jp4FCqM9mahUpPIrFG0JfEzmDZVI1PmFQP69i9GFsOqJhkYH6dHFctm9yOuqwettMVeexyy2SbbHVL0AXPKh+02dYZO8UWFAfrqrzBSsd24X1yy2QEHbbfXnjTLKMX9THdH5oN7kJOAcSAjPUFlqtqwfk+fDYe3AgA=");
 
 export default BanBug;

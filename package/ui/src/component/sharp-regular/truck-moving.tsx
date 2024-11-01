@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-moving` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-moving?s=sharp-regular truck-moving}
  * @preview ![truck-moving](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/truck-moving.svg)
  */
-const TruckMoving: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 80l0 246.7c9.8-4.3 20.6-6.7 32-6.7c26.2 0 49.4 12.6 64 32c14.6-19.4 37.8-32 64-32s49.4 12.6 64 32l160 0 0-272L48 80zM208 480c-26.2 0-49.4-12.6-64-32c-14.6 19.4-37.8 32-64 32c-44.2 0-80-35.8-80-80l0-48 0-48L0 80 0 32l48 0 384 0 48 0 0 48 0 64 64 0 11.4 0 7.2 8.8 72 88 5.4 6.6 0 8.6 0 32 0 112-32 0c0 44.2-35.8 80-80 80s-80-35.8-80-80l-8 0-8 0-144 0c0 44.2-35.8 80-80 80zM532.6 192L480 192l0 64 105 0-52.4-64zM528 432a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM240 400a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM80 432a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const TruckMoving = createIcon("truck-moving", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABkAAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCXgsGAAE2AiQDCAQgBYMtBzMbYQXIHodxTLIxlcGjx8P3c32d+5Lu+j8ZhswoAMRltgxqHRvRtRYVQbs9gmoL8/m/5vN7fg34+QQODy1y2RYNFJE6G8ieNxVXiswGNlHc1LyXB/i6Q9se8vg7HlUjPZe+wyPuS+MHXd0iqWUAog0Apq9dudgXjWhEfPv/R8S3FiIgpoNKIEOGHgJMkgn0kKuQywWN+P9/9h9YEUDU+e9LIEcTHsXzgBwk9TxvO7q5vR8uay3zNfGyYqPwTPlR/zfGkiVlZNFi/ccDXh0FfK/3Cj9cthRsuOwYqwOhgr+IF/stMBdFcd7eoixEGStWPdA54pm43unp4v4OT7rW8alyh+yJ4OMe6PxM4OV9X2/z+k99vtvznaFHf/d3tb12hGvXSBvXXhGvaLN7TQwzTENyxbvDTDOtPGfuWrM1qxxTiTW728wxNz1bOGf1Hu0vn2a/qfkvre5xrxXOYUN69+7SvfI6EAg+fujlW1tP+rWpTOD7z3/5Jbvc/410Lb2OJgkE2aD/B9mUrgGmBhBLcUbfiSkGknvO8ae28LQAoUCApK4QINNdGwFyhYEC1PQyWoC6wkqZyJuFDjZXIGnhOMiMcRnkOvgA1EzyZbSuQ2TPJf9U8X+FKXOa0OxJ1fAhw6oJ1WhOITxqrO6dWC029TvDa/rDrfY46ohTdttlv1MN8oTFidMOmzMFz/ZDleGGGKYyQbW5eHf9GrudcNJ+Rx2xo0xUHe/r58x08/7QmviMIyQliUgtPjzt4PcbAAAA");
 
 export default TruckMoving;

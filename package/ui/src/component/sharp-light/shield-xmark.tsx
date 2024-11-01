@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-xmark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-xmark?s=sharp-light shield-xmark}
  * @preview ![shield-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shield-xmark.svg)
  */
-const ShieldXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48.5 114.9L256 34.3l207.5 80.5c2.7 45.6-4.5 116.8-34.7 186.3S345.4 438.4 256 477.1C166.6 438.4 113.4 370.7 83.2 301.2S45.8 160.5 48.5 114.9zm447-1.9l-1.2-20.5L475.1 85 267.6 4.5 256 0 244.4 4.5 36.9 85 17.8 92.5 16.6 113c-2.9 49.9 4.9 126.3 37.3 200.9c32.7 75.3 91 150 189.4 192.6L256 512l12.7-5.5c98.4-42.6 156.7-117.3 189.4-192.6c32.4-74.7 40.2-151 37.3-200.9zm-304 55.8l-22.6 22.6 11.3 11.3L233.4 256l-53.3 53.3-11.3 11.3 22.6 22.6 11.3-11.3L256 278.6l53.3 53.3 11.3 11.3 22.6-22.6-11.3-11.3L278.6 256l53.3-53.3 11.3-11.3-22.6-22.6-11.3 11.3L256 233.4l-53.3-53.3-11.3-11.3z" />
-    </Icon>
-);
+const ShieldXmark = createIcon("shield-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCGwsGAAE2AiQDCAQgBYMtBzMbHgXIjtMVcxRJkhS8Iqgf++3du495M0mQNIlVmoZEFKskptMsNFqgBIZKCd/g5V7vAvEFkLYsI7RJaLtmWArNf+Jm3HUeBTiJQxvLpgbS5mjO8wQCrB+L319oLLA3fQH7ty0xamjiFZGgiGhMx+sMFft0hiz5JfUA3uRD45+hUUjVABBjAICjq6wUnHzyM/jQ3YT4kQQC4hjAAqKhYQbBLmmBGTIWQCnBLyWS9h8ogACiB/rcCQod3IAXAAVSKxk9WwdlWVWZXGVZpaK87Lwcjosp95Xgg+yvoUeea5Yz5lVGhka2zKUedZhNaxpwzGLaYzXiNEeX+vx2cu61bjVrVm7vZK/LDKZThw7UZ5YTdelEPWYS9elIHaaf0rOc05j7bvFQ+wD306d0mn1Oh9Z9eXb2xHikaZHGJ9hT3m55RG302eEpDRs25LAdaavP3f39b+/x4gIXqNL7W/B0d9u4+tXgunlEizYvx54BezHzxYBA8PqtO1SmHvxfQVkK8Lf38zf/jNS6J/wjNQfokyBo6xJnFCeMGIk/IAAgoxeWCSMC6Zo0vNYh7wjCAAKkHgMCNNM0EJQBawg65vgg6DHgjLQoRYQpJY6kIQ9Is2MEKVPWkY5d10aPqZDOOiZnmE9fYmwEY6aEh6u7CBTLgLGJRNEwSBzL9r294ABHUatNq241qjXoDnCnFLtHi9gdFOOLBA+u3AmBxHX8vD9XjU5dGrRpHWOCiPe6vd59vQNoUpR0w8mURKp01TfUNFe79GcoAA==");
 
 export default ShieldXmark;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `police-box` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/police-box?s=duotone police-box}
  * @preview ![police-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/police-box.svg)
  */
-const PoliceBox: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 488c0 13.3 10.7 24 24 24l336 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0L32 464l-8 0c-13.3 0-24 10.7-24 24zM96 136l0 24 32 0 0-32-24 0c-4.4 0-8 3.6-8 8zm0 40l0 24c0 4.4 3.6 8 8 8l24 0 0-32-32 0zm48-48l0 32 32 0 0-24c0-4.4-3.6-8-8-8l-24 0zm0 48l0 32 24 0c4.4 0 8-3.6 8-8l0-24-32 0zM176 16l0 16 32 0 0-16c0-8.8-7.2-16-16-16s-16 7.2-16 16zm32 120l0 24 32 0 0-32-24 0c-4.4 0-8 3.6-8 8zm0 40l0 24c0 4.4 3.6 8 8 8l24 0 0-32-32 0zm48-48l0 32 32 0 0-24c0-4.4-3.6-8-8-8l-24 0zm0 48l0 32 24 0c4.4 0 8-3.6 8-8l0-24-32 0z" />
-        <path d="M96 32C78.3 32 64 46.3 64 64C46.3 64 32 78.3 32 96l0 368 320 0 0-368c0-17.7-14.3-32-32-32c0-17.7-14.3-32-32-32L96 32zm0 104c0-4.4 3.6-8 8-8l24 0 0 32-32 0 0-24zm0 40l32 0 0 32-24 0c-4.4 0-8-3.6-8-8l0-24zm72-48c4.4 0 8 3.6 8 8l0 24-32 0 0-32 24 0zm-24 48l32 0 0 24c0 4.4-3.6 8-8 8l-24 0 0-32zm72-48l24 0 0 32-32 0 0-24c0-4.4 3.6-8 8-8zm24 48l0 32-24 0c-4.4 0-8-3.6-8-8l0-24 32 0zm16-48l24 0c4.4 0 8 3.6 8 8l0 24-32 0 0-32zm32 48l0 24c0 4.4-3.6 8-8 8l-24 0 0-32 32 0zM96 256c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16l0 48c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-48z" />
-    </Icon>
-);
+const PoliceBox = createIcon("police-box", true, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAAB1QAAAKXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHSERwsIAAE2AiQDCgQgBYMtB1AbaQbIjsQ4JvGLKEzi4UtX+b6kpdbsHC1BHwEYADG1I3PGSTDl1OXQmauUIe/z83/MeGuQwuaBzofyc1FpGZj5fG/AA406i6bz8wMqoDO0m5r31ACFqOt7hCruLR/VRfFW8RdecP8HMP4x6lEKfSWAmAmAvWeccpxfOtEp4q/mW+IvxyIg9oEsUKLEhAA7lAITKhmVStApmoZONE0mgOjmPqAE3RjC/0QPoAKFJFXVWKpT3arrema/MbaIpO7qr05vSuc8PRDxKrj3VUX0RxkPDb2e2M7kjeE6RIqwF5UVrw/FGa8N9kNRr+DiVwdS0CV7xPrUSmETWGRM07VoAq8D0HjqmUiDLt5yB28t7I8vxt9elFqfjpwj1MyQFuKELbhj2T2Wen0ocY43hhXvjI29OnDarlvM+3rm1//66/K/XPBB+0mebGeAiW+0B6oQ3P3Lld0XjsiykSU5NBlxYffI4dWaTjAeAAyvABPBkZERgrrE4zWGRuGScHramZ9PaHfW6LTXcMVLBk860UmDjN97xHfBBSeBYyNL9jiaHPDlKyNrqH/6g5nhF8tmanc67ek79r0fCARPfT148wUzdvzXWxfg7++6eLvml3iw+Bq9ChCUK5oVzo0HgakG8EcVcbt58aCMQOkhSfisLa8LEBICFLolAUrjZgpQSZYL0GXKRgG6JacoRdUnDDivURZablKWNrlPWRnwjbLLDr+muw1E+TKQW5n8i2Y41GUd3JbXrlqTt+XZlore30ivbs+bHUtu5yNL4Y0ud4Pr3eoyl7rKrR3BzY7L3eY6h5bUD35tttYqa2Tb5MPdh4bTO+mb3eKqad3xdbbL10eWuH15+lLoLgSN6xwplUQR5exnEH+C6Gs1OtDXPUEAAAA=");
 
 export default PoliceBox;

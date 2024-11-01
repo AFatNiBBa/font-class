@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `child-dress` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child-dress?s=duotone child-dress}
  * @preview ![child-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/child-dress.svg)
  */
-const ChildDress: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M96 64a64 64 0 1 0 128 0A64 64 0 1 0 96 64z" />
-        <path d="M86.2 285.5L57.5 323.3c-10.7 14.1-30.8 16.8-44.8 6.2s-16.8-30.7-6.2-44.8L65.4 207c22.4-29.6 57.5-47 94.6-47s72.2 17.4 94.6 47l58.9 77.7c10.7 14.1 7.9 34.2-6.2 44.8s-34.2 7.9-44.8-6.2l-28.7-37.8L265 378.9c3.5 10.4-4.3 21.1-15.2 21.1L232 400l0 80c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-80-16 0 0 80c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-80-17.8 0c-10.9 0-18.6-10.7-15.2-21.1l31.1-93.4z" />
-    </Icon>
-);
+const ChildDress = createIcon("child-dress", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABgAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBdAsIAAE2AiQDCgQgBYMtB1IbGAXIhod/5r68L8kCcHYVMHBbxST8nLEF1n/+r6kXz48O8IPIZXLx1tytJbDn1Z4BPrDZTHHW5rhJQXhdREKOr754GpZ4aZjaQhbj04NKkFxLfsYZ+R/A+FUdB0mUSQFEZQD0mzJhlM+LoiiJnwsfED8biYDoD3KBFCnqC9BTKlBfJkcmExQlhQJFUSjkBBAlyZNTUBIZZmIxIAOJEFk2pEK5EhWyyTKm7JSWbVperH6x5uU8r9aU+GzIN70mxaXqymwdM6xs2RB7B3dct40IEo67jphxq9mzFi8a3W7+vOnT+k2eV37+e+OfF/9s0r0Pmnv8i7ePd95Tbnu3UUadPTuq+yjLy9V/+vjtF9u/1nCmWp0Gl65qrIpHj1asrWNVprCqSg/uVOtS1Jw9afHffxen/X4gEIy/9MvZOZV6/l+6XAKKP/zz38QV2imfR7/kOUpLQJC2LLQ0MzYbUKGNgNAkNmsSffFd5gqkhkjgU8u7LEAoiwCJksoKkKqnsgCZsloIUEJDnQQoqawJUpGVEaqbNUGivHUg1dkukKnufVBCT995SqoeaYxREUL94cUPZnRQr7xd67Z59/w0aaPDhijNPfLbetPNqagZNlpsjdU2WmShZTYSvt4o/yarDLawQX4o105rbeW6y92ZNT+ZPOttsOyY9XfTQ/681dRmu3Iz9CcBtH87ESmRRFotqMVW36zcarWW1NDswgQAAA==");
 
 export default ChildDress;

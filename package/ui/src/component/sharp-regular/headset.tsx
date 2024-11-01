@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `headset` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/headset?s=sharp-regular headset}
  * @preview ![headset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/headset.svg)
  */
-const Headset: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 256C48 141.1 141.1 48 256 48s208 93.1 208 208l0 184.1L320 440l0-24-80 0c-26.5 0-48 21.5-48 48s21.5 48 48 48l80 0 0-24 168 .1 24 0 0-24L512 256C512 114.6 397.4 0 256 0S0 114.6 0 256l0 40 0 24 48 0 0-24 0-40zm70.1-80l-7 7L87 207l-7 7 0 9.9 0 56 0 80 0 24 24 0 80 0 24 0 0-24 0-160 0-24-24 0-56 0-9.9 0zm9.9 57.9l9.9-9.9 22.1 0 0 112-32 0 0-56 0-46.1zM384 176l-56 0-24 0 0 24 0 160 0 24 24 0 80 0 24 0 0-24 0-80 0-56 0-9.9-7-7-24-24-7-7-9.9 0zm-9.9 48l9.9 9.9 0 46.1 0 56-32 0 0-112 22.1 0z" />
-    </Icon>
-);
+const Headset = createIcon("headset", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhQAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCYQsGAAE2AiQDCAQgBYMtBy4bXwXIjsQ4JvGLKEzi4f91pfd9aQwamxe0RhkRA4wdEEwbQmhzUqaeCnmf/t6d//O/AZ/RRxsLFy3fOHdjcpdAol36wfNlgWWagLU720NRa+VY0oIZOc4dnxnyeDVuViPdkz7DTfih8a8O15LUMgDRCwBLdm3b4K2/4q+IT5vPE59ah4BYAiqBDBkGCDBfJjBArkIuF/wVzWb4D6wIIDqhB0wgR2fcjAcBOUhqeT63o3v/7vVa93xnvVbs+nFbxLe7vt/y9Q5RREQRj7fcXt7TeseIekTU0+34Yek7G7/Y+d36zxa/tV2IQXlXS3vL6GgJyO7ZEcXm9qlXD1EYThT1QnMi2mJsCRUDWttaWR65PrTRq/Gfz47/zKQ3Y1eDxq7YFY1G7HrJzUqbTf7t8yz7/LfJm5WeLktfsarsuOWqVVa56paO0qrRSpOVRq/YdPzxx1/geIXZrG55YulhnnHRPffc0+ZMldkmNufMnr15SC9zm81WON6R9NAWOtHsu5ypDQgE762oLj3Uc/7/XeoJ/PPK/DPSfCtJDXSRQJCNb463P4FEAABSnG9ogkByoxp6127uFCAUCJB0UgiQ6a+XALnCOAFqBpkhQCeFbTKRdxVaHGgg6eYskJnpMpBr8Syome9Dt5OWyByTdSv2X5i0UkIrLlVTJk6u5lbLRuV8jc7H8yqzPPr8uDQGrjreGU53ruMc6yTnCvJsG4LznGalBq/wRZUpJpqsMld13d9LO4V7tnOcNBfuz5mnem+Ndr6+eQxoCVFOlUkSkTp7r37OcecCAAAA");
 
 export default Headset;

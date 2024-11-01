@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `s` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/s?s=light s}
  * @preview ![s](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/s.svg)
  */
-const S: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M83.4 75.8c-27.8 11.5-45.1 30.6-49.8 56.6c-3.3 18.2-1.2 31.7 3.6 42.3c4.9 10.7 13.4 19.8 25.5 27.9c25 16.7 61.4 27 101.5 38l1.7 .5c38 10.5 79.3 21.8 109.1 41.8c15.5 10.4 28.7 23.6 36.8 41.1c8.1 17.5 10.3 37.9 6.1 61.3c-7 39-33.3 65.8-69.1 80.6c-35.3 14.5-80.2 17.7-127.9 10.5c0 0-.1 0-.1 0c-25-3.9-66.1-17.4-94.4-26.7c-5.7-1.9-10.9-3.6-15.3-5c-8.4-2.7-13-11.7-10.4-20.1s11.7-13 20.1-10.4c5 1.6 10.7 3.5 16.8 5.5c28.5 9.3 65.9 21.6 88 25.1c44 6.6 82.6 3.2 110.9-8.4c27.8-11.5 45.1-30.6 49.8-56.6c3.3-18.2 1.2-31.7-3.6-42.3c-4.9-10.7-13.4-19.8-25.5-27.9c-25-16.7-61.4-27-101.5-38l-1.7-.5c-38-10.5-79.3-21.8-109.1-41.8c-15.5-10.4-28.7-23.6-36.8-41.1C.1 170.5-2.1 150.2 2.1 126.8c7-39 33.3-65.8 69.1-80.6c35.3-14.5 80.2-17.7 127.9-10.5C213.4 37.9 256.9 46 272 49.8c8.6 2.2 13.7 10.9 11.5 19.5S272.6 83 264 80.8c-13.6-3.5-55.9-11.4-69.7-13.5l2.4-15.8-2.4 15.8c-44-6.6-82.7-3.3-111 8.4z" />
-    </Icon>
-);
+const S = createIcon("s", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABegAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSBfQsGAAE2AiQDCAQgBYMtBygb9QTIHge5ifVKUCZLTBZXL57/Gvud+3Y/5s07JE14qKKRSGJIgWYxeQkMlev9y907x3yx2UEVyA525z6TKvWvbP75v6ZePD86wBQ9xWg6vZ5lYgdPYICze99XBZo2nE0UZ+7aSiNFfpKkXEt+8tvjZwU9MagLTOqNdgPgKX9o/kFaPaU3AMgMAIDjyxA/OPjCL8QbapX8gA8QyAkA1iAaGpYg2EMXLGFYA7ou/CJFyX8gAQEyBOWWBToa7oB7ADoo6YwYXiY/IzwCeWI25PrEu9U23XixhndaLSyT7pcb87wIr8EZdWL2SPRI9op3640g/GqzrTg456hvuUtgAyyfkRlQnPS5DusGIfFusS65kxkJSRTDN0vlBaGFX6Wb9BsIfmxL966qkk3/oIG8b27kV15uBl+VpXrygM2X3vTipFM9vx+nIEIQI9LLac6cRTVUGZDxLgTofeMynoCHKaVHL/J+30spqYv6oE93OYAgfFJPdwmCtv8cXhrA39bff92TSkFX2gIwokBoG5Su2JQD6EzAa6alHJTjyN8EQblFU951wrOAGENAGTImoFkkBEE3Zh2CgRVmEAwZc4ounQuxIK4TZcID0eyqILoFy8TAnvPokIXQzUwwEuGXl+o+om6LiJG+IbEmy4omWg4HJ22I2tAs9x1aDIR0BfKVSpMqS+mAF/NLlMnjjjA3P0QY0WeIsEa268/B4dIUK5GlQH6axwY572gqx/21WHog+2YmlHJmYQkAAA==");
 
 export default S;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `angles-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angles-up?s=light angles-up}
  * @preview ![angles-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/angles-up.svg)
  */
-const AnglesUp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M234.7 68.1c-6.1-5.5-15.3-5.5-21.4 0l-160 144c-6.6 5.9-7.1 16-1.2 22.6s16 7.1 22.6 1.2L224 101.5 373.3 235.9c6.6 5.9 16.7 5.4 22.6-1.2s5.4-16.7-1.2-22.6l-160-144zm160 336l-160-144c-6.1-5.5-15.3-5.5-21.4 0l-160 144c-6.6 5.9-7.1 16-1.2 22.6s16 7.1 22.6 1.2L224 293.5 373.3 427.9c6.6 5.9 16.7 5.4 22.6-1.2s5.4-16.7-1.2-22.6z" />
-    </Icon>
-);
+const AnglesUp = createIcon("angles-up", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVwAAAHZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBGwsGAAE2AiQDCAQgBYMtBzAbmwTILgps9xTFRCgIoYxlWYhcTuDdyRTB9/v99px3UUueVBMeqmgiFNFSSXislPCHSiY/v2et/TnzZG3epnOriksT8QbJNd9W8LQNLYFseUrBXF/vGQJbP3WqZpyHAvgkURwLc754LLA5zyOQC+BYmLbeitQKVtMKWHdnkyjL2idpaJK8Hjk+DyjxHV5K8jO/wAt9aPxxWANSqQBELwDYP22shvRNjYif+h7iRyUIiAPABEKFCiMIbJELjFCYAEURNKiu3X8gQwDRjF+aoKBgEWwDKCBlKf2DemVXOQkH7ZdvNdHh0JGtlZrDjD2xtrS3NLd0LguiRfx3336WudnB+Ub56XAdpD6VN84r8aYWoZ0w5XkAAkFja8zZf40+we/L089IgHhNEbRKEFTztVdXSASeOEIAgIxnQkg8CGmSDL9rpzcQCO0IkJq1C1AZZkGgaDeHQJMxMQSatTskF6VNGNRdQOp0ByqbVkEx6BY02fKqNRsM+auh75z+tCXkJZob4pA/yGlWPZl5CCR2MzwtOud8xgWn6DNuzIxePQbNCHxKtTlrVH6E5XwRC/ELYmm8HN7ut+g1ZdqgcWOxTwbvl5zmxuUuYA9IvOqGlHYq266u+0d6p32zEwA=");
 
 export default AnglesUp;

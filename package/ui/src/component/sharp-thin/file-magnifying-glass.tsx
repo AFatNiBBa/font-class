@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-magnifying-glass` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-magnifying-glass?s=sharp-thin file-magnifying-glass}
  * @preview ![file-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-magnifying-glass.svg)
  */
-const FileMagnifyingGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 496L16 16l192 0 0 152 0 8 8 0 152 0 0 320L16 496zM224 22.6L361.4 160 224 160l0-137.4zM224 0L16 0 0 0 0 16 0 496l0 16 16 0 352 0 16 0 0-16 0-336L224 0zM176 400c-44.2 0-80-35.8-80-80s35.8-80 80-80s80 35.8 80 80c0 19.2-6.8 36.9-18.1 50.7l-.2-.2-11.3 11.3 .2 .2c-13.8 11.2-31.4 18-50.5 18zm0 16c23.6 0 45.2-8.5 61.9-22.6l44.4 44.4 5.7 5.7 11.3-11.3-5.7-5.7-44.4-44.4C263.4 365.3 272 343.7 272 320c0-53-43-96-96-96s-96 43-96 96s43 96 96 96z" />
-    </Icon>
-);
+const FileMagnifyingGlass = createIcon("file-magnifying-glass", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABeAAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCAgsGAAE2AiQDCAQgBYMtBzwbDgXIhofv1/o893UPUG0vcS8ChJDUqgDbTy6EikBGTsUS6Jn/Wz7veRTg5whCuw8N5KIsOs/nCSTWy2sHDfS2gU0HaGOctfO/KwbRr9KnfJJhexkmgw3yeMCVKqSX03c4V940fjXekyRZBiAKAGw7c+KQz7vRjfi29w7xrQMIiG2gFMiQYZIAG2UCk+RK5HJBN3q98B9YEkBUye9MIEcNV+BGQA6SSp4Pqw0fP7FV6eSnW5Xm5CxlrRCi1UrRvuDU6VPNiGi2miKFaHUisjh99t35EQNT3lwwuOadef2TX5obMSpa0TfTews2xegYG2NicwxOfWP+wOq35/ZNen1e/6rpA8XA79O+u/o7vW63+7mX1NVf2urSH39+lq7hOc+N/emnbqGrUNxaOOrNN5ecK67idMTpq4riqtPRrvChcPTzYunzHztl0E7fOS+rDww8+ij4Oi4HAsE/XwwtvWTYxv/rrQR++fDPX+l8vc/j0TSAugSCbGFvoQvjUQA6gK+U4m7T41EEkgtU4FXbXhAgNBEgqWoKkJmoECDXtECAiilWCVDVdEIm8oYwykUNJG23gcxqD4HcKG+Bio2+tKtGReZppJ+Q77y43RraNVcuW7y0XF8OQ5VyHjyNN5TT2ty7Y2ker7raLW52p6tc6Tp3KuR2h7y73GS3Be/yQaVlFluqtF65nNwvn3aV293hOre4OU/ZoNxvzXW33TyPzUQwlwskiUijD7Wy6K9c39X3XXfzNYuuFw==");
 
 export default FileMagnifyingGlass;

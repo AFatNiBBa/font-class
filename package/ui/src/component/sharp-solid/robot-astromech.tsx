@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `robot-astromech` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/robot-astromech?s=sharp-solid robot-astromech}
  * @preview ![robot-astromech](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/robot-astromech.svg)
  */
-const RobotAstromech: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 128l0 32 256 0 0-32C384 57.3 326.7 0 256 0S128 57.3 128 128zm96-64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm64 48a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM0 512l128 0 0-128 64 64 128 0 64-64 0 128 128 0 0-32-48-64 0-224L48 192l0 224L0 480l0 32zM208 256l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0zm0 64l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0z" />
-    </Icon>
-);
+const RobotAstromech = createIcon("robot-astromech", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdgAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCCQsGAAE2AiQDCAQgBYMtBzYbDwXIHgduTDdnJUf4CiP4fu0/+9yZ92FmGe6uYgQHHGSXikp9Gxd2gMIuudTK2EwRvxdY7cTlzv/86UHW+Qs/2li4JsgC2qM6TyDgsTwvkSywTBOwWNqd5hgl2mtaiiS/Z47LxR3K+K54pEX6Iv2J99Kbxr8Ge0TSWQCIXgBYunv7Rj8/jacRfzSJP6xHQCwFWaBAgWECLFAIDFPKKJWCp9E0+BuYCSDa0N+QQIkOnMYlQAmStrLs1bdzeF3Xre7lrrpV7Re6R8RXi35cZcH3efdb/SM+ca/fx9WbAz6N+wM/qzd+NvCT/h/3+3TAibqqI7ZGHdtD1BGxLCK6hVgSdtdVLaoqosbPGN3Vq+vVqD9P/enu4pwzWWvG8i1bls9oHV7c43Ve72FzCDc9nj7tYY587x45GoC/J2s89eW+Rv6n4UrWy/SW8ONAIPi//euXh3su+K+jTuD5t1/5L6Hm5yR1oUMCQTGhmeBAAokAAKS4ZXSCQHLYzr1qN58KECoESNpUAhSG6iVAqTJegJYRZgrQprJdIcpOoZ+DBUu6uYoVZrmNlfr5BmtZ4BevTb8olI1WFfqul7BKAit35amTpuR5uZnLjP6QYXN+HhbH3HK9sXDTKZddcsNJJ5x1Q0DXbAxvumhVD1zpg7KpJpkimydPV9eXdznpmuvOuuxS3Ga+vN4d41Z/eiwoCRFOE0kSkXoemMHEhzFyv1kCAA==");
 
 export default RobotAstromech;

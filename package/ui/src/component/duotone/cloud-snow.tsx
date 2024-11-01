@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-snow` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-snow?s=duotone cloud-snow}
  * @preview ![cloud-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cloud-snow.svg)
  */
-const CloudSnow: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 416c0 13.3 10.7 24 24 24l16 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0-16c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 16-16 0c-13.3 0-24 10.7-24 24zm192 32c0 13.3 10.7 24 24 24l16 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0-16c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 16-16 0c-13.3 0-24 10.7-24 24zm192-32c0 13.3 10.7 24 24 24l16 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0-16c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 16-16 0c-13.3 0-24 10.7-24 24z" />
-        <path d="M0 224c0 53 43 96 96 96l320 0c53 0 96-43 96-96s-43-96-96-96c-.5 0-1.1 0-1.6 0c1.1-5.2 1.6-10.5 1.6-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28C256.5 24.3 219.1 0 176 0C114.1 0 64 50.1 64 112c0 7.1 .7 14.1 1.9 20.8C27.6 145.4 0 181.5 0 224z" />
-    </Icon>
-);
+const CloudSnow = createIcon("cloud-snow", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABnwAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCZgsIAAE2AiQDCgQgBYMtB1AbiAXIjsQ4JvIsjmjx8P92/bfPvfV69bfrfViRhAyKEYnjmlDOHE0IpkI6XQv/E9c8/yp6jyZ4epRfh84jATOtBSaSFmmbyIRmOgPb7mx2UIs8kjTKkhzf5Lg8rlDEV/maJtLd9CVuhP8BjF/0cI2kRQYQ7QEwb/3qpT7+MX5M8WXjdeJLSxAQ80EpkJHRW4CZskBvhRKFQvBjauTHaCwJIGoCnoVq5plbeAAoQBJyUYxohnSrpjbFOjqqZTwcFvHKpDbx1ohX+z0aXk2+3NLFb0cpe33ovcFVy8S93PtSl+f13ePuoFZB81KviFahuTe4ZURonu8uWsZQa4eG1h/bv2pf/db85b4v/VivqC7Ndamq6tXCNwjRrR7r9rZfcejrxzeb//zj/3Z6fNateztll5XttYfoyi5oezX5lD/qJ74OBIJvjr94fXu7mf/VJfDzu3/8k39IGh8nqUJdAkEe2RhpSwKJAACkOKd/AgLZbln81NZuCRBaIkBS01KArJf2AhRaGiFAk74mCVDT0mpZFC2EzrZWOWntpJxNdl4udPaa3GSmT7I1nSMrp1O1nE/DfIs5sGhdOW702HJ6OawoLn2z0+SMcjo29JztGAYH7XPcMWfstcdBZxh7ytLCWUctlphFvqg0zmhjlaYrl+v3u9fZ65TTDjrumF9lhnJ/aqhzcv9hkEyi6XgbskykyB2/KfSPuvahUWre2bn1HGgAAAA=");
 
 export default CloudSnow;

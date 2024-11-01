@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-b` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-b?s=solid square-b}
  * @preview ![square-b](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-b.svg)
  */
-const SquareB: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm64 120c0-13.3 10.7-24 24-24l92 0c42 0 76 34 76 76c0 16.2-5.1 31.3-13.8 43.7C324.3 261.6 336 283.4 336 308c0 42-34 76-76 76l-108 0c-13.3 0-24-10.7-24-24l0-104 0-104zm144 52c0-15.5-12.5-28-28-28l-68 0 0 56 68 0c15.5 0 28-12.5 28-28zM176 336l84 0c15.5 0 28-12.5 28-28s-12.5-28-28-28l-16 0-68 0 0 56z" />
-    </Icon>
-);
+const SquareB = createIcon("square-b", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcAAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbQsGAAE2AiQDCAQgBYMtBy8b7ATIHge5aem+xEU7/SIevl/r89zXPVN/e2aRe5lZATl0xAnLuChCFaF+xRLoqVrmCsGfuOb5vz89YJE/SjRWghRYxvJ8AhOdJ04kCmymE7C9bdkwMChvhIRJSOPleO0hj6fZLRXS4/QT7rcPjV91dYukRQYg2gBgzqZ1K3zWHM0RPzYQP1qGgJgDSoEMGXoIMF0m0EOuRC4XNEejgf+BJQFEFb9sAjmq2Io9gBwkeZ5369K2da3SMt9YqxTb3hkc8UGXFI+HfDigZbw/7OPuWTwZ+tHA+oang2rx7pAPu17r8mHPR4M/6F/Ee90iYsP1ThEPiiJELW53fhjra0UtkxqFZxX6ftTmo9892KyXr9rStpitaNv21WxCwEvNutRxzXZ/rV/QuuvPX1daL1j/13FrOh52+P64+iUu1eebbL5EorXr5nqmie74NvMnAxinXd/xqs+u1tP/b6ol8Munf0a/okZzfJY+QpMEgmx4Y7jt8RnEZwIAkOKivvEZAslaOb7WugcChAIBkqpCgEx3bQTIFYYJUNHLBAGqCutkIm8hdLBjIkndGSQz0WUk18EnSMV03wZVHSILLzY42N9d0kIJLNhWjhk5upxabguDixi6rk8rj+XBF8tgCOx00CknnXfAfkecF/BZK+ILTlhoQQt8UWmMkUYrTVW661dpowjOOueILvg3maa87w920Z49BLSECcdKJIlITU9UGbEXAAA=");
 
 export default SquareB;

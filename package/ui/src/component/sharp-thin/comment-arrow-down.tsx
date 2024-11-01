@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-arrow-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-down?s=sharp-thin comment-arrow-down}
  * @preview ![comment-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment-arrow-down.svg)
  */
-const CommentArrowDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M71.9 376.4l3.6-9.6-7.3-7.3C35.2 326.3 16 284.7 16 240C16 136.9 120.2 48 256 48s240 88.9 240 192s-104.2 192-240 192c-30 0-58.6-4.4-85-12.4l-4.6-1.4-4.6 1.4L42.3 455.4l29.6-79zM16 480l19.3-5.8 131.1-39.3c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L23.1 461.2 16 480zM264 136l0-8-16 0 0 8 0 172.7-74.3-74.3-5.7-5.7L156.7 240l5.7 5.7 88 88 5.7 5.7 5.7-5.7 88-88 5.7-5.7L344 228.7l-5.7 5.7L264 308.7 264 136z" />
-    </Icon>
-);
+const CommentArrowDown = createIcon("comment-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCHgsGAAE2AiQDCAQgBYMtBzkbJwXIHge5aereRRFlyhzj4fu1Ps993QvAvYQ8sAjg2EWxInaLKmh/xaYiU5FTCO8Zcr4+/f08/2m/AZ/RR4nGWCRWU0SeT2CAD/90t/NZ+WxgM52AzcJtMwMu4RLaL0SukMf3dqhHep7e43H5ofGPTm6QZBmAaAmAmdXVS/1SF3UR72pfEu8sRkDMBIVAhgxdBZgiE+gqVyCXC+qiVjP/gQUBRH24bQI56mE3bgFykGR53q1H7yb1muWVAGtc7dC2Q/v4tfJX1ZF/lMnfSy+5N659tI1SVEv9+/SvxpdN/lr8bvrPvT+Y9tOit5XfF7ye8kPxx8pSdFwfonEIUYnL0XZRLpgOUdUe+0Svj1t+/K/3u96bP38CGk/pbXYsnzVOk7tDaaSJYX2Gnp9ppNO9dFs2fndfwK/18+nw+e697N69USOfenlvPgmJxbt6rrXt/ypc1lJDn1m4SMnH5qpWlZTqfNl3Sqv3+AwIBC0+/LXNLab8p0kCf3938VdUq0vSx2gogSAbUhtiQwKJAACkOKVXgkCyWQbv2tQTAUJjBEjqayxApouWAuQaGyxAPd2NFaC+xlbLRN5IaGvjAJKmjoLMOBdBrq3PQT1TvMrX1zYyutOoRvvry543ReaeKkYOG1FMKnYHOp2UlHg4ubjsDDhlFwbys3Y57JATdtphrxMT4ZilpZMOmndEzfVFhZGGGaEwSfF4/NKuyOgxx62ybTw/ZrLi++QAp47XD+SBBKKjdCWJSK0zev3QrceOHT49NEMCAAA=");
 
 export default CommentArrowDown;

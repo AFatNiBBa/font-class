@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-exclamation` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-exclamation?s=sharp-solid plug-circle-exclamation}
  * @preview ![plug-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plug-circle-exclamation.svg)
  */
-const PlugCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 0L64 0l0 32 0 96 64 0 0-96 0-32zM320 0L256 0l0 32 0 96 64 0 0-96 0-32zM32 160L0 160l0 64 32 0 0 32c0 77.4 55 142 128 156.8l0 99.2 64 0 0-99.2c12.3-2.5 24.1-6.4 35.1-11.5c-2.1-10.8-3.1-21.9-3.1-33.3c0-80.6 54.1-148.5 128-169.4l0-38.6-32 0L32 160zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-64l-32 0 0-32 32 0 0 32zm0-176l0 16 0 80 0 16-32 0 0-16 0-80 0-16 32 0z" />
-    </Icon>
-);
+const PlugCircleExclamation = createIcon("plug-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfQAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCJgsGAAE2AiQDCAQgBYMtBz4bNAXIhof/t+v7fW5V93qvaow7kHskfTtypgh05iCDUkZ//bCnTj3/81AAl4UgaHtoQBbInJ3nFahYr75pCNQKFqACVoQ7tu6Ib0ZoXvcJyvixuE+D9ET6AY+4D40/DXQfSWcBIHoAYPnenZt99Vv8FvF9+33iexsREMtBFihQYIgAixUCQ5QySqXgt2i32X9gJoBoCn4vgRIduAG3AUqQNMuya9fhgzt71o2u5Z66UR2s6kqIOiKizoBjiTrE00s+X13xqhf7PxrPLvtybUS1/4FFEZ9OezPunvrGwk+q++d/NPk1d015fcHH9ahRIJKCEFXgL9QjX+nxyt8jfjjzgzu/bLVa2TEtx+Sv8NOHP5lzbsmyauHEW09qOWnU/9N6dp285M5x8taj4xJpxoixY0fMSGkcLTCznTFOlt/qkdimh6yH8HEQCO66btAfR7sv/q+jTuCPT/79G7i7/VVqpVfQIYGgmNye7FBqASMG4KW4wciWmQWSKzQBv2sXjwoQKgRImioBCoP1EKBUmSRAwzBzBGiq7FSIslPo43CKJF1cjRTmuh0p9fEu0rDY115TnyiWPWbJYa78Etfkwep9ecbU6XlhbizE7OJE6e1Fubc5/gY+mACPOuNKV7jOaaecd10Ovsbm8HqXrWmDVptRNsNU02UL5dH15cN7nHaNa513pSvsLovk+d3xbmhfPAE6SUA6UyRJROp/TlCnPKQznPJfC/v45R0KAA==");
 
 export default PlugCircleExclamation;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sack-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sack-xmark?s=solid sack-xmark}
  * @preview ![sack-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sack-xmark.svg)
  */
-const SackXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 96l128 0 47.4-71.1C374.5 14.2 366.9 0 354.1 0L157.9 0c-12.8 0-20.4 14.2-13.3 24.9L192 96zm128 32l-128 0c-3.8 2.5-8.1 5.3-13 8.4c0 0 0 0 0 0s0 0 0 0C122.3 172.7 0 250.9 0 416c0 53 43 96 96 96l320 0c53 0 96-43 96-96c0-165.1-122.3-243.3-179-279.6c-4.8-3.1-9.2-5.9-13-8.4zM289.9 336l47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47z" />
-    </Icon>
-);
+const SackXmark = createIcon("sack-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABeQAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCBwsGAAE2AiQDCAQgBYMtBzEbCAVRlMrJBtnDw//r0u770vg4mjDIAQDe5R6hI4baZ1usAt2MnBqvfSrgIy/K+fitIM+L98YrMMBhOzvPpgOZDWymE7CZ24g5mGGgVwxDRF7EEBeaF8jjvex2FdJD6XvckT40/tbJ7SRNMgDREgAz1q1a4uPGaIz4rvYG8Z1FCIgZoBTIkKGrAJNlAl3lSuRyQWPUavIfWBJA1AGYvDpHBXtxHJCDJKvyvNXghmqlWb62Wik2VYvqunig/f3ti7i37b3t1qwpqkV2bgk9/unJ7w9/efVjA54Z0yzeGvRcjz9Hvjr1w4G3xP37e1dPmTrloY6P950ak6PQHu4yLaYG7ak+U2JasMOVyX70fLbls/82fL/3ex9tuxnbQ+eaP27snZ+7c+y4+UPn3tSjf2DVLgB+uevWq9diRf2zz9483c2s1teVa1dvvesXWjaMHNHtp/8Q+fnnZs3+85/AGi/J9nkgEJzZdnLHthaTr9RXE/jr3f+v089I7eMkPYt6CQTZ4NpgmxNIBAAgxVk9EwSSrTJ416buFyAUCJDUKQTIdNFSgFxhkAAV3Y0RoE5hlUzkTYS2tlQiaeoEkRnrBiLX1mtExWRfeXXaRuZroqeIX720uQzM2VWOGDq8nFhOYya5D6/zSeWx3v9srA2gTXsdc9Rpe+x2wOkGP2lJeMYRc1fYHF9UGmGo4UoTldfZvbaWaSedcoBz1P2SScr3bn9n190DyErAONKBJBGpOLVj16Eh590SAA==");
 
 export default SackXmark;

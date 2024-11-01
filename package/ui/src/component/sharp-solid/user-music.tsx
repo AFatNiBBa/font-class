@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-music` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-music?s=sharp-solid user-music}
  * @preview ![user-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-music.svg)
  */
-const UserMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 0a128 128 0 1 1 0 256A128 128 0 1 1 224 0zm64 463.8c0 19.1 7.8 35.6 19.1 48.2L0 512 64 304l304 0 0 80.9c-18 2.5-34.8 9.1-48.5 19.4c-17.6 13.2-31.5 34-31.5 59.5zM640 152l0 33.3 0 48 0 160c0 1.2-.1 2.4-.3 3.6c.2 1.5 .3 2.9 .3 4.4c0 26.5-28.7 48-64 48s-64-21.5-64-48s28.7-48 64-48c5.5 0 10.9 .5 16 1.5l0-88.2-144 48 0 150.7c0 26.5-28.7 48-64 48s-64-21.5-64-48s28.7-48 64-48c5.5 0 10.9 .5 16 1.5l0-121.5 0-48 0-17.3 16.4-5.5 192-64L640 152z" />
-    </Icon>
-);
+const UserMusic = createIcon("user-music", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABewAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCEAsGAAE2AiQDCAQgBYMtBzEbEQXIjtMF9cySn0QQb/f/VZ+Zp4tPzofEzexws3UGBqFSRkKm1BKPnBpvvPT0cgmKdj49vXgeNqX+nRufwABry/zibECz0TKb2IR0t5O65TzfLZJ0EUmG7QyjE+Txd3ZdDemJ9AUeiS8aP2jrOklDBiCaAGDKqmULfPRtfBvx+f8Rn5uHgJgCCoEMGToIMF4m0EGuQC4XfBv//4//gQUBRC26bwI5arAPxwE5SLI8b994TLmmmq+046V190S80ecNl3u/rtHS3b5vonGl31s/t7zmCZVYFdUQL3d/vcMuQYjLLnu8+8uluz1fbfdUr9d63WsZsTxEz8KtrWNV9Or6ZpM3f+ryxc4vfPNht4/4qGO1a9dqx48+6sYqmJv0daXZMHnUYEu8tPCem0Z1IWyw56Vi3qFj+/YdO+SZecPz9UdWe2SQRw0efNZgTf3qw0n+BALBnY71OzY1Hv9rfTmB79/55Sflhv8/TJfTm6iXQJD1/7+/9ckHTw8gSHFSV/goAsk2GXrWikcFCCUESGqVBMi010SAXEk/AWp0MkKAWiXLZCJvEFrY0Kik4giVGekClWvhbarGeB+HtVpEJnC8uPDfvZSZHJixrxgycHAxtphWqiBDrNseV2zrvU+qqT5w1E6HHHTcDtvtcZxBRy1ITjhg5gqc4YsKQww0WGGs4ri9P7zSDkcds8chB8Mu4xT37d5Orhf3ASshxqFKSSJS6ZFqA54i");
 
 export default UserMusic;

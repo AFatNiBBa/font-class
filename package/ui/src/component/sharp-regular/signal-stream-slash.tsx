@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signal-stream-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-stream-slash?s=sharp-regular signal-stream-slash}
  * @preview ![signal-stream-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/signal-stream-slash.svg)
  */
-const SignalStreamSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48.4 14.8L29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7-81.3-63.1C562.8 354.7 576 306.9 576 256c0-67.4-23.2-129.4-61.9-178.5l-37.7 29.7C508.7 148.2 528 199.8 528 256c0 39.8-9.7 77.3-26.8 110.3l-51.7-40.2c9.4-21.5 14.5-45.2 14.5-70.2c0-41.2-14.2-79.1-37.9-109.1l-37.7 29.7C405.7 198.5 416 226 416 256c0 13.7-2.2 27-6.2 39.4L48.4 14.8zM163.8 225l-40.3-31.7C116.1 212.8 112 233.9 112 256c0 41.2 14.2 79.1 37.9 109.1l37.7-29.7C170.3 313.5 160 286 160 256c0-10.7 1.3-21.1 3.8-31zM71.5 152.3L33 122C11.9 162 0 207.6 0 256c0 67.4 23.2 129.4 61.9 178.5l37.7-29.7C67.3 363.8 48 312.2 48 256c0-37.1 8.4-72.3 23.5-103.7z" />
-    </Icon>
-);
+const SignalStreamSlash = createIcon("signal-stream-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABbwAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBXAsGAAE2AiQDCAQgBYMtBzob5gTIHgPu5GSRPYv0JE/im1yiCKq17Nnb++ewY8eKSUYRCc/GxpHUMSYVGyHR6sd+e18Sbu+7gjdTb2LToZlE8SamFUJhSDQjGt59DImGEkIy2vxf7vnRbVogn4/gUNZqb1w+xnyeQKDR8G1FAWVhlii2O1tpimgXpFHWkuNbOS4nyPEdw/ikt3QDeMofGl/wMgRJWQCILgDA1qQn4uAjH0Tv/w/iHfEgILYAjCAUKDCAwCquwACeEZBlwQf9/+N/IIMAooIem0BGiX1wDSCDpMh53N6+WbbzcdjRuJBKpGqSUKt7qo6klEXH2W9ZQfSYOatPoomYXw+i5cE+z6rMkOCQUcythdLKUL9HFmPXMl4zDz9l9euEC44Ln4KbqhvoTkvVp9AK+9BqcErflpCq0LgC+CfTZmQU71L7xALMtd1Saz3aH3vBsyuYygsx23aMyI9phOiPGC0SX/iSoF4AAsHi5k8WO4R912wS+Nz6+lLv/j9IfWkB1CQQFFP/agXVByCXgEKKRwiFLwoke7joXVueEQgNBEgqGgIU+jkikDVMIlAaYkGgouEAV+S60KdwgKTlBhTmdYOszyYorTrPV/SFa1aKUSifuswoDkVuYwatnoWwbVtXLUWK66FM7ZV3+TEFHEWVZk06VKpQq4NRbRJLnRpFSWSkH2IMtPSYEOy497o/S6U27Wo1a0qbhGL3k3Jd8mwFBDiId1pdkojU+2AcGkMVSq6htL0GAAA=");
 
 export default SignalStreamSlash;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `anchor-lock` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-lock?s=duotone anchor-lock}
  * @preview ![anchor-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/anchor-lock.svg)
  */
-const AnchorLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336c0 6.1 2.3 12.3 7 17c9.4 9.4 24.6 9.4 33.9 0l7-7 0 6.1c0 88.4 71.6 160 160 160l80 0 80 0c8 0 15.9-.6 23.6-1.7c-4.8-9-7.6-19.3-7.6-30.3l0-33.3c-5.2 .9-10.5 1.3-16 1.3l-48 0 0-208 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-10.9 0C367 158.8 384 129.4 384 96c0-53-43-96-96-96s-96 43-96 96c0 33.4 17 62.8 42.9 80L224 176c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0 0 208-48 0c-53 0-96-43-96-96l0-6.1 7 7c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9L97 263c-9.4-9.4-24.6-9.4-33.9 0L7 319c-4.7 4.7-7 10.8-7 17zM320 96a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M496 272l0 48 64 0 0-48c0-17.7-14.3-32-32-32s-32 14.3-32 32zm-48 48l0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const AnchorLock = createIcon("anchor-lock", true, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABqQAAAKAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDCAsIAAE2AiQDCgQgBYMtB1IbrAXIhqDSVWW1NBNz0jHogNEifGDWI4KHB+hvvEtgz/T38/xbU4E8++FatTwfV1FEnk9g56n7uDUNvISmM7QNzht00H0K7SfI09jsJg3S42kX7g3/BzB+NcBNJJ0yANEdAMt3bFnnu47oSLGr/RGxy1oExApQCWTIMFiARTKBwXIVcrmgI7XbdES7XRFANIVwxttET/gK3gHkIElSnncftaNX2eiSby8bxUlCGRHX932kuKP3QxaFeHbim3M/Hv/6EHFnn4eJuvdDRRF39H3kyEH9Hi2j7vPy2H4hDi/+eltZ3tlvVl6PRJRxJ1Nuci3iy5HPTHhjzkfjXhv8/PwibjbrIFKWIRDzyYQ3hrr3iZfHPjlwc7wyamM85KS69x3yFzKTv9094o3ub/w+fNepu/z57rS4aJlput52W1fHag/LYvsp3bufsj0WnLrof6571PnFqV26nKopVu7atTI2buz8/tU9hju/Nc0+1TP5pTt7td54o66zcKvXneVSTmWfaVhh06m6dNm377JCxGWnFkv/7HobB3TIBuK6Q3sO9T6u26L/W2UCv3zx57+qu9vfpTq9gZYEgmxSe5KjUw1MGMCPSnGpEamO5xDInCmJP7WzRwQIBQIkTYUAmUG6C5ArTBSgYajZAjQVtshE3kno7ZgOJJ1dADJzXANyvX0IGhb5PtbUOzLdquo19V8xa80QWr2smj5lWrWgWq1rNA0oe/MLq8PBcZfyvvFwr1Od51wXO8XJznDxgLzQuuQlzrFmi1jtiyrTTTFNZYHqcuuptX0Qu9BFzlg2ri+yUPV8aJxLt0ePh6tJgBnyXJYRKbJeFsmebJW8k839QJ+pYcQBAAA=");
 
 export default AnchorLock;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-wifi` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-wifi?s=thin circle-wifi}
  * @preview ![circle-wifi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-wifi.svg)
  */
-const CircleWifi: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm116.8-42.6c-3.3 3-8.3 2.7-11.3-.6s-2.7-8.3 .6-11.3C145.8 165.8 198.4 144 256 144s110.2 21.8 149.9 57.5c3.3 3 3.5 8 .6 11.3s-8 3.5-11.3 .6C358.3 180.2 309.5 160 256 160s-102.3 20.2-139.2 53.4zM272 352a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32-96c-26.8 0-51.3 10.2-69.7 26.8c-3.3 3-8.3 2.7-11.3-.6s-2.7-8.3 .6-11.3c21.3-19.2 49.5-31 80.5-31s59.2 11.7 80.5 31c3.3 3 3.5 8 .6 11.3s-8 3.5-11.3 .6C307.3 266.1 282.8 256 256 256z" />
-    </Icon>
-);
+const CircleWifi = createIcon("circle-wifi", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkAAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCPwsGAAE2AiQDCAQgBYMtBzIbQQXIhqDSVWW1NBO7mmPQncWAT4CGudYDwRG4DwhTp57nPLT9PeIxCY+FS+Nr0Jid47wCFeu9dwIVKEI1LQCVtdbObvGDXm+S9ClPslt+2JQr5PG8LSqkh9JB3JEGFV9r71qSLAMQzQAwcfniuV75ID6IOPj/k8RBsxEQk0ApkAHSSYAxMkFfIVcilws+iP//5//AkgCiSn5XAjnqcCnuAOQgqeZ5x47N61s2r1Ua58tqlWLz6UERj817r7h5xsEBjyw5NfDRue/Wbpl9ZPDjyxudmRzx+vwjtVvmHpr46tKTE16Zc7C4ed7hSa8tW35vm/vbnlh+auF9re5tc3zZyQVL729zb6v7Wj/QtriqbcQDtVta3+fKVvcWN7e5P5Y/0WOWfn74kyNfbBjWvaFZw7fdDm476PuXTfiM3w7cMX78HQd++8wE3Q/wH0ytp/3jr06e/Orj7etNRR/5c3stmTJ16unlkRlnpgxdsuTqhZG9+uGbm3zwQRPiGtDkRm5s0uRGp+v6K99dvOZMafzBD4333jNl8btXAoGg7a4//1vfdMyvdbUEPnru+7/Kl9D/rySpAXUSCLI+//exJoFEAABSnK97gkByrksdaiP3CxAKBEiqCgEyHTUTIFfoLUBFF0MFqCoslom8XmhlbQNJI2eBzDCXgVwrj4OKMd72qlpF5oeiF4nPwLRpGpl6rhzYb0A5qhz2quRafDweXS7rPc6npZ6A2ma/fc611RY7nauws80Nz7PXNAud6oNKA/UzQGmUcntyf3mZrc52jp3228enjFaet3s4397cE1YirIM0kkSk2ncdr+8FO7ftBAAAAA==");
 
 export default CircleWifi;

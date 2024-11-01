@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `t-rex` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/t-rex?s=solid t-rex}
  * @preview ![t-rex](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/t-rex.svg)
  */
-const TRex: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 128l-41 0c-70.7 0-132.9 46.3-153.3 114l-5.9 19.8c-4.7 15.5-18.9 26.2-35.1 26.2C64.4 288 48 271.6 48 251.3l0-48.9c0-5.8-4.7-10.4-10.4-10.4c-3.5 0-6.7 1.7-8.7 4.6l-3.2 4.8C9 226.6 0 256.1 0 286.4C0 358 58 416 129.6 416l54.4 0 62.4 83.2c6 8.1 15.5 12.8 25.6 12.8l96 0c8.8 0 16-7.2 16-16c0-26.5-21.5-48-48-48l-18.6-49.6 28.4-25.6C359.9 360.1 368 342 368 323c0-37-30-67-67-67l-13 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l13 0c35.1 0 66 18.3 83.5 45.8l.4-.3 43.5 29c2.2 1.5 3.6 4 3.6 6.7l0 14.9c0 13.3 10.7 24 24 24s24-10.7 24-24l0-14.9c0-18.7-9.4-36.2-24.9-46.6l-30.2-20.1L464 208l96 0c20.9 0 38.7-13.4 45.3-32l-40 0c-10.6 0-20.8-4.2-28.3-11.7L523.7 151c-4.5-4.5-10.6-7-17-7L488 144c-4.4 0-8-3.6-8-8s3.6-8 8-8l18.7 0c10.6 0 20.8 4.2 28.3 11.7L548.3 153c4.5 4.5 10.6 7 17 7l42.7 0 8 0c13.3 0 24-10.7 24-24l0-24c0-44.2-35.8-80-80-80l-18.7 0C534.7 13.4 516.9 0 496 0c-8.9 0-17.2 2.4-24.3 6.6C461.9 2.3 451.2 0 440.3 0c-33.6 0-63.5 21.5-74.2 53.4L352 96l-32 32zM480 56a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const TRex = createIcon("t-rex", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABlAAAAKhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCZgsGAAE2AiQDCAQgBYMtBywbYgXIjsJx7xaTRrQWw9JmPHyv0+/cJ9mTSGHQR14CwAoIyq3IELb78e62DTCwxBLMIko80tCCpGv+L/f8bNMBfrsBfopz2QbZFdCczxNIsGwN8WxQlihm3jJlPSKjR5KTmknfXnt8O0Ee/2RTjXR1eg8XlheNPww6jaQ5AxAdAFh5y03X99K38m3Eu43HEe9aFwGxMqgEMmQYEWA5mcCIXIVcLvg2Gg3+D6wQQNQJnFh5+PyrcAMgB0nK8zOby1prvkVZK/YsyuK1pZ6qBuKqyef0XRERV/Sd09MT97l5+edX19g8Li/LuLL/mr4rpi6MWXHv8DUz75laxBV9V/aX8fqciKXjcuLqKXcOR1wzc2YsG2U8OVzEOX19cUVhCs/t7b2il4adbph5zxJFXLPEOT1XFOdMvm1gJKZvyf7lvZfhhr6J93Tc81d5b7zHiivOkLfY6Ibz76acdVFcc3cs0HRSffIkV8ytr7baTktYfhPXdezk27bs/S/rBG9ZtbWcOPGhVt+2tX3baud3cZ8FebvejTfubddy0AccYCfx/HQdz77HHkW3ner1nbrBndVkeGRAbLF7R7fno/WOn3NwheXP/JzGavbtt1apQFzXt8ynv/tyfzdpAt8/cx7t7sZOJ6V70CSBIJvdmM126SRgdgBZiiNMVL4okFwkkWdtcYUAoUCApK4QIDOsQ4BcYZYANWMWF6CusKlM5M1Cj+0HSFocDDJLOB7kejwKapbzZlrXE5lvip4l/gzT1kBo9XXVgrnzq2WqbVOX3I3Py8tWZm/6EWloBm21hwMd4DC7283eDgPyEOsXh9vfGhqxuh+qLDDXfJVlVMedZ20LyA5xqL3X8vkqy6ruJ9MdoU+eQfIDuRfWQ5JiY6odNueQ3Y8CAA==");
 
 export default TRex;

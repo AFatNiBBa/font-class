@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hill-avalanche` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hill-avalanche?s=sharp-solid hill-avalanche}
  * @preview ![hill-avalanche](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hill-avalanche.svg)
  */
-const HillAvalanche: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 512l480 0L0 32 0 512zM551.1 391.1c34.4-34.4 34.4-90.1 0-124.4s-90.1-34.4-124.5 0l33.9 33.9c15.6-15.6 40.9-15.6 56.6 0s15.6 40.9 0 56.6s-40.9 15.6-56.6 0l-81.7-81.7C401.2 261.3 416 236.4 416 208c0-33.9-21.1-62.9-50.9-74.5c1.9-6.8 2.9-14 2.9-21.5c0-44.2-35.8-80-80-80c-27.3 0-51.5 13.7-65.9 34.6C216.3 46.6 197.9 32 176 32c-26.5 0-48 21.5-48 48c0 4 .5 7.9 1.4 11.6L439.7 401.9c34.2 23.1 81.1 19.5 111.4-10.8zM448 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm64 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const HillAvalanche = createIcon("hill-avalanche", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgAAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCEgsGAAE2AiQDCAQgBYMtBzUbFwXIhofn/ZM69/2fDKBgAGkFl3InljNuV9XWmbp5nm0K8I1CWcOWBrJAojnPEwgw6/L3EskCSyyhwL3d2Z4tifZJjNqSHN9yfC4Q8riU3a5Aeib9hIfyTeMv7dxOUi8DEE0BMGnFknm+uR7XI36sfUj8aA4CYhIoCWTI0FGAsTKBjnIl5HLB9ajV8B9YIoAoYjT5vhxF7MVRQA6SPM/rjGjRokGhUb68QaG+Rg0bbY904L2IuKX3u/Xv7TkunmpwX6snXGz5eP17Wy+Pz7vc0v7Z7k/Fi73fHf5B3xeHv97y8bYXW22Ld3q81Wf1fW0inopbWj9Z/96Wj7vY6okGi25pHdGzKourlXebvvtP+aftP5l4nWGvXXO9+8lnq1SffadafSf82LTp55+H835cuFCPDu3//GNn7waxfFvTVza+XB54+eesWBg+zMM3/ji+vXvju7m7MUWgpTYeBwLBlYdf2bShydj/6zZI4OZn//1TXkLtmzQpvYu6EgiyvrW+1qaJ1GppksBuiuMqxsMCyVY5wFUbelKAUB8BkqL6AmQ6aCpArr4+AhR0NkyAovqWyEReT2hpXQNJQ4dAZrhzINfS+6BgrG/dopaReZzoL+J7L226RKYtlQb1H1gaXVIjVXIiPk7HlJaNnsep0gt2bXfAfkdts9UuRwV92LzgmH2mW9Q0DyoZpL+BSkYrbafP28ttc9gRuxywP80Zo3Te6em43d4L7IQZBwsliUiNL4vfb9PxTXv/w9O3AQAA");
 
 export default HillAvalanche;

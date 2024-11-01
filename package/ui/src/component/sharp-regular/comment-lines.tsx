@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-lines` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-lines?s=sharp-regular comment-lines}
  * @preview ![comment-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/comment-lines.svg)
  */
-const CommentLines: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M101.9 387.7l10.8-28.9L90.9 336.9C63 308.9 48 275.1 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-26.8 0-52.3-3.9-75.7-11l-13.9-4.2-13.9 4.2L94.9 406.2l7-18.5zM16 480l57.8-17.3 92.6-27.8c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L37.2 423.5 16 480zM152 176l-24 0 0 48 24 0 208 0 24 0 0-48-24 0-208 0zm0 96l-24 0 0 48 24 0 112 0 24 0 0-48-24 0-112 0z" />
-    </Icon>
-);
+const CommentLines = createIcon("comment-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdAAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBdQsGAAE2AiQDCAQgBYMtBzQb+QTIjsQ4JvGLKEzi4Xm7vs59Xf1V84essZlJu44AZKIihxt3vn+F/P2pnMt5KIDPKGhj07I9PB1jnFeggN969XpJClbTCe7dnW1CEu3TaClacnx2fG6QxYtxozLp1vQRbqgPGv9o4wJJuQQgGgNg8sql8732W/wW8WHlaeJDcxEQk0EhUEIJ7QUYpyTQXqZAJhP8FpVK+A8sCCCq0O9KIEMV1mA3IANJlmUdOuV5Xq7PVuTlupXtWrfrE690uX/hpyu/nv9x53vmfbTs6hEto3nMinbL5s6auzKezr+d++HEV7veN+GVOR+s+GrWe+NeKr5ePCgGra3L60SeR9Qt6+gujzV+7L8+2vGR7WOfgOZyt5XrT5/akLx56nQ9I3uN+dKbbrR5+dobEb22nTsGzXT17R071tam+ParZxLNmLtjmJmXB7ZGf5DWf6Lx6caBXbkfCARzv/3xkRuN+78mT+CPF2gvI5XfkvQYaiQQlPpV+lmXQCIAAClO6JIgkCyRIbuBm07rUIeDpEodlLTTGDJ1+kJZR8NppbRU1RtZrdDceoSkgcNQMsJJyDT3JJSN825RpXmUTIw1EPaHlzRD4tPPFYMHDCrGFMsh5qyGzsdjC7Xa60Rc6g1X7XDQAcdst81uxwR5xPz6uP1m7Ijpnqgw2ACDFMYojifPl1fY7oijdjvoQDllrOK+3cuJ/ebeYCREOURPkohU/6iV/mYJAAA=");
 
 export default CommentLines;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tennis-ball` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tennis-ball?s=sharp-duotone-solid tennis-ball}
  * @preview ![tennis-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tennis-ball.svg)
  */
-const TennisBall: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M.2 245.1c24.8 8.7 51.3 12.3 77.9 10.4c42.9-3.2 83.5-20.6 115.2-49.6s52.9-67.7 60-110.1c5.4-32.2 2.5-65.1-8.2-95.6c3.6-.2 7.2-.2 10.9-.2C397.4 0 512 114.6 512 256c0 3.7-.1 7.3-.2 10.9c-21.5-7.6-44.1-11.3-67-10.9c-27.5 .5-54.6 6.8-79.5 18.7s-46.9 28.9-64.5 50.1s-30.6 45.8-37.9 72.4s-8.8 54.4-4.4 81.6c1.8 11.3 4.7 22.4 8.4 33.1c-3.6 .2-7.2 .2-10.9 .2C114.6 512 0 397.4 0 256c0-3.6 .1-7.3 .2-10.9zm4.5-38.3C24.6 104.9 104.9 24.6 206.8 4.7c11.1 26.7 14.5 56.1 9.7 84.9c-5.7 34.1-22.8 65.4-48.4 88.7s-58.3 37.4-92.8 39.9C51.1 220 26.9 216 4.7 206.8zM295.4 472.7c-3.5-21.9-2.3-44.3 3.5-65.7s16.3-41.3 30.5-58.3s32-30.8 52-40.3s41.8-14.7 64-15.1c21.2-.4 42.3 3.7 61.9 11.8C487.4 407.1 407.1 487.4 305.2 507.3c-4.6-11.1-7.9-22.7-9.8-34.6z" />
-        <path d="M305.2 507.3c-12.5 2.4-25.3 3.9-38.3 4.5c-3.8-10.7-6.6-21.8-8.4-33.1c-4.4-27.2-2.9-55 4.4-81.6s20.2-51.2 37.9-72.4s39.7-38.2 64.5-50.1s52-18.2 79.5-18.7c22.8-.4 45.5 3.3 67 10.9c-.5 13-2.1 25.8-4.5 38.3c-19.6-8.1-40.6-12.1-61.9-11.8c-22.2 .4-44 5.5-64 15.1s-37.7 23.3-52 40.3s-24.6 36.9-30.5 58.3s-7.1 43.8-3.5 65.7c1.9 11.9 5.2 23.5 9.8 34.6zM245.1 .2c10.7 30.5 13.7 63.4 8.2 95.6c-7.1 42.4-28.3 81.2-60 110.1s-72.4 46.4-115.2 49.6c-26.6 2-53.1-1.7-77.9-10.4c.5-13 2.1-25.8 4.5-38.3C26.9 216 51.1 220 75.3 218.2c34.5-2.5 67.2-16.6 92.8-39.9s42.6-54.5 48.4-88.7c4.8-28.7 1.4-58.2-9.7-84.9c12.5-2.4 25.3-3.9 38.3-4.5z" />
-    </Icon>
-);
+const TennisBall = createIcon("tennis-ball", true, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABpwAAAKmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCVgsIAAE2AiQDCgQgBYMtB1IbegXIBp7n6/TPfW8mBTQp5LT9IneAsOPSKzgXp57nPBTANwrKnhqQBT7neQQiMtryBipowAtU8RpY3zZUqBGIL0IkKkIazxqvKzDkqZ6OCWqNug8s4v8BlI+EMR0UbhoAAPEFAAAcHdo04/JbeavkvvM4yH2aAgIgNQBYCKABDUQiAJSjESASAwswMBB4q5xOeCtOpwUCAGKDj6IBsAEuwCxgLQBgAKBQaMOICsrw8fMwvYz2HqZ7r+3xK8M3xmxK21d2ruhUwerQne7H47cn7w5dHbUmqPMG63nT+22PF66LOFF0q+pS3KbMXUlCr7xq8ajDtuh5HlPkRbMHjivtJnMy/3jx6eTdkesdh5zrPkVeNn9Yc7X9FIl51UbkWYcDkZvLz9cdL+y3MWJd2r6kXUXzEp63fNx2ZXjsXt+9n+33+98nuzTO6uE7aNeuQ4ccrRb7eqjce3Y+v+7UaNEih31E2e//I92rPT0c5qiuKterpnZMn2VDXOMs7nUd5TA9PMdfGfnftEEDpiwJC6WBzfTwXdzKcejQrt0DfXskQl+r59OsHbRr5uM6ZFmfMbW5UXY3x6JFjTq9/oz9HpL4lhF2ABBA4MXziO09fMq/uXooAN6f/fqB+jtyXlaovYArCgABne5Mp6sCQIEAAAAASsYTqwBAAE0zNOJ6stIdCu6goLDhDpoIfMHAnTQwiaaA2lxvg0YMN4RAugEoPBkFmkImgEEgx8CknFuejUDRQcmEFPMlTKxvkXpLVk5mtlVqTSONjTOqTMusbTN5fK6kwFn6M4LhjKUffRnEWIONplk4jmHUX6H1+CAWOWSSjUUplju9F9uTN5oxDBrz/jllWOfdZMav21PAUQhuLpc1GkSJDhjbb/jwQWMyHpqacb1rQT1/kwE=");
 
 export default TennisBall;

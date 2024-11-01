@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-plus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-plus?s=sharp-thin shield-plus}
  * @preview ![shield-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shield-plus.svg)
  */
-const ShieldPlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M250.2 19.4l5.8-2.2 5.8 2.2L469.3 99.9l9.6 3.7 .6 10.3c2.8 47.8-4.7 121.5-36 193.6C412 379.9 356.2 451.2 262.4 491.8l-6.4 2.7-6.4-2.7C155.8 451.2 100 379.9 68.5 307.5c-31.3-72.1-38.8-145.8-36-193.6l.6-10.3 9.6-3.7L250.2 19.4zM495.5 113l-1.2-20.5L475.1 85 267.6 4.5 256 0 244.4 4.5 36.9 85 17.8 92.5 16.6 113c-2.9 49.9 4.9 126.3 37.3 200.9c32.7 75.3 91 150 189.4 192.6L256 512l12.7-5.5c98.4-42.6 156.7-117.3 189.4-192.6c32.4-74.7 40.2-151 37.3-200.9zM264 160l-16 0 0 8 0 80-80 0-8 0 0 16 8 0 80 0 0 80 0 8 16 0 0-8 0-80 80 0 8 0 0-16-8 0-80 0 0-80 0-8z" />
-    </Icon>
-);
+const ShieldPlus = createIcon("shield-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABfQAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCJwsGAAE2AiQDCAQgBYMtBzIbKQXIrgpscFkPHgYxSpsqw2Nvu1FMv2mESs7z9GP9zn1fzPAkVsWsi0ZmQyIUMqGKSWMThLJDVUlr/I+5u4npZ4hoHc1UG6FZgtC1iWlovI5TbgF4AFBlpx/oPdHF+q6K5gr4f+rU85yH4tsoSGPa2iBjaWlOgZ5XsF+aXs6VA9ZuUax107vS9PklSU78SxrGhq3MWRYXaMyh4+RQLpYqLtRG5aMxqxTSBgCQXgCw7khVCc5qqSWP9bvkrR0gQNYBZiFoEMAkAlaSIr6AjACNZAi11Ot/4CwIQJph9RVAI2gCFXAe0AgopI2y6AURWrleVtvRpGkasTntrMlQrmV7lpbu2iccpCM/q18tvzUnM6AzdYc8bk8MazMcW6ozL65szfayW/fy0JAH/t3wesXtuZ1me4cGxHagHVqQQjBT4QokGbrUO59nV09W/W+fHYaXvda0sZ072ju782YqVWrq6Q2qdE5GabDmur8FLbF42ePAnXfHkoquVObnP95vnXXljaR+vqPS9HT03+JefKxCufLWXqq9e6FiotcDBATuXn+2zbjyd2uHBMCHR3/st+uuy49yCa0kgEDDwvpCzQW6GfIvAABKZoWCOyIohkmhqZ02BRAaEEChoEFAAy8TAhppJCKgSUA2ApppVJFioxpk0zIpCZ0JSirHCiVjs0/JFbmNFWyR2uNfDv/1SylmKLxNpKekiQLhtg3hObGtF4ptLW62jMULEL3GjJrWo9uAaUImlWQzRhRHcNgPCelSpBEKiOPeq1ILdNKUgcio800UEvejOLPx7HgxJYx2uX2FBFK0U6cHeoa7k+0CAAAA");
 
 export default ShieldPlus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comma` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comma?s=regular comma}
  * @preview ![comma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/comma.svg)
  */
-const Comma: typeof Icon = x => (
-    <Icon viewBox="0 0 192 512" {...x}>
-        <path d="M120 353.4c0-9.6-7.8-17.4-17.4-17.4c-8.4 0-15.6 6-17.1 14.3L66.7 453.6l50.4-85.7c1.9-3.3 2.9-7 2.9-10.7l0-3.8zm48 0l0 3.8c0 12.3-3.3 24.4-9.5 35.1l-57.2 97.2C93.1 503.4 78 512 61.8 512L60 512c-24.3 0-44-19.7-44-44c0-2.6 .2-5.3 .7-7.9L38.2 341.7C43.9 310.6 71 288 102.6 288c36.1 0 65.4 29.3 65.4 65.4z" />
-    </Icon>
-);
+const Comma = createIcon("comma", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVQAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBGAsGAAE2AiQDCAQgBYMtBywblATIhocnu6j3q2tmAfVKimBGUGSdlEIOskV6iu7SOT2LN14q4BkVrd2Lnw7kA/2f+AQmtswnsvjsi890AjbdJiLoEcXeKAmSiI4nPN7aIEeHuKpCupd+wZVy0vhTO+dIKgWAaAqAqcsWLfTFk3gS8XPtXeJn8xEQU0EpUKBARwEmKAQ6ykpkWfAkajX5B5YEEFXYPYGMjCEYA8ggSTk37Nig0igvbVCpv+x265stF8eyuBPRQDjVPepuj/pxvvXtON1mWTzo/XqDV/u+2a7bW03f+rvrL1t/cWxtlyd/DGi+zdAlelTzkJxziytjN/jmatLik59b5KLlEbM7N273Qtfm9YFA0H7U48Prmkz4r26DBJ599O///Bk1rX0Rw9JbqCuBoBhQG2B1HNVU2xgmAAApjurmC00Fkj4SHLWh2wKE+giQVNUXoNBBUwGy+voLUNHZSAGq6lukELme0NKaBklDB6AwynHIWnobKib43q5qGUXQCFcuPNlSZ1k0c64cOmhIOa6chqoYByyNx5fLWp+jWupLq7baZ6/Dtthsh8OGHLTQO2KPWR6e6UWloQYZojROuZ08Li+1xUGH7LDP3jxlvPK81cdRv7kvmQmow/iSRKTKxwsAAAA=");
 
 export default Comma;

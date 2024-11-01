@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-arrow-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-up?s=solid comment-arrow-up}
  * @preview ![comment-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/comment-arrow-up.svg)
  */
-const CommentArrowUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 448c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9zm24-238.1L280 328c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-118.1-31 31c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l72-72c9.4-9.4 24.6-9.4 33.9 0l72 72c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-31-31z" />
-    </Icon>
-);
+const CommentArrowUp = createIcon("comment-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABcwAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBfgsGAAE2AiQDCAQgBYMtBzcbBQXIjpQuZyTx8Lzdk+e+mQU8a7uCKqMCu3WgjqziUiiTXyH483+557cWHeA3OrID2lMPpAEyxnieQIBZ77xNUWBZGJUo5rvrGxklvJOSpCxJ6b5/OP4j5PFqdlQZ0tX0AU7nN42fNXCUpEIGIKoDYPjcmZO99X18H/F+6RnxvokIiOGgEMiQobEAg2QCjeUK5HLB91Eq8X9gQQBRFsjEz+2VK7AJkIMk5fnQRpXKVMnnuCsrVvl6YsT7QyPebHlzyBsT3pvzxbh3Br1WfDn8RrsLtYO4gxUPiTj0gAt1LlZ6MfBF25crzRWutLrbMKJd3G5zrdHcuNd6dlyt3+/r0OJh9Ye/+mDNB4x1jOtNaVqhQtOm14+NnSSW+MtG/TSqwr41LWtECNi/pv34io+mde3yZ796v+5BQZ3p0+vs8ZsqVT75ZOzYKrNUJPOE34BA8F+1bwYurTbo3/KVEvjxld+7K0v/l75P0kOUl0CQdSp1sigRcHo/UU6xRwv6oECyQIJXreySAKEiAiRlVRQg00h1AXIVdRSgjKZ6C1BWRTNlIq8g1La4g6Sy7SDTxz6Qq+0JKGOQt0tl1Y5MzzQt0f7ysseM0OhdRfcu3YoBxbKj6aqjxM2BxXbcbo+faE+F1thqi11WW2W9XQO/w+TqbpuNkbjRfqjQXRfdFAYojvvPh+dYbYed1ttqS9pmoOJ+3s4eeX57yhII9tCUJCJV/7BrOy/fsWPr3s67twE=");
 
 export default CommentArrowUp;

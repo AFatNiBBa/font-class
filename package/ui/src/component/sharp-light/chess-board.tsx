@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-board` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-board?s=sharp-light chess-board}
  * @preview ![chess-board](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chess-board.svg)
  */
-const ChessBoard: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 64l0 384 384 0 0-384L32 64zM0 32l32 0 384 0 32 0 0 32 0 384 0 32-32 0L32 480 0 480l0-32L0 64 0 32zM80 96l72 0 72 0 72 0 72 0 16 0 0 16 0 72 0 72 0 72 0 72 0 16-16 0-72 0-72 0-72 0-72 0-16 0 0-16 0-72 0-72 0-72 0-72 0-16 16 0zm16 72l40 0 0-40-40 0 0 40zm72 0l40 0 0-40-40 0 0 40zm72 0l40 0 0-40-40 0 0 40zm72 0l40 0 0-40-40 0 0 40zm0 32l0 40 40 0 0-40-40 0zm0 72l0 40 40 0 0-40-40 0zm0 72l0 40 40 0 0-40-40 0zm-32 0l-40 0 0 40 40 0 0-40zm-72 0l-40 0 0 40 40 0 0-40zm-72 0l-40 0 0 40 40 0 0-40zm0-32l0-40-40 0 0 40 40 0zm0-72l0-40-40 0 0 40 40 0zm32 0l40 0 0-40-40 0 0 40zm72 0l40 0 0-40-40 0 0 40zm0 32l0 40 40 0 0-40-40 0zm-32 0l-40 0 0 40 40 0 0-40z" />
-    </Icon>
-);
+const ChessBoard = createIcon("chess-board", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABoQAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDaQsGAAE2AiQDCAQgBYMtBzIb6wXIjsM4RjyyK0/R8fD92mfnvu6h7jB0ohjBAfk4Aj02YfVdAFetnVpLoH+xMM//5fQGTlog389O4AzPxqY1/a4BuNfzBAINe9HyhLLAEgs4AcvcFhPUIMgFYYpMfeUZhvYL7R+Qx8OggXQ/xW1+0/hVb7dI8gxAdALA3M3rV6q1RVvEl/pL4ovlCIh5oBLIkKGfADNkAv3kKuRyQVvU6+E/sCKAaITvlUCO7vgJPwNykHTN85bOA1tQlQ3t803l2mJ7ylL7yKLdsLJoL1KIol0MWGzUsrrqh1XuuDKiWLOsUghlRBRSiqIsRBkhjBBFiHLcq4bi9ODWTq2/D/pyqIFXr8Hi+fWqqlWuqZxn3LF69pIlYzpZQlCnISLtuHgILG7NJXXX1Xr8qZ+eBwJBj9EXB+zuOOP/5jKBX979+Tf/jNTbopZa0SyBIBtRZ0fUIGoCAJDiksFRQyD5qCu8ajt3BAgFAiSNCgEyfXUSIFcYLkCDASYK0KiwXibyFqGbnR0k7ZwFmUkug1w3z0GDGd43GnWLzLhV01T/LbMWSXThsWrsqDHVtGrb1zR7ldP+9Oq1O+RSnBtKZx1y2ikXHHTAURcEfc7K9kUnLTpRC31QZaxRxqhMU6lHz9Ym0TjnvKPPhv6Q6ar75RCXzquHUpBAdJwLSSJSuf/IwfPnR377");
 
 export default ChessBoard;

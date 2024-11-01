@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `school` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school?s=sharp-thin school}
  * @preview ![school](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/school.svg)
  */
-const School: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 112l144 0L320 0 480 112l144 0 16 0 0 16 0 368 0 16-16 0-240 0-16 0-96 0-16 0L16 512 0 512l0-16L0 128l0-16 16 0zM368 496l0-112c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 112 96 0zm16 0l240 0 0-368-144 0-5 0-4.1-2.9L320 19.5 169.2 125.1 165 128l-5 0L16 128l0 368 240 0 0-112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 112zM64 192l8 0 64 0 8 0 0 8 0 80 0 8-8 0-64 0-8 0 0-8 0-80 0-8zm16 16l0 64 48 0 0-64-48 0zm424-16l64 0 8 0 0 8 0 80 0 8-8 0-64 0-8 0 0-8 0-80 0-8 8 0zm8 16l0 64 48 0 0-64-48 0zM320 240a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm0-144a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm8 48l0 24 16 0 8 0 0 16-8 0-24 0-8 0 0-8 0-32 0-8 16 0 0 8zM64 320l8 0 64 0 8 0 0 8 0 80 0 8-8 0-64 0-8 0 0-8 0-80 0-8zm16 16l0 64 48 0 0-64-48 0zm424-16l64 0 8 0 0 8 0 80 0 8-8 0-64 0-8 0 0-8 0-80 0-8 8 0zm8 80l48 0 0-64-48 0 0 64z" />
-    </Icon>
-);
+const School = createIcon("school", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABuQAAAK7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiEHwsGAAE2AiQDCAQgBYMtBy0bHAYR1ZoByT4ScjK8NsRFDFEoC5Z4xVSG8knwD+rS92XfxZECbggd4MI1RYYNaCeiKVt52MpjeS3zwP+9u3+OMOppbS7AjodpGIW6RCJJNP4T1zz/86f3tiJ4pEj7XxVHYkTSaDfgAVZp64A3sNlAnnjgOghy2zB/RDykHaFwBr5+mysG5pB5CTvKzfpsbjsGzwMChXhR6HUZM4ym93of6cV0D71wBgJQLwAiAjzAA4oIgK48BBTxiYCPj+C9/v/3/wMjCAAUh2cbAHwgBJ/ATwDgA2BI8/38oWyWnFmlpmZ6QRdL9cebv6Gd4qyboHFyDhkhmyZ5ktw8ocM5+6vPZu3NQ8456zxZmxON11hlRdYaOUlHGq7UnKu7lM/8xjqEkLWSpGzCSbJzZp1yluljHzRcqb/c/m7txbpL7XSvxbXmV9veb3m91Y0OxQjn9k9NzLxeGzfk/H2i/BNe/lr2cv5LhhE7cZ9YwdqwcwxZKRTeS9d100rme69+icTrV95KZo4/yFhpZ9Zo/01LaRTbudIPBmybzU6ePGVX9mgVBCMDRgoIBpb6/54kJ+gp8Uz32gdOBwg2WTnf0kTL0tKWiZy8s2n9hAnrm/RNeSwMg1AQlUQC6vEl3XjBlTQigaUnkWkACBBsW0yfNiO96z9wBoCPj79/Lh/+32Q2m8sgwAAg8JpPzU2NNwNMZgQAEaP1lK98kADDR3p41xT2iwAQFhAAhjgWAeBRKCQAfCwNBECMEu0IgDiWMTzkJyNwlmktYaRYRXja20D4stwhYrp6Eo7Lijx5L8pa8bczrX8f6Dcrar07hGNYLKklqcx7o6ew26h9WC1L5SDzrbDcWvPMtcjaHrTasNg6y/RfA/v5okhrLSVEOotOVx9r4zV4tTUWOS0/P0kX0f3+WuvXu9cpNgPWRjmGgeL4JwMAAAA=");
 
 export default School;

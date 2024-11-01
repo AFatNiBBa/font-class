@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-walking-arrow-loop-left` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking-arrow-loop-left?s=sharp-thin person-walking-arrow-loop-left}
  * @preview ![person-walking-arrow-loop-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-walking-arrow-loop-left.svg)
  */
-const PersonWalkingArrowLoopLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M208 16a36 36 0 1 1 0 72 36 36 0 1 1 0-72zm0 88A52 52 0 1 0 208 0a52 52 0 1 0 0 104zm19.4 166.3l4.8 9.5 9.5 4.8 33.7 16.8 14.3 7.2 7.2-14.3 14.3-28.6 7.2-14.3L304 244.2l-24.1-12.1-35.2-70.5-7-14-15.3-3.1-80-16-10-2-9.3 4.1-72 32-12.9 5.7-4.5 13.4-16 48-5.1 15.2L7.5 260.2l15.2 5.1 30.4 10.1 15.2 5.1 5.1-15.2 5.1-15.2 11.5-34.6 17.9-7.9 18.8-8.3-5.3 19.9-11.7 43.7c-5.6 21.1-.1 43.6 14.7 59.7l70.9 77.4 22 80.5 4.2 15.4 4.2 15.4 15.4-4.2 30.9-8.4 15.4-4.2L283.1 479l-4.2-15.4-24-88-2-7.5-5.2-5.7-52.3-57 11.7-39.9 6.6-22.5 10.5 21 3.2 6.4zm8.4 102.9l2.6 2.9 1 3.7 24 88 4.2 15.4-30.9 8.4-4.2-15.4-22-80.5-1-3.7-2.6-2.9-70.9-77.4c-11.1-12.1-15.2-29-11-44.8l17-63.6 8.6-32.3-30.6 13.6L83.4 200.9l-6.4 2.9-2.2 6.7L63.2 245.1l-5.1 15.2L27.8 250.1l5.1-15.2 16-48 2.2-6.7 6.4-2.9 72-32 4.6-2.1 5 1 80 16 7.7 1.5 3.5 7 35.2 70.5 2.4 4.8 4.8 2.4 24.1 12.1-14.3 28.6-33.7-16.8-4.8-2.4-2.4-4.8L228 235.8l-18.2-36.4-11.5 39L180 300.8l-2.5 8.7 6.1 6.7 52.3 57zM68.7 398L25.4 441.4 14.1 452.7 2.7 464l11.3 11.3 22.6 22.6L48 509.3l11.3-11.3 11.3-11.3 48-48 4.6-4.6 2.4-6.1 15.7-39.3-12-13.1-18.6 46.4-1.2 3-2.3 2.3-48 48L48 486.6 25.4 464l11.3-11.3L80 409.3l2.3-2.3 1.2-3 21.8-54.6-4.8-5.2c-2.5-2.7-4.8-5.6-7-8.6L68.7 398zm382.2 40.1l6.1 5.1L467.3 431l-6.1-5.1-79-65.9L632 360l8 0 0-8 0-280 0-8-8 0L328 64l-8 0 0 16 8 0 296 0 0 264-241.9 0 79-65.9 6.1-5.1L457 260.7l-6.1 5.1-96 80-7.4 6.1 7.4 6.1 96 80z" />
-    </Icon>
-);
+const PersonWalkingArrowLoopLeft = createIcon("person-walking-arrow-loop-left", false, "data:font/woff2;base64,d09GMgABAAAAAAOgAAoAAAAAB8AAAANVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWyFXAsGAAE2AiQDCAQgBYMtB0Ub8QbIjsJxLx6apQ0xxDQULeKhWPu93buPmCYqWTyblsZ0hq6dbJY8keIf4HnIy95PpsQUTCWlK+tkHFufFvJNYKY/5vPqPM/r0Qp0PpTIt47zKotonMBEM2nz2fqHfWH8o3rlBP1V/m2hlD+GsIDckpfBlfdL4w3eliBRVQCEMwBY3Otcx/GqPBS5ZHwgLlEDAUQRMEZAAQowRAAzVAQMMaFBiQmBahiG9j9QQwCEJcHFE1CCOohKxACAEpBYmkxuDoOPMmLsLBxM3awr2vY+M4tssKBrve3Sno2ysHeTHc2D23y2hjd4bfbeEta128NsljQxi6f4iqd4SLh0ix7xQCR36RJdKD+7WcLWcDVroESE0GuMdvtU19iJbnnEXowH7IQ9vuIt5uMFljx0Qui4ngZTxLenTj1cHn4o34HdY+FqsesJEy/J3mX1kfiV8sSneDtu5xbkvgoTpSx4m91DYg9F5KqjxxApMRt7Egd2e5g9XzC50U5EFRFbe8TOQRHbe0Wf5rtLTrQ5t70LujzsMtfenbbisdWp9dqpFGrRPf5+3rr187hmcW2sCj5mPU68MM4d41w3W/Cqsb6ob7XGEhWjnJbHoNM9dcsz9XQ7eIrUWbuJB+W1mNfl0z3xwhMF8nnu8VSm0l7DrBdWN6wjgOrQCLqXCpjXqATbdpdqj1arvFOvE7OddLfoDB4GqRglSaH6VhOFC1nlrsgcdzgr4u42d3sF8NJV5p3XwYMH22nTZlh6QwcZUoV57jB/CkEM7YY5qJ0LV+VSpUyumBvRZbvLNrrQF/ldZ40Xa6wznbGOtOYzfZEuZsL6rzHUUPtsIEDAyc3Fmf2dZr7V2SmA/98Pb+jpqnFCWZBtUIcCCChijVh98pQKmFUAPCnTBGO5tPosxEQoTWwkvsAWHJBYYgsKfDmDEltiQIUAafyVsPMqrJhsnO76IqBgz0Sgkm4uMOFuF7Ag1zm3Je6hcishpxD+1AbL26iyYVpSfKKWrU2mlSKewrfbc7TV2shpelkUHMkw440zxVBDjDSlRZykzjfVWOVz7GV/q0kSL5Emm7Y7dx92w55JJhs5Lt4/SA7tfGekafO1o6BBIeA4LS5RIJQAXqiMUw3D4wYeTxo/PU59Ekg9AA==");
 
 export default PersonWalkingArrowLoopLeft;

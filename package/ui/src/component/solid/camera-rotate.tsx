@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-rotate` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-rotate?s=solid camera-rotate}
  * @preview ![camera-rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/camera-rotate.svg)
  */
-const CameraRotate: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M213.1 64.8L202.7 96 128 96c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64l-74.7 0L426.9 64.8C420.4 45.2 402.1 32 381.4 32L258.6 32c-20.7 0-39 13.2-45.5 32.8zM448 256c0 8.8-7.2 16-16 16l-76.7 0c-6.2 0-11.3-5.1-11.3-11.3c0-3 1.2-5.9 3.3-8L371 229c-13.6-13.4-31.9-21-51-21c-19.2 0-37.7 7.6-51.3 21.3L249 249c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l19.7-19.7C257.4 172.7 288 160 320 160c31.8 0 62.4 12.6 85 35l23.7-23.7c2.1-2.1 5-3.3 8-3.3c6.2 0 11.3 5.1 11.3 11.3l0 76.7zM192 320c0-8.8 7.2-16 16-16l76.7 0c6.2 0 11.3 5.1 11.3 11.3c0 3-1.2 5.9-3.3 8L269 347c13.6 13.4 31.9 21 51 21c19.2 0 37.7-7.6 51.3-21.3L391 327c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-19.7 19.7C382.6 403.3 352 416 320 416c-31.8 0-62.4-12.6-85-35l-23.7 23.7c-2.1 2.1-5 3.3-8 3.3c-6.2 0-11.3-5.1-11.3-11.3l0-76.7z" />
-    </Icon>
-);
+const CameraRotate = createIcon("camera-rotate", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCGwsGAAE2AiQDCAQgBYMtBzQbHwXIBp7/d8vu+8CcBOJCyErEtVpTrUS9NJFuzpZeic/Fqec5DwXwjYI2Fi4NyJi0Z8d5Cz4FUo+3WrAJVlHs24YJNYLwRIRImIQ0po3VAnT5oy3FALVVPQRWty+Vj0SyFBTeGgAAEgAAAFT36NLOVbe4RR54ToE8oBUQAKkGwEYADdCAGASAMjQEiEHHBnR0BNzi8eT/QBsEAMQFPbcCQAcMYDIwEwDQAVBout7JcSzDV+9uGWafiOgIUw4kHYlQsjX5aEdfOZx6PFqTbSnHOpkSJdsKTDkZ0W1DiCmbwhaFp8oxc1lSkhzotC06Va403ipPlc3WxlC6bg63JM0sDEmSo9by1FQ53HFrBHsu1t2uSJINpm9GnGMBxz4nPBz+kJfzd5G3lT2BgSaYfXvPQr5jK7u4HDibwMsfLvu521njbTgzqIuLq8vF1/fp01wSAsiegWOo+7V7Kve3A4AAAv0OvlsxwL/sm5elAHh//uvP8TjH41ZV6hjghQJAQEvzpNFXLcShSlUhAAAAgJLpOAaFF1KMRoMUHzZ5DcEEBoULEzSiCQAdk1QwiCN/gQuTLmiI7o0QQj8YFD5MAo0C5oFOCCfAoIw7qosQ0aKOihnq0xffIJH6Q3Z2RpZdYm8zkw4kom6X2sdC0vTSSYarDGcC45nKMIYyiqkCm0y7MY1xNFhoPT/EJpsMsrApwXaXr3x3VCczhVE669+lFPu+ksR0ezwZZAXh5hBRKBDl+3Dc6ZMnTB00dRg=");
 
 export default CameraRotate;

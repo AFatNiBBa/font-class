@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-from-arc` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-arc?s=light arrow-up-from-arc}
  * @preview ![arrow-up-from-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-up-from-arc.svg)
  */
-const ArrowUpFromArc: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 480C132.3 480 32 379.7 32 256c0-8.8-7.2-16-16-16s-16 7.2-16 16C0 397.4 114.6 512 256 512s256-114.6 256-256c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 123.7-100.3 224-224 224zM116 149.4c-5.9 6.6-5.3 16.7 1.3 22.6s16.7 5.3 22.6-1.3L240 58.1 240 336c0 8.8 7.2 16 16 16s16-7.2 16-16l0-277.9L372 170.6c5.9 6.6 16 7.2 22.6 1.3s7.2-16 1.3-22.6L268 5.4C264.9 2 260.6 0 256 0s-8.9 2-12 5.4l-128 144z" />
-    </Icon>
-);
+const ArrowUpFromArc = createIcon("arrow-up-from-arc", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbAAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBTwsGAAE2AiQDCAQgBYMtBzgb1wTIhofv13o793UHgDvMrIAUoorNV0FcRju1FlX0zP/lnp9tOsBvdGh76MYFftfazxMINFo0l+dZYJkmYL1tiGgjCldQIUIS0Xg5XjvI41X0UIl0O32Hi/VD42/NnCbJMwBRFwBjF8+f6X0pShHflZ8Q35mOgBgHCoEMGVoKMEIm0FKuQC4XlKJc5v/AggCiMoETLccTp2IRIAdJyvOOLWtUqpUvoouqL/xiWsQ3/SIetrvR+FrD38d+mPn9wj9n/zj+08V61bt97k/5asKya42uN1kcKa43utkki4XBr7jZeFHcqH6m4YJ2FXUr/m373abvlNuUWtHjE36uXbtUqm1y02aXT0w22YnLzZqabJfX/vmTHq1KZ6edvfP83vo9GiOrsTHt3vM7Z49dNKFKlQnteRAI7qw6UHd1nREfq9ZI4K+X/39Ev6Ly+yRVoKoEgqxHuYcVCSQCAJDikHYJAslYibxrTTcECNURIKmsugCZFuoKkKuuuwCVtDZQgMqqmy8TeTWhoZUTJDXtBZlBjoBcQ49AJSN8mVTWMLJ4YqOB/c4lTdLQxElF3159imHFstC5EKHz6PBi2+pyKLV0hYU22W2XAzbaYKsDitxnZn7QTpM8YqIvKvTVSx+FYYrj6nb2Ihvts99Wu+0q4wxX3Pe6OOR37wpuIpT9LE8Skeqt3bdv9+GeB/f0fHtxz7X71gMAAAA=");
 
 export default ArrowUpFromArc;

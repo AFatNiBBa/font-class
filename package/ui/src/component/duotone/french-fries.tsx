@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `french-fries` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/french-fries?s=duotone french-fries}
  * @preview ![french-fries](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/french-fries.svg)
  */
-const FrenchFries: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M.2 98.8l16.5 93.4c1.6-.1 3.1-.2 4.7-.2L48 192c3.6 0 7 .4 10.2 1L40.3 85.6 19.9 80.5c-5.3-1.3-10.8 .1-14.8 3.8S-.7 93.4 .2 98.8zm64-64.2l32 192c.5 1.2 .9 2.3 1.2 3.4c2 6.3 6.7 15.9 18.7 24.3c3.2 2.2 7.1 4.5 11.8 6.6l0-246.3-.2-1.3c-.8-5-4-9.3-8.5-11.6s-9.9-2.3-14.4-.1l-32 16c-6.3 3.1-9.8 10-8.6 16.9zM160 16l0 190.7c0 21 0 42.1 0 63.1c9.2 1.4 19.8 2.2 32 2.2s22.8-.8 32-2.2l0-238c-.1-6-3.5-11.4-8.8-14.1l-32-16C180.9 .6 178.4 0 176 0c-2.9 0-5.8 .8-8.4 2.4C162.9 5.3 160 10.5 160 16zm96.2 37.2l-.2 1.4L256 261c4.8-2.1 8.7-4.4 11.8-6.6c12-8.4 16.7-18 18.7-24.3c.7-2.3 1.7-4.7 2.8-7L319.8 50.8c.9-5.3-.9-10.8-4.8-14.5s-9.5-5.1-14.8-3.8l-32 8C262 42 257.3 47 256.2 53.2zm71 139.5c2.8-.5 5.7-.8 8.8-.8l26.6 0c1.6 0 3.2 .1 4.7 .2l16.5-93.4c.9-5.3-.9-10.8-4.8-14.5s-9.5-5.1-14.8-3.8L346.2 85l-19 107.8z" />
-        <path d="M58.1 487.5L.6 250.5c-.4-1.7-.6-3.3-.6-5.1C0 233.6 9.6 224 21.4 224H48c8.8 0 16.3 7.2 18.9 15.7C74.3 263 100.3 304 192 304s117.7-41 125.1-64.3c2.7-8.4 10.1-15.7 18.9-15.7h26.6c11.8 0 21.4 9.6 21.4 21.4c0 1.7-.2 3.4-.6 5.1l-57.5 237c-3.5 14.4-16.3 24.5-31.1 24.5H89.2c-14.8 0-27.6-10.1-31.1-24.5z" />
-    </Icon>
-);
+const FrenchFries = createIcon("french-fries", true, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABpAAAAKbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCdQsIAAE2AiQDCgQgBYMtB1QbmwXIBp7/X0vve//PEoZgNgUGBTibArGi3XOiimgTlq0qOwJVy4pQzv9c8/mlHR3gNzqx4wOJXDR16Tjz+QQGWEHRIAk24JniLDZ3PEzcQkNC2QlYOWSacECv6jPgdPw/gPKZSppACRsAACQFAABMaVw4mwdv5a3KM/8myDNmAQIgUwFwEcAABqhBABiPQYAaLC5gsQi8Vd+Ht+L7LggASID4ywwAASAEXAC6AAALgCI41nYvKasoS0WduM1HncjsvJe/JNd7ReVi6dU+Hd6bfl3Vl8uj0lJZKFkkV7pHpLXKeHmvKMejUTlempeecqnkQunCZfAiF3s80IVsl8rI1l2cqY0IBQpcjB4vB3/NFjnmjMNDQC6Xt5UXWmMjkbvEu/yeJTrbsqihM9X5Nfds4zMuj/6SjVeTyVXzas7QluapgoObW4bOfl1NLmN09Bc27n7B7o2sSC3HQaBajTM5vZXh7Fnvhfz6+9gNrYpNW/sPpXztunU+FyKr0vcFmUx94HUm8/ob4X0+OWuH7A+v6q6qL1g7LValpq6LkLeo+J+zlTOPD3aqUU0tnz+oUEJmGwAIIPDu4acvq5Lj/4aiCsD7W99/N5pPdz2QonYCIRQAAdPf789yKfhgkSJCvspBGqRgbrnCsBkHX4xLj3NCBAZQAkTAUE0KLBH6gUMdI04IEGEhBrFhhBJWAFBi7AHDSA6DpYQb4DCeh+kAJWLUqKTCpF/E9JlTZMYod8jAwe5Yd7egk5WdEAyOcy/bex90GvqwjWxkFzvZzwbWs4X9E3ovs3MH2MHMI2oGP8RlCAMZjMtY3Mfll3p+kt7LPrZsq8+HGYf7va83B4/b92EuJWUcyhyDAVExJdpZG1DHtmzYN0C5N5etqFIbAAAA");
 
 export default FrenchFries;

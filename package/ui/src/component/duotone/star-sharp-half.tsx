@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-sharp-half` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-sharp-half?s=duotone star-sharp-half}
  * @preview ![star-sharp-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/star-sharp-half.svg)
  */
-const StarSharpHalf: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M288 0l0 155.9 0 169.4 0 81.1L389.1 485l2.9 2.3 12.3 9.5 13 10.1c8.3 6.5 19.8 6.8 28.5 .7s12.3-16.9 9.1-27l-5-15.7-4.7-14.8-1.1-3.5-40.1-126L507.7 240l1.8-1.4 10.5-8.2 14.7-11.5c8.1-6.3 11.3-17 8-26.7s-12.4-16.2-22.7-16.2l-18.7 0L488 176l-2.3 0-124.2 0-40-125.6-1-3.2L316 32.9c-1.7-5.4-3.4-10.8-5.2-16.2C307.7 6.8 298.5 0 288 0z" />
-        <path d="M254.4 50.4L214.5 176 90.3 176 88 176l-13.3 0L56 176c-10.3 0-19.4 6.5-22.7 16.2s-.1 20.4 8 26.7L56 230.4l10.5 8.2 1.8 1.4 103.7 80.7L132 446.7l-1.1 3.5L126.1 465l-5 15.7c-3.2 10 .5 21 9.1 27s20.2 5.7 28.5-.7l13-10.1 12.3-9.5 2.9-2.3L288 406.4l0-81.1 0-169.4L288 0c-10.5 0-19.7 6.8-22.9 16.7L260 32.9s0 0 0 0l-4.6 14.3-1 3.2z" />
-    </Icon>
-);
+const StarSharpHalf = createIcon("star-sharp-half", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABiAAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCKAsIAAE2AiQDCgQgBYMtB1obVAXIhof/t9W671dNHygGbwGvGcQlMpNMLINVCddT8wwNErI+G5lnyMQ19SPp+zwaX/RRallUIAWeeT7c+YB/9OPE2QYyoZni9qbpKGL2JUnWZOaPVcfVFfJ4lN3QQnojPcBz+D+A8avebpB0zABENwAs2Lh2uR+a0Uzx4OknxAPLEBALQSmQIUM/AWbLBPrJlcjlgmZ6+pRmPH1aEkBU4IszUEGOs7gOyEESIs+nTe7U0jnfgOHF1nUb1xXFO9WXa7VI8vpYF1XLy7VXGo3gNkaI71SrcRWoGg4KglsfNcsrjdfq9ZA3xMZouEPn1aFFsYFJv9outH/U7aPf2x4ceODxM0Mvhg9ebLdj3le/+AAHVxl2UbLCSvPu/fTwri+12bfCah96m50rwXLJwO/fpvqHVgtRbb5018Of7s1baYWk903OdvO6X3w1b4eeNw3ftdywxk5AIHix2XptZ9fZ/3folMCPX/35b3mu/9Ov06D0ETpIIMhGPx1tW5ovEPqTgoMdUlzQXohdPmqahL611asChAIBkopCgExf3QTIFUYJ0GKAKQJUFNbKRN5RqNre1KTVaTUz1UU1V/Wx2mK22+2KamTeF/Od2N+v9NIeXnKqnDB2fDmznPbVuEP5eX9WuVwefiHOjYBIB5x0wjn77XPYuU44Y3nvvOOWStQSP1SaYKzxSjOV6tFjekNon3HWYT6pP2SW0r413AV59QioJeQ4UUgmI1JkjeeRHXNDM2N8Oz/mJC/tzSWPLQAA");
 
 export default StarSharpHalf;

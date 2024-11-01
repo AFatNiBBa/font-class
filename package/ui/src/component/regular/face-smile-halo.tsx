@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-halo` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-halo?s=regular face-smile-halo}
  * @preview ![face-smile-halo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-smile-halo.svg)
  */
-const FaceSmileHalo: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 80C512 35.8 397.4 0 256 0S0 35.8 0 80s114.6 80 256 80s256-35.8 256-80zm-64 0c0 17.7-86 32-192 32S64 97.7 64 80s86-32 192-32s192 14.3 192 32zM45.6 156.5C26.7 190.7 16 230.1 16 272c0 132.5 107.5 240 240 240s240-107.5 240-240c0-41.9-10.7-81.3-29.6-115.5c-14 5.8-29.6 11.1-46.4 15.6c17.8 29.1 28 63.3 28 99.9c0 106-86 192-192 192S64 378 64 272c0-36.6 10.2-70.8 28-99.9c-16.9-4.6-32.4-9.8-46.4-15.6zm172 128.3s0 0 0 0s0 0 0 0c2.1 2.8 5.7 3.9 8.9 2.8s5.5-4.1 5.5-7.6c0-17.9-6.7-35.6-16.6-48.8c-9.8-13-23.9-23.2-39.4-23.2s-29.6 10.2-39.4 23.2C126.7 244.4 120 262.1 120 280c0 3.4 2.2 6.5 5.5 7.6s6.9 0 8.9-2.8c0 0 0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2-.2c.2-.2 .4-.5 .7-.9c.6-.8 1.6-2 2.8-3.4c2.5-2.8 6-6.6 10.2-10.3c8.8-7.8 18.8-14 27.7-14s18.9 6.2 27.7 14c4.2 3.7 7.7 7.5 10.2 10.3c1.2 1.4 2.2 2.6 2.8 3.4c.3 .4 .6 .7 .7 .9l.2 .2c0 0 0 0 0 0c0 0 0 0 0 0zm-73.9 47.9c-9.7 9-10.4 24.2-1.4 33.9c22 23.8 60 49.4 113.6 49.4s91.7-25.5 113.6-49.4c9-9.7 8.4-24.9-1.4-33.9s-24.9-8.4-33.9 1.4C319.2 350.5 293.2 368 256 368s-63.2-17.5-78.4-33.9c-9-9.7-24.2-10.4-33.9-1.4zm233.9-47.9s0 0 0 0s0 0 0 0s0 0 0 0c2.1 2.8 5.7 3.9 8.9 2.8s5.5-4.1 5.5-7.6c0-17.9-6.7-35.6-16.6-48.8c-9.8-13-23.9-23.2-39.4-23.2s-29.6 10.2-39.4 23.2C286.7 244.4 280 262.1 280 280c0 3.4 2.2 6.5 5.5 7.6s6.9 0 8.9-2.8c0 0 0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2-.2c.2-.2 .4-.5 .7-.9c.6-.8 1.6-2 2.8-3.4c2.5-2.8 6-6.6 10.2-10.3c8.8-7.8 18.8-14 27.7-14s18.9 6.2 27.7 14c4.2 3.7 7.7 7.5 10.2 10.3c1.2 1.4 2.2 2.6 2.8 3.4c.3 .4 .6 .7 .7 .9l.2 .2c0 0 0 0 0 0z" />
-    </Icon>
-);
+const FaceSmileHalo = createIcon("face-smile-halo", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABxgAAALJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSELAsGAAE2AiQDCAQgBYMtBzYbMgbIjtFjR5IhCSMwcgxGkuVFUI2F9exBGNGlopA8ALtEhjUQKuYHff73/uW5G0jvx1YHFxWsFmK5bSZd5v9yz8/WAvxGh7J30aYNEs35PIEAwx8uT+gowEzDwC3zTPdo+mhVPzFRZyymYv4Le7z2hGycie1ypAPpLraNQsV31XSS5DIAoiwA6DclLgIHb+hNxJ3CLnHHCBAQ/QDURcjArUk0PRPBTxBUF2RlBW+iUND/QAYBRN58+wSyKIpfRHFAFiT5bLZCBS6oWh+JXKnsZAmh4jPGEoOeT36Z+FJzNOHZpPcp73XEdw8Mulp84+DrlfuDbpTYNOhapexT7NVmM+TWpPcR1x22kw7bzuivci/RDxPfxj9NnraaM0xYQRErCmRPlX46WH3IcEZ1QLVViY7aCG6JnuyrArRXSeayEt6NE3vUFg1mHfaN5s2Glef0e/Rn9OcM5yxMip4cP1O/sf4R2aVf7qbwRqGKG1IZhlSaq1ylZdfjYbnkXWsqTB0fm5ysZZpAdoRfLqP///9nZfnCl0gGhW+ZoyHdyyIxLiEhhmIIEn6qIstrg462AECDsf2EJf7j19Tw/5MQHuetBwCEQJTrkPDi4cNPgl05QgSAYW1+H9L5+9XVd+fp0m+p0se6mWxsmLisSJf62gbggdmjXwoEHQ5Z1E6Tcf9fVCKBd6f//nF8BwsHSTqCohIIMi0L5tITIBEAgBTLoZsgkHzyKota0l4BQnEESPKKC5BRgywCWcW1QCCnNgcE8oqbQEBkiwkVZSyQlLQIZHTWBLIq2gY5PZ138ipGJv215NV+PrMDGQk4x9pZWjNXdjlkekYr7diN3Y6bNtYlE1xFoSqV6hXIV6KehFoR/QYVAj0qwAcxNixZY1yx7clnO5EktetYorBy/xQ3LL5irNHfbIKMZ4q2N5AkIpX5tloWS+aVlGtz5vTyKgA=");
 
 export default FaceSmileHalo;

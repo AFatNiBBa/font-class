@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge-circle-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-circle-exclamation?s=sharp-regular bridge-circle-exclamation}
  * @preview ![bridge-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bridge-circle-exclamation.svg)
  */
-const BridgeCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M56 32L32 32l0 48 24 0 48 0 0 64-48 0-24 0 0 48 24 0 48 0 48 0 80 0 48 0 216 0 88 0 24 0 0-48-24 0-48 0 0-64 40 0 24 0 0-48-24 0L56 32zM338 290.3c7.4-15 16.9-28.9 28.1-41.1c-14.2-5.9-29.8-9.2-46.1-9.2c-66.3 0-120 53.7-120 120l0 72-48 0 0-96c0-53-43-96-96-96l-24 0 0 48 24 0c26.5 0 48 21.5 48 48l0 120 0 24 24 0 96 0 24 0 0-24 0-96c0-39.8 32.2-72 72-72c6.2 0 12.3 .8 18 2.3zM488 80l0 64-80 0 0-64 80 0zM360 80l0 64-80 0 0-64 80 0zM232 80l0 64-80 0 0-64 80 0zM496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-240l0 16 0 80 0 16-32 0 0-16 0-80 0-16 32 0zm0 176l-32 0 0-32 32 0 0 32z" />
-    </Icon>
-);
+const BridgeCircleExclamation = createIcon("bridge-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlAAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCfgsGAAE2AiQDCAQgBYMtB0AbjgXIhocnPf47d5Kn5BvzaS7EylC/blltxfm/nN6YdHSA3++daGhjTlw+1uAEAo26fE7KszDLEtSszXGC76DSLfGEPEGPRA3TU8MULaCMv+MaDaRb0xe4Wt80ftXdpSQNBYBoB4B5Wzas8s5P8VPE5/+/SHxuBQJiHsgCBQr0EmCmQqCXUkapFPwU//8v/4GZAKIRn55AiQr34BFACZLmsuw5qqWlpWf7lrqhdbm5bqh2VHUl6lpUiW4bUMD13ltvH/FQ9cHMN7KoIuKu4Y9NrkLU8WDnG7sLE1QE7/Ehl3feIoyuq/qYQ5fPiHh9zNNx0einpr9WXTb1lZFPuHDUk9NerbcIQlTBcK2q7xYK/R9r99jv/b44/IUpd3eDcazinmusaocOZGji7/FgWto9t2/fphtrr+bHHruwm7GE+92XxZm66XbmL+/VZsKEn1ouuvHbuXPnrjXX2gsXwaanhyTSuH6DB/cbl9IQUyDOtn+2Y9pa7WTtqOmZDLV8NggE49d33bmn7cy/musEfnntzz/T9vn/d9KF6TE0SyAoRv4/0s50oYyMCIymOF1/54MCyS2a4VVbuUmAUCFA0qgSoNBTOwFKlRECNOhjkgCNKhsUomwROtk1QNLKSaAw2Xmg1MnzoMFMH0cadYoiTqVRJv1KTLXYoosm5XGjx+bp+bBgk4WeuA7OyNOmoaeXhmGY67ATHO9Uhxx0lFMNe7JV8dMcZ7HHLPJF2TijjZVNl0+X38/e7JCTneIoJzi+jzNDvt431Ol++2GwJhQ5XkaSiNT92dGN+qPHOerQmatl33FvHwAAAA==");
 
 export default BridgeCircleExclamation;

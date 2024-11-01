@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge?s=duotone gauge}
  * @preview ![gauge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/gauge.svg)
  */
-const Gauge: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm48-112a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm16 208c0-26.9 16.5-49.9 40-59.3L232 88c0-13.3 10.7-24 24-24s24 10.7 24 24l0 204.7c23.5 9.5 40 32.5 40 59.3c0 35.3-28.7 64-64 64s-64-28.7-64-64zM400 144a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm48 112a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M280 88c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 204.7c-23.5 9.5-40 32.5-40 59.3c0 35.3 28.7 64 64 64s64-28.7 64-64c0-26.9-16.5-49.9-40-59.3L280 88z" />
-    </Icon>
-);
+const Gauge = createIcon("gauge", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABqwAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDCAsIAAE2AiQDCgQgBYMtB0YboAXIFiHJLA//b9f3+9yq12u6esZPqIEZER9CJnoY/UgaOFb44bj/53LP7/ltwG90aHvo+VgV0BiDEggXhdPyXhhxhmVgZecA2JvtjomOJGtqZqY71nH2gDyOZPdqIL2U9uEJ/B/A+FWbe0mqGYDoD4DFWzas8uXJOJliX30vsc9KBMQSUApkyNApwDyZQKdciVwuOJnqdU5GvV4SQFTgKzNQQRVvYwcgB0mo5Hlrx6BBh7WGPvnmv4bispdHvNsq3m181kujPxr+wdhPOu5qfn5ExPHFEV+t2l97ZM3Bpd9sObHk69UHiodX7lv05cbanY0RzxYPNz8fd7W8UHuk6TlbZmzTXS2nXhgZ8crI99rEex354qgPh70/5uN2ZQN4z5CP+3/8++B9l+7TclnTunVN+zXv2NFYDBjw5psDBhSNO3Y07/el5VXa9ny1dOlXe9qqlltNdt3Z90Ee7Nv3wbpg4nW8ot/Bxh14NTixhoMH7c8DgWDZmTs7z+s37/9etQROf/Hnv+1nqP5lkj5GLwkE2bj6OGcnkAgAQIpbDUl8iUDmbjd/r7fnBQgFA5KKAjId+kOuMBYadJt+v6KwQSbyqtDonARJbzdAZobbINdoDzSY54e4ojGyaOVjjf8rpqwQWb6tnDxhUjmn3FZ1IQDZPD23VDujbr1rNJx1qetc62aXuNgVboa+0arsFtdYIaHLfVBpsgkmKc1RmhtzZTPxjW5yxVqybzJX6R+Mcqs8eDT4SWGc4m4mI1JkfS674JbLLhn/6PV+RHrcAA==");
 
 export default Gauge;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-secret` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-secret?s=solid user-secret}
  * @preview ![user-secret](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-secret.svg)
  */
-const UserSecret: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 16c-6.7 0-10.8-2.8-15.5-6.1C201.9 5.4 194 0 176 0c-30.5 0-52 43.7-66 89.4C62.7 98.1 32 112.2 32 128c0 14.3 25 27.1 64.6 35.9c-.4 4-.6 8-.6 12.1c0 17 3.3 33.2 9.3 48l-59.9 0C38 224 32 230 32 237.4c0 1.7 .3 3.4 1 5l38.8 96.9C28.2 371.8 0 423.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7c0-58.5-28.2-110.4-71.7-143L415 242.4c.6-1.6 1-3.3 1-5c0-7.4-6-13.4-13.4-13.4l-59.9 0c6-14.8 9.3-31 9.3-48c0-4.1-.2-8.1-.6-12.1C391 155.1 416 142.3 416 128c0-15.8-30.7-29.9-78-38.6C324 43.7 302.5 0 272 0c-18 0-25.9 5.4-32.5 9.9c-4.8 3.3-8.8 6.1-15.5 6.1zm56 208l-12.4 0c-16.5 0-31.1-10.6-36.3-26.2c-2.3-7-12.2-7-14.5 0c-5.2 15.6-19.9 26.2-36.3 26.2L168 224c-22.1 0-40-17.9-40-40l0-14.4c28.2 4.1 61 6.4 96 6.4s67.8-2.3 96-6.4l0 14.4c0 22.1-17.9 40-40 40zm-88 96l16 32L176 480 128 288l64 32zm128-32L272 480 240 352l16-32 64-32z" />
-    </Icon>
-);
+const UserSecret = createIcon("user-secret", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABjQAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCSwsGAAE2AiQDCAQgBYMtBzIbTQXIBp5/9OrvC+bsBMssnAX9wQqSO7Co3LKCc3Hqec5D8/w5BEHbQwOyQEJznkcgYr36ppIULMBW1eo2EbGOKHxDJEhCOr52fN2AJnvUpeig7FKeAxvGl8pHolkKCn4VAAAJBgAAmnp06czDd/JO5Jl3DeQZHQEBkCYAXARQARWIQwCoRUWAODRcQEND4J14XvkPdEEAQHzor64AoAE+YBmwFQDQAFDQNK1zgt9v6rbW3dSNPtsjVsv29KNRJ+Ouph5lV+utLIw2ZKuzMLyb3Mw9y8LwbaYtayJ3yKL889U9ZIdsjzBkjyyKeBS7KP14+f7s3elHnUWyWrY63QzTOB6z3Vjt7Ew1ZHXEdhG5Zq6pQBY6W42u0THRXaW7tO/RtUfX7hIrHZNPB5/+nPR8+HPeXljYVRixaOBv/+by9u2ttNe6L2ZZLRdNVdIHEpBammuvmGkvxZ65ws4tTQ1IH4io5sValsX49NdpVvv25Zv9vwcuGgFC14UVryzLOrjT0XVn50abkDO3QwI5VlZ2LJCQ22dCegzwPC9xAQUP8BYkFjwQKnEB3ucACCCQ3S348oCg2m8BpgLAh9tff8Jvew/loXIaCEABQEDN9XLpKw8BmC4AECoyneTgZARQmIcGwIHF9mwiGGCg4MMAlViCQcMgB3QSKLvBh0EXVETzIzj0w0DBYhKolDMPNByugE4tj0Ifjqho5LHEfwZT2nik9ZFblF/oVrvbzBQAxrZtjXvsZE6vnSy6ynAmMJ6pDGMoo5jqsMl0TqYxjjYR2poTcSkin0JcqnHT5evl7gxjMlMYxQTG9z01uPeDTKbH41nkKyhjMSkFBUQxn7CeB3IAAAA=");
 
 export default UserSecret;

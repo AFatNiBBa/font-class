@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-check` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-check?s=sharp-duotone-solid shield-check}
  * @preview ![shield-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/shield-check.svg)
  */
-const ShieldCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M16 133.1c0 49.1 9.5 115.6 37.9 180.9c32.7 75.2 91 150 189.4 192.6L256 512l12.7-5.5c98.4-42.6 156.7-117.3 189.4-192.6c32.4-74.7 40.2-151 37.3-200.9l-1.2-20.5L475.1 85 267.6 4.5 256 0 244.4 4.5 36.9 85 17.8 92.5 16.6 113c-.4 6.3-.6 13-.6 20.1zM126.1 256L160 222.1l1 1 16 16 47 47c37-37 74-74 111-111c5.3-5.3 10.7-10.7 16-16l1-1L385.9 192l-1 1c-5.3 5.3-10.7 10.7-16 16c-42.7 42.7-85.3 85.3-128 128c-5.7 5.7-11.3 11.3-17 17c-5.7-5.7-11.3-11.3-17-17c-21.3-21.3-42.7-42.7-64-64c-5.3-5.3-10.7-10.7-16-16l-1-1z" />
-        <path d="M385 193L241 337l-17 17-17-17-80-80L161 223l63 63L351 159 385 193z" />
-    </Icon>
-);
+const ShieldCheck = createIcon("shield-check", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABjgAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCJQsIAAE2AiQDCgQgBYMtB1QbSwXIhof/7P6/far6vg+oP2DEQ0RgJCB9a0Ipnfv3p55nWiiAD8Azt29cHkznOK9Azze237rBClrwmtbAar+593jIH1cRES2RR8NUN2zdoIhv8g0V0r3pM9xc/gcwftHODZJ6GUA0BcDU1csXeqs2alN8Vn2O+MwCBMQ0UApkZHQUYIIs0FGhRKEQ1KZqldqoVksCiBrlYzOoQQVHcRVQgCSkomjWd3CDSqNiVYNK/e0rVq/oE/1iVUyOpbE6Jq6/0iniwaFPT317ZatoEz9Of3f4s90f6tw+esWqaB0tY0X0iLZxh5WTJ0xuFa1iYjzV39J3t9Hb9KRl3NES2WsTHu9Tg7taw3uyHxCtuz3Z9Mnfun626zNX/r85vg6LF2vmd5cuaabJuF4XuWnqmW+/mVO+5z2Za+fOnDlxomfW2xeLPec5X+8tq9vg4Llmcoyq3736ylOvDjcX0Ay7dvHkvStnzJjefXgQ+ltOnwYEgoXPt/xsc5MJ/9VtkMBPr/zxc/0hNa2+FX+nJ1FXAkEeUB1gQ6KpxvG3AACkOKVb4rKmAtkaiYQN3aWuQn0Ekhr1IeugKRTq6w8VnY0UDlHLZVHUE1raKAOSho5CNspFKLT0LFRM8GFeo2Vk7knMkX790meN2Mx15dBBQ8px5W2jyXQS0vL48tjvc8oN9cVJuxx2yAk77bDXiYE9ZmF10kGzdsxMX1QaapAhSuOU6s6zvkryY47be63qVxmvfD7s49R+cl9sJgGGvTVUJlLklsf37N15YMdAFtsDaTzaeqF+sgA=");
 
 export default ShieldCheck;

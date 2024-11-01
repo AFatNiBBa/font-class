@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ear-deaf` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ear-deaf?s=solid ear-deaf}
  * @preview ![ear-deaf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ear-deaf.svg)
  */
-const EarDeaf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M502.6 54.6l-40 40c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l40-40c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3zm-320 320l-128 128c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l128-128c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3zM240 128c-57.6 0-105.1 43.6-111.3 99.5c-1.9 17.6-17.8 30.2-35.3 28.3s-30.2-17.8-28.3-35.3C74.8 132.5 149.4 64 240 64c97.2 0 176 78.8 176 176c0 46-17.7 87.9-46.6 119.3c-12 13-17.4 24.8-17.4 34.7l0 6.1c0 61.9-50.1 112-112 112c-17.7 0-32-14.3-32-32s14.3-32 32-32c26.5 0 48-21.5 48-48l0-6.1c0-32.9 17.4-59.6 34.4-78c18.4-20 29.6-46.6 29.6-75.9c0-61.9-50.1-112-112-112zm0 80c-17.7 0-32 14.3-32 32c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-44.2 35.8-80 80-80s80 35.8 80 80c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-17.7-14.3-32-32-32z" />
-    </Icon>
-);
+const EarDeaf = createIcon("ear-deaf", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABlAAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCUQsGAAE2AiQDCAQgBYMtBy8bUAXIHgd2TPg7oUiXyBoP/29X//vcqu4BVI/gp5VBisjI6awfCkUOX1/v83+557fw6AC/0aHsaYs3+DXH8wQC7H2qeC2hosAyTcCamvfEAF5naNtBHq9llyqR7kof4Qb3oTGoy6UkVRmAaATAkl3bNnj7x/gx4sP/XyA+tA4BsQQUAhky9AowXybQK1cglwt+jP//Z/+BBQFEWfBOCeQo40rcAchBkud5e/ucnppSXb6zplR9xPxF82+tvrr99rioY1HcUXNN220ubD10+67tI8SuFbueHx3xcO+trbdKhu/S8e2iT3d9veXzHV/Nf5i4d/TD0xezjIkv7om4p+eejscG7h/76ExXt0bc6s7hD3Y/MO6xWS+MeaSvVi5Ca6qHPtr46C9DPjr8I79deUaQ3llXd+dVOLnqDGW4aNEFgdRmkIWeMfu3pwcZXNt7xx2fvXPWWbWVy/6uXh5rIxqTLSs/zRrKGv67/sor6wm09buPs7LKm2/5+JPaMWUzdWDQti1b2mLnYY2Nh+2Mmlv2PBAIftvqJg3zf62sSeDnV/+R/4z8/3aSHkWlBIJs/P/j7ZtAIgAAKU43NEEguVAueNVatwsQqhEgKasWINOjUYBctXEClPSbIUBZtW0ykVcJrfbDIKl1EsjMdB7ItXoOlMz3bl7WGtkHKXxOwv9g6so2smJZMWXi5GJuMVkrxW+M0/PzitXu6NN53xi40eFOcLxTHeZQRzm1RZ1sQ3Wa46ycI1f4osIUE01WmKvY3bqv7sT5yU5x1Lhl/yLzFOfHo50+P3oMDJKAdio9XQJIqjzsoJMnHHrYQYcDAAAA");
 
 export default EarDeaf;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `knife-kitchen` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/knife-kitchen?s=sharp-thin knife-kitchen}
  * @preview ![knife-kitchen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/knife-kitchen.svg)
  */
-const KnifeKitchen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M480.6 6.9l88 80 6 5.4-5.5 5.9L464 211.1l0 60.9 0 5.3-4.8 2.1-56 24-5 2.1-3.8-3.8-104-104-5.7-5.7 5.7-5.7L469.5 7.1l5.4-5.4 5.6 5.1zM307.3 192l94.5 94.5L448 266.7l0-58.7 0-3.1 2.1-2.3L551.8 93.3 475.5 23.9 307.3 192zM11.3 468.5L243.2 231.1l11.3 11.3L25.3 477c2.7 1.4 5.8 2.8 9.2 4.3c17 7.2 42.9 14.7 77.4 14.7c111.3 0 182.7-47.6 255.4-118.2l-20.6-20.6-11.3-11.3 11.3-11.3 43.3 43.3c-3.8 3.8-7.6 7.5-11.4 11.2C304.6 461.2 229.3 512 112 512c-48.2 0-81.2-13.6-98.3-23.1C4.6 483.9 0 480 0 480l11.3-11.5zM416 144a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64-64a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const KnifeKitchen = createIcon("knife-kitchen", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABggAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCLgsGAAE2AiQDCAQgBYMtBzQbMgXIhof/t4u671f1iI0Z14huDLVytJl9ckiZwGjjvjj1POfZgG8hC8rcbTUgHT7GPK9Az+t70RItWEWxg/NGHGBoDOUnyOMrR5VId6a3cb370vhLf5eQZBmA6AWAZa0dm7z6fXwf8Vb7KeItGxAQy0AhkCHDIAEWygQGyRXI5YLvo91m/4EFAUQHwbMTyNER5+AqQA6SUp4P6z2qc+eupe55U83pcqLRbFSiHPUQsL5W4dVo4rVo+ZX6ZGhBBEInpRn1o616q7I289bKXas+2/DWjvHrTl8Ut5Tf3/h2/enRd1dvi9qJ22u3Vm4p31bdkXHNBcPv73X/P8PePv62759tbQk/Uddw8myLlCxzkeVmOHHCKqs88biV6g89uz846CMLZHo7doYNK917z5jyb//ApOf98qdp266hD3vl5VUzPe9592usPP7B901TL7vwtc/i/ltW9vj++x7UaksOMoG47szX/33/QM+F/3fqmsCPz//3F31z+9W0JN2PThIIsontifampYiZEwUAIMWFhoNJITlFSbCum9sECF2oIemgC2QG6gW5LiZAyRCzhJX6jlV45J2Dsn01JN2cA5nZLoZc2RNQstBr0Q7KkV1/0tUj/f2lr24jq8YV0yZPLeYXk0WlfEkJenhBsdofeyFvGgfnOu4sZzrfMUed4vwWfa5NiQucYfUcusoPFaaZbKrCfMXuyv3pTcec6zynOMuZdpQFivODsS6c7zwORpKAdbo1SSJS99POPOX4sUnfBwAAAA==");
 
 export default KnifeKitchen;

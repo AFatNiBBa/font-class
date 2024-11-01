@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-exclamation?s=thin message-exclamation}
  * @preview ![message-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/message-exclamation.svg)
  */
-const MessageExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 416c0-8.8-7.2-16-16-16l-96 0c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l384 0c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-138.7 0c-3.5 0-6.8 1.1-9.6 3.2L176 496l0-80zM64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l80 0 16 0 0 16 0 64c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM256 80c-4.4 0-8 3.6-8 8l0 160c0 4.4 3.6 8 8 8s8-3.6 8-8l0-160c0-4.4-3.6-8-8-8zm16 224a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const MessageExclamation = createIcon("message-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfQAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBwsGAAE2AiQDCAQgBYMtBzobEQXIjsQ4JvKLKOwigu9tovv+nTT2yQxnAIbKDgF04S5cNKxJm0mZWh1S+65v+pt/3nkU4LPIQhsLlwYyJu95nkBiXb40kSywQD7BB6DP+t82hLARiqcRJUUS0Zg2Vq8N8vjSXhXSs+kXPMwPjX91dpckywBEKwDM2rBmme/qUY/4pSHxiyUIiNmgFMiQoZsAU2UC3eRK5HJBPRoN/A8sCSCq5JckkKOK/TgByEGS53nv/s2b1irN8/W1SrHhqQ5FvNXhqS5ZPN/x6QHN4832T3ZO8Uy7J/oWca/d2ojNbwyMeKdTimcHvduvVhPiZvsnO26IWrw95P2uWTw3+L3+zdY90U482f7pjhFPdVj3VIcn2jWf7P1eq/f+45f9v/i4Z4v6TiP/+DUrZb/+MfJmuOa+yugrW6088fIrrWldlIrWrV9Z2aqVmYo7d85e3uq+MY3um9+u2Fl9RXVndrT8u0W93gLRQJz6LStf2tFy6v9Nagn880XT10jjmyS9hyYSCLKhjaG2JpAIAECK83onCCTb5fiuzTwlQCgQIKkqBMh01UqAXGGIABU9jBOgqrBGJvKmQjvbKkiaOQUy410DuXY+BxVTfa9UtYvM10hPIZ96cfM1NG+uHDV8ZDm5nIYK5T54Gk8pl/mB52NpEKza74Tjztpnr0POKuS0Zfo5x8y34HleVBpluJFKk5Xbyf3yevucdsYhJxynKVOU5+WBztvNg0BKBHM0T5KI1NYDy8N+sRB3Hbs/AAA=");
 
 export default MessageExclamation;

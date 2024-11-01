@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crosshairs` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crosshairs?s=duotone crosshairs}
  * @preview ![crosshairs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/crosshairs.svg)
  */
-const Crosshairs: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M42.4 224l65 0c12.5-58.3 58.4-104.1 116.6-116.6c0-21.7 0-43.3 0-65C130.3 56.3 56.3 130.3 42.4 224zm0 64c13.9 93.7 88 167.7 181.6 181.6c0-21.7 0-43.3 0-65C165.7 392.1 119.9 346.3 107.4 288c-21.7 0-43.3 0-65 0zM288 42.4l0 65c58.3 12.5 104.1 58.4 116.6 116.6l65 0C455.7 130.3 381.7 56.3 288 42.4zm0 362.3l0 65c93.7-13.9 167.7-88 181.6-181.6c-21.7 0-43.3 0-65 0C392.1 346.3 346.3 392.1 288 404.6z" />
-        <path d="M256 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32zM224 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm256 32l-96 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32zM256 352c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32zM128 288l-96 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
-    </Icon>
-);
+const Crosshairs = createIcon("crosshairs", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABtgAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDOAsIAAE2AiQDCgQgBYMtB1Ab2gXIhiDSlVWPtEcyg8xMnwFDagifMEPMTOkDp9b/XPP5PT86z290KFnLpmgbduIEBr629IlNZKYzsA3OO9VGh6aQ/oI8vs/uUiM9n77Eo8//AMavOruLpDEDEK0AMGvDmmU+vhpXU3xZvU58aSkCYjYoBTJk6CbAVJlAN7kSuVxwNVUVV6OqSgKIOt8HZ6AOBd7EZ4AcJDV5nnds26Fjh1ZtW7Qqas3z9UWtacuD7SOeJm5r91TTAx2eiYjbOz5brL29Y8SzxYPtnyaNrmsqBl4XKEI5wdrQ8est1Q33Q8WrQy5NuD1ujx9XfrvWT6sivltHZ98cfLHHAwerf0x4Y9CF7kX8vPr79Un4Zc0PG5Q3vzTw/NjeF1td/L3Xl/u/VH3U4j7ua7ETYBd+EZGvZ6USF3EMVT13foqNDW1wZYb/+ltn2KYMujLrw1+88ec7repaLygoFsxca9FqftFazLzz540X5e7//3fhKc8suvCC4sgruvI2fPD7QCDoe/med3e0nPp/Q5HA9Xf//Bf8kFQfJ+kiGiQQZEOrobYmkAgAQIqb9E4wWCBzTM0Xb+aZoRSaIJDUaYJMV60g12QI1PQwjnc8vkYm8kahnW09JM2cgsx4N0OundegZqpP8nXaRZaLxTwo/kOmzWeRebvKUcNHlpNLbQOSMiZ/Lk4pnd0Db1oHBvVX7XfCcWfts9chZxnstGWlc46Zb0Ln+aLSKMONVJqsDG4r7rHePqedcUgth28zRZk+PtBN5vGDel/yMY62J5MRKbI2jZBvx/4zw+rDYDteKfkAAA==");
 
 export default Crosshairs;

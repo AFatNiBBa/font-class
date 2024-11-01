@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-zipper` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-zipper?s=sharp-regular face-zipper}
  * @preview ![face-zipper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-zipper.svg)
  */
-const FaceZipper: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 256C48 141.1 141.1 48 256 48s208 93.1 208 208c0 32.2-7.3 62.8-20.4 90l42.9 21.5C502.8 333.8 512 296 512 256C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512c40 0 77.8-9.2 111.5-25.5L346 443.6c-27.2 13.1-57.8 20.4-90 20.4C141.1 464 48 370.9 48 256zm304 82.7l0-2.7 0-16-32 0 0 16 0 32 0 2.7 9.4-9.4L352 338.7zM176.4 240a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm192-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM224 336l0-16-32 0 0 16 0 32 0 16 32 0 0-16 0-32zm64-16l-32 0 0 16 0 32 0 16 32 0 0-16 0-32 0-16zm-128 0l-32 0 0 16 0 32 0 16 32 0 0-16 0-32 0-16zm352 96L384 352l-32 32 64 128 32 0 64-64 0-32zm-63.5 16.5l-16 16L424 457l-17-17 8.5-8.5 16-16L440 407l17 17-8.5 8.5z" />
-    </Icon>
-);
+const FaceZipper = createIcon("face-zipper", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABpwAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDSgsGAAE2AiQDCAQgBYMtBzIbzAXIHgl2jOJfCK1O4uF73ZvnPul71pLNS6BFwiBwiQCtJ20mZWrlO3WIO7H7zA2bUfN/Tb14fnR2du8bHUrkLDopIngNOMDTeYlF2cBmOgGbuil5LEUY8RpjLUXFyY6vsOPaAfJ4P+7WID2SfsBdx4fGvwa4nqSRAYgOACzfu3OzT3qiJ+L7+k3iexsREMtBJZAhw2ABFskEBstVyOWCnqjr8h9YEUA04XkJ5CjxIf4iKpI05/nkzu7uTtx0a2fZaM33lI1i798X8fveP/dXXT1pfrw+8q8Vn81P/qN+4Cf/Z3zaP+rrnBLvFH/t+M3HhIgoQgjRLybuua1fxENxTd8Hi1t739/7gT4PlHvNTITQQ7q4doUHmjK4vbYoCzs3opDMY/bs3jMudgPaWbyud7/evWNC9GuXGB+9RzzX8dx//XDiD5j6cex9juf2xt547rnYO33ek84rre0/4J5r1lrrmnsG9Le25r0y94Drpi+Zp+7I6O1QUeXMLU54+di2m7m5TWhArUir/uNhUfRs33zXVR0MVTqouq5Qa+fquFq8Rx111dKmrqlZRcxVT033TVCydjEE4qwrH/3qo9oX/d+rTOCf9zh/RupPkvQcekkgyCbVkxxKIBEAgBQXGpEgkLypGd+1xYMChAIBkiaFAJlBOgTIFSYK0DDUbAGaFHbKRN4s9Hb4BkmLc0BmjitArrfXQcMiX0eb9I4sm/lc5P8lU63x6Opd1fQp06oF1bDmEhKUrbMLq2XNuAulZzz2OtFZznS+ExzvFOc7/FybExc4w5oZttoXVaabYprKAtV281i8xwnOdZ5T+uL+MgtV7zvGuXA+fDz0CSlnKEgSkcpPJXvypaecffYJ5wI=");
 
 export default FaceZipper;

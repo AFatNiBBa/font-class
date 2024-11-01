@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cucumber` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cucumber?s=sharp-duotone-solid cucumber}
  * @preview ![cucumber](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cucumber.svg)
  */
-const Cucumber: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M120 280l48 0 0 48-48 0 0-48zm160-32l48 0 0 48-48 0 0-48zM376 88l48 0 0 48-48 0 0-48z" />
-        <path d="M37.5 474.5c47.8 47.8 123.9 49.9 174.2 6.4L232 501.3 277.3 456l-20.1-20.1L435.9 257.1 456 277.3 501.3 232l-20.4-20.4c43.5-50.3 41.4-126.4-6.4-174.2c-50-50-131-50-181 0L172.1 158.9 152 138.7 106.7 184l20.1 20.1L37.5 293.5c-50 50-50 131 0 181zM376 88l48 0 0 48-48 0 0-48zM328 248l0 48-48 0 0-48 48 0zM168 280l0 48-48 0 0-48 48 0z" />
-    </Icon>
-);
+const Cucumber = createIcon("cucumber", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABfgAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCFgsIAAE2AiQDCgQgBYMtB0wbNAXIjsQ4JvJIF42HePh+7fXct5ukALAFRoWAvo4UkURwrCpUppLI9iezot//XPP5+R0d4Dc6lIiitOXzWaZvAgOsxGGU4UxnYHubpVEEBeIWEdZPNGzeMN4F8viYnVJGOp/gNP0PYHzR1CmSqhmAqAOAMXNnTvaqMipTfCjdIz6YhIAYCwqBDBlaCDBcJtBCrkAuF1SmUonKKJUKAohy9LkMlKMq1mMPIAdJLsvzblUhU72sZj6HzlYb8nxCxP1RXWJUdI25YUpftro88kW1h88q0vCWNIefOTZibfVq1UW1iFmCDaK61+f2a+AVbW/Xuf2tjTUsGBv82tbPB/3cuQPWVbSu02FXv36r9u8XknnzzZHp3OknerPE+b0uZPRC6wn23ugYS7ceBwJB29f1Wlp7+L8q1RP49OTH55QovUj8E7qNKhIIsu6l7hYllP6nJAAAKfZom2CfQGaiHJyt4YwAoRoKJOWqQaa5OpCrphuUaWUAfXhmpkzkVYUGFkNIatgOmYEOQ66Bu1BmuNe5cg0iUzpWZdhfvqSJEpkwq+jTs3cxtJiWZU6P6Dg+rDi2Ou/xbV3woDW22mKX1VZZb5fAd5hc3G2ziStsgi8q9NFTb4WhiuvarTRH5HbYaf1YuJ9mmOJ92Nmede8u6CZM2NfcTEakyOqs3O2Km1es3tFDe416lfCZAgA=");
 
 export default Cucumber;

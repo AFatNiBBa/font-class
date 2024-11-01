@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `glasses-round` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glasses-round?s=sharp-light glasses-round}
  * @preview ![glasses-round](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/glasses-round.svg)
  */
-const GlassesRound: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M67.7 32.5l14.5 2.6 72.7 13.2 15.7 2.9-5.7 31.5-15.7-2.9L91 69.2 44.5 243.4c24.2-22 56.3-35.4 91.5-35.4c55.1 0 102.6 32.8 124 80l56.1 0c21.3-47.2 68.8-80 124-80c35.3 0 67.4 13.4 91.5 35.4L485 69.2 426.9 79.7l-15.7 2.9-5.7-31.5 15.7-2.9 72.7-13.2 14.5-2.6 3.8 14.2 63.3 237.2 .5 2 0 2.1 0 40 0 16c0 75.1-60.9 136-136 136s-136-60.9-136-136c0-8.2 .7-16.2 2.1-24l-36.2 0c1.4 7.8 2.1 15.8 2.1 24c0 75.1-60.9 136-136 136S0 419.1 0 344l0-16 0-40 0-2.1 .5-2L63.9 46.7l3.8-14.2zM544 344a104 104 0 1 0 -208 0 104 104 0 1 0 208 0zM136 448a104 104 0 1 0 0-208 104 104 0 1 0 0 208z" />
-    </Icon>
-);
+const GlassesRound = createIcon("glasses-round", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABlgAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCawsGAAE2AiQDCAQgBYMtBzQbbwXIhofv7fr/tU/3NWfqVT9CH1IGRQAYyfH8zzWf3/NrwM9HcChVVHbvPLbW7ucTGOAsiqqA58PZRHHqptRCPETJ5RijDOzK2HHW49oe8vgqxqgiXZHexnnjQ+NXfc4gyTMA0QqAhds3r/X89/F9xNuVR4i3rUZALAKFQIYMZQHmyATKcgVyueD7qFTwH1gQQFTj+yaQowqX4SZADpIsz3eWSg1VTfm2hqr6Xbu6u7ZGV/RGdyyLLfHc8kdm3jG2Ie4b/dT0V+ZuiyXRGf3RE9sV74qtJuy4fs7TS16d9+ygU3vq4xLGDIrBs/Y/tT/iymG31p855Obey53Sd8XQWxrOGn5b6arYa9oRlVtXxexBd7be+fvAtw942+JrP+DDKxr9Y0//uNLYeyzccH7+fzZD9n9+/oaN4+5x5eCfPPeheeb9JiQjtKrbf+sFF2zdv66xNESp0WS3GiGJvnjuV9PKn/HZieeUSuec+NlnZSlD2mUHlk8E2uc2+PyzE08sa5m+DgSCn97+ctKeLXP+r21I4Mcn//z7uFzl+7Qg3YlaCQTZmMoYu6UFAGYAsRQnGOR8USA5T4aPNLpUgFCPAEm1+gsyJa2QqzcaqgwwVQjqm0N45HV+p90LJI2Ohsw0J0Ku00NQZY7XomqdkWWnlFvSz2H6MossnVZMHDehmFUsy0454YQ2PrsIWyNOqG0jZakDHOkIx9nffg52nKGPsTZxvMMt89Clfqgw0TgTFGYpXte+z99mf8c41sGOdESfZLbie3+EE/zeI8VNyDpJTpKI1LQXvf2PHbuRAAA=");
 
 export default GlassesRound;

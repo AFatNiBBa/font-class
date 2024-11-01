@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `satellite` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/satellite?s=duotone satellite}
  * @preview ![satellite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/satellite.svg)
  */
-const Satellite: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M103 103c-9.4 9.4-9.4 24.6 0 33.9l89.4 89.4L322.3 96.4 233 7c-4.7-4.7-10.8-7-17-7s-12.3 2.3-17 7l-96 96zM285.7 319.6L375 409c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7l96-96c9.4-9.4 9.4-24.6 0-33.9l-89.4-89.4C372.3 233 329 276.3 285.7 319.6z" />
-        <path d="M377.4 41.4c12.5-12.5 32.8-12.5 45.3 0l48 48c12.5 12.5 12.5 32.8 0 45.3L270.2 335.1c11.4 24.6 17.8 52 17.8 80.9c0 31.7-7.7 61.5-21.2 87.8c-4.7 9-16.7 10.3-23.8 3.1L135.3 399.3l-16.4 16.4c.7 2.6 1.1 5.4 1.1 8.3c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32c2.9 0 5.6 .4 8.3 1.1l16.4-16.4L5.1 269.1c-7.2-7.2-5.9-19.2 3.1-23.8C34.5 231.7 64.3 224 96 224c28.9 0 56.3 6.4 80.9 17.8L377.4 41.4z" />
-    </Icon>
-);
+const Satellite = createIcon("satellite", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfQAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBfQsIAAE2AiQDCgQgBYMtB04bHQXIHolxjMpWReiL4Hm7/6pzuwdwj6TIQpB4qcyK/m4qxC/+Uzdff/r7qT/OP33AB+A/8zwtFxiRvJvAzgcyrwCMApvNFGft7H8xqF8Mki64JMPED5sV5PFVdlw50p30CS7Z/wDGrxo5TlIpAxA1ATBy1rSp3iuLshSflF4iPjEFATEKFAIZMjQVYIhMoKlcgVwuKEslyqJUEECUZy+UgfIoh7nYDMhBElKe96les0q5avnMKuUqr7pVJeJcvaFxw+G60+OJw12u158ZDTHjeuWz9W/GkQacoOntY2bcbPBmyRk4a97tRjNiFhKMWPdnzJg540a8ToNZca/xzPhmequHNR/+3vKTlZ/YffN2NardLjlTrdqZD95Xt0uP8Q9+WrfOX7K8+unT1ZOX96ihd+yTH7f36DLy/Q+snP3FF7NnO3LE7NlWVq68ctGiV36YbQzImDhCUZcEgp/7f/fCohpD/q9YJYFf3vjz37znJalCeoiKEgiyLqUu5icEaoqgYYqdWsl3mSOQ6SORT63qpgChMgIk5VUWINNETQFylXUWoJzm+gpQXmXTZCKvJNS1oIKkqi0g088BkKvrRVDOEO+H5dWNzM8YL2G+eYnjEB07r+jZrUcxqJhWFNZ1qDg5uFg2O+wMHR1lqZU22Wi7FZZbYzvgW01N7LDBOIaN9UOFnrrpoTBIsV2/FWdCuNU2a8b8/iyDFeetDnby/h1lMQnQ64bKMiJFVssp1a4vtqNOw79NAA==");
 
 export default Satellite;

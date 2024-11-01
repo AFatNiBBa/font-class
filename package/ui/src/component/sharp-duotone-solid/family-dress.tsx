@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `family-dress` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/family-dress?s=sharp-duotone-solid family-dress}
  * @preview ![family-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/family-dress.svg)
  */
-const FamilyDress: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 384l64 0 0 128 112 0 0-64-32 0 0-32 0-160 0-32 32 0 16 0c-10-13.4-16-30-16-48c0-5.5 .6-10.8 1.6-16L64 160 0 384zM64 64a64 64 0 1 0 128 0A64 64 0 1 0 64 64zm256 0a64 64 0 1 0 128 0A64 64 0 1 0 320 64zm0 160l16 0 32 0 0 32 0 160 0 32-32 0 0 64 112 0 0-128 64 0L448 160l-113.6 0c1 5.2 1.6 10.5 1.6 16c0 18-6 34.6-16 48z" />
-        <path d="M208 176a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm128 80l0 160-32 0 0 96-96 0 0-96-32 0 0-160 160 0z" />
-    </Icon>
-);
+const FamilyDress = createIcon("family-dress", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABiwAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCLQsIAAE2AiQDCgQgBYMtB1QbUwXIhof/Xwu97//ZPZuZMEyAURFgEXwVIKmquBIIE1Ql0Dv9vTv/538DPqOPNNbExqIom/M8gQTGxA/eeZdQFHkG1uC8SYcU2hDKCyji5/yoBunp9C0ei/8HMH7Vz6MkHTKA6AqApds2rXHlWlxL8W37M+JbqxEQy0AtkJExUIAFssBAhRqFQnAttdtci3a7JoBoSl8rgyZauAMPAgqQJEVRdOo2oFOngVWjU7G1apS7nh395sjX+z014rVRb/TfIpQhyggkVaxVVqIaM/BbVfVM/4f6lLF51/Nj3x7/7pAXxr0z5q2BnYzqBipgorJjqyr4uAf7Dnun6zu/D/326Ld+6FKeveees2UVPbDupTSt7ado7SV5CWx/0HlL1Au6etz1Vtnqc9Hiq4sX5xt//30jVzNGpZe6dp1ytsMS5z1oCX+ai/q0BvwHBIKBG1c9vK/Lgv9bVQI3Pv/zl+aHpH0lSe+gJYEgT2hPsDuBRAAAUtxuWOIjBLINCum7dvSEAKFEgKSpFCAboKsAhdJ4ARoGmylAU2mTLIoOQk97BpB0dAFks9wHCj19ChoW+KLe1DOy++NcD/f7l7xqCq3cV0+dNKWeV+92dbyTYvT2/PqyPeZ2PjUWXnXUOWdddsRhJ1yekBetad3mjFVH8EofVJtqkilq89SPBy/lrZP6RZec2Baf7zJf/X0+xu3Hi8dCL0kppzmQZSJF7ulO1YkBWp/olGd7r4jWFg==");
 
 export default FamilyDress;

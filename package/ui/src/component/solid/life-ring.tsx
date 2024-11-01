@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `life-ring` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/life-ring?s=solid life-ring}
  * @preview ![life-ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/life-ring.svg)
  */
-const LifeRing: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M367.2 412.5C335.9 434.9 297.5 448 256 448s-79.9-13.1-111.2-35.5l58-58c15.8 8.6 34 13.5 53.3 13.5s37.4-4.9 53.3-13.5l58 58zm90.7 .8c33.8-43.4 54-98 54-157.3s-20.2-113.9-54-157.3c9-12.5 7.9-30.1-3.4-41.3S425.8 45 413.3 54C369.9 20.2 315.3 0 256 0S142.1 20.2 98.7 54c-12.5-9-30.1-7.9-41.3 3.4S45 86.2 54 98.7C20.2 142.1 0 196.7 0 256s20.2 113.9 54 157.3c-9 12.5-7.9 30.1 3.4 41.3S86.2 467 98.7 458c43.4 33.8 98 54 157.3 54s113.9-20.2 157.3-54c12.5 9 30.1 7.9 41.3-3.4s12.4-28.8 3.4-41.3zm-45.5-46.1l-58-58c8.6-15.8 13.5-34 13.5-53.3s-4.9-37.4-13.5-53.3l58-58C434.9 176.1 448 214.5 448 256s-13.1 79.9-35.5 111.2zM367.2 99.5l-58 58c-15.8-8.6-34-13.5-53.3-13.5s-37.4 4.9-53.3 13.5l-58-58C176.1 77.1 214.5 64 256 64s79.9 13.1 111.2 35.5zM157.5 309.3l-58 58C77.1 335.9 64 297.5 64 256s13.1-79.9 35.5-111.2l58 58c-8.6 15.8-13.5 34-13.5 53.3s4.9 37.4 13.5 53.3zM208 256a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const LifeRing = createIcon("life-ring", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhgAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCIgsGAAE2AiQDCAQgBYMtBzAbIgXIHoPjbglKEzGUspSA/PJ5K4JqjeyZ2yfgsGKV8igMsQYSJo41Cx3hEgn6K5ZA34JdJo8CzF8BcmqHxVhhrj9sBRO8G3ricvpj2dMDTtJ/lDVoUkPnoGjO8wQCjbpsbCoMJAss0wQsa2f/A4PoBgbxiU8ybJ9hc4ISm1W3BvJpXgEP04fGV8q6SS0VAEQ3AHDkVFQI7PFxO+KyXibeCwIC4gjANESFCuMQ7McWGMcxDRRFsI117f4DCQQQjYCnJShoxmXgAaCA1Fg4YrxOlIiLcsU5sXlHkax33icHo3C6rXcpQvT11OeTz1Vm5gvn4/GX+n0jnE8nnhhML0lT4oXRfa6REZGD2DEahdszY/sTw6PCZ0R65iNx9+jxgWjxmh1m8lAE9rk3EjWoN7swPdI3P7U4M8osdC98513lflA6+8H30e/WhHpzf5KVByZGIpcd/3VL9rBKVlAixfzreCbwXLn3Y+2ruvprP2x1SmhuiPRAC9DC+8PnXTJHzJ7Sa+VESm82lYqUxwEEggt7ssLTJJ3/C4myAL5svP37n5F6L+VbNEsQVOu1seQESAIAkFGLSUAgnSYA79rukQChFQFSo1YBKmOkICharUHQYJINBI1aHcMWRRhCv5RGp3Y36Mo+LXTRb5FusN9pplF/sC1Psxvt35ftK2GfVWRhak6OtGyoujEpYdGJtj39Wj9gQFshV5lS1XJkK1AtqEoh+RolfDXSxxcRC6bMEUd03H7cHCtHpSoFypTGZZzQ/bi+Wn28AYUsEN2lLiWRwsbomLwcAAAA");
 
 export default LifeRing;

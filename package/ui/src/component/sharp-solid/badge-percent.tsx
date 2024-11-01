@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `badge-percent` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badge-percent?s=sharp-solid badge-percent}
  * @preview ![badge-percent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/badge-percent.svg)
  */
-const BadgePercent: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c36.8 0 68.8 20.7 84.9 51.1C373.8 41 411 49 437 75s34 63.3 23.9 96.1C491.3 187.2 512 219.2 512 256s-20.7 68.8-51.1 84.9C471 373.8 463 411 437 437s-63.3 34-96.1 23.9C324.8 491.3 292.8 512 256 512s-68.8-20.7-84.9-51.1C138.2 471 101 463 75 437s-34-63.3-23.9-96.1C20.7 324.8 0 292.8 0 256s20.7-68.8 51.1-84.9C41 138.2 49 101 75 75s63.3-34 96.1-23.9C187.2 20.7 219.2 0 256 0zM192 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM337 209l17-17L320 158.1l-17 17L175 303l-17 17L192 353.9l17-17L337 209z" />
-    </Icon>
-);
+const BadgePercent = createIcon("badge-percent", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABjwAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCPwsGAAE2AiQDCAQgBYMtBzQbQwXIjpQuI1bx8Pzco+e+pACcEpFiAFXFlliVbTXZdpua/jY32sVMy9Smjqd+ivN/zeeHSQf4g/gOJWOpxeWbdekEJlbtO4Ilz3QCtt05EUW0kiKWsiTHucPvCnm8yo4qQ7qVvuFCutP4o4GjJBUyAFEdAMNnTJns/c/4GfG19IT4aiICYjgoBDJkaCzAIJlAY7kCuVzwM0ol+x9YEECUhQEnkKMsDuMMIAdJnucja9WqUalMlXy6X15xzpnWiDsNunW2fw20fhrMwfrSSrF2t1W0Eazi6TbVMLAO09AaFRaHGnlbwzr+tt3aj6s09Uw9xI04VPdUPF17OVhnV5o2jCCcuBRt8fSO7ToOiXYxNQcyODrGjBYPq88/zb8t/6b0rjEz78Pxa0d70viZK9d+/964MaTXrpw1jmJHrx3/MG+eN4/jGTeLvHqsYOiPqic5WbWU6Cm3F8yfVF2PGjhwoN6KQFD/1ILaC6oN+r98pQR+v/zvH+ZXVHqfpIcoL4Eg61TqZG4CiQAApNiuRYJAslsOd1V2XYBQkQ6SsiqCTCPVQa6ijqCMpnrvLquiKTKRVxBqmwcgqWwTyPSxD+RqewTKGORjpqzakcmhKkXqNzBrDCVGzyu6d+lWDCiWJU0TLTmMDiy2I+22u5b2aqXlNlhvq2WWWmUr4TabnN9mnTEcO9oXFbrropvCAMVx9XnxdMtstsUqG6yPswxU3E+0s53v3l7FExTsYUeSiFRl8aKlK5Z1foQAAAA=");
 
 export default BadgePercent;

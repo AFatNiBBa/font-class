@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `display-arrow-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-arrow-down?s=sharp-thin display-arrow-down}
  * @preview ![display-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/display-arrow-down.svg)
  */
-const DisplayArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 0L248 0l0 16L16 16l0 384 215.8 0 .3 0 111.7 0 .3 0L560 400l0-384L328 16l0-16L560 0l16 0 0 16 0 384 0 16-16 0-206.6 0 13.3 80 73.2 0 8 0 0 16-8 0-80 0-144 0-80 0-8 0 0-16 8 0 73.2 0 13.3-80L16 416 0 416l0-16L0 16 0 0 16 0zM80 64l168 0 0 16L80 80l0 256 416 0 0-256L328 80l0-16 168 0 16 0 0 16 0 256 0 16-16 0L80 352l-16 0 0-16L64 80l0-16 16 0zM225.4 496l125.1 0-13.3-80-98.4 0-13.3 80zM296 8l0 236.7 74.3-74.3 5.7-5.7L387.3 176l-5.7 5.7-88 88-5.7 5.7-5.7-5.7-88-88-5.7-5.7L200 164.7l5.7 5.7L280 244.7 280 8l0-8 16 0 0 8z" />
-    </Icon>
-);
+const DisplayArrowDown = createIcon("display-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgQAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCZAsGAAE2AiQDCAQgBYMtBzkbbQXIjsQ4hvKpNkQ8PG/X17mvqvtDNXKN7UiLiIp2whWydQamgCJGXbXU/3NNvcAKwM9HcGi1qLAK73o+gQnuxgm00YENZxPFLZu7mGEa0gjxV8jjMwdUSI+m93H38KHxm25uJckyAFEAYO7m9Su9+XV8HfFeDfGe5QiIuaAUyJChpwAzZAI95UrkcsHXUasV/4ElAUTVZHECOaq4DzcAOUjyPJ/ev6F/U6Ul39RUadze1NgkGiNFU0TqzFAkWppECi/RuDHU2Ew6NyepiEzkX6u3skXe28xHt6KbShu2C0l7l+gUHWPDynaOTRqa3hjh8Yx+TxZP/tH3/UPva3vj5+n1hZ9d9zHO4GPX/azwc1G4rlB81LLa0vpC/ZRC/dLm1T5kBmqPx2aFx3EDjys83mK8z5+Je567OpVaVttHK7Hwpz/iS0uX2eBJC23ebIMNR9tGL9uA+rY/1CvUA4Hgvv8/trttxt/1TQl8+/Jfv7XPqL2Z5qQnUS+BIBtRG2FHU4ROHkA5xSX94q8ikNwmN1nR7CEBQiMCJFWNAmR6KATINRoeQ0VvE9FqYr0M6cobhI52FpA0OwuZSa5ArqOXoGKGtypVHSMDTR2w9B/DnItQfOGpcuyoMeW0kjtwG9CmtofTS+XgkEvlwtDY1CGnnXLBQQccdQGRzllZv+ikRSJmoR8qjTXKGKVpSuPxpHMTkjjnPOrEtpsfM13pPjvEJfH6oXEkmRTH6UoSkdoH3s6Re8+dO315ZJgFAAAA");
 
 export default DisplayArrowDown;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-right` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right?s=sharp-duotone-solid arrow-right}
  * @preview ![arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-right.svg)
  */
-const ArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 224l0 64 32 0 290.7 0 32-32c-10.7-10.7-21.3-21.3-32-32L32 224 0 224z" />
-        <path d="M445.3 256l-22.6 22.6-144 144L256 445.3 210.7 400l22.6-22.6L354.7 256 233.4 134.6 210.7 112 256 66.8l22.6 22.6 144 144L445.3 256z" />
-    </Icon>
-);
+const ArrowRight = createIcon("arrow-right", true, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABYQAAAHYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBFwsIAAE2AiQDCgQgBYMtB1IbuwTIhod/1vrdNzPfDR3ENZl641B/Q0KyCkl9G5L3ED2Rd+rU85yHAvggkjnOF49lwTnPI5DzUNKJ67wiFapQwWtg3Z3Nyg61V9IalqRfyPF4QhZ30mvKSG4nBXTz/wDGL12ukahKAUQjAOatX73Ui2IUkyiUHhIFSxAQ80EukCJFLwFmSgV6yeTIZIJiUipRjFIpJ4Aoxy9OQTkyjMYUQAYSIbKsq66mrC5bxzdX7x46YuiaGBqzY0Ssj3UxPObEsFiLYaGmbkTcaPcXavvfb7z/p19hX8GT5+twq7vbXgXrXLxAgXUK9ioY6xTnui/KB5Tcv7do4QAgEFz//mrZ9oaZ/ytrEvDj0b+f8VcUT5P7qJSAIB1ZGmlLvEAaTwUAIIlz+scLXxBIdUnAu9a6IUCoRoBEuWoBUj01CpCpNkKAMn1MEqBctdVSkVUJrbZmkKh1EqQmuwoyrR6AMjO9N8u1Rnpp8C3H/2wxiyW0aCkfN3psPj1vRhJxD9AwnZF3K0PPUWUYXLXPccecsdceB50RyClLnbOOWmzBi3xQbpzRxspNlw+na2YdmqecdrBOjc+ZIZ+vDnXObh8G6ySA8ct9OCWSSFt2njp1/PyjE0adv1qbpo4aAAA=");
 
 export default ArrowRight;

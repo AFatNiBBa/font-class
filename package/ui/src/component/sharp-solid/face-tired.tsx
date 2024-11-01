@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-tired` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-tired?s=sharp-solid face-tired}
  * @preview ![face-tired](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-tired.svg)
  */
-const FaceTired: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-128c-48.9 0-93.5 16.8-127.4 44.3c-.4-4.1-.6-8.2-.6-12.3c0-70.7 57.3-128 128-128s128 57.3 128 128c0 4.2-.2 8.3-.6 12.3C349.5 400.8 304.9 384 256 384zM112 144l118.9 64L112 272l45.7-64L112 144zm169.1 64L400 144l-45.7 64L400 272 281.1 208z" />
-    </Icon>
-);
+const FaceTired = createIcon("face-tired", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABaQAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBUgsGAAE2AiQDCAQgBYMtBzEb0wTIhofn7fo691V1D6CaiST3HxARlAsxlJpLhEoZbdxTp55nWiiAbxSkvTQWGhND2R3zvAIFLfXq9YJuK1hJel4B6+5sNXNomo9mKZIc3xynM+TxLDulRLqavsLp/KbxlzZOkdTJAERjAIyrWTDL69/j94gvqw+IL81AQIwDhUCGDO0FGCkTaC9XIJcLfo9qlf4DCwKIMrmuBHKUMRlLATlI8jxv16ROnXqlBnmlXqnuol/nRHw74V0cH/929jeVn2Z+Nfa1Y+PezPp6UXTffimujXk15cOoF52PNf+mUllUWbQwJsT4RTULa8bGuKh0udv47j+dv9r4leqYSc5wdkT7CRPajzh7ZpJJzoTDx6bHsFK5NHDC3LkTBlZpGAen/zs4puB+028rjRK8HAgE3xy69teqRiP/r10vgT+f/vcP/YxUXyfpLmpLIMh6VntankAiAAApDuqSIJCMlpNXre+SAKEuAiRldQXItNNYgFxdPQQo6WiQAGV1LZCJvI7Q3AoFSX17QGawwyDX3D1QMtKnsKx5ZB7F+QP3n0uebKFJ+4p+vfsWw4tprfFOwqTtEcW23fVgnOoGJ220y077bbDeFvsNudes5IAdJq+IST6o0E9vfRWGK467x+MVG+y1zxa77ORdRiju+10dXC/uBl4ilP1VkkSkus+11Gv/lr0b1gMAAA==");
 
 export default FaceTired;

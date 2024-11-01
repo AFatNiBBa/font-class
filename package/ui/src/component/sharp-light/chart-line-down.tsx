@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-line-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-line-down?s=sharp-light chart-line-down}
  * @preview ![chart-line-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chart-line-down.svg)
  */
-const ChartLineDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 48l0-16L0 32 0 48 0 464l0 16 16 0 480 0 16 0 0-32-16 0L32 448 32 48zM336 352l128 0 16 0 0-16 0-128 0-16-32 0 0 16 0 89.4L331.3 180.7 320 169.4l-11.3 11.3L224 265.4 123.3 164.7 112 153.4 89.4 176l11.3 11.3 112 112L224 310.6l11.3-11.3L320 214.6 425.4 320 336 320l-16 0 0 32 16 0z" />
-    </Icon>
-);
+const ChartLineDown = createIcon("chart-line-down", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABYAAAAHuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBTwsGAAE2AiQDCAQgBYMtBzYb1QTIHgd2w9cRNrTE4pMyxsP3a6/nvt3Q/sCWeBtVYFSBsmJyQL5V5KoTWVd2wEJmagn0T+YelvqqnTr1POehAL5R0MbCNSk0gfY+j0DEcuHWW5GWClbTClh3Z3NQRCuHpCFLy3Eux+NzhzyeRBpIDxLcTh8aX41yiyTPAEQJgNU7urZ7ORADEe/rife2IiDWgEogQ4axAiyTCYyVq5DLBQNRr9v/wIoAohE+NYEcObagB5CDJOX5kJm1hra8199e7AlRhEgham0RRWt2sFbUArBpWPTG8Bga3cWZFMOiJ2sjYge8T1GIWmdf2fd9okNMuF2WZaX0UKn8VSk/35k589q1O6VrSpXSLhfO69evu8uB/fod8tjp07195Ihd4odBIPix6U06lv1vriXw5fHP3+ZnpD6QpD40SyDIptWzN4FEAABSXNKZIJCskeCrtrorQCgQIGlUCJAZoxQgV5gqQIPx5gvQqNAlE3mLMNS+BpJWZ0FmgcsgN9Qj0GCZV26joZHpE6ENxHMudgOF1h9Vs2fMqpZUy0wlVQQL26XVNjfpkutMhkuHnHbKBQcdcNQFgpyzPbjopA0cvN4XVWabYZbKEpW4fDzvddA55x112qm4Z6nqvDXJJX58MogJos4RShKROm5Sb/onE5ieAQ==");
 
 export default ChartLineDown;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-hand-over-mouth` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-hand-over-mouth?s=sharp-duotone-solid face-hand-over-mouth}
  * @preview ![face-hand-over-mouth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-hand-over-mouth.svg)
  */
-const FaceHandOverMouth: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256c0 94.5 51.2 177 127.3 221.4c-9.8-18-15.3-38.6-15.3-60.5l0-82.4 0-32 32 0 40 0 21.7 0 51.7-51.7L280 228.1l22.6 22.6 9.4 9.4 16-16 22.6 22.6 22.6 22.6L395.9 312l-16 16 9.4 9.4L411.9 360l-22.6 22.6-9.4 9.4 9.4 9.4L411.9 424l-22.6 22.6-52.3 52.3C438.7 465.1 512 369.1 512 256C512 114.6 397.4 0 256 0S0 114.6 0 256zm208.4-64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm160 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M144.4 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm160 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm-1.7 104l-11.3 11.3-56 56 9.4 9.4 72-72L328 289.4 350.6 312l-11.3 11.3-72 72 9.4 9.4 56-56L344 337.4 366.6 360l-11.3 11.3-56 56 9.4 9.4 24-24L344 401.4 366.6 424l-11.3 11.3-48.8 48.8C288.7 502 264.4 512 239.2 512c-52.6 0-95.2-42.6-95.2-95.2l0-12.8 0-20 0-29.6 0-20 40 0 0 20 0 15 84.7-84.7L280 273.4 302.6 296z" />
-    </Icon>
-);
+const FaceHandOverMouth = createIcon("face-hand-over-mouth", true, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABxwAAAKpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDeQsIAAE2AiQDCgQgBYMtB2QbLwbIjsO4matsHH6YRBEP/+/fV/vc++qX9KrB14IHYJPRQIw6VDjjCHBWq8MR4g+5uBdLm2VdAhZHmMgmrqmf/PTeRo9SuQ6s1MIqncCA3xb0N18DTmg40hnYVufGB+b4dsL8DEV8k+/WQHohfYbH/P8BjF8NdjdJcwYQXQBYdemFZ3urP/pTfFZ/mfjMWQiI1aASyMgYJsBSWWCYQoVCIehPdaM/6k4EEDX+NTOooQk/4VdAAZIsF0Vv75pVrNDa0F5cIr+j5dLnBkY81/pQ3zNuL59ueXDAswNa+/svKqM8L/ri0hgYk6KMixr0QvA8dEr3yjgx99XJp0ZEWG0N4UDn96si3j77xSm99SA4xerzrEmu0Zf5Jhr58+LHS6PTP6x+55wvLvnurM9WvnXRpbeXEW8JPzfwbRNa+y5Hn+o69bs+2/qZx+rt93N/e8f993ckQPuG9uM0btubvuMxL9iwwWlbvVlmXnCsNXyscf+Xu27/qVON7UojlCYqdbroQnOveMuGQRj8xC+6QKVaPsZWW92vzlYX26rO/QO5aJjj7CG9Mgq4eBev/HdsyAl3PDF4UMeXKzru52OiL35ywvH+5UAg+Hn8mUHXdi79v6k1gTNv/vnFD0l9k3QKTRII8tT6VK5KIBEAgBRHjU48jkC2Qxa+a5tnBQgtCJDUtAiQDdUlQKHFFAEajDBPgJoWF8qiaBZKVzds0uYAm813C1sovcQ2WOrDUk0ZGcplGJV/MjPWd+F1u6qZPrNaXM0OVArgis7ykmpzoI4aQ5PoXlvts9dhN7vJDoc7+EFnV4/YY/0Sts4HVWaZbqbKYtXhiYbGJZ3SQYfsmNaOb7NEdX1moqPLkyfRcBJyzuaQZSJFHoZE5jTEMKdpA2saenumaZrJI2Y0JAEA");
 
 export default FaceHandOverMouth;

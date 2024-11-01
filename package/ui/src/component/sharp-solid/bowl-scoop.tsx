@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowl-scoop` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-scoop?s=sharp-solid bowl-scoop}
  * @preview ![bowl-scoop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bowl-scoop.svg)
  */
-const BowlScoop: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 224C32 118 118 32 224 32s192 86 192 192L32 224zM4.5 300.7L0 256l448 0-4.5 44.7C437 366.2 381.9 416 316.2 416L256 416l80 72 0 24-224 0 0-24 80-72-60.2 0C66.1 416 11 366.2 4.5 300.7z" />
-    </Icon>
-);
+const BowlScoop = createIcon("bowl-scoop", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABVwAAAHhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBHwsGAAE2AiQDCAQgBYMtBzEboAQRlZoRyH4kZCeNd8euVYmpG0YidiTLkwiCuXI2yQOhLDA/FlhIJl9HoN+2rE4VUZJFVX0BAAG7rDChw34sLS57faA9pr/5502LAnwA3pjYeSBjAs15nkDneRcu8ID6G+ybfgH7u3NLUQSvtFaWpF9ajsfngCyupecVkFxJXuFC+tD4pcV5iZIUQFQDYOHGgbVy3+N7xMv8PfHSagTEQtAtkCJFuwBzpALtMt3IZILvkc/b/0AEEIXKkyYgQ4ZJmAvIQCLJsvLOsoKKbLisoHTj14GIjxs/970fKh/s7OisiPa4PePhEh1DIUojYmOUxpNZj3t7R6pH/vS86l/p+ib7hhjqi74YGoq+061rYEXOHLvHj++eY/1yzb5rzhTHdZ/RBwSCaVsmH9lZNed/cVkCfj7+94f/FeVzkUtGUCwBQTomP2Zb5CByAgCQxEG9kUMgMUrCXLXcxQChFAEShUoFSLWpFiBTarQABTpNFaBQqQGpyEqEetsbSJTbA1LTnACZendAgTmeaoXqI9Ub7tS5Z1syDRTyY1R5iaXrq7wqMKHvGFbM73IRLor+2N+unV5C3rX5bUEi/Bep8hLLdDSfb7r7mY49DnGsV80vV0c4jQJM2nFPQiT6Hvaz55cJAA==");
 
 export default BowlScoop;

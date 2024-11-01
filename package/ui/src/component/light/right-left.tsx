@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `right-left` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-left?s=light right-left}
  * @preview ![right-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/right-left.svg)
  */
-const RightLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 222.7c0 18.4 14.9 33.3 33.3 33.3c8.4 0 16.4-3.1 22.6-8.8l99-91.4c3.3-3 5.1-7.3 5.1-11.8s-1.9-8.7-5.1-11.8l-99-91.4c-6.1-5.7-14.2-8.8-22.6-8.8C366.9 32 352 46.9 352 65.3l0 62.7L16 128c-8.8 0-16 7.2-16 16s7.2 16 16 16l336 0 0 62.7zm33.3 1.3c-.7 0-1.3-.6-1.3-1.3l0-157.5c0-.7 .6-1.3 1.3-1.3c.3 0 .6 .1 .9 .3L472.4 144l-86.3 79.7c-.2 .2-.5 .3-.9 .3zM126.7 480c18.4 0 33.3-14.9 33.3-33.3l0-62.7 336 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-336 0 0-62.7c0-18.4-14.9-33.3-33.3-33.3c-8.4 0-16.4 3.1-22.6 8.8l-99 91.4C1.9 359.3 0 363.5 0 368s1.9 8.7 5.1 11.8l99 91.4c6.1 5.7 14.2 8.8 22.6 8.8zm1.3-33.3c0 .7-.6 1.3-1.3 1.3c-.3 0-.6-.1-.9-.3L39.6 368l86.3-79.7c.2-.2 .5-.3 .9-.3c.7 0 1.3 .6 1.3 1.3l0 157.5z" />
-    </Icon>
-);
+const RightLeft = createIcon("right-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdQAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCEwsGAAE2AiQDCAQgBYMtBzEbFAXIHgduTDdnnUUvMZ6nX+vz3Nf9aXiJewEhxKwA2RO4sGMjpmJTkasntWrfyyF6+nt3/s8/fcBn9NHGwqUbF9BelXYJBJh1+VpCY4FlmoC1O9uzHYuWg4SUQY5zOR5LqPNjNhijvF/+wav+Q/OfeZ6iqCsAGQDgmIvOO8NvwwyTf0aRf5yGQI4FjaBChYUCDqgEC9Ua1GphmNEI/wMbAmScPGUBNcZxKx4C1KCo63pZf3mvPdatL2yPta57bFbydvvFORfl3Tw++8K803ph5lukk7dmvj2rGztfSPJ4+8VckPPzeOvqF+ck7ybp5t0578zuJDsYzjw/b3ls1gV5u73ksVrPhbmId2PZZ4PP/l/6z43/uGrYe4/ne933ruX4iYnj417vdXvPv+ewsw17veHZDks+kcQFZwVVMlJHobF6712IzmP+YhCET7/6wFX9A0cn2wX8+8NH08/IaFiUzzCpgFBtGG1weQGFAABKHrSsQFBcqybX2vGOgGghoBjXElBZYCCg1rJewJjFdgoY13KeSuopMdMVBRQd94DKLg+D2kzfgzEH/G6Mm5nK4gh7IT58sSe20AnTmq2btjT7mmEok0aE8fD+Zplb8yCV1sJCN7rLne53g+vd4v4GudcZ9gPucKIGn+CLGlttskVjn+Y4uZ9/oRvc6z63uMudbpL9mvvSGg/qzWtBLAR1G0dRSGnZIf4WAQAA");
 
 export default RightLeft;

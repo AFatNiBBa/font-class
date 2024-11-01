@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pencil-mechanical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pencil-mechanical?s=regular pencil-mechanical}
  * @preview ![pencil-mechanical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/pencil-mechanical.svg)
  */
-const PencilMechanical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M500.7 36.7L475.3 11.3C468.1 4.1 458.2 0 448 0s-20.1 4.1-27.3 11.3L389.5 42.5c-4.3-1.6-8.9-2.5-13.5-2.5c-10.2 0-20.1 4.1-27.3 11.3L317 83 287.6 53.7c-21.9-21.9-57.3-21.9-79.2 0L103 159c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0L242.3 87.6c3.1-3.1 8.2-3.1 11.3 0L283 117 72.8 327.2C67 333 62.8 340.1 60.6 348L32.8 445.3 7 471c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l25.7-25.7L164 451.4c7.8-2.2 15-6.4 20.8-12.2L460.7 163.3c7.2-7.2 11.3-17.1 11.3-27.3c0-4.7-.8-9.3-2.5-13.5l31.1-31.1C507.9 84.1 512 74.2 512 64s-4.1-20.1-11.3-27.3zM376 91.9L420.1 136 183 373.1 138.9 329 376 91.9zM89.1 422.9l16.9-59 42.2 42.2-59 16.9z" />
-    </Icon>
-);
+const PencilMechanical = createIcon("pencil-mechanical", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABcwAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBbwsGAAE2AiQDCAQgBYMtBzgb9wTIHoexYzpzNJLlWRsP/7/2r/vcmQDwhBkVICgCmbiwg5Zd5V+1RPYlc61S5ebP/zWfX9rR0fE3OpToRQd4Ju9NYIDRnrQ3kdkwShRnTheX0gb6ZnARCRWDBIcxw+YO8ngTl5Uj3Unf4NK80fhFI8dJymUAoiYARs6fPdXHsiiL+Lo08bXJCIiRoBDIkKGpAENkAk3lCuRyQVmUSuU/sCCAKE8um0COcliAdYAcJFmej6hUoUq5avm8uqjy+k4dO92sfLZuhyBXp3jBmzvMiduNHrefH7fqdYw5cb1u13bYzJ2DTQ3WUzSO1O/Mp80ZOmzonBgW89f07tF7aExo9aLmi99aWse/d+8Io5gc+sOqCmlbCTXr16+5YYMffqhWLc+fM+cbP/7odOcmK9y5mXDHiiZenq5ThwevUI9zuvb3eyOpX3/1xuFqXmVQd9xzTiDovuenu8trDPmvYpUEfn79x//rxNKSJL1ARQkEWZdSF0sSA2eIQNkU+7TCHQWSGTK41qpuChAqI0BSXmUBMk3UFCBXWWcBymmurwDlVTZbJvJKQl1LL5BUtRNk+jkAcnW9AuUM8SlTXt3I4kuIDuH3LnWchsaOK3p261EMKh4LTjFkuDY4uHht7rCPGzpiq3W222aPtdbYaI8id5ma32urcRYx1g8Veuqmh8Ighbv8vn6etXbZbaPtto1RBiu+93ewz27fEbZEaHt5J0lEqrVj7bbVG7d0DV8AAAA=");
 
 export default PencilMechanical;

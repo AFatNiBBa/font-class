@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-signature` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-signature?s=light file-signature}
  * @preview ![file-signature](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-signature.svg)
  */
-const FileSignature: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 480c17.7 0 32-14.3 32-32l0-10.7 23.8-5.9c2.8-.7 5.6-1.6 8.2-2.7l0 19.3c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L220.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 129.9c9 9 14.1 21.2 14.1 33.9l0 39.8-32 32 0-43.6-112 0c-26.5 0-48-21.5-48-48l0-112L64 32C46.3 32 32 46.3 32 64l0 384c0 17.7 14.3 32 32 32l256 0zM240 160l111.5 0c-.7-2.8-2.1-5.4-4.2-7.4L231.4 36.7c-2.1-2.1-4.6-3.5-7.4-4.2L224 144c0 8.8 7.2 16 16 16zM144 349l-9.8 32.8c-6.1 20.3-24.8 34.2-46 34.2L80 416c-8.8 0-16-7.2-16-16s7.2-16 16-16l8.2 0c7.1 0 13.3-4.6 15.3-11.4l14.9-49.5c3.4-11.3 13.8-19.1 25.6-19.1s22.2 7.7 25.6 19.1l12.6 42.1c7.1-8.3 17.5-13.1 28.5-13.1c14.2 0 27.2 8 33.5 20.7l5.6 11.3 41.7 0 15.7-62.6c2.1-8.4 6.5-16.1 12.6-22.3L473.5 145.4c18.7-18.7 49.1-18.7 67.9 0l17.4 17.4c18.7 18.7 18.7 49.1 0 67.9L405.1 384.3c-6.2 6.2-13.9 10.5-22.3 12.6l-74.9 18.7c-2 .5-4.1 .6-6.1 .3L240 416c-6.1 0-11.6-3.4-14.3-8.8L215.6 387c-.9-1.8-2.8-3-4.9-3c-1.7 0-3.3 .8-4.4 2.2l-17.6 23.4c-3.6 4.8-9.7 7.2-15.6 6.2s-10.8-5.4-12.5-11.2L144 349zM518.8 168c-6.2-6.2-16.4-6.2-22.6 0l-24.8 24.8 40 40L536.2 208c6.2-6.2 6.2-16.4 0-22.6L518.8 168zM342.5 321.7c-2.1 2.1-3.5 4.6-4.2 7.4l-12.3 49 49-12.3c2.8-.7 5.4-2.2 7.4-4.2L488.7 255.4l-40-40L342.5 321.7z" />
-    </Icon>
-);
+const FileSignature = createIcon("file-signature", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAABrAAAAMEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDOAsGAAE2AiQDCAQgBYMtBzUbvQXIrgZsYxryF9mKhZDJWhcWRV4s+WblRX6tgn8+u/r7qmrUPUvX6oOMJEQEQgAxlP6zQbwEyVrO3hMVUCHHkwJUKJsqUorIuarGv5AlY1Cdzu2FwhmETiZE5qzmqlVT8+jmnb1+c1Ga6bZJCyiwaHGWjwVYHTCA+S5DlOr//lrjO74N+GzJFq0usKwb/xxl8s0JHGikReKJZNmJ4tmW42hoCEN4IuQ7pOyRhs1omFoAp+8xLQLmaNKE3etO6b9eG8DgLAAASgcAAN0Pd3c8/eIr4mO6QR9tAQGoBwA8ARZjigmATiyCF+DwwOEQ/Ik0lf9ACwIARdHzMAA4IAY8AN4DgAPAEHGuhy/zMJLihlOCSUeUDkeobhzuRkfGr1QldWnyWqHV8anrdUNt7xyGD6oXUqBLXYcKZZJtHQcwWtN5MKyNpoaHuoZja4cOdg7VzOIjrQKyHs4LhehKHR+7WFBiqor4chSq0qtHULvrzvo6aE32ULyN2OUy0lWoQ+WrjnouqutQbospg6HqHA3jcFeDobHBq29qKyOG5pp+rUYz/Sz3pW7BltQKyzSbzyLIaD0DZzZdsKZPdoLs97b1s2OcWmWhZm+/4KwhdctFqtWA5Uo17c4dtGJ+AaT+OXp7RN0uj/Onfnj0ojvtv8FxvzXpgocZAxdfAzUWLo8e5Wd7x0/qV3v7rzm2Po8Ba7sI2j2TmbEZBYY/dPViy/95ZQsrbOHYcW4fbWHvCGk2OLu0wqxzAAgQ3Eze/yfR34QGgH8vv2+u9jVZTK6BOAYAgW2UlrHJBNigATEFjJajAl8kwHCfCDAlOZQNiQA6GKIEYCmSDo6AhhChVGthsP8QFrkEIts4gCHJIrC0sRIc2e5DhE7e+KNkhy1iqQSlX8jUq4yttOr3mjTzHfxlnMl1KSz1Hf2wxl0+59XHWNMtMN9S00w1y1JiF+sXWmaePhHe2w95zTXRjNeBT6f26uHkX2yJWefKfDMd+edN9SyPS9eH3qC8LcQYDMikfi/OmbY4efcBAAA=");
 
 export default FileSignature;

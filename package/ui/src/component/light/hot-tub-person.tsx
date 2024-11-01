@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hot-tub-person` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hot-tub-person?s=light hot-tub-person}
  * @preview ![hot-tub-person](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hot-tub-person.svg)
  */
-const HotTubPerson: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 0c-8.8 0-16 7.2-16 16c0 35.3 17.7 68.3 47.1 87.9l16.1 10.7C307.7 128.4 320 151.4 320 176c0 8.8 7.2 16 16 16s16-7.2 16-16c0-35.3-17.7-68.3-47.1-87.9L288.8 77.3C268.3 63.6 256 40.6 256 16c0-8.8-7.2-16-16-16zM32 336l0-16 0-32 240 0c.5 0 1 0 1.6-.1c1.3 0 2.5 .1 3.8 .1L448 288c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32L64 480c-17.7 0-32-14.3-32-32l0-112zm170.7-80L32 256c0-35.3 28.7-64 64-64c13.8 0 27.3 4.5 38.4 12.8L202.7 256zM0 272l0 48 0 16L0 448c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64l-170.7 0c-13.8 0-27.3-4.5-38.4-12.8l-85.3-64C137 166.7 116.8 160 96 160c-53 0-96 43-96 96l0 16zM384 16c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 35.3 17.7 68.3 47.1 87.9l16.1 10.7C435.7 128.4 448 151.4 448 176c0 8.8 7.2 16 16 16s16-7.2 16-16c0-35.3-17.7-68.3-47.1-87.9L416.8 77.3C396.3 63.6 384 40.6 384 16zM112 336c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16zM32 64a32 32 0 1 1 64 0A32 32 0 1 1 32 64zm96 0A64 64 0 1 0 0 64a64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const HotTubPerson = createIcon("hot-tub-person", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABxwAAAKdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiDcwsGAAE2AiQDCAQgBYMtBzUb+AXIjsK22TNiQJLDODkMsr7x/P/v97+59rnfMfEkOrpY5If2ISQ+7TXEG5VHhOShWKR5JGl+f7+/79wP8S7kJLoRDdB7cWeTm0v4s934437qD8vRzusZDS3KOjADM88HvBsO/yjbRjKwJt8EbGfb3gxRCeVGKBygy0F2oFOP6z1w07/R/KLWB0rXACBzAIATl5Nj4fQb+pZcD/bJe9FAICcB1kBoaFgBgcOoghVo1gCdTviWwb/4D8QgQIYhJMq6DjPxGfgJhqMpEx1Nvpa7cSEfR0pnTtD5tLT0Yk72Pdmqnxw9XTkpn1au+StQf9WUIgNBgrhodEJpbkwE38DCSZDpBROcGWhk0RRK+jiXM7+dtBm1Sk0BROTx1l0rfra3k1qUuW2ENScjm9IQMf5iy44Oih8onlCW9LWA2n1AmVrEFZqy7lw7PfEasRALlomlbYTtjm7Rbpd8ymhOiIhbs+uya/fvTILFn77gdVhgqsyf4kUhD8MDNBzyzKxeTzCdua/240nMxpk7d0XOO73vUrgn9IqgQc/cBU8owhE3ahLm7nDhGIzhLoJgzbn+LzA9pBaGVNozuuKsDZN+xpRQMERPgLNE4mS7+f140/D1QBC+PHcSXpkd+J/FpQD8eHn/Kn9GMDgt1ceoAqHtGDjKKYAiAIBKG/OCoHzCFS6c4QEExDgaKMPGoVlOBJ1x22HIKl7ijQvOo0rHhlggF4YywzVoDmmHzgJ7MOSwM9+wBWkQLoVP6Q9mqrAuHjoIuzm7Yn88m1XJgFZsuwPwZo1tm6yyw1OhTL06LUqVqNTS4TaJDbaqFbbECXVHmBtnrjB/+HDh4fg0pZo0q1SvzuslAL7eYattubEd1lOEIvdZWIqUoGKqxamltcjpowAA");
 
 export default HotTubPerson;

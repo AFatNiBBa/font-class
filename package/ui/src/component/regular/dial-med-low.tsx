@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial-med-low` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-med-low?s=regular dial-med-low}
  * @preview ![dial-med-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/dial-med-low.svg)
  */
-const DialMedLow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM208.8 367.2c-37.9-37.9-43-96.2-15.1-139.6L271 305c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-77.4-77.4c43.4-27.8 101.7-22.8 139.6 15.1c43.7 43.7 43.7 114.7 0 158.4s-114.7 43.7-158.4 0zM174.9 174.9A160 160 0 1 0 401.1 401.1 160 160 0 1 0 174.9 174.9zM576 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM32 320a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM128 96A32 32 0 1 0 64 96a32 32 0 1 0 64 0zm352 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM128 480a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm352 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const DialMedLow = createIcon("dial-med-low", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABtwAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDSwsGAAE2AiQDCAQgBYMtBzMbzgXIjsK2bRNnM8QQT55U4uFpjfb+7OyJSULEM1GjaMUrFxFLog0P5SQS8SheNUGDPRhnd9saGHkDnLcE8OkEpX2VqqLcPP/XfH7WdICfT+De0aFFYemBlN8iWgfW4GuqoOlAZsNZC/reNjxCSCE0IkKERMoxHa/VDnK8jytK0o30j8vtTuO7flskZQEg2gCALbuycfj8El8inlV3xDNbgYDYAjAGUaDAEATrMQWGsIwBWRZ8iarC/0ACAUQNhpNlGY14ijfoUST1OXcOSsRwdXbZnHc2lg2Hz/diXIv1nr2GfteOie7dxtLjEYy7i/J4b9bxQAFnVtzNeTOx/rWhv7FwMYRxe/h0ziX9ZNXDvOvR85GzuVcr75ffzm6v92Bc6LDdux/jsSWKDpo2895PVI/brn6OPx98bvQ07wxnWnhn+qLEwn8dWLE5FgNu8+vXxc/atu8/FizANpgvUH78n2Ty8fTHj08enz//W8RhiytHglooRjVb8zPdaBV2ey4HEAj+vX22YTd//Z+6xgS+Tf/+O85XfabN6THqJBAU86v5amkzAKkIOClOURkPFEhm1ONbbXJVgNCAAEmNBgEKgwQQZA3mQVAa4YWgRoNtmCLXC13qCyRNjoLCSssg63IDSut92TW6oshmIReFx2RqVEKRYeS0OShE27gpJihH9WFya4ZFlWeEhTBoyqR5A3pGzAtyVtxbMCFqERFPRJxsHEgIHafWswsGzJozYspkbSeM4i2DRbu0EUwGZl0qIklEavpsIMg6MdCzjk8tAQ==");
 
 export default DialMedLow;

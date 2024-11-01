@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `command` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/command?s=sharp-regular command}
  * @preview ![command](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/command.svg)
  */
-const Command: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 0L24 0 160 0l24 0 0 24 0 112 144 0 0-112 0-24 24 0L488 0l24 0 0 24 0 144 0 24-24 0-112 0 0 128 112 0 24 0 0 24 0 144 0 24-24 0-136 0-24 0 0-24 0-112-144 0 0 112 0 24-24 0L24 512 0 512l0-24L0 344l0-24 24 0 112 0 0-128L24 192 0 192l0-24L0 24 0 0zM136 144l0-8 0-88L48 48l0 96 88 0zm48 176l0 8 144 0 0-8 0-128 0-8-144 0 0 8 0 128zm-48 48l-88 0 0 96 88 0 0-88 0-8zm240 8l0 88 88 0 0-96-88 0 0 8zm0-232l88 0 0-96-88 0 0 88 0 8z" />
-    </Icon>
-);
+const Command = createIcon("command", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABdQAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCRgsGAAE2AiQDCAQgBYMtBy4bRAXIHoVx41NC+YhT3IuaeU3peJ5v7fW+Wch2psyWSLHQbGRZ9kQVWJGL/kK2QibCFxSQqv7+/8/t/m1IJI72DsktiyZxazROXylk8fgbHfKl/W7imud//g3YpC/yotXL5CiMqPMJDHg2f9pafGAznYDtbNurIKKh3QgND/p8yhsD5UNZAa/rD80vemeKoQOQ9QDg8o1cFvxLviTL8zdZlgaBXAbsx9Chw24MnCMKdpPsB71e+JL5XPwHEgTIKHlfAT0mPMILQA+Kse8vtw0tyQ9r+uvFqdq12kRasNV6vtSKnySVTFpL5lpssdo1TFMmZedqq8/K68qhcG3NhQ7O1s/+sDJcwbdv/223prhFJi9tp9TlW4tubY/rL+3FH7+eksabytrKx66k5Y3Jokntn5cTYbFOmfbfAkXKaM99d88DQTj1+ZLrzv2fWgHfPn79M8KcF2WGSQGhOzw/rF5AIQCAkgcMBYLiIbWEtdpbUY4KJYpRJTq76IhedYgY7OXzMKquEKVfJTZrQESx2m2ic9aJ6G32JAbn/AujzelgUYYk+U8wIzYGosfIZXdSmDb7WgW8RLsfodMB41HOmfBZDK0s7Q30TexH+Fa2fLAQ2wOjvoi42DmRMLo9et5aNLC1M1lX7x8SQe9njI77q004LEg4T+ooCikLHx8AAAA=");
 
 export default Command;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `feather-pointed` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/feather-pointed?s=sharp-solid feather-pointed}
  * @preview ![feather-pointed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/feather-pointed.svg)
  */
-const FeatherPointed: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M137.4 131.6C228.5 40.5 428.3 6.9 512 0c-4.4 53.7-19.8 155.2-54.4 245.1L368 272l0 16 71.1 0c-8.2 16.9-17.2 32.9-27.1 47.6L304 368l0 16 66.4 0c-61.9 54.9-164.4 88.3-238 45.5L73 489l-17 17L22.1 472l17-17L287.2 206.8l-22.3-22.3-11.3 11.3L78.1 371.3c-37.9-77 1.1-181.5 59.3-239.7z" />
-    </Icon>
-);
+const FeatherPointed = createIcon("feather-pointed", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXQAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBPAsGAAE2AiQDCAQgBYMtBzYbwgTIhofn10F/7ptZwLObTLRtbNugUAAkqKlSCfx/6tTznIcC+EZBGwuXLh4TaM7zCAQ823sekXaD1bQC1t3Z0NSEvdJakeT4dnxyuEAeV7KtSpD2pQfYVT40PqpjK0mZDEBUBkC/KRNGufksnkXc//8ccd8IBEQ/UAhkyFBfgJ4ygfpyBXK54Fn8/z/+BxYEECXxmQnkyNALYwE5SCLPO5UrUSGfTN6yM25MiXga5rscnPho4sQQ5WJv7cpcVacOHxtNo3e0iCnRPKrHxDg95WmfJocrH/7c+MHiB3b2+De4LkPqDaqAU083K98f76/2wGl1VTbExTcrGqmsv9/9KvWrfOgwquDHD5McduK4I9X7V+v3EAgEC/b9vTynUs9vpcsl8OLy18/+Z1Tz/1tJOozSEgiylv+3NDNRk0QAAFJs1iRRUyDpJKFrLW+3AKEsAiQllRUgU09lAXJltRCghIY6CVBSWRNkIi8jVDerg6S8dSDT2RaQq+4MKKGn21pJ1SMzI8IIiEdc7GAJDRor2rVuW3Qvhr5GWgaW+j2KZa7p5phrBocWW2O1jRZZaJmNAllvlLnJKoNn8CBfVGintbYK3RXb0Xp7skXW22CZNVbnIT0U56WmNs+rm4GYMGp7U0kiUqXFi+bdYuVb/YALAAA=");
 
 export default FeatherPointed;

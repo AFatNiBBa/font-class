@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-left` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-left?s=duotone arrow-up-left}
  * @preview ![arrow-up-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-up-left.svg)
  */
-const ArrowUpLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M96 160l45.3 0L342.6 361.4c6.2 6.2 9.4 14.4 9.4 22.6s-3.1 16.4-9.4 22.6s-14.4 9.4-22.6 9.4s-16.4-3.1-22.6-9.4L96 205.3 96 160z" />
-        <path d="M32 128c0-17.7 14.3-32 32-32l224 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L96 160l0 192c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-224z" />
-    </Icon>
-);
+const ArrowUpLeft = createIcon("arrow-up-left", true, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABZwAAAHhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBKAsIAAE2AiQDCgQgBYMtB1Yb0ATIhoePNfP93U3mLjmgAm+rAEG1igGEPduqKkIjMrVE9iauqV/+9ICF75httdD2Yeb5BBIHkiEwW4NPGLe7qE3NQy0/SfeS/CXyeDlBFkfTswokj5JPuMFfHF90cpZEdQogGgAwZcGc2Z5VopLEp7YnxCezEBBTQS6QIkVXAcZLBbrK5MhkgkrS1kYl6M8vJ4AoYu8kBUVkGIVJgAwkQmRZ98ZyoTabXy6UlpzqEPGgXI4r7e452XK3VAqB3uX294uUJeVSeV4ICTB/p16tDa3fen5a/0mPSXUXuVhXgQxxFH/mWUhUrOgxgHPev3OptvbSQ6Q/fPfeAEDiqom3/r9aUT/+X1U5AZ+f/vjjbpcTK5NWVElAkPZv629pnJTLY6UAACSxXy9BoCmlukvYV61xX4BQQoBEUUmAVBcNAmRK+glQ0N0IAYpK5khFVi20WBbwRI1deGqkY3imxWO8YLy3qaKWSE+PsPfC3y11ZgzPGJYPGTg4H5s387x4IDjTPy7vdnvv13V9YK71dthur3XW2mRvhO02O7vPNjMldIYfyg0x0GC5sfLh0rk6X6V222NTXR4fZJx8frS3/XLrPjCbBDB03ZemRBJpu1W7d+84MGDfzpdlDriITTpU5EsHAA==");
 
 export default ArrowUpLeft;

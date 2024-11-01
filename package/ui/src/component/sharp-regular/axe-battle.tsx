@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `axe-battle` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/axe-battle?s=sharp-regular axe-battle}
  * @preview ![axe-battle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/axe-battle.svg)
  */
-const AxeBattle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M511 215c-5.1 59.5-29 103.2-50.5 131.3C441.3 371.4 424 384 424 384s-6.3-20.1-21.8-44.4c-17.3-26.9-46-59-90.2-74.4l0-50.2c52 13.6 88.9 44.8 113.3 74.7c3 3.7 5.8 7.4 8.5 11c11-17.8 21.3-40.6 26.6-68.5l-6.3-6.3L420.1 192l33.9-33.9 6.3-6.3c-5.3-28-15.6-50.8-26.6-68.5c-2.6 3.6-5.5 7.3-8.5 11C400.9 124.2 364 155.4 312 169l0-50.2c44.2-15.4 72.9-47.5 90.2-74.4C417.7 20.1 424 0 424 0s17.3 12.6 36.5 37.7C482 65.7 506 109.5 511 169l-23 23 23 23zM109.8 44.4c17.3 26.9 46 59 90.2 74.4l0 50.2c-52-13.6-88.9-44.8-113.3-74.7c-3-3.7-5.8-7.4-8.5-11C62.5 108.8 48 144.8 48 192s14.5 83.2 30.3 108.7c2.6-3.6 5.5-7.3 8.5-11C111.1 259.8 148 228.6 200 215l0 50.2c-44.2 15.4-72.9 47.5-90.2 74.4C94.3 363.9 88 384 88 384s-17.3-12.6-36.5-37.7C27.3 314.8 0 263.3 0 192S27.3 69.2 51.5 37.7C70.7 12.6 88 0 88 0s6.3 20.1 21.8 44.4zM280 56l0 432 0 24-48 0 0-24 0-432 0-24 48 0 0 24z" />
-    </Icon>
-);
+const AxeBattle = createIcon("axe-battle", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABmgAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCZwsGAAE2AiQDCAQgBYMtBzEbaAXIngNu0zziJJoWkTR5mXaJ9P/kpCPG83xrr/fNTgpEFhgUavZAssI1qkA6v45I1qVG7Iktgez+/dh8H0imnqHRJEFzaebTFLHrM0uEOGtifvw27yEhWhfNVDxUaqCbb36/LsTVF/r/XO75PT86wG90SGPbmiALaI728wTifHoedgKBZTrBvd1pqTlE+yQtZc3i+HZ8yhVq3uOU+ij3pCfcqg+az2YaU/Q1ADIBANh56thRZ23aZLB7SQYdBgLZCbAAQoMGcyCwBVYwB84CoKpCm67D/0ApCJBhaJoCKvpwF48BFRRNrXs20wjq2HpydN+osw9NIE42Mls00Hv+rGc38DL46jqWkOgoSRoje9gyP9qPE3gdCcHCGdAAA63jTSK8j4+CM1MA9GJCr0LW9+yRO8LNmRNv4AiD8BB64X9Ox1i8y++Sw2An8EfUUlNkVJImyehY9ITKH7KnC5/g/y1ftH+GegPgyJGn/8jx0avkn//YVYxvajQ0UYtRrj36bptfBYTjxz+ujxwOBnrP/+33LWlK9/NVBGztsTlYKqzlwWZDPIIH9u73fxX3733d/pr5JawowSUrrpV2O0AQvn798NP4LX9HEAoYevf9S3gVdWfoChMjFBCaJZ1RvEDSAQCg5Bp5IQRFvwZ4Y9y2RjGKAcUwo6AxGxWqURZDn3lcpPLwMVipI8UUCYBijIvQWKcD1RRb6LPFrT/MlMi+SXsW/TRM2MeRvbsW2MxWqV+6LHTG3ci8GZCqJW07DXRwUVpFWVNKUk6TYXXhqKUkJKFBTyRlY2Yl5Sc118+nY1LqGnIqymWbAOl5T6stz9eBikG4qxwsCimjTt84v/Q7DwA=");
 
 export default AxeBattle;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `family-pants` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/family-pants?s=sharp-duotone-solid family-pants}
  * @preview ![family-pants](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/family-pants.svg)
  */
-const FamilyPants: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M24 352l40 0 0 160 112 0 0-64-32 0 0-32 0-160 0-32 32 0 16 0c-10-13.4-16-30-16-48c0-5.5 .6-10.8 1.6-16L32 160 24 352zM64 64a64 64 0 1 0 128 0A64 64 0 1 0 64 64zm256 0a64 64 0 1 0 128 0A64 64 0 1 0 320 64zm0 160l16 0 32 0 0 32 0 160 0 32-32 0 0 64 112 0 0-160 40 0-8-192-145.6 0c1 5.2 1.6 10.5 1.6 16c0 18-6 34.6-16 48z" />
-        <path d="M208 176a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm128 80l0 160-32 0 0 96-96 0 0-96-32 0 0-160 160 0z" />
-    </Icon>
-);
+const FamilyPants = createIcon("family-pants", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABiwAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCLgsIAAE2AiQDCgQgBYMtB1QbVAXIjsPGMR1poyyPVDw82f3XuVX91T1GD8xI0FI57GidSUFkxy+Zv/7/uJ/n//w34DP6SF2LwkgaRdT5BCYQiR985xMcjXwGNoPmPTRQod1CVAhFfJlv0ES6O8GN/v8Axq96u4GkLQOITgBYtHn9Su9+FV+l+LjxGvGxFQiIxaAWyMjoJ8BcWaCfQo1CIfgqNearaFwTQDQL3yuDZrTiYlwLKECSFEXRvnPf9u37VU3ti01VU7n93hFPDnu8911DHxv+RJ+NQhmijGBt1eaqrETV1qL/peqePtf2LGPD9vtHPT3m2YEPjH5m5FP92ru6HbhAiMqNTXbI213Ta/AznZ75fZBDfNaxPHX55afKLH716ofCVG2PxGsPxXvuHklrH3LGQnWfzZ53+q5s7XmLlndGDMzf/P33Nzmb08o+1KnTxLV1FjrjISP1y9yiZ2vf/4BA0PL8h3vqOPf/1iqBb17/85fih9Sr8W78lJ5BqwSCPLYx1o5EL73iJwEASHGRwYmX9BLI1iqET9u5Q4BQooGkWQlZX52gUBoDTQaYxm18sl4WRZvQzU4UknbOQjbdlVDo5lVoMtd7pWbdIgNQgI/w+Je6vIssO1RPGj+xnl3P9lQipjhnd0692R15kZ4ZRW865LRTLnDQAUdd0KHPWVm90EnLl9BlPqg2yXgT1WarDw8fXt7koHPOO+q0U94+c9TXZ0a6aHn5KBokIeNkR7JMpMjdgGqN+zdw5Pw4LM/3GJFvWw==");
 
 export default FamilyPants;

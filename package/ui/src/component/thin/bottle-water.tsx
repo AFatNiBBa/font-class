@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bottle-water` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bottle-water?s=thin bottle-water}
  * @preview ![bottle-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bottle-water.svg)
  */
-const BottleWater: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M128 0C110.3 0 96 14.3 96 32l0 60c-4 1.2-8 2.8-11.8 4.6l-13.2 6.2C47.2 113.9 32 137.8 32 164.2c0 18.1 7.1 34.5 18.6 46.7C39.1 222.4 32 238.4 32 256c0 19.1 8.4 36.3 21.7 48C40.4 315.7 32 332.9 32 352s8.4 36.3 21.7 48C40.4 411.7 32 428.9 32 448c0 35.3 28.7 64 64 64l128 0c35.3 0 64-28.7 64-64c0-19.1-8.4-36.3-21.7-48c13.3-11.7 21.7-28.9 21.7-48s-8.4-36.3-21.7-48c13.3-11.7 21.7-28.9 21.7-48c0-17.6-7.1-33.6-18.6-45.1c11.5-12.2 18.6-28.6 18.6-46.7c0-26.3-15.2-50.3-39.1-61.4l-13.2-6.2C232 94.8 228 93.3 224 92l0-60c0-17.7-14.3-32-32-32L128 0zm69.3 104c11 0 21.8 2.4 31.7 7.1l13.2 6.2c18.2 8.5 29.8 26.8 29.8 46.9c0 16.4-7.6 31.1-19.6 40.6c-1.9 1.5-3.1 3.9-3 6.4s1.2 4.8 3.2 6.3c11.8 8.8 19.4 22.8 19.4 38.6c0 17.5-9.3 32.7-23.3 41.1c-2.4 1.4-3.9 4-3.9 6.9s1.5 5.4 3.9 6.9c14 8.4 23.3 23.7 23.3 41.1s-9.3 32.7-23.3 41.1c-2.4 1.4-3.9 4-3.9 6.9s1.5 5.4 3.9 6.9c14 8.4 23.3 23.7 23.3 41.1c0 26.5-21.5 48-48 48L96 496c-26.5 0-48-21.5-48-48c0-17.4 9.3-32.7 23.3-41.1c2.4-1.4 3.9-4 3.9-6.9s-1.5-5.4-3.9-6.9C57.3 384.7 48 369.4 48 352s9.3-32.7 23.3-41.1c2.4-1.4 3.9-4 3.9-6.9s-1.5-5.4-3.9-6.9C57.3 288.7 48 273.5 48 256c0-15.8 7.6-29.8 19.4-38.6c2-1.5 3.2-3.8 3.2-6.3s-1.1-4.8-3-6.4c-12-9.5-19.6-24.2-19.6-40.6c0-20.1 11.6-38.4 29.8-46.9L91 111.1c9.9-4.6 20.7-7.1 31.7-7.1l74.6 0zm0-16l-74.6 0L112 88l0-56c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16l0 56-10.7 0zM96 216c0 4.4 3.6 8 8 8l112 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-112 0c-4.4 0-8 3.6-8 8zm8 152c-4.4 0-8 3.6-8 8s3.6 8 8 8l112 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-112 0z" />
-    </Icon>
-);
+const BottleWater = createIcon("bottle-water", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABsgAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDJgsGAAE2AiQDCAQgBYMtBzMbqQXIHge5SetKUOLSGtsxWTxG8LRfOm93j/6FUafMMq5sy551ZFyBXYWqQ3RX4cq2wrH/NObe3/wOlxvu1sQSVBGLHlVCJq0RyWTX1/v0907/sE0L5BF8/ihj49KpbcA5zxNIs6dd2kVjgmbTI+k8Acs229wxF0jLX0RI1BDp8bPHszWUqEQTOelu6oDL407jJ0szJDkDIPoAAHuPFmbj9lt8i/j8/4DoyAQBsQ/AHEJGxhQCO0gFpsjMgaIIvsX///wfOAcBRB1KJN9W0MBDvAAUkNSKLCatt1uHy3VlJbzGKmeHiOaJG0MmdDO14n5sgTdOnDkdLZxZr3qULTYjzGhxhGhyZJFVxXPDpnQwvuw0j5vDkCxVmMyzig5dmdWa65J70GGFmNNSu02MM2rIaMXCMKgqWlxuKhfNGM0PFQ9bzuBwanD6O9850zH+qmeZ5Z4dyD/wJGGcGxky3fh4XVlQGRpuT7jXv0GMuGXCBwX7oxBRePM9Sa2G2g++e1s+GplUY6dk1QEyuX91tUPy1+ehJaz59DFD9JfLAiy6UtPWXybT+Kj1vz/Q9i/2ZSwWh0Hv2x4/PVvAT40rjvWhrs5hY2k16GBAIOj7cFP6O/6abQngx9N/4Wc09/91rJOcoimBIK/4X6EqLkEQEQACAKQYgUPEQSAk99XorXa5JUCoECCpqwTIJhkgUFQWEKiZEYxAXeUgqShqhCHVJ0i6nAXZJqOgGHIOanZ4ydUNhTR3jcwz/hxzUyyePE/4+/iJCPFYdZjpqMl0pHB7biO9y52WokWvHkOaNWk3ZLgB2cVh3VJmbLIPEvz58CNEEOHGV7cEuQGD2u/t+CyRxPuRm5H5YHcKJVR2nVVJIpJOQ+/QUFez99cNAAA=");
 
 export default BottleWater;

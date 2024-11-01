@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-cctv` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-cctv?s=light camera-cctv}
  * @preview ![camera-cctv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/camera-cctv.svg)
  */
-const CameraCctv: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 32L32 200 320 320 512 192 128 32zM100.2 16.1c8-14 25.2-19.9 40.1-13.7l384 160c10.9 4.5 18.4 14.7 19.5 26.5s-4.3 23.2-14.1 29.7l-192 128c-8.9 5.9-20.2 7-30.1 2.9l-85.6-35.7L175 437.7c-2.4 6.2-8.3 10.3-15 10.3L32 448l0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 117 0 43.6-114.4-172.9-72c-8.5-3.5-15-10.5-18-19.2s-2-18.2 2.5-26.2l96-168zM396.9 345.6l31.4-20.9 83.3 37.9 27.6-66.3-41-18.2 31.5-21 36.7 16.3c7.9 3.5 11.6 12.8 8.3 20.8l-40 96c-3.3 8-13.5 12-21.4 8.4L396.9 345.6z" />
-    </Icon>
-);
+const CameraCctv = createIcon("camera-cctv", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbwAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBcwsGAAE2AiQDCAQgBYMtBzIb9QTIHgk2Lny9iCsrHp63e+zcNxPAEwjoyArq0mnlbkuj29S/at8LuH/+r6kXz48K5BsdWpRdLxorivcmMLGySBvQbDacTRS3O9sOZGFOaSkLOc45LmfI45vopAzpZvoK5/OHxj8aOEWSZwCiOgCGz5052Xs/xo8RX5UQX5mIgBgBCoEMGRoLMEgm0FiuQC4X/BilkvsPLAggyuLnJpCjDOZgEyAHSZbnFbrVqVSmSj4nHl5x4ay5s5bH3FjR5nbr5fGgwc3as+JK3TmBVMWKIVD7Wt3A5Ov1rtYRlZaUOTEUXas3d3XHdh1nh8wB0TF6x9WdPS2eVn/6X/Ov1nzl6P2lj2qw2V7vHhX2d387W4LKtUh/02l//j67hS4H9a90TDdVf/yx6jDDypZuduu43fOxPp48adOuvd34X/lFM1trOMJx/xvqk8Ftlzr09c5eQCA4F9u3LK026G35Sgn8/PJbfLC0JI1MT1FeAkHWqdTJojRMgS4RMJRijxbwTQLJFBl418quCRAqIkBSVkUBMo1UFyBXUUcBymiqtwBlVTRTJvIKQm2LO0gq2w4yfRwGudpegDIG+TRUVu3ILIyzD+6DlzxGoqPXFd27dCsGFNOGxhsNQ4sDi2W13R4/0B52WmOrLXZZbZX1dgl8h8nR3TYbo2Gj/VChuy66KQxQHLcfN8+x2g47rbfVlrTKQMV9Tzt79PHtwUiYtoeKJBGp0iMJdV65ctceAA==");
 
 export default CameraCctv;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-u` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-u?s=sharp-thin square-u}
  * @preview ![square-u](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-u.svg)
  */
-const SquareU: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 48l0 416 416 0 0-416L16 48zM0 32l16 0 416 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zM128 152l0 136c0 53 43 96 96 96s96-43 96-96l0-136 0-8 16 0 0 8 0 136c0 59.2-45.9 107.6-104 111.7l0 .3-8 0c-61.9 0-112-50.1-112-112l0-136 0-8 16 0 0 8z" />
-    </Icon>
-);
+const SquareU = createIcon("square-u", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABYgAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBTAsGAAE2AiQDCAQgBYMtBy8bywTIHgl2jI5HruSxRPHwvF1f576q/mgMWWM7EjabbOHQiKggHYQLR+pEAACsxveJy53/+dMDTnvxRxub1vQNtlZjnScQaLgpTygroEwTsPammZVE9iWZrMl0fOs4e0AeT9irRHosfYs77U3jR53dIMkyANEKALM2rFnmw7txN+Kb+tvEN5YgIGaBQiBDhm4CTJUJdJMrkMsFd6NeT/+BBQFEA/6oBHKUsAQrATlIsjxvbj2oUqrl6yul8paUpVpkUe1QKddEClGuRmQR64SnBj0/7t0hL/aMiKiEEE8OfG5sRDneGfxCD+V47xdavfBzr2/3f6vlnWdBjIj1Vq0+bOVZreTXun35wkMceuGFLzgPadLqzkOqP3z/CU1++39L5XkQCP7R58GOllP/Vkng/gd/hL+i+t34ML2AJgkE2dD6UFvjQ4gPBQAgxXm940MEkjky+KpVDwsQygiQNCgLkOmqlQC5siEClPQwToAGZWtkIm8W2tk24aTqFJwZ7yKca+dNuGSqL+IG7SILJyYYmM9c4nwJzDtUjBo+sphcbGuDjRCq7k4pjpWB5/PMIDhpvxOOO2ufvQ45K6DTlmXnHDPfAuf5osIow41UmKxwd6/ieoxPO+OQzvv3maK4Hwx03l4+CPSESUfLJYlITS9SHXYOAAAA");
 
 export default SquareU;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-dots` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-dots?s=light message-dots}
  * @preview ![message-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/message-dots.svg)
  */
-const MessageDots: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 416c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32l0 288c0 17.7-14.3 32-32 32l-138.7 0c-6.9 0-13.7 2.2-19.2 6.4L192 464l0-48zM64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l64 0 32 0 0 32 0 48c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zm64 232a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm128 0a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm152-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const MessageDots = createIcon("message-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgAAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCGgsGAAE2AiQDCAQgBYMtBzMbHQURlZp3yD4SYzdWjwoHQ09s4ks8PK/33699kqfcMTIA/QWUcuemoKqpbwBMnXqe81AA30IWlD01IGP6mt3nFahobSzNFbxWsJpWwGrt7KUzKH1ZiA8+ybD9sLpBHp/EQDWkJ9P3uD99aPytvVtI8gxANAPAtDUrFvnyh/gh4vvqe8T3FiAgpoNSIEOGTgJMlAl0kiuRywU/RLWK/8BSAFGLZ0sgRx2O4CwgB0lNnvfu3cAvqtQ0zldXaoo119pEPFYUcVebxyKLa20frzSOu1s/KsXVVo+sTm61MmL9K30j3miX4sl+b/aqVIS4qp/cdk1U4vUBb3fM4qn+b/VutOr1jk/1fqXdk2CLvAZ4f1L3t5q99W+373d//0XXJndwR5OtIg6oHF9t89ytuHXbPEOvPP9Cc5oXpaJ58xemlqWhihs3Tp7f6G5zFumrU35f1rr1sqxeLfbjbT3u0EA890fvwau2NJ14s76SwE8f/3+TfkXVz5P0FuolEGQDqwM3JpAIAECK07onCCR71Ejv2shjAoQCAZJahQCZjpoJkCsMEKBGF6MEqFVYIRN5g9DKpgaSRo6BzGiXQK6Vd0CNib5ya7WKzOpom6H/fAlotoRmHSqHDR5aji+3pcoYEhl3J5THRt/TYdSPjtp95PDJXTv3nRTI8UXBqUOzNXjWF8thg4eW48vr5lFYLdzjJ/at1ft9JpTvnb6n9eX9yE4Yc3gmSURqZIvuoJ1HTp4AAAAA");
 
 export default MessageDots;

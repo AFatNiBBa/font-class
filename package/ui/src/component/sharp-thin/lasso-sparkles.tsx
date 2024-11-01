@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lasso-sparkles` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lasso-sparkles?s=sharp-thin lasso-sparkles}
  * @preview ![lasso-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/lasso-sparkles.svg)
  */
-const LassoSparkles: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 176C0 78.8 128.9 0 288 0l0 16C137.8 16 16 87.6 16 176c0 53.9 45.3 101.6 114.7 130.6c0 0 0 0 0 0c5.9 2.5 12 4.8 18.3 7c0 0 0 0 0 0c40.7 14.2 88.2 22.4 139 22.4c150.2 0 272-71.6 272-160c0-68.5-73.2-126.9-176-149.7L384 10C495.9 34.2 576 99.4 576 176c0 97.2-128.9 176-288 176c-30.4 0-59.6-2.9-87.1-8.2C220.4 361.9 232 387.6 232 415c0 53.6-43.4 97-97 97l-95 0-8 0 0-16 8 0 95 0c44.7 0 81-36.3 81-81c0-30.7-17.3-58.7-44.8-72.4l-30.7-15.3C56.4 296.5 0 240.3 0 176zM344 8l0 8 0 56 56 0 8 0 0 16-8 0-56 0 0 56 0 8-16 0 0-8 0-56-56 0-8 0 0-16 8 0 56 0 0-56 0-8 16 0zM504 368l0 56 56 0 8 0 0 16-8 0-56 0 0 56 0 8-16 0 0-8 0-56-56 0-8 0 0-16 8 0 56 0 0-56 0-8 16 0 0 8z" />
-    </Icon>
-);
+const LassoSparkles = createIcon("lasso-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABkgAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCewsGAAE2AiQDCAQgBYMtBzUbgAXIhofndeqf+ySnqlxwiZUUiT7zxjAx8YoTjJ469TznoQA+hyBoY9mkdT7B5ySYGMDEkw7dQLViraBatr5teHQE4QsJKROJxpTG6bVBHj84RI10XfoQV9Y3jT/0cR5JlgGIBgAWbt+81qu/xq8RHzSfIj6wGgGxEFQCGTL0F2COTKC/XIVcLvg1mk38D6wIIFrw70ogRw034SFADpIszze3ttZrHfNt9VqZ3TE/4pXtEd9sF1+ueHfOi/1vGvvQyrPjqh5nx9nx3tZvVn8w/5VBt8/7eFvEV2s/ar11zotbvtxyybT7Btw44t4pZRlRrz8z+oFBZ/e9ftiweH/ey20HC6JeF2UpRBkRESFcutZ3CqvHh7b7G/f/1frhYR9q2M5hC3qxoOd6Dau9+eXkyR2Kz35dxjnnwpdrjKXs/3ZruzRs6bp6Th/bDw/jdJFxF/5QFg88f9b+oqHY3zjssOj1xOMrf/Hf9m2231MUxQwz5saMGQotS/O3HA5lZ3hPUQCBYOrs9y/f33nOv0U9gd+f/+cPcHbz1bQg3Y9CAkE2pjnGnrQAEB2AleI0bc4HBZKrZPhVO7hagFAiQNKiFCDTT0OAXGm0ADUDTRWgRWmzTOTthe72dpB0cCLITHM6yHX3BKiZ4x2zRffIspTMMfKRGLdMQ0unqonjJlSzqqVLqMTDS3t2FRZGnEapkbDqMMc7zikOdYgjnaKQk6x1TnWsZR681BdVJhpngsos1XbwyG1T1klOdqRN7XcwW+W8PsJpfvFIkBPGnGQ+SUTqdMz3H+LYk2+CcsyhJwM=");
 
 export default LassoSparkles;

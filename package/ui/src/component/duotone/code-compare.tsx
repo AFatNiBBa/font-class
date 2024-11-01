@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-compare` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-compare?s=duotone code-compare}
  * @preview ![code-compare](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/code-compare.svg)
  */
-const CodeCompare: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M48 192l0 166.7c9.8-4.3 20.6-6.7 32-6.7c1.4 0 2.8 0 4.2 .1s2.8 .2 4.2 .3c2.8 .3 5.5 .7 8.2 1.3c5.4 1.1 10.5 2.8 15.4 4.9L112 192c0-35.3 28.7-64 64-64l16 0 0 40c0 9.5 5.6 18.1 14.2 21.9s18.8 2.3 25.8-4.1l80-72c5.1-4.6 7.9-11 7.9-17.8s-2.9-13.3-7.9-17.8l-80-72C227.6 2.1 221.8 0 216 0c-3.3 0-6.6 .7-9.8 2.1C197.6 5.9 192 14.5 192 24l0 40-16 0C105.3 64 48 121.3 48 192zM192 416c0 6.8 2.9 13.3 7.9 17.8l80 72c7 6.3 17.2 7.9 25.8 4.1s14.2-12.4 14.2-21.9l0-40 16 0c70.7 0 128-57.3 128-128l0-166.7c-9.8 4.3-20.6 6.7-32 6.7c-1.4 0-2.8 0-4.2-.1s-2.8-.2-4.2-.3c-2.8-.3-5.5-.7-8.2-1.3c-5.4-1.1-10.5-2.8-15.4-4.9L400 320c0 35.3-28.7 64-64 64l-16 0 0-40c0-9.5-5.6-18.1-14.2-21.9s-18.8-2.3-25.8 4.1l-80 72c-5.1 4.6-7.9 11-7.9 17.8z" />
-        <path d="M408 80a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm104 0A80 80 0 1 0 352 80a80 80 0 1 0 160 0zM104 432a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM0 432a80 80 0 1 0 160 0A80 80 0 1 0 0 432z" />
-    </Icon>
-);
+const CodeCompare = createIcon("code-compare", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABqgAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SCdAsIAAE2AiQDCgQgBYMtB1QbmgXIjtRhLTIW4+H/7fpvn1vVD9XfqG8zgyJ4AISAI8XOZk00a+LOJ/P3icvpz0F/PkleH200Fy5e43wvTSDAPuuisaxEEso0A2tw3qRDCm0I6VfI46fsqgrp0fQjbsf/Axj/6OgqSWMGIFoAYMa6VUt8+nv8nuLH2pvEjxYjIGaCUiBDhi4CTJYJdJErkcsFv6dajd+jVisJIOqk78tAHRrwKF4E5CDJpTxvbErLR4+oVprma+XZxb7H+73Y8ZHeL3WqPjXx/fHvdnlywnuTPui+e2Fs+oupFdWuEx6uXs+IB9vaRDw+6PV+1RCTp9qvi4fjUru18VBxrc0DbUQRX07+sFxzse2a2Nn9cPuIanwz7ZNeEQ/smph4qJ2NeKT/K72LiMDntVkdD+j5WovX/u3x494fPXys7YoVbaP6/U32nTmzrwlf//C2tYxhtZdTsZYpxenThx/f9bKiZctnWuiv2de/vGues9Xq2fronsbKjK+b9dfC8lmjK7d/W0m8+wvLjZpdedkbQNIaTv/63utAIFjS/+Df25pP/r+hmsCf7/9f80NSeytJr6FBAkE2uDbY5gQSAQBIcVbPBMMFMnvk0k9t4iEBQoEASZ1CgExnLQTIFQYJUNHNGAHqFFbJRN4otLFlUJMmTqiZsc6puTbeUCsm+yZbp01kdtSyYdYfYp65U3jOtnLE0OHlxHK3oXNYO0MvTiovR/qf5QMD4EF7HXPUaXvsdsDpiXDSksIZR8w94uf4otIIQw1Xmqh83H7pWYuzJ51yYNv1fJNJyu+T/Z09Hj8AxpNUd6Q9mYxIkbVxuIEh4S4wxLoPt1txuWwAAAA=");
 
 export default CodeCompare;

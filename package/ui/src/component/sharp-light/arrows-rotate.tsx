@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-rotate` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-rotate?s=sharp-light arrows-rotate}
  * @preview ![arrows-rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrows-rotate.svg)
  */
-const ArrowsRotate: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M66.7 224C81.9 133.2 160.9 64 256 64c71.1 0 133.1 38.6 166.3 96L368 160l-16 0 0 32 16 0 69.1 0 26.9 0 6.7 0 9.3 0 0-16 0-96 0-16-32 0 0 16 0 60.6C408.8 75.5 337.5 32 256 32C143.2 32 49.8 115.4 34.3 224l32.4 0zM256 448c-71.1 0-133.1-38.6-166.3-96l54.5 0 16 0 0-32-16 0-69.3 0-26.7 0-6.9 0-9.1 0 0 16 0 96 0 16 32 0 0-16 0-60.2C103.4 436.6 174.7 480 256 480c112.8 0 206.2-83.4 221.7-192l-32.4 0C430.1 378.8 351.1 448 256 448z" />
-    </Icon>
-);
+const ArrowsRotate = createIcon("arrows-rotate", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABaQAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBZwsGAAE2AiQDCAQgBYMtBzQb6wTIhoevtc8/t2dC83YrSB1mdHFx6Ei41LoAfiCSAfuB9Zv/az6/50cH+I0ujaOwNIoK/HpVOoEBR+newDNsYDOdgM266Zde0rshkrzoJQ3jDVsbKOONGK4Z6U76EjfsQ+NXXV0mKQsA0QYAczatW+Hdl/Ey4sv6I+JLyxAQc0EWKFCghwDTFQI9lDJKpeBl1OvpPzATQDSH4ydQosQG7AWUIEllOXBQrVljubHWrNr0y6qIbzZ9NOXZiKoStVpgzSqEuL/084U/rv52fW3Dx1Mjno8M6ANPiHwb95Z8tuCXdT9squLH5V+u79vUpun3Pl8e/NLcFw0LhjF9sdV3n12Z2CZrc7qN3drI2pjhux49vt0QH37UuLbPmy9sAEqZ7tutaVgwbPpiQCA4NWnM1V2tp//fspbA6+d//t1/Rrn+Ml6mJrSUQFAMrw+3PZHleCkAACku6pvIAskKCd61wU0BQoUASXOVAIXu2ghQqgwToJleJgjQXGWdQpSthA52TJA0OAMKE10CpQ4egGam+8RvrkMU3GKZwX7tkhZ6aMGoPGbk6Dw1b2ODowtduqflY3nwRa0aIisddMpJ5x2w3xHnHXLWiuiCExZG8AJflI0x0mjZVPk6e1280QFnnXPEKSfrMNPk9/pgF+PGQ0RLgDrWmCQRqXHPWeqLI5pzfs/5AwAAAA==");
 
 export default ArrowsRotate;

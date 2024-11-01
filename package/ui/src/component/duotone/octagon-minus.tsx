@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-minus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-minus?s=duotone octagon-minus}
  * @preview ![octagon-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/octagon-minus.svg)
  */
-const OctagonMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M.1 191.5l0 129c0 19.1 7.6 37.4 21.1 50.9L140.6 490.8c13.5 13.5 31.8 21.1 50.9 21.1l129 0c19.1 0 37.4-7.6 50.9-21.1L490.8 371.4c13.5-13.5 21.1-31.8 21.1-50.9l0-129c0-19.1-7.6-37.4-21.1-50.9L371.4 21.2C357.9 7.7 339.6 .1 320.5 .1l-129 0c-19.1 0-37.4 7.6-50.9 21.1L21.2 140.6C7.7 154.1 .1 172.4 .1 191.5zM160 256c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24z" />
-        <path d="M160 256c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const OctagonMinus = createIcon("octagon-minus", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcQAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBRQsIAAE2AiQDCgQgBYMtB1Yb7QTIngVO2ZWBt1GtIOqaIcjCoH75jufh70ed+96fqPAqisQoogEcoLHpDV7iFWhKwLX6/XTv/VhygBdgdFGkAIus6jI+Rte2quxqbISp6lQ/eOhvvr9q4wdJOJE2WcRdPJZI5+1kpqMZuqZ+lD094Bk9WjRVghR45NZaAgMdzn88oQnNtMl5bxuuRmCeiAgRs5LGy/GaoMmvbGAozwK4x/8BzC9M2ICiowKQfgDAYdPv4XuXnaBTviCfcQoEcgSYR6iomEZghyKYpjIPGo3wRUgJX0hKhgBpBX9ABa1owQlwDkADiiiNjhN1l4l13WWC5tUXZjR27iCTSYnnQEWrJ8wcamg3i/TBmjZvkMFf0mKoVickT7rt12GfD1822yKz1Qfu6FzUwwNa752jVah0tx4L6EDf3Z4PtYObAUH4uX4706b/7V0S+Pb67689kfz/LiifgHYFhLoow8YSKAQAUNJyFj4CQbVCoHvt9gABohMBRatOAdUUHQKNTgsItJiVQaBVpxsUaXxi2GSAotstqLY9gsawZ9Bix0/aajg1loRIEL5yqV2Odk5xIhrnIk9LXQwPLm+XeNvw36dRAC5inwvOuWWPNUfcMuaaXnHHGV2L7vBAWEJUHCtid7NURyy95oYjXfYfU8L3E797e3EAbIFY111dVVKEsher28XBxXnk7Oj87ibyLufoFfkNAgAAAA==");
 
 export default OctagonMinus;

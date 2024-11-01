@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-xmark?s=solid shield-xmark}
  * @preview ![shield-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shield-xmark.svg)
  */
-const ShieldXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M269.4 2.9C265.2 1 260.7 0 256 0s-9.2 1-13.4 2.9L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.7 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2L269.4 2.9zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const ShieldXmark = createIcon("shield-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABaQAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBTwsGAAE2AiQDCAQgBYMtBzMb0gTIHoexm+VKbIbu9SIe/t/uv/a5VQ24GpCyjmANs3FGpn9NKsQvmUsDM6QWf+Ka519FeV7kj5K10nn747LOJ/CAs+K0Cc0G9qI485aTWkzZJ0kmmqTHc49fd8jj3eyYcqRr6QucqT8av2rkGEmlDEDUBMDI+bOn+qgsyiI+L0V8bjICYiQoBDJkaCrAEJlAU7kCuVxQFqVS+g8sCCDKEzxJ8vDmeCwA5CBJed68ZZVy1fJ58Vrl9ZcrH687Jx7Wveju3B+zePuf559uVf3L7ebNedJ2aAwPVl1rOCSGhuphu2ExJFTXmwyPYfFGq+c1n//OOqq+N6tChVnvTVf+9mt1U60xyHUb0XXk3E43bpDe9WkurVT3tdvl97mlL6pV+8MfGvrNN+gfRurPgUCwsDSk/fIaQ/6vWCWBX9758/JejdL78Xd6jooSCLIupS6WJAaqRqEA6aTYpxVKFkiGS4BvreqyAKEyAiTlVRYg00RNAXKVdRagnOb6ClBeZbNlIq8k1LV0SklVO6VMP0elXF1vS+UM8XGnvLqR+ZPtDfZ3rmCcBsYWFT279SgGFduB4biIyYeDi+Nqh3200BFXrbPdNnustcZGexS7y9T+XluNs5ixSlToqZseCoMU1+PX8/OstctuG223rRwzWPG+2cE+e31HNBLR7OVmkohUdfeGjWu3rOl6wPcAAAAA");
 
 export default ShieldXmark;

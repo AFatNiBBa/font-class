@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-b` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-b?s=duotone circle-b}
  * @preview ![circle-b](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-b.svg)
  */
-const CircleB: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM160 152c0-13.3 10.7-24 24-24l92 0c42 0 76 34 76 76c0 16.2-5.1 31.3-13.8 43.7C356.3 261.6 368 283.4 368 308c0 42-34 76-76 76l-108 0c-13.3 0-24-10.7-24-24l0-104 0-104zm48 24l0 56 68 0c15.5 0 28-12.5 28-28s-12.5-28-28-28l-68 0zm0 104l0 56 84 0c15.5 0 28-12.5 28-28s-12.5-28-28-28l-16 0-68 0z" />
-        <path d="M184 128c-13.3 0-24 10.7-24 24l0 104 0 104c0 13.3 10.7 24 24 24l108 0c42 0 76-34 76-76c0-24.6-11.7-46.4-29.8-60.3c8.7-12.4 13.8-27.4 13.8-43.7c0-42-34-76-76-76l-92 0zm92 104l-68 0 0-56 68 0c15.5 0 28 12.5 28 28s-12.5 28-28 28zm-68 48l68 0 16 0c15.5 0 28 12.5 28 28s-12.5 28-28 28l-84 0 0-56z" />
-    </Icon>
-);
+const CircleB = createIcon("circle-b", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABngAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCYwsIAAE2AiQDCgQgBYMtB0wbgQXIHoVxw11C0UQszuL8Vjx87fd67u4GCHyiUAFLAqOjYlGFVVIgHVtXoasi1J/a6k7l85/k9P3Ed0lKXWFOkiZo6ypM0MgVwLLV8f/3p55nYWj7MwrSXvpBMkBC6RznE7AiE9d5rWIFqVmvBlZrc9ykIuhvInpWicjTsPTDFvSAEi/5BnWkj5I78JT+BzD+sjABSVMGQHQCgLXTnDQc1aiW4q7ag/gtFQTEOoBJhIyMUQQWSQVGyUyCoghqqQJqUQkggKhHeoMM6tGEZ/AFQAFJVorMvFPPalBPj8u1snwuZyWr5iDx0ZnThueO1YrHIi14bLuwPMYZEadJk2lcGE+xXM54k0+/AXpfIzrevud3GY+JpwUfCSfpD+w29S7uKLdg0ZXTmvuWxYj5ls2c26YTo3VLIgpHWmLSbJZGTWcYQ36Sw5v+9qf9Xf0dDmOzTBrRyGS/FT+5yXry83cLveTcn9KShiSphSGJ5nxAE6JEXw5y/XW5CHMkuQmGfh4nJh7vWqixhSYV3xtMskr1RIv3c3naimd2/oeFheU4qbGncl+hDxAIrivzrSv0ov6puATw59f3P8rvqDqSSG+gUQJBnq68UJoAiQAApOiHQ4IfIJDtk5Gq1QtCtWpGeFSvGVU2Qr9B0WwK6owLVhYPH5KKokboVQZIWp1BtmAQil67UGfRZV6vN6SmqRmW9mWYncJY8j7h7+MnIsRto+rWpsTlSLEcu/W7IXdcRL0O7XrVqdWkl5huaVWfNikzOtkHCf58+BEiiO3ORzuf8m49mq7N/VUiCX3kpn8+2R2ZhEjOOJBlIpFU/xce5F3tbeOh4WC+zQA=");
 
 export default CircleB;

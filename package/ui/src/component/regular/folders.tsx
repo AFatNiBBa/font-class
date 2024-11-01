@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folders` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folders?s=regular folders}
  * @preview ![folders](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/folders.svg)
  */
-const Folders: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 336l-352 0c-8.8 0-16-7.2-16-16l0-224c0-8.8 7.2-16 16-16l117.5 0c4.2 0 8.3 1.7 11.3 4.7l26.5 26.5c21 21 49.5 32.8 79.2 32.8L512 144c8.8 0 16 7.2 16 16l0 160c0 8.8-7.2 16-16 16zM160 384l352 0c35.3 0 64-28.7 64-64l0-160c0-35.3-28.7-64-64-64L394.5 96c-17 0-33.3-6.7-45.3-18.7L322.7 50.7c-12-12-28.3-18.7-45.3-18.7L160 32c-35.3 0-64 28.7-64 64l0 224c0 35.3 28.7 64 64 64zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120L0 344c0 75.1 60.9 136 136 136l320 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-320 0c-48.6 0-88-39.4-88-88l0-224z" />
-    </Icon>
-);
+const Folders = createIcon("folders", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcwAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBbwsGAAE2AiQDCAQgBYMtBy4b7QTIhof/n+vffW7yADifAUvg6gBAAU8lsWPhMKsWVWtn6tTznIcC+ByCoKxhSwOS7XufR6DAY/kGKlCtYAGlMle3iR12VLFXQowkouPL4+sKefwcT6ohvZR+whP9S+NPA+4lqckARDsA1h05sMs3ZZQRP1Y/JH60AwGxDhQCGTIMC7BSJjAsVyCXC8qoVvk/sCCAqIVfmkCOGpzEeUAOkizPB8f3N9W05IebahovNLc0P98b8UJfUzzSMy0+XdQUz/WIZ7vPtjS3vD3jvaGIl6dXJjfGw9OnR6WxMd6Y+k6/eGnau5OOvzz5jX7x6qovN7XE20MvT26Oj6ZXRmN8pb3y97ifLv+kesvZs2fL1lJrebfajS9pK+9Str6itTwzZ+5+paOj8RWNadsrdxka/5LxQ3exUHnmlrqefft6Sg2XDj+5luDqfWutffDBvAQCwactL2w907byv/qmBP747N//1ZerZVqbKqiXQJDNrM50Mq0FRgegp7jbeGdlgeSgDPCpzZ4XIDQiQFKrUYDMkHYBco1mCFBj1CIBajU6IBN5g9Dt1ABJs9tAZrF7QK7b+6DGSt/qtbojiy86OujvXcJmDW3aVMybPbdYXixjwoQMWeYrim1p6t25No0uuuwWN7vTJRddc6dCbrfLustNNnvwJisqzDPbXIXliuNse/qwS253h2tucXNbskJxX5vqbr97GqkJMOfzJolIdZeftngHAAAA");
 
 export default Folders;

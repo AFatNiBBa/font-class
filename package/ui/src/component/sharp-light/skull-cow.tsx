@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `skull-cow` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skull-cow?s=sharp-light skull-cow}
  * @preview ![skull-cow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/skull-cow.svg)
  */
-const SkullCow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M61 24.6l-.5 1.3s0 0 0 0C54.8 42.2 47.8 61.7 49.4 77.7C52.3 106.3 76.3 128 105 128l55 0 0-32 32 0 256 0 32 0 0 32 55 0c28.7 0 52.7-21.7 55.6-50.3c1.6-16-5.3-35.5-11.1-51.8l-.5-1.3c-.7-2.1-1.4-4.1-2.1-6c-.3-.9-.6-1.7-.9-2.5L600 0c1.7 2.1 3.3 4.2 4.9 6.4c.8 1.1 1.6 2.1 2.4 3.2C625.2 34.4 640 65 640 95.5C640 182.1 582.8 240 512 240l-32 0 0 112 0 32-32 0-33.6 0L376 512l-112 0L225.6 384 192 384l-32 0 0-32 0-112-32 0C57.2 240 0 182.1 0 95.5C0 65 14.8 34.4 32.7 9.6c.8-1.1 1.6-2.2 2.4-3.2C36.7 4.2 38.3 2.1 40 0L64 16c-.3 .8-.6 1.7-.9 2.5c-.7 2-1.4 4-2.1 6zM448 240l0-31.7 0-80.3-256 0 0 80.3 0 31.7 0 112 33.6 0 23.8 0 6.8 22.8L287.8 480l64.4 0 31.6-105.2 6.8-22.8 23.8 0 33.6 0 0-112zm32-31.7l32 0c43.6 0 83.5-30.4 93.8-84.7c-16 22-41.9 36.1-70.8 36.1l-55 0 0 48.6zM105 159.7s0 0 0 0c-28.9 0-54.8-14.1-70.8-36.1c10.2 54.3 50.1 84.7 93.8 84.7l32 0 0-48.6-55 0zM232 256a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm152-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const SkullCow = createIcon("skull-cow", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABogAAAKyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDMgsGAAE2AiQDCAQgBYMtBzAbsgXIjsK25TNBlHARPmbEvON5+v3aue9/TKJJJmkyyTRa3Q2JofFTQ5In0ek7VCrkhf8Hu7dzv5LMxHiZtVVFrsRyyQpC07Hm9PdT/9YWDfJ45RKNlV6Bo8zzCey8WjPBqsAmilvcdhNELcNCZQx1fquvIErjew3OvC/NL2mUoghUAMg4AOydLpnH/Y46yuv/N8kzcyAg+4AFBBVUMIOATfwEMwQYqAUInXT/i/9AgwDSS/CiBaihHy7hCaAGilAd2JwVFT8Q4QajAsvdoLMGKVKRqrmgSWp0XUluFBpSTUpzRlF6spqSm9QjjUmFSY00aa18b96eOihEg85SOVpO9JJknafj7y5vZ7RnNKeETN1UqAZaiZybhKJIYRly07IspWuFMlZx1WfIcWv6nM+5MNQRm9uSinSrf2evs49o5yxr73EyraXrqfQVlts8Ne9c7Llvua+3vzb2lCQgOZvW7e+35BEYZsYIkr/97ZZ+FlWkArx4QT7KGlOZuDF9oXGQYV63Ag5yVJ75wyw8Hs7EicayD0r8UgFCAnzxV/NZCE6s8fNStpOzk4n0mNuleAf/m5lX1lBZ+2AEA48PALg9r2wo84yBjMjfkLRoURLDNqcI690BAsHfzfuNG2LG/oe7PsDP9Y9f+eK690vLdw76+YCgWu72ZW0pBIIxAHvJcbyZMgaKK3yNWx3WRIBwIEAR4hBQySAWATVHHwT0yGYYAno5lvBTHYEksq4GPpEOAb/h5IGARK6DoLE8s4Ukyg/BQvgT/j8mm95GTCtlg/oPtNE2GVCKgJJvC8fYannP4zKhFx7Idgfsd9Q2W+1ytEU5bJ7zmH2mz+Gm+SFjEP0ZiDEa2x2+L1tObYcdsWtcuB+imDHY+eaeHJ9P3wuXwwew8u75smlKxJE9x/bu7bflwAk=");
 
 export default SkullCow;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `medal` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/medal?s=sharp-regular medal}
  * @preview ![medal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/medal.svg)
  */
-const Medal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M227.2 100.7L160 0 57.7 0 0 0 32 48l87.4 131.1c12.1-10.5 25.3-19.6 39.6-27.2L89.7 48l44.6 0 59.6 89.4c16.4-5.1 33.7-8.3 51.6-9.2l-18.4-27.5zM480 48L512 0 454.3 0 352 0 284.8 100.7l-18.4 27.5c17.9 .9 35.2 4 51.6 9.2L377.7 48l44.6 0L353 152c14.3 7.5 27.5 16.7 39.6 27.2L480 48zM256 208a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 304a176 176 0 1 0 0-352 176 176 0 1 0 0 352zm0-272l-28.2 57.2-63.1 9.2 45.7 44.5-10.8 62.8L256 384l56.4 29.7-10.8-62.8 45.7-44.5-63.1-9.2L256 240z" />
-    </Icon>
-);
+const Medal = createIcon("medal", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABhQAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCPQsGAAE2AiQDCAQgBYMtBywbOQXIjsO44SuLJkzOvEXwsd/v95wrmDbvZskrVaw09c7QLFQikUSnlDe//hLwv/cvzw3Et7sRWFEuKhidi14VVCVVZv7E5c7//GmBTHvxR9tDF84m0JznCQSY1XuL00kvlGkClrWzSzHo9QbJcBFJ2g0/bE5QximNQ5T8EHoAvKRKxX9o6gZSVQAgugEA67tRkbhqUIPintsH4hfhICDWAYwiFNAGCWWJGnwCEaOgVAoa8ceV/0AGBBA19PEJSjThFjwDoASpKkVUVbW1VaVFZUVipUWlkmJjYqWkLCmGFo1jSVoSszhrC+sBNZpMaN4wTo3G3ughU6Jl02W0myxlVGrQbAWlDvPVWFpoyH1MP7XepA6rDbeTO7scWayh3XLd9Vha2MbeJoA8iVE4hRKfvCmI7PgrCitfvIfcB7wc+GXjllw3DrFPsN4IyIMF9z30Tpv9O3Ac55YrKcxM9/aOhWiHTe0cfZwUXAE/Q7J8vqzu1ZWAOnyJjU0dcHbRYGXVUF9bhw7YCkf6iVc8mECLFhN48OoIgEDw9WeYmSbv8SshLQT49/3zg/or+rsSkp+AZgmCYpyzQHICkgAAZNSCn0AgnRKFqrZ7BYHQigCp1ipAYYACAqVWYwhUhjkiUGu1SViUkgj9UhyW2h1ihUUtWKnfLlZZcp3V+kPYDHkj4n+BKUEMBO5itlY2zI1NO5pgWWzcdGfbjkltmDBFKXKVKVUtR7YC1QRViqzVKBG0AgN9EWPLig3GDTvu3x+OlaNSlQJlSmUbd+x+YKJ2Pd8UvhBlnKXlE7SnaElOdkYxAAAA");
 
 export default Medal;

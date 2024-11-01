@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-cowboy-hat` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-cowboy-hat?s=sharp-thin face-cowboy-hat}
  * @preview ![face-cowboy-hat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/face-cowboy-hat.svg)
  */
-const FaceCowboyHat: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M195.6 8.8L256 39.1 316.4 8.8l7.2-3.6 3.6 7.2 49.1 98.1c36.1-11.1 68.2-27 94.5-46.5L488 81.3C460.8 163.5 367.2 224 256 224S51.2 163.5 24 81.3L41.3 64c27 20.1 60.3 36.4 97.8 47.5l45.6-98.9 3.5-7.5 7.4 3.7zM360.5 115L316.4 26.7 259.6 55.2 256 56.9l-3.6-1.8L195.8 26.8l-41.1 89C186.2 123.7 220.4 128 256 128c36.9 0 72.1-4.6 104.5-13zM468.9 84.8C413.7 121.7 338.4 144 256 144s-157.7-22.3-212.9-59.2l-.6 .6C70.9 155 154.2 208 256 208s185.1-53 213.5-122.6l-.6-.6zM424 211c4.6-2.8 9.1-5.6 13.5-8.6C454.4 232.4 464 267.1 464 304c0 114.9-93.1 208-208 208S48 418.9 48 304c0-36.9 9.6-71.6 26.5-101.7c4.4 3 8.9 5.9 13.5 8.6c-15.3 27.6-24 59.3-24 93c0 106 86 192 192 192s192-86 192-192c0-33.8-8.7-65.5-24-93zM176 256a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm144 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM256.2 379.8c-41.3 0-80.6-6.5-115.9-18.3c20.6 52 65.6 86.5 115.9 86.5s95.3-34.6 115.9-86.5c-35.3 11.8-74.6 18.3-115.9 18.3zm0-16c44.2 0 85.8-7.8 122.1-21.5c6.2-2.3 12.2-4.8 18.1-7.5c-1.3 6.7-2.9 13.2-4.9 19.5C371.8 418.2 318.7 464 256.2 464s-115.6-45.8-135.3-109.7c-2-6.3-3.6-12.8-4.9-19.5c5.9 2.7 11.9 5.2 18.1 7.5c36.4 13.7 78 21.5 122.1 21.5z" />
-    </Icon>
-);
+const FaceCowboyHat = createIcon("face-cowboy-hat", false, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAABrAAAAL0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDGAsGAAE2AiQDCAQgBYMtBzYbngXILgfsZvEPhAFwKCmzdBXDpQj4VF/VMFaJh+/XXs99u582SZkcISlmCSQRZacqqrYOUVVnqlii+v7/j7n7JqZ/GyKiCSoh7RAKTUw6q3QfOteNdDSOBKy2RA5bUz02UPWmT3uwbISeL3D98NP7rkwIm6UH2Nz83+x509qA3yiUsW1qIMt7Ud3az08g4KPy23h0uCZYonjqdORYhwojj4iOIl2Q4fEVPC6XkMe5rfikO+kdLrUfjR+62iTJMgBEGwAwfW1tOW6eUEvEe31KvLUQBMR0QB+EDBl6IDAJV6AHnj4glwtaoHrd/gP7QABRBo+QQI4C9/AIADlIqjnP1c5gF9fk+oaSnNew7ilpnV9SXErG6Bir431if3qw6J3RS0d0ID2cvzayVq9pJ1NEuugUC6IuDhvOzV17MivooTg75wUbsbv4vTnIJ6xYdavzpO992dnotatVDY06dn0eyy/moN/scohxo2PYIe40NsxFuUqNF1zSvx49H9j2XhfhWxgJlsjHLUbNJqz6CUFXbVbDO22aX33fbd+Dp7N4EEcEiNqs6ziw/vPLAHV8owNw8dTgQKDZ+7sGNRbqKKKFfYugdb7IcbI9Pb3r4cCUjMn1XlafPr0IBJRsi7DjW/q2KtHY3Lw2IGCvWFvZXrVlmENVa+qrqTrq11BVGv7LrVp9Gn4JpT/J1D2flPcr3sf4nq4qR9/VI11N//q/i1uQrhtnts4AQCD43z/SftPAAXxZ/ePYrku9+JqaUZVAkA2qoy1B4EyFAhikWOBGzQjJXVXgvTa6KUAoECApKwTIdKdCIFcYiEBJL/EIlBVW4opcjNBBewdJo0MgM8Y6yHWwD0omeQ7KOkSWtErKKb+MmQUeyi9i0RFRLIUNM6eah9I2m8oe20ELtScYlRgwacKcfn2GzTluRnk8b1yBIvLViIkWIQqTgk03v5sNLpgxazjW5+dJxd73gyzo4cHwOMg7QipJRFJ+EYvCew8s9kwuhw9tmgMAAA==");
 
 export default FaceCowboyHat;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-plus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-plus?s=sharp-regular cloud-plus}
  * @preview ![cloud-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cloud-plus.svg)
  */
-const CloudPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 336c0-62.7 40.1-116 96-135.8l0-8.2c0-88.4 71.6-160 160-160c47.9 0 90.8 21 120.1 54.3C388.7 82.2 402.1 80 416 80c70.7 0 128 57.3 128 128l0 20c55.2 14.2 96 64.3 96 124l0 80 0 48-48 0-80 0-368 0-96 0L0 480l0-48 0-96zm592 16c0-37.2-25.4-68.6-60-77.5l-36-9.3 0-37.2 0-20c0-44.2-35.8-80-80-80c-8.8 0-17.1 1.4-24.9 3.9L361 141.8 340.1 118C319.5 94.6 289.5 80 256 80c-61.9 0-112 50.1-112 112l0 8.2 0 33.9-32 11.3C74.6 258.7 48 294.3 48 336l0 96 96 0 368 0 80 0 0-80zM296 400l0-24 0-64-64 0-24 0 0-48 24 0 64 0 0-64 0-24 48 0 0 24 0 64 64 0 24 0 0 48-24 0-64 0 0 64 0 24-48 0z" />
-    </Icon>
-);
+const CloudPlus = createIcon("cloud-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfAAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCKwsGAAE2AiQDCAQgBYMtBzEbLAXIhucJXdr7ktZxpDDIDtEmx4gVMnTHnedaxvm/pl48PzrAz0dwaJFWmnoNEr3I5xOY2N75kgZaibOJ4t42FLIhhldCgiSi8XK8Xkuo8ncu06G4vvgIl7YPzdcmOp9CpwSQEQBYZ6fttvDaQAaSD/9/mnxoMwSyDmgFJUpMEbC6UjBFpUWlEgby///0H9gSID30YQtQoYNTcA6gAoWyqmYu7Gs6Q6sdm06dW5ckj66UfL7Wqzt9us69zdtrvNwnTy96eKpIPSzJETdMSh6YvWKS5Jb5D6x4wZiZmZ9HNnxq7n1TRGbmLoO0N0OzdySp66RpErQjRDTKgoff/8CIB77t++jAjxw9/EqufLRX1vvoo/WyST6eNXbr9ZbvjHHD7ZcN3VpXd+uuvbca3vxCdc0qZhkjOx4wYuiTX9rIL90fvv9veK9+f/lg0Ph2b3u/tvWcJRM0sra1J3SxvbYJSi+/PxCEV/74s9lr+Oq/9jYF+OqF77+H3f0/UJxdPIBeBQjlwv8X2r04G4gYwC1yov7gi4LCMUp6rUNcIyBqBBR61AJKk40QUKktENAxzQoCetS2U0o1WIyxRweFIY4BpRWdASpjPAk6Vveu02NMyuxjcod5/CVu6NEN5rVLF3fbVdtpxtiEonh6tXZZnnti7ZoHrQ50lCMd7wD7O8TxDj/WFv4JjrBhhG3gh1pLLdbVWlW7XT4u3tEBjnWcQxzlSJllNe15fa4T48HzQCso6TKxQkGK+htCadHtBQAA");
 
 export default CloudPlus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vial` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vial?s=sharp-light vial}
  * @preview ![vial](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/vial.svg)
  */
-const Vial: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M312 1.4l11.3 11.3 24 24 128 128 24 24L510.6 200 488 222.6l-11.3-11.3L464 198.6l-84.7 84.7L181.8 480.8c-20 20-47.1 31.2-75.3 31.2C47.7 512 0 464.3 0 405.5c0-28.2 11.2-55.3 31.2-75.3l69.5-69.5L313.4 48 300.7 35.3 289.4 24 312 1.4zm24 69.3L150.6 256l210.7 0 80-80L336 70.6zM329.4 288l-210.7 0L53.8 352.8c-14 14-21.8 32.9-21.8 52.7c0 41.1 33.4 74.5 74.5 74.5c19.8 0 38.7-7.8 52.7-21.8L329.4 288z" />
-    </Icon>
-);
+const Vial = createIcon("vial", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYwAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBUQsGAAE2AiQDCAQgBYMtBysbzATIhocHu94/d2Z2A2hiu4I6dqqS8qGM+EG21o6cyk3jpQI+AD4Py03j5wPdG69A43vXF39XZwObKO5tInZkTPwiSoQkouMKj68dZHE/eiiQXElexYX6pfGNZk6TyFIAURcAYxfPn+nJl/FlxKulm8SrpiMgxoFcIEWKlgKMkAq0lMmRyQRfRqnk/wNzAogi2m8CMhQwGUsBGUikWda5Wp0ahVrZori1+uZGjRt1jYXRNRpFl2gcgAXzygbc6lbR+mr3xbFY2rovXLB4QY1JXrSgeo3qGs6VruUdz0xuV1G34ru2r2561eBHlXSUw44dc9g9m1R6xYL5nn3Of9fe/OyzmjW+mDjBO+96kMUmE+/AhLfNnm3LluKHb9Otx4yxsE3tCRN+bL2wvBwIBH92enno6jojfqtaIwFf3/vhJ+1tpSdRSipQVQKCtEephxUJRJQEACCJQ9opg0JitJT71JouChCqI0CiqLoAqRbqCpCprrsABa0NFKCouvlSkVUTGlo5kERNe5HUIEeQTEPXkYIRXlCKGkZqUJQ5UP+5+EkcnNiX9+3VJx+WL12dthEitYfn20KXQ5jqClttstsuB2y0wVYHGLzPTP2gnSZp0EQ/lOurlz5yw+THwXL9Ihvts99Wu+0qXYbL70tdHNKLu8IgEkC/pyDQGUl2aOvaHQAA");
 
 export default Vial;

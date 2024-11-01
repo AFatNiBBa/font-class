@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wreath` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wreath?s=duotone wreath}
  * @preview ![wreath](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/wreath.svg)
  */
-const Wreath: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 182.6c0 15.8 5.7 30.2 15.2 41.4C5.7 235.2 0 249.6 0 265.4c0 27.9 17.8 51.6 42.6 60.3C40.9 331.5 40 337.7 40 344c0 35.3 28.7 64 64 64c6.3 0 12.5-.9 18.2-2.6c1.5 4.2 3.4 8.3 5.8 12.1c0-4.5 0-9.1 0-13.6c0-10.9 8.9-19.8 19.8-19.8c2.8 0 5.5 .6 8 1.7L224 416c22.7-10.1 45.4-20.2 68.2-30.3c2.5-1.1 5.3-1.7 8-1.7c10.9 0 19.8 8.9 19.8 19.8l0 13.6c2.3-3.8 4.3-7.8 5.8-12.1c5.8 1.7 11.9 2.6 18.2 2.6c35.3 0 64-28.7 64-64c0-6.3-.9-12.5-2.6-18.2c24.8-8.8 42.6-32.5 42.6-60.3c0-15.8-5.7-30.2-15.2-41.4c9.5-11.2 15.2-25.6 15.2-41.4c0-27.9-17.8-51.6-42.6-60.3c1.7-5.8 2.6-11.9 2.6-18.2c0-35.3-28.7-64-64-64c-6.3 0-12.5 .9-18.2 2.6C317 17.8 293.3 0 265.4 0C249.6 0 235.2 5.7 224 15.2C212.8 5.7 198.4 0 182.6 0C154.7 0 131 17.8 122.2 42.6C116.5 40.9 110.3 40 104 40c-35.3 0-64 28.7-64 64c0 6.3 .9 12.5 2.6 18.2C17.8 131 0 154.7 0 182.6zM142.4 203c6-5.7 9.4-13.6 9.1-21.9c-.6-16.6 13-30.2 29.6-29.6c8.3 .3 16.3-3 21.9-9.1c11.3-12.1 30.6-12.1 41.9 0c5.7 6 13.6 9.4 21.9 9.1c16.6-.6 30.2 13 29.6 29.6c-.3 8.3 3 16.3 9.1 21.9c12.1 11.3 12.1 30.6 0 41.9c-6 5.7-9.4 13.6-9.1 21.9c.6 16.6-13 30.2-29.6 29.6c-8.3-.3-16.3 3-21.9 9.1c-11.3 12.1-30.6 12.1-41.9 0c-5.7-6-13.6-9.4-21.9-9.1c-16.6 .6-30.2-13-29.6-29.6c.3-8.3-3-16.3-9.1-21.9c-12.1-11.3-12.1-30.6 0-41.9z" />
-        <path d="M128 492.2V403.8c0-10.9 8.9-19.8 19.8-19.8c2.8 0 5.5 .6 8 1.7L224 416l68.2-30.3c2.5-1.1 5.3-1.7 8-1.7c10.9 0 19.8 8.9 19.8 19.8v88.4c0 10.9-8.9 19.8-19.8 19.8c-2.8 0-5.5-.6-8-1.7L224 480l-68.2 30.3c-2.5 1.1-5.3 1.7-8 1.7c-10.9 0-19.8-8.9-19.8-19.8z" />
-    </Icon>
-);
+const Wreath = createIcon("wreath", true, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABtwAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDIgsIAAE2AiQDCgQgBYMtB0gbvAXInoNN2Rc26hHXpNg4jvHP9LBeGSce/tubu29m/k+rRaXrOKqxKHCsolRFNw7ZhFsj9mAxIgfrvP/JoYAoES7FiWyAIuPW7H/ttz8XEruIama6NZK4hwipUgovxRcKiSHJ//n/TjtxzfOvGBXIBwAum9qjz7spBXaemE0TmtBmahucN+IAQ2Fov0KJnbSIivRN8sdH9z+A8d+EIklHBoDoBwC4fpTPQWiRmOh/F9F0CwLiBsA8BBkZ0xBwBiMwDWseKIqglf5BK/65QQBRg8Ozj69R4Sf+AgpIQipYdv2gq6JhPRxHdhPEj1DD4A4v9fjGAshXf93oCRe12daKaVj6aIx0Am182zgEGqaOIUe5xeQ9qf0ysozvYidbzrgz9ShnHVGJdoOxw+gxWNcPuY/V/VsG0bY5dh3em7OGNfThwRfqLrUaGjGPNwwd3sPRkAy38QlndYmxy9qoKbeUcib+UX18epqjJp5vPRbxmgHsQWoGt+pK3cWnvRhI46JoHn08ViXkTpI4ZxHjCTZjMSvs7FmymGZ5NS+ba1jkTklwWdXR5Y7e59NH6b3SvKe3Y2vObOn6CmrlIihu125q9dbzfPZUQevX8jEpTIPkS/n7AIHg5MWn1FY53+0cBfj361f+ujshhHQH7RII8vZ/XCiewLqEwJ8iAS/+oQYC2TsJ3NXtswChk5pJap1MNoXJFJ22mMos0+5ap3ukopAgDAvXTNLtCZOdSjHFsDNTOfMK1IYjP7rKB0/545gu2wYy49wHai3Xzp1MK1VPo1y3O7irbesJXiaDKzGytnIwNDB1aAl3cuGjpeycIOOL3HTUtLjsuLtz93WlVmBnbzqu2T+KA/d8r1RivrYMTkYCOLzouzKREAw9uRt2D5PEJ2BSNzWvOgA=");
 
 export default Wreath;

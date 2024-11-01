@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-pickup` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-pickup?s=sharp-duotone-solid truck-pickup}
  * @preview ![truck-pickup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/truck-pickup.svg)
  */
-const TruckPickup: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M80 400a80 80 0 1 0 160 0A80 80 0 1 0 80 400zm320 0a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M224 32l32 0 128 0 15.4 0L409 44 527.4 192l80.6 0 0 96 32 0 0 64-32 0-26.8 0c-18-37.8-56.5-64-101.2-64s-83.2 26.2-101.2 64l-117.6 0c-18-37.8-56.5-64-101.2-64s-83.2 26.2-101.2 64L32 352 0 352l0-64 32 0 0-96 192 0 0-128 0-32zM368.6 96L288 96l0 96 157.4 0L368.6 96z" />
-    </Icon>
-);
+const TruckPickup = createIcon("truck-pickup", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABfQAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBdQsIAAE2AiQDCgQgBYMtB1QbGwXIhof/1vq8r7r/nP09y1DLjI4ThQCObVxYsoqe+b/m87MqwM9HcChZKz2QBXjm8wkMsBKbNhrYwKJMcW9TFKIjCp8OKSmzETu+uR3PtlCmwcXNmkgPpx9wZ/kfwPhLNzeTNBcAoi0A5m5ev9JXv8VvKX5ovEf8YAUCYh7IAgUK9BRghkKgp1JGqRT8lhoNfotGIxNA1BBc8Gp4gR04CChBkqSyHNvcqlW9qVW5KYytttereqfYGPUAc6vqkWGvVLcMealrFRytQldR3KOrevXJps2PT/14+qd9npj2yZSPerbqrtbvlbav/NP3h0M/+PXJnN981MV7rbVHNkfu8dNdT/fr9/RdP13C0R5ZG2SPr1yT75q9ljbt8bjlu60e3fLwxYuHW9aaOd35QCB44ePuS3a3mfF/i3oCf3zy35/5dI0f07X0ClpIIChGNEbYka4B8gNIpbikn3FXawQK0yR0qy09IECoECCpqQQo9NBWgFJluABNepsoQE1lvUKUzUJHOxtIWjoLCpNcBqWO3gVNZvg6WdMxCh9TPUT9xctaJKGF/fLYUWPytLzMYs1t5NQ9PV+ODrkUq4bCUoecdsoFBx1w1AXBnbMyc9FJiyxioR/KxhpljGyafFxwjNokkuecd1Q3znuZLt8fDnHJbjwUEgkJjjOmUBApio5fkT3y7QkvnhnprrWdJ8ajCQAAAA==");
 
 export default TruckPickup;

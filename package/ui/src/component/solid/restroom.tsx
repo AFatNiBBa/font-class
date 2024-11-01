@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `restroom` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/restroom?s=solid restroom}
  * @preview ![restroom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/restroom.svg)
  */
-const Restroom: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 48a48 48 0 1 1 96 0A48 48 0 1 1 80 48zm40 304l0 128c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-154.8c-8.1 9.2-21.1 13.2-33.5 9.4c-16.9-5.3-26.3-23.2-21-40.1l30.9-99.1C44.9 155.3 82 128 124 128l8 0c42 0 79.1 27.3 91.6 67.4l30.9 99.1c5.3 16.9-4.1 34.8-21 40.1c-12.4 3.9-25.4-.2-33.5-9.4L200 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-128-16 0zM320 0c13.3 0 24 10.7 24 24l0 464c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-464c0-13.3 10.7-24 24-24zM464 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM440 480l0-96-17.8 0c-10.9 0-18.6-10.7-15.2-21.1l9-26.9c-3.2 0-6.4-.5-9.5-1.5c-16.9-5.3-26.3-23.2-21-40.1l29.7-95.2C428.4 156.9 467.6 128 512 128s83.6 28.9 96.8 71.2l29.7 95.2c5.3 16.9-4.1 34.8-21 40.1c-3.2 1-6.4 1.5-9.5 1.5l9 26.9c3.5 10.4-4.3 21.1-15.2 21.1L584 384l0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-96-16 0 0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32z" />
-    </Icon>
-);
+const Restroom = createIcon("restroom", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABpQAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDDwsGAAE2AiQDCAQgBYMtBy8bjgXIjlQ1fwSRrqx6JJ3XWjPIDPSMFCEGEaYYAW8B+8//NfXi+VGBfKNDi7JaNUbpqMMKZDbAaMsQmw1nQxm4z7YcLkbUcItIhDwl4ru2+cPUHvL4J7tEQbozfY7r9U3jR11dQtI8AxBtADBn07oV3v4uvov4rPEq8ZllCIg5oBLIkKGHANNlAj3kKuRywXfRaPB/YEUA0QS/I4EczfAEXgHkICnyvOWEli3n14uW+cZ6UW67e9DjAx7tekf/RwY+1m2LcEGHW8qrOt0WEbcMvK3TbZ03xd3Dnq7X4+ohT3bdELd2uKXDI51EQCm3JakUd/Tvy+LuQRtmxWwOUQarnbtLAiWw7Zayq7aXZcxLNHv0farNUz/3+fzg51ZdXx539tnHlWIZNOoC+FpdcUWrff27fdP//a1bp/fc594LL6pqqosuvLfXPsPH8Cvjv7lbZNoF2ny0a03Hr3VcI03Xj6qzdH5+N4a0U1s4ofNVitHn6m3Te+z0/E039+17803P99xpBC+aXVyl84SFtXZ2V0K7E83zQCB4+Pkvj97VevpvtXoCP7z16596YWNDuig9hZoEgmx4Y7jt6QIH2lJ8ry9O05c+SSB5QAGv2sJtAoQSAZImpQCZ7toIkCsNE6DQywQBmpTWyUTeXOhgxw2SFk4EmYnOBbkOXgaF6T7yN+kQWb9y3cb9LiYvtOiCQdWYkaOrqdVrwsW3IHM0TqvC6uDTtoIhtNJBxzvOKQ7Y74hTDH6SFaFTHWuhhy3wRZUxRhqtMlWVTj9aNjogPic78izme5mmqncOdppffggZEtCOFZckItWWCLMoAAAA");
 
 export default Restroom;

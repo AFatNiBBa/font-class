@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-bill-1` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-1?s=sharp-light money-bill-1}
  * @preview ![money-bill-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/money-bill-1.svg)
  */
-const MoneyBill_1: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 96l0 64c-35.3 0-64-28.7-64-64l64 0zM128 96l320 0c0 53 43 96 96 96l0 128c-53 0-96 43-96 96l-320 0c0-53-43-96-96-96l0-128c53 0 96-43 96-96zM32 352c35.3 0 64 28.7 64 64l-64 0 0-64zm448 64c0-35.3 28.7-64 64-64l0 64-64 0zM96 96c0 35.3-28.7 64-64 64l0-64 64 0zM32 64L0 64 0 96 0 416l0 32 32 0 512 0 32 0 0-32 0-320 0-32-32 0L32 64zM256 192l0 32 16 0 0 64-8 0-16 0 0 32 16 0 8 0 32 0 8 0 16 0 0-32-16 0-8 0 0-80 0-16-16 0-16 0-16 0zm-64 64a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z" />
-    </Icon>
-);
+const MoneyBill_1 = createIcon("money-bill-1", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABoAAAAKsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDEgsGAAE2AiQDCAQgBYMtBzMblQXIrgd4QzW8L3h4hqpWg6JAZ2TyREjPy61/IoJ/3v3K+5IMJX92t8QpEKeMCggckK9jdoAKWQO7nsrq4eHz9v5oowFG2MSS7kbYJ0ySRAINbQbdvOJtv2aTAipPPIeAEthgucHliU0U2SATlfKW2W3f3Chy19WKDNsvq4r3ColPEJb/+b8c322QA/zi54c2Jk09kP18j+p5AoFGwyZpFtgBpQlpLlk7O8P/IHwZhKR8kmH7DJsncPocXciBOZoWOBjfVH9RB8DgLAAAqgEAAEYcs6bw8EfyI/R2ffTWCgSgkQBEAixggaYEwBAWAU05InA4BD9UmX4DQQCgPPLPMQA4IABXgRsAgAPAUHKu1Nh7X6dBkyYhV3ZzQ85vRVwa2Dhn5ax8sve+oludNS06NbAfdHeMFu3poatUpcXHR+h6K/IrjnTQlQCFiT54ZIRCtWQl+UWIIOQ9CkHyXpL87L0cOt6+kHgaTZKMNtu7uY2XuHeArg307qyDkb139JAxOofmWg3/ObdCz5HSmbr6dGZRKl7bM+X+VtG1rSx1gR3SN2uDbtqlLxKSRFHfdrsjNSTFmkjNyGSdfoWaubNnwLN514iuO589Szk69/sMsk+/cx+/LGuNHD4HAAIEj/4ceh/yP2UDwK8Hl29gkrkGFDEACGyXSuaVBGASQhyjHbRSVkaA4SwaAF414xACAOEBAWDI4xEAliZqCACHpzMBkKO5vgRAHs8sFrkSoq75HRgyNgNLPzuBo66bIMcQL5w8dcNaLG9v/H8xZeyIjDkUp2494qC4zFXBCFm/Ozhu690O7nXERVbYaINtlltmtW0DtcUUf7v1xmr0MStFPXXTQzRIdFw9n55ruS22Wm2jDWGfweJ9u4Md+nRHWAZh7CViMCCT2bfa9QEZXScAAA==");
 
 export default MoneyBill_1;

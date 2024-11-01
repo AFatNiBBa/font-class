@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `train-subway` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-subway?s=sharp-regular train-subway}
  * @preview ![train-subway](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/train-subway.svg)
  */
-const TrainSubway: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 48l0 160 152 0 0-160L48 48zM248 208l152 0 0-160L248 48l0 160zM48 256l0 144 352 0 0-144L48 256zM0 0L48 0 400 0l48 0 0 48 0 352 0 48-48 0-14.1 0 47 47 17 17-67.9 0-64-64-188.1 0-64 64-67.9 0 17-17 47-47L48 448 0 448l0-48L0 48 0 0zM96 320a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm224-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const TrainSubway = createIcon("train-subway", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdgAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCGQsGAAE2AiQDCAQgBYMtBzMbHAXIjpQu7hLP868zu0+SfWa+w6AQO7hAgPW02zF0e/pAu8C10h+4dv6vqRfPjw7w+4kfSjSWNt7WFFU6gT1P25tnAc8GNlEcy942PDYi8UREiZBE9BodG6s1NHkrz+tRvVH9jOfoQ/Or2R6m0qsBZBIADjjtpGN8viM7kp+6yE+OQiAHgFZQo8Y8AXurBfM0WjQaYUe6Dn8DWwKkj/+JCjQYwbW4DdCASr9pRkdHl02dOuiNb04d9MpZYpCknDIog6TEyWJ8knGnDsp4qSKl7JNVKTkxJcenZE32SylJnZzxwMzktcFT019x/7SXy5MzXs1pT01PempI4eLFY5PGfl/086U/2/Dc+0x43fte/+691wnve9373214/kXne975G7rh8POh8w0NJ/yBg3U+1jkYf5gwpJjz9pvwOI9PyDk4ZPtCfT0QhB2//PfZeRP3/n9kUIFdH/75Zzmw050vqzGMqECo13ZrnZ3PDchAObSbWy2GSQoql7rBdx3nVQFREFDpKwJqc00S0CjWCOhZYKuAvuIktTSjYppzGqiMcwOobXMPaEzzAejZ23de37TUTse5DPfnSz5UooeMazeuH7Z7tsOcyvsRE3v3aqeVlbeGmlWw0qWuc62bXeJiV7hZ4Dc6JnCLaxxqYYf4otZG6w219tQuF9fLT3WJG93kCte5No2yl3a/sdKtdvNVoFeYdJOkSkWqcY8ret1Nt1x42wV3AAAA");
 
 export default TrainSubway;

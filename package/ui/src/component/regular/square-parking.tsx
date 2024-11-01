@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-parking` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-parking?s=regular square-parking}
  * @preview ![square-parking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-parking.svg)
  */
-const SquareParking: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM184 272l64 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-64 0 0 96zm64 48l-64 0 0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-64 0-136c0-17.7 14.3-32 32-32l80 0c53 0 96 43 96 96s-43 96-96 96z" />
-    </Icon>
-);
+const SquareParking = createIcon("square-parking", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdgAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBcQsGAAE2AiQDCAQgBYMtBzUb9gTIhofvdX6e+yR7/srLoGXGjoMdEVXuQlCTJy1WSeupU89zHgrgg2UIBG0sWxsk+3zsjn1egYKWerWxiGoFq2kBtEy1dvY/MIj/QUnfp0gybG7Y3CCPJ+JeFdJj6VvcU940/tTD7SSVDEC0B8D8rRtXqzeiEfFN8yPiGysREPNBKZAhQ28BZskEesuVyOWCRjSb4T+wJICo0h+WQI4qduMAIAdJnufte7brXau0ybfUKsXOBzuneKhLm3ikWxYPd2296ImREW8MbRMvDX+tR4pHh706qHW8POL1ntnmWlF7pdsjvR7v+vCQIqwuaoV4dNDLPSMibnZ7pFaLj4a/1ufJYa9OGvB6+9f/7v/tkW/NPdtoO0/bxjycbRYd6PCsEZ7t0KGYp+hgffLOPN477pfvsuy7X8bNs68ppw3TZf36LvPcre3dd7dd58brr7e0COoGEM/9+fO6F/a2m/VfSy2BPz7/93/tW9RsRD29jhYJBNmo5ii7og5RFwCAFFcMiDoCyWY5fdXWHhYgFAiQVBUCZHppL0CuMFKAir4mC1BV2CgTeSuhs90GktbOg8wUV0Gusw9AxSxfBFWdIwMYAw/mf5e4xEOLd5Xjx4wrZ5TTWmcxQ6XNmeW2POxKnBhORx1x1hmXHHbIcZcccsHq+LLTlqzgxT6oNN4Y45RmKI+7x8NbHHbBRceddSZvM1N53x/mynr+cNISJZ0glyQitX2k0uhzlQIrAA==");
 
 export default SquareParking;

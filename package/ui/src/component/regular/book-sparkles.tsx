@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-sparkles` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-sparkles?s=regular book-sparkles}
  * @preview ![book-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/book-sparkles.svg)
  */
-const BookSparkles: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 88C0 39.4 39.4 0 88 0L392 0c30.9 0 56 25.1 56 56l0 288c0 22.3-13.1 41.6-32 50.6l0 69.4 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L80 512c-44.2 0-80-35.8-80-80c0-2.7 .1-5.4 .4-8L0 424 0 88zM80 400c-17.7 0-32 14.3-32 32s14.3 32 32 32l288 0 0-64L80 400zM48 358.7c9.8-4.3 20.6-6.7 32-6.7l312 0c4.4 0 8-3.6 8-8l0-288c0-4.4-3.6-8-8-8L88 48C65.9 48 48 65.9 48 88l0 270.7zM160 112l8.8-17.7c2.9-5.9 11.4-5.9 14.3 0L192 112l17.7 8.8c5.9 2.9 5.9 11.4 0 14.3L192 144l-8.8 17.7c-2.9 5.9-11.4 5.9-14.3 0L160 144l-17.7-8.8c-5.9-2.9-5.9-11.4 0-14.3L160 112zM264 216l16.6-38.8c2.8-6.5 11.9-6.5 14.7 0L312 216l38.8 16.6c6.5 2.8 6.5 11.9 0 14.7L312 264l-16.6 38.8c-2.8 6.5-11.9 6.5-14.7 0L264 264l-38.8-16.6c-6.5-2.8-6.5-11.9 0-14.7L264 216z" />
-    </Icon>
-);
+const BookSparkles = createIcon("book-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiQAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCOQsGAAE2AiQDCAQgBYMtBzQbPQXIjsQ4JvKL2BQ9Hp63+3/XPoMHaL6MGK7iEqpuFxY9UarKrcD3qVPPc54N+ByCoIyNa4Isz4V2xz6vQMX+6pvq9QlcraDV7ybvOa5IaUmSk680bN2wdYA8XorHFaQX0td4LDxU/GHI3SRFBiA6AbDpuCP71L6NbyO+qn9AfGUPAmITqAQymKMEzlozGDxX4bk8923U6+k/sCKAKMWPSSBHA27HvYAcJEWeT+3sHhpqKdryY1uK5uy1ORHvrmiL1/ueGUrx8lTREq8PPT+1NT6c/c74HRGRnfBgb8TTbu97pqUtIlrnP+dLzw1k8Wx/a/Qvflo6bmRw5Lm+oZgWz/ROjcF4un84psezAzOOWTB3gcXnxSp8ZczF58fqO6yZ/E7nO39N+vrcr52f38/9Gxe6/P8Nle5vtml0qK/v0PE6zzk28pyDB1a0L2jtieMLKhtV//3ctdLpZaU8faGudz/t6rjsHxZ6/vl3GHTvvYPuUP3zzisBveCC0umeffZ0JdwOBIKr7n7+19M61v7d2JLA95/+J1+vXotaegeNEgiyufW5To4aMDOAn5TiWpOjhkByvQI9aqtnBQjNCJCUmgXIjOgUINdsjgCFccsEKDU7IhN5k9DrFAJJqytAZrlbQK7Xe6Cw1mdpqTcyJZRUSPoDpm+XyLZd1aL5C6vV1bBWZL0S3OaaatuYea2ZmIW9znWZS13tHGe7wNWCvtK+4hqX2D5Dt/miyiLzLVRZrTrubuHHOseVrnKBy1zqt1mjup/MdO18/izYSWRdrJIkIrVpqDnvqoceXnzOVQA=");
 
 export default BookSparkles;

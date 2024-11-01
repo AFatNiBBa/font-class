@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-arrow-up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-arrow-up?s=sharp-regular trash-arrow-up}
  * @preview ![trash-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/trash-arrow-up.svg)
  */
-const TrashArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 0L147.2 0 140 10.7 93.8 80 80.1 80 32 80 0 80l0 48 35.6 0L64 512l320 0 28.4-384 35.6 0 0-48-32 0-48.1 0-13.7 0L308 10.7 300.8 0 288 0 160 0zM296.5 80l-145 0 21.3-32 102.3 0 21.3 32zM108.6 464L83.7 128l280.6 0L339.4 464l-230.8 0zM238.1 193.9L224 179.7l-14.1 14.1-64 64L131.7 272 160 300.3l14.1-14.1L204 256.3 204 384l0 20 40 0 0-20 0-127.7 29.9 29.9L288 300.3 316.3 272l-14.1-14.1-64-64z" />
-    </Icon>
-);
+const TrashArrowUp = createIcon("trash-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbQAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBeQsGAAE2AiQDCAQgBYMtBzUb/gTIHoVxMz3SRXOUj8L+EQ//rJl/38wkZ3fScroFmjKzAvKIfm0dx5WEbj+x/DrNDFnbPd9DGkZO5abxUgEvgJ6HtR8/l/+PV6Dx+g4PfECjDWymE7DtzjaxQ+RQktYEyXFpx+cBWTyNlEgeJ3Azfmj8o7MbJEopgGgDgFkb1ixT+zF+jPhaH/HVEgTELFAIpEjRTYCpUoFuMgUymeDHqNfdf2BBAFGW3jMBGcrYiiOADCSyLOvZ2NinUmqZra+U8i15Ja/G2shzUYlN0TK2RCUi8nx9NEW+Lq/kQ6ISgzZu3rS5ZWyMfEtTh6ZqrIxqDIqOMSSEZSE40OFqU6zu3dym+b/t5+WHlnjvsGFztVo5Ul9dL5uZA32NVEzv+Q5r2bDiNoZX2G/F68udVlgeGX6/0lFSB8Ab4jdXVA3Ur/gmn1EHAsGjUZOO7Wg99f+GSgJ+fo3yK6rXopY0o0ECgnRofaitUYOoCQBAEuf1jhoCibUy5lVbeCBAyBEgUZYLkOqqjQCZ3BABSnoYJ0BZbo1UZI1C1baGJFo4haTGu4hkql4hJVN9NMuqkSoZrSL0Hy9hPgfnHRWjho8sJhfDTGX0hvTbKcW2OPA8dQbBTfudcNxZ++x1yFkGn7bMOeeY+TNoni8qjDLcSIXJiuNyeXm9fU4745ATjoc9UxT39YHOz8cHwRkJYPTzkHQ/klZnT+86c3DYrtOnT1wYdu4kAAA=");
 
 export default TrashArrowUp;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-back-point-up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-point-up?s=sharp-regular hand-back-point-up}
  * @preview ![hand-back-point-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hand-back-point-up.svg)
  */
-const HandBackPointUp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M104 0L80 0l0 24 0 227.2-56.1 51L16 309.4 16 320l0 38.5c0 54.1 28.7 104.1 75.4 131.3l2.6 1.5c23.2 13.6 49.7 20.7 76.6 20.7L296 512c66.3 0 120-53.7 120-120l0-8 0-96 0-40 0-24-24 0-40 0 0-8 0-24-24 0-48 0 0-8 0-24-24 0-48 0 0-136 0-24L184 0 104 0zM232 240l24 0 48 0 0 8 0 24 24 0 40 0 0 16 0 96 0 8c0 39.8-32.2 72-72 72l-125.4 0c-18.4 0-36.5-4.9-52.4-14.2l-11.7 20 11.7-20-2.6-1.5C83.6 429.7 64 395.5 64 358.5l0-27.9 32-29.1L96 344l0 16 32 0 0-16 0-71.6 0-8.4 0-2.2 0-13.8 0-200 32 0 0 136 0 24 24 0 48 0 0 8 0 24z" />
-    </Icon>
-);
+const HandBackPointUp = createIcon("hand-back-point-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABegAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCPQsGAAE2AiQDCAQgBYMtBzkbRgXIhof/n+v9fW4yb02TwrwSpsyo+hkUACliV9RfskRVR/N/Ob872nSAH+jc5qLbIHdtoD04gZ5v6sXlSydlYZYotjfNqCNlT5JMNJkdV9vxdYQ8Xo5n1Ugvput4pn1o/K2LB0lqGYBoAGD2xrXL/fx7/B5x7c4XxDVLERCzQSWQIUN3AabJBLrLVcjlgt/jzp30H1gRQDQhNDFyfPiDeAyQgyTl+eS5Za1VvqGsFVuLshBiVbQPIe4d/unkDvFNWcalmT/1DZheFMhcXxalEOXB4oVBH/Qr4vEBnaNbdIz3ur4UEUND7Ahyy1Bs7/NR46N/e18/cN3BnzrDVfzljAtKAw0ePaZfZdzgu1TNzalul0E66zyo3pFR0KPpyP87d17EXzCoYZe61mPH/n6X7k+97W3Nnrr0S/fubhqiodKwSF3S2mWVR21OBoFg4K+v3NjZZtqNepnAn9/+//+4XePOz/FG+gh1CQTZsDvDbIufNVTxhgAApLigj/BFgeSihN61pecECAUCJE0KATLdNATIFYYKUNPTeAGaFNbKRN5CaG/7AklLp0FmgrtArr3PQM00l5Im7SMLQz6I+F9gygIOz59XjR4xqppSHcumEFlsGZ9aXTuDLuS2wbDXASedcM5++xx2jtFnLM+ed9wCiZrvhyqjjTBKZYpKXXvfvcF+Z5x12Ekn6ixTVfbxIBfk3oNhMQkw5gFLEpHaRq063Du14V4aDD9/Cg==");
 
 export default HandBackPointUp;

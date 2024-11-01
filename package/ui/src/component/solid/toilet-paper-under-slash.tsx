@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-under-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-under-slash?s=solid toilet-paper-under-slash}
  * @preview ![toilet-paper-under-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/toilet-paper-under-slash.svg)
  */
-const ToiletPaperUnderSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7l-54.8-43 0-83.1c-9.9 19.5-23.2 38.2-39.9 51.8L510 374.4c22.6-14.8 41.4-46 53.1-86.4c8.2-28.2 12.8-61 12.8-96C576 86 533 0 480 0c-11.2 0-22 3.8-32 10.9c-37.3 26.4-64 97.5-64 181.1c0 33.8 4.4 65.5 12 93.1l-39.3-30.8c-3.1-19.9-4.7-40.8-4.7-62.3c0-56.9 11.5-110 31.5-150.1c7.5-15 17.1-29.7 28.7-41.9L160 0c-24.8 0-47.4 18.8-64.4 49.6L38.8 5.1zM528 512L406.2 416 224 416l0 48c0 26.5 21.5 48 48 48l256 0 .3 0-.3 0zM64 192c0 106 43 192 96 192l205.5 0L66.5 148.4C64.9 162.4 64 177 64 192zm416 64c-17.7 0-32-28.7-32-64s14.3-64 32-64s32 28.7 32 64s-14.3 64-32 64z" />
-    </Icon>
-);
+const ToiletPaperUnderSlash = createIcon("toilet-paper-under-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABgAAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCEwsGAAE2AiQDCAQgBYMtBz8bIgXIjlQ1fzw8r/ffr32SpzEzAPhhVZA6SBWAW7n5839NvXh+dIDf6NCiLLWxwGvVPIGJRRV4FM4minvb8igUiachIUEi0es6XjPI45/sVGWkq9JLuIA/NL7R1KkkVRmAqAOAMYvmzfDMZ/FZxIulB4kXTUNAjAGFQIYMLQQYLhNoIVcglws+i1IJ/wMLAohycuIEcpRjCw4DcpDked67bs361ctq5gvra1ZbdlODKxvuiRsbX9NoZkRc2blrPN7vhnin730Dz25wS/c7ihNbDo2r491+13SrFg90n7lh4YKF1UJc1fCyDjUjIja+3Sfi3gHVY21cac3lzSKujpOaX9P4sqZXObHJlQ3a3lbntu/avLTxJR0f6/bDff/PehVdcqt5vjvtUp1avjDAnBtvPKnu1w+0rl2736M7zSgs+u6m9K85N5z75d9HVnG7h/SWvfxRb/DqqLAIjfKKrt9o3/iGUa+dxEnNm5900mtK4+FAIPhlSbWGq2oP/62yegJfPPbDn2XN0pJ0RroNlRIIsu6l7panEx1oTfFiOw5qC98kkKyRk2ut4XIBQjUESMpVEyDTXB0BctV0E6BMKwMEKFfNPJnIq4QGVkyQ1LAHZAY6DuQauB+UGe5Zp1yDyDKOzhf6w5cw0aITGhV9evYuhhbbgDJJRLbKYUVY6nyQMrpAWxvtstN+G6y3xX6D7zXDP2CHiR42wQ8V+uipt8JQxXH82nyhDfbaZ4tddvZ6hinua50d9PN3ATURwr66JYlITfbv2rJ9w/4eqW31OLBz/XD2bV+zbzMAAA==");
 
 export default ToiletPaperUnderSlash;

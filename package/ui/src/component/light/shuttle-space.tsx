@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shuttle-space` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shuttle-space?s=light shuttle-space}
  * @preview ![shuttle-space](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shuttle-space.svg)
  */
-const ShuttleSpace: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M245.2 448.1L405.3 352l58.7 0c64.7 0 123.5-27.4 164.8-76.3c9.6-11.4 9.6-28 0-39.4C587.5 187.4 528.7 160 464 160l-58.7 0L245.2 63.9C210.4 43 170.6 32 130 32L80 32C53.5 32 32 53.5 32 80l0 48c-17.7 0-32 14.3-32 32L0 352c0 17.7 14.3 32 32 32l0 48c0 26.5 21.5 48 48 48l50 0c40.6 0 80.4-11 115.2-31.9zM64 384l48 0c5.5 0 10.8-.6 16-1.6l0 65.6-48 0c-8.8 0-16-7.2-16-16l0-48zm164.7 36.6c-21.2 12.7-44.5 21.2-68.7 25l0-77.6c5.5-4.2 10.5-9 14.8-14.5c.6-.7 1.2-1.2 1.6-1.4c.2-.1 .3-.1 .3-.1l166.4 0L228.7 420.6zM64 352l-32 0 0-80 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L32 240l0-80 32 0 48 0c15.3 0 28.9 7.1 37.7 18.3c5.8 7.3 15.2 13.7 27 13.7L464 192c54.9 0 104.4 22.9 139.5 64c-35.1 41.1-84.6 64-139.5 64l-287.3 0c-11.8 0-21.2 6.4-27 13.7C140.9 344.9 127.3 352 112 352l-48 0zm0-224l0-48c0-8.8 7.2-16 16-16l48 0 0 65.6c-5.2-1.1-10.5-1.6-16-1.6l-48 0zm110.8 30.5c-4.3-5.4-9.3-10.3-14.8-14.5l0-77.6c24.2 3.8 47.6 12.3 68.7 25L343.1 160l-166.4 0c0 0-.2 0-.3-.1c-.4-.2-1-.7-1.6-1.4zM464 224c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const ShuttleSpace = createIcon("shuttle-space", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABmQAAAK/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDBwsGAAE2AiQDCAQgBYMtBzQbiwXInoNx43xxkMWxKES2Y0H/KKvlS8XDx9x/npvkU7JADrPEWUZHwA4IWwVIrizr6E1tHSl6/sfc3h/inqYJ8bbKUWlk70RNO1IkESIeIqGINgDLwvj6nJ44ly7OR3leOPGhRVnqvMG3rz5/gQF/JEXZA1eBTRTf9MwZdBDUYBBpiAb5Yeyw/Ray+CfSQPKY+R7czD8avws4RyJLAUQ7AExfvniuL29Ui/i+/h7xPRkBMQOUAilSdBFgklSgi0yJTCaoUb0e/gNLAohGfD4JyNCCp/AWIAOJpiwb0bpNr9ZtWxcNrbNlhSYvli9ZXtDV0ifsk8HXix8b81gWe7Cfdd/ziysAiFOe+ybgsZ454srdwlhc9YkVH3hj6YtSxEPfQ7pKRSxZlpvyKORD3wOvF0XxXOBibuv4ceG1Y6Zn3Y/SeYTdcUWIB8Z86QNvxHuFpWSM08bT3o0bt7jvcUbEcnDPl+0v3xPH/hF/6+uMkuF3ld8/5S4/kVyK+VNGqH46qSptLs2tX7ZXqKQ//MQJpszf1qqqaj44Q6VmrZ5N/zF7nqPbA+F5B2c9246X5QLcUrO2qd3CAmV14Lq2d7fEvn1LdNfu2nXA1TiualOrMMPBZm5fdMd0ntl/XHI9T1BOM0ok+dMBAsGbf2Z7tvLfzUvAb7vnn45XryVnmZdBswQE6eB61iQzqP+nZCKAgySO6YmcBRKPNQHutZUHAoQcARKNcgFSnbUTIJMbJECDbkYL0Ci3WCqyFqGTtYNKtHKQSo1xnMp08g7VYJKvgkadIrVVydKkX8X0ORKenVUOH1qVE8ptosvmJ8TeieWx2f8Y1QzAXNvst88RW22x0xGBHjI3PmqvORoyW45Kww1VKU1QPhefpy+z1SGH7bTfvtTPROX3bn/H9OYD4CSYd4SliYRIWh/ecfTIkT1bhxg2AAAA");
 
 export default ShuttleSpace;

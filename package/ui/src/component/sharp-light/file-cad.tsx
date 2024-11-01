@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-cad` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-cad?s=sharp-light file-cad}
  * @preview ![file-cad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-cad.svg)
  */
-const FileCad: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 192l0 112 32 0 0-152L232 0 32 0 0 0 0 32 0 480l0 32 32 0 80 0 0-32-80 0L32 32l160 0 0 144 0 16 16 0 144 0zm-5.3-32L224 160l0-122.7L346.7 160zM200 352c-22.1 0-40 17.9-40 40l0 80c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-8 0-16-32 0 0 16 0 8c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 8 0 16 32 0 0-16 0-8c0-22.1-17.9-40-40-40l-16 0zm232 0l-16 0 0 16 0 128 0 16 16 0 32 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-32 0zm16 32l16 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-16 0 0-96zm-160 8l0 56 0 48 0 16 32 0 0-16 0-32 32 0 0 32 0 16 32 0 0-16 0-48 0-56c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40zm32 40l0-40c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 40-32 0z" />
-    </Icon>
-);
+const FileCad = createIcon("file-cad", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABnAAAAKZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDQAsGAAE2AiQDCAQgBYMtBy8bvwXIngU5mdf4IhxwiBftsnTd0uN4N+J5aI7y/UmWkoMc8RxyGUkBgENZBajKwpUV68qFf+rM93Mchy1lgomGIhCQTt1KXMBTpLzgkMNbCwLgQDSgOqT2Pd78X1MvrKlAPh7RocQiAwskIjCfDwc43CwaaECzgc10ADLmqdMx2PTYk69IKVpHzYbHU/C4PEObT7SJEcorzg/wlLxp/mGBRyjaBkAGADjw9JOP9eVv+kk/WMkPHI1ADgKqoEGDxQL20QgWa1W0WuG32MntP7AiQEbhVxXQYgJf4TtAC4qxtl0eHuPUJU9HpranpSPdxUSf5DR1nZRI3yddmvQR6U9P+i459Xo00fPIA/0LfZ/HxpeSJF1Enu86vThEL429XuhF+iTJg8OLXdc3TCRG/06FFulfvQqs6eYmxdTcSk4hnvj6qHZCWR7tnrc5zN/SrXgM7//Hsz84f/IGPF552Usv8U01vlTVEwwn+NLbnjYYHl12N/Zx113Prv6Aj2ecwIyPP6gHRlL7OMJXA+HoBRUXjJ6g89Qxx5/GIR4wGOq2n+6eND++NjPpbPxNJ9N+q7jgLfaAZRtjql2t09vs8Zr9/xXq9c9ZRwWC8Mjej42cX+7zj/oC/vi4ybdo8stCeR/GFRCaTXYT5xRQCACg5DZWFBAUHxmDV53iRQHRIaAY1QloLDIIaHU2Chix1K4CRnVO1kg7IWY7V0ExxY2gsZt7QWu2D8GIfXydGjU7biKr01D9G5nhMIseuq7uW7bVveptxaHJTaVP7l3DjvW2vWN92eEy17vOLS51iStFMsxNjs3e6lqHjehDfVC13RbbVHupdP2z4TSTusnNrvR1/DJ7q+sj69w27r++uAuI7pBTFFLGv5nk5vvtEgA=");
 
 export default FileCad;

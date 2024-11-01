@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-invoice` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-invoice?s=duotone file-invoice}
  * @preview ![file-invoice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-invoice.svg)
  */
-const FileInvoice: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0C28.7 0 0 28.7 0 64zM64 80c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 96c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16zm0 112c0-17.7 14.3-32 32-32l192 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32L96 352c-17.7 0-32-14.3-32-32l0-64zM224 432c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16z" />
-        <path d="M384 160L224 0l0 128c0 17.7 14.3 32 32 32l128 0zM96 224c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l192 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L96 224zm0 32l192 0 0 64L96 320l0-64zM240 416c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0z" />
-    </Icon>
-);
+const FileInvoice = createIcon("file-invoice", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABqAAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDBgsIAAE2AiQDCgQgBYMtB1QbrAXIjpQuH7Tx8L3Ot3P1ZE++9O0gKcBYJRUwVaQsAFTE3W61lbvFpgiUC1w7KT5fp049z3logbxHPGh7WC4+JgbH7FhekFqBx/J6uecRqmkNrMO2mbXoGA90LF+Qx630hAbZu9kvePn6H8D41XBPkOlJAKIfANbt2rZV537cz+KX7rfEL7YgINaDSiAhYZQAKyWBUXIVcrngftbtcj+63YoAoumaUAJNlPgAXwNykMk18rwc0dM7ptUa0SobrXxn2ShO7dyxU9SD3yzLw8+JeAP3sXh+6NsRcW/IW0WhLEpRROx4w5uDy3h76FtDipSl7N1pX0xqxWczvhqZoojnhrwV0fkfT/182Ca7UYYf/sagImYx4b2hEW8nJwx+k6gHvcGEzexwOT/+y35f/j7ul5O/uDv2vadYaz/zTLseuwYYzPJaVuxc/GVUnefyWh1rX+5+u31/rU6s23zRv//7vN96RSWJ7X1e7jqxrjNrmYPL7WdIz2877+3zPhAIHr28fuqhviv/71Nm4OF3f/4Lf0i6naizL9FHBoI0szvT/qghagEAyOKm8VFbi0BySMMz1V5vCRAKBMg0FQIkI/UTIFeYIUDDGIsEaCpsk0TeIwxyoAeZXldAsthtkBvkG9Cw0vdh06BIhZUpasyvYuJmHtp0rJo3e261vDKWMFv+qH17ReVtTr05j6a1T510yUXXnXDcGdc55KqtyQ0XbLbBm3xRZZ7Z5qosV0U3y+JOLrzqmjN6Pn6fFar83lQ37YuntU7mIZ3vRJKILNKgD8OddebiK6DOKvezQxR8FQc=");
 
 export default FileInvoice;

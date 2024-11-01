@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-fist` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-fist?s=light hand-fist}
  * @preview ![hand-fist](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hand-fist.svg)
  */
-const HandFist: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M254.2 233.7c7.7 4 16.5 6.3 25.8 6.3c12.1 0 23.3-3.8 32.5-10.4C322.4 245.5 340 256 360 256c8.6 0 16.7-1.9 24-5.4l0 5.4c0 38.6-19.5 72.6-49.2 92.7c-8.6 5.8-14.8 15.7-14.8 27.4L320 496c0 8.8 7.2 16 16 16s16-7.2 16-16l0-119.9c0 0 0 0 0-.1l.1-.1c.1-.2 .3-.5 .7-.7C390.9 349.3 416 305.6 416 256l0-56 0-8 0-40c0-30.9-25.1-56-56-56c-8.6 0-16.7 1.9-24 5.4L336 88c0-30.9-25.1-56-56-56c-9.7 0-18.8 2.5-26.7 6.8C246 16.3 224.9 0 200 0s-46 16.3-53.3 38.8c-7.9-4.3-17-6.8-26.7-6.8C89.1 32 64 57.1 64 88l0 112c0 2.6 .2 5.1 .5 7.6C44.8 222.2 32 245.6 32 272c0 59 39.9 108.7 94.2 123.5c.8 .2 1.3 .6 1.6 1c.1 .2 .2 .3 .2 .3c0 0 0 0 0 0l0 99.3c0 8.8 7.2 16 16 16s16-7.2 16-16l0-99.3c0-16.3-11.9-28.4-25.4-32.1C93.9 353.5 64 316.2 64 272c0-26.5 21.5-48 48-48l88 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-56 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l56 0c30.9 0 56-25.1 56-56c0-4.9-.6-9.7-1.8-14.3zM224 197.4c-7.3-3.5-15.4-5.4-24-5.4l-24 0 0-104 0-32c0-13.3 10.7-24 24-24s24 10.7 24 24l0 32 0 96 0 13.4zM144 192l-32 0c-5.5 0-10.8 .6-16 1.6L96 88c0-13.3 10.7-24 24-24s24 10.7 24 24l0 104zm240 0l0 8c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-16 0-32c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40zM256 88c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 0 32c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-96z" />
-    </Icon>
-);
+const HandFist = createIcon("hand-fist", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABrwAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDRwsGAAE2AiQDCAQgBYMtBzAbxwXILgbslumjE5lj0Rgvxn9xjbLuyxDTW4yHf+b43bcNER/i2lSsiVrldJVGIv1DU0vgf2zufcYYjQSN4zqoJdpI2appzTpW3MnrXDcamjx83Pc7d74t+4ZLBRq1i5ZwIhFmgbeDhGE92IBroEETlUUGJ5yOMKaYQg88uX7+r6kXZUcH+I0OJWvZWJqU+XwCEz1bPY8EmQ1nE8UtbkNl7S6E9NA4QhanqYVCJCeZl9j/fGh80LILElkKIMoCoO/dyMHu/qgg4mVyA/HSOQKiH8gFUqSoKUAPqUBNmRyZTFBA/5PlP1ACiMLg1AnIUARPwCsAGUgUyrLtjl4qnSlUKhtz1BUfezSzO1zOJm/EtmgxnTQRR/15g2L7wt/l8Lw5B1SdCmbzfvXmByhNTZrwFT6x2T90t7vrflBLEnqlyFan0t361F835gs1rsaLqRJHPGNMjetKU6dXz4+liwf4TmeWZoQwJq0W/0KU4BKcf3TXdjpjQkTDC8e3iqefUePG325G+Xf/rV/h1Xpp/Y11Shd8G+sAPDBKNeqiqCaKfPm/700dXaf3zl9d980698Kyfycuk6W/yR4YPgaAmUW2mqnpzV8pUq/ei67htUrDuxgLpQtOkLJtkcqvo1c1T67SxfBKuWlKDc0SKBR9WECJzfsKCNgua0802Tr3svvwT5gGBII5Z1tK1mXKX2QS8Pb9/z2fafKcC8wtQFEJCNIW/7cmxcdQHk8gAIpJrFHP8U0CiTt48K4lHUMgFEeARGHFBUjVUFaATHHNBSikto4CFFbcSKnIigkVTWYgUdJykOpkM8hUdBsU0sOTYmEVI9WWpZYo/UqmDxLRgZvytq3a5N1yawuRm6dwrnbPg/1N1igjTXtPcyy1xCqzzTLfKoFZYXBltcUGueiBfijXVitt5LrJk7urzWPMtsJK882O9HW6y8unm1jjnt60DyWAtZ2mREIkxZp+seWc+StXAQ==");
 
 export default HandFist;

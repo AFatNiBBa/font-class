@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-arrow-down-to-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-arrow-down-to-line?s=sharp-regular person-arrow-down-to-line}
  * @preview ![person-arrow-down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-arrow-down-to-line.svg)
  */
-const PersonArrowDownToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-51.1 32l-14.1 0-6.9 12.4-75.3 136L33 297.4l42 23.3 11.6-21L128 224.9 128 464 24 464 0 464l0 48 24 0 104 0 48 0 32 0 48 0 360 0 24 0 0-48-24 0-360 0 0-239.1 41.4 74.8 11.6 21 42-23.3-11.6-21-75.3-136L257.2 128l-14.1 0-102.2 0zM208 464l-32 0 0-112 32 0 0 112zm0-160l-32 0 0-128 32 0 0 128zM472 56l0 281.7-47.9-43.5-32.3 35.5 88 80L496 424.4l16.1-14.7 88-80-32.3-35.5L520 337.7 520 56l0-24-48 0 0 24z" />
-    </Icon>
-);
+const PersonArrowDownToLine = createIcon("person-arrow-down-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABeQAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCGQsGAAE2AiQDCAQgBYMtB0AbKQXIHgPuyqQUdXJNhNBSCH36/PE8/Rq/c9/uN4kmSQxI4k20/cjQvHmjESG6hCI6nVLck/rf79fO/Tazb90eYtpEk0latwQeMlRC10rTRCk0PGozf6nen7jc+Z8/PeCyf/FHGpvmLBzTxljnCSTWpWMBBZR1UZYoZnkagxcR3EIigvBtmw7jDVvPUOebjpOhnCxwLL1pPuh1DIVcAYB0A4A184sLuHmap8nj/0vIExtAgKwBjCBQgQoMIMByIgIDJBzUJARP8/9f/gM5BCCNwEcWQA2awF5wGEANKORa0ra0qNxtslZaaZPZ5vX+065T9VccJ5wn69YyNbNkKY4MxZ3VgFoZqE1PxDREy3FmJK6sxBa21qpmRGoC5fJAEYXxtF5xrbE/LGvPaESSswjVtwy3XkaFebzt7PXt6+cLRenoxJEJs0ddOHWhcT3e7OhZAMcOL79N7JY6lyToxrZwYLPgshdGCPvg9pvuqvr2w/wW/FqqPvfLb30cOjkAAgJbu54Wpx/91dwmAHh+7+0L+/D/m3KkDDQTAIFq+n+rrbIPCJ4AsiVl1coXBRQhMrxquxMECAYCKBQMASpuBgSoMS0I0MCnDwEaMYtEVKtALLY7LNDIwaJ+O7DE4hyWjbrNKCwRScdShv3nS5ocgYldfGF7Jx/mx47G8YgOmyP8tjpedhNN5iDCMtKKQoJiigOUt5AvSZnUwAk/xHVp14kbxl/3X/evCMkriMlIx21G8O/DRmV9fpMxBCBdpKEQIMXJ0cq27fl8ptLGxnTbvkwbOwE=");
 
 export default PersonArrowDownToLine;

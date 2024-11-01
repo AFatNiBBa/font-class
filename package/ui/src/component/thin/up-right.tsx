@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-right?s=thin up-right}
  * @preview ![up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/up-right.svg)
  */
-const UpRight: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M336 96c8.8 0 16 7.2 16 16l0 235.7c0 11.2-9.1 20.3-20.3 20.3c-5.4 0-10.5-2.1-14.3-5.9l-75.7-75.7c-3.1-3.1-8.2-3.1-11.3 0L93.7 423c-5.7 5.7-13.5 9-21.7 9s-15.9-3.2-21.7-9L25 397.6c-5.7-5.7-9-13.5-9-21.7s3.2-15.9 9-21.7L161.7 217.7c1.5-1.5 2.3-3.5 2.3-5.7s-.8-4.2-2.3-5.7L85.9 130.6c-3.8-3.8-5.9-9-5.9-14.3C80 105.1 89.1 96 100.3 96L336 96zm32 16c0-17.7-14.3-32-32-32L100.3 80C80.2 80 64 96.2 64 116.3c0 9.6 3.8 18.9 10.6 25.7L144.7 212 13.7 343C4.9 351.8 0 363.6 0 376s4.9 24.2 13.7 33L39 434.3c8.7 8.7 20.6 13.7 33 13.7s24.2-4.9 33-13.7l131-131 70.1 70.1c6.8 6.8 16 10.6 25.7 10.6c20 0 36.3-16.2 36.3-36.3L368 112z" />
-    </Icon>
-);
+const UpRight = createIcon("up-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABawAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBaAsGAAE2AiQDCAQgBYMtBy8b5wTIjsQ4JvGLKEzi4fm53s59SQE4BQQWqmNbVnUsLNv+lasnQ971p07VjPNQAP88jmtQ4vGxfa6u8wr0fNPUgi6QWsEiFCHubkO2MMPDJnLRMcRQZGBIPiCP4zaoRHqavuN2+NH4p5kLJFkGIOoCYOzi+TN9/B2/I76XXxPfTUdAjAOFQIYMLQUYIRNoKVcglwt+R7lM/4EFAURl8eMJ5MixCOsAOUhSnnfqUqNSrXxRjUrVNz9sJJ50uNZ4UTxquCAeVM9QN1+cbbI4HiM10eN55xodEYpT1avHtYYPnGm0MEQEZxp1jYc1rssL3TMeR7Qr1S395/um72av/l27Qr161RZOm27+/MtXXKlV6wodu6x+ltWfPs3Camywolz7CleE9+s8e1GnTmniROfO+dGgwY8rSFZkr5bqMBOoAALBuZFPq6yuM+L/qjUS+Puh0yRjTyqhqgSCrEe5hxVxBnVjjyCaKQ5phyMLJLMkgG+t6ZEAoToCJJVVFyDTQl0BctV1F6CS1gYKUFl182UiryY0tLKApKa9IDPISZBr6CWoZIRPZmUNI1MuRjWYr13ipBaduKno26tPMaxYpjKrL5RdHV6IlS6HTKsrXLXJbrscsNEGWx1o8H1mOgftNInDJhpRoa9e+igMU2wXj+cX2Wif/bbabZdfZ7jivNbFIX64K2wnAfpdSygRqerBPS8TAA==");
 
 export default UpRight;

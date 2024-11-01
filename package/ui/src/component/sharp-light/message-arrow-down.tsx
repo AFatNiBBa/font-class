@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-arrow-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-arrow-down?s=sharp-light message-arrow-down}
  * @preview ![message-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/message-arrow-down.svg)
  */
-const MessageArrowDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 416l-32 0-96 0L0 416l0-32L0 32 0 0 32 0 480 0l32 0 0 32 0 352 0 32-32 0-176 0L192 490.7 160 512l0-38.5 0-25.5 0-32zm0-32l32 0 0 32 0 36.2 94.2-62.8 8.1-5.4 9.7 0 176 0 0-352L32 32l0 352 128 0zM272 112l0 153.4 52.7-52.7L336 201.4 358.6 224l-11.3 11.3-80 80L256 326.6l-11.3-11.3-80-80L153.4 224 176 201.4l11.3 11.3L240 265.4 240 112l0-16 32 0 0 16z" />
-    </Icon>
-);
+const MessageArrowDown = createIcon("message-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABagAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBdAsGAAE2AiQDCAQgBYMtBzkb/QTIHgVuywOncK6O0EIz2CVUXxpCPP//+/1vrn3Pt3O/IkmsQtIk1tzqq+Cl0ixUPEOov4Q3qGTytWhN5wJAagMELlwiBUQKyJioVudly+pdnQIqFubp7935P/8b8Bl9tLFw6T8f2+eszhMIfCzawIGUBZZpApa1s18YhJt80lO+T4btDaM7tPxhiKnPguB9+dD8Y3dDaQOAbAKACw9G+8HPM0+2p0eyrRcEchFwEMOAAXsxcJpQsJfIQdA0YZ5pCv+BBAGyCC9ToGEBz8AMQANlaG3fbrdSvNbuj+L+oCt7MiQZ16Qivd9NILh87KPIg1ijHIespjI+wdyZjGBMGauoJRN2OOYM2x+Pw1903Q/n5W4PEN0RZhGa87pfO5fxz8eBcBY8ps7ikOLXLN6si+cbHZyo4sy8uXEDnK/t+W9mOJd0bCI6gCA80v06s1H5vzwW+Pv76wf/iia+1BewrEAYjk5MFqAIAKDyjquAoNwjhHdd9UFAdASURV3AYA8dBpruCAYW7JfFwKLuDqG0FbHL1ABl1UswOOUUNLvcgwWnvZuLdkXoYqyDsB+8pIaE6qsoGUtQibapznkNnRbLZJYDx7EVpKNYtmPboSWL1hwKcl+/c2RLQ4PrvogkxSSQEjouXvdPWLLvwJod23mZMrqvBxzrw0HSBEB5TKQUqR2OF47O7e/vnETfHgAA");
 
 export default MessageArrowDown;

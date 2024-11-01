@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-eleven-thirty` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-eleven-thirty?s=sharp-duotone-solid clock-eleven-thirty}
  * @preview ![clock-eleven-thirty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/clock-eleven-thirty.svg)
  */
-const ClockElevenThirty: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM158.7 153.3l39.9-26.6 13.3 20 64 96 4 6 0 7.3 0 136 0 24-48 0 0-24 0-128.7-60-90-13.3-20z" />
-        <path d="M232 416l0-24 0-128.7-60-90-13.3-20 39.9-26.6 13.3 20 64 96 4 6 0 7.3 0 136 0 24-48 0z" />
-    </Icon>
-);
+const ClockElevenThirty = createIcon("clock-eleven-thirty", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABegAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBawsIAAE2AiQDCgQgBYMtB2IbHwXIFkpL8PxaWb3fPRMA6kQBgkImB+zXblQUwh1rZj3T37vzf/7pAz4Q+WMNkAU0V/M8gc6n5nmXQEKZRpFru7PNqfZKkmY0jsvmeKhD5wF5fJqdUiLdTO9wlf4HMH7VyimSWhmAaAiAMXNnTvboq/gqxbvKA+KdSQiIsaAQyJChrQDDZQJt5QrkcsFXqVLhq6hUCgKIMvohMlBGCbOxEpCDJKQ8b9WmVZ1SvXxOnVLtuSEi5kTrGBatYnY0CyFE7fhiTMTjye/rXJz60binc78c+2TKh9oXJr0b/WjW3GGDh83xob/dqaph1e8d361558cOLfF1xw2b76n9nhq11AA1nNNSb49MqEWr6sfjxj2ublXLhKuVfW/NfmwaN1pa9DQIBPf/u/fx0gbD/69ZJ4FvHv75S/oiqTxKUhVqSiDIule6W5RAIgAAKfbolLiPQKa/JLxrXdcECLURICmrLUCmjYYC5GrrJkBJewMEKKttpkzktYSmFheQ1LUdZAY6DHJNVYOS4V6GZU0jcy/cOfDfXczEoQnHij49exdDi24lEx6Dxv1hxbTSeY9JF7hrja222GW1VdbbFbLD5GS3zSZK8AQfVOijp94KQxXq9paZU7jDTut5Sn/IMMX+oLM98uoucJoE6HswqYxIkbW5jG6P1ZvskevxYBXs2t/DWle24ynjBA==");
 
 export default ClockElevenThirty;

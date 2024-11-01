@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shower-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shower-down?s=sharp-thin shower-down}
  * @preview ![shower-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shower-down.svg)
  */
-const ShowerDown: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M144 0l8 0 80 0 8 0 0 8 0 31c69.4 20.7 120 84.9 120 161l0 24 16 0 8 0 0 16-8 0-24 0L32 240 8 240l-8 0 0-16 8 0 16 0 0-24C24 123.9 74.6 59.6 144 39l0-31 0-8zM344 200c0-70.8-48.4-130.3-114-147.2l-6-1.5 0-6.2 0-29-64 0 0 29 0 6.2-6 1.5C88.4 69.7 40 129.2 40 200l0 24 304 0 0-24zM242.1 472.6c-1.3 2.4-2.1 5-2.1 7.7c0 8.6 7 15.6 15.6 15.6l.8 0c8.6 0 15.6-7 15.6-15.6c0-2.7-.7-5.4-2.1-7.7L256 448.2l-13.9 24.4zm-13.9-7.9l18.6-32.6L256 416l9.2 16.1 18.6 32.6c2.7 4.8 4.2 10.2 4.2 15.7c0 17.5-14.2 31.6-31.6 31.6l-.8 0c-17.5 0-31.6-14.2-31.6-31.6c0-5.5 1.4-10.9 4.2-15.7zM320 320.2l-13.9 24.4c-1.3 2.4-2.1 5-2.1 7.7c0 8.6 7 15.6 15.6 15.6l.8 0c8.6 0 15.6-7 15.6-15.6c0-2.7-.7-5.4-2.1-7.7L320 320.2zm-9.2-16.1L320 288l9.2 16.1 18.6 32.6c2.7 4.8 4.2 10.2 4.2 15.7c0 17.5-14.2 31.6-31.6 31.6l-.8 0c-17.5 0-31.6-14.2-31.6-31.6c0-5.5 1.4-10.9 4.2-15.7l18.6-32.6zM114.1 472.6c-1.3 2.4-2.1 5-2.1 7.7c0 8.6 7 15.6 15.6 15.6l.8 0c8.6 0 15.6-7 15.6-15.6c0-2.7-.7-5.4-2.1-7.7L128 448.2l-13.9 24.4zm-13.9-7.9l18.6-32.6L128 416l9.2 16.1 18.6 32.6c2.7 4.8 4.2 10.2 4.2 15.7c0 17.5-14.2 31.6-31.6 31.6l-.8 0C110.2 512 96 497.8 96 480.4c0-5.5 1.4-10.9 4.2-15.7zM192 320.2l-13.9 24.4c-1.3 2.4-2.1 5-2.1 7.7c0 8.6 7 15.6 15.6 15.6l.8 0c8.6 0 15.6-7 15.6-15.6c0-2.7-.7-5.4-2.1-7.7L192 320.2zm-9.2-16.1L192 288l9.2 16.1 18.6 32.6c2.7 4.8 4.2 10.2 4.2 15.7c0 17.5-14.2 31.6-31.6 31.6l-.8 0c-17.5 0-31.6-14.2-31.6-31.6c0-5.5 1.4-10.9 4.2-15.7l18.6-32.6zM50.1 344.6c-1.3 2.4-2.1 5-2.1 7.7C48 361 55 368 63.6 368l.8 0C73 368 80 361 80 352.4c0-2.7-.7-5.4-2.1-7.7L64 320.2 50.1 344.6zm-13.9-7.9l18.6-32.6L64 288l9.2 16.1 18.6 32.6c2.7 4.8 4.2 10.2 4.2 15.7C96 369.8 81.8 384 64.4 384l-.8 0C46.2 384 32 369.8 32 352.4c0-5.5 1.4-10.9 4.2-15.7z" />
-    </Icon>
-);
+const ShowerDown = createIcon("shower-down", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAAB1gAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiETgsGAAE2AiQDCAQgBYMtBzIbUAYRlZr9yH4k2G6senA0OqBgKBg2Bk8i+F5n1U+SXRoZh/jPRgwHQJwiZwwpR8Th1UZXDoCqfZ//yz0/4AP8fKDn9w5lLFzTN9hozudZIIn1TmvTBh3LAk0g0ywwz9rZJwzCLZIkhU8/bDJszKCIyxyvRvZI9iXuCk8afxt3PZk8BxBdAGxz0H57ePeH+CHiix7xhd0QENuAJJAjx5QAm8sFphQSCoXgh+j1zH9gEkDU4ZgZKNAmakQHUIBMsyjmZtpjnVHlNmqt4kCdWR3WqBpCfLbFW3OiUY2qGXGCiMe2emeniDjg0aURL+44EvjkKoQYig8XP59EK+Lg+z0wHPHQ6DUjEzE2smzxstEYjiXxgKuH7q8ibh15MK4ZPWhscmxpyMjo0OjCdy3bX+au5j3bffbfuS9P/PKud8ry6NKsrauqb0y37Cov7iq7Y/qqxl6zyk8+qf3Opql91E3b2rS6fUxt+r02ZrmxE7oDRfsHfmgXA9/69puU0l3ukqwt2zff3Ca55drD7v4W+Sz+LpRg/Ez68Gkh/NfP3xwIBHtd+9X3R3U2/69sZOCn1/+d19d7N67OnkUpA0G+uLf48LgaDDKAt5TFhebF1Qhk/teEU216UIBQIUCmrhIgN6krQKGySICaGWsEqKvsJxdFnzDkiAoyTeeA3FpXgMKQ10DN5j7x64Yivw/UaaZeo/FqxxbaYVRasXR52piGeYU+4oTr3yyxhfkX2roFlOnEs848/4TjTzm/gc/dI7rgjB1n6B1em1YsXZ42pu3S/fgDTzj3vFPOOtMPslmSd+ZfOG+9gOQMMFfGMhmRNT4MiecuuSUAAAA=");
 
 export default ShowerDown;

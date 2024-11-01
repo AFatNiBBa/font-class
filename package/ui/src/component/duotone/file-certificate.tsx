@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-certificate` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-certificate?s=duotone file-certificate}
  * @preview ![file-certificate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-certificate.svg)
  */
-const FileCertificate: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M128 64l0 104.6c1 0 2.1-.2 3-.6l15.8-6.5c10-4.1 21.5-1 28.1 7.5l10.5 13.5c1.3 1.7 3.2 2.7 5.2 3l16.9 2.3c10.7 1.5 19.1 9.9 20.5 20.5l2.3 16.9c.3 2.1 1.4 4 3 5.2l13.5 10.5c8.5 6.6 11.6 18.1 7.5 28.1L248 285c-.8 1.9-.8 4.1 0 6.1l6.5 15.8c4.1 10 1 21.5-7.5 28.1l-13.5 10.5c-1.7 1.3-2.7 3.2-3 5.2l-2.3 16.9c-1.5 10.7-9.9 19.1-20.5 20.6L192 390.2 192 496c0 5.9-3.2 11.3-8.5 14.1c-.4 .2-.7 .4-1.1 .5c-.4 .2-.8 .3-1.2 .5c3.5 .6 7.1 .9 10.7 .9l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L352 0 192 0c-35.3 0-64 28.7-64 64z" />
-        <path d="M512 160L352 0l0 128c0 17.7 14.3 32 32 32l128 0zm-402.8 1.6c-10-4.1-21.5-1-28.1 7.5L70.6 182.6c-1.3 1.7-3.2 2.7-5.2 3l-16.9 2.3c-10.7 1.5-19.1 9.9-20.5 20.5l-2.3 16.9c-.3 2.1-1.4 4-3 5.2L9.1 241.1c-8.5 6.6-11.6 18.1-7.5 28.1L8 285c.8 1.9 .8 4.1 0 6.1L1.6 306.8c-4.1 10-1 21.5 7.5 28.1l13.5 10.5c1.7 1.3 2.7 3.2 3 5.2l2.3 16.9c1.5 10.7 9.9 19.1 20.5 20.6L64 390.2 64 496c0 5.9 3.2 11.3 8.5 14.1s11.5 2.5 16.4-.8L128 483.2l39.1 26.1c4.9 3.3 11.2 3.6 16.4 .8s8.5-8.2 8.5-14.1l0-105.8 15.5-2.1c10.7-1.5 19.1-9.9 20.5-20.6l2.3-16.9c.3-2.1 1.4-4 3-5.2l13.5-10.5c8.5-6.6 11.6-18.1 7.5-28.1L248 291c-.8-1.9-.8-4.1 0-6.1l6.5-15.8c4.1-10 1-21.5-7.5-28.1l-13.5-10.5c-1.7-1.3-2.7-3.2-3-5.2l-2.3-16.9c-1.5-10.7-9.9-19.1-20.5-20.5l-16.9-2.3c-2.1-.3-4-1.4-5.2-3l-10.5-13.5c-6.6-8.5-18.1-11.6-28.1-7.5L131 168c-1.9 .8-4.1 .8-6.1 0l-15.8-6.5zM64 288a64 64 0 1 1 128 0A64 64 0 1 1 64 288z" />
-    </Icon>
-);
+const FileCertificate = createIcon("file-certificate", true, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABxwAAALZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDWwsIAAE2AiQDCgQgBYMtB1wbCQbIngV2w/WGobGAohm8agynh8dS4+Frvy/P7X7za4e5FwEChI4QVVxUHJHbqKm1UUt64KG/+f5q0jovG1szyQL6GmEXSSALJA00osl9wJ5yxIHmbWdnc1nR2AwVoWe1/n7icvxrN31MTTi0PWwPjefkLoEAu6yL1hZLKKJMuMF5gw+6OpQfoYp/c6sjvZV+xwvm/wDG//o9iqQ+A4g2AGw8fnivH8fEpvp9/BC/24OA2ASKQEbGkABrZIEhlYJKJRhLwFiQIYCoMcnMVUPAn1eeBFQgyaKqGi9tPtBY11wdozs0XHfs6DHxYPdr3Hj562lXvApDn/b1WapXu7vjNUl3f7w11TAsr6tjZegr30BEb3wxOBhv9CLVGz098bpGDMTb06bps/iUrngV7nHkg/qb+Sre7S/367xIeGaYYdH81Pisvx/ps96+DRP64s1pt4kHu57GQ10P4aGG1xqb44vZ33iOhni653UE3v7pjC9t0tfy9cuf5WG8dvvnH9Ty5JMtD74c549N+4LTdJQ2uf0kv102S+kyl/320p7blHSaG9U/epe9wQ3ufsT6NzpNGqh9m/2/nUzK5bhQ2r+jb815SjnfrPnU6ftUEM8DD9yA0sl5VuSHVJXa/+PXA3PwLia6wFPuDiA21Pgwam8ojhzwYfF9IBCs2jk0Xda65rwXJnDqh/9HV3ojpa8xQQJBnjPecHHSgcccwS6luNck6Hrw/AH3toQ+tcnrBAgNCJDUNAiQDWoToNJgtgB1RiwVoKbBYVlU9UKXSzJl0uQOZbbMfcpKl++Vddb4qVjTFfmxNj6Uxr/KbNuK0NZlZZy3oKwqrTWJ6UnVa7Ory2BfcS/vmQk3utZtbnW3a1ztBncXxHfaW7nHLbZ1cVt9UbHQPAsUq5TJzau2Y7h0p7vc0GyevshqZfnIDPd2D58Jg4mtc5E1WSZS5L53qHfuu+aa+40MHqi1vBEA");
 
 export default FileCertificate;

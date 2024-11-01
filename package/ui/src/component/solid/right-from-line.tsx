@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `right-from-line` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-from-line?s=solid right-from-line}
  * @preview ![right-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/right-from-line.svg)
  */
-const RightFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M313.9 105.9L436.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L313.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM64 96l0 320c0 17.7-14.3 32-32 32s-32-14.3-32-32L0 96C0 78.3 14.3 64 32 64s32 14.3 32 32z" />
-    </Icon>
-);
+const RightFromLine = createIcon("right-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABZAAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBRQsGAAE2AiQDCAQgBYMtBzYbywTIjsM4hvwSSxniJYbSEtSvffa83SMK4SYKiEm4s3FR3wWNuIpNRaK6ZK59/59rPj9rOsBvdCiZy6RI734+geHAUpNkNrABTXwCNmtnT74kusUgRUgyjDdsFnXoXCGP99kNZaS36TsepzeNnzq7QVKVAYhGAExdvXyhUku0RHxrjfhmPgJiKigEMmToJsAEmUA3uQK5XNASra36H1gQQJQDmli5fXIWFgNykKQ879OhpqwuX+Wuq969ctXKl660WxEvqu91eBUR1eHhasfXNTU199uvSlnaENXK+ksv9W5ubP7Vyy7GrjwHNrGOzTlv6+vfav0kV9TfuVM/RbJXTDJgTfh/1RTwrTSRyveAQHC/X95nc8OE35U1Cfz4+D/9DUUpNaNSAkE2oHWADVGCKAkAQIpTekcJgWSSBK9a65UAoRoBknLVAmS6ahQgV62/AGV6GClAuWrLZSKvEtrZWCGpdRQyo1yEXDsfoMwEnwrl2kVGJZEI4ksubdbIzF3F0EFDinHFtKNI7ODD5vhi29PnlIm+ctIuhx1ywk477HUi+piF5ZMOmrWiZvqgwlCDDFEYpzju3x9eZadjjtvrsENxm/GK+4k+Tq3n9xV/AsZh9iSJSA2/8vKk0wfSDQAAAA==");
 
 export default RightFromLine;

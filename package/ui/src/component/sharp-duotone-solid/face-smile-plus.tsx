@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-plus` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-plus?s=sharp-duotone-solid face-smile-plus}
  * @preview ![face-smile-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-smile-plus.svg)
  */
-const FaceSmilePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 288a224 224 0 1 0 448 0A224 224 0 1 0 0 288zm112.4-48c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1 0 1.8c0 .5 0 1 0 1.5s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zM116 367.3l24-21.2c20.5 23.3 50.6 37.9 84 37.9s63.5-14.6 84-37.9l24 21.2C305.6 397.1 267 416 224 416s-81.6-18.9-108-48.7zM336.4 240a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M568 0l0 24 0 48 48 0 24 0 0 48-24 0-48 0 0 48 0 24-48 0 0-24 0-48-48 0-24 0 0-48 24 0 48 0 0-48 0-24 48 0zM144.4 208a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm160 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const FaceSmilePlus = createIcon("face-smile-plus", true, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABtQAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDMgsIAAE2AiQDCgQgBYMtB1ob3gXIhoevnNn73bIrI4VBIfaEcfEETLdNOQuAdCQ6e/6vqRd0dA346YrgUO4WFSBrjMjnExhgtDdNaELTmY0cNzjvZJoR0hXKL1CkyflUDdJV6V1csP0PYPxqmFNJujKA6AuA1Tttt60Xf4wfU7zbeZR41zYIiDWgFsjIGCnAMllgpEKNQiH4MXU6/BidTk0A0XT8Ehk00YUn8QqgAElWFMXYAQNGzOw9oGr0KnasGuVxgqgqUZZClBERUZYRVRURUe19zqCIy7QHXlqePfjywVcMuaKqeCJu6g49tOVb8hVbvzP3kfE3z3l4q7f7nC3ebD1Y7zSGI65wN192ctvasTna2GYKgMQvHXhpmnt2mD5l+n3r35g9NZ7d/vMVO7UHRmTQ+J8w7u6+d/8+9t0D37XwhaFHuKU1YkNbiEY2744Pep/Jmb1XpYJ6Ib1G3MifdGPPl/l4xbZLl2674uOXezJ1XeSo2b1coV7b5k2MHCkQp24sSyFSmjAvUShvOv7I/6/V+u9416+OM3L9N5ty1eXR5HwdCATvXf7rlXv1WfZ/jyqBn5/+8xfwvM6LqZ3uRg8JBHlGZ4bdUxs6aQBfKsWJxqW2oxHIDlE43rWnywUIJQIkTaUA2Qh9BSiUpgvQMNp8AZpK28mi6BIG2oOApKdjQLbASaAw0COgYZk3Ek0DI1/CugtQ9wOZeQOLrl9Wd89q1UtqbR3SX5WaeX5p7eyecmLfN7U860BHOdLxDrC/QxzPsMfaNn2CI2ww4et9UK3bLC21Jerg1qJ5RyZ0rON6jdoYvshSdfr4FCeaR08tfckhO8eGLBMp8pAXxDPzuA+IZeZTYJ/5OgwdpjLe+wA=");
 
 export default FaceSmilePlus;

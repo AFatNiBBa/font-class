@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-slash?s=sharp-duotone-solid toilet-paper-slash}
  * @preview ![toilet-paper-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/toilet-paper-slash.svg)
  */
-const ToiletPaperSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M8 512l325.3 0c17-40.8 28.5-82.5 36.2-124.9L66.5 148.4C64.9 162.4 64 177 64 192c0 89.9-3.9 190.6-37.6 275.8L8 512zM94.9 50.9c95.7 74.3 191.5 148.7 287.2 223c1.4-27.1 1.9-54.4 1.9-81.9c0-65.5 13.2-142.4 60.2-192L160 0c-25.1 0-48 19.3-65.1 50.9zM416 192c0 48.6 9 92.9 23.9 126.7c27.5 21.4 55.1 42.8 82.6 64.1C570.6 372.4 608 291 608 192C608 86 565 0 512 0s-96 86-96 192zm64 0c0-35.3 14.3-64 32-64s32 28.7 32 64s-14.3 64-32 64s-32-28.7-32-64z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const ToiletPaperSlash = createIcon("toilet-paper-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABiQAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCBQsIAAE2AiQDCgQgBYMtB2AbNwXIhofv7f6/tU/3h8gMCkFExhjxqwkdTXxHTo03Xmr8cgmKdp5dLcjDh/fGKzDRe2nDxwObzRRn7fzvi0F9RpLgkwybGxY5QJ5aZPsVI51N3+Kw/g9g/KWW/SSlMgBREQCDZkwZ531RFKX4tvCY+NZYBMRg0FAgQ4a6AvSVCdSVa4hcLihKhQJFUSg0JIAoTu+fgeIogXnYAshBEvI8r1ShUqUqZYqVy6frlNJzmjVvtimaRdtoHptlsw6NypUt96jJ4jjjt6m/Tm0757dpEfTGy3GtyfUBZeNxx0W/dXrR61mXRzN+7/yw++OO96eW2VMn4nyNk7XO2l3zTNVTtc9F43sV7/3T6Nvl36r77iUIfqW9z9gk7RomwoHuY/7VtIYhxUcUH15zYJ3p3w7rNrQbo3qN6lmzVXzyS7W6Fh0ZeMCopYcv99qy1RiTbt7cs0ckkxb9e9jz44979tTJjLsdCAR3ty07t6BC3/9Llkngj5f//UnXK7xPu9M9lJRAkLUttDU37QZHDMBMsV1j46tKCmSGysVPLeuUAKE0AiTFlRYgU0dFAXKltRGgmPq6CVBcaVNkIi8lVDWv4ElZm/BMdzvwXFWP8GL6+sIormpkWGOQwnz1EofXwLBJDTu179iwd8NpILPwocKwT8NlueV2X2jFUy23wXpbLbPUKlsraLNx9jbrDLfAYX6ooU7a66ih3hpux7fidDE222LVmN8f00fD83pL2+36VqwlkbSz+ZmMSJHV3rph1dplW9uh2tluy9pFW1a2Q25d3T5/UQE=");
 
 export default ToiletPaperSlash;

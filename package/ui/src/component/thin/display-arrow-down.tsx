@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `display-arrow-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-arrow-down?s=thin display-arrow-down}
  * @preview ![display-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/display-arrow-down.svg)
  */
-const DisplayArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 0L248 0l0 16L64 16C37.5 16 16 37.5 16 64l0 288c0 26.5 21.5 48 48 48l167.8 0 .3 0 111.7 0 .3 0L512 400c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48L328 16l0-16L512 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-158.6 0 13.3 80 73.2 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-80 0-144 0-80 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l73.2 0 13.3-80L64 416c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0zM80 64l168 0 0 16L80 80l0 256 416 0 0-256L328 80l0-16 168 0c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16L80 352c-8.8 0-16-7.2-16-16L64 80c0-8.8 7.2-16 16-16zM225.4 496l125.1 0-13.3-80-98.4 0-13.3 80zM296 8l0 236.7 74.3-74.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3l-88 88c-3.1 3.1-8.2 3.1-11.3 0l-88-88c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0L280 244.7 280 8c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const DisplayArrowDown = createIcon("display-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABmwAAAKcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDCgsGAAE2AiQDCAQgBYMtBzkbkwXIrgt4GVYGtxdjhxTPwYwct82cLNKfHs0rlfvyLPHwtN+vc+cNKs27WcIbSbQSIqQEybXSPBQ2tPW6efP3P8bcm5j/iXkywUQSjZIlclSPa5RKIy3kNUAEcXt4Pub239QyHrNp4rpGStq8gqcKIZHMSg+Nisu8rl7fMwRH/38ux7UtWiCfIwhlzI1rLIGeH+BdUfHYnEiYbUFv2Rz4RRwPbYT4DeT428EhHTKBnflO4x+DR5KiEIBoBACzG9M9DH/H74hv6ZP40gEBMQegGwMFCrRjgAksgXZs3SDLgt9RGov/QIIAolyaaxLIKMctngFZhZKzNnYIWjW6T7nJps5CVO1KVHNVp3qFSpO5XYAte+gKk0qtzT3OGeXmfxkUSt/ThXCjazJNqnacXFvoXCaMau6Bt1GlCX68/YB+BR91VmCoVZBUD62KlM2UuDHqcBkMG7GvydTDhKodS3W7bUR8c7XRB2/y90g7qp8/za8j+TH4/Vd0Y337PgjYAg93vVCzLoqFUuG45uVZ6hbQslFevp34Q4gtiBfwpNSOaRZG8ooLPNjTf9dT//titu66ND7JArbsrLX/N/nzY3olnZ6fTDzBrbmEd73VCHdzgwsEgp31pon/fFcR+Pvy/HiloTLDfAKVEgiK3lLISpoBEOwMIJjiDIfigQLJqay5ptaeAKEaAZJy1TsU2sghq9YDZTqlNyhXbQVLZFtCq1UIklrbUBj3AFmrdygz4TdQrjVUaBXCmvBfMVn9TKghUTwSowJ91qwiAOTns0Uy1vnuZI8fr8Cec2du7NpxOHNP9Cu98K1TdRWt5olIXEQMKSDn5nfZ3Cl45drhu8h9HkUU3uVzpx7ux0amhuOwsiQRKYnPieHN/dX5fTgaAwAA");
 
 export default DisplayArrowDown;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-to-dot` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-dot?s=sharp-light arrows-to-dot}
  * @preview ![arrows-to-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrows-to-dot.svg)
  */
-const ArrowsToDot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 16l0-16L240 0l0 16 0 121.4L187.3 84.7 176 73.4 153.4 96l11.3 11.3 80 80L256 198.6l11.3-11.3 80-80L358.6 96 336 73.4 324.7 84.7 272 137.4 272 16zm16 240a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm70.6 160l-11.3-11.3-80-80L256 313.4l-11.3 11.3-80 80L153.4 416 176 438.6l11.3-11.3L240 374.6 240 496l0 16 32 0 0-16 0-121.4 52.7 52.7L336 438.6 358.6 416zM96 153.4L73.4 176l11.3 11.3L137.4 240 16 240 0 240l0 32 16 0 121.4 0L84.7 324.7 73.4 336 96 358.6l11.3-11.3 80-80L198.6 256l-11.3-11.3-80-80L96 153.4zm320 0l-11.3 11.3-80 80L313.4 256l11.3 11.3 80 80L416 358.6 438.6 336l-11.3-11.3L374.6 272 496 272l16 0 0-32-16 0-121.4 0 52.7-52.7L438.6 176 416 153.4z" />
-    </Icon>
-);
+const ArrowsToDot = createIcon("arrows-to-dot", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABkAAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCDAAsGAAE2AiQDCAQgBYMtBzQbhAXIjsK25RNRZYSZEwqe7oie3+919rwbINKJStqqsiU0urLCxRVY1bMyFZpJqG/w+7m7b1OLe4hJmzRUJEGn0vkR0+YlUElL5F2cep7zUM6nUdCyn7IHJt1Ac+IUKHCp9foCrxWspgXQMvXaHGoJ5hLK30LbFVoemQ2Veiz94GZ40/y05BhK6wCQSQDAiWtNNXj7zbvkp3cNee0UCOQkgE1Ehw6rCA6TBasUm6Bpwjv24uI/UECA9CP9sAINA3gCXgJooPQ1JcmTFAxaVJvSalHNY0SGichF+plOH1voY4BtDDCTXtaTLQf+8Mx84r1nf+7+yGngYVr8Pn8r/fSymV5mMMAmIjJCkmygj1mj6VnpPjbQbEZGLPVb2Cs1P4/lNm/Ay/m3IGsCGrcAt0ITfkpm4sXk099bP6M/Jl45J50CThtCdKMe1J2DTs/nH4zShWxMxMb3gf1x1ibc6PlD6rVvk9Ndbr82mooHFNt4wbxRvIffzD+jHtdTe3enUVtvBwThzd+Xe32O6v9BiwT48BD7r3yLem+lngIGFQjdTjxbdwGKAAAqq0gsICgPqeirjnqAIIYRUPoNC+iscCJohm0j6LOuBEG/YZfI0kyIWT0tXUZdpzuH7NDNrEu6z2HvRb/ZyIDKgxn/mxhE+0jkmCjIzReVYrGtFmCPtetVYreWvirHMvBFjJoza9mIYROWe9iimuqKGdE1NOKDhAK58gmVxOneY2il+KIlE8rs+UOqiPujdKvrszOwKUmMu06UImUbWPyOWnOW53KG55YBAAA=");
 
 export default ArrowsToDot;

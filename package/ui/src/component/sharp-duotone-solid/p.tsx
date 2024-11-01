@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `p` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/p?s=sharp-duotone-solid p}
  * @preview ![p](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/p.svg)
  */
-const P: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M64 288l96 0c53 0 96-43 96-96s-43-96-96-96L64 96l0 192zM0 352l0-32 0-32L0 96 0 64 0 32l32 0 32 0 96 0c88.4 0 160 71.6 160 160s-71.6 160-160 160l-96 0 0 96 0 32L0 480l0-32 0-96z" />
-    </Icon>
-);
+const P = createIcon("p", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXAAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBKgsIAAE2AiQDCgQgBYMtBz4bugTIngVO2RSH0zm1muKugwitE0GfNz9CPE/dy3vu7v5arFQspYLUJMIBC1isUTDgAf4Cb4KJwPP/2c/dqdSlvS2JShJTTJtYS79i9Tc0QokcEhWaGaGXd6sqeK6euOb5nz+1FwBG4583RYNFr88nsPNqH/iANpGZzsC2O61ISy2PY2nBkvwSx+kJLdV6a4DyswBf6X8A85/GLcVIBUCmAQD3n2oFsF26ko/+nrzLg0AeAKs4qKhYxAFXeIJFfKugaUJX+h669D1BgAyCPqKCQTScgTsADRSUxlfpZAMKfnNMIG2NSWVPm9fOxFfwFMQckMm+rt/4vFq9ikdG9+sZte81S+K/xuBeYsRh5nIMtidwwCJH/5LmfLznkUmMfe3YGEkgY4AgbPz+OxupIr/JuIC/f37+wd9R3+WuMBhWQKhb/1v6OQVyhwMAKDmlzx0gqPZwxXcd901AjCKgGDQqoFqgxgHNqE0cMGCZFwcMGvWKJ02CmDfIRDHuM1GdOCOaeXfEgCvP/qD51OsjHL7weUvNSSC7ipw2B4Wom2PxRnBhMUzDmuHU94zwEEt7dh1bmNtwLKBDhejEjpwGZn0RcbJxICE0XV2qTeEfOrLRlueXCaP1usGpPt4I6+ECDjb+QiWFw5Psb79BRcbySwMAAAA=");
 
 export default P;

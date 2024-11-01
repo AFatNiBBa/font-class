@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-root` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-root?s=solid square-root}
  * @preview ![square-root](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-root.svg)
  */
-const SquareRoot: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M282.6 78.1c8-27.3 33-46.1 61.4-46.1l200 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L344 96 238.7 457c-3.6 12.3-14.1 21.2-26.8 22.8s-25.1-4.6-31.5-15.6L77.6 288 32 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l45.6 0c22.8 0 43.8 12.1 55.3 31.8l65.2 111.8L282.6 78.1z" />
-    </Icon>
-);
+const SquareRoot = createIcon("square-root", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABWAAAAHjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBHwsGAAE2AiQDCAQgBYMtBzIboQTInge285QraBoWh/IsCSIe/n+t8r5fNdS9DLVEpIDJEZAauxwVR6CBbE5k3EJ9Mdfre7KE4E+dep7zUACfQxC0MW3pxAm253kEIpaLJ10g9WXFWkWx1s5uYeD5TdInPskw8cNmhzx+zU6oIN1N3+Ny+tD4V0snSGoyANEAABMWzp3jy7/ir4jvPr8mvjMLATEBFAIZMrQRYLRMoI1cgVwu+Cs+f3b/gQUBRCV+vARyZBiM0YAcJJHnvcsVdfMF5YrSxvvdIm6Xy3G+6U1HmtwolWJR3On8otWCKMW5ZrfiaHPlttc95sfSjrUNav/rhlrtnlfmQ7Ov1Ttzpl5e/9qmTdYMGv9kPX0H9+yrf9/xO83rAASC3a9/of7o/6vLCfzzxZULPv+ZxqdaVEsgyHp/ZhkZENEBmCkO6IivIpD0lvC71nFLgFBCgKRSSYBMaw0EyJX0EqBCO0MEqFQyVybyGqGJ5Q0kdewGmaEOglwTL0GF0b6yKjWJzG7IWye/bXFTJTRlqRjQt38xsphGKmUKeJiOKpaF7gd8pQc2bbDTDvust85m+wSyxxx3v+2mavAUP1QYoK/+CiMV2+n9+gLr7bHXZjvtoDmjFOeV7g7o7T0gJ4w5kCdJRCq/Pb6PUQMAAAA=");
 
 export default SquareRoot;

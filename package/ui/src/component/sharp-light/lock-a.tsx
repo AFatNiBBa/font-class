@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lock-a` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-a?s=sharp-light lock-a}
  * @preview ![lock-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lock-a.svg)
  */
-const LockA: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 128l0 64 192 0 0-64c0-53-43-96-96-96s-96 43-96 96zM96 192l0-64C96 57.3 153.3 0 224 0s128 57.3 128 128l0 64 64 0 32 0 0 32 0 256 0 32-32 0L32 512 0 512l0-32L0 224l0-32 32 0 64 0zM32 480l384 0 0-256L32 224l0 256zm232.7-80l-81.5 0-21.9 48-35.2 0 1.2-2.6 82-180 4.3-9.4 20.6 0 4.3 9.4 82 180 1.2 2.6-35.2 0-21.9-48zm-14.6-32L224 310.6 197.8 368l52.3 0z" />
-    </Icon>
-);
+const LockA = createIcon("lock-a", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcAAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBegsGAAE2AiQDCAQgBYMtBy0b9wTIhof/n6u67ydpSIYhw0zrgPw6plILREb0WUWsa+Jc5ztfnydv4kOLstSBRNluFF95/gIvVhRNLxQF9vqC9rpNhqCHFH4RIUES0fHZcbaDPB6NiQrSw+kH3F8/NH7V330keQYgugFg2Z4dm3zSER0RPzTfJH6wAQGxHNQCGTIMEmChTGCQXI1cLuiIZpP/A2sCiBb2nAnkaMVRnAHkICnyvNvQ9v6tVdE5310V5QGhiognxjdmvzH2pUFTQzy75OM1Xy76cJioKpFClJ0isoioUudOnbPoFGlPWZUTo4y+sYeIKnrHrlXLmDxg+rTpU6Ma3ujW+H3YD6d/cOeSpch+Yqm2RuOuu2C2Nf1excwVW7eumFkstbSuUaufakZ9F3G4i5+2bF9yxAjJttet1ctaTScjHPnzIaBmuigQvPLMF80jXRf+31Yl8ON7f/6Nzm5+Ep+kBtokEGQTmxMdjE+A2QH8pBS3GR6fIJDsVbBr7eQBAUKJAEmLUoDMQN0EyJUmCFAYYpYALUo7ZCJvF3o5NJikk2tMZrbbmVwvrzOFhb72WvSKLMukHJH+eOmrPbBqWj1t8tR6fr0sdDlxBB1fUG+bY2+TtnFY6LQrLrvplJPOuenw6zaFt1yyOgJX+aLaNJNNVZuvPq49z97tlOtuOOeKy2WSBer77li3xb3HwUmMd7pckojU8vqtSccAAA==");
 
 export default LockA;

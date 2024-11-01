@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `frog` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/frog?s=regular frog}
  * @preview ![frog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/frog.svg)
  */
-const Frog: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M322.4 113c-5.9 17.8-21.6 30.6-40.2 32.7C150.4 160.5 48 272.3 48 408l0 16c0 4.4 3.6 8 8 8l182.1 0c.3-.3 .6-.7 .9-1l56.8-56.8c10.4-10.3 16.2-24.4 16.2-39c0-30.5-24.7-55.2-55.2-55.2c-14.6 0-28.7 5.8-39 16.2L169 345c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l48.8-48.8c19.4-19.4 45.6-30.2 73-30.2c50.2 0 92 35.8 101.3 83.2c3-6.3 7.4-11.9 12.9-16.4c4.6-3.8 9.5-7.3 14.5-10.5l135.9-86.5c4.1-2.6 6.5-7.1 6.5-11.9c0-6.2-4-11.7-10-13.5l-70-21.5c-16.8-5.2-29.5-19.1-32.9-36.4C410.6 96.5 391.2 80 368 80c-21.2 0-39.3 13.8-45.6 33zM434.1 371.3l54 58.1c1.5 1.6 3.6 2.6 5.9 2.6l58 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-58 0c-15.6 0-30.4-6.5-41-17.9l-23.5-25.3-28.7-31-16.4-17.6-16.4-17.6L355.4 384l-20.3 21.8L310.9 432l48.6 0 .5 0c4.7 0 9.2 1.4 12.9 3.7C379.6 440 384 447.5 384 456c0 .8 0 1.5-.1 2.3C382.7 470.5 372.5 480 360 480l-49.1 0L56 480c-30.9 0-56-25.1-56-56l0-16C0 247.6 121.1 115.5 276.8 98c12.6-38.3 48.7-66 91.2-66c46.5 0 85.3 33.1 94.1 77l70 21.5c26.1 8 43.9 32.1 43.9 59.4c0 21.2-10.9 41-28.8 52.4L442 309.3l-30.7 19.6c-3.5 2.2-6.8 4.6-9.9 7.2l1.7 1.9c0 0 0 0 0 0l31 33.4zM368 120a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Frog = createIcon("frog", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABnQAAALgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDCQsGAAE2AiQDCAQgBYMtBysbhAXILgbsxuWDiAeEUGIT5zR+OMAQpMeKCv4h/97OnTcfCvmSLAh1gbqVO4ili2o/wcO4r3m7bnAGlABlOCmVTUJJcKhbdSjl6n1Q5aZLJgPnozY5nvy2vAq476vzIJABDWGANtiAAx9stH0d3LMnrnn+509/nlbuURb+59H2VrEU2PnO1zaNsgdc2nA2UZzfzseAJJgkXeIlbph+N2z/AKw+xJGkgjlpD2F/+lD9VGwLBo8DAIDiAABAx+XBfbn9N/5GPEhcQA+MAwGoIwCXAAdwgCwCoA0HAVksLrBYBF8jEbX/gS4EAPJSujUAWMADFMIFALAAGBxr2y5mhjwROyz4gtNPq7xc8J1IRxHSRm7U4Diup+JYtV1JA6JoTmUOjspzoWZ59vFUJQ9fBzbGsChpuFvwfI6cHTTwaCik4jpRJahdW0sGzoikqLEmJGk3jiZvACjBkuPNGdKb5Zve5aldWZ0vOjSKcZTLyiHROOLJ2li1uktMt1mScbp6fkVcxW+zid6p0y+XDiMdu2t6Ft4JdwB2SDDt7/8JjBKJPP3g420ulhz2WDZ1yfahDM4IHrrJnNhtcPW+enO+RobHTbCtDMxPHthNWszwWPAP2qzUEPgGH4elxk0No3v/8WVhQEmn0k6fX1M+8zb+a7DlyErXZJq+38rn7HYnfujrjwfga+8/ZDIRADqv2fddx8e2+ecPGQC+P3Ha1dFvepIqBH4MAAKnTqLWmKQOAEsXAFhGy+SDLxJgOC2Z8q5hjgkARBAQAAYvQQSAQ6Y4AsASpDYB4CFHUwLAS5DBHGQDiCRjB24IsxB3aGYtbklyDvfQxh3TS1I4wsqJGvevmNyNAl2nuQ3rNXBbudtY5+WPgeOt3WO1xjJXq6m3Ms188ywx1RQzLSHQIn2dpebqhsCufsjVUD0NuFpxr7NneRixFlls5pq/n0RrLr9ewzLcu6aehQEAGn1mxoVl7LSD+dMBAAA=");
 
 export default Frog;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-slash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-slash?s=thin plane-slash}
  * @preview ![plane-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/plane-slash.svg)
  */
-const PlaneSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M351.4 372.5L290.1 483.6c-4.2 7.7-12.3 12.4-21 12.4L221 496c-5.3 0-9.1-5-7.7-10.1l47.4-171.7c.7-2.4 .2-5-1.3-7s-3.9-3.2-6.4-3.2l-101 0c-2.3 0-4.5 1-6 2.7L94.8 365.3c-1.5 1.7-3.7 2.7-6 2.7l-34.8 0c-3.3 0-5.9-2.6-5.9-5.9c0-.6 .1-1.2 .3-1.7L40.6 358l7.6 2.4 31.4-102c.5-1.5 .5-3.2 0-4.7l-31.4-102L40.6 154l7.6-2.4c-.2-.6-.3-1.1-.3-1.7c0-3.3 2.6-5.9 5.9-5.9l8 0L44.4 130.2C37.1 133.7 32 141.2 32 149.9c0 2.2 .3 4.4 1 6.4L63.6 256 33 355.6c-.6 2.1-1 4.3-1 6.4c0 12.1 9.8 21.9 21.9 21.9l34.8 0c6.9 0 13.5-3 18.1-8.2L155.6 320l86.8 0L197.9 481.6c-4.2 15.3 7.3 30.4 23.1 30.4l48.1 0c14.6 0 28-7.9 35-20.7l60-108.7-12.7-10zM197.9 30.4l13.2 47.9L232.3 95l-19-68.9C211.9 21 215.7 16 221 16l48.1 0c8.7 0 16.8 4.8 21 12.4l96.8 175.5c1.4 2.6 4.1 4.1 7 4.1l124.9 0c13 0 31.8 5.7 47.5 15.3c16.1 9.9 25.7 21.8 25.7 32.7c0 11.3-9.6 23.2-25.6 33c-15.6 9.5-34.5 15-47.5 15L497 304l20.3 16 1.5 0c16.6 0 38.3-6.7 55.8-17.3C591.8 292.3 608 276.2 608 256c0-19.8-16.2-35.8-33.3-46.3C557.2 199 535.4 192 518.8 192l-120.2 0L304.1 20.7C297.1 7.9 283.7 0 269.1 0L221 0c-15.9 0-27.4 15.1-23.1 30.4zM13 1.7C9.5-1 4.5-.4 1.7 3S-.4 11.5 3 14.3l624 496c3.5 2.7 8.5 2.2 11.2-1.3s2.2-8.5-1.3-11.2L13 1.7z" />
-    </Icon>
-);
+const PlaneSlash = createIcon("plane-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABmwAAAKnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDDAsGAAE2AiQDCAQgBYMtBzIbjgXIjlQ1fxCVLutZSQbdGUhns0yIT4gRIUafAQap6yOgCPjK1//iVM04D+V8vUc8SNmtzY0TaG/uVaCgY+Nc2POA1SqKHZw34oBDUkjfAV3+MBED1EH1EtjudCUfCWMjKDQNAADxBwAAaocM6ORxv/SLvHTfBXlJOyAAUgeAjQAaXBGJAFCBhtDeAR0b0NER6Be32/4H2iAAIB4En1YA6IABnAYeAAA6AApN1weVOR2Gjz7YYZgTBg4ZuMc0ZZ9riOy39pXRTcE9sodxrXViSYgMEWqwBItr83UOhyTJnuC1IYNkoOzhYKJDNrsGiKNlDtk74zofMWRHZHhUdFQqMe9zTQnLxMGRmxPPhh1IOGOakihLRibvd+2XddY+61KSKS2Hki4N7wkZvC9xzZO9E2ut+XGX/C99jn05+SWj2ypmu7fM8M1hrVf2ZbS4QH0SemAqcVo8hiEyjnHETEIpJNarRDw8vIjirI+moidgTlRaUG485hJPBpN+kvSpU505jL1dPoNnBwa/YTqoIbABr7U5+M4Ye50gYxXWtu3Itm2WRTWKE2+eHD7s53f40JPHJ5Yy+hK3x+bgnDo1/UHEgIbChjlfyR4GQACBgnfbRo/xq/jm5VAAvH309Tc9091NrVeXAC8UAAJahjuDkWrtDLIPAo4qWUwc/CYEUBxGA/qd7NubEEyoQeGBCRoR+IOOSToYRFMorpw9AA3RvRGCGQVB4WQeaBSxCnSCuQ0GFTyJehAs2u0q32zyz2LGpjbeOMzOzcqxy+zJnFK5A0XdW26vNqcs5jWpcCWTmcNsFjKJiUxjYYucT2diEbNomiMa+SE2uWSRg00Z9u7i/cWDmcR8FjCNOcy2g5Rjn+9PYfF881RoUwS8eSQpFIhyfFmmzAWpZcFUAAAA");
 
 export default PlaneSlash;

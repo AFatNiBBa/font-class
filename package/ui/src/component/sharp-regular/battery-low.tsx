@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `battery-low` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-low?s=sharp-regular battery-low}
  * @preview ![battery-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/battery-low.svg)
  */
-const BatteryLow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M496 144l0 224L48 368l0-224 448 0zM48 96L0 96l0 48L0 368l0 48 48 0 448 0 48 0 0-48 0-48 32 0 0-128-32 0 0-48 0-48-48 0L48 96zm112 96l-64 0 0 128 64 0 0-128z" />
-    </Icon>
-);
+const BatteryLow = createIcon("battery-low", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABVAAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBIQsGAAE2AiQDCAQgBYMtBzIbowTIngV240sRDoizmFloY3nLf9RCBF/7ofvu7gcIHABrYhcXVVSqjnxVjIqvq1CZWhau9s+4mlm5879NINompfVZCYrt2rkxRDfzQy14cMIVBm4Jp3SR8+b/ms+Pjo7y+bdL4UOLtOoFFmDX8wkMcLY3b9Gy4Ww0QZ61sze8JLpN0iOfZJiktDtCia+oivQlwYf4pvFTvxuSKgMg2gQAh3fdDl7+48Kf/0d8cwQC4hAwhsjIGEKwQykwRGUMFEXwQuD/wDEIIGqAu0ugoMIq2AZQQJKLSm9Po9qsGjRWhhXUFKR53tBoQAjRaCZJI0kDSea0L1a7PWt7+j3ukb+Rg/fsBc/P8wsh/uHg6D+SuDCjHJ49VFG8cMBQQPzkPn/9/tDO1zUqAD/u/v5NN6aD9IQ6CQR5hhnDdAAwm0A1xTGP8kGBZJYSXrXJRwFCAwIkNRoEyAbZEBQNphFURqQQ1GhwRSmKHqHLqICkyXuQrTkFRZdbUNnxWqnRFfniyMcu/9sy2hJqbZPFcFTyMmzLyl0Q/XpBpq2JYzvmo4NYtmPboSWL1hwKdF+nfmRLW0NavkjEhEWJPFnu3e4fWLLvwJod22GTAtmfeR3rs33kKkBwSUOSiGR8psuhV29PAAAAAA==");
 
 export default BatteryLow;

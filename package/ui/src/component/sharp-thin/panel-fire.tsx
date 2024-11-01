@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `panel-fire` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panel-fire?s=sharp-thin panel-fire}
  * @preview ![panel-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/panel-fire.svg)
  */
-const PanelFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M432 48L16 48l0 416 308.1 0c4 5.6 8.3 10.9 12.9 16L16 480 0 480l0-16L0 48 0 32l16 0 416 0 16 0 0 16 0 74.1-16 10L432 48zm-48 64l0 56.8c-5.3 4.8-10.7 9.9-16 15.3l0-72.1L80 112l0 80 280.5 0c-4.8 5.1-9.4 10.5-14 16L80 208l-16 0 0-16 0-80 0-16 16 0 288 0 16 0 0 16zM120 256l0 24-24 0 0-24 24 0zm40 0l24 0 0 24-24 0 0-24zm88 0l0 24-24 0 0-24 24 0zm252.7-43.2L512 224.2l11.3-11.3L544 192.2c76.8 64 96 133.3 96 160c0 88.4-71.6 160-160 160s-160-71.6-160-160c0-89.6 85.3-165.3 128-192l52.7 52.7zM576 422.6c0 18.2-5.8 35.1-15.7 49.2C598.7 445.9 624 402 624 352.2c0-20.2-14.9-79.7-79.2-138.1l-21.4 21.4L512 246.8l-11.3-11.3L446 180.7c-19.3 13.6-44.2 35.1-65.4 61.8C355 274.5 336 312.4 336 352.2c0 49.8 25.3 93.7 63.7 119.6c-9.9-14.1-15.7-31-15.7-49.2c0-70.4 96-134.4 96-134.4s96 64 96 134.4zm-96 73.6c45.2 0 80-34 80-73.6c0-28.5-20-58.2-43.5-82.5c-11.4-11.8-22.8-21.5-31.4-28.3c-1.8-1.5-3.5-2.8-5.1-3.9c-1.5 1.2-3.2 2.5-5.1 3.9c-8.6 6.8-20 16.5-31.4 28.3C420 364.4 400 394 400 422.6c0 39.6 34.8 73.6 80 73.6z" />
-    </Icon>
-);
+const PanelFire = createIcon("panel-fire", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABrgAAAMKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDNgsGAAE2AiQDCAQgBYMtBzEbtwXIPgxvjCR+0sLG+o6SpEJ7eY8XqnFu70eikCn4U/DPu195X5Kh/Jk9SFmmIqIC8kC6euraUauqWK0sga0FHry5a7eiNIo8eozv4vZJwixvx3w0n4Ss6ppi/WWbEWVVi0JTCh6Ie/f+WrXPszHPN/gECj2xxIusNIvnaecrTySPKO4CTDi2zScwsg//tnvfsnR3AdUgkdwzidJpAonE6eTAvh2sJMpboBBmLaBMc8ol2iIPSEMovujTI2R9/q+pF2U9wCQeWlQ9j8KI5L0JDPCG3xZJcLy0ieKszXGIiEhyg0Mhz9N/IQ3bg8PUCbjgN4YYzMN8ANe6pPRRugqGjQAAUAcAAJi+Vy7m0VV/KS/SQC8NEEBHAIGABaCaAExiiTyBE4DjCB+UHP+BAhAAlMKTDQAHPBgBHgMALQJGMnZVJYWiKq+KYhm3Ztzv99Y2bZTRnRLmJSspyiAaSNPI7VqQFmpUtCam1Dbim1oU+Qg5I3Xr2qEvKVOnRkeV/5tZdd416anTtbb1orl+j5baOKVWsUq1IriTdPnKxWradz2djqdsmvuZmuE51P2qvXLvsKVz6Vg8tj2iyjfAcJXNt1+7+0GaL3cGQ9ae6fnMPfLlP/PBAj8hSW4/s+cRLFPh7I5MZFlynZ+4Vg4L2Tk+iVvk3yxFwSzH5ySjme/lwQT/e7x6Xl53jQWj+oCW/I2+iyxZ9vhiMfKC5dXGT8WRtWN7Pm/vh48UtRIErGqUy+XZyxEL6l8GfeUoX3UKAEBAOP1St7r0UmUA+LR/1Lv+P/oaCyQZAIKdfweb6nGgrECYMsEZDfgmBIwHJEGqaXcRAPFAAIw4TwCsKvkEwPE6CUBMrWECEOetZClOIcU2T7mRdlxujXFO7hR7KI+Z5EkqrjiwMayPQP0fZJY5Ep29KcSevjAhmE2XISy1bXlieO0JZ8pQO4DscdQRp+y2y36nhOyExdnTDpvj0bP9UNCvR59ggrDcWVvWpNQJJ+2/d1pfZ6LwfaLNGX9yO/wGNQ6oMAwU+o1m7d4P");
 
 export default PanelFire;

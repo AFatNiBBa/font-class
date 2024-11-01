@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ufo` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ufo?s=sharp-regular ufo}
  * @preview ![ufo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ufo.svg)
  */
-const Ufo: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176.6 246.3c-17.5 16.4-17.5 16.4-17.5 16.5s0 0 0 0c0 0 0 0 0 .1l.1 .1 .3 .3c.2 .2 .4 .4 .7 .7c.6 .5 1.3 1.2 2.2 2.1c1.8 1.6 4.3 3.7 7.6 6.2c6.6 4.8 16.1 10.9 29.1 16.8c26.1 11.9 65.3 23 120.8 23s94.7-11.1 120.8-23c13-5.9 22.6-12 29.1-16.8c3.3-2.4 5.8-4.5 7.6-6.2c.9-.8 1.6-1.5 2.2-2.1c.3-.3 .5-.5 .7-.7l.3-.3 .1-.1c0 0 0 0 0-.1c0 0 0 0 0 0l-17.5-16.5 17.5 16.4c3.7-3.9 6-9 6.4-14.4c.5-5.8 .7-11.6 .6-17.2c30 8.9 54.6 19.9 72.5 31.8c24.1 16.2 31.5 30.9 31.5 41.6c0 7.9-3.8 17.7-15.8 29.1c-12 11.5-30.8 23-55.8 33.1C470.3 387 399.4 400 320 400s-150.3-13-200.3-33.2c-25.1-10.1-43.8-21.6-55.8-33.1C51.8 322.2 48 312.4 48 304.5c0-10.7 7.4-25.4 31.5-41.6c17.9-12 42.4-23 72.5-31.8c-.1 5.7 .1 11.4 .6 17.2c.5 5.4 2.7 10.5 6.4 14.4l17.5-16.4zm302.8-67.2C456.8 110.9 392.6 64 320 64s-136.8 46.9-159.4 115.1c-42.7 10.5-80 25.4-107.8 44C23.4 242.9 0 270.2 0 304.5c0 25.1 12.7 46.7 30.7 63.9c17.9 17.1 42.6 31.4 71 42.9C158.8 434.3 236 448 320 448s161.2-13.7 218.3-36.7c28.5-11.5 53.1-25.8 71-42.9c18-17.1 30.7-38.7 30.7-63.9c0-34.3-23.4-61.7-52.8-81.4c-27.8-18.6-65.1-33.5-107.8-44zM440 234.6c-4.1 2.9-10.4 6.8-19.1 10.8c-19.6 8.9-52 18.7-100.9 18.7s-81.3-9.7-100.9-18.7c-8.7-4-15-7.9-19.1-10.8C199.2 164.7 255 112 320 112s120.8 52.7 120 122.6zM96 312l32 32 32-32-32-32L96 312zm192 40l32 32 32-32-32-32-32 32zm224-72l-32 32 32 32 32-32-32-32z" />
-    </Icon>
-);
+const Ufo = createIcon("ufo", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABqgAAALdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDLAsGAAE2AiQDCAQgBYMtByobpgVRlMzJJtnPA9uY9mARSmrBwIgNcq1WWl7cFOFFgi3MNx/gUzx83I/v3PviRwUGJfXqWgZQlf0FqgDO0qW0HS9cwPxpnP9uULqFdlsC0ZaUAH85VBmh/Na/JdP9ya7BHMN1SRwSpXEYRzCWoDSpQvP3p75PieYiskDG7OYCT9BiudVcfY6BkyDzf7nn53d0gJ+P4FD2aqyJY6znCfQ8kHxbIkWBBRQYxtzubIdNlHaSlmZJjsuOVzlBGb9xV5H3cg9cKW8av2DIFKkqAEQnAYDNvQE/vH3DNxSfjAaJT7AdCIhNAkxCKFBgFAIrqAKjaCaBUin4Fv8N/A+MgwCixg9PUKIRL/EeUIJUl+WBnMJuamqp2sr+ntTavFfXEW7icqyNaIkt3PKMU+105t56jVK+WaB0AtVYiM6gAOXl8bJw75/O77Wv1nM2uF12m8UD38LosDfmGfOIXdUhwrvtvN+u/3Fx/5x/ubA/uN8suNBuNeqVDmMLwYXsg63p+pb5LIa9m7PX3WIySCToIs2iIvJWrXKoEkUj+pXJrHzwTey9ew/hyYdPEnQBACHA9LY7lLkDOeHOP8zdMkAQADph3kas6UvEL3Oi83JEkLdYBILYUYzmTv/6gWlo2i1XXD1P8OjYsZMiOe/IHf95Z3rfmVfEf8k+67+4Xs6sPU1f/7f7WofP+D7t0oHxwqiIBMY8Ln3v+Z9FCq5RrsHv3feAIBBc/TgV75B+OJfgxzvXxTtzK7NolCAo5v5lkQwAYgPIZ5wnvnHAQHroKp611W0BQjMCpFqzAIURGAKlZrMQqIzTQqDWbCeqKJuEXtEOUqtToLBsGJR6XYLKit9crTcK92Wcj3k8Jvok5N1HGjIFMZFpV2M9ksrbZrJs5ntoSghHIaeupiMro6gj0BZ/savKZyFeH0QoySgQJmR78CiGRa6lrajz+7uYkfNBgR57sRAcFIw7L5XSL8a+c9c6AA==");
 
 export default Ufo;

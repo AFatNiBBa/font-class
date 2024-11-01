@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `delete-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/delete-right?s=sharp-regular delete-right}
  * @preview ![delete-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/delete-right.svg)
  */
-const DeleteRight: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 448l48 0 352 0L576 256 400 64 48 64 0 64l0 48L0 400l0 48zM510.9 256l-132 144L48 400l0-288 330.9 0 132 144zM321.9 192L288 158.1l-17 17-47 47-47-47-17-17L126.1 192l17 17 47 47-47 47-17 17L160 353.9l17-17 47-47 47 47 17 17L321.9 320l-17-17-47-47 47-47 17-17z" />
-    </Icon>
-);
+const DeleteRight = createIcon("delete-right", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABYwAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBUgsGAAE2AiQDCAQgBYMtBzMb1QTILgacMjs14uHU0USbRTz6vtE84tM2YTz/z3799rlPvphUE5JY/BGLGhIpQRJNgVApZRbVGpWxYk33giDcTRQwKwLH4KJa3xr9thYdCtlkrp1viNf2exXyPv/X5Hv3/Brw8xEcWhRWgvQ4Ip5PYGJ7w0jBtOHZgCbGs2665Uspt7686CUN29MwdYQ2/3mroz4WvOkfml/WPFK6BgCZBQD3njYb+BxkkPwNIz9cg0DuAXYRGjTYROAmsWCTxC5otcIgw6H8BzIESA/eZ4EWHa7BEwAtKE0r0astE1KtpDMhVZFape2mE40KKcKrR92WhsSkpfaTZCJppniSsQKzJAGZMVtSkAWzJrmDbV9AiBlOT5/9QJafaxmY+//Hw1MpqWE1cF5TRhYY+Osv5uBnIAjn3/6ZPv5PMSEC/Py+3Fh3S8CoAqE5HNqNKg0InYC4cmNyChSUB8T4rpPeCYhxBJTeuIDGBgMCrXEHCHS2BRDojXtILK0SsWg8QJn0GjRuuIPWohfQuekr6i1GHFF8PPD/uZSihQvr2ON0c5SXTSoECVuXY7ytmm9pyIKtmNnbuZiaWLoY6qSRXm0VPaTgi5iHkxuL4uPO8+aOqZOzpb1dWyWG74dmN3+yBYYIGc9VlSKlCWb+QQIA");
 
 export default DeleteRight;

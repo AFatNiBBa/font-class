@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `universal-access` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/universal-access?s=sharp-thin universal-access}
  * @preview ![universal-access](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/universal-access.svg)
  */
-const UniversalAccess: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM224 144a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm80 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM131.9 181.4l-6.5 14.6 7.3 3.2 72 32 1.6 .7 1.7 0 0 94.8-23.7 78.9-2.3 7.7 15.3 4.6 2.3-7.7L222 336l68.1 0 22.3 74.3 2.3 7.7 15.3-4.6-2.3-7.7L304 326.8l0-94.8 1.7 0 1.6-.7 72-32 7.3-3.2-6.5-14.6-7.3 3.2L302.3 216 288 216l-64 0-14.3 0-70.4-31.3-7.3-3.2zM224 232l64 0 0 88-64 0 0-88z" />
-    </Icon>
-);
+const UniversalAccess = createIcon("universal-access", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABnAAAAKyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDCwsGAAE2AiQDCAQgBYMtBzcbkgXILgd4MoxXgAAkUIUKzPA71Z5WY033U+Ph/+f+bZ+bvLfa/DKkTJRfAHJAA2osSGIHqGaNRceyrjzAH8v3b9GJRRXUQcV3A7xplq8BR6UTGMhwfPnD/P7ZCKFEoRQjJJtib7pdFoWsfzIkN5P89EKTLLX/83+55/f86AC/HZ3ooe2hi5dNG7v28wQCjXrnbfEssEQSCMBibHfVlkiifSRpTUa6x3N5fO4EeXxiV430WuQHD8qLxl86u02SZQCiFQBmra5Z5svf8BvCd4mI7yxBQMwCpUCGDN0EmCoT6CZXIpcLfg2J/X9gPQFEHV2XQI4meAMfIH8CST3Pu1a1bd6TkVVrnq9vqBVbflaMb0ZUvONDsr8VW9jv/vY++mUW46exwP3Rr7p9MeRwfeQzd/hGWQivZB2WXIsXX2UelN6ErNdbn5ofyu9bHtueq5aKy9q1j+VoH7JCrI12oSSUhdVokNiyUBpWIqKBZHyxrhUFfm6H5ayiQRQRvd/y3/7qB17KsIrGtBe8SItVM81U4fT/4CGP+qrnjHXre3RGKEOuZyz3Pvdza8nH54rq0qWqgMfebo5Gq5MW1CHZoeOMDv40QPtxc50/wJ86zPwdEluHTqrsMb9Wi+Xo7d4cNUzeRjNFFIjr3tzaO7Wj5dT/9KwEfn9/7Vv00iPSW2gigSAbmmBrBCQCAJDirN4RCCSvSoXP2sxzAYQCAZK6QoBMV60EyBWGCFDTwzgB6gprZCJvKrSzbYCkmRMgM94VkGvnHVAz1Vd+XbuQZK2UrVE/i/HzOTRvX9k5fGQ5uVyWOm2ARNqeUh7r7WfDaBBM2q9R5bR99jrkNENOWhadccx8DZ7njUqjDDdSabLyulkeX2+fk045pFGVd5mi/N4e6Ky+eBBYCeGOVkgSkVq9G2nYgwA=");
 
 export default UniversalAccess;

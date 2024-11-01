@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `baby` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baby?s=solid baby}
  * @preview ![baby](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/baby.svg)
  */
-const Baby: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M152 88a72 72 0 1 1 144 0A72 72 0 1 1 152 88zM39.7 144.5c13-17.9 38-21.8 55.9-8.8L131.8 162c26.8 19.5 59.1 30 92.2 30s65.4-10.5 92.2-30l36.2-26.4c17.9-13 42.9-9 55.9 8.8s9 42.9-8.8 55.9l-36.2 26.4c-13.6 9.9-28.1 18.2-43.3 25l0 36.3-192 0 0-36.3c-15.2-6.7-29.7-15.1-43.3-25L48.5 200.3c-17.9-13-21.8-38-8.8-55.9zm89.8 184.8l60.6 53-26 37.2 24.3 24.3c15.6 15.6 15.6 40.9 0 56.6s-40.9 15.6-56.6 0l-48-48C70 438.6 68.1 417 79.2 401.1l50.2-71.8zm128.5 53l60.6-53 50.2 71.8c11.1 15.9 9.2 37.5-4.5 51.2l-48 48c-15.6 15.6-40.9 15.6-56.6 0s-15.6-40.9 0-56.6L284 419.4l-26-37.2z" />
-    </Icon>
-);
+const Baby = createIcon("baby", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfgAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCEwsGAAE2AiQDCAQgBYMtBysbDgXIjpQuZyRDaXn4x+6r+6pqANcARgQyBZcKks76bCqk+ysEf+rU85yHAvhGQRkbl4Zic9JaXecVCGCsF++0WoECVqso1vK2i7x/XwQTjGcmxJ9QZCdzuEIWN9JjSpBcS37CGdlU/KKOYyTKpACiMgAGz5w63mfFURzxY+EV8aOxCIjBIBdIsVJfgH5SwStkcmQyQXEUCvwfmBNAlKRvTkCGkliH7YAMJLIsq9C6Vq1yJSpkM+JLZefe6fuh97sGN3u97fO+4bQrtSKu1Ogd78qd6Nt37pI8Xf1i9V7xsJkoGxGPW/SJyzUv15o+ecrkdtE6LjlkqWWP1xww8M6cPnXS1OmxLvYLuv5yHK7VNjo0eV75+W9+WvGTKytLN+vatVnpsrSx162/+Luot1Pp6VO9Ff31981bHRt9P8aA1c18ppnVA/ooatTx1uy3LzVzyU4fKlf+EJYKnlWouLfzyEPdvgKWY/ZWrPCsYHxkl4tAIOj//9jCwkr9/itdLgE/v/8jPd+w8FncT56jtAQEabtCO/PiMw01xKwA1ZLYoQm+SSCxTAZbLe+yAKEsAiRKKitAqp7KAmTKaitACQ11F6CksqZKRVZGqG5+A4nyNoNUD/tBproXoIR+vtVKqh6px1H+Qn344kcIDZ/LO3folPfJp7lKOxFBp33zbaHVjnqtsWqFjTbYZrllVtsGssV4c7v1RljwcD+U66yDTnJ95MfV/eUZlttiq9U22sDn9JXfV1rZYU+3hpxQ1C4yiYRIskcBAAA=");
 
 export default Baby;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-back-point-up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-point-up?s=regular hand-back-point-up}
  * @preview ![hand-back-point-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hand-back-point-up.svg)
  */
-const HandBackPointUp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M144 0C108.7 0 80 28.7 80 64l0 188.8c-5.2 3.6-10.2 7.6-14.9 11.9L44.8 283.2C26.5 299.9 16 323.5 16 348.3l0 10.2c0 54.1 28.7 104.1 75.4 131.3l2.6 1.5c23.2 13.6 49.7 20.7 76.6 20.7L296 512c66.3 0 120-53.7 120-120l0-8 0-96c0-35.3-28.7-64-64-64c-2.8 0-5.6 .2-8.3 .5c-11-19.4-31.8-32.5-55.7-32.5c-5.3 0-10.5 .7-15.5 1.9c-10.8-20.2-32-33.9-56.5-33.9c-2.7 0-5.4 .2-8 .5L208 64c0-35.3-28.7-64-64-64zM128 64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 136c0 10.3 6.6 19.5 16.4 22.8s20.6-.1 26.8-8.3c3-3.9 7.6-6.4 12.8-6.4c8.8 0 16 7.2 16 16l0 8c0 10.3 6.6 19.5 16.4 22.8s20.6-.1 26.8-8.3c3-3.9 7.6-6.4 12.8-6.4c8.8 0 16 7.2 16 16c0 9.1 5.1 17.4 13.3 21.5s17.9 3.2 25.1-2.3c2.7-2 6-3.2 9.6-3.2c8.8 0 16 7.2 16 16l0 96 0 8c0 39.8-32.2 72-72 72l-125.4 0c-18.4 0-36.5-4.9-52.4-14.2l-11.7 20 11.7-20-2.6-1.5C83.6 429.7 64 395.5 64 358.5l0-10.2c0-11.3 4.8-22 13.1-29.6L96 301.5 96 344c0 8.8 7.2 16 16 16s16-7.2 16-16l0-78 0-2 0-200z" />
-    </Icon>
-);
+const HandBackPointUp = createIcon("hand-back-point-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjgAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCQgsGAAE2AiQDCAQgBYMtBzkbSwXIhofn7fo691X1B1hDaQFlIiM5G6a7mwJIe/4vx3fbjg7w+znPpQtktSic83kCPV/bo6NsalmYJYq9bVhQIwxfSEiQhDRO6JidIY9H4y4l0sPpGO7sHxq/6HYdSSkDEE0AWLJr2waffhlfRhwtv0UctQ4BsQQUAhky9AkwXybQJ1cglwu+jHK5/AcWBBAV6IUTyJHjRtwKyEGS8nzW6tpSfb6ztlSz77nRES91ifvaRsdLfeKqCa/PaY/3amvj4KJPhkVEPDL2lZG3tL0yM/Nye/Fg5/3t4uH2+zsfrGXkeet+TC8eGv3S8Jq4ZWRX9EZHvNDzSERc3TkuxP3tD3YGXXroK02v/Dbk2GnH3PnJU80013zkktOmeL9Ua8yUqcML08dcrmhuTlVOUDOYT+WTB7ZUnTh4onaiXF5u+PLLhpv47p9XV1YhVEVmjxZ9Vd/w9mcvLS2llCeo0jBt2peX67v9DW9ocsfBz/tqNR8tjGW80kbJISAQ7PpixE/HN87/r6o2ga/f/+N/eF5T+dN4Kr2CKgkE2fjyePvjU02KeEoAAFJcZqjyRYHkSgm9a50HBAg1CJBUqBEg06tJgFyNcQKUDJghQIUa22QirxbaHJggqXMhyMx0Oci1eQOUzHcwrNAWmSfyfsT/A1NWSmTFpGLKxMnF3GJbwoJzsW10XnHsjL6stoyBk05zvvNc4lSnONMlgr7IhuRS51qpUSv8UGGKiSYrzFWYq6+HdzrVRS52pvOdh+PMU9wPRrtM7z4GppMAU9+wIBGpxXHVCfGpTYhTd8KlFwAAAAA=");
 
 export default HandBackPointUp;

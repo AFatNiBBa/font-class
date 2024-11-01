@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `corn` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/corn?s=regular corn}
  * @preview ![corn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/corn.svg)
  */
-const Corn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 0c-14.6 0-28.1 4.9-38.8 13.1C401.4 9.8 392.9 8 384 8c-20.3 0-38.5 9.5-50.2 24.3c-1.9-.2-3.9-.3-5.8-.3c-20.4 0-38.5 9.5-50.2 24.3c-1.9-.2-3.9-.3-5.8-.3c-19.9 0-37.7 9.1-49.4 23.4l3.6 3.6c11.8 11.8 21.9 25.1 30 39.5c0-.3 0-.7-.1-1c0-.5-.1-.9-.1-1.4c0-8.8 7.2-16 16-16c2.6 0 5 .6 7.1 1.7c6.3 3.1 13.7 3.3 20.1 .6s11.4-8.2 13.5-15c2-6.5 8.1-11.3 15.3-11.3c2.6 0 5 .6 7.1 1.7c6.3 3.1 13.7 3.3 20.1 .6s11.4-8.2 13.5-15c2-6.5 8.1-11.3 15.3-11.3c4.6 0 8.7 1.9 11.6 5c5.3 5.5 12.8 8.3 20.4 7.3s14.3-5.4 18-12.1c2.8-5 8-8.2 14-8.2c8.8 0 16 7.2 16 16c0 6-3.3 11.2-8.2 14c-6.7 3.7-11.2 10.4-12.1 18s1.8 15.2 7.3 20.4c3.1 2.9 5 7 5 11.6c0 7.2-4.7 13.3-11.3 15.3c-6.7 2.1-12.2 7-15 13.5s-2.6 13.8 .6 20.1c1 2.1 1.7 4.5 1.7 7.1c0 7.2-4.7 13.3-11.3 15.3c-6.7 2.1-12.2 7-15 13.5s-2.6 13.8 .6 20.1c1 2.1 1.7 4.5 1.7 7.1c0 7-4.5 12.9-10.7 15.1c7.2 4.8 14.2 10.2 20.7 16.1L435.5 287c12.6-11.7 20.5-28.4 20.5-47c0-2-.1-3.9-.3-5.8C470.5 222.5 480 204.4 480 184c0-2-.1-3.9-.3-5.8C494.5 166.5 504 148.4 504 128c0-8.9-1.8-17.4-5.1-25.2C507.1 92.1 512 78.6 512 64c0-35.3-28.7-64-64-64zM169 71c-6.1-6.1-15-8.5-23.4-6.2s-14.8 8.9-16.9 17.3l-21.9 87.4c-.4 1.4-1.1 2.7-2.1 3.7L41.9 236.1C15.1 263 0 299.4 0 337.4c0 36 13.6 70.7 38 97.1L66.1 465c27.6 30 66.6 47 107.3 47c38.7 0 75.9-15.4 103.3-42.8l62.9-62.9c.9-.9 1.9-1.5 3.1-1.9l88.8-29.6c8.1-2.7 14.2-9.5 15.9-17.9s-1.1-17-7.4-22.7l-28.5-25.7C374 274.7 325.3 256 274.8 256c-9 0-17.9 .6-26.8 1.8l0-44.7c0-40.3-16-79-44.5-107.5L169 71zm31 142l0 57.1c-25.9 10.2-49.7 25.7-69.8 45.7L60.9 385.2C52.5 370.8 48 354.3 48 337.4c0-25.3 10-49.5 27.9-67.3l62.8-62.8c7.2-7.2 12.3-16.2 14.7-26L165 134.9l4.5 4.5C189 159 200 185.4 200 213zM101.4 432.5l-9.6-10.3 72.3-72.3c29.3-29.3 69.1-45.8 110.6-45.8c37.7 0 74.1 13.6 102.5 38.3l-49.7 16.6c-8.2 2.7-15.7 7.4-21.9 13.5l-62.9 62.9c-18.4 18.4-43.3 28.7-69.3 28.7c-27.4 0-53.5-11.4-72.1-31.5z" />
-    </Icon>
-);
+const Corn = createIcon("corn", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABuAAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDQQsGAAE2AiQDCAQgBYMtBysbvAUjEbZqD9KT/SPBNqb2cATCFHRIGz1S2jwk+o8stnFRfBLP//9+/5trn/NdEK3/NyR5ZpBMQ/ZGo9MsVCpJNImF/AaVQYR6j+T0LnWET+tPqQ30BHBsRwujh0UBMP/XfH7PrwG/0aFEY9sdx9YUFTyBAXc8H85GJzTTCdjUTUkRBaVa8BCRIipj23H2+HbtCT1v0mSMel53eJwDlT92eKSMNQBZBMDpS+fO+jjKKPk+rMt3ZxDIadgvaJi/W8AxTfQTuv3oujDKMPB/IBUg4+TFBTrG8Qm/AB2U3nu7qaZEzFLgyEfHfGZ6jX4Hc8y4xiVJcFqtCn1cp7RW0i7lyiGO1S6pFLcRrSZDG9HrqAHOalTVVNKLPaYzhgkdBRFH4u5Q3KPDTia473XpEoGd0hjc30lM8SW6Row44uwcBQhrxpHYg4NmfFgHJTitFUkkJAYPY86dfB+4e4q5Yao7w5/5kd2l3cHhIWGvcf5Jk6OMb4keCNYRvMv9lpe1OsfeZKldqeRZsbwU76PyzVUpGWexyj2VWC2jdrCE8pjLbJ3o0gEZW04ukVfexwk4IkyBYIh4d528mktiAOEXqplKfvuw/300/QvAj9WENXPz7i0YDQLusQVw9oTa9XZ0Zf6PpyecqyvO/sKM5T54PDCT3mrkIz4+8O4KTWsAp9U/cGfS9CEEBOHQ389bt3jH/k2yCvx+/fe//YqGo1IvMKlAaNvD9vUCRQAAlQcHC4LyqkNQZz0JiGkElHHTAppdFgV007YEjNnriIBx085p0qfEqhsDlFm3QXPUQ9CtegnGHPPZH7eaZsi8GfLfkSlT3hrymkVtLK2pPd2WdME22TTqQC+rxmWhxQQ7IS0/ryQ1JbNEkUVBkdJc7xPs9UVqY2lN7ent6vPm6NSi4sz8PJ7Ggb5vG5edu5vAYBBK2xyGAqv/PA8AAA==");
 
 export default Corn;

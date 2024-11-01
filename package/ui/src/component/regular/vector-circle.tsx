@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vector-circle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vector-circle?s=regular vector-circle}
  * @preview ![vector-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/vector-circle.svg)
  */
-const VectorCircle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M232 88l48 0 0-48-48 0 0 48zM192 32c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 17.6c67.8 21 121.4 74.5 142.4 142.4l17.6 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-17.6 0c-21 67.8-74.5 121.4-142.4 142.4l0 17.6c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-17.6C124.2 441.4 70.6 387.8 49.6 320L32 320c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l17.6 0C70.6 124.2 124.2 70.6 192 49.6L192 32zM100.5 192.3C116 194.5 128 207.9 128 224l0 64c0 16.1-12 29.5-27.5 31.7c17 41.6 50.3 74.8 91.8 91.8C194.5 396 207.9 384 224 384l64 0c16.1 0 29.5 12 31.7 27.5c41.6-17 74.8-50.3 91.8-91.8C396 317.5 384 304.1 384 288l0-64c0-16.1 12-29.5 27.5-31.7c-17-41.6-50.3-74.8-91.8-91.8C317.5 116 304.1 128 288 128l-64 0c-16.1 0-29.5-12-31.7-27.5c-41.6 17-74.8 50.3-91.8 91.8zM424 232l0 48 48 0 0-48-48 0zM232 424l0 48 48 0 0-48-48 0zM40 232l0 48 48 0 0-48-48 0z" />
-    </Icon>
-);
+const VectorCircle = createIcon("vector-circle", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABkgAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCagsGAAE2AiQDCAQgBYMtBzQbbgXIhof/z6v/fW5StbqSZ6T7CR4B/MLI1GQAav4v9/yGHm3/g/xQxrapB3JXcbiXJhDoXp5YFFimCVi2zXBIgiLcIg6RkpDnh8Vhff4JeTwXF6uRrknv46LxofG17k4nqWUAoh0A5qxducLLH8QHEe/9/wTxnmUIiDmgEsiQoZcA02UCveQq5HLBB/H///wfWBFA1Mm7JZCjCVfhJkAOknqeN5Y2NxqNstY6X1PWio1lUUYUYe4pXSOuKss4r/MVxBszXmjGmpM7XV4UcfP05+djzbldroyIN2e+2AIlqPEVt816aVGsuqO7uLr/I0uuG1QGsPfG3dkjwnt0qfWKoLVvj94ulBFRrKr0mtkt97a799vm9/e87/O9o8VV8o9vczZnt5ltKox1MGrVgp8U2Ab4acGqUVX492y46Yzus3U/46G/118y2yXr/37pii5d8dJf63Lr/npo7qAXx7z00nodCAQnrcxmb207/demMoGPnv3+N/4Z+f/lJN2LJgkE2fD/h9uUQCIAACmO05IgkFykTk61cqUAoQAgqStApqd2IFcYBmr6mHC6rrBSJvKG0MlmgKSVI0FmohNArpPHQM10byV1nSLLTiO3jG/D3IWaWDCtGjNydDW1OhYsM+G0NjituvYHH2cahtBOexzuMMfYbZf9jlHsUVZkj3WohR6zwBdVxhhptMpUVbi8ddeo5ChH27+345NMUz0fD3ac334IRYnIjnUqSURqfdzuncccftSI/3gAAAA=");
 
 export default VectorCircle;

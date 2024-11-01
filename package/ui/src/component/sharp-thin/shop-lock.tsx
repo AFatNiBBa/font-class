@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shop-lock` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shop-lock?s=sharp-thin shop-lock}
  * @preview ![shop-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shop-lock.svg)
  */
-const ShopLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 224l346.8 0c2.7-5.6 5.8-11 9.3-16L16 208l0-27.9L105.5 16l429 0L624 180.1l0 27.9-4.1 0c3.5 5 6.6 10.4 9.3 16l10.8 0 0-16 0-32L544 0 96 0 0 176l0 32 0 16 16 0 48 0 0 280c0 4.4 3.6 8 8 8l304 0c4.4 0 8-3.6 8-8l0-248-16 0 0 240L80 496l0-272zm48 136c0 13.3 10.7 24 24 24l144 0c13.3 0 24-10.7 24-24l0-104-16 0 0 104c0 4.4-3.6 8-8 8l-144 0c-4.4 0-8-3.6-8-8l0-104-16 0 0 104zM528 208c26.5 0 48 21.5 48 48l0 64-96 0 0-64c0-26.5 21.5-48 48-48zm-64 48l0 64-32 0-16 0 0 16 0 160 0 16 16 0 192 0 16 0 0-16 0-160 0-16-16 0-32 0 0-64c0-35.3-28.7-64-64-64s-64 28.7-64 64zm-32 80l32 0 16 0 96 0 16 0 32 0 0 160-192 0 0-160z" />
-    </Icon>
-);
+const ShopLock = createIcon("shop-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABhwAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCZAsGAAE2AiQDCAQgBYMtBzAbZAXIjsN0OyuPtCleqXj4XufbuU+yky/ZE/0QvgDDEmKHxJW7BZx+uWVs5n991fN/Tb53z48K5PO9Ez6UXFMlSFFUP5/AAKPCRuO04WyiOGtnn2JQ3KCk7xOfZNg+hskOyvjbkVqkOxJclz40vjbKxSRFASAaAGzcZ4+d9L6ILyLe+/8V4j07ICA2gixQoMBYAdYoBMYqZZRKwRfxf/4/MBNAtOGeEygxADfhXkAJklZZrhzZn/vqVrfcu25V+3Q73dtGdCJin+jGXiGquGVYHRERe0cn9gwh6joNiG7cNsJYhRBW7HXH1DoeGyNdbh5axa3DmXLEI8Mibhmlf8RdI26bvqNQVU4oAoybEnHnrCenPTzj8ZF71lW92HrSk82T3050NLt8fgAuXL7Nw8ba7yHP2PchY5W2WV5rZIc8p1eukjWaBSO1D13g0PYfGj/ImvmXDdvtersNO1bj2Al0Pc8rXXfbgk/4oNjgUBsUH3yyoA3ok5vG/RrNx9Uvb1D1999/f75tNWGXnHv367kfCASDv173Qwat+XVgncBXb37/NTr7/146Pw0DJRAUc/6f48B0PnhyAPYUZ5ukfFEguUoL3rXjVgFChQBJWyVAYYxGgFJltgAt4y0VoK2yh0KUfcJQBzFIOk4DhWXOAaWhXgIta7xlaxsahWkKhiV8DJNtLeGtmuWF8xbkVXka10TWxsX61XlZOePskDeTxjraKU52pqMc6ThnCvR0OznPcpKtNWQrP5QtNM8C2Sp5O3Uv29vZTneG48aS/UZWy+etM5ytl55JmgS0iwQliUh9T0E+99YAAA==");
 
 export default ShopLock;

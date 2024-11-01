@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hospital` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hospital?s=sharp-solid hospital}
  * @preview ![hospital](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hospital.svg)
  */
-const Hospital: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 0L448 0l0 512-80 0 0-128-96 0 0 128-80 0L192 0zM160 96l0 416L0 512 0 320l80 0 16 0 0-32-16 0L0 288l0-64 80 0 16 0 0-32-16 0L0 192 0 96l160 0zm320 0l160 0 0 96-80 0-16 0 0 32 16 0 80 0 0 64-80 0-16 0 0 32 16 0 80 0 0 192-160 0 0-416zM344 64l-48 0 0 40-40 0 0 48 40 0 0 40 48 0 0-40 40 0 0-48-40 0 0-40z" />
-    </Icon>
-);
+const Hospital = createIcon("hospital", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABaAAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSCAAsGAAE2AiQDCAQgBYMtBy8b/wTInoWxe2LJqEyiLj6Gs3v1EQ9fa+X7Pb1bezNhmDoVJnYEMo7c6ti4sEOh4q5io6OwYVSZ/2V7CETVvs//NfXi+TXg5yM4tGgqTWs671U9n8DewNObNpHZcDZR3NG8pwYotAt1Z8jxu3igQXqRwpPwofHTYA9IOgoA0QsAi3duXe9jV3RFfPuP+GYtAmIxqAUKFBgmwDyFwDBZjSwLuuL/4j+wJoBoSq9KIKOJYzgDyCDJOfcenKKq0T3vKINyb/dubRhlhIEljW2pSGO8qmK0bOLuVVnRkAYuRrGjrEp3japAAyof7XyZ7kQ+fACb3HHIHZsYebCddvhoU69ar02LaHhIe9HWpEMM+hhpPx5J2nKUUSapngeBoMf3kx/sOe9Xq0rgx+vIh/9/THeSaEkgKMb9H2dfugOYHUCa4obOgy8KJPtk6V27eSpAKBEgaSoFKAzVS4CsNFaAhhGmC9BU2qoQuUPoZ/8Akm4ug8IMN0HWzyvQMM+npKlfFIAmgon4m5e2Yoou31RPnjCpnlPv1joJdni7Ore+bI66IUdG45NOuOiCa4475rRrE+aK9fl15604wpb7odpkE0xSm6N+3L3UdtDkiqtOb4vPIevMVX/vjnLjePpo7CSJc4pSkojUgls=");
 
 export default Hospital;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inbox` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox?s=sharp-thin inbox}
  * @preview ![inbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/inbox.svg)
  */
-const Inbox: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 464l480 0 0-142-.5-2-106.6 0-29.8 59.6-2.2 4.4-4.9 0-192 0-4.9 0-2.2-4.4L123.1 320 16.5 320l-.5 2 0 142zM491.5 304l-64-256-343 0-64 256L128 304l4.9 0 2.2 4.4L164.9 368l182.1 0 29.8-59.6 2.2-4.4 4.9 0 107.5 0zM0 464L0 320 72 32l368 0 72 288 0 144 0 16-16 0L16 480 0 480l0-16z" />
-    </Icon>
-);
+const Inbox = createIcon("inbox", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABXwAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBSgsGAAE2AiQDCAQgBYMtBywbxgTIhof/n+v9fW6St9rMFDmtAiDUoEjVP1v6TMLhrG8J9Ex/787/+acP+Iw+2ljrfGygNZrnCSTW5YEHlAWWaQAUa+autkIS3cNHWmJJ+qs9vh6Qx7v2K0jP0nd4WN40ftXLfZIsAxAdATBn07oVPmpEI+Lb5iviW8sQEHNAJZAhQ18BpssE+spVyOWCRjSb/j+wIoBogR+VQI4Ci7AWkIMky/Ne3TrVinb5xlpRdmtXbxcRUcbo6Bpl2T3GRhldw76NGzbWY33Uat1iTNRiXPSI2u4Q26JdbAkhynoMau3Y+vvA7w5+p9loNB5IjvleF8XnXXzvqPDg++ezmk7ZhD3HipnwWnduPX+EaNEAp9XnPdJRx786AoGg/Yoh23d1mP5/m1oCv7zz56/it6jZSFIr2kggyIY3h9ueQCIAACkuGpQgkMySwavWPRYglAiQtCgFyPTRUYBcaZgAhf4mCNCitE4m8rZCVzs6SOrOgMxEN0CuqxegMN2XcYuukVkTYQvEXy52oYQWXKvGjBxdTa2WjUYaCJbOp1Xb6uCLYTGE7jrolJPOO2C/I84L5KwV2QUnLNTgBT6oMsZIo1Wmqo77x9sbHXDWOUeccjJfMk11Pxzsor57CBkJUMfi0xPUU3Hk5N5TlwEA");
 
 export default Inbox;

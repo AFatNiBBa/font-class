@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-dollar` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-dollar?s=sharp-solid comment-dollar}
  * @preview ![comment-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/comment-dollar.svg)
  */
-const CommentDollar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 240c0 114.9-114.6 208-256 208c-31.5 0-61.7-4.6-89.6-13.1L16 480 56.9 370.8C21.3 335.1 0 289.6 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208zM276 144l0-20-40 0 0 20 0 6c-5.6 1.2-11 2.9-16 5.1c-15 6.8-27.9 19.4-31.1 37.7c-1.8 10.2-.8 20 3.4 29c4.2 8.8 10.7 15 17.3 19.5c11.6 7.9 26.9 12.5 38.6 16l2.2 .7c13.9 4.2 23.4 7.4 29.3 11.7c2.5 1.8 3.4 3.2 3.7 4c.3 .8 .9 2.6 .2 6.7c-.6 3.5-2.5 6.4-8 8.8c-6.1 2.6-16 3.9-28.8 1.9c-6-1-16.7-4.6-26.2-7.9c-2.2-.8-4.4-1.5-6.4-2.1l-19-6.3-12.6 38 19 6.3c1.2 .4 2.7 .9 4.4 1.5c0 0 0 0 0 0c7.9 2.7 20.3 7 29.9 9.1l0 6.4 0 20 40 0 0-20 0-5.5c5.4-1 10.6-2.5 15.4-4.6c15.7-6.7 28.4-19.7 31.6-38.7c1.8-10.4 1-20.3-3-29.4c-3.9-9-10.2-15.6-16.9-20.5c-12.2-8.8-28.3-13.7-40.4-17.4c0 0 0 0 0 0s0 0 0 0l-.8-.2c-14.2-4.3-23.8-7.3-29.9-11.4c-2.6-1.8-3.4-3-3.6-3.5c-.2-.3-.7-1.6-.1-5c.3-1.9 1.9-5.2 8.2-8.1c6.4-2.9 16.4-4.5 28.6-2.6c4.3 .7 17.9 3.3 21.7 4.3l19.3 5.1 10.3-38.7-19.3-5.1c-4.4-1.2-14.5-3.2-21.1-4.4l0-6.3z" />
-    </Icon>
-);
+const CommentDollar = createIcon("comment-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABjwAAAKHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCXwsGAAE2AiQDCAQgBYMtBzUbZAXIjsM4hnwgKE0ThZgWMx7+37++9rnvVYv1G3z/t+BIxJCFoUMic6TcUa8JJy4eiHv3/mjRmDr3eV5AURdIaIEGtIAm6OKu+b+mXpRdA36jQ7pbVFKldz2fwETP93zcFAU20wnYrJ1xZVH6TZIuPn2G8RkWW8jji+geJdKz4c94vHxo3NHbPSRtMwDRBQALNq5d49tX8EfET42PiJ+sQkAsAIVAhgz9BJgtE+gnVyCXC/4IGo30/1cQQLQidRLIUfcUXgQ/AZKU5wOPti91zDe0L7Xb+8rsiC+XQXy/7qGp62Jj/LLh9XnfrLquf1/9sLg0bwjRLoSolN7oVWmqNr05pCneLFdVVcqVobUetR5Do18MiWr5dtwOHq41QrQPZOvVt/vW1dRbQ29HDraLt0hpmWp9SLUp7nZIDIyhUatEy3td3vuvfjvws8YzM4ABex5aZtyhOjJ850CsajuAZSSXeeh5JNve2VmWvQxX1srpM5ePjt0ce3PUoC6W3NuclEp7Ki2v/jurDfGRIRQQfvsmle1DJWbPg8fUtr09azIAYaQmxAWyc5Xm8bt2j2+pGez2+0kgEGw5/PkH2+zs/9u0T+Cv4/9Xf0Yar1B6D20kEGSjG6NtSyARAIAUF7SEEEgekuBaO6gJENohQNJKOwEyfXURINfOKAFKBpgiQCvtrJWJvK1Qtr2DpIPTIDPVdZAr+wCUzPZdrpVykPml1qu038JMS0d0yaZiPnZ8MbNYtjSdqyl5dVax7epdoJERQdUBJ51wzn77HHZuEM9YUzzvuKUavcQXFSYYa7zCTIW5O5s2IHfGWYfnBvs6sxTnY8Nd0KePCN5EJCeqSxKROt0E65j3CQAAAA==");
 
 export default CommentDollar;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cheese-swiss` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cheese-swiss?s=duotone cheese-swiss}
  * @preview ![cheese-swiss](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cheese-swiss.svg)
  */
-const CheeseSwiss: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256l332.2 0c-7.6 8.5-12.2 19.7-12.2 32c0 26.5 21.5 48 48 48s48-21.5 48-48c0-12.3-4.6-23.5-12.2-32L512 256l0-15.8C512 125.2 418.8 32 303.8 32c-10.3 0-20.3 3-28.9 8.7l-47 31.3c-7.8 5.2-9.2 16.1-6.3 25.1c1.5 4.7 2.3 9.7 2.3 14.9c0 26.5-21.5 48-48 48c-12 0-22.9-4.4-31.3-11.6c-7.1-6.1-17.7-9.1-25.5-3.8L28.5 205C11.3 216.5 .8 235.5 0 256zM128 384a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M368 336c26.5 0 48-21.5 48-48c0-12.3-4.6-23.5-12.2-32L512 256l0 160c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 256l332.2 0c-7.6 8.5-12.2 19.7-12.2 32c0 26.5 21.5 48 48 48zM224 384a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const CheeseSwiss = createIcon("cheese-swiss", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABkAAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCHAsIAAE2AiQDCgQgBYMtB1QbQgXIhuB7W2m/P3NbpwXh6gQ0AsaIkM0RYiTg1I7MEWJkTgninf5+nn9r+oAPwH+mNUiBRy3qfAI7n6dWnk93Pp7pDGx+Ox/lGUQ2SXKRk2HR6Q/T30IeX2YPaSK9lD7GE/F/AONXXTxE0ioDEG0BMHvNikXe+Sl+SvFx41XiYwsREHNAIZAhQ3cBpskEussVyOWCn1KjwU/RaBQEECURzugl84QjOAfIQZKkPO9dG1arNNXy1fYV5R23OkW80O3+lkqIFwfd7leNm0Pudo2oxbNe6vhc/5UvD7jZ73rnl/rfGHirW9SqNYricLgm4tvlX65+uD4pnu34nBfrz/Z7uOX5+sq43XkVOO5xfe62vft77493f+zIkVHf8UnW4Y2DLiu3a3f5vkxhm/JlC73RIfvku1FPjCwfvnDhcFk53lmYOJJicVjbVqy5e3dNtH3/D3cWtzTj0/YfffDuuqmu9rr33s2HQSD44+Pn2m5pM+3/5koCv7z257/5h6TxU5LuolkCQTasMczGBBIBAEhxWp8EBDKTJeldq54XIJQRICkpC5Dppq0AubKhAjTpabwAJWUrZCJvJdRtqiCpOgYyE1wCubpXQJNp3otK6pHJHSc13F9f8oIWmj+rGD1iVDGlGGYKL0qMn5xaLNuDTruOwXql3Y447KRddtrnZEMetyg95ZAFM2K+LyqMNsIohSmK7fJ+8Wq7HHfCPkccDtNMVZwPBzk97z9YzycBxtzYpoxIkdV37N2168Su4R+5PlyEu1sI8bUCAAAA");
 
 export default CheeseSwiss;

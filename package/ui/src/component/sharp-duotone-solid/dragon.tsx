@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dragon` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dragon?s=sharp-duotone-solid dragon}
  * @preview ![dragon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/dragon.svg)
  */
-const Dragon: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 256l176-16L96 320l256 0 0-16 0-29.4 0-26.6 0-36.8L160 96 0 256z" />
-        <path d="M448 160l0 61.4L617.4 327.3 640 341.4l0 26.6 0 96 0 48-48 0-96 0-64 0L32.3 512l-.7 0L0 512l0-31.7 0-.7L0 448l30.6 0L448 410.7l0-18.7-83.2-62.4L352 320l0-16 0-29.4 0-26.6 0-120-64-16 0-32 48-24L288 32l0-32 96 0 32 0 96 0 96 128 0 64-96 0-32-32-32 0zm62.7-80.3L464.3 68.1c-.2 1.3-.3 2.6-.3 3.9c0 13.3 10.7 24 24 24c10.6 0 19.5-6.8 22.7-16.3z" />
-    </Icon>
-);
+const Dragon = createIcon("dragon", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdQAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCDwsIAAE2AiQDCgQgBYMtB0gbKQXIHgVua/NUdpKtk81fIEfw/Vrv97kzuxUAmAAw+DhSiSNWYcdGvIoE+ii3mb9Un9bD+/9c8/mlHRWdfT6CQ6teJUaCZz6fwAD3Rm1tsxKezRS3O9uBY7XmkhixtByfHZ8T5KlLdlGJdC3BJfofwPimuYsk1TMAUQ8A45YsmOVtVVSl+Fx5Rnw2EwExHhQCGTK0EmCkTKCVXIFcLqhKlQpVUakUBBBl9OgMlFHCZhwG5CBJIs/H1WhYs1Q7X0yn1dgiLIpOIYSoUSeiRgBXMzYEvziaBDk5UiNi+DpUc9EhGd1XLxk8aPBZ1zrdbBpLFuZ41MaNi2Nh+zv17vxoZzNv2o7iz97aZpeW1uqrb18KBQpt3eioofmjfFBPay0dVVH43/8Ka892xlhrx8ToOd9gTUqN51nt7UMhtzkYntbJm/2uXwcCQaO6S//KyH+r1Uzgy/Nfy/0qb9PZdFSTQJD1rPS0Mp2FKAygmuKw9so3CWRmSPhYLZcFCDVokJTVgExL9SBXQw8oaWPQ8bIaFshEXl1oZFWDpJZ9kBnsFOQaeQolI70rlzWKzOEUd1H+e5mTJTJpWdGvd99ieLGtq6oPSTg/ojgOdj2c+rrBVpvtsdtBm2y0zUFB7zerdsgukzVqkh8q9NNbX4XhCnPr2VwsyvsdsG2t2xcZobif7eqwProbRBIW7e94JiNSZHU27l+3Zc/uXo7r1uv1FwoAAAA=");
 
 export default Dragon;

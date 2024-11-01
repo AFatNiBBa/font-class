@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye-dropper` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-dropper?s=regular eye-dropper}
  * @preview ![eye-dropper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/eye-dropper.svg)
  */
-const EyeDropper: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M199 169L233 202.9 309.1 279 343 313l8 8c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-8-8 33.9-33.9 71.3-71.3c19.1-19.1 29.8-45 29.8-72C512 45.6 466.4 0 410.2 0c-27 0-52.9 10.7-72 29.8l-71.3 71.3L233 135l-8-8c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9c0 0 0 0 0 0l8 8zm249.2-29.1L343 245.1 266.9 169 372.1 63.8C382.2 53.7 395.9 48 410.2 48c29.7 0 53.8 24.1 53.8 53.8c0 14.3-5.7 28-15.8 38.1zM53.1 329C39.6 342.5 32 360.8 32 379.9l0 52.9-28 42c-6.3 9.5-5.1 22.2 3 30.3s20.8 9.3 30.3 3l42-28 52.9 0c19.1 0 37.4-7.6 50.9-21.1L313.4 328.6l-33.9-33.9L149.1 425c-4.5 4.5-10.6 7-17 7L80 432l0-52.1c0-6.4 2.5-12.5 7-17L217.4 232.6l-33.9-33.9L53.1 329z" />
-    </Icon>
-);
+const EyeDropper = createIcon("eye-dropper", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdwAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCEQsGAAE2AiQDCAQgBYMtBzIbEwXIjlQ1fzx8bxf9ua97pnZ71uiVFImO4A8glCMhh1JGyqZ29+f/ms8v7egAv9GhVFjp0VkBRa+SJzDAaK/Agc2Gs4HiGKduY0WDcB8sIkfuOWKzPjRxB3m8F7dVSA+nr3CL3jR+194VkkoGIJoBYNryxYt8/Ev8EvFl/Q3iSwsQENNAKZAhQycBJsoEOsmVyOWCX6JeT/+BJQFEFf+QBHJUsB0nATlIsjwf0KxnrdI4X1arFKsnTZ60NCZF63i+z6Md2sSUWB6vdn2i/yujX++7JCZGm3ih50PtL8bFaL18yfIly2J5PFh7vvX97S+02vASMTDua31/2wlRi2sDlsfkWBL3FUVEXGwrJnd/pdkrf3b7attXPmnTHGcsWKC54xo3/u6745qbPdvXDYuvvnrq9g8kqgE4/n+nHcy46fZM9TYb/vqr2qZ+9f2ZXUZ5x60Pvv//UaN0mXnxonDpom3FSCMV2+TDIBBEi/ffX9904j8Nagn89u7f/9YT6+uS9AoaSCDIBtYHWpMYOEPFhe04pjs+KJCsl+FXbeQBAUKBAElVIUCmo2YC5AoDBKjoYpQAVYXFMpE3FFpZO0DSyEGQGe0syLXyGqiY6FOnqlVkAceHC//eS5ktoVnjymGDh5bjy2WqCzHElv4JpVvreyzX9cNW2+y3zxFbbbHTEUEessg/aq/ZFjHLF5WGGWyo0njldvEcXGarQw7bqYv7o0xQnrf6Oma37gczYcrhliaJSLWtJ7cO+vSiHgIA");
 
 export default EyeDropper;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `display` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display?s=sharp-light display}
  * @preview ![display](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/display.svg)
  */
-const Display: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 32l0 352 199.7 0c.2 0 .4 0 .6 0l111.5 0c.2 0 .4 0 .6 0L544 384l0-352L32 32zM213.1 416L32 416 0 416l0-32L0 32 0 0 32 0 544 0l32 0 0 32 0 352 0 32-32 0-181.1 0 10.7 64 58.4 0 16 0 0 32-16 0-72 0-144 0-72 0-16 0 0-32 16 0 58.4 0 10.7-64zm32.4 0l-10.7 64 106.2 0-10.7-64-84.9 0z" />
-    </Icon>
-);
+const Display = createIcon("display", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABXAAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBRAsGAAE2AiQDCAQgBYMtBy4bwgTIhoenuX87d5JPSRmmzOiAfB2pelwCVbVsVwFZArvv4tTzUCgUn88hCNpYuHTxOh+7a55XoKKxrsm9ghdrFcXuzjZMUuzVkliS45vjdIAyvomxmkhP0ld4UD40ftHbfZKyABCdALBox5Z1Xv8YP0Z81XiP+MoaBMRikAUKFOgnwFyFQD+ljFIp+DEaDfoPzAQQzfhdCZRowgqsBZQgKcqy+6C2uql9ub1uqvakItVxJ8gYK6LDrqquIrVG1B1FClFVg6KuPdouNh1S5yG5jsFRDX7W6dlvg746/pWBTw/yk5+Bi+AzB3n31nvvfZ0dlOUMxHtvmN1J7zSxerPfGPQGvuq0N2wDAsHm3v9/cqDj3P9a6wR+/viPv+DVjddpYXqGVgkExdjGWHvTQiB2AEGK6wYrXxRIFijwM+08FCBUCJA0qwQKfXWCUmUMNBlg2gHNKlsUomwTutlHIGnnEhSmuwGlbt6BJnN96jfrFoUpiYYgfuTSlvfIsnV50viJeXZeVppkHXxenpO39ZHX49AoaHXcBedddcxRp1zt8MvWRdecs1zDlvmhbJLxJspmy8edR227Cy674tRcPl9ljnzfHum6PnkUWAlzTpZLEpFaHhsAAA==");
 
 export default Display;

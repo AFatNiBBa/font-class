@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reflect-vertical` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-vertical?s=sharp-thin reflect-vertical}
  * @preview ![reflect-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/reflect-vertical.svg)
  */
-const ReflectVertical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 248l8 0 496 0 8 0 0 16-8 0L8 264l-8 0 0-16zm244.7 83.3L256 320l11.3 11.3L416 480l0 16 0 16-16 0-288 0-16 0 0-16 0-16L244.7 331.3zM112 486.6l0 9.4 288 0 0-9.4-144-144-144 144zM256 192l-11.3-11.3L96 32l0-16L96 0l16 0L400 0l16 0 0 16 0 16L267.3 180.7 256 192zM112 16l0 9.4 144 144 144-144 0-9.4L112 16z" />
-    </Icon>
-);
+const ReflectVertical = createIcon("reflect-vertical", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABZQAAAHuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBXAsGAAE2AiQDCAQgBYMtBzcb4wTIjsO44TsyxVSeRQTV2r89e/cxTBdmdECeUDhgF3YoXNSvWGL3krlWdeJy53/+9IAL/170kcbale3zMdZ5AgkWrvMsoCywTBOw/HZ+Epegt0lIXJJhO8Nv/w/I46lNykjXE5xNHxqftHCGJMsARH0AjF+6cLZXNVET8b408d5MBMR4UAhkyNBagFEygdZyBXK5oCZKJfsfWBBAlMPTEshRgdlYBchBUpbnVY1qmXKtsjr5EneuOmpV1xPVtWNxs8bNmugkREsBu3SRUCeIS2LRyqZNmi6Jcq06QmyOxkuExbGUrq3d4Vb9vrS3hTeVleqr/F//94JQdemS+kbqR1QTnrlZBVyhytmzzkpd1qPYkltn7xMTXqRKAQSCD9+rT66tN+pPZa0EPj759kn+FZVeJekWKiUQZL1KvaxKIBEAgBRHdEgQSCYrg3et7YoAoRoBknLVAmRaqS9ArlpPAcq0NViActUWykReJTS2usJJbfvhzBBH4Vxjj+Eyo7yulmscmVixQsH+1CVN6YHJp4r+ffoVI4rlQOEkhfaHI4ttq9sRWuiuLtpirz0O2WyT7Q510AGzG4ftNoUDJ/uiQn999FMYoTgeP0pLdPWAg7bPdefHjFTcz7o5wq/vrtwEpAN0JYlI9b8qeu+XCg==");
 
 export default ReflectVertical;

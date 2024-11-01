@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-blank-under` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-blank-under?s=solid toilet-paper-blank-under}
  * @preview ![toilet-paper-blank-under](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/toilet-paper-blank-under.svg)
  */
-const ToiletPaperBlankUnder: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M348.2 0L96 0C43 0 0 86 0 192S43 384 96 384l252.2 0c-11.6-12.2-21.1-26.9-28.7-41.9C299.5 302 288 248.9 288 192s11.5-110 31.5-150.1c7.5-15 17.1-29.7 28.7-41.9zM384 10.9c-37.3 26.4-64 97.5-64 181.1s26.7 154.7 64 181.1c10 7.1 20.8 10.9 32 10.9c35.5 0 66.6-38.6 83.2-96c8.2-28.2 12.8-61 12.8-96C512 86 469 0 416 0c-11.2 0-22 3.8-32 10.9zM416 256c-17.7 0-32-28.7-32-64s14.3-64 32-64s32 28.7 32 64s-14.3 64-32 64zM160 464c0 26.5 21.5 48 48 48l256 0c26.5 0 48-21.5 48-48l0-120.9c-19.1 37.8-51.2 72.9-96 72.9l-256 0 0 48z" />
-    </Icon>
-);
+const ToiletPaperBlankUnder = createIcon("toilet-paper-blank-under", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfQAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiBfQsGAAE2AiQDCAQgBYMtBz8bDAXIjpQuYxYRPG8XVe93zyygXsCIeJGkDI4uOofmZFL19d/fPP/nUYDPKLSxaWkgC3zO8wQCH1MTj7LAMg1AYk7d9pcbRFk9cgSPiCHOkDwgj5ezC0qkG9N7uKbfNL7RzAWSahmAqAuAsYvnz/TGF/FFxLuVZ4l3TUdAjAWFQIYMLQUYIRNoKVcglwu+iErF/oEFAUQZPjmBHGWswXZADpI8zxs3a9C4RqlWvqhGqfrm6jWqP9PniQX1fXJgjXio+VOL7n9z94EP9Ih4pLiz56Ndr61xf/eH29weH/d7atDFhguvax5xU5xtcXOTa5vd6EzTGxouuLFRxLUda8X9Ta5vEXFDlwcG1AztHqr70Hdt39v0nuWv//vvv2fvvddcc++99+y/0n3fWWzxd/elYc+0oY70tHnm63p3LPHuOwPzhXpft/n1o7OcbdHi7NmPnLbTKh9m7/NJH/p88n521CcHD9SlDxAI9mcDflldZ8RvVWsk8NVLP/wpr5HKG0l6CFUlEGQ9Kj2sSCARAIAUh7RLEEiWyOGqNV0nQKiOAElZdQEyLdQVIFdddwFKWhsoQFl182UiryY0tHJAUtNeyAxyEnINPQ0lI7xplDWMjGY0SehfXsKkiCZ2FX179SmGFUuHM8wha3N4sS13OVQSXXXVJrvtcsBGG2x1IOD7zLQP2mlShk30oEJfvfRRGKY49p/nF9lon/222m1XazNccV/v4lCe31W1BIT97CWJSE0P7N66Y+OBnnyWej49qSddAQ==");
 
 export default ToiletPaperBlankUnder;

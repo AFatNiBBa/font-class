@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-wink` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-wink?s=sharp-light face-grin-wink}
  * @preview ![face-grin-wink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-grin-wink.svg)
  */
-const FaceGrinWink: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 98.1c-31.2 0-61.4-2.9-89.9-8.3c22.5 23.6 54.5 38.3 89.9 38.3s67.4-14.7 89.9-38.3c-28.5 5.4-58.7 8.3-89.9 8.3zm0-32c41 0 79.9-5.3 114.9-14.9c13-3.5 25.4-7.7 37.2-12.3c-3.1 13.8-8 26.9-14.5 39c-26.2 48.9-78 82.2-137.7 82.2s-111.5-33.3-137.7-82.2c-6.5-12.1-11.4-25.2-14.5-39c11.8 4.6 24.3 8.8 37.2 12.3c35.1 9.6 74 14.9 114.9 14.9zM152.4 208a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm140.4 29.6l-25.6-19.2c34.4-45.9 103.2-45.9 137.6 0l-25.6 19.2c-21.6-28.8-64.8-28.8-86.4 0z" />
-    </Icon>
-);
+const FaceGrinWink = createIcon("face-grin-wink", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABiwAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCJQsGAAE2AiQDCAQgBYMtBzUbKgXIjsJxr4QiNEtMFpQLKx6+X2N/7n27i4h2SJrEs2gJJIZOqDQLlUqpeEjMr7+EPbLL2RdDbGRWkCqoug9RESjzRROozt+fep7zUACfUdDGwjVBFkhozvMIFHgs/0CdQBWqaQWsLDVvOVGPLKNHMhNNpsevPX4hqGID6QOVfCFdAg/treI/WbWkqgBADAIA2LsOC4BdYQgDXbZLxDs/ICD2AbAIoeDCLAQ2kQWNgGIRqFSCP/Tf0m8gBgFEA/zHJajQiTvgHoAKpKaiyMszJZk8NpVLiWTXrMR+U4Tmfc9ZhPep8SzuM5nzOWML/C7MFtQ4LwcoDo5v2IKAK5e9iEfnXf9LFhF47bofGUFYbnmcOC2ykMBrRKtLZtJ6lUXYrhv2yA1pHLEje7WGZLvUh+UidHV0Z9gCA200ziK0VcdFxt9ULlMu4XWHsw9+HQPs7AIc7/d7OftyWciji6m3PTe3vQVZJhylZL5OG280oh4Xpz5ihB0D1aXcq9wtLA0MPC3Mm81p5oGOqfmSISGS3axTbOWXzunozLVCPS1HBRAIJj61I2L5m3+dbBLAv/WPL+Nb1O4m5CvQKUFQlv/1RSVIAgCQUQKqCQikGzTwej16o9CNQGp0QzFDBCrdlqA2zwKh0e0cWVRMCKOiCaRet1BsKIPKqAWobTrxG6NBDj0mcJifX6Knxjw2YRNDY2yLt4nJRhNVl3b4WNIuKQ0dXIQUuXIUSZYkXZEiCgRExbJ5WriHD8JMGDKG2cLu/PV0pGQFCqXLlUNr7OD7nrYSu18HKgmTroilJJL3sLcYpBak5xiUpudkAgA=");
 
 export default FaceGrinWink;

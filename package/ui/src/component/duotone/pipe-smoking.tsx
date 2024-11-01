@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pipe-smoking` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-smoking?s=duotone pipe-smoking}
  * @preview ![pipe-smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/pipe-smoking.svg)
  */
-const PipeSmoking: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M361.5 192c5.6 .3 11.2 2 16.2 5.3l24 16c.7 .5 1.4 1 2.1 1.5s1.3 1.1 1.9 1.7c1.2 1.1 2.4 2.4 3.4 3.7c2 2.6 3.6 5.5 4.8 8.5l81.3-122C513.1 80 543.1 64 575.2 64L608 64c17.7 0 32-14.3 32-32s-14.3-32-32-32L575.2 0C521.7 0 471.7 26.7 442 71.2L361.5 192z" />
-        <path d="M377.8 197.4c-14.7-9.8-34.6-5.8-44.4 8.9L256 322.3l0-50.3c0-26.5-21.5-48-48-48L48 224c-26.5 0-48 21.5-48 48l0 82.9C0 441.7 70.3 512 157.1 512c52.5 0 101.6-26.2 130.7-69.9L410.6 257.8c9.8-14.7 5.8-34.6-8.9-44.4l-24-16z" />
-    </Icon>
-);
+const PipeSmoking = createIcon("pipe-smoking", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABeQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBXgsIAAE2AiQDCgQgBYMtB1QbBAXIhofn6/w691X9tJROQ9UANKBWoFfjpby1MnXqec5DAXxOnOc637hAQnP1vAI9L0h921hAm2s1xVo7+8Ur9dkkffBJhkXHsFlCnrpn56kh3ZzewZXyP4DxjVbOI6mTAYjGAJi4fPFcr34ZX6Z4p/ok8Y45CIhJoBDIkKGtAGNkAm3lCuRywZepWuXLqFYLAogS2XMGSsixAGsAOUhC5Hm3TvVqGuTLBFt38w3liOvKS84Rt1Ru6FY37ixf11K8N/alpZeOfqH/8rixckOl2+ZLm3eN65v7j1gej0yvF5e2uDHOrtxQt25cMuLZPks63d/4/u86vrPtHSf/fvpxXjtlzmGDZO9+OuBWAz59N1ssJr3wwqTo0bTJhlOesbt323vOtLNa+8iZoHF0Li846aPGHTW86KKGfMOOenTqtGH+CSAQfKPBv+sbjfmtdr0Evn7+h1+knauvprPS/agtgSDrU+1jTToLHDoAN8UxnYzvil0CmW6SeK/13SBAqIsASUldATJtNBYgV1dvAWq0N1SAkroWy0ReRyhbW0BS30GQGeZ0kCt7AtQY43W3pBwZsEhYkN+6uGkamjqrGNhvQDGqGEYyhRU8TI4uprUex7jSkxbaZr99jthqi52OKOSQucFRe02z4Kl+qDBQPwMURimW02tumXIPOWxnn1mfZrRiv97DMbu9J80nAQYdSSgjUmTld+70Pbx3P0ilvhitVxrMdQQA");
 
 export default PipeSmoking;

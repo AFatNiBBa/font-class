@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `send-backward` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/send-backward?s=thin send-backward}
  * @preview ![send-backward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/send-backward.svg)
  */
-const SendBackward: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 16L64 16C37.5 16 16 37.5 16 64l0 224c0 26.5 21.5 48 48 48l64 0 0 16-64 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L288 0c35.3 0 64 28.7 64 64l0 64-16 0 0-64c0-26.5-21.5-48-48-48zm0 112l-16 0 0-32c0-8.8-7.2-16-16-16L96 80c-8.8 0-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16l32 0 0 16-32 0c-17.7 0-32-14.3-32-32L64 96c0-17.7 14.3-32 32-32l160 0c17.7 0 32 14.3 32 32l0 32zM176 224l0 224c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48l-224 0c-26.5 0-48 21.5-48 48zm-16 0c0-35.3 28.7-64 64-64l224 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64l-224 0c-35.3 0-64-28.7-64-64l0-224z" />
-    </Icon>
-);
+const SendBackward = createIcon("send-backward", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABkAAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCWQsGAAE2AiQDCAQgBYMtBzQbXQVRlM3FEtmPhXh7J7PKRJTXRP844JCkloevtcj3e2a37nqPYY6IFIFjcEgBZhd2YeFoKjYVGZvNr9r38tSfuJz+OH9auI0eba+iOc/HWOedh4nmnWcBZQ+WaQJWQiqg7FwOu7M9HtI+aUmsYRyP5Xg8oYyv7NMgPZd+xSMxofGP/m6QFAWA6AaAZds3b/J9HXXEr+2IX21AQCwHlUCBAoMEWKgQGKRUoVQK6mi33X9gRQDRhElLoEQTj+FpQAmSsixLk8cMGNBqdC63tRr5YG7lN3s92U881/upUa0QOd4e//6AiBcmfDCmFW+Ne6+/yBHxfJ+nR8utHPF0nxxP9hJP9ZYS9/o8HcTVvs+0Bu/3footwirtnbEGjgU5dtzkFyZEaFaeHfvuyFMvGv5+t/f/HfbrgV8N/aSu66m//1bUit9+n7pUN0u92r17ruWAVwWSGgLnneqmu9KlflXd5dVJL5VuquDOnUIN+eqkmiBN13Rl6nTL3YnTG95RA4Fg56r/6brwvw6tBP7+8tKvqP19kt5HBwkExcT2RHsSSAQAIMUFwxMEkrtK+KmdPC1AyAiQNGUBCgN1E6CUTRCgYYhZAjRlmxWi7Cj0spe4pJPTXGG2i1yply+4hoV+aDb1isIoJZOS/oTpq4VX3aumTZ5aza+6E1m2M8FfLqjE/tgLbYyDhw446YRz9tvnsHOgZ2zqnHfcag5Z5Ysq00w2VWW+anp+rW+jecZZh9vq/DULVPqZsS7w+8dBlCDvdD1JIlLnB2FMuquChQMAAA==");
 
 export default SendBackward;

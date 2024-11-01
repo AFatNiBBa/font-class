@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-tow` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-tow?s=thin truck-tow}
  * @preview ![truck-tow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/truck-tow.svg)
  */
-const TruckTow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M209.9 256l156.3 0L157.6 21.4c-3-3.4-7.4-5.4-12-5.4L96 16c-2 0-3.9 .4-5.6 1l3.9 7.8L209.9 256zM384 252l0-100c0-22.1 17.9-40 40-40l66.3 0c16.1 0 31.4 6.9 42 18.9L630 241.6c6.4 7.3 10 16.7 10 26.5L640 376c0 22.1-17.9 40-40 40l-24 0c0 53-43 96-96 96s-96-43-96-96l-128 0c0 53-43 96-96 96s-96-43-96-96l-24 0c-22.1 0-40-17.9-40-40l0-80c0-22.1 17.9-40 40-40l152 0L80 32l0 136c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-16c0-4.4 3.6-8 8-8s8 3.6 8 8l0 16c0 13.3 10.7 24 24 24s24-10.7 24-24L64 32c0-5.8 1.6-11.3 4.3-16C73.8 6.4 84.2 0 96 0l49.6 0c9.1 0 17.8 3.9 23.9 10.7L384 252zm1.3 148c7.6-45.4 47.1-80 94.7-80s87.1 34.6 94.7 80l25.3 0c13.3 0 24-10.7 24-24l0-104L40 272c-13.3 0-24 10.7-24 24l0 80c0 13.3 10.7 24 24 24l25.3 0c7.6-45.4 47.1-80 94.7-80s87.1 34.6 94.7 80l130.7 0zM620.7 256c-.8-1.3-1.7-2.6-2.7-3.8L520.3 141.5c-7.6-8.6-18.5-13.5-30-13.5L424 128c-13.3 0-24 10.7-24 24l0 104 220.7 0zM240 416A80 80 0 1 0 80 416a80 80 0 1 0 160 0zm240 80a80 80 0 1 0 0-160 80 80 0 1 0 0 160z" />
-    </Icon>
-);
+const TruckTow = createIcon("truck-tow", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABrwAAAK5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDPwsGAAE2AiQDCAQgBYMtBzAbvwVRlA5GiewjITexeomIZhjKci68MpSy43n4w9+5773GGl40qa3hFN6i2SIoDKjAvwc4LZKrqhfiHIRI4ENwCGP+r6kXz48O8POl2KFFWa3aKrBbYM8HfrRxtcBsOBvSwHnqplShHoL28SibuC4UGex4yo5nG2j51oRPeSmX8dDeNF/mjKaoFUBGAcDRZWE2jnfSST7+X8mHExDIMWAVoaJiEYFdXMEinlXQNKGT/3/+D2QQIN3kBxTQ0It3fAIaKLpbO6KsdFfI5VK+nFci5UtKpRJpCc2VSGiiTk/FpYSMMM6TSmmSTzHNAWi4brZEQou914fv9d3o0PREw1wip6OEXOJqM884Rw9a4LHOiiCvtZP0xcXL/Ig2Re3x2WCXkhlT0GqTQ5cSSRwonWt4CZ8eJq1bGnswer9tScyBuEPO4n1B2wK3Ru723xywJcJ1o2rjW5fLLZdx49hiOf3aK0nCUHBZFHo928JtampSH9ykToCZU98VC5Wdcc41QbRx4/Dh3S0arsUmqDcdVOehovnodh/jK3/xTBUEdXUCFfT5+frxEEdOZaFQLLzzwayGOcCc4OA5cxrMyNe3IW1oeR7dDFNku5Gvp5G6vguOaBJg+d3By2Stffq0ygbrfe7xvqWlfY/fDwAAAQi6nXSfXauM/yqScgDAo4Pvf5VD8P94Gc7ZKAO9Cgh1/X9dVY5CIgaIl9xzpY8iKN50k1cd9Cgg+hFQdOsXUC1QIdD0W0Ogy7IIBLr1O8WV1icmVR+gGHQFqh1DQDNpF+iy61yi22RqHItRKP5GpqXMaPIyFhIYzGLZbZ1KocnX+TjmNrz7lj4fWokW3XTVW7Mm7XpPeE/Z6T66SEFYsi9iQgQKxsRi263X0hLNeuql3Zb2FxGHPR/01heP9iEHh3BuKCkKKX0faiygd7d+AA==");
 
 export default TruckTow;

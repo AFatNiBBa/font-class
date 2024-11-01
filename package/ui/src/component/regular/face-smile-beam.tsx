@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-beam` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-beam?s=regular face-smile-beam}
  * @preview ![face-smile-beam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-smile-beam.svg)
  */
-const FaceSmileBeam: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm177.6 62.1C192.8 334.5 218.8 352 256 352s63.2-17.5 78.4-33.9c9-9.7 24.2-10.4 33.9-1.4s10.4 24.2 1.4 33.9c-22 23.8-60 49.4-113.6 49.4s-91.7-25.5-113.6-49.4c-9-9.7-8.4-24.9 1.4-33.9s24.9-8.4 33.9 1.4zm40-89.3s0 0 0 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0zm160 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0s0 0 0 0z" />
-    </Icon>
-);
+const FaceSmileBeam = createIcon("face-smile-beam", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABtQAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDawsGAAE2AiQDCAQgBYMtBzYb8QVRVE4qZD8OY7fJEBsRxdAU0URo6KKJH47/JJ5/fu1/a5+588WMCEmTZ9OSvVRI1siECCF6oz6oED/U8f/ZX9031AJGg0IDqxFBxKl7fjsoLvqa/2s+P2s6wG90SBVUeE1NZ0e5CkyBAU7PV6JpA5vpdOA0EKejY2zHQPoUEQlShx0eZz0uj9DyKa/01Lv6gpfbm+aPTcOUvgOQBQBw9VFGEo5GNEo+D3vks2sgkKuAA4QOHXYQuIAt2MFxAJomjDIM7T/QFAJkjMLl6oZx/MQvQAOlby1loDcb4yPupZxscS+qGHCmrMffiIy9clxFv9Na3LW4hFuXDZJ8RlBOUx7FJd2HHWe9hR4l3olMfgg/yc4as6LMWS3YLOgsWI3pLlrOeu5bz9tPI5czQEQDQxWZPq4t8KgmTRlOuUij/iGaMZixmdOb0uvXhCDTiaPtQ1eYLyuW/83uqu/weOh3AKxLxD4+4pn1Az+UWvcTooSgt3McEXG8oycUxTJ+Q1tBq35gt7lp57cqkzLH+aG19eGAjplZbHIFAAARZPFM1t+Pp78sDyUhAQAnrqTxpo/VbW3q42ne1dsWAPA+unLidliIuHPFQr2Uv19HFCXyC/8mxAV+f2T+279Fw1GpD5hQIHSnBkeFBYoAACovmBcE5buevuqM1wJiCgFlzJSAzjYFAs2Ukwj09nghMGbKPWxpk2JF0QnKjMegc14PaFbsgN4Fl/GYlXTZzeUm93OZHE0oap+pm7Orqb/pbengE5YZywGmjzXb7j5kJ52o1qJZpyqV6nSCbJeUdWkSPSOifJApN85cmfJnutx8lbJBm9xBxhfWdwlg+r5tq3s+2U5MFqU8rVCK1Py3Ezp1NNU1WlBeVdYEAA==");
 
 export default FaceSmileBeam;

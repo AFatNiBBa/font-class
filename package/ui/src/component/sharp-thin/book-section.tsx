@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-section` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-section?s=sharp-thin book-section}
  * @preview ![book-section](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book-section.svg)
  */
-const BookSection: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 56C0 25.1 25.1 0 56 0L440 0l8 0 0 8 0 400 0 8-8 0-24 0 0 80 24 0 8 0 0 16-8 0L56 512c-30.9 0-56-25.1-56-56L0 56zM56 416c-22.1 0-40 17.9-40 40s17.9 40 40 40l344 0 0-80L56 416zm-40 .8C26.2 406.4 40.3 400 56 400l376 0 0-384L56 16C33.9 16 16 33.9 16 56l0 360.8zM318.9 222c-3.3 16-14.9 28.1-32.5 35.3c22.4 9.6 38.1 24.4 32.5 52.1c-6.5 32-45.1 48.1-98.3 41c-16.3-2.1-32-7-47.7-11.9c-2.4-.7-4.8-1.5-7.2-2.2l4.6-15.3c2.6 .8 5.2 1.6 7.8 2.4c14.6 4.6 29.3 9.2 44.5 11.1c43.4 5.8 75.9-5.5 80.5-28.3c5.5-27.4-20.9-35.9-65.1-46.7c-1-.2-1.9-.5-2.9-.7c-33.4-8.2-83-20.4-74-64.7c3.3-16.1 15-28.1 32.5-35.4c-20.8-9.1-38.2-24-32.5-52c6.5-32 45.1-48.2 98.3-41c10 1.3 21.7 4 36.8 8.5l-4.5 15.3c-14.3-4.2-25.3-6.7-34.4-8c-43.7-5.8-75.9 5.6-80.5 28.3c-4.9 24.4 14.8 34.1 55.6 44.3c2.9 .7 6 1.4 9.2 2.2c35.6 8.4 86.5 20.3 77.3 65.6zM176.8 197.2c-6.1 30.5 31.8 39.1 56.9 44.8c2.9 .7 5.7 1.3 8.1 1.9c5.7 1.4 11.5 2.9 17.3 4.4c18.8-3.5 40-9.5 44.1-29.5c6.6-32.5-36.8-41.4-66.9-47.7c-5.8-1.2-11.1-2.3-15.4-3.4c-19.2 3.6-40 9.6-44.1 29.5z" />
-    </Icon>
-);
+const BookSection = createIcon("book-section", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABqwAAALIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDGQsGAAE2AiQDCAQgBYMtBzMbnAVRlM3JGtmPg5yM3hxZ/CDi7aC07T61VuI0/ImH/18ru+9XBbgnhBVi7AkRSHJAjmiBFZECkpN1e6JXdzJv+vv/v8130Q9MTEKx1CxrJURoc21ieattB5/+1POchwL4OQRBGetldC8dS0tzCvS8gC3WN00rbSvWKoq1LYcIOjyFDVIhT31yPA2jDVMryOOeLWqR7iS4sX5ovNPGFZIsAxAlAEwuL53vy5qoifil8iV+MRcBMRkUAhkytBdgnEygvVyBXC6oiUpF/gMLAoja7P4TyFEH7+ETQA6SWnnesdR4bjutiXahpokqfwoCu6JdI3AgqCpB0wiq7R7YRvjm0AesyfBvNDsAWwlygmdgVLwmrrXP3RQhX3St3AvbwDAQxAiad8t/i4/oqXCvbAUq4x6p4j2w9aJHeZP3gfCD+Qn4QwSdJrTkFqvt8ziSgIkbQYP+XXC7sVPhXjDVbWDtW/syb9f7n9alL1to3WCM5sSIhRZRiLkwQ9+S59WeSVUvyBdVVV98qqotUn2gop9wwQmNl4vvHPB1+XnLq6eh1XfvHLm0vVRKJkiKVN6czSwPGtq6XksiHj64NrH8vHb3kSu9XT7B9F+z8sxBg//5769UKjK+u38ZdC3UfTS9pkIqpdLBi2+/+75/z5U7D4uLi+JwIBC0eNAcur7JuP+ZlsC/X1jv9v1VvsSX6TnqSiDI+lX6WRNfgrADyKQ4pkvyRYHkqVrsXRu6KUCojwBJbfUFyLRTEiBXX18BaulouAC11bdUJvJ6QnNrgyQNHSSZEc6SXHMfklrG+SFdW/PIilYuOfmfMX1GT02fVQweMKgYUzxWnEodim1ybAG7eh3Tjt601Db77XPEVlvsdKRjDpmfO2qvGRk93Q8VBhtgkMIYxXT9K1YwOA4v4thmfhpjFe/HejmW9+9N3sQ4hyhLEpEaVrSt/xcAAAA=");
 
 export default BookSection;

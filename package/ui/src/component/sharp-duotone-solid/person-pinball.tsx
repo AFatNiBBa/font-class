@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-pinball` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-pinball?s=sharp-duotone-solid person-pinball}
  * @preview ![person-pinball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/person-pinball.svg)
  */
-const PersonPinball: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M192 288l32 0 32 0 0-45.8 292.1-48.7L513.6 90.1 512 85.2l0-5.2 0-48 0-32 32 0 64 0 32 0 0 32 0 146.2 0 37.8 0 8 0 32 0 224 0 32-64 0 0-32 0-96-320 0 0 96 0 32-64 0 0-32 0-192zm64 24a24 24 0 1 0 48 0 24 24 0 1 0 -48 0z" />
-        <path d="M32 48a48 48 0 1 1 96 0A48 48 0 1 1 32 48zM0 128l32 0 48 0 17.1 0 9.5 14.3L161.1 224l62.9 0 32 0 0 64-32 0-80 0-17.1 0-9.5-14.3L96 241.7l0 65.1 54.6 54.6 9.4 9.4 0 13.3 0 96 0 32-64 0 0-32 0-82.7L41.4 342.6 18.7 320C6.7 308 0 291.7 0 274.7L0 160l0-32zM0 480L0 346.5l64 64L64 480s0 0 0 0l0 32L0 512l0-32z" />
-    </Icon>
-);
+const PersonPinball = createIcon("person-pinball", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABkAAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCXQsIAAE2AiQDCgQgBYMtB1gbhwXIjtFjc1mSNa5EBo5LTMS/v7fNue8vrVh6PF3ThSGrsDiMBaFWr0JYNIp4jPjBogny2fdrZfdQ3f45hncAiGFL5MI28VkXNCKa5/9yz+/50YHdtxsEh7aHjgrXsj2fJ5BA29YSjdIsU0zdFA8VFKQgIiJlW4uUHt+y49oJhopv15lQ8/oBZu1/APMryHUojgYAsgUA7p+6W+EcM1Z+9I+Qby0gQB4AHCFooIE9BFzREewxCBgYCGP1DozpXSAAWUD7tAZYAItgBuYABkDRaYPhlrqd7bBNN6PPNtXws/g3sa+CHse8jHsd3GMr2y+9tG1wRfknKeCUfgERV0iSXUzK+5DUBBR8y6XUbywip9lH/xDtwdYac5frfqXxSeybkKdxLwOj3nu+/xv5Y+6HiJlaOz5eU2NHxKPI5AvkTlF+VIFya7tKs+5wM0FUEN1m9Yna2YY836DCrhYQ9vr0fiQVaYg+Q+QLfJkyyMkywV1xXIifMZhQ4Zbl/Pebdvp1LAC57u6jZWjco+TPxdYA/Hz+/2Xe3Z31Wu/BEg0QaMc9xUhdAIlMgFhlD1HKV30haJrp6F3XPERAKBBAsSgENCE8ETBQkhEwES4XAQuUbjoODpCv0Q00rjaBLs8pMPj6AEwlPkctvtFxyaKK/S1MquNQ7TzJTMuQIhGrFgc1uk4Xy7GVsJe7EsNWzFm3ZsesGYt2GLKlNbFrVZ0G1/ohkSlNBlFEzI2vUh+Lbtm2+CzYZykm/l6CPX1wYnA1RHlpQaNDiro/jiOpG4trX5uWivF+gXfCCw0AAA==");
 
 export default PersonPinball;

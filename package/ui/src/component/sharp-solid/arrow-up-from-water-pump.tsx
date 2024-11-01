@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-from-water-pump` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-water-pump?s=sharp-solid arrow-up-from-water-pump}
  * @preview ![arrow-up-from-water-pump](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-up-from-water-pump.svg)
  */
-const ArrowUpFromWaterPump: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 0L64 0l0 256L0 256 0 415c13 0 27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5l1.1-.8L96 368l18.6 13.4 1.1 .8s0 0 0 0s0 0 0 0c13.9 10 23.6 17 35.5 22.5c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5c0 0 0 0 0 0s0 0 0 0l1.1-.8L288 368l19.7 14.2s0 0 0 0s0 0 0 0c13.9 10 23.6 17 35.5 22.5c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5c0 0 0 0 0 0L480 368l19.7 14.2s0 0 0 0c13.9 10 23.6 17 35.5 22.5c13.1 6 27.7 10.3 40.7 10.3l0-159-96 0 0-130.7 25.4 25.4L528 173.3 573.3 128l-22.6-22.6-80-80L448 2.7 425.4 25.4l-80 80L322.7 128 368 173.3l22.6-22.6L416 125.3 416 256l-128 0L288 0zM272.4 493.1c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9l0-64c-19.3 0-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7C38.6 441.9 19.3 448 0 448l0 64c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9z" />
-    </Icon>
-);
+const ArrowUpFromWaterPump = createIcon("arrow-up-from-water-pump", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABsAAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDYwsGAAE2AiQDCAQgBYMtBz8b8gXIhuf5t/uvfW5Vq34b1YKHRtSKRkjlDI7EtBXN6vBNXPP8LWoNUjbRQokOi6RpJqbAADfLpgnNhrOJ4mzLIfIa/GJLEvGIHSENow1TF6jze/WQbpR95Vs86x+a/UZ4iKJXBSD9AbD+1BOP9vk/+Sf5pvMO+cZOBLIetIIKFUYLWKUSjFZrUauFf9LpyH9gS4B0Z2Chrzn3J/xJXEBR6vru47u69alPmXc3lzZdTUkTeW3qnqnDMjWTMyT3b5FXhrwyOVWsMlhaZKxMspMmyfQ9ujYzcooS03KSe3Vm0gZpUp22Z9iuIa9s/mKqh5JXpxBjd+5vOJ4Y/ISXJykC3+64789uCNzvkKrIZ094s/+bB8d/e8m3xn32j81nnefM23ZkDrMGRtycI9vmpUqbZJbVaHC11clJzznPgx53sW+d4thjXezi49JTfOtij3vQffQ78OCFFz54uJTD46Z1frxz+xgkiWTM9jt/DLzsmh1KyOztV/64TlXkrwNBeGXUwsPn9lv1f8+uAv778PBBf17n87KuvImeCgjVrM4sZ5V1INwB4iW3mAC+KCi+V9i79rZbQDQIKLprBFRG6S+g1pgpoJuxFgvornGiSupeYrCzL2bR2/XMyhJ3M2uDvcXsZpUvYt0NTtXZsr6U/Vim3rICm6e18+fMa1e0t3mnvFkls39l+9g87Ratm05LXeJa17jJxS5yuZsW6g2OTt7salsQttkPteabY57WCm25dFSfwu4b3KiSXFGfZKX2ff80t+DW08lWmNAFVheFlOHn33DDtbfOvvm62V+Bdnb/x2Zfd/PV1wEAAAA=");
 
 export default ArrowUpFromWaterPump;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sun-plant-wilt` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-plant-wilt?s=regular sun-plant-wilt}
  * @preview ![sun-plant-wilt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sun-plant-wilt.svg)
  */
-const SunPlantWilt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160-.2c-8.4 0-16.2 4.4-20.5 11.6L115.2 51.7 69.6 40.4c-8.2-2-16.8 .4-22.7 6.3s-8.3 14.6-6.3 22.7l11.3 45.6L11.6 139.4C4.4 143.7 0 151.5 0 159.9s4.4 16.2 11.6 20.5l40.2 24.3L40.5 250.4c-2 8.2 .4 16.8 6.3 22.7s14.6 8.3 22.7 6.3l45.6-11.3 24.3 40.2c4.3 7.2 12.1 11.6 20.5 11.6s16.2-4.4 20.5-11.6l24.3-40.2 45.6 11.3c8.2 2 16.8-.4 22.7-6.3s8.3-14.6 6.3-22.7l-11.3-45.6 40.2-24.3c7.2-4.3 11.6-12.1 11.6-20.5s-4.4-16.2-11.6-20.5l-40.2-24.3 11.3-45.6c2-8.2-.4-16.8-6.3-22.7s-14.6-8.3-22.7-6.3L204.9 51.7 180.6 11.4C176.2 4.2 168.5-.2 160-.2zm0 70.4l12.9 21.3c5.4 9 16.1 13.4 26.3 10.9l24.2-6-6 24.2c-2.5 10.2 1.9 20.9 10.9 26.3l21.3 12.9-21.3 12.9c-9 5.4-13.4 16.1-10.9 26.3l6 24.2-24.2-6c-10.2-2.5-20.9 1.9-26.3 10.9L160 249.6l-12.9-21.3c-5.4-9-16.1-13.4-26.3-10.9l-24.2 6 6-24.2c2.5-10.2-1.9-20.9-10.9-26.3L70.4 159.9 91.8 147c9-5.4 13.4-16.1 10.9-26.3l-6-24.2 24.2 6c10.2 2.5 20.9-1.9 26.3-10.9L160 70.3zM192 160a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm312 16c0-17.7 14.3-32 32-32s32 14.3 32 32l0 53.4c-14.8 7.7-24 23.1-24 44.6c0 16.8 16 44 37.4 67.2c5.8 6.2 15.5 6.2 21.2 0C624 318 640 290.7 640 274.1c0-21.5-9.2-37-24-44.6l0-53.4c0-44.2-35.8-80-80-80s-80 35.8-80 80l0 22.7c-9.8-4.3-20.6-6.7-32-6.7c-44.2 0-80 35.8-80 80l0 21.4c-14.8 7.7-24 23.1-24 44.6c0 16.8 16 44 37.4 67.2c5.8 6.2 15.5 6.2 21.2 0C400 382 416 354.7 416 338.1c0-21.5-9.2-37-24-44.6l0-21.4c0-17.7 14.3-32 32-32s32 14.3 32 32l0 8 0 184L24 464c-13.3 0-24 10.7-24 24s10.7 24 24 24l592 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0 0-184 0-8 0-96z" />
-    </Icon>
-);
+const SunPlantWilt = createIcon("sun-plant-wilt", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABygAAALkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGSEDgsGAAE2AiQDCAQgBYMtBzUbEwbIngV281IFBdRDfoHsEo9Z8M9/m3bfh9QUktYZM5Ozb3cjKj+/zo92rNIA9LISHg55UNu6gUU4XkeGoqb6n8vpDV10gJ+P4FDGxjUKpI2HzfU8gcDbtJZFiYRZoBZrtuVw8SfBRaRK5Ds+cdiehq0TsPVbLsYHZo25DyzyN9VrEpkOBp8FAIBiAACAKq2aNeDyAz2Q7v3/g+5RDxCAqgDgIcACLCAFAVAeCwEp2HiAjY3ggf7/5/9ADwQACkJPMwDYQBDwGvgIWUE/xrbtKkXiO4b7Iu2W4b6wdnOdiXYiB9xYBwGT3aMigYuBvabC8HmBubbCAPsTncUB8p+Uiv3kbDQThZGYlLgiV1+ewO2qI0j01dPN8RSIsncUqvX31Bf7A3V1DYQtpvilXBk21wEmu90JVpcpASlXnfz9LtD2lEtinYiBNrnVxpxSbsz7KvnL/UgRL0SvAfmiygGKkFkJdQ5X7kpuchpSn5V1b8zrbZb7Pe+z6RJ9Z3OPK6tn+2UUpyIjT45mP/nnrO5uRMZt7zeLu1xdPccPo9gVEbETlTKasZE1b+jDC6wRtKZQZnvak+G1YgRmwQ1usMCMoBVexozMLJRIbxM1G2ZHWRmPlYrOD5agH5Fbllwj9C2JWvSMienZQgGexXrspy8k3vPTMSuE0xymies2aWzG4PiSEDoDgABBjbE7fZ2iy38NCTcAPDr7/pvcz//LarLZC4RgABBY+f9LezMZwNgCgKzRSLKCDxJgeIyNpiNYWc2LMLjAEEQYWCQTAzZh5AMfaZQQFxc3w0J2KMKhA4EhgiFgUZIJYONwDHyU51YmCEd6v8u7Vf7bzKgZ8RrTvCIFC3tlvceyQ9nCIhwv5y2buUeOtjy0gZ4MYiDD6UF3+jgfmKE0yI9gADURXYMv4lGEghTGoyxeuXY2WgbejGEiztX6JOXw+tO5GYl75yHHoJxFmWkwIBM1bMTAAp9npsCoPv2HAwAA");
 
 export default SunPlantWilt;

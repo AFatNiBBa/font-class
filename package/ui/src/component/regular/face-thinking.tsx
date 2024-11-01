@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-thinking` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-thinking?s=regular face-thinking}
  * @preview ![face-thinking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-thinking.svg)
  */
-const FaceThinking: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 464c114.9 0 208-93.1 208-208s-93.1-208-208-208S48 141.1 48 256c0 17.7 2.2 34.8 6.4 51.2C40.8 317.4 32 333.7 32 352l0 28C11.6 343.3 0 301 0 256C0 114.6 114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256c-10.6 0-21.1-.6-31.4-1.9c4-5.7 7.3-12 9.8-18.8l10.1-27.7c3.8 .2 7.7 .3 11.6 .3zm43-158.9c-9.9-2-20.5-1.3-30.7 2.5L237.9 319l-65.5-15.4c-8.6-2-13.9-10.6-11.9-19.2s10.6-13.9 19.2-11.9l97.1 22.8c8.2 1.9 15.7 5.3 22.3 9.8zM144.4 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-16a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-120-31.2c-20.5-17.6-49.9-20.4-73.4-7l-7.1 4c-7.7 4.4-17.4 1.7-21.8-6s-1.7-17.4 6-21.8l7.1-4c35.2-20.1 79.3-15.9 110.1 10.5l13.2 11.3c6.7 5.8 7.5 15.9 1.7 22.6s-15.9 7.5-22.6 1.7l-13.2-11.3zM112 352l0 48.4 167.6-62.8c12.4-4.7 26.2 1.6 30.9 14s-1.6 26.2-14 30.9L230.9 407c-.1 .4-.3 .8-.4 1.2l-26.3 72.2c-6.9 19-24.9 31.6-45.1 31.6L112 512c-26.5 0-48-21.5-48-48l0-112c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const FaceThinking = createIcon("face-thinking", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABpwAAALOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDHwsGAAE2AiQDCAQgBYMtBzQbowVRlA5GieyjsG3eHNlIJMOV4RgeXMNkOHIdgyyR6RVBtJ/v7L0kHwBVkRQQxNiWbb8rsgKOrASWdUBgq3P/a22GveT+Ocx2MWkcjSYuzTypNHNv0HkkmDpVM85DAXyjoIy1QZbnQukc5xUoYLXe63mt52OB1bQAXoYOzpt8wKE4lB8gF7eiVZ50Jl3jkHvT+KtLHUk+AxCNAMCc4roV9j/hp4jH5RXisWVAQMwBGITIkKEXgukogV4sg0BOTvApymX2H0hAAFHg/5IEcqjENTwC5EBSyOUGMYIWSfdgTZ7HCqvJs0NfrsN4Cn9d+7jxefX9+qqucSXEjbC3eUer7oovK27mHGx4nr2//Hp9S3uPQhP7OMWTrZaxMU4qemShcUIWdqoDo4ezT9YFu1o72Xvl3fLwfW0YdWoNObZj48lhGKOW0jhOawpFXLUasZNJkp1VLl8vhMdVVZ9lSAzBUKyP0+7sGJV3qzEGbEZUxpJw8sf8Ou1aWRAeJTAZxSiWSkVsUOz4nuJsTi/8NM+izq4j1YtgkaEjXUqLmidq/Aq3L0G+YD/8/fdpTr3ncQFfEmRunDy7ibcbNNXVNzXVR1BdWHdPUKwBRKPb39n/jwGMymyyk32xa8kw++Qx+RKu7+tf/0y/pWl6LIDpWKDdnA4QdC+yEy7odzfUJrI1a9oABIITbZf24wXT/1dyEvhy8/df9h0s7yephEoJBNmY8hgxCSQCAJBiB2OCQHLOSbjUWicFCNUIkBRUC5DpIYQgp9poCPL6eUBQUG0dSuSqhFaxFUhqbQaZacpBTqslkDfdWV7QGtlzyz517G9j0sImumDb4ERnmviS0VbBPYq0Xvcji60RZXzMDu6VJl+eEqlSZCpp4EWCq1K5gqYwkw8iGM5ohC+yuXdXCmuERYo5Pazbvokfcnxmq2x6th10zfiEkzSSRKS6t0If+30B");
 
 export default FaceThinking;

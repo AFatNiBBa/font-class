@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `typewriter` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/typewriter?s=sharp-regular typewriter}
  * @preview ![typewriter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/typewriter.svg)
  */
-const Typewriter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M104 0L80 0l0 24 0 136 48 0 0-112 214.1 0L384 89.9l0 70.1 48 0 0-80 0-9.9-7-7L369 7l-7-7L352 0 104 0zM0 192l0 96 32 0 0 176 0 48 48 0 352 0 48 0 0-48 0-176 32 0 0-96-160 0-32 32-128 0-32-32L0 192zm80 96l352 0 0 176L80 464l0-176zm48 96l0 48 256 0 0-48-256 0zm40-64l-40 0 0 40 40 0 0-40zm32 0l0 40 40 0 0-40-40 0zm112 0l-40 0 0 40 40 0 0-40zm32 0l0 40 40 0 0-40-40 0z" />
-    </Icon>
-);
+const Typewriter = createIcon("typewriter", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdgAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCMQsGAAE2AiQDCAQgBYMtBzEbMgXIHoVxMz3SRXGVj8Iu4uH76bdzX7Itn14yq6CHUkpxoJpDr6I4uqsevYNlkOifzJBf+V4bMnFN/Th/esAkfqSqZVEFRVHm+QQGGulNCTwb2EwnYDO3xUQVFOWCQREZbMhjiPuQnj9AHh9iDaSXCZ60D42/+rpP0pABiC4AmLNp3Qpf26M94ld94pdlCIg5oBTIkGGAANNlAgPkSuRyQXvU6/E/sCSAaISXJZCjwFXcAeQgac7zwQNbEKs1dMw39rnFtqJWCFGL8IYZMx7RK9ZSZrFbqIUIdNRC8BQxxAHDFm/o2KGj6BCxQai2DvMuMTFYE85619j81rYubf9ykENf+uAyj1VO++2lhSqrFQ665KBi15fduKb0WqV6WnmttNsrdbfVvVqVUvTabq9H76qISsWtIYpgLEfv0+x2IBDcWP33Sp2n/2+uJfDnPflnpP41SW1olkCQjaiPsD2BRAAAUlzUmiCQnNUM79rBMwFCgQBJo0KATH9dBMgVhgvQYJAJAjQqrJOJvEXoYcfCkg7OYJmJbmC5Ht5hDab7lmjUIzID5M2H//5LWbjDC2aVY0ZV5dRSrJiCTbFlclp5bBlyMXUMpb0OOuWk8w7Y74jzG3rWivQFJyzUkAW+qDTGKJXSVOXj+nz7Rgecdc4Rp5ys00xT3g8McVHvP5TsCWjHKksSkYq3QfibBQAA");
 
 export default Typewriter;

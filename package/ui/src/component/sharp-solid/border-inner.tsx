@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-inner` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-inner?s=sharp-solid border-inner}
  * @preview ![border-inner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/border-inner.svg)
  */
-const BorderInner: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 416l64 0 0 64L0 480l0-64zm96 0l64 0 0 64-64 0 0-64zM96 32l64 0 0 64L96 96l0-64zM352 480l-64 0 0-64 64 0 0 64zm0-448l0 64-64 0 0-64 64 0zm96 448l-64 0 0-64 64 0 0 64zM0 32l64 0 0 64L0 96 0 32zM384 384l0-64 64 0 0 64-64 0zm0-288l0-64 64 0 0 64-64 0zM0 320l64 0 0 64L0 384l0-64zM384 192l0-64 64 0 0 64-64 0zM0 128l64 0 0 64L0 192l0-64zm0 96l32 0 160 0 0-160 0-32 64 0 0 32 0 160 160 0 32 0 0 64-32 0-160 0 0 160 0 32-64 0 0-32 0-160L32 288 0 288l0-64z" />
-    </Icon>
-);
+const BorderInner = createIcon("border-inner", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABhwAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCbwsGAAE2AiQDCAQgBYMtBzMbcgXIHoWNYznSRln6baHICOrXPnve7tFuGN6dCjAqYHJANhVFZHM2FZ0fhUaQRRX9k5nwqAPAdUv+//fu+J8b8Bl9tNFY97X28QU+5/EE4mxMjzQLLMo+QQLW0byHBirE64OeUMazYi2kJwnu228avwx1l6SjABB9ALB026aNGvke8bX5jvhqPQJiKcgCBQqMEGCBQmCEUkapFHzXbIr/wEwA0crlE99L9MYDvAKUIOlZlh2o2Fm3NMJbw2tV1FUtqog6pYvyjqruUkMRwQtRN+DocPlIEPWoihT2t9OH4GAjAmciZjuGY1QqQVMRxeHo6u7T/afTUfISN4LD/pS+mW++59DAeF8dvyfyjX04Y/wNMzfoxV/dn3PjtWyJ7LXXeYn82vYPCAQf1pt9vRf8b68T+Pl/f8xfUTON1I12CQTFhOYEu6MB0RAAgBRXdUUDgeSentxX7eGhAKFCgKRVJUBhuD4ClCrjBWgxykwBWlU2KUTZIQywp0BJDxdQYZZrqDTAW9RigY+NVgOigE8PurzbwyKrKLFyV546aUqel3s7sgDIOcbm/Dw5NeZqY2Isfuioc8667IjDTrhcsS7a2L7ijFVDykoflE01yRTZPHlx/2ZkK21cdMmJbrB8m/ny9rUxrg7PH4uziWs7zZ5JIlKPXVehHwgDAA==");
 
 export default BorderInner;

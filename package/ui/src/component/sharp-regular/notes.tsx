@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `notes` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notes?s=sharp-regular notes}
  * @preview ![notes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/notes.svg)
  */
-const Notes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M144 416l-48 0 0-48L96 80l0-48 48 0 288 0 48 0 0 48 0 240-96 96-240 0zM432 288l0-208L144 80l0 288 208 0 0-80 80 0zM320 464l0 48-24 0L24 512 0 512l0-24L0 152l0-24 48 0 0 24 0 312 248 0 24 0z" />
-    </Icon>
-);
+const Notes = createIcon("notes", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABVQAAAHbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBLgsGAAE2AiQDCAQgBYMtBywbqgTIHoVNWT4WD9ccCyLLjj1BfFCJ5/9/7XWf+94EZn7KDsg2qkhCAUlcHsjYOhI2Qra6KjViVm1XZPVczO2fcZ042kNyyyLaXJpYp3SzvkZdaiPSD5DM0ub/ZtzreRTgNwptLJwYSNv3fp5AoFEvWwd+vuzAzvQE7MxdrSseGvtJWmRJHh/t8XWDnl/RQP2ogC/5Q/OP1J4yNAA5AADcfZaKADfjnOwuH7IrBARyF+AUREPDMQhuYATHiJ0Cui7MWZbwH0ggQNbIQxXoGHAduAdAB6X1fnjr8DRs9afTMD4bpzFpSaYtkccZX0dWqUwT6LE8rkwhePnMzoHjnuxPPYeTBuwAYmC4b4Cf58/hd3LFyxIhvLj4mxtsrIKFuAIZ7uPwB4Lwe6/4c27835gK/P0pCFB/RQuXuXawoUBo28u2csGpzBAAUPlMXhCU8xh415WvAmJEQFkzCmiOkkDQjc5CMDjBCsGa0SOM9E1xRKWDsvIONJcsQHfECwxu+KprjqT5D/n65O8tzqthzxwZdQZy0TLUKJfA09hN27xiHktK2oS6gb6pmqqWqULHIsZMj9dCPL6IGOkYEBc6Th7Xs2rGJloG+jzFje4rCnO7WUmSiGCe4yhFavBPAAAA");
 
 export default Notes;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `route-highway` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/route-highway?s=light route-highway}
  * @preview ![route-highway](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/route-highway.svg)
  */
-const RouteHighway: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M232.2 2.3c-5.1-3-11.4-3-16.5 0L194.6 15c-31.9 19.2-71.5 20.7-104.8 4c-17.7-8.9-39.2-3.8-51.1 12.1L14.5 63.3c-10.7 14.2-11.9 33.5-3 49C24.9 135.9 32 162.5 32 189.7L32 203c0 22.4-4.3 44.6-12.6 65.4L8 296.9c-5.3 13.2-8 27.4-8 41.6C0 382.2 25.4 422 65.1 440.3l152.2 70.2c4.3 2 9.2 2 13.4 0l152.2-70.2C422.6 422 448 382.2 448 338.5c0-14.3-2.7-28.4-8-41.6l-11.4-28.5c-8.3-20.8-12.6-43-12.6-65.4l0-13.4c0-27.1 7.1-53.8 20.6-77.4c8.8-15.5 7.6-34.7-3-49L409.3 31.1C397.4 15.2 375.9 10.2 358.2 19c-33.3 16.7-72.8 15.1-104.8-4L232.2 2.3zM211 42.4l13-7.8 13 7.8c41.3 24.8 92.4 26.8 135.5 5.2c3.9-1.9 8.6-.8 11.2 2.6l24.2 32.3c3 4 3.4 9.5 .9 13.9c-11.3 19.7-18.8 41.3-22.4 63.6L61.6 160c-3.6-22.3-11.1-43.8-22.4-63.6c-2.5-4.4-2.2-9.8 .9-13.9L64.3 50.3c2.6-3.5 7.3-4.6 11.2-2.6c43.1 21.6 94.2 19.6 135.5-5.2zM64 192l320 0 0 11c0 26.5 5 52.7 14.9 77.2l11.4 28.5c3.8 9.5 5.7 19.6 5.7 29.8c0 31.2-18.2 59.6-46.5 72.7L224 478.4 78.5 411.2C50.2 398.1 32 369.8 32 338.5c0-10.2 1.9-20.3 5.7-29.8l11.4-28.5C59 255.7 64 229.5 64 203l0-11z" />
-    </Icon>
-);
+const RouteHighway = createIcon("route-highway", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABkQAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCSAsGAAE2AiQDCAQgBYMtBzQbTAXIjlQ1fxBBXlWdZAFnZR2oHyg8p3z9/+dyeuP50QF+o0PbQw9kAc3V5F4CiUzfIllgWcCUcrrN5tMRhl9EiJBEdHzS0d8FaLJYIjACZaFyBZhe30o+48YYUNBUAADEFgAAyG1aX8mJF/JC5IphL8gVygEBkDwAdARQccYTASADFUFfgIYOaGgIvBCDgf8DdRAAEGPkMgUADTACxgMzwHLeT6NqWo7uY2FkpTWxMDJvOc8xQNYErAma5zjHMUQ2uG0FGeHqKgsYEboxsFHmujSV9eGbZaS7uywSkZHRi93DZJ7zPMc1QeuCgiJcHF2cZGPi3uT5TpEy13GDp6UsC5vnEi3zndYm7w9vsLK0QkZ4uclcRrguCGiQJrLOfZGMdPGQ5SJ+m2w3ffW90uUK748OHFjB1BU7p9y7fWvycEwexIdZ4XdtCwOdfd3Nn84vokOH+UU8NXf3dR64hWt+VoTlX/g/ncm3bt+bsnPF1Iric/Qgv/RYm7qCfiQGWdUWUGuVVNiPgg6GGN+fs+bkpBdbEPJmC61tXU7vKp2Zx4w8mu867WLbegtvQiwAQACBlL1hSlubjL+mFgoArw59/9ueNDSQU8omwBQFAAE1whBBKznhIDcgkK/IEPzwSQigMBwVeJbM240EcxigYIw5qHhgCxrmhIMR3iTSi/vrURHNDMGR1gAFS/qDShJDQcOR3WBEBud9YxxFDUY2lNivYFKRxgt36bFRMXqaPi10Lr7osp6uL1shQ/IgFGfpQl/6MIjOdKI7gxQ5gMpoML0p8ohCvohOLFHEoJOGvl1vjzehMwMYSHf60oe3SUc/74UwxJ8dCldBKOOIKSggitX90CLfDAAA");
 
 export default RouteHighway;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-line?s=regular people-line}
  * @preview ![people-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/people-line.svg)
  */
-const PeopleLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M360 72a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zM304 176.5c2-.3 4.1-.5 6.2-.5l19.5 0c2.1 0 4.2 .2 6.2 .5l0 79.5-32 0 0-79.5zm80 55.8l18.9 35c1.2 2.2 2.6 4.1 4.3 5.8l-36.3 67.5c-6.3 11.7-1.9 26.2 9.8 32.5s26.2 1.9 32.5-9.8l18.9-35 0 23.7c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-23.7 18.9 35c6.3 11.7 20.8 16 32.5 9.8s16-20.8 9.8-32.5l-37.9-70.3c-15.4-28.5-45.1-46.3-77.5-46.3l-19.5 0c-16.3 0-31.9 4.5-45.4 12.6l-33.6-62.3c-15.4-28.5-45.1-46.3-77.5-46.3l-19.5 0c-32.4 0-62.1 17.8-77.5 46.3l-33.6 62.3c-13.5-8.1-29.1-12.6-45.4-12.6l-19.5 0c-32.4 0-62.1 17.8-77.5 46.3L18.9 340.6c-6.3 11.7-1.9 26.2 9.8 32.5s26.2 1.9 32.5-9.8l18.9-35L80 352c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-23.7 18.9 35c6.3 11.7 20.8 16 32.5 9.8s16-20.8 9.8-32.5l-36.3-67.5c1.7-1.7 3.2-3.6 4.3-5.8l18.9-35 0 39.7c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-39.7zM496 208a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM480 336l0-63.5c2-.3 4.1-.5 6.2-.5l19.5 0c2.1 0 4.2 .2 6.2 .5l0 63.5-32 0zM24 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l592 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 432zM144 208a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM128 336l0-63.5c2-.3 4.1-.5 6.2-.5l19.5 0c2.1 0 4.2 .2 6.2 .5l0 63.5-32 0z" />
-    </Icon>
-);
+const PeopleLine = createIcon("people-line", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABvgAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDaQsGAAE2AiQDCAQgBYMtBzIb6wXIjtFLzzvvlRlBmCEUGQ/f78c6931BTJtZErOSSQyNSIMEu6luKNo2FG9bAlY/9tv7Yvpw1yaWIH7BKh6t0zxVhmQydE39KHt6fTt8okeJrS0LIy2qcQITC17TXmQWaRPFnW17E0R1/QiJLeTxHS/4pI/pCfDsXWn8h9kmkBQZAKIRALB+e3ns5lf8onj8v4b4jjIQEOsABhEyZOhFYAlXoBfPIMjlgl/x/p/+BzIIIEoE8iWQoxo/wG8AOUgqc55cNiOnAgtI+XJeo5RDMrQfeOx/aNoLOAo6sdbvSKW03QaqJmqIiIzw6OtpdzTDGkWIxzaPTunYIaII2lvpsDTSviSJhLZGc0v20JRNdeBJOx2jiU0n1gPLfuAe/655L4DYEA/Rd7+NUpIw06NixRa+56rzZ5+nwSdD92VYSkqYIF2ZNMy4OnAHq8BUnS76Bhto1X552AhLvvCFieLpSZGN9zLB10WxdSOgEFfpaWYdTEeOknOYfuVAujBZ085nk8M2/PKgbvFF8HBu8JSx+8LluuhO7cqVrED5Higr63NXTZu+phqZ8f7novMBAsG/h2RJlzL9VVTDAfz59PLmnu79V3pM56BSAkE2/h+uPa0CZAIJwikW4TvzRYHkG5HgUmu9gkCoRoCkVC1ApocKgVy1MQQK/RIQKFW7xBW5GKFVRw2SWncgs2gJ5FpdgsKS21CpNbjArQRN5b9lup02ur1oMCYymqWyyZJSBa+SHU1jqw3Bi7IlBK81aMqkeQP6jZhvMbMqogsmFM7RBX6IiREpGpOK7a7eX95owKw5I6ZMuvOkYed7gi3Odw/BZo6Ad1ZOkogk/R70E+APAA==");
 
 export default PeopleLine;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cubes` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cubes?s=sharp-duotone-solid cubes}
  * @preview ![cubes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cubes.svg)
  */
-const Cubes: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M48 323.2l80 30.7 0 92.4c-26.7-11.7-53.3-23.4-80-35.2l0-87.9zm128 30.7c26.7-10.2 53.3-20.4 80-30.7l0 87.9c-26.7 11.7-53.3 23.4-80 35.2l0-92.4zM184 121l80 30.7 0 89.2c-26.7-10.1-53.3-20.2-80-30.3l0-89.6zm128 30.7c26.7-10.2 53.3-20.4 80-30.7l0 89.6c-26.7 10.1-53.3 20.2-80 30.3l0-89.2zm8 171.6c26.7 10.2 53.3 20.4 80 30.7l0 92.4c-26.7-11.7-53.3-23.4-80-35.2l0-87.9zm128 30.7c26.7-10.2 53.3-20.4 80-30.7l0 87.9c-26.7 11.7-53.3 23.4-80 35.2l0-92.4z" />
-        <path d="M288 4.2l8.5 3.2L424.5 56 440 61.9l0 16.6 0 126.1 120.5 45.7 15.5 5.9 0 16.6 0 154.1 0 15.7-14.3 6.3L433.7 505l-9.7 4.2-9.7-4.2L288 449.5 161.7 505l-9.7 4.2-9.7-4.2-128-56.3L0 442.4l0-15.7L0 272.6l0-16.6 15.5-5.9L136 204.5l0-126.1 0-16.6L151.5 56l128-48.5L288 4.2zm24 236.7l80-30.3 0-89.6-80 30.7 0 89.2zm-48 0l0-89.2L184 121l0 89.6 80 30.3zM288 55.6L217.3 82.4 288 109.5l70.7-27.1L288 55.6zM48 411.1l80 35.2 0-92.4L48 323.2l0 87.9zm128 35.2l80-35.2 0-87.9-80 30.7 0 92.4zM152 311.7l81.2-31.1L152 249.8 70.8 280.6 152 311.7zm168 99.4l80 35.2 0-92.4-80-30.7 0 87.9zm128 35.2l80-35.2 0-87.9-80 30.7 0 92.4zM424 311.7l81.2-31.1L424 249.8l-81.2 30.8L424 311.7z" />
-    </Icon>
-);
+const Cubes = createIcon("cubes", true, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABvwAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSEIQsIAAE2AiQDCgQgBYMtB0YbOQbIhod/7P7ffWbmAZ4vMOBlYHy3keq4BXjbpKaq12WtO3Eu3u18NMCyEQxl+8ikaHrsxAZ7wGqrwgd6oX9C+8Vtk4sDySXEExJ7yOL/9LgGkqeTGh5M8+MvI46TaEklJLrxN0A7Smed4sPv4/skavVXiZqTERA7QS6QIsW4AJulAuMyOTKZ4PukXuf7qNdzAohG5ftS0Ihe1IgBQAYSrRqzbEtLaWtua222toaOrCjnt14xMDhQiIEQwrpEf5xN1sEoIoUsYx2KEtmGCqWzFb1t1xqkQkzkZxcorFguFAtRcJlfbIBik4XCMlCaLt7eGIU31ok318dE9vzcihVlz87G/ii8tubA8Jkvd7/8z4za5TVT7xwtJx1a7hc97nfn4mbYM7p969A6j2L5fWslo2VMrvlOl2f0mHbHYod0m3ZomVuG/j5tgiOqTptUWV4p6VpWxc6hN/eOsGKMdI/8d/FpM1F+rk15+VDLIEF55D136MTpkygky/XCObdl9542SbZz3XgTTpm8/1DZTTee2/T7SnDF3HXr9la17tD91Q63dt2+StPLcfh1IBCMzOz8/oKuzdPNbQn48e3//kznqH+SbE9eRrMEBOni+mLnsh0CMQBXErebiT/EcoHUA1qVn9ruCQFCKwIkGrUKkBrTLUCm1SIBGkxaI0CjVmdJRdYi9DuvRxLtbkJSa92HZPq9gjTY7At3o/5Icz4r37J+POPvHYN7BuUrli7PN+abUS07MzN89ab8tHz+7TprAa50uRtc71aXudRVbh3BNzvFd5vr7N2D9vii3ApLLZfbKL+deM4vsvtmt7hqnXu/lU3y983z3b5feAGqEiXpSjtTKZFE2nHJbRdfdsuSL0jUNeJ+KQAAAA==");
 
 export default Cubes;

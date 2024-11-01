@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `globe-wifi` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/globe-wifi?s=sharp-regular globe-wifi}
  * @preview ![globe-wifi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/globe-wifi.svg)
  */
-const GlobeWifi: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M197.1 455.5c-20.4-25.6-41.5-60-54.9-103.5l-70.7 0c25.8 49.6 71.1 87.4 125.6 103.5zm33.2-35.5c8.9 11.8 17.8 21.6 25.7 29.4c7.9-7.8 16.8-17.6 25.7-29.4c13.6-18 27.3-40.6 37.5-68.1l-126.3 0c10.2 27.4 23.8 50 37.5 68.1zM176 256c0 17.1 1.4 33 4 48l152 0c-7.7 19.8-12 41.4-12 64s4.3 44.2 12 64c-5.6 8.5-11.4 16.4-17.1 23.5c8.1-2.4 16-5.3 23.7-8.6c7.4 14.7 16.7 28.2 27.7 40.1C333 503 295.5 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0C375.4 0 475.6 81.7 504 192.2c-2.6-.1-5.3-.2-8-.2c-26.2 0-51.1 5.7-73.4 16l-42 0c1.2 8 2 16.3 2.6 24.9c-22.6 18.8-40.3 43.2-51.2 71c2.5-14.9 4-30.9 4-47.9c0-17.1-1.4-33-4-48l-152 0c-2.5 15-4 30.9-4 48zm-44.6-48l-77.8 0c-3.6 15.4-5.6 31.5-5.6 48s1.9 32.6 5.6 48l77.8 0c-2.2-15.1-3.4-31.1-3.4-48s1.2-32.9 3.4-48zm187.8-48c-10.2-27.4-23.8-50-37.5-68.1c-8.9-11.8-17.8-21.6-25.7-29.4c-7.9 7.8-16.8 17.6-25.7 29.4c-13.6 18-27.3 40.6-37.5 68.1l126.3 0zm121.4 0c-25.8-49.6-71.1-87.4-125.6-103.5c20.4 25.6 41.5 60 54.9 103.5l70.7 0zm-298.4 0c13.4-43.5 34.5-77.9 54.9-103.5C142.5 72.6 97.3 110.4 71.4 160l70.7 0zM352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm256.5-20.4C584.1 311.6 542.8 288 496 288s-88.1 23.6-112.5 59.6l25.6 19.2C427.7 338.6 459.7 320 496 320s68.3 18.6 86.9 46.8l25.6-19.2zM496 352c-26.2 0-49.4 12.6-64 32l25.6 19.2c8.8-11.7 22.7-19.2 38.4-19.2s29.6 7.5 38.4 19.2L560 384c-14.6-19.4-37.8-32-64-32zm0 100a20 20 0 1 0 0-40 20 20 0 1 0 0 40z" />
-    </Icon>
-);
+const GlobeWifi = createIcon("globe-wifi", false, "data:font/woff2;base64,d09GMgABAAAAAAOUAAoAAAAABuQAAANHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDRQsGAAE2AiQDCAQgBYMtBzEbxgXIrod3Jm6chHQG4bCtKctBDTYk/v4fx9Elq4Ln0T/8c/PyiqRGCnvqJGztpyZwJzaImzBJ+98hAvh7d42xOA0DiRMMJNCnP8sCTbNJRW2wfHLr7t9+izSw09s6tagCTuyeNU8o8RYPn7f3pWtB3ZWVZEE8Hw8x6jznOJF4ELm7Pf4D/bIgaG0RpWnSMi7wwCKIh8/b2wa+2webTmiaRZh1kXeBRZInEvb0SGthZBkFHIYRB1TafvoueD044ZZ54IEdzC6ns2XEqec5DwXwOQRBGdumBmRMn11boOcFLE0am0rxFLxWUay6Ke2hhyp5xpARxlZK8Th7fLt2BTr2OzY+1EKdwZa5WV70bAbFTwBIFdRJxzrQz/1nfIonXciJMRCAjAA4Ajw9kEIANPMIPkdzQNMEX2KtjP/AHQIASYMmKgAahILbwEsA0AAUm9TBtmo0Jih5Dg22fqgeLrAZ2vc8nmk4UdO2L3ZP8ql0I4cKht2t7EWO3BmzJ35f4kN9Z2n1m7rucVo72zWqNrIr9nrxAQlJRvbSOlizl8in7ZeQPHLy/ridCcdTrD1bKHKz9s5QIbxO1h8vtkOhipxrumVnDTdKzrC+nK6/bqLGm6VnZbJMIkdNlH04v0DO9R0jD97V1AN5RxKL5GQtx8L+3MMJ+3IyT0ac/I6zBg6ZLrZkctKvpzxu/cjf/aj5TKrZy52YeWd19O7ra9IHG04k0KevxbYN03jSoR6oA0T5UyFbTEk1q5899BcN8eHEGC7kSpB7q+xH3bn2qvkxM79VrKgfycv8s/13ALglKjc3Ktq5PCqVOog+X+Bznz7/zfgQwhvThC+a82qqr7ZFx6yB4C0Bgp13WY2K/L0pAL6tf8/58v+XWy2BIAqAwBs0m8wOUOgCAE/FVsk0vkiAchkLTojd0UAYXFACGHiSRUAziuBLU8M7tQFXVpLBiBhTCiXEUnhqrYEW4xJ8zR64AWLCS2UxEcUvybReJnpWuVFa7hrda2lJ2cm3xSbnNvqqOlAge5llsUVWmDFtrhVELdMfrLRQr0X2+CGnQqlyTiMXbn/XhslbZrm5z1J8GU3cfiffKnt8gdgKGCtlFAWJm98npGZKtjlrLgAAAA==");
 
 export default GlobeWifi;

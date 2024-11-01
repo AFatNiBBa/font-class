@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shuffle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shuffle?s=duotone shuffle}
  * @preview ![shuffle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/shuffle.svg)
  */
-const Shuffle: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 384c0 17.7 14.3 32 32 32l64 0c30.2 0 58.7-14.2 76.8-38.4L224 309.3c-13.3-17.8-26.7-35.6-40-53.3l-62.4 83.2c-6 8.1-15.5 12.8-25.6 12.8l-64 0c-17.7 0-32 14.3-32 32zM224 202.7c13.3 17.8 26.7 35.6 40 53.3l62.4-83.2c6-8.1 15.5-12.8 25.6-12.8l32 0 0 32c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l64-64c6-6 9.4-14.1 9.4-22.6s-3.4-16.6-9.4-22.6l-64-64c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 32-32 0c-30.2 0-58.7 14.2-76.8 38.4L224 202.7z" />
-        <path d="M352 416c-30.2 0-58.7-14.2-76.8-38.4L121.6 172.8c-6-8.1-15.5-12.8-25.6-12.8l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0c30.2 0 58.7 14.2 76.8 38.4L326.4 339.2c6 8.1 15.5 12.8 25.6 12.8l32 0 0-32c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-32-32 0z" />
-    </Icon>
-);
+const Shuffle = createIcon("shuffle", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiwAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCMQsIAAE2AiQDCgQgBYMtB0obTQXIjsQ4hvKlUmJF8L1NdN+/k8Y+meEMjBUiBakMt0BVOlQVqA1tgEtH+b+N8D/X1Es+OsAPIheRG0gUUPbzCez5aFYFXjbhmc7Atjub0g61lEPSiKVxXOz43CGPH7IbKqTXUx3P0v8Axi86u0HSNAMQrQAwa/Xyhb56GA9T1BsfE3ULEBCzQSmQIUM3AabKBLrJlcjlgoepgYfRUBJAVNEHZaCKCs7iJiAHSUh5PrJr/1qleb6qVim2fzp8VbxSFHGvwytxteOrtVp8MmxlvAy3R7w54L32S+NlV9otiZf6v9sloogr7UNY99mI1fFGl1c6rIiXlFXtXrL69c6UtF8dG94gXu/3Tsfl8Wpc7bAsXun7didRxMdDV/T+sNWHv/Wq76rb3PPhT6/VvdVqphZ37rRI/kztVaVSPrD/E+42b3634cmAAbmXZi54YO3ouf79d9zYacvU1oOPGx9sdMgd8v8HPfx59BwgEHy/ZcqazS2n/lctgcdf/vGP/DtqnKQP0UQCQTa0MdSGBBIBAEhxSu8EBDKzJDHbzCuuGAoqJFUFZLpqBbnCEKjoYdzhqsJymcibCu1srJA0cxQy412EXDsfQcVUX+eq2kVmgZz9cB/A5Pkcn7esHDV8ZDm5nNYV3qiYMD+lXLYHnsK+QbDRLocdcsJOO+x1gtHHLCyedNB8iZrni0qjDDdSabJS3bqXV7HcMcftHYv6RaYoz2cHOiWPHgSrSYDRd3cwI1JkLY/vOblr14Gdw56y0ZqLbxYAAAA=");
 
 export default Shuffle;

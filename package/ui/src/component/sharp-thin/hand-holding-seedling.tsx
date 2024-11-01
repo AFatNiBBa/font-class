@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-seedling` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-seedling?s=sharp-thin hand-holding-seedling}
  * @preview ![hand-holding-seedling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand-holding-seedling.svg)
  */
-const HandHoldingSeedling: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M96 0l8 0 40 0c83.9 0 152 68.1 152 152l0 16 0 96 0 8-16 0 0-8 0-88-32 0C164.1 176 96 107.9 96 24L96 8l0-8zM280 160l0-8c0-75.1-60.9-136-136-136l-32 0 0 8c0 75.1 60.9 136 136 136l32 0zM148.8 320l2.8 0L376 320l8 0 0 8 0 56 0 8-8 0-120 0 0 24 138.8 0 120.9-83.1 6.6-4.5 4.5 6.6 36.3 52.7 4.5 6.6-6.6 4.5L398.5 510.6l-2 1.4-2.5 0L8 512l-8 0 0-16 8 0 383.5 0L545.4 390.2l-27.2-39.6-116.3 80-2 1.4-2.5 0L248 432l-8 0 0-8 0-40 0-8 8 0 120 0 0-40-213.6 0L76.6 398.2 74.4 400l-2.8 0L8 400l-8 0 0-16 8 0 60.8 0 77.8-62.2 2.2-1.8zM480 24c0 83.9-68.1 152-152 152l0-8 0-8c75.1 0 136-60.9 136-136l0-8-32 0c-50 0-93.7 27-117.3 67.2c-2.4-5.9-5.1-11.6-8-17.2C334.1 26.1 380 0 432 0l40 0 8 0 0 8 0 16z" />
-    </Icon>
-);
+const HandHoldingSeedling = createIcon("hand-holding-seedling", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABkQAAAKwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyDBwsGAAE2AiQDCAQgBYMtBzwbkwXIrgd4wwb1K8MinXbi0EgQdNH4/N4sT3wRBM9/dl/3VdX/p6Z70LNirQdmtBQjO5Qzh0QqxMvD5+39UaCRBa28uusuCSc5BV4DmVAkucFVlGCCA8uyUWQTxu6mP+C4NIWA6oCBtHdlFp0hbOvJAvw/cTn9XTYHLk40lLE2rc1jjPPOw0CjLg8onDYWWKYJWH47PwaL6MogdF2cC8P4hu1PfweMvHEJgdqnnsDO/KHyRW8dKLQGAEACAACg/OzbzL2mwcf/Qh5bgQBIOQCOABrQQCcCQBGNAJ0YHDAYBD7yD/+BgQCAhKHDKwAMEAaOAZcAAAOAwhjTOba+e0NRZoAf8ob6nv8sP/0JgnhCop48n94BSfQX5HgvqBlBjm34qtvPqDKt9RBfBkpbaS3lhdhK+kkn+EgBoowpTHlLKni+iCf3Uk2s7cSnY8itfuz7c+1xgS1xZ+N2t7mQeNP3fYTud3D+m6Yp1TatTPafoywwiiVgGcSRXnv1SCq1EeMH7AqWuvc1R9RfOuSx2EXtbGXRQT81slQb59hMAb0lwK7am9PM3Xn4kCXOesdxnmPLulF1AVvcXCx26ZOyc2B/WSyWXQNehMXp/V1DbvMvdpy1BAAQQGDj7isxRf9cBcDne/5X9D+NOg9YFAACOuk/w1IZYFUeAgAAAChZQPdUBgig2IeBrjWS3QgAggcIAIowHgKApqOAAGDwSCQAhOgimwAQxqMvjZgIhFaGD74iktl8TY7lfEMrF/khitxPhWkVGqtKpCk/FdPVcLh6lbspaa7ALeuaCn7yOF/ozLazQPTFu61MMNMM84w3zmTzGG2O5ux809VohGpf5KRLkcYp4I5by80DjDfHXJPNNCMtUsi9D8VZoI+Od04FScxQpFAgqjW0TcnYX0r+48eP++0lAAA=");
 
 export default HandHoldingSeedling;

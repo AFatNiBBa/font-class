@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-xmark?s=duotone comment-xmark}
  * @preview ![comment-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/comment-xmark.svg)
  */
-const CommentXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3C1.6 455.8 0 459.9 0 464c0 2.1 .4 4.1 1.2 6.1c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240zm168 64c0-6.1 2.3-12.3 7-17c15.7-15.7 31.3-31.4 47-47c-15.7-15.7-31.4-31.4-47-47c-9.4-9.4-9.4-24.6 0-33.9c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7l47 47c15.7-15.7 31.3-31.4 47-47c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7s7 10.8 7 17s-2.3 12.3-7 17l-47 47 47 47c4.7 4.7 7 10.8 7 17s-2.3 12.3-7 17s-10.8 7-17 7s-12.3-2.3-17-7c-15.7-15.7-31.4-31.4-47-47c-15.7 15.7-31.4 31.4-47 47c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7s-7-10.8-7-17z" />
-        <path d="M209 159c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47z" />
-    </Icon>
-);
+const CommentXmark = createIcon("comment-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABoQAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCTQsIAAE2AiQDCgQgBYMtB1YbdQXIjpSuzlQElU6qZyW7zvIx6BjhETBDyhDTg/CBY8f//F9Obzw/Ojv9g89prrYdtgbIXs8T6HmbyqZ3GWeagTU4b9IhhTSE9Bfk8X12rQrpofQl7oj/BzB+1cm1JLUMQLQEwMz1q5f6+GScTPFl43XiS0sQELNAKZAhQ1cBpsgEusqVyOWCk6nByWiUBBBVcdgZqKKCG3E3IAdJSHleDh1drzTL18VHis3P93mw09SYEhR7rv/0mBrYI52nxfQQNiNToqv5aeajA+5tm33syuIqEfe6st199bcmv9f/nfovi7+Y/lHvp6d9uOjzdT8u+HTK++Xaqzo8AM68POjhLg/Ub2k3NSYSqrnPlW2nRCQZ3r3Fze1fHvTigNvuj14vt3z5955f7vvSt2WzZt9++4c/EPGtBDviUL4158yc2mX7ereKEMypZmlh8cqKcujfE+a7+ZHu3Wu1Iv3IzfOZCy9ML/ZdcMEfjQv2ffvtvoLF/gAlo8DUHzB3/v4L9r0PBIInbvwmbW8x5f8m9QROv/vnv80PSeNkkl5GEwkE2ZDGEFsSSAQAIMX5eiWeQiCzQ5IGTd3/uBwKMEiqCpDpoiXIFQaDiu7GShdrV8tEXkNpbW1FIGnqLJAZ5zKQa+s1UDHFJ4WqtpH5R8U3Kb+DmfOm9NxN5chhI8pJ5W5Lp3oxSa9OLi9HB5zPRwbCq/Y57phz7bXHQedO2LMtLZ/nqHlHzFxfVBppmBFKk5SPuy/NdbhwtnMc3NafrzNZ+X0wwPnH0wfC7STAKJusy4gUWbsgEBt6oet1h7rtCR02dHcM");
 
 export default CommentXmark;

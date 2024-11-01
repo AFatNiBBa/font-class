@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-font` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-font?s=sharp-light book-font}
  * @preview ![book-font](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/book-font.svg)
  */
-const BookFont: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L432 0l16 0 0 16 0 384 0 16-16 0-16 0 0 64 16 0 16 0 0 32-16 0L64 512c-35.3 0-64-28.7-64-64c0 0 0 0 0 0L0 64zM64 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l320 0 0-64L64 416zM32 392.6c9.4-5.4 20.3-8.6 32-8.6l352 0 0-352L64 32C46.3 32 32 46.3 32 64l0 328.6zM249.9 96l4.4 8.8L361.9 320l-35.8 0-32-64-108.2 0-32 64-35.8 0L225.7 104.8l4.4-8.8 19.8 0zm-48 128l76.2 0L240 147.8 201.9 224z" />
-    </Icon>
-);
+const BookFont = createIcon("book-font", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcQAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCBQsGAAE2AiQDCAQgBYMtBzAbBQXIjsQ4JvKLKOwiHv5/rn/3ucmj5DPkE5ECJgcIJcWyrmpcURParsrWTofUvsebuKZ+nD89SPETPEqFVS14zaPM8wkM9Gk3i6ZNJApsOkGbtbOj/gfRl0FCQpLJ/MNmC3m8jZEaSK/Td3gYPjT+0d01kjwDEO0AMG/96lVqf8afEd/VJb6zAgExH1QCGTL0EmCmTKCXXIVcLvgz6nX6D6wIIBrJkySQowl7cAyQg6Qhz/u3a9O5qWxona8rG4rs7YiIz4a0LkUKURSiLEXR6sPhn/a4HJcj23inU8Qzlzo/L1tHRKvhLw2QKTGKfSZt7tyl89ooYnwEx15kfXSNck1ZlOtiTf9P2336L9/t+86loj3tPzjRrp1L2pHebi6AaokTH7RvX8ClOdvb3OJWG2agz2Wx/3/ssAPXpZf9NHSqxB/+3kB1R9QNVJVM1WnMxZXwB63A54NA8HvXzSO3t535X3OZwN9ftHRyvRa19CmaJRBkI+sjbYkaEDWAn5TinP5RQyDZooFcaysvBAgFAiSNCgEyPbUTIFcYIUCDPiYJ0KiwWibyFqGTrYVMWjlJZiY7T+Y6+ZxsMNOXmUadIlM1QVGEn17q4hZeNKsaN3psNb2aVmRRezg3OaPa1oee445hWGif4445Y689DjrToKesyp911OIVssgXVcYZbazKdNVx/X7+OnudctpBxx3z08xQ3U8MdW7dfxisRGjHK0sSkVr0UBv1Kg==");
 
 export default BookFont;

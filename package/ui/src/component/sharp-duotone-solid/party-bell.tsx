@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `party-bell` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/party-bell?s=sharp-duotone-solid party-bell}
  * @preview ![party-bell](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/party-bell.svg)
  */
-const PartyBell: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 480a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zM150.1 376l17 17 8.3 8.3c16.7 16.7 27.2 38.6 29.8 62.1l3 27.4 47.7-5.3-3-27.4c-3.8-34.3-19.2-66.3-43.6-90.7L201 359l-17-17L150.1 376zm128.1-98.8l15.5 18.3 8.5 10c4.9 5.8 7.5 13.2 7.3 20.7c-1.1 42.5 31.7 78.3 74.2 80.8l30 1.8c16.6 1 29.4 15 29 31.6c-.5 19.4 6.1 38.2 18.6 53l8.5 10 36.6-31-8.5-10c-4.9-5.8-7.5-13.2-7.3-20.7c1.1-42.5-31.7-78.3-74.2-80.8l-30-1.8c-16.6-1-29.4-15-29-31.6c.5-19.4-6.1-38.2-18.6-53l-8.5-10-15.5-18.3-36.6 31zM320 480a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm22.1-296l17 17 8.2 8.3c24.4 24.4 56.4 39.8 90.7 43.6l27.4 3 5.3-47.7-27.4-3c-23.5-2.6-45.4-13.1-62.1-29.8L393 167l-17-17L342.1 184zM448 64a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M65.6 65.6c-87.5 87.5-87.5 229.3 0 316.8L382.4 65.6c-87.5-87.5-229.3-87.5-316.8 0z" />
-    </Icon>
-);
+const PartyBell = createIcon("party-bell", true, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABsQAAAKJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDGAsIAAE2AiQDCgQgBYMtB1AbugXIHge5SfNW4mL6isTD83bv/9pnJjeAJnkwKuuT7gBVYpUy/1dyfZOZOCX/82knLnf+a9H7Nnq0NWprIG3APakLbIM/ZWNS9yIJhRg59jbNyyMIISIiLEqkOq7cdly7QR7fZ9eoID2YvsTt4X8A41fdriGpzgBEEwBW7d6+0UejMZriy3LElzYgIFaDQiBDhj4BlsoE+uQK5HLBaCpjNMoKAoiSEGYGSqjGs3gDkIMklPK8tbV9Gpa11lbU57vwh6jZ/14R8cRQxJPLjo8P1n+89qVd0R5xb+3NnffHlR331dzUdo/dkyZPao+n+7tjQfTEU8s7YnIs3d3d090e93pk0tPzxsW97fd6YFJ7LImOuK/zysnPzB8f93XcFw9P7oieWLhzI7C/7P1142IwdOk3JkMdTVjDzzQ98/uQ41h16bs/MTLCT+8uWeLd22699bZ3lRtu4IaGVBFPP/d4nO/BOVP8Z4odO89H8+VH/UNnXeiCWuvXpe+8dMMFdfXjb7RcT9YMcRfcUF83Yc0PNk36/CTRPiFg57qnHPaKOQ+6OSeer3ofCASXDY/cd7hx6f9VtQn8+M6fv+QXy5c/StIzqJJAkE0tT3UgEVCWCJRNcZ5hsG5nwTvcwKfWuU+AUIMASUmNAJleTQLkakwRoMKAeQKU1NguE3m10OZglZM6Z8qZ+S6Vc21elSss9Um2pC0yq9VtTv9nzFnPgXWHilnTZxaLi2lFMQxR9ZNLCnVi4nnYMQmOOs7pTnOOYx3jROcw9iwbC+c61XqJWeeLCrNMN1NhsWK5fu/sYtmznO3EsbW+yhLF+cxE58n9J0E6IcXZAjIZkSJr+Rjcae9tZJr9d7a11pMOAA==");
 
 export default PartyBell;

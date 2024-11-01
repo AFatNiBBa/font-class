@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crow` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crow?s=sharp-duotone-solid crow}
  * @preview ![crow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/crow.svg)
  */
-const Crow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M259.2 384l18.6 45.1 14 34 14 34 6.1 14.9 51.9 0-13.6-33.1-14-34-14-34L311.1 384l-51.9 0zm96 0l46.6 113.2 6.1 14.9 51.9 0-13.6-33.1-42-102c-15.6 4.4-32 6.9-49 7.1zM523.9 32C536.5 47.2 544 66.7 544 88l0 32 96-24 0-32L592 32l-68.1 0z" />
-        <path d="M456 0c-48.6 0-88 39.4-88 88l0 29.2L.3 400l39 50.7L126.1 384 352 384c106 0 192-86 192-192l0-64 0-40c0-48.6-39.4-88-88-88zm0 64a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Crow = createIcon("crow", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABegAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBfwsIAAE2AiQDCgQgBYMtB0QbFQXIjtNlNOYaYTz8t9bbfVU9EwDqAKMiAkfk4gBV2CYq7IiW7D+RC3L1NJAJ4vupUzXjPBTA5xAEbQ/K5mWhUOc6r0CBx/INuqlUrdUUuzvbgWOllUNixNJyfHZ8PnsoUt98XoV0I33Glfg/gPGPDs6TNMgAojkApq9YMs/buqhL8bn2jPhsLgJiBigFMjI6CzBJFuisUKJQCOpSrUZd1GolAURV/JQMqqiHddgHKECS5KLo0qBN08aNKk2K5Y0qDXc86xfxqLPYGtNjRTSKv5b8tiIi4u6AJ2Pc73C914OOt/puGTxkcJfoEm2iUXR1xY7RsNGy5cu68vK413DN4y5CdZUJ0bDHk+ZP/uv+eftn794Yl4suDnS02fIZflkUy5bFomn6KS5fZlGbNotSLE0dRHN++GG9Ub4r0BN345CDyIyv6b/N9o6PNqS0oZ1SzSwgEPRfNH3YhmaT/q/fKIFfz/+3fHHtbTqdnqC+BII8qDbI2nQaPDGAJMVxPYTviiyQDZXRuzZ2VYDQEAGSqoYCZJ00F6DQ0EABKroaLUBVQ0tkUTQQWltXQdLYIZCNcQIUWnsKKiZ5l1S1jmxojJkw77zEORydPascPmRYOaFcVhTWdiicnFhum/2Oh47+sNN2B+x31DZb7XKU4YfNy4/ZZ46EzfZDpeGGGKY0QamuP4rLWXLYEbvmvH6aicrzQT/H5f79wUmIdIQVWSZS5Ma/NqiD7VVu2vD3EgA=");
 
 export default Crow;

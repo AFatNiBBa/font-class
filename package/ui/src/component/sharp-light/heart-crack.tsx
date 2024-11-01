@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-crack` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-crack?s=sharp-light heart-crack}
  * @preview ![heart-crack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/heart-crack.svg)
  */
-const HeartCrack: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 125.3l0 18.7 0 6.6 4.7 4.7 34.2 34.2-79.8 53.2-14.5 9.7L195.5 266l64 80 25-20-53.1-66.4 81.5-54.3 16.2-10.8-13.8-13.8L272 137.4l0-12.1 6.6-6.6 24.2-24.2C322.3 74.9 348.7 64 376.2 64C433.5 64 480 110.5 480 167.8c0 27.5-10.9 53.9-30.4 73.4l-24.2 24.2L256 434.8 86.6 265.4 62.4 241.2C42.9 221.7 32 195.3 32 167.8C32 110.5 78.5 64 135.8 64c27.5 0 53.9 10.9 73.4 30.4l24.2 24.2 6.6 6.6zM256 480l22.6-22.6L448 288l24.2-24.2c25.5-25.5 39.8-60 39.8-96C512 92.8 451.2 32 376.2 32c-36 0-70.5 14.3-96 39.8l-1.6 1.6L256 96 233.4 73.4l-1.6-1.6c-25.5-25.5-60-39.8-96-39.8C60.8 32 0 92.8 0 167.8c0 36 14.3 70.5 39.8 96L64 288 233.4 457.4 256 480z" />
-    </Icon>
-);
+const HeartCrack = createIcon("heart-crack", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABegAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCFQsGAAE2AiQDCAQgBYMtBzIbFwXIhofn7f79tc9MAE8Au8yrIlX6IHuhJao7/9d8ftZ0gN/o0Do0xpEWUc8nMNCj3fcVDzwKbKYTsFk7PXkhuk2SlE8yjD9s9pDHy9FFOdKV9Aku1A+NHzVyhiTPAERNAIycP3uqN76L7yI+KT1LfGIyAmIUKAQyZGgqwBCZQFO5Arlc8F2USvwfWBBAlAc0MXJ35hYcBOQgSXk+vG2VctXyeR5SebEg6sXQmBN1I2xudI55MT8aRP0YFmHiOsfD/s92vN/seocOctW86BQPmt/qvFZ0jHoLO3foPD/Fvd767rDXxr0zpG50YLd+jNQrxZ2hNnFudGz1oOaDn1t+su4Tv46qg4tXMFpt0/v4zKOGT3da35Fm9vO/rz1U1Vr7/Vz2xFefVqn86Xn37ofE8z6tXOXTr564/dUBa2usWoe7uHfPfusrVFo7r2zHPtZZh307yuatrVRh/X737lkHBIJTy0dtWl5jyN8VqyTww0u//t5+RkrfJekBKkogyLqUuliSQCIAACn2aZUgkKyR4FqruihAqIwASXmVBcg0UVOAXGWdBSinub4ClFfZbJnIKwl1LR0gqWonyPRzFOTqehqUM8T76fLqRqZyvMLwP76UcTMydlvRs1uPYlCxbeuCFrF5fXBx7HTYF8Y6EtQ6222zx1prbLRnoneZmttrq3ESNdYXFXrqpofCIMV173X3PGvtsttG220rmwxWvA862CfP7kh+AsZeapJEpCpaX9Z19a6VqzcDAAA=");
 
 export default HeartCrack;

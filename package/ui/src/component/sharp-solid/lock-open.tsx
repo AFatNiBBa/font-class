@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lock-open` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-open?s=sharp-solid lock-open}
  * @preview ![lock-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/lock-open.svg)
  */
-const LockOpen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M352 144c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48 0 32 64 0 0-32 0-48C576 64.5 511.5 0 432 0S288 64.5 288 144l0 48L0 192 0 512l448 0 0-320-96 0 0-48z" />
-    </Icon>
-);
+const LockOpen = createIcon("lock-open", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABVAAAAHOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBFwsGAAE2AiQDCAQgBYMtBzAblwTIjsO44TuyxVL+I4jWyurZfcIQbaKAWRGBIxlHilw+EgCFBLKooi+Zee2mv/nnnUcBPo4gtDFtaSALJJrzPIHEunQsy+bXbx8sUfy6TfYoFIVfRIiQRHRc5fE1Qh6fslPKSJcSnKs/Gr90cIqkKgMQjQCYtHj+PM++x/eIj6XbxEdzEBCTQCGQIUNnAcbKBDrLFcjlgu9RKtF/YEEAUU72TCBHhsEYDshBEnneu6asLl+UelRvvtwn4saI272udxGiJvDZa+OfTH819kLURoq6yKI6okdLY8uf7jaxekAsYmNj48ZFMVBhosJAnY+cff787JHO5rhnJlpjIBAIzqaGrm4Y+7+yJoGfD/790TaXnqWJqQWVEgiyvqW+VqSJQOgA1BSH9HBeFkh6SyDfWuu8AKEaAZJy1QJkOmkUIFetjwBluhomQLlq82UirxJaWzlAUmsvyAx3EuRauwnKjPVWLdc6spghb5z8ssVN19C0pmJQ/4HF6GJq6VQY4Lk6plgWeh7iSC902mS3XQ7YaIOtDihkn3nGQTtN9+BpXlQYpL+BCqMV2+62fZGN9tlvq912lTpjFOeVng756b0gJ4I5mClJRKp6zHy/aAI=");
 
 export default LockOpen;

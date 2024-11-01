@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grapes` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grapes?s=light grapes}
  * @preview ![grapes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/grapes.svg)
  */
-const Grapes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M447.5 221.1c-4.5-10.7-10.5-20.6-17.9-29.3c21.6-2 40.7-14.9 50.2-22.8c0 0 0 0 0-.1c.1-.1 .2-.4 .2-.9c0-.4-.1-.7-.1-.8C469.7 159.1 446.4 144 416 144c-14.7 0-22.9 1.8-26.9 3.2c-1.6 .6-2.6 1-2.9 1.2c-6.3 5.2-15.6 4.8-21.4-1.1s-6.2-15.2-1.1-21.4c.2-.4 .7-1.3 1.2-2.9c1.3-4 3.2-12.2 3.2-26.9c0-30.4-15.1-53.7-23.2-63.9c-.1 0-.4-.1-.8-.1c-.5 0-.8 .1-.9 .2c0 0 0 0-.1 0c-7.9 9.6-20.8 28.6-22.8 50.2C311.5 75 301.7 69 290.9 64.5c6.1-24.5 20-43.7 27.4-52.7C325 3.7 334.8 0 344 0s19.1 3.7 25.8 12.1C379.8 24.8 400 55.1 400 96c0 6.3-.3 11.9-.8 16.8c4.9-.5 10.5-.8 16.8-.8c40.9 0 71.2 20.2 83.9 30.2c8.4 6.7 12.1 16.5 12.1 25.8c0 9.2-3.7 19-11.8 25.7c-9 7.4-28.2 21.3-52.7 27.4zM320 456c-18.4 0-35.2-6.9-47.9-18.2c-12.4 25-38.3 42.2-68.1 42.2c-19 0-36.3-7-49.6-18.4C142.6 491.1 113.7 512 80 512c-44.2 0-80-35.8-80-80c0-33.7 20.9-62.6 50.4-74.4C39 344.3 32 327 32 308c0-29.8 17.2-55.7 42.2-68.1C62.9 227.2 56 210.4 56 192c0-39.8 32.2-72 72-72c17.6 0 33.8 6.3 46.3 16.9C186.4 108.1 214.9 88 248 88c44.2 0 80 35.8 80 80c0 6.2-.7 12.2-2 18c5.8-1.3 11.8-2 18-2c44.2 0 80 35.8 80 80c0 33.1-20.1 61.6-48.9 73.7C385.7 350.2 392 366.4 392 384c0 39.8-32.2 72-72 72zM296 168a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM128 232a40 40 0 1 0 0-80 40 40 0 1 0 0 80zm144 56a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM108 352a44 44 0 1 0 0-88 44 44 0 1 0 0 88zM80 480a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm124-32a44 44 0 1 0 0-88 44 44 0 1 0 0 88zm156-64a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zm-16-72a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const Grapes = createIcon("grapes", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAAB7QAAALrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXiEPQsGAAE2AiQDCAQgBYMtBy0bOgbIjtMVcwkaijKuwVO/3+vZfTdIKBPH0EoABMX2T2SJVOBgXN5TTkjSlmC0ZYBtUYgrYenb9D/XfH527/TegD7YPd/xUC4Sl0kVFNE+gQFGU3sBJdjIJqSDILbJYyIhcoRi2xkYuZdU7EB36htgvbtavhDEElCMBa5CPPlMqpoLKXixiU3kc/QqyBtqAQRAqgEgEgEswAJCEQBKsRAgFEMkYDAI2GR01P4PjAQBALEHUGWXAVyBIRAnoLsEFGeDzpS54SVhKOhyHEVs3sbd4OnYIoJqpJ5rT9mrxC3+611q0CTa5ko0audVE9IWJPakeoe3OJG02m9NsCVYYBemo3FnmgTQExnq4jHjpvqUmCy4lnwtXRTt6K6FgmvHdKObSUlxF6SrSVeSdaw9mb+pvoIdiZfq+l3ac8fF39KcjZtExeOuJGxJpxOSgM5Kg8U1cqVoOan8iMpr+vV31Juxb7g/OP7M/7PnUwEEgWn/HXoqc3Q5vmN5ChBh29n3T2gHQASgeU6P7NW/6rkz5Ruax83MI2tUJ9yAk621ZuOued+7Mc8/+c7/fCFzSSjivVQujViE9NYmRPDbdy3GlXfx0IByobpyvg5krJkjAsnjxF9IyOKC3j1q1RAnIyCCOG72dB/RJhyvaLi0snLbMLTeR8bhioWPq1c/FkAImT9Qu369dmBodgQZu2PYlKKACcuQR3LR5QAggEDdrw1V3bTSf44uSAAYvPXjn/MjGH2g6CnAEQVAwEodTaVDAVAQ/AyVMZQKg6D8xbkMdle2bQ0JzlCBYo8zWITgCQZnUsCOcPKYhcvrQSGGAIIvnYDiykSwyGcuGHy5DHaU8txvj69YlwF3EnN3ocmJJhIfJ8+y2uVB+WhBwZ/ZjDUYki9WJ45pDQa2Qhv99DFCKy10MtLAh0iFRuklMaUc/66cLNLJJJJiIjeX764v08oQw3TST58zSgmRx9sTmTbdPgkdEl9lNjmKgij273g1rcMAAAA=");
 
 export default Grapes;

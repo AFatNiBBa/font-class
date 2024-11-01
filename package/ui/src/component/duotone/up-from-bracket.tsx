@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-from-bracket` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-from-bracket?s=duotone up-from-bracket}
  * @preview ![up-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/up-from-bracket.svg)
  */
-const UpFromBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 352l0 64c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64c0 17.7-14.3 32-32 32L96 448c-17.7 0-32-14.3-32-32l0-64c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-        <path d="M196.7 11.3L73.9 134.1c-6.4 6.4-9.9 15-9.9 24C64 176.8 79.2 192 97.9 192l62.1 0 0 128c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-128 62.1 0c18.7 0 33.9-15.2 33.9-33.9c0-9-3.6-17.6-9.9-24L251.3 11.3C244.1 4.1 234.2 0 224 0s-20.1 4.1-27.3 11.3z" />
-    </Icon>
-);
+const UpFromBracket = createIcon("up-from-bracket", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABfwAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBdwsIAAE2AiQDCgQgBYMtB1obIwXIjsQ4JvGLWNDi4WPtf+fu7ldFbBHXBEncmqhmjWLJtIQ/VIbEUHn5/673x707/+efPuCzDwBz2xq4Kt/7PIHOo2wtL/NMM7Bsy+FLPhGIyw8REibH0zDlD1svyOJBekwRye3kJy7q/wDGb20cI1GWAohaAEyeP3uWty3RksTPwjPip5kIiCkgF0iRor0A46QC7WVyZDJBS1JASxTkBBDF9MMpKEaGZVgPyEAiRJb1GlBRVJXN01Pli+fMn3PNoabrFRUhGu5sq5sRce/h5nlxo/xMYwj3ez8aXhUv+z7pFBEl5jU4MaLyyjjj9eAjujyuffyn8891P318lkW3q6tv79UTHFJ96lT1pJ4cMgETjcgEMLFZVkyyytLHjw9xaCilQAu6wkXJ+0Ag+N+vx4LlNeP+lVYk4Neb/8oPSeFtvE0eo1QCgrRfoZ8l8RbirQAAJLFPl3hrEgKpARJ2stINAUI5GBLFyiHVTi1kyvWFIh0Np8ATs6UiKxMaLUWQqLQTUiPsh0yjp1BknC9pscZIFxmzRJh/vMQZHpm+KR88YFA+Jn9sOdl1Qx2rY3PY7LWvj/SmvdbZbps91lpjoz0O22VWsddWMzJ0ui/KDTbAILkx8unud3Eep7vstjHm59cZK3/f72VfPr03bScBDPk8u1IiibTV3h39y7G+/6pdK1dvXrunf8VObBPx5QkAAA==");
 
 export default UpFromBracket;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hanukiah` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hanukiah?s=light hanukiah}
  * @preview ![hanukiah](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hanukiah.svg)
  */
-const Hanukiah: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M336 16l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16zM64 80l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16zm64 0l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16zm64 0l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16zm64 0l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16zm160 0l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16zm64 0l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16zm64 0l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16zm64 0l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16zM320 96c8.8 0 16 7.2 16 16l0 240 48 0 0-176c0-8.8 7.2-16 16-16s16 7.2 16 16l0 176 32 0 0-176c0-8.8 7.2-16 16-16s16 7.2 16 16l0 176 32 0 0-176c0-8.8 7.2-16 16-16s16 7.2 16 16l0 173.3c18.6-6.6 32-24.4 32-45.3l0-128c0-8.8 7.2-16 16-16s16 7.2 16 16l0 128c0 44.2-35.8 80-80 80l-192 0 0 96 160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-176 0-176 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l160 0 0-96-192 0c-44.2 0-80-35.8-80-80l0-128c0-8.8 7.2-16 16-16s16 7.2 16 16l0 128c0 20.9 13.4 38.7 32 45.3L96 176c0-8.8 7.2-16 16-16s16 7.2 16 16l0 176 32 0 0-176c0-8.8 7.2-16 16-16s16 7.2 16 16l0 176 32 0 0-176c0-8.8 7.2-16 16-16s16 7.2 16 16l0 176 48 0 0-240c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const Hanukiah = createIcon("hanukiah", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAAB1AAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRSEOAsGAAE2AiQDCAQgBYMtBy8bNwbIhqB+7aus173UM4v8lpkVkCc4dkxqTrFw+OMsgcKRU7XHa41foIJU8Xz81u7gu/ifLhVYfHSeNvUJzWb7bAP1WZvjF0WFcEjiqUPseQ6H7WnYCqGMv2OoRqTH6UvcPG40ftDZDZKyABCtADBrw5plGmpRi/jy/3eJLy1BQMwGWaBAgW4CTFUIdFPKKJWCWvz/f/oPzAQQjfXQCZSox79EAeYqkqosW0jOhbpGzcv159fVAeFeuwcdIh52vN9+J/x2Hag7S1zURW1Lked7Fjw18IWxVaxZyLnXrqoedFjxnooq3hv8Uo+0+HQ/vrUG6/1Sq5d+6vXl/i+teD3n3KJWa5GNxZYzntOZCbN4jqH3bFlr8auR3lj+hqzEq75qdSXAFbF+X6sGOz2n1qJF7Y03xoHn7NSg1b714fDX6qtXN2FvGOnXy4FAsOTjYTd3tJz6V9O6BL7/6Je/rsP5/4a0M72EphLxfTH0/6G2piuynHYKvUCK83objySQ/KUi11rvgQChQoCksUqAQletBChVhgjQSA/jBGisskYhymZCO9tuKql3iiqMd5EqtfM21chUnyQaaxfFRyCGsPgLmjYf4Xmr8qjhI/Pk/FqnUlzzbX5KdusDz+e+QXLWficcd9Y+ex1yFtDTlqXPOWa+xZx332yU4UbKJst061lbD9hpZxxyjuP9TJH3uwOdt0cPkvUkwOjwAdKmSE0P7jp+7sihXQcB");
 
 export default Hanukiah;

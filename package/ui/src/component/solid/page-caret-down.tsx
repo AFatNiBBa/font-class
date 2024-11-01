@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `page-caret-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/page-caret-down?s=solid page-caret-down}
  * @preview ![page-caret-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/page-caret-down.svg)
  */
-const PageCaretDown: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 512c35.3 0 64-28.7 64-64l0-309.5c0-17-6.7-33.3-18.7-45.3L290.7 18.7C278.7 6.7 262.5 0 245.5 0L64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0zM192 352c-4.5 0-8.8-1.9-11.8-5.2l-75.7-82.6c-14.1-15.4-3.2-40.2 17.7-40.2l139.6 0c20.9 0 31.8 24.8 17.7 40.2l-75.7 82.6c-3 3.3-7.3 5.2-11.8 5.2z" />
-    </Icon>
-);
+const PageCaretDown = createIcon("page-caret-down", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABXQAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBJgsGAAE2AiQDCAQgBYMtBzYbrATIjpQuZyQRVLqqrJaWtMegA2CwCJ/JBLLOenaMjXcJ7KkQ/L+/ef7PP33AxxGENqYtDWSBRHOeJ5BYl2+CLLAPDDGkbuMPN4iyKnIEj4ihyAzRDfK4kN1URXop/Yz79aXxq/ZuktRlAKIZAKatWbHI84ZoiPip8jnxkwUIiGmgFMiQoZMAE2UCneRK5HJBQ1Qq9g8sCSCq4eMTyJFjDKYAcpCkPO/Usr6qcb66vqrY9sGAiE86ZnGt/+r4uCji3b4ftkvxUr+PejVefavN6njW9oW29fG09dNWK+NJ0f3jZh//7ufdP5sy5c3mNC9G6dh93jzdO3zhzebNi6uK5s3fdOWNmpnzl/tk08a/7vhr46ZXFiw3swYIBI8vNP12S9OJ/9fWJ/DLN3+mtyvP42r6GLUSCLKBlYE2xlVQZgBOitO6B5QFkiES4KmNPBMgFAiQVCsEyHTUTIBcYYAAVboYJUC1wgqZyOuEVjZ1SBo5BpnRLkGulU+hykTfOdVaRcYd4eaFn1vqbI9mzZXDBg8tx5fTUBPpwOXxhHJZ73s6lfrJqt2OOOykXXba56Qjxy3yTzlkdoRnoag0zGBDlcYrt5PH5dV2Oe6EfY44XKZMUJ63+zodN/cTKwHrcIEkEanp89IGEdM4OYhTAA==");
 
 export default PageCaretDown;

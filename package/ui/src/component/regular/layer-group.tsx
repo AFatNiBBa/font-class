@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `layer-group` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-group?s=regular layer-group}
  * @preview ![layer-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/layer-group.svg)
  */
-const LayerGroup: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 0c-8.5 0-17 1.7-24.8 5.1L53.9 94.8C40.6 100.5 32 113.5 32 128s8.6 27.5 21.9 33.2l209.3 89.7c7.8 3.4 16.3 5.1 24.8 5.1s17-1.7 24.8-5.1l209.3-89.7c13.3-5.7 21.9-18.8 21.9-33.2s-8.6-27.5-21.9-33.2L312.8 5.1C305 1.7 296.5 0 288 0zm-5.9 49.2C284 48.4 286 48 288 48s4 .4 5.9 1.2L477.7 128 293.9 206.8c-1.9 .8-3.9 1.2-5.9 1.2s-4-.4-5.9-1.2L98.3 128 282.1 49.2zM53.9 222.8C40.6 228.5 32 241.5 32 256s8.6 27.5 21.9 33.2l209.3 89.7c7.8 3.4 16.3 5.1 24.8 5.1s17-1.7 24.8-5.1l209.3-89.7c13.3-5.7 21.9-18.8 21.9-33.2s-8.6-27.5-21.9-33.2l-31.2-13.4L430 235.5 477.7 256 293.9 334.8c-1.9 .8-3.9 1.2-5.9 1.2s-4-.4-5.9-1.2L98.3 256 146 235.5 85.1 209.4 53.9 222.8zm0 128C40.6 356.5 32 369.5 32 384s8.6 27.5 21.9 33.2l209.3 89.7c7.8 3.4 16.3 5.1 24.8 5.1s17-1.7 24.8-5.1l209.3-89.7c13.3-5.7 21.9-18.8 21.9-33.2s-8.6-27.5-21.9-33.2l-31.2-13.4L430 363.5 477.7 384 293.9 462.8c-1.9 .8-3.9 1.2-5.9 1.2s-4-.4-5.9-1.2L98.3 384 146 363.5 85.1 337.4 53.9 350.8z" />
-    </Icon>
-);
+const LayerGroup = createIcon("layer-group", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABhAAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCOQsGAAE2AiQDCAQgBYMtBzIbOwXIHoNts3kksQ6Hef2IZPD5nFwRfL+G7vsHAQJLpJAVGh0ZV11WZEQ1oC8LSbIT1am+ozF3P/O6djN3xLzRSKziGa+MvoaGRiSLV8DD/F/u+T0/OsBvdGhj09ID2TzGLO152AYPl/c8zsIsswS03dkeK0rLQUtLbJLjs+Nzhzxe4rGC9Dw941F+0/irzw5JkQFAtAIAm1dnp7o//Yx4qm6Jz46BgNgEGEWQIcMgAlZQBQbRjAK5XPAzqir8ByIIIEqgXzaBHCVugIeAHCR5ThO3yuVcOp/WbKBzpu921p32Hisa9hvaPS0XAyfKpoN6fMptdzXUY69+t7updW6wlCQdHu2ovsiGXLxs/Fp0/SZ5nno28pHf+dELmZKRqQs6TcJWHqVS8WVRoXnJnxfG9Vuf/Ns4iR+Pbu/g40AgqF5DzuH+/6wGCsDvNx//7XlYdSmj6Rq1EgiyyUpvIIUhTIgAAFJskSofRJBco6FXbfREgFCPAEmpXoDMABECcvUmEFAY5kBAqd4ZqsjZEDoNdpA0ugaZZdsg1+kGFFbcqaXOoDoh4ULEHzB2T0K7m0YtRjN6cRlh0q+wNPXhtqDewooGzpqybMmGSRNmbQhkTcHYtCipwQlfhCyMzJAXHqePbFOoa9bNzunzVXzwvqK2pbdrQKYg1HmuJBGJ69381CMF");
 
 export default LayerGroup;

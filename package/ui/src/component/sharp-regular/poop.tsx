@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `poop` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poop?s=sharp-regular poop}
  * @preview ![poop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/poop.svg)
  */
-const Poop: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M187.2 0L232 0c71.6 0 131.6 49.5 147.7 116.1C410.8 133 432 166 432 204c0 2-.1 4.1-.2 6.1C465.1 226.3 488 260.5 488 300c0 12.2-2.2 23.9-6.2 34.7C500.4 353.5 512 379.4 512 408l0 80 0 24-24 0L24 512 0 512l0-24 0-80c0-28.6 11.6-54.5 30.2-73.3c-4-10.8-6.2-22.5-6.2-34.7c0-39.5 22.9-73.7 56.2-89.9c-.1-2-.2-4-.2-6.1c0-48.1 33.9-88.2 79.1-97.8c5.7-1.4 11.7-2.2 17.8-2.2l3.1 0 14.7 0c16.2 0 29.3-13.1 29.3-29.3l0-8.1c0-7.4-2.2-14.6-6.3-20.7L232 36.3l-14.3 9.5L212 37.3 187.2 0zm84.1 55.7c.5 3.6 .7 7.2 .7 10.9l0 8.1c0 42.7-34.6 77.3-77.3 77.3L180 152l-3.1 0c-2.2 0-4.3 .3-6.3 .8l-.6 .2-.6 .1C145.8 158 128 178.9 128 204c0 5.2 .8 10.3 2.2 15l7.4 24.6-25.1 5.7C89.3 254.5 72 275.3 72 300c0 10.4 3 20 8.2 28.1l12.9 20L73.3 361.2C58 371.2 48 388.5 48 408l0 56 416 0 0-56c0-19.5-10-36.8-25.3-46.8l-19.9-13.1 12.9-20C437 320 440 310.4 440 300c0-24.7-17.3-45.5-40.5-50.7l-25.1-5.7 7.4-24.6c1.4-4.7 2.2-9.7 2.2-15c0-22.3-14-41.4-33.8-48.7l-13.2-4.9-2.1-14c-5.5-36.7-30.2-67.1-63.5-80.7z" />
-    </Icon>
-);
+const Poop = createIcon("poop", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABjQAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCVQsGAAE2AiQDCAQgBYMtBysbUAURVZofyX4kZG6itb9jZrpYiEa9aHwTQWQX/9Wze/cAMJL9RcXKqEgIAHi+m4IUXqQ4KpmmCondLWzfmZn+fp5/ayqQR/IVK7edF0faLPN8AgOdZQpm+kwnYNudbZtJSpyShLS8vh2fOeTxfJxRIF1NH+B0etD4QS0HSAoZgKgIgEEzpozzyqfxacT7/z8p3jcGATEINBTIkKGuAH1lAnXlGiKXCz6N//+X/0AEEEUZTsyc1jyDi4AcJCnPB40oUyiXT3e9Ss8pU7rMm72ebXRnrav2oBY1760nROmyQbE3t7kWe+tcb7G3eu7vcbkMMMdrXI4x91avEVWjerSfdpG4oeU9XUuXPlY1fHhH1Qv2VKsVTQM71BTlIuJa8+ZRJy7rzEvgual59Sjtr9W+r3nj+yre91OjDxZ94LmX2/HmLty9+7UVX39YL8tOfP17/coTPygzUU01v61pojIfTKxc//evT2RZPmt0i72lsgpltxwuW1LZmZ/4xEwHpvTIiyWZOkyFLGsYUeXBF6uUrL7FBfkDeE4Vt7+ur93le7pFT+V39/W67RWrvPhAfsEW1UtW+ecN9Yz+VV8FAsGUR9cuX1Ch768lyyTw+XO//CI/I/+/kqT7UFICQdb2/7ZzE0gEACDFJo0TBJIjEjzWsi4JEEojQFJUWoBMHRUFyJXWRoCC+roJUFTaFJnISwlVzWsgKWstyHS3E+SqehwU9PW2t6hqZCYpGJTwI0z1pYdyM4LzRJZxVbQyLtYnjh3m+DwLHdUl7x793h25auB/yo7IXyQ4T0SdelQbedbnubmkbyRx32nOvrQF6YHsnSMhSRyV9BSZAAAA");
 
 export default Poop;

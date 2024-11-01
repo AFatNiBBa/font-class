@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-short-wide` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-short-wide?s=thin arrow-down-short-wide}
  * @preview ![arrow-down-short-wide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-down-short-wide.svg)
  */
-const ArrowDownShortWide: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M237.7 373.7l-104 104c-3.1 3.1-8.2 3.1-11.3 0l-104-104c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0L120 452.7 120 40c0-4.4 3.6-8 8-8s8 3.6 8 8l0 412.7 90.3-90.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3zM296 48l80 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-80 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm0 144l144 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-144 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm0 128l208 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-208 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm0 128l272 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-272 0c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const ArrowDownShortWide = createIcon("arrow-down-short-wide", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBdgsGAAE2AiQDCAQgBYMtBzwbAgXILgtsU9mxHkRNxYhGNDaicLhp1nzfTlyM4Pv9fnvOvf9j2rxa0oSHpJ7IhEZokCx2DZGhksnPijXdC4OjmyhgKLJjUnUVMqAizNu6qriicKxcdXJfQIfXF3KiAUIkJXPtWX29V4h+ef9Pf+/On/01AJd9gm86ZmMs3+BznicQaBcVjU0JZWGWKLa47aaISWh7iEQuUOPTkpJvATxGHxp/2gOQSgFADAKAreOFKYz/6C/ooxmIdwMCYhswjVBQMI7AKrHAOIlpUFXBD/0X/4EMBBBtJFB6vqIDF+AOQAWpVSW2flRWS7WSZZNVrRyog3q1TAMPc4nENHQ/RbQSI1FfG2qVWumeVDSooUFpe7VAs90lUHh24Tsl0YUFmkViWW5aW8cIspsb2QidMTbm2UxjNjGIQeI7KH1Pie3tUfThEgsHv0cUDQYw+DpAIJg5HAv0+X+FWgT4fbp+XtcQlVMAdEoQlPnGj80s0yGkBNQybrl2viiQDkgl79rrGQRCNwKktm4BijEGBKpucwi0TEog0NZtn1hUJcKorZ5Lve65YsU9V4165FpWPVfbRkMMYw6EOF94+Zpj0FjHkWCYs7zZ1LrAxrLLOT4dc9/KIQ/eiV1nTl3bse3A9Yi9NNW4caK5hzf8EIsICmNZfLvz3Lc8El26ciByen+VHH6/5Ha7P9mDkyKJ7II9KYm03l5ent0FAt5w4NcKrLAPAA==");
 
 export default ArrowDownShortWide;

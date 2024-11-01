@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alt` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alt?s=duotone alt}
  * @preview ![alt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/alt.svg)
  */
-const Alt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M416 416c0-17.7 14.3-32 32-32l160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32z" />
-        <path d="M423 76c6.1-7.6 15.3-12 25-12l160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-144.6 0L217 436c-6.1 7.6-15.3 12-25 12L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l144.6 0L423 76z" />
-    </Icon>
-);
+const Alt = createIcon("alt", true, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABZwAAAHgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBOAsIAAE2AiQDCgQgBYMtB0IbzATIHgfV7RWziCrHQ2SyuN0y/sTD/9/32+fc2zANXjTSONoo3Aok/JZNFiUQcAJvpa1Ay/9nP3ffzNvqm5jUrS2JKOJNLEHCI+Rf4XSat8ZZXm2+X5x6nvNQAJ9DELQxaWpAxgSa8zxAoYrOKVrqea1AFeTaNgkXmwqhScS+I6Jhs2HsAjUd4itS8i3/8FTeOH5MuYLUVQAQgwCAvbtiAR8NNRl//+8QXy5BQOwDWEQoKJhFYJNYYJbEIqiqoMn/NTTBf34MAUQ7yAsU0I6KHXACoIIUokrYqJZqJRW1VDV9VqvpZuzR2ehDt4pqRIHr8ac4n5hKzWEeE2EGnGQWBoVf09/kz8cD/Stdq6Wr87dWEY30ssASEDdi9HcAgeDP3Zbs6rMrhVoE+P78z0/mYwqgU4KgLK+9WnkGMJ4AI+MIZvBZ8Y5QLBKRbb2eEQjdGKR23VDMMEDVbQnazIttb9ftilhUJcKotkHqdQ/FhmOoRr1Bm02fRrvREEcRHQP0Hy4h75HcIg75g5zmZUiZwCDhOMPbsvMolVy0FBPbthwYG5k7cNiegn1oUx6hOV/EQvyCWBofJ/dCxRl79s3n3PmUDL6vOx3hZhdpIkK4YktRiCSxur9x4HuLota4JwcAAA==");
 
 export default Alt;

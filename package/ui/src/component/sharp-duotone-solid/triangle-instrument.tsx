@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `triangle-instrument` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/triangle-instrument?s=sharp-duotone-solid triangle-instrument}
  * @preview ![triangle-instrument](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/triangle-instrument.svg)
  */
-const TriangleInstrument: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 512l74.6 0 426.7 0 74.6 0-38.4-64L420.7 253.2l-46.6 46.6L463 448 113 448 288 156.4l60.6 101c15.5-15.5 31.1-31.1 46.6-46.6l-70-116.6L320 85.3 320 32l0-32L256 0l0 32 0 53.3-5.3 8.9L38.4 448 0 512z" />
-        <path d="M537 137l17-17L520 86.1l-17 17L306.8 299.2c-5.9-2.1-12.2-3.2-18.8-3.2c-30.9 0-56 25.1-56 56s25.1 56 56 56s56-25.1 56-56c0-6.6-1.1-12.9-3.2-18.8L537 137z" />
-    </Icon>
-);
+const TriangleInstrument = createIcon("triangle-instrument", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdwAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBVwsIAAE2AiQDCgQgBYMtB2IbCwXIjsO44Tuyxbey4+H7tc/Ofd1DPRPkDhD/EClgVECeQChiFZUssESJpNZt5fcXHCmzkVPjjffHL9f9vnhBHvi98Qo0XpD5twO+DPThDHG6TTyyI9ofYWES0nGVx9ce8vg/u6iGdCeNS/gfwPhTJxdJGjIA0RIAM1YuXeLNd/Fdii+qr4gvLEZAzASlQIYMXQWYIhPoKlcilwu+S9Uq30W1WhJA1MKVM1CLHIuxGpCDJESedxnYWNMsX4FbFkcHDxg8LQbEsrhZ1PZ6xzvtbvS92+FWl3PtV2osWsyMFTEllkdTrE3OrQ4gVkT7CLgI92kbq6LS60HLB3/3fMcXOo5DK7z/vvOF7/6tq/v3ndUtBozPV1m0qLLRsff8Y9U1Gzzpbco2/1R3nJxzzHxjlSpKY8335WYbgUDw7aqfW9Niyn/1jQn88PrfP9DF1Tepkh6gXgJBNqQ6xLpUAWYH8PspTuiVKn5DIDNQAn7UJjcFCAUCJLUKATJdtBQgVxgsQI3uxgpQq7BUJvIGoa31nUmaHGYy45xicm29ZGpM8bFfq21kQSWEhPCnS50rgTlr5chhI8pJ5TLWxDjhynxyue0OOJFrA2mnHQ464JjtttntmMCPWBIdt99cC5zji0ojDTNCaZLSnT2rK4R/xFG7ddm/ZLLyvDfACbt7IG2TAKOu47WMSJF1OXZk9+YDO/dtHxrh5tA32tlNl58kAA==");
 
 export default TriangleInstrument;

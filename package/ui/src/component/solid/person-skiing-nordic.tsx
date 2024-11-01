@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-skiing-nordic` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-skiing-nordic?s=solid person-skiing-nordic}
  * @preview ![person-skiing-nordic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-skiing-nordic.svg)
  */
-const PersonSkiingNordic: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M336 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM227.2 160c1.9 0 3.8 .1 5.6 .3L201.6 254c-9.3 28 1.7 58.8 26.8 74.5l86.2 53.9L291.3 464l-88.5 0 41.1-88.1-32.4-20.3c-7.8-4.9-14.7-10.7-20.6-17.3L132.2 464l-32.4 0 54.2-257.6c4.6-1.5 9-4.1 12.7-7.8l23.1-23.1c9.9-9.9 23.4-15.5 37.5-15.5zM121.4 198.6c.4 .4 .8 .8 1.3 1.2L67 464l-43 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l135.3 0c.5 0 .9 0 1.4 0l158.6 0c.5 0 1 0 1.4 0L504 512c39.8 0 72-32.2 72-72l0-8c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 8c0 13.3-10.7 24-24 24l-69.4 0 27.6-179.3c10.5-5.2 17.8-16.1 17.8-28.7c0-17.7-14.3-32-32-32l-21.3 0c-12.9 0-24.6-7.8-29.5-19.7l-6.3-15c-14.6-35.1-44.1-61.9-80.5-73.1l-48.7-15c-11.1-3.4-22.7-5.2-34.4-5.2c-31 0-60.8 12.3-82.7 34.3l-23.1 23.1c-12.5 12.5-12.5 32.8 0 45.3zm308 89.4L402.3 464l-44.4 0 21.6-75.6c5.9-20.6-2.6-42.6-20.7-53.9L302 299l30.9-82.4 5.1 12.3C353 264.7 387.9 288 426.7 288l2.7 0z" />
-    </Icon>
-);
+const PersonSkiingNordic = createIcon("person-skiing-nordic", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABlAAAAK5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCcgsGAAE2AiQDCAQgBYMtBzsbfQXILgpsN2obg8XGlGA722F8yMvbLoYDI4JIV1Y90iHIZ/OaGSN+BIo+e46JUoLYE9f8LIqKVZ+vgcYDmSZyA09gNBth7G6faQI5xBBhZEuzBWY3uOIBp1kGWmGx0NZ1euKa529ND1j2BI8Sbb/QpgqMiPMJDDiSW4dVNpxNFGftiqX1wkqSJHWTuzx++/jeEvL4dl1lpPvT5wC3pg+NXymuIqnKAEQjAKavXbnYh9/85LPeiM/MERDTQUkgQ4bOAkySCXSWKyGXC34CW/4PtAkgygmYHDZHOe7BC4AcJHme13Wf31ZTVpevqSmr3vusP6g+ED4l36fcH6y60VZFNlaHi6uOtTEg7mkXPBvj3raBlQPRlxhxY7HOc8ccazXTHpdqWsyzA1/UIu64xX293tKe7XRJvIeKfKZjO/CNBd0+uPqtSf3Au1wstq9auwpq97JJXELLF3F/76fpmh4vCC/842NgvfWxkX7Nj1ezLOu62e6dOwetGaVtuXX6rfWvx/XDc0pGh+2r9vpD3PeBMLbCQMuLYnstgnhEEO/6qdXiKhXLlxdmH7N1fAOozOqvu44rTLsigdNXPKT5L4H76+ruH7Gu46vlWrlioSlblnx5RdflFvrg6LFrAgLB2dVfRLuGSf8TJfDLew/tfPnNSS+gUgJBNujytilNA2IG4E9xRg/wRYHkFjl511r3CBCqESApVy1AppNGAXLVBgpQpqvRApSrtlIm8iqh1eZJJLWOE5kxzhG5Vm8SZSb5yFeuNTINlfRL+j9Mn7MCs/uVhpe1PbQfs4asdALsHtnHpn6HUJXYufY46ohTdttlv1MLfsLi4GmHzUHYbD9UMtwQw5RMUPpceJ++xm4nnLTfUUdiLxOV7tv6OYMb97fWRFhHSEoSkVoVesHgkwf37z+yd/CRoyd27d8JAA==");
 
 export default PersonSkiingNordic;

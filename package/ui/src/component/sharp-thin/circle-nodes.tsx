@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-nodes` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-nodes?s=sharp-thin circle-nodes}
  * @preview ![circle-nodes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/circle-nodes.svg)
  */
-const CircleNodes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 80A64 64 0 1 0 336 80a64 64 0 1 0 128 0zm16 0c0 44.2-35.8 80-80 80c-2.1 0-4.3-.1-6.4-.2L358.1 355.1c33.4 9.6 57.9 40.4 57.9 76.9c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-17.3 5.5-33.3 14.8-46.4L134.6 266.4C120.3 279.8 101.1 288 80 288c-44.2 0-80-35.8-80-80s35.8-80 80-80c30.8 0 57.6 17.4 70.9 43l172.2-68.9c-2-7-3.1-14.5-3.1-22.1c0-44.2 35.8-80 80-80s80 35.8 80 80zM329 117L156.9 185.9c2 7 3.1 14.5 3.1 22.1c0 17.3-5.5 33.3-14.8 46.4L281.4 373.6C295.7 360.2 314.9 352 336 352c2.1 0 4.3 .1 6.4 .2l35.5-195.3c-21.2-6.1-38.8-20.7-48.8-39.9zm71 315a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM80 272a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const CircleNodes = createIcon("circle-nodes", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABjQAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCLgsGAAE2AiQDCAQgBYMtBzMbMQUjEaZrTCL7R4JNZGcWjIa2KKKbp/AWjkFWYwh9ll29LuFP4nn6/dq5779FvIo3qzTPDEk8komEBBmSpYp3DXWHSiZvDzA/3L//cfVnIc6CB6Fdk5zY5LSOpwqVqgzVezv/13x+z48O8BsdSgU1Nl4/71U/b7ABR/n5QNsGNhr5BGzqpvRJD1Eq6DG0G1sR6fEVdlxbBTVPzrQoDyVclzfNn1GXFE0DICMA2DzY2fbeznPgo3NBPmwhkE0wI2jQYELAikYwoZpBVYV2wmH8ByIB0kWurICKblzgClBB0aq1HT9Jwudz6XxaOZfO6ThxB51+3bErEBEyco+cAP7ENU4peNT7RGHYcOkOGpa05eC3InYaEUpZt907FbAD41sXroC+tLSidJssqsog5FjnVsClpspPbL5q2CwmnzNGVZLMQVHwfbb2/Ax4/f5+1U+KoJyQNhGVarkld79/OsKwSdRWDpq35QmtXyDOWWVExEaokJtriTvWmajaPG+J3F7p/S9Od07knMZGG43Rsf1yGBCEzZvJN2zlv4dbwO/j5x//jHSu81yC6FFAaJY6S04LzKQtAICSC3MFguJci7zqgFsB0YeAokufgMa4EQFVn0UBLVOWBXTps6OR2ituyNQNQMEzBKiSzQEamTNAl+nJZZBF/FHRQ339xRdrqGgdxkXHYjo+Fg46pIg0mYHLknOcO1x0lrQb0G9Um1ZdRhUyrCQY06fYgot8EIoTLRZKh9v1r8fLtRk2osuA/jxNBvTXncbt/i5SKQQ1XoqCgkDh/aYjRL2IwggAAA==");
 
 export default CircleNodes;

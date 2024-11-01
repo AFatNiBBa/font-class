@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `poo` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poo?s=sharp-regular poo}
  * @preview ![poo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/poo.svg)
  */
-const Poo: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M232 0L187.2 0 212 37.3l5.7 8.5L232 36.3l-14.3 9.5c4.1 6.1 6.3 13.4 6.3 20.7l0 8.1c0 16.2-13.1 29.3-29.3 29.3L180 104l-3.1 0c-6.1 0-12.1 .8-17.8 2.2C113.9 115.8 80 155.9 80 204c0 2 .1 4.1 .2 6.1C46.9 226.3 24 260.5 24 300c0 12.2 2.2 23.9 6.2 34.7C11.6 353.5 0 379.4 0 408l0 80 0 24 24 0 464 0 24 0 0-24 0-80c0-28.6-11.6-54.5-30.2-73.3c4-10.8 6.2-22.5 6.2-34.7c0-39.5-22.9-73.7-56.2-89.9c.1-2 .2-4 .2-6.1c0-38-21.2-71-52.3-87.9C363.6 49.5 303.6 0 232 0zm40 66.6c0-3.7-.2-7.3-.7-10.9c33.3 13.6 58 44 63.5 80.7l2.1 14 13.2 4.9C370 162.6 384 181.7 384 204c0 5.2-.8 10.3-2.2 15l-7.4 24.6 25.1 5.7c23.2 5.2 40.5 26 40.5 50.7c0 10.4-3 20-8.2 28.1l-12.9 20 19.9 13.1C454 371.2 464 388.5 464 408l0 56L48 464l0-56c0-19.5 10-36.8 25.3-46.8l19.9-13.1-12.9-20C75 320 72 310.4 72 300c0-24.7 17.3-45.5 40.5-50.7l25.1-5.7L130.2 219c-1.4-4.7-2.2-9.7-2.2-15c0-25.1 17.8-46 41.4-50.9l.6-.1 .6-.2c2-.5 4.1-.8 6.3-.8l3.1 0 14.7 0c42.7 0 77.3-34.6 77.3-77.3l0-8.1zM192 320a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM256 416c64 0 96-64 96-64l-192 0s32 64 96 64z" />
-    </Icon>
-);
+const Poo = createIcon("poo", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABsAAAALUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDTQsGAAE2AiQDCAQgBYMtByobxwVRlA5GiezHQU4mbx7hcVFEVRaF07zLtMUvcZw2p3j4fu137n1vMW/e+QlLHrKWipcKyUIlREhE0dB2qJSw9s/c7k/66tq9JXM0iyZL0FwajdgIZQ2DH1c/s9DbA9WZQKQL2Ywi4+ZDF744/9d8fmlHB/iNDqWKiq4pVuBdOoGJ7Wb5fGCjKLA2mIDN2lZY3OA3QZFBRFAWMcQN7cptocZz3GjIh/wA1/lO45/pS2oKgJgAAHvH4xHKNtqI926LeDcAAbEHYImgoGCOgE2qwBzNEqiqoI2u8/+BhACiD3aWoKIfr+AXQAWpqfVnSIQJEiHXk2XU5TS5GqHxoxktaMougDWmnRqktJlues7a1mDSshc1VtwEBIUeSQ57D7DWut+9ti05HrgfkV5rPmU1Z2VGM07Z1Zha0k08sy7wi1agluSAhwet2c1aix6GQvQILL/js+DAtHYLsoe15t2aNtNO1Jh1icwyRAq9lXsU+IyHNqPSNYypblNuzvOG8+9OumIdHk/8cKYNyMItbpGlVUHbXKI1kKprPWKyZVJpx8Mve+MknUiCJSyfLJEEoUsytv/10CGV2l09HM+rq4s8QhSyvu9NjB0u8d9EZV6CTsgWj0wMyy8QjGp9f4zCH/rVwbhAuaHJ0aJpA0pgruK3lkxIR6nUAOFpUCX+128BWvT1W8qEEYd1T4XVnxOhYBhY4Sm4MlyQ+BkAgAAI3I031BQaBP9QCZkJ/p4+fdJ/RV2Z8hEDEgSl1/XMEyQBAMi4gpUQSC90ONQRtwKEIQRIfYYEKGYZBFRDlgloLCgI6DNknyrqoDBjMUAacQqKDR9QzfiBxqZ/ts9MFHPmjZH/mkxpz1BrFpMwZoPbIgoWyobhJtW6/ZYmxy3E2sXZ08rSznMi70aFl5P2iWh5IEqEYtTA68rr/JmVu4edi3OaponvPdv73NlxlgKUK6KU/mpsn1wuAAA=");
 
 export default Poo;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mango` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mango?s=sharp-light mango}
  * @preview ![mango](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mango.svg)
  */
-const Mango: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 130.4l0-42.8c17 15.2 39.4 24.4 64 24.4l80 0 16 0 0-16c0-53-43-96-96-96L352 0 336 0 320 0l0 16 0 112c-48.7 .2-97.4 17.5-134.6 51.9c-45.7 34.4-67.6 72.9-88.1 108.8c-19 33.2-36.7 64.3-70.8 88L0 393.8l1.8 59.1 43.7 19.2s99.8 39.9 243.3 39.9C454.7 512 512 375.9 512 305.2c0-45.4-18.7-90.7-56-125.3c-16.6-15.4-35.5-27.4-55.7-35.9L384 144l0 27.9c18.3 7.2 35.4 17.7 50.2 31.5C465.1 232 480 268.8 480 305.2c0 28.2-11.9 72.7-42.1 109.6c-29.2 35.7-76 65.1-149.1 65.1c-68.8 0-127.2-9.6-168.2-19.1c-20.5-4.8-36.6-9.5-47.4-13c-5.4-1.7-9.5-3.2-12.2-4.2c-1.3-.5-2.3-.9-2.9-1.1l-.3-.1L33.2 431.7l-.6-20.8 11.3-7.3 .4-.3 .4-.3c40.2-28 61.2-64.8 79.7-97.2l3-5.3c19.5-34.2 38.9-66.1 77.3-95.1l1.3-1 1.2-1.1c31.1-28.8 71.9-43.2 112.9-43.4l0 16 0 16 32 0 0-16 0-13.2 0-18.8 0-13.6zM320 432c61.9 0 112-50.1 112-112l-32 0c0 44.2-35.8 80-80 80l0 32zM416 80c-29.8 0-54.9-20.4-62-48l62 0c29.8 0 54.9 20.4 62 48l-62 0z" />
-    </Icon>
-);
+const Mango = createIcon("mango", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABlAAAAKaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCegsGAAE2AiQDCAQgBYMtBywbdgURVZqhyX4kZG5Haz4gUZNstYK4k/gm+IfPyz/3JVWmSM1PaEVz+mGsQK/UAAECLhU2h5a+yEUjZGiv7+5Tp56HQqEAvlHQxqalOR8baM7zCEQ0vlpqRcYCq2kBoOw1b5mxHpH7JTNZk+Qfe3xbgK2jyosPmKXmGjC7vak+EGsCGGwLAAC5AABApRZN6nHqqZ5K1/7vh65RBxCAKgOQQoAFWEACAVCWhYAENinAxkbwVP//y38gIACQL3g0A4AN+ACrAS8AYANgsGx7eHCwxyfIbu7xcToLbS3m8UircnuLOw5C0xoeyrklZozGaknMkpw5lapSWtjsVrM7DW4W2Kmxjb1ZjtDGXMcZEx27peShqrerb8paFLVI0xwpS1K0JI+y82THj1V2eYfzRGs3PQiPwvlaHswjZSc7WpFzS1HaTMuSFsV5ND1zYayT5nW9n1KvdbpGh3K58ZsWNWzouvh7vWMqprj0oe76gDKl3wu4++v32DnE2YOp5FYK7alGssIbNMisMXDSR5cER5o8LBW1ckXb1oUrNexivryx+xUESUwl0iaEOJcr5hJkuBftdx7AqejiSuEKIlxwcr6vX/AvJAU17+imdOgQHQR/mpaHcTkdAAGC8O90O4SU/eXvMQA8P/LlG/Qt+n+KYbyAPwYAgZX3f15tDQAGBAAAABgNIm0AAgyLscClBrIIASAcQAAYfHEQABbxXALAxiEPAeBDkmIEgC8OTbCQHYCI0E6BIZC+wKK4kcAmwl7gQ1kXdV8isrKUzDHyjxjHnYXsFLI4hcYyMKjEw+vQYFtUfyl4NEt6h92r05q8Br0V1mfjIsT6IMjEUqDhOH7mStZvj8lnzscYuK8qf1zvkcIAZk5gT+A3cqv24QA=");
 
 export default Mango;

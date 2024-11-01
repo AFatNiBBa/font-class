@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-x-twitter` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-x-twitter?s=brands square-x-twitter}
  * @preview ![square-x-twitter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-x-twitter.svg)
  */
-const SquareXTwitter: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z" />
-    </Icon>
-);
+const SquareXTwitter = createIcon("square-x-twitter", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYwAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBTQsGAAE2AiQDCAQgBYMtBzcb1ATIjtRG+YWZRPD9st/3uTP7CmbJYQghRYWMKmeJQz1HNGILSyFR4f+qfZ//az6/59eAn4/g0KKwtDHKKxb5fAITna9BxmkDO1Hc7jTHtJTmkrTEkhyfOS5HyON+3FQh3U3fcSP9aPzU3hWSSgYgmgFg2poVi9TXohbx/X/EdwsQENNBKZAhQycBJsoEOsmVyOWCWvz/P/4HlgQQdfh5E8hRwUysBeQgyfK8Q/uG1UrjfHW1Umx40TfiTbsUd/u97dU4Xg943zGLe/3f9W60beWalauiiNWxMopY49FqrEpVV65etbqga6rd3zV796vb993fTXn8pDnNi6mK5s2fTEUiun1X7Dmd7z73xBbzt1m1zRCHLzt5x3bT11m8zpBef97W3KM6eV/TAQgEt5ZfrW5pOvF3g2oCPz7+U273fy3q0zs0kECQDfx/oI1RD0gNwEtxWndlZIFkogz4Wxu5JUAoECCpUwiQ6aiZALnCAAEquhglQJ3CCpnIGwqtbGogaeQYyIx2CeRa+QAqJvrk1WkVmTlxxsD95pJnS2jWvnLY4KHl+HJaqbyFMHF7Qrms9D0dpvrBQbsdcdhJu+y0z0lBHrcoPOWQ2Ro8y4hKwww2VGm8cru9l1cL77gT9o3F/V0mKM8bfZ3WF/cDPWHa4TJJIlKzK2kMOjvojQE=");
 
 export default SquareXTwitter;

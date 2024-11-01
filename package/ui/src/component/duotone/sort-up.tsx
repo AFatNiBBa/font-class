@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sort-up` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sort-up?s=duotone sort-up}
  * @preview ![sort-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sort-up.svg)
  */
-const SortUp: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M0 320c0 8.3 3.3 16.5 9.4 22.6l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 288c-12.9 0-24.6 7.8-29.6 19.8C.8 311.7 0 315.9 0 320zm109.3 32l101.5 0L160 402.7 109.3 352z" />
-        <path d="M182.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l256 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" />
-    </Icon>
-);
+const SortUp = createIcon("sort-up", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZwAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBLQsIAAE2AiQDCgQgBYMtB0obyQTIngd2w8cV3irCFmoIgY94+Jgr30+ye0QlSIFREYEDZFW2QKqOhSfbqay+/g8AL5r77+AZ8jU/dapmnIdC4QeRzHEeXItDY3Ws8w3W84LU1xArWK2kVObqNlkdHYF/hIRJSPyR0vF0gCzmpCcUSO4mP3CZ/gcw/mrpBImyFEDUAmDCwrnTffrVk340viZ+mIaAmAhygRQp2ggwWirQRiZHJhP8SuBXkBNAFNFPmYIiChiOiYAMJEKSZU2allQUqrIFFYXypbfKI841mRc3Wt7tUhXPWt9vtiCONJ0fNyvON18Yt1vd61oZj1vcML+ivGJWzOn4svblPz82/PD21p0qqu4cPuznmmPjGX9szc/Dhx2pOnv4sDtVotu0uK39BhAddfRKIHjU7OKXakb/L61IwJ+Pn6+ksZa8RKkEBGnvxt6WxQEFsilI6SQO6Bjj8VkIpNpI4F0r3RIglCNAoqhcgFRrtQJkyvUSoKCdIQIUlZsrFVmZ0MTyDhKVdoPUUAdBpolXoGC0z35Rk0jjh759+vuWMJWjU7blA/r2z0fm01xjQoKss6PyZaP7gdLTA3ttsNMO+6y3zmb7GL7H9Gi/7aZq2BRflBugr/5yI+Xm6lFYwPw99tosc/Z5Rsn3m90d0If3wG4SwMCTz6REEmnNq7L67N/VxxHVOs55HAAA");
 
 export default SortUp;

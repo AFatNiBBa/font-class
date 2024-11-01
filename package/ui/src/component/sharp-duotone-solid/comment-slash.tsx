@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-slash?s=sharp-duotone-solid comment-slash}
  * @preview ![comment-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/comment-slash.svg)
  */
-const CommentSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 240c0-27.8 6.7-54.4 18.9-78.7L424.1 430.1C392.3 441.6 357 448 320 448c-31.5 0-61.7-4.6-89.6-13.1L80 480l40.9-109.2C85.3 335.1 64 289.6 64 240zM144 89c45.9-35.3 107.9-57 176-57c141.4 0 256 93.1 256 208c0 52-23.5 99.6-62.3 136C390.4 280.4 267.2 184.7 144 89z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const CommentSlash = createIcon("comment-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABawAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBMAsIAAE2AiQDCgQgBYMtB1Yb2ATIhqB+ra+s1z2zANTLjA5IsQIS6ttFPkT74ySRvJiRU+ONlxq/XIKinYdPC/Kwfm+8AhW5/u0MeBnIbKa4vWmWOmJ2lkzWJB1P2vFEC+Spe3ZOiXQzfYYr9D+A8YtWzpHUygBEQwBMXL54rlfVUZ3is8o94jNzEBCTQCGQIUNbAcbIBNrKFcjlgupUqVAdlUpBAFFGV2egjBKGYgYgB0lIed6oQb06pXr5Mpqpvbprt64Ho2v0iW5xCF/Xf/np/lvjUe3zw5bE8vhm2fIfl38/8+Oxzzt+t+CHZZ2qGlb91vGzbZ9p+/LRB36qn/ds+ZzxX/bqsqSuv0YMuHO1jx57bIvZ869NG7Yjpjt/u337WjH/4aPLj64AgeD/omuf9Q3G/FezTgI/Pfnj53Be5VU6lapQUwJB1qfSx5p0CiIxACPFMZ2Mr5ogkGkr4Xet65oAoTYCJGW1Bci00VCAXG29BShpb6gAZbUtlom8ltDU2oYndR3EM8Mcx3NN3cVLxvhQL2sa2Q1izp/5vyVOk8DUrmJgvwHFqGLoqOyloHJzdDEt9TiWEj1h1jb77XPEVlvsdERAh8y1jtprmgVO9UOFgfoZoDBKsezfi8tQP+SwnTq/3ma0Yr/WwzE7vyeoCZMO0pPJiBRZM5+19z28Z+PhHX2dMaOFwjseAAA=");
 
 export default CommentSlash;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-closed` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-closed?s=light folder-closed}
  * @preview ![folder-closed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/folder-closed.svg)
  */
-const FolderClosed: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 96c0-17.7 14.3-32 32-32l124.1 0c8.5 0 16.6 3.4 22.6 9.4l35.9 35.9c12 12 28.3 18.7 45.3 18.7L448 128c17.7 0 32 14.3 32 32l0 32L32 192l0-96zm0 128l448 0 0 192c0 17.7-14.3 32-32 32L64 448c-17.7 0-32-14.3-32-32l0-192zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L291.9 96c-8.5 0-16.6-3.4-22.6-9.4L233.4 50.7c-12-12-28.3-18.7-45.3-18.7L64 32z" />
-    </Icon>
-);
+const FolderClosed = createIcon("folder-closed", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABawAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBYAsGAAE2AiQDCAQgBYMtBzQb5ATIjtRG+UVWEg/fr/V57uueX7sDi9hLRAqYFAGGZVzYAQn9KzYVuXqq9n3+L/f8nh8d4Dc6lD31QMbiOdrPE0iwfIJNzgLLNAFLt4kJdgSxJ6JDoiSk47Pj7Ah5fB+DlUjP0l+4Uz80/tPRRZI8AxAtADBj5dIlfmmMxoi/6oi/LEJAzASFQIYMXQSYLBPoIlcglwsao16X/8CCAKIBXpxAjhKWYw0gB0mW551a9qyUavmKSqm89lz7iCeVStxoOyW+Sg94RFQj1Ko1cbbNw3I1rrd7HLHyY/+ILzukeDbgqz61+GLQN52zeD7w675l6/qp8XW53PPrFl//3+OvHX/pvrHZVa42O6n2dJSenV7SmMQLv9h09heQRTzb9v/S/ee3LWlZnq7csuXbsxgTiPzSeYOTQCD4p3I739h88qcmlQT+/e6n/jNSb0zS12gigSAbXB9sXQKJAACkOKFngkCyRAbvWvVYgFBGgKRBWYBMZy0EyJUNEqCkmzECNChbKhN5U6GN9QySqsMgM9YpkGvjW1Ay2a9OgzaRBRYVFtS3Ln6uhubsKkYMHV5MLLalQccKUTYnFcd6/xN5NIAO2uGgA47ZbpvdjinkiCX+cfvNteA5vqgwwlDDFSYq3M0zv4KdI47avWb920xS3Lf7O2HPH0BWAtSRkkkiUm3Hk5aGRDIAAA==");
 
 export default FolderClosed;

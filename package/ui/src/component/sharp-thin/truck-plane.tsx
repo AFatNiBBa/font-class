@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-plane` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-plane?s=sharp-thin truck-plane}
  * @preview ![truck-plane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/truck-plane.svg)
  */
-const TruckPlane: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M145.7 36.1C135 53.6 128 75.4 128 92l0 95.3L3.4 276.3 0 278.7l0 4.1 0 88 0 11.1 10.5-3.5L128 339.2l0 52.3L82.3 437.1 80 439.5l0 3.3 0 56 0 10.8 10.4-3.2L192 475.2l64 19.7 0-16.7-61.6-19-2.4-.7-2.4 .7L96 488l0-41.9 45.7-45.7 2.3-2.3 0-3.3 0-58.8 0-7.9 0-11.1 0-121.5 0-3.5 0-.6L144 92c0-13 5.7-31.9 15.3-47.5c9.9-16.1 21.8-25.7 32.7-25.7c11.3 0 23.2 9.6 33 25.6c9.5 15.6 15 34.5 15 47.5l0 94.8 0 4.5 3.9 2.3 12.1 7.3 0-18.7L256 96l0-4c0-16.6-6.7-38.3-17.3-55.8C228.3 19 212.2 2.8 192 2.8c-19.8 0-35.8 16.2-46.3 33.3zM128 322.4L16 359.7l0-72.8 112-80 0 115.5zM304 144l320 0 0 304-16 0 0-120 0-8-8 0-23.3 0-1.4-4.6-19.2-64L552.7 240l-11.9 0-153.6 0-11.9 0-3.4 11.4-19.2 64-1.4 4.6L328 320l-8 0 0 8 0 120-16 0 0-304zM600 464l8 0 16 0 16 0 0-16 0-304 0-16-16 0-320 0-16 0 0 16 0 304 0 16 16 0 16 0 8 0 8 0 0 40 0 8 16 0 0-8 0-40 224 0 0 40 0 8 16 0 0-8 0-40 8 0zm-8-16l-16 0-224 0-16 0 0-112 10.5 0 21.5 0 192 0 21.5 0 10.5 0 0 112zM555.2 304l4.8 16-16.7 0-158.6 0L368 320l4.8-16 14.4-48 153.6 0 14.4 48zM388 384a12 12 0 1 1 0 24 12 12 0 1 1 0-24zm0 40a28 28 0 1 0 0-56 28 28 0 1 0 0 56zm140-28a12 12 0 1 1 24 0 12 12 0 1 1 -24 0zm40 0a28 28 0 1 0 -56 0 28 28 0 1 0 56 0z" />
-    </Icon>
-);
+const TruckPlane = createIcon("truck-plane", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABzQAAAL8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHSEbgsGAAE2AiQDCAQgBYMtBzIbcAbIHoVxwz04oURhiCb/37Syg3/etc/7knzKzOfdLRChAkQHrNYVVU9l2RIoRAjWNPeq7RgVkWXF5KamgfSEI9QEVo7TLB1/4prnn/aUGKsgGEoVrWkebREp8OcbYKRXCu8GNlHc1Lwn08zrDGV74PSbqSJgjibPgN3Jl+oDpWyFwVoAAJQBAAA6rSxMKX6rt9LT/7fRU/oAAagTgIoEWMACZQmAtiwCynJUBA6H4K3+/2f/gRUhAFCU8F4DgANCUA5UFQBwABi8c1PS1eqkk4k8DQaRpBsuF/kxjyVpaBQIOL2ERgRqW53dK6Te4f3QkDrwqmH2pqrbxruKa4QKMaDZxyovSi8y24rPileHrsxbMCIYkRMmjTxI9b5IjVWUMAVqqIKrEPKy07J8IFlJPkRGKAhgtCSVF+EiH4TqyxxeUlqS8SVUge5RbujBwrPii9LLMttLhA7HpjMkOSg8zxrRYRywZsGxENdO0rIPrXwt//m/0jPP7D0e+gnWrqrMMVLAeXYbNPOSHEtLAftZr/VD1nOMGVettldkWdqIE7CKQ0xR9LXMZ0UTcDR2hyLDOfyftffvp9P3n9ZmazaqxfQxFsxY8nG9Y3hHl4yV4sRLFGigtvBSiwYKlEjFWSmjYeNgZqvJhDIys3R9kzgax/8Wu0V8Q36+hYJfC6sezoTkgo8Z3nBMylwacMb7M8lN2SuwIpuXQc/2qnYtrGVfBwABgnMvepdfS7f9FQ8MAO8ffPmQXM7/YrMxuQZxDAACW/d/XWOTjQBTDwCIGC1XecChCi+PJ8iEHCKICQ9GaIjihZYyMkKHp44wQnnN9ojiGcIil0AUGAcIDSGLhJbm1gkdBW4KI7T1MBylIOzzYby6jX+n2YarwNCk+u6Orvqe+t6yzHTJ6/V4b/1kZ9M+b2uGO023wHxLTTPVLEsr+GL9YsvM030I6+aHKmqkvoYqaq3i4tpN23AcWWyJWd2m5Xy0UXH7QE3Lh3vXgh5D0NhYjsGATPABcLS/zQAA");
 
 export default TruckPlane;

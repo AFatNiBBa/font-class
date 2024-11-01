@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pump` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pump?s=thin pump}
  * @preview ![pump](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pump.svg)
  */
-const Pump: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 48c-8.8 0-16-7.2-16-16s7.2-16 16-16l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L128 48zM320 32c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32s14.3 32 32 32l0 160-64 0c0-17.7-14.3-32-32-32s-32 14.3-32 32L0 384c0 17.7 14.3 32 32 32s32-14.3 32-32l256 0 0-16L64 368l0-128 72 0c4.4 0 8-3.6 8-8l0-168 128 0 0 168c0 4.4 3.6 8 8 8l40 0 0-16-32 0 0-160c17.7 0 32-14.3 32-32zm120.8 88.1c7.9-5.3 17.1-8.1 26.6-8.1L576 112c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-108.6 0c-9.5 0-18.7-2.8-26.6-8.1l-51.4-34.3C376 444.8 368 429.8 368 413.7l0-219.5c0-16 8-31 21.4-39.9l51.4-34.3zM380.5 141c-17.8 11.9-28.5 31.9-28.5 53.3l0 219.5c0 21.4 10.7 41.4 28.5 53.3l51.4 34.3c10.5 7 22.9 10.7 35.5 10.7L576 512c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L467.4 96c-12.6 0-25 3.7-35.5 10.7L380.5 141zM448 232c0 4.4 3.6 8 8 8l112 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-112 0c-4.4 0-8 3.6-8 8zm0 72c0 4.4 3.6 8 8 8l112 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-112 0c-4.4 0-8 3.6-8 8zm0 72c0 4.4 3.6 8 8 8l112 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-112 0c-4.4 0-8 3.6-8 8zM48 224l0 160c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-160c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const Pump = createIcon("pump", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABsAAAAKPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDTgsGAAE2AiQDCAQgBYMtBysbyQXIhuB7nVW/L9nllWa0SFpgOEbw+AgoA66cXJdiRPD3p57nPBTAx3H9GQsTyu4eVpvzvAITpy5bmwtcrFUUa1uuI/CgIYRwiP9HSh6rYXJY20Eefztcg3Rn+gw37R8aPxjpcpIsAxADALBhr9128EE3uhGf/f8q8ZntEBAbQS2QIcMYAVbLBMbI1cjlgm78/7/8B9YEEE36wgRyFPgIXwFykLTyvGerMWN69YVV2ejN9ywbxX59wzrDy2gPvX1IsdclwyL6iiKuHXK7i4e2S1GER0KLIpB53fBO9EZEz+EuozOckiRCWkQREdE79uiUZTw6tD0yxR1Dbp9cxLXDdozHRkXcPW2nrZ8YI+6dsUO0yzIen/X06CzumvnU1O/c2+/RHvrc+PqGFXH7EJ3zUMHQJoXbqj104lMDnvppwmdHfuaim7pV1X2ALXi/f3U1V1cPIAItgQes1wS5gQG42NYObj7hYk9oHjzdALX49Wfv9Xp1gvlff57Vss+/nn+C6vUF1ra+1lq74JWXfS1emuCvwSd4YODAolbYhgdOMPivCRv3bR58soObS3Nbd+pNnQc0rep2qwfY80AgmP7Nic8f1H/1r60yge/f+uUvnu//D9LF6Sm0JBBks/+fbf90MYAcQCTFmSYGXxRIPtCiG3v0CRAKNEiaCsiMNgByhVnQMM4SenLDbjKR9xOGOAAg6XEKZJa6AHJDvAwNq30YbhoSWT2z1cj+TSZtOWJb9KsXzJ1fr6xvs06uROmwe1U9LU8/k1UzsNSRTnKi0x3hcMc4fSBOtUPsDCfYMsK38EO1Beaar7ZSnS7spT1X7VSnkb7m872sUr9vTXdm3HgGJpEACyuBZnqk/OQzTjgZAAAA");
 
 export default Pump;

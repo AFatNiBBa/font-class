@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-check-dollar-pen` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-check-dollar-pen?s=sharp-solid money-check-dollar-pen}
  * @preview ![money-check-dollar-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/money-check-dollar-pen.svg)
  */
-const MoneyCheckDollarPen: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M576 64L0 64 0 448l326.6 0 4.4-30.6L564.4 184s0 0 0 0L576 172.4 576 64zM352 288l0 32-96 0 0-32 96 0zm-96-96l192 0 0 32-192 0 0-32zm-92-32l0 6.3c6.6 1.2 16.7 3.2 21.1 4.4l19.3 5.1-10.3 38.7-19.3-5.1c-3.8-1-17.4-3.7-21.7-4.3c-12.2-1.9-22.2-.3-28.6 2.6c-6.3 2.9-7.9 6.2-8.2 8.1c-.6 3.4 0 4.7 .1 5c.3 .5 1 1.8 3.6 3.5c6.1 4.2 15.7 7.2 29.9 11.4l.8 .2s0 0 0 0s0 0 0 0s0 0 0 0c12.1 3.7 28.3 8.5 40.4 17.4c6.7 4.9 13 11.4 16.9 20.5c4 9.1 4.8 19.1 3 29.4c-3.3 19-15.9 32-31.6 38.7c-4.9 2.1-10.1 3.6-15.4 4.6l0 5.5 0 20-40 0 0-20 0-6.4c-9.5-2.2-22-6.4-29.9-9.1c0 0 0 0 0 0c-1.7-.6-3.2-1.1-4.4-1.5l-19-6.3 12.6-38 19 6.3c2 .7 4.2 1.4 6.4 2.1c9.5 3.2 20.2 6.9 26.2 7.9c12.8 2 22.7 .7 28.8-1.9c5.5-2.3 7.4-5.3 8-8.8c.7-4 .1-5.9-.2-6.7c-.4-.9-1.3-2.2-3.7-4c-5.9-4.3-15.3-7.5-29.3-11.7l-2.2-.7c-11.7-3.5-27-8.1-38.6-16c-6.6-4.5-13.2-10.7-17.3-19.5c-4.2-9-5.2-18.8-3.4-29c3.2-18.3 16.2-30.9 31.1-37.7c5-2.3 10.4-4 16-5.1l0-6 0-20 40 0 0 20zm405 63.8l-41.3 41.3 71 71L640 294.8l-71-71zm-63.9 63.9L363.9 429 352 511.9 434.9 500 576.1 358.7l-71-71z" />
-    </Icon>
-);
+const MoneyCheckDollarPen = createIcon("money-check-dollar-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABoQAAAK2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDMgsGAAE2AiQDCAQgBYMtBz0bvwUR1Zp7yX4kxsasHt9xJjWqcSQ2VrE1fomH5+2+OvcVWhqhuseIBKTwwo4h/HAVbj6IVoz0AwAe3lurwOOPHaduvFka0H2wJNDz5v+az+/50QF+vhI8lKxlWwV2P5/Ang9k3jShKLCB6tg2Ne/FQbzOkLaDPP5xblWQnkrf4AHnQ+NHg91K0pQBiE4ALN65db3ahbgQ8XX9XfG1tQiIxaASyJBhmADzZALD5CrkcsGFqNfZfyACiJL3YgnkaMR7+AKQg6TM856mpsuaWlqKtnxHS9F8tr2jPUVbDI2dcVPcFAMjtgnNEdGyo6W5RTRH7BAe6z8mhsXYuHvA4wOe6/eoG02le/yPjWlJm31/y7NjUHm/J0c/2k8s9UXEfKaXiZNjY2SMWRG7Ke7pDxPPDnxiYE/R42MHxHNjrW/gM+Naapz7u8PheQvnbY+FsWPTtp3btsXO2Bk7+l7qfOnn3m+abyy8YdGiRTdaaYHvvgMfO3b+fFVVh1QOHTxYq9UqNdXekWVZvnXTaI8bIz98aHrvrbdmeYDe25YHABCzJz23f//UfU8dOV3oZ7x+Sn/96Owc411jVNMJ3z7U9+iRoojovW1OZdSkZ4/tn3r0qjOnyxW+Rxfe6ZFXrHCnFSvq9xa0bLGlRcq0LgcCQfcrW6472DHv78aWBC599OvP8Hz1WroxvYRGCQTZ5PrkfelGYOgA0iku1zeywUDymqtxra0eFyA0I0BSahYgM1SnALlmkwQojDBHgFKzrTKRNwn97C9B0uo0yMx1HciJfl5QmOdLlfqFcwfz9x///5hi6pBeR55kSAabcuGmZPWyYrbde1pDPtwqmnW56qq/ashRZO/ZjMH6i8glMpBY3bmtlLXUcfb90vpVFPYPe57xyT502TzKmSqSRCT3ftfiL0GP3+VEvNUL");
 
 export default MoneyCheckDollarPen;

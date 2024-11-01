@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `layer-minus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-minus?s=thin layer-minus}
  * @preview ![layer-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/layer-minus.svg)
  */
-const LayerMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M408 72l112 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L408 88c-4.4 0-8-3.6-8-8s3.6-8 8-8zM269.4 132.1c5.8-2.7 12.2-4.1 18.6-4.1s12.8 1.4 18.6 4.1L532.1 237.4C539.4 240.7 544 248 544 256s-4.6 15.3-11.9 18.6L306.6 379.9c-5.8 2.7-12.2 4.1-18.6 4.1s-12.8-1.4-18.6-4.1L43.9 274.6C36.6 271.3 32 264 32 256s4.6-15.3 11.9-18.6L269.4 132.1zM288 144c-4.1 0-8.2 .9-11.9 2.6L50.6 251.9c-1.6 .7-2.6 2.4-2.6 4.1s1 3.4 2.6 4.1L276.1 365.4c3.7 1.7 7.8 2.6 11.9 2.6s8.2-.9 11.9-2.6L525.4 260.1c1.6-.7 2.6-2.4 2.6-4.1s-1-3.4-2.6-4.1L299.9 146.6c-3.7-1.7-7.8-2.6-11.9-2.6zM43.9 365.4l59.4-27.7 18.9 8.8L50.6 379.9c-1.6 .7-2.6 2.4-2.6 4.1s1 3.4 2.6 4.1L276.1 493.4c3.7 1.7 7.8 2.6 11.9 2.6s8.2-.9 11.9-2.6L525.4 388.1c1.6-.7 2.6-2.4 2.6-4.1s-1-3.4-2.6-4.1l-71.5-33.4 18.9-8.8 59.4 27.7C539.4 368.7 544 376 544 384s-4.6 15.3-11.9 18.6L306.6 507.9c-5.8 2.7-12.2 4.1-18.6 4.1s-12.8-1.4-18.6-4.1L43.9 402.6C36.6 399.3 32 392 32 384s4.6-15.3 11.9-18.6z" />
-    </Icon>
-);
+const LayerMinus = createIcon("layer-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABgQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCMAsGAAE2AiQDCAQgBYMtBzIbMgXILgcyub8Fywi2AEkbLUddz5D/6jSe/36tPPf1X8IgkERhYgns2rAj6cfHTsWmIqP7/9/P3TfzuHinKrg2sQR1EvqvnHWah0aJ9IkZ3LsO0AU/lyFo+qlay10swPN/uef3/GiBfKMjPJC9WhvH1L35XhbIAinM855ny8IsUczcFhPUIMgVEZFDdIgstIX64a/Q8ucJJvWrfvGtfmj+WuOZ0nUAkHkA4MrjRgneyzD57SMD94BArgJsRtChw3oEnEcXrMewGWiaMKTv03/gZhAgo4DHLdAwirfAB0ADpTWGSLrGzGcKGe0pJm9nisefr5gt55HFyuWq5o+p1xWtzC0tb2Y2+bKynUUeVnV2fGTH0p5SqZDJMg+B7GTzXragircmOYvTcmqe+mfgwI/3oWrKYk1fQDv/8dzTJO9pmNWMcBU7KbxvtJ5w7OjooT4qof9hG5Decjzq5mZalN3tQBB+f296Mhf8Pz5FA/jj9/tt7tfmojCuQOj29wwrCmEhAgCoXJMrX0RQnmLAu077LiAmEVBGTQrorCNBQDNpHwJGbORCwKhJ99GlcSGWG01Qpr0EnZNuQLPcGxhx3kd21PLQHZBzH+7zLznNUGoXHjFb0Y/HtsH7FFPWA3ht777OYzq5CNtOHLu0ZdOeS0LOlQpXjqQ1OOWHkI2ZFfLD596r3KbsuQt7e/F9kwC0j2td67N14qMB4VE1pUjxPVs3/bVeuQAA");
 
 export default LayerMinus;

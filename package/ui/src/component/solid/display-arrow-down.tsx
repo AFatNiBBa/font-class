@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `display-arrow-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-arrow-down?s=solid display-arrow-down}
  * @preview ![display-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/display-arrow-down.svg)
  */
-const DisplayArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l176 0-10.7 32L160 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-69.3 0L336 416l176 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L352 0l0 64 160 0 0 288L64 352 64 64l160 0 0-64L64 0zM312 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 182.1-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39L312 24z" />
-    </Icon>
-);
+const DisplayArrowDown = createIcon("display-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABeAAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCBwsGAAE2AiQDCAQgBYMtBzkbEAXIhof/t+v7fW5VvzVTPUaN7Uj4hDI4h1JGynr+r/n8rArw8xEcSuXWWhzpXc8nMNHzpTZQFM4mitudzTIHsVdriSU5Pjs+S8jj++ySCune9BVurh8av2vrEkn9DEA0AcCUVcsW+OSX+CXiy9qbxJfmISCmgFIgQ4YOAoyXCXSQK5HLBb9ErUb/gSUBRB2GE1+O5btxCPRDkaQ8n9muWmmYr6xWinVP9I54pk2Ke/s826MabaKI61rc4VzLO6sN4/rWd8f5VncVRbSLajzd7/n2WdzX97meRYhqpGgQWVQjolhxX88n2oiJ8VT3e9quiCd7rYr728l+xkd0fa7Jc392+WrnVyZ9/EhTmhalomnTR17xshkaXXNNoxBQCmZ42Su2dEo+YjKkSp8o4vlf65ZLlrR8y04NG3733aJFTSKxieEyO70FBIJ9N784b1Pj8f/Uqybw23t//y/uXPskTU7PoZ4Egqx/rb/1aTIQP4B0ipO6Gl8USDZL+FobuEuAUCBAUqcQINNeEwFyhX4CVHQyQoA6hWUykdcXWtggIGngCMiMdBrkWngdVIz3aapOi8h8TfUU9auXNVNDMxaVQwYOLseWy5quuY+cZ8eV26HeJ1NPH/C00yEHHbfDdnscV9xRC7InHDDTImb4odIQAw1WGqs8bj5aKzF91DF75vr5POOU92O9nbSH94FowoJDlSWJSM2eY+mALUePHjo14BUCAAAA");
 
 export default DisplayArrowDown;

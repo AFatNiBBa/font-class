@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-lock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-lock?s=sharp-solid building-lock}
  * @preview ![building-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/building-lock.svg)
  */
-const BuildingLock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 0L384 0l0 193.6c-16.3 16.6-27.4 38.3-30.9 62.4L320 256l0-32-64 0 0 64 64 0 0 32 0 192-80 0 0-128-96 0 0 128L0 512 0 0zM128 224l-64 0 0 64 64 0 0-64zm32 0l0 64 64 0 0-64-64 0zM64 96l0 64 64 0 0-64L64 96zm160 0l-64 0 0 64 64 0 0-64zm32 0l0 64 64 0 0-64-64 0zM464 240c-17.7 0-32 14.3-32 32l0 48 64 0 0-48c0-17.7-14.3-32-32-32zm-80 32c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48 32 0 0 192-224 0 0-192 32 0 0-48z" />
-    </Icon>
-);
+const BuildingLock = createIcon("building-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeQAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCOwsGAAE2AiQDCAQgBYMtBzQbPwXIjsM4hvwSS2mu8fD9Wp/nvu5PPcvQfxUA9RKzQg6wSuSCTFiNC1B5IIsqepJZmGT6e3f+bdMHfEYfZawZyJjne5wnkNjitkiUBZZpAtbgvFFxPhyaQvkZ8vgpu62J9F76Dq+4D42/9HWbpC0DEF0AMHfz+pXqv8fvEd82Pia+tRwBMReUAhkyDBBgpkxggFyJXC74PRoN9h9YEkA0C3DyfI4C13AXkIOkNc/b20B91z61po75JnVtkXXs0FE8G1BERBGiFkI0zUU0bSxqxVhT1IQaNTfF2TUfb3zYA3lvEifjRq+3iw3vj4h4OeXjYc8HAv7SQ7WIIS+6vPin3SHq18PDu7+hXalSqZTq1rhuj+te5dpvVVBQs4zh7mt09gfTB358pdN97ncaqzKWpdErVw+OTRzs0uXgphirVPe7utJYIBC8qK9td+eZ/7fWEvjzi//+wX5FjXqq0gu0SiDIRjZG2pEqSJUAAKS4ZEiqEEguaxXetYO3BQgFAiTNCgEy/XURIFcYIUCTQSYJ0KywXibyNqGHnRgkHZwFmcmugFwPH4ImM31ZbNYjsqeQf4b4n8CURS20cFc5bvTYcno525GEB4vVmzPKzc7QS3xiGDzqkNNOueCgA4660JDnrKxcdNKiJWKhLyqNM9pYpenKw/2H+zc56JzzjjrtlN1mhvL6wlCXlucPg34SKMdrSRKROt6n6qhPBAAAAA==");
 
 export default BuildingLock;

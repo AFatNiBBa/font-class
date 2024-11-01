@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `layer-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-plus?s=sharp-light layer-plus}
  * @preview ![layer-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/layer-plus.svg)
  */
-const LayerPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M480 24l0 40 40 0 16 0 0 32-16 0-40 0 0 40 0 16-32 0 0-16 0-40-40 0-16 0 0-32 16 0 40 0 0-40 0-16 32 0 0 16zM78.8 256L288 349l209.2-93L288 163 78.8 256zM288 128L536.6 238.5 576 256l-39.4 17.5L288 384 39.4 273.5 0 256l39.4-17.5L288 128zM104.6 337.5L144 355 78.8 384 288 477l209.2-93L432 355l39.4-17.5 65.2 29L576 384l-39.4 17.5L288 512 39.4 401.5 0 384l39.4-17.5 65.2-29z" />
-    </Icon>
-);
+const LayerPlus = createIcon("layer-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABbgAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiCDQsGAAE2AiQDCAQgBYMtBzEbDgXIjtFjR4zkGU8kEhwiw5p4/vn9vq193h27f8SaWOUnLOGhemMa2aQESNYy1bNYJVt7FozNeyThEX9I4p5gotrEUrcqlmirC21rJm3zfzm98fw24Oc78UNZi665aUzd+3kgWaCHxZtKJAuzRLFlc+AXTY5ZaF9oP0PL50yJqdf1Fjw7PjS/qR1T2gAgqwDg4vVWE51n+pG8Ha/IW3UQyCXAPsKAAdsInCEUbBPZB00TftA4iv9AhgCZtb24QMMsjsBTAA2U1trBgmpHIl5q14bT/RYymUjvIj3Y7LNgSqv7JI6udnf1UHfa1xkepYi4cmOJp+dKNBb1dCVgxo/ewf3wXHn+ZXo7/RZPJ5YtpWQoCQElSK+ae/7yOLjbeObj3v9lXDeKMf9LODVmlBq6/jS6+TK6CNO5Pyq7jVHSngcE4U1m/uPmSuLP/KTAr/ufP8fDY6cu1DnmFQjDdJwarAwg2AQUKg+YA18UlBtEtndd9EJAdASUWV3AYIsSgaY7hsCMXUEEZnWXCaUtiE1DDyiLboPBaTug2XQBZpzxkJ+1GSG4KcCi/O1lllS0eIi9Lg/H2Nt1qRAkjdtxTnYs23LKio9i2oplm6ZMmrOpMOuapS1LSiGs6IeYl4sHi+HiwabZrYTWbaiSWy/fJY7bxy22w4ut2Cew8R7XUIpUh2PL+bkCAA==");
 
 export default LayerPlus;

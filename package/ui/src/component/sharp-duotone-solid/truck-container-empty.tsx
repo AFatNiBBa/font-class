@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-container-empty` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-container-empty?s=sharp-duotone-solid truck-container-empty}
  * @preview ![truck-container-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/truck-container-empty.svg)
  */
-const TruckContainerEmpty: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M32 416a64 64 0 1 0 128 0A64 64 0 1 0 32 416zm160 0a64 64 0 1 0 128 0 64 64 0 1 0 -128 0zm288 0a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-        <path d="M456 144l-24 0 0 24 0 88 0 32 0 16L0 304l0 80 5.5 0c13.2-37.3 48.7-64 90.5-64c33.4 0 62.8 17 80 42.9C193.2 337 222.6 320 256 320c41.8 0 77.4 26.7 90.5 64l85.5 0 21.5 0c13.2-37.3 48.7-64 90.5-64s77.4 26.7 90.5 64l5.5 0 0-96 0-32 0-8.6-5.4-6.6-72-88-7.2-8.8L544 144l-88 0zM585 256l-105 0 0-64 52.6 0L585 256z" />
-    </Icon>
-);
+const TruckContainerEmpty = createIcon("truck-container-empty", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABkgAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCGgsIAAE2AiQDCgQgBYMtB2YbUgXIjpPlZiZiPPy31tt9VT0TAOoAMPi48IIERr/2ny+XQE8jWMCVmjqVczkPBfA5wOGg7N1u39bzOc8rUC2OqXuAVqim2NFtN0PM1vGQGBsoUv98R4X0MP2Eu/b/AMavOrlD0igDiJYAmLl+9VKf1UVdip9qbxE/WYKAmAVKgYyMrgJMkQW6KpQoFIK6VKtRF7VaSQBR5T4wgyoa4DjOAQqQJLkoxjdq5saaVJoV68LMxvsbN2ksxEpNQzSJx4Nf7P/10FfnP/D5Tk2aVJhMDTfYPtZJq/HaOVKMDKwc/FQP2T+gx9ODXhjwXNcmJVyz4b1eaPnC7z1/2veTb4d3dE+xQaml16xQ9fhkf418772Rf3XyxbVqOvtAxQ6lRuaav94FTQYcP3jw4AxjTVfL9X//XZ+jmmcdXHk/EAg+dGfC9hZT/qdJAvUf/PmLdbzaz+lGegENJRDkIbUhtqQbgLABJFKc02tA2L3QjKLcb23qngChMQIkVY0FyLpoKUChscECVHQ3VoCqxlbLomgktLW1AElTJ0E2zlVQaOtNUDHFt4mqtpEvO/aiYT/6kuZV4bn9ypHDRpSTyt6sjLuSaN09uZxsDTjHqwbCpfY57pgz9trjoDMV9JSl6bOOmjeEzPVDpZGGGaE0Sbm4cHP+OnudctpBxx2zepms3D46wLnhxgOhm7iEo4zJMpEid3uwcv5PVIa+AtrQu7iJHgPCXQs=");
 
 export default TruckContainerEmpty;

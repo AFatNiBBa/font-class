@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-circle-xmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-xmark?s=light cart-circle-xmark}
  * @preview ![cart-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cart-circle-xmark.svg)
  */
-const CartCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16l37.9 0c7.6 0 14.2 5.3 15.7 12.8l58.9 288c6.1 29.8 32.3 51.2 62.7 51.2l129.5 0c-.5-5.3-.7-10.6-.7-16s.2-10.7 .7-16l-129.5 0c-15.2 0-28.3-10.7-31.4-25.6L152 288l187.2 0c5.9-11.4 12.9-22.2 21-32l-214.8 0L106.1 64l433.4 0L507.4 192.4c10.9 .7 21.5 2.4 31.7 5L570.6 71.8c5-20.2-10.2-39.8-31-39.8L99.1 32C92.5 13 74.4 0 53.9 0L16 0zM168 456a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0a56 56 0 1 0 -112 0 56 56 0 1 0 112 0zm136-88a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm256 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-84.7-36.7c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L496 345.4l-36.7-36.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L473.4 368l-36.7 36.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L496 390.6l36.7 36.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L518.6 368l36.7-36.7z" />
-    </Icon>
-);
+const CartCircleXmark = createIcon("cart-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABqAAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDDwsGAAE2AiQDCAQgBYMtBzgblwXIhuDJjq96PfMB90o6UM4vXUQnRZy45vmfPz1g2RM8SuaqvIMyz0cD2nnihpG0AZfQRHGj266I2b3jITFOUMbfMVEF6c70Da6PMPGDHpfEkrKQwKKZl2XZ7jtv8sHm2Bzxzf+vEt/YgIBYDrJAgQL9AixUCPQrZZRKweb4/3+C/8BMAFEJPj2BEtV4Ai8DSpBUluXMmoa+vlxX0VDu5hXV7n1L+60ddUH22zPuHPVoXV3cFhd21cZjvYNRF3e3N+wWDbFLPNqxe9zeeVtnfdw1u3bPu8c82nPHSHZq3V2jHxv5SLdU8ZjH+3a/sC/i7sZdd/UoRvBOF3Tf4Zi1V8Wbeu+KhgsnRzw3/63hDXPfmPiMCyY9O+/NuqsXvD3l+djt9s7b2hfG4igxt3QsioWBubVrSSwKcvWlFseS4U81P/XTsG8O+0bT+5sbGzeP9sKC+UNWNzR0XaSqurrqIhfufqq3XfDet0a/7yX5fLYNnWPK1Vf9+qZ3Y/Ttn3fsuGNHkL1D0/Pvv/98U7np8t0Hv+O7++4bHITu774bHFX024zJ5LbW0aNb23IeAyvghl1G3nXXk0+usEJJBjNnmmn8OAgEzQ9/8v3+TQv/qq5LYOtbv/wluPv/N9IF6SlUSyAoJv4/0T7pAijxAURSnGY4Y4GB5AE7/1vr3SZAqEWApFKtAIU+zQKUak0QoMKgWQJUqrWzQpQ1Qrt9ezipdyJcmO1cuNTuZbjCQp+HK7VH8byyTxv7uZi0egysmpenTZ6a5+fNipZ7BGnm5IIsbBl7mt0xDu50mOMd5xSHOsSRThlBJ9kUO9WxVrPAVX4om2ayqbL5snL9ubTbKHySkx25LqhPs0A2HxjrNHb/cdCeJITTlSWJSC2vvDbpzx7rpDNubwA=");
 
 export default CartCircleXmark;

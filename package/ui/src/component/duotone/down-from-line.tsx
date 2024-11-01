@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-from-line` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-from-line?s=duotone down-from-line}
  * @preview ![down-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/down-from-line.svg)
  */
-const DownFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 46.3 14.3 32 32 32l320 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64z" />
-        <path d="M164.7 468.7L41.9 345.9c-6.4-6.4-9.9-15-9.9-24C32 303.2 47.2 288 65.9 288l62.1 0 0-128c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 128 62.1 0c18.7 0 33.9 15.2 33.9 33.9c0 9-3.6 17.6-9.9 24L219.3 468.7c-7.2 7.2-17.1 11.3-27.3 11.3s-20.1-4.1-27.3-11.3z" />
-    </Icon>
-);
+const DownFromLine = createIcon("down-from-line", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABcAAAAHrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBSQsIAAE2AiQDCgQgBYMtB1gb8wTIFkrLwz9r/e6bmd0vivlAElPvpF8hkWhewh6qSd7p7935P/+0QJ59AJjb1sClsz3PE+g8kC7N00ASyjQD620iCiIRRF9ER7aIjis9vr7q0HlCFqfTywokL5LPuBf+BzC+aucyiaoUQDQCYMKyRXO8LUUpic/l18RnsxEQE0EukCJFRwFGSwU6yuTIZIJSUi5TinI5J4AoCu9IQREZpmE+IAOJEFnWvU1NoS5bWlOoXrKUBp/GhTbPamoikHCr1ROieb7l4nhcfbN1KpsRrNUJ+OPq2nj0NLo1NTZ97/p562cvW56M8Yv6+heud6zz6q9frx/P6XljNUi0T560TFLF+frr9MamXgcCQW3d8f7rGkb/r6xJwJc3P/+mH5JyKc4nTaiUgCDtXe5tdZyHOC8AAEkc1S3OyxFIdZeIn1rrqQChGgESRdUCpDpoFCBTrZcABZ0NEaCo2iKpyKqEltYUkKh1AKSGOgMyLb0CBaO9y4paRmpNrC2wj7mkqUNTruUD+vbPR+bdscwZCO3PR+XLVvej1nrAXVvts9dhW2y2w+GQg+aUR+wxdQRP8UW5AfrqLzdSvj27lpaWHXTIjrawf8ko+fmgu6Pj3T3gNglg4D10UiKJtLWGyX0Ub6PPLxOcZW5rKwlqCAAAAA==");
 
 export default DownFromLine;

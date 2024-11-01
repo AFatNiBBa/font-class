@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-minus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-minus?s=sharp-regular plug-circle-minus}
  * @preview ![plug-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/plug-circle-minus.svg)
  */
-const PlugCircleMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M120 24l0-24L72 0l0 24 0 88 48 0 0-88zm192 0l0-24L264 0l0 24 0 88 48 0 0-88zM24 144L0 144l0 48 24 0 8 0 0 64c0 80.2 59 146.6 136 158.2l0 97.8 48 0 0-97.8c15.2-2.3 29.7-6.7 43.1-12.9c-2.1-10.8-3.1-21.9-3.1-33.3c0-7.1 .4-14.1 1.2-20.9C238.9 360.2 216.3 368 192 368c-61.9 0-112-50.1-112-112l0-64 224 0 0 55.2c13.8-14.6 30-26.8 48-36l0-19.2 8 0 24 0 0-48-24 0-8 0-48 0L80 144l-48 0-8 0zM576 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-64 16l-16 0-128 0-16 0 0-32 16 0 128 0 16 0 0 32z" />
-    </Icon>
-);
+const PlugCircleMinus = createIcon("plug-circle-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfAAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCIwsGAAE2AiQDCAQgBYMtBzgbKwXIjsQ4JvKLKDQxxcOTXf+dW93z0P2N+pIi0AshUrYbAc6cS6mQ7uT7V8j8X+75PT86wM9HcGhjLm1QFs35PIEEtm/dQFmYBRRgItztpG5wBtFt6C1HMoxX2iVbKOObeFCD9Gj6HA+4F41f9HUrSaMAEF0AsGTrxg0+/DF+jPis+RrxmXUIiCUgCxQoMECA+QqBAUoZpVLwYzSb+B+YCSBa0M8lUKIVl+EaQAmSRll27Dipf3vd6FhuqRvVzhBVCFFH1Fm2r6qrUFqLxxe8t6KeH0+Meihu6v3k9NfHPj1o1HtmVPBniKg23zQx4vm5b1d3z35z/LNunPDcnLfqe+a9M+mFWF7Vlf6CoU93efq3Pj/yuSue6NOnz2R9bDPZtg8zc/AV6ixti3XYueOpAyY74MCcSV3r9lcW/+n/zov9aJYVz3XXNrP2ix9GZXL3biNHduue8yiowEc2u3R5LOvyYAYCQbdht31/5/n/tdUJ/Pw2/MnND9Pi9DTaJBAU45vj7UqLAdEB5FNcbijzRoHktAZ61g4eEiBUCJC0qAQo9NdFgFJlnAANg8wQoEVlo0KU7UIPuxNIOjgPCjNdB0o9vAIa5vso16JHFJJHyg158YtbWUIrZuUpEyfnublbESlhws3kvDytjb5cd4yBjY4464xLDjvkuEsFcsGG4mVOW8nBK3xQNsVEk2Vz5eX67eotDrvgouPOOmOnmSfvj0a7nO8/BsyEMKcqSxKRuh4J0oQ3OtKEL+v5iwAA");
 
 export default PlugCircleMinus;

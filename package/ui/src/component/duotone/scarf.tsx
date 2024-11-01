@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scarf` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scarf?s=duotone scarf}
  * @preview ![scarf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/scarf.svg)
  */
-const Scarf: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 400c0-4.1 1.6-8.2 4.7-11.3l112-112 22.6 22.6-112 112c-6.2 6.2-16.4 6.2-22.6 0C1.6 408.2 0 404.1 0 400zm52.7 36.7l112-112 22.6 22.6-112 112c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6zm48 48l112-112 22.6 22.6-112 112c-3.1 3.1-7.2 4.7-11.3 4.7s-8.2-1.6-11.3-4.7c-6.2-6.2-6.2-16.4 0-22.6zM288 406.6l11.3-11.3c3.8-3.8 7.5-7.5 11.3-11.3L411.3 484.7c6.2 6.2 6.2 16.4 0 22.6c-3.1 3.1-7.2 4.7-11.3 4.7s-8.2-1.6-11.3-4.7L288 406.6zm48-48l11.3-11.3L358.6 336 459.3 436.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L336 358.6zm48-48c3.8-3.8 7.5-7.5 11.3-11.3s7.5-7.5 11.3-11.3c33.6 33.6 67.1 67.1 100.7 100.7c3.1 3.1 4.7 7.2 4.7 11.3s-1.6 8.2-4.7 11.3c-6.2 6.2-16.4 6.2-22.6 0L384 310.6z" />
-        <path d="M374.6 256L256 137.4 218.2 99.6C228.9 97.5 241.7 96 256 96s27.1 1.5 37.8 3.6l-15.1 15.1L396.1 232.2C409 213.7 416 191.6 416 168.8c0-19-4.9-37.7-14.2-54.2L360.3 40.8C346.1 15.6 319.5 0 290.6 0L221.4 0c-28.9 0-55.6 15.6-69.7 40.8l-41.5 73.8C100.9 131.1 96 149.8 96 168.8c0 29.3 11.7 57.5 32.4 78.2L276.7 395.3 288 406.6l11.3-11.3 48-48 48-48L406.6 288l-11.3-11.3L384 265.4l-9.4-9.4z" />
-    </Icon>
-);
+const Scarf = createIcon("scarf", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABnwAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCcwsIAAE2AiQDCgQgBYMtB0YbiwXIhofv7f77tU/360f0jHsIfggZyMoBRlI04a2fCnH/z+X43uEagN/ormE49qA1LJvzeQIBF63lvSzyTDOwzK2hiCcIYx+xWENrhPT4ucevJ+Txc3arJtJT6Vs8QP8DGL8a7laS1gxA9ABg3ZEDu3zWiEaKb+u3iG/tRECsB5VAhgyjBFgpExglVyGXCxqprmlEXVcEEAX6RAYKtOJBvATIQRKKPJ/X2dHV3TnQ3tSZH6a3tZ11+NDh1fFE+z2DA3EoXoybRhyOVxa3xVszD8aTnpt1KAajjDWFK2Po5E3lkZgWB+PRocdj15GDR4QsV7nb7saGI+VA+UR5KB4bgPvwmoSVoc6qaSriiWj195Q/7XvMjeP28S/0vPD7uG/P/da1n17LNx/079DQv3+4+morJow+MW2baz/f7Kdzj4YTozsajz7ixYrUyAd3vOhOc4uNl13mkMsu8/zzGy8a1mvlp5+uUxuLYiNCH+x6kbMHD511NtHE8Nln1Qn7gPv553PVxo2Ilgm9faZmwuIVBB3z3n3rtO6V/7e0J/DLB3/+q/+O6s+S9AJaJBBkM+uZTk4gEQCAFNcanzgdgcwRBT7V4XEBQhsCSaENMiP1QK7NDGgyxqLThTYHZCJvFQacIpB0uAIyi10HuQFvQpOVvsgXBiJzUZ2D6f4QM2/W6KZ11bzZc6vl1WPTqfc6TV1eUb12T70WQ9PCTue6zKWudo6zXeBqJVxpV+kal9hsUZt8UWWe2eaqLFctdxzdDqvQla6C5t64vsoK1ffxqa61J08LvoRF5zuZyYgUWedVZ51x5bmztrqtWxm3NAAA");
 
 export default Scarf;

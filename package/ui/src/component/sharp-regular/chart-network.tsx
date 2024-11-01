@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-network` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-network?s=sharp-regular chart-network}
  * @preview ![chart-network](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chart-network.svg)
  */
-const ChartNetwork: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M288 0L160 0l0 128 79.8 0L261 181.1c-34.9 21.3-60 57.1-67 98.9l-66 0 0-40L0 240 0 368l128 0 0-40 66 0c11.4 68.1 70.7 120 142 120c43.8 0 83-19.5 109.4-50.4l66.6 40 0 74.4 128 0 0-128-124 0-45.8-27.5c6.4-16.3 9.9-34 9.9-52.5c0-23.2-5.5-45.2-15.3-64.6L529.3 192 640 192l0-128L512 64l0 81.2-75.7 55.5C410.4 175.5 375 160 336 160c-10.5 0-20.6 1.1-30.5 3.2L288 119.4 288 0zm48 208a96 96 0 1 1 0 192 96 96 0 1 1 0-192z" />
-    </Icon>
-);
+const ChartNetwork = createIcon("chart-network", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcQAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCBQsGAAE2AiQDCAQgBYMtBzQbCQXIjsQ4JvKLKOwiHv7f7r/2uVWvUa+NasCIwIEiOFIGMvpr0lkdTsR8rw2ZOvU856EAvkc8aHtoQBbQnj2vQMC7fVovArWCRRRr7czLGUS/SfqUTzJsPsPiDnn8HXdUSI+lL3G7/Gj8qbWrJJUMQDQCwKQVS+Z5tyZqIr74f+ILcxAQk0ApkCFDOwHGygTayZXI5YKa+P9//P+VBBC1cEgCuQ9vxwGQq5CkPJ/Stlqpny+vVoodRbUQ1RgUXy4tIqII4IL8T457a9ovE5YFChcxOp6IS20WEFosjbenX2vWf7Vl17tFPNv6MRdbPdr1meJa9+faPB6X2j7R4/lq55cavXS/L7d/qeM7F/mwhaZaVG/iZD1dDDd7muyBTQs3Tonbk3uYbTzorN892q7L/f8ckG8tMmeEEy83+r6tEwO+abOWtR993Lr1xx+tXdsGCXwOBIJOKx9tt6Hh2L/qVBP443Xq+/5/N11ML6GOBIKs7/99rU0XAYsCYKc4rrOysUCyXgL+1noeFiAUCJDUUgiQaauRALlCHwEqOhgmQC2FJTKR1xWaWddBUs8hkBnuHMg18xqoGOsTu5ZmkZkaaSjkTy9uuoSmLZWD+g8sR5fTRKOsB0+7Y8plrefx2OjlbtrugP2O2marXY4K5LB53jH7TNfgaTZUGqS/gUqjldv54+XltjnsiF0O2J/3GaM8b/V0XO/v5cyEMQfzJYlI9R+Z1O8yAgAAAA==");
 
 export default ChartNetwork;

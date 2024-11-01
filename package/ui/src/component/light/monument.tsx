@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `monument` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/monument?s=light monument}
  * @preview ![monument](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/monument.svg)
  */
-const Monument: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M180.7 4.7c6.2-6.2 16.4-6.2 22.6 0l80 80c2.5 2.5 4.2 5.9 4.6 9.4l32 272c1 8.8-5.2 16.7-14 17.8s-16.7-5.2-17.8-14L256.8 103.4 192 38.6l-64.8 64.8L95.9 369.9c-1 8.8-9 15.1-17.8 14s-15.1-9-14-17.8l32-272c.4-3.6 2-6.9 4.6-9.4l80-80zM144 304c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16zM40 416l304 0c22.1 0 40 17.9 40 40l0 16c0 22.1-17.9 40-40 40L40 512c-22.1 0-40-17.9-40-40l0-16c0-22.1 17.9-40 40-40zm-8 40l0 16c0 4.4 3.6 8 8 8l304 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8L40 448c-4.4 0-8 3.6-8 8z" />
-    </Icon>
-);
+const Monument = createIcon("monument", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdAAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBfgsGAAE2AiQDCAQgBYMtBy8b/QTIjsM4JnymMoslHv5/rfK+qj99ZoexlogUISsMsLCzMmG1LqgiVJ9YAt0d8ZSa7+9PPc95KICfQxCUMZ9lTZAFtru2QM8LuCjeSa1IbXq1gtazba+CiIZ2IzT2kOJOTFJF9kn2E94KDxq/6vaUTMoBRBMAlu/YstmbcpQjfqp8TvxkIwJiBSgEcuToE2CRXKBPUiBJgnJUKuI/sCCAKElunIGEEg7gHCCBTEppoL6npbaqPm03Z9fs+ah9W3zQvisetj3r2B3bY2vsjPdrPow98VHnjp0Manea3m+riQ87ttbX1T9v/4Bz9K5SF2fpE2siHnV+VNsnIKj3EF6pC3rpiKGmod+H/3T8J599U2pmGmzU+HPj5IEay5ZmoIHJE2ZJSTM3M6MmNJSXKTeUzokL05KPml9/Q5Pmb14zTa/caMKZ0sFpDpaa1NcDgWDlw78/0Ljo/+raDPzyzZ//o8tV3sTDbAjVMhDkkyqT7I2HIMgB/KQsrhsRDxHI7JAk91rnQwFCDQJkSmoEyPVqEiCpMVGAKgNmC1BSY4tcpGFCm309ytS5hHJz3ENJm09RlUW+jUraIoczHkr4v7xgzRhbvaqYPmVasaDYrLQC6LB2cWFxWh13XQ6Mx42Ou+C8q4456pSrI+Kyzek156zZw1f7osJ0U0xTWKC43X4O2yldwhXPrgv3l7FQ8X44zvX98eOxkUkoZ9iVyYis+tyF8189AAAA");
 
 export default Monument;

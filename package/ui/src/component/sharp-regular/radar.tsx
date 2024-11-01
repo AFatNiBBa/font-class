@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `radar` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/radar?s=sharp-regular radar}
  * @preview ![radar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/radar.svg)
  */
-const Radar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M316.4 161.7C299 150.5 278.2 144 256 144c-61.9 0-112 50.1-112 112s50.1 112 112 112s112-50.1 112-112l48 0c0 78.2-56.1 143.3-130.3 157.2c-7.3-8.1-17.9-13.2-29.7-13.2s-22.4 5.1-29.7 13.2c-64.5-12.1-115.4-63-127.5-127.5c8.1-7.3 13.2-17.9 13.2-29.7s-5.1-22.4-13.2-29.7C112.7 152.1 177.8 96 256 96c35.5 0 68.3 11.6 94.9 31.2l34.2-34.2C349.7 64.8 304.8 48 256 48C152.7 48 66.9 123.4 50.7 222.1C39.5 229.2 32 241.7 32 256s7.5 26.8 18.7 33.9c14.4 87.7 83.6 157 171.4 171.4c7.1 11.3 19.6 18.7 33.9 18.7s26.8-7.5 33.9-18.7C388.6 445.1 464 359.3 464 256l48 0c0 141.4-114.6 256-256 256S0 397.4 0 256S114.6 0 256 0c62.1 0 118.9 22.1 163.3 58.8L455 23l17-17L505.9 40 489 57l-174 174c3.3 7.7 5.1 16.1 5.1 25c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64c8.9 0 17.3 1.8 25 5.1l35.4-35.4z" />
-    </Icon>
-);
+const Radar = createIcon("radar", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiwAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCMwsGAAE2AiQDCAQgBYMtBywbLwXIhiDSlVWPJMPuGVlmwmeMmDjilDjyTt087zwK8ElSHNM6D2RMoDnPEwg0fGuBL1/gmSZg7U6TcmAph6S1Zkle347PAnk8H5coSNemD3Axnip+0s65JEUGIJoCYOrq5Qu98n18H/F+7UniffMREFNBKZABpKMAE2QCXSBXIpcLvo9arfwDSwKIeuozEsiR4URcAMhBEnl+ZLVolK+qFpXd91We6HNPxxv73jvy6f73d6nGLRNemHFVrztavjXppW5Xd7iu9e2TX5795tjJ8dGqLxZ8sOKOttf2/HLiiyuh7+4OX09/fXU1vpjyimT5atFH015bxQ5a/PHqL1dOjv4xMfrEirjSNX3u6XFXv/vaX9///t7nt5rc7b6m9/3S9YNdHxjf6dJuv/92uEmTw7/93q8zRHXcuPOeb9r0+YbNml3yfMTz99x++yNLLmxm/TyL4oyL6+Z3KIoO1WnffDOt+uiSJY/Or/v/v1g0hNlt21161myznXVpu7Zm54GbYvqY4WiGBx80v1GlWbNbbmlCxa/S+I5hQCB45JMVizY3mfBPg2oCPz7322/uM1J7JUn3oYEEgmxAbYANCSQCAJDieN0SBJIjJXjWOlcJECoIkNRTESDTQVMBchX9BSh0NlKAeiqWy0TeUGhp4wRJnaNAZpTTQK6lx0FhgrflelpGZoGU/VAfwPhZFJnZVQ4dNKQcVy4dgzYqIjXHl9tin+Njoi9A7XKEQ4610w57HUuwoy3UjnPQLA2d6UWloQYZojROeezPravsdLRjKCEz523GK+9LfRyv5/cF5oH4w6yQpGBPxdFbd2w9GgAA");
 
 export default Radar;

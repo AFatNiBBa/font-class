@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-drowning` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-drowning?s=duotone person-drowning}
  * @preview ![person-drowning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/person-drowning.svg)
  */
-const PersonDrowning: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M.8 455.3c4 17.2 21.2 27.9 38.4 23.9c24.5-5.7 44.9-16.5 58.2-25C126.5 469.7 159 480 192 480c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9c33 0 65.5-10.3 94.5-25.8c13.4 8.4 33.7 19.3 58.2 25c17.2 4 34.4-6.7 38.4-23.9c.6-2.4 .8-4.9 .8-7.3c0-14.5-10-27.7-24.7-31.1c-18.1-4.2-36.2-13.3-50.6-25.2c-5.9-5-13.3-7.6-20.7-7.6c-6.5 0-12.9 2-18.5 5.9C439.4 405.2 410.9 416 384 416c-27.5 0-55-10.6-77.5-26.1c-11.1-7.9-25.9-7.9-37 0C247 405.4 219.5 416 192 416c-26.9 0-55.3-10.8-77.4-26.1C109 386 102.5 384 96 384c-7.4 0-14.8 2.6-20.7 7.6c-14.4 11.9-32.5 21-50.6 25.2c-17.2 4-27.9 21.2-23.9 38.4z" />
-        <path d="M160 32c17.7 0 32 14.3 32 32l0 32.2c0 52.7 34.1 99.3 84.3 115.3c40 12.7 82.7 14.5 123.7 5.2l105-23.9c17.2-3.9 34.4 6.9 38.3 24.1s-6.9 34.4-24.1 38.3l-105 23.9c-10.6 2.4-21.2 4.2-31.9 5.5l-17.7 97.6c-13.6-3.2-27.3-9.4-39.7-18c-22.1-15.5-51.6-15.5-73.7 0c-17.1 11.8-38 20.3-59.2 20.3c-7.3 0-15-1.2-22.8-3.3l21-146.7C151.5 200.1 128 150.2 128 96.2L128 64c0-17.7 14.3-32 32-32zm96 96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const PersonDrowning = createIcon("person-drowning", true, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABoQAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCQwsIAAE2AiQDCgQgBYMtB1obbwXIjsK22TNysBKwHJJcyPqIB/731/8+596ZBzh90ckKVdDqjEIJs179cH4/+afv3f0kBXAFvPZnq+BJngRv4jBzr9fgf675/NKODvAD+GVa+9Ij8vkE7vm0KRI3kAnNZopb3HYzxCwkvtBIXCENkqQNMsTL5AtOhv8DGL5q0EZUkABAKAcAJiyLCoHzHOZieO46JHwxGwgQJgK0QyRI0AzBaFRAM047kEoFcrFLTi50ydtBAEIWwlcnIIsM9uI4IAVRFFLOp2REUUaViw2PU0o6WoNhCITrDms+D9OW4UXdIZXRGdSJDvKJB7bLSkesV72H9eLCE7NtDNisP6K85Gavjb0p00n7VccZxnCXC/VP7M74990u6g+Upcobdd9noowkh/CK7bLjsNIRnVPv48Bl64IbvHPVelBnUNdyXWP9s+PLhi9u3iw9BA6VthOt3JF8+T2/zuWD5d7OhVsu1dH/vxrpgnsXVlcrncFb+9V98OkPdWiH44yoWLmSdv7+/UiKs2V7PwAPXq0Y+6E8/tybtbb1Zyz/MHbFTZ8mqaj26YKLRYXtdn293Z2M7Wf7urUrFY1EPH21ZYszgIDAl4rGnrSy0f/zlQlA58vvv8FTcpn8hYyPT4B8EQSS3l3OkpeYDRIkQohTMdSyxK4m+UUBiYmIOC524XI+KKSDKKsQEk00IFWoF2S08uEOrl+ECqkiBNVSMETFdkNiqHpIVTuAjNHuMlnVIQFFAZCEL8FU8RDhk9gAV3cWyFYbGhG6OLsYxA673WvlgAPeC7nKlKqWI1uB6gFdKSRfo4R4i+L9EOPBlTsmELvcfqrGDphCqQq4Zfn6MkHY87G92u3xDng1BDDwJVYkhIhUH3TzLuv2lNX9ocJ08dcjDZdkTwwAAA==");
 
 export default PersonDrowning;

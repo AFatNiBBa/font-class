@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rotate-reverse` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rotate-reverse?s=sharp-regular rotate-reverse}
  * @preview ![rotate-reverse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/rotate-reverse.svg)
  */
-const RotateReverse: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M418 187.1C391.2 124.1 328.7 80 256 80c-39.7 0-77.8 15.8-105.9 43.9L145 129l21.1 21.1L200 184l-33.9 33.9L160 224l-96 0-48 0 0-48 0-96 6.1-6.1L56 40 89.9 73.9 111 95l5.1-5.1C153.2 52.8 203.5 32 256 32c92.6 0 172.1 56.2 206.2 136.3L418 187.1zM94.1 325.2C121 388.1 183.4 432 256 432c39.7 0 77.8-15.8 105.9-43.9L367 383l-21.1-21.1L312 328l33.9-33.9L352 288l96 0 48 0 0 48 0 96-6.1 6.1L456 472l-33.9-33.9L401 417l-5.1 5.1C358.8 459.2 308.5 480 256 480c-92.5 0-171.8-56-206-135.9l44.1-18.9zm30-149.2L64 115.9 64 176l60.1 0zM387.9 336L448 396.1l0-60.1-60.1 0z" />
-    </Icon>
-);
+const RotateReverse = createIcon("rotate-reverse", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABeQAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCEQsGAAE2AiQDCAQgBYMtBzUbFgXIjsK2eXMkMTkkL4LJZMVDsd/vz+4VRLSbJbEITTtDomnJJpHKkBqlML/+Ep7//Lj3nm/Wt584gE1wW3NbhKqI/EMZlHdx6nlsUwDfKGhj4dKAZAPOeR6BiCVdtqmNeMF6NauA1dx1a0UR7SstZSSP5/L4OEMZW+ijivzkXOO+vmn8N6KDpKoggOgmArB7lhxL+w44AleNFeLXARIQu0SYBhQoMA5gA1dgHM80UioFf/hvhP9AhgKImuTFCUrUuETuEChBKkue1SoUSvlyXlp6XFI+GxDYjDkO0sGCYARBB4kEAIwIRTAsvNXT2UvsjbtfwYx/YCP6LNQIK0IQCiOkUgrRjyCEwIrV++PXuFuPwPSkxCRCW2EitgMkpknV95vTddk1ffHip8lPwf1mFEVRU0tVsOhGBVKprxQlSn8iRSu5GF7c711ExxMCx9OLEy9b4mwIahrj5xEEgsNQSvOVQX8iKYfg3+bHB35G3Q0HPnOSaJYgKGb/7XKSdFPFJwAAMtrIlKQbkM7x0Kl2bxQgtNIh1VqhMEYFpVYzUJnkfbrW6ghXlGIK/XIBqd0VFNa1Q6nfElQ2nFm1/uA6HO8u/H8vJUYj0XPM3cWNBbBpqAk+xOZxINtWzW2xZKGdVKZenRalSlRqUXSTWLdVrRiLivZBjDsXbpgA7Dh5XE5TqkmzSvXqypRA7L5p1mY3W8jgEMZlp1ISqWiqbylsKXV+NwAA");
 
 export default RotateReverse;

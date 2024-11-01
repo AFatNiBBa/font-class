@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `golf-club` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/golf-club?s=solid golf-club}
  * @preview ![golf-club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/golf-club.svg)
  */
-const GolfClub: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M508.6 46.3c7.9-15.8 1.5-35-14.3-42.9s-35-1.5-42.9 14.3L264 392.5l0-.5L42.1 318C21.4 311.1 0 326.6 0 348.4L0 376l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L0 408l0 32 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L0 472l0 8c0 17.7 14.3 32 32 32l223.3 0c12 .3 23.6-6.3 29.3-17.7l224-448z" />
-    </Icon>
-);
+const GolfClub = createIcon("golf-club", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABWwAAAHbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBLgsGAAE2AiQDCAQgBYMtBzAbrgTIjpQuZyQRfG9H9fszi7OnNjqYEawMYpBuemLmyoVUyJQhv/jT3/zzzqMAn1FoY9rSQNocze0JJNblgY9JWWCZfgH75q5uiodo36WlLMnjo/H4mSCPW9keJaSL6SmO15fGR03sIamSAYjaABgydeIE99/Fu4gn/68QT4xDQAwBhUCGDM0F6C8TaC5XIJcL3sX///E/sCCAKMVbJ5AjQ38MA+QgiTzvXq2kRj6lWknVpecbRpxreK7+mfrTImJKiEVUi7MNQqtq4KYdDc5WqxaHm82sqKxd+dnTJU/9OTmuH/2uXr50aeXNLcLrMX49vFGruc7e1az5rrNCZi5X88CBmm/VP/k2IBBkDZ5VzK3V/3d5tQQ+3Pw6+hX9v59SqkS5BIKs/f/2ZiX8/5eSAACk2KIiQSDpLuGnVndOgFAVAZJSVQXINFNbgFxV7QQo0VIPAUpVNVEm8ipCfbMbSKpbDzI9bQW5+i6BEv09UErVj8x/iNMnfm+xIzU0oq/o0rFz0bcYOoR0CSw3+xXTfOstKdEGo5ZYa41NFltkuU0K2WCCvtlqIy14hA8Vuuios0JfxbJ/PzzFYhtstNxaa0qXfor9cmtb7Pw2kBJG7cqWJCJVeZVch3sJAAAA");
 
 export default GolfClub;

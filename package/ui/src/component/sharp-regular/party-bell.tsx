@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `party-bell` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/party-bell?s=sharp-regular party-bell}
  * @preview ![party-bell](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/party-bell.svg)
  */
-const PartyBell: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M70.3 309.8L309.8 70.3c-67-37.5-153.3-27.7-210.3 29.3s-66.7 143.3-29.3 210.3zM65.6 65.6c75.8-75.8 192.5-85.9 279.2-30.3c13.3 8.5 25.9 18.6 37.6 30.3L348.5 99.5 99.5 348.5 65.6 382.4C54 370.7 43.9 358.1 35.3 344.8C-20.3 258.1-10.2 141.4 65.6 65.6zM480 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM352 448a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM96 480a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM376 150.1l17 17 8.3 8.3c16.7 16.7 38.6 27.2 62.1 29.8l27.4 3-5.3 47.7-27.4-3c-34.3-3.8-66.3-19.2-90.7-43.6L359 201l-17-17L376 150.1zM201 359l8.3 8.2c24.4 24.4 39.8 56.4 43.6 90.7l3 27.4-47.7 5.3-3-27.4c-2.6-23.5-13.1-45.4-29.8-62.1L167 393l-17-17L184 342.1l17 17zM469.7 503.5l-8.5-10c-12.5-14.8-19.1-33.7-18.6-53c.5-16.6-12.4-30.6-29-31.6l-30-1.8c-42.5-2.5-75.3-38.3-74.2-80.8c.2-7.6-2.4-15-7.3-20.7l-8.5-10-15.5-18.3 36.6-31 15.5 18.3 8.5 10c12.5 14.8 19.1 33.7 18.6 53c-.5 16.6 12.4 30.6 29 31.6l30 1.8c42.5 2.5 75.3 38.3 74.2 80.8c-.2 7.6 2.4 15 7.3 20.7l8.5 10-36.6 31z" />
-    </Icon>
-);
+const PartyBell = createIcon("party-bell", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABsQAAALYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDPQsGAAE2AiQDCAQgBYMtBzEbvgXInoWxM20TwjTMewkbne+lixTVePjHv8/f5747erFeYFZ0R7Gd6UJUQpW0WdMG/IB/+v3auSti4GklYUnMq1hoRIZkiSQWqQyZoUH8DauEJt6eBxytU1y7N21AtE2uCeY3v0kEFbO2YGlijJss1MHy2lLa/F+T79qODvAbHUqFXS+9gSLS9iYw8NHZoiwK7MBmI5wIztoch+gPgtwiImXiPyEN49ewtIc0HuiAPJJzNgscKYGKL2TZiUReBkBUBICB8+NGePqqiq9NEK8ZhoAYCHIEMnhIXQL0ISNQl1QOUqngs26Q/8BqBBD5eLUEpMjiHrwDkIJEYZqWrRbnzxHJNq9cOrGMMztp0vhJr3ruW25zVztOfJiXPs1eFvowPlpUkvs4/zK9fCAZcYqtiZPZ/dTp2E6fKbNwVWdOYxHCqo85ZU6hGIXipqbUVTM9a0vRSv1nkim5G9aii2rrcjGE1HIx+rpdZ1v109WbcbtYEkep6tpDequWqqk4s7XaqWpNuVUodjJZjR61u2LJtxprzaJ3743Xbd7Z/Z6tjRv2r8NuDHd1tWgh/P9PhIp3+S7XSMHw/gtffi/2hmpZmrF1ZWYwVeunB2EN5xquG8V1hs6uQaWrD5tcMWF8K/6hROcTJFD26B4uCWXLrd17/WEbOqyhb+06vxmjlD2aBcuuIP8b+gECQenhdY5wy49RAkpv/rd2ppl5bEhKoFACgkwbk5huwyBhjsB0Eqs1wgcJiWsUQlDLOk2AkEWARL6sABl1qEiAVFZrAuSpT1cC5MsaR0akRUJVZhwgUdYykNGNTSBVlRsgTx+ep/JVVcaNRScU/yLTho3I0GW5ulK1qVrWJc/k83jX20Z+SluEr9ksYTErmcVM5rFyoJczIruKRQyzqKF8kRwdaUcHcvQit1171iaG1HJWMG+t7C/Sm9zz8Rastnu3hJ0gYydyEgmRZN8Ove13DAAA");
 
 export default PartyBell;

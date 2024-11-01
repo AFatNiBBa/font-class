@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `oil-can-drip` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-can-drip?s=light oil-can-drip}
  * @preview ![oil-can-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/oil-can-drip.svg)
  */
-const OilCanDrip: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 80c0 8.8-7.2 16-16 16l-64 0 0 64 96.9 0c9.9 0 19.7 2.3 28.6 6.8L448 192l167-35.8c18.1-3.9 30.7 17.6 18.4 31.5L451.1 394.3c-12.1 13.8-29.6 21.7-48 21.7L144 416c-26.5 0-48-21.5-48-48l0-28L31.1 315.7C12.4 308.7 0 290.7 0 270.7L0 208c0-26.5 21.5-48 48-48l48 0 32 0 112 0 0-64-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l160 0c8.8 0 16 7.2 16 16zM454.7 223.3c-7.1 1.5-14.5 .6-21-2.7l-50.5-25.2c-4.4-2.2-9.3-3.4-14.3-3.4L128 192l0 125.8 0 34.2 0 16c0 8.8 7.2 16 16 16l259.1 0c9.2 0 17.9-3.9 24-10.8L583.8 195.6 454.7 223.3zM96 192l-48 0c-8.8 0-16 7.2-16 16l0 62.7c0 6.7 4.1 12.6 10.4 15L96 305.8 96 192zM608 400c0 0 0 0 0-.1l0-.2c0-.1 0-.3 0-.6c-.1-.5-.2-1.2-.3-2.1c-.3-1.8-.9-4.2-1.7-7c-1.7-5.7-4.2-12.5-7.4-20c-2-4.7-4.2-9.5-6.5-14.3c-2.3 4.8-4.4 9.6-6.5 14.3c-7.1 16.6-9.5 26.7-9.5 29.9c0 8.8 7.2 16 16 16c7 0 10.7-2.1 12.3-3.5c1.2-1.1 3.7-4 3.7-12.5zm32 0c0 32-21.5 48-48 48s-48-21.5-48-48c0-21 20.6-62.6 34.9-88.8c5.8-10.6 20.5-10.6 26.3 0C619.4 337.4 640 379 640 400z" />
-    </Icon>
-);
+const OilCanDrip = createIcon("oil-can-drip", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABlgAAAKsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCdwsGAAE2AiQDCAQgBYMtBzMbegXILgpjY9nkI1znik3dxnLhj3qt+Cki+v3Qvfd+CFxKoIAlsZDkABUJlcaWUaZVOL4egGx1bL9B+/2a+eoNW9y1iUrXSiPRTEJ7oV4+//9v3v/+ag+dWMJhx7dilHU8xdKv9rkk3kdOjfc9KuADwPOtjT8+F6i7R2DxxQeycYWG74BVqEK83dlazSF4HBJikzge7fg00OR/FlJCuUbPwRn/o/mntEKhqAAgwwBg/bbKYjxL+Z18tpHnZhAgGwCzEFRQwTQErCJHMI2CAA0Fwm+2Lf0HzoIApBPxXQugAV3gJsYBDaBQNorYScbZI/oOo6KmT6nrvZjoAvZxO81Pbc7T06Qqd40hN9lZxdTkpmKu8/Ne30fqeJad5/qcptUXs4KcWb0EUdPcmO28NlW7dXrdSQKOpvlh+3EWBoXwy5nEhCe4Soye51X91YQ5se441zWKzu0T6WV5Po+H4OGf/Xz/c+thk7ROmnbmj5PczMXfwM7t74XmaRX2/UWdJm0En25rIX/xfenSA5kjmeT23XSB+08/F+ehovsfPFiYflem6/cDo1N6ZoxhYdLgWrqLi4l2AAQSmdxvhU+Mt4O5kNPfnCXvE13P4JvjWrfc3XuytVuT++QdBwQERq616+tQ0kR3nwzA36cTrpNljO6DbjJAoC5sF2oqC9D+pzEEYlQyw4NpWUBxogOAe+13JoDQgQAKFR0CKicWBDR0AhHQwVU0AjrpVJJjowU5NBdOxmCck4sxyyk4PHJKSV4iFUeqjmoapn0Rs3NqIHufmELCRIKY1rKudordThTL7jBjpvzhKHqMGjGlW5d+UxU7oTidNiyHY7K1SAgXIoyQQGwP7u0alJI96ZSxvr+LROK852eGX+wPh5ABWP66ijmVYhg9NBR87hoJvo71jwEAAA==");
 
 export default OilCanDrip;

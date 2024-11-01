@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `screwdriver` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/screwdriver?s=duotone screwdriver}
  * @preview ![screwdriver](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/screwdriver.svg)
  */
-const Screwdriver: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M211 267.1c7.1 3.6 13.7 8.4 19.7 14.3c1.5 1.5 2.9 3 4.2 4.6s2.6 3.2 3.8 4.8c2.4 3.3 4.5 6.7 6.3 10.3l109-109 54.1 0c7.4 0 14.5-3.5 19-9.4l80-104c7.4-9.6 6.5-23.1-2.1-31.6L465 7c-8.5-8.5-22-9.4-31.6-2.1l-104 80c-5.9 4.5-9.4 11.6-9.4 19l0 54.1-109 109z" />
-        <path d="M230.6 281.4c-30.2-30.2-79.1-30.2-109.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l64 64c12.5 12.5 32.8 12.5 45.3 0l112-112c30.2-30.2 30.2-79.1 0-109.3z" />
-    </Icon>
-);
+const Screwdriver = createIcon("screwdriver", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABawAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBPAsIAAE2AiQDCgQgBYMtB1Ib4ATIjpSuxmQEz8/955yb/LcAlGVmBYRFlF1VVUcoDLNOAeuPXRr/+NMDHoj8HPGNY+LT2m3jFWi83tTXFGkqUNMaWHdnu6ZkeRzSmozkeDQclx3k8UV2VhXpUfoIN+h/AONXLZwlqZEBiPoAGL904WzvfBVfpfiofEx8ZBYCYgIoBDJkaC3AKJlAa7kCuVzwVSpLvoqyLAggKujFGaggx1jMBOQgCZHnLdrWqqqTL6Hbai59o2bE5W6L4q6TTebHvVpXmi2NN+NUj6X3mjhradSKSuzJpmPifqeuU8WiDm/Uf+P39h9t+cgPrxxuR7vDe/e6VKfOpdLD9GEP9+61tF27pb54/PKFhg0aNOzUadcuQ9TeNner5z456reaW+c6X3uIXbuAQNC+3ZbX1tYb9X/1Wgl88/af/8LfUSlV0huoLoEg61X2siqhnCoCAJDiiA4JvhTItJXEd63tvgChJgIkFTUFyLRSX4BcTT0FqNLWYAEqalooE3kNobHVBSS17QeZIY6BXGNvgSqjvGtXNI7MjnArwH9xMVM4NHlV0b9Pv2JE0UxlwjRQvziyGFa6HcFWd9hqi732OGSzTbY7xJADZnuH7TZFgyf7okJ/ffRTGKGYLpabl9jsgIO222tPWGakYr3azRF9uDusJwEG7EAyI1JkjQ7eHPyVCb1PZKeJpA4fAA==");
 
 export default Screwdriver;

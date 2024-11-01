@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transporter-1` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-1?s=sharp-regular transporter-1}
  * @preview ![transporter-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/transporter-1.svg)
  */
-const Transporter_1: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-51.1 32l-12.1 0-7.2 9.7-83.3 112L88 268.9l38.5 28.7 14.3-19.3L192 209.6l0 78.4 48 0 0-112 32 0 0 112 48 0 0-78.4 51.1 68.7 14.3 19.3L424 268.9l-14.3-19.3-83.3-112-7.2-9.7-12.1 0-102.2 0zM480 160l-16-32-16 32-32 16 32 16 16 32 16-32 32-16-32-16zM64 352L48 320 32 352 0 368l32 16 16 32 16-32 32-16L64 352zm56 112l-24 0 0 48 24 0 272 0 24 0 0-48-24 0-272 0zm56-144l-16 0 0 32 16 0 160 0 16 0 0-32-16 0-160 0zm0 64l-16 0 0 32 16 0 160 0 16 0 0-32-16 0-160 0z" />
-    </Icon>
-);
+const Transporter_1 = createIcon("transporter-1", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgwAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCSAsGAAE2AiQDCAQgBYMtBzQbTAXIrgZsYxr4RTgoNcywrFZmCy/E+ljUv9R6IR7+ud9/+5wbPyIxKSkKP6ZIDg8ONhUNRnMvTxx9a3QErv80Nh9id7h8xKRCU20ylba22Ba9aYNkhnyAh/5mz5s2bGsYpoHEP8U16YP8yzqPtIvi0rx2o8wery7VL8APuOLvj1aa1a6fDtYLRyAYsEz8KK2IBSxgEY6AZXDeiAMMjaEcQRmvsYp8lvDQvWn8N+GZVBUAiH4NAPbPh218tWhF/DcTPxyBgNgHzBOgQIFpArBFJDBNbB6USkErmob9BxIEEDWCGyYo0YE7eAQoQWorxaq4o+PBKyUq8aRLwpYv6v0uPdzGa5OScWZkFFaqOJgGoksgEHD8reOwUcfOJMyw8aTNbhUECGLDQZhQ3ckqxtkmTGWySYVz2gjBJ235BNCIhVKWVM30YJ8Tw2vsXThYPURHxjVyLaPTyQ8u7KdrTijfzv2oH3Tp/L3n5tdWlGVgXZDu33aQEbQf4dzzor4cIBDc/XPeosYn50LAv0/vm/+MNFfK12iXIChW/oRVApIAAGQ88iUQSLfJBFG3x3tLoRMMqdYJhSlaKHVahsqsIkKt0zGRKBUIw9YApG63oLDpCUrDXqCy5TuvDYfoYuQvJf5XMKXVJpvrKJvKUI0m60rh+mL1fJ1Wa5FH3heFO7Fz5dK9rY0T9y3qVrv04EJrjtb8IJKVkkFqaHfr/vaJrVt3Tly5tKvU0flRxOP86Cg0hQLGVRtSEqn6fvi3ySwA");
 
 export default Transporter_1;

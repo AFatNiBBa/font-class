@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-running-fast` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-running-fast?s=sharp-solid person-running-fast}
  * @preview ![person-running-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-running-fast.svg)
  */
-const PersonRunningFast: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M368 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM224 96l-13.3 0-9.4 9.4-48 48-8 8 45.3 45.3 8-8L237.3 160l27.7 0-31.3 94c-9.3 28 1.7 58.8 26.8 74.5l86.2 53.9-9.4 32.8-16 56L309.6 512l66.6 0 6.6-23.2 16-56 16-56 6.6-23.2L401 340.9 334 299l29-77.4 24.3 48.6 8.8 17.7 19.8 0 48 0 32 0 0-64-32 0-28.2 0-39.2-78.3-5.4-10.9-11.3-4.5-80-32L294.2 96 288 96l-64 0zM205.5 310.7L187.2 352 128 352l-32 0 0 64 32 0 80 0 20.8 0 8.4-19L253 361.6l-9.5-6c-17.5-10.9-30.5-26.8-37.9-44.9zM16 95.8l-16 0 0 32 16 0 112 0 16 0 0-32-16 0-112 0zm-16 64l0 32 16 0 64 0 16 0 0-32-16 0-64 0-16 0zm16 64l-16 0 0 32 16 0 128 0 16 0 0-32-16 0-128 0z" />
-    </Icon>
-);
+const PersonRunningFast = createIcon("person-running-fast", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABiQAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCVwsGAAE2AiQDCAQgBYMtBzobYQXIhof/t+v7fW5V93qvalAj36H0AUZg5MgO5czxZB9w2COnctN4qYCXuGj/WFP/YO/s3PgEJrYMHz7QbwOb6QRsxs4ooYTbkBCSDOP1w/JHKOPN4mYt0n3pE9wZPjR+NsTNJN0FgGgAsPrg3u3e+yK+iPi48zLxsa0IiNUgCxQoMFyAZQqB4UoZpVLwRXQ6+j8wE0C04SETKNGFW3EvoARJuyx7ru9bd9d1q2d5oG5VZz8z7IGh9094cvC9Q+4bX1V11T+WRf9YHoNiZdSxL2bB/hgeOQZ1DIuxerdhMSEOxMGYHkOiriOq6kAMFJT3q33TZk7riKKuh8Wo6PmhB6paibFwhTy0azxizPPN87+O/uSsT1x88qPfvfrqd48G466euKF7dVztU1c7YLiRx515+unL9s9zl/89a42z/O9/ByyzZrLh21znBv13rZKHT9xuiyftHGW39u4Tk2AuzbOTz7zMX27x6Atvn2iaJmuuz5rrVuacm11Z07HAXdcDgaBzxrxzTu697N+uOoGv3vj91/Qz0nkv/kjPo0sCQTGtM82xBE38IQAAKa4yJkEguUkb3rWHuwUIFQIkbZUAhWEaAUqVqQK0jDRfgLbKXoUou4X+jlck6eFSpLDANUipvxeRlmXeD9v6R8FJhlHML2HihhZcvy7PnjErL8nLUmFpRrnlpfnYnHSVGZostzrLxS5yhTOd4VxXNPBltidXutCGHbTeF2WzzTBLtkS+bh43H3Cmy1zuXBe7yK+yVH7vTXLVfvJk6SQgnSOVJCL1o7A6nbHS9I8EAA==");
 
 export default PersonRunningFast;

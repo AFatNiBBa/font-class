@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ruler` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler?s=duotone ruler}
  * @preview ![ruler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/ruler.svg)
  */
-const Ruler: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M17.9 334.1c-18.7 18.7-18.7 49.1 0 67.9l92.1 92.1c18.7 18.7 49.1 18.7 67.9 0L494.1 177.9c9.4-9.4 14.1-21.7 14.1-33.9s-4.7-24.6-14.1-33.9L401.9 17.9c-18.7-18.7-49.1-18.7-67.9 0L283.3 68.7c16 16 32 32 48 48c3.1 3.1 4.7 7.2 4.7 11.3s-1.6 8.2-4.7 11.3c-6.2 6.2-16.4 6.2-22.6 0c-16-16-32-32-48-48c-13.8 13.8-27.6 27.6-41.4 41.4c16 16 32 32 48 48c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-48-48c-13.8 13.8-27.6 27.6-41.4 41.4c16 16 32 32 48 48c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-48-48c-13.8 13.8-27.6 27.6-41.4 41.4c16 16 32 32 48 48c6.2 6.2 6.2 16.2 .2 22.5c-3.3 3.3-7.4 4.9-11.5 4.9s-8.2-1.6-11.3-4.7l-48-48c-16.9 16.9-33.8 33.8-50.7 50.7z" />
-        <path d="M260.7 91.3l22.6-22.6 48 48c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-48-48zm-64 64l22.6-22.6 48 48c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-48-48zm-64 64l22.6-22.6 48 48c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-48-48zm-64 64l22.6-22.6 48 48c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-48-48z" />
-    </Icon>
-);
+const Ruler = createIcon("ruler", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABnwAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCSAsIAAE2AiQDCgQgBYMtB0YbYAXIjpSuzlQ8/P8av99n5iLiw0u4eRPzkHivQsKbJ1bXCl91ivh//i/3/J4fHeA3OpSxNshog8z5PIFAtmVjYxRQgFGmGVjmthgXDMJYEETlEF/28qHNEP8MKd7nJ1Qju5u9w2X9H8D4qpUTZGrlAKIhAEYvnDvdi0/xKYt35UPinWkIiDGgEMiRo60Aw+QCbSUFkiT4lJX5FOWCAKI6fVoOqqMGTuISIIFMEinVsaLZdarVSwvKZ9Xe2LVT1+Fxs+mN5iNm9ccW3hBxpNn8uFnnfIuNcTuONl8Qt2qfazorbjZT3REHf0vM+52Y8A+OgQlJ6yuqGlZ91/HdhnfSuvm2oNK9e5WVZan7aLT7QxOafFi61HdNmnw3dChm4Vd4jIpx1auPq6xswjhQrxoOwvWa0t0zQCD4Y83EBSsbDPutZp0MfHn0wy/1h5RK8W9WhZoyEOTdym6WZSQp/hUAgCwOqMgYLwnkZkvsXeu6JUCojQCZ6moLkGujoQBJbV0FqKa9/gJUV9tcuUi1hKaWA2Tq2g1yAxwESVMPQDXDvEyqaxp5NFKxRP0Lxk9gaPy8onePXsWQ4rGq0QFG5OmhhVvvdCB1dZadNthph33WW2ezfYTsMT2333YTdvB4X1TorYdeCkMUx41nfgGSPfbavGbPZxmq+D7u5MB+cGexMobax5ZcTmSR1wtxe0/3Sy01IPbyAgA=");
 
 export default Ruler;

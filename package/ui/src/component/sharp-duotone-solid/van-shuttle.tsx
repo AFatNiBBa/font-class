@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `van-shuttle` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/van-shuttle?s=sharp-duotone-solid van-shuttle}
  * @preview ![van-shuttle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/van-shuttle.svg)
  */
-const VanShuttle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M80 400a80 80 0 1 0 160 0A80 80 0 1 0 80 400zm320 0a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M32 32L0 32 0 64 0 352l0 32 32 0 17.1 0c7.8-54.3 54.4-96 110.9-96s103.1 41.7 110.9 96l98.3 0c7.8-54.3 54.4-96 110.9-96s103.1 41.7 110.9 96l17.1 0 32 0 0-32 0-136 0-11.7-7.5-8.9-128-152L494.9 32 480 32 352 32 192 32 32 32zM64 192l0-96 96 0 0 96-96 0zm482 0l-162 0 0-96 81.1 0L546 192zm-226 0l-96 0 0-96 96 0 0 96z" />
-    </Icon>
-);
+const VanShuttle = createIcon("van-shuttle", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABhwAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCEwsIAAE2AiQDCgQgBYMtB1IbNwXIjsK2nTNOExhLCcM5D1Q8/DfXe9/MJGeTlFEhqbICBscafR2hkRV6hfluz8pfXZ3/fz9337Zm0uyeJbcqTTyJSRMFSuKs8onmzSuhEH3imud//vSASU/waNFUCVI66jyfwEAjMZImtBtIlCnubSIGgwjFp6MNSUTHl8fXDkpald+pSJ/TO97T/wDGPwttSJoMIGYAAPsvxALwOCKjFMP+lBg6CgTEAYAVCDIyliBgF7rAEgwrgKIIRqnvwSj6HkEAUaNbyqDGAI+BZwAUkBSplA1N00yd2lVTy/muaq+0XStSiK77ue7YcaY6kjIDtS7AmRfnA669GaJT2qkHYhTjXOs+ceG768pzIz90XzsvJWwcraB41O/K98rQ8p/IMth5M+sTk7vd10T9NuR1Zq5AODDFQ/OP8MX0nz9zjIGc3PhPak5E+MbnmC60acqDF+MqKzXsay4HAsHv8S7vDe6u/4MugfHf/0k8X/+RXiUKAwkEeX2vlUqvwBADiFK8pBDu6iSC7CAGvtYpPggQWgRIaq0A2WI8BBStdQioLGNDQK11Bl2URpgjXeFkiidwttMULuY4gSu7PIW1OZFVjlEY5seX6O8B3zDcojeiG5d5mdUiKvZ7cFtZPfF1KlgJFV0dI2UldaMOGggkY21+CfT5IWSiZ4Tc8Lj0vDipbGCorquDg3jg/UBpIrdWgU7DpFvtmWUiRZ798lZH9+zheDRqlXWvt0E88w8VAAA=");
 
 export default VanShuttle;

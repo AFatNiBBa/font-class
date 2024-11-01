@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `smog` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/smog?s=solid smog}
  * @preview ![smog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/smog.svg)
  */
-const Smog: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 144c0 79.5 64.5 144 144 144l123.3 0c22.6 19.9 52.2 32 84.7 32s62.1-12.1 84.7-32l27.3 0c61.9 0 112-50.1 112-112s-50.1-112-112-112c-10.7 0-21 1.5-30.8 4.3C443.8 27.7 401.1 0 352 0c-32.6 0-62.4 12.2-85.1 32.3C242.1 12.1 210.5 0 176 0C96.5 0 32 64.5 32 144zM616 368l-336 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l336 0c13.3 0 24-10.7 24-24s-10.7-24-24-24zm-64 96l-112 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24zm-192 0L24 464c-13.3 0-24 10.7-24 24s10.7 24 24 24l336 0c13.3 0 24-10.7 24-24s-10.7-24-24-24zM224 392c0-13.3-10.7-24-24-24L96 368c-13.3 0-24 10.7-24 24s10.7 24 24 24l104 0c13.3 0 24-10.7 24-24z" />
-    </Icon>
-);
+const Smog = createIcon("smog", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfAAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCAgsGAAE2AiQDCAQgBYMtBysb/QTIThhQcuzfzZgqyhAKET2SIZQ2q5LUujz7rUfzHZtzPkrYbztoEMH3+/323CeIaBeTpB5pJEKjEWkWM6UwVDL5+w/j8p2V+I+clUS2OTQnKBKJJSwkdTXAQltowsXdb5JgEgmXqsTMufBA2Au6vMyapRZ4XC9wEB9rgIdg5tVz1O8DeBo7YFAXXH6Z+WfIHn5Kw/vnA0T0/F/u+dmmA/x87nPSBhmTDq85nifQ80DyNUWyMEsU251tyo6JPQ5piSU5Hu147SCPn1aQvtJ4yx8af3rMkdRkAIhmALB1XZyLh/1EvFUkvu2DgNgCDGMgQ4Z+DLCKJdCPbRjkcsEPlY//gQsBRAmBk9NzVOERPAHIQVLkbFujvEIi4kjYZRXC6mO43SMu917B+ciRcct9GL2iXsNLhC2a3WrUK24Qb3ev2iT2+tbsJcI6oYJEo8K5VFZ0/DLzofzww93QhG4CeF38zXK/Ft/Wv/od1+tSH19vzvuJVAo1msICVCelfgDoYg8ARx8W5uIkdTQ2PA9AIPh2L1r9H0zAb6bzVcpLgmoJBNloBTXpBYAaQJxijNn4okDygEPetd67AKEWAZJSrQCZPnIMkKs1ggEKg6IwQKnWOZbIBQjtajtI6j2DzLxZkGt3DAqrnqJSe9TTWD9h/3lJ2RrKWkchf5DiadlonPPQvJxA25ZzjIZcsBVt+vUZ0apFpxFFDslNR/XKtogsP0RC/IJIPDruPEplKhoyrHOuO18lAd0PncbsyS7YBBMw/UY0VSOxh9ffDgAAAA==");
 
 export default Smog;

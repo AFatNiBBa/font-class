@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `faucet` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/faucet?s=sharp-duotone-solid faucet}
  * @preview ![faucet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/faucet.svg)
  */
-const Faucet: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256L0 384l132.1 0c20.2 29 53.9 48 91.9 48s71.7-19 91.9-48l36.1 0c17.7 0 32 14.3 32 32l0 32 128 0 0-32c0-88.4-71.6-160-160-160l-32 0-32-32-32 0 0-76.8L224 144l-32 3.2 0 76.8-32 0-32 32L0 256zM192 64l0 44.8 32 3.2 32-3.2L256 64l-64 0z" />
-        <path d="M64 160l160-16 160 16V96L224 112 64 96v64z" />
-    </Icon>
-);
+const Faucet = createIcon("faucet", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABawAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBWwsIAAE2AiQDCgQgBYMtB0gb9QTIhof/X/P9fe5MstpJGabAqBpVYHAMClVX7bOtKjuMKnz91pdEOv9zuednmw7wGx3amIMX+DXH8wQSnRZQwoElFHgG1u5sliRZPmmWWJLjs+PzhDy+ZldUSE9SA/fpfwDjV71dIWmbAYhOAFi0dmXd+9ZoTdFoviAaViAgFoNSIEOGfgLMlQn0kyuRywWtqdmkNZrNkgCiitDMu1dRQR0bATlIQsrz9uNqtUr7fE2tUmxcu2rt6ohYFWtCCLV4s+zDglrc7v6AqEXET/PfrilidBQRMTyGhihiZBRrhWExIiKKwS2dWn4f1NjTsGDg044+sVDk0H5/AV90Rftnz9oP1eHGjQ6lC0qxpNFYEqWmUt0//lEn6gvv3o0DNn/FOAuBQNBp6sQ7WzvO/b9NLYGfX/75S/0VJakFbSQQZGObY21KIBEAgBRnDE4sRCAzU+IetfNQgFDAkFQVkOmrE+QKY6BigGmPqworZSJvK3SzmSFp5zhkpjsLuW6eQ8VcH5qqbpGZFW8U/K8uZblElp0rJ42fWM4ul4MmWAqbjueU287IM2FpFFy0x1FHnLLbLvudEvQJ9f60w5Zr1DIfVJpkvIlKs5XHk0dlDTYnnLR/Lp2fMkd5vxjpjL55FPhJYZzscSYjUmQd9mw/vXP3qXHmaXTqpXcIAA==");
 
 export default Faucet;

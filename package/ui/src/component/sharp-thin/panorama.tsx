@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `panorama` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panorama?s=sharp-thin panorama}
  * @preview ![panorama](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/panorama.svg)
  */
-const Panorama: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 48L0 32l16 0 37.5 0C138.3 62.3 230.5 72 320 72s181.7-9.7 266.5-40L624 32l16 0 0 16 0 416 0 16-16 0-37.5 0c-84.8-30.3-176.9-40-266.5-40c-73.4 0-148.5 6.5-219.9 25.6c-1.2 .7-2.7 1.1-4.1 1.1C81.7 470.6 67.5 475 53.5 480L16 480 0 480l0-16L0 48zM220.7 428.4L270 362.7l-46-61.3L116.2 445c34.4-8 69.4-13.3 104.5-16.6zM320 424c74 0 150.4 6.6 223.5 25.9L384 237.3 286.4 367.5 242 426.7c26.1-1.9 52.2-2.7 78-2.7zm269.2 40l34.8 0 0-416-34.8 0C502.8 78.4 409.6 88 320 88s-182.8-9.6-269.2-40L16 48l0 416 34.8 0c13.4-4.7 27-8.9 40.7-12.7L217.6 283.2l6.4-8.5 6.4 8.5L280 349.3l97.6-130.1 6.4-8.5 6.4 8.5L569 457.3c6.8 2.1 13.5 4.3 20.2 6.7zM128 144a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm32 48a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const Panorama = createIcon("panorama", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABkAAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCcQsGAAE2AiQDCAQgBYMtBy8bcAXIhof/dL7dN5J9nFEYFCKqYAGYqu2C5QJB9asFT1xTP86fHrDKMXq0vS8xEihTYOc7f1qkpjZYFNhEcYPzJh9wd2hfQxn/OEKDdG/ag5vdl8bvBriCpCgARHcALN97y2bvfxPfROxuv0nsthEBsRzUAgUKDBZgkUJgsFKNUin4Jtpt9h9YE0A0+S+TQIkWbsLLgBIkzbIcm6sJXXpVjS7lXlUjFyGqaue2D6vr9/54Y1WJFCLnXXt9lD/aekd+YlTOEcW+e2/de0Vsje1r9/54217eVZbF29WhVa6KyPHB1g/ydXt9tFeOFFU8PXbv6Bd9YlvgA9/Z56gnB9zb/55RTw28b9D9Yydf2jfirnxd7ztc0ufO6vp+d8eI57o/9+fwPUftcUt3FB7z48oW9axMvB2jmyKP6K776I6hK1qrTooTBnVPq9eMGYp8cf60ZXiPLx1/s4WrDitOjpMHPfyBQy/znsPGdh47kmQ9YqRlfY5xVq1KpMoZqbtizuoLn7a3vU1f7tBLzfjX/nTb7XuWPvLT22//9Agmt7tewzVdcxgXiJ36fTfx4G6LOlpVAt+99/fv7B7tb9Il6Tm0JBAUk9qTHDAUBiwMIJbiLCMmXAwkVznbt9rZXQKEjABJUxagMEh3AUrZRAEahpotQFO2RSHKTkJvB1ZY0tmpWGGOC7FSb69jDYtsjzb1juID1T4v7f8we00TXj2onj5lWr2gHs0p9G9O0b0L68W+cWfxmvFwoaOc7CRnONIRjnVGAz3N5sSZTrRmClnth2rTTTFNbYF6c/GuvReOneZ0xw7r2/uxUH28f5yzppuPh+4kwIxHC6RhkVqnHHrSyacdeuKhAAAA");
 
 export default Panorama;

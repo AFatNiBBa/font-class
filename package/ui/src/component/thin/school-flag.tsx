@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `school-flag` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school-flag?s=thin school-flag}
  * @preview ![school-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/school-flag.svg)
  */
-const SchoolFlag: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M400 16l0 64L296 80l0-48 0-16 104 0zM280 83.9L173.4 160 56 160c-30.9 0-56 25.1-56 56L0 456c0 30.9 25.1 56 56 56l168 0 16 0 96 0 16 0 168 0c30.9 0 56-25.1 56-56l0-240c0-30.9-25.1-56-56-56l-117.4 0L313 96l87 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16L296 0c-8.8 0-16 7.2-16 16l0 16 0 48 0 3.9zM288 368c26.5 0 48 21.5 48 48l0 80-96 0 0-80c0-26.5 21.5-48 48-48zM520 496l-168 0 0-80c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 80L56 496c-22.1 0-40-17.9-40-40l0-240c0-22.1 17.9-40 40-40l120 0c1.7 0 3.3-.5 4.6-1.5L288 97.8l107.4 76.7c1.4 1 3 1.5 4.6 1.5l120 0c22.1 0 40 17.9 40 40l0 240c0 22.1-17.9 40-40 40zM328 240a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zm-40-56a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM88 224c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0zm-8 24c0-4.4 3.6-8 8-8l48 0c4.4 0 8 3.6 8 8l0 48c0 4.4-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8l0-48zm336 0l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zm24-8l48 0c4.4 0 8 3.6 8 8l0 48c0 4.4-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8l0-48c0-4.4 3.6-8 8-8zM88 352c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0zm-8 24c0-4.4 3.6-8 8-8l48 0c4.4 0 8 3.6 8 8l0 48c0 4.4-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8l0-48zm336 0l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zm24-8l48 0c4.4 0 8 3.6 8 8l0 48c0 4.4-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8l0-48c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const SchoolFlag = createIcon("school-flag", false, "data:font/woff2;base64,d09GMgABAAAAAANYAAoAAAAAB8QAAAMOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhgSFHgsGAAE2AiQDCAQgBYMtBzIboAbIrgZsIsNg/cMVVSnyODr7j9xHjbXRHHHzMPgnben7kkySYc9zrlAO4dphxAoQ20yfdOGiAmoJ6vOfv5/n/v9X0W9gaU3TaJCyAQ60CmzAA0yQgW4IuHtBSy3gKMKQoiCPwpSqo2qZz3nARZpZdUY9TYfAveubOGbnW1PjsAJ0PpQqKiqu4k7bMBIHGBWf/PwP1KL+g/NGNV4OSSH9CJzeoi8PzEXuDnDcjdZX2BwEg7UEPErgnUK/NmEUTz/0ifT6L+g1ykAA6g9AJMACFqgiAHqyCKjiiMDhEHyi3Df/A70QACgfCDdsckACtQR1g/58MJQ6F+ozDSWqJCkv98YgKnGTqbtfgvAKbxkmTpwy0euO8YwVXTSdDQXVfct5h+iS+VzY02QFnbeIzpk9nTEixLRhEp21oc2kly3nI5Pk4W5dij8K34k+sCKvQ+ZzRNpnOa9Q6LBlCk3S2fwqprOA9hrPyJsXgnfC9+yXI/dDd239d9YLtouh+47L9kvhiRKKNIHuX89hCOt5C8lZEzpj5Nh2qRBTElpa3jzIg5WQzffc/d0bPdI++tLQlisX+i0llVjaBywfQf+wibUvyS+Snz9P0TpjwrSCKT6p+1L6aRyvSEi5gsr0HfCGH8tcY9k3D/aCwbnBZzI3VnJH3+AB3bzpftHtq24rbLK8AimNcT7m8eQvTnTr1jrf085+/a8jFMHEqKgMHDETz8XNTSmGsYylU3xomDGWWj4s9pw1B7wcAAQI3pRyW+j5PysMAF9uDW9H7nB9zSOAQgwAAtsmlzQz9gVgzAIAi9FmGs3I1aqrjlLCRy3mHAJAeEAAGPLxCABLpYQAcHhaEwB51OhEAOTjmcAiV4TImmXwhmLW4S2d7cI7sh7j8+jpmTmfbODfG8FdL/hrTTq4DRjUKWbbpbF7nAzIwleBpwt7xNWK6Gae0BLOZLE1VttokYWW2djCrjfKtskqg+dYB31uVK+dVNRd3B2+L52MLettsGxcuL8ePcTz9S1snk/fEqoNgW0DD4MBmfDKydp+oA==");
 
 export default SchoolFlag;

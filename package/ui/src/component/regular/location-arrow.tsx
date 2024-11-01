@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-arrow` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-arrow?s=regular location-arrow}
  * @preview ![location-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/location-arrow.svg)
  */
-const LocationArrow: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 208l-94.6 0 241.4-98.7L272 350.6l0-94.6c0-26.5-21.5-48-48-48zm-48 48l48 0 0 48 0 128c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8l128 0z" />
-    </Icon>
-);
+const LocationArrow = createIcon("location-arrow", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABVwAAAHbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBFgsGAAE2AiQDCAQgBYMtBzUbmwTIhuD7tbLfn9mry24YJkSkiC4AoID8RbENWyAVFxYubIlcasdOizdeKuAZFW0sXFqQMeN7xCtQsaZesUnjF769KL61s6cYRLdKn3JJhkU3rGbI40qcUyJdSq9Q3z40PmvnLEkpAxBNATB12aKFnnyIDxEvq/eIl+YjIKaCQiBDho4CTJAJdJQrkMsFH6JaTf+BBQFEDTxjAjlyDMZoQA6SlOeN21VKjfKllVJ5WblSXhaLI+Jy6/O9JlTKFSEu9bzWYVVcaX2+x7q42u5Sz0q3201vf+36assr77/X1dX93GDDT3Wy12+GVIfgKCe1PXzmen2dDe//96qrt2PMslMngUAweHq7FXVNJvytrSTw6fH3f3G5RtWvcS/dRq0EgmxAdYDV8UQjlbgnAAApjuhGviiQ9JaEszZ0XoBQRoCkRlmATAdNBciV9RegpLORAtQoWyQTeQOhpTUDJA3tB5lRjoFcS3dAyQRP5RotI9MM8eLEjy12lodmDhVDBw0pxhVLTydlgJXu+GKb63MkZ/rapC322uOQzTbZ7pBDDlioHbbbLAbP9EOFoQYZojBOcRw+jy+12QEHbbfXntpnvOK+1McRXt7XxASowziSRKTGYrMNXH/gwN6jAAAA");
 
 export default LocationArrow;

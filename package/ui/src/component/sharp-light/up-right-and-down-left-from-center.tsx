@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-right-and-down-left-from-center` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-right-and-down-left-from-center?s=sharp-light up-right-and-down-left-from-center}
  * @preview ![up-right-and-down-left-from-center](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/up-right-and-down-left-from-center.svg)
  */
-const UpRightAndDownLeftFromCenter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M232 184l22.6-22.6 50.7-50.7L328 88 305.4 65.4l-2.7-2.7L280 40l22.6-22.6L320 0 480 0l32 0 0 32 0 160-17.4 17.4L472 232l-22.6-22.6-2.7-2.7L424 184l-22.6 22.6-50.7 50.7L328 280l-22.6-22.6-50.7-50.7L232 184zM350.6 65.4L373.3 88l-22.6 22.6L277.3 184 328 234.7l73.4-73.4L424 138.7l22.6 22.6L472 186.7l8-8L480 32 333.3 32l-8 8 25.4 25.4zM280 328l-22.6 22.6-50.7 50.7L184 424l22.6 22.6 2.7 2.7L232 472l-22.6 22.6L192 512 32 512 0 512l0-32L0 320l17.4-17.4L40 280l22.6 22.6 2.7 2.7L88 328l22.6-22.6 50.7-50.7L184 232l22.6 22.6 50.7 50.7L280 328zM161.4 446.6L138.7 424l22.6-22.6L234.7 328 184 277.3l-73.4 73.4L88 373.3 65.4 350.6 40 325.3l-8 8L32 480l146.7 0 8-8-25.4-25.4z" />
-    </Icon>
-);
+const UpRightAndDownLeftFromCenter = createIcon("up-right-and-down-left-from-center", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABkQAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCbQsGAAE2AiQDCAQgBYMtB0kbhgXIHoVxs/Oki+Yoi8JzZ1k8/P9a2X2/aqg7DHVGNYQJVBwrAkdubFzYsRG4QHJ1Fwtzh9S+x5u4pn5YU2lsRkOLDPwEX9b5BIbTaK4Smg1splMYiG9w3qRDCm0I5TvI41XQRHqc4mb8pvGP/i6T5BmA6AaA2RvXLvf+W3yL+NqQ+GopAmIOKAQyZBgkwDSZwCC5Arlc8C0aDfYfWBBANEuR5PQczXiE54AcJHmeDx9IxXJT53yDnFjaWq/U10Y9atGHOOqILZcFULEsU5VYNQBr8hurtSqR1sXq2HhqezWq0TciStErqpsq9QpRqtE7qg+VUikiPjMvU/VYOwCr8+tq1RpRNsaaWPfuzbXoFaIcfaPW3tGt4z8e6I+WAwcOdHfAAdV4nhSFJyxtMHHhwoZ0gsWLtFu02H7K3XDR3R+56NGC5m+eBwLBlJby/J1dp/3fWk7gx8tuvkYa75PUgVYJBNmwBtsSSAQAIMUF7QkCyS259FU7eSBAKCFA0qwkQGagbgLkSuoCNBlivADNStbKRN4m9LJ90CednNZnJrikz/XyQt9kmg9ys16ROU+z4zL/HeZYMIXnjypGjxhVTCl2CzqLizPqwanF5UDlwqKhCjc64KQTztlvn8POTagzlmvnHbfgiJzvgwqjjTBKYYricfmlYwOWzzjr8Lbt+TBTFd9nKi4ct6/CcJIaHGNOkojUfv6U55aH7z6xb7i7NQVf53Ab7R7uVwAAAAA=");
 
 export default UpRightAndDownLeftFromCenter;

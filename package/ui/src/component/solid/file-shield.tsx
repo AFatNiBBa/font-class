@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-shield` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-shield?s=solid file-shield}
  * @preview ![file-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-shield.svg)
  */
-const FileShield: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 47-92.8 37.1c-21.3 8.5-35.2 29.1-35.2 52c0 56.6 18.9 148 94.2 208.3c-9 4.8-19.3 7.6-30.2 7.6L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zm39.1 97.7c5.7-2.3 12.1-2.3 17.8 0l120 48C570 277.4 576 286.2 576 296c0 63.3-25.9 168.8-134.8 214.2c-5.9 2.5-12.6 2.5-18.5 0C313.9 464.8 288 359.3 288 296c0-9.8 6-18.6 15.1-22.3l120-48zM527.4 312L432 273.8l0 187.8c68.2-33 91.5-99 95.4-149.7z" />
-    </Icon>
-);
+const FileShield = createIcon("file-shield", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABcQAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBaQsGAAE2AiQDCAQgBYMtBzIb6wTIjpQuZyTx8Lxdfee+qlH1fLq+pAhmJGXCOhKQTrTrlNHG3SGQ1fimTj3PeSiAbxS0sXDpxjEpF5rzvAIVWzTPawUaC6ymFbDuztaKmmguiUWW5Pjs+Jwgj5+yS2pID9OPuJ4+NP7SySWShgxAtATAzFXLlvr09/g94ofqW8QPFiMgZoJSIEOGrgJMkQl0lSuRywW/R7Xq/gNLAohafOYEctRiBbYCcpDked6nrmNRqWmWr6StRfbo4IgX+ldCnGt3t4JPtTze7PrYyNeW3ika4+lBz3fOthSVImLFivvtVsTddo93fWzIiwvutP9+2Mvdn+hxv8OqFStXrBQ/DH+lR6/nWz7/Dz/u/NG5ohWtnnrKOc2vXWt+znDr+2jetnHixIPftOKpVq2Kc2enn+MdnD3bb8vFi6eGa2rh3We/amUXWtn01bPvatE00Xet2Ng3X+xDndcsbA8Egjc+9eVNLab8X19J4M/3/1v5FVU/TjPT86iXQJANqQ6xPs2gWk0zBQAgxUm90gwEkqVydK2N7gkQCgRIahUCZLpoKUCuMFiAGt2NFaBWYZlM5A1CWxsaSBodAZlxToNcW2+AGlN8Y9RqG5lxEaZB/O1i50lo7rJy5LAR5aRyGaukvWBhPrnc5gac9LWBsNFOhxx03A7b7XFcIEcttU84YJ4Gz/VFpZGGGaE0SXmcPa5eaYejjtnjkINxkcnK+9IAJ/XugSAmjDpKJElEqjzk4NBju/fs2L8dAA==");
 
 export default FileShield;

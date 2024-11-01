@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-3` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-3?s=solid square-3}
  * @preview ![square-3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-3.svg)
  */
-const Square_3: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm88 96l128 0c9.9 0 18.8 6.1 22.4 15.3s1.1 19.7-6.2 26.4l-50.8 46.5c41.9 4.8 74.6 40.4 74.6 83.6c0 46.5-37.7 84.2-84.2 84.2L208 384c-30.1 0-58.1-15.6-73.9-41.2l-2.6-4.2c-7-11.3-3.5-26.1 7.8-33s26.1-3.5 33 7.8l2.6 4.2c7.1 11.5 19.6 18.4 33 18.4l27.8 0c20 0 36.2-16.2 36.2-36.2c0-20.1-16.3-36.3-36.4-36.2l-51.5 .3c-9.9 .1-18.9-6-22.5-15.2s-1.2-19.8 6.1-26.5L218.3 176 152 176c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const Square_3 = createIcon("square-3", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcgAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBaQsGAAE2AiQDCAQgBYMtBy8b6ATIhof/t6v/fW7VqPoZ9WxmUKYvMhOCbNZP5azHTos3Xirgcd3HwpY2yLLG54xXoPF6U99ABZr/D/b6gvbmrm4rHiI/aS1lSR4v9vgZIY8HsqtqSPelr3FL+dD4SUdXSRoyANECADPWrVri08ZojPiq+hbxlUUIiBmgFMiQoYsAk2UCXeRK5HJBY1Sr4T+wJICoVW+aQI4cG7ENkIMk5Xmn8ZWapvnaSk2x6cn+Ec92SHHfgOf6NI1nBr3QOYv7Bz7ft8maSlG5q+1dbRbHWwOe6/pg/2dHF/H20HZxf79nOraN+/pU4lr7e+JSu7uLIu7GPu2XRRFPd3qgX8/nWzz/S4+v935t2iOPtqRlMV3RsuWj0z3aUoR12y7SRX/fsvSFIfKxc2Vn9w3v4vd7WrujyYRPe3t1ehfN73+ueYvn7ms+2u9btn7Q1Uwr2rZdAQSCnZ/8MGJb88n/1FcS+PH93/7XNlcb49P0POolEGSDq4Ntjk+B0QH8pBRn9YxPEUhWSuioTdwtQCgQIKlVCJDprIUAucIgAWp0M0aAWoVVMpE3CG1sEZA0cQJkxjoHcm28AWpM9plWq01kzkW4BvG3i52roTlt5Yihw8uJ5dTWSX/BUn1Sucz1PxtjAzBor2OOOm2P3Q44rZCTlphnHDHXguf4otIIQw1Xmqjc9h7719rjpFMOOOZobjJJeV7t76ydPQDdJMDIa7EkItU/UH7IKAAA");
 
 export default Square_3;

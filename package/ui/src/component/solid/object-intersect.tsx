@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `object-intersect` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-intersect?s=solid object-intersect}
  * @preview ![object-intersect](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/object-intersect.svg)
  */
-const ObjectIntersect: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 64l0 96-64 0c-35.3 0-64 28.7-64 64l0 64-96 0L64 64l224 0zM64 352l96 0 0 96c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64l-96 0 0-96c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 288c0 35.3 28.7 64 64 64zM448 224l0 224-224 0 0-96 64 0c35.3 0 64-28.7 64-64l0-64 96 0z" />
-    </Icon>
-);
+const ObjectIntersect = createIcon("object-intersect", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABbAAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBXwsGAAE2AiQDCAQgBYMtBzcb5gQRlZoPyL5IsE3N71CVMKUTLQ4K0ay375eLNPrFxuCTePhvP/O+mfk5u/MLSLZVrEExanaEqg4VkawrOzQiydqeyuoEQDMT1r6HgFsipYv8WJFM+/oh7VEh+PN/uef3/DbgNzq0sWYDF9gYSxNINN+UUFFgmSZgvW3o6AThixARs4rGdLwgOkOJTzkN6VGCe+VD46/pbpAMZwAxDgCbdm3b6nsvehF/BhN/bEZAbALzBDIyZgmwVhaYpZiHogh6MRik/0AEEB30vgkUNNiOvYACklzK+BXj22Z02dk29ZRQ48WyN9NEjYh2d1tb8Wj528VtvF75fmbE4xXvltRAeoz1yscEi595tF3wbty7f/TmXj58+PBGT8aPrxsd1tPrzlXIYdV50kOlx3sO09Hlyz0qOGz5eSAQtCvK3UNj1/4fahMY+fj1ZzT4nqR3GJJAkFcNVu1PIBEAgBQXLEgQSLbI8FVHuS9AqAiQdFQBspnGCVBUKwVozLFagI5qmyzKsDDJAQbJKKdBtsZFUEzyATTW+lHpmBQ5rtioYK91SSBIyB+jzAos3Y7GhQqdNx3Tlv7VhIGToj/2t2unV5B3Xf+24MH+i5RZgWW7v5YaUbmfydb3D3Gcz/TvzzfgKkRZNSgJmcZFr54+SuA/yQUAAAA=");
 
 export default ObjectIntersect;

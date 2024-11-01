@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `garage-open` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/garage-open?s=sharp-light garage-open}
  * @preview ![garage-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/garage-open.svg)
  */
-const GarageOpen: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M325.9 9.1L320 6.8l-5.9 2.3-304 120L0 133.1 0 144 0 496l0 16 32 0 0-16 0-341.1L320 41.2 608 154.9 608 496l0 16 32 0 0-16 0-352 0-10.9-10.1-4-304-120zM112 192l-16 0 0 16 0 288 0 16 32 0 0-16 0-208 384 0 0 208 0 16 32 0 0-16 0-288 0-16-16 0-416 0zm400 64l-384 0 0-32 384 0 0 32zM212.5 320l-7.8 24L192 344l-16 0 0 16 0 136 0 16 32 0 0-16 0-16 224 0 0 16 0 16 32 0 0-16 0-136 0-16-16 0-12.7 0-7.8-24-33.6 0 7.8 24-163.3 0 7.8-24-33.6 0zM208 448l0-72 224 0 0 72-224 0zm40-16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm160-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const GarageOpen = createIcon("garage-open", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABjgAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniDAwsGAAE2AiQDCAQgBYMtBzIbhQURlZqRyD4S45jIVczM/IjGTTx8P/fVuS9pShoGIdNqGEENLzkCxQpRjVti/2stgaIfAP9zOb0x6egAP9+JH8psrKGT0zmf9zwM07FxLEooC7NMEvD8dn5SJwmvDBIXOdIfxhu2f4Y8/omRGkhPps9wf3rT+FFfd5HkGYDoAoB5WzascqcWtYjP6m+Lz6xAQMwHlUCGDAMEmCkTGCBXIZcLalGv039gJYBohN+aQI4WPIOXATlImvJ82OCWUS0tLWVDW765bCiO9OrZq0fsjR4hUogyIrI4EPvYrIhesX9jURb7yYi2QLmiam1rXWT29unfp7ii0SUW7qJfYaMv0t+2cblaFFMe7/1Yr0d6PNpzS5bH+Z0vdHnh5yGfHf7MonfW4ShjrnhYaa8uKl1sMvicc2zimb1KDx9Evn+nCwKqWPSVG75i07rUb0BUuaEaPueKpe2MvA+6qOmC3ber7YhOVzzviiH59aVYULNU7Xqtvb3mmac69P48EAhevfXO0D0dM/9uLhP44YNff6+P1++kG+kFNEsgyEbWR+5MN4CEAeRSXNYpfFAgeVITvGqrxwQIBQIkjQoBMv11ESBXGCFAg0EmCdCosEEm8hahh10dklbnIDPZVcj18CY0mOnDbKMekWmqrmf6j2IWvJjji6ZV40aPraZX25JmUD41jM6orj1DL7uWYWavw2dOXzx08NhFxp9fVbh0arHELfpiNW702Gp69Vx93r750PkLx86cjuPMqL5PDL0sdx9m/Akkxx9KEpHKI/vO7ztyaJQSAwA=");
 
 export default GarageOpen;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-empty` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-empty?s=sharp-regular temperature-empty}
  * @preview ![temperature-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/temperature-empty.svg)
  */
-const TemperatureEmpty: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M85.3 307.7L96 294.5l0-17L96 48l128 0 0 229.5 0 17 10.7 13.2C248 324.2 256 345.1 256 368c0 53-43 96-96 96s-96-43-96-96c0-22.9 8-43.8 21.3-60.3zM272 0L224 0 96 0 48 0l0 48 0 229.5C28 302.2 16 333.7 16 368c0 79.5 64.5 144 144 144s144-64.5 144-144c0-34.3-12-65.8-32-90.5L272 48l0-48zM160 416a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const TemperatureEmpty = createIcon("temperature-empty", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABaQAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBRwsGAAE2AiQDCAQgBYMtBzgbzwTIhofv1/w693XnDwD1ACGoZUjFLbFiI5DU6vz9zfN//inAZxTa2LQ0kLHA5jxPIAysy/MSyT5YpglY5i1nNErZN5lokh6/7vHrhDzWxiMl0pPpOzxshMZf2rhGUsoARGMATF65dL7Pv4/vI76tvkN8ay4CYjIoBDJkaC/AOJlAe7kCuVzwfVSr6R9YEEDUsHsTyFHCLCwA5CDJ8rx9qwb1Sg3yFTlSd2Wr5q0CpNcLIVrEmx2e6fXGsHf7lDs+33dt3Xp1hagUL47/ZPqXEz/r+tKAiFj1erun2z7V45XWT7R5snuXcuPyP52/2/GdZXcrlUoTv7rkV01UjEq1y+VLl8rl2mnUh0MHDfp+kF/9krU/dfOLL26eap/98qtBB59/4df33vv1BbkOBIJv9j5xZ2Ojcf/XrpfAjx/+959+Ro2rn8eQVEZtCQRZv2o/6+KExhrHEAEASHFCl5iksUAyScaeWt9jAoS6CJDUqCtApp3GAuTq6itASUfDBahR11KZyOsIza0fkNR3GDIjnIdcc29ByThf2jWaR8YljgncVy55hkfT14rBAwYVY4plrPP0YMp8bLGt9Tqhtd44tMNBBxyz3Ta7HXPUEfO94/abEeHpXlQYbIBBCmMUx9nz/grbHXHUbgcdqEvGKu5bvZyIu3vDTIx2iM0kEakJzdT+rxoAAA==");
 
 export default TemperatureEmpty;

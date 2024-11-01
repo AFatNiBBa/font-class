@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `olive` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/olive?s=sharp-duotone-solid olive}
  * @preview ![olive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/olive.svg)
  */
-const Olive: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M264.3 114.6c-.3 5.9-.4 14 .4 23.1c1.7 18.2 7.2 40.1 22.3 55.3c19.5 19.5 50.4 23 69.8 23c10.7 0 18-1.1 18-1.1s8.4-57.5-21.9-87.8c-15.2-15.2-37.1-20.6-55.3-22.3c-9.1-.8-17.2-.8-23.1-.4c-2.9 .2-5.3 .4-6.9 .5c-1.6 .2-2.5 .3-2.5 .3c0 .1-.1 1-.3 2.5c-.2 1.6-.4 4-.5 6.9z" />
-        <path d="M160 480C71.6 480 0 408.4 0 320C0 128 181.9 32 280 32c56 0 112 56 112 56s56 56 56 112c0 98.1-96 280-288 280zM287.1 192.9c30.3 30.3 87.8 21.9 87.8 21.9s8.4-57.5-21.9-87.8s-87.8-21.9-87.8-21.9s-8.4 57.5 21.9 87.8z" />
-    </Icon>
-);
+const Olive = createIcon("olive", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfwAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBdgsIAAE2AiQDCgQgBYMtB0YbDgXIhof/t3vefe7Mex/QfEkVrA6qjCTVZ5tUILqPMkKXrJn+fp5/a2p/IPKzMMpygF3nE9j5QOYJVj6hmc7AtrfIIsVY9UymS9I/2R7PzpDH/eykCulm+hTn6X8A42etnCSplQGIhgCYuGjeXG8+iScpPi1fIj41BwExCRQCGTK0FWCMTKCtXIFcLniSypInUZYFAUQVwZk3V1HBMmwG5CBJIs87NOtQp1IvX1inUnvB9+MiXl/4w7x3Fn1S527Xu82u2nta3Wx1dMC3c76cv+xh14i7La63vtXrUbd7TY/FlXbWc9PRZkG9utbUuV/nWJjiWu0rtU+l58cxV3R61PDRrx0/3fipFzpMjk/5NCbHqgblhA7lkDfPnvnvfx5/8eGPdYeUHSaUf6yKw+1PfsmXRapXb0bmvizI1ZhTy7f9OmRwA8HgsbWKSJGRRQUIBJ+W3y5d1WDMvzXrJPDs5d9/gr+j8km8mR6hpgSCrE/Zx/J4E+JNAQBIcVCneJOoKZAZIomfWtc1AUJtBEiqaguQaaOhALnaegtQ0d5QAapqmycTeS2hqRUFJHXtAZlhDoFcUy+CijE+qKqaRiZkooiIX7y0aRyaeqgY2G9AMaoY9mRJbnjcHV0sez0OupmecNJGu+y03wbrbbGfkXvNbR2ww7QZMdUXFQbqZ4DCKMX28FpbyKq99tnSV/b3Ga04H/dwcL68JxwnAQY9T5BxX369XTpo9dVVswFTdBI=");
 
 export default Olive;

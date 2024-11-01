@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `video-arrow-down-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-arrow-down-left?s=thin video-arrow-down-left}
  * @preview ![video-arrow-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/video-arrow-down-left.svg)
  */
-const VideoArrowDownLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 80c26.5 0 48 21.5 48 48l0 74.9 0 106.2 0 74.9c0 26.5-21.5 48-48 48L64 432c-26.5 0-48-21.5-48-48l0-256c0-26.5 21.5-48 48-48l256 0zm64 304l0-47.2 0-27.7 0-106.2 0-27.7 0-47.2c0-35.3-28.7-64-64-64L64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64zm32-29.6l103.4 56.9c5.6 3.1 12 4.7 18.4 4.7c21.1 0 38.2-17.1 38.2-38.2l0-243.6c0-21.1-17.1-38.2-38.2-38.2c-6.4 0-12.8 1.6-18.4 4.7L416 157.6l0 18.3 111.1-61.1c3.3-1.8 7-2.7 10.7-2.7c12.3 0 22.2 9.9 22.2 22.2l0 243.6c0 12.3-9.9 22.2-22.2 22.2c-3.7 0-7.4-.9-10.7-2.7L416 336.1l0 18.3zM232 352c4.4 0 8-3.6 8-8s-3.6-8-8-8l-108.7 0L285.7 173.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L112 324.7 112 216c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 128c0 4.4 3.6 8 8 8l128 0z" />
-    </Icon>
-);
+const VideoArrowDownLeft = createIcon("video-arrow-down-left", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABjgAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCTgsGAAE2AiQDCAQgBYMtBzwbWgXIHoexG+csCoaPhUo8/P/av+5zZ96s5EEQJ0SkgFEBUZElkKorCwVka1PZ9R8bAyccB4Jxo8Z9Tvc3Q9715/9yz+/50QF+O7JD2ZMWyJg42kOg5yfYWet5nBeFWZQgZ1sOHSSIj2twCBExiadh82mYukEev9qhQnrJ/Yx7x5vGvzq7TJJlAKIVAGatXr7Mt3/FXxE/N31O/GwJAmI2KAUyZOgmwFSZQDe5Erlc8Fc0Ncl/YEkAUcArJpCjwDU8AeQgyfO8R+9+XWqVRr6qVqnufi9EPElCiOfyuNbjfX2as3jFno3G2hB4/Mv7416Pd+eHMcVL66PWiA/OJ2XIylUrn/Ate4YRF/Qp3ZQVIVbHM34vief1pq4Kq57ZU60meEkIDtzd57GIJ6HW+2P/8ffzrp/NODzyN37JlthnieyX30YScJGZMWMEjnWzTzcjVFu3fhO8qftV7Py/a+JZukytPn6tXmC9etm3auPQVLOLUW1faDuqmL2d0uZL3FIUWw56+y3jxi1f/tZlOONROK+4oED8ZOw75cjmllP/a8YJ/PNNj5PTzPQx0EwCQTa0aagNGV00CkCY4pTe9EGB5JwcnrXuqQChigBJoSpApqtWAuSqhghQ0cM4AQpVy2Uiby60s9FAUncUZMY7A3LtfAoqpvouKLSLrB/pbqL/BhPme2heUzlq+MhycnnbdzEtRu77U8rHxsBTYW4QtdrlsENO2GmHvU445Jhl8UkHza/geb6oNMpwI5UmK6dHR2GVw1U4PsicmT/EFOX7/kCn6tWDyE6AOVolSURqv0KLw7YeO3b49LB1Sn2uAAAA");
 
 export default VideoArrowDownLeft;

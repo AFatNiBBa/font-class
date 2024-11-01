@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `theta` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/theta?s=duotone theta}
  * @preview ![theta](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/theta.svg)
  */
-const Theta: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M96 256c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32z" />
-        <path d="M104.2 128.4C79.9 160 64 205 64 256s15.9 96 40.2 127.6C128.5 415.1 159.8 432 192 432s63.5-16.9 87.8-48.4C304.1 352 320 307 320 256s-15.9-96-40.2-127.6C255.5 96.9 224.2 80 192 80s-63.5 16.9-87.8 48.4zm-50.7-39C87.1 45.7 135.8 16 192 16s104.9 29.7 138.5 73.4C364.1 133.1 384 192.1 384 256s-19.9 122.9-53.5 166.6C296.9 466.3 248.2 496 192 496s-104.9-29.7-138.5-73.4C19.9 378.9 0 319.9 0 256S19.9 133.1 53.5 89.4z" />
-    </Icon>
-);
+const Theta = createIcon("theta", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBWwsIAAE2AiQDCgQgBYMtB0Yb8wTIjsO44XtSljIEZ1rEw8dc75+bZHfabBlSZlSMioQFlshGvNZ2qv58vevN5SyrcuElmCjwjaI+CE4VNRenngcnBfABPHOeB2SBz3kegZxP7LR6EWpaAih7d2ejtmNteRzSEpIcFzs+L8jiWHpOieRe8gs39X8A46+WzpGonQKIBgCYsGzRHO9u1CTxq5qJX2YjICaCQiBFijYCjJYKtJEpkMkENbpapQaq1YIAokx/iRSUUcIsrAFkIJGILGvYunmlVDdbWinlq94tlgltytdxY9me2Kd+Gm2fjIJ4Wbk6ovaRJWtxGl7yKyOp7156lrnTzSHuVCpxtWlwqonP87jSDKPj/QbxXwfeyraNWxBzYs6CtQ0arJVLXW91Ugb17Dmo062BJjYwnemGQ/TUIDqcWfe23iUu1TuFaKBRLO8DgeD3W4Hr6o/+v1YlAX/o/xe/SKozTiX3UUsCgrR3tbfVcQrilAAAJHFUxziF9QKp3hLpWR23BQg5FRJlOaRaawCZXC8oaWfI87LcIqnIagtNrKmQqOMApIY6DpkmXkDJaF+9siaRuhXvFPyvLmWqRaYsFQP69i9GFsNIETyF5emoYtnpfpQqPeCqrfbZ67AtNtvhsKEOmhMescfUGTnFBxUG6Ku/wkjFdnqrLDV0Vg4J2xf354xSnHe7Ozpv7wHrJICBF/IkJZJI6x7evuXwhj7PU69vpGcI");
 
 export default Theta;

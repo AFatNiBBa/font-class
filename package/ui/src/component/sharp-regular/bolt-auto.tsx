@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bolt-auto` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-auto?s=sharp-regular bolt-auto}
  * @preview ![bolt-auto](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bolt-auto.svg)
  */
-const BoltAuto: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M333.5 73.8l-22 87.8-11.7 46.9 47.9 6.4L416 224l0 48L156.9 466.3 96 512l18.5-73.8 22-87.8 11.7-46.9-47.9-6.4L32 288l0-48L291.1 45.7 352 0 333.5 73.8zm-40 182.2L240.3 249l13-52.1 19.3-77.4L100.4 248.7l54.1 7.2 53.3 7.1-13 52.1-19.3 77.4L347.6 263.3l-54.1-7.2zM479.8 288l6.2 14.6L575.6 512l-52.2 0-17.1-40-84.5 0-17.1 40-52.2 0 89.5-209.4 6.2-14.6 31.7 0zm5.9 136L464 373.1 442.2 424l43.5 0z" />
-    </Icon>
-);
+const BoltAuto = createIcon("bolt-auto", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbAAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBfQsGAAE2AiQDCAQgBYMtBzAb/QTIjsPGMR1poyxhBC8RVGtRWT2zB4BzzOgIFCkSlhQQeyB78fLebjKHvM//NfXi+TXg5yM4tCgsLbzbGizzeQIOMNqrgNOGs4ni3jYstCGGL0IqSCIa0/FaQx5f45wS6VKCs/VD46/GjpOUMgBRCwCjFsyZ5smv+BXxvnyTeG8KAmIUKAQyZGgmwFCZQDO5Arlc8CvKZfoPLAggKtD7TiBHBSzGLkAOkjzPW9WvX7FqqXo+v2qpyoa5C+Y2i34xL8TKmBoLYkG0jP4xPyLWxIyYO3f8uPFtYkHMjXGoFXnkghg/r36D+vOiSnQXuOsRC6JhVJ3Xu1fvnlG19eVal//Leqbtq78gLX/knzGV9JSe+qjOJHO/a/5Hv/akDjfn69Dn6k5z9Yj1xjOoDnTFm3+35XIYveiLfiqaq6J+OGm5onRqNlC6uiUQnD7d6caKmkP/VaqawJ973w4vyk/SyHQZlSQQZF3LXS1NIxUQO4Bwiv1aO18USGbL6btWc16AUAUBkgqqCJBpqpYAuSq6CFDSQj8BKqhijkzklYV6lhlIqtkFMv0dALl6roOSoV6HKqgXWZiJQSL+8tLGj+i4QUWv7j2LwcU2pUuRw3PrkOJY77i/lHSCldbbYbu91llrk70Ds9u06D7bjPewcX6o0Et3PRUGK66zr4vnW2e3PTbZYbu0M0Tx3u5ov1+9E1iJcvY2PklEqrx6x9a93eIaAAA=");
 
 export default BoltAuto;

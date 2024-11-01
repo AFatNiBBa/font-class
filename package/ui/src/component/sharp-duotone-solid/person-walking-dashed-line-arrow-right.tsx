@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-walking-dashed-line-arrow-right` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking-dashed-line-arrow-right?s=sharp-duotone-solid person-walking-dashed-line-arrow-right}
  * @preview ![person-walking-dashed-line-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/person-walking-dashed-line-arrow-right.svg)
  */
-const PersonWalkingDashedLineArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M2.7 464L48 509.3l22.6-22.6 48-48 4.6-4.6 2.4-6.1 15.7-39.3-40.7-44.4c-2.5-2.7-4.8-5.6-7-8.6L68.7 398 25.4 441.4 2.7 464zM7.5 260.2l60.7 20.2 10.1-30.4 11.5-34.6 36.7-16.3-17 63.6c-5.6 21.1-.1 43.6 14.7 59.7l70.9 77.4 22 80.5 8.4 30.9 61.7-16.8-8.4-30.9-24-88-2-7.5-5.2-5.7-52.3-57 18.4-62.4 13.7 27.4 4.8 9.5 9.5 4.8 48 24 28.6-57.2-38.5-19.2-35.2-70.5-7-14-15.3-3.1-80-16-10-2-9.3 4.1-72 32-12.9 5.7-4.5 13.4-16 48L7.5 260.2zM160 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M416 0l0 24 0 48 0 24-48 0 0-24 0-48 0-24 48 0zm96 130.7l22.6 22.6 80 80L637.3 256l-22.6 22.6-80 80L512 381.3 466.7 336l22.6-22.6L514.7 288 384 288l-32 0 0-64 32 0 130.7 0-25.4-25.4L466.7 176 512 130.7zM416 152l0 16 0 24-48 0 0-24 0-16 0-24 48 0 0 24zm0 168l0 24 0 16 0 24-48 0 0-24 0-16 0-24 48 0zm0 120l0 48 0 24-48 0 0-24 0-48 0-24 48 0 0 24z" />
-    </Icon>
-);
+const PersonWalkingDashedLineArrowRight = createIcon("person-walking-dashed-line-arrow-right", true, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABwgAAALOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDbQsIAAE2AiQDCgQgBYMtB4EIG0cGyI7Cca8sUdoSUwxFxGOJ4Gu/st/MLP09AEpYoQLWBOrkuSColCcQLjYVx8KsilAHLjFi/ef3h+cO4htg1C0BiGAS20Kn45+43PlPe/rzsTTh0MYctoaNsfWv8zANo+6tsawECizLFDOaGw8YXcNI3O6mFyhpB28vftLndANehv8DGP8p64WklQHEAADgxNWYMBys03qKTncToiMUBMRJAAsIGRkzCBzGKzCDzwIoimA9dTlYjy63AAFEXfjCDOqo8BdsASggqcmlDGpKkwJFH3HRWm+5EvKrNRDhqAI725eNjI3iyIgMKdbxupOJqRXZiLTbuwnrHrEgBwWD0yNtRkaPuLtFXg9STEQ1yZ2GxizJlQwTgoKDVEcFDmRJE7viCJLKFEIqFE8K3miyGWrloXVqjM4LsoKQo1iSe0yNlBJG9RYNllXH9Jd0F5S016TWXhdv8m9M/1GKo5ZQ4nhWu/OQHxGBePGiA/PciDeiZ8ET7MUI4t2syklBcdAupbJ8UYoXpTC2PLLEkhKetFh0cGAeOLb03Glls9yHffHl+ht5r0msiyDp1nX/MMifRb8DbRSvQpGfQGauBBnwb0807TMo8yWiH6/1CJjHCTecyY+31Y2WlnKR4nmAQPD1t8ZDhqTrb7OdwOb393/W47zdg/ScZw00JRDkvZyp1NSJV94QAIljKR5AG2hkfpNAtoYfPrXHBwRChQBJXSVANk0KgaKyB4GaOXYI1FUu4hWlJYxI65ikx20mO6SNKUZsMDWHnSfqRoJXfCtEp+L1Mq3/EPDbxKzMLZkzW21olEJW5i26sMNWw3prwAiiyFehXK08uYrUDvBqYek6Zfy3MD8/xFgxZ4lxxi63n+6Pl6dajSIVyoNVXLDng4bqt8cbwcEjlrpPZZaJFPl/GIxmGtMWs9ysmsK8XLOvX6SyqqsrGnQLo5m6mYXlXrWEAQAAAA==");
 
 export default PersonWalkingDashedLineArrowRight;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-letterboxd` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-letterboxd?s=brands square-letterboxd}
  * @preview ![square-letterboxd](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-letterboxd.svg)
  */
-const SquareLetterboxd: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 32c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96C0 60.7 28.7 32 64 32H384zM105.1 187C66.4 187 35 218.3 35 257s31.4 70 70.1 70c24.8 0 46.5-12.8 59-32.2l.5-.7-.4-.6c-6.5-10.6-10.2-23.1-10.2-36.5c0-13.6 3.9-26.3 10.6-37.1c-12.4-19.8-34.4-32.9-59.5-32.9zM224 187c-24.8 0-46.5 12.8-59 32.2l-.5 .7 .4 .6c6.5 10.6 10.2 23.1 10.2 36.5c0 13.6-3.9 26.3-10.6 37.1C176.9 313.8 198.9 327 224 327c24.8 0 46.5-12.8 59-32.2l.5-.7-.4-.6c-6.5-10.6-10.2-23.1-10.2-36.5c0-13.6 3.9-26.3 10.6-37.1C271.1 200.2 249.1 187 224 187zm118.9 0c-24.8 0-46.5 12.8-59 32.2l-.5 .7 .4 .6c6.5 10.6 10.2 23.1 10.2 36.5c0 13.6-3.9 26.3-10.6 37.1c12.4 19.8 34.4 32.9 59.5 32.9c38.7 0 70.1-31.3 70.1-70s-31.4-70-70.1-70z" />
-    </Icon>
-);
+const SquareLetterboxd = createIcon("square-letterboxd", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABfgAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCBQsGAAE2AiQDCAQgBYMtBzgbDQXIjsQ4JvGLKEzi4fu1Ps993TMLQL0ADB6AwqDGBVDIX7GpyOjpEJH3fdPfu/N//ukBPqOPsqduXGBzNM8TSDSbXiJZYJlGgWvmrpbMQ2k/SRcsLY+fPX7ukMfjuKFEeph+x/XypvGvNq6RlDIA0RgAk1cuna9SEzURv1e/IX43FwExBRQCGTK0F2CcTKC9XIFcLqiJapX/AwsCiDL5tRLIUcZO7APkIMnzvG2rNi3qlRrkK+qV6u582zvigzYpHvR6v1v9eNfnw7ZZPO77Uc8Gm970ini/9cPeH3T/rm+raBn34nKrD0fU+7qXEHddav7B8CloHi2e8F7fj9o96vNhjy4fNv7wP37f8buLz180oUndSeo2afJiEuD4/JaP/pahDRoM7fL35vHwvHmLzxZsPhlBiKYAgNtofhwIBM/OV59tbDTu/9r1Evjnx65fI9WaqKQPUVsCQdav2s+6qEBUBAAgxQldooJAslFOXrW+ewKEugiQlNUVINNOYwFydfUVoKSj4QKU1bVUJvI6QnPrO0zqOwwzI5yHuea+giXj/BSVNY/M1WhHoX96CTMQmX6sGDxgUDGm2FYa4z1k3h9bHBu9TqRJbzpph4MOOGa7bXY7BuCI+elx+83Q0Ok+qDDYAIMUxijM7aOwAqIjjtq95uyHjFXcd3o5oa/uTXYimENkkkSkJs9V7u+k4ZaDp7YBAAA=");
 
 export default SquareLetterboxd;

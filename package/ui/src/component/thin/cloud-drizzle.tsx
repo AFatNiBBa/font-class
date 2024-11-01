@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-drizzle` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-drizzle?s=thin cloud-drizzle}
  * @preview ![cloud-drizzle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cloud-drizzle.svg)
  */
-const CloudDrizzle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M398.7 124.8c.8-4.1 1.3-8.4 1.3-12.8c0-35.3-28.7-64-64-64c-19.5 0-36.9 8.7-48.6 22.4c-3.5 4-8.7 6.1-13.9 5.5s-9.9-3.8-12.4-8.5C245 36.8 212.9 16 176 16c-53 0-96 43-96 96c0 6.1 .6 12.1 1.7 17.9c1.5 7.9-3.1 15.6-10.7 18.1C39 158.5 16 188.6 16 224c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.4 0-.9 0-1.3 0c-4.8 .1-9.5-2-12.6-5.8s-4.3-8.7-3.4-13.4zM176 0c37.1 0 70 18.1 90.4 45.9c3.3 4.5 6.2 9.2 8.8 14.1c3.6-4.2 7.6-8 12-11.4C300.7 38.2 317.6 32 336 32c44.2 0 80 35.8 80 80c0 5.5-.6 10.8-1.6 16c.5 0 1.1 0 1.6 0c4.9 0 9.8 .4 14.5 1.1c46.2 7 81.5 46.8 81.5 94.9c0 53-43 96-96 96L96 320c-53 0-96-43-96-96c0-42.5 27.6-78.6 65.9-91.2C64.7 126.1 64 119.1 64 112C64 50.1 114.1 0 176 0zM64 368l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56c0-4.4 3.6-8 8-8s8 3.6 8 8zm192 0l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56c0-4.4 3.6-8 8-8s8 3.6 8 8zm192 0l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56c0-4.4 3.6-8 8-8s8 3.6 8 8zM160 448l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56c0-4.4 3.6-8 8-8s8 3.6 8 8zm192 0l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const CloudDrizzle = createIcon("cloud-drizzle", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABsAAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDGAsGAAE2AiQDCAQgBYMtBzQbnAXIjsJxr8TQhKFMFhRCfENpeajf7/XsvhsgsKRQIUkUJvGJMoBlC+hqXI3I1NaIfzQO7wbxB7MRSlsiFdJcjenv3fk///QBn9FHG5OmLtwgezYBOw8wTd/li7o8CyzTBKzd2W5ih6W1JIPl+Ha8HtlxHC5QYgEuUJPvKA5xmz40/htSTKoqAIhOAAAb5042sHoRrxGHtSniryMgIDYBMAlRocIoBMsoBUZRmQSKInjF2j/9BxIQQNQDPixBQRN+4w+ggNRQqDSUWNBipGamci1PZgirwXr5fulO2Uqeap566W6GSdleoXzuKq5Ovlr4NNWnxYwzCgOizfL92gUMBVjCU83ruqVUxV3D2yMzpdnC+VyluMAtXOOZqcmE02uiSMO6KVONLXRaxx3QU281D2INb57K2Ez1H79AvJ+t/1bsMPQQbjapaRnY2VtPJa3j83WmY3yE8vv76ej5mCbTbp4FwzWEzRTYLl2RIQBp3LHiOcsu+7bWdnG2G40QdLwIoeFKKsKDiq6/P98UzHCsfLx7/Iysf/cPcXG6uro0/v40ukBTV5t9Re2U6wEEgp1D42M/VsPXRkYKgH/z91/1Z6S2mvI70ChBUM3+K/JOgCQAABmpIJ6AQPqsAb5rqxcBQjMCpHrNAlRGsEFQNJuBoM44LQjqNTtGKQo9hF4+AlKra1BZkgOKXhOgzrIdp15vUDot5XLUkzHeWsTqGFFTViX6RM0w7YdEWDcg25Jsah05OAuh4sRKFiJYhGSwRDZ+ihjWM9TKFxFqlKki9BFzeW+6CkF8ksSYth/CALmvyUqdj8uBSgFx58RSEsn8e2FAKTgxIjMzOgQA");
 
 export default CloudDrizzle;

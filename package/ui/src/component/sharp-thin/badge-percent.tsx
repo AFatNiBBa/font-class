@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `badge-percent` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badge-percent?s=sharp-thin badge-percent}
  * @preview ![badge-percent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/badge-percent.svg)
  */
-const BadgePercent: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M180.8 61.2C195.1 34.3 223.4 16 256 16s60.9 18.3 75.2 45.2l3.1 5.8 6.3-1.9c29.1-8.9 62.1-1.9 85.1 21.1s30.1 56 21.1 85.1l-1.9 6.3 5.8 3.1C477.7 195.1 496 223.4 496 256s-18.3 60.9-45.2 75.2l-5.8 3.1 1.9 6.3c8.9 29.1 1.9 62.1-21.1 85.1s-56 30.1-85.1 21.1l-6.3-1.9-3.1 5.8C316.9 477.7 288.6 496 256 496s-60.9-18.3-75.2-45.2l-3.1-5.8-6.3 1.9c-29.1 8.9-62.1 1.9-85.1-21.1s-30.1-56-21.1-85.1l1.9-6.3-5.8-3.1C34.3 316.9 16 288.6 16 256s18.3-60.9 45.2-75.2l5.8-3.1-1.9-6.3c-8.9-29.1-1.9-62.1 21.1-85.1s56-30.1 85.1-21.1l6.3 1.9 3.1-5.8zM256 0c-36.4 0-68.3 19.3-86.1 48.2c-33-7.9-69.2 1.1-94.9 26.8s-34.7 61.9-26.8 94.9C19.3 187.7 0 219.6 0 256s19.3 68.3 48.2 86.1c-7.9 33 1.1 69.2 26.8 94.9s61.9 34.7 94.9 26.8C187.7 492.7 219.6 512 256 512s68.3-19.3 86.1-48.2c33 7.9 69.2-1.1 94.9-26.8s34.7-61.9 26.8-94.9C492.7 324.3 512 292.4 512 256s-19.3-68.3-48.2-86.1c7.9-33-1.1-69.2-26.8-94.9s-62-34.7-94.9-26.8C324.3 19.3 292.4 0 256 0zM176 192a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm96 112a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm21.7-170.3l5.7-5.7L336 164.7l-5.7 5.7-160 160-5.7 5.7L176 347.3l5.7-5.7 160-160z" />
-    </Icon>
-);
+const BadgePercent = createIcon("badge-percent", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAAB3QAAALIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTSEKwsGAAE2AiQDCAQgBYMtBzQbLwbIHgd2bLFazNsdx/Hw/3OR9/1kATjLjI6IWgvAdv2cWlStncc2cMJpmAFeAbVzOo19er/XZpCt33VjM+cPsA5Rdv19G8/yAHfmCeah/H/vs47z2MnvazyBBK/T0wSyD5agpqpObkYEN/57QR6fwToVSHfL77hsfGn8qYkTJFkGIGoDYPTCudN9XYpSxG/lD4jfTEVAjAaFQIYMzQUYJhNoLlcglwtKUS4L/4EFAURFljlhclQB/xPcuTZaKc/XjK1STyV1qlWokS+Qd1Vder8jxms+76opGsWCQNdTlhg5fIkiHGlMI8W7oPOOL3IQ3kGRzsUxwheg2016CcJXKOLRvpPwHnbef5qnaLTwXDuMF3JG5OcVUp0hONKEneH1XJNRPp/W0XoLzG7mMnjUJLZ/ewAFN9O8243G2ets4WjDuEXnaocjDYaevhbOrxVaEXJ2DFFgbUJyYaP6jXbI57nSyT69sM27h/+tf9/wu/ePPR8KujVp0m3oc4fVFsxfVzvGL1jf0BxD3vuaNPn2vSFNQ+vnT4ja89YvWK293sMTbpsyrPkylr09eepUn7pp06LlP/zQvDnZly9K7W37lPMn3y5b1rx1AKFu5lc1S6WaLu1V8ww4U1Nsg3vlzmoBvXR/g3deq/Fd8zx+bLzofRAI8mvPhZW1hv1XmRP449N//8Tly18naQRQWfoBWbdyN8sSSAQqpjigTYvxAsk/KgFnVXdLgFCVFJKKqkKmmdqQq6orVNBSf6knn9urMfIqQn3LGSTV7YbMAAchV997UMEwPxUrqh/Z1a9cu8rPZ3xC3jR+W9G7R69iSNHYFqsXtKSuDy16OzodKI11xl4b7LTDPuuts9m+nGWP6ZX9tpvQZj3e2EJvPfRSGKIY3buMCwj5uFeX6vXxmwxVzB/p5ED77M5wJ5bNPs4kiUg11qxet3F9908fAAA=");
 
 export default BadgePercent;

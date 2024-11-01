@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-minus` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-minus?s=sharp-duotone-solid cart-minus}
  * @preview ![cart-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cart-minus.svg)
  */
-const CartMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M122 32c16.3 85.3 32.5 170.7 48.8 256L496 288 576 32 122 32zM256 140l160 0 0 40-160 0 0-40z" />
-        <path d="M24 0L0 0 0 48l24 0 52.1 0 60.3 316.5 3.7 19.5 19.9 0 328 0 24 0 0-48-24 0-308.1 0L119.6 19.5 115.9 0 96 0 24 0zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM256 180l160 0 0-40-160 0 0 40z" />
-    </Icon>
-);
+const CartMinus = createIcon("cart-minus", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABewAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBawsIAAE2AiQDCgQgBYMtB1AbDQXIHgeO8xx1i2hzSPgbDx9z5ftJducuW4b0VIFYEbJrdR2pritYYlW29UiqrjMpIOZhx+IoW13NNI0g0cVZ1ub/mnzvnkeDfL4UO7ToRWJignU+n8CAozxtoC20mdrWm08QvtuLgB1jZkJzISmOkMX/9IwKyaUkzvn/AYyfOjtDojEFEK0AMGXpwtmevot3SbwpbxJvzEJATAWFQIoU3QQYLxXoJlMgkwneJWXJuyjLggCiiu84BVU0YCE2ADKQyCRZ1rF588aGxlqlebakVslX5rVc1GrLo3PUmkfkzVZEl8iXX+GFZdVIpEl6ZIdoJNR1y3az/FpEHla+XZxZGs0WF5A90XQdnd/rljo+IbxqsE7Dx403VLt1CR1nWMncsv7lzp0v9SCbOwjuOXlyTx4qu7Yuq/cGdb0dv4xDpzDD3NKzszvNzSAQ1Ae9urbl+H8NtQR8uP/3B12jvJ9IrqNBAoK0f9nfKsyA5QaQTeKIJvghTgikxsrwpzZzXoCQI0CiKhcg1VUrATK5fgJU9DBCgKrcQqnIGoV2VmeQaGY/SI10GmTauQEqxnueq2oXqXrpyqG/7nJmSnjGosIOHFyMLbo10dAYFWfHFdNhc8T19IGDtthrj0M222S7Q4I6YHbxsN1mjpAZvqgwxECDFcYqlpvXu5fY7ICDtttrD80zTrE/0duR8fA+EEuw4lBLUimRRNrmivoHfEofPzhAUXvbldaZBAAAAA==");
 
 export default CartMinus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pot-food` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pot-food?s=thin pot-food}
  * @preview ![pot-food](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pot-food.svg)
  */
-const PotFood: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112 8c0-4.4-3.6-8-8-8s-8 3.6-8 8c0 27.4 5.1 46.4 13.3 61.1c8 14.4 18.6 23.9 28.3 32.6l.3 .3c9.9 8.9 18.7 16.9 25.3 28.7c6.5 11.7 11.2 27.9 11.2 53.3c0 4.4 3.6 8 8 8s8-3.6 8-8c0-27.4-5.1-46.4-13.3-61.1c-8-14.4-18.6-23.9-28.3-32.6l-.3-.3c-9.9-8.9-18.7-16.9-25.3-28.7C116.7 49.6 112 33.4 112 8zm97.6 0c0-4.4-3.6-8-8-8s-8 3.6-8 8c0 27.4 5.1 46.4 13.3 61.1c8 14.4 18.6 23.9 28.3 32.6l.3 .3c9.9 8.9 18.7 16.9 25.3 28.7c6.5 11.7 11.2 27.9 11.2 53.3c0 4.4 3.6 8 8 8s8-3.6 8-8c0-27.4-5.1-46.4-13.3-61.1c-8-14.4-18.6-23.9-28.3-32.6l-.3-.3c-9.9-8.9-18.7-16.9-25.3-28.7C214.3 49.6 209.6 33.4 209.6 8zM32 256c-4.4 0-8 3.6-8 8s3.6 8 8 8l34.8 0 .8 13.2c4.9 83.3 54.8 153.7 125.3 188.2c4.3 22 23.8 38.7 47.1 38.7l160 0c23.3 0 42.8-16.6 47.1-38.7c70.5-34.5 120.4-104.9 125.3-188.2l.8-13.2 34.8 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-33.9 0c0-17.5-14.2-32-32-32L97.9 224c-17.8 0-32 14.5-32 32L32 256zm490.5-64l16.8 0c-13.8-46.3-56.6-80-107.4-80s-93.6 33.7-107.4 80l16.8 0c13.2-37.3 48.7-64 90.5-64s77.4 26.7 90.5 64zM208.6 470.2c-1-4.9-4.2-9.1-8.7-11.3c-65.5-32-111.8-97.4-116.4-174.7L82 256.9c-.5-9.2 6.8-16.9 16-16.9l444.1 0c9.2 0 16.5 7.7 16 16.9l-1.6 27.3c-4.5 77.3-50.9 142.7-116.4 174.7c-4.5 2.2-7.7 6.4-8.7 11.3C428.5 484.9 415.5 496 400 496l-160 0c-15.5 0-28.5-11.1-31.4-25.8z" />
-    </Icon>
-);
+const PotFood = createIcon("pot-food", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABpwAAALXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDFAsGAAE2AiQDCAQgBYMtBy8bkwVRlA5GgezjMG74hpiuhsnwZBJEa7QIJRjENfjntfv/fZJcTR695gkfVAWrgypJHdkU7NyBEMWa7oW4gOSIVKfjf+oAQDcucUWWrNiRytSIxJZx/q/JF00J+MXPDyXaUm8btgdl8t4EBhzlqQNtkNlIJuJTNyV4iIjaR0QkE2zH2PF1x7kDcPrNFCJg9qleA1vqU+kjYawDg7UAACgNAADopgwexH2vvCKv/2+BXlMDCEDdAQgRYLG4CAHQEYv4ABwh4HAI3sj///IfGIIAQFHklgwADogBl4CbAIADwBBxrjQu90JwlFmb7IZ5bTB6d/DOrEP5+7JXS9oVtovpoD1aHb4/hzO7w3eX+CPDKOyhYmluSkN2BrYiL9myXnFabSF3+dINIXsKX1WdJ+TaFeN1d+cEsjp4d5Ck9YE7MTV6kz+cfr71zZqzRV4OZFyoPlV7Ln/KTPDL7MtlBenXkmVXUJ6sZV7sOxW4tyKQ0+Flm2nnP8e9brmk91A3YYJOf/PiG+Dj2F5StG6BPvXi4hrg99gRzaQLKz5qWeEKeNe+Q9l3lWOhsx+1sR6P/1H8e3nsSPxKLZSj7CzD6nbZbmNzua1lV2Vpkt54sl9Xl95ow8FWf9/DtwULF/OzgxtDb24LC7D5buOzmeh/exM6OVhxruFUAECA4ENOonO8vfg17g0A707uv8Zlof/3TZvZlADEMQAIbMN/A2NUqwJJ3hSE5IyWUYYPEmA4hRY8axK7EQBEAAgAQ5QAAWApJA0B4AioRwBEKKEVAiBKwGAscglEFmMXMCSxEFhasxw4srgBInTkWTZKlliXNRzO+GHM7c1Ir3lhXnZubGHssWKaXqjlyaLY237qSOxIw16mMZ95LGEqU5jJEhIXMaiwlLn01iS9vkhIMxrTlJD2hI/r79uHMZVFLGYm85lXZulA+H5cwzK9fy0ig8g2Z6HBgEx8Qe+SRp8+AAAA");
 
 export default PotFood;

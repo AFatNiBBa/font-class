@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `waveform` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waveform?s=sharp-thin waveform}
  * @preview ![waveform](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/waveform.svg)
  */
-const Waveform: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M441.1 64L455 64l.9 7 41.3 316.3 38.9-220.6 1.2-6.6 12.9 0 1.6 5.9L582.1 280l49.9 0 8 0 0 16-8 0-56 0-6.1 0-1.6-5.9-22.7-85L503.9 441.4l-1.2 6.6L489 448l-.9-7L447.5 130 391.9 505.2l-1 6.8L377 512l-.9-7L320 70.5 263.9 505l-.9 7-13.9 0-1-6.8L192.5 130 151.9 441l-.9 7-13.7 0-1.2-6.6L94.4 205l-22.7 85L70.1 296 64 296 8 296l-8 0 0-16 8 0 49.9 0L88.3 165.9l1.6-5.9 12.9 0 1.2 6.6 38.9 220.6L184.1 71l.9-7 13.9 0 1 6.8 55.5 374.9L312.1 7l.9-7L327 0l.9 7 56.6 438.7L440.1 70.8l1-6.8z" />
-    </Icon>
-);
+const Waveform = createIcon("waveform", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABdgAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCNQsGAAE2AiQDCAQgBYMtBy8bNAXIjsN04yuPpFHGIxUP/z8Xdt9PJmeaKdAUMCUiBYwKyNeRsHVIDoUEsrCrVmEyq/7/z+We31p0gJ8P/NTmfH4gtwtozucJ9DyQ8yZQFGZhlmkC1u5MiqLktJDYNI6L5XicII+/7VIj3UpwLbxp/NTVVZIsAxBtATBn7coVXn+LbxEf/n9AfLAMATEHVAIZMvQQYLpMoIdchVwu+Bb/b/4DKwKIQvzNJpAjw1lcA+QgiTw/2qi1ytc0auXeRtloxvpYG52jEc1YHY2GKMtOsSZWRccoo1NsiHVgzCRlsHo2BBtBZv3z+t5u2+8+9vD4QuvWrQuDpxn4UaGVpp7Hja23VZ/Z1FxlyE+F1gqDJpp0xpKT7mB3YOIZgycqRIXe2lTMbqs+tudxTa0Ua9XlFpWd/FBJavmIAggE75s/29pm+l/1RgI/nv75k7v7/9fpYgp1CQTZ8P+H25QugpEGkKc4oy/yQYHkqCS+akvXBQglAiSFUoBMd20FyJWGCVDTywQBCqWVMpG3EDranCFp6ThkJjoHuY7uQc10b7JCx8hEUBcg/QeYs7BGFhyqxowcXU2thj1gSJXqd6dV08ngM3ZmiGq1x1FHnLLbLvudqsQTVpSnHbYQExb4osoYI41WmapiD2+dNTo74aT9fYu/zzTV/nSwM/jyIeo4CTD28LoSkeqvQr2hAAA=");
 
 export default Waveform;

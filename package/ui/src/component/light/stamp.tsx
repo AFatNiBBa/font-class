@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stamp` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stamp?s=light stamp}
  * @preview ![stamp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/stamp.svg)
  */
-const Stamp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M310.4 129.8c6.1-9.8 9.6-21.3 9.6-33.8c0-35.3-28.7-64-64-64s-64 28.7-64 64c0 12.5 3.5 24 9.6 33.8c9.5 15.2 22.4 37.9 22.4 65.1c0 51.4-41.7 93.1-93.1 93.1L112 288c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16l416 0c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80l-18.9 0c-51.4 0-93.1-41.7-93.1-93.1c0-27.1 12.9-49.9 22.4-65.1zm27.2 16.9c-9.2 14.8-17.5 30.8-17.5 48.2c0 33.8 27.4 61.1 61.1 61.1l18.9 0c61.9 0 112 50.1 112 112c0 26.5-21.5 48-48 48L48 416c-26.5 0-48-21.5-48-48c0-61.9 50.1-112 112-112l18.9 0c33.8 0 61.1-27.4 61.1-61.1c0-17.4-8.3-33.4-17.5-48.2C165.3 132 160 114.6 160 96c0-53 43-96 96-96s96 43 96 96c0 18.6-5.3 36-14.5 50.7zM64 456l0 8c0 8.8 7.2 16 16 16l352 0c8.8 0 16-7.2 16-16l0-8c0-8.8 7.2-16 16-16s16 7.2 16 16l0 8c0 26.5-21.5 48-48 48L80 512c-26.5 0-48-21.5-48-48l0-8c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const Stamp = createIcon("stamp", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlQAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCRgsGAAE2AiQDCAQgBYMtBywbQgXIhofn7fo691V1f0A1IBeOxLGzpZFB4UQLMJ3+n8s9v+dHB/iNDmWs0eQx6bC5nicQ4Ng2vQB7HlimCVi+189znHMpS5LJPJpV5z/28dsD8ngjJiqRbksf45rlQ+NXPS4kyTMA0QyAZScee4x3v4qvIj6uvER87CgExHJQCGTI0C/AQplAv1yBXC74KiqV+h9YEECUyWsTyFHCpbgKkIMky/MpU4bXlRryE/rJ2vW3xO3jHx/94NhHu8/tuKmnCXdqdmZtvLjH+m/qaIhbuu52srNr42UEg3d0rSvG3dp927jHRtXFSzg1cG77jSPr4+HOm3vvmfDEHBYeQa7v9t7bw9BeoXuN8IYYG6EZcWucoUuGP978+O/DPl73sVmL7m6rbWm5997yrrVtd29asT0v3/7YijbNa0+Ixq/u9VVjnLC2uc2Kx24v59tXbHr2/54arm3z158Hmto//2zqvaZ+9knWdODPv9pcS03P9z/0Vz/++LnnPv54df/+lpnVEmv8aoWvGqsdVDWyT24gKxh6HggED+3/tP7MpoX/V9cl8M3rf/5ffkYq7ybpcVRLIMgmViY6LYFEAABS7DM8QSA5V0aK9W4WI4u1iJYqq0Ux06f5hFytCVAyaBYV3H+sTOQ1QrvTAUm9nZCZ7SzItXsBShZ6L1fWHlkuMpnE/AkmHmqRQ5YV0yZPLeYXl3XKphc1zS8owubYfdQ3Dmets902e6y1xkZ7DLbLMcW9tjrUQw/xRYVpJpuqMF/xuDUfP8Fau+y20Xbb5kUWKManxtrnjx4HJxHc6eT0CWpTafeelVt3AA==");
 
 export default Stamp;

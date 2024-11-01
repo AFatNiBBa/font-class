@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-exclamation` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-exclamation?s=light file-exclamation}
  * @preview ![file-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-exclamation.svg)
  */
-const FileExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 480L64 480c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l128 0 0 112c0 26.5 21.5 48 48 48l112 0 0 256c0 17.7-14.3 32-32 32zM240 160c-8.8 0-16-7.2-16-16l0-111.5c2.8 .7 5.4 2.1 7.4 4.2L347.3 152.6c2.1 2.1 3.5 4.6 4.2 7.4L240 160zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-284.1c0-12.7-5.1-24.9-14.1-33.9L254.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zM192 224c-8.8 0-16 7.2-16 16l0 112c0 8.8 7.2 16 16 16s16-7.2 16-16l0-112c0-8.8-7.2-16-16-16zm24 192a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const FileExclamation = createIcon("file-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABewAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCBQsGAAE2AiQDCAQgBYMtBzcbDAXIHge5KfNWojnKx0rEw/e6Xs990iftfmQZAQIA3KVyFy46c5tJ6Um5/cD5y6xq3yeuef7nTw8YRfYonfoLjcRR5vkEBhqJlQLzgc10Ara3DQlsROJxREiQVDRe0jitjpDHPTFdHemt9DdeoA+Nf/V7lCTPAEQbANYc2rfDkZNxMuLvGuJv2xAQa0EpkCHDkADLZQJDciVyueBk1Gr4H1gSQNTjt00gRwMuxfWAHCR1eT5SHWpuqtQ15wcrdcVF1ebq0z2vRxYP9b5RqYR4q/u1CZVI8WDXq8XZr/dEvNZ9IOxUHPx0csSXfSnemvLVhOb4Yto3gxNTeg7G60Vx4NUuduyN3gh67cDbEz/te2vCF4Njv277+r8xX75Vo2h58smWBwVzo+yfo7N1+spdq0623GD22FtuMbbzxh8++LCd9uJBRXv7hyCD8SFdx4xFx7p84MTJlhu1nJSC3rr37OlGKhCX/Tae/y9g+ZnGSgKnf31G/hXVjsSD6Ws0SiDIptemOzcehHhQAABS3G5sPIhAcq469ErV6wKEAgGSekWFM4Pa4FxhGlxnxIIj6hX2yUTeJHQ5T4WTqpvgzEL3wbkuv8B1lvstUa8rMlcTHEV46aVu1MCGSeWcmbPLpWW3pIjew6XRZeWwO/n22DIFtrrcDa53q8tc6iq3KuhmO9K3uc5GC9zgi0pzzDRbaalyuXqrHlSYm93iKvb16+MsU+4PJ7vd7j4FgoRp5ypKEpHajnXrjD8s/IuuuzwA");
 
 export default FileExclamation;

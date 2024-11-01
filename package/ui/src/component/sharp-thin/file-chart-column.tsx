@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-chart-column` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-chart-column?s=sharp-thin file-chart-column}
  * @preview ![file-chart-column](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-chart-column.svg)
  */
-const FileChartColumn: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 496L16 16l192 0 0 152 0 8 8 0 152 0 0 320L16 496zM224 22.6L361.4 160 224 160l0-137.4zM224 0L16 0 0 0 0 16 0 496l0 16 16 0 352 0 16 0 0-16 0-336L224 0zM168 224c-4.4 0-8 3.6-8 8l0 24 0 160 0 24c0 4.4 3.6 8 8 8l48 0c4.4 0 8-3.6 8-8l0-24 0-160 0-24c0-4.4-3.6-8-8-8l-48 0zm8 32l0-16 32 0 0 16 0 160 0 16-32 0 0-16 0-160zm88 32c-4.4 0-8 3.6-8 8l0 24 0 96 0 24c0 4.4 3.6 8 8 8l48 0c4.4 0 8-3.6 8-8l0-24 0-96 0-24c0-4.4-3.6-8-8-8l-48 0zm8 32l0-16 32 0 0 16 0 96 0 16-32 0 0-16 0-96zM72 352c-4.4 0-8 3.6-8 8l0 24 0 32 0 24c0 4.4 3.6 8 8 8l48 0c4.4 0 8-3.6 8-8l0-24 0-32 0-24c0-4.4-3.6-8-8-8l-48 0zm8 32l0-16 32 0 0 16 0 32 0 16-32 0 0-16 0-32z" />
-    </Icon>
-);
+const FileChartColumn = createIcon("file-chart-column", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABkwAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiDFgsGAAE2AiQDCAQgBYMtBzgbngXIHgdu7A6oXqsJxsPzc5+d+5KhpAxpFQCyIlAkx+6yGreAcl3BVq/+CdH+XhTE83+55/eOJh3gtxPeaHvo+cyiMQZFCQSY9tL1PDzOsjCRhLzBeZMOKbQhpF8hj8v2qCO9SX/iUfym8VV3d0iyDEC0A8DM9auXavkUnyL+qH1H/GExAmImqAQyZOglwBSZQC+5Crlc8ClqNfYfWBFA1Eufl0COEs34DpCDpCnP2za070bTsq51vk5WVvTOUlaGEGWZotXmtevWFhFRlIVIIcrWEVmsW/OcEOJF5zJedQ1U/7JL0T3E3VA82UusPUXLmpP9mzXX7899f6p9whdavNao8fUMO/7570H6iw897Prvv5/a+aSddidY4e3b8R931HfzTjf1O0YY/OtgU6Wdd9ppwvV9D2Z2XOKxA96B7PiFqPCoegoKiMcO7Hpye9sp/zeWCXz5+a9wZbWWuJGa0SiBIBtSG2JL3IC4IQAAKc7pjz8dSD5oIn1dWnkpQCgQIKlXCJDpqZ0AucJgAer0MVaAeoXVMpE3CZ1sHUDSykmQGecqyHXyDagzxS95vU6R2VnZxsl/jBnzptDcY9XIYSOqSdVuT6dYQ1HvTq4uBwPO8ZmB8Kx9jjvmjL32OOjMhDxlae2so+YdEXN9UWWkYUaoTFI9Hr401uH8lNMObmvPD5ms+j4Z4Nzx8oEwTlLBURqSRKT2wcMaGl7toY4bAAA=");
 
 export default FileChartColumn;

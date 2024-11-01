@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-check` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-check?s=thin user-check}
  * @preview ![user-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-check.svg)
  */
-const UserCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 16a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 240A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 64l91.4 0C359.3 320 432 392.7 432 482.3c0 7.6-6.1 13.7-13.7 13.7L29.7 496c-7.6 0-13.7-6.1-13.7-13.7C16 392.7 88.7 320 178.3 320zm0-16C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0zM629.7 149.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L496 260.7l-58.3-58.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l64 64c3.1 3.1 8.2 3.1 11.3 0l128-128z" />
-    </Icon>
-);
+const UserCheck = createIcon("user-check", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABiAAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCMgsGAAE2AiQDCAQgBYMtBzEbMwVRlKzJJtnPA7vBrUY0DyTELbZAsf2cuAJxFA//71/1+9zCAHrdIziSGU4GrpyMxB9k35ldZhvbKl84DoZVsZallITP/83vtubxLPEFuBZGUtrT2lp/moyVgL2/83+z5z2PFsg3Cm0PDWSBRHM+TyDB8m6AXXhT6ExPwM7a2fn4ovSLQfqEJMP2htEO+fjHUgXS2fQBJ/NHxTcaOUqSywGImgAYPmPKZE8+j88jPpTuER9MRECMAJlADlJThTOIFIznZYQ8hYPPo1Qi/AdmBBBFcr8J5FEBO3ECkAdJIZ8vmaYRA05jU4WTK1KBIy4kzGVXXTulldu89TMosoH7vnO7bh5X3bjgZF4PgKfIytfu9FbFKH/3h48PPOLGDdBA/MS/8HXlepLRxgjhrupdgMFn1mV9+8aUfVj+wWc3ml/i0ldfNW8e9EuXULnU1n5s+YQnzaqVl1dr9uRJS45A/2yuHDcqPvo4RlV9ctSTqjHq449GRc0JKKN2TKh2Yqd2VLWdJ7SYULtsAuY+P9u795Ro127nTJkShVK5yYEDQCCY/unpFguMQb9VRAJfPv7hb/wrKj1Ju9NlVJRAkOtU6mRuOohi2i0AACm2K08HEUg2KpBPreqUAKEyAiRFlQXIaaKmAHmVdRSgoLneAhRVNkVO5CsJdc1rIKlqE8jpYx/Iq+sOKBjktVtUN3IWSNsP/f9LGKOh0UtZ9y7dsgHZNFIZoyLTdGC2bbTbzpX22LTcButttcxSq2xVyGaTg23WGbOCR/uiTHdddJMZIDtO74Xp5G62xaoxdz5noOy+0872dXt72IkQ9hBKEpEqv1qpsyUDAAA=");
 
 export default UserCheck;

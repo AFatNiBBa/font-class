@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pallet-boxes` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pallet-boxes?s=thin pallet-boxes}
  * @preview ![pallet-boxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pallet-boxes.svg)
  */
-const PalletBoxes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M272 16L112 16C94.3 16 80 30.3 80 48l0 192c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-192c0-17.7-14.3-32-32-32zM112 0L272 0c26.5 0 48 21.5 48 48l0 192c0 26.5-21.5 48-48 48l-160 0c-26.5 0-48-21.5-48-48L64 48C64 21.5 85.5 0 112 0zM528 112l-96 0c-17.7 0-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-96c0-17.7-14.3-32-32-32zM432 96l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96c0-26.5 21.5-48 48-48zM0 360c0-4.4 3.6-8 8-8l80 0 232 0 232 0 80 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-72 0 0 128 72 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-80 0-232 0L88 512 8 512c-4.4 0-8-3.6-8-8s3.6-8 8-8l72 0 0-128L8 368c-4.4 0-8-3.6-8-8zM96 496l216 0 0-128L96 368l0 128zm232 0l216 0 0-128-216 0 0 128z" />
-    </Icon>
-);
+const PalletBoxes = createIcon("pallet-boxes", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABnAAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDBAsGAAE2AiQDCAQgBYMtBzMbhwXIjtRG+YSdxMPzenyd+5KvZIyMzW68IrqtfrfuhQqqhHSAqZ3/az4/a2r/RocWhbFIrwqewABnqU0Tmg1nI5+IzNwaQ9GHKPcRHGNkjRE9foP+QWfI42+71ZDuTx/g1vGm8YOOriLJMgDRAgAz1q1aovGr+Crig/8nPrAIATETVAIZMnQRYLJMoItchVwu+Cr+/7/8B1YEELUAJw/naMCTeAmQg6Quzzvh592joaGsaZqvLWuKfUVZ3NDmLuJi27vLMm5sf29EXGp3T7G2LMqn297dUdzX5q7eRTzT7p5OEQ+2v7ffDv+p3fe2L5vf3fauNkWIMtjd7J52J4GIKIK4NWVROpR5e88XWrzwU48P9n6g+auPIcV112k0Fh4jxqPN90yffZgx2YefDW8g16PHtkOwV243jW3N94IL2r6wnRS8Wle7fXm1vTYlzXfRfNxKu7Zd+xFyLvrIxW/X80Ag6D/wzQHbmk/+tb5M4Ju3fvkrP+7/xnQxvYB6CQTZ4P8H25wuQlkREE5xVk/jgwLJg+rgVZu4R4BQIEBSqxAg01kLAXKFQQLU6GaMALUKq2QibxDa2CIgaeIEyIx1DuTaeBPUmOztUK02kYWqFGjSj2L6XA3N2VSNGDq8mlhdNrAcfUJbnFS5jf5n68AAOmivY446bY/dDjityJOWRM84Yq5FzPFFlRGGGq4yUXW7/XH3WnucdMoBxxzt60xSPe/v76w9fgDZEvCOVJ4kIjU5/tHOOj3kPQY=");
 
 export default PalletBoxes;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-sms` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-sms?s=sharp-regular comment-sms}
  * @preview ![comment-sms](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/comment-sms.svg)
  */
-const CommentSms: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M101.9 387.7l10.8-28.9L90.9 336.9C63 308.9 48 275.1 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-26.8 0-52.3-3.9-75.7-11l-13.9-4.2-13.9 4.2L94.9 406.2l7-18.5zM16 480l57.8-17.3 92.6-27.8c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L37.2 423.5 16 480zM152 176l-19.2 0C112.5 176 96 192.5 96 212.8c0 12.3 6.2 23.8 16.4 30.7l29.4 19.6c1.3 .9 2.2 2.4 2.2 4c0 2.7-2.2 4.8-4.8 4.8L112 272l-16 0 0 32 16 0 27.2 0c20.3 0 36.8-16.5 36.8-36.8c0-12.3-6.2-23.8-16.4-30.7l-29.4-19.6c-1.3-.9-2.2-2.4-2.2-4c0-2.7 2.2-4.8 4.8-4.8l19.2 0 16 0 0-32-8 0s0 0 0 0l-8 0zm40 16l0 96 0 16 32 0 0-16 0-48 19.2 25.6L256 282.7l12.8-17.1L288 240l0 48 0 16 32 0 0-16 0-96 0-16-24 0-4.8 6.4L256 229.3l-35.2-46.9L216 176l-24 0 0 16zm144 20.8c0 12.3 6.2 23.8 16.4 30.7l29.4 19.6c1.3 .9 2.2 2.4 2.2 4c0 2.7-2.2 4.8-4.8 4.8L352 272l-16 0 0 32 16 0 27.2 0c20.3 0 36.8-16.5 36.8-36.8c0-12.3-6.2-23.8-16.4-30.7l-29.4-19.6c-1.3-.9-2.2-2.4-2.2-4c0-2.7 2.2-4.8 4.8-4.8l19.2 0 16 0 0-32-16 0-8 0s0 0 0 0l-11.3 0c-20.3 .1-36.7 16.6-36.7 36.8z" />
-    </Icon>
-);
+const CommentSms = createIcon("comment-sms", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABqwAAALdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDVAsGAAE2AiQDCAQgBYMtBzIb1gXILgfsptkPppGt1WR7OiaLatOXmRidX4YRQf3av99zdu+DvWHYMKMDUgwqUYmNDCvUJFORn4X7PPActn9z4dh2wPd80p5ZoMPC0kADLAysQIqoqZs/aWqDsrfatHTbIsg7jzgNfFsdnbtbZFkUb+rzB5sG6iwhR7cDC6yEE84C4TdP5HkeY843/rGG8qV0yBf7u/+5HN87nHSA3+jQxqZld+1lY21LIMCLetn0SAKLIwuAY8ncNFQiiCi3SZAQ/GgdtkCHqQ/I4xVuECE9pC5cry8afyq6CJJKBiCaCIApi2ULvP+FF+Dr/yO+GiIgpoBSIEOGDgKMlwl0kCuRywW/Anb8DywCiBr4vQnkqMVn/ATkIKnkecfs+1auNMxXpmixqmzEDb6tni369Hevo/nr16QVtmB2wJ7h7HmrYpf/4V2k29OJb+d2/Mojdflt5MHBm2TFJeeON7cP3oUnSSpEtXrZvx+H1xfvIZHlakQR55CgNEJBVCMiog9taU8/hGJ3Clswnom04l2seA8tLog7zh2t9yYv/mZ3D7h1NhTP8IhVzzxsTGQvjw3ZVfftyyucZutuwH1D8GSa5dJZ6yTWp8h5qQtRHPPuhoNZz25z3GEcz/Ppz29QCFYq7aOAJmWF/fGDNC+uA3VnjjjWBJSaGKyP9xRuG8x/gs2aaGOGgQaaoY0mLy3uaU3IX/XfPnoeCAQ9/j5TpV+QE/j98e1r5P9DSi+AOgkEWX931gcBJAIAkOKkrkEIJB9E4IEG7kEAhAIheGoUATLtNYFcoR9UdDLigRqFZTKR1wstbNAhaeAIZEY6BbkWXkLFeB+TNVoEMpPmDZL/oUyZKdEZh0p/mIq5mDaxYKVsXl6KY12vaqh2Z+10yEHH7bDdHscFfdSCzAkHzFxRM7xRaYiBBiuNVT7urE+vtMNRx+xxyMGyzzjlfU9vJ9eT+zgrAeNQNUkiUvUbCg6Y748BAA==");
 
 export default CommentSms;

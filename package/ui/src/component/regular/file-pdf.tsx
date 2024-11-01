@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-pdf` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-pdf?s=regular file-pdf}
  * @preview ![file-pdf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-pdf.svg)
  */
-const FilePdf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z" />
-    </Icon>
-);
+const FilePdf = createIcon("file-pdf", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABlAAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCdQsGAAE2AiQDCAQgBYMtBy8bdAXIjsR0G4/8IjfZEg//b/df+9yqr3of1fJtuRrUwMpEhJONs3GQ6a1JpbBf1b5fnMq5nIcC+EZBGWN1bByTeqU5zytQwLG94EtzFappBayL266CiIY4QuIOZXwUj+giPZu+xcPhdPxinDtIugoJiJqwsuXEYw/4vB3tiG86iG/sQ0BsAVmgQIGJAqxXCExUyiiVgnZ0Otx/YCaA6JaENoESvXgBbwJKkHSXZTO+Gt0/udU1UJ7Q6qp2tKqWqOKtee+NL+L5+e/PbsX9c4+Pd4kqIqq4b/RTtPaJkSmeHHXi2YY3Rz057pmRT8yYS2T0qdGR1D895vi3Jzw3K+itfVdI0jGC1FJ0LCVtXSueHPXESMm61od2Tnuvfu+3qd9e8K1Ok2zReGXYsOoWVfmmV94yftrJJ5s24UmNRxw2eM89g4e9oj14i8H2lVfmnK86uqfnj6NX1bLBdnuwOXKjPeXQkVGjjtQa9ZmH2Knm+++KzYrvvm/yRXPKzTWyubp2lvrQldxsEDLYWcq2SvPYYzbbDASCP7d8Nv3MofX/9bYS+PnD/3O/os7n8Wd6D70SCIoFnQVOS1DHnwIAkOIG0xIEkid0Sz6131MChAoBkm6VAIUJagFKlfkCdJlshQDdKscqRNknjHR6D0m/q6Gw0o1QGukD6LLeF/luI6MAURbA2D/EpJ1jdMemvGRRk9fmzZaWgzrarq7Lp605N8iRufimC1zpCtc533kudt0Iv8aB0vUut3MP2+GLsiUWaWRr5dvd59IJNH+Na128LtxfZ538fnKOG/anz8VukhAu1ZQkIvV+DrmFV513AQAA");
 
 export default FilePdf;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-graduate` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-graduate?s=sharp-duotone-solid user-graduate}
  * @preview ![user-graduate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/user-graduate.svg)
  */
-const UserGraduate: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 144l256 0 0 16c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-16z" />
-        <path d="M448 48L224 0 0 48 0 80l16 3.4L16 168 0 256l64 0L48 168l0-77.7 48 10.3L96 144l256 0 0-43.4L448 80l0-32zM126.1 320L64 320 0 512l448 0L384 320l-62.1 0L224 424 126.1 320z" />
-    </Icon>
-);
+const UserGraduate = createIcon("user-graduate", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABbgAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBTwsIAAE2AiQDCgQgBYMtB1Yb9wTIhoePNfP93U3mGpikxNtTBWIFnCsQu6rW15GrI9sqjioLT5Ixf9z8886jAB+INMf5tgkSzXmeQOdRVB54QFlgmX4D+7uzWUhqbmlpluS4bMfngiyupGcVSC4lz3CO/gcw3ujtLIlOKYCoA2BOx8rFmi/iRRLPWjeJZxYhIOaCXCBFin4CTJcK9JPJkckEL5JWixfRauUEEEX07hQUUcACdAAykEhElg2s1cqFatYoF0q7G6sbq0J0D7EqytGIiAkhqhHREbGjVC6timo0ohSrorG+WqmKy9PvzH8w8157tF+vX3836NmuZ+6fez4q7sl9tlqtw+xyvMRvwzDM5m7yObWZwZ11XxM4M23dne7fPAp1hfHzli2bN75QBwLBwBNnumyuTf/WVk7Aq1sfXrcfklYzmsl1tElAkA5vDbchmhBNAQBI4pT2aGKLQGqkBD614rwAoYQAiaKSAKm+6gJkSoYJUDDABAGKSlZKRdZJ6GbjgETFUUhNdBoy3dyAgukeekXdInUo0h3I/1zcQo4sWMvHjBydT82XsU75CF7n0/JtbfCpXBsCp3Y57JATdtphrxMMO2ZxeNJBCzV0gQ/lxhhptNxU+XH2zDXQO+a4vTJzvmSa/L4+2Cm9ewhskwDGPkUkJZJIu5uhPMLYpRHG2dJTYAwRAA==");
 
 export default UserGraduate;

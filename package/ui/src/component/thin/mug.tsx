@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mug` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug?s=thin mug}
  * @preview ![mug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mug.svg)
  */
-const Mug: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 256c0 44.2 35.8 80 80 80l192 0c44.2 0 80-35.8 80-80l0-64 0-16 0-192-32 0L64 80zM416 288l0 64c0 53-43 96-96 96l-192 0c-53 0-96-43-96-96L32 96c0-17.7 14.3-32 32-32l304 0 32 0 16 0 48 0c61.9 0 112 50.1 112 112s-50.1 112-112 112l-48 0zm0-16l48 0c53 0 96-43 96-96s-43-96-96-96l-48 0 0 192z" />
-    </Icon>
-);
+const Mug = createIcon("mug", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZwAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBTgsGAAE2AiQDCAQgBYMtByobyATIHgd2Y9crLIbTUsIUwfe20n5/Zq9Os2IYKQJaIWNGlBHajg9Cm6PNDFQ5QeRySNBW4PD+6ut9+vt5/s8/fcBn9NE6qDQKPHLr8wab2G6WOE8rG84mirN2dguD8JukT/59Mmw/rMoR8vjCPhXS8/QJ7pYPjZ/1coMkywBERwDM3rh2ufq38W3EJ/+/SXxiKQJiDigFMmToK8A0mUBfuRK5XPBt/P9/+A8sCSAa0N0TyFHBMqwG5CDJ8rz7gA7VSrt8Q7VSbH3UNcWrQ5rHV+PtYa0DgrYu1guvDG4aV8RbQ1v6Z3G1x9Nqu+qbO0K/hVktqsaHem1oy4QiDGrp2PLLwE8OfGLmSdsTG/Z3rOu4n5ilo7py1OezZs1qbGm5UnelpaWR9nfutK/t6h06/Ldax1qtVjH5LDV1IBA8W/PTLR2m/dpYTeD79/7VTitJs1ILGiUQZMP/H25bmqUsCyhKccEgfFEgmSeDd23riQChQICkQSFApo+OAuQKwwSo6G+8AA0Ka2UibyN0tX2ApK3TIDPBRZDr6nVQMc37YYOukfkT4Q3Eay52AYfmrypHj6yVU0ox1UkXwdL41NKsDr4QW0Ow0QEnnXDOfvscdo4hZyxPzjtugQbP90Ol0UaqKU1RHhfP6zfY74yzDjvpRJ5kqvK+M9gFvfcQGAmhjuEmybfC5vHzBwE=");
 
 export default Mug;

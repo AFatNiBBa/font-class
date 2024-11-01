@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fill-drip` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fill-drip?s=duotone fill-drip}
  * @preview ![fill-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/fill-drip.svg)
  */
-const FillDrip: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M66.5 296c0 8.2 3.1 16.4 9.4 22.6L193.4 436.1c12.5 12.5 32.8 12.5 45.3 0C288 386.7 337.4 337.4 386.7 288L67.5 288c-.7 2.6-1 5.3-1 8zM448 448c0 35.3 28.7 64 64 64s64-28.7 64-64c0-25.2-32.6-79.6-51.2-108.7c-6-9.4-19.5-9.4-25.5 0C480.6 368.4 448 422.8 448 448z" />
-        <path d="M86.6 9.4C74.1-3.1 53.9-3.1 41.4 9.4s-12.5 32.8 0 45.3L122.7 136 30.6 228.1c-37.5 37.5-37.5 98.3 0 135.8L148.1 481.4c37.5 37.5 98.3 37.5 135.8 0L474.3 290.9c28.1-28.1 28.1-73.7 0-101.8L322.9 37.7c-28.1-28.1-73.7-28.1-101.8 0L168 90.7 86.6 9.4zM168 181.3l49.4 49.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L213.3 136l53.1-53.1c3.1-3.1 8.2-3.1 11.3 0L429.1 234.3c3.1 3.1 3.1 8.2 0 11.3L238.6 436.1c-12.5 12.5-32.8 12.5-45.3 0L75.9 318.6c-12.5-12.5-12.5-32.8 0-45.3L168 181.3z" />
-    </Icon>
-);
+const FillDrip = createIcon("fill-drip", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABkwAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCPQsIAAE2AiQDCgQgBYMtB04bXQVRlKzJKtnPhGxOYd2WRDQSxUmnPs3f3o3g+/1+e+653xBv3iFpUouiJZEJHZo1QqFSEiX8oZLJz6L9frP33hdFRZKZJLX6PRSNkPCGh6aNhFfLf2DQAJz/yz0/23SAn4/gkPbSqWM1fM7nCQTYy/IJeBYFlmWKqc6BBzxkcGmMWeaoy+LxsXg83qDGD7cOAeWD3YIX+h/A+ONmHSh6CYAYAwC7N9WlOH+m50K3zQEQP0pAQOwBWEBIJGYQ2MAJzOAtgKoK+uwf0Kd/vkAA0QbByWhvxRN4VqHqFK3NAM+HBti5yAQKvk4mkDZrpES7jio41VINmRBWS2bZXkQ9WWklvI4s0t3QCqqrrayqVJPtoi0N5yqqJu1TW+1YZdUsdq4jjZK41NerJItr1oizHDmxNjv1YUTmIGOE1cMQbnHXSHcddaEmV3+LreXVz5DbvlvUfesUMPy+o1DsVFag+QF3wcF3MzO438/en5ygaNarSKNBTYprClEBYysRmfnSsEWhmkvgFB2aWIXxsL3Z3Iz8N7mesTfvf3s8tOTAIee1UjsY/8zOTsr7jL4cicXFLzY+FSAQfM32tLTbZP6LZQzwe/j+fbzCmlkuswC6CghyqYlES0/AaFQCshJz8AdftYeQzjHjU4e8gkAYQICibUCANM0WgWrAIgItc5IQaBtwgRNVgjCl9QLFkEeQ1i2Aaso+aNlwkbZNBReHfBTxv4EpxRwqOuUbFx3rm+47HTiF0GLhYYav2Qmdqwth+Sr6jBszo1ePQTOMnFJazBpVjIgiP+QrTrRYvtL5usdLpY6lU6YN6pL/mAy+7weh5vD6sOwzg3bZhZREIc7uM+qL6pkanIha0QsOQlq7AAA=");
 
 export default FillDrip;

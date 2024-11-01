@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `umbrella-simple` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/umbrella-simple?s=solid umbrella-simple}
  * @preview ![umbrella-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/umbrella-simple.svg)
  */
-const UmbrellaSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c17.7 0 32 14.3 32 32l0 2C403.8 48.4 495.6 140.2 510 256.1c2.2 17.5-12.4 31.9-30 31.9L32 288C14.3 288-.2 273.6 2 256.1C16.4 140.2 108.2 48.4 224 34l0-2c0-17.7 14.3-32 32-32zm32 430.6c0 45-36.5 81.4-81.4 81.4c-30.8 0-59-17.4-72.8-45l-2.3-4.7c-7.9-15.8-1.5-35 14.3-42.9s35-1.5 42.9 14.3l2.3 4.7c3 5.9 9 9.6 15.6 9.6c9.6 0 17.4-7.8 17.4-17.4L224 320l64 0 0 110.6z" />
-    </Icon>
-);
+const UmbrellaSimple = createIcon("umbrella-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABaAAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBSwsGAAE2AiQDCAQgBYMtBzYb0QTIhof/t/u+fW5V8/HL9SkMiRBiRqa9JpWjqalTz3MeCuAbBW0PDcgCn/M8AjkPzbYewY7JPa8o1trZJRn0+k3SpXySYfOD3Q55vJldqYV0X/oEt5SPih/1cyVJRwYgmgBYunv7Ru91RVfEx+XLxMfWIyCWgkIgw/RAARbIBO+QK5DLBV1RlvIfWBBAtNK7TyBHjrXYBshBkvJ8aFFpqeW7Ki2d+2/oFXEX8e3WL3fe1fPOzmpc3/vuPt9v/3p3xGV97qnsfXBMxGMzrh/1SP/ecXefe+LX97qrV6+4q3JPn4hKGPZE84mfh35y9CfKd+vXcm092VN565PK7tq159bfUz/32lpl9ydv7akk9WuvrQ95Jo7m6Gbf8eMf6mn//PmvvPTiiyf0sLbyW+MUS5wCBILykz3/H9JY8Hd7JYEf3vj1v3q+KN+LMj2BdgkE2YRyggOJEFEKAECKsw0zxkKyVBI+tepuAUInAiStOgXIDNAUINdpvAAtBpspQKtO22Ui7xB6OqiDpOo0kJnlIpDr6UXQYoH3rVY9I/MmwheIz1zsKoZWDhVTJ00p5hVTTyMdBMvd+cWyOubslBmLk452ipOd6ShHOs6ZhJxuo3uWk6yy4JV+qDDVJFMU5im2w8fDuxzldGc4zilOlj7zFefNMc62y8fCSBR1mskkEalx1kmHn/5iCBOvJAAA");
 
 export default UmbrellaSimple;

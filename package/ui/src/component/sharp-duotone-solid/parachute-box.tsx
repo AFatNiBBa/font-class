@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `parachute-box` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/parachute-box?s=sharp-duotone-solid parachute-box}
  * @preview ![parachute-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/parachute-box.svg)
  */
-const ParachuteBox: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M24.9 192l43.2 0L184.5 320l55.5 0 0-128 32 0 0 128 55.5 0L443.8 192l43.2 0L352 340.6 352 512l-192 0 0-171.4L24.9 192z" />
-        <path d="M128.5 192l254.9 0c.3-5.3 .5-10.6 .5-16c0-51-15.9-96-40.2-127.6C319.5 16.9 288.2 0 256 0s-63.5 16.9-87.8 48.4C143.9 80 128 125 128 176c0 5.4 .2 10.7 .5 16zM358.9 16.7C393.8 54.8 416 112.1 416 176c0 5.4-.2 10.7-.5 16l96.5 0c-8.3-49.9-50.3-138.5-153.1-175.3zm-205.7 0C50.3 53.5 8.3 142.1 0 192l96.5 0c-.3-5.3-.5-10.6-.5-16c0-64 22.2-121.2 57.1-159.3z" />
-    </Icon>
-);
+const ParachuteBox = createIcon("parachute-box", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdgAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBaQsIAAE2AiQDCgQgBYMtB1YbEQXIHge5Oeqe6XMmpsXDk13U+1U9s4B6NzKRwSkZ46DonFGxHMKT/8TCxfk+dSrnYpsC+EZB20NzPhYGk659XoEC12pzgS+hmtbAujvbpnao5SQtDZLjsxyPLRTxcT6rQrqV3sUF+R/A+Fk7Z0nqZQDRFAATli2a4/Uv4osU79ZeIN41GwExEZQCGRkdBRgtC3RUKFEoBF+kGr6ImpIAokqQTK/iMy7CRkABkiyKommTJp0aVBoVSxtU6i9rUL/Bjfh84qtTH/364pOtlj3sFHHPSQ3i/sSW1v90fMTrHRvE9TjV5UGvxWBJNIgACLRsycUh6kfE0m6Pmj76teu7W991svY/HV2nbsxZsLZp07ULYk7dOt8+5U9+6F+37nrTBg+a1el9zg9i8LQNpgr9f/iTtrVeeMbhE4Y5qXTScIdO6OX8VY+97nF+HASCvy80Hrquyejf6jZI4KsX/yT8jmqvJ+kR6kogyL1rva1OIBEAgBRHdUvQTiDrK8NPbei6AKE+AiRV9QXIOmgqQKG+XgJUdDZEgKr6FsmiqCe0tKaCpKEDIBvqGCi09DyoGO2NsKplZO/ifIP73CVP1fCUWeWAvv3LkWW3VHiHYeLkqHLZ7n6UO3rAQlvts9dhW2y2w2FFHTQnOWKPqSNyii8qDdBXf6WRyu36rbyUwoMO2WGL+9OMUp73uzs67t8DvCTRDjQny0SK3OqlRpu2Hzm85VHzN7VHG0O8lQ==");
 
 export default ParachuteBox;

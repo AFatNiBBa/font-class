@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-viewfinder` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-viewfinder?s=sharp-thin camera-viewfinder}
  * @preview ![camera-viewfinder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/camera-viewfinder.svg)
  */
-const CameraViewfinder: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M8 0L152 0l8 0 0 16-8 0L16 16l0 136 0 8L0 160l0-8L0 8 0 0 8 0zM512 0l0 8 0 144 0 8-16 0 0-8 0-136L360 16l-8 0 0-16 8 0L504 0l8 0zM192 96l128 0 12 32 68 0 16 0 0 16 0 224 0 16-16 0-288 0-16 0 0-16 0-224 0-16 16 0 68 0 12-32zm140 48l-11.1 0L317 133.6 308.9 112l-105.8 0L195 133.6 191.1 144 180 144l-68 0 0 224 288 0 0-224-68 0zM304 256a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-112 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM0 512l0-8L0 360l0-8 16 0 0 8 0 136 136 0 8 0 0 16-8 0L8 512l-8 0zm504 0l-144 0-8 0 0-16 8 0 136 0 0-136 0-8 16 0 0 8 0 144 0 8-8 0z" />
-    </Icon>
-);
+const CameraViewfinder = createIcon("camera-viewfinder", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABjwAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniDAgsGAAE2AiQDCAQgBYMtBzgbigXIHoexe2TJLAat3qGIh6e57z13kqXJZ8gnIkWArUPVriqjrEPW9QDoXjIDPqTJYu309/P8xzJBnq3EhxZNUXkeFbrz4UTSq0Cms4HNdAI2c2vu4yEi3G9IaJEMFeI/6B+0gzJedUgT6YEE9+iHxk/6uo2kKABEFwAs2bpxg7c+j88jPm1MfGodAmIJqAUKFBggwHyFwAClGqVS8Hk0GvE/sCaAaEZ88toSGU/iRUAJktay7Nm9b++OHbv3rJo6lluqpryzypXIWYgcYa7qKHS6nKHeZOH2jaqSAumQXvXfnKvcK/qB1id62EVH+22bHvTs8Kf7PDDimVHP9c+PjXtpzAsDHx79/NgXB20Kc4EQtsVzx1zlRSVXZ4g89MUuL/4yxBFa3mxvv7+L1rvu0kpx2q2t/7fS2K7z3eWuVrU+t3cufdPyLl18rosukyW6/M0mVRKb47ITSWSOavnnarnL+5/NZ27ePJPBe6748o8/viymvNlY3nXfI54HAsG3n713997m/9NaJfDlK7/9pD8jjbeS9CJaJRAU4xvj7UogEQCAFFcMTRBIHtSK79rBvQKEjABJsyxAob8uApSycQI0GWSGAM2yjQpRtgk97D5A0sF5UJjpVlDq4WXQZL4P4816ROGpMj+T/SemXtlCKxbVUyZOrufWtyVV7nySPDqvNutGX0HLGNnqiLPOuOSwQ4671LAu2JC67LSVI8oKX1SbYqLJanPV09XP67c47IKLjjvrTJllnnq/a7Qr4+5jxJhQ7FQ5SSJS13dNM8GftUe+c2kuAAAAAA==");
 
 export default CameraViewfinder;

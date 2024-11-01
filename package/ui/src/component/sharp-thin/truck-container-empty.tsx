@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-container-empty` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-container-empty?s=sharp-thin truck-container-empty}
  * @preview ![truck-container-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/truck-container-empty.svg)
  */
-const TruckContainerEmpty: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 128l8 0 104 0 4 0 2.4 3.2 72 96 1.6 2.1 0 2.7 0 168 0 8-8 0-24.4 0c-4 40.4-38.1 72-79.6 72s-75.6-31.6-79.6-72l-.4 0 0-8-144 0c0 44.2-35.8 80-80 80c-31.7 0-59-18.4-72-45.1C139 461.6 111.7 480 80 480c-44.2 0-80-35.8-80-80s35.8-80 80-80c31.7 0 59 18.4 72 45.1c13-26.7 40.3-45.1 72-45.1c38.7 0 71 27.5 78.4 64L448 384l0-32 0-216 0-8zM624 392l0-152-160 0 0 112c14.6-19.4 37.8-32 64-32c41.5 0 75.6 31.6 79.6 72l16.4 0zm-8-168l-60-80-92 0 0 80 152 0zM528 464a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM288 400a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM80 464a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const TruckContainerEmpty = createIcon("truck-container-empty", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABmAAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCXQsGAAE2AiQDCAQgBYMtBzwbaQXIjtFjx0NIjizxLNdYLx7+2+/3+8wMYpYhafKQNdLohPYSUZKvDg0yoYqF9NarJPk/Xx9+f++5H+L98Ogmuq0tbQ3QW2TcGhxXCvOmv5/n/7yWII+XYkOpomyqoIj2Cey82itFZgMb0UR4U+5eCOIODUvXDkr868AlXbNewJn1ofHNaAaSnAEQvQBg+6C8EHf1qEc8V1cQz/JBQGwDmEWQkTGJgDVsgUkcs6AognpUFfsPpBBANMN5XQIFrTgFtwAKSJoLJ1veJnWcYq6UUxVEirrF7WJt7BGCCtPaRav+U/dxkDERRycim6Vr42a9x6ZV96HoOsjYdkLniXOeI+OG70R8FDgzigNKa6fpCKKD1+DYr6qsKk7qqLgJnQeZhEv/qamLr9rOyP5TyxYbV9tbf8rJKJivuZejF9xuClonVMg+hBLbPYHW0Y3y8t/fnfIMoNU5st+pMISFFhZCYQZFZxUpb/jY2q6fB/VJ8MBfdcJ2MWKoNs+t4N+lFuvFDSixevATFWG3R0SFTD+b7MbPXyN3vW+2Pw9AIPh6jE5olq/9bxWzAI2nn2/zfFT1VGMxgFYJBHmhCtOQagCIkgCeFFNw9gwwkJzYxu/a6QIBoR0BkmbtAmQTFAgo2s0joMm0eAQ0a7eDLYoQYVBjDpJOxyBbNQ2KQRegyZp7d7PByLcl/6bifxUmySpDmf1odEQUTaGdGangTuPqzlQ6Wu6f4hUBuBVdhg2Z0KlDr4kSYUyhb9KgrD440xdR0SJEoVLQ2fnr66t0GjOu17Ahs5dUdH2z31R//QBUsTgsF8UliUja9y7r/0VZ+CMC");
 
 export default TruckContainerEmpty;

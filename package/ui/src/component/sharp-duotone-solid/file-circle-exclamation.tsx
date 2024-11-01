@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-exclamation` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-exclamation?s=sharp-duotone-solid file-circle-exclamation}
  * @preview ![file-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-circle-exclamation.svg)
  */
-const FileCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 38.6C310.1 219.5 256 287.4 256 368c0 59.5 29.6 112.1 74.8 144L0 512 0 0z" />
-        <path d="M384 160L224 0l0 160 160 0zm48 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-64l-32 0 0-32 32 0 0 32zm0-176l0 16 0 80 0 16-32 0 0-16 0-80 0-16 32 0z" />
-    </Icon>
-);
+const FileCircleExclamation = createIcon("file-circle-exclamation", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABgAAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBcAsIAAE2AiQDCgQgBYMtB2obLAXIjsM4hvwSSxniGA/f63o990m79pfMIAMwVA51VMV1ALkpdlJSmS4zm8y87xPXPP/zpwcse4JHiqhFWoJ1nk9gwLNMoAHNBraZ2nZXTeKhtI8kLVhaHr8tj9d1F8jj/+yxGumV9AdeyP8DGH/r6TFJSwYgOgBgwbZNa3zTiEaKP5ofEH9YjYBYCCqBDBn6CDBbJtBHrkIuFzRSs0kjms2KAKIuf04G6miFHTgIyEGSizxv1bulY9ey1jbfWtaKY1u3bBXljmdmRXw+7u14MPatmZ8VT6Z/MvoN98e8OePTclBRFhFlCEGIIjAos3Iu8+kfZlcdrm0TtYGvdXjt3wGOcq//q3jIU0/H7RuWSBMGDB06YEJKw0hVMJuVw6hU73QoWq+DSgfV+KYBpPDlhrk3Z3TbMZOnDFsFEAi2rDn3/L72s/9rXSbw52f/xT3d/CbNT6+htQSCbHRztN1pPgR8AJkUVw1c/VADgcxsOXzXNl4UIBQIkNQVAmR66yBArjBKgJp+pghQV9gkE3mL0MWeDidtXIAzU92Bc128D9fM9nO2rktkGsboB/N9l7iUAkvmVRPGjq9mVtuqxioNlaZnVcfm8KuxawQsddQ5Z112xGEnXCbQRWsKV5yxlAOX+KLKBGONV5mpEjcexa0ke9ElJ9a8fJZZqvux4a7yg0eAkyDhRAsyGZEi62/N6ph/cYIxR64X+8CZd6OOsdihBnC8iQIA");
 
 export default FileCircleExclamation;

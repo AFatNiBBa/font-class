@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kazoo` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kazoo?s=light kazoo}
  * @preview ![kazoo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/kazoo.svg)
  */
-const Kazoo: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M416 144a112 112 0 1 1 0 224 112 112 0 1 1 0-224zM523.3 352c22.8-25.5 36.7-59.1 36.7-96c0-37.3-14.2-71.2-37.4-96.8c.2 .3 .5 .5 .7 .8l52.7 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-52.7 0s0 0 0 0zM482 384l94 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64l-94 0c-19.8-10.2-42.2-16-66-16s-46.3 5.8-66 16l-121.5 0c-2.9 0-5.8 .4-8.6 1.2C196 135.9 77 169.6 23 185.3C9.4 189.3 0 201.8 0 216l0 80c0 14.2 9.4 26.7 23 30.7c53.9 15.7 173 49.4 196.8 56.1c2.8 .8 5.7 1.2 8.6 1.2L350 384c19.8 10.2 42.2 16 66 16s46.3-5.8 66-16zM308.7 352l-80.2 0c-24-6.8-142.7-40.3-196.4-56l0-80c53.7-15.7 172.4-49.2 196.4-56l80.2 0c-22.8 25.5-36.7 59.1-36.7 96s13.9 70.5 36.7 96zm56-147.3c-6.2 6.2-6.2 16.4 0 22.6L393.4 256l-28.7 28.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L416 278.6l28.7 28.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L438.6 256l28.7-28.7c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L416 233.4l-28.7-28.7c-6.2-6.2-16.4-6.2-22.6 0z" />
-    </Icon>
-);
+const Kazoo = createIcon("kazoo", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABowAAAKjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDEAsGAAE2AiQDCAQgBYMtBywbjAXIBp7n7XrPfTuz2bz5xgSQ9wtORXRiG3dxlYrzf83nl3Z0gD/sXKPxjhpkzaPM5xPY88Qunch8NqCJ8WzLecL7QxQuDhFHlIQ0LOGwdgKG/JbemKBK1BMga8PkK6HEJxWGAweID0yBCcsWzeHeBxkZ8uT/ZYjTmQUIgEwEwEYAB/aKCASA0TgQIAIDGzAwEPgg///jP9AGAQBx4u+gADCAdkAbcAEAMABQmIYRHjowooNlehpLLVNvS+si0hBagjukuHO9Tu3aGFYqMeFl3ZqsJXc71Y51iyVpgQUg7oB8rSVm3DLc0lZTr7ZwkdKerV21NOrUzlpSA/IHX5IpnetDkJIuDUMui1iZaVnSYKV1W6otXRjUOPQKsK4iTcOuzuxWFGzJLbtmzLL8wB7SXQIrCO4lPQQrCuopvQQrDOguPWW3jq0+rd87PNn6hKp+UZVQ+flzVJS5lZVRlGPLdj4f6nINE4bglZzs5Q5nCM5mrc2s9vXVbjSerl7L+86d35/A7P96xMjUsqvLnPNxLrtaljZixOv+xsnEPR89X6eNj50SEtqjx9H5HNVdQkOmxI6fz1CXa+iw3NLSW9xCsJaWxzymIP8OAAQQWFOV9Wad9+hfLksB8OnGz1/rncqtWgEXCgABR+//vVmt3AAqFACIKzlKx+SDBFDUYeKRB4XVpKDhAAonGjgIxwcYaHoBkyiGnOBEswgHYrRHCGANAhQeHAAOhnIGGARwEZiM5n7MSYA4GlZtN/V3MWsqE1MG2QP69rdH2rc5u9aD8tI7yn5sdz86a3pgLlvZx14Os4XN7OAw8QeZkzzCHqZm3BS+iM0A+tIfm5HY5eJnaynFDnKIHddGvZ9R2O9H3TmaN++BYSgAYOCnlmeWKHPXhpP79gEAAAA=");
 
 export default Kazoo;

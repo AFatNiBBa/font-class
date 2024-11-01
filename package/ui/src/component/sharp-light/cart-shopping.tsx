@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-shopping` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-shopping?s=sharp-light cart-shopping}
  * @preview ![cart-shopping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cart-shopping.svg)
  */
-const CartShopping: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 0L0 0 0 32l16 0 51.2 0 77.2 339.5 2.8 12.5 12.8 0 336 0 16 0 0-32-16 0-323.2 0-14.5-64L496 288 566 64l10-32-33.5 0L100 32 95.6 12.5 92.8 0 80 0 16 0zm91.3 64l425.2 0-60 192L151 256 107.3 64zM184 432a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 80a56 56 0 1 0 0-112 56 56 0 1 0 0 112zm248-56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0a56 56 0 1 0 -112 0 56 56 0 1 0 112 0z" />
-    </Icon>
-);
+const CartShopping = createIcon("cart-shopping", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABeAAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBegsGAAE2AiQDCAQgBYMtBzQb/gTIhof3beaf+zy2dg1ah3jCjF269OkYPgB0rJ6gZZw69TznoQA+hyAoe2pAloVCa3WdV6Dn3VbftEGmUEWx1k3XchL5NXlVL8keT8PUFrL4OAYoki6m93E2f1V8rZ0zJFkBQNQBMHX18oXe/CK+iHj//+eI981HQEwDuUABj+gowAQFgY4yOTKZ4Iv4/3/+B+YEECXyVAlkaMAm7AFkICllWdfGxlpjrVKsZasqxfL6cqUsKpW10SoqtYhytVvUYnV0KI9qH62jPLRWra2Iaqxae7fdhR732l/u7X6Hy+0v9brT9kK7iz1XX+494iuNfq8Hceh3e1vLuz1cf/jbru/vel/TG3U5PlcfvmC5/mpbcvXp31tm5ueu6/rKMAPUnnhY1o9/wzT931hweGmrVktjeMkPf/39918/0P59dAcP4SVNT7zxxhNN4XwgEIzY+cEHm5sm/NpQSeCrl7//kaf7/8U0JT2MBgkEhQH/D7AhTQGgA/BSnNLNmGIgWeXGvrXqnAChjABJSVmAgg7qAmTK+gtQ1NlIAUrKliuIrFFoaWMFSdVRUDDKaZBp6RlQNMFbbknLKHgZ7SP0Hy9hloZmTsqHDhqSj8unscI4DplGx+fLRp9TrPXFRrscdsgJO+2w1wmFHLMwOOmgWRY80w/lhhpkiNw4+XZ2K6xS7jHH7R2r9scZLz/v9HHK7u4LOxHMYSJJIlLtnaoD3RIAAAA=");
 
 export default CartShopping;

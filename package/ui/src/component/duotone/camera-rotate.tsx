@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-rotate` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-rotate?s=duotone camera-rotate}
  * @preview ![camera-rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/camera-rotate.svg)
  */
-const CameraRotate: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 160l0 256c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64l-74.7 0L426.9 64.8C420.4 45.2 402.1 32 381.4 32L258.6 32c-20.7 0-39 13.2-45.5 32.8L202.7 96 128 96c-35.3 0-64 28.7-64 64zM192 320c0-8.8 7.2-16 16-16l76.7 0c6.2 0 11.3 5.1 11.3 11.3c0 3-1.2 5.9-3.3 8L269 347c13.6 13.4 31.9 21 51 21c19.2 0 37.7-7.6 51.3-21.3L391 327c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-19.7 19.7C382.6 403.3 352 416 320 416c-31.8 0-62.4-12.6-85-35l-23.7 23.7c-2.1 2.1-5 3.3-8 3.3c-6.2 0-11.3-5.1-11.3-11.3l0-76.7zm23-105l19.7-19.7C257.4 172.7 288 160 320 160c31.8 0 62.4 12.6 85 35l23.7-23.7c2.1-2.1 5-3.3 8-3.3c6.2 0 11.3 5.1 11.3 11.3l0 76.7c0 8.8-7.2 16-16 16l-76.7 0c-6.2 0-11.3-5.1-11.3-11.3c0-3 1.2-5.9 3.3-8L371 229c-13.6-13.4-31.9-21-51-21c-19.2 0-37.7 7.6-51.3 21.3L249 249c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9z" />
-        <path d="M448 179.3l0 76.7c0 8.8-7.2 16-16 16l-76.7 0c-6.2 0-11.3-5.1-11.3-11.3c0-3 1.2-5.9 3.3-8L371 229c-13.6-13.4-31.9-21-51-21c-19.2 0-37.7 7.6-51.3 21.3L249 249c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l19.7-19.7C257.4 172.7 288 160 320 160c31.8 0 62.4 12.6 85 35l23.7-23.7c2.1-2.1 5-3.3 8-3.3c6.2 0 11.3 5.1 11.3 11.3zM192 396.7l0-76.7c0-8.8 7.2-16 16-16l76.7 0c6.2 0 11.3 5.1 11.3 11.3c0 3-1.2 5.9-3.3 8L269 347c13.6 13.4 31.9 21 51 21c19.2 0 37.7-7.6 51.3-21.3L391 327c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-19.7 19.7C382.6 403.3 352 416 320 416c-31.8 0-62.4-12.6-85-35l-23.7 23.7c-2.1 2.1-5 3.3-8 3.3c-6.2 0-11.3-5.1-11.3-11.3z" />
-    </Icon>
-);
+const CameraRotate = createIcon("camera-rotate", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABwAAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDNgsIAAE2AiQDCgQgBYMtB1Yb3gXIHge52ege6XYC3aShtDx8b/P13PdWsv/KDGveb2CoACgAWAFyCcRFqUmbSZlaxIz7iyDVAfOMypD3+fm/3PN7fnSA3+jQ9tDFC3CuxrKehwGO7XlCCSUcWAQaU7uz3WrtkbSkmYXknxyXOnQeUKQp+W4N0tPpdzyI/wMY/xrubpKuDCD6AWDN7dzh63a0U/zeeZ/43XYExFpQCWRkjBJguSwwSqFCoRC0U2e0o7OKAKIJf6EyaKIHPscPgAIkSS6KiRMnj5/YavQu9rQa5VnhsUFlPDHkjqHT4p3ynrqO1yY/M3JafLXphxXT4snW44N3hXhyaCseH3z7oDrebt07bVq8OenpYXV8vv7HlXU8Vj4x5GDK6enutyf1jjenvTsyxzNT35lcxoh4ZmEZ7w8bFmW8Vr81bPeMjdg7rZ62daE4a/f4d/q985/fz/zuq1476APt097hoa7G+Ous75j18/Tu/fff84zrZ851xjce6up8x26rxqLs3/+l270UhZKPb/OCL/vfqP+XL9gmrXTbi0ucHUPOzaNk2cv8PBAIPvjJnUf7Lv+/ZyuBfz7t9EUa32mn1ekd9JRAkKd3pjuU2423OqsFACDFtcan231ttUB2sYxetZcnBAglAiRNpQDZSP0EKJSmCdAwxgIBmko7ZVF0CYMcZpD0cgXIFroFFAZ5DzQs95PbNCiyExMuSHwhYzcObdhWzZk5u1paNROZ9EssTC+rzGp9rUY33HXGZS51tdNOOe/qkCvtCK5xiY0avMEbVeaYabbKUtVwfs3uyb3SVc7L9Pg6y1Trzdq1en83GAmhznUiy0SKPPgdhmZcednVx68+PeM9dAwV6LsPAAAA");
 
 export default CameraRotate;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-clock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-clock?s=solid trash-clock}
  * @preview ![trash-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-clock.svg)
  */
-const TrashClock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M135.2 17.7L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-7.2-14.3C307.4 6.8 296.3 0 284.2 0L163.8 0c-12.1 0-23.2 6.8-28.6 17.7zM416 128L32 128 53.2 467c1.6 25.3 22.6 45 47.9 45l229.7 0C285.6 480.1 256 427.5 256 368c0-90.4 68.2-164.9 155.9-174.9L416 128zM576 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM432 288c8.8 0 16 7.2 16 16l0 48 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const TrashClock = createIcon("trash-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfwAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCFwsGAAE2AiQDCAQgBYMtBzIbGQXIjsK2bROHGGqoHxDxjYfv92vnvv/WFEjezZJYSHgiEj0RN9JImqB1KIGhksl7/2tt5s53zzD/iIpmkog07+KJxqPSmP9rPr/n14Cfj+DQoqj1QCLpMFb5fAIDnHXQDnRlw9lEcW9bOpSIwtOQkCCJaEwbqwPkeC16oER6ZzwAT+1D44+SHpDUCgCILgCwdx4dCldf+BV4P9wnvgQDAbEHMANRoMAEBJuYAhNYZoAsC37w/5/+AwkIIMogd5xARhlXwAMAGSQ5s7TGVGRotpAV12BTyaMKshQOyc7AQG6WFuKwwjx2ys9RFMrHkh6Fy4qZTaEgMRadYmk8MdvAx4PL+PjYTjPEDacTasjhyGQNBqbrjsf0sPOp+SbGPcsBNhA3nZGlcE4ecV5Ba0Wy8qP5kPegb70UYxkgehwQZaVDR2co1WHRwGKgWDrAYmSjSH+/yXyD/rqNKfp8XnrxmB4fv/oEYGZEWk9PWoYQfZOixHj4V9sC0VHR15LqgW8HEAguDj200jsu/7wGA+D35PcvXW94lTzSClCVQFDMDU2kJA8AUBFwUtTRcr4okFxikXdteoEAoY4ASVldgMI4CQRZ3SwEJVNsISirO8YUmQ9hVOoASdMdKGxoBdmoXVCy6douGw1mzHERw335kv0s5DuMWJpZECeyTCkfRkzpdybbmkEd1xnCVMhTrkyNXDkK1RiySqhXq5SfB/v6IcKSGQuEE3Jceh4fJ1eVaoXKldVBnJH7loE6v7UhmAxCu2JOkohE19xnVheYvlEAAA==");
 
 export default TrashClock;

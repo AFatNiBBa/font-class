@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-line-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-line-up?s=thin chart-line-up}
  * @preview ![chart-line-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chart-line-up.svg)
  */
-const ChartLineUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 40c0-4.4-3.6-8-8-8s-8 3.6-8 8L0 408c0 39.8 32.2 72 72 72l432 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L72 464c-30.9 0-56-25.1-56-56L16 40zm336 88c-4.4 0-8 3.6-8 8s3.6 8 8 8l100.7 0L288 308.7l-90.3-90.3c-3.1-3.1-8.2-3.1-11.3 0l-96 96c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L192 235.3l90.3 90.3c3.1 3.1 8.2 3.1 11.3 0L464 155.3 464 256c0 4.4 3.6 8 8 8s8-3.6 8-8l0-120c0-4.4-3.6-8-8-8l-120 0z" />
-    </Icon>
-);
+const ChartLineUp = createIcon("chart-line-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZgAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBRwsGAAE2AiQDCAQgBYMtBzQbywTIHoVxMz3SRXNsb/+Ih/9f+98+d+abYD6ImDW6SceTNbx5CW9RNVF5yVwLViH6U6dqhm0K4FsookHZUwOyQJLudV6BCqY2JkmtYDWtgPVs25sj4iHeCIXGDfJ4Y5cK0v0EV8OHxk8dXCHJMgDRDIDpa1cu9rEUpYjv5YnvFiIgZoBCIEOGzgJMkgl0liuQywWlKJfFf2BBAFEpxhI3py/OwXJADpKU5+371FU05Gt4Y+3GO21vtU5xv//T3g1xt93gpPp41PZOx2z7rda329TFqlgTd1pbzq02t9utjdUBMdocCiLk6bU9njU/+80emu5Wtq3ymMaRI0vPNcKg+tyx/3+rji1dy5p2e/DA+g1Wrty61ejRpWAUnT19Zrdz5rlCECwQz507cOzQ1qZJ/6rrEvjx+m/+V1QuJekZqiUQZIPKg2xKIBEAgBRn9EgQSKZIwrvWuyNAqEWApFKtAJlOmgXI1RooQIWuRgtQqdZKmchrhNY2dyCpdxxkxrgMcq29AhUm+ZRVah0ZLCmQoHzKZc4ZorMPFcOHDCsmFKs9jQoekt2dWBwO+52RM/3xUXscdcQpu+2y36kBc8Li8rTD5mzRs31RYbghhilMUFwePjXX0OyEk/YvK9ch+0xUPJ/2c2Z7eX+cJDHvCLUkEanhLZob/IOJ6PQxAAA=");
 
 export default ChartLineUp;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `x-ray` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/x-ray?s=sharp-regular x-ray}
  * @preview ![x-ray](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/x-ray.svg)
  */
-const XRay: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M24 32L0 32 0 80l24 0 8 0 0 352-8 0L0 432l0 48 24 0 32 0 400 0 32 0 24 0 0-48-24 0-8 0 0-352 8 0 24 0 0-48-24 0-32 0L56 32 24 32zM80 432L80 80l352 0 0 352L80 432zM272 96l-32 0 0 16 0 32-64 0-16 0 0 32 16 0 64 0 0 32-96 0-16 0 0 32 16 0 96 0 0 54.6L181.3 272 128 272l0 57.6L170.7 384l170.7 0L384 329.6l0-57.6-53.3 0L272 294.6l0-54.6 96 0 16 0 0-32-16 0-96 0 0-32 64 0 16 0 0-32-16 0-64 0 0-32 0-16zM208 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm80 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const XRay = createIcon("x-ray", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABegAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCMQsGAAE2AiQDCAQgBYMtBywbLQXIHoVxMz3SRXOUj8IuIvh+7t89N8mHvDJkqphZtZ5AVbGtKzsUHhXL6pfMkA/5XhsycU39SHrK8yZ9tMhlg0Ry5/kEBvg3e3+fD3hgM52AzW/n5ykGxcUgXRKXLu1/uGH7EeTxMlaQ7ie4mj80/ujqCkmRAYg2AJi2ZsUi777Ft4jP9YnPFiAgpoFKIEOGHgJMlAn0kKuQywXfol4P/4EVAUQDem8CORpxAZcBOUiKPO/ePKm5uVa0zFfXinJDWStFrZaiBNkygAysje7MUtYyUrSQ48JODf3zowwxjfmYEVGfG6HaKREUK293vNXhTqe7nVdVswT3edbm2b/spvODLjQ8VJemrZr87k+u3L26FXJbbX27pHreRmVqm0qbqZWtCN06xiOjjPfQMw+NR+ORMfuZu+E2U75+a9XqWyOWZPLrQCD40nLfmy2tJ/5vqiXw4wX9Z6T+LUnP0CSBIBtYH2hjAokAAKQ4rU+CQHJCgVQt3BE6oQRC0qAUMt21EXKlAUKhl1ERGpRWyETeLHSwCQtJC8eEzGiXhFwHz4XCRO+bDTpEZoCm+Zj/f3mzZ3jWo2rY4KHV+Oo4Myyb0tPthOo60/d03OnnQu12xGEn7bLTPicn+rhFnVMOmS1Rs3xRZZjBhqqMV6mXr95q3zzuhH17R3/PBNX7Rl+n5eP9XD4hzeFi6RMMp+LsoOPbzgEAAAA=");
 
 export default XRay;

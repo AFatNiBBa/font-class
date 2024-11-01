@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `virus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/virus?s=solid virus}
  * @preview ![virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/virus.svg)
  */
-const Virus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 11.5c0 49.9-60.3 74.9-95.6 39.6L120.2 75C107.7 62.5 87.5 62.5 75 75s-12.5 32.8 0 45.3l8.2 8.2C118.4 163.7 93.4 224 43.5 224L32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l11.5 0c49.9 0 74.9 60.3 39.6 95.6L75 391.8c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l8.2-8.2c35.3-35.3 95.6-10.3 95.6 39.6l0 11.5c0 17.7 14.3 32 32 32s32-14.3 32-32l0-11.5c0-49.9 60.3-74.9 95.6-39.6l8.2 8.2c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-8.2-8.2c-35.3-35.3-10.3-95.6 39.6-95.6l11.5 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-11.5 0c-49.9 0-74.9-60.3-39.6-95.6l8.2-8.2c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-8.2 8.2C348.3 118.4 288 93.4 288 43.5L288 32zM176 224a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm128 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Virus = createIcon("virus", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABnQAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCdwsGAAE2AiQDCAQgBYMtBywbcwXIjsK25RMjDGYOE0KYIB64htLy8P/7/drnvPtQSSYJkiYPSbQTCouQINJoNp40xAlJLNS/ps6v05D7t8uZO+8eEfwArulKdKfdkKXcgW2aJi8t5/+aepEUDfLpjuxQcmml8wqKyOcTGHCUF9jAzgY20wnYdJvz8QmjJyiigiTE47Tjqg6dO5S45A5CTd5zXoDr/KHxj9Egqb0CgOgDALZPUuPhroGNiOfnY+KHWCAgtgEwCVGhwigEa7gCo3gmgaIIGvH8zP+BBAQQLVA8kKCgxju8BxSQqsLrl4ppvpSXQddUSZ8OcZYa10yDeGW/6aqbjlwOa3HPwPhTiCMzNI3HRtZZgzgyodfjgcOWJSCOzCHiitOOixZxpE+nw33zQhCN2DNLUXhimnfTI2z/Sg3uOm5bYdqCochhy8jYb05RU3oz2Vzfbruv2P+0eSl+Yf1WNgquemSjoz0SmHtofrQA0yVlxrolY60mf7+nSPRcaer+n99T0Bg1xmiZEV8fmg4BK/3wVe2WMKzKtphi8mmBhlOIDbP+yRYfzX9qqLmlqjs6qqladhGUrNUmsx4A4rWzncbyHPna/zaaA/D3y9c3+RU936X8DLRJEFQLz+4yEyQBAMhoBtsEBNKdSvZqlxsBQgcCpBYdAlRGKCAoOsxDUBsXAEGLDge4ooghDMkaIHU5B5VVXaAYcghqa+7TLYaCG6NuhLlfxEIRo+G7iI+nNwklx47uCzs7bYaR64hzswkXugnFalRrVKRQmcakevG5JlUiNCbcFxE+PHkjQhFz//1yhiL1GpSpUS3bhCH+CWfN+nwXinMUw0V1KYnkP30AAAA=");
 
 export default Virus;

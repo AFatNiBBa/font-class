@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-flip` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-flip?s=sharp-light phone-flip}
  * @preview ![phone-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/phone-flip.svg)
  */
-const PhoneFlip: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M210.3 367.6l21.3-12.3c51.4-29.6 94.1-72.4 123.7-123.7l12.2-21.3-17.3-17.3-40.7-40.7L356 36.2 480 58.7l0 5.3c0 229.7-186.3 416-416 416l-5.3 0L36.2 356l116.1-46.5L193 350.2l17.3 17.4zM160 272L0 336 32 512l32 0c247.4 0 448-200.6 448-448l0-32L336 0 272 160l55.6 55.6c-26.8 46.5-65.5 85.2-112 112L160 272z" />
-    </Icon>
-);
+const PhoneFlip = createIcon("phone-flip", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYQAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBUwsGAAE2AiQDCAQgBYMtBzEb1ATIhof/Xyu771f1BIAqAESOZBypeCBcJDtnJZHuqVPPcx4K4HvEgzQmzo3ZOLvHeQUqNnCd1wpUK1hNK2DdnU0yEe2TtCxIjs+OzwPyeBo9lEiX0uc4lz80ftXMKZI8AxB1ATB28fyZXlVGZcTn5fvE56YjIMaBQiBDhpYCjJAJtJQrkMsFlVEuu//AggCiAj01gRw5xmEtIAdJyvO2zWqUauWLwm3VF3fu0PmnxS2iW4yKxbEwxPcLvFE9FvHiyOi6aMHiBVJYI35abPgAY0HMXTgzr92Vuld+b/v5ps99M3sFXT2zR4+Z79V1RM/9jjdWYv/glYNW4g2D9ytpfNz+ns6Kvqsvj7boNjcVTtgwHIfSBicKN9sQX+ewrhMndj0MBIIdv3Qqr64z4v+qNRL4+cmff5efkfKrJF1BVQkEWY9yDysSSAQAIMUh7RIEkmESeteazgsQqiNAUqG6AJkW6gqQq667ACWtDRSgQnXzZSKvJjS0soGkpr0gM8hJkGvoLigZ4aOoQsPINIrSB+pDFz+JQxOPFX179SmGFcO+SisJEfeHF9tCl0M41xUu2mS3XQ7YaIOtDjBkn5npQTtNmsETfVGhr176KAxTHI/uTy+y0T77bbXbrnTIcMV9p4tD89VdQU4Is59GkohU/c1FPTft2LoHAA==");
 
 export default PhoneFlip;

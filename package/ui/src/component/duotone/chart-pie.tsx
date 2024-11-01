@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-pie` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-pie?s=duotone chart-pie}
  * @preview ![chart-pie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chart-pie.svg)
  */
-const ChartPie: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 272C32 150.7 122.1 50.3 239 34.3c9.2-1.3 17 6.1 17 15.4L256 288 412.5 444.5c6.7 6.7 6.2 17.7-1.5 23.1C371.8 495.6 323.8 512 272 512C139.5 512 32 404.6 32 272z" />
-        <path d="M527.4 240L304 240l0-223.4c0-9 7-16.6 16-16.6C443.7 0 544 100.3 544 224c0 9-7.6 16-16.6 16zm31 48c9.3 0 16.6 7.8 15.4 17c-7.7 55.9-34.6 105.6-73.9 142.3c-6 5.6-15.4 5.2-21.2-.7L320 288l238.4 0z" />
-    </Icon>
-);
+const ChartPie = createIcon("chart-pie", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABawAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBNQsIAAE2AiQDCgQgBYMtB04b1QTIhofv13o793XPVACgE8UILg4INKH6KrAMMmAX2G3VXN0av/GjA1yjQ7t+/DSQD/x9x8PGA4/y3wKLmgQyxd421NEIpBcRIiUh/UbSOC2Qx//ZASXS1fQFTvN/AOMXzR0gqZ4BiHoAGDl/9lQv3sbbFF9UnhNfmIKAGAUKgQwZWgkwRCbQSq5ALhe8TZUKb6NSKQggyvjqDJRRwkBMBOQgSSLP69VoWrNUO5/Hh2tsr1GzRsTlph9O/LTnk3YXGnW96IcZF5rMi5rzf54fQeeONxZz42KjL+b8NOmzXk/ntb9b7+5v7b5Y94U6X7/B96rz7m3rLq++rdPm7R9/1a019+PbV27d8ru2j2LJwBEMGLmwdt22v7txw/WqqmlGWb78v/+MAgLBmqMjLa875L9qNRN4X/XHP/XeovIiDUt3UU0CQdal0sWSNEIhpWECAJBin/ZpRPQ4rEEtJPjUWi4JEGogQFJWQ4BMS/UEyNXQWYCSNvoKUFbDbJnIqwuNLO2Q1LITMv3sh1wjz6BkiI+tskaRxRAfAfwXLmWcRGPHip7dehSDiqmnCWHBcndwsax22JcyHWHWOttts8daa2y0R5Bdprp7bTXOwmN9qNBTNz0UBinc4VqZR9Yuu20cS/4+gxX7zQ722eUdwUgKtZeJTEakyOo/H7frjo1ru97GTEMl3TsAAAA=");
 
 export default ChartPie;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `store-lock` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/store-lock?s=sharp-duotone-solid store-lock}
  * @preview ![store-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/store-lock.svg)
  */
-const StoreLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M48 146.5c0 36.5 24.7 71.4 64.2 76.7c4 .5 8.1 .8 12.1 .8c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c19.4 0 37.1-6.3 51.5-16.7C456.8 178.7 490.2 160 528 160c21.4 0 41.3 6 58.3 16.4c8.9-22.7 7.7-49.8-6.7-72.6L512 0 128 0 60.3 103.8C51.9 117.1 48 131.9 48 146.5zM96 252.6L96 384l0 128 288 0 0-128-224 0 0-133.4c-11.2 3.5-23.2 5.4-35.6 5.4c-5.5 0-11-.4-16.3-1.1c-4.2-.6-8.2-1.3-12.1-2.3z" />
-        <path d="M496 272l0 48 64 0 0-48c0-17.7-14.3-32-32-32s-32 14.3-32 32zm-48 48l0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48 32 0 0 192-224 0 0-192 32 0z" />
-    </Icon>
-);
+const StoreLock = createIcon("store-lock", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgAAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCBQsIAAE2AiQDCgQgBYMtB1AbJwXIhof3dX2e++yZBSAvALEDQBUQVb8LofpRSq7SRZr5v9zzs00H+PkIDm0PPd/ga1fPEwg8iscC6aVLKM3Qsnb6Hxi+nlV6QpJhc4bJAfI0MLtdhfRM+g4P6f8Axp+6uJ2kSQYgWgNg9sa1yzXUopbiu/pHxHeWISDmgEIgQ4buAkyTCXSXK5DLBbVUr1OLer0ggKhSOKNX+Xn34TggB0mS8rx1p97tm1Va5BuaVZruFZpFxC0dn2x6b/vHTQvx7NA3J348+PUeolmIphHRbGs5OOL1/k80+3To6+Pd/q8OfHfhff2fHbEhmse6eNp6QbSIWL3tpab3dnyyY583Wr/xd+/vDnzn33dHjRo1yygt7767Jcl1+4jYsL916/0bYpRCg5oGhZHDulfIf1tVLe+7Wp66775TP+38//ni2V/Hzj2oJMGHnUYevi3dv1Qo1dwhb9f41KpVQCD4pP9Pf+xsNe2/xs0S+P2Lf/+I1/epN6QyvYHGEgiyYfVhtqVSHzw1gB+V4oI+qYznjBLIjJfwpzb3pAChKQIkVU0FyHTTWoBcU0MFqOhpvABVTa2VibyJ0N72ApLmToPMBNdBrr0PQcU0X0ZV7SPDGocU7quXvMBC8zcVo0eMKqYUw0zm4cPI6tRi2R50IXQG004HnHTCOfvtc9g5Q56xPD3vuAUzYr4vKow2wiiFKYrt8lbeYKIzzjrcF/fXmao47w9yYT4+mLwk0Y6xJZMRKbK24FWGPwR9OGq77WvxggIA");
 
 export default StoreLock;

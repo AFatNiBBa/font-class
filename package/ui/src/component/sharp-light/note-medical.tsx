@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `note-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/note-medical?s=sharp-light note-medical}
  * @preview ![note-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/note-medical.svg)
  */
-const NoteMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 64L32 64l0 384 256 0 0-112 0-16 16 0 112 0 0-256zM394.7 352L320 352l0 74.7L394.7 352zm53.3-8L312 480 32 480 0 480l0-32L0 64 0 32l32 0 384 0 32 0 0 32 0 280zM192 112l64 0 16 0 0 16 0 48 48 0 16 0 0 16 0 64 0 16-16 0-48 0 0 48 0 16-16 0-64 0-16 0 0-16 0-48-48 0-16 0 0-16 0-64 0-16 16 0 48 0 0-48 0-16 16 0zm16 80l0 16-16 0-48 0 0 32 48 0 16 0 0 16 0 48 32 0 0-48 0-16 16 0 48 0 0-32-48 0-16 0 0-16 0-48-32 0 0 48z" />
-    </Icon>
-);
+const NoteMedical = createIcon("note-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdwAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCNAsGAAE2AiQDCAQgBYMtBzMbNwXIHgXunhM24TUMOC1jPPz/WuV9v2qoqudMLfHfVUC9DBgiGUegx8ZFtQvq6DmxOZHRnSzM5x1S+x5v6lTNOA+Fgrk3CtpYC2RpOmjO8woUtNSLl7ZQLWA1rYDVbyffpRh0eoskyT8ZtmPYXKGMb4Me0tcpfO5aGv+a5GOSsgAQDQA2nzy6X2ckRiL+6kr8ZS8CYgvIAgUKTBVgnUJgqlJGqRSMRLer/wMzAUQvtCmBEn14C58CSpD0lOVQ36h5M+uewfJE3VPdbA22UgxGRERdF6equhIndx47eaxVRRQRUQ+KdKKuaiHqWghRVYRHBBFR17XjQlXNGXWd46Ywa7gZ/o9u/OXH997HeTzSaB4ZO2MvSHv27Pzs9ok5e1+Wf8omdt+06VCjrd00Nmk07bYfW0ZDBxs47dyy2gJkOH8fCAR/73v93sWhdf/31wn880vTz0h3JDppGP0SCIr5Xc5FB6IjAAApXpgVHQSSp3rgU1u+ECBUCJD0qgQoTNEIUKrME6DHdMsF6FU5qhDlgDDW+QSSlsegsMI7oDTWz6DHOr/mvcZGIYKsALEfwKQdCt1+Ki9e2M5rcncgclJF28O1edma/cIszKFGNzz0wDPXXXPbswx/Yn/13H07Rth2X5QttlBbtkbeHl9ePuG6J5667aEHfMxa+Xw224vx+jnkJqBcoi9JRGpdaG3BgwQAAA==");
 
 export default NoteMedical;

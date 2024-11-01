@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-check?s=regular trash-check}
  * @preview ![trash-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/trash-check.svg)
  */
-const TrashCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M170.5 51.6L151.5 80l145 0-19-28.4c-1.5-2.2-4-3.6-6.7-3.6l-93.7 0c-2.7 0-5.2 1.3-6.7 3.6zm147-26.6L354.2 80l13.7 0L416 80l8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-11.6 0L388.4 452.7c-2.5 33.4-30.3 59.3-63.8 59.3l-201.1 0c-33.5 0-61.3-25.9-63.8-59.3L35.6 128 24 128c-13.3 0-24-10.7-24-24S10.7 80 24 80l8 0 48.1 0 13.7 0 36.7-55.1C140.9 9.4 158.4 0 177.1 0l93.7 0c18.7 0 36.2 9.4 46.6 24.9zM83.7 128l23.8 321.2c.6 8.4 7.6 14.8 16 14.8l201.1 0c8.4 0 15.3-6.5 16-14.8L364.3 128 83.7 128zM318.1 246.1l-104 104c-7.8 7.8-20.5 7.8-28.3 0l-40-40c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0L200 307.7l89.9-89.9c7.8-7.8 20.5-7.8 28.3 0s7.8 20.5 0 28.3z" />
-    </Icon>
-);
+const TrashCheck = createIcon("trash-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABeQAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCBQsGAAE2AiQDCAQgBYMtBzIbBwVRVC5KZB+LcUyFV0RLHIggmOvf2SQPcx85n5kVELW1QLKO4wrogRTL1l7Vvk9c8/zPnx4wiR8lGkvfI/GxYnk+gQFWUZQNOG1gM52AbXHbVRDR0FhoHCGL1+KhGpJXkq/xIHxo/K2DqyRqUgDRHADT165crPw1fo34qor4ykIExHRQCKRI0VmASVKBzjIFMpng16hWxX9gQQBRK7m7BGSoxXacAGQgkWVZoOmAJq3zmibZmrymcWO/gf3yGBDPGxvjduu102dMz/M3Orzs1Rjr4mW/1wnuzT7vdtwQoY6v9c3zmfEeuTre6L9q/Yb1z9rk8aLdxqisXrV21dO2U+J5uxdt+sfaQKuete7xbvN3/+3+9Z6vvXtnIBn9yEA9sy2ynk86jkl2azpueZs2yyvazdK+ebeLX3jYrXn7gVKxtqF+yhx15RZl3R972k1Lp3f5/gvl4LbTtP/z9N4k8MMPZ338cWm8Yv16C5zsbgcCwYLLh69vbTbpv/o8Ab9/8H/1M1Ito0zeRb0EBOmg6iCbooQoBQAgiTN6RIlAYr1M8q4VzwUIjQiQqNUoQKqT5gJkGg0UoEZXowWo1WilVGQNQmubezhRcRxOjXEOzrT2Plxjks+sWq0jBTUWUNg/vaQ5Y2D2sGL4kGHFhGIz0nLQQ9v+icVpud8ZWemP19rjqCNO2W2X/U6NoBMWu6cdNmcPnO2LCsMNMUxhguJ2+nz5GrudcNJ+Rx3xg0xUvK/3c2a/dX+sJRLCEbYkEiLJT53YfnLf4G8W");
 
 export default TrashCheck;

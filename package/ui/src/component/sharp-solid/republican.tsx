@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `republican` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/republican?s=sharp-solid republican}
  * @preview ![republican](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/republican.svg)
  */
-const Republican: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 192C0 103.6 71.6 32 160 32l224 0c88.4 0 160 71.6 160 160l0 64L0 256l0-64zm127.8-64l-15.7 32-36.3 4.6 26.5 24.4L95.7 224l32.1-16.9L160 224l-6.7-34.9 26.5-24.4L143.6 160l-15.7-32zm159.7 32l-15.7-32-15.7 32-36.3 4.6 26.5 24.4L239.7 224l32.1-16.9L304 224l-6.7-34.9 26.5-24.4L287.6 160zm128.3-32l-15.7 32-36.3 4.6 26.5 24.4L383.7 224l32.1-16.9L448 224l-6.7-34.9 26.5-24.4L431.6 160l-15.7-32zM128 288l192 0 96 0 32 0 64 0 32 0 0 32 0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 0-32 64 0 0 32 0 48c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-48-32 0 0 32 0 96-128 0 0-96-192 0 0 96L0 480l0-96 0-96 128 0z" />
-    </Icon>
-);
+const Republican = createIcon("republican", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABhwAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCWgsGAAE2AiQDCAQgBYMtBzEbWwXIhof/X/vXfe7Mp3lhmEQxggOWiQJs6wK2hA6f7ap9q5ZA0cz/NfneWdMBfqNDi7TSAynA7JVOYLzn5dW457PhbKI4a2dneIPoN0kffJ8M2w+bbCCPf7JbmkiPUx33yofGj3q7RdKWAYhOAJi7ef1KXzSiEfFt9S7xreUIiLmgFMiQoZ8AM2QC/eRK5HJBI6qK/gNLAohmjCSH52jBXTwG5CBpyvMu3flJE2tN7fNNtaYi+352xOeba/HdzE83ig4Rm3v17TUhhka/GB6gAfNNij4b+/Tu0ytmyaYD99SK9kLc7/6wZ0RELYR4NuTlhPeGvR4g4UItonHE6C8b/LrT658H1Q/Vifl16vOjYX7U6zF/jtKcq7OrqprgoXV+85t9XpigenPgYlwlTrw60HbqwDe/+OKt0hodGo0OY5TmKI0Rmw526nRwUwze0h7X7PFFZeh+EAjaDn3Qd3fHGX+31hL44aNff4ajq0a6ll6jVQJBNqIaYUe6BhgT2E5xyWDliwLJHU3wru08ECAUCJA0KwTI9NVJgFxhuABNBpgoQLPCepnI24RudnaQtHMWZCa5DHLdvA2azPCl1axbZF7J+RT3J0xeJOGFs8qxo8aU08ptqPGOxqTh6aVZHXIploZirUNOO+WCgw446oKgzlnpXnTSIo1c6IdKY40yRmma8jh5XL7JQeecd9Rpp/I005X3zSEu6c1DYSRMO86CJBGpOHfwiVA5BQ==");
 
 export default Republican;

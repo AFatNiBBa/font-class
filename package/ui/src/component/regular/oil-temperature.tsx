@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `oil-temperature` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-temperature?s=regular oil-temperature}
  * @preview ![oil-temperature](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/oil-temperature.svg)
  */
-const OilTemperature: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M264 24c0-13.3 10.7-24 24-24l72 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0 0 48 48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0 0 83.7c32.5 10.2 56 40.5 56 76.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-35.8 23.5-66.1 56-76.3L264 120l0-96zm24 312a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM111.9 286.1c17.8 15.4 41.2 28.5 65 32.6c2.4 18.1 9.1 34.9 19.1 49.3c-1.3 0-2.7 .1-4.1 .1c-34.6 0-67.9-14.3-96-33.8c-14.4 10-38 24-66.7 30.4c-12.9 2.9-25.8-5.2-28.7-18.2s5.2-25.8 18.2-28.7c22.2-5 44-16.8 61.2-31.7c9.1-8.1 22.8-8.1 31.9 0zM384 368c-1.3 0-2.7 0-4-.1c10-14.3 16.7-31.1 19.1-49.3c23.8-4.1 47.2-17.2 65-32.6c9.1-8.1 22.8-8.1 31.9 0c16.9 15.1 39.3 26.8 61.3 31.8c12.9 2.9 21.1 15.7 18.2 28.7s-15.7 21.1-28.7 18.2c-28.7-6.4-52.3-20.5-66.7-30.4c-28.1 19.5-61.4 33.8-96 33.8zm-272 62.1c21.5 18.6 51.2 33.9 80 33.9s58.5-15.3 80-33.9c9.1-8.1 22.8-8.1 31.9 0c21.6 18.6 51.2 33.9 80 33.9s58.5-15.3 80-33.9c9.1-8.1 22.8-8.1 31.9 0c16.9 15.1 39.3 26.8 61.3 31.8c12.9 2.9 21.1 15.7 18.2 28.7s-15.7 21.1-28.7 18.2c-28.7-6.4-52.3-20.5-66.7-30.4c-28.1 19.5-61.4 33.8-96 33.8s-67.9-14.3-96-33.8c-28.1 19.5-61.4 33.8-96 33.8s-67.9-14.3-96-33.8c-14.4 10-38 24-66.7 30.4c-12.9 2.9-25.8-5.2-28.7-18.2s5.2-25.8 18.2-28.7c22.2-5 44-16.8 61.2-31.7c9.1-8.1 22.8-8.1 31.9 0z" />
-    </Icon>
-);
+const OilTemperature = createIcon("oil-temperature", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABpgAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SCdwsGAAE2AiQDCAQgBYMtBzYbfQXIjlQ1fxDP21X1fvcswF4KBzCjFZ2DTIisKWD/g2vqR9nTA57Ro0Tb/zZtjALr4AlMJC0TbCCRNlGcuTVPYRJiLHzEMAk2RPz22+PXHOjyUFZiArVJPQBWnFcqb/BmLihMGgAA4gQAABR1tNRx85k8E7lvPgdynxpAAKQIAAMBNEAD/BAActEQwA8dA9DREXgmZjP9BxogACAW8KUVADpgCWwH9gMAOgAKk65Hu7q7Jtma7PV2W5PNsC0RtrLPe2OojSAipjNuYmvkwdTz0YcDZvluiRCRriWeIhtklsd6m8Vua5npvs62/VDaJu/FzyE2t7IPpu712RxxIWaD+4Dg2OJbBGWcfV4bw89HXyztvy5MZJ/tkogDnofQZSqJUK1b2S1lfYzgw06H3wU9GPoAywPuTZU0uVdHIpci67Wy4OVXX2kf4uQ0pF18v75cMJr+nhkOC2GhQ0yixBNJFyuyXwuPVXRiwNXmwe7lXvv//HFsUup1dsVFGXu/V7n74OarA04UOeb9q4IqD4+qqn9//mQJTJZ96IBneViraRWdaCkbjgcAAQTyX+zp388x95uVrQLgxeUP3+8Nzc1UsToMWKEAENBizbH0qkID2Rb5xoBMJRjfhACK9Zhg0w64RAQb6KCwwAY0fHECHRtiwEQAadJk7xY0RLdGcKMPQGHHBNBIZxrouHEGTORyO2iBm2g+qniY8ouYWT7iZd2MpPhEI9tQk0R1O6k05xjTduTUXBSFkQxlHGOZzBAGM4LJAzeRusgUxlBusWX8EIMk4knEIBtjOfN7cDtDmMgkRjCOsbWTHIz97kim2pWj4FIwbzJPKxSIchw3YnScAwMAAAA=");
 
 export default OilTemperature;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-medical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-medical?s=thin users-medical}
  * @preview ![users-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/users-medical.svg)
  */
-const UsersMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M208 80A64 64 0 1 0 80 80a64 64 0 1 0 128 0zM64 80a80 80 0 1 1 160 0A80 80 0 1 1 64 80zM320 304a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-176a96 96 0 1 1 0 192 96 96 0 1 1 0-192zM261.3 368C196.5 368 144 420.5 144 485.3c0 5.9 4.8 10.7 10.7 10.7l310 0c1 5.7 2.9 11.1 5.8 16l-315.8 0c-14.7 0-26.7-11.9-26.7-26.7C128 411.7 187.7 352 261.3 352l117.3 0c8.1 0 16.1 .7 23.8 2.1c-3.5 4.4-6.3 9.5-8.1 14.9c-5.1-.7-10.4-1-15.7-1l-117.3 0zM512 144a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zm24 208l-89 0c-.7-5.4-1.7-10.8-3-16l92 0c57.4 0 104 46.6 104 104c0 4.4-3.6 8-8 8s-8-3.6-8-8c0-48.6-39.4-88-88-88zm-343 0l-89 0c-48.6 0-88 39.4-88 88c0 4.4-3.6 8-8 8s-8-3.6-8-8c0-57.4 46.6-104 104-104l92 0c-1.3 5.2-2.4 10.6-3 16zM504 312l0 56c0 4.4-3.6 8-8 8l-56 0c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l56 0c4.4 0 8 3.6 8 8l0 56c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-56c0-4.4 3.6-8 8-8l56 0c4.4 0 8-3.6 8-8l0-32c0-4.4-3.6-8-8-8l-56 0c-4.4 0-8-3.6-8-8l0-56c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8zm8-24l32 0c13.3 0 24 10.7 24 24l0 48 48 0c13.3 0 24 10.7 24 24l0 32c0 13.3-10.7 24-24 24l-48 0 0 48c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-48-48 0c-13.3 0-24-10.7-24-24l0-32c0-13.3 10.7-24 24-24l48 0 0-48c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const UsersMedical = createIcon("users-medical", false, "data:font/woff2;base64,d09GMgABAAAAAANgAAoAAAAAB5gAAAMUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhViETgsGAAE2AiQDCAQgBYMtBzQbUgZRlM1JhOzHYeyGXhABMUnNxplbR9OonYWrU5/i4fm1//3aZwYRH0hig7pdklnjJSQSmjWSWih49W96TdhvvwPfeA28iUZNyS00MlSoot9EIsvmtgoVv7jFTxwzXtA8SrPO50OJ6vMojCqdwACjqYLyQR/oH1ie+VfdWBHRbo4cn+fnBHn8o6kW6Wpa42K/PD5r5wxKskyBjab4UuOXLpztzgd8iHhRfUDxwkwExARQCGTgKzoKMEom0FGuQC4XfIhq1f8fWIAAorYCkmzL0YioTTSBjSKZFY1GKfQuN4w2s0hYtIom7f4VXNgsT/Nje6M4qc483rrejhdntT+fr27qqbtqL9f7+ry5WDBMgAM9h56axftkkB6aBfatZXZEk/+jgHd/zBWMuQmHZu/7+gWHfMQmhDNP1Vl5ut7nx8XJgofmoj6fH9vL7mpLMeWJEDwUJ46eQWzqKEysAJQ2lm+tsm+CkbhGoBFjL+GYSy3uHVMJIiZ8QwUDAEKTKS5hOdCEghQzixmYQwOglpngBPepY01Pv3Z9sWXt9V71p59++pRZlDUNO4cPb23IUX1/p5tZWrmz7nr7IqsePnK0e/SwWGyPsryvGvG9KUS9miFUd8ooJ9vqU4v3VTS8NiWwrm7l7/dl3y5d+pZQU7Ojvc3r5cXmOm1Wuf7mpdRet652fuHCuAwrH9crczyuwcs316uoTZ3E1mEFP9YP45sLPWAYuCgs0h8pioj5rUqllrjQan6pHFBgHwcCQZkNfl3bZNRvdSWBT7e//53eT9U76UQ6RepKIMh6V2tYlU4ggB6AP0VFN8UvCiT/E8V3begSgFAfAZLa6guQ6aCpALn6eglQS2eDBaitvoUykdcTWlo9Y5OG9mMzQxzF5lq6ha1llMe+2lqG+n4Qn83iv9EUUzBo8qiif9+yGFFIs0bJKS6Mu0cWxobuFaaqB9loi732OGSzTbY7hKAHzA4ettsUFffkny3011epMEKxuTCrWILsBxzEQrFs+zAjFcd7uquoG/cg5qTgOUBCkojU6PbS9Pk6AAAA");
 
 export default UsersMedical;

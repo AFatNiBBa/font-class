@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stethoscope` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stethoscope?s=solid stethoscope}
  * @preview ![stethoscope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/stethoscope.svg)
  */
-const Stethoscope: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M142.4 21.9c5.6 16.8-3.5 34.9-20.2 40.5L96 71.1 96 192c0 53 43 96 96 96s96-43 96-96l0-120.9-26.1-8.7c-16.8-5.6-25.8-23.7-20.2-40.5s23.7-25.8 40.5-20.2l26.1 8.7C334.4 19.1 352 43.5 352 71.1L352 192c0 77.2-54.6 141.6-127.3 156.7C231 404.6 278.4 448 336 448c61.9 0 112-50.1 112-112l0-70.7c-28.3-12.3-48-40.5-48-73.3c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3l0 70.7c0 97.2-78.8 176-176 176c-92.9 0-168.9-71.9-175.5-163.1C87.2 334.2 32 269.6 32 192L32 71.1c0-27.5 17.6-52 43.8-60.7l26.1-8.7c16.8-5.6 34.9 3.5 40.5 20.2zM480 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Stethoscope = createIcon("stethoscope", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiQAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCLQsGAAE2AiQDCAQgBYMtBzIbLwXIBiKqqyKre7B2LYQTzCfxurk49Ty2KYBvIQvaHhrfHpxd47wCEevSiRVofVpRCu41bxllUeXYI0miSXo81+PVAZjywpiIBdQydROYU/bIR4KYCAonAwAgntwqUK5Jg1qcfStvRW44DoHcoAYgAFIOAI0ABmAAoQgAJRgIEIqJBkxMBN6Kw5H+AzUIAIgVoArTlAuHAxMAABMAhTLNNj4uFjezsb/MucUiX5GFvjGCrErclnskeUeESJws9l8csCQ85hcrm4IWgawtOVlRizYHL5c1zck/NF0nbGzg0hjkYd27DR/Xvt34cunTUSLjAlbEx8sSv0V+7WYEiCxxBf/FztN9FzKWf5dL1HbP7Z8jb3a+yaxtJdWhxYWlDMO+ffvYsdu324exlAstqpeUHNp4YQl5e8/4DcM5qbBn9Q8f9377+t+jCk0vnA+Sxp08PTs1lqDzF5pWQap7SnWpLK5ulkozkoqch+F3Zm/eEi5sPFRS75r7VJjq7j5VmAAgZ/2Ma/m8jUfJb7uLAuD98a//6uXacVZlqO2AHQWAgJHiSKGlKovGU+lEAJAoGUwUfRICKPqjwL26shgBQHAGBACFFWcEAIMQPBEATJxJRgCwEE4uAoAVZxpgIKYTgi+tOihc6QcGeYwCE18OgIUSriRWfMUwP8F4hN9fauURqdSlM9MydJFelppoUVxcLtbbbsJgHkqkrXSmD70ZSCc60o2BA92fWvkgelFZoyrxRTSZpJGBpgh93Dyvb0wn+jOAbvShd16lGH0/TGCwPjmRAgVYs9ijUCDKZcDATgO79nkG");
 
 export default Stethoscope;

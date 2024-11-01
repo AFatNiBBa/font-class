@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `quote-left` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quote-left?s=sharp-solid quote-left}
  * @preview ![quote-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/quote-left.svg)
  */
-const QuoteLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 216C0 149.7 53.7 96 120 96l8 0 32 0 0 64-32 0-8 0c-30.9 0-56 25.1-56 56l0 8 128 0 0 192L0 416l0-96 0-96 0-8zm256 0c0-66.3 53.7-120 120-120l8 0 32 0 0 64-32 0-8 0c-30.9 0-56 25.1-56 56l0 8 128 0 0 192-192 0 0-96 0-96 0-8z" />
-    </Icon>
-);
+const QuoteLeft = createIcon("quote-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABXAAAAHLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBOwsGAAE2AiQDCAQgBYMtBzEbvATILgZyMj5V4mKObaJnJS++Zq5dWsTz/O/3bZ/77rf3xlGpTMKSWtQIoXomNNMI6VeSWJ9S/iJZpo3YP3O7P/MQ7y3hkre2hCRoLo1GbIRCo5lRCGM2BEZIu3yvNZv/m3Gv51GA3yi0sXBpIAtorGEJJNbL67bYvbMDC+jE+NRtrNxwlDUROYJHxNA8huIONe+a61HeFHhUvjT/bPGhGDUAMgcATt4YZfhNMkmW1iZLLoNATgJ2EzRosJ2AI1TBdprdoKrCJGtr8h+4GwKkj29TQEXFGXAeQAVFqXXnTlefrte7Xpv3xyM/znedtO2H9c8lXaQNy087d+8dMz7xu8zD/G6LJ3B4WTUYeuinQrcmWPAzEITlj5+e3Zw98n/YFfDrs+sL+VnGGCogNItri2b5iUUBKiUPxDhZUByhAD51yksB0SKg6GsFNLaJCKha+wjo2alNQF/rClXqSKw376CYchs0DnuDar0v6Dnir/StjxpFZAyQn7i41MLJElepccCpq1GBgWt7yGW+V0rlsYmVs5OHpYWth0FvMv3pKPWQxImorqKGBrgdPK5PLd3cbZ2d8pwhnpdzXn5xHpKCmPsZikJKe8GJ9wUAAAA=");
 
 export default QuoteLeft;

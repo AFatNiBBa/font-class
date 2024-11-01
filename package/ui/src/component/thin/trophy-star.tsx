@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trophy-star` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trophy-star?s=thin trophy-star}
  * @preview ![trophy-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/trophy-star.svg)
  */
-const TrophyStar: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M400 16L176 16c-17.7 0-31.8 14.5-31.1 31.6c6.3 165.9 45.5 245.5 80.2 283.6c17.3 19 33.8 28.1 45.5 32.5c5.9 2.2 10.6 3.3 13.7 3.8c1.5 .2 2.7 .4 3.3 .4l.4 0 .4 0c.6-.1 1.8-.2 3.3-.4c3.1-.5 7.8-1.6 13.7-3.8c11.7-4.4 28.2-13.5 45.5-32.5c34.7-38.1 73.9-117.8 80.2-283.6C431.8 30.5 417.7 16 400 16zM176 0L400 0c26.5 0 48.1 21.8 47.1 48.2c-.2 5.3-.4 10.6-.7 15.8L536 64c21.8 0 40.7 18 38.2 40.9c-10.2 92-62.3 158.4-119 202.8c-56.5 44.3-118.4 67.5-149.8 73c0 0 0 0 0 0c-3.6 1.1-6.8 1.9-9.4 2.3l0 113 112 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-120 0-120 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l112 0 0-113c-2.6-.5-5.8-1.2-9.4-2.3c0 0 0 0 0 0c-31.5-5.5-93.3-28.7-149.8-73C64.1 263.3 12 196.9 1.8 104.9C-.7 82 18.2 64 40 64l89.6 0c-.3-5.2-.5-10.4-.7-15.8C127.9 21.8 149.5 0 176 0zM358.1 346.9c26.7-11.6 57.7-28.6 87.2-51.8c54.4-42.7 103.4-105.5 113-192C559.7 90.9 549.5 80 536 80l-90.6 0c-10.3 153.2-50.3 229.2-87.3 266.9zM130.6 80L40 80c-13.5 0-23.7 10.9-22.3 23.1c9.6 86.5 58.5 149.3 113 192c29.5 23.2 60.5 40.2 87.2 51.8c-37.1-37.7-77-113.7-87.3-266.9zM302.3 99l14.5 29.3 32.4 4.7c13.1 1.9 18.4 18 8.9 27.3l-23.4 22.8 5.5 32.2c2.2 13.1-11.5 23-23.2 16.9L288 217l-29 15.2c-11.7 6.2-25.5-3.8-23.2-16.9l5.5-32.2-23.4-22.8c-9.5-9.3-4.3-25.4 8.9-27.3l32.4-4.7L273.7 99c5.9-11.9 22.8-11.9 28.7 0zm-28.8 36.4c-2.3 4.7-6.8 8-12 8.8l-32.4 4.7 23.4 22.8c3.8 3.7 5.5 9 4.6 14.2l-5.5 32.2 29-15.2c4.7-2.5 10.2-2.5 14.9 0l29 15.2-5.5-32.2c-.9-5.2 .8-10.5 4.6-14.2l23.4-22.8-32.4-4.7c-5.2-.8-9.7-4-12-8.8L288 106.1l-14.5 29.3z" />
-    </Icon>
-);
+const TrophyStar = createIcon("trophy-star", false, "data:font/woff2;base64,d09GMgABAAAAAAOEAAoAAAAABxwAAAM6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFyECgsGAAE2AiQDCAQgBYMtBzIbDAYR1Zp9yX4kVJXtQbinKCf5TCnlcZs0veI38UTtubd798fNEOIPpkuyQM6mS0UNCB3E83ZVvRn/XgNnpEIkuPfscBWdnJpX28IT8aZvxK1Co9Jobq81fQnv0596HuAA/iEYD8pLum1OHgtrc3KFer4tDXUs7H2wAk1hrLU5TkHBMG6RiJDn/exp2KRh6wxTHjMGM3SLoRu8di6v8WV+vhiNkIgLiOXRv72Rmy/khUj3/3NIN/UgQMoAZwQMgijsCOCGEQE7JkLAxITAR/7/x+T/QEAAYoFPVMAEC3zBH2ACisVkiqlzdokL0syOpn6aWY1XmlrqsZ67fe/GHonc4LlMlmkiAuR9N3kfiu/of7//HK+Nqp+mtAOeG5jtoenAPj53Sm4WXM25GDFH5sh6D0QTH5BWaqOXQ3+MoKvGB/MuF10vu91vq/cmTZONMgcPjh54pfhK8on+c6KU3Ek5GTNIaWo/dxOP5V7L1dNO9+vr6+cbKRs8N3jEiK8kbr1XlEQIt9HbX+Ikvck7WuqWTdoyz4T1HhkSO670kWjZ5BkpfqNwvERFYy8/8QnTXfS3od3jull14gXvdJqx2Mk8y6vUu0zXI+emCAYBIiIpcyMlNOiwypwWz3B67nxXTMqTHg+bdRCuHbrYKsRwcvecOfOAe8pEJjDCYhkxY0YzncBEUkqA55w5u08ayt16h+sgrDaPnicp5watvr3r3/tDiWfrYKwTV67sfKUG093qKbj3/3bdXt0JJay7veFrfGFNTMy4cTSjxkyZ10sv86aMUc2MY1xMzJovvKHGbq85kz3BxDQqrc30MnpyL8Ox9h3HF7Oj3/AEICDwvjteDXcu+LqOBsDv8vtfx/3y/2aLDTpYGACBkfD/YoihBEGMGQjMVaYRhkWB8hALSJzY6M0HBRcpFhQZ+ONCJop4shFEpj5Z3o4RMdlFAiN5IATWSkiOL6EgP0KL/DMMlLHarWvV+q+ZK+mleB7oigYBDKtO2wLWt+kQpj3clbt47MQqs8mhVGgdnbxJ86dRYinj3wKdQgMC4G4sXVlEc+1V121+jzA1fj+Hc7EH8/ATqHplVgQs1aZs89I85S8S");
 
 export default TrophyStar;

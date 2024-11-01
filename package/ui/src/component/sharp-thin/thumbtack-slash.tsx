@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `thumbtack-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thumbtack-slash?s=sharp-thin thumbtack-slash}
  * @preview ![thumbtack-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/thumbtack-slash.svg)
  */
-const ThumbtackSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M512 312c0-21.3-21.3-81.6-73.2-119.5L425.2 16 464 16l8 0 0-16-8 0L424 0 216 0 176 0l-8 0 0 16 8 0 38.8 0L210 77.5l15.1 11.9L230.8 16l178.4 0 13.7 177.7 .6 7.3 5.9 4.3c23.6 17.2 40.4 39.7 51.3 60.5c7.6 14.5 11.9 27.3 13.9 36.2L512 315.8l0-3.8zM164.9 225.3C139.1 257.6 128 293.5 128 312l0 24 0 16 16 0 168 0 0 152 0 8 16 0 0-8 0-150-22.9-18L144 336l0-24s0 0 0 0c0-9.4 4.3-28 15.3-49c4.9-9.2 10.9-18.7 18.2-27.8l-12.6-9.9zM16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5z" />
-    </Icon>
-);
+const ThumbtackSlash = createIcon("thumbtack-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABcQAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCCgsGAAE2AiQDCAQgBYMtBzYbEAURlZqVyH4k2Lbo1h3c0CIDw8DQCF8i+H6tf/vcmd0HQPOJSAFCGCUwqkR9FzTiVRSxog2ArN1+n7jm+ac9FTY/wSNFW+mDFNA6zycw4EhuwJ3PIm2iOGunV/4H0S2SJOWTDNtn2Gwhj38cUyI9lb7BA/lK40c97iHJMgDRDIAVO7ducWU4hiO+riC+tgkBsQIUAhky9AuwWCbQL1cglwuGo1Lh/8BCAFGGsyeQo4STuAqQgyTL8/FjW+pKDfmOulLt0TunRry/cEfU1UXU1vN0ER2xE43tsmz8dOCpjjERR97sjniSUNXiBKiJURv2nWHN40NPdHXu6OzobI+OuCwnd0VnXDXy7ea3fx7xzYlvKve3ZrTub/jQuOpm1ePdY47b4gel9T7W8JGyVRb99tqUBvmeHePv576mbs2a33yyWrNqjzvsJd2g6bdb3/vy0bZt2/asbU5/t80ztjn9PQgE3Te/9cXBpsV/V9cl8O1n/6ieXLmS7khvo1oCQTa5MnlfugNYHECc4jojlS8KJAdlcKn1Hhcg1CJAUlYrQKZPswC5WpMEKBk0R4CyWltlIq8R2u3vQlLvspCZ61Yh1+4ToWSxz6Oy9sisTbMV7a+X7deOwJpxxYyp04uFxbKo6QakxOFFxbY7/jppmkBrnbh44Zrjx05fM+BXbUmvPb9Ww9b8sJgxdXqxsDiuPC/fcfyqq09fvJBGWVTcD8dfp3eeQEECyZkZSSJS01OYcM3ho2enXH3u8NWnAAAA");
 
 export default ThumbtackSlash;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `subscript` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/subscript?s=duotone subscript}
  * @preview ![subscript](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/subscript.svg)
  */
-const Subscript: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 96C0 78.3 14.3 64 32 64l32 0c10.4 0 20.2 5.1 26.2 13.6L176 200.2 261.8 77.6c6-8.6 15.8-13.6 26.2-13.6l32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-15.3 0L215.1 256l89.6 128 15.3 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-10.4 0-20.2-5.1-26.2-13.6L176 311.8 90.2 434.4C84.2 442.9 74.4 448 64 448l-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l15.3 0 89.6-128L47.3 128 32 128C14.3 128 0 113.7 0 96z" />
-        <path d="M464.8 292.8c9.4 5.8 15.2 16.1 15.2 27.2l0 128c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l0-80c-11.7 0-23-6.5-28.6-17.7c-7.9-15.8-1.5-35 14.3-42.9l32-16c9.9-5 21.7-4.4 31.1 1.4z" />
-    </Icon>
-);
+const Subscript = createIcon("subscript", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABhwAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCKwsIAAE2AiQDCgQgBYMtB04bSwXInge225QbMBQdlg8LQ31aPHy/1tu5r3umkpkwdJjRAaIw3yas4rLAQv1au7WK7MAGnGk6xzQ4Vczohf0+/b07/+efPuAD8D/mxtpgc54HkqXrvHRxoFso0wwsdVNKjx6CiB4iUsLWFbfjmj2+wS6Qxx/ZZSXSi/QT7uX/AYy/tHeZpGEGIJoBYNqaFYt8rY/6FD/V3hE/WYiAmA4KgQwZOgkwUSbQSa5ALhfUp1rUR62CAKIs31cGyshxGpcAOUhC5HmPBdVS43x1tVTZ8aS9uNX6ifOtHlcqlZttnsaFts+qETc7PKVr2vaJZ62zC20jnlWrcav1qlgj1OWVWBmrQns326xGksl7uKofZVKf1L2uWd3f3ezmt5fivCbXrzdpdlGMA0u1fLBAP9T831bQMOo0e7PqavKmWeHPm1p3juSm0L3ndiAQzFxb2rml6cT/GlQT+PPLf/oPSe1rkurQQAJBNrA20MYEEgEASHFa9yTOIpBZICmf2shTAUIFAZKyigCZjpoJkKsYIEBJF6MEKKtYIRN5Q6GVTRMkjRwDmdHOgFwrb0HJRN8KZa0iCz8yeMivv7jZGpq1rtjgocX44rRhUBGFp8UJhVvjtAz0o6N2O+Kwk3bZaZ+TCjluUfmUQ2Zb8CxfVBhmsKEK4xXL7ZFbzd5xJwQ/pteXmaB4PurrtD2+H+0nAYa/uA0ZkSJr/tOCNGgjD7QEZssCAAA=");
 
 export default Subscript;

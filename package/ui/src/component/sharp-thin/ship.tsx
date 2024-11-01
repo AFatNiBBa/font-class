@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ship` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ship?s=sharp-thin ship}
  * @preview ![ship](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/ship.svg)
  */
-const Ship: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M200 0l-8 0 0 8 0 56-88 0-8 0 0 8 0 157.7L13.5 256.4 2.7 259.9l7 9 112 144 12.6-9.8-105-135L280 187l0 189 0 8 16 0 0-8 0-189 250.7 81.1-105 135 12.6 9.8 112-144 7-9-10.9-3.5L480 229.7 480 72l0-8-8 0-88 0 0-56 0-8-8 0L200 0zM368 64L208 64l0-48 160 0 0 48zM192 80l8 0 176 0 8 0 80 0 0 144.5L290.5 168.4l-2.5-.8-2.5 .8L112 224.5 112 80l80 0zM96 426l-.6 .9c-4.3 6.1-8.5 12.2-13.3 17.9c-4.8 5.8-11.8 13.5-20.2 21.2C44.6 481.8 22.5 496 0 496l0 16c28.7 0 54.6-17.8 72.6-34.1c10.2-9.2 18.2-18.4 23.4-24.8c5.2 6.4 13.3 15.6 23.4 24.8c18 16.3 43.9 34.1 72.6 34.1s54.6-17.8 72.6-34.1c10.2-9.2 18.2-18.4 23.4-24.8c5.2 6.4 13.3 15.6 23.4 24.8c18 16.3 43.9 34.1 72.6 34.1s54.6-17.8 72.6-34.1c10.2-9.2 18.2-18.4 23.4-24.8c5.2 6.4 13.3 15.6 23.4 24.8c18 16.3 43.9 34.1 72.6 34.1l0-16c-22.5 0-44.6-14.2-61.8-29.9c-8.5-7.7-15.4-15.4-20.2-21.2c-4.8-5.8-9-11.8-13.3-17.9c0 0 0 0 0 0l-.6-.9-.6 .9c-4.3 6.1-8.5 12.2-13.3 17.9c-4.8 5.8-11.8 13.5-20.2 21.2C428.5 481.8 406.5 496 384 496s-44.6-14.2-61.8-29.9c-8.5-7.7-15.4-15.4-20.2-21.2c-4.8-5.8-9-11.8-13.3-17.9l-.6-.9-.6 .9s0 0 0 0c-4.3 6.1-8.5 12.2-13.3 17.9c-4.8 5.8-11.8 13.5-20.2 21.2C236.5 481.8 214.5 496 192 496s-44.6-14.2-61.8-29.9c-8.5-7.7-15.4-15.4-20.2-21.2c-4.8-5.8-9-11.8-13.3-17.9L96 426z" />
-    </Icon>
-);
+const Ship = createIcon("ship", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABtQAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDcgsGAAE2AiQDCAQgBYMtBysb7QXIjsQ4RvKLmLQlHp7Pq+/cl7RS38g3PLZ2qh4shdV4JyTCO/7Vpfzz1ukBj5/gRV+g1LVv1qPdSykCGQ9oJhQtjRKRWDCWEEbEYlsOG/6hlmsQCbPH90satqdh6wh5fGa3GtLNqRFXyovGjzo6jyTLAEQLAMxYt2qJt76OryOq/z9PVC1CQMwApUCGDF0EmCwT6CJXIpcLvo7//y//gSUBRC08OIEctfgY3wFykOR5Pq2h+cmVmqb52nVLsamoFEIUy16ro020jTXRPtbGuhCiEpAaWO1h66BdVeAVBUP5FGLAtloyTcVaD1tdVVnfpn2bs9pct39TIR7s92D7G9tf3/b6Pvf30VzEJe1uIOLsKLULcV2+yQ/ahagzbe75SItHfu7RuLfR229Cxnjr+bY7rOjoXvsdeaWX7b/AX8u9rl4L9V4/gSu83MnY796xMneoV79+PNtn3oWfaLi7DH+yeX19i6s9Nl6WHh/vasu3bUBYt25/tfrHLVtY3nHA57+cfPIvnw/ouFyPbqHlH1er+/etD0Bg3r58iy8m4G4QCKrdO7Tc1nzyryoJfPtKP8rt/n8rTU+PoF4CQTb4/8E2p+lQ+AHkUpygZ/BGgeQjOTxrEzcIEAoESGoVAmQ6ayFArjBIgBrdjBGgVmGVTOQNQhtbFCVNHI0yY52Ocm08i2pM9na2VpvIZrg2P7X/y2CuxeesK0cMHV5OLLtNhz5plW15Unnb6X9CHRpAO+11pCMcZ4/dDjjOcMdYUjje4eZG7BwfVBphqOFKE5Xpzi2sNbljHOuAr+dXMUn5ftTfCfHkAeQnEBypLElEyr8hAA==");
 
 export default Ship;

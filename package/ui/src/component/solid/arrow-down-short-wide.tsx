@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-short-wide` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-short-wide?s=solid arrow-down-short-wide}
  * @preview ![arrow-down-short-wide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-down-short-wide.svg)
  */
-const ArrowDownShortWide: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M151.6 469.6C145.5 476.2 137 480 128 480s-17.5-3.8-23.6-10.4l-88-96c-11.9-13-11.1-33.3 2-45.2s33.3-11.1 45.2 2L96 365.7 96 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 301.7 32.4-35.4c11.9-13 32.2-13.9 45.2-2s13.9 32.2 2 45.2l-88 96zM320 32l32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32zm0 128l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32s14.3-32 32-32zm0 128l160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32s14.3-32 32-32zm0 128l224 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-224 0c-17.7 0-32-14.3-32-32s14.3-32 32-32z" />
-    </Icon>
-);
+const ArrowDownShortWide = createIcon("arrow-down-short-wide", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABjwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCSgsGAAE2AiQDCAQgBYMtBzwbVgXIPg1ocXivCrYhhJFTJ8hsHTJu2tHx+pFfW5hnhBbOODQevt8vPfd9CADrRKFCkmgjbIQDdAQuMjIToeprzE5tp75u77lfzWwXz1vq4l1bKooqyovktG8XVCBrl2ANfu/48sAFExyHbCJ6nlqBx1JVo8R8SUpmM5YOeNiSk7UaCon6Pt/gAbr/5/+az6+K7sA+H8GhVa01LRMzn09ggNONmwp8NpxNFDc4b8QBhqaQHn+EPN6zSwXpI73hzn1o/NVnh6QuA4BoBQCwfBSPwUaViNcq4rddICCWAUYhMmQYhGAOW2AQxyiQywWVqmf/gQcBRAkBmdyeowa3uAPkIClyjkEHUuJIOSm1S5R87qg7RT1noqXrpMuK4roMNBzznBR2HKk66UwkhgROOxcHRMid0yWrhZFX6G9ab/6Nmbeui2bZxVFw1CA5/LrdvC+y21tZ3GqDX//6djhuHk0XLhGR8pMNrI4DvR7LjwifDMMxhEoF9nM/gEDws/E5/etYAH/W//waVSylUSuBIJv4T9om8TFiBLIppvQzXxRIThWCd230KkCoR4CkVC9AZoACgly9cQgKw7wQlOrtYYtcCKFTpgZJoxOQmTUHuU4PoDDnMVPqDK9G9VpSvwWzom0oso20OShEk22ldoHJej1Mq4NM+ZgR7oWqnq6xirKGcYsfiuUnOqJzXMQPEScbBxJCu3v3Aymt7NBIY1zfv0kYnR81mM7PNsIISyA56UCSiKQtPOzNrLfouPUnDOS3BAAAAA==");
 
 export default ArrowDownShortWide;

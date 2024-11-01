@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-ramp-box` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-ramp-box?s=thin truck-ramp-box}
  * @preview ![truck-ramp-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/truck-ramp-box.svg)
  */
-const TruckRampBox: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 72c0-39.8 32.2-72 72-72L632 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L424 16c-30.9 0-56 25.1-56 56l0 320.5 50.1-14.4C428.3 326.8 473.6 288 528 288c61.9 0 112 50.1 112 112s-50.1 112-112 112s-112-50.1-112-112c0-1.5 0-3.1 .1-4.6L10.2 511.7c-4.2 1.2-8.7-1.2-9.9-5.5s1.2-8.7 5.5-9.9L352 397.1 352 72zM624 400a96 96 0 1 0 -192 0 96 96 0 1 0 192 0zM204.4 142.6l-38.6 10.4 18.6 69.5c2.3 8.5-2.8 17.3-11.3 19.6l-46.4 12.4c-8.5 2.3-17.3-2.8-19.6-11.3L88.5 173.6 49.9 184c-8.5 2.3-13.6 11.1-11.3 19.6L80 358.1c2.3 8.5 11.1 13.6 19.6 11.3L254.1 328c8.5-2.3 13.6-11.1 11.3-19.6L224 153.9c-2.3-8.5-11.1-13.6-19.6-11.3zM104 169.5L122.6 239 169 226.6l-18.6-69.5L104 169.5zm-58.2-1l154.5-41.4c17.1-4.6 34.6 5.6 39.2 22.6l41.4 154.5c4.6 17.1-5.6 34.6-22.6 39.2L103.7 384.9c-17.1 4.6-34.6-5.6-39.2-22.6L23.1 207.7c-4.6-17.1 5.6-34.6 22.6-39.2z" />
-    </Icon>
-);
+const TruckRampBox = createIcon("truck-ramp-box", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABnwAAAKsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCdwsGAAE2AiQDCAQgBYMtBzUbfAVRlMzJJNmPxNgG1X6MMfl1GqsIntd7+jk3WcBZSRXMCsQn1EGtUOllALa+1Y1cpQh7zjOk56tmlJrM/zWfX9pRPv8gJ3pokRTLskiLaOA9n+g88WieNpxNFKduShEU1KNfEQ1ii7i9+8r+sSPk8Y+lypCupg9wWj40ftTAAZIsAxDVATB8xpTJXvkuvov4oPQk8YGJCIgRoBDIkKGxAINkAo3lCuRywXdRKsX/wIIAoix2OoEc5XAJDwFykJTJ8x6NmlZoWKlMlbw3Pd9rxRXXT7h/VHKRL6CiO3DBJ2Pj5nP/e3Ldm2+Y99yn9n1lLy2MC+6SLIls2d4YrvW79LF6h7+i9oSr7U5zfNydrtPyXq/XtLiIXnvW9Ag6Aysz4nLFJUydNn1aX1qVj5kxdcZlvqiYuJCFSwXVYbksLe6z9/3mHyz/wIIdVX3pSc/vPrGwbNmFn9j4/6/lhmvq0Dud+e3X/6tVQ+M3uS5lF7da2Kbs4lmLja42tuGbvDl3bYMGa+e++WbD2hb9t5vF59YYrfMXX/l+co1RVvmiS7urJv9wtV1NLmlYc1ThfqnmaF+dudo+8dmddw0y4p1mr3lt0AHeqf1tOs9e/RoQCF4YObLlgmqD/i5fKYEfnvt1ubJUKr2c9qT7UF4CQdap1MnctCfgbBXPmIrtWtAXBZJTyuB3reySAKEiAiRlVRQg00h1AXIVdRSgjKZ6C1BWRVNkIq8g1Davg6SyTSDTx06Qq+1xUMYgb6fLqh2Zj0oeJv0ipo9BaPS+onuXbsWAQm1rstsJZX1gsW21257G2tNBy22w3lbLLLXKViA3m5zbZp0xFjHaDxW666KbwgDFce9Znw6ZzbZYtZbPdzFQcX+kne327PbkTpi3h5okEanqS5jpvHnRuo2fBgEAAA==");
 
 export default TruckRampBox;

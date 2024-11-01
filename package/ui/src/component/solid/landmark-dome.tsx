@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `landmark-dome` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/landmark-dome?s=solid landmark-dome}
  * @preview ![landmark-dome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/landmark-dome.svg)
  */
-const LandmarkDome: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M248 0l16 0c13.3 0 24 10.7 24 24l0 10.7C368.4 48.1 431.9 111.6 445.3 192l2.7 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L64 256c-17.7 0-32-14.3-32-32s14.3-32 32-32l2.7 0C80.1 111.6 143.6 48.1 224 34.7L224 24c0-13.3 10.7-24 24-24zM64 288l64 0 0 128 40 0 0-128 64 0 0 128 48 0 0-128 64 0 0 128 40 0 0-128 64 0 0 132.3c.6 .3 1.2 .7 1.8 1.1l48 32c11.7 7.8 17 22.4 12.9 35.9S494.1 512 480 512L32 512c-14.1 0-26.5-9.2-30.6-22.7s1.1-28.1 12.9-35.9l48-32c.6-.4 1.2-.7 1.8-1.1L64 288z" />
-    </Icon>
-);
+const LandmarkDome = createIcon("landmark-dome", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCAwsGAAE2AiQDCAQgBYMtBzQbBwXIjlQ1/whJOnn4f7v+2+dWPXV9o77NDMCMQzgDnARvTcpIWRcw/9SpmnEeCuAbBWO2hy5e5wmt0cm9ChSwOGxMkVqtYEUsODYEu7NRpBX7tLTEkhyfHZ/HBfL4JLuqhvR8+hUP8ofG7zq6StKQAYgWAJixbtUSXzZGY8Qv1feIXyxCQMwApUCGDF0EmCwT6CJXIpcLGqNaDf+BJQFELfoNEsiRYx8OA3KQpDwfOKaoaZqvLWoqm4pK8UpH8d2Uz3oUcaft0y62earSJG63eyYutX+2KOKlaV/Mi3ix3/qiUogiIopwxzxdXIoJ8UqH53o3iVc7vdBvUtzBHdHzzRZv/tnj172/+u+LFgdWtC38/MYLb2ea3bzZLOkXeXvm7Rfe+LnQdsUH3acHF/UHT1eHV0a+8CpBVdc5Z7Z/afuZOV2rQsRVIBCsmbVs5rbmk/+pLxL47eO//4cnq6tSnt5EvQSCbHB1sM2JAl0hUJjirJ6QEki2FXK8axPPCBAqCJDUqgiQ6ayFALmKQQLU6GaMALUqVslE3iC0saWBpIkTIDPWOZBr4x1QY7IfwlptIrM0xk6Yh17iXInO2VSOGDq8nFhOc8waD4XLk8pls//Z2BsAe+11zFGn7bHbAacFftKS5Iwj5mrYHF9UGmGo4UoTldvVvbjWhyedcmCs2V9nkvK8299ZffIAcBIiHCmTJCI1vZSUTWpD/q4FAA==");
 
 export default LandmarkDome;

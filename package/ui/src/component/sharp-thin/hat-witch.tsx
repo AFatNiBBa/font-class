@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-witch` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-witch?s=sharp-thin hat-witch}
  * @preview ![hat-witch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hat-witch.svg)
  */
-const HatWitch: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M480 176l22.1 33.1L512 224l8.9-15.5L576 112 448 0 208 128 96 384l17.5 0 107-244.5L445.8 19.3l109.8 96.1L511 193.6l-17.6-26.5-4.7-7.1-8.6 0-48 0-9.9 0-4.4 8.8-16 32-3.1 6.2 2.4 6.5L463 384l17 0L416 208l16-32 48 0zM240 336l96 0 0 48 16 0 0-48 0-16-16 0-96 0-16 0 0 16 0 48 16 0 0-48zm320 96l0 6.1L444.2 496l-312.4 0L16 438.1l0-6.1 544 0zm0-16L16 416 0 416l0 16 0 16 128 64 320 0 128-64 0-16 0-16-16 0z" />
-    </Icon>
-);
+const HatWitch = createIcon("hat-witch", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcQAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCIgsGAAE2AiQDCAQgBYMtBzAbIgXIjsQ4JvJIFy8igmCunE1y91/mFIDBoQPWBK6qjoUDsgT6qpb5j3t3/jf9Dbgs9/a7aG4bE7M5zxPofG3flNZ5FmaJYm8TkcgWwzcGQRbR8YTH2wmyeGuVAsnlJM6nD42vGjhFIk0BRHUADJ87c7Jnn+JTxOsS4rWJCIjhIBdIkaKxAIOkAo1lcmQywacolfA/MCeAKKIXJyBDEVtwApCBRJZl3etUqVWpUCWbU6lQcW3nLp3rRL2YG3NilmYrxVyYXRZ0iLpRsWLtqB8R6gxQiS1oFJVmVapYSeONiGQXPn+5MCsqK3VEtaharSpYD1SJuTuLW9yufvt782ve+FhtGj3xhnP6LHN0q59HbS2pacNfn/bZvFSnKRrqo8KAfkpaq2vwLTUMfaCk28+byyjWTXWOrL6N6sYzdGkR4jv76yfkF+XV87zbLOHoUMPAUt0+DALByNOX+yytNuh/eaUEfHn682u+X+lZMiy5jXIJCNJOpU4WJcMANQNIJrFHC+aLAok1MvSulV0QIFREgERRRQFSjVQXIFNRRwEKmuotQFFFM6UiqyDUtrhKicq2S6k+DkuZ2p5IBYM8TxTVjlTy9HKj//cFY3pk9Li8e5du+YB8WlQMwqQNwwPzbWu7PaapPRy1xlZb7LLaKuvt6sQdJqd322wMR4/2Q7nuuugmN0B+XHncP8dqO+y03lZb4igD5feD7ezhO7eHSSSAHm8GzMpIKqxbvqvz3vW7Vq4D");
 
 export default HatWitch;

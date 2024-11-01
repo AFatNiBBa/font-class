@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kitchen-set` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kitchen-set?s=thin kitchen-set}
  * @preview ![kitchen-set](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/kitchen-set.svg)
  */
-const KitchenSet: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M144 272a128 128 0 1 0 0-256 128 128 0 1 0 0 256zM287.8 152c-4.2 75.8-66.9 136-143.8 136C64.5 288 0 223.5 0 144S64.5 0 144 0c76.8 0 139.6 60.2 143.8 136l65.2 0c3.6-13.8 16.1-24 31-24l128 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-128 0c-14.9 0-27.4-10.2-31-24l-65.2 0zm96.2 8l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0c-8.8 0-16 7.2-16 16s7.2 16 16 16zM264 320l8 0 16 0 48 0 0-24c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24l0 24 48 0 16 0 8 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-8 0 0 128c0 26.5-21.5 48-48 48l-160 0c-26.5 0-48-21.5-48-48l0-128-8 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm88 0l96 0 0-24c0-4.4-3.6-8-8-8l-80 0c-4.4 0-8 3.6-8 8l0 24zm160 16l-224 0 0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128zM224 144A80 80 0 1 0 64 144a80 80 0 1 0 160 0zM48 144a96 96 0 1 1 192 0A96 96 0 1 1 48 144zM0 504c0-4.4 3.6-8 8-8l208 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 512c-4.4 0-8-3.6-8-8zM160 336l0 64 16 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0zm16 80l-16 0 0 16c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-96c0-8.8 7.2-16 16-16l96 0 16 0 16 0c26.5 0 48 21.5 48 48s-21.5 48-48 48zM48 336l0 96c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-16 0-16 0-64-96 0z" />
-    </Icon>
-);
+const KitchenSet = createIcon("kitchen-set", false, "data:font/woff2;base64,d09GMgABAAAAAAN8AAoAAAAAB5QAAAMyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVSEawsGAAE2AiQDCAQgBYMtBzIbbQbIjtRGecSPBM/3eV/nvqSVtJGGOYTSI3IHYcdfs+VKWFp3q1uvh1z8SGAm//97p78CGRPkgnU8D+W15sAx5vGw4wktHRO3QBhZQppheoV0r8LZuXcPdHnFQJxAbVEPgVXBcvlACPNBoWlEDPFmPdVdOrTiqkMcIg//95DvTwtAAKQGAAsBNFR5ODChDLngNjoWoKMj4JD//0H9D7RAAECcifZUAOiAJ4gvSBRAC/o+yV3XwxI8Uzx8PMI8vCJ9TCcPvbPpZHRZlgpyLLWTxpQ2pTWWJtVJNXZyk9yYXXaXgVysu11xOSarPJvcKr8UTbItkWRZgMH214YhB0Oxk2mYm4JsIMp6fxPATcOUARkHQpiYJoU4ERRk81BcXGagDQUxREOhnEYJ5hBZJyOC2AFG2VKWBTmR/jtLlqIpPC2eS9cobAxbz1OZy+LN9QE72MflxtKEMjSSrpuCFN4GvAUDCmFusjHQGobMP6RkKWETkR19BwJMyEk8EmGSlGg5ROcYMUe920/RDwc/ZNWp2AuuRnjExHhEXL0aC1XGlaumNJsEk3dfWzQ1PHzqomu7J09qVs2gcTaeixd7plk24wZV93GxI4kDbQ6b/FZTdrm6Ng0moF1b2gUEkxXc19m5rys22qPXWbvJev1Is3GFo+naN9IEU0rbgid4l5dDESwr352z2lGn+5BJk4a4rzsd+sOtniNDQkb2vHUrFKqMWOYQ575PV+Orll2HqiK19/k83l5tvGUByqtyrK/N0dc6BO842jltAkS8twqHpzfeVNEXAAQQ+Bed+LKPV9lXV1MB8P78l1+Uv+H/VWWpo4ArCgABLe1/Gj1VFWApCyGKKZlMTI8NAeYycEdxurNxblIwoAWFMwZohOENOgap4EQk+byR0g6jmKK74fSnlwIKd8aBRgGzQMefc+BEGXdizviL9nQIrm3Bz2nSBiTUL7KyM7KsEktYVQsveJ47XWqN1iZNNruS5Q0MZgyjmcggBjKsREAbT6vkJEbR0Mde/12LbDLIwqIEa3ZjWtoZUC6dgDy+aP4spVjrO5OY3D84WTYoIo45lCgUiDI/Xb70CYMmAg==");
 
 export default KitchenSet;

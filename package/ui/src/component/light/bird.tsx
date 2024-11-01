@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bird` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bird?s=light bird}
  * @preview ![bird](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bird.svg)
  */
-const Bird: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 192l160 0c35.3 0 64-28.7 64-64l0-24c0-39.8 32.2-72 72-72s72 32.2 72 72l0 96c0 101.6-82.4 184-184 184S32 301.6 32 200l0-8zM0 188.4L0 200C0 306.2 76.7 394.6 177.8 412.6l48.1 90.9c4.1 7.8 13.8 10.8 21.6 6.7s10.8-13.8 6.7-21.6L215.8 416l.2 0c19.3 0 37.9-2.5 55.7-7.3l50.2 94.7c4.1 7.8 13.8 10.8 21.6 6.7s10.8-13.8 6.7-21.6l-47.9-90.4C378.6 364.8 432 288.6 432 200l0-14.9 72.2-43.3c4.8-2.9 7.8-8.1 7.8-13.7s-2.9-10.8-7.8-13.7L425.2 66.8C410.2 27.8 372.3 0 328 0C270.6 0 224 46.6 224 104l0 24c0 17.7-14.3 32-32 32L28.4 160C12.7 160 0 172.7 0 188.4zM464.9 128L432 147.7l0-39.5L464.9 128zM328 144a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Bird = createIcon("bird", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABggAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCKwsGAAE2AiQDCAQgBYMtBysbJgXIjpSp0zPx8HxeX+e+5CtVTactjqStjNV4K6yrWECnTj3PeTbgW8iCNCau6WNyqHOdV6CAwRbHtFDBagWraQWsfjv5UHREb5N0+SUZxjNMLpDHSzFEHemO9DGuSx8av+rkYpI8AxAtATBz/eqlXv8pfor4uPYM8bHFCIhZoBTIkKGrAFNkAl3lSuRywU9Rq9n/wJIAoh5aTiBHPU7CpYAcJHmed5vW0FSpa5av843F+kpRuW/wQ10i7tIv6X/PwAc6ia9XfL7m21Vfrot+wjcrv1i7Nm7pcFv7dRFxVf9a+Wj2W+sjkntbXBD33znowXFPD7i/qzi/7c1FEVeaJ+2eMHlCxMQ193W5s9/dHe/o2+vBlg/+3vPjfR/rUYuGVq2KjpqPHv3TTxQ13yGWkrzUIjF6tNP4bxVHx4qmpqUthm9y1jfPbem7AN3uHbnV2YzptHbH6D5mtTB/kJObmk5eNswrF9zQ8vHvPql01Pzyy5vfrXraadXPJ2eoD5Bd3mJlu3YriQrEXdcu7HzL9hZT/m+sJPDLi3/+n39Gai8n6UE0SiDIhtTYkkAiAAApTtUrQSA5LId3rbpVgFAgQFKvECDTRUsBcoXBAtTpbqwA9QqrZSJvEtraWkFSdQLIjHMOyLX1FKgzxXtJvbaRSR8vO/znL2Ueh+buKkcOG1FOKqcdRRAoNmxOLrfVAae6iYHqoH2Oc8zJ9trjoJMZeaKl+SmOmreC5/qi0kjDjFCapDzu3yrrTHKikxwcS+fbTFbeDwc4dT1/oDIS0I5SSxKR8icJ");
 
 export default Bird;

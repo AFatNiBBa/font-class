@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sack` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sack?s=solid sack}
  * @preview ![sack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sack.svg)
  */
-const Sack: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 96l128 0 47.4-71.1C374.5 14.2 366.9 0 354.1 0L157.9 0c-12.8 0-20.4 14.2-13.3 24.9L192 96zm128 32l-128 0c-3.8 2.5-8.1 5.3-13 8.4c0 0 0 0 0 0C122.3 172.7 0 250.9 0 416c0 53 43 96 96 96l320 0c53 0 96-43 96-96c0-165.1-122.3-243.3-179-279.6c-4.8-3.1-9.2-5.9-13-8.4z" />
-    </Icon>
-);
+const Sack = createIcon("sack", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABYAAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBOwsGAAE2AiQDCAQgBYMtBysbtgTIPgzYZIjhVn+IhooW6bhMNBql6337+cvyTi0zKcbD9/u1c+9/iFnTpFapGhlCJCWTUDdVEqHtUMnW1ud/3Hs/oPTf+QnC4CQkq0Gnz21dRGmLmzquRquJTFc3OQAfwH98o8TYGClZ5gwQfK+vyA6I1AXXMma1wP64+eedRwE+o9DGpqWBjAk053kCAWZdNs+zRALL9AvY35smirLZ05GZ0Uryd+z4uqDEYTWqiXzPJ3BLL41vGqOktgoA0QsAji/z83C2esRjI+JDDgiIY8AsCipUmEQBe2gCk+hmQVEEdRqf/wMNAUQz+NYEBQXH4ARAASkLXTLPaxLQi+oWbnlHO684XodnlNyYGpxSFBZqnTs1OESh/XN7R/a1gtnMewSxu7So/UH0xDhEmVmd1y2IF37n2unVIK9b05G52diVsQ1fpvUBrd2YXwXAp/2fbq3VBuMY7Bxbnv3bvkPvnNMBQCB46vwbor0figr46n/4K2oMWUOrBEG13CgVCZIAAGT00iUE0jYq1jq9nFqhnQSpWTtUJoihaLcETaZ5LjRrd4omCgdhUCWB1OkGKhv6oBi0CU323OrNBqOKIioGqE9cfLpG0qaIVjsJkmlg0IFBtGGIbEv0loIBVlGrTatuNao16FZYpzyrR4t0D03zIcLByo4IIsfxdrlIjU5dGrRpxTEh5L6m1+vXG0ClYtwVYj6BL+ld11VN");
 
 export default Sack;

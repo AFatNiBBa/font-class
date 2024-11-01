@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `broom-wide` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/broom-wide?s=regular broom-wide}
  * @preview ![broom-wide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/broom-wide.svg)
  */
-const BroomWide: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M505 41c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L335 143l-12.9-12.9c-20.2-20.2-51.4-24.6-76.3-10.7L16.4 246.9C6.3 252.5 0 263.2 0 274.8c0 8.5 3.4 16.6 9.3 22.6L214.7 502.7c6 6 14.1 9.3 22.6 9.3c11.6 0 22.3-6.3 27.9-16.4L392.6 266.2c13.9-25 9.5-56.1-10.7-76.3L369 177 505 41zM323.6 291.6l-90 162.1L137 357.1l18-53.9c2.1-6.3-3.9-12.2-10.1-10.1L90.9 311 58.4 278.5l162.1-90L323.6 291.6z" />
-    </Icon>
-);
+const BroomWide = createIcon("broom-wide", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABXwAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBNgsGAAE2AiQDCAQgBYMtBzEbtwTIhuB5u8efc3cDeGOzkyqIbfKFDi5KqoLf/F/u+dmmA/xGhzbWaOICieZ8nkCAY/sEK5AssEwTsKydffLyIlkkSXySYbthdYE8XovTypCupA9xKn1o/KiBIyRlMgBRHQDD586c7O3P4rOID0ovEB+YiIAYDgqBDBkaCzBIJtBYrkAuF3wWpRL/BxYEEGVlONFy8+BATATkIEl53qJGpTJV8jl2Y8W11xo+bDUr6sbFNn7l+foH6syOC5Ue1ZsbS/NqXQ7nzppVXjsnesal2uNiQMyN2S2eVn/6c/MP13zoz4ufflqlyvHjPvR/jxHtv97vu1TlxEcfOVGlOLn/a2dbtfz1Q1rx+d/z78jzly1TR8Xb01Vzd741a4BAUKr7e8el1Qb9Vr5SAl+8+uvv9Wek9HYql56ivASCrFOpk0UJpb9SOQEASLFHiwSBpKdE3rWyiwKEigiQlFVRgEwj1QXIVdRRgDKa6i1AWRXNlIm8glDb4g6SyraDTB97Qa62Z6CMQd4plVU7MgyxCGB/cEljRmj0sqJ7l27FgGJb1zhY0GF+YHFstdvj+trTWWtstcUuq62y3q6B3GFydbfNxmjEaF9U6K6LbgoDFNet5+NzrLbDTutttSUuMlDxPtPOHn10e3KTTNlDbZKIVHEFTOXOsAYA");
 
 export default BroomWide;

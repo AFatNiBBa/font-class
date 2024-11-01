@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-chimney-window` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-window?s=sharp-regular house-chimney-window}
  * @preview ![house-chimney-window](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-chimney-window.svg)
  */
-const HouseChimneyWindow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 .5l15.5 13.2L464 149.9 464 88l0-24 48 0 0 24 0 96c0 2.1-.3 4.1-.7 6l56.3 47.7-31.1 36.6L512 253.5 512 488l0 24-24 0L88 512l-24 0 0-24 0-234.5L39.5 274.3 8.5 237.7l264-224L288 .5zM112 212.8L112 464l352 0 0-251.2L288 63.5 112 212.8zM256 288l64 0 0-64-64 0 0 64zM208 176l48 0 64 0 48 0 0 48 0 64 0 48-48 0-64 0-48 0 0-48 0-64 0-48z" />
-    </Icon>
-);
+const HouseChimneyWindow = createIcon("house-chimney-window", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABaAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBaQsGAAE2AiQDCAQgBYMtBzsb9ATIngVO2RSHU+nqEVoIxeZdvOsjKJzxPPxav3PfzNrMRyyJJRGv5hmveKaSTEITS2b9h4hYg0ze+x9zdxORtHtLYn9iliypoJ6gdMirhAKJFGgWEiTz4UOHTL/vm//L+d3zowO7b3RoY+wCGYv3fr7BAm/7puI8C7NEMWvn3xcGkU2SlCcZxhs2J6jzJdd0KPcL4Gr+0Pxj9kTRqQBkPACw7Ui7BW8/8zMZHb4goxpAINsAZkFUqDANgo24gml4ZgG1WviZ4dD/BxIIkK7yqgJqdHEYOApADYq6rue14gktf0x9uOU3p6cY9F2U9W1ELk9uoSuO7jcjwV1z48ksxoOAxiQ5nM4hqaRNmjicJXtQcyBzHql2vzgFLB//9YnP28yEMRnjlqv+ePSXiemBCb6c+ST84ee5S9bYn+e3gn91exY8uIwlR4y9sIph2JmHAYJw5VTrfVTyf78t4PfbktvFw89lbdmhr4BQLRy69EuWWN9Yhmi85BIrviUoduOBdx1xR0A0CCi6GgGVqVQQ1BoLIOiYIQRBV+MArtQDMdmgg2LEWVBZ7QHUJnsFHRt9xLomh0suihrU3y6+PMKlVeTzMIrTsqzRfCHieIKOddtlaLPjKCwdOXRuYW7jfEBPtZIXDpQtpOSHiI8HQ+Louva8v2fh1JmNI4dpkgR6H7W5tHvbYXEU3OVyikLKZOLlu2frzcHh4sZNTQAAAA==");
 
 export default HouseChimneyWindow;

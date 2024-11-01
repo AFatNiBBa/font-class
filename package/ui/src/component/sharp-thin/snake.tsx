@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snake` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snake?s=sharp-thin snake}
  * @preview ![snake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/snake.svg)
  */
-const Snake: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M175.9 512l.1 0 172 0c72.9 0 132-59.1 132-132s-59.1-132-132-132l-176 0c-24.3 0-44-19.7-44-44s19.7-44 44-44l116 0 80 64 144-64 0-96L368 0 288 64 172 64C94.7 64 32 126.7 32 204s62.7 140 140 140l176 0c19.9 0 36 16.1 36 36s-16.1 36-36 36l-91.9 0-.1 0L96 416 17.9 455.1 0 464l17.9 8.9L96 512l79.9 0zM99.8 496l-64-32 64-32L256 432s0 0 0 0c0 0 .1 0 .1 0c0 0 0 0 0 0l91.9 0c28.7 0 52-23.3 52-52s-23.3-52-52-52l-176 0c-68.5 0-124-55.5-124-124s55.5-124 124-124l116 0 5.6 0 4.4-3.5 72.4-57.9L496 74.4l0 75.2L370.4 205.4 298 147.5l-4.4-3.5-5.6 0-116 0c-33.1 0-60 26.9-60 60s26.9 60 60 60l176 0c64.1 0 116 51.9 116 116s-51.9 116-116 116l-172 0s0 0 0 0l-.1 0s0 0 0 0l-76.1 0zM384 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-16 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Snake = createIcon("snake", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABoAAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDNwsGAAE2AiQDCAQgBYMtBywbswVRlO5FhuzHQU4mfR7RRFNEVRYH8y7bJ7ccxcPzdv/+2meQl5kAQht3bI1vlkZRU+WvrxHbfMQShPhHYuoZGmni0tYW26q2Ve37/1zz+aUdHeA3OjrDCiqNTSOBMp9PYIDRnAU+oZkmuM9v5/cGIZ1ukbguRUj7H27Y/hLyeNcBCul++g5X80PFP7p6kGQZgGgDAOZuLvv4/Rg/RnzbQHxrOQiIuQD6EJBhcA8CmEESegmyPiCXC36MRoP+AwkBRIl/fwI5SryDbwE5SPI8X9w0jLpomV/bVBfVxoio48vZH/Z/etYHi6q40OlOnO98t65jY2yOiE2xIar4bMZ7fZ6a+f7COi52vO1ch1tVFRFVbIgBMTA2Rr1p2dJly6OO8263Ol7ofLf7g053BlXxxawP+j0z+8PFdd05NsfGcLb4pugUVfXskBe73B/60sA6Pp/5ft8nZ7y3oIpGlF7V4TudbnW43fFu5w1B7Hft93Kbl//r+93sO2/MxquOLNzQrNmGhUfe1P69b9u3//bV/oTVs12dbQ9x2PuEp04d7tbt8Kmn3tT6wUutW7/0oPUOPGnlIF10oeCa5a0bzPLI7B3W/Pd9oXz/35o3zenXL8/jwDknynEWT3V6khXurounGK88cY6mJs69CeBVAKzo/kSrH39sBdJcLcrlQCAYc/zW77tbz/i/qZZP4Od3/lNfRhq/JL2MJgkE2YjGCJ0ESAQAIMUp2AkIJG/LcbSFO+JltEIEt1QhmunOEshVhkOhl8wSpcp6ksibCx10CSQtHIXMJHfIdfCEwgz/UKlDSDYsWqD4C5nmacTtxkQ0ziKnaU0ySz61l7htOjdfFsBczOztXExNLF0UfeJHr7a8FeV6IkqIiqMiXucep9dMnZwt7e2okxK+dx23de0AHBEzjmOkT5CaiuO74XoKAAA=");
 
 export default Snake;

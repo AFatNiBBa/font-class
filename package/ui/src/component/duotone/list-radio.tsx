@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-radio` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-radio?s=duotone list-radio}
  * @preview ![list-radio](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/list-radio.svg)
  */
-const ListRadio: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M160 96c0-17.7 14.3-32 32-32l288 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-288 0c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32l288 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-288 0c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32l288 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-288 0c-17.7 0-32-14.3-32-32z" />
-        <path d="M64 160A64 64 0 1 0 64 32a64 64 0 1 0 0 128zm0 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 88a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm0 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 88a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const ListRadio = createIcon("list-radio", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABngAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCSgsIAAE2AiQDCgQgBYMtB1AbbAXIhod/5uS9L0n7ASifGR0hSN7UHKsJ1TNLKDv/l3t+044O8Bsd2h56vsHninsJBNjL8klLILAsLkPJ2laM8gTlKQaRfxG50HZDvCNk8WN6TIHkdvIDLsb/AYyfNXKMRKUUQNQEwMj5s6f6qhSlJH4ovyd+MAUBMQrkAilSNBVgiFSgqUyOTCYoJeUypSiXcwKIovi8FBRRGSdwDpCBREGaZdUqGbEB/CqFatm89DUrL/7U+W2nN/3ed3jV8XVfzxvdavOi8d32Nj/f4sMNIm5WqRZn6113qO61ylXjTP0bwRzR6k3NN7+2/GHdD4a36NGtRYtuPUo4YWa9ejPtxAV6t4fLq5/iVPVc9VOKVmyd79HqdiAQNPr9r3vLawz5t2KVBPz05e9/hyvL/5dLieQNKkpAkHYpd7EkQeCsEXKUxD6t8FaPBFJjFeBVq7ohQKiMAImiygKkmqgpQKayzgIUNNdXgKLKZktFVkmoa2kDiap2glQ/+0GmrnegYIivw6K6kbIjy0zsz2DSuB4auy3v2a1HPig/pirHYbRfHZxfWx32uVZHHLTOdtvssdYaG+3pyF2mJnttNY4ixvqgXE/d9JAbJH8unqV5Otxlt4174X2TwfLvvQ720cMd4SYyZS97UimRRFpbnJWu0qt1Zex23VEQYQAAAA==");
 
 export default ListRadio;

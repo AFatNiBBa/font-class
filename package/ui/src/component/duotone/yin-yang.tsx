@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `yin-yang` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/yin-yang?s=duotone yin-yang}
  * @preview ![yin-yang](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/yin-yang.svg)
  */
-const YinYang: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M128 384c0 70.7 57.3 128 128 128c141.4 0 256-114.6 256-256C512 115.9 399.4 2 259.8 0C328.7 2.1 384 58.6 384 128c0 70.7-57.3 128-128 128s-128 57.3-128 128zm96-256a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm64 256a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M0 256C0 114.6 114.6 0 256 0c70.7 0 128 57.3 128 128s-57.3 128-128 128s-128 57.3-128 128s57.3 128 128 128C114.6 512 0 397.4 0 256zM288 384a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM256 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
-    </Icon>
-);
+const YinYang = createIcon("yin-yang", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABpQAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCbwsIAAE2AiQDCgQgBYMtB0wbjQXIjsQ4JvGLWNDi4c1W+X5VzxwA9R4Ak5EzgtSOgDhdOT05shxPvf/P/zWf3/OjA/xGhxJNGZ4LwC4dWAuVZYpMaKYzsC2bA27aUA/tC+17KOK3fFuF9EL6AY/d/wMY93Rym6RRBhAtATBj3aolPqmP+hQ/1N4lfrAYATETlAIZGV0FmCwLdFUoUSgE9amW+qgtCSCq7ndmUEVDPI3XAAVIslwUdW3a9Fj8JpVmxdplvcbx96yIz5dF/Lzuyykf1r04+YPZX4xi+ZK8as5fS3+a+dnaHdfbRjzd+MH2z8aNDs81eajdMzY+aIqu75iKETFuuMXG65LFiCX972U/z/p83V8lWFnV2lbcuryOiGXIg22ftqbnsz3fbvn2v3U/7P3BJ+Z1pNMT3Jhn+azRlcroWcvp0nluPNGpo3k9rjW/n/ubzxlznx49bNO1aSUdLHPNbdjpxo05MbNXr6Jpn201XG+a/ToQCIavujd6W4vJ/zdsksA/7/mP/pDUPknS22gogSAPrg22OYFEAABSnNUzwXWBbJ7s/dSmnhUgNEaApKqxAFkXLQUoNDZIgIruxghQ1dgqWRSNhLa2SJA0dQJkY10BhbbeARWTfR1WtY0MoBR4Uf+H8XN1aM6scsTQ4eXEMpjBaZgjjs5JZbbU/+xSMQCvsNcxR522x24HKKYhJy1JnHHE3Bg8xxeVRhhquNJEZXV+W1xLC0865YCfrR9kkrK/19/ZeP0BWE1e1JEOyTKRIre8cODokAs7ju4bAulCa4P9pgEA");
 
 export default YinYang;

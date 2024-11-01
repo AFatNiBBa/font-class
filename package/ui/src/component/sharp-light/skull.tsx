@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `skull` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skull?s=sharp-light skull}
  * @preview ![skull](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/skull.svg)
  */
-const Skull: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M384 382.2l0 16.6 0 81.1-64 0 0-48 0-16-32 0 0 16 0 48-64 0 0-48 0-16-32 0 0 16 0 48-64 0 0-81.1 0-16.6-13.6-9.6C63.1 336.7 32 282.8 32 224C32 121.8 128.1 32 256 32s224 89.8 224 192c0 58.8-31.1 112.7-82.4 148.7L384 382.2zm32 16.6c58.5-41.1 96-104.1 96-174.9C512 100.3 397.4 0 256 0S0 100.3 0 224c0 70.7 37.5 133.8 96 174.9L96 480l0 32 32 0 256 0 32 0 0-32 0-81.1zM160 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 96a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm160-64a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 0a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const Skull = createIcon("skull", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABmAAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCfgsGAAE2AiQDCAQgBYMtBywbegXIjsK22TPWCJJD4COHXMJIBN+PtX3vf1Sad0ia8FC1ZEoTa5bokD2S6dSbq2Taif/8uPfc79lvNhvZiCSmudGlsK1t/i/3/J4fHeA3OpQ99XxNOmoPTSCxLptegNuiNNMELNtsu8eUYYWfHiEymEjEf+Dj2wlqHJIFPvnIuQHcXm8af1DTBaRaABDjAGDvJD4SZw1qUNz8v0L8IBwExD6ARYSCglkENnEFZvEsgqoKGtHt0n8ggwCiF3q5BBX9eAK8AKCC1Ft5zosKUt2R4EvxkkZZPB9EDJJishRhV6kcB1ab9B7/nPwa+5jYZrHuomh6aE20pb/k9x12lfQScuFzxhYtN1xBYkiKiJIGlYhG0aY4Ij6gPEbtKuMSeDdfM1t12jdZNl1xTJ40IsYSNaRJzAUYaZqzwDIVOnqrsqufujdFN2jdk9PPxfJhQxYjy8YqY8n5kH6UaElRb++5JNrv28FZ+p3TP35OZoErnrTc5MxwsGDDM/Jy0rx7h5NYDFtkiO1ujvYBZ9Kthoo5NlY6OlY2WDbvvSxwm7+/zYLzgUDQylf9y5bZ/BdJcADNr+9f/hHqnqV8BvRLEJTlroWMBEkAADKaoJdAIN1jz1912B0IhEEESL0GBShmyCJQDVpCoMc8RwR6DTrAFVUMYVqmgTTsFBQbmkE1bQ/02HTu9ZoObp1SVUb9JcYHeShwHbO1smFubFnz0KVHyKw7S+smTdxjiq0oUq1Kg0IFSjU4pE5k2KhSUAQH+iLGlhUbjBv2uvm8OUmhOvVKVas6V3HHvrdNNMXDTWFxKOoKMbcgm/z68saKCgA=");
 
 export default Skull;

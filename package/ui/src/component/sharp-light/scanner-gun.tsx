@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scanner-gun` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scanner-gun?s=sharp-light scanner-gun}
  * @preview ![scanner-gun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/scanner-gun.svg)
  */
-const ScannerGun: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M576 32L416 32l0 32 160 0 0-32zM124.1 435.9L42.9 388.1 115 256l110.3 0L124.1 435.9zM262 256l58 0 32 0 0-32 0-160 0-32-32 0L112 32C50.1 32 0 82.1 0 144c0 51.1 34.2 94.2 80.9 107.6L0 400l108.4 63.8L136 480l15.7-27.9L262 256zM416 96l0 32 160 0 0-32L416 96zm160 96l-160 0 0 32 160 0 0-32zM416 256l0 32 160 0 0-32-160 0zm160 64l-160 0 0 32 160 0 0-32zM416 448l0 32 160 0 0-32-160 0zM112 64l208 0 0 160-40 0-36.7 0L112 224c-44.2 0-80-35.8-80-80s35.8-80 80-80z" />
-    </Icon>
-);
+const ScannerGun = createIcon("scanner-gun", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfQAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCMwsGAAE2AiQDCAQgBYMtBzIbNQXIngNu2wRPoRTZ0wmFpWibnkPfxhDB19hv3919lYZGlYSHSoniJUCiWeyUwFDJJPXj5/Rdyz8lO74RUzIgdkDCVSetJDmwmwOWJDQiDG+FEuAF75jeAwzkCa4bMP/XfH6FRwf4+QgOrXsJEg2S+XwCA47SKG2g2XA2UZy5q5V8RKcUkiZLy+M5j5c9lPiKJUbSa3oCj+lD41OIM5KSARB9AHB0e9txg94jnv4viTetICCOAcwiZGRMIrBLLzDJYBYURfDe/7//D2QIIKrA9RIoaOEO3AMKSBrFYLVGNJDjahntBrlsEttCEogW0YzcLyutqE+RhETYWoiLOV+4muzP76N+io+wUBSQ1lrv1/TYx8Q5dx0J0RRXC4FIT2qwMCbgCnxHP809qWyv18vwml13V+WZjacuzMzDeUnJ0PIZ+P/9/jmrIyMlXW6nB9e+re6rh5m9mOXtcX3QlRyrRA9DdfiGF3sx91yzMpE86wIgEKzO+9S4s+zL0tIBPv79R734Xx7qAqhLIMhL/0tGsgrAkwlIpthDjPBFgeSMFd617UmA0ESApKopQDbBhUDRtIhAxbR8BKqaTuhFsSKMjQ6QtF2DbMc+KMbOQcWu20TVOPQWyNoP+wFMapih+kmcnZHFJbwt6ZxR0WG0lI+tpD3WkkwbMWfdmh2zZizamYgt7eldqxokvN4PsWwZsrASrK7OV8tmbdm2aN1aHKcU348n2ZO7J5OrA8oNU5JEJGl7+qEnttLnd9cAAAAA");
 
 export default ScannerGun;

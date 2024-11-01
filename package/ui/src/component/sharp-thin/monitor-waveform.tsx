@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `monitor-waveform` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/monitor-waveform?s=sharp-thin monitor-waveform}
  * @preview ![monitor-waveform](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/monitor-waveform.svg)
  */
-const MonitorWaveform: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M560 48l0 416L16 464 16 48l544 0zM16 32L0 32 0 48 0 464l0 16 16 0 544 0 16 0 0-16 0-416 0-16-16 0L16 32zM279 148.1l-6.5 17L214 318.7l-39.4-59.1-2.4-3.6-4.3 0-88 0 0-144 416 0 0 288L80 400l0-128 83.7 0 45.6 68.4 8.6 12.9 5.5-14.5 57.5-151 39.9 79.7 2.2 4.4 4.9 0 80 0 8 0 0-16-8 0-75.1 0-45.8-91.6L279 148.1zM64 96l0 16 0 288 0 16 16 0 416 0 16 0 0-16 0-288 0-16-16 0L80 96 64 96z" />
-    </Icon>
-);
+const MonitorWaveform = createIcon("monitor-waveform", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbwAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiCAgsGAAE2AiQDCAQgBYMtBzcbCQXIjtRG+UVWEg/fr/V27uueqZ+eDx3iDjM6IImK3Ogky27VOtaENrVy9VTt+9Sp57lwKIDPuQgHbUxbE2RRLjhXx3kFClitb+p5udRiraLYty0TbAThjZAoCWk8c7xOkMdvTqqR3qQf8Lx9aHzQ32OSLAMQJQCW7dmxyVd/x98R37cQ39uAgFgGKoEMGQYJsFAmMEiuQi4X/B2tFv0HVgQQdfxWCeSo4zguA3KQ5Hnereek7o1aR767UStupCx1RhZdl4tGIVKIRldEFhHF0X4D++2M5dEniiKiI1K0R0QjdkXv6Bt7stVohBLfHX12C0a44/Dwt+Xb/4b9cPoHU543EVdpqoZ2lUlNpXIqmv1ubIVnzn/jvBHyvS80VZru22niCk9sMu+lMVv0VNtbatsw6YB7P84oy7JSKj8tweNAIHj68YrfjnQt/L+tkcC/X/6Q7tf6Oy1Nb9EmgSCb2JroYFoKhA0gSHHbcOWLAsl+OXzVdi8FCAUCJHWFAJmBSgFyhQkC1AwxS4C6wg6ZyLsJvRwaIGl3DWRmuwNyvXwBahb62q/rFZmn0X5C//MSVkto1b5q2uSp1fxqW+iM85B1e0F1LI29XQbj4KjTrrjsplNOOuemQK/bFN1yyWoNWeWHKtNMNlVlvspcPwu70b/uhnNrzr7LAtV9b6zb+vw4UBMmnC6VJCKVwSNOCgDyLQIAAAA=");
 
 export default MonitorWaveform;

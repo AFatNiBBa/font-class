@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-exclamation` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-exclamation?s=duotone octagon-exclamation}
  * @preview ![octagon-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/octagon-exclamation.svg)
  */
-const OctagonExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M.1 191.5l0 129c0 19.1 7.6 37.4 21.1 50.9L140.6 490.8c13.5 13.5 31.8 21.1 50.9 21.1l129 0c19.1 0 37.4-7.6 50.9-21.1L490.8 371.4c13.5-13.5 21.1-31.8 21.1-50.9l0-129c0-19.1-7.6-37.4-21.1-50.9L371.4 21.2C357.9 7.7 339.6 .1 320.5 .1l-129 0c-19.1 0-37.4 7.6-50.9 21.1L21.2 140.6C7.7 154.1 .1 172.4 .1 191.5zM224 352c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1.1 0 1.8c0 .5 0 1 0 1.6s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zm8-200c0-13.3 10.7-24 24-24c6.6 0 12.6 2.7 17 7c2.2 2.2 3.9 4.8 5.1 7.6c.6 1.4 1.1 2.9 1.4 4.5c.2 1.2 .4 2.4 .4 2.4c.1 1.2 .1 1.2 .1 2.5c0 37.3 0 74.7 0 112.2c0 .7 0 1.5-.1 2.3s-.2 1.6-.4 2.4c-.3 1.6-.8 3.1-1.4 4.5c-1.2 2.9-3 5.5-5.1 7.6c-4.3 4.3-10.3 7-17 7c-13.3 0-24-10.7-24-24c0-37.3 0-74.7 0-112z" />
-        <path d="M280 152c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112zM256 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const OctagonExclamation = createIcon("octagon-exclamation", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABpAAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCbwsIAAE2AiQDCgQgBYMtB2IbowXIjsM4Rnxg4kuJeHiymb4/s5Lt1ZlXBlwDYwVAYagMIeAyXarrQlA0AFAL4WQnMyUqoejdxDX1M5YebS8+lCrK4jqPqPMJDHQ43nxCDdoGM7Atm8PsYhYaC+2NAxTxRb5Zg/RE+gj3xf8DGL8a6maSXhlA9APAmr07N+v+Kr5K8VHniI9sQkCsBbVARsYIAZbLAiMUahQKwVep83wVna8JIJrie82giR54DC8BCpAkuSi6Bo6dNq7V6F3saTXK85+c+PIQ8cSE14bHrrsGRzwWNwx6tLyzetjZ9iOtLDwxZXe8MaEVr03bG28Nj3hy6p54c2IZL0/eFa8P2X3DjVzrrvYjFsCcDfIGgjhb3eBs9XBFeeegR2PvU5POmLH+rBucJR+uFOWrw26IPca+2e/N38d8dN5HBm97+/b2FSrB4B/73M7tfVpEjBvUtq75119v3Wc36F7XEvPL13sBdMOfZfrL5+7VzJ8QhRQyUtRKRE7j579X3uPd9vbyvLFVGEKAI8SRwrgae165vT0CdlQg+O/smTs6y//v2Urgm3f+/FfzO+p0J+lN9JRAkKd3pjuUQCIAACmuMzb5CoHsChk+1S6PChBKBEiaSgGy4foJUChNE6BhlAUCNJV2yqLoJVQOD9qky5XabKFT2kLlbW3Dcu/mm6rIAGoHL/v/YZ6NU3jDpnrOzNn10nq3pXPAnNWuLqsv+ydfJ0em4J3Oc7nLXONc57jQNRP5VTaXrnWpjUf8Bg9Um2Om2WpL1Y+7Lz17JvmrXO3CbdfzdZapv09Pdt3x9Ck4lKQm5/pilokUefjlJ685fv7ll80I+8IRsoDnwsHh36eO3HZ5bw==");
 
 export default OctagonExclamation;

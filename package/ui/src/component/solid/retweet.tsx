@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `retweet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/retweet?s=solid retweet}
  * @preview ![retweet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/retweet.svg)
  */
-const Retweet: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272 416c17.7 0 32-14.3 32-32s-14.3-32-32-32l-112 0c-17.7 0-32-14.3-32-32l0-128 32 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-64-64c-12.5-12.5-32.8-12.5-45.3 0l-64 64c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l32 0 0 128c0 53 43 96 96 96l112 0zM304 96c-17.7 0-32 14.3-32 32s14.3 32 32 32l112 0c17.7 0 32 14.3 32 32l0 128-32 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l64 64c12.5 12.5 32.8 12.5 45.3 0l64-64c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8l-32 0 0-128c0-53-43-96-96-96L304 96z" />
-    </Icon>
-);
+const Retweet = createIcon("retweet", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcwAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBfQsGAAE2AiQDCAQgBYMtBy4b+wTIHomxLaL9iigMXjz8/1z/7nOTR5nPkM/MCoiKise2rOpYOCDbVVk9GfKOH/vT3zv9c9D250/we2Zznef7PJuTuwQ6X9vGpMSywAJOjNqdbYsdGnslKSM5Lu34XCGPX7Mb6khvpV/wOH9o/KuzGyRNGYBoBYBZG9Ys891f8VfEz7UviJ8tQUDMAqVAhgzdBJgqE+gmVyKXC/6KWi3+B5YEEPWUS0I5PbkXhwA5SFKeDx9eqWuerw/7ij33O0a8jqsdXhVF3KN5EVGJj7u+02F1DNC9divjRee3+kHivUGfjqtsQSLhSvuXFfbex3lEER90etN+VSB0v+OaeN3l7f7HR7w/uDq+6F1tVf3PL/t/0bJnizvcaQHmnRYn/borSjOv7f6z5k3z5m9q/jx9embpisZq9crJnjNWLbuvvQ4EgqHHBi3c0XLq/42VBP75tuXJGmleqqJRAkE2tDbU1jTTYGoDBE2lOK835AgkW4ttvGszrwQIBQIk9QoBMl21EiBXGCJAnR7GCVCvsEYm8iahnW0NJM2cApnxLoJcO5+BOlN9n6rXLjI3czqJ85eXb36PzxtVjho+spxcTvOqy3PsqX9KuR0beJ7rBsFB+51w3Fn77HXI2U45bVn2nGPmW/I8X1QaZbiRSpOVx6XH3evtc9oZh5xwXIaZorwfH+i83XoQjCcBRj8QkpZEaji97+yFffvOAgAA");
 
 export default Retweet;

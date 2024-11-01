@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alien-8bit` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alien-8bit?s=light alien-8bit}
  * @preview ![alien-8bit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/alien-8bit.svg)
  */
-const Alien_8bit: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 32c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0 0 32-64 0 0-16c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32L0 288c0 17.7 14.3 32 32 32l32 0 0 32c0 17.7 14.3 32 32 32l32 0 0 64c0 17.7 14.3 32 32 32l80 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l96 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l80 0c17.7 0 32-14.3 32-32l0-64 32 0c17.7 0 32-14.3 32-32l0-32 32 0c17.7 0 32-14.3 32-32l0-144c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32l0 16-64 0 0-32 32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32l-32 0c-17.7 0-32 14.3-32 32l0 32-64 0 0-32c0-17.7-14.3-32-32-32l-32 0c0-17.7-14.3-32-32-32l-32 0zM480 192l0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64 0-32 32 0 0 144-48 0c-8.8 0-16 7.2-16 16l0 48-48 0-64 0-160 0-64 0-48 0 0-48c0-8.8-7.2-16-16-16l-48 0 0-144 32 0 0 32 0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 80 0c8.8 0 16-7.2 16-16l0-64 0-16 32 0 0 48c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16l0-48 32 0 0 16 0 64c0 8.8 7.2 16 16 16l80 0zM128 96l0-32 32 0 0 16 0 16-32 0zm320 0l-32 0 0-16 0-16 32 0 0 32zM160 448l0-64 32 0 0 16c0 8.8 7.2 16 16 16l32 0 0 32-80 0zm224-48l0-16 32 0 0 64-80 0 0-32 32 0c8.8 0 16-7.2 16-16zM224 240c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64zm160 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64z" />
-    </Icon>
-);
+const Alien_8bit = createIcon("alien-8bit", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAAB4QAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUSFNwsGAAE2AiQDCAQgBYMtBzEbuAbIjtRG+UVWEg//P/ef+yT5dPMhYgjujAJ6Q5wBhDI6YNLf1lXVsXCYVdtVObavat/n/5p8AXgH+PkC6JRrFQEUET7c8z0fRWm10Gw2lAn4LrfNFLfHQ+MWCnuo4vdYZoDis+I3vBN9aPxrphcpVCWAaACw8/zpo37ooov4rY/4zWEExC6QBUqUmCPAVqXAHJWMSiXoot8v/wMzAcSg5AcVoEIithJ7ARUoDFfV1wfreqIZHa0Hxqpz9UC6/PqUiA+JZ6d+VNchUkQ8N+3jlOL1KWtFqfON6Z8cQetCUkiKPdU6ETEgdpxLvUX4aOon0+MEGy/6cIpIoxEfT0tzg4hNdRxhZ/wIq4Pz1sCSaSzVibpvD3uDIp2PDCkeSp77eNqHU+6ur/stF042k/8t+O3O3zzzzfirvDqejb9aJrNWg1mMvGvKIHnr60949Eb+mro9KL4uxqFGi5YsB1vOcv2bXhIY77rxC5539fSknt6JnvFO/i6VtpjFuhOOQA0LyG94e9Z4+onr13POWSNpGyRH5PnX2+TOrDHeZdmJv1c2TZO1Tsiybvybb97mSuRb1OsgEPx/x4ad1ye23hyuC/DP92+SF/e7oi0mMawAQbmsv8yVogVMDCBexJMWAvIYjbTWsORdR30sQEgIUBiUBCjN1ghQSZYKMGCedQIMSk4rRTUiTHHVgcKoR0BpvadAZYrvwICtfowNmhJlGOJDAP8Lm3TfGNk7Lq9a0cub82ZeKwQLFuzfkg9rFz0p6xbjje70kAc97g63u8fjI/xRR5NPeMA+iLn3u9kqK/Rkm+XLpefSczT2qMfcsy6+PswW+XnnIk/CrRfjSRSA1V8fK6dHkW65/547Hly+8dZ7HgcA");
 
 export default Alien_8bit;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-walking-luggage` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking-luggage?s=sharp-duotone-solid person-walking-luggage}
  * @preview ![person-walking-luggage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/person-walking-luggage.svg)
  */
-const PersonWalkingLuggage: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 447.9l110.9 64 23.1-40 5.6-9.5 98.2-166.3-27.6-16.3-29.8 50.5L128 281.6 32 447.9z" />
-        <path d="M480 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM366.3 128.6l-10-2-9.3 4.1-72 32-12.9 5.7-4.5 13.4-16 48-10.1 30.4 60.7 20.2 10.1-30.4 11.5-34.6 36.7-16.3-17 63.6c-5.6 21.1-.1 43.6 14.7 59.7l70.9 77.4 22 80.5 8.4 30.9 61.7-16.8-8.4-30.9-24-88-2-7.5-5.2-5.7-52.3-57 18.4-62.4 13.7 27.4 4.8 9.5 9.5 4.8 48 24 28.6-57.2-38.5-19.2-35.2-70.5-7-14-15.3-3.1-80-16zM292.7 398l-43.4 43.4L226.7 464 272 509.3l22.6-22.6 48-48 4.6-4.6 2.4-6.1 15.7-39.3-40.7-44.4c-2.5-2.7-4.8-5.6-7-8.6l-25 62.4z" />
-    </Icon>
-);
+const PersonWalkingLuggage = createIcon("person-walking-luggage", true, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABlQAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCRwsIAAE2AiQDCgQgBYMtB2gbgQXIHoVx41MuUcR2LIriUmLx2hXB19jrvrsLggOURApYEwgVB6gjXLgwPsZU6Bjxp7IVNuA/L8f+3CC+AGmqldzyCGprg7b8McY4YLLmt01ck//emh4wiR8tepkgBdpxPoGBRmKWDddCM8WN6lUYxB/MvyWU+Mgt4Cb95jgH99b/AMZ/8logqcsAojUAsHIYEYTtikqK9+95iHeBICBWAfQjZGR0IzCPU6Abl35QFEElfX8Dlfj+ZhBAVLOgzFyNrnAHngEUkGRRStOarLggd1M5oLPWnwxpT2iOyQ1qjetMKkbKSMtIUSRJid2UyPEjRapsmBrRi6IokhdACqJJBrDDyYI8ac0uNdu3TImOdXRx1CUnBlzIoq6qnPXJmApGRUeZFI+JIW2moilSfUZs5m3gPPscd/cCxQ0NxQKhryy003mYZvj0YZ+TX6PmjJoVQtT5sXcQpDfRZlsT2UPI8uLLyCk/Pf5bEU59A0W+hbT4Cq2CeaOdy/LLkpZXjSyGWsFOXfDtcxAn7Q1bbkSMI+UNgEDQ0xt5myLquFrBBP7++fgX35d9b6fezgBqJRDkkRtKTK5g1JNKCACQ4hbqyRVPWx04yQl/a6MfCIR6BEiq1QuQdRFDoKg3jECVXlYIVKu3i1OUOqFTUk4mjS7IbE4TWXSaI6vMO4pU6wzOm1G8lcR/wTTvMujViZkZmzJ71pmSSvcXr1sd2Gi7bjUv0YNTka1EsUpZMuWpLBHlguJVinj34V5+iDFjzBRjj83OXteicaRchbx2ZX47Dtj6YV3V/dX1oIuDwzllQJaJFLn35jUbfUUSjQqrcnLScrKMXtZcupSrGQAA");
 
 export default PersonWalkingLuggage;

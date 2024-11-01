@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gift` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gift?s=sharp-light gift}
  * @preview ![gift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/gift.svg)
  */
-const Gift: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M365.1 32c-17.6 0-33.9 9-43.2 23.9l-45 72.1 11.1 0 80 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-2.9 0zm-130 96l-45-72.1C180.8 41 164.5 32 146.9 32L144 32c-26.5 0-48 21.5-48 48s21.5 48 48 48l80 0 11.1 0zM256 101l38.8-62c15.2-24.2 41.7-39 70.3-39L368 0c44.2 0 80 35.8 80 80c0 18-6 34.6-16 48l48 0 32 0 0 32 0 96 0 32-32 0 0 192 0 32-32 0L64 512l-32 0 0-32 0-192L0 288l0-32 0-96 0-32 32 0 48 0C70 114.6 64 98 64 80C64 35.8 99.8 0 144 0l2.9 0c28.6 0 55.2 14.7 70.3 39L256 101zM144 160L32 160l0 96 32 0 176 0 0-96-16 0-80 0zm128 0l0 96 176 0 32 0 0-96-112 0-80 0-16 0zM240 288L64 288l0 192 176 0 0-192zm32 192l176 0 0-192-176 0 0 192z" />
-    </Icon>
-);
+const Gift = createIcon("gift", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABhQAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCTQsGAAE2AiQDCAQgBYMtBysbSAXIhocnu74/t7qfuteolWdhfxCRlImc7DvIYE1/786/jg34/Il/tLWaQ/ekOc8TSKxL25ZQ9sEyTcDana2VFdEcijREkuNcjscNynghJmohXZfewiXBofG1/s4nKQsA0Q0AS3dv36j5QXwQ8db/TxFvWY+AWAayQIECgwRYoBAYpJRRKgUfxP//m//ATADRih2VQIkOXIjLASVI2sqyW/fZdUdHR93SudxVt1SH39lvR9T1PX2vGXh9n6tHVzt27dx1/egq7ux1Zb/rel81qp6wfMnyR2bX8dS4+waf3a+uhRAVeDsFoFXU1vX1A26Z8MBe9aSlO6q60noiMiPILhKx0wry5TD8/m73fzvsrcPecswtj342cbV6S+Odt4vi7XcaxTn7SyGmPnu0MIhs+etYe9kFzUK3Q3fFwF8aOTtAljWTfStJPdT4pIpdh3YrMhcce/y8ExA+QH70AN0aB0CP5gOccNZZj7Y2Pao59JXyPhAIRl58+pH7d13wa3udwEfPf/8j/oz830zS/WiXQFBM/H+ifRJIBAAgxWmGJwgkZ2rDn9rJ1QKECgGSVpUAhYG6CVCqTBCgxRAzBWhV2a4QZYfQy74VJJ2cCAqznAFKvTwBWizwaq5VryjUUVIm6TeYvkoiK4/lqZMbeV6e9hVZwwS3Pz9ve8eeRnPj4KzDHO84pzjUIY50iuBOsrF4qmOtWhErfVE21WQN2Tz5eHR/epdDneRkRzrecf6Q+fL95FinrVePg0DCvNP0JIlI5TsCAAA=");
 
 export default Gift;

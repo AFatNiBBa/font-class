@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `taxi` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/taxi?s=light taxi}
  * @preview ![taxi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/taxi.svg)
  */
-const Taxi: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 48l0 16 128 0 0-16c0-8.8-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16zM160 64l0-16c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 16 .4 0c35.3 0 66.5 23.2 76.6 57l34.3 114.4 .4 1.3C492.6 253.2 512 284.3 512 320l0 96 0 16 0 16 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48L32 448l0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-16 0-16 0-96c0-35.7 19.4-66.8 48.3-83.3l.4-1.3L83 121c10.2-33.8 41.3-57 76.6-57l.4 0zm-.4 32c-21.2 0-39.9 13.9-46 34.2L85.3 224.6c3.5-.4 7.1-.6 10.7-.6l320 0c3.6 0 7.2 .2 10.7 .6l-28.3-94.4c-6.1-20.3-24.8-34.2-46-34.2L159.6 96zM74.7 259.9l-.5-.1C49.6 268.7 32 292.3 32 320l0 96 448 0 0-96c0-27.7-17.6-51.3-42.3-60.2l-.5 .1-.1-.3c-6.6-2.3-13.8-3.6-21.2-3.6L96 256c-7.4 0-14.5 1.3-21.2 3.6l-.1 .3zM80 328a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm328-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Taxi = createIcon("taxi", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABlAAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCewsGAAE2AiQDCAQgBYMtBysbdgXIhof/16Xd96XxsSWDAgaWA4gLDFh0yy1Wqed/rvn80o4O8BsdShWV3i0pyzKfT2Ai6RlAez6wmU7ANjhv4iFlh/YN5PFhzNEg3Z9+wq3Oh8bf+l1FkmcAogLAxn333Nlnf8QfET813yZ+siMCYhOoBTJkGBJgjUxgSK5GLhf8Ec0m+w+sCSBaeO+cQI5WPILnATlIWvK8c/tquK2tbHTk+5SN4kChjIh7eoq4a+KUEA/23ju9jKe77+4XETdOfbp/7+gOGL6f0OwcdqYvoj0Xccnlgw9O7419Iz7x2TK81bdX3Ft2xI3d+8QDy4q9irJ4auJdRMe0YM8904oDU4v2uGFi7D099+n++6Y8M3BkwlaPmPRC9cK/Yz8d85NPb62q6jKVzj8O80dnkzwh+/mXBYdZ8MvPWYXBXXc5f+x04cCvvx48TKWyYCLLfAt8lvM9ZYcZ/PrrAwNef/4uuw6qx14dOsRujQ0au2WvenXss72ejIhpr37afZjPHKb701enBe4sNyjvlG/u3n337pDctld07wcCwWFvXN08tGvNltYygb8++H9L+iPU/CxJL6BVAkE2pznHQQkkAgCQ4hyTEgSSe5xyrX0EiXgowJC0KCAzqIJcYTY0jFjKz5y/p0zkbcJEB0NI2p0OmWUuhtxEb0LDGt9GWkyM7CsVvzHxJzFtmzqy9ax64bwF9ap6sCKXPjxeT66uZ5szzuEdM+EaxzjVKc5ytKMcn7I1+gw7x892sm3GqK19UW2heRaorVKvrt/W9sGRM5zp+H5l/TSr1fu7M5wz3n8mdBKPcREjXYKMlJ91+HnHAwAA");
 
 export default Taxi;

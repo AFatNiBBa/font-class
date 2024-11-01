@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-gear` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-gear?s=light folder-gear}
  * @preview ![folder-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/folder-gear.svg)
  */
-const FolderGear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 96c0-17.7 14.3-32 32-32l124.1 0c8.5 0 16.6 3.4 22.6 9.4l35.9 35.9c12 12 28.3 18.7 45.3 18.7L448 128c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32L64 448c-17.7 0-32-14.3-32-32L32 96zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L291.9 96c-8.5 0-16.6-3.4-22.6-9.4L233.4 50.7c-12-12-28.3-18.7-45.3-18.7L64 32zM208 192l0 .7c0 1-.8 3.4-4.1 5.3c-3.2 1.8-5.5 1.4-6.5 .8l-.6-.3c-15.3-8.8-34.9-3.6-43.7 11.7l-16 27.7c-8.8 15.3-3.6 34.9 11.7 43.7l.6 .3c.9 .5 2.6 2.4 2.6 6.1s-1.6 5.6-2.6 6.1l-.6 .3c-15.3 8.8-20.5 28.4-11.7 43.7l16 27.7c8.8 15.3 28.4 20.6 43.7 11.7l.6-.3c.9-.5 3.3-1 6.5 .8c3.3 1.9 4.1 4.3 4.1 5.3l0 .7c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-.7c0-1 .8-3.4 4.1-5.3c3.2-1.8 5.5-1.4 6.5-.8l.6 .3c15.3 8.8 34.9 3.6 43.7-11.7l16-27.7c8.8-15.3 3.6-34.9-11.7-43.7l-.6-.3c-.9-.5-2.6-2.4-2.6-6.1s1.6-5.6 2.6-6.1l.6-.3c15.3-8.8 20.6-28.4 11.7-43.7l-16-27.7c-8.8-15.3-28.4-20.5-43.7-11.7l-.6 .3c-.9 .5-3.3 1-6.5-.8c-3.3-1.9-4.1-4.3-4.1-5.3l0-.7c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32zm64 0l0 .7c0 15.1 9.4 26.8 20 33c10.7 6.2 25.5 8.3 38.5 .8l.6-.3 16 27.7-.6 .3c-13 7.5-18.6 21.4-18.6 33.8s5.5 26.3 18.6 33.8l.6 .3-16 27.7-.6-.3c-13-7.5-27.8-5.4-38.5 .8c-10.6 6.2-20 17.9-20 33l0 .7-32 0 0-.7c0-15.1-9.4-26.8-20-33c-10.7-6.2-25.5-8.3-38.5-.8l-.6 .3-16-27.7 .6-.3c13-7.5 18.6-21.4 18.6-33.8s-5.5-26.3-18.6-33.8l-.6-.3 16-27.7 .6 .3c13 7.5 27.8 5.4 38.5-.8c10.6-6.2 20-17.9 20-33l0-.7 32 0zm8 96a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const FolderGear = createIcon("folder-gear", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAAB0QAAALqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQSEOQsGAAE2AiQDCAQgBYMtBzIbOwYjEXZqLrKT/SMxNlb2eILQ7i4eWE5CTXHoCF3eGbKkSaNpsnwSz///fv+ba99zv5hQoULCK4NkUoI3Gp1moVJpePMS3qBqpV2D38/dbf7+xL6jltQaRJUmGtI2oIlb01CopEokKTz8zTxVKT9idyXTVhfSffzP5fSuojlwTYG4NIPfHtq2MWmM+TyBNLClbUsgy0JNwJpyl/Vy3hp1e2doeZsCPfWyPvC0+dD8sukJpXUAsgCAc9cuXfRpxFHyY3glP1xAIOfBgaBDhx0BJ3WCHc0BmiaMMgzgPxACZEyHLzsaxsmlYNu+0rd25Mhe45b62dZOx3RK9M6q5K4kcVGu4X3+um0UZyJbwsMFZYfWoqsc8k6zcD/3PtPL2/xH08qDvIcs4aqs5YMQ7SBmxxRyB5RHNG7J2zKZAEMIClfWuW04AwAXOGPwC9RdkrM+V0a2S1STu8rOZpvCEILiVwzfsRMCQIjMPiQEFyJbmAaxn3mdTeokr/S9TFIj8jcZVxoifAdZ4V5BgxJvjcMsQZMylxbcmqTUboYFsBHYXWkPgYfP1B9DH0ge9M3BnC8K714RjhhHECFxAmBn9tb/nwUhKOohgsGzGfjAsHAfLX8munpK0lLYEIC3p/exb735BW8QsNkUakF+L2/s/emVyYZCCw90poAAsUFH4lXzG/bVk1R0vZH4BlQvDVSD+NCkIko8BYEDU0ElCggFxJWXOAfl5mZ5VAUA4G3ul6mtQX/1l0spFvj55t8X9CsaRqVeYUKB0B0bCtwuUAQAUHnkSAFB+a/XvOuMZwJiCgFlzJSAzrYFAc2UowJ6e44LGDPlkk7apFhxh4nLjLvizgmPxc2K1+LeSZ9TY1ZifQlMt7DpHzT7dBSxYRtVXuKwthHzfW0o1z2L/fpPx4y/T/QOu1enNUEgsG519rOJLvXwXVRyJThs7q3amxBA/DExm7YjNvE4Pqz97tnGD0md1kK1FgVLGnr+HNmXBw==");
 
 export default FolderGear;

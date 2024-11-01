@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sensor-fire` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-fire?s=sharp-solid sensor-fire}
  * @preview ![sensor-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sensor-fire.svg)
  */
-const SensorFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 32L0 32 0 480l336.8 0C306.5 446.1 288 401.3 288 352.2c0-56.8 36.1-108.8 71.8-150.1c26.7-30.8 56.6-57.5 88.2-83.1l0-87zM112 120l0 144 0 24-48 0 0-24 0-144 0-24 48 0 0 24zm96 0l0 144 0 24-48 0 0-24 0-144 0-24 48 0 0 24zm240 40c-42.7 26.7-128 102.4-128 192c0 88.4 71.6 160 160 160s160-71.6 160-160c0-26.7-19.2-96-96-160l-32 32-64-64zm96 240.2c0 35.3-28.7 64-64 64s-64-28.7-64-64c0-48 64-96 64-96s64 48 64 96z" />
-    </Icon>
-);
+const SensorFire = createIcon("sensor-fire", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABewAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCFwsGAAE2AiQDCAQgBYMtBzIbGQXIHge5aer+KaIM4rSI4Hm7/qtzu+ehZz7dn9LCjgRn9IRLhIxetOiqfe/28oGQE9c8f6sCLPJHi8KiAul59/loQC+2n1aAj2YDe1GctbP/gUG+G5QkxCcZxh8mzpDHP7tKjXRXauIG+dH4XT9XkbRnAKIrAJbu3r7R2z/HzxGfVYjPrEdALAWlQIYMAwVYIBMYKFcilwt+jqpy/4ElAUQLgMndOVpxEs4D5CCp5Xk31PbvU691ynelN4pjG50aKTrFu7semPzC+LcWx2GCKIJ21kO9E+58dEzEkxOOeXbgFwvf2PnV4rd23zPp+W1jYtvOO6cPFlePe7r/PQPu6XNHn9t63dbvrn7Dnu769J9vHtP01gNvo9RWv8X6YufKNy/q2L15942o62uKvm6UZx7Wlf89+uTP+G4nxzRiebO5XPBoNj9fm7/htEp16KIb3QcM6N6taO3Iv/yrjlYgENx4/MrPD+2yoKOtnsCvr4bvrt5Ol6en0SaBIJtQTXAgXUZVKUUCcJTiHMOoYoHkKDXAtzbcLkAoECBpUQiQGaCrALnCeAFqBpspQIvCdpnI24WeDlY2aTidzcxyMZvr6RW2ZoGPohY9I7M5xWKUL1/mqhZYWVROnTSlnFcuO4pqRlLYnF9uW2PO8RNj6aBjnOoUZznaUY53VsOcYWN6tpOt0rCVKlSaapIpSvOUx/3H/bsc7QxnOt6pTonbzFfeD8c4R58/ltwEotPUJYlI9Rcr79QzJhowAAA=");
 
 export default SensorFire;

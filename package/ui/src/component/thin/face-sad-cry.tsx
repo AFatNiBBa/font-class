@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-sad-cry` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sad-cry?s=thin face-sad-cry}
  * @preview ![face-sad-cry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-sad-cry.svg)
  */
-const FaceSadCry: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M384 459.1L384 264c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 204.3C334.6 486 296.5 496 256 496s-78.6-10-112-27.7L144 264c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 195.1C60.7 416.5 16 341.5 16 256C16 123.5 123.5 16 256 16s240 107.5 240 240c0 85.5-44.7 160.5-112 203.1zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm48-128c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48s48 21.5 48 48l0 32zm-48-96c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64s64-28.7 64-64l0-32c0-35.3-28.7-64-64-64zM118.6 227.9c10.9-19.3 26.4-27.9 41-27.9s30.2 8.6 41 27.9c2.2 3.9 7 5.2 10.9 3.1s5.2-7 3.1-10.9c-13.1-23.4-33.6-36.1-55-36.1s-41.8 12.7-55 36.1c-2.2 3.9-.8 8.7 3.1 10.9s8.7 .8 10.9-3.1zm233-27.9c14.6 0 30.2 8.6 41 27.9c2.2 3.9 7 5.2 10.9 3.1s5.2-7 3.1-10.9c-13.1-23.4-33.6-36.1-55-36.1s-41.8 12.7-55 36.1c-2.2 3.9-.8 8.7 3.1 10.9s8.7 .8 10.9-3.1c10.9-19.3 26.4-27.9 41-27.9z" />
-    </Icon>
-);
+const FaceSadCry = createIcon("face-sad-cry", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABpgAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iCfwsGAAE2AiQDCAQgBYMtBzMbggXIjpQuZyTx8P82tfv+jHUcxUGeMPECUIeEcpahAqpcq0L0L049z3kogG8UlLFtakCyOTTneQQCmAula3gL2POC1UpcAau5NYY4QUX2EZF1RK6QHs/1eHWHPF62Sw3pxlTB5e1N428dXESSZQCiOQCmr1252Bu/xq8RleqzRMVCBMQMUAhkyNBZgEkygc5yBXK54NeoVvk/sCCAKJGnJ5CjFrfgcUAOklKeD+jUtl2LFo1rmuRr8sHy9hDXtb2mtfhg1nsLQl/82Iin1nwz8umFH6/9av6Hw59c/eWwJxat+mZpxCcz347zZ7y15NiaLxdVpr3hvOlvLq5fvfaG1hHX9Lqv7XUdI25ud33fe9tc28Gae/pFPNBe3Nj/wd73D3y4U8RNAx7qs+bhKPW/9oa37WNjnhl0TZtWsfZIrOZ7PNT8oX9V9lScW35bFkvbtpUqBrzxxoAKXX9b8cWXppnR0LB16wwzdKJeboZpX35RnDtqtiu4cmLnmTM7T7zyitkwyCtDz83q+XHYsB/rswKzYWXo1jta0KJcKLdocQdx9BWXTaw7blvn0TtW9lmh+Yw+K1fM/qMTEtbjQCD49qmLsq3NJjXUNk7g95f+P35Gqm8k6SHUSiDIBlUH2ZRAIgAAKU7RI0EguUaJHKpznQChjEJSUoZMJ80hVzYQanQ1+nBJ2UqZyBsJrW1WSOocD5kxzoZca09DjUneN0paR+anjJcxv4mJcxCZPVUMHzKsmFAsA5N1PaoMJxaP5X6npEJ/WrfHUUecZLdd9jsJYCdYbJ/ssDkWOtsHFYYbYpjCBMV2/FlcA0QXT0TqmtsfM1Hxvt7PKXZ9f9ISwR3BlyQi1X0FvsEnbt81eOcJpwMA");
 
 export default FaceSadCry;

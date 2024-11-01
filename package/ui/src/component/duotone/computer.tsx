@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `computer` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer?s=duotone computer}
  * @preview ![computer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/computer.svg)
  */
-const Computer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M480 80l0 352c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-352c0-26.5-21.5-48-48-48l-64 0c-26.5 0-48 21.5-48 48zm48 32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zm64 192a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M64 96l320 0 0 224L64 320 64 96zM48 32C21.5 32 0 53.5 0 80L0 336c0 26.5 21.5 48 48 48l133.3 0-10.7 32L96 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-74.7 0-10.7-32L400 384c26.5 0 48-21.5 48-48l0-256c0-26.5-21.5-48-48-48L48 32z" />
-    </Icon>
-);
+const Computer = createIcon("computer", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABngAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCWQsIAAE2AiQDCgQgBYMtB0wbdwXIHgl2TOI/kLiQFg/f2+p37ns9U7tj39akv5lFYohJZuYpRHiGB5l1kVJEFClTUO/l8D//13x+z48O8NuV+KF1aGHk4nmmlsCEytfio+lspjgFt10UUQ2FhcYFijQ/369GeiX9gqeC/wGMvw27n6Q3A4ipANh56thR31VRpfil+znxiyMIiF2gFMjIGBNgiywwplCiUAiq1E0V3SUBRF3wsRnU0YMn8QKgAElSFEXvupF2e0az1i5ONmuNc9qttmhFzHq/L+L5oRSv9L8wtxlD0YhH+553d/8LzXY8NvhS3DPwYqMRI9GMjwZfGs3x6sCL81pXpJw2t06QG/F+3/NDG18aDF/of74vXHtxQMc+cfcrDzQeHXgx7hl8qflY/wtmfTr1039m/nL5L7ZfsCN6qbJD1V3xG79m8q+/rXjAWw7rPPwwa6grh73lAbt4FV3ozxsujOhG2TG1ciG3uasqVZ18bIfbtP3bzsNcx6doIO77//gzLpiy5b+eZgJ/ffFf5dPdKt2dPkWPBIK8pLvEueluUOtBlKS43ayV74pKINuvEL1ry4sChAYCJHUNAbJRUwUoNCwWoGbCWgHqGo7JougV+pzXgqTlJpCtcwco9PkM1GzxfVLXFxmVLKbYn8KkfX1o775y5bIV5aZysaXmgEa7q5vL3daC2/XIQnrW5W5wvVtd5lJXubWH3Oxofpvr7FuD9/qh0krLrFDapDzdfSyd7CU3u8VV88L5XTYr7/cWuH19+kLqJhHlKgeyTKTIUxGuLYW3MX0gfMgAAAA=");
 
 export default Computer;

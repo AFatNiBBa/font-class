@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sunset` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sunset?s=light sunset}
  * @preview ![sunset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/sunset.svg)
  */
-const Sunset: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M299.3 219.3c-6.2 6.2-16.4 6.2-22.6 0l-96-96c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L272 169.4 272 16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 153.4 68.7-68.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-96 96zm94.2 5.9c5 2.1 8.6 6.6 9.6 11.9L423 345l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L500.9 448l-38.9 0 38.7-56.2-94.5-17.4c-6.5-1.2-11.6-6.3-12.8-12.8l-17.4-94.5-79.1 54.5c-5.5 3.8-12.7 3.8-18.2 0l-79.1-54.5-17.4 94.5c-1.2 6.5-6.3 11.6-12.8 12.8L75.2 391.8 113.9 448l-38.9 0L34.8 389.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L153 345l19.8-107.9c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L288 289.1l90.3-62.3c4.5-3.1 10.2-3.7 15.2-1.6zM412 448l-33.4 0c-13.2-37.3-48.7-64-90.5-64s-77.4 26.7-90.5 64L164 448c14.2-55.2 64.3-96 124-96s109.8 40.8 124 96zM16 480l544 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L16 512c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const Sunset = createIcon("sunset", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABiwAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCSwsGAAE2AiQDCAQgBYMtBy0bSAXIjsK2bRMVDJbzBcKDFcH3+/32nHs/5s0TnjThoWrzSIJGJCSaRVrXELUxnfgsWtPZcJmvAEQurgqAPpXEjoVjYQB15/9mz3seBfg51zWsuHxsjeZ8nkDPA8nXjSVydnh2onhvU+xQKGod69hCXBORjmt4fFuhxkM4QEg+8e7BXfvQ+KNHCqRaABADAICdo/REXL7Sa9B9swfxIh4ExC6AKYSCgjEE1vEFxghMgaoKPum/wf9ABgFEG/qLE1S04RbwCIAKUq0CfX9t5W6hkiArnydfPqadRRM6k1qZRDSpM64FOqJJrXHNjMxxiRE/Pj0hJE/hZMFtcgaNDUwVKXQlhDklnWwHsYFM52bKK8jP2Mms1my2dOVj0f/Ee8/3yKhERVllXGtMU7litrPNZKqyN9P7qnt2vxxXXIyZGY6LCMc0lD8/ladxYxyT2OP5RcJyHY161A+jdc06uhfWqhUNYthWtQhJa5BKz3PVjqH3XKiGatZ6RU97t9ZrQOMSOhdtHbmBQLXjWu3ZFC/bbm35/GxpnTUDpy/38SGnzw2ZMMZelZVfp3A8DxAI/muKRotVAv4kCjzA9/HHH52vucwQngzQIUFQFv8dFGQIAKAJMDK6YKZ8USDdEOjv2uMeBEIXAqQ2XQIUo1QRqLosINAywROBNl328EWVQxhROEHqcQWKNYOgGrEDWtZd6W1GokQjFUvUz2B8FIcip5irkwvzY6+Biw4wogz9mVm06aKCLSyiSrMmHSpVqNXBkDaJVqdGURoc6YcYV05cMH6YO17yWQwbfHsl1ox/jD+2X7HRpdfbwhw8wNJ3JMgfKWrvbGqv7AA=");
 
 export default Sunset;

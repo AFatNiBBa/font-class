@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `angel` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angel?s=sharp-solid angel}
  * @preview ![angel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/angel.svg)
  */
-const Angel: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M384 64.2c0 .1-.1 .3-.2 .6c-.3 .6-.9 1.8-2.3 3.5c-1.4 1.7-3.4 3.6-6.2 5.6c6.7 8.3 12.2 17.6 16.3 27.7C407 91 416 78 416 64c0-35.3-57.3-64-128-64S160 28.7 160 64c0 14 9 27 24.3 37.5c4.1-10 9.6-19.3 16.3-27.7c-2.7-2-4.8-4-6.2-5.6c-1.4-1.7-2-2.8-2.3-3.5c-.1-.3-.2-.5-.2-.6s0-.1 0-.2s0-.1 0-.2s.1-.3 .2-.6c.3-.6 .9-1.8 2.3-3.5c2.9-3.5 8.4-7.9 17.3-12.4C229.6 38.4 256.5 32 288 32s58.4 6.4 76.2 15.4c8.9 4.5 14.4 8.9 17.3 12.4c1.4 1.7 2 2.8 2.3 3.5c.1 .3 .2 .5 .2 .6s0 .1 0 .2s0 .1 0 .2zM368 144a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM209.4 285.3L120 464l-70.8 0 42.4-91.9 11.3-24.4L87.9 325.4 48 265.5 48 208l84.1 0 77.3 77.3zM248 256l-96-96L48 160 0 160l0 48 0 72 48 72L0 456l0 8 0 48 48 0 48 0 96 0 192 0 96 0 48 0 48 0 0-48 0-8L528 352l48-72 0-72 0-48-48 0-104 0-96 96-80 0zM526.8 464L456 464 366.6 285.3 443.9 208l84.1 0 0 57.5-39.9 59.9-14.9 22.4 11.3 24.4L526.8 464z" />
-    </Icon>
-);
+const Angel = createIcon("angel", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABkgAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCDFAsGAAE2AiQDCAQgBYMtBywbkAURVZpLyX4kZCeZFzjVqqnMrrp13CS5I1mexPPwdtWf+6pG1Wv0zko9s/A3FBnZdwY5t8If99Q20dL/SOIVMjQaR0gunRJEM2zL89ZXB+HifmCpJbDzmv/LPb/nR9s/H8GhrEFrtXH5GFOg5wGm6VhWFFB2mGUJaoPzRh1QaArpJ6jzTXUDnPJA+Ry3uZjmH1PdACoGKgAZA4BtD95/T2//mB+Tz7ovgPKZ3RHItqAtqFBhhoDNKsEMtTZqtfBjul32H9gmQHqFRxdQow+PgbwOAjUoeup6x5Hj549v9YysD1I7mpOvTXJN7p4gfqObeJs+b/zs9P76l6dMi4fJ/aQ+1wJl8kRmX3efv4lBXgv5OeDRPQx79oxtw3vTd7ZxwMEHNDk40zMt2yVp5cBNBx14UNOIHJgDItIanUAelIOjNw3ON8c2raYXh1Zkm0zJ1Bw4+PSY639zPj/pc1dfDSGDww+dfUzdDG27zz7bDjX1MUc/M0yMjQAIGbvjh2+c5xsf7hgCwOi9R5x84YUnj8hyj958yLPRMTtbUk/4ucxGB9hjjzOODoed0unYxcq18vTr6ExHf4vta7uIsj/6aPtM+mrnYBzy7J5XO8BGl/ndS6gCQfj3wpu+Pnr05v/7WwX8/Or/P8Xd3bfLNuVpkH4FhGpZd5kjyjbAqAEKJRcZXPigoHgELrzrCPeCQTQIKHo1AirTjRFQaywV0GOWNQJ6NfZXST0gJjiyAcUI54LKWleC2gTPgR6bfZTvNSHVLSvccMIPY6rfqQvtuK09tKLT3tiebavEu5DT65vam41FF/GxxXAvRypRsVl8VQcp6KVaTFuCVV8ESHgiQAYO9x6qJi4USv60eHwTCnB9ktQsz6agjQi0w2qKQkrPtw4AAA==");
 
 export default Angel;

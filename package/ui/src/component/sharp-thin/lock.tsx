@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lock` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock?s=sharp-thin lock}
  * @preview ![lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/lock.svg)
  */
-const Lock: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M112 128l0 64 224 0 0-64c0-61.9-50.1-112-112-112s-112 50.1-112 112zM96 192l0-64C96 57.3 153.3 0 224 0s128 57.3 128 128l0 64 80 0 16 0 0 16 0 288 0 16-16 0L16 512 0 512l0-16L0 208l0-16 16 0 80 0zm0 16l-80 0 0 288 416 0 0-288-80 0-16 0-224 0-16 0z" />
-    </Icon>
-);
+const Lock = createIcon("lock", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABXQAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBOgsGAAE2AiQDCAQgBYMtBysbtQQRlZoryL5IsIPhjw8ho9Y323xq00fDWvXeRMJ4JB6+n/s89yV/Z5uUIa0iZsfggHwdo0JWaMxObaeytj+Ze78CoIrfE/7Bf+rU85yHAvgcgqCNhWuCLJDQnOcRiFguvoECVCtYtYBS5lo7u1dvEP0qXconGbY3jDbI44rNaqRLCc61N40/ujgryTIA0RoA09asWORLUzRF/Kq/FL8sQEBMA5VAhgzdBZgoE+guVyGXC5qiXtf/wEoA0cB+RAI5apiOOYAcJFmet+5VlrUW+eqyVmwQyoi43v/x6Bd9H3avQtyZ8nmOSfcWZSlSiKJ5RBYR5aqiLFK0iCyKPo9bP/7b21b2TZk6dWqTqVr9z6vzrtrIGUuXzhhZm2pp69YqrbV+krQlrZbKc5WblaVAINhw6uuuWk3811gm8PvdP3C7/iW+pMdolECQDawP3BhfQNEBfKUUR/WJLwgk42XkVZs7HyAUCJA0KATIdNNagFxhgAA1PY0SoEFhhUzkzYT2Ng2QNHcAZEY7BnLtPQc1E31zGrSPLIrIGCD/cHFqNkOz5qphg4dW46tlqFOBgZfxhGqb73s0l/ph1dZ9ew9v2bzjMCEHF/lH9sz24FkfrIYNHlqNr46T5+XVWw4e2rFvb50yobpv9z3qN/eDlBjm8ECSiJS/bgAAAA==");
 
 export default Lock;

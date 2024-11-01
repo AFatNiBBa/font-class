@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-left-and-up-right-to-center` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-left-and-up-right-to-center?s=thin down-left-and-up-right-to-center}
  * @preview ![down-left-and-up-right-to-center](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/down-left-and-up-right-to-center.svg)
  */
-const DownLeftAndUpRightToCenter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M470.6 11.3c-12.5-12.5-32.8-12.5-45.3 0L352 84.7 326.6 59.3c-12.5-12.5-32.8-12.5-45.3 0c-6 6-9.4 14.1-9.4 22.6L272 208c0 17.7 14.3 32 32 32l126.1 0c8.5 0 16.6-3.4 22.6-9.4c12.5-12.5 12.5-32.8 0-45.3L427.3 160l73.4-73.4c12.5-12.5 12.5-32.8 0-45.3L470.6 11.3zM436.7 22.6c6.2-6.2 16.4-6.2 22.6 0l30.1 30.1c6.2 6.2 6.2 16.4 0 22.6l-79 79c-3.1 3.1-3.1 8.2 0 11.3l31 31c6.2 6.2 6.2 16.4 0 22.6c-3 3-7.1 4.7-11.3 4.7L304 224c-8.8 0-16-7.2-16-16l0-126.1c0-4.2 1.7-8.3 4.7-11.3c6.2-6.2 16.4-6.2 22.6 0l31 31c3.1 3.1 8.2 3.1 11.3 0l79-79zM41.4 500.7c12.5 12.5 32.8 12.5 45.3 0L160 427.3l25.4 25.4c12.5 12.5 32.8 12.5 45.3 0c6-6 9.4-14.1 9.4-22.6L240 304c0-17.7-14.3-32-32-32L81.9 272c-8.5 0-16.6 3.4-22.6 9.4c-12.5 12.5-12.5 32.8 0 45.3L84.7 352 11.3 425.4c-12.5 12.5-12.5 32.8 0 45.3l30.1 30.1zm33.9-11.3c-6.2 6.2-16.4 6.2-22.6 0L22.6 459.3c-6.2-6.2-6.2-16.4 0-22.6l79-79c3.1-3.1 3.1-8.2 0-11.3l-31-31c-6.2-6.2-6.2-16.4 0-22.6c3-3 7.1-4.7 11.3-4.7L208 288c8.8 0 16 7.2 16 16l0 126.1c0 4.2-1.7 8.3-4.7 11.3c-6.2 6.2-16.4 6.2-22.6 0l-31-31c-3.1-3.1-8.2-3.1-11.3 0l-79 79z" />
-    </Icon>
-);
+const DownLeftAndUpRightToCenter = createIcon("down-left-and-up-right-to-center", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABmgAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCbwsGAAE2AiQDCAQgBYMtB0cbhgXInge2rWK9CAPaEOvjeEsXh/H8/+/3v7n2PYhpNE1iFsobRAvlS0O9ExoeydbIf1DJJv///bx31YDvjLp4s1l02CxKf4BPh20tMKABbrs1oh2EzVJRAkWoWiU0oRL7QvSfzKmL0987/vdt0wJ5Rh9lrea0Oc/nFOg8wC771liWUBZYphEE6L3pJpIyevxkhZQNsR3n9vZ0gZYj9PCpx/Ydbuqb5otZ5pSuA4BMBAC2nTlxyG0oQ8nn/3PyzgEgkO0ACyE6dJgLwUZcwVw8C4GmCUP5/5/+AxeCABkOgpTHG4bjEZ4CGiit8TQLt5x0mJwXrTsltQcuuKVwlqTxdBYFMsA0jsGdsGYw6/BMSp2DZS3ej1j3oJZyo5HJ6FpCEYn14lC8sRgTc0bYYALiOGMAeZLU66bQ+0BY0giLY6DIgAPkHU7hxfu0f4uc5dOz7Rn3qDYbB097lu+juDRDn9o4brNh315go3M+6smT3jnX/0q+CPt8Ix7hjlv2c+LEr1zVl54HEITRH4834savI5ED8PnN/0u/RvX/bf7VBUYqELpl/5dJF6XyFwBAZUpdlKDc0sirjvVAQIxGQBlutIDOHCoImtGWQjDMfE4IhhvtBK40McRUmROUsS6CzgYz0Ex1AMNsdC8MNzXd/JRnl/x7mLHbwru2LbSaLMRHHtuaMuXEfd1Pwl7NlMe0YKuqp2usoqxhbKihUHmiI9gjAz6IsDKxIHxIuvfViGJkaMSSr+Q34UfGJzWm/dlaCHAI5xqNpUh9sUort3V54Vxv+eTCIk8tH59fvlYAAAA=");
 
 export default DownLeftAndUpRightToCenter;

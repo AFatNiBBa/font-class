@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-project` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-project?s=thin diagram-project}
  * @preview ![diagram-project](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/diagram-project.svg)
  */
-const DiagramProject: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M136 48c22.1 0 40 17.9 40 40l0 80c0 22.1-17.9 40-40 40l-80 0c-22.1 0-40-17.9-40-40l0-80c0-22.1 17.9-40 40-40l80 0zM56 32C25.1 32 0 57.1 0 88l0 80c0 30.9 25.1 56 56 56l80 0c11.9 0 23-3.7 32.1-10.1l68.1 95.3c-7.6 9.6-12.1 21.7-12.1 34.8l0 80c0 30.9 25.1 56 56 56l80 0c30.9 0 56-25.1 56-56l0-80c0-30.9-25.1-56-56-56l-80 0c-11.9 0-23 3.7-32.1 10.1l-68.1-95.3c7.6-9.6 12.1-21.7 12.1-34.8l0-32 192 0 0 32c0 30.9 25.1 56 56 56l80 0c30.9 0 56-25.1 56-56l0-80c0-30.9-25.1-56-56-56l-80 0c-30.9 0-56 25.1-56 56l0 32-192 0 0-32c0-30.9-25.1-56-56-56L56 32zM360 304c22.1 0 40 17.9 40 40l0 80c0 22.1-17.9 40-40 40l-80 0c-22.1 0-40-17.9-40-40l0-80c0-22.1 17.9-40 40-40l80 0zM440 48l80 0c22.1 0 40 17.9 40 40l0 80c0 22.1-17.9 40-40 40l-80 0c-22.1 0-40-17.9-40-40l0-80c0-22.1 17.9-40 40-40z" />
-    </Icon>
-);
+const DiagramProject = createIcon("diagram-project", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABngAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDEwsGAAE2AiQDCAQgBYMtBzYbmQXIjsM4RnwXG6uoeHhe7/tf+ySj5Bl5NjvySzXYyZ2LBm5Z/XZuQoXoz//lnh8dHR3gNzq0vXDqAlyzsTGBRMMxKaGiMEsUs83GNnBENPxEhFjkIRJ7vIT4d4Y8frJfHenF9D0eHx8af+nqJkmWAYg2AJizad0KX/4ev0d8X3uP+N4yBMRcUAlkyNBDgOkygR5yFXK54Peo1eg/sCKAqMdvn0COeryN9wA5SPI877axW7eyrmW+sawrtj3oGPEscbXDM0UR9zs9FxHXOj9flhtf7hDxTBfxYsdnB5TxoPOGeIZiX4Ne94iXnNxAv99hYzzf15YB9Jc7xK0i9GQHZnmbyqI0KunYvm+2efOfvj/4vTuPt32Lj9uu1vbjt3blLTl0VevTzfzXsFrDf82naffDvJ0+77DAtX9Xn25uceVL1ZW0cpIfG45qPc+rsXqrrM8DgeCTAUOm72o9/f/GMoE/P/7v43G139Ps9CYaJRBkw2vDbU+zgVYEDlNc1Bd8USB5WY5ftYXnBAgFAiT1CgEy3bURIFcYJkCdXiYIUK+wTibyJqGDHQKSFs6AzESXQK6Dd0Cd6b4K6nWILGPJfCN/GOMWamjBrmrMyNHV1MrMnVQS4uvitMqtDb7Ye0PKXgedctJ5B+x3xHmFnrUivuCEhQhZ4IcqY4w0WmWqKlx95za24Kxzjjwz8W2mqd63B7uIxw8pZsKYYyWSRKTWnxdpRMoD");
 
 export default DiagramProject;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gramophone` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gramophone?s=regular gramophone}
  * @preview ![gramophone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/gramophone.svg)
  */
-const Gramophone: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M127 0c10.5-.4 20 6 23.6 15.9c0 0 0 .1 0 .1l.3 .7c.3 .7 .7 1.7 1.3 3.2c1.2 2.9 3.2 7.3 6 12.8c5.7 11.1 14.8 27 28.2 45.1c26.9 36.2 71.4 81.5 141.3 116.8c17.3 8.7 31.6 22.9 40.1 40.4c5.4 10.9 8.2 23 8.2 35l0 .3 0 .3c0 45-36.5 81.4-81.4 81.4L184 352c-13.3 0-24-10.7-24-24c0-1.7 .2-3.3 .5-4.8c2.2-10.9 11.9-19.2 23.5-19.2l110 0c18.7 0 33.9-15.1 34-33.7c-.1-5.4-1.5-10.7-4.1-15.6c-3.1-4.9-7.7-7.8-12.4-8.6c-44.1-7.3-133.1-7.9-241.4 69.4c-.3 .2-.7 .5-1 .7c-2.7 1.8-5.6 2.9-8.7 3.5c-3.2 .6-6.6 .6-10-.2c-1.4-.3-2.7-.8-4-1.3c-.4-.2-.8-.4-1.2-.6c-1.4-.7-2.7-1.5-3.9-2.4c-.7-.5-1.3-1.1-1.9-1.7c-1.3-1.2-2.4-2.6-3.4-4.1c-1.8-2.8-3-5.8-3.6-8.9c-.6-3.1-.5-6.4 .2-9.6c.1-.3 .2-.7 .3-1L104.8 17.9C107.5 7.7 116.5 .4 127 0zM94.8 243.4c54.3-29.5 103.6-42.4 144.6-46.7c-41.1-30.1-70.7-62.3-91.5-90.2c-4.5-6.1-8.6-11.9-12.3-17.5L94.8 243.4zM0 488c0-13.3 10.7-24 24-24l8 0 0-32c0-26.5 21.5-48 48-48l224 0c26.5 0 48 21.5 48 48l0 32 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-8 0-48 0L80 512l-48 0-8 0c-13.3 0-24-10.7-24-24zm304-24l0-32L80 432l0 32 224 0z" />
-    </Icon>
-);
+const Gramophone = createIcon("gramophone", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABjgAAAKrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCTwsGAAE2AiQDCAQgBYMtBzEbUAXILgfs1sMvmsIiJplNUIiO4rZ0+cPjiod+jYcPXen7knbnLDPJgASlHWrDXTqm6iYlUW2e57lv3fdP8bZRVtQJMFt1A0sw4UTTHaiAlhkekYGq3e188DOXBEEc0gNlCeeBQ26RfR4IpJJ5ZHnARYoauyLFSRMmdEUK8LsMgbOfuNz5nz894CR+pDVoTZDlczXWeQKJdXngAWUPlmkAEnO7sx3sgPYtacRCjnPH5/OELI5wU5nkUfEJbuSVxq96zpIopQCiFgBG7eZM895vLPr4v8THVgiIUYJCIEWKZgIMlQo0kymQyQSV+f1/IAQQZbTKBGQo4xLuAjKQyLJsTjav4lL1bL5L+ZI/T8WpiJOte/UfdXp10LuTtB5JiKejV/rmvNQ/1fBJh6pc6TyIU+37Dd4am/VJLudu826Dyw1O5ffbTj3V8EZ6CQ+Gc7+ffTZu1Llzd+yIJ0gy7nnrXmPxi3oP2+b9pf6aEHmIqq1fq/Xa77r/xOExdkCIqDvwZJch3bsPfvpTdQix/tbaYVYrpVexXY1HR1T0n7Cy4S9/s/qHQu9pz1lJLVGrNrWKnbVMMKFiRlr+U379+mnThI6Plp+qUEg/ffecyfuZosKs1kCYGO0eDQt6VaWBSiAQPDvRB0P/Tyfg5/Pjb9GLkuI1VEhAkHZ9YUtzEuKkAACS2K/WeQgkTimhd63mvoCQI0CiLBcg1VQtATK5LgKUtNBPgLLcHKnIqgj1LKtwoppdcKq/Y3CmntfhkqHeD8vqJeyRsSbmOZg4XgLjbhW9uvcsBhfTVmFNjAqXQ4plpeN+3OgED623w3Z7rbPWJnsFtNu0ZJ9txmvgOB9U6KW7ngqDFcfD/f351tltj0122J6uGaK4H3S0X9/fCfQEEfZWSSREkv8LIO+wWQAAAA==");
 
 export default Gramophone;

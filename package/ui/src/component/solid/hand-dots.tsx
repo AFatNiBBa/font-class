@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-dots` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-dots?s=solid hand-dots}
  * @preview ![hand-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-dots.svg)
  */
-const HandDots: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 208c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-176c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 272c0 1.5 0 3.1 .1 4.6L67.6 283c-16-15.2-41.3-14.6-56.6 1.4s-14.6 41.3 1.4 56.6L124.8 448c43.1 41.1 100.4 64 160 64l19.2 0c97.2 0 176-78.8 176-176l0-208c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-176c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 176c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-208zM240 336a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80 16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48-16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm-16 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM240 432a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm-48-48a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const HandDots = createIcon("hand-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABmwAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCZgsGAAE2AiQDCAQgBYMtBzAbZgXIjsQ4JvKLKOwigmot7Nm7APBVFCM4IFTxwArIITq0qcjo75Dad3zzf7nntxYd4Dc6lLlbwzdINOfzBALtRUdNm0JZYJkmYB3Ne2qAQrtQd4U8Hmb7lCFdTm9wMnxo/NXAPpIKGYCoDoCB0yeP9exX/Ip4XZJ4bTQCYiAoBDJkaCxAH5lAY7kCuVzwK0ol8R9YEECUlcjk9hwVcAZXADlIyuX5lAqoUqlMlXyaia+4fHfdiAsVj9Q+R5yrfWEiLlTRTLHLpO29u+pMja9TK8X3yZ+nH/a+rNHajIv1ztfp3KlKHPvdNToFnYL2u7v51epX//Fm2RvNrlQ9xKGqVQ8dqvpB1V+/qt5W9ZDYVV3K7ntVvfrD68XBDasM6jdHLaMiqseoD2embbjj3KaFD+3b17LCx1dTB780Z6uNz6yvxv0Sfh0IBLdn/Pg2v1qf/+UrJfDnQTc/I6Vn8StdRXkJBFmbUhtzEhTxSwAAUmzTPEEgOaKc9K6VXRAgVESApKyKAmQaqS5ArqLWApTRVFcByqposkzkFYTa5g4gqWwjyHSzHeRquwfK6ON5razakcGmClnqn2HWsCk0dFvRsV2Holex29Zp4Cbb9d7F5ajFNjnWEsdaZr11tlhqiZW2TPhNxja3WmvYETfUFxU6aqeDQi/F495LaxqtbbLZym3f8016K74vt7DteHZLnEqSYCctSSJSBVCutV2yfstmAAA=");
 
 export default HandDots;

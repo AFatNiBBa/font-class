@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-dollar` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-dollar?s=light box-dollar}
  * @preview ![box-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/box-dollar.svg)
  */
-const BoxDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M342.4 64L240 64l0 96 165.9 0L371.7 83c-5.1-11.6-16.6-19-29.2-19zM416 192l-176 0-32 0L32 192l0 224c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-224zM42.1 160L208 160l0-96L105.6 64c-12.6 0-24.1 7.4-29.2 19L42.1 160zM342.4 32c25.3 0 48.2 14.9 58.5 38l41.6 93.6c3.6 8.2 5.5 17 5.5 26L448 416c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 189.6c0-9 1.9-17.8 5.5-26L47.1 70c10.3-23.1 33.2-38 58.5-38l236.8 0z" />
-    </Icon>
-);
+const BoxDollar = createIcon("box-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABaAAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBVQsGAAE2AiQDCAQgBYMtBzEb1gTIhod/5vy6L0l7ZpJhyBCRQsAFBcyqblE47Pl2SY3u/N/sec+jAL9RaGPh0sVtwDmfJ5DAtgkeUBbYmR6AHeNZOzuDH0S3Sp9ySYbxMywuyOKFGK5C8lzyK55sL42/dXWLRJYCiDYAmLN25Qq1etQjfm18RfxqGQJiLigFUqToIcB0qUAPmRKZTFCPRiP/B5YEEFX8XQnIUMVyrAVkIJFlWYu2RY+i0jJbU1TyvXmRiyLWxPMDV+dFC3Gt41NFy3jY+ZmIHUVeROTxZpdVO78asTqeIp4d/G7/FvH20Pe7RVzvvDY+mVT0fb/N+//2+XXPr1Zf3bNnzzZv67Pc9dGLr3766bW6VvfutZoNtX6699twbLPH7Otyw7Cr19sP2WxZqyZ527avzvZqujdv0mrj4M3aX/8HCAS/VX6esrX19EfNigQ0ff//I/YtatSjlryPZhIQpMMbw22KGkRNAACSOKNv1BBIzJfhU1t4WoCQI0CiKhcg1V0bATK5YQJU9DJBgKrcSqnImgsdbB4g0cJxkJroMsh08AWomO4HrapDpCFFBATxo4td6KEFfeWYkaPLqeXS1ckowUp7WrnNDT5jqSFYtcdRR5yy2y77nXLICSvM0w5bqOAFPqg0xkijlaYqj4Pn+TV2O+Gk/Y46UrtMU96XBjuji4dATBB1rMFEQiT5jqPnRjwsAAAA");
 
 export default BoxDollar;

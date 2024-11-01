@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-arrow-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-arrow-down?s=sharp-thin arrow-up-arrow-down}
  * @preview ![arrow-up-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-up-arrow-down.svg)
  */
-const ArrowUpArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M421.7 469.7l112-112 5.7-5.7L528 340.7l-5.7 5.7L424 444.7 424 40l0-8-16 0 0 8 0 404.7-98.3-98.3-5.7-5.7L292.7 352l5.7 5.7 112 112 5.7 5.7 5.7-5.7zM165.7 42.3L160 36.7l-5.7 5.7-112 112L36.7 160 48 171.3l5.7-5.7L152 67.3 152 472l0 8 16 0 0-8 0-404.7 98.3 98.3 5.7 5.7L283.3 160l-5.7-5.7-112-112z" />
-    </Icon>
-);
+const ArrowUpArrowDown = createIcon("arrow-up-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABZQAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBWwsGAAE2AiQDCAQgBYMtBzob5QTIHgPuzIiOSIU40TR13EKvVySM579fQ899+4OkAGWiUKWAklEYIGOrUNkKGyFbtpnK6j0ac/cT05uZpSHiE0vgoRIiHgmFRjPXvuuf/8s9P9tC347skMaaIAv8rrWfJ5DYprYllAWWaQKWtbPzYRD99oQUJMP4w+YKLd8coVNfCvA+fWiOqb1Qug5ApgGAM7f7Pfj7nd/JUR/IkQ4QyBmANQQdOiwh4BBVsIRmDWia8Dt97/4DEQTIIIaL3ujJS8BDABoo1drmJpc+0W7Zi0ef3l5aVRJFZFkKNclopHJriOVZNoXynkKumCmyxs4qyDKWpKP3jqxsfE9//1t3wtvCgM+owbcb9p/Bq2HTWD7QviXfLhg8hyVL/c8SGPRz9jJAEM4/fPzuVPY/i1vg79cdy8/I3P+uxfrGsAKh2+63bVWRma20CACg8o65imwIykUU9K7jPgqIUQSUQaMCOotECGhGbSFgwIoYAgaNuo4qbUTM266gjHsJOgduQTPvFww49F8Mmg9Vqzid4D51yfUeqm3CkD+IaZw2Cq8oTFjN4LHtnPsRF/bAiYEbU8eOnEs9MNbr6plr9RVR80UoxC8IpeF193H7imNjE+cGbuI6Gfg+d5qvp7vgUTDljtOlSM09HY8HC99s6MuMvgEAAAA=");
 
 export default ArrowUpArrowDown;

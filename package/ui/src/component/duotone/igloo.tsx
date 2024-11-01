@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `igloo` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/igloo?s=duotone igloo}
  * @preview ![igloo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/igloo.svg)
  */
-const Igloo: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 320l96 0 0-128-66.1 0C10.8 230.6 0 274 0 320zm0 32l0 80c0 26.5 21.5 48 48 48l144 0 0-128L0 352zM48.5 160L320 160l0-126.2c-10.5-1.2-21.2-1.8-32-1.8C188.1 32 100.2 82.8 48.5 160zM128 192l0 128 69.5 0c13.2-37.3 48.7-64 90.5-64s77.4 26.7 90.5 64l69.5 0 0-128-320 0zM352 39.1L352 160l175.5 0C487.2 99.8 424.9 55.7 352 39.1zM384 352l0 128 144 0c26.5 0 48-21.5 48-48l0-80-192 0zm96-160l0 128 96 0c0-46-10.8-89.4-29.9-128L480 192z" />
-        <path d="M320 33.8c10.9 1.2 21.5 3 32 5.4L352 160l175.5 0c6.8 10.2 13 20.9 18.6 32L480 192l0 128 96 0 0 32-192 0 0 128-32 0 0-128c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 128-32 0 0-128L0 352l0-32 96 0 0-128-66.1 0c5.5-11.1 11.7-21.8 18.6-32L320 160l0-126.2zM197.5 320c13.2-37.3 48.7-64 90.5-64s77.4 26.7 90.5 64l69.5 0 0-128-320 0 0 128 69.5 0z" />
-    </Icon>
-);
+const Igloo = createIcon("igloo", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABogAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDFwsIAAE2AiQDCgQgBYMtB0YbrwXIhofvbb6e+95+2X8lGXENzEGADfSE3KHshKtwS9BlRv///Tz+LXoDvLwvPrTIxB/gyzqegAOstrZnI5nNFGdtzv/BhuB7cAiJK/Sro2HTYesGRfyfr9VDuiN1cJ39D2D8YqRrSXozgBgAgA0H7ru793+MH1N0ui8THbshIDaCSiAjY4wAq2WBMQoVCoXgx9Tt8mN0uxUBRIPhGeoGmngcrwIKkCR9imLpkLLdGly2e5s97eIAW1meeMtQ0YxbRpahuNhYRsSdM5+c+vD0x0eAoTibyt41vL3qoLtmRTw17ZEZT4xsOFtcolk2u2ue349wx9BbptzmDmy3Ft5afrVbZ/3+QjO0ODsPPMvPrnxz68G18Njw20YTxg3pNwvLiU8OePK3CZ0TOtbd89ffF3vevWdtVDtK5X21Sq0cOPD++4urBFTvqxylttFZz/Z3xcVj7zqbs/7886yzn9qitl5tq/ooE9c2+siWai8pb/92/vVcbP57/WXhFf4asKvPPz9lj/G1z25119lvYz/cfrGIn/fbjh2njV9eL7ve/G+35728f+R98LGj2PLRRiAQDF940SVH9l/9X99mAj+/+cc/9re7P6b16Un0lUCQZ3dnOyyth6wbgJLiAhODbxLIDtCHp1tupdVQckDSUEI22gAolGZBj3GWXG8o7SuLolcY4vAEScvZkC11ORSGeAl6rPaB1DAk8qQ1TTnTP2P2rYhtmVctmDu/Wll1i6p5HhrW4VXVY//0C5amGXLUCc50hvMc7zgnOw+059hdPd/ptkbMFj9UWWCu+SorVXTlq/0AkM5xrpPbVn6UVarv09NdEHeeIaHE9S50NctEitw++cTTzjxzzuB39QfrIAc=");
 
 export default Igloo;

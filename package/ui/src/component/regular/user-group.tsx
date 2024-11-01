@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-group` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-group?s=regular user-group}
  * @preview ![user-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-group.svg)
  */
-const UserGroup: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M1.5 458.7c6-45.5 29.2-85.6 62.8-113.6C95.3 319.4 135 304 178.3 304l45.7 0 45.7 0c43.3 0 83 15.4 113.9 41.1c33.6 28 56.8 68.1 62.8 113.6c1 7.7 1.5 15.6 1.5 23.6c0 16.4-13.3 29.7-29.7 29.7l-19.6 0L49.3 512l-19.6 0C13.3 512 0 498.7 0 482.3c0-8 .5-15.9 1.5-23.6zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zm208 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM178.3 352c-47.8 0-89.5 25.7-112.2 64c-8.6 14.4-14.4 30.7-16.8 48L98 464 350 464l48.8 0c-.4-2.7-.8-5.3-1.4-8c-2.9-14.3-8.2-27.8-15.5-40c-22.7-38.3-64.4-64-112.2-64l-91.4 0zm431 160l-136.9 0c4.9-8.8 7.6-18.9 7.6-29.7c0-65-29.5-123.2-75.9-161.8c4.3-.4 8.7-.5 13.2-.5l61.4 0C567.8 320 640 392.2 640 481.3c0 17-13.8 30.7-30.7 30.7zM432 256c-31 0-59-12.6-79.3-32.9C372.4 196.5 384 163.6 384 128c0-26.8-6.6-52.1-18.3-74.3C384.3 40.1 407.2 32 432 32c61.9 0 112 50.1 112 112s-50.1 112-112 112z" />
-    </Icon>
-);
+const UserGroup = createIcon("user-group", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABlAAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCSQsGAAE2AiQDCAQgBYMtBzEbSgXInoNxs3wER4ijiSLKsoG3X7HJyyKI1srqWXhCB+yIFAsHZPQ7RAeYOBcf9mEbI+6H/eU76OOgwUoWqtxExS2URaEC3hMe2//vTz3PeWiBPMyFIGhj09LvmRYKrdlxXoGe13u1sYGqW6ii2N1pK+0Q7XFIi6wlv8OOzxHy+HYPBek98Qy4K18V/4mpAUmRAUA0AwBY3vZ2ha3neA7CaWWe+MgZCIhlAPQiIAOjU9DMMYL2IesFcrngD+G/Qv0P7AUBRAn8sAnkqMYl8ABADpIyJ4tJ4HwhB6XgZD+0QASP7pv+aN39/LlvK5zyWxAEaxK2ESpFgis1CIRRjVG0WW040nCqOkQjTeojtxHQPvMV0yXJXrNli1UZnyZVAmFItUMUxduEXeLaXggSidQh7YRK7QnzdhQl3M+v+x51/RbUJxUm14+azKsNS/WoDhnKj7BHXuTO4s6I19havC/THrWEd4t+pTiG1xfgbZn4bj2OiYc6KWCg/vu3fvmr63pMgVIQv8Lic3Pjsbr10dPgNsAHyX0zPS0SyWhQcmt7MGSiv5GvLOHoOZhpRlAXwDp+fA5r/LYBn/q3Qo0955HvdlPTX0AgsLLECWfNvVbXEQH+rXwTbq5spQriCFAtgSAb/tcUkk4ByA4gSJEH8soKA8mhm0X1XnfjoRZBgVKtzpDpwIZcrSEodDPijdq6iY6cAahdKEJSbwcys0oh124WCnMO/VJ7kJxRdCXxL5hmJzHbZbJ62rqy5rLLVJP8i0/zFrJmUzWPWmqwEeKkS5MjVoxEOYLI4hrlSmWn4bZ+SJYebbpkmZPdLh7X+4mVJVuidGl5EQuy55GqPH1YDRwi5pyUSBKRkBdsaPkqAAA=");
 
 export default UserGroup;

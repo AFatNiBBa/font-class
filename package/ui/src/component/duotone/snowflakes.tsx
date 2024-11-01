@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snowflakes` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snowflakes?s=duotone snowflakes}
  * @preview ![snowflakes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/snowflakes.svg)
  */
-const Snowflakes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M487 7c-9.4 9.4-9.4 24.6 0 33.9l23 23L487 87c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l23-23 23 23c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-23-23 23-23c9.4-9.4 9.4-24.6 0-33.9c-4.7-4.7-10.8-7-17-7s-12.3 2.3-17 7l-23 23L521 7c-4.7-4.7-10.8-7-17-7s-12.3 2.3-17 7zm32 192c-9.4 9.4-9.4 24.6 0 33.9l23 23-23 23c-9.4 9.4-9.4 24.6 0 33.9c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7l23-23 23 23c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9l-23-23 23-23c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-23 23-23-23c-9.4-9.4-24.6-9.4-33.9 0z" />
-        <path d="M224 0c17.7 0 32 14.3 32 32V62.1l15-15c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-49 49v70.3l61.4-35.8 17.7-66.1c3.4-12.8 16.6-20.4 29.4-17s20.4 16.6 17 29.4l-5.2 19.3 23.6-13.8c15.3-8.9 34.9-3.7 43.8 11.5s3.8 34.9-11.5 43.8l-25.3 14.8 21.7 5.8c12.8 3.4 20.4 16.6 17 29.4s-16.6 20.4-29.4 17l-67.7-18.1L287.5 256l60.9 35.5 67.7-18.1c12.8-3.4 26 4.2 29.4 17s-4.2 26-17 29.4l-21.7 5.8 25.3 14.8c15.3 8.9 20.4 28.5 11.5 43.8s-28.5 20.4-43.8 11.5l-23.6-13.8 5.2 19.3c3.4 12.8-4.2 26-17 29.4s-26-4.2-29.4-17l-17.7-66.1L256 311.7v70.3l49 49c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-15-15V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V449.9l-15 15c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l49-49V311.7l-61.4 35.8-17.7 66.1c-3.4 12.8-16.6 20.4-29.4 17s-20.4-16.6-17-29.4l5.2-19.3L48.1 395.6c-15.3 8.9-34.9 3.7-43.8-11.5s-3.7-34.9 11.5-43.8l25.3-14.8-21.7-5.8c-12.8-3.4-20.4-16.6-17-29.4s16.6-20.4 29.4-17l67.7 18.1L160.5 256 99.6 220.5 31.9 238.6c-12.8 3.4-26-4.2-29.4-17s4.2-26 17-29.4l21.7-5.8L15.9 171.6C.6 162.7-4.5 143.1 4.4 127.9s28.5-20.4 43.8-11.5l23.6 13.8-5.2-19.3c-3.4-12.8 4.2-26 17-29.4s26 4.2 29.4 17l17.7 66.1L192 200.3V129.9L143 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l15 15V32c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const Snowflakes = createIcon("snowflakes", true, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAAB7QAAAMFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVSEbAsIAAE2AiQDCgQgBYMtB1AbjgYR1ZqByb5YyNz0h1atxMzulpVSL0J/B4jnefSeui/JAM5QqswFULFop1yI/2y3FYD6D51r0b62aNABrr9ME/CudW3DrZO4FQOMrw5Wo61aDCka/wmc7z9xTf1fUxTgh+DTbogRYU3RFpHnE9j5QGYZwBW6Gduuzb0AE/XQ/PrmUBUjyz9aUDxBH+Nh938A86s+7qDQpgSQzgBYvHPreq9/la+KfNx8mnxsHQJZAmpBiRL9BcxTCvqr1KhUwldFk6/SrAmQltzPKkFLtCA9yDBABQpRVNVbw4e3UztUO9qpbffeL6L4CKRX9qI2RsjGvMJrNS95sECBDDhJmtVIP9Omyyu7090VT0SAlcWPrV/C8fQRsrmKsaWdCLmFY8d9C11J9/A4LG8Rsy73kN4yTBJg8ylSsebJQtG8HhnSO+4l2HHEHIElTRDW786eLmK2VDG5lx0xt3LMPPK4lymSoNZTpwyKR5U6EWjcx0VI6GgfM9xw3q+akKSOcdvET04wunpf/+CPD3/sy9c63gP3dBzoDx06NBqs8KYuS1xYsnL6Ejd65sknr987duxzn+1mDr+wZWkXT3rK0q62HJi+crkHPTe23nu96XnmRkt0DEsurJzgTSvQaHTo8IeBOt7zdozyjwfewi6mvHmCOu5ZYAn9c29ysUuSH55vNA473CPM+Im06b7cxjqs6Q+3Zeug1wZ4DrctuOl4IAifvtPmlqdT83/rdgX45sU//6UNb6K76SporQChHNccZ1/xngCiIPm+r8hlQ/C38oWg9JYC3mt7jwqItggotNRWQKmfzgIqbY0V0MJA0wW01NZWpVRthO5ufwUV2jsHlWa4Eap09xTUwjzv+VrqnvL+EJ/d4r/TFCua+OWD6skTJtVz6tGcQnLKC63eufViw6jLWs1oHOmwM0676JCDjrnY4Jy3PnjJKSumsMu/W5tsgklqc9Sbi3cVO5ifKC44wmHp9n7mqo+3jXJ5uvloHE4BmHJmJZSkSNn1s6M8fDNbLoy/02q7t2XPFAA=");
 
 export default Snowflakes;

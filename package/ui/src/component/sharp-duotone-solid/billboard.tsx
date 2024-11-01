@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `billboard` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/billboard?s=sharp-duotone-solid billboard}
  * @preview ![billboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/billboard.svg)
  */
-const Billboard: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M160 128l0 64 32 0 32 0 32 0 32 0 0-64-32 0 0-32 0-64 0-32L192 0l0 32 0 64 0 32-32 0zM288 416l0 64 0 32 64 0 0-32 0-64-64 0zm64-288l0 64 32 0 32 0 32 0 32 0 0-64-32 0 0-32 0-64 0-32L384 0l0 32 0 64 0 32-32 0z" />
-        <path d="M192 32L96 32 32 32l0 64 0 256L0 352l0 64 32 0 64 0 448 0 64 0 32 0 0-64-32 0 0-256 0-64-64 0-96 0 0 64 96 0 0 256L96 352 96 96l96 0 0-64zm64 64l128 0 0-64L256 32l0 64z" />
-    </Icon>
-);
+const Billboard = createIcon("billboard", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABfAAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCJwsIAAE2AiQDCgQgBYMtB04bRwXIHge5OeqOVKFRbK8RfL/W+33und3kzYRhAoyKCByQjyOV6Fhix0a8iswn9fUmsypQA4HB6ps6lf9yng34nIgHbQ/duMDTOc4jUMBerTY2VahUrdUUu7cyoyImeiSZ6mbmHr/NPT53gSKNyfc0SI8T3Kf/AYy/9HePpC0DiG4AWLZ981pf2qM9xa/WC+KXNQiI5aAWyMgYJMBCWWCQQo1CIWhPrRbt0WrVBBBN9CkZNNEBV3EdUIAkyUUxqq1/5/5Vo3OxrWqUu8uqFCnKEFXXiDJyRJSlqCJFp8hRRWysyiqiDLuFCkXgDZiQ7xSKcOhPceDwZ93+Z5hjfH7igaehtrSDAx4TLN1+AF9wwNLWLWLjlqWeLEnUgFrBXH1z6FXirZYuGYqvA4Hg1qve33Xh/x2rBH6/++/PeF7rS7qVRkcJBHlia6I96RYkZgBlimuGC1/1VCBbImvv2skDAUKJAElTKUA2UDcBCqUJAjQMMUuAptJmWRRtQi97F0w6uQiz2a7DQi/PYcNCX4umXpGDTwwd8d8vbTVHVm2qp02eWs+vHxtTiie+ri+o1d7Ya3lsHOx1zHnnXHHUESddYfQla+urzlotoav8UG2ayaaqzVebe+/aNiwuuezkXbG3WaB+Pxrrmjx7HIRJ45xuR5aJFLn7lyD4pjXJjcd6borDAgAAAA==");
 
 export default Billboard;

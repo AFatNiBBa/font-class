@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `police-box` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/police-box?s=sharp-light police-box}
  * @preview ![police-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/police-box.svg)
  */
-const PoliceBox: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M208 16l0-16L176 0l0 16 0 16L80 32 64 32l0 16 0 16L48 64 32 64l0 16 0 400-16 0L0 480l0 32 16 0 352 0 16 0 0-32-16 0-16 0 0-400 0-16-16 0-16 0 0-16 0-16-16 0-96 0 0-16zM320 480L64 480 64 96l16 0 16 0 0-16 0-16 80 0 32 0 80 0 0 16 0 16 16 0 16 0 0 384zM112 280l48 0 0 48-48 0 0-48zM88 256l0 24 0 48 0 24 24 0 48 0 24 0 0-24 0-48 0-24-24 0-48 0-24 0zm44-104l0 20-20 0 0-20 20 0zm0 28l0 20-20 0 0-20 20 0zm28 0l0 20-20 0 0-20 20 0zm-20-8l0-20 20 0 0 20-20 0zm-28-44l-24 0 0 24 0 48 0 24 24 0 48 0 24 0 0-24 0-48 0-24-24 0-48 0zm140 24l20 0 0 20-20 0 0-20zm-8 0l0 20-20 0 0-20 20 0zm0 28l0 20-20 0 0-20 20 0zm8 20l0-20 20 0 0 20-20 0zm-52-72l0 24 0 48 0 24 24 0 48 0 24 0 0-24 0-48 0-24-24 0-48 0-24 0z" />
-    </Icon>
-);
+const PoliceBox = createIcon("police-box", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABoAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDZQsGAAE2AiQDCAQgBYMtBzEb5gXIngVO2S2i7pxCZhBdF/L7lMt4+H7ty3Nf91D3QC9xLyK4lcx+VwEJg5CkPLCNm4pNRUb/9faTyif1vz3ZVMW/Cdigdw2hyvwuQ47jJw6XtifgmCJpKGNuXWOcb40Cjbq0y7sEsvH//KYvYH+27c0R8RCPdcYN8rgSkzSRHqdwL7xo/GuAuyR5BiAqACzfmxV+d3RH/Nb4TPxmIxAQKwBqgQwZBguwSCYwWK5GLhd0R6Mh/gcSAUSz+IEJ5KjwF/4G5CDpzPPJfdp6tMXIXm1JPcqmjnxPXlYcDFEECivAyVV2RGXOAkPi1P72jvYsyjIiEFFITXvKohTruRMEQZVFFHugYp9eDSvVY8IPQxRTirIQZ/S7b9MXGAY2YH8PJK4d8aLyP3n+fAtVrVI5VhXAynLflOdkraruAyrhas6JP3FzaN128mjo5p9Ni5lMM+1C/4pp+uu/rr/KNeh4b3xYb70HW9hc0w/98agruIP9+LfCziBnrm1l9wOBoOf4q89r16L/W8sE/vn+qz8jjR83k2iVQJBNakxyKG5C3BQAgBTnpbiJQPKTTvGztnsgQCgQIGlWCJAZpBIgV5goQJOhZgvQrLBTFHmb0Nvhjpa0O0XLzHGNluvtI63JIj+Gm/WODLSlgCn9s0wlQzAfo+lTptUL6tWmRgatYru8sD5sGndeDo3HF8Et02Wa7g6om8aeQbbw7BeR6aaYprZAfbnz9HxhtqNbpl9lofp53zjntyePx9YgFjhDVZKIVLxQku+JAAA=");
 
 export default PoliceBox;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-barcode` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-barcode?s=thin rectangle-barcode}
  * @preview ![rectangle-barcode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/rectangle-barcode.svg)
  */
-const RectangleBarcode: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 48c26.5 0 48 21.5 48 48l0 320c0 26.5-21.5 48-48 48L64 464c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48l448 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM80 136l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-240c0-4.4-3.6-8-8-8s-8 3.6-8 8zm56-8c-4.4 0-8 3.6-8 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-240c0-4.4-3.6-8-8-8zm40 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-240c0-4.4-3.6-8-8-8s-8 3.6-8 8zm72-8c-4.4 0-8 3.6-8 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-240c0-4.4-3.6-8-8-8zm72 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-240c0-4.4-3.6-8-8-8s-8 3.6-8 8zm56-8c-4.4 0-8 3.6-8 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-240c0-4.4-3.6-8-8-8zm56 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-240c0-4.4-3.6-8-8-8s-8 3.6-8 8zm56-8c-4.4 0-8 3.6-8 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-240c0-4.4-3.6-8-8-8z" />
-    </Icon>
-);
+const RectangleBarcode = createIcon("rectangle-barcode", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABqwAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDEAsGAAE2AiQDCAQgBYMtBzgbmAXIngNuywzn5ao50UIIPZ/pnIhShAiiNXT2/gJEOlGowjYSLZR02cioMsi6GkOSyDK9/89+7t2Zh/jOkmv9W1oSNxKNEK1S+UTzRikaGiQzMOjTMUYiwmaXKlpy/f9c7vk9P1ognw/4+FDmbC5bg8K5PYFE07bt5z0Ps0Qxc2vcxIkYsk9E1JElMXr89vh2gBxP7CYnnULY6R8ab/Q4IikKANGMACxuZNL0/ouXEXfKGxJ3LCMBsYQwDChQoB/ADKlAP5lhJMuClyhL/Q9kFEBUstclkFGPm7gFyCCpzbm316DP2bqKhrxe36J23zUDjmUJTupx0+G6nxYpzsTZ1LevLuBmkuDUvuh63LiXVYrTRxy6HDjWcRbAcT/WlAYJ59HgmFbo1jGlgAvMIot/RJ9yx/NJ7koXSO8+9UykaMObMSFqqRVS09Jyzooi4aZ9H62usrmp+LfaB5XH6NHxSqoqs9STp3O6HkEguH3/wXXDmPhG2gReP/793i5RvkwLSQSqJRAUY+VT7RnEQgWQS3GEGV9FAslFtexl9Y4LEGoRIKlUK0ChjwkgqzUKFQYFD6hUa4VU5BqhXc0BSb39UJh2CFm7K6gw4yNfqT2kASuGm/i7mJZkRNjEXpeHY/zYtEsxyLflOL/2WPZlyIqt1Lcwt9XTNbIlbC1d2plJzlDBDzEvFw8Ww+7OVy1P+bWN0b3iXyeOv09Y7OeTrfBLGOO43ZJEpJYDvc62NR9Me852ax3LAA==");
 
 export default RectangleBarcode;

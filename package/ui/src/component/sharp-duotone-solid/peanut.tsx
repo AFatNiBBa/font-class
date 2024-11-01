@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `peanut` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peanut?s=sharp-duotone-solid peanut}
  * @preview ![peanut](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/peanut.svg)
  */
-const Peanut: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 364L0 512l148 0c40.5 0 77.1-16.2 103.8-42.5c.6-.6 1.1-1.1 1.7-1.7c13.8-14 24.2-30.1 31.3-47.2c4-9.5 6.9-19.6 8.8-30c4.8-24.5 12.6-49.1 30.3-66.7s42.2-25.4 66.7-30.3c10.4-1.9 20.5-4.9 30-8.8c17.3-7.2 33.5-17.7 47.6-31.7l.9-.9C495.6 225.4 512 188.6 512 148L512 0 364 0c-20.1 0-39.2 4-56.7 11.2c-17.4 7.2-33.7 17.8-47.8 32l-.4 .4C245 57.8 234.4 74 227.2 91.4c-4 9.5-6.9 19.6-8.8 30c-4.8 24.5-12.6 49.1-30.3 66.7s-42.2 25.4-66.7 30.3c-10.4 1.9-20.5 4.9-30 8.8c-17.5 7.2-33.9 17.9-48.1 32.1c-14.2 14.2-24.9 30.5-32.1 48C4 324.8 0 343.9 0 364zm146.8 55.9a19.2 19.2 0 1 1 -37.6-7.8 19.2 19.2 0 1 1 37.6 7.8zm64-64a19.2 19.2 0 1 1 -37.6-7.8 19.2 19.2 0 1 1 37.6 7.8zm0 64a19.2 19.2 0 1 1 -37.6-7.8 19.2 19.2 0 1 1 37.6 7.8zM371.2 192a19.2 19.2 0 1 1 -38.4 0 19.2 19.2 0 1 1 38.4 0zm64-64a19.2 19.2 0 1 1 -38.4 0 19.2 19.2 0 1 1 38.4 0zm0 64a19.2 19.2 0 1 1 -38.4 0 19.2 19.2 0 1 1 38.4 0z" />
-        <path d="M416 147.2a19.2 19.2 0 1 0 0-38.4 19.2 19.2 0 1 0 0 38.4zm0 64a19.2 19.2 0 1 0 0-38.4 19.2 19.2 0 1 0 0 38.4zm-64 0a19.2 19.2 0 1 0 0-38.4 19.2 19.2 0 1 0 0 38.4zm-224 224a19.2 19.2 0 1 0 0-38.4 19.2 19.2 0 1 0 0 38.4zM211.2 416a19.2 19.2 0 1 0 -38.4 0 19.2 19.2 0 1 0 38.4 0zm0-64a19.2 19.2 0 1 0 -38.4 0 19.2 19.2 0 1 0 38.4 0z" />
-    </Icon>
-);
+const Peanut = createIcon("peanut", true, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABzAAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiDRgsIAAE2AiQDCgQgBYMtB0gb4AXIhofn9Z469yWfGSMjeWF3AAZAuWInFQ1ZbZ2/P1WzwQL4xBMOyu4Ym5f1fM7zCnzA7kVbK16qeQ2si9tujoiHNgiNC+TxbfaIGmlH+hzPh/8BjL/09QhJKwMQXQCw5NwzN/jw+/g+xefVq8Tn1iMgloJSIEOGAQLMlwkMkCuRywXfp6ri+6iqkgCiLrwjA3V0xof4BJCDpK6R562i6FgU01utVseOdnWtY35OUWtfe6z/zpGH++wYAaGe6rG555aiLbPPerr3tl5b29J07iHDA1Qc90b4QUIRHy3a1vtU/yyxb9ypWfLgY+N6xwfDItrx1PDDo3vE8T6be+wefXw6wg7P7rPd2dtHHu2/a8SRPmfWjC/OfaDH5l5b48He23pucWaPZ+XQk11O/jPk82s+t298l4gu1LSYIIvz1qw5r5Ce775TqnCd0e0Yqnh08+ZHi8U06KzN8TW+2cb0E5dMXPn0m1f9+MvO5Tw5cLPNBp20NcsXR5214sTJQS/NWtw175rZqppZ7Nn3061qqKt6vMWvA4Fgw6/rfr208/z/m0UCP77935/+h6T6MEkn0ZRAkI2vxrsogUQAAFLcY2jiBgQy92iIt3WwVYDQpoOkrg2Z/rpArm0c1AwyY3td25kykbeEHi5GkHRwO2RmuhdyPbwCNfN9lKzrERkwq6Co/kpmXDkkV6DKKRMnl3PL1ZxGg0/Z9s4rDztH3yNrxuClrnGrW9zlale53l0D9g4bMne72cot7orPlqaYaLLSXOXl4lPjOTR5hztdv6y/3s885fPR0e7Zbj4Ge5JYcKrtmYxIkXW67erLb7n7rgkfhbVLX//yAwAA");
 
 export default Peanut;

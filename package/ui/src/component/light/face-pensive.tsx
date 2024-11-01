@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-pensive` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-pensive?s=light face-pensive}
  * @preview ![face-pensive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-pensive.svg)
  */
-const FacePensive: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM208 384l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zM387.2 270.4c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2c17.6 23.5 52.8 23.5 70.4 0zm-262.4 0c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2zM81.7 215.2c-4-7.9-.7-17.5 7.2-21.5l22.9-11.4c14.5-7.2 27.2-17.6 37.4-30.2l14.4-18c5.5-6.9 15.6-8 22.5-2.5s8 15.6 2.5 22.5l-14.4 18c-13 16.3-29.4 29.5-48 38.8l-22.9 11.4c-7.9 4-17.5 .7-21.5-7.2zm341.5-21.5c7.9 4 11.1 13.6 7.2 21.5s-13.6 11.1-21.5 7.2L386 210.9c-18.6-9.3-35-22.6-48.1-38.8l-14.4-18c-5.5-6.9-4.4-17 2.5-22.5s17-4.4 22.5 2.5l14.4 18c10.1 12.7 22.9 23 37.4 30.2l22.9 11.4z" />
-    </Icon>
-);
+const FacePensive = createIcon("face-pensive", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABogAAALJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iCcgsGAAE2AiQDCAQgBYMtBzMbdQXIngem242cDxV6o7c4lGKbITX7EvTQ2uu8vQ3d/SBviEilgOyAHIKvqmxkAVgHfEmo8sBzuH5zY6A9n1TPwzSFrWPipsAW5mndHR03/9f8/6osomhavBab8PyC945gngF8I7qBc65K15T/9RzJ57binz/Bt0VTWUQCHez0qVPPcx4K4BsFZWxbG2RMyoXG6lgCPa9orGNhrUC1gtW0AlamLm67CiIa2giRM7CB+7AQBjNBPuBieFO9pTuDYUMAACgPAAD6utNTPPnCLgA/fPfoagIIoBYAR8ADHsgiAJ08AlksByxLmAP7XvwGOhAAFCX5OwwAC6LAbbgDABaAERG2meWYQik5KYhE2yWpiL9xOgAD9+Yvv5w+ageuVjccewbV4t0wLmCebQWedz4H1erb93Txj94nkx/8cv3rf7ZkcZAMrov5JCpwQyqlhnZiIanrl1kxtZRcCSqdmbBQZ/Ulzl9krFrpslxe0DrQ1ZcSHUYyFi0zSfv3ipqERv7duP4v5Zb+wOySOeGbOzh0TE0+G25UEuOdoQTS908DA09nRNKQLxPjcXxdkpmLEeZ6lPvssu2tZzaBfn5Xe6++WfYrxgQAWVl6RDt+38mK1zy4fe7l/rRedoCX5qKkY3zXzx08rL6Bsxv5pDewEN0JAALCP2z7tza2+U+xBoCFye9ff438PyDAbAEiGQCCV/kWVgUBGAgAAACYwBH5QYCAcVlM8qohNwQAiA8EwAjnEwBPpjgCYPkqCECYHE0EIJxvmkfhKCTJ6h4YIfuBp9lRYCWZAWE6vfbCJQVCEErBF/V/GD88hoZ2OXt1rWt3m6WWBjrCbna406LtiJwow6Nssdceh2y2yXaHRsgBU+Fhuw3vwUM+yKlTrZbTzt1unvNLRpkDDtpunb6/jQ7ufbfUkf35ZVgxEtR6BcNAwdDnX6jKbPYc3H5kMwA=");
 
 export default FacePensive;

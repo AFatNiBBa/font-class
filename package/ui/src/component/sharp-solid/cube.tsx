@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cube` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cube?s=sharp-solid cube}
  * @preview ![cube](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cube.svg)
  */
-const Cube: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 6l10.8 3.8 224 80L512 97.4l0 22.6 0 272 0 22.6-21.2 7.6-224 80L256 506l-10.8-3.8-224-80L0 414.6 0 392 0 120 0 97.4l21.2-7.6 224-80L256 6zm32 420.6l160-57.1 0-180L288 246.6l0 180zM256 74L93.5 132 256 190l162.5-58L256 74z" />
-    </Icon>
-);
+const Cube = createIcon("cube", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABXAAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBQwsGAAE2AiQDCAQgBYMtBysbvgTIrgd4Qxq9G2IAkgrVqiigWGwfYluO6YYfXxHx3+/F7bnvpdTiEpVOaRpZmnEohWuqOpTFMj6DZZDob/D7ubu51jcxqfttJohpo5GSpFWW8KYlQDMDEOqvha/OMat916MAON8z5Km9co2nv3fn//zTB3xGH20P3bjG+Rx1nkBiXZ4nlAWWaQIWW+YtZ6rHlP2SzGiS/Hvs8esBPc9tRqjPBe/bm+avDbeUiQaAzAOAJ6/6TXz85zb5HUp+eQoCeQJgH9HQsI3gPrlgm8I+6Lpwy2HIv4H7ECCjkD9ygY4RPALPAHRQWlcEJib0SqNipFfqFpwu5zCBSBE5znM6spqXDCaUkwzlFd1vXg3G5IB4+3w8GHLMkXc6P/2HDPCSuFm4Sf7a3fvBensPX8bKDJUw21v9BnTcpecBQfi9eM31/+NkgD9Pr3+LhqV+YlyB0E6HU4sFKAIAqFzDWxCUa3LyqtM+CIhJBJRRkwKaLRYE3aQTBCN2FRCMmvSMXLoWsWxpgjLtHWiu3IBu2SMYcd+nP2o5LZKIOCA+crGShhrXRCaZFlWxrAwyODA+r4ltNXxdJhHcxbYTxy5t2bTnUiHnmtGVI5IHN3yQkJGUJlSJ43Z7e2TLuQt7ThzXS2rEfTPs2l+PwJAR1DN8PUGuFBtX61sA");
 
 export default Cube;

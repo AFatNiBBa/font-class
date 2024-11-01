@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard-list-check` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-list-check?s=sharp-light clipboard-list-check}
  * @preview ![clipboard-list-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/clipboard-list-check.svg)
  */
-const ClipboardListCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M145.5 68c5.3-20.7 24.1-36 46.5-36s41.2 15.3 46.5 36l3.1 12L254 80l34 0 0 48-96 0-96 0 0-48 34 0 12.4 0 3.1-12zM192 0c-32.8 0-61 19.8-73.3 48L80 48 64 48l0 16 0 16L32 80 0 80l0 32L0 480l0 32 32 0 320 0 32 0 0-32 0-368 0-32-32 0-32 0 0-16 0-16-16 0-38.7 0C253 19.8 224.8 0 192 0zM320 144l0-32 32 0 0 368L32 480l0-368 32 0 0 32 0 16 16 0 112 0 112 0 16 0 0-16zM208 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM171.3 235.3L182.6 224 160 201.4l-11.3 11.3L112 249.4 99.3 236.7 88 225.4 65.4 248l11.3 11.3 24 24L112 294.6l11.3-11.3 48-48zM192 256l0 32 16 0 64 0 16 0 0-32-16 0-64 0-16 0zm-32 96l0 32 16 0 96 0 16 0 0-32-16 0-96 0-16 0zm-48 40a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const ClipboardListCheck = createIcon("clipboard-list-check", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkwAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCdgsGAAE2AiQDCAQgBYMtBzsbgQXIhof/5r66r5KmpCHThDUMC8QsgdQ41qv/WUug//xfk+/d86MC+XYlfmjVy8RojIjnE5jocC2cNrCZTsA2OG/EAYbGUH6GMu6KVTpIb6SdeM59aPxqwsMkZQEgGgAccNpJx9jcilbEzva3xE5HISAOBFmgQIFpAfZWCEwrZZRKQSvabfYfmAkgOgX3k0CJCm/hE0AJku6yHF8+0jPR09NTd/SVp9Yd1VmvjUW8Vj818srISNS1qKpAxNhpTy6q+ni8qkSfJVKIui9aRMzzafbNJZ9Wp4ylI0Uvj9ShdWAdp746+vLwKyOvjZ08Njy2IoZj7xgNM8tiJJbzyrHYb7mwKBnVycU7fDb15pKPx99YvODL5svf5++8dKcX7trvR7bNm7ftx+NW6l2wzvnnr7Ogd6/VB02sYu9HljaNRs7Z9bJ8PgnnRtiw9JG9V03c91yeMvcfhtT81Vy3X3+r1R+HFr35U1B5qa8cZIfNXOont/H0V9oH76lujs+a684roeur3lt6wsjICTEZiJte+vnWR84b2Pv/7jqBX37682/8M9LeHPenL9EtgaBY1V7l7Lgf4n4BAEhxqwVxPwLJS7oF79rrVQFChQBJp0qAwpRGgFJlpQAdZu0iQKfKSQpR9gjDzqlB0usGUNjVPaA07GvQYW9bsp2Go7hGxStM/ENMO7QNH7Irr1+zLu+ZJztK6bLj9eZeebV72a18Yjnc61LXudbNLnGxK9zcQm90TOEW1zh0DjnEF2XrrbFOtqe8u39fO7UVvtFNPHmda/dvs5d8fnyZW+fnL4e+JODcoCZJRBr+QAg3sL76PjdWX/AAAA==");
 
 export default ClipboardListCheck;

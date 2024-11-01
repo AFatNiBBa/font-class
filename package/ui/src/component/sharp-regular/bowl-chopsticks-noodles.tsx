@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowl-chopsticks-noodles` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-chopsticks-noodles?s=sharp-regular bowl-chopsticks-noodles}
  * @preview ![bowl-chopsticks-noodles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bowl-chopsticks-noodles.svg)
  */
-const BowlChopsticksNoodles: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 128L0 96 128 72l0-16 0-24 48 0 0 24 0 7 0 37.5 0 38 0 37.5 0 48 32 0 0-48 0-38.5 0-42L208 57l0-17 0-24 48 0 0 24 0 8 0 40 0 48 0 40 0 48 32 0 175.9 0 48.1 0-2.8 48-.8 13.2C503.5 368.1 454 438.2 384 472.9l0 39.1-48 0-160 0-48 0 0-39.1C58 438.2 8.5 368.1 3.6 285.2L2.8 272 0 224l48.1 0 79.9 0 0-48L0 176l0-32 128-4 0-32L0 128zM288 83l0-41L512 0l0 48L288 83zm0 52l224-7 0 48-224 0 0-41zM176 464l160 0 0-20.9 26.7-13.2c55.1-27.3 93.9-82.4 97.8-147.5l.6-10.3L50.9 272l.6 10.3c3.8 65.1 42.7 120.3 97.8 147.5L176 443.1l0 20.9z" />
-    </Icon>
-);
+const BowlChopsticksNoodles = createIcon("bowl-chopsticks-noodles", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABggAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCVwsGAAE2AiQDCAQgBYMtBz4bZQXIHoVx41NC+YhLaWpRy3bspBbx8LXfs3N3973h78PcI0k86XSxkIgqCap30YiH+IfKEMnfijXdC4IClQvxhQoAikCFwbWsRMfXVZh3NfKb77UhE9fkvz//BmzSR4vCihVH0u5pWZgCA54NiwbYNBvYTCdge5uIh3UE4REMQkJjHqd0PJ2hxFu6iYb0SPMd3IgfGn/5fJE0GUCMBAC7jlycQ+lHP+LbYOKbUxAQuwAzETIypiKwlVZgKp2ZoCiCfgwG7j+QIYBo0bUSKGhxFY8ABSSllGO93qSuGVYOd03NIY4ELXYB8S6ipXxwNzXGxpMt5QjVGvF195fgeJoe3QJQgSPWwdNHNSXr5uANpOBoV1XGgnibez3ncUNjXDzNvNw0j8x+NvLZv77Xv2NrJvOrBy5ewstovqgIwURUUoxb5posJOKX93NstnPtiUF+x5yMxMZQK8hewZuZXnPKjPGnE7RDTRDq7LWqAWtW+pc4c/QNLxrnx93791ZVj/XMunf/7gvjAALB7Pf51HHn1v+mLoE/b8g/IwyUJD0DQyQQ5KWDtMcEEgEASHFZMEEguaKAdx3qvgChIkDSqgJkU7gQKKolCDSmKyPQqg7QitITxnpqZDLUOTJb75ksxvolG1v9ZVtjI9ukZFHSlzD9gIP72zifFV5hta7KZiaE+VWeNuJz35eAvagb6JuqqWqZMmLsvDDTczCC9n0Ry8sSbAVvt+71a5Ydm2jJ6v4mq/h+Mm4+Hp0AW4N4V4sliUgT3nhVptIcDCfPLj7J9AeDarc2AQAA");
 
 export default BowlChopsticksNoodles;

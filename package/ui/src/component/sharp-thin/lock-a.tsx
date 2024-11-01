@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lock-a` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-a?s=sharp-thin lock-a}
  * @preview ![lock-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/lock-a.svg)
  */
-const LockA: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M112 128l0 64 224 0 0-64c0-61.9-50.1-112-112-112s-112 50.1-112 112zM96 192l0-64C96 57.3 153.3 0 224 0s128 57.3 128 128l0 64 80 0 16 0 0 16 0 288 0 16-16 0L16 512 0 512l0-16L0 208l0-16 16 0 80 0zm0 16l-80 0 0 288 416 0 0-288-80 0-16 0-224 0-16 0zm135.3 52.7L317.4 448l-17.6 0-22.1-48-107.4 0-22.1 48-17.6 0 86.1-187.3 2.1-4.7 10.3 0 2.1 4.7zM270.3 384L224 283.2 177.7 384l92.7 0z" />
-    </Icon>
-);
+const LockA = createIcon("lock-a", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABbwAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBfgsGAAE2AiQDCAQgBYMtBy0b+wTIngNuyzxPRSLZWgzFVqp+e1HrvSKqVi2rZ+57wh+PQqHQv1BIHBKHR+hfoxEGjbAYQ2ARnoV/vv3S+z4lmQnDJAoYiwBCE8ietQUgY9b3VFZvMve+J/yD//yf6/mejwb4eRMfWhRWWjTIaLvq5ydwoJHeQAcUBXZ6gna6TRakRwR+EiFCEtHx2XG2g567bBei3j3wph+aP0Wuo/gNANkCgKubZQv4GE88+jM8Q77NQUCuAIcEDRrsCDjlE+wEHHQB4UeJgf4DHQLIGHn+AjpM4BbuATpQwh5kVti8JBumBSttaNYhNtKD2ljn0+rHpU7oY+jD1LezKtHCohKap0q+JLvCWOMpTb7M8hUrVxg1yqheRqtUIKs8v3nlctmqWGbsX6WdHLoYxvS4YRn/8yXsXmH72OLFY+3hMIu3mTiZMj9Vv85YXGY5HnEWP7SveF2jLDbZz5gsK77IZdyjsw3bcRHWAwLB492lK5sy+v8nWw/w+/q/9Ozhoz5WDEx5QNCOE/XW5yMgtAA/qXKSqnyEQFkpJNe6dIOAMBCgRAwBTYlMAjqjjoCRch0EjBnL+NRTkFwbJvCkOgJ8nS6AQK4nINTvRxzJjZ9nVJZQv7z4SQtNTHItjc2u1y0Lg04doo32uW2h+iS31GArOx1y0HE7bLfHcYMctSA74YDJCJ7wRU6LRs2cXu64ul+/0g5HHbPHIQf7OH3cfafaybh7DWSP4J7IFQ+p6P2LDVsAAAAA");
 
 export default LockA;

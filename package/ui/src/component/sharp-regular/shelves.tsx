@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shelves` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shelves?s=sharp-regular shelves}
  * @preview ![shelves](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/shelves.svg)
  */
-const Shelves: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 0l0 24 0 136 544 0 0-136 0-24 48 0 0 24 0 136 0 24 0 24 0 208 0 24 0 24 0 24 0 24-48 0 0-24 0-24L48 464l0 24 0 24L0 512l0-24 0-24 0-24 0-24L0 208l0-24 0-24L0 24 0 0 48 0zm0 416l544 0 0-208L48 208l0 208zM352 0L480 0l0 128-128 0L352 0zM224 256l0 128L96 384l0-128 128 0zm160 0l0 128-128 0 0-128 128 0z" />
-    </Icon>
-);
+const Shelves = createIcon("shelves", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABawAAAH0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCCEwsGAAE2AiQDCAQgBYMtBy4bEQXILgps9xQFoWgZjOVEUceHpzQGVhfj4fu113Pvvv2wGyjCTlxBoSJwUQVSzDag6lpFLrrGND7GZGo7lVW09v2tt1Pj4csWuw/AQEs0y07zLJD0A9bMqhif66u2Qt4nLqc/zn+fz/N33dOe/hsLJJqTuwQ6j7I8awtkgWWagLU3ja0ksqOjmYkm6biy4+sMJf7go5r8mogP7UPjJ9dOqisAsYYAOHXlwqzlH6sRK31ixYSAOAU6QIUKOwAcZQnsYOuIoghW0ffpP5AkgBjgVyUoGOIpXgMKSHUpp8ZcbevJcrm3NzcEMR2wvQ2ENRHulPaGRpvTU9PL/H7btIW+KDRp244LZr6t6Rf3SL9vmd46ty0yiqwyooTKJqidHnT7Sx0LDDLp5w2UzvXiLuHjQCDY8/7moumjv0dtgh/v+DOSfjnnM4wkCKr9/X5zzkPOCwBAxjszOY9AuqvG7zrhkwChQYA00AhQ2c4BUDT2AajtUgMYaFxQiTIWNliUTxNe8pUjNr7Y4OFrR331gQ1RRZwcL/KHL+O8hc/t6/Ik48BlhyhBJNbNkduBt+YJH06657ln3rjrjofeGOqV2dZbT533kHO+qJNLZGjA4/6zcdnQr7z2MH3mfJcR72ee1Z/vw2EScOCtgDwSOXz94O6Td3dfAwAA");
 
 export default Shelves;

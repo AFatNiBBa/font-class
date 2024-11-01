@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `layer-plus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-plus?s=duotone layer-plus}
  * @preview ![layer-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/layer-plus.svg)
  */
-const LayerPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 256c0 9.4 5.4 17.9 13.9 21.8l218.6 101c14.9 6.9 32.1 6.9 47 0l218.6-101c8.5-3.9 13.9-12.4 13.9-21.8s-5.4-17.9-13.9-21.8l-218.6-101C304 129.7 296 128 288 128s-16 1.7-23.5 5.2L45.9 234.2C37.4 238.1 32 246.6 32 256zm0 128c0 9.4 5.4 17.9 13.9 21.8l218.6 101C272 510.2 280 512 288 512s16-1.7 23.5-5.2l218.6-101c8.5-3.9 13.9-12.4 13.9-21.8s-5.4-17.9-13.9-21.8l-53.2-24.6-152 70.2c-23.4 10.8-50.4 10.8-73.8 0l-152-70.2L45.9 362.2C37.4 366.1 32 374.6 32 384z" />
-        <path d="M488 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 32-32 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l32 0 0 32c0 13.3 10.7 24 24 24s24-10.7 24-24l0-32 32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-32 0 0-32z" />
-    </Icon>
-);
+const LayerPlus = createIcon("layer-plus", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABfQAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBdQsIAAE2AiQDCgQgBYMtB1AbFwXIhocvf76eu+9JY0vfyGsAhECFWAOV+VW4ChdNXIWxy4wmrnn+508PWACY7f9Wi+Tu8wkkplbRGgcyoZniFNx2UUQlJL7QuEAZ/xf3q5CeT5/j0eh/AOMX3dxP0rIAEG0BMHfz+pU++DK+TPF5o5n43AoExDyQBQoU6CnADIVAT6WMUin4MjUafBmNRiaAqIreXYAqKtiGI4ASJCGVZe7So15pVW6KFtQOvzDoxa6iFhLz/MB6CMwrPSLqga9eU4vY/HSnjfHS4M3xbJdnOm+KZ2oPdNwQT3Vk7KfrD3bR+rII/M2TNsWS8KB+r7d9/be+nx/63A+vdFq7tlOWlXhLqrzjNX3eb/3h3QOOXv3igA9b94EXm5pevKvVO1Jp3ohf7NmFVq8uhMXh60AgeGblG0N2t5nxX4t6Al+/9cc/8edy44OU0+toIYGgGNEYYUeaI8spCwBAikv6eWbcocZUGCdJvrXJMwKEGgIkVTUBCj20FaBUM1yAit4mClBVs14hypZCRzt7OGlyFi5MchMudfQmXDHDR4GqjlFgjEYI/YuXsGgMLOyXx44ak6flzayWgQ3pd0/Pp40hl3TVULrUIaedcsFBBxx1YQSdszJ80UmL9sCFfigba5Qxsmny7cJzYdMocM55R9e5+71Ml9+3hri033gonUwCjPs6CQWRomiPXnGkI1VGorW645RzmA==");
 
 export default LayerPlus;

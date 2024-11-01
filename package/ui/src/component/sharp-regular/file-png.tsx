@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-png` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-png?s=sharp-regular file-png}
  * @preview ![file-png](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-png.svg)
  */
-const FilePng: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 464l-64 0L48 48l176 0 0 112 112 0 0 144 48 0 0-176L256 0 48 0 0 0 0 48 0 464l0 48 48 0 64 0 0-48zm64-112l-16 0 0 16 0 80 0 48 0 16 32 0 0-16 0-32 16 0c30.9 0 56-25.1 56-56s-25.1-56-56-56l-32 0zm32 80l-16 0 0-48 16 0c13.3 0 24 10.7 24 24s-10.7 24-24 24zm96-80l-16 0 0 16 0 128 0 16 32 0 0-16 0-58.9 27.7 65.1 4.1 9.7 10.6 0 5.6 0 16 0 0-16 0-128 0-16-32 0 0 16 0 62.6-29.3-68.9-4.1-9.7L308 352l-4 0zm112 40l0 80c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-24 0-16-16 0-16 0-16 0 0 32 16 0 0 8c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 16 32 0 0-16c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40z" />
-    </Icon>
-);
+const FilePng = createIcon("file-png", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkAAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSDHAsGAAE2AiQDCAQgBYMtBy8bmwXIHolxTMpGPC800UUE3+vK+n1pZteSQSaWiWUEOqIMKEKMmLLjDDgIty7F6FJPROR7bcj/XI5v8dE9v+obhbbWAhljPE8g0GiMCRRYYJkmYA3OG3HAISmk7yGPL+NJLdJL6Rc84T40/jLcQyStDEBUAFh7eP9O3/VET8TPnYmfbUdArAW1QIYMowRYIRMYJVcjlwt6otNh/4E1AURb8M4EcnThY3wByEHSyvOxo3tPWVK2+uSHylZxsCiLLMqAEyMORVGI1DKXcXhKjBHEkSa9PfSFkS8PeX7yPiSCbw5/ceIiPosdjMFRVvtHEUIciiFRHBTuG/xcWcYjQ1+YkBXXznl2UBHPD4l4YWgZzw0+Yt37hzxfFPHwoGeNf696759+ufSLm/utCS59xSducYsnNT5x773+aBqvaDRrmtU3V0GaPRqVWg675Zqurv+u3VKP3T3BEZG9gwfvPd2wV+5bkL3cyDWWKoZ0aauN2uAqr5+yJ3is/xfvV/q//8UwlaquVbq1z1TOtPfkvC05q14HAkG1ur3zdL8V/3eXCfz5BehnpPNdkt5DtwSCbGZnphMJJAIAkOIu4xMEkre1BHN7e16AUKCGpK2AzEgV5AozoGWMhZyVc/bLRN5LGOQkCElvt0JmkbshN8jn0LLC95G2QZHdtrybjvfTmHhTG9s4qJ47u6mX1ZM5Jf9O5Oje5fVq9dS7eM00ONElN7vJHS664Ko7WtRtdsbvdKNNc+RGX1Sba7ZGbZl6d/H+6EMuus3trrrZTbaf5erz7VPdNd98GtQlAdt5EpJEpO4vxDPrlpsuAw==");
 
 export default FilePng;

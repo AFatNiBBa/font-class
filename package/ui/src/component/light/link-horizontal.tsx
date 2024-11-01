@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link-horizontal` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-horizontal?s=light link-horizontal}
  * @preview ![link-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/link-horizontal.svg)
  */
-const LinkHorizontal: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 64C57.3 64 0 121.3 0 192s57.3 128 128 128l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-53 0-96-43-96-96s43-96 96-96l176.1 0c52.9 0 95.9 42.9 95.9 95.9c0 50.3-38.9 92-89 95.6l-8.1 .6c-8.8 .6-15.4 8.3-14.8 17.1s8.3 15.4 17.1 14.8l8.1-.6C380.2 314.6 432 258.9 432 191.9C432 121.2 374.8 64 304.1 64L128 64zM512 448c70.7 0 128-57.3 128-128s-57.3-128-128-128l-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0c53 0 96 43 96 96s-43 96-96 96l-176.1 0c-52.9 0-95.9-42.9-95.9-95.9c0-50.3 38.9-92 89-95.6l8.1-.6c8.8-.6 15.4-8.3 14.8-17.1s-8.3-15.4-17.1-14.8l-8.1 .6C259.8 197.4 208 253.1 208 320.1C208 390.8 265.2 448 335.9 448L512 448z" />
-    </Icon>
-);
+const LinkHorizontal = createIcon("link-horizontal", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABhwAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCHQsGAAE2AiQDCAQgBYMtBzYbIwXIhuB7ndi+L9njyGFQAICOgCpgbApP2qMq1dHUqeehUCiAzxFdaGPhxIAskNCc5wGJRWS05W0VGQtrBaoY923DoyMIoRESEiUmjZfjtYU8/o4hKqTH06+4t75p/KaTm0jyDEC0BMDM9auX+rIRjYhf/3+P+NViBMQsUApkyNBVgCkyga5yJXK5oBH//4//gSUBRBXfSQI5cpzBRUAOkpTn48bVK83ydfVKsfnbKRGfls9P/WxuPR7t8Ej7It4f9HL3Zwe/Mr4e7w18qdtTA14cU8RDHq53iB+mf9H7hWmfzyv2ih5Bg3io7cPtfHx0okM8Go8UbePbKbfP0evlli//0fPXfb+69toVsxlTqYyZvaLUaN68Ubru5ZdrtaZe96ZsrN5+x+qaS82HNT9hdJYlV/03T+BVJ/DdW/wOCASLvu32zPYWUy7X6glc+vivy/3EdF16GTUJBNmQ/4fYkq4DxAZgpTinl/FBgeSIhC+1qUcECAUCJFWFAJkuWgqQKwwWoKK7sQJUFVbLRN5EaGvrAElTJ0FmnKtBrq13QMUUP5hVbSNLOzZp2F9f0jwNzR0rRw4bUU4qtx7hMoku3cmlWx5wjjIDYa19jjvmjL32OOiMQk9Z6px11DwLmeuLSiMNM0JpkjIcPkvrlHXKaQfXfLzPZOV9Y4BzdvlA0BKmHMWVJCK1eN2ZoTkJ");
 
 export default LinkHorizontal;

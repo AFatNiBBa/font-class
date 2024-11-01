@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `right-to-line` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-to-line?s=duotone right-to-line}
  * @preview ![right-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/right-to-line.svg)
  */
-const RightToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M384 96l0 320c0 17.7 14.3 32 32 32s32-14.3 32-32l0-320c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-        <path d="M340.7 228.7L217.9 105.9c-6.4-6.4-15-9.9-24-9.9c-18.7 0-33.9 15.2-33.9 33.9l0 62.1L32 192c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l128 0 0 62.1c0 18.7 15.2 33.9 33.9 33.9c9 0 17.6-3.6 24-9.9L340.7 283.3c7.2-7.2 11.3-17.1 11.3-27.3s-4.1-20.1-11.3-27.3z" />
-    </Icon>
-);
+const RightToLine = createIcon("right-to-line", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABcQAAAHrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBSAsIAAE2AiQDCgQgBYMtB1Yb8ATIhof/X0vv+zO7gTJNqwBBMbFQJEFVxRWFqsqpItaZ/2s+v+fXgN8OAKLxLJILaJ1aAsO0tTf4tMCnLcizbqVok8h8k1Vbt3KPz9kez+O4LeTxKDujRHqY3uN6ueP4qo0zJFUZgGgMgHHzZ09VUxu1Kd7XvSDem4KAGA8KgQwZ2gswUibQXq5ALhfUpro6aoP+/AoCiDI4dwbKyDEZMwA5SELkedeW9UoN8nn1StWr582dd6/6UvM7RHV4yokWd+vVi7mXW82P+3Gy5fqUJY7ej4zXz+7ytPHT753fr3tvzodD8B42bPgwxY52QsMLFxqOjd4JowmsqB06RE0Hz/HlY8GOhQtC/R0QCD51bfRseaOR/yvrJfDx5c+/dGLUpKeolECQ9azraUnUAHUGeFIp9ukSNcQJgUxXCS61vnsChGoESMqqBci001iAXLUeApR0NEiAsmqzZSKvEppb2kBS306QGewoyDX3HJSM9Movax6ZNfG2wL/LpUzm0KRBRb/efYvhxTStCgbC5vYRhVrtui+WdXMbrbPdNnustcZGexi5y9Ror60mr+BJHqjQT299FYYrtnP3yjzm77LbRlna72eE4n67q33r2t3cdBKg/3MYkhEpshZf5u3Ys73XTyaEg1mllSAdQgAAAA==");
 
 export default RightToLine;

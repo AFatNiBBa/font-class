@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-circle-exclamation` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-exclamation?s=light person-circle-exclamation}
  * @preview ![person-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-circle-exclamation.svg)
  */
-const PersonCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 80a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112A56 56 0 1 1 160 0zM128 164l0 156 64 0 0-156c-6-2.6-12.5-4-19.3-4l-25.4 0c-6.8 0-13.3 1.4-19.3 4zm0 188l0 144c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-293.9L46.1 295.5c-4.2 7.8-13.9 10.7-21.7 6.6s-10.7-13.9-6.6-21.7L76.7 170.3c13.9-26 41-42.3 70.6-42.3l25.4 0c29.5 0 56.7 16.3 70.6 42.3l48.7 91.1c-7.5 9.8-14 20.5-19.3 31.8l-48.6-91L224 496c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-144-64 0zm416 16a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144 32a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0-112c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const PersonCircleExclamation = createIcon("person-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABpQAAAKiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iCfwsGAAE2AiQDCAQgBYMtB0AbjwXIHoexe2QtDpT1izLGw/N2fZ37qr7q99A1ppeKCGRON2LPZmLcRzfvH9dsLvrCCaQRhhrVH/D6++b/cs/v+dEBfj6CQxlrVDimHbbX8wQCDC8di4rDZWGWKHam96qg7NdhgvaQx7cxTB3pPvw1btE/NH7VxXUkeQYgWgNg9sa1y31ajWrE17W3iK8tRUDMAaVAhgzdBZgmE+guVyKXC6pRq/H/gSUBRD3zlgnkKPAIngfkIGnM86YWLQd264ZzzXUt8g3sMYqtzxT3z0+m903xVHZfeu/4dH5/8cCyTmiOiLtJEdc7wp3t7w5ZrIs7w93Jxnhlb4634vq4M90QKarvGlHsvjqPuH9+mlw/PpneC1d1uW96it6wPFM8gCpXbxGv3B/QG8734ktw1bAXj3fJ9df768to/VPZgjifjru8cba4J+nzvHr+6/31ga89cnJ1hw6rneiqv/oUfJ54zLWzPOjaoqvi2vdW85KW1WrLAUZvd+k372yfctzBc12dOzhqi5dPueYATTG3wqxHZM+f+fnhh3v2lP2ff+6ZaeDjDCwp27UdMKBtu7IciBuwe0uzheipastZWla964FA0OHO/8jOVtP+b6QJ/PT+n/8Ll1dqn6ZZ6XmgUQJBNqw2zLY0SwWMDqCY4gJ9Gr4okNyjkfmuFXcLEAoESOoVAmS6aS1ArjBUgDo9jRegXmGtTORNQnvbE5BUnAaZCS4HufbeAHWm+axQr31kcEpDGX2YmLAgC81fVY4eMaqcUtY2RAzokcri1LKzMegCYWAw3uiAk044z377HHZeBjljefl8xy1oguf7odJoI4xSmqIc3L4obMj4Z5wVyGpu+DJTldOnBrmgefxgbCcm5hgVSSJSF7BWhl/SMzj8JxjW7uO7Hw==");
 
 export default PersonCircleExclamation;

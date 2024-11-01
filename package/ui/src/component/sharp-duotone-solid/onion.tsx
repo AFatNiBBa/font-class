@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `onion` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/onion?s=sharp-duotone-solid onion}
  * @preview ![onion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/onion.svg)
  */
-const Onion: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 288c0 80 57.5 134.7 130.9 160c15.1 5.2 30.9 9.2 47 11.8c7.3 1.2 14.7 2.2 22.1 2.9c8 .7 16 1.2 24 1.3c8-.1 16-.5 24-1.3c7.4-.7 14.8-1.6 22.1-2.9c16.1-2.7 31.9-6.6 47-11.8c73.4-25.3 131-80 131-160c0-84.5-49-124.3-95.3-162C311.2 92.3 272 60.4 272 0L240 0 224 32 208 0 176 0c0 60.4-39.2 92.3-80.7 126C49 163.7 0 203.5 0 288zm73 69.6c-13.9-37-6.6-81.3 2.6-114c4.7-16.7 10.2-31.4 14.5-41.8c2.2-5.2 4-9.4 5.4-12.3c.7-1.5 1.2-2.6 1.6-3.4l.5-.9 .2-.4L112 192c14.3 7.2 14.3 7.2 14.2 7.3l-.3 .7c-.3 .6-.8 1.6-1.4 2.9c-1.2 2.6-2.9 6.4-4.9 11.2c-4 9.6-9 23-13.3 38.2c-8.8 31.3-13.5 67.1-3.4 94L73 357.6zm103.8 31.4c-17.5-52.5-8.5-120.3 3.6-172.7c6.1-26.6 13.3-50.1 18.9-67c2.8-8.4 5.2-15.2 7-19.9c.9-2.4 1.6-4.2 2.1-5.4l.6-1.5 .2-.5L224 128c14.9 5.9 14.9 5.9 14.8 6l-.1 .3-.5 1.3c-.4 1.1-1.1 2.8-1.9 5c-1.6 4.4-4 10.9-6.6 18.9c-5.4 16.2-12.2 38.7-18.1 64c-11.9 51.7-18.9 111.9-4.4 155.3l-30.4 10.1zM291.3 167.8l14-7.8c14-7.8 14-7.8 14-7.7l.2 .3 .6 1.1c.5 .9 1.2 2.2 2.1 3.9c1.8 3.4 4.2 8.3 7.1 14.3c5.7 12.1 13.1 29.2 19.8 48.9c13.1 38.7 24.5 90.6 11.7 135.5l-30.8-8.7c10-35.1 1.4-79.2-11.2-116.5c-6.2-18.3-13.1-34.2-18.4-45.6c-2.7-5.7-4.9-10.2-6.5-13.2c-.8-1.5-1.4-2.7-1.8-3.5c-.2-.3-.3-.6-.6-1.1z" />
-        <path d="M130.9 448l-9.2 23.1-8.9 22.3 44.6 17.8 8.9-22.3 11.6-29.1c-16.1-2.7-31.9-6.6-47-11.8zM200 462.7l0 25.3 0 24 48 0 0-24 0-25.3c-8 .7-16 1.2-24 1.3c-8-.1-16-.5-24-1.3zm70.1-2.9l11.6 29.1 8.9 22.3 44.6-17.8-8.9-22.3L317 448c-15.1 5.2-30.9 9.2-47 11.8z" />
-    </Icon>
-);
+const Onion = createIcon("onion", true, "data:font/woff2;base64,d09GMgABAAAAAANMAAoAAAAAB0AAAAMBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiEEgsIAAE2AiQDCgQgBYMtB0YbKgbIBv6B3/33a1dXNeMO3EjCt/DM3yYup79WRfn8YRGENubEBT7neQIBrm0b7MEKPM3QMrd2pzKjaAQ9QmIEDokev4GPV1dg6Yi5kDQwthkvgTX6P4D6hQgLwSDLBABAuQAAgHpdOrTi7hd9MfTSvwh6SUtAAKoPgIcAEzCBOAKgJiYC4lh4gIWF4Ivh+/BFvu+BAEDpqBgmAOlAFvAT8DcAYAFgYGJZVg43R5WixYs6admtzrrAdsKxcFjVFFuWHC7cCYEcpexyd7nNRZvtLpFoJKIaimLPwYLaV0u61exQoU2BFQAcYIvIoSNFXtS5U2B/6dPV5+l68eNJW2FFZWtn0aNV5+lqyZNep+0xaUdsR2hLaJ62KCQpoE2BTTayvo0uifDWeZGCnXanpD2pPbGRSslKcgmgP6Nb4ztFmCjYJeSGtuTtgOgvDGyLbEvsihfWjuh2EpuD1DzNzX881/Hf8r0c/JIFi8v8RZxjETeZMKRhjggWhSlLmAjpbdOhaJveyLhp9OcuZsgE9jpNocn4Ft63d/3kvfsmDBnfpKmTuPCwOmSMnOl4+Ph4ODNHZkD1hxcSTRvtLAWJqcPGFCkgIYBXbPRySQAyC48ePCQzPOD9kOSTWlBq6ZblLUJ5DBDfcSBXLkAgCRUqsXTx5qLhdW/HfXid32STl0sgMApWnX/qZIMG835geO1aO3fMreoKQAAAAgSxU/+P75Oz5n+ZjgHA19f/+JnrZf+u7hrHgUwMAARmSb8kPXUXQLQFAD/K0GTy6y7jAAEm57BIl7KxGQEgbLhZg3Rs1iRGLtbCpgSbRpJKl9Ox6YCJrCyESy+wBtkYx5pUZhZr4XKBTaMmTwrpuDJD3hiwxh/ObI0t3GiWV650Wa+6161opijWb5M1vGFf0cm1oxgPMpgxjGYigxjIMCYa+XhalScxisaerBFfxKMcpSmLR3W81/WfuzsziPFMYBhjGL1PUwPv+1RRJvv9izFocOgsz0UTE2TIzD5m9LAxo0vNHGdOY5khAA==");
 
 export default Onion;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `notes` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notes?s=solid notes}
  * @preview ![notes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/notes.svg)
  */
-const Notes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 32c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64l179.2 0c4.3 0 8.6-.4 12.8-1.3l0-94.7c0-17.7 14.3-32 32-32l94.7 0c.9-4.2 1.3-8.5 1.3-12.8L480 96c0-35.3-28.7-64-64-64L160 32zM384 352l0 45.7 0 18.3 96-96-18.3 0L416 320l-32 0 0 32zM296 464l-160 0c-48.6 0-88-39.4-88-88l0-224c0-13.3-10.7-24-24-24s-24 10.7-24 24L0 376c0 75.1 60.9 136 136 136l160 0c13.3 0 24-10.7 24-24s-10.7-24-24-24z" />
-    </Icon>
-);
+const Notes = createIcon("notes", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZwAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBVgsGAAE2AiQDCAQgBYMtBywb0gTIHodxTLKVaNRHYRIP/z/3n/vc5FMyDBlmdEyKimSJHQs/YLsqq18yu8BnyDv+1M3zzqMA3yiUsXHp4gW093kCAWbD84SywDINwGJMt4mPHVXslRBBiej4drwdkMeP2XV1pOfpHzxaN41/dXadpCkDEK0AMGvDmmV+exkvI/6ufU38bQkCYhaoBDJk6CbAVJlAN7kKuVzwMmo1/QdWBBD18HEJ5KjDCqwH5CDJ8rx32aWsa56vL+uKLR8NjPisU4rngz7vV8a9jhFXOj4ty3gaEW8M/qJ/s02C2BBFYW1RFt8M/qJHxBv9P+ok3p/287wyPu36Rv/eX7T64j/28+6777WmdUHRuvV7X2pYuUOL27db7FDX8GXUvZiRLLWxY4c2y6sNJ94DNzPdyl9qv2pV+5ea9q1//B7D3HkgEIz5u807Wk79v7FM4PUPPV4jtd/iZfoCjRIIsqG1obYmqOKlAACkOK93gkCyQAZXbeaJAKFAgKReIUCmq1YC5ApDBKjTwzgB6hXWyETeJLSzbYOkmVMgM94FkGvnS1Bnqt+Neu0i4xTFCOpHFz/fQ/PmqlHDR1aTqzRkNE2IPp5SHQsDz7fSINm13wnHnbXPXoecdchpy+xzjplfwfM8qDLKcCNVJquuk+P6evucdsYhJxyfU6ao3isDna+bB4mcAHU0R5KIVMdZAAA=");
 
 export default Notes;

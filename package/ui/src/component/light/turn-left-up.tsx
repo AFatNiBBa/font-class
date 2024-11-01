@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-left-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-left-up?s=light turn-left-up}
  * @preview ![turn-left-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/turn-left-up.svg)
  */
-const TurnLeftUp: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M256 160l57.3 0c3.7 0 6.7-3 6.7-6.7c0-1.9-.8-3.7-2.2-5L192 35.8 66.2 148.3c-1.4 1.3-2.2 3.1-2.2 5c0 3.7 3 6.7 6.7 6.7l57.3 0c17.7 0 32 14.3 32 32l0 176c0 61.9 50.1 112 112 112l64 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-64 0c-26.5 0-48-21.5-48-48l0-176c0-17.7 14.3-32 32-32zM178 5.3c3.8-3.4 8.8-5.3 14-5.3s10.1 1.9 14 5.3L339.1 124.5c8.2 7.3 12.9 17.8 12.9 28.8c0 21.4-17.3 38.7-38.7 38.7L288 192l-32 0 0 32 0 144c0 8.8 7.2 16 16 16l64 0c26.5 0 48 21.5 48 48l0 32c0 26.5-21.5 48-48 48l-64 0c-79.5 0-144-64.5-144-144l0-144 0-32-32 0-25.3 0C49.3 192 32 174.7 32 153.3c0-11 4.7-21.5 12.9-28.8L178 5.3z" />
-    </Icon>
-);
+const TurnLeftUp = createIcon("turn-left-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABeQAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCEQsGAAE2AiQDCAQgBYMtBzMbFAXInge2LWp3gssPVaOTIR7+f+4/97nJp2QY7jBSiUCyIgdAvmy7Ksf2ZcBAQeG9Vy38/F9TL54fHeDnc47E0wKJBMrYnk9gz+e7abVQFM4mitudTdkO0T5JEoMcl+a4LKGMG2OsJtLz6Qc8Gj40/tXbXSRlASA6AWDRji3rfPJX/BXxQwPxgzUIiMUgCxQo0E+AuQqBfkoZpVLwVzQa+B+YCSCa8QsmUKLEWVwNKEGSynLi1Pr25fa6qdpTV/WzPW/vsT22xlOe7l57sPvTxMuj3phWe7ZneKZH5dUez/QJt/d8tt7+bP1g923xtNu6PVVVlRAL0CtQb+G5umdo5av5Hw0OEVX1gCdNz47Bb3Z6879BPxz/QWPgLPZubCo633wBHdq5eOMsHe67r8NbOv7/Qn91yDr8tdDE334s3mputO6Fra2tW++61nedO7/5ZufeOXusP0dW/PjbxIU+vVe/x2S5t5U6fzd6MQgEY9f9uuZAx7mXW+sE/nnv5bh7bnzitvQmWiUQFGMbY+2N22SQGICR4hqDhS8KJEclfK3tPCNAqBAgaVYJUOirkwClyhgBmgwwTYBmlS0KUbYJ3ezLIGnnEihMdzModfMuaDLX13qzbpHCMerC/PcSl5fosnF50viJeXbuBhKrQ5QbnpOnpZHXUGEUzHTcBedd5ZijTrmqwK+wzrraOcslbJkfyiYZb6JstrwdX0/f7pgrXOmUC877UebI57WRrpHrR8FkEmDyVfkSkdrpOP0U5XFXXwQAAAA=");
 
 export default TurnLeftUp;

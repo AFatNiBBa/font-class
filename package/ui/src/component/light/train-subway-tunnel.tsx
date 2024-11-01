@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `train-subway-tunnel` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-subway-tunnel?s=light train-subway-tunnel}
  * @preview ![train-subway-tunnel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/train-subway-tunnel.svg)
  */
-const TrainSubwayTunnel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256C32 132.3 132.3 32 256 32s224 100.3 224 224l0 240c0 8.8 7.2 16 16 16s16-7.2 16-16l0-240C512 114.6 397.4 0 256 0S0 114.6 0 256L0 496c0 8.8 7.2 16 16 16s16-7.2 16-16l0-240zm336-48l0 48-96 0 0-96 48 0c26.5 0 48 21.5 48 48zM240 288l32 0 96 0 0 80c0 26.5-21.5 48-48 48l-128 0c-26.5 0-48-21.5-48-48l0-80 96 0zm0-128l0 96-96 0 0-48c0-26.5 21.5-48 48-48l48 0zm-48-32c-44.2 0-80 35.8-80 80l0 160c0 32.8 19.8 61 48 73.4l-43.3 43.3c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L198.6 448l114.7 0 59.3 59.3c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L352 441.4c28.3-12.3 48-40.5 48-73.4l0-160c0-44.2-35.8-80-80-80l-128 0zm8 256a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm136-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const TrainSubwayTunnel = createIcon("train-subway-tunnel", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABoAAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCfQsGAAE2AiQDCAQgBYMtBzobhwXIhofn9f6/tU/yAOeTGNglxAp2NW6F+v7PNfWi7Oh89Y2GEpka5d0Cez6RNWUIzQY20wnYFrddBRENcYTEHvJ4KcYqI92aPsbV4UPjV10uJ8kzANEIgEU7tqzz+k/xU8THpWeIj61BQCwGhUCGDL0CzJUJ9MoVyOWCn6JUEv+BBQFEueR9E8hRhbvwGCAHSUWej61vqRtdVVVTVpdvrymr3nH/lIin1kR8tOKdVR9MemKQuLHt5o6Ibxe/uf7T7V+v/Xjh61vnVx4mVEdETTzYdmPX1prqGnFL6w1Dq+Oh9pu615Sbm9/ecfOImtlPj4x4pFdc3HXrsLlxQ9uNHVukZ1PcGBa1z4+He26PiLtGPza9elsfuW34A50nDDsqyfDcwY81Pvb7oI+P/NjAa/Vf8OZY+n76qW/sm1/U/6U+SstMKzq7rr1kBeW55NquTuWaZ8OEiYnlII5MXPfdJ9lFG4ri4o2yT76bePEkutHBiw8mdhMXzphYajyC7XGPrjff2vm422579NEXnepFtaTf5nE733qz6x6x/YjGiytKm9raNuXMVR0K/DoQCA4+OeePAw1z/6+sSeCXF//8n/6MlF5K0mOolECQjS2NtTeBRAAAUpxpcIJAcpMKibZ2B49kqIZCUq4aMj0aIVdtDJTpN012cvoWmcirhFb7MCS1ToHMdBdArtVTUGau92LlWiMDUwWQKf4S0y4f48smFZPGTyxmF5slrRLyZHZ0TnHaOvJM2TIKL3Wkk5zodEc43DFOH3GnWpc8wwmW77HLfFFhkvEmKsxW3K4+z97uCKc6zTHryvvjmKN4PzjSmfvdR2FHkoidLCtJRGr5HFeMO+2MQ8865Jxxp59x4olHHA8A");
 
 export default TrainSubwayTunnel;

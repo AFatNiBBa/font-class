@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-arrow-up-from-line` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-arrow-up-from-line?s=sharp-solid person-arrow-up-from-line}
  * @preview ![person-arrow-up-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-arrow-up-from-line.svg)
  */
-const PersonArrowUpFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-51.1 32l-17.5 0L114 142.8l-81.7 128 53.9 34.4 33.8-53L120 448l-88 0L0 448l0 64 32 0 576 0 32 0 0-64-32 0-344 0 0-195.8 33.8 53 53.9-34.4L270 142.8 260.6 128l-17.5 0-102.2 0zM200 448l-16 0 0-96 16 0 0 96zM598.6 121.4l-80-80L496 18.7 473.4 41.4l-80 80L370.7 144 416 189.3l22.6-22.6L464 141.3 464 384l0 32 64 0 0-32 0-242.7 25.4 25.4L576 189.3 621.3 144l-22.6-22.6z" />
-    </Icon>
-);
+const PersonArrowUpFromLine = createIcon("person-arrow-up-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdAAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCBgsGAAE2AiQDCAQgBYMtB0AbFgXIrg5sU0dh/1DZCG3h8lL4rkTwva2035/ZLd2sGEbEtDoBccSQcSpjCsBJcOXU5Uh2hKXKXE+gaW60kS+37x0Cettu/q/J9+75NeDnK8FDi6RaFUdy5/MJDDjKW2iUPpsoztrZpxj03GKQPvJJhu2G1RHy+Du7rkJ6luJReaj4XRfXSRoyANEaALM3rF3uy6Zoivjl//eIXyxFQMwGpUAmB7oLME0m2CPkSuRyQVP8/7/+B5YEEFX4gARyVLEHJwA5SPI8b9G3oW+t0iKv1yrF5jd60fX5gJedn3Z51n9RUSvax7pYHnNDFIWotYoomkfMjpVRj45RNO4PRNTC/vr6+pAYFOtqcHoMjRCsFgENPm5mDOnzduu3/+C+vtheUS1tcfih1Zes1t63GstZyh2hqPFb7a1e5j3UdsjM1uDt0NqOh0vstVe7q7pf7XXHK6VZSq/csdev6kAgWNGh+5/bW037q1ktgd8+funm/79MlxM0k0CQDft/mC3pMgg9gFSKc/o4XxRItsjhUZt7LEAoECCpKgTIdNNagFxhqAAVPY0XoKqwVibyBqG9rQMkzZ0EmQkugFx774CKaX5IVrWPjGsyU+SfXsYCC89fVI4eMaqcUm5rukIfMc9OLY/tQedSz2A5aJ/jjjljrz0OOmOoU5ZnzjpqgYfM90Ol0UYYpTRFed183l231ymnHXTcMZ1nqvJ9dJBz/vDB4kkgOEZJkojUhZpLhu88der4+eFnTwynpjmclAA=");
 
 export default PersonArrowUpFromLine;

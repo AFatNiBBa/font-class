@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-field` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-field?s=solid pen-field}
  * @preview ![pen-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pen-field.svg)
  */
-const PenField: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M601.9 16c-18.8-18.8-49.2-18.7-67.9 0L494.4 55.7l89.3 89.3 39.8-38.9c19.1-18.7 19.2-49.4 .4-68.2L601.9 16zM328.5 221.8c-7 7-12.3 15.6-15.4 25l-23.8 71.3c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l71.5-23.9c9.2-3.1 17.6-8.2 24.5-15L560.8 167.5 471.7 78.4 328.5 221.8zM80 128c-44.2 0-80 35.8-80 80L0 432c0 44.2 35.8 80 80 80l416 0c44.2 0 80-35.8 80-80l0-128c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 128c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-224c0-8.8 7.2-16 16-16l192 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 128zm80 192a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const PenField = createIcon("pen-field", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiwAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCTAsGAAE2AiQDCAQgBYMtBzAbTAXIhuB5u/+qc7s/4J6JDK4jWCHAbB3txqN0FcFv/i/3/J4fHeA3OpSxaS+b4LuxnycQeBSOSQW8LLBME7AWt10FEQ1thMgB8vgnu0kZ6fH0Le4NHxo/6nITSVUGIBoBMHfz+pU+Px/nI74pvUN8YzkCYi4oBDJk6BVghkygV65ALhecj1JJ/AcWBBDlknsnkKMCt+BBQA6Ssjxvbp7Q0lJTVpdvMtdWX/ZIdcQdrTNiY8yOR+P69mF7HmrdEA+1PdyxOR5l226KDZveHhLxfK94eugLE+viveEvDcQp7BYmwoeIs0ltPNIeIquJOzseXRWrN5ZqxG58XdvDNWvc0kKN2GKWHm7wi40v/jzo20Pf2vrazy20/HyVrVtc6WxLy9mNjd+9uLJjkZlPvPD9og4/vHDf3bZsdc+9f+5sPMimOC82HWx8TuPBTXGd+ttuq8/xNjz/nPMW18LnK+bnqz8zKgMmjClNbwcCwfa9557a3TDjt8qaBC5++Ouf9c9I6fN0TXoRlRIIshGlEXak65DSNQIAkOJKg9N1CCTXKJO8a61HBAjVCJCUqxYg06NRgFy14QKU6TdRgHLV1stEXiW02tmDpNYlIDPJ1SDX6i1QZoYv0nKtkYEjBUzUz2D8ojG0cFUxdtSYYlqxWWppCCPs4vTitDTkSjkwFG90yGmnXO6gA466fIRcamVxhZMW7cELfVFhrFHGKExT3G6eh5scVMaXOWqdub/MdMX73hBX7o8fitUkQR1nbZKIVHXm4KmRHyo=");
 
 export default PenField;

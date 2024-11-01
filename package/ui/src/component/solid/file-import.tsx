@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-import` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-import?s=solid file-import}
  * @preview ![file-import](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-import.svg)
  */
-const FileImport: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 64c0-35.3 28.7-64 64-64L352 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64l-256 0c-35.3 0-64-28.7-64-64l0-112 174.1 0-39 39c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9l-80-80c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l39 39L128 288l0-224zm0 224l0 48L24 336c-13.3 0-24-10.7-24-24s10.7-24 24-24l104 0zM512 128l-128 0L384 0 512 128z" />
-    </Icon>
-);
+const FileImport = createIcon("file-import", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABaQAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBWQsGAAE2AiQDCAQgBYMtBzIb2wRRlI05n+xHYmzMsvkVsdCL8YeSXfRcxMP/r5n3/ZkkuzMlYMUOEBWgBXZVACAcsFwUMqe2p7K2ydp3fP/hXH/DBn24SN14s2ibxWVYkd0BtcDpAG/6m3/eeRTFzyi0PTSQBRLNeZ5AYl2eBzr/Av6mX8C+uo3xYJDLm4gMwSNiaN6QXCGPT9kVFdK91Iqb5aHij4GukDRnAKIHAJZs2bDK93rUI1oaiBYrEBBLwAiBDAtDBJgvE3iF3AjkckE9Gg39DxxBAFFle08gRwVrsRWQgyTL85t5Za2sdM03l5Vix4PJER/GlyEu9L1VlpHi7oS3Y7rE60nvB0WUMT/uDnw1fks8GLQ5Xo/pH7OAKSIIRbwe9GB8eaAoi4hNo973eP93ZOvhVufPcz1Rz6dPXUk3bnS7ALiePe/oac+e3AkPvaFT7LpmDQ2dyRoSu3Z29h7+dWeGM5b17ZsdvdwuAHU5T5sCwYf/v47tkef/ayqpCfz+2OqvqPE9Se/RJIEgm9KYYmcCiQAApDhnVIJAslQGj9rFbQFCgQBJVSFAZrAeAuQKkwWoGGauAFWFDTKRNwsTfTQCki5Ogsw8J5Dr4wsq5vvZVX0iCyoyJMg/XVzIUDCFmZYDD9NAo+IEz0Mfy9qEYyqoWKTeytJepzWxJ2Qr8g4WQg8OfBG4LA7wYDt+nK91tnYmVpY6xofzluLo16swWYY5iy9JRCovsGi+BAA=");
 
 export default FileImport;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pegasus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pegasus?s=sharp-regular pegasus}
  * @preview ![pegasus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pegasus.svg)
  */
-const Pegasus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M109.6 133.9c-9.9 7.3-18.5 16.1-25.5 26.2C37.3 162.1 0 200.7 0 248l0 64 0 24 48 0 0-24 0-64c0-13.2 6.4-25 16.3-32.2c-.2 2.8-.3 5.6-.3 8.5c0 14.3 2.7 28.4 8 41.7l21.9 54.6L76.6 366.7l-5.5 14.6-2.7 7.3 2.1 7.5 4.2 15.1 23.1 83.2 4.9 17.6 18.2 0 99.6 0 31.6 0-8.5-30.4-24-86.3 13-34.8c1.4-3.7 2.6-7.4 3.6-11.2L288 364.5 288 488l0 24 24 0 96 0 24 0 0-24 0-160.2c19.8-22.6 32-52.3 32-85.5l0-.3 10.7 10.7 15.1-6.7 72-32 14.3-6.3 0-15.6 0-84 0-7.3-4-6L540.8 48 560 48l0-48L536 0 508.8 0 496 0 480 0l-8 0L440 0C371.7 0 313.9 45.1 294.7 107.1L164.5 27.5 128 5.2 128 48c0 80 35.9 134 71.6 167.5c17.7 16.6 35.4 28.2 48.6 35.7c6.7 3.7 12.3 6.5 16.3 8.3c2 .9 3.7 1.6 4.9 2.1c.6 .2 1.1 .4 1.4 .6l.5 .2 .2 .1c0 0 0 0 .1 0c0 0 0 0 0 0L280 240c8.4-22.5 8.4-22.5 8.4-22.5c0 0 0 0 0 0l-.7-.3c-.7-.3-1.8-.8-3.3-1.4c-3-1.3-7.3-3.5-12.7-6.5c-10.7-6-25.1-15.4-39.4-28.8c-20.9-19.5-41.6-47.5-51.1-86.4l102.2 62.4 5.8 3.5 6.8 0 17 0 7 0 14.2 0 2.6-21C343.2 87.7 387 48 440 48l32 0 8 0 3.2 0L528 115.3l0 61.1-42.7 19L457 167l-7-7-9.9 0-8 0-24 0 0 24 0 17.7 0 4.8 1.8 4.4c4 9.6 6.2 20.2 6.2 31.4c0 23.5-9.6 44.1-24.7 58.8l-7.3 7.1 0 10.1L384 464l-48 0 0-117.8 0-19.4-19-4c-2.1-.4-4.2-1-6.3-1.6l-88-25.7-31.4-9.2 .7 32.7c0 .4 0 .9 0 1.3c0 8-1.4 16-4.3 23.5L172 385.8l-2.7 7.3 2.1 7.5L188.9 464l-49.8 0-18.2-65.6-2.1-7.5 2.7-7.3 20.6-54.8 3.3-8.7-3.5-8.6-25.3-63.3c-3-7.6-4.6-15.7-4.6-23.9c0-17.4 7-33.3 18.2-44.8c-8-13.7-15-28.9-20.6-45.5zM464 112a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Pegasus = createIcon("pegasus", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABvwAAAMJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhECEPQsGAAE2AiQDCAQgBYMtBy4bOwbIBv7h897/tU9S5bSO6jxZt0/SSPAHNP0jc8TRnf/LPT+6TQf47Qb4Kc6Ft3lXGs35PIFE8y1eVJgFbKm2O61pDqWVQ9ISS3J4fHI8TsDVZzpEBpjT5hPgYHhT/UYpu8GQ4QAAoEIAAKBXzZhhvPG1vpY+Tj8L+pghgADUC4AEAQ7gABUIgK44CKjAJQFcXARfK52m/8AEBADKhBGD5SIssjyoHxgMxnX/yrEZeW7KZniTjvnPNLxVgZCVJJ2NtrO9tJWaypevQIHGqVTWlimlap2M+gkhayXpYR0pUKQaReIoVPMVr+x573R8oSKlzkKXm91vdLve8eC43a69Vgq0x+5QuU5GJ/0d2iFpj054J8IbjV9qPU6BrC3XxSZ3O1g7TqijGiuU5yGEAh3nXENfCHmSpPo6Ee5QSvVVqe3a7ldsHLSSh3moSG3iLxuqtU7obJMzZbNORifCY/7xoPadwjt/1Ppk7ics6fTrg1bz1zs9iWlJTE/cX103XJUijyk0oD7dCUfTi+JdW4hSvEmQ0YNNxMTrYy7xrYE7/MiAaj6lkLFk0Y4/KaEl8fSWi5f8uWM4/WmCHTjhhZuDj88sNEICkGAt05xiAITAtFqdPbMiZ053RpNVvy79P3xhe2Kb9qYbV3iZuXhJTDEZlDClyFk7F48jtGQtJdQhSaAm5n9A5Hb5n/pEVNGaol6EhPSnIQ04yOA8j2fWzwi+zs//2tABQNe923Xc19MKuv6dbQ0A377011+ku9NvmJ7mDpCNAUDgNE03ZbLpCUBcAUBptJbaygcJMPyHgZ81lxMIAOEBAsCQiYcAcCinEAHg4tEEAZBBFe0QAJl4jMFBbg7CZ0oBhlxWAIf2bAEuPk9BBl15v8jEl/MMpEss/ULT+0uo36GkVfOWSeek25Plmy343S7JsN9wrZtpBEeZyzKWspo5zGYBqwW1kmH1GpbQXyP78UUSWtGcliR0JpkeXuspLFeyigVtZX6fLiTrk4as1Zc3AuWA/K07AQzGdpus5XPmzVi1ZhUA");
 
 export default Pegasus;

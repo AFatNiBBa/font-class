@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spider-web` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spider-web?s=regular spider-web}
  * @preview ![spider-web](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/spider-web.svg)
  */
-const SpiderWeb: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M137.5 23.6C141.6 12.7 153 6.3 164.4 8.4l69 12.9c36.1 6.8 73 6.8 109.1 0l69-12.9c11.5-2.1 22.8 4.2 26.9 15.2l28.9 77.2c11.7 31.1 28.5 60 49.8 85.6l45.3 54.3c7.4 8.9 7.4 21.8 0 30.7l-45.3 54.3c-21.3 25.5-38.1 54.5-49.8 85.6l-28.9 77.2c-4.1 10.9-15.4 17.3-26.9 15.2l-69-12.9c-36.1-6.8-73-6.8-109.1 0l-69 12.9c-11.5 2.1-22.8-4.2-26.9-15.2l-28.9-77.2c-11.7-31.1-28.5-60-49.8-85.6L13.6 271.4c-7.4-8.9-7.4-21.8 0-30.7l45.3-54.3c21.3-25.5 38.1-54.5 49.8-85.6l28.9-77.2zm27 64.7l-11 29.3c-13.6 36.2-33.1 69.8-57.8 99.4L83.2 232l49.8 0c23.5-27.6 41.7-59.2 53.7-93.4l2.5-7L164.5 88.3zm42.1-23.1l24 41.9c37.7 9.5 77.2 9.5 114.9 0l24-41.9-18 3.4c-41.9 7.9-84.9 7.9-126.8 0l-18-3.4zM411.5 88.3l-24.8 43.3 2.5 7c12.1 34.2 30.3 65.8 53.8 93.4l49.8 0-12.5-14.9c-24.7-29.7-44.3-63.3-57.8-99.4l-11-29.3zM492.8 280L443 280c-23.6 28.1-41.8 60.4-53.6 95.3l-2.1 6.1 24.2 42.4 11-29.3c13.6-36.2 33.1-69.8 57.8-99.4L492.8 280zM369.4 446.8l-22.1-38.7c-37.9-11.7-78.3-12.8-116.7-3.2l-24 41.9 18-3.4c41.9-7.9 84.9-7.9 126.8 0l18 3.4zM164.5 423.7l24.8-43.3-2.5-7c-12.1-34.2-30.3-65.8-53.7-93.4l-49.8 0 12.5 14.9c24.7 29.7 44.3 63.3 57.8 99.4l11 29.3zM193.2 280c10.1 15 18.9 30.7 26.5 47.1L246.6 280l-53.4 0zm67.9 71.4c18.1-1.5 36.3-1.2 54.3 1L288 304.4l-26.9 47zm95.5-23.7c7.6-16.6 16.4-32.5 26.5-47.7l-53.8 0 27.3 47.7zM382.8 232c-10.1-15-18.9-30.7-26.5-47.1L329.4 232l53.4 0zm-68.1-71c-17.7 1.7-35.6 1.7-53.3 0L288 207.6 314.7 161zm-94.9 23.9c-7.6 16.4-16.5 32.1-26.5 47.1l53.4 0-26.9-47.1z" />
-    </Icon>
-);
+const SpiderWeb = createIcon("spider-web", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABsQAAALWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDNQsGAAE2AiQDCAQgBYMtBzEbtgVRVE2iZD8TbJtQe7HYeBleWFHL8QDZkf9mdgN476rArCR0YkWpTr5cCz61tp8HvlvvvIKvIJExCUWsZryqVfkmDQFl3q5c332ea+rdOgD/m8HQogqkfJj5fAIHeLOu5wNpn00UZ1vO++V5ischiCjxPzFpGB22lnaQho9hizzEHfE1Nvc54RcVrCDKk8AIxXGfOgzs28f9L8OXIbz6/wrhlV4IEDqATECCBJUF0FoioLJUhlQq8GX4///1PzAjACEv2CPmpyiGi3gOehhRkTStX6xIsW7Py54udStLazuZ9GfBJr7qbazMJg68iIFSwJ41MA618F1pvLl14lGUMNTLOMl20rCNc2sFFC9pHSLDBQ9+rEQAn7VQk0mm4pKl0PBMWU1CyT2hgMPGLa83BBf/FYYwfqrBlmRSwzVHoOKRNNsTU4I0V0EB1p7ZBLw9tRhoax7ikI2xQSEk5J7k5DmvJ7y29tjonM6FTZlS1ioxu3JvVX996u7dp36tWrmPWSVG3smT4c0ZddXNhWfPRnqfO8P0XXq/1VCN3LKWbl1MtBv3LFbKXz+Xel12PY0oK7dGQ2/1bnLGew0pt2WpMtY5remDyNKjA2Df4iR+1rwqu3Tp0mu6nKm0uWs07dT1wMFzzo4se7ym7lUY+d31gezgwbPyEeWu3eAsEBA48eHxwpHFWv+an0bw9c2/7acn/z+NbeNJ5BdBIKn9f23DYnuJaFAKwKkYFsjFNwmITioCycK2RrNBQU5EeRVEopLiSBVUC3lU1UTntPZ1yUNaIFna8IKosNlINLUcqdIuIY/WnqXyKh2SFDYkoOELMmtXyexClTWoWz9rmd3mHcas1C39rTK3t/qCWlcDY00w0wzzjDfOZPOEeo4+2fmm62pJu/ihTAN11ZdpKQuX1tYBIjXHXJPn5vggrWTvJ6tbYLeugUDEWhuaE0VCLDh31uRx4+f8qB8=");
 
 export default SpiderWeb;

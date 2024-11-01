@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-pen` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-pen?s=sharp-duotone-solid comment-pen}
  * @preview ![comment-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/comment-pen.svg)
  */
-const CommentPen: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 240c0 49.6 21.3 95.1 56.9 130.8L16 480l150.4-45.1c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240zm160 96.1l7.9-55.3 85.2-85.2L300.4 243l-85.2 85.2L160 336.1zM275.7 173.1L304.8 144l47.3 47.3L323 220.4l-47.3-47.3z" />
-        <path d="M352.1 191.4L304.8 144l-29.1 29.1L323 220.4l29.1-29.1zM300.4 243l-47.3-47.3-85.2 85.2L160 336.1l55.3-7.9L300.4 243z" />
-    </Icon>
-);
+const CommentPen = createIcon("comment-pen", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABeAAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBXAsIAAE2AiQDCgQgBYMtB1IbAAXIhof/1nq7r6rnB4A6zOjiolgRS1K4QA7RzlkZVKvnf675/J4fHeA3OrSIXDdY5vMJDDTSEjyIZzoDm7Wz+4Ev9QwW6ROSDNv/MHpCEX/kcyqkm+knXJH/AYy3OjhH0iADiOYAmL525WLfVKOa4qfaC+InixAQM0ApkJHRWYBJskBnhRKFQlBNtRrVqNVKAog68uEM6lAPC7EJUIAkyUXRoFGnRg0aVZoUaxpVGu6dMnlKv5gcA5elTauijLmxNv5evorf87LRvwt/nPp1z0dTvlrww5q/5n036Ytydc+y59qYHKti1tqB/QZOjn4xpcfj5o/fd/9pz0+2+kANP/ngp5HUuGqVM/YKV/0WC/f0O+TqIHeGzXX+dteuDRpw5vb5uZR3f+sZKaxa5YMa33vy0U940Qc/+QAEgt+frZi2tdmk/+s3SuC/zz6+yT8ktWqSHqO+BII8qDbIpgQSAQBIcUaPxAMEsqEyVBq7Jp5WGiI4UqchKlknzTsUGhoIFV2NJg4Pr5RF0UBobTMgaew4ZGOchUJrz6Fikm+LdVpHtivKKqhfXfwcjcxeVw4fMqycUC6bGm0qRFqeWB7r/c7Eof64aI+jjjhlt132O6WwExZXTjtszg6d7YtKww0xTGmC8rrzyK9RxRNO2j9n71eZqHwf6efMfnJ/WEnBHeFAlokUuZUna4OPVXmwh460GVlnBAA=");
 
 export default CommentPen;

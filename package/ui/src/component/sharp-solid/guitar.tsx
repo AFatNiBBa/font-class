@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `guitar` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/guitar?s=sharp-solid guitar}
  * @preview ![guitar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/guitar.svg)
  */
-const Guitar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M376 64l-8.9 35.7-82.5 82.5c-45.1-29.4-99.3-30.2-131 1.6c-11 11-18 24.6-21.4 39.6c-3.7 16.6-19.1 30.7-36.1 31.6c-25.6 1.3-49.3 10.7-67.3 28.6C-16 328.4-7.6 409.4 47.5 464.5s136.1 63.5 180.9 18.7c17.9-17.9 27.4-41.7 28.6-67.3c.9-17 15-32.3 31.6-36.1c15-3.4 28.6-10.5 39.6-21.4c31.8-31.8 31-85.9 1.6-131l82.5-82.5L448 136l64-72L448 0 376 64zM208 256a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const Guitar = createIcon("guitar", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABZwAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBQQsGAAE2AiQDCAQgBYMtBy0bvgTInoNxmxwOIeemSYVmu1nRNvF/EdHvx/beF0ybeDNLZsmkZEIiRJqFSiiUQCkMFaPkch9wcB+IlYxKrgGVIJomXSZV6u8AXfB/Vbs//b07/2vRB3xGH20P/SAjsD3PN1hivXxS13mahVmimLnLtTIl2sdDWsqSPJ7zeDlDnVNaHxrKJ/UN8Fo/NP/Q6KPoqgCQQQDA4VNSDK4iCq8G5AdRIJBDwDQKKlQYRwE7aIJxdNOgVgu/fPwPJBAgLYQuvJqqT8AFoGEoSk13FvAYAnpqhnHLxk2NknPCHbHZVI/KE2TP5ky/FHgecr+/YzqhCs/bsN+hdDulxZuSlsQk369pptSTFuvaad2Mtdm2ePtX/1b6pu2lV16VkADLeYs2IYuTk1cFJ9LEo5lNC0v9jpI/PHyTjLZ5i8SbBPgIPmdwvr9xufhzePiz2B4HCML3EvM7TxTwz+ZRAX/+/fKdN5wWlC/QqYBQLRoWZRcYJOwLVJS0MsMXBcUOKrxrrzcB0Y2AotUtoDJGjAJq3RZQQGOSJwpodbtDk5qDGJUzQNHrGVS2tYPaqF3Q2PGYt0ZDcyTVDdR/XFaoRkIOEVcnF+JHlk1d8w05L/uT7cimlYdscRKl6tRqVqJYhWYlNoqptKgRagkhfohw5cQF4Yccd56PpyrRqEmFOrVlFX/kfmaj1Z5si5RKJNdVFYUU5kMDAA==");
 
 export default Guitar;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-wide` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-wide?s=sharp-regular face-grin-wide}
  * @preview ![face-grin-wide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-grin-wide.svg)
  */
-const FaceGrinWide: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm255.9 62.8c50.3 0 97.2-8.6 136.5-23.5C378.6 355.2 322.7 400 255.9 400s-122.7-44.8-136.5-104.6c39.3 14.9 86.2 23.5 136.5 23.5zM224 192c0 35.3-14.3 64-32 64s-32-28.7-32-64s14.3-64 32-64s32 28.7 32 64zm96 64c-17.7 0-32-28.7-32-64s14.3-64 32-64s32 28.7 32 64s-14.3 64-32 64z" />
-    </Icon>
-);
+const FaceGrinWide = createIcon("face-grin-wide", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhwAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCIgsGAAE2AiQDCAQgBYMtBzUbJwUjEbZq7imR/SMxNma99A/xRskN/RebaImH/7f7r31u1WuA1R2ZyKCUWjmIodK/JmU08QuAUlycOvU856EAvlFQxraxKCBjYmjO8wgEMDa8yypUK1hNC+Bl6O60rbZDtHIJKZIc3zg+F8jjRZxQIl1M3+J4fNP4S1NHSEoZgKgDgOFzZ072tiIqIr4pPxLfmIiAGA6FQIYMLQQYJBNoIVcglwsqolzm/8BCAFGJ/pYEclTGduwD5CAp5Xn+5s1r1q9fvVQzn1O9VG3lwS4Rtyd8Xc24LzvddKDzrfFfVT/xm653osYfIyM+TP2h+snfDX83+9dhbyd9W82U70e8nzP7j4lX+j0d9XnA81ZfzZ5zoEnEhQbnml2Kg80vNz7b9KLZ55pF1Jwhxg+0vV7n+j9tvl3zrR/e9H/N7RrV+/atXuP26/5NjM9/NLoqTR+8Gzny3YOmVY0OcdwoD5no8a1Jk4oiHb56PEnrfc0PcvDHHw8ebJ4pFpYOJd0KIfF5IBAc3Xd189Lag/6vUj2BP5//95/7Gim/TdJ1VJFAkHUqd1qUQCIAACn2tE0QSNYr0Vet4ZwAoRoCJJVUEyDTXB0BctV0FKCkld4CVFLNTJnIqwoNLC4gqWE7yPSxF+QaeABKBvnCrKRBZJZH2Q3174ufHUPQ6LWie5duxYBiGMu0MRF+PrBYFtvtkVp7OLVm65Zdq1et39UgOyY7uzePmcGjP1h079KtGFBsZ/f7c1bv2Ll+65awZGBx3mi3Z97dHpREUXtEkkSkWtc61HntjvVbOj8H");
 
 export default FaceGrinWide;

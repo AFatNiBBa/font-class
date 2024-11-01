@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bin-recycle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-recycle?s=sharp-solid bin-recycle}
  * @preview ![bin-recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bin-recycle.svg)
  */
-const BinRecycle: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 32l576 0 0 64L0 96 0 32zm32 96l512 0L512 480 64 480 32 128zm256 88c2.2 0 4.3 1.1 5.5 2.9l33.8 48.3 40.8-25.5-35.2-50.3c-10.2-14.6-27-23.3-44.8-23.3s-34.6 8.7-44.8 23.3l-35.2 50.3 40.8 25.5 33.8-48.3c1.3-1.8 3.3-2.9 5.5-2.9zM180.4 281l-34.5 49.3c-6.4 9.1-9.8 20-9.8 31.2c0 30.1 24.4 54.4 54.4 54.4l73.6 0 0-48-73.6 0c-3.5 0-6.4-2.9-6.4-6.4c0-1.3 .4-2.6 1.2-3.7l36-51.4L180.4 281zM312 416l73.6 0c30.1 0 54.4-24.4 54.4-54.4c0-11.2-3.4-22.1-9.8-31.2L395.6 281l-40.8 25.5 36 51.4c.8 1.1 1.2 2.4 1.2 3.7c0 3.5-2.9 6.4-6.4 6.4L312 368l0 48z" />
-    </Icon>
-);
+const BinRecycle = createIcon("bin-recycle", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcwAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBdgsGAAE2AiQDCAQgBYMtBzIb+ATIhofn9f6/tU+SBzCfwJishOp3wxpwNfUdO42bxksFPC5B0cbCpY1P8DnjFajYWD820Odx2oNVFN/a2Q9eEm6T9IlPMmxvGB0hj6+yaxWkh9InuCP/aPyl17UktRmAaAHAin27tjjwfXwf8XHlTeJjmxAQK0ApkCHDgACLZQIDciVyueD7qFT4P7AkgKiChyaQoxqH4XhADpIiz2trO7u764vGfG99UZc1NzWLpog95Sn3R0McvOeWziWxKFbGy2OfHb88FsSyeKB+9/JVy+/1UOd9Y+ojoi7u77qqe1Us3FNfV/9C9wP9V3WtjPmxIu5zb0ddGPlyy8v/jPjk+E88uZx4Th0+AgE6sH1lX97W7EYjFa+8Uox0o2Ft2SnLW7DlY21V//575gbTbbA9TzHLjddcvxHckZP7V7U91uImM0XKl280HQgEV3568a9HNC/+v6Y+gR/f+++fervK92l5ehk1EgiyyZXJDk3LgbEBaCnON1JZWSDZowB8a4P7BQh1CJBUqRMg069FgFydSQIUhswRoEqdXTKR1wodDusgaXAWyMx1Gch1eB0UFntfq9IRmY1RFkL98OLXSnhNUzlj6vRyYbm0NNpsiFhdVG4L48/3kQnU63hnON25jnOsk5wr0LNtMc9zmrUassaKSjNMNV1pofLYfWzf6zhnO8dJznB6qrNIeV8Z73w9fQLJCXBnGkkSkeqPPun0KWcf97YBAAAA");
 
 export default BinRecycle;

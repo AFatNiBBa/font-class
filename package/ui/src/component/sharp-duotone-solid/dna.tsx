@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dna` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dna?s=sharp-duotone-solid dna}
  * @preview ![dna](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/dna.svg)
  */
-const Dna: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 0L0 32C0 91.8 30.3 139.5 69.4 178.6c28 28 62.5 53.5 97.3 77.4c.4-.3 .9-.6 1.3-.9c5.6-3.9 11.2-7.7 16.9-11.4c.5-.3 1-.7 1.5-1c5.3-3.5 10.5-7 15.9-10.7l2.4-1.6 1.5-1c5.6-3.7 11-7.3 16.4-10.9c.5-.3 1-.7 1.5-1c-41.8-28.1-80.1-54.9-109.4-84.1c-1.8-1.8-3.5-3.6-5.2-5.4c-10.1-10.7-18.7-21.3-25.5-32l280.2 0c6.5-10.2 11.5-20.6 14.8-31.2C382.3 54.2 384 43.3 384 32L64 32 64 0 0 0zM109.4 384l229.2 0c10.1 10.7 18.6 21.3 25.5 32c6.5 10.2 11.5 20.6 14.8 31.2c3.4 10.7 5.1 21.6 5.1 32.8l0 32 64 0 0-32c0-59.8-30.3-107.5-69.4-146.6c-28-28-62.5-53.5-97.3-77.4c-.8 .6-1.7 1.1-2.5 1.7c-5.3 3.6-10.6 7.2-15.9 10.8c-.8 .6-1.6 1.1-2.5 1.7c-5.6 3.8-11.3 7.5-17.1 11.4l-1.5 1-1.9 1.3c-.7 .5-1.4 .9-2.1 1.4c-4.6 3.1-9.2 6.2-13.8 9.2c20.9 14 40.8 27.7 59.3 41.5l-118.5 0c-19.5 14.7-36.7 29.1-51 43.5c-1.3 1.3-2.6 2.7-3.9 4c-.2 .2-.3 .3-.5 .5z" />
-        <path d="M448 32l0-32L384 0l0 32c0 34.2-15.9 65-45.4 96l-229.2 0c15.2 15.9 33.8 31.8 55.4 48l118.5 0c-23.6 17.7-49.7 35.2-77 53.4l-1.6 1s0 0 0 0s0 0 0 0c-46.9 31.2-97.1 64.7-135.3 102.9C30.3 372.5 0 420.2 0 480l0 32 64 0 0-32 320 0c0-22.6-7-43.6-19.9-64L83.9 416c8-12.5 18.3-24.9 30.7-37.4c33.3-33.3 78.4-63.5 127.1-96l1.6-1s0 0 0 0c46.9-31.2 97.1-64.7 135.3-102.9C417.7 139.5 448 91.8 448 32z" />
-    </Icon>
-);
+const Dna = createIcon("dna", true, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABrAAAALFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDLAsIAAE2AiQDCgQgBYMtB0IbwAXIPhSYYzgLTP8znIwGOtrqKxZ7Qi/zLfwXQ3nZeB6wq3q/qkbVvXTtRAvgZGcaRGdnADs7OTIjRkMwu4ssjNrKeyB4GIMrXgcbaKIBBxv8FhmxZAYbcIGNC0kCw40xZfeuAQR8/mcIgHojsAArm/9rPr+0a8AP4He3aovWSIrI5xPY82prL+B7ExjZeCK2wXmTDzgUh/QrVLmvHNZFcVvxDq5xkspvphmm0FcCyFgAbHvw/nvqfO3X5Z1L3rEHAtkOaAQlvNdMAZuUgpkqDSqV8HUxcr4O/+dLAqQb4t4l6EYXXkAHUIFCFFW1Xb9W16jqIH5jfbJSR+7dVOeB9a08v25iBgRfJTw/7/5FD8+UITIZlbagnTsWfnxwJ457aeNLCx9a+ticUty1+JH5r+z53oJ9UwZaAwk1JVMSBnJF3luToWZUY/EtaSepD426ddMkqLfr/LuXPLrg1b0+L3fjxBsT+8SBmnsnZmI6+OWJe2B+nfvncfNAhr9O/4NjH/zDJ53X7smm2UYjr/zYyT0XMf8DsLbmf/ZF2W5so7GN/pvqybnLdmtp1Wl8dTt/zRfPCy4cNlxw4VwMX6D4f/x1D+7ee8YdYj3j0h99viMy+bHKjW+TjLX/CSErtttlrCROOOE749MdAQIE4aOd982mv4kCfPvik/2ORrLTg+hVgFAuGtER6UA6AgAochH90QFB6WwFX6ptNwuIGgGFbrWA0gxjBVRqCwV0mW21gG61/ZVS9YmJjqxAoe1cUFrjYlCZ6CnQZZPX/d0mRnn/yu8++d9jmp2a0I6jmlmyrNnQjBYUiltS1IMbm8WWuog3zIcHneRsZ7nAiU5wqgsa3Hn2DF3oTDtNETv6oMZySyzT2KDZXL6rOahhPc/5XBxWbR9mo+Z41zwXTbefD8dTAFac+Y0lKVK2TrhjF38F2lGV6mEHAA==");
 
 export default Dna;

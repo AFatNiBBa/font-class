@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vector-square` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vector-square?s=sharp-duotone-solid vector-square}
  * @preview ![vector-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/vector-square.svg)
  */
-const VectorSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 160l16 0 32 0 16 0 0 192-16 0-32 0-16 0 0-192zm96-96l192 0 0 16 0 32 0 16-192 0 0-16 0-32 0-16zm0 320l192 0 0 16 0 32 0 16-192 0 0-16 0-32 0-16zM352 160l16 0 32 0 16 0 0 192-16 0-32 0-16 0 0-192z" />
-        <path d="M400 80l0 32-32 0 0-32 32 0zM368 32l-48 0 0 48 0 32 0 48 48 0 32 0 48 0 0-48 0-32 0-48-48 0-32 0zM48 400l32 0 0 32-32 0 0-32zM0 352l0 48 0 32 0 48 48 0 32 0 48 0 0-48 0-32 0-48-48 0-32 0L0 352zm368 48l32 0 0 32-32 0 0-32zm-48-48l0 48 0 32 0 48 48 0 32 0 48 0 0-48 0-32 0-48-48 0-32 0-48 0zM48 80l32 0 0 32-32 0 0-32zM0 32L0 80l0 32 0 48 48 0 32 0 48 0 0-48 0-32 0-48L80 32 48 32 0 32z" />
-    </Icon>
-);
+const VectorSquare = createIcon("vector-square", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABmgAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCDEwsIAAE2AiQDCgQgBYMtB1YbuwXIhuD5OfReklJSGvFf1YBYEYGbq68bCIOO1FTcUPiCHKrpTFzu/N+ftk/xt3+EOVrbN0Z7nycQaDYx36AJdJlmYFk7e8KgdBsSekiGzQ+bCxTxKu/XQvYi+4GB8D+A8csk/WQ6cgDRC4DNRw7sUg/FUBY/mo/EDzsREFtAEsiRY6oA6+QCUxUSCoVgKGsahqJpEgFEK7wyB63oxku8AxQg064oio4xHaOMaPJVS1dx2B0trwhlRFQLyqoUiqiqiA/Li1VZiTJig8ByO8ftMngiU8aRVBai9FOzxj+ytrvvbe/bPzN/XP5h4E4CS5KaRdWSRRbtjZNnBp1W2IyFws707DFjRm/vplrvovrMmRo1vZJeNT11UxMfHFy8HggEV3fv/XimZ93/9ioDI5/+/VQ/JM1Q1NlbtMtAkM9r5jkZNUQtAABZPNYXNZJA7rp2eNdOTwUIJQJkWpUC5KboFaBQmitAi+mWC9CqdEAuig5hrFOFzHS6R+ZWeEIWxvpAtljnc7HV2MhFVhU49ceYtaMGtm9LixcsSmvSsC1rUij79bVpOzTrsRubTQdddsdtD11y0TUPK/i+XZVHbtkxg7b7omSxBRZJ1kjHvXvrsC7e98A13jjfZK10PzfL4/ns2RTNgHeJ87mcyCIf9/jShYd37s8XfW/+858ygTGeOgAA");
 
 export default VectorSquare;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `i-cursor` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/i-cursor?s=sharp-regular i-cursor}
  * @preview ![i-cursor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/i-cursor.svg)
  */
-const ICursor: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M128 48C106.1 18.9 71.3 0 32 0L16 0l0 48 16 0c39.8 0 72 32.2 72 72l0 112-40 0-24 0 0 48 24 0 40 0 0 112c0 39.8-32.2 72-72 72l-16 0 0 48 16 0c39.3 0 74.1-18.8 96-48c21.9 29.1 56.7 48 96 48l16 0 0-48-16 0c-39.8 0-72-32.2-72-72l0-112 40 0 24 0 0-48-24 0-40 0 0-112c0-39.8 32.2-72 72-72l16 0 0-48L224 0c-39.3 0-74.1 18.8-96 48z" />
-    </Icon>
-);
+const ICursor = createIcon("i-cursor", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABYQAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBTQsGAAE2AiQDCAQgBYMtBy8bzATIjsQ4JvGLKEzi4UNXez/J3hzZE1SCu3ZiPVRe46WIN8UOLUNJvRXyPv3N18Z5FOADkeY4D2SB720JxF3e5XkJlH2wb/oF7Fs7u+UNH/0m8YlPMkz6YeOELMbHFSWSG8lvXE4fGn+1c4lEKQUQTQEwdfXyhd5XohLxq/qE+GU+AmIqKARSpOgowASpQEeZAplMUIlqlf4DCwKIGvKcBGRIsRBLARlIRJbNLJfqs1XlUr7+7aw8RDlu973fTuS5KJfF9T73eoyOv01+M7McEXnc6fegfUS5gXI7bvV/2Bv3fJ7Q7UHTB//83vXb2csDPzQ1RFOV4cMbjujTdoi2fY5oYKmCiR8GmteBQHCs4+nzmxsn/K8tJ+DPy/PPqGn1fQxLHqBWAoJ0QHWADXFKU01jmAAAJHFKt6CpQGKmhLy1zlUBQo4AiRq5AKkOmgqQyfUXoKSzkQLUyC2XiqyJ0NLGChJ1joLUKKdBpqVHoGSCb2aNlpG6E+UM1GsufpZGZy4VQwcNKcYVU1ehPYTg9vhiWe9zKqT64tAuhx1ywk477HVC4ccsdE46aJaFzfRFhaEGGaIwTrEd3O+vstMxx+112KE4Z7zivNHHKbu4L7ZJAMMuYlVCJLV7B/4wAQAAAA==");
 
 export default ICursor;

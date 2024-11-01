@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `creative-commons-sampling-plus` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/creative-commons-sampling-plus?s=brands creative-commons-sampling-plus}
  * @preview ![creative-commons-sampling-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/creative-commons-sampling-plus.svg)
  */
-const CreativeCommonsSamplingPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 496 512" {...x}>
-        <path d="M247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3zm107 205.6c-4.7 0-9 2.8-10.7 7.2l-4 9.5-11-92.8c-1.7-13.9-22-13.4-23.1.4l-4.3 51.4-5.2-68.8c-1.1-14.3-22.1-14.2-23.2 0l-3.5 44.9-5.9-94.3c-.9-14.5-22.3-14.4-23.2 0l-5.1 83.7-4.3-66.3c-.9-14.4-22.2-14.4-23.2 0l-5.3 80.2-4.1-57c-1.1-14.3-22-14.3-23.2-.2l-7.7 89.8-1.8-12.2c-1.7-11.4-17.1-13.6-22-3.3l-13.2 27.7H87.5v23.2h51.3c4.4 0 8.4-2.5 10.4-6.4l10.7 73.1c2 13.5 21.9 13 23.1-.7l3.8-43.6 5.7 78.3c1.1 14.4 22.3 14.2 23.2-.1l4.6-70.4 4.8 73.3c.9 14.4 22.3 14.4 23.2-.1l4.9-80.5 4.5 71.8c.9 14.3 22.1 14.5 23.2.2l4.6-58.6 4.9 64.4c1.1 14.3 22 14.2 23.1.1l6.8-83 2.7 22.3c1.4 11.8 17.7 14.1 22.3 3.1l18-43.4h50.5V258l-58.4.3zm-78 5.2h-21.9v21.9c0 4.1-3.3 7.5-7.5 7.5-4.1 0-7.5-3.3-7.5-7.5v-21.9h-21.9c-4.1 0-7.5-3.3-7.5-7.5 0-4.1 3.4-7.5 7.5-7.5h21.9v-21.9c0-4.1 3.4-7.5 7.5-7.5s7.5 3.3 7.5 7.5v21.9h21.9c4.1 0 7.5 3.3 7.5 7.5 0 4.1-3.4 7.5-7.5 7.5z" />
-    </Icon>
-);
+const CreativeCommonsSamplingPlus = createIcon("creative-commons-sampling-plus", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABuAAAAMJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDbgsGAAE2AiQDCAQgBYMtB0UbAwbILgbsxuUDiRlbG0aDxqLfGHhK5jEoY/D/3xp638zf3QDAJFwAAocgbB1rxuN7agllCJDlPMb2e6jlEAYcmqBwaF4YwJltp3CoClVVV1tVixtcsEg4P9mgI00rDpsP+x9ze38bolo1FBFva3Fct5AJkcSR1CqhkIkkQu37xDX1k6O9beDToUQHtY86zicwwU2jgAZcOJsobnDehEMMbQjpPwHTDWrEwF1hFuBU9KH6DDqKI/IAACgHAAAYtJgyjjsf+qHQi3/oBQIIQIMBEAjwgAcqCIC+PAIqGAEYhuAjfT7sP7AOAYBiktdyABgQAy8AfgCAAeAws8r8zc2MKNOmK6K0Oc8a6WUsRNd6j+SquOm+6rv0uv9O3BrnAT40SW+6z9a19+7cB6/2rd87bzSqTxflZfQiwOhxjn1diNYCRXbz7g6r5ELpOmbphS4oyrBHSNsgE5BvDJQeYppYIlJISpsqT09D541TUdFF80yx5D9k2TY9aDetPpv/qnbx1a/1AfeaYSM2/vPf1Khedv92EENs3BUnMMzg318QjKDdMrwb7DYpNHU87zETcfvAJE0XhD6tPvDhCWlz0SolKxvMhqJsL2dfbB7K0vIy68APbvWhOmqgp9LUcckI6ZRsNj2+mWJdJA1pxat8b6Jx9tQNwedgI6vWhI2YJ0cZwBpaR200Kg4wUaJLoc88VpiUiBfySakqsjAeJ/EiyVgVF1EoecRCACBAkPceBKvsvn9lHACflr/w7pahP+YKpOAAEPi2LW5u6AcA0gwBQNVpO2p3vkiA4wGEJJPBxbt1kQa95IhJkzzlciQjjTZSRJVuJ8SkMYVHloooME8vOTLYJHm62ycZBW5IEX09rsQUhFjzbTad5q/LHMPH8LBtYdy+Y+gdNttai5E16vU+4XSgv52PtYJ7WW6D9bZaZqlVto6YzcbVt1ln+B42zA8FnbTXUdBbuN177piOVZttsYpv/f1N+gjvZ5pt35/dCoYdic7OmhwO5Ko8iLudtQ9vafebTnHV+hXtPAoA");
 
 export default CreativeCommonsSamplingPlus;

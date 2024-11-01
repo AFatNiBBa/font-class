@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `door-open` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/door-open?s=sharp-regular door-open}
  * @preview ![door-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/door-open.svg)
  */
-const DoorOpen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 0L272 12 64 64l0 400-40 0L0 464l0 48 24 0 40 0 32 0 16 0 160 0 48 0 0-48 0-414.5L320 0zM272 61.5L272 464l-160 0 0-362.5 160-40zM224 288c13.2 0 24-14.4 24-32s-10.8-32-24-32s-24 14.4-24 32s10.7 32 24 32zM352 112l112 0 0 376 0 24 24 0 64 0 24 0 0-48-24 0-40 0 0-376 0-24-24 0L352 64l0 48z" />
-    </Icon>
-);
+const DoorOpen = createIcon("door-open", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZAAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBUgsGAAE2AiQDCAQgBYMtBzAb0gTIHomxLYr9iigMH0XEw//P/ec+N3lvzU+GIUNEChkKrIFd2bFwQLarsgor5L1qn+f/XLp4Phrg5xEMLdIqQSJxdFnPT+DEwqLphKLAJopn3nLGeqTcdzLRJD1+0+PXAfL4IR6qkV5M3+NB/9H4QwdXSWoZgGgOgOkrliz25a/xa8R3/yO+sxABMR1UAhkydBZgkkygs1yFXC74Nf7/X/8DKwKIOn5cAjnqWISlgBwkeZ63amjVpqw1yZeXtWLHqLGjlkaKohBlk4gsYlrKUhFZrFh6p13E83Gp7XPF7dZPXWzzrFxRFmUKUZYRRZEFVujxZvM3//T99u9N/eJvbHCkh/q1H6Z9v2FeM+Lfx9zgDbu93nfob8VOdjZtunNnYYxaF947yMJJ7bVfuU0LdPN2EAjuTTy2cUOzSX81KhP4/ePJ1f9/maalN9FIAkE26P9B1qZpoMQAghTH9QgqFkhmyYH32thzAoQCAZK6QoBMJ80FyBUGClDT1WgB6gpLZCJvEFpbN0DS2CGQGeMcyLX2EaiZ5KugrnVkGcXkA/OfS5zj0dmLquFDhlUTqmWNsUlC1dmJ1bbc73jp6Y+1tjtgv6O22WqXow4/bHF8zD5zImy2ClWGG2KYygTVcfN5+XLbHHbELgfsb/NMVN33+zkeD+8PLSHpCKUkEanh4UmDcw0AAA==");
 
 export default DoorOpen;

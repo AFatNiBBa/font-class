@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `angles-up-down` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angles-up-down?s=sharp-solid angles-up-down}
  * @preview ![angles-up-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/angles-up-down.svg)
  */
-const AnglesUpDown: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M243.2 14.4L224 0 204.8 14.4l-160 120L19.2 153.6l38.4 51.2 25.6-19.2L224 80 364.8 185.6l25.6 19.2 38.4-51.2-25.6-19.2-160-120zm0 483.2l160-120 25.6-19.2-38.4-51.2-25.6 19.2L224 432 83.2 326.4 57.6 307.2 19.2 358.4l25.6 19.2 160 120L224 512l19.2-14.4z" />
-    </Icon>
-);
+const AnglesUpDown = createIcon("angles-up-down", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABWwAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBMgsGAAE2AiQDCAQgBYMtBzUbtwTIngPuziIMWqJCGY0UeTwX+YeTFyGC7/f77TnvIiYdklqzqMkbkfRLQZolhpYpRRuNUDia0/siqrorMLqoAsLAAQlXOfKxEyZuyMPn7b+JTXe33TTyhLMUgyDJaGBR/LM9BGLq1PNMCwXwPeJBGwuXBmSBz3m+wQo8lnZjrdfzgNUqijV3daVWNPaTtMiSPD7i8XSFEi/VszryJf/xEBcVv4Y8k5oqAIjOAADbJ2UKmGWFv/+HeLcPBMR2ACYRVFg/ioA1bKGvwDEJFEXwIZP/AxEEEPUgL01QULAC7ABQQMrC0VQxV8qp+Y+L2qObDKTCIsuursoqz6ZW6nvdLseiosYmw6rKyNzoaP/P/v3dTqyFj5qzK49ur4n66MrZa+2HcYH993ByAggEb0/UaV+e+BvFLICv95Of6/lnXEmjUYKgmk6HTjAJp54LxMq4Dh2+iCDNYMFSWz0KEJoRINVrFqAyQoGAotkUAuqMCyKgXrMDbFGEEHp1K0itbkBlwQ0oen2COmu+zHq9wb5B3Plz/7fkkoaKq3BzeTCGQ1fhLwUT2nGcVuY1paw4CTN7O5emJpYuFXlCOVe2ShZR9EPIy8UDxeBycHu4ZurkwtLejrvE4X7D4toutkJnEdoZZ6QkUjY85pvphfM8OB8WAAA=");
 
 export default AnglesUpDown;

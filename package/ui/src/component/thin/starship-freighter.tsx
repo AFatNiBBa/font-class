@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `starship-freighter` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starship-freighter?s=thin starship-freighter}
  * @preview ![starship-freighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/starship-freighter.svg)
  */
-const StarshipFreighter: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M381.4 391.9l-69.3-97.8c5.1-11.7 7.9-24.6 7.9-38.1c0-53-43-96-96-96s-96 43-96 96s43 96 96 96c3.7 0 7.4-.2 11.1-.6l68.6 96.8C279.1 458.4 252.2 464 224 464C109.1 464 16 370.9 16 256S109.1 48 224 48c112.6 0 204.4 89.5 207.9 201.3c.1 2.2 .1 4.5 .1 6.7c0 2.6 0 5.3-.1 7.9c-1.8 48.9-20.5 93.4-50.4 128zm47 16.3c-1.5-.1-3-.2-4.5-.2l-31.2 0-1.9-2.6c28.8-32.1 48.4-72.6 54.8-117.4l1.7 0 96.6 0c8.8 0 16 7.2 16 16l0 42.1c0 6.6-4.1 12.5-10.2 14.9L428.5 408.2zm22.8 8.3l104.3-40.6c12.3-4.8 20.4-16.6 20.4-29.8l0-42.1c0-17.7-14.3-32-32-32l-80.5 0-16 0c.4-5.3 .6-10.6 .6-16c0-5.3-.2-10.6-.6-15.8l0-.2 16 0 80.5 0c17.7 0 32-14.3 32-32l0-42.1c0-13.2-8.1-25-20.4-29.8L347.6 55.2C308.2 39.9 266.3 32 224 32C100.3 32 0 132.3 0 256S100.3 480 224 480c31.5 0 62.8-4.4 93-12.9l11.8 16.7c9 12.7 23.6 20.3 39.2 20.3l56 0c26.5 0 48-21.5 48-48c0-16.4-8.2-30.8-20.7-39.5zM447.4 224l-1.7 0c-8.6-60.3-41.3-112.9-88-147.7L549.8 151c6.2 2.4 10.2 8.3 10.2 14.9l0 42.1c0 8.8-7.2 16-16 16l-96.6 0zM80 272a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48-112a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM112 368a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm32-112a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zM341.9 474.5L252.4 347.7c21.2-6.6 39.2-20.2 51.3-38.3L384.6 424l39.4 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-56 0c-10.4 0-20.1-5.1-26.1-13.5z" />
-    </Icon>
-);
+const StarshipFreighter = createIcon("starship-freighter", false, "data:font/woff2;base64,d09GMgABAAAAAANwAAoAAAAABxwAAAMlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSDdQsGAAE2AiQDCAQgBYMtBzkb/gXIngVO2RR/GIw210Iri8EY7r5uIgTxpXvdd9I3nMwgE2MYoDVUCZfA1GdSlCYg1taiWhJeITKEBIlIqqLTxT6lz568Wtf0+Y7fn+8mJbr9ur6+6gglZvZVuVmhmA0SUqvvj3t3/le4AR8XYB7K2APXGOcJBDyWjgmUBlwECXmL226GmIa2EwpnYIa+4eSAOqrnIA5V2+ULge2IYkSIQYogl6phTxu3PyGJCT0fieJ89EAA0gPAJsAglocRAKUMMjyDyQYmk+B3KAjIfyAQAEic+DYFwAQWeAXxH5ryt3Jco2ZyudTbNX5P94CMw93stxx6Wn9f/zm5mNzMHyfWw0pJjbxEoBGu6Y/d1/5Xz23Uo+vSF2eMXrvavVpLQOjeKLp1wh/Jxs+gGWUYNRAKsiUgrbU+VbGAWNa+wIw8cDbeBE/1VeM6s2/XsgZN93WJAoGciaMLkYWKZTRLX0zvFhvhBDfF0CafCkwHVM6Uv5lx+xqD3lMpWRUtwouF8+JlhNGUPH0zxQiW7PNPMWYntZa9Acphr+Y/9zP3hNu1tiR2iZ/L8HA8LuWUKpdUWTuZjvoo6KQQkkcND+f2y+lThD7TMMXxze9/4cKRfFyi1ciU3x41era6NcqbwI5INJN5rHezurycXVycwWsweGEys/LQiW7oPsOxu29Y+Td3McnvjP8lz+MO8nt7gU+WRW5LSBZMn5F8q9kxejKPzym+jN8eJV+RMvzCzlx4NS2J9DNmrVgxy63wP/hqjSZJOqUfIuF9fvAbhbwuACBA0LM5GRt5lv5T6AqAv5d/Vw+P3OG6ahi4UAAERiPAjA9XAghmAUBQhVYSvfFFApRHqGKXm5NXw0KjA8WJBkMoLzBpKeAQIY9/cHMPg0RdEX4mdKC4WQKGfBvA5OcqOJR6FHDiFzJAXAigwj/MZPVDpG6RnZWeaRfbqzWNCGr5drbEPqxLXCl7kvBBZlpkoeVmmG6O5QPGUm3hFRao32Kv+6wtS7pMtmL25ebT3f1mWGqZORZZGMxTwn7elWjl9vAkbFRijtkKFAUJ+/hB/mfkSJsZ8o/6GUsBAA==");
 
 export default StarshipFreighter;

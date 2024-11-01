@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ditto` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ditto?s=sharp-light ditto}
  * @preview ![ditto](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ditto.svg)
  */
-const Ditto: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M58.9 256L32 101.2 32 64l64 0 0 37.2L69.1 256l-10.2 0zM128 32L96 32 32 32 0 32 0 64l0 40L32 288l64 0 32-184 0-40 0-32zM250.9 256L224 101.2 224 64l64 0 0 37.2L261.1 256l-10.2 0zM320 32l-32 0-64 0-32 0 0 32 0 40 32 184 64 0 32-184 0-40 0-32z" />
-    </Icon>
-);
+const Ditto = createIcon("ditto", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABWgAAAHMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBTQsGAAE2AiQDCAQgBYMtBywbyQTIHoPjbgkFuVwRbYjhXh8mK6Ln731nz7upxTpWqtQKSAUORr9IrAIGJBiQgDeNQPyPcfX+EnH9F8ZBCVaDWtp6c/2aUwXzdYAu+L+pm+edRwE+iNTGP8/H5GjO80DXeb5snSeSBRZQ4glYu7MpRov2SRplSY5LOz4HtEwmBDH1Uq/godw0fwxuKK0DQCYBAMe3gwO4j8Lr/x351AcCOQEsI3ToMI/AHqFgnsgyaJrwzYd/IEOA9IPPKtDQjzNwC6CB0ppIrfeCsk8tGklrFaM3wyNESkKuohgdVioQuR7gaDj7sLLgaOve3uyvK68ofBhfyeBW41aXMHz2xXzBfGzvOIqNV3Dva+M9gCBc9Na/Z7WlP5lSAPj148t9QzmqNgYVCN3Gf8hUToAcIQBA5YQjRyAoe0T4qqMeBcQwAkq/YQGdOToEmmHrCPRZlEag37BLQmlyxKzpDsqoe9DZdQqaWbegz54Hqd9sOnMijYH8zcV1SqSjj+ORGBd4aWmUheBULfI29J1gxA+zWLFrx5FlS9YdCezAgHpsW6eGdngQi4uIYQV87D6Pj1h24NC6XTu5ThHf531O9HQ/DCEAbD4EjqaUeOnu6GgXAAA=");
 
 export default Ditto;

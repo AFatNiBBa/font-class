@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-this-way-up` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-this-way-up?s=sharp-thin square-this-way-up}
  * @preview ![square-this-way-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-this-way-up.svg)
  */
-const SquareThisWayUp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 48l0 416 416 0 0-416L16 48zM0 32l16 0 416 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zM352 384l0 16L96 400l0-16 256 0zM128 116.7l5.7 5.7 64 64 5.7 5.7L192 203.3l-5.7-5.7L136 147.3 136 312l0 8-16 0 0-8 0-164.7L69.7 197.7 64 203.3 52.7 192l5.7-5.7 64-64 5.7-5.7zm192 0l5.7 5.7 64 64 5.7 5.7L384 203.3l-5.7-5.7L328 147.3 328 312l0 8-16 0 0-8 0-164.7-50.3 50.3-5.7 5.7L244.7 192l5.7-5.7 64-64 5.7-5.7z" />
-    </Icon>
-);
+const SquareThisWayUp = createIcon("square-this-way-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABeAAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCGwsGAAE2AiQDCAQgBYMtBzkbJAXIngemmztp40gmeYSn1H4MJx8YxfN8e3P3zcy2v5vWKFUSRVNd47rcg8QRhZFxFIeOQqP+wYLwKTYa/X3+95v34pbfIbnlT1Nt+NTbSlOrC4U2q4EuqmV+1xBm7f7n/3LP7/nRAX7/4oc2Nq0JMiavWft5AoFGvfM8oajAMk3AetsQqUZUvogQQYloPB2vB7RcGVFSfpRw3D80lw5cQlErALIOAF5+qBexPMtZ8j8I+esVCOQl4BaiouIagifkgmsUboGmCWcZhvwfeAsCZAx6swIaJjgCXwA0UIyaQmud3b2rHxkVrflI1y9VZqScBte8MyKFSGcg5eQYLUIaezsuZzU72c5uXkekI0lWhLmXN+PAuX77zqeT3f5X1o5/Ii/Bg/Ul9yzir2kulxaCgHU47d6ur+BTg80LjXUagG0aPklWB/b68wBBuPvny6X5yf/pXAa4+P0l/IwMZ+nLCZgqINTD4dAgPaQXAEDJIXd6BMUnSviqC18RRIeAYqwTUF1lQdB07iEYuSGJYKzzhlyaFrFtuEGxcASqxy5As+0LjDzx7Y9tp0YdFTPUpy++wBHpmoiGIiIn1MaiA4mo53lxLHkOy8ILq5jYsmnf2MjcPsN2FaMDGwoWKvkiISokQsgR1/3yfsvYrj1zWzbbJXnivedxaO/2gipDuPcVikKKzXOFoOPmg0cfT4IHnwEAAA==");
 
 export default SquareThisWayUp;

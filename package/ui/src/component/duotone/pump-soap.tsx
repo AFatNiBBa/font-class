@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pump-soap` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pump-soap?s=duotone pump-soap}
  * @preview ![pump-soap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/pump-soap.svg)
  */
-const PumpSoap: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M35 442.7C31.9 480 61.3 512 98.8 512l186.4 0c35.6 0 64-29 64-63.9c0-1.8-.1-3.6-.2-5.4l-18.7-224c-2.8-33.2-30.5-58.7-63.8-58.7L256 160l-128 0-10.6 0c-33.3 0-61 25.5-63.8 58.7L35 442.7zM128 360c0-32.5 37-80.9 50.9-97.9c3.2-3.9 8.1-6.1 13.1-6.1s9.9 2.2 13.1 6.1C219 279.1 256 327.5 256 360c0 35.3-28.7 56-64 56s-64-20.7-64-56z" />
-        <path d="M128 32c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l60.1 0c21.2 0 41.6 8.4 56.6 23.4l33.9 33.9c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-33.9-33.9c-3-3-7.1-4.7-11.3-4.7L256 96l0 64-128 0 0-128zM256 360c0 35.3-28.7 56-64 56s-64-20.7-64-56c0-32.5 37-80.9 50.9-97.9c3.2-3.9 8.1-6.1 13.1-6.1s9.9 2.2 13.1 6.1C219 279.1 256 327.5 256 360z" />
-    </Icon>
-);
+const PumpSoap = createIcon("pump-soap", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkAAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCMQsIAAE2AiQDCgQgBYMtB04bUQURlZq5yH4mZHjJPFG27CSCg3w3K/zdTfmLRqWKV+Lha6y9v7unuE4nkfEatHoj0yiZxPQL3SrieeEffn//rf2ez/2goqT2uxtRjRHTuDnVqZB5o80hIXGE8pGJVcjQVrfsPv+Xe3626QA/gN9Yo0DaGM75PIGeT+yssSwNJKFMM7AWt90UMQmJLzSuUOKJfR0n0qPtHzxE/wMYryKtQ+LNAIhpADge6Gnjx0CDFP/qR0RPKwgQJ4BtggwZ1gnYYydY55AAhYMwSLUSg6gVCEA0ieBMb5JzLsEVgAIksa840pbiwi2nr6NfZ5iRlXDpyLK0F3oAfyqzTAcsh+yb3bByHRoj1JWGjlOk+3lt2mPUWfaL8LO02J/5LLLgOFN6lmrpyYKtlTTq1+l2fZox9yn3Eb3lsQVJescpl49Keh7w/L9/k/8sXfltw71fJTUl9pVKPBV2fH13jsXbjwPJbZWqZJnlpQYTi8216LhYE7me87XO46n7mhMTScp6Esy9fPI2MDDaboPZPpFb8cvW3jKWIgfWaPfRBZCeiX3gdYCAQO+r4nLCv/TfY9kAo+fP9Q9J/aEn23PQZgMCeafmGNUPiRLiGgEApJgnKX5YJpEgK2OTfOq4QwQEAwEkLoaALFoAAYWRTUBDnDwCmowe7FS8SIixHtj4mAJ2+RaAQ4gPwKnUz4JLSNghkIMf7gcwGbsxZFchi1NobDa0PFAxdtHgtK1+OeDhTNI77F6d1uQdkbe8/Nm4PcL6IsjEUqDhdvu5XIwKt8e0Lt5fxsD7eeXfH+/h9TDA7rc7mIlEuTi/7Yyeoyr4sDwgZ2KoBQAAAA==");
 
 export default PumpSoap;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wrench` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wrench?s=sharp-regular wrench}
  * @preview ![wrench](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/wrench.svg)
  */
-const Wrench: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M322.3 268l-26.9-7.4-19.7 19.7L112 444.1 67.9 400 231.6 236.3l19.7-19.7L244 189.7c-2.6-9.4-4-19.3-4-29.7c0-60.5 48-109.9 108-111.9l-30 30L304 92.1l0 19.9 0 48 0 48 48 0 48 0 19.9 0 14.1-14.1 30-30c-2.1 60-51.4 108-111.9 108c-10.3 0-20.3-1.4-29.7-4zM112 512l33.9-33.9L309.7 314.3c13.5 3.7 27.7 5.7 42.3 5.7c88.4 0 160-71.6 160-160c0-13.5-1.7-26.7-4.9-39.3c-4.3-17-11.3-33-20.6-47.3l-35.1 35.1L400 160l-48 0 0-48 51.5-51.5 35.1-35.1c-14.4-9.3-30.3-16.3-47.3-20.6C378.7 1.7 365.5 0 352 0C263.6 0 192 71.6 192 160c0 14.7 2 28.9 5.7 42.3L33.9 366.1 0 400l33.9 33.9 44.1 44.1L112 512zm8-97.4L142.6 392 120 369.4 97.4 392 120 414.6z" />
-    </Icon>
-);
+const Wrench = createIcon("wrench", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABeQAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCFwsGAAE2AiQDCAQgBYMtBy0bFAXIHge5afSO6R+FXUQQrUVWz+7dA9A+AJF7BcAJy3cJK0QVdkT6CjAw32tD5v9cz2dNA/xGQ6qg0tkokvZG64t8fgInWuUnFAV2pidgtzttaxyKfdKSkKTfseNzhjxejYtKpFvpQ1xIHxq/auYUSSkDEHUBMHbx/Jne+iF+iPigMvGB6QiIsaAQyJChpQAjZAIt5QrkcsEPUan4/8CCAKJM4OT1c5SwA8cAOUiyPO/Ru1qNUq18UY1S9fWdOnbqEgtiVCyO7tE8rseD7i8P7hINQwhRo0aT6B53u7ww4HTjBaNHjF4cz9b4ZvSbize/3XxEzInqETE/RsdznZ6r/uWI1xZotiBGxEjec3H3Lt27RZfo2u6lui/93oebPjT26XOQaOfJE6/m5e1sM7Ju7T+++/xb32qoDyoTNN3z9z9+qPPzZ//WI3pn1cDG4+PDD2N8w3FLv+qnvWOKvfJah4bDRY3nP3minnpeVa/Kmk2k4ItBIFj89y9vr64z4v+qNRL46RXoZ6TyVpJeQlUJBFmPSg8rEkgEACDFIe0SBJINMnitNV0XIFRHgKSsugCZFuoKkKuuuwAlrQ0UoKy6+TKRVxMaWqkgqWkvyAxyEuQaegpKRnjHKWsYmc1xFsN9+ZIntdDEeUXfXn2KYcU0V3kzYuL08GJb63IodHWFhTbZbZcDNtpgqwMNuc9M/6CdJq2Iib6o0FcvfRSGKY6re3kROfvst3Usns8yXHHf6uLQenBXMBOh7EdNT5BJ5cP7Nu5avwU=");
 
 export default Wrench;

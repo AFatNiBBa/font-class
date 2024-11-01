@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-ring` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-ring?s=duotone bell-ring}
  * @preview ![bell-ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bell-ring.svg)
  */
-const BellRing: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 384c0 4.4 .9 8.9 2.8 13.1C40 408.6 51.4 416 64 416l384 0c12.6 0 24-7.4 29.2-18.9c1.9-4.2 2.8-8.7 2.8-13.1c0-7.7-2.8-15.3-8.1-21.3l-7.4-8.3C433.3 319.2 416 273.9 416 226.8l0-18.8c0-77.4-55-142-128-156.8L288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 19.2C151 66 96 130.6 96 208l0 18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-5.3 6-8.1 13.6-8.1 21.3z" />
-        <path d="M113.4 15.4c9.1 9.6 8.8 24.8-.8 33.9C72.8 87.3 48 140.7 48 200c0 13.3-10.7 24-24 24s-24-10.7-24-24C0 127.1 30.5 61.2 79.4 14.6c9.6-9.1 24.8-8.8 33.9 .8zM320 448c0 17-6.7 33.3-18.7 45.3s-28.3 18.7-45.3 18.7s-33.3-6.7-45.3-18.7s-18.7-28.3-18.7-45.3l64 0 64 0zM399.4 49.4c-9.6-9.1-10-24.3-.8-33.9s24.3-10 33.9-.8C481.5 61.2 512 127.1 512 200c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-59.3-24.8-112.7-64.6-150.6z" />
-    </Icon>
-);
+const BellRing = createIcon("bell-ring", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABhwAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCAwsIAAE2AiQDCgQgBYMtB04bIwXIFkrLw/N15Z/7qrqT1EzoiqUvYWusIOxB9dSp57FNAXyjoO2hAVngc55HIIC9WLxAY3IrVKKacN82tBlIL6JhKSH9huI41aFzhDzezc5RId2YXsfl9D+A8Y32ziFplAGIZgCYtmbFIk9/GB+meL32CPG6hQiI6aAUyJChkwATZQKd5ErkcsGHqVbjw6jVSgKIKoIzWhXfZgcOAnKQZCLPmxfNh9RVGuer6yrFhhtb3THwHjf0vK3DmUPun3J763Vn9L2juKj/XVG34bqO1/d6YtC9wqHB9/UfcUbrG3s1jttXO3Fmmzbx7OqImyY/OTt60XXFRa2uIZ6f+Hgp3p/aKq7R/a5md33X7fXdrzvigXc++LZaGdR62bLWY5Ysnt75vzcf6NC9e4eyNfWyyz54+//O0xcvGSOdYlCl+q1ag15nDj3D0DN7Nag/Ya/fzG2pGN//5JaaXHBBE7h/Syf3H1+0ZM7nJzihHggE3/190tdbmk78rWFdAh8/+sMv+u/Unk7SXWgogSAbWBtoYwKJAACkOE739KbQkG74qfWuEyAUCJBUFQJkOmomQK4wQICKLkYJUFVYIRN5I6GVTRMk9Y4EmdFOBblWHgYVE73kV7WKLNTYQGF/ekmzh2atlcMGDy3Hl2JscNFD1/mE8tjqe5xaP9i12+EOc4xddtrnmMijLIqOdchsjZjli0rDDDZUabzSnM2l1flHOdq+vWBfMkF53+vrOL27H7hJoxxuI5MRKbLmmSYPyhVtkNPWWjLBPQE=");
 
 export default BellRing;

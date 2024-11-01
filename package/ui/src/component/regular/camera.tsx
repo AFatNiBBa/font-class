@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera?s=regular camera}
  * @preview ![camera](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/camera.svg)
  */
-const Camera: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M199.1 32c-24.1 0-45.5 15.4-53.1 38.3l22.8 7.6-22.8-7.6L137.4 96 64 96C28.7 96 0 124.7 0 160L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64l-73.4 0-8.6-25.7C358.4 47.4 337 32 312.9 32L199.1 32zm-7.6 53.5c1.1-3.3 4.1-5.5 7.6-5.5l113.9 0c3.4 0 6.5 2.2 7.6 5.5l14 42.1c3.3 9.8 12.4 16.4 22.8 16.4l90.7 0c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l90.7 0c10.3 0 19.5-6.6 22.8-16.4l14-42.1zM256 400a112 112 0 1 0 0-224 112 112 0 1 0 0 224zM192 288a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const Camera = createIcon("camera", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABiQAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCNAsGAAE2AiQDCAQgBYMtBy0bMQXIjtRO9wEmFpF4+N7m67lvVxp7ZUR5zchJOkIoiatw0YQ1vwthq09FHPcMr2RU/7j5551HC+QZhTYWLg1kge15nkCgWXnaJTw+2DeZAvZ3p23FIdonaYm15PhWjssGebyHd0GF9DB9hTvrg8YverqOpJIBiA4AmL9142ofN6IR8WXzDeJLKxEQ80EpkCFDHwFmyQT6yJXI5YJGNJvxP7AkgKjiMyWQo4orcB0gB0me52PK3m1rlbb5llql2HkLR9zng2NI9IginpuXeqR4eF8e3DZevFd7Z/HIe2VIEb3iEX2gKMoHa7W4VfrG/VKj+RT3cZt4QLN40GrhxfbbfmtHvJiPxtXxyJAXilvquR4Puarnw4Ofr2158l4d/nLfx4a9NOKV+oBXOrzyW/+vjnzlkyc7/czX64466mbLPdWxY0HRseNTV419y91s3dc/d7pwuGvlgmrXr+35c6dGO9o1rmqLO/155uu50+tP8MRPP9XrSD7xRL0uoGPu2azlr79asnIcCARTJt7w7d72s/5rVUug5d0//qefkWaDpFeAVhIIslHNb1cCiQAApLjMgASB5DI53tPGAwKEAgGSqoIg01sHyBVGQkXdZNoobTSRkbemd7EbIWnjPGSmuBxyXbwGFbN8alR1icwFWQdiP4BJSySyeKocP2ZcOaPcBjrnVXQezizN8rDLUmE4rDrirDMucdghx10isAtW25c6bYmGLvZEpfHGGKc0Q3kcP0tbyLjgouNr4XzMTOV9fZjL9PrhoCVMOYEjSUSqPiIAAAA=");
 
 export default Camera;

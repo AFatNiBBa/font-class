@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-medical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-medical?s=solid truck-medical}
  * @preview ![truck-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/truck-medical.svg)
  */
-const TruckMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 48C0 21.5 21.5 0 48 0L368 0c26.5 0 48 21.5 48 48l0 48 50.7 0c17 0 33.3 6.7 45.3 18.7L589.3 192c12 12 18.7 28.3 18.7 45.3l0 18.7 0 32 0 64c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c0 53-43 96-96 96s-96-43-96-96l-128 0c0 53-43 96-96 96s-96-43-96-96l-16 0c-26.5 0-48-21.5-48-48L0 48zM416 256l128 0 0-18.7L466.7 160 416 160l0 96zM160 464a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm368-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM176 80l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const TruckMedical = createIcon("truck-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABlwAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCagsGAAE2AiQDCAQgBYMtBzQbbgXIjsQ4RvEHM1Hx8LxdX+e+qq/qMWpsrKxOdx1Ntg4yK4K7Np4nrnn+509RWtZijxK5LBsXUDUWyUCrsKmEh7MZTYA3OG/UAYWmkH6EPP7JrlVHeih9gDvcm8aPOruWpCkDEK0AMGvDmmXOfRafRbxfe5V43xIExCxQCmTI0E2AqTKBbnIlcrngs6jV2H9gSQBRL/y+BHI04AE8CchBUpfnMyvNmw+u1DXP11fqiuyRjhEPDGgez7W/r7OoxC2D1sVLhBC3tL/Ple3uLYp4dOCLY18bXO1RXfl8h/u7ZLsqRSVifRRh7Qse6fJw/2c7Pdj5oX57SPj5vlyF4ecGjB3YLxRxbztxX/tKOPKBjhH4/R2K0Bdf2rvaqvpzrw/2f+DO7EM+GjnTyI8+zEYao0vvpUv17tJWaaYWN97YwrBLjdXqlVemGq+sfK3WZ2c+8coQacsuGmNn7ZPfvP76N09mshMjiuOXXHK8yOxYMTJM8VmLUovPRhoJPWVnzEjD+4FA8F5j+mhHy6m/NVYS+OKtX/8sblc7l65MVTRKIMiG1obamq4EzA0gn+J8vRc+KJDcoU442Mz9AoQCDZXUK6hMV62oXGEIVaeHcfrGA2tkIm8S2tkGUkkzp6jMeJdRuXZepupM9XauXrvI7k7z3jL/DfPM7wLzJpWjho8sJ5ezdZV1w+l6cEq5OTLwfN43CG613wnHnbXPXoec7UCnLSue55j5S+A8X1QaZbiRSpOVh1sPPes7mdPOcH3aOh4xpWp9fd5A51sebxCMJ0FxtJIkEan56xcY9q0CAAA=");
 
 export default TruckMedical;

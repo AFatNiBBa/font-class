@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vector-polygon` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vector-polygon?s=sharp-light vector-polygon}
  * @preview ![vector-polygon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/vector-polygon.svg)
  */
-const VectorPolygon: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 64l0 64-64 0 0-64 64 0zM352 32l-32 0 0 32 0 16L128 80l0-16 0-32L96 32 32 32 0 32 0 64l0 64 0 32 32 0 16 0 0 192-16 0L0 352l0 32 0 64 0 32 32 0 64 0 32 0 0-32 0-16 192 0 0 16 0 32 32 0 64 0 32 0 0-32 0-64 0-32-32 0-51.7 0-19.2-32 6.9 0 0-32 0-64 0-32-6.9 0 19.2-32 51.7 0 32 0 0-32 0-64 0-32-32 0-64 0zM307.7 320l19.2 32-6.9 0 0 32 0 16-192 0 0-16 0-32-32 0-16 0 0-192 16 0 32 0 0-32 0-16 192 0 0 16 0 32 6.9 0-19.2 32L256 192l-32 0 0 32 0 64 0 32 32 0 51.7 0zM32 384l64 0 0 64-64 0 0-64zm320 0l64 0 0 64-64 0 0-64zM256 224l64 0 0 64-64 0 0-64zM96 64l0 64-64 0 0-64 64 0z" />
-    </Icon>
-);
+const VectorPolygon = createIcon("vector-polygon", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABjAAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyDHwsGAAE2AiQDCAQgBYMtBzUbpAXIngNu0zyijlohYkibdDxO4un18Rjx9Hvf7bnvphaXrltT6cKGIhOPQiiExDWF5jskqD8e4VMsvTzrf2zNgP/FKol9JLcT1SQm7UrTEi5682Jhrtr3icvpj2VPC7f6C4/dGMMm8JznCZRvLOzyLoEssEwTsKzN4aAigtxofEfQ96lQc/yw9YCau2CnPC3Bw/aheSPolqI2AMg4ADi5Oz6IzyteJf8t8lo/COQUwCKiQYNZBPusglk2i6CqwlXaNv0HKgRIL/C6AioG8AIvARUUfdXmHk66cb/YvbYpsZs10GBI6TNiENllSSNKGRIoSVI40pgYSoJxVHbMRGNRk2lTeHuNkanVCTFyKeDt+JT5tsvhznjn3dLVnh60wEEMt4oyAj4Lq/SCaBHWcfYvyqwLTdpJw6nltK5gS90LpbHmZDaXmNxpTFw2PyFw3BPnTxF/9jxAEH57X76d+xu+ucQCuHn1U/oZaa/YLR30KyA0Ky0L+QTSRQBAySnC6YKgeK4P3nXYIwExiICi16CAxowAgmrQMoIe84oIeg06Y5XqRkxbFLkYdl9u7LmRq2nPco99X7Ve02n8Vvc6/bcxp4vhzm2aTWW0pqdtm+GKal2vqzkcOc1j0XAVq/bsOrZi2YZjog4NNk/s6NLITl+kslIyVI0O9z46U8QdOrKRtDu+SZ2uz0ec6rOjYT8WwNYXB8rtFN/pytLx3mFyf2/7Ym1vFwAA");
 
 export default VectorPolygon;

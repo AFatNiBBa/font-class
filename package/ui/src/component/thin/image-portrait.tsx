@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `image-portrait` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image-portrait?s=thin image-portrait}
  * @preview ![image-portrait](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/image-portrait.svg)
  */
-const ImagePortrait: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 16C37.5 16 16 37.5 16 64l0 384c0 26.5 21.5 48 48 48l256 0c26.5 0 48-21.5 48-48l0-384c0-26.5-21.5-48-48-48L64 16zM0 64C0 28.7 28.7 0 64 0L320 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM240 192a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM96 356.6c0 6.3 5.1 11.4 11.4 11.4l169.1 0c6.3 0 11.4-5.1 11.4-11.4c0-29-23.5-52.6-52.6-52.6l-86.9 0c-29 0-52.6 23.5-52.6 52.6zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM148.6 288l86.9 0c37.9 0 68.6 30.7 68.6 68.6c0 15.1-12.3 27.4-27.4 27.4l-169.1 0C92.3 384 80 371.7 80 356.6c0-37.9 30.7-68.6 68.6-68.6z" />
-    </Icon>
-);
+const ImagePortrait = createIcon("image-portrait", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkAAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCNgsGAAE2AiQDCAQgBYMtBzUbOwXIhqCyWWX1jBS7I+kQ5xDpAYCs9Z7IBfTQAtb8X/P5PT86wG90KBVUvbRIisjnExjobPNIH1AU2EwnYLM25y2vIMovDiJHlcrTsH3DErSGPM52iArpzvQBrq8fGj/q6RKSLAMQHQCwYNumNdq+iW8iPmi+SnxgFQJiISgFMmToI8BsmUAfuRK5XPBNNJvyH1gSQFTpKyeQowXn4lJADpJqnvfq1ejY6FarNPKttUqx65EuEbf0SHFn11uHNOLx7rf3zuKubrcNra++e1TE08Ma8eiIJ3umuGP4E4Pr8djIp3plW+4a+tjgR3rcOeTRYY/33nxr11rc3n09q4hHutxi26sJ2xMnvyaZo56etrlW1KzcBaeBooirFsS4u+4zbOBTHZ76ecAHh31g3vPjv+DD7ALZh1+Mh1hZ1iw60vEBHujYsbgAWBT9en5x3NlnH1e0M65/pPWGp9zQWv3q5/3brP/5l+77fhg/tn//seODOfL+bbqobeDARu3002tPqoNr0AU+AQLBLZ9v+X5f+9m/tdQS+O6tX/8uPyPNtrggPYUWCQTZ6OZou+MCiAsEACDFaQbGBQgkp6rSa627TYBQIEBSVQiQ6a2DALnCKAEq+pkiQFVhk0zkrUIXewZI6k4EmanOBbkuXgYVs70dqeoSmQ9SHkT9AcYvZWjJvHLC2PHlzPK2qtNuReTpWeW2NPy02DUCKx3meMc5xaEOcaRTCDnJmvipjrV0Bi/xRaUJxhqvNFNpbnzkt1LkJCc78pq1zzJL+bw33GnzwSOgJoo6UUGSiNTujQ2POeH4k763CacAAA==");
 
 export default ImagePortrait;

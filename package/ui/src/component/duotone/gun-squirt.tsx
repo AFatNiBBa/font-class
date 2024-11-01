@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gun-squirt` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun-squirt?s=duotone gun-squirt}
  * @preview ![gun-squirt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/gun-squirt.svg)
  */
-const GunSquirt: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 160c0 17.7 14.3 32 32 32l352 0c17.7 0 32-14.3 32-32L64 160zM219 376l53 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 16-41 0-12 48z" />
-        <path d="M104 32c13.3 0 24 10.7 24 24l0 8 320 0c41.8 0 77.4 26.7 90.5 64l13.5 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24l-13.5 0c-13.2 37.3-48.7 64-90.5 64l-199 0L199 455.8C195.5 470 182.7 480 168 480L64 480c-9.9 0-19.2-4.5-25.2-12.3s-8.2-17.9-5.8-27.5L79.4 254.6C34.3 246.7 0 207.3 0 160c0-47.6 34.6-87.1 80-94.7L80 56c0-13.3 10.7-24 24-24zm-8 96c-17.7 0-32 14.3-32 32s14.3 32 32 32l352 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L96 128z" />
-    </Icon>
-);
+const GunSquirt = createIcon("gun-squirt", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABjAAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCKgsIAAE2AiQDCgQgBYMtB1AbTAXIhuB7m2W/PyPdrviI5xDZDBASZ5w7VTklyFyl6e/n+bemAnn83bsWzeXDzPMJJA5k3jYraqGZ4nanUdshUi5pxJIcj+Y4bSGP/7PblEhPpx/xYPwfwPjFQLeRdGcAogWAFft2bfF1O9opfuy8T/xoMwJiJSgEMmQYIsBimcAQuQK5XNBOnQ7t6HQKAoiyCGfMsr3DFbgJkIMkSXk+q1+jf7VUz/dWS5VDrw8U9Xh9wtsDq1FjT42ugDv+LdJ327Pc0++J/vviw4nvDHtx0rvzIp4dt/uePhGPuanv49V63Nv/ybh5HqvUDvFIBD1ebU+1UhVPj3lzcETEM2NfGyAqMWTkO613fhvx4xk/OvPFHX27LPfnRRe/W7ejb0vfHXXvXnzRn9+Y8Y0zLjpL6977pk75WL8DB7Isu2O7xbIexxp3cVcjMHc1jpOKs2w4RuhzLz3z05zEHSvs6DveeHeplgm+AgLBLVc9kR9rLv6vq5rAz5/+8Q9zcqedlqd30CWBIJvcmexwWg7IDqCQ4gojBQFXlNkgSd9a84QAoYIASVlFgMxgLQFyFZMEKBlmjgBlFbtkIu8W+jhSQVJzMcjMdT3I9fEeKFnsm3xZn8jUT1Ae4fOXupZDa2YVM6ZOLxYW04oiahTnJxcVy+74K6hjAmx0hgtd4DKnO83ZLmPkJbaULne+tRKxxg8VZphqusJCxXbd3rWXxS5xKXFjeX+aRYrz6fGukPtPgPUkwMyL2yUjUmS9zrz8gimXXnz52ZdcNkWRO/u08pMFAA==");
 
 export default GunSquirt;

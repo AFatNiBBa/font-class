@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-down` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-down?s=sharp-duotone-solid circle-down}
  * @preview ![circle-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/circle-down.svg)
  */
-const CircleDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128 0l80 0 0-128 96 0c0 42.7 0 85.3 0 128l80 0 0 32L256 416 128 288l0-32z" />
-        <path d="M304 256l80 0 0 32L256 416 128 288l0-32 80 0 0-128 96 0 0 128z" />
-    </Icon>
-);
+const CircleDown = createIcon("circle-down", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABcAAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBVgsIAAE2AiQDCgQgBYMtB1Ib+gTIjsQ4JvJIF4WLePj/tfS+P7MbKNO0ihEckGJHwsamCgh1TiWr6i3m56lTz3MeCuCDSOY437jA5zyPQM6nxldLPS9XqKY1sFo7e8sPSjZJl3h8hkVvGDkgj8/ZeSXSzQRXw/8Axi8dnCepyQBEcwBMWrFknocN0ZDibeUW8dZcBMRkUAhkyNBZgLEygc5yBXK5oCFVKjREpVIQQJSFd2egjBLmYCUgB0lIed6qU5tGpSb58kal2i2NahuJpbE8Ihq558S3SRGP5r1rdHHBKU9WfJ/8eP772gtzTXy4tNEkKhunnUaEZrtHXfO6P91tf2vAg4XRKpw6xc8UFjpto9MemlZDh/pHU6Y8qu9QYxr6gTm9gA4xRewttPo6CASt/tWO3dBs7P/qRgn8uP3vp/Q7qjxMUh2qJRBkfSt9rU0gEQCAFMf1SJxGIDNQ4j61sWsChFoESMpqBch00lyAXK0+ApR0NUyAslpLZCKvEVpbV0DS2CGQGe4EyLVWD0rGemGXtY7MqHCTwJ90MdMRmjZWDOo/sBhddH2ZsBPU98cU00rP45zrRbu2O2C/o7bZapejgBw2zztmn+kSPM0XFQbpb6DCaIU6umaWg33YEbvalH7IGMV+tafjcnUvmiIBBh8Hyl6kyFp9vmH72ZrQ73oW2tTUTQQAAA==");
 
 export default CircleDown;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tie-hair` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie-hair?s=sharp-duotone-solid user-tie-hair}
  * @preview ![user-tie-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/user-tie-hair.svg)
  */
-const UserTieHair: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 128c0 70.7 57.3 128 128 128s128-57.3 128-128c0-11.1-1.4-21.8-4-32l-60 0L256 64c-16 16-32 32-48 48L97 112c-.7 5.2-1 10.6-1 16z" />
-        <path d="M256 64l32 32 60 0C333.8 40.8 283.6 0 224 0C158.7 0 104.9 48.9 97 112l111 0 48-48zm24 448l168 0L384 320l-71.8 0L272.2 483.1 238.9 359.2 272 304l-48 0-48 0 33.1 55.2L175.8 483.1 135.8 320 64 320 0 512l168 0 14.9 0 82.3 0 14.9 0z" />
-    </Icon>
-);
+const UserTieHair = createIcon("user-tie-hair", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBWgsIAAE2AiQDCgQgBYMtB1YbAgXIjtMlsifEXDx8zFW9n6R7Z9LLkAVg8EDHYIFYyKmTrE4n/sdOizdeKlBzXNe544sXSGnOeAUab7zF/m96gc8L1RR/cN7kAw7FIf0GWbyW3lIheSL5Gbfd/wDGXzq4RaI+BRDNATB97crFPm+IhiR+Lt8mfrYIATEDFAIpUnQWYJJUoLNMgUwmaEhKGqIsCCCq3FemoIoKFmMDIAOJRGRZi04dapUm2ZpaJd/Yf0D/Wjw74cMxX497v3Mtpq6v5bU1kceqWBMzI8+nW7K5Udv4wuSIT2Z/N/WzntfbcmdAPGgd8Hnysh5vNn/zn+4/7/lZebWc5I2O9b83HzL06FFlu89eV/jiHfP0fVFxUdWwYdWcrBvz9B573daplVHMXLZs5qhKiymTlD7y0aMa1fkkECzbsPjtrc0m/V9XS8AfH/73Z/a+8vP4PHkTdRIQpIPKQTbF58CwAbhJnNFj4nTbBFKDJOD/amOPBAg5AiSqcgFSnTQXIJMbKEBFV6MFqMqtlIqsXmhtcwUSjR0HqTEug0xrb4GKSb5zq1pHelvRNwX9U5cwpwnNXiqGDxlWTChGIwVzp5B6OrFYbPQ7wyv94a49jjrilN122e9UAzlhcXDaYXOm4NlOVBhuiGEKExSb07vCmoZ7wkn7h7ntcyYqjjf7OTPd3h+ukwBGnJBQSiSRtnkW3cGn9u8e/Gkpg5/QhnYD3NMI");
 
 export default UserTieHair;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-hand-peeking` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-hand-peeking?s=duotone face-hand-peeking}
  * @preview ![face-hand-peeking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-hand-peeking.svg)
  */
-const FaceHandPeeking: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M80.4 346.4C117 443.2 210.4 512 320 512c91.5 0 171.8-48 217.1-120.2c-5.4 .7-10.8 1.1-16.3 1.1l-64.8 0c-22.1 0-40-17.9-40-40c0-.3 0-.6 0-.9l-8 0c-22.1 0-40-17.9-40-40c0-1.1 0-2.2 .1-3.3c-37-10.4-64.1-44.4-64.1-84.7c0-48.6 39.4-88 88-88c6.6 0 13 .7 19.2 2.1c11.8-4 25.2-2.4 36.1 5.4l37.9 27.1c1.1-9.6 5.3-18.9 12.6-26.2c12.9-12.9 31.8-16.1 47.7-9.6C502.2 54.5 417.5 0 320 0C248.5 0 183.8 29.3 137.3 76.6c7.7 1.8 14.9 5.7 20.9 11.7c17.2 17.2 17.2 45 0 62.2l-1.5 1.5 75.2 0c22.1 0 40 17.9 40 40c0 2.6-.2 5.1-.7 7.5c10.1 7.3 16.7 19.1 16.7 32.5s-6.6 25.3-16.7 32.5c.5 2.4 .7 4.9 .7 7.5c0 22.1-17.9 40-40 40l-8 0c0 .3 0 .6 0 .9c0 22.1-17.9 40-40 40l-64.8 0c-13.3 0-26.4-2.2-38.8-6.5zM256 400c0-26.5 28.7-48 64-48s64 21.5 64 48s-28.7 48-64 48s-64-21.5-64-48zM368.4 224c0 6.1 2.3 11.8 6.1 16l35.8 0c3.8-4.2 6.1-9.9 6.1-16c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-        <path d="M232 208c8.8 0 16-7.2 16-16s-7.2-16-16-16H118.2c-7.1 0-10.7-8.6-5.7-13.7l28.8-28.8c7.8-7.8 7.8-20.5 0-28.3s-20.5-7.8-28.3 0L51.9 166.4l-.8 .8C14.7 204.4 15 264.1 51.9 301c17.9 17.9 42.1 27.9 67.3 27.9l64.8 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-14 0c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5h62c8.8 0 16-7.2 16-16s-7.2-16-16-16H169.6c-2.2 0-4-1.8-4-4s1.8-4 4-4l78.4 0c8.8 0 16-7.2 16-16s-7.2-16-16-16H169.6c-2.2 0-4-1.8-4-4s1.8-4 4-4l62.4 0zm182.7-19c-7.2-5.1-8.9-15.1-3.7-22.3s15.1-8.9 22.3-3.7l81.8 58.4c2.3 1.6 5.1 2.3 7.8 2c9.3-1.1 13.2-12.4 6.6-19l-14.8-14.8c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l45.1 45.1 .8 .8c36.4 37.2 36.1 96.9-.8 133.8c-17.9 17.9-42.1 27.9-67.3 27.9H456c-8.8 0-16-7.2-16-16s7.2-16 16-16h19.5c2.5 0 4.5-2 4.5-4.5s-2-4.5-4.5-4.5L408 328c-8.8 0-16-7.2-16-16s7.2-16 16-16h68c2.2 0 4-1.8 4-4s-1.8-4-4-4H392c-8.8 0-16-7.2-16-16s7.2-16 16-16l74.6 0c7.4 0 13.4-6 13.4-13.4c0-4.3-2.1-8.4-5.6-10.9L414.7 189z" />
-    </Icon>
-);
+const FaceHandPeeking = createIcon("face-hand-peeking", true, "data:font/woff2;base64,d09GMgABAAAAAAOUAAoAAAAAB7QAAANHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUSEVQsIAAE2AiQDCgQgBYMtB14bhQYRFZtxyT4WY1s17GApgyaiCAfl6IXgeb7O99yZ9w2XWllLMymZFNBOJjx84+rPzIpHMwFuqxKOrztK1fX6pnb///3UF/YtAa/4948Sy6RISx9mHv8CA420BE9sHw4niLPNtiPIRyyM6CFDwobIHp9g9vh0AEqL0sehBW2h9gvM3B9KXuPDONCw0QEAEGcAAKBkdLCbYw+EXxNn/t+CnKEeEAApBSAYAXQ4/BUL+Q6hzRTBgEIh8ED7/w8P5PoPjAMBALGEGZ1HsgSsQGxAvAAABYCGhq5UcelUoNnOwkG1sdPatjWGGjxtZYqnwStOjJ4G92YSJBvwpm/MsBNbn/jsWkFbQ6jRo7UcLAqFPD1F/WiBeMhGvGkb0m3F4Gn0spOp4rNtSl032rOx7V+DiLOtr9edLptnptd5GsR3KEKnjD+LNfkujzNnTfVYH5Hj3swccaLxXJspZfvy53vMxxvkLnYyFchHOdEChDYgOVq8IrZw3GBk68WpIuuj1kas9VkQviZ8XeQ637bzg+3EKKeRa7xDTc6mtyFnup/h+Xu/zfZgMBbubukHeX+7desX2JwceehAt3oeOtgeOKIslCqsqBApfyN+RyO+X7jHdWOf0/vm5aQmd/MIrrgbp+6O8ggtd7TCG9exzaxvaaJ3Lqr9L/xpQTkzPSmb1vVgenZBwBoX8wEXTfZ5WDqqSZOKTb4Iuw4Emksvo9asriHzyeXC7ZPOuriehTpczCY0+i+lfmsK07WLNSBguqIe98itGXoA+K9Y4R+gi3E97oCthpEw2hiDmzcPBgABBDJHnToz4VT11dpOA+DRgfefy/W8/x+Ti9oVYI0GgIAe/z+eTtJLGN5aTwQAAADQZDihHVezl0/HdIaj9hjCecEWGmhYYgs6fjiDwpY4sCCQDM05vyU6omwQgiDGABILW6AowQUagrgBLVV8ZHQECfVNGGe08Zc0W4umzaPi8nPy4iriHovENM21bbgyzu1L26emdKxlng3W2WWOWZbYVeI23fk91mjpSZs/G0c+OeQRRwVx4cp324jKbLPDkm2J66kkbnw0jf1+53QEJSxbwASFAiGFCk85e3YapbI35+ZSzJWdYR0iTUs+AQAAAA==");
 
 export default FaceHandPeeking;

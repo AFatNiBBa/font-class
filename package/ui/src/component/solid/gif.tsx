@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gif` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gif?s=solid gif}
  * @preview ![gif](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/gif.svg)
  */
-const Gif: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm296 64c-13.3 0-24 10.7-24 24l0 144c0 13.3 10.7 24 24 24s24-10.7 24-24l0-144c0-13.3-10.7-24-24-24zm56 24l0 80 0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0 0-32 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-88 0c-13.3 0-24 10.7-24 24zM128 256c0-26.5 21.5-48 48-48c8 0 15.4 1.9 22 5.3c11.8 6.1 26.3 1.5 32.3-10.3s1.5-26.3-10.3-32.3c-13.2-6.8-28.2-10.7-44-10.7c-53 0-96 43-96 96s43 96 96 96c19.6 0 37.5-6.1 52.8-15.8c7-4.4 11.2-12.1 11.2-20.3l0-51.9c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 13.1c-5.3 1.9-10.6 2.9-16 2.9c-26.5 0-48-21.5-48-48z" />
-    </Icon>
-);
+const Gif = createIcon("gif", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhwAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCMwsGAAE2AiQDCAQgBYMtByobLQXIhqDe5mfP25VKJzjEPWaO0HYGCHIIFP3MgDlQihFlmv/LPb/nRwd07/MRHMqetKOxwPYU6HngUTanBVQUZolib1NMsCMInwgJiRKLjtPj27MN5PF9do8S6en0FR6sHxq/6+UeknYZgOgIgIXbN6/V9kv8EvFl633iS6sREAtBIZAhQ18B5sgE+soVyOWCX6LVov/AggCijN86gRxl3MTdgBwkeZ73bhTja6VGvq1WqmbPjo54Z3gjXh/5dq8UT414a0g93hjV7J0dfK2neHrom30inhm2UlBGLRIxjVVDCNdlW57tEfHk8Hu7vd7n2WFvVN8b8Vbf50e+PfXN4U9GxJ44fEQtxGPVN7o/0XtQs2Pzz4FfHfvKgWonOr3U5qVOnaoLKJ7yhs/f2O0h3TY24/oGlhdgbIQREiHoCIUF4g5Y7Ofl2df8MKH+2IpX7hk1q+ftZrNSoRm3vzv3RmOKbhsL11MrGi5VJvzwdQYEgi7nF7Xt7zDnn0otgd8++ft//ejWL2lBaqIigSAb0xpjT1oAiA0gk+KaQcYXBZJrcvyqdU8IEKoIkJRVBcj00VGAXNVoAUr6mypAWdVmmcjbCV3tHSCpuwgy09wAua7eBSVzfJou6xpZBDLxw3wAJi7T0NJpxcRxE4pZxbZM2KCiyvjswm2OuJbbRsIcx5x3zhVHHXGyEwq5ZG3uqrOWWfBSP1SYaJwJCrMU17VncRtmLrns5Jq9n8RsxftghGt275HgJIw7STxJfkTsHj95DA==");
 
 export default Gif;

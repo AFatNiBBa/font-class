@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `custard` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/custard?s=duotone custard}
  * @preview ![custard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/custard.svg)
  */
-const Custard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64.2 350.9L512 352 476.7 193.3C453.9 184.9 424 176 400 176c-22.7 0-39.4 8-56 16s-33.3 16-56 16s-39.4-8-56-16s-33.3-16-56-16c-24 0-53.9 8.9-76.7 17.3c-11.7 52.5-23.3 105-35 157.5z" />
-        <path d="M396.7 64L179.3 64c-30 0-56 20.8-62.5 50.1L99.3 193.3C122.1 184.9 152 176 176 176c22.7 0 39.4 8 56 16s33.3 16 56 16s39.4-8 56-16s33.3-16 56-16c24 0 53.9 8.9 76.7 17.3l-17.6-79.2C452.6 84.8 426.7 64 396.7 64zM32 384c-17.7 0-32 14.3-32 32s14.3 32 32 32l512 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 384z" />
-    </Icon>
-);
+const Custard = createIcon("custard", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABgAAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBcAsIAAE2AiQDCgQgBYMtB0obDAXIjpQuYxbx8P92fb/PrepeM9Vj1MCMJGSQP5ECToK3fipkyoc27fm/5vNLOyqQDyLXgY0xH3bwBBJHs42SNIEnNDHe7qp9SErzkKTRLC2Pj6Z7vO4OefyTnVEhPUzf43p64/hRW2dI6mcAogkApixdONvHdVGX4vv/Xye+NwsBMRWUAhkydBBgvEygg1yJXC6oS///T124P7+SAKIKfloGqqhgGTYDcpAkkedlq3a1SsN8Sa1SbC1qxaXuz7dZFC/1eqn2Ro8XRrzV66VRl3u80GNJPOr5YrHpUouIO060vFtrHJdb34+Tre4VjZau37B+Sbwoya/r7OFvVnzkpTO6P10+aNP11Sav/tzl+y3fu3J8PNW6YcMZTedoOXxGs9i9O0LabMbwlqM8g61uvWtSowtcaFSYC40QWzZp3Ufy4q5Pqn7jmadXBQSCpp/ffHut8X/XqyXww7u//lnPTpPTq6gngSDr/39/qzheWCkAixRHdAXe7SgzUoKP2sA9AUKBAElVIUCmvSYC5Ar9BKjoZIQAVYWFMpHXF1pY3UHSwH6QGekoyLXwGqgY76u8qkVkFsbbB/9/lzKTQjNWlUMGDi7HlsuaJhgNG2fHldtO7yO+pw8ctcVeexyy2SbbHSLkAbMrh+02UyJm+KLSEAMNVhqrVDeflSUkP+Cg7bykX2ac8nzY2xF5eB/YTwIMvZsDGZEia7zx8DcQbBrwUs2mVHqS");
 
 export default Custard;

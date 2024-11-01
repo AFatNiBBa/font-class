@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-ninja` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-ninja?s=sharp-solid user-ninja}
  * @preview ![user-ninja](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-ninja.svg)
  */
-const UserNinja: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0c-49.6 0-92.6 28.2-113.8 69.4c-3-5.8-6.8-11.3-11.7-16.1c-25-25-67.9-22.6-67.9-22.6s-2.4 42.9 22.6 67.9c5.8 5.8 12.6 10.1 19.6 13.4c-7 3.2-13.8 7.6-19.6 13.4c-25 25-22.6 67.9-22.6 67.9s42.9 2.4 67.9-22.6c1.2-1.2 2.4-2.5 3.5-3.8c16.4 51.8 64.8 89.3 122 89.3zM448 512L384 304l-76 0L224 416 140 304l-76 0L0 512l448 0zM160 96l128 0 16 0 0 32-16 0-128 0-16 0 0-32 16 0z" />
-    </Icon>
-);
+const UserNinja = createIcon("user-ninja", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbQAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBWwsGAAE2AiQDCAQgBYMtBzEb3ATIjpPlJl5qPHzoSt+XtDdnrRlkZuwAMVy5DSAUjaENVZmU+/AwodhCCPxDMthaNKDN/7me7/logN9GNrQoS22MxFHWPT+BA47yEm2hMz0BO90mK6RDFL+IkKCI6Pjy+DpDFg/TU0ok95OfcFU/Kv7UzCkSNVIAURcAYxfPn+mzZ/Es4sfK28SPpiMgxoJCIMX6lgKMkAp/hkyBTCZ4FpWK/AcWBBBV7N4TkKGE2VgOyEAizbKedcrlUq1sUbmUL/52dMSn7deoP+lCl+5ijafTbijNsqs2kobdNBpx3O58unuTGnoH0iKK5LEgFkV6mlqbynlZ5HlEud2TuvN32582/eTpp3PGM6BUGjB+Tqc/vqg9ePPYtfPqRsfGDc++8cbZhtgxsG7t2Kj3TfX/72ll9K8wZ5i/m/gZ+hqftXn52LFrBdRlNBC3tbk2cerqOiP+qy4n4MUH//6t/ooqn8VnyRNUS0CQ9qj0sCI+g/hMAACSOKRdfIZAYrKUfmpNdwQIOQIkquQCpFqoK0Am112AktYGClAlN18qshpCQyszSNS0F6QGOQwyDb0JSkb41qrSMNKoImOC/NTFTfLQxFVF3159imHFNNGoQMF5cXixLXQ5VBpdcdImu+1ywEYbbHXAIfvMdA/aadIKnuiLCn310kdhmOI4fzy8yEb77LfVbrtkmeGK+0oXh9b9XSEnDLOfWCIhkvwpRnru2rpr21o=");
 
 export default UserNinja;

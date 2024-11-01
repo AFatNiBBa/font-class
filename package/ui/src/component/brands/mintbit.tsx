@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mintbit` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mintbit?s=brands mintbit}
  * @preview ![mintbit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/mintbit.svg)
  */
-const Mintbit: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M73.2 512V438.9H365.7V365.7h73.2V219.4H512V0H292.6V73.1H146.3v73.2H73.2V438.9H0V512H73.2zm73.1-219.4h73.2v73.1H146.3V292.6zm73.2-73.1h73.1v73.1H219.4V219.4zm73.1 0V146.3h73.2v73.1H292.6zM365.7 73.1h73.2v73.2H365.7V73.1z" />
-    </Icon>
-);
+const Mintbit = createIcon("mintbit", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABXgAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBVQsGAAE2AiQDCAQgBYMtBy4b0wTIHgVuywOnXnk0kyH0yaeyFdH3+332nHffEjsgu6tCClmhjCY2No6EIhmZCLtG/IpFReD3zO1jGSrtEPE8ueMtIUlMGo1QeKRIKGuEzpK5FvKP+6k/zj+V1jP6aN1L7/ONMs8nMJH0aYoPbKYTsO1NI+uI7IiszNRK8nfs+LpBy7ukp54X8Dh/aD7welH6DkBmAMChyy0D5iCDZPv/ZFsTBHIYsMaGDh2W2MBeDsESpzXQNGGQ///xP5AgQIbQuwo0DOMcuAiggdK3tj5KtfF+sl0qR8YuRiaTjAdyLNDqkPHL42Pjmh8sXow1hK7u2ng98/rTugX6AWYOgbGPUywWJ2xQ5JN/U2FGFxFWyCko2nsbzwME4cWbX3uvuPd+HRkv8P7tl9/1Z+S/Weo1RhQI3db/Lb0CRQAAlUf8BUE5xoXumfBEQIwhoAwZ69BZ5IFmzCb0VpSkzePnOaSNigV9gDLhLnT2eEKz4Au9vX6NIQvpXEpxCOVHl6lKXDlEuXSW6jTtYdVLpLTboO0w+ogzMbiKhaODm7mZtZsgL4z23Z5qEYovIjlpWaSOjodrsyvYi6u1fzjfp4HuV6Me9vIYJHYkuoNdT9BdwzevHm6T9Q0AAA==");
 
 export default Mintbit;

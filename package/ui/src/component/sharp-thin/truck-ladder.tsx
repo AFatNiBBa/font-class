@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-ladder` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-ladder?s=sharp-thin truck-ladder}
  * @preview ![truck-ladder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/truck-ladder.svg)
  */
-const TruckLadder: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 32l0 16-24 0 0 112 24 0 0 16-120 0-16 0-80 0-16 0-80 0-16 0L0 176l0-16 24 0L24 48 0 48 0 32l352 0zM312 48l-80 0 0 112 80 0 0-112zm-96 0l-80 0 0 112 80 0 0-112zm-96 0L40 48l0 112 80 0 0-112zM384 96l8 0 112 0 3.3 0 2.3 2.3 128 128 2.3 2.3 0 3.3 0 176 0 8-8 0-56.4 0c.2 2.6 .4 5.3 .4 8c0 48.6-39.4 88-88 88s-88-39.4-88-88c0-2.7 .1-5.4 .4-8l-160.7 0c.2 2.6 .4 5.3 .4 8c0 48.6-39.4 88-88 88s-88-39.4-88-88c0-2.7 .1-5.4 .4-8L8 416l-8 0 0-8L0 232l0-8 8 0 376 0 0-120 0-8zm0 144L16 240l0 160 51.3 0c10.4-36.9 44.4-64 84.7-64s74.2 27.1 84.7 64l166.6 0c10.4-36.9 44.4-64 84.7-64s74.2 27.1 84.7 64l51.3 0 0-160-224 0-16 0zm228.7-16l-112-112L400 112l0 112 212.7 0zM224 424A72 72 0 1 0 80 424a72 72 0 1 0 144 0zm264 72a72 72 0 1 0 0-144 72 72 0 1 0 0 144z" />
-    </Icon>
-);
+const TruckLadder = createIcon("truck-ladder", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABpQAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDMQsGAAE2AiQDCAQgBYMtBzMbtAXIjtRGecSPxMN/Oj/vG43/ypK9iFoCDjNVjBVhmfQ+qYCqVLh6WOKylbAExSZ3m5y8iWue/3k0Nj/B0CItm6qw+3wCu9m8vWkTmQ2jzCagM890QqtKd8weUTFbTOwx/5j/toEcfztBi/Ro+g53jyuNX41yA0lRAIiBANh48P57+qgXvYhv/1/Et3YjIDaCRqBAgbECrFEIjJU1yLKgF///X/4DGwKIPvzdE8io8R4+BWSQtHMe1W63V05od7t1q5sPqlvVyUIVog5RVRF1RFQR0V1S1ZWoI6pFfawE6mFxYKwOIfLOg56YYUv2rBjPUcU1xlAFobobfp1uJzzl8dk5XWf6KE2PqA4+6MCDnnGuY55a9VacsbLyrv4T6L35Y15fNufU3LYUXxwYv0/87qTvHP30QHpHOkejBrrkJ+W0HnP1Ppz4HPs455hxSL/5ZXn5RFdfbbDC60rlyiLnW27ZsEHonPMzioxzRVn6CZdcorznHC5/xmK373tMr3fMvrc/qxmL4Rm97weczdknOscPN3xZTlm8eEq5efttv2ZTNW66BqcDgeDoh/+ce/SANX+VdQI/fvjnrzje/x+la9KLKCUQFHP+n+OIdA1AHEA4xUUmOTcUSF7TxkvteEiAUCFA0qcSoDDGQAGyymwBWsZbKkCfyv4KkdvCUEdOIek4Vygsc6WQDfWW0LLGl6E+Q6NIYHn6yf8f02yzwNZxzcJ5C5pVzWmRKnJS2odXN5d1My6qTTOx1knOdpYLnOgEp7rA4OfZM3qhM23zwK2+qLHQPAs0VmnClfeagyR8nvOdeqyMj7Jac79rhov8zjNhTChxkYwkEanzhhrmnvERTHseAAAA");
 
 export default TruckLadder;

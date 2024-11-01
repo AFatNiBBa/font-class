@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `martini-glass-citrus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/martini-glass-citrus?s=regular martini-glass-citrus}
  * @preview ![martini-glass-citrus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/martini-glass-citrus.svg)
  */
-const MartiniGlassCitrus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M432 240c-14.3 0-27.9-3.1-40.1-8.7l-35.4 35.4C378.5 280.2 404.3 288 432 288c79.5 0 144-64.5 144-144S511.5 0 432 0C369.3 0 316 40.1 296.2 96l52.6 0c16.6-28.7 47.6-48 83.2-48c53 0 96 43 96 96s-43 96-96 96zM24 128c-9.7 0-18.5 5.8-22.2 14.8s-1.7 19.3 5.2 26.2l177 177L184 464l-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l88 0 88 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0 0-118.1L409 169c6.9-6.9 8.9-17.2 5.2-26.2s-12.5-14.8-22.2-14.8L24 128zm310.1 48L208 302.1 81.9 176l252.1 0z" />
-    </Icon>
-);
+const MartiniGlassCitrus = createIcon("martini-glass-citrus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcQAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBXQsGAAE2AiQDCAQgBYMtBzsb6ATIjsO4sXvgEitFizXoSbn/35PkAc4HhUry9FBrXcYBi/Htbf4v9/ym3Qb8Roc2Fi67rQtsrcbiXgKJ9fJJiWVhFqjFmrWzWxhEt0kSfJJhfHa5AKcnWkkQmE3mAbAivKnekGYuGIIsAACKBQAAar1NM6681EvpfuAkdJ8mQACqBYAnwAIWyCQAqrIIyOTwwOEQvFQgYP4DPQQACoa/2gDggCCgJegKABwAButcLh8SERTl2kcEhfdZnL+qzpa7XeNynm3VL9U/UfFMZoS2FNgdcbLQ3qytBfeU7b02cW1SO6Fw7UjdlC8iYnfG5vzhkjpoQ/L65MhebTu0ba+I3Pti973L9aD/A4cfJ6fmwa68umBiZubEBVc/Vqr0uxw3m3bNmLlvX2jovn0zN4z42K3b/iNHGK+mVktq1bEjopqM19D297OPI8uVmEaGv54RIDh3/3u+HjFVv4VGGABen/vwPT4Y+Bu4YmqafUAoBgCBLRooqmtrCjjsQTAxGk9ufJAAQ0MWvGok6xEAIhwQAIZgwhEAlgyxBIAjnCIEQBDZyhEAwYTThkUuDJGoWwaGSEYBS3nTgCPRcRBEVbfjYBJj1UpSCulXl16/hOod86WKl/SV/bCWZE0R3G4VP20UHG9nCuEs/Y0w3Fj99DXI2IIbrVk2zjD1JaKeL/JKKa4krzK/3F2fbq+f0cYYZITh/pAq/H6voPHy8kKwDeQtLWcwIJN4D61BxQ6SU6zPoHcu");
 
 export default MartiniGlassCitrus;

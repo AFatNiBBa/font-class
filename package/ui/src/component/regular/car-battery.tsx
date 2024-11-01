@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-battery` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-battery?s=regular car-battery}
  * @preview ![car-battery](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/car-battery.svg)
  */
-const CarBattery: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M80 96c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l96 0c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l16 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 160c0-35.3 28.7-64 64-64l16 0zM64 144c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-224c0-8.8-7.2-16-16-16L64 144zm304 32c8.8 0 16 7.2 16 16l0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l32 0 0-32c0-8.8 7.2-16 16-16zM96 224l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const CarBattery = createIcon("car-battery", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABgwAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCKgsGAAE2AiQDCAQgBYMtBzIbLAXIjsO44SuL0EyuFD8RVXt/PXv3Him67EFFlYWOEqG/RGFxqKhxKIsxFBaL/Htn/w+Ei80O6kCWgJvi9VGVtG/+L/f8ph0d4Dc6lLFtrha1MZzzeQKJTBsbLJAssIAST8Ayz3SiTXVUPlNTEV1M7PHLZ/47Q885DUOU+hR8AF7Gm+YfmnqBMjQAZBkAcHWfFIMbjjiid/4Q8oMoEMgVgF2EhoZNBE4JBZtE7IKuC7/E8/U/kAEBMkKeXqBjxCN4AtBB6V3EUcFATlpUViRVepDK6lInmpKWpj7VCUhH1dXHNyx2NEEf5tvGMrRpuatFNGe1ZyatM64CelWVpalQalJNpgAeaM7Qu5QUISdtU0RSBNpLSRMRcvnSs9IOa/cy3FXY/Tb4KP0Q9yD3DDzL+WPSBOXzq1YBy4qKUhykML/ciSoFnpPjMKxOTNVOv6QYmIbLcTjTVLvydvnCdj0f9D0AgvD1efqQJ3/6JyEtAPyd/f7zb6jUN2BagdD2eWtkFygCAKi0wrCAoEyIoFed9wYCMYuAMpoV0GxQQKCbtYfAYJsLAqNZ14TSJRHrchYo8yagOdEGunX7YHDqOT9ajzD7+Nzh//1SQjUUsow52NozT3ZbdwkJxR7zXuyxZt7KfRbYiVJ1ajUrUaxCsyIbxZRa1Aj1iBAfxDiwZY/xxMKtrZJKqUZNmN2L8UW8sPcjc63+aAuYAkJ5YGUpUtJFBY02H3sA");
 
 export default CarBattery;

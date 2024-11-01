@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-circle-exclamation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-exclamation?s=regular person-circle-exclamation}
  * @preview ![person-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/person-circle-exclamation.svg)
  */
-const PersonCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm32 128.1L144 304l32 0 0-127.9c-.7 0-1.5-.1-2.3-.1l-27.5 0c-.8 0-1.5 0-2.3 .1zM144 352l0 136c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-264.4L52.9 299.8c-6.5 11.5-21.2 15.6-32.7 9.1s-15.6-21.2-9.1-32.7L69.7 172.7c15.6-27.6 44.9-44.7 76.6-44.7l27.5 0c31.7 0 61 17.1 76.6 44.7L297 255.1c-11.7 14-21.3 29.9-28.3 47.1c-.6-.8-1.1-1.6-1.6-2.4L224 223.6 224 488c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-136-32 0zM432 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 240a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-192c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const PersonCircleExclamation = createIcon("person-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABkAAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCSAsGAAE2AiQDCAQgBYMtB0AbWAXIHoVxw12CQogYyklBxOV/xfMf+6Xnvg8hdGGbFFixJjS6mkAhjq8TNWanlsjukV3O3H9093K0gYiKNeTKReeiSQH/z//lnt/zowP8fASHsndr2LZojPE8gZ5HY9nYVAJlgSWKWVezjt1zlCX3SFa6MZJ/LD1eic7Q5jNPoaPeUR/Ak/lL84XSMChdAwCZBQCOXU6Kgcc/HCTvwzPySRQQyDGAdYgGDZYhOIglWMa2DrRaYYDD+h9IQID04C8v0GIU94EnALSg9C2bK9iprTXFqHHZqe1QOuuD2YbJmnLJeNV0XZUCaCKIk5WnS4wGcYhrjJXkLCGvdhqSUYbBKXpuCm4qFmQDmBoK8Ztg6KIHHpgrmz24Zb3rfklPel7b7uOA3YHXDQMftVdMVxXLJvhSAvhKuijHLMgMtwXb/xsfpR/qntC1V7tq6e7Rv9nvWwj0Q8QyzOG47ytNSJBq2jwOT+46Q56lcOrlpdABRc8+tU0AyTtgYGpi9hmH9bU+M4ravWFqauBAlVkoU/4nxAlyyXwc8M7gDex5AEH4ED7fnsf3/jfKUACfr3/8t8drqI7WNjCqQGi2Da1llz8KQSOQrLQyBDMMynU39lMnvYaAGEdA6Y0LaCwRQNAatwVBZ5ULBL1x57Gk1YJYlLOBMukKaBzQA1qLTkDnoOdEbzFNMtKpRL8KJoRGKGQacbC1J55kWLYy+UXCcS9CG+at1mYhO6FUnVrNShSr0ByQRjHpFjVCERzihwgHtuwRnsjp2vvNqUo0alKhTu00iRdyfdBcK+5tITbFMffIK0VKmbuKzWc77TZ/urAKah4x");
 
 export default PersonCircleExclamation;

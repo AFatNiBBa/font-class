@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rocket` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rocket?s=solid rocket}
  * @preview ![rocket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/rocket.svg)
  */
-const Rocket: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M156.6 384.9L125.7 354c-8.5-8.5-11.5-20.8-7.7-32.2c3-8.9 7-20.5 11.8-33.8L24 288c-8.6 0-16.6-4.6-20.9-12.1s-4.2-16.7 .2-24.1l52.5-88.5c13-21.9 36.5-35.3 61.9-35.3l82.3 0c2.4-4 4.8-7.7 7.2-11.3C289.1-4.1 411.1-8.1 483.9 5.3c11.6 2.1 20.6 11.2 22.8 22.8c13.4 72.9 9.3 194.8-111.4 276.7c-3.5 2.4-7.3 4.8-11.3 7.2l0 82.3c0 25.4-13.4 49-35.3 61.9l-88.5 52.5c-7.4 4.4-16.6 4.5-24.1 .2s-12.1-12.2-12.1-20.9l0-107.2c-14.1 4.9-26.4 8.9-35.7 11.9c-11.2 3.6-23.4 .5-31.8-7.8zM384 168a40 40 0 1 0 0-80 40 40 0 1 0 0 80z" />
-    </Icon>
-);
+const Rocket = createIcon("rocket", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABawAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBTQsGAAE2AiQDCAQgBYMtBy0bygTIrgd4IsZhvRinpJaM0Lm8ScexSEvu/SUfZiM4ciUenr8fde77MZUWTUFJUTjWYUMDlh69gYVLEL6Ytrw8Vq1l7xPbd1OvmBQ7pACgi4uKY1KnAgTKZ+Cci8KItvWvp2zVwgvdz016juwAXfB/yVy6kAA+tc3ydfYul8zEp07VjPNQAN8oaGPh0oAskNCc5xssYrn4aDdQdZ3XKorVbTJ2eIjhGyFBEtHx5fG1Qh538BVQkN5A3wCu21PFP5JZkqoMANEIAGbX8kk8FwV/rwPiqzYIiFlAN4YMC+0YmMAX4goC3SCXC37y9h9oQgBRwi0J5PiJLIBFADlIUi7w1tUIlYJSTSErD0TGFWVVkcUcvyKU40tFHqvCm0v9UCxtm3vxcWfDgr2vFuKBXwGDHbFHfPmzsilv+EfimrTu6TiSu1m6Atv+8dDvs92OfqhOturuhfDZCPD0b0pafkq01o4pnl/eRMY5SFrXR4GLL1UnEn9Z/9jfrRdPW3k/AAgEWx/uqZ74T8QD/PaHnPj3v4cSjwOolECQDb2ikSTQb4yAWoppOnwTAJJ5PHjWWk8ChGoESErVAmTaaDCQqzaIgUInDwZK1ZbwRS5FaNU0QFLrFGTGzYBcqzNQmPCllVojKye6GOjfXEIiovEpSqx2CtLS1pkKIbUeom0xnJaYAYvoNmLYpC6d+kwGfFzSnDIkkWFxP0QcrOxIEB17z/MlXcZN6DNi2JqE0H1VbzrPNkDhccJhliQRSfQ+pa5J");
 
 export default Rocket;

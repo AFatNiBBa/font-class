@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-h` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-h?s=duotone square-h}
  * @preview ![square-h](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-h.svg)
  */
-const SquareH: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm112 56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 80 128 0 0-80c0-13.3 10.7-24 24-24s24 10.7 24 24l0 104 0 104c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-80-128 0 0 80c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-208z" />
-        <path d="M312 128c13.3 0 24 10.7 24 24l0 104 0 104c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-80-128 0 0 80c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-208c0-13.3 10.7-24 24-24s24 10.7 24 24l0 80 128 0 0-80c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const SquareH = createIcon("square-h", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABggAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBwsIAAE2AiQDCgQgBYMtB0wbJQXIHoPjbolBEDE0yvPI67FextdQWp6n5v49dzfJB+BaANJEQlahkVV1NJ6FrHrja0Sm9stOdfz6NX17/8LkNgBYnbgCKiBwQMYwyHZ8HfBzQwaFSGRQr1qKJRbn1KmacR4K4INIsmnRBsk+39sjkPOC1GsTsFShAlW8BtbdRc1X1j6SFhr348UeP3XoXKDJHe1DS/mC3/iA/wOYQxv2KSYqADIPAG6/6GzGa5++5Ht4IX/cBYHcAewjVFRsI3CNEGyT7YNGI/RlGKDPMDAESAd8eQUdWrwErwA0oIjSyP5Nn641yD1TrXbiqwckn+PWKFonH7UkTxF8QxQhHayHNOTuPLnI4X4sfa7nXrt7irdcc+SXPL6D7/FvXLzZvjJpkuPRI0ebbQ9N9z9VDN6ioHZh4fw695A2xds3F6eK9zwPgvD+9eHogOnaf9ZJgL+//z/hdzT0GZVfwLgCQj02JPRmBBkJAKBknS8jb0FQXSOhd532UUBMIqDoTAqotpgRaEw6ikBrVxGBzqQnhDQaxLI+BsW0d6C6YAM0lj2D1jVvVmc5VdkoVaH+evGN0foRZ1MZrnE1FWn9Iey6iYelyLpWFM5i3IJ5q8aMmrIavqzZXTOn0cLqPohlpWSwGl4uLvmerGUrpmR2fU8TPm9GrLeHo3AaCXDmmkKVFBLmF2smJ49rrWDN2PcJAAAA");
 
 export default SquareH;

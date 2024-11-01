@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `conveyor-belt-boxes` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/conveyor-belt-boxes?s=solid conveyor-belt-boxes}
  * @preview ![conveyor-belt-boxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/conveyor-belt-boxes.svg)
  */
-const ConveyorBeltBoxes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 32C64 14.3 78.3 0 96 0L288 0c17.7 0 32 14.3 32 32l0 192c0 17.7-14.3 32-32 32L96 256c-17.7 0-32-14.3-32-32L64 32zM384 96c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-128zM0 416c0-53 43-96 96-96l448 0c53 0 96 43 96 96s-43 96-96 96L96 512c-53 0-96-43-96-96zm160 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm160 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm224-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const ConveyorBeltBoxes = createIcon("conveyor-belt-boxes", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABkAAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCVAsGAAE2AiQDCAQgBYMtBzobXgXIjsM4hvwSQ/tH8Lzdf9W53QO4ZyLYkcQeWIu3IRT9bBnk64iRkD9fzPN/uef3/DbgJzo8pL30fAON1VyaQBpYeb7As8CyOMEErL31b5dFkVFJkq+Z3GM63J53gTz+zk6qRrqXvsAV/6Lxg1ZOktTKAERDAIyZO3OGqq/iq4jP/3+X+Nw0BMQYUAhkyNBWgOEygbZyBXK54Kv4/3/8DywIIKqj2yWQoyYu4iYgB0n1PG/dukUTCutUq5fPiV+t9sJjLSLu1KkTF5rdIsqmN2vXjvPNb0csnyKrnnR71FuD6sW7Xd5s97DzG/3rxntdK+3rHGsecbv2+aY3lc1u1bnQ4k7MviCXwzZwxlzGh3WqNKz81PE1G/Wk/lnO1q9S/2zyRxlDZRtOHFWzQqWsUlYqNauI+lM2g1LY8aRDT/Xl9UAgaP/y+wM1GP5rzToJfPPRL3/kH6H/q1KZKqgpgSDr/n93i1IJqRQAgBR7dEolAslJ1/usdd0WINRGgKS62gJk2mgoQK62bgJU094AAaqrbaZM5LWEphZXkNS1HWQGOgxyTb0Nqhnu47i6ppGpJK9Q/AdhysQWmnCo6NOzdzG0WDaKoGWsWx9WsJ3Oe8xYFzhrja222GW1Vdbb1ZA7zMh222ziDp7gjQp99NRbYahC3LvPz7HaDjutn4vyfYYpzged7dnP7gJ+QrR9HU0SkZr81Z3fv3VHjxWrN+3q8WYBAAAA");
 
 export default ConveyorBeltBoxes;

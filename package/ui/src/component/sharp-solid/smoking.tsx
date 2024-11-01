@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `smoking` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/smoking?s=sharp-solid smoking}
  * @preview ![smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/smoking.svg)
  */
-const Smoking: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 0l0 43c0 38.2 15.2 74.8 42.2 101.8l21 21c21 21 32.8 49.5 32.8 79.2l0 43-64 0 0-43c0-12.7-5.1-24.9-14.1-33.9l-21-21C405.9 151.1 384 98.1 384 43l0-43 64 0zM576 288l0-43c0-38.2-15.2-74.8-42.2-101.8l-21-21c-21-21-32.8-49.5-32.8-79.2l0-43 64 0 0 43c0 12.7 5.1 24.9 14.1 33.9l21 21c39 39 60.9 91.9 60.9 147.1l0 43-64 0zM0 352l32 0 384 0 32 0 0 32 0 96 0 32-32 0L32 512 0 512l0-32 0-96 0-32zm224 64l0 32 160 0 0-32-160 0zm320-64l0 32 0 96 0 32-64 0 0-32 0-96 0-32 64 0zm96 0l0 32 0 96 0 32-64 0 0-32 0-96 0-32 64 0z" />
-    </Icon>
-);
+const Smoking = createIcon("smoking", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABdgAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCKgsGAAE2AiQDCAQgBYMtBy4bKAXIhufh7Xg79818zcR4SQW7yoLuoMqduuyWADqpdytUnDqVczkPBfCNgjI2Lg3FFvgeHIGcz47lmypUK1i1gFi27s4WzSHskzRkSfrVHKcztPm7ucsA5ZHyMR6Ib5ofTHcXxUgDIOMAsPPkY0e9+22+TT76/yXykcMIZCeoggYNZgnYohHM0qpotcK3+f9//A+sBMgg+h0FtBjGTbgN0IJisG2nTx8/Mn58PzC6Pakf6C4Wj25dmKdmS5fk9imL8uVJSX9q5LFti/L0nKSP3DZ5Yb44Ubor+m60iHSjkiQnij5Jd74Q6UKtfd8sz3983OM/zfv4oo+9885i+Hrd3Xv8OnqxHRab9NUebzpxsR23zh1v3r691nerc1T1eBa+6fCkq45vt9A52g6VST2neR4IwvLDl3Vnj93y13BfwPev//ITPO7/d8tt5XEMKyA0S/5f4oxyG2BLkFFyk/nCgEFxlZt81VEeFBAdAopBnYDGTOMEtDqLBQyYY62AQZ1jGmlHxCRnVlCMci1orHMzaE3yAhiwxXv6oElptI/WHfrvl7CPw3v76splK+qmOrUVRqFIX99cl8UFN7nYQjjpIle7yg0udIFL3cDQ6xy1bnSlfRKy1wdVKy2zQrVJ3fbuD5/kQte53qWudlXoslk9ry5wk5y9EJSCMFdZVxRShq6/8upXDA==");
 
 export default Smoking;

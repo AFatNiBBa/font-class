@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `invision` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/invision?s=brands invision}
  * @preview ![invision](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/invision.svg)
  */
-const Invision: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M407.4 32H40.6C18.2 32 0 50.2 0 72.6v366.8C0 461.8 18.2 480 40.6 480h366.8c22.4 0 40.6-18.2 40.6-40.6V72.6c0-22.4-18.2-40.6-40.6-40.6zM176.1 145.6c.4 23.4-22.4 27.3-26.6 27.4-14.9 0-27.1-12-27.1-27 .1-35.2 53.1-35.5 53.7-.4zM332.8 377c-65.6 0-34.1-74-25-106.6 14.1-46.4-45.2-59-59.9.7l-25.8 103.3H177l8.1-32.5c-31.5 51.8-94.6 44.4-94.6-4.3.1-14.3.9-14 23-104.1H81.7l9.7-35.6h76.4c-33.6 133.7-32.6 126.9-32.9 138.2 0 20.9 40.9 13.5 57.4-23.2l19.8-79.4h-32.3l9.7-35.6h68.8l-8.9 40.5c40.5-75.5 127.9-47.8 101.8 38-14.2 51.1-14.6 50.7-14.9 58.8 0 15.5 17.5 22.6 31.8-16.9L386 325c-10.5 36.7-29.4 52-53.2 52z" />
-    </Icon>
-);
+const Invision = createIcon("invision", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiwAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCQQsGAAE2AiQDCAQgBYMtBy8bQAXIhiDSlVWPpPVZu2YdsAzID8QcEQbRR0gRwfyf6/mejwb4eQRDi8JKkEgcRV3U8xM4wGi/BrkDORvYRPHeNkTQEYSnEWJSEtGY0jhdIY/b4xoF6db0Ma6uHY0fdLuApMgAxEgArN15+y29/ml8GvHx/y8SH9scAbEO1AIZMvQJsEIm0CdXI5cLPo3//6f/wJoAokGuTCBHgQtwBXwnIcnyvGfE9s1iWL5TsygPbg1rXVbdIMU57Tc2h8XlnTdHFud23FTucEsVcUN5WcdNHbdPvrx7x4c6Im7qjbi9N+Lmzts7bprwQNcOUUZvPLHopYGbOm8evL23jMFoxh1dd1Q3uHHyw707B2l98bRJTH2074bqlum7nZf3ToxnFo17bORjP439+KCP3XT3UUcdNfrx10YfZfRrjzdGv/71sW7ggbx18kHNpft0Lrvj69eP4uiFLNiOjvadXn21MeSM7oPMdLYbU1SN7u5z5hxWO9+WHj/kCUzlgws3/GTMVsb1G7rYDm+/WFSvrZ66Fj+Zt64pn+hQzAUCwR+Pvtm794gVv7Y1E/j8tV/+xi///2m8nh5DmwSCbMb/M+wRrwOgA3BSnGRc0LNAcoYM5FdbbhIglAiQNJQCZHqNFCBXmi5AYcBCARpK28tEPlSo7KkgaTkWZBY5E+Qqz4PCCu85DVVkiUimEfkPjNvIQhuuqufOmlMvq5eZTuUWXhaX19v8lJN4YCpcdJCjHeUEBzrAoU4wyHG29E90pI0ieEM9qs01yxy1Zerjcs/thM5xjnfonDlfZrn6vj3FSfH4qSAlgjnPniQRqe3Qo94HAAAA");
 
 export default Invision;

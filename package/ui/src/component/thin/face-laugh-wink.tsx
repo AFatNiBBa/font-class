@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-laugh-wink` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-wink?s=thin face-laugh-wink}
  * @preview ![face-laugh-wink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-laugh-wink.svg)
  */
-const FaceLaughWink: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M335.8 168l-.2 0c-8 0-15.8 1.8-23.1 5.2c-10.5 4.8-19.7 12.6-26.7 22.9c-1.8 2.5-3.5 5.2-5.1 8.1c-2.2 3.9-.8 8.7 3.1 10.9c1.3 .7 2.7 1.1 4.1 1c3 .1 5.9-1.6 7.3-4.4c1.2-2.4 2.5-4.7 4-6.8c6.6-9.1 14.4-15 22.5-18.1c4.5-1.7 9.3-2.6 14.2-2.7c14.5 .1 30 8.7 40.8 27.9c1.5 2.7 4.3 4.2 7.2 4.1l.2 0c1.2 0 2.4-.3 3.6-.8c4-2 5.5-6.8 3.6-10.7C379.9 182 358.8 168 336 168l-.2 0zM176 208l.2 0 .2 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-.2 0-.2 0c-8.8 0-16 7.1-16 16s7.2 16 16 16zm-55.9 80c-9.6 0-17.2 8.5-16 18l0 .3c-.3 2.5-.2 5.1 .5 7.7c.8 2.8 1.6 5.6 2.5 8.4C122.7 385.3 179.9 432 248 432l16.1 0c68.1 0 125.2-46.7 140.8-109.6c.9-2.8 1.7-5.6 2.5-8.4c.7-2.7 .9-5.3 .5-7.7l0-.3c1.2-9.6-6.3-18-16-18l-6.4 0-259.1 0-6.4 0zm6.4 16l259.1 0c2.4 0 4.4 1.1 5.4 2.3c.2 .2 .4 .5 .5 .7c-.6 4.1-1.4 8.1-2.4 12C370 375.6 317.4 416 256 416c-61.5 0-114.1-40.5-133.2-97.2c-1-3.9-1.7-7.8-2.3-11.8c.1-.2 .3-.5 .5-.7c1.1-1.2 3-2.3 5.4-2.3zM256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zm0 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480z" />
-    </Icon>
-);
+const FaceLaughWink = createIcon("face-laugh-wink", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABpAAAAKxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDEgsGAAE2AiQDCAQgBYMtBzYbmAXIjsK2eXOEY8qQSRwYwjMe6sf+d3bv/WLSRBQIVRONzhAaoalGy1oCJfwhQtL8/If98Z77ITNBCVCVsK2+NrhBE5c7/2lPfz426aOMjUunNbYVzXmeQIBje96ledYFkmkClrU5bvAdVLztFJMgC2nYHhqmblBjGzexk89ZbsBdvWn8Iq2RVAoAohcAXLwe6o8Dhpigm8Yq8Z0vCIhLAGYRCgomETjGKjCJzSyoquCc/v+3/0AlCCCawScmqGjFO3wFVJCaK5tqv5yUrCwvOz9bBC87TyYRNYn1BJF4L2+zZL8sW3u4RLFGYs6CwohEv2SfBMm3Mr3iYT0aWiueTFpvuiM9P9pW3VDypjoJniR+Pv5m8Vre8NkjVhtmazZbCn1UR/28sS9+RDcXDlB78dD/NvxN4L3rMdW5HAXcReCVN9HlxUV31g+8LsJe+1y5LEWd6bHvdaTKlNDUZ+WbjBsEjgA6P72dUxXVCBViYRcdEBk9DuGSnBBlh+y9rK5qhPE5AOcCAowu7wV+FwJqYWU9uBFvJAQjcw4O9WzQ+7uZRZCVjxEOYhf/aaPNMNo2H8Q5EH2lztAdHdw/knN1lbPt7HBHbbbrQhdQALdafjg6/mgpLHACmnE/QCB48c3/IlHQ7n8rLwvgx9bXX/oZaRwk8iNolSAoyw09cQlIAgCQUQGVBALprWZ81U5PBAjtCJCatQtQTBBCoGq3hECTaeYINGt3Gauo3AiD4geTOt1mil1VTDVomWly7DzXbDBYPVb3N/1/McdjBtzXKRkbGCnZKF02dcMJ1bRsq/TY1aqIQ9q4ggyFCpRJlyZb8oSX8C+Wy+exwtx9kRJjBowosaG03fl8PkK6EqWyFSooq9hSej/UUrGerI2ABSU3NaQkUvBz2KWfl1yemaVfmV2QCwA=");
 
 export default FaceLaughWink;

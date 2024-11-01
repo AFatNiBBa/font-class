@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `warehouse-full` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/warehouse-full?s=duotone warehouse-full}
  * @preview ![warehouse-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/warehouse-full.svg)
  */
-const WarehouseFull: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M128 248c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24l0-80zm0 160c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24l0-80zm224 0c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24l0-80z" />
-        <path d="M0 171.3V488c0 13.3 10.7 24 24 24H72c13.3 0 24-10.7 24-24V224c0-17.7 14.3-32 32-32H512c17.7 0 32 14.3 32 32V488c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V171.3c0-26.2-15.9-49.7-40.2-59.4L331.9 4.8c-7.6-3.1-16.1-3.1-23.8 0L40.2 111.9C15.9 121.6 0 145.2 0 171.3z" />
-    </Icon>
-);
+const WarehouseFull = createIcon("warehouse-full", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABhQAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBwsIAAE2AiQDCgQgBYMtB1gbMQXIhof/1vq8r6r/LAD1AqMiIgWIYVZR64JGzIkl0DP/19TLoAP8fOCnh1axKEyLBMx8PoF8XrQ3TZvQhAY2M526qbWgoFJ9PGQU3cqQHZ85vt2gSH3zBXWkp+ln3Jb/AYxfdXCBpEEGEM0BMH3FknleVaOa4ufaN8TP5iIgZoBSICOjswCTZIHOCiUKhaCaajWqUauVBBAVwmShin9lO/YBCpCEXBRDmlOhUV2TYnl+vmFOOT3t3Sje75TjbLvHjZrE9TYPpZh/rO2jPpvjUeuN8U7rB1Y879so3u0gnvRqGO91DFqp0cEeHzX/6PfuP2//WZvJfL7NomEWtamv6ZUrTc/0ZH18bLLWn3/WrtFu33yTGtt99nlrp79bw3dSC1X8DRxURQ4S3geB4MiJm8M2NJv0f/1GCfzy7Z//ci/UXqUz6SPUl0CQB9UGWSt5KPIAyimO62EYYU/ZMFn71MYeCRAaIkBS0VCArJPmAhQaGihAna5GC1DR0BJZFA2E1tZdIGnsEMjGOAkKrX0N6kzyXamidWSwGVAx/vVy52h09rpy+JBh5YTysWmY+NHy8sTydazf8TjUny7a7oD9jtpmq12OKumwedVj9pljibN9UWm4IYYpTVBud57d5Vw67Ihd9/b+KhOV36f7OW5P7k/JpKmOcCXLRIrc9sSmw9uw6A0+l6HBwB3XfmWfUgAAAA==");
 
 export default WarehouseFull;

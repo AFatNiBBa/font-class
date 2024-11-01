@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-arrow-right` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-arrow-right?s=light magnifying-glass-arrow-right}
  * @preview ![magnifying-glass-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/magnifying-glass-arrow-right.svg)
  */
-const MagnifyingGlassArrowRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 32a176 176 0 1 1 0 352 176 176 0 1 1 0-352zm0 384c51.7 0 99-18.8 135.3-50L484.7 507.3c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L366 343.3c31.2-36.4 50-83.7 50-135.3C416 93.1 322.9 0 208 0S0 93.1 0 208S93.1 416 208 416zm27.3-299.3c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L265.4 192 112 192c-8.8 0-16 7.2-16 16s7.2 16 16 16l153.4 0-52.7 52.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l80-80c6.2-6.2 6.2-16.4 0-22.6l-80-80z" />
-    </Icon>
-);
+const MagnifyingGlassArrowRight = createIcon("magnifying-glass-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdwAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBbgsGAAE2AiQDCAQgBYMtB0MbAQXIjsN04ytHkSRX/iKq9nt79l0QHPtEoQqXBxYyGsi4OJI+RpCMEd9/fn/fr30xAM9MMqvBJmXIn6ovlE/P/zWf3/NrwG90KNFYWlx055l7PoEBzsLTJhQFNtMJ2HZnc0wS7ZCSljKS41scl7KHliOygkh9cg8Br/FD8w9dXUBpHQAyCQA4uI4MxrmEJEQP/+9AvhAIAjkEsIzQocM8Att4wTzBMmia8E3//+N/IAMCpB/0zAUa+nAFbgA0ULom6OvqyYuKQoy8KJc46E50YL2CNqtlt325AY9Dm1Vqt13zPJLn3oRG06j2uFYMXcW+jnge8zLsadSr8GfRiWMaI5rhJEcjGqOa8hRGI5qj2rE0dIbposriW5OHOQ/xZN6uFnh6qbexqa+rqbVjCdzaFkKtw0NYWJiaGhrGd3JO7OJibEJocZE3mp6FsNYJk5AoKUkm4STQjRoamhm8HBCEP4VP3anKXl9l5DnA7+H7r3C/ot5RidwiYFCB0K3+t0JSgd5vTkQAAJUamBYQlCM8utZRbyAQwwgo/YYFdOaoINAMW0GgzyJnBPoNO8dLk0XMSq6gjLoFnS3NoJm1Bfpsu+P2mw2vX7x28K+7FB8Oea9i9jZ2zIN1E0VQGdYverJp1azGNsxhJ3KUKlElW5Z8VYysEBxUK+Yjwd6+iLFnww7jgS3nt5tjZKtQKV+pkrCMJ7bfNFMj95uDwSHKNbFSpAz+xw3l1OeX5FofqYh1ekVFae01BQ==");
 
 export default MagnifyingGlassArrowRight;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-two-thirty` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-two-thirty?s=sharp-duotone-solid clock-two-thirty}
  * @preview ![clock-two-thirty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/clock-two-thirty.svg)
  */
-const ClockTwoThirty: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm232-12.8l10.7-7.1 96-64 20-13.3 26.6 39.9c-6.7 4.4-13.3 8.9-20 13.3c-28.4 19-56.9 37.9-85.3 56.9c0 41.1 0 82.1 0 123.2c0 8 0 16 0 24l-48 0c0-8 0-16 0-24c0-45.3 0-90.7 0-136c0-4.3 0-8.6 0-12.8z" />
-        <path d="M232 416l0-24 0-136 0-12.8 10.7-7.1 96-64 20-13.3 26.6 39.9-20 13.3L280 268.8 280 392l0 24-48 0z" />
-    </Icon>
-);
+const ClockTwoThirty = createIcon("clock-two-thirty", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABggAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCCAsIAAE2AiQDCgQgBYMtB1wbNgXIhocnu/47t6pnPqD+MCOSK8br9G0EMaaijWf+r8nXBXTvm59xlN1ZgyyAup9PYM8b5/MGndBMZ2Dz28n3LAZ1q6SXX7oMi05WiysU8VW+qkJ6In2C++R/AOMvHVwlaZABRHMATF+xZJ43vo/vU3xSe5H4xFwExAxQCmRkdBZgkizQWaFEoRB8n2o1vo9arSSAqJJ7Z1BFBVtxCFCAJKSi6NCpX6NKk2K5lBquCIG3t4sV0TcGR69YGkI0jG+nR7w579NGdxZ8PvPtFd/NeGv+Zw1vz/1k2htLV7Rr3W4yfLh1IJ/qxV5kbBiXTvd4ofkL/3T/ZPsnfuvW3j3upiaesWGqSR4zydJxzmhvmDfMbkCHujdnznyzrkMDs7md4t8aP+McxfkZM2bOmDxp//pu3bp2q0Iapgr10HMuslsCwatPnnx8Q7NJ/9dvlMCPL/33Z/whqb2RpBdQXwJBHlQbZG0CiQAApDiuR+J3BLKZEnxqY48KEBoiQFLVUICsk+YCFBoaKEBFV6MFqGpoiSyKBkJr6zJIGjsEsjHOgUJrdaBikvdLVa0jW5ttK/Zfr2AOI7O3lcOHDCsnlN225BiQGdYnltNRv+N+rD8u2u6A/Y7aZqtdjpJ22LzqMfvMGQmzfVFpuCGGKU1QqnuXwXIqHXbErran32Sicn3Rz/Hx7P7YTQKM2KeaTKTI7a/m9MGvV8XRU4NNd3rHqndOAQA=");
 
 export default ClockTwoThirty;

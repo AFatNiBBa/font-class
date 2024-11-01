@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `music` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music?s=sharp-duotone-solid music}
  * @preview ![music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/music.svg)
  */
-const Music: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M128 120.2l0 23.8 0 72 0 140.6c37.3 11 64 40.6 64 75.4l0-192.2L448 163l0 129.5c37.3 11 64 40.6 64 75.4l0-248 0-72 0-43L470.8 17.4l-320 96L128 120.2z" />
-        <path d="M416 448c53 0 96-35.8 96-80s-43-80-96-80s-96 35.8-96 80s43 80 96 80zM96 512c53 0 96-35.8 96-80s-43-80-96-80s-96 35.8-96 80s43 80 96 80z" />
-    </Icon>
-);
+const Music = createIcon("music", true, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABdQAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBWQsIAAE2AiQDCgQgBYMtB0Yb8QTIhofv18o/93XPBIA6zOiAHDpmCaTWBVWE2opMPihyM/+Xe37Pjw7wGx3aHrrsth/OWWkCgUe9dGIWUEJhpBlYbxsi2AjEW2JSEtF4OV4XyONHdk6JdD19x2X+H8D4rZVzJLUyANEQABOXL56rqjqqU3yvvCa+m4OAmAQKgQwZ2gowRibQVq5ALhdUp0qF6qhUCgKIMn52BsooYT6WA3KQJJHnTZp0rFOqly/j76hd713viJcd7vR6Mex1j2dtb/d8PnTDmFwtCPFY3VYRywmTB4bEhujS6UXDF392/L7tu3unHvMk4snjU0DQjvHjvePk9JZ4ZoaL3jXJalepzHGmv/h/M/R23vj1tgGBoNZ/vw6tbzDmn5p1Evj58e9f8HdUqUrSC9SUQJD1qfSxJoFEAABSHNMpwSmBTDeJvGtdVwQItREgKastQKaNhgLkaustQEl7QwUoq22xTOS1hKbWKkjqOggywxwHuaZegZIxPgVlTSPLKiIniE9d7DQLTT1UDOw3oBhVLFONTBSsrkcX22qPY6XVE07aZr99jthqi52OGOSQufFRe02L4Kk+qDBQPwMURimOiz27DINDDts5p8/3Ga24b/ZwLB7uCUYiqIMcyWREiqxeuol9X6fQwNCvEAA=");
 
 export default Music;

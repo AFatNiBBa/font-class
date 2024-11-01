@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-signature` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-signature?s=thin file-signature}
  * @preview ![file-signature](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-signature.svg)
  */
-const FileSignature: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 496l256 0c26.5 0 48-21.5 48-48l0-14.7 7.5-1.9c2.9-.7 5.8-1.7 8.5-2.8l0 19.4c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L204.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 145.9c9 9 14.1 21.2 14.1 33.9l0 23.5-16 16 0-39.5c0-1.3-.1-2.6-.2-3.9L248 176c-22.1 0-40-17.9-40-40l0-119.8c-1.3-.2-2.6-.2-3.9-.2L64 16C37.5 16 16 37.5 16 64l0 384c0 26.5 21.5 48 48 48zM358.6 157.3L226.7 25.4c-.9-.9-1.8-1.7-2.7-2.4L224 136c0 13.3 10.7 24 24 24l113.1 0c-.8-1-1.6-1.9-2.4-2.7zM128 328c-1.1 0-2.1 .7-2.4 1.8l-15.5 56.7C105.4 403.9 89.6 416 71.6 416L64 416c-4.4 0-8-3.6-8-8s3.6-8 8-8l7.6 0c10.8 0 20.3-7.2 23.2-17.7l15.5-56.7c2.2-8 9.5-13.6 17.8-13.6s15.6 5.6 17.8 13.6l19.4 71.1 21.9-38.3c5.1-8.9 14.6-14.5 24.9-14.5s19.8 5.5 24.9 14.5l16.8 29.5C258 395.4 266 400 274.6 400l13.4 0c0-1.3 .1-2.7 .5-4l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9L493.2 139.7c15.6-15.6 40.9-15.6 56.6 0l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6L382.9 391.9c-4.1 4.1-9.2 7-14.9 8.4l-3.4-13.6 3.4 13.6-60.1 15c-.6 .1-1.1 .3-1.7 .3c-.7 .2-1.4 .3-2.2 .3l-29.4 0c-14.4 0-27.6-7.7-34.7-20.2L223 366.4c-2.3-3.9-6.5-6.4-11-6.4s-8.8 2.4-11 6.4L176.7 409c-2.5 4.3-7.1 7-12.1 7c-6.3 0-11.8-4.2-13.5-10.3l-20.7-75.9c-.3-1.1-1.3-1.8-2.4-1.8zm180.4 54.3L304 399.8l17.6-4.4 42.5-10.6c2.8-.7 5.4-2.2 7.4-4.2L514.4 237.7l-48.3-48.3L323.2 332.3c-2 2.1-3.5 4.6-4.2 7.4l-10.6 42.5zM552.8 199.4c9.4-9.4 9.4-24.6 0-33.9L538.4 151c-9.4-9.4-24.6-9.4-33.9 0l-27.1 27.1 48.3 48.3 27.1-27.1z" />
-    </Icon>
-);
+const FileSignature = createIcon("file-signature", false, "data:font/woff2;base64,d09GMgABAAAAAANMAAoAAAAABvAAAAMCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDdAsGAAE2AiQDCAQgBYMtBzUb+QURFZuNyX4kxsasHt9xI6xtp2HtobGJTfwS/PNvV933qxqnesatNR3B0SiyV8io2KGARjbZoVmcGrYpWyE//iR7WXBYHG7uulpVI/rHvdM/bNP3UY8jCG1sWrr2Ok8g0aKxLbAuD7NAKebUTRFBD0XyiGgn0hXX7fgKHtdOwNYdluICU2auADnlTfWGWqSBwbIAAFAcAAAwaMaUcVx8qIfSlcgx6ApjAAFoMAANEWABFlAXAdAXCwF1sWkI2NgIHioSCf+BgABAbvBzDAA24AFuAq8AABsAg8u2R8bMSYzyuaLt6T6XMy46KnpfqKSOFFJJCJW23N80SntbH6xtqaLNoRY+ZQSmqQjkl5SsZDlKDxZLSncc7fYXho3KAkXNVkyfNr04iMqa+VQcnJpOQ5U2dUZRScinfXWayPNFgWnqkOzLCLRSkY8hkkPGGQsS2E6Sf6oK/UEFNFTJTpLzenBv7dYq7kF/WxU6WT+dy5wWrhNuoR4q82BtP7jujIpgUHv9LTVObRofjDv4rtGV5VeIAB3vXrViWUvHjok48fHbYXu1OEl0Ryb/vdRU9/whIrTAGNhC/KHTv4WMmc8qk7Cu3u3YfHIqXuJYS2DSWtDzg8b8JP2Sl4Vu90IvTHzB2Is3+iYMZzpZcXFZ0ayJicboDeFpR4+6HBt3+R5n4uLOXpzTktuShPMg7VyPhYej6ebxdNtGd+/2lv4xGHOkWyc83U8ZHTtnZfsoO1tj+8DX4zcevCf632liOQgAAgSd0hqsXxDb95vXZwB4fPrDb+3uyEVmoDkIeDEACKy2kbbmmoEAQVYAEDHaRGPhgwQYbuACtiiKtTHhAIHBjQMWdYgDG4c24KI+3U5w4zAFC9nGoBE1AoboBFbgCxziB7zMPywgYU1cZaCqH8z0xYzn62AbFhLcNnW11SrScoptk/SJQ7LbSHV2m0erMXom7lLGXqtCYnNfBDaDBRJQd171lQ9fbiOv1a+Swvc2yUeeLDsrA3IdZQwGRXdPk1e/x/5kAA==");
 
 export default FileSignature;

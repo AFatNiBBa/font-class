@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hotel` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hotel?s=sharp-duotone-solid hotel}
  * @preview ![hotel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hotel.svg)
  */
-const Hotel: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 448l0 64 208 0 0-96 96 0 0 96 208 0 0-64-32 0 0-384L32 64l0 384L0 448zM96 96l64 0 0 64-64 0 0-64zm0 96l64 0 0 64-64 0 0-64zm64 192c0-53 43-96 96-96s96 43 96 96l-192 0zM224 96l64 0 0 64-64 0 0-64zm0 96l64 0 0 64-64 0 0-64zM352 96l64 0 0 64-64 0 0-64zm0 96l64 0 0 64-64 0 0-64z" />
-        <path d="M512 0L0 0 0 64l512 0 0-64zM160 96L96 96l0 64 64 0 0-64zm128 0l-64 0 0 64 64 0 0-64zm64 0l0 64 64 0 0-64-64 0zM160 192l-64 0 0 64 64 0 0-64zm64 0l0 64 64 0 0-64-64 0zm192 0l-64 0 0 64 64 0 0-64zM352 384c0-53-43-96-96-96s-96 43-96 96l192 0z" />
-    </Icon>
-);
+const Hotel = createIcon("hotel", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABoAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDKAsIAAE2AiQDCgQgBYMtB0YbwAXIhiBaK6tn9+8pDJsoQFCJAiYH5OOALQA6IqGQVPRNXPP8C58esMgfLar8fwE+rMDdBAa+xvIGnRfOdAa2wXkn0+jQ8JB+hDzeZftUkA6nF9h//Q9g/NLSPpLqDEA0AMDo6ZMnefQ+3qd4Ub5GvDARATEGFAIZMrQRYJhMoI1cgVwueJ/KZd5HuVwQQJRcd8tACY1wAXcAOUiqVOV59WPXadkzsKitqJtP2zfXLK9Xv56oH7GgprZG1LZIbSxMk6NmiiCal0850SXizIBrnU61qQ0DA5mBWhNZ1Ikkz7aV0UHoPzX1ZNeIswOvdz7d1tB+urBrxzMNzvzp8GLZC+WHGIVR8+ePemSvsQvCo8Y/nM8bj9ptIx9WneHMrl1nzlQ94k7fWPA+98YohV0e2aWI3XlB0PiR7U0ddtqfDgSCRV9u7Jtff9j/qtoEPt759xP8kJQfJekMqiQQZN3K3cxJIBEAgBTbdExAIDNbledR6zggQKhBgKSkRoBMaw0EyNXoKkCFdvoLUFJjskzk1UITcwme1LERzwywHc81cRWvMMzjSkmTyHIvl/e4f8fkCSwwflbRu0evYkihbUB8hmT24aGFs91pm9DUud1qmfXW2WKpJVbawmCbTKpvtdYEEzreFxV666GXwhBFcEeiPK2vbLLZSrUYPs1QRfq8k23mzp1bL3lo+5iTyYgUWd3aqnf/CLT6jFjYAQAAAA==");
 
 export default Hotel;

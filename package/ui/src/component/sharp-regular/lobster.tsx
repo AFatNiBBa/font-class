@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lobster` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lobster?s=sharp-regular lobster}
  * @preview ![lobster](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/lobster.svg)
  */
-const Lobster: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M80 96L80 2C74.9 .7 69.5 0 64 0C28.7 0 0 28.7 0 64l0 64c0 35.3 28.7 64 64 64l.7 0 66 44 6 4 7.3 0 32 0 0 16-44.2 0L87.2 233.7l-14.3-7.2L58.5 255.2l14.3 7.2 48 24 3.4 1.7 3.8 0 48 0 0 16-61.4 0L69.1 288.8l-15.2-5.1L43.8 314.1l15.2 5.1 48 16 2.5 .8 2.6 0 64 0 0 16-16 0-3.8 0-3.4 1.7-32 16-14.3 7.2 14.3 28.6 14.3-7.2L163.8 384l12.2 0 24.5 68.5C176.8 461.8 160 485 160 512l192 0c0-27-16.8-50.2-40.5-59.5L336 384l12.2 0 28.6 14.3 14.3 7.2 14.3-28.6-14.3-7.2-32-16-3.4-1.7-3.8 0-16 0 0-16 64 0 2.6 0 2.5-.8 48-16 15.2-5.1-10.1-30.4-15.2 5.1L397.4 304 336 304l0-16 48 0 3.8 0 3.4-1.7 48-24 14.3-7.2-14.3-28.6-14.3 7.2L380.2 256 336 256l0-16 32 0 7.3 0 6-4 66-44c.2 0 .5 0 .7 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64c-5.5 0-10.9 .7-16 2l0 94L389.1 38.8C385.8 46.6 384 55.1 384 64l0 64c0 14.9 5.1 28.6 13.6 39.4L360.7 192l-25.2 0c-2.6-22.5-16-42.9-31.5-59.2l0-79.2 34.6-5.8 15.8-2.6-5.3-31.6-15.8 2.6-48 8L272 26.4 272 40l0 65.6c-3.2-2.2-6.3-4.1-9-5.8c-4.3-2.6-9.7-2.6-14 0c-2.8 1.6-5.8 3.6-9 5.8L240 40l0-13.6-13.4-2.2-48-8-15.8-2.6-5.3 31.6 15.8 2.6L208 53.6l0 79.2c-15.5 16.3-28.9 36.7-31.5 59.2l-25.2 0-36.9-24.6c8.5-10.9 13.6-24.6 13.6-39.4l0-64c0-8.9-1.8-17.4-5.1-25.2L80 96zM288 200l0 40 0 16 0 32 0 16 0 32 0 16 0 23.7L262.2 448l-12.3 0L224 375.7l0-23.7 0-16 0-32 0-16 0-32 0-16 0-40c0-6.6 3.8-17 15.4-30.3c5.2-6 11-11.4 16.6-16c5.7 4.7 11.5 10.1 16.6 16C284.2 183 288 193.4 288 200z" />
-    </Icon>
-);
+const Lobster = createIcon("lobster", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABzQAAAMHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHiFBQsGAAE2AiQDCAQgBYMtBy4bgwbIHoexe+RcFB8DexHPEza191cyrexEGRPtASN3TG2IuyMqlYZPzx1yVvtu4Jy6yCcdMEVvdtAsrKJIikiMBDzwbfSkgxzfdrCbXsA+uu1imGj7CIUT1PNB7tZG8UjxI+4yPzQ/G3Y9hbYagDQBsM1B++3h04VZmPzQivxgNwSyDagENdQwJmBzNcGYugp1dWFhWi32H1gRIO1sWkFXxwVZgaxN9UoUinr9z9UbbT31Axtt5WGRB8vnV355SB5Z5ZUVGjkg/Wk0pMymGchQ+rMJQzfENthc9mX59GU4g1kp09zP990vErhm4MEVD4p6BV09Olx4xQykLCM8mI0ymBHV+hUk6Gb4xmcdlGsa1+Sl1V4bTR5d9dUVb+2TbXM/ubp/wOiTq2YJqr6IPDhwTflg3/19sZsHDumVl8euseWhJNcMbH2AEI74/VPmwGS3B0cfGnyg/5G+ZV9tvvorP574o72OOtJOPqfz6WnTyq2VwSM/HdusZj8dVdPqvjLdHNP9bxn1tZu2MN9ST1iqpVJs3dSsL6Nlurlm+Em3oe2t+Nab/Z/qf/OtgcHtdfvJDHNN15oONMNb15pa3D3fFiC4Nvp/+ldW11R17LeHFeFQN9Z5zpFetlvP1gYX7GzYMTdnBYvt6U//+8wU21p3neS449bZbltTfOZ/f9rTYivYy837jNjZgsGt9ez28q5s+5sqSsKQ4Z1006EhDRddWdffF3Px311AELrMn3nU1M3/7WwUYPH7z/oVtT4tFK+iUwFCbfXW6g4vQEEAAEUutGwBQZFxBftduz0oIEoEFNqVAmpGNQXUlVYT0GbCBgLalfZTk3qX6HNExi10O4dbs6EruHV93uO22dw3gXZ9qX0qMoku+1NNvWMR3mFdtc6aa1ebVq1FiVz2S7ThzarB5pUv5E2rQEonOsuZzneC453i/ALnXHuEL3CGHbvYO/iiyjrWtLbKpqrJlavqA7HlXOdxSbNi+iybqZZ3rOzC7s6rQMULil43HgoFSS86Tj/r2PPOP+FcAAAA");
 
 export default Lobster;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `racquet` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/racquet?s=sharp-regular racquet}
  * @preview ![racquet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/racquet.svg)
  */
-const Racquet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M349 48c31.9 0 61.1 10.9 82.6 32.4S464 131.2 464 163c0 40.6-17.7 84.9-52.9 120.1c-64 64-154.5 68.7-202.7 20.5C186.9 282.1 176 252.8 176 221c0-40.6 17.7-84.9 52.9-120.1S308.4 48 349 48zm0-48c-54.2 0-110.5 23.4-154 66.9s-67 99.8-66.9 154c0 35 9.9 69.5 30.8 98.3L127 351l-23-23L70.1 361.9 33.9 398.1 0 432l33.9 33.9 12.1 12.1L80 512l33.9-33.9 36.1-36.1L184 408l-23-23 31.7-31.7c73.6 54 182.1 34.1 252.3-36.2c43.6-43.6 67-99.8 66.9-154c0-42.8-14.8-84.9-46.5-116.6S391.8 0 349 0zM80 444.1L67.9 432 104 395.9 116.1 408 80 444.1z" />
-    </Icon>
-);
+const Racquet = createIcon("racquet", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBYwsGAAE2AiQDCAQgBYMtBy4b4QTInoWxYy2zK3P+sV7dKsXD/9v91z63qgHX6shEBkXOwKgjGAOnfyYV4pdmh/8dCOnKrELep7+f5//8N+Az+mjRVAkSdV7LOJ/AxHbDAurz3WxgM52ATbfJivKIwE9CJEgiOk6Pr6cz5PEoVI50Ko1j8qHxq0YOkJTLAERNAAyeOXW852VRFvGpdIf4ZCwCYjAoBDJkaCpAP5lAU7kCuVxQFqXrf2BBAFEev2ICOcphOuYDcpBkeV6ra6Uq5arlM6qUq7zyUO8r9kz6POz1gIKp31WJg70i7vd73O6yPe1bRZvoV9z+UY+Ugbh0m2gbX8z8aeqzjteCIV9OW1a/Xv2BUS/6tbxY8+Lv9tm8Y51b/N150MgW+w8slQO3DerUehObqFChdY9fRy1dE1rLI1aLK5Q0vHKWl2+Uh/5cfYiqj/hZXT3SFQgE2fkLWxbW6Pd/xSoJ/PJw8isqPU/SRVSUQJC1K7UzL4FEAABS7NAyQSAZL4N3req4AKEyAiTlVRYg00RNAXKVtRWgnOa6C1BeZVNlIq8k1DVfQVLVZpDpYSfI1XULlNPPu6i8upFFFhsX7MMuaYSFhm8rOnfoVPQplq3BBQvd1vsW22qrHTTWGnutsNEG2yy3zGrbDLnF+HS79UZ48HBfVOisg04KfRTHvefdMyy3xVarbbShb9JXcT9sZYc/uzWMhCm7qCaJSBW2fIuvLd8G");
 
 export default Racquet;

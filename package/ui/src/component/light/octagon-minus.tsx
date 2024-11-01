@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-minus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-minus?s=light octagon-minus}
  * @preview ![octagon-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/octagon-minus.svg)
  */
-const OctagonMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M191.5 32.1c-10.6 0-20.8 4.2-28.3 11.7L43.8 163.2c-7.5 7.5-11.7 17.7-11.7 28.3l0 129c0 10.6 4.2 20.8 11.7 28.3L21.2 371.4C7.7 357.9 .1 339.6 .1 320.5l0-129c0-19.1 7.6-37.4 21.1-50.9L140.6 21.2C154.1 7.7 172.4 .1 191.5 .1l129 0c19.1 0 37.4 7.6 50.9 21.1L490.8 140.6c13.5 13.5 21.1 31.8 21.1 50.9l0 129c0 19.1-7.6 37.4-21.1 50.9L371.4 490.8c-13.5 13.5-31.8 21.1-50.9 21.1l-129 0c-19.1 0-37.4-7.6-50.9-21.1L21.2 371.4l22.6-22.6L163.2 468.2c7.5 7.5 17.7 11.7 28.3 11.7l129 0c10.6 0 20.8-4.2 28.3-11.7L468.2 348.8c7.5-7.5 11.7-17.7 11.7-28.3l0-129c0-10.6-4.2-20.8-11.7-28.3L348.8 43.8c-7.5-7.5-17.7-11.7-28.3-11.7l-129 0zM160 240l192 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const OctagonMinus = createIcon("octagon-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbgAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBcQsGAAE2AiQDCAQgBYMtBzQb9QQRlZo1yH4kZCeZF40zuy4VuxwNidiReBPB92tlvz9zNHsEYZKXKEDHqECHFZBiVoCKcF0AhdyKRRW9AeA/N+N3ob+I7Y5k2ur6ff/P5fQmHx3gNzq0MW1NkDGBbjfm8wQSa1seSWCZBmAxptvEJ49IdhYiQhbRcXp8HT0hj1cxQQ3pUvqCE/Km8Utfh0jyDEC0AmDGiiXzlCtRifhSfSK+mIOAmAmGCGTIMECAyTKBAXJDkMsFlahWy38gBBC18HsTyJFjNTYDcpCkPJ/dXKppypeXaoo1hzuXxlliX9eYuNcv4sr4FXF/dClujl0Wd/uKi2OWxp0RRdwatzzGx7I4VyrFkZ4VcSEi9ncvj/NFsbRUlM51ne0s4nz3hZ5h91rv/Rn6ZdMX7260vdr5e9W2X+urjay3cb+m3l27zPqxX3nWrl16m/ZrdEgZ++FstMx2pJVscwd/L6NWaW6ulMnrQCB4ePXYmA0tk//XlxL4+fLff/4aVcsk3UO9BIJsQnXC2gQSAQBIsdOwBIFksQSPGp0XIBQoJLUKyPTXCrnCeKgxyMTHtQpLZCJvEDqtU0gabYHMJLsh1+kR1JjsfVyrM7IE49ODf9+lcG9xdwxZnMJg2hhCzrB132Jbkz/PKbrI+mN/u3Z6DX0X2bf5iHIfRBanMDju96fL7n6mY2+HWNyP5B+vVmQSMOYPSYIncTRvNRx79C+9+gAAAA==");
 
 export default OctagonMinus;

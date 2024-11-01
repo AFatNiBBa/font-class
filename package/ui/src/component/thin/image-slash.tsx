@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `image-slash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image-slash?s=thin image-slash}
  * @preview ![image-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/image-slash.svg)
  */
-const ImageSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M13 1.7C9.5-1 4.5-.4 1.7 3S-.4 11.5 3 14.3l624 496c3.5 2.7 8.5 2.2 11.2-1.3s2.2-8.5-1.3-11.2L13 1.7zM467.3 464l-280 0L310.8 340.5l-12.6-10L288 340.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0L80 356.7l0-198.4L64 145.6 64 416c0 35.3 28.7 64 64 64l359.5 0-20.3-16zM512 32L152.5 32l20.3 16L512 48c26.5 0 48 21.5 48 48l0 196.7-89.4-89.4c-12.5-12.5-32.8-12.5-45.3 0L400.7 228l12.6 10 23.3-23.3c6.2-6.2 16.4-6.2 22.6 0L560 315.3l0 38.4 16 12.6L576 96c0-35.3-28.7-64-64-64zM80 379.3L180.7 278.6c6.2-6.2 16.4-6.2 22.6 0L276.7 352l-112 112L128 464c-26.5 0-48-21.5-48-48l0-36.7z" />
-    </Icon>
-);
+const ImageSlash = createIcon("image-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfgAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCHQsGAAE2AiQDCAQgBYMtBzIbHwXIjlQ1fzw8b/fkuW9m9bHkLEAlqchKctHFLSv4l6///F9TL54fHeA3OpRou14FRmNE8QQGGumVNLDZcDZRnG0zXAqK4poiSgpF4rcf32H7LeTxj23qkO5KX+CG+qHxozauIskyANEYAJNXLp3vne/iu4gvai8SX5iLgJgCCoEMGdoLME4m0F6uQC4XfBe1WvgPLAgg6sKTE8hRF/twEZCDJM/zSqdeTcp1qvmKdHJp7e3Nb21xOG5rdUfLI9sr1crKaBnNY0XcXrq6+bIINiHFXb0f7V6NHmulzO5RjQdb3NaGPKlXtIi+cUeL5WFMyeLuPo/12LZy2crtqmVRioda3t42ujzW+LGfO3+x4wuVN5dOGz7t4K+q9cMvW+P4s2d86i6zZruzWr1z1Wof+0dDpSZN7tllYb+nd2LCREsN+urL7EMSbVh5yqtOePTRbVv1NMpPr1npRp6SZ89y8KDu9hd0BwLBsE09r93YaNxv9csJ/PDar3/3E2tr0hXpMdSXQJD1q/WzLl1SoEPFa/vjhC70TQLJNjm8a8XtAoQSAiR1lQTItNNYgFxJXwHq6Gi4AHWVLJWJvIHQ3PoJkorDIDPCeZBr7nlQxzgfB+pqHpnbsU7D/vUlzeDo9HHF4AGDijGFmDc4T6Jz/9jCrPQ6Eet600Y7HHTAMdtts9sxhh8xP3zcfjM0bLofKgw2wCCFMYrr0vvqFbY74qjdDjpQRhmreN7Vywm9dW/SExAOkZIkIpW/0oT+R/dtProLAA==");
 
 export default ImageSlash;

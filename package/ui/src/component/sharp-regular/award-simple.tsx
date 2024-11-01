@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `award-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/award-simple?s=sharp-regular award-simple}
  * @preview ![award-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/award-simple.svg)
  */
-const AwardSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M236.2 26.9L192 0 147.8 26.9 96 25.7 71.2 71.2 25.7 96l1.2 51.8L0 192l26.9 44.2L25.7 288l45.4 24.8L96 358.3l3.5-.1 48.3-1.1L192 384l44.2-26.9 48.3 1.1 3.5 .1 24.8-45.4L358.3 288l-1.2-51.8L384 192l-26.9-44.2L358.3 96 312.8 71.2 288 25.7l-51.8 1.2zm23.7 47.5l10.8 19.8 6.8 12.4 12.4 6.8 19.8 10.8-.5 22.5-.3 14.1 7.3 12L327.8 192l-11.7 19.3-7.3 12 .3 14.1 .5 22.5-19.8 10.8-12.4 6.8-6.8 12.4-10.8 19.8-22.5-.5-14.1-.3-12 7.3L192 327.8l-19.3-11.7-12-7.3-14.1 .3-22.5 .5-10.8-19.8-6.8-12.4-12.4-6.8L74.4 259.9l.5-22.5 .3-14.1-7.3-12L56.2 192l11.7-19.3 7.3-12-.3-14.1-.5-22.5 19.8-10.8 12.4-6.8 6.8-12.4 10.8-19.8 22.5 .5 14.1 .3 12-7.3L192 56.2l19.3 11.7 12 7.3 14.1-.3 22.5-.5zM256 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM64 512l128-48 128 48L291.9 390.4l-4.7-.1-42.4-1-36.2 22.1L192 421.5l-16.6-10.1-36.2-22.1-42.4 1-4.7 .1L64 512z" />
-    </Icon>
-);
+const AwardSimple = createIcon("award-simple", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABogAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDRgsGAAE2AiQDCAQgBYMtBzMbyQXIngPu6liE2HGP5xmHZbCon2ZQzBbP//+9uc99b2ZS2vK6PBTuQiHuoLHmEfoc64CzoulAY9/79+55muTL8Q2g91PCleiSVTqiY0U1XVons+oh0fA6zjWQyMY20omM/38ux//d89vP7yqOILQxxi1rTKC9uZdAot9bSyQLLE04EQmizXEKPhTEO0RIfGEi4rA9NUxtoWeUlolQ9wVcb2+aT07moIgNAGStAOD4JDcHt1MvPmbnkCdZIECOAWwj0EAD6wiwh0dgnYCBTkAwTZL+AxkEIGPokwvQwRg8gncAHVCELsSu2qlFtVCwIIpSOVFOoFQKkcAzCKGYRElJ8SLZpYgrHJdXFMJ4k5HkUCdnJzOZ+bIB4ESbAHxcJiP5UQA+tIUCnF0WJBcEONNWBP4uK5IvJeBPmSkvmLWgo4AD19XAw+Bjj6LCvMJ8KiAFxUmYJ8liApLndaQ7+vHUwNfDoCgizHvFO3aM90pe8G/Iq6HVkxFX2/oLKsMTmUSj1YkTrTQksmeltlXRuBAs2AWNKtvanPdWtX7+8///s+2pezgZnjG4nEK0LJaCQmxxidfHAQgI3PwEV6lN+g7NAfgYfv+O0zG7dWowhwME2k5ClGUKSMYE8JUqA/DKFAgolwT6qktWECAUIIAiUSBA40KHAJ1CMAKMuItFgDGFXDzqjiAm5aeBo9Jt4MUZNwhMTg2iJC8FiSm8L1s90fonmSvVEimbWGRYBJPZY1Oxuad5Xbaz7lDAgAwFgqJBpw596tVp1mf4Hjnlfu1SW2SKD2IihYnAyNhw57urIEo9esVct4+vY8fmawEG2pMDiXLU5K6KwkFK9el6Q18HAA==");
 
 export default AwardSimple;

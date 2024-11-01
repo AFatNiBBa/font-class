@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-web-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-web-slash?s=sharp-solid camera-web-slash}
  * @preview ![camera-web-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/camera-web-slash.svg)
  */
-const CameraWebSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M496.1 362.4l124.8 96.9 19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1l19 14.7 93.9 72.9C183.2 34.4 247.6 0 320 0C443.7 0 544 100.3 544 224c0 52.2-17.9 100.3-47.9 138.4zM192.8 126.9l25.3 19.6C241.5 115.8 278.4 96 320 96c70.7 0 128 57.3 128 128c0 30.1-10.4 57.7-27.7 79.5l25.3 19.6C467.1 295.9 480 261.5 480 224c0-88.4-71.6-160-160-160c-51.9 0-98 24.7-127.2 62.9zM256 176l25.3 19.6C290 183.7 304.1 176 320 176l0-32c-26.2 0-49.4 12.6-64 32zM512 499.4l0 12.6-384 0 0-40 75.5-56.6C139 376 96 305 96 224c0-16.6 1.8-32.7 5.2-48.3L160 222.1c0 .6 0 1.3 0 1.9c0 88.4 71.6 160 160 160c13.6 0 26.8-1.7 39.4-4.9L512 499.4zM324.8 351.9c-1.6 .1-3.2 .1-4.8 .1c-62.1 0-113.8-44.2-125.5-102.8L324.8 351.9z" />
-    </Icon>
-);
+const CameraWebSlash = createIcon("camera-web-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABhAAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCJgsGAAE2AiQDCAQgBYMtBzcbLQXIhof/t+v7fW7VAK6R0e+NpEjfSCWnvX4ERT9Sz//lnt/zowP8fASHNpZNXTwmrd3YzxMINOplY1tRQFlgJ4oNzhuZdjI0haQL5PFPdlkN0t3pM9zofjR+08ZlkjoZgGgMgMnVS+d7qxzliE8rzxOfmouAmAwKgQwZ2gswTibQXq5ALheUo1Jh/4EFAURN4dUJ5KiFfbgMyEFSI8+L1nU71K5Xo0FepbbW3VSqKnWPftEjDhJ+YJTvKsWTY1+t9/7sjwc/3fm7SRt79+n9bvX741/vfF+/3vFm1x8mvFF1ZdRLvRb3HX9vz4jneq0Q6kdEdXwy5JkuF9rNj/OR/X62XrraszTvpLovjHmlY6nLI40f+aPzZ1s/81fp9HqUHuB9A4x7VXbImll+/uHHkeUO/d75uqGFvwz49ZI6etKkWDR1WI0GD9+iTu2Y+tlnU6Mnq8vd4W/OF87vrUxpAC85r5e5o3R4+u36bWY8LoR5H2/e7a5jr9ySpXLf9tcubAUCwao/nlqzrtG4v2vXS+CnV/76Q3q68lY6nx5BbQkEWb9KP6vTeWDoAIwUR3UZ6Vkg2aYGhG+t7w4BQl0ESGqqK0CmncYC5OrqK0ANHQ0XoKa6lspEXkdobk0JkvoOgMwIZ0CuuWdBDeN8aNTUPLJjjzxyyCe/uBl1aPqmYvCAQcWYYrCUU4cTrlfHFrOFXkf5SG+411b77HXYFpvtcLiGHDTfPmKPGWPwdD0qDDbAIIUxitXN7d1VtjjokB322WvXGavYX+nl6Pj03lBOAuYQqSQRqfHdQ/1hP9D/0O4Nh7YDAA==");
 
 export default CameraWebSlash;

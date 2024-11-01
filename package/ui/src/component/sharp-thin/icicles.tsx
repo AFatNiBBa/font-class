@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `icicles` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/icicles?s=sharp-thin icicles}
  * @preview ![icicles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/icicles.svg)
  */
-const Icicles: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M343.9 194.6l63.2 278.2L416 512l7.4-39.6L509 16l3-16L495.7 0 16.6 0 0 0 4.4 16 88 322.8 96 352l8.7-29 29.8-99.2L144 192l7 32.5 32.9 153.3L192 416l8.2-38.2L233 224.5l7-32.5 9.5 31.8L279 322l9 30 7.6-30.4 31.8-127.3L336 160l7.9 34.6zm-57.3 97.1L255.3 187.4l-17.9-59.7-13.1 60.9L192 339.6l-32.4-151-13.1-60.9-17.9 59.7L96.7 293.9 20.9 16l471.8 0L414.5 433.2 351.6 156.5 336.7 91.1l-16.3 65.1L286.6 291.6z" />
-    </Icon>
-);
+const Icicles = createIcon("icicles", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABawAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBfwsGAAE2AiQDCAQgBYMtBy4b/QTIjsO44TuymcqziKB+7bPn7R5wiP/mVJhYMTlSiT4bF3ZcPvIqlsBRMtd+zf819cKqAL/RoWWP6nk0UObzCQxwerNokdFsYDOdgO1tQ0QbHTtJiIRFRGM6XmfI47Etykj3EtzSD42POjpPkmUAogUAJi5fPNeL5miOePt/4q3ZCIiJoBDIkKGLAGNkAl3kCuRyQXP8/8//gQUBRDnBEi/HO1fhKCAHScrzwaWasrp8GR1cvXnlqpVdoxSro31U17aNldExOsdyYLvGUqtkTCk6ahFUSluybOmyQVHEklgWjTFAi6uiLlawtQz3LWlsatH0ubttLP8zrm17/qLtlr7UX4tv4y0e5Ljrum5yywbFXUcd7cdtcF+XjW44odspZxwasaG0A1o6ead0m176TielXWa39d7cB8a1Vj9RiwmKS0AgWPX+U7caxvyurEngw6OvH+mv6P+LJDWhUgJB1ud/H2sSSAQAIMUxjQkCySKJvGut2wKEagRIylULkOmshQC5ar0FKNPNUAHKVVssE3mV0MZaA0mtgyAzzAmQa+MhKDPGy1K5NpHlmZol6jcva5pHp24rBvYbUIwqlm1DSx25ro8ujqMex8pYT0i1zX77HLHVFjsdceIhc6tH7TVtR0/1RYWB+hmgMEpx3Xu2lmHpkMN2xuo9ZJPRiveFHo7tZ/eETCKSg+xIEpEqdm6m7J6thwE=");
 
 export default Icicles;

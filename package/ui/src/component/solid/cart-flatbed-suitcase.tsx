@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-flatbed-suitcase` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-flatbed-suitcase?s=solid cart-flatbed-suitcase}
  * @preview ![cart-flatbed-suitcase](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cart-flatbed-suitcase.svg)
  */
-const CartFlatbedSuitcase: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 32C0 14.3 14.3 0 32 0L48 0c44.2 0 80 35.8 80 80l0 288c0 8.8 7.2 16 16 16l464 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-66.7 0c1.8 5 2.7 10.4 2.7 16c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-5.6 1-11 2.7-16l-197.5 0c1.8 5 2.7 10.4 2.7 16c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-5.6 1-11 2.7-16L144 448c-44.2 0-80-35.8-80-80L64 80c0-8.8-7.2-16-16-16L32 64C14.3 64 0 49.7 0 32zM432 96l0-40c0-4.4-3.6-8-8-8l-80 0c-4.4 0-8 3.6-8 8l0 40 96 0zM288 96l0-40c0-30.9 25.1-56 56-56l80 0c30.9 0 56 25.1 56 56l0 40 0 224-192 0 0-224zM512 320l0-224 16 0c26.5 0 48 21.5 48 48l0 128c0 26.5-21.5 48-48 48l-16 0zM240 96l16 0 0 224-16 0c-26.5 0-48-21.5-48-48l0-128c0-26.5 21.5-48 48-48z" />
-    </Icon>
-);
+const CartFlatbedSuitcase = createIcon("cart-flatbed-suitcase", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABlgAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCYQsGAAE2AiQDCAQgBYMtBzwbbQXIHgfV7Q7Tx9HVZFUzi4c/EdHvx/beF0ybd7PkIWtITCc0oluMlMJQCR38/5/L7kumlJThlxgVEDgEO2ALwGpUafH4QoTZM2qBE8CBYv4v57ft6AC/0aHM1dy4KIvm9gQCPepFcwplYZZJAp5tOVwcvi8OGiJKjhIph9F+WNpBnd/8NBrKO/cecLu8aX5hY5qiqwJABgEAu0el+VBLJBG9+39BvpALAtkFMI1QocI4Aht4wTiZaVCrhW/6/1//AxkESAv88gJqdOAJH4AaFE0tyzSwMDEVtQxkFaKWwE9YEalEkS68dxw4UlgY0JKFAqfLBYEUeFvutmmptJ2wMhA5XfrsOvKktBRokaJ1hP6g3BzUIxDyaaXyFGnDQmEDkm6ickIal5EV6kVBvOTe1il6msuu8e4X5/fN7y03D2cZw/i4ghgMvz+DGOXWZanw7OQ/PAcFPX/gdT3vOvFibptFYePQUaIXHLRri1DbeqH27rSxjuZfbxF6/zQ6XpCghvT2JkmSMZI840hJGRu9GWNCAj8PQBDmp5P+1RjFfdUVOcDPrebHdr5/NTfO7YJOBYRq9r+fyjIO6GSgSMkwXJwPCoorDXnVXi8CohsBRatbQGWMMQK1bjMINCaFI9DqtoeXWg8xquoARa8TUFk3AmqjzkBjw322NRq+MIWyEv4LUzMsnD6LBQcEsRh2W7aLtcZN47Es7PYapjZvWYhmPboNatKozaCh+uUXhnTJ8Mh0X8QECxCEicEe1+b5FZr0G9CmR/c8TSyWH/cy7Pf2Fh8HtMtKikKKxbet+Y/GTH1To//446oZAAA=");
 
 export default CartFlatbedSuitcase;

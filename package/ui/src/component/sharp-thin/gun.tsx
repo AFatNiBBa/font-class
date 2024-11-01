@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gun` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun?s=sharp-thin gun}
  * @preview ![gun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/gun.svg)
  */
-const Gun: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 32l0 8 0 24 56 0 8 0 0 8 0 128 0 8-8 0-84.7 0-29.7 29.7-2.3 2.3-3.3 0-66.2 0-30.2 90.5-1.8 5.5-5.8 0-100 0L208 480 48.5 480 32 480l4-16L92 240 8 240l-8 0 0-8L0 72l0-8 8 0 488 0 0-24 0-8 16 0zM338.2 320l26.7-80L268 240l-20 80 90.2 0zM108.5 240l-56 224 143 0 56-224-143 0zM16 80l0 144 428.7 0 29.7-29.7 2.3-2.3 3.3 0 80 0 0-112-48 0-16 0L16 80zm56 48l432 0 8 0 0 16-8 0L72 144l-8 0 0-16 8 0z" />
-    </Icon>
-);
+const Gun = createIcon("gun", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbwAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCFAsGAAE2AiQDCAQgBYMtByobDgXIhofn5+o99yUzP5t8hnxmKrLbKlJbjajqykIxquqZuOb53/PTn6cVwaN1UOmicZh5PoEBR3kLpg1nE8VZOzvD/6DXmyRJ+YRh+2FVjpDHV05pkJ5PX6A9fWj8ZYDHSLIMQHQHwPK9Ozf76Pv4PuLz1jvE5zYiIJaDWiBDhsECLJIJDJarkcsF30erRf+BNQFEk95HAjk64SzuAeQgaeT5zLa2blXV6JLvqRrlWUFUlRCiLMdFb4C7kLLsF3v1gF91QcW+vbv2ljFxqj3i7aqsR98jdImJ0S+qKqI81qVzF1F2jqhGvNj9xX+Gf3HmC62Ooij6m1cUHlIodn9puGzFkAN6a54a2a6jx1Jzv7OrKLygUPzeX6H7K8MGbs1Vx/Xa6sDPW4WD044z2g91PK3+K44s3XbNtPemvv76+90VgQzEZROKp34/2m3R/0WVwI8f/veXcnPr+7QsvYhCAkE2qTXJobQMiBlAPsUdRhhfFEiOatB37ewZAUKJAElTKUBmkO4C5EoTBWgYarYATaWdMpG3Cb0dbkTS2XUiM8f9RK63t4iGRT7ONfWOzOUEhxEefKlremD1onr6lGn1gnpaU0Uv4uLswnrZHXcH94zHQWdcdcUtp51y3q0OvmFz8bbL1ljQaj9Um26KaWoL1NvNx917nHbDTedddUXmWai+n4xzhz18PIJEWWdIJcnPw+HZ21cAAAAA");
 
 export default Gun;

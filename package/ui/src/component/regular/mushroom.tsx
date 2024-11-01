@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mushroom` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mushroom?s=regular mushroom}
  * @preview ![mushroom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mushroom.svg)
  */
-const Mushroom: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M24 258.1C24 133.2 125.2 32 250.1 32l11.8 0C386.8 32 488 133.2 488 258.1c0 34.2-27.7 61.9-61.9 61.9l-105.5 0-129.1 0L85.9 320C51.7 320 24 292.3 24 258.1zm416 0c0-12-1.2-23.7-3.4-35C427.8 233.4 414.6 240 400 240c-26.5 0-48-21.5-48-48c0-26.1 20.8-47.3 46.7-48c-24.2-29-57.5-50.2-95.4-59.2c.5 3.7 .8 7.4 .8 11.2c0 44.2-35.8 80-80 80c-38.1 0-70-26.7-78.1-62.4C101.2 146 72 198.6 72 258.1c0 7.7 6.2 13.9 13.9 13.9l340.2 0c7.7 0 13.9-6.2 13.9-13.9zM234.3 352l-15 80 73.4 0-15-80 48.8 0 16.9 90.1c1.8 9.4-.7 19-6.8 26.3s-15.1 11.6-24.6 11.6l-112 0c-9.5 0-18.5-4.2-24.6-11.6s-8.6-17-6.8-26.3L185.4 352l48.8 0zM144 176a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Mushroom = createIcon("mushroom", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABgwAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCJgsGAAE2AiQDCAQgBYMtBy8bJQXIhofvdfae+yR7dmX8xPoEHALumLkC8qQCqpLW83+z5z2PAvwWWUhj2tTFy8M5nycQ8Fhedye8hBLF022yHo8w7IwSI4no+Ow4OyGPV+MqFdLN6TNcWX4q/jTEeSSVDEC0AbB695239VYnOhGfdp8nPrUVAbEalAIZxocLsEwm9Am5Erlc0Ilul/8DSwKIKnkugRxVnIKzsO9Bkuf5iLFD+tUqjXy3WqXY/d65Ec9ujfh0Yy3e3/zx7KdH3zTpoXFF8cCUR4Y2zh563bgHBt4w9OxBN058Y8P1bpv00Lzpay9Ne8z1Axpx46Bddtl9l1rsFrXYNa7vf11RxCW7wqDdtbHbpQOCRGcRjreMswfdWBvzSPuRv0d/dthnBr3e/IZvpjO9U9eZPv2bb5q90b7qyD+vakfvXX3LXw6Y9ePnWf+fPpu1z+15NXY7tP3WqlVHDZo/b3r9rV28Vf983+b2VdiCDs3W2tOMS25tnaB16yUzBvfsPZ9sXsRFTfYkNBBP3bjzt1P3by37r6eWwK+v/Ps/vz6424nf0iPokUCQTetOs09isMHOoAAxU5xmDG4WSI6RA3617gYBQoEASVUhQGaYtgC5wlQBKkaaL0BVYWeZyHuF/vbtIKk7EWQWOB3k+nsWVCzzoVnVP7LYoyKH+vnFb9DQ+qFy9oxZ5ZJy6Wl0OBG5u7TcFiedRpnJOHSY4x3nFIc6xJFOUchJtnVOdawNHrzejUqzzTBLaYnyONxu7+ZQJznZkY53HPdZqryvTnKaXz4ZSiKYc4wmiUg9x5568hHvGw==");
 
 export default Mushroom;

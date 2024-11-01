@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-up?s=light turn-up}
  * @preview ![turn-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/turn-up.svg)
  */
-const TurnUp: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M128 160l-57.3 0c-3.7 0-6.7-3-6.7-6.7c0-1.9 .8-3.7 2.2-5L192 35.8 317.8 148.3c1.4 1.3 2.2 3.1 2.2 5c0 3.7-3 6.7-6.7 6.7L256 160c-17.7 0-32 14.3-32 32l0 176c0 61.9-50.1 112-112 112l-64 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l64 0c26.5 0 48-21.5 48-48l0-176c0-17.7-14.3-32-32-32zM206 5.3C202.1 1.9 197.2 0 192 0s-10.1 1.9-14 5.3L44.9 124.5C36.7 131.8 32 142.3 32 153.3C32 174.7 49.3 192 70.7 192L96 192l32 0 0 32 0 144c0 8.8-7.2 16-16 16l-64 0c-26.5 0-48 21.5-48 48l0 32c0 26.5 21.5 48 48 48l64 0c79.5 0 144-64.5 144-144l0-144 0-32 32 0 25.3 0c21.4 0 38.7-17.3 38.7-38.7c0-11-4.7-21.5-12.9-28.8L206 5.3z" />
-    </Icon>
-);
+const TurnUp = createIcon("turn-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeAAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCEQsGAAE2AiQDCAQgBYMtBy4bDwXIHgl2TORfCFXQyRAP/7/2r/vcmU8zYbhhxBKgLCtyQCosXNl2VcbmFd5789Vqw5v/a+rF86MD/CBwUXhaIJFAmc8nsOfz3bRaKApsphOwvU3EoDzC8IsIkTYdV3h8LaGMh2KsJtIH6SZeSx8a/+ntaZKyABCdALBox5Z1fv07/o642ZC4aQ0CYjHIAgUK9BNgrkKgn1JGqRT8HY1G+A/MBBDN+AUTKFHiLO4BlCBJZTlxat3UvtxeN1V7qrp6t8cTPXfEtnjH292qeLHb28THI7+YWsW7PSLe61nH5z3f6xvxRI93qx3vVi922xpve7z7O3VdC7EBfQL14j/QA8PquLLglyEREXX9EhFuYPvgrzp99f+gm8dvemzgLHZvbCo6P3IBHtq5aNo4S4fnn+/wtY53vtDfHbIOfy808fdbxdfNjdZ9uLW1devT97neufNXX3XunbPX+3Nkxa3fJy7023P6vS7Lvb3Y+frs5SAQ3InyQMe5t1vrBP79/m35V9T4NQ6mr9AqgaAY2xhrbzyOHAcFACDFvQbH4wgkRyV8re28K0CoECBpVglQ6KuTAKXKGAGaDDBNgGaVLQpRtgnd7KsgaecSKEz3CCh18x1oMtcVrVm3KAyONhf6v5ewXKLLxuVJ4yfm2bnrK4wNkbE/Jy+LI+/F3CiY6bgLzrvbMUedcrfAL1tn3uOc5SNsmS/KJhlvomy2fBytp293zGV3OeWC8zTKHPm+OtK94+pRMJkEmPxUnkSkFhuXxt1zEQ==");
 
 export default TurnUp;

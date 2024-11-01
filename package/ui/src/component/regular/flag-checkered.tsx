@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flag-checkered` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flag-checkered?s=regular flag-checkered}
  * @preview ![flag-checkered](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/flag-checkered.svg)
  */
-const FlagCheckered: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M24 0C37.3 0 48 10.7 48 24l0 28 85-21.2c38.1-9.5 78.3-5.1 113.5 12.5c46.3 23.2 100.8 23.2 147.1 0l9.6-4.8C423.8 28.1 448 43.1 448 66.1l0 279.7c0 13.3-8.3 25.3-20.8 30l-34.7 13c-46.2 17.3-97.6 14.6-141.7-7.4c-37.9-19-81.3-23.7-122.5-13.4L48 388l0 100c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-88 0-49.5L0 64 0 24C0 10.7 10.7 0 24 0zM48 150.7l80-17.4 0-51.9-80 20 0 49.3zm0 49.1l0 46.9 80-17.4 0-46.9L48 199.9zm0 96l0 42.7 68.6-17.2c3.8-.9 7.6-1.8 11.4-2.5l0-40.4L48 295.9zm128 18.8c33.1 .7 65.9 8.7 96 23.7l0-49.8-55.4-16.3c-13.2-3.9-27-5.1-40.6-3.6l0 46zm144 37c18.7 1.5 37.7-1.1 55.6-7.8l24.4-9.1 0-46.7L374.3 294c-17.9 4.1-36.1 5.5-54.3 4.3l0 53.5zm80-113l0-46.7L374.3 198c-17.9 4.1-36.1 5.5-54.3 4.3l0 47.8c14.5 1.4 29.2 .4 43.5-2.9l36.5-8.4zm0-96l0-49.8c-25.6 10.4-52.8 15.6-80 15.6l0 45.5c14.5 1.4 29.2 .4 43.5-2.9l36.5-8.4zM272 103.1c-16.1-3.7-31.9-9.4-47-16.9c-15.3-7.7-32.1-11.8-49-12.3l0 50.6c18.2-1.3 36.5 .6 54.1 5.8L272 142.5l0-39.4zm0 89.5l-55.4-16.3c-13.2-3.9-27-5.1-40.6-3.6l0 47.8c18.2-1.3 36.5 .6 54.1 5.8L272 238.5l0-46z" />
-    </Icon>
-);
+const FlagCheckered = createIcon("flag-checkered", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABmgAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDAwsGAAE2AiQDCAQgBYMtBzUbiAXIhof/12Xe90cm2YssLwByt0GkklqftFglZWbicvpj2RrYMgpl7GVjYdGc5wkk2HsTo67zF8o0Aetq3UkPKcSdD0UXyOLBuE0F6f70E271VRV/aOc6SUUJQDQFwJRVyxb4rCEaIn4sv038aB4CYgooBEo43FFHxvhLAx1lCmQyQUOUy95/YEEAUSl8bQIZ6vAgXgNkIMmzbFBNTW1e16hWlioaZSvl8/m6p9uJVfHtnPdrb4xrE8+2urtdivu6D4+fV/4wfXlo0s+0D0qUoufBXitWLV8VMaUhrPItL8P3tpEKK74eEzE3nuluxdO9es3I3eOpnj7EFSPAqKp4K6fllc/0fAbTz/YY0Zw7Z+4z3b1Pdn2h6Qt/1f+08ydtPl3SqqPlLb28p75nzyHXVH33W7SVje5odrvp9S/+v6iF7VotWdJqtSG66N1U2tyzqFkUHm4mNXTIoNBEUwZJQ5v7ka7pzUxe3Kf1xKXmTX8ZYrMRUwfe2v31908b5G5PPz5y0eHVFr9zsCXLR20eSjMH+wy05y71Or5v721DvXbPQ3qv3YxNh9KDvd56x0AgEHz4wXuXNjUZ/291bQK/f/DPf4pfUfmz+Cy9gGoJBKX+5f7Wx2cQnwkAQIqTusZnCCR3ylG11rlHgJAjQFIpF6Ckg6YCZHL9BKjQ2QgBKuWWKYmsRmhpQ2NI6hwxlIx0wZBp6U1DhfG+rVVqGSVItcGZ7UEx98wuPONUMWTg4GJsMTtQ2YHPYg/HFZvDvU/KhT5Y0U6HHHTcDtvtcbzDH7WgecIBM5fIGb6oMMRAgxXGKg6PHYatpKmjjknLtPP4MeMU1+d7O7m8vg+OJaHRofqSRKTG94N/wK9ImaM7tgMA");
 
 export default FlagCheckered;

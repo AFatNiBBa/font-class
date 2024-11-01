@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `recycle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/recycle?s=solid recycle}
  * @preview ![recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/recycle.svg)
  */
-const Recycle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M174.7 45.1C192.2 17 223 0 256 0s63.8 17 81.3 45.1l38.6 61.7 27-15.6c8.4-4.9 18.9-4.2 26.6 1.7s11.1 15.9 8.6 25.3l-23.4 87.4c-3.4 12.8-16.6 20.4-29.4 17l-87.4-23.4c-9.4-2.5-16.3-10.4-17.6-20s3.4-19.1 11.8-23.9l28.4-16.4L283 79c-5.8-9.3-16-15-27-15s-21.2 5.7-27 15l-17.5 28c-9.2 14.8-28.6 19.5-43.6 10.5c-15.3-9.2-20.2-29.2-10.7-44.4l17.5-28zM429.5 251.9c15-9 34.4-4.3 43.6 10.5l24.4 39.1c9.4 15.1 14.4 32.4 14.6 50.2c.3 53.1-42.7 96.4-95.8 96.4L320 448l0 32c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-64-64c-9.4-9.4-9.4-24.6 0-33.9l64-64c6.9-6.9 17.2-8.9 26.2-5.2s14.8 12.5 14.8 22.2l0 32 96.2 0c17.6 0 31.9-14.4 31.8-32c0-5.9-1.7-11.7-4.8-16.7l-24.4-39.1c-9.5-15.2-4.7-35.2 10.7-44.4zm-364.6-31L36 204.2c-8.4-4.9-13.1-14.3-11.8-23.9s8.2-17.5 17.6-20l87.4-23.4c12.8-3.4 26 4.2 29.4 17L182 241.2c2.5 9.4-.9 19.3-8.6 25.3s-18.2 6.6-26.6 1.7l-26.5-15.3L68.8 335.3c-3.1 5-4.8 10.8-4.8 16.7c-.1 17.6 14.2 32 31.8 32l32.2 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32.2 0C42.7 448-.3 404.8 0 351.6c.1-17.8 5.1-35.1 14.6-50.2l50.3-80.5z" />
-    </Icon>
-);
+const Recycle = createIcon("recycle", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABlgAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCYQsGAAE2AiQDCAQgBYMtBy4bXwUjEaZLECX7Y6Fs00ttJEnRFJ+xbNvdKJ6J55MT37+7NoVC44XFBzgpAC2ZTYYykfmgKF3ZIx299AxrIODsCTITQ2rOXI6ANXJqvPFSQfrJi3K+XS3IeWD3CjRewDNapgOfPxvYTAdAY93bhsdGFB4JCZESica0sbrC5IK9ET/qbT0Ez/6m+ZNiI0pYAyAHALiGDOjF1bd6Kz3wTiFfeoCAXIAbQUPDScCDTXDyMTB8hJ88D/8DDQLICt1nAQMLvOADMECxx1e9Xh3XH+Eb7Pqdbkcc6XKrVjtVUUFCXvxAFVYerPzE/KQqaq/8yjvjqyo3PjfRqDUGuZekvIRaKqK06t6GjliT+qs4bYBo3EaudiQVaF1ibeUPOGl89WrVo0O0J2WQ8mLkyhqoXNYqLtJMC21/jePodPX9mevShpTfH73/S7mHkx9yOPtB3boPZnGE13f31U4cwoL+g5P4UCfy7hNGUAZlLsuPHz91pkbNGWn/H+8+Dtenb+F1Wmj//rVjMUS9enXe8/Sp59zL15GGsURu3RoZ1mUxM2rUPD0z8+rVq3eian8cnMiAhYmDqX3+7JvD1O9Hl7CIbmBebrh2//5Q+ud6fQBAgGD+lV/Vx0S1/BZyLQDen//6E36LvJsW1n4A2FhA0HevppEWoBAAgMpiyhcQKNvZ6FV3+QSEAwFKgENASxNNwHDUIGCRqREBK8cAbJowJN6oiVnCzcNsja3CfOKdwPxaumMHxMdOTD6t+H9hynVnDXRaM/Vq1zXNzTYmQq6xdd7ChLWqi0utGpxlsjlmW2iSiaZZqKD5enmLzNLZAzv5IKOe2uoymjPH2VYZrGhWFjR2LZwv0YK5b1W12O+uBqYFUdZ3wsICWcH5k94DAAA=");
 
 export default Recycle;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-user` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-user?s=sharp-duotone-solid file-user}
  * @preview ![file-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-user.svg)
  */
-const FileUser: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 352L0 512 0 0zM80 448l224 0-32-96-160 0L80 448zm48-192a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-        <path d="M384 160L224 0l0 160 160 0zM256 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm16 96l-160 0L80 448l224 0-32-96z" />
-    </Icon>
-);
+const FileUser = createIcon("file-user", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABdAAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBVgsIAAE2AiQDCgQgBYMtB04b9gTIjsO44TuyxdD+4+H5tX7nzpvdj4gM7ppEO80kWoSENy/hS8MkbzKrfs3/5Z7f86MD/HwEhzTWKJ/b5vYEAh7LN/USSCjMEHs4N7OLWWgQ4i+Qx5l0RYnsZgZX4/8BjK/au0KmfgIQzQAwbc2KRd5WR3UWnyvPiM8WIiCmg0IgIaGTABMlgU5yBXK5oDqrVKiOSqUggCiL35hAGfUwF2sBOcgkKc+rGteXsYalxvlq+2iDPatXrRYNV97r/7jvw053+z0a8KTrqgYNG6yMhrE6cb0hmZdFoyitG5Wsjgaxcs0F6vL27o+bPf7ezW7Od72f7nrgwflS7e/ftanymm55QONdt6jmtLfVFD+ss9UFlryZ4CvaA+XSkDfXXwcCQcMpdXtrOvF/vYYZqH3+80vyvMrbuJCNejIQpIGVgTbGBVDoAH4/i9O6xwVLEUh6SKA+tZFrAoQGCJApayBA0lEzAXINDBCgpItRApQ1sEISeX2hlU0DyDRyDCSjnQW5Vp6CkoneJcpaRQIqCiSoX7r42VNo1rpi2OChxfhit6Gj4YTwixOKy3rf03qgHz1rtyMOO2mXnfY5OUGOW5Q+5ZDZR/AsX1QYZrChCuMVj9sv+dWTxHEn7Ntmn68yQfF9tK/Tx+P7USuTYg63IUlEFqk5AguDgFEehJ0DLRcsHgIA");
 
 export default FileUser;

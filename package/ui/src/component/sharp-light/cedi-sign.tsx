@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cedi-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cedi-sign?s=sharp-light cedi-sign}
  * @preview ![cedi-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cedi-sign.svg)
  */
-const CediSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M224 0l0 16 0 48c1.3 0 2.7 0 4 0c44 0 84.7 14.2 117.5 38.3l-18.9 25.8C299.1 108 265 96 228 96c-1.3 0-2.7 0-4 0L224 416c1.3 0 2.7 0 4 0c37 0 71.1-12 98.5-32.1l18.9 25.8C312.7 433.8 272 448 228 448c-1.3 0-2.7 0-4 0l0 48 0 16-32 0 0-16 0-51.2C101.2 428.2 32 350.3 32 256s69.2-172.2 160-188.8L192 16l0-16 32 0zM64 256c0 76 54.5 140.1 128 156.1l0-312.3C118.5 115.9 64 180 64 256z" />
-    </Icon>
-);
+const CediSign = createIcon("cedi-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZgAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBWwsGAAE2AiQDCAQgBYMtBzAb2wTIhof/Xwu9788EgCcADIodqZxY5hKsbSvJEuid/t6df1sLcNN/rn+t6jyQMSmc8zyBfx6NZWOKRVmYJYqZu1zLiMhXWsqSPF7a4+cKeRyNbiqQbqQSrtQPjV81cY4kzwBEbQCMXjh3uo9+ip8iSuVnRMlUBMQYUAhkyNBcgGEygeZyBXK54Kcol/k/sCCAqKjBSZjTk7OwFJCDJOX50BrVKtTIF/jqqksFcaFaVH03vVO8nnC+qp+k4suhnaM0r0KIqpHA78d8suCHsZ8ujGeqzbs1POLd+Cw+G/a2aHO79u3fW5c2lPz4obajeglgjHad3d8V1CgB7LrfRP0x4qheaivU1tf4Go8/NdHETx/3l/RVW3GzXKULg48NcmxwlypAIPjV6zUraw37v3K1BH55/eff/HxR/iiWpNuoLIEg61buZlmcUuigxAqgTIoD2uCbBJJJErxrdVcFCFURIKmoqgCZZmoLkKuqqwAVtNRfgIqqmisTeRWhvuWDT6rbzWcGOM7n6nvCVzDMl5mK6kdmVYZNGJ+63AkSGh9X9O7RqxhSLGu6aShanh1abKc6HQg9nXHQBjvtsM9662y2T3B7TM/vt90EjRjvhwq99dBLYYjiuPm8e4H19thrs512lHmGKu6nOzmgD++MxSRAn/dYlohUZe36dZu7GyQ=");
 
 export default CediSign;

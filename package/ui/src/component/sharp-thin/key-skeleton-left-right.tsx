@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `key-skeleton-left-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/key-skeleton-left-right?s=sharp-thin key-skeleton-left-right}
  * @preview ![key-skeleton-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/key-skeleton-left-right.svg)
  */
-const KeySkeletonLeftRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M624 112c0-53-43-96-96-96c-52.7 0-95.5 42.5-96 95.1l0 .9s0 0 0 0c0 53 43 96 96 96s96-43 96-96zM417.1 96C424.9 41.7 471.6 0 528 0c61.9 0 112 50.1 112 112s-50.1 112-112 112s-112-50.1-112-112l-144 0 0 72 0 8-16 0 0-8 0-72-80 0 0 72 0 8-16 0 0-8 0-80 0-8 8 0 249.1 0zM16 400c0 53 43 96 96 96c52.7 0 95.5-42.5 96-95.1l0-.9s0 0 0 0c0-53-43-96-96-96s-96 43-96 96zm206.9 16c-7.8 54.3-54.4 96-110.9 96C50.1 512 0 461.9 0 400s50.1-112 112-112s112 50.1 112 112l144 0 0-72 0-8 16 0 0 8 0 72 80 0 0-72 0-8 16 0 0 8 0 80 0 8-8 0-249.1 0z" />
-    </Icon>
-);
+const KeySkeletonLeftRight = createIcon("key-skeleton-left-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABkAAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCZQsGAAE2AiQDCAQgBYMtBz4bcwXIHoex2+RKNEP5qISwiqBaI3v27gGDdEEiB4gaFIF8kAmrOCAf9xVJMgrri7nf4QH8z/819cKqAD/fO+FDqVqUFvbzWebzCQxwVlwlNBvO5jJA3+K2myPiIQ5CYQd5/N4WJaTb6SOuhTeN7zq4QpJlAKI5AKavXbnY66Zoivjw/ynxwUIExHRQCGTI0FmASTKBznIFcrmgKf7/F/+BBQFEqRhLTs9Rihu4D8hBkud5hyE8X1VSk6/RmyoPPxgQ0TDmSb+6zuIiXnu/f/3o5wMbu615ODCicezTfqzLvZWqUc8GNHStDIStjKjrchFV686kImQQd6QeDLjRXX0yFSFTDwfeFVR5tMrpTHJlj4bmDT+739b+peUNNFy40NBQFqC8wW8v/9xs5xe+PcqbNfunSn7dPOWaK48u61QBlf/CzaG3PA8Egp7TmgZoNulXeVUCX1/5Ts/3/3W6kBpQLoEgG/R/kE3pAghpAKUUx/TY+KBAclUuftVqNwQIlQiQlKoUINNJcwFylQYKUKKr0QKUqrRSJvIKobXNHUiqHQSZMc6CXGuPQYlJ3hRLtY4MNE3AMv8M8+YM0dmLiuFDhhUTitWaxoI23c5OLA7H+x2TPf3xRtvst88RW22x05GBeMjiylF7zdmiZ/uiwnBDDFOYoLjcfLp6ja0OOWyn/fb5eSYqnk/3c2x7eH+cSmLFEZYniUjtdm89OfhwXtqz9cj+fS+u+X0DAA==");
 
 export default KeySkeletonLeftRight;

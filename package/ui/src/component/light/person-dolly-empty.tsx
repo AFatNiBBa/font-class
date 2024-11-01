@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-dolly-empty` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dolly-empty?s=light person-dolly-empty}
  * @preview ![person-dolly-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-dolly-empty.svg)
  */
-const PersonDollyEmpty: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M80 80a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM80 0a56 56 0 1 1 0 112A56 56 0 1 1 80 0zM0 340.3c.5 .4 1.1 .9 1.6 1.3L32 365.5 32 496c0 8.8-7.2 16-16 16s-16-7.2-16-16L0 340.3zM32 204l0 74.9c0 5.3 2.7 10.3 7.1 13.3L80 319.4l0-139.3c-6.2-2.7-13-4.2-20-4.2c-15.5 0-28 12.5-28 28zm117.8 69.3L112 214.5l0 126.3L139.4 359c7.1 4.7 12 12 13.6 20.3l22.7 113.5c1.7 8.7-3.9 17.1-12.6 18.8s-17.1-3.9-18.8-12.6L121.6 385.6 21.4 318.8C8 309.9 0 294.9 0 278.9L0 204c0-33.1 26.9-60 60-60c27.9 0 53.9 14.2 69 37.6L176.7 256l44 0-20.3-84.2c-2.1-8.6 3.2-17.2 11.8-19.3s17.2 3.2 19.3 11.8l53.1 219.8c1.1-.1 2.2-.1 3.4-.1c25.7 0 47.9 15.1 58 37l146.1-36.5c8.6-2.1 17.3 3.1 19.4 11.6s-3.1 17.3-11.6 19.4l-148 37c-2.3 33.2-30 59.5-63.8 59.5c-35.3 0-64-28.7-64-64c0-22.9 12-42.9 30-54.3L228.5 288l-51.8 0c-10.9 0-21-5.5-26.9-14.7zM288 480a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const PersonDollyEmpty = createIcon("person-dolly-empty", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABnAAAAKdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCcwsGAAE2AiQDCAQgBYMtBzkbfAXIjtRZrTkXwfN9Xt+5L2mAPyMQO4BdsxW20/0Er7/v4tTznIcC+BayoO2hAVkWnLvteQUqtmhMwAoUrKYFwLJ1d7bUdmhauaSlIPye5XhcrkCXK1IUE6hN6j6wIrypfCHGXFDoGgAA4gUAAGp1aNOMmxnJiNzPngO5TxNAAKQ2AAYCaIAGJBEAqqIhQBIdA9DREchINov/gQYIAIgZeUwBoANWYANwEMofBgqzrttcXm/9gMPk0ts7TPYuBxKb8++Nbson+2Kbohvz7o9vTmwp0HGmQ2RWqJAga4Prw9IBYWaokoisty8OrqVd7Vq1kUKyLtRO1gXXhttLe9kfF9lS5EiBc8XaiUPay/rIhlA7WeI4V6yDbAitC7aVjQX35t1f+HB8R5H2YpfF4XZLIiIbZFZ4IT+z47Aj92Hv4W+57ve/T4sRrUKhVjHc8mefdBRtRABeMRt3JuPemrOgSdhl7buYJcxxOCdMcI6r20leMZ1d7C8aHoXreaZaaCR9a1Pd2gQrzDw5t0QjihJsQ/rZ52Zl3yFqllqVh/xk+vmavES9OSt3+nz2wKnoIMri277ooXshLHS7DOIBQB7qc7x5vh6eqv+sDgXA58s//vGXkOwNpdRhwIoCQEArmi1KVwVk/yuFAAAAAErGk1sBCKBYwXE7TtbPhgU7IGRgVjSCRgIv6NgpAibSlLvCjJ02aIhuQwjSjQwKJ6NAozzTQCfIGTBRlVuumaBoFkrbF/1ATKivkXqbjFLFSxqVjWomMUZH+tUqxrBRcDx1CsFe+jOC4YylH30ZxFiFjaZZMI5h1G+h9fggBqUoTkkMKmNMl5fb29OP0YxhECMYzutUwdjvFGR8e7wQ2AohLE1EoUCU36CVYl8KWJOK3RUA");
 
 export default PersonDollyEmpty;

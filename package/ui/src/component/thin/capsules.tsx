@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `capsules` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/capsules?s=thin capsules}
  * @preview ![capsules](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/capsules.svg)
  */
-const Capsules: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 48c-53 0-96 43-96 96l0 112 192 0 0-112c0-53-43-96-96-96zM16 368c0 53 43 96 96 96s96-43 96-96l0-96L16 272l0 96zM0 144C0 82.1 50.1 32 112 32s112 50.1 112 112l0 24.2c3-32.2 19.3-63 47.3-83c50.7-36.2 120.5-23.6 156 28.1L555.7 300.6c35.5 51.7 23.2 123-27.5 159.2s-120.5 23.6-156-28.1L243.8 244.4c-11.5-16.8-18-35.7-19.8-54.8L224 368c0 61.9-50.1 112-112 112S0 429.9 0 368L0 144zm257 91.4l62.8 91.6L474.1 209.8l-60-87.5c-30.5-44.4-90.2-55.1-133.5-24.1c-43.5 31.1-54.2 92.5-23.6 137.2zM385.4 422.7c30.5 44.4 90.2 55.1 133.5 24.1c43.5-31.1 54.2-92.5 23.6-137.2L483.1 223 328.8 340.1l56.6 82.5z" />
-    </Icon>
-);
+const Capsules = createIcon("capsules", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABhQAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCLwsGAAE2AiQDCAQgBYMtBy8bLgXILgacsokHp9JVc6KFEHzcDvnrfZ48xMN/a6/3zU4QHJDNVyFFcDyWFEpgYStTxewAhY5wLVsC+9eKsbb7gngSvyGJmIZCxCscru1LhFBIZjiw+nvvENtsfVe3xm/86AAXRO56sfH8B3/f8QQaj57PAw8oCyzTQDC1dJvokYcUfhEhQUOi4wqPrwNyvNXDTLpoALbaTeMrDzuQFAWAaAcA8zuqS/HziZ8itstHYlsxCIgFwCCiQIFeBFOMAr1MBkGWBZ+iLMs/UCCAqGWfLIGMOpwCZwBkkNTk3NEe4uJib27Jm03mxj3PAsgH3mBTRFwL0riGo0DyYexz8Lkf2Rg2rweTj+MfA898wNvp77GPobW89D5MeIl7CqujeoJXAk5jnoLUl50bdbX1rIuruKeEF+/D0NrLWPJ58rvfSVgda6J2WF30H32Mb20oPLLZjwk2j3SjPd1G4dHGhqpNfnS0/bZV+fnr12qbu8yzS8/PTxvvOL8yMjL0bNE76itP0FaFxp+mmWbd2JtB8g5MbOa52vQd7ApoG3nA5jy37mBVch32ZhC/CkAguLy7vd7unPK/3j6BL2+uv0VlaSUpqJdAUFTKipaUAeUpDwEAKU7zTxkgkBxiZldtdg4BQiMCJLUaBSj0cEGQNRpBUKNfLIJajdYYRW4QurUyJM2OQWHSKmTd7qHGFItRqzuM+cdlD/f9S87zKLdLIsMiJEm2jsGnFNVmsoSVgDlJBNIu+owbM6NXj0EzjkwptWeNykM414NEpDARRBI59l/X6/SaMm3QuLHaJpncVwPM4fxA6sMAGH05KkOR6vfvnZieHemdBg==");
 
 export default Capsules;

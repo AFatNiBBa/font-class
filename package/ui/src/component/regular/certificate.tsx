@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `certificate` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/certificate?s=regular certificate}
  * @preview ![certificate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/certificate.svg)
  */
-const Certificate: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M178.7 122.2c11.2-6.5 19.3-17.2 22.5-29.8l5.3-20.9 15 15.5c9 9.3 21.4 14.5 34.4 14.5s25.4-5.2 34.4-14.5l15-15.5 5.3 20.9c3.2 12.6 11.3 23.3 22.5 29.8s24.6 8.1 37 4.6l20.8-5.9-5.9 20.8c-3.5 12.5-1.9 25.8 4.6 37s17.2 19.3 29.8 22.5l20.9 5.3-15.5 15c-9.3 9-14.5 21.4-14.5 34.4s5.2 25.4 14.5 34.4l15.5 15-20.9 5.3c-12.6 3.2-23.3 11.3-29.8 22.5s-8.1 24.6-4.6 37l5.9 20.8-20.8-5.9c-12.5-3.5-25.8-1.9-37 4.6s-19.3 17.2-22.5 29.8l-5.3 20.9-15-15.5c-9-9.3-21.4-14.5-34.4-14.5s-25.4 5.2-34.4 14.5l-15 15.5-5.3-20.9c-3.2-12.6-11.3-23.3-22.5-29.8s-24.6-8.1-37-4.6l-20.8 5.9 5.9-20.8c3.5-12.5 1.9-25.8-4.6-37s-17.2-19.3-29.8-22.5l-20.9-5.3 15.5-15c9.3-9 14.5-21.4 14.5-34.4s-5.2-25.4-14.5-34.4l-15.5-15 20.9-5.3c12.6-3.2 23.3-11.3 29.8-22.5s8.1-24.6 4.6-37l-5.9-20.8 20.8 5.9c12.5 3.5 25.8 1.9 37.1-4.6zM222.5 19.1L211 7.3C205 1 196-1.4 187.6 .8s-14.9 8.9-17.1 17.3l-4 15.9L154.7 80.6 108.5 67.5 92.7 63.1c-8.4-2.4-17.4 0-23.5 6.1s-8.5 15.1-6.1 23.5l4.5 15.8 13.1 46.2L34.1 166.5l-15.9 4c-8.4 2.1-15 8.7-17.3 17.1S1 205 7.3 211l11.8 11.5L53.5 256 19.1 289.5 7.3 301C1 307-1.4 316 .8 324.4s8.9 14.9 17.3 17.1l15.9 4 46.5 11.8L67.5 403.5l-4.5 15.8c-2.4 8.4 0 17.4 6.1 23.5s15.1 8.5 23.5 6.1l15.8-4.5 46.2-13.1 11.8 46.5 4 15.9c2.1 8.4 8.7 15 17.1 17.3s17.3-.2 23.4-6.4L222.5 493 256 458.5 289.5 493 301 504.7c6.1 6.2 15 8.7 23.4 6.4s14.9-8.9 17.1-17.3l4-15.9 11.8-46.5 46.2 13.1 15.8 4.5c8.4 2.4 17.4 0 23.5-6.1s8.5-15.1 6.1-23.5l-4.5-15.8-13.1-46.2 46.5-11.8 15.9-4c8.4-2.1 15-8.7 17.3-17.1s-.2-17.4-6.4-23.4L493 289.5 458.5 256 493 222.5 504.7 211c6.2-6.1 8.7-15 6.4-23.4s-8.9-14.9-17.3-17.1l-15.9-4-46.5-11.8 13.1-46.2 4.5-15.8c2.4-8.4 0-17.4-6.1-23.5s-15.1-8.5-23.5-6.1l-15.8 4.5L357.3 80.6 345.5 34.1l-4-15.9c-2.1-8.4-8.7-15-17.1-17.3S307 1 301 7.3L289.5 19.1 256 53.5 222.5 19.1z" />
-    </Icon>
-);
+const Certificate = createIcon("certificate", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAAB0AAAALSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQCEKQsGAAE2AiQDCAQgBYMtBzIbKwYR1Zr/yH4sxJtc9oitpjLO6ot4+H+7r9/nVo38ugeqsZkB/Fi5iBSM7GHbwOuFtmKcqvF0uk/UtYkZ15N2I9Bx839NXaRe+1JwxBO6qpVFfV4UUCbvTWA4wODG9gQ6YZx5pkvYp0p+URXRRUTN/GuPz3aQxxPwIqhAulF5Exf0p+JrDR0lqZABiNoBYMS8WVM8+2l8GvHG/w8Rb5iEgBgBCoEMShNDMNiugSZyBXK54NP4f/3/ryCAqEggSSBn3V8F/8OvQ5LyfMWlahVq5HPbCVUX3dJYBjapZygNbvOvdmEwKx9r/EBGtpXh8JzMlfEI3B7IwIuYg7MEhD0gEkA6BJPwohZ4iIDQI5nEdt8VDuVl5deVxhIKTVIiZ1UZDl20mQFUq+x4QmIaqE8jTdCvYghq1Xa6IKYYlJMwiH6QIajR2smMJEyqQxGDwcUqTW+v/X/b4s21b7p/TJVRs33vo1Lpo+/NNqpKwxtjtpGXLmrZdz7Kso+u6jFaX7w0cjZsDavQK1v37nSmJqvrrfy3Q/oP1t7RTmufkJe54fkPOg/ztA/94v0bTnXpveVrP3t+SOdTTyi08LhTnesXfvaVt03V5dQN73/pG3cbZvAHz9/whFDHHUg32HG3b30BOm9LEz97YXD14+qo7Qnonvf/tY8Me9Id6kpAILjp058eXVZr8FeulsDnj3//m575/3//P51Suh1QWQJB1nmdLU4C3X9zBMmm2KslNBdIfpLA71LddQKEqgiQVFRVgExjtQXIVdVJgAqa6SNARVXNkom8Ch5KlkxXUt0OV6avfa5cyQOuCgZ7JVtRKbLDzx5d9t8zaaw1jllW9OjavRhY3NYM7jzTbXZQkY603+t6OmCDtbbZarc1VtugpEF3mlLYY4uxke8YbQs9dNVdYaCi3NxLczm70y4b1kJ9kUGK/an29sbDO0DDBOhJViaJSNW+Rg==");
 
 export default Certificate;

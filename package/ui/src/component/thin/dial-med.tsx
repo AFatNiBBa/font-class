@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial-med` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-med?s=thin dial-med}
  * @preview ![dial-med](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dial-med.svg)
  */
-const DialMed: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272 32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM296 288l0-143.8c75.8 4.2 136 66.9 136 143.8c0 79.5-64.5 144-144 144s-144-64.5-144-144c0-76.8 60.2-139.6 136-143.8L280 288c0 4.4 3.6 8 8 8s8-3.6 8-8zm-8-160a160 160 0 1 0 0 320 160 160 0 1 0 0-320zM544 272a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM16 288a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0A32 32 0 1 0 0 288a32 32 0 1 0 64 0zM96 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM464 96a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM96 464a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm368-32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const DialMed = createIcon("dial-med", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAAB5gAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVyETAsGAAE2AiQDCAQgBYMtBy8bSwbIBp7/1/t+n5v7lIyRedXArObTrNjBXj3UsoLzx/08n42igB4PNIt0GG0d1IARhQk4wFEXTeSDbcK23VasTOQdGERkCA6ZGpIY2qW7AS0vGYEL1F71FNgcF8tHYlkBCsMgkiUEZFLXu7uLm+/knchT5xzIUzoAAZB6AGwEMAADSEAAqMRAgAQ0NqDRCLwTx/H/gTYIAIgbQCuOaSAMREACoZ8HihCtfeFx8SkDw5YrUPeySDRH747eGbkjYleUtTRKZJe5LmIHSyJ3Wuujd0sPQe5VXUvZX3m18X71df+hmhstyM7I3dG91pWKXMw8ypKsY2WXrPUVV3JOyNLs4+WXzZ6rZDKG9dFTu2Vp1MJGJx1qtLeG2eGcGLHRfzjk8OeUp6OeErwv6N27oCwtN2gNrAkKWuOIdrbQ+zt6jzYT5qy+dWv1nARzdO8dW3APGeL27MtohKYeTenpztCYwTLQ4mzeJsv5wqDByccGTX6hYnqyRPZN/hwABBCouLHOMzi48pvXUgB8uPz1d3kf56aqVYcBLwoAASPTyWSAqgVASgGAmJJZ+IUfEkDxixDIG8AubUIwoYHCjQkG8YSAxiQDXCRRdIMbk24MRPsQIhhIA0UAU8GgmIWgieAMuKjkQdRNhBjPQXWZVR+j6Zs5qmmWnZeda5fbw4yqvuEK11lhTxtTZ5mKNFjLKCYziRmMZARjmcGI0+hKzGQizRJ103dt8sgmF5tybHX+fnkvRjKN6YxlMpPCMBXY+72pzJLrp4FFQQLzSVIoEOX9WUEoa+LIEQAA");
 
 export default DialMed;

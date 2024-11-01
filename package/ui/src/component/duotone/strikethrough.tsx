@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `strikethrough` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/strikethrough?s=duotone strikethrough}
  * @preview ![strikethrough](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/strikethrough.svg)
  */
-const Strikethrough: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M96 416c0 13.4 8.5 25.9 21.9 30.4c3.6 1.2 7.9 2.7 12.7 4.3c24.9 8.5 63.6 21.7 87.6 25.6c15.5 2.4 30.7 3.7 45.5 3.7c28.3 0 55.2-4.6 78.4-14.6c36.5-15.6 64.4-44.8 71.8-87.3c3.6-21 2.7-40.4-3.1-58.1l-75.7 0c7 5.6 11.4 11.2 13.9 17.2c2.7 6.5 4.4 15.8 1.9 30.1c-3 17.6-13.8 30.8-33.9 39.4c-21.1 9-51.7 12.3-88.5 6.5c-18-2.9-49.1-13.5-74.4-22.1c-5.6-1.9-11-3.7-15.9-5.4c-16.8-5.6-34.9 3.5-40.5 20.3c-1.1 3.4-1.6 6.8-1.6 10.1zm2.1-282.1c-.1 .6-.2 1.1-.2 1.7c-2.8 23.9 .5 45.6 10.1 64.6c4.5 9 10.2 16.9 16.7 23.9l145.5 0-.4-.1-1.1-.3c-36-10.8-65.2-19.6-85.2-33.1c-9.3-6.3-15-12.6-18.2-19.1c-3.1-6.1-5.2-14.6-3.8-27.4c3.2-17.2 14-30.1 33.7-38.6c21.1-9 51.8-12.3 88.6-6.5c11.9 1.9 48.8 9.1 60.1 12c17.1 4.5 34.6-5.6 39.1-22.7s-5.6-34.6-22.7-39.2c-14.3-3.8-53.6-11.4-66.6-13.4c-15.3-2.4-30.5-3.6-45.3-3.6c-28.3 0-55.2 4.6-78.4 14.6c-36.5 15.6-64.4 44.8-71.8 87.3z" />
-        <path d="M0 256c0-17.7 14.3-32 32-32l448 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const Strikethrough = createIcon("strikethrough", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABmAAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCMwsIAAE2AiQDCgQgBYMtB1YbWwXIHoVxGx2OoFLZmV+L4Pv9fnvufai0/5EsSRMeqmloNt2s0cwqKXtoDJUS8P9/3Pf7DMQ7EJwARzCBH0AoYPzrxf/Fqec5DwXwATxznk/N1nTv8wr0fG2fVuAlVtMaWFfnxgdWwONUqK/CHc5QxPPcjQrSDddDcNH+D2D8UdQNSU0GQDQDACbno0Jw9pW+Jnr4vw/xJhgExBSAboSMjDICI7gFynh0g0Ih+OHiAD/EYUAAUYn2CTOoRAV2wBGAAiQhFTzyJhbCvKI8scK8QtQhTzQpLEpDsuPYlxkTEqFBuQmKm9YZlx2XXdeRaeEhuwdas0pCdFqtMKW95juhu6E7SBNyFHfGqYPlA+qddtwrGgXh2RWim57rhPKs3pHPeKgjOy4/OZCOeMgdchtCg9Z3THNHYuebxsPchzgT64dzsTMjrkhFz5+M9S5ePwlmbqHbW6eZJW9kOvEltDEYk/b+2o4f/9c987XRJXQ3R7hfrh04y/CSIkCE1YeS6WEQNr7fBfhJOTwUrRu2shq+WN9wNk4svNz1il4CehyAQFB6+fUyTdz5n4AwF+D39Mef+oeE/69cSK+gWgJB7uMYIzkBEgEASFELzQSsIWRruPRhvUsEqFkLD5NKtTTMSiRWKNTqhQqdbEjP3dO4RSGI0C6FQlJvG7JhLVBotwcVRtx6ldqDGwVpBKKfABN894jPJGZhas4cmbFkZrCKrEadmLehX5u1GNATyFWmVLUc2QpGfIdVCglrlPC1oT6+iLFgyhzjiEVXPwux3KtUpUDPxY/jhMGb+mrt3Q3odLgA/TcvLxOJuGV/iWLwWDFJzh3kNVzSBQA=");
 
 export default Strikethrough;

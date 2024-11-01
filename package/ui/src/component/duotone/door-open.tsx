@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `door-open` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/door-open?s=duotone door-open}
  * @preview ![door-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/door-open.svg)
  */
-const DoorOpen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 92.5L64 448l0 32 0 32 32 0 192 0 32 0 0-32 0-352 0-64 0-32c0-9.9-4.5-19.2-12.3-25.2C302 2.3 295.1 0 288 0c-2.6 0-5.2 .3-7.8 1l-179.9 45C79 51.3 64 70.5 64 92.5zM208 256c0-17.7 10.7-32 24-32s24 14.3 24 32s-10.7 32-24 32s-24-14.3-24-32z" />
-        <path d="M320 128l128 0 0 352c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32 0 0-320c0-35.3-28.7-64-64-64L320 64l0 64zM32 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0 0-64-32 0zM232 288c13.3 0 24-14.3 24-32s-10.7-32-24-32s-24 14.3-24 32s10.7 32 24 32z" />
-    </Icon>
-);
+const DoorOpen = createIcon("door-open", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABjQAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCNQsIAAE2AiQDCgQgBYMtB04bVQXIjtRW94aBpiL4svXab2bvJO2KYUREERCYmMKf2hwpMybBlVOCCIvzf/4v9/yeHx3gsiM4lLFmgxdlR831PIH5PPzFmxIpoUwxc1vKYDa5YpBHnN4e+dBcaH+FKv7JD2mRXk/f4dn6P4Dxg2EeIumRAURfAKzdt2unq53opPju/4+I7+xAQKwDRSAjY6QAK2SBkSoFlUrQSf+nE/8vBBBt+OAM2uiGO/EwoAJJlqpqTN8Bowc0rV7V3qZVn2vqJsV9g15umnhyyKtx/+BX6jpyvDGta1IdTj8xMOIlrBpR7+N+RKGXvBYOpZyE2Lo5wNdkd7xE3T33uwnNk4Nedh9t0TYgxnX17fpp7Hdnv7N69X1oPa73Y4/1XtNYPV2sUffr99591oxZLREWQPny3fo853v3Pn++7rxWrT55CsWiKJ3iuAeo72ePNNWcD2f4g37PfpAi3Jy8DwSC63v/ve1YnxV/dW8S+P6LX/5Ir/v/alqTutBdAkGe8f8Mh9MaUHIA9RS3GEd4PVK2ToZv7ekVAUKNAElbLUA2Ql8BKrXpArSMtlCAttouWVQ9hIGOPGjS0/VotsjdaGWgD9GWFb6stQ2MHIN8BPG/gCmbRmjjtjJ31pyyrGzbuhBWLF1fXl47U24pY1PzWWdd6xo3OeO0C24akBvsbN7sik0M3uiHirlmmaNYphz3npW9UrvBjS6spfNNlivfl6a4hc+emv0ElPNcyjKRIvc7fe21N8wMT2PmbR4bMEn3FgAA");
 
 export default DoorOpen;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mosque` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mosque?s=sharp-duotone-solid mosque}
  * @preview ![mosque](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/mosque.svg)
  */
-const Mosque: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 128C0 32 80 0 80 0s80 32 80 128l0 32 0 96-32 0 0 256L0 512 0 160l0-32zm192 96c0-74 53.5-105.2 107.9-137C339.6 63.9 379.8 40.5 400 0c20.2 40.5 60.4 63.9 100.1 87C554.5 118.8 608 150 608 224c0 27-11.4 48.4-24.6 64l-366.7 0c-13.2-15.6-24.6-37-24.6-64z" />
-        <path d="M0 160l160 0 0 96-32 0 0 256L0 512 0 160zM352 512l-64 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-80 0 0-224 480 0 0 224-80 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-64 0 0-58c0-19-8.4-37-23-49.2L400 384l-25 20.8C360.4 417 352 435 352 454l0 58z" />
-    </Icon>
-);
+const Mosque = createIcon("mosque", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABiAAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCNAsIAAE2AiQDCgQgBYMtB0gbTgXIjsQ4JvFKNB7i4Xv/6n/tc+50PQD3Aex5BDMoYyZ8OJQzIci6fujoh1OdzBj4E9fUD2sqkLInGFpkYp3PMs8nMNCIpJ+NZDZT3O6qCSnRSpJGK0t4/HaP512hSEPyTQ2kR+kn3Mv/Axh/6e4mSfMMINoBYM6mdSt8U4taip/qHxA/WY6AmAtKgYyMXgI0ygK9FEoUCkEt1evUol4vCSAqEMksFfOGS7gBKECSpKJoPaJP35YNrYuNbkSL3LJFS9EiEtjzAcptEfF48OvdRAhG67AFTNbj4cNjaLzdTX4xIuK9IRFvtbw16I1h7/QWN5IRG14TgKr+Wo2PeK/no6Qf1vWfmmP6PR3aKt7t0//ddu/+089BypfI7lYSXbV7167ZkxbrvGZN58VWqznvakz+bNO1XnvTTWtbTze7bZURI6hGVEeMqLYtXTlG+fWuzv/Q9Cb89tprTU3l07/xZtM/nTt40sahQCB4/Pvod7Vt/L9ZywT++Oy/P7WX69+kq+ldNJNAkEfWR9qeroKXBpBJcVF/4ZsEshkS3NXKfQFCC4hLKlpwWU/tuEILI7gGfUzaXdHCOlkUzYVOdhCXtHKGyya7xBU6eZ9r0OjbVEWnyDqo1iD1H2CGhTO8YFg5bvTYcnq5zOsatVLG/mq57Rh6kdUNg5UOOuWk8w7Y74jzE3XWiuwFJyyUyAV+qDTOaGOVpiuPS/PFGx1w1jlHnHIyDVJVvo8MdVFuPQzcCSocb3eWiRS5zYlT585cODBKly3tRt03CwAA");
 
 export default Mosque;

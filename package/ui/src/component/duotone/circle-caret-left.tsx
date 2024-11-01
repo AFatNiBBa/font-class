@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-caret-left` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-caret-left?s=duotone circle-caret-left}
  * @preview ![circle-caret-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-caret-left.svg)
  */
-const CircleCaretLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm144 0c0-6.7 2.8-13 7.7-17.6l112-104c4.5-4.2 10.4-6.4 16.3-6.4c3.2 0 6.5 .7 9.6 2c8.7 3.8 14.4 12.5 14.4 22l0 208c0 9.5-5.7 18.2-14.4 22c-3.1 1.3-6.3 2-9.6 2c-5.9 0-11.8-2.2-16.3-6.4l-112-104c-4.9-4.5-7.7-10.9-7.7-17.6z" />
-        <path d="M151.7 238.4c-4.9 4.5-7.7 10.9-7.7 17.6s2.8 13 7.7 17.6l112 104c7 6.5 17.2 8.2 25.9 4.4s14.4-12.5 14.4-22l0-208c0-9.5-5.7-18.2-14.4-22s-18.9-2.1-25.9 4.4l-112 104z" />
-    </Icon>
-);
+const CircleCaretLeft = createIcon("circle-caret-left", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABegAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBWAsIAAE2AiQDCgQgBYMtB14bCAXIHodxrLApxQVG8fD/a76/z51JVjMpwxQYFbJjUkAKScg+2VdVRfyBNCsCnQjIL7PbqZvnnUcBPog0x/lYtAD3Ok+g80DywANKKNMIIPbeNlyOQHoRIWEi0jihNFadkMdX2QUV0oP0EdfoP4Dxq24ukNQyANEWAHPXrVri6ffxfYqPjcfER4sREPNAKZAhQ08BZsgEesqVyOWC71OjwffRaJQEEFX0oTNQRQWLsQGQgySkPG/fo0u90ipfW68U624702nNnS73ukTc7Xy34+pv50Y8W/KpfmnZ5/NfrPtu3vOlnxUXF3+c83R1/WyXdffqlzrd6SRud7xdXOy89m70a2rb9Hvfj31078sTRXHiwA4Pf3nd+gutX//y8MAOTy2s0a352fz5z5q71Sy0sMa462ZnW60yF825ldo2vOJEAQSC/t/8SJsZ/7eoJ/Djkz//bS+SxtMkNaGFBIJsRGOEzQkkAgCQ4rh+iesIZMZJ6l1buitAKBAgqSoEyPTQVoBcYbgAFb1NFKCqsEom8prQ0ZYBkpYOgcwkJ0Guo2ZQMcMbt6pjZFGFxwT+potZxKGFW+XYUWPKaeUy0YlAQctyemlWhhzHxlA4tN0B+x21zVa7HGXIYUuCY/ZZpMELPag01ihjlKYp3fkzs5a5hx2xS6b8a6Yr96tDHNf7h8I+CTDuPEIZkSLr9vuGHRm03NE7J4xM0Z4eIpWQAA==");
 
 export default CircleCaretLeft;

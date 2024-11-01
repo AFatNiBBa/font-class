@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-down?s=thin circle-down}
  * @preview ![circle-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-down.svg)
  */
-const CircleDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 0 0 480 240 240 0 1 0 0-480zm0 496A256 256 0 1 1 256 0a256 256 0 1 1 0 512zm0-112c-7.2 0-14.2-2.9-19.3-8L137 292.3c-5.7-5.7-9-13.5-9-21.7c0-16.9 13.7-30.6 30.6-30.6l49.4 0 0-88c0-22.1 17.9-40 40-40l16 0c22.1 0 40 17.9 40 40l0 88 49.4 0c16.9 0 30.6 13.7 30.6 30.6c0 8.1-3.2 15.9-9 21.7L275.3 392c-5.1 5.1-12.1 8-19.3 8zm-8-19.3c2.1 2.1 5 3.3 8 3.3s5.9-1.2 8-3.3L363.7 281c2.7-2.7 4.3-6.5 4.3-10.3c0-8.1-6.6-14.6-14.6-14.6L296 256c-4.4 0-8-3.6-8-8l0-96c0-13.3-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24l0 96c0 4.4-3.6 8-8 8l-57.4 0c-8.1 0-14.6 6.5-14.6 14.6c0 3.9 1.5 7.6 4.3 10.3L248 380.7z" />
-    </Icon>
-);
+const CircleDown = createIcon("circle-down", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABjgAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCUAsGAAE2AiQDCAQgBYMtBzIbUgXIjtNlNiNieePh/3Vm933JHvA4iAozV8kCQb0VEbdztiXunD8h+hPXPP/zpweMInuUCistjjqPWsX5BCa2e1ykyGi2Ac10AjbdJuuwIypfCYmUiI7P460T5PGKvUqkB9KnuK29afyks6tJsgxAtALArA1rlnmzOZojPq09R3xqCQJiNigEMmToJsBUmUA3uQK5XNActRr9BxYEEGX8mQnkKOM63AfIQZLnedeuA3pXStV8faXUuOXbhREfznzS5aPeWvTRuh+WfDLnmbhi9NuLP16fvl8e8fnst+OKOe+s+GLDd8s+m/WWy2e+ufTTtXFjh/Vxb1zR8b5KJSJRbmp/D7HH5e3Wxt2NXe6p3NRxQ9wX93Zo7F7Eg/2BeaiTuLsdg3svb7+u98OtHv6lT/d/qvbETMc5Ufc//9edOD6TrlL/7/Pczh1Tus2Z023KHbfPgyoePFm5sGeP65uq119fHWWj1i8/0rqV1o+83HqjURZ60/Vm9kLldO9Sqbc8eUy5+uUkO8s7tV/Vyqr2O5V3TvJltTxmzx4gEOx++Nm7d7Sc+k99JYEfX/5t9CuqvZmkh1EvgSAbWhtqawKJAACkOK93gkBymRy/apN7BQiNCJCUNQqQ6aqVALlGQwQo6WGcAGWN1shE3iC0s23ASZNTcGa8i3CunWfgkqk+8MvaRRaQQjgJz8HU+RqYt60YNXxkMbkwKyLGGFfWpxTb+sDzeWwQeu13wnFn7bPXIWcVdNqy6Jxj5nvgPF9UGGW4kQqTFcft8+719jntjENOOF43maK4bw903p89CFbCtKPlkkSkyr8dbViYAgAA");
 
 export default CircleDown;

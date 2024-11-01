@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-lines-pen` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-lines-pen?s=sharp-thin calendar-lines-pen}
  * @preview ![calendar-lines-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/calendar-lines-pen.svg)
  */
-const CalendarLinesPen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 8l0-8L112 0l0 8 0 56L16 64 0 64 0 80l0 96 0 16L0 496l0 16 16 0 237.4 0 2.3-16L16 496l0-304 368 0 48 0 16 0 0-16 0-96 0-16-16 0-96 0 0-56 0-8L320 0l0 8 0 56L128 64l0-56zM112 80l0 40 0 8 16 0 0-8 0-40 192 0 0 40 0 8 16 0 0-8 0-40 96 0 0 96L16 176l0-96 96 0zm-8 304l-8 0 0 16 8 0 144 0 8 0 0-16-8 0-144 0zm-8-96l0 16 8 0 240 0 8 0 0-16-8 0-240 0-8 0zm402.9-64.1L302.2 420.6l-11.6 74.7L288 511.9l16.6-2.6 74.7-11.6L564.7 312.3 576 300.9l-11.3-11.3-54.5-54.5-11.3-11.3zM317.2 428.2L455 290.4l54.5 54.5L371.7 482.6l-64.5 10 10-64.5zM553.4 300.9l-32.5 32.5L466.4 279l32.5-32.5 54.5 54.5z" />
-    </Icon>
-);
+const CalendarLinesPen = createIcon("calendar-lines-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABigAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCDAQsGAAE2AiQDCAQgBYMtBzkbigXIhofn9aI/9yWjZJGVswQ/hE6s6Hq6D6GowFbuZuJy+l/na5xPmoIhzbFoD9B1nmjc9rZnYZYoZtsMHWqo4RoeeUTClwiHrYbtd5DHV87WID2avsDd8qHxkxFuJckyAFEBYP3Rg7u98318H/F570XiczsREOtBLZAhw2gBVskERsvVyOWC76PXK/+BNQFEE16ZQI4OHsezgBwkrTxfPL7sDCk7ZaNvfqRsFCeFKAJBCoRIlrIc5sSy6FsG64qCCSHkxyFB+HNlCJX2Ee+xoiwSgPAdEZr66KFBfSiGx9Q4Gh4WQ+NA5cyeo/vjEIePHp02c1q/8MrYP6FbdX8Z/8W5X7jh5Xa7XWlb5vSqcrrKPJXql7l+N8/l6zivOn2ZtpW0dyzrv3Ua+BacZpxGo6c73TOPvjU3U/JINz98WgWW9v+V9mNrP9i22K6WbC+8+qqurnN1X/z8LqjPxeXWdXTW/XR9j+51jv4OA4Hg9S+L50/rv+qfdpnAj6/99hM5u/dOWpe6aEsgyGb1Zjk5rYNCG0AsxbUmBF8USO7Xgnft4yEBQoEASVMhQGaUSoBcYaYADWMtFqCpcFAm8o4w2ClKTPq4gphZ4jpibrDniQ2rfBxtGhzZReVfM/5/YpItFrp5XT1/zrx6Rf1Z8wruHrfNrqyXNdOurT3TaaNzXeZSVzvH2S5wtcFcaXfiGpfYEsE2+6HafHPMU1uh3m4+S46Y2JWucoEv2F/FSnW+Y5pr4+HTSZ+A7QIVSSLSwHMsm326vbMvP+dS");
 
 export default CalendarLinesPen;

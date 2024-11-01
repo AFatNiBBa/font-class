@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-plus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-plus?s=thin bell-plus}
  * @preview ![bell-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bell-plus.svg)
  */
-const BellPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M216 8c0-4.4 3.6-8 8-8s8 3.6 8 8l0 24 0 .2c84.6 4.2 152 74.1 152 159.8l0 36.6c0 41.8 14.2 82.3 40.3 114.9l16.7 20.9c4.5 5.6 6.9 12.6 6.9 19.8c0 17.5-14.2 31.7-31.7 31.7L31.7 416C14.2 416 0 401.8 0 384.3c0-7.2 2.4-14.2 6.9-19.8l16.7-20.9C49.8 311 64 270.4 64 228.6L64 192c0-85.7 67.4-155.6 152-159.8l0-.2 0-24zm8 40C144.5 48 80 112.5 80 192l0 36.6c0 45.4-15.5 89.5-43.8 124.9L19.4 374.5c-2.2 2.8-3.4 6.2-3.4 9.8C16 393 23 400 31.7 400l384.6 0c8.7 0 15.7-7 15.7-15.7c0-3.6-1.2-7-3.4-9.8l-16.7-20.9C383.5 318.1 368 274.1 368 228.6l0-36.6c0-79.5-64.5-144-144-144zM176 448c0 12.7 5.1 24.9 14.1 33.9s21.2 14.1 33.9 14.1s24.9-5.1 33.9-14.1s14.1-21.2 14.1-33.9c0-4.4 3.6-8 8-8s8 3.6 8 8c0 17-6.7 33.3-18.7 45.3s-28.3 18.7-45.3 18.7s-33.3-6.7-45.3-18.7s-18.7-28.3-18.7-45.3c0-4.4 3.6-8 8-8s8 3.6 8 8zm48-288c4.4 0 8 3.6 8 8l0 64 64 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-64 0 0 64c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-64-64 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l64 0 0-64c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const BellPlus = createIcon("bell-plus", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABkgAAAKQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCYAsGAAE2AiQDCAQgBYMtBzAbYAXIHgfOqS+muKRGSNKp41DyJR6+1/V6rvR2x9aaQSaiCpnC2KVFLKniNpMqk/pDM+7jwLvLZhOSIY2Ht9v7UIuOLm8eNA8iywItsENqbVERtAUWYBOXO/9pTw+4yB9tTJq6cWx7+t2Y5wkk1uX5wjwLLNMAKNb2ZhNbZLM3kyipdDzT8XWBFM/ZpEL2TPYj7sqbxj/aukQmzwFEEwBMWbpwgU/f+DPix7qd+NE8BMRUUArkyNFBgPFygQ6SEkkS/Bl1P/4HdgggqvR3ZCChivt4AZBAJqU0sEvbLrVKw7SkVilWPtX6cUsR8fOEjxaLV6b0icfO5UdFg7jR6kmcb90vvugW8eukT5ZGRMcvx4gPS/HT5IlHHrcN46nW51v1jc+XKF6d+PHMZedaPq7dbP1U7Kye6/12caPvu6auvKDVQnKPWhQhEu1Jq4giaE+1rkXEw7q+2+Tdf/vjcn496nXrqm0wOb3/XEzpofGG3LZao2vX0jnhibWtyYbGPcSU596fEm3Wu3CsQw9mvJl0qxr9ec6fqdItedOMHjps5bO92+K3JyN7OGjXtWs7YE0b1Bm8ySYjtLoOnayzvh4IBP8NWTQ3Hv9/4wz8fX7PXyPqrvg0exf1ZCDI+9f1rIpPIT4VAIAsjuganyKQuS7RV23giQChQIBMVSFArr0mAiSFfgJUdDJCgKrCQrlI9YUWVhuRaWA/kRvpNJG08AFRMd43YVWLyB2Tdyv+W5gyMwIzjpVDBg4ux5bdRhF8jc3748ppvfcRmusDZ22x1x6HbLbJdocq/IAFyWG7zRxhM3xQaYiBBiuNVS73t6eX2OyAg7bbaw8fMk553u7tyHh1H7AyyjhULZMRWf1nqQ7wawAA");
 
 export default BellPlus;

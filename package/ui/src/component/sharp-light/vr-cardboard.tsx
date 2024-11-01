@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vr-cardboard` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vr-cardboard?s=sharp-light vr-cardboard}
  * @preview ![vr-cardboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/vr-cardboard.svg)
  */
-const VrCardboard: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M336 320l64 128 208 0 32 0 0-32 0-320 0-32-32 0L32 64 0 64 0 96 0 416l0 32 32 0 208 0 64-128 32 0zM220.2 416L32 416 32 96l576 0 0 320-188.2 0L364.6 305.7 355.8 288 336 288l-32 0-19.8 0-8.8 17.7L220.2 416zM176 192a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 128a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm240-80a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm128 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const VrCardboard = createIcon("vr-cardboard", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfwAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCFQsGAAE2AiQDCAQgBYMtBzMbGAXIvgxwhzE6HhAVqAY/WcZkRTazJx+fvehO+aHV8fD8/ahz73+TRY1RQcONhbOdYGuFnmClScvjP4yz9ydHpL8lEG1J5wQ6BaECbuXyNUDG0pPBmzu2iQ1lvzAMtU/nPNA6QBf8Xy2wfLpQRcOmQEH79+8l5icQsHkD3pq/KzPQiWue//nTA2aJPUouQ+cN1nk+gZ1Xe6XIbGADmhhvcN7kA+4O7Tso8U9i8kP+8MZ9aPyiDVKpABDtAGDnpFLGY7Dg9+ogPgoExC5gCKFChT4E1gkF+ogMgaIIvvPsP3AIAoha+DsnKKjHJXgE6E4h1RaRoUcNw0qxWlSPz1e0H9VrSiWRkIgUGkQSoknZEMpqo1IhJG3rRQqqhzGIQh/meM8QAysp4jjBxdQ0496r72G5xFv5hMK8ecAraLb6nlvS+7xP2TG03/TRR79KB9ivQ0PIYNdZZv3aDeN7p7e+Hzzl1uINq7rnV/OksW+78E1BpamThqlHyT/eOPRsfkhBXWn2H0x2q34HEAj29l9/eG2J//UEgJ/+x8/M19miXoKgGr+qNVcAsgOIZUwxTwwwkC6cv3dt9laA0IgAqVajAJVeOgSKRmMI1BgQRKBWowNCUeQI3doqODW7A1cWLcJFtxO4xrqPaK3uwJ+c8cEYf3zZSk2g2I9nXB6O8WhWYfqKNN0d58W+4SleZYVb0WXYkAmdOvSaaEBjyolJg0pTYNEXMS8XDxbDmwt319d1GjOu17Ah20scHx+ymJpubIVBAV921qyURKqm7jrfb/2LBAA=");
 
 export default VrCardboard;

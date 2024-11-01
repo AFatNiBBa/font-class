@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hotel` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hotel?s=light hotel}
  * @preview ![hotel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hotel.svg)
  */
-const Hotel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16l16 0 0 448-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l224 0 32 0 224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-448 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 0zM272 432l0 48-32 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16zm32 0c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 48L64 480 64 32l384 0 0 448-144 0 0-48zM320 96l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32zm64 0l0 32-32 0 0-32 32 0zM240 64c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0zm0 32l32 0 0 32-32 0 0-32zM208 224l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32zm64 0l0 32-32 0 0-32 32 0zm80-32c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0zm0 32l32 0 0 32-32 0 0-32zM96 96l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32zm64 0l0 32-32 0 0-32 32 0zm-32 96c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0zm0 32l32 0 0 32-32 0 0-32zm68.4 154.7C211 362.3 232.3 352 256 352s45 10.3 59.6 26.7c5.9 6.6 16 7.1 22.6 1.3s7.1-16 1.3-22.6C319 334.4 289.2 320 256 320s-63 14.4-83.5 37.3c-5.9 6.6-5.3 16.7 1.3 22.6s16.7 5.3 22.6-1.3z" />
-    </Icon>
-);
+const Hotel = createIcon("hotel", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAAB5gAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWCFKAsGAAE2AiQDCAQgBYMtBywbpAbIHodxTLEpjVg94uFLV/l+S7N1Jy1DHwGYEWNHa2dAEGQ0danLEaVTmu/1Wjv/13x+dn6AX/yS7h1C1DbK1LVGpU1gwFHU4qNZFOhoOCGduTUFUWRU94kYMoyNGHv8Qnp8OkIZH8dSDdJr6Rc8s19o/GXEgyRlASC6AbDrlBOO8kUzmhG/tBK/OAIBsRtkgQIFxgXYqhAYV8oolYJmtFr1PzATQLQBnGwq0UusILYwP0TSXZa5fXh0JkX01I2O8uQ+tTrjxf6XBupIUQVP6nhl6OXBKoqoI0W1nyZUEZ1VJr4+GPHy/Df6XxwWtqbDs3WcIdw78FJdxxNDr0TEfYMvV1U8fhjVzhfXJz/eH/EiQVZ1VdnS5IkBFE+heDLFEyNOenPDu4teuo0c/Gz/N0tfHOA9Z093T/8965eLf9H1ebOzs9ntC91SryZpaVkJb7bSiOzMxa/8Jr/xt1+LlZ71hXt94Vkru47JOXc++mhndmp3ZrxRlp+Z6nwUnS1iG3Lqngiqx1BtMZw65xR7XLZz52WvffD6HUXO/zzhg9eAQPDWl/8fOqdr638z6gQOffS/60dofZGkacyQQFAsbS11ZgKJgI+U4mazEwRSLNAN59ruZQFChQBJm0qAwphuAUqVJQI0TFonQJvKCQpRzhT6nTVA0u46UFjvLlDq9zZo2Op7X5v+KBaP8OoLv66p9kto37i8avnKvDmrGSyuB446t+TH2oU3t4pFea2LXeNqN7rIhS5zo0Cud1TwJlfZb6H3vTdbZbmVss2yO/+8/GQXud4NLnONq7dRtsjxzoVutusvyoYEtKvFJYlIjW8FAA==");
 
 export default Hotel;

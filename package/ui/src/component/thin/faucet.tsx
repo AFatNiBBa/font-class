@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `faucet` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/faucet?s=thin faucet}
  * @preview ![faucet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/faucet.svg)
  */
-const Faucet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 64c4.4 0 8 3.6 8 8l0 46.6 103.2-16.3c25.6-4 48.8 15.7 48.8 41.7s-23.2 45.7-48.8 41.7L232 169.4l0 38.6 26.7 0c10.6 0 20.8 4.2 28.3 11.7L323.3 256l52.7 0c75.1 0 136 60.9 136 136l0 16c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40c0-13.3-10.8-24-24-24l-40.1 .1C298 413.2 263.2 432 224 432s-74-18.8-95.9-47.8L8 384c-4.4 0-8-3.6-8-8s3.6-8 8-8l124.2 .2c2.6 0 5 1.3 6.5 3.4c18.8 26.9 50 44.4 85.3 44.4s66.4-17.5 85.3-44.4c1.5-2.1 3.9-3.4 6.5-3.4l44.2-.1c22.1 0 40 17.9 40 40c0 13.2 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-16c0-66.3-53.7-120-120-120l-56 0c-2.1 0-4.2-.8-5.7-2.3L275.7 231c-4.5-4.5-10.6-7-17-7l-69.5 0c-6.4 0-12.5 2.5-17 7l-38.6 38.6c-1.5 1.5-3.5 2.3-5.7 2.3L8 272c-4.4 0-8-3.6-8-8s3.6-8 8-8l116.7 0L161 219.7c7.5-7.5 17.7-11.7 28.3-11.7l26.7 0 0-38.6L112.8 185.7C87.2 189.7 64 169.9 64 144s23.2-45.7 48.8-41.7L216 118.6 216 72c0-4.4 3.6-8 8-8zM110.3 118.1C94.4 115.6 80 127.9 80 144s14.4 28.4 30.3 25.9L216 153.2l0-18.3L110.3 118.1zm227.5 0L232 134.8l0 18.3 105.7 16.7c15.9 2.5 30.3-9.8 30.3-25.9s-14.4-28.4-30.3-25.9z" />
-    </Icon>
-);
+const Faucet = createIcon("faucet", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABoAAAAK1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDGgsGAAE2AiQDCAQgBYMtBy0blwVRlO5FkOxjMbZF8V4RhV08MJSWh//Xmd33JfskUkAOoSbE4AnBIkCH3DEUDVG3Z8utJ2vf9adOPc95KIAPFrGg7KkBmeehsTrWeQXKBWmqawitAVYqeQWs1s6++JJIUcIgdElm9cOqDp0F5PG+UzRIT6YfcL9/0/jXYLeQZBmAqACwsnP3Vp/8EX9E/NCF+MFmBMQqUAtkyDBMgCUygWFyNXK54I/o6uL/wJoAoik8TwI5GngdHwBykGR5fmtVlY2e+UC7bBQHH+0vOuPF/o8OfqLfI+PaIcq4u//SKOPLpR92iBv6PVIUcdeAx+KpcUV8sOarZUU8NuDxgcDMr6/9evrjZRnP93/Uk2PLeHFoxDPLPlqH8suI3An7LYlHCthcHmBtxJ54bsBjQ54e+PjYvREx3HDPY/0iHnFD/0cHdkZEu9zTuUfsjUcHPh43DjBHOeqV6pX/On447Qe/X3+sOd1plZk//5xlP/8887TKeENV78821wPtU7tXWu+92pqh9ep7rf47J5j66adTr3Cs2Txm/xr56B+PH/9xdD6FV/QBM+zsX0mtVr1A1tF2WrFOcVpbRwaPd6nZ3q+GGn9Nn25cf+Hct27j9h49br/trTMrfST+HyYVWXkTnPmeEfU2EF+5feUn5x7tveT/bmUCf73X+TeUpFfQTQJBNqVrikMJJAIAkOIyoxIEkudl/KX28JgAoUCApKkQIDNUJUCuMFmAhhHmCtBU2C0TeXehn8MNJD1cCDLzXAty/bwLGpb42m3qF5nU0jJH/xkT1g2tHVXPnDajXlRPY4URRNIOLq5hY8JlGibSVKc533kucapTnOmSkItsDS51rnUreK0Pqs00zQy1Rert7H5y26kucrEzne88N8xi9XlngsvW7SeSnQTMWaT0BJHUPO34pSdPvQQA");
 
 export default Faucet;

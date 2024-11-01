@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `refrigerator` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/refrigerator?s=regular refrigerator}
  * @preview ![refrigerator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/refrigerator.svg)
  */
-const Refrigerator: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M288 48c26.5 0 48 21.5 48 48l0 64-48 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L48 160l0-64c0-26.5 21.5-48 48-48l192 0zM240 208l0 136c0 13.3 10.7 24 24 24s24-10.7 24-24l0-136 48 0 0 240c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-240 192 0zM96 0C43 0 0 43 0 96L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-352c0-53-43-96-96-96L96 0z" />
-    </Icon>
-);
+const Refrigerator = createIcon("refrigerator", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbAAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBYQsGAAE2AiQDCAQgBYMtBzMb5ATIhqDQWfVI8taevIesAwLI4AHAHwJFzh4oSJ5Txulv/nnnUYAPRGpj54Es8DnPE+g8XzYW2KZlgWX6Beyr23hxQZQXw5Fz8IgYkiw0O8jiTNxWInkw+QC3+kvja61dJVFKAUQjAExasWSe6hfxRcT7/79KvG8OAmISKARSpGgnwFipQDuZAplM8EX8/3/5DywIIGro8QnIUMIyrAFkIJFmWbuWbcql+tnycinf8WzziHtbizwiHur+TCur/3DL+3uUlwoPdnu+bUQ5xD3N6uK+FjjJ8ld6RrzQLokHe73YrX483+eltmk81rsyPO9caVT5ttMH2z/Q8dbAT/gwnWignpovWtS8p6qJ0g8/GVgd8PjNmzfj5JsG+kGDL/iiwQ+qtz6+WKFSu1HeuPETPDFmzDeqrVQuVoFA8GDjB//e0HDsr7XlBHz11ve/wa/o/2pcTCqolYAg7ft/X2vjIsRFAQBI4rjOcRGBxDwpfWqd+wQIOQIkauQCpNpqJEAm10eAkg6GCVAjt0QqsnpCM+smSNQ5BFLDnQOZZl4GJWO9zddoFimxcFrg/7qY6R6allYM6j+wGF0sZUZwBa3xMcU22/M4bL2k1HYH7HfUNlvtctQhh82TjtlnegZP86HCIP0NVBitONaO+cttc9gRuxywvyUZo7jP9XQ89+4lWSSAwU+CoiqSusPbth/etWPb4U1HDxwGAAAA");
 
 export default Refrigerator;

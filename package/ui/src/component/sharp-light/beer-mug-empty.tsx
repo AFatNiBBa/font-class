@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `beer-mug-empty` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/beer-mug-empty?s=sharp-light beer-mug-empty}
  * @preview ![beer-mug-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/beer-mug-empty.svg)
  */
-const BeerMugEmpty: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 64L64 64l0 384 288 0 0-87.6c0-.2 0-.5 0-.7L352 64zm32 306.5l0 77.5 0 32-32 0L64 480l-32 0 0-32L32 64l0-32 32 0 288 0 32 0 0 32 0 32 112 0 16 0 0 16 0 192 0 10.5-9.6 4.2L384 370.5zM384 128l0 207.5 96-42L480 128l-96 0zm-224 0l0 16 0 224 0 16-32 0 0-16 0-224 0-16 32 0zm64 0l0 16 0 224 0 16-32 0 0-16 0-224 0-16 32 0zm64 0l0 16 0 224 0 16-32 0 0-16 0-224 0-16 32 0z" />
-    </Icon>
-);
+const BeerMugEmpty = createIcon("beer-mug-empty", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABcQAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCHwsGAAE2AiQDCAQgBYMtBzUbJAURlZpVyH4kZG7maVZxnkyZRub1ODroyxrfxMPXWvl+Tx/NbJAnp0IKVdimogBIMXoCYdASO2Aht2IJ9ELE5uBTujjxCBna6kJyCYCJy53/+dMC2fTijzYWLn3fQHM2piUQYNHUvM7TLLBME7Csnd2CEt2gJP0rkuyWHzZ3yPEkJmgjXUvvcSZ/aHw1xGlJLgBEbwDMXjx/npfNaEa8b90T781FQMwBtUCBAsMFmKYQGC6rkWVBM1ot9x+IAKIdn5dARid24gAgg6Q9516juvrQrtp65EXlaLm50aORokdEnAivKJYKomxEFBFR9RCiqoQQ/WNBCIsjoiwFIcrgdlWlDnff7n37++j3/Xurj9WgHVdbAh0zauK8SK2eheP1bG17795eqlzYM+nvZzBWj3V9TbN3qKl6q/WG6Wapx4FA8PLuqGere03731kl8OXxz9/4EdJqinQbnRIIigmtCSsSNYkAAKTYqztRCyTbPOK7NlwOEEoESNqVAhSG6S1AVhovQJuRpgjQrjRfIXKX0N/KjiUNO7DCVEewrL87WJtpXrnt+kdhd4LVCN++VO4l4PZRZgWGaaaJpsTFRcu2Fvy+E+Ki6o/97drpFdBdB9/mV6D7ImVWYDguH0833f1Mx552sdy3gn89HsIUZK1uC6F06rmu6+50+4bU/gE=");
 
 export default BeerMugEmpty;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `helmet-un` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helmet-un?s=sharp-duotone-solid helmet-un}
  * @preview ![helmet-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/helmet-un.svg)
  */
-const HelmetUn: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M215.7 384l2.7 0c3.1-5.3 6.2-10.6 9.3-15.9L242.3 343 320 416.9 320 288l48 0 0 174.5 1.6 1.5 70.4 0 24 0 0 48-24 0-80 0-9.6 0-6.9-6.6L215.7 384z" />
-        <path d="M479.5 224C471.2 98.9 367.2 0 240 0C107.5 0 0 107.5 0 240L0 352l0 32 32 0 168 0 18.4 0 9.3-15.9L274.4 288 416 288l64 0 32 0 0-64-32 0-.5 0zM160 112l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64 0-16 32 0 0 16 0 64c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-64 0-16 32 0 0 16zM272 96l8 0 9.9 0 4.4 8.8L320 156.2l0-44.2 0-16 32 0 0 16 0 96 0 16-16 0-8 0-9.9 0-4.4-8.8L288 163.8l0 44.2 0 16-32 0 0-16 0-96 0-16 16 0z" />
-    </Icon>
-);
+const HelmetUn = createIcon("helmet-un", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABjQAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCWwsIAAE2AiQDCgQgBYMtB04bewXIhocvm9n73SOVPGOGMbHWgHyEkDFmCNFGzg6AVBdytLHm/3LPzzYd4Dc6tD10LLrKej7n8wTGfL69wwZmUUKZZmBZO73BD9/rNkn6gmTY/LC5QhFf57s1SE+lT/FA/h/A+NsYd5P0ywBiMAA2Hnd4r6Od6KT4tPs+8ak9CIhNoBbIyBgvwBpZYLxCjUIh6KRul050uzUBRBPgTGvGJ96DZwEFSLIoiomTZ06oGgOKY6tGedb3x0aES9/u+LD99hEhqmpUHMe3RpQRZwqPjXhiVEREFUI8OfzRaS+OfHys2XFcVVYjoieG5aIsR8aiqgbkasV8YpR44+IYTUdEVfFLjp3y6uBX/5386bmf+uOP1mmb1rFx3RmxyWmn9fXZdLla3fuC+fvdf/oGNesv24CcAzudgRsMVhtsg/zZr+32r59ls+eyQa3W0BUeNi8t4XSDDabQD+sT3jtt2tChP9q70x3a3jLYttFto0881m3XA4Ggd+yFv542aE1fq0rgz97//1J+R92jSXoVLQkEeV53npMTSAQAIMW1piT4USA7V0af2t/jAoQSAZKmUoBsnMECFEpzBWiYaKkATaXDsij6CcOd0kDS3xUgW+YWUBjuPdCwxgdZ0/DIbsk6FfsrTNrWQ1tn1T0L2vWqelhROU+jZXJ1vW3NupY7ZtNF57rMpa52jrNd4OqOvNLe0jUusW1GbPVFtR4LtNVWqY/r29PHOseVrnKBy1yq06xW3/dmuXbefza5CSgXyZVlIkUecv45F19yztXzr7l0/gPvGGaEpwwA");
 
 export default HelmetUn;

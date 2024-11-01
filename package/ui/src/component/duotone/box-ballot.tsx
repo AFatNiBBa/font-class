@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-ballot` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-ballot?s=duotone box-ballot}
  * @preview ![box-ballot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/box-ballot.svg)
  */
-const BoxBallot: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 208L0 320l576 0 0-112c0-26.5-21.5-48-48-48l-80 0 0 64 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0-320 0-48 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l48 0 0-64-80 0c-26.5 0-48 21.5-48 48z" />
-        <path d="M160 0L416 0c17.7 0 32 14.3 32 32l0 224-320 0 0-224c0-17.7 14.3-32 32-32zM32 512c-17.7 0-32-14.3-32-32L0 320l576 0 0 160c0 17.7-14.3 32-32 32L32 512z" />
-    </Icon>
-);
+const BoxBallot = createIcon("box-ballot", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdAAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBXQsIAAE2AiQDCgQgBYMtB1Ab/wTIhqCySfbsnVT/Jz3yPTBGCGxgSu3InJmDjFROCTJXafqbf955FODj3MeyjYsX+JznCXSeTm4DBZTQ1w9oXxi/tbPvBoN8FoP0PiQZJn7YTDbI4//stgrp2fQtHub/AYxfdHObpGUGINoCYO66VUt83ohGim+bHxDfWoyAmAdKgQwZegowQybQU65ELhc0UrNJI5rNkgCiin9SBqqoYCXWA3KQJJHn7dsPqlVa5WtrlWJTq3qr+zs9SdQj4kaXp2vr7+sc8VREtAlxveMTResQ2kTEc52fGlSEqMWTnZ7oWNSf6vx0l1pEFPFGxye69nuv7Xu/9f1277de/gyt77mndcMcjcBdayYOsK8o6BWdP4/HVXMcl333/Zjl5hij0bp1Y8xxPGiO5cZ8/10GBALL3+q3rc2M/1rUEvj5wz/+wX3Nz9Oc9B5aSCDIRjRH2JzmAKED+FIpzuqX5oBAZpAEb617SoBQIEBSVQiQ6aGtALnCcAEqepsoQFVhlUzkLYWOthSQ1J0AmUmugFxH74OKGb4wqjpGZleEVRDPuthFElrYVY4dNaacVnYdmTQVzDenl9P8kLMuMZQW7XXMUaftsdsBpwVy0hL7jCMWjeCFPqg01ihjlKYpl/01uxbGSaccaNPrbaYr9ytDnB3nD6V+EmDciQxmRIqs/c5j50f+kyifHmmhyY41fRkB");
 
 export default BoxBallot;

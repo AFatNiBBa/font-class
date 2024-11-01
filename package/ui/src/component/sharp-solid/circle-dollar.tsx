@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-dollar` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-dollar?s=sharp-solid circle-dollar}
  * @preview ![circle-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/circle-dollar.svg)
  */
-const CircleDollar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm20.2-362.6c18.3 2.6 36.2 7 54.1 11.5l-10.5 41.9c-16.3-4.1-32.5-8.1-49.1-10.6c-16.4-2.4-30.1-.5-39.3 3.5c-11 4.7-18 16.2-6.3 23.7c8.5 5.4 21.5 9.2 39.4 14.3l.8 .2c15.6 4.4 35.5 10.1 50.4 20.3c19.4 13.3 28.5 34.9 24.2 58.1c-4.1 22.4-19.7 37.1-38.4 44.7c-7.8 3.2-16.3 5.2-25.2 6.2l0 36.8L233 400l0-38.9c-11.7-2.6-26.7-7.4-36.6-10.6c0 0 0 0 0 0c-6.6-2.1-13.1-4.2-19.7-6.2c-2.3-.7-4.5-1.4-6.8-2.1l12.9-41.2c2.2 .7 4.4 1.4 6.6 2.1c7.3 2.3 14.6 4.6 21.9 6.9c0 0 0 0 0 0c12.1 3.9 26.4 8.4 34.5 9.7c17 2.5 30.6 1 39.5-2.6c12-4.8 17.7-19.1 5.9-27.1c-10.1-6.9-22.6-10.3-34.5-13.5c-2.3-.6-4.5-1.2-6.8-1.9c-15.1-4.3-34-9.6-48.2-18.7c-19.5-12.5-29.4-33.3-25.2-56.4c3.9-21.5 19.9-35.8 37.8-43.5c5.8-2.5 12.1-4.4 18.6-5.7l0-38.3 43.2 0 0 37.4z" />
-    </Icon>
-);
+const CircleDollar = createIcon("circle-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABhQAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCKwsGAAE2AiQDCAQgBYMtBzQbLwXIhuB5vaefc5MFnIWIL1RgK6iiKlZv4pr6GfTeRo9SsUgtbMAugZ1PdN42kVmdz3QCNt9br6YtIrslebKS/MNx/3D6/CPk8XR2ShnSbekdXK1PGr9p4BRJhQxAVAfA8LkzJ3vh6/g64u3So8TbJiIghoNCIEOGxgIMkgk0liuQywVfR6nE/4EFAURZSiWJnG7bjxOAHCQpzxvNqVSmSp7uVHH251Mj3h/5chwf8dKU9+Z8MumdYS84NvzFye/OXnhv68ZxX5v7at+YK3Vuah2B5Qcb39mKq6JihJk+HkTcXBe8UG0WN9U5LpYYUby3zr31bjFsoE36eMWj8kPN7miLt0dUCi0eqv7QH83fWfOO0tDRrnHdwMYjRzYeeN210bCbP7fWhkduvs2ZnSd+3Nm6ze7X7+Omy5/O3P7VIx+01lFbvXKobvuOVD2qv6EomD582nAY89H1r95Qr93p/2vlRcSuTd+NuvrWyeva6Kg1EAie+OSu25dWG/R3+UoJfPvUX39ov6LSC0l6COUlEGSdSp0sSiARAIAUe7RIEEi2S/RRK7tZgFARAZKyKgqQaaS6ALmKOgpQRlO9BSiropkykVcQals8tKSy7Vqmj8NarraHtTIGeb1WVu3IvM/xHefjr3AMwqP3Fd27dCsGFMuu7jqUVbYHFseZdntkqn04aI2ttthltVXW2wXCDpObu202ZseP9kWF7rropjBAcT14DudQeYedxLLd+10MVDxfaGfPfnH7kE9Ut4eWJBGpyk868c5vIQAA");
 
 export default CircleDollar;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-word` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-word?s=duotone cloud-word}
  * @preview ![cloud-word](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cloud-word.svg)
  */
-const CloudWord: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128l-368 0C64.5 480 0 415.5 0 336zm128-32c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-192 0c-8.8 0-16 7.2-16 16zm0 64c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16zm160 0c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-192 0c-8.8 0-16 7.2-16 16zm96-64c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M128 304c0-8.8 7.2-16 16-16l192 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16zm112 48c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l96 0zm256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l192 0zm-96-64l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const CloudWord = createIcon("cloud-word", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABqgAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iCcAsIAAE2AiQDCgQgBYMtB1AbkgXIjsJxrwRlssRLUeIVz1Nj7f3dPUO8eYekCQ9VtCRCIzSTyNDqlXBDpQT8f9Z+3TeCiA4fcUlqdrpGaOLeqRMK+Nad+b/m83t+VCCfD/j4kDpWaQ2e7amziURTWghMaBOZEc+gee+BDu0Wos/Qii07ig7li3kFPLj/A5g/GBqFYlABkBkAwPFlShwuRRIZepV2yRCxIJATAGsIFRVLCOxhBUs4a6BpwoiRJEYkSWsQIF24r62gi3G8g28ADRRNp3GqKipqtqp+SplX5dLjU0oZs/rKNK07paNEM3ppOd3TqOrNpCsrKRtPozlXog3fIXoLvcjY8z9yXlDes18yHTTYc14znQ86jVKh+5BzWcZiXJlm9eeUaEoHNkmZlHGGbFlj+d3itfzVwIOaeAlRLXEaXN2BQlB+OFAQWugX0J9C4/QkvGxwHEW+DiPp0ss7pcFscHlZQSvx8HpLjfeKTGzE1USnyYD50U1hetP84FBBqHwcIAg/8v/zC9SD/ikoM4Df48/f7B7/YhlklkFfAaFuSE5y3SRgEwOkS9oho190D4LqFs9/1wnvCIgxBBRdYwKqRRoINGPWEehY4Y1A15hTrDRFxIK8ChQT7kC1qw80C3ZAx56HTNdCWIRy+OKuD5NjmlD0IsHdxU0IEEYLCh50jDUYKCy27dq1Bnu6FeUa1GtVplSV1gbSLC7fpk7MFBztgwTuXLgRBBA2l+/K6Y1MsxZVw+L2UQIJx0fttE+3t6cehk+5aUlVSSFW61+FijOMdWesN+q0xbMaAA==");
 
 export default CloudWord;

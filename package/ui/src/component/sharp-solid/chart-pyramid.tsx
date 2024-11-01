@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-pyramid` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-pyramid?s=sharp-solid chart-pyramid}
  * @preview ![chart-pyramid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chart-pyramid.svg)
  */
-const ChartPyramid: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M91.4 320l329.1 0L347.4 192l-182.9 0L91.4 320zM73.1 352L0 480l512 0L438.9 352 73.1 352zM256 32L182.9 160l146.3 0L256 32z" />
-    </Icon>
-);
+const ChartPyramid = createIcon("chart-pyramid", false, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABTgAAAHJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeIECCwYAATYCJAMIBCAFgy0HNBuGBMieg3GzdoSDIKKIKr/JHlO+0uLh69733Lu7P6V0bo06cBUOUABjDTTjEQlY6E80HH7+P+P8+ybXpb2zZGUwGR9yZomrX2wuYdkeApE/ou/zfzNtPI8C/EahjYWLlm+QMcbzBALMenkecH5gB8rHdOY24ooT3gVBDENwiBjKEEPzhhov5UwjP/IfvOQPjT96Z6ShAoCYBAA3j/kcPsfRj/jr7ohvGRAQNwA2EQoKVhE4JxRYJbIJqiroU9e5/0CGAKIHfkOCioYtcACgglSqSC6XKsVqUUnZFGX1qLpEw1QwFcoFbZRotF4g5bFx1Mj/E/9qz2mYqUPcq6oheehFgPSFLwK5fg4IBD9r57W15/8ypQDw+zztR3fjlJ8YlCAoO51NI0ESAICMDRgTAmmJEAAAwKhXAcIwAqSeYQGKFToEqmHbCDTr/Aj0DLslFFWOMKsZQRr1BIoz+6CadQOac192z2yUm0Lbmf6nJcQlGttjt8PFEZ6mOmN8MqyjvCyaNqhlxiUmLFqwZmhg2prAV+S8dfPiGhbzRczNwYVF8HbxeF4ytGLVtEULaUsUnzdMNvRhMxQBJjwSSEmk+o347EvbK9356QEAAA==");
 
 export default ChartPyramid;

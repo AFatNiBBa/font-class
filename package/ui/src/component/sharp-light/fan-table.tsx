@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fan-table` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fan-table?s=sharp-light fan-table}
  * @preview ![fan-table](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/fan-table.svg)
  */
-const FanTable: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 224a192 192 0 1 1 384 0A192 192 0 1 1 32 224zM240 447.4C356.2 439.2 448 342.3 448 224C448 100.3 347.7 0 224 0S0 100.3 0 224C0 342.3 91.8 439.2 208 447.4l0 32.6L80 480l-16 0 0 32 16 0 144 0 144 0 16 0 0-32-16 0-128 0 0-32.6zM195.3 62.6l-14.8 6-22.3 9c-49.2 19.9-72.9 75.8-53 125c9.4 23.2 28.3 44.2 50.6 57.7l-44.1 56.4-9.9 12.6 12.6 9.8L133.4 354c41.8 32.6 102.1 25.2 134.8-16.5c15.4-19.7 24.2-46.6 24.7-72.7l70.9 10 15.8 2.2 2.2-15.8 3.3-23.8c7.4-52.5-29.2-101-81.7-108.4c-24.8-3.5-52.4 2.4-75.3 15L201.3 77.5l-6-14.8zm-17.7 41.7l28.2 69.8 8.2 20.2 16.8-13.8c18.5-15.2 45.8-23.1 68.1-19.9c35 4.9 59.4 37.3 54.5 72.3l-1.1 7.9-74.6-10.5-21.6-3 3.6 21.5c3.9 23.7-2.9 51.2-16.8 69c-21.8 27.9-62 32.8-89.8 11l-6.3-4.9 46.4-59.4 13.4-17.2-20.4-7.7c-22.4-8.4-42.9-28.1-51.3-49c-13.2-32.8 2.6-70.1 35.4-83.3l7.4-3zM224 240a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const FanTable = createIcon("fan-table", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABqAAAALWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDHAsGAAE2AiQDCAQgBYMtBzAbnAVRlA5GiezjMG74SiwQMbRhiBZDKbwof0zDKR6+3+/3a58riGiHpAmvRM3evURoXkkMIeHTKeENSX7++VokV1UfxNmzlRGZ5IeVvqdOPc95KIBvGQRBG8vW9n0eS7r2eQUKuKg2tvWK9bHAqhW0vm0oZCMIwREhIhYRjee4bSCP+zDCS7pND3DZPzT+GdBCkmcAoh0ArGxHBuNKLWoRX9U+8WUNBMQqYBwhQ4ZhBOZxCwzjMQ5yuaAWVUX/gQwCiBI/VwI56vCEN0AOkiLPDylrGZoLCvOK8sQI8wrFNpoSbTqeCnfbHxuvo8Foze5IqMvhxGSDol9HEj2PnbHYCbjnc8PvjtkWexn+NBokJAQSFiU8ihJk5GW0aE9lTHXc3o1kSJa06dj20HBVPVpPI0/KNGmwYnNgF0NyRtEx0YqkS4O6i9rzisMKMhRDOqRINGlIZklrTkeOPEnZjV2QG5AbUR7VlY8elIfF+2T6ZTVWJFZ+ch7kPID6Z6tRoPvuXUtLsbpHrUyOFnz8KY5/HRinBLGn14xUv3xRNbr2VAyk8fUow0GDBIOEmQQNHKP6l3zWPIR++/bqv9YRRnEME/BHRk3UC/gI4i916MK3pLgty1LJHSkCyt7lIpUQwftuba7Z7z8M+OEvhAhYg+PhPs7T05QahXee8gHfhwelwwODXRXG7V/EWr8gWikQ+138lHxLFZ//LyCcwPfz77/G0dWV+EyPqJdAkE1WRpLiE4gYwE9KcU4jriCQPCjwtTa7EiA0IkBSahQgM0QCgVyjCQQKo6wRKDVaxy3yBqFbsoKk2RHIzKkFuW67oDDvdlTqDu60ZZKO+TQm+ljIexQzNzFjDmyZm2wmUm3QkR3LejW1QR/mIkepElWyZclXZZAKwWm1Yj472NsXMeZMmGEcsOvyXowxUYVK+TF/P4wj9t7XU7Nvrw8aFyadMjNJRGo43Ckxzmk=");
 
 export default FanTable;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wifi-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi-slash?s=sharp-light wifi-slash}
  * @preview ![wifi-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/wifi-slash.svg)
  */
-const WifiSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M27.8 8.1L40.4 18 619.5 469l12.6 9.8-19.7 25.2-12.6-9.8L20.7 43.2 8.1 33.4 27.8 8.1zm370.4 228l-54.7-43.2c73 5.9 138.2 38.9 185.7 89l-21.6 23.8c-29.5-31.8-67.1-56-109.4-69.6zM208.5 249.5c-28.7 13.9-54.5 33.1-76 56.2L110.9 282c20.3-21.5 44-39.8 70-54.2l27.6 21.8zM201.7 81.1L171.5 57.2C218 40.9 267.9 32 320 32c123.8 0 235.9 50.2 316.9 131.4l-21.6 23.7C540 111.1 435.5 64 320 64c-41.1 0-80.8 6-118.3 17.1zM48.8 123.4l26 20.5c-17.8 13-34.6 27.5-50.2 43.1L3.1 163.4c14.3-14.3 29.6-27.7 45.7-40zM320 480c-11.7 0-22.7-3.2-32.2-8.7c-19-11.1-31.8-31.7-31.8-55.3c0-35.3 28.7-64 64-64c.5 0 1.1 0 1.6 0c8.1 .2 15.8 1.9 22.8 4.8c23.2 9.6 39.6 32.5 39.6 59.2c0 35.3-28.7 64-64 64c0 0 0 0 0 0zm0-32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const WifiSlash = createIcon("wifi-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiQAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCNQsGAAE2AiQDCAQgBYMtBzEbNgXIhocHva8/N8kob5bO2q74bZd2xalTz3MeCuBbAGgszHlAFvic5xHI+dq222IrUCvWKordnVtpq0Eeh7SUJTku7fickMXf0U0ZyaXJGzi7fGj8oIkTSGQpgKgNgNEL5073zKfxacQb/z9IvGEqAmIMKARSpGguwDCpQHOZAplM8Gn8/z/9BxYEEOXq8xOQoQoHcSogA4mKLKtTXVk3b1avVFYjWyAL+dIGDRvsjgbRKRrGnvDarqtnTJ/x4uBHh3eK56bMe6Rbl7h9aOcFXTp3+bj04fwPZ3eK9xZ8tOC0SfM6d+l8S6dFbdf1pzW8reXlXW/veKyUak9vcGODC13S6ZZ2xwJm4/RGERfHsYYX5afVv8DRNFNqc1vt235q/caGNzR7+FFZMfY5jxrkUWOe86pBu7/YAqv2ff11/4ne+fOJGg/8vtAv6x8sv+VjWD2+8YxlZree1eaNhU6ZUkxttcCIXZd0vgDOX7dxoXl7aq6r+8m79fM6da4RovqChnffrWpQ1DyFU2o2BaGBuGvaxi63r6w17K/KUgI+f+yX3/Lj6f+vJIeS21ApAUHa7f9uliVHpVIjU0AVkjigDX6TQGKnCviu1S4SIOQIkCiXC5BqprYAmVxXAcq01F+Acrm5UpFVCfUtHyBRbTdIDXAIZOq7H5QZ5mWhXP1IXZBwIOIHGDtBQ+Ozit49ehVDiqWik16FxeTQYpvrdIAdnXHRBjvtsM9662y2TyF7TJf3226CBY/3Q4XeeuilMERxrD9PL7DeHnttttOOnGao4j7fyQHbvzPmkQD6PB7G7ZHkBzdv2Nx977bVezcB");
 
 export default WifiSlash;

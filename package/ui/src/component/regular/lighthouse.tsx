@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lighthouse` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lighthouse?s=regular lighthouse}
  * @preview ![lighthouse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/lighthouse.svg)
  */
-const Lighthouse: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M33.5 1.9l112 48c12.2 5.2 17.8 19.3 12.6 31.5s-19.3 17.8-31.5 12.6l-112-48C2.4 40.8-3.3 26.7 1.9 14.5S21.3-3.3 33.5 1.9zm112 204.1l-112 48c-12.2 5.2-26.3-.4-31.5-12.6s.4-26.3 12.6-31.5l112-48c12.2-5.2 26.3 .4 31.5 12.6s-.4 26.3-12.6 31.5zM308.6 2.9c7.1-3.8 15.7-3.8 22.8 0l104 56c11.7 6.3 16 20.8 9.8 32.5c-5.7 10.6-18.2 15.1-29.1 11.3l0 25.4-48 0 0-50.9L320 51.3 272 77.1l0 50.9-48 0 0-25.4c-11 3.9-23.4-.7-29.1-11.3c-6.3-11.7-1.9-26.2 9.8-32.5l104-56zM263.4 208L212.2 464l75.8 0 0-48c0-17.7 14.3-32 32-32s32 14.3 32 32l0 48 75.8 0L376.6 208l-113.3 0zM352 512l-64 0-98.9 0L152 512c-13.3 0-24-10.7-24-24s10.7-24 24-24l11.2 0 51.2-256.1c-12.5-.8-22.4-11.2-22.4-23.9c0-13.3 10.7-24 24-24l8 0 192 0 8 0c13.3 0 24 10.7 24 24c0 12.7-9.9 23.1-22.4 23.9L476.8 464l11.2 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-37.1 0L352 512zM638.1 14.6c5.2 12.2-.4 26.3-12.6 31.5l-112 48c-12.2 5.2-26.3-.4-31.5-12.6s.4-26.3 12.6-31.5l112-48c12.2-5.2 26.3 .4 31.5 12.6zm-156.1 160c5.2-12.2 19.3-17.8 31.5-12.6l112 48c12.2 5.2 17.8 19.3 12.6 31.5s-19.3 17.8-31.5 12.6l-112-48c-12.2-5.2-17.8-19.3-12.6-31.5z" />
-    </Icon>
-);
+const Lighthouse = createIcon("lighthouse", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABmQAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCdwsGAAE2AiQDCAQgBYMtBzEbeAXIjsN06yPHMSRJ0nzFwz+Hv/ven9N+y4smbeB9PJCAxxgaUCABdQLvpAlkkX/4s4EuxsVmJ7mFqnRuihSNvvgmrqkf50+JCfKij9ab7YeRWBqVPIEBR3IGYNlwNlHc4rY7ZpJYaCyhGH9oCiXyTeQZ3EQfGn+09JFKBQBEFwCwvpMci9sXegl6+j+H+BINAmIdwBRCAQWMIbBEVGCMmClQVBT8kCCI/0AOBBBl2I+ZoIga7vEBKIJUKYrJy+trGMjJMXE5sTQmLpOdmpa6r7lklkYHOqumqSnpKXvaK+bpdKi1bJK+qJZKLSNAdSLyIg9KpHZjyrBDGRF1ayyyUbV5iAalkUymDJM50F41Z5ROEZ/tay2ZpBKjIJnsZZMUmt+WsmoqxI0XGJ0onrwaPpc9w/Cz3t5xWZbMhgUmeHJbWv1TmQzbLfG8X9hDieXO4/5+uTusD6ZMtODA2S/8gjMHWkxue63L3W2fnQQaFQMH8qdD8pLLATEqA9G0ax8QcJ+oppbIZMppqJYopas6CTPT5DW9+Six3MT6XuK1mmV1c3cnNqu9meOcD0Ag+I7Vm8xX8PkmxUQAvzfv36MdhT/CrUi/yAmoShAUZgQb5GRXB/CnK+IdPdEGI/xNIKRzFfa7Nj0LEOoIkMrqAhSMKCJQVDeNQMkEVwTK6jaIiqI0wlBuxqWmfa5gUTtXNHTKlSy585YNQxRGZQiTfxEzhhXh0H7c0c6Be/HWtEQBO1Fr9+aDdYs2qcwSz0WZenValCpRqaWANokNtKoV1oWE+iHOkR0HnBc+OXd1eppSTZpVqldn9OKNL2+30NZd0xLbiLAFZ8WkJFIGbKVPGA==");
 
 export default Lighthouse;

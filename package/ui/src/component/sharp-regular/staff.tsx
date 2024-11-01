@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `staff` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff?s=sharp-regular staff}
  * @preview ![staff](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/staff.svg)
  */
-const Staff: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M282.2 0l9.9 0L312 0 440 0l48 0 24 0 0 24 0 48 0 160 0 36.2 0 18.1-17.4 5-34.8 9.9L446.5 305l-24.8 44-43.4-24.5L253.7 360.1l-98.8 98.8L121 492.9l-17 17-17-17L19.1 425l-17-17 17-17 33.9-33.9L96 314.2 96 272l42.2 0 26.9-26.9 8.8-8.8 4.4-4.4 6-1.7 12-3.4L368 177.7l0-33.7-26.2 0L321 164.9l-17 17-17-17L219.1 97l-17-17 17-17 33.9-33.9 8-8L275.1 7l7-7zm19.9 48l-7 7-8 8-17 17L304 113.9 314.9 103l7-7 9.9 0L392 96l24 0 0 24 0 75.8 0 18.1-17.4 5L209.4 272.9l-6 1.7L199 279 87 391l-17 17L104 441.9l17-17L224.2 321.8l4.4-4.4 6-1.7 212-60.6 17.4-5 0-18.1 0-160 0-24-24 0L312 48l-9.9 0z" />
-    </Icon>
-);
+const Staff = createIcon("staff", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABgAAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCYQsGAAE2AiQDCAQgBYMtBywbXQXIjsQ4JvGLKEzi4Xtdr+c+af/YkhlkZJKBQoBVXG86IOhSI5apt0Le5/+afO+eHx3gxwvxAzrSaKr0RXL38wkMNNKHA55F4WxGE+AtbrsKIhriCIkj5PF2PKZBej59g0fDm8Y/+rqLpJEBiC4AWLJr2wYf/Bg/RnzdepX42joExBJQCWTIMECA+TKBAXIVcrngx2i1xH9gRQDRJjlPAjlyPIEXADlIUp5vm1U2OuY7y0ZxsixKwRcNj+nRI8bH3NiO8ufH6BgbO6U3LhZhbEQZ46J3bFdEFLs1kluNT+jRu0cPpi4Y2mX5LLQ96BHbaTQudj1gjorkBxdDm12a//mm/kbf94vi9z4mu2S4bnJjfOxBr7txqKNHdQXLloGumsYaq+k+02zxkhcnG6qf5U5suNZ36kV1XV974eZqxfY+1usm9+4MW0xz8SK6oq4tt9m38+W6uaSPPkAguL1c7lDn+f+3KxP4+a3rE1ProyQ10U4CQTa+Nd7+REYLkFJcY2jigwLJA5LkUjt4RoBQIEDSphAg018XAXKFcQI0DDJDgDaFbTKRtxd6ONCDpIPLQWamm0Guh5dBw3yfJ9r0iAwwObDi/guTV47hFfOqKRMnV3OrzaqWhzXGTs+rTmujr5FdY/BBtYsuuMoJx5121Qi9wob01c5buYes8EWVKSaarDJXdbvxfPdOJ1zhSqdddMHPMk/1fjTaNfuDx2AzSSinKkgSkRofFA==");
 
 export default Staff;

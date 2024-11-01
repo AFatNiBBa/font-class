@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volleyball` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volleyball?s=sharp-solid volleyball}
  * @preview ![volleyball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/volleyball.svg)
  */
-const Volleyball: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256c0 49.6 14.1 96 38.6 135.2L55.8 286l.6-4 2.4-3.2L175.1 126.7 87 63.7C33.7 110.6 0 179.4 0 256zM143 485.8l11.2-114.6 .4-4.4 2.6-3.5L237.6 254l-43.5-99.4L86.7 295.1 65.2 426.7C87 451 113.4 471.2 143 485.8zm30.9 12.8c25.8 8.7 53.4 13.4 82.1 13.4c97.7 0 182.7-54.8 225.8-135.3l-99.7 37.7-3.7 1.4-4-.5L184.5 390.7 173.9 498.6zM499.3 335.9c8.2-25.1 12.7-52 12.7-79.9c0-5.7-.2-11.4-.6-17L406.6 286.6l-4 1.8-4.4-.5-134.8-15-64.3 87.4L374.5 383l124.8-47.2zM374.8 253.1l-68-163.3L203.5 5.4c-32.7 6.8-63.2 19.9-90 37.9l93.7 67 3.6 2.6 1.8 4 54.4 124.2 107.8 12zm132.3-47.3C483.7 88.4 380.2 0 256 0c-2.8 0-5.6 0-8.3 .1l82.5 67.5 3.1 2.5 1.5 3.7 73.6 176.8 98.7-44.8z" />
-    </Icon>
-);
+const Volleyball = createIcon("volleyball", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfAAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCPQsGAAE2AiQDCAQgBYMtBzEbPgXIhuB5u6+vc7tHPbN0r6zXC/EDzBQxgx0hdcTox2/+r6kXZUcH+I0OLQorvf0wVvl8AhMr3nxvgBVgM52Abdg2Mhdmfnssd5DHO9ltGkiPpm/xoPvQ+Esvt5G0ZACiIwAWVpvX+vCX+CXim/prxDdWIyAWglIgQ4a+AsyRCfSVK5HLBb9Evc7+A0sCiEbhcAnkaMY5PArIQdKY5506d+yM49aGdnmN7lvEjwuriOgRVdTi3Qkv2lptqXrU1S2u/N7Moa+1/rz+h8XO7xrdO9KDj8XN3TVSlGJrVLXa1pqgPp2hdovQ1rj6qRbB7XuK1lGqQU93fPqfgd8e+daHVu3seExukIsPq+a5sP/crAf+LC6gE8h0seGU0QecuFe3W+Wf/X1q9EpPvdp2cIiJJni3h+Lkkic/G9XSdHS8CRrc0d78mhe6u3bctZsWPwnu68gWva/ZtcgkXUy91snWW8d13r5kBotn7Ik837jYQF2seNGBMUAg2DbsxPG9Heb839yawG9v//eP9Busf5ikp9EsgSAbUx9jVwKJAACkuMKgBIHkmGN6rW0eEiAUCJA0KgTI9NFRgFxhtAAN+psqQKPCZpnIW4SudpcgaXMeZKa5HuS6egU0mOOLtFHXyF5D4SUS/gJTl9XRpcvKieMmlLPKwUouvlmcnp9dztZGXMH7RsKNjjjrjEsOO+S4SzXmgrXFZactG6OX+qLSRONMUJqlXN26vbrmsAsuOu6sM3aR2cr9oxGuGB89EppJYJ1kS5KIVFxx9tSpw1d/WQ==");
 
 export default Volleyball;

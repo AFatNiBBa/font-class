@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bomb` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bomb?s=sharp-regular bomb}
  * @preview ![bomb](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bomb.svg)
  */
-const Bomb: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M432 0l26.7 53.3L512 80l-53.3 26.7L432 160l-26.7-53.3L352 80l53.3-26.7L432 0zM290.9 163.7l-28.7-10.3c-16.9-6.1-35.1-9.4-54.2-9.4c-88.4 0-160 71.6-160 160s71.6 160 160 160s160-71.6 160-160c0-19.1-3.3-37.4-9.4-54.2l-10.3-28.7L361.4 208 304 150.6l-13.1 13.1zm47-47l57.4 57.4 11.3 11.3L429.3 208l-22.6 22.6-2.9 2.9c7.9 22 12.2 45.7 12.2 70.5c0 114.9-93.1 208-208 208S0 418.9 0 304S93.1 96 208 96c24.7 0 48.5 4.3 70.5 12.3l2.9-2.9L304 82.7l22.6 22.6 11.3 11.3zM208 224c-44.2 0-80 35.8-80 80l-48 0c0-70.7 57.3-128 128-128l0 48z" />
-    </Icon>
-);
+const Bomb = createIcon("bomb", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABeQAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCDgsGAAE2AiQDCAQgBYMtBysbCQXIjsQ4JvGLKEzi4f/962ufW69+A3ptO7IiKGqPnbGF9K9JlU1c+R7S8ce9O//nfwM+o482Fq4J8jfIWrXPEwgwG955YJ0XWKYJWOaudiuKsK+0FC15/Pb4enlAFt/HZUXS9fQYl+qHxt8aOU5SLACImgAYOX/2VL+UR3nEn6UviT9NRkCMBLlAAQU0FWCIgkBTmRyZTFAepVL4D8wJIMrIkxPIUIa12A/IQJJlWa0mratXKVbL5qX3rLy+Z6+eE2NC9IheMSkmR+857dq2u1/59ZAf5rwZ+uPcd8N/nn+kceNoELOi7vCZs2bWi47RIerGba9nPJ/zdtbLee9mv5p/rm+D6Bwdo96cLzpEPGxaOe4M/3m8Vu/VfO/fH6977OOf7969O8kkd93Fzvk7f6B4utHx+HEAG/34MT8uNTv9gcdOe/zfadz6zjzztPJJ25j/3nvzgcV77/F4Ydsmta211vtHNtVcy7zoodhn9IweQCCoUb3Gm+U1hvxfsUoCf32H9isq/ZKk91BRAkGhS6mLJQkkAgCQYp9WCQLJUhkOq7pymobKMCRlKkNBEzUhU1lnKGquL2tUZpvKkVUS6loKSKraCQX9HIBMXZ9D0RC/RmXqRsHfeG/hX3sp4zQy9lzes1uPfFC+bHTBhdh8PDg3qx32xUVHumud7bbZY601Ntqj6F2mpnttNW6HjvVFuZ666SE3SH7cP1+fZ61ddttou23llMHy+2EH+/abO5KRCGMvpSQRKfvVAAAA");
 
 export default Bomb;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link?s=duotone link}
  * @preview ![link](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/link.svg)
  */
-const Link: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M247.6 193.7C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6z" />
-        <path d="M60.2 448.8c-56.5-56.5-56.5-148 0-204.5L172.5 132c56.5-56.5 148-56.5 204.5 0c50 50 56.5 128.8 15.4 186.3l-1.1 1.6c-10.3 14.4-30.3 17.7-44.6 7.4s-17.7-30.3-7.4-44.6l1.1-1.6c22.9-32.1 19.3-76-8.6-103.9c-31.5-31.5-82.5-31.5-114 0L105.5 289.5C74 321 74 372 105.5 403.5c27.9 27.9 71.8 31.5 103.8 8.6l1.6-1.1c14.4-10.3 34.4-6.9 44.6 7.4s6.9 34.4-7.4 44.6l-1.6 1.1C189 505.3 110.2 498.7 60.2 448.8z" />
-    </Icon>
-);
+const Link = createIcon("link", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABmQAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCRQsIAAE2AiQDCgQgBYMtB0QbWwXIjsK2eXNEMlkSgwGDfzx8vx/r3PcfYtZEpZFEQyNBJXmFxmophLp5Z0NmtlICVtnSnrsXAO8LmCIpQ6CUCI0UOlNuosh1/3PN5/f86ACvAeRfpqcWeKzy+QTu+TwsEmcDSp/NFGfhtt1MgOYSEvvQOEJOFnyXEtKP9Bq8Fv8DGJ90dEFSUQAg6gEAW6eHB+7u6T7R668j4q8IEBDbAPoRChToRmAVL9BNpB9kWfDBCQJ8kCAwCCBKUdy4AKXIeAYvADJIQmRRgL+chIIoptheNuyGiNo3Yum2anDtWjxvq05DzUOaI/YKLS3a7Jyw3pAdGIyiNXdW62bLNlo02jLMYHedujqd7T/1j90SE82vXV/kr7Ojff0m/Kknf4QHXIBLPu44o3JgeEN3gn+ax2cYbyhvfBG/znmNvSkvYPl3Walzb68XMc4unwi37w9WV/X1CgjtI/phPYz1lJapHWB1IX/225Sx+uCgv1BPfxX+mbhm4d//Ty7A9MkLL+8XpaWmvL2mslxNbpTB9misf3+4qoy2/QdRef3i3LJrL6lhi4k04Yqrq7hHAwEEgsvPubZUJd8/0nIc4P/Ft1/1dapfH1IJt4FyCQTFqGArKbXtgAE0gqBKU9TAGN/lIwiFDRw8arU3BAiVCJCUqhSg0EUZgazSCAIlerkhUKrSIV5kGYRmyT2eVLvBC/Oa8azZIV5i1bO0VHPwtChSkvgrmLY/Rvaa+p3sHZk32yy1EnnxYd6HnfYsa0yfFTbKUapElWxZ8lWNsAqRRbVi4XtomB9inNhzxHhjt1vPV8fIVqFSvlIlaREf7P3AUs3+aCssgwNMf0XepJGIl8/z1hhJG7UDJesC");
 
 export default Link;

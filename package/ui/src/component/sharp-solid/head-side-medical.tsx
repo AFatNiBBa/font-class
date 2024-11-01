@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-medical` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-medical?s=sharp-solid head-side-medical}
  * @preview ![head-side-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/head-side-medical.svg)
  */
-const HeadSideMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 224.2C0 100.6 100.2 0 224 0l32 0C358.1 0 441.6 79.7 447.7 180.3L505 252l7 8.8 0 11.2 0 16 0 32-32 0-32 0 0 96 0 32-32 0-96 0 0 32 0 32-32 0L96 512l-32 0 0-32 0-98.8c-41-41.9-64-98.3-64-157zM192 160l-64 0 0 64 64 0 0 64 64 0 0-64 64 0 0-64-64 0 0-64-64 0 0 64z" />
-    </Icon>
-);
+const HeadSideMedical = createIcon("head-side-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABYgAAAHeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBWwsGAAE2AiQDCAQgBYMtBzgb4wTIhof/n+v9fW7yKFOGtIoRXF19Hek6YPzsZ32LimD+r6kX1nSA3+jQOvRA6vkdRS3q+QQGHOXzAp8NbEYlYDN3dSsk0X6SlrIkj595vJwhjwfZCTWks+kjTpYnjR+0d4KkIQMQzQAwcfniuZ5Woxrx4f9bxAezERATQSmQIUMnAcbIBDrJlcjlgmr8/7//DywJIGrxW0kgR45FWAnIQZLyfGD7Sk3jfFmlpohzgyNuzI74ML0S3y38aunSaB1CiKKAGlh7vsvlWF5UClGJiAZa3FX3883O/9Tt47aPqo2/5llfOldLc2PhpNo5I6bboaKZUlluIGxDCVWzm/3ye13fJ+Mn0FjuYhAIXjU78M/6pmN+ra8k8P39X36qPyP/P03SedRLIMj6/N/HmgQSAQBIcUz3BIFkloQetZFTAoQCAZJahQCZjpoJkCv0FqBGF0MFqFVYLBN5g9DK2g6SRg6CzDDHQa6VG6DGGG+iWq0isyrBJoRPXeo0iU5dVQ7sN6AcVU4LTTQULi2OLpfdHsfCQE+ctM1++xyx1RY7HRHMIXPTo/aaptFTvVBpoH4GKI1SbtePh5fZ6pDDdtpvX15mtPJ82MMxfXxPBAmzDpJLEpGam57W9+KZfZ8Z");
 
 export default HeadSideMedical;

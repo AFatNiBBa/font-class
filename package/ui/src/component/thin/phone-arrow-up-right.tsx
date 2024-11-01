@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-arrow-up-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-arrow-up-right?s=thin phone-arrow-up-right}
  * @preview ![phone-arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/phone-arrow-up-right.svg)
  */
-const PhoneArrowUpRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M290.3 210.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L496 27.3 496 152c0 4.4 3.6 8 8 8s8-3.6 8-8L512 8c0-4.4-3.6-8-8-8L360 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l124.7 0L290.3 210.3zm7.5 172.1c6.6 3.1 14.6 1.3 19.2-4.3l40.4-49.3c6.7-8.2 18-11 27.8-7l96 40c11.1 4.6 17.1 16.8 13.9 28.5l-24 88C468.3 488.8 458.8 496 448 496C209.4 496 16 302.6 16 64c0-10.8 7.2-20.3 17.7-23.2l88-24c11.6-3.2 23.8 2.8 28.5 13.9l40 96c4.1 9.8 1.3 21.1-7 27.8l-49.3 40.4c-5.7 4.7-7.5 12.6-4.3 19.2c34.8 73.8 94.5 133.5 168.3 168.3zM345 318.7L304.7 368C234.2 334.7 177.2 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6z" />
-    </Icon>
-);
+const PhoneArrowUpRight = createIcon("phone-arrow-up-right", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABhwAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCLgsGAAE2AiQDCAQgBYMtBzsbOQXIjtRWcxRJwkk8T78f7dz336o077tJNVRzxBpLaCTRpLHgJTBUhkZfH9pfvfm7ewDnAKm5SRVKkBKzI5Iw/5d7fs+PFsg3OqQxcen5mDpn+3kCAZ71srEtCygLLNMErMF5ow4oNIX0M9SsIh2H8pk5A7xzH5q/kNUIFE0DgPQDALYPwwKwdUNuCDn7nwfyC34gkB0AkwgaNBhFwBqWYBTbJKiq8Jv8/7P/QAoESCvCcwuoaME1eA2ACoqmsuW0tPk5guxItSdfWrdkj3RUkPeSfdKE9ErxkW6J5ih+Eh7RI+2WPsmIjMiEp1/9OtKNDmlFZUw2Ij0S/jnkm3ZY93FzhkedOG6YBmVKLjK9Ur0S4RmWuYoA+ph8VPoGj0pFZlRbdVJk8knlLPMMKv8sLMJ2t3fQgOsqmas9w9uR3HpHA3a2uaeGq4ux9pqkBZkZ6SjO/dWSlxFJ909WHXaUNNSeaiVJ+smNZ759k5M1z8Uh4N3f1siNnZej4wlfrs6jpLGsgPrVdCzela+vtz0oHcXw/OwxSQvj6gAE4f8m33eSsP0rDz8D+LPy8iV/RrjZYhhmEtCugNBM/+sjvoCbP4ZBAAAllVAtQFA8whLetdsHEBCdCChadQpojBBBQNVpCgEtxlkgoFWnXSypvIhhCQ0oul2DxoIGUA2bBS3WHJqthsO6/5i7h/n7S/TsQh6bqImhMbWls7mKvaUovWpHN0valbynA3ciU5FC5TKky1HeQUoFOBUKeC7BHr6IMmHIGGWLHq4ebo+UoVSZHEUK7Tp26PWatsrl6TpQZQTCGZGikCLxgMYNUp6UFlUZVDz+hAEAAAA=");
 
 export default PhoneArrowUpRight;

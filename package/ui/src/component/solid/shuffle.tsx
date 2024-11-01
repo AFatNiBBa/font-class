@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shuffle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shuffle?s=solid shuffle}
  * @preview ![shuffle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shuffle.svg)
  */
-const Shuffle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M403.8 34.4c12-5 25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-32-32 0c-10.1 0-19.6 4.7-25.6 12.8L284 229.3 244 176l31.2-41.6C293.3 110.2 321.8 96 352 96l32 0 0-32c0-12.9 7.8-24.6 19.8-29.6zM164 282.7L204 336l-31.2 41.6C154.7 401.8 126.2 416 96 416l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0c10.1 0 19.6-4.7 25.6-12.8L164 282.7zm274.6 188c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-32-32 0c-30.2 0-58.7-14.2-76.8-38.4L121.6 172.8c-6-8.1-15.5-12.8-25.6-12.8l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0c30.2 0 58.7 14.2 76.8 38.4L326.4 339.2c6 8.1 15.5 12.8 25.6 12.8l32 0 0-32c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64z" />
-    </Icon>
-);
+const Shuffle = createIcon("shuffle", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfQAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCHQsGAAE2AiQDCAQgBYMtBy4bGwXIjtMlNiM0bwTP1/1bndsdwB3TLz/mUFsIOy+zm/HOfnmCQjz/53q+56MBfqOhRVPpQCpolPl8AptI+XmBpR3YmZ6A3e5sBw6llUPSiFlr/Y4dnxPk8Vp2TiXSPelD3FQ+NL7RzDmSahmAqAuAsYvnz/T25/F5xAflF4gPTEdAjAWFQIYMLQUYIRNoKVcglws+j3I5/gcWBBCV4T0nkKMS9uEIIAdJluftm/SpUalWvqhGpeqbH2o0N+5wquGcuL3Tg80jqseVhmNiXPSOpwbXiIj7Oi8YO25sj3h8wHa98Z1xusldNWrE1Sbj10oXXuy1KO6szvhe6Lkw7qihpK1v1u7Ruo9+1/bDTR+67YFO/5VdrlXrctl/5IVC3fvvUvKV658Td97lhz9LpVJwjVH70qXalRtzodV/7b9OiZd+/O4P3V+Xkz6/PhNq2v58IBA0+n3qy6vrjPitao0Evnz1hz/bz0j5oyQ9iqoSCLIe5R5WJJAIAECKCu0SBJJtMviuNd0pQKiOAEll1QXItFBXgFx13QWopLWBAlRW3XyZyKsJDa0cIKlpL8gMchzkGnoOVDLCO2plDSNzO8JpiF9f7CQKTZwr+vbqUwwrjqFOehKWx8MLsdClIpW6wqFNdtulZKMNtioRZJ+ZxgE7TeLgib6o0FcvfRSGKdTJK7uIqPvst3VP66cMV9grXVTwzV1BThC1Hz49QTBV2b/lwKZNOzYC");
 
 export default Shuffle;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sd-cards` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sd-cards?s=sharp-duotone-solid sd-cards}
  * @preview ![sd-cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sd-cards.svg)
  */
-const SdCards: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96l0 24L0 488l0 24 24 0 336 0 24 0 0-48-24 0L48 464l0-344 0-24L0 96zM256 64l0 24 0 48 0 24 48 0 0-24 0-48 0-24-48 0zm80 0l0 24 0 48 0 24 48 0 0-24 0-48 0-24-48 0z" />
-        <path d="M448 0L416 0 224 0 210.7 0l-9.4 9.4-96 96L96 114.7 96 128l0 256 0 32 32 0 288 0 32 0 0-32 0-352 0-32zM304 88l0 48 0 24-48 0 0-24 0-48 0-24 48 0 0 24zm80 0l0 48 0 24-48 0 0-24 0-48 0-24 48 0 0 24z" />
-    </Icon>
-);
+const SdCards = createIcon("sd-cards", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABfQAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCKgsIAAE2AiQDCgQgBYMtB0wbSAXIjsO44TuyxVL+4+H/9/u2z7tvZs28j8uFJPZR1wbJE806XiH5b2gJs4ieyL8Imf/ncnzvbC3A//xATw9lT7uXbw/34CigwKOFeVkGmWZg+W7rGRNeEKZgEJEPX8TQ5oV2TyjjWaKF4lER9+R/AOOX/m5QaE8AohsAFmzbtEajIzqK+N58TXy3GgGxEGSBhIRBAsyWBAYpZZRKQUfRbNIRzWYmgGgl70ygFW24iuuAEhSSVJZ9u3fviXqtpXO5Fd3VsapW9YrNYVhRPKp1jkgRmwVRBZ+shVqFJHs5qzqhimobOFHTWbb20eEvu738M+zRPn7M+c9D+/a5qzOyPD/bL9/bVq/X+6kLC9eTuiLt16/fef30O45N3541h7o+OVhfz68DgeDg4MfL93Wd/b+tVoAfb/79jD8kzUY0ipdoU4AgjWmOsTsaEA0BACjiquHRsB+BZIbEP+zkvgChQoZCqwqSgbpBqTIaWgwxRd98sEkSZbvQyx4EhU4uQDLVNSj18gpazPap2apXJPUzlcf8+ctbWqJLzuUJ4+p5Zh72JEujdLs7K29nI65iZiRdddQ5Z112xGEnXC7Ei9Z0rjhj6Yxe4ouyCcapy2bKx0PbzFZuXnTJib5zfsws+X5thKvz5SOpLHjFiS4niSgidbt0eOynFY3V46RH5TxYAAAA");
 
 export default SdCards;

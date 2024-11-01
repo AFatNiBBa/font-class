@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can?s=solid trash-can}
  * @preview ![trash-can](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-can.svg)
  */
-const TrashCan: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M135.2 17.7C140.6 6.8 151.7 0 163.8 0L284.2 0c12.1 0 23.2 6.8 28.6 17.7L320 32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64S14.3 32 32 32l96 0 7.2-14.3zM32 128l384 0 0 320c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64l0-320zm96 64c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const TrashCan = createIcon("trash-can", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABdgAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBeQsGAAE2AiQDCAQgBYMtBzAb+QTIHgl27MhWxHD7Yzx8zPXvuUkeAOcTkSLGEoGrWlcWfqe2U1m9VfueIcP409/8886jAB+I1Kau80DaGM55nkDn0VgetUWywL5pAvbfNjwZhOZpREqQRDRWOF4LZPF2+kAZyZvJX3ieXxr/6vKARFUKIBoBsGjz+nUKxShG/FlC/GkNAmIRyAVSpOgVYK5UoFcmRyYTFKNUSv+BOQFEObktARkqsAeHABlIlGVZ3lQnX1lNWV22qaasevvbI2ri0662qImn2151p/WV6tp4qv21uNvxek1NdGyoq61L4o2RXwytjc9Gf9WdbnylVbza9npHxGvtNWrF4K8av/rPX4f+8ujbOxOvmHjnpD3qn3iivrJ3WLPHyUMn74h+oeqmpg/4oOmqF+5eUKwvyjgk26OuA4Hg+787trth7v+VNQn455fTZ6RUiELyFSolIEjHlsbaEQWIggAAJHHJ4CggkNiijDy11msChGoESJSrFiDVo1GATLUxApTpN02ActXWS0VWJbTaOUCi1lmQmu4myLT6GZSZ61ehXGukQYaHCP7Hi1luoWVV+aTxE/PZ+dLQibhBS3FOvs2NvISBUTDrkNNOueCgA466YJBz1skXnbTcg5f5odwk402Umy0/tp/HNznonPOOOu0UlZkjv8+PdMmPHwV1JIDJz4NiYyRVF87tPX9k3P69pwA=");
 
 export default TrashCan;

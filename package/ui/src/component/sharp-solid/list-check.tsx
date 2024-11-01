@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-check?s=sharp-solid list-check}
  * @preview ![list-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/list-check.svg)
  */
-const ListCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M169.9 54.2L153.8 72.1l-72 80L64.9 170.9 47 153 7 113l-17-17L24 62.1 41 79l22.1 22.1 55.1-61.2 16.1-17.8 35.7 32.1zm0 160l-16.1 17.8-72 80L64.9 330.9 47 313 7 273l-17-17L24 222.1l17 17 22.1 22.1 55.1-61.2 16.1-17.8 35.7 32.1zM224 64l32 0 224 0 32 0 0 64-32 0-224 0-32 0 0-64zm0 160l32 0 224 0 32 0 0 64-32 0-224 0-32 0 0-64zM160 384l32 0 288 0 32 0 0 64-32 0-288 0-32 0 0-64zM48 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const ListCheck = createIcon("list-check", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABdAAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCAQsGAAE2AiQDCAQgBYMtBzEbAgXIHoVxe1KSnUSa2hMngsju6atn9wDv2Y4ucwQplf7PxCABkL5kJoTPePOj+b/m80s7OsBvdGjRFL0NpDQp83mDJVZ70t5EZgMb6URsu7OJrYh2kkSW5HfY8blAHi+zlCGdT3A0fWj8ooH9JBUyAFEdAMPnzpzs7S/jy4gPSo+JD0xEQAwHhUCGDI0FGCQTaCxXIJcLvoxSCf8DCwKIsvjlCeQojxXYCMhBUjbPGzSoUKFClUplquRz/NqKC+s3qj8r2kWHGGLdodEepzQzGkV/wwNzK1WsIipWDhmd9YvNud3gfP1zre40vNDoYtsWD6o/+K25Ndw/gqZKatiLGphtk78MvRac3qcLjhqmMOyawYdelZa5HcOGba127funT7+WngcCwaePvzi5tNqg/8pXSuDrF3/8Rg+W/i+dpAcoL4Eg61TqZFEi4AwKOJRijxYww0CywK29a2VnBAgVESApq6IAmUaqC5CrqKMAZTTVW4CyKpopE3kFobbFFSSVbQeZPvaBXG0PQRmDvBMsq3ZkisaqCfvPSxrTQqOHFd27dCsGFNOUwukOHVoHFstquz1U0h7OWmOrLXZZbZX1djXkDpMju202RiJG+6JCd110Uxig2M7eH59jtR12Wm+rLbGdgYrzgXb2yNXbg5EwZQ9JSSJSxYeqdFZYAAA=");
 
 export default ListCheck;

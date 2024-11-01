@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-triangle-square` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-triangle-square?s=solid arrow-down-triangle-square}
  * @preview ![arrow-down-triangle-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-down-triangle-square.svg)
  */
-const ArrowDownTriangleSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M183.6 469.6C177.5 476.2 169 480 160 480s-17.5-3.8-23.6-10.4l-88-96c-11.9-13-11.1-33.3 2-45.2s33.3-11.1 45.2 2L128 365.7 128 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 301.7 32.4-35.4c11.9-13 32.2-13.9 45.2-2s13.9 32.2 2 45.2l-88 96zM443.1 47l80 128c6.2 9.9 6.5 22.3 .9 32.5s-16.4 16.5-28 16.5l-160 0c-11.6 0-22.3-6.3-28-16.5s-5.3-22.6 .9-32.5l80-128c5.8-9.4 16.1-15 27.1-15s21.3 5.7 27.1 15zM320 336c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96z" />
-    </Icon>
-);
+const ArrowDownTriangleSquare = createIcon("arrow-down-triangle-square", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABewAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBeQsGAAE2AiQDCAQgBYMtB0EbCgXIjsJxr4RCGIZyAn4VD31r6J/ZvRA7IJsoVCw0OrJxER4dUMsSle2rcGVbXX1H42rmAHzaB5wBOwnp2jskhyJNnXqe81AA3yhoY9PSjcuDc55HIIDRhKYnLXBrBatpBay7s0mmlCaHpCWT5PjsuDihxl05h4Z8RbkBbuKHxj9qrSB1FwCIIQBg+yDEDzTP8Tviuj0kvvIBAmIbYAaioGACgjVUgQk0M0BVBb+xbd1/IAEBRAfQqyWoaHAInAJQQSqVZjSmxW34tPDehhP2yOlWhOOzckI5IR+Tm2PBJuUEt0c+BhmWMVgzJgvNCAsPG1ON6nFiXTGtjEB5ck0eOaPEmDDkxpp11IAvZf5J41o490W0/aJ9k37jWD4lEExFJEA3l9e1uaOZ/GJBcN0pyF4LXyY1O5tdkemWTcqHgIY0MVDYTxZh6H3hQFsH82KYqybUb+C7VSJYfb8tx9AHlwECwWPlzXaCcO1/Vy8F4O/Z23/5Gem0v3MsvwBdEgRloV0Qm1t0mOUYBABklNPJLYYQaR8VvWufZwgQehAgdegRoBgngqDqMQ9BY4o9BB167KCKyoYwJs6A1OcMFKvqQDVmHzTWnFsdxqIoGaEixB8v1p1DbmPE2sKKuBDRV0m9wULflSwLRuWYM4ZZSFcgX6k0qbKUMqSYn1smj/sMdvNFhDULVggXZDu6Z8OZVaxE1pjeH+KKnFeMlM+rjUGmINRFCymJ1DopLi6oML96vPn7mZOfkZtmfmUBAAAA");
 
 export default ArrowDownTriangleSquare;

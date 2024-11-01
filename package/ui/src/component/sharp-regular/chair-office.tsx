@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chair-office` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chair-office?s=sharp-regular chair-office}
  * @preview ![chair-office](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chair-office.svg)
  */
-const ChairOffice: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M304 48l0 176 48 0 0-176 0-48L304 0 144 0 96 0l0 48 0 176 48 0 0-176 160 0zM64 152l0-24-48 0 0 24 0 48 0 24 48 0 0-24 0-48zm368 0l0-24-48 0 0 24 0 48 0 24 48 0 0-24 0-48zM248 400l120 0 48 0 0-32-6.9-16L368 256 80 256 38.9 352 32 368l0 32 48 0 120 0 0 64-48 0-24 0 0 48 24 0 72 0 72 0 24 0 0-48-24 0-48 0 0-64zM111.7 304l224.7 0 20.6 48L248 352l-48 0L91.1 352l20.6-48z" />
-    </Icon>
-);
+const ChairOffice = createIcon("chair-office", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABbAAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCCDgsGAAE2AiQDCAQgBYMtBzMbEQXIhoePuc8/N8kr5G2R0yqglIkcyVYRyM6qAqt1BRRypxbVny/f/F+T793zowP8diV8h5a5SovmiHg+gQFHeYFvPBvOJoqzdqYv0ke3SYJ8yLB9hs0Vsrgb11VIbidfcC1+aPzSxSUSlRRAtAbA1NXLF2pojMaIz7WXxGfzERBTQSGQIkV3ASZIBbrLFMhkgsao1ex/YEEA0QSeloAMTbEXxwAZSFSyrEObNr2bVystslXVSr5bqAYoeS5ENRqrK0LkIRraaBFaUc1TumOsirriRvuRU7XPEhROrJoqg/jMkD71rev/9P6y64sh156gpvREqfxBZU88+re7M1KlzvzEI8321/+fOfO4cFjfzQquPKxQnpmiXIEep8spVzc3IrnYwfseA+Kh4uG3TptbTfivWTUBP9/9+5de17rWEE+SejSTgCAdWBtoQzRorXU8EQCAJE7pI3xRILFVBb1rnRsChBwBEk3kAqS6aS1AJjdAgIqeRgrQRG65VGTNhfY2FpCocxSkRrkIMu09BxUTvM820T5SfeO1hf/tpcyq4ZmbiqGDy2JcMW3JggqxvDq+WHb6nnIj/cxFuxx2yAk77bDXiQo9ZmHhpINmSchMP1QYarBSYZziuHt/epWdjjlur8MOhXXGK+7H+jolT+9nvAkwDlOVSIik7hnrg5QZAAAA");
 
 export default ChairOffice;

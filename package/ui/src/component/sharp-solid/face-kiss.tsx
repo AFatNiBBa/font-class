@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-kiss` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-kiss?s=sharp-solid face-kiss}
  * @preview ![face-kiss](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-kiss.svg)
  */
-const FaceKiss: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm48.7-198.3c4.3 5.1 7.3 11.4 7.3 18.3s-3.1 13.2-7.3 18.3c-4.3 5.2-10.1 9.7-16.7 13.4c-2.7 1.5-5.7 3-8.7 4.3c3.1 1.3 6 2.7 8.7 4.3c6.6 3.7 12.5 8.2 16.7 13.4c4.3 5.1 7.3 11.4 7.3 18.3s-3.1 13.2-7.3 18.3c-4.3 5.2-10.1 9.7-16.7 13.4C274.7 443.1 257.4 448 240 448l-3.9-15s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2-.1c.2-.1 .5-.3 .9-.5c.8-.5 2-1.2 3.4-2.1c2.8-1.9 6.5-4.5 10.2-7.6c3.7-3.1 7.2-6.6 9.6-10.1c2.5-3.5 3.5-6.4 3.5-8.6s-1-5-3.5-8.6c-2.5-3.5-5.9-6.9-9.6-10.1c-3.7-3.1-7.4-5.7-10.2-7.6c-1.4-.9-2.6-1.6-3.4-2.1c-.4-.2-.7-.4-.9-.5l-.2-.1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l0-13.9s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2-.1 .3-.2 .6-.4c.8-.5 2-1.2 3.4-2.1c2.8-1.9 6.5-4.5 10.2-7.6c3.7-3.1 7.2-6.6 9.6-10.1c2.5-3.5 3.5-6.4 3.5-8.6s-1-5-3.5-8.6c-2.5-3.5-5.9-6.9-9.6-10.1c-3.7-3.1-7.4-5.7-10.2-7.6c-1.4-.9-2.6-1.6-3.4-2.1l-.4-.3-.5-.3-.2-.1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l3.9-15c17.4 0 34.7 4.9 47.9 12.3c6.6 3.7 12.5 8.2 16.7 13.4zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const FaceKiss = createIcon("face-kiss", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABrgAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yEDQsGAAE2AiQDCAQgBYMtBzAbDQbIhuB7XWW/Ly1pjkHHyLYzAJrbckSUAmO65Yg4nqHL6Y9lT0/PZ0/2+GRPY+MaRdkCieb0sixKbODYlEgWWICJJmAtbrsKIhriCIkT5PFKdp060v3pU9wZ3jR+1d11JE0ZgGgHgHlbNqzyZku0RHxSe474xAoExDxQCmTI0EuAmTKBXnIlcrmgJWo18R9YEkDUS56cQI56/IR/ATlI8jzv+UDHjpW61vlm83ix6Yc1EV8seCeunv/26s83f7vy07lvumreW6s+27Sl6r5Oiqp21vpVjw7sEldjKzBUKdwazV0xG1d3uSjm6uLquCUirm4+m1+JuC0UUezZNW4dVO28ublrRHPl1s5VV3W6r7jlsLVlMBMhpU1J3NX/6XZP/97v08Ofqs1Z5C7untFrwYJeM+6+a5Fxrdgy9r0jRbH5SHXcvHnjqkcE1bRl2fIHZ0u+IUTQbvyGjQMnZdmkgRs3jG9HhJCM0ObyhPADZuu5onrkwWOtb+Km1m1uuqlNDrWOW7/Rt51hrBAuENe9+fj4n/a0nfl/YyWBH1/+83f1r6j2ZpKeRqMEgmxkbaSdCSQCAJDiMv0TBJIWueRVW7koQCgQIKlXCJDpqZ0AucIIAer0MUmAeoUNMpE3CZ3s6kHSyjmQmexykOvkGVBnpg+K9TpFBu4asGp/m9mLx+iideW40WPL6eVmTatDsGJnZ5SnnaGXyZ5heKfDzjjtEoccdMwlI+a8VZVLnbJ4j17kg0rjjDZWabrydvP55s0OOe+CY8447ReZoXw/P9Rl+8OHYT9JeMerShKRmj6m4qgTxy5cAA==");
 
 export default FaceKiss;

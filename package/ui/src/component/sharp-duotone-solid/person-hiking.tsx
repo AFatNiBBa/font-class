@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-hiking` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-hiking?s=sharp-duotone-solid person-hiking}
  * @preview ![person-hiking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/person-hiking.svg)
  */
-const PersonHiking: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 272l96 16L144 96 48 96 0 272zM336 160l0 24c0 8 0 16 0 24c0 21.3 0 42.7 0 64l0 216 0 24 48 0 0-24 0-304 0-24-48 0z" />
-        <path d="M192 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm-23.5 69.1l31.3 7.8 48 12 12 3 6.9 10.3L305.1 208l30.9 0 0 64-48 0-17.1 0-9.5-14.2-18.1-27.1L224.2 307l54.4 54.4 9.4 9.4 0 13.3 0 96 0 32-64 0 0-32 0-82.7-69.7-69.7-1.1-.3 .2-.7-3.3-3.3c-15.8-15.8-22.2-38.6-16.9-60.3l27.8-114.5 7.6-31.3zM117.3 334c3 4.2 6.4 8.2 10.1 11.9l41.9 41.9L136.7 512l-66.2 0 46.8-178z" />
-    </Icon>
-);
+const PersonHiking = createIcon("person-hiking", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABhwAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCMwsIAAE2AiQDCgQgBYMtB1YbWwXIhqDe9mnPvr0v3Z4YVkBAkSIyZYiROTLHLoVGiBzRn/9r8l3bNeC3Izu0WFThmtIyn09ggNHUzwdcQjOdge1tQxwagdSKkIiSiMbT8bpDHufTdTVkj2Vf4q78D2D8pq3rZGoTgGgCgCmrli3w0dfxdRZfVt8mvjQfATEVlAIJCR0EGC8JdJArkcsFX2fVKl9HtVoSQFTI4xOooB5O4jYgB5kky/OGI4ratnU1DfOVclmx7olez/V4pu3D7k/3fLbd8h49e4yIlnxsStSFKIpW0TeWx5KJFRwRkFwZrSKo8sXOq6L98nstJ9j2IjSxYuWKVVywfJtwuZIiWRcRie4pur7Y5MU/uny580sf3i0Onjt3sCB/q+k/yXP84017rNHZZIObPqWdZvPscEdDm5UmKy0zYzro5vTW9kdcGvZoxozHdD5nqgFveH1TY1ww6EObDXpt0aE2AFWgJvlH2hicRCDifT8e99X5qfF/16/LwLfv/PWr9juqfhSXsxdRXwaC1L/a3/q4DHFZAACyOKlrXDYLgWS+BD+1gfsChAIBMhWFAEl7TQTIFfoJUKOTEQJUFJZJIq8VWtigINPAEZCMdAHkWngL1Bjvk1RFi0ghqAaQ+gPMMHNEZswrhwwcXI4tt1VdE1Vynh5XHjt6n6SuPnDUToccdNwO2+1xfBCOWpA94YCZFjXDF5WGGGiw0ljldePZsBJTRx2zZ627n2Wc8n2kt5P24D7gzhTJoTYkicgitQzZ4IDde/zZMsCd+7Re6FwXAAAA");
 
 export default PersonHiking;

@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-back-point-up` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-point-up?s=sharp-duotone-solid hand-back-point-up}
  * @preview ![hand-back-point-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hand-back-point-up.svg)
  */
-const HandBackPointUp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M176 0L96 0l0 224 0 13.3 0 2.7 0 80 0 16-32 0 0-16 0-56L16 304l0 68c0 38 16.9 74 46.1 98.3l5.4 4.5c28.8 24 65 37.1 102.4 37.1L288 512c70.7 0 128-57.3 128-128l0-16 0-48 0-80-80 0 0-32-80 0 0-32-80 0L176 0z" />
-    </Icon>
-);
+const HandBackPointUp = createIcon("hand-back-point-up", true, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABYgAAAHhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBLwsIAAE2AiQDCgQgBYMtB2Ab4QTIhuD7td7vM3d2K5kXhgkwKiJwcfGJIlLEKqzCwgFJVr++3ItTz3OeDfhgcRqbch4cUyfNeR6BnhekV11akBDVtAbW3UXbPkjtK2m5kvSX7fHzgDyupmMqZGeyDzjO/wMYv7R1jEz9BCCaAGDK0oWzvfwW37L4UHtEfDALATEVlAIJCR0EGC8JdJArkcsF37JajW9Rq5UEEFX82QSqSJiAKYAcZIg8H1FXaZgv4WixsqgrhMeLiPvjQ1yZ0DKezaiL15NedAvqFeG0rjea3PjT5cOWD+6+mDdv3jcNJfM0UWpitP9NV7xa5OGJI+ZNG15pYrB55imBcQ+Ity5M+jh5bePx/9Wry8CPx/9+ph9Sk9rLuJzdQD0ZCFL/Wn+r4iXKuCwAAFkc0TVeoolAMkKGzmjgpAChQIBMVSFA0l4TAXKFfgUqOhnxQFVhoSTy+kILqwFkGtgPyUhHIdfCQ6gY77VX1SKSAfHPz//fUmZKZMalcsjAweXYcpjLgk2wcT+uXNZ7H3G9PnjTFnvtcchmm2x3SNAHzA4P223mDJ3hi0pDDDRYaaxyu7pWlgjvgIO296X9I+OU543ejsyn++B1MsDQq88kIovUzuDUAYqlDVAwc8DhfQPMcapDW9I+AA==");
 
 export default HandBackPointUp;

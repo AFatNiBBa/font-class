@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `piano-keyboard` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/piano-keyboard?s=regular piano-keyboard}
  * @preview ![piano-keyboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/piano-keyboard.svg)
  */
-const PianoKeyboard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M528 224l0 160c0 8.8-7.2 16-16 16l-80 0 0-84.3c9.6-5.5 16-15.9 16-27.7l0-64 80 0zM400 400l-96 0 0-84.3c9.6-5.5 16-15.9 16-27.7l0-64 64 0 0 64c0 11.8 6.4 22.2 16 27.7l0 84.3zm-128 0l-96 0 0-84.3c9.6-5.5 16-15.9 16-27.7l0-64 64 0 0 64c0 11.8 6.4 22.2 16 27.7l0 84.3zm-128 0l-80 0c-8.8 0-16-7.2-16-16l0-160 80 0 0 64c0 11.8 6.4 22.2 16 27.7l0 84.3zM528 176l-112 0-128 0-128 0L48 176l0-48c0-8.8 7.2-16 16-16l448 0c8.8 0 16 7.2 16 16l0 48zm48 0l0-48c0-35.3-28.7-64-64-64L64 64C28.7 64 0 92.7 0 128l0 48 0 24 0 24L0 384c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-160 0-24 0-24z" />
-    </Icon>
-);
+const PianoKeyboard = createIcon("piano-keyboard", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABgAAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCLgsGAAE2AiQDCAQgBYMtBzUbMwXIjtRG+YWZRFC/1lfW656FGV7CXmY4BEusmNyp7w6Fw4lTLAmq9n3qVM04DwXwOQRBG9OyKSC7LdCc56UCjbV0E8QKVqCKca2dvYEE3WJAiE/Srn5Y3SCPL+NhJdIz6Qs8FD80ftLX/SSlDEA0AbBk17YNOtrRjvj8f8Tn1iEgloBCIEOGAQLMlwkMkCuQywXt+P9//R9YEEB0gpAkkKMLbsXdgBwknfK80Wo1aiMqpVq+s1IqXxIe71GOiKf6R1S2lyvl0m2IZ3oqd+aTvTR0TKxyMb1r8URP9tKzY98YWY2XRr/WRwh2w5jXR9Ti1XFv9g+sHvpG841fhnxx8guNb5/DiXp7s+2+T4ttvuvdw2Aq5Zqn77ff3Qmb4bbrz9nsV9317eXL7cnq7Q4TaTIiy63Wcx2eS6PKk/XRx3MG9LmfgUAw+d+/HzjUmP9rl0oC3330t/BmWpzeQBcJBNn4/8fbnxaDIgbgpLjRUGaGgeSqtwxr1ZMChDICJJ2UBcj01xQgVzZOgJJBZgjQSdk2mci7Cj0cqCCpugIyM90Bcj18CErm+9jupEdk8sdID/P7S1zZoitaFVMmTi7mFsu4zIoU5ernFdvy6BtN3hg666RLLrruhOPOuN7gV23wbnDBSg5b4YsKU0w0WWGu4jj1eHynE6665oxLLoZG5inuW6PdyJceQ1oC0qmuJ4lI9ctnjly8NOHciVvkEw==");
 
 export default PianoKeyboard;

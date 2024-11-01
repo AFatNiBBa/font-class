@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-frown` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-frown?s=sharp-duotone-solid face-frown}
  * @preview ![face-frown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-frown.svg)
  */
-const FaceFrown: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM124 394.5l4.7-15.3C145.2 326.1 196.3 288 256 288s110.8 38.1 127.3 91.3l4.7 15.3L357.5 404l-4.7-15.3C340.5 349.4 302.1 320 256 320s-84.5 29.4-96.7 68.7L154.5 404 124 394.5zM144.4 208c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1 0 1.8c0 .5 0 1 0 1.5s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zm224 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M176.4 240a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceFrown = createIcon("face-frown", true, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABrAAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDDQsIAAE2AiQDCgQgBYMtB1AbrwXILg6yOWRdi6HQoezevKz8eECNh6+18v3u2T3mMEtgRyRM6owJMCoERcKhkFORiY4e+9pP992/UhivQGATF1VgB4iqOqA6tZ3YEitkIbnkLnVyZz/wOSBtpa+szAB+n/9r6gUdXQN+OsJDica7RXu1dT6fwACjLb3AJzTDzcB2tu1NELV1jpC4QRHP+bgapDvpOy55/wMY/wxZIYnJACA6AcCaPZU+nJVRpritPhHfbQQBxFrAJAQyyGAUAZaTEBjFCVDgCMpUVZRRVZMgAKKO4HvIgDpoBE/wHlAAEoYXXN9jd2bq5TUlr2mpyWrPDVCE4kh/UHa2128IGAPyli4Rb2u855tmeMGWW9d7fm1tXvmSjV6dO2XuNa+XHxZvl+47jTQt+uPunHDRVsqGxUAz9jxG2GH1BULuAg7HkTiMHSHkEOt6L94gO9sfNMkP91JUwhZZnIIpLzTh/8nfx+3tr/bTnG5PBQG1IW0DHnfPcGZDEwx9PF/H849ieFS18O5b3RKELwYHH3/rhRdb8GmztatXJwmU/WAlvno+K0+D2tYtS6RMjADhKLooBSixhGV3meXVXa6VnnA/QICAAw+/7Q318v+NLQzAn8//zX9IqhL2Ao0YICDPq+ZpSoAEAQAgxZi4BJcRIJvABe/aKigAQQYCkESSIUBmp0GAgkw6AtS4FCJAnUwlCRUxIAbNNWAUBoGkyCzgDDZBhAoX0UiGyPCqQJvyu5jpbaOeeWJxVo4oE5NVpQqCkp0uF6utWWOyKxUfRZt+fUa0atFppMUO8SVG9fLO4R4fJOTKkkMoI3Y37u+v0WrIsE79+txZyonzQynG5genYicT8C6xIpMgEkm6z6Ewc1z/eF8m5HcbuvpLDg==");
 
 export default FaceFrown;

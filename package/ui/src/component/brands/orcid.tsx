@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `orcid` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/orcid?s=brands orcid}
  * @preview ![orcid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/orcid.svg)
  */
-const Orcid: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369z" />
-    </Icon>
-);
+const Orcid = createIcon("orcid", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcAAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBbAsGAAE2AiQDCAQgBYMtBywb6ATIngd2bGWqimHuLG9hGEFgR1U9Mwt4jlJkZWDkyA8gAxCEcigsHtsYQ+NUYBpaUn3y5ekqB2vfp7/52jhvAz6QHMeysg2yLIrmPE+g87z7/sG7j9M+WKL4rZ1d6Q0iE0mX8iTDoh9Wd8jixbiqgORm8hGupB+Nn7Q4R6IgBRDVAJi2ZsUir30en0d89H/ERxYgIKaDXCBFinYBJkoF2mVyZDLB5/H///IfmBNAFMpPn4AMRViFLYAMJAqyrLqjqKS6rKAiW11WULq9tKxUlMW7Ax5vvd3/sdGrj2J8NBXjtZWXqs34w5aeHzdfqSxCobU+JJE+D7bc6LmKHxZv93vUqb6PzOz+WPVjv3T7aNuA3ungwYNvGaKmtKWhatase3o/P9MBDhRRZKaZRUUHDhSFaxaxsXRHZ2Z9pvPbmoga/MK3y879DJY5/XT0//iToUAg+Om8rZr4a3FZAr584b/rmcX/vxd/JI+hWAKCdOD/A21MKFYcfwgAXhLHdFcuFkgsUgD41nLXBAilCJAoVCpAqk21AJlSAwQo0GmUAIVKrZCKrESot6mDRLmDIDXacZCp9zwoMNG7XqH6SM1LMA7hc5c6m9FZW/mwwUPz8fk00USL4cJyQr6t9z3mG/1w0zb77XPEVlvsdISYQxaFR+01W8NmuVBumMGGyo2XH+ePx6ttdchhO+23L66ZIL/v9nVM7++HfRLA8IeBklgkBfsPbd65BQAAAA==");
 
 export default Orcid;

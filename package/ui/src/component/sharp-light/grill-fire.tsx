@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grill-fire` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grill-fire?s=sharp-light grill-fire}
  * @preview ![grill-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/grill-fire.svg)
  */
-const GrillFire: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M416 64L32 64l0 32c0 106 86 192 192 192c4.9 0 9.8-.2 14.6-.5c-4.6 10.6-8.4 21.4-10.9 32.5c-1.2 0-2.5 0-3.7 0c-19.9 0-39.2-2.6-57.6-7.5l-26.1 57.3c4.3 4.2 8.1 8.9 11.1 14.1l75.2 0c1.8 11 4.6 21.7 8.2 32L160 416c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64c5.7 0 11.1 .7 16.4 2.1l23.7-52C56 267.9 0 188.5 0 96L0 64 0 32l32 0 384 0 32 0 0 32 0 32c0 24.1-3.8 47.4-10.9 69.1c-8.6-8.3-17.4-16.2-26.5-24c3.5-14.5 5.3-29.6 5.3-45.2l0-32zM96 384a32 32 0 1 0 0 64 32 32 0 1 0 0-64zM448.7 272.8l-24-27.8c-14.6-16.9-29.3-31.5-40.7-42.2c-11.2 10.4-25.5 24.7-39.8 41.1c-15.1 17.4-29.5 36.7-40.1 56.2c-10.7 19.7-16.1 37.3-16.1 52c0 70.7 57.3 128 128 128s128-57.3 128-128c0-25.2-17.6-57.6-41.2-87.9C494.9 254.1 487 245 480 237.5c-2.3 2.4-4.6 5-7 7.8l-24.3 27.6zM384 160.2s19.5 15.8 43.2 40.2c7 7.2 14.4 15.2 21.7 23.7c8.6-9.8 16.4-17.8 22.1-23.4c5.6-5.5 9-8.6 9-8.6s96 86.4 96 160c0 88.4-71.6 160-160 160s-160-71.6-160-160s128-192 128-192zm.7 102.4L397.1 278c2 2.5 14.2 18.5 25.6 33.6l13.1 17.3 27.8-20.4 12.7-9.4 9.5 12.7c3.6 4.8 5.9 9.5 7.7 12.9c0 0 0 .1 0 .1c19.6 36.1 11.3 82.9-23.1 106.9l-.3 .2s0 0 0 0c-16.1 10.7-33.6 16.2-53.1 16.2c-23.7 0-46-7.6-62.6-22.7C337.8 410 328 388 328 361.8c0-14.5 4.7-27.4 12.3-40.6c7.5-12.8 18.4-26.8 31.9-43.3l12.5-15.4zM467.9 345l-25.8 19-12.7 9.4-9.5-12.6 12.8-9.7-12.8 9.7s0 0 0 0s0 0 0 0s0 0 0 0l-.1-.1-.4-.5-1.4-1.9-5.1-6.7c-4.2-5.6-9.9-13-15.6-20.6c-4.5-5.9-8.9-11.8-12.9-16.9c-7.1 9.1-12.4 16.6-16.4 23.4c-5.9 10-8 17.4-8 24.4c0 17.9 6.5 31 16.1 39.8c9.8 9 24.1 14.4 41 14.4c12.9 0 24.3-3.5 35.2-10.7c18.1-12.8 24.8-38.1 15.5-60.3z" />
-    </Icon>
-);
+const GrillFire = createIcon("grill-fire", false, "data:font/woff2;base64,d09GMgABAAAAAAO0AAoAAAAAB2AAAANpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSCEPgsGAAE2AiQDCAQgBYMtBzEbPwbILgbshvpBE5Z3uTwGaJEYIi31Rf00iKe113l7+yEHQdwAw0WlSAqJVVm1ruzYVgHZNLLA/v+Pq/sGXoNNDBH6aVQXRIKcp69P37MIw1uWYBBg5uFVUz3k4vaAiScWIHaNU4mDmtzJ629Bhi3VLA3M8on7ef6ttgbaPR7objqUCqs8j7SPyzr/AgONtkiLpt2ABzJBn7m1HUNFnLDfkJCgMSLon9Tj1RpoeSOeCoA6y7kBHLbxMoiZHUChLRQSLZhO94Qxw3iiIY3Qq/8DyPpkAAIgPQAYAljwNdIJAG0sBEinMUCjEfhI/4//wAICABKEScVrNRAG/gLiAQAaAEVQ6964jOzSBofv6fEO357tarnI61GPRWppp6nKTmnOvtJlJOXPl9AZ19m86ZL51IHShUJ1QoBc9RwVE4k4HoJssexOHBCasc+Q6AQ6sstRm/QIM+62q0qKS24WTBbNFvUyVrv+ecx+LkvtL+lO7Ix3Hc+MiE66dSX0BNW26Fz5UsZL5M7Yt+i98SM+K6ULSUVGiQknmWUmHphgRO/VkcCkz7S3iGgrfj4pUbnPZ7K0gVKTca6lRfFijAmGMBKTJNLdxrHO+E76bjc1aSDV/mb0/JDdTe0NRrZDe9tCRo0bN0qE4UVVQtMzfQY1jQPI2gzsmLhypVpt6xVRsZwXScn4BrGeTMu7l9dJJqazM1IB7DFlsLd80Xp9wtysrIkN3p+xAit3ZG9dwMBXjfdu2gesj13CC+BezN++kx90X92M6QmS8OomoQnk5hU7ffD940MXsx7hiHoNjfsPsMEmgwS1AN6UlBwDADZn5J/aJTTqOyF3+XnHKHwBNZdJGd4q+OROva8f6wdenNhmS74MmRv8+h1bDgACCOycJW5ZVOSlVAHweet/YQf/X06smgcIowAQsMo+MVXFAmR5AYCoklXkOFapHPmKZypzOQXFBRs2KILYsEgTDY1NKQJkqtcGR4/BQnQEQrxpgMJlKSwabIQm3l0EaPM0EiQ+uO+BfhXr/0Kz9M+E381UV1SZFnOYMQxLW9s6W03YVrSqVBRjBrNYzCJWMJMZzDX1JF3GsPhKFtLvKfrfNapVqGK0MKfz7yePZybLWM5cFrOoc2llrg8VWeXXL4ZToSprzFEoEGXPXjZ3wYLybwoA");
 
 export default GrillFire;

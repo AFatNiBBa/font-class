@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `glasses` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glasses?s=light glasses}
  * @preview ![glasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/glasses.svg)
  */
-const Glasses: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M116.8 64c-14.4 0-26.9 9.7-30.5 23.6L38.1 274.4c31-12 65-18.4 97.6-18.4c40.1 0 82.2 9.6 118.5 27.3c2.6 1.3 4.9 2.9 7 4.7l53.7 0c2.1-1.8 4.4-3.4 7-4.7c36.2-17.8 78.4-27.3 118.5-27.3c32.6 0 66.6 6.3 97.6 18.4L489.7 87.6C486.1 73.7 473.6 64 459.2 64c-4.9 0-9.7 1.1-14.1 3.3l-22 11c-7.9 4-17.5 .7-21.5-7.2s-.7-17.5 7.2-21.5l22-11c8.8-4.4 18.5-6.7 28.4-6.7c29 0 54.2 19.6 61.5 47.6l50.7 196.6c3 11.8 4.6 23.8 4.6 36l0 39.8c0 .2 0 .3 0 .5l0 15.5c0 61.9-50.1 112-112 112l-44.3 0c-59.4 0-108.5-46.4-111.8-105.8L304.4 320l-32.9 0-3.4 54.2C264.9 433.6 215.8 480 156.3 480L112 480C50.1 480 0 429.9 0 368l0-16 0-39.8 0-.2 0-.2c0-12 1.6-23.9 4.6-35.5L55.3 79.6C62.5 51.6 87.8 32 116.8 32c9.9 0 19.6 2.3 28.4 6.7l22 11c7.9 4 11.1 13.6 7.2 21.5s-13.6 11.1-21.5 7.2l-22-11c-4.4-2.2-9.2-3.3-14.1-3.3zM32 312l0 .2L32 352l0 16c0 44.2 35.8 80 80 80l44.3 0c42.5 0 77.5-33.2 79.9-75.6l0-.2s0 0 0 0L240 312s0 0 0 0c0 0 0 0 0-.1c-31.8-15.5-69-24-104.3-24c-35.1 0-72.2 8.4-103.7 24zm512 0c-31.4-15.6-68.6-24-103.7-24c-35.3 0-72.5 8.5-104.3 24l0 .1s0 0 0 0l3.8 60.2s0 0 0 0l0 .2c2.4 42.4 37.4 75.6 79.9 75.6l44.3 0c44.2 0 80-35.8 80-80l0-56z" />
-    </Icon>
-);
+const Glasses = createIcon("glasses", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABmQAAALLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDJAsGAAE2AiQDCAQgBYMtBy4bogXIrgZsY7jYjyKiNCpiO9kZ17jPfmMXh2Oxb4jx8M/+/tvnvvvN0V2TQLRJovs0KBQlOVEJqkKdsWKs7b2qNKuKRUgfCYX61JdQEJ1ONg+RUDSJ8kB/tbdH3SJNQOcJvvSxSzz+QBVIE2hgzSJ2ENjubYNRYCmFSeeBpYFJWD+AVP7rdxnw2vN/zef3/OgAPx/BoXVoYoLnKjAFJrZ3vuTk9LQRDWzgPnMbcRjkZ01EpvIhhrZQjc4hjddJSB7JEUYJDsSbis/09kMizQGISgAMH+PGuvWBHhN6+B/EQ20ExAhAJpBDSUsBBskJfA6pDKlU8CH+D/+BEkDkox+cgBR5OA9uAEhBIpemSzyWEnZZOlFYKZ62oevQSxibqYV0SHvdWs/36OYZqVwx1ky13pgJo3tT36UrEHvoQuK4bycloAuBPYsjBJFxibCtPcY+3b3bwqh2x0Q11nhiKigoCSFO+HfTQroY3LfSLasbay54N0cNDNmFOgPiyPKmjpOyvadenm+sntULux7hrcrWuKOPtr2tlcTP6hRWdsF+3qvlS7cDbldoSkUT4sfqzQcqVfzzGsLTrz/htExvnT/vIeSHP6lMO1C9w1d1q11fcRZwZ/rwVcDcKN7RTqWYuFwZYvyqBBgIoGHctwAFffs0qGOHNseOTipPvZgCgaDb4/BOln9TmIBPV3ykNf6fUWM8AYUSEOQ6/Q+Zbj3AowPwk9iItngrAokzmOhWSx1EIBQjQCJfsQA5LVQKkCrWUYA8rfUWIF+xcXIiLRJqzSggUWoNyOljB0jVOgvyDHInyFebMEWXFDzy4Rg3hkOjp2XxLt2yAdkwkSlpxF3/wGxb823Ude1RaqFVVlpvgfmWWM+QtcbGG6wwZgaP9kGZ7rroJjNAdpzfzp5ogbXWWWKVlWGSgbL7Vjsb563bw0wQZg93JBIiKVg0/K0BAAAA");
 
 export default Glasses;

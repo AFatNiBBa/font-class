@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tower-observation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tower-observation?s=sharp-thin tower-observation}
  * @preview ![tower-observation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tower-observation.svg)
  */
-const TowerObservation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 7l3.7 1.9L411.3 88l4.7 0 0 2.5 27.7 14.5 7.1 3.7-7.4 14.2-7.1-3.7L416 108.5 416 216l0 8-8 0-62.3 0 52.9 272L504 496l8 0 0 16-8 0-111.9 0-.3 0-271.7 0-.3 0L8 512l-8 0 0-16 8 0 105.4 0 52.9-272L104 224l-8 0 0-8 0-107.5L75.7 119.1l-7.1 3.7-7.4-14.2 7.1-3.7L96 90.5 96 88l4.7 0L252.3 8.9 256 7zm0 18L112 100.2 112 208l63.8 0 .3 0 159.7 0 .3 0 63.8 0 0-107.8L256 25zM382.3 496L377 468.7 256 373.6 135 468.7 129.7 496l252.6 0zM170.5 286.1L256 353.3l85.5-67.2L329.4 224l-146.8 0-12.1 62.1zm-3.4 17.7L139.7 444.6l103.4-81.2-76-59.7zm101.9 59.7l103.4 81.2L344.9 303.7l-76 59.7zM160 112l0 48 192 0 0-48-192 0zM144 96l16 0 192 0 16 0 0 16 0 48 0 16-16 0-192 0-16 0 0-16 0-48 0-16z" />
-    </Icon>
-);
+const TowerObservation = createIcon("tower-observation", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjgAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSDFgsGAAE2AiQDCAQgBYMtBzgbngXIhofvdZ+e+6SPWo9lYpkBwtSlJO5cbxtgqHfSYgX8L049z3koQLkHiWhQ/pNNq2Ofr7HOK1DgUBfW68VywWpaAevitpsj4qENQuMBebzinBrp6fQpHqw+NH40xL0kWQYgSgCsPrh3uzd7oifik85zxCe2IiBWg0ogQ4bhAiyTCQyXq5DLBT3R6Yj/wIoAoi5+xwRytHEZbwJykDTzfGO/omg0Wn2KWq/8QFFrHx0wcMD+KEKMjwHRPwbGhBCi3T4cRVHxEV0ROGSOxiLGHYoMiolduIiDImnfwX24FdmZA4eHDhl6IPbF4CgO7BdNB2NMtKMavAsp9knTSuqAUDzcPbBoF0LQr4ox3WX3z6M/vfCpzouzZ89+YoeazGvOusdZi12lqbliXm9XNEvN6ylxfWdeMVO9otl0lcUHvV+TqXlih9l9H9ySNF9tFS5TYYfD8D3fb4kjt58gS7f49+uv9q1hXvvX+MwjPhs99D4kvLDb1iXnl17YhX0S4av/nhXff9Msb3bKsqc0S6n8snoeBIJ3Zzx04WTvZb81iwR+ePnXH6FfUefNJHWjKYEgm9aZ5lgCiQAApLjVmASB5ClN8d0uTwgQ2uggqWtDZpgScm1ToWak+XTwnr0ykbeE/o7DkHS5ATIL3AO5/p6BmmU+SNX1jwxmFYhT/hgzNwyZ9aeq2TNmVUuq1YFGBUPJHi6tDjuTbpULk/EZF1znWjc775wrKhpwN9qevcU1Nmyx631RZbYZZqksUV0ePzUPDMI3ukkStq69fsxS1fOJSW7dXj8Z+5NYdI62JBGpzwe9OP21Bw==");
 
 export default TowerObservation;

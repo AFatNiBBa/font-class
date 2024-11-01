@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vest` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vest?s=solid vest}
  * @preview ![vest](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/vest.svg)
  */
-const Vest: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M207.1 237.4L151.2 69.7C168.6 79.7 192.6 88 224 88s55.4-8.3 72.8-18.3L226.5 280.6c-1.6 4.9-2.5 10-2.5 15.2L224 464c0 26.5 21.5 48 48 48l128 0c26.5 0 48-21.5 48-48l0-193.5c0-9.5-2.8-18.7-8.1-26.6l-47.9-71.8c-5.3-7.9-8.1-17.1-8.1-26.6l0-17.5 0-73.7 0-6.3c0-26.5-21.5-48-48-48l-4.5 0c-.2 0-.4 0-.6 0c-.4 0-.8 0-1.2 0C311 0 295.7 9.7 285.7 18.8C276.4 27.2 257.2 40 224 40s-52.4-12.8-61.7-21.2C152.3 9.7 137 0 118.3 0c-.4 0-.8 0-1.2 0c-.2 0-.4 0-.6 0L112 0C85.5 0 64 21.5 64 48l0 6.3L64 128l0 17.5c0 9.5-2.8 18.7-8.1 26.6L8.1 243.9C2.8 251.8 0 261.1 0 270.5L0 464c0 26.5 21.5 48 48 48l128 0c9.9 0 19-3 26.7-8.1C195.9 492.2 192 478.5 192 464l0-168.2c0-8.6 1.4-17.1 4.1-25.3l11-33.1zM347.3 356.7l48 48c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-48-48c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zm-294.6 48l48-48c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-48 48c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const Vest = createIcon("vest", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABjAAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCWwsGAAE2AiQDCAQgBYMtBysbVgXILgZjN80QC9IOLZvOyvlcRZzGJmgaz/O/37d97r3vjyuSxCxp1JD4neyNOA3RxiI06iyqhYRXQmd+2J+9NyqUjzQACUzGQU53dXM9V9Zdst9z6r8sHmMpRjACBRsLU8BSWi4FqNv6Qh12WZNYm0WA779/afziRzO+APDdvzn8QEa743MKNF5dIC1NGxO4VrCaVsB6tu1VENGQ2IXGEVom4hU6ygvhH2vhQ/PPkiuKoQoAmQQAuHg7lYTpJZfQ38bks2tAIBcBtkJUVKxCcAZTsIplK9A04Tcxi//AFARID5L7FtDQYQ2vAA0UtbEWxyVCtpiVNecLcrcy2TsfTTpdyAurVwnz4AwCzLmdTZ9w4dju14Kcc+E1ndOt2fXL+7koZQfEFJB5LqDIY/Ml5sYZ01YOkTl7ztczu7YfnzoDq37+TKCEse9FCXgD/aw+v7Mv/TO+jcffp6/YXK/vjNg2+AH16/cDj3Hg+9d6NHFv/yWHE3LEcBZP7UDwaeq/no97vvrTiYDuSrkCVylIrjmfb+018XFnP2Ls9G7WMfP8Zd+zMqgMQxAgQlbeDhCE//e0Uu9ncIQB8PfwX/6MbAwZyh4MKiDUPbxHOVPIugAASnbQWUdQPFEl7zrqqYAYRkDRMyygWiGDoBm2G4LOZjYIeoZdx5TGh5hV6dli1F22OuaYbWa9sJ0zvuKe2VSolGFK/inMCI2x4CzyoN5IusnNilYBNGQnPeTpYMeO7FDhtTBj1YotHW3ztkbEhmRm27LQHh70RSQTPSOSG3m7/tzIjqA0NsdoXbk/DQ/y/UhpZ7+/Cq+CATj0PZEsTmHt3NncAgA=");
 
 export default Vest;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-quote` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-quote?s=thin comment-quote}
  * @preview ![comment-quote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/comment-quote.svg)
  */
-const CommentQuote: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M157.3 415c-5-1.8-10.6-1-14.9 2.1c-11 8-29.4 19.3-51.2 28.8C68.3 456 41.6 464 16 464l.1-.1c0 0 0 0 0 0s0 0 0 0l.3-.3c0 0 0 0 .1-.1c.4-.4 .9-.9 1.5-1.6c1.3-1.4 3.2-3.6 5.4-6.3l-12.2-10 12.2 10C28 450 34 442 40 432c10.7-17.9 21.4-42.1 23.6-69.9c.3-4.3-1.1-8.6-3.9-11.8C31.9 318.8 16 280.7 16 240C16 136.9 120.2 48 256 48s240 88.9 240 192s-104.2 192-240 192c-35.2 0-68.6-6.1-98.7-17zM4.7 452.7s0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c0 0 0 0 0 0zM208 160c8.8 0 16 7.2 16 16l0 24 0 24c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-48c0-8.8 7.2-16 16-16l48 0zm0 96c5.8 0 11.3-1.6 16-4.3l0 10.3c0 25.7-17.5 48.1-42.4 54.3l-15.5 3.9c-4.3 1.1-6.9 5.4-5.8 9.7s5.4 6.9 9.7 5.8l15.5-3.9c32.1-8 54.5-36.8 54.5-69.9l0-38 0-24 0-24c0-17.7-14.3-32-32-32l-48 0c-17.7 0-32 14.3-32 32l0 48c0 17.7 14.3 32 32 32l48 0zm96-96l48 0c8.8 0 16 7.2 16 16l0 24 0 24c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-48c0-8.8 7.2-16 16-16zm64 91.7l0 10.3c0 25.7-17.5 48.1-42.4 54.3l-15.5 3.9c-4.3 1.1-6.9 5.4-5.8 9.7s5.4 6.9 9.7 5.8l15.5-3.9c32.1-8 54.5-36.8 54.5-69.9l0-38 0-24 0-24c0-17.7-14.3-32-32-32l-48 0c-17.7 0-32 14.3-32 32l0 48c0 17.7 14.3 32 32 32l48 0c5.8 0 11.3-1.6 16-4.3z" />
-    </Icon>
-);
+const CommentQuote = createIcon("comment-quote", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABxwAAALqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFyENAsGAAE2AiQDCAQgBYMtBzQbOAYRVZpVyX4klG1q9O1shwZVymhJLQ7L1PTo7DQclk/i4UOX9r4k79jaAADX4Q4QOiBsuc2kpTIHVJ99+rX2/p6Zo24hMxcKGjodj+Z9h1BNefi8va8bDHez3Y1smljXBdhFUlIkQdPfu/M/LVogzyiUsbatNbmLl3VxINmYGHXhtsASxQbnjTjAkBjS95DFK2xYJOeoz+BI/qXxC81OEmkKIKoAgKGzG6txTAdNyOf/J8RnLCAghgGaCKRI0UCAAVKBBjJNkMkE38h/OfsPbEIAURDcVQIylOI/ogIgA4lClnXOrtahRqdiScVsVi7JZ9/Kyz2e94jYRraRiG2CbZoztWtFTQITbjXeVutts6+tGn9sxh+ajPGMGQu48AInVaeKzzJftX5R/Fp5nnvU/OKgt+M+tjyUnWTtN/mSv+09WQNYtubbsD5w/qUSokvJ47Q68Yym6EAVW7GiRY1jImvXjmuGCxEEblOfzvPYP04hti5YLM7OeXHzOGaCYLeIA5pmN6vc/N12MXKBt68dEja2rgYAEaqOFz7nYcNcTo+dijF5poT4KGHktBaHz/a8WWspWGNV23L+g7omob/7jEb8adSorExaL+wfDZ9rxM8i3qbdIYsQwEcnLdaijkrfoigFUbZrH295UuO/2+Jfa6FV37Pjx1NdtxWyvausKNX19kaDkrt1uZ18WAt1FZQtBwgEk66nJ4vLgNfSYgJ+7P75lZ9Z/n/5twTJTVAqAUHa4b+DBYkZnCFC4E5iIztcYiDxGy7np1ZwWoCQI0CiIBcgVV8VATK59gKUaKSnAAW56RgiKxNqWFiDRAVrQKqXTSBTwyNQYoB3roIakb4CrBuY9QMaX5e0oeJ51q7hqDXDOllQsu9qhh7MtK6Wt1nhDT64EiNmzVgybMi4pRZxQbV32bSSOUKxH7KKCYuyymDdXb7Pb8G6BYucMc7dP0om6/lmr5X59j6oohBQ7SYrQQJBVfzmhKEPFA==");
 
 export default CommentQuote;

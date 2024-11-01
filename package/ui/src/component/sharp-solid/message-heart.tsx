@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-heart` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-heart?s=sharp-solid message-heart}
  * @preview ![message-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/message-heart.svg)
  */
-const MessageHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 0L512 0l0 416-208 0L160 512l0-96L0 416 0 0zM368 171.2c0-32.7-26.5-59.2-59.2-59.2l-2.4 0c-15.9 0-31.2 6.2-42.7 17.2l-7.7 7.4-7.7-7.4c-11.5-11-26.8-17.2-42.7-17.2l-2.4 0c-32.7 0-59.2 26.5-59.2 59.2c0 16.1 6.6 31.5 18.2 42.7l82.8 79.6L256 304.1l11.1-10.7 82.8-79.6c11.6-11.2 18.2-26.6 18.2-42.7z" />
-    </Icon>
-);
+const MessageHeart = createIcon("message-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABWgAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBKwsGAAE2AiQDCAQgBYMtBzQbrwTIjsQ4JvKHGDVFxMP3a+Wf+7p3KwDQYWYFpNihAp7IuLADFnIrFvB/PYmgUfv3N8//+acP+Iw+WmPS0kAW4F7nCQQadXnniWSBZRqAx5B10//QU8qtyYte0jDlhq0D8nianVFBupY+4FK7aXzT3BmS6hmAqAeAcUsWzPKqKqoi3pcn3puBgBgHCoEMGVoJMFIm0EquQC4XVEW5nP6BBQFEJZyaQI4cwzEOkIMk5XndDjUraueL82qNrG6duilqxMII/Yhs3fUi7nWuEWe7NoomUapRI+50vNrsRLdF0TiaxpJ4FO1L9Uo/2n3Y/MEr3PDFpTXWuuHGnpLf1D2RaVbviCPqNcucqPu7WvP68+d4qGT+bPWbA4Fg/b4ea9fUHfm/mgl8ffLrB3uLyq+SVEI1CQRZz3JPKxNIBAAgxWHtEwSS/hJctZbLAoQaCJBUqiFApqV6AuRq6CFAhTYGCVCphgUykVcXGlk1IKllH2QGOwq5Rh5DhZFe25UaRcYe7u25z1vyZI8mLRX9evcthhfLSOcJwZTpiGJb63rYKt1k12Z77HbQJhttc9CR/WZ5h+wyOcKTPKjQT299FYYrjtPn7cU22e+AbfbYXeeMUNy3ujoct3cTMwG1P1+SiFSbU2ovEgM=");
 
 export default MessageHeart;

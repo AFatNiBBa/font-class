@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vest` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vest?s=duotone vest}
  * @preview ![vest](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/vest.svg)
  */
-const Vest: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M48 416c0 4.1 1.6 8.2 4.7 11.3s7.2 4.7 11.3 4.7s8.2-1.6 11.3-4.7l48-48c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-48 48c-3.1 3.1-4.7 7.2-4.7 11.3zM117.1 0c6.6 .3 12.4 4.6 14.6 10.9c6.5 19.6 13.1 39.2 19.6 58.7C168.6 79.7 192.6 88 224 88s55.4-8.3 72.8-18.3l19.6-58.7c.1-.4 .3-.8 .4-1.2s.3-.8 .5-1.1c.4-.7 .8-1.4 1.3-2.1c.9-1.3 2.1-2.4 3.3-3.4c2.5-1.9 5.7-3.1 9-3.2c-.4 0-.8 0-1.2 0C311 0 295.7 9.7 285.7 18.8C276.4 27.2 257.2 40 224 40s-52.4-12.8-61.7-21.2C152.3 9.7 137 0 118.3 0c-.4 0-.8 0-1.2 0zM324.7 356.7c-6.2 6.2-6.2 16.4 0 22.6l48 48c3.1 3.1 7.2 4.7 11.3 4.7s8.2-1.6 11.3-4.7s4.7-7.2 4.7-11.3s-1.6-8.2-4.7-11.3l-48-48c-6.2-6.2-16.4-6.2-22.6 0z" />
-        <path d="M131.6 10.9C129.5 4.4 123.4 0 116.5 0L112 0C85.5 0 64 21.5 64 48l0 97.5c0 9.5-2.8 18.7-8.1 26.6L8.1 243.9C2.8 251.8 0 261.1 0 270.5L0 464c0 26.5 21.5 48 48 48l128 0c9.9 0 19-3 26.7-8.1C195.9 492.2 192 478.5 192 464l0-168.2c0-8.6 1.4-17.1 4.1-25.3l11-33.1L131.6 10.9zM224 295.8L224 464c0 26.5 21.5 48 48 48l128 0c26.5 0 48-21.5 48-48l0-193.5c0-9.5-2.8-18.7-8.1-26.6l-47.9-71.8c-5.3-7.9-8.1-17.1-8.1-26.6L384 48c0-26.5-21.5-48-48-48l-4.5 0c-6.9 0-13 4.4-15.2 10.9L226.5 280.6c-1.6 4.9-2.5 10-2.5 15.2zm123.3 60.9l48 48c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-48-48c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zm-246.6 0c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-48 48c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l48-48z" />
-    </Icon>
-);
+const Vest = createIcon("vest", true, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABuAAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDNgsIAAE2AiQDCgQgBYMtB0QbzAXIjtRe8wGSUePhebu+zq1X3QOoRuYK/IgWbCzoiAoSCGmBkw1uM8MXetU/7t35P/+7cf6sJR7Ka8xJawDNeZ5AgF02bdOizgPMMsXOtr0JorZ+EBpHyOPB064K2c3zIa71/gcwfjFIO5lOCUD0BMDK/XZv9eqX8WUWH5bPER/agoBYBQqBhIShAiyRBIbKFcjlgi+zsuTLKMuCAKLK+/AEquiEl/E2IAeZXMrzMWO6d+01tVeXSrd8X5dK54Ma2znuS22guDx7oiZxc+tju8SV3BIRLYyIfQcIA+IHaQ55wO6LhiNu2ca4zlHL/lHT3qXLltb71voviwbNfp1dbDiXhEQcXL748trZ5crcGU1X3a/QQfXePChWvH/ui+NnRwstITcR6S4tt+UZiEVjHujfWDOuJa7wAbUujb3hZrQc/J6MeqTnI7+N/PDYD7U9t/CuihmffpSO1P2i6etd1OM16aNPZ1yux4u//0O6Lb7bpq8OGvpQoB1Sr+Ne04M4YmXuqYX7dzOu44VLyqDmllsefriUSv7/8MO33FLKlNU1a6rCW5rD+uVr7nwLd65YvPjOr766cxIIRK9ZFcHrfxz7/XeXX/7d98f+8Trhk6MPUCutRXE/EAgevXbniYf1WPJfxy4Z+PqVP/7Jb1e+6lezR0RHGQjSlHKKg+NVEPIB5LM416iZr5ohkBwpFxzqqiFA6EwNmarOkAzRE3KdTYaK4eYerupstyTyTkJfh9SQ6eoMSOa5BHJ9PQsVS7yTq+obCYi1IKj9hcy0rk2sXVbMnDajWFRM1pU6uFTb+cXFateEc2XfRLzBsU5zqrMd42gn5Njiz7S1eI5TrJsj1/qhwkzTzFBYpNjduh/a55g0fJYTxg37F1msOD82wbnzoydibyZQOsuhJBFZpK7nHnPW2VO/BUv3huGVBwA=");
 
 export default Vest;

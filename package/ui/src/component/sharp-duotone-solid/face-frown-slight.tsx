@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-frown-slight` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-frown-slight?s=sharp-duotone-solid face-frown-slight}
  * @preview ![face-frown-slight](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-frown-slight.svg)
  */
-const FaceFrownSlight: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM129.7 392.8C142.3 367.7 184.4 320 256 320s113.7 47.7 126.3 72.8l-28.6 14.3C344.9 389.7 312.4 352 256 352s-88.9 37.7-97.7 55.2l-28.6-14.3zM144.4 208c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1 0 1.8c0 .5 0 1 0 1.5s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zm224 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M176.4 240a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceFrownSlight = createIcon("face-frown-slight", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABqwAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCfwsIAAE2AiQDCgQgBYMtB14brwXIhof/r/P7fW5V8qT0a6ia8gcwgjUUMc76I2gEZ/6vqRd0dA346QgPJXsZWjo+XNTzCQww2pJaaEIz3Axsl9smjqiFsickjgvk8UV2oRLptvQRrvH/BzB+1NuFJA0ZgGgHwKIdW9Z5rRrVFB/VniI+shYBsRgUAhky9BNgrkygn1yBXC6oplqNatRqBQFEmf89ZKCMetyDBwA5SJI8z7u6+naP62oqteTbm0qNO67oGXFLnNd9c+PllRsrN/W4qampT8TXizKvr/t4fMaGT5e8ueObxW+s/0Ret/ajha9t3XbHmIgHV7w96v7eQ+Pm0Q9Mf2rkfZXhO245Xm26osdNEfdc58Z5cS52HqGAhDdW8IrGy7tv7m46txJRC3tkcYjBD7Q/8POgj474yKOftl7Kpa2ZIKAWpKXHvf0jvGZZA72ffH3Jktef7N1gmYqKK8679MI/+W7Tpu/+vPBlJ5xy/nXXnX/KCS+3PNdyDtRy59RhkUUKhBCEIIVIaejUW8zqk22ek55+HQgEb7z1X58DbXN/q29K4NsXfv2h+CGpvZakB1AvgSAbWxtrbwKJAACkOMPgxLUIZE6WC9+12c0ChEYESMoaBcj01S5ArtEYAUoGmCZAWaMtMpE3CBX7GpA0OxlkpjsL5CqeBCVzvVsrq0QGqAqYKd+Jmcu76LJpxaTxE4vZxWykUmFPcsbnFJvDkWfItlF4ryOc6ASnOdxhjnZahz3Fuubpjrd8CV/mgwqTjDdRYbbicE9Dc3undopTHT2tH59kjuL64khnLPcehRNJyDvZgkxGpMh6vwet44445cQzTxj3T6Q7ztr36DupW3I=");
 
 export default FaceFrownSlight;

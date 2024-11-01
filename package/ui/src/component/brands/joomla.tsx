@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `joomla` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/joomla?s=brands joomla}
  * @preview ![joomla](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/joomla.svg)
  */
-const Joomla: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M.6 92.1C.6 58.8 27.4 32 60.4 32c30 0 54.5 21.9 59.2 50.2 32.6-7.6 67.1.6 96.5 30l-44.3 44.3c-20.5-20.5-42.6-16.3-55.4-3.5-14.3 14.3-14.3 37.9 0 52.2l99.5 99.5-44 44.3c-87.7-87.2-49.7-49.7-99.8-99.7-26.8-26.5-35-64.8-24.8-98.9C20.4 144.6.6 120.7.6 92.1zm129.5 116.4l44.3 44.3c10-10 89.7-89.7 99.7-99.8 14.3-14.3 37.6-14.3 51.9 0 12.8 12.8 17 35-3.5 55.4l44 44.3c31.2-31.2 38.5-67.6 28.9-101.2 29.2-4.1 51.9-29.2 51.9-59.5 0-33.2-26.8-60.1-59.8-60.1-30.3 0-55.4 22.5-59.5 51.6-33.8-9.9-71.7-1.5-98.3 25.1-18.3 19.1-71.1 71.5-99.6 99.9zm266.3 152.2c8.2-32.7-.9-68.5-26.3-93.9-11.8-12.2 5 4.7-99.5-99.7l-44.3 44.3 99.7 99.7c14.3 14.3 14.3 37.6 0 51.9-12.8 12.8-35 17-55.4-3.5l-44 44.3c27.6 30.2 68 38.8 102.7 28 5.5 27.4 29.7 48.1 58.9 48.1 33 0 59.8-26.8 59.8-60.1 0-30.2-22.5-55-51.6-59.1zm-84.3-53.1l-44-44.3c-87 86.4-50.4 50.4-99.7 99.8-14.3 14.3-37.6 14.3-51.9 0-13.1-13.4-16.9-35.3 3.2-55.4l-44-44.3c-30.2 30.2-38 65.2-29.5 98.3-26.7 6-46.2 29.9-46.2 58.2C0 453.2 26.8 480 59.8 480c28.6 0 52.5-19.8 58.6-46.7 32.7 8.2 68.5-.6 94.2-26 32.1-32 12.2-12.4 99.5-99.7z" />
-    </Icon>
-);
+const Joomla = createIcon("joomla", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABuwAAAL5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDNwsGAAE2AiQDCAQgBYMtBy0btAURlZo5yX4kVDf5MB1YOTnZPEOqsdelb4IobOre/xvwAwbkSlIY5RAIAkByGCRDy+8yAGRK0rEmNXBlIrDd77YbzxJJKBALPbKgGUf6WNI13dTnE/fz/J9/+ud/2+O5R+Gs2yPyfAI7T+sEqQScTRR3tu1VENGQ2IXGAmhRJ2fxgXKVNuBMGCSfaA6CwieBBDLAZzJs1oxJPPCKV6St/yrkMQEQgBwAkhCgAhXEIQBMqATEoUkCNBqBV/r73X8gEABIgxdWAGjAF9wDngMwt4JCw+65BflFQT4hWmWxb+C8qkyR1swT4Q3Rz80mcQdeDLuIK9wqJrkX4VZWI6Y2tjG2EKvZYq4ST24rlkZ6gk5vcincFWaWxyVNkXVSlWFkHA+7GNWYVp91MavZ+4QtqYsRqc253iLHsJjEKpdwbbcIOx5hkpb0hswa1yG9KbY1tirGnVFpMVvuCF4qCtx1d4s70iJ3kutHUmrSifZEpCf2tKEp1xOJDzkkxRhgfE9uc7aBLUYHXJG9IeVx7+/Qp3tranW91mbjNta21yNTndYfpXPmrijt7Ixwbb6d0OAYZT2XoetGTaj++Q4PVNsXb2SMjiuqr7fCc8ld2nZku3ObM8CzfDksTxkoA0eOLElte43NxpWJvfr324xqvOYZ2dMz9ewv/sv7ZemMsju4tbPt9qgSZ+VHQw+9VaPv/eMO996VdXRGBOi/zkb0fBt56NDhkqOjZpY5fvaPAIAAwdmZH+ct0k3//YMUAL7e+tmt3rrfKw8UA/CnABCouz/PfHkAINgFAA4ltpKy80UCFNfQJKpg7rsuEYgeCl+BUMUyAJpAufCRQDnn5IAZqKQCEGEsAEMRbANUFeyBJozL8GHiud1XmKgwzINA3i9kYjt6TIyqljQpy2ZYywdLji0/Tkv0Ms24K07rrLWZg90Km0fURpNcW6wxeo8c5YeSjCgsbseet6/ksNEmK6yz1ldyeF8lv5/buBYKACj5+hzpLYrvynXr1qxeAgA=");
 
 export default Joomla;

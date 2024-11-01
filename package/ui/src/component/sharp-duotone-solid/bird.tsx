@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bird` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bird?s=sharp-duotone-solid bird}
  * @preview ![bird](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bird.svg)
  */
-const Bird: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M162.1 407.4c18.7 5.4 38.5 8.4 58.9 8.6l50.2 94.8 .7 1.2-54.3 0L162.1 407.4zm99 5.6c16.4-2.7 32.2-7.3 47.2-13.4l58.9 111.2 .7 1.2-54.3 0-52.4-99.1zm186.3-328L512 128l-64 42.7L448 96c0-3.8-.2-7.4-.6-11.1z" />
-        <path d="M0 160l0 32C0 315.7 100.3 416 224 416s224-100.3 224-224l0-96c0-53-43-96-96-96s-96 43-96 96l0 64L0 160zM352 96a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Bird = createIcon("bird", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdAAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBXAsIAAE2AiQDCgQgBYMtB0Qb8gTIjtRhLTIW4+H/16zu+7+S6a7uQa5hpCUH5NcxxS2gYhAqZyVJ4CQgwvvUzfPOowDfKLQ9NJAFPud5AgG/ZZMCCSgMKNMMrN1pVrRk+SQkJDm+yXE5oIgf8n1qpIfTV7if/wMYPxvoPpL2DCB6AGDFvl1bvNeMZoqvWq8TX9mMgFgJKoGMjCECLJYFhihUKBSCZmq1aEarVRFA1PFTMqijCzbjEKAASZKLYmh7WZYdta7F3o5amYWnZ7yy4fM1n276ctZroyKemNiY+/r4l4aIzlPPD3xo9AuDHh237/mOPdE3yti758VxXju0h+Y3R8Td/UY2ejR+HfHV2a9Uekm37z+YPLTZHDr5g++7HdfWaECQlnNs2Y6+fXeos54e//bwGUcx17zzJ2v37l94FXPNPvnOuuUTzWV/26ReAIFgzK5F0491X/xbW0cCP777T+J31HovSQ20SSDIk1uTHU4gEQCAFLcZmeAZgWysDO/a6QEBQokASV0pQDZYDwEKpUkC1AwzR4C60i5ZFO1CH0cySDrdANlct4NCH6+BmsU+der6RJYrSiqoX1382hpZM1XNmDq9WlgNA4kWFcINF1XL+vjbbGECzDrrmqtuccZpF9xSYTfZ4t/qirUzdI0XVWaYarrKQtV2fMvvRecmN7vQZ/fHLFKdt8e7bV4/Aawk4M4EyTKRInc+NnmKeIrdCvYWAgA=");
 
 export default Bird;

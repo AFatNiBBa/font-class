@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `oil-can-drip` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-can-drip?s=solid oil-can-drip}
  * @preview ![oil-can-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/oil-can-drip.svg)
  */
-const OilCanDrip: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 96c0 17.7-14.3 32-32 32l-32 0 0 32 80.9 0c9.9 0 19.7 2.3 28.6 6.8L448 192l167-35.8c18.1-3.9 30.7 17.6 18.4 31.5L451.1 394.3c-12.1 13.8-29.6 21.7-48 21.7L144 416c-26.5 0-48-21.5-48-48l0-21.3-67.5-30C11.2 309 0 291.8 0 272.8L0 208c0-26.5 21.5-48 48-48l48 0 48 0 80 0 0-32-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l128 0c17.7 0 32 14.3 32 32zM48 208l0 64.8 48 21.3L96 208l-48 0zM592 448c-26.5 0-48-21.5-48-48c0-21 20.6-62.6 34.9-88.8c5.8-10.6 20.5-10.6 26.3 0C619.4 337.4 640 379 640 400c0 32-21.5 48-48 48z" />
-    </Icon>
-);
+const OilCanDrip = createIcon("oil-can-drip", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABeAAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCDAsGAAE2AiQDCAQgBYMtBzMbDwXIhofn7b4691W16vfQNTYzL6B8lK6YQUrNsdPijZcKeADeOW2DdGttzngFPv7xwU+w7cEqVCH+tykW6FFE0REREmYtdjzD490d8vg7u1IV6b70Cm5JPxpfa+NKkroMQDQGwOSVS+d77ov4IuLl/x8mXjYXATEZlAIZMrQXYJxMoL1ciVwu+CL+/x//A0sCiGr5SRPIUYXdOALIQZLl+eS6VpWqBvmKSlWx80zziDuLIkQlbmgxO1bGPS3uar4sLnarj/Mt724bsSLOw6UHWt3Ts1KJKOL6lnfHWcZXThN32SSMDondH9UIpz7QrqAyiup9bdxj3Nv8zqLL5caXv+38yo5XbNzY8FqubVgqLdbovdbOd/XmnjU3PPyqbs9lBn3yatbClA6ebjBZ9uongwadKZUeoIhX4UzXBx6cnOK/WGFQp++3Veh4Ll56aGZt7cyHLl1U8/LHzYFAMGLY549vbDTu19pKAl898f0f7ZDpXLqMWgkEWb//+1mXzvD/f+mcwLspTuii7CyQbJYBfGu9uwUIBQIk1QoBMu00FiBX6CtAlY6GC1CtsFQm8jqhufUDJPUOg8wIJ0GuuQdBlXGed6s1j8zcSGMhf/biZnBo+qly8IBB5ZhymeqUBeFhPbY81nqdoFZvuGKHgw44ZrttdjeUIUfMD47bb4YGT7ej0mADDFIao7wuntUVmHvEUbtl5n7LWOX7Ti8n9OHecI4EGPKhcLoVqf7g7n39t24+0H/bkd2HAAA=");
 
 export default OilCanDrip;

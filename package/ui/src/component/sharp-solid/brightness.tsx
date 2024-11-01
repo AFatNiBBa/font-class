@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brightness` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brightness?s=sharp-solid brightness}
  * @preview ![brightness](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/brightness.svg)
  */
-const Brightness: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 32l0-32L224 0l0 32 0 48 0 32 64 0 0-32 0-48zM118.6 73.4L96 50.7 50.7 96l22.6 22.6 32 32L128 173.3 173.3 128l-22.6-22.6-32-32zm320 45.3L461.3 96 416 50.7 393.4 73.4l-32 32L338.7 128 384 173.3l22.6-22.6 32-32zM32 224L0 224l0 64 32 0 48 0 32 0 0-64-32 0-48 0zm448 0l-48 0-32 0 0 64 32 0 48 0 32 0 0-64-32 0zM150.6 406.6L173.3 384 128 338.7l-22.6 22.6-32 32L50.7 416 96 461.3l22.6-22.6 32-32zm256-45.3L384 338.7 338.7 384l22.6 22.6 32 32L416 461.3 461.3 416l-22.6-22.6-32-32zM288 480l0-48 0-32-64 0 0 32 0 48 0 32 64 0 0-32zM256 352a96 96 0 1 0 0-192 96 96 0 1 0 0 192z" />
-    </Icon>
-);
+const Brightness = createIcon("brightness", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABlQAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDAAsGAAE2AiQDCAQgBYMtBzEbgQXIHoVxLCw0UqrM1x7WePj/MXff+38bZk28QdLkjWhaCilBsrTKWekkStmhEpr73+/Xzl2VBv4wt1XFvIkl6F7xKuKpMiTyzwBd8InL6c9dAbYJQxsLx5pAYywOJEts+LTO4yywTBOw1E2th4oi5isKZTA7dB5Xd5y7QI1r/jKE5AvvB3DPHxqfCLQMpN4CgBgBAOxfdLXgYepSfHOnQLyjCQTEPoA5hIKCKQS28AWmCMyBqgq6/rnwH8iAAKIJUOnhin60AR0AVJB6q0DrnHJ51giWC5UCXY3MT4g+QhL6ifS7ExMSiylBKKNEfWdSfFIpxQsllJR0yOQyJSBfkynHVIdmqn7LXjch4tALdKtxRPvB27QQtBW7J1uJ3gnYwHzgZsyuPPJIc/Qb8eP7QXibMVYOJh3Dgdd4L2p+oMPBiwJlKTrU/MCLgw551noXiMPy7EN6envbenCm2sqlbApMT6djneHcydm5IAtw+/YWGPj2arEEibbwPACBYOmr79iuLv6X9PMAH/398s8I/w8pO4AeCYKywiXDkoAkAAAZ04hMIJCeIIV3HfAIAqEPAVJTnwDFJA0CVZ9lBBpm5CDQ1OcEX1QpwgSrV6YBd8pi04yymnCsbNjyXmqaCL6hms3M/JuYo1bCNYdYRmo6K2S3bd1ie8ayXsQeO+On41gCnYXPiGGTvDz6TArFuJbqlCG1M77GFzEZUqVjCrHl3tfjOl7jJvQZMVx3KcLej8abns9OIA8PDK6qTUmkzPX5poa9ExM=");
 
 export default Brightness;

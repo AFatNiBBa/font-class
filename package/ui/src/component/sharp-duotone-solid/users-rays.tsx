@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-rays` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-rays?s=sharp-duotone-solid users-rays}
  * @preview ![users-rays](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/users-rays.svg)
  */
-const UsersRays: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 336l94.3 0 19.4-58.1 7.3-21.9L120 256 96 336zm31.8-160a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zM208 384l224 0-16-48-16-48-17.6 0-124.8 0L240 288l-16 48-16 48zm48-192a64 64 0 1 0 128 0 64 64 0 1 0 -128 0zm160-16a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm7.1 80l7.3 21.9L449.7 336l94.3 0-24-80-96.9 0z" />
-        <path d="M57 23L40 6.1 6.1 40 23 57l56 56 17 17L129.9 96 113 79 57 23zM583 23L527 79l-17 17L544 129.9l17-17 56-56 17-17L600 6.1 583 23zM40 505.9l17-17 56-56 17-17L96 382.1 79 399 23 455l-17 17L40 505.9zm543-17l17 17L633.9 472l-17-17-56-56-17-17L510.1 416l17 17 56 56z" />
-    </Icon>
-);
+const UsersRays = createIcon("users-rays", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABpgAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCdQsIAAE2AiQDCgQgBYMtB1AblwXIjsO44TuyxVK+xI6HL92/nrurr7H1zCAzYhDrpAKAMqnCFXDRvnEZglrJ7Cb+x/08//Tp93k9sC82pEjqtCrvwN0EBrobZVHRSEabKU7BbTdBTENjoXGCIo3Lj+sgPZfgyeh/AONXAz1O0jkDiB4AWLFv1xZftqOd4ofmI+IHmxEQK0EtkJExRIDFssAQhRqFQtBOTUM7mqYmgChFL8ugRBc8jbcABUgKZVH0JGira1Kr1dG12BtNqQ5NnDBxcUyIHXzuspgYO7tv37V9fCyJSbGL5C6N8dcnjZ/UOWJ7LIeuTZg44ZiUy6/tv69VtWbF4Khi977nxrw17p3Bz499e/SbA/as4cNi2HeqITFk30sT3pv0wfCXJ74//t0hR+4cOGjgjGjF3qhGvt/j/d9HOMv8d9ETd9X6bnclhVN22C3k8aHDelzwO3btKF+5wBkn9N82/JWq++67WpX2bT+3aUqj0esJKpr2Rf7vv88Dr3Q/ZS+3nWHvW+Co/tucAALBUyvGnz/WffH/nVoJ3Pr4z1/q28vmq3Rveh+dJBDkyc1kh9PDSuXOCIFFUtxpJP2o4wLZRiW6sounBQgVekhKFWSD9YBCZRJ0GGaO7OSKXbIoOgt9HEEh6eIGZHM9AIU+PoQOi30dLvWJjFEFwhS/iGnXjpE1k+oZU6fXC+vNvFYJO5nvX1SfNoy/U9dNoHOddc1VtzvjtAtuHzE3bYnd4Yq1e9gaP1SbYarpagvVt0vPtXs5e9NtLuiu3h9nkfp9z3h37reeQM1JInGmGVkmUuRemPdPuXninkKJ9vo+U/WHDQ==");
 
 export default UsersRays;

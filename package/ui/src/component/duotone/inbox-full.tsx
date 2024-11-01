@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inbox-full` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox-full?s=duotone inbox-full}
  * @preview ![inbox-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/inbox-full.svg)
  */
-const InboxFull: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M73 288l51.2 0c12.1 0 23.2 6.8 28.6 17.7c4.8 9.5 9.5 19.1 14.3 28.6c5.4 10.8 16.5 17.7 28.6 17.7l120.4 0c12.1 0 23.2-6.8 28.6-17.7l14.3-28.6c5.4-10.8 16.5-17.7 28.6-17.7l51.2 0L391 96 121 96c-16 64-32 128-48 192zm55-48c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16zm32-80c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16z" />
-        <path d="M121 32C91.6 32 66 52 58.9 80.5L1.9 308.4C.6 313.5 0 318.7 0 323.9L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-92.1c0-5.2-.6-10.4-1.9-15.5l-57-227.9C446 52 420.4 32 391 32L121 32zm0 64l270 0 48 192-51.2 0c-12.1 0-23.2 6.8-28.6 17.7l-14.3 28.6c-5.4 10.8-16.5 17.7-28.6 17.7l-120.4 0c-12.1 0-23.2-6.8-28.6-17.7l-14.3-28.6c-5.4-10.8-16.5-17.7-28.6-17.7L73 288 121 96z" />
-    </Icon>
-);
+const InboxFull = createIcon("inbox-full", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABkQAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCMwsIAAE2AiQDCgQgBYMtB1AbVQXIjsPGMR1p0hLGYzx8+fP13N0n+VtkpGdkDDKVSRXuuEqLGreZVJmUHiUzw/vEuXi389EAi3gzmkXUR2nVeeb5C7xYcdoDp9CbvoG9/TafsxjkcwYR+aOTsdB8oe0ERfyW71chvZLgKfc/gPGPQe4n6Z4BRE8ArNy/e6vv29FO8WvnC+JXWxAQq0ApkJExVIAlssBQhRKFQtBOnQ7t6HRKAogqPnYGVXTDLXgAUIAkyUUxatDQZrNeaRb76pXa4Uf7Rrw/cE88T7wy8ZOxzfho8mdDIu7pvy9eHfdiLc1Gc2/UHuQGxstjVPzDwYOne2qxf3+9Vv9g0Av9XhlbP8cPGRKvja9HrhGvDw2x7S8NqKhe6Pd831q82H//zaM+7fnpvyOd4+a3BlygsXfBeQO6jqj16vX23d6O+doRXQMmtXsbFwa0VrR4bPp3Zptx9+/unnGz8unkzKZiG96aTdoTXXFFvOU7tF7Vare1W9EesV0Db/O4HwgE5bKP9h3vseT/rnoC57/8P/yQdNpJ+hRdEgjylM4URxJIBAAgxY1GJdgokC2W8VMbXhQg1BAgqaoJkA3RU4BCzWQBKoabK0BVzW5ZFN2Fvo4WJGm4BsnmuQMp9PU5UrHED4WqvpFFkBcg/g8wZV0Lrt1Wzpw2o1xULtuyIFWsWV9cHjsTbtRjE3HQOVe50vXOOuMS1zfwtbaWb3CFdTtorS8qzTTNDKVFyte9x937nHWt61ziKlfaTRYrv09PcON+9kT4CUlnOZplIkXufcmVp666eepdNaYK83jfXrq3AA==");
 
 export default InboxFull;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bullseye-pointer` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bullseye-pointer?s=sharp-regular bullseye-pointer}
  * @preview ![bullseye-pointer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bullseye-pointer.svg)
  */
-const BullseyePointer: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 464c114.9 0 208-93.1 208-208s-93.1-208-208-208S48 141.1 48 256c0 5.5 .2 10.9 .6 16.3L1.8 286.1C.6 276.2 0 266.2 0 256C0 114.6 114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256c-10.2 0-20.2-.6-30.1-1.8l13.8-46.9c5.4 .4 10.8 .6 16.3 .6zm-2.4-48l14.3-48.6C324.2 361.4 368 313.8 368 256c0-61.9-50.1-112-112-112c-57.8 0-105.4 43.8-111.4 100.1L96 258.4c0-.8 0-1.6 0-2.4c0-88.4 71.6-160 160-160s160 71.6 160 160s-71.6 160-160 160c-.8 0-1.6 0-2.4 0zM0 320l272-80L192 512l-48-96-1.4-1.4-96 96L1.4 465.4l96-96L96 368 0 320z" />
-    </Icon>
-);
+const BullseyePointer = createIcon("bullseye-pointer", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABhAAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCLAsGAAE2AiQDCAQgBYMtBzcbMwXIHomxrYbtiziYTK3cEVS20J69EwCfABgimSHicwiAIoiMqUuhQ/v7fT3Ed8HCT1xTP86rKJL8UaI2S32Q8lHH+QQGONvNooEGXGAznYBtdzaCJdrh0VqKJMe3z+1wgjw+jcdVIb2QruCx8qHxjxYukVTJAER9AIxfunC2r/6MPyN+rbxP/GomAmI8KAQyZGgtwCiZQGu5Arlc8GdUKv4/sCCAqIqeLoEcVbAHjwBykGR53rtLo1pV6uRLalWpufj+wojbS+8tuLXkzrwbi841GRTPxv2J3869vvTu7Kvjv158Z9xXs64suty0XTxTq23HouOHPd9p92qPcsh73d5qPSnOu3vvj/1y6d3Rny++M+qzRZfjcizZuG7jslgSTWNRjImldrclHcr65YNd2XJFpd7SKCljKRTLEotR8vrq1R5oW8/U5i2eOD81C84/0aJ5IKvq/fW7fdXb3aBdX/sXter9r5pRhxAx8cqViRWNK1c8LoTC/7e23lzLGPVdi7XQb4BH9AUCwb6x5d619Ub9W71WAn9/AvwVVb5KUonqEgiyXpVeViWQCABAiiM6JAgkW2Qoq+1ZcTKriYhRVTUhy7RSn9VcTT3VKtoafEJVNS2UibyG0NhqrCa17VczQ5xWc429q1Yxyo9xVY0jUz9PebzHX/kpEp68qujfp18xohg2NF+jnLQ4slgudjsSBrrDVlvstcchm22y3SFBHTA7O2y3KTNksi8q9NdHP4URiu32/eYlNjvgoO322pOXGak4H3VzZD6+O1QSMh2gJklEqv/bbXZw8/HNve8AAAAA");
 
 export default BullseyePointer;

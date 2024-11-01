@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `window-frame` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/window-frame?s=light window-frame}
  * @preview ![window-frame](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/window-frame.svg)
  */
-const WindowFrame: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 288l0 192L64 480l0-192 176 0zm32 192l0-192 176 0 0 192-176 0zm208 0l0-416c0-35.3-28.7-64-64-64L96 0C60.7 0 32 28.7 32 64l0 416-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 32 0 384 0 32 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0zM448 256l-176 0 0-224 144 0c17.7 0 32 14.3 32 32l0 192zM96 32l144 0 0 224L64 256 64 64c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const WindowFrame = createIcon("window-frame", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABaQAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBXgsGAAE2AiQDCAQgBYMtBzMb4QQRFZs3yH4kZGc0t4qamrxpqFSsYvvhSDz8/5p535/Jwp8Ckq0rSwDU1fUErKKLc3xJuGTXltTqBIBR28IT8aZvxK1Co9Jopq/tY/eQf/4v9/yeHx3gNzq0sRbI7eezOZ4nEODYnieUBZZpABxL1s0/Tw0pv+XlRUkathvWHlDGx1ikQbqXvuFKe9P4bbyTJGUBIIYBYOWOLevU7WhHfOv8xDdrEBCrwDSBAgUmCbBEITBJaRpKpaAdnU76D4QAoov9oARKdGMzdgFKkDTKsrd38uAhVWNwub1q5B1CjohqW4gqRK6KVNxf8H7OoHg57+24FDlujro1uhp8Z+ztMXl7rnJEFRdG3+JwlSuRI+LY2DvVjPfD3v+d/q375v+Tuq6bas2pX1359RTFPHz40xWe6rH81DDtIUPaw36JM7X1xM62q4acPTukPtC6KnFbUx2fBwLBqS9Hvh4YumSgp0qg/8P/gf416tSM9B49EgiKRZ1FexNIBAAgxVEzEgSS1RrsVQe5LUDICJB0yQIUJhomQClbKEDDFIsF6JJtUYiyVyCIegCG6ARYgQfgEB/Ay/wjAQmWVwQriF9dbKFQvg22YSHBsuUkVbCynuJYle55TMZdqtu3a9uM14Ccy/S2Fjs4/yDYDBZI4Lr3fL1qz5dx3+omKbwPJff9bBkGw1AdJQaDopNIR14nNQAA");
 
 export default WindowFrame;

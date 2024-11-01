@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `photo-film` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/photo-film?s=sharp-regular photo-film}
  * @preview ![photo-film](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/photo-film.svg)
  */
-const PhotoFilm: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M240 48l0 256 15.6 0 69.1-94.2L344 183.4l19.4 26.4L380 232.4l56-85.6L456 116.1l20.1 30.7L578.8 304l13.2 0 0-256L240 48zM192 0l48 0L592 0l48 0 0 48 0 256 0 48-48 0-352 0-48 0 0-48 0-256 0-48zM136 128l24 0 0 48 0 88 0 112 0 8 0 80 192 0 0-80 48 0 0 80 64 0 0-80 48 0 0 80 0 48-48 0-64 0-24 0-24 0-192 0-24 0-24 0-64 0L0 512l0-48L0 176l0-48 48 0 64 0 24 0zm-24 48l-64 0 0 64 64 0 0-64zM48 464l64 0 0-64-64 0 0 64zm0-112l64 0 0-64-64 0 0 64zM304 80a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const PhotoFilm = createIcon("photo-film", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABgQAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCVQsGAAE2AiQDCAQgBYMtBzEbVgXIhofn57489yVDyTJkVwFlkdERFlmosS2rcQUUEklV0Z+4pn6URYP8IgmGFlUg5RF5vvPhRIeRuPPhbDibKG5x21XTj1pojJA4Qx7/xDOaSK+mz/B0+ND4TX93SZoyANENAAu2bVqj4+v4OuLTxtvEp1YhIBaASiBDhkECzJYJDJKrkMsFX0ejIf4DKwKIZun1CeRow+N4EZCDpCXPB3Yf2dbW1rNs6pxvLZuKXSlLZWyL0TEyRpKDtkQZWXSaWxadRQpRdIoREZuB0p63yogoSdueZJRruKeYdW0/TEcU9vq0XY/3jnjRzV4vFI/1eSlu9X25HN7erf2PYZ8d/cxfT6ObxXuMympNpm02966jb+iM/Y267qhRq5+pUU+70S9dUtvuvFbrdVivtt78ItXqr6Aq1JiPXXJ83tDGf56VNbp2ecjDLqpN6AJx05of89jXdfbfrWUC337w11/+cY2OdDO1o1UCQTamMcbudBOIcQCFFFcN3/iiQHJHi/SunbwkQCgQIGlWCJAZqJsAucJoAZoMMUWAZoVNMpG3Cb3s6eSkkwtyZqprcq6XN+Ums32Yb9YrMpC0ApT1jzDX0iG8ZFc1YVxdzaxW2xoblJnt+qzqcGjEVTk2Eu911DlnXXbEYSdcHvAXrSldccbSLXKJH6pMME6tMlN1uffUtZUWLrrkxLL9+iazVM/nRri6PXskjibJ5EQ1SSJS8TW4x77TAAAA");
 
 export default PhotoFilm;

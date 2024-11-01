@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-list` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-list?s=sharp-thin trash-list}
  * @preview ![trash-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/trash-list.svg)
  */
-const TrashList: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 0l96 0 4.4 0 2.4 3.8L300.4 64 416 64l0 16L0 80 0 64l115.6 0L153.2 3.8 155.6 0 160 0zM281.6 64l-30-48-87.1 0-30 48 147.1 0zM448 128l192 0 0 16-192 0 0-16zm0 128l160 0 0 16-160 0 0-16zm96 128l0 16-96 0 0-16 96 0zM64 504.7L31.3 112l16.1 0 32 384 257.3 0 32-384 16.1 0L352 504.7l-.6 7.3-7.4 0L72 512l-7.4 0-.6-7.3z" />
-    </Icon>
-);
+const TrashList = createIcon("trash-list", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABagAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBcgsGAAE2AiQDCAQgBYMtBzEb8wQRlZpHyH4k2La41h2URguoDAPDBW/i4fs53s59yaekkBKnAIiLjkAR2XUMwhdsZ+UqDICqfZ+43PmfPz3gsn96kUcby+bWscJoToHOOw/k441RgWSBJYrtrloyLcUePtISI+mvdo/nnSGPvw9oIL2R/sBz6UvjsW6eJMkyAFEBYO7m9St98yAeRPz+P/G75QiIuaAWyJChpwAzZAI95WrkcsGD+P9//A+sBRCN+FkJ5GjGFhwC5CBpzPMuLVzrVDa0zjeV1mJ7WZSdYm6UIVpFkD0/umBz46iRo4oYQeSyKEURIdko4Fuj3LNt67Yytkbr2B5lbImOUbTq3O+T6pM/+/5x6A9vfr1nz4H+lrug8pbKBcv1l1+dfZ8Jm9330vuzv8FWvlHdeYtZsHffrqB7j8qe+1fqZ31Hpc9tieSKeJlGTV0agUDw3T+X5u9uO+Ov5jKBR599LD/8/zfpTvoEzRIIshH/j9iR7gDiA8hSXNJPOWIgWeO1PrWVVwUIBQIkjQoBMj1UAuQKwwVo0NtEARoV1stE3iJ0tLPBSStn4cwkN+FcR5/CDWb4OW3UMTILY+2D/b9LUosksPBQPXbUmHpaPe2pnNHQcXd6va0MuRRmhkKrQ6dPXTh44OgFAZ1bWVw8uUgDF/6wHjtqTD2tPh7eS5tcdu780TF3vs/0+n4w5JK+fCjoCVOOO5EkIhUXzu09f2TkNwoAAA==");
 
 export default TrashList;

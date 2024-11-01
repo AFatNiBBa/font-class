@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-minus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-minus?s=regular octagon-minus}
  * @preview ![octagon-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/octagon-minus.svg)
  */
-const OctagonMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M191.5 48.1c-6.4 0-12.5 2.5-17 7L55.1 174.5c-4.5 4.5-7 10.6-7 17l0 129c0 6.4 2.5 12.5 7 17L21.2 371.4C7.7 357.9 .1 339.6 .1 320.5l0-129c0-19.1 7.6-37.4 21.1-50.9L140.6 21.2C154.1 7.7 172.4 .1 191.5 .1l129 0c19.1 0 37.4 7.6 50.9 21.1L490.8 140.6c13.5 13.5 21.1 31.8 21.1 50.9l0 129c0 19.1-7.6 37.4-21.1 50.9L371.4 490.8c-13.5 13.5-31.8 21.1-50.9 21.1l-129 0c-19.1 0-37.4-7.6-50.9-21.1L21.2 371.4l33.9-33.9L174.5 456.9c4.5 4.5 10.6 7 17 7l129 0c6.4 0 12.5-2.5 17-7L456.9 337.5c4.5-4.5 7-10.6 7-17l0-129c0-6.4-2.5-12.5-7-17L337.5 55.1c-4.5-4.5-10.6-7-17-7l-129 0zM184 232l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const OctagonMinus = createIcon("octagon-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbgAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBcQsGAAE2AiQDCAQgBYMtBzQb9QTIhqBe92XPk5akY9Ax09/ojiMwcWwOgTgIt5xiZKd/4nL6Y9nTAy7yRxtjNSwaE2jO8wQSa1veJdoFlmkC1tuGjRySOAuxIItoTMdr9IA8PorHNZBeSD/jMf7Q+FNv90gaMgDRCQCLdmxZ5/O2aIv4qf4O8ZM1CIhFoBLIkKGfAHNlAv3kKuRyQVvU6/k/sCKAaCRvnECOHLtxApCDJOX50g5lQ/t8e9lQ7LnfbWs8TdzqPjfe6BPx0pgd8eaIMl4etS1e7y2eH7k1XhtaxCujt8eC2BbPlGU86LkjnouI2z22x7NFsbUsypd7P7/wgj4vjRj8Rqc3/h708/GfffZYcby11fHitpYTnUxtd1v7qR2x5Hf/8yWVmNrebEfA59DvlU5aa8terZaIEy2c4nitVS1reu9x6drUvfumx/HzQCAoD0z6+kDHuf81lwn88eG//+PPSP3zJL2BZgkE2dj6WHsTSAQAIEXN4ASBZLNE7rXzrAChQOmkUUFn+upE5wpj6AYDTLvfqLBFJvIWoZt9SiftXKIz012nc928RTeY67tqo26RBZgUHtL7Ln25hZcdqiaNn1jNrqY9TY4ZgXbnVNv+yBrOjIKzjrvgvKuOOeqUq4a6bF3jmnOWe+QyX1SZZLyJKrNVx8PH49sdc9kVp1xwvuwzR3W/PFLNXz4KokR4J7ubJCK1v3Dk6qETF86P+5feuAIA");
 
 export default OctagonMinus;

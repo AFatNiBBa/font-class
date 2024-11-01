@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `explosion` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/explosion?s=sharp-regular explosion}
  * @preview ![explosion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/explosion.svg)
  */
-const Explosion: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M312 24l0-24L264 0l0 24 0 48 0 24 48 0 0-24 0-48zM24 464L0 464l0 48 24 0 528 0 24 0 0-48-24 0-162.8 0c-10.8-45.9-52-80-101.2-80s-90.4 34.1-101.2 80L24 464zm213.4 0c9-18.9 28.3-32 50.6-32s41.6 13.1 50.6 32l-101.2 0zM32 336l29.5 48 29.5 48 56.4 0-29.5-48 10.1 0 53.6 0-5.9-53.3-4.9-43.8L198 304.4 252 339 270 277.5l17.6-59.9 10.2 35.6 24.9 87.3 58.1-69.7 54.6-65.5L401.8 322.8 384.4 384l63.6 0 10.1 0-29.5 48 56.4 0 29.5-48L544 336l-46.1 0-10.3 0L448 336l13.7-48 49.7-173.9L544 0 468 91.2 381.2 195.4 344 240l-16-55.8L312 128l-48 0-25.9 88L224 264l-42.1-27L164 225.4 112 192l6.8 61.5 3.8 34.5 5.3 48-39.6 0-8.7 0L32 336z" />
-    </Icon>
-);
+const Explosion = createIcon("explosion", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABgQAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCTwsGAAE2AiQDCAQgBYMtBzAbTwXIHoVNWTf2SdtqR+wJ2tHx8P3ao+e+3f8neRuGDRI5BkcgkwKRAlJxBVJVBKpT2Ynq/GT++u6Qd5T+E9fkvz//Pk9+gkeJtlokRwN1COx8oLPNmyDLJoozbzlpSWS/JMmapF/fPX7RAsr4Me5pkJ5KcDdfafyjt5skjQJAdALAoh1b1rn/W/wW8XXrQ+JraxAQi0AtUKBAPwHmKgT6KdUolYLfotWi/8CaAKKJTzCBEk3cweOAEiRlWXbu3txSNdqX26tGPhQihxCiiojYn6ssqo4ROT8/+u3pH4x8s1+unpnxYe+8fdz4ceOiivFRVYNjQIyKdTHFk/1jW+wIbo2JYmJsVDEB0ZwHCgKQuTHYzHVav5gdw2N9DIr+mJEHv93p7X85yIw3enFsol6iZ+DHAzAy75Xrr722cSPyr7/yw/l/1bpyftzvzfS9PH2rNV60WT99PazXDrOWmbZIfUE/C/P3ZvrV98ZP/tXE99RnrNlt+yFrPfDARL13+NXT+prohEk2GAkEguZ7f6+Oc/9rUyXwx2dVtte6nxamt9FGAkExtjXW3rQQiBtAKsVFg5UvCiRXlHhX23lcgJARIGnKAhT66iRAKRsjQMMA0wRoyrYoRNlW6GZfY5N2zrCF6S6xpW7eZxvm+jzZ1C0Ke1SsSXkOZi7vwWWT6knjJ9az62lJVU1MSqNz6mV75MXQMgpzHXTKSecdsN8R5zvirHWZC05YrkHL/FBtkvEmqs1Wb1cfze0uddY5R2R1fxxz1OejI13Uu4+CJ2HeyQqSRKS2XzSkOwAAAA==");
 
 export default Explosion;

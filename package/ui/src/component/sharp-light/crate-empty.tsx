@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crate-empty` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crate-empty?s=sharp-light crate-empty}
  * @preview ![crate-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/crate-empty.svg)
  */
-const CrateEmpty: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 384L32 384l0 96 448 0 0-96zm0-32l0-96L32 256l0 96 448 0zm32 0l0 16 0 16 0 96 0 32-32 0L32 512 0 512l0-32 0-96 0-16 0-16 0-96 0-32 32 0 448 0 32 0 0 32 0 96zM64 304a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm368-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM64 432a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm368-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const CrateEmpty = createIcon("crate-empty", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABcwAAAHkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBcwsGAAE2AiQDCAQgBYMtBzIb9QTIjsO4sXvmFpuyRBCtldWz+wC8iQJmBUwuLp5A2LchdCw8WQJ9+Y7PP3FN/m97KpAif5TojUrTKmyjqBQY4Kxxvpt4+kwnYLPf3HMIinxvEEXpISQSDVtv2LpCHk9jlDLSnfQBl/KDxlddLpLkGYBoBMD8DWtWe/UpPkV8KN0nPliJgFgACoEMGXoFmCUT6JUrkMsFn6JUsv+BBQFEOd4vgRxV2II9gBwkFXleVdVXxXBNWV2+vuZW76mtqxV1gZCojcnUCIDF6trApZo6Yfetjhtt11tvtu9p0rX1Tr976GDj4PchH/Z/8HHuKwp3emVnsdP1ynQVjfjcToXiU2GnRiLr5dj6T5/qC36iQYtjTlxabwcCwf0VvaNh1v/KmgS+PPG7/4yUXiVpEJUSCLJRpVG2JpAIAECK84YmCCRrVODFWjcFCNUwbFKums30aGRz1UayZfpNVg4vrJGJvEpotQ3YpNYpNjPFBTbX6i5bZpbX0XKtkWmYph/aD172Egkt3laMHzOumFHcFgxdaZQwOLM4dg077xqG46j9TjjurH32OuSsIE9bnTjnmCU7YrEvKow3xjiFGYrH5df96+1z2hmHnHA8bTJT8b5vmPP79sPhTSg6QX6SiFSzR5Wdoz90AAA=");
 
 export default CrateEmpty;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vihara` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vihara?s=sharp-duotone-solid vihara}
  * @preview ![vihara](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/vihara.svg)
  */
-const Vihara: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 448l64 0 0 64-64 0 0-64zM96 288l64 0 0 64-64 0 0-64zm64-160l64 0 0 64-64 0 0-64zM288 448l64 0 0 64-64 0 0-64zM416 128l64 0 0 64-64 0 0-64zm64 160l64 0 0 64-64 0 0-64zm32 160l64 0 0 64-64 0 0-64z" />
-        <path d="M320 0s-96 80-176 80l-16 0 0 48 24 0 144 0 24 0 24 0 144 0 24 0 0-48-16 0C416 80 320 0 320 0zM138.7 208c-27.7 20.8-61.4 32-96 32L32 240l0 48 576 0 0-48-10.7 0c-34.6 0-68.3-11.2-96-32L480 192l-320 0-21.3 16zM96 352L57.6 380.8C41 393.3 20.8 400 0 400l0 48 640 0 0-48c-20.8 0-41-6.7-57.6-19.2L544 352 96 352z" />
-    </Icon>
-);
+const Vihara = createIcon("vihara", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABjQAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCVQsIAAE2AiQDCgQgBYMtB0gbbwXIjsO44TuyxVL+4+H/dWb3fWmcjBwGhdhBxo54iStA7gCLds6WXG3tUmX+n2s+vyo6wE9ydu9QetU6bx138AQGPkrrJJjNFKdtmoeggyAZhIcXG0Q6bL1h6wLyNCi7oYH0TIqH4v8Axl+6ukHSmAGINgCYvXHtct81RVOKX+ofEb9YhoCYA0qBDBl6CDBNJtBDrkQuFzSlep2mqNdLAoiK+MgMVNACt/E4IAdJplmed+/QthGxakPLfEPatTj4+OCI1yZFfDauCFFtGVHEJ1O+GPpGp3WfFTPdOkbfmzIwWkT/dZOmTnqt8KqQQ6fEq9WiivWPjQXfjG+VXv/hvm+0eeOfPg8081sv8sIZzl5po6bLoZo2rpw988KLPvr93fFVNbPUVI1/d6VZVg59aBsmPVrWXFFTPrrNd2Yhwyyzej9biZnyyzMtUuD4fCAQXO83c9HO1tP+b15N4I8v/vszb6/+XbqSoLkEgmx4fbht6Qq4PgHJFBf0JV81SyAzSzMyr4UnBQgFDZKKAjLdtYFcYRg06GX8/IrCWpnIG4UOthtIWjgNmQkuQq6DD6HBNN8nKjpEppOmRpm/hDkXjMj8YeXokbVySvmYVS0100P31PI4OPiCrxoiYx1w0gnn7LfPYecG8Yzl6fOOW8CE+X6oNNpINaUpyuvCq3ODTZxx1uG9/X6Qqcr3o4Nd4I2HSCSB4hjzMxmRImt14fCh3Wd2j9Btb5ve/hEDAAA=");
 
 export default Vihara;

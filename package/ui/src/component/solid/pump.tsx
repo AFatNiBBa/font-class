@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pump` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pump?s=solid pump}
  * @preview ![pump](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pump.svg)
  */
-const Pump: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 32c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L160 0c-17.7 0-32 14.3-32 32zM32 176c-17.7 0-32 14.3-32 32L0 384c0 17.7 14.3 32 32 32s32-14.3 32-32l0-176c0-17.7-14.3-32-32-32zm128 48l-64 0 0 160 224 0 0-288L160 96l0 128zM431.9 106.7L380.5 141c-17.8 11.9-28.5 31.9-28.5 53.3l0 219.5c0 21.4 10.7 41.4 28.5 53.3l51.4 34.3c10.5 7 22.9 10.7 35.5 10.7L576 512c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L467.4 96c-12.6 0-25 3.7-35.5 10.7zM448 208c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16zm0 96c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16zm0 96c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const Pump = createIcon("pump", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABigAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCTQsGAAE2AiQDCAQgBYMtBysbSAXIjtRG+UVWEg8fc/95bpJPecuQv8zkgMltCVzZsaulN7WdSoKqfZ//az6/d3x0gJ/P5AyqqNIXTcPM5xPY82qLpk1kNpxNFGebTfc4YaPwEzGaxCYhPV7h49cZsvg7PaOC5GHyDa7vHxo/a+kMiZoUQDQAwPilC2f7rBzliK//R3xtJgJiPCgEUqRoI8AoqUAbmQKZTFCO///Hf2BBAFFJX5iADDW4gBuADCSqsqx587rt6lKoVFE3W1L3z1eeaBpxt1SKy83vx8lm9/I8LjW5YxGlRNwhVgQoyMEnL85LuShFGnnYOGvurFfaiKfdZ4fnvOz5eus0HvV4rYtkL77fvBR3m95pMuC718xeHV5r8Novtd9s+cbx5/UucKHeCycBCkzX116fwe9wbB/vO06nvlBWeOFE/UO1tM/7vhPv1fqr8W4vGjbMC/mx/MVujf+qv6leeZ1yPWpt3fA8EAhaf1zv27X1R/1aXUrATx/8Y3vc/58lJ5LXUC0BQdrr/15WJSegYAOIJnFEB+eLAokTqui71nFPgJAjQKJSLkCqtQYCZHI9BajQzmABKuUWSkVWIzSx+gKJOvaD1BBHQaaJ90GFUT6PVGoSaToyycT8DSZOsdDkQUX/Pv2KEcUyp7MZRrXekcVjpdsRqenOO22x1x6HbLbJdocMesDs+GG7TfGQyX6o0F8f/RRGKMLF7+ISEz3goO1zLt7PSMX7QTdH/ObdeRgJYMCHpCQzkmzf4d37AA==");
 
 export default Pump;

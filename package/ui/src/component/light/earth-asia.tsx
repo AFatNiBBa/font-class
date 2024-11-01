@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `earth-asia` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-asia?s=light earth-asia}
  * @preview ![earth-asia](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/earth-asia.svg)
  */
-const EarthAsia: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256c0-91.8-55.2-170.7-134.2-205.3l-22.3 55.8c-4.8 11.9-15 20.8-27.4 24l-17 4.3c-5.6 1.4-7.9 8-4.5 12.6l16.1 21.5c10.2 13.6 10.7 32.1 1.3 46.2l-10.7 16.1c-10.4 15.6-27.9 24.9-46.6 24.9l-2.3 0c-5.4 0-9.2 5.2-7.7 10.3l6 19.9c7.4 24.8-11.1 49.8-37 49.8c-16.8 0-32.2-9.5-39.7-24.5l-9.3-18.5c-2.4-4.9-9-5.9-12.8-2.1l-15.4 15.4c-9.5 9.5-23 13.6-36.1 10.9l-42-8.4C62 407 150.5 480 256 480c47.4 0 91.4-14.7 127.6-39.9l-8.5-6.1-10.6 3.9c-27.7 10.3-58.6-2.7-70.6-29.6L288.4 396c-11.9-26.5-1.5-57.7 23.8-71.8L348.4 304l6.1-9.5c9-14 24.4-22.5 41.1-22.5s32.1 8.5 41.1 22.5l1.9 2.9 15.7-4.4c7.5-2.1 15.4-1.9 22.8 .4c2-12.2 3.1-24.7 3.1-37.4zm-11.6 68.4c-1.8-.9-3.8-1-5.6-.5l-15.8 4.4c-13.4 3.8-27.8-1.7-35.3-13.5l-2-3.1c-3.1-4.8-8.4-7.7-14.1-7.7s-11 2.9-14.1 7.7l-6.1 9.5c-2.8 4.4-6.7 8.1-11.4 10.7l-36.2 20.2c-10.9 6.1-15.3 19.4-10.2 30.8l5.5 12.4c5.2 11.5 18.4 17.1 30.3 12.7L372 401c5-1.9 10.6-1.1 15 2l22.4 16.2c27.3-25.6 48.1-58 59.9-94.5l-.9-.4zM315.6 40c-19-5.2-38.9-8-59.6-8C132.3 32 32 132.3 32 256c0 6.4 .3 12.8 .8 19l53.7 10.7c2.6 .5 5.3-.3 7.2-2.2l15.4-15.4c19.3-19.3 51.9-14 64.1 10.4l9.3 18.5c2.1 4.2 6.4 6.8 11 6.8c4.5 0 7.7-4.3 6.4-8.6l-6-19.9c-7.7-25.7 11.5-51.5 38.3-51.5l2.3 0c8 0 15.5-4 20-10.7l10.7-16.1c1.9-2.8 1.8-6.5-.3-9.2l-16.1-21.5c-17.2-22.9-5.5-55.9 22.3-62.8l17-4.3c2.5-.6 4.5-2.4 5.5-4.8L315.6 40zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm163.9 88.5l32 8c8.6 2.1 13.8 10.8 11.6 19.4s-10.8 13.8-19.4 11.6l-32-8c-8.6-2.1-13.8-10.8-11.6-19.4s10.8-13.8 19.4-11.6zm84.2 3c-8.6-2.1-13.8-10.8-11.6-19.4l8-32c2.1-8.6 10.8-13.8 19.4-11.6s13.8 10.8 11.6 19.4l-8 32c-2.1 8.6-10.8 13.8-19.4 11.6zM366.3 143.2l-16 32c-4 7.9-13.6 11.1-21.5 7.2s-11.1-13.6-7.2-21.5l16-32c4-7.9 13.6-11.1 21.5-7.2s11.1 13.6 7.2 21.5z" />
-    </Icon>
-);
+const EarthAsia = createIcon("earth-asia", false, "data:font/woff2;base64,d09GMgABAAAAAAOAAAoAAAAAB2wAAAM2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSyELQsGAAE2AiQDCAQgBYMtBzEbLgbIBuL5vKreT1rpMTIAV5COAE+7Pf/XfH7AB/jFzw+lgjK5PGpZzycwwaD0vYHvgIY6ABrrxrnRdkLbx1X7fQBdTkgqFlDL1E1gTtop+UgwE0GhawAAiBcAAFCuSYNanH0mz0Ruug6B3KQGIABSHgATATTIh3FlgJJoiHeLjgno6Ag8E5cLmv9AEwQAxEr+VgoAHXAAP0EsAIAOgMKm6/Wic0M93D2cFne9sdNidHhcXuR89UxZGhsrC/2DZVmQn2yNNaZL/RbGbg4JkcV+frIwPl8e1brV6EmdAPHEjfE6rMssD12RUEIChVmbgv1htMR/hTR05Dca7MXG9DWiXyHCkbUsIcG7Kk7O5AQ032xcrHo1c6851r+SzAjEXNzac8GyyLkkIESWBy5JcMoSDcaRu/MJ8LKctk8qiFyoc8c5o9atcucaPSx7tubN8Hjt2+XPN24UFx+3yG9hQLwsDvS4RrUYKh4miEHihU2CQoMaJvx10du9tn+Outn5Jk/PUCkPKh1vQr88jQlVfvPm8R5sZzXGBjWgwu5dmWsvj6dxx/98qbAE3+qr99SlCoMnsYDGBQkLWzCwQYfkHLryaO3c1968ZP/6KF9nBS/zJw3P+VDF4ajSlfwOOTjb12B+Xjz9O7ZhcQBLQq9EPgtPPX/Pw7A3R4/6yr/o6PnziLe3tV35qt1lNfYOW0NszG/OtW9fWSPTt1GJJ1RyQPCBcxUqnDsQ7KAS38vMDU3/5rc8iKj1/C8P00u9aKAeRoyh1osHTfh80E0XzIy8dLmVi56P4PMAIIBAq1vZJdp4lvxtdyoAXhz/+tv7GuE6q1DbATsKAAEt1ZVKSwWAAgEAAACUDCZaAQig+IgN1FU3FiMACAYgACisGAgAGqF4IQDoGKQgAFiIIA8BwIpBAzREdyD40WoCCjf6AY18RgEdPw4ACyW5ElnxE+32p25e6u8zvjIPVTpkZqVnmsWmsWeg72gi2i1hLpYSB3szSfAknelDbwbSiY50YyAH96dWOoheVLYhK33WJIt0MjEpxtw8XOYbc1Z/BniEntm+TwnM471EBtuXJ0FVkaNmU1IoEGU8U0LaFwQ=");
 
 export default EarthAsia;

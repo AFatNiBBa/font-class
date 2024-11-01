@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hourglass-clock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-clock?s=regular hourglass-clock}
  * @preview ![hourglass-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hourglass-clock.svg)
  */
-const HourglassClock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48l8 0 0 19c0 40.3 16 79 44.5 107.5L158.1 256 76.5 337.5C48 366 32 404.7 32 445l0 19-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l306.8 0c-18.3-12.9-34.1-29.2-46.3-48L80 464l0-19c0-27.6 11-54 30.5-73.5L192 289.9l64.5 64.5c1.5-19.3 6-37.7 13.2-54.7L225.9 256l81.5-81.5C336 146 352 107.3 352 67l0-19 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 0zM192 222.1l-81.5-81.5C91 121 80 94.6 80 67l0-19 224 0 0 19c0 27.6-11 54-30.5 73.5L192 222.1zM576 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM432 288c8.8 0 16 7.2 16 16l0 48 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const HourglassClock = createIcon("hourglass-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABhwAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCPAsGAAE2AiQDCAQgBYMtBzYbQgXIjsQ4JvGLKEzi4ctm+X7PSLU3OtbuAfYhoxEyoAgBIqIYVU5dDh0r7d9D5v9yz8/WAvx8BIe2hx7I7awXzSnQ80DDfNPCPAuzRLHdaYdRSnscYmmW5PhWOy4HKOP3uEuN9HD6EXfWD41/DXQzSa0AEL0BsGLfri2+akUr4of2+8QPNiEgVoAsUKDAEAEWKwSGKGWUSkEr2m38D8wEEHUEJy8vUcc1uB1QgqQsy/m9BjcbtR7l3katOvTcgIfHNEI8vWRP7I7PsqhivbxHvDKxiognJ+2LPfHo4KWxL74cFdGIFwc/Mrb7nr0lfGXYfC/x2PjdJ26YGvHGwk+qW+Z/NPk11095fcHHjVsXfTrtzdh7f5doRHvqfZ1VPNAv4sH+I1/p/cp//Xj2R/2/3NHVtaNDU8/Ptm+3fYdPezZ1EHbM8u7gnzRVf8bG5csMeelTuvdZ9re/KEp00V9VU0tT9fOO7dfdPS6Tm33Hju3bzHkca8OmO7e1ek6XNapna7q/XLodCAS/PefrY70W/9/RSOCfTxau1/4qLU+voEMCQTG5PdnhtByAH0CW4mojlS8KJFcp0bt294AAoUKApK4SoDBYbwFKlUkC1AwzR4C6yi6FKLsJnY4MkHR3GSjMdQ0odXoX1Cz2TVrXGYUZykYkfwIz1nJozbY8Y+r0vDBv27piWWJZX5SPg/FXp7EJsNdZl7jYlc447TxXMu5yW4qrXGStRqzxQ9kMU02XLZSve6/GXpZd7grnycr9JhbJ75PxrtZnT4A4IcGZWpJEpF5OJnmdNcVvAQ==");
 
 export default HourglassClock;

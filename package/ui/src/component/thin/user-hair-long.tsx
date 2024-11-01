@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-hair-long` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair-long?s=thin user-hair-long}
  * @preview ![user-hair-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-hair-long.svg)
  */
-const UserHairLong: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M336 144l0-8 0-8c0-5.4-.4-10.8-1.1-16L312 112c-22.1 0-43-10.2-56.6-27.5L251 89.9C231.2 114 201.7 128 170.5 128L112 128l0 8 0 8c0 61.9 50.1 112 112 112s112-50.1 112-112zM292.4 39.3L265.8 71.8l1.4 1.8C277.8 87.7 294.4 96 312 96l19.4 0c-6.8-22.8-20.6-42.5-39-56.7zM113.1 112l57.4 0c26.4 0 51.4-11.8 68.1-32.3L279 30.4C262.7 21.2 244 16 224 16c-56.4 0-103.1 41.7-110.9 96zM390.4 244.8c-20.6-15.4-36.1-36.2-45.2-59.6C328.1 235.7 280.3 272 224 272s-104.1-36.3-121.2-86.8c-9.1 23.4-24.6 44.1-45.2 59.6L53.3 248c-3.4 2.5-5.3 6.5-5.3 10.7C48 266 54 272 61.3 272l58.7 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-58.7 0C45.1 288 32 274.9 32 258.7c0-9.2 4.3-17.9 11.7-23.5L48 232c30.2-22.7 48-58.2 48-96l0-8C96 57.3 153.3 0 224 0s128 57.3 128 128l0 8c0 37.8 17.8 73.3 48 96l4.3 3.2c7.4 5.5 11.7 14.2 11.7 23.5c0 16.2-13.1 29.3-29.3 29.3L328 288c-4.4 0-8-3.6-8-8s3.6-8 8-8l58.7 0c7.4 0 13.3-6 13.3-13.3c0-4.2-2-8.1-5.3-10.7l-4.3-3.2zM16 483.6c0 6.9 5.6 12.4 12.4 12.4l391.1 0c6.9 0 12.4-5.6 12.4-12.4C432 402.1 365.9 336 284.4 336l-120.9 0C82.1 336 16 402.1 16 483.6zm-16 0C0 393.2 73.2 320 163.6 320l120.9 0C374.8 320 448 393.2 448 483.6c0 15.7-12.7 28.4-28.4 28.4L28.4 512C12.7 512 0 499.3 0 483.6z" />
-    </Icon>
-);
+const UserHairLong = createIcon("user-hair-long", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABrAAAAL5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDIAsGAAE2AiQDCAQgBYMtBzUbpQXIrgd4Qxr1C2PAUIRKGZoMCO3FDnvQWKKvNSwe/lnHd9/MfIhppSQlxj2bhLjJSJvE+tNCaj8tnQXLbOjsk+x7AzIGgdsoFXIVp9ziCAsjiDHhExxqc1w2278KImZtZWkhLi+REt8TdOc94R/8G6QW+N/Uqec5D8U3hyBoY1M2LV6eC6VznEeggB+sjU0LqJsKVlGsuqlB0EPQgniIFMGuuB3XKjuubSCLnZhLhGQP9xDb85fGFw2mSPApAIhyADBmWmYy7r2MlxGv/ks8NBEEEGMB7QikIAXNCDAcj0AzgRnICAhexv/DfyAQAJEL2jgBZCAfHMVFMN8CCSkTTIpV4irqTFQWcopEVhugoHEdRlcctDjlxQiEDtgf977qeNI0x/3TOW4t0x6HLDLZLRCJI+yk3TGj8mvd5XfM64rDDZ+102ITdtTIVA/bpMVoQWcLrdPV5a4l0cHQu7G3RlwyBx0J1pbAWFu9iRXSFp2tujIhHNfROXpFuYMPhNyJKaRHwy+asTejCno3t4heq9lXteLbqju71E787Xh4H5raP5+qoZCny2x6/BcGpPpvPi0cQEE4qokNt44b6j7kn1lsuXXfr0eLqjd+776d941ved/9YazIPPlcIMpypbJhlJZuKS675oEvhfkQh4xrWqRXjgLY20GulRXP9hVrrnyuKC9ybPe/wsNzDhe2btv2aqmPu2tVI/oZzyZEv6h4+ywmFPcuUZpDOx2AAAGzzq56MKMs6Gs+OQCvz/8rHu9/cTXpAvk4QEDa538qinsAegDESfSwENRgJR3zEt612BYBCAwEICFhCJAypIYAGcYRAXKY8EaAXEwmHmWKIFqKB8VR0k7xfAxTAi0XKVGQp5FEK3jD5c2O/21MieFQ9CyzgdUaLQtdsEU2Ta/Ueo8XuwJzUaNViy7VqtTrYkiH5LRbsxgJjvZDZty5cGMmgNl241nJ8WiHTvWulv0ygcye9+z0yIPtYXGIcZBcgoNIVA676vzlqs7HGwA=");
 
 export default UserHairLong;

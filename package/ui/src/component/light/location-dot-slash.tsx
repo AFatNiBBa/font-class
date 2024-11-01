@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-dot-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-dot-slash?s=light location-dot-slash}
  * @preview ![location-dot-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/location-dot-slash.svg)
  */
-const LocationDotSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M385.8 389.5c-24.4 35.2-48.5 66.5-65.8 88.1c-25.4-31.8-65.8-84.7-99.9-140c-17.3-28.1-32.7-56.3-43.6-82.1c-6.7-15.9-11.4-30-14-42.2L128.1 186c-.1 2-.1 4-.1 6c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0c17.3-21.6 42-53.6 67.2-89.8l-25.2-19.9zM320 0C263.8 0 213.3 24.1 178.2 62.5l25.2 19.9C232.6 51.4 274 32 320 32c88.4 0 160 71.6 160 160c0 15.6-5.4 37-16.6 63.4c-3.3 7.7-6.9 15.6-10.9 23.7l25.6 20.2C498.3 259.8 512 221.9 512 192C512 86 426 0 320 0zm80 192c0-44.2-35.8-80-80-80c-20.5 0-39.2 7.7-53.3 20.4l25.8 20.3c7.8-5.5 17.3-8.7 27.6-8.7c26.5 0 48 21.5 48 48c0 6.2-1.2 12.2-3.4 17.7L390.4 230c6.1-11.3 9.6-24.3 9.6-38zM25.9 3.4C19-2 8.9-.8 3.4 6.1S-.8 23.1 6.1 28.6l608 480c6.9 5.5 17 4.3 22.5-2.6s4.3-17-2.6-22.5L25.9 3.4z" />
-    </Icon>
-);
+const LocationDotSlash = createIcon("location-dot-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABgAAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCCAsGAAE2AiQDCAQgBYMtBzkbEQXIHoVxw11CicUSR7E5vgjq92N79x8qTaxC0oSHKt5kumdCgyTWvVEioVulUcF/3r/s3EB8STUzAahWcrWsiNpVtv21uz9xTf04f3rAIn+0KCx9kCiQDv6bwICjvG0TmA1nA/WxzNrZLU+E3yR96iUZthtWJyjxR8YQJa+FXgLO6pvGDzR1QyoVgGgHACysRYXg/gf9IHrnToh3BIGAWAQwiFChQi8C04QFeokYBEURfBLHyX8ggwCilj44QUEtdsEBgAJSKaVfW11GuqalrCZv48698abpbiTrTWo5Ujuefm9x4PFgMiI9pL7nJUgctCd64/HpLu6ty01Mu/GwCp+O9N9FvoqNmRUQPdkuO/4x6RXVEZzKz5uizFGVYdUKGlEfU6s03FTY/GPwMvclOhxiDuyXlyY2/68NCyAUGb2ffubmzU/Jyd0u1HV69AjcgbnXTnz4khe9fEleGmJBQV3476OImJgICrujWGCv/UfkMB4UzL98VZHkdeFcteb6dKNpM+07zjabNtJ+ABAIftM9KE3e+VFCOsH35b/HfieXkz1Cm6BegqAa5YwlZ3sDziCokXECQ3wSCGmbCLxqswsECI0IkGo1ClDpoYBA0WgEgRr9bBCo1WiJsCgNQreUiaVm+1hlSgtWdDvCakx7YtTqDmGysVRhv3pJvhb2WcYsTM2ZI3Mjg+MPnadO7Fjm1YYKH0eRq0ypajmyFag2aKUQu0YJ3x3i44sYC6bMMY7Ydfq6P1aOSlUKlCktizhh73We2n07H5oQpRwTSElkJ0tXmGSXVZtUFWdU5QM=");
 
 export default LocationDotSlash;

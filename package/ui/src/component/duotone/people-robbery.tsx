@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-robbery` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-robbery?s=duotone people-robbery}
  * @preview ![people-robbery](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/people-robbery.svg)
  */
-const PeopleRobbery: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M241 39.8l8.7 34.9c11 44 40.2 79.6 78.3 99.6L328 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 16 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-305.7c38.1-20 67.3-55.6 78.3-99.6L559 39.8c.7-2.6 1-5.2 1-7.8c0-14.3-9.7-27.4-24.2-31C518.6-3.3 501.2 7.1 497 24.2l-8.7 34.9C478.1 99.6 441.7 128 400 128s-78.1-28.4-88.2-68.9L303 24.2C298.8 7.1 281.4-3.3 264.2 1S236.7 22.6 241 39.8zM352 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M32 48a48 48 0 1 1 96 0A48 48 0 1 1 32 48zM8 192c0-35.3 28.7-64 64-64l32.7 0c27.4 0 52.9 14 67.5 37.1L209.6 224l30.4 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-48 0c-11 0-21.1-5.6-27-14.9l-13-20.5L152 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-128-16 0 0 128c0 17.7-14.3 32-32 32s-32-14.3-32-32L8 288.6l0-.6 0-96z" />
-    </Icon>
-);
+const PeopleRobbery = createIcon("people-robbery", true, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABqQAAAKCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCdgsIAAE2AiQDCgQgBYMtB1gboAXIhuB7XWW/L+3cnmYZdARoOwJkSDkkyFw1E9c8f2t6wASw6sX5br62iD4ftu08rXD3tCjwgc0m9Ea8wXkDDzoPId6GPP7PzlFHujF9gsuD/wGMX/Q6h2RkBiBaALBq+6238sYP8UOKT2rPEJ/YEgGxGpQCGTIMCLBUJjAgVyKXC35ItRo/RK1WEkBUBGDGqqBTbsF9gBwkti3PGxevbKzWNebbyfcWO9884f5x9/beMPae8ff1bXPzlIiHJ1Tj2WmrohoXd17rjI5riiIu6uoL0bJs7rqIKHw+it15cGjw201pgtF5bfXi7uv91YDOyuLj7Yfj+rhp/HUd13QMxA0THxh73+SH+obiuq4g8ZrObW8cd++E+/sXbd439p6e0Q+1PPTbqE/2+8Tw5cVhJ598WJGr3fh4K613jHLH0TsZ0nTBBU1e/Eytt73tZz96hhZnoMTXhT38ef1Z0Shtax6bvcMZsz3etvosWT5iv6+uu3fpWU476sg//zzyqNPOsvTe6756e6cDpx024iOPA4Hgq+/2+2z35qX/1VcT+OmlP/4pnVpfeyPNTA+hXgJBNrU21S5ppXotaaYgCqQ4zuiV7/K7QGYrCfzUBtcJEAoESCoKATL9WgTIFaYIUGfIPAEqClvLRD5S6LBrSyQNjiQy851K5Do8TdRZ6v1ARUdkhlQ0YuIvYtr6PrBuUTlr+sxycblYUEvmjncHl5S7vROP4w2T4EH7OdxhjrGvfRzomB5+lK3CxzrU+jVsnR8qzTLdTKXFytPlx7u3s6+jHO1AhzvMH2aJ8n7fRMett58El5MAs5U3IyNSZF32OnvaUYfvtde+R504zcC36plSLDc=");
 
 export default PeopleRobbery;

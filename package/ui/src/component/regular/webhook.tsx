@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `webhook` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/webhook?s=regular webhook}
  * @preview ![webhook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/webhook.svg)
  */
-const Webhook: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M306 50.1c41.1 9.5 67.5 49.2 61.1 90.2c-2.1 13.1 6.9 25.4 20 27.4s25.4-6.9 27.4-20C424.8 82 382.6 18.5 316.8 3.3c-68.9-15.9-137.6 27-153.5 95.9c-10.7 46.3 5.2 92.6 37.7 122.7L129.7 336c-.6 0-1.1 0-1.7 0c-26.5 0-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48c0-8.1-2-15.8-5.6-22.5l82.8-132.5c3.4-5.4 4.5-11.9 3-18.1s-5.3-11.6-10.7-15c-28.2-17.6-43.4-51.7-35.5-85.9C220 67 262.9 40.1 306 50.1zM288 112a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm42.4 38.5c3.6-6.7 5.6-14.4 5.6-22.5c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48c.6 0 1.1 0 1.7 0l82.8 132.5c3.4 5.4 8.8 9.2 15 10.7s12.7 .3 18.1-3c30.9-19.3 72.1-15.5 99 11.3c31.2 31.2 31.2 81.9 0 113.1c-26.8 26.8-68.1 30.6-99 11.3c-11.2-7-26-3.6-33.1 7.6s-3.6 26 7.6 33.1c49.4 31 115.4 25 158.4-18c50-50 50-131 0-181c-37-37-91-46.6-136.8-28.9L330.4 150.5zM112 384a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm320 0a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0c0-26.5-21.5-48-48-48c-17.8 0-33.3 9.7-41.6 24L232 360c-6.4 0-12.5 2.5-17 7s-7 10.6-7 17c0 36.4-25 69.4-62 77.9c-43.1 9.9-86-16.9-95.9-60c-8.9-38.6 11.7-77.1 47.1-91.8c12.2-5.1 18-19.1 12.9-31.4s-19.1-18-31.4-12.9C22.1 289.4-11 351 3.3 412.8c15.9 68.9 84.6 111.8 153.5 95.9c51-11.8 87.7-52.5 97-100.7l152.7 0c8.3 14.3 23.8 24 41.6 24c26.5 0 48-21.5 48-48z" />
-    </Icon>
-);
+const Webhook = createIcon("webhook", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABwwAAALsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCDRwsGAAE2AiQDCAQgBYMtBy4bxQXIHoVN2SweUYyZh6nerof4vFzi4eF+vOe++hGJ0YUJ9v0T1CJBEng4KqC1jsfv58flO6LOf5cGIklIcjxrsJMc19Z0NLe53v9c0xyJEEqlJkIl4b9cGr8JcoBP/JT/zY5l3fEFPic3FWh8LhuTu+MHUmGsuTU2H3sIsfCREiI159Gjb7DHrwNk8RIPBIHkFXWF+21b/NOlDyTyFFCIRvAstq+SYmDvM35HXJbLID47BQJiGwCDQoX4Hr0wYA1OoBfeIJDJBL8xZSn/gQgEEAXoYQnIUIlPwDcwapaFiwzvW7VQVeVekzPwqTQCtcxgi4lxLK4MgW6eeZ34rKXySNIlY0bIEVLv8LHEFVSjSBR0QxpGBEIw+tJANUyuLgKX7whBhAJFpBSEtc/bLe/+FIygXYpGK0M3TnQNjZX62ojF1fq+etslu58T28qSmrykLrsZdQvtNWBCWOsxNUYcPnLLUj8RSwNZM+pLy7VxKtKc6+9V+8mEFpL3fIHkvDcm/tZXpV9g+vZHpmoj349PThwdM8+cmLwpfFANRDUARpj6fp2m19+njh1rMxL7ILrLpDlHKMzoUquJFr+Z9Z8l+jyTPkFMEM2NfNTd167VRJQhVB7Ou7X77nMZqUs6q2h396jLqEXH6IanL5SKZ6taEXfNd5e57wxQr0up5lm+wqk/XTlnZx98i3lR2rRo1e3ERGaGdKRZAidzLq9vrQAQCE7eLAXlsQL+V9KwAH83vn/SheV/uZaEYCcIUCkBQTpWjrKTEEOkDWBoPIlW4FAPA4mPPkyk1nM0Gao5kShUI9WDjUy1UeT6eZJz/hmcyCgQWuUQErVukFrQjkyrReTWnMYKrZHGshqJ6q9ktqieieyGXJ1ckB+6TWlaeFJu9Udun02rlNjSWihVp1azEsUqNHdSo5hkixpRljzyt4grJy4QPwjOPtpSU6xRk4prN7wTf+j5iI1Wu7ot9QILmIkCkgmRkNpKCsvr6qoAAAA=");
 
 export default Webhook;

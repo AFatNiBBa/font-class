@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-seat-reclined` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-seat-reclined?s=sharp-regular person-seat-reclined}
  * @preview ![person-seat-reclined](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-seat-reclined.svg)
  */
-const PersonSeatReclined: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 128a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-16 32l-29.9 0 6.5 29.2L163 308.1c5.7 25.6 28.4 43.9 54.7 43.9l117.9 0 42 107.9 7.4 19 20-4.3 44.8-9.6 23.5-5-10.1-46.9-23.5 5-24.8 5.3L374.4 319.3l-6-15.3L352 304l-68.7 0-10.7-48 55.4 0 24 0 0-48-24 0-66.1 0-6.5-29.2L251.3 160 232 160l-72 0zm52.7 48l21.3 96-16.4 0c-3.7 0-7-2.6-7.8-6.3L189.9 208l22.8 0zM79.6 147.8l-4.2-23.6-47.3 8.3 4.2 23.6 48 272L83.9 448l20.1 0 176 0 24 0 0-48-24 0-155.9 0L79.6 147.8z" />
-    </Icon>
-);
+const PersonSeatReclined = createIcon("person-seat-reclined", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdgAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCCAsGAAE2AiQDCAQgBYMtBzsbEwXIhofvbf06903PFPSAf5PGzCJxy8h+BKy5ZCYh2apEG9lMnXqe81AA3yhIY9MelrQ9H2OdV6CAtd77C3UNsFpFseqmVFEPifYTkeJYkbHjC+y4hiCLt+J6ZdId6VNc1z4qftOsi6RcAhB9ALBg49o13v86vo74pPYK8YlVCIgFoBAoCaRNgNlKgkWQKZDJBF9HrYb/wIIAokIfKYEMFezDGUAGkizLek6o9q+We2YbquV862Otd7XcOfThptub7xjSlFfz5lgfd9TfUq0ib45hMa27HTE4V22IhsjzjrimotISAZ6PXr9hfR6XGjZEdUNLc8vkY2kzWBdlw8An+zz5x4BPD3zquXn3//jaaz/eD6XWocc4pvmCRb/9VnfBiKP2mOQj+9xrny7DD9qhz5L7TGsar2nhMRP1H1e3M+3ro1Lff7PGrlnL5AY/m2pcb5PUfThe092j/gECwb6vNg3b2Xv2392qCXz75l9/jdO11b6Jq+lJdJNAUBpdG21bos2wuCoAACkuGOh8USDZJhM+tYdbBQg5AiQVuQAlrfoIkMmNEqCswxQBKnJrlUTWXaizfYGkh9OgZKqLIFPnJVA22wdFRV2UyMZShf3VS1pqsSW7igljxxczi9uOyfGHrpuzimN1+IUyMUKgDjjphHP22+ewc4Y4Y03lvOOWevgSP1SYYKzxCjMVj/vvhzfY74yzDjvpBLaZpXg/HO6CP3+EGImSTtSQJCLVcVMe85FkY87s30tJeR8=");
 
 export default PersonSeatReclined;

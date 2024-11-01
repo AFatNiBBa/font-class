@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `campfire` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/campfire?s=light campfire}
  * @preview ![campfire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/campfire.svg)
  */
-const Campfire: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M279.7 73c8.2-.1 15.9-3.7 21.3-9.9l8.2-9.4c14.8 14.4 30.1 33.7 41.7 54.9c12.3 22.3 20 45.5 20 66.1c0 28.8-10.1 54.9-27 75.1c.5-3.6 .8-7.3 .8-11.1c0-52.2-58-100.4-79.4-116.5c-4.7-3.5-11-3.5-15.7 0c-21.5 16.1-79.4 64.4-79.4 116.5c0 5.3 .6 10.6 1.6 15.6c-19.1-20.7-30.7-48.6-30.7-79.6c0-25.9 11.2-53 28.3-79c16.5-25 37.7-47.7 57.2-65.6c.2 .2 .4 .3 .6 .5c1.6 1.4 3.3 3.3 5.7 6l1.5 1.8s0 0 0 0s0 0 0 0c1.9 2.2 4.3 5 6.5 7.3L258 63.8c5.6 6 13.5 9.3 21.7 9.1zM256 290.9c-1.2 0-2.4 0-3.6-.1c-31.4-2.4-53.1-26.5-53.1-52.2c0-15.8 9.2-34.3 24.9-53.2c11-13.2 23.5-24.5 33.3-32.6c9.8 8 22.2 19.3 33.3 32.6c15.7 18.9 24.9 37.4 24.9 53.2c0 24.6-20 47.8-49.2 51.8c-3.4 .3-6.9 .5-10.4 .5zM112 174.7c0 78.9 60.8 142.6 139 145.2c2.1 .1 4.3 .2 6.4 .2c4 0 7.9-.2 11.7-.7C342.7 312.8 400 250.8 400 174.7c0-27.3-9.9-55.4-23.6-80.1C362.7 69.7 344.7 47 326.9 30.4c-5-4.7-11.5-7.1-17.9-7.1c-3.4 0-6.8 .6-10 1.9c-3.3 1.3-6.4 3.4-8.8 6.2l-11 12.5L262.1 25.8c-1-1-1.9-2.1-2.9-3.2c-.8-.9-1.7-1.9-2.5-2.9c0 0 0 0 0 0s0 0 0 0C248.6 10.4 239.9 .3 227.2 0c-6.5-.2-13.1 2.1-18.3 6.8c-21.1 19.2-45 44.4-63.8 72.9c-18.7 28.3-33.1 61-33.1 95zM224.8 28.7c0 0 .1 0 .1 0c-.1 0-.1 0-.1 0zM21.9 289.1c-8.2-3.3-17.5 .7-20.8 8.9s.7 17.5 8.9 20.8L212.9 400 10.1 481.1c-8.2 3.3-12.2 12.6-8.9 20.8s12.6 12.2 20.8 8.9L256 417.2l234.1 93.6c8.2 3.3 17.5-.7 20.8-8.9s-.7-17.5-8.9-20.8L299.1 400l202.9-81.1c8.2-3.3 12.2-12.6 8.9-20.8s-12.6-12.2-20.8-8.9L256 382.8 21.9 289.1z" />
-    </Icon>
-);
+const Campfire = createIcon("campfire", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABpgAAAK4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDLwsGAAE2AiQDCAQgBYMtBy8brgVRVE5KZD8PY3A/cSyayX7R3KN/MGmmuBwPz9v9+2ufmRuAE1u3CsSijT9RyRXcvjoVU2HhqCu7098dzW031F4QkUhIhDYLjVCJfN0qYlI90xITl9Mf508POIkfbQ/d+JWPNTiBRPM1zvO3MAuUYm5x29WaoFJpe0jsIY+PorsS6V76DlfCm0aFpk6S5BmAqAOAMYvmzfD5v/FvxHev3yG+Mw0BMRYUAhkytBBguEyghVyBXC74N16/Fv+BBQFEJSnDCeSojHfxBSAHSSnPS/WGg6rHqxsceslWsja1xjSOlWtgku/DrHjK9tAmfwi38Sk6r91LDBhHQxyMA10LF8jLbIJabUd6wXHpTLuFY2CAOumOVVqOAPg2LlTX6G/UZ6lZ9VbsWVXUQSiK0SPMypAB2Opl12se5UtcPhYwLVZ6DTpYjPlASV0qxwIg9YkUi8DqoXj2wuR99+nf5ruN32lcrnGuZUPRprZtZjDkfvyx+/713fFP6FSF/FOr8m7rqAJRtx8AtG0XztZs/FtKe/82q3KwfsXz+gerpO9/WDu6dGVfm9n8ZpZVmn1q0FWbLpj4QVlpzJh+DwUiAgDis3rKLf74vd3uawB8k/26fcQX38ymqF+M2P5rK3ScPw0CQY2+V16uqj38WZUS+P/Dn+ULX798/UnK0n1UkUCQdX/d3fJkB3i5Vnx/EmVt8ScJJI+VpKzWcFuAUA0BkkqqCZBpro4AuWq6CVDSygABKqlmnkzkVYUGVvRYUsMeLDPQISzXwFtYyXBfppU0iAx+Oejjfh+TJ47hCduKPj17F0OLzabKgyRjl4cVp+3OZTnUBe+00S477bfBelvsH6F7zSgcsMPEPWSCLyr00VNvhaGK253n1kI03WufLeuG+5sMU7zvd1ben9wFe0mi7assSUSq0miZtgAAAA==");
 
 export default Campfire;

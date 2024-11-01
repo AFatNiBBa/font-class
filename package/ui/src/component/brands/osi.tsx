@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `osi` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/osi?s=brands osi}
  * @preview ![osi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/osi.svg)
  */
-const Osi: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M8 266.44C10.3 130.64 105.4 34 221.8 18.34c138.8-18.6 255.6 75.8 278 201.1 21.3 118.8-44 230-151.6 274-9.3 3.8-14.4 1.7-18-7.7q-26.7-69.45-53.4-139c-3.1-8.1-1-13.2 7-16.8 24.2-11 39.3-29.4 43.3-55.8a71.47 71.47 0 0 0-64.5-82.2c-39-3.4-71.8 23.7-77.5 59.7-5.2 33 11.1 63.7 41.9 77.7 9.6 4.4 11.5 8.6 7.8 18.4q-26.85 69.9-53.7 139.9c-2.6 6.9-8.3 9.3-15.5 6.5-52.6-20.3-101.4-61-130.8-119-24.9-49.2-25.2-87.7-26.8-108.7zm20.9-1.9c.4 6.6.6 14.3 1.3 22.1 6.3 71.9 49.6 143.5 131 183.1 3.2 1.5 4.4.8 5.6-2.3q22.35-58.65 45-117.3c1.3-3.3.6-4.8-2.4-6.7-31.6-19.9-47.3-48.5-45.6-86 1-21.6 9.3-40.5 23.8-56.3 30-32.7 77-39.8 115.5-17.6a91.64 91.64 0 0 1 45.2 90.4c-3.6 30.6-19.3 53.9-45.7 69.8-2.7 1.6-3.5 2.9-2.3 6q22.8 58.8 45.2 117.7c1.2 3.1 2.4 3.8 5.6 2.3 35.5-16.6 65.2-40.3 88.1-72 34.8-48.2 49.1-101.9 42.3-161-13.7-117.5-119.4-214.8-255.5-198-106.1 13-195.3 102.5-197.1 225.8z" />
-    </Icon>
-);
+const Osi = createIcon("osi", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABhwAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCJgsGAAE2AiQDCAQgBYMtByobIAXIjsK22TPCWJJDTjkgEi8TD/9/32+fc+99TaM1c5+aqNnimaOwwKI0mzCBxAr8rzSOxiu76sUJL88DRuViJDtlyP+5pl5Y0wF+o0PJXFBpBWAm701gIulrOpFx20RxfjvfIxmg2yRd4tJl2G5Yf/0D1NiMZo18zivgvt1VfJLQRGoFAGISADg4D/SGvTesH3H1v0y88QQC4hAAyzAU7JmHgW2EwA9AWgaqKuhj///1PxCBAKIDIpJbw4XXwB2ggpSVNF5nUThkSKxhhr6GYhhufnU/t96Xfw56CmoXfQnpFFuV69OYUBlRGxPvluhR7hDehbtisaEzI9krWo+p3kJEh5edefcOsUXDLtENxT7NSdVR9WGJHvF+s3aReX138aXta8iAzY7HRdCT312QwgR/4mflKuUKaK8lxdIeAOGFs51po0+1cTucCHV3dQ9/+WMvSWcJJ88l31BrcdOHez87T7OlwYyn6CL4xzAfrNGWiQSLIx5J2BEk6AZdeP839mR4hpDDt7hcaNrn11316qqmd6k+kZFO6l/IGrkxQit1ZdPTnGj+zMoqPBoAAsFljPZieVZfgywc4GPj77tfN/j/nolPYFCCoPT+e6ISBORvAQQqZJSAAr5JIF3BIT3qQVsOw0xInWEo5vChGrYKzSJj6XL9MUJUBoRZ0YA06gaKLdVQzVqEZttpoTMbhO0plqN8+WW6cNx5FdLX0UMW6Fg3VHOS8rwluo6olaQ+deyFFLlyFEmWJF0R4wp4l4tlc5FYZz+E6NOhB7GA1K1XMyQUChRK3+v6ZSyh92k1JfJodcRxxLsmk9IviBO5hekAAA==");
 
 export default Osi;

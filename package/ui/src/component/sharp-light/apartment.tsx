@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `apartment` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apartment?s=sharp-light apartment}
  * @preview ![apartment](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/apartment.svg)
  */
-const Apartment: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M448 160l32 0 64 0 32 0 0 32 0 288 0 32-32 0-96 0-96 0-16 0-48 0-32 0-16 0-16 0-96 0-96 0L0 512l0-32L0 128 0 96l32 0 64 0 32 0 0-32 0-32 0-32 32 0L416 0l32 0 0 32 0 96 0 32zM224 480l0-112 0-16 16 0 96 0 16 0 0 16 0 112 96 0 96 0 0-288-96 0-32 0 0-32 0-128L160 32l0 64 0 32-32 0-96 0 0 352 96 0 96 0zm96 0l0-96-64 0 0 96 32 0 32 0zm192-32l-16 0-64 0-16 0 0-16 0-64 0-16 16 0 64 0 16 0 0 16 0 64 0 16zm-32-32l0-32-32 0 0 32 32 0zM144 384l-64 0-16 0 0-16 0-64 0-16 16 0 64 0 16 0 0 16 0 64 0 16-16 0zm-16-64l-32 0 0 32 32 0 0-32zm384 0l-16 0-64 0-16 0 0-16 0-64 0-16 16 0 64 0 16 0 0 16 0 64 0 16zm-32-64l-32 0 0 32 32 0 0-32zm-336 0l-64 0-16 0 0-16 0-64 0-16 16 0 64 0 16 0 0 16 0 64 0 16-16 0zm-16-64l-32 0 0 32 32 0 0-32zm208 96l-16 0-64 0-16 0 0-16 0-64 0-16 16 0 64 0 16 0 0 16 0 64 0 16zm-32-64l-32 0 0 32 32 0 0-32zm16-64l-64 0-16 0 0-16 0-64 0-16 16 0 64 0 16 0 0 16 0 64 0 16-16 0zM304 96l-32 0 0 32 32 0 0-32z" />
-    </Icon>
-);
+const Apartment = createIcon("apartment", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABsAAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASELwsGAAE2AiQDCAQgBYMtBzAbLwbIhof/1j67r7qHusNQYUYH5OOSXWHHLiBYIEsg9/zp753+0V44NgXePQttzEkbfE8MOw/7HHVhm8KAssASxRa3XQURDXEhwQXK+CbGayI9nT7Fo/pL4xd9PSQpCwDRBQBLdm3b4M0f48eITxvPEZ9ah4BYCrJAgQIDBJivEBiglFEqBT9GoyH+AzMBRLPknQmU6Ir/8D+gBEnnshwypK1rW3darJs6ljv5mdWpuqpFClF1iigioq6DHKg7CmF3WIgLZaGIqtqgdIh4VSVlaAwkuauqmeVkxFin82g8qqGGJeqhHalnKhm3ww2wHaDDTg9t79L+25BPT37qjcE5381S7JwdluXD49gPiy6beBddtPiyw4czlCt3sfhc8bDDbx4mzsVGNLhLl8OkxYJdNtf+RibYsrxp8OLFm5fr5Xh3r4y7ma33xSEM2ngdCATvPj/360Od5//XWifw88t//FU/r/FmWpza0SqBoBjfGG9/WgxCO4BiipuGUg0EW/2ms+RTO3gsQKgQIGlWCVDor4sApco4AZoMMkOAZpVtClG2CT0c6BVJB1cUhZluKUo9PKNoMt8H5WY9ooB/E/Safj+zrxyjK3blKRMn57l5s641g7TBzs/Lp/2jb8q+Mfioky656LoTjjvj+oh/1YbaDRes3GOu8EPZFBNNls2Vb7ee23fS+FXXpGHdcn+TefL76dFu7o8eg0NJoneqPUkiUtvnRAAA");
 
 export default Apartment;

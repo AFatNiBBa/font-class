@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-spin` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-spin?s=sharp-thin arrows-spin}
  * @preview ![arrows-spin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrows-spin.svg)
  */
-const ArrowsSpin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M86.6 64l-8 8 39.6 39.6c0 0 0 0 0 0l.8 .8 49 49 8-8L176 64 86.6 64zM67.3 83.3L56 72 67.3 60.7 80 48l96 0 16 0 0 16 0 96-12.7 12.7L168 184l-11.3-11.3-38.2-38.2c-28.3 32.3-45.4 74.7-45.4 121c0 11.1 1 21.9 2.9 32.5l-16.2 0c-1.7-10.6-2.6-21.4-2.6-32.5c0-50.7 18.9-97.1 50-132.3L67.3 83.3zM257.1 71.5c-11.3 0-22.4 1-33.1 3l0-16.2c10.8-1.8 21.8-2.7 33.1-2.7c51 0 97.5 19.1 132.8 50.5l38.7-38.7L440 56l11.3 11.3L464 80l0 96 0 16-16 0-96 0-12.7-12.7L328 168l11.3-11.3 39.3-39.3c-32.4-28.5-74.9-45.8-121.5-45.8zm184 184c0-10.7-.9-21.3-2.7-31.5l16.2 0c1.6 10.3 2.5 20.8 2.5 31.5c0 51.6-19.5 98.6-51.6 134l39.1 39.1L456 440l-11.3 11.3L432 464l-96 0-16 0 0-16 0-96 12.7-12.7L344 328l11.3 11.3 38.9 38.9c29.2-32.6 46.9-75.6 46.9-122.7zM394.3 401.1l-1.5-1.6L344 350.6l-8 8 0 89.4 89.4 0 8-8-39-39-.1 .1zM288 437l0 16.2c-10.1 1.6-20.4 2.4-30.9 2.4c-51.3 0-98.1-19.3-133.5-51.1L83.3 444.7 72 456 60.7 444.7 48 432l0-96 0-16 16 0 96 0 12.7 12.7L184 344l-11.3 11.3-37.8 37.8c32.5 28.9 75.3 46.5 122.2 46.5c10.5 0 20.8-.9 30.9-2.6zM440 78.6L350.6 168l8 8 89.4 0 0-89.4-8-8zM72 433.4L161.4 344l-8-8L64 336l0 89.4 8 8z" />
-    </Icon>
-);
+const ArrowsSpin = createIcon("arrows-spin", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABqAAAAKnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDXAsGAAE2AiQDCAQgBYMtBzIb3gXIjsM4hlximGIoS2kQl4igNXT2/kMfLqIkUkgqbAuoAGVlJYGwEaaykmU9WUafb+339yI2yO6TWfA5JBFLvIaKJEh46Nsw+yJaOT8UCYmDa+qH9hrk/MWHFmWZGG0R7RMosCiLpgnNBjbTCdjOtr0pYhrKjdC4QJ0bh7hS7pYPuBx8aF6bboOiqgCQPgCweay8EE/ueR++/39GntgLAtkMmIeoUGEWgnWcBbO4mAdqtfCCDw/iP1BBgLQiuriAGg0egOeAcTJFe+1inY8ZPVz4XH1cqrIUr/pJhi2Xq2qPYGmMkF4RU+zSaBKFQGQSfk4mL0+GV+xePMjvrXnVmzbysPPnQD6N2BEKSeMls9dIfj6NVq5KwX3PSnIXWFtsDEn51tTcPB+rkHZZFtiRzvHSvLAC3Wh+Dea8ZJCJDELcq7OFcj+ObBn1FdUVdj9Jeag+rFrSi8jkBWaf+Xb+h64PRi9OR/u7AQQX1KpdaUYH4yn29Wlo8QHjxo04iqMvXoM8h4Xfpu+89E86/uuFaDkC004Eoe1LviBoJy7u6XHrENrPotbS2/KP+IpdS7d5kmtaFxxfqM31RytiyaVL/SOCd3LJedhZEynPjJ5o7b4OEIRfu6FzzX45Xz2EE+DV9d/X5c9owf9//FJMtCsgVIv/x2gosEBCvggAoGRKeIHliOK+dtG7drklIBoEFK0aAZWZNAS1xiIELeZIRdCqMcRZak/EJI0tFF1OQWWtRahNcgIt1nkdbDUpzmCtAErFT2VaRx8vmKQS4xJUllosqpWQKrPD2Wq3PmJKNkXivegybMiETh16TfSEYwojkwY51ugCX6QkipNAyaJOVx5vr9JpzLhew4b8ONnU/e4IU+udI7HJSSR1pQVFIUW0nv7qgrHjI71DAAAA");
 
 export default ArrowsSpin;

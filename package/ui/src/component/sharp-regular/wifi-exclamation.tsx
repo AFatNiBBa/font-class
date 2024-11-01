@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wifi-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi-exclamation?s=sharp-regular wifi-exclamation}
  * @preview ![wifi-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/wifi-exclamation.svg)
  */
-const WifiExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M344 56l0-24-48 0 0 24 0 256 0 24 48 0 0-24 0-256zM1.2 155.9l32.4 35.4C96.1 134 175.8 95.3 264 83.7L264 56l0-20.7C163.3 47.2 72.3 90.8 1.2 155.9zM119.4 286.4l32.5 35.3C183 293 221.4 272.2 264 262.3l0-49.1c-55.2 10.6-104.9 36.5-144.6 73.1zM376 213.3l0 49.1c42.6 9.8 81 30.6 112.1 59.3l32.5-35.3c-39.7-36.6-89.4-62.5-144.6-73.1zM264 424a56 56 0 1 0 112 0 56 56 0 1 0 -112 0zM376 56l0 27.7C464.2 95.3 543.9 134 606.3 191.3l32.4-35.4C567.7 90.8 476.7 47.2 376 35.3L376 56z" />
-    </Icon>
-);
+const WifiExclamation = createIcon("wifi-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcgAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBdQsGAAE2AiQDCAQgBYMtBzcb/ATIjsQ4JvKLKOwiHr5f6+3c1z0TAOowsyJyiUKNpIAcq7D8tfbXylWY77Uh838u3vZ8NMBvNJRozOLtyrufn0CCh16DHaelnyje7spSPKT20ZIWWSZ/n+XxudftII+/46IS6Wr6ggv0pFGpmdMkpQxA1AXA2MXzZ3pXERURn/+f+Gw6AmIsKAQyZGgpwAiZQEu5ArlcUBH//x/+AwsCiDK8xARyVMVC7ADkICnneb3a1avXqlWjVCtfVKNUfXOI6iFSiBoRka0ZOWrkr8UREd8XfJ+zkEFvibrxeuHHyNHxddGCqx1vdL7V4lqnmx2uN10+gheu/LlIu7t17/7Zl01fLD7X1Gf10RRNkblofYJTVy8+U7+lRqZXG9t6XOs5B09kWVY5pk5f8+u+N6UvEi2szLyPObu/1nn09u2jOsXcvbulzzxbf9XiZI6G0BHaMzQCAsHzM+f/Xl1nxF9VayTwxwvo9Pj/dzqW7qKqBIKsx/89rEjHhRB2FACAFIe0c4tEMtN9PWpNlwQI1REgKasuQKaFugLkqusuQElrAwUoq26+TOTVhIZWNpDUtBdkBjkCcg09AyUjvI/KGkZmYoyBMF94iZM4MnFS0bdXn2JYMS2prNVQaXR4sSx1ORRbusIam+y2ywEbbbCVCIbtMzN50E6TJHSiHyr01UsfhWGK7er98kU22me/rXbblccZrjjvdXFI7t4V1ARx+/k+SUSqe3jrpq09/12hrN35aAAA");
 
 export default WifiExclamation;

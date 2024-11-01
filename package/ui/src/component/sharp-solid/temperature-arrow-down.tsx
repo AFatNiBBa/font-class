@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-arrow-down` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-arrow-down?s=sharp-solid temperature-arrow-down}
  * @preview ![temperature-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/temperature-arrow-down.svg)
  */
-const TemperatureArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M113.8 317.8L128 300.1l0-22.7L128 64l96 0 0 213.5 0 22.7 14.2 17.6C249.4 331.5 256 348.9 256 368c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-19.1 6.6-36.5 17.8-50.3zM288 0L224 0 128 0 64 0l0 64 0 213.5C44 302.2 32 333.7 32 368c0 79.5 64.5 144 144 144s144-64.5 144-144c0-34.3-12-65.8-32-90.5L288 64l0-64zM176 416c26.5 0 48-21.5 48-48c0-20.9-13.4-38.7-32-45.3l0-50.7 0-16-32 0 0 16 0 50.7c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48zm368-64l-64 0 0-288 0-32-64 0 0 32 0 288-64 0 0 32 96 96 96-96 0-32z" />
-    </Icon>
-);
+const TemperatureArrowDown = createIcon("temperature-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABegAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCEQsGAAE2AiQDCAQgBYMtBz0bHgXIhof/96+vfe57Vau76vcib0uKRAzDiQBGRAQiYjRxTZ16nvNQAN8oaHtoQNZoec7zChQL1qtN8L2xVlGsecuKiiz3TWY0kx6/9vg1gzK+L65TId2ePsBN40PjL51dR9K8ABCtADBr9fJl3vwlfol4v/Ec8b4lCIhZIAsUKNBNgKkKgW5KGaVS8Es0GuU/MBNAVOHJEyhRxX6cAJQgKcuyW8fOHeuVFuWqeqW2umunrhER9RCiczze+a6Bj419fvATPe4csr5WrwnxVL5/2mvz3p7xRp8HhkfEmkc7Rtza9Z7+ERG1EOKhbre3v7nfdq9YaD7lEVbG6ojeT7R64p9eH+z6wNGrn+KwOvrSFl/p4FNlU6za2arVzlXRVD49bebMX2b6yp9FtzM3vvXWjWe6FX9+Zebhe0f+wIdFq+/HaCVrZYzvWxUf/jDy8IyZSMuymZK2eXObQwYCwdy/J1/d3HLq/83qCfz28n//8Ppy482U0xNoJoGgGNoYakOaKcspCwBAilN6G18USLYr4Vqb3CJAqCFAUlUToNBVKwFKNUMEqOhhnABVNcsVomwutLNxgaTJUVAY7yIotfMMqJjqbauqXRQBR4QL8d+LnS+heb3yqOEj8+S8zZhkDGG9c0p2qwNP1YpBNNQuhx1ywk477HVCIMcsc086aL4Fz/ND2SjDjZRNlo/z68Gr7HTMcXsddoi7mSLfNwc6ZdcfREYC1NH6JolIHWIxOmzrsWOHTw97jA==");
 
 export default TemperatureArrowDown;

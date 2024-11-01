@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-left-and-arrow-up-right-to-center` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-left-and-arrow-up-right-to-center?s=duotone arrow-down-left-and-arrow-up-right-to-center}
  * @preview ![arrow-down-left-and-arrow-up-right-to-center](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-down-left-and-arrow-up-right-to-center.svg)
  */
-const ArrowDownLeftAndArrowUpRightToCenter: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 480c0 8.2 3.1 16.4 9.4 22.6s14.4 9.4 22.6 9.4s16.4-3.1 22.6-9.4L176 381.3l0 50.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128c0-17.7-14.3-32-32-32L80 272c-17.7 0-32 14.3-32 32s14.3 32 32 32l50.7 0L9.4 457.4C3.1 463.6 0 471.8 0 480z" />
-        <path d="M502.6 9.4c12.5 12.5 12.5 32.8 0 45.3L381.3 176l50.7 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 50.7L457.4 9.4c12.5-12.5 32.8-12.5 45.3 0z" />
-    </Icon>
-);
+const ArrowDownLeftAndArrowUpRightToCenter = createIcon("arrow-down-left-and-arrow-up-right-to-center", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABigAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBcwsIAAE2AiQDCgQgBYMtB4EUG1kFyIaH/1/73z535pthOpBEJUFykVB/BU80T4T0F9U0vunv5/k//w34APx3UfSowDPPJ7DzUSSPGnwTnOkMbLuztUMSKZfQiiHHZXNcLpDHx+yMMtLD9AHXw/8AxmcdnSGpygBEIwAmz589y6uWaEnxofSY+GAmAmIKKAQyZOgiwDiZQBe5Arlc0JJKJVqiVCoIIMqFt8tAOXIswVpADpIQed63d01ZXT6vpqx6/V0RJ9rMiZq43PauE23uVFfHpXb3IuJk+/s1NBfzI1tOWKTmcntPgHKfQfEYNrWioNfXxJy4o2dzY/PXHh/WffDv6cU66i4ePGCo+gsX6tPcCYaB9UMdOOhBXd0DRd1FT9XtT/oHDzj4MgSC/32/tVreMO5vZU0Cn15+/w1/R6VXSWpGpQSCrF+pnyUJJAIAkGKfnkk0IpDpK4mfUeueAKEaAZJy1QJkOmsUIFetrwBluhkuAHfPlom8SmhjaQFJrZ0gM8JRkGvjESgzzutyuTaRqRinINwPL3lGC01fVgweMKgYU3TrMq81jJsfW0zbvfaZvt5w0jrbbbPHWmtstKchd5lV22urGSN4ui8qDDbAIIUxiu3W9PA8a+2y20bbbfOLjFWcj3rZNx7dG1aTAEMu50xGpMiGrdy1a/v+/pLHPsBq/5Xb1vSn3t4dz7XUf8/2/lKv99deZUS3Owui5AIAAA==");
 
 export default ArrowDownLeftAndArrowUpRightToCenter;

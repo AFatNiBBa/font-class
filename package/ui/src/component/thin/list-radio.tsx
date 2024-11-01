@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-radio` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-radio?s=thin list-radio}
  * @preview ![list-radio](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/list-radio.svg)
  */
-const ListRadio: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 56a40 40 0 1 0 0 80 40 40 0 1 0 0-80zm0 96A56 56 0 1 1 64 40a56 56 0 1 1 0 112zM168 96c0-4.4 3.6-8 8-8l320 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-320 0c-4.4 0-8-3.6-8-8zm0 160c0-4.4 3.6-8 8-8l320 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-320 0c-4.4 0-8-3.6-8-8zm0 160c0-4.4 3.6-8 8-8l320 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-320 0c-4.4 0-8-3.6-8-8zM64 216a40 40 0 1 0 0 80 40 40 0 1 0 0-80zm0 96a56 56 0 1 1 0-112 56 56 0 1 1 0 112zm40 104a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zM8 416a56 56 0 1 1 112 0A56 56 0 1 1 8 416zM64 112a16 16 0 1 1 0-32 16 16 0 1 1 0 32z" />
-    </Icon>
-);
+const ListRadio = createIcon("list-radio", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABnQAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCTAsGAAE2AiQDCAQgBYMtBzEbTQXILgbs1uIjRtsh0/2CPWU6et6aLGOhGA/9z33embyf3S2zBGaFLAzLSiZfo1iyETm1xC5TY/MfFa/QiKLeaIQ2Ubu+tZW6UCyPZP66AYfc/NsBPMkhDzbgiHPKfZa9icudv216wLHwxR5lT32Qr43RnphAYsOXJZYFVoYJWMvmML+IhzZC/BVKPHMCmnyccDO8aXwy0pJUVQBiAABg1e7t23w00UR8aE98sAUQEKsBTABRocIYECyFFBgDZQKgKIIm2lb8B04AAohaCqanC/rgAm4ACki9SumL6np6d/qWXeZsr/1PRmzzd9RXwj3BrgZcIqmNtBczaeXbVImHw8lxf+g6ixQPhoHRfPHbViyJLlUHkogutNgibFhXrcXH1jmLBJk7yRb39g2KW9rtN8qKi8XdXXstVrzvrVb/f4JG9ZGVivV8x6P9Gq/v07XWxkV+o0r4R/o/vXp/ojY148t+jeAD8dDka3+5f+hPNwk+Pn3+Z6Rt4n8O3RIE1dR2qmwCdMd/AQDIOEeREEjnEYRX7eOBAKEXAqRaLwEqo9FAUPQyBQQd47hBUOtlO6QoPcIQuYFIfZwkKvMtiGKIN6Jjqc+iNiQqcNSASfsZzF4/BdYdmzDLYpMFZLttnQ5hil0Pyi7HE+dyTI8vqhvom6qpaplO8LFoZaYncoSFfZCMnYWNTIDsce/l6biasYmWgb4/JEj2fa4zP56txxlCKjpbS0oie8Vmd1rkBQA=");
 
 export default ListRadio;

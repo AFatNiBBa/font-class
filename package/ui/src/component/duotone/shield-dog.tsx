@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-dog` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-dog?s=duotone shield-dog}
  * @preview ![shield-dog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/shield-dog.svg)
  */
-const ShieldDog: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M16 139.7c.5 99.5 41.3 281 213.6 363.5c16.7 8 36.1 8 52.8 0C454.7 420.7 495.5 239.2 496 140c0-26.4-16.4-47.9-38.3-57.2L269.4 2.9C265.2 1 260.7 0 256 0s-9.2 1-13.4 2.9L54.3 82.8C32.4 92.1 16 113.6 16 139.7zM128 176c0-8.8 7.2-16 16-16l56 0 8 0 24 0 52.2 0c12.1 0 23.2 6.8 28.6 17.7L320 192l64 0c4.4 0 8.4 1.8 11.3 4.7c1.4 1.5 2.6 3.2 3.4 5.1c.4 1 .7 2 .9 3c.1 .5 .2 1.1 .2 1.6s.1 1 .1 1.3l0 .4c0 10.7 0 21.3 0 32.3c0 1.4 0 2.7-.1 4.1c-.1 1.2-.2 2.5-.3 3.9c-.3 2.7-.7 5.3-1.2 7.9c-1.1 5.2-2.6 10.2-4.7 15c-4 9.6-9.9 18.2-17.1 25.4C362.1 311 342.1 320 320 320l-48 0c0 16.9 0 33.8 0 51c0 .3 0 .7-.1 1.1c0 .4-.1 .9-.2 1.3c-.2 .9-.4 1.7-.8 2.5c-.7 1.6-1.6 3-2.8 4.2c-2.4 2.4-5.7 3.9-9.4 3.9c-1.8 0-3.6-.4-5.2-1.1c-32.9-14.1-65.8-28.2-98.7-42.3c-6.6-2.8-10.8-9.3-10.8-16.4c0-2.8 .6-5.5 1.9-8c7.4-14.7 14.7-29.5 22.1-44.2l-8 0c-17.7 0-32-14.3-32-32l0-64z" />
-        <path d="M168 272l-22.1 44.2c-1.2 2.5-1.9 5.2-1.9 8c0 7.1 4.3 13.6 10.8 16.4l98.7 42.3c1.7 .7 3.4 1.1 5.2 1.1c7.3 0 13.3-5.9 13.3-13.3l0-50.7 48 0c44.2 0 80-35.8 80-80l0-32c0-8.8-7.2-16-16-16l-64 0-7.2-14.3c-5.4-10.8-16.5-17.7-28.6-17.7L232 160l-24 0 0 72c0 22.1-17.9 40-40 40zm88-64a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const ShieldDog = createIcon("shield-dog", true, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABrAAAALcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDGQsIAAE2AiQDCgQgBYMtB1AbuwXIngV2w/WCKdPwGixLWkK4PSv4p3Ta+7uyk0g2yz4gHTN2yNRxxa3nWqI2EMv7OMm6gLruRjhcCBMa4Aw2ZMIVsKd68pONAex6WfiRtnGd4UUGXmCd/+Pe6R+7sc/Xn5Tja04a27aHc54n0Pm28vLAO+880wysxW1XS4JaSLDQeABHb+0Igdlv3gBbw/8A6gvBKjAUWAAAlAAAANq2/j15dvWmbwpvgd4wgQDUDoAAARawQEkEQAssAkriEAAODoJcBHKBAAQAChM4SyxM3voc8BgAcAAwGIzjVCko38MLRZ1BGnIHj9o1drE7M1C7vb1FJE93q18sI+3JusrqQCXXRcv8Xe7g47szu/w92eHHWvQBVVd+GiwyZWfnOgdpj7vBH6BdxxgGXvC808Uy8rQxcyG4jCJSLEdaBrfLz59r4A6Dy6VBu6i5G7JnKhHrHi0vshc2gEJ3Q+UuJC58y3/Sca8OT69KO96ucUXCXvPqU4fExEEKiOXamGlZnQZFu5B8cDE5uPUknYtFp8Trm2QHuFCrDdRsO7DawYMICgyAgrxq/CtX/j/qTb+U1y8H/9NP82eXj+WarDrLZtJGXoNkShICQSJhrIy1eZVmXWirQzQSjSIhKVk/ZBNdujx8M+KkuzSZMSKf2Lp1sTYAIEDwcrza4y3+5XsGgM/7x7c/pHjh6Ze5AORjABDYGoU1GBEhTly/EAAAAGC0iHIGthFHgGU2Q1JE2INoCxc63hDG5S0lSPAOLtX5EKVp6D4Y6n/IIKeg6DOS8IYIc3lLIxbzDj43+RAteN4I48tCrRfmvD+NhToN8Y77grq16gTNgtWuxgeIbrvdPDicqrJITlXFd5hktlkWmGiCqQUGlnl6theaqdOWrqMvCqhLLeoQ0Izg8uBpaBBtzDPf1OXA9V2aEzxfrMKi7cVV8WEMAFDvfT9jQUY2NX/K1IkzJtScMHtyTfif9seBTx0AAA==");
 
 export default ShieldDog;

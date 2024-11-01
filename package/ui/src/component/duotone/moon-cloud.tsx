@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `moon-cloud` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moon-cloud?s=duotone moon-cloud}
  * @preview ![moon-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/moon-cloud.svg)
  */
-const MoonCloud: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M256.5 240.3C264.5 124 361.2 32 479.5 32c6.4 0 12.7 .3 19 .8c7 .6 12.8 5.7 14.3 12.5s-1.6 13.9-7.7 17.3c-53.3 30.2-89.3 87.6-89.3 153.3c0 97.2 78.6 176 175.5 176c10.3 0 20.3-.9 30.1-2.6c6.9-1.2 13.8 2.2 17 8.5c1.2 2.3 1.8 4.8 1.8 7.3c0 4.2-1.7 8.4-4.8 11.5C595 455.8 540 480 479.5 480c-60.9 0-116.1-24.4-156.4-64c17.9-18.7 29-44.1 29-72c0-54.6-42-99.3-95.5-103.7z" />
-        <path d="M0 352c0 35.3 28.7 64 64 64l184 0c39.8 0 72-32.2 72-72s-32.2-72-72-72c-10.1 0-19.7 2.1-28.4 5.8C208.8 246.5 179 224 144 224c-38.7 0-71 27.5-78.4 64c-.5 0-1.1 0-1.6 0c-35.3 0-64 28.7-64 64z" />
-    </Icon>
-);
+const MoonCloud = createIcon("moon-cloud", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfAAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBZAsIAAE2AiQDCgQgBYMtB1AbBgXIhof/r6u670eUotqINjjSCjDyzFZY59Sp5zkPBfA57nOdB2SBhOY8j0DOp8ZXW4pIeVtNsbuzURyyvNKIpeV4NI7PZYU89cvOUEO6Nn2Ai/F/AONXHZ1B0pABiBYAmLFu1RKvVKKS4oPqE8QHFiMgZoJSIEOGLgJMlgl0kSuRywWVVK1SiWq1JICohSdnoBY5VmMrIAdJiDzvNaCxpmm+Fm8u4toBEff2aYy7B93f+bqB9/U9r811fe8q7uh/T4fz4rwwM7u+XhXx+brz216Js22eGfyAL1d8uub89leTs5zS5pPV5018buD93W8aeN/Ynve1uO/3Hh/s/cD2oiUtb3lGZdSoZs3iQ1Sav3n21KmdP5k+Y1MIt7RsWfBx3fpv+W5jNFxyy8BOVx1/9gkjY6GWC6LFZ48saJXXzf5hcww98sjfXygaHrj+DCAQTIplLbY1n/x/fWMCvzz357/2etVKOiXdh3oJBNng6mCb0yng0AHoKY7Xk/muCIHMAEm61yauEiAUCJDUKgTIdNZCgFxhkAA1uhkjQK3CKpnIG4Q2thSQNHEUyIx1Isi18TioMdnbeq02kekWoRnEyy52LoXmdJUjhg4vJ5ZDRybVBQvNSeW02v94nxgAi/Y6wuGOtcduBxxLkKMtsY5zmLkcPMcPlUYYarjSRKXYv2XXEv1oxzjQp+VtJinXa/0dz+cPgH4SYOSu2DIiRdbqcopD/hkUh2hpsk1Nn0c=");
 
 export default MoonCloud;

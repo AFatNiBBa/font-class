@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-smile` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-smile?s=sharp-solid comment-smile}
  * @preview ![comment-smile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/comment-smile.svg)
  */
-const CommentSmile: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 240c0 114.9-114.6 208-256 208c-31.5 0-61.7-4.6-89.6-13.1L16 480 56.9 370.8C21.3 335.1 0 289.6 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208zM192 208a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm128 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM168.4 254.1l-35.8 32 16 17.9c26.3 29.4 64.7 48 107.3 48s81-18.6 107.3-48l16-17.9-35.8-32-16 17.9c-17.6 19.7-43.1 32-71.6 32s-53.9-12.3-71.6-32l-16-17.9z" />
-    </Icon>
-);
+const CommentSmile = createIcon("comment-smile", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCBAsGAAE2AiQDCAQgBYMtBzQbCAUjEaZrTCL7IzF2G1URdohCY2f6q7s3PImH/7eLuu9XdQ+gmolgRzRWcEamfTYV4g6A6e/d+T//9AGf0UcZG+fC7Ws39nkCiXV54AWSBZZpFji2O9thkqw90tIokhzf5LjcIY93s1NKpLvTF7hKbxq/auWUpFYGIBoCYMzcmTN8VIlKxOfV18XnpiEgxkAhkCFDWwGGywTayhXI5YJKVKv4H1gIIMr4J0ggRxkrsA2QgyTP8z4dmjRpVqdUL59Tp1R75UPDI96bHPHJrAsDZ8Xc+G7Oo6M+nPb53B+nfDri/Y4rLraIuDOON7+j9oWmtxxrdrtOnfZZswYPG9wq3p/986g2MTRaxlP93+jautMzDZ/5veMXa75Q/bpWe9rfy4VJej13u7vOm6yJaQFDHP1JLtwr2VqjOtQ/x7n6uYNbjrX6nT16UfD35THhHnz571H+fuGllz74GwaB4MCXAypLGwz/v2adBH5558/flW9RtZKkZ1BTAkHWvdp9UQKJAACk2NMpIZAskONXreuOAKE2AiRltQXItNFQgFxt3QQoaW+AAGW1zZSJvJZwo6nFFSR1bQeZgQ6DXFOvgpLhPo7KmkZmapShUB+9+IkamnCp6NOzdzG0GHaEth4ing4rloXOe/xKF7hpzdYtu1avWr9LITtmpLs3T5zBEz5Y6KOn3gpDFdvj/fU5q3fsXL91SzpnmOK809me+fYuICeM2lctSUSqd7fFHjsfOgA=");
 
 export default CommentSmile;

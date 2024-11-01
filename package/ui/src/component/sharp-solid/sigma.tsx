@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sigma` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sigma?s=sharp-solid sigma}
  * @preview ![sigma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sigma.svg)
  */
-const Sigma: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M0 480l32 0 320 0 32 0 0-32 0-64 0-32-64 0 0 32 0 32-210.7 0L246.6 278.6 269.3 256l-22.6-22.6L109.3 96 320 96l0 32 0 32 64 0 0-32 0-64 0-32-32 0L32 32 0 32 0 77.3l9.4 9.4L178.7 256 9.4 425.4 0 434.7 0 480z" />
-    </Icon>
-);
+const Sigma = createIcon("sigma", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABUwAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBMAsGAAE2AiQDCAQgBYMtBywbrATIngV20wf1rreRTdFjEfM7x8Xz/K/R7vszK+IDSUwb0bwSRTTRLDSpNELRSCh7iBbJq24bmMox9b89Ce+CVwwqqPZuMqv+J0nt+/xf7vlNOzrAT3KKY+Hper4GyJzPRwEG2lkeTksksEA5pgbdTQzCm4+3K9S5XT3RQnlX4JXzofljwhOKjgpA+gGw91hS/PnMJz8WIj8cBIHsBTSCChWmBexQCabVGtRqYT4Ls/9AIkBaea8soEaFnTgAoAZF6npjV0tPfVRFOnV19gQanRH4/LEsz7IcTVcE4EZu7JaRHMnhDMfij/0f/y1SaZrmQWMPs9P46eULR5k8/qnRj59fqfjwPnjPSyuBIPzeu3N9O/63dxXw6/P/pD96YT4PSmhXQKhWLKxwOg8gDwQAUHJNzAMExUYFAABAt9cCohMBRatOAZUp/QJqnZYLaDFro4BWnQ4JUneIYWdKUHS7CCqb3AW1YZ9Aix2+mK2GU31A7ONnf9+SpA7xKVq7ak2zrRmM5dw3Qev59ma2vOQary2FF1Et0+WK7tbITZ1nkDGCfRFZa5U1Gts0q7PbO8ZtR9fPr1+yXbO/vsS18e6lkD9A6nVBKAoJl5bLF9rIAAAA");
 
 export default Sigma;

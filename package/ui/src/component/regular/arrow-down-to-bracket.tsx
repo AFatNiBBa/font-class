@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-to-bracket` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-to-bracket?s=regular arrow-down-to-bracket}
  * @preview ![arrow-down-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-down-to-bracket.svg)
  */
-const ArrowDownToBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M369 217L241 345c-9.4 9.4-24.6 9.4-33.9 0L79 217c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l87 87L200 24c0-13.3 10.7-24 24-24s24 10.7 24 24l0 246.1 87-87c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM48 344l0 80c0 22.1 17.9 40 40 40l272 0c22.1 0 40-17.9 40-40l0-80c0-13.3 10.7-24 24-24s24 10.7 24 24l0 80c0 48.6-39.4 88-88 88L88 512c-48.6 0-88-39.4-88-88l0-80c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const ArrowDownToBracket = createIcon("arrow-down-to-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABagAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBTwsGAAE2AiQDCAQgBYMtBzwb2wQR1ZolyH4kZG7ia77jTKYsjhNN36r4JR4e1v137sy8by+RmNYRcCjrBipCEUpk3Eil/fUFAARtjiOlj0ysQoa2ui4iE9c8//OnBywAzLYGKfCq1fkEdl7t8wlFgc10AjZrZxYl0S8GdF18kmHih80ZsjgdB+RITiYvsT9/aPzSbAuJXAogqgAwaubU8e6+j/cRL/LXxQtjERCjQGeBFCnaBBgqFWiT6YxMJngf+bz/D0QAUUDuNgEZMozBdEAGEkmWtfUszZVnM0pzJUunzZx2tueMONV6ocf0iDjd61yzmBkXepxsWiRsqD9aWh67G4+Pt5zpfXFQWdzoe7kjbe56ueryny4vu5eWfV0venl5ML19G1bNmKG9fvLk+nYNR5zNkesmyabqO1eqq1RfuVM9ScELNtuxY2SVkXJGlwOB4MKjV+8WVg79X1SagI93/rWnn5H83bibXEaRBARp/3z/eXEX4q4AACSxRte4i0BitIRca5ljAoQSBEgUKBEg1apKgEyJfgLkdDRYgAIlpkpFVizUmd/hRJnlcGqItXCmzlU4Z6gnfoG6SO2Jtgb6O5cAHAJ2ElmcopnGKmMiZBw1LBvqo5rnTopu3562GR+Arjx6V6eB9otkcYpmO5uFAszrRnLM7Y9jOO+pT+/23HQkYMBNrE2IpL68rv2PXtm66Nmj6irruX0AAAAA");
 
 export default ArrowDownToBracket;

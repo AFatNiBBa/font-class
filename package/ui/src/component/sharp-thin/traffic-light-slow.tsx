@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `traffic-light-slow` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-light-slow?s=sharp-thin traffic-light-slow}
  * @preview ![traffic-light-slow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/traffic-light-slow.svg)
  */
-const TrafficLightSlow: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M304 16l0 336c0 79.5-64.5 144-144 144S16 431.5 16 352L16 16l288 0zM16 0L0 0 0 16 0 352c0 88.4 71.6 160 160 160s160-71.6 160-160l0-336 0-16L304 0 16 0zM160 432a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm0-96a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm40-80a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zm-96 0a56 56 0 1 0 112 0 56 56 0 1 0 -112 0zm56-96a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm0-96a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0 176a16 16 0 1 0 0 32 16 16 0 1 0 0-32z" />
-    </Icon>
-);
+const TrafficLightSlow = createIcon("traffic-light-slow", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABnAAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCSQsGAAE2AiQDCAQgBYMtBzkbUgUjEaZrSyL7IzF2Y91ETxSwiRZHQx27zfAknud/v1/73HsxqeIVqmlmkcQjIXuETpNJddJ0SvlrKiW8ef3LJAcphbmJnG8s7I36a1/XDgsxcc3zP/8GjMIXe5Rf9ZcOZI1RiRMo4LSo8waZDWyiuMVtN0fEQ2OExAlabt3ro/wpBD7Cl+bXlHeKWgFkEgBHl6cn/vXSS366XfLjGIEcgUVBRcWsgF1VMKtZRNOEXrpO/AdiAqRffLMCGkbwhg9AA8VQayE8CQfFMFgUDjnevIVZgEhownsv+ML3wJAEOdlMFhMEwTuf/bh7v8MEEoSQmTinHFINm80qBuUDxnAGSbVsMj+SZmTTBCPPmG5IQp43wTJzMJdqWTU0kmbGkycc3xH0iHsl/bI+qeESf+nRgMgngN16ZLxF3ag/PtY3qiMB1vH4KA5EgkEEEZRDkCCWRwI+4LevZ251d29lct7L3///34vALIJq5eFhReVn8tYPD9d547llXAhs9LjcB8cHAHLVhvD+MYPn/UlnIUvw/+/zb/U+3VEOyxIGFRDqamftLvWQQwEAlDxYJgyExV8NAfnUUZ8CYhgBRb9hAdWMSQHNsBUBfeatCeg37FSVNiSuxdI6AmGrIkhctRFkYtsEhbfLAJU4FRjNoGT+F8wROgRCpmEHW3vsiVfzGgt8GW2/Fz6smNfLOgu8FeSrUK5WnlxFagd4tbBwnTKhW2CIH8Ic2LKHecKXS0/leDRQrUbRsu36JF7w835z9dutLbCOxKKOMhAEwCJ8vV02MOq0+YgAAAAA");
 
 export default TrafficLightSlow;

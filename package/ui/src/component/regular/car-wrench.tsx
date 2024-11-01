@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-wrench` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-wrench?s=regular car-wrench}
  * @preview ![car-wrench](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/car-wrench.svg)
  */
-const CarWrench: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M468.9 104L456 104l-.5 0c-.7 0-1.4-.1-2.1-.1C441.3 102.5 432 92.4 432 80s9.3-22.5 21.3-23.9c.7-.1 1.4-.1 2.1-.1l.5 0 12.9 0 17.6 0c10.8 0 18.4-10.6 12.5-19.6c-3.6-5.5-7.8-10.5-12.5-14.9c-4.2-3.9-8.8-7.4-13.8-10.3C470.8 10 468.9 9 466.9 8C456.4 2.9 444.5 0 432 0c-29.1 0-54.5 15.5-68.5 38.7c-3.3 5.4-8.9 9.3-15.3 9.3L163.8 48c-6.4 0-12-3.8-15.3-9.3C134.5 15.5 109.1 0 80 0C67.5 0 55.6 2.9 45.1 8c-2 1-3.9 2-5.8 3.1c-5 2.9-9.6 6.4-13.8 10.3c-4.7 4.4-9 9.4-12.5 14.9C7 45.4 14.7 56 25.5 56l17.6 0L56 56l.5 0c.7 0 1.4 .1 2.1 .1C70.7 57.5 80 67.6 80 80s-9.3 22.5-21.3 23.9c-.7 .1-1.4 .1-2.1 .1l-.5 0-12.9 0-17.6 0C14.7 104 7 114.6 12.9 123.6c3.6 5.5 7.8 10.5 12.5 14.9c4.2 3.9 8.8 7.4 13.8 10.3c1.9 1.1 3.8 2.2 5.8 3.1c10.6 5.1 22.4 8 34.9 8c29.1 0 54.5-15.5 68.5-38.7c3.3-5.4 8.9-9.3 15.3-9.3l184.4 0c6.4 0 12 3.8 15.3 9.3c14 23.2 39.5 38.7 68.5 38.7c12.5 0 24.4-2.9 34.9-8c2-1 3.9-2 5.8-3.1c5-2.9 9.6-6.4 13.8-10.3c4.7-4.4 9-9.4 12.5-14.9c5.9-9-1.7-19.6-12.5-19.6l-17.6 0zM185.8 208l140.3 0c10.1 0 19.2 6.4 22.6 15.9L365.9 272l-219.9 0 17.2-48.1c3.4-9.6 12.5-15.9 22.6-15.9zM89.4 287.9c-.2 .5-.3 .9-.5 1.4C64.2 306.7 48 335.5 48 368l0 32 0 16 0 32 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 320 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 0-32 0-16 0-32c0-32.5-16.2-61.3-40.9-78.7c-.1-.5-.3-.9-.5-1.4L394 207.8c-10.2-28.7-37.4-47.8-67.8-47.8l-140.3 0c-30.4 0-57.6 19.1-67.8 47.8L89.4 287.9zM368 320c26.5 0 48 21.5 48 48l0 32L96 400l0-32c0-26.5 21.5-48 48-48l224 0zM160 384a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm216-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const CarWrench = createIcon("car-wrench", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABvwAAALhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyDdQsGAAE2AiQDCAQgBYMtBzEb9gUjEbZqLmqR/bFQbnrYHk3xp1GcCZ7v6+zP7e6kJq/HeAPxE1pBq+QTO1ArkcsEwMQ19f8X0bQGsI9VWoOsbZp5PoGdr63Kh09b48AmihucN+qAQlFoPwNLTshiHGCsMa4Ai9yXymeimIeBwwQAQAIBAIAG3Tq14ewLeSFy2XsIuUwrQACkAQAaAUzABGIRAGowESAWCw1YWAi8EK+X/QdqBADESaAbfIgF+ACPgXcAgAWAgdOyhvlXBbtc7dgOP6ur7VDDlK1E3Gq22hy9Lt1jzxbb9kSsCl9JM9XBnOWhSirp7jJ3KAaNwlbYtj07Y1PU6hS3wg730ITW2EfyV0XY4gnbVeqJWAV84Svnpf1tZZ+TK0ryZVV659mIzJajGoHZa1K3xIj4VSYoXV81Ww7tKmvTNisl7pSNkZ0HbAoTWRGF+OKMdRGr0u3OW2EHT8JHXN1yuD09aXvg9q+JV4Ze4U43v3AfEEGSQ0KSRUDiXaWl5d2GdBmcqP+H3OzcbfFRFjcbfDPkv04c1GVqs/LSUleQP5tNTNBs6GD6ucF01VyVqAd3DkQPm4/w+DE2gCcE0Jf+7RCAUcGaQDQZhHXoEJZB/co0tU/wKARi2zElNidiPhE5sVP8seEJBU/gqqmpj8a8+qTgxfV6HcKOwAn1foSpuRwABBDw2IXr+gXU/PWxaQ0AXh3//q/A0+U9K/+N7YAPBgACZo43p7cBLlzyHwEAFDNkKkkLw0QAg9vcL7UvK0UqKAhyfQMnCgHAJIZABAALRTYCgIN4ShEAnCg6YSKWCyGUPo3WwJcJWpMypmstQjmgdVDD+ZiTUDE/cdMHavrDzD7atEtoMkgX5hXoKj2bU5m/WlT3VuvN/oypvCYTLmTouLGThwweMbkjmtgmOWVM0yVOkx/qwrwCXaUPFx/au+LYxEkjpk3HgX6q9fXRjKnLzTPhcAwAoOjjAIz5YqhBAybmTps4ZOyg4QA=");
 
 export default CarWrench;

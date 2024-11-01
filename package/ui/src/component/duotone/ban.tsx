@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ban` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban?s=duotone ban}
  * @preview ![ban](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/ban.svg)
  */
-const Ban: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M99.5 144.8c12.5-17.5 27.8-32.8 45.3-45.3L412.5 367.2c-12.5 17.5-27.8 32.8-45.3 45.3L99.5 144.8z" />
-        <path d="M256 64a192 192 0 1 1 0 384 192 192 0 1 1 0-384zm0 448A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-    </Icon>
-);
+const Ban = createIcon("ban", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABcgAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBSwsIAAE2AiQDCgQgBYMtB0Ib3wTIFkrLw//b9f0+t6p7ANVMBCKSkEERwAhfUvrWD6W4fL6bz+/50QF+o0NrLFsayAKf83kCiU4LPINMI4DY023iLYifxIgoCen43PFVh84FeXybHVMhXUuf44z9BzB+1cYxkjoZgGgMgHHzZ0/1dk3UpPi8fJ743BQExHhQCGTI0F6AkTKB9nIFcrmgJpUlNVGWBQFElX2KDFRRwWTMAuQgSSLP27WrXa/SIJ9Xr1J38YlhEa/0esKhno8Pfbnu8eGv9n4yDvd5asRr9dJP0yO+mvBeHB7/7rQv530/5fOxbzs07p2pX8xd/FiPtfGg67oujxo/+r3z5+s+Vx4c+Aov37w5YMDNmy+/MnDgK1h/e5KznBvRfsKE9iPOnZ3k6HSz1b3b3qtXV/f7desBgaDc8stvyxuN/L92vQR+fvXPf8V7VL6dpEeoLYEg61n2tCSBRAAAUuzTJcEagcxgiZ/Vd1mAUBcgqaqLTDuNkaurByo6GnReVddsmcjrCM0tBZL6diIz2H7kmnsOFSN95FU1j4xOEhmk31z65MmkpaJf777F8OIYGTJDBJ2OKK7NrvtUusmqdbbbZo+11thoT2yXqeFeW03O6CQPKvTTW1+F4Ypy+qrPy9tlt417tT5nhOK929W+vL2bOIlz+zvJZESKrN6qldt6daXRAGrzAQAA");
 
 export default Ban;

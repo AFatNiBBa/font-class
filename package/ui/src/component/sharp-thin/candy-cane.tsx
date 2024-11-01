@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `candy-cane` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candy-cane?s=sharp-thin candy-cane}
  * @preview ![candy-cane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/candy-cane.svg)
  */
-const CandyCane: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M331.4 123.5l-31-93.1c-3.7 1.9-7.4 3.9-11 6.2L222.5 78.4l50.9 81.4 58-36.3zM315.1 24l30.4 91.2c4.9-2.1 10.1-3.2 15.5-3.2c7.9 0 15.2 2.3 21.4 6.4l68.3-68.3C426.8 28.9 395.4 16 361 16c-15.7 0-31.2 2.7-45.9 8zm35.5 106.4s0 0 0 0c-.6 .3-1.2 .7-1.8 1l-12.1 7.6s0 0 0 0l-54.8 34.2-13.6 8.5-8.5-13.6L208.9 86.8l-8.5-13.6L214 64.8 280.9 23c24-15 51.7-23 80-23c83.4 0 151 67.6 151 151l0 5.6c0 14.9-2.1 29.6-6.2 43.5c-.3 1-.6 2.1-.9 3.1c-1.3 4.1-2.7 8.1-4.3 12c0 0 0 0 0 0c-12.2 30.2-33.7 56.4-62.2 74.2l-25.7 16s0 0 0 0L397.6 315s0 0 0 0l-94 58.7s0 0 0 0L290.4 382s0 0 0 0l-90.6 56.6s0 0 0 0l-12.6 7.9s0 0 0 0L95.9 503.5 82.4 512l-8.5-13.6L23 417l-8.5-13.6L28.1 395l342.5-214c5.9-3.7 10.2-9.4 12.2-16c.5-1.5 .8-3.1 1-4.7c.2-1.2 .2-2.4 .2-3.7l0-5.6c0-12.7-10.3-23-23-23c-3.6 0-7.2 .8-10.4 2.5zm43 49.2c-3.6 5.9-8.5 11.1-14.6 14.9l-72 45 90.6 56.6 32.3-20.2c25.3-15.8 44.5-38.9 55.5-65.7l-91.8-30.6zm97 15.5c3.5-12.4 5.4-25.3 5.4-38.5l0-5.6c0-34.4-12.9-65.8-34.1-89.7l-68.3 68.3c4 6.1 6.4 13.5 6.4 21.4l0 5.6c0 2.7-.2 5.4-.7 8l91.4 30.5zM382.5 305.5L292 248.9l-92.1 57.6 90.6 56.6 92.1-57.6zm-107.2 67l-90.6-56.6L96.7 371l90.6 56.6 88.1-55.1zM172.1 437L81.6 380.4l-45 28.1L87.4 490 172.1 437z" />
-    </Icon>
-);
+const CandyCane = createIcon("candy-cane", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABqAAAAKzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDfAsGAAE2AiQDCAQgBYMtBzEb/QXIhof/96/6fe57VS2NUCOrugdi9kVEEFKFvX4mRpz/y/nd89uA3+jQxqS5o21RNOfzBAId29bzLKDswDJNwJqa99JAXGcoe0Ier9ujQLorfYEb7JzGD7q6lCTLAEQjAOa0rlvhnfZoj/j8/xeJzy1DQMwBJYEMGXoIMF0m0EOuhFwuaI///2f/gSUCiCL3lQnkqMbn+BuQg6Qyz2vqT9c2VoFiTaEuL6uN1fvLG8q3dlgfG2JVduuGO2qu6dgaby28uv+GiyLiorg1ro4ODLsolnudohyonaP/6us1H854s4+4sMutLnJrB1J4dnL/wNzUqdYXzVuUdscdne9o1kfcPfDqDnNOkQ6L10fRe+6JiIdnro/biAs7bFhf3lDuGW1NoclX+j7d+PRPfb7Y94Wl83pt9bbPXTdnsDFr3NKwu9cmkK9dlbWXzZ9n9uwurf0OAoSXwU7fOM/Y1a7ztblDLBz221N39y7qtF6Ijh1h5Gs3gO/A1qnga7BxMvgYbJrs65XuPs/Hyl+6bEhkkYo6zCnMfbDt0kXD+2/5Q1vlpp476ue2FOX5vPnaanEx29zz8LEBxtu6eYpNk2yefHjuxsnAbZ0ISYS5b1b1bV8Ys9r68UAguPW5R3/Y3jD9r8qaBL597ZcfrJ9Rw//vJOlpVEogyIb/P9yWRAOJAACkOKdvokEgeV8l91Nr3S5AqEaApKhagEx3jQLkqg0ToKCXCQIUVVsnE3mV0MHWAiS1ToLMROeBXAfPg4LpPi4XdYjsMucuUu4nM3khhhesK40ZObo0tdTblPFXLqOXp5Uma4PP8aEh8KJ9jjvmjL32OOhMhTplRe2soxYOIQt8UckYI41WMlVpcefm6bK9TjntoOOOWatMU9o+Guzc8OQh0Exc2rEak0Sk6t2fAnlEpOwFAAAA");
 
 export default CandyCane;

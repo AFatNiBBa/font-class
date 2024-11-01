@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `school-circle-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school-circle-exclamation?s=sharp-thin school-circle-exclamation}
  * @preview ![school-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/school-circle-exclamation.svg)
  */
-const SchoolCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M496 240a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 272a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm12-92l-24 0 0 24 24 0 0-24zm-4-132l0-8-16 0 0 8 0 96 0 8 16 0 0-8 0-96zM16 112l144 0L320 0 480 112l144 0 16 0 0 16 0 138.8c-4.9-6.9-10.2-13.5-16-19.6L624 128l-144 0-5 0-4.1-2.9L320 19.5 169.2 125.1 165 128l-5 0L16 128l0 368 240 0 0-112c0-35.3 28.7-64 64-64c2.2 0 4.4 .1 6.5 .3c-1.4 5.2-2.7 10.4-3.6 15.8c-1-.1-1.9-.1-2.9-.1c-26.5 0-48 21.5-48 48l0 112 32 0 64 0 7.2 0c6.1 5.8 12.7 11.1 19.6 16L384 512l-16 0-96 0-16 0L16 512 0 512l0-16L0 128l0-16 16 0zm48 80l8 0 64 0 8 0 0 8 0 80 0 8-8 0-64 0-8 0 0-8 0-80 0-8zm16 16l0 64 48 0 0-64-48 0zm304-32a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-144 0a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zm88-40l0 8 0 24 16 0 8 0 0 16-8 0-24 0-8 0 0-8 0-32 0-8 16 0zM72 320l64 0 8 0 0 8 0 80 0 8-8 0-64 0-8 0 0-8 0-80 0-8 8 0zm8 80l48 0 0-64-48 0 0 64z" />
-    </Icon>
-);
+const SchoolCircleExclamation = createIcon("school-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAN4AAoAAAAABzAAAAMuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGSEQgsGAAE2AiQDCAQgBYMtB0AbUgbILgdsIpMrq0fXjGNRelqF5mZu/GqN+DmxGPzzrvXel2T3z09me+YTp8zogByzbW0lOxS2bAkUgg5u90hKOYqy9Eb5H3N7f8M0alIrlesLDWgQ4tYwi25R/LqFutA4QloDAD38R5jcVyAQahhD4mGNABKyrmuBxeNNXPP87SlqIFWAu+mQIpsivft8ILMJrDkKpHQD2oRtCsz7Lq7d7grJe+D0W8uBuWxeACfdxfoAC0eAwVpIBWW8KzC8Zk7msUgi0QsJ6AWSQAAaDkBEgAUsUI8AGIRFQD2OCDgcgrck3f4PFAIA5QFouLcDmgF/oBQAcAAYUufq6opLhpvVhUJZWXHIFdyckPMrjybpdvsl9i0Uii92WFEkdFyHA3N0YLHgva57CV12A8639Dt22uDwtv8pcD54FKQ5Ql4ACpJ5RQDzXM1WCORcqCR578XnaJbKQ51pcPPVjuu2pdAuL/pJebsaCuF8hSaVrKQwO/huGlStGK1AuNf6lTdq1W5R322/7Lhu0twceOl/auj0Ow44N3IQQyhsKUTOko8qwVmixZ1s9alXavH7Op/AY4e+RYtCw+OnM1WhbjK1NWC6N2/Tpnl3Y9qiAp6wsJoaFLc9nCAvI2GZBN99+4Gnn6XtPGUycRTT55Q8wYWM8JIe5E5t89XyJSW3rKxtkVG3l282Rxybfy2fYZuMrOtUVTItYZqEZJxo/h8Xd8Mw3bo22ff/S5uznqZ3716buue2VcFbTbaaaEyI2uz/Q40bJUZSNLUbJZYajwMAnTbUtb6/dIN+oTUAvD//8C/+L8ObFZBgABDYTv9DFsUBAJVfAJA02kOLmh8SYPgp4KemXIAAEB4QAIY8HgFgqSNDADg8HREAORrpjQDI45nJIleMKGdxTDWkbKda+rCX6ijnLjXHIJ4k8pTLHgny7Vh+HZpmTBoYPS/Gu3SLA2JlRajYuKXW5MDY2uLbo3W0x1bW2GqLXVZbZb1dKXyHyendNhtTJzz6u5HudKEbkQHE3vXzmjkpzw47NUm5qv80A4njB9qxp75/e9gNFNuDAoMBmZqDyND5maHOzr/ZsC3ffH4D");
 
 export default SchoolCircleExclamation;

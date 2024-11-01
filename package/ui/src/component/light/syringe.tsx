@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `syringe` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/syringe?s=light syringe}
  * @preview ![syringe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/syringe.svg)
  */
-const Syringe: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M404.7 4.7c-6.2 6.2-6.2 16.4 0 22.6L433.4 56 384 105.4 315.3 36.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l80 80 80 80c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L406.6 128 456 78.6l28.7 28.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-40-40-40-40c-6.2-6.2-16.4-6.2-22.6 0zm-272 224L82.7 278.6c-12 12-18.7 28.3-18.7 45.3l0 101.5L4.7 484.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L86.6 448l101.5 0c17 0 33.3-6.7 45.3-18.7l192-192-22.6-22.6-192 192c-6 6-14.1 9.4-22.6 9.4L96 416l0-92.1c0-8.5 3.4-16.6 9.4-22.6L144 262.6l52.7 52.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L166.6 240 208 198.6l52.7 52.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L230.6 176l66.7-66.7L274.7 86.6l-78.1 78.1s0 0 0 0s0 0 0 0l-64 64s0 0 0 0s0 0 0 0z" />
-    </Icon>
-);
+const Syringe = createIcon("syringe", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfAAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCMwsGAAE2AiQDCAQgBYMtBy4bMQXIHgk2Lny9iCsrHv5/7X/73JlvuA6ioo1mkYY3D90qi0h+Vfteu/vT30/9YbXRAJ/BbjiTyPJoiige73yA0ZYhNkufKE6djnZs85Ba/YoMqaGMHWePz88t5PE2uisjPUk/cEueNP5q6jxJngGIOgAYs2jeDJ9+xa+IHyXED9MQEGNBIZAhQwsBhssEWsgVyOWCX1Eqtf/AggCinGKJPC9HHsNlQA6SlOcdZlYvq5kvrH2rbbrfsEvMjoXxsIGpFoTEPmj8qNHCmBddyDwyRrrBq2fPm/2cCAuznE3nRfW41m1RdI35cb9atYg403hUzIm2zQ3jQfmZUzmbl237ss7Lf21+bPzh/punT99h/DgvXlTzrFkuDoeNG4/vbD7k0Gaq/bOurta22QavPH364sUbGzSv9/GjBWTM45rLLVfzygYrnP1dtqQxYy0wYwalL7lLIPh35FnbVbWH/6+snsCfN//vJ5aWpLL0EpUSCLLupe6WJwDaQWBXioPaUoRAsu9gjket4aEAoRoCJOWqCZBpro4AuWq6CVCmlQEClKtmnkzkVUIDK26Q1LAHZAY6AXINvAZlhvvsKtcgsgzk5Q/vAzDxxBGd0Kvo07N3MbR4TTN+UnFg+7AirO58sJd1oYU22mWn/TZYb4v9A22vGd4DdpiIqBP8UKGPnnorDFVM537GLrTBXvts8fnz3RimWG/v7CCu3YV0iTLs69skEali35G9PyQBAA==");
 
 export default Syringe;

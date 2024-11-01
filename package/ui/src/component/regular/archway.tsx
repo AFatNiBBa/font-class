@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `archway` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/archway?s=regular archway}
  * @preview ![archway](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/archway.svg)
  */
-const Archway: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 56C0 42.7 10.7 32 24 32l32 0 400 0 24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l0 352 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-32 0-32 0-64 0c-13.3 0-24-10.7-24-24l0-120c0-44.2-35.8-80-80-80s-80 35.8-80 80l0 120c0 13.3-10.7 24-24 24l-64 0-32 0-32 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l8 0L32 80l-8 0C10.7 80 0 69.3 0 56zM80 80l0 32 352 0 0-32L80 80zm0 80l0 272 8 0 40 0 0-96c0-70.7 57.3-128 128-128s128 57.3 128 128l0 96 40 0 8 0 0-272L80 160z" />
-    </Icon>
-);
+const Archway = createIcon("archway", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbwAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBZwsGAAE2AiQDCAQgBYMtBy4b5QTIjsO44TuyxVL+4+H7ua/OfUma0j2IGQAih24cLZIFQmG71qLatb+ZIXtRT1zz/M+fHrDIHynSOqjBe9HnE5gOqHHn4wYZ2EwnYLN2dgY/iH6RPkl8nwzjD5vBBfL4OFKQniR4UD40/tTdbZIiAxDtADBvy4ZVvmiN1oifa+8SP1uBgJgHKoEMGXoJMFMm0EuuQi4XtEatFv8DKwKIOnzbBHIU2IZdgBwkWZ6Pa+xaFi355rJoyp4eUra82v3xwBRlhLNNTa/1iHhu+FuT3xn6Ri8xEYYksmgKuf4moSUimqUslWXEy3M+X/LtrPcTZZlFc/+32r31dz+Hud95XfXGus413qsBidVeHL0qNh9q1+7Q5riq87q5c1dqA9Vc07Vi7F6VvWvbvadh6F7FxAVr1y6YWOw1tKGdvUAgeP/3ydvTduZ/DWUCf3z07//ar6jWmqS30CCBIBtZG2lnAokAAKS4rH+CQLJOBmebPRQgNKHDSZ0mONNTOzjXZARc6GMSaTyzQSbyRqGTXQAnzc7BmcluwblO3oYLM32f1ekUmW/RnkE/7RIWj8CiTdW40WOr6dW2Ioy7kGl1RmWWhl6mkWE46LAzTrvokIOOuThA560qLzllsQYu8kWVcUYbqzJdddw+797skPMuOOaM03mdGar73lCX9enDoCaMO97WJBGp/jcN+8q+awAA");
 
 export default Archway;

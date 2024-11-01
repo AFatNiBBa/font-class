@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `layer-group` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-group?s=sharp-thin layer-group}
  * @preview ![layer-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/layer-group.svg)
  */
-const LayerGroup: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 238.5L39.4 128 288 17.5 536.6 128 288 238.5zM556.3 119.2L288 0 19.7 119.2 0 128l19.7 8.8L288 256 556.3 136.8 576 128l-19.7-8.8zm-432 99l-19.7-8.8L19.7 247.2 0 256l19.7 8.8L288 384 556.3 264.8 576 256l-19.7-8.8-84.9-37.7-19.7 8.8L536.6 256 288 366.5 39.4 256l84.9-37.7zM104.6 337.5L19.7 375.2 0 384l19.7 8.8L288 512 556.3 392.8 576 384l-19.7-8.8-84.9-37.7-19.7 8.8L536.6 384 288 494.5 39.4 384l84.9-37.7-19.7-8.8z" />
-    </Icon>
-);
+const LayerGroup = createIcon("layer-group", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABcgAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCDwsGAAE2AiQDCAQgBYMtBzIbEQXILgNsY4J+MApFu5hh2caNDz/9udrcixCeaIzn+b/3bZ/7bmqx0i2hSh24ddAABijWhBoGtA7gX6PDw98P9pvvUGv4YWYJJuppbS39ulBosxCXzGv/CSCwkBBi7elW+94hZuv45v+az4+Ojg7wGx1KFWXjrblbS2BiqQ00oNlwNqMJ8MytsYeKinDs4YywpDGkx689fp2h5t8xKeU54F7eNP+YfVA0DQAyDAD2juczLFtpJX/tyKcJCGQPwCxCgwaTCGwSCyZJzIKqCq20j/+BDAHSCfycAio6cQHuABUUtUqUxim7WqqVrKqlqqPVldU1WqHF0eHB4T5548sBHVEg/hu/z7+4JFklr4kQa22x4E7WJ8k/LxCGOP+sKDc46zf1K8EoEp3O1ktBLC98WJRYLCIg4DsEEyMxvS28pQvDUxAACML7Dff01f+KRYC/H0cebi9FuyIB3QoIzXI7ars0AeIygUzJK9zKBwXFAQm8ar8HAdGLgKJTr4DGBAMCVa8lBDpMyyHQqdc+sVQlYtzOCYp+t6Cx4R1U4z5Bh01faafxiP2N9hb6dy+hP0O9bZyKJ7nMjw0H40JkXaywWQ6+poEQHcSpO7eenTh24XlCH81yL270NaTni1hKXBIr4+32992rTjx6cuHObdukgt/3g1718SHSRIC5oqwopKgdWYp9jw==");
 
 export default LayerGroup;

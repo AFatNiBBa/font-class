@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-down-left` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-down-left?s=duotone square-down-left}
  * @preview ![square-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-down-left.svg)
  */
-const SquareDownLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM128 198.6c0-12.5 10.1-22.6 22.6-22.6c6 0 11.8 2.4 16 6.6L200 216l66.3-66.3c3.6-3.6 8.5-5.7 13.7-5.7s10 2 13.7 5.7l36.7 36.7c3.6 3.6 5.7 8.5 5.7 13.7s-2 10-5.7 13.7L264 280l33.4 33.4c4.2 4.2 6.6 10 6.6 16c0 12.5-10.1 22.6-22.6 22.6L144 352c-8.8 0-16-7.2-16-16l0-137.4z" />
-        <path d="M128 336l0-137.4c0-12.5 10.1-22.6 22.6-22.6c6 0 11.8 2.4 16 6.6L200 216l66.3-66.3c3.6-3.6 8.5-5.7 13.7-5.7s10 2 13.7 5.7l36.7 36.7c3.6 3.6 5.7 8.5 5.7 13.7s-2 10-5.7 13.7L264 280l33.4 33.4c4.2 4.2 6.6 10 6.6 16c0 12.5-10.1 22.6-22.6 22.6L144 352c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const SquareDownLeft = createIcon("square-down-left", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABhgAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBQsIAAE2AiQDCgQgBYMtB1wbMwXIjsO44TuyxVL+4+G/Nb/uq+pkAKgHGNWMAibHoJiWQK36boGFy1lLoFOEzBOX0x/nTw+4hvOc5yNun4+xLYHOO1+6LQsooTDOjLI2FT3QQfhNRAqVQoYpHhmWnKGIN5kK6V6Km/I/gPGrLs6RNMkAojUAZi9fvEhDLWopvqt/TnxnIQJiDigFMjK6CzBNFuiuUKJQCGqpXqcW9XpJAFElz86gigq2YB+gAElIRdGna9ms0qJYJseaLg/xYODVDtNjedxppmm3nGq/JH7H3X5N43bHnHK6N/id/i3izdD3uuW4P+TdAc3j5aC3nZdu7Yk+77Z+9/fet3Vy/2WcaD+7yTZmz7a0ceOlY72YpdjWpFt8Wa2lDbNQ3LRNm6ezPAXQtCatdXLb5isuA4Hg568+7LO+1bT/GzdL4Jcv/vxXeLhei4b0LhpLIMjD6sOsiQaAMIDvT3FMn2hwCoFsigTmXZu7LUBoigBJVVMBsm5aC1BoaqgAFT2NF6CqqcWyKJoI7a1NWNLcQSyb4DhWaO8zrGKaL9NV7SNzTWGK8quXuaCE528rR48YVU4phzVRpY/kZqeWy+GgY7ZnsDpom/32OWKrLXY6UqCHLModtdeCGTLfB5VGG2GU0hTlcfPaXIb0IYft7Ovnm0xVPh8Ncmw+fLDaTQKMeUslmUiRO19YazgF5S/RHU7cwV2b+jUFAA==");
 
 export default SquareDownLeft;

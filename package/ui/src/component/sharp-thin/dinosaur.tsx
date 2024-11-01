@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dinosaur` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dinosaur?s=sharp-thin dinosaur}
  * @preview ![dinosaur](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/dinosaur.svg)
  */
-const Dinosaur: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M427.1 0L432 0l24 0C557.6 0 640 82.4 640 184l0 34.2c0 76.4-37.6 147.9-100.6 191.2L512 428.2l0 75.8 0 8-8 0-112 0-8 0 0-8 0-45.6c-6.1 1.5-14.5 3.5-24.4 5.5c-11.6 2.3-25.3 4.7-39.6 6.2l0-16.1c13-1.5 25.6-3.7 36.4-5.8c9.9-2 18.2-3.9 24.1-5.4c3-.7 5.3-1.4 6.9-1.8l1.8-.5 .4-.1 .1 0s0 0 0 0s0 0 0 0s0 0 0 0l10.2-2.9 0 10.6 0 48 96 0 0-72 0-4.2 3.5-2.4 30.9-21.2C589 355.9 624 289.3 624 218.2l0-34.2c0-92.8-75.2-168-168-168l-19.1 0L423.2 43.6l-1.4 2.7L419 47.4l-35 14 0 50.6 104 0c39.8 0 72 32.2 72 72l0 72 0 8-8 0-72 0-2.5 0-2-1.4-72.4-49.8c-34.9-24-76.2-36.8-118.6-36.8c-52.4 0-102.8 19.6-141.4 55L16 347.5 16 496l256 0 0-38.8L102.5 423.8 96 422.6l0-6.6 0-56 0-8 16 0 0 8 0 49.4 169.5 33.4 6.5 1.3 0 6.6 0 5.4 0 16 0 32 0 8-8 0L8 512l-8 0 0-8L0 344l0-3.5 2.6-2.4L132.3 219.2c41.5-38.1 95.9-59.2 152.2-59.2c45.6 0 90.1 13.8 127.6 39.6L482.5 248l61.5 0 0-64c0-30.9-25.1-56-56-56l-112 0-8 0 0-8 0-64 0-5.4 5-2 37.2-14.9L424.8 4.4 427.1 0zM464 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Dinosaur = createIcon("dinosaur", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABowAAAK0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDaQsGAAE2AiQDCAQgBYMtBy8b6AXIhiDQmc3K9kWRw+AAMHSPUCFSsHrgKvAT1zz/8+/ztCJ4pAoqfXsqioVlnk9gwFHeBA82m8lAeKrzu/luqIbIkSR5Uk9y/jDdsP0r5OOc5QokNyUf4IpSqfhFXcdJ5HIAogoAhsyaNsErJ+JExPv/P0m8bxwCYggoCeTEaQAw/Z1AOK8E5+VzTsT//2v/gSUCiDIKJwR59et+gbOAPEgk+fzr5YuFivmZxUK2qpgVv5zy6QxxuPMj/VuHEFkWEXFtjTuaR9xd+4baNxRviGLUjogjEa4doGKENIl28Xynh5u/GvjSzCzqRA1xurPozjb31jVsrhUz46Psi8nTAa4YEdQKPVUMIWZEzRDCrELY5mfF17MumTDjm5qba13fMsu2P1avqB+1B1xX89oa19e6oXbT+6rc91uTD1Z+4L6XC4WGE6Jbt5jQVN9br/rzNuOl0t2pjo6eqj6lii7/nLqqSlJFAgDgKpnOFhstr4mzPjpwec+mYuQfF0dGdd8LJR10s9qJbt0qjZZKx1Yxuovpg6d48uB216KVe0oWK6e3VBWpLu5tYrJyCqooSaV1UrfIaerwToP7zDLihpGdDDBYuT8ubt6cpgYrGGKi31SfdKJSpROVDcRDz/UY8+Siyv3/S4sJOPXcH7/01/3/SnI4uQ+pBAS59v+3Nz85DFEYQJLETk3JGwUSH0hoVSu4XoCQIUCiTCZATn1VBMjLtBOgoJEeApTJTJMT+fJCDQsmk6hgC5PT0wEmr4bHmYL+3o7L1Iicc6uuqf5bZo1EYMSmUpeOnUt9S8eWofmrnFf7la7d1jvTSBu5aKVNNtpuheXW2A74VhOyHTYYycARPqiki446K+mr9Nx9tWZCstU2a/b6+zr9lOzD1nby6W0kSKhoV26CbYskXb5m46ZtS3ZsBQAA");
 
 export default Dinosaur;

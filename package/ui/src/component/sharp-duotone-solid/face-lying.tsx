@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-lying` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-lying?s=sharp-duotone-solid face-lying}
  * @preview ![face-lying](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-lying.svg)
  */
-const FaceLying: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256C0 397.4 114.6 512 256 512c108 0 200.4-66.9 238-161.5c-4.5 1-9.2 1.5-14 1.5l-128 0-16 0 0-32 16 0 128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-192 0-16 0 0-32 16 0 192 0c11.2 0 21.7 2.9 30.9 7.9C498.8 101.8 389.3 0 256 0C114.6 0 0 114.6 0 256zm208.4-80a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM153.6 387.2l9.6-12.8C180.7 351.1 208.6 336 240 336c13.6 0 26.6 2.8 38.4 8l14.7 6.4-12.8 29.3-14.7-6.4c-7.8-3.4-16.5-5.3-25.6-5.3c-20.9 0-39.5 10-51.2 25.6l-9.6 12.8-25.6-19.2zM368.4 176a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M176.4 208a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceLying = createIcon("face-lying", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABpQAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCfAsIAAE2AiQDCgQgBYMtB1AbngXIjpOlVm4qHp63q+/cVzWqHqO+oJWUCYqEaKPeiF9I14zYD2B5/+b/cnrj+W3Ab3RIY9MaFchaPufzBAL8L8smbaGEwiMsA2tw3qRDCm0I6RfIY2d2kxrS42kz7o3/BzB+0OcmkoYMQLQCYNXRhx+o+ml8mmLz/+8Smx2AgFgNSoEMGQYFWCoTGJQrkcsFn6b/59P4/5IAolb8PWSgFvV4Aq8CcpAkeZ53dMzq6Oqo1DTlR1VqiqPv7Il4NK7vfqS4o/Ohzoe7Hq5U5mTsWQV9/8CILUfuO3jb0Q8V0Ik4JTNlEnXtPSqD7T5g88rqEUdf1xmB9Dt2rO5HjWDS9rAjejp73thw57iu6I3ueKR4aWJnTE4OGv1y68s/jdp81mZv/NJ8G7c1N99WIE1Y04zn5lep2tBL3/1cv8Ghfvh7cIN117WWWq9DIjKrk+pq277i9PUrDfTM2OD6+/t6bdh28MEa34jXonk770rT8E501X1li73ebf514pNu2LPTvA4Egu83f7rwZJb+VV9J4PP3fvm++SH5v5qkl1EvgSCb+v9UJySQCABAiquMTtyHQOYCOfSujR4RIBQIkNQqBMgMaBUgV5giQI1h8wSoVThcJvIGodOJA0gaXQoy810Ncp3eATWW+iBfqzMyeyrbMvkvMWP9FF+3rZw1fWa5uNxt6xSrJ+r1JeVle+JVfGwS3OssF7vIFc50hnNdMeEuc2DpShdaf0Ss80GlWaabqbRY+bj30jhqkr/M5c7d1p5vskT5fW6iq45nT4JekvLOtiOTESmy9lDQOu2Czr3o7Gk2frxzrrltAAA=");
 
 export default FaceLying;

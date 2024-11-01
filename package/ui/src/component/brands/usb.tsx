@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `usb` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/usb?s=brands usb}
  * @preview ![usb](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/usb.svg)
  */
-const Usb: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M641.5 256c0 3.1-1.7 6.1-4.5 7.5L547.9 317c-1.4.8-2.8 1.4-4.5 1.4-1.4 0-3.1-.3-4.5-1.1-2.8-1.7-4.5-4.5-4.5-7.8v-35.6H295.7c25.3 39.6 40.5 106.9 69.6 106.9H392V354c0-5 3.9-8.9 8.9-8.9H490c5 0 8.9 3.9 8.9 8.9v89.1c0 5-3.9 8.9-8.9 8.9h-89.1c-5 0-8.9-3.9-8.9-8.9v-26.7h-26.7c-75.4 0-81.1-142.5-124.7-142.5H140.3c-8.1 30.6-35.9 53.5-69 53.5C32 327.3 0 295.3 0 256s32-71.3 71.3-71.3c33.1 0 61 22.8 69 53.5 39.1 0 43.9 9.5 74.6-60.4C255 88.7 273 95.7 323.8 95.7c7.5-20.9 27-35.6 50.4-35.6 29.5 0 53.5 23.9 53.5 53.5s-23.9 53.5-53.5 53.5c-23.4 0-42.9-14.8-50.4-35.6H294c-29.1 0-44.3 67.4-69.6 106.9h310.1v-35.6c0-3.3 1.7-6.1 4.5-7.8 2.8-1.7 6.4-1.4 8.9.3l89.1 53.5c2.8 1.1 4.5 4.1 4.5 7.2z" />
-    </Icon>
-);
+const Usb = createIcon("usb", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABgwAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCJwsGAAE2AiQDCAQgBYMtByobIQXIHgc5Ga8poTiWZSV451c8fO33O3d3EZMoJqF6I1R+JBEizSKNFn4JDFUT+fkfcuX7C/EgtWAFq4Oqu1ZkxOkzWzTZTM8UXID8436e//PfgM/oI0VipdYaMPN8AhNJS9AEarCZTsC2O9sKx6K5JC2xlhznjs/jCCV+02ggvTI+gsfyofFFbxCShgyA6AYAp9dpqXiwkS3oY3UKUZcMAuIMwDRCRsY4AgeYAuNYpkFRBB/0/3/8D3QAAohG8K0TKMi4Bw8ACkiisFqEbDErU8gWNI2o0mlEMKQZ0xAJaFIfKtVCIhrXojuqxppSCShb89oyTFlSAU24rJhZscW097Zw2HVVPyxc1Y77H7uvu/bN8+Gr6lH9hGpEcGYR0JBuoqZiIupTT6/OoFG105Zs66djvfIj+u5ZQTchkGWGbJXlwo6TjfHFxa9GRty7HDQ35TRu2s3mNXI3Pr//UIHMJYvBEhIsFgdv0P35ZXI5Qe+X3tPJKd/ZnMfTYrudw7b/aU8fLCRvi+MbL+GcsddOA7NDEVgAAsHMnvDHrTTmnxcD8Hn16zfwV1T9YWBsgWYJBHmh8kF+6oXqHwMCAJCiE06pFwSSGgY+VbsnBAitCJA0ahUgGyMbULSahwaTQjnj4nNMUfgI/QoAknY1yLZ0QdHvGBoceJNr1B9M3xM8R3j6pcZJJHaeQ6BfgEOUw7aqi+7E0XS0g1nz6ExdnrARlZo0alehXI12QbdKLXZoEKehsb7IQSA/ARxEcThuPK/OVKFVmxpNGvMs0RzuRx469cGeYDIw45o4Sb4g9jvaSgEA");
 
 export default Usb;

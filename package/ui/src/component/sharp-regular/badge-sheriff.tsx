@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `badge-sheriff` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badge-sheriff?s=sharp-regular badge-sheriff}
  * @preview ![badge-sheriff](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/badge-sheriff.svg)
  */
-const BadgeSheriff: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M253.6 66.9C260.1 59.8 264 50.3 264 40c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 10.3 3.9 19.8 10.4 26.9l-40 68.6-77.8 .3C70.3 121.8 56.3 112 40 112c-22.1 0-40 17.9-40 40s17.9 40 40 40c2.7 0 5.2-.3 7.8-.8l37 64.8-37 64.8c-2.5-.5-5.1-.8-7.8-.8c-22.1 0-40 17.9-40 40s17.9 40 40 40c16.3 0 30.3-9.8 36.6-23.8l77.8 .3 40 68.6c-6.4 7.1-10.4 16.5-10.4 26.9c0 22.1 17.9 40 40 40s40-17.9 40-40c0-10.3-3.9-19.8-10.4-26.9l40-68.6 77.8-.3c6.2 14 20.3 23.8 36.6 23.8c22.1 0 40-17.9 40-40s-17.9-40-40-40c-2.7 0-5.2 .3-7.8 .8l-37-64.8 37-64.8c2.5 .5 5.1 .8 7.8 .8c22.1 0 40-17.9 40-40s-17.9-40-40-40c-16.3 0-30.3 9.8-36.6 23.8l-77.8-.3-40-68.6zM224 312l56-56-56-56-56 56 56 56zm69.4-128.6l55.9 .2-27.7 48.5L307.9 256l13.6 23.8 27.7 48.5-55.9 .2-27.5 .1-13.8 23.7L224 400.7l-28.1-48.3L182 328.7l-27.5-.1-55.9-.2 27.7-48.5L140.1 256l-13.6-23.8L98.7 183.7l55.9-.2 27.5-.1 13.8-23.7L224 111.3l28.1 48.3L266 183.3l27.5 .1z" />
-    </Icon>
-);
+const BadgeSheriff = createIcon("badge-sheriff", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABmAAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCDBgsGAAE2AiQDCAQgBYMtBzQbigXIjsQ4JvKLKOwiHj50/+3cJO+viGVFXCoT7xQ6r5f2Dy1DB91KvteG/HE/z38sinb+i/994aG9tVWfRwNlnk/n0513cyTgcDZRnG02HGw9gmV9YshhNkx6/Hx8gzaQxbU4rUByJfkTp/qHxj9qOUKikAKIigAYOH3yWD8XR3HEHz8m/jAaATEQ5AIpUtQVoI9UoK5MjkwmKI4fP9p/YE4AUYSFiZkZCriLd9DnIZFm2YJSHcsUymXTyhRKz74UB6tfLH206nkHqk2J0nG1mURdKHOsxtRQYKuQ/6iObWoQRAzTY7dcaSrg0U9DsFXEv19z+WlTJk+YPCkmxMTpQ4cNbRM1o1a0jSFRehAdolPUJoZF+6hDtIsy0dzZOTo6Ti7T6GnFp//257I/fdtztWKl988qVXr2vlLFq82HGOvh6Q0ufFmHJgMctg5Z73j64RiaD/ag5cHGqM56/21nvcoZcmDDhg2v/MV9ZYM6vngd90UdG1jsX/ykh9u3qAsEgneFtl/nV+jzf8kyCfj7Pc6jf/wcPydPUVICgrTNjzbmxM/Q2AH4ktimUfkqAomrUvyWsi4KEEojQKJIaQFSdVQUIFNaa8QU1NcVnN0nS0VWSqhqrjCJsjYyqW72Mpmq3jEFffziL1I10lxVZZrqSzH9MESGtss7tuuQ98pvE4Y6/WBt7J27jS22LQUtaahl1ltni6WWWGkLyDcZG9pqrWEz2VA/lOuonQ5yveTh9Fo/DZybbEawNfFmesvf97awbV6+JVkSrLCTWYmESMotWrhk+dK2m/+La1q2DAA=");
 
 export default BadgeSheriff;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `recycle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/recycle?s=sharp-solid recycle}
  * @preview ![recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/recycle.svg)
  */
-const Recycle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M309.1 0l9.4 15 63.8 102.1L432.8 88l12 20.8L412.6 229 292.4 196.8l-12-20.8 46.5-26.8L273.7 64l-35.4 0-33.5 53.6-55.5-32L193.4 15l9.4-15 17.7 0 70.8 0 17.7 0zm99.2 279.5l55.5-32 43.3 69.3 10.2 16.3-9.6 16.7-32 55.4L460.2 432 451 448l-18.5 0L320 448l0 56-24 0-88-88 88-88 24 0 0 56 94 0 6.3-10.9 22.4-38.8-34.3-54.8zM64.7 221.1L16 193l12-20.8L148.2 140l32.2 120.2-12 20.8-48.3-27.9L69.3 334.4 98 384l62 0 0 64-80.5 0L61 448l-9.2-16L4.3 349.7l-9.6-16.7L4.9 316.8l59.8-95.7z" />
-    </Icon>
-);
+const Recycle = createIcon("recycle", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABcwAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCHgsGAAE2AiQDCAQgBYMtBy4bHAXIHoex22RJF81QxNVHPPz/Wtl9v6onSXUYKgAMflwA/di0SlgtGTNnJUngTmbC99xHrp24pn6cP71HEz9KNJb9Gut8lnneYANfY6RN22bD2URx1s7OwCC6TRLqP+mH7Q2jHeTxPkuF9CxBY/3Q+FkPj0haZQCiPQDmb9242pfmaI74oR7xg5UIiPmgFMiQobcAs2QCveVK5HJBc9Tr8T+wJIBowOsnkKOC07gHyEGS5Xm/wf2rlTb5lmqlONqla5fNsTJ6xKbYEj1jJtYsYl6siK3RLarbVy5buTm6RPcYF7HOURQkmb81qiGqaWNjwYEVy1f0Wq3NSMyITTFe8Iuiq5kYlmwd0NS+6df+jjDp82teYs5ho9T0u+paPzU/mbTJIBV3jVzitQ7vu93lZiMWeeOe3/2tUcfz03S3dWta0t00e+xwxOAtM6qI1VztZ/PKmn9MWOerOeZZ16nR2PXueWPmXiAQrH9/sba33azfWlYT+PHdv7Yz6+qnSmpCSwkE2aj6KLsSBTAqYDzFFQPwTQLJYRm8a2uPBQgFAiQNCgEyvbQXIFcYKUBFX5MFaFDYKBN5K6Gz3YNOWjtPZ6a4Tec6e0tXzPJNvEHnyPxO9Rr115e1ZIYXjyvHjxlXzijFjK65kpw7Z5bH9rArqWI4VjrirDMuOeyQ4y5N6AWrU5edtkRDFvuh0nhjjFOaobzOvy/e4rALLjrurDOlm5lK++AwV/T6w+ElFJxgQpKI1OLC4dcOAAA=");
 
 export default Recycle;

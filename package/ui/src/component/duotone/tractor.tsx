@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tractor` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tractor?s=duotone tractor}
  * @preview ![tractor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tractor.svg)
  */
-const Tractor: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 320l0 32c0 17.7 14.3 32 32 32l8.2 0c1.7 4.8 3.7 9.5 5.8 14.1l-5.8 5.8c-12.5 12.5-12.5 32.8 0 45.3l22.6 22.6c12.5 12.5 32.8 12.5 45.3 0l5.8-5.8c4.6 2.2 9.3 4.1 14.1 5.8l0 8.2c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-8.2c4.8-1.7 9.5-3.7 14.1-5.8l5.8 5.8c12.5 12.5 32.8 12.5 45.3 0l22.6-22.6c12.5-12.5 12.5-32.8 0-45.3l-5.8-5.8c2.2-4.6 4.1-9.3 5.8-14.1l8.2 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-8.2 0c-1.7-4.8-3.7-9.5-5.8-14.1l5.8-5.8c12.5-12.5 12.5-32.8 0-45.3l-22.6-22.6c-12.5-12.5-32.8-12.5-45.3 0l-5.8 5.8c-4.6-2.2-9.3-4.1-14.1-5.8l0-8.2c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32l0 8.2c-4.8 1.7-9.5 3.7-14.1 5.8l-5.8-5.8c-3.5-3.5-7.7-6.1-12.1-7.6c-11.2-3.9-24.2-1.4-33.1 7.6L40.2 222.9c-12.5 12.5-12.5 32.8 0 45.3l5.8 5.8c-2.2 4.6-4.1 9.3-5.8 14.1L32 288c-17.7 0-32 14.3-32 32zm256 16A80 80 0 1 1 96 336a80 80 0 1 1 160 0zm184 88a88 88 0 1 0 176 0 88 88 0 1 0 -176 0zm112 0a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M160 0C124.7 0 96 28.7 96 64l0 96 0 32 0 .6c4.4 1.5 8.6 4.1 12.1 7.6l5.8 5.8c4.6-2.2 9.3-4.1 14.1-5.8l0-8.2c0-17.7 14.3-32 32-32l0-96 106.3 0 38.4 96L192 160c17.7 0 32 14.3 32 32l0 8.2c4.8 1.7 9.5 3.7 14.1 5.8l5.8-5.8c12.5-12.5 32.8-12.5 45.3 0l22.6 22.6c12.5 12.5 12.5 32.8 0 45.3l-5.8 5.8c2.2 4.6 4.1 9.3 5.8 14.1l8.2 0c17.7 0 32 14.3 32 32l0 32 80 0c21.9-29.1 56.7-48 96-48c16.3 0 31.9 3.3 46.1 9.2l43.3-27.1c14-8.8 22.6-24.2 22.6-40.7l0-45.4c0-22.1-17.9-40-40-40l-56 0 0-33.8c0-14.9 3.5-29.6 10.1-42.9l2.5-5c7.9-15.8 1.5-35-14.3-42.9s-35-1.5-42.9 14.3l-2.5 5C485.8 76.9 480 101.4 480 126.2l0 33.8-106.3 0L325.8 40.2C316 15.9 292.5 0 266.3 0L160 0z" />
-    </Icon>
-);
+const Tractor = createIcon("tractor", true, "data:font/woff2;base64,d09GMgABAAAAAAOAAAoAAAAAB7QAAAM1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhViEeAsIAAE2AiQDCgQgBYMtB0oblAbIPgzwZET7S7FUqS6ZCl2xYMvMqtC1NfI499vLoRFPv99vz70Ps24ynSoeKkPy0BnqH0LxSCQS0m+k9obQTeD50KPeT7JysOsshEpmR7Q6o5Q7V93NgeVmg8VyfxAsymMwiGXCofSMW2bn838/7/1Va8+2EhrYFxon7ekSqHk6kBHtjKNteUlSXXdPEFhITWSiGw08SHH9/wAesJCYMyR7PmlZKP7+WOlGgeT4t40aXyyUt1GFlRhR4yuw4NHYYBfAR6dnajfoLkgTquPRrxs0Smwd0wPlejrDVfZ/APNPsw8FFxUA8QaA7YOWOr63fNnff+SvBQFSDMwSUEEFkwSwRkXAJA0bGjQE2gJtmEUA4kj2wyqgF/RBQpAYgAZQEDRNW7x0XRc3Bw+tfYhdex7zwmcVQZALGVxYuOMrN4qbtEXkTBfIhSwuslA8Z3SiOmdyI4JV8m2KTCHXXSUZl66WmIYuCDP4Dv1crPKAuEp7LuMswnbsws2WC+mc0tHHzMKWGyEKn/lKKFc2/IlcJJQwrTbVW4QuwzLtCQQMEwtSrQ1A8TlyXkw09ESP28FggGrisf2H5vuCj6F3Cz/lfwhp+xoY7JEPIMB8k+22HE8Cb8Y+DojYeb/47+k9PcDEoM8mDO21MXzmTJ7Hj/umxRyztDAY6dU2rrnOtYMTxz25ELPM8zFxjZKfmx+Hg8Gn+xJ5iGDeR1Gz2jm+7l5RSPQ8pqVesPT1qtiOF2qNlJhlzAnmBHNt6Nq+YPa0YZ9UmaWnxlXSdar+2cT52oR7KzJ3aPVuDlKL6m7DYwWQ554u3Y7LV0MVwEv3L337X+mnHfSjAAI16X+9ZQOLOwDJIusiSH/oBAIqj9FQXB3mEgEEVzCjgiOuqBLEGzW4koh6CJWtFLzSQkU0FwRdHxMpuLOEVHJsIA3dK+RAkR8pR/TIV4n6GFf/o2YoB/Fl6+xGtR5vx6lNo+bAV8bLnbiwI9/zhwrmScYtmLdqzKgpqwB1WV12zZxylnjZ79rSpUhjK2Ard0YN7QC0hpVUSdaqr1LIXj8SZ509Od50KxRyV2yoqBBFVK8ncdHVheXku83qA+puKwA=");
 
 export default Tractor;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cake-candles` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cake-candles?s=sharp-light cake-candles}
  * @preview ![cake-candles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cake-candles.svg)
  */
-const CakeCandles: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M83.2 70.4C81.1 73.2 80 76.5 80 80c0 8.8 7.2 16 16 16s16-7.2 16-16c0-3.5-1.1-6.8-3.2-9.6L96 53.3 83.2 70.4zM57.6 51.2L76 26.7 96 0l20 26.7 18.4 24.5c6.2 8.3 9.6 18.4 9.6 28.8c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-10.4 3.4-20.5 9.6-28.8zM211.2 70.4c-2.1 2.8-3.2 6.1-3.2 9.6c0 8.8 7.2 16 16 16s16-7.2 16-16c0-3.5-1.1-6.8-3.2-9.6L224 53.3 211.2 70.4zM185.6 51.2L204 26.7 224 0l20 26.7 18.4 24.5c6.2 8.3 9.6 18.4 9.6 28.8c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-10.4 3.4-20.5 9.6-28.8zM352 53.3L339.2 70.4c-2.1 2.8-3.2 6.1-3.2 9.6c0 8.8 7.2 16 16 16s16-7.2 16-16c0-3.5-1.1-6.8-3.2-9.6L352 53.3zM332 26.7L352 0l20 26.7 18.4 24.5c6.2 8.3 9.6 18.4 9.6 28.8c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-10.4 3.4-20.5 9.6-28.8L332 26.7zM32 372.8l57.1-27.2 7-3.4 7 3.5L160 374.1l56.8-28.4 7.2-3.6 7.2 3.6L288 374.1l56.8-28.4 7-3.5 7.1 3.4L416 372.8 416 256l-48 0 0 16 0 16-32 0 0-16 0-16-96 0 0 16 0 16-32 0 0-16 0-16-96 0 0 16 0 16-32 0 0-16 0-16-48 0 0 116.8zm0 34.9L32 480l384 0 0-72.3c-1.2-.3-2.5-.7-3.7-1.2l-60.2-28.6-57 28.5-7.2 3.6-7.2-3.6L224 377.9l-56.8 28.4-7.2 3.6-7.2-3.6-57-28.5L35.7 406.4c-1.2 .6-2.4 1-3.7 1.2zM32 224l48 0 0-48 0-16 32 0 0 16 0 48 96 0 0-48 0-16 32 0 0 16 0 48 96 0 0-48 0-16 32 0 0 16 0 48 48 0 32 0 0 32 0 224 0 32-32 0L32 512 0 512l0-32L0 256l0-32 32 0z" />
-    </Icon>
-);
+const CakeCandles = createIcon("cake-candles", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABywAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGyETgsGAAE2AiQDCAQgBYMtBzMbUQbIhucJndn7krxkb6IQK8QOHxNVgNgSujsuOvJcS1B74pr8/9b052n0aFFWq8JoG2aeD3f+4Gtqn9BsrRMeziZgszbHP3giEv12xCOCX2TDJg1bS0eo8kzWaFE8VXyHB3ih+dUsd1GoSgCpAbD7sUcerNdPP/lu8B75zoEIZA/QCEqUmCtgJ6VgrkqDSiX0MxjgP7AhQIYYXNhUoU1GyET6YgqjVdWZXj/O8Wl7NtvarfHqmHZr7MRHPTbtiRm3T5+dmatWr1i9OiuzMo95cuqjS16f/vjs22ccHUZnzplZBFTEa1afdeB+B87ItOyfA8PCZCwCfcQpYvyJx8cOyH6ZmunRdY9OTXusnSTtCK1FXW0zwc4XlrQXvV2//fvC7875zhHXL2lN6PcntJb09O6YMWPGDnYww7N1+f0P3e4P35f1s09OHvteS8/U3dh+B6kYxmasPv5uMc6UgHvKOO1uV+uq1Rr0cprHu65evJ853WY/dfHpBJkFn6jrD7sqn56g6zROdZtG3928yNOBIKx6bdcHTp240/8j7QL88vGff/NnZNBLr3gbIwoQyjWDNU5KD9ITAECRayxKD0ERRtm5djwuIMYQUBgyJqA0Ry2gMma1gJb5tggYMuZIpVSjYqqTnSt0XM6VtrqZq0z1Dteyky+TQ6amfB+k1Sx9jabv00J7OzUb1nWbHZphySEvcaGO7thcNldck1tWylrnuNQlrnK2s5zvqoa8wsGZq11sn4jY2xs1Nlinq7GD5nb1fvkxznaFK53vUpds4+yoeT68wjVx95XiKhjvRo8VClJ0zjz9wrPX/vEzcNHZVwIAAA==");
 
 export default CakeCandles;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `glass-half` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-half?s=regular glass-half}
  * @preview ![glass-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/glass-half.svg)
  */
-const GlassHalf: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M24 0C17.3 0 10.9 2.8 6.3 7.8S-.5 19.4 .1 26.1L36.3 446.2C39.5 483.4 70.7 512 108 512L276 512c37.4 0 68.5-28.6 71.7-65.8L383.9 26.1c.6-6.7-1.7-13.3-6.2-18.3s-11-7.8-17.7-7.8L24 0zM66.7 240L50.2 48l283.7 0L317.3 240 66.7 240zm4.1 48l242.3 0L299.9 442.1C298.8 454.5 288.4 464 276 464L108 464c-12.5 0-22.8-9.5-23.9-21.9L70.8 288z" />
-    </Icon>
-);
+const GlassHalf = createIcon("glass-half", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABXQAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBKgsGAAE2AiQDCAQgBYMtBzEbqwTIPgxwh/WJYwgrCkIr5ZMog9piX4jURmP3OiN22nj4b+133+zsx1SSWCRqiGRSollL0EmExqFqdz/Yz72beRS7iRhQt4ZaE9VEEs+ikUb6DStloZHIPwNEvprhTpVZL2TWymuLmF9msAGXQCD54nxCmKHm/w/C/F9TL54fHeA3OrRISm2s59HL4AlMbG9eIRaFs4nidmdr4ljYK5ayJJdP5LisIMcmnShJd2lchQ+NVz2OSMoCANEMANg/b2+EUFML+v0P8egIBMQ+gGGEAgX6EdgiFegnMwyyLHgmkf0PZAggKuBnTiCjxCY4BJBBUmSZWd2gletlXVq5pv/Yi45etzMvE9p4mnvr63fdeVVLZ1dnl546SOPQ1mo76GZcE4+9Xb02v75303Vf66jae2d+JS3sIW2siNZcjGpbIn8iqR9o+XoMo7WVZ/tj8WIQCJ4W6d3Y8B8SwMvH5w2P9xHsp1AtgaCYF2cg9hRInCoWd2IFHvgmQLJICq+13rUAoRYBkopaAQp9TAhkteYQKA3KI1BR65hUZDVCu8EMknqXoLBpG2Tt3kFpy6db0R7F6aH3nv67JVQlWpnH6USK67hZSMyBIGm8nrvl0IprC8NSjJg1Y8mwIeOWBL6gMVg2raphFT/E0hJSWB0erl0v7jJswaJxs2b8LPV4vh6yovcOgybBhKtiSSKS5qmI8XsJAA==");
 
 export default GlassHalf;

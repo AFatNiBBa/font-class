@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `store` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/store?s=sharp-regular store}
  * @preview ![store](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/store.svg)
  */
-const Store: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M483.4 224c-19.6 0-37.6-6.5-52.1-17.2c-4.7-3.5-9.1-7.4-13-11.8c-3.9 4.3-8.2 8.2-12.9 11.7c-14.5 10.8-32.5 17.3-52.3 17.3c-19.6 0-37.5-6.4-52-17c-4.8-3.5-9.2-7.5-13.2-11.9c-4 4.4-8.4 8.4-13.2 12c-14.4 10.6-32.4 17-52 17c-19.6 0-37.5-6.4-52-17c-4.8-3.5-9.2-7.5-13.2-11.9c-4 4.4-8.4 8.4-13.2 11.9c-14.4 10.6-32.4 17-52 17c0 0 0 0 0 0c-4 0-8.1-.3-12.1-.8c-55.3-7.4-81.5-72.6-51.9-119.4L96 0 480 0l67.6 103.8c29.7 46.9 3.4 112-52.1 119.4c-4 .5-7.9 .8-12.1 .8c0 0 0 0 0 0zm-391-48c11.8 0 22.3-5.1 29.6-13.2l35.6-39.4 35.6 39.4c7.3 8.1 17.8 13.2 29.6 13.2c11.8 0 22.3-5.1 29.6-13.2l35.6-39.4 35.6 39.4c7.3 8.1 17.8 13.2 29.6 13.2c11.9 0 22.3-5.1 29.6-13.2l35.5-39.3 35.6 39.2c7.4 8.2 18 13.2 29.7 13.2c2 0 3.8-.1 5.8-.4c9-1.2 16.1-6.8 20.1-16c4.1-9.5 3.6-20.7-2.1-29.9L454 48 122 48 68.8 129.7c-5.7 9.1-6.2 20.3-2.1 29.9c3.9 9.3 11 14.8 19.9 16c2 .3 4 .4 5.8 .4zM112 336l352 0 0-81.6c6.3 1 12.8 1.6 19.4 1.6c5.6 0 10.9-.4 16.2-1.1c0 0 0 0 .1 0c4.2-.6 8.3-1.3 12.3-2.3l0 83.4 0 48 0 80 0 48-48 0-352 0-48 0 0-48 0-80 0-48 0-83.4c3.9 1 7.9 1.7 12 2.3l.1 0c5.3 .7 10.7 1.1 16.3 1.1c6.7 0 13.3-.6 19.6-1.6l0 81.6zm352 48l-352 0 0 80 352 0 0-80z" />
-    </Icon>
-);
+const Store = createIcon("store", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkgAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCcQsGAAE2AiQDCAQgBYMtBywbbQXIjtRW+YViEg//bxd1369qaMgaGAsP7GxFRXImxHC2ZzNmXSHv83/N5/f82k4/HZ7goUTOsrU8Ip9PYDyLKJwNaDacTRRn2wwNKorCpoiQ+D8kfhgdtr9AHt/HHUqkB9OXuL1/aPypt2tIShmA6ASARWtXXuTjX+KXiC/abxBfuAABsQgUAhky9BNgrkygn1yBXC74Jdrt+B9YEECUyZMTyFHGQ3gWkIMkz/MpY8bUGqVWvqZMqO98bvh9Pe7p9szQQL1Qv2m0/sro62/q8eaAxyasjVasjlf7PTL1nodBdzzfc0HMi3uH8cKbG/f3vL/HmmjGqrin+73dtX11q3kXjHsbN/fMHDCLQdWbEZxBQnbbmzaDSAcOfqnTS3/5cs+Xfvv546O71qzevfXbb7dO+ppdywYMWHZqGZSX3f/3H0uX7HWFfNzSP/5+fmEFrptQvDzDCO916kTIDC8H3htuuh6Wsu8Ob7116nIX4uhbj27+LktdH98mF65wZb12DJYtW2miZSaaeEfQrTxjOVat37li6wTbi5bZZhkQCJbP+X/o1o5z/6k2Evjt3fnxSvvjNCu9hKoEgmxse6xNaaGKCmAIgAkpzhj8RYHkLjl516b7BAh1BEjK6gJk+uokQK5ujAAlA0wToKxupUzkNaGbzRskTcdBZrpLQa6b10DJXJ8Ey7pF5qCSe0n/h+nO1tBZ/YpJ4ycWs4vXrCX7nFC75xRmw8gzqWoULbXHUUecstsu+51S5AkXRU477GwEn+WHCpOMN1FhtuK68Dl/jd1OOGm/o460XuYovveMdAY3HkXmRFgnS0gSkUoODwAAAA==");
 
 export default Store;

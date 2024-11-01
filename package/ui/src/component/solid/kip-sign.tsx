@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kip-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kip-sign?s=solid kip-sign}
  * @preview ![kip-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/kip-sign.svg)
  */
-const KipSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M340.8 88.3c13.4-11.5 15-31.7 3.5-45.1s-31.7-15-45.1-3.5L128 186.4 128 64c0-17.7-14.3-32-32-32S64 46.3 64 64l0 160-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-122.4L299.2 472.3c13.4 11.5 33.6 9.9 45.1-3.5s9.9-33.6-3.5-45.1L182.5 288 352 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-169.5 0L340.8 88.3z" />
-    </Icon>
-);
+const KipSign = createIcon("kip-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABaAAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBWwsGAAE2AiQDCAQgBYMtBy8b2gTIhoeHudc/N0npvQ45mwIElFvVgFXdR+HJoiKYOvU856FcgN5zcRzT/jwTswHnPI9AzkOzrdcXFaRWsJpWwHo7qcs36HRlkI7UlwwTN2yukMWB9KQSknvJ17gSPjR+0MRJEhUpgKgNgGFzZkxS/W18G/HV/2+Jr0xAQAwDuUCKFM0FGCgVaC6TI5MJvo3//7f/gTkBRCl6UQIypJiO+YAMJCLLxhdLamSziyWFNXcaRdxpeNv46s+MiGOKXDhf/yZRCNLRBreKxRDEC43uRMSsuCU1WjZmRzFaCp9QiDltqmpX/dT669Vfm7nmbiXF8+eqXzyruma/mmfP1ozqUznjuadwv5mTz15UnztfrLz76IznGj5X3gwCwYZtU/5eUmvgr+XFBHz/6Zc/0s/I/9/E0aQK5RIQpB3/72hhHIU4KgAASezWJo4ikBgvQe9a6bYAoYAAiVIFAVLN1BYgU9BBgBIt9RKgVMEMqcgqhPoWMUhU2gZSvR0CmfpegxIDfWaWqh+pVDEywXzqEkfXyKipvFvnrnn/vBvIrKBQfjggX4Ztd7tCO7hotS0222mVldbZWWHbTXJ22WT0CB3li3LddNZVrr98O749Pdsq2+2wzhabccwA+Xm5rd3j+nYwTwLofh8LCZGUb1i3tdODBAA=");
 
 export default KipSign;

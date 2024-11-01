@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `baby` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baby?s=sharp-thin baby}
  * @preview ![baby](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/baby.svg)
  */
-const Baby: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M95.5 135.7L173 192l102 0 77.5-56.3 19.4-14.1 12.9-9.4 9.4 12.9 28.2 38.8 9.4 12.9-12.9 9.4-19.4 14.1L320 258.2l0 29.8 0 16 0 24 0 1 46.1 52.7L389 407.8l-22.7 26.3-40 46.4-15.7 18.2-10.4 12.1-12.1-10.4L251.7 469l-12.1-10.4L250 446.5l15.7-18.2L283 408.2 261.8 384l-5.8 0-64 0-5.8 0L165 408.2l17.3 20.1L198 446.5l10.4 12.1L196.3 469l-36.4 31.3-12.1 10.4-10.4-12.1-15.7-18.2-40-46.4L59 407.8l22.9-26.1L128 329l0-1 0-24 0-16 0-29.8L48.5 200.3 29.1 186.2l-12.9-9.4 9.4-12.9 28.2-38.8 9.4-12.9 12.9 9.4 19.4 14.1zM144 304l0 16.7L198 368l52 0 54-47.3 0-16.7-160 0zm160-16l0-29.8 0-8.1 6.6-4.8 79.5-57.8 19.4-14.1-28.2-38.8-19.4 14.1-77.5 56.3-4.2 3.1-5.2 0-102 0-5.2 0-4.2-3.1L86.1 148.6 66.7 134.5 38.5 173.3l19.4 14.1 79.5 57.8L144 250l0 8.1 0 29.8 160 0zm3.5 51l-36.1 31.6 2.5 2.9 21.2 24.2 9.2 10.5-9.1 10.5-17.3 20.1-15.7 18.2 36.4 31.3 15.7-18.2 40-46.4 13.6-15.8-13.7-15.7L308 339.5l-.5-.6zM176.6 370.6L140.5 339l-.5 .6L93.9 392.2 80.2 407.9l13.6 15.8 40 46.4 15.7 18.2 36.4-31.3-15.7-18.2-17.3-20.1-9.1-10.5 9.2-10.5 21.2-24.2 2.5-2.9zM280 88A56 56 0 1 0 168 88a56 56 0 1 0 112 0zM152 88a72 72 0 1 1 144 0A72 72 0 1 1 152 88z" />
-    </Icon>
-);
+const Baby = createIcon("baby", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABwgAAAL5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCERQsGAAE2AiQDCAQgBYMtBysbQAbInoNx41xaiVrYfJZXK4W4VuJyLCKo1v7t2d2PFEQUBkihT0WyA/ZhDaQTl5R/FUso76f93LuJ6W24S/sNsVDMJUKfhAYEufuzthZgIiUtkICeEuG4Nqllfjf/19SLsqMDjLITPJRcU+Xz9Ih8PoED3PC/aVrieDacTRRntDl8Yj8xCYUjlB2gxLRaVNKN9B64En5ofKY0AJKcASA6AwCs3L97q4eaWsR3JYh3UoCAWBmAERAyMoZAYAmywBAUI4CiCGpRVeo/cAQIIOoBt0+goAkV0RUACkgaCqWtTexaLpdN5VLyXSCrJPftbYkC48lJuQm1hK1cQuVKEzkKpZhLygTTfXJqLpyxWI6cKHcHAleSKuFc92MxkM43bnfA4+YddgnZGi0ogwtYBURY7wbc3yv0YrFk+3Ou7OQpCqKmxbBCAqXI6ZEnOVIIohZBTiZa5O6FwRIUqZdUGKUQKs4ccnnWvcnamJUBk2NXx68PZs0vvl54OXRmwcWiq2HGrc6tryM7lIr5W2LgIWnzufk04cyMj/aFGQvpCCggHzVpQrDadiXcpWn/svVo6w6yX265FO7KNiti52W/kAEEdNIXCvNhxpkJn8Kmr3dhazlf5YQW7nUMw2EMOCB9gXCv3KTN5416fHwndcrtdHkthmEWZmXgolESjBpD9tM2FgQTkx/o3PAIpAE+9A8nWKT7k503KpHh0KCO/devn3TkyrONY6aPLeN6AIHgzKoFSys6lrxSSQCfnv3ZulxQvfU03QcaJRDkKX+K0nhDQLDiCAEKKfrDSL8IIfmvAd611VUIhGYESOo1C5ANJoBA0WwyBOoM4weBes12I4vChNCrrGWTVifYbB6CLXods3WWeM/X6w2yUbA1sv0nmm9dH13rNGKmuycOxotttUt3m956CN4dnNBvjTlRoHod2vWqU6tJb4/pllbq0yZ+jY7zQ5gXd56wYPh073EyX12e7tE07z6/SQh8f9ZR//psJxohgeYsVUkiEsW0AgA=");
 
 export default Baby;

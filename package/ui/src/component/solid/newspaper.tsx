@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `newspaper` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/newspaper?s=solid newspaper}
  * @preview ![newspaper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/newspaper.svg)
  */
-const Newspaper: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L80 480c-44.2 0-80-35.8-80-80L0 128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16L96 96zm64 24l0 80c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24L184 96c-13.3 0-24 10.7-24 24zm208-8c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM160 304c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-256 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const Newspaper = createIcon("newspaper", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABhwAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCKgsGAAE2AiQDCAQgBYMtBzAbKgXIjtMdM9KNfzz8v13/7XOrHuD6tAdUJjoDg7TXpIyUdTIvEs7/NfXi+dEBfoLjozOLttTzyOdVi3o+gQFHedrebCCzgc10Arbd2VbmgFY8QkKSfjXH6Qx5fJ6lgvRogrv9h8bvetxGUpMBiGYALNuzY5NvSlGK+LH8IfGjDQiIZaAQyJChX4CFMoF+uQK5XFCKcpn+AwsCiEr8tARyVOMq3ADIQVKZ5+NbG9iuq2jId8cX1x54fELE62Ma4sVxr/akeGTsKyPr46Pxrw1mcXPXw3V3PCjFgx0Pd2XrhEdH1cXLfRGPja6NF7r39NS60OpDnQXlgXbQTrQBrie4Y/hrza/9Oeyn0xw5UttCyzOFZ1paapdSNK29SPOp3dGs8a67GgNjY6VS49T/tvpEx7aLbOvYyiZ+rWosTVVqpKGjhfrrEYTxOHQUHwcCwduHbtx/pGnhP9V1Cfz22d//449QuZSk11AtgSCbWJ7oYAKJAACkuMLwBIHkIjf5rvUeEiDUIkBSqVaATJ9mAXK1JghQYdAsASrV2iETeY3Q7lAGSb2LQWa260Gu3fugwkLfupXaI5M+Xnb4v1/K6hpdtaqYNnlqMb8YFpIgUKxZXFAsa2Ov0APj4KTTLnSBy5xy0tkuq/BLbAoud77VM2yVLypMM9lUhfmK7fr28G6nXOJSZ7vQBW6ZBYrz1lhXzMePAzNh0ulySSJSzVsGAA==");
 
 export default Newspaper;

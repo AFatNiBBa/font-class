@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tents` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tents?s=solid tents}
  * @preview ![tents](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tents.svg)
  */
-const Tents: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M396.6 6.5L235.8 129.1c9.6 1.8 18.9 5.8 27 12l168 128c13.2 10.1 22 24.9 24.5 41.4l6.2 41.5L608 352c9.3 0 18.2-4.1 24.2-11.1s8.8-16.4 7.4-25.6l-24-160c-1.2-8.2-5.6-15.7-12.3-20.7l-168-128c-11.5-8.7-27.3-8.7-38.8 0zm-153.2 160c-11.5-8.7-27.3-8.7-38.8 0l-168 128c-6.6 5-11 12.5-12.3 20.7l-24 160c-1.4 9.2 1.3 18.6 7.4 25.6S22.7 512 32 512l144 0 16 0c17.7 0 32-14.3 32-32l0-118.1c0-5.5 4.4-9.9 9.9-9.9c3.7 0 7.2 2.1 8.8 5.5l68.4 136.8c5.4 10.8 16.5 17.7 28.6 17.7l60.2 0 16 0c9.3 0 18.2-4.1 24.2-11.1s8.8-16.4 7.4-25.6l-24-160c-1.2-8.2-5.6-15.7-12.3-20.7l-168-128z" />
-    </Icon>
-);
+const Tents = createIcon("tents", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZgAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBVAsGAAE2AiQDCAQgBYMtBywb0ATIhqB+ra+s1z2zANRLRIoRDsgCqXWH6oT6cRYV8Mz/NfWCrukAv9HhGUWuAyQKN8p83mATK8rwPZ8NbKK4s22vmgSV0G6ExgHy+Cc7q0R6lL7DjfCl8aMWzpLUyABEfQCMXzBnttdVURXxbeVj4lszERDjQSGQIUNrAUbJBFrLFcjlgqqoVMR/YEEAUZbwxJrTN83AYkAOkpTnLbvVKtXJ59cq1dwwd8Hce03mxdst2kStuNLsQdP5cR8F3+k0lwXjbmMcaHKvVhKWsyLiQbMrB92POo9lt6bDB/U/+Ln9d+u/c/Wzl4fyVt9/9e4JY4dvdFu9y5frNnuh1buzrF69Hr3o3bs632ltN2z7+HK9m/XrXrxYd7/qJ8udJ15wst8oYX58GOv54GUQCH5c+3TjinqjfqteK4Efvvj1z3Jl5f/K63QqfYDqEgiyXpVelqaTO1BlVpBiKfbrgHMEkgmRH59a230BQk0ESMpqCpBppb4AuZp6ClDS1mABymqaIxN5DaGxZT1IatsFMkMcA7nGPgQlo3wZK2scGUjJACH/0GVMGaOT5xX9+/QrRhSbBU2BEtEOjixOO7vtlw3d8Urr7bDdXuustcneEbvb7OQ+20zZYyb7oUJ/ffRTGKG4XX6+eL51dttjkx22+2FGKt6PdrN/v3137EkS5wB5SSJS6Usy7QEAAAA=");
 
 export default Tents;

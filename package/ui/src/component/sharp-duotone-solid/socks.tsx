@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `socks` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/socks?s=sharp-duotone-solid socks}
  * @preview ![socks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/socks.svg)
  */
-const Socks: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 416c0 53 43 96 96 96c20.8 0 41-6.7 57.6-19.2l21.6-16.2c-9.7-18-15.2-38.7-15.2-60.6c0-40.3 19-78.2 51.2-102.4L288 256l0-96-160 0 0 112L38.4 339.2C14.2 357.3 0 385.8 0 416zM128 0l0 64 160 0 0-64L128 0zm0 96l0 32 160 0 0-32L128 96zM320 64l0 32 192 0 0-32L320 64zm0 64l0 32 192 0 0-32-192 0z" />
-        <path d="M320 128l192 0 0-32L320 96l0 32zm0 32l0 112-89.6 67.2C206.2 357.3 192 385.8 192 416c0 53 43 96 96 96c20.8 0 41-6.7 57.6-19.2L512 368l0-208-192 0zM512 64l0-64L320 0l0 64 192 0zM128 64l0 32 160 0 0-32L128 64zm160 64l-160 0 0 32 160 0 0-32z" />
-    </Icon>
-);
+const Socks = createIcon("socks", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhwAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCQwsIAAE2AiQDCgQgBYMtB0YbWwXIHoVxmxOOU6YsFGexKQLhgRYP/8313jczydlM9lORbKtQlTWRkJVAsuzQAeuuUC0Ls6rCfLDV1bFgzN0sb3VpP3FNLohIEm00unmFzjcqJXuNMs//NfUa7+gAf+CJH0rFKmxegaPM5xMY4DTL9mY80xnY3mYZFA6FOfYgQf8NWw7b3aDE3/xEQ3qbgpf0P4Dxj9wJJF0GEPMA4PiVWgG8JFhKMR3eiKk8CIgTgB0EyMjYQgAOEQlsIbYDFEWwlIYBlmIYCAKIFn04gxZj3ANPARSQNJpSutVd123uIN03M+UyvVav9rWPqIFwMb5uOTc+e0/NLUFEBUJtiH4s9E3VpdpXUZSZqCCwTC94F844OrTtYC8GJe4KZ/WuiezlVzmdLn6UGSeMdqye1EmhMDuaTA7o7H7HJ/4zcgxwlsAPSHKFHa4u41dRQnRoLgpuK/neObvuZBCjrnDdjcj9z3vkFX81GnlXBJKTfCy9DxAIFtd+CY1ID/0f9QmsfP//sj8kDJykCUYSCPKewaKfQCIAACnuUiUegEB2lATvG3uFAKFSQdKqINtMBopqN2hs493fqi4QidIJawwAJGM3QHbQLijWeAWNQz6yrTWRVdFQJONPMDcn6ewyctocFKJuXTa1S/PzYVqOGLaxz2jWYtqKZZumTJqzKcR1hcKWJbmRkPVFxMnGgYTQccs2oimwdRvmJJedLxJG36cMtsejjSYuxLJ77c0ykSLP3Lo2sbBhfdJ+qbCfLgA=");
 
 export default Socks;

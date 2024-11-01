@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-shield` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-shield?s=thin building-shield}
  * @preview ![building-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/building-shield.svg)
  */
-const BuildingShield: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 16l288 0c17.7 0 32 14.3 32 32l0 165.4 16-6.4 0-159c0-26.5-21.5-48-48-48L48 0C21.5 0 0 21.5 0 48L0 464c0 26.5 21.5 48 48 48l96 0 16 0 64 0 16 0 96 0c6.7 0 13.1-1.4 18.9-3.9c-5.2-4-10.2-8.1-15-12.4c-1.3 .2-2.6 .2-4 .2l-96 0 0-80c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 80-96 0c-17.7 0-32-14.3-32-32L16 48c0-17.7 14.3-32 32-32zM280 232l-32 0c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l8.5 0c-.3-5.5-.5-10.8-.5-15.8l0-.2-8 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8l32 0c.9 0 1.8 .2 2.7 .5c2.7-1.7 5.5-3.1 8.5-4.3l7.6-3c-4.4-5.5-11.2-9.1-18.8-9.1zM224 496l-64 0 0-80c0-17.7 14.3-32 32-32s32 14.3 32 32l0 80zM104 232c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32zm8-152c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32zm128 0l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zm61 168.6l115-46 0 250.7c-96.1-42.9-120-138-120-197.3c0-3.3 2-6.2 5-7.4zM560 296c0 59.3-23.9 154.4-120 197.3l0-250.7 115 46c3 1.2 5 4.2 5 7.4zM440.9 225.7c-5.7-2.3-12.1-2.3-17.8 0l-120 48C294 277.4 288 286.2 288 296c0 63.3 25.9 168.8 134.8 214.2c5.9 2.5 12.6 2.5 18.5 0C550.1 464.8 576 359.3 576 296c0-9.8-6-18.6-15.1-22.3l-120-48z" />
-    </Icon>
-);
+const BuildingShield = createIcon("building-shield", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAAB4gAAAMDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUSEbQsGAAE2AiQDCAQgBYMtBzYbcwZRlA5GjewjITfRegkFEWIoy9HJ8ImtKTseng71/X+XOSztxoa6qBt0CpeottArEK/A2X9yVdWMu9f4S+AgR0RKODSiexcJE5c7r+0Bvnge2pqbxpo2AQP8t39qTNugWfZkCWlH895JmHCbQ0IoO0KNZwYzk795D3wWXxr/fM0jlQKAmAOAx/e2BlzacRdxrx0n/tSBgHgCHCEKCvYQ3DAK7DE5AlUV7KI18R8oEEB0YclpU8WUmEOcwhCKNK6m0hPnOQZxc3OY+Iw6jqbOqFW9Jq33fFvquRygN8k1XisiHbjNY5mPgas9l0dovdR7hdcSNZsKkKolQgZ0uEvEjjRytvdK3aG02uYDro7QXEESkBVe5EpvzaWeiedNed2ggOsYt4h7KuJOf/uaSOVDEpZ7gss89nXTBa1qEIzLpZ4orbRiXAzW0dXeBT5MPRI8u0Fcn0weaic7uBydKzza18CsC1yfsL9muffdpIPBG4PWg3WG7nHZ8znk3tB7GHDFHua0aJHTdny1Ecb7z5MFyc/vGzc10P0vqblThhgMQH80E+sLD48Xgdfcoa8XbEraT4/EXt/iKfBsscNqA2zobxFY+gvokpoyEcMOZVmLraCZ0oWxeZpVqAQFb5pk7GCRaawrZz2zREQwCG/agEMZxJ6/a2KCg/2lMnTR6iBzya9u0GpgUWfLXyYmoMQ8tWLu3GlJeOCMU7uuP+hkSZ0Pru86BecHI7cDAAiAwMk/w8b2c87/2tcGAMDbM19+KX7D/wtZYtijAn0JgrJtW72zGFozlCDrz5gqFEBfIMOGMfDHGvsSIAwRIHUNBSg2XBBUQ2cIOg5kIOgaemYU1Y6w1qcB0tgHUFybDlRrR4GOGzf9Xesonwfz4Wb+ncar7GIq1klKYrLkymxBxXri6eBgnqyWRU8dNMRgRAw1zliTDTHYCJM7lIkaQlOMUQlRV6ArUiRKJnLJ7vJDXif1TzTJiGnO/lnyyPmmaFPh9jFYaWBpnstJSaTzCxSfMGn4iCGjBwMAAAA=");
 
 export default BuildingShield;

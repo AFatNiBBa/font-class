@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree-city` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-city?s=sharp-duotone-solid tree-city}
  * @preview ![tree-city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tree-city.svg)
  */
-const TreeCity: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M288 0l0 512 96 0 96 0 160 0 0-320-72 0 0-72 0-24-48 0 0 24 0 72-40 0L480 0 288 0zm64 64l64 0 0 64-64 0 0-64zm0 96l64 0 0 64-64 0 0-64zm0 96l64 0 0 64-64 0 0-64zm160 0l64 0 0 64-64 0 0-64zm0 96l64 0 0 64-64 0 0-64z" />
-        <path d="M222 176c1-5 2-10 2-16c0-53-43-96-96-96c-54 0-96 43-96 96c0 6 0 11 1 16C13 190 0 214 0 240l0 80 96 0 0 160 0 32 32 0 32 0 0-32 0-160 96 0 0-80c0-26-14-50-34-64z" />
-    </Icon>
-);
+const TreeCity = createIcon("tree-city", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABgAAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCHwsIAAE2AiQDCgQgBYMtB04bPwURlZodyD4ScjOsd2Zmgh9OE55EEK2FVc/uXQBow8wKyMcxXWSiwo6FzSOqf3sBMP/XfH6h0SCfj+CQshY6qgAZdeIEBjzavKnAUmimuEF3E4Pw5+NqD3nqnp1XIl1JX3DB+R/A+FMr50lqZQCiIQAmLl8817vv4rsUX6rPxRdzEBCTQCGQIUNbAcbIBNrKFcjlgu9Steq7qFYLAUSZ88AMlFELB3EckIMklPO8c6taXq5OqV6+LNpSe/WluNmrMux5j8dtTzcjvKgTEo/UCU/C0kjl9ryU16mXRe2mFOOCnCcX1qldh/bH0DqoZ+pUaVj5u+OXbV++Nmheq2alcvp0pVKzVvmXlgtscFuhKAq3bbBAy/91eIsNJphhhpYGaGmGHt55V53gWWj/Daj/7db1QCB48OTpnPUNxvxXs04CP7z49w91ueq7dDpVUFMCQdan2mdNOg1MGEAhxTGdRvw4wktOcxS/ta6LAoTaCJCU1RYg00ZDAXK19RagpL2hApTVtlgm8lpCU2tLkNR1EGSGOQFyTT0DJWO8L5Q1DZS9eOpro/73ZU2rQ1PXFQP7DShGFYNVufYuyXp6dDE70uMY7+oJd9q2f9+RrVt2Hqkxh+aWj+6dNoZN/WExsN+AYlSxunHbWoYLhw7v7DfWrzK62D/R49j44J4wnniigzZkMiJF1uiLtPs+k17fR7irSct4WAE=");
 
 export default TreeCity;

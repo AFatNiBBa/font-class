@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-burst` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-burst?s=solid car-burst}
  * @preview ![car-burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/car-burst.svg)
  */
-const CarBurst: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176 8c-6.6 0-12.4 4-14.9 10.1l-29.4 74L55.6 68.9c-6.3-1.9-13.1 .2-17.2 5.3s-4.6 12.2-1.4 17.9l39.5 69.1L10.9 206.4c-5.4 3.7-8 10.3-6.5 16.7s6.7 11.2 13.1 12.2l78.7 12.2L90.6 327c-.5 6.5 3.1 12.7 9 15.5s12.9 1.8 17.8-2.6l35.3-32.5 9.5-35.4 10.4-38.6c8-29.9 30.5-52.1 57.9-60.9l41-59.2c11.3-16.3 26.4-28.9 43.5-37.2c-.4-.6-.8-1.2-1.3-1.8c-4.1-5.1-10.9-7.2-17.2-5.3L220.3 92.1l-29.4-74C188.4 12 182.6 8 176 8zM367.7 161.5l135.6 36.3c6.5 1.8 11.3 7.4 11.8 14.2l4.6 56.5-201.5-54 32.2-46.6c3.8-5.6 10.8-8.1 17.3-6.4zm-69.9-30l-47.9 69.3c-21.6 3-40.3 18.6-46.3 41l-10.4 38.6-16.6 61.8-8.3 30.9c-4.6 17.1 5.6 34.6 22.6 39.2l15.5 4.1c17.1 4.6 34.6-5.6 39.2-22.6l8.3-30.9 247.3 66.3-8.3 30.9c-4.6 17.1 5.6 34.6 22.6 39.2l15.5 4.1c17.1 4.6 34.6-5.6 39.2-22.6l8.3-30.9L595 388l10.4-38.6c6-22.4-2.5-45.2-19.6-58.7l-6.8-84c-2.7-33.7-26.4-62-59-70.8L384.2 99.7c-32.7-8.8-67.3 4-86.5 31.8zm-17 131a24 24 0 1 1 -12.4 46.4 24 24 0 1 1 12.4-46.4zm217.9 83.2A24 24 0 1 1 545 358.1a24 24 0 1 1 -46.4-12.4z" />
-    </Icon>
-);
+const CarBurst = createIcon("car-burst", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABmgAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCdwsGAAE2AiQDCAQgBYMtBzAbdwXIBp7n8z7PfckAzogqfkHsTO26EnByKX+enp4e8AD85/ZpHZv3jBeo1HiptGa82jS+sVZRrLU5dPBBRPwp4vuiLjkcpvhh6wx0+a2NxwzUEnUdmNU/VF7jxXhQWGkAAIgjAABQ2KJpLacfyAORa/8PgFyjGhAAKQTAQAAN0ABfBIAcNATwRccAdHQEHsj//+U/0AABADFnXFoBoAMWwAJgFwCgA6Aw0/VE+ywrGxszO91U51q3meraTEyy0HW+W3NpJllfIIFHvgRo9qr0YtkWvlAWzoSsmzc3NcdSoK2Kl0VupmYtmu339RVDPDnTTZhxizx8pLmXg5fsG2WSpd5Lw0yyMWS9Z7MNnovDNvosC22OyGYvcD1cO2ir49a3gde7X2fXIZtM30qq3Vnbo2VFeAmFMUz0ilxTa4Nej/X8ccMTGMtG7p6YhsVypMfcGndeZ2TanFoyMViXrbWu4Eoq/+i5ttQvvkT3Dl27gb/MJKZ363OPubFxQ85IvhUy8oS17o2cu6+Z/GUhQzaYN8Xr06eJk4KZ2LPHU8exaaFDm6aHDG16s0nsjXNLluYMLS5PAQABBG51e9G/g0POV0sbBcCjo+9/bLdT/y+obmorYIkCQECL+R9DWzUahY/qhgAAAABKhhMEvkgAxQzMGI4tC9m4YA0GCnOsQcMHR9CxJhrM8Cf1DHOsaYqG6FYIrrTDQGHLINBIYwTouLIPzMjhUsQcV9FilI0w9hcxqcyjpZOMxLgEI8t4LNq5sKPhcLYxbUUMl6bItJDuDKA/Q+lGV3ox1BGDqY0Pox9lCC/lhxgkEkcCBlkYdOWrZHKRwQyh170OP0o2xnonguG4c2SahgIAkr4uLTNFWXXpNDi287DBQ4YCAAA=");
 
 export default CarBurst;

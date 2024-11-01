@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-plus` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-plus?s=sharp-duotone-solid phone-plus}
  * @preview ![phone-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/phone-plus.svg)
  */
-const PhonePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 32L176 0l80 144-83.8 67c36.1 68.4 92.3 124.6 160.8 160.8L400 288l144 80L512 512l-32 0C232.6 512 32 311.4 32 64l0-32z" />
-        <path d="M424 200l0 24 48 0 0-24 0-64 64 0 24 0 0-48-24 0-64 0 0-64 0-24L424 0l0 24 0 64-64 0-24 0 0 48 24 0 64 0 0 64z" />
-    </Icon>
-);
+const PhonePlus = createIcon("phone-plus", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZwAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBTAsIAAE2AiQDCgQgBYMtB1Ab7gTIjpSuzlQ8/P8a7b4/sza7qM9ucsEkmUmCRt+GJKJVSCSaV8h7iJ5M4n/+L6c3nh8d4AeRm8u3ja2rPTjA+TyKLu95FkYJZYrtrcwiSUuvSVYqyfnf2R7Pe0Ief7IbKkh30muM0P8Axgcz3CCpyQDEeAAs3bZpjaejMZri9f/HxGurERDLQCmQIcNsARbIBGbLlcjlgtH0n9H4XxJAVKIXZ6ASOZZhOyAHSYg8r59RWzEm30rF4pBQG8DXJqMogl+E4Hnjfbu2bd62JTbHmy3bgr0i3m4tLdHwcPzDT/Wvj7527/t0V+w03RJLGFqyZzrpzbs7Mg9b143YtMzA8eMDyzYZWSdnla45PB/4+eEtrpVAIPjSOmX6vnELvlbXJvDuyZf3/Nny/9PUmR6iWgJB1vq/1e60RGl86hQAgBRXNaQlsf69HVMvgd9a56YAoUCApFIhQGaW8QLkCi0CVJirT4BKhU0ykdcIk+1pIKlzAWT6XQe5yR6BCgs8CypNjkyfKG2g/ubiV0l05bWyq72zHC6XXZVWESJuzy+P9carfqoJHjrqnLMuO+KwEy4L/KI18RVnrNphK/1QqUu7TqVh5fXgkd+KwUWXnJiz94fMVz5vNrq6X9wEt0mA7i9RyogU2USLE9rsUW7TzOnJPWuDAAAA");
 
 export default PhonePlus;

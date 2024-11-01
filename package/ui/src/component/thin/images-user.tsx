@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `images-user` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/images-user?s=thin images-user}
  * @preview ![images-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/images-user.svg)
  */
-const ImagesUser: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 48L160 48c-26.5 0-48 21.5-48 48l0 224c0 26.5 21.5 48 48 48l64 0 0-32c0-44.2 35.8-80 80-80l64 0c44.2 0 80 35.8 80 80l0 32 64 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48zM448 384l-16 0-192 0-16 0-64 0c-35.3 0-64-28.7-64-64L96 96c0-35.3 28.7-64 64-64l352 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64l-64 0zm-16-16l0-32c0-35.3-28.7-64-64-64l-64 0c-35.3 0-64 28.7-64 64l0 32 192 0zM64 128l0 16c-26.5 0-48 21.5-48 48l0 224c0 26.5 21.5 48 48 48l352 0c26.5 0 48-21.5 48-48l16 0c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 192c0-35.3 28.7-64 64-64zm320 32a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM336 96a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
-    </Icon>
-);
+const ImagesUser = createIcon("images-user", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABowAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yCdwsGAAE2AiQDCAQgBYMtBzIbeQXILgpsm7F1SI0is8ziM8r42DPG+qE3FTEentbS92cntLMJOyBJqMrCsi1rAiOAUF+FqkyEatlWV58FY+5vIpL2E3fMEzQRb6SwvEojrVGKluyIg9tDyDRNApSS+et92mUX0No2li4swgDhSf/i1POchwL4lkEQlDFWJ0j3+Z7nFeh5valv8p4vkIh5WWpuixUN6rhikCGqQ2Td8Avtz5Djm3Vi0kMIuc5PGv/YPZJUFYAYQAD2zuI0jT7jM7DVbhFbJpGA2IcwBahQYQzADkKBMSJTSJYFv/H/H34DGQUQnfBfJJDRjWd4C8gg6cx5dlTvU6tLR28+VMT16UbdvGF3FDzkd2NBxPP+eRe06kcPJd7L+zbwSNxLR2pl8659MoHH/XPuxdv6UcOD8iHUlqB41D6lGm/KBwXlGDDUew30crbVICcffeR7F96oh/Ftfm/3tYIfNWd8CcwyYc8M0aff+Z3i//oilcTrdvVJuP19+WI4dFLXoLtDYA3ltTM7oOMBHlR8UgwODh5J5v4zeOYnDWx09AC67rxH5uu46UwqDq/dHSoq/j/RDkcskR4RBIJT//VY2sr/7pLA3+e/4sPt36mRhoBuCQTVfHveajUQRAVQTnGRSzlgILnnwdWGkFRDjUDSqYbKKB1ktTnoMCF7RqfafkKRe4QRawSSxhmobHqAbMQTdNjhpdRpJEIfFTxM+EVM7fVIdx8nYwku8bariW7Hpe0yH7uByzgVpJO06cihcxvW7TjvsFPT1QsHehra9UUsKSaBlfD14PH4ig2nzuw4clh2KWP7YsClvjhIgQBoVzUliUjlQ9eivg0AAA==");
 
 export default ImagesUser;

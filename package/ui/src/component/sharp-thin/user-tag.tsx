@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tag` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tag?s=sharp-thin user-tag}
  * @preview ![user-tag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-tag.svg)
  */
-const UserTag: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 16a112 112 0 1 1 0 224 112 112 0 1 1 0-224zM75.8 320L320 320l0-16L64 304 4.9 496 0 512l16.7 0 414.5 0 16.7 0-4.9-16-3.4-11.1-24.2-24.2L426.3 496 21.7 496 75.8 320zM352 128A128 128 0 1 0 96 128a128 128 0 1 0 256 0zM628.7 372.7L480 224l-96 0-32 32 0 96L500.7 500.7 512 512l11.3-11.3L628.7 395.3 640 384l-11.3-11.3zM473.4 240l144 144L512 489.4l-144-144 0-82.7L390.6 240l82.7 0zM440 296a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const UserTag = createIcon("user-tag", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiQAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCTAsGAAE2AiQDCAQgBYMtBy8bSwXIhofn9f77tU/ylNyhMyQ/IHZCUQ26L1W6E9c8//On4rIieLQorFpiJI4yzyew84EMI+1FtgabKM731nujFZGdIpnUJLnH/uH4D5DHPw7XQLonfYmbypfGj7q5nCTLAERbAMzdvH6ljw/EgYgv6m8QX1iOgJgLKoEMGXoKMEMm0FOuQi4XHIh6nf8DKwKIRvKMCeRoxqW4E5CDpDHPe3Tr0alVS9nQKt9UNhTbrxsY8US3e1zc9e4BjxfXDnqy+71xSY/7Bj9VbimLMqIWG6JjlK06R+cYFr2iFpsPu2RYxLPDni2uHfJ0QF089Bm0vG74c1vE3k0bNxUxJMTG6BRdYnPUOo+xbdwQmyJieJRz7ux8e8c7Ot3Vpd+zbZ/9ue+XR35p/0u9H+TB77/v3Rvegw/2Vg3s3Tb6L4mrLaZ9ZLV2L602zFUedbuJL3X4qH+N2nff9uv37Xe1Wn9qoLDjX7dTxR51e6DWs551zDE1vO/ym8g7+mhIW+fIhDW1PnCgNRWI8z7uMe2w3W1m/N1cJnDo3V9/lK+uf5wuTs+iWQJBNqI+wo50MTA7gHyKM/Uz1hhIzvW0t1pzpwChQICkUSFApoe2AuQKwwVo0NtEARoV1stE3iJ0tLOTSc0pZGaSC8hcR6+RDWb4JNeoY2TuKDqT+DOYtkgDC1dVY0eNqaZVy4YmeRifF6dX2/qQM+PAUGx0pJOc6HRHONwxTlfQqVYWz3CCRRa40A9VxhpljMo01XH7Udukcqc6zTFz5XyZ6ar7iSHOtMcPhZUI5zh1SSJS8yecHXn63qMAAAAA");
 
 export default UserTag;

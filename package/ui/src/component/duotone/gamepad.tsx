@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gamepad` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gamepad?s=duotone gamepad}
  * @preview ![gamepad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/gamepad.svg)
  */
-const Gamepad: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 256C0 362 86 448 192 448l256 0c106 0 192-86 192-192s-86-192-192-192L192 64C86 64 0 150 0 256zm112 0c0-13.3 10.7-24 24-24l32 0 0-32c0-13.3 10.7-24 24-24s24 10.7 24 24l0 32 32 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-32 0 0 32c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-32-32 0c-13.3 0-24-10.7-24-24zm360 48a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zm64-96a40 40 0 1 1 -80 0 40 40 0 1 1 80 0z" />
-        <path d="M192 176c-13.3 0-24 10.7-24 24l0 32-32 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l32 0 0 32c0 13.3 10.7 24 24 24s24-10.7 24-24l0-32 32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-32 0 0-32c0-13.3-10.7-24-24-24z" />
-    </Icon>
-);
+const Gamepad = createIcon("gamepad", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABkwAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCOgsIAAE2AiQDCgQgBYMtB0obVgXIjtRW90KYpIyH79d6O/d1zyTpCUMHGBUCKnZswzZRYRdeQPtr7cqt1V8np8djlfaLQuCt+b/m80s7OsAfdgSHkrXSYSRYt09gwLNZNNhACnwDmSDP8uY/+GBMEbCbYZjQXoiOkKe+2VUV0v30HbfDG8e/OrhK0igDEM0BMH3Fknk+1kVdiu/1r4jv5iIgZoBSIEOGzgJMkgl0liuRywV1qb6eurB/eyUBRBX4nhmoogHO4BogB0nI87x7u+5NmtQqTfLltUqx5lGIIgi7r1oI7GlH1AJ74CIirow/F0X8uqxJ/L3k9xV/Lf5teeP4Y+EvS2sP+9YiwmCPU9QCuzdFCOxJRRRhbSqRRxZpGHkqGVjBW/R4wRfX/fv27z40W9SmVEpsm0VsqSnu4GMsWsayRcGiWLYsFpl6O/rgVj2X7RhaHTh+/MBqWpi6AX4HBIJNh+/vhmaT/kctgX9e/3/+xnQxvUBDCQTZoPpB1qaLwMIAcimO69H7ooMIZBbLxUdt7I4AoUCApKoQINNJcwFyhYECVHQ1WoCqwhKZyBsJra2rIGnsEMiMcQ7kWnsJKib5lK9qHZkaakqkfQKz5yAxe1U5fMiwckI5rMu6ZilufmK5HO13XPr600bbHbDfUdtstctR4A+bVzpmnzkzbrYPKg03xDClCcrj1q29HPKHHbGrb54vM1F5P9nP8fno/pRIougIazIZkSJrpsGpg5u2Dn7OQQs03y0AAAA=");
 
 export default Gamepad;

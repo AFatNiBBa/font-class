@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-fog` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-fog?s=thin cloud-fog}
  * @preview ![cloud-fog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cloud-fog.svg)
  */
-const CloudFog: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M462.7 124.8c.8-4.1 1.3-8.4 1.3-12.8c0-35.3-28.7-64-64-64c-19.5 0-36.9 8.7-48.6 22.4c-3.4 4-8.7 6.1-13.9 5.5s-9.9-3.8-12.4-8.5C309 36.8 276.9 16 240 16c-53 0-96 43-96 96c0 6.1 .6 12.1 1.7 17.9c1.5 7.9-3.1 15.6-10.7 18.1C103 158.5 80 188.6 80 224c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.4 0-.9 0-1.3 0c-4.8 .1-9.5-2-12.6-5.8s-4.3-8.7-3.4-13.4zM240 0c37.1 0 70 18.1 90.4 45.9c3.3 4.5 6.2 9.2 8.8 14.1c3.6-4.2 7.6-8 12-11.4C364.7 38.2 381.6 32 400 32c44.2 0 80 35.8 80 80c0 5.5-.6 10.8-1.6 16c.5 0 1.1 0 1.6 0c4.9 0 9.8 .4 14.5 1.1c46.2 7 81.5 46.8 81.5 94.9c0 53-43 96-96 96l-320 0c-53 0-96-43-96-96c0-42.5 27.6-78.6 65.9-91.2c-1.3-6.7-1.9-13.7-1.9-20.8C128 50.1 178.1 0 240 0zM0 408c0-4.4 3.6-8 8-8l560 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 416c-4.4 0-8-3.6-8-8zm64 96c0-4.4 3.6-8 8-8l144 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L72 512c-4.4 0-8-3.6-8-8zm224 0c0-4.4 3.6-8 8-8l336 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-336 0c-4.4 0-8-3.6-8-8z" />
-    </Icon>
-);
+const CloudFog = createIcon("cloud-fog", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABmwAAAKCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCWAsGAAE2AiQDCAQgBYMtBzAbWAXIjsN0WzxnuTzLIBE8b9d/dW73PID9SSyJeKKFIzKI1pk57FTrg4eZP8Pi9LxtdB63+b+mXjw/OsDPR3BokZTaWIDVy+cTGPhao2jH89lwNlGcuS0OEQVRVhZERXTz5UNbqF/+DHn87Wgl0gPpfdxWPjS+1u1qkiwDEE0AWLJr2wYvfxafRbz//yTetw4BsRQUAhky9AkwXybQJ1cglws+i///5//AggCiAg2WQI5K3IZ7ATlISnk+bUI9DV5bqs931pZqjrsvHhz7jtxHx47c0UeeNc+Mvvtce2rbu6pHxjwzaDw/7hvc5Adm+por4saO3KnfmHBPe+m8Rs0xT79rC5Gk9iYsz+zpJJ7TyQNDb4/K8RjLs6xK5qFdEdtY3Nuh7uvEHYwgjFKYvECUm95vh7x/7Ps+XFqqrGlufvzj4StPv3zWf8qBvsvL5arqrrpnzvvq597YeUzTYk3H7Ix4hKBqxYqOTy6+4++VM3ds3/TE8oiqzhAqTx9xwp68qly+fLHrMxq7Ot/prm387/sfvr+v4vBkhytYXnQowLczED7z8GYGzwOB4KWXuuShxvm/ApzAFy99/5d73P8vp8tTGVUSCLLx/4+3P10OIAbgpzjXUOGLAsl1Suhd69wrQKhBgKRCjQCZXk0C5GqME6BkwAwBKtTYJhN5tdDmQANJnTNAZqZLQK7N06Bkvre8Cm2RGSVjUswnYeLKEV2xrJgycXIxt9imKmtnVJqfVxwro88NrTE46FinOdXZjnG0E5w94GfaEJ7jFCslbIUfKkwx0WSFuYrr4nn3Tsc401lOcJpT8yLzFO8bo50rjx4DPSHSqSJJIlL13wndCceedhw=");
 
 export default CloudFog;

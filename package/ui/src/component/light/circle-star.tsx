@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-star` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-star?s=light circle-star}
  * @preview ![circle-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-star.svg)
  */
-const CircleStar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm14.3-399.1c-2.7-5.5-8.3-8.9-14.3-8.9s-11.7 3.5-14.3 8.9l-36.2 73.4-81 11.8c-6 .9-11 5.1-12.9 10.9s-.3 12.2 4 16.4l58.6 57.2-13.8 80.7c-1 6 1.4 12.1 6.4 15.6s11.5 4.1 16.8 1.2L256 342.1l72.5 38.1c5.4 2.8 11.9 2.4 16.9-1.2s7.4-9.6 6.4-15.6l-13.8-80.7 58.6-57.2c4.4-4.3 5.9-10.6 4-16.4s-6.9-10-12.9-10.9l-81.1-11.8-36.2-73.4zm-40 95.1L256 156.2l25.6 51.9c2.3 4.7 6.8 8 12 8.8l57.3 8.3-41.5 40.4c-3.8 3.7-5.5 9-4.6 14.2l9.8 57.1-51.2-26.9c-4.7-2.5-10.2-2.5-14.9 0l-51.2 26.9 9.8-57.1c.9-5.2-.8-10.5-4.6-14.2L161 225.1l57.3-8.3c5.2-.8 9.7-4 12-8.8z" />
-    </Icon>
-);
+const CircleStar = createIcon("circle-star", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABkQAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCUAsGAAE2AiQDCAQgBYMtBzIbUgXIjpMlBgaSSyL4fu3f+tyZAPCEGR0QqtjUVwGHvAQ2ILdWRj8EvJ2QFMRqU5OkakVMstlMXO78z58ecJE/ylijAhkLx1jnCQQavrc0oGgssEwTsHZnm5ok2idpqSE5vuX42EEej6OLcqTb6SdczB8a/2nkGEmeAYiaABg5f/ZUL77El4ifSpv4yWQExChQCGTI0FSAITKBpnIFcrngS5RK9B9YEECUx8+ZQI7yOIFbgBwkeZ43adKhqFKuWj6vSrnKi99OjPjY875DPe61D2PeTfrU60E43Pth/zw+/Ts94tfRr+PwqFfTfpn315SfRrxwaOTLqT/PXXyj8pm6c2JOXKt7Lc9EAjHX6/yYG5ibZV7MDvEGbJ03p3eP3j3jer2xMUQvbxmT4kbdCdFaC4bFeHdKg1Zlqey2/GndT0p3XnSh6/lr8OC/vnft8kK0UPyXsS5xeXDT0aObDr68xkqteI5qFwZUrjygzQQzqjjcocO626pNV2nvnqPj25rQ1u49eyuFkrvmNxxwWCemwvbLrvJltRvTLWMr3DLI6t2d3FJh7ikn7ewHBILt/9//y2sM+VGxSgLfHr0fyq+o9CJJZagogSDrUupiSQKJAACk2KdVhEByQA6utaobAoTKCJCUV1mATBM1BchV1lmAcprrK0B5lc2WibySUNfSBidV7YQz/eyHc3U9hMsZ4n26vLohM0jGnJjnYOI4CYzdVPTs1qMYVKgtlbUxKq4OLpbNDvv8SEeItc522+yx1hob7RHQLlNze201bgSO9UWFnrrpoTBIsd29F+cJzC67baRv219nsOJ8qoN94+kdwUkYt5e6JBGpyr8dqeulAQ==");
 
 export default CircleStar;

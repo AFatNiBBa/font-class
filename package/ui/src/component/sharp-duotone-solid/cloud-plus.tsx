@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-plus` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-plus?s=sharp-duotone-solid cloud-plus}
  * @preview ![cloud-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-plus.svg)
  */
-const CloudPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336L0 480l144 0 368 0 128 0 0-128c0-59.6-40.8-109.8-96-124l0-36c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192l0 8.2C40.1 220 0 273.3 0 336zm208-72l24 0 64 0 0-64 0-24 48 0 0 24 0 64 64 0 24 0 0 48-24 0-64 0 0 64 0 24-48 0 0-24 0-64-64 0-24 0 0-48z" />
-        <path d="M296 376l0 24 48 0 0-24 0-64 64 0 24 0 0-48-24 0-64 0 0-64 0-24-48 0 0 24 0 64-64 0-24 0 0 48 24 0 64 0 0 64z" />
-    </Icon>
-);
+const CloudPlus = createIcon("cloud-plus", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABfAAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCEwsIAAE2AiQDCgQgBYMtB1AbNQXIhof/t6v/fW5V95pX9YyaeYIjWBkUCV9Kheg7k2OGUtzzfzm98fzoAD/fuc7tEyfgGo3NCfQ8kHQsyvOE0oAy0ha33QwxC4kvNBpnyNPg7Koa6bH0GW6H/wMYv+rhKkmrDEC0B8DcdatW+uDH+DHFZ403ic+sQEDMA5VAhgy9BZghE+gtVyGXC35MjQY/RqNREUDUhS/LQB01HMZpQA6SkPK8uaW5rLXJ15a1YpdQRiyVpV0UOixCkJKpLVahNsHTo16eVJw67PlJ1wa8PO2tSd/NeGe1eHPEi73XlUV5mhRClCW0oChz35Etz7d//vfmz/Z+ZvDi7t27j9HdHHMqaM6G7obW8TvxT/7rojZ3nnt8gKbnn7/Y99iqiRM+mB+ffRbzm7xy/367Lxd3777+XHX4PAgE30+Z23dbuxn/N5UJ/PzWn7+oHm78mC6m59EkgSAb0Rhhc7oIghjAl0pxVku66CsEMvMl8bu29rAAoUCApK4QINNLewFyheEC1PQ1UYC6wiqZyFsJnW3pQNLaCZCZ5BzIdfYGqJnhw6iuc2QgxwIM+8WXtGiILtxVjR01pppWrZYaDopouzq9OmwNOStHhuKD9jrmqNP22O2A0wP8pJXpGUcs2sIW+qDKWKOMUZmmutw8ldYOopNOObAsXN9muup5Z4iz29OH4v0kwLiXlcmIFFnHnw/KI/2sNhJ4RzuPBX8K");
 
 export default CloudPlus;

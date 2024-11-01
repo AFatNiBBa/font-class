@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `check-to-slot` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/check-to-slot?s=duotone check-to-slot}
  * @preview ![check-to-slot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/check-to-slot.svg)
  */
-const CheckToSlot: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M96 80l0 208 0 80 0 32 384 0 0-32 0-80 0-208c0-26.5-21.5-48-48-48L144 32c-26.5 0-48 21.5-48 48zm87 111c9.4-9.4 24.6-9.4 33.9 0l47 47L375 127c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7c9.4 9.4 9.4 24.6 0 33.9L281 289c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9z" />
-        <path d="M409 161L281 289c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L375 127c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM48 288l48 0 0 80-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l416 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-80 48 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48L48 480c-26.5 0-48-21.5-48-48l0-96c0-26.5 21.5-48 48-48z" />
-    </Icon>
-);
+const CheckToSlot = createIcon("check-to-slot", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABkgAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCNAsIAAE2AiQDCgQgBYMtB1YbXAXIhuB9W2W9372ju2XsA8aIiE1IqR05cgasnEZOCTJLM/39PP/W9AEff9eKRQRFevf5BHY+W3vTdj4dWJQpbnDeoIPuU2jfQh7/Z3epIj2fvsKj4f8Axi+63EUyOAMQjQBYsnXjap+Uo5ziq8pHxFdWISCWgkIgQ4ZeAebLBHrlCuRyQTlVKpSjUikIIEpCOKMroQtcx72AHCRJyvPWid1tNVV1+Ra6vvropq2b3hq5IV7oeXfEgtga9IrPd+6rqa4R1fFU69NtdfFsxzPt1RFRE2+3Pd0lnmt9anhtvNP+THfEix3PjtopCFEXWH5hMTiyNt46YO3cfF/w2ZoH27h1U7wxe+gHjR/8NuSrI195rv/WOKOuruK774rI786cQenWeeyWyTh7nUbl+vrya/j9RutMNvn7r7N9sq+/n1zugvae/Q7NWqdwm8I63y1oik3bljNPBo9UVx/h3ltv9dH5QCAYv3XibXsb5v83qCaBnz/+45/qdJVyWpw+wCAJBNn4yni70mJg1ADiKa4YunFX+wQySyXxrdZ6RoBQjQBJSbUAmR6NAuSqjROgSr8ZApRU2ygT+WCh1e4OJLXOg8xMN4Ncqw9Blfk+jZW0RqYHeR3E/wGmrBxCKyYVUyZOLuYWqyWNoK1Yb3Recdg0+gpvGQM3OuKsMy457JDjLg3IC1YnLztt5Raxwg8VpphossJcxeXqU3kLDrrgImeXpevjzFM87xvtynb3MXA6CTBV9rIyIkXWZpLDEy6dnWAxdROMc4eOBcnoAgAAAA==");
 
 export default CheckToSlot;

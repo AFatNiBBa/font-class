@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-medical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-medical?s=solid message-medical}
  * @preview ![message-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/message-medical.svg)
  */
-const MessageMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L448 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-138.7 0L185.6 508.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3l0-80-96 0c-35.3 0-64-28.7-64-64L0 64zm224 64l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const MessageMedical = createIcon("message-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABbAAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBYQsGAAE2AiQDCAQgBYMtBzYb5wTIjpQuZyTx8LzdV+e+qlb1GDWAkY0XYAg4yAfpKtr4Vwj+/F/z+T0/itJvdCjdW4MUYEToBAYaaekT2WxgM52ATbeJjx1B+EREDCsJ6TjtuHpAHl9k11WRnk1/4k750PhLW9dJ6jIA0QQAU1YtW+DbB/Eg4o/KR8Qf5iEgpoBSIEOGDgKMlwl0kCuRywUPolLh/8CSAKKavH4COXKsxDpADpKU59371lc1zFfWVxXZ8/0i3u/VMN7s827bFM/0fqd7EcvjiVZPRUQRb/V9r122QijiiRbiyZb1QfTTrSPIp1oVwZuXd32vyXv/+HPnny4XTWn6ymWvNG1alIDlnTecXe/4tWvFYptnyfuTBssaDxqVGj0YbHDVSlgwmH4eCATHFv/066bG4/+vrU/g0ef/bT8jla+T9B5qJRBk/Sv9rU8gEQCAFCd1TRBIFkrkXRt4SoBQIEBSrRAg014TAXKFfgJU6WSEANUKy2QirxNa2DBA0sARkBnpAsi18AGoMt4vuWotIgssMSzEf13aTIRmrCqHDBxcji23VV2KFT5PjyuPvd4nU1cfOmunQw46boft9jgOyFELiiccMNOCZ/ii0hADDVYaq3Q31tpKSB51DPm1VfqXGae8n+3tpD24D4WJMA5VkiQiNQ43a8BDAwA=");
 
 export default MessageMedical;

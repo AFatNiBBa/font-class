@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `utensils-slash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utensils-slash?s=thin utensils-slash}
  * @preview ![utensils-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/utensils-slash.svg)
  */
-const UtensilsSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M143.9 9.3c.7-4.4-2.2-8.5-6.6-9.2s-8.5 2.2-9.2 6.6l-.9 5.4 14.3 11.3 2.3-14.1zm45.5 51.8L192 8.4c.2-4.4-3.2-8.2-7.6-8.4s-8.2 3.2-8.4 7.6L173.9 49l15.4 12.2zm55.5 43.8L240 7.6c-.2-4.4-4-7.8-8.4-7.6s-7.8 4-7.6 8.4l4.2 83.4 16.7 13.2zM127.2 195.6l-22.6-17.8c4.7 35.2 34.9 62.3 71.3 62.3l7.5 0-23-18.2c-14.2-4.1-26.1-13.7-33.3-26.3zM200 253l0 251c0 4.4 3.6 8 8 8s8-3.6 8-8l0-238.4L200 253zm112-95l0-.7c0-4-.3-7.9-1-11.8L287.9 6.7c-.7-4.4-4.8-7.3-9.2-6.6s-7.3 4.8-6.6 9.2l22.5 134.9L312 158zM528 328.5L528 24c0-13.3-10.7-24-24-24C488 0 384 32 384 176l0 38.8 16 12.6 0-51.4c0-67.7 24.2-107.4 48.9-130.3c12.5-11.6 25.5-19.2 36-23.8c5.3-2.3 9.9-3.8 13.4-4.8c3.7-1 5.6-1.1 5.7-1.1c0 0 0 0 0 0c4.4 0 8 3.6 8 8l0 291.8 16 12.6zM13 1.7C9.5-1 4.5-.4 1.7 3S-.4 11.5 3 14.3l624 496c3.5 2.7 8.5 2.2 11.2-1.3s2.2-8.5-1.3-11.2L13 1.7z" />
-    </Icon>
-);
+const UtensilsSlash = createIcon("utensils-slash", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABkAAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCSgsGAAE2AiQDCAQgBYMtBzUbTwXIHoPjbln05ZbYDBEG9T+3IojfjzX7/kNMEp404aFqhRBNEiGZlEqkUuliJ/XSWb3cu/eFkC82OxClUKnMpIu7NB0rIf/BA/7nmnphTQf4jQ4lGm+bDmSNEcl7ExhgtGVYAw9nE8VZm+MQFRTkXIJQkXqer2H7Ya015PhWik96SLeAs/ah8Q/a+oGkKAAQ9QCAxfWUOJz/pqnb/xOIF8SAgFgC0I9QoEA3AjO4At14+kGWBb+D9B/IIIAoBYnkvRmVOAVcASCDpDzzJFKpglTRTCbly3npUr4kp0djVE2N1EkzyISZTIjeTePS09IXJfPSwizV2sp6xWpXKiVr2upMA7lRX9Ik0sggxGlrOmnmTuNyuKsDi6YbtgepoBYiWu9as9m30BlLReyCIZhD6s2LavPqTUPY59doNt5T2nsyui2/NXUqLBJq8PDB7tmUfYSNQqEWHk54hdEUzoHcFMj2spPY3Zs56QmxKfwx0vObS5QWFgqe8dOQT0QCnsYoNB4JGIT8dc8Jt1RPmj67G1ikcAt8wwX9emZM0ByUCGCj1BTfnLCUULfQhhfH1YBA8P++9rBA0fdVJOUA/j69fMUD/f2fpd60B8olEBRj/7ZyU7eA/LVA6ErRDmN8EwjJERHcqtotCIRKBEhKVQpQ6KI0IKs0CiV6uUnK0cu4IosRmuUBkmpbUJjWAVmzIygx48JVqjm43qj4kvItmBm+4mGdmJO9I/Nmt0mn6mBSbfZhasuyPRdZYSbKNajXqkypKq0L1yzO26ZOuMSG+SHGiT1HjDdmzryb6cHVrEXVtWJHtOODve+01C5XtoKDg7zj4pNEJIW2fzzCalvsWmqLWioBAAAA");
 
 export default UtensilsSlash;

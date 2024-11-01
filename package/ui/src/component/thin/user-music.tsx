@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-music` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-music?s=thin user-music}
  * @preview ![user-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-music.svg)
  */
-const UserMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 16a112 112 0 1 1 0 224 112 112 0 1 1 0-224zM178.3 320l91.4 0c53 0 100.1 25.4 129.7 64.8l.6 .1 0-24.3C367.5 325.8 321.1 304 269.7 304l-91.4 0C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l277.5 0c-4.3-4.8-8.1-10.2-11.2-16L29.7 496c-7.6 0-13.7-6.1-13.7-13.7C16 392.7 88.7 320 178.3 320zM352 128A128 128 0 1 0 96 128a128 128 0 1 0 256 0zm272 62.2l0 44L448 292.9l0-49.4c0-3.4 2.2-6.5 5.5-7.6l160-53.3c5.2-1.7 10.5 2.1 10.5 7.6zm0 60.9l0 117.2c-11.7-10-28.9-16.2-48-16.2c-35.3 0-64 21.5-64 48s28.7 48 64 48s64-21.5 64-48c0-1.8-.1-3.7-.4-5.5c.3-.8 .4-1.6 .4-2.5l0-152 0-49.8c0-16.4-16-27.9-31.6-22.8l-160 53.3c-9.8 3.3-16.4 12.4-16.4 22.8l0 60.5 0 128.2c-11.7-10-28.9-16.2-48-16.2c-35.3 0-64 21.5-64 48s28.7 48 64 48s64-21.5 64-48l0-154.2 176-58.7zM624 400c0 7.1-3.8 14.7-12.3 21.1s-21.1 10.9-35.7 10.9s-27.1-4.4-35.7-10.9s-12.3-14.1-12.3-21.1s3.8-14.7 12.3-21.1s21.1-10.9 35.7-10.9s27.1 4.4 35.7 10.9s12.3 14.1 12.3 21.1zM432 464c0 7.1-3.8 14.7-12.3 21.1s-21.1 10.9-35.7 10.9s-27.1-4.4-35.7-10.9s-12.3-14.1-12.3-21.1s3.8-14.7 12.3-21.1s21.1-10.9 35.7-10.9s27.1 4.4 35.7 10.9s12.3 14.1 12.3 21.1z" />
-    </Icon>
-);
+const UserMusic = createIcon("user-music", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABuwAAALZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDWAsGAAE2AiQDCAQgBYMtBzEb2QVRlA1Gmuxngk2Hb6EhIoYobTGadrENpc2NMnuZPoqXfhYP3499O/e+t2KWFTFNW5cSPJOWaBY6sxkaNLG6pD9UssnxefkzhV62ZArIScEr7NPurcKXTgKyyQ41koozoT71/+eafO+eHxXI9xM/tGiKWnmDjDp4AgONtGia7nnrvdlsgjprc5zCiyhy4CASJvmENGwfDVM7qPFbDkHycd7iZpkdX4zpIpWCEL3AbTp8K+fxGtiIePv/mHjrLBAQRwBmIQoKJiHYh19gkoBZoKqCRvz/n/8DaRBANMNbJahowyt8AlSQWmodp6Iz0b1Tqq+jiSMQR5rEkgd1MZaVxoFRHNNZEhvQW1GeQFZlUn+VJJB2Muh4bkgC8TlOLF5GPMYwcsOEgyPyVFz4xp0bH88aYWwYbYgNGKwJBYzhOkUGjTdPwkxAiMFAViEeH8oBIKzoLeksKY7rLqtR/VUVFoGgLyPyI7IxeE8REBB0jHhgZId0VnxEVmFUf1luGGJOq2ltSG781bzNu4Uvu+ozADM/f6qrV29mRr1kiGe6vMrrGGBvKlIEvTBchSCck44znBsNnCGICxDDo9Dn450PPuVqU4B6etTS+vhEUdouw3kS+024YN0JLEEoctYGWBHXWg5Vf5xTVStFTW1iYqr9hIvMeGQLsrb2Mltf7cNYz35ifffJ+QYbzwh6cg9OlwMIBBf+e2+6hMvXVpLg8/P/43z4z8vruYFWCYKy8H9BShmQHoGJjGu0lA8KpBda4F47PRAgtCNAatYuQDFBEoKq3TwETabZQtCs3Qp+UduEQakHpE4XodihFapBh9Bkn4t4s8EUo+ZNkv+lTDkxoscHzVqaWdBO9DKjC3bKpk5n+rZuUBcqDLFUnnJlauTKUahmwKuEpmqV8tMwX19Es2TGAs0JvZ1/VuJ8vEq1wmtpvx9n9PMRA3V6fUNYfMi4RVpKIts/BG3xdQcA");
 
 export default UserMusic;

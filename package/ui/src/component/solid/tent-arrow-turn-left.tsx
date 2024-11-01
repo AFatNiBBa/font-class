@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tent-arrow-turn-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrow-turn-left?s=solid tent-arrow-turn-left}
  * @preview ![tent-arrow-turn-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tent-arrow-turn-left.svg)
  */
-const TentArrowTurnLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M120.1 41.8c9.9-8.9 10.7-24 1.8-33.9S97.8-2.7 87.9 6.2l-80 72C2.9 82.7 0 89.2 0 96s2.9 13.3 7.9 17.8l80 72c9.9 8.9 25 8.1 33.9-1.8s8.1-25-1.8-33.9L86.5 120 456 120c39.8 0 72 32.2 72 72l0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40c0-66.3-53.7-120-120-120L86.5 72l33.5-30.2zM307.4 166.5c-11.5-8.7-27.3-8.7-38.8 0l-168 128c-6.6 5-11 12.5-12.3 20.7l-24 160c-1.4 9.2 1.3 18.6 7.4 25.6S86.7 512 96 512l144 0 16 0c17.7 0 32-14.3 32-32l0-118.1c0-5.5 4.4-9.9 9.9-9.9c3.7 0 7.2 2.1 8.8 5.5l68.4 136.8c5.4 10.8 16.5 17.7 28.6 17.7l60.2 0 16 0c9.3 0 18.2-4.1 24.2-11.1s8.8-16.4 7.4-25.6l-24-160c-1.2-8.2-5.6-15.7-12.3-20.7l-168-128z" />
-    </Icon>
-);
+const TentArrowTurnLeft = createIcon("tent-arrow-turn-left", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABcwAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbAsGAAE2AiQDCAQgBYMtBzsb9wTIHgnZGeb9QCxVo3GLh/+fi7zvJzMLQFlA4BJbYsfCAdmeytqdfgfQwN8IIcH45v9yz+/50QL5fASHMjbOxbcLozmfJ5BoOCYFPC3MEsV8b71ESdTokORJzUyH236H2z9AHr9mF5RIT9MvuF0+NP7VzAWSahmAqAuAsYvnz/TdX/FXxM+Vj4mfTUdAjAWFQIYMLQUYIRNoKVcglwv+ikol/AcWBBBl9LgJ5MixBBsAOUhSnnfpUqNUK19Uo1R9+eM96rAgHjjTaGG83eR542FRK97u+n4z8bTjuy0i3hj1zaSaMXzhOwK5YbUbPaxB+PUmj8N53OS6gpKwGDdeFI/atu0+qPvBf/6y6ReHH+pFy9mTHapR41C6g5YvUstef/XvX7uLRnPnNuoi1atX7FXrixM9e7572jstm7yq9bNrde7UrX3lSu1Dqp4pdxx/uTN9RtSt/exabUbp/lhyOwgER2584Oo6I/6nRgL/fGH96sp3aUz6AFUlEGQ9Kj2sSGMgEANIUxzSzn9RIJkjoXet6ZEAoToCJGXVBci0UFeAXHXdBShpbaAAZdXNl4m8mtDQygmSmvaCzCAnQa6hD0HJCN8nZQ0jMy/OOLifu+RJCE1cV/Tt1acYVhybBm8xTF4eXoiVLofiUFe30Sa77XLARhtsdQCQfWbmB+00iYMn+qFCX730URimUHde5UVg77Mf2b2gX2W44n7QxSF+clenJ0TaT0OSiNTwVdX3XLtv3+7DPT9r9vUBAAAA");
 
 export default TentArrowTurnLeft;

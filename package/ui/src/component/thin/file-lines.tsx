@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-lines` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-lines?s=thin file-lines}
  * @preview ![file-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-lines.svg)
  */
-const FileLines: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 496c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l140.1 0c1.3 0 2.6 .1 3.9 .2L208 136c0 22.1 17.9 40 40 40l119.8 0c.2 1.3 .2 2.6 .2 3.9L368 448c0 26.5-21.5 48-48 48L64 496zM358.6 157.3c.9 .9 1.7 1.8 2.4 2.7L248 160c-13.3 0-24-10.7-24-24l0-113.1c1 .8 1.9 1.6 2.7 2.4L358.6 157.3zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-268.1c0-12.7-5.1-24.9-14.1-33.9L238.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zm40 256c-4.4 0-8 3.6-8 8s3.6 8 8 8l176 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-176 0zm0 64c-4.4 0-8 3.6-8 8s3.6 8 8 8l176 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-176 0zm0 64c-4.4 0-8 3.6-8 8s3.6 8 8 8l176 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-176 0z" />
-    </Icon>
-);
+const FileLines = createIcon("file-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABhgAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCLAsGAAE2AiQDCAQgBYMtBzEbLQVRlMvJDtlXCebmDD7raDrbTZcbaYywvQhbfDjZj8vmcMNZB+Fb8dC33+ud2f30AgA2UaiSkq1jWyGRAsfXkXGtjdCJcGVbI57//L07r6X1wW5jbC4bm8rG2FSCkwsDyTIK12hmRlWAZ9tesYMmVkVTJUJmpASZKlbF8qv2vQMYOM5OnXqe81AA3ygoa9HSxQskNOd5BAKe7emwXgVqBYsolrVvWzpqhOFphEiYRDSejdkJNd7IEZJfEz62L43/FixJpQCIcQDA9fuJEE5/2J+Iizbiwk0QEDcA6xgKCpYxcIgvsExgHVRV8CfaNv8GEgQQXfxXkqCij5fgGFBB6naV+a1U4BqrgCvFZWKTS+3WHIEeTjDHxghDuEUZiz746kdDcbnYaJTNEWOPTazJG2ju7PeozqzwpDTloI8GmK3JVHwgb9ncS/YXqQKt5QdclmPl8oclZPISd37gRkkcNp6d6lZ4JDbThvGzhWq144CJ5lgzwe2AMDSHTf80J/FzOvW/7nYffNPrXMPXgUCw2vv7nfjw2ocE/85/0fPak+M8+hIEZfufy8Qx4KgAtjKekzkXC6SHRMCfOuyTAKFBgNTVCFAskWCgamxhoGOVEwNdjdv4og6EaVkBadgjUByYg2raEXQcOltd01HCjwoe6vMXH9RQYIysJgv5aOkbdEQRte+nbUkzKDktHKKgqaEnL6esp5COkNtXF/TggAsRKxML4kPH0fN2Wl5HV1lTg4b40X1NY+BXa0HlYdQdnpRENi9dND5YAAAA");
 
 export default FileLines;

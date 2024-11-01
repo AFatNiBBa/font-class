@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-up-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-up-left?s=thin circle-up-left}
  * @preview ![circle-up-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-up-left.svg)
  */
-const CircleUpLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM160 168c0-4.4 3.6-8 8-8l127 0c5 0 9 4 9 9c0 2.4-.9 4.7-2.6 6.3l-35 35c-3.1 3.1-3.1 8.2 0 11.3L348.7 304c2.1 2.1 3.3 5 3.3 8s-1.2 5.9-3.3 8L320 348.7c-2.1 2.1-5 3.3-8 3.3s-5.9-1.2-8-3.3l-82.3-82.3c-3.1-3.1-8.2-3.1-11.3 0l-35 35c-1.7 1.7-4 2.6-6.3 2.6c-5 0-9-4-9-9l0-127zm8-24c-13.3 0-24 10.7-24 24l0 127c0 13.8 11.2 25 25 25c6.6 0 13-2.6 17.7-7.3L216 283.3 292.7 360c5.1 5.1 12.1 8 19.3 8s14.2-2.9 19.3-8L360 331.3c5.1-5.1 8-12.1 8-19.3s-2.9-14.2-8-19.3L283.3 216l29.4-29.4c4.7-4.7 7.3-11 7.3-17.7c0-13.8-11.2-25-25-25l-127 0z" />
-    </Icon>
-);
+const CircleUpLeft = createIcon("circle-up-left", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjwAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCRwsGAAE2AiQDCAQgBYMtBzUbTAXIjtMd8UYkmWQiiGxm1aOVzi+ZYQ3AED1S/BFwRoApk/KnqHb+L/f8bNMBfqNDGtvm4qt8jPk8gcR6n9tAAW3QTBOwrJ3dwqCvX/SJT3ySYfwMi3KALB6xSZF0W3oV18hdxTdauERSKACI+gAYv3ThbE9+GV9GvFqdeNVMBMQEkAsUAGktwCgFQR8gkyOTCb6MapX+A3MCiBJGk8/OUMIF3ADIQJJlWatWnfJKsU62pFIsr3xvesRL4x9wrt+T015c9P6Mlyc8GOcHPjPzlaXpg7kRb0x8Js5PeHrO60venfXquCedG//U7NcWr7ilWSVuanKu8ai4scniuMm5xt3ixvLlTZfEzT2sfHPTaHVHc3Fb5yua9QxTq4h/S5wHh2tv71LucGf9O79r/+qWV1XvG2cPe2v+5M+avXvG0e0B/mOu5bqRrSdObD3yumuDduy5dmlp3Vn7arL2HQwevGC+DsVih1dz+fwFFi7soGFm7HX26PwmZzVdXz7ymlmzHK1Ujr4Ktsk+tbU8vMFZIBBcePqZl9bWG/VbrUoCXz/8w9/yM1J9Mkl3opYEgkKvai+rEkgEACDFER0SBJITMnyvtd0sQCgjQFJSFqCglfoCZMp6ClDU1mABSsoWKojsMqGx1RUkte0HBUOcBpnGHgJFo7yQlzSOgi8KniQ8BVOnaGTytrx/n375iHzaVkT34tL6yHxZ73YkjnUH1BZ77XHIZptsd0jRB8wuHbbbFIua7Ity/fXRT26EfLt3v3uJzQ44aLu99tAmI+Xn426O2LO7w0qYcYCGJBGp7pedsPfhffcUAA==");
 
 export default CircleUpLeft;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reflect-horizontal` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-horizontal?s=solid reflect-horizontal}
  * @preview ![reflect-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/reflect-horizontal.svg)
  */
-const ReflectHorizontal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-13.3 0-24 10.7-24 24l0 464c0 13.3 10.7 24 24 24s24-10.7 24-24l0-464c0-13.3-10.7-24-24-24zM492.2 98.4c-12-5-25.7-2.2-34.9 6.9l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-256c0-12.9-7.8-24.6-19.8-29.6zm-472.5 0C7.8 103.4 0 115.1 0 128L0 384c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9z" />
-    </Icon>
-);
+const ReflectHorizontal = createIcon("reflect-horizontal", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABYwAAAHYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBMAsGAAE2AiQDCAQgBYMtBzkbuQTIjpQuZyTx8P9r/9vnziDig7s202SW8WrexCPxL6omIutVCP7/3PJ5z6MAP1hiod2HBnIB3tfzBAKNenm4yyYysJlOwLY724GyaI9Da8iSHI849Lsgj+fZMeVI19InnIkfGj81coykUgYgagJg5PzZU70pi7KIj6WHxEeTERAjQSGQIUNTAYbIBJrKFcjlgrIolex/YEEAUR69NoEc5TAYYwA5SLI8r1anTpVy1fJ5/pbKi280THGt7e0mWVxvN/dW3Tlx0aF6c+NS+1Kuqt14s8H8uBKH68+Ly21a3at577dP6z4pvZ5Z75t6M9Pez5Xt/h886HS1aqcN/n+7Djl5h+/p9jvaA4Gg2c9LjZbXGPKvYpUEfjz7G/6KSm+SdA8VJRBkXUpdLEkgEQCAFPu0ShBIesvQTVVdFiBURoCkvMoYMk3UhFxlnaGc5vpeKK+y2TKRVxLqWoohqWonZPrZD7m67kM5Q7x1y6sb2QGit5/+viWMk8jYraJntx7FoKKbyMyZIHE5uBg2OuxzjY5wap3tttljrTU22iOwXaYGe201TkPH+qJCT930UBikmM6vj+dZa5fdNtpuW1gzWLHe6WCf3t8R7IQIewkliUi1349G1+sFAAA=");
 
 export default ReflectHorizontal;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-full` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-full?s=sharp-regular temperature-full}
  * @preview ![temperature-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/temperature-full.svg)
  */
-const TemperatureFull: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M96 294.5L85.3 307.7C72 324.2 64 345.1 64 368c0 53 43 96 96 96s96-43 96-96c0-22.9-8-43.8-21.3-60.3L224 294.5l0-17L224 48 96 48l0 229.5 0 17zM224 0l48 0 0 48 0 229.5c20 24.7 32 56.2 32 90.5c0 79.5-64.5 144-144 144S16 447.6 16 368c0-34.3 12-65.8 32-90.5L48 48 48 0 96 0 224 0zM208 368c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3L144 112l0-16 32 0 0 16 0 210.8c18.6 6.6 32 24.4 32 45.3z" />
-    </Icon>
-);
+const TemperatureFull = createIcon("temperature-full", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbgAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBYQsGAAE2AiQDCAQgBYMtBzcb6ATIjtRW94RRynh43q6vc19V/4Fq5Bq55w/gSMZuCCKCEE24VrRxJwIO4PQ3/7zzKMBnFNqYtjSQNuCc5wmEgXXZBAts/Q32Tb+AfeumWz5J+S3Je3pJw9YNWyvksTpuVCHdlb7ADe1D4y8dXSGpZACiAMC05YsXeef7+D7i89qLxOcWICCmgVIgQ4YuAkyUCXSRK5HLBd9HrSb/gSUBRB3dQQI5KliK1YAcJFmed+7YsUmlWb6sSaXx8jbt2zzZ5b4BT416edAz3e8f2C50y8YhrG7SuIkQz/V4cOIbMz+a/FbPR4ZFRDRZeWebiFt7P97u9k4P9HOjQojHuvZ8unj6nx5fbPvC+jufhbXU8OmnPw9LY5/V0q8u+FXL832ruDe/+iXrcuL6d9+9/kSX7JdfVVX378++5Otq9esvs+KrawqlwjVfFUAgWPzRkzPWt5j4vyYJ/Pjaf//1n1FReyfq09NoKIEgG1wbbE0cUyiiXgAAUhzTM6YqBJJFMrhqU7cLEBojQFKnsQCZzgoBco0NEqCim1EC1GlssUzkjYQ21k6QNHUQZEY7C3JtPA8qJvpYqdMmMmIRtCD+dbGzLTSrrRw+tFqOL5e2QXIFK/UJ5Tbf/1iKDcCgbfbb54itttjpiEEOWaQftdfsCJ7li0rDDVVVGq889vb9y2x1yGE77bevNpmgvC/3dyzOHgApUdR6nUkiUsE5bsgbBA==");
 
 export default TemperatureFull;

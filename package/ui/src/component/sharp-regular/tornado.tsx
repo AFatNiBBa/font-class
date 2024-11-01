@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tornado` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tornado?s=sharp-regular tornado}
  * @preview ![tornado](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tornado.svg)
  */
-const Tornado: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 45.6c0 .8 0 1.6 0 2.4c.8 89.8 48.7 172.7 126.2 218.2l116.4 68.5c19.2 11.3 34.7 27.9 44.6 47.8c9.2 18.4 13.3 38.8 11.9 59.1c-.3 3.8-.7 7.6-1.3 11.4L288 512l56.1-44.9 52.2-41.8C429 399.2 448 359.7 448 317.9c0-29.8-9.7-58.7-27.5-82.6l-55.6-74.2C356.5 150 352 136.5 352 122.6c0-17 6.8-33.4 18.8-45.4L400 48l16-16 0-32L384 0l-3.9 0L368 0 48 0 0 0 0 45.6zM330.2 361c-11.2-22.5-27.5-42-47.3-57l116.1 0c.7 4.6 1.1 9.2 1.1 13.9c0 27.2-12.4 53-33.6 70l-21.6 17.2c-2.7-15.2-7.6-30.1-14.6-44zM203.5 256l-52.9-31.1c-22-12.9-41.1-29.6-56.6-48.9l223.6 0c2.6 4.8 5.6 9.5 8.9 13.9L376 256l-172.5 0zM65 128C54.3 103.1 48.3 76 48 48l284.4 0C314.2 68.5 304 95 304 122.6c0 1.8 0 3.6 .1 5.4L65 128z" />
-    </Icon>
-);
+const Tornado = createIcon("tornado", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABbgAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBbQsGAAE2AiQDCAQgBYMtBy4b6wTIhocHu6r3q2rUWLJ2orUcgRF8cAQg6ovASE6tHjst3nipgMd1HwsbL8gCnzNegcZLY+GY1jzIb3uw1xe0N3c1ahORn6RLWZLHS3v8zJDFnXFVDcntyVu4Uj40vtHeORI1KYBoBoAJyxbNUfkyvox4s/oc8aZZCIgJIBdIkaKTAKOlAp1kcmQywZdRrfJ/YE4AUauenIAMtViOTYAMJLIs610uF4o15WxpHFpIT4s47b0Jr8xZEg+1v73dqVZ5zAuXeXfZ6b5L44443atXtI2IQsmWx3sW42Z3de8ed3RYOnPGzJfxdlsvicLSe7qU48FOpxQaH2728Hfd3tr6lusCYVJDu+uHJ6t8/0mXmpo7HDNCD+P73jtshkrrjo1vqcrlp/rOGBnvH1ZbV/h7vqH3Ht8+11+p5e4vDZ3af4JHz5/8raGTJwpJ+gMQCMa9896v65qO/q2+mICvX/7hh3ZctRKV5GHUS0CQ9q72tjoqwOgAflISRzVGBYHEfBn3riW3CBAKCJCoVRAg1VEzATIFvQSo0cUQAWoVLJKKrEFoZc0AiZIDIDXUcZBp5RlQY7RXhVqtIjUvwjiI313sVISmZOUD+vbPR+ZLRSctBkvJUfk21/2oOHpQr6322euwLTbb4TAgB82Rj9hjqgZP8UW5AfrqLzdSfqw/ty+1xUGH7LDP3pxmlPw+391R3b8H5ZEABj4MJgWR1B3ed3Dvhs37AAAA");
 
 export default Tornado;

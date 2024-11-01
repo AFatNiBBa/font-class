@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `network-wired` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/network-wired?s=duotone network-wired}
  * @preview ![network-wired](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/network-wired.svg)
  */
-const NetworkWired: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 256c0 17.7 14.3 32 32 32l96 0 0 32 64 0 0-32 256 0 0 32 64 0 0-32 96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-256 0 0-32-64 0 0 32L32 224c-17.7 0-32 14.3-32 32z" />
-        <path d="M256 64l128 0 0 64-128 0 0-64zM240 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48L240 0zM96 384l128 0 0 64L96 448l0-64zM80 320c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48L80 320zM416 448l0-64 128 0 0 64-128 0zm-64-80l0 96c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-160 0c-26.5 0-48 21.5-48 48z" />
-    </Icon>
-);
+const NetworkWired = createIcon("network-wired", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABowAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCfwsIAAE2AiQDCgQgBYMtB1YbpwXIhof/n/vefe7NvPUn+Qz5wKgAoQSKUgK0raoaVxYG0BLoXJx6nvNQgHLPiXhQ1qA1CzIW731eKlBFxrRNC6QE1YLWiPqmQ0aOCmTQISFjOBHp73BHf0co0tR8ty7SC+krPEb/Axi/GuFuku4MIPoDYP2BPdv0/BQ/pfiq/Zj4ylYExAZQC2RkjBZglSwwWqFGoRD8lNqWn6JtawKIDnpdBh1043W8DyhA0hFF0T1yy5pbdfUp9u+/YXmkKitRRkx4e3DE08PFC0OemVzFe8OeGxXx4tBnp5QH5zmnQlRRZ+8XDDkiNOZFMyTimapyxSL6sFfFQ4cWd+Bbyt4RUYboHQ8OftqED/t/+Pv4r85/pb29aZp1Guvaed/xdT4pf/3dvNfN+06GfYy8Hbeva6TGOs3aHSerLUkO6+l7P/f3Pam2Tg1rJ2k0spc4IO4HAsEtr32z4US/Vf/3qhL45ZM//+XbtT2pSR+ilwSCPKud5WhqAIkBfMUUN5uQGjUC2SVvHe/tWZEKJQJJRwnZKP2hUJoJXcZazDoX75FF0S0Mdgwg6e06yJa4FQqDfQRdVvk03jE48kLllxn/n5iypUc2z6vnz5lXr6inFbew9thzcmXt1qfdXDumwwbnXeNqNzrnrEtMd9j1tqVucpUtFrrZB9Xmm2Oe2gp1uP6o7C/x693gki7Fp1mpfj42zc12/+lgJY1ygQVZJlLkIYmszv4q2GdnJ32PYYqU4AA=");
 
 export default NetworkWired;

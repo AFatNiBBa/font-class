@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-simple-high` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-simple-high?s=sharp-duotone-solid gauge-simple-high}
  * @preview ![gauge-simple-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/gauge-simple-high.svg)
  */
-const GaugeSimpleHigh: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M512 256A256 256 0 1 1 0 256a256 256 0 1 1 512 0zM192 352c0 35.3 28.7 64 64 64c17.7 0 33.7-7.2 45.3-18.7c5.8-5.8 10.5-12.7 13.7-20.3c1.6-3.8 2.9-7.8 3.7-12c.4-2.1 .8-4.2 1-6.4c.1-1.1 .2-2.2 .2-3.2c.1-1.1 .1-2.2 .1-3.3c0-1.5 0-1.5-.1-3c0 0-.1-1.5-.2-2.9c-.2-1.9-.4-3.8-.8-5.7c-.7-3.8-1.7-7.4-3-10.9c-2.6-7-6.5-13.4-11.3-19c25.5-49.1 51.1-98.2 76.6-147.4c3.7-7.1 7.4-14.2 11.1-21.3c-14.2-7.4-28.4-14.8-42.6-22.1c-3.7 7.1-7.4 14.2-11.1 21.3c-25.5 49.1-51.1 98.2-76.6 147.4c-2-.2-4-.3-6.1-.3c-35.3 0-64 28.7-64 64z" />
-        <path d="M338.7 140.9l11.1-21.3 42.6 22.1-11.1 21.3L304.7 310.4c9.6 11.2 15.3 25.7 15.3 41.6c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64c2.1 0 4.1 .1 6.1 .3l76.6-147.4z" />
-    </Icon>
-);
+const GaugeSimpleHigh = createIcon("gauge-simple-high", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABlwAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCKgsIAAE2AiQDCgQgBYMtB14bWgXIhuDL5me/mZXq/uoY9pDBiBkCRUCcyg45cuYqzf819VqPDvAbHVqHNt6tgTKfT2CiWTahAp/pDGx+N3kXaYjTluTJle+wvYaxMxTxQ75cjXRP+go36f8Axp/6uJykLQOIzgBYvHPreu81o5niq9brxFfWISCWgEogI6O/APNkgf4KFQqFoJlaLZrRalUEEHX6iRnUUcN5uBRQgCSkoujXb2aj1qHY0aiVJ/Tr3W929I5tcY+7Rz097Mkxz/a9b+xzI69r7Dz606KI99Z9VV674ZslH+z4demHG79tXLf+68Xvbz90z+iIZ4Y/NfauXh66hAjoTqhncl+/lyaa9z054na3d7+79/Pj7iwfH/V07yHPdn7278FfHf+VLVMed8vv8Li1t/qtd9mly8MPd+lS5kNzXner1ruWt9HntfeXLn3/tT5tlmM1VCw8WHZhYdFVa3v0yCmlSESie9W6zznh779OOXXmjK5pzRqxetX/fzunyscfBwLBvl9eah7sNO+/do0Efn/j3z/yD0nrvSQ9i3YSCPK41jj7EkgEACDF+YYk3kMg2yJJz9renQKEEgGSulKArJ/OAhRKYwWoGWi6AHWlrbIo2oTu9leQtHcWyGa4ABS6ew3UzPNpWtc9Mv048nCfv+QViC6fV02eMKmaU3WrCs8oJk7PrabtUeeHrtGy0PHOcLpzHeeYk5wL1NnW589zmhUjcrkvqkw2wSSVOartxq28A9KzneMkW9yfZa7qvj/K+ePBo8VLEu0Ua7NMpMh9Tjh83gnHjaewMp6v+vi3PKCfKb5cAAA=");
 
 export default GaugeSimpleHigh;

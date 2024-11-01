@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-pro` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-pro?s=sharp-duotone-solid rectangle-pro}
  * @preview ![rectangle-pro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/rectangle-pro.svg)
  */
-const RectanglePro: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l640 0 0-448L0 32zM80 160l24 0 56 0c35.3 0 64 28.7 64 64l0 24-4.7 0c-9.5 23.5-32.5 40-59.3 40l-32 0 0 40 0 24-48 0 0-24 0-64 0-80 0-24zm48 48l0 32 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0zm112-48l24 0 56 0c35.3 0 64 28.7 64 64l0 24-4.7 0c-4.7 11.7-12.8 21.7-23.1 28.7l24.1 38.5 23 36.7-56.6 0-7-11.3-33-52.7L288 288l0 40 0 24-48 0 0-24 0-64 0-80 0-24zm48 48l0 32 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0zm112 40c0-48.6 39.4-88 88-88s88 39.4 88 88l0 16c0 48.6-39.4 88-88 88s-88-39.4-88-88l0-16zm48 0l0 16c0 22.1 17.9 40 40 40s40-17.9 40-40l0-16c0-22.1-17.9-40-40-40s-40 17.9-40 40z" />
-        <path d="M104 160l-24 0 0 24 0 80 0 64 0 24 48 0 0-24 0-40 32 0c26.9 0 49.9-16.5 59.3-40l4.7 0 0-24c0-35.3-28.7-64-64-64l-56 0zm56 80l-32 0 0-32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16zm328-80c-48.6 0-88 39.4-88 88l0 16c0 48.6 39.4 88 88 88s88-39.4 88-88l0-16c0-48.6-39.4-88-88-88zm-40 88c0-22.1 17.9-40 40-40s40 17.9 40 40l0 16c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-16zM240 160l0 24 0 80 0 64 0 24 48 0 0-24 0-40 18.7 0 33 52.7 7 11.3 56.6 0-23-36.7-24.1-38.5c10.3-7.1 18.3-17 23.1-28.7l4.7 0 0-24c0-35.3-28.7-64-64-64l-56 0-24 0zm48 80l0-32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0z" />
-    </Icon>
-);
+const RectanglePro = createIcon("rectangle-pro", true, "data:font/woff2;base64,d09GMgABAAAAAANMAAoAAAAAB7AAAAL/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUiFFAsIAAE2AiQDCgQgBYMtB1YbvAbIjsK2ndNOUs6Xoayhgvhel+7T19mxZPORWUbkIHeEUAJV7gJUtDcpuUp9BMAtr/cDirIowEQiyocDfUFGPLKB/f9zTb2wWRTIF58PLTI4kg6X6cO2E1kX7c0nkDigEekUmHdih5gVkvdAD1PUfmzQTtoX4JS2QJ6E2w8avwgA0gN/A6RuG+hi0SMeTb54X0AedAIByAqARYACCkQRAJUUAVF0FtDpBB7N+4dHvH8LAgBJAUW5qw8IgkwgCwCgA9D48I31OH+XM8X0izVTTKfTtAXow6bNmDBMA2GplUiMKcdclyKjqKvpT5ONoVJ+znoXHOftCy9SRR5HIbe0J0WvM57F6sjNXyge3OMSuWQec1wAOdjPG0edF0WGEUNy6sQhsmwjYWiTwI0zlKa0IFESOGQa5gOdGI6Uctl+3nA4CBHh6SqEGVxyXXQaI41sWZLlteiUemlMGLqVIfKs5KV462jkmvq48FX60xgxEbsdF8xjrksissd50ThqP0/8Pfjpn7gvy79YMbpxKb1queVyS2Wxv15zNtyMIeR2aUmPhfWweAIDPS09tYfhsB6MfjxcG4m5MSkjIe/gWUjIs3chwZAi0vp9xI2EYR8Oo1ut1FLbDI+5hJzX4vYionezyO6eXS0X3Q4JMdzYzL1edovUQUhq9XL/WzRuyKn3iTtLlVpNF6b0peiHYQWCQJsbDMnS1VDXA4AAwYkdLzJngir/56YGwI93/35yl+P1aLu1p8ASGgCBmr2ZJsPdAFyjQBRasJ34oi/qBQKUM/hC0N9FZFCXgQg0PgxQIgWDzpABNjGK+A0HD1Ak9kPYTZGg8bcJlGI7QGf3HGwqvff5sAfqmBFu8cIr1mTNSbyJzMrLzrXKrdK4QHQY8OX6CquxLnU7n5dGTmS5DdbbapmlVtmaYG7WFdxmneYq7qb3WvJky2UpZ3VOnZUN077NtlhVLOneTAVreFeq7dWl00ijBjzzHaIoSCjKsXnZwta59SvWLvuRhSrr9CviKpCcagAAAA==");
 
 export default RectanglePro;

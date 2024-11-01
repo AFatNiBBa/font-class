@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swatchbook` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swatchbook?s=light swatchbook}
  * @preview ![swatchbook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/swatchbook.svg)
  */
-const Swatchbook: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 416c0 53 43 96 96 96l360 0c30.9 0 56-25.1 56-56l0-80c0-30.9-25.1-56-56-56l-124.3 0L419 232.7c21.9-21.9 21.9-57.3 0-79.2L362.4 97c-21.9-21.9-57.3-21.9-79.2 0L192 188.2 192 56c0-30.9-25.1-56-56-56L56 0C25.1 0 0 25.1 0 56L0 416zm456 64l-284.3 0 128-128L456 352c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24zM396.4 210.1L192 414.5l0-181L305.9 119.6c9.4-9.4 24.6-9.4 33.9 0l56.6 56.6c9.4 9.4 9.4 24.6 0 33.9zM96 480c-35.3 0-64-28.7-64-64l0-128 128 0 0 128c0 35.3-28.7 64-64 64zM32 256l0-96 128 0 0 96L32 256zm0-128l0-72c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24l0 72L32 128zM96 440a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Swatchbook = createIcon("swatchbook", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiwAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCTAsGAAE2AiQDCAQgBYMtBzEbTQXIhofn7fo691V9dXvEGhJrMJUzjoJskQrp9MTlzv/8aYGMRfZIa9B/a/Ia4zyBQMMPt0BcFFimCVi70w4cSiuHxNIsluOb43SFPD6L8dpIz6QjeCh/aPyqr9tJ8gxANACwZNe2Db7+KX6KONL6gDhiHQJiKSgEMmQYIMB8mcAAuQK5XPBTtFrhP7AggGiH75pAji7cjscAOUg68nxyrdbsqnaV26r5znJbKV4YE/HOjGq81fup/hHP9npyZCl2xXNxS7+t8Wbp3uHbg6l9vcfjfdIplWpldawcb/QVTw/fu32Xd9wVb43YEs/0Of3NsRHv9gvgQ9Hot4fvDL20FCGeG6V4YmnPW/2fHfl6n2dGDH238e7vQ46ceUTR+S7v3ny2i0/+2bFZx58nL77ezp3+7tXrr7vVe/Wu793rds7cLMfP/mbRADx1002et6XnZj23zKv+cMSf94FLLlGrXeXEiXHVl5s0SzdzuaVm8+VFPx4G8s0Ou/nm1YGeWzYfaqsHdNGsLT2FwgbisX+f/eu6Q/X5/3eWE/jl0z//V39Fra+T9C46JRBk41vj7U8gEQCAFFcamiCQXK8DvmrFkwKEEgIk7UoCZPprCJArGSdAm0FmCNCuZJtM5F1CDwc6llRcgmVmugHL9fAe1ma+bxLtekRmjpIxSZ/B9JUUWHGomDJxcjG3WPY02cKEtDuv2LZGXxlnxoCjM13kQpc7w+nOcTmBLrUhfYULrJTAFb6oMMVEkxXmKtTDZ30nSVzqMufwqn6feYr7kdGulJePAXeCnFM1J4lIpctesGCuAAAA");
 
 export default Swatchbook;

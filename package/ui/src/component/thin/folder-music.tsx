@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-music` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-music?s=thin folder-music}
  * @preview ![folder-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/folder-music.svg)
  */
-const FolderMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 416c0 26.5-21.5 48-48 48L64 464c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48l133.5 0c12.7 0 24.9 5.1 33.9 14.1l35.9 35.9c9 9 21.2 14.1 33.9 14.1L448 112c26.5 0 48 21.5 48 48l0 256zM64 480l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L301.3 96c-8.5 0-16.6-3.4-22.6-9.4L242.7 50.7c-12-12-28.3-18.7-45.3-18.7L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64zM348.6 185.4c-2.2-1.5-4.9-1.8-7.4-.9l-128 48c-3.1 1.2-5.2 4.2-5.2 7.5l0 106.2c-8.5-6.3-19.7-10.2-32-10.2c-26.5 0-48 17.9-48 40s21.5 40 48 40c26.5 0 48-17.9 48-40c0 0 0 0 0 0l0-130.5 112-42 0 110.6c-8.5-6.3-19.7-10.2-32-10.2c-26.5 0-48 17.9-48 40s21.5 40 48 40c26.5 0 48-17.9 48-40c0 0 0 0 0 0l0-152c0-2.6-1.3-5.1-3.4-6.6zM304 320c20.5 0 32 13.4 32 24s-11.5 24-32 24s-32-13.4-32-24s11.5-24 32-24zM176 352c20.5 0 32 13.4 32 24s-11.5 24-32 24s-32-13.4-32-24s11.5-24 32-24z" />
-    </Icon>
-);
+const FolderMusic = createIcon("folder-music", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABowAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDDwsGAAE2AiQDCAQgBYMtBzMbkgXIhofn7ao/91X1oLrXI9RKitYfYkQrWwcJmH5FwsTlzv/86e11kT/KWrR08W9fq7U0gQC7qHhbQllgmSZgseS387tESXSLQToPkgyb+8P0L5DHV85QIT2R9uC+9Kbxg3Y3k2QZgOgPgMVbNqz3/ZE4ErHn/0+IPdYiIJaAUiBDhi4B5skEuuRK5HLBkfj/f/cbWBJA1OH/NIEc9XgDHwFykFTyfMiQmYMGVSt98s3VSnH6400RDw+rxastj3Zk8VTrYyOrcVfz/HikWo1Xmh9pT6f0qfV5bexbnVk8OebNEUXc2bIg3iyKeHnU620pnhj9xvCzH23aGA8TjxZ3Nj3c9kTzI9W7Wh/rvCFuiIgtMQKHv7bnhpaNjzRHPOJ6j2t6tOXRuGFSa/vAkDf7v/nT4D1n7fFLb7aXA5OuN+nA3mwRQbrkrQYdnOpg00PoeG/h9Rx/fsCAgiIfev4hfW6fakjnLRBYdF7XiMmTr5toceU8Owc17d/Frv1NsYgbXTzaRV1436RJ+448Lh8y7tYjt3J1Q8PVgbSs2XBdLz4PBIJDrw3ce3K/eb82VBM49uUvf9HXyP9HkvQmGiQQZOP+H+eEBBIBAEhxlSEJAskLKvhVax4VIBQIkNQpBMh06i9ArjBWgIoe0wWoU9ggE3mj0OTEiiQ1lyKZGa5Bck0+Qirm2e7WaYpMX1ltY38Xk1ZIYPmucvKESeWccloqnArSYXluua2OugqGRtNJZ7nYRa5wpjOc6woBXWZ9cKULrViBy31QabIJJinNUR43o7RZuJe53Llj4Xybucr75ihXrSePJiNhwimSSSJS7axPRRn/lgE=");
 
 export default FolderMusic;

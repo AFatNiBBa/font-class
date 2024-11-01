@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scale-balanced` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scale-balanced?s=solid scale-balanced}
  * @preview ![scale-balanced](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/scale-balanced.svg)
  */
-const ScaleBalanced: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 32l128 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L398.4 96c-5.2 25.8-22.9 47.1-46.4 57.3L352 448l160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-192 0-192 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l160 0 0-294.7c-23.5-10.3-41.2-31.6-46.4-57.3L128 96c-17.7 0-32-14.3-32-32s14.3-32 32-32l128 0c14.6-19.4 37.8-32 64-32s49.4 12.6 64 32zm55.6 288l144.9 0L512 195.8 439.6 320zM512 416c-62.9 0-115.2-34-126-78.9c-2.6-11 1-22.3 6.7-32.1l95.2-163.2c5-8.6 14.2-13.8 24.1-13.8s19.1 5.3 24.1 13.8l95.2 163.2c5.7 9.8 9.3 21.1 6.7 32.1C627.2 382 574.9 416 512 416zM126.8 195.8L54.4 320l144.9 0L126.8 195.8zM.9 337.1c-2.6-11 1-22.3 6.7-32.1l95.2-163.2c5-8.6 14.2-13.8 24.1-13.8s19.1 5.3 24.1 13.8l95.2 163.2c5.7 9.8 9.3 21.1 6.7 32.1C242 382 189.7 416 126.8 416S11.7 382 .9 337.1z" />
-    </Icon>
-);
+const ScaleBalanced = createIcon("scale-balanced", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABiwAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCQQsGAAE2AiQDCAQgBYMtBzUbRgXIHoWNM4kwrCzi+P8hYjjFQ/1Ye7t/7w4R65A0eSZqyWQ8ESFZIkOqlMJQ8Z/WtPcDNCVS7ZSIFBFuCkgylUAq7tCICnOIW2Hb839NvbCmA/xgJ3YoUau2tkiLSpzAAGd7w0ih0WzPyyaoU6ejT4eoEhGUHUFcKMPXy3pcHqHiT5uGnPyQvAXPy5PGP+ZNA6m/ASDGAADHlznZ0D/TM9Eb8RbiBycgII4BrCE0NCwhsEcqsERmDZQS/JIo+n8ghwCiC2Dp7oUe7sALAAqkTsmilNZKSyY3lOUzuaaBadiS5Q4Ei22Nho7DJMSIX9MsWu2S1nqPMZLSk62GOHwVeute1JeeT7l5dxEkAofWBXT5gzuWebRjcxz2EFSdW5DLKD/X+SDv6x10Jrp39m/r37r/FBAymp83Gkq6MRfninOwR6+vJedwFffUDcsU0P4gtIfabWDHtBGkXqdWfHSG6Ud+Wn6JsbGPo3vGKddaOn8UNsVVvxGYNbasAs6WHz9uLC0Acdb3ny8VxlHfVEwC+Hv68PO4Ufwv6lMr0QH6JAjahuilNAUBiTNBDxKKfjiYA0SQheTwqENeQSAMIEDqGhCgWWSCQBmwjkDHimAEugackopSI0wpm0AacgWaXWOgTLkGHXteRLqmQpqIchrJ/4HpUxhNXsX9ffx4BG9WVCW3xHEykoftbv2lw922ol6Hdr3q1GrSS0y37HifNimKTvZFnD8ffrgIvLv+eXO+Ot16NOnQPi8Tid/vddOv+7ubSwKcm/JSEmn0FZi932VDLQA=");
 
 export default ScaleBalanced;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `water` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/water?s=sharp-duotone-solid water}
  * @preview ![water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/water.svg)
  */
-const Water: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 240l0 64c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9l0-64c-19.3 0-38.6-6.1-54-13.1c-15.6-7.1-28.2-16.3-42-26.2c-13.9 9.9-26.4 19.1-42 26.2c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-15.6-7.1-28.2-16.3-42-26.2c-13.9 9.9-26.4 19.1-42 26.2c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-15.6-7.1-28.2-16.3-42-26.2c-13.9 9.9-26.4 19.1-42 26.2C38.6 233.9 19.3 240 0 240z" />
-        <path d="M272.4 141.1c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9l0-64c-19.3 0-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5C80.8 67.5 68.8 76.1 54 82.9C38.6 89.9 19.3 96 0 96l0 64c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9zm0 288c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9l0-64c-19.3 0-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7C38.6 377.9 19.3 384 0 384l0 64c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9z" />
-    </Icon>
-);
+const Water = createIcon("water", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAAB4AAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiEEAsIAAE2AiQDCgQgBYMtB0YbKAbIHge5OfRGKuunwwjq1z573u7/dcdB2AAQqcTHkQV0pKLigIW8iiRyBDq4Ewdk03MdLIm4fBe+mLic/li4fYv/pdljYtmYkxf4HjwBHzzKHwNMlxdYlCD3NkUCO3r8JExkk6HB+GUd1wzI4092QYl0NT0u8gvHR61dIKnMAEQjAExasWSeJw3RkOLV/0fEK3MREJNBIZAhQzsBxsoE2skVyOWChvT/Pw2Bf34FAUQZumUGyijhE74DcpAkkeeLFk2uLtXmy6tLVTsuN8132tMeXIu41X3QCfPN7EbXPgwA2YIqB2YUURvPkdIsUEWVFlXxB7cCTkJQvTcnq/oNfYmhutfoPnd6tf2V+sHnt2w5L6Wv/NUTvTszqz0RIUS0n3XmnSH6BUnE2s/GzERRW5ujSAOYCC3BuhREv1l7ct5NpLa1RzawuhAaZfQlvwMCwb75999QP/Z3RXUC7x/7wFekiekeKiQQZH3/97U2TXR0BVA9xXGd4bMQyFyTwL3WuCRAqEKApKxKgExbjQTIVekjQEkHwwQoq7JEJvJKoZl1oiQ1DimZ4c4puWYeKiVjPa2XNYus4l316vrfzD9dw9P0ikH9Bxaji9u26S5ix1gfUzyO9zzex3rBRdsdsN9R22y1y1HFHTavdcw+0z31tPcWBulvoMJoRbi39S9v9cOO2HXtje8yRrG/3NNxf3YvSCVkdrAzmYxIkdV+EeF+BydUr7wHBAAAAA==");
 
 export default Water;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `leaf-oak` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leaf-oak?s=thin leaf-oak}
  * @preview ![leaf-oak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/leaf-oak.svg)
  */
-const LeafOak: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M309.3 0c-29.6 0-55 21.3-60 50.5L245.6 72 221.3 53.7C200.4 38 171 40 152.5 58.5c-11.7 11.7-17.2 28.2-14.9 44.6l8.8 61.3C124.9 153 98 157.6 81.6 176.3L75 183.8c-17.3 19.7-20.9 47.9-9.2 71.3l12.7 25.4c8.3 16.7 12.7 35 12.7 53.7l0 75.3L2.3 498.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l88.8-88.8 75.3 0c18.6 0 37 4.3 53.7 12.7l25.4 12.7c23.4 11.7 51.6 8.1 71.3-9.2l7.6-6.6c18.7-16.4 23.3-43.3 11.8-64.7l61.3 8.8c16.4 2.3 32.9-3.2 44.6-14.9c18.5-18.5 20.6-47.9 4.8-68.8L440 266.4l21.5-3.7c29.2-5 50.5-30.4 50.5-60c0-20.4-10.2-39.4-27.1-50.7l-10.5-7c-2.7-1.8-4.1-5.2-3.4-8.4l5.5-25.2c4.7-21.2-1.8-43.4-17.2-58.8s-37.5-21.9-58.8-17.2L375.3 41c-3.2 .7-6.5-.6-8.4-3.4l-7-10.5C348.6 10.2 329.6 0 309.3 0zM118.5 404.8L317.7 205.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L107.2 393.5l0-59.3c0-21.1-4.9-41.9-14.4-60.8L80.1 247.9c-8.8-17.6-6.1-38.8 6.9-53.6l6.6-7.6c12.2-13.9 32.8-16.6 48.2-6.4c9.8 6.5 22.7-1.6 21-13.3l-9.5-66.3c-1.6-11.4 2.2-22.9 10.4-31.1c12.9-12.9 33.3-14.3 47.9-3.3l24.2 18.3c9.6 7.2 23.4 1.7 25.4-10.1L265 53.3C268.7 31.7 287.4 16 309.3 16c15 0 29 7.5 37.4 20l7 10.5c5.5 8.2 15.4 12.2 25.1 10.1l25.2-5.5c15.9-3.5 32.5 1.4 44 12.9s16.4 28.1 12.9 44l-5.5 25.2c-2.1 9.7 1.9 19.6 10.1 25.1l10.5 7c12.5 8.3 20 22.3 20 37.4c0 21.8-15.7 40.5-37.3 44.2l-21.5 3.7c-11.8 2-17.3 15.8-10.1 25.4l18.3 24.2c11 14.6 9.6 35-3.3 47.9c-8.1 8.1-19.6 12-31.1 10.3l-66.3-9.5c-11.7-1.7-19.8 11.2-13.3 21c10.3 15.4 7.5 36-6.4 48.2l-7.6 6.6c-14.8 13-36 15.7-53.6 6.9l-25.4-12.7c-18.9-9.4-39.7-14.4-60.8-14.4l-59.3 0z" />
-    </Icon>
-);
+const LeafOak = createIcon("leaf-oak", false, "data:font/woff2;base64,d09GMgABAAAAAAOMAAoAAAAABvwAAAM/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhECDXQsGAAE2AiQDCAQgBYMtBy8b3AXIrgdsQ7Rh9D9Jm1WyRbiN1RIop+N0O0jz+bj5J/gH/fs6Ny8jfyEzCwOtXAk91Lpb88R7+zfSKcwnNORehIGXSHzwEPfz/V5l8AY8wEoaYYHk+QaaZAOZ2wlsMGIlJlpmBmeqVq2mLITtfrqNcOijIO0SypM8wLzzyLPg1PvQmAM4QAHZGvSIx0OtrQFU0GprqjBBfP3/53LPby06wE9ySnM/v6tsbErn5F4CAfai4k1emAXqsWRbrjsjiId4aIgQkRKT1rYftq7ACrcYLQXMSXxg2/am+guzGhg8CQAA2QAAQIvVqwv3v8KXPOsB+ukEBKA+AA4BHuABMQRAYzwExLA4wGIRfKB2+Q8EAYBUOm0IrLS/ArwF/gQYjGyH1SzNsX3bJZnjRkra7QupYvamTvvOh4tXx8fn94fDOgAaSLv3BPtRaFO6jM5kzwWD2hc8FGijbpH5iioXFg9pFQK1J71RHStcrF1auz0BXcz0n3r32+fZ6+tNohWBSOwUkffu8+/Zy4G+NL2aVJBRKgoLWdvv54FyOpe/EAppt3uSXXG5b7evNG0XlZTC0u6yfWlQxcv6dD5TVmcNWnLlX/ya/cY3at8L5MD/NsUK/E2zt/b8YvzU9TvjeKEnVjzG9bAz+i/q1OnV9etPZ7HNhwiVFH/Z4XUWX3Zip/bOId7z0VPv93msO8/UtAPoftYpk+Zzjgo/9nq6+vw3PLg0xr158awZY+Px9ejDUenegoJnp3t4NmbvmeEW1W48UbefwqZfrM4K288kH+2pkpZ/H/pYUZdr57BJ9AM/vceyvO10F4Xh/XOZ9SzupI0BQIDAv//zltb8zQwAn/b/P57sjcHcgXQMAAKv1DB4EJBsQUjFCHMpwQcFMDyCAWk2e6s1kQkKhlQywSNKPlgyqQQpJKijJlt78ZCc4VIfQwiGbGaAR12WgMXHJUihMQ/LqfjkDWt9UOp/lTltLdJmn6tXre4autuO0xipatts5NJJbq6bqICzjDXNVLONMdoEs404U5faHFO0jYQ2vshRg6pUx9EQV+7vnb5SmWmWCddmfZdGuPfT8syN51eA+YHSNVsBDGY+IqZPLiPGVtkskwAAAAA=");
 
 export default LeafOak;

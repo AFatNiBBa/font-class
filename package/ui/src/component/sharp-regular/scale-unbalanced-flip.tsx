@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scale-unbalanced-flip` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scale-unbalanced-flip?s=sharp-regular scale-unbalanced-flip}
  * @preview ![scale-unbalanced-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/scale-unbalanced-flip.svg)
  */
-const ScaleUnbalancedFlip: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M400 80c0 2.8-.1 5.5-.4 8.3l127.7 40.9 22.9 7.3-14.6 45.7-22.9-7.3L380.4 132.5c-9.6 11-22.1 19.4-36.4 23.8L344 488l0 24-24 0-200 0-24 0 0-48 24 0 176 0 0-307.7c-30.1-9.5-52.5-36.2-55.6-68.6L112.7 46.9 127.3 1.1 250.4 40.5C264.2 16.3 290.2 0 320 0c44.2 0 80 35.8 80 80zM542.5 224l6.7 12.9 88 168 2.7 5.2 0 5.9 0 32 0 9.9-7 7-40 40-7 7-9.9 0-128 0-9.9 0-7-7-40-40-7-7 0-9.9 0-32 0-5.9 2.7-5.2 88-168 6.7-12.9 14.5 0 32 0 14.5 0zm-29 48l-3 0L435.1 416l153.8 0L513.5 272zM144 96l14.5 0 6.7 12.9 88 168 2.7 5.2 0 5.9 0 32 0 9.9-7 7-40 40-7 7-9.9 0L64 384l-9.9 0-7-7L7 337l-7-7L0 320l0-32 0-5.9 2.7-5.2 88-168L97.5 96 112 96l32 0zm60.9 192L129.5 144l-3 0L51.1 288l153.8 0zM320 112a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const ScaleUnbalancedFlip = createIcon("scale-unbalanced-flip", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABmQAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDIgsGAAE2AiQDCAQgBYMtBzwbrgXIjsO48RqwEQdPpSL4XlfZ70sztSsdg46IImIyQ0gEQWhOXQ4dIeLgFmF+cAgxsI9dGv/40wOe/SB4tLFsjra2Bo0xqVSBxqc19Q3YeO3BmopS1U3RQxGpxENEpAiWOnZc69hx7Qp5/B13q5EeST/grhLS+ENH10hqGYBoAYAZK5cu8cmv8WvE9/+/SXxvEQJiBqgEMmToIsBkmUAXuQq5XPBr/P9/+A+sCCDqEOIEcjTgBXwGyEFSz/NBAxoHNbYua03zFWWt2HnJ8ugTXaJvrIj7e6cQRRFRllk81enRTiuieyyPl8e9OeDZrsvbtmu7PNqGEKJNTI42URTtYmq0C9jtY2X6+XJIURbLoowVW8qibBt6afmKKhdB0srb2Dvjobjc7sHi1jb3u9T2gbLncy2e+3N/2PGDuw7m+YX+dvrRDtcG+GXFYh10+OE63Gg7fvu9nxD7yZl+M7/F9hVx513rcMvKp/VWVynscNIOxa29UKWut218n2bdM5xYdJdHLbzr8MvNsY51jqR1H6upqmROS4683Oxmbm7WWgIaiMdOP/ZJNjaf/FdDmcDv77Xo5f8/SZfSc2iQQJAN/j/WpUvgiQGkUpzQU9hhIHnCU/jUJh4UIBQIkNQVAmQ6ayFArjBIgJpuxghQV1gqE3mj0Mb6CZImDoPMWOdBro3XQc1kXyfr2kxmuYzdMf+NiXM5NGdbNWLo8GpitW0ZrDFSeXVSpZb7n4gjA9xFOxx0wDHbbbPbMYYcsSRz3H5zJXiOL6qMMNRwlYmqy93X8ytsd8RRux10gDaZpLrf7++EPH2A0xKQjlSVJCK1/Wr8IccPvPxF24bs2Lf7EA==");
 
 export default ScaleUnbalancedFlip;

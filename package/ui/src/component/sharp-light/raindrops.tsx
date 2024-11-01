@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `raindrops` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/raindrops?s=sharp-light raindrops}
  * @preview ![raindrops](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/raindrops.svg)
  */
-const Raindrops: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 94.2l-27 45.1c-3.2 5.4-5 11.6-5 17.9l0 2.8c0 17.7 14.3 32 32 32s32-14.3 32-32l0-2.8c0-6.3-1.7-12.5-5-17.9L160 94.2zM141.3 63.1L160 32l18.7 31.1 35.8 59.7c6.2 10.4 9.5 22.3 9.5 34.4l0 2.8c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-2.8c0-12.1 3.3-24 9.5-34.4l35.8-59.7zM64 286.2L37 331.3c-3.2 5.4-5 11.6-5 17.9l0 2.8c0 17.7 14.3 32 32 32s32-14.3 32-32l0-2.8c0-6.3-1.7-12.5-5-17.9L64 286.2zM45.3 255.1L64 224l18.7 31.1 35.8 59.7c6.2 10.4 9.5 22.3 9.5 34.4l0 2.8c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-2.8c0-12.1 3.3-24 9.5-34.4l35.8-59.7zm195 46.5c-10.6 15.6-16.3 34-16.3 52.8c0 51.7 41.9 93.7 93.7 93.7l4.7 0c51.7 0 93.7-41.9 93.7-93.7c0-18.8-5.7-37.2-16.3-52.8L320 184.8 240.3 301.6zm-26.4-18l86.8-127.1L320 128l19.4 28.4 86.8 127.1c14.2 20.9 21.9 45.6 21.9 70.8C448 423.7 391.7 480 322.3 480l-4.7 0C248.3 480 192 423.7 192 354.3c0-25.3 7.6-50 21.9-70.8z" />
-    </Icon>
-);
+const Raindrops = createIcon("raindrops", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABkwAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCXAsGAAE2AiQDCAQgBYMtBzAbXAXIjsQ4JvGLKEzi4Z+5R+9LUgBOAfMLhDBQZTcAFBrtzuRO5c+Q9/j5v9zzs00H+PkIDm1MW7RAxsSjMWs/TyCgXtbLxgbLoiywNOCEpN3ZimlE+yQtBcnxLY7LCbJ4HCUVSB4mv+N6etP4VxNnSGQpgKgNgJHzZ0/19V/xV8Tv5Q+I301GQIwCuUCKFM0FGCIVaC6TI5MJ/opyGf8DcwKIihhO3J6hMq7hESADiYpZ1qCJjddtXK1CjWwe/fyqLi51L90hTjS4W+1yo/sRcbJhty5Fp6JzjIy7xINOz9s97fKyacTJRqPnLD5q7gNvdX7Rt1p8VLxqdbLpvJjTZf6c+UV0jrnxwrtDPh9TNX4c9mWbk0Wbl7Vf/uf3db97Z+Vrzkyokqp54UJNSqWqTHjdDdYa7HrdVNU6dd59F1auaqruO8WUP2Z3+bbbm+aVHr3Ykdnx4lGl5m+m7+HNm/OOmWeVFOYdt7xDhV5tZ2RmtO1VocNyIBB0Kw58vrzWkP8rV0vAP5+2fHf5r/g6eYnKEhCkpXLJkvgakBrAV0pinzbxNQKJcyriV63ungChKgIkKqoqQKqZ2gJkqioEqKClvgJUVNVsqciqCPUtrSBR3U6Q6ucoyNT3HqhgiJ/ciupHqpacUnGfwuRxEhq7LO/ZrUc+KO/mCq9pTJgfnC+rnfa5XmfYap3tttljrTU22iPIXaYGe201bkSM9UG5nrrpITdIvl3dbp5nrV1222i7bXGRwfLzTif7xqM7g5Fg2l4yiYRIqlwc5lEouwEAAAA=");
 
 export default Raindrops;

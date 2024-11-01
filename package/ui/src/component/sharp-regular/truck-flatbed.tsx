@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-flatbed` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-flatbed?s=sharp-regular truck-flatbed}
  * @preview ![truck-flatbed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/truck-flatbed.svg)
  */
-const TruckFlatbed: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M368 96l24 0 80 0 9.9 0 7 7L601 215l7 7 0 9.9 0 136 8 0 24 0 0 48-24 0-40 0c0 53-43 96-96 96s-96-43-96-96l-8 0-120 0c0 53-43 96-96 96s-96-43-96-96l-40 0L0 416l0-48 24 0 52.8 0c16.6-28.7 47.6-48 83.2-48s66.6 19.3 83.2 48L368 368l0-248 0-24zm94.1 48L416 144l0 96 142.1 0-96-96zM208 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm272 48a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const TruckFlatbed = createIcon("truck-flatbed", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeQAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAwsGAAE2AiQDCAQgBYMtBzQbBwXIhof/t+v7fW5Vv9VTNUaNpEjyJyKr0/8diUlARcL/XO75PT86wM83xQ5lDZo0Fq6A9n6eQKDRxmlFEGYZJcD5v8sexUH0IoefWEhrh+PfDpddII+/42410v3pE9yV3jR+0MX1JLUMQLQGwOw1K5Z749P4NOLj/18iPrYUATEbVAIZMnQXYJpMoLtchVwu+DT+/9/9B1YEEE34WxLI0YSdOATIQZLn+eRmLVqUtRb56rJW7CmLskOsig4hRFmKonho0HPjXh7S6Cl6zLc8OPDZ8rb+T3cpg/tXFWUhyli99oEBz/R7qvP9iVuZ3bZl88GuA+fM+7rgNX0arRs/9f5k9yeObOnc+fhuR47YrXCzeudROg+qNxpXr5aoXj8rxqDZ/vHvLtvYrdvGZe9e8ofOm0aO4Jmt7rRly7+tisMXLhwuKqPVyMe+fuWVrx97HggEN806MWRLq2m/1ssEPn/9l1/8I/5/I11NDdQlEGTD/h9mo03B4APIUpzWBx9FINkox7PN3SNAKNAgaVJAppvWkCsMhZqexguHZ1bIRN5MaG8TQNLcMchMcAly7b0ANdO8nzdpH5mmSXoi/eilL+iR+Zuq0SNGVVOqZYvIyiOE1anVsTXotB8ZjIN2O+Kwk3bZaZ+THXbc8sophyzYofN9UWW0EUapTFHd7n7dvdoux52wzxGH4zpTVc+Hg5zeTx8MNyHrGFVJIlKLT8kY/n5523ftBAAAAA==");
 
 export default TruckFlatbed;

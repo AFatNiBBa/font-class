@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bag-seedling` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bag-seedling?s=thin bag-seedling}
  * @preview ![bag-seedling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bag-seedling.svg)
  */
-const BagSeedling: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M76.5 80c0 0 0 0 0 .1L60.9 142.4C52.3 176.6 48 211.8 48 247.2l0 17.7c0 35.3 4.3 70.5 12.9 104.8l15.6 62.3c0 0 0 0 0 .1l359 0c0 0 0 0 0-.1l15.6-62.3c8.6-34.3 12.9-69.5 12.9-104.8l0-17.7c0-35.3-4.3-70.5-12.9-104.8L435.5 80.1c0 0 0 0 0-.1l-359 0zM440.3 64L461 38.1c1.9-2.4 3-5.4 3-8.5c0-7.5-6.1-13.6-13.6-13.6L61.6 16C54.1 16 48 22.1 48 29.6c0 3.1 1.1 6.1 3 8.5L71.7 64l368.6 0zM71.7 448L51 473.9l-12.4-9.9L51 473.9c-1.9 2.4-3 5.4-3 8.5c0 7.5 6.1 13.6 13.6 13.6l388.8 0c7.5 0 13.6-6.1 13.6-13.6c0-3.1-1.1-6.1-3-8.5L440.3 448 71.7 448zM480 29.6c0 6.7-2.3 13.2-6.5 18.5L451 76.2l15.6 62.3c8.9 35.5 13.4 72 13.4 108.7l0 17.7c0 36.6-4.5 73.1-13.4 108.7L451 435.8l22.5 28.1c4.2 5.3 6.5 11.8 6.5 18.5c0 16.4-13.3 29.6-29.6 29.6L61.6 512C45.3 512 32 498.7 32 482.4c0-6.7 2.3-13.2 6.5-18.5L61 435.8 45.4 373.5C36.5 338 32 301.5 32 264.8l0-17.7c0-36.6 4.5-73.1 13.4-108.7L61 76.2 38.5 48.1C34.3 42.9 32 36.3 32 29.6C32 13.3 45.3 0 61.6 0L450.4 0C466.7 0 480 13.3 480 29.6zM151.1 176c-3.9 0-7.1 3.2-7.1 7.2C144 240.7 190.6 288 248 288l0-57.1c-12.5-31.5-43-54.9-80.7-54.9l-16.2 0zM264 230.9l0 57.1c57.4 0 104-47.3 104-104.8c0-4-3.3-7.2-7.1-7.2l-16.2 0c-37.7 0-68.2 23.4-80.7 54.9zM248 304c-66.3 0-120-54.6-120-120.8c0-12.7 10.3-23.2 23.1-23.2l16.2 0c38.8 0 71.2 21 88.7 50.9C273.5 181 305.9 160 344.7 160l16.2 0c12.8 0 23.1 10.5 23.1 23.2C384 249.4 330.3 304 264 304l0 64c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-64z" />
-    </Icon>
-);
+const BagSeedling = createIcon("bag-seedling", false, "data:font/woff2;base64,d09GMgABAAAAAANkAAoAAAAABtgAAAMYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDYQsGAAE2AiQDCAQgBYMtBzMb5AXIvgxwYwgNtP4DiojK2JILWpumhma1Fh6vQxXbz3/Dgn/Irnq/usbdKx5qZ850RiuSYihXkOwREGttX8SaaUlfjWievH48Elk0RRrTSQ03uAhLOcBAsMdR1pNdM2aKFgVVU4NNySyZ868AoAjiOwahbNX0lCdhJqdLQDu/gDLqLgmwAKMwsbHtltiAp7N0cq81/y50DVMORJ/97WYNUhv8r1iA/+dczzcfFcg3WhpH4XaVXOCZzxvshMoisVq8RPFsy70aPF883CYREibyNIwOW1sLYEMPXQnBfIffwlYdrH8tqzC8CBCoSCdsu9u/J8+++Aa8PaI/SyCAFgAcAY/HlCEALXjELsBywLKEHxif/4FAAFAcbN8AsCAGPhE+EwAsACMStdXs3KZpGXkiFNhB+7zx4Y8kLQ85HENBp0TLQ8tDAXtTOOnbukkziT9+5up7safua1d1mV9VwYQerpKn3G1T77VAexvLg2ryJwdRRSU4joK2U1XsNmbepfjaUN+D5Y3qSuJESFreS6ka2nX2qoE21nbT2Vsc7s730oHhGSU+kNydXUz2BHFt6J+KBuxaetI92CS0cXA6VuqsmtALjq0eneituidQcrAu/JRi9QAApdqLhjcAJgP4PdHd1+mNcanxn11+NS51N+dhqfTexw/nNJ8vg2/4b6ai8UMMTtvabW7ltk8Wn3xIqfWFNnmCLs8T03fvo7B3s1OWc/Jhs2uvU/k+RZTtba93aQsyY84+odxaz/e4fDnSttqZjmsjfHYWLgAICP/+bhTyz6oB4Nfze92cJ75xgCgDQPDmIyPCwHFBrxAkYkKLJOnHBIxXlADgVL49QgAkDgTACIsTAE+xjAusuOoQUk5DMWn0T1GKxgjkGMlg+OaCp5HFYOW4CSEtvIiE5QSvsOWylL8rMzpZpGM/t7XquGbuMeFUalU8Gpu7tOlFvaAqjWWS2WZZYKIJplpg8Hl6xheaqVOEdfRDTl211OE045bT341BEplnvqm+tt5Mc+79QBWL4vJVyW6Atp63DAOF/XHnk2v+nDjh95gAAA==");
 
 export default BagSeedling;

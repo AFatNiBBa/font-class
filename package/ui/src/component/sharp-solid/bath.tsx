@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bath` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bath?s=sharp-solid bath}
  * @preview ![bath](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bath.svg)
  */
-const Bath: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 0L32 0l0 32 0 224L0 256l0 64 32 0 448 0 32 0 0-64-32 0L96 256 96 64l18.7 0 18.8 18.8C130 91.8 128 101.7 128 112c0 19.6 7 37.5 18.7 51.4L134.1 176 168 209.9l17-17L289 89l17-17L272 38.1 259.4 50.7C245.5 39 227.6 32 208 32c-10.3 0-20.2 2-29.2 5.5L150.6 9.4 141.3 0 128 0 64 0zM32 352l0 16c0 28.4 12.4 54 32 71.6L64 480l0 32 64 0 0-32 0-16 256 0 0 16 0 32 64 0 0-32 0-40.4c19.6-17.6 32-43.1 32-71.6l0-16L32 352z" />
-    </Icon>
-);
+const Bath = createIcon("bath", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABZgAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBbgsGAAE2AiQDCAQgBYMtBysb6QTIjsO44TuyxVL+4+H/56ru+0lT0lBDnCEiBUwOYRGF6ZXEDljIOmtRra5kLib8497pH+efFsgz+mhj4ZogCzftxj5PILEuXOdZnAeWaQKWecsZ9UjZL5mJpqbHb/R49YA8vszSRHo7wYvtQ+MvA9wnacsARA0Ay3ds2ey7etQjfm58TPxsIwJiOagEMmQYLMAimcBguQq5XFCPRiP9B1YEEM34DRPIkWMvDgNykKQ8nzm8bOrIt5dNxZ6iLIQoQpQdEUV7RBnj4zVvj+8di2Ni7KDbl0Tv6B7ztPeE6BvFTuH98UKUgYOOkCs+GBbRPqK71v3PcMdZ+m0FVx0hy9D6k25/p5cR9tY6ev+iB06cQA+/WP5H7a+8pePAgRrC8q9xBzk11IQZ56/yBd8BgeDJnf7fHuha9H9rmcCfX/z3T/8ZaXyXpG60SiDIJjUm2ZtAIgAAKa4bkSCQbJVQ1O4NbxYKCJJmBWQGqUGuMBGaDDX7gWaFLTKRtwm97SOQtLsEmTluQK63D6HJIt/HzXpHFl9CdAi/u9Q1Gl99qpo+ZVq1oFq2hhgyXDlcWG1r467nhfG46LgLzrvqmKNOuarIyzZn15yzxiJW+6LKdFNMU1mgcg/P57c75rIrTrngfD1moep+NM51e/14mAmzztBIEpHyJw8AAA==");
 
 export default Bath;

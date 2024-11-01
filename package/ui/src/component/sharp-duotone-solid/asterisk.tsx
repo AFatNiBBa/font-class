@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `asterisk` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/asterisk?s=sharp-duotone-solid asterisk}
  * @preview ![asterisk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/asterisk.svg)
  */
-const Asterisk: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M224 32l0 32 0 135.5 95.5-57.3L347 125.7l32.9 54.9L352.5 197l-98.3 59 98.3 59 27.4 16.5L347 386.3l-27.4-16.5L224 312.5 224 448l0 32-64 0 0-32 0-135.5L64.5 369.8 37 386.3 4.1 331.4 31.5 315l98.3-59L31.5 197 4.1 180.6 37 125.7l27.4 16.5L160 199.5 160 64l0-32 64 0z" />
-    </Icon>
-);
+const Asterisk = createIcon("asterisk", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYgAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBRwsIAAE2AiQDCgQgBYMtB0wb5QTIngPuzqKI2Ce/UkSXsYzG+mDCiuf5xr7dNzMrJn03aRJPokgmRFKiWaJ791AI3SqHSP7+w7h8/6iQ/sFslzjISSxxWehbc0pGGN7KKL1VJMeD+vs/AJzvyKnxxvsBLwDeGy/IA783XoHGS7V6aT8+HdhsprjdaQ+HWvJIazRLclwsx+OEls16SEx5lZ94hv8DmL/mHELRVwGQUQBwdBt1PP/qpc/OI+SHCxDIMWAVoaJiEYFdQsEikVXQNOFXAX4FhgDpBr62gm5UnIFbAA0UpImyA2K1qI2XK3oReRx7irGkmVacKcSWdhDpJ1CbIrMUezppB+VY0/KXKU1vRs//GT8nPvHzNTOfGhw3JD4a2XzhGbGPBtsJVsBODLQnEt8Nr2OJU9Fx+jQgCOd/xfG0mf8ypQDw59P/V3lf67yVc9CrgFDXOx59sQtaNhEAoGSDSfkmQbVHIH3qoOcIRD8Cim79AqoFOgSafmsIdFkWRaBbv3tCaXLEpH4iikFPiWrHFtFMeiC67Hrxu02G0JgEUxD+cqk1DlTX+PgCnOJhrIr2wcV5mqfd2gg1JxxiwqIFa8aNmbbG8BX1aN28mgZW/RAL8glgKbyc3att5q9YNS3L60vSeL/nsKF3O2EbAWDjGHYrKSTUPVldG38aptcqbUMj3z8AAA==");
 
 export default Asterisk;

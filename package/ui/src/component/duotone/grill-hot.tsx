@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grill-hot` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grill-hot?s=duotone grill-hot}
  * @preview ![grill-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/grill-hot.svg)
  */
-const GrillHot: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 24l0 2.6C96 48 106.7 68 124.5 79.8l12.4 8.3c4.5 3 7.1 8 7.1 13.3l0 2.6c0 13.3 10.7 24 24 24s24-10.7 24-24l0-2.6C192 80 181.3 60 163.5 48.2l-12.4-8.3c-4.5-3-7.1-8-7.1-13.3l0-2.6c0-13.3-10.7-24-24-24S96 10.7 96 24zm112 0l0 2.6C208 48 218.7 68 236.5 79.8l12.4 8.3c4.5 3 7.1 8 7.1 13.3l0 2.6c0 13.3 10.7 24 24 24s24-10.7 24-24l0-2.6C304 80 293.3 60 275.5 48.2l-12.4-8.3c-4.5-3-7.1-8-7.1-13.3l0-2.6c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-        <path d="M0 192c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32c0 78.1-46.6 145.3-113.6 175.3l47.7 111.2c5.2 12.2-.4 26.3-12.6 31.5s-26.3-.4-31.5-12.6L327 472l-171.7 0c-9.5 23.5-32.5 40-59.3 40c-35.3 0-64-28.7-64-64s28.7-64 64-64c3.4 0 6.8 .3 10.1 .8l7.5-17.5C46.6 337.3 0 270.1 0 192zM155.3 424l151.1 0-18.3-42.7C277.7 383.1 267 384 256 384l-64 0c-11 0-21.7-.9-32.2-2.7L147.5 410c3.2 4.3 5.8 9 7.8 14zM96 472a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const GrillHot = createIcon("grill-hot", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABnQAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCVAsIAAE2AiQDCgQgBYMtB04bdAXIhiBeZ/6snuzcyWFQmPhzh0wdNwUgeOrU85yHAvgcgqCMjUsXbw/NeR6BAEYTWp1UoYLVCmoV1uo2WYFPIH4RIVIS0vHZcXaBPB5M56mQ3Zx9gCv5fwDjG52cR6YxAYiWAJi5fvVSb30YH2bxQf054gNLEBCzQCmQkNBVgCmSQFe5Erlc8GFWr/Nh1OslAUQV/6gEqmiCy3AtIAeZJMvz4S0bu3evVZrl62qVIp3dIeLGWrO4tN317hry2IK1cXOf+zp3jiJuantd8cCgRzrfOvjR/pe26xLvDXui19paURsW1xVFXNK+Y1zfbsmDXW7pd1/Hm/tuFm4f2C6uJ27u+2CXiDsGtY8bIsJrXqMdvR5p+ch3PT/Y9wHNL+Ki5mdVnDYX33/Xb/hxewbOu/chj9n5999t72rVqiho9q7KjBP1++774pYvbpT1zj5uNUPLn18ztv+TK9u1WwnD9gcTfJ590Z6GxHqJe99WzU9wXgcCwc0P337T9hZTfmuoZeDjV374pT+v/mq8lT2CBhkI0pD6EFviLSB0AFYWp+lVPmqHQLJAIu/a1A0ChAIBMlWFAEkXLQXIFQYLUNHdWAGqCqslkTcKbW2dINPUiSAZ53SQa+tZUDHF22ZV20g5SWcU/SNMmKehuVPlyGEjyknlNjCYNCPbcHJ5LA44zRQGYtE+xx1zir32OOgUhZxkqXOqo+Z58FxfVBppmBFKk5TheCusU+ZJTnZwzcXHTFbeVwc4za8fCCUjmKNclSQii9Rq/0kHjxwZeuD4KUMfd6GN4Z4x");
 
 export default GrillHot;

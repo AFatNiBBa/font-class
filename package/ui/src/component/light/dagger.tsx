@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dagger` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dagger?s=light dagger}
  * @preview ![dagger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dagger.svg)
  */
-const Dagger: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M208 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 112-32 0-32 0-32 0-32 0c-26.5 0-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48l0-16 16 0 32 0 48 0 48 0 32 0 16 0 0 16c0 26.5 21.5 48 48 48s48-21.5 48-48s-21.5-48-48-48l-32 0-32 0-32 0-32 0 0-112zM48 160l16 0 0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16s7.2-16 16-16zm272 0l16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16s-16-7.2-16-16l0-16zM240 397.9c0 4.9-1.5 9.7-4.3 13.8L192 474.1l-43.7-62.4c-2.8-4-4.3-8.8-4.3-13.8L144 192l-32 0 0 205.9c0 11.5 3.5 22.7 10.1 32.1l50.2 71.7c4.5 6.4 11.8 10.2 19.7 10.2s15.2-3.8 19.7-10.2L261.9 430c6.6-9.4 10.1-20.6 10.1-32.1L272 192l-32 0 0 205.9z" />
-    </Icon>
-);
+const Dagger = createIcon("dagger", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeQAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCDAsGAAE2AiQDCAQgBYMtBy0bCQXIjsM4hvwSSzmLeHjQ+69zk3wlH2/kDEBvJ7Bbd2DRrFtWU7+qZZ7/yz0/23SAH8BvbJtT70onzfk8gZ7nw9cSKgos0wSst1lI8PC7xYMIWUTDcjist4MsLscQNSRPJj/g/vKh8bdO7iKRpQCiAoCZ61cv9dUf8UfED1XEDxYjIGaBUiBFiq4CTJEKdJUpkckEf0S1av8DSwKIWvhWCchQi4M4CchAIsuyQY1FWdQ0ZeuKmnzzY+0faSvy/JW2j3R8st2jfV/v8HiXiKIQZNNT7R/rl+expsgL8UjbbffxDk0JfrTdLbHmRtsZMSsei4g8xI12a+PR4u4O6+NxdlGvtypv/dvzvn5+v/mPP5pPKHeM+OXHNP3xlxGtpKLyQQVhgJLSE8/fX0HFKVWZQXkmnlFZ/m/duM99bmz9T0o/af3syPkuNjZeDMazrfnzIBC0emfZ0O0tU+7UFwn465P/7zC/oupXcSN5C/USEKRDqkNsiRsQNwQAIIlzesUNBBI7ZfBVGz0mQMgRIFErFyDVRUWATG6wADW6GytArdxqqcgahLa2TpBodBKkxrkKMm19DGpM8XVWq22k6sYpC/ezlzyPQnOXlSOHjSgnlcu6zmsQE+cnl8fqgHOsbyBssc9xx5yx1x4HG0XIU5YWzzpqnkTM9UWlkYYZoTRJed2ar19nr1NOO+i4Y3mRycr34QDn5NEDYRUJYNSHYlxtJLV7du7fv/cUAA==");
 
 export default Dagger;

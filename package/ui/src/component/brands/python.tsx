@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `python` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/python?s=brands python}
  * @preview ![python](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/python.svg)
  */
-const Python: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z" />
-    </Icon>
-);
+const Python = createIcon("python", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABhQAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCKwsGAAE2AiQDCAQgBYMtBy0bKAXIHoVxw12CMsVQmiGK6/+vePja7/XcfftfgEgSqbCwaHQcqAiHrFSE6lToTi2quoDV76d7Afop8ksKgBJYAZMChQAqqix0p8K0Eriw8ef/ms/v+TXgB5GLpLMKLJCjyK2fT2DPR5GUPtC2gc10Aja/nc+AJLrBIqE4D8P0u2H7F8gxTQOokO54j+AkfWj8YqQFkkoBgGgGABt7sTFQPdNz0OPXKcQ3USAgNgHDCAUK9COwjC/QT2AYZFnwg/6/7H8ggwCiBN1zAhklDsExgAySnAWuNW41nFBNkFAnlOXe6xON2cgIcWu3YSWjLt0RQ9Cd3qj1adi6wbgJkYyIOOqu++aVcatGE1ZrxtO2CZyM612iKX1UvQ4+QRQjcERwD+myWjGcwLHRpN4oxxHRtOO2oQAKvBXllubWi+Kx4BHnb4lv8D3LDm640bGFUhj8exUVEPx5j//a9/75Edorpe4VXW+7B3+/kw8K4ilatLW06qdLSdZnzhH+/RvbbiDc3SkVouZi4aRZSqOhYXPY05OB9V1/9EDUi4ha+XoAAsHLydF/pkbQfwnHA/y8+vftf0a+0G3aAtUSCIqJLydpoYKvdIsAACkaKEMFAsk+AXrXetcIEGoRICnVClDoo4lAVmscgYpB3giUam3hiyxFaJdeQVJvHxSWNIGs3TGoWHYTlNqDL32M7DA/f4mhLRQyjbm7uLEANk0VVqCoMB7IthW7Btey1ztRoFKFOvnyFKtryBoxcb1yoSs4xBcx7ly4YQKw4+Jxc4J8NWoVq1QRJwnE3lt2Gta97fUseIC570a5ZCRR1WFdUWUFAAAA");
 
 export default Python;

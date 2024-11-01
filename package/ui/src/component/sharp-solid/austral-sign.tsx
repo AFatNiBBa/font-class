@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `austral-sign` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/austral-sign?s=sharp-solid austral-sign}
  * @preview ![austral-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/austral-sign.svg)
  */
-const AustralSign: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M194.3 32L216 32l16 0 21.7 0 8 20.1L330.5 224l85.5 0 32 0 0 64-32 0-59.9 0 12.8 32 47.1 0 32 0 0 64-32 0-21.5 0 27.2 68.1L432.9 480l-68.9 0-1.6-4.1L325.5 384l-203.1 0L85.7 475.9 84.1 480l-68.9 0 11.2-27.9L53.5 384 32 384 0 384l0-64 32 0 47.1 0 12.8-32L32 288 0 288l0-64 32 0 85.5 0L186.3 52.1l8-20.1zM224 130.2L186.5 224l75.1 0L224 130.2zM148.1 320l151.9 0-12.8-32-126.3 0-12.8 32z" />
-    </Icon>
-);
+const AustralSign = createIcon("austral-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABZgAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBawsGAAE2AiQDCAQgBYMtBzMb7gTInoWxY+1IbKfJEmpeIrN/xMM/a9/um5m1mXUZzCytIqYNEpVD89DYSNYkGiqHyiFC/clcS9gWi6rvOuBTF9z8X9Pvnlc8/3ZBcGgV6+ACGWU+n8CAI7l1PpwN7ERx5q62x6ZE85Ik5ZI8fvb4uUIWL9NUkTxP4HH+0fijx0MSdSmAaAbAlvHhA94fvyK+Via+2oeA2AJKgRQp+gVYLxXolymRyQS/qFTkP7AkgKhmn05AhiqM4iwgA4k0yzbU1BVVDdlYUZUfLvKiJ0ajKESe93B6NHqYi84Yw0aiHe2L8UgeKNDH1vj83tGR8ZEixkaKvOiNPLqnvmru7xTn+CCsv237pNFys3L9T4voQkfvNpN2aDPtsG9hQ5sdJvVt04msRTvQ+saxbZNuD5ycfrSk95mh4TfPQvmnB4gH4rH/j9o83rT+X22RgN/9V325Mu+TV6iVgCCdX5nvSLwHkQZQSeKeqcBngcQBKdi31nsiQMgRIFEtFyDVp1mATG6eAFUGrRCgWm5YKrI6od3RDhL1boLUSvdBpt1rUGW9j5Vq7ZF6l+Yb2ucue+cI71hXLlm4uFxbLpua7jBKXF5Xbkdm39OhOXTWOdddc8dZZ1x0Z6BuOVC/66qdCNnBR6UlFlqstFZ53Hk+PuasW2676LpraZV1yvuF2e7hyXMonjDZpS4mEiKpP3n39p1bJ68seJoAAAA=");
 
 export default AustralSign;

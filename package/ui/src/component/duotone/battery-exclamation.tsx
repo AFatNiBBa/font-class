@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `battery-exclamation` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-exclamation?s=duotone battery-exclamation}
  * @preview ![battery-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/battery-exclamation.svg)
  */
-const BatteryExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 176L0 336c0 44.2 35.8 80 80 80l118.7 0c-4.3-9.8-6.7-20.6-6.7-32s2.4-22.2 6.7-32L80 352c-8.8 0-16-7.2-16-16l0-160c0-8.8 7.2-16 16-16l128 0 0-64L80 96C35.8 96 0 131.8 0 176zM336 96l0 64 128 0c8.8 0 16 7.2 16 16l0 160c0 8.8-7.2 16-16 16l-118.7 0c4.3 9.8 6.7 20.6 6.7 32s-2.4 22.2-6.7 32L464 416c44.2 0 80-35.8 80-80l0-16c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l0-16c0-44.2-35.8-80-80-80L336 96z" />
-        <path d="M296 120c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 176c0 13.3 10.7 24 24 24s24-10.7 24-24l0-176zM272 416a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const BatteryExclamation = createIcon("battery-exclamation", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABjgAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCHwsIAAE2AiQDCgQgBYMtB2IbUwVRlMvFENnHYhxT5EuiE8YRfK8T2/clexI54BArzHyIXBE2hedago70ZJ7V85AYTJ16nvNQAJ8T57EWyMLgWF3jvAI9L0i5m2CBVwtSIK5jp+a9OAgh+frajpDHP9k1KqQH0/e43Xnh+FEn15A0zQBEHQAz169e6uNGNFJ8//87xPeWICBmgVIgQ4auAkyRCXSVK5HLBY30//80gv3zlQQQVYh8Bqr4F5zChYAcJEnq87xZm/K90jxfV6sU+x/qZzqKB+v5LrHhZkXcjyvzvuIm3uOKuLeWCY/ui2NrcR+uVBH3ZcT9qkVEEe/MC113C7W4N8Q9LOJeu4K1eP9f7hFxs+6P2OfwiMfO+kvjil4v1V/6uef3+77Xf367lSvbvQFjOvRvcQM3tKghV/0JcW2s21s/71irVsfOa7R4QovGFWa4Qn3vuli+fAaQruiiJ+BWr1srzIj1OvcLrgACwWc9p3Td3nLK301qCfzw0a9/2hvTjPQSmkggyIb8P8SWNAMQOoAPleKcXmmG3xDILJZ499rMfQKEAgGSqkKATBd1AXKFwQJUdDdWgKrCapnImwptbS1B0sxJkBnnUpBr621QMcVXcVXbyC488rIhv/vi5tWhudvKkcNGlJPKwVpOXUu4Xp9cztYGnONjA+Fe+xx3zBl77XHQmRpyytLsrKPmjcFzvVFppGFGKE1Sru5uc+twfMppB/uZ9ZtMVu4fDXBufPZAuJsEGHXIChmRIuvynh8f+k8LY+fRu0kaeh7P7NbPnLY=");
 
 export default BatteryExclamation;

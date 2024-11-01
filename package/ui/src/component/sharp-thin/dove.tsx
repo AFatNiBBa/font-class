@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dove` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dove?s=sharp-thin dove}
  * @preview ![dove](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/dove.svg)
  */
-const Dove: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M196.6 42.8c9.6 52.1 41.6 95.2 77.7 128.2c1.9 1.7 3.8 3.4 5.7 5.1l0-21.6c-36.3-34.5-65.6-78.5-69.8-130.8c-.6-7.6-.7-15.4-.2-23.3c-4.1 3.6-9.7 9.7-16.2 18.3c-12.6 16.8-28.3 43.2-41.4 78.9c3.7 5 7.7 9.8 11.9 14.4c9.9-29.3 21.7-52.4 32.2-69.1zM416 144a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM87.8 38.4L84.1 19.5 73.3 35.6 73 36s0 0 0 0c0 0 0 .1-.1 .1l-.2 .3-1.1 1.7s0 0 0 0C59.5 56.4 32 100.6 32 176c0 111.4 81.5 170.2 126.7 195.7L11.3 432.6 .1 437.2l8.7 8.5 65.6 64 2.3 2.3 3.3 0 72 0 2.7 0 2.2-1.7 81-62.3 90.1 0c83.9 0 152-68.1 152-152l0-158.4 26.6-62.5L511.3 64l-12.1 0L392 64c-39.8 0-72 32.2-72 72l0 72-7.7 0c-31-2.6-81.3-14.4-126.7-40.9c-45.5-26.6-85.6-67.6-97.8-128.7zM48 176c0-56.7 16.4-94.3 28.8-115.9c17.2 56.7 57.3 95.4 100.8 120.8c48 28 100.8 40.3 133.8 43.1l.3 0 .3 0 16 0 8 0 0-8 0-80c0-30.9 25.1-56 56-56l95.1 0-22.5 52.9-.6 1.5 0 1.6 0 160c0 75.1-60.9 136-136 136l-92.8 0-2.7 0-2.2 1.7-81 62.3-66 0L28.7 442.8l151.7-62.7 16-6.6L181 365.5C142.6 345.9 48 291.2 48 176z" />
-    </Icon>
-);
+const Dove = createIcon("dove", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABpAAAALKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDNgsGAAE2AiQDCAQgBYMtBysbsQXIjtRQLTt7BA911tfrdEY96wzcszIy+yGeAOlKneDE9tSp5zkPBfBBIGNhbIOMScE5zyOQ867pASqWtlBNC+Bl6O5sB2QN5ZC0VoQcj3a8JkjjSbsrklyevIVz41vFj1qcRKJQABB9AbCgZ9Maz30Wn0W8WXmYeNMqBMQCkAsU4Ey7ALMVBD5BKkcqFXwWlQr9B+YEEFXy7SUgRRWexOuAFCTSNG2rXbsgK/ZKy1mxbrurR0TcPuLihuMbIu4Ye0/nJU0XlW4bf3HDtW1bLmm8qJS2Xdq0a2tLaykijkcpohTWXdR+VX79mLtH3D5ksxAaYku5WpY1RU9k8em8Z3siJkVT1NXdNPy2ZlEXt0x9ZOYTI+/o3HxtW8SVTVePuH3G41MeHpJFRGZQefLSYVmMj1IIcd3spxZvCqXYbL0boyeaojFuoUuPvWfgwDv63vFz91t7vuWli/bciXW39eumweN5PjXLtly1fEm5/M+fu/f+7LPehV+2zwQP3+uHCnD3++9XV5fLr7521IWz3eg08+fpVljVz/o5tjU/rrg95l/jHjPV7/fZpEm9l6txSHPLgEH3XHv1sNNrz+Ksa1+/++7+k2fMOD7Qt6bGetW//n/wTjYjcZ3aPcrn7ZB0Wz/HQptdMtfvvrHim49POaUGCATvd9Sfv1Of2b/VZAn44olff1S/RZXnopLcgRoJCAqjK6Ntn0BERQAAkjjSwAQCiQel4F3rXSJAqEOARJU6AQra9BUgVWeUAEWdpghQpc4mBZHWCiU7dJCodwgomOpokCp5EBTN9qpapRQFHSY0kPhBxi7l0JKxfMLY8fnMfOhrpFpi2J+VL3PDjxS5EXDWng5yoMPtYXf7OJwhh1pjHOEAS2fwEh+Um2Cs8XIz5cfR8njZHg51mH0c5EAaMkt+XxnuyHn1CJhFApj4+phzR5LuftCRewA=");
 
 export default Dove;

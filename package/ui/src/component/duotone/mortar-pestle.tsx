@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mortar-pestle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mortar-pestle?s=duotone mortar-pestle}
  * @preview ![mortar-pestle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/mortar-pestle.svg)
  */
-const MortarPestle: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M209.3 192c52 0 103.9 0 155.9 0L502.6 54.6c11.8-11.8 12.6-30.8 1.6-43.5S474.5-3.7 461 6.2L213.7 188.5c-1.5 1.1-3 2.3-4.4 3.5z" />
-        <path d="M0 224c0-17.7 14.3-32 32-32l448 0c17.7 0 32 14.3 32 32s-14.3 32-32 32c0 82.5-43.4 147.7-123.9 176.2c11.1 13.9 19.4 30.3 23.9 48.1c4.4 17.1-10.4 31.7-28.1 31.7l-192 0c-17.7 0-32.4-14.6-28.1-31.7c4.5-17.8 12.8-34.1 23.9-48.1C75.4 403.7 32 338.5 32 256c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const MortarPestle = createIcon("mortar-pestle", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBSQsIAAE2AiQDCgQgBYMtB1Yb8QQR1ZpHyD4SclOWV/EtDhtUsRIP39tFf+7rnllAvZDw5dyMjCCa+qmUbU0ATN087zwK8AG8MbHzfEx+aq7zBDoPJNvA8RTKNAPrbcOGjsjTkCgJi4jGKsdrhTx+yq4okZ5I3+A+/g9g/KKVKyS1MgDREAATly+e64NKVFJ8U31TfGMOAmISKAQyZGgrwBiZQFu5ArlcUEnVqkpUqwUBRBkfJwNl5JiB+YAcJCHyvHezOqV6+bI6pdpxsUXEY3Xqxe1mj7jQ9OHaF/q8OOO5Vo8k3IZvNX+0xVO9v+r3Mthi+e06EVleHo+1uNjiNLrpkni4aafnGz7/W8dvtn1TqX+DG/U/IDiSCI+7+9un+a6+N0708IkbfXfln/52d5xp90O1e3fC/jdvOFmn7skTr7369P9vF42AQLD2v5+urG8w5r+adRL4+f0//pEPqfpBkp5HTQkEWZ9qH2sSSAQAIMUxnRL8KJDpLeGn1vWoAKE2AiRltQXItNFQgFxtvQUoaW+oAGW1LZaJvJbQ1NoKkroOgswwZ0GuqTdAyRifq2VNI/Mm2hfoz1yCmqaRqV3FwH4DilHF0FEYByFjc3SxLPY4RomeMGjb/n1Htm7ZeURhh+YaR/dOm6FTXywG9htQjCq2/Xt42dZDh3fa3H6b0cV5qcexeX5P6CcBBt3DxoxIkTXbu//QkY2H+h7YevjInq19X2ZGC4N7hQAAAA==");
 
 export default MortarPestle;

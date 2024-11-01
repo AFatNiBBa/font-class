@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `triangle` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/triangle?s=thin triangle}
  * @preview ![triangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/triangle.svg)
  */
-const Triangle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M221.7 67.7C228.8 55.5 241.9 48 256 48s27.2 7.5 34.3 19.7l201 344.6c3.1 5.3 4.7 11.2 4.7 17.3c0 19-15.4 34.4-34.4 34.4L50.4 464c-19 0-34.4-15.4-34.4-34.4c0-6.1 1.6-12.1 4.7-17.3l201-344.6zm-13.8-8.1L6.9 404.2C2.4 411.9 0 420.7 0 429.6C0 457.4 22.6 480 50.4 480l411.2 0c27.8 0 50.4-22.6 50.4-50.4c0-8.9-2.4-17.7-6.9-25.4L304.1 59.6C294.1 42.5 275.8 32 256 32s-38.1 10.5-48.1 27.6z" />
-    </Icon>
-);
+const Triangle = createIcon("triangle", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABXgAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBJgsGAAE2AiQDCAQgBYMtBy8bpQQRlZoTyL5I4E1pnSxiDWtQ0qqD5SeJiX/VMXokHp6fez33JaW0A0TXqhGQqxoRyLFEcOyn2KKa/gHwtpXnB47d+Pq6jZWGUApVGXKlD8040seSrummvunv5/k///QBn9FHi7IOLK9a1fkEJrabD3xAUWAznYBtd7YpkqY5pVGW5Hi045Mz5PHcKmWky+kTTuYPjV/a2EeSZQCiMQCGz5052Zvv8T3iU+mh+GQiAmIE6CyQIUN7AQbJBNrLdUYuF3yPUsn/ByKAKMcvm0COHHUYBshBkvK8Zevqsgb5nOqyYuHVXjfazI/zdjU/V9TEkZYXYnerhS3nLZx3zuUW53s0iFutLrbb3XJB3O15vXfXu43v/vFJP33Zem/atHvvMrZoePlyw2uAK8Z2zOeIlXR9w/zLl2HXDHNa3rAeL6T4/r0AAsHB2l9laaNB/yurE/j57N/0Myp9B+kuKiUQZP1L/RclkAgAQIoNuiYIJAMlfK01LggQCgRIyhUCZNppLECu0E+AMh3VClCuMFMm8iqhucUNJDVWg0yd7SDX3H1QZpC3YbnmkdkOcfPEzy1WsoToEE7KMm1V0hywtHss8/owYziZNPzJsCeQ05K/WYPpizgpy/bweLzLuRZO+xznbb2+3CABRq0FkMip8kEs8LkEAAAA");
 
 export default Triangle;

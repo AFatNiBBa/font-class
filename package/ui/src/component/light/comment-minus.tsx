@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-minus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-minus?s=light comment-minus}
  * @preview ![comment-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/comment-minus.svg)
  */
-const CommentMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 240c0-91.4 93.8-176 224-176s224 84.6 224 176s-93.8 176-224 176c-32 0-63-5.9-93.5-16.2c-9.9-3.3-20.7-1.8-29.2 4.2c-15.4 10.7-31.4 20-48.4 27.4L91.2 446l-6.4-14.7c-10.5 4.6-21.5 8.6-32.7 11.5c.5-.9 1.1-1.8 1.6-2.6C68 416.5 76.3 391 79.4 363.9c1-9.2-2.1-17.7-7.4-23.9c-24.5-29.4-40-62.9-40-100zM256 32C114.5 32 0 125.2 0 240c0 46.6 19.6 87.1 47.4 120.5c0 .1 .1 .1 .1 .2c-2.6 22.6-9.5 43.5-21.3 63.1c-6.5 10.8-13.5 20.8-21.7 29c-4.5 4.6-5.9 11.5-3.4 17.4s8.3 9.8 14.8 9.8c28.7 0 57.6-8.9 81.6-19.3c19.2-8.4 37.1-18.7 53.9-30.5c.2-.1 .5-.2 .7-.1C185.5 441.3 220 448 256 448c141.5 0 256-93.2 256-208S397.5 32 256 32zM160 224c-8.8 0-16 7.2-16 16s7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-192 0z" />
-    </Icon>
-);
+const CommentMinus = createIcon("comment-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfQAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCDQsGAAE2AiQDCAQgBYMtBzQbEQXIhofn7fo691X1H0A1gBFhiYhANkhXCLfn/3LPb9rRAX6jQ9lTj84W4JitxQkksH1S3vMszAKlmLNuenE/pDxNyYte0tbYD1tDZ8jj1eimRLojfYbr8pvGz5o4R5JnAKI2AEYvnDvdW5fjcsRn5eeJz0xFQIwBhUCGDM0FGCYTaC5XIJcLLke5jP/AggCigvzMBHKUsAEHADlIsjxv3716tVKNfEG1UtWFP86N+Hbh97O/nv/drK/mnR9wa/372jWIhnFzu9vidKMnW93W8I02C7+bFPHRsIjXiu9Hn47T1e7udHP9mxvcUu3FoQ92vRAfj/9x6qcj32x7z4g3pnyyYN7N9W9pUC1ua3Rrw6ptHqn9yK+tP9vwmVZfxoR3+HZNrIlv34kJisETe335z087z6+wwn+5YMygGoeXNrr05UTnuaslLauk8c8geje/7rWNnSZXfXrWa6dD7VkmDRpylbL1rvMTrXzzcs2al9/CD4NAsHXq051W1hr2b+VqCVx95fd/+c7y/+XLSXoElSUQZN3K3SxLAs5KcdwwDmhDHxRIVsjIq1Z3qwChKgIkFaoKkGmmtgC5qroKUNJSfwEqVDVXJvIqQn3LG0iq2w0yAxwHufqeBSXDfBhVqB+Zu/HOwr/2UiZoaPymonePXsWQYliqggexcXFoMe10OsADnemkDXbaYZ/11tlsnyL3mJ7ut90Eixjviwq99dBLYYhiubk/vMB6e+y12U470jpDFfuDTg7Y4zuTnwhlH5kkEanGBTe6/1Kv7gUAAA==");
 
 export default CommentMinus;

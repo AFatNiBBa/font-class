@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `starship-freighter` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starship-freighter?s=solid starship-freighter}
  * @preview ![starship-freighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/starship-freighter.svg)
  */
-const StarshipFreighter: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 480C100.3 480 0 379.7 0 256S100.3 32 224 32c42.3 0 84.2 7.9 123.6 23.2l207.9 80.9c12.3 4.8 20.4 16.6 20.4 29.8l0 42.1c0 8.8-7.2 16-16 16l-114.3 0L432 224c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l13.7 0L560 288c8.8 0 16 7.2 16 16l0 42.1c0 13.2-8.1 25-20.4 29.8l-82.1 31.9c4.1 7.1 6.5 15.3 6.5 24.1c0 26.5-21.5 48-48 48l-80 0c-11.5 0-21.6-6.1-27.3-15.2C292.2 474.9 258.2 480 224 480zm0-272a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 128a80 80 0 1 0 0-160 80 80 0 1 0 0 160zM80 272a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48-112a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM112 368a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const StarshipFreighter = createIcon("starship-freighter", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABjQAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCKQsGAAE2AiQDCAQgBYMtBzkbMgXIhofv7fr/tU/3TN3b84x+ND6ZQZmoyI7YX46UzcQ1zz/t6QErCB4lap0gkTjKPJ/Azue7ebUPcGATxb1teAyJwCdhIiQR/Y6N1Q7y+CK7UI10Q3oPl8mXxu96upCkNQMQHQCwYNumNV6qoop4t/kM8a5VCIgFoBTIkKGPALNlAn3kSuRyQRXNJv4HlgQQdfy6BHK04EycA8hBUs/zGW3btvJrGrW2+dZGrdjyxsqIdyZGPDnwrklPrXp32UUrtsQ9PcXVXYqCaOKaro3Gh8T1gzfHNa7vcvXgIu7t9lqR3dPzhh7XD7631429bxrmuXGPjX106tOjHx7zyJSt13W/ttvVXa7puo2U0beZ3jrwwQ4P/jngvSPf803/qi+jX+Hjdu0+fmV032r+sx+uNzwfqV11aruqXSlou1NvGCkfvrG/Y9tm7385fr0Ol7Sb3OH2n5577qfbkX/uS2du23bmSzWXzavatasQHXeSobH2H/rngUBw5Ofb5uxrP/uflkYC37349/9yvmaV5qcH0SKBIBvdHG13mg8oDSCf4kwDgzUGkhPd5E1tXCtAKBAgqSsokemtA5ErjCJq+pmyQ11hk0zkrUIXeyiRtHEKkZnqLCLXxVNEzWxv5uq6RJZ8RuoYf7+cSy2wZFU5Yez4cmY5behmPml1cVa5HBx+ZhkYAVsd6SQnOt0RDjvG6QY/1ZriGU6wNMKW+KHSBGONV5qp3G7vN291hFOd5hgnObEtM0t5PjvcmfH4ERBJWHaiuiQRqdPr0BI8PebIU19K6IhTAQAA");
 
 export default StarshipFreighter;

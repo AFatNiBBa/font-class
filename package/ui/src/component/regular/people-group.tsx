@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-group` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-group?s=regular people-group}
  * @preview ![people-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/people-group.svg)
  */
-const PeopleGroup: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 128a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-16 32C50.1 160 0 210.1 0 272c0 44.7 26.2 83.2 64 101.2L64 416c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-32c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 16-32 0 0-16 0-48 0-128 32 0c12.6 0 24.3 3.6 34.2 9.9c7.9-14.2 18.1-26.9 30.2-37.6C190.2 167.5 168 160 144 160l-32 0zM64 229.7l0 84.7C54 303.1 48 288.2 48 272s6-31.1 16-42.3zM496 208l32 0 0 128 0 48 0 16-32 0 0-16c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 32c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-42.8c37.8-18 64-56.5 64-101.2c0-61.9-50.1-112-112-112l-32 0c-24 0-46.2 7.5-64.4 20.3c12 10.7 22.3 23.4 30.2 37.6c9.9-6.3 21.6-9.9 34.2-9.9zm96 64c0 16.2-6 31.1-16 42.3l0-84.7c10 11.3 16 26.1 16 42.3zM560 80a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM320 144a56 56 0 1 0 0-112 56 56 0 1 0 0 112zm-16 32c-61.9 0-112 50.1-112 112c0 44.7 26.2 83.2 64 101.2l0 58.8c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-58.8c37.8-18 64-56.5 64-101.2c0-61.9-50.1-112-112-112l-32 0zm0 224l0-48 0-128 32 0 0 128 0 48 0 32-32 0 0-32zm-48-69.7c-10-11.3-16-26.1-16-42.3s6-31.1 16-42.3l0 84.7zm128 0l0-84.7c10 11.3 16 26.1 16 42.3s-6 31.1-16 42.3z" />
-    </Icon>
-);
+const PeopleGroup = createIcon("people-group", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABxAAAAKrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCEAQsGAAE2AiQDCAQgBYMtBzMbBAbIjsK2tXMUSRKGgOAfD//s5+57XzZEJGpSC1GsVEIjrtE0EgotEq3tEDrzn/cvO3egF+nPBDfyi6wFGHULqoRQ9L9agBPX5L8HfqC23Pn7kKKLorzzfAINWrymBiqw2URxZ9teHFFfPwiFLZTxm9bTk6/5BDy6i+OPYhxIVQEfjUHAame3DVW4oZIa9LhzFpKtVYCAOAOwiFDQh5hF4JBWYJbOIiiVgm/6/x//BzIQQNTwnzxBiT58AdoAKEHqKXX20iSN9vYBzgaT0NvrmoXe0nHMtsu6M+Sw13ZlR7DXmTCi47PD4SeCQQ9jW4SgVRPbiGg0DOomXzCw5diu0JPJlkaQN+su24CwCIQYF88sWpt2bPUU7V2ZvYrOLB1RtommYS+iHZoX6Y8GyfnvCD4SeszWeAvZIS4ES3amspkq0dry1bBXwEmnk2/9n0x4gpUn+5+dP/9sf7LB/w/vgX/HAKv56SocWi2H3OQohvt5nbsTmBNpGMy1fdbvYC7HFjX6RNVkUj/cOTwMaYZwbiOvfkAknpqtAY7/3n9g5L77nX3p2pOjfGj0QfG7bpmxdOkMS8Lz/uTDr9+/f30ofAj3oCFjp6AqpbSElwIscITKfjXc6MMfFOUDzgoEg3fzbvc4Zn41CQ3g99L7b8hO7qg5nCdBU4KgWPsfhc4cBgSZgGjGAgRMfFEgfULwP7XXEwiEbgRItW4BCjOcECh1W0WgMi8JgVq3S1pRmhFGdVVo6nWPFrYtR0ujTqOVQ/cjtdHQAroYTMX/mSmKm2DRKI6LkZzOowWFBHaF1mAGLzaELZAN4XgtJphphnmGDJpsXgOaoyo+33TFU5yiH2JxYkgsHW8u31U008gcc00elm0fJgMf7wmzYLp9ODZr+HzXZaQk0u7dUEV/CAAAAA==");
 
 export default PeopleGroup;

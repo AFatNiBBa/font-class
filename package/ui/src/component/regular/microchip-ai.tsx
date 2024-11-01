@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microchip-ai` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microchip-ai?s=regular microchip-ai}
  * @preview ![microchip-ai](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/microchip-ai.svg)
  */
-const MicrochipAi: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M184 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-8 0c-35.3 0-64 28.7-64 64l0 8-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0 0 48-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0 0 48-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0 0 8c0 35.3 28.7 64 64 64l8 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 48 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 48 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 8 0c35.3 0 64-28.7 64-64l0-8 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0 0-48 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0 0-48 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0 0-8c0-35.3-28.7-64-64-64l-8 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-48 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-48 0 0-40zM112 128c0-8.8 7.2-16 16-16l256 0c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16l-256 0c-8.8 0-16-7.2-16-16l0-256zm224 44c-11 0-20 9-20 20l0 128c0 11 9 20 20 20s20-9 20-20l0-128c0-11-9-20-20-20zM234.3 184c-3.2-7.3-10.4-12-18.3-12s-15.1 4.7-18.3 12l-56 128c-4.4 10.1 .2 21.9 10.3 26.3s21.9-.2 26.3-10.3l5.3-12 64.8 0 5.3 12c4.4 10.1 16.2 14.7 26.3 10.3s14.7-16.2 10.3-26.3l-56-128zM216 241.9L230.9 276l-29.8 0L216 241.9z" />
-    </Icon>
-);
+const MicrochipAi = createIcon("microchip-ai", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABtAAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDYAsGAAE2AiQDCAQgBYMtBzMb4wXIHoPjbokh7hFDlNfniyUGVjw8fz/q3Pvfn6iipKSmxBQeorGy4QEpGt611ShdLvv+x7h6fyH+3YPRBDeoS0mKN5fcXMpOv7m+gWTGN3WqZpyHQuE3CsrYlvgHZExdu93nBZwi06YXpForWAmrFbBCuDZugguqDAzyyL/ieGQYyoKheIcSTyRq8kEQbtY3jd/GrUOqKwBEHwA4uKopw/uP+BHx0zwSH52CgDgAMIdQocIUAtuEAlNE5kBRBD+iacb/QIYAogX25AQFrfiEz4ACUl1Emzq1pVUpVovqlbWi5Tj0wgbqoIvwG1nCdhSiJIUPEbcsEXLtJAJeR92zhPM4VEHA48g7hHcLcrz2wKqmPbOAdk0q2rcI6xBiOV+pbZirb1ZL9+ZLq5WUZI69sANHfbzb41aQd+FOd/c3/9uf52tzVZU5HDKPer1ChkVVw+aqcMQXZkA6sBOhf1i8dB+x43BA84MfPcy+7yt6/TI2Qc/tU568v5+whMr/9UaLfC02xFc2mj1g1AwCHgoEb0Eppx29239kSgHg19v/X/uvqHlP+QTaJAiq1SZaa4IkAAAZ8/AnEEgf1HjVLrcIEDoQILXoEKAySYdA0WEFgdqMFARadDgjFEWOMKTtAKnLNahsWQDFkAdQ2/ZhthgKYWILaSn8VqaW1njJNk6IjedMvs0VMVe5aT6Lu/Xwee1FcBL9Joyb1afXkNmKnFbmzBlT6hElPogliBWPZeLH1efD9fpMmzFkwviySBaON8LN+yMjgASMdk0kJZGqL0K4Z3BoMqZrCAAAAA==");
 
 export default MicrochipAi;

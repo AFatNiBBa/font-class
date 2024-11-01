@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-pause` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-pause?s=regular circle-pause}
  * @preview ![circle-pause](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-pause.svg)
  */
-const CirclePause: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm224-72l0 144c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-144c0-13.3 10.7-24 24-24s24 10.7 24 24zm112 0l0 144c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-144c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const CirclePause = createIcon("circle-pause", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdQAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBbwsGAAE2AiQDCAQgBYMtBzMb8gTIhofn/ZM69+UnA+iPzQ6qxpVrYwW3rHbbTJ16nvNQAN8oaGPhmiBj+prd5xWoWO+9yyoUoZpucK66jT9okMmLQWQIHhFDfGiCJ8jixTirSLqYPsKZOqv4UyPHSIoFAFETACPnz57qtd/it4gPy0+ID01GQIwEuUBBIE0FGKIg8AkyOTKZ4Lcol/EfmBNAlNiPTiBDCYuwGpCBJMuyJk2qV69SrJbNq1KsvPpwt4i7kz6ofHzCe11uO9T1zsT3q5yY/GH3e1H129ERb07/tMqJqR+PfH3uVyNem/JR5ePTPhn1xrz5woU2VxtHXG5/pVEVuqHVzZo3/2750bqPfPrqwFe4W7VK//5Vqt59ZSCVEvwzYyvR6NHro0e//qhRJWNRVv3X8WctVW/mzHpntekOvR8IBD/9/ePU5TWG/FexSgJ/vPDv/3gaKb+WpJuoKIGg0KXcxZIEEgEASLFPqwSBZJaMzbWqcwKEygiQlFQWoKCJmgJkKussQFFzfQUoqWy2gsgqCXUtHSCpaico6Gc/yNT1CBQN8a5bUjcK8UVFB/W8ix/HyNhDec9uPfJB+bLU6ZAhyu7gfFvosC+POgrUOttts8daa2y0h7BdpgZ7bTXOQ8d6oFxP3fSQGyQ/bp6Pz7PWLrtttN027DNYft/pYJ+/vKPIieH2kkkSkap+w0l13bFy7+61AAAA");
 
 export default CirclePause;

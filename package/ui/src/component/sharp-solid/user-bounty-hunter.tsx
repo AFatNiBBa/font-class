@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-bounty-hunter` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-bounty-hunter?s=sharp-solid user-bounty-hunter}
  * @preview ![user-bounty-hunter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-bounty-hunter.svg)
  */
-const UserBountyHunter: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M323 120C309.4 78 270 48 224 48s-85.4 30-99 72L323 120zm5.5 36.4L248 171.5l0 95.9 9.9-1.7c8.4-48.3 43-79.4 71.5-95.4l-.9-13.8zm-209 0l-.9 13.8c28.5 16 63.1 47.1 71.5 95.4l9.9 1.7 0-95.9-80.5-15.1zM96 70C123.1 27.7 170.5 0 224 0c80.1 0 146.5 62.2 151.7 142.2l8.3 128.2 1.4 21.4-21.2 3.7-136 24c-2.8 .5-5.6 .5-8.3 0l-136-24-21.2-3.7L64 271.2 64 256 64 16 64 0 80 0 96 0l16 0 0 32L96 32l0 38zM48 352l352 0 48 160L0 512 48 352zM160 464l128 0-64-48-64 48z" />
-    </Icon>
-);
+const UserBountyHunter = createIcon("user-bounty-hunter", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCEAsGAAE2AiQDCAQgBYMtBzkbGQXIhof/12nd96WQYeIh1iDzAgEWXc62BLWnTj3PeSgUfg5B0MamNWkNkFDnOq9AAWu92ti0wGsBq1bQau7qHuYhtq+0lCV5/Cb95QR53JtdpoF0d/oON5aaxq+6u4ykJQMQNQDM27JhlY/aoi3i2/rrxLdWICDmgUIgQ4ZeAsyUCfSSK5DLBW1Rr9N/YEEA0UhqmUCOZhzGGYAcJI15XqlWh7Y0lRuq+eZyQ+nIPcMjnpn82tCnupV7b9yyUXSNB0c8OyRKnbp2enzY0707R8Tmzc/OiHi3/Pms9/ttiu4xMDbGNaXNMTh6hry/XBalsLVaqW6KSmzZVC6VV8fK/s/Unvm933eHvzN/yYu38khRPHLri19sWNsa1u1xkwNLluxo93MVL9ixZPHBm+y1pl3XTWsSadhPd965s+lCDRa4sqs8550WyLX6S02tKNQMHtN9L5IxD/oIzBNPvAhoXd1DgeCU/8acuKd15v/N5QR+eefP3/Hd9Y/io/QMmiUQZCPrI+2Mj4CwAfykFGfoHx8hkOzWSD614g4BQgkBkkYlATI91QTIlYwQoEEfkwRoVLJBJvIWoZNdDSQVJ4PMZOeDXCevggYzfZk16hSZw1HuQn334hdraNGqYtzoscX0YthQaR8i0uKMYloaekYcGIatDjvRCU5zyEFHO00hp1hVnu54iy14kS8qjDPaWIXpiuX2/ebNDjnFqY52ohPyMjMU+72hzrDHD4OaCO54lSQRqcMhFUe9ePmnnT3qqAsMAA==");
 
 export default UserBountyHunter;

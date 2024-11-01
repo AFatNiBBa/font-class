@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-arrow-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-arrow-right?s=sharp-solid truck-arrow-right}
  * @preview ![truck-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/truck-arrow-right.svg)
  */
-const TruckArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M416 0L0 0 0 416l64 0c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0 32 0 0-64-32 0 0-64 0-32 0-32 0-13.3-9.4-9.4-96-96L493.3 96 480 96l-64 0 0-96zM544 240l0 16-128 0 0-96 48 0 2.7 0L544 237.3l0 2.7zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM257 95l80 80 17 17-17 17-80 80-17 17L206.1 272l17-17 39-39L96 216l-24 0 0-48 24 0 166.1 0-39-39-17-17L240 78.1l17 17z" />
-    </Icon>
-);
+const TruckArrowRight = createIcon("truck-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiAAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCPwsGAAE2AiQDCAQgBYMtBzgbRwXIhuB5u/+qc7u/HobsAciVMgmZk4CKNuL8X5Pv3fOje57cYocSa6umWUU8n8DEtm+LFBod2KwFfSBOR56NKZWCVxl1YNHhcZYdj0fI4+/sWjWke9KXuONQVfyqrWtJGjIA0QQAU1YtW+Djr+KriC/+f4P4wjwExBRQCGQAOggwXib4I+QK5HLBV/H///IfWBBA1NKjE8hRh0u4DYyFJDV5PqTK7zuXa6r5ynJNaVelWklRjgf6PDPirX7PdbZYOaIUeFrFymYsXbAVQmmbcnlF2PxE23va3N39yXb3tr+v15bN/FQPpGJ+vCfFa1esXNEnesfyMzQx+sWkOfmF1KG+gD5dn23y7O9dvtz5pYc+elgLTFb/7LOXLzdX/WVLKYrJCmwuVN1k0yZ3q07efOnPJnrEZZsNzubPl1269PAPb731w8MiaDyodPDcuYMl34uTFxEE7tMUOz3ZZrA2T+5EU4BAMP7fq49uajz+r/pyAt+8++fv6s3/f5wup2dRL4Eg6/9/f+vTZYAeQDjFSV2DBwokp9RQtVbcKUAoIUBSqyRApr0mAuRK+glQo5MRAtQqWSYTeYPQwoZOJRVHqMxIF6hcC69RNcb7JFSrRWR5qM0i7W9gppkenrGqGDJwcDG2uG0wXWop++K44rGl98k60AegnQ456LgdttvjuEOPWhA94YCZETLDExWGGGiwwljFdPtx/Uo7HHXMHocclGXGKb4P9HYyHt8He6KiQ5UliUhNF1rGgC1Hjx46tZIBAA==");
 
 export default TruckArrowRight;

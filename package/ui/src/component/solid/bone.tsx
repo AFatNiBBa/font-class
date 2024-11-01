@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bone` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bone?s=solid bone}
  * @preview ![bone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bone.svg)
  */
-const Bone: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M153.7 144.8c6.9 16.3 20.6 31.2 38.3 31.2l192 0c17.7 0 31.4-14.9 38.3-31.2C434.4 116.1 462.9 96 496 96c44.2 0 80 35.8 80 80c0 30.4-17 56.9-42 70.4c-3.6 1.9-6 5.5-6 9.6s2.4 7.7 6 9.6c25 13.5 42 40 42 70.4c0 44.2-35.8 80-80 80c-33.1 0-61.6-20.1-73.7-48.8C415.4 350.9 401.7 336 384 336l-192 0c-17.7 0-31.4 14.9-38.3 31.2C141.6 395.9 113.1 416 80 416c-44.2 0-80-35.8-80-80c0-30.4 17-56.9 42-70.4c3.6-1.9 6-5.5 6-9.6s-2.4-7.7-6-9.6C17 232.9 0 206.4 0 176c0-44.2 35.8-80 80-80c33.1 0 61.6 20.1 73.7 48.8z" />
-    </Icon>
-);
+const Bone = createIcon("bone", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABbAAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBUQsGAAE2AiQDCAQgBYMtBysbzATIHoPjbomX8ovI5e3qQSlufLIiiMbS2bsLEFhixSoSsOBIA1okFVK2wkbIlm119d8z7r37EO9DimBSEic2KNSVsqr825jq3qZu/rY/f1rC3/DnVErHWEDF1N/fPP/nUYCPcx8LOw9kTKA5zxPoPO/ybWEgWZgFlBhn7jJqK6J9paVcksdLe/xMUOJbfqmKdJF+AV/aTeMf4ZGkLgOIVgBg87jThu3v+B1xWXkjLjkgIDYBRiEyMgYhWMEUGMQyChRF8DsqFf4HEgggqumRCRRkbAP7ABSQRClbDbSpHOVt9ddPumCcNAjjQ0+hbTyH8G3sMrfZFJ52vWmz90zG7t2Qa3KBIN53pqrSuQrex2/LUCjwrvsLZwWeTOLa9OZZdv/p39WvatpdcN60xc8vmtmkp5ctj1A+2uew/UdWPLot05eCTzgUfwcgELx9EinHLfY/T5jA36//f9yZNtKNWgkEebISNEghgIkIKCkes4MHBZItDHrVRqcChHoESKrVC5ANkEFQ1JuAoMqwFATV6u1jilIndBoOSBrdg2zZFRSdXqDKig+5Wmdkh6Ldgf7PJVQsKndRLBylPC0dnfERsjQLtC16LyXho1FYOXLo3NLCjnODn2prFw5UEFb2IhITFkXy6Nh/Hu5bOnVmx5HD2qaA7ktelzjfR30wAPNPQYo9Urlx53AJAAA=");
 
 export default Bone;

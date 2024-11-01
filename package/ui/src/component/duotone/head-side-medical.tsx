@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-medical` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-medical?s=duotone head-side-medical}
  * @preview ![head-side-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/head-side-medical.svg)
  */
-const HeadSideMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 224.2C0 100.6 100.2 0 224 0l24 0c95.2 0 181.2 69.3 197.3 160.2c2.3 13 6.8 25.7 15.1 36l42 52.6c6.2 7.8 9.6 17.4 9.6 27.4c0 24.2-19.6 43.8-43.8 43.8L448 320l0 64c0 35.3-28.7 64-64 64l-64 0 0 32c0 17.7-14.3 32-32 32L96 512c-17.7 0-32-14.3-32-32l0-72.7c0-16.7-6.9-32.5-17.1-45.8C16.6 322.4 0 274.1 0 224.2zM128 176l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M208 96c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0z" />
-    </Icon>
-);
+const HeadSideMedical = createIcon("head-side-medical", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABmgAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCXgsIAAE2AiQDCgQgBYMtB14bjgXIFkpLUNmssnpGir3ZY+gjIgsY3iNi994CIo8U7xLYmjr1POcBec0GsLnOA7JAQntpBHIekNr0BV7AUq9mNbDuzuZVy7OWpDUS8mvLcalD5wplfFNco0Z6MH2G2/F/AONXvVxD0qYAEB0BsHDTurXeakQjxWfNl4nPrEFALAJZoECBvgLMUQj0VcoolYJGajZpRLOZCSDq8N4FqKOGO/EQoARJSGU5Yvqo1lq7ciMGqm33dBVVELi3W2uA+3tEgPu6V/GEpydHXFwd8eny1vh+7ecbHuy2MO51Rdd7qirEAyNeGMJs/QU3db8vIh7q/c7GTcJO/vQRg17q+NLvAz87+JkvdzXaTzABEbP2jQkmLGfyLu2+4e2x9Gv0tMLx4+2WDH7zHg936PLpa126WqDq1OkJoGbtb7ih/Vtvs1LLvz9Yc/n4nPNiLtwOBIINz0zfuqvDnP9bWhP45ZU//+UfkuZbSXoJLRIIijHNMbYnkAgAQIpLDEpcgUBhjyS9alv3CRAqBEjqKgEKfXQUoFQZLUBNf1MFqKusU4iyjdDVjoIkbZ1BCtNcipS6uojUzPGhU9c1CsNkzYr9FiYtG1q6lSeOm5Bn5WYoc7ZGx/HsPGyNuERpJBx00CknnXfAfkecD5y1ln/BCct68FIflE00zgTZLHk6WUobc84654guzK+ZLe+3R7ik3zwS9kmASVcaKIgURS/zlcf6rjb2pWpjvbyhjyr4NA==");
 
 export default HeadSideMedical;

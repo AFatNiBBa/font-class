@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-from-arc` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-from-arc?s=thin arrow-down-from-arc}
  * @preview ![arrow-down-from-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-down-from-arc.svg)
  */
-const ArrowDownFromArc: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16C123.5 16 16 123.5 16 256c0 4.4-3.6 8-8 8s-8-3.6-8-8C0 114.6 114.6 0 256 0S512 114.6 512 256c0 4.4-3.6 8-8 8s-8-3.6-8-8C496 123.5 388.5 16 256 16zM121.9 357.2c-2.8-3.4-2.4-8.4 1-11.3s8.4-2.4 11.3 1L248 482.1 248 168c0-4.4 3.6-8 8-8s8 3.6 8 8l0 314.1L377.9 346.8c2.8-3.4 7.9-3.8 11.3-1s3.8 7.9 1 11.3l-128 152c-1.5 1.8-3.8 2.8-6.1 2.8s-4.6-1-6.1-2.8l-128-152z" />
-    </Icon>
-);
+const ArrowDownFromArc = createIcon("arrow-down-from-arc", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbQAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBUwsGAAE2AiQDCAQgBYMtBzob3QTIngfZ2eIMWbgoorzBRRHx8P1avee+7p0PQP2ZWQFbAmGBHWKI7FZsKnL0lCJzftW+V4j+9Pfz/FvTB3xGH6lLG+t8lnk+gYkVZZ2PZwOb6QRsu7OlTRLtUmhWJDk+Oz47yOOFLapId1Jcyh8a/2nlPEmWAYiGAJi4fPFcb6ujOuLHSsSPZiMgJoFCIEOGtgKMkQm0lSuQywXVUanQf2BBAFHCcKLn7sSZWAXIQZLyvGvbOlX18mV4Ue3Vf86I+Dog4vGS601vNv9n8of5vyz/a+5PE98tlav+PejprO/LVtxscavZ0sjiVosbzVIsD3rNjaZL4nptzZd1utvw7v9+3PajyqNJ1rO+TNmk0oYNJdNbtrpyZrrpzlxp1dJ0vcGkcplJLiwZOmXxlIMXjRLsURo9lAw9dUvjPG9cngeBYF77A5/XNxhTrlkngX+fH/6KKm+TdBc1JRBkfSp9rEkgEQCAFMd0ShBIJkr4Xeu6KUCojQBJSW0BMm00FCBXW28BqrQ3VICS2hbLRF5LaGptB0ldB0FmmBMg19QzUGWML2lJ08gsirMH7kOXPE1CU6cVA/sNKEYV07LKGwkTx0cX23aPY76tJyy0zX77HLHVFjsdEeQhc4uj9pq2Iqb6osJA/QxQGKU4rq1nL7PVIYfttN++NMloxX2/h2Pr3j3BS5hykCVJIlKTjYcO7T/e950pfZ9f0nfjoc0AAA==");
 
 export default ArrowDownFromArc;

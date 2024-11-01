@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `recycle` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/recycle?s=sharp-thin recycle}
  * @preview ![recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/recycle.svg)
  */
-const Recycle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M219.4 0L224 0l64 0 4.6 0 2.3 3.9L399.2 179.3l15.8-77 1.6-7.8 15.7 3.2-1.6 7.8L411.3 200l-1.8 8.8-8.5-2.8-91.4-30.4-7.6-2.5 5-15.2 7.6 2.5 68.2 22.7L283.4 16l-54.9 0-66 111.1-13.7-8.2L217.1 3.9 219.4 0zM419.6 245l13.7-8.2 69.5 116.9 2.4 4.1-2.4 4.1-39.5 66.3-2.3 3.9-4.5 0-211.3 0 56.3 50 6 5.3-10.6 12-6-5.3-72-64-6.7-6 6.7-6 72-64 6-5.3 10.6 12-6 5.3L245 416l206.8 0 34.7-58.3L419.6 245zM116.4 173.4L42.5 197.9l-7.6 2.5-5-15.2 7.6-2.5 91.4-30.4 8.5-2.8 1.8 8.8 19.4 94.4 1.6 7.8-15.7 3.2L143 256l-14.7-71.4L25.4 357.7 60.2 416 176 416l0 16L55.6 432l-4.5 0-2.3-3.9L9.2 361.8l-2.4-4.1 2.4-4.1L116.4 173.4z" />
-    </Icon>
-);
+const Recycle = createIcon("recycle", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCZwsGAAE2AiQDCAQgBYMtBy4bZQXIhof/11ne9yWNZ+Vle4G1DBAgKnPSUdEAQcdUTaYNceX/udzze350Pr/RoY21QBb4XWs/73kYcFF+1ODyNLBME7AWt10FEQ1xhEQPebzmlIL0QPoQ94QPjR8NcCdJlgGIngBYvnfnZm93REfEB60XiA9sREAsB5VAhgyDBVgkExgsVyGXCzqi1RL/gRUBRJvkfRLIUeBuPALIQZLl+cTJk+tFt3xPvSgP1st6n9gde6Nf9Ilm7Ipm9I090Xes7G6Vcq723Yt392vm0oGkLLf30kHpMr4t6rHy8MSuvbuai9ZukuyK5dsKKl17/YhHez768/APz3zo+7eKYkPD2Sf12KSvTjWNw9rd7sAQl9viMiv7OvmgOZZf7BsrL9d49693kqtWX6mhYexyDfmXt9nlMbusXeq00xU/PnmbT4y34tKpa9f1T7XLXnvwwFCX6adxRE2nfrqvceZx412pp2sL/ZyG858HAsHWHy7pONpj0d/t9QQ6X/31x/pnVGt9FP+nR9EugSCb1JrkUKKmFv8LAECKq41I1ASSu2SSR7q6V4BQIkDSpuwhM0hPyJUmQmGo2T3alHbKRN5FaDqsh6SryyAzx02Qa3oOCou8U7ZpRgabPGTxv4Ypa8bI6mPV9CnTqgXVZqsVwI21uwur0864q+XMeHzRGZe42JVOO+U8V46wy21urnKRNXvoal9UmW6KaSoLVLeHz5U9o/JyVzhvXbq/z0LV+8U4V+8vH4/9JGGc4UySiFS7/PQnAQAAAA==");
 
 export default Recycle;

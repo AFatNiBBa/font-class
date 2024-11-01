@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `taxi` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/taxi?s=sharp-duotone-solid taxi}
  * @preview ![taxi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/taxi.svg)
  */
-const Taxi: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 432l96 0 0 80L0 512l0-80zM109.1 224c11.2-32 22.4-64 33.6-96l226.6 0 33.6 96-293.8 0zM160 0L352 0l0 64L160 64l0-64zM416 432l96 0 0 80-96 0 0-80z" />
-        <path d="M120 64L97.3 64 89.8 85.4 41.3 224 0 224 0 432l512 0 0-208-41.3 0L422.2 85.4 414.7 64 392 64 120 64zM402.9 224l-293.8 0 33.6-96 226.6 0 33.6 96zM64 320a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm352-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Taxi = createIcon("taxi", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhQAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCMgsIAAE2AiQDCgQgBYMtB0QbSAXIjtRG8xmZeHh+rs9zX/IpM4ucBUaFzCX037aq7IiEWZBFVT31+v/HvTv/558+4DP6KGMOHk3qwr00gQC7aFueaOCZZmCZW+Me6kMYA4WKNiyHjR6/9Xj2gjz+yG6qI72bfsIT+h/A+EsXN0maMgDRGgCz16xY5JsX8SLFT7VPiZ8sREDMAaVAhgzdBZgmE+guVyKXC16kWl5EbUkAUY8+KQP1KHAKtwA5SHJ5nndqateuqdrUVKlrka+u1BUbikrROVZGEaJVRBSxOrpGsaraoromKrFq67VOEW9XHnR409X2bxT3O74VO8RGRCGmRL4QlaIiiog173eLaOSjLKprLrR1++k+za2b/+n90+6fnLnSiW/sNOq+wX7DbwaLpp06FR8PQN57i1d62/ItLe9yt2XqyHu29BoDrbfS+aW2Wnrw1ztnOHPHmRsw5vk3aJ3lG7NqzPeBQLBp6Rd7t7Sa9n9jJYFXn/335/ZDUvsmSc1olECQDasNszGBRAAAUpzWJwGBzAI5flb1lgCh4ISkXgGZblpDrjAU6vQ0nlx8YoVM5E1Ce5sASdUxyExwCXLtfQJ1pvm2rNc+shBkAoj5AUxcoJH5x8rRI0aVU8ppx8FGFVU3p5bL5qDTZWIwrtrtiMNO2mWnfU4q7LhFtVMOWWCh831RabQRRilNUbr7j+JqVR53wr573n/IVOX76SCn7fmD4SSMO8azTEakyKont53dNzyS5ZaC/2ABAAAA");
 
 export default Taxi;

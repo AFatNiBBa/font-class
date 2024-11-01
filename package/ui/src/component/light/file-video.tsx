@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-video` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-video?s=light file-video}
  * @preview ![file-video](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-video.svg)
  */
-const FileVideo: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 480L64 480c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l128 0 0 112c0 26.5 21.5 48 48 48l112 0 0 256c0 17.7-14.3 32-32 32zM240 160c-8.8 0-16-7.2-16-16l0-111.5c2.8 .7 5.4 2.1 7.4 4.2L347.3 152.6c2.1 2.1 3.5 4.6 4.2 7.4L240 160zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-284.1c0-12.7-5.1-24.9-14.1-33.9L254.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zM208 288l0 24 0 48 0 24L96 384l0-96 112 0zm32 96l0-.4 58.1 23.2c4.9 2 10.5 1.4 14.9-1.6s7-7.9 7-13.2l0-112c0-5.3-2.6-10.3-7-13.2s-10-3.6-14.9-1.6L240 288.4l0-.4c0-17.7-14.3-32-32-32L96 256c-17.7 0-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l112 0c17.7 0 32-14.3 32-32zm48-15.6l-48-19.2 0-26.3 48-19.2 0 64.7z" />
-    </Icon>
-);
+const FileVideo = createIcon("file-video", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjAAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCWgsGAAE2AiQDCAQgBYMtBzEbWwXIhofvdb6d+yR7HOkzKIC0gEBVugXul1uEyiOnxhsvFfBZCYryL37t51J3T3wCE1vqO5eX4Xxg0wna9qYZ66jYk8lMNKmOb3Rc7SGP82OOGune9Alulg+NHw26giTPAEQHADbuvfuONn0X30V80nyT+MT2CIjNQCWQIcOIAGtkAiNyFXK54LtoNuk/sCKAqOP3TSBHAzfhHkAOknqej7WMtM6aUNZa873KWnFoS2vLdX13RRaX9t9dliHu7b1zahkpLum5o9jvrr6IO3v3xNcUez0xI+KZgRT3znx2ams8Pfv54Swu7dsr7iqKfQUhiogo94yIbePO/rsjPO+unm2ktSjiup47iEt67yzLuB4eW75q5aqI1WHScx3P/Tzxk6M+sX4cbddc03ZJwZwi+/SrBQp75s7rv2s72YJJp59uUvcpLz/8SCedxSWKzs5HIJLiET1fO5Wvex64eXyAH1lgwCkOccr4wbjLaUcc0ThF44gjTrvrnHJKGz9EzeYf+Kwhf9gABIL/v/xo/OD2NX83ygR+eO/Xv8nFzU1xSXoODQkE2ZzmHAfEJYD4AH5SirNMiksQSK5Sx4+0uEuAUCBAUlconBnWAecKs+GaMUv3qCvsLhP5BKHHgRROWpwKZ5a5EM71eB2uWeP9pK4nsqhkY4r9EyZtZYEtt1UL5y2oVlXTRucCjc7rq6tla8ZZaWwmtDrKyU5yhiMd4VhnGOg0O+ZnOtFWHrilL6osNM8ClVWq7d7j7r0c6TSnO9bJTqqbrFbd92c4y589E9yECRepJYlIxQNQ5oYqAAA=");
 
 export default FileVideo;

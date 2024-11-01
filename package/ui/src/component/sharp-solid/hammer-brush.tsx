@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hammer-brush` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer-brush?s=sharp-solid hammer-brush}
  * @preview ![hammer-brush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hammer-brush.svg)
  */
-const HammerBrush: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 0L144 0C64.5 0 0 64.5 0 144l0 16 80-32 32 32 144 0 0-32 32 0 0 32 64 0L352 0 288 0l0 32-32 0 0-32zM96 512l128 0L208 192l-96 0L96 512zm320 0l32-96 32 96 160 0 0-192-288 0 0 192 64 0zM352 256l0 32 288 0 0-32-96-64L544 0 448 0l0 192-96 64zM496 64a16 16 0 1 1 0-32 16 16 0 1 1 0 32z" />
-    </Icon>
-);
+const HammerBrush = createIcon("hammer-brush", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbAAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBeQsGAAE2AiQDCAQgBYMtBzMb/ATIngVO2TyCl8wjtNC8nH814ZNURPC19tlvdvbDzAG5Y0kKFQvNSVQcKdboCVSMj467RPits9FR6P//2LwPqWaJB0nUZ2ZtzaJoXabuLPOX1hIh//5R5WVWeO8T19SP86cHrHaqWFt7NM4yzyew84FkCu9mA5sobnc2C0nJoSQkG8lxacfnCjl+Ny+oSZ/T4GX40vjJ7g6SYQMgJgDA0fnkMEQXXcTl/18gLg2CgDgCLCE0aDCHwC6lwByVJZBlQRf/pfkPZAggeuK7JJDRxw1wF0AGSZvz8nB8cljb0XxW23Kj1PJtNwadx0rUiKhBgQUo5Ita6vUoudHzk9npKThSUc+Q0SZwtqYQx31avqwf5neTq6vr9p3vfIfsncUNf4/mdBhdhMQz1vmyb+Ua/SKfqPQ41qTkoWMVVQoUFUL5QDJWg60eQFhzstWDp16nGevYAPHYm6vzH6vju78GNYGrr/vyy/9FepIEAwkEzfp/v6X0BDBCAnIpHnMx8kByTN0cP3XEBwRCQYCkpwjQmKVDICvWEGgtSCDQUxxTijwUZixXLBlxD2vsuMWyGT9Ya9d/tmcmGiEzRMT44+U2e7ixiCPBMGeZrCmm3Gh+NsfbEfeN7fHASuw4deLKti37rjr0wnDh2rEmhzT8EIsICmNZfNx8dGcwe+HS/tw4B8yTw/dTbjf8cA8sRwHYeB4grYs0cuvm8fH2RWDj4vpyDwA=");
 
 export default HammerBrush;

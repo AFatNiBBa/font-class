@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `display` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display?s=thin display}
  * @preview ![display](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/display.svg)
  */
-const Display: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 16c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-167.8 0-.3 0-111.7 0-.3 0L64 400c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l448 0zM64 416l158.6 0-13.3 80L136 496c-4.4 0-8 3.6-8 8s3.6 8 8 8l80 0 144 0 80 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-73.2 0-13.3-80L512 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64zm161.4 80l13.3-80 98.4 0 13.3 80-125.1 0zM80 80l416 0 0 256L80 336 80 80zM64 80l0 256c0 8.8 7.2 16 16 16l416 0c8.8 0 16-7.2 16-16l0-256c0-8.8-7.2-16-16-16L80 64c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const Display = createIcon("display", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhgAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCOAsGAAE2AiQDCAQgBYMtBy4bNgXIHomxrYj9GNNrEQ/fr/V57ns9s/sbFrEXgQJEKt8FFRDKuLADLI9Tsaiip0L087UWeP6v+fyq6AA/H8GhRVLa3YILsOv5BAY82qiCtufRNpxNFGftJPUGpTNIksTTZ9jeMFpBEb+4Rof0QvoBj8UPjb9M9ABJzgBiBAB2nDt1xFe96EX80I/4wSEExE7QCmRkTBFgsywwRaFFoRD0ot+n/8CWAKILZHLaAkNwPx4FFCDpFMXMpQMDo6pOU5ytOuX174yNeGZiiufHPD27jAh3a++Oe3ZSjpfGPzevuaYqq9NRxtNjnhlbVc+Nf3ZcGWejivcWfTQ5x4sLP5xbx9vz35+Q4oUFH8w5c+70uSrORHlRUzcp6shlykmEN2Hn8Eeq4+kxMz8c8eE/frjuB33Lf+XH3Mo//rr8fdyB9000in/15WOvYVRzzAFXdLtXHO/lMQfUx7zq9ZEjy1Zp+l//qgWvH2uSddVGfPDx117HVF5nBIb1XtcbphwMgeD44M+XXT588/9DqwT+/OS/zN790/b0IYZKIMiL+4tdkrYDCQNIprjPTOaLAsk9OvCutWcFCCUCJF2lANlkIwQolBYJ0DHNGgG6SqdkUQwIY1zaQFK7E2RrDYLCGB+Djs2+TnSNiayEigopX8DMvT20Z1i7YunydmO7zKuqXkmhf1N77My/z9ctsBNd53a3uce1rnGjezr+LkfS97rVXo7b44daKyy1XGujVlx6NM+65F3uduNckw+ySXs/Mt99fOsF1k8gulJGkog05JkCAA==");
 
 export default Display;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `democrat` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/democrat?s=duotone democrat}
  * @preview ![democrat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/democrat.svg)
  */
-const Democrat: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M192 320c117.4 0 234.7 0 352 0l0 32 0 64 0 64c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-64-160 0 0 64c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-64 0-64 0-32z" />
-        <path d="M64 32c0-8.9 3.8-20.9 6.2-27.3C71.2 1.8 74 0 77 0c1.9 0 3.8 .7 5.2 2.1L128 45.7 173.8 2.1C175.2 .7 177.1 0 179 0c3 0 5.8 1.8 6.8 4.7c2.4 6.5 6.2 18.4 6.2 27.3c0 26.5-21.9 42-29.5 46.6l76.2 72.6c6 5.7 13.9 8.8 22.1 8.8L480 160l32 0c40.3 0 78.2 19 102.4 51.2l19.2 25.6c10.6 14.1 7.7 34.2-6.4 44.8s-34.2 7.7-44.8-6.4l-19.2-25.6c-5.3-7-11.8-12.8-19.2-17l0 87.4-352 0-40.4-94.3c-3.9-9.2-15.3-12.6-23.6-7l-42.1 28c-9.1 6.1-19.7 9.3-30.7 9.3l-2 0C23.9 256 0 232.1 0 202.7c0-12.1 4.1-23.8 11.7-33.3L87.6 74.6C78.1 67.4 64 53.2 64 32zM260.9 210.9c-.9-1.8-2.8-2.9-4.8-2.9s-3.9 1.1-4.8 2.9l-10.5 20.5-23.5 3.3c-2 .3-3.7 1.6-4.3 3.5s-.1 3.9 1.3 5.3l17 16-4 22.6c-.3 1.9 .5 3.9 2.1 5s3.8 1.3 5.6 .4l21-10.7 21 10.7c1.8 .9 4 .8 5.6-.4s2.5-3.1 2.1-5l-4-22.6 17-16c1.5-1.4 2-3.4 1.3-5.3s-2.3-3.2-4.3-3.5l-23.5-3.3-10.5-20.5zM368.1 208c-2 0-3.9 1.1-4.8 2.9l-10.5 20.5-23.5 3.3c-2 .3-3.7 1.6-4.3 3.5s-.1 3.9 1.3 5.3l17 16-4 22.6c-.3 1.9 .5 3.9 2.1 5s3.8 1.3 5.6 .4l21-10.7 21 10.7c1.8 .9 4 .8 5.6-.4s2.5-3.1 2.1-5l-4-22.6 17-16c1.5-1.4 2-3.4 1.4-5.3s-2.3-3.2-4.3-3.5l-23.5-3.3-10.5-20.5c-.9-1.8-2.8-2.9-4.8-2.9zm116.8 2.9c-.9-1.8-2.8-2.9-4.8-2.9s-3.9 1.1-4.8 2.9l-10.5 20.5-23.5 3.3c-2 .3-3.7 1.6-4.3 3.5s-.1 3.9 1.3 5.3l17 16-4 22.6c-.3 1.9 .5 3.9 2.1 5s3.8 1.3 5.6 .4l21-10.7 21 10.7c1.8 .9 4 .8 5.6-.4s2.5-3.1 2.1-5l-4-22.6 17-16c1.5-1.4 2-3.4 1.4-5.3s-2.3-3.2-4.3-3.5l-23.5-3.3-10.5-20.5z" />
-    </Icon>
-);
+const Democrat = createIcon("democrat", true, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAAB0wAAALKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHCEJQsIAAE2AiQDCgQgBYMtB0wbQwbInoWx26IYJoTorBj38h/tolw8PD/35bl5mT+EajELCORWQVvZagThgGwd2Q48PWvtz5wZIt5oJvVoIlZJJLiG1LVG8kg0ifc6Yo0kIS5swDUs6iMNWodsxs6buKZ+ABdGCr4/Si6qdI3DTI4C2Q1wuPnAy+eFOh057XLb5ojr9YdQ7Ax51iNdxUf2Sn8ED6z/AYy/KOQqZCoTgGgAwKSRJfN8+p1vlR/djxA/0g8BMRkoCCQktCPAWJJAO3IF5HLB7+qK38W1AgFEiXPvBEoox9/gfwA5yOQiz6c1NPbsW11Wmy+P+KrW2Pl25E5uZ0wIfMDMdXKMnCExIzj8VW8jVkplRp6V1xT+MaImlouV0xJPw1XxpiVTlMofkbKsHLLCt3MKomuEaSO3NlLBxVwzvz5knLalTWDiRZ4V7j76ihHmIO1ZLL0fifBxIbwXc84E3N6WiKqy5vz4O7+fcfZLejlN90Fido4vNf7EG5mespY5cc8HZwPJGW7Gfqr4nmtld7T43dFdew2cPhxhIz2muP8jz5lq4d+b/XFyyrHN3fVP51me1PSEDVKWNdUbRmrsVMxmNkVlYxqmXpNm6QhP1nXILsjyHNXlyrndGl2JHymYKHJ1N3fihTlrIq/Ll5lIAQgEA/uOz2YSHf9VVGfgz4v/md+j1mUpfR9UyECQ+rb2Za1uQ6t6CQEAZHGcznoRfIog+Rgv51FrPEdAqEKATEmVAElbGgiQq9KHAGU6MIwAJVWWkEReKbSwLmczNQ6xyXDOsbkWPmTLjOWbbEmLJNjXIVd/9MwyvQxP21c09x9YjC46q1IDOKv69JhitKfhuOzqhU/azgH2c5RtbGUXR0vIYeYVjrGP6X3iaZ8tGER/BlIwmmJ247pleSl7mCPsajfNX2QMxfqJnhzvH9wL+zOO5GCeSBKRRWr4edLR7yZyNVVMlws=");
 
 export default Democrat;

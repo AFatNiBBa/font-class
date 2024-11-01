@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-g` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-g?s=solid square-g}
  * @preview ![square-g](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-g.svg)
  */
-const SquareG: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm80 224c0 44.2 35.8 80 80 80c35.8 0 66.1-23.5 76.3-56L248 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l80 0c13.3 0 24 10.7 24 24c0 70.7-57.3 128-128 128s-128-57.3-128-128s57.3-128 128-128c32.8 0 62.7 12.3 85.3 32.6c9.9 8.8 10.7 24 1.9 33.9s-24 10.7-33.9 1.9C263.2 183.7 244.5 176 224 176c-44.2 0-80 35.8-80 80z" />
-    </Icon>
-);
+const SquareG = createIcon("square-g", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbgAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBUwsGAAE2AiQDCAQgBYMtBy8b0gTIjpQuZyTx8P92/7XPrXq/AVUDUtYZyLAHUJDAKaMJZ70Kwf/z9uc7Hw3wgci2flgeyM9G0fd7nkDneRf+wAPKAss0AI8h3aYyyCMK3wgJkoiOqzy+DsjjZnZCiXQ9fYez9abxpyZOkFTJAERtAIxeOHe6j36L3yK+Lb9OfGsqAmI0KAQyZGguwDCZQHO5Arlc8FuUy+kfWBBAVFAxgRzfYCbmAXKQpDxv2r1aqUa+oFqp6tJHnSKeNU5xvfPz9jXiadeXzbK40eVFh+rzb3eOeN7/ZMenzarGk6Y3O1aLx03uDXtv3BcjPmjzcOSHEz8ffLnxpQ4vOrzW6VnzNi9qv/jbdxu+M/LuvTrUqTpK1Tp17o1yr05fM/PXWMD62s1mjjjUz+wGDWbPgqfUb+ysWWP7leTk2j3//fj/5nN+q71+QQCBYP9P37ddWWvYf5WrJfDHO/9Gb1H5t/govUBlCQRZt3I3y+IjiI8EACDFAW3iIwSSiRK9anVXBAhVESCpUFWATDO1BchV1VWAkpb6C1ChqrkykVcR6lsOSKrbDZkBjkOuvldQMsyXVoX6kUUUjwf+oUubYNH4saJ3j17FkGLqa1KQ0NwfWizrnQ5IrjMv2mCnHfZZb53N9hmyx3R3v+0meHi8BxV666GXwhDFdvQ4v8B6e+y12U47ypChivNmJwf86s48TQL0uQshEanyqzS6bwQA");
 
 export default SquareG;

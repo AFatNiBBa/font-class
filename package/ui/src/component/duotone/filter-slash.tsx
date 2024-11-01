@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `filter-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filter-slash?s=duotone filter-slash}
  * @preview ![filter-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/filter-slash.svg)
  */
-const FilterSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M81.7 38.8L406.6 293.4 567 97.3c9.8-12 11.8-28.5 5.2-42.5S551.5 32 536 32L104 32c-8.1 0-15.8 2.4-22.3 6.8zM202.5 255.5L256 320.9l0 79.1c0 10.1 4.7 19.6 12.8 25.6l64 48c9.7 7.3 22.7 8.4 33.5 3s17.7-16.5 17.7-28.6l0-49.5-181.5-143z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const FilterSlash = createIcon("filter-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABagAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBLAsIAAE2AiQDCgQgBYMtB1Qb0gTIjtRG91MG4uH/7f5rn1v1XgOqhhnRHjB2JERUOuFfnY5RmZ/7OXWqZpyHAvggiWDQxsKlAVkYn/M8AhHI5lkr1YoFq9UUq9vMy0MYvhFSJSEdT9hxtkOeemYXVUiPp89xB/8DGN9o4yJJnQxANAbA5CULZnm7JmpSfF6+QnxuJgJiCigEMmRoL8A4mUB7uQK5XFCTypKaKMuCAKIKz85AFRUMw3RADpKQ8rxBwyb1Kg3yxXh73RWPdt8XD7d+qMf+eKTdinXr1y2JJ9s+0aN+XG++aNHiReJsi1nxcM9n2kUs7vJ84+e/6/z55s/lr/3Qd85X/n+JDfMem/YftnrP/UeeOvuC+o8c/XrYpPLqORp/Uvq7Vp002Cu3gUDw3MAeDdc0Gvdb7XoJ3H/rh1/kwVJ5upKeR20JBFm/sp+V6awDIQmACCkO6/Jd5gtkOkn0U+t7RIBQFwGSqroCZNppLECurr4CVHQ0XICquhbIRF5HaG5VA0l9+0BmhFMg19zLoGKcj4yq5pHlD3v77O8taYZFp/cVgwcMKsYUS1flUoKW9thiW+51mFO9adVme+x20CYbbXPQ4PvNsg/ZZYaHTfdDhcEGGKQwRhEO7qXFxtjvgG1zId5lrOK83sthv7g3aYlSDjGQyYgUWfPMcvY/sHPdga39UzHbciC8OgAA");
 
 export default FilterSlash;

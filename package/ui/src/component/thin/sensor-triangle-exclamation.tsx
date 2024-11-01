@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sensor-triangle-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-triangle-exclamation?s=thin sensor-triangle-exclamation}
  * @preview ![sensor-triangle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sensor-triangle-exclamation.svg)
  */
-const SensorTriangleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 48l320 0c26.5 0 48 21.5 48 48l0 33.8c5.2-1.2 10.6-1.8 16-1.8l0-32c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l161 0c-.6-4-1-8.1-1-12.3c0-1.2 0-2.5 .1-3.7L64 464c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48zm32 56c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 176c0 4.4 3.6 8 8 8s8-3.6 8-8l0-176zm64 0c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 176c0 4.4 3.6 8 8 8s8-3.6 8-8l0-176zM275.7 453.7l150.4-265c4.5-7.9 12.9-12.8 21.9-12.8s17.5 4.9 21.9 12.8l150.4 265c2.4 4.3 3.7 9.1 3.7 14c0 15.6-12.7 28.3-28.3 28.3l-295.4 0c-15.6 0-28.3-12.7-28.3-28.3c0-4.9 1.3-9.7 3.7-14zM412.2 180.9l-150.4 265c-3.8 6.7-5.8 14.2-5.8 21.9c0 24.5 19.8 44.3 44.3 44.3l295.4 0c24.5 0 44.3-19.8 44.3-44.3c0-7.7-2-15.2-5.8-21.9l-150.4-265C476.5 168 462.8 160 448 160s-28.5 8-35.8 20.9zM456 288c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 96c0 4.4 3.6 8 8 8s8-3.6 8-8l0-96zm-8 160a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const SensorTriangleExclamation = createIcon("sensor-triangle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABowAAAKQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCbwsGAAE2AiQDCAQgBYMtB0IbgQXIjsQ4JvGLKEzi4Xm9/37tk1znDZmRVEH4lCqyk+rvUqXQEyHv+ub/mnrx/OgAv12LHsr1gjqpPCKf7/lwOIzWKILZcDaTCfgWt90MMQtxhHIaF8jjb/tUSHenj3Fj+Kbxk54uI8kyANEBAAs2rl3j3e/iu4iP/3+J+NgqBMRCUApkyNBHgNkygT5yJXK54Lv4/3/xH1gSQFTF9yWQo4Hb8TjTX0xSy/PxRdGjR9FoVdryDa1Kc2tb0fZ419t7ijtbEfeMfGZoEY8Nf6pHirtHPD2kFXfExdGMJ7rd0SuLe7vfOWzCHd1u6yJu73pn92h16Zu3btp6Z+varpt1pou63NYs4ppu1wzd50ybbpswut7eaotru985t9uWuGfoYz3WE/26TBoIYvHAZzo884sfH/jYvBvnx4fHf/VJNtDJ9VKzY8eH5nuogJoSyXpYpZrSQzbXz5d98tX436u7dlWfRdD5qMip22+vJ6Hz2rU7D3NNqRdnnlkMF6tPubLDyqmbi84fvclwnd/8iGLz7XUvnHTSC6OOnLbuQly1B7/Dxu8cEYj7rpj845c728/+td5K4IfXW/X0/++mi9IzqEsgyEb/P9q2dBFQegCJFGcYuPFBgeR6NfGrFu4QIDQRIKlqCpDprYMAuaZRAlT0M0WAqqa1MpE3hC62dyApnAwyU50Pcl28ACpmey9e1SUy+FSgS/k8zLB0iC6ZVU4YO76cWa6WNSrISXZ8VnnYPPwM2TYCH3XAiU5wmv32Oey0AX6KNanTHbd0C1vii0oTjDVeaabycu3p/g32O8WpDjvRCcEks5TP+4c7Y7v3CGxLYt6JcpJEpN6+W94TTxnj8TZ9wsFj+8f8/cK6+/h7BwAA");
 
 export default SensorTriangleExclamation;

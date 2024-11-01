@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sack-xmark` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sack-xmark?s=sharp-regular sack-xmark}
  * @preview ![sack-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sack-xmark.svg)
  */
-const SackXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M382.9 48L360.2 80.9 333 120.4c8.2 5.3 17.8 11.7 28.2 19.4C422.6 185.5 512 274.8 512 416l0 48 0 48-48 0L48 512 0 512l0-48 0-48C0 274.8 89.4 185.5 150.8 139.9c10.4-7.7 20-14.2 28.2-19.4L151.8 80.9 129.1 48 96 0l58.3 0L357.7 0 416 0 382.9 48zM464 416c0-139-102.9-220.6-156.9-255.2L293.3 152l-74.6 0-13.8 8.8C150.9 195.4 48 277 48 416l0 48 416 0 0-48zM286 104l7.5-10.8L324.6 48 187.4 48l31.1 45.2L226 104l60 0zM209 239l47 47 47-47 17-17L353.9 256l-17 17-47 47 47 47 17 17L320 417.9l-17-17-47-47-47 47-17 17L158.1 384l17-17 47-47-47-47-17-17L192 222.1l17 17z" />
-    </Icon>
-);
+const SackXmark = createIcon("sack-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhgAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCQwsGAAE2AiQDCAQgBYMtBzEbRAXInoWx46Nkn+qW8BLxRxNBvc23nqeVyhYYcW3+vDKgwIyHgBFmBBFiBhzdOfx1KYXABcnMYHDHg06rLQSvV8j75el5zkMBfKOgJZ24tCALfM7zCvS8vjheoQjVtCBS5arbWLlBLqtHjuARMcSFpoAs3g/KpCdSPDykip9MdQdJuQQgxgQA648+uNsnwzEc8eX/bxJf2omAWA9ygRJOZgjQUhKygEyOTCYYjv//939gTgBRwQ+aQIYKbsdDgAwkWZb1VKMny43sqFq5enb/UH9/PDLxpfaHzVcPC1GtR0T8sPT17sd9j00ejEEdtUZrvl8S8Von4qPeSVGNCV5sfVC8ckg0Io6bPGHyUFRjwES1Q+1Ouxt92hZraevR0qujZbGOPl0dvbp6+uUxL//iq7O66eFTTjnleW//ffMn3nmFLYVC8V2hYMsVd06c/9vfbz/vFKOtqYzed7FNr/F0k+KTI3Y44pOi+fRrNhWeVLy68rrrrvvZff5xntauu37l1hiLX8V9EAhOv/358SePbu2IWgI/vjd7i/7/JEkvY4QEglL/9zshgUQAAFJcZW6CQHK9DGWte1SAUEWApKIqQMl0YwTIVPUJUDbLcgEqqg4qiWykMMGJE5K6S6FkhRshM8HrUNbyqV8xIUpKVHSkfAQzt2S0eS1vDhb5mnwbC1VcrM/X5sfW4qtarQenznKxi1zhTGc41xWJXGZ3dKULbanwZg/KNQ0q5NbIr7PX/aOc6TKXO9fFLvIla+XvvcWuqrt74CakLnGRJCJVLz/19PMHrhEt");
 
 export default SackXmark;

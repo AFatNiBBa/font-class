@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fondue-pot` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fondue-pot?s=sharp-duotone-solid fondue-pot}
  * @preview ![fondue-pot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/fondue-pot.svg)
  */
-const FonduePot: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M64 224l0 16 0 64 0 16 32 0 0-16 0-48 32 0 0 16 0 16 32 0 0-16 0-32 0-16-16 0-64 0-16 0zm160 0l32.5 0 15.3-61.1 15.5 3.9L325.1 15.5 263 0 225.2 151.3l15.5 3.9-16.2 65c-.3 1.3-.5 2.6-.5 3.9zm80 0l35.2 0 40.3-60.5 13.3 8.9L484.1 35.5 430.9 0 339.6 136.9l13.3 8.9-46.3 69.4c-1.8 2.7-2.7 5.8-2.7 8.9z" />
-        <path d="M64 224L0 224l0 96c0 52.3 25.1 98.8 64 128l0 32 0 32 64 0 0-32 0-3.2c10.3 2.1 21 3.2 32 3.2l128 0c11 0 21.7-1.1 32-3.2l0 3.2 0 32 64 0 0-32 0-32c38.9-29.2 64-75.7 64-128l0-32 32 0 32 0 0-64-32 0-32 0-64 0-32 0-192 0 0 16 0 32 0 16-32 0 0-16 0-16-32 0 0 48 0 16-32 0 0-16 0-64 0-16z" />
-    </Icon>
-);
+const FonduePot = createIcon("fondue-pot", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABiwAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCbAsIAAE2AiQDCgQgBYMtB1AbjgXIhuDL1mu/mb1f0q7gRDxCIgNQBoSpQ4LIkTLTRYZQnJkgvr8/9TxrUQCfUZDW7Bw+tv0rzXlegYpMbwHDIahpDayL266CiIY2QuQNVfyQn9AivZs6eDn8D2D8aoQnSHpnANEGwPqjB3c7cyEupOh0vyQ6diEgNoAikJExWoBVssBolYJKJbiQul0uRLdbCCB6BDYLe0jsb+E9QAWSkKtq+5jBg5tW3+pI06qP1k0tHpn90XQhmoiIeLNp4vlhxuUP5n5C1YVW1H2Exur1umfi6NjxsyZwI6JumgydGEPiaGyJQ7VqM2+YYxupPRFNeL/9/u/jOzd0rD2/bt26q0zj56JYp8guDXjEgEt5PFT8zDTqllFnXVuRaxKbh7at07b2fDuE6yb+PDJ+MLVvPB35zWWT33K+QP/Vf51I+ybieJ73tRNP2+jEM74xe5OJLSAQ3NA5+92V/Vf936tJ4NJXf/4i/o66Z5L0PnpJIMizurOcSiARAIAUD5iQYJ1Atl2Go+rjLQFCjQBJj1qAbJR2D5XaTGgZa7F28vZBWVS9hcFOY0j6uBuyJR6EymBfQMsqX7d6DI4MnwZ0GX+HuVvG2OZrZf6ceWVF2RxrTZDT7PnKcjo97QG5Nh2/dIM73eE+17vOze4byffY3b3f7bbsSZt9UTHfHPMUK5Tbs+ePj7jePe51szvd4S9Zqbxfn+aB/d3TcS5JFBf4LMtEijzwhjvvuO7+62ffded9syF9ffDU/qYBAAA=");
 
 export default FonduePot;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message?s=light message}
  * @preview ![message](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/message.svg)
  */
-const Message: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 384c17.7 0 32 14.3 32 32l0 48 98.1-73.6c5.5-4.2 12.3-6.4 19.2-6.4L448 384c17.7 0 32-14.3 32-32l0-288c0-17.7-14.3-32-32-32L64 32C46.3 32 32 46.3 32 64l0 288c0 17.7 14.3 32 32 32l96 0zM0 64C0 28.7 28.7 0 64 0L448 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-138.7 0L185.6 508.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3l0-48 0-32-32 0-64 0c-35.3 0-64-28.7-64-64L0 64z" />
-    </Icon>
-);
+const Message = createIcon("message", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABagAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBXwsGAAE2AiQDCAQgBYMtBy4b3QTIjsM4hvwSSxniJeLhe12v5z7JpDWDTEQVE4ahC3fcFH/SZlK63mSufT85Ld54qYBnVJSxcWlBFuBe8QpUbGN9ijUP9qYvYK/bZAl1hOEXEVIkEh2nx9cOefwY/dQiPUv/4E770PhPGxdJ8gxANAbA5CUL5vutJmoi/qlG/GMuAmIKKAUyZGgvwDiZQHu5ErlcUBPVav7/KwkgahObBHJ6wUKsAOQgSXneo0elVoN8caVWseRGi4hHxJJ4UqnEjVZPIotzLR8X9eN684dSnG3xqFJZ/qJvxOc9G8SHvT9tk+Jpr0+6FbEwHrZ8HHiqKD7q81nbrMtnjT/7v7PNvJnY8CpXGw6ybrZLxQ0Nr15tWFL27BTWeiaKJjR556x3mjQpSkykrRuOr3TwwoVikFI5aXscBIJqh69Wr2k07m3dSgL//vBb/VdU/SVJn6GuBIKsX7WflQkkAgCQ4rAuCQLJPIls1vdYgFCAIKmtgEw7jSFX6Au1dDSccm4skIm8ntDcKoCkvn2QGeEU5Jr7HmoZ53e9tuaRxRUTFcy3LnGGRqYPlYMHDCrHlEfPYEOFqt2xpVvqdbhkemPWZnvsdtAmG21zUGH7zbcO2WWGhU73RaXBBhikNEZ5Hb6OL7bJfgdss8du7jNW+V7r5bBd3htqIrhD2JJEpDrRBgA=");
 
 export default Message;

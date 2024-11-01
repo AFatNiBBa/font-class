@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-mask` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-mask?s=thin head-side-mask}
  * @preview ![head-side-mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/head-side-mask.svg)
  */
-const HeadSideMask: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 222.9c0-21.2 3.2-41.6 9.1-60.8L256 287.4l0 .6 0 192c0 17.7 14.3 32 32 32l143.7 0c28.6 0 53.7-18.9 61.5-46.4l46.3-162.2c1.4-5.1 2.5-10.2 3.3-15.4c.7-5.3 1.1-10.6 1.1-16l-.1 0c-1-13.5-7.2-26.1-17.4-35.2l-3.8-3.4c-16.7-14.9-29.2-33.6-40-54.4c-7-13.4-13.1-27.1-19.3-41c-3.5-7.9-7.1-15.9-10.8-23.9C421.1 46.9 349.6 0 271.7 0L254.9 0C131.8 0 32 99.8 32 222.9c0 52.8 16.9 101.5 47.4 139.9C89.5 375.5 96 390.2 96 405.3L96 504c0 4.4 3.6 8 8 8s8-3.6 8-8l0-98.7c0-19.8-8.5-37.8-20.1-52.4C63.8 317.5 48 272.3 48 222.9zM261.6 272L62.5 146.6C92.9 70.1 167.6 16 254.9 16l16.8 0c71.6 0 137.5 43.3 166.4 105c3.5 7.4 6.9 15.1 10.4 22.9c6.4 14.3 12.9 28.9 20.1 42.7c11.3 21.6 24.8 42.2 43.5 58.9l3.8 3.4c6.8 6 11 14.3 11.9 23.2L272 272l-10.4 0zM272 480l0-192 254.7 0c-.6 3.7-1.4 7.4-2.5 11l-15.1 53L368 352c-4.4 0-8 3.6-8 8s3.6 8 8 8l136.5 0-13.7 48L368 416c-4.4 0-8 3.6-8 8s3.6 8 8 8l118.2 0-8.3 29.2C472 481.8 453.2 496 431.7 496L288 496c-8.8 0-16-7.2-16-16zm96-256a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const HeadSideMask = createIcon("head-side-mask", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABmAAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCagsGAAE2AiQDCAQgBYMtBzUbbwXIhuCprq94WdX1AeVgQfMkanRbo+f/ms/Pmg7w4xEdSjRWLgPkaFnPJ3CAm5WmaNpwNlGcuS0WdEHREzQMmYLjkQ9toX75E5TxuV3VSFelN3BB+dD4xpBTSYoCQHQCYKUtNlnPM9NiWsQb9QeJN6yDgFgZZIECBUYFWFYhMKqUUSoF06Jej/+BmQCigusSKFHhMtzCXiEpcXerjE1taqm1lZu31Jq3OGlksxDixL7LWlrinIE7RraIKwauiIir+/vj7uGrh0+Ky/vvW/q11ZvjhTVfWfCe/OFKVw2Jy/quGIi4eu7nNt8s7Lx/g7e3aIkXl3p0vsv6Tuy7LEzvurn6eGurEC1xaW+O5sEs6ZYYlcxgXLsoVy7v3+KKgc6tdzT57s67v5v0xu5vWGBaPvelY4VntJ95ZvuF+v9t2XT+m/U3NDTS+98Up/1wy6mss87J/7ff2OWdecfefa7Nhp/9XO2i2nHHFG+b7XZrf7jgS8e2m/aePGVlXTZ8/Yn9l1yzCE699ce7FnblmHeewfG6Wu8s59mxqnY8y9eOkY2HO9Y9XRea1r5DvcLt06hAXPPX0Nc7dCz7W2NLAjMe++HvfHuuP5NyuhuNEgiKeevz2jatKMtGogDUUhxuMn2TQHKeEt611eUChGYESCrNAhRGdApQajaPADXjFhOg0mwThSibhF7bTZC0OggUFnccKPW6H9Qs6+VapTcK7xR8S/g2TF1dQ6sl5YXmXzAvnY8tIjocl1aXyY+1OQ/nkblor90dYH+H2s2u9nKoIg+2XvMw+1ndIlbzQ9lC5regbGn5uvuubq68gx3C6QPsf7/OMvL70ZwOt6fPRWYC2oXFkkSkdhcuzHfIXrv+FFI/ZB8A");
 
 export default HeadSideMask;

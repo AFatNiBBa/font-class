@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-field` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-field?s=sharp-solid pen-field}
  * @preview ![pen-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pen-field.svg)
  */
-const PenField: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M304 240L288 352l112-16L564.7 171.3l-96-96L304 240zM640 96L544 0 491.3 52.7l96 96L640 96zM32 128L0 128l0 32L0 480l0 32 32 0 512 0 32 0 0-32 0-160 0-32-64 0 0 32 0 128L64 448l0-256 192 0 32 0 0-64-32 0L32 128zM96 288l0 64 64 0 0-64-64 0zm160 0l-64 0 0 64 64 0 0-64z" />
-    </Icon>
-);
+const PenField = createIcon("pen-field", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYwAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBYwsGAAE2AiQDCAQgBYMtBzAb4wTIHoex22RJNTTqx5WIh/9f+98+d+bpfNTnk1yliTVtljxRaaTfEAv1LyqLBklLlblq3+f/mnrx/OgAP9874UOJyBVIFFjm8wkMNFrXNB3IbDibKM7aVVuWJBo/aCObrnv8bh+/O0Mev7NbKqTHKe6XD43v+rhF0sgARGcAzN28fqW29miP+Pgf8dFyBMRcUApkyNBfgBkygf5yJXK5oD3+//f/gSUBRBVek0COGlZjLyAHSSXPi0Zro1FUOuSbikpz/4bNDMXpm2LD/k0bN62JjbH+RLNoihSi6BS0sBlCtEQWRSGyG4RipxVXzDgy+FVnP1ofavTXTqcrzRVevrR7d0ytvr8b5AV277Zg96Aya45S9p+apGva0FYmnjyZAwWbT9vzQCC4fvH2z92dZvyqFwl8e/OHe9z/tnQtQV0CQTbi/wg70jXwxAByKS4ZrHxRIFmsAu/a4oEAoYkASVVTgEw/nQXINQ0XoGKgiQJUNa2XibwhdLdzgqTFWZCZ5DLIdfcaVMzwNlvVPTLL4u2C/7FLWSTRhfPKsaPGlNPKY1UXjIVN09PLa2fIpdA1lA465LRTLjjogKMuCPyclYWLTlqkYQv9UGmsUcYoTVM+brzu3uSgc8476rRTeZbpyvczQ1zSBw8lPwHlOCuTRKTGmYOnRn50AA==");
 
 export default PenField;

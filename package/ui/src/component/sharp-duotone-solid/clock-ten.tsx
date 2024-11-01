@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-ten` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-ten?s=sharp-duotone-solid clock-ten}
  * @preview ![clock-ten](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/clock-ten.svg)
  */
-const ClockTen: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm126.7-57.3l26.6-39.9 20 13.3L232 211.2l0-91.2 0-24 48 0 0 24 0 136 0 44.8L242.7 276l-96-64-20-13.3z" />
-        <path d="M232 96l0 24 0 91.2L173.3 172l-20-13.3-26.6 39.9 20 13.3 96 64L280 300.8l0-44.8 0-136 0-24-48 0z" />
-    </Icon>
-);
+const ClockTen = createIcon("clock-ten", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdQAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBaQsIAAE2AiQDCgQgBYMtB04bCQXIhofn7f79tc/MfQE0sdkZHViyfalSxZ+o7fpOnXqe81AAH0QyJsU2yJi693kEcl6dPrHWK1ewpjWw7s7Wag61uCQtoZHjYo7LBfL4NDulRLqZ3sdV/h/A+FUzp0iqZQCiLgDGLp4/07Ov4qsU75efEO+bgYAYBwqBDBlaCjBCJtBSrkAuF3yVymW+inK5IICowM/OQAVKWIi1gBwkIeV5sxbNapRq5Yv4kurLBTErOkWP6BgLY2jAw9Xji7ERz2d+UOPi7I/Gv1z85bgXsz6sfmHG+2OeLVjcu0dvHTeT5BohvnVYLIpO7R7Xffx72/c3ve/H1U2bNl3uvhGuG2H1aFP0dE5TfTwzsRrNKp+PH/+8slk1E2WShCNDrgd9hPuWK71NndPTlPlXjAACwYCa9/5aXWfE/1VrJPDN0z9/kX5H5WdJeoyqEgiyHuUeViSQCABAikPaJY4ikBkgwc+o6ZoAoToCJBWqC5Bpoa4Aueq6C1DS2kABuH++TOTVhIZWFpDUtBdkBjkMcg1VgpIR3tIqNIzMunDbwD93MZMkNHGr6NurTzGs6CYyYTCoXw4v1HyXQ67RFc7aZLddDthog60OCGSfmeZBO00awRN9UaGvXvooDFMs59fMItT22W9rm1pfM1yxX+3i0Li/K+wmAfqdiy8jUmT13qLZ88DGXT3vaaNBRd1IAAAA");
 
 export default ClockTen;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-timeline` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-timeline?s=duotone list-timeline}
  * @preview ![list-timeline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/list-timeline.svg)
  */
-const ListTimeline: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M146.7 96c0 4.8 2.1 9.6 6.4 12.8l38.4 28.8c5.5 4.2 12.3 6.4 19.2 6.4L424 144c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L210.7 48c-6.9 0-13.7 2.2-19.2 6.4L153.1 83.2c-4.3 3.2-6.4 8-6.4 12.8zm0 160c0 4.8 2.1 9.6 6.4 12.8l38.4 28.8c5.5 4.2 12.3 6.4 19.2 6.4L488 304c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-277.3 0c-6.9 0-13.7 2.2-19.2 6.4l-38.4 28.8c-4.3 3.2-6.4 8-6.4 12.8zm0 160c0 4.8 2.1 9.6 6.4 12.8l38.4 28.8c5.5 4.2 12.3 6.4 19.2 6.4L424 464c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-213.3 0c-6.9 0-13.7 2.2-19.2 6.4l-38.4 28.8c-4.3 3.2-6.4 8-6.4 12.8z" />
-        <path d="M64 144a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm48 112a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 160a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const ListTimeline = createIcon("list-timeline", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABkgAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCJQsIAAE2AiQDCgQgBYMtB1YbTQXILg5sW8jWN8oKalOYMPxSPHy/9uW57/VMzfZfhq5VgKAQUAGi3aioOFbkp2Kjo78ODnUYrvhiiUpWvty+dwjo7bxS/5//a+pd41GBfLATO7RISj1v72U/n8CAo/xwBT7Bmc7AtrjtJohpaFtoJBoo4s98VQPpafoDt6P/AYz/dHOVpEUGEG0BMH3Fknl+ao7mFH/UfyD+MBcBMQNUAhkZPQWYJAv0VKhQKATNqZ7mqK8IIBpFb8ugEU04ijOAAiRZLopWCdQlqDW0KpYX18o1n3s8t2f5gU/0aSxruE/+gdbHWpoyyK652Gl8PKzVQlkRi9UyrnUcFw/geCuyZf+TDfp+k2/PH9v/MHXom6uz5DlQ7j9zZn859WZwh3sbsHSvY7V/LOo0Oi36R+3YXkub3nC8E9mpP38dCARr9y/evaHNpP9RS+DfH7/+IZV1SfqGJgkEeVB9kLWJkkQAAFIc1zdRui+QzZYln9HSIwFCiQBJo1KArIe2AhRKAwVo0NtoAez0ElkULYSO1vUgaekQyMY4BwodfQcNJvk5atQxMu7JmCN/+mXMGaOzd1U7ZFg1odrsaBV0Ev3mxOq03cf1RH9603YH7HfUNlvtcnREHzYvPWafOXvUbF9UGW6IYSoTVLf7z43lPDrsiF3r2v1tJqre9/s5vj+/P/WSRHCEPVkmUuROwGsOhsiuf1IocDyjy4oGswAA");
 
 export default ListTimeline;

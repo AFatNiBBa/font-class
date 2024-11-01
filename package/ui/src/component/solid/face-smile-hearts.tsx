@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-hearts` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-hearts?s=solid face-smile-hearts}
  * @preview ![face-smile-hearts](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-smile-hearts.svg)
  */
-const FaceSmileHearts: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448.2 34.3c-1.3 19.7 5.5 39.8 20.5 54.9l55.5 55.8c9.2 9.3 21.1 14.2 33.2 14.9C569.4 189.6 576 222 576 256c0 37.4-8 73-22.5 105.1c-27-15.2-61.9-11.3-84.8 11.8c-25.8 26-27.5 67.1-4.9 94.9C422.8 495.7 373.3 512 320 512c-61.3 0-117.6-21.6-161.7-57.6l13.1-13.1c27.6-27.7 27.6-72.6 0-100.4c-24.8-25-63.6-27.6-91.3-7.7c-1.7-1.2-3.5-2.4-5.2-3.4C67.8 306.5 64 281.7 64 256C64 114.6 178.6 0 320 0c46.7 0 90.5 12.5 128.2 34.3zM205.5 323.9c-6.7 5.8-7.4 15.9-1.6 22.6c22.2 25.7 61 53.5 116.1 53.5s93.8-27.9 116.1-53.5c5.8-6.7 5.1-16.8-1.6-22.6s-16.8-5.1-22.6 1.6C394 346.2 363.4 368 320 368s-74-21.8-91.9-42.5c-5.8-6.7-15.9-7.4-22.6-1.6zm-.7-90.3c17.6-23.5 52.8-23.5 70.4 0c5.3 7.1 15.3 8.5 22.4 3.2s8.5-15.3 3.2-22.4c-30.4-40.5-91.2-40.5-121.6 0c-5.3 7.1-3.9 17.1 3.2 22.4s17.1 3.9 22.4-3.2zm230.4 0c5.3 7.1 15.3 8.5 22.4 3.2s8.5-15.3 3.2-22.4c-30.4-40.5-91.2-40.5-121.6 0c-5.3 7.1-3.9 17.1 3.2 22.4s17.1 3.9 22.4-3.2c17.6-23.5 52.8-23.5 70.4 0zM573.7 11.5c15.2-15.3 39.8-15.3 54.9 0s15.2 40 0 55.2l-55.4 55.8c-7.3 7.3-19.1 7.3-26.3 0L491.4 66.7c-15.2-15.3-15.2-40 0-55.2s39.8-15.3 54.9 0L560 25.3l13.7-13.8zm54.9 384c15.2 15.3 15.2 40 0 55.2l-55.4 55.8c-7.3 7.3-19.1 7.3-26.3 0l-55.5-55.8c-15.2-15.3-15.2-40 0-55.2s39.8-15.3 54.9 0L560 409.3l13.7-13.8c15.2-15.3 39.8-15.3 54.9 0zm-534.9-32c15.2-15.3 39.8-15.3 54.9 0s15.2 40 0 55.2L93.2 474.5c-7.3 7.3-19.1 7.3-26.3 0L11.4 418.7c-15.2-15.3-15.2-40 0-55.2s39.8-15.3 54.9 0L80 377.3l13.7-13.8z" />
-    </Icon>
-);
+const FaceSmileHearts = createIcon("face-smile-hearts", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABvwAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDUgsGAAE2AiQDCAQgBYMtBzgb2gVRVA5SZB8L1W29YGKEMnNxq4pHfhFRsWw9+zGAyx5UVFnoaDQe4XHJKWT0aAqLRp99X/d+n4jzIt68ANxRnKnKivjUnforyStpp/m/5vNLOzrAz0dwKBVWVN4gR73o5xOYN27eNKEonA1p4Dxza4gy0dd+Y5RkO5r0+I3q8WkL7fxXndChXuo2eJA3zR9LE1AGLQBkDgAubrNTcf49/SS3miOQL8kgkAsA2wgttLCOwDFVwTo126CtLfxQ09B/IAMCpAt+1AJtDPAG+AZAG5ReW8170dJYYWNro6uur5anq65Tv+6eSSvOByF67XXa7bbfYt39ds7TPHOSSfLgLnudVs220rPoS+n38p+kFiybHnDeE3zMdZ/nmtmqybLT7qCjLnt1fd4mXaIpyxXzNTOuM+m2bKptuo2xGDLy1zCTV0I0yaBlsyxaJakz0+lMTcm8cAVERSPptc31W5Rc4N8dbtfdxrktdvX1+C54BYaXJ1V1IVBHW/1LBkopOvQ2Ym1sYpWSVKZgO10Rb2G5IMUjDuJvBz6leu+eKN67pzq18Th/V9IMNJe84/tR+MAUMH2w8dqBkRknp5mWDdc2ftgxFkPHTr45ZQgIp2RDQe7HjRv9kAVBPikYnnyDNyHibBSoOD/ln3qN13AwNGJm7yuB54sCgrB2X+BUbhj1r6WrAvg9+fMP5OTmlIpYHH0FQmu38UJJiUDUAFGlD0rwQUF5RQ9f6tgjAmKIgNI1FNCyRkCgbWgHgY5NwQh0DV1SlbY2YlXpBsrYHWg5MgraVh0CHceuhV2rUY1oIR6F/8nUuBGKncT8ffxYBDMzKgYpB0cj2WXdra+2uKcNqNOuTY9aNRqFGcguqUmvVnGIiPVFjD8ffpgIbLn8qOblsEu3xnN5fZxI7H7PTR/u7p4sFUy7J1WKlOJ1Mby7Pye2d0Pt0wcAAA==");
 
 export default FaceSmileHearts;

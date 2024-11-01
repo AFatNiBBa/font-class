@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shrimp` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shrimp?s=duotone shrimp}
  * @preview ![shrimp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/shrimp.svg)
  */
-const Shrimp: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l400 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 64C46.3 64 32 78.3 32 96s14.3 32 32 32l0 24 0 8C28.7 160 0 131.3 0 96zm288 32l32 0 0 192-32 0c0-64 0-128 0-192zm32 279.8l3.2 1.1c9.9 3.4 19.9 3.3 28.8 .5l0 69.9c-5.3 .5-10.6 .7-16 .7l-16 0 0-72.2zm41.6-2.7c9.7-5.7 17.2-15 20.5-26.2L472.6 415c-7.3 9-15.5 17.3-24.5 24.7l-86.5-34.6zm3.3-76.5l133.5-92.4c4.3 10.2 7.6 20.9 9.9 32.1L382.8 355.1c-2.6-10.9-9.1-20.2-17.9-26.6z" />
-        <path d="M64 128l24.8 0L256 128l32 0 0 192-32 0-24 0s0 0 0 0c-92.8 0-168-75.2-168-168l0-24zM320 320l0-192 16 0c73.1 0 135.8 44.6 162.4 108.1L364.9 328.5c-7.5-5.4-16.7-8.5-26.6-8.5L320 320zm62.8 35.1l125.6-86.9c2.4 11.6 3.7 23.6 3.7 35.9c0 42.1-14.8 80.7-39.4 111l-90.5-36.2c1.2-4.1 1.9-8.5 1.9-13.1c0-3.7-.4-7.2-1.2-10.6zm-21.2 50l86.5 34.6c-26.6 22-59.8 36.3-96.1 39.6l0-69.9c3.4-1.1 6.6-2.5 9.6-4.3zM320 407.8l0 72.2-72 0c-13.3 0-24-10.7-24-24c0-12.1 9-22.1 20.6-23.8l-4.5-1.6c-12.5-4.4-19.1-18.1-14.7-30.6s18.1-19.1 30.6-14.7L320 407.8zM192 216a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Shrimp = createIcon("shrimp", true, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABrQAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDHQsIAAE2AiQDCgQgBYMtB0gbtwXIjtMN8W6OKhEEOq1ZyfHn5DDoiMl5IK4IuQLgCrDyM5af/GX5vzjVk/NQztcbBW2sBZK057U5zytQwOKa57Ua1LQAWGHr7ty25Fjhk5CQxHHZ8XlCIT5Iz1FFcmPyPi53/wMYP+t0DokhKYBoAMDSge0bvVyJShLvDz5OvG8DAmIZyAVSpOgRYIFUoEdBjoKCoJIMTiUGzwkgitxPTUERtbgHLwIKIFFUVSg01tdljUP6a2qrs1JVbaFcqsr2KGUlkWVnxpnxyaIXy7EzRCnemPvMxB1xXZZtHNgxcKM7FpTj+jizbcrO8s7nV0Rc3z5DyOK+rptHt8V93TePXFu+v/umUfd03DgyvXl8xMOja+Pa1mtaauKilmuc0XptSYj7xj3Utd81JOLdWtu6u9vFNVkWMfv67p1xTUt5QF51beeOuKlt2EMND/069P2D37d4cWdn5WV5B6yK/3+PVR2DXuZ9DY595NHF5+zp6fqmr04pmz1Tm+r33n241l2KhaU7h0HDmQeusmTZVWtwi62tzcOXmLvi6hX/na5wW7f6u+ybNdJ4xxUqdXWVK9RdcEEdbOpQ7Y7Gxqy/PyfiZbkpTn873fvNR6scW91gzVU/LNl9uEe/2DksWX/OnvK+o/NTypa8DQSCexc0nrFP/YJ/q0sJ+OrZ3/8WvyiDlUTyEKolIEgnDGbPBCQEACCJkw1LWIJAapsieKrGdQKEjAyJogxS3RqgIDMeqvSZeboos10qCkOEFnsBJGocB6lZToWCFo9BlQXeKotaItVbXuv4b2PKqhpduS6fOmlKPi8fNiVBFVlZnp8vO2NOtkNjcaeDHeNoJzrIgQ5zYoUfb2P9JEdZNcNW+qDcVJNMkZsn3+7cKmUuj3eCw/rS/irz5eeLMU6eTx6LfiIwTnM6lRJJpHUnHHr8YUcdO1H/jYZSeugAAA==");
 
 export default Shrimp;

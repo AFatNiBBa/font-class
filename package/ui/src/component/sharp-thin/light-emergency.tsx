@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `light-emergency` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-emergency?s=sharp-thin light-emergency}
  * @preview ![light-emergency](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/light-emergency.svg)
  */
-const LightEmergency: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M368 320l0-128c0-79.5-64.5-144-144-144S80 112.5 80 192l0 128-16 0 0-128c0-88.4 71.6-160 160-160s160 71.6 160 160l0 128-16 0zM16 368l0 96 416 0 0-96L16 368zm0-16l416 0 16 0 0 16 0 96 0 16-16 0L16 480 0 480l0-16 0-96 0-16 16 0zM144 192l-16 0c0-53 43-96 96-96l0 16c-44.2 0-80 35.8-80 80z" />
-    </Icon>
-);
+const LightEmergency = createIcon("light-emergency", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABaQAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBWgsGAAE2AiQDCAQgBYMtBzYb4ATIrgpsY1bgD+JUNrGYhtc4auRbAovhGs/zrb3eNzuh/QFyYZ0oVEQyBVUja1RlHdnK6BLqrhH/1EaX1NrLfnpX4nh6qWLa5vpd1QjROJZEnlgvM2pEtdsDew258bCg0gBrlBgwQP1idfgp8Tzfp049z3kogM8hCMrYtIcmLdDe5xWo2B5ABSq1YNUKWs1dzTQP0f0krRVJHr/l8XOGml1sWspLVYen9UNzp9mhaBoAZBYAnI7qMh6HGSY//RvyUweBnALWEQ0aLCM4oBYs01gHVRWG6Xv5D1yHABkF3qKAilHcgEcAKihq1bgmFqYHWqumbjBi6o68qrpXXg8+C9iS/Dv+Vv97+KUWbDvQVEgLrRYrItJaiLvM9e3AdBg8y4KvfcdO76nj9H+ju533N7Cnc6EfP55wjrIh5113nvMwHgljTcLWI8tRHR1dO9DBwdGs/yzFhtvTjfGUI4Eg/O/jSrv94Pf4QAX49fG78Lh+mO/lFowrIDRb/ZaWfAdBB/hJJXO8+Y6guKaBV530TEC0CChGtQIaSxwIqtYmghGr0ghGtR5SSzUiFrUyKCY9Bo19q6BadAdGHPhIRi2m8SraJ+g/XYKiodI0MRKTgkzLOuMoZB4vyrbMXGrz00L0GTdmRq8eg2YUMqWcnTVKWcElXyTiImJEgRzXtrPr9JoybdC4sTJJkdz3febWvf2kqQBzW05RSLE7mhh+BA==");
 
 export default LightEmergency;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flatbread` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flatbread?s=solid flatbread}
  * @preview ![flatbread](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/flatbread.svg)
  */
-const Flatbread: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM363.3 171.3l-192 192c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l192-192c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6zm-112-70.6c6.2 6.2 6.2 16.4 0 22.6l-128 128c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l128-128c6.2-6.2 16.4-6.2 22.6 0zm160 182.6l-128 128c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l128-128c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const Flatbread = createIcon("flatbread", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABbgAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBXwsGAAE2AiQDCAQgBYMtBzAb3wTIHoVx41PiRsQlLm1ZLdtrWsVD/d53Z/fdlFZ8onpxiesuEyELoEGo1oQDIUHI6sD+wTJI9POT/fRdW8fxdKkCBIWwzTE4oHgk/WuX6iGoZcg7/tSp55kWCuADRihoY9qyzQskNOd5BCKWi3dSSwWrFaymFbD67eQ79Smitxj0jyTDeIbJ6AQlvlS7msj3+YOn/kPjrzG7pLYKQPQCgP3LWgEPjWhEfK37xFfHICD2AbMIFSpMIrBFLDBJYhYURdCIulb/gQwEEM3w5AQFzTgBNwAKSKWUie6u7o6mrnJhXt1+/rtE8fPwmZ4cPBX/mv/5n8QDHu8/Fn4bA/VW/Wj4ZKRFb4eOB5vHg3XK243+Xfpeb++fn9Ef1PEs9ni+qU6n1eH9Z1nYpDInz+7hCcLFRVAgqXPZiw8bGxA+4rd9BnzFiMcBAsHVr5nta+XW/1Zpgj+fW/6M1A8pP6FVgqCar+cxmCAJAEDGI/qEQDoigXft9EaA0I4AqVm7AJUJKgSKdnMINJnmRaBZu1NiUdqEQUMJpE63oLJiDRSD7kCTLe9+s8Go+IrjCu5Zl5wroewWO20ODvEwEXlWYewyzMuqYVU3jHSIUXNmLRsxbMJyQS4qRCtm5GZE1hcxJxsHFsLb+e1+04hFSybMmXVrwvi8bbA67zeSIQLaBbGURLZdpcSfAwAAAAA=");
 
 export default Flatbread;

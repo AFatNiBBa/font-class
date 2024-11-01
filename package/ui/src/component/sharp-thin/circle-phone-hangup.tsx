@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-phone-hangup` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-phone-hangup?s=sharp-thin circle-phone-hangup}
  * @preview ![circle-phone-hangup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/circle-phone-hangup.svg)
  */
-const CirclePhoneHangup: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM410.9 230.6c-85.6-83.5-224.3-83.5-309.8 0L90.4 241l-4.7 4.6 3.6 5.5 37.3 57.2 3.2 4.9 5.6-1.6 74.7-20.8 6.6-1.8-.8-6.8L211.1 240c29.4-7.7 60.4-7.7 89.7 0l-4.8 42.3-.8 6.8 6.6 1.8 74.7 20.8 5.6 1.6 3.2-4.9 37.3-57.2 3.6-5.5-4.7-4.6-10.7-10.4zM112.3 242.1c79.4-77.4 208.1-77.4 287.5 0c0 0 0 0 0 0l6 5.8-30.5 46.8-62.4-17.4 4.8-42.3 .8-6.6-6.4-1.9c-36.4-11-75.4-11-111.8 0l-6.4 1.9 .8 6.6 4.8 42.3-62.4 17.4-30.5-46.8 6-5.8z" />
-    </Icon>
-);
+const CirclePhoneHangup = createIcon("circle-phone-hangup", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABlAAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCbgsGAAE2AiQDCAQgBYMtBzobeAXIHoex82RJGOH/hkKjxsP/2/X9Prer+w2AGpsZlFErZ0Z9O2MGhZM1Bey8DzjLYhqMJPdMx7PLvawGTuOQ2EKJC3Vjl8Yv/js+jR5tL/xvcS3eK16BijXvnVrwCVzTClh9b70nlqTslmRSM+lw2+HaP/wjZPHcWkXStXRxpj5U/KWx4ySFAoCoBYBRC+ZM8+bX+DXis/JD4jNTEBCjQC5QgNFMIAw9NtBMJkcmE/wa5XL5D8wJIEr4cxPIUMJl3ABkIMmyrOnq27ZqsXo2v2qxypIfPOKTUXcd7vlm4sfzY3xq9+L0eW/KZzf9NCPiqzHv0ZHR7/aX5/v8XN/g8Kh36otd8mp8xIdjI94fOqNe9RsVkIYtaG5Qix73a7YA88CYbIPnO7aSJ2YdiVPftcnRsiD/04mmXPMmRne6ad+pdeefVnf95yi/kbazo+KtyNuKHdtHkt2U/v84Zzk3pNmYMc2GnDs7Drpxt+uNnm7jwAG2Pb2tr7YWamukyfWsUjLJZ59NUrIqWSOV1+nrducqf8xi1h/APP/6xiQVZtq5c6aSQb7xs3lAIBj0/v9iRc2hX6WqCfz+7L+/2s9I+SfpDipJICh0/btamkAiAAAp9ms9IJCcluFHreayAKEKAiQlVQQoaKqWAJkqughQ1EI/AUqqmKMgsspCPcsGm1Sziy3o7wCbqec+WzTUR4WSehX8U/Qu8XWYNl6CcfvyXt175oPzbVeXXI7P20Nys9dxf5zqhFTr7bDdXuustcleQew2rbzPNuM1aJwvyvXSXU+5wfLjwfPh+dbZbY9Ndthedhkivx93tF9f3Alhwpy9tSSJSHU/4zG6OXHUbePvB/SdAAAA");
 
 export default CirclePhoneHangup;

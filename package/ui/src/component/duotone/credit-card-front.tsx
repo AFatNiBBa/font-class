@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `credit-card-front` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/credit-card-front?s=duotone credit-card-front}
  * @preview ![credit-card-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/credit-card-front.svg)
  */
-const CreditCardFront: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M96 304c0 8.8 7.2 16 16 16l352 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-352 0c-8.8 0-16 7.2-16 16zm0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zm128 0c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM112 288c-8.8 0-16 7.2-16 16s7.2 16 16 16l352 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-352 0zM96 368c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zm128 0c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0c-8.8 0-16 7.2-16 16zM408 96c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-80 0z" />
-    </Icon>
-);
+const CreditCardFront = createIcon("credit-card-front", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABnQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCPgsIAAE2AiQDCgQgBYMtB14bbgXIhofv7aI/972eqd0Zr9gLMwL06UwIIYZy5iTo+qmQ/aqZOpVzOQ8F8DlTLEh7aUAW0Oxc5xWowKY1qAK9gtVqit1dNcJD8PGQlmZpefy2e/zuAkX8n+9TIz2TfsJD9X8A4xdj3UcyNAOIHgC2HD242zdVVCl+GnxA/GQXAmIrKAUyMiYIsF4WmKBQolAIqjQYUMVgUBJA1NX3z6COBu7Eg4ACJDW5KMa12u1eu91u1trFkWatkZ+bF/HerHa8MeedsSmenv329Fa8Offdcfnw4yOeGNmOp0Y/Oap16ImRzeI0guhrtv0nXx8jnpnRjLfGRzw7s3H0nj2Mph0+9d3eu79N+emyn5xr9Om//I2X+/3GZkiOmeu/rjqd6pxB6+7tVJtVHeWuAN0lwJqPu/tHLjZy/z4pOPuQRHCjbS6vA4Hgrx/+u+Zsd/1/Q5oJ/PzZH//45w2qtDm9iyESCPL8wXyn0mZw2ADiFLeZynzVOYFsn5r+qS1PChAaCJDUNQTIxusJUGiYJ0DNJCsEqGs4KItiqDDC6QWSlhtBttLtoDDC+6BmvW+juhGRFVFQI+E3MHUnhncsKpcsXFyuLY81U9QtLs+uK6/d2belnjmw02Wud51bXOoSV7oFoTfZnd7qWjs5ZIcfKi2x0GKltUpx8109gqKb3OxKWpbPs075PpztNn74HAiSzrjUkiwTKfLYL0FbYPf6Ag02F1j1kPGkbMMA");
 
 export default CreditCardFront;

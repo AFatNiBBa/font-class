@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-woozy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-woozy?s=sharp-solid face-woozy}
  * @preview ![face-woozy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-woozy.svg)
  */
-const FaceWoozy: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM411.3 347.3L372 386.6c-13.7 13.7-32.3 21.4-51.7 21.4c-13.7 0-27.1-3.8-38.7-11.1L267.4 388c-18.2-11.4-40.8-13.4-60.7-5.4c-30.4 12.2-64.8 8.6-92-9.6l-11.5-7.7-13.3-8.9 17.8-26.6 13.3 8.9 11.5 7.7c18.5 12.3 41.8 14.7 62.4 6.5c29.4-11.8 62.7-8.8 89.6 8l14.2 8.9c6.5 4.1 14.1 6.2 21.8 6.2c10.9 0 21.3-4.3 29-12l39.3-39.3L400 313.4 422.6 336l-11.3 11.3zM214.2 107.6l-8.9 13.3c-28 42-69.6 64.1-88.3 70.3l-15.2 5.1L91.8 165.9l15.2-5.1c13.4-4.5 48.5-22.9 71.7-57.7l8.9-13.3 26.6 17.8zm5.5 97l7.8 31-15.5 3.9-64 16-15.5 3.9-7.8-31 15.5-3.9 64-16 15.5-3.9zM336 272c-17.7 0-32-28.7-32-64s14.3-64 32-64s32 28.7 32 64s-14.3 64-32 64z" />
-    </Icon>
-);
+const FaceWoozy = createIcon("face-woozy", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABjwAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCSQsGAAE2AiQDCAQgBYMtBzEbSgXIjsK2eTNlcx1LhhySDysenq+z/txXlUHS4xZqSHzDS5hbex2C3N0HkmUQtkWaUYzN40CC5k1/P8//+acP+Iw+WhRmcSSu+3wCE51F06Y7jwKb6QRsb5sG2QjCKyFVEtJ4OV4byOPZ7Fwl0k3pPVzRPjR+1eRckq4ZgOgJgLmb16/00lfxVcS71ceJdy1HQMwFhUCGDK0CzJAJtMoVyOWCr6L66T+wIIDohJ8ggRydcR6uAuQgKeV5y9C6Xn0qpW75pkqpvPHL1REfzn81zpr3yqoPNn224r05Lzlz7ssr39+4ecbsGQ+WLx5UHw8PeKuWqI/hUZfdhyY/OzUdd13lkobZ0RBDo3ZTbUPtg0MerK2N5miIGwY/MHxWsLGpuak2FgRdYHE0bLy+OeLmOKvllobrmm5yZuONtf0e7vnw733XeE91dnclV01vnT+/dfpVVy6kK0m9+d4D+Gwb2uvKP3np13jkSW9p8pYnvFL5+qHtupqe7w6P2N8zr/0xYaFdZ1717Xdu8527V60ceqmrSntOh8X/9R2n+0bVO6Z9dBZntbScddZHQtDpQCDocfALf+/OM/7vUkngm2fu7/AzUn0pSQ+jiwSCbER1hB0JJAIAkOJ4/RIEktOU8LXWuF6AUEaApJOyAJkWPQXIlQ0XoKTdRAE6KVsvE3lXodbODpIaR4HMJKeBXK1HQckMb3qd1EYWjEQoEX/B2EUaWjirGDtqTDGt2FYIGV9YnZxeHHNDji8dQ3Gu/R3hcMfaz74OcqxCjrYyPM5hFlnwQl9UGGuUMQrTFO76I7tJeUc7xkFr2j/NdMV9a4jj7f5DUUwYdZycJBGp/NQzI0844oiTTwIA");
 
 export default FaceWoozy;

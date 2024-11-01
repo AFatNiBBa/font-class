@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tablets` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tablets?s=solid tablets}
  * @preview ![tablets](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tablets.svg)
  */
-const Tablets: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M614.3 247c-5.2 7.9-16.2 8.5-22.9 1.8L391.2 48.6c-6.7-6.7-6.2-17.8 1.8-22.9C418.1 9.4 447.9 0 480 0c88.4 0 160 71.6 160 160c0 32.1-9.4 61.9-25.7 87zM567 294.3c-25 16.3-54.9 25.7-87 25.7c-88.4 0-160-71.6-160-160c0-32.1 9.4-61.9 25.7-87c5.2-7.9 16.2-8.5 22.9-1.8L568.8 271.4c6.7 6.7 6.2 17.8-1.8 22.9zM301.5 368c9.5 0 16.9 8.2 15 17.5C301.1 457.8 236.9 512 160 512S18.9 457.8 3.5 385.5c-2-9.3 5.5-17.5 15-17.5l283.1 0zm0-32L18.5 336c-9.5 0-16.9-8.2-15-17.5C18.9 246.2 83.1 192 160 192s141.1 54.2 156.5 126.5c2 9.3-5.5 17.5-15 17.5z" />
-    </Icon>
-);
+const Tablets = createIcon("tablets", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABagAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBRQsGAAE2AiQDCAQgBYMtBy4bwwTIhofv7fg693UP4B6bGRhDSqekFbPd+Nem5tSp5zkPBfA5BEEbCxcmvsHnPI9AgMfybbUC1Yq1glTMuzvbM2XRPqEhIznO5XhskMff2SGlSOfSpzgS3zS+Vs8hknIZgKgKgKGzp0/0piRKIj75/yHxifEIiKGgEMiQoaEAA2QCDeUK5HJBSfz/P/4HFgQQpfGDE8hRGiMwGZCDJM/zKlUqV61QqlI+y18uv/lk7Vlxus7z0V8MfDnzaocBT0Z8OejVrBudz9SaGadqLkH16oAXI95vl5qdbl0pKlaqeLvOjcGvR7+3yDYd/6jZ/ar3v2366apPrfzwwkcffODi0zmGx6efxnCHvysULZcd+2OV968fv3r1+PVHTaJB0YDlaPy4ecoHlX8EAsHS3Z+3WlxlwK9lKyTw1bPv/0j30/9v0r50H2UlEGQd/u9gQdongegAjBS7NFM+KJAMkONXrei0AKE8AiSllRcg00BVAXLltReglMZ6ClBaedNlIi8n1LSwgqSirSDTy26Qq+kBKGWAD/TSakZmSqQhkD+5uFESGtlWdO3UpehXTG2Zsg6c6v2Lbb7NLhdrC6tW2WyTHVZaYa0dAtlmorXTRqM0eKQvKnTVSReFfopj735+lpW22W6tzTaFJv0V95U2dunZbUFKGLObriQRqcyOpcseHQAA");
 
 export default Tablets;

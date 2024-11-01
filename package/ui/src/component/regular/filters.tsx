@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `filters` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filters?s=regular filters}
  * @preview ![filters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/filters.svg)
  */
-const Filters: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M233.8 32C210.7 32 192 50.7 192 73.8c0 9.3 3.1 18.4 8.9 25.8L336 272.3l0 63.9c0 12.3 5.6 23.9 15.3 31.5l92.9 73c21 16.5 51.8 1.5 51.8-25.2l0-143.3L631.1 99.6c5.8-7.4 8.9-16.4 8.9-25.8C640 50.7 621.3 32 598.2 32L233.8 32zM378.9 249.2L246.5 80l339 0L453.1 249.2c-3.3 4.2-5.1 9.4-5.1 14.8l0 118.6-64-50.3 0-68.3c0-5.4-1.8-10.6-5.1-14.8zM163.4 96L41.8 96C18.7 96 0 114.7 0 137.8c0 9.3 3.1 18.4 8.9 25.8L144 336.3l0 31.9c0 12.3 5.6 23.9 15.3 31.5l92.9 73c21 16.5 51.8 1.5 51.8-25.2l0-111.3c0 0 0 0 0-.1l0-52.9-9.7-12.5-33.2 42.4c-3.3 4.2-5.1 9.4-5.1 14.8l0 86.6-64-50.3 0-36.3c0-5.4-1.8-10.6-5.1-14.8L54.5 144 195 144l-19.3-24.6c-5.5-7-9.6-15-12.3-23.4z" />
-    </Icon>
-);
+const Filters = createIcon("filters", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdQAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCHQsGAAE2AiQDCAQgBYMtBy4bGwXIHge5SfNW4lJ2r0UElY6yZ6Uj3T2yHgjYDBFQ5syccW6HV84AoJCYq5Z74prnf/7058lP8CgVlFpcYFWLOh/IbKBPC4q2jQY0G9iL4nZnqCmiuSQt2iDHueNzgTz+jgdUkJ5Mn+L+/KPxtTaukVRkAKIxACavXDrf+/VRH/HJ/4hPzEVATAalQIYM7QUYJxNoL1cilwvq4///4T+wJICohK9NIEcFDuACIAdJludl02G1FQ3yFWFPsfZO84hHXGqxPITd/kLPl9pFrIzH43LLx4q65StyV4NYFo8QSyIm7oqitjgoAfmyW4loGeP23hm10Scea9nl1cavftv5jr58vulbvNW04d0br5mk2TfrKKqq8vtR9W5DhgJv3wOfX325HLDUtZfNqD7pJ9NUz/jsidNIsfwdWOo6CIZ7Ws0qvMKPun3y6svu0cvtcUAgeP3ym0s2Nhr3a3VtAl+8+f1v6tP/T5fSq6iWQJD1+7+fdekSADEAL8UJXYSeBZIdMsBvrfOYAKFAgKRSIUCmncYC5Ap9BajQ0XABKhWWykReIzS3vuNJncN4ZoTzeK65N/AK43zgVWoemdpxSsP9+pJnUGD6unLwgEHlmJLNNF6TmLg4ttzWep3wA73NTjscdMAx222z2zECHTE/PG6/GRI4XY9Kgw0wSGmM8rp83LzCdkcctdtBB9IyY5XvrV5OyON7GzNB0iEiSSJSlT4qRwE=");
 
 export default Filters;

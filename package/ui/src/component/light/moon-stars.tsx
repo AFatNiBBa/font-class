@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `moon-stars` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moon-stars?s=light moon-stars}
  * @preview ![moon-stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/moon-stars.svg)
  */
-const MoonStars: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M304 0c8.8 0 16 7.2 16 16l0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l32 0 0-32c0-8.8 7.2-16 16-16zM156.6 163.9C85.3 180 32 243.8 32 320.2c0 88.5 71.6 160.2 159.8 160.2c25.7 0 50-6.1 71.5-16.9c-87.6-11.3-155.1-86.4-155.1-177.2c0-47.4 18.4-90.4 48.4-122.4zM0 320.2C0 214.1 85.8 128 191.8 128c5.5 0 10.9 .2 16.3 .7c7 .6 12.8 5.7 14.3 12.5s-1.6 13.9-7.7 17.3c-44.4 25.2-74.4 73-74.4 127.8c0 81 65.5 146.6 146.2 146.6c8.6 0 17-.7 25.1-2.2c6.9-1.2 13.8 2.2 17 8.5s1.9 13.8-3.1 18.7c-34.5 33.6-81.7 54.4-133.6 54.4C85.8 512.4 0 426.3 0 320.2zM432 160l0 64 64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0 0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l64 0 0-64c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const MoonStars = createIcon("moon-stars", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABiwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCQQsGAAE2AiQDCAQgBYMtBzEbQgXIhofn7cI/980E8MR2BfGDneR281tWqXficuc/7TfgIn+UtWi0praxi+Y8jwJKNBvTCgPJwizTBKzd2ayoqbVHkpaQcJzL8ThBHu9GNxVI99J3uMJvGn9r4iRJngGI2gAYvXDudB+VohTxXfl14jtTERBjQCGQIUNzAYbJBJrLFcjlglKUy/4/sCCAqEgenECOijiCq4AcJHmet67Xuk21CjXyBVRXdeOtBqJaOMHN+lVDCG43jKgagjuNqkXEbfM+GxbxXvH78PfnX+j4x5hPFvw5dt6fcyN+XXihwS2uqf9Wt+eaPznIj7/Q6I764J/m/THnlwVrhXtSd4c2z9R+5t/W3234Ts8PSzULhYTWLKGFtvrJ15/e1oQuVWLsd9+P1bE8psoTT8T4mHj/kYdj1gLmz47Ku57o0vR03V69K7c8e/Z+9Y+fXDxk49yZMTvmz6f4i4+PEvUYMcqoNaWao+D9QCDIvpi4eGWtYQ8qV0vgr3f+f5B/RsofJekZVJZAkHUrd7MsgUQAAFIc0CZBIDkoh69a3W0BQlUESCqqKkCmmdoC5KrqKkAFLfUXoKKq5spEXkWob3llk+p2s5kBDrG5+l5lKxjmy0JF9SMzRM2MtH9g9gQExm8qevfoVQwphk1Fty0lLg8tlr1OB8JQZ9hqg5122Ge9dTbbp5g9ppf3227CDBvviwq99dBLYYhiu3NrL8DCHntt7pv7qwxV3E93cmA+uTOEEhHtoyFJRKr6kN3ubwc=");
 
 export default MoonStars;

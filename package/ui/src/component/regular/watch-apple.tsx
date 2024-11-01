@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `watch-apple` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-apple?s=regular watch-apple}
  * @preview ![watch-apple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/watch-apple.svg)
  */
-const WatchApple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M112.3 0C85.6 0 64 21.6 64 48.3l0 17.3C27.5 73 0 105.3 0 144L0 368c0 38.7 27.5 71 64 78.4L64 464c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-17.6c36.5-7.4 64-39.7 64-78.4l0-224c0-38.7-27.5-71-64-78.4l0-17.3C320 21.6 298.4 0 271.7 0L112.3 0zM304 112c17.7 0 32 14.3 32 32l0 224c0 17.7-14.3 32-32 32L80 400c-17.7 0-32-14.3-32-32l0-224c0-17.7 14.3-32 32-32l224 0zM192 288a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm64 40a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM152 352a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM256 184a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM152 208a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm-8 48a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm120 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const WatchApple = createIcon("watch-apple", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABowAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yCewsGAAE2AiQDCAQgBYMtBzIbfQXIjtRWeUXyEEGgK52V9KSz+c6AMgBzGDubyxB24aILt1gRJPMr6Pxf8/k1HaUWH8Eh9Sq1sIEiUicwwD/bLJoSeDacTRRnbU5RbnF5KnhK5PoekYbxG6YOkMWpeEwVyfPJ53hUPzR+0NJlElUpgGgEgAnLFs3x4bfxbcRn/79GfGYWAmICKARSpGgjwGipQBuZAplM8G38/z/+AwsCiGryugRkKOFl3AJkIFGXZQNbNa2TRKmqfrb0WJ6vul6OeKqFuN79duGe73GnC6DydJdS3Gr+bOtIRK973As973bdqNkzXfMlD1YinibOl5/K83iA4xFxYQ5QKi1+sHnEs3GB/PkD9irnK0+X5rzQ9XqL57vcar14M67uywhtgy65U8e7je7+1MFW9n3Q/0u+SJt4rZzV/1b9rPxaE+kXX/aPWRuAD/Y1uI/7GnxLqyG873sVtp3/vbJgQQXf1tzoM7bdYu+5ih27HQgE4x8c/de6hqN/rS0l4Pu3f/lNr/f/h3E+uYtaCQjS3v/3tjrOA+QBpJM4qqPzRYHE0+rIu9bzjAAhR4BEtVyAVGuNBMjkeglQpZ0hAlTLLZKKrE4oW9OlRD0HpNRQZ6RM2StSldE+SlUrRxqlRowZP4k5po7QlEXFgL79i5HFY9lpBp7WxkcV04HuR6mtR15rq332OmyLzXY4PFAHzckescdUj5zihwoD9NVfYaRiuTY7lpbUQYfssG3r84xSvB/p7qjfu0cOJ0RxoJxEQiSlwHb1+ToAAA==");
 
 export default WatchApple;

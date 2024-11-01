@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-lines` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-lines?s=solid calendar-lines}
  * @preview ![calendar-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/calendar-lines.svg)
  */
-const CalendarLines: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 32l0 32L48 64C21.5 64 0 85.5 0 112l0 48 448 0 0-48c0-26.5-21.5-48-48-48l-48 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32L160 64l0-32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192L0 192 0 464c0 26.5 21.5 48 48 48l352 0c26.5 0 48-21.5 48-48l0-272zM96 296c0-13.3 10.7-24 24-24l208 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-208 0c-13.3 0-24-10.7-24-24zm24 72l112 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const CalendarLines = createIcon("calendar-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdwAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBfQsGAAE2AiQDCAQgBYMtBzUbAgXIjsQ4JvKLKOwiHr5f6/Pc1/1pGXuJZ5HREXDAxkWNC2D5sE1FRk+H1L7jm/9r6sXzowP8RocS1SALsE5MgYnO06LAZgOb6QRs1q5iiqK0JQ+xaXGne/zs43c7yON5dkEV6Wn6EbfTh8a/2rpAUpcBiCYAmLxy6Xzlv+KviB8qEj+Yi4CYDAqBDBk6CDBOJtBBrkAuF/wVlYr7DywIIKrRhRPIUY0t2A3IQZLn+cCmDRvVr2qYrwgn1Fsr1IsPLR60EQ0j4lmrRz3rRcRZmPWuCZA69oLNDRo2SPG05cMeDeOz1o/bZ5ue96ofH9s+6V4vPrVbXr9efUdKt+r6ZZMv/+PHHT/a+LooipLSbz9lJWUl2U+/lUoKja5caZTnC2dA7oplUppsKJtelDbZuLPl4l8tblnC1jMPge7sQ+z5QCDo2e/C1Y2Nx/1fWz+Bf75u/zNSKUc5fYlaCQRZ/0p/66IMURYAgBQndI0yAskaObxrA48ECPUQIKlWT4BMe00EyNXTT4AqnQwXoFo9S2UirxNaWN9A0sBhkBnhJMi18BWoMs43uWotIlMzVknYv7ykGRydvqkYPLBUjCmmNZXTHDrOji0eW71P+J4+ZqsdDjrgmO222e0Yw4+YXzxuvxkrbLovKgw2UElhjOK4+SitQO6Io3bLwvk6YxXfZ72dWA/vY9yECIeoSBKRGt1CZcDdBAA=");
 
 export default CalendarLines;

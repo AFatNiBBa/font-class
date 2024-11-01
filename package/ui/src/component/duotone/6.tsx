@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `6` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/6?s=duotone 6}
  * @preview ![6](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/6.svg)
  */
-const $6: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M232.4 84.7c11.4-13.5 9.7-33.7-3.8-45.1s-33.7-9.7-45.1 3.8L38.6 214.7C14.7 242.9 1.1 278.4 .1 315.2c0 1.4-.1 2.9-.1 4.3l0 .5c0 88.4 71.6 160 160 160s160-71.6 160-160c0-85.5-67.1-155.4-151.5-159.8l63.9-75.6zM256 320A96 96 0 1 1 64 320a96 96 0 1 1 192 0z" />
-    </Icon>
-);
+const $6 = createIcon("6", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABagAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBSAsIAAE2AiQDCgQgBYMtBz4b2ATIHgl27MRWxHArQ2kJnl8Lnfd37wJAGyRyDA5IIVtAl6hwgde2tcSu1Zdfie8d4gk77+rW+I0fHeCCyN2PjQfygb/veAKNp6/nCSWUaQQQe7o5XBXsYpBfjjyUM0N8HTon5LEsO6NCupNKXLL/AMbf2jlDUi8DEE0BMHX18oU+/BA/pChrL4nSAgTENFAIZMjQUYAJMoGOcgVyueCHVKvxQ9RqBQFElX2yDFSRYyaWAnKQkPK8W4cGlUb5qgaV+utvtY642fpmy+stV8Sb4oQTIr6d+Hbl95Pfr/5u0rtZq1eeaBtxu8f9+md7PWx/N052uNf7UYNzPR+0u6Pb06ZP/6XcUvp9x9mGNLj9+ENdfmZe24hIxPSynB7Toyxjeky99/y/SfPa/NX+Mz7bsKtdu10bPvusffvP4joQCI7d+kJNJvxft0ECP716vEhqP8SU9BR1JRBkA2oDbIgjEFMEACDFEd1iCghkJkpw14ZuChDqI0BSVV+ATAdNBcjV11+Ais5GClBV33KZyOsJLW0EJA3th8woRyHX0guomOALp6plZGziXOB/ucys0cypYuigIcW4YhtwQRCqw/HFsdXniEJfObTFXnscstkm2x2KHLDQP2y3WRWe6UGFoQYZojBO0Y7PZlXOAQdtX6v+mPGK+3YfR+r6vjJPAgx7h4WMSJHVGzVwJHUDV4MH");
 
 export default $6;

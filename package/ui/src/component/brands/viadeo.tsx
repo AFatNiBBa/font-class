@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `viadeo` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/viadeo?s=brands viadeo}
  * @preview ![viadeo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/viadeo.svg)
  */
-const Viadeo: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M276.2 150.5v.7C258.3 98.6 233.6 47.8 205.4 0c43.3 29.2 67 100 70.8 150.5zm32.7 121.7c7.6 18.2 11 37.5 11 57 0 77.7-57.8 141-137.8 139.4l3.8-.3c74.2-46.7 109.3-118.6 109.3-205.1 0-38.1-6.5-75.9-18.9-112 1 11.7 1 23.7 1 35.4 0 91.8-18.1 241.6-116.6 280C95 455.2 49.4 398 49.4 329.2c0-75.6 57.4-142.3 135.4-142.3 16.8 0 33.7 3.1 49.1 9.6 1.7-15.1 6.5-29.9 13.4-43.3-19.9-7.2-41.2-10.7-62.5-10.7-161.5 0-238.7 195.9-129.9 313.7 67.9 74.6 192 73.9 259.8 0 56.6-61.3 60.9-142.4 36.4-201-12.7 8-27.1 13.9-42.2 17zM418.1 11.7c-31 66.5-81.3 47.2-115.8 80.1-12.4 12-20.6 34-20.6 50.5 0 14.1 4.5 27.1 12 38.8 47.4-11 98.3-46 118.2-90.7-.7 5.5-4.8 14.4-7.2 19.2-20.3 35.7-64.6 65.6-99.7 84.9 14.8 14.4 33.7 25.8 55 25.8 79 0 110.1-134.6 58.1-208.6z" />
-    </Icon>
-);
+const Viadeo = createIcon("viadeo", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABggAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCEgsGAAE2AiQDCAQgBYMtBy0bDwXIjtFjRw4rwSOJ5LqOF0GxRtazECBEm0hEFw0A5U8GUREo+Ld6uXfvK4BeAKnj9BKruIyLPm7z9zfP/3kU4AOR2th5IAskmvM8gc6jsfyJxcvDgCGGdJvsySMMXwkRGhEdT3i8IWQxEnvlJMeSAuwZh4qPquogkacAiDIAoO/k2HBcvo7XEQ//7xEFhoOA6Aeog5CivwYCPXBFROCpAzKZ4HX8/7/+AxkEEIVguARkyLEMbIbMsxukGU/Uvr5YLsFLKJ6LFkbQ86TrLdc04o853uPUr3I8mrS13ZDyGJs023S6anVGZ8bzInBHwxG1eb3HPvcm3B97u+Oe44Hnhe6Mxaxe6tEGFLMNKGab9Mr3YkvVA9cTLf/CRaNFvSX9A8sN2tpKZ1l6+aNuwaIC5ZsAqo1qPrhwteKN6zSdrCk2edJlG+WD0dHVQIZK9Wzbs/eXyof7WdUhQ7aqNjc6+P5tLP36S4KSwTP0Pv35+N9gd/4is+Z5K7jPm0OzBsDGPj0zR0pUOuckVPhHdUixS5fPLPpeHRNr1aYfIBD0rJ60Y3bpHr+FxTiAtze+/rT94v8bcSs5gSISEKQt/jeTFveELE4FACCJBjrk4UBiHi47MEo4LEAohgCJQooJkKpOGoFMMc0RyNVij0AhxYzHFZkIQgXpExIlrIVUJ+2QqWAHcj1ca4VUiLTiuHrh/nvJAZH4t7G2FlbMhS1tzhcR0+uubFtp0iAxY2yiQKUKdfLlKVYX6BrhZr1yAYzy9yLGmgUrjAt27J2XE+SrUatYpQpt4ordV4008GxjdMEBtHsrRqyRCBqWZuflVwIA");
 
 export default Viadeo;

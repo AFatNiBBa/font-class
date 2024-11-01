@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-gif` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-gif?s=light file-gif}
  * @preview ![file-gif](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-gif.svg)
  */
-const FileGif: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 480l112 0 0 32L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L220.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 129.9c9 9 14.1 21.2 14.1 33.9L384 304l-32 0 0-112-112 0c-26.5 0-48-21.5-48-48l0-112L64 32C46.3 32 32 46.3 32 64l0 384c0 17.7 14.3 32 32 32zM351.5 160c-.7-2.8-2.1-5.4-4.2-7.4L231.4 36.7c-2.1-2.1-4.6-3.5-7.4-4.2L224 144c0 8.8 7.2 16 16 16l111.5 0zM224 392c0-22.1 17.9-40 40-40l16 0c22.1 0 40 17.9 40 40l0 8c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-8c0-4.4-3.6-8-8-8l-16 0c-4.4 0-8 3.6-8 8l0 80c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-8c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 24c0 22.1-17.9 40-40 40l-16 0c-22.1 0-40-17.9-40-40l0-80zm160-24l0 128c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16s16 7.2 16 16zm48-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const FileGif = createIcon("file-gif", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABnwAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDGwsGAAE2AiQDCAQgBYMtBy8bmgXIjpQuH7Tx8P86s/u+ZMeRZtgTQIWIFxDCXc4CYgUE3XLRAXDtsrj4n8s9v2lRgN8olH+3G2PinDTn8wQCvBdNDBcFEgeWaQLW2zQJ7KiGMDxkSJhzseNsx7Ur5PFmTFUj3ZM+wU3Hh8avBrucJM8ARBcAVh156DbvfRVfRXzSepn4xBYExGpQCWTIMEyApTKBYXIVcrngq2i18D+wIoCoo/dLIEc/PIfXADlIank+t21xR1XW2vMjylqxqSxKUcQjk58YksV9U56cUMZ1fYfHHUQRYYYG3DkkH7q2ebsUF/fdUZ55pyPi3Cvu6CsPu2TEXeUDHh23Ny1j2MZCBI+NuziNbCzbZXFx8/aiiGsH3BlxpHAXJ4iJBWVRMuq6IkQZInp80Rz9RNcTv4/65IxPtHaSVmWnh7u7i4sVfOPD92t+vmePz5vXq+y008zPPs12uljH1Vd3pOTIFb2j5y8ZPfNCHV/tvOjH7jd4srtL95NvdDd0fPVVR0P9pC4n1Q/qjoYRLWMXOwYJylh20EMvvvji7rpYdrRmEh9xVaoo5plmcKWV7XkgEKyoDvx9YufS/xtlAt+88ef/6Wek9V78lZ5AQwJBNrU11XEJuuIvAQBIsd/oBIHkMTV0sc2dAoQCFyR1BWSG6oJcYQrUjDCPD144VCby/kLT8QCSNrsgM98ByDW9CDVLvZ+ua0a2a8U9J/40ZlyviXW7qlnTZ1aLq2mHSBuRr5tLqrBz4v4yMQmOOsOFLrDX6U5ztr1Kv9u23D7nW+/p1vmiyizTzVRZrFruPxqPyMjGPZ235fVtlqjej060358/CTwJGZytLUlEanwhqWlnnn0GAA==");
 
 export default FileGif;

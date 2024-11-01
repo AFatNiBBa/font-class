@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-circle-question` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-question?s=sharp-solid person-circle-question}
  * @preview ![person-circle-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-circle-question.svg)
  */
-const PersonCircleQuestion: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM91.4 128l17.5 0 102.2 0 17.5 0 9.4 14.8 66.4 104c-15.5 16.3-28 35.7-36.3 57l-2.3 1.4-33.8-53L232 480l0 32-64 0 0-32 0-128-16 0 0 128 0 32-64 0 0-32 0-227.8-33.8 53L.2 270.8 82 142.8 91.4 128zM432 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm-22.4 56c-23 0-41.6 18.6-41.6 41.6l0 6.4 32 0 0-6.4c0-5.3 4.3-9.6 9.6-9.6l40.5 0c7.7 0 13.9 6.2 13.9 13.9c0 5.2-2.9 9.9-7.4 12.3l-32 16.8-8.6 4.5 0 9.7 0 6.8 0 16 32 0 0-13.1 23.5-12.3c15.1-7.9 24.5-23.6 24.5-40.6c0-25.4-20.6-45.9-45.9-45.9l-40.5 0zM448 416l-32 0 0 32 32 0 0-32z" />
-    </Icon>
-);
+const PersonCircleQuestion = createIcon("person-circle-question", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABjQAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCXAsGAAE2AiQDCAQgBYMtBz0baQXILgocY3oKh4SpLIb6qO5okXCs+eFwivHw/X6/X/vc+xDxZtbEK9UikQbTxRNeGaYTOoQI//9Q3/wqntz//zF33+Z/4FP0I65N1ZOeLqZNQ6RSiWQc44g3mWXkfdAJ7lyQWExms4f/udzze350gJ+P4ND20ANZYHM2nicQeJSv7QGGWSYJeOYtk1ZE9kkySU3S43ePb9pAHt/ZOQqQ7gWvuM1vGh+0mySRZwAg6gAAy5sZSXgtRjHi67+JF6sggFgG9CGQgQx0IcAcIQJdRDjIiRAU4/9//g/sgwCIEsjPToAclII73ANyQCLORfpu5u7ySrG+KLtSzAoe+ncctnQb9puO22aZmEJF67GrVdJKgFAFERExfXV0JEdOaMqeprjzOMLxyGHwLbsIvfc8phOvk7AHxcS8kmIFopKI1jWKWFWNKp2piRCarHaiR/Mx9ZojW69QsLiB7b7R/i9eZ/e2YmdvoJmV65QpNcwvW95G7bs6Sj/6RONG1RnVA340SZN2hOW1LacEadLG0dHGR5CcQoqendMzPDdIcBKyY2e8VpVVfCUVpIxw+gY0VSi/TAw4zHAR4e8HBAj4+YvdKvyvjADA+6dPPfp/0lLaB2UEgIBs5H9EYYoGGE8AXoputsYHBUhmFcg1VdYEIDAQgESCKWTMGUGOcYMCKwEblGAyCFEuB1EqoiCgpw2EAg2BiNIFiIV7cyWUkcGSBhX9KExI7JGEZXzS05uH8mWqMUgj03wY3zYGukPLhdaiWotmnapUqtPZYe2Sgi5NEi00wRdxPjx540Lx4+JRyHZuuw51c9X5ImH4fcdZtz3sQraAEE4JJQKIpEax4vGBR/WALwA=");
 
 export default PersonCircleQuestion;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `google-wallet` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/google-wallet?s=brands google-wallet}
  * @preview ![google-wallet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/google-wallet.svg)
  */
-const GoogleWallet: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M156.8 126.8c37.6 60.6 64.2 113.1 84.3 162.5-8.3 33.8-18.8 66.5-31.3 98.3-13.2-52.3-26.5-101.3-56-148.5 6.5-36.4 2.3-73.6 3-112.3zM109.3 200H16.1c-6.5 0-10.5 7.5-6.5 12.7C51.8 267 81.3 330.5 101.3 400h103.5c-16.2-69.7-38.7-133.7-82.5-193.5-3-4-8-6.5-13-6.5zm47.8-88c68.5 108 130 234.5 138.2 368H409c-12-138-68.4-265-143.2-368H157.1zm251.8-68.5c-1.8-6.8-8.2-11.5-15.2-11.5h-88.3c-5.3 0-9 5-7.8 10.3 13.2 46.5 22.3 95.5 26.5 146 48.2 86.2 79.7 178.3 90.6 270.8 15.8-60.5 25.3-133.5 25.3-203 0-73.6-12.1-145.1-31.1-212.6z" />
-    </Icon>
-);
+const GoogleWallet = createIcon("google-wallet", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABZwAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBUwsGAAE2AiQDCAQgBYMtBzQb1wTIjtRhLTIW4+FjrfL9hqm5nmPoA2BwyGG3MsSO7UZvxaYiozCniN+nTj3PeSiAbxSUNWgPXGC7a59XIGK9+hTrtmKtotjd2XZQW7RPYilLcpzLLwfI4nU8kJO8TH7F/fyh8YcObpHIUwDRHADT165c7PuGaIj49f9PiF8tREDMAKVAihSdBZgkFegsUyKTCRri///Df2BJAFEhj5iADBXMwmZABhJZljVp3rRFLW+Sranlxcb61e8Oervr20Pe6Xo9VhW14kmb+tW1eH/Ih1OeFWvrV0f04m9rGKP4WdsiZhha7/T8YLysR13zuj+7/7rnV2+mjVnXed6HQ59/3IxZbVu2HDpvM1383oLJyzvv2+ejoWVtTnXo2lHL+myiz+bKzhMa7e29Ca86bvHhv2dOeHe9Y9VWs/OF8260uP2NnaMd6bIbCASTj51vubXZpL+qtQT8/uV/l8vz/xvi86QOVQkI0kH/D7IpvperGp0CMEnijB7wTQKJSTL0ro09EyAUCJCoKARIddJcgExhoAC5rkYLUFFYKRVZI6G1zQ0kGjsOUmNcBpnWPgK5SX5IKlpH6lGUP1Afuvg5GprdVQ4fMqycUE4blXYSgjcnlstSvzNxoj/stcdRR5yy2y77nVLICYvz0w6bY8Gz/VBpuCGGKU1Qbvcfd6+x2wkn7XfUkbTNROV5r58z9vz+oCYEdYRCIiGSJjdHGXz2fU04BQA=");
 
 export default GoogleWallet;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cupcake` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cupcake?s=light cupcake}
  * @preview ![cupcake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cupcake.svg)
  */
-const Cupcake: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M208 0c-5.9 0-11.3 3.2-14.1 8.5s-2.5 11.5 .8 16.4l10.8 16.3c1.6 2.4 2.5 5.3 2.5 8.2c0 8.1-6.6 14.7-14.7 14.7L148 64c-36.2 0-65.8 28.3-67.9 64l-.1 0c-44.2 0-80 35.8-80 80s35.8 80 80 80l288 0c44.2 0 80-35.8 80-80s-35.8-80-80-80C368 57.3 310.7 0 240 0L208 0zm32 49.3c0-6-1.1-11.8-3.3-17.3l3.3 0c53 0 96 43 96 96c0 4-.6 7.8-1.7 11.4c-1.4 4.8-.5 10.1 2.5 14.1s7.8 6.4 12.8 6.4l18.3 0c26.5 0 48 21.5 48 48s-21.5 48-48 48L80 256c-26.5 0-48-21.5-48-48s21.5-48 48-48l17.4 0c4.9 0 9.5-2.2 12.5-6.1s4.1-8.8 3-13.6c-.6-2.7-1-5.4-1-8.3c0-19.9 16.1-36 36-36l45.3 0C219.1 96 240 75.1 240 49.3zM89.7 471.4c3.7 23.4 23.8 40.6 47.4 40.6l46.7 0 .3 0 79.7 0 .3 0 46.7 0c23.6 0 43.8-17.2 47.4-40.6L382 320l-32.4 0L326.7 466.5c-1.2 7.8-7.9 13.5-15.8 13.5l-29.5 0 13.3-160-32.1 0L249.3 480l-50.6 0L185.4 320l-32.1 0 13.3 160-29.5 0c-7.9 0-14.6-5.7-15.8-13.5L98.4 320 66 320 89.7 471.4z" />
-    </Icon>
-);
+const Cupcake = createIcon("cupcake", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABlgAAAKCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCeAsGAAE2AiQDCAQgBYMtBy4bdgXIhof/t/uvfarqA76vCQykDIpkv2zUWvk4FbLGxLl0GTRvAN9HUfKDRAJlnr/An1d7U5VPaKL4vre+J+qQMjokk7GV/O/+7XD9WyjikZigguyhbB/uaIaKX/W4iUyRA4hmACzdvX2j8k/xU8S+Y+8R+6xHQCwDSSDHI/oFWCAX6FdIKBSCn+LYsfwfmAggKhGV+XCBCjyGlwEFyORFMW7mrLqKhmJXXUXt8Te339vREfe5t702nh3zYnfEuzix/7GxL81siA/GvzL0+LiXZz296PNVtVOv76yL98a+NHDdse++OhZv6biv58FJI+rj+c77ex/pemC01KPORFwP1AEvpMWehzoiNnWyd4ua3rc7amNHvGafegR3gTuD93fiXcNebn7599K+s/Y5+EXNmtmr39BWNBya6M1SqZfmM3dF7DqzOYUHVMxYviX9VTM6d93LL1dXtnetWlndqv37/Xm+/7spyZTvws9aVK+cWZUXTQ+93DTRlH3ftd/3XOkbvm2djC2YrPXbb0pd90s67za+PKjhCal4p0GX/vJ4xZ/snA8CweFfPj98ctOC/6vrMvDLx3/+b5x8rBzl7GVUy0CQTzg2wQlRhgSEBtJkcZVhhskCmfvkQEatd78AoRYBMpVqBcj1aRagUGu8ABUGzRSgUq3tclHUCO1OZC1T71ItN8vVWqHdO1qFBb4MV2qP3EntLmb/RcyzaoVX9kpTJ01J85KaMR1+Zy2d89Oxf8xVuWIsNjrLxS5yhTOd4VxXLMJlNsaudKFVFr+SiZKpJpkimSdd55erdznTZS53rotdVLuZLz0fGuMqu/5Y9CcDTPu8QDYlsqrTr7zk9FPPPxM=");
 
 export default Cupcake;

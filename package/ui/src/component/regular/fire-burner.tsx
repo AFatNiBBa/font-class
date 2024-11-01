@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fire-burner` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-burner?s=regular fire-burner}
  * @preview ![fire-burner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/fire-burner.svg)
  */
-const FireBurner: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M345.7 48.3L358 34.5c5.4-6.1 13.3-8.8 20.9-8.9c7.2 0 14.3 2.6 19.9 7.8c19.7 18.3 39.8 43.2 55 70.6C469 131.2 480 162.2 480 192.2C480 280.8 408.7 352 320 352c-89.6 0-160-71.3-160-159.8c0-37.3 16-73.4 36.8-104.5c20.9-31.3 47.5-59 70.9-80.2C273.4 2.3 280.7-.2 288 0c14.1 .3 23.8 11.4 32.7 21.6c0 0 0 0 0 0c2 2.3 4 4.6 6 6.7l19 19.9zM384 240.2c0-36.5-37-73-54.8-88.4c-5.4-4.7-13.1-4.7-18.5 0C293 167.1 256 203.6 256 240.2c0 35.3 28.7 64 64 64s64-28.7 64-64zM32 280c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-24 0 0 80 480 0 0-80-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 104c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l0-104zM48 464l116.3 0c-2.7-4.7-4.3-10.2-4.3-16s1.6-11.3 4.3-16L48 432l0 32zm176-16c0 5.8-1.6 11.3-4.3 16l72.6 0c-2.7-4.7-4.3-10.2-4.3-16s1.6-11.3 4.3-16l-72.6 0c2.7 4.7 4.3 10.2 4.3 16zm128 0c0 5.8-1.6 11.3-4.3 16l72.6 0c-2.7-4.7-4.3-10.2-4.3-16s1.6-11.3 4.3-16l-72.6 0c2.7 4.7 4.3 10.2 4.3 16zm240 16l0-32-116.3 0c2.7 4.7 4.3 10.2 4.3 16s-1.6 11.3-4.3 16L592 464z" />
-    </Icon>
-);
+const FireBurner = createIcon("fire-burner", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABoAAAAKUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDDgsGAAE2AiQDCAQgBYMtBzIbkAURVZoJyX4kxs6QPfLF6xgKe0onHAn+Ibvq/eqeRdcadaCYCZjwYqar6OAAqFHr6e/d+bdNH/AZfaSxbS9qeBfNqUugC6gw35RAl33MEsUG5406oNAU0i/A12/tJATmkAkDO4qSqoBM1mIIeQAAKAEAAGg1oE83Hn/SJ+nd/xvoHV0AAagVAA4BHuABOQiApngIyMHHAT4+gk/6/5/9BzoEAIogwIZy+0A0cBKuAYAPgCHS98ul1rWxsdaGYv3+NhRMSE9JP2C3pJ6pdiH3fdP7fTd/2F+LR00O2BOZq7RK+1L3pVbqd7iydDZtf8reiqczDlU6Y7dUOZc98kgFqxOZB8sGQrGSAp3MGjpoy54EtHJ1EsRpsz0taVX6Aat+NrD76yQQA2YMK722D0uzfkIFPTxe+mzC2aJS4fFhBu24H95sY4xdX7hoUa7ahMNt1Fbh+2pTMS9+xAZb+ykAiUooU+5RdgWoULB+fUGFCtlBYlJ2dlJiMKJCaq+a9EpN7ZVBTz7Rk4wOgw6fSNzGjXEts2Ri/K25obF+dHT9ubhL8broSP1oNLay5ZTEu2DMZdXrAAgQFHf88HhEfNOvUdYA8OVuybfi6f+PzUpzFojCACDwqv6vOtSsBGDrglA1mk/phS8SYDgeSfjUGPYLABEAAsAQQYAA8MgmAQHgE1AFARAij3oIgAgC+uAhPxqRwrAGGGKYBTzqswz4pHANhGjKq0oEKfLuV+5u4/4Wk337LtRun6tVvaZr7GZbKv4WZPRqE7dZrTifj1SCZxk/Y/rccWMnze2Qs7vV501rv0S0+6GrVb2ma+wOdx/K/bEzew5npsXjuzRx14cV5y9PrwQNQ6Cs3WQwIGMffKXa16iNmw0AAA==");
 
 export default FireBurner;

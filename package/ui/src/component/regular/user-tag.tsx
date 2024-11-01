@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tag` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tag?s=regular user-tag}
  * @preview ![user-tag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-tag.svg)
  */
-const UserTag: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 208a80 80 0 1 0 0-160 80 80 0 1 0 0 160zM224 0a128 128 0 1 1 0 256A128 128 0 1 1 224 0zM398.7 464c-.5-3.4-1.1-6.7-1.8-10l45.6 45.6c-5.4 7.5-14.2 12.5-24.2 12.5L29.7 512C13.3 512 0 498.7 0 482.3C0 383.8 79.8 304 178.3 304l45.7 0 45.7 0c17.5 0 34.3 2.5 50.3 7.2l0 33c0 6.4 .8 12.7 2.3 18.8c-16.1-7.1-33.9-11-52.6-11l-91.4 0c-65.7 0-120.1 48.7-129 112l349.5 0zM384 224l82.7 0c17 0 33.3 6.7 45.3 18.7L619.3 350.1c18.7 18.7 18.7 49.1 0 67.9l-73.4 73.4c-18.7 18.7-49.1 18.7-67.9 0L370.7 384c-12-12-18.7-28.3-18.7-45.3l0-82.7c0-17.7 14.3-32 32-32zm72 80a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const UserTag = createIcon("user-tag", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABhgAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCLQsGAAE2AiQDCAQgBYMtBy8bLAXIFkoL8ZRXX6/TGSSTWao3ux8yzwBOgE6+mv9zzef3PBrk25EdWhSWNhbIUdSink9ggKcbVxIMbKYTsO3ORs2xWnuQhJCW47Pjk51DaQ+0/JbV2KC2qJvAKv5QeU0a80FhWwAASCwAAFCnU7sWnH0hL0Ru/D8OcoNmgABIHQAMAliABWQiAFTHQoBMNAbQaAReyP//+B9oQABAAshpCgANBIFJwDwY3wsKW2svw88Mu7anO7q20+lkqYMlD1Q8Vnxfif0VZFkRkd1FdjO78C7inKVF93Ayp9jeN7ldNibXkPWJEVmavFGetHvQyXWXFUBmJ+1wHLlY+ZTxOrpOHxTpIBuUXGJ7WY8ldxRdwp0pm9wOWwtuS91SYGeGvyd2z9vcmwNv8vz92YmdOk08Gwfv5p2Fs1me73tZXs9rCvi2A3e0fsrSD/PxJi/ypGl8blMpWTJ9Yi5O6tTM7sTWLDm6Z/R9OxlO94cO5VlCwrPGjXmbjLfs8NPbEV28ONqoVVKbNknMBwA5rU2pu/t7xVT/GnIVAK/OvP9G/hX9P6umqD1ACAWAgFX8f3G6q9lAUE1BAAAAACUT8dVsQADFKGzYjbBRmwkOVFAEcMAig1jQOBQDm2wqiIdGu8WJDuMm0sOBIsIYsKjIDNAkchRsqnMlDpAolvnJxiP//jIaijTYZMqULG2qmmWhKBYl0mo1c2wWnthIEdjKQEYxkvEMoD9DGA89lhbZBEbQcIc24IsYylCS0hiqYtT1o9GReCzjGDLX9OtUw9x3CzNxP70IOAoRLEtOoUBU6M1GJcb3GQQA");
 
 export default UserTag;

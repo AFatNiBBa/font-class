@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spinner-scale` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner-scale?s=thin spinner-scale}
  * @preview ![spinner-scale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/spinner-scale.svg)
  */
-const SpinnerScale: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 28a36 36 0 1 1 0 72 36 36 0 1 1 0-72zM204 64a52 52 0 1 0 104 0A52 52 0 1 0 204 64zm52 368a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-32 16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zM448 272a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm32-16a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM88 256a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM64 216a40 40 0 1 0 0 80 40 40 0 1 0 0-80zm356-67.5A40 40 0 1 1 363.5 92 40 40 0 1 1 420 148.5zm11.3-67.9a56 56 0 1 0 -79.2 79.2 56 56 0 1 0 79.2-79.2zM131.5 380.5a16 16 0 1 1 -22.6 22.6 16 16 0 1 1 22.6-22.6zM97.6 369.1a32 32 0 1 0 45.3 45.3A32 32 0 1 0 97.6 369.1zm282.8 33.9a16 16 0 1 1 22.6-22.6 16 16 0 1 1 -22.6 22.6zm33.9 11.3a32 32 0 1 0 -45.3-45.3 32 32 0 1 0 45.3 45.3zM142.9 142.9A32 32 0 1 1 97.6 97.6a32 32 0 1 1 45.3 45.3zm11.3-56.6A48 48 0 1 0 86.3 154.2a48 48 0 1 0 67.9-67.9z" />
-    </Icon>
-);
+const SpinnerScale = createIcon("spinner-scale", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAAB5AAAAL9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVCEKQsGAAE2AiQDCAQgBYMtBzQbLQbIngU5mWu6CuHSxNsiky8LDS0evtbQ9/c2CA5PBgiEJDCCVeKStq6OhKxCI9iIThWgR5//ud993xwTb27DdEO9MZLq9g9JLKpUO53GEngk/3Tze88Qdf2Jy53/zibgD8E8k3DsQXPinphAoFEXbaD2eQE9WULa4Lz5gvIeki+Q4xpNpKTHohdwX6fEV3ZuUklRwMSjGXymtd2iHDwIRAjy8v8UiPeyQECsAygFChToFGBRIdApK5FlwQdi+q/+B7oSQFQCMpJ9Ga34BX5DcRNJc5ZYaJUWikprKi2gkEbUUq2EEq6qqpy2ImQVY5YrqinrNcLarKuzOa8dnz0H3nvXc9u2fNVqxXLNet3Gc6wVRT1ts05YYUthazNKq8RNSp+ClRBB2EHKDtdseO7aG3127IK3bTfsOK89B6M979244l0R5H2MXkKU8y099Kxm+h34OP2bVnsKBaP1mipEBVbRKyAxiXwhbX2ltEM4ap0QtXqxFLOiImTz5mmrw/R4TH2g+6Hh8M8L8wLTlp4Hnuj1B7w+krLCCM385ua8huVEdAs6ncAE/ddNAPd0uoll357WxCasCgqsYOFw3dHy8lEdflNjoqmJplL1v5ooOhWqDfr9dS6K/vicRfkHlNjaji9StJ0vyzIOnBYaHk1qtdwERCc3ghN2blQtlWVpxtZ3nGnPadyPNzQtnJpJDjk5nU4zgiBMqnpV7oetro+WW4TveK+o8AAIBFd3HqvVL/5Xq0WAj1cv/AiL/0II6RBQLYGgGDQFOkq0KUNAmLEUQ3BvoF8g+QQD4Neq9wAEhFoESCrVClDo0CxAVmtAgArdpgSoVGuTWGQlQrvjBE/qneCFadd41u4lXmHRq1il9hBzfinXlV57pkrNAinrXMOCQ13jXWurIhl/FivTCa6dTb5DQpcf3AlGty4DaE1aDWS4fXKSgzqlNvGm0OtqzLBRpXnl4MbFIIXmhfu1qpYPX2VBOb2v12Xz4D5oFTH5jtuSJCJp+3t+TSw9gQEA");
 
 export default SpinnerScale;

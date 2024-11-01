@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-from-bracket` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-from-bracket?s=sharp-thin money-from-bracket}
  * @preview ![money-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/money-from-bracket.svg)
  */
-const MoneyFromBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 0L8 0 632 0l8 0 0 8 0 144 0 8-16 0 0-8 0-136L16 16l0 136 0 8L0 160l0-8L0 8 0 0zM512 80l0 8 0 416 0 8-8 0-368 0-8 0 0-8 0-416 0-8 16 0 0 8 0 408 352 0 0-408 0-8 16 0zM320 200c-50 0-88 33.5-88 72s38 72 88 72s88-33.5 88-72s-38-72-88-72zm104 72c0 49.9-48 88-104 88s-104-38.1-104-88s48-88 104-88s104 38.1 104 88zm48 120c0 4.4-3.6 8-8 8l-8 0c-30.9 0-56 25.1-56 56l0 8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-8c0-39.8 32.2-72 72-72l8 0c4.4 0 8 3.6 8 8zm-296-8l8 0c39.8 0 72 32.2 72 72l0 8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-8c0-30.9-25.1-56-56-56l-8 0c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const MoneyFromBracket = createIcon("money-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABlwAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCcgsGAAE2AiQDCAQgBYMtBzkbewXIhof/dL7dN5L9J3IYFCRYIuiIoeI+KX22xWqr0N+fqhkUWss/5yIclHQPrY/JY4zzCvR8Pa2ORfV6rWAVxY7qVRqk/MXx7gJlHHW2Bump9AceiL80/jLA3SRFASC6A2D53p2b/diOdsTvJz8jfrcRAbEc1AIFCgwWYJFCYLBSjVIpaMfJk+w/sCaAaErfnUCJjGfwCqAESbMshwzp1WvAwFajS7mn1aiKVtVNCFEFGO06UHGGP0msM1bEogWFFF1O2/XpuIg3+z81/q3ZX0x8Z9DTE96es/vZeXTW5yo69AUYnfvZOjhk96O9q3i196P9RZd+vG/EMwYY24rH+pzZqlqv7YYHqLKn+z4+poruuSf6jXi7+9v/DP/j3D/8mPPt2YOy7rL7nV44I+OD8smtOecXC/n67EXse/KYeBL84bptd3NVly5X3b2tczLwvLWNIxx+8cXDRxrQCcGp1zVPzy4/8V9HBoHTm1nXmTPbWVc2tiPn3Jbhrqtax38nLrf060Ag+HbQBz+d1m3R/7mVwJ9f//dX87yTP6bb09vIEgiKSScnOZRuB6YPIJfiWiMOthhIHmHbn9rZ4wKECgGSpkqAwiDdBShVJgrQMNRsAZoqOxWi7CT0dsqAks6uQIU5bkGl3j5BDYv8nG3qHUUIdYYv5/9hvjVTcvWmevqUafWCerelcwU6u15dWF+OjbuWj4yHR53rMpe62jnOdoGrJ+KVNheucYk1R/RqP1SbboppagvUj7svfXtw9kpXuWA77Pk6C9Xfp8a59nj6eJhMUtMZqpJEpJ7h2T85LFdMPvPKM8666JyrAQAA");
 
 export default MoneyFromBracket;

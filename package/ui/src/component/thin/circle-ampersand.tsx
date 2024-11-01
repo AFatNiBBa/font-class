@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-ampersand` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-ampersand?s=thin circle-ampersand}
  * @preview ![circle-ampersand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-ampersand.svg)
  */
-const CircleAmpersand: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM192 181.3c0-20.6 16.7-37.3 37.3-37.3l18.7 0c17.7 0 32 14.3 32 32l0 3.3c0 10.4-5.1 20.1-13.5 26.1l-38.5 27.2-25-25c-7-7-10.9-16.5-10.9-26.3zm83.7 37.2c12.7-9 20.3-23.6 20.3-39.2l0-3.3c0-26.5-21.5-48-48-48l-18.7 0c-29.4 0-53.3 23.8-53.3 53.3c0 14.1 5.6 27.7 15.6 37.7L214.7 242l-45 31.7c-16.1 11.4-25.7 29.9-25.7 49.6c0 33.5 27.2 60.7 60.7 60.7l40.1 0c19.6 0 38.2-9 50.3-24.5l16.3-20.8 42.9 42.9c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-44.3-44.3 44.9-57.1c2.7-3.5 2.1-8.5-1.3-11.2s-8.5-2.1-11.2 1.3L310 314.7l-70.6-70.6 36.3-25.6zm-96.8 68.3l47.2-33.3L300 327.4l-17.5 22.3c-9.1 11.6-23 18.3-37.7 18.3l-40.1 0C180 368 160 348 160 323.3c0-14.5 7.1-28.1 18.9-36.5z" />
-    </Icon>
-);
+const CircleAmpersand = createIcon("circle-ampersand", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABngAAAKdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCegsGAAE2AiQDCAQgBYMtBzcbgQXIFkrLw4Od3587kwdwsza7D7kl0VqZ/uafdx4F+IxCGwuXBjKm73WeQGLd88DTLZRpAvZdvrqN5fOzJiIieEQMbcFQtA6dFTLxiC3ySK5KXsUF8aj4RpNTSaQpgKgEwMTli+d68sv4MuLV3H3Eq2YjICaBrEAKSKsAY6TCK2RkkZERfBm5nP8GZgkg8vEvmoAMCnANbgVkQCIvk2lpaRhSXZJXlllWkle8+r2ZES9NvMuJA56c8eKS92e9POnuOGnwM7NfWZ58MD/ijcnPxEmTnp73+rJ357w64UknTnxq7mtLV53UEHFFSUmcU3cZcWLtiOgVl8fSG1oirq6/vFtxXFt7aeOJdT1jRNzYeFXPm7qWxA29W2JsXNZwRf24mBxX1F9eOyGWxegl48eMXxo94sri4ji7/vK4pnunmytv/q7jq9telbtjgn3sL/hz/Pg/C/bvm2CCfR38x6ku5KLRrZMnt46+6MKpDmN/42dV3sTVlTXKzzyzPFX14m5nurlycdd+han0tU8H1Fjw/fd59blt3nBSeREX9vBlt1/dbPHioUNf8aKhUxZPecC0aWZsmPwVt585U76vGnqoefXVmvxWIBDULc/Pra8Y81thSQK+fviHv5WvKPdkIrkZhRIQpH1yfaxJQEIAAJI4plMCgcQl8uCppS4XIBQjQCJfsQCpFpUCZBTrLUCedkMFyFdssVRkioRaaxtIlDoIUsMcBzJq3QPyjPGCmq82UpVSGqPeiPHTRqbOZQf2G5AdlZ2GKi08wsajs8tCj2NKPQG1zX77HLHVFjsdCTtkrnHUXtMydKoXZQ3UzwBZo2S3k8flZbY65LCd9tvnU0bLnld6OJY394ScIO4gnkRCJJWfeVx9N+49sPXQzQAA");
 
 export default CircleAmpersand;

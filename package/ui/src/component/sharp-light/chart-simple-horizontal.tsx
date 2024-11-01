@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-simple-horizontal` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-simple-horizontal?s=sharp-light chart-simple-horizontal}
  * @preview ![chart-simple-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chart-simple-horizontal.svg)
  */
-const ChartSimpleHorizontal: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 224L32 224l0 64 384 0 0-64zm32 64l0 32-32 0L32 320 0 320l0-32 0-64 0-32 32 0 384 0 32 0 0 32 0 64zM224 384L32 384l0 64 192 0 0-64zm32 64l0 32-32 0L32 480 0 480l0-32 0-64 0-32 32 0 192 0 32 0 0 32 0 64zm96-320l0-64L32 64l0 64 320 0zm32 32l-32 0L32 160 0 160l0-32L0 64 0 32l32 0 320 0 32 0 0 32 0 64 0 32z" />
-    </Icon>
-);
+const ChartSimpleHorizontal = createIcon("chart-simple-horizontal", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABagAAAHhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBZgsGAAE2AiQDCAQgBYMtBz4b9ATIjsQ4JvJIFxeUePj/NfO+P7M5u4EiTqsYwQH5OgK9tmUVVxSeLIFOsTBPXJO/+OkBk/jROtfeNOw+n8BE1jov8FnzTCdg83+X/hOS6N8kiU1aO9xeO9x2hDzuBk2k2ymulzuNr7q7RpJnAKIdAGauX71U/VN8ivjQeEp8sBgBMQsUAhky9BJgikygl1yBXC74FI2G/w8sCCBK9FoJ5GjGOmwB5CAp5XlLe5euNNXydfFweXe1VhW1iJFCuRpYWakJa8qVsqhcImWg8tHmENUQtYHlyvG20L+1Xev3fvd98PDjJdBnuGRGoyh+VJihUKMft9clNUN9DX/iENs+fQY8M2Bc8voOezoIBAenHFmwve2U/82VBL68+vmb+RU1PkU9taJZAkE2pMGWqEPUBQAgxTn9o45AskyJ3mrVDQFCGQGSkrIAmZ7aCZArGyxAkz7GClBStlom8hahk60dT6pO4plxzuO5Th7jTaZ4nS3pFBm3eGbwf3Yp80Zo7rJi5LARxaTitq4JdGHT/OTi2BlwLvQNlJ32Oe6YM/ba46AzA3bK0sJZR83boXN9UWGkYUYoTFI8bj1vXmevU0476LhjeZHJivdTA5zbjx4ofqKMo5QkiUhdvyp9KD37hpIPAA==");
 
 export default ChartSimpleHorizontal;

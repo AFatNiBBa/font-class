@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-rook-piece` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-rook-piece?s=duotone chess-rook-piece}
  * @preview ![chess-rook-piece](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chess-rook-piece.svg)
  */
-const ChessRookPiece: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M0 488c0 13.3 10.7 24 24 24l272 0c13.3 0 24-10.7 24-24c0-5.2-1.7-10.2-4.8-14.4L272 416 48 416 4.8 473.6C1.7 477.8 0 482.8 0 488z" />
-        <path d="M48 416L72 264 47 232.8c-4.5-5.7-7-12.7-7-20L40 112c0-8.8 7.2-16 16-16l24 0c8.8 0 16 7.2 16 16l0 24c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-24c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 24c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-24c0-8.8 7.2-16 16-16l24 0c8.8 0 16 7.2 16 16l0 100.8c0 7.3-2.5 14.3-7 20L248 264l24 152L48 416zm88-135.1c0 3.9 3.2 7.1 7.1 7.1l33.8 0c3.9 0 7.1-3.2 7.1-7.1l0-32.9c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 32.9z" />
-    </Icon>
-);
+const ChessRookPiece = createIcon("chess-rook-piece", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABgAAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBfAsIAAE2AiQDCgQgBYMtB1wbKgXIhof/X0vv+zO7Sco4SZnBAUtCXbatqqpjI/bUEuidOvU8timATxLFuc4DskD3OI9AzgtSHIvHOq9QTWtgtXb2n/pBiUVJH3ySYdEZRnvIY3l2WYn0MH3G9fA/gPFVR5dJ6jIA0QIA09asWORtJSopPldfE58tREBMB4VAhgxdBJgoE+giVyCXCyqpWqUS1WpBAFEW4Mx7yyhhK/YBcpAkkefjmrVsXGqar25cajRhzco1/eNeRNxv3zjutsVS45pRB8636RurotGa0SUe9X7cgYe9msazzhfaTY9GMTXuaHjZ4uX3+s+7P6u2v582u2Zv412aVTqoNOugvLWFreUOTFXQ1jm7NN57Tfv7KmuulpY2WFqq13bZsrb1+mazBXlq7awXKl6YVQsEgvTxwPotzSf+r22cwJc3P/9yv6Pq25iaXqJWAkE2sDrQxjgNMVUAAFKc1hBT9UUgM0cSP7WJewKERgiQlDUSINNZCwFyjQwQoKSbUQKUNbJCJvI6oY1NFSRNHAOZ0c6AXBuvQMlE75yyNpHhjEUJ+8tLmq2hWUvFsMFDi/HFNFI46NB+OqFYtvqelko/Wmu3Iw47aZed9jmpyOMW+accMtsiZvmiwjCDDVUYr9hOb6XVyjnuhH1jYX/OBMV5u6/Tdns/Wk0CDL+hXTIiRdZhx95dJ04MOn7kyIFBMNcGgba5U1d4oQ==");
 
 export default ChessRookPiece;

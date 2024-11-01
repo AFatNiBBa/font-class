@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-8` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-8?s=regular square-8}
  * @preview ![square-8](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-8.svg)
  */
-const Square_8: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 80c8.8 0 16 7.2 16 16l0 320c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l320 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm168 96l-16 0c-39.8 0-72 32.2-72 72c0 15.7 5 30.1 13.5 42c-18 14.7-29.5 37-29.5 62c0 44.2 35.8 80 80 80l32 0c44.2 0 80-35.8 80-80c0-25-11.5-47.4-29.5-62c8.5-11.8 13.5-26.3 13.5-42c0-39.8-32.2-72-72-72zm-16 96c-13.2 0-24-10.8-24-24s10.7-24 24-24l16 0c13.3 0 24 10.7 24 24s-10.7 24-24 24c0 0 0 0 0 0l-16 0s0 0 0 0zm0 48c0 0 0 0 0 0l16 0c0 0 0 0 0 0l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0z" />
-    </Icon>
-);
+const Square_8 = createIcon("square-8", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABiQAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCSAsGAAE2AiQDCAQgBYMtBy8bRwXIhqBe51fPk+z1Sp9BS0RHQBkhhEARcpC5LsXoLvXUqec5DwXwOQRBG4v20N2W9zyvQMUWb91ApRYsotjd2ZTtwNrjEEtZkuOb43SAPJ6Nh9RIT6ef8CD/aPxp2G0ktQxAdAFg2/FHH/JZM5oRP7Y+IH50AAGxDVQCGTKMCbBRJjAmVyGXC5rRauF/YEUAUSffmUCOKbgTDwBykNTyvGtkon96WWvPjytrxfmP96d4rK8tnhjI4snB9rNemxvx1lCKp+e9Pas93lzw7mgWz8x/Z3bbsUVZvDb3raGbht8ae37e26vK+GjBu5MvzH92tf+YN0aenVPG68NPzbw5bo4iQujmiGiXcTM8697+x93U91hRxD0DT8TNg0+W5fR3ut75e9pP5/3kxsubHVt1NLeirVuWvNRNd7FV0d390laKQePN07vkBs0VKzqGfv+mHsed21XpOve4qH/4+VDHihXNztOP7O8/skvdDF1gKUOlho677urIfMXvaACB4McHt5x6eufG/xplAn98+u//8OpWMz5L76AhgSBb2FrolPgMEB1AlOI6042CBZIb1UA+tc0TAoQCAZK6QoDMqC4BcoUFAtRMWCVAXeFomcinCn1O7SBpcyXIrHY9yPV5D9Rs9G1U1xeZM5KuRH4F43ZraNe6atnipdX6atnUKP/C0/KGalucex0NzYOdznO5y1zjXOe40DUKucqh9FqX2m3BuxSossxiS1XWq447z5uPc66rXO1Cl7usrLJBdd+d6zp78jxQEsFcripJRGq8Z2nRWgA=");
 
 export default Square_8;

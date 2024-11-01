@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-dots-from-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dots-from-line?s=sharp-regular person-dots-from-line}
  * @preview ![person-dots-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-dots-from-line.svg)
  */
-const PersonDotsFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 128a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM288 0a88 88 0 1 1 0 176A88 88 0 1 1 288 0zM202.2 208l5.8 0 160 0 5.8 0 5.1 2.6 172.8 88 21.4 10.9-21.8 42.8-21.4-10.9L400 275.2 400 432l-48 0 0-176-128 0 0 176-48 0 0-156.8L46.1 341.4 24.7 352.3 2.9 309.5l21.4-10.9 172.8-88 5.1-2.6zM0 464l24 0 528 0 24 0 0 48-24 0L24 512 0 512l0-48zM56 192a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM288 376a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM488 176a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const PersonDotsFromLine = createIcon("person-dots-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhAAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCIAsGAAE2AiQDCAQgBYMtBzwbLAXILgtsY9pwX4QJZBCMZbCId9/2R8pwGs/zP1fe95PM7paIVNlWAlqSyMK1io5nVkRCAtnqKpqfH5fvnxyR/oma6BKObUQoUFyJS0tm19aOyNiYlGCTsh3yhfkuzRqPL049z7RQAN8yCIK2pwWkY/Ge5xUoaKwtbypQwIq1imLVTSmCh4IURWQrErQbsuPL8e4KdT7ltIZyvsCp8qH5ZagTiqYCkD4AwIr1zTl4/Z7vycf2A/LRKiCQFQBjIFSoMAICixEFI5CMAWq18D3tdvwPHAMCpEWvLaBGF3YARwGYi6Kjrnv2nNolxXVvetbrujfdtl+qJqzKT/llQUWGvmamvY2+mbXhIbGG2a37wLRmYrSRpy3SLUm3kbcmE6KPIu0Z/Ohkb+nWK5svWJaeC2uK1irfbjtcIb7mXf8Do5cNPN868ySV7SMVXm79bbWur3S7XlqntMMVGuZ4dNJtczSSvBT3l8Pv20OGBI34U4wObmngwFIj/x7Jlr4d3weAIPzpefZe/LuzewE/n/54XftZWV6uolMBoZrRnqGnLAdEPgLKJfuJnS8Kiu2otIgezgiIbggoWroJqAzHg0Ctm+kGjVFsV7R0sxpR6i4xQC+DooddUFlkF2oDvEBjsZ9Sy4AQiSfTRv7ty4jPSOwYnqs3Yjfe9l0Kl8S878GvgylrMKeSszBm3pwVo0ZMWpnoJbnqqllxj4r5IcxEzwhzw8ej0WgLpSXLJteu80M88PeZ0pq/WiUxgQrO01YUUgbytEW3ZX5lWcdSU8dPAA==");
 
 export default PersonDotsFromLine;

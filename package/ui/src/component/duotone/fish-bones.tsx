@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fish-bones` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fish-bones?s=duotone fish-bones}
  * @preview ![fish-bones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/fish-bones.svg)
  */
-const FishBones: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M2.5 138.6L54.9 245.4c3.3 6.7 3.3 14.5 0 21.2L2.5 373.4c-5 10.1-2.2 22.3 6.6 29.3c4.4 3.5 9.7 5.2 15 5.2c5.4 0 10.7-1.8 15.1-5.3l48-38.9c5.6-4.6 8.9-11.4 8.9-18.7L96 320c0-13.3 0-26.7 0-40l0-48 0-40c0-8.4 0-16.8 0-25.1c0-7.2-3.3-14.1-8.9-18.7l-48-38.9c-4.4-3.6-9.8-5.3-15.1-5.3c-5.3 0-10.6 1.7-15 5.2c-8.8 7-11.5 19.2-6.6 29.3zM416 130.9L416 232l32 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-32 0 0 101.1c0 16.9 17.1 28.4 31.8 20c16-9.1 30.6-19.7 43.7-30.7c39.1-33 66.9-72.4 81-99.8c4.7-9.2 4.7-20.1 0-29.3c-14.1-27.4-41.9-66.8-81-99.8c-13.1-11-27.7-21.6-43.7-30.7c-14.7-8.4-31.8 3.1-31.8 20z" />
-        <path d="M184 160c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-40 0 0 48 40 0 0 72c0 13.3 10.7 24 24 24s24-10.7 24-24l0-72 48 0 0 72c0 13.3 10.7 24 24 24s24-10.7 24-24l0-72 48 0 0 72c0 13.3 10.7 24 24 24s24-10.7 24-24l0-72 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-72 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-48 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-48 0 0-72z" />
-    </Icon>
-);
+const FishBones = createIcon("fish-bones", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABoAAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCdgsIAAE2AiQDCgQgBYMtB1AbmAXIjtRG9VViRRDp/nX2pCd/65lBBgAIMHU2lwlX6bgowy1j/M//5Z7fWnSAH8Bv7No+J8in5uJeAj2fetgawFlgWaSZWIPzBh9yKFNoP0Ie/2R3q5FeSB/jsfh/AONrHd1N0jgDEC0AMGPdqiXe/SK+SPHx/68RH1uMgJgJKoEMGboIMFkm0EWuQi4XfJH+54v4vyKAKMR05ucpUMPLuAzIQRJSns8d2Ltea5qvrdfKTS/2vdBBlCHqIV7oc7lzRFIlXUuXEXG5Fu+2ac3aNc+0WR3Pt32m/lD7afFcRNyR+aK59o52U+PZ8sE2T7fdJdTjYsfne5chnmn7TPvLg67DLZ2fa/fiwGsDL/V99viZNj2vtbj2bY+P937sze5tV6xoO19/w/U332TQ8C44XyTBYeYfJ9PoUQey4MKF3MXxT3Y3NOz+zX31jkqhvAsVjYqift9vNvOfHHul2IM81WevrOzR5N5nXr9l+PsTF1w4evTCwgkfTLvl9WfubQIEgjteO//dtuaTf22oJ/DVO9//3Fz5N2l2uoYGCQTZ4P8H25ymH5D//zNDwPkUZ/WEQdv5JwlklkrQuzbxrAChRICkUAqQ6ayFALnSIAFquhkjQKG0SibyxkIbWwaQNHECZMa6BeTaeBXUTPZesdAmMkuqWTHtFzF77hSZs6gaMXR4NbHarep0e6cE05Oqy6H+Z3nXAOhqr2OOOm2P3Q44PRFPWlI544i5R8IcX1QZYajhKhNVjxsv4bX2OOmUA9vm83kmqb6P9Hf2ePAAuJwEGKm9UEakyFr5t/CQnV7AN8S6d7eZmw4bAAA=");
 
 export default FishBones;

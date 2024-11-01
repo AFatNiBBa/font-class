@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-arrow-down` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-arrow-down?s=duotone square-arrow-down}
  * @preview ![square-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-arrow-down.svg)
  */
-const SquareArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM88 264c0-6.1 2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l71 71L200 136c0-13.3 10.7-24 24-24s24 10.7 24 24l0 182.1 71-71c9.4-9.4 24.6-9.4 33.9 0c4.7 4.7 7 10.8 7 17s-2.3 12.3-7 17L241 393c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7L95 281c-4.7-4.7-7-10.8-7-17z" />
-        <path d="M207 393c9.4 9.4 24.6 9.4 33.9 0L353 281c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-71 71L248 136c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 182.1-71-71c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9L207 393z" />
-    </Icon>
-);
+const SquareArrowDown = createIcon("square-arrow-down", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhAAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBewsIAAE2AiQDCgQgBYMtB14bKwXIjsK2nTPWSMpJio9U4nm+/dp9M7O7mDXvkFw7ngiJREo0i50S/qFxKAH/e7v33LfhZ4gNzIpglRpQCVW/Czg9iwasd/r7ef7PP2jzd4/CxNQCy1iezway8wlE057IhCINcdbOfuAH+kUp6RJChsn/sNlByzY3BmXKF7sFvMn/AOYPhsagGK4AyBQA4OwpNR6KN3pjdCscQr4RBwI5B7CCUFGxgMAhTrBAyQpomtAxQaAjQViBAOlDQFfQRw/P4AVAA0WUpmRkZCFWliplyIqizE27TJo32rJOI6I52w0D0CMB4BnDdI5xbNZh10ZK2077xhzNOe7ZSmjDfscgfVh/2yadiObtNg1BTwTgJzE0l0YTonG9DJoiyz2NvXeL24pb3PtKpY2NeHyUSmNjcUz3Jln3GLHX4Pc8PjY2oug0PFykqbkSjpVpTVE44pzMbVHFhlMhElWwkC8HCMJv79NUoTz4f0jMAD/nn7/ufP8dKdgeYEgBoa4JzvKiAPBUAn6/pAOWUSAZBNUBBv5ax7wjECMIKPpGBFTzNBBoRqwi0LPEB4G+EXc4aeqIOfmVLMa8ktW2frKZc0D2HLpw++bCmRlrJOwvLykWoZhFvIerOx/ID1OFsxw6TAfxy7J9B7ccaE9UaNSgTbky1do0ahEPQbt6sTM4xg3xPLhyxwvEHxe3Uga4LVpV94XzWYLw9w17HfPBDrQcBlh/oFAlhThDXRVdEtLS2OlSpje4KO0A466gog==");
 
 export default SquareArrowDown;

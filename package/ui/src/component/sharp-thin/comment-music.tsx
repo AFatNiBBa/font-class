@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-music` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-music?s=sharp-thin comment-music}
  * @preview ![comment-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment-music.svg)
  */
-const CommentMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M71.9 376.4l3.6-9.6-7.3-7.3C35.2 326.3 16 284.7 16 240C16 136.9 120.2 48 256 48s240 88.9 240 192s-104.2 192-240 192c-30 0-58.6-4.4-85-12.4l-4.6-1.4-4.6 1.4L42.3 455.4l29.6-79zM16 480l19.3-5.8 131.1-39.3c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L23.1 461.2 16 480zM352 116.5l-10.8 4.1-128 48-5.2 1.9 0 5.5 0 106.2c-8.5-6.3-19.7-10.2-32-10.2c-26.5 0-48 17.9-48 40s21.5 40 48 40s48-17.9 48-40l0-130.5 112-42 0 110.6c-8.5-6.3-19.7-10.2-32-10.2c-26.5 0-48 17.9-48 40s21.5 40 48 40s48-17.9 48-40l0-152 0-11.5zM304 256c20.5 0 32 13.4 32 24s-11.5 24-32 24s-32-13.4-32-24s11.5-24 32-24zM176 288c20.5 0 32 13.4 32 24s-11.5 24-32 24s-32-13.4-32-24s11.5-24 32-24z" />
-    </Icon>
-);
+const CommentMusic = createIcon("comment-music", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABoAAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDCAsGAAE2AiQDCAQgBYMtBzQbjAXIhof/t4u671f1iDVwDUAtwEzI5GwYrdhnU0Yb9/xf7vmtRQtkkR/KXXPrx8bisaYmEOC3Lu3lRRBYRHkClm1LDEorgvtJDHEsYvT4CXu89oA8PrVDhfR8uo1H9U3jL+3cRZJlAKIZAKauXr7QV9WoRtyqvU/cMh8BMRWUAhkydBRggkygo1yJXC6oRq1W/gNLAog68OoEctTFi/gEkIOkkuedugxt2bJhpXG+qsEarG5TtGkdX6/6YbWQ360kv12ReGCU+74iVsTqFb179F4d7zf8Yf6tyV92f2nSF/Nurvp2zvUJn5XfLV0RbXcXbYoVUYQQzzR4oHiq7fOtnm74YJtnO0SsZqbn6/Wx4ulWEU+7wobimdbPxNVVbQTe7a1mb/3T9fau22bPHoP6U7qbHounjcrk7nCpZXzsMPD8VEOd7qbTotG7ewJ+Ry/vDJ7tgRc7d65fv2ZffGA2A4n5u7qutW3xvpdxz+XBpqrY50bL4peb3Pyl0Jo7HO7r0I3y85AhPzs9p9HgB6v3cLpevdP3VIcnnbjcxT8PBIL+lTXfbm464f96DRP485P//qKfkVo1SW+hngSCbEBtgA0JJAIAkOKUbgkCyZMqUG3kGXGy2gAhoI4GVM100OxScw30Vys6G+narFsuE3l9DhQ2JjVp5KiaGeWimiu8q1ZMcK1URxFZsHpCzfOrWHCWRWZeKocOGlKOKx/7pjf+XH1/fLmd7HOK5/rSTbscdsgJO+2w1wkjHrOwetJBs1bCTB9UGmqQIUrjlK9H++ur7HTMcXsddmicM155HvRxar26L2USmA7TkSQiNf46wgMDGQ==");
 
 export default CommentMusic;

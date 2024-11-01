@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `atom-simple` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/atom-simple?s=light atom-simple}
  * @preview ![atom-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/atom-simple.svg)
  */
-const AtomSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M175.1 438.1c-50.8 16.9-82.3 10.1-96.7-4.4s-21.3-46-4.4-96.7c5.4-16.2 12.9-33.3 22.5-50.9c16.8 23.8 36.7 47.4 59.4 70.1s46.3 42.6 70.1 59.4c-17.6 9.6-34.7 17.2-50.9 22.5zM55.7 55.7C16.5 94.9 27.6 173.9 76.8 256C27.6 338.1 16.5 417.1 55.7 456.3s118.2 28.1 200.3-21.1c82.1 49.2 161.1 60.3 200.3 21.1s28.1-118.2-21.1-200.3c49.2-82.1 60.3-161.1 21.1-200.3S338.1 27.6 256 76.8C173.9 27.6 94.9 16.5 55.7 55.7zM178.5 333.5c-25.3-25.3-46.6-51.6-63.8-77.5c17.2-25.9 38.6-52.3 63.8-77.5s51.6-46.6 77.5-63.8c25.9 17.2 52.3 38.6 77.5 63.8s46.6 51.6 63.8 77.5c-17.2 25.9-38.6 52.3-63.8 77.5s-51.6 46.6-77.5 63.8c-25.9-17.2-52.3-38.6-77.5-63.8zM155.8 155.8c-22.7 22.7-42.6 46.3-59.4 70.1c-9.6-17.6-17.2-34.7-22.5-50.9c-16.9-50.8-10-82.3 4.4-96.7s46-21.3 96.7-4.4c16.2 5.4 33.3 12.9 50.9 22.5c-23.8 16.8-47.4 36.7-70.1 59.4zm200.3 0c-22.7-22.7-46.3-42.6-70.1-59.4c17.6-9.6 34.7-17.2 50.9-22.5c50.8-16.9 82.3-10 96.7 4.4s21.3 46 4.4 96.7c-5.4 16.2-12.9 33.3-22.5 50.9c-16.8-23.8-36.7-47.4-59.4-70.1zm0 200.3c22.7-22.7 42.6-46.3 59.4-70.1c9.6 17.6 17.2 34.7 22.5 50.9c16.9 50.8 10.1 82.3-4.4 96.7s-46 21.3-96.7 4.4c-16.2-5.4-33.3-12.9-50.9-22.5c23.8-16.8 47.4-36.7 70.1-59.4zM256 280a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const AtomSimple = createIcon("atom-simple", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABoQAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SCUwsGAAE2AiQDCAQgBYMtBzIbVQVRlM3FANnPw5jI1MdqXC5HtCGmGMrwov8o+8yLrf+3+yYe/n+/b/vcd0eleRST1dXahOKNBE0lVCpNq5cwi0om/z/2V+/vpk1Co5uyxBMSp6tdKFInptvp8g7OC3U4hAShpPSBeU5MCwmxs2bY58Wp55kWCuBbyIK2hwZkgYTG7j6vQAHH9mVSsICUC0Rlr7WzS71BPmWQpC+fMGw+w+IOOT6HRBnpfToDnvKbxj90D0hyASAaAbB64LHB1h1yH8if0kH8YQECYg0A3QIFCrQLsKAQaJd1I8uCu2i36T+QQQBRLr2WQEYVHuIlcgdJRc4RTsTjx2NqUBaRaJSSdwuMkjI5V/b4ofkWuaHVKhjJsKXEbrMdfufLvt9p6birZ147790X64Gj/qKp+1dP8w37+pO/WukTuFzIe7RlV0lh3jX9razsyyxIg3UEmxlb4B87bMDYhG7kaWm9O6niXStnHFOYA+3POzvLn8FSVaQFcPlhjk/d7P0cwePVsxM9w+c+gPN1e9Z3fu3TPz/rfdeihLYNkP0zMz5fqZTTFVKf/YCXsoqfvOzdpPLn5jpakd5FNf4Ir17sjbQ2D4/U7JIKn7G4yGRXZgJAvPSnInKRwC78r6xJ4O+nv3/3JfjSVbykOVRKICgGShKniTZt8QLBUYpbYCkjCyT3VQDCWm9W01BNg6RcNRTaNEJWrR/KdJrkJk/vQItcJbQ6AyS1LqAw5R5krT5CmQXfo3KtgbZIwZ6ED2Gqvkd0mxhKmYKhYQxzVTQyLqxqGdOuoMf3hLgJeQ11XXKySro6uoMt7Vaj1yidETGMGjKi25zu5Wp52S+nQ6eShnpcZ173+bDHrT69FwFKYh2TSRKRal6kIb3U");
 
 export default AtomSimple;

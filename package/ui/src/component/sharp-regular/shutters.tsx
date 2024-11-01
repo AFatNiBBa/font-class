@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shutters` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shutters?s=sharp-regular shutters}
  * @preview ![shutters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/shutters.svg)
  */
-const Shutters: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M24 32L0 32 0 80l24 0 464 0 24 0 0-48-24 0L24 32zm-8 96L8 176 0 224l48.7 0 414.7 0 48.7 0-8-48-8-48-48.7 0 8 48L56.7 176l8-48L16 128zM8 304L0 352l48.7 0 414.7 0 48.7 0-8-48-8-48-48.7 0 8 48L56.7 304l8-48L16 256 8 304zM8 432L0 480l48.7 0 414.7 0 48.7 0-8-48-8-48-48.7 0 8 48L56.7 432l8-48L16 384 8 432z" />
-    </Icon>
-);
+const Shutters = createIcon("shutters", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABZwAAAHkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBXAsGAAE2AiQDCAQgBYMtBy8b2wTIngPu7BCLiiIW0yLG2L0/i7ctz+Oh2I/1dr8gJhWSJq/Q8FCsMoRCaDRLdE/hLF5lLlm+/P2Psfk+YvqP5Fqhkdym0sTybiVTF715qsv32pAM0AWf/8vpjedHB/hJTg9tzJFt8Dn9EghwbM9LJAss0wQsa2ev/CfRDRYkIkm7+mH1gDKe41FFPuYfbuOHxj9j7klVAYDoBQA7J/UaPvYZ8dtMfLEHAmIHMItQoMAkAuuEApNEZkGpFHxqGv4PZAggauBVCUrU2AenAEqQylKkNKOqrNSiVrqv6LcrFYgONZFiMul1ucodT0xHO7mjk7zR3hh041Jyod3za936v7/Vn5EnGypx2H678Of4impI/LhCgEgPYrR89ERXpa5u7PMAgeDsujUea8v/ZUoB4FeYn5HmlM9olSAoFptFgwQkAQDIOOdLCKRdInjXTncChHYESLV2AQoTdAiU2i0gUJmWQaDW7oBQlHKEQcMKUqcrUFhzAUqDnkBl3We9NhiFWjFKwXzqEqstWtnGiWicizxty6ymUH69xNum/1zGAnQXKwf2nVpa2HLa4MdqrTN7qius4otYQlQcK+Lj3v31lqVjJ7Yc2A+blPD91O98PTtAjgBIl8j5BAdSdnJ5dnq6PD4BAAA=");
 
 export default Shutters;

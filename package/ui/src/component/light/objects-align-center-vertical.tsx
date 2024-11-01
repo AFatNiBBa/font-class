@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `objects-align-center-vertical` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-center-vertical?s=light objects-align-center-vertical}
  * @preview ![objects-align-center-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/objects-align-center-vertical.svg)
  */
-const ObjectsAlignCenterVertical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 64c8.8 0 16 7.2 16 16l0 176 0 176c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-176s0 0 0 0s0 0 0 0L96 80c0-8.8 7.2-16 16-16l64 0zm48 176l0-160c0-26.5-21.5-48-48-48l-64 0C85.5 32 64 53.5 64 80l0 160-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 160c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-160 64 0 0 96c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-96 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-96c0-26.5-21.5-48-48-48l-64 0c-26.5 0-48 21.5-48 48l0 96-64 0zm96 16l0-112c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16l0 112 0 112c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-112z" />
-    </Icon>
-);
+const ObjectsAlignCenterVertical = createIcon("objects-align-center-vertical", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABiQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCQwsGAAE2AiQDCAQgBYMtB0QbVwXIjsQ4JvKLGERXxMP3a32e+7rn127PMvQSkQImB6wAOIQu7MLC0VRsKpIgWWrf5/9yfO+eHx3gNzqUMVZj0ViW7oVja5TgRVs0zLIw0wQsa3MoqIMRtz5xiP2biMP0NSw9II8Po78K6U76BpfON42ftXWGJM8ARBMATFm6cIHPalGL+Ob/iG/MQ0BMBaVAhgwdBBgvE+ggVyKXC2rx///5P7AkgKiDpyeQo4JzOA/IQZLleYcFLauVhvmSaqVYeaOlENdbFHGzVcTJdGXErdbVxSHutrrZs4jnLa63EYUFt0LVj9xpeaNHNV5ufat9BOPPDtxsVUSk0OKwrjd23dj1tSav/dLlmy3fePt4rdE73tGoNpkUA5rAoLcfwyf79rvBkw3+7tvsscF0vLc32GN5drJ1rK4bqBcTk9c23gd6R3KffcQXBIK//PrQcm78r/WqCfz0wb86fkX/15L0GupJIMj6/8+qBBIBAEhxRNcEgeSYDF61gZsChAIBkjqFAJn2mgiQK/QToKKTEQLUKSyUiby+0MLqCyQN7AeZkY6CXAvvg4rxPs/WaRGZJ9J+RP8IJsxkeMaxcsjAweXY8rZKGOci6/S4ctjofaR09QknbbHXHodstsl2hwg9YEHhsN1masgMX1QaYqDBSmOV041bYQllDzhoe181v8o45fpob0f0wX2CnQBzqJIkEamjl0oDPkR5wPugDvBxAA==");
 
 export default ObjectsAlignCenterVertical;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `anchor-lock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-lock?s=sharp-regular anchor-lock}
  * @preview ![anchor-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/anchor-lock.svg)
  */
-const AnchorLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 80a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM288 0c-44.2 0-80 35.8-80 80c0 35.9 23.7 66.3 56.3 76.4c-.2 1.2-.3 2.4-.3 3.6l0 32-48 0-24 0 0 48 24 0 48 0 0 224-144 0 0-112 72 0L96 256 0 352l72 0 0 136 0 24 24 0 192 0 96 0 0-48-72 0 0-224 48 0 24 0 0-48-24 0-48 0 0-32c0-1.2-.1-2.4-.3-3.6C344.3 146.3 368 115.9 368 80c0-44.2-35.8-80-80-80zm96 352s0 0 0 0s0 0 0 0s0 0 0 0zM528 240c17.7 0 32 14.3 32 32l0 48-64 0 0-48c0-17.7 14.3-32 32-32zm-80 32l0 48-32 0 0 192 224 0 0-192-32 0 0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80z" />
-    </Icon>
-);
+const AnchorLock = createIcon("anchor-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABhgAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCZQsGAAE2AiQDCAQgBYMtBzIbZwXIhofn9Z469yV/kIyRkTM0O2gBtoN2xc5NMSgXrnhx6nnOQ7HocwiCNqYtDcjYxT3PK1DQMQdJsFZR7OrciA7EQjUT5kfI4+94VoP0Wvoez4QRjR90dYOkkQGINgCYvXHtcl/ejbsR3/3/HvGdpQiI2aASyJChhwDTZAI95CrkcsHd+P9/8R9YEUA0EUctgRxN8SLeBuQgaeR5+9mt23YpGy3zDWWjOHilQ8SLxeOdXo6rnV8pn+j4kg3vDo641eNK19cGXCGKQpSlKCKijA2xLsoQomwZU7mM7XkRV+Nm9zfi7aF3Jmy+Gn0uid34RMeIl1ymXjDWCQVGgj6+5buDb/Xoe6fNnZ/6fH/gezNPtnqUR1sVaeLu3ivb7GdDdP/zwSMpVeoutS71Xc86ZZGdO9noRR7VRZeqtsjdzZ6VlB558Gf32LC/DU+PdZ75IlCbpSZ6r+xd13XlS3d9iUnO4G32b4iPAkHvz8+/vbP1tL+alQnc//iXX1Q3//9lupLuoJkEgmz4/8NtS1dAEAMwU1zQd+OLAsmTGuJVLbwsQCjoIGmigEx3bSBXGAYNvYynDo5eKxN5c6GD7RiSFk5DZoKLkOvgHWiY5iujiQ6RgSYDWMyfYeKCITK/WzV6ZF1NqVbTGhbaKNs+tTosD74gy4bgmQ446YRz9tvnsHMD7Izl9nnHLdhC5/uhymgj1SpTVJdzT8UN1DzjrMPL3PVOpqqe1we7sF17CNaSmHSMuCQRqfQ00ghvAwAA");
 
 export default AnchorLock;

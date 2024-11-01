@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `syringe` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/syringe?s=sharp-thin syringe}
  * @preview ![syringe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/syringe.svg)
  */
-const Syringe: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M416 4.7L404.7 16l5.7 5.7L444.7 56 384 116.7 301.7 34.3 296 28.7 284.7 40l5.7 5.7 88 88 88 88 5.7 5.7L483.3 216l-5.7-5.7L395.3 128 456 67.3l34.3 34.3 5.7 5.7L507.3 96l-5.7-5.7-40-40-40-40L416 4.7zM132.7 240L66.3 306.3c-1.5 1.5-2.3 3.5-2.3 5.7l0 124.7L5.9 494.8 .2 500.5l11.3 11.3 5.7-5.7L75.3 448 200 448c2.1 0 4.2-.8 5.7-2.3L425.4 225.9l-11.3-11.3L196.7 432 80 432l0-116.7 64-64 58.3 58.3 5.7 5.7L219.3 304l-5.7-5.7L155.3 240 208 187.3l58.3 58.3 5.7 5.7L283.3 240l-5.7-5.7L219.3 176l78.1-78.1L286.1 86.6 208 164.7 196.7 176 144 228.7 132.7 240z" />
-    </Icon>
-);
+const Syringe = createIcon("syringe", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCMAsGAAE2AiQDCAQgBYMtBy4bLgXIjtRG+UVWEg//P/f5+9ykAJwZVWZ0QKQbW1d2vDx9liS/ole17/9zzednTfe8PohcxvOzWOM8E1NgmDYaVvJEBjbTCdj8dn56ISkhi3Qph+sPy++G9S//CHm8sF4N0r30GVfSh8Yf2jhJkmUAojEAxiyaN8PbX+KXiE8VxCfTEBBjQCGQIUN7AYbLBNrLFcjlgl+iUnH/gQUBRE0ZTewcVx7GWUAOkpTnPcbVq9EgX2h3rLupeavmLWJEzI6F0TKaR4tYEAugtyK5hTEvRjh9ZNnQcvX8RfNvErO39FYrpl5caLUoNT/qRlB7zm7z3CGxRnPJ3dVl4/Kvqs8bP3vyvCzLCap8Nmeu+UoTLFpUJeTNneOzplY/VNj5bX8fO+b1ptkJ9yzw3AT3nJBVffuu9OWLAw6ouH8x/NR4hDNmKNt7xiuBQFB98If1qxoN/7t2vQR+e/4P4VdUeRv/pBK1JRBk3SvdLU9QI/4RAIAUB1UnCCS7JfmV+m4LEOoiQFJTXUCmncaQq6sb1NDRgCNqqmueTOR1hOZWGJDUtwcyA52AXHPPoIbh3qVrah6ZAkrqI33+pU+kyIRZRZ+evYuhxbKgyzolxMFhxbHf+aBv6GK22miXnfbbYL0t9hN6rxm5A3aYyFETfFGhj556KwxViMvP+kIwe+2zxd0pn2aY4vmgs4N8+y5mPQnQ99XNT0Sqte/I3v+RAAAAAA==");
 
 export default Syringe;

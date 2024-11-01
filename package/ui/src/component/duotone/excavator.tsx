@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `excavator` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/excavator?s=duotone excavator}
  * @preview ![excavator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/excavator.svg)
  */
-const Excavator: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 432c0-44.2 35.8-80 80-80l256 0c44.2 0 80 35.8 80 80s-35.8 80-80 80L80 512c-44.2 0-80-35.8-80-80zm64 0c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 416c-8.8 0-16 7.2-16 16zM416 160L562.7 13.3c8.5-8.5 20-13.3 32-13.3c25 0 45.3 20.3 45.3 45.3L640 320l0 64 0 48c0 44.2-35.8 80-80 80l-78.1 0c-18.7 0-33.9-15.2-33.9-33.9c0-9 3.6-17.6 9.9-24L576 336l0-208L416 288l0-128z" />
-        <path d="M238.9 64l64 96L160 160l0-96 78.9 0zM384 208l0-17.5c0-15.8-4.7-31.2-13.4-44.4L292.1 28.5C280.3 10.7 260.3 0 238.9 0L144 0C117.5 0 96 21.5 96 48l0 112-48 0c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l288 0c26.5 0 48-21.5 48-48l0-48 0-16z" />
-    </Icon>
-);
+const Excavator = createIcon("excavator", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABlAAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCQwsIAAE2AiQDCgQgBYMtB04bYwXILguyMQSb9UcZmGGy26tu1PM5+qM24nn+9/u2z70zjolFPLNozES8izZvrpX1QyTkRxZ9i2qN/OxpvzZv998B57qIezLxRiORRSxaVq2Huvp6Tyez5p4IoZ1XwP/zf83n9/zoAD8fwaFFYVnlsjDz+QQmstZKKx/YbKa43VWjSLLmIWlJGcnjZ4/f/W4NfSW03kA/lOeswV38H8D8NtcihV8FAJkCAPaN15Thvk1b8t1FGgdAgOwHLEGgggoWIMBOHIEFJAL0kRC0pUub7hIIQAaA96+AATAILoO7gD5AwfA+yS90tnr5aL9aqserFC2H6usUIVLWBV111KeXosixaXkOyLz/uXllpTpn1rX5FKK9SMpVqjq34RcLt9ec71DlLuJykfKxWZ016+osVZZNA+O1DWujN80rSkBo5ThFliyruWptSKg2CehNufxrU+Pf5T2Hc8FdR1TcuzuVVtqfnEPklA5x366nxNn0vfiHb1uW8PwtdHQZg5NTYMrJMWLaZe6d1NJOKvLhyQ/IbJj+HULIE2ct4SDN841J8MC5+Pf2rStAQODVu4+x8//QKAPw6/3r4TrlCuuBIQwQqBu6DVrLFcChAxApmRcgfJOAqhRHnzrBqgBCAQIo5BQIUDnpEKCPQiQC9PNIRoABCjU46vMDMWljwKhMAS7FApCYXAOZLG8hOVOqKpKKRH4JxpX0UPE4sTUmTmSIaVGjtAuPw5lim18z75vCYSH6TRg3q0+vIbMdMq0sOmdMiQQX+yEhXow4QgZxXHmcXa/PtBlDJoynUTKJ+2qYeblzOEgMYW4zseKQQlx/8tIvIdzZienoR91kHJjnCwAAAA==");
 
 export default Excavator;

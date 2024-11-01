@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-turret` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-turret?s=regular house-turret}
  * @preview ![house-turret](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/house-turret.svg)
  */
-const HouseTurret: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M56 48c-4.4 0-8 3.6-8 8l0 147.8c0 2 .7 3.9 2 5.3l55.9 62.9c3.9 4.4 6.1 10.1 6.1 15.9l0 200c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-190.9L14.1 241C5 230.8 0 217.5 0 203.8L0 56C0 25.1 25.1 0 56 0L296 0c30.9 0 56 25.1 56 56l0 68.6-48 44L304 56c0-4.4-3.6-8-8-8l-40 0 0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-40-64 0 0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-40L56 48zm120 96c22.1 0 40 17.9 40 40l0 40c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-40c0-22.1 17.9-40 40-40zm100.8 93l128-117.3c24.5-22.4 62-22.4 86.5 0L619.2 237c13.2 12.1 20.8 29.2 20.8 47.2L640 448c0 35.3-28.7 64-64 64l-256 0c-35.3 0-64-28.7-64-64l0-163.8c0-17.9 7.5-35.1 20.8-47.2zM304 284.2L304 448c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16l0-163.8c0-4.5-1.9-8.8-5.2-11.8L458.8 155c-6.1-5.6-15.5-5.6-21.6 0l-128 117.3c-3.3 3-5.2 7.3-5.2 11.8zM400 296c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24l0-48z" />
-    </Icon>
-);
+const HouseTurret = createIcon("house-turret", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABlwAAAKUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCfgsGAAE2AiQDCAQgBYMtBzMbgQURlZoPyT4SY/fQHWuK5lxM4ksEke71Z096Bj0DyU5YYTmA/Am4AuqIueOiD7SfKQDm/5p8754fHeDnIziUCutVWaR2P5/AAKMx4/l4o+FsojjbZrkkLWFQg4QEXeH/D5PD+lvI4++4RYN0b/oKN9cPja+NdB1JIwMQPQBYd9hB+/hkd+yO+PL/N8WXdiAg1oFKIEOGMQKslAmMkauQywW74///839gJYBoIe+eQI5WPIwXADlIGnm+thwz2NNsdOaHNhvFUXcMiKvKA+JO4p7JT42KODDuioj7h+6e1ownyztHipURcddgETBbfYdcX4bPcsdAgc0RV3tWbh5y2MGHPd+8fviQeJa4p35mckc8Nf05Hnr1jFnCnWVn3D1kRg0eGncNHBx3OOT+j6SRT8pF8PMmPtfz3LcTvjr1qyU3H99yh6z3Coe2f6Y84IDyY0N2lXdo/f6/839w/n/ft27y9wVajq/V0FVbq+fUlx3X+zzv9da6ds+1u6vW+97zvScffeXFzV2NGFHRQOvHPKHo7X2ER0Z08YQx6196QohjiOcJrRv38tNP95kbW49rlgfMdUA5V3kcBII7883nHNe98te2ZgJ73/v+N+nk/z9JV6Xn0CaBIJv5/8yj01WQsQEEUlxqIviiQHK3BnnVDncJEAoESFoUAmRG6xEgV5ghQMM4iwRoUThIJvJ2YcAxEyQdLgCZxS4HuQGvg4aVPvW3GIgsTpkoY/4SE91mC2/qV82bPbdaXm2zlA09CnavqK7l+lKuGqalTj3v3ItPOfmMiw164T6hS87ZjJBNP6zmzZ5bLa/cBVf5UGO58CJ2nXeuv5cV1fuO+lLceJi0RHDnJySJSB0xHD/r4ksuvPCUiwEAAA==");
 
 export default HouseTurret;

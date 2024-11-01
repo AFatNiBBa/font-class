@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `earth-africa` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-africa?s=solid earth-africa}
  * @preview ![earth-africa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/earth-africa.svg)
  */
-const EarthAfrica: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M177.8 63.2l10 17.4c2.8 4.8 4.2 10.3 4.2 15.9l0 41.4c0 3.9 1.6 7.7 4.3 10.4c6.2 6.2 16.5 5.7 22-1.2l13.6-17c4.7-5.9 12.9-7.7 19.6-4.3l15.2 7.6c3.4 1.7 7.2 2.6 11 2.6c6.5 0 12.8-2.6 17.4-7.2l3.9-3.9c2.9-2.9 7.3-3.6 11-1.8l29.2 14.6c7.8 3.9 12.6 11.8 12.6 20.5c0 10.5-7.1 19.6-17.3 22.2l-35.4 8.8c-7.4 1.8-15.1 1.5-22.4-.9l-32-10.7c-3.3-1.1-6.7-1.7-10.2-1.7c-7 0-13.8 2.3-19.4 6.5L176 212c-10.1 7.6-16 19.4-16 32l0 28c0 26.5 21.5 48 48 48l32 0c8.8 0 16 7.2 16 16l0 48c0 17.7 14.3 32 32 32c10.1 0 19.6-4.7 25.6-12.8l25.6-34.1c8.3-11.1 12.8-24.6 12.8-38.4l0-12.1c0-3.9 2.6-7.3 6.4-8.2l5.3-1.3c11.9-3 20.3-13.7 20.3-26c0-7.1-2.8-13.9-7.8-18.9l-33.5-33.5c-3.7-3.7-3.7-9.7 0-13.4c5.7-5.7 14.1-7.7 21.8-5.1l14.1 4.7c12.3 4.1 25.7-1.5 31.5-13c3.5-7 11.2-10.8 18.9-9.2l27.4 5.5C432 112.4 351.5 48 256 48c-27.7 0-54 5.4-78.2 15.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
-    </Icon>
-);
+const EarthAfrica = createIcon("earth-africa", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjQAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCRQsGAAE2AiQDCAQgBYMtBzMbSAXIhiB6j/rqSRZwTvAD5D8T/3M5vWGbDvCDyM3l52MXZXM+T6Dn6fRpcYALLNMELHVTQkEPQfykSFEnJey4th7fzp0gj7uzo5SQzk/P4NT6ofG1DkeRVGQAoh4A89Zdc2UPfBAfRDz9/63E01YgIOaBQiBDhm4BZsoEuuUK5HLBB/H//+k/sCCAKNWIxMrlYUfjNEAOkpTnW3RVldTk61SVVG7Y0dlxNnFYy9ltXXFuS0ucXXViW5sigw60nNc8Mc5qHRznVJ7QPFUbiPNbzh5UteXdvKs6Ji6MiMMRXtt1eOts6G28f3UXe9Nrqzy3zgkT13p9QcTDqz5fdeLKz857cO1X5j6w0jOVJ6wPzn9onf431N/wbb9ntnnGjYed3p5wcsUwpRPuvOAF+93ymfmlldtMsHCN59xa45eprrjyT/NKqo7e2d/N3bJn3xlb+KB2rNrjjqutv+hwD7RUK1t9NYOyqn1ZZ51jb/rExMs3ePAqjfPXX3+p4bNvfMCiCjpufnDBggdv7qiwyLak+0EgqF754Rmb1s38tbwqgY/u+v4P/Vf0/wNJugHlEgiykf+PtFECiQAApNhH/wSB5GCJBNXOYbNQyYCkVCVkutRDrtIIKNFrEu/cvqZM5BVCs40BSbXdITPZwZBrdjOUmOnxuFRzZKEoBpL4JZi22OKL1hXjRo8tpheXTSpFF1+WZxRub+g+eWgYjtrGrnaxl61tZXt7GW4PK2d729niE7vIFxXGGW2swnQF3XnW1pF4D3vafq/wq8xQ3B8Mtc958jBsJgHGP8S6RKTq99sZ9cMI/pabAw==");
 
 export default EarthAfrica;

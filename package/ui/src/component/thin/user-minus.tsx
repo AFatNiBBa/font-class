@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-minus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-minus?s=thin user-minus}
  * @preview ![user-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-minus.svg)
  */
-const UserMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 16a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 240A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 64l91.4 0C359.3 320 432 392.7 432 482.3c0 7.6-6.1 13.7-13.7 13.7L29.7 496c-7.6 0-13.7-6.1-13.7-13.7C16 392.7 88.7 320 178.3 320zm0-16C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0zM432 200c-4.4 0-8 3.6-8 8s3.6 8 8 8l192 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-192 0z" />
-    </Icon>
-);
+const UserMinus = createIcon("user-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABhAAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCJAsGAAE2AiQDCAQgBYMtBzEbJQVRVA4KZB8JuYnWS0QUETGUZYihHGhDNBd+RfD9WNv3/kfMMpewhEdpGjpNrBEizVIl5Cvhhkom6X3+vT8TaN8NKLZCRZc52S6AaqhO/p/+5p93Hi2QZxTaHhrIAonmPE8gwfK88z822Lcvit/a2SX9IPrFoO8Tn2TY3jAqO9T4loqTfMsmnspHxacpraRSAMQgALB3HuIHtIWtiOb/JtF0CATEPsAiRMHGLASb2AW9A4dFoKqCVvz/5/9ARRBAtOP7TVDRgSvgEYAKUlutMzNtYXEW4WQ4wgknX0yPGuKk1BA0Sg6qTvB1q09JD2OTzIjGNIEeHcR5nXls0p6LOF+35gwOjVqzd0QcCR+5stsK6xVlYb/4jcN2BF4GIp6GNor1EQZ7JAbwOvg8nC+iV7RPjOCARL84n/Kc4Nyn0mH6Ibwsy48DjL++yssTPj4uL8/J2o8KBaByjLIyI0epCkWgv8TyWVzx6BFdWbQVKAtdH49cUdAblYAwejMdlUwrMA8dDHoLL3lj7P+MRC6uRCqtHgeB4OjANCZBwParkyT4eP/+RSf7p/mQc+iUICiN/4bYbERnPkAAQMYdZeOLAukCJ/7UXs8ChG4ESO26BShmCEJQdVuGoM08MwjadTvGLmqXMCpOQOp1CYoNdaAatQ7abNpx241GcT3aceiHX4K7htyWFI30DRWtFaeRxngTmaY2isuGZjlVtLAJ6QrkK5UmVZZShRTzC8rkcbdgNz+kyIg+Q4qsKW6n90J4cIuVyBpz+3NsKJ53NJXb7Vqw2TDhilBKIruvq6L3X71YAgAA");
 
 export default UserMinus;

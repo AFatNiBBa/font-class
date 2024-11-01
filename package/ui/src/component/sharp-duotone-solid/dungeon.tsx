@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dungeon` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dungeon?s=sharp-duotone-solid dungeon}
  * @preview ![dungeon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/dungeon.svg)
  */
-const Dungeon: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M176 208l0 16 0 240 0 16 32 0 0-16 0-240 0-16-32 0zm64-32l0 16 0 272 0 16 32 0 0-16 0-272 0-16-32 0zm64 32l0 16 0 240 0 16 32 0 0-16 0-240 0-16-32 0z" />
-        <path d="M319.3 144.7L367.1 25.3c37.9 18.3 70.6 45.6 95.3 79.2L355.7 175.7c-10-12.4-22.4-23-36.3-30.9zM337.5 13.2L289.8 132.5C279 129.6 267.7 128 256 128s-23 1.6-33.8 4.5L174.5 13.2C200.1 4.7 227.5 0 256 0s55.9 4.7 81.5 13.2zM49.6 104.5C74.3 70.9 107 43.6 144.9 25.3l47.8 119.4c-14 8-26.3 18.5-36.3 30.9L49.6 104.5zm322.9 98.4l107.2-71.5C500.3 168.3 512 210.8 512 256l-128 0c0-18.9-4.1-36.9-11.5-53.1zM32.3 131.4l107.2 71.5C132.1 219.1 128 237.1 128 256L0 256c0-45.2 11.7-87.7 32.3-124.6zM128 288l0 96L0 384l0-96 128 0zm256 0l128 0 0 96-128 0 0-96zM0 416l128 0 0 96L0 512l0-96zm384 0l128 0 0 96-128 0 0-96z" />
-    </Icon>
-);
+const Dungeon = createIcon("dungeon", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABmQAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiDAAsIAAE2AiQDCgQgBYMtB0obnAXIHgdu7DQvi2pdBDke/t+u7/e5t7rX6+pBj1wD6RPRwIqg6JMpgEiMnNpxN1UVJ7OUcLqbuKZ+61OBFPmj1aKaCkfd5xMYYIVF0m4CE5rpDGzL5jC/iIc2QvwFivgkn1Mj3Zs+xs3hfwDjV/2cI2lkANECwIXLFl3r9a/iqxQft18gPnYNAuIiUAlkZAwUYIEsMFChQqEQfJXabb6KdrsigKgL782gji64Hc8CCpA05KIou3SUZSMFuh3RrHUuljZr5bZli5d9cCFx36j2qMV3ldf1XBovN6+fuf6tq40H+i7dsPbss0vKON1/45KlS+5RxpfTFcqIaHZulk3hTeuJekEvExKiGWlWebWQDJS7Xnl4YNhjrcd+H/rWnTdp8rEs//6Ld1zmn6udHe/6j/8mbfX48buHrLr4fuJx9T8sdtGGnZfTJT+65JRBDy++fBea8fKgU1zy47rWM/4p651ySqxD60+e1KZTLOLpP1tpzl9aKi1G256hLaxVefg6EAga/45rXdcF/3c0E/jmtT9/IT8k7deT9Bg6JBDkCe0JVieQCABAiqOGJXhGIFuuIf3UTu4SIJQIkNSVAmQDtAQolMYLUDPYTAHqSotkUTSEntYMTNLJASab5ThT6Ol5pmaB95J1PSNDqgxn8n9i2sum8KXTqqmTplTzqt2yTgE+0Y7Pry5bxxyVbWPxXlvts9dhW2y2w+EJcdC1mSP2uOwIv9QXVaaaZIrKPNXj2svtS21x0CE77LPXTzJf9X1wjKPHvcdiR5IKTnNFlokUuevmI3u3bdm3d2KMN3WbqqM2");
 
 export default Dungeon;

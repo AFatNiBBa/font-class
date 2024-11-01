@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `forklift` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forklift?s=sharp-regular forklift}
  * @preview ![forklift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/forklift.svg)
  */
-const Forklift: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M120 0L96 0l0 24 0 136-48 0L0 160l0 48L0 368l0 48c0 53 43 96 96 96s96-43 96-96l64 0c0 53 43 96 96 96s96-43 96-96c0-28.4-12.4-54-32-71.6l0-56.4 0-48 0-4.7-1.8-4.4-88-216L320.1 0 304 0 120 0zM240 240l-96-68.6L144 48l143.9 0 78.2 192L240 240zm-15.4 48l15.4 0 128 0 0 33.3c-5.2-.9-10.5-1.3-16-1.3c-35.5 0-66.6 19.3-83.2 48l-89.7 0c-16.6-28.7-47.6-48-83.2-48c-17.5 0-33.9 4.7-48 12.8L48 208l64.6 0 99.5 71.1 12.5 8.9zM96 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm256 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM528 24l0-24L480 0l0 24 0 400 0 24 24 0 112 0 24 0 0-48-24 0-88 0 0-376z" />
-    </Icon>
-);
+const Forklift = createIcon("forklift", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABjAAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCWQsGAAE2AiQDCAQgBYMtBy8bWAXIhof/15nd9yX7OFIIZlhBgiWGCoHLbZGqVEsT19SP86fC5id4tEiL3gZS4JnnE9j5KEqjPIpnA9lNFDc4b8IhZyiUbyGPv+N6NdLN6TNcZ31o/KbZxSS1DED0BMDC7ZvXeuvr+Dri0/+fJz61GgGxEFQCGTK0CTBHJtAmVyGXC76O//9n/4EVAUSd89IEcjRwNW4G5CCp5/nEsrVbtz5lrVu+rawVu4uyEKKAi8TtIx+e+uLoRzvLNHHHqHCi/rFNnlZs2bZ1W0QZW6NoK4tS3FBcOeS+piJuGfZAKjd/02/L/c03N9005IGWW1pvHd7NNndvBASYwrKMfFWRDXqk5yN/DPzs0M+c9maTQ7jchNBdJNl45JHzzw8aC9K1yt9mmKCmj+1f2VfP+X/tt8Q461mut/ZN5/7Vo8d1Ax3faN2z5v1d3l+zp7V1zTkWOnCZj85ff9ePL774411hg0L45PYm5/YTNLlek6bLJ2jacToQCPZe8/mX+/WYs7dRJvDtK3/9JT75/7fS+ekRNCQQZGP+H2NPOh8wP4BMilMN6hlhILnYHn7Xrm4QIBQIkNQVAmRa9RQgVxgtQE2HqQLUFTbLRN5F6GufnEu6OoHLTHMOl+vrWa5mjg/TdX0jeyjlR0r+J8xYVoaXDqsmjptQzao681LlORN1/+xqtDXiVF43Eq50qOMc62SHONgRTi6hJ1qbO8UxlvUhS/1QZaJxJqjMUs0uXTe2YfJEJzkicOz8QWar1k+NcGp/65HQTRzBScYmiUiNQ4878agPFwA=");
 
 export default Forklift;

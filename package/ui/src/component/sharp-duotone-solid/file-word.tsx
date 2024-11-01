@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-word` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-word?s=sharp-duotone-solid file-word}
  * @preview ![file-word](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-word.svg)
  */
-const FileWord: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 352L0 512 0 0zM57.7 240L113 430.7l5 17.3 18 0 8 0 18.4 0 4.8-17.7 24.8-92 24.8 92 4.8 17.7 18.4 0 8 0 18 0 5-17.3L326.3 240l-50 0L244.7 349.3 220 257.7 215.2 240l-18.4 0-9.6 0-18.4 0L164 257.7l-24.7 91.5L107.6 240l-50 0z" />
-        <path d="M384 160L224 0l0 160 160 0zM107.6 240l-50 0L113 430.7l5 17.3 18 0 8 0 18.4 0 4.8-17.7 24.8-92 24.8 92 4.8 17.7 18.4 0 8 0 18 0 5-17.3L326.3 240l-50 0L244.7 349.3 220 257.7 215.2 240l-18.4 0-9.6 0-18.4 0L164 257.7l-24.7 91.5L107.6 240z" />
-    </Icon>
-);
+const FileWord = createIcon("file-word", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABfgAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCJAsIAAE2AiQDCgQgBYMtB04bRAXIjsO44TsyxVT+4+H/1/63z515j/9nvmM2iGuCJG7JpNIsQaZCwhNewltETzTWesms+jRxufO3TQ+47J3n9gcZk/6edmOfJ9B5lHXpBgoooS5LIBNvcN7IdDqUIcSfIY8r2R010uME993/AMZPA90hac0ARBcAVmzZsN77RjRSfGu+IL5Zh4BYCSqBDBmGCLBYJjBErkIuFzRSs0kjms2KAKLOgRmzjn7oOO4BcpAkKc97jWsfV9ba881lrTiyedNmUe4tymJTDIyyHBxbossWsTE2xyDsFQPg52VlUYoyUrRFbdOmzZsun4pi5LOuf49wmOvDnwTaU097N/PQ3LeW6xm0woAdXF0xuMutFGcadtKA7TN3yIqWM877RmCflOx1gwV/JRdH458xEwgEHR/+D9vTufhfS5nA95d/f2gebr6PG2m0SCDIJjcn2xk3gDED+FIpLhsZNyxEIDNbEl61zQMBQoEASV0hQGawLgFyhUkC1AwzR4C6wgaZyFuFPnYNRNLmHJGZ6yqR6+M5UbPYx6CuT2RlTyg5wp9f6topsGZXNWPq9GphtVvrxOLE6c1F1WV3/GU+MQEeddgZp110yEHHXJzg562PLzll7RG2xhtVZphquspC1ePupboZB+ddcGxbfr7NItX3/niXj+dPgPtJgJmpVsmIFFl3Pdem1E9zSiWe6L2QqysA");
 
 export default FileWord;

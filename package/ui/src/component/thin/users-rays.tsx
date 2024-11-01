@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-rays` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-rays?s=thin users-rays}
  * @preview ![users-rays](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/users-rays.svg)
  */
-const UsersRays: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M2.3 2.3c-3.1 3.1-3.1 8.2 0 11.3l80 80c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-80-80C10.5-.8 5.5-.8 2.3 2.3zm635.3 0c-3.1-3.1-8.2-3.1-11.3 0l-80 80c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l80-80c3.1-3.1 3.1-8.2 0-11.3zM13.7 509.7l80-80c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-80 80c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0zm624 0c3.1-3.1 3.1-8.2 0-11.3l-80-80c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l80 80c3.1 3.1 8.2 3.1 11.3 0zM272 192a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM224 360c0-30.9 25.1-56 56-56l80 0c30.9 0 56 25.1 56 56c0 4.4-3.6 8-8 8l-176 0c-4.4 0-8-3.6-8-8zm96-104a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-40 32c-39.8 0-72 32.2-72 72c0 13.3 10.7 24 24 24l176 0c13.3 0 24-10.7 24-24c0-39.8-32.2-72-72-72l-80 0zM152 272l64 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-64 0c-30.9 0-56 25.1-56 56c0 17.7 14.3 32 32 32l32 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-32 0c-8.8 0-16-7.2-16-16c0-22.1 17.9-40 40-40zm-8-96a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm80 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm264 96c22.1 0 40 17.9 40 40c0 8.8-7.2 16-16 16l-32 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l32 0c17.7 0 32-14.3 32-32c0-30.9-25.1-56-56-56l-64 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l64 0zm8-96a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm-80 0a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-    </Icon>
-);
+const UsersRays = createIcon("users-rays", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAAB5gAAALrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhViESgsGAAE2AiQDCAQgBYMtBzEbSwbIHgPuCkQh6pyQXoNNKFrV+mo8fL/2O/ftfrWEZ0ia8NDwUJgOKdEsJELXkCjhD5Vqsv5/+637wGcQzcwhrZg3VangdV3qNi/hh8bpa7HNe8C9K+yMpZiLqZuz///91EX7zoCe+Hwo90ctWgursJt3JjDAaMriHR/YJmwb3XY1RDwURmgcII9/J5Ska/YHzt38eHHYgSTLEFTR9Zm2j6tL8TGOccRf8Qrx5AEBsQNgFiFDhkkE1sgFJinMglwuGEdRmP9AAQFEGVCRrMvRBb8QfRgOIWnnCr3eYN3WlmWWYtDDlXpFHV/Gml1LLbk371pHntkIzTXUA2auJ+ieqK+pz2itNy6SG9/ZFzTn6vTwyRN9dtYENyKv4XS6uA/XzMiz1r+Ha391v9gLdxnTTizRxe5XnM6vwNiBmtVxxr2bZ2V0Mrv2jcVdceqCi9ncvFXd5mXm6pjdho2hqzxaPcQD+kye7H51as6vzuOFyI1nIJnpXjgdb14KrB7dZesP2Ik4nEVeoWeHSHOM86q/+uee+v7QQ0wuL0f1fs6uSIyBp7Bs/B8PTA9QnYnVSaPZbGx5eYyph2JvshD8T1Rg4j+UlTse0FFu74+LcThi4sBm69ISLLXtuw+oHBkSl6SKdWNegDWwUpe3I6Z98LaF7hABqd27/Xrq9qEZ4JBlsZqKB2E2zXwN3PYM0i7cxqlD/6d5OLW0w68DBILfs9XxdmPWW85lgOfb0HdxZfFfPKYtdgWoSiDIFooFLWljgfffAyT4UszBCX9JIHlFG3Q0XRwNhjoNSsrqKDPBhHJ186hkWjK+cfY+uci1CEOtECVNZyizahXlhp5RyZpPX9kw5F8D+S6T/6JxJV1h8SARHxMnMsRsVkW94LjuzhSbLWFzvCocrkSfcWNm9OoxaKajnFIanDWqZEm9+LtCvBhxhAzicOEhV9fxTZk2OM0c7yeTuN4RZm65cTi0ywSNixKSRCT2cfmipzoXpwEAAAA=");
 
 export default UsersRays;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stairs` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stairs?s=sharp-duotone-solid stairs}
  * @preview ![stairs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/stairs.svg)
  */
-const Stairs: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M128 352l0 64 64 0 0-64-64 0zM256 224l0 64 64 0 0-64-64 0zM384 96l0 64 64 0 0-64-64 0z" />
-        <path d="M416 32l-32 0 0 32 0 32 64 0 96 0 32 0 0-64-32 0L416 32zM384 160l-96 0-32 0 0 32 0 32 64 0 96 0 32 0 0-32 0-32-64 0zM160 288l-32 0 0 32 0 32 64 0 96 0 32 0 0-32 0-32-64 0-96 0zm32 128l-64 0-96 0L0 416l0 64 32 0 128 0 32 0 0-32 0-32z" />
-    </Icon>
-);
+const Stairs = createIcon("stairs", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABcQAAAHrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBdAsIAAE2AiQDCgQgBYMtB0gbDgXIHoPjbolCIEyx6MsjNwyGiuBpvzZvdw8R75A04ZmGJw/FOhcazdKRCZGQCf2kUsK3Yk33EYS8iQIEF0VcRgfkVGxBxxWVrawjD7g1682GNsb7n2v63fOjA/xGhxZVIAVytA6dwEArbT6EmaSBzdrZDRiUbpHEJz7JsL1hdIcSP9w9aqQv9hNv6X8A49+se5LeDIAYAQAcXjQbWLSYVorP6hHizzEIiCPACgYZGQsYsIMTWMBbAUURtFJ1oBXVCQggusCXmEEXenEFHgAUkBS58IZlaYqiaILBd/pr6kZfv4oQ/RrDqK2uoUCB7xZEH9Wtdszt+Rc/1z/RaBC3gxTrRVDjaja7FlT2mlcKhfL+VbG4KIK+EVxdFynAzXm9qo8DBIJqz6tTa+cbGgvo/Db+h6Qye5B+QI8Egrz2L4zSAZAOMACAFOccqQjqAtk2Hm8NeBcg9NEg6dIH2Twbij6rULMkdrtLnxOcKArChHGDZMAjZNsuoJjwADU7XtIuE8HZGG0h9A8voS7R2jIK+YOUpmVFZcyGjJMZ2jac56HDhZNYd2DfqTWrtpwK/FijOLOnrmE1T0RC/IJIGh3XH4WOSI+d2Jpz54tk0P3E6Vzv74LNIuG621kmEsOZJy9LW8cnPltV7J57kwAAAA==");
 
 export default Stairs;

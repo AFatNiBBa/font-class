@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen?s=regular pen}
  * @preview ![pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/pen.svg)
  */
-const Pen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M36.4 360.9L13.4 439 1 481.2C-1.5 489.7 .8 498.8 7 505s15.3 8.5 23.7 6.1L73 498.6l78.1-23c12.4-3.6 23.7-9.9 33.4-18.4c1.4-1.2 2.7-2.5 4-3.8L492.7 149.3c21.9-21.9 24.6-55.6 8.2-80.5c-2.3-3.5-5.1-6.9-8.2-10L453.3 19.3c-25-25-65.5-25-90.5 0L58.6 323.5c-10.4 10.4-18 23.3-22.2 37.4zm46 13.5c1.7-5.6 4.5-10.8 8.4-15.2c.6-.6 1.1-1.2 1.7-1.8L321 129 383 191 154.6 419.5c-4.7 4.7-10.6 8.2-17 10.1l-23.4 6.9L59.4 452.6l16.1-54.8 6.9-23.4z" />
-    </Icon>
-);
+const Pen = createIcon("pen", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYQAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBQAsGAAE2AiQDCAQgBYMtByobugTIhof/t4u671d1D6Aa2xEU0SdXSGTLbFMwk7Ldnv/L6Q3bdIDf6PDM9m7qWF425/MNllgvb4sXBZYotjuthZWmvUhkSY5vx6tcII/XcUmJdDt9jov5S+MnzZwmKWUAoi4Axi6eP9OHb+PbiM8qT4nPTEdAjAWFQIYMLQUYIRNoKVcglwu+jUol/AcWBBBlgiVWjg+OwyxADpKU5x0a1yjVyhf5VPXFC+jxlnGt0fUmg2Nx3Gtys8nmuNvibvMbjUfFw+pnumyIa00HTrQT8NrimBsL4lrDDjEh+keLdg/rPvyl7eebPtd+UeOZruGlkbdvf3FX/UAdf65Xr3dvvzdq9GjAgMPaNm/Wt3cf/2/8svMi+OEHX/nhR4dOHrJb2WIgEHRd9WOf1XVG/FO1RgLfv/rtX3qy8l/lbYr0EFUlEGQ9Kj2sSBSocijASopD2kGTQDKMufGuNd0QIFRHgKSsugCZFuoKkKuuuwAlrQ0UoKy6+TKRVxMaWtlAUtNekBnkCMg19BiUjPBRpaxhZIYkmoH4jEub1KMTjxV9e/UphhXLliLZBp9WhxfbXpdDcaQrnLXJbrscsNEGWx3omH1m1g/aaZJGT/RDhb566aMwTHHcfTy9yEb77LfVbrt4neGK+/kuDunTu0KYCGs/hST5TzizZ+MuAA==");
 
 export default Pen;

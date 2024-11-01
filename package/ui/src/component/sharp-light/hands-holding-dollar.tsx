@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-holding-dollar` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding-dollar?s=sharp-light hands-holding-dollar}
  * @preview ![hands-holding-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hands-holding-dollar.svg)
  */
-const HandsHoldingDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M336 32l0 9.6c5.9 1 19 3.5 24.1 4.9l15.5 4.1-8.2 30.9-15.5-4.1c-4-1.1-17.7-3.7-22.1-4.4c-12.8-2-23.6-.4-30.9 2.9c-7.2 3.3-9.9 7.5-10.5 11c-.7 4.1-.1 6.2 .5 7.4c.6 1.4 2 3.1 5 5.1c6.7 4.6 17.1 7.8 31 12l.6 .2c12.3 3.7 27.9 8.4 39.5 16.9c6.3 4.5 12 10.6 15.6 18.8c3.6 8.3 4.4 17.4 2.7 27.2c-3 17.5-14.6 29.4-29.3 35.7c-5.6 2.4-11.6 4-17.9 4.9l0 8.9 0 16-32 0 0-16 0-9.6c-9.4-1.7-23.6-6.6-32.4-9.6c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-1.8-.6-3.3-1.1-4.6-1.6l-15.2-5.1 10.1-30.4 15.2 5.1c1.9 .6 4 1.3 6.1 2.1c0 0 0 0 0 0s0 0 0 0s0 0 0 0c9.5 3.2 20.7 7 27.1 8.1c13.3 2.1 24 .8 31-2.2c6.5-2.8 9.5-6.7 10.3-11.8c.8-4.7 .2-7.3-.5-9c-.7-1.7-2.2-3.6-5.1-5.7c-6.5-4.8-16.7-8.1-30.5-12.3l-2-.6c-11.9-3.6-26.6-8-37.7-15.5c-6.2-4.2-12.2-10-15.9-17.9c-3.8-8.1-4.7-17.1-3.1-26.6c2.9-16.7 14.7-28.4 28.8-34.7c5.6-2.6 11.8-4.4 18.3-5.4l0-9.3 0-16 32 0 0 16zM112 64l16 0 0 16 0 185.4 36.7-36.7L176 217.4l11.3 11.3L320 361.4 452.7 228.7 464 217.4l11.3 11.3L512 265.4 512 80l0-16 16 0 96 0 16 0 0 16 0 304 0 6.6-4.7 4.7-104 104L520 510.6 497.4 488l11.3-11.3L608 377.4 608 96l-64 0 0 192 0 6.6-1.4 1.4-3.3 3.3-8 8-72 72L448 390.6l-4.7 4.7L432 406.6 409.4 384l11.3-11.3 4.7-4.7 11.3-11.3L497.4 296 464 262.6l-128 128L336 496l0 16-32 0 0-16 0-105.4-128-128L142.6 296l60.7 60.7s0 0 0 0l16 16L230.6 384 208 406.6l-11.3-11.3-16-16s0 0 0 0l-72-72-8-8L97.4 296 96 294.6l0-6.6L96 96 32 96l0 281.4 99.3 99.3L142.6 488 120 510.6l-11.3-11.3-104-104L0 390.6 0 384 0 80 0 64l16 0 96 0z" />
-    </Icon>
-);
+const HandsHoldingDollar = createIcon("hands-holding-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAAByAAAAL0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiEawsGAAE2AiQDCAQgBYMtBzsbdgbIHoPjbgyYLDHpOyhiiXoezz8c/s59jbnt00/XAkzH0sCmF0ehRIEsTeBDwdv1Vc/MwnMrvrMdQZGw+4/hd3gRlDkJHIIRs1b5/Y97d/53awD9e1yOYy4ek/c+TyDQMbl93gWUFZUlip3pFfI9VGXn3iO057d64EG9W6/hLXnR/Ms5jeK0ASDDAGD/bP5Mnr7Rm+h1C/JpOgTkALBM0AZtME/AFptgnsNAO4fwo///nf9AgwDSScYopnaTymR0A+AOitXuHK4LeSLOonB3cDNydqKaSimrtGppL9aQvJY8DnKqHVOq79j6ktc76LmIeiUTaukzOiEbpdIqKKVqqkLXn5376jN1Opmu5XZK64waOvW+zK3O8GBJCokFfcEQol1llNJCLY6cI0WaE0IlNK4Fpb+bMpSEraCA5iTOnMQrcv98jTIrjkcv0gjN1acMfhel6RNapLQiSwVlaSFegeNL9o5Quxa35VPb15tem/0RzN7Ks3ZP3x9efaDP+Zo+/eqvebyoWZsAm43q8hm9lm7ZfymAy3AFff8oACwPf+COD5hlACB+XR537arP28bqVx3oIh1mqsuX91qyZf/lNfzfFTdbxD3jtWp1+sVV9Prx8K4u996lD5/xNt/RapP71l2RM8ZTfNB02ORTWo2nrB3gvofw8MDWUxq2ToxgFtPivk1a/QehxYf1gy5PGSOnVklRbPTI8Xz6cLmAQPB1st6rYyN+dYcswN/9v2lvbj2t41YL6GYBQVvjf8OKOg44kgIkKodoZ35RoBLFkj1rvxoBEYQAxStIQJsCl4B2Qd0J6FA2kIBOQfPZ1B5AklaOYAnbC7ZBjoAj6S54jPAs7pWM/XSorm3Vz2n6SXNk4izTt1cfM8wQK3r1Ba8IJ4cbbnuXQ6Cjq76XTXbb5YCNNtjqwEy8z8zUQTtNonEn+iGjr176MIYx0vWhfpHp32e/q8Cbjfw0w5n1w10covfvqn/QAmjK8oqFVPLxNfe83Uw9PxQAAA==");
 
 export default HandsHoldingDollar;

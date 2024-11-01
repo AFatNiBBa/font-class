@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-radar` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-radar?s=sharp-regular chart-radar}
  * @preview ![chart-radar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chart-radar.svg)
  */
-const ChartRadar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M155.9 432l200.3 0L456.7 256 356.1 80 155.9 80 55.3 256 155.9 432zM0 256L128 32l256 0L512 256 384 480l-256 0L0 256zm290.2-75.2l40.2 100.6c17.1 4.6 29.6 20.1 29.6 38.6c0 22.1-17.9 40-40 40c-15.9 0-29.7-9.3-36.1-22.7l-97.2-19.4c-7.1 6.3-16.4 10.2-26.7 10.2c-22.1 0-40-17.9-40-40s17.9-40 40-40l57.6-76.8c-1-3.6-1.6-7.3-1.6-11.2c0-22.1 17.9-40 40-40s40 17.9 40 40c0 7.6-2.1 14.7-5.8 20.8zM202 271.9l79.2 15.8-31.7-79.2L202 271.9z" />
-    </Icon>
-);
+const ChartRadar = createIcon("chart-radar", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbAAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBagsGAAE2AiQDCAQgBYMtBzIb7ATIjtRWcxRJchPP//+9uc/9b9K6dU+oUqdagYMhijXQIY1IVjQCY/Frv9lvgurD3O4Q8yaWSGZZzJqHzg8FSOSb/n6e//NPH/AZfZRo68BIXef5BCaQ5wMfpw1sphOwmZvGGTCgCNnii2CQ0mELHbZeoeWeZiGlvkVfgHf90PzD0jRQeh0AMgMAOH4pysGLjnREn8IlkB9kgUCOAawhdOiwhMAesWCJxBpomvBLghD/AxkQIEOQ+yjQMIQb8AqggdKaRKt1laulWgmnlqp4tUrNE0cqKqYSji/mtVTSL2uIayjhSjYtx00WVVtWHIUDM2bLNGG+4sYTB5umSzD44gsMF+Id9wz2fhy+mr+wof8mZuMxWH6DRhvHY99JAEAQgcgh062BLt/YGt7tG45v1hph18Bw/85wru8h4hImQ1VAv9Q0pXx5rj7dyC4PAgBBGPzmjtboR/8r1CLA393fH/RXNNCJUH3AiAKh2xC8UVmAIgCAyjAcCwjKCQl51wkfIBBjCChDxgR0Fhkg0IxZR6BnRQgCQ8Y8EEtTIhZUDVAmvIHOrhHQLDgHPXte4yELEXsX5RvUv1186gql7GMBvv4skh27Gu0wRN6OYtei+zBPeeAymvXoNqhJozaDFqRfTjakS6oFp/giJoAvf0wk9njwfp7TpN+ANj26yy5R2Puuu2F7sQcUEUHd1FCKlPq7qvn01zXW9QMA");
 
 export default ChartRadar;

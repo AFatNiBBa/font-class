@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowl-scoops` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-scoops?s=regular bowl-scoops}
  * @preview ![bowl-scoops](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bowl-scoops.svg)
  */
-const BowlScoops: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 208c0 5.4 .4 10.8 1.1 16l221.7 0c.7-5.2 1.1-10.6 1.1-16c0-61.9-50.1-112-112-112l-1.1 0c-38.7 .4-72.7 20.4-92.6 50.6C230.7 164.2 224 185.3 224 208zM0 208c0 5.4 .4 10.8 1.1 16l191.7 0c-.6-5.3-.9-10.6-.9-16c0-22 4.9-42.8 13.7-61.4c-19.8-30.2-53.8-50.2-92.6-50.6L112 96C50.1 96 0 146.1 0 208zM325.4 64.4C307.5 26.3 268.8 0 224 0s-83.5 26.3-101.4 64.4c40.9 3 77.1 23 101.4 53.1c24.3-30.1 60.5-50.1 101.4-53.1zM173.8 368l-2.2 0L145 368c-41.4 0-77.2-26.3-90.5-64l339.1 0c-13.3 37.7-49.1 64-90.5 64l-26.7 0-2.2 0-100.3 0zm36.9 78.7L224 430.8l13.3 15.9L251.7 464l-55.4 0 14.4-17.3zm92.3 3.9L274.2 416l28.8 0c10.6 0 20.9-1.1 30.9-3.3c58.5-12.8 104.3-61.2 112-122.8l2-15.9c.6-4.6-.8-9.1-3.9-12.6s-7.4-5.4-12-5.4L16 256c-4.6 0-9 2-12 5.4s-4.5 8-3.9 12.6l2 15.9c7.7 61.6 53.5 110 112 122.8c10 2.2 20.3 3.3 30.9 3.3l28.8 0L145 450.6l-10.9 13.1-.3 .3-.4 .5L128 471l-12.3 14.7c-4 4.8-4.8 11.4-2.2 17s8.3 9.2 14.5 9.2l19.2 0 8.5 0 .6 0 135.4 0 .6 0 8.5 0 19.2 0c6.2 0 11.9-3.6 14.5-9.2s1.8-12.3-2.2-17L320 471l-5.5-6.5-.4-.5-.3-.3L303 450.6z" />
-    </Icon>
-);
+const BowlScoops = createIcon("bowl-scoops", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABmgAAALLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCfAsGAAE2AiQDCAQgBYMtBzIbfgURFZv9yD4Sqts7MXWeOBSEhdpqsZli+Cfo4fPen3OTp6RG2i94Bcp7CNuWB2I/9+aKiEaPI1I/IZHxRqmauE7i+ljGQxMLcfXP/+X0hm2az7+f+KGsQVMX35X3ojm5l0DP895ZY2JafBpIotjUvJe3JeO6Q/MF2FqvJSTArDUPwGJXKX2VbAYGnwUAgKIAAIBaQfNmdF7pVUT3w5PoviYgANUC4BFgwZI0AqAqC5G/gI0HbGwEr5Sba/8DRyEAkB8fM7zfBoLAFtgDADYABr9tx8ZGRrqNXF+43cr1Oa2nxLtarU2F95V3tCPvjqQ9ZIsHrtLU1HX5d+V3dKLgnrTuN4Wlfc68pCHp5vZDgz3HpXLvLCVca0ofcpwWifXEeCXLUWrL5aXiruYnni5yODNRqxNWOWGaF7ciPl4bi+0tt9J1VVRxkuICuU5Bgiu5suetTuwbJCiwxR/N3he17/vY8/4DL38GAy8EgpE5P39FeDJh4oe+iVdF+Mqrs552zydcifDrZ06p7uIHt9g6nr11y4P/Tp0+XJQwJt0berChubuDQ2+g5u5jJ+YVFb1qb137knRR348vnwzK5K9XN7CFVN16/kwGvX/cexM1xDUOANTTFqytObEhmAOh2CUNZoM2LYADAAgQjL2veqFzqer/oGsAeHPuZze0Q/hMR1ej+0AQA4DAKppbVIfIlRYoXEPA3GgU43CXBBjWWORVDWOVCADCAQSAwY+DALBIFUUA2DgUIQB8ZChHAPhxaC6G7BCCiNMxBUaYocBS3kRgi3Mc+FR1O/eLi1i7qb6T6ReJOTt5tLVttNTy6ujGaGNLbOx5ql7dHO3tFzzjI3OwRC+DDTJCTz30DeUcM0yz+kgD1W+j6/khTynFleSpzBvdvby/lZ6GGa6vwQbZTarw5o8LGtU+vRCMDF+ytCbDQFH3tF9dGv5TC/cYAAAA");
 
 export default BowlScoops;

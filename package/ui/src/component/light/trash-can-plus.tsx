@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-plus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-plus?s=light trash-can-plus}
  * @preview ![trash-can-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/trash-can-plus.svg)
  */
-const TrashCanPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M164.2 39.5L148.9 64l150.3 0L283.8 39.5c-2.9-4.7-8.1-7.5-13.6-7.5l-92.5 0c-5.5 0-10.6 2.8-13.6 7.5zM311 22.6L336.9 64 384 64l32 0 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 336c0 44.2-35.8 80-80 80l-224 0c-44.2 0-80-35.8-80-80L32 96 16 96C7.2 96 0 88.8 0 80s7.2-16 16-16l16 0 32 0 47.1 0L137 22.6C145.8 8.5 161.2 0 177.7 0l92.5 0c16.6 0 31.9 8.5 40.7 22.6zM64 96l0 336c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-336L64 96zM208 384l0-80-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-80c0-8.8 7.2-16 16-16s16 7.2 16 16l0 80 80 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-80 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16z" />
-    </Icon>
-);
+const TrashCanPlus = createIcon("trash-can-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABggAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCHwsGAAE2AiQDCAQgBYMtBzUbJAXIhofv5/o69yXdNT8ZhgwAkRtFi6CALJBqtywck5q1Pf+Xe37Tjs630aGMbXPrXVnP53yeQIDfeunwhLJeIJkmYNnv/I5iEN1ikCQ8Ydj+G7b/gDxejFFqpOfTl3g0vWn8pYc7JHkGINoDYP7Wjas1vo/vI75svkd8aSUCYgGoBDJk6C3ALJlAb7kKuVzwfTSb7j+wIoCo42cnkKOOi7gByEGS53nbER0GlLU2+ZayVuzs3qt7GT3jmaKIu523jh4zuiyf7vJU5yJSvDTszUlFvD/i7b5ZFPFM12e7leXYeHFoGa/12JSy9HyXpweX8Ua3Z3tl0Xp7EMQRYQae7iLKuGMLiEPwgLfbv/1P/y+PfOmVZ38j+Bm/WdqyS8vSJ9o/x7vHjvu+bdvv21snthxu/732h7fEOu0NgGuf88tjuzz2y//L1iHOvvpaSBn39VdZM+/RfuugSMSMryMWEWPa54FAMOzDl7/Y227Ww1ZlAj9+/N/D+DPSbEQjvY1WEgiyUc1RdkUDoiEAACmuGBANBJKTcnzV1p4RIBQIkNQVAmR6aS9ArjBSgJq+JgtQV9goE3mL0NnuyietneczU9zmc529w9fM8klb1zkyvVO1Rv3ty1piocXnqvFjxlUzqulQ0VRJDsczq21n2BW/NBxXHXHWGZccdshxlxrygtX9y05bsiIW+6LKeGOMU5mhOp7cX97isAsuOu6sM/GUmar3xTBX1puHw08oOMENSSJS20sX9l88Nvrg/jOjv1wAAA==");
 
 export default TrashCanPlus;

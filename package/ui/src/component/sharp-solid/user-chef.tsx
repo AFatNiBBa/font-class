@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-chef` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-chef?s=sharp-solid user-chef}
  * @preview ![user-chef](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-chef.svg)
  */
-const UserChef: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 48c0 20.9-13.4 38.7-32 45.3l0 18.7 0 64c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-64 0-18.7C77.4 86.7 64 68.9 64 48C64 21.5 85.5 0 112 0c14.3 0 27.2 6.3 36 16.3C156.8 6.3 169.7 0 184 0c16.7 0 31.4 8.5 40 21.5C232.6 8.5 247.3 0 264 0c14.3 0 27.2 6.3 36 16.3C308.8 6.3 321.7 0 336 0c26.5 0 48 21.5 48 48zM304 176l0-16-160 0 0 16c0 44.2 35.8 80 80 80s80-35.8 80-80zM128 410.8l224-89.6 0 30.8 48 0 48 160-96 0-224 0 0-101.2zM96 400l0 112L0 512 48 352l48 0 0-32 106.4 26.6-96.4 38.5-10.1 4L96 400zm128 32a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm80 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const UserChef = createIcon("user-chef", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgwAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCKQsGAAE2AiQDCAQgBYMtBzAbKQXIhocHvb4/N8nMg5bI2uygXv4wKqjbDiq/Of/XfH5pRweYxIdSQakHEolHtarnExjgt71pFBX4bGAnilvcdhVENDQWGmfI4kp6XIHkUvIFToQfja81dpxEWQogagFg1II503x4J+5EfP7/a8TnpiAgRoFcIEWKZgIMlQo0k8mRyQR34v//xX9gTgBRlLw8ARlKsQdHARlIFLOsU62qumVlFYWqbL55qHzD1bZCPDj03bEfDX+/dUTE4y2uNLzQ4bH6zGt8JQqYe67x3BDlgPs6PdXvjS7PtJy7QIBFRcyL8vJoL3hzwdAMCZob9cK88w3O1jt30W44L1O6j7Z+utbT37b6Yv0XDp2odb2ukQp9x8ycOaZvYaS6rtdKv7zRc+atWzNPXrt2UuV73vgynXGoVpJ/UC0xf50tr5sfL3x1e5EFttRTjwesvLPur52JtbI/pqfcpiZWtHNGxaGW1XfuVEd8Ro2CnwcCwY+b+/63ombor6UVCbj39vff1o/7/8P4MHkapRIQpF3/72ppfAhiMyQVJLFf652eBRJbFAF/a6XzAoRyBEgUlQuQaqqWAJlyXQQoaKGfAEXl5khFVibUs6ynEpV2Uan+DlCZel6hCob6OCyqFynwKaCj/Ptljh9D43blvbr3zAfnm7VWhSfJbg7JTzsd98uJTvig9XbYbq911tpk74jcbVqyzzbj94hxepTrpbuecoPlt7vn++dbZ7c9Ntlhu99miPz9oKP9+/M7YT+R8PZWSSREUvbFht3WbFy3HgAA");
 
 export default UserChef;

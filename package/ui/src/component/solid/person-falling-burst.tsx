@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-falling-burst` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-falling-burst?s=solid person-falling-burst}
  * @preview ![person-falling-burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-falling-burst.svg)
  */
-const PersonFallingBurst: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 9.8c0 39-23.7 74-59.9 88.4C71.6 154.5 32 213 32 278.2L32 352c0 17.7 14.3 32 32 32s32-14.3 32-32l0-73.8c0-10 1.6-19.8 4.5-29L261.1 497.4c9.6 14.8 29.4 19.1 44.3 9.5s19.1-29.4 9.5-44.3L222.6 320l1.4 0 80 0 38.4 51.2c10.6 14.1 30.7 17 44.8 6.4s17-30.7 6.4-44.8l-43.2-57.6C341.3 263.1 327.1 256 312 256l-71.5 0-56.8-80.2-.2-.3c44.7-29 72.5-79 72.5-133.6l0-9.8zM96 80A48 48 0 1 0 0 80a48 48 0 1 0 96 0zM464 286.1l58.6 53.9c4.8 4.4 11.9 5.5 17.8 2.6s9.5-9 9-15.5l-5.6-79.4 78.7-12.2c6.5-1 11.7-5.9 13.1-12.2s-1.1-13-6.5-16.7l-65.6-45.1L603 92.2c3.3-5.7 2.7-12.8-1.4-17.9s-10.9-7.2-17.2-5.3L508.3 92.1l-29.4-74C476.4 12 470.6 8 464 8s-12.4 4-14.9 10.1l-29.4 74L343.6 68.9c-6.3-1.9-13.1 .2-17.2 5.3s-4.6 12.2-1.4 17.9l39.5 69.1-65.6 45.1c-5.4 3.7-8 10.3-6.5 16.7c.1 .3 .1 .6 .2 .8l19.4 0c20.1 0 39.2 7.5 53.8 20.8l18.4 2.9L383 265.3l36.2 48.3c2.1 2.8 3.9 5.7 5.5 8.6L464 286.1z" />
-    </Icon>
-);
+const PersonFallingBurst = createIcon("person-falling-burst", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABnQAAAKkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDAAsGAAE2AiQDCAQgBYMtBzsbiwURlZpbyX4k2Lao1zu4kMEwGGh0YyN8ieB7nVW/L9m1Iy0A8wEgBNHUpRgBOwAgaHNASh8nHiFDW9111/m/5vN7fnSA3+hQulZpFdz5fAIDPloVyLxoVs9nOgGbuimxYI+K+IloECYisuMp7Lh2gjz+yS5UId2WvsQ1+UnjR+1cSFKXAYimAJi2ZsUi79ZHfcQXtZeILyxAQEwDXQUyZOgowESZQEe5rsjlgvqo1eJ/IAKIqvIBCeSo4G48B8hBkuX5/EZTykqjfHVZKTac1zri5uLyljcS57a9teerA5/sKs5tdVN5RZtbIuK8NqviplY3tbmlzS2tV0dZTqOZ0+P23kWsjog3hjwTsZKWPdzzwba39XqozyMdti1bvuym7cCauKWGW9/ccmXCX6JCpOWNrVaFYsnyvLgpyriiX69oG7d3mdL98aaP/9zty/5LtXsaX8qljYFFy0Ln3/94/ftHbo75mMCF5muy6J4/znju/Ydf6TBw/4arxdLlLn/u3Ycf7dBw/2u+OzrH2CWoDu/er7hnSHH4jDMOF+I68tVD+QwnX3BjkS+2uHR9v7qTpg7Ue5a5a/fcv6C1jvOMK8txhg/3vn/P2rl9Zpo20MXtoIUuO5tjqB49dgCBoOnINVdsaTLxtwZlAj+8/uuf9iuqvZ3OSo+jgQSCbGBt4MZ0LrJ0lgAApDhZ93QuAsnNMvKoDd0sQCgQIKkqBMh00FSAXGGAABWdjRKgqrBCJvI6oaVNHSQNHQOZ0c4CuZZeABUTfRKrahmZo1JuRv0mxiPHkJ1GnmRoHssa7XuEjRu2de/XNh9zRX/sb9dOLyF3mfw2t4LtF8mTDM1x7ZmvxHU/ikPdzycx3Pd7/7q3D5tSUIs8JSFTS7+W408+J66/+3kBAAA=");
 
 export default PersonFallingBurst;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trademark` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trademark?s=sharp-thin trademark}
  * @preview ![trademark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/trademark.svg)
  */
-const Trademark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 96l8 0 240 0 8 0 0 16-8 0-112 0 0 296 0 8-16 0 0-8 0-296L8 112l-8 0L0 96zm288 8l0-8 11.6 0 2.4 2.7L464 283.8 626 98.7l2.4-2.7L640 96l0 8 0 304 0 8-16 0 0-8 0-282.7-154 176-6 6.9-6-6.9-154-176L304 408l0 8-16 0 0-8 0-304z" />
-    </Icon>
-);
+const Trademark = createIcon("trademark", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABXAAAAHgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBTAsGAAE2AiQDCAQgBYMtBzAbzATIngem2zxp1DmZp5AtdPyJ74tWPM//2v/2uTPP5n3UHyQxidDUQsObaKZZpKqGoqX8Rf2LSFJ127hY+jH1vz0JD0kFgwqqvZvMql9V+z51qmachwL4HIKg7aEBWbOD5jyvQLBgvXA3YM9rxVqFKsR92/DokMJVhIigRDSeYwWdoc5vRaQ8KHCnv2lGTHOLoqoAZCwAdhzMhj+c4eT7f+S73SCQHYCBoEKFmQI2qwQz1Qao1cJw/v/H/0AmQNrk6QXUqLEL7AFQg6LU9aQl/dao+kC/1VT9ZpQ0TYk0SSptyOlIP5OyPwczBXckqtuXiZmcA+6keY/G/nOuxqlu11jdM/NNSOJMd+ycTlcyQ8Z7+IHK4w3pWp52zfDguQN8qDP8DywHgrDx4+2pjdn8q9sv4MenI/xguVZGVwGhWvx/sWPlGiAxgF9ySUo+KCh2IvKqQ+4KiAYBRVsjoDLDWAG1xiIBLbOtEdDW2CtI3RMTHVdQDDkLKmtdBrWJXoOWzT57bRNTlRNTDMxnLlEtKnW8YunywcZB2LPYCqF4d9Ng25x/iWYWQCOaZbqqorsG3yx8Bs0w8UVshaWWG9hocDzcH3fVdnTLbPtsMrjvzncpX74AHCKkKx0oCim9hzMAAA==");
 
 export default Trademark;

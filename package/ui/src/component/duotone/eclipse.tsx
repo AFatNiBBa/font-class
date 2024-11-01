@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eclipse` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eclipse?s=duotone eclipse}
  * @preview ![eclipse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/eclipse.svg)
  */
-const Eclipse: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 355.4c0 2.1 .4 4.2 1.2 6.1c2.1 5 6.6 8.6 11.9 9.6L121 391l19.8 107.9c1 5.3 4.6 9.8 9.6 11.9s10.7 1.5 15.2-1.6L256 446.9l90.3 62.3c4.5 3.1 10.2 3.7 15.2 1.6s8.6-6.6 9.6-11.9l9.6-52.2c-34.2-15-63.7-38.9-85.4-68.8c-12.4 4-25.6 6.2-39.4 6.2c-70.7 0-128-57.3-128-128s57.3-128 128-128c13.7 0 27 2.2 39.4 6.2c21.7-29.9 51.1-53.9 85.4-68.8l-9.6-52.2c-1-5.3-4.6-9.8-9.6-11.9s-10.7-1.5-15.2 1.6L256 65.1 165.7 2.8c-4.5-3.1-10.2-3.7-15.2-1.6s-8.6 6.6-9.6 11.9L121 121 13.1 140.9c-5.3 1-9.8 4.6-11.9 9.6s-1.5 10.7 1.6 15.2L65.1 256 2.8 346.3C1 349 0 352.2 0 355.4zM160 256c0 53 43 96 96 96c7.6 0 15-.9 22.1-2.6C264 321.3 256 289.6 256 256s8-65.3 22.1-93.4c-7.1-1.7-14.5-2.6-22.1-2.6c-53 0-96 43-96 96z" />
-        <path d="M464 80a176 176 0 1 0 0 352 176 176 0 1 0 0-352z" />
-    </Icon>
-);
+const Eclipse = createIcon("eclipse", true, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABkwAAAKAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCNQsIAAE2AiQDCgQgBYMtB0obUQXIHgc5mat54M63RbGyI0IL/vnmPu+bST4kC5QFnAIxK2BSwML+U19Jqktgu2/t4kDzhAKx0CMLgvIfPGD6+3n+Mwf4QGBR5dHczbsJ7HwgwygcUBTYbDRD3uC8SYcU0hDSd8CLWnY7Psw2X4FD8f8A6lLEdjCSFQAAdQAAoMuoYQN4l2rT18pHoEN/QAAtABwCFlhQigC0xxIoxeMAj0dIGSAlHAgAasSkdXsx4IM1wB4AwANgiEmvpFtu6Kd7I0M/mLW3tfSs/i02N7jd5nm4r93LRne1peGdti8CbY5ORCM0QicgWTDqxIJTBdX0ueOl4H3HN1Uvdnrba1+Nt/2q6mT+ybzhGgmIvOP8cB0noxFnZtTpOtL1FvsK7mhLo5PBo9rXSqveyLrxa3yd+ZUfixqvgpWr1zRsuGb1ylWNJ1VsHSZ4puWSebnkzqNg2tLlYzqQ/2r50mkFx2hVGkWDuzX3/WbdB0dRaatjh8GpywrOK2/lL2lVs1eHMeBLVfPPTk3cgBubwwtjmjUbcyHcfONGAgAEhOerD/yblNn+dyI0APx88X5zov+Vb8xmcwNIMAAEOyvrM95sPsBhBpLGTFlJVeiU4x8kYI3EQO+a5iQCIAEQACMmIABWCVkIgCdQDwHwldMCAYgJDMNSJpE8JgzASLMEWC3ZADx5PAS+9nxIxOTJ+kGND9L8AmbsOYV6LHJNGjZ2bd1uVaf1Vio93c5ddtZeybvqwJXMZBELWc4MpjOH5RPFUgakV7CAnkdcD76IowkNaYyjLe5x46Vx5CSxlGXM2dY/n6cd7vtobVYeD64Dl2MAQFPbK7RQyGbOCNLeGQ0csy17qne1AAA=");
 
 export default Eclipse;

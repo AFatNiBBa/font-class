@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-blank` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-blank?s=thin house-blank}
  * @preview ![house-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/house-blank.svg)
  */
-const HouseBlank: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M282.7 2c3-2.7 7.6-2.7 10.6 0l280 248c3.3 2.9 3.6 8 .7 11.3s-8 3.6-11.3 .7L512 217.1 512 448c0 35.3-28.7 64-64 64l-320 0c-35.3 0-64-28.7-64-64l0-230.9L13.3 262c-3.3 2.9-8.4 2.6-11.3-.7S-.6 252.9 2.7 250L282.7 2zM80 202.9L80 448c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-245.1L288 18.7 80 202.9z" />
-    </Icon>
-);
+const HouseBlank = createIcon("house-blank", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABYAAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBLwsGAAE2AiQDCAQgBYMtBzIbsQTILgtsY9ToP8RFiUWqJZtDIhfH9VlP/YmIWvu3Z3c/YRAUMCsUJsJEKQJhvzBhYVgYJP0q8u459t797KIKqlylzQZY+mmlA5k12J6P1swPQOB74cusWdYiv1eIfgH7z/819eL50QF+o8MzqaLqBdbziOYJTKy4Qmw2sIHSmLc727MdopVD0qItyePVcjwO0PLrKjLlYYHr6UPzzwLXFLUCQCYBgMNXLpz39jmfk58Oee0sEMgRgOUQFRWLIdiHKFiMZDnQNOFzug7/A5eDAOkH/iEFNDTsBY4B0EBRGkk3i9nHJvVH+hjr+3OmuTv7RlKPPFj1ZGLlYc2LAlPNnbl30vlF6OGcWzM7j/PulZh+Lq6c4b38EwtfFI/O++/Y9mMX1vkzPDW1zdlO8Rm/rNMZUYr7sh7vqb/fNL731553j+hlEIT2ec9tX28QAsDXpy9XdjvlSJnBoAJCXdetMyiHDOhSeH46lwxQICi2ZnK866h7AmIYAUW/YQHVIjwImmFrIeizVBiCfsMuIEqjQ8w2bKAYdQ1UO1yBZrZX0Gef90y/2an+w90+931LPiHR4+uWb/b4dAmdWld5l2DCfFI3ra26pD477LRy5NC5pYUd5wI/VctfOFCxsLIv0vHz8NFJ0C237jf3LZ06s+PIYVwlSbc/srm0R9vBJGDCLUqKQgrTt9T17wk=");
 
 export default HouseBlank;

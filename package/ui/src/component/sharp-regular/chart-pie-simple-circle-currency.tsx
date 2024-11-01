@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-pie-simple-circle-currency` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-pie-simple-circle-currency?s=sharp-regular chart-pie-simple-circle-currency}
  * @preview ![chart-pie-simple-circle-currency](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chart-pie-simple-circle-currency.svg)
  */
-const ChartPieSimpleCircleCurrency: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M496 192c-46.8 0-89.3 18.2-120.8 48L272 240 272 .6c5.3-.4 10.6-.6 16-.6C401 0 494.5 83.7 509.8 192.5c-4.6-.4-9.2-.5-13.8-.5zM272 288l67.2 0c-7.6 14.9-13.2 31-16.3 48L224 336l-48 0 0-48 0-197.1C101.4 117.3 48 188.4 48 272c0 106 86 192 192 192c34.5 0 66.9-9.1 94.9-25c6.5 14.8 15 28.6 25.2 40.9C324.8 500.3 283.8 512 240 512C107.5 512 0 404.6 0 272C0 161.6 74.5 68.6 176 40.6c15.4-4.3 31.5-7 48-8.1l0 48.1L224 240l0 48 48 0zm80 80a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm118.6-25.4a35.9 35.9 0 1 1 50.7 50.7 35.9 35.9 0 1 1 -50.7-50.7zM531.3 426l25.3 25.3 22.6-22.6L554 403.3c13.2-21.6 13.2-49.1 0-70.7l25.3-25.3-22.6-22.6L531.3 310c-21.6-13.2-49.1-13.2-70.7 0l-25.3-25.3-22.6 22.6L438 332.7c-13.2 21.6-13.2 49.1 0 70.7l-25.3 25.3 22.6 22.6L460.7 426c21.6 13.2 49.1 13.2 70.7 0z" />
-    </Icon>
-);
+const ChartPieSimpleCircleCurrency = createIcon("chart-pie-simple-circle-currency", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABmgAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCYQsGAAE2AiQDCAQgBYMtB0cbeAXIjtEnY4Q6jjgmTEQRoxLP0+/3v7XPlW/aRKNZ8pAMi3hmCA2PkqzRCMlDpTL9za9k8r0aa7vvgqXDXZtKNUvmEgmJ+URimLjm+Z8/tZc9waN0LBokWjvPJzDRedOG47LhbKI4a1dJrUSajyQtsUkez73nva7bQ50/fA8N5TPlHniXPjT/qGqhaCoAyDgAcHYnMhiOe+kld90G+SMQCOQMYBGiQoVZCA5RBbNoFoFaLfTSdfQfSECAtICHKaBGH97iC6AGRVPThMYzfI0hOp8WM0TnZP4N4iBiP/fj8iW6jxM1xOEOqHD6LF4f7hP/SFeOg6rXUZ8BtxarMV+RZ7FTuoAiQ9HPTRGXHPe43fY7xgvwbG3ebpvT5bBrsoixH7UnVAdlPTqTakPK0foG+oZokCUTi+tl1w7Xz7wxF2+w46gxK5r9Ub/PuQdF5xt+LoWy/picf+NH3mN+3/XE3Sf8M83M4ELLpqkQw29Fh6PZ197rFHfwkHr395eHyNH/YHlOgxmM22J2HqpLABanJDo6EikhuqyN6mpUvr2sI73+c9wxYgBlt6DTzo6n3TJgZaULvx4AgvD4yY91qtDpf/8QBeD6t0JRLofuuDyjzAL9CgjVWrcmqTQAiBkgV1JDQ/iioHijgXcd9kFADCKgaA0KqMwQQVAbtApBY541BK1BN1ClZkNMS25EMewpUTlQS9SmrRGNQ1fZ1nSoiimplfRdmO7DAe9txNzEjDiQZVuVdU0I645k29ercWP6ZifkKFWiSrYs+aoYVCG4UK2YjwR6+yHCnAkzhANy3HvUY2y2QqX8ueN8E0fkfkZPjTxb34QpwLqjtiikvJLnjcvys4212zb+kccxfhQAAAA=");
 
 export default ChartPieSimpleCircleCurrency;

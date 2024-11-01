@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-left-to-bracket` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-to-bracket?s=sharp-solid arrow-left-to-bracket}
  * @preview ![arrow-left-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-left-to-bracket.svg)
  */
-const ArrowLeftToBracket: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 96L64 96l0 320 96 0 32 0 0 64-32 0L32 480 0 480l0-32L0 64 0 32l32 0 128 0 32 0 0 64-32 0zm9.4 182.6L146.7 256l22.6-22.6 128-128L320 82.7 365.3 128l-22.6 22.6L269.3 224 480 224l32 0 0 64-32 0-210.7 0 73.4 73.4L365.3 384 320 429.3l-22.6-22.6-128-128z" />
-    </Icon>
-);
+const ArrowLeftToBracket = createIcon("arrow-left-to-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABXAAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBNQsGAAE2AiQDCAQgBYMtBzwbwQTIhofv117Pfbuh/WXYRhUYVQALwArI15FqdWwJHbsKk6kCUtV/6tTznIcC+EZBGhPXBFkenPM8AgFN2k3TC1KtFaymFbBaO/uFItyGvo98kmH8DIsH5PEyu6mGdC99wa38ofHLSDdJGjIAMQAAq9qatnnXG70Rn6uPic+2ICBWgVIgQ4YxAiyVCYyRK5HLBb1Rrbr/wJIAohZenkCOHMuxAZCDJOX58PGVmr55a6Wm6CoqRYpKRRRFRBbBgZbJkyZPibYo/rKYGM3LC1tiUiyNydHa2DOg58+ELwe+uL9zF5ZX2lWuVD4oXVVWjPX6J60448oV+33RatNGX3Xua3NafbF//jwIBGMvfx+xs//S//WVBL69+PdH+BVVe5PUg3oJBNnU6lTdCSQCAJDigsYEgWS+BO/ax20BQoEASa1CgMxoAwTIFaYIUGOceQLUKjTJRN4gDLGdQdLHaZCZ7xLIDfEQ1FjqvVNrSGQmRBoA+YOLWy+hdXPlrOkzy8XlMtQpq8DjeEm5zU+84EuT6KQDTjrhnP32OeycQM7Y5p933HoNXueLSrNMN1NpsfI4eTzcar8zzjrspBNpyhLlfXuiC3rzJJISoM62OUlEGrr7zJmTFx/X2rRzJ6ftObN779H95wA=");
 
 export default ArrowLeftToBracket;

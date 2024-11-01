@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-range` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-range?s=light calendar-range}
  * @preview ![calendar-range](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/calendar-range.svg)
  */
-const CalendarRange: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M112 0c8.8 0 16 7.2 16 16l0 48 192 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 32 0c35.3 0 64 28.7 64 64l0 32 0 32 0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192l0-32 0-32C0 92.7 28.7 64 64 64l32 0 0-48c0-8.8 7.2-16 16-16zM416 192L32 192l0 256c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-256zM384 96L64 96c-17.7 0-32 14.3-32 32l0 32 384 0 0-32c0-17.7-14.3-32-32-32zm0 176c0 8.8-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l160 0c8.8 0 16 7.2 16 16zM240 416L80 416c-8.8 0-16-7.2-16-16s7.2-16 16-16l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16zM96 272a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 48a48 48 0 1 1 0-96 48 48 0 1 1 0 96zm224 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48-16a48 48 0 1 1 -96 0 48 48 0 1 1 96 0z" />
-    </Icon>
-);
+const CalendarRange = createIcon("calendar-range", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABqAAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDDgsGAAE2AiQDCAQgBYMtBzUbkwXIhocnu74/t7qferBUraQI/gA92WeQk9HGY9Sl/PPjTw/4KZUgKJvSCzXKcWoXyHgAX1MbBSSAAYtG0DJsG1lG5Fg4phco45GYpoP0UPoOd7gPjb8NcS1JWQCI3gBYvWfHdq0f4oeI79rvEd/ZioBYA7JAgQLDBVimEBiulFEqBT9Eu83+AzMBRKfw/gRK1PAC3gSUIOkpy/l9+jaaPY2eRq2jUe6udVQH7hsgahHxwKDmxOcmvzREiBQPTnpxXD2en/Ly0CJg7pGpr0w8dMRR9UY9xZUD7qs14pZBD0SxeyRyc/97CUC+qwbeX7m3fxX3D+QVtbhvwM6qVnVYMu3OodBHvWHE80MfHvbIxOeGPDT4wXG7plg2Lexcz04wYK4XxsMTx7zc++V/R393/HfO+OKH5iwtszR/aPizJ/v0qbKMqvE+uWpIobM1HwrN/OLKUE7zxhubq4qUUUesgppGIrtSRr7Z/OFJPzRR6I47ngy6ngbBat7SZGT7yd8++OC3J7Hv+yNmgMh2dfoll5xeodeBQPDs4W8/c0SvZYe6awn89PH/h/jz2q1opZfRLYGgmNae5mC0ACoH8JNSnG9MtBBIntAjbKy7X4BQoeOSThVXGKY3V6pM5TqMNF9zcMMOhSh7hP4OA7mk7iyusMBlXKm/d7gOy3yZ79Q/iviqi226v8XMG4b0+kV59oxZeUlerWn0UVCjZ5fmw+5J5/OeyXCp453hdOc6zrFOcu6APdv20nlOs2GLWe+LstlmmCVbIl9uPjXvHoTOdg7XLBuuz2Op/Hx8kvO3h0+GviSonKMiSURqfs3W6d88");
 
 export default CalendarRange;

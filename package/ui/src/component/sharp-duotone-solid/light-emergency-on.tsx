@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `light-emergency-on` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-emergency-on?s=sharp-duotone-solid light-emergency-on}
  * @preview ![light-emergency-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/light-emergency-on.svg)
  */
-const LightEmergencyOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M160 192l0 160 320 0 0-160c0-88.4-71.6-160-160-160s-160 71.6-160 160zm48 0c0-61.9 50.1-112 112-112l0 32c-44.2 0-80 35.8-80 80l-32 0z" />
-        <path d="M69.3 36l-20-13.3L22.7 62.7 42.7 76l48 32 20 13.3 26.6-39.9L117.3 68l-48-32zM597.3 76l20-13.3L590.7 22.7 570.7 36l-48 32-20 13.3 26.6 39.9 20-13.3 48-32zM24 192L0 192l0 48 24 0 64 0 24 0 0-48-24 0-64 0zm528 0l-24 0 0 48 24 0 64 0 24 0 0-48-24 0-64 0zm-8 160L96 352l0 128 448 0 0-128z" />
-    </Icon>
-);
+const LightEmergencyOn = createIcon("light-emergency-on", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhwAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCEgsIAAE2AiQDCgQgBYMtB2AbRAXIhof/n/u3fW7y3upPypACcIqkgMkB+boBliRbNeyQ9Fsjiexk/q/5/J5Hg3y+Ez+0W1N02LCDJzDwtTevnw8syhSn4LaLI+ahDUJjCXmamD3SIj2fPsfj8H8A4xdDPCLpygBEbwCs2r19mw870UnxefOU+NxWBMRqUAlkyDBcgFomMFyuQi4XdFLT0ImmqQgg2uJrZ6CNLpzGDUAOkpaU5336lGVX755lq0e+q2wV+yeMnzAtxsditmBmTIglFyeOmzgjxsUi8t70mBhLLxRlIcoyoujRMju69+ie3iNitxDtOX5c/v6u7+t3d5SvTo14a6F4Oun14cWYN3u/+dvoz099bu2LdV0/q9aoyb69Jk5M9fXBsXuWwXts1detacOrH8bcez50z6vNa5krvSbWfP75mhyJzz8/+6xe//PHn5XeJ3dFBQSCAa8+eXS4V/1ftzKBn97+42d256aT7qU30U0CQTatmeZAugeKHUA0xS1jNu7qNYHMKi3xrXb3jAChQICkrRAgM0xvAXKFqQK0jDRfgLbCdpnIu4T+DnYg6e4qyCxwG+T6ewJaah9F2vpHBjkxYMQ/fCnWD6F1w6rZM2ZVS6rVrEaCIsHrXlodVk+6pasm04VOueySG0464awbA/KabfGbLlq/Ba/zQ5XZZpilskR1ufB09i4nXXPdWZddCgZZqnrePsmt7caTqS6JeecYkcmIFNlQGCqnfyL+6ZcvTQdwo+HzstcVAAAA");
 
 export default LightEmergencyOn;

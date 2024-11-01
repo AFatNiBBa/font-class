@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-horns` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-horns?s=sharp-thin hand-horns}
  * @preview ![hand-horns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand-horns.svg)
  */
-const HandHorns: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M56 0L48 0l0 8 0 248L8 256l-8 0 0 8 0 96c0 83.9 68.1 152 152 152l80 0c83.9 0 152-68.1 152-152l0-8 0-8 0-64 0-208 0-8-8 0-80 0-8 0 0 8 0 112-64 0 0-24 0-8-8 0-72 0L144 8l0-8-8 0L56 0zm88 168l64 0 0 16 0 8 0 64-64 0 0-88zm64 104s0 0 0 0l0 64-104 0-8 0 0 16 8 0 104 0 8 0 8 0 72 0 8 0 0-8 0-64 0-8 0-80 0-8 0-104 64 0 0 200 0 64 0 8 0 8c0 75.1-60.9 136-136 136l-80 0C76.9 496 16 435.1 16 360l0-88 32 0s0 0 0 0l16 0s0 0 0 0l64 0s0 0 0 0l16 0s0 0 0 0l64 0zm16 0l0-8 0-8 0-56 64 0 0 72 0 8 0 56-64 0 0-64zm-96-16l-64 0L64 16l64 0 0 136 0 8 0 96z" />
-    </Icon>
-);
+const HandHorns = createIcon("hand-horns", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABiQAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSDJgsGAAE2AiQDCAQgBYMtBzEbpwXIhofvda+dK+k7z1IYFFcBgBcgWCLo1tVStR13xBVy69mWuPsTlzv/86cHXOSPsqd+e1M0J06BQKO/aIvFWWCZbnDO2hynqIMot4jEY6VPRsP2w9oFqrjN+ToUTxSf4pF6p/GTCe6nUJYAYjgANhw7tMd7AzEQ8Un3ZeITuxAQG0ArUKLEZAHWKAUmq7SoVIKB6Hbjf2BLANGD1yxAhUF4Ce8CKlDoVNXSITtHDWk6Q6qjTac+VTe1EDW8vlv79pEmflj/7rEAM1VroT2hR+tG3JlH7knqPfvzTRN0mxACT615a7MLvb/unb7JynvinrbYhB1MHXG0brjT9r7nhj/3y/RPL/zU8ncTg/43w/+ws0V+9skc++V48tnISZJ9KUnHk6tl4yVpe78kDXo65zxckmXH118EZBen4dKHSZbsl1ws+1CWJL0XHO3fr//oBb3HtWA4yGIOT6y0QrZdx+azhuWcfz/Uw5KzgUDw1qMnflvtW/NPagrw4xu//QTPou57cXfxHJICBOWc7hyn426IuwUAoIgb9cXdCBRe0MFbHexRAUKNAIUetQClSYYLUKnNFqBjqqUC9KgdUoqqVxjtDIELg10Dl5a5A66M9iLcscYHqR6jo7RdxvKYP8fErSOwZVO7cN6CdlW7rDlYc6Ty7Or2sTnjxtQzEztd6CpXut4FzneJ6wfoWnuyN7jCVg3c4oFaC82zQGuV9nXzq/dRF7jWdS5xlSvLOqu137sz3KgPnwmnQNxFqgoFUdSmXjL34quuvfI6");
 
 export default HandHorns;

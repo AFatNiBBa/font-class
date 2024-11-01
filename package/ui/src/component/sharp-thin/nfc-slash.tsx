@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-slash?s=sharp-thin nfc-slash}
  * @preview ![nfc-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/nfc-slash.svg)
  */
-const NfcSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5zM544 48l0-16-16 0L152.5 32l20.3 16L528 48l0 280.5 16 12.6L544 48zM96 170.9L96 464l0 16 16 0 375.5 0-20.3-16L112 464l0-280.5L96 170.9zM184 400l202.2 0-20.3-16L192 384l0-137.3L176 234l0 158 0 8 8 0zM464 120l0-8-8 0-136 0-8 0 0 8 0 38 16 12.6 0-42.6 120 0 0 137.3L464 278l0-158zm-208-8l-2.2 0 2.2 1.7 0-1.7z" />
-    </Icon>
-);
+const NfcSlash = createIcon("nfc-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcQAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCBwsGAAE2AiQDCAQgBYMtBzAbBwXIjtMF9S5DXhJBva7Pnift3p50DDogAEd2BFg5cGbOAIP0lyMOCbKW/H3+r6kX1nSAn889Cu95YoJnPp/Anld7gg1odjibKG53bkscNvkkSUjyK+343CCPv+1XIz2XvsKTYaLxk67uk2QZgGgDgDmb1q3wSVM0RXz5P+JLyxAQc0AlkCFDDwGmywR6yFXI5YKm+P9/+x9YEUDURSyZdI4G9uMUIAdJPc/btm7dtmOzstYy31jWim2dOnbqEB3jTHSMztEpzp4IUbQYEC0jRcfIdqcsibLlwGgRWXTaUBblwCgiolMIUR4KURRCdIyIkuyNRVmYzX1fafPKL32+OviV1u+tpx0vWu/I99Z7QewfWg9tg5svzbJPV38b8PHVAXChjTaXV9mni3829QVcneUNT/jHyxoanTs34MBTDQP9Y5jL3Td+2yyl1FYCAsGfg56t72o9/ddGmcB37/2T9ML/n6Tb6RU0JBBkw/8fbjvbwOwAnBQX9cUvJJBsd3Gf2sLTAoQCAZK6QoBMd20EyBWGCVDTywQB6grrZCJvLnSwo4CkhTMgM9ENkOvgXVAz3aduXYfIdE3QFOGrl7qwRhfMq8aMHF1NrYahLKoP58fTqmVt8EVXGoJXHXTKSecdsN8R5yvmrBXBBScsnNEL/FBljJFGq0xVbSe35zc64KxzjjjlpMwyTXVeH+zivHkILiYBxr4SlHZGan7y4L4R547vOXcY");
 
 export default NfcSlash;

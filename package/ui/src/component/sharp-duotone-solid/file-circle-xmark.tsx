@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-xmark` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-xmark?s=sharp-duotone-solid file-circle-xmark}
  * @preview ![file-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-circle-xmark.svg)
  */
-const FileCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 38.6C310.1 219.5 256 287.4 256 368c0 59.5 29.6 112.1 74.8 144L0 512 0 0z" />
-        <path d="M384 160L224 0l0 160 160 0zm48 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm59.3-180.7L454.6 368l36.7 36.7L502.6 416 480 438.6l-11.3-11.3L432 390.6l-36.7 36.7L384 438.6 361.4 416l11.3-11.3L409.4 368l-36.7-36.7L361.4 320 384 297.4l11.3 11.3L432 345.4l36.7-36.7L480 297.4 502.6 320l-11.3 11.3z" />
-    </Icon>
-);
+const FileCircleXmark = createIcon("file-circle-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhwAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCDgsIAAE2AiQDCgQgBYMtB14bPgXIjsK2nTPCScpJChjjKeKpsd++u0OlmSSzhFei+HQqpEKz1omU8IdKCVj8fm32CyL6TgUxS6aeoAQu4968hMtootn8X/P5WdMBfj6CQ4mI9fMEz3w+gQHPQltoLRRpiLN2dhSDkk36Pj0hw/Y/jLKElp+6ApHyxb2At/w/gPnjbwWKvgqAjAIAzm6Li3BnJWuhl/8jyI9CEMg5gHmEioppBA7xgmmCedA0ocP9/9Oh//95CJBuZLgyu92RP4NXAA0UVZpgG6jxdhSdhTJH0aG9rLQMNFC5lkB0adqlReNO/IXDauyZfgsL69tx547liSmJSeRNavKhZEokL9KSL6UQw1WdlEiiFMzXkBfv6OCIDBDyfXjFNhc6kSjdcNv4kLy0vZifWy/vscCyWa/ioGxLlEpJGMepVBwl4o8i8Qu40GZThgyb2lyI1Dt3VuzDAguV+SO9syEySlUAAEFYeVo8qHdN/LZz5AC/F1+vqDv/35VUbgPQq4BQ1/71akoqQKASkC0Zg1S6IysgqC7w/LUOekcg+hFQdOsXUE1xQ6Dpt4pAl1lRCHTrd4mXZo+YVEugGPQCqgOzoJl0CLocus91mwyvcIK6CM+91GwOZU1iYUYzi2fDkibqEJdGE9iyqx6LLRrMRJt+fUa0atFphJFDioqjemXPiCw3xIQxMmPisePqvVrmc0OGdcry+TgJ2P2M2ti8uwYBp9DumFJVUoj3N27T8DXHM0zYp2mw3i6BomyrAA==");
 
 export default FileCircleXmark;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-pawn-piece` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-pawn-piece?s=duotone chess-pawn-piece}
  * @preview ![chess-pawn-piece](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chess-pawn-piece.svg)
  */
-const ChessPawnPiece: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path class={generic.secondary} d="M0 488c0 13.3 10.7 24 24 24l208 0c13.3 0 24-10.7 24-24c0-5.2-1.7-10.2-4.8-14.4L208 416 48 416 4.8 473.6C1.7 477.8 0 482.8 0 488z" />
-        <path d="M176 240c19.4-14.6 32-37.8 32-64c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 26.2 12.6 49.4 32 64l-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l4.4 0L48 416l160 0L179.6 288l4.4 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0z" />
-    </Icon>
-);
+const ChessPawnPiece = createIcon("chess-pawn-piece", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABawAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBLwsIAAE2AiQDCgQgBYMtB1wb3QTIHgflGNc60kZZgvqexMPHXPl+kt0DKkIKjIqIFJAHZlVVByzkTW2nsnqT+eG9Q77M502dep7zUAAfwDOnbZAFPud5BHIeioVXC1ZfQjWtgXV3tiRKLYdnaQ1L0i92fA7Iolt6UoHkSgKn8H8A46+WTpKoSAFEAwBMWDh3uo/1UZ/E99J74rtpCIiJIBdIkaKNAKOlAm1kcmQyQX1SKlEfpVJOAFGET5mCIjKMwkRABhIhsqxjw6pCTbagqlC58Fn7mz2fDn3f/XGbGz0q436LK12qYl5UxYKoiketr3atJFC6/1iziVEZ4+O8jk8bPP2HDbz6VXksWN+gwfoFUe7XzG7adHam9RG3i5BxvVx34H67h5ZPeeK2J6aUA4Gg9/9Xn230//KqBPz58OLvqPQxBiZPUS4BQdq71NuyOAAxUAAAkjigY9AfgVRHifyp1S4KECoRIFFUKUCqtQYCZCr1EqCgnSECFFWaKxVZhdDE8goS1XaD1FCHQKaJd6BgtE9uUZNIDYi8fvL/FjeVQ1Pm8gF9++cj82GIKJvA03hUPq11PxBKPWDTBjvtsM9662y2jyF7TA/2226qBk/xRbkB+uovN1K+nCy5BczdY6/NfWZ9yij5fqe7A3pzD1gmAQw8+j0pkUTaYu2m9Xv39tm1+uCOPvYr9bHG+lZN5u0B");
 
 export default ChessPawnPiece;

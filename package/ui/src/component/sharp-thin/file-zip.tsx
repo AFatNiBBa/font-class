@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-zip` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-zip?s=sharp-thin file-zip}
  * @preview ![file-zip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-zip.svg)
  */
-const FileZip: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 496l160 0 0 16L16 512 0 512l0-16L0 16 0 0 16 0 224 0 384 160l0 144-16 0 0-128-152 0-8 0 0-8 0-152L16 16l0 480zM361.4 160L224 22.6 224 160l137.4 0zM240 368l64 0 8 0 0 8 0 8 0 2.1-1.1 1.8L249.2 496l54.8 0 8 0 0 16-8 0-64 0-8 0 0-8 0-8 0-2.1 1.1-1.8 61.7-108L240 384l-8 0 0-16 8 0zm136 8l0 128 0 8-16 0 0-8 0-128 0-8 16 0 0 8zm48-8l8 0 24 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-16 0 0 40 0 8-16 0 0-8 0-48 0-80 0-8zm16 80l16 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0 64z" />
-    </Icon>
-);
+const FileZip = createIcon("file-zip", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgAAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCXQsGAAE2AiQDCAQgBYMtBy8bXAXIHomxrYj9iijG1yKC73Wh+750Z1kyyMQyMoaY6nCZDgCmD7eelNRdm302v0vQWuCJy53/+dMDTnzhRxljNxYuH2MKdB5gtjFLLA4sCyiBBCx1OsKgZQiSt4w5bKnD46zH5R3yeM8ZLdJL6Xs8cb5onDfIvSRZBiBqAKzcv3urj/+IPyK+60R8ZzMCYiVoBDJkGCrAEpnAULkGuVzwR3Q68h/YEEC08YkSyFHgcbwCyEHSzvORXUb3GtKzanXP91WtclhVVqIsI7KIqKq9IcqIxY6wxnTBvr37RLUngxeib+zRhaWIAbF/UM9SgjLIV2F+/vir/Z4b9GLfZ8eUITh27BXCIwNeiLv6P18eHPVW/dbfI7/nex20avpY7Q+1+mf1pNqdXiwKL/rYHwe2P4iPf8hDN/60YsWGQiEJSy8xv6gVl+iBLnfCLljSneTmf0XRzPilLPvhlxm1CZyqGXYoem6vWejx4IM9+lfUVgCB4LPpb28/3nPJP0WVwF/vfr79ijrH/+ktFBIIsimdKY4kKOJ/AQBIcb1RCQLJ/dp4s5vnBQglBpy0lXBmiBrOlSbDLcPNZZI3dstE3lXo6yjASTdXwZl5boNzfb0DtyzxVbGtb2RlyRUV91eYvG4G1u5rZk6b0Sxq3C7jK405thc3aXvC9To1EWedc4XLXeusMy5y7QRdbWvlOpdZF4FrvVFjpmlmaCzSbA9cbfta6WrXuOie39/FYs376QmujxdPhJeQdJa6JBGp+AQKU2++6EoAAAA=");
 
 export default FileZip;

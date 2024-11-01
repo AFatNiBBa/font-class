@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-excel` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-excel?s=thin file-excel}
  * @preview ![file-excel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-excel.svg)
  */
-const FileExcel: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 448L16 64c0-26.5 21.5-48 48-48l140.1 0c1.3 0 2.6 .1 3.9 .2L208 136c0 22.1 17.9 40 40 40l119.8 0c.2 1.3 .2 2.6 .2 3.9L368 448c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48zM358.6 157.3c.9 .9 1.7 1.8 2.4 2.7L248 160c-13.3 0-24-10.7-24-24l0-113.1c1 .8 1.9 1.6 2.7 2.4L358.6 157.3zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-268.1c0-12.7-5.1-24.9-14.1-33.9L238.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zm70.7 227.6c-2.5-3.7-7.4-4.7-11.1-2.2s-4.7 7.4-2.2 11.1l61 91.6-61 91.6c-2.5 3.7-1.5 8.6 2.2 11.1s8.6 1.5 11.1-2.2l57.3-86 57.3 86c2.5 3.7 7.4 4.7 11.1 2.2s4.7-7.4 2.2-11.1l-61-91.6 61-91.6c2.5-3.7 1.5-8.6-2.2-11.1s-8.6-1.5-11.1 2.2l-57.3 86-57.3-86z" />
-    </Icon>
-);
+const FileExcel = createIcon("file-excel", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABggAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCKgsGAAE2AiQDCAQgBYMtBzEbKwXIHge5aeqe6aLMfREP/6+Ldd9PZg5kBvUgYh4OdLBiXm5HRbdedOutlFtP1o6/Z0iY/sQ1z//9qUAKX/xRoqn1PZKfchXnE5joLNIKqG1gM52Azdr1z2yhFHuTJH2Tw20djq/eFvK47Yga6a30M14IHxr/6OURSZYBiI4AWLh981rP/ow/I35uIX62GgGxCJQCGTL0FWCOTKCvXIlcLvgzWi3zH1gSQNTxjSeQo44reATIQZLn+ZBm37JRa5dva9SKRpayd3q8MbwRjxsPQlTdXms0opLiza6vDmnG591f7338tW5FfN47AtjWQ5+OOPrLnineGvnV0Hbxxehv+mTxoPu2eL0otr7e9dVuW2NLgPJaj+2xNbQ3umxmwYLtXGfboK87fv2fn4/9rGNVVdkvv054IiVu6PT0m043pNSkMkz49ZdslRYu2tjtomUePhz27oed6FRUik6dPuRD8oqmrr/Rqn7r+mRZSzdtGTZnlzm7Dd2yacmMrYK6pNWGOi6qwwAuPR0Egicf/9v+DnP+b9NI4O+nL/2KWs+iSl+jjQSCbExrjD1RQVQCAJDimkFRIZCckeN3bXpdgFAgQFJXCJDpo6MAucJoAWr6mypAXWGzTORtha72FjxpuohnprmL57r6Fq+Z47ugrmtk0ifKjvjtl7asBpbOKyeOm1DOKoeFLAkU76dnl9vmiGu2a6Re6JjzzrniqCNOulLBl6yNrzpr2Qxa6otKE40zQWmW8ri+1bYR5ZLLTtLPnc8yW3nfHeHafPBI7STMOEkuSUQqHro+9oe4AA==");
 
 export default FileExcel;

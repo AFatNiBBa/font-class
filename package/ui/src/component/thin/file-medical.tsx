@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-medical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-medical?s=thin file-medical}
  * @preview ![file-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-medical.svg)
  */
-const FileMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 496c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l140.1 0c1.3 0 2.6 .1 3.9 .2L208 136c0 22.1 17.9 40 40 40l119.8 0c.2 1.3 .2 2.6 .2 3.9L368 448c0 26.5-21.5 48-48 48L64 496zM358.6 157.3c.9 .9 1.7 1.8 2.4 2.7L248 160c-13.3 0-24-10.7-24-24l0-113.1c1 .8 1.9 1.6 2.7 2.4L358.6 157.3zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-268.1c0-12.7-5.1-24.9-14.1-33.9L238.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zM168 232c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 56c0 4.4 3.6 8 8 8l56 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-56 0c-4.4 0-8 3.6-8 8l0 56c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-56c0-4.4-3.6-8-8-8l-56 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8l56 0c4.4 0 8-3.6 8-8l0-56zm8-24c-13.3 0-24 10.7-24 24l0 48-48 0c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l48 0 0 48c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-48 48 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-48 0 0-48c0-13.3-10.7-24-24-24l-32 0z" />
-    </Icon>
-);
+const FileMedical = createIcon("file-medical", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABnwAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDEwsGAAE2AiQDCAQgBYMtBzMblgVRlM3JBNnPBLvZzmtEqMI8R16MCl9LScXz/OtE7/uSnUR2kBWiVikTOifdAHkDmrKVhxFh7mybG2H1ioFvUMVnlpyt1vfkDtWfuCZ/NT3FKoiH0qnFa35aF05ggpun7SYQBTbTCdh2Z9vKDmifJGkkOc5xPHZQ504X6VGeLd/h4fSh+c9891FUFYBMA8D+p554tG0/5+fku/HH5DtHIpADQCuoUGGRgL1UgkVqLWq18HPGY/cf2BIgfUIWT19jAj7AR4AaFKFeXa8cLuoOepPrUwa95ui3NHkqqjxvT+9B7seWJiN5EoOMqOQZfmIOL31SmrwVyZNy8gVvnOQdL3n2vluT8/Z7P6ts0VPyVG9OftoGeVKQk7JPcBMAqJs8pXGCfcWKsix8w6UJi8/WIOLbmQjPrSYXWf7eeO8v++6S74w7fF+NqPpeZ8UDSuE20794f/ptNTBUTrX6hLje8bOvZ9rWratfeGU605uRZvr0V4hWzA7N+kHd4IdZD1z6V/+81nn93WRgN6RdZjeh8tbjZ3c6wbw1+/hOt7DVnw+C8NpfOXfqXv9PRAG/fnH0Kxpvy6i8h4kKCNXG8UZnZQQZCQCg5BbLM0JQvKFHrnXoKQHRIKDoawRUFpomoNbYIKBniZ0F9DVOVEk9ScxydtUXQ9frK7u4W1+b5UN9z16+zPXNSmWxTntzfhjzHdJCB69rN2/XtXu0w6riMkK7n96zXY6tvYW71sFWl7jWNW5ysYtc7qaGv8HRxZtd7ZAZd7Avam22nU5rD+124953CuVucKPLdc/+Kntqz6fWumU+eB0kC7G4A1lRSBnejtCm9wsAAAA=");
 
 export default FileMedical;

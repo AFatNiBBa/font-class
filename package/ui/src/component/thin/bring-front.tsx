@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bring-front` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bring-front?s=thin bring-front}
  * @preview ![bring-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bring-front.svg)
  */
-const BringFront: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 16l128 0c26.5 0 48 21.5 48 48l16 0c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 192c0 35.3 28.7 64 64 64l64 0 0-16-64 0c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48zM448 512l128 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64l-64 0 0 16 64 0c26.5 0 48 21.5 48 48l0 128c0 26.5-21.5 48-48 48l-128 0c-26.5 0-48-21.5-48-48l-16 0c0 35.3 28.7 64 64 64zM416 112c26.5 0 48 21.5 48 48l0 192c0 26.5-21.5 48-48 48l-192 0c-26.5 0-48-21.5-48-48l0-192c0-26.5 21.5-48 48-48l192 0zM224 96c-35.3 0-64 28.7-64 64l0 192c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-192c0-35.3-28.7-64-64-64L224 96zm32 80l128 0c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm-32 16l0 128c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-128 0c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const BringFront = createIcon("bring-front", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABrQAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDNAsGAAE2AiQDCAQgBYMtBzIbtgXIhqDSVWW1NBN70jHoEOCBWc9EhvfsogU8839NvXh+dIDf6NCyloUV8XwCX3QWaROabUAnijOni2uGDIWaJYiEUmtfhy3gMHmDPP5xoAbp1vQFrk5fGj/q4wKSLAMQnQGweOfW9d75Lr6L+KL1IvGFtQiIJaASyJChvwDzZAL95SrkcsF30Wrpf2BFANEkP5JAjja8gQ8AOUiaeT5mTN++XfuWjQ75jrJR7FEW5YM9buxTxm1jHhtRxAOjHuktbh396PAyIop4qOdNfSNu73XzyIPKonx47OP9YighylgqE7d0v2EYlALi7nf7ESzMQ8odD4yK2N6/S9qeTrmxh7ihexE39Yy4udcwoeZYWcblc7GIOBdI8fJl3W8w5LHOj/08+IuDv7Dw6bquJ331ZdZZ0aXLPbV7FCloK1qks0XqDbXsy68mnfNr35jHXm2HOehqM2HlnSr6jhBa3+50Txe6FO90me8gIfgGbayl7buOtY7f1U6pVfg7XnIJDdX3gUCw4fQB4/bpNO+3tjKBH1779W96XeudVKfH0CaBIBvXGmfPVAOgAiSZ4mRDGjYLJC9oAj61vZsECAUCJE2FAJl+OguQK4wVoGGg6QI0FbbKRN5O6G4vA0l7x4HMDGeBXHfPg4Z5Pk42dY/MhVkHZH8gk1bk+HJYNXnCpGpO9dh3cV5Jx/251bA16mSeG42jDnaMo53oIAc6zIkZebz1mZMcZUWLWM5GlckmmKQyR7U8upR2kO94JzBdF9YPmat6PzzKye3Vo+FKhHKKliQRqfzwlPF+DwAAAA==");
 
 export default BringFront;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-left-and-arrow-up-right-to-center` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-left-and-arrow-up-right-to-center?s=solid arrow-down-left-and-arrow-up-right-to-center}
  * @preview ![arrow-down-left-and-arrow-up-right-to-center](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-down-left-and-arrow-up-right-to-center.svg)
  */
-const ArrowDownLeftAndArrowUpRightToCenter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M502.6 54.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L336 130.7 336 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-50.7 0L502.6 54.6zM80 272c-17.7 0-32 14.3-32 32s14.3 32 32 32l50.7 0L9.4 457.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L176 381.3l0 50.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128c0-17.7-14.3-32-32-32L80 272z" />
-    </Icon>
-);
+const ArrowDownLeftAndArrowUpRightToCenter = createIcon("arrow-down-left-and-arrow-up-right-to-center", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABdgAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBcQsGAAE2AiQDCAQgBYMtB1MbFAXILgpsY/hoIT4UFTFKaRYb6405N/qxMw7jof+11zuzbwPAGhQq1pEMx9dFVv6oOhI2ytYYYtna7/eMzX+Yh3iP5JahkUxk4mmrGpLWRW9ezP8doIsNvkNq3/FNfz/P//mnKH1GH6VTo2gBnnk+gYFH8agBR7OBzXQCtrcNj44ohEZIiJRENF42Vmco8VKdqcl3+Y9X5UPjt3FnpPYKANEHAHaO4jF83oeIv6bEe7sgIHYAzCFUqDCFwDqhwBSROVAUwQfN+B/IEEC0gF+ZoKDgHDwAKCBlEZnmlbValFLWivYNouOR647zoYSsvyReDl91Kuli9MamCkpXRjTFJSshrFemSYB85GKF/rnv6S9a/G88qaH76a1affu4hZum0dDUhSPEAzvEt493W0Cr2OsUnweBoOP73bJ2/V+bUgD4VGu/ouZnyme0SRBUi02LQoIkAAAZK+gTAmmfAL9rl9cChA4ESC06BKhM0iFQdFhAoDbDi0CLDnuEosgRhhQ7SF1egMqafVAMeQa1dV+VFkNRBZgYHuL/Li2qocgqdtocHOJpg0gxw6fFMC97hhUNGOEoWsZGFpoauhYKmYnVl4aiHhzxRczJxoGF8HZ7uz+laWaua2yUlwnj85HByh9vhFCAGZecSEmk5WY2G6+t1054fTVrddSw2nA5eauldTG2XnkAAA==");
 
 export default ArrowDownLeftAndArrowUpRightToCenter;

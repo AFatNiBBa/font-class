@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-beam-hand-over-mouth` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-beam-hand-over-mouth?s=regular face-beam-hand-over-mouth}
  * @preview ![face-beam-hand-over-mouth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-beam-hand-over-mouth.svg)
  */
-const FaceBeamHandOverMouth: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48C141.1 48 48 141.1 48 256c0 59 24.6 112.2 64 150.1l0 10.7c0 21.9 5.5 42.5 15.3 60.5C51.2 433 0 350.5 0 256C0 114.6 114.6 0 256 0S512 114.6 512 256c0 113.1-73.3 209.1-175.1 242.9l49-49c11.7-11.7 16.1-27.9 13.2-43C439.1 369 464 315.4 464 256c0-114.9-93.1-208-208-208zM217.6 228.8s0 0 0 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0zm160 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0s0 0 0 0zm-78.3 47.9c6.2 6.2 6.2 16.4 0 22.6L248 350.6c-2.6 2.6-2.6 6.8 0 9.4s6.8 2.6 9.4 0l67.3-67.3c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L280 382.6c-2.6 2.6-2.6 6.8 0 9.4s6.8 2.6 9.4 0l51.3-51.3c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L312 414.6c-2.6 2.6-2.6 6.8 0 9.4s6.8 2.6 9.4 0l19.3-19.3c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-56.8 56.8C288.7 502 264.4 512 239.2 512c-52.6 0-95.2-42.6-95.2-95.2l0-32.8 0-53.6c0-11 9-20 20-20s20 9 20 20l0 19.7c0 7.1 8.6 10.7 13.7 5.7l79-79c6.2-6.2 16.4-6.2 22.6 0z" />
-    </Icon>
-);
+const FaceBeamHandOverMouth = createIcon("face-beam-hand-over-mouth", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABygAAALIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFyENAsGAAE2AiQDCAQgBYMtB0AbRAbIjsK25VNOU1ElGBdfkXj4f/+k3+e+JAOA1fTuoF50B68erMafbSDo92v7/oklMcw8nXhERCMXGiahnFSmW3OJhAiZ+b/c81uLDvAbHdKY7eFrYDQnToEAL7toPy8KKAss0xKgBucd0qTQFNJvkIu7YoM8abd0jY3Dm8Z3tWwgyWcAoiIADAp67Zx+jI8Rz4vXiefGgIAYBGgokCFDXQH6ygTqymmInJzgYxSLxX9gQwKIgolMjuVQwP9EWdAMSS6+b4eemjadolxuuk5Res6zS4g3U9fbnW8l1sS9GnweeOu4cN4FX+w3bWf+Z19u5xWx+LMdLsbr5MeALxSxc23s1O6BPUtMbqsqgi4IWmLskK3iOGFvi+O1dtdaUxXQ4sl0sp1LWft2q04UO+btNWaIffMLTYWmQBORNtXhyhutz9SPSZJPizXij2ocrXjmZ6MXi64pbpwRUZyJYJEi/7aMRt8216rJCHpscZtrjxAhMOYvaZ1/V/Z4pB7f1QrtxIzomWBknQAQAlGpwv99/+bttAq9QAQAaDLQrdT9+3Xx/M9vmcIgVwaAQ7JLTSa2STGTWu3GlxztydCla0dFRzuR059g+5DcWR4PZmT711wunIueUaXRXaXpuSYKA8vaHQ7CpwCBoMfhuxu9FRr/SpZJ4POd3/87v0XFR0k6AyUlEGRt/wvNlYBEAABSrCA9QSD5JSd+1bJ2CBBKI0BSUFqATB0VBcgprY0AefV1E6CgtCnIRK6UUNW8FCRlLQaZ7laCnKqugry+HucKqkbmBRQLrPyAZnaDUNeu1LLi0tT6VGrDrdpqqV1sSBX2566UA3nxQUaYZYYlhhlinCWAX8BeXGaabhbXxQdJ1Ul7HTXUW0Pl9qgZAGoWWGQcsqa+TR8NzadbWsEe3yoOSSbBzuqSRKRa4aumaGC4f7rI2ziKAomzyPMDAAA=");
 
 export default FaceBeamHandOverMouth;

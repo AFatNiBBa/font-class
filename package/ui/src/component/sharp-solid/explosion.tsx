@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `explosion` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/explosion?s=sharp-solid explosion}
  * @preview ![explosion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/explosion.svg)
  */
-const Explosion: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M144 368L0 320l82.3 96 115.2 0c13.2-37.3 48.7-64 90.5-64s77.4 26.7 90.5 64l115.2 0L576 320 432 368 544 0 336 296 312 128l-48 0L240 304 96 192l48 176zM312 0L264 0l0 24 0 48 0 24 48 0 0-24 0-48 0-24zM32 448L0 448l0 64 32 0 512 0 32 0 0-64-32 0L32 448z" />
-    </Icon>
-);
+const Explosion = createIcon("explosion", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABYAAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBUQsGAAE2AiQDCAQgBYMtBzAb0QTIhqBeV37Pk3bLJ5lBZsI7zpw5v8wY2x8AM8DKgVKCeKdOPc95KIBPWQRBWYuWhrNB5+g4r0DBu21sglrBIordna3VJGifJFaW5PPu+JQ75PFtdkeN9CB9ie78o/GrYe6QNGUAoi8A1h7ev9PHP8VPEV803iC+sB0BsRZUAhkyjBRghUxgpFyFXC74KRoN+g+sCCDq+LUEctSwGUeR55FkeT6+X1nWeuWHylpx+NDB8EGU8Wj6c5MfT31mWBmH40AcjyNxKIo4gJsPHi/KQghRBmoXhmvKPhHFuGf7Pvv72C8vfal7d/dsPLX3tA6PWlv++qul9bl2kZbnam72zWRDnjLHkJd0N5v90lPNc9gZag6PHvJRVVVrYIF47dMH6+un+6z4v0eZwC/v/vm78nHj47QmPYseEgiyGY0ZTqQ1QOQA/BRdxikTCySrZYDf2tNdAUKBAEldIUBmhL4C5ArTBagZbaEAdYX9MpE3CQOdbCDpqRVkFrkNcgO9BmpW+MSvGxiZQfHmwL/nUjb10MZ11dxZc6pl1TRVBRthw/Lyalmf0uVaU+GkS5rd0uGiC67q6JA2O6NON23S4I0mVJlrljkqy1TbxfLwIRe1aXdVs1tpleWq8/YUXfrwVLASppwnliQiNf2xYO8AAA==");
 
 export default Explosion;

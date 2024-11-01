@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `block-question` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/block-question?s=sharp-duotone-solid block-question}
  * @preview ![block-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/block-question.svg)
  */
-const BlockQuestion: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l448 0 0-448L0 32zm96 72a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm0 304a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm40-208c0-30.9 25.1-56 56-56l56.9 0c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L248 280.4l0 7.6 0 24-48 0 0-24 0-21.5 0-13.9 12.1-6.9 44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1L192 192c-4.4 0-8 3.6-8 8l0 6.5-48 0 0-6.5zm64 152l48 0 0 48-48 0 0-48zM400 104a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm0 304a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M48 104a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm304 0a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM72 384a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm280 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM136 200c0-30.9 25.1-56 56-56l56.9 0c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L248 280.4l0 7.6 0 24-48 0 0-24 0-21.5 0-13.9 12.1-6.9 44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1L192 192c-4.4 0-8 3.6-8 8l0 6.5-48 0 0-6.5zm64 152l48 0 0 48-48 0 0-48z" />
-    </Icon>
-);
+const BlockQuestion = createIcon("block-question", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABxgAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDWAsIAAE2AiQDCgQgBYMtB1gbAgbIhofv1/o8t19/AO4l7iXiMLu49QECC6TGBclOrQyhy4ycGm+8VD+fuCj/aqn2rPG/93gCAz+P68tw8QnNdAa2wXmDDyqUIaQPkMcr6YI6sseyT3FP+D+A8ZMhF8g0JQDRCYCNxw/vValGNYtPa28Sn9qDgNgECoGEhFEB1kgCo3IFcrmgmtVqVKNWKwgg6sUvS6AeHfgA3wJykKnXkOdNsTM/h1vq2vJjl5pPPzHjpaFHp7483FZbVzCu71wqhx57YiDikRkt8dKs14aenDkzhGiO+OhArI5H4uH+5niwdyE52tLcUnspS0ptkaL16FOccDK8huOPzT5+y8PJr3e+/sukT6/61ILjfQcP9mVOib2BASh1HFOmb/jhi4bf+P+WlZ7t0pwu/qHRoNKgPu3e9p7bm9q+XOmS+galhvWPlDFTqfRsRUd3n9/+yVpmPLj7g/+eeR4IBKv+WXrZ+Y41/zS2ZODi+7/9WP2Q1KpRyV5HowwEaW5trjNRgagIAEAWd5kcFSUCyRUaxJ/a6mEBQjMCZOo1C5CM6BQg12yOAHXGLRWgXrPDksibhF5nOyLT6lYiWeZuItfrDaLOGh+k9Xoj6WpJT0r/lOnbhsDWQ8XC+WWxqlitNLJGFbzN1cVhf+ZdfGIWvOsqN7vJHa50hWvdMYBus7e40422bYFbfVFhoflKhVWKy+1T/RhOb3O7a5cd1/dZrXg+numu7fmzYJSJWRc5kiQii9RvA5x5Wt+eZ0NmDc6prgEA");
 
 export default BlockQuestion;

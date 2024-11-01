@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-point-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-down?s=regular hand-point-down}
  * @preview ![hand-point-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hand-point-down.svg)
  */
-const HandPointDown: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 448l0-177.6c5.2 1 10.5 1.6 16 1.6l16 0 0 32 0 144c0 8.8-7.2 16-16 16s-16-7.2-16-16zM80 224c-17.7 0-32-14.3-32-32c0 0 0 0 0 0l0-24c0-66.3 53.7-120 120-120l48 0c52.5 0 97.1 33.7 113.4 80.7c-3.1-.5-6.2-.7-9.4-.7c-20 0-37.9 9.2-49.7 23.6c-9-4.9-19.4-7.6-30.3-7.6c-15.1 0-29 5.3-40 14c-11-8.8-24.9-14-40-14l-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-40 0-40 0zM0 192s0 0 0 0c0 18 6 34.6 16 48l0 208c0 35.3 28.7 64 64 64s64-28.7 64-64l0-82c5.1 1.3 10.5 2 16 2c25.3 0 47.2-14.7 57.6-36c7 2.6 14.5 4 22.4 4c20 0 37.9-9.2 49.7-23.6c9 4.9 19.4 7.6 30.3 7.6c35.3 0 64-28.7 64-64l0-64 0-24C384 75.2 308.8 0 216 0L168 0C75.2 0 0 75.2 0 168l0 24zm336 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 64zM160 272c5.5 0 10.9-.7 16-2l0 2 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32 16 0zm64-24l0-40c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-24z" />
-    </Icon>
-);
+const HandPointDown = createIcon("hand-point-down", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABnQAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDCQsGAAE2AiQDCAQgBYMtBzYbjwXIhofvdb6d+yR7HMkYQoX9A7TAhB1SG66WKuji+b/m83t+Dfj5CA6lihZVIKPM5xMYYAVGARWWDexEcdbmPASlJLjtCXuEPolqmG7YOkAeF8XtaqQH0re4zX40/jDO1SS1DEB0AbDFfnvt4vNlsSzim8E7xDd2QkBsASqBDBkmCrCxTGCiXIVcLlgWg0H5D6wIIOr4vARyNPAMXgfkIKnneXfBkna7V9Za+b5lrShD3FNig7h75L2j97txdMS9cUVbG/HUZp9tV8Y7Qy9Murd4ul93uHHGs0URT499YGYZ94y6e2Sx7wQD5IFxGIyb+dzclyZE3FO+txBM58D5LRG/b/rpvkX8uvHHezviBW6ce9+Ye0bZ+6YxQqRouVNYpHXstBe7L/419dtjv7X5m3zVMxpdldu1ly1rd5a2r+f6NoyVer1qkdN/W/3WotqyWV/0xrRaY/r2GDVqj75l7fay/nlTgGLVj4pe7/HHe71iT2c0zujd1bzM+d02N1Zs+8+abWORbWPNP7Ht2N02+ya8SJc5N3+tkz1JdUhWuv/3WRTdYiwQCC65aeczD+ts/G+jTGDFh//8x64efB6XpxfRkECQzRvMc3BcDoUaQDrFuaYFBgskj6gDv7XpXgFCgQBJXSFAZoKuALnCXAFqJltHgLrCXjKRDxNGOqSDpOkMkFnXJSA30lugZmNfpOtGRiZWQWrCv2Lqth7aZlS1eMGiasPqtGAX9ce1wY2qaVP/3NowhA2OdZpTne0YRzvBGEeeaZfcOU6xbQRvw0CVxRZYpLKh6nb5cfW+jnGms5zgNKduw2yket7Xd27cfgjWhLRL5CWJSB1t6/OFrM0XMQA=");
 
 export default HandPointDown;

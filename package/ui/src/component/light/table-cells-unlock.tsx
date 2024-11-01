@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-cells-unlock` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells-unlock?s=light table-cells-unlock}
  * @preview ![table-cells-unlock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/table-cells-unlock.svg)
  */
-const TableCellsUnlock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 64l0 96 128 0 0-64c0-17.7-14.3-32-32-32l-96 0zm-32 0L192 64l0 96 128 0 0-96zM160 64L64 64C46.3 64 32 78.3 32 96l0 64 128 0 0-96zM32 192l0 128 128 0 0-128L32 192zm0 160l0 64c0 17.7 14.3 32 32 32l96 0 0-96L32 352zm160 96l128 0 0-96-128 0 0 96zm160 0l32 0 0 32L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 65.1c-24.1 3.5-45.8 14.6-62.4 30.9L352 192l0 128 40.6 0c-5.4 9.4-8.6 20.3-8.6 32l-32 0 0 96zM192 320l128 0 0-128-128 0 0 128zm288-48l0 48 48 0 48 0 32 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l-32 0c0-26.5-21.5-48-48-48s-48 21.5-48 48zM448 480l160 0 0-128-160 0 0 128z" />
-    </Icon>
-);
+const TableCellsUnlock = createIcon("table-cells-unlock", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABoAAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDJwsGAAE2AiQDCAQgBYMtBzkbsAXIhof//Puvferer3pt3JZfAxwJ2axfA7mFcMQMDJJxyqij0fxfTu8u2zSf/0Ee2poDx5jPE0hkc5RtDSSwTBOwls1hdjEPaYT0M9Txd8zWQXoxfY3Hww+N34x0D0ldAYgBAFh/xinH+fTn+Dni6//fIr52DAJiA2gEKlQYI8AqlcAYtQa1WvBz/P9/8R/YEEB0iunJ5TX64A18CKhBkuu6bw8vndbT7ml19K1P18X5CqEVRHjnsOdyqJVFX1xHHhryDKc7db06E8rQZ1vYfVor73KFVv0S0Sf2zzw8qoqXZx2Z1jf2zTg0Urw5PYdoxTNyOP2o+RLHTz089FmiDHkm53ho2HOfm4Y/v5p8fdaRpW9dDI7N8dKCcereLfuIU09dYeLhAYf/mPD15V+7oPfCCy8s1un3wAP9LmxKKRcqLtxJxBP1up6rt7fEmKLsXCfZpaIcr19wUNXQYuvsHDgwF0S27Cwdtt7mBy7WNMOjgxoXvv6Ea/y8NlWfGJmLYmWn7u1tcfplAwZcdno0qm++b7e//6Ya/93OnTuLnQoQCI6/Nu6+oP+qo92tBH59/6+jgl/R/5+mkg6jWwJBNfv/2c5NBVIRAIAUt5uYCgLJEVns6+O5q7mQoSDplEFltAGgls0CHcZZLD64/RSVqHuEIc7DIOnjJlBZ4g5QG+IN0GGVz9KdhkQFu1LIk/46ptoypG3e1Myf225WNKstjQwcxXZ1ZXPYNP12OTIDH3W5G1zvVpe51FVuHXBvdlzuNtfZssXZ7Isa883V1lihudx9qjqdum52ixQvy6+vs1LzvG+627enz8DWJBa5QFWSiDQIrDVzvLx7zm3X+y0AAAA=");
 
 export default TableCellsUnlock;

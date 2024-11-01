@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-from-water-pump` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-water-pump?s=regular arrow-up-from-water-pump}
  * @preview ![arrow-up-from-water-pump](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-up-from-water-pump.svg)
  */
-const ArrowUpFromWaterPump: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 0C85.5 0 64 21.5 64 48l0 208c-35.3 0-64 28.7-64 64L0 425c5.3-3.1 11.2-5.4 17.5-6.9c10.4-2.4 21.2-7.2 30.5-13.5L48 320c0-8.8 7.2-16 16-16l448 0c8.8 0 16 7.2 16 16l0 84.6c9.3 6.3 20.1 11.1 30.5 13.6c6.3 1.5 12.1 3.8 17.5 6.9l0-105c0-35.3-28.7-64-64-64l-40 0 0-174.1 39 39c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9L465 7c-9.4-9.4-24.6-9.4-33.9 0L351 87c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l39-39L424 256l-136 0 0-208c0-26.5-21.5-48-48-48L112 0zm-.1 430.1c-9.1-8.1-22.8-8.1-31.9 0C62.8 445 41 456.8 18.8 461.8C5.9 464.7-2.3 477.5 .6 490.5s15.7 21.1 28.7 18.2C58 502.2 81.6 488.2 96 478.2c28.1 19.5 61.4 33.8 96 33.8s67.9-14.3 96-33.8c28.1 19.5 61.4 33.8 96 33.8s67.9-14.3 96-33.8c14.4 10 38 24 66.7 30.4c12.9 2.9 25.8-5.2 28.7-18.2s-5.2-25.8-18.2-28.7c-22-4.9-44.3-16.7-61.3-31.8c-9.1-8.1-22.8-8.1-31.9 0c-21.6 18.6-51.2 33.9-80 33.9s-58.5-15.3-80-33.9c-9.1-8.1-22.8-8.1-31.9 0c-21.5 18.6-51.2 33.9-80 33.9s-58.5-15.3-80-33.9z" />
-    </Icon>
-);
+const ArrowUpFromWaterPump = createIcon("arrow-up-from-water-pump", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABkAAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCNAsGAAE2AiQDCAQgBYMtBz8bQwXIHoPjbllMlrKoy00ll8eMh2qve7t3/ye04rpvTXWhq9EoJArdio/xjGcifAaL8GCRHVV9EOdsR1IoMsM7BIMEzu62sPcnLqc/B/359BcPM9lTAxnLxpjcJRDoY0+NTVFgWWCJYrbNsCMLghKaIiJMnvhh84fxz1DjA/WCn/zkeQG4r18av1DWAakpAIhJAMDpVUwYbr/SV6Ln3BHEN0JAQJwClhEKCuYROMArMI/PMqiqYEAcx/+BDAKIFkKlYMWdt+AOQAUpK1/ghii/OF981BdJ6ckRDSqBeoarEN8VRxRJI05D8qBXvb2Jxo3X9UWIyI2WDCZU4mlZN5ZGlWeRByGGySIUho14huVWbReVxwxOTM787lx6yZrdkuqE/rGx2jSou6i7rL+sMF6ur70utf5N60X+C1R8WX4E+rxvMDslLVKk9vGPOEgMbvFVIs5b3tbaIoiQ/qwhtuUTH3vzJiKiWtkCS3gq37Yeb8Db/2jZsv2ykr9ebPRl1o6X104uybqMitXzU1pWGx6DAiMjA4Me8Q4ncYBAcPoX+iND0vWfkCgP4Of8x39+kHv6v03vXAd0JQjKKmcqNT0N4GkNIqmMetpUhpBumnl86qg3BMIwAqTWsADFHCkEqmErCDQW2SHQGnaGV1RhhFlpU02jrtViX6NazTpQGwfuUq3Z4HVBhwM5fgDz+q+w3zZmZW7JnNmxZTi9ylZWXdjjqGF9GjGinchXoVytPLmK1C5CtbBsnTL+Fu/nhxgr5iwxzth1990bj1S1GkW6+34TF+z9pKF6e7oRJXiIyW3GKYlUyqqurmgwq6s0+1r9Zo6aMqusK6sEAAAA");
 
 export default ArrowUpFromWaterPump;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-circle-plus` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-circle-plus?s=sharp-duotone-solid calendar-circle-plus}
  * @preview ![calendar-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/calendar-circle-plus.svg)
  */
-const CalendarCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 64l0 96 448 0 0-96-96 0 0-64L288 0l0 64L160 64l0-64L96 0l0 64L0 64zM0 192L0 512l330.8 0C285.6 480.1 256 427.5 256 368c0-91.8 70.3-167.2 160-175.3l0-.7L0 192z" />
-        <path d="M288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160-80l-32 0 0 16 0 48-48 0-16 0 0 32 16 0 48 0 0 48 0 16 32 0 0-16 0-48 48 0 16 0 0-32-16 0-48 0 0-48 0-16z" />
-    </Icon>
-);
+const CalendarCirclePlus = createIcon("calendar-circle-plus", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABhQAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCGAsIAAE2AiQDCgQgBYMtB2QbTgXIjpQuI1bx8LX2n+d2z3u1O7MMvczoNqzYkUoUgooi9LG/IlnFpep5yqa0asj809/P819Fef74E3y0qHWARAJlnk9gQuUNNE6RTWdo251tsh1KPklLSMvxbccpB6ji//yMFum19Cteyv8DGH8a6hmS7hlA9AHAmkP7dviyK7pS/Nr5nPjVdgTEWlAEMjJGCLBcFhihUlCpBF2p06ErOp1CANGWyczfxvu5iYeACiRJqqrhY4b2bVo9q4NNqz735CzER8u+eW7JZtgT07W49bNLb2biUN3UQtQsN43wBKabJkY5IjLeM7x1GFIbpJx6hv7y39Z9cyiix9h3+/DvMb9e/NXoXZMKpX+/iRP79S9lkmii1Ou7Cnykj9lm9yn6zJ6tj4JDT5wu6S+djtBq/xM1dfqJ1Xj7bSYtmD8jNnz85fp2eAMIBNv/fvOpU72X/9etSeD3L/79A1zd+TKtTu+imwSCPL0z3fG0GkgZwI9K8dDYtDoKAtlyCb5rDy8LEGoESNpqAbLh+ghQqU0ToGWUBQK01fbJououDHCig6SHOyBb6BGoDPAZaFnuh0LbgMhWZ9iM8ebL3SihDevKnJmzy9KybGqmIWlpeVk5Dk9+yENTYK+LbrnpvgvOu+K+4O/aUX7gho07boMvKuaYabZiqaLuPLoHReque6zNbf0qy5T7+cke7idPgVhSVOfakGUiRR7hlP4ZP3Q8M1zXP8OIJ49a2D4LAA==");
 
 export default CalendarCirclePlus;

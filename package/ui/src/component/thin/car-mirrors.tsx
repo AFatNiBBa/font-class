@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-mirrors` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-mirrors?s=thin car-mirrors}
  * @preview ![car-mirrors](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/car-mirrors.svg)
  */
-const CarMirrors: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M138.4 88.6c6.9-24 28.8-40.6 53.8-40.6l191.4 0c25 0 47 16.6 53.8 40.6L467.7 194c-6.4-1.3-12.9-2-19.7-2l-320 0c-6.7 0-13.3 .7-19.7 2L138.4 88.6zM88 200l0 .7c-4.6 2.1-8.9 4.5-13.1 7.3L32 208c-8.8 0-16-7.2-16-16s7.2-16 16-16l32 0c13.3 0 24 10.7 24 24zM123 84.2L96.6 176.8C89.3 166.6 77.4 160 64 160l-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l24.4 0C41.2 241 32 263.4 32 288l0 96 0 16 0 48c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-48 320 0 0 48c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-48 0-16 0-96c0-24.6-9.2-47-24.4-64l24.4 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32 0c-13.4 0-25.3 6.6-32.6 16.8L453 84.2C444.1 53.3 415.9 32 383.7 32L192.3 32c-32.1 0-60.4 21.3-69.2 52.2zM528 384l-64 0-16 0-320 0-16 0-64 0 0-96c0-26.2 12.6-49.4 32-64c0 0 0 0 0 0s0 0 0 0c13.4-10 30-16 48-16l320 0c18 0 34.6 6 48 16c0 0 0 0 0 0s0 0 0 0c19.4 14.6 32 37.8 32 64l0 96zm-64 16l64 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48zM48 448l0-48 64 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zM488 200.7l0-.7c0-13.3 10.7-24 24-24l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-42.9 0c-4.1-2.8-8.5-5.2-13.1-7.3zM112 288a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const CarMirrors = createIcon("car-mirrors", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAAB1gAAAMEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiEWgsGAAE2AiQDCAQgBYMtBzIbXAbIngU5GW86EJfSSqv51jLh0SILenqdtu9L8jiS5SAprhKWj1BHzBURl1wm3WFRIddXm4ePq72/tB3HAVTgjZ9A3cIpR40vULTcARw048DSLpAkkSebAM7ydsRX35uNjQ02hBTEIldBMTqc8TiCIwhZjbBYWcp/VxMk8eC/e3dPbXrxU3MzWm7VLS0i2m1QRP+F4+MJbL3DfBww5/UbwNH4l+ofSu3CYFkAACgHAADoM2ncCNry+Kz05h/0BsMAAagvAAEBFmABFQRADxYCKtgEwMZG8Dkyf/t/4BwCAMVIsYZLNuCD4qBSkLeCwbPtopyJNX4yJys/+GLP8e2JnuNOu2jprPF00J4eTNAZSugATxqPONV2dUbO9jzd9jEE1Zm6atcp987ppVn3AkKIzD7ozobkO9RUemXg5u1ypujqFk/UhXanO3Kg3OovcL2EdHVujyzubvd1u6LzfqS/x0rRI+I1W8jTOGie0MVOcaetevZZ99A2ettFyKdXonu58yYhy4RIpXfQuW9LPag/+OXsltl/2//F29ZT/uu9mi7meDHCPR4Xp1dKmjuugc/V5OdkTGFqXen0LK2VOcl9W05mCUuc2eQIJerUqJCICnPweGdJCRV/RtSa6Sxsai5pU7JoWnhqUfT5IP4TAMDIa7i2BgD8TGdnIApJfk4+V8OryzAMIzD82Y1Q4ZgEBkHTuLmbJoZoIC+zJvfBhfRCWp2thlAp+jwACBDkXEY9vFqP/2nJAPD18a/5uEyeROYBEMcAILAaM8t0EwHYxAIAj9FGUgxHZCLwSI8mOCMAEC4QAkMMF1iUywE2Lg3AoUpHtPLIOCxkZyEKzACAIcEaYNHJZmBT4BFw6OG5O0ZBWF8FVU9T/0ljDaSYAdOCdHMYdAtmizqaRkfBcPdgtah2o9NUBztZyCpWsp4FzGcJ6wlhLSN8G1jBQI50wN8G0pqFAt0EuyvLrInEs5Z1LJmm7x+nu+B8Xa2NfOc6mIcBANrpJ+TskfHmzVnbtGLJ2rWr1q4DAAA=");
 
 export default CarMirrors;

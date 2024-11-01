@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rotate` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rotate?s=thin rotate}
  * @preview ![rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/rotate.svg)
  */
-const Rotate: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M43.6 224c-4.9 0-8.7-4.3-7.8-9.2c9.7-51.8 37.5-100.4 82.3-135.3c88.3-69 212.1-61.3 291.3 13.2L455 47c6.9-6.9 17.2-8.9 26.2-5.2s14.8 12.5 14.8 22.2l0 104c0 13.3-10.7 24-24 24l-104 0c-9.7 0-18.5-5.8-22.2-14.8s-1.7-19.3 5.2-26.2l47-47C324.5 35.1 209.8 28.1 127.9 92.1c-41.4 32.3-67.2 77.2-76.3 125.1c-.7 3.9-4.1 6.8-8.1 6.8zm423.7 64c4.9 0 8.7 4.3 7.8 9.2c-9.7 51.8-37.5 100.4-82.3 135.4c-88.1 68.8-211.5 61.3-290.7-12.7L57 465c-6.9 6.9-17.2 8.9-26.2 5.2S16 457.7 16 448l0-104c0-13.3 10.7-24 24-24l104 0c9.7 0 18.5 5.8 22.2 14.8s1.7 19.3-5.2 26.2l-47.6 47.6c73.5 68.4 187.9 75.1 269.5 11.4c41.4-32.4 67.2-77.3 76.3-125.1c.7-3.9 4.1-6.8 8.1-6.8zM368 176l104 0c4.4 0 8-3.6 8-8l0-104c0-3.2-1.9-6.2-4.9-7.4s-6.4-.6-8.7 1.7l-104 104c-2.3 2.3-3 5.7-1.7 8.7s4.2 4.9 7.4 4.9zM144 336L40 336c-4.4 0-8 3.6-8 8l0 104c0 3.2 1.9 6.2 4.9 7.4s6.4 .6 8.7-1.7l104-104c2.3-2.3 3-5.7 1.7-8.7s-4.2-4.9-7.4-4.9z" />
-    </Icon>
-);
+const Rotate = createIcon("rotate", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhAAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCLwsGAAE2AiQDCAQgBYMtBy0bLAXIBp6HOvP9mUm6new6aD0ru5Bv0A1OtvUNwg3S1crv35o378bwoWR4XNg8v0Gi85wn0Dxv378n9IW+WEAaY+o2ZnmQi01ExsFzxJDkoYmBJqcYgQmUdcpVYHkjSt7QlUWgoKoAAIgvAABQ2N5cy/mX8lLkqvsIyFWqAQGQIgAMBFCB6IEAkIOKwBhoGICGhsBLcbv1H2iAAICY6dgKABpgBqYBiwGwASho+NjgYH9/i8lLa7OY9HaX40H7g9Z7jfnSYXPakLUhurjsLke+3G67X3OzZY0+1Gm923K37X5Tjqyxu+wiG8It4rQ5rTlyq/Ve/Z32DkebRbd0OETm213WFlljc1padIu+xorMszkd7dJhd+lBO313vgu8Ouoq0S/mdfJuKEotSa5X67UHzzh5757PGGyNY/g4cOCu9yysUitV922vSrt5a36MTytJUlMfXFXcrKoMbA3DJo8BnSHmMZgKC5NGjybYajW92GKfA4AAAnvbZ4QP9sn55mFRAHh98sPv8RK+7qfyUdkJeKAAIKDGuGMYoIAvvvIRoUSKzCLIoYwACuPQAECqJy4EAEEHBAAFMzoCgEp3fBEANHSiEQBM9CIVAcCMTjMqonVGsDJwgYInU0EljdmgYeUQmMjhQmTGKmr+GdljfP9yy5gpPTMS4xKMLGObm2ZKaXWfbYS9iFnSiwSSUUxmEjMYyQjGMoPkadSmM5lImceWQhGDROJIwCAL47ja3rcxkmlMZyyTmaRHsjHu+xHM8qcjcYUCACS9nCZZUczTJs8YOmMkAAAA");
 
 export default Rotate;

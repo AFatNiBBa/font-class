@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tower-cell` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tower-cell?s=duotone tower-cell}
  * @preview ![tower-cell](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tower-cell.svg)
  */
-const TowerCell: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 128c0 38.1 7.4 74.6 20.9 108c6.6 16.4 25.3 24.3 41.7 17.7S86.9 228.4 80.3 212C69.8 186.1 64 157.8 64 128s5.8-58.1 16.3-84C86.9 27.6 79 9 62.6 2.3S27.6 3.6 20.9 20C7.4 53.4 0 89.9 0 128zm104 0c0 26.1 5.5 51 15.3 73.6c5.3 12.1 19.5 17.7 31.6 12.4s17.7-19.5 12.4-31.6C156 165.8 152 147.4 152 128s4-37.8 11.3-54.4c5.3-12.1-.2-26.3-12.4-31.6s-26.3 .2-31.6 12.4C109.5 77 104 101.9 104 128zM412.7 73.6C420 90.2 424 108.6 424 128s-4 37.8-11.3 54.4c-5.3 12.1 .2 26.3 12.4 31.6s26.3-.2 31.6-12.4C466.5 179 472 154.1 472 128s-5.5-51-15.3-73.6c-5.3-12.1-19.5-17.7-31.6-12.4s-17.7 19.5-12.4 31.6zm83-29.6C506.2 69.9 512 98.2 512 128s-5.8 58.1-16.3 84c-6.6 16.4 1.3 35 17.7 41.7s35-1.3 41.7-17.7c13.5-33.4 20.9-69.9 20.9-108s-7.4-74.6-20.9-108C548.4 3.6 529.8-4.3 513.4 2.3S489.1 27.6 495.7 44z" />
-        <path d="M340.1 165.2c7.5-10.5 11.9-23.3 11.9-37.2c0-35.3-28.7-64-64-64s-64 28.7-64 64c0 13.9 4.4 26.7 11.9 37.2L98.9 466.8c-7.3 16.1-.2 35.1 15.9 42.4s35.1 .2 42.4-15.9L177.7 448l220.6 0 20.6 45.2c7.3 16.1 26.3 23.2 42.4 15.9s23.2-26.3 15.9-42.4L340.1 165.2zM369.2 384l-162.4 0 14.5-32 133.3 0 14.5 32zM288 205.3L325.6 288l-75.2 0L288 205.3z" />
-    </Icon>
-);
+const TowerCell = createIcon("tower-cell", true, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABqwAAAKrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yCagsIAAE2AiQDCgQgBYMtB1AbjAXIPgxvjKGLBBmCbUWwQp1S8EvDWQydeuy9V0KGIsiGbfbuvhWKontQtQpVWjxCIdw7ZCsSi5AIjfDNYgT2/Liat8aB/ygmo0EhAkjLfGJIYAmbzv/n3t3392gvK6COf2voJhkLOApw88aE8qgTl//gAcksS5MttL2wAafb4onN10ZKte/KTHT+L/f8nh8d4Dc6lD0bY3rRHpxA4G0bGySgEqrnZ+YtbrsZYhrSeGhcoMR/nqNCemVe4Dr8H8D4E7UASSMDIPoAgL3zqhJcfnfq9T/iUwACYh8wg5CRMYHAJq7ABJ4ZUBTBd4LvYAYCiCrid8ygigbuwBuAApKsFJ6vLDraakcpL+fVtiqSzmfa1M5Lh5XTyIxfTw/+kr8UXgmHkUoh1JWshBprJC2J8zjs2K2pxcWoy4P6cnibJumCW05e6i16BrQGybXySWydJvGN0nFkExevGERWi0fxHZqk1guH0botDBJvxM00aZzDJod4nlvnnyy0xi58iW3vbrPDJP5lHYKijSLr2WJuFh8CTY1muSNc06zb5W1c/o0lvg4uVnKtGHI30tcziiynm7MvtmGzssH6PFW0xC6/v9B2mnQ9HZO7/y4X01HLMypd91fcYx8AgeDqoNj1uvmLygH8fvytnv4/NdM7qEsgyHP/Oc1pFxAzSJxJMcFz6YdaQSA7wYM/te0JAUITAZKqpgDZOBUCRdMsAhVTYhCoajrGFUWMMKqlA0nbJciWTYJilBlUbHrIVo0GC54UcFE/h/G5QyhnEYsIDWeJbLWioSGOsJNJ7LDuPyE7AvBedBg0YEy7Nt3GBsiIksK4frlbcI4vYiKECsckYpfrT/naQXbEqO5l9vo8SdjzAX8T2/0DsMURo85bkmUiEVfjeYUQ/yeHAHqnbsx+0gAAAA==");
 
 export default TowerCell;

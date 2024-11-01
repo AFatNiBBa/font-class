@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `draw-square` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-square?s=light draw-square}
  * @preview ![draw-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/draw-square.svg)
  */
-const DrawSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-96c29.8 0 54.9 20.4 62 48l196 0c7.1-27.6 32.2-48 62-48c35.3 0 64 28.7 64 64c0 29.8-20.4 54.9-48 62l0 196c27.6 7.1 48 32.2 48 62c0 35.3-28.7 64-64 64c-29.8 0-54.9-20.4-62-48l-196 0c-7.1 27.6-32.2 48-62 48c-35.3 0-64-28.7-64-64c0-29.8 20.4-54.9 48-62l0-196C20.4 150.9 0 125.8 0 96C0 60.7 28.7 32 64 32zm62 368l196 0c5.8-22.5 23.5-40.2 46-46l0-196c-22.5-5.8-40.2-23.5-46-46l-196 0c-5.8 22.5-23.5 40.2-46 46l0 196c22.5 5.8 40.2 23.5 46 46zM96 416a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm256 0a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm32-288a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const DrawSquare = createIcon("draw-square", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABnwAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCfAsGAAE2AiQDCAQgBYMtBzIbfgXIhod/9P77fZLcu94kY2QkVbA6iJ8soYosukH74W4wcbnzP3963/wEjzbGrHyDjLE1gc4DycamEskCCyVwb3De4IOODu1nyOLp6KVCcif5AZfMD41ftXCcRJYCiPoAGL9gzmyf3It7ET88eY/4wUwExARQCqRI0VqAUVKB1jIlMpngXjx5wv4DSwKIKvt1CchQgxfxOiADiWqWNRrZsJH9W4pKnWx+UcmXnGsWcSuONL2Zn2183eEmN4o41zniRosinm72evFq9zdbHG5+vZN4tckdt7u90elsl5st87jd+JX8tR5vtTzS6lbXiNeaPhVP93y766IiL54fGvF+2zyeGSTea9PpSNOIZdPnmt2KOrEbwfk1Wx1gjw5v1X/r9/Y/rP/B2LF1T3O6blDH9lvZrA4P535h7sM6zV5o0CBv9svPkwvw5J9/aZaLL3S0ycLRO76wy64N/8Lwa1+IRtydfYTyinbt6PNAIKgZeOafFfVG/V9TJODBx3/+jx/35F58kryFGgkI0l5PelkanwAjB5BLYr8OHVsMJO445e9a200BQo4AiapcgFQr9QXI5HoKUNHWYAGqcnOkIqslNLYsIxK17SJSQxwgMo29Q1SM8nW2qnGkjyn7kLE/iUlTisDkTWX/Pv3KEWVrXcI9ebQ2P7IcbHXbz/u6w53W22G7vdZZa5O9BWi32YV9tpnSBU72RaX++uinNEI5uXVVml/I7bbHpmZ++jojlcunutnfPbo7dBM25QBFiYRIig9Q7f2wAwA=");
 
 export default DrawSquare;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-virus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-virus?s=thin shield-virus}
  * @preview ![shield-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/shield-virus.svg)
  */
-const ShieldVirus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M237.3 22.6c12-5.1 25.5-5.1 37.5 0l176.7 75c16.6 7.1 28.6 23.2 28.5 42.4c-.5 96.6-40.3 270.2-204.5 348.8c-12.3 5.9-26.7 5.9-39 0C72.3 410.1 32.5 236.5 32 139.9c-.1-19.1 11.9-35.3 28.5-42.4l176.7-75zM281 7.8c-16-6.8-34-6.8-50 0L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.8 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2L281 7.8zM248 119.1c0-4.4 3.6-8 8-8s8 3.6 8 8c0 37.5 45.3 56.3 71.9 29.8c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3C320.7 186.7 339.5 232 377 232c4.4 0 8 3.6 8 8s-3.6 8-8 8c-37.5 0-56.3 45.3-29.8 71.9c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0C309.4 304.7 264 323.5 264 361c0 4.4-3.6 8-8 8s-8-3.6-8-8c0-37.5-45.3-56.3-71.9-29.8c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3c26.5-26.5 7.7-71.9-29.8-71.9c-4.4 0-8-3.6-8-8s3.6-8 8-8c37.5 0 56.3-45.3 29.8-71.9c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0c26.5 26.5 71.9 7.7 71.9-29.8zm8-24c-13.3 0-24 10.7-24 24c0 23.2-28.1 34.9-44.5 18.4c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9c16.4 16.4 4.8 44.5-18.4 44.5c-13.3 0-24 10.7-24 24s10.7 24 24 24c23.2 0 34.9 28.1 18.4 44.5c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0c16.4-16.4 44.5-4.8 44.5 18.4c0 13.3 10.7 24 24 24s24-10.7 24-24c0-23.2 28.1-34.9 44.5-18.4c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9C342.1 292.1 353.7 264 377 264c13.3 0 24-10.7 24-24s-10.7-24-24-24c-23.2 0-34.9-28.1-18.4-44.5c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0C308.1 154 280 142.3 280 119.1c0-13.3-10.7-24-24-24zM224 224a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const ShieldVirus = createIcon("shield-virus", false, "data:font/woff2;base64,d09GMgABAAAAAANMAAoAAAAAB1QAAAL/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRSDbwsGAAE2AiQDCAQgBYMtBzMb8gXIrgbshnhDFN+qE7W+phlvR6oGhGFzYjw8vz/q3PffQGpMTONQsVR3qduE6Ah2CHXSVv/8uHz/zs1N/2A2OJEDEDorVZ3WVtoW2vL979rwql+2XTUrHfFM6xcSeIIKoXJkk8zrlhED5cvmgPoQTWNBctmGpYu38vR34Cazv///3h1v4tjcX4J5JAHe99s4p61BZXMeT6Dj4Z42wANLGFNELx3gTjge6N8VctxO7UImHc88gpTDKSVWQdpPJkXBwUU9wJeysDaXgM9v8Q3Fo/FV4hHUgYBYBEA/hAIFuiEwjSjQjaQfyLLgW/z/b/0H9oMAohTenkBGOZ5JWZUCGSSlObfzQiE6vaqkJq8xPlO58cJQ6ExOg1fBXX5lfov74kuiZRznukSnAKlz6rUmX1v/2uPEEJk6f8CI3tg8iwinzIEoAKtwTgjo1gGgEAVzt0PEjwKAYvnQohuyeFkwpSOREt7B4XikuLyx5UBUuVkWUaKRSAlvHNV4pESCuRMRmBEdiBSmyAMmAkBUCZhvaK5L93egPQf4nLfGx5qTnAsxQj/vnUGnMqN8P5VgFiD+7bZ2N46HMilnNiBE/Tx9UBcqqE9mKqRQ0o0IgXO/LPQf0T9JqdUovJWVbD4ai8oORglBI/R1MDLgiuazXU28IZXR2LKlDBf9+6D3Z1+vDLcwyMXNMNKM28uzmpoHoidaMqK6v481f99nl3mv16+MDznC7Xdt7beQm4q05etAIHj3e55sLXr/y5MEftz6/0qfr/t/N36KO0W5BIJidDyqlECduoGxLECMpTgEYkxSILlnZymqHWGRDJWUeFKqEi90YeBZpRG8RC8bPXH2EqLIFUKzMvCk2l68MGUDz5q94CWmfcdKNUfXt/bq1P5eZoozIzYOm/RG7Ma9RbnukqXNYQ+ebFYuqk0qrICOKZPmtbX0UyDxrERywYT4kHLst5iJnhHmhhdXbpqK5Jo1x3S3YfkoHnh7v9LicGcVbASeyjGbkkSk6v29fnvU0n05AAAAAA==");
 
 export default ShieldVirus;

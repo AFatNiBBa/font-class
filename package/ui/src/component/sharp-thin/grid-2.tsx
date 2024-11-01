@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grid-2` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-2?s=sharp-thin grid-2}
  * @preview ![grid-2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/grid-2.svg)
  */
-const Grid_2: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 48l0 160 160 0 0-160L48 48zM32 32l16 0 160 0 16 0 0 16 0 160 0 16-16 0L48 224l-16 0 0-16L32 48l0-16zM48 304l0 160 160 0 0-160L48 304zM32 288l16 0 160 0 16 0 0 16 0 160 0 16-16 0L48 480l-16 0 0-16 0-160 0-16zM464 48L304 48l0 160 160 0 0-160zM304 32l160 0 16 0 0 16 0 160 0 16-16 0-160 0-16 0 0-16 0-160 0-16 16 0zm0 272l0 160 160 0 0-160-160 0zm-16-16l16 0 160 0 16 0 0 16 0 160 0 16-16 0-160 0-16 0 0-16 0-160 0-16z" />
-    </Icon>
-);
+const Grid_2 = createIcon("grid-2", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABcQAAAHYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCIQsGAAE2AiQDCAQgBYMtBy0bHgXIHgXunhN+aAPhc1Ea4+H7tddz325oN1Ti16gCoyJQQODq4wqq0QV0ZcdG/KmN7lT+ZK79agjQ9ndTp57HE5rnbxS0sXBpfGwN7VV8gYIWh9Z7FagVrKYVsL5NRKk8evwkQtpIx2nH1QPK+OiYFtKTBP3yoTFojAckRQEgegGwdt+unb41ohHxuznx23YExFqQBQoUGC/ACoXAeKWMUiloRLOZ/gMzAUQrflUCJSpcwW1ACZL2suwYEuVhaNUtXeXecLM6JNQRUY2sq1ogXVUR4w4MY0eruhLUuxfgok6Gy33PeNbkPyeY3S/fNWCgSe+3XgN69b6R03p6+ujrlacb3TcZTm+v5XkgELw/dOh/PSv+tdcJ/P3woPyMcrMRjfQM7RIIihnNGQ4nshwNAQBIcUNfIgskZ7Tjd+30UIBQIUDSqhKgME6vAKXKdAFaTLRQgFaVXQpRdgjDHakg6XQZFBa5D0rDvQctVvjutBoehePxbsP/+1I2aWTjuTx31py8LE9TRfAlNq+X52N1yg1qTYWrTrjogmuOO+a0awq/Yqd/3XmbVthGX5TNNcsc2TLZXNwqe5VzxVWnx5IdZrl835zixnp4KhgJM86TSBKRWt+XNnMeAAA=");
 
 export default Grid_2;

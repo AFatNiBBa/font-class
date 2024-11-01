@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-exclamation?s=sharp-regular plug-circle-exclamation}
  * @preview ![plug-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/plug-circle-exclamation.svg)
  */
-const PlugCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M120 24l0-24L72 0l0 24 0 88 48 0 0-88zm192 0l0-24L264 0l0 24 0 88 48 0 0-88zM24 144L0 144l0 48 24 0 8 0 0 64c0 80.2 59 146.6 136 158.2l0 97.8 48 0 0-97.8c15.2-2.3 29.7-6.7 43.1-12.9c-2.1-10.8-3.1-21.9-3.1-33.3c0-7.1 .4-14.1 1.2-20.9C238.9 360.2 216.3 368 192 368c-61.9 0-112-50.1-112-112l0-64 224 0 0 55.2c13.8-14.6 30-26.8 48-36l0-19.2 8 0 24 0 0-48-24 0-8 0-48 0L80 144l-48 0-8 0zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-64l-32 0 0-32 32 0 0 32zm0-176l0 16 0 80 0 16-32 0 0-16 0-80 0-16 32 0z" />
-    </Icon>
-);
+const PlugCircleExclamation = createIcon("plug-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhQAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCRgsGAAE2AiQDCAQgBYMtBz4bVAXIHoVxTGyki/VRaGKK4Pu5/utzk5mal3yGfGZWQEugSK4CYMfCAUkiu9MjgYrM8t0pZOTUeOOlAj4rQZH+01LtgZz9E5/A4sPz9B7w2cAGNMCJ8MbWnfRoxjq47jXk8XU8qkZ6Mo1HvDeNX3R3h6SWAYh2AJi3ZcMqn/wQP0R82XyT+NIKBMQ8UAlkyNBLgJkygV5yFXK54IdoNtl/YEUAUef+XgI5GrgbDwJykNTzvHXrMT1b2pe11vnmslbsCFGEEGVEGVuxtygLUZbiqVkfLkqPj6eHPBZ2fWbiW8Of61PXfH6IR6qzi20PzIh4f8zL4eiXpr9XNPWdkS+4MerFae+WFGUBPMHwjPuFsv9z7Z77rQ9/5crT3bp1G6ubrcba+knM6XuFPqUxV6sd25/db6z99k8b075seX3un/5vO9cPplj0YkeNJnOXnBmSSOP6DR7cb1xKQ2AeM5uVi1GpXmmXWqudSjve7SAQvPvz9rSd+V+jTOCn9wAObn6S5qbn0JBAkI1sjrQzzQWGDyBIcVn/ihEGkmvG66u28pgAoUCApK4QINNTOwFyhREC1PQxSYC6wgaZyFuETnZFcNLKOTgz2VU418nrcM1Mn/p1nSJbFpklibkSTFycBBYNq8aNHltNr0rzAnbxonT/jKqxOfQyrxsGFzrsjNMuOuSgYy4moPNWRZecsrgKXOSDKuOMNlZluqpz6ezszQ4574JjzjhtDTJDNbw71OXq1sOgk7iE48WSRKSu5wh11EM79aP+c2HvO7WDAQAAAA==");
 
 export default PlugCircleExclamation;

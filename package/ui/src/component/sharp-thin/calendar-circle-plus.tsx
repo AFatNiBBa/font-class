@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-circle-plus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-circle-plus?s=sharp-thin calendar-circle-plus}
  * @preview ![calendar-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/calendar-circle-plus.svg)
  */
-const CalendarCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 8l0-8L112 0l0 8 0 56L16 64 0 64 0 80l0 96 0 16L0 496l0 16 16 0 314.8 0c-6.9-4.9-13.5-10.2-19.6-16L16 496l0-304 336 0 80 0 16 0 0-16 0-96 0-16-16 0-96 0 0-56 0-8L320 0l0 8 0 56L128 64l0-56zM112 80l0 40 0 8 16 0 0-8 0-40 192 0 0 40 0 8 16 0 0-8 0-40 96 0 0 96L16 176l0-96 96 0zM304 368a128 128 0 1 1 256 0 128 128 0 1 1 -256 0zm272 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM440 296l0-8-16 0 0 8 0 64-64 0-8 0 0 16 8 0 64 0 0 64 0 8 16 0 0-8 0-64 64 0 8 0 0-16-8 0-64 0 0-64z" />
-    </Icon>
-);
+const CalendarCirclePlus = createIcon("calendar-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABmAAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiDJAsGAAE2AiQDCAQgBYMtBzsbrwXIhof/n6u67ydNSfWZDHGGGd0iO3KrgMARaCCLanVNfz/1x3mtzx+PYGhRBZJBXd5gA4z2pqb5bDgbTZB3uW2iiEv/hcixhTx+clwL6an0DR7L3zT+0tfdJFkGICoALNm1bYPPfo/fI75uvk18bR0CYgmoBTJkGCDAfJnAALkauVzwezSb4j+wJoBoFTwvgRxteBsfAXKQtOT5jCH9+w8pWzrznWVLsS9EETBSECLNKjsf79WILDrLwLqiwKwQwmO7IMaHyhC1tJGP3XPHuIgXx71YPjTm+ZDp9tHPMYsHx74QH513TIx4Ze4HzR/Ofm/8S26f8PKc98uH5n046dXY+Y7WsjxUVt7/yKEvVC/8M+Sbk9+47d329vZKu9kOV5XDKpNVqnnP3D/KZJsP98Oqw7O1W+P3mdldVo0O+G14tHG02nnYYU+naz8dPKxB48cfhg794cdGY5ibUq+rRtXU3buNHNmte12PwinYcN+qp1gXW5xDi9vbtc8HAsH4J7985FCX+f+3lwn8+cF/f+HTNT9Li9MLaJdAkI1vjrc/LQbBHoArxU1DZz4okLysRfCqDY8LEAoESFoVAmT6qwTIFcYJ0GKQGQK0KmyTibxD6OFADZKGKyAz0y0g18OboMV8nztb9YgMdPmAx/9wTLKyja4YVU+ZOLmeW0+mlAJo5Nqt8+rVmtE3ZckYvNFJl1x03QnHnXG9Rbtqg+eGC1bOYSt8UW2KiSarzVXvzt5fvdMJV11zxiUX3U7mqc93jHZzvvoYrE8CjlMlJIlIPQy2YsJfPtIJxh8AAAA=");
 
 export default CalendarCirclePlus;

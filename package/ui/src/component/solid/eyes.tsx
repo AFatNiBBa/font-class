@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eyes` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eyes?s=solid eyes}
  * @preview ![eyes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/eyes.svg)
  */
-const Eyes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M96 224c-11.1 0-21.6 2.8-30.7 7.8c4-36.7 16.8-68.8 34.5-92.4C121.3 110.8 148.6 96 176 96s54.7 14.8 76.2 43.4C273.7 168.1 288 209.2 288 256s-14.3 87.9-35.8 116.6S203.4 416 176 416s-54.7-14.8-76.2-43.4c-4.9-6.5-9.4-13.6-13.4-21.3c3.1 .5 6.4 .7 9.6 .7c35.3 0 64-28.7 64-64s-28.7-64-64-64zm224-97.3c-5-9.1-10.5-17.6-16.6-25.7C272.8 60.2 228.1 32 176 32s-96.8 28.2-127.4 69C18 141.8 0 196.7 0 256s18 114.2 48.6 155c30.6 40.8 75.3 69 127.4 69s96.8-28.2 127.4-69c6-8 11.6-16.6 16.6-25.7c5 9.1 10.5 17.6 16.6 25.7c30.6 40.8 75.3 69 127.4 69s96.8-28.2 127.4-69C622 370.2 640 315.3 640 256s-18-114.2-48.6-155C560.8 60.2 516.1 32 464 32s-96.8 28.2-127.4 69c-6 8-11.6 16.6-16.6 25.7zm54.4 224.6c3.1 .5 6.4 .7 9.6 .7c35.3 0 64-28.7 64-64s-28.7-64-64-64c-11.1 0-21.6 2.8-30.7 7.8c4-36.7 16.8-68.8 34.5-92.4C409.3 110.8 436.6 96 464 96s54.7 14.8 76.2 43.4C561.7 168.1 576 209.2 576 256s-14.3 87.9-35.8 116.6S491.4 416 464 416s-54.7-14.8-76.2-43.4c-4.9-6.5-9.4-13.6-13.4-21.3z" />
-    </Icon>
-);
+const Eyes = createIcon("eyes", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABiAAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCJQsGAAE2AiQDCAQgBYMtBysbIAXIPgxwQwaHqWWpiDBoFUU10HQHMWsnvml+hG0ePdCpEVRrWM/eBsGxA8TygEJGAbrE4jsy5pWJEQ/2HSk8uNyPOY5+7NYQzQo0fKtN8JwmkOADBQ/fzX9Xifcialu0hs1tlEn/7zLQME0jjHthQJGUdlPH1Ln0693lv+Vi10BSy6va9wzQBc8QMPyLU89zHgrgcwiCNqYtjY7ludDaXVugYr3a2FSSXqlWUezbhsdGGLYiRKIkxDFtrC6Q47fyppE+JIC8aW8a3xBvSCoKAFEPAbCyHwb8+xzx+h/EKw4BsQJ0QlGgQCsUzMMFWhE6IbIs+Ow//A8EkACiFH9MAhklOId7ABkkRc5tIyFfUpP3qsjK/QcjaQ/eLmyH5lfOLPqWxxd9jR8XdSK36mLmzHSZndG7UuUTb+eaMrA9U/Qn/VbtBWcIX0LkofSj1H/QAfWp4e9bjvVxrbHVxdbpvz02taEBc5V0yzCmv/My7cK+bygU/9WEXbYDjO7E6NcBAsHHWlbV7X8xfAJf+3ie/8u7VEO5BIKi/3/FMd0B4gXgpLhiGF8USE4oWKv21uuFSgSSUpVQaKFAVqkPSrRbXFCq0jZF5Aqh2YlAUu0UCpMukDX7Qol5P7tUcxSpRycO/fNL8DXibdMnTQdbOIYmk01kHdzBtZT1pZTDXjq7zaPVGD0KuwTea+VbqOeHdBONDtgCd/K6O9G63Ea7jTbZgXgt09vNOagSE44KJIlI+REB");
 
 export default Eyes;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `explosion` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/explosion?s=sharp-duotone-solid explosion}
  * @preview ![explosion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/explosion.svg)
  */
-const Explosion: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 320l144 48L96 192 240 304l24-176 48 0 24 168L544 0 432 368l144-48L466.3 448 384 448c0-53-43-96-96-96s-96 43-96 96l-82.3 0L0 320zM264 0l48 0 0 24 0 48 0 24-48 0 0-24 0-48 0-24z" />
-        <path d="M0 448l32 0 512 0 32 0 0 64-32 0L32 512 0 512l0-64z" />
-    </Icon>
-);
+const Explosion = createIcon("explosion", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABagAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBTgsIAAE2AiQDCgQgBYMtB04b7gTIjsQ4JvGLWNDi4f/nyvt+MtPdTBlSYFRE4ID8ugI7YlVVByjsnkqSdVTv//N/rud7PhrgtwXBUKIxIi7BM5+fwIkVR4EcyAnNFG93NhokyychZUmOb45TrpDHn+yiCulq+oQG+h/A+KGTiyT1GYBoCYCZq5Yt8KYxGlN8+v+K+GQ+AmIWKAUyZOgqwBSZQFe5Erlc0Jj+pzH+LwkgqujLGaiigrlYCchBElKe1/duVas0y1fWKkXUihaiaB6xYiVSPolVUUNnXawunyyPIm4NejDu1YB7XYtYuatW1IQQRaRLvR60fPCr56ednyjLGTN06mzDcPf88KcaDunw1Agd7vra36FDGoY7cMZSdQ8enD1rlbqlrd1k+giqOhpBoYF4bHOLO/02tZjyu66WwLfXvssv/3+TZqQHqJNAkA35P8T6NAMMMYBWipN6MXUjkBkjgX5WU5cECAUCJFWFAJkuWgqQKwwWoKK7sQJUFZbJRF4vtLWhgqSpIyAzzimQa+slqJjibauqbWQCxYkD95xLntdDcw+VI4eNKCeV057CywgTdieXy8qAk3ZmIJy10yEHHbfDdnsc75CjFnRPOGAeB89Vo9JIw4xQmqTcHj4eX2mHo47Z45CDcZ/JyvPBACf55QNBTxLpKEcyGZEia/XdMjh0cOjNnGkziHcQAAAA");
 
 export default Explosion;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop-mobile` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-mobile?s=light laptop-mobile}
  * @preview ![laptop-mobile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/laptop-mobile.svg)
  */
-const LaptopMobile: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 32l320 0c17.7 0 32 14.3 32 32l0 32 32 0 0-32c0-35.3-28.7-64-64-64L128 0C92.7 0 64 28.7 64 64l0 224-44.8 0C8.6 288 0 296.6 0 307.2C0 349.6 34.4 384 76.8 384L352 384l0-32L76.8 352c-20.3 0-37.4-13.5-42.9-32L64 320l32 0 256 0 0-32L96 288 96 64c0-17.7 14.3-32 32-32zM608 464c0 8.8-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16l0-288c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16l0 288zM432 512l160 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-160 0c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48z" />
-    </Icon>
-);
+const LaptopMobile = createIcon("laptop-mobile", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABegAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCBwsGAAE2AiQDCAQgBYMtBzQbCwXIhof/7J66r7pHX0PVSIpgZV4C0WTrINM/mwoR/+eaz+/50QF+PoJDi8JKkNsaKPP5BCYSFeDjSJsoztrZf3mD6BaDJPF9MoyfYbGAMv6OkVqQHkpf4o5ypfGD7q4lKQsA0Q4A89avXuVqM5oRX/7/HvGlFQiI+SALFCjQS4CZCoFeShmlUtCM//+X/8BMANESLjqBEi1wAMcAJUiKspzcrke1Rb1cV21R2Vyv1W/pfB9RjYiHh788uBbPDn2xm6jEs90eG/bSpHpE1OL9HtU6bxJxuesD1b33dqrE/V2KeKBrNe7rnNZUK9UXVpE9i3i4y/2DjybsdG+3FA91vm9Q/5fbvfxTvy/3feniE3MR1bjxxkYWwivt2z8515N1l0rTKNHO2oU6yjqKx/rkjCZjk+/eaDSf1Gxk2XhjzJN4auzXXxVZ8dXXY5/UzwcCQY/fvvtne9uZf7WuJvD9x7/8xdv7/2q6lF5GawkExcj/R9qSLoHgA/ClOKe/8kWBZIcChtXcL0Co0CFpqQKFntpBqWIEtNDHJNLYfLVClG2ETrYSJDUnoTDZeSh18g60MNMnXkudovA12lPor17C4hFZ1CiPGz02T8/bmMa4D5lqZ2SzOPRczBlGXe1z3DFn7LXHQWcG7JRVgbOOWqyhi/xQNs5oY2XT5ePkc/t19jrltIOOO5brmSHfd4c6pxcfRkoCwvGGJIlI9SM7T5w5fuJVAAAA");
 
 export default LaptopMobile;

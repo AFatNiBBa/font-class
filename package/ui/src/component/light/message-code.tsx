@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-code` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-code?s=light message-code}
  * @preview ![message-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/message-code.svg)
  */
-const MessageCode: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 416c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32l0 288c0 17.7-14.3 32-32 32l-138.7 0c-6.9 0-13.7 2.2-19.2 6.4L192 464l0-48zM64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l64 0 32 0 0 32 0 48c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM219.3 155.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-64 64c-6.2 6.2-6.2 16.4 0 22.6l64 64c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L166.6 208l52.7-52.7zm96-22.6c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L345.4 208l-52.7 52.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l64-64c6.2-6.2 6.2-16.4 0-22.6l-64-64z" />
-    </Icon>
-);
+const MessageCode = createIcon("message-code", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhAAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCKwsGAAE2AiQDCAQgBYMtBzMbLgXIjtRG+UVWEg/f63o990m7Y2vNIAMhBoDKdOGOm+JP2kxK11u171Onnuc8tEDeKChr2NLFC3Cv8whENJa09RbLywpW0wpYzU0jy8kDkkVEwuFHkQ5bM2y9QB4/xmAV0jvpHzwrHxr/6eg2SZ4BiBYAmLFu1RK/NURDxD91xD8WISBmglIgQ4YuAkyWCXSRK5HLBQ1Rr+M/sCSAqNJHSyBHFedxA5CDJM/zvn1btapVmuZra5Vi3Y12EW8WRTxs92ZkcaP9W7Wm8ajtG1Jcb/P66l5tVkds/Lx/xNcdUrwz4Js+tZoQ19u+0X5d1OKrQd91zuLdgd/2bbLmrXZvtlker7ddEW+0N3tlrFrHNOiRhLIqZFfPb1t8+3+Pf/b+49fuze5zv9l2jQRU1q/bbR4p7uxYYPi1jz5uScuiVLRs+fH0sjRccevW6YubPTLnoVx/V+1vvqmreN033/ijjd7WNtbMrweB4Ovpu2Ztaz75VaNaAv/+8JX0K6r/kqRv0UgCQTa4PtjmBBIBAEhxVs8EgeS4nL5rE28KEAoESKoKATKdtRAgVxgkQEU3YwSoKqySibyx0MYWA0kTJ0BmrCsg18b3oGKy352qNpF5H+s77M9f0lyG5qyVI4YOLyeW21jnHIrO80nlY6X/2VAbIJv2Ouao0/bY7YDThJy0xD/jiLkneI4vKo0w1HClicrr7FFaS/ZJpzC95u+XTFK+b/R39tw9QPRECUcKJIlITXxSHvJZAg==");
 
 export default MessageCode;

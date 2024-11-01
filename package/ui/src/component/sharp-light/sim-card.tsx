@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sim-card` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sim-card?s=sharp-light sim-card}
  * @preview ![sim-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sim-card.svg)
  */
-const SimCard: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M32 32l0 448 320 0 0-338.7L242.7 32 32 32zM256 0L384 128l0 352 0 32-32 0L32 512 0 512l0-32L0 32 0 0 32 0 256 0zM64 280l0-56 0-32 32 0 64 0 16 0 16 0 40 0 56 0 32 0 0 32 0 56 0 80 0 56 0 32-32 0-64 0-16 0-16 0-96 0-32 0 0-32 0-56 0-80zm32 96l0 40 96 0 0-40-40 0-56 0zm192 0l-64 0 0 40 64 0 0-40zm-80-32l80 0 0-48-56 0-56 0-80 0 0 48 56 0 56 0zm80-120l-56 0-40 0 0 40 40 0 56 0 0-40zm-128 0l-64 0 0 40 64 0 0-40z" />
-    </Icon>
-);
+const SimCard = createIcon("sim-card", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcQAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCGwsGAAE2AiQDCAQgBYMtBy8bGgXIhof/n+v9fW7yKFOGtGpKnDKCqyNV/2zpAzl2f3mUBHomrnn+50+JUfjij1S1LkyQiDifwACL5qMogdnAZjoBm7WzXxx9cZukT70kw/jD5gR5XI+Rmkgv03d4Wj80ftXXA5I8AxBdADB38/qVvvgxfoz4rvGW+M5yBMQ8UApkyDBAgBkygQFyJXK54MdoNNJ/YEkA0YyvTCBHgRO4CshB0prnta5929pqyDZ1zDfh7GJ7ylLHyGJTFJs3btqYQhQdIrKIqG0NSNdExYoiIr9RqKmvqIlPNHPTEK2Unc1ruhaFs31oe5f234d8d+g7g199wUNzrHfihO9/GHyblXuUyj2lLzo+uHdVVc0/liprVGZ08O46uXvU1Z/M4dXNUV89eE1urOpJyT++XFV7nHRVv4PHgUDwyweLPt3decb/rbUEfv7oz7/7z0jji7iT2tEqgSAb2RhpR9yBuCMAACkuGRp3EEgOaMV37eCZAKFAgKRZIUCmvy4C5AojBGgyyCQBmhXWy0TeJvSwc9JJB2fpzGQ36VwPr+kmM3xZaNYjsqhTYkb59GUussDCTeW40WPLaaXbMtRAknR1ennsq1/CyDA56pDTTrngoAOOumCgc1aWLzpp0Q5c6ItK44w2Vmma8rr7am4y+DnnHfWcul9nuvJ9qu7SfvowCSYUHG9vkojUev7oyVEhDgAA");
 
 export default SimCard;

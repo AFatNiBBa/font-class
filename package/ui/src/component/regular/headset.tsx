@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `headset` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/headset?s=regular headset}
  * @preview ![headset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/headset.svg)
  */
-const Headset: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 256C48 141.1 141.1 48 256 48s208 93.1 208 208l0 144.1c0 22.1-17.9 40-40 40L313.6 440c-8.3-14.4-23.8-24-41.6-24l-32 0c-26.5 0-48 21.5-48 48s21.5 48 48 48l32 0c17.8 0 33.3-9.7 41.6-24l110.4 .1c48.6 0 88.1-39.4 88.1-88L512 256C512 114.6 397.4 0 256 0S0 114.6 0 256l0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40zm112-32l0 112c-17.7 0-32-14.3-32-32l0-48c0-17.7 14.3-32 32-32zM80 256l0 48c0 44.2 35.8 80 80 80l16 0c17.7 0 32-14.3 32-32l0-144c0-17.7-14.3-32-32-32l-16 0c-44.2 0-80 35.8-80 80zm272-32c17.7 0 32 14.3 32 32l0 48c0 17.7-14.3 32-32 32l0-112zm80 32c0-44.2-35.8-80-80-80l-16 0c-17.7 0-32 14.3-32 32l0 144c0 17.7 14.3 32 32 32l16 0c44.2 0 80-35.8 80-80l0-48z" />
-    </Icon>
-);
+const Headset = createIcon("headset", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABlQAAAKAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCbwsGAAE2AiQDCAQgBYMtBy4bbQURlZoXyT4SY2fTHTWlcGdswpN4eD6vr3Nf8pVqIy1XixhzB3rl6qGxmtlWAExc8/zPn94jyR+limJVWIGjzPPZQCZWfT7bsG1gM52AbXdRoyOJ9pHE0pn2eO7xc4I8noxLNZCuS2/hkvSh8afuziRpyABEOwDM3bx+pee+i+8i3qw/LN60HAExF5QCGTL0EmCGTKCXXIlcLvgu6nX7H1gKIBrh2RLI0YSrcRsgB0lDns9q08NEKw2t801+92Lzp+sjPtz88dr3N4pTO11ZFHH94CJuqdftdl3nqwZV4vaelXh0xN6+EZ/Me2HVO5s+WvHWnOc2iOsG3d4zNgvnd7k6Ik7rek1lg3DTsDsnVuICwo/sdEVRxEND7+i13wWdI67CHomNNw8ncG1SEefzOtj5qgr/Tfavtav93e+tA98y5tnYXKO2OTZHrRabL9X+ib3tj/TJfaXqV29n2dtfVUv3fXKkOeeem1/K4m7dLzttscVOu6x7N4uH6rx2beehR/U9GvPanHtum6rsWd23ConYdEC7dr1xqWITrd0Bm6JtXxdH6tFmbGwCLlEFAkH1tF8u3N12xn/NlQR+eOLf/8uvqP5ckmpolkCQjayP3JFAIgAAKU7UP0EguVgDfNdWrhYgFAiQNCoEyPTUToBcYYQADfqYKECjwnqZyFuETnY2ImnlGCIzyUlErpMHiQYzvBpv1Cky+RSlS/wepsFFFFg4qRw7ulpOK5dFVRI5PgxPL6/NoSe6pmEw14FHHXn8AfsfcjyBjl2ZOuGIRTtw4RfLsaOr5bTyufI4fdMBxx53yFFHxlGml/zBoSfuOw8DR4KM4wqSRKQmIfYdd8DxAAA=");
 
 export default Headset;

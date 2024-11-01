@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-biking` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-biking?s=regular person-biking}
  * @preview ![person-biking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/person-biking.svg)
  */
-const PersonBiking: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM208 384A80 80 0 1 1 48 384a80 80 0 1 1 160 0zM128 256a128 128 0 1 0 0 256 128 128 0 1 0 0-256zM592 384a80 80 0 1 1 -160 0 80 80 0 1 1 160 0zM512 256a128 128 0 1 0 0 256 128 128 0 1 0 0-256zM341.5 149.6c3.5-2.5 8.3-1.9 11 1.4l44.8 56c4.6 5.7 11.5 9 18.7 9l64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-52.5 0L390 121c-18.8-23.5-52.7-27.9-76.9-10.1l-74.6 55c-38.5 28.4-33.4 87.4 9.3 108.8L304 302.8 304 416c0 13.3 10.7 24 24 24s24-10.7 24-24l0-128c0-9.1-5.1-17.4-13.3-21.5l-69.6-34.8c-10.7-5.3-12-20.1-2.3-27.2l74.6-55z" />
-    </Icon>
-);
+const PersonBiking = createIcon("person-biking", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABnQAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCZgsGAAE2AiQDCAQgBYMtBzQbagXIjtRgrTKL8fC8XX3nvqoeND5Z38YSEehQ7GjBIJ3d1Kzz9/+53PN7frRAPt8UO5SxcdGscILtSUcJBFi0eC3QnodZotjtpG44hi+LJF2+LrGrM4z2kMffcZsS6f70KW71Hxpf6+p6klIGINoAYM6mdSvUW6Il4pP/XyE+sQwBMQcUAhky9BBgukygh1yBXC5oif//V/+BBQFEg/C+CeRowp14FJCDpCHPa7Xute4jK6VavrFSKh96YOAz/Z/qcv+Apwc9233zQ5Nfn/pmr0envTXljZ4bbxgc8dzg51w95HkkKzcOe5GMa4a+kER5D2f3xns7zom7K5V4tvsDA8sxMw4tXR/P9Xx4yJIQ9w/o3RdxTaeNcU+nazpv6vtCmxe+7fPpwU+9d2v55GWXnSxH3verqocuuOBQdeOqq/rVqfes9e1b61mv9yM1KpEvrmKd//yRdfNfc3FltjUdO64Zb6cv564ZvmSi9/v0+fEyZzTE5qqrtXp/QV/nG5v34+sgEHx8lx67Wk//tamSwFdv/k064/96ujq9gCYJBNnw/4fbbjNgqQFkU1yoL3whgeRG93xX1T0ChDICJA3KADLdtYFc2TAo6WXCHg3K1slE3ix0sEOBpOoMZCa6AnIdvAQl032Qa9AhMtlUJUv9GWYtpMiCRcWYkaOLqcWwJmviJpvZaQXbHnyh7hkCWx10yknnHbDfEecJdtaK4gVOWDhDF/ihwhgjjVaYqlhuXq/f6ICzzjnilJNunmmK/dFgF86HDwEvCYJjlSSJSDVR9kfsPfLMAQAAAA==");
 
 export default PersonBiking;

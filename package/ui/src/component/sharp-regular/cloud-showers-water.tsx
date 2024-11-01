@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-showers-water` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-showers-water?s=sharp-regular cloud-showers-water}
  * @preview ![cloud-showers-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cloud-showers-water.svg)
  */
-const CloudShowersWater: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M248 48c-33.9 0-61.7 26.4-63.9 59.8l-1.4 22.5-22.5 0-8.2 0c-22.1 0-40 17.9-40 40l0 21.7 352 0 0-21.7c0-22.1-17.9-40-40-40l-1.5 0-19.3 0-4.1-18.9c-3.9-18-20-31.4-39.1-31.4c-8.4 0-16.2 2.6-22.6 7l-21.2 14.6L303.1 79.5C291.9 60.6 271.4 48 248 48zM139.8 83.1C152.5 35.3 196.1 0 248 0c33 0 62.6 14.3 83.1 36.9c9.1-3.2 18.8-4.9 28.9-4.9c35.7 0 66.4 21.2 80.2 51.8c40.9 7.6 71.8 43.4 71.8 86.5l0 45.7 0 24-24 0L88 240l-24 0 0-24 0-45.7c0-44.4 33-81.2 75.8-87.2zM95 272l48 0L80 384l-48 0L95 272zm112 0l48 0L192 384l-48 0 63-112zm112 0l48 0L304 384l-48 0 63-112zm112 0l48 0L416 384l-48 0 63-112zM79 488.9C59.7 499.8 31.5 512 0 512l0-48c19.7 0 39.4-7.8 55.3-16.9c15.4-8.7 27.2-19.3 40.2-30.9l.4-.4 .4 .4c13 11.6 24.9 22.2 40.3 30.9c15.9 9 35.6 16.9 55.3 16.9s39.5-7.8 55.3-16.9c15.4-8.7 27-19.1 40-30.7l.7-.6 .7 .6c13 11.6 24.6 22 40 30.7c15.9 9 35.6 16.9 55.3 16.9s39.5-7.8 55.3-16.9c15.4-8.7 27-19.1 40-30.7l.7-.6 .7 .6c13 11.6 24.6 22 40 30.7c15.9 9 35.7 16.9 55.4 16.9l0 48c-31.5 0-59.7-12.2-79.1-23.1c-6.5-3.7-12.2-7.4-17-10.7c-4.8 3.3-10.5 7-16.9 10.7c-19.3 11-47.6 23.1-79.1 23.1s-59.7-12.2-79.1-23.1c-6.5-3.7-12.2-7.4-16.9-10.7c-4.7 3.3-10.5 7-16.9 10.7c-19.3 11-47.6 23.1-79.1 23.1s-59.7-12.2-79.1-23.1c-6.5-3.7-12.2-7.4-16.9-10.7c-4.7 3.3-10.4 7-16.9 10.7z" />
-    </Icon>
-);
+const CloudShowersWater = createIcon("cloud-showers-water", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABtQAAAKuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDVgsGAAE2AiQDCAQgBYMtBzob4AXIjsK2ebMcMWTJZPGQhwQ9/Fw27+enkJQhuyVK22NQqw4YFKBCUoTy3ClkB8R6CYr9fnvvi1W3jmaSWBUPDUIiBTLexUpkOpTAEJm43Pnbpgdc9i/+gA/2QGu3rQukDbLXeQIBfhitQYFuC98yToB6myKGHUF4BBUhURLS8Xm87dgeWD3Vdi6YA8kdsC1/qL7SsAEMrgMAgDIAAEDf3SExLnzrlXQ7/gS6zSYQgPoCCAhwAAcoIQB6cBBQwhIAi0XwKuJx+g8MQACgBBg0rLJAMnATHjEvAEOitTWDZCgaVnJT7fByG96Y60rFqXqBit6x8m5QqqS11b3VXrEorqYbcyrVjMeloQcbFGeXrzbt8zdNjhcerztdipCXIklrkQI41Pf8oeFpRKnRznZXKo6xdHJ2smGtr4xOT45XCT75/hoftHF6Im9v3u4cm0gNx+8reibjzPfInel3+Nu2vRwyGq78vDPnM/OYKE/m+xmUM8eKn9S9O1zVWZkT3XUN1y4if77Si7djJ//XdKJZgYL7Appp8Kpt/AzDsNcCQr3OF4YzJjz62Bk61UNeX47NUABEjla9frhVCEeSyPANKVjq/HHP1Kl7PnXChng9AAgQbM/s/mlCeo/fvG8AePP+82e9XPyC6ZOcAUkYAARO438jY5M+AGIKADJGy0WVAAkwXJSD3zWFvQgA4QECwJCAhwBwKJZBAFg8GggAlzIdCYAEPIZwkE1G5Bg3CEMKiwiHTlYSlhznCJcerqcTyImUT6seqb4oswZJYOC8oLU5DLoF26quuamcprsHx9Ha5bGrDpYy3QLzLTXNVLMsFfhisdwy8wzSsIG+KNCqWSjQTWBuPFvDMbPYErPWun2W7oL7qVrL9cF1kDAwZ5sSgwGZ7J8buk3f/SQXL2nyfA==");
 
 export default CloudShowersWater;

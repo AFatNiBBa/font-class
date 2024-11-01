@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-medical?s=regular hand-holding-medical}
  * @preview ![hand-holding-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hand-holding-medical.svg)
  */
-const HandHoldingMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 24c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 56 56 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-56 0 0 56c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24l0-56-56 0c-13.3 0-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24l56 0 0-56zM187.4 352c-7.9 0-15.6 2.3-22.2 6.7L85.3 412c-3.9 2.6-8.6 4-13.3 4l-48 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l40.7 0 73.8-49.2C153 309.1 170 304 187.4 304L344 304c35.3 0 64 28.7 64 64c0 .7 0 1.3 0 2l64.9-40c10.7-6.6 22.9-10 35.5-10l7.4 0c33.3 0 60.3 27 60.3 60.3c0 20.4-10.4 39.5-27.5 50.6l-95.6 61.9c-19.4 12.6-42.1 19.3-65.2 19.3L24 512c-13.3 0-24-10.7-24-24s10.7-24 24-24l363.7 0c13.9 0 27.5-4 39.1-11.6l95.6-61.9c3.5-2.3 5.6-6.1 5.6-10.3c0-6.8-5.5-12.3-12.3-12.3l-7.4 0c-3.6 0-7.2 1-10.3 2.9l-93.5 57.5c-3.8 2.3-8.1 3.6-12.6 3.6l-48 0-24 0-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 24 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-156.6 0z" />
-    </Icon>
-);
+const HandHoldingMedical = createIcon("hand-holding-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhwAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCPwsGAAE2AiQDCAQgBYMtBzsbSgXIhofn7fo691X1R/UYNYARaSGlUDTZMtoUShkx6vm/pl/wtZ1+PtfKFUZqJH5alsCe7/lAhpEcrbPhbKI4dTr67NmQPUWGlFBrLR6XBI/HNeTxXTyiQno2fYOHtw+N33R0m6SSAYgWAJixbtUSD36OnyO+rn1IfG0RAmIGKAUyZOgiwGSZQBe5Erlc8HPUau0/sCSAqDNflkCOHDdxH5CDJOV5/5XVStN8bbVSbHq+XzXe7CiEf6Z3EfxbnSLkEIr1d9qsjicKkFtyXbxdTRcOeLfj9bhh4E/7X+ifYN4pmiSbxt1+bjaealdEES2C1afb42I932vx3h89vtn7jZ/ebrtiuBVtxxuv/uGMvGoh3Htek6eWjbaq3hXHUQZYMNzWTi96pWXLIojp/fzfusF1Gjy6bYpvex2+JGqybeetkytQ8UqDyszN4+8j6683vcPPzZr9/CIQCI4Xf5/Y1nzy3w3VBH797K9/7AfXHqTp6T00SCDIBtcG25ymgwoDSKc4q2fwRYHkomS+axNPCRAKBEjqFAJkOmshQK4wSICKbsYIUKewSibyRqGNLQdImjgBMmNdAbk23gcVk32eqtMmMh6qLFJ/A7PmWnTOtHLE0OHlxPK0bGnUkvv4pDId6H8W2gbIXHsdc9Rpe+x2wGnDnbQke8YRcyNijh8qjTDUcKWJynJthNfa46RTDvge9UlMUj4f7e9s3HuAzCYBRr7BkkSkNrT1DOG1Z8iXCQAA");
 
 export default HandHoldingMedical;

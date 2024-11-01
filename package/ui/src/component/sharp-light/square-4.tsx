@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-4` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-4?s=sharp-light square-4}
  * @preview ![square-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-4.svg)
  */
-const Square_4: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 64l0 384 384 0 0-384L32 64zM0 32l32 0 384 0 32 0 0 32 0 384 0 32-32 0L32 480 0 480l0-32L0 64 0 32zM113.1 298.1l68-170.1 34.5 0-.8 1.9L151.6 288 256 288l0-80 0-16 32 0 0 16 0 80 16 0 16 0 0 32-16 0-16 0 0 48 0 16-32 0 0-16 0-48-128 0-23.6 0 8.8-21.9z" />
-    </Icon>
-);
+const Square_4 = createIcon("square-4", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABXwAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBUAsGAAE2AiQDCAQgBYMtBy8bzwTIjsM4RjyyK0/R8fD9Wvnnvu7Z2u3ZIHeY0QHqOAKbtQmrcUEjtmLzAfUUC/P8X1Mvnlc8/37ih1JFpY0Fdut4PoGJFQ98XjawmU7ABtFOlzCIfpMkRZJhe8PoBnk8CSqkRynu5Q+NX3q4Q5JnAKI9AOZv3bharTVaI37U3xI/rERALAClQIYMvQWYJRPoLVcilwtao173/4ElAUQDedAEclSwEpsAOUiyPG/qMLxaaZNvqVaKnSlLbSKL5hHVoo1IIYrmiCxi+9ZNW6vROTZFNYwMLkBVoSiEEyjtQq8BLe1bfu//40j9rt/A4cT1sqyVbii9l6U417TwFVcHCnOeOWad9krtgdtH7cf1dzPOje53gUCwZfDk8Xvbzfq/sZrAz09//o1fUb01aqkFjRIIslF1dkUNoiYAACmuGBA1BJKFMvKuze4LEAoESBoUAmR6aS9ArjBSgIq+JgvQoLBRJvImobPdDSTNzoPMFFdBrrPXoGKWz2WDzpEplK4O+ncuZ4lFFx8rx48ZV84op33V0BE17s8st/1hV8LccC464qwzLjnskOMudcwFq5vLTluywhb7otJ4Y4xTmqE8Hj2e3uKwCy467qwz6ZCZyvvxMFfWq4cTJSI5QStJRGp8k8HoSQA=");
 
 export default Square_4;

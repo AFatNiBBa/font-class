@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `watch-fitness` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-fitness?s=thin watch-fitness}
  * @preview ![watch-fitness](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/watch-fitness.svg)
  */
-const WatchFitness: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M80 40l0 24 224 0 0-24c0-13.3-10.7-24-24-24L104 16C90.7 16 80 26.7 80 40zM64 65.6L64 40C64 17.9 81.9 0 104 0L280 0c22.1 0 40 17.9 40 40l0 25.6c36.5 7.4 64 39.7 64 78.4l0 224c0 38.7-27.5 71-64 78.4l0 25.6c0 22.1-17.9 40-40 40l-176 0c-22.1 0-40-17.9-40-40l0-25.6C27.5 439 0 406.7 0 368L0 144c0-38.7 27.5-71 64-78.4zM80 472c0 13.3 10.7 24 24 24l176 0c13.3 0 24-10.7 24-24l0-24L80 448l0 24zm224-40c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L80 80c-35.3 0-64 28.7-64 64l0 224c0 35.3 28.6 64 63.9 64c0 0 0 0 .1 0l224 0zM96 217.9l0 .6c0 10.6 4 20.9 11.2 28.8l78.9 86.1c1.5 1.7 3.7 2.6 5.9 2.6s4.4-.9 5.9-2.6l78.9-86.1c7.2-7.8 11.2-18.1 11.2-28.8l0-.6c0-23.2-18.8-41.9-41.9-41.9c-11.1 0-21.8 4.4-29.7 12.3L197.7 207c-1.5 1.5-3.5 2.3-5.7 2.3s-4.2-.8-5.7-2.3l-18.7-18.7c-7.9-7.9-18.5-12.3-29.7-12.3C114.8 176 96 194.8 96 217.9zM137.9 160c15.4 0 30.1 6.1 41 17L192 190.1 205.1 177c10.9-10.9 25.6-17 41-17c32 0 57.9 25.9 57.9 57.9l0 .6c0 14.7-5.5 28.8-15.4 39.6l-78.9 86.1c-4.5 5-11 7.8-17.7 7.8s-13.1-2.8-17.7-7.8L95.4 258.1C85.5 247.3 80 233.2 80 218.6l0-.6c0-32 25.9-57.9 57.9-57.9z" />
-    </Icon>
-);
+const WatchFitness = createIcon("watch-fitness", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABpwAAAK1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDMQsGAAE2AiQDCAQgBYMtBzQbtQXIngeZm1LzzY/p6QUXIefJFiqeJ3SZ70sySSb5SN6DrC+AVDJ26RHWM6kIuQU6qFJHkzaTEqsddtoVP55gWfSA+jtfaSIRTngQ6/ysJneljpkTw7ZogP/3gPN/uef3/OgAv9Gh7Elj6W1vz+cJBJieNRZYQFlgkYYBUKxNuXsxCMOSb+8MVW4TUYqnyzY86Lxo/rTsbhTKEkAWAXDyRdaA0adftvU52eY0QCCnABgKSpTYJOA4pWCTyhCVSugzjv0HDgmQSd4vKUCFaXwN3wEqUJisqvlDZrfssdJMzFUXNhP1ZaAmyTO7zmvRRVb9yabJvfY4eT3fXpanzlu7yUgfq+vc059I8sZ9Z5A8+97d85KnV5M3Z1LHRW++5N2ZPHPf2Qpbcm8nT+fbu69mVZoLQSO7II/Xe/2iPCnJqlOq79G98lhs931SnvSYU+/NddmQd+vr9viyjOL8oU/jwjwjybP+5J5b31l85y++7eptznoyuq7XWXfOR5yz7v/BGLTfvNt+pH33m3bgc63menPV2s8H+qyFx1ft1+l1v+/5Uktb9+q2fakHNYYdAv3O35IsvnvmBUCU5dZk99tY+vbbpfbXJSvNeGXJr62ofrqzzTa60bjpWN/Pi0pT34Qf962P6XEjIAjNO/+NqxaO+3u6KcAf3/ynX0LjkVF5B6YVIJT7jfdzeUYgIwIAKHIjkREEhY85Gs866wkCokZAYVItoLTRooBKbV8BE7Y4XMCk2nmwVDNirStKUJh1DSgd4Q5QWetTMOE4P8aT1qa8ganbj/p/jNd1SG1jBx9w0PCY4WBbTt+ThF4/djhb3+tGPrY3rATZZnVLouauISeTPRZ6DFbeiDnYAQ4ydIzh6t7t2iA5XVo/s36TYw339/Zy4/jsvaGFeKiHqCkUpJi752X5zQIA");
 
 export default WatchFitness;

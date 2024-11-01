@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sleigh` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sleigh?s=solid sleigh}
  * @preview ![sleigh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sleigh.svg)
  */
-const Sleigh: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l0 160c0 53 43 96 96 96l0 32 64 0 0-32 192 0 0 32 64 0 0-32c53 0 96-43 96-96l0-96c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32 0-32 0c-17.7 0-32 14.3-32 32l0 41.3c0 30.2-24.5 54.7-54.7 54.7c-75.5 0-145.6-38.9-185.6-102.9l-4.3-6.9C174.2 67.6 125 37.6 70.7 32.7c-2.2-.5-4.4-.7-6.7-.7l-9 0L32 32zM640 384c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 8c0 13.3-10.7 24-24 24L64 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l488 0c48.6 0 88-39.4 88-88l0-8z" />
-    </Icon>
-);
+const Sleigh = createIcon("sleigh", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeQAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCEQsGAAE2AiQDCAQgBYMtBy0bDgXIhofv7fg693UP4B6bGayU2o0mWzAIf20ERcL8X/P5WSXY5yM4tKo1FcgaMPP5BAYaiZFeQLOBtaDPb+d3CQN0iy5J4vn5hvGG6f8t5PF3dkgp0vX0Oc7mB40f1HOIpFwGIKoCYOjs6RO9L4mSiM/+f018ZjwCYigoBDJkaCjAAJlAQ7kCuVxQEv//7/4DCwKI0hhO3NwcuQnbATlIUp6PKiqUqpTPsquWn3+iZsQl+2pdriBut73fU1SIIEUWvG3/sEnEyTpXY3/tK+Vz9omal4hrcViLE+M+7VY7nvT7sNfM2Ar4iCvhFhWjSvecSsdnafag6oOfmn6+6nNN7lY+xrHKlY8dq3xP2QcP9hWGKLwnxr4hWXaJysdgoCjKb9oq8/PPW/qWL//1KNNa1DzYJSs3ZvEbmbJqTf12n/zWkJvkZYFAsH7E5L2Lqwz4tWyFBL758Jc/yMn/l6R96QHKSiDIOvzfwYK0D4wwgHiKXZqBJwskqyTge63oigChPAIkpZUXINNAVQFy5bUXoJTGegpQWnnTZSIvJ9S0sIGkoq0g08tukKvpJShlgI/ipdWMTOEUdVH+9zJH9dDIQUXXTl2KfsUyp6o6JIXe/sVjf5tdvqYtLbXKZpvssNIKa+3ouG0mpnbaaBQiRnqiQleddFHopzguPs6fZaVttltrs02pn/6K+7E2duHmbSmUsGg3Y5JEpNLbN3wYAw==");
 
 export default Sleigh;

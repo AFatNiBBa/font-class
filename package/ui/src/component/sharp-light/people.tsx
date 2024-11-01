@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people?s=sharp-light people}
  * @preview ![people](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/people.svg)
  */
-const People: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M136 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 104 56a56 56 0 1 0 112 0zM108.9 128l-9.6 0-4.5 8.5-76.9 144-7.5 14.1 28.2 15.1 7.5-14.1L96 202.1 96 496l0 16 32 0 0-16 0-144 64 0 0 144 0 16 32 0 0-16 0-293.8 49.9 93.4 7.5 14.1 28.2-15.1-7.5-14.1-76.9-144-4.5-8.5-9.6 0-102.2 0zM192 320l-64 0 0-160 64 0 0 160zM456 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 424 56a56 56 0 1 0 112 0zM446.3 263.2l7.2-14.3-28.6-14.3-7.2 14.3-64 128L342.1 400l25.9 0 48 0 0 96 0 16 32 0 0-16 0-96 64 0 0 96 0 16 32 0 0-16 0-96 48 0 25.9 0-11.6-23.2-64-128-7.2-14.3-28.6 14.3 7.2 14.3L566.1 368 544 368l-32 0-64 0-32 0-22.1 0 52.4-104.8zM419.3 128l-4.5 8.5-76.9 144-7.5 14.1 28.2 15.1 7.5-14.1L438.5 160l83 0 72.4 135.5 7.5 14.1 28.2-15.1-7.5-14.1-76.9-144-4.5-8.5-9.6 0-102.2 0-9.6 0z" />
-    </Icon>
-);
+const People = createIcon("people", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABpgAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDTwsGAAE2AiQDCAQgBYMtBy0bzAXIjsQ4JvGLKEzi4UtH+v5KRyubj0BG4BBB6VQI2Ka9SZtJmQoz5D3+f66pd7fna8BvNLSLsmViBXY+H8isQCqsfAM5sEXZxCakG7bNiKZaHQfH8ghl/B3TNZAeSD/jeHeh8Ycud5CUBYAYAYA1h/bt8PlgDEb8/P87xM+2ISDWglqgQIFeAZYrBHqVapRKwWD8/3/2H1gTQDQazpdAiYwv8RugBElzWbYMndcShy/oqxqGlgdTQfKxhyY903X/+Ge7qwcnPjv+6c4HJjwz6bme/bnKrbE/WmNCdMShSCGqiIioAphUxIFoi0nRHgcjPssTvAbOdubtaO2YGHlvZ1SVhgHaqtvNY+OjLQ5EzocOtna0vqBGddvWsS+OePFPP5/1s7vvbtuzp22O3z38tc8+e214vvN5m3LOi20/7ka/utCcE000Qh1K77GaBPxEqvdCv7pRLmyxPOqz1cPoj1vt8aYmq6Yjv944LPzFhVbd7F3ds0/p0FMY4DG7+13uuIt86kLzztF+72LqvmvxwLwmdvPd9tl0983YTcii04FAcE3D7h0nD1/+V3OVwO8f9v4j8v+fp6vSi2iWQFBM/3+6E9ItspyuEgZviquMFXySQPKhZoMQQ9wrQMgIkDTKAhR6jBCglE0D0KDfAlxx8T6FKFuEVicCSIa4FAoL3QilVm9Bg+W+8zZqjcI/k76R/J2M24iKNvSr58ycXS+tuRkn5UXxunNZrayefFVeMSXc6CwXu8gVznSGc12BKC+zI3ClC20UiTf4otocM81WW6o2zk9yB2PTZS7PcTZj3s0ytXv7ZFeJ608Jdcmgcq6EJBGp8RMAAAAA");
 
 export default People;

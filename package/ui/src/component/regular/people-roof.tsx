@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-roof` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-roof?s=regular people-roof}
  * @preview ![people-roof](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/people-roof.svg)
  */
-const PeopleRoof: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M332.3 3.4l296 176c11.4 6.8 15.1 21.5 8.4 32.9s-21.5 15.1-32.9 8.4L320 51.9 36.3 220.6c-11.4 6.8-26.1 3-32.9-8.4s-3-26.1 8.4-32.9l296-176c7.6-4.5 17-4.5 24.5 0zM496 256a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM480 464l32 0 0-63.5c-2-.3-4.1-.5-6.2-.5l-19.5 0c-2.1 0-4.2 .2-6.2 .5l0 63.5zm98.9 27.4l-18.9-35 0 23.7c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-23.7-18.9 35c-6.3 11.7-20.8 16-32.5 9.8s-16-20.8-9.8-32.5l36.3-67.5c-1.7-1.7-3.2-3.6-4.3-5.8l-18.9-35 0 39.7c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-39.7-18.9 35c-1.2 2.2-2.6 4.1-4.3 5.8l36.3 67.5c6.3 11.7 1.9 26.2-9.8 32.5s-26.2 1.9-32.5-9.8l-18.9-35 0 23.7c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-23.7-18.9 35c-6.3 11.7-20.8 16-32.5 9.8s-16-20.8-9.8-32.5l37.9-70.3c15.3-28.5 45.1-46.3 77.5-46.3l19.5 0c16.3 0 31.9 4.5 45.4 12.6l33.6-62.3c15.3-28.5 45.1-46.3 77.5-46.3l19.5 0c32.4 0 62.1 17.8 77.5 46.3l33.6 62.3c13.5-8.1 29.1-12.6 45.4-12.6l19.5 0c32.4 0 62.1 17.8 77.5 46.3l37.9 70.3c6.3 11.7 1.9 26.2-9.8 32.5s-26.2 1.9-32.5-9.8zM280 200a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm24 104.5l0 79.5 32 0 0-79.5c-2-.3-4.1-.5-6.2-.5l-19.5 0c-2.1 0-4.2 .2-6.2 .5zM144 256a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM128 464l32 0 0-63.5c-2-.3-4.1-.5-6.2-.5l-19.5 0c-2.1 0-4.2 .2-6.2 .5l0 63.5z" />
-    </Icon>
-);
+const PeopleRoof = createIcon("people-roof", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABxgAAAKkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiEBQsGAAE2AiQDCAQgBYMtBzIbBwbIHodxTLKVKGJ/QTxfl9X73TNBZ7KK0BGxMG80T+Bpj6CnHzZ4mBWw/h/3Uxcgrd8eyIDmQ6mwLK6kiKR/E5hAVBDsZi3qG9UrB6rOP+TfBujyRxZhAbVa3QQWRg8qb/BmGigsGgAA0hQAAChq37qOSw/locgN+3GQG9QAAiBFAJgIoAEa4IcAkIuGAH7omICOjsBDsdut/0ATBADESnJXCgAdcAbuAZ8BAB0AhaOuu9lso2yuNpthsentDItz/569em73WhXeS3rINp81Eb1lpXvb7d6rvVaF7vBZ47s2oo3hbIiscHaWOW60jY+LRya5LRu6eqwQkVhhU+/wbb+J6hEvqzTL3NrK6tBtPoWWnY9cG7HTMGRuWEmLbPcuEi6bqN8yayBcZTGPB/q0RTDEkOLa6TgieE/TPe+C7jc15yIOpu5+Uy9nugtqzrw81W/ciePHt/7tcWTp0iM9YjV3zMS1AFNzQwvVvXyCobcXrrNmuRbin70I5khmzNSQEpq1CCZyGRspadHMMk+NyTwCCV7Ysm0M8yqdGlbOtpq83fCqDWiRnGMBMDc5jEHRwdaYrKwYa6n2HNCQGEwaNGpyY6KptwOAAAKd2x1/3p3cb46GAuDxmQ/f6yPt7dQMtQdwRAEgoMXaY+miJu1goiAkFiXjCIavhACKuzgCDS6sYLULztCDwoozaPjSFHSciQELAaSxT3ZvjYboTghudIWgcGEkaKQzHnTcOAoWcrliseIm2q3OvVG5f5qJysf4snZmUnyimW1uRrW8u5ftV+eYpyWR4+ysKDiUfgxnGGPoSx8GMmZEHUWdfSxDKd+jL3uuSRLxJGKSjcmceC5qhy2jGM3AdQF7KzmY4g2RjNsvHAXlioRhMkEKBaKMp0Mc93UBAAA=");
 
 export default PeopleRoof;

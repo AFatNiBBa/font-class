@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-question` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-question?s=sharp-solid cloud-question}
  * @preview ![cloud-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-question.svg)
  */
-const CloudQuestion: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 480L0 480 0 336c0-62.7 40.1-116 96-135.8l0-8.2c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96l0 36c55.2 14.2 96 64.3 96 124l0 128-128 0-368 0zm88-264l0 6.5 48 0 0-6.5c0-4.4 3.6-8 8-8l56.9 0c8.4 0 15.1 6.8 15.1 15.1c0 5.4-2.9 10.4-7.6 13.1l-44.3 25.4L296 268.6l0 13.9 0 21.5 0 24 48 0 0-24 0-7.6 32.3-18.5c19.6-11.3 31.7-32.2 31.7-54.8c0-34.9-28.3-63.1-63.1-63.1L288 160c-30.9 0-56 25.1-56 56zm64 152l0 48 48 0 0-48-48 0z" />
-    </Icon>
-);
+const CloudQuestion = createIcon("cloud-question", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcwAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBfQsGAAE2AiQDCAQgBYMtBzUbAgXIjsN0OyufaXMTwsTD83pPnfuSr/wxMpIqWB3Uz4rq4G7LQbtwxap9Pzkt3nipgMclKNoeWpAFuFe8Ai86bdOnop8Hqyj+26ZENoLwRYREiUhjOl6vG+Txd3ZFhXRv+gpX24/GD7q6QtLIAEQbAMxZu3KFT67H9Ygv/0d8aRkCYg4oBTJk6CHAdJlAD7kSuVxwPf7/n/4DSwKIKv62BHJUsAMHADlIsjzvN7LRrLTM1zQrxeqiWUQ8POrlSRHfz/p4rSnvjni6+eaQZ3uKN0e82FMUe4RmRNzduRl3drzQYXJ0CCFEM+DasHi+931DnxtYxBMd7uiy2nik6Ptcm+d+6vPVnq9c7X0LbqD17be/XBfzvvpqXnwyfsLKo70uPPdcvb/7Hr2l5QUXOtdg29Fqqtum+K5l4+S73tJKR12M1kXdb25mRbR5ZIpj/63Nuns0iPLnIBBcuvZFz62tp/9VbyZw870/6W//fz1dSM+hLoEgG/7/cJvSBSB8AG6KM/oqOwskG2TA11q4S4BQMCGpKiDTXRvIFYZBRS8TrlcVVspE3hA62AyQtHAcMhOdhVwHr0PFdJ+6VR0iCzM6SOhXXsJCiSw4VI4ZObqcWh4Tg4kcsi6nlWZj8JnSGIJH7XHUEafstst+pwR2worgtMMWaugCOyqNMdJopalKd/4qrEnuCSft36v8a6Yp7zuDndH7h6CdMOFYoSQRqdV/g+qIUAQA");
 
 export default CloudQuestion;

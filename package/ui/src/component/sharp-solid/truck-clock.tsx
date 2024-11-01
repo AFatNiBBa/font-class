@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-clock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-clock?s=sharp-solid truck-clock}
  * @preview ![truck-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/truck-clock.svg)
  */
-const TruckClock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M416 0L0 0 0 416l64 0c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0 32 0 0-64-32 0 0-64 0-32 0-32 0-13.3-9.4-9.4-96-96L493.3 96 480 96l-64 0 0-96zM544 240l0 16-128 0 0-96 48 0 2.7 0L544 237.3l0 2.7zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM96 176a112 112 0 1 1 224 0A112 112 0 1 1 96 176zM224 96l-32 0 0 16 0 64 0 16 16 0 32 0 16 0 0-32-16 0-16 0 0-48 0-16z" />
-    </Icon>
-);
+const TruckClock = createIcon("truck-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABkAAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCWwsGAAE2AiQDCAQgBYMtBzIbXQXIHoVxwx2TSb18TDGgnFAf8fzb3nbum9mlVFmqLV13o5AoRRCu2I2nGkM8xhAcwYjvP437/tz3PLPGLAR3IW+F0jaXsAlOP/HTTSpyNWqCagz5+8Qx460tWtMixYYWWRpJEXk+gQFGW7QPdOClL2i/uO3miHiIg1A4Q8/vNk8ONalH8BReKv9MzUNRNwCQZQDAzW1eBq6f8hR6GB7kWxoIkBsAOwg0/IwNBDgnRWCDjACdDMEP/R/k/0ABAcgY8W0F6GAaPIIJTFMpii7z0cTx5vpcrikrzN9nTRqaGhLitLc7Ad/trJsoJ2IUO4yoUMvZiFQAwvbhvIBQ/WJqJmpfZm4eTmz07YCJap+OJJkxBzLwNRkwTK/MGdiqXOhUxDgDIXQ/gM22PdLZL5vHxkccfB3GKYim+vycntY21XSTJEQ0BPwcQdOKqjts0ryunvrR0dGZRjXvlp4O6cPU4fP5+fOh5NP2Yp1jY51sWtaP1Rvwt79vhVj/9oZb3jr7VJaI/TqIRpE6JwK+7E0PkNvun8/DSTv81zSXAPi9+vlSPTxc13QdgWkSQKAd/HdXXtOAYCWAP6kyCNuaBgFlkUL8qvPWESAYCKAoMARozOkgQMe4IcCIlQAEGGPySFFXgxio6GgSGnpoUoEmaDIGjmly4W6CCgaRQqUYpsQ/hSkSh6CEScLH01uEitWSRgJoQjsaJg4bnAdliwveiUZdOvVrUK9F/wDXKyMyoEPiFiLBDwk+PHkTQonL1aebCzXo1adFl04/ThjxvMfZ4HZ3F2yWiAWeySoSSPHPTuXxFgMA");
 
 export default TruckClock;

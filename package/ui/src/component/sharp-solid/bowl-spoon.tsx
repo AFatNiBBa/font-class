@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowl-spoon` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-spoon?s=sharp-solid bowl-spoon}
  * @preview ![bowl-spoon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bowl-spoon.svg)
  */
-const BowlSpoon: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 96C0 43 50.1 0 112 0L224 0l0 64 256 0 32 0 0 64-32 0-256 0 0 64-112 0C50.1 192 0 149 0 96zM0 224l512 0-3.6 61.2C503.5 368.1 454 438.2 384 472.9l0 39.1-256 0 0-39.1C58 438.2 8.5 368.1 3.6 285.2L0 224z" />
-    </Icon>
-);
+const BowlSpoon = createIcon("bowl-spoon", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABWQAAAHRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBHwsGAAE2AiQDCAQgBYMtBzEboATIhuD7tc/vc2eW3tsgT4hIAZMD1HGkEr2RAGzEViTwJ5g69TznoQC+UdDGwqUBGRNDc55HIGK5eAjGbgtW0wpYrZvO8w0ptyYveknDlNewNEEed7PTKkgX0zucrR8aH7VxmqQmAxCNATB5yYL5HtVHfcTb/68Tb81FQEwGhUCGDO0FGCcTaC9XIJcL6uP///U/sCCAqMRZJ5AjxwiMBuQgSXnepkW5okG+uFxRyi71jbgyshyiQVmUakUpbvSp66hRw0ZFXJ70aJaojYg3U5504XXrGtd97vxu8ztrq//iw7e9JlFMUphkr28f/qo+jnEmaDynJ3qa09iEcUAgmPFvjzNrGo37tbqcwPs7Xz+TX9H/j5JUh2oJBFm///tZmUAiAAApDuuSIJAMkOCotc4JEEoIkFQqCZBpp7EAuZK+AlToaLgAlUoWyEReIzS3qoOk1j6QGeEIyDV3FVQY56VcqXlkcUPcOvFti51hoel9xeABg4oxxdTVyFDAcntsscz1OpxSvTFqsz12O2iTjbY5aJD95muH7DLDg6f7osJgAwxSGKPYDh6HF9tkvwO22WN36TJWcV7q5bBf3BtiQtQhHEkiUukd2vof2Ltnz24A");
 
 export default BowlSpoon;

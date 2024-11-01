@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-middle-top` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-middle-top?s=thin comment-middle-top}
  * @preview ![comment-middle-top](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/comment-middle-top.svg)
  */
-const CommentMiddleTop: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M202.6 110.5l44.5-89c1.7-3.4 5.1-5.5 8.8-5.5s7.2 2.1 8.8 5.5l44.5 89c2.2 4.3 6.1 7.4 10.8 8.5C423.8 142 496 217.9 496 304c0 103.1-104.2 192-240 192S16 407.1 16 304c0-86.1 72.2-162 175.8-185c4.7-1 8.7-4.2 10.8-8.5zm121-7.2l-44.5-89C274.8 5.5 265.8 0 256 0s-18.8 5.5-23.2 14.3l-44.5 89C79.8 127.5 0 208.2 0 304C0 418.9 114.6 512 256 512s256-93.1 256-208c0-95.8-79.8-176.5-188.3-200.7z" />
-    </Icon>
-);
+const CommentMiddleTop = createIcon("comment-middle-top", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbAAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBVwsGAAE2AiQDCAQgBYMtBzkb4ATIjtRG94xd4uH7tc/Ofd0B4A4AkYtCVqm4sXEAvGCn1hLonyG1+vN/zedXRQf4jQ4lahGNkd4lsOcDnM4ircBnA5vpBGzqphQRBVHqUUQkjEyG7PjW49sJ8rhvnQqkG+kDzrUPjV81cYIkywBEbQCMXjh3uiflUR7xoRTxwVQExBhQCGTI0FyAYTKB5nIFcrmgPEol+w8sCCAqUjKx5+HGcVgLyEGS8rxly2oVauQL4i5Vly6ct/BatVMN5seVBj+Ofjr/h3kZ/2lB6Oexz9lrGy1cMH/B1YaX68+LH2Z9mXd7+MPJb+f/PPX9yMdtf5rzbUGbstplv/uw4YN3s7ouklT7ihXb22b9V8+o+/ffRsfMMQME3xhyFcFlNBFp1er+hyp1W9RT2/76a5vtYE69/u1jUpWWLW+dnGiik7emqQq62vdn9wOBoNWzx3dW1hr2f+VqCfxy78/Hz0jpSZLKUFkCQdat1M2yBBIBAEhxQJsEgWSYRN+1uqsChKoIkFRUVYBMM7UFyFXVVYAKWuovQEVVzZWJvIpQ3/IFkup2g8wAx0GuvruggmFeZyuqH5lPqR6h/tJlnoDQ+HVF7x69iiHFbdPU3EQuy0OLx+5OB9JQZ9lqg5122Ge9dTbbB/we0wv7bTdhx433RYXeeuilMERx3PlqXgCimfdWmWvnqxiqeD/eyYH95M7iS1Swj5okEanuV2zr7r6Z7vt27gI=");
 
 export default CommentMiddleTop;

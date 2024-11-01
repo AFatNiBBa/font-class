@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `forward-fast` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forward-fast?s=regular forward-fast}
  * @preview ![forward-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/forward-fast.svg)
  */
-const ForwardFast: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 424c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-136.1L273.4 440.6c-5.4 4.8-12.4 7.4-19.6 7.4c-16.5 0-29.8-13.3-29.8-29.8l0-130.3L49.4 440.6C44 445.4 37 448 29.8 448C13.3 448 0 434.7 0 418.2L0 93.8C0 77.3 13.3 64 29.8 64C37 64 44 66.6 49.4 71.4L224 224.1l0-130.3C224 77.3 237.3 64 253.8 64c7.2 0 14.2 2.6 19.6 7.4L448 224.1 448 88c0-13.3 10.7-24 24-24s24 10.7 24 24l0 336zM48 133.9l0 244.2L187.6 256 48 133.9zM272 378.1L411.6 256 272 133.9l0 244.2z" />
-    </Icon>
-);
+const ForwardFast = createIcon("forward-fast", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABZwAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBVQsGAAE2AiQDCAQgBYMtBzMb2ATIjtRG+YWZRPC8Ht/PuckCzoJwLf/OKHq1Uvuytvx9+nt3/s8/fcBn9NHGHLzOZ3OfJ5BYlwceUDY9oazzBKy3DYc6ovCFhAWJROPleJ0hj/fiilKku+l7XG43Gr+o5wRJqQxAVAXA0NnTJ/r4x/gx4rsSxHfGIyCGgkIgQ4aGAgyQCTSUK5DLBT9GSQn9BxYEEKXJtyWQoxTGYR4gB0mW5z3KlKlQqlI+q0Kp8svvtHhYP2JG3Ch/rvat0FezOFrndoXztWZG6MXvt35QL60SZsesmbNnzJ4Vmj2t+vS3pt+v+t4fdWpNnVrrjJd37KpQac/pSsdgaYRKp/dUqrBrko+B54xwMuWjpv+Kc34vVn74Bwn6BP8CgWD8p+daXGXAf2UrJPDzu//ff0PxZ3qKshIIsg4lHSxIUDX+FACAFLs0SxBIhsnItVZ0S4BQHgGS0soLkGmgqgC58toLUEpjPQUorbzpMpGXE2paOEBS0VaQ6eUgyNX0DihlgK/S0mpGllJEQhA/uthRFhp5qOjaqUvRr9j2KJklWNntX4TVNrt4pi2ctMpmm+yw0gpr7TDINhOLnTYa5cEjvVGhq066KPRTHA9fj8+y0jbbrbXZprpPf8X9sI1d/vK2YCSC2k0rSUSq+Py4jg8cAA==");
 
 export default ForwardFast;

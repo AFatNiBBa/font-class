@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `meteor` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meteor?s=sharp-regular meteor}
  * @preview ![meteor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/meteor.svg)
  */
-const Meteor: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M304 16L253.6 45.2 101.3 133.4C38.6 169.7 0 236.6 0 309C0 421.1 90.9 512 203 512c72.4 0 139.4-38.6 175.7-101.3l88.2-152.3L496 208l-7.5 .6L438 212.5l-1.9 .1 17.7-49.5L491.1 58.4 512 0 453.6 20.9 348.9 58.3 299.4 75.9l.1-1.9 3.9-50.5L304 16zM125.3 174.9l123.8-71.7L245.9 146l69.7-24.9L432.7 79.3 390.9 196.5 366 266.1l42.8-3.3L337.1 386.7C309.4 434.5 258.3 464 203 464c-85.6 0-155-69.4-155-155c0-55.3 29.5-106.4 77.3-134.1zM200 424a112 112 0 1 0 0-224 112 112 0 1 0 0 224zM176 264a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm24 96a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const Meteor = createIcon("meteor", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiwAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCSwsGAAE2AiQDCAQgBYMtBy0bSAXIhofv/eu/tc+9/QB0fYoDGJEVdU02jpT1xDX578+jQaLIHi3KYtEgkdp9PoEJbt42HrUNbKYTsO1NMxalGR1JKpVMx7njSTvI4824ToF0e/oU1/KHxu+6XURSyABEEwAWbt+81nulKEV8Un6Z+MRqBMRCMEAgQ4Y+AebIBPrkBiCXC0pRLtN/4AACiApy6QRyVOI83AbIQVLI87HF3urq2kJ9vs2fVXPoitUrtsRrY57y3cavtl45+83x22NytMWSqEG1xlbElgR3xmB3y3ZC+mI7sMWZDrfw1IzXar6f986288c/O3vrlcMjHu29M87vuWPYIzVXDHmo6zbndd8+9OHabQ933zbkkZ47h2+9tfPm9pvabukY9ETTE38O/PSQT6nsPr7Gbdv9/szT02Pr5bdtjek///bO9tu8bz+DJc2GHGalmxw2RLMwUOUL95y5HDeOsrTLSSONPFnXEg/oT7B48pBRC+ONJ2PhqEWTp6z6v3gP9/z6a7EY6XvuKRatWtZ578b29o0g6ty3oVRqkANxXHHx4x/t2zjnn6raBH554++/5V9R+b0kPYEqCQTZmPIYexJIBAAgxSkGJQgkpyngd61ziwChBgGSCjUCZHo1CZCrMVqAgqKpAlSosVkm8mqhzV5kkjrHM5lpzmZybV5kCub4IF2hLTJr1G1J/wzmLGvBpesGTBw3YcCsAcumYhiYGpZnDzj2RpzihkbCVoc41jFOcrCDHO6khjjB2tzJjrZsBy31RQNMNM4EA8wyQN15dLZh+gQnOnxu6VeZbcD91Ain7CePhGAiipNUJIlIFU9y/rEnAAAA");
 
 export default Meteor;

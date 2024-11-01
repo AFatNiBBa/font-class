@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-dress-simple` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-dress-simple?s=sharp-duotone-solid people-dress-simple}
  * @preview ![people-dress-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/people-dress-simple.svg)
  */
-const PeopleDressSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M64 64a64 64 0 1 0 128 0A64 64 0 1 0 64 64zm256 0a64 64 0 1 0 128 0A64 64 0 1 0 320 64z" />
-        <path d="M64 160l128 0 64 224-64 0 0 128L64 512l0-128L0 384 64 160zM256 384l64-224 128 0 64 224-64 0 0 128-128 0 0-128-64 0z" />
-    </Icon>
-);
+const PeopleDressSimple = createIcon("people-dress-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABdAAAAHoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBSQsIAAE2AiQDCgQgBYMtB2Ib/QTIjsO44TuyxVL+I4jWyuqZvQsAbYBREYED8nGAmmSiwo5VhHmQIdAXzFOnci62KYBPIQzaHhqQRcn52B2LKxDAjun1VqQCvZrWwHo7qVOXQXSLQZw3ybDdZVg8oIjP+aoK6VbCtfA/gPFVN1dJmmUA0RYAc9etWuJNfdSn+FR7SnyyGAExD5QCGRk9BZghC/RUKFEoBPWpVqM+arWSAKKKkMyomhcswApAAZIkFUW7dq1atai0KtbinuabWjRvsSaaB4BifN2adavXtYj6g033hj4c/rjP/WGPhjzo2arY3e9R20ff++41u89FSs2uM8dFpM8xu+513ewNF3WzF3Lj79+NOQ4Vz4NAMLBlZee2NjP+N22RQOOzn1/431HtTZIeoakEgjyiNsLmBBIBAEhxVr8EcwSyfhJ615auCxCaI0BS1VyArIe2AhSaGy5ARW8TBahqbpUsimZCR1sySFo6AbJJzoFCR09AxQxvw6qOkbWJ1wX+M5eyiMMLx8qxo8aU08ppLgkKwrrV6eW2M+Ss7Q2Fu/Y65qjT9tjtgNOMOmlJcsYRi1bkQl9UGmuUMUrTlMfVrbKWhSedcmAsnW8zXXk/GOLsevpQ8BNiHOdElokUuYcEaiOfpz5SKo2Rwjm111iSRQAA");
 
 export default PeopleDressSimple;

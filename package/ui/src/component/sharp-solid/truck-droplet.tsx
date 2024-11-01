@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-droplet` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-droplet?s=sharp-solid truck-droplet}
  * @preview ![truck-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/truck-droplet.svg)
  */
-const TruckDroplet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M416 0L0 0 0 416l64 0c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0 32 0 0-64-32 0 0-64 0-32 0-32 0-13.3-9.4-9.4-96-96L493.3 96 480 96l-64 0 0-96zM544 240l0 16-128 0 0-96 48 0 2.7 0L544 237.3l0 2.7zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM208 272c-39.8 0-72-29.6-72-66s72-126 72-126s72 89.5 72 126s-32.2 66-72 66z" />
-    </Icon>
-);
+const TruckDroplet = createIcon("truck-droplet", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABhgAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCKwsGAAE2AiQDCAQgBYMtBzQbLwXIjtRgLTG78fD8mm/nvpmkv4EiTquAWSGhWqZULqFj4RHVKrThUYDZC8m1L56gzjb/13x+z49Kk1vsUGJrqgaJpIh8PoEBzrZvixQaHdisBX22zbgpMgxXCSuSiIYt+WH5I+Txd3ZZifRI+gL3qq7iV51dJmmeAYhWAJi6bNFCH30VX0V8/v/rxOfmIyCmgkIgA6CbABNkgj1CrkAuF3wV///P/4EFAUSZHJ1AjmY4hgtgzCcp5fnQOn7fsVqq50urpcq2Wr2WohpP9H3lvtn3U1PViEog2CGWZmulI5YIlW2q1SVh/Qv2iD6MF/3ReGxuIMdLBfxhPD9WLH3xRDS6PNb3CZcH9ivKFLheRu8GN36vL7Z+4akPn6Y8UzQ1GufPZ3/Tec0piikK2Fyou2HdOg+rT1l/7s9WcsR5Wm9ItmCB7Ny5p9+bb/7wNEtaDq7sPXVqb+V+X977aijDqlm3WrkjHcu1bll12NCvgEBQuvn99nUtJ/zVVE3gm3f+/D3d7v+P0vnUQJMEgmzA/wOsTucB7ADiKY7q7TxQINmnRPRa86AAoYIASVlFgExXrQTIVfQXoKSHkQKUVSySiby50M6axiQ1B5jMKGeYXDuvMiUTfBwraxdZ9Bljx/jzl22WhWYuK4YOGlKMK5Z1agoorcyPL7adfY6mvr4A2mqfvQ7bYrMdDhvkoIXJI/aY5cEzPVFhqEGGKIxTHLce1y+1xUGH7LDPXl5kvOJ+tI+j/ui+8CQiO0xJkohU/7zsA19/aPeWwwAA");
 
 export default TruckDroplet;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rotate` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rotate?s=duotone rotate}
  * @preview ![rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/rotate.svg)
  */
-const Rotate: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M16 312l0 7.6c0 .2 0 .5 0 .7L16 440c0 9.7 5.8 18.5 14.8 22.2s19.3 1.7 26.2-5.2l41.6-41.6c87.6 86.5 228.7 86.2 315.8-1c24.4-24.4 42.1-53.1 52.9-83.7c5.9-16.7-2.9-34.9-19.5-40.8s-34.9 2.9-40.8 19.5c-7.7 21.8-20.2 42.3-37.8 59.8c-62.2 62.2-162.7 62.5-225.3 1L185 329c6.9-6.9 8.9-17.2 5.2-26.2s-12.5-14.8-22.2-14.8L48.4 288c-.2 0-.5 0-.7 0L40 288c-13.3 0-24 10.7-24 24z" />
-        <path d="M105.1 202.6c7.7-21.8 20.2-42.3 37.8-59.8c62.2-62.2 162.7-62.5 225.3-1L327 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8l119.5 0c0 0 0 0 0 0l8.4 0c13.3 0 24-10.7 24-24l0-128c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L413.4 96.6c-87.6-86.5-228.7-86.2-315.8 1C73.2 122 55.6 150.7 44.8 181.4c-5.9 16.7 2.9 34.9 19.5 40.8s34.9-2.9 40.8-19.5z" />
-    </Icon>
-);
+const Rotate = createIcon("rotate", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCEgsIAAE2AiQDCgQgBYMtB0gbLAXIhofv7Z4693UP4J6JIGKtSGDmSAi3/v9c7vnpogP85Ie4hx/IAjkaqzU0gZ5He3iBJpxpBpZuE68CUfoiTIJGRMcTdpw9IY/PsqPKkG5KH+CC/g9g/KKBoyQVMgBRHQCDZkwZ55Xv4rsUH5SeID4wFgExGBQCGTI0FqCvTKCxXIFcLvgulUp8F6VSQQBRlr45A2WRYx22AHKQhMjzDt0rlamST9fdFWfc0ebjSmfG9Y2rda7VqRSHMs13PNAo4nrd67X7xkvD3xr6Rt8XGoPYtXo31JshYFf4uQPixWFvjnh7wMvNbqi7Oudq7VtbflDx9PgBQVrFQ59TMe6t3+Lh6g//1vyD5R9Y+e+jN1UdMLDKSY/Mm/fnTlDepDoHVfvy54dv8vy5c/vOPz/0/75jZj/x+hP3jVHtRPny5WEnpHz5HDp2zti7HpLXgUDw1DtPvregWt//yldK4Ifn/vin/pCql76NP9PDKC+BIGtbamtuorrq8acAAKTYrkWileoCme6Scqqy6wKEihgkZVWETCPVIVdRGyijqW6ny6poikzkFYTa5hkklW2CTHf7IFfb41BGX2/7ZdWOLOT4gOE/fCnDPTJsWtGpfceidzFNNCGKWB7sUyw7Lbenhla003IbrLfVMkutstWRm42LtllnOCKG+aJCJ+11VOit2M4fN0+3zGZbrLLBepmkj+K819J23L4VzSYBOl/WqYxIkVXdvGHroq3L2oWuUb2XnigA");
 
 export default Rotate;

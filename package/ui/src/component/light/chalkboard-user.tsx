@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chalkboard-user` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chalkboard-user?s=light chalkboard-user}
  * @preview ![chalkboard-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chalkboard-user.svg)
  */
-const ChalkboardUser: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M576 32L224 32c-17.7 0-32 14.3-32 32l0 36c-10.2-2.6-21-4-32-4l0-32c0-35.3 28.7-64 64-64L576 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-16 0-160 0-16 0-47.2 0c-5.3-11.4-11.8-22.2-19.5-32l66.7 0 0-48c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 48c17.7 0 32-14.3 32-32l0-288c0-17.7-14.3-32-32-32zM544 384l0-48c0-8.8-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16l0 48 128 0zM224 224A64 64 0 1 0 96 224a64 64 0 1 0 128 0zM64 224a96 96 0 1 1 192 0A96 96 0 1 1 64 224zM32.1 480l255.7 0c-2.8-53.5-47-96-101.2-96l-53.3 0c-54.2 0-98.4 42.5-101.2 96zM0 485.3C0 411.7 59.7 352 133.3 352l53.3 0C260.3 352 320 411.7 320 485.3c0 14.7-11.9 26.7-26.7 26.7L26.7 512C11.9 512 0 500.1 0 485.3z" />
-    </Icon>
-);
+const ChalkboardUser = createIcon("chalkboard-user", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABnwAAAKQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCbwsGAAE2AiQDCAQgBYMtBzYbdQXIhuB5u76vc7uferBUrzwLKSI/nYkIQeS7Dj8caf7nms/v+dEBfj6CQ6tctkWDZT6fwDDSOoSmCTZRnLk27sMWRF0xyBiC23jslgvN5Any+CfGaSHdn77GrduXxo/6uIokzwBEZwAs2rx+nfePxJGIr5uvEF9bg4BYDEqBDBn6CzBXJtBfrkQuFxyJZlP+A0sCiFb2JAnkaMcDeByQg6Q1z+fWav3q3SottXxTpaU4v1qr3tD9LuKeIuLBsS+OrMXTo5/vk+K+Uc8NK4oHelYi4sFe946sxNM97u4jbnR/ZHF5z+7sLSHu6VnEXd1FZd8jY15Qbf+H5xLGvjiouLzfvv/IZys3Dn+6z/0u633fsKeKG0Y80/eB2FCr1mq+6UW8XJ087MkFEe+tqMQn894ZXNBWQyYPeaHzCz8P/vqkry14dI/Nrl93XX2Y411KRZcuj+3x2CEXflDnw+e8u0RD9s2Bxh6NA99kDU2pHNZBuxu2un5kjyP1hssWPJod+/33YxlmPdb3Ez7ZcUafPmfs+OSTviFJJg5qYtSXb1423WXjMaP+atvIxnOmO2fjxrbelxcu7w0Egh9m/Pf67k5z/26vJHDszV//1vs130+XpRfQLoEgG9ccZ0e6DIAPIJTiIkOSAQaSO7zslVX3CBAKOCStCsj00xlyhbHQYqBpZHPFepnIO4TudgIkVedCZrqLIdfdS9Birs+CrbpHxk+aXfTnYcLyiCxrV06a0Chnl7dJJ0M5cmmeU7Z1oy7SotGY7SRnO8sFTnSCU10gYOdZF7nQmZZn6DI/VJpkgobSbOV05uv0TU50nvOd6mxnra3MUT7vGuWivPJoGBMjnKxDkojU6d+c0unsFcczGwAA");
 
 export default ChalkboardUser;

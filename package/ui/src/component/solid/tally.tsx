@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tally` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tally?s=solid tally}
  * @preview ![tally](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tally.svg)
  */
-const Tally: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 32c17.7 0 32 14.3 32 32l0 211.6 64-21.3L224 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 168.9 64-21.3L352 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 126.3 64-21.3L480 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 83.6 53.9-18c16.8-5.6 34.9 3.5 40.5 20.2s-3.5 34.9-20.2 40.5L544 215.1 544 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-211.6-64 21.3L416 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-168.9-64 21.3L288 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-126.3-64 21.3L160 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-83.6-53.9 18c-16.8 5.6-34.9-3.5-40.5-20.2s3.5-34.9 20.2-40.5L96 296.9 96 64c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const Tally = createIcon("tally", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABhwAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCUwsGAAE2AiQDCAQgBYMtBywbTwXIrgpsY+SUD5HFtIgYxXxYT+pzfyOe2q/sNzN/7wKANqdCKqxIAhoTlkCkorPK3sqU34pNxRF8n//7+cr+CvCeURdnU2TbRxtIFPE6II3SV9W+dwCpLrgC9/+fy+ndxqMD/Ehnsob1fG8q24MT6HkvHWMRBRZxIpTfzu91xSBSBkkXuZDVousPyz9Cy58q6yjvyghPwofmsxVkihkVQOYjAPYeL6TIfcbJdI9MO4QIZC+C9SgqKlajYAcuWE1Yj2iaMKbvzX8gkAAZiL9nAQ0VT/AK0ECR1u7M6ua0Y7O6macfLElekUNJri17M+vBEqa/Id6mLX65+EjkKsZq5v2lr5PsJ/0lePIue7Ps+NGtNw7nD79sGPVGrryfe5e7cz/6Zp4vYop/8FUMvUy78oicl3bsiJ9+HVhO/t3Krr8PBOHXeN+ZunrHt0mpgE/9mW/s98r1MsSkAkKd6qdUylUB2Vdu5MolWmQAxZ3EjVWzvRYQM6lQDMyEahUNNDNtgs5a7tUDMx3Gpc0Qi1UrFLOdhWq7KzSL3aCzwy80sDhVI2V9kn8IM8IcDw2D3WJDAMOsoiiZ6LqDmLbodrZKj5mkZ25mo6tjaMPYlVR0ayosMSFfBHYWNhCA7cLt5LKulbWhuZkfJAjnrTo7ubEeo2GAzW+ZUkjpPj7zCAA=");
 
 export default Tally;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `backward` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backward?s=solid backward}
  * @preview ![backward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/backward.svg)
  */
-const Backward: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M459.5 440.6c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29l0-320c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4L288 214.3l0 41.7 0 41.7L459.5 440.6zM256 352l0-96 0-128 0-32c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4l-192 160C4.2 237.5 0 246.5 0 256s4.2 18.5 11.5 24.6l192 160c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29l0-64z" />
-    </Icon>
-);
+const Backward = createIcon("backward", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABVwAAAHRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBHwsGAAE2AiQDCAQgBYMtBy8bngTInoexM2JL6YTZaS7ESyWCau3fnr37gEG6EJEiZI3sWEYBOTbiVyyq6JcIYMwZgoVftftTp57nPBTANwraWLgmyJgYmvM8AhHLVbutJShYQblM3Z3NQVm0S0kjRnJc7PhcIY+32UVlpLvpBy7HD41f2rhIUpUBiMYAmLxkwXyfGqIh4nsJ8d1cBMRkUAhkyNBegHEygfZyBXK5oCFKJfsfWBBAlKO3JpAjx1CMA+QgSXnetE1NWV2+2J9bveFmz6ftsrjX40nzhSHEosUhgKhjN5xtsSgmnowuLxq/+OPN+17+q6dskqyy56+Xl/TRR1K/FxlnFZ3ox8deN2r02hBLr4NA0O/EyutrGo37ryaBn2/+DX90aZJeoFICQdav1M/KBBIBAEhxWJcEgaSvBAAAoNYtAUI1AiTlqgXItNNYgFy1vgKU6Wi4AOWqLZCJvEpoblUBSa19IDPCKZBr7hUoM85nu1zzyPSGuHXi2xY7g0PT94rBAwYVY4phKpOqgOF6bLHM9TrsWr3hpM322O2gTTba5iBD9pvvHbLLDAme7osKgw0wSGGMYru4PV5sk/0O2GaP3WHLWMV5q5fD8nBvEBNCHSKRJCJV6hL2BAEA");
 
 export default Backward;

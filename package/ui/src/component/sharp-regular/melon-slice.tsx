@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `melon-slice` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/melon-slice?s=sharp-regular melon-slice}
  * @preview ![melon-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/melon-slice.svg)
  */
-const MelonSlice: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M396.8 35.2L336 96s-5.5 101.5-72 168s-168 72-168 72L35.2 396.8l-34 34c11.8 11 24.5 21 37.9 30C87.4 493.1 145.5 512 208 512c167.9 0 304-136.1 304-304c0-62.5-18.9-120.6-51.2-168.9c-9-13.4-19-26.1-30-37.9l-34 34zM101 398.9c33.3 21 72.7 33.1 115 33.1c119.3 0 216-96.7 216-216c0-42.3-12.1-81.7-33.1-115l27.2-27.2c24.1 39 37.9 85 37.9 134.2c0 141.4-114.6 256-256 256c-49.2 0-95.2-13.9-134.2-37.9L101 398.9zM373.8 158.2c6.6 18 10.2 37.5 10.2 57.8c0 92.8-75.2 168-168 168c-20.3 0-39.7-3.6-57.8-10.2c3.3-.8 6.7-1.8 10.1-2.8c38-10.9 88.5-32 129.6-73.1s62.2-91.6 73.1-129.6c1-3.4 1.9-6.8 2.8-10.1z" />
-    </Icon>
-);
+const MelonSlice = createIcon("melon-slice", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABegAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiBfQsGAAE2AiQDCAQgBYMtBzIb/wTIhofn9Z469yV/AGZsVmA1XqECVTHdqFxXUrf7L26edx7F0RuFNhYuDWSBz3meQGJTo7ZIFlgaoMeQecuMlVLul2SiSXo8p8enCfJ4P66rkB5KJa7Vm8ZPWrtAUskARCMATFqxZJ5PvolvIr6qvkl8ZQ4CYhIoBDJkaCfAWJlAO7kCuVzwTVSr8g8sCCBqwLkJ5KhgNQ4DcpBked6lReu6lfr58jSnzo6FSxbe1+rBdo+O/WDoG12faLEwxsaT3W4tu7Minn57+cNtxm79YtqdJTdWPDa4T3y67ObET+aWS2/P77PlITfHfrD0YvcHWp6Np8e83+f5AS+3HZ/0QHR+rtFzv3Qqt5cuP1qWpTmj//0xFesPPP6GUmMdx80atN5SU3pO7dFjas8pllo/aNaNPxr32DPg9zVRlrGm4Z/PmW22Ga1a33V2htmeeK7R7w93jOm//T89Oj47cRKfFY3/+7pxOpFlAggE7ffN2b2h4dh/atVN4Lv3fvutrY/qJ0l6DrUkEGR9q32tTQSCwyulOK5zIgSSxTK4aj33CxDqIEBSQx0BMm01EiBXRx8BKjoYJkANdSyRiby20Mw6hqSeQ5AZ7iTkmnkdKsb6TKuhWWRuRjsJ/ctLmK6RaU3FoP4Di9HF0tIZzyFzdUyxLfY8HiK9qNd2B+x31DZb7XJUYYfNM4/ZZ7qFTvOgwiD9DVQYrTh2n9uX2+awI3Y5YH+pM0ZxX+3puJ3ei5QEhIONJIlIdfdt23tgf7/nDAAAAA==");
 
 export default MelonSlice;

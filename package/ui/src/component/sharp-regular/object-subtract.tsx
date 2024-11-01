@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `object-subtract` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-subtract?s=sharp-regular object-subtract}
  * @preview ![object-subtract](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/object-subtract.svg)
  */
-const ObjectSubtract: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 48l48 0L96 0 48 0 0 0 0 48 0 96l48 0 0-48zm176 0l0-48L128 0l0 48 96 0zM48 128L0 128l0 96 48 0 0-96zm0 128L0 256l0 48 0 48 48 0 48 0 0-48-48 0 0-48zm80 96l32 0 48 0 16 0 0-48-96 0 0 48zm32 32l0 80 0 48 48 0 256 0 48 0 0-48 0-256 0-48-48 0-80 0 0 48 80 0 0 256-256 0 0-80-48 0zM352 208l0-48 0-32-48 0 0 96 48 0 0-16zm0-160l0-48L304 0 256 0l0 48 48 0 0 48 48 0 0-48zM256 304l0 48 48 0 48 0 0-48 0-48-48 0 0 48-48 0z" />
-    </Icon>
-);
+const ObjectSubtract = createIcon("object-subtract", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABfAAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCTQsGAAE2AiQDCAQgBYMtBzYbUwXILgacMos3oqOYjzDcaOKOz00WjU+dMJ7///3+N9e+Mv6/54u1j1VLmjwk0fgqVTMkiK8hjYxnH51SLJLJ1/4ZVzMr1/V/m6wM+AC0axfbRTcmM+RBQ8C8tsv32pCJy+kPenp6wEVP8mh70Ni0AhtjcAKJvucJdFlgmSZgabTtTWEJlxAvJHhAn9dsoF4VsCw+NP/YPVOGDgDZAgCX7wzb+PrFX8n/PPmpCQK5DDiC6NDhAIJzlIIDVI6AXi/8yjyb/0CBABmBly3Qo+EZloAelNVeZdXrrXrnutVqVJtVkzYYlm0ykgYDIo00EpmItNHUDEgjUQbSjkTk+CyVOIq0ZlLJy3WjgqY+mEbFvwaQ3+GH1Qi1mt/rmHxveHMOiS2FBg9SPrX0bXHbH7vIk7iF/erKQmTbZeJzD/wSAEe8p/YAV50fcU9wpGR7LQzoK4t5/DxAEP7e7enCeu6/rikAfz5T/4wwf5V6gxUFQndiDlsVKAIAqDzyFRCUx/TwrmueC4gJAWU0CejssyHoTY4jGBySQTCa3KCUXo/Ys+7xsuYe3jnrCe/tecEH53zXo70oyZEnJv5vMKUi4fI9SUTjUpTNsVagMDael+S043+0awHeiUNXLt07sO/E/Qi71e49uFDZQ8u+SCRExYkiuT17rkwk5dadE9bl/VtK5P3Y73F/d4D7CmA8qa8UKSvRl5G7R7ufvdR7");
 
 export default ObjectSubtract;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess?s=sharp-light chess}
  * @preview ![chess](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chess.svg)
  */
-const Chess: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M144 0l0 16 0 16 16 0 16 0 0 32-16 0-16 0 0 32 48 0 32 0 0 32 0 24-32.7 72 8.7 0 16 0 0 32-16 0-13.8 0 13.1 96L167 352l-13.1-96-51.8 0L89 352l-32.3 0 13.1-96L56 256l-16 0 0-32 16 0 8.7 0L32 152l0-24 0-32 32 0 48 0 0-32L96 64 80 64l0-32 16 0 16 0 0-16 0-16 32 0zM99.9 224l56.2 0L192 145.1l0-17.1-48 0-32 0-48 0 0 17.1L99.9 224zM32 480l192 0 0-16.7L191.2 416 64.8 416 32 463.3 32 480zM0 480l0-26.7L48 384l160 0 48 69.3 0 26.7 0 32-32 0L32 512 0 512l0-32zm350.1-64L320 470.2l0 9.8 160 0 0-9.8L449.9 416l-99.8 0zm118.6-32l2.3 4.1 40 72 1 1.8 0 2.1 0 16 0 24 0 8-8 0-24 0-160 0-24 0-8 0 0-8 0-24 0-16 0-2.1 1-1.8 40-72 2.3-4.1 4.7 0 128 0 4.7 0zM304 160l64 0 64 0 64 0 16 0 0 16 0 80 0 5.8-3.7 4.5L472 309.8l0 26.2 0 16-32 0 0-16 0-32 0-5.8 3.7-4.5L480 250.2l0-58.2-32 0 0 16 0 16-32 0 0-16 0-16-32 0 0 16 0 16-32 0 0-16 0-16-32 0 0 58.2 36.3 43.6 3.7 4.5 0 5.8 0 32 0 16-32 0 0-16 0-26.2-36.3-43.5-3.7-4.5 0-5.8 0-80 0-16 16 0z" />
-    </Icon>
-);
+const Chess = createIcon("chess", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABrQAAAK3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yERAsGAAE2AiQDCAQgBYMtBywbQAbIngV248tJaDE0Bnsr1oSFr8w2nud/v0/3uR8y897AnxDepEQB5gKCaxW6uIKLjq0rO2QXsNWRXR/Cdr/JupIl8RILI8tyiD0IKNiACyGBSQa0YAMuUF5sg/nRnrjc+U8bG2T6iz3aN8amuSic8zyBAF8fG9plUfpCmSZgGaaXK+CHiuwetj6gm89EPcrHGs5llsp/5nkbRbcDIAMA7Ljz1BFfX5JLyY/DID86hEB2girowLeQINjsC1nvqrTqrnApw/8fGAiQvuLjBXQxiv8h0wFdUEzrdveMj0+NL72z7Y13z7a95l4hbStNkxbkNKk8kyZn0xBN7uSTto0mCAQ2b+B027R3Js/KmQhPtr43m6OJ3Jk2ZyLSNHl0+arl0iZZmebOWbNnncmsCJWjyMzJnWGrPds2LT8/M5vlLq+zLUnDTptDW3a1W4Wtmb3NpF12wc/t7ThXL4oGgxqiy+vAXHWfUapvYuxBVZxcbfROiDyjUnSueF2+wba5pt5ycRTD1xw1ZfnxKUN613CoVya8Faan6gLU79jtPLHBAlW9FN/2Fwyz8zT+8tgbS2YU19+wTxQDc40Y+XfEXANFcJ+Zobfk4tyvznF9q2wy30A1UEnfRm/7oPVsVAmr9NXAfNJ3HC+DILwvtzW5+WoqBVz59K//GTGcKhdgRAGhc+tQ7iugEABAyRuWFQiKq5jCqmM+ICAaBBR9jYCOBQYCuhq3COhZbI2AvsYpHemOipnun4VizMtCx1pvCl0zfSL0bPZNo29mOp+C/UG2/4jm2UsCey7VFbcvrxurdGR0PN16fLqpGkdufMNfuQmmnvCiF7zmcY952msE84oj7dc9b68K2+OLqhVut1y1Ud08nfWcJRqveNXTYtf2czapxxdu9IZ6+02IF4XmSr5yCgZL79GnHn/1VQAAAA==");
 
 export default Chess;

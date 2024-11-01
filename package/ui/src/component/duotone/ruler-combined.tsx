@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ruler-combined` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler-combined?s=duotone ruler-combined}
  * @preview ![ruler-combined](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/ruler-combined.svg)
  */
-const RulerCombined: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 48L0 368l0 96c0 1.7 .1 3.3 .2 4.9C2.7 493.1 23.1 512 48 512l96 0 320 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-48 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-64 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-64 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-64-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-64-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-48c0-26.5-21.5-48-48-48L48 0C21.5 0 0 21.5 0 48z" />
-        <path d="M112 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l80 0 0-32-80 0zm80 96l-80 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l80 0 0-32zm0 96l-80 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l80 0 0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80-32 0 0-32zm128 32l-32 0 0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80zm96 80l0-80-32 0 0 80c0 8.8 7.2 16 16 16s16-7.2 16-16z" />
-    </Icon>
-);
+const RulerCombined = createIcon("ruler-combined", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABqQAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDEAsIAAE2AiQDCgQgBYMtB1gbugXIhofv13o7972eqZ/uMHSAURGBA/JZYL3sSK2KWwJNU2uZZurmeedRgG8UYWBjLW6Dh2OeJxBwlqddQgkFmmAG1uK2myGmIY2HxgFFfJbva5CeTR/gQfgfwPjGAPdJOmUA0R0Ay3dsWedhK1opPmi/SXxgLQJiBagFMjIGC7BIFhisUKNQCFqp3aYV7XZNANEU3iGDJjrwCl4DFCBpiKIoqz5V54NVo0uxvWqUe57o/WSfKiLKbWVV9hRCFYX2dL8NPUJSfW9b0KRTc0peQ9x2J57t82RVdXmp39ODIp7r+9SYMsQTvZ/qGxFifqrv0/2qoK6efL73E/1HvNr91e+Gf3D8AxcOtLp2bW1U27jhwMaNGwfKQaVuFGmtrjJR3xpWx1SoHdiwadac65Fl8e5BOdHj8/d7HVw27fMPM40//HzatNNdyxpzoxe6lmFh2lX9oGeuA4HgVrfX/z7QbdFvHVUCX7/1wy/Vh6T9MEmvokMCQZ7UnmRvAokAAKS4bkTiIALZQQ3xXTt7SoBQIkDSVAqQDdJdgEJpogANQ80WoKm0RRZFJ6G3fR1IOrsEsjlugEJvb4CGRd7OmnpHhlgS3sj/xbg1Q2j1Wj19yrR6Qb1aaSggxO18YX1YG3dd1sbjXcddcN5Vxxx1ytUBctm68ppz1mzBqz2oNt0U09QWqC93mWq20+yyK04tM9eXLFQ/H41zfbt7PDaTGHWGjSwTKXJfb2BfnuyJpMnQ39Z/jvnSAQ==");
 
 export default RulerCombined;

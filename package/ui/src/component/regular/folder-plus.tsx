@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-plus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-plus?s=regular folder-plus}
  * @preview ![folder-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/folder-plus.svg)
  */
-const FolderPlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M251.7 127.6s0 0 0 0c10.5 10.5 24.7 16.4 39.6 16.4L448 144c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l133.5 0c4.2 0 8.3 1.7 11.3 4.7l33.9-33.9L208.8 84.7l42.9 42.9zm33.9-33.9L242.7 50.7c-12-12-28.3-18.7-45.3-18.7L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L291.3 96c-2.1 0-4.2-.8-5.7-2.3zM232 376c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0 0-64c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 64-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0 0 64z" />
-    </Icon>
-);
+const FolderPlus = createIcon("folder-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeQAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCBgsGAAE2AiQDCAQgBYMtBzIbCAXIjpQuZyTx8P860fu+ZJ9ECoPCjBuUAN2ReONl8OmKUydyhjzbT1yT//786QGL/FEqKPVBCqhzAjsf4LC0aUJRYDOdgM3a2fX1Bl6/GCSEJMP2htEO8vgyHlMjPZ9+waPxQ+M3vd1FUssARCcALNqxZZ3vmtGM+Ln1MfGzNQiIRaASyJChnwBzZQL95CrkckEzWi3+D6wIIOr0cRPIUcNJnAPkIMnyfMDgqqy1z7eXtWLP7fF0WcbT3VM81a1dPNMji2d7lvFg9wUxN+YtmD9vfqMo4q2R7/VK8fyo94e1j3fHfNA3ixdGN4YX8UCPnc8Pe7dvRBmQXmiUCODe6iWKIIdnlWFwo1PjD78c/8U/C2j1fFmzAx2atwmwcNk96ks766zRuaHbBve922udOxcLFZ07v3ZbAa14WdZ5Wu/umzZ1X2ihRAaaU+vLQSC454eWHug49+82ZQK/fvHX8CtqNZPUQBsJBNnY1lh7E0gEACDFdYMTBJKDMnqt7TwjQCgQIKkrBMj01UmAXGGMADUDTBOgrrBFJvK2Qjf7CpK0cwnJTHcDyXXzIVIz1/dWXbfIbI21FPanl7ScwGWLqknjJ1azq2ksc+ZD+9k51bY68rqrjcJax11w3lXHHHXK1Qq+bJ17zTnLV9AyX1SZZLyJKrNVx9m9tJ3IJF0Resydz2OO6r450vV19ygYiRJO5k0Skcrjr1weZ6sAAA==");
 
 export default FolderPlus;

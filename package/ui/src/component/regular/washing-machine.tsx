@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `washing-machine` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/washing-machine?s=regular washing-machine}
  * @preview ![washing-machine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/washing-machine.svg)
  */
-const WashingMachine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 48c8.8 0 16 7.2 16 16l0 384c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16l320 0zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zm64 104a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm56 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM314.6 319.7c-3.5 .2-7 .3-10.6 .3c-32 0-56-16-80-32s-48-32-80-32c-3.5 0-7.1 .2-10.7 .4C146.4 218.9 182 192 224 192c53 0 96 43 96 96c0 11.1-1.9 21.8-5.4 31.7zM368 288A144 144 0 1 0 80 288a144 144 0 1 0 288 0z" />
-    </Icon>
-);
+const WashingMachine = createIcon("washing-machine", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABjAAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCJwsGAAE2AiQDCAQgBYMtBzYbLQXIhqCyWWX1jLQANIcED8AWkEXM8h4dQ/EukauLU89zHgrge8SDsqcGZGyQMdt9XoGKjGkVLVjAChKCCljfNiwwyiM0pECiRKIxHa835PFE3KtEeiz9hHtkovGLAbeRlDIA0Q6AdUcO7FKpRjXix9pHxI92ICDWgUIgQ4ZhAVbKBIblCuRyQTVqNfwPLAggyng6CeSox7W4HpCDpJzn7YMNDX1DTaWW/HBTqfG8h3pSPNjdHA/3ZvFIX8uZL06NeLU/xWPTXpvUEq/MeGMoi8envz65+dDjk1/sf2zSK0PbXhmahUO3N94++WUim/iEy5zykf8DIzd177h5dsTbyz9vvH3ppzPfdNOst5Z91nTHii/mvBPjX29//bdxP537kxvvqbbepLW6llxdM+fZDjoab9LY0fHsWkrA3Jrzevbt6+nqdZUE/C3flEv906YOD810ean8xhWX/3nT66/Xd+zeM6Wg6OqcPLmzqyimTCnyfEAg2Lb8kZmnta38r74pgZ8//+N/+RXVKlFJr6NeAkE2szbTyahAVAQAIMW1xkcFgeRSZfyq2cMChEYSJGWNkBnSDrlGM6Bk1CLaefqATOQNQrdTAJJmV0Bmsesh1+0DKFnpW7+sO7LYYyOH/folbdbIpmPFvNlzi+XFsTS4cKJpf0XhtqZeW0bT4IZzXeZSVzvH2S4QUmFX2hVd4xKbLXSTLyrMM9tcheWK6+ZVOqz8K13lgr1wf8gKxXtvqmvt1dPATZhwvpdJIlLbdWdcdf4Fl543K2IB");
 
 export default WashingMachine;

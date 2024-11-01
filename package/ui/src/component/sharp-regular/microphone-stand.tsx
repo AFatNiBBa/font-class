@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microphone-stand` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-stand?s=sharp-regular microphone-stand}
  * @preview ![microphone-stand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/microphone-stand.svg)
  */
-const MicrophoneStand: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M477.8 203.9l-1 1-16 16-16 16-1 1c-22 21.5-50.2 32.9-78.7 34.1l-18 15.1L280 343.6l0 8.4 0 136 0 24-48 0 0-24 0-104L80 512 0 432 225 164.9l15.1-18c1.2-28.6 12.6-56.8 34.1-78.7l.9-1s0 0 0 0l16-16 16-16s0 0 0 0l1-.9c46.9-45.9 122.2-45.6 168.7 1s46.9 121.8 1 168.7zm-67.9 0L308.1 102.1c-15.5 16.1-22.1 37.7-19.6 58.4l1.6 1.6 59.9 59.9 1.6 1.6c20.7 2.4 42.3-4.1 58.4-19.6zm33-134.8c-27.8-27.8-72.7-28.1-100.8-1L443.9 169.9c27.2-28.2 26.8-73.1-1-100.8zM313.1 253L259 198.9 65.1 429.2l17.7 17.7L313.1 253z" />
-    </Icon>
-);
+const MicrophoneStand = createIcon("microphone-stand", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdQAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCFgsGAAE2AiQDCAQgBYMtBzcbHQXIjtRW+YViEg//79+/P9e+GC/2CURUqlLFFVklH0ULVkJ9K+R96tTznGcDPoUwKGvRslxAxqTsznlegYKWevWJtQKFe17TClitnX8Z/iNSMkifIsmwfYbNFfLxOq4okG6kr3E5dSp+Vc8JkkIOQFQFwNDZ0yf68H18H/FV6SnxlfEIiKEgE8hBb6hQBlwbaCgvQ15e8H2USvE/MCOAKMqvSCCPItZhHyAPkjzlB1WuVK5CoVJ+ls+WX16zTs2aIdQXPVrEjICWj2DUqVkxPxrEzc514iiYKvFHvK9wfuBbRwaUnzVz1t1GtWJq1Ipb7WffLx9xrs3MeBBH282YNnXajGgbs5vdr3r/d1+v+to3/6KkhM4PGxvWR5kz6uqirjWuHTZ5su/L+0GDf7CXh6FdOg9rUZyaI1bKU2u78Fo1/1zNTs1oSKPpK1fq2ajhyKPPZ9L7Pv6iml8+AoFg09H29RZXGfB/WYUEfnw19ysqfUjSfZRJIMh1KHWwIIFEAABS7NIsQSBZJg9dreiqAKE8AiRF5QXIaaCqAHnltRegoLGeAhSVN11O5MsJNS3sIKloK8jp5SDIq+kxKBjgk1dUM3I2J1iM8ONLHaWhkceyrp26ZP2yaV8TzYgL+/2zbaPNLp5ri4tW2WyTHVZaYa0ditxmYrjTRqNW8EhflOmqky4y/WTHo8fzs6y0zXZrbbYpHtJfdt9tY9d6dVvYSabtppIkIlV9rLxd6h1fCwAA");
 
 export default MicrophoneStand;

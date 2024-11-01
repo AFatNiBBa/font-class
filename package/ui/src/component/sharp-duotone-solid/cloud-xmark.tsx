@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-xmark` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-xmark?s=sharp-duotone-solid cloud-xmark}
  * @preview ![cloud-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-xmark.svg)
  */
-const CloudXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336L0 480l144 0 368 0 128 0 0-128c0-59.6-40.8-109.8-96-124l0-36c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192l0 8.2C40.1 220 0 273.3 0 336zM222.1 224L256 190.1l17 17 47 47 47-47 17-17L417.9 224l-17 17-47 47 47 47 17 17L384 385.9l-17-17-47-47-47 47-17 17L222.1 352l17-17 47-47-47-47-17-17z" />
-        <path d="M401 241l17-17L384 190.1l-17 17-47 47-47-47-17-17L222.1 224l17 17 47 47-47 47-17 17L256 385.9l17-17 47-47 47 47 17 17L417.9 352l-17-17-47-47 47-47z" />
-    </Icon>
-);
+const CloudXmark = createIcon("cloud-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABjQAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCMwsIAAE2AiQDCgQgBYMtB1IbVwXIhof/t4u671d1D6AaSZHhVSpE64x9NtrUoRT31Kmc5Dwb8Dnuc3pAFuAaHeu8Aj3f1Iu222IFqlC1NaQubrsKzS0UttBoXCBP3bPzSqQnqYJb6X8A41etnCeplQGIhgCYuGjeXJ/9GD+mqFTfJyrmICAmgUIgQ4a2AoyRCbSVK5DLBT+mapUfo1otCCDKUt8ZKKOE4zgPyEESUp737NSzTqlevjB11F7Xu0fvcdEjxsS46CXxnjEW6oH3jvFQT7xXjDsk1KkX8WK/N4eRU3u9OuxqlzdHfTDs2zEfzRfv93m97aLxY8YfxcdHb/Y6lsJjOAqPY5/4MZ1ebfjq7x0rGytuf4NG+MMftbP7dtHDX6fVu/3K0y5qvvrq6fa75g0d8tnkqFRick1v3bvX4LtdjUjti14BCAT/t7vywaoGY/6vWSeBnz/48xfl09Uf0+n0KmpKIMj6VPtYnk6DYgbwpVIc1Cmd9j0CmdkS/q51PRQg1EaApKy2AJk2GgqQq623ACXtDRWgrLZ5MpHXEppa0YKkrj0gM8wJkGvqPVAyxud+WdPIUJBHIP4LMGVaH5m6qhjYb0AxqljM1AJWsX5xdLHb6XFQD/SknTbaZaf9Nlhvi/09eq+50QE7TFtDp/qgwkD9DFAYpThdPj6+0AZ77bPFLjvjMqMV93s9HFwf35OuJwEGvbxYRqTImvyM0O17GF6NvtA81GwsAS4AAAA=");
 
 export default CloudXmark;

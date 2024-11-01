@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-xmark?s=solid file-circle-xmark}
  * @preview ![file-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-circle-xmark.svg)
  */
-const FileCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 38.6C310.1 219.5 256 287.4 256 368c0 59.1 29.1 111.3 73.7 143.3c-3.2 .5-6.4 .7-9.7 .7L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zm48 96a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm59.3 107.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L432 345.4l-36.7-36.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L409.4 368l-36.7 36.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L432 390.6l36.7 36.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L454.6 368l36.7-36.7z" />
-    </Icon>
-);
+const FileCircleXmark = createIcon("file-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCFQsGAAE2AiQDCAQgBYMtBzgbHQXIjsQ4JvKLKOwiHv7frv/2uVVP1d+oLykiPEYkIMigdNaEE3eH1L7jm7jc+Z8/PeCyJ3iUPfVBFsjTHHUeBRRgmo1N6fAszBLFdmfbioO0xyEtzZIcnx2fHCGPX7MrakiPpV9wT/nQ+Fd7V0gaMgDRDADTli9e5Iu/4q+In6sSP1uAgJgGSoEMGToJMFEm0EmuRC4X/BXVavgPLAkgavHLE8hRi304CshBkud5z7qOZaWmcb6sUlNkTwyIeLlPJcSF1g9V8KHfTPykvDDo1XEPFo3iuf4vdcg2FpUiYunS2+MiPhz0qgsDXxn7QXFr/EeDX4uLQ16f8HFl6SNtHm41MSYHYh5sPSkmBuahtlNiUpAqqTxhSveXmr30H79s+8WFojnNn33WBU1u3GhyQR/nJw1sPGjkyLZTa3i2efPiwvkpF3gb588PWd8nkYZ1692727CU+ohEWDN+1+OPv/jiDDNUMi8daSR5PwgEnV7e3H9904n/11cS+Oejlm+ufpGmppdQL4EgG1gdaE2aCoQPIEhxTHfjiwLJNjl+10YeFiAUCJDUKgTIdNRMgFxhgAA1uhglQK3CYpnIG4RW1nY4aeQgnBntLJxr5W24xkTf+7VaReZyrMOwL76k2RKYtaocNnhoOb6cJhrnRXSan1AuW32PxUY/2Gib/fY5YqstdjoioEMWRUftNdsCZ/mh0jCDDVUar9zOH6VlFBxy2E5dK/cXmaA87/V1zO7vB27ChMPFkkSk5tdbG/Q5xx504oYCAAA=");
 
 export default FileCircleXmark;

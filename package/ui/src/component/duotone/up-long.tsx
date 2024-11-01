@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-long` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-long?s=duotone up-long}
  * @preview ![up-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/up-long.svg)
  */
-const UpLong: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M96 192c0 96 0 192 0 288c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-160c0-42.6 0-85.2 0-127.8c-42.7-.2-85.3-.2-128-.2z" />
-        <path d="M313.4 151.5c6.6 7 8.4 17.2 4.6 26s-12.5 14.5-22 14.5l-72 0L96 192l-72 0c-9.6 0-18.2-5.7-22-14.5s-2-19 4.6-26l136-144C147.1 2.7 153.4 0 160 0s12.9 2.7 17.4 7.5l136 144z" />
-    </Icon>
-);
+const UpLong = createIcon("up-long", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYgAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBJAsIAAE2AiQDCgQgBYMtB0obwATIHofpNk52JUuuPrHi4Z+1//0+M3Pvgrm4DO7axDyRX4VEouGhkO6iiv7fkHaCRWYW/9PfT/1x/ukDPhD5GZggkUCRW5832M7nu3mF7Xzgs5nirJ0dSZLfpU98+uwSw2hwgCwWpmeVSB4l73CD/gcwPmnpLInaKYBoAIAJyxbN8aIa1STe/XtGvDMbATERFAIpUrQRYLRUoI1MgUwmqCb/qMa/ggCijD41BWVkGIIxgAwkQmRZo9aVUt1saaWUb7vX5G6TPL/f7H7zZfGgcqXpkmUnRZx0sum9SiWuNH8QEaecdjm313WsaVDzpcNbN7xbzdrd1elVd/P4wg3b8nxbiK37N306SNW7eLHeeN54oiB8/HivBIIP71e6rv7o/2tVEvDx+bdf6co//17E5KQGtSQgSHv/6211HBWg3+sCE0/iqI4xHt9lvUCqtQSereO+ACFHgERZLtC+v4EAmVwvAUraGSJAWW6RVGS1hSbWFJCo4wBIDXUMZJp4CkpGe+mWNYn07FA7T73c4qdydMqmYkDf/sXIopvJ9HEg4vSoYljvftR3emCvrfbZ67AtNtvhMMMPmhMcscdUCZvihwoD9NVfYaRCXV7zS5l70CE72qx+llGK+U53R+XBPbCdBDBw1XelRBJp/SP7+3yaS99BpSFnLxsAAA==");
 
 export default UpLong;

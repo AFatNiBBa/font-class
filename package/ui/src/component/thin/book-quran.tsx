@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-quran` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-quran?s=thin book-quran}
  * @preview ![book-quran](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/book-quran.svg)
  */
-const BookQuran: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M392 0c30.9 0 56 25.1 56 56l0 400c0 30.9-25.1 56-56 56L8 512c-4.4 0-8-3.6-8-8s3.6-8 8-8l24 0 0-80.8C13.7 411.5 0 395.4 0 376L0 40C0 17.9 17.9 0 40 0L392 0zM48 416l0 80 344 0c22.1 0 40-17.9 40-40s-17.9-40-40-40L48 416zm344-16c15.7 0 29.8 6.4 40 16.8L432 56c0-22.1-17.9-40-40-40L40 16C26.7 16 16 26.7 16 40l0 336c0 13.3 10.7 24 24 24l352 0zM274.7 163.1c4.9-11.8 21.7-11.8 26.6 0l7 16.9 18.2 1.5c12.8 1 17.9 17 8.2 25.3l-13.9 11.9 4.2 17.8c3 12.5-10.6 22.3-21.5 15.6L288 242.6l-15.6 9.5c-10.9 6.7-24.5-3.2-21.5-15.6l4.2-17.8-13.9-11.9c-9.7-8.3-4.6-24.3 8.2-25.3l18.2-1.5 7-16.9zm13.3 9.7l-7.4 17.9c-1.2 2.8-3.8 4.7-6.7 4.9l-19.3 1.5 14.7 12.6c2.3 2 3.3 5 2.6 7.9l-4.5 18.8 16.5-10.1c2.6-1.6 5.8-1.6 8.3 0l16.5 10.1-4.5-18.8c-.7-2.9 .3-6 2.6-7.9l14.7-12.6-19.3-1.5c-3-.2-5.6-2.1-6.7-4.9L288 172.8zM120 208c0 66.3 53.7 120 120 120c24 0 46.4-7.1 65.1-19.2C242.8 321.5 181.7 272.3 181.7 208s61.1-113.5 123.4-100.8C286.4 95.1 264 88 240 88c-66.3 0-120 53.7-120 120zM240 72c27.2 0 52.6 8 73.8 21.8c7.4 4.8 8.5 13.3 6 19.4s-9.2 11.5-17.8 9.7c-52.5-10.7-104.2 31-104.2 85.1s51.7 95.8 104.2 85.1c8.7-1.8 15.3 3.6 17.8 9.7s1.5 14.6-6 19.4C292.6 336 267.2 344 240 344c-75.1 0-136-60.9-136-136s60.9-136 136-136z" />
-    </Icon>
-);
+const BookQuran = createIcon("book-quran", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABvQAAAL3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDSgsGAAE2AiQDCAQgBYMtBzEbywVRlA1GnuyB5/k8+3NfMkg7Rgb2F7EC3Pn0CtROWgHo1KnnOQ8F8IeFIChj29R4dtegOc8rUJFpa1CtOS8WaxXF2rZEgiKquF9IuA2lDR8/H9+dgC5r6IMDqFXqBrBoYvKGQKZHCk0DAPGAN4WK9q2bcuaZPBO5YT8IcoPGgABIJQAmAmiABoQgABSjIUAIOiagoyPwTOz2/h9oggCAOIJPUQDogAFcAm4DADoACiddN929EsNf+4daHVz1dlYHS/9tviIrApXU+yyPdpGVfjZ/q4hsD9Jkir/N6toHwVXm+dtkit9Ki0vvbb4a7y5bA5SsinFtZ7OKzPMNlBhZ4bvCx0eYTdhyPz/xEWylf7D4yRabf5wE+wYEByz3iRZfVQ+Qi2fzjZEg5XF/iZWVfkFtNpWInKw5nHSg8FjklqLjObtzLxSfMNsfLPAqOxS/M2Rdwq68F6xwj2RfKj2lP7/sdF3kbo/d7yJu9LvBrNMj/sMHp8U4ffg/YjI9HB17BNCSu2Et8Dy2x7NH+w0tkNUBzz3HPGVeh/buI+wDn5OhpW8LfFv2GPM23wAjvwcRTI6L7/eQDALG9B3zk5+MGdsnIIOH9IuPmxxBj6s9kbh3uckjMvUKDDIyDCrQM9+STrk2ckek8gRPs3zvj6bFnp7FTX/sLTc9PdX4WZP1+oJGZ2a+fGkY9eUz7xQW1OuTF7fraxh92y1WAQACCGR9Wjuwu3vxN2erAuDFsQ+/1/3Yz8gZtRtwRgEgoCXbk+kiZwAyXQAgUDKOSOOLBFCcwglELqxEPB0LbKBwxAI0gvEAOhaSgANh5PCHy1ujIbqB4ENXAgoXRgKNXCYAHR/2AweKuew74iNaNIuxKP5LptVKomaRmZGabhaaag1LAcq32SLz2IgfV3oSaCv9GM4wxtCXPgxkjKBG0TQay1BqLbKGH2KSQSrpmBRifm5+X9+OvoxiNAMZzrAxTxGmvxPPOHt4AtkKMGZSpVAgyhLqWSkjx47qOQwAAAA=");
 
 export default BookQuran;

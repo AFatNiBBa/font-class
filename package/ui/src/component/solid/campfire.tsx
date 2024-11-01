@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `campfire` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/campfire?s=solid campfire}
  * @preview ![campfire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/campfire.svg)
  */
-const Campfire: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M279.1 43.9L262.1 25.8c-1.8-1.9-3.6-4-5.4-6.1c0 0 0 0 0 0C248.6 10.4 239.9 .3 227.2 0c-6.5-.2-13.1 2.1-18.3 6.8c-21.1 19.2-45 44.4-63.8 72.9c-18.7 28.3-33.1 61-33.1 95C112 255.2 175.4 320 256 320c79.8 0 144-64.7 144-145.3c0-27.3-9.9-55.4-23.6-80.1C362.7 69.7 344.7 47 326.9 30.4c-5-4.7-11.5-7.1-17.9-7.1c-6.8 0-14 2.5-18.8 8.1l-11 12.5zm36.5 174.4c0 32.1-26 58.2-58.2 58.2s-58.2-26-58.2-58.2c0-33.2 33.7-66.4 49.8-80.4c4.9-4.2 11.9-4.2 16.8 0c16.1 14 49.8 47.2 49.8 80.4zM42.8 289.9c-16.6-5.9-35 2.7-40.9 19.4s2.7 35 19.4 40.9L160.9 400 21.2 449.9C4.6 455.8-4.1 474.1 1.9 490.8s24.3 25.3 40.9 19.4L256 434l213.2 76.2c16.6 5.9 35-2.7 40.9-19.4s-2.7-35-19.4-40.9L351.1 400l139.6-49.9c16.6-5.9 25.3-24.3 19.4-40.9s-24.3-25.3-40.9-19.4L256 366 42.8 289.9z" />
-    </Icon>
-);
+const Campfire = createIcon("campfire", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhwAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCJwsGAAE2AiQDCAQgBYMtBy8bJgXIHqnN/hjBxcPzdn2d+6r6D6AaSRHppZSCKaONuytCqPGVr//8X05v+B0d4Dc6lLHtGnNZ76i5sZdAoGE2J+i0MEsUW9x2c0Q8NEZIrCCPt7KTSqQ70te4Ej40/tLESZIqGYCoDYDRc2ZM9/7v8XvEV+VXiK9MRUCMBoVAhgzNBRgmE2guVyCXC36Pcln8BxYEEBXi2yaQo4SdOA7IQZLlefsGfaqVauSzjbrqmi6du9za8FioWW7tcL7+692eLh4Y/s74z0a+1/beHs8uS1Wn2fVn3V4/4vF2jw4mN72r61ONbmtwS+cnmiy91Zpv1r9pAg1mxUzlvqXRnBhQhXRbEm54a8PZQbiGOkZt3unsNk/WfvIfv179tYY3IqJNXRDv1a26u/lPP7atcXbPDx+c2duiyawJb+yuWm3P0+2eqVzG0a3KlRuXSj/uOvUlpca1J370Mo9MHTZ1/ssXekuVl+f3Mqc9/PJHTYWpjQEPTxPY1EcuBoHAU7e9sKTWsP8rV0vgzzf/u9qzvCyl9CQqSyDIupW7WZgQ6BAhjqbYrQ3+JoFkowx+1+puFSBURYCkQlUBMs3UFiBXVVcBSlrqL0CFqmbIRF5FqG9RB5LqtoHMAIdArr6XQMkwn0Ur1I8M9jjI4X79kicM0fHjit49ehVDitWchgcnxvYOLQ5rOu2WNZ3xVKttsdlOq6y0zs4Bsd30xC6bTNjCx/uhQm899FIYorhcfCrPHkS322HdMncdMspQxfOOTnZvN++M9UlM2ocqSUSq/MEx7zEAAAA=");
 
 export default Campfire;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-king` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-king?s=regular chess-king}
  * @preview ![chess-king](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chess-king.svg)
  */
-const ChessKing: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M248 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 32-32 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l32 0 0 40L59.6 144C26.7 144 0 170.7 0 203.6c0 8.2 1.7 16.3 4.9 23.8L59.1 352l52.3 0L49 208.2c-.6-1.5-1-3-1-4.6c0-6.4 5.2-11.6 11.6-11.6L224 192l164.4 0c6.4 0 11.6 5.2 11.6 11.6c0 1.6-.3 3.2-1 4.6L336.5 352l52.3 0 54.2-124.6c3.3-7.5 4.9-15.6 4.9-23.8c0-32.9-26.7-59.6-59.6-59.6L248 144l0-40 32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-32 0 0-32zM101.2 432l245.6 0 16.6 32L84.7 464l16.6-32zm283.7-30.7c-5.5-10.6-16.5-17.3-28.4-17.3l-265 0c-12 0-22.9 6.7-28.4 17.3L36.6 452.5c-3 5.8-4.6 12.2-4.6 18.7C32 493.8 50.2 512 72.8 512l302.5 0c22.5 0 40.8-18.2 40.8-40.8c0-6.5-1.6-12.9-4.6-18.7l-26.5-51.2z" />
-    </Icon>
-);
+const ChessKing = createIcon("chess-king", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABeQAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCEQsGAAE2AiQDCAQgBYMtBzEbEgXIhqDSVWW1NBs30jHomNECeg8QTWKPHQOAzBk5Nd54qYCXmgoX5Xx8dO824Pvjw8Un9uxcsNpoNrCJ4sxbTixJ2SeZTGmSHs89fl0hj4fjDjXSg+lz3F6/NH7WxU0ktQxAtAbA7I1rl/vwi/gi4rPGa8RnliIgZoNKIEOG7gJMkwl0l6uQywVfRKNB/4EVAUQTri6BHDUcxXlADpIsz+fUO5e1FvmGslZsfWjAM51FEYge7F+GnNjvgc5XO6yPMjbEfXF/p7K8t8PV9uu0vJFI8dCQ+wYUEebz3R6SajaVRdklmke3vfcNaB7PtB8V97ja4d6yRdzc6f641nFMn5dav/Rr788PfO7/5zusXt2hUmk0XqwMcos7Wv1Rb75k/EXjTL9dpOKJZ555okiR1HFWzUua1zXuuMWgC7+66/7/+N0NHTW69by9qht1+90WFm3ffrntCG1ffrttsfBuIBC8v/y773e2mvZvszKBr97+/b/+usaH8WF6Cc0kEGTDGsNsiw+BiAHkKS7oE3AINtorw5/a3H0ChAIBkiaFAJluWguQKwwVoKan8QI0KayVibwutLd9wElzp+HMBJfgXHuvwDXTfFQ2aR+Zw/Huwv/3UhZoYP62avSIUdWUatsigg+xeXVqdawOuhBHBuOgA0464Zz99jnsnILOWN4477gFFjjfD1VGG2GUyhTVdfd59wb7nXHWYSedKOtMVb13BrlgTx8MI2HKMY4kiUjF3kP7z54d7roAAAA=");
 
 export default ChessKing;

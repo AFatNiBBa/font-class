@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-scatter-bubble` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-scatter-bubble?s=solid chart-scatter-bubble}
  * @preview ![chart-scatter-bubble](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chart-scatter-bubble.svg)
  */
-const ChartScatterBubble: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 32c17.7 0 32 14.3 32 32l0 336c0 8.8 7.2 16 16 16l400 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L80 480c-44.2 0-80-35.8-80-80L0 64C0 46.3 14.3 32 32 32zm96 272a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm224-80a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM192 176a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM384 64a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
-    </Icon>
-);
+const ChartScatterBubble = createIcon("chart-scatter-bubble", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABfQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyBdQsGAAE2AiQDCAQgBYMtBzsbAAXIjtFjMxhEcmQYHozj8uL5/7//31z7fb/4+gyP4j9QGIVPJAqz0iiPNAzkjjSOj1H7/fbeV0f0EJMqJhLNm4cOoTBUpk49z3kogA8WkVxQxsY1ffvYnQPrOa9obXovArWC1bQC1t3ZluYQrXgkaZbkOJfjcXhCP/esfgygPpgv8JY+NH909VMEPQCQNQC4f4yLwMtPuuSzXZJvYSBA7gGcI6AHeuCAAK6wEHDARkEfG4GOtEb/gRQCkCF4qAL0wQg8gSOAPqBw+myTBfsijoSdWNLCtDENyQLKmRpJ2kALeNnPC8XkyvbUiJUe7SVRyprVkcWB7rL5vuWhXtKlzYn1sbvSz+7MK1G82vRUfvpr8lX4BeNP6TC8LqMh7d6BBFE5N431MZFEA0tZMmFlW1ulMKK+H5wdjY0dnY+2nGTMc9XrAAQEnn9s7rNW/v98EQPg9+7vP/6MtJ/CfIExBhDoXTR76QWgIAAAKo0wLSCgJODgd51bFEAIQQCFS4gAevTJEUCfkB0CGDDigQCGhOKwkL4AhFpGAwyxGsDiqQOwqZ0DDn+vIZc6PRNjDIR54SUG9lDAOeri6Ex96bRVWauhwqEfXZasG/2CDVxEoSqV6hXIV6K+Q2pFJA0qBGpwgC+iXDhyRvmi2+PHYqICteqUyOx+H37oec9ao77eBlQG414qFAZS6st16lCX901FrtYhtyE3t7wA");
 
 export default ChartScatterBubble;

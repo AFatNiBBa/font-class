@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-slash?s=regular users-slash}
  * @preview ![users-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/users-slash.svg)
  */
-const UsersSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L440.6 320l178.1 0c11.8 0 21.3-9.6 21.3-21.3C640 239.8 592.2 192 533.3 192l-42.7 0c-15.9 0-31 3.5-44.6 9.7c1.3 7.2 1.9 14.7 1.9 22.3c0 30.2-10.5 58-28 79.9l-25.2-19.7C408.1 267.7 416 246.8 416 224c0-53-43-96-96-96c-31.1 0-58.7 14.8-76.3 37.7l-40.6-31.8c13-14.2 20.9-33.1 20.9-53.9c0-44.2-35.8-80-80-80C116.3 0 91.9 14.1 77.5 35.5L38.8 5.1zM281.5 195.3c8.8-11.7 22.7-19.3 38.5-19.3c26.5 0 48 21.5 48 48c0 11.6-4.1 22.2-11 30.5l-75.5-59.2zM106.7 192C47.8 192 0 239.8 0 298.7C0 310.4 9.6 320 21.3 320l213.3 0c.2 0 .4 0 .7 0c-20.6-18.2-35.2-42.8-40.8-70.8L121.8 192l-15.2 0zM261.3 352C187.7 352 128 411.7 128 485.3c0 14.7 11.9 26.7 26.7 26.7l330.7 0c10.5 0 19.5-6 23.9-14.8l-49.7-39.1c.7 1.9 1.2 3.9 1.8 5.9l-282.6 0c9.5-36.8 42.9-64 82.6-64l117.3 0c2.6 0 5.1 .1 7.6 .3L324.9 352l-63.6 0zM512 160A80 80 0 1 0 512 0a80 80 0 1 0 0 160z" />
-    </Icon>
-);
+const UsersSlash = createIcon("users-slash", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABkAAAAKLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCSQsGAAE2AiQDCAQgBYMtBzIbSwXIjtRWdyBJTgiep7zq/UpayRjVgxWRXsg3AD6tr1Z4+Ly9/7dbWJdwImFAcYojLNAIA1rzf029KDs6wG90aFEYvQ0kkiKS9yYwsb1h9fPz2eFsojjrpiP9kPItkbynkzSMP2wdgRl/ZB4eqK5uAXNbSOUj2SRQPAUAAFkAAIDqZ8vGnHspL0VuuodBXhoCAcgOgCbAAAZIIwAqMQhIY9LAZBK8FNfN/4EaBADS0OMUABP4wGRgPniBBcBTzRJWnA63PeGmY3us9lvilsUPlc2JKxMcsWVr6poCO8pYMiNnMasKFZCdmdY9VKjCxFN3bL0y7+b4xcnj4hznUD6RbWnLc20Z3wt2ZDhitb5UyVOndFDhsjWxiYyLH0dYrCy4M68tM+0mYoWOFt1bZE+ZQ4V2Fd5dOmtH1I53wVu9bpHnKfjhwP+mdxlhPL2IAwTX8GfP7hUg6Uixw9dPpFz6d+wY9+ngXErP4vSMWt910OfT94cUe3rbiNnVoOIede8ZPAuPCT4B4M2MeuWI7GuHtIbWU9L4BjCwoUIkhf5Xs3ujMMtdqv1nz40KhUadS+8DgADBg05513WOrPTNbysAXp/48F1udId7q6lqB+CnAAiMzS1EhxxHoLEEoXEVo8jCNyFAGc0DnxpmCQJAWEAAKF4WAWBIFUUAmCwFCQCPDKUJAC9LSwapAUScjgsoYYYCQxmjgSnOQeBRydW4V1wYwSiEkvAXTK1j0drrdPEixXQFvW2YYnxxZbGiPtbyjZKB/NhKL4MNMkJPPfQ1wjDDNE6NNFAdRtf2Q1pxRRSjVaCv2/vNjp6GGa6vwQbVVSrS72P5jOLj88NUlLWEMkVB0o7tvMLDB3Qd3gcAAAA=");
 
 export default UsersSlash;

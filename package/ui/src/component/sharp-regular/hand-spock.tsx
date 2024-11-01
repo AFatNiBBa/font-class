@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-spock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-spock?s=sharp-regular hand-spock}
  * @preview ![hand-spock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hand-spock.svg)
  */
-const HandSpock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M287.8 24.9L281.7 1.7 258.5 7.9 181.2 28.4 158 34.6l6.2 23.2 1.7 6.4-11.4 5.1-73 32.7-21.9 9.8 9.8 21.9 16.3 36.5 52.6 117.6-2.9-2.3-31.6-24.6L84.8 246.2 70 265.1 20.9 328.3 6.2 347.2 25.1 362l31.6 24.6 92 71.6C193.6 493 248.9 512 305.9 512l25.9 0s0 0 0 0s0 0 .1 0l4.2 0 9.5 0c66.1 0 123.7-45 139.7-109.1l56.9-227.4 9.7-38.8 5.8-23.3-23.3-5.8L466 90.5l4-22.7 4.2-23.6L450.6 40 371.8 26l-23.6-4.2L344 45.4l-7 39.4-13.3 75.1L298.1 63.6 287.8 24.9zM387 77.4L418.6 83l-2.8 15.8-27.2 153-5 28.2 28.6 0 2.6 0 18.7 0 4.5-18.2 26.4-105.7 3.9-15.5 31 7.8-3.9 15.5L438.7 391.3C428 434 389.6 464 345.5 464l-9.5 0-4.2 0s0 0 0 0s0 0-.1 0l-25.9 0c-46.3 0-91.2-15.4-127.7-43.8l-92-71.6-12.6-9.8 19.6-25.3 12.6 9.8L180 381l39.4-29.5-89.9-201-6.5-14.6 29.2-13.1 6.5 14.6L216 265.8l6.4 14.2 15.6 0 3.6 0 31.2 0-8-30.2-44-165.7-4.1-15.5 30.9-8.2 4.1 15.5 49.4 186.3 4.7 17.8 18.5 0 6.6 0 20.1 0 3.5-19.8 29.7-167L387 77.4z" />
-    </Icon>
-);
+const HandSpock = createIcon("hand-spock", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABmgAAAKpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDQwsGAAE2AiQDCAQgBYMtBzEbxAXIngemmztphx6lUorr2LR9DCl6EAFk9+/svvtwiIvNDmIft3Ln2i6adIF/4r7fuX9bl8q2bQEKMJDGG28CjBLJP0j4+ZndgravdsdRx+FIWZiFEqS8Cnn/436e//NPH/CByI/ogZQmZZ5PYKCVNrHdvNIminub4lNHSX4SIVEm2XF6fLu2gyS81QdW4hmTwyG+0vCXyrZDlJUBEEoBQK8Jx7s8HGkkPTOuITxjCAKEXkAqIIMMqgmgq4yAahIpEonAJxn/039gSgBCNjpwBAkS3AUvARIQxSSZcum2FiXj3db8BalklbpBVVEWK/bhW08xTTUl3eaJxpT4O4W21GEoeDR9p3yuvIohYkozbvaqFKO502qtnhuXOFSrKgVxiXvSZ+NrykUuwyi82DPFtMSoT2sgnYtibRUpJ18cZely4Pvf8/mu5vmz8WevDCvLfOOVd5aNlEl2YNZmHbX8orkvFPtCc/9M6U/ftudUAZDkl7q9+e34xUnOrdWnFO11MMfwItZob4HCwVSewcmnNmN6/BaqnGZbtQqtVF5Edz/oocMXm9+PciUAVfS397o/T+joMYM6sdTEx5Z7zjIdN3OrVJ0NNDnHnF/00PIWi8pUbaPaefpAQGDoIO3f+2fGuYjgy8+8v+z/D2PP9EGuCAKZpkZTU+MC2crEQwAAxLCe2soXBURXMaFthU4iEOQzIMqWDxlVlYJEviaQpYZ2uHH6GBkhyROUMw0gKrQKMtrbAIlyrkCWrh5Fs5ULIZLJOCQ/JOPWJLI6qDBs3jLtnG5zOhWceOntkpq1xvpc0wiWMt8Ky601z1yLrBXYasMS6yzTX0P7+aFUK821lOosvS4+c+NFdLU1Fq1l9/10kb6PNLReb94IPhgBrVFWFAkxP/DN7ts//gAA");
 
 export default HandSpock;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `divide` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/divide?s=sharp-light divide}
  * @preview ![divide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/divide.svg)
  */
-const Divide: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M192 96l0 64 64 0 0-64-64 0zM160 64l32 0 64 0 32 0 0 32 0 64 0 32-32 0-64 0-32 0 0-32 0-64 0-32zM432 272l-16 0L32 272l-16 0 0-32 16 0 384 0 16 0 0 32zM256 352l-64 0 0 64 64 0 0-64zm-64-32l64 0 32 0 0 32 0 64 0 32-32 0-64 0-32 0 0-32 0-64 0-32 32 0z" />
-    </Icon>
-);
+const Divide = createIcon("divide", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABXQAAAHLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBRwsGAAE2AiQDCAQgBYMtBy0bxATIhof/n/u3fZK8D0khJb6tYgQH5FsFNDMaABygH/XXWAL9/v7meedRgM8TjzIdm5YGssD2PE8gsX/fAw8oC7PMEtCsnd2AQXSbpE/9kwybHzYHFPE0RmuQPc6+x7160/hVP3fJFDmAqAGwYNumNb7siI6I75vvEd9bhYBYCJJAjhwDBZgtFxiokFAoBB3RbMZ/YCKAaMGvm4ECrViGNYACZBpF0d6tvb1H1ehcbK0a5S6hiohyZFVWQoiyjIiIA2XVKaLqbHNZlaKKWKnjohr2cv3y70O/P/q9L/bNhyrQmyndTOZL+v6G7PpTXb+U1PfTG+sW2PPn7z9DAgLBz8Xvr+zrOvv/tioDv3z85984sybezF5GmwwE+ejmaLvjS7U63hQA3SyuGmY8SSAzTwOu2skDAUKJAJkWpQC5AWoBCqVRAjQMNkWAFqVNclG0Cz3tGZDp5ALkproGhZ7egYbZvnJb9IzclwRPEL5yqUslsWQvTRg7Ps1MaqqL7sHl9ay0bQy/mlojgHXUOWdddsRhJ1wW1EVrgivOWGqRS7womWCs8ZKZ0nHxjN7qiIsuOeGcs2XLLOm+M9xVe3gE7AwZJwplMiJredQAAAA=");
 
 export default Divide;

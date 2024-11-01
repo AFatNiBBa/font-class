@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `axe` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/axe?s=regular axe}
  * @preview ![axe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/axe.svg)
  */
-const Axe: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M486.6 9.4c-12.5-12.5-32.8-12.5-45.3 0L408 42.7 374.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3L384 301.3l0 82.7c0 17.7 14.3 32 32 32c123.7 0 224-100.3 224-224c0-17.7-14.3-32-32-32l-82.7 0-56-56 33.4-33.4c12.5-12.5 12.5-32.8 0-45.3l-16-16zM305.4 267.9l-61.3-61.3L9.4 441.4c-12.5 12.5-12.5 32.8 0 45.3l16 16c12.5 12.5 32.8 12.5 45.3 0L305.4 267.9zm185.9-73.9c9 9 21.2 14.1 33.9 14.1l66 0c-7.6 84.4-74.8 151.7-159.3 159.3l0-66c0-12.7-5.1-24.9-14.1-33.9L278.6 128 352 54.6 491.3 193.9z" />
-    </Icon>
-);
+const Axe = createIcon("axe", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcAAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBegsGAAE2AiQDCAQgBYMtByob9ATIhof/t+v7fW5V9xoANZDwpSB96QeZGhHc83/N5/f86AA/H8GhRFvSNVWB5SqeT2CAs6JosNloNrATxe2uYpqHaD8tpDbI47fH9+qukMc/cbsS6YH0Fm4rPxo/au4iSSkDEPUAMG7Jglme+yw+i3iz8jDxphkIiHGgEMiQoZUAI2UCreQK5HLBZ1Gp4H9gQQBRRu9MIEcJq7ATkIMky/P+9RvULNXOF9cs1dhyb42I641GxuhgHDYsjLudbbwoBBx1T81XZ7w54MEO55rcW6NGzI8xcV+0uMnS+fPmr4iNQ3ZuNF2yBIo146ORTy0M6ZnFsSQWta+qV/Vzu7c2v+WbR+6vTe37Q2AcnTVrXAsHr917jwXqXL1a57PWPV94v46PFjiinuBUHk5vkfrD9x118tHvf3h82seNxiuPfbJqbHm8hh9fv2HqVNevA4HgwouV1WvqjvytWs0Evnji19/VlyvPpbOpCtUkEGQ9Kz2tTGcB0QFEKQ5rr3QYSBbJAH1rLfcKEGogQFJWQ4BMS/UEyNXQQ4CSNgYJUFbDApnIqwuNrGogqWUfyAx2CuQaeRCUjPRqWNYoMiujbYT+xkuYPEKT1hX9evcthhdiiRnDIdPyiGJb6no4DnVze222x24HbbLRNgcHZL9ZySG7TNbgSTpU6Ke3vgrDFdfN8/bFNtnvgG322J1XGaF4b3Z1WJ/czakJYfbnJsnPhrV1RzcBAAAA");
 
 export default Axe;

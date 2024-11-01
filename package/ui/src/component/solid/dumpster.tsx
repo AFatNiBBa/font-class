@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dumpster` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dumpster?s=solid dumpster}
  * @preview ![dumpster](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dumpster.svg)
  */
-const Dumpster: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M49.7 32c-10.5 0-19.8 6.9-22.9 16.9L.9 133c-.6 2-.9 4.1-.9 6.1C0 150.7 9.3 160 20.9 160l94 0L140.5 32 49.7 32zM272 160l0-128-98.9 0L147.5 160 272 160zm32 0l124.5 0L402.9 32 304 32l0 128zm157.1 0l94 0c11.5 0 20.9-9.3 20.9-20.9c0-2.1-.3-4.1-.9-6.1L549.2 48.9C546.1 38.9 536.8 32 526.3 32l-90.8 0 25.6 128zM32 192l4 32-4 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l12 0L64 448c0 17.7 14.3 32 32 32s32-14.3 32-32l320 0c0 17.7 14.3 32 32 32s32-14.3 32-32l20-160 12 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-4 0 4-32L32 192z" />
-    </Icon>
-);
+const Dumpster = createIcon("dumpster", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeAAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCGQsGAAE2AiQDCAQgBYMtBy8bGAXIjtRG94xdInh+7j/n3ORTsgxZIlKIVAB0dVXrisIBWVTVL0Nq8ef/ms/v+dEBfr5zjKawzEUCZT6fwJ6PonwNMi8bziaKO9v2ak0xDYldaBwgj5+yG+pIr6Uf8Th8aPylsxskTRmAaAWAWauXL/P89/g94odaxA+WICBmgUogQ4ZuAkyVCXSTq5DLBb9HrSb+AysCiHrpARPI0YADOAfIQVKX5y2amlqOK+ua56vKumL9h+1WxIte61fG6ihWhihiRZRlWZSrogjxtk+6Xu2wKl7uX8TKLZ27dC7iXrsXXWn/UlnGyqCF+x1fiebSWx1lYPyC9HIhLu8aLXp/3urzf/y460ej3rG583Ipa9Nrk86Xrf/l8pWE2a7TZReqi5jOl2135a1Nbq82WTqlbrZuQ/my54xUlmtx504LHTfT9p2BOFMRC2Izcq/cDIBA8O/z/4Ztbjn1/8YygT+//m/56trvaWb6HI0SCLKhtaE2pJkg0AFkUpzSe+eLAskOddK7NvOyAKFAgKReIUCmq1YC5ApDBKjTwzgB6hWWy0TeJLSzsYOkmaMgM95FkGvnK1Bnqm/S9dpFBnQ0yND/fAnzx9C8WdWo4SOrydVmRWXgiLSTU6rT8sBTsmMQ3muXww45Yacd9joxQo5ZljvpoPl78Dw/VBlluJEqk1W368+3r7LTMcftddghP80U1fvmQKf2+w/C80iA0Z+LlIsiNe44efDI8RM7jwEAAAA=");
 
 export default Dumpster;

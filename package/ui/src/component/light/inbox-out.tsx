@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inbox-out` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox-out?s=light inbox-out}
  * @preview ![inbox-out](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/inbox-out.svg)
  */
-const InboxOut: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 54.6l84.7 84.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-112-112c-6.2-6.2-16.4-6.2-22.6 0l-112 112c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L240 54.6 240 304c0 8.8 7.2 16 16 16s16-7.2 16-16l0-249.4zM48 352l66.3 0c6.1 0 11.6 3.4 14.3 8.8L143 389.5c8.1 16.3 24.8 26.5 42.9 26.5l140.2 0c18.2 0 34.8-10.3 42.9-26.5l-28.6-14.3L369 389.5l14.3-28.6c2.7-5.4 8.3-8.8 14.3-8.8l66.3 0c8.8 0 16 7.2 16 16l0 96c0 8.8-7.2 16-16 16L48 480c-8.8 0-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16zm306.7-5.5l-14.3 28.6c-2.7 5.4-8.2 8.8-14.3 8.8l-140.2 0c-6.1 0-11.6-3.4-14.3-8.8l-14.3-28.6c-8.1-16.3-24.8-26.5-42.9-26.5L48 320c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l416 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-66.3 0c-18.2 0-34.8 10.3-42.9 26.5z" />
-    </Icon>
-);
+const InboxOut = createIcon("inbox-out", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABgQAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCIwsGAAE2AiQDCAQgBYMtBzAbIwXIHgVu7AN2svxmkuTx8L3N13Pfrv7YKzOsiagioABCRdASqgvJnqQD0qTFCivp3JAoxcB/NjLGZCnVfJvSnLjm+Z8/vbfRo1RRr0HWgJnnExhgBbc2UBRYG0zAtjubg0M0D0lr2VrS79jxmUAeH67RKqRnvI6H6p3Gb3q6nSTPAEQHACzYuHaNWiMaEfXm20TdKgTEQlAKZMjQR4DZMoE+ciVyuaARzWb8DywJIFrgBSSQo4KzuAmQgyTL895DR1YrbfMN1UpxcP2G9U90f4ob4slcF4/jCW0M8QSeUmyqFtX70DOemWq82kNjSPSOp6IqrF48nm3iSUY8pb09evd4fBdxL3vFs7eIl/LxEs/giWkbr+qpjniWT+7G1cA3zht/QP1AXfu7Xy369dcfHcazz1Ksmf+1azTa/f/L8IW4bLH8R9/W7lf79pprfrS8WOibvrv0+/o5jXa7TM6J+W/w7enF/VZM/813tYXG/3g12yW7+uP459aeFqp9BwSC+obfO+1sP/vvVpHArx/89bfxK2rWXHrDaCWBIBvdHG1bAokAAKS4YGCCQHJUBg+1jScFCAUCJC0KATK9dRAgVxglQEU/UwRoUVgrE3lroYvtgUjaOE1kprqByHXxJlEx22f+Fl0i8zzOb7iPX/JSCixpVE4YO76cWYoxk3cmJtfOKs3a8AspZwSMdMBJJ5yz3z6HnSPQGWtC5x23VAOXeKDSBGONV5qpPE7OB2+w3xlnHXbSiVLPLOV933AX9OIjwEyQdCI1PUG71PrwiT0nL405ef4c");
 
 export default InboxOut;

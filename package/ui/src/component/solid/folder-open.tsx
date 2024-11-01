@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-open` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-open?s=solid folder-open}
  * @preview ![folder-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/folder-open.svg)
  */
-const FolderOpen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M88.7 223.8L0 375.8 0 96C0 60.7 28.7 32 64 32l117.5 0c17 0 33.3 6.7 45.3 18.7l26.5 26.5c12 12 28.3 18.7 45.3 18.7L416 96c35.3 0 64 28.7 64 64l0 32-336 0c-22.8 0-43.8 12.1-55.3 31.8zm27.6 16.1C122.1 230 132.6 224 144 224l400 0c11.5 0 22 6.1 27.7 16.1s5.7 22.2-.1 32.1l-112 192C453.9 474 443.4 480 432 480L32 480c-11.5 0-22-6.1-27.7-16.1s-5.7-22.2 .1-32.1l112-192z" />
-    </Icon>
-);
+const FolderOpen = createIcon("folder-open", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABXgAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBLQsGAAE2AiQDCAQgBYMtBzIbrwTIHomxLaL9iigMXjz8v93z7nNnPuD5NjuoExF3LjqozUqZ+mXIO36B88//NfXCmg7wGx2eWdQiCut5RPMEJrabVzyfzwbWgr7daSlWi1YuaSlL8njZ8VlDHr9mR5QhXU6/4GR+0PhXA0dIKmQAojoAhs+dOdl3f8VfET+X3hM/m4iAGA4KgQwZGgswSCbQWK5ALhf8FaVS+A8sCCDKYiwx5z5/AEaC1IUk5XnT2pXKVMnnkK/i3Fl40yyudnzatlIcbd8+HleqFPfbP24gKse7dq0vtq0S9+ucrz0rzrWqHA/qXqg3t8WT6k/+88uaX8z7c95Fp19fxRo1bu3RsMVlLRrtdkv8smJhmm5dXt6ofkr1G/v3b/0WXg0CwZU+jzYsrTbo//KVEvjni8YDS0vSqPQE5SUQZJ1KnSxKwxToTHF8IvZoAVkCSY/CjXut7IIAoSICJGVVFCDTSHUBchV1FKCMpnoLUFZFM2UiryDUtriBpLLtINPHXpCr7S0oY5Dvk2XVjsx8xMsXf29pYyQ6elHRvUu3YkAxrKiSRfA0ObCYtrfbEzvaw0prbLXFLqutst4uwewwObPbZmM0erQnKnTXRTeFAYrl+v3yOVbbYaf1ttqS5hmo2B9uZ4/evz24EmbtIT9JRKq05uUaOlsWAAAA");
 
 export default FolderOpen;

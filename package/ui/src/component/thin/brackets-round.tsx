@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brackets-round` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brackets-round?s=thin brackets-round}
  * @preview ![brackets-round](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/brackets-round.svg)
  */
-const BracketsRound: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M356.4 47.2c-4-2-5.6-6.8-3.6-10.7s6.8-5.6 10.7-3.6c24.9 12.5 61.8 38.3 92.6 75.9C487 146.3 512 196.1 512 256s-25 109.7-55.8 147.3c-30.8 37.5-67.7 63.4-92.6 75.9c-4 2-8.8 .4-10.7-3.6s-.4-8.8 3.6-10.7c23.1-11.5 58.2-36.1 87.4-71.7C473 357.5 496 311.3 496 256s-23-101.5-52.2-137.1c-29.2-35.7-64.3-60.2-87.4-71.7zm-200.8 0c-23.1 11.5-58.2 36.1-87.4 71.7C39 154.5 16 200.7 16 256s23 101.5 52.2 137.1c29.2 35.7 64.3 60.2 87.4 71.7c4 2 5.6 6.8 3.6 10.7s-6.8 5.6-10.7 3.6c-24.9-12.5-61.8-38.3-92.6-75.9C25 365.7 0 315.9 0 256s25-109.7 55.8-147.3c30.8-37.5 67.7-63.4 92.6-75.9c4-2 8.8-.4 10.7 3.6s.4 8.8-3.6 10.7z" />
-    </Icon>
-);
+const BracketsRound = createIcon("brackets-round", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABfgAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSBbAsGAAE2AiQDCAQgBYMtBzUb8QTInoNx41yCEojYL1/yatnIcCinVhHE79dm973DvHnUpAkPVT2UIxVIFiopU8JBpUL+/sO4fEc0tH+AMzQCKS6tyk0IBY5OW24YqmCUneIMSSAVKYqanrTCvxx/qhLlKGabwpP2s///fh7/1vQBrz/xj5K5KpAoG2YeH1iLrDVtJAMb2XgCNmtXTcIWtD9JksVdHr/tHr+7Qo09jzjkR16C5/ym8UtlmVQKAGIEAOydFOXg+JHRibhsNogvGRAQ+4A5DBQUTGGATSyBKWxzoKqCDqNp3H8gQQDRBcaTU82Tl+AWQAUpK9u8JOJI2KW2Wtj2qnBY5RFCSYGhFwnmpj/tI1ICRu2KxCvzxBB42cfcE7fjcdhobiHOYJhl4tlh8j1k1fRXX7ZeoumlKM5G091n6u9VPPD6N9W1tKjqT0389l1n5dOdoPfuu7KzYUD5lAMALVqGURh69joAgWB25eOlTrb5zxcxAT+7n//lZ6S5T/mJHgmCstwsq06QBAAgY5QmgUA6xMSFAa/iZqEPQZkufSgUk+QNqj5L0DLDLx7uPsASVYAwoQaQBrSh2DAD1YQ1aNl0ku0yESz1kpVD/rnLiPdYbBt1h4siJNZURWPEMBul44CO+h4zTqJVn17DWjTrMNyxg3IKI3rEV0zMBxE3BxcSQa+bj4dLtRg0pEOf3jRPFN3PmIyuh5sRZmLOFZdTEiltfGpo6moZHrJ/CQA=");
 
 export default BracketsRound;

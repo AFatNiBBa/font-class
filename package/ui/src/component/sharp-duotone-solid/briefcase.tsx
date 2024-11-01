@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `briefcase` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/briefcase?s=sharp-duotone-solid briefcase}
  * @preview ![briefcase](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/briefcase.svg)
  */
-const Briefcase: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 288L0 480l512 0 0-192-192 0 0 64-128 0 0-64L0 288z" />
-        <path d="M152 0L128 0l0 24 0 72L0 96 0 288l512 0 0-192L384 96l0-72 0-24L360 0 152 0zM336 96L176 96l0-48 160 0 0 48z" />
-    </Icon>
-);
+const Briefcase = createIcon("briefcase", true, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABYAAAAHVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBKwsIAAE2AiQDCgQgBYMtB04bywTIjsO44TuyxVKGeIyH/18z7/szyTKUplXArIDJASl25FavbRXHFVWFyqkkWZ1k/nofOVV74qXGr1+xov2jBXnx2nk7Lz6BgS6j2vZ1IhOa6Qxsg/MmHVJIQ0i/Qx4/swdKpFcJnsX/Axh/DHhA0pABiHYArNi5dYtKNaopftTeED9sRkCsBIVAhgwjBVgsExgpVyCXC6qpVqMatVpBAFEWvzsDZZSwAMsAOUiSyPO+ho6mUku+I55s3NvY1ChEY4i2CGQGM7atYRFNwUYNBRDHxw23D/8b6wQvPvWL86x3RwUVd6zXr7/v4BCgTTdkuqFKmYqK5e5AXgWI1x4+/La2tsX/65sS+PX235rfUa2apGHUSyDIJtcm25dAIgAAKW4Yl4BAppCgT232XIDQiABJWaMAmRHaBcg1miRAyWhzBChrtFUm8gah2/6BSppdpjJz3aRy3V5TJYt9Tsu6I/M+suXLf28Za6fwmkPFjKnTi4XFbqVTfISodxcVl4PxN/jMBDjphIsuuOa4Y067NkGv2FJcd97aI2SNLyrMMNV0hYWKx+1LY8ckveKq09va830WKb5PxrtxvHwCjJNUcKYTmYxIkXWED9G7OVMc4kzXQnNyAA==");
 
 export default Briefcase;

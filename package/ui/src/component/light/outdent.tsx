@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `outdent` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/outdent?s=light outdent}
  * @preview ![outdent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/outdent.svg)
  */
-const Outdent: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 64c0 8.8 7.2 16 16 16l416 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 48C7.2 48 0 55.2 0 64zM192 192c0 8.8 7.2 16 16 16l224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-224 0c-8.8 0-16 7.2-16 16zm16 112c-8.8 0-16 7.2-16 16s7.2 16 16 16l224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-224 0zM0 448c0 8.8 7.2 16 16 16l416 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 432c-8.8 0-16 7.2-16 16zM96 211.8l0 88.4L42.3 256 96 211.8zM7 243.6C-.8 250-.8 262 7 268.4l94.8 78.1c10.4 8.6 26.2 1.2 26.2-12.4l0-156.2c0-13.5-15.7-20.9-26.2-12.4L7 243.6z" />
-    </Icon>
-);
+const Outdent = createIcon("outdent", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcAAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBYgsGAAE2AiQDCAQgBYMtBy4b4ATIrgd4Qxr1GwIMgCitVamVerSxLaf3hrMdsC/i4XNM30/SETsCtaqRGktG4VFN9nzVSHoStjdbe9hfzVsA6SOtVcWD1aAQwZB+vXZuLmFDuZAPanKHv7UVaPOQA+LmTx6F7G7TRCTGROLPijm7BsD6MlMh9VkLvz//5+KtbTTAbzSUaKsG2e7As73B7vlhewpF2YGdKJ51K0NaSdlPklrp9pLzP/bxvc8doMQdVUlJX6JvUM9fGk1OZ0hKBkD0AYDNi+463jvRGfoN8a0KAmILMIGQkTGCwAqxwAiJCVAUQYP+8/+BDQFEC/glEihowzG4BVBA0lIkWq1GKzecilbS1ylViS+s2riyX9o0cW7pfaMeYBUbFNd0urGjH9mP5um53riwL3QKOujS0jMlGIQ/3hxl49LQFf3tkKAnwtWvJw5Df/Vb/nhTvtYwhi+Zp6fdx26tjnt0PNW+rwMQCLzOfla5rxAB/h9/vbBrbgXQJoEgVxsj8a6QzCM4S7GHxxIDyba39Kld3gkQOhAgadEhQDbMgEDRYQ6BijFxBFp0OCEWRYkwZLSDpMsDyJbtg2LIA6hY8ZG2GIpsWaJdiN91aQWJ5Bex4UCIzbCXBU0yFj4OZtltw7VHDW7sxZx1a3bMmrFoR9Bb6vldqwoalfdDrLCAEFYGe1x+1vpEumXb4lo5HyWLfT5x2dPbu2GLMOO8VUkiknz9ZecfjQ==");
 
 export default Outdent;

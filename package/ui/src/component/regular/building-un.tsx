@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-un` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-un?s=regular building-un}
  * @preview ![building-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/building-un.svg)
  */
-const BuildingUn: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16l80 0 0-64c0-26.5 21.5-48 48-48s48 21.5 48 48l0 64 80 0c8.8 0 16-7.2 16-16l0-384c0-8.8-7.2-16-16-16L64 48zM0 64C0 28.7 28.7 0 64 0L320 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM104 248l48 0c8.8 0 16 7.2 16 16l0 48c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-48c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16l0 48c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-48zM237.3 87.1l34.7 52L272 96c0-8.8 7.2-16 16-16s16 7.2 16 16l0 96c0 7.1-4.6 13.3-11.4 15.3s-14-.6-17.9-6.4l-34.7-52 0 43.2c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-7.1 4.6-13.3 11.4-15.3s14 .6 17.9 6.4zM112 96l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 64c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const BuildingUn = createIcon("building-un", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABnwAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCeAsGAAE2AiQDCAQgBYMtBzIbegXIhof/11ne9yX7zErDoCX2AkMIoSeiartwmS7cYpW0nv/L6Q3bdIDf6FDGxjkqbAPt8TyBNLDyfINmgWU6wT11OkJxO/bkkTKkSi1l6HHV4/QAedwS96uRnkjf4z590PjTkHtJahmA6ATAphOO7HPst/gt4rvmJ8R39iAgNoFKIEOGUQHWygRG5SrkcsFv0Wy2/8CKAKKOWPLTc7TgWbwKyEFSz/Px4e7O8fGy1pYfX9aKUx7uTfFIXxkRTw08NvOVvkeGRBmPDWTxaH/r1qfmRrw1sy1emf3GUIrHZ70+rTVenfPmcHZcWZSP9ImHe4t4tD/isYHjHhso41w4YdPmTZ6EwsP9m0OlXN1jfUeFjZtKCD1envZq/6PD9gZT3ux88+/J35//vQ33/dZ+p/bfDtoo++GnRuOnH7KNDnJ2ahZddD3P811dxZ2M2vwLPmuQS8ANu0G9KzpEgt/7/lTqcw0nW85UPPThiVPBv7VlI4Vhb7Qrr0v2eCAQ9Kz78ckzOtb+11Im8MeX//6vLyPNY3FnehMtEgiyec15To07Ie4UAIAU15sSdyKQPKqO99rqUQFCgQBJXSFAZkSnALnCXAFqxi0ToK5wRCbySUKv0w6QtLoKZJa7DeR6fQRq1vqqWNcbWZFKJSb9IqZvF3TbpmrRgka1urptmXLdCWN1TZU2Zl3fR2Zjr/Nd4XLXOs+5LnKtYa62r3Kdy2yP6G2eqLLIAg2V1arl7lf9ePGvdk0XfHV9nTWq55NZro+nz4adkHWxhiQRqfyKw/nXXQ4=");
 
 export default BuildingUn;

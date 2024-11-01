@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `telescope` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/telescope?s=light telescope}
  * @preview ![telescope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/telescope.svg)
  */
-const Telescope: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M447.1 35.7l96 166.3-89.2 51.5-96-166.3 89.2-51.5zM344 127.2l65.8 114-37.9 20.5C357.8 239.1 332.7 224 304 224c-44.2 0-80 35.8-80 80c0 12 2.7 23.5 7.4 33.7l-97 52.5c-.1 0-.1 0-.1 0s0 0 0 0c0 0-.1 0-.1 0s-.1 0-.1-.1c0 0 0 0 0 0l-.1-.1L79.5 295.6c0-.1 0-.1 0-.1s0 0 0 0c0 0 0-.1 0-.1s0-.1 .1-.1c0 0 0 0 0 0l.1-.1L344 127.2zm81.7 141.5l.5 .8c8.8 15.3 28.4 20.5 43.7 11.7l89.2-51.5c15.3-8.8 20.5-28.4 11.7-43.7l-96-166.3C466 4.4 446.4-.8 431.1 8L341.9 59.5c-14.1 8.2-19.7 25.5-13.5 40.1L62.6 268.4c-14.5 9.2-19.1 28.2-10.6 43l54.5 94.5c8.7 15 27.7 20.4 42.9 12.1l97-52.4L193.3 489.7c-3.5 8.1 .3 17.5 8.4 21s17.5-.3 21-8.4l52.9-123.5c8.8 3.3 18.4 5.2 28.4 5.2s19.6-1.8 28.4-5.2l52.9 123.5c3.5 8.1 12.9 11.9 21 8.4s11.9-12.9 8.4-21l-55-128.3c15-14.5 24.3-34.9 24.3-57.4c0-4.2-.3-8.3-.9-12.3l42.6-23.1zM304 256a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM29.9 352.1c-4.4-7.7-14.2-10.3-21.8-6s-10.3 14.2-6 21.8l32 56c4.4 7.7 14.2 10.3 21.8 6s10.3-14.2 6-21.8l-32-56z" />
-    </Icon>
-);
+const Telescope = createIcon("telescope", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABmAAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDGQsGAAE2AiQDCAQgBYMtBzAbmQXIHoVxs/OjU6mOQl+Esy0enrfr69zX1QOwBjAiR1BorpFNuHS48Z//W1JRN1gc1cdOgeskrOfZfW7TE2k62lv+8/fO/zX14vnRAX6wEzu0DqoVFngHT2DAkVbt9/xAttlEcYvbrhoNs0obIXGALL6J9oqkS+lrnA2Rin/UdZwkKwCIKgAYMmvaBO//GD9GfF3yIL42DgExFOQCBTy5gQD9FcTwAJkcmUzwY5Tw/4E5AUQpKdQEMpTGNXwIyEBSzLKy/QZVrFC+WDGbWR4qt2rGzBnTQw9jenx/73jQ8976bBDVVCO2bsRMoxk6J8ovPL5shnCuZlbbiKJ2UUuPvFZeQ421bhhpjbSmFsueGilNZuVP1p7Sh7a6NY5r8TOv163qlM33enX9plV4fr/Mrm3imt6pcv2P/nrl1969Emx54mxg0Q2zu66cO2QL+ux0yz6osmJmUJsWd5OW9liACIgSNqVvTkkiYu2HT58m50V7Zt6i69Z9+ORhAgt3lzncbMfM7bnQ3I+ebCHQfZ8Bn75e332vjytX/lgdtP71pwN6HrYiwcUbe5Dx99frMzICGZz85O3+vQwCwTv9j5VBZeH/MuUT+PnN709e6ZLSkHRFGQkEhfYl7c1PygZkqHjpVOzUFH+TQHJVUYpqBecFCOUQICmlnAAF9VURIFNOOwGKGukhQCnlTFMQWVmhhgUNJBVsAQU9HQCZGp6Cov4+S5dSIwpAy4Ac88+YOHKIjhiXd+nYOe+br+YVFg4p298vP2y23inr2uC1Vtpko+1WWG6N7QN8qwm5HTYYuYWN8EO5LjrqLNdXfrn0VJw5SG+1zZplzfVR+smfD1rbud26DXaSRNrV1CQRqez2FetXfDsA");
 
 export default Telescope;

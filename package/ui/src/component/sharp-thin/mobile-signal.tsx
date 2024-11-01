@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mobile-signal` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mobile-signal?s=sharp-thin mobile-signal}
  * @preview ![mobile-signal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mobile-signal.svg)
  */
-const MobileSignal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 16l288 0 0 268c5.2-4 10.5-7.9 16-11.5L352 16l0-16L336 0 48 0 32 0l0 16 0 480 0 16 16 0 176 0c0-5.4 .1-10.7 .4-16L48 496 48 16zm96 416l-8 0 0 16 8 0 87.1 0c1.2-5.4 2.6-10.7 4.1-16L144 432zM512 272l0-16c-141.4 0-256 114.6-256 256l16 0c0-132.5 107.5-240 240-240zM496 480a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-48 0a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm-80 32c0-79.5 64.5-144 144-144l0-16c-88.4 0-160 71.6-160 160l16 0z" />
-    </Icon>
-);
+const MobileSignal = createIcon("mobile-signal", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfAAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCFgsGAAE2AiQDCAQgBYMtBzQbGgXIjsO44XsXQ1y1FhFUut7vWemuZOneWSZeOwKGz8QRZsAZUISYEocE/fVQ+376m3/eeRTgM8okHBuXBrIA9zpPILEum+L9tcC+6RewvzftWZEyOpKa2CT5YyJ/G5TxvCN1SPelt3FL+tD4yRhXkhQFgGgBsG6fPXbyyufxecRb/494yw4IiHUgCxQoMF6AlQqB8UoZpVLwefz/P/4HZgKILjrBBEpUOB7nAkqQdMtyXDN00LB+0xko92469QEDvYEU94wqIqLuiRSiaS6LOor96qbucGFyfUSIj3d8e+0rezbx2YJnd3hrnz3vHH73SP+Cd42oLx0RcVdzw6h74rKRd9fXD7/Tng+viXh5S8THK1/Ys5nySPvIL5PfPvptc57MOfecdWZotXNbn2u1T1XVUz4/5P6qqlrVPqNGHXDK/W3bbnHZbWNG29Ky/tdfWW/we/3PP+9nrLn9a7m23792h10mjT+Xa15tbYi3344NLRAIXvnug7+08teqSeDL5/5T+RHm/19J0iOoJBAUM/+f6cBEJhEAgBRnm5LIAsnhzu9ae+4WINQIkHTVAhTGaQUo1WYI0DHRIgG6ansoRDlIGO6gBpKe00BhsYtAabhnQcdKr2ldw6OwOdpi6B9fwmYOberL82bPzcuz6KqMGZGhvSJPi1PPdqlpMOpopzjZmY5ypOOcyZDT7WSe5SSbNXiTL8rmmW2ubLm8HDwO7+0opzvDcU5xcuyyQt6vTnW2XjwNlIRQ57MkiUgDTyN9owAAAAA=");
 
 export default MobileSignal;

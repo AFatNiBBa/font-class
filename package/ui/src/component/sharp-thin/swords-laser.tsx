@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swords-laser` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swords-laser?s=sharp-thin swords-laser}
  * @preview ![swords-laser](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/swords-laser.svg)
  */
-const SwordsLaser: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 182.6l0 7.7L168 0 128 40 384 330.6l0 21.4L532.7 500.7 544 512l11.3-11.3 73.4-73.4L640 416l-11.3-11.3L400 176l-16-16 0 22.6zM149.9 40.7l18.8-18.8L384 211.6l0 94.8L149.9 40.7zM535.9 334.5L617.4 416l-31 31-79-79 26.3-26.3c1.9-2 2.7-4.7 2.2-7.2zm-6.3-6.3c-2.5-.5-5.2 .2-7.2 2.2l-32 32-32 32c-1.9 2-2.7 4.7-2.2 7.2L400 345.4l0-146.7L529.5 328.1zm-67 79.7c2.5 .5 5.2-.2 7.2-2.2L496 379.3l79 79-31 31-81.5-81.5zm-228-198.6l-41.4 36.5-11.4-11.4-5.7-5.7L164.7 240l5.7 5.7L180.7 256l-5.3 5.3L170 266l.3 .3L112 324.7l-2.3-2.3-5.7-5.7-5.7 5.7-96 96L0 420.7 0 424l0 32 0 3.3 2.3 2.3 48 48 2.3 2.3 3.3 0 32 0 3.3 0 2.3-2.3 96-96 5.7-5.7-5.7-5.7-2.3-2.3 58.3-58.3 .3 .3 4.7-5.3 5.3-5.3 10.3 10.3 5.7 5.7L283.3 336l-5.7-5.7-11.4-11.4 32.4-36.8L288 270l-33.1 37.6-50.5-50.5L245 221.3l-10.6-12zM417 147.8L512 40 472 0 364.2 95l11.3 11.3 95.8-84.4 18.8 18.8-84.4 95.8 .9 .9L417 147.8zM186.3 273l6-5.3 52 52-5.3 6-23 23L163.3 296l23-23zm-63 63L152 307.3 204.7 360 176 388.7 123.3 336zM16 427.3l88-88 2.3 2.3 64 64 2.3 2.3-88 88-25.4 0L16 452.7l0-25.4z" />
-    </Icon>
-);
+const SwordsLaser = createIcon("swords-laser", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABuAAAALwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCEHwsGAAE2AiQDCAQgBYMtBzMbIgbIjsK2efPgEksYEjmOxGIG/8Cc+X6So7THhY1znckN8QAgTUdElthNXieJ1ViTQ1JTVIJorM3eC0SxbukJUdwrlPKE7iHTTTqlqIT6/3PMdGFVz+vb1oJDiWyMpmGmwJ4Pp12XeMCHh2cnine27c0Q80S8EQpPYMUfC6XBOE7PwJHihH70dhAGMwMhqAL4nlQudLdy/zEeI56WrkAPmoEA6gLAIWACE/QjACVMAv1YHGCxCK+jlHL/Ax0IAMqDMYbpFgiCN6+Ctn6qwc5a/bOCOXa8MDsrP5CWbfmBNHsJ4keJpgnNKayoEooqIl8R4RfcIfFAy4viftyVryE6Uxc5HXLl6qSukOLeqegQxeXK90vKSyKKKKSwwgopJKlDA50nDES+WpVKdyDwhDRidEuKIsKqga6c+kvUVeQnFrxEmbxxX0LFeGZAYa8+FO2MkNzFgiEdBXdIZ6DzVpHD6rzKk60yKZbMS/4oerb4GXvKM8JHXtywRapB2Mk9SUmNQ3nx+1cp0a9DMbzg+R1m+1K+29wRfu4nbeP0GJT8kaNTpBRmt3LcvmJ3+8jY+encnzom3z3Yw196wpNUq4enBpxXwOOZs0EBk8NUIKWI2Vg0oquNdEUbGVCjVnlw/02Wi9LEHHDxtHX2TmTdgt7OTbNniOneQM6/7/TC+BhqLabexf/PsFgvz9RsT08ob5EWMfpIJhwA6G0Xhs3EnNyS35kBA4C3l7++wR9O3RvFlASZDACC2ZIaambaCxD8AkDSiM3EFn6RgOEVW3gq6DQBEBsNGNLZYOorDyy2IZBmgHGn09m6mZTNQkJmITAErQPTeLvAEnIJ0pR4mEgXChPulVCr/O1MV9dF105yRg0f6Ux2ZksqFSjL7egUZ7PN3SxbivFOFltjtY0WWWiZjR36eq3pTVapWyLW+kOOUYYbyTGZc7j6UOfT5HobLJtWHR/HFM71Idfm5e7F2GkIJY6mM6IkSsEN30fBsJVbGxatBwAA");
 
 export default SwordsLaser;

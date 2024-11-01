@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-arrow-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-arrow-up?s=light square-arrow-up}
  * @preview ![square-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-arrow-up.svg)
  */
-const SquareArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm235.3 36.7l96 96c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L240 182.6 240 368c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-185.4-68.7 68.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l96-96c6.2-6.2 16.4-6.2 22.6 0z" />
-    </Icon>
-);
+const SquareArrowUp = createIcon("square-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcgAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbAsGAAE2AiQDCAQgBYMtBzYb8gTIjtRG+UVWEg/fr/V57uv+ANzLTIkiBBm1UeOCRkxFklw9Vfs+cbPzzqMAF3koY+OyLpAxec/zBBLN8xLJAnvTpwfXN3c1ZTKlvZR0CUkev3k8nZDHRzFVFemD9Bdeyy+Nf/V5miTPAEQrAFYd2LNNqRzliL8qiL9sQUCsBoVAhgyDAiyVCQzKFcjlgnJUKvwfWBBAVNN7E8hRhYM4A8hBkuV5f/9gQ1VTvl9+pfojL3ZGvC3F413vNDTFSz3vRRZPdL9b37jxoykRP01oim8m/dCX4v2J349tjG8n/9if7du3f987nW937w/xdue73RF74+3ud3sOxHtdo39s/fH/UX+d/8uKx5qf5/nmlZqfd95KfRttnwPm87a2+pV41v4Ze0KPPvzwhx/WrnFfc7ncfJ8QSPTSiRPlOhAI6g6d2XyiZemD2oYE/v7lA/81UilHKf2IWgkE2dTKVEejBFESAIAUDxkdJQSSnTL61EbvChDqESCpVi9AZkCrALl6UwSoMmyeANXq7ZGJvE7odKzBSaNbcGa+R+Bcp5/hKkv9alTrjMy8GONgPneJ6xFYt1fMmj6zWFxMU5W1GCqtlxTb0sSHQmsSHTrvhuvuOuesS+4CdNs2+55r1q/AdT6oMMt0MxUWK46Le3E/GLfdcWnMn29ZorivT/TQengSqYnizhZKEpFaXqgwLQZu33h42r2bAAA=");
 
 export default SquareArrowUp;

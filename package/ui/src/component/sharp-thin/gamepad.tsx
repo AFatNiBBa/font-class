@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gamepad` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gamepad?s=sharp-thin gamepad}
  * @preview ![gamepad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/gamepad.svg)
  */
-const Gamepad: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 80l0 352 608 0 0-352L16 80zM0 64l16 0 608 0 16 0 0 16 0 352 0 16-16 0L16 448 0 448l0-16L0 80 0 64zM200 192l0 56 56 0 8 0 0 16-8 0-56 0 0 56 0 8-16 0 0-8 0-56-56 0-8 0 0-16 8 0 56 0 0-56 0-8 16 0 0 8zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm40 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm64-160a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm24 40a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const Gamepad = createIcon("gamepad", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfQAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCGgsGAAE2AiQDCAQgBYMtBy4bGAXIngfZmeY02ulivNyQtxwP3899de5LmvKHIcPMClADkVxih8Z0rUW1Ct3gBjus199kkQXkZFbFqR/b6e+d/nH+N+Czv8Q/ypiNMXCDjDHOEwg06vJtXeBZmEUJcubWuBMVUWm/ETGsRkSP3x7fTpDH37arIt1LmCv6pvEruUSSZQCiCQCmrFq2wHf1UR/x8/8fEz9bBMQUUApkyNBBgPEygQ5yJXK5oD7+/7/8B5YEENXkgQnkqMMhnATkIKnJ87qmXRrW5UKlqmG+sj2zWJey1DiyaNSqUjQWKUTRKCKLWCFUKqIohCiCjmLKq7rdUAkrHvR60690t17O6xjzJu/PS97rVcN/j5Thv5+eewDl6/1d3+P9d7ETP7RZHLL4/yZNzsFmTVyHNfH92ZivbaIWhFqQbtvw7aHqfmPG9KsepVNLWrZcUho8uQ9u3PhgM9ynTmSygfjJ5bGzb2o8/q/aSgK/fPHnr3pnOpdGrQSCrP///a1P5yAJAyinOKmr80GBZJca8qoN3BYgFAiQVCsEyLTXRIBcoZ8AVToZIUC1wjKZyOuEFjYcIGngCMiMdBrkWvgQVBnv+1K1FpFFnR4z+j9fjpkWnbGrHDJwcDm2vO3YjUBS++a48nGg98k60QdH7HTIQcftsN0elQ1z1ILqCQfM9LAZvqg0xECDlcYqX/dfD6+0w1HH7HHIwbnNOOX3md5O+vP7IJyI5FA1SSJSTbwmD2/ZDg==");
 
 export default Gamepad;

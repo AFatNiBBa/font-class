@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-arrow-left` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-arrow-left?s=sharp-duotone-solid square-arrow-left}
  * @preview ![square-arrow-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/square-arrow-left.svg)
  */
-const SquareArrowLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32l448 0 0 448L0 480 0 32zM70.1 256c5.7 5.7 11.3 11.3 17 17c37.3 37.3 74.7 74.7 112 112c5.7 5.7 11.3 11.3 17 17c11.3-11.3 22.6-22.6 33.9-33.9c-5.7-5.7-11.3-11.3-17-17c-23.7-23.7-47.3-47.3-71-71c60.7 0 121.4 0 182.1 0c8 0 16 0 24 0l0-48c-8 0-16 0-24 0c-60.7 0-121.4 0-182.1 0l71-71 17-17c-11.3-11.3-22.6-22.6-33.9-33.9l-17 17L87 239l-17 17z" />
-        <path d="M70.1 256l17-17L199 127l17-17L249.9 144l-17 17-71 71L344 232l24 0 0 48-24 0-182.1 0 71 71 17 17L216 401.9l-17-17L87 273l-17-17z" />
-    </Icon>
-);
+const SquareArrowLeft = createIcon("square-arrow-left", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhAAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCBwsIAAE2AiQDCgQgBYMtB14bNwXIHoex2+TaUD4WotLi4fs133PfbvKhTFtgVK0iAkek0NWRJYwroJCZSpK1Tboyf9f7/9Sp51mLYtEH8MzJmzvA9jyvQM8LEuvyXsG2UE1rYB2cN+mQQhpC+gXyuJedUSLdSV9wPf4fwPitkzMkDRmAaAmAmUsXLlCpRjXFl9pj4ov5CIhZoBDIkKGrAFNkAl3lCuRyQTXVUo3aggCiLL73DJRRwibsA+QgCSnPezSMaVJqli9pUmpcOnjA4KUxOKbGgFgUTZqIxsbFMTCmxKBYEoOyZk2bpWga2eIb7SJQ8WDgm6lcxOGtDhl+s334cBAKLzeBQsSlRvkl8uGgGwzo9bDlw789v2zJ3HfYuxetMG+epx1H6Pi0zWi1Ht2tpBZ6wNxH92LOnMVbWsac2b1Hnz8Gyo5s5b/Ro1eubNp0hDIMhw6Dym3U1SAQNP2xwdoWU/7VN0ng50u/mh+SWjUq6SHqJRBkQ2pDrIoKREUAAFIc0Ssq5iGQmSrBn9rUTQFCIwIkZY0CZLpoKUCu0WABSrobK0BZo4UykTcIba0eQNLUfpAZ5zTItfUIlEzxvlLWNjLPpnoV9V8va94UmrurGDlsRDGp2O3oNP8j683JxeVowBE+MRCW2mKvPQ7ZbJPtDk34AxbUD9tt3hE31xcVRhpmhMIkxeP+S2sJrhxw0PZt4/k2kxXfpwMcOZ4/EO4nAUZZU0NGpMg6uVhzaBEf2Hs0LHpDne6cLpuGQwUA");
 
 export default SquareArrowLeft;

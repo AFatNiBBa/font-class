@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `earth-oceania` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-oceania?s=sharp-thin earth-oceania}
  * @preview ![earth-oceania](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/earth-oceania.svg)
  */
-const EarthOceania: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm432 8l0 32 0 8-16 0 0-8 0-32 0-8 16 0 0 8zM405.7 373.7l-32 32-5.7 5.7L356.7 400l5.7-5.7 32-32 5.7-5.7L411.3 368l-5.7 5.7zM248 432l32 0 8 0 0 16-8 0-32 0-8 0 0-16 8 0zM176 112l8 0 96 0 8 0 0 8 0 48 0 8-8 0-64 0-3.3 0-2.3-2.3-32-32-2.3-2.3 0-3.3 0-16 0-8zm16 16l0 4.7L219.3 160l52.7 0 0-32-80 0zm-40 80l32 0 8 0 0 8 0 24 16 0 0-24 0-8 8 0 32 0 3.3 0 2.3 2.3 64 64 2.3 2.3 0 3.3 0 96 0 8-8 0-96 0-3.3 0-2.3-2.3L180.7 352 88 352l-8 0 0-8 0-64 0-3.3 2.3-2.3 64-64 2.3-2.3 3.3 0zM96 283.3L96 336l88 0 3.3 0 2.3 2.3L219.3 368l84.7 0 0-84.7L244.7 224 224 224l0 24 0 8-8 0-32 0-8 0 0-8 0-24-20.7 0L96 283.3z" />
-    </Icon>
-);
+const EarthOceania = createIcon("earth-oceania", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABsQAAAKxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASEAwsGAAE2AiQDCAQgBYMtBzQbBwYRlZpnyR6CwK33Z4F74UFciLt26VJ97cSKxswrEW+Z/2vqVW5UIN9PfGiRpfU8ogT2fBPMBBrQ7MBmOgHbsG1mkGXUmOg4XiGLJx3QILk5eQvXTyKNX3RzhUSaAoi2AJi7ef1Kz30ZX0a8WT9MvGk5AmIuqARSpOgpwAypQE+ZCplM8GXUdfUfWBFANAGiTECGEp/hD0AGEs1Z1qNHu3Zll3Jsn7LRKttUNor9n4yLeGDVG8VVS94ac9+Gj8fev/L18url745/cHPLT+dHvLj63fLqlW/PfX7jR3OeW/FWcdWqd+a9sGmvIIoAK8qwYcjwIR2jc3SJ4XhTp+i4oSxKURQR5TblFmaycwwLrAGCTsLQKMNa7IyK8q5lZadYG53iOFsUqegS63G63CDs0V6NrYtinzp9tYg1/e5oe8dvfd869JY/njXne/4/c/3s2def+f97c+zaavWfFjbT7cHn589//sFuzRamtWnw3hYVKMq1lavwYLeTdVq0wR0WqqXO26eum4YUaixcPDvPz+TGKMzn91VrL73grBsg/w4TVdYMXr1XmevK3HUP0d+8x4L2H/W2nXlujlR7tb7SycsmAveWdNG0sY/eodMlzQPv6eQOIBBMuXLixO42M/7LywR8/cQfv+C/ovq5RHIHcgkI0hH1CDsSkBAAgCQu6ZdAIPGxZuBTW7pBgFAgQKJJIUCqh7YCZArDBWjobaIATQrrpSJrFjraqUGipbMgNcllkNEdPQgaZng13aRjpDFdG0+1P5qZFtnowkXV2FFjqmnVao3URV51Pzu9OuwacqnuGZqudMhpp1xw0AFHXbBk56zMXXTSoi3pQl9UGWuUMSrTVJeb+6ZNefCc87ZmWXd9HtNVz8eGuLQ9fGjqTQCV4xQlEiJp9fpYRn7i7qN7AQA=");
 
 export default EarthOceania;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `abacus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/abacus?s=duotone abacus}
  * @preview ![abacus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/abacus.svg)
  */
-const Abacus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm64 0l64 0 0 32 32 0 0-32 96 0 0 32 32 0 0-32 128 0 0 32 32 0 0-32 64 0 0 112-64 0 0-32-32 0 0 32-128 0 0-32-32 0 0 32-96 0 0-32-32 0 0 32-64 0L64 96zm0 144l64 0 0 24 32 0 0-24 96 0 0 24 32 0 0-24 128 0 0 96 32 0 0-96 64 0 0 176-64 0 0-32-32 0 0 32-128 0 0-32-32 0 0 32-96 0 0-32-32 0 0 32-64 0 0-176zm64 72l0 24 32 0 0-24-32 0zm128 0l0 24 32 0 0-24-32 0z" />
-        <path d="M96 152c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zm128 0c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zm160 0c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zM96 288c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zm128 0c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zM96 360c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zm128 0c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zm160 0c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const Abacus = createIcon("abacus", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAAB1QAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHyEYQsIAAE2AiQDCgQgBYMtB0gbewbIngPuriJAPdcHSmNuWX5RgOPzM4Lv7333nHt/SivUqVI6aNWAZgISsIRKJQhwBN5EI/D8f/ZXdyC/gbSAEoQmlPrzpNXp07YlMI///6fe+172H8eDIYoFZK22AiVeOhZpERvM//+943c+0AS8/EGnhTTmxjbgWBMoSnTapijwPNAwSwx7m+KRxfb4DBsp4UJjx9k6np2gxl9v0SHf2OCRXzj+mdySegsAYgQAcHYzPoh6wybj174SvwZAQJwDWMFCQcECFjjEEVjAtQKqKmiybUAT+M9HEEB0gfK0ArowTAxBTAGggtSjUwOH3ywvFkWpCV3QGl42Xf2Gd9PJk/FhNqK1ndmBOvwjVFTOwbfX8Rn+WpSX0MdneQu8jMZkBtFP0pBRn4isKwjFGrCgLKqoJxQ15efduWpuTTeawOhkqbsUHGY0x4NnAhfdcQ/mTylbrFIxdTDXrLhEk5KNkMh5ZLzkdS32tfQ187b2KYSMyKhg/NKtdh7EPkYeTyojyQ4XPdTHAQLB/eqIck5R+e+RCODv5/OX79c2cio10CNBULYbEdPZAoBMFvChMo5wZYl5ECi+9aBjA54FCH00SF36oJinhKrPFnQsyUqdR1zgiJoiTJgBSAPuoDhwBtWEF+g49BbvMhG6MxTrWvFjmrZLY52bKBlLUIkec27lYpedvWVyWwOnuSYIW7Fqz65jK5ZtOFb0ocHUiR1dI3bne0lSTAIpoenivXZKxQ8d2bDV86uU0fvBgNNx8yA42EjijuNFIZLq94eFpZOj6A4zKqX6UwIA");
 
 export default Abacus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-middle-finger` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-middle-finger?s=sharp-regular hand-middle-finger}
  * @preview ![hand-middle-finger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hand-middle-finger.svg)
  */
-const HandMiddleFinger: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M184 0L160 0l0 24 0 160-48 0-24 0 0 24 0 50.5L39.9 302.2 32 309.4 32 320l0 38.5c0 54.1 28.7 104.1 75.4 131.3l2.6 1.5c23.2 13.6 49.7 20.7 76.6 20.7L312 512c66.3 0 120-53.7 120-120l0-8 0-96 0-40 0-24-24 0-48 0 0-8 0-24-24 0-48 0 0-168 0-24L264 0 184 0zm56 240l24 0 48 0 0 8 0 24 24 0 48 0 0 16 0 96 0 8c0 39.8-32.2 72-72 72l-125.4 0c-18.4 0-36.5-4.9-52.4-14.2l-11.7 20 11.7-20-2.6-1.5C99.6 429.7 80 395.5 80 358.5l0-27.9 24-21.8 0 35.2 0 16 32 0 0-16 0-64.3 0-10.6 0-5.1 0-16 0-16 48 0 24 0 0-24 0-160 32 0 0 168 0 24z" />
-    </Icon>
-);
+const HandMiddleFinger = createIcon("hand-middle-finger", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABegAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCPQsGAAE2AiQDCAQgBYMtBzkbRgXIhof/t/v6fe6r16gaVI94R1IE+TMyIwmZ4x/3+ikj4X8u53fPbwN+oHObm6fOBtCczxPoed6m8onHgWWJYtbOv18MIpukT/kkaeeHTW5QxENxjybpgfQt7o4fFT/o7waSZgNA1ABYtn3zJp93RmfEN/+/Q3xjAwJiGcgCDbxlkAALNQQGKWQUCkFn/P8/9x+YCSBapMoSKFDgBtwKKECSimLeiqrZtdhWNcvdZVUKUYJYGL0ui2smvTKvd3xQVfHFks9GBFbLEuwtVVkJUV0t7h/7/MgybhvdLwZGn3h2wIMRMSHUsWC/qvhwCMNfrF/8adi3x7713mf9kHjcVLxjhr9crjLGuGnTR2Yzx10pd3SkNgeM1U+/qW2EPJ/3/aVfv7Xy3bUD2nSbMaPzSoPufMpTOtz5xXeDBrnMCLWstlSlqVabusvLFtwNAsFHw396ZH/3hb+2VQl8/+Evv+Tq8v+fx+vpRbRJIGhM/H+iPfG5rI7XBQAgxeWGK18USK6QpEtd3CtAKKmQtCihYaAaCqUJ0DTErMstSps1RNEu9LKXIOniImiY7Uoo9PIWNC30RdqiVzTMUDAi4RWYulqiqzblaZOn5vm521JEy+L86oI87I693I2Mw0HHnHfOpY464qRLBXOxTcVlzlqtYav8UDbNZFNl8+Xp7u3ubY662CVOOu9cWGeBvD4Y63J9+jhsJwGmH2BTIlIPqzUmXXhz0p8j");
 
 export default HandMiddleFinger;

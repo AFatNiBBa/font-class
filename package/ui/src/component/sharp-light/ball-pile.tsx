@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ball-pile` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ball-pile?s=sharp-light ball-pile}
  * @preview ![ball-pile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ball-pile.svg)
  */
-const BallPile: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M352 96A64 64 0 1 0 224 96a64 64 0 1 0 128 0zm-35.4 91.7c-9 2.8-18.6 4.3-28.6 4.3s-19.5-1.5-28.6-4.3C277.1 205.1 288 229.3 288 256s-10.9 50.9-28.6 68.3c9-2.8 18.6-4.3 28.6-4.3s19.5 1.5 28.6 4.3C298.9 306.9 288 282.7 288 256s10.9-50.9 28.6-68.3zM384 352c-9.9 0-19.5-1.5-28.6-4.3C373.1 365.1 384 389.3 384 416c0 53-43 96-96 96s-96-43-96-96c0-26.7 10.9-50.9 28.6-68.3c-9 2.8-18.6 4.3-28.6 4.3s-19.5-1.5-28.6-4.3C181.1 365.1 192 389.3 192 416c0 53-43 96-96 96s-96-43-96-96s43-96 96-96c9.9 0 19.5 1.5 28.6 4.3C106.9 306.9 96 282.7 96 256c0-53 43-96 96-96c9.9 0 19.5 1.5 28.6 4.3C202.9 146.9 192 122.7 192 96c0-53 43-96 96-96s96 43 96 96c0 26.7-10.9 50.9-28.6 68.3c9-2.8 18.6-4.3 28.6-4.3c53 0 96 43 96 96c0 26.7-10.9 50.9-28.6 68.3c9-2.8 18.6-4.3 28.6-4.3c53 0 96 43 96 96s-43 96-96 96s-96-43-96-96c0-26.7 10.9-50.9 28.6-68.3c-9 2.8-18.6 4.3-28.6 4.3zM256 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM160 416A64 64 0 1 0 32 416a64 64 0 1 0 128 0zm224-96a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM288 480a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm256-64a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const BallPile = createIcon("ball-pile", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABwgAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDMQsGAAE2AiQDCAQgBYMtBzAbsQXIrgZsFz1DXJSklKRdSrKUezr0XDJFbxTj4fv90nPffwECT6TCMlEIQkepKAK/qrITW9dZIzJrq1Dv1X77PVRC4oYkKo1kSUyaWIiU9Cp4onkjfk2NdacXLeTX0Wue1ILk/7UnFFGWzY06FNbxiQc4N7cvGqshFwtQFSZyGhAFwqF9n/9rPj88bv/i54cSbannTXeLKp/AgKO8Smg224Rti9tuipiGNEJiDzm+QoFKekoXt+WHxi8DViS5AIBoBwA2jyNhuHzFf6BX1YmyHSAgtgDGIRQoMAyBFWSBYRTjQJYFX/Gpiv/ACgKIWoj2TiCjEd/xA4znkdRnCle4y8UOm8qlxLO7WeV3V7AOk7CCayq9kjoa1x7NM1KX5HlcXJKtbmdLZWm5Ha3AFbYzP1XR0eiQMV7bWzJ4YqHooC17REL0h7Jl19fkyu9XinyN+Pzdxn9/AmcJb60UosRzch8lSqruqaAVtHP62kT6o5f3dz3bRSKVJmfmK8jE5+56HUAguPv5tq/5K/9hEkDlc7+8XLXkSSXUSyAoJqtNIm0AxCQSRaQYEa/8UCD5ph5+12b3AoRGBEhqNQpQGCKAQNZoAgI1RhkhUKvRPrLITAjdki1Imt2AwrIxyLptQI0VV69WdxQALICf8P+YGupDwVl4qDTYhhfLahEmOTtux7t1jGSbFO+EkraWgaKCqkEP6QmHQ02hNWrwu5iWigZmg0/XHqtx6vX0Vefl89PY4fttidF6bym2SCLaeVlJIhLzg/SUr9ooAgAA");
 
 export default BallPile;

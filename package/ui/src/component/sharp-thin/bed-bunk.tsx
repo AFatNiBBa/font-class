@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bed-bunk` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-bunk?s=sharp-thin bed-bunk}
  * @preview ![bed-bunk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bed-bunk.svg)
  */
-const BedBunk: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 8l0-8L0 0 0 8 0 200 0 439.7 0 504l0 8 16 0 0-8 0-56.3 200 0 344 0 0 56.3 0 8 16 0 0-8 0-64.3L576 280l0-80 0-64c0-57.4-46.6-104-104-104L216 32l-8 0 0 8 0 152L16 192 16 8zM208 280l0 151.7-192 0L16 208l200 0 344 0 0 64-344 0-8 0 0 8zM560 136l0 56-336 0 0-144 248 0c48.6 0 88 39.4 88 88zM224 288l336 0 0 143.7-336 0L224 288zM112 48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm0 128a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const BedBunk = createIcon("bed-bunk", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABkwAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCbAsGAAE2AiQDCAQgBYMtBy8bawXIhocPu68/t1/PVK/dazOTstkI8pcysHLI2Zv/Y6YLGq0Bvy2cI9OaIhsnsOfVlnF3AgM7O1G8s22vgoiGwi5UjpDGR1YoITmdvIey8FHxk3oOkSgUAERVAAydPX2iNz6PzyPeLT5LvGs8AmIoyAUKWNrQCM2AYwMNpXKkUsHnUSz6/4E5AUSp5AcTkKI8TuIiIAWJLE17VqlcrlJirVBSKZ1VxJWfH6J8UOgKEaoKlXoGdr/Q7k6viuWdRMRcQfkjlAXIcqmKw5B4tu3tRksqVfTbR8y6Xu903VMtbtQ/0+Bsa8+3v9vuTq9n2tza7qyneE+zO1Xv/NL0vVXvqfJ8lmVVZd7wuyEyPejjrTl9th7ikimGqPD+x49kmVPe8MLrVU4lmjd8fiZgiDlZtrisDx4/xXH/G3LsWDr55JREctwkYvNvl759/vlvL5WEW7p0atKkU5fK9q1+HQgEv836cOPiKgP+ySok4MuXfvvJX6P4RjIkuYNMAoJCh2IHC5wFKHkAtiR2aYZ/FYFEmUzyqRWdECCUR4BEqfICFDRQVYBUee0FKNFYTwFKlTddQaTlhJoW9iBR0VZQ0MtukKrpKSgxwJv2UjWjAJ504KL/HMYZNYaP7JV37dQl75dvJrQMiKPaxv75aUmbXbKgLd5olc022WGlFdbaMcJvM9G100aj9pAj/aFcV510kesnv51+vnqWlbbZbq3NNvlu+svfN7Sxa798W9yfBNDtw0KSaZFky1au6Lhs56b1");
 
 export default BedBunk;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trumpet` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trumpet?s=sharp-light trumpet}
  * @preview ![trumpet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/trumpet.svg)
  */
-const Trumpet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M591.1 64l8.9 0 24 0 16 0 0 16 0 320 0 16-16 0-24 0-8.9 0-4.7-7.5s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0l-.1-.2-.6-.9c-.5-.8-1.4-2.1-2.5-3.8c-2.3-3.3-5.7-8.1-10.1-13.8c-8.9-11.5-21.8-26.8-38-42.1c-32.9-31-77.1-59.7-127-59.7l-24 0 0 128 32 0c35.3 0 64-28.7 64-64c0-2.6-.2-5.2-.5-7.8c7 4.6 13.8 9.7 20.5 15.2c3.6 3 7.2 6.1 10.5 9.2C502.7 413.7 463.4 448 416 448l-32 0-32 0-48 0-32 0-48 0-32 0-32 0c-53 0-96-43-96-96c0-24.6 9.2-47 24.4-64L32 288l0 16L0 304l0-16 0-16 0-64 0-16 0-16 32 0 0 16 160 0 0-16 0-16 32 0 0 16 0 16 48 0 0-16 0-16 32 0 0 16 0 16 48 0 0-16 0-16 32 0 0 16 0 16 24 0c49.9 0 94.1-28.7 127-59.7c16.2-15.3 29.2-30.6 38-42.1c4.4-5.7 7.8-10.5 10.1-13.8c1.1-1.6 2-2.9 2.5-3.8l.6-.9 .1-.2s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0l4.7-7.5zM160 256l32 0 32 0 48 0 32 0 48 0 10.7 0 21.3 0 24 0c62.1 0 113.9 35.3 149 68.3c17.8 16.7 31.8 33.4 41.5 45.9c3.9 5.1 7.1 9.5 9.6 13l0-286.5c-2.4 3.5-5.6 7.9-9.6 13c-9.6 12.5-23.7 29.2-41.5 45.9c-35.1 33-86.9 68.3-149 68.3l-24 0-32 0-48 0-32 0-48 0-32 0L32 224l0 32 128 0zm192 32l-48 0 0 128 48 0 0-128zM272 416l0-128-48 0 0 128 48 0zm-80 0l0-128-32 0c-35.3 0-64 28.7-64 64s28.7 64 64 64l32 0z" />
-    </Icon>
-);
+const Trumpet = createIcon("trumpet", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABrQAAAK7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iEDAsGAAE2AiQDCAQgBYMtBy4bCgZRlAzGd7KfBXaTM4xXt7rINfHWVav5yFGaWf4HId+nF+MlgufXzHmbPfpbhlwtkQIi2asCyZYIcrpEPkakdYQK77l3d782HWbdi8YcNjaV7WFjEXxOAylKdAFljW67AtHEs5aWGG126Apv6lTO5XxskAeL01iUi20f87x7cS4CPS+N5bUA9bwWrIUqWhGttTlv0BtUeXEQEYl6IoTaf1h7Qh6/YxAZ2TlUxZFS0/igpwuZvAQgOgAAk1ZUcnCvRS2i+v8+UTUHCIjJAGWIEkroA8FYEoE+pMpALhfU4v//8B9YBgFEPfl9GcjRgHf4CshBpi7Pb1lNTe2Lurb58qIubShSIbIQKXWLbR4Kdj88raLny8q9NYUo4k7Vam2DpxSXv5jfnVN6cGq7VyrupJC0CFGM0Wk+rFqrb53RtkEWR8QHKndvKVJx/3hc3DNOKaU4KZ/N7+6P5tRGFMtSkXa1Lg2RQhS5Jjfzu/q54l5SDKjwla+5StX8Laqm4R0gjlBzFgAAQoggEq95vWfP74W6A5/YsaM6z0+fqU5ddeqUvfzaWrkq6dodYSSJUxdDGWJHIxrFv+3xsToBAiQveHvJ5X9t6Xnv3nfG3A/cM95W7qWW1nq0lB1eaofZ7Qe9w4ItW7ce7A76hUV8o5oaVyyLBBBf2T7q97qy/dhfXJGBt0/+b71KthVVAI0yEJQG/R+kkW0FSgEIEmWxmQ4fFMi8UQfv2sZpAUJCgEy9JEBJbwRBLhkIQZ1+PBDUS5aQiLxJ6KI5QaaNdaBkjC3IdXEDdcZ6hvW6RMncRWMVfzbTsiuc2ceD1c5BvuwZkgXzcTfEt418wxkDHkLH1MRKW0vfaqEWcsnaWFZDMhrEHKzsWBA/Hn68Xde2sNQ3NcllQni/p7fRlxtwCAEwwlB4HomsYeP69XjWXgEAAAA=");
 
 export default Trumpet;

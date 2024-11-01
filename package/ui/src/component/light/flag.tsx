@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flag` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flag?s=light flag}
  * @preview ![flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/flag.svg)
  */
-const Flag: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 16C32 7.2 24.8 0 16 0S0 7.2 0 16L0 64 0 367l0 33 0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-104 96.3-24.1c41.1-10.3 84.6-5.5 122.5 13.4c44.2 22.1 95.5 24.8 141.7 7.4l34.7-13c12.5-4.7 20.8-16.6 20.8-30l0-279.7c0-23-24.2-38-44.8-27.7l-9.6 4.8c-46.3 23.2-100.8 23.2-147.1 0c-35.1-17.6-75.4-22-113.5-12.5L32 56l0-40zm0 73L140.7 61.8c30.7-7.7 63.1-4.1 91.4 10c55.3 27.7 120.4 27.7 175.8 0l8.1-4.1 0 278-34.7 13c-37.9 14.2-80 12-116.2-6.1c-44.7-22.4-96-28-144.5-15.9L32 359 32 89z" />
-    </Icon>
-);
+const Flag = createIcon("flag", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABZwAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBWAsGAAE2AiQDCAQgBYMtBysb0wTIjsQ4RvENxUJEEK31fvXsBoD3hQgUMLm4KGQLAOq5oCW29FXsvyYyqy03dfO88yjA5whCGwuXBrJAojnPE0isy7d1gbQtsEQx3SY+BkWyL0IkSCI6vh1vHeRxLrqqQDqTXuOQvTR+aWIPSZ4BiNoAGDV7+jTl3+N7xOtSxGtTEBCjQSGQIUNzAYbKBJrLFcjlgu9RKuk/sCCAqAiLJpAjxzTMB+QgSXnevVG1CjXyWfXkVeefbHi8vkghxIkGpxpFzI5nk97MHhCXmmVxtuHJtvXjcdW9g18yI8LsGbMfDXpSbd+QRpGibzyf/HbGjMhaX6199U/Za19rdavm9+81e+qhzBK+yhqLG/n/GmUTmzQ3MG8s3j2vuEfP9u2LtTdWNNZx0oamttWvjnfvfny7hro6v3ds2eQ6cxqoCQSCZp/eubjW0H+VqyXw8+l//8Z8pfIoT1dRWQJB1rXU1YIoB0UHoKTYpXXysUAyTgI8tbqTAoSqCJBUVFWATDO1BchV1UWAClrqJ0BFVU2XibyKUN9CB0l1W0Gmv90gV989UMFQz5SK6kdGKpIS5JcubnyExtUVvbr3LAYXW9OkeIK38pDimO+4q4Q6SatVNttkh5VWWGtHQLaZpu+00fgMHudDhV6666kwWHHtvDbPstI226212aZeZYjivdzRrjy5k0gJMHszJIlIOXUB");
 
 export default Flag;

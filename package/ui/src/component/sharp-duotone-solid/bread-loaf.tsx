@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bread-loaf` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bread-loaf?s=sharp-duotone-solid bread-loaf}
  * @preview ![bread-loaf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bread-loaf.svg)
  */
-const BreadLoaf: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 192c0 35.3 28.7 64 64 64l0 224c117.4 0 234.7 0 352 0l0-224c35.3 0 64-28.7 64-64C480 64 304 32 240 32S0 64 0 192z" />
-        <path d="M640 192C640 64 464 32 400 32L240 32c64 0 240 32 240 160c0 35.3-28.7 64-64 64l0 224 160 0 0-224c35.3 0 64-28.7 64-64z" />
-    </Icon>
-);
+const BreadLoaf = createIcon("bread-loaf", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABcgAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBRwsIAAE2AiQDCgQgBYMtB1Ab6QTIhof/t+v7fW5V9wCqNxIiWJmRKZNC8UtJ0OuHUtxTp57nPBTA5xAEZWxc83xifM7zCFS0vqlXsO311tTqt5PP4BlEVwZJR99k2NywGe0gTz2yU0qkm+knXPX/Axi/auMUSZ0MQDQGwKTF8+f5rBKVFD9VnxM/mYuAmAwKgQwZ2gswVibQXq5ALhdUUrVKJarVggCijG47A2XkmIl5gBwkIfK8plO9UoN8Ub1S3d13xkd8nB7xzdC68Wra1+M+1Nzo+airqBcRD/s8bZfd7BXxuJu4WE/TJT6PA8dVX079auz7ovOTxk9+r/lp00+OVvt/wReHOVzcUhw+/MUX/es2aXKr4paAJ6MuXMIIS4h2+DoOHDQuBwJBrd6/nlvdaOz/tesl8PPbP3+J56tW0rH0BLUlEGR9q32tSMcA6AC8FId0bv3QXwhkaiT0rvVdEyDURYCkrK4AmXYaC5Crq48AJR0NE6CsrvkykdcRmluZQVLfXpAZ7jDINfcMlIz1rV/WPDJhokWBfsslTOfQtE3FoP4Di9FFN5EY+SDtckyxLPY8ZBq91Bab7LbLARttsDXiDNlnXnTQTtNH8DRfVBikv4EKoxXb+bWwiPn77Le1ze2vGaM47/Z0aNzfSykJYQ72QSYjUmRN/xkQ67dj99pN/cSy2bzkbiAAAAA=");
 
 export default BreadLoaf;

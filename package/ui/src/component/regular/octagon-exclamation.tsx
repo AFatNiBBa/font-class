@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-exclamation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-exclamation?s=regular octagon-exclamation}
  * @preview ![octagon-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/octagon-exclamation.svg)
  */
-const OctagonExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M191.5 48.1c-6.4 0-12.5 2.5-17 7L55.1 174.5c-4.5 4.5-7 10.6-7 17l0 129c0 6.4 2.5 12.5 7 17L21.2 371.4C7.7 357.9 .1 339.6 .1 320.5l0-129c0-19.1 7.6-37.4 21.1-50.9L140.6 21.2C154.1 7.7 172.4 .1 191.5 .1l129 0c19.1 0 37.4 7.6 50.9 21.1L490.8 140.6c13.5 13.5 21.1 31.8 21.1 50.9l0 129c0 19.1-7.6 37.4-21.1 50.9L371.4 490.8c-13.5 13.5-31.8 21.1-50.9 21.1l-129 0c-19.1 0-37.4-7.6-50.9-21.1L21.2 371.4l33.9-33.9L174.5 456.9c4.5 4.5 10.6 7 17 7l129 0c6.4 0 12.5-2.5 17-7L456.9 337.5c4.5-4.5 7-10.6 7-17l0-129c0-6.4-2.5-12.5-7-17L337.5 55.1c-4.5-4.5-10.6-7-17-7l-129 0zM256 128c13.3 0 24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-112c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const OctagonExclamation = createIcon("octagon-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABewAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCFwsGAAE2AiQDCAQgBYMtBzobIQXIjtRG+UVWEkG9rdeet3uCPTGsmOm+mEwci0Nn5gw4dUSpy6GdXtW+T1xTP8qeHrBK/NEqttbZqMA6zycwsd28gHcedV6mE7DtzuYYtbZ2klCQHOccl88W8vg83lQhfZR+whvypPGPzm6TVDIA0QoAszasWeabP+PPiB/riB8tQUDMAqVAhgzdBJgqE+gmVyKXC/6Meh3/A0sCiEb0ThPIUcFRXATkIMnyfG7zttVK83x9tVJsedhubbxLXG8/NV52ifhkyIZ4NaAaTwatixedxYcD18bzvkU8Hbw+ZsS6eK9ajUcdN8QHEXGjw/p4vyjWPVlJ9326eYwBa290jPig+qj9e663e7d42OH96P2y1ct/e/20/ydfv1Hsb2iwv7ih6YFWxja7ofnYipjzW+qbOZEY2zxsRsA30G/5Vhpq08lazREHmnKK/bUGtYoZK1a1P6n9qqDp+UeL+9xv0YBSIA77/eS233a0nPpfk2oCf3/2f/wrqn+TpJdoIoEgG1ofamsCiQAApKjpnSCQ7JWRU23mfQFCgQBJI4UAma5aCZArDBGgoodxAjRSWCMTeVOhnW2ZTpo5RWfGu0Ln2vmUrpjq20Ij7SKzOctirCdf/vwSnreqHDV8ZDm57DYk24wMWpxSLqcG1vzAINhovxOOO2ufvQ45W1CnLSufc8z8ETnPF5VGGW6k0mTldvt2/Xr7nHbGIScc52WmKM/nBqqNxw+CbKK6o72cJCK1PbHn7K4DJ44P+80is+vYPQIAAA==");
 
 export default OctagonExclamation;

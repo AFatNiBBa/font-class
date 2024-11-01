@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `network-wired` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/network-wired?s=sharp-duotone-solid network-wired}
  * @preview ![network-wired](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/network-wired.svg)
  */
-const NetworkWired: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 224l0 64 32 0 96 0 0 32 64 0 0-32 256 0 0 32 64 0 0-32 96 0 32 0 0-64-32 0-256 0 0-32-64 0 0 32L32 224 0 224z" />
-        <path d="M384 64l0 64-128 0 0-64 128 0zM256 0L192 0l0 64 0 64 0 64 64 0 128 0 64 0 0-64 0-64 0-64L384 0 256 0zM224 384l0 64L96 448l0-64 128 0zM96 320l-64 0 0 64 0 64 0 64 64 0 128 0 64 0 0-64 0-64 0-64-64 0L96 320zm320 64l128 0 0 64-128 0 0-64zm-64-64l0 64 0 64 0 64 64 0 128 0 64 0 0-64 0-64 0-64-64 0-128 0-64 0z" />
-    </Icon>
-);
+const NetworkWired = createIcon("network-wired", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABggAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCNgsIAAE2AiQDCgQgBYMtB1YbXgXIHoNts3lEMpJExjj+0z9OJ1c8VHtbr3tmPyk6sgYVFVnIbDQ6ZI9LisKuMEgov0ZsnbzTp7//MC7fPwDtH8ykwW5QbFtaujaWcAnR/j7/1+R7pxn+n5/woUQtKIujwDqxwSaw5vneBCY00xnYFrddrR3V0DZC4wk1feVNh/zIHnhJ/wMY/9i9kYYKAGISABxeTPcxGkc/47/9IHp6ICCOAMsIBQXzCOwQCswTWQZVFfQFbQt9aluGAKJBel8BDYZwBZ4BFaRGVJHcKCv1K0qxWjRnHyr2keEgUs4NKxUIKo0oiVZVLKxXzY4olAh9OIWELCEMSMQIpNaDvoEoVDdGnV3dVv73eh7v6kX2hANPd7W6F5L+PTD65070p3ZftEA6aOuFz3hygjcYdQyqGnRhz18HgeDr+zC4ri3/lykFgD+f/8V/R+0o77OLQQmCstaGreQT5L0AAGTcceaTZRAojkmUTx31KkAYRoDUGBagmKNDoBq2ikDHogwCjWEnhKLKEWat9iCNugTFtntQzXoHHTu+co3ZEAKhCULmL2Du7hjuHONENM5F3qxpLbjS/WyJT/v8d7onQO9iz7kzN3btOHQzYq/0i7dOdffwji9iCVFxrIhvN59fn7PryrVD587iOiX8fsrvbn94gAYFiuK6M0UhkoRmHPVEvvjQTgSfB1hXHNwFAAA=");
 
 export default NetworkWired;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `patreon` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/patreon?s=brands patreon}
  * @preview ![patreon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/patreon.svg)
  */
-const Patreon: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M489.7 153.8c-.1-65.4-51-119-110.7-138.3C304.8-8.5 207-5 136.1 28.4C50.3 68.9 23.3 157.7 22.3 246.2C21.5 319 28.7 510.6 136.9 512c80.3 1 92.3-102.5 129.5-152.3c26.4-35.5 60.5-45.5 102.4-55.9c72-17.8 121.1-74.7 121-150z" />
-    </Icon>
-);
+const Patreon = createIcon("patreon", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABVgAAAHdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBCwsGAAE2AiQDCAQgBYMtBy4biQTIjpQuZyQRRHZPXz27B3hPUgQrg6JzBOILmRwDDl+F7F/cPO88CvBBpDZ2HsgCn/M8gc6jsbzzPM7GtEQx85YZG0vpm0x0kvyTPX6NkMdLcUwZ0qn0Lo6WlcbPGthPUiYDENUBMHzGlMle/yK+iHi39AzxrokIiBGgEMiQobEAg2QCjeUK5HLBF1EqyT+wIIAoq06ZQI4MHdEdkIMk8rxlpTJV8ul2zIorLneJuN/n7amfjnuz20Nnm1/q/mj0cx3vNDvT6E7bG23f6Ppayxa3q9/+1bvL3/Vj6xrf8Pdne4enYWnl76cPjCq7bt6e3SN3z5v7zQf/9T9z4L91/5ctDwSCT3tebrqg2qB/y1dK4KsXf8/z1Sm9Hj+l2ygvgSDrVOpkbqKOuvGTAACk2K4FeFEgaSnhpVZ2XIBQEQGSsioKkGmkugC5ijoKUEZTvQUoq6IpMpFXEGqb1yGpbBNk+tgBudqeQBmDvCGWVTuyaCHfmvysxY3xyOi8onuXbsWAYqpqVADgKT2wWObbbVdXexq03AbrbbXMUqtsddhmk5Vt1hmD0NE+VOiui24KAxTbxmP3dMtstsUqG6zPWQYqzgvtbMfB7amIBOhxz7iWRCq3cdHWzcs2rAcA");
 
 export default Patreon;

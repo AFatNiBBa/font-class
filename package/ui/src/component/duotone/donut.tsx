@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `donut` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/donut?s=duotone donut}
  * @preview ![donut](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/donut.svg)
  */
-const Donut: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 278.8L0 304c0 88.4 114.6 160 256 160s256-71.6 256-160l0-25.1c-7.9 9.2-18.3 16.1-29.9 19.9c-10 3.7-18.6 10.6-24.4 19.6c-11 15.4-25.8 27.6-43 35.5c-17.2 7.9-36.1 11.3-54.9 9.7c-15.6-.2-31.1 2.9-45.5 8.8c-18.4 7.8-38.3 11.7-58.2 11.6c-.7 0-1.1 0-1.5 0c-19.6 0-38.9-3.9-57-11.6c-14.4-6-29.8-9-45.4-8.8c-18.9 1.5-37.8-1.8-55-9.8s-32-20.2-43-35.6c-5.8-8.9-14.4-15.8-24.4-19.6C18.3 294.9 7.9 288 0 278.8zM116.7 132.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l32-32c6.2-6.2 6.2-16.4 0-22.6c-3.1-3.1-7.2-4.7-11.3-4.7s-8.2 1.6-11.3 4.7l-32 32zm160 160c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l32-32c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-32 32zm96-160c-6.2 6.2-6.2 16.4 0 22.6l32 32c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-32-32c-6.2-6.2-16.4-6.2-22.6 0z" />
-        <path d="M0 208C0 119.6 114.6 48 256 48s256 71.6 256 160l0 70.9c-7.9 9.2-18.3 16.1-29.9 19.9c-10 3.7-18.6 10.6-24.4 19.6c-11 15.4-25.8 27.6-43 35.5s-36.1 11.3-54.9 9.7c-15.6-.2-31 2.9-45.4 8.8C295.9 380.3 276 384.2 256 384c-20 .2-39.9-3.7-58.3-11.6c-14.4-6-29.8-9-45.4-8.8c-18.9 1.5-37.8-1.8-55-9.8s-32-20.2-43-35.6c-5.8-9-14.4-15.8-24.4-19.6C18.3 294.9 7.9 288 0 278.8L0 208zm320-16c0-17.7-28.7-32-64-32s-64 14.3-64 32s28.7 32 64 32s64-14.3 64-32zM283.3 84.7c-6.2-6.2-16.4-6.2-22.6 0l-16 16c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l16-16c6.2-6.2 6.2-16.4 0-22.6zm-112 38.6c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-32 32c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l32-32zm224 9.4c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l32 32c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-32-32zM64 192c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0zm331.3 36.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l32 32c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-32-32zm-240 16c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l32 32c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-32-32zm176 38.6c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-32 32c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l32-32z" />
-    </Icon>
-);
+const Donut = createIcon("donut", true, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAAB5gAAALAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUCEKgsIAAE2AiQDCgQgBYMtB0YbQgZRlE05m+xHYdxMj3SxisKEOEIjECrrR/vt/8bD8/vhzr3vTUzrVrc0z1tyrARvtGVMQoUIiUTC00LCJJP/34+59yamH2ZOdGuzhoh0qnoV877KEfGIX198/v/37vizThrFFyiQ4lDue405aEwcYx5P4OPHj63lRR5oQBlppjnVIeSnN9PLRpJhyhNqnJVTLeTTjOG29T+A8c+EU1JHARD9ANg+3t/z+nN8zvjUvCQ+2UVA7IB5gYKCaQHWFIFp1TyqKvicTQM+R9MQAohWlqjgb0Uffj0KqanUoUL6b5XyeeVOAY/PpfNp4SDNwccIyvaHEAkBPjBPydbMS9YV2DkDgqWCzhnFigKrZ6yIK1Wka2XTlmXuoG1VGZ6RyXBKPq1U4qwi6KFF7HZXKEWyOxBY9Tsrpobyy7k4q5xRcCqbxoP5eGhaEiHsw/4YcSdxL/p+TOB+zJGhdJqdMyBsIYZkiyyqR7Y9cUO08ZkQq4vBT+YUuAF8ewsSmgjK3wTX8o8h5uLmfkf00mC4jHbsby4yhz7k1wUZQr4KQDWlVan4qZrqzE3r63FYWCBvuyWlsD91yGi74iDJFCc/C3qfCawXmxvXv/sKE7uj/bCudtjhOkhRXQKI4bkpvl/09oxP5c5ltObG5zKUF7zUxkqvA4HgbPnkTXnf2v/2rgRfX33/xz9C85PyGdolCMpy43YxQRKcL5Vxw2ICgeKWDs6pbo8ECJ3kkFp1QjGlH6pOS9Bi1godeMK+ImqHMOwSIHW7DMWqm1ANewEt1rzNtBoOB/X1V7+86j+fGfI5yeMiAa+fJJPWtlTzRjN9PYUMdtj7xJgDO6FOuzY9atVo1MMkXcryvVrld8nnfZYI8PIjkpHJvauGMMt06dbYrJu+SQqyfMSur3u2A24KR2mSk1QFTKTya9rbens8vyKzkOl+LQAA");
 
 export default Donut;

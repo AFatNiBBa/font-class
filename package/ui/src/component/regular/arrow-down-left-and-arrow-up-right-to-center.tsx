@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-left-and-arrow-up-right-to-center` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-left-and-arrow-up-right-to-center?s=regular arrow-down-left-and-arrow-up-right-to-center}
  * @preview ![arrow-down-left-and-arrow-up-right-to-center](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-down-left-and-arrow-up-right-to-center.svg)
  */
-const ArrowDownLeftAndArrowUpRightToCenter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M489 57c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-135 135L320 72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 144c0 13.3 10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-86.1 0L489 57zM23 455c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l135-135 0 86.1c0 13.3 10.7 24 24 24s24-10.7 24-24l0-144c0-13.3-10.7-24-24-24L72 272c-13.3 0-24 10.7-24 24s10.7 24 24 24l86.1 0L23 455z" />
-    </Icon>
-);
+const ArrowDownLeftAndArrowUpRightToCenter = createIcon("arrow-down-left-and-arrow-up-right-to-center", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZwAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBMQsGAAE2AiQDCAQgBYMtB1Mb1ATIrgpscE1PiAelDlmM0niLMQ/fmcW7YkTfr5E9b/8eUxAVKmAVBeRSETLGnEvFsVSAwl1FASmQ6///mLtvIpb+RDxvzQURSTTOMtEqXoneNGUyzWxWC7kWVOvhrAMMdcHN/7me7/logN9oKNFYOhsVeObzCSR4cdPAL+zAzvQE7N42bHjC8DgiRFAiGitrrFZoec701IuCJ+1D88O6U0rfASBzAODSvUYJH2cr+R1O3roOArkEYDdChw7bETiLK9iOZzdomrDFMOB/4G4IkBHwwxVoaDgLrgFooFTjWTakvZzXlvaS5auNW0eTQpcHr02gFwekudt26ZKks3C+fuPukMVQpAAWEnilaXtUPf7tEV/99Gl6errpLv2Nmv5MMMQIk0HbmG5+fuzcB4Lw6v73B87+HcMBfOnPv/IzGh9e879iTIHQHR+OGxbjxvMvAIDKEWzFuKCcwsHvOuWpgJhAQBkxIaCzjQqBZsIxBHo7JREYMeEWrjQxYslogDLlEeiccQKaJU+gd9anNmIp3QWijp/6v8UXNVRoYtFQhOWYa+n0nSBqNc+mBc+RiXhhFku2bTmwaMGqA4XsKZmHNhUjuOCLmKiQCCaHLbvb8bZFe/at2rZFdfLYfsXjKE73gszBqCcslCIVeLi3t30cTCvydRnB2a2FoJUPd96iGjzYDqY0AA==");
 
 export default ArrowDownLeftAndArrowUpRightToCenter;

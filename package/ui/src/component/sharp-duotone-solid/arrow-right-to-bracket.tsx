@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-right-to-bracket` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-to-bracket?s=sharp-duotone-solid arrow-right-to-bracket}
  * @preview ![arrow-right-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-right-to-bracket.svg)
  */
-const ArrowRightToBracket: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M320 32l0 64 32 0 96 0 0 320-96 0-32 0 0 64 32 0 128 0 32 0 0-32 0-384 0-32-32 0L352 32l-32 0z" />
-        <path d="M365.3 256l-22.6 22.6-128 128L192 429.3 146.7 384l22.6-22.6L242.7 288 32 288 0 288l0-64 32 0 210.7 0-73.4-73.4L146.7 128 192 82.7l22.6 22.6 128 128L365.3 256z" />
-    </Icon>
-);
+const ArrowRightToBracket = createIcon("arrow-right-to-bracket", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABawAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBNAsIAAE2AiQDCgQgBYMtB2gb7gTIHgfO6S1GFFHyCMOtbcTXeJ7/tf/tc++d9xWxpEP7lrBk2jWKRgvFOyRLkF8meSg0QplF9EQev2dO/yUpgS3fqwIgBahIMQxIAUk3YeZYbW7NbPUA9OLU89imAP55hIM2Fq4JssDnPI9AAWsbC17gAte0BlbdJuvpkKQvKiRQJDo+6/h6QctvfaajvCnAc/4fwPxi8kIxVwGQjQDg+OV2C29DhpKf8T35pgkCOQHoESoqdiBwiCjYQdKDpglDGUeGjGMPATIBo9XHT9BwCJwB0EARaZJjm6bTSb2FTj1b8ro6WcqRrOZy5tVEGk0vKzma5VzM8h1kYUEgtRpZ0BCJRKR2TjdO/+xxm/3X6t3fY+FHT+0c/vrj78To+bFw/9Atvj2GmMfHMFbe+K73oMcAQXixvf+/skP/ZxcEwI8P/35qv6NxKMoUswoIdW1c0y+gEABAyTVnQY4hVLsJ0tNFLwXEPCYUE/NQbWeEZt4qdHaJc84n54nSVIitBgDFovtQHXQLzVav0DnkPZ7YmhpDQgQIP7jUskRKpzgcCHGG1VwXw4KjfZbdmus699y4iaUTR5cW5jYuBX2ulV05KFtUyRexsIAQlsHb1evlnoVzFzZOHMuRLD4fuVzb026Ygsq617OqkkKi/dqD85ObN3jGf3nXP30wme0WQ3pjdTT5DgIAAA==");
 
 export default ArrowRightToBracket;

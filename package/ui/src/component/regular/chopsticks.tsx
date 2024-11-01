@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chopsticks` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chopsticks?s=regular chopsticks}
  * @preview ![chopsticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chopsticks.svg)
  */
-const Chopsticks: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144.9 332.9L332.9 54.7c3.5-4.3 8.4-6.7 13.6-6.7c9.2 0 18.1 8 18.1 19.5c0 4.6-1.4 8.7-3.8 11.9L144.9 332.9zM346.5 0c-21.4 0-40.3 10.4-52.2 26.1l-.4 .5-.4 .6L7.4 450.7c-12 16.4-9.2 39.8 6.8 52.8C30.8 517 54.7 514 67.7 497.6L397.9 109.9l.4-.5 .4-.5c8.7-11.5 13.9-25.9 13.9-41.4C412.6 31 383.7 0 346.5 0zm-37 356.7L561.1 116.2c3.2-2.6 7.3-4.2 11.9-4.2c10.4 0 18.9 8.4 18.9 18.9c0 5.5-2.4 10.5-6.2 14L309.5 356.7zM573 64c-16.6 0-31.8 6.1-43.5 16.1l-.5 .4-.5 .4-381 364.2c-15.5 13.8-17.1 37.6-3.5 53.5s37.3 17.9 53.4 4.7L615.5 182.4l.5-.4 .5-.4c14.3-12.2 23.3-30.4 23.3-50.8C639.9 93.9 609.9 64 573 64z" />
-    </Icon>
-);
+const Chopsticks = createIcon("chopsticks", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdQAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBdQsGAAE2AiQDCAQgBYMtBzEb9gTIjtRG90U2meLh/+2i7vtdA7jGZgSGZAh4ETlj2rPpng3h7iTRd3jT30/+1VTne0ZD69DiAs88b7ABR1IH+AebTRRn3upMJin9kkw0kx7P9Xi1gyz+iVPKkC6nb3Gyqip+0cBRkjIFAFEdAMPnzpzss2IUI74pvSC+MREBMRzkAgUMbyzAIAUhd5DJkckExSiVyn9gTgBRVqOT8zOUxTxsBGQgybKsUpMYKVMlm5NWrjh34byFFyudb3Cw9qyFz9uJiFVxrs55rFLvYr21EVEprja60uFum3lzZ821QDc0y9Zeb1XbUZsNQO4taXG3+t1fm3+75lundryrQx8dU6HYolzPn/77alL1doGmtxxr0vTtVx8/3uOIED4vW7lmi8etVv19OHdkuahefnat78q2OtgU9m70tmrVa/eKxTcOw6rMrFq5+eNAIMi29PlpabVBv5WvlMDPb/u9n1j6v/RJOpjuorwEgkKnUieL0kGFpF9AsRR7tMC3BJJpMqDWyi4IECoiQFJWRQEKGqkuQKaijgKU0VRvAcqqaKaCyCoItS2eIKlsOyjoYx/I1PYMlDHIF9GyakfBxQwOYvjhZR0jkdGD8u5duuUD8m3SMHqNLjcPzM3ednu4qD0WWmOrLXZZbZX1dglxh8mJ3TYbowmj/VCuuy66yQ2QH2deZ8+x2g47rbfVltLKQPn9YDt79MrtEUia1h6GJ4lIFVeu27pt5xuy7QQAAA==");
 
 export default Chopsticks;

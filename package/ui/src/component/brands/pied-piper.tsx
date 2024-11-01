@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pied-piper` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pied-piper?s=brands pied-piper}
  * @preview ![pied-piper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/pied-piper.svg)
  */
-const PiedPiper: typeof Icon = x => (
-    <Icon viewBox="0 0 480 512" {...x}>
-        <path d="M455.93,23.2C429.23,30,387.79,51.69,341.35,90.66A206,206,0,0,0,240,64C125.13,64,32,157.12,32,272s93.13,208,208,208,208-93.13,208-208a207.25,207.25,0,0,0-58.75-144.81,155.35,155.35,0,0,0-17,27.4A176.16,176.16,0,0,1,417.1,272c0,97.66-79.44,177.11-177.09,177.11a175.81,175.81,0,0,1-87.63-23.4c82.94-107.33,150.79-37.77,184.31-226.65,5.79-32.62,28-94.26,126.23-160.18C471,33.45,465.35,20.8,455.93,23.2ZM125,406.4A176.66,176.66,0,0,1,62.9,272C62.9,174.34,142.35,94.9,240,94.9a174,174,0,0,1,76.63,17.75C250.64,174.76,189.77,265.52,125,406.4Z" />
-    </Icon>
-);
+const PiedPiper = createIcon("pied-piper", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbAAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBUwsGAAE2AiQDCAQgBYMtBzEb1ATIjtFjRwxEcuTKgTGO40U8/X6/PfddVJp3SJpMsliiBEqh0vBG+ylT6X+oNMvPf9jfe+7HAN5BqKLbX1oyq5W2RMeXB9Vt+vt5/q0K8IHIzzj/3uC/F3k+gX8+itL1eQHNhrOJ4nZna+GQNZe0pIzkuDTH5QQ1i+nTQ3kuF+CePjTfDLVT9DQAyDgA2LtOisGhkG5y0W6TD1EgkH0AiwgNGswisEksmCWxCKoqdKlt/X8gQ4D0guHCqnjjMbgBUEFRqsRlQrlHVZLqDlYq20o+UHo4uUl+TLhNeU66T3tKHNI5SumCjsBFu1k6wGkxbdJtNW1Ub0SneMGMMpOZmzoDLpIfki0XNBY+LC5KL3A8Nx8W8OqbRgsdQjJtYUGUOyLpbap2HfuJ1NSMJLc7WW6uw393l3qywcR4mEeyjU1+ZNvLL/zYqYH9nqlraH6FWzkAQTh/d77OUw/+V1AWAb4Ovv7K7dwK+Swd9CsgNMuts+wImLLSioCjklZYwjchFNtE4F2HPQiIQQQUvQYFNGZoIFANWkKgxzwfBHoNOieWqoiYliOgGHYLGhtkoJq2CXpsOo56TaexKNEexA9dWmgLhbSxh6s7B/IwUyUj4eN0EC979q2hywH2olSdWs1KFKvQ3HCNYtIWNUI1IsQPMQ+u3LFAvF3eb09VolGTCnVq0yxB+Lxvr1Uf7ADzEQFW7mJRIUWpvqKk2OWJ640AAAA=");
 
 export default PiedPiper;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-arrow-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-arrow-down?s=solid cart-arrow-down}
  * @preview ![cart-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cart-arrow-down.svg)
  */
-const CartArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48l45.5 0c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5L488 384c13.3 0 24-10.7 24-24s-10.7-24-24-24l-288.3 0c-11.5 0-21.4-8.2-23.6-19.5L170.7 288l288.5 0c32.6 0 61.1-21.8 69.5-53.3l41-152.3C576.6 57 557.4 32 531.1 32L360 32l0 102.1 23-23c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-64 64c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l23 23L312 32 120.1 32C111 12.8 91.6 0 69.5 0L24 0zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const CartArrowDown = createIcon("cart-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfgAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCBQsGAAE2AiQDCAQgBYMtBzYbCwXInoWx8yI0KpXdjfLWRMR/f4i/576XWqx7a9QtXi0YbESxJhILZzwimegX+Ba/X5s9VUweImaNRj+t4NG8iXdPNCL559Pte4eA3uKb/3M93/NRgXywiQ0tCksbC2SU+XwCE7j0KqGzAxuoHeuZ24grDhnKikHkAYdfiDMkD9Dzzl+FkPrgPQFe4pfmHxytAmWkASDTAIDz26oS3PzQD9EjdwjkB0UgkHMAqwgNDYsIHOELFgmsgq4Lv8Rx7j+QAQEyCPkRBToGcA8eAHRQWhdkK5VyoVJQKxfKmtYdzD5yWrNtIHPAhlxJW84WXwVtOjmRktb8tpzryGpn8JURskZbPmaHclr3rSSL85ZPABHJyBIra9hytjpZfNcdTI5mny6L76b3QXFj8TbPXc3uH0+9T7D/rrC1rQiFaDBKhYvtMGeG5koGdl4MxnEzpM/fhMjPq/A99OqlnHh74xLO4e2N4tU3+PMINXL+1q8gCJONLi2Nyt4HCMJX6Edtmzr5XyLnAf7Oni7H/zNeKm8XMKxAaOtcMJorHVDKLAjEqczCEwsLyh0+4FPHvYJAjCKgDBoV0CzQINCNWkNgwLIYBAaNusSXLkXMaymgjHsGzaEV0M3bBwOO3DqD5sM3NcZQmJ9eYm4N5cyxiNBwlsiGocxaD8XjJDYt+c9SKQB70WvMqGk9ug2YrpBJJf6MEbkanGNBTIRQ4ZhEbDu5316rx6QpA8aMhilJ2H3N36zeHACVR0h3BUqRUr9WIcTbk2NzISYIAAA=");
 
 export default CartArrowDown;

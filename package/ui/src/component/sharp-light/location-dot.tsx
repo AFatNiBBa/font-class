@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-dot` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-dot?s=sharp-light location-dot}
  * @preview ![location-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/location-dot.svg)
  */
-const LocationDot: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 192c0-88.4-71.6-160-160-160S32 103.6 32 192c0 20.2 9.1 48.6 26.5 82.7c16.9 33.2 39.9 68.2 63.4 100.5c23.4 32.2 46.9 61 64.5 81.9c1.9 2.3 3.8 4.5 5.6 6.6c1.8-2.1 3.6-4.3 5.6-6.6c17.7-20.8 41.1-49.7 64.5-81.9c23.5-32.3 46.4-67.3 63.4-100.5C342.9 240.6 352 212.2 352 192zm32 0c0 88.8-120.7 237.9-170.7 295.9C200.2 503.1 192 512 192 512s-8.2-8.9-21.3-24.1C120.7 429.9 0 280.8 0 192C0 86 86 0 192 0S384 86 384 192zm-240 0a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm48 80a80 80 0 1 1 0-160 80 80 0 1 1 0 160z" />
-    </Icon>
-);
+const LocationDot = createIcon("location-dot", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfAAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCBewsGAAE2AiQDCAQgBYMtBzMb/gTIHoWNY1mKNIo751fx8P3le+7dl1qsY6VK6SC9cCgTglgT+UQrkImGK609L4feC8QfwNiyCZOocs1YcOzU+J869TznoQA+Z4oFbSxcunGBzt3zClSsF+uY1IpEKKBS9uo2GR5GYfhGSJBEdJw7vm5QooEMcZPvHA/gua8qvsjrBFKpABCDAGD7NCIIJ2/0FvTQbAJRCwABsQNgGqHCwjgCaziFeAMu06Aogg/6b/+BDAgg2uFfTlDQjhvwAKCAVAqX6oSwsCC3MFd0PVkg45Mz0VH0B8eDyFazVbdTvT7pLgzIlp8x73FusU6Co6ZEK65EJzMzUv36c+5n5msqnyPex3wMe40SGNKa1JlWHNae0pyQi9oyXjJZttk0WjRcsFSfE5v7qfaQ/YCUhjwegNqDPOihJg/V8W5Xt2V1CSLC0NCxmetYjypT/gL8ZwBPLWtgtVWR8e+LMoVFRYVRGAmVwv4IFDc0FAtQTHZPqmNiqk8+ByAQ3F+8PKaIOn7zCXIAPvd+/9X30ZxQK8ccoFOCoFpoDJEYrQBAE+BlVEM92VggneACX2uvFxAI3QiQ2nULUBkjhkDRbR6BNpOsEGjX7RCnKPwIo5ImSL0eQWVVEyhGrYM2a669dqPByTKOI9wnL9k7Ql6HmJmxKbNn28TgicO0XQd2rOhWa0MPi8hWolilLJnyVAakXFBYpYh3BnvZEGPGmCnGHrvOX49Hy1KuQp4SxbaPA/be0FWd9+tB5+C0iyIpiRSip2uUWVIJAA==");
 
 export default LocationDot;

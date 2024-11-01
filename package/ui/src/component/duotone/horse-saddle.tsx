@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `horse-saddle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/horse-saddle?s=duotone horse-saddle}
  * @preview ![horse-saddle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/horse-saddle.svg)
  */
-const HorseSaddle: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 256c0-44.6 33.2-81.5 76.3-87.2c-3.9 6.4-7 13.4-9.1 20.8c-1.1 3.7-1.9 7.5-2.4 11.4c-.3 1.9-.5 3.9-.6 5.9c-.1 1-.1 2-.2 3s-.1 2-.1 3c0 3.6 .2 7.1 .7 10.7C54.6 230.8 48 242.6 48 256l0 56c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-56zM160 128l160 0 0 48c0 38.7-27.5 71-64 78.4l0 73.6c0 8.8-7.2 16-16 16c-8.7 0-15.7-6.9-16-15.5c0-1.1 0-1.4 0-1.7l0-6.8 0-65.6c-36.5-7.4-64-39.7-64-78.4l0-48z" />
-        <path d="M448 238.1l0-78.1 16 0 9.8 19.6c12.5 25.1 42.2 36.4 68.3 26c20.5-8.2 33.9-28 33.9-50.1L576 80c0-19.1-8.4-36.3-21.7-48l5.7 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L480 0 448 0C377.3 0 320 57.3 320 128l0 48c0 38.7-27.5 71-64 78.4l0 74.7 51.7 14.8c4.1 1.2 8.2 2.1 12.3 2.8L320 480c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-164.3c19.2-19.2 31.5-45.7 32-75.7c0 0 0 0 0 0l0-1.9zM224 254.4c-36.5-7.4-64-39.7-64-78.4l0-48-11.2 0C102 128 64 166 64 212.8c0 16.8 5 33.1 14.2 47.1l28.2 42.4c8.3 12.4 6.4 28.7-1.2 41.6c-16.5 28-20.6 62.2-10 93.9l17.5 52.4c4.4 13.1 16.6 21.9 30.4 21.9l33.7 0c21.8 0 37.3-21.4 30.4-42.1l-20.8-62.5c-2.1-6.4-.5-13.4 4.3-18.2l12.7-12.7c13.2-13.2 20.6-31.1 20.6-49.7c0-2.3-.1-4.6-.3-6.9l.3 .1 0-65.6zM496 64a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const HorseSaddle = createIcon("horse-saddle", true, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABtQAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDMwsIAAE2AiQDCgQgBYMtB1Qb2QXInoexM6KR0vYZfgklgmiuqs4ke/dIrBAVkwMGiRIUsvAH9oVjeB7293XuQHwjOzpOY5SToxzJCEdtk+v+NMtVzn9g2v+55vN7fnSAn4/gUKKx0mpRgJnPJzDACm5Km09oA5WB8gbnDT6oUIZQvoc8/qj3oEl2Q+0KnAtXx09sOQyZGkkMUR/+BmhCVVkBb97lXU1+qIL4QT4ExESgPYGEhNYEGE0SaE2uPeRyQaWaClSKioIAoiT+xQmUUIbn4D2AHGSSLM/HBeq2d9Qv6uQL9IuaK0TUihZyw2PRa9lZ4qavflyznrTSq/kh/lAhrnuvuBNT5Iolsd9yQl8/TllPicRj507pFJm35CvxyE6iZjz1XnHosA2QGzYbLiFyw0M/7ltPWYXKVWtreSydIhErJizHLSatpqzlnp/E46hxCxrQIR2cXFlpQ1x3X7KThfo1a31LH6a/oWMyoNDkjmsma99crlxxcl8YP9eES4x6ekb+N8unzgQtlUZGlcVKcVq4Zn/q5I238hjL7OJejI4PGCnFCxd4cQRZhfGWBfI6/amlf1ubeovn2Lwc/mDOzmJXnBopKqRH2wHpjhqJicYvn6X9m3AqWZimschPo8hSiAgRRfFLI5omJSWW0dPtMzH79c5c6lbeOUpQZiLPLN66HgSCbtEfrzYe/U9HPwPV+z/+UF38f7VktUegXAaC1FvlzzK18YDhA0hmsZuOS180HgLJbpL4XWu7ioBQEwEyJTUFSFpRnwC5mnoRoNCWIQQoqWkuSeQ1hMYs7yBT2zZIhrIHco15AoXRfE6VNJZkhFkDyP5BJmUOkYxxSkhgsBKrrBY1nKmkveE45bDs3cqbfOBWVrOFzexkFStZx84Btp3p2V1sYuoWOoUP0p4B9KU/7RlJ+8uVp9ICbG1nB6eXheujjKL98353dm937gG1TEw4kDlJIrJIjS13QUBTbUNDY8m5hlarGUHnAw==");
 
 export default HorseSaddle;

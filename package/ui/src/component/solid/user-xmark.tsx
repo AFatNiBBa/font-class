@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-xmark?s=solid user-xmark}
  * @preview ![user-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-xmark.svg)
  */
-const UserXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM471 143c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const UserXmark = createIcon("user-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdAAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBcQsGAAE2AiQDCAQgBYMtBzEb8gTIhof/t/v6fW5V62HI6h4A+pBjKISiyT6V9vopI/hN3Oy8adECWeShjYVLA1kg0ZznCQSYdfn4t0/k7cESxTd3NWpE032lpSzJ42ePnwPy+Ce7Qx3p2fQJHm4/Gj/q7g6SpgxAtAPAnE3rVrjeGq0RH9feJD62DAExBxQCGTL0EmC6TKCXXIFcLmiNWo3/AwsCiHq4N4EcddiGA4AcJFme9+zaXK6r5hvLemnbrcMiXhv2Wvn+Ia9kyi2DX6ZK9w199d3Y/P26iK83lePbNV9uuKXTE6VK3NflqTj00oAZMSsi59lu02NGcJ4fODOmB+e5nrNiZrzR8mq7V39u/uTgJ3bN6leh8uUXLS1ffFmp9FMRvmXXnljagealsd3SaO4QS6t3X67eoXr57up3a6vVX/wioF98gf4iUX8OBIJJhzpt29V2+m+N5QR+eO/XP+V9tevp7vQqGiUQZMNrw21Pt1D7y1gUADfFRS30sECyTgb41oqnBAglBEjqlQTI9NROgFzJMAHq9DFBgHol62QibxI62THopOIMnZnoRjrXyet0nened+t1iszBJPeQ/nfpCzWwYKkYM3J0MbVYRrrsM0KdTiu2jcEXU2UI7TrolJPOO2C/I84r/KwVwQUnLLSwBR5UGGOk0QpTFcfp8/ZGB5x1zhGnnJQ50xT3ncEu2u1DyE7AO1YoSUQqvUpzxGVfBAA=");
 
 export default UserXmark;

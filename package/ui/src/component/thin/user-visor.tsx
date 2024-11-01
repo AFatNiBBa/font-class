@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-visor` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-visor?s=thin user-visor}
  * @preview ![user-visor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-visor.svg)
  */
-const UserVisor: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M331.4 160c-13.8 46.3-56.6 80-107.4 80s-93.6-33.7-107.4-80l214.7 0zm17.2-2.6C360 152.5 368 141.2 368 128l0-32c0-17.7-14.3-32-32-32l-1.1 0C312.7 25.7 271.4 0 224 0s-88.7 25.7-110.9 64L112 64C94.3 64 80 78.3 80 96l0 32c0 13.2 8 24.5 19.4 29.4c13.3 56.5 64 98.6 124.6 98.6s111.3-42.1 124.6-98.6zM315.9 64L132.1 64c20.2-29 53.9-48 91.9-48s71.7 19 91.9 48zM269.7 320C359.3 320 432 392.7 432 482.3c0 7.6-6.1 13.7-13.7 13.7L29.7 496c-7.6 0-13.7-6.1-13.7-13.7C16 392.7 88.7 320 178.3 320l91.4 0zm-91.4-16C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0zM112 80l224 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm8 32c0 4.4 3.6 8 8 8l192 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-192 0c-4.4 0-8 3.6-8 8zM293.3 449.6c4.4-28.5 14.3-52.2 29.3-71c13.5 19.1 21.8 41.8 24.5 67.9c-6.9-9.1-10.7-13.1-12.9-15.1c-1.5-1.3-3.4-2-5.3-2c-4.9 0-9.7 1.8-13.7 3.9c-4.1 2.2-8.2 5-11.9 7.9c-3.6 2.8-7.1 5.8-10.1 8.4zm29.6-89.4c-3 0-6.7 1.1-9.2 4.1l6.1 5.2-6.1-5.2c0 0 0 0 0 0c-21.1 24.5-33.6 56.1-37.7 93.9c0 0 0 0 0 0l0 .2c-.9 11.2 11.5 16.2 19.2 10.6c0 0 0 0 0 0l.2-.2c2-1.6 4.5-3.7 7-5.9c0 0 0 0 0 0l1.2-1c3-2.7 6.3-5.5 9.6-8c3.3-2.6 6.6-4.8 9.5-6.4c1.3-.7 2.5-1.2 3.4-1.5c2.8 3.1 7.7 9.2 16.1 21.1c0 0 0 0 0 0l.1 .2c7.4 9.9 21.7 3.6 21.7-7.3c0 0 0 0 0 0l0-.3c-1.2-36.6-11.7-68.6-31.6-94.6c-2.5-3.7-6.5-4.8-9.5-4.8z" />
-    </Icon>
-);
+const UserVisor = createIcon("user-visor", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABuwAAAL5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDcQsGAAE2AiQDCAQgBYMtBzEb8gXIjpQuZyTBP/Fu+eeGwLAJWUVaT8Xc2KpSt1T9ieo3KRGi/8e9O//nfwM+o4+0F83iOWnO8wQCzQZ/kC7guPNMA5CYU6cjE5ajKBXZsSOIzlI8znlcZsDUDgbjB2Ob8RxYt72UfiUni8HA5wMAQOkAAECDbp3a4H2lr6TnyYug57QCBKCGALgI8MHLg+BQ2xXMgIkLmJgIvlIy2f4DXRAAKID/VgMAE7CB94AfAAATAIMU0wwVCWZGM520OrbfMbvafmvYzuLS0cqXSiby2cWO5JYWROOWpUTJhLWy+NHillaGN4O2FdlV42qVy7Wu5+9q2dbtZg/qdH6/jnSzy+ZwSPHoh/Vud7O7vtdeet15fmSL7WhVLFsfdHzb1epqW/aWCNocthSPStmxnFsitt2PRy1tDvfYU+pY3ng0bm0O28VuK8MRRbVAJ9wFS4M0P7IlRi87pmoM7B7aW3IKLm0R+rP3l41bBRPpid97PvQ5LfPvvwgP+vd/cHH/B2KmS+ry5aki5N0pXPiOF9La62LGjufK9fr1kT/u9r7iV5x9+5wyycZ6AZ+p8UN3MfUhjT970Vi9e6W1VAHIVEtn2XRnMc70ZY5aZhZoqd4NvvzK86kuqc2ArfMC/T36B/BuJzqMHFWr2s6CGb7xHTt1atwobw9/pS50Af7rDgApHQd2AqhYECCdSo0aNchQpTMAMHTggCAAxD6o7AcAAYLg+A9y90ur/X/QNgD45tqf42tE0pNnJIAgBgACX+lkaXrLA5CHAAAAAENTKSgPEGDwnBQ8CRHPtgoLEF0CIlTwkZt0MLEoBX7yUYULqp1CuMyUJEyfAgYhJoCPqswBkzDnwU9tHhUChOWb4ML0FP4vU5sq0uScW6FsebemezvUxTnL2XEtN+wWn8qlErjJUMYxlskMYTAjmCz0RNqUpzCGpiO0CR/EpQJlKY9LTdz05LPaVfITmQTZazl/Si3c95PiTB1vLoHAwBkrMmBggAzrq2goM3XEpHETAQA=");
 
 export default UserVisor;

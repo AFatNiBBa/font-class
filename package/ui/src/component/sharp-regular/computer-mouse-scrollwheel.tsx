@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `computer-mouse-scrollwheel` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-mouse-scrollwheel?s=sharp-regular computer-mouse-scrollwheel}
  * @preview ![computer-mouse-scrollwheel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/computer-mouse-scrollwheel.svg)
  */
-const ComputerMouseScrollwheel: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M224 464c61.9 0 112-50.1 112-112l0-304L48 48l0 304c0 61.9 50.1 112 112 112l64 0zM0 0L48 0 336 0l48 0 0 48 0 304c0 88.4-71.6 160-160 160l-64 0C71.6 512 0 440.4 0 352L0 48 0 0zM224 96l0 96-64 0 0-96 64 0z" />
-    </Icon>
-);
+const ComputerMouseScrollwheel = createIcon("computer-mouse-scrollwheel", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXwAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBKwsGAAE2AiQDCAQgBYMtB0EbvATIjoTcROtfxKA5iXj43lb7c1/3bMHMot5FJNaIWWTqOURilbOEpj9TS5H0m2VMvteGTH/zzzuPAnwcQWh7aCALdI/zBBLr8k2QBfb1g/pX+NbO/oY3iH6VPuWTDBPPsNggj5NxRYV0I32By/ml8bMuLpFUMgDRGgBTli5c4KO38Tbi8/rE5+YhIKaAQiBDhu4CjJcJdJcrkMsFb6Ne5//AggCigfwCCeSoYDSmAnKQZHnetkPzWqVFvqRWqS5+3D/iXq8sGiPFnb53R9RW1KotRIofxr9YVI2fJr5akkUsFqoRUevd1Lrp177Y8oU3rf7Ah1alQqnVB39MfvN1WZ4rlWLaF19Mi8mmxRdfxLRS+WbtunXrJltnMhAIVvyfRqxtNf7fZrUE3j8Dbtc/inOpCc0kEGQD6gOsinMAdABfKcURveMcAkkpg6c2uipAqCJA0qAqQKab1gLkqvoLUNHTCAEaVC2Uiby50N7qCpJG+0FmpNMg1959UDHex3aD9pF5D7n35OctbqaGZswVQwaVxdiiGyqUQ+BxPK4Y1vocCaW+tGqLvfY4ZLNNtjukkAMWeIftNtOCZ/igwhCDlApjFdPJ7fISmx1w0HZ77UlTxinWW30csZv7kpkI5lC+JBGpqyMKAy+QOPBwEW8NAAA=");
 
 export default ComputerMouseScrollwheel;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `glasses-round` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glasses-round?s=thin glasses-round}
  * @preview ![glasses-round](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/glasses-round.svg)
  */
-const GlassesRound: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M109 48C91.1 48 75.5 60.4 71.5 77.9L30.3 258.4C55.2 227.7 93.3 208 136 208c55.1 0 102.6 32.8 124 80l56.1 0c21.3-47.2 68.8-80 124-80c42.7 0 80.8 19.7 105.7 50.4L504.5 77.9C500.5 60.4 484.9 48 467 48c-6 0-11.9 1.4-17.2 4.1L427.6 63.2c-4 2-8.8 .4-10.7-3.6s-.4-8.8 3.6-10.7l22.2-11.1C450.2 34 458.5 32 467 32c25.4 0 47.4 17.6 53.1 42.3l52.2 228.3c2.5 11 3.8 22.1 3.8 33.4c0 .5-.1 1-.2 1.6c.1 2.1 .2 4.3 .2 6.4c0 75.1-60.9 136-136 136s-136-60.9-136-136c0-13.9 2.1-27.4 6-40l-44 0c3.9 12.6 6 26.1 6 40c0 75.1-60.9 136-136 136S0 419.1 0 344c0-2.2 .1-4.3 .2-6.4c-.1-.5-.2-1-.2-1.6c0-11.2 1.3-22.4 3.8-33.4L55.9 74.3C61.6 49.6 83.6 32 109 32c8.5 0 16.8 2 24.4 5.7l22.2 11.1c4 2 5.6 6.8 3.6 10.7s-6.8 5.6-10.7 3.6L126.2 52.1C120.9 49.4 115 48 109 48zm27 416a120 120 0 1 0 0-240 120 120 0 1 0 0 240zm304 0a120 120 0 1 0 0-240 120 120 0 1 0 0 240z" />
-    </Icon>
-);
+const GlassesRound = createIcon("glasses-round", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABngAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCdgsGAAE2AiQDCAQgBYMtBzQbegXIhiBej/+fPckFnEfpw65otFTHSvifaz6/50cH+PkIDi3K0q4xgaoW+XwCE0lPm8gw0gY6MZttM1xsqMQtIo6iEvlhExqm30Ien9lHCema9D4ukguNH3Q4hyTLAEQ9AOZt2bDKy1/H1xHv//8E8b4VCIj5oBDIkKFbgJkygW65Arlc8HX8/z//BxYEEKX03hLIUYIbcDcgB0mW57t3dVWV1OSbq0oqd9zevjFe2vLEtHtGVcVDI56b8sGszXHt4HObB8blrVe2DYmrqs5ruaJjU1zhjDjTGW6e+fzCN2e/2P/Mrsq4BgiRvbYtcV2blR/EfLPzZw6OKyu3nTck4q4R18WZnfcOvrPy3IG3D73aGR33DLqjqmZ9bv3vrb/3p37v7/e+Qy565eRhjzl9Xlyc/5pNlf2aXzwvTh/6mPNeqTh6u70mDd57uztqmn74dP6E781pCCLLKvbdfPHFmzd1tKwfaX0LiPtWiBPRMOfm6Pmf/tBUc8dBNgyetP4gR1d03tTvIR6q+rso/q566KF+kOMhx65PBwLB679/cMbudTN/La9K4Ntnf/mrHeP/r9PcdC/KJRBkI/8faac4UPABuCmO058+ikByhYwa1a70hqGSAUmpSsh0qYdcpRFQotck0rh4g0zkFUKzXQRJtSMhM9mpkGv2GJSY6S2vVHNkMUpHGP2HmLAYkUXzinGjxxbTi22uM2FH5ukZhVkaelzqGkYb7edwhznGvvZxoGMAO8qq8FiHWnxCF/miwjijjVWYrnBXz6s329dRjnagwx1WZ5mh+N4Y6rjz4GGkJko4XiRJRKp5kNq+R496TQAAAA==");
 
 export default GlassesRound;

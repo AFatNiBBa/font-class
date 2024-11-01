@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-carry-box` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-carry-box?s=sharp-duotone-solid person-carry-box}
  * @preview ![person-carry-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/person-carry-box.svg)
  */
-const PersonCarryBox: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M192 96l0 128 32 0 32 0 0 64 128 0 0-192L192 96z" />
-        <path d="M32 48a48 48 0 1 1 96 0A48 48 0 1 1 32 48zM0 346.5l64 64L64 480s0 0 0 0l0 32L0 512l0-32L0 346.5zM0 128l32 0 48 0 17.1 0 9.5 14.3L161.1 224l62.9 0 32 0 0 64-32 0-80 0-17.1 0-9.5-14.3L96 241.7l0 65.1 54.6 54.6 7.3 7.3 1.7 10.1 8 48 4 24 4 24s0 0 0 0l4 24 2.2 13.3-64.9 0-.5-2.7-4-24s0 0 0 0l-4-24-4-24-6.3-37.9L41.4 342.6 18.7 320C6.7 308 0 291.7 0 274.7L0 160l0-32z" />
-    </Icon>
-);
+const PersonCarryBox = createIcon("person-carry-box", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCJAsIAAE2AiQDCgQgBYMtB1wbUgXIjsQ4JvGLWNDi4f/3i/0+776ZBW9wuYhrUrNIE2t4hQTfmocmFi3+PPX+P3FN/nurOk/+F3+0X2RggWeeT2ACjRm42/mEpjO0Wdv0DRoE+SKicugmUxbaDUPaDsq4ku6oUTwpfsKD+D+A8Y/u7lBomQBEOwDMW796qW/+iD+K+Kn5kfjJEgTEfJAFEhJ6CTBTEuillFEqBX8UzfwRzZkAoi5CiaNu33cGVwAlKCRRlq3bz2vdqLUu1zVq1eZnQ94MetX98cCXg1/32LBy1Upx03GiilizUTU6x9poNERVdYnhIVZGZ0P2ju7ATUt3EKroEj0sPUTZJ1bF8Hgfkd0sLFoabZeq//t27//r99O+n/R9UB27fPlYlcJ9hzf1gkUgmyu7+3POO1+YtNKcPFd9Zrl59tqvu+ummAKm6GWeApZPsdZ96/TvcVr29fYb1pJXX3TDN74BAsGiNXv3bG878/8WjQL89cnf+XzNb+JG8R4tFCBII5sjbYkb4OQB/KgizukfN/CNQLJdop/aykMBQoUAhbpKgKSndgKUKiMEqOljkgB1ldWSKFsKnWxtUqGVk1Iy2VWp1MkHqWamb3N1nSJxT88c/Z9flsUILpqUx40em6fn25JioJMWRmfkx56h53zLMFlpn+OOOWOvPQ46A+wpS4tnHbV4hi/yRdk4o42VTZe3q/eWdZA75bSD16b9cWbI7yeGOjfvPkz8BVUdb0qSiCJSN67aRp1A3Zk3ELlzj6HpqwU=");
 
 export default PersonCarryBox;

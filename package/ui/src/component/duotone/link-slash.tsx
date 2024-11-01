@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-slash?s=duotone link-slash}
  * @preview ![link-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/link-slash.svg)
  */
-const LinkSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M17.9 346.5c0 37 14.1 74 42.4 102.3c28 28 65 42.4 102.3 42.4c29.3 0 58.7-8.9 84-26.9l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5l61.8-61.8-50.6-39.9L60.2 244.3C32 272.5 17.9 309.5 17.9 346.5zM185.7 120.3c17.7 13.9 35.5 27.8 53.2 41.7c30.1-14.9 67.7-9.9 92.8 15.3c20 20 27.5 48.3 21.7 74.5c17.7 13.9 35.5 27.8 53.2 41.7C430.9 239.6 420.1 175.1 377 132c-52.2-52.3-134.5-56.2-191.3-11.7zM220.8 270c-2.1 39.8 12.2 80.1 42.2 110c38.9 38.9 94.4 51 143.6 36.3L220.8 270zM384.5 93.6c10.3 14.4 30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.9 8.6c31.5 31.5 31.5 82.5 0 114l-96 96c16.9 13.3 33.8 26.5 50.7 39.8l90.5-90.5c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const LinkSlash = createIcon("link-slash", true, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABnQAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCQwsIAAE2AiQDCgQgBYMtB1AbZQXInoWx8yKMYQWNRh7alSvyP4JAj/9mk3wSJUQfWcOt0N77YX/53kF8J03M99ulyQpFaJDa4hbyuhrgX1dg5eb/zzX14vnRAX6jQ4nG0ppmWSbvTWDAs4iiFJ7NFOe763tRU2o5kYS+0XK42eH215AlddJNcpEcTz7DXv4fwPhFObMk8qUAoigA0G1oTgzef4wfF591TXymFxAQ3QGqQqRIURGCjtgCFXFUBTKZ4MckJ36MnKqCACI3vn8KciMP1mEPIAOJkGVZoRrlBHUK5CqUDeG98o88WqsrDpdd9HbHkQoF6zq9iHd20OPRMiu65bC3RoPXau8GD3F9g5zoE/3ilaGHS2EcLrXn2QmcWByNsWe27bhX5oOOg891Oki9Sc9fusro8SaFHcC6urmxE1IQb8b6znRB25J4qOSi1nmoOPyp9tmUz2RP/mjQ90v/X+Y5FZvU7tRDh0gzuFrR3Lzj/ttXisKk/1zPZVRt4HNlLDjVfu/760/4+OMZGzc0/9r+1Scff11uxcr/+e7dz6svRT6/HTas+GH/xbvLH/D2VWXKO4OmOqo2jq3YH/L82YjhsNkua7O2ZY1Xxf0HjAAIBO///dIVRTr+JyiQgJ9f/PFPObDZ1uQG8kpAkDbMCStN1gnIDkJyJ7GEE99FBZGaiQNmQUfUvpCfBonc8kOqAgVk8msAuVSWyh6OGYgtsnxCSWUAiYLmQ6q1MciUdAW5dPThzq1kpKbIGxL/J5jC9Hi0FzWLS6AsWqZVwbrY2J5Nx2rdfioLYCDU69CuV51aTXo7slvM16cNIxFRP0QSxUlAspA696zkO3e3Hk3fkr6bbHTf9OuXawdgsCTK5vqkUiKJtPiTj40snFXV0xgx6nLNKL1fAAA=");
 
 export default LinkSlash;

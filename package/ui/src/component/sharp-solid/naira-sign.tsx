@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `naira-sign` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/naira-sign?s=sharp-solid naira-sign}
  * @preview ![naira-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/naira-sign.svg)
  */
-const NairaSign: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 32L64 32l0 32 0 192-32 0L0 256l0 64 32 0 32 0 0 128 0 32 64 0 0-32 0-128 98.9 0 92.8 145.2 9.4 14.8 17.5 0 5.3 0 32 0 0-32 0-128 32 0 32 0 0-64-32 0-32 0 0-192 0-32-64 0 0 32 0 192-58 0L128.3 46.8 118.9 32l-17.5 0L96 32zM302.9 320l17.1 0 0 26.8L302.9 320zM186 256l-58 0 0-90.8L186 256z" />
-    </Icon>
-);
+const NairaSign = createIcon("naira-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABYAAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBXAsGAAE2AiQDCAQgBYMtBzEb3QTIjsO44TuyxVL+4+Fhruz9JEtJGVJmdIAWFLDu2hKNKxwKWZBH6vQkM2HExDX1kyvOm1780aIwehtIgTwt63wCEyse+LxsYDOdgE23iQh2hLE3TAIjouOz4+wGWdxPV0NyN4Eb7UPjLx1dJdGQAogWAJixbtUSlW/xLeKX6nPiF4sQEDNAKZAiRRcBJksFusiUyGSCb1Gtyn9gSQBRCw+RgAw1WIGNgAwk0iybVFdX1DTN1hY1+aa8yIXIc1EUQhSBWhFrom0UhZks5HmEEAK+NtrpNhR5IQauvZxHrOnZ2KLxnx72su1xiUIFBdMFuBhQQH2XzTdd16rPYAdoRVMx0bU/iy/dg6Kz/PS0iXfaZMJGIBD8/fbnk23NJ/9fXyTgx5v//sG/ouq3qCSNqJeAIB1cHWxzVCAqAgCQxFk9o4JAYoEUvWsTtwQIOQIkauUCpDprIUAmN0iAGt2MEaBWbpVUZA1CG1tMTDRxQkyNdU7MtPFUrDHZp3atNpGmlZ0U9qeuYK6H5xwrRwwdXk4sw77uZIpZ9yeV22H/s2VuAF201zFHnbbHbgecdsxJS3pnHDF3hc3xRaURhhquNFF5PHo+vdYeJ51ywDFH9ZBJyvut/s6uVw+gJAHDka4kEiLJj+44cHLHkBcJAA==");
 
 export default NairaSign;

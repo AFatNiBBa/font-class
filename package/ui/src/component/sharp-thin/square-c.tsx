@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-c` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-c?s=sharp-thin square-c}
  * @preview ![square-c](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-c.svg)
  */
-const SquareC: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 48l0 416 416 0 0-416L16 48zM0 32l16 0 416 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zM144.8 176.8c-43.7 43.7-43.7 114.7 0 158.4s114.7 43.7 158.4 0l5.7-5.7 11.3 11.3-5.7 5.7c-50 50-131 50-181 0s-50-131 0-181s131-50 181 0l5.7 5.7-11.3 11.3-5.7-5.7c-43.7-43.7-114.7-43.7-158.4 0z" />
-    </Icon>
-);
+const SquareC = createIcon("square-c", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYgAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBSAsGAAE2AiQDCAQgBYMtBy8bxwTIjtRG+UVWEg//v/av+9yZF3gQxAkzOiAVVgQa2IUdtDXir9qsyupXte/zf7nnN+3oAL+f+KGNTWuC7Ir3fJ5AYr2zlic0FlimCVjmrqbYQ9P9JC2xJI/fPJ7OkMcju5VID9I/uF0+NP7o6CpJlgGIFgCYsW7VEj8aoiHi7zrib4sQEDNAIZAhQxcBJssEusgVyOWChqjX039gQQDRCF4lgRwlLMBSQA6SLM+btuxXKdXytZVSeVPKUi2yqLarlGsihShXI7KINV9EXJzytXJ9WvtoG23iS/na1G9xadr3yvUp2m0X37hkcs8XLV781+Ofvf9ofvs5ZJFab9HiRwvPtVDf1X3v3IkhDIkWQ4a0WO2FOU6PGrV7neBr99Seme2lNeaXA4Fgw6aLA7Y1n/x/k0oC/376J/yM1BviR3qBJhIIssH1wTbHD4gfAgCQ4qye8QOBZIYMrrXqrgChjABJI2UBMp21ECBXNkiAkm7GCNBI2SqZyJsKbWzpIKk6ATJjnQO5Nj6Cksl+xo20icyZOFfgvnLJczU0Z1sxYujwYmKxbGu8fzB5fVKxrfU/y2MDqNRexxx12h67HXBakSctyc44Yq5FzPFFhRGGGq4wUXHce9y91h4nnXLAMUdlk0mK+1F/Z+3ZA8hMQDtSXZKI1OQ96kN2AQ==");
 
 export default SquareC;

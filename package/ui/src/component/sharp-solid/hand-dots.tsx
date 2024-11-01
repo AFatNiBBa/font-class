@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-dots` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-dots?s=sharp-solid hand-dots}
  * @preview ![hand-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-dots.svg)
  */
-const HandDots: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 32l0-32L224 0l0 32 0 224-32 0 0-192 0-32-64 0 0 32 0 272c0 1.5 0 3.1 .1 4.6L84.5 299.1l-29-27.6L.3 329.4l29 27.6 95.5 91c43.1 41.1 100.4 64 160 64l19.2 0c97.2 0 176-78.8 176-176l0-208 0-32-64 0 0 32 0 128-32 0 0-192 0-32-64 0 0 32 0 192-32 0 0-224zM240 336a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80 16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48-16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm-16 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM240 432a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm-48-48a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const HandDots = createIcon("hand-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABhwAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCRAsGAAE2AiQDCAQgBYMtBzAbRAXIhoevtf88t2cWgHtXASElKjrfhtAh2qlYVNHvf675/JLu6AC/0aFEhM0bJCKeT2AC7VUkA5vpBGzWrtqE5GGL2jQh9i7d47eP7x2gjI+K6+qRXk/f4pF8aPylk+skjQoA0RIAU1YtW+DzKqqIb2rvEN+Yh4CYArJAgQJdBRivEOiqlFEqBVXUauE/MBNA1McnJlCiEa7gIdZSkgZlOa0RpZvUa1aubCWNd4VoHLzAAk5McdnE6BuLo0+siN9WNIk/lv2yStG5RqxY/arDi3bP275svyJzxRmV8OX4cnziLb3qWtb90/Pbnd/q8UbOebKskn0uw1MtpeJNXzvtG5vWmjpxvTbmRrSMuT+enctPJSlSDRrUvKqaV3JRCwlObaZaLEoOtfBOjd4HAsGdXY+/39Ri/P8NmyTw54f//SM/I7XPo0p1aCiBoOhf6299ghyVAACkOKlXgkByRgP8TFMvBQiNESCprzGg0EVLKDXWD+rpbsQB9TW2TCHKRkJbGwCSpo5AYaQLUGrrLahnvC+y9bWNwhQlQ5J+BNNnjsiMZXnIwMF5bD7Wddm6hDw/Lr/2e5+MfX1or50OOei4Hbbb4/jAHLWgcMIBMzV6hi/KhhhosGysfN161Ve67FHH7Nk77hcZJ3+f6u2kProPRQmzDlWUJCI1stzsgO2Hjh8D");
 
 export default HandDots;

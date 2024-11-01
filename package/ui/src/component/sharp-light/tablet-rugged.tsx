@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tablet-rugged` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tablet-rugged?s=sharp-light tablet-rugged}
  * @preview ![tablet-rugged](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tablet-rugged.svg)
  */
-const TabletRugged: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 0L32 0l0 16 0 30.1L8.8 57.7 0 62.1 0 72l0 80 0 9.9 8.8 4.4L32 177.9l0 12.2L8.8 201.7 0 206.1 0 216l0 80 0 9.9 8.8 4.4L32 321.9l0 12.2L8.8 345.7 0 350.1 0 360l0 80 0 9.9 8.8 4.4L32 465.9 32 496l0 16 16 0 352 0 16 0 0-16 0-30.1 23.2-11.6 8.8-4.4 0-9.9 0-80 0-9.9-8.8-4.4L416 334.1l0-12.2 23.2-11.6 8.8-4.4 0-9.9 0-80 0-9.9-8.8-4.4L416 190.1l0-12.2 23.2-11.6 8.8-4.4 0-9.9 0-80 0-9.9-8.8-4.4L416 46.1 416 16l0-16L400 0 48 0zM64 56l0-24 320 0 0 24 0 9.9 8.8 4.4L416 81.9l0 60.2-23.2 11.6-8.8 4.4 0 9.9 0 32 0 9.9 8.8 4.4L416 225.9l0 60.2-23.2 11.6-8.8 4.4 0 9.9 0 32 0 9.9 8.8 4.4L416 369.9l0 60.2-23.2 11.6-8.8 4.4 0 9.9 0 24L64 480l0-24 0-9.9-8.8-4.4L32 430.1l0-60.2 23.2-11.6 8.8-4.4 0-9.9 0-32 0-9.9-8.8-4.4L32 286.1l0-60.2 23.2-11.6 8.8-4.4 0-9.9 0-32 0-9.9-8.8-4.4L32 142.1l0-60.2L55.2 70.3 64 65.9 64 56zm64 40l192 0 0 320-192 0 0-320zM96 64l0 32 0 320 0 32 32 0 192 0 32 0 0-32 0-320 0-32-32 0L128 64 96 64z" />
-    </Icon>
-);
+const TabletRugged = createIcon("tablet-rugged", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABrgAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iEMwsGAAE2AiQDCAQgBYMtBzQbNwbIHgnZGea9MJou3EU8Tz/t9dwn7Y4tuRe59ppaWJDNwzpgn4b1Zak4+E9ocGHZgmjvkNr3eBOXO//zp7fXRf5oY63zCbKam6ICz7I8z7sEssDiyEqAsna6hUHpNknfx6ePYZNhcYM6X2etHuXL8gc+LS+av832kqKuAGQSAA7duHLOYDSjyR9DyR/OIJDDoBNUqDBPwF6VYJ5ah1otjGY4jP+BHQHSxx9pATX6+J9UgBoUdV1/8NrYyW1vfH297TV3mrYRWZppEZHpWSZTaccH8IrMzLEzshwXlTQPI+PPsNjQuBM0HnWubdqSJtVqUSJtm1RJmsUjRvLH8z9s+Ak/iAXe8ELjosYLbxiHs1hgkknvevwLO2YxOWiWVvba63Ryv7Os6/8NiD9o4OCwqx3U6UY79X4gCC/3PP/zwcS9/4xpC/jr2w5fI8NBBmUEYxQQqrXDte5mABkIAKDkY4szQFD8q4ZnHeczAdEgoOhrBFTmmiSg1lgjoGeBbQL6GldUUo8V09zrSDHOe0hlu0+Q2jTfID17/Zz1TUv1Auj7S39AE45L4NipbtP6jd3ubtrTmEtN5t093bKx8uM0swpXPfeOt33omade86GA3neu/MhbjlvgMW/U2WS9jTq7de7hun7dM+/7wGtj1n/IHt3+ZKWP7eWrYBck3KxWFFLGP47Kh+ve/+iVV549BQAAAA==");
 
 export default TabletRugged;

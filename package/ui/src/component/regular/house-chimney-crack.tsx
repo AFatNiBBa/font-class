@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-chimney-crack` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-crack?s=regular house-chimney-crack}
  * @preview ![house-chimney-crack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/house-chimney-crack.svg)
  */
-const HouseChimneyCrack: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272.5 5.7c9-7.6 22.1-7.6 31.1 0L464 141.9 464 56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 126.6 55.5 47.1c10.1 8.6 11.4 23.7 2.8 33.8s-23.7 11.3-33.8 2.8L512 245.5 512 432c0 44.2-35.8 80-80 80l-288 0c-44.2 0-80-35.8-80-80l0-186.5L39.5 266.3c-10.1 8.6-25.3 7.3-33.8-2.8s-7.3-25.3 2.8-33.8l264-224zM112 204.8L112 432c0 17.7 14.3 32 32 32l85.9 0-30.3-48.1c-4.4-6.9-2.8-16 3.6-21.1L288 327.6l-58.1-76.1c-11.3-14.8 7.4-33.6 22.3-22.5l115.2 86.2c8.4 6.3 8.6 18.8 .4 25.3L288 403.8 325.9 464 432 464c17.7 0 32-14.3 32-32l0-227.2L288 55.5 112 204.8z" />
-    </Icon>
-);
+const HouseChimneyCrack = createIcon("house-chimney-crack", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcgAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBcwsGAAE2AiQDCAQgBYMtBzob/QTIjlQ1fwTP6z39nJss4CwkfopFB5as4FfA+RPX1I/zpz9Po8c3i8LSxm9cRPFuAhPbzSt4IFFgE8VZO7sBgz63fZLEhwzjD5sV5PFFXK0M6Zb0Oa7SL40fNXCKpEwGIKoDYPjcmZO9/W18G/FZ6QXiMxMREMNBIZAhQ2MBBskEGssVyOWCb6NUiv+BBQFEWXyhBHLkWIh1gBwkKc87tK9Upko+p1KZimtvqjM7Im5r+0ADMTluqH99mw4hbm/3cK/K8WKHR5tGtIv7695ab+Us4VidGypVii5xY725MQfsYeqG2rNieEywi/VuirjGrBaPVn/05+afr/lc9Vd+/Oeus+aoM316naOO+OXdXxqf9KqYs7p6ofrqOfGqnTqF1P/lvrn7wx94cNVz56rO8Y2NN88aof9Eh86ee3HHbJ+/PnWIhTawvB88db1cDALBxAazPl9abdBv5Ssl8P2rv/6ue5aWpLHpUZSXQJB1KnWyKA0zgFME+in2aIEsgWRmYcatVnajAKEiAiRlVRQg00h1AXIVdRSgjKZ6C1BWRTNlIq8g1La4UUll26lMH4epXG3PUWUM8pFfVu3IPIz3D/6DlzKmh0fPK7p36VYMKJYVVXAaNk8OLLbVdntSR3sstcZWW+yy2irr7erQHSZHu202xkJG+6FCd110UxiguK4/Lp5jtR12Wm+rLTLLQMV7s509dv/2MBLS9pCXJCLV8r6MzivXrd+8ZfV+9XYsX7kR");
 
 export default HouseChimneyCrack;

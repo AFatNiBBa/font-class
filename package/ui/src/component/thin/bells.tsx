@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bells` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bells?s=thin bells}
  * @preview ![bells](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bells.svg)
  */
-const Bells: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M282.6 40.1C214 15.1 138 50.4 112.8 119L98.2 159C84 197.8 57.6 231 23 253.7L14.9 259C4.7 265.7-.8 277.5 .6 289.5s9.4 22.2 20.8 26.3l230.5 83.9 1.1-3.9c1.1-3.8 2.1-7.7 2.9-11.6l-229-83.4c-5.7-2.1-9.7-7.2-10.4-13.2s2.1-11.9 7.1-15.2l8.2-5.4c37.5-24.6 66-60.5 81.4-102.5l14.7-40C150 64.2 216.8 33.1 277.1 55.1c1.6 .6 3.1 1.2 4.7 1.8c4.7-3.9 9.6-7.5 14.7-10.9c-4.5-2.2-9.1-4.2-13.9-6zm1.2 364.5l-4.6 15.8c-3.3 11.6 .1 24 9 32.2s21.5 10.8 32.8 6.7L618.6 351.1c11.3-4.1 19.4-14.2 20.8-26.2s-4-23.7-14-30.4l-13.7-9.2c-33.8-22.7-59.6-55.4-73.6-93.6l-18.8-51.2C493.2 69.2 414.1 32.5 342.8 58.4s-108 104.8-81.9 176.2l18.8 51.2c14 38.2 15.5 79.8 4.3 118.9zM348.3 73.5c63.1-23 132.9 9.5 156 72.5L523 197.2c15.2 41.4 43.1 76.9 79.7 101.4l13.7 9.2c5 3.4 7.7 9.2 7 15.2s-4.7 11-10.4 13.1L315.6 444.4c-5.7 2.1-12 .8-16.4-3.3s-6.1-10.3-4.5-16.1l4.6-15.8c12.2-42.3 10.5-87.4-4.6-128.8l-18.8-51.2c-23.1-63 9.3-132.7 72.4-155.7zM440 443.7c-3.3 2.9-3.7 7.9-.8 11.3c15.1 17.4 40.1 24.3 62.8 15.4s36.3-31 35.5-54.1c-.2-4.4-3.9-7.9-8.3-7.7s-7.9 3.9-7.7 8.3c.6 16.5-9.1 32.3-25.3 38.6s-34.1 1.5-44.9-11c-2.9-3.3-7.9-3.7-11.3-.8zM185.9 411.9c-10.8 12.5-28.7 17.4-44.9 11s-25.9-22.2-25.3-38.6c.2-4.4-3.3-8.1-7.7-8.3s-8.1 3.3-8.3 7.7c-.8 23 12.8 45.1 35.5 54.1s47.7 2 62.8-15.4c2.9-3.3 2.5-8.4-.8-11.3s-8.4-2.5-11.3 .8z" />
-    </Icon>
-);
+const Bells = createIcon("bells", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABpwAAAKzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDBQsGAAE2AiQDCAQgBYMtBywbgQXIBp7n7d7OfYNIg8QTeyl3tDqw3BbEvzhVM85DAXyjoI1pS+MbJDQn5yIQkdGWu60WkILVCuplKYTb4pJBlDVRGYp7GR/i+FD+DHT5wwAMUOvVHWBpfSt5QwyzQKFpAABIOAAAULdz+5ZceygPRe74ToPcoTkgAFIPAA8BNI7EIwDUQEPQZ6DjATo6Ag/F5yv/gR4IAIiJnKcA0AE/YAdwDFbO2tfQ9UIv2baDjBC9U5AROPhWFZFzRfFyrIUlq2LWp3cUV9a6nWSNM9115X7nJDla/WL56qCF9lqXV3W1XGudvTqzv+yN2+g4cq+kRE40u9XkRtGx4mI5XtT9dlWR8/njZEtbVlurrD6yylnjuvLgkVl4tHrXVc5n0ndn7nXXyprAVaxL25Wzxuq0L2OPrHEWWOsOqCs6m91TDoQfeJd8Z9AdYte2/QbP67+gW/0J/I5KMZ+3R8M2nrZjZnTgxAnMduu8IH7lyg+IYuCEfv0Y0Up+TMndN3b2cMyUyN83KemaSkPH6TuwT9/MFJoF1W7GKThZmMLUiTeYEOA/M2s4KwYOyqpNRJ3eKdC8+qfuYxuUX9I109y8JNL07+MXuGBdaoMO/5JS1y2MM/v4+bFliWl/0S6XN2jfAAAEEHix+25a77Aa3/yDFACPL3z43UQfjzxR09UBwB8FgICW58ujh5pmIL4RBGwlk0jhkxBAsQEDjGDWeD0hECYoTAJBI45w0AkkFwwSKacvl9ujIXoAgkVPQBHMWNCoYDLoWJwEgxpct00s0UKVDTT2TzGpkcYbznnFBUVeNe8Y6Fz00XlY3btWsialQjZHGcRoRjGBgQxgKBMUOY6W3kRG0sgiGvJFPIopoAiPanju+HW7EwMZx3iGMppRZUp1vPeNLCbZ9dnoCqEswadQIMr4UOXxAAAA");
 
 export default Bells;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-shield` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-shield?s=solid user-shield}
  * @preview ![user-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-shield.svg)
  */
-const UserShield: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c1.8 0 3.5-.2 5.3-.5c-76.3-55.1-99.8-141-103.1-200.2c-16.1-4.8-33.1-7.3-50.7-7.3l-91.4 0zm308.8-78.3l-120 48C358 277.4 352 286.2 352 296c0 63.3 25.9 168.8 134.8 214.2c5.9 2.5 12.6 2.5 18.5 0C614.1 464.8 640 359.3 640 296c0-9.8-6-18.6-15.1-22.3l-120-48c-5.7-2.3-12.1-2.3-17.8 0zM591.4 312c-3.9 50.7-27.2 116.7-95.4 149.7l0-187.8L591.4 312z" />
-    </Icon>
-);
+const UserShield = createIcon("user-shield", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdwAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBeQsGAAE2AiQDCAQgBYMtBzIb+wTIhof/r+v9fW7V65VUx6iY/JJmosbB9GsE99Sp5zkPLZA3CtpYuDQgY2JozvMIBDCWiyVtqVSrbitYTStg3Z1tx4hon8RaWZLjs+Nzgjz+yS5VR7orfY4b6ofGj9q6lKR+BiCaAGDKqmULvH08jkd8VnuB+Mw8BMQUUApkyNBBgPEygQ5yJXK54HjUavQfWBJAVPCFE8hRwQbsBeQgyfO8fat2RbWuYb4yzRerrukX8Vi/x+Kivo9GvLi698O4C/s8cpvV8d8vjvh6+YUtb6s2jGuqXw59ttODRbFt+arlt7a4t+N9A56Yc1vrzwY91fmBTre3Whm3t1hxb/+Ix2dHrOj6aJNHf+7y+c7PHXur29u83bFh164NO779djcRoLOOzY0uNIu5Da84s+GlsuyalbsaXt5u/fAFZwzCDT809vLDH/yw8pJLVv7wwcMva/yD5k3X3bWi9WzWtHvdxh5AIJhf2fL4psbjf6tXTeDkq7/+2X5Gam+mi9KjqCeBIOtf6299upBaLV0kAAApTtc1XYhAskKO37WB2wUIBQIkFYUAmfaaCJAr9BOgTicjBKgoLJOJvL7QwoYBkgaOgMxI54FcC8+BOuN9pFW0iMzJaBeh/3gJMyU0Y6ocMnBwObZcBjrjN2Qejiu3xd6nh0IfWLXTIQedaoft9jhVIEctME9zwEwLnuGLSkMMNFhprPI4Xi+vtMNRp9jjkINlzDjlfbW30+36PqAkTDiUL0lEqr5M74BTdu/ZsX87");
 
 export default UserShield;

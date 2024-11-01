@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bitcoin-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bitcoin-sign?s=solid bitcoin-sign}
  * @preview ![bitcoin-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bitcoin-sign.svg)
  */
-const BitcoinSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M48 32C48 14.3 62.3 0 80 0s32 14.3 32 32l0 32 32 0 0-32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32c0 1.5-.1 3.1-.3 4.5C254.1 82.2 288 125.1 288 176c0 24.2-7.7 46.6-20.7 64.9c31.7 19.8 52.7 55 52.7 95.1c0 61.9-50.1 112-112 112l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32-32 0 0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32-6.3 0C18.7 448 0 429.3 0 406.3L0 288l0-22.3L0 224 0 101.6C0 80.8 16.8 64 37.6 64L48 64l0-32zM64 224l112 0c26.5 0 48-21.5 48-48s-21.5-48-48-48L64 128l0 96zm112 64L64 288l0 96 144 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-32 0z" />
-    </Icon>
-);
+const BitcoinSign = createIcon("bitcoin-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhAAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCOwsGAAE2AiQDCAQgBYMtBzMbPgXIHomxLZrtiygz4TqUlof/t4u671d1n5mqMWokRRIXRDRMV8yETIgcbrqd71/wFYI/dep5zkMBfKOgjG1To2ODzimQ8wBW1wIptSC1zTWtgPVtIhYI0eMTImGTkI4vj6/qfE6Qx/rsDjXSs+lzPMx3Gn/r7A6SphmAaAWAWauXL/Phr/FrxGeN14jPLEFAzAKVQIYM3QSYKhPoJlchlwt+jUYD/wMrAog6un4COWq4DfcAcpBkeb6uZeuy1jxfVdaK9bd2jHi6vL/9k0QZEZrBmbd4bdCN7i8MvNL5WVG8PraP2z1R3NfhqYgogiKYIsrMlcFYWRbltSR0fW5s9C/CSuUXoox2h943W9381+e7Pjfi5Rb3cE+LgqFUQUwYtTRlgzZsqOdTLv3xbY+W/3sef3SuujbvvNPmlA4GO6fVzZutClXLD44cOTLyxy+y7IsfRx6x5fAMtS0e0V+gAgLBV32/ea+WU/9rUibw+9vyz0jjw5iZbqKJBIJsaGOoDXEKYqYAAKQ4pXfMRCA5J0O32sxTAoQCAZK6QoBMV60EyBWGCFDTwzgB6grLZSJvKrSzsYKkmaMgM95FkGvnFVAz1UdWXbvIvJDyIeoTGD9faN5UNWr4yGpytQwI7VhEHk6pjsWBpyoMgrl2OeyQE3baYa8TIMcsc086aP4OnueLKqMMN1Jlssoc3/OrsI45bu+csY8xRXVfHejUvn4QKAmhjrYwSURqtm3vie2H9x4a9oQBAA==");
 
 export default BitcoinSign;

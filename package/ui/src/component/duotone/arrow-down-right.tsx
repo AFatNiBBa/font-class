@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-right?s=duotone arrow-down-right}
  * @preview ![arrow-down-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-down-right.svg)
  */
-const ArrowDownRight: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M32 128c0 8.2 3.1 16.4 9.4 22.6L242.7 352l45.3 0 0-45.3L86.6 105.4C80.4 99.1 72.2 96 64 96s-16.4 3.1-22.6 9.4S32 119.8 32 128z" />
-        <path d="M352 384c0 17.7-14.3 32-32 32L96 416c-17.7 0-32-14.3-32-32s14.3-32 32-32l192 0 0-192c0-17.7 14.3-32 32-32s32 14.3 32 32l0 224z" />
-    </Icon>
-);
+const ArrowDownRight = createIcon("arrow-down-right", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABZwAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBKAsIAAE2AiQDCgQgBYMtB1wb1gTIjoTcROtfxNGgVAQfa6/77i4AfI0qEKtGFZmFjW1UVVxSMOJPbacKZZLF833q1POchwL4AJ45z3PxBT7neQSWhmKJjrZYsFAHeIWxvrd489giuif5Srp/LB1OHZDFlfSOIpKPyXc8d18cP7W5Q6IsBRC1AFiyfnWfwUIUkvg+MkB8twoBsRTkAilSdAowXyrQKZMjkwkKycgIheB/vpwAohjmySkoRoZZWATIQCJElnXXVRRVZetkX/nuG40Rb8rL41Hzu7jZ8r6iIgILj5vesvlG09pIHloX78ofNb7R21/b/2vU933fbV9U/YAH1QWEMs7GoMFwVUHPoqqHX4ZNMMHwFx+qqj48rAICwcD/bK+Z/7e0IgE/Pv8b1+bEjqQfpRIQpONH2BI35PLYIQAASZzTGzcs3qXp3RLAq1Z6J0AoR4BEsXIBUh1qBciUGydAkW4zBChWbrVUZGVCo60AiUonQWqmqyDT6BMoMt+QWawxUu0hz578u8WtjKEVffmUiZPzuXnV5SmFwG17Xt6tjT4nqTG0ap/jjjljrz0OOhMhp/Q5Zx21sgWv8EO5KSaaLDdXPhyccutgnnLawTIz3mWefL4+2rl28RiaJwFMXfeNlEgibd156tTx8xPuFPn+pAmqmN+eZe4dAA==");
 
 export default ArrowDownRight;

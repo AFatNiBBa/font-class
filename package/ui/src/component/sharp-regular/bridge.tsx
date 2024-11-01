@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge?s=sharp-regular bridge}
  * @preview ![bridge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bridge.svg)
  */
-const Bridge: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M24 32L0 32 0 80l24 0 48 0 0 64-48 0L0 144l0 48 24 0 48 0 48 0 80 0 48 0 304 0 24 0 0-48-24 0-48 0 0-64 40 0 24 0 0-48-24 0L24 32zM456 80l0 64-80 0 0-64 80 0zM328 80l0 64-80 0 0-64 80 0zM200 80l0 64-80 0 0-64 80 0zM24 240L0 240l0 48 24 0c26.5 0 48 21.5 48 48l0 120 0 24 24 0 96 0 24 0 0-24 0-96c0-39.8 32.2-72 72-72s72 32.2 72 72l0 96 0 24 24 0 96 0 24 0 0-24 0-120c0-26.5 21.5-48 48-48l24 0 0-48-24 0c-53 0-96 43-96 96l0 96-48 0 0-72c0-66.3-53.7-120-120-120s-120 53.7-120 120l0 72-48 0 0-96c0-53-43-96-96-96z" />
-    </Icon>
-);
+const Bridge = createIcon("bridge", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABggAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCUQsGAAE2AiQDCAQgBYMtBy0bTgXIjtMV8Uyb4BIP3+v8PPdJ/iAvgxaAOFQSYxcuKvSkzaRM7XwnDpm4nP6gp6f3Mckfbc7GBlkgYwzuEuiy7LG0DRZQFlimCVh700x1xIyOSWaUmo5zOp6ukMfvcb8K6Yn0K+6jD41/dXUXSSUDEG0AMGfTuhW+r0Ut4pf6J8QvliEg5oBSIEOGHgJMlwn0kCuRywW1qNfzf2BJANGAr0wgRyPuxoOwUZBU8rx7M5y1slppmW+sVoptRbUQ1aooBGkdQIBVfL1QbI5qkez1Djxe6fhIV8vuoYinhr016JUhb5hs58cGYVURHw9+vYc4rHtx5rcLn/51qY4/O/TNiX3fbPPmf/168Fedn+vC/mglO9tosQcPaHB606jZuPdqs62+jZz3PDyj//gtuxypy+Uudms1blyt1hKtdptnLst++2N0F6N1cdubbzbtNtpiqW3bsoSXpsVG263pzTdvAwLBgtqwKbtaT/+/qZrAP18iPyP1Wpqd3kSTBIJseH247Wk2pNkCAJDior5pNgLJXSroXVt4VIBQIEDSoBAg010bAXKFYQJU9DJBgAaFdTKRNwsd7BhM0sIZJjPRDSbXwUdMxXQ/FBt0iCwg5XCS/4MZCzW8YFc5ZuTocmo5betKjIl1fVq5HQy+WMaGwEkHnXLSeQfsd8R5hZ21onLBCQtX6AJfVBpjpNFKU5Xu3tbYiPhZ5xxJOenfZpryfmGwi+vZQyCesOBYdUkiUsMjAQAA");
 
 export default Bridge;

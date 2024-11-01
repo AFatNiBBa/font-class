@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-word` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-word?s=solid file-word}
  * @preview ![file-word](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-word.svg)
  */
-const FileWord: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM111 257.1l26.8 89.2 31.6-90.3c3.4-9.6 12.5-16.1 22.7-16.1s19.3 6.4 22.7 16.1l31.6 90.3L273 257.1c3.8-12.7 17.2-19.9 29.9-16.1s19.9 17.2 16.1 29.9l-48 160c-3 10-12 16.9-22.4 17.1s-19.8-6.2-23.2-16.1L192 336.6l-33.3 95.3c-3.4 9.8-12.8 16.3-23.2 16.1s-19.5-7.1-22.4-17.1l-48-160c-3.8-12.7 3.4-26.1 16.1-29.9s26.1 3.4 29.9 16.1z" />
-    </Icon>
-);
+const FileWord = createIcon("file-word", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBZwsGAAE2AiQDCAQgBYMtBzAb5wTIjsM4hvxiKmcRD/8/V3XfT5pSw5AhIoVIC0By3bJjI/qsJXZVtcwT1+S/P38qbKNHqbDS1Eh8+mWcT2Biu/cV2ICiwGY6AdvubIRDWA6SlrIkx7cdnz3kcTa7pob0QvoBD/OHxk86ukbSkAGIFgCYsXLpEl81RmPE91XE9xYhIGaAUiBDhi4CTJYJdJErkcsFjVGt+v/AkgCiFr5aAjlqsBRbATlIsjzvVte3UtM0X1GpKda+3T/i/Q4pXhjwQZ+m8d6gjzpnUcSdds9GRFERKrFi1fIVy1fGc+3fabs8VsZLfd7psCyebnOn3YowwLtnvtjvvY49P2zx4S897mjal6+3pGVxSdGy5esQrGVRwpvdutXskvnVJay6ePGRTqtcudtqB363oXG2zdGl48YMe83G31seLDeo4YHfbSwXGjNu6VEgEHQ72fzExuaT/6mvJPDjJ7/9r/+Kql/FpfQh6iUQZIOrg62LSxCXBAAgxQk94xICySIZvNYmnhUgFAiQ1CoEyHTWQoBcYZAANboZI0CtwlKZyBuENtZPJmniMJMZ6zyTa+NjpsZkX0e12kSmW5JmSF+79LkUnLOtHDF0eDmx3DaGrC5CXJ9UHpv9T4SxAdBqh4MOOGa7bXY7RuAjlqTH7TeXg+b4otIIQw1Xmqi87r3uXmG7I47a7aADaZNJyvdufyf42QPASZB1pFqSiNQgx8YQ+QMAAA==");
 
 export default FileWord;

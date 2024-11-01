@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-up-to-line` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-up-to-line?s=duotone arrows-up-to-line}
  * @preview ![arrows-up-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrows-up-to-line.svg)
  */
-const ArrowsUpToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 46.3 14.3 32 32 32l512 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64z" />
-        <path d="M54.6 278.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l96-96c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L160 237.3 160 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-210.7L54.6 278.6zm320 0c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l96-96c12.5-12.5 32.8-12.5 45.3 0l96 96c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L480 237.3 480 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-210.7-41.4 41.4z" />
-    </Icon>
-);
+const ArrowsUpToLine = createIcon("arrows-up-to-line", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABiwAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCIgsIAAE2AiQDCgQgBYMtB14bUgXIhofv9/vf2ufe976jeiGJSoIkbknMQ2N+hUQimSfaG6pJY+bN/y251/MowM+5n9fzQC6Q6Dyfx3E3RVm+kyaygc1mihucN/mAQ2FoT79AHv+zk0qke+kVrrj/AYwvOjtJUpcBiFYAmLpw7hyPK1FJ8ar6kHhlNgJiGigEMmToJsAEmUA3uQK5XFBJ1SqVqFYLAogy934ZKKOEvTgIyEGSRJ7369exodSUL2go1S+8WR9xvsPtONZxYdxpuNB+ftxytN3N+vMdJoWwm7kdEROaFrHZJBRqy+AkFFpseaB3c6vmb71ebXhl1P27TTTdPdfUdG7lSndT6C7ewIXjnI9anD3bIurro3NTlqmO5ipY0UOq14FA8P3T2ycrW074V9uQwOdHP/6w51UraUpqRq0EgmxAdYBlaQowbABWigN6T3yTQGaexP/URrcFCPUIkJTVC5DpqpUAuXr9BSjpYaQAZfXmykReJ7SzvAJJo90gM8ohkGvnASiZ4KlR1i6yW4+8ccgPv7hZTXjmUDF00JBiXDHqKqi7Cdft8cVirc8BnuoLT22w0w77rLfOZvsa6B5z7P22mzWFzPRDhaEGGaIwTrE5uMstaBh77LV5mNneZbzieL2PA9PFfeE+CTDspB1kRIqs8+o9r8bYwP27Bu7bOfCfFNRzXNB1kHlqAQAA");
 
 export default ArrowsUpToLine;

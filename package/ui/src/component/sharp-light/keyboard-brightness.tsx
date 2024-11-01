@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `keyboard-brightness` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard-brightness?s=sharp-light keyboard-brightness}
  * @preview ![keyboard-brightness](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/keyboard-brightness.svg)
  */
-const KeyboardBrightness: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M115.3 172.7L104 161.4 81.4 184l11.3 11.3 88 88L192 294.6 214.6 272l-11.3-11.3-88-88zM304 224l0 16 32 0 0-16 0-128 0-16-32 0 0 16 0 128zm132.7 36.7L425.4 272 448 294.6l11.3-11.3 88-88L558.6 184 536 161.4l-11.3 11.3-88 88zM0 384l0 32 16 0 96 0 16 0 0-32-16 0-96 0L0 384zm208 0l-16 0 0 32 16 0 224 0 16 0 0-32-16 0-224 0zm320 0l-16 0 0 32 16 0 96 0 16 0 0-32-16 0-96 0z" />
-    </Icon>
-);
+const KeyboardBrightness = createIcon("keyboard-brightness", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbAAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBcwsGAAE2AiQDCAQgBYMtBzob/QTIvgzYxixL/ovlbjasMgh00MUpEe9HeV6zzW/tgm48/Lcf6775g5hWSJrEE82tmWRCo1nslMChstZ3/9e2gSfRukdyy3ftEpJMNCRK/RES3rDJESRtpz3gdYY9HnCxYs37cC1SvtDMqrXvEQfXwDi2ADNKJD5jwPXAPKjfIABfZVNGSq9IzOb/mnpRdnSAn4/gUHJFXVhhEcUT2PNqb5vIbGADmhhvcN7kA+4O7RfI8R9LSvoovLgPjR8dLiS5ABD1BQDmNhMC/M7F50d8WgYCYh6gH6JAgW4IJokFukn0A1kWfEnYfyAQQJTyX5RARjl2gHMAMkhKc27wKSV8JTV5I15TudtqMFrQLdnVwq0Dqgp0pjKE9WaT3orpYVIxczQJVekrq8xYUa4eHGSUu0amsvewuQmMsb0AZhCoHdRTtinkR2Dmgofcdh9KUw+A+miu9l8pDfwOQCC4WLo2lV6RwPf+7sn03FAugaAYDmWSgbEDCKV4Yp6YYSBZcbretdqrAKESAZJSlQIUuqghyCoNQVCiVxCCUpVWiUWuEJplK5BUuwWFCVuQNbuBEpP+wVLNIV+Y/H3IP3hp+CbKTSOvy0MxGi0qFB+NqIfjtFhvmfEmKzwLNX09E1UVTZMGMyJEprr4KZrzRcTLxYPE0ObK3eNpVSNjTX09O0kcHe+2mE13tkKTiM85YluSiNTUX35+Rmfp4wv0quMxAA==");
 
 export default KeyboardBrightness;

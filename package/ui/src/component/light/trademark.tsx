@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trademark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trademark?s=light trademark}
  * @preview ![trademark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/trademark.svg)
  */
-const Trademark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 112c0 8.8 7.2 16 16 16l224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 96c-8.8 0-16 7.2-16 16zM112 400c0 8.8 7.2 16 16 16s16-7.2 16-16l0-272-32 0 0 272zM316.3 101.8c-4.3-5.2-11.4-7.1-17.7-4.8s-10.6 8.3-10.6 15l0 288c0 8.8 7.2 16 16 16s16-7.2 16-16l0-243.8L451.7 314.2c3 3.6 7.5 5.8 12.3 5.8s9.3-2.1 12.3-5.8L608 156.2 608 400c0 8.8 7.2 16 16 16s16-7.2 16-16l0-288c0-6.7-4.2-12.8-10.6-15s-13.4-.4-17.7 4.8L464 279 316.3 101.8z" />
-    </Icon>
-);
+const Trademark = createIcon("trademark", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABYwAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBQAsGAAE2AiQDCAQgBYMtBzAbwATIHodxTLIxjZuJePh+7vPclyzllyFFIsfggByDMDt1dVV1bESmtlNH1BRfk7Cq9n3+r/n80o4K5PMRHEoVXS+Ky9oyn09gOI7yBhvIbDgb0MR4e4v0aD1WTGRy0kp6/PZ4RWfI43cMV0d6lD7gBr9pfNLVZZI8AxBtADBn07oVXlVRRXz4j/hgGQJiLigFMmToIcB0mUAPuRK5XFDF///wH1gSQNSjJyeQow7zsByQgyTL85ZF/1pdy3xjra7I7nWsxYPO9zsVcbfDlooHPItM2naf4KSwkYgNXFy70nlTCIlf5P1Z62Nj3+Y2zZ/7fNj9wepWVaVqlZgjvVtV69sotXk/ZM/tilJX+8WlZxY0NE5A6wvWloo7t/e0+DMQCPp/f77W1tO/NtYS+PjyV34wnU/NaJRAkA3/P9z2dB6AHUAuxWl9hQ8KJNNk6FVbuC9AKBAgqVcIkOmujQC5wjAB6vQyQYB6hXUykTcJHewoIGnhGMhMdAbkOngB6kz3OluvQ2SKJKuB/I3LWNhCC5aVY0aOLqeW07qs6IaI89PKbXvwadc3xJyw2xGHnbTLTvuYb8jjVhROOWShRCzwRaUxRhqtNFV53Ho8vNEux52wzxGHwyLTlPeTg52WRw8xXkKcY61IEpGanswAAA==");
 
 export default Trademark;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bed-front` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-front?s=sharp-regular bed-front}
  * @preview ![bed-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bed-front.svg)
  */
-const BedFront: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 32l0 160 48 0 0-64 160 0 0 64 32 0 0-64 160 0 0 64 48 0 0-160L32 32zM24 224L0 224l0 24L0 392l0 64 0 24 48 0 0-24 0-40 416 0 0 40 0 24 48 0 0-24 0-64 0-144 0-24-24 0L24 224zM464 368L48 368l0-96 416 0 0 96z" />
-    </Icon>
-);
+const BedFront = createIcon("bed-front", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABXAAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBUQsGAAE2AiQDCAQgBYMtBzAb0QTIHoex22RJF81QPgon8fD/a+l9f2Y2yeymiFMiUsDk6uoTVVBdHVtCh8bsie2prN5khnzId+SQiWue//m3tz3Zo0VhaXGdR6/yfAIDjPYimg1sRPMJ2N42dBQRiU9CrEgiGtPxukEen2IF6UWCHnrT+Gu0JyRFBiAGAWDT4f37fG9FK+JP+w3xxx4ExCZQCWTIME6AtTKBcXIVcrmgFe12+g+sCCBq+KsSyFFgH/YDcpBkeT56Sle96M4P1YvyuFCPiHoIPNI4UNZLIQxeRLdKHJYHGt2N1ebJfYP6/uUSE182objQRk0bVZJYqOl7x7dRkNBro1EWFmimpqzERr1GGSN7Lv0zmpAD4rme/n+fbu3/znoC/R8hv6J2K0l96JRAkM1tz3UigUQAAFI8MjlBINkmQ6/a8FSAUCJAUlMKkBlrkAC50hwBChMsE6CmtF8m8i5hmJPKJg132cxyj9ncMK/Ywlo/gpphkQWUFA7Sfy59uwW2rasWzV9Yra62tS7HiFCX11THxsxHeWgWXHXJbbc8cNEFVz0w+D374odu2u6B23xQZZH5FqqsVl13ns8fctE991112622yhrVe2emR/7kWWAnzLvY3iQRqevcxQvzghAAAAA=");
 
 export default BedFront;

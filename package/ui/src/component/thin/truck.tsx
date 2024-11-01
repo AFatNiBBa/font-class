@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck?s=thin truck}
  * @preview ![truck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/truck.svg)
  */
-const Truck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 16C37.5 16 16 37.5 16 64l0 288c0 26.5 21.5 48 48 48l3.3 0c10.4-36.9 44.4-64 84.7-64s74.2 27.1 84.7 64L400 400l0-336c0-26.5-21.5-48-48-48L64 16zm.4 400l-.4 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L352 0c35.3 0 64 28.7 64 64l0 32 58.7 0c10.6 0 20.8 4.2 28.3 11.7L596.3 201c7.5 7.5 11.7 17.7 11.7 28.3L608 400l24 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-56.4 0c.2 2.6 .4 5.3 .4 8c0 48.6-39.4 88-88 88s-88-39.4-88-88c0-2.7 .1-5.4 .4-8l-.4 0-160.4 0c.2 2.6 .4 5.3 .4 8c0 48.6-39.4 88-88 88s-88-39.4-88-88c0-2.7 .1-5.4 .4-8zM416 216l172 0c-.9-1.3-1.9-2.6-3-3.7L491.7 119c-4.5-4.5-10.6-7-17-7L416 112l0 104zm0 16l0 141.4c15.9-22.6 42.2-37.4 72-37.4c40.3 0 74.2 27.1 84.7 64l19.3 0 0-168-176 0zM224 424A72 72 0 1 0 80 424a72 72 0 1 0 144 0zm264 72a72 72 0 1 0 0-144 72 72 0 1 0 0 144z" />
-    </Icon>
-);
+const Truck = createIcon("truck", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABngAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDAQsGAAE2AiQDCAQgBYMtBywbfQXIhofn7cI/983sZjMbY2Lyo6PVMey/W1bC35+qGeehAD6wiAVpTMvuBhlT99YFVOr52r6pAv8qVFGsuS0uLaiysiAyFMcQzZbxofwN8vjbThXSPekEbqqH4wftXU6SZRiIZpDFtDUrFvn42/g24sT/bxAnLEBATAelQIYMnQSYKBPoJFcilwu+jf//J/+BJQFEFZBOIEcNj+I5QA6Sap6XMxs3bdy4Xmmcr65Xig2Pt4q4vV2Ke1rf0ase9w14rs8T/Z5pX48s7m1zZ+9GKSKe7P9sh2xuNg7SBaVd13pV3KFtvqP17a2KuNj9fZ8e+aZrRpdLIkLfsqNe1O9sszruLIpAeGnMeQQiipUPjn937NudHhj3zoT3um57a8hLg18c/frA5we9MKr7s82e/anbid0nTHlp6JeczErZyS+HZq5btvXbb7cuu+4xS8vG8mY83Lx5USoEe1jsL0zQ7L2NG73X7DntbK1Wt46V5/nVV0+dmrk6ysPau+WT59mI5u7k3cUEe5vdAPPWszcOt/S0lz/6qNZzxIieNWE0mHPx9BEjpl/8ORAInl9wotOWphN/rdUT+P7dX/6i9/3/cbo4PYuaBIJs4P8DbUwXA0YDjqQ4X3djgYHkXq/+rY3cKUAoECCpKgTIdNRMgFxhgAAVXYwSoKqwQibyhkIrmzokjRyDzGgXQK6V16Biok/CVa0iC1QxzMT/xLTZmpw1rxw2eGg5vlwWNSn2+DQ8oXQbfc+npn64arcjDjvXLjvtc66ij1sUO88hsy1qlh8qDTPYUKXxyu3K4/nVdjnuHPsccbhMM0F5PtTX+XbnfrATZh0uI0lEqnyJ");
 
 export default Truck;

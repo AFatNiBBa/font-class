@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-frown-open` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-frown-open?s=sharp-regular face-frown-open}
  * @preview ![face-frown-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-frown-open.svg)
  */
-const FaceFrownOpen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm176.4-80a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm128 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM255.6 368c-38.7 0-74.5 11.4-103.6 30.6c4.7-53 49.3-94.6 103.6-94.6s98.8 41.6 103.6 94.6C330.1 379.4 294.3 368 255.6 368z" />
-    </Icon>
-);
+const FaceFrownOpen = createIcon("face-frown-open", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhgAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCIAsGAAE2AiQDCAQgBYMtBzYbJgXIjsN02yNHDkKCQ4xYhvEQD/+tvd43OxvCEitCknUk44sOUJGKL6NNWNh/alFVr//PuPe+T016Zwl2EpKZoCTXf9ZElLSQN3WqZpyHAvhGQRnbJi2QMSkXmqM9r0BF4z2vFWgssJpWwOq3k++WuyK6RZJefkmG7QyjE+Q4jDEl6VF6wt34ofHLRP0kZQGA6AAAW05lpOOsFrWIx2obYtA+EBBbADMQChSYgsB6QoEpRGaALAtqUf3zfyBDAFEHfegEMurRAy4AyCAps8hmsomJulmsFmU3l4riqwspVvYOKG7s7nN7iisLlpP7lTf3DXq+INXvNorLQ6/KmweGo8+zvqLO0p4UNw6OxFxk5wyOpZh2ZcyUYmDcjPmsxawyy8kUQnZzfK7Mq6Be18XAbed5u4OEWY91C38zh848YfTHmhN43qIMXKVsWfm+BnK8/WZHIxPfnG+LPd+cKLcj5CH14lDbNa61JZIhNdJqdE1vbaHW3Ojinr3G4dUD/feu9A+s/mYEAsHHau7itHb9f5lSAPj5+d8/+VdUnQmkx2iQQFDMr9wUJpAIAECKNo4JAsl5YnqtLe4LEJoQIKnTJEBhMh0CWZN5CJSm8UegTpNjhCLLEcYoqiBp0QMKK3WAbIxNUFrv1qkzJgrDY82G/fYlJSAaf4yXeHhxCE9zhbMl2u+H8rYyu016zrSJMvXqtChVolIL4E3S/Va1ElZYvC9i3jx4YSH4uLqVssFp0qxyLJwfEorv207a1tPOpAso4VKZJBFJ+6qT7mea6tvr3K0SAAAA");
 
 export default FaceFrownOpen;

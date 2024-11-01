@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fill-drip` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fill-drip?s=sharp-regular fill-drip}
  * @preview ![fill-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/fill-drip.svg)
  */
-const FillDrip: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 272l33.9 33.9L206.1 478.1 240 512l33.9-33.9L478.1 273.9 512 240l-33.9-33.9L305.9 33.9 272 0 238.1 33.9 161 111 73 23 56 6.1 22.1 40 39 57l88 88L33.9 238.1 0 272zm161-93.1L191 209l17 17L241.9 192l-17-17L194.9 145 272 67.9 444.1 240l-48 48L83.9 288l-16-16L161 178.9zM512 320l-55.7 97.4c-5.5 9.6-8.3 20.4-8.3 31.4c0 34.9 28.3 63.2 63.2 63.2l1.6 0c34.9 0 63.2-28.3 63.2-63.2c0-11-2.9-21.8-8.3-31.4L512 320z" />
-    </Icon>
-);
+const FillDrip = createIcon("fill-drip", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABawAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBcgsGAAE2AiQDCAQgBYMtBzAb8gTIjsM4hvwSS/nHw/Nz5Z/7ktkCpoQpMzogSezWlUHVtR+EA7Kovp5kfnCeuBz//flvH9Oe4NHGwjEby8biaM7zBAKOyjcVSJiFWaLY7mylCcVcSKMsyfEtx+cEefwU11RI99OPuBo/NP7S1kWSSgYgmgJgyqplC3z5PX6P+KH6jvjBPATEFFAKZMjQQYDxMoEOciVyueD3qFbxP7AkgKhBz00gRwWrsBeQgyTL8x6tmzeoNMpXelH9mDBxwopiTIpVBpkYK5PxsTwBfck+sSKWF1b16dvH2ZNGpG+setH4aBitYtWW5auW33K/z6MeDeJBvyftz7Va2fVx08f/dLGTl0VRPHmiUPjhB4VC2jd/vlWrUFBb169X1K7/hbTJ/kVStspVo1VjaeOlUZvzgdNF/aZRm9RG0/rFaf44EAj++3Pbmxr/f90GCfz5+b//yv2qX9Lk9Bh1JRBk/av9rU+TAaUBVFOc1FX4okCySIbetaE7AoT6CJDUqC9Apr2mAuTq6ydARScjBKhR3zKZyOsJLWzoXNLQES4z0iku18IbrmK8r5UaLSLTME0/tP9d9kwOzthVDhk4uBxbLjuarjRK2BxXbju9T9qJPnDUToccdNwO2+1xnBFHLaifcMBMCZrhh0pDDDRYaazyuP9sr2TkUcfsiRw832ac8n62t5Py/D7gJyQ7VFuSiFTvfVQGbD+65zA=");
 
 export default FillDrip;

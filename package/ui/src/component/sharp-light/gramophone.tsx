@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gramophone` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gramophone?s=sharp-light gramophone}
  * @preview ![gramophone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/gramophone.svg)
  */
-const Gramophone: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M125.1 8.8L109 3.5l-4.5 16.3-72 264-3.5 12.7 11.7 5.9 16 8 8.8 4.4 7.9-5.8C191 222 276.9 235.3 314.7 247.3c11.9 3.8 20.1 16.1 21.1 33.4c-1.5 21.9-19.7 39.2-42 39.3l-.2 0L176 320l0 32 117.7 0 .2 0 6.4 0c37.4 0 67.7-30.3 67.7-67.7c0-1.1 0-2.3-.1-3.4c0-1.1 .1-2.1 .1-3.2c0-29.5-17.6-54.9-41.6-68.7c-64.2-36.8-106.2-82.8-132-119.4c-12.9-18.3-21.8-34.3-27.5-45.6c-2.8-5.6-4.8-10.1-6.1-13.1c-.6-1.5-1.1-2.6-1.4-3.3l-.3-.8-.1-.1s0 0 0 0s0 0 0 0s0 0 0 0l-2.6-7.3-7.4-2.5-24-8zM168.2 108c21.3 30.1 52.5 65.9 96.5 98.7c-49.2-1.7-116.3 11.4-196 66.3L131 44.5l1 .3c1.5 3.4 3.5 7.9 6.2 13.4c6.3 12.5 16 30 30 49.8zM320 416l0 64L64 480l0-64 256 0zM64 384l-32 0 0 32 0 64s0 0 0 0l-16 0L0 480l0 32 16 0 352 0 16 0 0-32-16 0-16 0s0 0 0 0l0-64 0-32-32 0L64 384z" />
-    </Icon>
-);
+const Gramophone = createIcon("gramophone", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABiAAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCaQsGAAE2AiQDCAQgBYMtBzEbagXIhof/t6v/fW7VqHqMepIi6oOMxQhCJKZv/VSh1RPX5L8Hfo+0AHt/tMhRJUjRuOt8AgNfY5YNKApsOkHb20RF0CgI3wiJSXScHl9fc8jjipiqhnRv+gw35w+Nb/S5kSTPAEQrAFbt3r7NW1/EFxGfVV8hPrMFAbEalAIZMgwKsFQmMChXIpcLvohqlf8DSwKIWnrmBHLU4i48AMhBkuf57paGkUpNU74rdi32d3d1d8ae6IyuMFlPfL7hw3GP9N3TeUcRUYSoREjMY1OeGrgukNZ/3/g3Jz/J7r+r+664rojgXwd07zx+5zM7X1373tbdUYk7u+6dtFdojIimXUWlEJaMongrTcGiEXVEMfrJ1ie/G/XZyZ+58tVf4YFW2FBnqZf94UYn2bPs+PFPuye3PvlmGxcrXYxab40e3RgpQvS8cP/kf6r/L5ly3sKOCBEAgAmOumTyse9XzVk11PTasq+FzgU3bLt7zkrgsJLqSCkSjNZWb+u5JV0QViqVQCAY+CeaDrcs/a2+ksBXb/7wE2yu+lZcm55EvQSCbGp1qgNxLTAzgJ+U4mKj41oEkpvk6Fob3SVAKBAgqVUIkBnQKkCuMEWAGsPmCVCrsF0m8gah08FKJI3OIzLzXUXkOr1E1Fjqw1CtzsicU3Yt+W2Ysd6C6zqVs6bPLBeXw5Si+JuYWpeU29aJF0vJJBzrZOc424VOcqLTXGig822LXuQs62e8dV9UmmW6mUqLlcfZW2MXec93gYh99bydJcr7wYkunlefhI5EBWeLSxKRik8CLOc4MAAAAA==");
 
 export default Gramophone;

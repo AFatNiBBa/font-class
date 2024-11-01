@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-rays` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-rays?s=sharp-light person-rays}
  * @preview ![person-rays](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-rays.svg)
  */
-const PersonRays: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M232 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 200 56a56 56 0 1 0 112 0zM204.9 128l-9.6 0-4.5 8.5-76.9 144-7.5 14.1 28.2 15.1 7.5-14.1L192 202.1 192 496l0 16 32 0 0-16 0-144 64 0 0 144 0 16 32 0 0-16 0-293.8 49.9 93.4 7.5 14.1 28.2-15.1-7.5-14.1-76.9-144-4.5-8.5-9.6 0-102.2 0zM288 320l-64 0 0-160 64 0 0 160zM100.7 123.3l22.6-22.6-96-96L4.7 27.3l96 96zm310.6 0l96-96L484.7 4.7l-96 96 22.6 22.6zM4.7 484.7l22.6 22.6 96-96-22.6-22.6-96 96zm406.6-96l-22.6 22.6 96 96 22.6-22.6-96-96z" />
-    </Icon>
-);
+const PersonRays = createIcon("person-rays", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhQAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCSQsGAAE2AiQDCAQgBYMtBzIbSwXIHgPuCvW5ak60FkOIQvV4DSEiaI6cvSQPRSDbOmSLrEgSGF1XdmwEsazC/3/ce983K8SKJEQIKcCj0rLzT3VnyazGMv39PP/nvwGf/xD8aJEUvfBK7DxPwIGOdsPyAp8NbKYTsFk7e4pBuKKERJAM4w+bG9R5kDSUuwUuuw/Nd/2dp6grAOkGgOXrEyH4fJM3yev/7+S1lUAgKwAwTFChwiABi1SCQWrDUKuFN/n/X/0HigiQFnhdATU64BxwE1CDoq2u2zvPbEeiY9O5Xhdf22HzTnnTfz3qdgB1O+Z21HW/zeibsXcDkxRqh15JIl7kESaDMJGOQbxj1ENV1iJ+lBEk7XXKvjA7e91ElTaNVEnRM8mMBiWReo9ao86gYhRV7rIU0iYteez2+FOswudL/FiMHyqjzLcnH29MHRyk4Jx5Vl2Gs072Mm8FhW6GCfSKZWLVxwxTbSdn9wrm6dDjyTJQzmGZ8/u/KXY2CynZ7Y4sX3YgdbMulxZZcz8ABOF0/yIjy/T9IlELeHf/7z/9jJr/T/O7PKJNAaGa9D9bCmg0+S0AgJJjICmgERTHkOBdO7klIDogoGjRQUBloG4Cah1MFNAYYraAFh2shpW6XfSyVYCik4OgMsdZUOvlHmgs8izVolewzCiykvgXTAu0kH+fyGwwiTyiaVOW+Is3y17Rsama6CE1nYSKro6RspK6UUMOhLJjbYEV7PdFItNNMc0wCwy77twfTysbGKrr6thVFhr2Pj7OsfXk8eRggHOGqqKQ0pF3U/pBfj4EAAA=");
 
 export default PersonRays;

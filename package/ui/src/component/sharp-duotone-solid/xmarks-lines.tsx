@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `xmarks-lines` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xmarks-lines?s=sharp-duotone-solid xmarks-lines}
  * @preview ![xmarks-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/xmarks-lines.svg)
  */
-const XmarksLines: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 96l32 0 576 0 32 0 0-64-32 0L32 32 0 32zM0 416l0 64 32 0 576 0 32 0 0-64-32 0L32 416 0 416z" />
-        <path d="M57 183l-17-17L6.1 200l17 17 39 39L23 295l-17 17L40 345.9l17-17 39-39 39 39 17 17L185.9 312l-17-17-39-39 39-39 17-17L152 166.1l-17 17-39 39L57 183zm448 0l-17-17L454.1 200l17 17 39 39-39 39-17 17L488 345.9l17-17 39-39 39 39 17 17L633.9 312l-17-17-39-39 39-39 17-17L600 166.1l-17 17-39 39-39-39zm-224 0l-17-17L230.1 200l17 17 39 39-39 39-17 17L264 345.9l17-17 39-39 39 39 17 17L409.9 312l-17-17-39-39 39-39 17-17L376 166.1l-17 17-39 39-39-39z" />
-    </Icon>
-);
+const XmarksLines = createIcon("xmarks-lines", true, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABlwAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCZQsIAAE2AiQDCgQgBYMtB1QbiwXIjsO44TsylaUM8RgP/79fv33ufX++o/oQ1wTJ1Lt6pkLCm5cwi2iRPMms+j79/eR///w34OMv1mhZqzhPHWeeT2Dga2/aRAp804nS3iaioB1B+UZIm+j4ko6nAxRpSL6ujvQowY3wxvFHd9dJGjOAaAeAeauWLfW5GtUUP2tviJ+WICDmg1IgI6OXADNlgV4KJQqFoJpqNarBf3slAUQF8P4ZVFCPe3gCKECSpaIYNmxYY2NzXWuxkvY0rRs+bPjMGBazYmYMRWxEzIGGYcNjNjQCHRozJ9I6xUjThiw0t41oOhx/RP9X7frXz06mNqA9dtpJE/mMjFRTXs6V6nLzXOWmS3g7EAjyh3U3N7Wd+b+hOYFfb//N16tV0+UUGiQQ5JG1kdany8D0AAopTurf+qIKAtk5mTxqi/sChCYESCqaBMh6aidAockIAer0MUmAiibLZFE0Cp1syCBpcQRkk10AhU5egzozfSlWdIpsm4plKV/DzMUaXrSoHDd6bDm97NYk1dwkPzujXA6HnnQ9w2CvnQ456LgdttvjuKKOWlo54YDFI2SRDyqNM9pYpenK7ealuVIVjzpmT1vfn2eG8nx+qJPj4cMglojoeMuyTKTInU4/JXvUhXZHmXl/l4p+pQE=");
 
 export default XmarksLines;

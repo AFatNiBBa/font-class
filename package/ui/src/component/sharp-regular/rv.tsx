@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rv` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rv?s=sharp-regular rv}
  * @preview ![rv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/rv.svg)
  */
-const Rv: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 0L384 0l0 32 200 0 24 0 0 24 0 128 0 24-24 0-10.6 0 57.4 45.1 9.2 7.2 0 11.7 0 120 0 24-24 0-41.6 0c1 5.2 1.6 10.5 1.6 16c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-5.5 .6-10.8 1.6-16l-9.6 0-153.6 0c1 5.2 1.6 10.5 1.6 16c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-6.8 .8-13.4 2.4-19.6L95 409 7 321l-7-7L0 304 0 56 0 32l24 0 200 0 0-32zM432 256l124.8 0-61.1-48L432 208l0 48zM384 368l0-112 0-72 0-24 24 0 16 0 80 0 8.3 0 47.7 0 0-80L48 80l0 214.1L121.9 368l6.1 0c13.4-10 30-16 48-16s34.6 6 48 16l160 0zM208 432a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm320 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM288 128l0 128L96 256l0-128 192 0z" />
-    </Icon>
-);
+const Rv = createIcon("rv", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABkAAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCegsGAAE2AiQDCAQgBYMtBykbcwXIhof/t+v7fW5j9asao8bmN5iB2U8ZMoL74tTznIcC+JblPKbFxsSkw4tznleg52NtkAqVSksUe7btVRDRUNiFygnK8U/cqEK6K32OG8KTxo/au5SkUgIQzQAwbc2KRT78Nr6N+Kz+GvGZBQiIaaAQKKGETgJMVBLopKxAWVnwbdTr4j+wIICoSq5LoIwa7seTzB9HUi2XZzW0b9myIa80Lq/OK9mGPMtFngshsmxRtI7+Jbe5t++TI1/v/3SXi9pKr02sjpxLNuV5rMqzfHFkYWWYz40mIVZFHk/0eaxXvvKio7+4Pbu61a0ubH1bfk3bO6LxNLReyK727v50s6d/7vb57s9988GDySGFj9u1c6F22uX3ulwjZ/bv9G9bi9W7mjXbtTpqbbO75cCsfXdr1tgt8+ch/+Piq/p5lPaVqYYOOXJUmbsy686l+Nq8eaoWP/igj3lhSpMrubKJjhMlpk61X4dcGLwPXYjgQFz36A/PnbGl6cTfankC37/966/qu+sfpgvT06hJICgNrA+0MV0IghpAKMVp3Xd+LJDcrgpUboSRiIaMHpKqDEo6agZlmQFQ0cWoE6oyK5REuUFoZZMekkaOQclo50FZK69AxUQfhapaRQlKORjj/hGTZ4+RWc2KYYOHFuOLzbiWBzzG1k8oTqt9T8u8fniu3Y447KRddtrn5Ag7blH0lENm76Gz/FBhmMGGKoxX3E49n77aLsedsM8Rh30jExTv232d3i/dD7ciAYZ/X0aGIqXjpwEAAAA=");
 
 export default Rv;

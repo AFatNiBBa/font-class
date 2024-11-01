@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `angle` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angle?s=sharp-duotone-solid angle}
  * @preview ![angle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/angle.svg)
  */
-const Angle: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M215.9 216.1c22.5 17.9 42.3 38.9 58.8 62.5l40.8-25.3c-21.1-30.7-47.1-57.8-76.8-80.2l-22.8 43zm75.7 89.6c13.3 24.2 23.3 50.5 29.4 78.3l49 0c-7-37-19.8-71.9-37.6-103.7l-40.8 25.3z" />
-        <path d="M448 480L0 480l0-61.1L195.7 49l15-28.3 56.6 29.9L252.3 79 73.9 416 416 416l32 0 0 64z" />
-    </Icon>
-);
+const Angle = createIcon("angle", true, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABXgAAAHVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBEgsIAAE2AiQDCgQgBYMtB0YbqgTIhoeHudD3k9wVgNIqZlZlVUdEA/abRFLTd3HzvPMowOfc5zoPZIHPeZ5A54FM28hpgJ4wpNtEjzoC/5ARJSH9EXqcbZDFtXSfAsmJ5Bsckf8Axl/q2UeiXAogqgJgwLRJY7z/Pr5P4pvSY+IboxEQA0EukCJFQwF6SwUayuTIZILvk1KJ76NUygkgiuRDU1BEAa3QGZCBREiyrEbZshUKlbKpFQrlF1SsVDFiVjSIEVE3pkelCqa9aNMr7vZtPeVOowpxsW33Zjer3vyn6TdLv/Guyfv37/v4eIO/7PGXB+NNzfv79rf6e3f458PKUTM6He7g2r0dQCC4ceaX0/Oq9P6/bIUE/Pjyvz/R7dL38T65ibISEKStS63NjvdQ8AG8VBJbNYv3+E4gVUOC1yo6KkAoj0KiqDykGqgKmfJaQUFjXdaLypskFVk5oaY5ComKNkCqqz2QqekRFPT2uVlUM9KQoR6c+rDFD0VkSF/eoW37vGe+dHU6CojW7pVv68231lQLGrXUOmtttsRiK2wGbKMxzhZrDLXQIR6U66Ct9nI95e7gkZ8K5kabrJiz/i695OeN5rbaxS1omATQ8bJXUiKJtNKCtctWL2mTeVIVYDMMAA==");
 
 export default Angle;

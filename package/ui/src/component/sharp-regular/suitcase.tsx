@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `suitcase` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/suitcase?s=sharp-regular suitcase}
  * @preview ![suitcase](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/suitcase.svg)
  */
-const Suitcase: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M152 0L128 0l0 24 0 72L48 96 0 96l0 48L0 432l0 48 48 0 416 0 48 0 0-48 0-288 0-48-48 0-80 0 0-72 0-24L360 0 152 0zM336 96L176 96l0-48 160 0 0 48zM152 144l208 0 8 0 0 288-224 0 0-288 8 0zM48 144l48 0 0 288-48 0 0-288zM464 432l-48 0 0-288 48 0 0 288z" />
-    </Icon>
-);
+const Suitcase = createIcon("suitcase", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABYQAAAHjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBVAsGAAE2AiQDCAQgBYMtBy8b0wTIjsQ4JvGLKEzi4f/X/rfPnXlfZnCZRRIb1LXR6JAsQf4V0yYeiW9RWUTyq5D36W/+eedRgM8olLFxaSDLu2jO8wQCHdPjAl/2wb7pF7C/O5tkStM+pKUmyfFNjssOebyOOxqkB+kbbucPjb8Gu0XSyABELwAs3rl1vQ/NaEZ8bT0lvlqLgFgMKoEMGYYJME8mMEyuQi4XNKPVCv+BFQFEG75WAjnasR7bADlIGnk+srPs7Cwb3fMdZaPYW5SFEEUhUoiye0QWEUURwG/TOiPKsK0syhRFxCqD/HGPy61Io7p6df3z7cQ3994P4mmrbKprlVr9q5g3rTLIoIEHH8Gh2iP180m/fv2uNFU6TtV1XalVD0fSeSAQvK5XnzzYc97/jjKBP692PyOtZpK60CGBIBvfGm9fAokAAKS4YVSCQLJcA7+1m7sChAIBkjaFAJmhegmQK4wToGGE6QK0KWyVibxT6Gd/B0k3l0Fmhpsg189j0DDPR7VNv8hMijII6kMXv0JCy9uqyRPrak6l2hptJUSqz62WhdE3MDYGNp1w0QXXHHfMadcEcsV647rzVszg5b6oMtlEtcoc1bb3uLzDcVdcddpFF6jJXNV5ZbQb8+wxICeMOoUlSUTqeDLEBQQAAAA=");
 
 export default Suitcase;

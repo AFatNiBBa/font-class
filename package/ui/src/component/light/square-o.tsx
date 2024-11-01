@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-o` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-o?s=light square-o}
  * @preview ![square-o](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-o.svg)
  */
-const SquareO: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM128 256a96 96 0 1 0 192 0 96 96 0 1 0 -192 0zm96 128a128 128 0 1 1 0-256 128 128 0 1 1 0 256z" />
-    </Icon>
-);
+const SquareO = createIcon("square-o", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgQAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCHAsGAAE2AiQDCAQgBYMtBy8bGwXIHoVxm/PmSQo7bUUXuw2l5eH/18ru+1UB4AoRKQCAHhkXhbtsxJy1q6Pbhlt3ixA0vMPodAMsoRqjVfs+dfO88yjARR7aWLg0kPb5nucJJPjv7yWSUKZR4BpEO7sfDES/ySDxSYbtDaM6dBDk8YS9VCE9Kv/iRrlV/K+FsyR5BiDqA2D8gjmzfa1kZcS/ZcS/ZiIgJoBCIAPSWoBRMmEEuQK5XFAZ5XL+BxYEEFXpxQnkqIrdOAjIQZLnecuWrVrVqlInnx+/X80ll5eIu0hxcr2ndeLK/oBZnNruS+1pTzKioteJd/6ppng4Prba8T5Kls07WSMe3e/0Sv9wPuEpe/y8l8vt7fEQ8y5HRClKPJUVWaFX/JN/wsluH8dH6VCaS3/7f9f/a+yJuhfhYt1x6l6UcFka0OBlx3jZoEHNceQAPPHCfuO3pVtbtNi69LffjAzAFSc6fuVrmzodOtRp8/XrRYbzQCBYfe47s2Ia9au6JvDfl7/qa6Rcya+pBKpLIMh6lV9L4yvEVwEASLFfh/iKQLJZTu9a230BQk0ESKqqKUCmlfoC5GrqKUAVbQ0WoKqa5shEXkNobJmQSW27yMwQx8hcY5/JKkb5w66qcWRuJziN8OlLnTI2+ajo36dfMaJYZproSVzajiy2tW77dboDtd4O2+21zlqb7I3Ybba3zzZTLHyyBxX666OfwgjFcfmozs/ebY9Nc/l8z0jFfaub/fZ4d8xEWQeIJIlI1V+u3nsHAAA=");
 
 export default SquareO;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-plus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-plus?s=duotone user-plus}
  * @preview ![user-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-plus.svg)
  */
-const UserPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0C79.8 304 0 383.8 0 482.3zM96 128a128 128 0 1 0 256 0A128 128 0 1 0 96 128z" />
-        <path d="M504 248l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0 0-64c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 64-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0z" />
-    </Icon>
-);
+const UserPlus = createIcon("user-plus", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABfQAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBcwsIAAE2AiQDCgQgBYMtB04bEwXIhofvbb6e+3alsQVG3C8DEIa44oqoTKpU7oJQY0dYauJy53/+tECWPcGj7KkPsvxx7eo8gYCj8k09BpJQmqGl20QGdhRip4dERUTHp8fXBfI0KLtXifRs+hhPyP8Axs+6u5ekdQYg2gFgzqZ1K9z5Lr5L8XHzHeJjyxEQc0EhkCFDLwGmywR6yRXI5YLvUrPJd9FsFgQQZfLmDJRRwjYcAOQgCSnPW7r2rJbq+cZqqbJPeHbAaz0jqtFIzw2sRATp5W6iEsx0larbnSOerNbjka5Px7drv9xYia9Xf75+2+0hEW8MeaP6yLC3Ohp3DX0TrTw8+PUTGm+2e/PXlo8Pfuz/92Yj03nNms6zzQbGOC76VTXqD3C5fq/65QfqsbRDy9LYbmm0dIilu/b0q1H74vNG4/MvarV+nOPXgUCwfvqKn3a1nf5vq2oCP7z7+994XvNOup3eRCsJBNnw5nDb021gagA/KsVFjXQ7nkcgM1ain1rzlAChggBJWUWATE/tBMhVDBOgpI8JApRVrJOJvLXQyQ5gSc0ZLDPRDSzXydtYyXTvRWWdIksxIUGEH17qQg8sOFSMGTm6mFoscyZmDVd3pxXH7uCLpTeEzjrolJPOO2C/I8476KwV6QUnLNyBC3xRYYyRRitMVVxXj+pGRGedc2Qu3+8zTfE+HOzifnoIBYnSjnUkkxEpsvaBqY1IUXNEsPY6DnJYAg==");
 
 export default UserPlus;

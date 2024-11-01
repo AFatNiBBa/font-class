@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `video-arrow-down-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-arrow-down-left?s=solid video-arrow-down-left}
  * @preview ![video-arrow-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/video-arrow-down-left.svg)
  */
-const VideoArrowDownLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm512 64c0-11.8-6.5-22.6-16.9-28.2s-23-5-32.9 1.6l-96 64L416 174.9l0 17.1 0 128 0 17.1 14.2 9.5 96 64c9.8 6.5 22.4 7.2 32.9 1.6s16.9-16.4 16.9-28.2l0-256zM232 352l-112 0c-13.3 0-24-10.7-24-24l0-112c0-13.3 10.7-24 24-24s24 10.7 24 24l0 54.1L247 167c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-103 103 54.1 0c13.3 0 24 10.7 24 24s-10.7 24-24 24z" />
-    </Icon>
-);
+const VideoArrowDownLeft = createIcon("video-arrow-down-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcQAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBZwsGAAE2AiQDCAQgBYMtBzwb8wTIHoex22RJF83nizhginj4fq3Pc1/3fBhYxF5mVkB+FQDIuKg4YAtsU5Goph6Y86f2ff6v+fyeHx3g5yM4lGhLPZBIqlzF8wlMbG8YSROKwtmAJsZ723BoIwpPRIQISUTjaWO1hTx+zG4oke6luFnfNP7U2Q2S5gxAtALArA1rlvnkt/gt4st6xJeWICBmgUIgQ4ZuAkyVCXSTK5DLBb9FvU7/gQUBRAO+4wRylLAeOwE5SLI879KpW6VUy9dXSuUtLwdGvO2U4t6gd/1q8WbIh65Z3B/8vn911/0Or9utjXYhhGgf6+LWgDtds53lSvl1l4gHA151FhviTb97ndZGJcSZd/v2ft/q/V+97m/G5aetaV2m3Lr1U562plXq0n9N/+/ge61d0dr3MPBf43/Jhl9PsmtV+5Par2rh8fbvV6t99x2K40lc/w4IBJsqtV92mPp3UyWBPz7+v35impneo0kCQTa0PtTWNBMIHYCR4rzexgcFkuUyfKlVtwUIZQRIGpQFyHTVSoBc2RABSnoYJ0CDsjUykTcL7WybIKk6BTLjXQS5dj4CJVN9qjdoF1ls0ZFBf+0S5kto3rxi1PCRxeRiWRhMuJB5ekqxLQ08n7oGwVL7nXDcWfvsdchZgZy2zDrnmPkWPM8XFUYZbqTCZMVxvV683j6nnXHICcfLLFMU97WBztuDB4GaMOZosSQRqb27+YftOn36xIVhTke9PQAA");
 
 export default VideoArrowDownLeft;

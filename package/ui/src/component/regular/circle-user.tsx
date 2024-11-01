@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-user` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-user?s=regular circle-user}
  * @preview ![circle-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-user.svg)
  */
-const CircleUser: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M406.5 399.6C387.4 352.9 341.5 320 288 320l-64 0c-53.5 0-99.4 32.9-118.5 79.6C69.9 362.2 48 311.7 48 256C48 141.1 141.1 48 256 48s208 93.1 208 208c0 55.7-21.9 106.2-57.5 143.6zm-40.1 32.7C334.4 452.4 296.6 464 256 464s-78.4-11.6-110.5-31.7c7.3-36.7 39.7-64.3 78.5-64.3l64 0c38.8 0 71.2 27.6 78.5 64.3zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-272a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm-88-40a88 88 0 1 0 176 0 88 88 0 1 0 -176 0z" />
-    </Icon>
-);
+const CircleUser = createIcon("circle-user", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgQAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCDQsGAAE2AiQDCAQgBYMtBzIbDwXIHoPjbgkKQwwxRFFQrp7rW/Hw//f79rnvvqm25qBswKTI5SlcAfpJRyRtePQ/o/x79z4YdtDFZgf1EF462C3bTKqkTeVB+/Q3zzuPAnxgiYU2pi39IA1L9zpPILEuzyMJLNMELJfUbfzhD6K8GobgOWKIC03whBybpBUl6Z11BW7HTeOPvGZIygIA0QUA1vcigrD3Fm9BLqtl4kMACIh1ACMIChQYQMAStsAAjhGQZcEn+a/sG0ghgGhA/JsJZDTiHNwAyCApM0e+s7+9XcyV5ESLuaKM4VESjLUolnRnlR6iXyMeY57D7qOeQm3XPE/sBwzmdcQxpTcnH/kaQsjt5iFpcD8Ivol+Crxy3UO9237QdRR7WqFfcUBnSr5Prlczemx+3WFTY9x+w3aNqjMyzLfaVfYVuk0+f+G33hX1X7+PSBSJYWoxJIYwDIkhUXkt9esJ6653rrhzdSsoDvFCK9w7KHl4KDm0tXrBSysEZY4WHjsWUpUVoyPbt7raJ3sdgEDwE3k2niLt+C8QswDfGz9//hqp9hJSDTRJICjGK0OJCZAIAECKaqgnCCT7uIK0eTkNhhaEGxpANBT6ySBrMYbSECu+qG2VwpGFCH2SFEmbCxRm1CDrs4jSklOnQV8UdBPJIr720ryR8tqiZsam1J5uE1NiEN+WDrRs6FZ7Q08Oka1EsUpZMuWpBKZckF+liHdGe3kQZcaYKcoePc5f96NlKVchT4nivsYBvU90Vef9emKzBOeEUJKIJP6VoxvRFAA=");
 
 export default CircleUser;

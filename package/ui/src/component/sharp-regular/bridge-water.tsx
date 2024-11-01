@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge-water` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-water?s=sharp-regular bridge-water}
  * @preview ![bridge-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bridge-water.svg)
  */
-const BridgeWater: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M576 208l0-48 0-48 0-48-48 0L48 64 0 64l0 48 0 48 0 48c44.2 0 80 35.8 80 80l0 59.5L96 336l18.6 13.4 1.1 .8s0 0 0 0s0 0 0 0c4.4 3.2 8.5 6.1 12.3 8.7l0-70.9c0-53.7-33.1-99.7-80-118.7L48 112l480 0 0 57.3c-46.9 19-80 65-80 118.7l0 70.9c3.8-2.6 7.8-5.5 12.3-8.7c0 0 0 0 0 0L480 336l16 11.5 0-59.5c0-44.2 35.8-80 80-80zM352 272l0 104.3c10.7 4 21.8 6.7 32 6.7c5.2 0 10.5-.7 16-1.9L400 272c0-61.9-50.1-112-112-112s-112 50.1-112 112l0 109.1c5.5 1.2 10.8 1.9 16 1.9c10.2 0 21.3-2.7 32-6.7L224 272c0-35.3 28.7-64 64-64s64 28.7 64 64zM79 456.9c6.5-3.7 12.2-7.4 16.9-10.7c4.7 3.3 10.5 7 16.9 10.7c19.3 11 47.6 23.1 79.1 23.1s59.7-12.2 79.1-23.1c6.5-3.7 12.2-7.4 16.9-10.7c4.7 3.3 10.5 7 16.9 10.7c19.3 11 47.6 23.1 79.1 23.1s59.7-12.2 79.1-23.1c6.5-3.7 12.2-7.4 16.9-10.7c4.8 3.3 10.5 7 17 10.7c19.3 11 47.6 23.1 79.1 23.1l0-48c-19.7 0-39.5-7.8-55.4-16.9c-15.4-8.7-27-19.1-40-30.7l-.7-.6-.7 .6c-13 11.6-24.6 22-40 30.7c-15.9 9-35.6 16.9-55.3 16.9s-39.5-7.8-55.3-16.9c-15.4-8.7-27-19.1-40-30.7l-.7-.6-.7 .6c-13 11.6-24.6 22-40 30.7c-15.9 9-35.6 16.9-55.3 16.9s-39.5-7.8-55.3-16.9c-15.4-8.7-27.2-19.3-40.3-30.9l-.4-.4-.4 .4c-13 11.6-24.8 22.2-40.2 30.9C39.4 424.2 19.7 432 0 432l0 48c31.5 0 59.7-12.2 79-23.1z" />
-    </Icon>
-);
+const BridgeWater = createIcon("bridge-water", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABsAAAAKjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDSQsGAAE2AiQDCAQgBYMtBzMbzAXIHoPj7mKIejxKWcrj/6TFjod/9HjvS/JVM5U5QdignZ48tn9vJ/Ds9gTD83C/99z3K4oi15aJaxxocdnzVYANuG22YRPVbg+sUBNuJgrAU3sqbf6v+fzSrgHLjuDQohcFlPG8EucHuAQdzqJpw4HMhqN9UZxtuXfwjwrCLUKkPhNp2JKGpRNk8SB7KCA5qjzC7vVD44OQXSQKUgBRCQCDlqeMc/UzniZu/1LitnEIiEFALpAiRT0B+koF6snkyGSCp/L/f/8PzAkgCslzE5ChADfBfQAZSKRZNjq9aNGVz6bPxTKrhaDzylQQQpSWbmNEzTRL9WznHVWfxKnyXUuifIgrxZsocTjQ1HG0EJbG6cp9e4H0wbIHgZge0K193KkrXJZuQ6v386pPzV2e+BauAwpM4mz+qrwv5jLb5CZ7kUXEL6BjOzEitzl90Xn33+jOojsGq6M4mG4dvbbSXoo+v7UFwNT5EYrHr/TvekpX/zVVPEznIU7o57e+YvpWpY8BS+iWb5WK126r+K++fq1/FVey1uh8S5Sp3M+cTL8sU+moCxYcfB/ePVire483in91B9bRs50ZlYiIUGkev4FERCC586yj3OOAQFBy6ap0dsW+W1w2Ac8f6st2P/+fJgOVOyiWgCBt+9uaoQyBLg+glMQmGjtfFEhcQ0PetZxDAoQyCJAoVEaAVF2VBMiU0UaAAg10E6BQGVNIRVYiVDNT+UQ5a/lUd5v5TDWX+QJ9XS8Wqpa0mPVS1P8lc4ZbaNi6vNq+Y947v+zYjfpUl+k+eTha3ISJVrTVIlazig0sZAFL2WC4dYyrbGQlwz1iGADJddJeR7ne8nT/ozPdlNaxnqVjIz9bH7nn01ra5PtqhRIJUeysIZEQSbkPzGv3vgMAAAA=");
 
 export default BridgeWater;

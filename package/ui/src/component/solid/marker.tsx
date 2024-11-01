@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `marker` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/marker?s=solid marker}
  * @preview ![marker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/marker.svg)
  */
-const Marker: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M481 31C445.1-4.8 386.9-4.8 351 31l-15 15L322.9 33C294.8 4.9 249.2 4.9 221.1 33L135 119c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0L255 66.9c9.4-9.4 24.6-9.4 33.9 0L302.1 80 186.3 195.7 316.3 325.7 481 161c35.9-35.9 35.9-94.1 0-129.9zM293.7 348.3L163.7 218.3 99.5 282.5c-48 48-80.8 109.2-94.1 175.8l-5 25c-1.6 7.9 .9 16 6.6 21.7s13.8 8.1 21.7 6.6l25-5c66.6-13.3 127.8-46.1 175.8-94.1l64.2-64.2z" />
-    </Icon>
-);
+const Marker = createIcon("marker", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBQwsGAAE2AiQDCAQgBYMtBy0bwATIhofn7R47980E8ERSBauD2EllvOuKLIN2VcF//i/3/NaiA/xGh7JHaSALbM/nGyzArIs3BT4tzBLF3jbEsCGFLyQsSCIa0/GCjpDHm9l+ZUhX0qc4VT80ftTAfpIKGYCoDoDhM6ZM9t7LeBnxSekx8YmJCIjhoBDIkKGxAINkAo3lCuRywcsoleg/sCCAKEvIxMuxeBimgE1CkvK8da1KZark03lrxRX3K0YcbVc76oaKdEdT43KDW21nxJ3WdWJqTIsZ8SD2dJg5fdr0qfHt1Ppxvs6Fem3jhxkzWtyvfv/n5p8u/9TLq2+0pvUbv/jU1CZNpk6b5ssvq1RJIh7wqS1b7Nnj5k0PWrd+8MagPZI8dJjx42ovG6fx4cPv77estpHGm0EgWPJi9K4F1Qb9Vr5SAq/f+PXPdmXp/9I78W+6j/ISCLJOpU7mJg4uXxdILsV2LeCLAkk/CbxrZRcFCBURICmrogCZRqoLkKuoowBlNNVbgLIqmiITeQWhtnkdJJVtApk+doBcbQ9BGYN8kC2rdmSRpMaB+pDLGmOh0ZuK7l26FQOKZZVqwSHz9MBiO2q3PXe1h72W22C9rZZZapWtht9scmGbdcZ43Gg/VOiui24KAxTHjefd0y2z2RarbLC+zDJQcT/TznZ/cHtIJyLYQ1GSiFT2p4q9GQAA");
 
 export default Marker;

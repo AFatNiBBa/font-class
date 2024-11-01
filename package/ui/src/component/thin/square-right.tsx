@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-right?s=thin square-right}
  * @preview ![square-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-right.svg)
  */
-const SquareRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 96c0-26.5-21.5-48-48-48L64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320zM384 32c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0zM368 256c0 7.2-2.9 14.2-8 19.3L260.3 375c-5.7 5.7-13.5 9-21.7 9c-16.9 0-30.6-13.7-30.6-30.6l0-49.4-88 0c-22.1 0-40-17.9-40-40l0-16c0-22.1 17.9-40 40-40l88 0 0-49.4c0-16.9 13.7-30.6 30.6-30.6c8.1 0 15.9 3.2 21.7 9L360 236.7c5.1 5.1 8 12.1 8 19.3zm-19.3-8L249 148.3c-2.7-2.7-6.5-4.3-10.3-4.3c-8.1 0-14.6 6.5-14.6 14.6l0 57.4c0 4.4-3.6 8-8 8l-96 0c-13.3 0-24 10.7-24 24l0 16c0 13.3 10.7 24 24 24l96 0c4.4 0 8 3.6 8 8l0 57.4c0 8.1 6.5 14.6 14.6 14.6c3.9 0 7.6-1.5 10.3-4.3L348.7 264c2.1-2.1 3.3-5 3.3-8s-1.2-5.9-3.3-8z" />
-    </Icon>
-);
+const SquareRight = createIcon("square-right", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjQAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCSwsGAAE2AiQDCAQgBYMtBzMbTgXIjsQ4JvKLKOwiHv5/rfK+X9V1dhsGsZaYAogKAdyocQF0RDYnMro7pPZd38ip8cZLBXxWgqKdh09Ltf74v/EKFHS2+T5N5Dyw6QRtu9Mccyj2SVraluT4zHHZQh7POUeF9Ez6Bg+VD41/9budJMsARBsANh1/ZJ/xv+KviG+aEt/Yg4DYDEqBDBmGBFgrExiSK5HLBX9Fs4n/gSUBRIE+MoEcBe7Co4AcJHmeDwzMmFqrNPLjapXq+c/2RDw5vR6vdz3el+KZ7iemNeKt3qcGs81vzIp4pz/F0zPfnlqPN2e/O5DFc3Pem9E4enPX0Xi8em/PkxFRjQjf0vtUrbb2vu5j8YTpxx077snq412irq7G633imWm1eKJbuMB9vcfHU3FLz+R32979j2/O+8ZHp2ff8tvCjRb+9m22EePQ3Xy5nfYqYKrt7S9vxMG5rX/Wrj/7bHfXG3ff3VjkBO3vjbW3aR97r/0Eiwhi/W5Vu74242y6hyXFD41VijPOcKi7TfehM5xRrNL4oVhy9tkmVyqTgUDwcs+qH09vXfv/hFoC/4y1dnLzrxhP72KCBIJsbnOuU2IcEB/AT0pxnckxjkBykxxda92TAoQqAiSFqgCZQW0C5KrmCFAxYpkAhaojMpFPFLqcOuCk7ko4s9wNcK7LZ3DFWp/rha7IvJH2JfozmLCdA9uWykXzF5arSzXSGQcj83RNuSzOvC5VZsFG57ncZa5xrnNc6BoGXWWfda1LbbfAbb6otMh8C5VWK7fTZ+E4pl/lahfK3P6cNcrz6kzX2e2zQEmIcDFPkohUv9H0awYAAAA=");
 
 export default SquareRight;

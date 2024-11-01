@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ring` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ring?s=solid ring}
  * @preview ![ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ring.svg)
  */
-const Ring: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 208c0 7.8 4.4 18.7 17.1 30.3C126.5 214.1 188.9 200 256 200s129.5 14.1 174.9 38.3C443.6 226.7 448 215.8 448 208c0-12.3-10.8-32-47.9-50.6C364.9 139.8 314 128 256 128s-108.9 11.8-144.1 29.4C74.8 176 64 195.7 64 208zm192 40c-47 0-89.3 7.6-122.9 19.7C166.3 280.2 208.8 288 256 288s89.7-7.8 122.9-20.3C345.3 255.6 303 248 256 248zM0 208c0-49.6 39.4-85.8 83.3-107.8C129.1 77.3 190.3 64 256 64s126.9 13.3 172.7 36.2c43.9 22 83.3 58.2 83.3 107.8l0 96c0 49.6-39.4 85.8-83.3 107.8C382.9 434.7 321.7 448 256 448s-126.9-13.3-172.7-36.2C39.4 389.8 0 353.6 0 304l0-96z" />
-    </Icon>
-);
+const Ring = createIcon("ring", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABaAAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBUQsGAAE2AiQDCAQgBYMtBysbzATIjsQ4JvINhV3Ew//b/dc+t6oBV0uKROcwIw0yh430r0mF+GVILf7IqfHGSwV85EU7D58+Ppea0r3xClSsmZ2LFZkNbEATn4DtbcOjUBg2GlEiJBGNaWN1hTzeZ8eVI11KP+NEedP4VSPHSSplAKImAEbOmjbVt2VRFvFTKeInkxEQI0EhkCFDUwGGyASayhXI5YKyKJXwP7AggChP9k0gRzmMwXxADpIsz+tVal6lXLV8Zjq28qyzHb/M+jTjSf0j9c+3+3Hmxwl36541g/QfZnyZPAdn3ugc8WSwu9fbjo+aiasdHg74OP3zzHedHjePVo9rPv7dzyt/NvzPKrXGtVlllRauVaXStafP186O+vza50+vVfqm/Ti9Wo03Xqte45Ta53vZW3N8q+WWA2zNvXvzxfI08zUQCHr9fd+iGkP+r1glgV/e/Tn/hpL0GBUlEGRdSl3MTyARAIAUO7VKEEiGyMirVnVegFAZAZLyKguQaaKmALnKOgtQTnN9BSivsmkykVcS6low4KSqLXCmnwNwrq43cDlDfGeUVzeygKLCgfrPxY/TwNi1ome3HsWgYhnrdIwQeT642BY67KRaRzhopU022m6F5dbYrqCtpto7bDDOA8f6oEJP3fRQGKQ4zrbbM62w1TZrbLKRlwxW3Fc62Ol3dwQ5EdxeIkkiUv4cAA==");
 
 export default Ring;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-from-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-from-line?s=sharp-regular arrow-down-from-line}
  * @preview ![arrow-down-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-down-from-line.svg)
  */
-const ArrowDownFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M209.3 461.5L192 479.4l-17.3-17.9L46.7 328.7 30.1 311.4l34.6-33.3 16.7 17.3 86.7 90L168 184l0-24 48 0 0 24 0 201.3 86.7-90 16.7-17.3 34.6 33.3-16.7 17.3-128 132.8zM24 80L0 80 0 32l24 0 336 0 24 0 0 48-24 0L24 80z" />
-    </Icon>
-);
+const ArrowDownFromLine = createIcon("arrow-down-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABWAAAAHYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBJQsGAAE2AiQDCAQgBYMtBzsbsATIjsM4FjxShSb84+H/58r7fjJzdjNlSIlIEbJvFQlbC6TqgIXc1hLoKVXm6W/+eedRgM8CkLGt80AW+JznCXS+ti/wPAss0y9gf3daikPwSSyxJP2yHZ8d8jgft1RI91LcDC+Nrzq7QVLJAEQrAMxavXyZF03RFPG2/oh4awkCYhYoBTJk6CbAVJlAN7kSuVzQFPW6+Q8sCSCq0t0J5MgxHjMAOUhSnvep1SrN81W1SrFy4JCBg2NVDI4Z0TlWhrq9FkKsjq4xLQbGinVFrYioNRdF7/utfO91V5+ag8s3hNIvq9Z6rZOROnndtP1SCpevP73QCbABtyeigbjW8fzhe5tbTv3fUEvgy/OfP+VfUf1zXEnQIIEgG1ofakNcgbgiAAApTukdVxBIhkv0U5u5LUAoECCpKgTIdNVKgFxhiAAVPYwToKqwXCbyRqGdjRUkzRwFmfEuglw7D0DFVC+lqnaRiQ758OTPLW4+huYVlaOGjywnl1NNoaQBd9kp5bIw8JT1DIJNuxx2yAk77bDXCYQcs0w96aD5FDzPh0qjDDdSabJy27xfXmWnY47b67BDPs8U5XlxoFN0+CAoJwFGX3pvIlK7rceOHT49jKH4YXzGD+MwAAA=");
 
 export default ArrowDownFromLine;

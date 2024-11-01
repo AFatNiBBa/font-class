@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brackets-curly` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brackets-curly?s=regular brackets-curly}
  * @preview ![brackets-curly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/brackets-curly.svg)
  */
-const BracketsCurly: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M152 32c-48.6 0-88 39.4-88 88l0 45.5c0 10.6-4.2 20.8-11.7 28.3L7 239c-9.4 9.4-9.4 24.6 0 33.9l45.3 45.3c7.5 7.5 11.7 17.7 11.7 28.3L64 392c0 48.6 39.4 88 88 88l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0c-22.1 0-40-17.9-40-40l0-45.5c0-23.3-9.3-45.7-25.8-62.2L57.9 256l28.3-28.3c16.5-16.5 25.8-38.9 25.8-62.2l0-45.5c0-22.1 17.9-40 40-40l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0zm272 0l-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c22.1 0 40 17.9 40 40l0 45.5c0 23.3 9.3 45.7 25.8 62.2L518.1 256l-28.3 28.3c-16.5 16.5-25.8 38.9-25.8 62.2l0 45.5c0 22.1-17.9 40-40 40l-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c48.6 0 88-39.4 88-88l0-45.5c0-10.6 4.2-20.8 11.7-28.3L569 273c9.4-9.4 9.4-24.6 0-33.9l-45.3-45.3c-7.5-7.5-11.7-17.7-11.7-28.3l0-45.5c0-48.6-39.4-88-88-88z" />
-    </Icon>
-);
+const BracketsCurly = createIcon("brackets-curly", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABhgAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCNAsGAAE2AiQDCAQgBYMtBzUbOQXIHoNts3nEsCSHnHKAZIzBvnj42u937u4iZtGSJk9M15JpRPEESXw6ofFDpBSGSob6rJKrniOf2T4Ep0IEhXIG5w6Sry/w/KlTNeM8G4NvEI7ZWDY1Flq2Lena3KtABbp5DS5IrQWqKPZtIirUEZRfREiUzePzeNtDiY+4VUd6TM/gJn5o/DI0SlKXARCdAGBzPyUOt7/0HfFUHRFfYkBAbAKYRMjIGEVgBVdgFM8kKIrgm6rK/QcyCCDqwV+RQEHBEc4ABSSp8HxXpHw5L13Kl+QcWhLtjIKOen1pcciP5ojX6V03KW2PLJtLaLp/nojWZ6zJJvYniIYGFqT9hXKJVLIxuGQmpZm+HdeKLC95sxIJoXMyi7EAWhn2J3zpnrvxnmrvb+q5/NnCe+AkXBV7qtqz9/dnXHTag3d1FeiIpD7dJEeoP87VduBd11BznZFVf+6rDZUjlyZoe3A5xc5AIAlNrdvPAxAIqsORuAKl759IygH8nP//5wurlbTF2UOjBII8V9nKTYEKdAoI+ynaYQwFhOQw8eNdW90JEJoRIKnXLEA2QoVA0WwWgTrj3BCo12wbVxQxQq+8CpJWByBb1geKXgegzoo7v15vcE1QMiDpA5geLtGweczJ3pF5s2GpyFYlhEkftmxatvsOK9iKcg3qtSpTqkqrYJrFRW3qhGtYmB9inNhzxHhjx/VbPZ38Zi2q+tI5ZBYf7L1rqV3vbwUOB/PNg5louyMpipuLSmrKWlvsStqaa7sA");
 
 export default BracketsCurly;

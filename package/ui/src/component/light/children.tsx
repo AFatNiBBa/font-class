@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `children` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/children?s=light children}
  * @preview ![children](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/children.svg)
  */
-const Children: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM96 64a64 64 0 1 1 128 0A64 64 0 1 1 96 64zm416 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-96 0a64 64 0 1 1 128 0A64 64 0 1 1 416 64zm64 128c-11.6 0-22.6 3.4-32 9.6L448 352l64 0 0-150.4c-9.4-6.2-20.4-9.6-32-9.6zM448 496c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-252.7-42.4 69.1c-4.6 7.5-14.5 9.9-22 5.3s-9.9-14.5-5.3-22L403.2 203c16.4-26.7 45.5-43 76.8-43s60.4 16.3 76.8 43l56.8 92.6c4.6 7.5 2.3 17.4-5.3 22s-17.4 2.3-22-5.3L544 243.3 544 496c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-112-64 0 0 112zM96 400l-24 0c-5 0-9.7-2.3-12.7-6.3s-4-9.1-2.8-13.9l38-141.2L45.3 312.8c-4.9 7.4-14.8 9.4-22.2 4.5s-9.4-14.8-4.5-22.2L79.8 203c16.8-25.3 44.4-41.1 74.5-42.9c1.4-.1 2.9-.2 4.4-.2l1.3 0 1.3 0c1.5 0 2.9 .1 4.4 .2c30.1 1.8 57.7 17.6 74.5 42.9l61.1 92.1c4.9 7.4 2.9 17.3-4.5 22.2s-17.3 2.9-22.2-4.5l-49.2-74.2 38 141.2c1.3 4.8 .3 9.9-2.8 13.9s-7.7 6.3-12.7 6.3l-24 0 0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96-64 0 0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96zm60.5-207.9c-10 .9-18.4 7.9-21.1 17.7L92.9 368l134.2 0L184.5 209.8c-2.6-9.8-11.1-16.8-21.1-17.7c-1.2-.1-2.3-.1-3.5-.1s-2.3 0-3.5 .1z" />
-    </Icon>
-);
+const Children = createIcon("children", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABtAAAAKPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDWAsGAAE2AiQDCAQgBYMtBy8b1wXIhofn86o/9yWtVLdr4AyFD3Bnaysszfm/pi6sCvAbDeUicZlYFNXPJzDRUQcd0Gw4a5EJ0Q7XDXxAc2gX6s8hj79jhBrSFeltnFfdaHytm5NJ8gxAtAJg7ub1Kz3/eXwe8fb/jxBvW46AmAdKgQwZegowQybQU65ELhd8Hv//L/4DSwKIWg0vGZWjwGv4iHssSX2edzTlsZVBs1sqNU35Jv2DFNtP6BxxaXFm9WLHd7qkclaXy6K4bvhdQ+/odfWQ24fd2bvJRG189YhKmPfbcnH10s4RG+Lizpd22Rz3LX5l5Ma4pHpx500hyqQi7F5UijMr0so0+axKQ53FjfGINTobi8KLLE2bb65mMZXYFJcOOrNov9LvztY7v+379t5ve+645tM5vbn5dBm6a/bljz9+mcl2rjddYPZx7R9cao5LfdDeZ3Tz5583/2voAme98viOKTvc0dp6R+7e8fgrZz1o/mWKOdQch+6yS9dms/qFkzoPPNvYpc589fYDZ2x361cpi0gpfHXr0X3g7a+e+QF/B3eetLC+q11DWbtCq1Tv92NnvBerh17jVIPGai8GEhAI0tbfBu7SMuPX+koCXz75/a81k43/P58OTHeiXgJBNuL/EXak4zWqpgMF0HhTHK2f4Z4EkufUa6610aUChAIBklqFAJkeWgXIFYYLUKO3iQLUKqyXibxBqNppB0mjw0BmkmNAruohUGOG17y1qpEBNQaS2C9l9KIzd+GgcuyoMeW08jNnxeEUyXunl87qIUfLmqF4qL0d4mBH2sue9nPkSXm4lYGjHGSRSbzQA5XGGmWM0jRlcPE7velkOtwREnknw/uZrkxvH+Joc/OhWJc0KsfJSBKR6mEdAAAA");
 
 export default Children;

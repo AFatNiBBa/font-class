@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye-dropper-half` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-dropper-half?s=solid eye-dropper-half}
  * @preview ![eye-dropper-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/eye-dropper-half.svg)
  */
-const EyeDropperHalf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240.1 130.8L341.6 29.2c39-39 102.2-39 141.1 0s39 102.2 0 141.1L381.2 271.9l9.4 9.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l9.4 9.4zm-63.9 71.8l45.3 45.3L149.3 320l85.5 0 29.4-29.4 45.3 45.3L188.7 456.6c-15 15-35.4 23.4-56.6 23.4l-42.4 0L49.8 506.6c-12.7 8.5-29.6 6.8-40.4-4s-12.5-27.7-4-40.4L32 422.3l0-42.4c0-21.2 8.4-41.6 23.4-56.6L176.1 202.6z" />
-    </Icon>
-);
+const EyeDropperHalf = createIcon("eye-dropper-half", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABZwAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBUQsGAAE2AiQDCAQgBYMtBzcb2ATIngl2LJcpU1jIfvHwvF34576ZaDfGRFIldIbKdPjooKL6boV6M+QLvxBqKzd//q/5/NKODvAbHVoUlha2H2Y+v1uATSQ9hWajDWcTxek2GUIdkvhKSJBEdHx5fNEF8nifHVWFdCt9jQvyofGrZo6S1MgARF0AjJ03a6ZPf4qfIr6qJL4yHQExFhQCGTK0FGCETKClXIFcLvgpKpXyH1gQQFSleKKT09tNwzxADpKU5+3blKvUyueWq5QWzZs97035TNdXDnaZHY3imoMNr5ZON54b1+NQkxvlM40azR45auTsKEf3GBmz42WpFEPiaafbLXpHxKHu89q9rvv6d18v/9qfI5bB/q5Ll9++hfiNhdx0qlatUzdh3nzwgK1Toyd/J8+eMtlcX/vOzp22t+1mt0W9//lCN21X7NwBBII3je59Vp0R/ysn8Mu7P5cHKyuS9BrVJRBkPSo9LE4CnG2Beim2a4cvCiTjJHjVmq4LEEoIkFRVEiDTQl0BciXdBaiitYECVFUySybyGkJDSzpIatoEMoPsA7mG3oIqRvjMraphZAnFpgP7nkua5KGJu4q+vfoUw4ppxLgcoXk6vFiWu2yvla44a7kN1ttqmaVW2erIzWYG26wzKSIm+qFCX730URim2E4fj8+1zGZbrLLB+jZnuOK83sX2uL0rtEQp+9mbJCLVXbZrWc9PLcrmntcVAAA=");
 
 export default EyeDropperHalf;

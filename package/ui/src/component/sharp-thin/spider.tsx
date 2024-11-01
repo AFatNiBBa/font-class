@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spider` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spider?s=sharp-thin spider}
  * @preview ![spider](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/spider.svg)
  */
-const Spider: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M383.2 4.4l56 112c1.5 2.9 1 6.4-1.1 8.8L340.8 236.4l133-35 22.6-67.9 15.2 5.1-24 72c-.9 2.6-2.9 4.5-5.6 5.2L344.2 252 482 288.3c2.6 .7 4.7 2.6 5.6 5.2l24 72-15.2 5.1-22.6-67.9L358.2 272.2l80.2 107c1.6 2.1 2 4.8 1.2 7.3l-40 120-15.2-5.1 38.7-116-57.7-77c1.7 7.5 2.6 15.3 2.6 23.4l0 8.3C368 400 317.5 448 256 448s-112-48-112-107.8l0-8.3c0-8 .9-15.8 2.6-23.3l-57.7 77 38.7 116-15.2 5.1-40-120c-.8-2.5-.4-5.2 1.2-7.3l80.2-107L38.2 302.6 15.6 370.5 .4 365.5l24-72c.9-2.6 2.9-4.5 5.6-5.2L167.8 252 30 215.7c-2.6-.7-4.7-2.6-5.6-5.2l-24-72 15.2-5.1 22.6 67.9 133 35L74 125.3c-2.1-2.4-2.6-5.9-1.1-8.8l56-112 14.3 7.2L89.6 118.8 184 226.7l0-82.7c0-27.4 15.3-51.2 37.9-63.4l7-3.8 3.8 7L256 127.1l23.3-43.3 3.8-7 7 3.8c22.5 12.2 37.9 36 37.9 63.4l0 82.7 94.4-107.9L368.8 11.6l14.3-7.2zM200 144l0 109.1 0 4-3.2 2.4c-22.5 16.9-36.8 43-36.8 72.3l0 8.3c0 50.4 42.7 91.8 96 91.8s96-41.4 96-91.8l0-8.3c0-29.3-14.3-55.4-36.8-72.3l-3.2-2.4 0-4L312 144c0-18.4-8.9-34.8-22.7-45L263 147.8l-7 13.1-7-13.1L222.7 99c-13.8 10.2-22.7 26.6-22.7 45z" />
-    </Icon>
-);
+const Spider = createIcon("spider", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABoAAAAKrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDRQsGAAE2AiQDCAQgBYMtBy0bwgXIHoVxw31EDLGU8XH6Um/Gw//bat33q6YxawEvenCXiDWJzCXSfDfTlLPZTAjdCMwL2Ptrsfid/3E4bm3K5ydJqdccPJaNqdGc5wkEWLSXBRRIYJkmYA3bRtajrbg+xvMMeXzjkCbSUyk8ED80ruvlLpIsAxBdATB/68bVfvwn/on4vfEZ8buVCIj5oBDIkKGvALNkAn3lCuRywT/RaLD/wIIAoiQIE1eO7/wCfwFykKQ8v3tEh6ZO+RY6pf3RzVs2P1beFFtFvBKb4tEa2RyPVXC8HFtiC8QOP6qAZzxGPDvszUmfj3i7f8TttU1xIvJ4bWtAI7Q9ATGLVrdEbYezGa8CKyNemFmLjY6xEf1f9fPmM7VNgijHl33Fc8PfmvzFyHcGRDw/oxrhiaeHjItyVGNCvNqz/nbXt/8f2JHc8s3Us/SwcvO+M+6qqyzQorZUj3H3N6O+ceXmZS0qC13sb+0JzdnQq1oNuWj6KiM7ttXp5o1//rlxsxMdR0yx6Gux7cuaD+qO45LxLW6Z0YPZqrirbt+ZZ3tMPesPk07YfdJGvSceNMUJJ0xx0MTeG5ewEfnzc0+Hybm64f3aKr311m23yfeV6De8Lndax70POuWUB+3tCASCnw7+KbrMarUE/vv66+KvqFGS3kZbCQTZqMYouxJIBAAgxRX1BIHkA0lId/S4eDPdHiGCJe1hOtNH10q59kZSk/4m4+QGG2UibyeU7YaUdHSeMlNco1zZJ9Rklp8TJeXIhrJxIBr/JLMt6VmLxxXjx4wrZhSbRdk0OvV6eGZx2jfsCm8aDhc64qwzLjnskOMudfILVqcvO23JnmyxLyqMN8Y4hRmK25Xns7c47IKLjjvrjB1lpuL94DBX9jsPh+YP1D4hH5JEClLp4rnjhw5fAAAAAA==");
 
 export default Spider;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-rolling-eyes` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-rolling-eyes?s=sharp-thin face-rolling-eyes}
  * @preview ![face-rolling-eyes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/face-rolling-eyes.svg)
  */
-const FaceRollingEyes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM192 376l128 0 8 0 0 16-8 0-128 0-8 0 0-16 8 0zm-32-88c35.3 0 64-28.7 64-64c0-20.9-10-39.5-25.6-51.2c1 3.6 1.6 7.3 1.6 11.2c0 22.1-17.9 40-40 40s-40-17.9-40-40c0-3.9 .6-7.6 1.6-11.2C106 184.5 96 203.1 96 224c0 35.3 28.7 64 64 64zM80 224a80 80 0 1 1 160 0A80 80 0 1 1 80 224zm56-40a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm280 40c0-20.9-10.1-39.5-25.6-51.2c1 3.6 1.6 7.3 1.6 11.2c0 22.1-17.9 40-40 40s-40-17.9-40-40c0-3.9 .6-7.6 1.6-11.2C298 184.5 288 203.1 288 224c0 35.3 28.7 64 64 64s64-28.7 64-64zm-64 80a80 80 0 1 1 0-160 80 80 0 1 1 0 160zm0-144a24 24 0 1 0 0 48 24 24 0 1 0 0-48z" />
-    </Icon>
-);
+const FaceRollingEyes = createIcon("face-rolling-eyes", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABsQAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDGgsGAAE2AiQDCAQgBYMtBzgbogXIjtFjRxJCgkcSBjDG8SOo36/sefsP8m/DwBJQh+1VZFiRAkWKwSFYALD707j33Qe87QazCW6mSlhniJs69TznoQC+UdD20PgGWatragUq1ot1TJugEappreBYa3McgjeIj+AgEk+QF9GwPdWwdIQszq1EJu1PH9hlrYovmmogKRQAIOoAAGMXh/rDzWe8jHgvHRJ3TAcCYixAGwgFvKMFBEYgCrRA0gbIZIKXqPTP/0AMAohysLsmkKEKR3ERkIGkRkZSNmc2r1lDTotJZpMi+JMyUp/3i9ibdTvfOuVun+Nhz/qe8L9VtW36g/6nIosvxkfcz35QtW3mvbE3Fj4dc33G3XzrrPvjbi5ayMyZEDkDIWbE4e4o1puPGQ1CdYMBRlujIVTbeEU2ariqG3Fg+LnjqdqEw4nTmXrg/o7LyjG9BVmytsWy8boy7GyvLfNt+0PTTZMNG5QJ+SatNd7aj+bdjLt+XMOY9/wv6h7t3l30/70xPpubf/KtQdNTt97jb0/J6SYii8C1zdXVLTyg9be0XnywLkDdvHZdA0rdi+t8/voZn9JgC5fBrzsTOLq4ZmN5JovO5oZz54qxtLG+yMwgyhg9+/qmxZEVN4nZrRF6EECQLmucam8sqT3iH41JAHh99vdlfItKN0k6hkoJBIUeJRNxCSQCAJCiglaCQHJIDdbWoj0ChBwBknK5AAXN8SCQyXWHQJlWbCFQLjcfUWR0CA3EbyApWgsKBqkEmQb2QZkRnp1yDaIQtUTMEf+MsX4e8l2H+5pZYCd8mJlkIGJl1hmfVrtUsMcQjZChUIEy6dJkK3NICX+/XD6/FezrgzBLZixgTvDl8v3mCOlKlMpWqKCu4gzfbxqoWA83hEHQUPsJJIlI/FdCNP1CcKZPIQA=");
 
 export default FaceRollingEyes;

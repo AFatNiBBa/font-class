@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-medical?s=regular folder-medical}
  * @preview ![folder-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/folder-medical.svg)
  */
-const FolderMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M251.7 127.6s0 0 0 0c10.5 10.5 24.7 16.4 39.6 16.4L448 144c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l133.5 0c4.2 0 8.3 1.7 11.3 4.7l33.9-33.9L208.8 84.7l42.9 42.9zm33.9-33.9L242.7 50.7c-12-12-28.3-18.7-45.3-18.7L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L291.3 96c-2.1 0-4.2-.8-5.7-2.3zM224 256l-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 48z" />
-    </Icon>
-);
+const FolderMedical = createIcon("folder-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfQAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCGAsGAAE2AiQDCAQgBYMtBzUbHQXIjpQuZyTx8P2aX+e+7qT+dIahh4gUgWNwQLgIWYmgWOghu6RWUTLky37qVM7lPBSLvlFQxtogq63vfV6BAtYmLa9QLWA1rYBV3caKBr28GM45gkfE0K6h+YI8voybKqRH6VfcaBWN33RxlqSSAYjWAJi9ZsVy3z2NpxG/ND4mfrEUATEblAIZMnQXYJpMoLtciVwueBqNRvoPLAkgqrjSCeSo4ACOAnKQZHnes8/gWqVFvrpWKTacinu1WtzrkOJu++Zxv2MWDzrV4kqHmTEtps+cMX1GvSjirUHvdU7xaPD7/VvEu0M/6JbFC0PqA4q43HFlUSvuthf3OtQC2INOEdj9jkWQ7v196q3rf/h166/+mUmj08uetqTl05MEzTp2XnVeG23U29T5Vp9u57zWpk0xS9GmzWsnFdb4sqzN9NdHgdiAynCUUZ0QwlAYMr4PAsHjpte+r9W0v5tqCTz/4q/VX1HjaZLqaJJAkA1rDLMxgUQAAFIc1SdBINkhw5/a3H0BQoEASVUhQKab1gLkCkMFqOhpvABVhRUykTcT2tukIGnuAMhMcAzk2vsQVEzzQ1bVPrKgY0KG+fIlLrDw/EPl6BGjyinltEfYOKLK7tRy2Rx0NM8MxkVb7bPXYVtstsNhgx60vDxijwUeMt8XlUYbYZTSFOX28PH0alscdMgO++ylfaYqz6eDHPWXD4aTMO4YzUkiUsut110d/gYBAAAA");
 
 export default FolderMedical;

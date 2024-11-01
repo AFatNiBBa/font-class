@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-rectangle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-rectangle?s=solid users-rectangle}
  * @preview ![users-rectangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/users-rectangle.svg)
  */
-const UsersRectangle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M96 0C43 0 0 43 0 96L0 416c0 53 43 96 96 96l448 0c53 0 96-43 96-96l0-320c0-53-43-96-96-96L96 0zM64 96c0-17.7 14.3-32 32-32l448 0c17.7 0 32 14.3 32 32l0 320c0 17.7-14.3 32-32 32L96 448c-17.7 0-32-14.3-32-32L64 96zm159.8 80a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM96 309.3c0 14.7 11.9 26.7 26.7 26.7l56.1 0c8-34.1 32.8-61.7 65.2-73.6c-7.5-4.1-16.2-6.4-25.3-6.4l-69.3 0C119.9 256 96 279.9 96 309.3zM461.2 336l56.1 0c14.7 0 26.7-11.9 26.7-26.7c0-29.5-23.9-53.3-53.3-53.3l-69.3 0c-9.2 0-17.8 2.3-25.3 6.4c32.4 11.9 57.2 39.5 65.2 73.6zM372 289c-3.9-.7-7.9-1-12-1l-80 0c-4.1 0-8.1 .3-12 1c-26 4.4-47.3 22.7-55.9 47c-2.7 7.5-4.1 15.6-4.1 24c0 13.3 10.7 24 24 24l176 0c13.3 0 24-10.7 24-24c0-8.4-1.4-16.5-4.1-24c-8.6-24.3-29.9-42.6-55.9-47zM512 176a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM320 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const UsersRectangle = createIcon("users-rectangle", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABpAAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yCdwsGAAE2AiQDCAQgBYMtBzYbfQXIjtEnY4gyc8QzRxBxefHw//fj2+e8+6NCi5IaaCJxljdnUCY1D/XyEWkqG37H+6d3id8PWPAVgldhssZmK5e1oyfN/+X43j0/OsDPR3AoY+McFS4fYz4PJAuwF5WNTQll4VigFmu7szm2Q9gntMQIx7njs4US/9W4BvJBvgDX4pXGb7rGSS0VAEQ3ALC1Ly0BNF/xa8RzfU18EQcExBbANESFCuMQrGILjOOYBooi+Bp1jf+BFAQQjcA/LUFBKx7hBaCA1Fw4eqNiea9aLGa4Yk5mG5fkvbVG3Btn4cbMvocYb+cOjdm4OXvgKUo/q4241CbGuYEFyBjunycinB1cRHbGQ8sd8y2dFYttq1399BULBtfmDq0WCcGt/nmdEoYwu2OrWouWBGf7t232dTMXSY1cGczDIjEZH9Ha9My6kHxrd2h74Hllvbd6jIfpgezgzeSl8kXR5+ED8KY5mODNm2ENCB6nGBdJprnSqZEJhIJ5l/UsiTQe72sksNzQBZ0Rb8hJ1sxzSaTkf/+4B0e92RzR4dZ5yZEgeX6VxcrZ75jMSxbeuvLqK1bvOIMdA2LfX9NzzVey7rY5OxobOzqn8wEgEBz45PNdJPX/L2BYAN/fffzQ6WpNnskDNEsQVPO1vfwcBsAGEMvoZKrcUCDd0owvtd1dAUIrAqRGrQJUxsggKFrNQdBgkgcEjVrtwhZFCKFfQQOp3TFQWTEAin6XoMGq+2ij/mDbKGNhzBcxMVLCEZOoi6Mz9aXTosKaHeWH/ei2ZN1JTTawECo1adSuQrka7QJtlZDo0CBSQyJ8EeXCkTPKFz2u3IuZItqqTc2YPx/FD33vWevUO9uAysK4CzJSEik1+RkOrRVl7SWNVfUVAA==");
 
 export default UsersRectangle;

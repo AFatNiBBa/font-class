@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chair` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chair?s=sharp-thin chair}
  * @preview ![chair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chair.svg)
  */
-const Chair: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M304 16l0 240-16 0 0-240-56 0 0 240-16 0 0-240-56 0 0 240-16 0 0-240L80 16l0 240-16 0L64 16 64 0 80 0 368 0l16 0 0 16 0 240-16 0 0-240-64 0zM16 368l416 0 0-12.2L406.1 304 41.9 304 16 355.8 16 368zM0 368l0-16 32-64 384 0 32 64 0 16 0 16-16 0-32 0 0 120 0 8-16 0 0-8 0-120L64 384l0 120 0 8-16 0 0-8 0-120-32 0L0 384l0-16z" />
-    </Icon>
-);
+const Chair = createIcon("chair", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABaQAAAHdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyCDAsGAAE2AiQDCAQgBYMtBywbCAXIhod/7Pq6r6q+Gmdq5JqJYEeiczqGVuxsmQT/bCrEfXHqeS6YCy2QNwraWLjm+RqYdI/zClQsV+95rSK1YqnkFbDuTWsqldg3SUYz6fim4+sOWTyyVQPJg+RnXOMXjV91dZVEmgKIHADTVyxZrNYarRE/1T8mfrIQATEdFAIpUvQQYJJUoIdMgUwmaI16Pf0HFgQQjeixCcjQgD04CMhAIs2ywdX+5YZqtry+t7RDKEVEKQTmEeUqSW+tVqr1EVGJYUFtjIxqDI9kl5ixSrD5e6Xo+yJ/8Xufn7f/bOjbv/76K/eXcf7C6DQ6lw8TpNN7w3OKKm7ZW9RKDvW6i+ry2F+c1CzX7KRp5pMUeQ4Egp7Zlz02tJn0f3M5Ab988eev+FdUr0UteYFmCQjSQfVB1kYNoiYAAEkc1zdqCCS2SFFYcfc0CyUQEo1KkOouh0zJQGjQy2jWqCwx0ZG1CDtYFyBRcQhSY5yDTAcfQoNJvosbdYjU3Xhn4T97KXNWZPa1YviQYcWEYjs2BA9i2/nEwqz2O57X+sNN2x2w31HbbLXL0YU4bHF2zD5zNHy2DyoMN8QwhQmK49myf7ltDjtilwP290smKu6H/RzXd/cHI0GMI7QSCZE0vGIA");
 
 export default Chair;

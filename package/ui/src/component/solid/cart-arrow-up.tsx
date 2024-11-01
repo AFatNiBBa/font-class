@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-arrow-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-arrow-up?s=solid cart-arrow-up}
  * @preview ![cart-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cart-arrow-up.svg)
  */
-const CartArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48l45.5 0c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5L488 384c13.3 0 24-10.7 24-24s-10.7-24-24-24l-288.3 0c-11.5 0-21.4-8.2-23.6-19.5L170.7 288 312 288l0-110.1-23 23c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l64-64c9.4-9.4 24.6-9.4 33.9 0l64 64c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-23-23L360 288l99.2 0c32.6 0 61.1-21.8 69.5-53.3l41-152.3C576.6 57 557.4 32 531.1 32l-411 0C111 12.8 91.6 0 69.5 0L24 0zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const CartArrowUp = createIcon("cart-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfQAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCBQsGAAE2AiQDCAQgBYMtBzQbCQXIHgl2TORfCEVmjBFEa2HVs3sXANoAELk4dIAKyYVd8s+eQb6+fqq9fdchoLf45v9cz/d8VCAfbGJDi7LU4kjbqC/6+QlM7N78KoSiwCaKtzvtIYn2KNIos3Ccc1zWkMc32Skl0uX0Oc6nH41/NHOKpFoGIOoCYOzi+TO9/zF+jPisIvGZ6QiIsaAQyJChpQAjZAIt5QrkcsGPUanY/8CCAKIM3yGBHCVswi5ADpIszyfUqlWjVCtfVKNUffnNppc71ojTjZbG5a63atSKOy2udKoZt5s3jxoR0SVudrrSYn7c6Tg3Lje92albCGGi850Wi+Nq4wsi68qg6kuJdLX5Rvhm00vNLndcX5TbHQ6KtxaOa3e/7v3/+HzT55q8m9uo0dxeyuX+tU3p07tFoWsvFGNnOGuXTWrV+vrrSsYrvv76zE12Wa9Zr56bu1zS7/HbPlf917bXxYq/1+8aAr2r7zp+fFf124FAsKjK0Rur64z4v2qNBH5++W5/lZdpVLqPqhIIsh6VHlakMUhMowC0UxzSDjoWSFbJAO61pgsChOoIkJRVFyDTQl0BctV1F6CktYEClFU3XybyakJDKxtIatoLMoOcBLmGXoCSET7YZQ0jUzVGUZifXuIkCk1sKvr26lMMK6aZymoPFRaHF2K5yyE30BVabbLbLgdstMFWBwiyz0zvoJ0mcfBEHSr01UsfhWGK7fJx9SIb7bPfVrvtissMV9zXuzjEj+8KWoKk/aSSRKRar1Xo6WP7dh/ueXAPAAA=");
 
 export default CartArrowUp;

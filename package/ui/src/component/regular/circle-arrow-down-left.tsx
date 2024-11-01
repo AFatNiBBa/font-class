@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-arrow-down-left` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-arrow-down-left?s=regular circle-arrow-down-left}
  * @preview ![circle-arrow-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-arrow-down-left.svg)
  */
-const CircleArrowDownLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 0 0 416 208 208 0 1 0 0-416zm0 464A256 256 0 1 1 256 0a256 256 0 1 1 0 512zm64-144l-152 0c-13.3 0-24-10.7-24-24l0-160c0-13.3 10.7-24 24-24s24 10.7 24 24l0 102.1L327 151c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-135 135 94.1 0c13.3 0 24 10.7 24 24s-10.7 24-24 24z" />
-    </Icon>
-);
+const CircleArrowDownLeft = createIcon("circle-arrow-down-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdwAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBcAsGAAE2AiQDCAQgBYMtBz0b/QTIhqCyWWX1jA6kY5hjZgvpgdAiAHvjTbb+Xc3/5Z7f86MD/EaHMratDTKmrdnYzxNIrHeeJ5QFlmkCFkvWzn7wBtEtkr7viyTD9hk2HpDH23GrEum+9A1uKW8af2rtAkkpAxCNADBpxZJ5PqiJmoivq68SX5uDgJgECoEMGdoJMFYm0E6uQC4X1ES1yr+BBQFELfhzEshRwmpsA+QgyfK8bdt2lVL9fHmlVF5zbWTEGwNfcGbQi6PerFwf8/aQl+Ps4JdGv1VOv82P+G7yR3F2yscLvl/x67xvJ33ozMQP5n6zdEW5Un66TcQDPZ5qLVbEM93ua7U0KvFU63u7dn6+0fN/d/pm+zeqt4z6kz8+eGHEiBc++OPPUaP+lOUfprmV28a0mzKl3Zjbbp1Gd9mYcMu9SCxq/qjmi2p+u0uX1K//ww9BWE9j9nkgEDR6quOLGxqO/a9OJYHf3/r3//Y1Uv0gSc+jjgSCrG+1r7UJJAIAkOK4zgkCyWIZvGo9dwsQygiQ1FIWINNWIwFyZX0EKOlgmAC1lC2Ribyu0Mw6AUk9h0BmuJMg18zLoGSsz71amkXmYJR7UM+7+OkamnarGNR/YDG6GHY67TNEuhxTLIs9j8eNXrRouwP2O2qbrXY5qpDD5oXH7DN9Bk/zQYVB+huoMFqxPW7vL7fNYUfscsD+fM0YxXm3p+Pz/b1ISYA6WC1JRGrxDyfbb9PhwwdO9PM88gICAA==");
 
 export default CircleArrowDownLeft;

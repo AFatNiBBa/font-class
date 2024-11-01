@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `can-food` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/can-food?s=sharp-regular can-food}
  * @preview ![can-food](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/can-food.svg)
  */
-const CanFood: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 434.3c-3.4 3-10.2 7.5-21.7 12.2C273.5 456.6 235.9 464 192 464s-81.5-7.4-106.3-17.5c-11.5-4.7-18.3-9.2-21.7-12.2l0-144.8c13.8 6 30 11 48 14.7l0 63.9 160 0 0-63.9c18-3.8 34.2-8.8 48-14.7l0 144.8zm48 5.7l0-200 0-168c0-39.8-78.8-72-176-72S16 32.2 16 72l0 168 0 200c0 39.8 78.8 72 176 72s176-32.2 176-72zM304 72c0 13.3-50.1 24-112 24S80 85.3 80 72s50.1-24 112-24s112 10.7 112 24zM224 320l-64 0 0-64 64 0 0 64z" />
-    </Icon>
-);
+const CanFood = createIcon("can-food", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbQAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBZgsGAAE2AiQDCAQgBYMtBy8b5QTIhocHvcc/N0kBp4AxkZOwQlM3j1rrD03tH9/Uqec5DwXwjYI2pq0JssDnPI9AALPber3n5VqxVlEsS3WbmGRHFL4SI0giOj47zu6Qxc44qQjJpeQtTvQ3jb/UcIhEkRRAlAdA/6kTR3v+KT5FvCk8JN4YiYDoD3KBFClqC9BLKlBbJkcmE3yKQkF+A3MCiKL0H09AhqKYhHmADCSyLKtas1KJUkXKZFNKFSm58GyjB5M+dLlVNeJmY1EqIm431TlExOURr6e8G/ayuhCXhr+a/HHkm1ozzjaKuFHycJNbVS80vV3qSOObVSaVLFUyolRocK/8vX/qv13yVt8yg4qtHWCAtcUGnTTsRj9X9HNz6MmfL1++vKNupXSEEdJKde94CbN915b4xY927X78KmGE6GP/78ec/DAIBAtnr5o5t1yvn8VLJeDLs//+S88rX3ge65J7KC4BQdqq0Mqs2Ke88rFOAACS2KKB80GBxCgZftXSzgsQSiJAoqiSAqRqKS9ApqSWAhRRV2cBiippolRkJYTKZg+QKG09SHWxG2Qquw+K6OWFU1TlSGOLiAziZxc7BKHBU3n7Nu3yHvkyYGS4YHXYM9/mm20pheZ00xJrrbHJYosstwmQDUb7m602xIMH+6Jce220k+shP46fL0+x2AYbLbfWmjamp/y+3cwWv745SQlF7WA1kRBJ8YXz17R+owA=");
 
 export default CanFood;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pagelines` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pagelines?s=brands pagelines}
  * @preview ![pagelines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/pagelines.svg)
  */
-const Pagelines: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M384 312.7c-55.1 136.7-187.1 54-187.1 54-40.5 81.8-107.4 134.4-184.6 134.7-16.1 0-16.6-24.4 0-24.4 64.4-.3 120.5-42.7 157.2-110.1-41.1 15.9-118.6 27.9-161.6-82.2 109-44.9 159.1 11.2 178.3 45.5 9.9-24.4 17-50.9 21.6-79.7 0 0-139.7 21.9-149.5-98.1 119.1-47.9 152.6 76.7 152.6 76.7 1.6-16.7 3.3-52.6 3.3-53.4 0 0-106.3-73.7-38.1-165.2 124.6 43 61.4 162.4 61.4 162.4.5 1.6.5 23.8 0 33.4 0 0 45.2-89 136.4-57.5-4.2 134-141.9 106.4-141.9 106.4-4.4 27.4-11.2 53.4-20 77.5 0 0 83-91.8 172-20z" />
-    </Icon>
-);
+const Pagelines = createIcon("pagelines", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfQAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiBfgsGAAE2AiQDCAQgBYMtBzAb/gTIjoTcROtHpvKAFvHwvB71575kAWdmAaNiZf1KqIwWLIWKg+cWNsEB0a7nivTG//3N83/+KcBnFNpYuDSQBRLNeZ5AwGP5P0/kC2UaiKeQecsxoqz2TSaapMfvejwjkMf+OK8M6XL6cK5SFT9o4ARJmQxAVAfA0NnTJ3rlm/gm4oP/R+ID4xEQw0AhkGG+sQADZMITyBXI5YJv4v//9R9YEECUZXcmkCPDSqwD5CCJPF9YqUyVfFaeq7j8yRYw7rWC8UA+TN1mwDHiQnD1zv5796BF0C7r9vYc26YN7GZCxanfVvr2XRuoLjbSQ2qXNbU6303M+kpt5ogLjfTWcc+/z9KLr2s0ltvnveeB9Inq2U8l36oPHD419Bd++Z7vx9LHT398d+vJSuQpB07fGfPKJ69/NnNmzx7Thh39fl1RWr178333auHP38uqpEjVV868d++n5+8/d/1sDVS5Uvn44/svv/oyH1KnjpKSNW+krdtWrXoVCART3hr/8+JqA/4qXymB717+5W/tLfr/jSMpQ3kJBFmH/ztYEEcgjggAQIpdSuMIAslCidFa2QUBQkUESMqqKECmkeoC5CpqL0AZTfUUoKyKpstEXkGobeGApLKtkOnlIORqewbKGOBtu6zakfFMYInwy0sd5dHIqaJrpy5Fv2IZ6CJ1uDLsX2xrbXalQltcWmWzTXZYaYW1djhmm4neThuNivBIDyp01UkXhX6K4/j5eJaVttlurc026Zj+ivtWG7vi+rYwE2PtxpckIlV4ijwzAQAAAA==");
 
 export default Pagelines;

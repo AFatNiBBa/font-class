@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pig` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pig?s=thin pig}
  * @preview ![pig](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pig.svg)
  */
-const Pig: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M483.8 32c-3.5 0-6.9 .6-10.1 1.9L415.4 56.3c-12.9 5-23.8 13.3-31.9 23.7c-.8 0-1.5 0-2.3 0L240 80C157 80 88.8 143.1 80.8 224l-35.6 0C29.1 224 16 210.9 16 194.8l0-1.5c0-11.7 7.5-22 18.5-25.7l24-8c4.2-1.4 6.5-5.9 5.1-10.1s-5.9-6.5-10.1-5.1l-24 8C11.9 158.3 0 174.7 0 193.3l0 1.5c0 25 20.2 45.2 45.2 45.2L80 240l0 16c0 52.1 27.7 97.8 69.2 123l30.4 85c3.4 9.5 12.5 15.9 22.6 15.9l45.9 0c13.3 0 24-10.7 24-24l0-40 48 0 64 0 0 40c0 13.3 10.7 24 24 24l45.9 0c10.1 0 19.2-6.4 22.6-15.9l18.4-51.5c32.5-7.7 60.9-27.7 79.1-56c1.9-3 4.9-4.6 7.7-4.6l26.3 0c17.7 0 32-14.3 32-32l0-80c0-17.7-14.3-32-32-32l-19.9 0c-1.1 0-2.1-.2-2.8-.6c-12.6-5.9-23.6-14.9-31.7-26.3c27.9-10.7 46.4-37.5 46.4-67.6C600 99.4 588.6 88 574.4 88L512 88l0-27.8C512 44.6 499.4 32 483.8 32zm27.5 72l63.1 0c5.3 0 9.6 4.3 9.6 9.6c0 24.3-15.5 45.8-38.6 53.5l-.8 .3c-11-16.5-24.3-31-39.3-43.2c2.9-6.3 4.9-13.1 5.9-20.2zM479.4 48.8c1.4-.5 2.9-.8 4.4-.8c6.8 0 12.2 5.5 12.2 12.2L496 94c0 10.2-2.8 19.9-7.7 28.3c-2 3.5-1.2 8 2.1 10.4c18.1 13.7 33.7 30.9 45.7 51c10.1 16.8 24.9 30 42.4 38.2c3.1 1.5 6.4 2.1 9.6 2.1l19.9 0c8.8 0 16 7.2 16 16l0 80c0 8.8-7.2 16-16 16l-26.3 0c-9 0-16.7 5-21.2 11.9c-16.6 25.9-43.1 43.9-73.2 49.9c-2.8 .6-5 2.5-6 5.2l-19.9 55.7c-1.1 3.2-4.2 5.3-7.5 5.3L408 464c-4.4 0-8-3.6-8-8l0-48c0-4.4-3.6-8-8-8l-72 0-56 0c-4.4 0-8 3.6-8 8l0 48c0 4.4-3.6 8-8 8l-45.9 0c-3.4 0-6.4-2.1-7.5-5.3L163.3 371c-.6-1.8-1.9-3.3-3.5-4.2C121.6 344.6 96 303.3 96 256l0-16c0-79.5 64.5-144 144-144l141.2 0c2 0 4 0 6 .1c2.7 .1 5.3-1.2 6.9-3.5c6.5-9.5 15.8-17.1 27.1-21.4l58.2-22.4zM464 256a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Pig = createIcon("pig", false, "data:font/woff2;base64,d09GMgABAAAAAAOEAAoAAAAABvwAAAM5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhESDegsGAAE2AiQDCAQgBYMtByob9AXIvgyYY4jhtP6DNE1klg2KRex7yV2TZ2nfkG/+0GWPBs+XLn1/BbZ3DRpb5wApQExSgKADgDLljasAAA88x/JfhVbZnd07q14mYAGVwQRm7XsTqOc7sOnJtudPsKmSiWJVTBNS83/nftjdsi0adK57XpokRyOeTm4XuiR5EAAGkmHmF06eCySy+XDKXDG35YZbCKw+z+We37Sjq0C+NYVDuTGtuWis59mcAj1PaNkaomdxlih2NO/FQQjtQh2uwJbfhgNqKz2CtcF2ea1gEQrLIoJ4gEWpf36869oXKoBH/4c8sg0EQBoAEBDAAiwgNwGgFgsBcrMJgI2NQDxgc/+BdQgAiAt+TAFgAy4QhxeMy6Cw8WeM9o6SjJNidzGOHrrCayYHvBV6vtBya3Ap0LgiCEVke11UjiD0C8kbIfP8zcYIMq89WryzbPYNHk4FjUG2lgajsKJ8rcgYWRlGIjI/CPUdgUM5dzS2y7ZK00Jno805xzx/U6HAse5EsELUDSKyGjtafGvh6yWT3OTplD1RybecrEJLGEhACxxAsHSp2YUkj5U45pr2z1ebkpUyLodR0ZadXCDMXBes5Qsc8469zUe734dI/YPQeBdBVsPqS/K0pZpCxabSIVqk31QXKgoyPt8tiKdYq2yWd6LPqrTPNCk3KSZ2WMYHKvdHOAmpyxZplx/rI16xM01XzBxfR27JU6emczatG709LzH91E6DhAHNkt/qwVMUwLsvvDhf/MjxiJ+9Nl7k2XV/Z1TFj0z0i5bD7desUz5dhuPn64ryrjEKeeS+WapWUJTYBXa5m40nXiBS6gyAPHbwMZ+0Wl9RAGQ9/T368n9h6BggEQWAgFXqf+kVnAdAeAYAoKZkCgVWvkgAxXNhomwy4dmGoKGFwkXDIhcPNpqScMirsrTT7LjLIXYSWV9vAkUy42FRxWzY+M7DoZa7VRc/wFCuwKjyjJm51ieWm+rtMuWCGsFiS60CrmRXawa7g80pcqQ4PmiIscaYZLBBhpvU4ydo3ZhstCZrXGM/FCivjHICNQSnu4/NLjQ5wUQpzavn11FTcH+2mCnr04vjiCLyW0FRofjZcWrc8AsA");
 
 export default Pig;

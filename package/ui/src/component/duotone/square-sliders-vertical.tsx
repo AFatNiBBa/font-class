@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-sliders-vertical` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-sliders-vertical?s=duotone square-sliders-vertical}
  * @preview ![square-sliders-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-sliders-vertical.svg)
  */
-const SquareSlidersVertical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm64 96c0 17.7 14.3 32 32 32l16 0 0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 16 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32-16 0c-17.7 0-32 14.3-32 32zM224 320c0 17.7 14.3 32 32 32l16 0 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 16 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-160c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 160-16 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M96 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0zM256 288c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0z" />
-    </Icon>
-);
+const SquareSlidersVertical = createIcon("square-sliders-vertical", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABswAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDJQsIAAE2AiQDCgQgBYMtB2ob4QXIhof/X/P9feZO0nbyijwFRtUqYHKA+AklsWMjsr4l0Jk69Tzna5w/SESDtofm4gs86ZxagQpsG5sqVKFqyWqAfZtShx1F+EWEbM6JxI5n+u7ZBfJ4O51XIXuS/Yxb/X8A41ddnSfTIgGINgCYs2LJYt/Wo57Fz40PiZ8tQkDMBaVAQkIPAaZLAj3kSuRyQT1rNKhHo1ESQFT1XzqBKprhQ3wJyEEmk/K8U6du48bVKi3z5bVKseZqh4j7Tnd8UKvFtc6P4kynh0WxjEHSs2EHvj+oZbw55N2uWTwe/E7/pnhr6Hvd0jJVEFECoRdgMsIURgzO1Q73iSJaff+Avu+1ee/3Pj9v/9mG3q0uc7lVYy+32kia818+dbbTxqItbV+Z7ZW2bYvZiArRrA3qpI1XIHlFm0y3UUYlTnqgDi+v+nteBwLBp5/OWLqh9fT/m9cy8Mvnf/47nteox7fZe2guA0Ea3hhubXwLMCPgl8riuL7xrdkIJKcl+K5NHgoQCgTIVBUCJN21ESBXGCZARS8TBKgqLJFE3kLoYN0CmSaHQDLRCZDr4ANQMd13aVWHSL4reZ7065i+kEILlpVjRo4up5aXpSm7o1Anp5Vqf/Dx0jEk7bXdAfsdtc1Wuxwl5GGLi2P2WSjBC3xQaYyRRitNVZrrH/XlJD3siF28al9kmnJ/PNhxuf+QFGWQd6wVSSKySL0DwBoRoTOPjPiylYNhoD6S+vYDAA==");
 
 export default SquareSlidersVertical;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-circle-user` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-circle-user?s=sharp-regular calendar-circle-user}
  * @preview ![calendar-circle-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/calendar-circle-user.svg)
  */
-const CalendarCircleUser: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M152 0l0 24 0 40 144 0 0-40 0-24 48 0 0 24 0 40 104 0 0 80 0 48-16 0-32 0-48 0L48 192l0 272 236.5 0c12.3 18.8 28 35.1 46.3 48L48 512 0 512l0-48L0 192l0-48L0 64l104 0 0-40 0-24 48 0zM288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm224.7 77.7L488 416l-112 0-24.7 29.7c20.4 21.2 49 34.3 80.7 34.3s60.3-13.2 80.7-34.3zM480 336a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const CalendarCircleUser = createIcon("calendar-circle-user", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABegAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCEwsGAAE2AiQDCAQgBYMtBzsbHgXIjsQ4JvGLKEwiqHRSPSvZdSf7kHUAiE8YcQqEGQcZUEoQu0Lep7935//8b8DHn+Cj7NVavDDd4zyBxDaupV2ehVmimLWz/4EMdItB+pRLMmx+2GQLeXwbD6uQHk/f4KHyofGrTm4nqWQAoiUAZq5fvdRnP8VPEV833ia+thgBMROUAhkydBVgikygq1yJXC74KRqN8B9YEkBU4XUJ5KjiKM4AcpDkeT6yS71ZrdIsX1erFJsFUQswSgrRop5a8fMD60VERnhFNt4c/tRXJ39Yu2/i+0NfdmPISxPeK+6d9MGwV2LtoIGDihgQL8/9fPi6J/o90+epjo/3fbr/s116vdDyhd99s+8bj37aEZkBHpbQjkZcM8ABK4zQ8kZLv+vyZpcRI7Q0wgoH+MK7jvcvKdu07tevdZuy7G8qQuSnpQ9g4wkP+Iu/yqPFscuXjxX1cSAQbJr75KvbW0z5v0ktgV8+OJ6u8VmakV5AEwkE2ZDGEFvSDBBqALkU5/QiXxRI9srhXeseESAUCJBUFQJkumgpQK4wWICK7sYKUFVYLRN5U6GtrR0kdSdBZpyrINfWm6Biis+zVW0j8zjBX4QHX+o8C82dVY4cNqKcVE4rmuhEHJ2cXC67A87FjoGy1D7HHXPGXnscdMaQpywtnHXUPAbP9UOlkYYZoTRJuV1/nL/OXqecdtBxx/I0k5XnkwOc4/0HSiAB7SglSSJS2wtpDv2dow29rg==");
 
 export default CalendarCircleUser;

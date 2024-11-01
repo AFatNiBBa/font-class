@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paperclip` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paperclip?s=thin paperclip}
  * @preview ![paperclip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/paperclip.svg)
  */
-const Paperclip: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M386.3 61.7c-32.2-32.2-84.5-32.2-116.7 0l-192 192c-49.9 49.9-49.9 130.8 0 180.7s130.8 49.9 180.7 0l152-152c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3l-152 152c-56.1 56.1-147.2 56.1-203.3 0s-56.1-147.2 0-203.3l192-192c38.5-38.5 100.8-38.5 139.3 0s38.5 100.8 0 139.3L213.9 373.4c-24.8 24.8-65.7 22.6-87.7-4.9c-18.8-23.4-16.9-57.2 4.3-78.5L282.3 138.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L141.9 301.4c-15.5 15.5-16.8 40.1-3.2 57.2c16 20 45.8 21.6 63.9 3.5L386.3 178.3c32.2-32.2 32.2-84.5 0-116.7z" />
-    </Icon>
-);
+const Paperclip = createIcon("paperclip", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABbAAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBYQsGAAE2AiQDCAQgBYMtBzAb4QQRlZo1yD4SY2fcH2eCDmMTSuLhn7ne7ksyvwCUKREoJpBlSbiO1arKf9YyBsDIqfHGSwW8+B3Ow8avfSrV3t8Wn0Dj0+tXbN+Gs4nirJ3dQhJ9GSR94pMME2+YHCCLmxYpkFxPvsDZ+KHxtXoOkUhTAFEVAEOmTpzgo9Iojfji/6fiC+MQEENBLpAiRUMB+ksFGsrkyGSC0vj/f/MfmAsgStB9JCBDiomYC8hAIrJsXIVCpWxKhUL5pQ/LR5xoPSne2DfgbYWTg6bG1VqXa3Jc+RMD38V+5VHHbvPAPpl1v+Xdtjca3GxAuFRzX63LLe7UuSz2t236sOrDb4tfLPli//6jRYpH3783pVu3KYtTbPHVqyZO7NHDOZ/26fPpLai3Bs7XrVp9/Q7r3z1/puu+/TW+LNT84crMFa54U7nq7Xd51W+fPbetWNwGBIKXtT48m1ul/69lKyTgq1ff/5Uvr/v/h3iYPERZCQjS9v+3nxUfqau2MCmAvCS2aIpvEkiMk8C7VnRFgFAeARIlyguQaqCqAJny2glQ0FgPAUqUN1EqsnJCTbMrnKhoPZzqaTecqekxXNDfx16JmpEqlqAWwr8uFY7kwIipvEvHznnffJgooq5wfrFfPq213mIbbbDXkrVrNi1etHwTgzZMCDevHimBI36Yd+nYOe+bL+e326cs3rBx+do1YZl++X699Ra5vw1WkwC6HkkkIZJy15d72AAA");
 
 export default Paperclip;

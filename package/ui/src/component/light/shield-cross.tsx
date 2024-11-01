@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-cross` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-cross?s=light shield-cross}
  * @preview ![shield-cross](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shield-cross.svg)
  */
-const ShieldCross: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M243.5 37.3c8-3.4 17-3.4 25 0l176.7 75c11.3 4.8 18.9 15.5 18.8 27.6c-.5 94-39.4 259.8-195.5 334.5c-7.9 3.8-17.2 3.8-25.1 0C87.3 399.6 48.5 233.8 48 139.8c-.1-12.1 7.5-22.8 18.8-27.6l176.7-75zM281 7.8c-16-6.8-34-6.8-50 0L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.7 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2L281 7.8zM272 112c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64-128 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0 0 192c0 8.8 7.2 16 16 16s16-7.2 16-16l0-192 128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0 0-64z" />
-    </Icon>
-);
+const ShieldCross = createIcon("shield-cross", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdgAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBfgsGAAE2AiQDCAQgBYMtBzMbAQXIhof/t4u671d1D6AaSRGsTIysFZgi7bOpkG5fnHqehaF5vsiD8hkLl8a3B8ds93kFClhc2vNauMsKFlHs7mwWimiPJC2xJMe3HJ875PFe9FEi3Uzf43z+0fhFKydJ8gxANATAxEXz5vq4EpWI76tvEN+bjYCYBAqBDBnaCjBGJtBWrkAuF1SiWnX/gQUBRBk9ZQI5SliOPYAcJFmet2xb1CnVyxfWKdVedr3Zgnii1dHi5Qkfz7/S/MdJnw56FLe7Lxr9ZJf58XjTKx4s+MFyT3T/adG5TseaX+u2cP615leaitphJFeb1Qkhud4iok7A9LG1Izo92/DZ3zp+v/F7/9x6/fOXZmmZBlTrP3dnTtcvvpjT7bnb9asDUsuXZ805dy4UlO+92DQ1moKFfhP6TlzQ6/ZtDxW6OkSp6Yv3yusTNTfVr1TqT3BUgQbgfYwTH08wAQgE/z9z9PyqBmP+q1kngZ/f/eO/NGWD6gfxV3oWNSUQZH2qfSxPNNAg/hIAJSkO6iTMLJDMlwF9a13XBAi1ESApqy1Apo2GAuRq6y1ASXtDBSirbZ5M5LWEplZ0PqlrD58Z5hCfa+o1vmSMr5KyppHpma4l+i8vZxpHph4rBvYbUIwqlqVmqI4a90cX226Pg37UEy7YaJed9ttgvS0VGLXX3PyAHaZJ5FQzKgzUzwCFUYrj5tFZiFCcfUmdm+eHjFbcD3s4KK/uCUFCsoPcShKR6u7bvGXD9vV9XwoAAA==");
 
 export default ShieldCross;

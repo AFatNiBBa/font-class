@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flower-tulip` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flower-tulip?s=solid flower-tulip}
  * @preview ![flower-tulip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/flower-tulip.svg)
  */
-const FlowerTulip: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 44l0 84c0 70.7 57.3 128 128 128l0 138.8C192.1 349.5 139.5 320 80 320l-50.5 0C13.2 320 0 333.2 0 349.5C0 439.3 72.7 512 162.5 512l61.5 0 32 0 32 0 61.5 0C439.3 512 512 439.3 512 349.5c0-16.3-13.2-29.5-29.5-29.5L432 320c-59.5 0-112.1 29.5-144 74.8L288 256c70.7 0 128-57.3 128-128l0-84c0-6.6-5.4-12-12-12c-2.6 0-5.1 .8-7.2 2.4L336 80 268.8 5.3c-3-3.4-7.4-5.3-11.9-5.3l-1.7 0c-4.5 0-8.9 1.9-11.9 5.3L176 80 115.2 34.4c-2.1-1.6-4.6-2.4-7.2-2.4c-6.6 0-12 5.4-12 12z" />
-    </Icon>
-);
+const FlowerTulip = createIcon("flower-tulip", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABaAAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBVQsGAAE2AiQDCAQgBYMtBzMb2ATIhofn7b4691W1PoasHpsLMptNAWTjcMWUkTD9vTv/558+4DP6aGPh0r19rdrnCSQ2PPAuXRZYpglY5i1jilLuO5mpSXo89/ilK+TxTnaLGtKT6RLu7x8aP2jvFpKGDEA0A8DU1csX+vDb+Dbi4v+vERfNR0BMBYVAhgydBJggE+gkVyCXC76N//9P/4EFAUQtPFoCOTIswhpADpLI81nlmmq+qlxTWi88NfG9meL5cW+XSnFXq0d8NPG9leXyJ5M/WH1jm8dsasybAyLOard7xGNtXGNBrIqZ1mpFLJJzj7Tq9nSzp39qvLTrks0Pr8C9a0ZMX3K3Y8unDxymesXt1Zjx5eWZMfG6GXH5y5hRvf2KynADpy8/drcl00fUrFA6kzdeNm2eGXVJ3Yxyq8sa8zMlIBD8dXjBtZubTvi1vpzA92//8gf/jPz/YZKeRr0EgmzA/wNsSCARAIAUp3RLEEhmSfCuFY8JEEoIkNQqCZDpqJkAuZL+AtToYqQAtUqWy0TeILSycYCk4ijIjHItyLXyCqgxwVm/VqvIQooICOJFFztLQzOPFUMHDSnGFcuakFGC1f3xxTbX51Se9aWLdjnskBN22mGvEwo5ZmF00kGzPHimLyoMNcgQhXGK4257epWdjjlur8MOtUPGK+5LfZzyV/clMQHqMIUkEanyPyc38MTJA3uPAAAA");
 
 export default FlowerTulip;

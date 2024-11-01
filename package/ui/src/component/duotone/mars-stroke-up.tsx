@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mars-stroke-up` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-stroke-up?s=duotone mars-stroke-up}
  * @preview ![mars-stroke-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/mars-stroke-up.svg)
  */
-const MarsStrokeUp: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M96 352a64 64 0 1 0 128 0A64 64 0 1 0 96 352z" />
-        <path d="M148.7 4.7c6.2-6.2 16.4-6.2 22.6 0l64 64c4.6 4.6 5.9 11.5 3.5 17.4s-8.3 9.9-14.8 9.9l-40 0 0 24 32 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-32 0 0 24c0 .6 0 1.2-.1 1.8c77 11.6 136.1 78 136.1 158.2c0 88.4-71.6 160-160 160S0 440.4 0 352c0-80.2 59.1-146.7 136.1-158.2c0-.6-.1-1.2-.1-1.8l0-24-32 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l32 0 0-24L96 96c-6.5 0-12.3-3.9-14.8-9.9s-1.1-12.9 3.5-17.4l64-64zM256 352A96 96 0 1 0 64 352a96 96 0 1 0 192 0z" />
-    </Icon>
-);
+const MarsStrokeUp = createIcon("mars-stroke-up", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjgAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCHgsIAAE2AiQDCgQgBYMtB1gbSAXIjtRW+YQNFQ8fOsv3JdlzJ+8h6wAYquMAcJlUyC4zqXe2DXDtSv2f/3M9nzUN8AP4InHPB1I4iwiewOYHcpaWftRCZ3oGdreTXMoNFxkYDJcvybDoDKPiAFmsSG8pkTyTVPHA/Q9g/KqDWyQapwCiOQCmr1252Of1UZ9EtfYBUbUIATEDFAIpUnQWYJJUoLNMgUwmqE9qqY/aggCizMGpW5dRwjFcBGQgkYgsm9apSaXUJFtTKeUbn2qzPJ5o/XjrPEQl3ujwdC977DXfTP6k+8+TPl71y5RP17w29bO51+N6ROTxZsfn+lbUPd9u+2S7leuvd4x4ts+b+e1er7d/2rUOz/R+o3Kn71udnou1L/R/Z+B73V4c8G6/tzv3eLf5u793r+6pevxD2tN/3sN+2issb9NmeaG9iHc2bKyLmdXqzCAqUmG5buOGd0IMbNpPPr//ntqBDR2/4ZtNhzp0OLTpm286Mp+x27o1bfj774Y0Xg8EglEzHp22tdmk/xtVEtDw4Z//4g9J7fOYlryLRhIQpINqg2yKMxDTBAAgiTN6xDRsE0htlPCfWudJAUKOAImyXIBUJ80FyOQGClDS1WgBynIrpSJrLLS2WYNEneMgNcZlkGntfVAyyXdaWetIBY8TG+7alzyHQ7PniuFDhhUTiqYv8bLEUH9iMaz0O4O5/rDWHkcdccpuu+x3ipEnLDZPO2xOj5jtiwrDDTFMYYJiOjqX1zDthJP218X5KRMV69V+zvSr+8NqEsCILXOlRBJp20d6g19kWI8e3D349LHBQjzS/nBJPLA=");
 
 export default MarsStrokeUp;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `compress` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compress?s=light compress}
  * @preview ![compress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/compress.svg)
  */
-const Compress: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 112L16 160c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16l0-128zM16 320c-8.8 0-16 7.2-16 16s7.2 16 16 16l112 0 0 112c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128c0-8.8-7.2-16-16-16L16 320zM320 48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-112 0 0-112zM304 320c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16l0-112 112 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0z" />
-    </Icon>
-);
+const Compress = createIcon("compress", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABbAAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBWQsGAAE2AiQDCAQgBYMtBy8b2AQRlZLBZF8k2FSkPkf3WUQsK5Md4+S1qaen4TFq0jhMHn8SD//Nfd43mQVCi2pXlRWzri07II/ov62riisKSTm1qFYnF75qa405ACBglxUlePhjY3HZ6wPtMf29O//nfwM+o4801vRRge15nkAYZl02vUsgCyzTBKyjeS8OQogX2vCAHC9jURPpefqKu8GHxm9j7pDkAkD0AmDrsUN7lFVUEV/rxVe7EBDbwKxAgQKTAmxQCEzKZpFlQRV1Lf4DEUA0i16UQEYz9uMYIIMk59wfFZq68tHsSPupJ8OPBkV70KbHQx3xdCSO15bAdE+KNa/97DqH6b4SRCD8+KL5Rm/j79z+27vdVdV9zjk52l3dSG7c7WmYITNt3zAVrvRQ3YLX08N6Dj4PAsHit0g9G9a1BH69/79e/orqKsrUQKsEgmKxXjwdJUQpAAAprpiPEoFkuyx6105PBAjtCJA0axegMKFXgKzdggBNpq0K0KzdIYXIbcKgMy1IOp0HhTVXQTboHWiywYeq2WAUQMWBBPdMl6x8H3L7KLMCw2JXzcMJY7ctu+3gl1MhPiv6Y3+7dnp75F03vs2vwe6LlFmB4fTg8emmu5/p2P0ulvvz4F9fHGJPiSirg0pCJv1HBAAAAA==");
 
 export default Compress;

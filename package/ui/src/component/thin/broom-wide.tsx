@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `broom-wide` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/broom-wide?s=thin broom-wide}
  * @preview ![broom-wide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/broom-wide.svg)
  */
-const BroomWide: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M509.7 13.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-152 152-24.2-24.2c-20.2-20.2-51.4-24.6-76.3-10.7L16.4 246.9C6.3 252.5 0 263.2 0 274.8c0 8.5 3.4 16.6 9.3 22.6L214.7 502.7c6 6 14.1 9.3 22.6 9.3c11.6 0 22.3-6.3 27.9-16.4L392.6 266.2c13.9-25 9.5-56.1-10.7-76.3l-24.2-24.2 152-152zM310.8 141.4l59.7 59.7c15.2 15.2 18.4 38.5 8 57.3l-27.4 49.4-147-146.9 49.4-27.4c18.7-10.4 42.1-7.1 57.3 8zM189.6 168.9L343 322.4 251.1 487.8c-2.8 5.1-8.1 8.2-13.9 8.2c-4.2 0-8.3-1.7-11.3-4.7L97 362.3l60.7-60.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L85.7 351l-65-65c-3-3-4.7-7-4.7-11.3c0-5.8 3.1-11.1 8.2-13.9l165.4-91.9z" />
-    </Icon>
-);
+const BroomWide = createIcon("broom-wide", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcQAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbgsGAAE2AiQDCAQgBYMtBzEb7wTIhofn9aI/9yUzCygLWN+s3VEVVAua/7nm83t+DfiNDi2SUg8kEo+qVs8nMOBoPfANtMBmOgGbuY0cggZRronIEH4W2oXqBHk8ZYMS6fb0Gq4tHxrfaOYCSZYBiLoAGLt4/kzPfxgfRrxWeYR4zXQExDhQCGTI0FKAETKBlnIFcrngw6hUwn9gQQBRhidJIEcJC7EFkIMky/N2dVvUKNXKF9UoVd98a+NbGi6IbnFLp7s7LIibmp5ptDBurnFPk8VxZ/M7GneLxQvmzpt7X9M+sSimx62Nbm60YOGihVvJ6lc0XhTz4xabE4u0OLv/mHb3173/u7avbXrNfw8MHDh//q23Ouz7ceO6fXbKl6nWZa+/7rJaxTWnP3NDh/Y/HHbrrS+cego3t37/gBtu0NwbH/301JHmt2Hr8rtMrlaecOaMV9nc9WljxphQrnbgruVAIKj1zhtnV9cZ8VvVGgl8/OQPf9efkcrzKaX7UVUCQdaj0sOKhMr/KQkAQIpD2iUIJDNl4Nd0i7C0q+P9pKy6+JkW6nbIVdcdSlobOKGsuvkykVcTGlrJQVLTXsgMchJyDT0EJSO86JQ1jIxfPDv4313KJI1M3FT07dWnGFZMM02gDJtWhxfHepdDsdNVLtpkt10O2GiDrQ4oep+Z/kE7TVqhE31Roa9e+igMUzyXj6cX2Wif/bbabVdeZ7jC3u7i0Hq8q1gJGPtJJ4lI1ddRWO1JeQAAAA==");
 
 export default BroomWide;

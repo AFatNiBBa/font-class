@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `teddy-bear` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/teddy-bear?s=sharp-solid teddy-bear}
  * @preview ![teddy-bear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/teddy-bear.svg)
  */
-const TeddyBear: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M152 102C137.5 91.8 128 75 128 56c0-30.9 25.1-56 56-56c22.3 0 41.6 13.1 50.6 32L288 32l53.4 0c9-18.9 28.3-32 50.6-32c30.9 0 56 25.1 56 56c0 19-9.5 35.8-24 46l0 26c0 70.7-60.9 128-136 128s-136-57.3-136-128l0-26zm88 26a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm112-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm0 64c0-26.5-28.7-48-64-48s-64 21.5-64 48s28.7 48 64 48s64-21.5 64-48zm-32-8c0 13.3-14.3 24-32 24s-32-10.7-32-24s14.3-24 32-24s32 10.7 32 24zM88 148.6l29.7 37.7L143.5 219c73.7 93.5 215.4 93.5 289.1 0l25.8-32.7L488 148.6 563.4 208l-29.7 37.7-25.8 32.7c-17.7 22.4-37.9 41.3-59.9 56.7l0 64.9 40 0 8-48 80 16L552 512l-40 0-32 0L96 512l-32 0-40 0L0 368l80-16 8 48 40 0 0-64.9c-22-15.4-42.3-34.3-59.9-56.7L42.3 245.7 12.6 208 88 148.6zM384 384l-32-32-128 0-32 32 0 32 192 0 0-32z" />
-    </Icon>
-);
+const TeddyBear = createIcon("teddy-bear", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABoAAAALiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDAwsGAAE2AiQDCAQgBYMtBzEbhAXILgdsYy5UNyIONtjZyYr3YyA/FMk9TiyUCf4pOfL93T3AO1eB6IRIbmF2qaQ2qaDSRZU5HohjX28jg6ooOihKFzTTdpZCF3A9SuDbFR/efadcCwPLErl6AHimXye3L2onicooEAu0gMLIe9t0N3a3Eb3fPqlFVxH6vuY3H46ZdW7Y3CwGUJnpDkZIhmZIwRAK83/N55d2dICfj+BQorHy+d1SZ5nPJzDAjYob15w2nE0UZ24aETkHUQ4c5EVoLKXDGDosXQEX8jHsQADMXeg37M0fqj9y7IIREgYAgJIBAEDrwmA3jwMhgZCQd8GAvowAAdQFgCdggQXpBKCBJZDO8cBxhG8hwcd/YDEEAEXClzYAHAgB58AdAOAAGEHhLjNG49IqIxgQ4UbCAkInXsm9UyK08GSDCek20EPrf6/tczCPZvFYTDIjM98DnChBXClR03Xc3MN328aIQ7FnmVx2s6SdZxCNVNcUFqr7XgbqCEVIqiDEQqoRFKcsXzik0PARjSoj5EuParpc4ul55XmhJxyOruyn/hK7tdul7Yigf/+Lf3f+o5dRCUtTBWwM7ruZ2QhIXXAgMfFbwbcJY1KnzUD6w8+vFgLyXkfYo7h7jmKd4NwfqcdD3MCU8d7eniXbvDfc7IV75yO7yLFVbxJJ15TzM7N92lY5WgU+3ntx5Jb+DPKGO8YQjxUDQEBYOhf8YVnD3xpnAPjxnFn3N7bsNDdAMANAsFXBYVJoCwCoAkDKhKwhW/kiAeOYIHzXcEcIgIQCATAChRIAK000AXBC5ROAAJkqCUCgUIMshYcg8SYPYIRbDqwqm4ET7yEI0OBVEig+RCxVsDPhRzG1a4U6x/n6ohJf5y+Lmmh8XByu97e1sjWhKVcWMsdSS6wy2yzzrVrIFbozqy3WpRGdfsgrVaSEV8c/rrzPHjHbCivNt9SSNEo9/36UY43eOVdMg7RllhgGCg1dNXvWrPWFHzI=");
 
 export default TeddyBear;

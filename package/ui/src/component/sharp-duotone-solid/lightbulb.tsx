@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb?s=sharp-duotone-solid lightbulb}
  * @preview ![lightbulb](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/lightbulb.svg)
  */
-const Lightbulb: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4c19.8 27.1 39.7 54.4 49.2 86.2l160 0c9.6-31.9 29.5-59.1 49.2-86.2c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176zm64 0c0-61.9 50.1-112 112-112l0 32c-44.2 0-80 35.8-80 80l-32 0z" />
-        <path d="M112 384V512H272V384H112z" />
-    </Icon>
-);
+const Lightbulb = createIcon("lightbulb", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABaQAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBMQsIAAE2AiQDCgQgBYMtB04b0QTIFkrLw4eu9H1JuwckE8sADL0rrHzuQlSlcheG6iYVUpe9ujV+40cHuCByf9h4IB/Q/48n0HggeeABJZRpAJIwp9tEX8FfPMQkJP7IHV/ZURxOyOJKekeJ5FHyPu7qfwDjJ53cIVGTAogcADPXr17qaUu0JPF+5Q3ifUsQELNAIZAiRVcBpkgFusoUyGSClqRSoSUqlYIAokw/KgVllDAJcwAZSIQky2q6NNaVGrJ1daXa9UJdRNRufjL0Xrsb8eLQunh5+M140OHl3l+u+nTd5ys+XlP3eHDE8+PFGwOe6Vrb67n8uV96vr/vfcen37hxo9kNzZqaqr+9dDH829is4T8uXfq2OhblsSgWRXz1jKb/+e33Qr53XRRAIPh+xoMz25um/FNdl4Dv3vztR36R8srTOJE8h2oJCNIhlSG2xA25PE4IAEAS5/SKG07IBVIDJfiu9e4LEGoRIFFWK0Cqi1yATK3BApR0N1aAslqrpSKrEdra6pCodxJS41yFTFuvQ8kUb9llbSNFEH9//oHLmCeau1WMHDaimFQsEyZAQWU5udg2B5yrMZAO7XPcMWfstcdBZyCnLPXOOmpehed6UGGkYUYoTFK086OxDvuU0w7mqr9msuK8NcC5un8g7ZMARt29LyWSSFuhytt19siuobPYaBPU1AEAAAA=");
 
 export default Lightbulb;

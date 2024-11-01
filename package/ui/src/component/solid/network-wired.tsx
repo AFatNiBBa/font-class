@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `network-wired` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/network-wired?s=solid network-wired}
  * @preview ![network-wired](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/network-wired.svg)
  */
-const NetworkWired: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 64l128 0 0 64-128 0 0-64zM240 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l48 0 0 32L32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0 0 32-48 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-48 0 0-32 256 0 0 32-48 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-48 0 0-32 96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-256 0 0-32 48 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48L240 0zM96 448l0-64 128 0 0 64L96 448zm320-64l128 0 0 64-128 0 0-64z" />
-    </Icon>
-);
+const NetworkWired = createIcon("network-wired", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABkAAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCagsGAAE2AiQDCAQgBYMtBzQbbgXIrgrMs09HiFOxmLWu6f3G21IH8hwbD9/PfZ778vJnf1JAUqgWdSWiUKyJQMgKu13hyrZTCRz7Z27355EQ75Hc8taWkCQmTSw2qjYSBpS5HYAAf1Xte4XgT52qGRQKBfA54NGgjLE6qba0ttd5QZdYr75pgdcKlit5Bbx704x1pIyOJBNNqqN/0fF0hBx/1CNK0s30Bufjh8YX4z1I2gWAGAYA+taWXPw+yseI/gbRbwUIiD7ANIICBSYR0EkVmEQzDWRZ8DGahv4DCQFEC/+2BDJauIn7gAySnHN7f7tdl4PzmrqsNtZVLaqIGU9GRVwZR26Ovjq7DjEoTo264sDoq3Udooono5RveT72+sSIW2OuzakiYrBjJHTaiYOEVYNasbAuxGp75wkvfDXs1VcP1pw7kC56G29hoNhGHXgbA4IhJ06Q6rahmNhbHK6uA4Rgt7ZQSp1frr7odenpOeJ+gEDw6+V7c2jnN6tO4PPr8+2aXzqQXqFDAkGxqFmklg4AkQMoptjPqyQskFyUgd91kGsChAoBkpZKgMJEHgKyykICSlOkCWiprKSK3BZGqVeQDLILFJY7gmyUJyh1+hdbRkVhnYJtCX/DVEei9i7GIzEW2G0qosFxfrnIYdd3cEN+OIiBpYWdvp6xnSA23MrenKPhtgRRXEQMFXC6c7u/qm9ja2xpEVYp4v68z0Gf7IdAwbSL1SSJSIPvrhZ+CbQeAAAA");
 
 export default NetworkWired;

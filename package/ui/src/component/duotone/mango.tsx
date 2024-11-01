@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mango` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mango?s=duotone mango}
  * @preview ![mango](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/mango.svg)
  */
-const Mango: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 408c0 26.8 17 51.8 43.9 60.7c0 0 100.1 43.3 244.1 43.3c166.5 0 224-147.4 224-224c0-49.1-18.7-98.3-56.2-135.8c-25.2-25.2-55.6-41.9-87.8-50.2l0 25.9c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-32c-49.1 0-98.3 18.7-135.8 56.2c-45.8 37.2-67.8 76.7-88.4 113.5c-19.1 34.1-36.9 66-71.2 91.8C15 365 7.4 375.4 3.3 387.9C1 394.5 0 401.3 0 408zm288 8c0-8.8 7.2-16 16-16c53 0 96-43 96-96c0-8.8 7.2-16 16-16s16 7.2 16 16c0 70.7-57.3 128-128 128c-8.8 0-16-7.2-16-16z" />
-        <path d="M352 0l-8 0c-13.3 0-24 10.7-24 24l0 104c0 13.3 10.7 24 24 24s24-10.7 24-24l0-74.9C385.2 79 414.6 96 448 96l40 0c13.3 0 24-10.7 24-24c0-39.8-32.2-72-72-72L384 0l-8 0L352 0z" />
-    </Icon>
-);
+const Mango = createIcon("mango", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgwAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSBfwsIAAE2AiQDCgQgBYMtB0YbFwXIjsQ4RvKJ2JQpHr7X+Xbuk+z8yGFQmGmJK8QKEDuGzrPtn62odSKovs//NZ+fNR3gD/JD69ADiYXOMp9PYIKZtsORz3QCNnMbMS4s+DCjjCEvYmguNG+Qx0/ZLSqkR9I3uCvviWbd3ULSMkNAtMNq87ZsWOWzetRTfNN4i3i7lQiI+aAUyKCoXgLMlAn0kiuRywX11GhQD/oPLAkgqkBmPlxFBftwApCDJKQ87z6mfa3SOt9cqxRHilrxVDfxyKBne0a8vKgWqfbR4S8MLuKGztEp+oFNv276fc33E96MG9d/slg8PPCZHhG3rn1v6HPdbnRjPNzt4aH3d7vfvoe6vjvixb447YHOj838aOGDXfq/0O6Fv/t9c/gbez5tQtW6zkd1XkdVK7w3bihe2WbChPpUQzt/ymuT28/rULacSuujWt2wYOiqqw7Veiy+VFr1bG3mjGbBn///f1Pz/mFF3xZt6jcUYPU2lYkL1r4PBIJjB2Y37Wk78z+1BP764H/wQ9L4LEkvoEkCQTayMdLOBBIBAEhxmf5JzEUgM1ci+1p5UIBQoCCpKkCmp3YgVxgBKvqYtL+qsEEm8pZCJ7sUJK2cA5nJrgW5Tt4EFTN9nlZ1iszRZDeR/3kZiy2xaFk5bvTYcno5rKuK74hhfka5HQy9jPuG0VqHnXHaRYccdMxFw5+3qnTJKYtn3CJfVBpntLFK05XHrVtjM9LzLjjW184XmaG8nwx12Xz0MIoTERxvbyYjUmStT+07feTMqAdrtzXawwQA");
 
 export default Mango;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spinner-third` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner-third?s=sharp-duotone-solid spinner-third}
  * @preview ![spinner-third](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/spinner-third.svg)
  */
-const SpinnerThird: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256C0 397.4 114.6 512 256 512c94.7 0 177.5-51.5 221.7-128l-55.4-32c-33.2 57.4-95.2 96-166.3 96C150 448 64 362 64 256S150 64 256 64l0-64C114.6 0 0 114.6 0 256z" />
-        <path d="M477.7 384c21.8-37.7 34.3-81.4 34.3-128C512 114.6 397.4 0 256 0l0 64c106 0 192 86 192 192c0 35-9.4 67.8-25.7 96l55.4 32z" />
-    </Icon>
-);
+const SpinnerThird = createIcon("spinner-third", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcQAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBQwsIAAE2AiQDCgQgBYMtB1Yb6wTIjsQ4RvEHYqFVBPF2T1W/mQU8azODIirbkBkUCbdCdAwVXvyT5f3/92/N//zTB3wA/juveSAX+HnOE2iet7x5FlAWWKYZWLpN7IkQ9kdImIR0XOnx9XRAHl+yI8qQrqR3OIX/AMY/GjhCUiEDENUBMHzuzMke/xF/pHhXukO8MwkBMQIUAhkyNBZgkEygsVyBXC74I5XmjyhdEECUhZMzUBY5hmIGIAdJiDyv2bpSmSr5HDyx4spnc3+MeDrlwxzxffrn2VeNj+/DI55Mjng/++fUjyMnxK1+D0b9mPFlzs+ZX+dGfJv0btjjWS1uVL/xX/N3a975dWh5Y4yt3+DMwbGGmR6zZ8f0/Oh+j42tT4MzHBxrrDNnG+x37OG1aaYd05mWS4cZ6+CZBvWNBQLBUHMbL6026P/ylRL461F/ax9K6XGSbqC8BIKsU4lFCSQCAJBijxZJQCDTWgJ3reyiAKEiAiRlVRQg00h1AXIVdRSgjKZ6C1BWRTNlIq8g1LZ4QFLZdsj0sRdytd2GMgZ55ZVVO7JU4hOBf8mljJFo9FLRvUu3YkCxjHQhO1ieDiy2nXZ7aqU97Vpjqy12WW2V9XYJssPkcLfNxlh4tBcVuuuim8IAhTt9VuYIb4ed1uuSf85AxXm3nT12e3taJwF6XMJGRqTI6uzc9tOv1jk0jc5h2VBPkUIQAAAA");
 
 export default SpinnerThird;

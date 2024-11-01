@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-cells-row-lock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells-row-lock?s=solid table-cells-row-lock}
  * @preview ![table-cells-row-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/table-cells-row-lock.svg)
  */
-const TableCellsRowLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 65.1c-37.8 5.4-69.4 29.6-85.2 62.9L360 224l0 64 56 0 0 8.6c-19.1 11.1-32 31.7-32 55.4l-24 0 0 64 24 0 0 64L64 480c-35.3 0-64-28.7-64-64L0 96zM64 224l0 64 88 0 0-64-88 0zm232 0l-88 0 0 64 88 0 0-64zM152 352l-88 0 0 64 88 0 0-64zm56 0l0 64 88 0 0-64-88 0zM528 240c-17.7 0-32 14.3-32 32l0 48 64 0 0-48c0-17.7-14.3-32-32-32zm-80 32c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l0-48z" />
-    </Icon>
-);
+const TableCellsRowLock = createIcon("table-cells-row-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABiQAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCVgsGAAE2AiQDCAQgBYMtBzsbYQXIhof/t/v6fW5Vq94YNZBfj8yIX2AIRXSQ9foRFAkT1zx/a3rAsid4lKhVW3E0dp9PYALtXUCz4WyiuMF5kw4ptCGkzyGPv7Or1JDuT5/h1vhD4wedXUXSkAGIVgBoXLdqibeaoini0/9fIT61CAHRCEqBDBm6CTBVJtBNrkQuFzTF//+z/8CSAKJWCiab52jAzbgLkIOkLs+HNqTRrftWaprna8sji+zBIREvDmgeTw96vrN4auBznYoQlRDPdetmN4tnBr/QJVsjVCKiqMRWoU2rmamynrjrhnYRd5HxcbnDPcXqR1+3THiFTe0ubmx/N3Gp3V1FETfsCPvX7nhvJXq/0OqFn3p9tvcz24vWtH7sksdaty4avbt8+euzVE3U4Ot2nVQV+uqBrzrjYjWmr1e1/tv11qredevFzjRxe8qMYy2u47oWI1WNFHFo6LKesZY9rVrtWRsL/aWq9jH8ipFAINjy6j8tt7Wc+mt9JYFv3vzlD9HG/7+VLqUXUC+BIBv6/1Cb0yVAzAACKc7qffBFgeRqddJ3beYeAUKBAEmtQoBMV60EyBWGCFCjh3EC1Cqskom8QWhny0AkzZwgMuOdJ3LtvETUmOpDf612kdlJyUZJf4Rp506BOYPKUcNHlpPL3ZxOtmaC7p1SXrYOPMtrBsGZ9jrmqNP22O2A0xP8pCWhM46Ye4TN8UOlUYYbqTRZ+bj4cvJae5x0ygHHHI36maL83j3Q2ePmg6AjSVlHS0oSkdpZV/2wkOwfdvLYuWFhBgAA");
 
 export default TableCellsRowLock;

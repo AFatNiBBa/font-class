@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link-horizontal` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-horizontal?s=thin link-horizontal}
  * @preview ![link-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/link-horizontal.svg)
  */
-const LinkHorizontal: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M512 432c70.7 0 128-57.3 128-128s-57.3-128-128-128l-24 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l24 0c61.9 0 112 50.1 112 112s-50.1 112-112 112l-192 0c-61.9 0-112-50.1-112-112s50.1-112 112-112l56 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-56 0c-70.7 0-128 57.3-128 128s57.3 128 128 128l192 0zM128 80C57.3 80 0 137.3 0 208s57.3 128 128 128l24 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-24 0C66.1 320 16 269.9 16 208S66.1 96 128 96l192 0c61.9 0 112 50.1 112 112s-50.1 112-112 112l-56 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l56 0c70.7 0 128-57.3 128-128s-57.3-128-128-128L128 80z" />
-    </Icon>
-);
+const LinkHorizontal = createIcon("link-horizontal", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABhwAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCHQsGAAE2AiQDCAQgBYMtBzYbIwXIvgxwh/MIHoRIlKLsdqMZMtjuwjgkuQq3n+Ze9zcUCiFYQ3P3UEIYkZxEOVc1QrUKN0dSsRFERvT+x9X8hThvE4i2SYk6uF27EBX6VVU5VTARGXLz4ACYBIZ1ADOv6vwHD+h3KGWAOrfK/kCrtEzsmNycJsVs1NkBuuD0KkS/4P3n/2bPex4F+DmC0PbCQBZINOfzXsCJ5t0COqCx8OyATozvbcNjIwhfSEiYmDhejtcGZXxv6OTbDC/Hm8Z/Q7ZIRQEA0QkA4MKNcglOc/R4dIjPLgMBcRFgEkGBAqMIOI0qMIpmEiiVgi+A/4GTIICoge4kQYkSj4DnAJQgZUkLBrkVn1ZrqTi9d+fEycxIviJiuzfkjKOlpa/m6UccL6eh2XaIsTdQFIjL08eeuAUesCUapTM+JkpnWTfnss81vS/KJx3ckS4B7FaVP5dKu67bg15Vf3wWTFWP85E4/+mL3vwOCAS/9t90+ktCAfim88Q8zKFRgqBY/V9Vz0NAdABuxgaT8UGBdAsFXWqrVwKEZgRItWYBCiNECCg1W0FAZVwAAbVmV1BFyYbQq7FAanUfFPZtglKvA1A57cap9UZRdmTRkL++uKKECku45XRjFI8hpioJ7+MYurXFjVaywCoMLVqwZqBvYk0gK0r+unlFCy74IuTh5IaiMJy8czXhrFg10Zn4lBjMt8027GYLmBSEuS2Qkkjh6y45ahIAAAA=");
 
 export default LinkHorizontal;

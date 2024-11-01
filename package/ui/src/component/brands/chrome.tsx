@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chrome` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chrome?s=brands chrome}
  * @preview ![chrome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/chrome.svg)
  */
-const Chrome: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256C0 209.4 12.47 165.6 34.27 127.1L144.1 318.3C166 357.5 207.9 384 256 384C270.3 384 283.1 381.7 296.8 377.4L220.5 509.6C95.9 492.3 0 385.3 0 256zM365.1 321.6C377.4 302.4 384 279.1 384 256C384 217.8 367.2 183.5 340.7 160H493.4C505.4 189.6 512 222.1 512 256C512 397.4 397.4 511.1 256 512L365.1 321.6zM477.8 128H256C193.1 128 142.3 172.1 130.5 230.7L54.19 98.47C101 38.53 174 0 256 0C350.8 0 433.5 51.48 477.8 128V128zM168 256C168 207.4 207.4 168 256 168C304.6 168 344 207.4 344 256C344 304.6 304.6 344 256 344C207.4 344 168 304.6 168 256z" />
-    </Icon>
-);
+const Chrome = createIcon("chrome", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbgAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBYgsGAAE2AiQDCAQgBYMtBy0b3wTIjpQuZyTx8GQX9X51zSygXpvZ+iBHy+jkiMwcCvFUyP7Fqec5DwXwjYI2Fi4NyALb8zwCEZkenIJJW7CaVsBq7nIfFtF+kpayljx+83haIcfrcY8K6dH0Me5uHxq/aucGkkoBIJoCYOrq5Qu982P8GPFx7UXiY/MRENNAKVCgQEcBJigEOspKZFnwY9Rq8T+wJICo4osTyKhiMbYCMkhyzs2atmjRoNIor8qz9eO76Svjct/LDW7vvSK+XUV323o1npvUIK77eso7Cz5esXp1/Qb1XxjzSsdV8fb8j2Z/s/CTqbHl6f4RV0e/2Pdypyf6XBrxUr8rnbtdaXrldx/v+tg7ZtU7+JZG777bs9Wo+TfY3HjCzIkzY9uBqQN7tL/hEQOGm9Wu3b3nZzvw5pF3v+etf3XoeMeCG0wYO/bz2e69r52RZ/Mt3DJlyi235HxLPw8Egl+2P3Z9c5MJ/9dtkMDPr/05/IzU3knSFdSVQFAMqA2wIYFEAABSnNItQSCZLYPR0EPiplEfQUpVfRiFDppOyOrrDxWdjSSMw8sVItcTWtoISBo6CoVRTkPW0vNQMcF7alXLKDyL8gvqXxc/SyIz+8qhg4aU48qta9DOQpT2+NIs9DmVUn2xaJfDDjlhpx32OiGwYxYaJx00S0Nn+qLSUIMMURqnPA5ep1fZ6Zjj9jrsUO0yXnlf6eOUXtwXcsK4w5iSRKTqwwQAAAA=");
 
 export default Chrome;

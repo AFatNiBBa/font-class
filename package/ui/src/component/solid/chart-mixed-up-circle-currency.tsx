@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-mixed-up-circle-currency` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-mixed-up-circle-currency?s=solid chart-mixed-up-circle-currency}
  * @preview ![chart-mixed-up-circle-currency](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chart-mixed-up-circle-currency.svg)
  */
-const ChartMixedUpCircleCurrency: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M400 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l28.8 0L319.4 151.5 211.2 70.4c-11.7-8.8-27.8-8.5-39.2 .6L12 199c-13.8 11-16 31.2-5 45s31.2 16 45 5L192.6 136.5l108.2 81.1c11.7 8.8 27.8 8.5 39.2-.6L480 105l0 39c0 17.7 14.3 32 32 32s32-14.3 32-32l0-112c0-17.7-14.3-32-32-32L400 0zM192 224c-17.7 0-32 14.3-32 32l0 192c0 17.7 14.3 32 32 32s32-14.3 32-32l0-192c0-17.7-14.3-32-32-32zM64 320c-17.7 0-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm25.4-169.4a35.9 35.9 0 1 0 -50.7 50.7 35.9 35.9 0 1 0 50.7-50.7zM396.7 426l-17.3 17.3c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L374 403.3c-13.2-21.6-13.2-49.1 0-70.7l-17.3-17.3c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L396.7 310c21.6-13.2 49.1-13.2 70.7 0l17.3-17.3c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L490 332.7c13.2 21.6 13.2 49.1 0 70.7l17.3 17.3c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L467.3 426c-21.6 13.2-49.1 13.2-70.7 0z" />
-    </Icon>
-);
+const ChartMixedUpCircleCurrency = createIcon("chart-mixed-up-circle-currency", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABtgAAAKwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDPwsGAAE2AiQDCAQgBYMtB0Ub1AVRVA5SZD8K48anRFEo27Fs13bJrr0mslDKk0s7lA/PCKL9frP7DjHp/IQlz0Qt2UuypqVDJJT/CMm7GjAOuxutRqJKbIsLUX2RzwQQ+B+7NP55/g14fvYCjzZW98AxgfaOV6DxtX1S03hpWcEqip2a9+IghOJQdjtCiVfBHi3kfTW4Tr80vjGhh9RRAYh+ALB9GB2Khy++kM3/j0QTOyAgtgHziAoVphGsERSYJmQeFEXwFf9n/4F6EEC08p44QUE7nvECKCC1lrJ6qqqqKW0hKSwtFCcpLJE/pESOoEN5VFKSMYzjmlEMR5RGlEeVR1XjGctV03gixtYOq46T7FQZk5CIWVGqryKCZw573v/adp+dNnseVxJDbhdWO+iw3nW/lIwfM1pRm1AeNV3XnFaJMbM0G1EZU7Xknq0FU2hc2ZzX7paERpXMuGtlTsuIivvQCw+DLbmtd/06r8b1vcwAMCAjMzAgo43SeBRHwst6vt2EplTT4OHD+kW54gh4WQ+XM4XMwCx7BWLH0/NC80OnmDva0xWaIcO95femAiBgr29iom8vIGBaK2AZahvPQSvRQX9jj2eUnDd3c3NoiFh0IB6mECQHQ0M5bG6WaN8OAAABhCQ5t+R0Wa+PdkkBAPB29f+dqiZ71z7k1xbaJQiqxg0p6fdAzEIgkXHOYGSMRHpyUD61240AoRMBUqtOASpT5BAUnRYQtJjljKBVp12ConQIw1JLkLodgcqqVlAMOwYt1jzGWw1HdR+Ld6H4GZkWUkeCR+nZ29jpeegNFuTSrcnrQU+92VazOt5gDg8iT7kyNXLlKFRTY6qEpmqVChnDgv2QHns27OjxoLe6fFuLqyWqVCvsl9cP40lv/6CZuvH25tAhwONclJaSyNk3WG/9eoWsayusf/sxWT84AAA=");
 
 export default ChartMixedUpCircleCurrency;

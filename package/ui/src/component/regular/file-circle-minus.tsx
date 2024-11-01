@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-minus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-minus?s=regular file-circle-minus}
  * @preview ![file-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-circle-minus.svg)
  */
-const FileCircleMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 464l220.5 0c12 18.4 27.4 34.5 45.3 47.3c-3.2 .5-6.4 .7-9.7 .7L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3l0 44.1c-17.2 4.9-33.4 12.3-48 21.8l0-60.5-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zm224-96a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm224 0c0-8.8-7.2-16-16-16l-128 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16z" />
-    </Icon>
-);
+const FileCircleMinus = createIcon("file-circle-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdgAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBegsGAAE2AiQDCAQgBYMtBzgbAgXIhofvdb2e+6T9Y0tmkJkpHSMVHe6kxSppd+rU85yHAvgcgqDsqfENEpqjPa9AAWvDNy3AZcVaRbG7s1HbIdrBIS1lSY5vjlOygzx+jtvUSPenn3Br+tD4U1dXkdQyANEGAHM2rVvhs3rUI35svE38aBkCYg6oBDJk6CHAdJlAD7kKuVxQj0YD/wMrAogm/LAJ5KhhLw4BcpBkeT62e8uy1jLfWNaKBWVRPj/krqJFPDP0hW5ZPDjsxUFl3DhkQzxPPNU/oogbOt0T7i53dUhxd8dNl4+KeHXah+WNU94f8bLLhr80+b3ihqkfjHwlyns6TeC4sYx7O/d9oc0Lf/f56eBPGr/y6u5PzK7xWNu2xWWKcvXHntGt75Yt+nYf7p4d063W6rrrWq32mHqry7Sq/75rUEXVvt3Age3aV9UgkUC33qp+mUz7y4FA8N4XPz2wq/X0/5qVCfzxwb//0/kan6XZ6QU0k0CQDW8Mtz3NBkAHEKS4SF/liwLJVhl+1xbuESAUCJA0KQTIdNdGgFxhmAA1vUwQoElhnUzkzYUOdjSQtHAGZCa6GOQ6eBPUTPet36RDZFZG2wh9x0tYKKEFy6oxI0dXU6thojKGQ4b5adW0MfgiagyBrQ465aTzDtjviPMCOWtFdMEJCzV4gR+qjDHSaJWpquX8fv1GB5x1zhGnnIyLTFPtdwa7SO8fAnbCmGPFkkSktgdaGfEcRxnxO714DgAAAA==");
 
 export default FileCircleMinus;

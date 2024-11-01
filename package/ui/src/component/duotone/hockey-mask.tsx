@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hockey-mask` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-mask?s=duotone hockey-mask}
  * @preview ![hockey-mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hockey-mask.svg)
  */
-const HockeyMask: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 240C0 111 64 0 224 0S448 111 448 240c0 192-48 272-224 272S0 432 0 240zm64-32c0 35.3 28.7 64 64 64s64-28.7 64-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32zM136 80a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm16 240a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm0 64a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm0 64a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm48-320a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm48 192a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm0 64a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm0 64a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm8-240c0 35.3 28.7 64 64 64s64-28.7 64-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32zm8-128a24 24 0 1 0 48 0 24 24 0 1 0 -48 0z" />
-        <path d="M136 80a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm88 24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM152 320a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm0 64a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm24 40a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm72-104a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM288 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM248 384a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm24 40a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const HockeyMask = createIcon("hockey-mask", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAAB9AAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWyEMwsIAAE2AiQDCgQgBYMtB1IbVwbInoNx4xwlk2HL4lDKpZXaoUToFw//v1+/fe5931Tid0T7rI42QjJrZLFQqVTqRD5ZLZHH6sd+e19M4CHuSdUTnkUbdGjijRJ1Ov0fAK66fvvn/5p6USAH+MXvnR5K9CppHknjLp3AACsoAwc2oM3YNs6NCiNzP3g8HqCI03xHFaRHqYyH3v8Axi99FkjEGQBEKwDYL+Vn4u59T71UboiysyCAOACMIpBBBoMIsIWLwCAeBgo8BO8T8D5gEABRDe9tGVANesA3ogYABSARkxU8ceDTdpV8EWzgy3lFyTRJ+ROP4779yZP+Qs43bQU9Gwqb3zBRbCtHRIk2P4zelYI+S4eFhwUh9baIb2965sCL4nzqdOFyYLZ7t76e1jq3lR7RlIHD6aPewoIdjZbP11988Frni9aLP04vTWXcv6LPzdXHVLFRrn0Zn31bomcfHieafR5C1N0jY8lQfDi3mQJsHh3ihHzK10NRn7ZWEwMSZ3GDy4d8a31Fooa2ly/VaknzygPFntR34vo53ZX/XqAV/oAEWuftip7Cf6eTNa8DECDg6qurmmpl7H+RlAPg4+uvv/xK/8WbNNTiAALyYsVXRdzNQPlepSBJiiHOiPLglxDItjSCn9poVwCCBAQgEZAgQGalQoCChA8CVHEQhgDVJPJxUSEG0amsAYdML+AKNwl4dK4BX6z7sIAu8icgG2D5DzQjvY2mDWJB/oEsmk2mlYqpFnV7DFvt9BziZV5wJZp06zKgUYNWAy26T2ZsUKf0OWbad5kg/gIx0dju3P3FRRr16deqW5fbTwx2fsDT0HxtL+jhCDjXHZlxIRJxtZe769sbR/06a/vb/WxThb6vWRwA");
 
 export default HockeyMask;

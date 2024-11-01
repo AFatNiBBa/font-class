@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mask-face` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask-face?s=solid mask-face}
  * @preview ![mask-face](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mask-face.svg)
  */
-const MaskFace: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 64c-27.2 0-53.8 8-76.4 23.1l-37.1 24.8c-15.8 10.5-34.3 16.1-53.3 16.1l-9.2 0-16 0-72 0c-30.9 0-56 25.1-56 56l0 85c0 55.1 37.5 103.1 90.9 116.4l108 27C233.8 435 275.4 448 320 448s86.2-13 121.1-35.5l108-27C602.5 372.1 640 324.1 640 269l0-85c0-30.9-25.1-56-56-56l-72 0-16 0-9.2 0c-19 0-37.5-5.6-53.3-16.1L396.4 87.1C373.8 72 347.2 64 320 64zM132.3 346.3l-29.8-7.4C70.5 330.9 48 302.1 48 269l0-85c0-4.4 3.6-8 8-8l40 0 0 48c0 45.1 13.4 87.2 36.3 122.3zm405.1-7.4l-29.8 7.4c23-35.2 36.3-77.2 36.3-122.3l0-48 40 0c4.4 0 8 3.6 8 8l0 85c0 33-22.5 61.8-54.5 69.9zM192 208c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16zm16 48l224 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm16 80c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const MaskFace = createIcon("mask-face", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjAAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCRAsGAAE2AiQDCAQgBYMtBzAbRAXIjsJxr4RissRkcfBG8LUf23d3qDTxZJpEQ9NKqETRkH4Dj4lmnaGq/59/1X3drj9Gjc0McgQtQgjxZqN8z0QL/8819cKaDvAbHUq0pR5IgVcsn0/gno+iLEEGvgYd0MR4u7M15bC0RxFilqRf7XhdoMTvPIoa0r3oI6CKm+MbhkZJGjIYoh1wmzYOslLw9IzOiD78v0W8IAkExAaAQYSMjF4ElokFekkMgqIIPun/f/oP5BBA1AKI5NML6nGNClBAUlskLlpaqmqqglRVkitIWd20vz8dMMYOdFYNQM8OV31y6FPO57Q8uuN03ZxoW2/dlrFp20C6z/JtbWyPjLaJaENfIMRHRJW1nfWLPCKB1nRBdwab1pVzodmwqsNoXc9UYIITpFYOXsvymsa1LxYfaz8i7NJRLx4Lfcr89n+X8hwoLxemmowQuYUoEfmw6WpAmQP5/7/2eEPTgXzojT0wfM37xy8uDHMgO7SHO2yPrsrGS60RPQN75bU5ULxejOcPq52d4UwtIf+RM40s9TQyd4qCvwMIBBcbJydl6sFfFYII8HX/8oc/OF2JroF6CQR54r+zYklRehHAYYpeWMIcA8mxZ73XZjcChEYESGo1CpD10ECgaDSOQI1+PgjUarRDLIoSoVtJhaTZEWRL+qDodgNqLHsT1OoOsSkqhqR8BDNjezymj3u4uvNAvkwU1bqkMB3Et237Xt9wgL2o1aZVtxrVGnR3XKeUuEeLWI2N8UWcB1fuuED8OH80czHs1KVB1s5nCcLv+/Z69cEO4Ikw75zFSSKSsqWiq8nF1AEA");
 
 export default MaskFace;

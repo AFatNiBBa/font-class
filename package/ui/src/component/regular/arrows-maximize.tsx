@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-maximize` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-maximize?s=regular arrows-maximize}
  * @preview ![arrows-maximize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrows-maximize.svg)
  */
-const ArrowsMaximize: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M328 32c-13.3 0-24 10.7-24 24s10.7 24 24 24l70.1 0L256 222.1 113.9 80 184 80c13.3 0 24-10.7 24-24s-10.7-24-24-24L56 32C42.7 32 32 42.7 32 56l0 128c0 13.3 10.7 24 24 24s24-10.7 24-24l0-70.1L222.1 256 80 398.1 80 328c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 128c0 13.3 10.7 24 24 24l128 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-70.1 0L256 289.9 398.1 432 328 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l128 0c13.3 0 24-10.7 24-24l0-128c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 70.1L289.9 256 432 113.9l0 70.1c0 13.3 10.7 24 24 24s24-10.7 24-24l0-128c0-13.3-10.7-24-24-24L328 32z" />
-    </Icon>
-);
+const ArrowsMaximize = createIcon("arrows-maximize", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABcgAAAHqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBewsGAAE2AiQDCAQgBYMtBzYbAQXIHoexG/rILkal3hvx8P1ab+e+7gkAdgCY1a84RhsXdmjMVCzsql07yQwJn4BGtfN/s+c9jxbIB4Hm0gWyQKI5KUqg54HkUd0QubMDO9MTsLNuytESaUmS97730jDlNSxNHZDH+0iJdDvB9fyh8VtLl0lKGYBoAIAJyxbN8aUc5YiflYmfZiEgJoBCIEOGNgKMlgm0kSuQywXlqFTif2BBAFFNecUEcmRYj92AHCSR58trl+rmS2uXam171uJ2l9qxOJZG7XjZ+k7XWvGshbjd5WXriCWxOCLudGWsJiyTSAMNFsJSkKBxplbHNw3e/O1gK9MeLmjadEGqqlRVmYoIKn5e0wWcRBCaz4r1aRAI/r1Wel390f/VqJ3Ar3f//t9+RkWlHOX0BjUkEGS9K72tThSKKAsAQIqjOiYKgWS5pLxrHTcECLUQIKmmlgCZ1hoIkKullwAl7QwRoJpaFslEXlNoYs0ASR0HQGaoMyDXxFtQMtpXt5omkXkZ7SP0Iy9hKoWmrBUD+vYvRhbTSGcch0zTUYXZ6H6UVXqEXVvts9dhW2y2w2GCHDQnOGKPqRo8xRcVBuirv8JIxXI6F5bCPeiQHTK3vmSUYr/T3VG9vUfYJgEGnk8oEan+hoOXQOnzKZ654+QW");
 
 export default ArrowsMaximize;

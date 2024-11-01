@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-left-from-bracket` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-from-bracket?s=sharp-duotone-solid arrow-left-from-bracket}
  * @preview ![arrow-left-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-left-from-bracket.svg)
  */
-const ArrowLeftFromBracket: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M320 32l0 64 32 0 96 0 0 320-96 0-32 0 0 64 32 0 128 0 32 0 0-32 0-384 0-32-32 0L352 32l-32 0z" />
-        <path d="M0 256l22.6-22.6 128-128 22.6-22.6L218.5 128l-22.6 22.6L122.5 224 320 224l32 0 0 64-32 0-197.5 0 73.4 73.4L218.5 384l-45.3 45.3-22.6-22.6-128-128L0 256z" />
-    </Icon>
-);
+const ArrowLeftFromBracket = createIcon("arrow-left-from-bracket", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABawAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBMwsIAAE2AiQDCgQgBYMtB2ob7wTIHoVxs/Oki+YoizPfafHw/2v/2+fOvLf+n8HlQhL3JK5JNNMsQf4VEsk0kfFokfyS2Qyo3v+nv3fn3zZ9wHf+hT/amLYmyAKcu84TSLRLAw9oAmeagaXbZD0dgvRFhERKSMendDzdoIzPxS0N0oMEd/h/AOOP/m6RtBcAohsAFm5at9azH/EjxafWE+KTNQiIRSALFCgwSIA5CoFBShmlUvAjtfIjWjMBRBPDhU9vosQcLAWUIAlRlkN7143O5ca6UcXoEaM3xeiYGyNifdS1qKoNMTLmxKjYGKMOCXWdoqpEXUcUEVEN7+jW8W+YeXbwg1ev2uCLg1as8DonvybKQV9scPWqM//hAkR59wK7lTs+yq7JMhAIbi/uOWhX1zn/2+oEfj31W/8dtX4kqQNtEgiKMa0xtieQCABAiouGJ8QCgcJQSXnUTu4KECoESJoqAQoDdROgVBktQMMQUwVoqqxTiLJd6GXHBEknZ0Bhmsug1Mtj0DDH26ipVxQpxCUA94NLXiahpefyxHET8qyslgafFQwdz87H6oiLdTQSFx10yknnHbDfEecFedba9IITllnEUl+UTTTOBNks2d28yhtFdNY5R/ai/5TZ8v1whIv28kgYSaOd5FqhIFIUQ/ecPXvq0utSxgZcduzes3v2HTtwfmxMrhpmiUEIAAAA");
 
 export default ArrowLeftFromBracket;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `parachute-box` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/parachute-box?s=duotone parachute-box}
  * @preview ![parachute-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/parachute-box.svg)
  */
-const ParachuteBox: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M24.9 192l43.2 0L188.3 324.2c6-2.7 12.7-4.2 19.7-4.2l32 0 0-128 32 0 0 128 32 0c7 0 13.7 1.5 19.7 4.2L443.8 192l43.2 0L346.8 346.3c3.3 6.5 5.2 13.9 5.2 21.7l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96c0-7.8 1.9-15.2 5.2-21.7L24.9 192z" />
-        <path d="M128.5 192l254.9 0c.3-5.3 .5-10.6 .5-16c0-51-15.9-96-40.2-127.6C319.5 16.9 288.2 0 256 0s-63.5 16.9-87.8 48.4C143.9 80 128 125 128 176c0 5.4 .2 10.7 .5 16zM358.9 16.7C393.8 54.8 416 112.1 416 176c0 5.4-.2 10.7-.5 16l77.6 0c9.9 0 17.4-8.9 14.7-18.4C493.4 122.6 450 49.3 358.9 16.7zm-205.7 0C62 49.3 18.6 122.6 4.2 173.6C1.5 183.1 9 192 18.9 192l77.6 0c-.3-5.3-.5-10.6-.5-16c0-64 22.2-121.2 57.1-159.3z" />
-    </Icon>
-);
+const ParachuteBox = createIcon("parachute-box", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABhAAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCEQsIAAE2AiQDCgQgBYMtB1YbOQXIHonpxoj8F86WhcTD83b//trnzL0P80JPZHzQVeLuWx1RQazoylWmON/rwH/+L8f3zjYtkG90SHvpgSy/3ZzPEwiwl+V5oFso0wyst4nYMwjDN8LaSMeXdDxdoYiP8wEN0q3pXVwd/wcwftfPAZK2DCC6AmDpYds3evGb+CbFu/VTxLs2ICCWgUogI2OgAAtkgYEKFQqF4JtU13wTdV0RQDRFJLOb5llPw6WAAiRZFEXXbt0mlo1OxaFlo/2wsr28OT5f9vyqVxe8uGNPr8PuHxRxpz3KuLf3XYueP7T90wURzw68YWQZN8XeIXeP3y4cEjeXZUQARLtcwOOd7IgbiVt63jCiPe7pfVP/iL19Dh32QNcH/hz67qnv2lNfa2zcemzXrsdujY2tLT8+4n9+mdLaulEMuWXBhOX93nfFCSy4ZUhssliY8sv/9K3HU/Oy/faXlT28X+4vTo93+a3Wdhwvv/fFFGSnfPFe9jvWNm4GgeD6x9LJx3VZ8E9rmcB3T/8Lf0ipfjEOpgfQKoEgT6gnODqRpDgoAAApLjUskfQTyKbJ6FM73CRAaEeApKldgGyArgIU2o0XoGGwmQI0tdsui6JN6OmYDJIOF4Bslp2g0NOToGGBN5KmnpE1TtIX6cOXvorDK49VUydNqeZVw74kK5EQ9udX2/6YS+3cWLjoVOc518VOcbIzXMyoC23ML3GOVTNypS+qTDXJFJV5KvHI2ncoSy50kTP6qvyQ+arz8RiXzlePhSghzmnOZJlIkXu93vSk0y+5+JSHLt/eJX066k0FAA==");
 
 export default ParachuteBox;

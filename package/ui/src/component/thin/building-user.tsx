@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-user` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-user?s=thin building-user}
  * @preview ![building-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/building-user.svg)
  */
-const BuildingUser: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 16l288 0c17.7 0 32 14.3 32 32l0 330.4c5-3.9 10.4-7.5 16-10.7l0-95.9L384 48c0-26.5-21.5-48-48-48L48 0C21.5 0 0 21.5 0 48L0 464c0 26.5 21.5 48 48 48l96 0 16 0 64 0 16 0 89.9 0c-3-4.9-5.5-10.3-7.2-16L240 496l0-80c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 80-96 0c-17.7 0-32-14.3-32-32L16 48c0-17.7 14.3-32 32-32zM224 496l-64 0 0-80c0-17.7 14.3-32 32-32s32 14.3 32 32l0 80zM104 232c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32zm128 0l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zM104 104c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32zm128 0l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zM432 272a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM368 477.1c0-42.6 34.5-77.1 77.1-77.1l101.8 0c42.6 0 77.1 34.5 77.1 77.1c0 10.4-8.5 18.9-18.9 18.9l-218.2 0c-10.4 0-18.9-8.5-18.9-18.9zM496 352a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm-50.9 32c-51.4 0-93.1 41.7-93.1 93.1c0 19.3 15.6 34.9 34.9 34.9l218.2 0c19.3 0 34.9-15.6 34.9-34.9c0-51.4-41.7-93.1-93.1-93.1l-101.8 0z" />
-    </Icon>
-);
+const BuildingUser = createIcon("building-user", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAAB8AAAALJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhgCFBgsGAAE2AiQDCAQgBYMtBzQbigbIBp6nvOr9SkZJa+QawAtaN/ae9gZezenv3XkWbQwfNQHzUP5vTBpz2hjT0nke8Fi0tneeZoEk6A3OG3VAoSmkH4Epv+mHD6jNygusdB8qr4lkHigMAwAA8QAAALU7tm3OrRfyQsT7/zyIl6aAAEgdADQCGIABxCAAVMNAgBhMNGBiIvBC/v9n/4EaBADEl4BUbDIBD4gGyYThZFC4TLOG2+MJCvKRzmBnmO3jNDvQK62uTodzaeh6lGwMFxHZErYh1SH7QtZFKNk8RZZi2xvCLCZzIZYsaaaKIbPDN9qdLdsSxjzuosu+CA5ATC0Ho9mPU62IjeG2rA9F1oVYsiFMbIQ5vrjeNNuyLV9suzscX9F+Z9bRjMOx29IPZR6Ja9cKFzlaZsv5/rttSrbkQFTHi3knc0+Unss+lnO8pNG5dJFDMbNC19u2LA3fKDsyj5RaiUc8R94meAd4yTuptXYtWuRqwrhxvXiB8eBJvib/yQNjlyLudaVBRFtaMb2lFb3YKtqVqU4+rxVErWqmp2010a91qCa0NcehJvr2IvTy1Thnaa3nWNA5UWttWbDbK1eekHBxo/Hq48dXhnmqppd2UJ8BUL8dHnmEeGZOuzWhY8cJt8DkvF6HYYuve/Nm9yPAq3y3HO41AAAEEHjY7ua7nu5qX/1tBcCrK+9/gW7+f0vNUkcAfxQAAkb2/2y6qVkAkFoAwKtkAokLIumMFIGLoHew4ahfsKABCl8sYBCNB5hYZAEf4ihhbpzfFgMxAxBC6A6BwsFoYFDKdGASwlngQzVue3wJEeNdYd/p7D/VBA26iPrjdEFuvq7UsxkV5/Zn6s4qvVmcPoFXZMC1DGAkIxhHf/oxmHEd/Bia+8cznAZL9PW/qykgl3w0lejD+YeCDh3vGMYyeJpzfBSq0Nfr05mwXD8DyhSBYSEpCgWinB+TMOclAwA=");
 
 export default BuildingUser;

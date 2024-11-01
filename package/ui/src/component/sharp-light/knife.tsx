@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `knife` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/knife?s=sharp-light knife}
  * @preview ![knife](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/knife.svg)
  */
-const Knife: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M465.2 13.8L454.4 25.6c10.8-11.8 10.8-11.8 10.8-11.8s0 0 0 0s0 0 0 0c0 0 0 0 .1 .1l.2 .1 .5 .5c.4 .4 .9 .9 1.6 1.6c1.3 1.4 3.2 3.3 5.4 5.8c4.4 4.9 10.1 12.1 15.8 21.2C500.2 61.2 512 87.8 512 120c0 29.9-14.2 63.2-40.4 101.5c-26.5 38.6-66.6 84.3-121.4 139.1l-42.8 42.8L296 414.8l-11.3-11.3L201.2 320 24.5 510.1 1.1 488.3 189 286c0 0 0 0 0 0L442.7 14.7 453.5 3.1l11.7 10.6zm-11 35.6L223 296.5l73 73L327.5 338c54.3-54.3 92.8-98.3 117.6-134.6c25-36.5 34.8-63.3 34.8-83.5c0-24.3-9-45-18.3-59.9c-2.6-4.1-5.2-7.7-7.5-10.8z" />
-    </Icon>
-);
+const Knife = createIcon("knife", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABZgAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBXAsGAAE2AiQDCAQgBYMtBywb2ATIjsM4hnwXJ2XHw/d2T537ugdwz0SAmDGSM2EhZZMugGjrB9L8X/P5PT86K/rPT/jQOqhAcgGU+XwCA47iDauAZgObTtBm7ewNT0S3SfrEJ5ktP6x2kMeL0VYZ0vn0EU6VD42fNHCUJM8ARHUADJoxZZzXPo/PIz4qPU18ZAwCYjAoBDJkaCxAX5lAY7kCuVzweZRK/B9YEECUhbMmkCPHBMwD5CBJed6jeqUyVfLpcVrFFbXr1T5b72ztQxHIlUIcq3Owzultbja/NPC1qX2jdtSN6TE1WscM/Qxzol7UaTx1xtRp0SaeDHmz4ZWGZ+q2uFX91i/NP1r+kc8e3ga6s0YNWrgrVK+5/ESfotKqnZMm3XTbLVOmuP+ybV58H/xfdeLd+PY/erWSCROHdatc+99uXYFA8OXTT+ouqNb3n/KVEvjyhd/+qPtH6Y0k3UJ5CQRZ21JbcxMBE/CTUmzXIhECyQgJ3rWyMwKEigiQlFVRgEwj1QXIVdRGgDKa6iZAWRVNkYm8glDbvA6SyjaBTHf7QK62x6CMvt6NyqodmVmxRsF+6pKGS2jYpKJT+45F72JZ0jhLodNon2Lbarndt7SijZbbYL2tlllqla0C2Wxcus06wzV4mC8qdNJeR4XeiuPq4+rpltlsi1U2WJ/H6aO4H7a0Xe/eitwElJ3ZybOLU5k161ctXwYA");
 
 export default Knife;

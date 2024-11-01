@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `explosion` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/explosion?s=regular explosion}
  * @preview ![explosion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/explosion.svg)
  */
-const Explosion: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M543.2 30.2c3.1-11.6-2.8-23.7-13.9-28.3s-23.9-.4-30 9.9L344.7 274.1 311.2 145.9C308.5 135.4 298.9 128 288 128s-20.5 7.4-23.2 17.9L227.4 289.4 145 207c-7.6-7.6-19.4-9.2-28.8-3.9s-14.1 16.2-11.5 26.7l23.9 95.7-70.8-5.4c-9.2-.7-18 4-22.7 12s-4.2 18 1.1 25.6L87.7 432l58.4 0-41.7-60.2 53.7 4.1c7.7 .6 15.2-2.6 20.2-8.4s6.8-13.8 4.9-21.3l-11-43.9L223 353c6.1 6.1 15 8.4 23.3 6.2s14.8-8.8 16.9-17.1l24.8-95 24.8 95c2.4 9.4 10.3 16.4 19.9 17.7s19.1-3.2 24-11.6L451.2 188 408.8 345.8c-2 7.6-.2 15.7 4.8 21.7s12.7 9.2 20.5 8.4l36.9-3.4L429.9 432l58.4 0 51.5-74.3c5.3-7.7 5.7-17.7 1-25.8s-13.6-12.7-22.9-11.8L464.1 325 543.2 30.2zM465.9 464l-35.8 0s0 0 0 0l-40.9 0c-10.8-45.9-52-80-101.2-80s-90.4 34.1-101.2 80l-40.9 0s0 0 0 0l-35.8 0s0 0 0 0L24 464c-13.3 0-24 10.7-24 24s10.7 24 24 24l528 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-86.1 0s0 0 0 0zm-228.5 0c9-18.9 28.3-32 50.6-32s41.6 13.1 50.6 32l-101.2 0zM312 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24s24-10.7 24-24l0-48z" />
-    </Icon>
-);
+const Explosion = createIcon("explosion", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABkwAAAKPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCeQsGAAE2AiQDCAQgBYMtBzAbeQXIjpOlBoKJJYLvdVn9vjQG2YusZcRDjJAhyBijq4u2BmF4izAQjCIKIr74BQ6fuKZ+0FO0Jj/Bo9TSqkEiadRxPoGJJEbSBpo2nE0UdzTvPYH1Qhv2kMeXcY0K6db0Ba42PzT+1MGlJJUMQDQHwPS1Kxd757v4LuLz6ovE5xYiIKaDUiBDhs4CTJIJdJYrkcsF30W1Kv4DSwKIGvaNE8hRg9vwJCAHSZ7ny4bVNDZUmuRr1HXFKbf3eaj1ulgTt/V5oP0qyt/U+oYOq4HLgDarGmJGzI7L293ctmssjxsR125trEba3IivihvCY2PaAK2gdWqT9p0VG9cVDcVFcVEUcdeAx8a80O+RzkUULcGcB9rf2rtZPNzptj5Gwe1jX+xQbNzYJeo1cS/R47Hmj/2dX+z5Qtcd0b7N27dWdG/Tmjef1vsqy5f7/P/fh7Xbak5Fs3MOnTtyvglut1LjGWcNfFwPt7x3JrXfwt1oyvvuis136z8G1pnPzHCZCfo6zh1R9N0qS/oseraXDcrt7+IHH1y2TNnp4v6gF1hjeZs2y5tLK9aAn092z5N7Frxc1Kq+Ycj1IBC0vY/VbW026b+6hgR+eO3fT7q4+k6alh5DnQSCbFB1kE1pGmBlAMkUp+vR8UWB5Do5+10b3SRAKBAgqVEIkOmkuQC5wkABKroaLUCNwkqZyOuF1jZnctLouJwZ4zw519rzcsUkHydqtI4MSC0gZnlGzDmnCM+eVQ4fMqycULZWJFa4M7TJieVgd7/TpY7+eK09jjriVLvtst+pBfqExenTHDanC53th0rDDTFMaYJycv3q8jV2O+EU+x11xJhmonL5eD+nd/fvj32JrTpCSZKIVP/fhnEPAAAA");
 
 export default Explosion;

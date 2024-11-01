@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paperclip-vertical` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paperclip-vertical?s=sharp-thin paperclip-vertical}
  * @preview ![paperclip-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/paperclip-vertical.svg)
  */
-const PaperclipVertical: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M80 88c0-48.6 39.4-88 88-88s88 39.4 88 88l0 264c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-216 0-8 16 0 0 8 0 216c0 26.5 21.5 48 48 48s48-21.5 48-48l0-264c0-39.8-32.2-72-72-72s-72 32.2-72 72l0 312c0 53 43 96 96 96s96-43 96-96l0-264 0-8 16 0 0 8 0 264c0 61.9-50.1 112-112 112s-112-50.1-112-112L80 88z" />
-    </Icon>
-);
+const PaperclipVertical = createIcon("paperclip-vertical", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcQAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBXwsGAAE2AiQDCAQgBYMtBzkb6ATILgrshuMjxFZNGBp6Tuy1GV4RD8+vfTv3zaw4KsMmzLWJa6OZ5CXSSDS8m1STym8E5i+YdrnjS8hOKA5+q7ZPF6rGGArGX//Q+kMoj/eJy53/+dMDTnvxRxtrgSyg3RznCSRYPsECygoo0wSsvdmMOiKjI8lkzaTjax1XF8jjiLXKSNdSuFTeNL5o7yxJlgGIZgCYsGzRHA8/xseIZ6UlnpmFgJgACoEMGToJMFom0EmuQC4XfIxSKf4HFgQQ5eiDEsiRYSlWAnKQRJ7PrSmry5fWlFWvutNL4t6wnVGNq907cpElImpCiGutLQtdENd7sqKbNG71mPv3cRiCFDcl4zztUUNjE/B3a33mbcgvcnH8+IsXc6qbN7/7Kq76pUrNTr+UvXjbf29fZJXqBw36+DEQ6oerbGo6edKthE+t1PD/58//DcOBQLDr1615w+h/ahL4/OBL+xk1lh7GwNSESgkEWe9Sb6vjpEaTY6AAAKTYrzFOmi+QzJXQq9a6LECoRoCkXLUAmY6aCZCr1kuAMl0MEaBctUUykVcJrawZcFJrF5wZ6hica+U+XGa0R1m5VpH5FeMVzLcucSoHphwrBvTtX4wslr3OugqV90cVZrP7/jTXA85ab4ft9lpnrU32Mmi3OeU+20zVwCm+qDBAX/0VRiq2R8/iUsx222OTrNk/ZJTifNrdfn11D3ASIh2okiQitbi91LvW+lxWAAA=");
 
 export default PaperclipVertical;

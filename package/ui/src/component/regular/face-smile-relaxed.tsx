@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-relaxed` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-relaxed?s=regular face-smile-relaxed}
  * @preview ![face-smile-relaxed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-smile-relaxed.svg)
  */
-const FaceSmileRelaxed: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm177.6 62.1C192.8 334.5 218.8 352 256 352s63.2-17.5 78.4-33.9c9-9.7 24.2-10.4 33.9-1.4s10.4 24.2 1.4 33.9c-22 23.8-60 49.4-113.6 49.4s-91.7-25.5-113.6-49.4c-9-9.7-8.4-24.9 1.4-33.9s24.9-8.4 33.9 1.4zm-2-98.1c-10.6 0-19.9 3.8-25.4 9.7c-7.6 8.1-20.2 8.5-28.3 .9s-8.5-20.2-.9-28.3c14.5-15.5 35.2-22.3 54.6-22.3s40.1 6.8 54.6 22.3c7.6 8.1 7.1 20.7-.9 28.3s-20.7 7.1-28.3-.9c-5.5-5.8-14.8-9.7-25.4-9.7zm134.6 9.7c-7.6 8.1-20.2 8.5-28.3 .9s-8.5-20.2-.9-28.3c14.5-15.5 35.2-22.3 54.6-22.3s40.1 6.8 54.6 22.3c7.6 8.1 7.1 20.7-.9 28.3s-20.7 7.1-28.3-.9c-5.5-5.8-14.8-9.7-25.4-9.7s-19.9 3.8-25.4 9.7z" />
-    </Icon>
-);
+const FaceSmileRelaxed = createIcon("face-smile-relaxed", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABkAAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCNAsGAAE2AiQDCAQgBYMtBzkbPQXIjsK25RNDmHKJJ6f4RlCtkT1zew/AlhQqYKHQ6K+XRPYdCYshI2NMKjZG5P7l9C6u/StzAr0BmCkOS1+mds3UqeexTQF8o6CMjYsWyPJcaK62XIGK9d67rMBTKGIR0prb4oqCMlkT0UNwiBja/kP78BcosY6tUJOvlAsAj+Wn4h9IqQSprgAgugAAbB4F+8LOD/4gnnMWid/gDQTEJsAURAXIGAQrqAJfgGYKKIrgD3I48h9IQADRAIqmhwsacQo8AFBAqgtNRl9WSIin5qOFtdbccdd6GFNeZ9z1Hic6E3ClO+l5ytPgfa4/jbzPzhj7/tc8Db6XjruhDw47Phfc9X5XTnthoV2qGIOqw+rDEsOqXZIjKgMmS2pDWv0UC6sX7RTvlhg/MDS72gHu0JFdPaA0Jjj2q3iReAHX25Zb4IuXx9ycp21qyzKlAvwGXJsZ/rXr7Lw7L8VlV9K0OT9sJywBpr/PaFpO8POxd3HrKjv7agt32Xz8GNNd9/62OVWgoJAwtfn2XidYxQXWeh5AIPjQU9uPElj5Y/FQAP6usf/rRvi/k5BvQJMEQTXH0RGeIAnqZxRSMlYWSCfogF9t8wQBQgsCpAYtAlRGCUJQtJiFoDbBFIIGLfZQReGC0Ceig9TmGFSWVYCizzyorTj2G/RF5YKiA4kfgGlujLieIoZ6BsSKLFNN8io+71qTbV2jMLY0AYVEWTLlSxAvRT7RuXyjAhncLMrVighDegwQVshx8Xw+TIJceVJkyZRjrJH7noZCe1gTFoUyzkukJFL4+TZ0897/ru7/K+zihHgA");
 
 export default FaceSmileRelaxed;

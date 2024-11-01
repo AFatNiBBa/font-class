@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `qrcode` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/qrcode?s=thin qrcode}
  * @preview ![qrcode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/qrcode.svg)
  */
-const Qrcode: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M144 48c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32l96 0zM48 32C21.5 32 0 53.5 0 80l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48L48 32zm96 272c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32l96 0zM48 288c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-96 0zM304 48l96 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32zM256 80l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-96 0c-26.5 0-48 21.5-48 48zm0 216l0 176c0 4.4 3.6 8 8 8s8-3.6 8-8l0-168 32 0 0 104c0 4.4 3.6 8 8 8l48 0c4.4 0 8-3.6 8-8l0-104 32 0 0 104c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-24 0 0-104c0-4.4-3.6-8-8-8l-48 0c-4.4 0-8 3.6-8 8l0 104-32 0 0-104c0-4.4-3.6-8-8-8l-48 0c-4.4 0-8 3.6-8 8zm80-184l32 0 0 32-32 0 0-32zm-16 0l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm-208 0l0 32-32 0 0-32 32 0zM80 96c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16L80 96zm0 272l32 0 0 32-32 0 0-32zm-16 0l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm256 96a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm112-16a16 16 0 1 0 0 32 16 16 0 1 0 0-32z" />
-    </Icon>
-);
+const Qrcode = createIcon("qrcode", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAAB9gAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhhyFQgsGAAE2AiQDCAQgBYMtBy0bvwbIjsR0+4j8wlXFJPindOb7K1lzlkxHvBckVBg7QGjDFUF1XQBLIE/aTEpgFev7/B9Lvki/dyD3xc8PpTo0oqzq+QFHUeRGExnYwEYwEdmwbWQYFePhWD6Aq3PMJQbmjHkGHHL79YVStoPBcYjwyvA96T1x7HBqs8pKz6LboGcMBQSgPgBYBDiAA1QgALrhIKACFwu4uAiyiiLzP9CCAEAeEGs45wK5oO6gQTCOAUPadcugp1M8L56Rf9zxIJZ0JwQxf+q+QukEaHPBcd/X3qKTkrYUnwqCCecLpOMl6EzhifqBLhWfKpfOFp1s4E/eb54Y+IHMyeZ3QmwV6/yOYyUgThSeKpYCobpLIB51ssiXlE8dL0CQ+g6tb/cR25jTVh9hpEGD7enzdRrNHf8+uSEcL5h4vOCX1bmaufq15tn8Zxw6lNoNu1Mhqd350ZnpVu/huRPiPH/fKqTHYuTpop9wR8MwlDkZJ5rN3Mtqxa+vRUe8MPQuY1mIF7YCIhZCbK8XlswxoWbkXYs9WGzGoVNZezZlKYWvpkXRmI7qzOwXRzMhmVEZekWa3n4dAAQIzv/zfGa627ecwADw+cHf+PNEWdWaq0AOBgCB0yxqxjTVAuAuIvIZrafOCk+9pdqTJvIlOIlgQPjAgMHDBw7lZICLT1MQo4r21J27x+IgN44oYDoEhgSrgEMHNgCXAm6CGN146PUokBOS6OGA/h8bZ0Af1n+Vbd2ile1iF9NqRuCg6vaudrek0Xpe1hieZD4rWM5a5jGXRazt4VYzPLCOZQxYI+7/s5bWtKAVli7Y07nHnAnYu5o1LJpnnR+mK/Z+QyPWr9duDOWGiGQb1hgMyHirVn9e");
 
 export default Qrcode;

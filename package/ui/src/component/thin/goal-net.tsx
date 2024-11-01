@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `goal-net` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/goal-net?s=thin goal-net}
  * @preview ![goal-net](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/goal-net.svg)
  */
-const GoalNet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 104c0-30.9 25.1-56 56-56l496 0c30.9 0 56 25.1 56 56l0 368c0 4.4 3.6 8 8 8s8-3.6 8-8l0-368c0-39.8-32.2-72-72-72L72 32C32.2 32 0 64.2 0 104L0 472c0 4.4 3.6 8 8 8s8-3.6 8-8l0-368zm136-8c-4.4 0-8 3.6-8 8l0 56-72 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l72 0 0 96-72 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l72 0 0 96-72 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l72 0 0 72c0 4.4 3.6 8 8 8s8-3.6 8-8l0-72 96 0 0 72c0 4.4 3.6 8 8 8s8-3.6 8-8l0-72 96 0 0 72c0 4.4 3.6 8 8 8s8-3.6 8-8l0-72 96 0 0 72c0 4.4 3.6 8 8 8s8-3.6 8-8l0-72 72 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-72 0 0-96 72 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-72 0 0-96 72 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-72 0 0-56c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56-96 0 0-56c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56-96 0 0-56c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56-96 0 0-56c0-4.4-3.6-8-8-8zm8 80l96 0 0 96-96 0 0-96zm112 0l96 0 0 96-96 0 0-96zm112 0l96 0 0 96-96 0 0-96zM160 384l0-96 96 0 0 96-96 0zm112 0l0-96 96 0 0 96-96 0zm112 0l0-96 96 0 0 96-96 0z" />
-    </Icon>
-);
+const GoalNet = createIcon("goal-net", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABuQAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiEDwsGAAE2AiQDCAQgBYMtBy8bDgbIhofn10F/7ptZwLM2mxDFuq5Q2gaGqCZ+cOKa+kFPTw9Y9gRP+uerLNyNukVGE0nPEh3OJoozt8YhqCjIHvUYMYatMaIeH3u82kAef1umBOlceoYj40PjgzoOkGQZgKgMgMEzp4734HW8jnj2/y3imbEIiCGgEMiQob4A/WQC9eUK5HLB6/j///wfWBBAlERvSyBHWbzDV0AOktJ53uJgGYqUK1Ehn7FdXXbuhVoRZ1pWiEs1TtVJcarGmVpZnG9zvUX5uNjqam2VOfNkdVE2OkeMLhfM90wUARbO1Dpds2xwdt4DZbJ/ermy5UrzctU/LcRbmpfDgU2uV77+qfGzFc9UmlnqC/9t+mrTf19KbVJy0aKSlVqxa9fXX71WVlRZh0stKtnLKEBKLirF8lGXeKlcLj8M9wJ6lQdrqYmLaLpFFm1qY756Ob8fCASr9r1ou7BSv1+lyyXw9v6Xv9rx/n+d9qTrKC2BIGv3fzvz0h7I9ADiKXZoYnxRIHmjNLqmvNMChLIIkJRU9sAz9VTGc2W1xUtoqDvPOX+qTORlhOrmA0/K24xnetiJ56q7gZfQz8NYSdUjW++C1Sr43Uw6QsLDZxWdO3Qq+hSneSxcwrze37dwa1vtKHWtsdYKG22wzXLLrLZNYFuMT2633ggLHe6HCp110EmhjyJcWktnpPgWW62eC+NafbmM+52t7LBbt4YhIcYucpJEpNLfp6/9huXbAAAAAA==");
 
 export default GoalNet;

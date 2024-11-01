@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tie` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie?s=sharp-duotone-solid user-tie}
  * @preview ![user-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/user-tie.svg)
  */
-const UserTie: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M352 128A128 128 0 1 1 96 128a128 128 0 1 1 256 0z" />
-        <path d="M176 304l33.1 55.2L175.8 483.1 135.8 320 64 320 0 512l168 0 14.9 0 82.3 0 14.9 0 168 0L384 320l-71.8 0L272.2 483.1 238.9 359.2 272 304l-48 0-48 0z" />
-    </Icon>
-);
+const UserTie = createIcon("user-tie", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABaAAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBNgsIAAE2AiQDCgQgBYMtB0wb1ATILgpscE0x4kHFkCba2kYeTX7p5jlSPE+/3//WPud8dcSTSsKTNq1UolpovyH1J/COT/fQ3lAZIvkejc171BrtENdGErcG07SloHGh0Caqk9ultSUWBREkluUeWPNL+f9OWyHqf9zP838eDfJA4Gedf5AC+RS59fkEdt5W6Zv5TGdg213UrChq+UmZMy1/j3k8vaDlod7qozwr31ik/wHMX8vdUgxVAMgkAHD0QjYD5156Jd9d5JvTQCDHANYhqKhYhYADqIJVaNYBTRN6pUMvnXUgQPqBPlxBPxoOAMcBaKCINJp0JbePTyvQKU7xaDyWI4VwSC5cvsEKSWwcPgqSx42Pw3ebn4nL1ZYXbuR+09MOG15OPv/DoXeLgtvxLs2S4yJfPF+GxvGS79zEsFPzsILH6O9fG/z/R0cVPmPfBxCEG0tbLQz+V6MA/Hn/9EPSHb6WlxhUQKhbu1TLGfJVAAAlB/J8xUUE1UoUMRj1WJzEMAhFv2GoVhJBM2wL9FnDJWyeOIMqjQ0xqw6gGHUZqv2O0Mx6hT4HvIX9ZlOVSFIB6QuXnuZIah7azFb04zSTZb0QwnQAt33twXV0sBcGlhZ2+nrGdozeyCR7c+kVmvJFyMbMCvmhuLzVCxhubI3HqnyWADwfaB3Wg3WwGApg9/WnKimEKnp5iWl3qW/SRldSqc8OAAA=");
 
 export default UserTie;

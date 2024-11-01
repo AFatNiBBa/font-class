@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-arrow-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-arrow-down?s=regular square-arrow-down}
  * @preview ![square-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-arrow-down.svg)
  */
-const SquareArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 432c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l320 0zm64-16c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320zM207 393l-88-88c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L200 136c0-13.3 10.7-24 24-24s24 10.7 24 24l0 182.1 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-88 88c-9.4 9.4-24.6 9.4-33.9 0z" />
-    </Icon>
-);
+const SquareArrowDown = createIcon("square-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABbgAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBVgsGAAE2AiQDCAQgBYMtBzgb3gTIhof/nwu77ycF4JSZFZAHQgmkxrVdFnLOWiI7/3PN5/f86AC/0aFEY1kUFljn8xOYSPq0cAIDm+kEbNbOfvBC8ZOSrg9Jhu0NoxvkcSvOq0K6kb7Dufyh8YsWzpJUyQBEfQCMX7pwtlI5yhHfVt4S35qJgBgPCoEMGVoLMEom0FquQC4XlKNS4f/AggCiKnltAjmqYA6WAnKQZHlev2XrWlXq5Eviu2tuvNYsi6tNa8flximuNKkz9Xq3iOedasfTHi9bZnGr56uudeJJ9xct0pIli5fcbPWs8+iIuNX1SQsxNuCOG80XxeMuHV7Wf/lb+++2fOdEvXLdceqWxymXKjUb0OD+OPcbNKg5DvGs/dl0qVz86ac6dX73TpP585u88zsglLR0aX0eCARLt20Zt7beqP+q10rg509//O9+RirlKKWXqC6BIOtV6WVVlCBKAgCQ4ogOUUIgmSIj99R2VYBQEwGSqmp2yLRSH3I19YQq2hpMbR5fKBN5DaGx1QRJbfshM8QxyDX2GqoY5bNXVePIbIqxCOZHlzgFkcmHiv59+hUjimmmsWZCpe3IYlvqdsR3utNVW+y1xyGbbbLdIcAOmB0ettuUFTrZFxX666OfwgjFcbkWl4B3wEHbx/z5npGK+0Y3R9bj3UlNBHeASJKI1OBZCr2De2Dv0d7GBgAAAA==");
 
 export default SquareArrowDown;

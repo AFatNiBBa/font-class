@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-monster` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-monster?s=sharp-solid truck-monster}
  * @preview ![truck-monster](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/truck-monster.svg)
  */
-const TruckMonster: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 0l32 0L384 0l16 0 9.6 12.8L496 128l112 0 0 96 32 0 0 64-32 0c-29.2-38.9-75.7-64-128-64s-98.8 25.1-128 64l-64 0c-29.2-38.9-75.7-64-128-64s-98.8 25.1-128 64L0 288l0-64 32 0 0-96 192 0 0-96 0-32zM368 64l-80 0 0 64 128 0L368 64zM128 256l64 0 0 20.6c7.4 2.2 14.6 5.2 21.3 8.8l14.6-14.6 45.3 45.3-14.6 14.6c3.6 6.7 6.6 13.8 8.8 21.3l20.6 0 0 64-20.6 0c-2.2 7.4-5.2 14.6-8.8 21.3l14.6 14.6-45.3 45.3-14.6-14.6c-6.7 3.6-13.8 6.6-21.3 8.8l0 20.6-64 0 0-20.6c-7.4-2.2-14.6-5.2-21.3-8.8L92.1 497.1 46.9 451.9l14.6-14.6c-3.6-6.7-6.6-13.8-8.8-21.3L32 416l0-64 20.6 0c2.2-7.4 5.2-14.6 8.8-21.3L46.9 316.1l45.3-45.3 14.6 14.6c6.7-3.6 13.8-6.6 21.3-8.8l0-20.6zm32 176a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM448 276.6l0-20.6 64 0 0 20.6c7.4 2.2 14.6 5.2 21.3 8.8l14.6-14.6 45.3 45.3-14.6 14.6c3.6 6.7 6.6 13.8 8.8 21.3l20.6 0 0 64-20.6 0c-2.2 7.4-5.2 14.6-8.8 21.3l14.6 14.6-45.3 45.3-14.6-14.6c-6.7 3.6-13.8 6.6-21.3 8.8l0 20.6-64 0 0-20.6c-7.4-2.2-14.6-5.2-21.3-8.8l-14.6 14.6-45.3-45.3 14.6-14.6c-3.6-6.7-6.6-13.8-8.8-21.3L352 416l0-64 20.6 0c2.2-7.4 5.2-14.6 8.8-21.3l-14.6-14.6 45.3-45.3 14.6 14.6c6.7-3.6 13.8-6.6 21.3-8.8zM528 384a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const TruckMonster = createIcon("truck-monster", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABtgAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDfAsGAAE2AiQDCAQgBYMtBzQbAAbIjsO44TuyxVL+I4h0ZdUjHWkNtHc2y8z0xDkhR8/5Z8jRR7TJrKr4x/08/+e/AR9v4sOZRLVHY0TRaAI7n661ChO0eaI4dTpCYdslfUSKFJlxlCK/Qzwe55DHP9l16kh3Jrh+edD4TRfXkTRlAKIdAGZvXLvcB1/H1xGf1V4lPrMUATEblAIZMnQXYJpMoLtciVwu+DpqtfIfWBJA1NM7J5CjEV/hF0AOkvo8H900u/Wc1pW61vmGSl2xtVJUqrE+KkG+KOKpKW8VTXpjkDkjKuBcI4pKoZ2zLhQpbq22xPTotAmC4bd0qsa0aIZORMJva+4UM6IFgoTw21uaY2ZUMSvWP97t7q53DXik8x1d7uy/9+6SZbnW3zXgsX6NU8756MDHu/V5qt1Tf/R2gK/eL8sX7rH+jFN2Kc1S2s6gQWyfZYKebZcPuOX6mauUaZar1P56f9ZeVQ/d8ofPfWnxkKpZqoYs/tLn/nDLQ17A2Pxpc1yv5x/48fXXf3xgtfS6qyqdmCUtt8StPFKcuPTSE4WcDgSCC6768IWdbaf93VhJ4Nu3/vqjbq72QboqjUYJBNmw2jDb0lUAxgC8KS7Qh/QxkHzhkTlbuS3qDwU7JPUKyHTTDnKFoVCnp/G8wcFrZSJvEjrZDkhaOQ2ZCS6HXCcvQ51pPvLU6xTZNBdMUsFPZtIFHpnfqxw9YlQ5pTxNM+HM5dH2qeWwdtAFtWwwJjrgpBPO2W+fw845+ozl/vOOW8DQ+X6oNNoIo5SmKMO5j9IN4jnjrMN9cbybqcp85yAX8NqDYUiU5RgxSSJS6/dYOfyTAQA=");
 
 export default TruckMonster;

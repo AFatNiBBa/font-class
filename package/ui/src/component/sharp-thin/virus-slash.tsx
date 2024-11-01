@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `virus-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/virus-slash?s=sharp-thin virus-slash}
  * @preview ![virus-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/virus-slash.svg)
  */
-const VirusSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M532.5 288l27.5 0 16 0 0-16 0-32 0-16-16 0-27.5 0c-49.9 0-74.9-60.3-39.6-95.6l19.5-19.5 11.3-11.3L512.3 86.3 489.7 63.7 478.4 52.4 467.1 63.7 447.6 83.1C412.3 118.4 352 93.4 352 43.5L352 16l0-16L336 0 304 0 288 0l0 16 0 27.5c0 31.3-23.8 52.9-50.3 55.8L254 112.1c27.7-9 50-34.2 50-68.6L304 16l32 0 0 27.5c0 64.2 77.6 96.2 122.9 50.9c0 0 0 0 0 0L478.4 75 501 97.6l-19.5 19.5C436.2 162.4 468.3 240 532.5 240l27.5 0 0 32-27.5 0c-20.6 0-37.8 8-50.3 20.3l12.7 10c9.6-8.7 22.4-14.3 37.6-14.3zM145.1 209.7c-9.6 8.7-22.4 14.3-37.6 14.3L80 224l-16 0 0 16 0 32 0 16 16 0 27.5 0c49.9 0 74.9 60.3 39.6 95.6l-19.5 19.5-11.3 11.3 11.3 11.3L139 437l11.3 11.3 11.3 11.3 11.3-11.3 19.5-19.5c0 0 0 0 0 0c35.3-35.2 95.6-10.3 95.6 39.6l0 27.5 0 16 16 0 32 0 16 0 0-16 0-27.5c0-31.3 23.8-52.9 50.3-55.8L386 399.9c-27.7 9-50 34.2-50 68.6l0 27.5-32 0 0-27.5c0-64.1-77.5-96.3-122.9-50.9c0 0 0 0 0 0c0 0 0 0 0 0c0 0 0 0 0 0L161.6 437l-11.3-11.3L139 414.4l19.5-19.5C203.8 349.6 171.7 272 107.5 272L80 272l0-32 27.5 0c20.6 0 37.8-8 50.3-20.3l-12.7-10zM16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5z" />
-    </Icon>
-);
+const VirusSlash = createIcon("virus-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABtAAAAK3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDewsGAAE2AiQDCAQgBYMtBzIb/QVRlM3JINmPhIr3ERVhBmbGTIgoInBU/a55LR6eH/d17n1vQDQpzawqXYrzD22bYl5HOK3bJvr/b/f+PonnBjcPmknWjQchSnWCO6hNB+CbHdj+Mv3n6l8ETFxO/4ue2ueTIwjtf1tr2lpToPMFFpW3QSZnZdkW9Azb9ibI0dzXbZ0l1Pitkzf5ML/ibnSj8c2YZUilAIheAHD4YkUR3t/Qh4hH/59APHIUBMRhALMIBQWTCOzxFJjkZRZUVfCB/v9X/4ECAohmuEyCiiZ8BF8AVJBKrdcGQ5h3V81WM29phEmMsLQkPXVtGwbZbbrNol7GnId17wtsWlajrHQh78hEjLClXUWfGQtkaNMoZ3VOOiNIdKpaaSO2PUZnOcDYk74oVSWLNeHbjQXLreiz0JgiyHbsc35io1PHpgMkEdG+fh1zri4QZ6k20vBy13Y3PJzK6MKwVdustpWBMeTydzYecc2v/4R/7f4Ky4EsGxwCHFxu//F9JcImL71S5ZVbIvz87Y5WwPF1DoXPu5/JbhS+eO4/SVAEH8m7f38a5nWL0NPRsb0ImSD7H/HJ99alou+nFO4Zk+Xma9d6auDln+0haYInQwHg5a5bUtQcBf1XmIobXeNrJWbsolLfZ+fspIf4AgSC0/vu0ZbgvV9+LMGnl/9+Qez8/3028hq0ShCU5f/LGrMBKEkC3Bl3EDHwQIH0EgWutdM9BEI7AqRm7QIUEzgCVbslBJpMS0egWbuzPEVtEwY1FeLU6bq42DUjrgY9EjfZ88HVbDA873L0HkV/MqMKq/SCUSI5IUnkiN6CDLtxYT+YKybL1WndoNGF6DZi2KQunfpMVnjjirxThhQOMQo8kZAsQRIhh1hcvklVc/e4CX3d2PJh5BLbm1XTw+01qvIAqZvSUhLZ8fEIiZ8YbJvoBQAAAA==");
 
 export default VirusSlash;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-simple-min` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-simple-min?s=duotone gauge-simple-min}
  * @preview ![gauge-simple-min](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/gauge-simple-min.svg)
  */
-const GaugeSimpleMin: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm64-8c0-4.3 1.2-8.7 3.6-12.6c7-11.3 21.8-14.8 33-7.8c39.2 24.3 78.4 48.5 117.6 72.8c10.6-7.8 23.7-12.4 37.8-12.4c35.3 0 64 28.7 64 64s-28.7 64-64 64s-64-28.7-64-64c0-3.7 .3-7.3 .9-10.8L75.4 268.4C68 263.9 64 256 64 248z" />
-        <path d="M100.6 227.6c-11.3-7-26.1-3.5-33 7.8s-3.5 26.1 7.8 33l117.5 72.8c-.6 3.5-.9 7.1-.9 10.8c0 35.3 28.7 64 64 64s64-28.7 64-64s-28.7-64-64-64c-14.1 0-27.2 4.6-37.8 12.4L100.6 227.6z" />
-    </Icon>
-);
+const GaugeSimpleMin = createIcon("gauge-simple-min", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiBbwsIAAE2AiQDCgQgBYMtB1wbHQXIFkrLw/M2v537ZpIVsVlXBzqxStTLT0WVoGY5OS3eeKmAByLtxsYLssDnjFeg8fIcQBv0wd/0DeytnZ5M6rNKgu99hokbNnXo7JDHy9l5SqTr0rO4hP8HML7RwXkkDTIA0RwA09euXKzyYXyY4tnag8SzFiEgZoBCIEOGzgJMkgl0liuQywUfplqND6NWKwggyvijMlBGCeuwC5CDJKQ8b9+pS6NSk3xNo1LDtXe3v7b36rjSdf3v633PwAc6XT/g/j7nt14Tr02PqC5+rtEFS1+Y+cja12c8vOT5hucvenZaZdXcs9vd0Pu+/vH4axrd1f++Dtf2u7fX3QPu73h2uzVxdfS4v/n933V/ds+zdr0zvnJF41PnycsNW7S49dYWLRr6hW3/OWWuitkN6FBXnTmzWtehgdmrm7I/6o2ujK9WX6r+03YHD++V81PnubsJEAg+P+vbIVubTfqtfqMEPn7oh1+431GtkqT7UV8CQTaoNsimBBIBAEhxmh6JCQhkxklyb2NXCxAaokJS1hAynTSHXEMDoaSr0biyZ6VM5A2E1jYjSBo7DpkxTodca3VQMskTYlnryABGwoP838XNGZmdVwwfMqyYUCxVhcIMntITCzXf7zSu/tRoj6OOOMVuu+x3StgJi5VTHTZHQmf7osJwQwxTmKAwG/fcmsQTTto/Z+xZJirOC/2cJgf3p2ISYMTV9GREiqz93u2n7t09GKTK4MP7jwxGq3/HIfM2AQAAAA==");
 
 export default GaugeSimpleMin;

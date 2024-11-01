@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-a-z` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-a-z?s=regular arrow-down-a-z}
  * @preview ![arrow-down-a-z](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-down-a-z.svg)
  */
-const ArrowDownAZ: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M47 377l96 96c9.4 9.4 24.6 9.4 33.9 0l96-96c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-55 55L184 56c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 342.1L81 343c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9zm305-89c-13.3 0-24 10.7-24 24s10.7 24 24 24l74.6 0L334.1 440.1c-6.3 7.1-7.8 17.2-4 25.8S342.6 480 352 480l128 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-74.6 0 92.5-104.1c6.3-7.1 7.8-17.2 4-25.8S489.4 288 480 288l-128 0zM416 32c-9.1 0-17.4 5.1-21.5 13.3l-80 160c-5.9 11.9-1.1 26.3 10.7 32.2s26.3 1.1 32.2-10.7L370.8 200l85.2 0c1.7 0 3.3-.2 4.9-.5l13.6 27.2c5.9 11.9 20.3 16.7 32.2 10.7s16.7-20.3 10.7-32.2l-80-160C433.4 37.1 425.1 32 416 32zM394.8 152L416 109.7 437.2 152l-42.3 0z" />
-    </Icon>
-);
+const ArrowDownAZ = createIcon("arrow-down-a-z", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeQAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCAQsGAAE2AiQDCAQgBYMtBzUbBgXIjsK25RMVo1zmJxgTJ1c8/Lf2u29mdzFteP4kTSZdLNJMUjKNkVI4VG3U7z8/7j33y5PfAGdSCWSF0hpcoVAWl//8X/P5Pb8G/EaHEm3ZswTPfD6BAzzdLMoG2jbam00Up25KUbSgaD6REWSWITu+9fi2hyI+YgJ80gvnEVy1N40vBgaBpMwAiE4AwMJOQhSuf+k36KF+CvEuAgTEAoBhhIyMfgSmcQX68QyDQiH4IHU9/QcyCCAq4HoSKFBhD5wDKEBSFDxjYwOhlC/nJUtLSUpSctKubQq9Ge5ZxVKmJZsdfQ7FE7kLBgVasGgtpUS615nVUXXfaHO2hFLoSXdOV5IypJ1Iz9a7RkYkpWGpAS3a7hsmk+6U6Ork6kwSiyPV0d/IY/EjXFZzoMrbgovX11hYjGQ6a3E6yShG9KK6pVa6fiICmfsYjqr87RU3nVMrKmPW0dgXvPkuCTe92wwxbOzljA/tljDgcHBJIKgdmZXlKKf/RVIO4PPq73+cP1J/S3LOEaBRAkEeVTvJTPMw52nkIgCVFM2wkG9CSHbx4FVbPYJAaEaApNIsQNZHhUChWQ2B0iBvBCrNNnBFIUbolXWBpNUlyKZ0gUKvY1CadlOp9AbX0Xg34f/zUoIZCspj7i5uLIBtG6bgO2xZDGSPNbvmPGAvK1GsRrVGRQqVaSSyXlS9SZVgCw7yQ4w7F26YAOy4/aomo0q9BmX30vkygdj7kZ1me7y9mBygHLMmSURS5NXX17Q4f34l5zzndg==");
 
 export default ArrowDownAZ;

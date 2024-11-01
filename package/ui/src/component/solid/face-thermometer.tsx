@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-thermometer` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-thermometer?s=solid face-thermometer}
  * @preview ![face-thermometer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-thermometer.svg)
  */
-const FaceThermometer: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 256c0 141.4-114.6 256-256 256S32 397.4 32 256S146.6 0 288 0C400 0 495.2 72 530 172.2c-14-4.1-29.8-.7-41 10.2l-150.8 146c-14.9-5.2-31.6-8.4-50.2-8.4c-55.1 0-93.8 27.9-116.1 53.5c-5.8 6.7-5.1 16.8 1.6 22.6s16.8 5.1 22.6-1.6C214 373.8 244.6 352 288 352s74 21.8 91.9 42.5c5.8 6.7 15.9 7.4 22.6 1.6c5.2-4.5 6.8-11.6 4.5-17.7l9.4-9-24.8-24.8c-4.7-4.7-4.7-12.3 0-17s12.3-4.7 17 0l25.1 25.1 15.3-14.8-25.4-25.4c-4.7-4.7-4.7-12.3 0-17s12.3-4.7 17 0l25.7 25.7 15.3-14.8-26-26c-4.7-4.7-4.7-12.3 0-17s12.3-4.7 17 0l26.3 26.3L514.1 275l-26.6-26.6c-4.7-4.7-4.7-12.3 0-17s12.3-4.7 17 0l26.9 26.9 12.5-12c.1 3.2 .2 6.4 .2 9.6zM240.4 208a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm128 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceThermometer = createIcon("face-thermometer", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlwAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCYAsGAAE2AiQDCAQgBYMtBzcbZwXIhofn7fo691X1H0A1tiNrAaaiUkaKtuf/mnpRdg34jQ6ligrvQHo8yny+gZ/oLJpCYDacTRR3tu3VSaqhHYTCOEEe32UnlUi3pPdxJXxo/KaJkyRVMgBRGwCjF86d7uWf4+eI98pPEO+ZioAYDQqBDBmaCzBMJtBcrkAuF/wc5bL4DywIICqk5yaQo4QruBuQgyTL89X16lUr1cgXmBuq7vx8VMTL0yLen/fljA/HvLrgq7Gvzfxo4Rfz1Y4PtpsXD1Z9vN39na5vcEOj2zo+NPCJ9g80qRtvatgousSNYqMGnQPvcNSaYw0jbqx6vv719W9ocEO1C5NMzL/AxE3RIu5u82jtR/9o/f6G97V6ycTGNLmGYxNNdOyaJo1NVLJQxMvnGdVzVI+mU9e3uvEaC5sf/eij/PyjDz/y8bKtbF328SNPb+x81kGbNh44fdafztbUwTMN/7vFxk0UvtV5FB90+sCj3lMq9exZ8yxna9Y4e7ZGBdWMax5pRWTfMvc4EAjW/3Xf8JW1hv1duVoCvz7713/+9qL8cirSo6gsgSDrVu5mWRqlUKzUCkhpigPa4G8SSM7I4Het7kYBQlUESCpUFSDTTG0BclV1FaCkpf4CVKhqrkzkVYT6lrcgqW43yAxwCOTqewyUDPNWWqF+ZICpg5X+W5gzoY+Oryt69+hVDCkWW2oD1lS7OrTY7Xc6IEc646022GmHfdZbZ7N9PXGP6cV+201Yo8f7oUJvPfRSGKI43X3sLKDpHnttnrfOrzNUcX/SyYH16Z1xlCTJPpqSRKTaT73X/cNYuH3nKwoAAA==");
 
 export default FaceThermometer;

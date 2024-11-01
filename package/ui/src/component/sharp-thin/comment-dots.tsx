@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-dots` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-dots?s=sharp-thin comment-dots}
  * @preview ![comment-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment-dots.svg)
  */
-const CommentDots: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M71.9 376.4l3.6-9.6-7.3-7.3C35.2 326.3 16 284.7 16 240C16 136.9 120.2 48 256 48s240 88.9 240 192s-104.2 192-240 192c-30 0-58.6-4.4-85-12.4l-4.6-1.4-4.6 1.4L42.3 455.4l29.6-79zM16 480l19.3-5.8 131.1-39.3c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L23.1 461.2 16 480zM144 240a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-16-32a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm144 32a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-16-32a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm128 48a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-32-16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-    </Icon>
-);
+const CommentDots = createIcon("comment-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABoQAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDAwsGAAE2AiQDCAQgBYMtBzMbhgXIhofv1+o993UvAPfuR6YQg4vciiN2H1XQTsWiSkXO1KnnmRYK4BvFJDg2Lg2O6bt7YwUK+Bdqvb7AawWraQSsts0wSImW2yRCwiSiYfSH6e+QxzfOqiC9n67hVf3S+FOPp0iyDEA0A2DVgT3b/FiKUsTV8mfEVVsQEKtAIZAhQ78AS2UC/XIFcrmgFOUy/wcWBBCV8L4EctTiPXwGyEFSnecDQzVtNairaMj3N1jtga72rs74af/vB4j8dR/5y952+IX5ndEee+PA3gljJxyIz+p+33J1xQ9jPlr+/eYr+3/ZeGnpt8Wvu/ZG94G32t/pfLfr7Y7eF9oj3vJYx9t1L3a9G493vlO7z5eYC7Xxzk6EcEccw0dGm0f/Hr52/poNGxYie48x1sSO1fMreSEE5YwiV6Y9uMos944Y2L7gwjjAnxjv4xkbvPDh4GBNTXM/fGED0xxbzg8fcvrRfxtLpUZiKzc+x3ONjc+d+urQxn50BnNlWHkcCATbh8/8f6Jp6X/VdQn88fW/f2prpFxK0iiqJRBkU8tTHU0gEQCAFPcYSRBIXlMNn1rvHQFCLQIklWoFyPRpFiBXa4oAFQbNE6BSrT0ykdcI7Y5NkNS7HWTmexjk2n0CKix1MarUHlmmSnkm/Simr7fIukvFrOkzi8XFtmfIySf03SXFsTHxHpmZRDecd6tb3OWcs65XztB32Jbe7WbrI2qdHyrMMt1MhcWK6+Frw37n3OFO1/OV+3OWKN47E90TL59EdgLG2WpJIlL9txFNO3vrXXcCAAA=");
 
 export default CommentDots;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-right-from-square` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-right-from-square?s=light up-right-from-square}
  * @preview ![up-right-from-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/up-right-from-square.svg)
  */
-const UpRightFromSquare: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M320 33c0-18.2 14.8-33 33-33L480 0c17.7 0 32 14.3 32 32l0 127c0 18.2-14.8 33-33 33c-8.7 0-17.1-3.5-23.3-9.7L404 130.6 235.3 299.3c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L381.4 108 329.7 56.3C323.5 50.1 320 41.7 320 33zm33-1c-.5 0-1 .4-1 1c0 .3 .1 .5 .3 .7L478.3 159.7c.2 .2 .4 .3 .7 .3c.5 0 1-.4 1-1l0-127L353 32zM0 96C0 60.7 28.7 32 64 32l144 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 64C46.3 64 32 78.3 32 96l0 352c0 17.7 14.3 32 32 32l352 0c17.7 0 32-14.3 32-32l0-144c0-8.8 7.2-16 16-16s16 7.2 16 16l0 144c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 96z" />
-    </Icon>
-);
+const UpRightFromSquare = createIcon("up-right-from-square", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABegAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCDwsGAAE2AiQDCAQgBYMtBzsbGgXIjtMF9SWLKS+Jh+9tvp77dvXHXn3LSGtm7AAoBJWxTBfuuCk0aTOpMq6VzLXvE9fUD3p6esAif7QOfZACz9r5BCbQPk+gtIHNdAK2tw2FckThDZEgqWg8bayOkMcPMVyF9Fn6G0/ah8a/urpJkmcAog0A5mxat8Kv9ahH/N2I+NsyBMRcUApkyNBDgOkygR5yJXK5oB6NRv4PLAkgmvA9J5CjgmM4B8hBkuV5v9rYaqVVvrFaKQ5d6xzxSbUaDzp+RFzt8LK432ltrI+XnT7uvCnWxscx6b5rNsSD9FARxe4vhkW8H1SNjzq+7FDE/Q4vpbja8aNqq3jQ+ZOI+KTzRx3Fp4Pf9G+OV0Pfdcv6vmvz7r8+DjLr69qn3KtdUbt7F6VP5ea1e2O9ee3t288/f/1GP5/WRIhLl4SIK67snlW0pe23T9VrtfrTveZuBJ4i9Tq1aNv2292+BYrTQSC4OOHP/3e1nv6hRTWBf77/A/oVNX5N0ju0kECQDW8Mtz2BRAAAUlzUN0Eg2SfD79rsYwFCgQBJk0KATHdtBMgVhglQ0csEAZoU1slE3lLoYIfgSbMzeGaiS3iug+/wiul+C5p0iCzeuGjhvnvJCzW8YFU5ZuTocmo5TXQ+hJiyOK1ctgdfpMYQOOigU04674D9jjivsLNWxBecsNBCF/ii0hgjjVaaqjzOH3dvdMBZ5xxxysm6zDTlfX+wi3b/EPASph1rTZKI1OHC6deqjPBNbYTrAg==");
 
 export default UpRightFromSquare;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plant-wilt` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plant-wilt?s=thin plant-wilt}
  * @preview ![plant-wilt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/plant-wilt.svg)
  */
-const PlantWilt: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M280 88c0-39.8 32.2-72 72-72s72 32.2 72 72l0 40.3c-42.8 3-72 30.2-72 74.8c0 27.9 25.3 74.8 66 111.6c3.8 3.5 8.9 5.3 14 5.3s10.2-1.8 14-5.3c40.7-36.8 66-83.7 66-111.6c0-44.6-29.2-71.8-72-74.8L440 88c0-48.6-39.4-88-88-88s-88 39.4-88 88l0 88.5c-18.4-29.2-50.9-48.5-88-48.5c-57.4 0-104 46.6-104 104l0 24.3c-42.8 3-72 30.2-72 74.8C0 359 25.3 405.9 66 442.7c3.8 3.5 8.9 5.3 14 5.3s10.2-1.8 14-5.3c40.7-36.8 66-83.7 66-111.6c0-44.6-29.2-71.8-72-74.8L88 232c0-48.6 39.4-88 88-88s88 39.4 88 88l0 48 0 224c0 4.4 3.6 8 8 8s8-3.6 8-8l0-224 0-48 0-144zm144 56.3l0 55.7c0 4.4 3.6 8 8 8s8-3.6 8-8l0-55.7c16.6 1.4 29.7 7 38.9 15.3c10.4 9.5 17.1 23.7 17.1 43.4c0 9.9-4.8 25.7-15.6 44.5c-10.6 18.3-26 38-45.1 55.3c-.7 .6-1.8 1.1-3.3 1.1s-2.6-.5-3.3-1.1c-19.1-17.3-34.6-36.9-45.1-55.3C372.8 228.8 368 213 368 203.1c0-19.7 6.7-34 17.1-43.4c9.1-8.3 22.3-13.9 38.9-15.3zM33.1 287.6c9.1-8.3 22.3-13.9 38.9-15.3l0 55.9c0 4.4 3.6 8 8 8s8-3.6 8-8l0-55.9c16.6 1.4 29.7 7 38.9 15.3c10.4 9.5 17.1 23.7 17.1 43.4c0 9.9-4.8 25.7-15.6 44.5c-10.6 18.3-26 38-45.1 55.3c-.7 .6-1.8 1.1-3.3 1.1s-2.6-.5-3.3-1.1c-19.1-17.3-34.6-36.9-45.1-55.3C20.8 356.8 16 341 16 331.1c0-19.7 6.7-34 17.1-43.4z" />
-    </Icon>
-);
+const PlantWilt = createIcon("plant-wilt", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABpQAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDAQsGAAE2AiQDCAQgBYMtBzEbggXIhof/t+u/fW5V9wNUX1IEcIQIRgQpG6cTqdekjIT5v+bzazo6wG90SJFWbUeLoogkHPDRzdL3BphAw5lOwKZuSvDwEEfAY5RZRi1FPM6y49kF8njXESXSA+kL3Ha9Vfygx9UkWQYgmgGwbPvmTT6qRCXii/9fJ76wAQGxHBQCGZL7BVgoE/oCuQK5XFCJ///v/4EFAUQZ7zKBHCU8jmcBOUiyPD80OFBXasi31ZVqjz80IeLZMY+Pe7pHvDb2KZePe3rcPXU3dT074dm4YvwzsyMeBWNW9osHRz9RK0OF5MegznndSBgQ4p6O+7qC8VZhOuzxjnt6Lu++f+zdtTd2PtP7YDzUdd+YA10TBwavbjb8meZnfhr2xbEvdB1vnMGMSmXGjMax0vDpwzsHG37cUl295ceGwc65Ko2VX3/90qXj4/lOX51xRv9LX39Z1x3CulOnqigfOFCumOr22+bMJavS5rry63/rm//5+zMp+ewuba7/9+srr71teHNVsZ9H/P3P9UAgqFwz/d39TQt/ra5L4Pt3fvmr/Iz8/1GSnkG1BIJs4v8T7UkgEQCAFBcZniCQPCLDd613rwChFgGSsloBMn2aBcjVmiBAyaBZApTV2iwTeY3Qbu8Dknrngsxsl4Bcu1dByUIfZ8raI0tUPs34/8SU1RpatauYNnlqMb9YdomQe2zbXlCEtbEX1alx2OuYs53lAkcdcdIFijrPpvyFzrTaI1f5osI0k01VmK/YHvxWthXvPOdr1hb2NQtkiPPRWBf5i8fBTEg7XUOSiFT7VWUmXXzyjAsAAAAA");
 
 export default PlantWilt;

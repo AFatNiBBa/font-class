@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-meatball` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-meatball?s=sharp-solid cloud-meatball}
  * @preview ![cloud-meatball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-meatball.svg)
  */
-const CloudMeatball: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 320l96 0 36.4 0 10.5-10.5 22.6-22.6 12.1-12.1 16.8 3.4 12.1 2.4 6.9-10.3 9.5-14.2 17.1 0 32 0 17.1 0 9.5 14.2 6.9 10.3 12.1-2.4 16.8-3.4 12.1 12.1 22.6 22.6L379.6 320l36.4 0 96 0 0-96c0-53-43-96-96-96l0-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28C256.5 24.3 219.1 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 96zM172.1 434.7l-6.6 33.1 22.6 22.6 33.1-6.6L240 512l32 0 18.7-28.1 33.1 6.6 22.6-22.6-6.6-33.1L368 416l0-32-28.1-18.7 6.6-33.1-22.6-22.6-33.1 6.6L272 288l-32 0-18.7 28.1-33.1-6.6-22.6 22.6 6.6 33.1L144 384l0 32 28.1 18.7zM48 448a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm416 0a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const CloudMeatball = createIcon("cloud-meatball", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABkgAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCXwsGAAE2AiQDCAQgBYMtBzUbZAXIHoex22RJF81w/BEPz9vVd+6r6h7UzCfrW14rhNybAQ6yjex0O5kJI1IfuHbimvpxHsWR5EOLtLa2PI9onsBE5xW+81mWKG5x280Qs0obhEJjBHm8nq1CuifBTf6exi+6u46kKQMQ7QAwb8uGVd75Mr6M+Lwe8bkVCIh5oBTIkKGXADNlAr3kSuRywZdRr4v/wJIAoircagI5qrgd9wBykOR5Pm9ca2tRac03F5XmKJqLrjEiukZnDnZ1FkWFdY5hCUUR8eDw2mSqeGHovYNrzczTvcTj0d1s6tW317CYsi5QxIiY5MA+bMTw6AtOZJtjaEwGe38mhm18qud9Pe4d/Hi3u7vfM6i1dTr9a+1qv/VzmKv27r3uGYe97m/v2e4B7cc94Ljn/O1zmz1j4N69Gmu1q9qJzYfarT3+xUM39/vzj//bdvFq14a2e589Z+3atZtUjFAaoWqztZ5Tes5eh6boik1Jl7Y8/P3LL3//cJZFNgcCwZCfLm1P25n/NRYJfP3aH795c9bVT9VUQ6MEgmxkfaSdyQKgp7gvf1ygP74ngeR6uXBXW9wpQGhGgKSqWYBMT+0EyDUbIUBFH5MEqGq2QSbyJqGTXY2YtDhbzEx2uZjr5HmxYqaPg1WdIoNLLVRpPwszLe7CiwaV40aPLaeXsxmVDtTUtnNGudky9AJZMQwPddgZp53nkIOOOa9DnWNV5HynLF5CFvmh0jijjVWarjycf2jaTNlznOuY87Tj/cxQXu8a6oLl+sOwPQlVjpeUJCK1+UGhedQ7r37YAAAA");
 
 export default CloudMeatball;

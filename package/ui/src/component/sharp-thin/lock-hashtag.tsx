@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lock-hashtag` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-hashtag?s=sharp-thin lock-hashtag}
  * @preview ![lock-hashtag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/lock-hashtag.svg)
  */
-const LockHashtag: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M112 128l0 64 224 0 0-64c0-61.9-50.1-112-112-112s-112 50.1-112 112zM96 192l0-64C96 57.3 153.3 0 224 0s128 57.3 128 128l0 64 80 0 16 0 0 16 0 288 0 16-16 0L16 512 0 512l0-16L0 208l0-16 16 0 80 0zm0 16l-80 0 0 288 416 0 0-288-80 0-16 0-224 0-16 0zm88 40l0 8 0 40 80 0 0-40 0-8 16 0 0 8 0 40 40 0 8 0 0 16-8 0-40 0 0 80 40 0 8 0 0 16-8 0-40 0 0 40 0 8-16 0 0-8 0-40-80 0 0 40 0 8-16 0 0-8 0-40-40 0-8 0 0-16 8 0 40 0 0-80-40 0-8 0 0-16 8 0 40 0 0-40 0-8 16 0zm0 144l80 0 0-80-80 0 0 80z" />
-    </Icon>
-);
+const LockHashtag = createIcon("lock-hashtag", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgwAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCYQsGAAE2AiQDCAQgBYMtBzMbZAXIngV2w/URNqHkvxyyn0hp3BFPr/vXPVfStyyZQQaEEGOXLiUgVIgdNs2ftJ5UmbR5ydy70A9Q8P6q+H3q1PNwLjTPn0MQpLFtTZAFElqz47wCBa3lvJMqVAtYtYJWa2ffhWL57ZMQn2QYn2FxhTqvulFDebnAk7LRHDPfoxRVBSDTAHDcJRec5dfxjCd/jb4ifzkDgRwHBkGFCosEHFQJFqkNqNXCeEYj/x84ECBjeNMF1JiA5/AKoAZFU9fTlvanTeybyfXFfdNdIfokb6z/ZPeXaz9aNETePfLLKQ69TPpeSqSblFRJ+ou6viuZnCrdhUL6JEkfWTzqOjAgk6RYlA6DHgx8fdesxfJPpn3yzzI3c8+Ro3x53FFT/19nFG9qdp7guSfsbI46d9o0g2mmfSruOZzLLw3eMjj3wzVt2651rrVa07TWWtsSvPZccdRO1546Fyr3PgjCv1+3XTP14H9tX8Df3z9GXh79ml/LJ2gVEKqNo42uzK/gqQF+UsnDludXBMVjGvjUSV4QEB0CijGdgMpC0wTUOhsENJbYJWBM5wKV1BPFLFcVUExyH6js9giozfIFaBz0WzxmVirD5M2K/xemnFxDJ50btm3eOuwfpoUs2Bqbjg8My9rah8NgHa242T3u9qCb3Og2YSr0fmdlD7nLyRpyki8abLPZVoP9hu36XrkY7v0eCKqxuH/KAcP5aK2H9fl1ZBZMu12uKKRMujHqpsfoP3jdLQAA");
 
 export default LockHashtag;

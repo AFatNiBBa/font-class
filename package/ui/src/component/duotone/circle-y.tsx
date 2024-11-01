@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-y` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-y?s=duotone circle-y}
  * @preview ![circle-y](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-y.svg)
  */
-const CircleY: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128.1-90.5c.1-.8 .2-1.7 .4-2.5c.3-1.6 .9-3.3 1.6-4.8c1.4-3.1 3.5-6 6.2-8.3c10-8.7 25.2-7.6 33.9 2.4c28.6 33 57.2 66.1 85.9 99.1c28.6-33 57.2-66.1 85.9-99.1c4.7-5.5 11.4-8.3 18.1-8.3c5.6 0 11.2 1.9 15.7 5.9c5.5 4.7 8.3 11.4 8.3 18.1c0 5.6-1.9 11.2-5.9 15.7C345.4 221.5 312.7 259.2 280 297l0 79c0 13.3-10.7 24-24 24c-6.6 0-12.6-2.7-17-7c-2.2-2.2-3.9-4.8-5.1-7.6c-.6-1.4-1.1-2.9-1.4-4.5c-.2-1.2-.4-2.4-.4-2.4c-.1-1.2-.1-1.2-.1-2.5c0-26.4 0-52.7 0-79L133.9 183.7c-2-2.3-3.4-4.8-4.4-7.5c-.5-1.3-.9-2.7-1.1-4.1c-.2-1-.3-2.1-.3-2.1c-.1-1-.1-1-.1-2.1c0-.8 0-1 0-1.3c0-.4 .1-.8 .1-1.2z" />
-        <path d="M136.3 149.9c10-8.7 25.2-7.6 33.9 2.4L256 251.4l85.9-99.1c8.7-10 23.8-11.1 33.9-2.4s11.1 23.8 2.4 33.9L280 297l0 79c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-79L133.9 183.7c-8.7-10-7.6-25.2 2.4-33.9z" />
-    </Icon>
-);
+const CircleY = createIcon("circle-y", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkQAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCQAsIAAE2AiQDCgQgBYMtB0wbXgXIjtFjRySSdeTyIOIY1sTz3y9x576/uymlywCqqtJlKw6JR6KCUOCqkLEYi8VnsLim9//fz937J+LwENekanmsklQSSUSihMJZaGP+r6kX1lQgn/wCLYqqtoEUeObzCQw4ypK0QWc6A5u1sx9k+PqUQegICcP2hpEbdHlrU9BTX6kH4KP8D2B+05iiTDUAyCIAcPtVZjKc/OJv4cN4RH5IAgK5A4BDiIaGXQiuoQl20R0CnU44o/5HcIb/IwEBMoBgzacP6HECfAB0oER1dM1OHK8X0HN4PbdwVZGNr/Czg1GdhfLFfkWLycFvKvx5G3P64JG3mPocd577FXuW8sRdSHqIPsnKHUfEcdW4yqRaVRgV2x4m1a6XibeoMML71Ze0A+mCcokhRMf5HPykFIzjcdtT8cbf0UPNA8we6y3ZFWCOWfTm0/I2SKV4kq5IhXTWqRlOIGGKre+nd+NODzUc97EeTjnJR0SV/KLe8vP8evLtV532cqeqe3hTOazJTc/AfWMrx0KoyFdl8vI2sGtBCkgQQoAgXPuztFwquvafPUMB/Do2/xV+R+NJQZ0CkwqEdmG8oKhAEQBApQdsi3dA0LxGcfc665OAmEZAGUwLaHaIIehMOw9Bb18ABINpz9Ck40CsKs6gzHoLmquGQWfVIehdc10erKZpoqZH2jswOxHRhGXEx9ObhJJuXdSVS+H5MDLtOffYPhc6CjVatehSrUq9LmA6JNe6NUsc0Qm+iPDhyRsRiiy3ru0cKHfoVN821xcJQ86XnPWMR7tQSHGyF21pGimkiX/slDz6PVTakRbm3QUAAAA=");
 
 export default CircleY;

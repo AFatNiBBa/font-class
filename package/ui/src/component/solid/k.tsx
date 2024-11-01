@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `k` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/k?s=solid k}
  * @preview ![k](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/k.svg)
  */
-const K: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M311 86.3c12.3-12.7 12-32.9-.7-45.2s-32.9-12-45.2 .7l-155.2 160L64 249 64 64c0-17.7-14.3-32-32-32S0 46.3 0 64L0 328 0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-107 64.7-66.7 133 192c10.1 14.5 30 18.1 44.5 8.1s18.1-30 8.1-44.5L174.1 227.4 311 86.3z" />
-    </Icon>
-);
+const K = createIcon("k", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABWwAAAHYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBNAsGAAE2AiQDCAQgBYMtBygbrATIhiBaC6ue3QDwJgqYFRNKkkgqLCz8W1Sk/v7nms8v7egAP8kpRuFpazRY9bbnExhwlKX40YRmOgHb3twsOrKMjiQTTaa3a8fbG/KYnh1QhnQ1fcXp+lHxmwYOkFTIAER1AAyaPH6cdz/jZ8SX0mPiizEIiEGgEMhwf2MB+sqEfkOuQC4X/IxSif8DCwKIsmTRBHJk6I8RgBwkkefdK5Wpkk+qVKbi4ssRsbfupYrHak+IvnPvBSnEnjoXKx2vZzqTY2JcZLLeZbLupLta3K9+/4/mXxd91X3p0cpUuXqlctt37bbvnqt65EhVsMvbQkstN3CwA29te/D+zp1Gbbcd/+zICSAQrPo24Nnsan3/Ll8pgV9f/PWf/isqfY/B6T7KSyDI2pbamhGbKP0fgwUAIMUmLWIgAkl3iZiVXfKGoSIESVkVIdNIdchV1AbKaKrbG2VVNF4m8gpCbTMBJJWthUx3OyFX20Moo68PXlm1IwshPgD4D1zKcI0M21V0at+x6F1sM0OICrZs9imO1ZabcqcV3rTIaqtssNACS21Q9Drjwo1WGm5Rw3xRoZP2Oir0VrjL18uTLLTOekuttoq36aO4b7a0yR5vheIDmTunIUlJS7EcAAA=");
 
 export default K;

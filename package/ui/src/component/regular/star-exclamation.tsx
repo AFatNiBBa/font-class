@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-exclamation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-exclamation?s=regular star-exclamation}
  * @preview ![star-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/star-exclamation.svg)
  */
-const StarExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M309.5 13.5C305.5 5.2 297.1 0 287.9 0s-17.6 5.2-21.6 13.5L197.7 154.8 44.5 177.5c-9 1.3-16.5 7.6-19.3 16.3s-.5 18.1 5.9 24.5L142.2 328.4 116 483.9c-1.5 9 2.2 18.1 9.7 23.5s17.3 6 25.3 1.7l137-73.2 137 73.2c8.1 4.3 17.9 3.7 25.3-1.7s11.2-14.5 9.7-23.5L433.6 328.4 544.8 218.2c6.5-6.4 8.7-15.9 5.9-24.5s-10.3-14.9-19.3-16.3L378.1 154.8 309.5 13.5zM235.4 187.2L287.9 79l52.6 108.2c3.5 7.1 10.2 12.1 18.1 13.3l118.3 17.5L391 303c-5.5 5.5-8.1 13.3-6.8 21l20.2 119.6L299.2 387.5c-7.1-3.8-15.6-3.8-22.6 0L171.4 443.7l20.2-119.6c1.3-7.7-1.2-15.5-6.8-21L99 217.9l118.3-17.5c7.8-1.2 14.6-6.1 18.1-13.3zM288 168c-13.3 0-24 10.7-24 24l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64c0-13.3-10.7-24-24-24zm32 168a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const StarExclamation = createIcon("star-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABgQAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCLgsGAAE2AiQDCAQgBYMtBzcbNQXIjtMFdcpZjvHw/3OR9/1kZgEoC8RYsgQoHJDtqWztZAXS+8Q1z//86QGrxB8pEivtV8GjzPMJvNhunucDSRvOJoobnDfiAENTSE8/Qh6/xB0l0hPpZ9x2Hxr/aOYCSSkDEHUBMHbx/Jk+/zP+jPip8g7xk+kIiLGgEMiQoaUAI2QCLeUK5HLBn1GpsP/AggCiLLgsgRxl7MEN+leR5HnepajVoEapVr6oRqn65keNHzRcEAsCYR40WhgLAvOwyeJYGJjHGi+KxWE84sGiBYtDYUCZriyMRfFoi7s47N00mf50U/FEx+daRDzZaeHZxhGPql9r+MCZRg9rXG/yWLR7se6L/7b9edPPBr6x488/d4y/4fHG/po58oldOzV7Sqv33//2SiL929Jo1RGG2p8YOfPvx1mWTXt5wPbwhqZ9ebCuhQscqdHgsC2DPfPM1sEaHlbjyMIFDtbzxbRxcxuN0WhuymnzXO0rXKndxahAXHT20JiOq+uM+K9qjQT+/vD/7fUqH6fu6UVUlUCQ9aj0sCKN0UijmVwBQTXFIe3gNwkkW+SCd63pkQChOgIkZdUFyLRQV4Bcdd0FKGltoABl1c2Xibya0NDKGk5q2gtnBjkJ5xp6Cy4Z4btqWcPIrj/56pG//jImtYGJeUXfXn2KYcVkV6lcUqLeHl6sNrsc4lNd4UGb7LbLARttsNWBFrTPzMZBO02aAyf6oUJfvfRRGKbYPbi/f5GN9tlvq9122V2GK85Puzg0v7grdJKAt5+OJBGp7vsx3fO/FvbanU8UAAAA");
 
 export default StarExclamation;

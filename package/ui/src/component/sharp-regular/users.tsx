@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users?s=sharp-regular users}
  * @preview ![users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/users.svg)
  */
-const Users: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 160A80 80 0 1 0 144 0a80 80 0 1 0 0 160zm368 0A80 80 0 1 0 512 0a80 80 0 1 0 0 160zM48 192L0 320l235.3 0c-26.6-23.5-43.3-57.8-43.3-96c0-11 1.4-21.8 4-32L48 192zM640 320L592 192l-148 0c2.6 10.2 4 21 4 32c0 38.2-16.8 72.5-43.3 96L640 320zM320 176a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 144a96 96 0 1 0 0-192 96 96 0 1 0 0 192zM211.7 400l216.6 0 19.2 64-255 0 19.2-64zM464 352l-288 0L142.4 464 128 512l50.1 0 283.8 0 50.1 0-14.4-48L464 352z" />
-    </Icon>
-);
+const Users = createIcon("users", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiQAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCMwsGAAE2AiQDCAQgBYMtBywbLwXIjpQuJ6Tx8LzO13Of5ID0HUSFCQq4McPaLbCWpk7k0jD/n2s+P2s6wM934ocWZderwLVG1PMJTKyxqQWHsxFNhLc7WzRF0xyKEFmS49zx2UMe/8StaqT70o+4Jb5p/KarK0lqGYBoA4A5m9at8OnJOBnxQ+Mt4gfLEBBzQCWQIUMPAabLBHrIVcjlgpPRaOB/YEUA0QyjyW/lKHAhrgHkIGmR5/V6Wda7t6yXtXq+sawV294Z9crIlye+OfzFES9NqHe3271+0/oyPu57WefijI0bNhZxl0enl3uf6npfl3v7P93t/u4PDHLDoIhnih6XUc7Ap4vr+z+51l26feWAp8r1ZVGOiSLGbWqqN62PHlHWe8XGvs+3ef6PPj8e/NEtvT+9cNOmCz/NfWd38V96j7oklf7mym5tZ9656hLadaeZbbtd+dusWx79zjsfNatutZ3tX33dtevXX23f3s3XoPfYql+ZNUvDqH9GVfl9znLC2JUnxKtBIOhw9mcf72o9/e8WZQKn3//rL3u5xqfp0vQ8WkggyIY3htueLgVkBpBMcaG+wgcFkjO1wDub3C1AKNAgaaaATHdtIFcYBjW9TOAPd6yTibyl0MEOAEmTcyAz0UWQ6+ANqJnum0QzHSLTQFF/xA9g2sIRWbCoGjNydDW12tZUSan4MDutOjYGX+h6hsBaB53lTOc7YL8jzh/oc61IX+AMCyVqgS+qjDHSaJWpquvm8/KNDjjXeY44y5k0zzTV+9BgF8rDh4CdMOdYRUkiUk2hAQAAAA==");
 
 export default Users;

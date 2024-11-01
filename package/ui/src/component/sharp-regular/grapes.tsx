@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grapes` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grapes?s=sharp-regular grapes}
  * @preview ![grapes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/grapes.svg)
  */
-const Grapes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M360 0s-40 40-40 80s7.3 55.3 32 80s40 32 80 32s80-40 80-40s-32-40-80-40c-32 0-40 8-40 8s8-8 8-40c0-48-40-80-40-80zm48 264c0-44.2-35.8-80-80-80c0-44.2-35.8-80-80-80c-28 0-52.6 14.4-66.9 36.1C167 127.6 148.4 120 128 120c-44.2 0-80 35.8-80 80c0 18 6 34.6 16 48c-19.4 14.6-32 37.8-32 64c0 17.6 5.7 33.8 15.2 47C19.4 371.5 0 399.5 0 432c0 44.2 35.8 80 80 80c32.5 0 60.5-19.4 73-47.2c13.2 9.6 29.4 15.2 47 15.2c26.2 0 49.4-12.6 64-32c13.4 10 30 16 48 16c44.2 0 80-35.8 80-80c0-20.4-7.6-39-20.1-53.1C393.6 316.6 408 292 408 264zM248 144a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM128 160a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM72 312a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm8 80a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm80 8a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm152-56a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM184 288a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm144-64a40 40 0 1 1 0 80 40 40 0 1 1 0-80z" />
-    </Icon>
-);
+const Grapes = createIcon("grapes", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABzAAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHSDUQsGAAE2AiQDCAQgBYMtBy0bzgXIHge5afJGFC4fhUnwxO/v/9fM2Rfwft9mgjoZ1SA1ZTn+fKZdXkLTQt4WYXE6fmltzb5C3n2ecz2fzQf4xVeBEte20vklWLefwAFGU7Qd+EAPaIJ8R/NeGMQQL7TxAYzclr14QI/pG2CPt1v+UGA3KB6HAEgcAgt9J48fyYOP8lHktXsV5DXDAQGQvgBYBHAABygjAPTAQYAyBgsYDAIfxXUh/Q+0IAAgXjCpnDNAGHgGvIX+DlCCxtRvH8HpkCdiJiWfBxcfbALkXN4VnqazYQ2dbb5zvtnqVNJRDuUuOV1bWYMtIF2jWtbptFiNTpNRfgqxvjxd8jentqQ7hsa9tM253pyGumtvs78ma+HJ3w1a8S19jXlD11ZvyHVhlUa4R4wyBEPxk4FiF+LrnzeL3rD4fhyCr1Vljo2L11v5tHaN6tg+/ebsXA9NOudTGWNb+2QSLIzLpIXxi3PHfYwvlBL8+t1f+jL00aPCyJpCixYHe9Htq0aX3K3RhtnSmc1zLh04cGlOOrM51irqfMTbvGvX5l484xtNFaN9iiOdFds6K/b0/h4ABBD4UK/V29mxHv/9IQXg863drbgPFL0A+JkKV8Bp4bZghgKgIBAUqWyinsIolHsEG2A/zOG9BSEINRQvQTiUiMMQpDk8VOlortw9HgcxAYQ0MzGUMGvh0IktMKS5DA89eJ71khYHoKPgGL2eLDWoTQxcZNu2amO72cmqMgajpp3ublfbTTbJrqb4JItYzSo2sJAFLGVDi1rHyMJGVjJojj7wt5a2tKINlm7Y3Y37hyexkHWsZymrWeXO0x17vt+ETfODm2JPCTTbUaYoiHp/rOssXA8AAAA=");
 
 export default Grapes;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `basketball` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/basketball?s=light basketball}
  * @preview ![basketball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/basketball.svg)
  */
-const Basketball: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M290.7 477.3c-1.8-9.5-2.7-19.3-2.7-29.3c0-38.4 13.5-73.7 36.1-101.3l78.6 78.6c-31 26.9-69.5 45.4-112 52zm-32 2.7c-.9 0-1.8 0-2.7 0c-56.1 0-107.4-20.6-146.7-54.7L256 278.6 301.4 324C273.1 357.5 256 400.7 256 448c0 10.9 .9 21.6 2.7 32zM324 301.4L278.6 256 425.3 109.3C459.4 148.6 480 199.9 480 256c0 .9 0 1.8 0 2.7c-10.4-1.7-21.1-2.7-32-2.7c-47.3 0-90.5 17.1-124 45.4zm22.7 22.7C374.3 301.5 409.6 288 448 288c10 0 19.8 .9 29.3 2.7c-6.6 42.5-25.1 81-52 112l-78.6-78.6zM256 233.4L210.6 188C238.9 154.5 256 111.3 256 64c0-10.9-.9-21.6-2.7-32c.9 0 1.8 0 2.7 0c56.1 0 107.4 20.6 146.7 54.7L256 233.4zm-68.1-68.1L109.3 86.7c31-26.9 69.5-45.4 112-52C223.1 44.2 224 54 224 64c0 38.4-13.5 73.7-36.1 101.3zm-22.6 22.6C137.7 210.5 102.4 224 64 224c-10 0-19.8-.9-29.3-2.7c6.6-42.5 25.1-81 52-112l78.6 78.6zM32 253.3c10.4 1.7 21.1 2.7 32 2.7c47.3 0 90.5-17.1 124-45.4L233.4 256 86.7 402.7C52.6 363.4 32 312.1 32 256c0-.9 0-1.8 0-2.7zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-    </Icon>
-);
+const Basketball = createIcon("basketball", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkwAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCYAsGAAE2AiQDCAQgBYMtBzEbYQXIjsK2nTMOI50wiiJ5UBFUy7RnbhUDy1xCIWfAxFVcUDgFbmSEnwCXqbHxW+TfOxuIF1nvB3IHVVLNLiXsMikascr/XO75TTs6wG90aGPZxo23AWdrPE8gDMe26aVhHlimCVjW5vjFH0R9J4k4wuw5G7aHhqk7lFgmc4LkD98J4Kl+aPyDqnZSqQAQ3QBg/TYuAhuP9Eh08j9L1BAGAmIDMIpQocIgAkv4BQYJGAVFEfyh/3r6D2QQQDTCnpmgoA2P+AUoILUUAVHZbhFpMc2ptwlKCnD6ErGsT5rwSqAVf/0OMaIWsbtYHnnERnyzIs/Tw5NHlwnN1IzP1ptwk/WgTsVRd46bLdvmtSh1ireI38bEo5rAFXIYZxuv+HcoTXglxA+L30d5UHxccS3UQkn17YnO/bapxXcr8oy7CT/x3kDz+mbEaYLupMzkk85J/gl0By2kxUxOIvD3904E4jp2BvpRw7TdbivvqZOTk/4BHEVCIOJdJghudwOj0lcjIxGRycmNe2IRMYGfX2RE1//+dkouo92bmqphzwUPfAH6eFnU8PPTcOvvCwAW0+MAgWDpbTcmQ9r9v4g4H+Dv0svX+BmpbyTyN2iWIKjG6+ZSE5AEACCjnm4CgfRAlNntPtkktHJCatQKlQEyULQagwbDHFjn7kv8oogi9EsTSO3uoTKjAYp+09BgyX7YqD/4A5MPK/63MCUQkYB5zMbSmrmy28IhxBqbp92YWzOu1y4TOYl8FcrVypOrSC3Q1SKSOmUCV1SAL2JsWLLGuGJ0/VXhIKxWo2gu8bO4Ye/bxurXg03E5GOMExakJFLsAwIAAA==");
 
 export default Basketball;

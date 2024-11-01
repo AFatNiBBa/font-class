@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-x` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-x?s=light circle-x}
  * @preview ![circle-x](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-x.svg)
  */
-const CircleX: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM172.1 133.6c-5.8-6.7-15.9-7.5-22.6-1.7s-7.5 15.9-1.7 22.6L234.9 256 147.9 357.6c-5.8 6.7-5 16.8 1.7 22.6s16.8 5 22.6-1.7L256 280.6l83.9 97.8c5.8 6.7 15.8 7.5 22.6 1.7s7.5-15.8 1.7-22.6L277.1 256l87.1-101.6c5.8-6.7 5-16.8-1.7-22.6s-16.8-5-22.6 1.7L256 231.4l-83.9-97.8z" />
-    </Icon>
-);
+const CircleX = createIcon("circle-x", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABeAAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBfgsGAAE2AiQDCAQgBYMtBy8b/QTIhofvbf0693Uj4g2Rmc+vwsQz1xQmAlbcUiRci4hn5NR44/2Aj7wo5+PTgjzA/+IVqNhS23m24UBmA5vpBGxvGzoMCsMXESIlEY3nuHWGPN6L7qqRbqXvcaF+aPytldMkeQYgGgJgTNW8GT5+Fs8ivq+8QXxvGgJiLCgEMmRoK8BwmUBbuQK5XPAsKhX6DywIIKqT5yaQoxqWYhsgB0mW523aFHWq1ctL+eW1F30xJeKbPk8c7/148tfjv5z6bd+ncaLfa9O+m5T+mhXx07jP4sTYT2f+WPp9+vejP3Z8zCczfliw8HrTq80WxPxA2rUWVbEgaDeal6Iq2Ol986PUqdyw/G/H79d+r/Lg4+70ePn7sGG/v+zR/WMVo+1nE1zk0rC248a1HXbp4gQcx/3nHSg/LJ8prVZa48yjt2/NW2Hecre/vmWBNdittx89DgLBk4vTPlrWYPirmnUSePHu/6+0X1Hl4ySVUVMCQda90t3iBBIBAEixV6cEgaQkI+9a13UBQm0ESKqrLUCmjYYC5GrrJkA17Q0QoLra5slEXktoaskgkrp2EJmBjhC5pl4jqhnuK6e6ppHFmRgl4isvbaIGJqwVfXr2LoYWy1iXQocv82HFtt55b6p1gU1rbbPVbmustsFuhe80w99ji4keOMEXFfroqbfCUMVxtt1dssZOu2ywzVZeMkxx3+5sr9/dBaxEGPsKJIlINb/jGD32AwAA");
 
 export default CircleX;

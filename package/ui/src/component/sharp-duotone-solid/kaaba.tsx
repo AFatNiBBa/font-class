@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kaaba` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kaaba?s=sharp-duotone-solid kaaba}
  * @preview ![kaaba](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/kaaba.svg)
  */
-const Kaaba: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 223.1l0 33.7c21.3 7.1 42.7 14.2 64 21.3c0-11.2 0-22.5 0-33.7c-19.6-6.5-39.3-13.1-58.9-19.6L0 223.1zM79.8 120L288 189.4c69.4-23.1 138.8-46.3 208.2-69.4C426.8 96.9 357.4 73.7 288 50.6C218.6 73.7 149.2 96.9 79.8 120zM96 255.1c0 11.2 0 22.5 0 33.7l96 32c0-11.2 0-22.5 0-33.7c-32-10.7-64-21.3-96-32zm128 42.7c0 11.2 0 22.5 0 33.7l58.9 19.6c1.7 .6 3.4 1.1 5.1 1.7c1.7-.6 3.4-1.1 5.1-1.7c19.6-6.5 39.3-13.1 58.9-19.6l0-33.7-64 21.3-64-21.3zm160-10.7l0 33.7 96-32 0-33.7-96 32zm128-42.7l0 33.7 64-21.3 0-33.7c-1.7 .6-3.4 1.1-5.1 1.7L512 244.5z" />
-        <path d="M288 0L0 96l0 32 0 15.1 0 .9 288 96 288-96 0-.9 0-15.1 0-32L288 0zm0 189.4L79.8 120 288 50.6 496.2 120 288 189.4zM0 176.9l0 46.3 5.1 1.7L64 244.5l0 33.7L0 256.9 0 416l288 96 288-96 0-159.1-64 21.3 0-33.7 58.9-19.6 5.1-1.7 0-46.3L293.1 271.2l-5.1 1.7-5.1-1.7L0 176.9zm96 112l0-33.7 96 32 0 33.7-96-32zm128 42.7l0-33.7 64 21.3 64-21.3 0 33.7-58.9 19.6-5.1 1.7-5.1-1.7L224 331.5zm160-44.4l96-32 0 33.7-96 32 0-33.7z" />
-    </Icon>
-);
+const Kaaba = createIcon("kaaba", true, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABvgAAALDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCEBAsIAAE2AiQDCgQgBYMtB0YbHAbIhof/r/vPfW7Vfx9Q9etAatmjQBpJ02QUj4g1t14HnLgm/7c9PWDZEzzKotIrtet8AjtfU7bNBjrw2UR1U/NeHMTrDGkXyOOf7ApVpHvTm7jZ+eD4Vq8rSGozANECgFEL5kzz0kfxUYo3/3+aeNNUBMRoUAhkyDAgwDkygQG5Arlc8FH6/38+Cva3VxBAlAC9NAMlNOFt/AXIQVJSyvPO2kNrW9mUpta+2sb6qsZ8vtxUt2HlmpVCiFWxJtR9q82fN39BzIu5q4XOmBRi8igwcfWU6I6IldERXbF6XghXNR8rJ/W7xUS2cPKCBXMXiLkRIdzZ6eOXBn5Xl6NrwbyZMa9MeWPK65PhvA/nzrtExCXmxZjh0cOgtBE7Ke6sv77zbmvsvhuJjmVNXiAsMMXcDJhyyh1113VMLD/Z8uT3I95c/6bhF4dXoJhCs6BEWhklUHief2csVkOO4frjWPooDxmh4r55S+5TUfagUY7TtywBRjlW7Cgj34phZcZ48VGlvjIjOMqD9x1zmnu4zFF9LHyVg5WaWj/1gw8/q4yasf7EBce3zBp1woknnLBhxIZy81UjBqRjxbBMwJQHPMPFR2lR87cfJBIpfPjpZ5+VVVTuqzv7fWVSeAgIBN99/uPLK5rPOVhTn8Anz/z4DfT0/y+lC9KTqJFAkB3z/zGWpguAcQMIpdivPDJMgcx6121bg7sECHWUVFJSR2X6tVC5OkdTVYacKpq5YY5M5LVCh2UglTTYRWVOcyGV6/AUVeUcrwRKOiK71yV3quRPM+X4OjRuUHHicScUZxWDObn09hXp3rOL2cYj9vOaI+FS6+2w3V7rrLXJ3hq527TwPtuMHyPG+aLCiY5zgsJZitXF28r52LHbnrqoX76+n7MV+3uPsH+8+ZHQkni8J9mayYgUWeOWVatWrzr2k9E01+SfBgAAAA==");
 
 export default Kaaba;

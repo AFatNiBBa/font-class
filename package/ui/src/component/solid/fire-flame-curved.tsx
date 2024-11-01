@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fire-flame-curved` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-flame-curved?s=solid fire-flame-curved}
  * @preview ![fire-flame-curved](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/fire-flame-curved.svg)
  */
-const FireFlameCurved: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M153.6 29.9l16-21.3C173.6 3.2 180 0 186.7 0C198.4 0 208 9.6 208 21.3V43.5c0 13.1 5.4 25.7 14.9 34.7L307.6 159C356.4 205.6 384 270.2 384 337.7C384 434 306 512 209.7 512H192C86 512 0 426 0 320v-3.8c0-48.8 19.4-95.6 53.9-130.1l3.5-3.5c4.2-4.2 10-6.6 16-6.6C85.9 176 96 186.1 96 198.6V288c0 35.3 28.7 64 64 64s64-28.7 64-64v-3.9c0-18-7.2-35.3-19.9-48l-38.6-38.6c-24-24-37.5-56.7-37.5-90.7c0-27.7 9-54.8 25.6-76.9z" />
-    </Icon>
-);
+const FireFlameCurved = createIcon("fire-flame-curved", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABZAAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBPQsGAAE2AiQDCAQgBYMtBzgbxQTIjsN0Gz1nWeWQL4mHD13m+5JM62PQATD0BB1DOiBuPWkz14W6zYXa97HT4o2XCnhc97Gw8foaQHPGK9B4valv8f3/+Pai+OYtZ2yPlD5JMtEkPV61x68RsjiSnlVCciP5FufSh8ZfGjtLoiIFELUAMGrBnGk+rIqqiG+KEd+YgoAYBXKBFCmaCTBUKtBMJkcmE1RFscj/gTkBRKm8uwRkSDEaUwEZSESWDa4sqZ7NrywpLGnaqOm1ynuNxcn68+K9bs/8OvPHuYX4ffbP8yP+mNMwjLU3Oj1q96DLk6YRpzoPj/dbn+rR+nGtx29afbv+Wzdu/Y2LL9SqTkP13sydqffwYX1iEpOijlkxb17MypgyrrX1FaPqLVKoXfvmzdq1C5lmfeYZl3W5AASC5/O6f7yi5tB/yiXgz7f/X91c/DBOJo9RLgFB2rXY1dI4CYwOQE5iv9b0RYHEYAk6ajVXBQgFBEiUKgiQaqqWAJmCLgKUaKGfAKUK5khFViHUs6yDRDW7QKq/YyBTz1ugxFBfSKXqRepGhBMQv7jY8Roa15b36t4zH5xPbY30DCzUh+TLXMf9EuuEQevtsN1e66y1yV6F7DZN3Web8RY8zg/leumup9xg+bb32D/fOrvtsckO22OTIfLzfEf77exO6CYB9L4AS0IktR+k0G391lXbimXNvt37160FAAAA");
 
 export default FireFlameCurved;

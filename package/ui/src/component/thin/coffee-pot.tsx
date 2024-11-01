@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coffee-pot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-pot?s=thin coffee-pot}
  * @preview ![coffee-pot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/coffee-pot.svg)
  */
-const CoffeePot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M72 48c-30.9 0-56 25.1-56 56l0 112c0 4.4-3.6 8-8 8s-8-3.6-8-8L0 104C0 64.2 32.2 32 72 32l37.2 0L120 32l334.1 0C468.4 32 480 43.6 480 57.9c0 4-.9 8-2.7 11.6L421.5 181c54.3 33.9 90.5 94.2 90.5 163c0 55.5-34.6 99.4-55.9 121.2C446.2 475.3 432.3 480 418 480L158 480c-14.2 0-28.1-4.7-38.1-14.8C98.6 443.4 64 399.5 64 344c0-69 36.4-129.5 91-163.3L97.1 50.6c-.4-.8-.6-1.7-.8-2.6L72 48zm98.4 128l235.7 0L463 62.3c.7-1.4 1-2.9 1-4.4c0-5.5-4.4-9.9-9.9-9.9L120 48l-6.5 0 56.9 128zM416 192l-256 0s0 0 0 0l7.2 0c-41.1 24.1-71.6 64.3-82.7 112l406.9 0c-11.1-47.7-41.6-87.9-82.7-112l7.2 0s0 0 0 0zm78.4 128L81.6 320c-1.1 7.8-1.6 15.9-1.6 24c0 49.1 30.9 89.1 51.3 110c6.3 6.5 15.8 10 26.6 10L418 464c10.9 0 20.3-3.6 26.6-10c20.4-20.9 51.3-60.9 51.3-110c0-8.1-.6-16.2-1.6-24z" />
-    </Icon>
-);
+const CoffeePot = createIcon("coffee-pot", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABhAAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCMQsGAAE2AiQDCAQgBYMtBzEbMgXIjtMlNiDlN/Hw/3NS9/38UtJBzgDjMrNCVEAOq1f3rEVVO2UwuJ5sxhUn2GV4/m/5vOdRgN8TD+248NIbL7D7fJ5AgGHfqw1sA0lopgOgsc7a2U2S1G+fuPQ+yTC+YXJAju9cqEF6LfXwjN4q/jbFgyRFASBGA2D3KScc5ed+9CN6wyV6jkBA7AG1QAHIdAG2KQQ+IKuRZUE/hsP6H1gTQDTJz0ggo4nb8DAggyTnvGnExIlVY0Q+uWqUZ7wzPuLFyeLF8S9PjHhj6ccLqxHvTrl3/InxzfJPZ7+56IN5L5bdeHzie0s+mvn2ys+3nhz3TbwvypOqsjolXomXJ3bLk07qjujeF/dFFb0TR8SfR1dBpIF70VuLP5zwUvXeJya9svTjWfdNnPPR6I/+rd7FPYc8c+1B/m9dq3nuuc1rjVy7tj//tOsmNedvuNpjt91edFbMmnVwYjbxdX9Fp7j9ttc23ydhct/zjzyz6TqR2vce3dx4z2AUoGUw5rCX5Y1BCxx1z5uATOvmbjV8bUw2ZobV8IppQCD48Kz3B+eM2jZoVwn89e3/R79Fw36SPkJbAkGxbLjMmQkkAgCQ4mZzEgLJdTK5a9fLAoQSAZKmUoDCNKMFyEpLBWiYab0ATaUTFCJ3hPHO6iDpug4UNrgLZON9DRq2+cVuGh9FANLhQ///Eg4wsn+tXr1iVb2lXsYaE1NkmW+tt8VFN6faYkBd7BpXu9FFLnSZGwm73lHeTa5ywEP3+6DaaiusUtuiPs6ehZPJvt4NLrO58yVb1ffVRW72uxdDSYRwDV+SiFS+WGv5tdfcCAA=");
 
 export default CoffeePot;

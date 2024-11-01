@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-layout` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-layout?s=solid table-layout}
  * @preview ![table-layout](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/table-layout.svg)
  */
-const TableLayout: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM448 96l0 64L64 160l0-64 384 0zM64 224l64 0 0 192-64 0 0-192zm384 0l0 192-256 0 0-192 256 0z" />
-    </Icon>
-);
+const TableLayout = createIcon("table-layout", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABXwAAAHaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBMgsGAAE2AiQDCAQgBYMtBzMbtQTIHoVxMz3SRXNsbxfx8P9rYvf9meQ0VMQpESlgcgSyjlnWlV0XjCjYJbU6yTxJmCG1+PN/Ob53z48OD7/RoY05eAHN5nqeQKL5tISKAss0AUvdxsoNHnkVGUePiKHIQ/UCeXzIUiLdTnC9fWj8pYvLJJUMQLQGwOw1K5b7+iN+RPzZjPjTUgTEbFAIZMjQXYBpMoHucgVyueBHNJvyH1gQQJTZmyeQo4zpmAvIQZLneddKpVIrNfLVtVJ1w7NBEa86p7g9+HX/Rrwc+rZbFneGvBlQ3ybUI6KxtVatiWpEwz3Q503rN/+wm5kPH7WhTXWWaps2j84jVrxzM2dZdt4sCp2Dvnpfz38FxlfPBILvC7+2pdW0/1vUEvj1/r/1Z6T5I0lv0EICQTasOczGBBIBAEhxWp8EgWS8HF617oYAoYoASVlVgEw3rQXIVQ0VoKSn8QKUVa2QibwitLdpgKTuGMhMcAbk2nsHSqb5lpe1jyyDqPen/m/xCxief6oYPWJUMaVYDnQ6KYh6OLXY1gedLguDcdZuRxx20i477XOS0OOWV6ccsiBC5vuiwmgjjFKYojge7/nV5B13gok5e37MVMX9eJDT8frBsBLDHaOWJCLVk0sanmw=");
 
 export default TableLayout;

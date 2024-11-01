@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye-evil` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-evil?s=sharp-solid eye-evil}
  * @preview ![eye-evil](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/eye-evil.svg)
  */
-const EyeEvil: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M258.1 111.4L320 0l61.9 111.4c11 2.7 21.7 6.2 31.8 10.3L550 82.7l-59 94.5c7.1 8.9 13 18.4 17.7 28.3L640 256 508.7 306.5c-4.6 10-10.6 19.4-17.7 28.3l59 94.5-136.3-39c-10.1 4.1-20.7 7.5-31.8 10.3L320 512 258.1 400.6c-11-2.7-21.7-6.2-31.8-10.2L90 429.3l59-94.5c-7.1-8.9-13-18.4-17.7-28.3L0 256l131.3-50.5c4.6-10 10.6-19.4 17.7-28.3L90 82.7l136.3 39c10.1-4.1 20.7-7.5 31.8-10.3zM320 352c53 0 96-43 96-96c0-19.7-6-38.1-16.2-53.3c-16.9 9.7-35.7 16.5-55.8 19.5c4.6 9.3 7.9 20.7 7.9 33.8c0 40.4-32 64-32 64s-32-23.6-32-64c0-13.1 3.4-24.5 7.9-33.8c-20.1-3-38.9-9.8-55.8-19.5C230 217.9 224 236.3 224 256c0 53 43 96 96 96z" />
-    </Icon>
-);
+const EyeEvil = createIcon("eye-evil", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABcQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBeQsGAAE2AiQDCAQgBYMtBy8b+ATIrgd4Qxq9G2KAoIpqtw598Whz+Gc8j2WMoBore2b3gSGgULFmFAqFex0EYUmysDkZzy4VGX0GjLMb4by1JaGJzwa1pPShfINDW/poWO1os4SChEvsHuKswL+TrGmmaoGwUVZi3JSYYJm/t9khMLT5v5zeHHSAn4/gkOasNJAFPufzBAIdE8f0PMrCLFFsd1GzkHTsJ51lSR7P5fFxhhrfJVrIV8QGHsQPjb8mbJM6CgCiHwBw4Gwui8Mf8SPirPme+OogCIgDAOYRUFAwjQB2IwlMI5sHVRX8iGbT/AfOQwDRCmJSWPHO8+AmgApSVnJQx2rhkIt6LrOj+VKBMCQahDBTXQwJbSZqSmGFhVoyiJ9s44+62NU15TEPhYmNeVs5lU12rSbfjheJO/x/u9CgIY7l4yFe/ruK5GX714fNbRi9a9QxvamLKudeAzV1jNXrH+prXrfPvu1v10qYnXn9fXZ45c89Pe07OxtAIHh82exqX3r1iIBfX/6TH26WG8TXoF2CoGz936qeFTDyAIoZyzAyXxRIxxHRu3Z7LkDoRIDUqlOAYgofAVSdtiCAFrMiCKBVp5NIojIQhjUqSN1ugWKXFVANOwAtdjsqtBqOImSGiBh/vNxMj6Zn6fP69Un9sqKYcqP5yZR+O2XZdjhgL9omxha1NPUsdtK8bHnJSIYT035IL8DLTy9Jf1x/3l7UMm9Bz8Q4TJOiv5+3W+b7OyBHRIrbLExJJL1VWp7HAwAAAA==");
 
 export default EyeEvil;

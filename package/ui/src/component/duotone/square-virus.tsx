@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-virus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-virus?s=duotone square-virus}
  * @preview ![square-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-virus.svg)
  */
-const SquareVirus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM62.6 254.9c0-13.3 10.7-24 24-24c29.3 0 43.9-35.4 23.2-56.1c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0c10.3 10.3 24.4 11.9 35.8 7.1c5.7-2.4 10.8-6.3 14.4-11.5c1.8-2.6 3.3-5.5 4.3-8.6c.5-1.6 .9-3.2 1.2-4.9c.1-.9 .2-1.7 .3-2.6c.1-.8 .1-1.6 .1-2.7c0-13.3 10.7-24 24-24c6.6 0 12.6 2.7 17 7c2.2 2.2 3.9 4.8 5.1 7.6c.6 1.4 1.1 2.9 1.4 4.5c.2 .8 .3 1.6 .4 2.4s.1 1.6 .1 2.5c0 29.3 35.4 43.9 56.1 23.2c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9c-20.7 20.7-6 56.1 23.2 56.1c13.3 0 24 10.7 24 24s-10.7 24-24 24c-29.3 0-43.9 35.4-23.2 56.1c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0c-20.7-20.7-56.1-6-56.1 23.4c0 .6 0 1.4-.1 2.2s-.2 1.6-.4 2.4c-.3 1.6-.8 3.1-1.4 4.5c-1.2 2.9-3 5.5-5.1 7.6c-4.3 4.3-10.3 7-17 7c-13.3 0-24-10.7-24-24.3c0-.8 0-1.6-.1-2.4c-.1-.9-.2-1.8-.3-2.6c-.3-1.7-.7-3.4-1.2-4.9c-1-3.2-2.5-6-4.3-8.6c-3.6-5.2-8.7-9.1-14.4-11.5c-11.4-4.7-25.4-3.2-35.8 7.1c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9c20.7-20.7 6-56.1-23.2-56.1c-13.3 0-24-10.7-24-24z" />
-        <path d="M247.8 117.7c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 29.3-35.4 43.9-56.1 23.2c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9c20.7 20.7 6 56.1-23.2 56.1c-13.3 0-24 10.7-24 24s10.7 24 24 24c29.3 0 43.9 35.4 23.2 56.1c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0c20.7-20.7 56.1-6 56.1 23.2c0 13.3 10.7 24 24 24s24-10.7 24-24c0-29.3 35.4-43.9 56.1-23.2c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9c-20.7-20.7-6-56.1 23.2-56.1c13.3 0 24-10.7 24-24s-10.7-24-24-24c-29.3 0-43.9-35.4-23.2-56.1c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0c-20.7 20.7-56.1 6-56.1-23.2zM160 224a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 40a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const SquareVirus = createIcon("square-virus", true, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAAB5wAAALhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTiECQsIAAE2AiQDCgQgBYMtB1QbLwZRVA5aZF8c2ESme2BFuGUhszyM5cvK498jBFrhltWshfhA5Jt4+P81877/J7MA6InUsl4u6VY41lmh6kgo0lVV0T0xoggK1fgfm3sfuE4i/yPtlaGRVoIGztVsxmYoNvuLkHmepZt/BNWx2bbdCmEIxmGMYmDbiIhtn+30RfQUx5FnXGgz3nFM/+eY6aqtqXmgw0LaX1RSB2Y+n8AA88qy/PyADvQM7RTcdkVcFwrWuYcinmTVSI9TuO/8H8D4ZsyHpC0DiF4AsH+tbfB7jdcpmtULoukQBMQBYBYhI2MSgS2iwCTJLCgUgtepqngdVTULAUTJIWXfWqIFH/ETUIAkSx8zkpbbzgmNskiZRqlGkG+7F2/5Eb3Dtzm7n+6c416enPS8Qk4Jz4BzBfnhPB8rrncWzQ2Ey7eLTfVgsc3qoERYXnycr4EnGPLbO7F4ju8FI+ifzOBWX3tpE9gMNnW4m8+HyU1ww7JdbARV1OkCfkIAFEACNEBUoirt+JLqwUdYAfY4V+lXinQACdAA8TXRj/n8kcZNfzPqWU4d0lOcZH+/v3Gzxs1lDePPY1kupSdyapnHSDe6tF5vRwr9ZtyKrFTcpjg7qRlA/UD39UopUTy9TjaCaisdz2HYOt+kelGOFYBBrwWg5qhxdKCOAAoQAC1Hk673pLr9g4BAIEGJjqmcWjZkILGKMZdwK/t1bwIEgkv/V16ht34TPIG3L3+dvlz1Go30HK0SCPJ8NW+MBijiAfxRKe5Ro2EXBLILmfdTOz0QILQjQFJqFyCbICNQaDeHQM20GIFSu0tEUbQJg6ZSlHS6Kco2vUWFQV9RzZZ/pjQY+WpXX6vqn80MdR1dbePb8bjgwbZccwGDuV7ybEd9qWM6vRIrZycPi9nWo0a/afJPR/WYZPW7zOfwsAKv7t2+eLC4uds6O9mblHj/iOY1PlunboGncNWJLBMp8uAtY7I/JBb7wZlUOnQ3CQA=");
 
 export default SquareVirus;

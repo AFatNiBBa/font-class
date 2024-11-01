@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `robot` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/robot?s=duotone robot}
  * @preview ![robot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/robot.svg)
  */
-const Robot: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M32 272l0 96c0 26.5 21.5 48 48 48l16 0 0-192-16 0c-26.5 0-48 21.5-48 48zM192 400c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zM288 32l0 64 64 0 0-64c0-17.7-14.3-32-32-32s-32 14.3-32 32zm0 368c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm96 0c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zM544 224l0 192 16 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-16 0z" />
-        <path d="M168 96c-39.8 0-72 32.2-72 72l0 272c0 39.8 32.2 72 72 72l304 0c39.8 0 72-32.2 72-72l0-272c0-39.8-32.2-72-72-72L168 96zm40 288l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm96 0l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm96 0l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zM184 256a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm232-40a40 40 0 1 1 0 80 40 40 0 1 1 0-80z" />
-    </Icon>
-);
+const Robot = createIcon("robot", true, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABwwAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDSAsIAAE2AiQDCgQgBYMtB0Yb4AXIngVOmT0aEaWUVurK/RMSIeKLZzx87fd67u77LwCsWCHqOHSZCEdGxcVhLYKs6vgvZNlWdqrjV/vpvpC8fOGyAUYXxQVCB6RqMz7Ctx3/XVkDuxp5gzd3budhIBc00b54XOB9Po+0wLO5dTOaDCgoVdjUGjQ167f2Of1+4pr6AVwgdf7nr3+PssjCCoyI8wnsfJbtP935gEY6I9uwbYARSdVY1lg+oUhevkSFdB+eiev6fwDjL/W5hKQuA4BoRQB2jltNUn/hT4NX3hJV2kMCYhdhFJCRMQhgnVZgkM4oUigEv5KU5FdIySiAKEH98gxKNOMrqoACJKWyIG6zMHTdaVJqmt2g10n6wyrVUxfEKQjzuEzHsR7FWObt2kiDova5IwVDGVnFtqRPnIdtdeqr7y1bTbMkImhalHVNBu5zbyogVOBKnSQmuIqRcxR0VAF2uC1DvEo4SF3qSZtphQ4eVRNYBLpieZ3ub6y6WPVi/5pDc80KMTf3F/I3d7jGTdxm/Qnxs2nQaazg9aSMVtJeA2T8O08/DwbX0yGmD6c9q/2+Qq2kahX69qIdXisJck+dldpsKhFXj8i6tiVd0yfX8FVbmb1tmj/BBIFgo3n6csoY/69tQAD+fPn/Le/jRzVNpxvUSiDIM48+46nBKE7TAABIUbNIgNN5ArITV+ZTG90gQKhHgKRUL0A2QAFQqDcNoGJYHECp3j6tKCQInSYOIml0QWSLjohCpxuiYt1dtNQZ2rtZdi/K/iVTN3C4PovDgRBnWFixyW9QSTGZZW2z6zDpcMOdtGjLpn0L5q3Yx5BdzcSBDQ0Zu/5dFhYQwjLYuj6t7mLRXXtW+Er7abLYv9/lUN7fDW0aLe+sBVkmEsT6F6n3fxQ6I6Z8+AEAAA==");
 
 export default Robot;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calculator-simple` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calculator-simple?s=light calculator-simple}
  * @preview ![calculator-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/calculator-simple.svg)
  */
-const CalculatorSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c8.8 0 16 7.2 16 16l0 224 224 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-224 0 0 224c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-224L16 272c-8.8 0-16-7.2-16-16s7.2-16 16-16l224 0 0-224c0-8.8 7.2-16 16-16zm88 96l40 0 0-40 0-8c0-8.8 7.2-16 16-16s16 7.2 16 16l0 8 0 40 40 0 8 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-8 0-40 0 0 40 0 8c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-8 0-40-40 0-8 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l8 0zM53.1 341.1c6.2-6.2 16.4-6.2 22.6 0L112 377.4l36.3-36.3c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L134.6 400l36.3 36.3c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L112 422.6 75.7 458.9c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L89.4 400 53.1 363.7c-6.2-6.2-6.2-16.4 0-22.6zM48 96l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L48 128c-8.8 0-16-7.2-16-16s7.2-16 16-16zM336 352l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const CalculatorSimple = createIcon("calculator-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABnQAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCegsGAAE2AiQDCAQgBYMtBzgbggXILgpsY/hoIT40i1RHY2MxDpmhiB9d47iIvl8je97+YwigQlBhS2gjbIQ7HVSoIknICH1GbMUS6LVgbN6hEtpDErEEjaQ2l7a2toqETp1p8xKWCw+1+cX87wEXK2AuyTF0Of1BT08PeEP0+ZHGtrErkDGB9uAEwngsm54GkgWWaQKWOh31ySGDPKUMDRNHGR5fPU7xAS3POURNva1NvIgPzVdbXFJaB4DMA4BLD6oVfPTsk79hsukKCOQyYDeiQ4ftCM5SCrZT2Q2aJvQZ9v9AgQAZBV9YoGEc7/Ae0EAZbSrHQYdl1mJUm1WNqRFD96XAKRo2pSEINjdjILaIMWSubtLILqVE0MZwEhBBG8ofvlaeF+LYjDmeCzZ1gWeDzVPk+aQbJhetbP1j4eMC5xLL72k9Q/vZXs+Z2X9CwxY/4KIL3XXVOPZxjWPo+Lhx778PDycR9fDh8ZNYePVYo/Zvg1LO2eDzuz73X5TngSDcmPl5QGf/j1MAvnz++T9+RoaV+oRxBUJ3aDikV6AIAKByzlkQlNdG8V2nvRIQkwgooyYFdLaxIWgmHUQwYqc4glGT7lBK0yOW9Q9Qpj0CnTMuQLPsGow46zM7ajldlSo1pnwjZpaVLq2S44GQZOS2pquFJ+2zWUnb+87R47azWHdg36k1q7acCnesUjizpzxjS75IhAWEiAxZbj4eb1hz7MSWA/ttmSx5PuNyPh/uNk+BgiesLUXK/r9G+uDY/6oD");
 
 export default CalculatorSimple;

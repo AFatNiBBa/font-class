@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-building` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-building?s=solid car-building}
  * @preview ![car-building](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/car-building.svg)
  */
-const CarBuilding: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 0C21.5 0 0 21.5 0 48L0 432c0 26.5 21.5 48 48 48l144 0 0-32 0-96c0-32.8 16.5-61.8 41.6-79.1l5.6-16.9L208 256c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.2 0 14.9 6.1 15.9 14l.5-1.4c10.5-31.6 34.2-56 63.7-68.2L320 48c0-26.5-21.5-48-48-48L48 0zM80 192l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm0-96l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM80 288l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm282.6-64l138.8 0c6.9 0 13 4.4 15.2 10.9L534.3 288l-204.5 0 17.7-53.1c2.2-6.5 8.3-10.9 15.2-10.9zm-75.9-9.3l-26.6 79.7C238.8 304.7 224 326.6 224 352l0 96s0 0 0 0l0 32c0 17.7 14.3 32 32 32l16 0c17.7 0 32-14.3 32-32l0-32 256 0 0 32c0 17.7 14.3 32 32 32l16 0c17.7 0 32-14.3 32-32l0-32 0-96c0-25.4-14.8-47.3-36.1-57.6l-26.6-79.7C566.4 182 535.8 160 501.4 160l-138.8 0c-34.4 0-65 22-75.9 54.7zM304 344a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm232 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const CarBuilding = createIcon("car-building", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABugAAAKLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDcgsGAAE2AiQDCAQgBYMtBzMb9QXIjpNM9dkHPZRHX71ORskY/QXiRp2sE7ibD8zb/3O55zft6AC/0aHt1di8dNkenEBCbdzU8+M0ikoUsy3HD7nIx0U8USLyyiMNm9AwdQau/jhTCQCzylwHFuyb9ZEkpoIhxAGgSCBsKrVoUo+Lz/RMuvb/MdA16gACUCUALAIcwAFSEQBlcZA+7WIBFxfBM/3///gPtCAAUCB4MwOAC/jAQ+A1AOACYAhx3fzR0ZHR4aVDQvyAMLe5H+C12RorLU00WhW3LJsvSdpSJkWelsdLKxJ8LYuTjpSRVscvz+418z1/WRxaGusOl9GbJSQe3jTUuhi7kEgpQrXNm7ZoejIVTTq+hSbGLfN9zUlYISlM3yGtL91cq7Nv9zzNzro1sdm2pJVZtyevydGM+SeMzLsjd3/OdL17FLhQ8BHccCbi3HhUcCGWjkSPqUgGz8It4c8sF/OKyHsto7JnGRestVO+D+9oogMI35cPOBDHkivMxoGDpVyuE0upjXWCk+tvNVEJHQHw8zNnhkcyhlud60hC1NphRtYvnzKblPL1R0ZObBQX1+gk3ybw8jwACBAsfDf4Dsp+C/YNAC9Of/15Pc7/F81EsxsIxgAgcPL+n5e2ZiIALREoGA0nc/BBAgw3CQGvGspyBIDwAAFgCMRDADikEIkAcPHIgwAIIJ1iCIBAPJrgIDcEEUs7AUMog8ChOOPAJZYjEEBZLuUDiZVT4Xx98v+XKdU1Um2dLZS/oC1t3bpbKFqW58vYZSfncNOXq+2lOwPoz1C60ZVeDFX0YOqVhtGP6hFVjR9iKUR+CmIpjU23tkpzlR/MEHrNpfwqZbDvp3MyPB6dq/kGMBZmo8GATGiXToPzfQQAAAA=");
 
 export default CarBuilding;

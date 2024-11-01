@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-music` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-music?s=sharp-regular comment-music}
  * @preview ![comment-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/comment-music.svg)
  */
-const CommentMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M101.9 387.7l10.8-28.9L90.9 336.9C63 308.9 48 275.1 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-26.8 0-52.3-3.9-75.7-11l-13.9-4.2-13.9 4.2L94.9 406.2l7-18.5zM16 480l57.8-17.3 92.6-27.8c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L37.2 423.5 16 480zM352 128l0-23.1L330.4 113l-128 48L192 164.9l0 11.1 0 32 0 81.8c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-100.9 96-36 0 74.7c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-128 0-32z" />
-    </Icon>
-);
+const CommentMusic = createIcon("comment-music", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABhwAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCMwsGAAE2AiQDCAQgBYMtBzQbNwXILgfsxvEbIkYMVSiwiofFc49q23Z+Y0DE8/yv0e77I7uOqWfTjOeN4FUseWh7CIkQPVn0RLY2Voy1vRfTe1Fcmqk3sfQJswSNypC8aWQokW/Muc5zvuUM3rDM7yg8cuGrtkF5f5nlu02InuwpfXvpNpGiQTB16nnOQwF8o6CNTctywTF977bnFegVKNZGewEvUIRqWgErY81bbiTJsl8mU0rS49cev3ao85RHGsqz8hZ4WA6V39A+RVMBIGMBwL7TLXV4/5qvyU83eYNBIPsAcxEqbMxEYCehsDuIzAW1WviaruPfwLkQIC3kv1RAjQaXwW1ADYqqFrnn5CjFalH7gFjRMWOqM06v8+8aPtzXitq37VvIlMo4T+yvrOmgx4HP+9sL3Ja+Vr/eyzL5Tyjpl4IsTGtMQUQe99+ZeGI6NZ8q7045txJ19E/IP6q7/28b6I6X8I+rZmjrRr8gKJs31boa3f4LKZw52XNA6z/DzdoKiRf0yOVJu04E46eai9kqDg9Y6dUOW2scGzBXs6Ve05caGvr8MrHedcHAAjWD99wyFyAI7359/N+Y4j+9BIDvr4BvUfe1KKPoVUCoVnYr9RZAIQCAknX+AgTFCCE56qDHAqIfAUWrX0BlBh0CtX4rEGjMloNAq99xQqnliIn6GigGjYDKZhugNtEDaOz0YbcmRuiBhP8QH8DYcguV3eJ1qelcyNOckk6F5csi3haWrsdeDJsYt2DeqjGjpqwaZFmdt2ZO+Qou80EsQ6p0rBAfV/eP241ZtmLKgnm+pgjfV6PW19MxyAKCul6iKKSo3zyf4p0AAAA=");
 
 export default CommentMusic;

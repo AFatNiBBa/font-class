@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-spreadsheet` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-spreadsheet?s=light file-spreadsheet}
  * @preview ![file-spreadsheet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-spreadsheet.svg)
  */
-const FileSpreadsheet: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 480L64 480c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l128 0 0 112c0 26.5 21.5 48 48 48l112 0 0 256c0 17.7-14.3 32-32 32zM240 160c-8.8 0-16-7.2-16-16l0-111.5c2.8 .7 5.4 2.1 7.4 4.2L347.3 152.6c2.1 2.1 3.5 4.6 4.2 7.4L240 160zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-284.1c0-12.7-5.1-24.9-14.1-33.9L254.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zM96 384l80 0 0 32-80 0 0-32zm0-32l0-32 80 0 0 32-80 0zm112 64l0-32 80 0 0 32-80 0zm0-64l0-32 80 0 0 32-80 0zm112 16l0-16 0-32 0-16 0-16 0-32c0-17.7-14.3-32-32-32l-96 0-96 0c-17.7 0-32 14.3-32 32l0 32 0 16 0 16 0 32 0 16 0 16 0 32c0 17.7 14.3 32 32 32l80 0 16 0 16 0 80 0c17.7 0 32-14.3 32-32l0-32 0-16zM288 256l0 32-96 0-96 0 0-32 96 0 96 0z" />
-    </Icon>
-);
+const FileSpreadsheet = createIcon("file-spreadsheet", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABmgAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDGwsGAAE2AiQDCAQgBYMtBzcbogXIjsM4hvwSSxniGA//rX15X3UPVQ9DLzCHERUgu7BwYZsTufonM+f7xDXPv4pSd/dBPpSIsNRoG2WeT2ATHGbSRAY20wnYRvUqDdJxFvm3hTKuj4WaSM+mX/Fw/KHxnxF3kJQFgOgGwLajDz/Q93/H3xG/Nj4hfrU/AmI7qAUKFBgXYKNCYFypRqkU/B2NBvsPrAkgmqWvS6BEhbfxOaAESVtZTraPt4HCZW1VU0d5lHpVPrW9o/2+waeiiFuHnq6qEM8OPDmrihS39D+Rj3tqMOLJgSPJSvmol+dGvD6c4tl5b8zqiNcWvDV2Y//Bo+KpnI+tciVyRISoQuQj29qFJdXd0bNF+b7+J4gsccvAk1Uq3j/0dNx2lJBzRDX9ze43/5/mLLZMofOeezpvqVSXKH77falp48iDt/zdebGl0y+/3PS+S9577vkeevItck/P80x0LDmu/4+Dgj/6m7r5kFRTO0TtP0QfuXgL8W6d+7q60/Jat271+4FTTqlMi5ot6pBL/FMXP0NPOeUdpwCB4IvrH/nq5K6Ne1urBP798r2aX1Hj+7glvYlWCQTFwsZCJ8QtELcIAECKq0yPWxBIXtYmvaXdUwKEjABJs4ylwphuqZQtkJpMWrVFs+xwhSjbhH4nGqSk3aVSYbUbpVK/j6QmG/2QatYfha012TnTT2P23VNg17x62eKl9fp6t6ozW0SDnt5QX/bPvWrRNQ8udZaLXeQKZzrDua6YsJc5MHulC+0+Ynb5otoyiy1VW69+3HDpdxRWXeZy5/Je9HyWDervo3NddTx4HgwlqdblKpJEpG4X4lrkd4zhBAAAAA==");
 
 export default FileSpreadsheet;

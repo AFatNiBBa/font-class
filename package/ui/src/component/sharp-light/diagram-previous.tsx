@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-previous` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-previous?s=sharp-light diagram-previous}
  * @preview ![diagram-previous](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/diagram-previous.svg)
  */
-const DiagramPrevious: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 320l-208 0-32 0L32 320l0 128 448 0 0-128zM272 288l208 0 32 0 0 32 0 128 0 32-32 0L32 480 0 480l0-32L0 320l0-32 32 0 208 0 0-105.4-36.7 36.7L192 230.6 169.4 208l11.3-11.3 64-64L256 121.4l11.3 11.3 64 64L342.6 208 320 230.6l-11.3-11.3L272 182.6 272 288zM512 32l0 16 0 160 0 16-16 0-96 0-16 0 0-32 16 0 80 0 0-128L32 64l0 128 80 0 16 0 0 32-16 0-96 0L0 224l0-16L0 48 0 32l16 0 480 0 16 0z" />
-    </Icon>
-);
+const DiagramPrevious = createIcon("diagram-previous", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABagAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBeQsGAAE2AiQDCAQgBYMtBzcbAAXIjsQ4FvJI50OIePh+rbdzX/f8SnomlQ5xJ4oRHJCPIxf9I4kd0K5wAbvAcmuKhfl/Lsf37vltwG90aHs3prZB9nqeQKC9o7OWJ9DLAss0Acv3Fm9GSZd3m2Tynw7HkXsPyON5UCPdSXFDPjR+0cN1kjwDECUAZm1Ys8ybb/Et4lPzIfHJEgTEbFAJZMjQW4CpMoHechVyueBbNJvhP7AigGiBF0kgRw27cACQgyTL87Yj+tdr7fL19Vqxp6g3RLuI9fWiLoQoGoHz9XrE1Ogcg6NbrElEl1iVNDC6xvSwQVg0iqVsIwinxcMLB7SWrb/1v/+Tr5d+/vnNZW9c/qlfcf6sGFSqbyk/HzLHPfs903SPkCayv2OOQ380SyTcVSpPVsqV9qqVZaX9Uu95IBBcfP//sB3tp/7Xpp7Aj2d//CU/I81vSWpFGwkE2dAmWxNIBAAgxXkDEgSSTTJ414abAoQCAZIWhQCZXkoBcoUhAtT0NU6AFoU1MpG3FTrbViFpOAWZ8S5ArrP7UDPV21qLzpE5meAiwh8vdb5G552qRg0fWU2uhgNF9BsuH06ptt2B5+PCIEq13wnHnbXPXoecVcxpy5rnHDN/hs3zRZVRhhupMlllHt+q67l22hmH+hb7MVNU94sDnZ+vH0RBAtbRupJEpPJFsIZ5MgA=");
 
 export default DiagramPrevious;

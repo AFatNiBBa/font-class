@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-group-simple` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-group-simple?s=solid user-group-simple}
  * @preview ![user-group-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-group-simple.svg)
  */
-const UserGroupSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 32a104 104 0 1 1 0 208 104 104 0 1 1 0-208zm320 0a104 104 0 1 1 0 208 104 104 0 1 1 0-208zM0 416c0-70.7 57.3-128 128-128l64 0c70.7 0 128 57.3 128 128l0 16c0 26.5-21.5 48-48 48L48 480c-26.5 0-48-21.5-48-48l0-16zm448 64c-38.3 0-72.7-16.8-96.1-43.5c.1-1.5 .1-3 .1-4.5l0-16c0-34.9-11.2-67.1-30.1-93.4c5.8-20 24.2-34.6 46.1-34.6l224 0c26.5 0 48 21.5 48 48l0 16c0 70.7-57.3 128-128 128l-64 0z" />
-    </Icon>
-);
+const UserGroupSimple = createIcon("user-group-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABhAAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCHAsGAAE2AiQDCAQgBYMtBzgbJAXIhof/t+v7fW5V95rpfkPXG4COPqgUQiyljISpU89zno3B5xAEbQ8NyAIJrdV1XoGK9eqbWsBtxVpNK2C1dvaGM4h+k/T5PMmwvWG0hTz+zi4rkW5PH+Ha8qbxg1Yuk9TNAERDAExYtmiO176NbyM+/P9p4kOzEBATQCGQIUNbAUbLBNrKFcjlgm/j///xH1gQQJTxbzGBHGUcxHFADpI8z9u0ad26WqqXL62WKquu7BLxcKvbnW95W+eHKld0faT1HXGhzZ3dHq3W05HND467nlenVePtMS/Xitua3tS5Eo80v6V1bHhn7IW4EBEP9L13WDUebnZzK3Hf6JcmVzo+0fCJn2o/2vqRe+9te4Yzn3zaps2nn5w501ZkMOH4cIlvzpUGM2n+ePMnDS41lH38Zf9v9f/y46zhq+Pun54iQqHyd++rla2yOB8Egjs+rvl8XYPRv9apJvD9C7/8oZ78/7fpfHoCdSQQZL3/7211Og+gBxClOKqj8UGBZKccv2qNWwQIFQRIyioCZNpoKECuopcAJe0NEaCsYpFM5HWFptZ0kNQ4ADJDnQG5pp4EJaO9G5Y1jczteKfhP30pUyU0ZVUxoG//YmQxzTTBk9i0OKrYdrofjZ0etNFW++x12Bab7XBYkAfNSY7YY6oFT/FFhQH66q8wUnFcPq5faouDDtlhn715mVGK+0F3R+3xHuQnzDhQKklEavRUtT5eqfd5uwAA");
 
 export default UserGroupSimple;

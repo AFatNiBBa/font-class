@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-wave` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-wave?s=sharp-duotone-solid hand-wave}
  * @preview ![hand-wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hand-wave.svg)
  */
-const HandWave: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M18.7 288l22.6 22.6 9.4 9.4 22.6 22.6L180.4 449.7l4.9 4.9c22.2 22.2 49.2 36.9 77.6 44.1c58 17 122.8 6.6 173.6-32.7c47.6-36.8 75.5-93.5 75.5-153.7L512 128l0-32-32 0-16 0-32 0 0 32 0 99.5c-3-3.5-6.1-6.9-9.4-10.2l-192-192L208 2.7 162.7 48l22.6 22.6 136 136-18.7 18.7-152-152L128 50.7 82.7 96l22.6 22.6 152 152-18.7 18.7-136-136L80 130.7 34.7 176l22.6 22.6 136 136-18.7 18.7-56-56L96 274.7l-9.4-9.4L64 242.7 18.7 288z" />
-        <path d="M352 88l0 16 32 0 0-16 0-8c0-44.2-35.8-80-80-80l-8 0L280 0l0 32 16 0 8 0c26.5 0 48 21.5 48 48l0 8zM32 360l0-16L0 344l0 16 0 8c0 44.2 35.8 80 80 80l8 0 16 0 0-32-16 0-8 0c-26.5 0-48-21.5-48-48l0-8z" />
-    </Icon>
-);
+const HandWave = createIcon("hand-wave", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABkQAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCUwsIAAE2AiQDCgQgBYMtB04bcwXIjsQ4JvGLKEwi+H4trN+f2a3NbBimogBBAU8AScWxiiJQCEeoiPSxvTp5ejvkWv3dxamcC4VCAXwQyRznARkTQ2u2GyvQ81ipHurmRVTTGlh3ZzskacsnrbVGkuNijssEefyanVUj3Ujf4zL9D2D8q5ezJG0yANERALNXr1jki7/irxTft94hvrcQATEHlAIZMvQVYJpMoK9ciVwu+Cu1WvwVrVZJAFFHj85AHTVcwjVADpIk8rxXryXNWru8omixW2gGPP3ukCcTikI0m/e7XellR4gihLgz+PH4ZjOiKB50v9o7Vg8eMrhbDI5V0S0+Hf/uxPenfjzyZUR0DwlxtXsVQ2Ja2GpQMLJc7C5PGPik45P/+H7X9zbv7tixY6mjhqh2dmzASI1Rv/2QNWZ2MD+j872qqq6r7Ntnno4fffyVB4ZOnDjiA6VyVGmH8fM+/9xO36tcuKCTa9cQu3Zt5cIFtE/b6VK6HwSCi+lYvrnDtP8bzQT++ejU31HryyQ9QUMCQTasNcyGBBIBAEhxysAEXQQySyTlE21dFSAUCJDUFQJk+ugoQK4wlKGmv/ET6gorZCJvI3S1EUPS1lHITHAGcl29hZppvrLqukbmkrRD0T/ChAUSnb+vHD1iVDml7CYa42VkXp5aThuDTsXGYDhql8MOOWGnHfY6IYhjFrknHbRghM/3RaXRRhilNEW5nK+FSljHHLfX5tZ3marcbw5yatw/GMZJgDGHGcuIFFknFxaHvxRl+OVudFHcNQYAAAA=");
 
 export default HandWave;

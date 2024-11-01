@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-minus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-minus?s=solid hexagon-minus}
  * @preview ![hexagon-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hexagon-minus.svg)
  */
-const HexagonMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M17.1 292c-12.9-22.3-12.9-49.7 0-72L105.4 67.1c12.9-22.3 36.6-36 62.4-36l176.6 0c25.7 0 49.5 13.7 62.4 36L494.9 220c12.9 22.3 12.9 49.7 0 72L406.6 444.9c-12.9 22.3-36.6 36-62.4 36l-176.6 0c-25.7 0-49.5-13.7-62.4-36L17.1 292zM184 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0z" />
-    </Icon>
-);
+const HexagonMinus = createIcon("hexagon-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABVQAAAHhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBEQsGAAE2AiQDCAQgBYMtBzQblQTIHoXptpONMMganx4/+sjA0b4Iov1+s/fuGyZJvIlIiHjJhEZokEwyIRIqoeKVEp5PjHvfB9QgVnmC2y9h1yE2p7pbUlsyf/v/zzX14vnRAX6jwzOLtNLGeh61TJ7AxNZWQTSwIQ2cZ+3sDH4QfZn0fconWaz6YTM4Qo7boqJCuk0f4KJ8aPxTqJA0CgBEBwBg77Qqh6ef+Il4L8+JdxkQEHsAhhFQoEA/AthEEuhHNgyyLPiJsoz/gUoIIKrg35pARsYkWAKQQZIyWc5upnDItSwKs+7AcRqHK81xPnUc+5NHsbfYFBfTJ6dr8ltdc2z23embRnf4r58qvfDvNWN1Nzg4P3J+cLoKldnY2O+VlC4R3gaB4OWDstzWHv2uNxMBf29ff3RjeVlKxB3UJRAUk/9WzQkG8lzEgV7MQo2YQDJe6XGoxZUAoQmBpKoJCn34kDWZgIpBvsNVTQ6RRGYg9GgRSFqcQWHZCmQ9TqFi07Nf1ROFw3DXzb3XkuMajy1TuuxOZVg5rDTeB5g0HVFOq8ZZ6jJhI3qNGTWtR7cB04qclItmjIhbRMwXKbnYOSmFKZcb96tr9Zg0ZcCY0bxIhHK/aTRrDzbBIGLKeQeTRCROf898R9/YqO2feWUKAA==");
 
 export default HexagonMinus;

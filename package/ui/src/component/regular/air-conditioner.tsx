@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `air-conditioner` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/air-conditioner?s=regular air-conditioner}
  * @preview ![air-conditioner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/air-conditioner.svg)
  */
-const AirConditioner: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 48c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16l448 0c8.8 0 16-7.2 16-16l0-128c0-8.8-7.2-16-16-16L64 48zM0 64C0 28.7 28.7 0 64 0L512 0c35.3 0 64 28.7 64 64l0 128c0 35.3-28.7 64-64 64L64 256c-35.3 0-64-28.7-64-64L0 64zm120 64l336 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-336 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zM368 288l0 104c0 22.1 17.9 40 40 40s40-17.9 40-40c0-14.8-8-27.7-20-34.7c-11.5-6.6-15.4-21.3-8.7-32.8s21.3-15.4 32.8-8.7C478.3 331 496 359.4 496 392c0 48.6-39.4 88-88 88s-88-39.4-88-88l0-104 48 0zM208 424l0-136 48 0 0 136c0 48.6-39.4 88-88 88s-88-39.4-88-88c0-32.6 17.7-61 43.9-76.2c11.5-6.6 26.2-2.7 32.8 8.7s2.7 26.2-8.7 32.8c-12 7-20 19.9-20 34.7c0 22.1 17.9 40 40 40s40-17.9 40-40z" />
-    </Icon>
-);
+const AirConditioner = createIcon("air-conditioner", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABjwAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCOAsGAAE2AiQDCAQgBYMtBzYbPgXIhofn7ao/91X1AKw19MVIRAhFs9FnkEGpGPb8X/P5PT86wM9HcGhRVq2xyOcdzycwobJomlCWTRS3O9szybNHS4wYyfHteOUwhzy+jgeVSE+lr/AAX2n8rNutJKUMQDQBYNmeHZsM/RA/RHxZfp/40gYExDJQCGTI0CfAQplAn1yBXC74Icpl/A8sCCAq0DkkkKMSN+B2QA6SUp439TQMFrWl+nx3banmwKNt4rH2+niiM+LxjrqVz0yIeGdMfbw27q1u8eTYN0fWxevj3+6JXfV19a91P1mO3fPMmF3Cje2P1d7T+UQ8Pfr13mdGfTzs2Ul+5gfYdyCidmeI2hB1yisL3uh+auSrXfMLDX+76e1fh311+itLHvih4UYNPwzhYeWaZppfHPJic3PNjQSD+rVLtlLStvb2bVtF/f8XzsJ4zZ+809z8zifNFRN6bzk/98mW/M47ly718flZU1+4405wp7pTm9Ly5Nzzt/ROqFjfHggEf53Z/+SRxoX/VtUm8NMnv//HmysPpaXpbVRJIMgmlic6mJYCogMIpbjGcOWLAsm1SmhX6zwuQKhBgKRCjQCZXk0C5GpMEKBkwCwBKtTYIRN5tdDmUAZJnctBZrbrQK7Nu6BkoU+DFdoiM0LShMgrYNxqCa3qVUybPLWYXwwzEmVXeOhcUCwLY69xFeNgpNMudYmrnHLSOVcJ5AqbIle72GoNXuWHCtNMNlVhvmI7f8vtFsErXOlcn9nvZoHivDPWNXr9cSAnhDndU0kiUuOxc1dMeppAfUYAAAA=");
 
 export default AirConditioner;

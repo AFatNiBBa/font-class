@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `marker` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/marker?s=light marker}
  * @preview ![marker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/marker.svg)
  */
-const Marker: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M330.3 97L353 74.3l20.7-20.7c23.4-23.4 61.3-23.4 84.7 0s23.4 61.3 0 84.7L293.7 303 209 218.3 330.3 97zm-144 144L271 325.7l-64.2 64.2c-43.6 43.6-99 73.2-159.4 85.3l-13.2 2.6 2.6-13.2c12.1-60.4 41.8-115.9 85.3-159.4L186.3 241zM307.7 74.3L285.1 97 99.5 282.5c-48 48-80.8 109.2-94.1 175.8l-5 25c-1.6 7.9 .9 16 6.6 21.7s13.8 8.1 21.7 6.6l25-5c66.6-13.3 127.8-46.1 175.8-94.1L481 161c35.9-35.9 35.9-94.1 0-129.9S386.9-4.8 351 31L330.3 51.7 317.3 38.6c-25-25-65.5-25-90.5 0l-94 94s0 0 0 0c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l94.1-94.1c9.1-9.1 22.3-11.6 33.6-7.4c4.2 1.5 8.2 4 11.6 7.4l13.1 13.1z" />
-    </Icon>
-);
+const Marker = createIcon("marker", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdAAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCBwsGAAE2AiQDCAQgBYMtBy0bBAXIhod/7Pq6r6q6B1CN6MaAXsjxQOEC6nCR/rMpI7jn/5rPL+0a8BsdSoWVHs2iLCp4AgOP4rVAFNhsojjrptPQkOdpeKkveklb6w9btIMs3o5hCiQvJTU8IR8VP+riXhJZCiBaA2B2de1yHzREQ0St/ipRsxQBMQfkAik2dBdgmlTQO8jkyGSChqjX6T8wJ4Ao4kdNQIYCtuIsIAOJNMvatRrfrNAiqzQrNN07dNDQoXGz2SODr7tzUCkqUS2VK+VV8U2pfXSK76trq4OGDiq1iZ3j2Q7PdRrYb6nGzbhryI2mDw8aFB1DBIu5K+66qBov9H+uQ4c+N1rf+Ll3bU/N4i179uyZq03nzm3yrIuXlErOnXviiRJvrpsze1PbjwzTdtPsOfXzVxbXv/GmxYva716k+4MPfniv3e1V0t//uNm//823wnXfmqemT9cuYzZvBg8/fP36ls1+7rh9Xg0IBB8/vPT1ra2m/da4WQJ+eOvX3+TE+v/19+Lf5AYaS0CQDqsPsylh4LKx4q6BOKMPviiQqErxpzb3vAChKQIkipoKkOqmtQCZpoYKUNDTeAGKmlorFVkTob3NFSSaOw5SE9wGMu29DAqm+TxY1D5SX1M8RXnqZS7Q0Pxp+egRo/Ip+bSoqO4jpeGp+bI96ExsGoyN9jjqiFN222W/U4o7YXnktMMWWMR8P5QbbYRRclPk25XH1RW7nXDSfkcdoUmmys/7g5yxOw+Gl2DeMbISCZEU/7JYJwA=");
 
 export default Marker;

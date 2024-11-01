@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clouds` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clouds?s=duotone clouds}
  * @preview ![clouds](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clouds.svg)
  */
-const Clouds: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 192c0 53 43 96 96 96l64.9 0c8-72 69-128 143.1-128c41.7 0 79.3 17.7 105.6 46.1c9.9-5.5 20.7-9.6 32.1-11.9c4.1-10.6 6.3-22.2 6.3-34.2c0-53-43-96-96-96c-14 0-27.2 3-39.2 8.4C296.8 30.1 255.9 0 208 0C151.6 0 104.9 41.7 97.1 96L96 96C43 96 0 139 0 192z" />
-        <path d="M128 416c0 53 43 96 96 96l320 0c53 0 96-43 96-96s-43-96-96-96c-.5 0-1.1 0-1.6 0c1.1-5.2 1.6-10.5 1.6-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28c-18.7-35.7-56.1-60-99.2-60c-61.9 0-112 50.1-112 112c0 7.1 .7 14.1 1.9 20.8C155.6 337.4 128 373.5 128 416z" />
-    </Icon>
-);
+const Clouds = createIcon("clouds", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfgAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBawsIAAE2AiQDCgQgBYMtB0gbBQXIjsM4JjyLFw9aPHyv6/XcJ/01AMnM2Hksz7gyVw6y0gFxnVR/UhK12Vw4/5+43PmfP23aILIX/T3IDmSv8wQ6j8ay6XWeJpRpBtbubKUobXmkxVKQHBc7Pp8H5Glwdk0D6YH0De7Q/wDGL7q5RtIsAxBtATB38/qVPmiMxhTf1F8hvrECATEPFAIZMvQUYIZMoKdcgVwuaEz1aYz6BQFEDb04AzXk2IbdgBwkIfJ8+OAWDa3yTXRR882PDI14YWKreH34i30eHVZNutrcefcFV7wy5MFBVfNIPN+z7PR00DUb29Einpr9/uJPZ943eCS6PuBBxJ/v2Tze1q9qW/3W95tD37jSp2lFVc5RVlXTplVVCtGlaWw62HbNsR8fu9v3zz/+b6Pbl126tsFsnOvQ+f3lXw+V7W4/va1Tl+9ffmnM4z//cDQ2PA8EgkU3N2zZ3WbGf00l8NNbf/yTfkjqH6QyVWgqgSAbUR9hRyohlQIAkOKSfqlUIpAZLgmf2tI9AUJzBEhqmguQ6aGtALnmhgvQoLeJAtQ0t14m8mZCRzszm7R0ls1McpnNdfQy22CGz5OajpGpl6AcwusudZEEFq4qxo4aU0wrmg0sagznF6cX0+6QS3ZgKJx1yGmnXHDQAUddENA5K/OLTlrUAxf6osJYo4xRmKZYbl8f3+Sgc8476rRTuMx0xf54iEv98UNhPQkw7mCqMiJF1vqjwfD8SDU125byfQQAAAA=");
 
 export default Clouds;

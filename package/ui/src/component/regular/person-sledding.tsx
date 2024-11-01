@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-sledding` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-sledding?s=regular person-sledding}
  * @preview ![person-sledding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/person-sledding.svg)
  */
-const PersonSledding: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M400 32a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM128 152c0-13.3 10.7-24 24-24l169.4 0c35.6 0 53.5 43.1 28.3 68.3L281.9 264l62.1 0c22.1 0 40 17.9 40 40l0 80c0 7.7-3.7 14.6-9.4 19l43.9 22.8c13.6 7.1 29.8 7.2 43.6 .3l15.2-7.6c11.9-5.9 26.3-1.1 32.2 10.7s1.1 26.3-10.7 32.2l-15.2 7.6c-27.5 13.7-59.9 13.5-87.2-.7L12.9 269.3C1.2 263.2-3.4 248.7 2.7 236.9s20.6-16.3 32.4-10.2l124.1 64.4c-4.3-11.5-2.2-25.4 8.8-35.1l90.7-80L152 176c-13.3 0-24-10.7-24-24zM336 312l-136.7 0L336 383l0-71z" />
-    </Icon>
-);
+const PersonSledding = createIcon("person-sledding", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbQAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBWgsGAAE2AiQDCAQgBYMtBzYb4ATIHge5afRGumji/MXD82u+nftm8tsmv8hTIIBlBQAKSREJh6R2bZIZ8i6t9ffn/5p68fzogO59o0OLwko6K7BcxvMGm9jevIJTZ8PZRHHWzs7wP4huk4TySYbtM2zWkMc7sRLp/gR35Q+NP7V2laSUAYhGAJi0Ysk8H34X30V8Xn2N+NwcBMQkUAhkyNBOgLEygXZyBXK54LuoVuU/sCCAqMEbJ5CjhAVYDchBkuV5/SF1KqX6+fJKqbzj6db3t7qv6zNtHmj7YI+NKlViMHsujfLq25rfTVxsNiqe7tEynm19f9dm8ebozfFM2we7LYsHWq6IcjzTZlm5Ul4W0fmFRi/83cl27nr0sV/eeOOXx+SWDWu+6HkvXb+72ZQpxmv84tuNF6q9/rpZq341/aWtbX716mvnP9Lnyssjz0ywubp6gT0WNf/60VtI3JxuhmsCwdUXv317Q8Ox/9WtJPDD2//+Hw6sVpVK6QXUlUCQ9a32tTYxoOcFDFIc1xnfJJDMkMG71rpHgFBGgKRGWYBMW40EyJX1EaCkg2EC1ChbIhN5PaGZdQ0ktQ6BzHDnQK6ZV0DJWB8HNZpF5lWMTzB/usTpPTptUTGo/8BidLEsVNZRqDg8ptiWeh7Xpl5YabsD9jtqm612Odrhh82Lj9lnuoVN80OFQfobqDBacVx5Xr7cNocdscsB+9MoYxT3vZ6O2517QU1IOlgiSURq6IR+vyN7t71zAA==");
 
 export default PersonSledding;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transporter-4` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-4?s=duotone transporter-4}
  * @preview ![transporter-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/transporter-4.svg)
  */
-const Transporter_4: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 400c0 4.1 2.7 7.6 6.6 8.7L32 416l7.3 25.4c1.1 3.9 4.7 6.6 8.7 6.6s7.6-2.7 8.7-6.6L64 416l25.4-7.3c3.9-1.1 6.6-4.7 6.6-8.7s-2.7-7.6-6.6-8.7L64 384l-7.3-25.4c-1.1-3.9-4.7-6.6-8.7-6.6s-7.6 2.7-8.7 6.6L32 384 6.6 391.3C2.7 392.4 0 395.9 0 400zM96 272c0 8.8 7.2 16 16 16l288 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-288 0c-8.8 0-16 7.2-16 16zm32-64c0 8.8 7.2 16 16 16l224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-224 0c-8.8 0-16 7.2-16 16zm32-64c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0c-8.8 0-16 7.2-16 16zm0 192c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0c-8.8 0-16 7.2-16 16zm0 64c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0c-8.8 0-16 7.2-16 16zM208 16c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L224 0c-8.8 0-16 7.2-16 16zm0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zm208 96c0 4.1 2.7 7.6 6.6 8.7L448 192l7.3 25.4c1.1 3.9 4.7 6.6 8.7 6.6s7.6-2.7 8.7-6.6L480 192l25.4-7.3c3.9-1.1 6.6-4.7 6.6-8.7s-2.7-7.6-6.6-8.7L480 160l-7.3-25.4c-1.1-3.9-4.7-6.6-8.7-6.6s-7.6 2.7-8.7 6.6L448 160l-25.4 7.3c-3.9 1.1-6.6 4.7-6.6 8.7z" />
-        <path d="M128 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-256 0z" />
-    </Icon>
-);
+const Transporter_4 = createIcon("transporter-4", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABvAAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDNwsIAAE2AiQDCgQgBYMtB1Yb3wXIHoVN2Vc4inGkqe3wkasrHp6ZJoLv9/vtufd9MbyJVbOEN7JGaVQqHmkk0VDINBqZEv5QyWT84Pzd26Y/wMN9Pj+CVWKzbASBZ1EWBnpk5xP7zYe5hAoJkmhyr+LbGhr6SuL6Tyt9Pv/X5As/KpBPcGGHkiuLzOcRbROY4M3SG3Q+3kxnYBucN+mQQ3H/GYr4MC+USE9kguDW/h/A+CWVC5JaBkB0IQAb+6kknhJigNAP4psSICA2AYwAMjIGACwzBQZYRpBCIWgbqrShOoICiDLsJ2ZQRhOf4IsACpCEWkGVj9pukalB41Gz4d5szquURLriWnbj8EhvigdpLb+zuaRqkQ2quHF4WANHdATtUEenMNGlhJWr7N/JeKSH4i7nkq7SSAnhMLK5YbQSHitzrPrYu/D900Q0CCv+CW74EXVyQJt9dqZSPuCYvMKQHzvgqFItOVjy2wxxUESdttioQC8F9n0hbTdmVxTaFdS3o7X+j70vBwLB1un5/BAs/zE5ZMDP5/s/+SH5fyZK76AqgSBP/HsdCSQCAJBiAXOCQxDI3lDjvmrTPQKEOgIkZXUBsn4egELdOICSIQ2AsrptFFGwEPrcCpA0nYBsyRMU+rxBybJfuqwvKBexcgkq/5AZ4lUkts0YSnMeubcm01yXkp6deLLJefKeAO5Ew9DATF1N26yCTyRzc33xISzmi4wKqRwb8eLmTUO2kp6Yanfrlm8y4e19vnN4eACtZC7vnDeyTCQSRfbhiU180eSGGKDo0J38AAAA");
 
 export default Transporter_4;

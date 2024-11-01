@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fire-hydrant` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-hydrant?s=sharp-light fire-hydrant}
  * @preview ![fire-hydrant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/fire-hydrant.svg)
  */
-const FireHydrant: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M208 0l0 16 0 17c57.9 7.2 103.8 53.1 111 111l17 0 16 0 0 32-16 0L48 176l-16 0 0-32 16 0 17 0C72.2 86.1 118.1 40.2 176 33l0-17 0-16 32 0zM192 64c-47.6 0-87.1 34.6-94.7 80l189.3 0c-7.6-45.4-47.1-80-94.7-80zM32 480l16 0 16 0 0-80-48 0L0 400l0-16L0 256l0-16 16 0 48 0 0-32 32 0 0 48 0 128 0 96 192 0 0-96 0-128 0-48 32 0 0 32 48 0 16 0 0 16 0 128 0 16-16 0-48 0 0 80 16 0 16 0 0 32-16 0-32 0L80 512l-32 0-16 0 0-32zM64 368l0-96-32 0 0 96 32 0zm160-48a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm128 48l0-96-32 0 0 96 32 0zM128 320a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const FireHydrant = createIcon("fire-hydrant", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjwAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCeAsGAAE2AiQDCAQgBYMtBzMbewVRlM3FEtlDEOlef1aSSTKcQ3hJZbMC9IEQS+IOsOhC7Qeu3/xfju+2Hc3nn4/g0Ma0NQrHBBljPE8gwDTflFB0YZYotjvNag7FHoeQWMLxzXG6QBXXxoQuiqeLH/Fg+ND41Xy3UahKAJEAsPORh+7v682xOeLHzgfEj/ZFQOwCskCJEosE2E4psEglo1IJNkenQ/+BmQCiG2elABX68DzeAFSg0FNVncUDG/pm9g00XQPVEU1XfawgPhh9e3HTiLo/omleHH93XUREk98fiXhrURMvjL2z9qimbiLqOozdNMiH4DfRkwFtCnUtrllH1lDcdOTNcyKeqO+Z9ZibZj/e3Dv3yTh8nI0jXhx/d/Ttxc+NvDX2zpLl76R3fl/24xk/+uWrlNKwD37feOxwylKbpeFjN/7+wbB/Se60j/P4KV865fHH2xdfTCkfpE3JTZLUZlnrJif52klu0oq6lDtIOhctvfAkPp2dJL84PXgXdw2mPgpunBbaNk2XW//+e2tpXwcCwZcvf7/lxKHt/u9tCrD10z//ds/rfB03Fe+gVwGCcqIz4bi4CUAYQK2IKyzHLwoUHteD37XfEwKEGgEK3WoBSgslASq1cQG6LLFGgG61Q5Wi6hNmOb6AQr+LQWmt60FllvdAl+18U+02K0olVVRM+SJm7tEiux/LK6bavE2e9mVV7yS/v21etkeucHOjcNYZLnSBy5zuNGe7rKEvsX/jcufbQ6J290PZClNa2Tby9ujePAKrl7jU2WN9/5Bt5fv5EVfIq0fBK7DoSk2Fgij6X3vT5FlXn3bJyRdcBgAAAA==");
 
 export default FireHydrant;

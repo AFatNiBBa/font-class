@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-and-crescent` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-and-crescent?s=duotone star-and-crescent}
  * @preview ![star-and-crescent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/star-and-crescent.svg)
  */
-const StarAndCrescent: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M258.1 226.3c0 2.4 .9 4.9 2.9 6.8l50.9 49.6c2.3 2.2 3.3 5.4 2.8 8.5l-12 70.1c-1.1 6.2 3.9 11.2 9.5 11.2c1.5 0 3-.4 4.5-1.1l63-33.1c2.8-1.5 6.1-1.5 8.9 0l63 33.1c1.5 .8 3 1.1 4.5 1.1c5.6 0 10.5-5 9.5-11.2l-12-70.1c-.5-3.1 .5-6.3 2.8-8.5L507 233.1c2-1.9 2.9-4.4 2.9-6.8c0-4.5-3.1-8.8-8.2-9.6l-70.4-10.2c-3.1-.5-5.8-2.4-7.2-5.3l-31.5-63.8c-1.8-3.6-5.2-5.4-8.6-5.4s-6.8 1.8-8.6 5.4l-31.5 63.8c-1.4 2.8-4.1 4.8-7.2 5.3l-70.4 10.2c-5.1 .7-8.2 5.1-8.2 9.6z" />
-        <path d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c33 0 64.6-6.3 93.6-17.7c7.4-2.9 11.5-10.7 9.8-18.4s-8.8-13-16.7-12.4c-4.8 .3-9.7 .5-14.6 .5c-114.9 0-208-93.1-208-208s93.1-208 208-208c4.9 0 9.8 .2 14.6 .5c7.9 .5 15-4.7 16.7-12.4s-2.4-15.5-9.8-18.4C320.6 6.3 289 0 256 0z" />
-    </Icon>
-);
+const StarAndCrescent = createIcon("star-and-crescent", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABigAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCEAsIAAE2AiQDCgQgBYMtB14bQAXIjsJxrwRlskRRbBHDG8/DH7I/973XWFOLJrUBN1ieJbYGaJZ4oP2lXyB7fq3NOxVMP5dw8yaWIOGhkLahllTrhYJYZccujX/8N+CByM8Rfx/bPke/Vke8Ao0XpN74ipcmcE1rYN2dLceUGkpJQiPJ8WhyXE7Q8lAn0UF5F1yBW/ofwPxnbZKipwIgwwCAo8u8DBwbYyx09bMO+ZIOAjkGsIxQUTGPwC6hYJ7IMmia8EfA8/CHeJ5BgHSCPqKCTjRcgRsADRSRJnIJUIrVokKlWFH2lE50dUh0fPYcc5JxXTAdtmSxaDaleDl5KHzNeyyaNl+yXLLYVdSNmufQAs4yX7lZtGSeoSWlzy1RIS1a5lG0xyzQsvBVWcWUmTfNm02dGasfOu7N6erqCvxRkjHuZ4BpSZKmrWfGkvh+Ltu5H3dLi4jjKGBFHHcrafexm93yii/ouxmcYOhQJkBxp2NGPkdGIHKnVCaAv1uT9iTKcTj+wb9D7P/B7DBRjusugCD8sdzYrxoK/5MpBYB/ux8/9ofk5zj/hQPdCgh1nXdXXoCSfwEAlAzCUEAKgmqbgHvUfi8CohcBRadeAdUcHQJNrzUEOiwKQKBTr1NCaXLEuIoMin7XoNoxBJpxa6DDrlO/03iEEsfJC/ffS04skYR9zMfTm4WybiHxQsSY7TA2bTsP4sAFjqJRl079GtRr0V/QvTKiAR0SR2iCL2J8ePLGhGLL9S1cqEGvPi28uL5LGLbfcTY4nneBwwgAG2cFVVJIaP0kYI+aznqPut6Gvqene1zfGVtWvKwAAAA=");
 
 export default StarAndCrescent;

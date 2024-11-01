@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `road-circle-exclamation` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-circle-exclamation?s=solid road-circle-exclamation}
  * @preview ![road-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/road-circle-exclamation.svg)
  */
-const RoadCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M213.2 32L288 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 74.8 0c27.1 0 51.3 17.1 60.3 42.6l42.7 120.6c-10.9-2.1-22.2-3.2-33.8-3.2c-59.5 0-112.1 29.6-144 74.8l0-42.8c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32c2.3 0 4.6-.3 6.8-.7c-4.5 15.5-6.8 31.8-6.8 48.7c0 5.4 .2 10.7 .7 16l-.7 0c-17.7 0-32 14.3-32 32l0 64L86.6 480C56.5 480 32 455.5 32 425.4c0-6.2 1.1-12.4 3.1-18.2L152.9 74.6C162 49.1 186.1 32 213.2 32zM496 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 240a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-192c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const RoadCircleExclamation = createIcon("road-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjgAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCPwsGAAE2AiQDCAQgBYMtBz4bTQXIhofn9ag/9yWjZI3MWvomO5e/g1pz6tTznIcC+ByCoOypAVkWWqtjn1egYr14JxV8AtW2oNfcFldcmgwMIjIGHiIf4gzp+fIbyOPv7Hw1pFvSh7iq3lR8raPzSRoyANECANPXrlzs7S/ii4gP/n+B+MBCBMR0UAlk6OgiwCSZ4DeQq5DLBV/E///rf2BFAFHL7jeBHLU4D5cCcpDkeb6gc0PTsqZpvqasKTaWRSnObntDeVn7myKijMva3tBxdTxYXDru5UER57S7sbi0zfW4frNuFxFw8A+Sc+t0TvuNcVv7h8rtl42PeGXwE84e9Pi4l4tLJ7w65Mk4Z+hTE18rPdT51j73d7ild1zfRtzQ9qb2ETe26/Foi0e/bfxwz4c+umvhwoXTNLv44mbth9Ms1Pbvv3YOOElqOXjmymMHVlIT2bC9HevrQjj0PUd/911dQ78TFtr5V9mm01t9E2l4Y58+jcNT6usKxf1hedu2y1v47S+aLdPsCzkdCAQf7+p6+9bmk36tLxP46tXv/5Djq//fTmenR1EvgSAb9P8gm9LZKoAOwEtxoh7kgQLJaXJ2q03cKEAoECCpVQiQ6ayFALnCQAFqdDNagFqFlTKRNwhtbJ4gaeIYkBnjDJBr4zlQY5J33FptIstDOovo18CEOR6avaoaPmRYNaFaFgaTWiRdnFhtG/1OlIH+6LTHUY443m677He8Q461ODjBYXMYPNsTVYYbYpjKBNVxfVy/xm7HOs5+Rzmiy0xUPe/0cyIf3x92YpgjRJJEpPbXQRn8xc7g4H9cWNsP3y4=");
 
 export default RoadCircleExclamation;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `handshake-angle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake-angle?s=regular handshake-angle}
  * @preview ![handshake-angle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/handshake-angle.svg)
  */
-const HandshakeAngle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M264 320c39.8 0 72-32.2 72-72l0-8 104 0c13.3 0 24 10.7 24 24c0 11.7-8.4 21.5-19.4 23.6c-7.7 1.5-14.2 6.6-17.4 13.8s-2.7 15.5 1.4 22.2c2.2 3.6 3.4 7.8 3.4 12.4c0 13.3-10.7 24-24 24s-24 10.7-24 24c0 8.8-7.2 16-16 16l-16 0-32 0-66.7 0c-14.9 0-29.1 5.9-39.6 16.4L159 471c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l54.6-54.6c1.5-1.5 3.5-2.3 5.7-2.3l66.7 0 32 0 16 0c28 0 51.8-17.9 60.5-42.9c29.8-8.8 51.5-36.4 51.5-69.1c0-3.9-.3-7.8-.9-11.5C498.9 311.7 512 289.4 512 264c0-39.8-32.2-72-72-72l-104 0 0-24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 80c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-96c0-22.1 17.9-40 40-40l138.7 0c14.9 0 29.1-5.9 39.6-16.4L513 41c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L424.4 61.7c-1.5 1.5-3.5 2.3-5.7 2.3L280 64c-48.6 0-88 39.4-88 88l0 96c0 39.8 32.2 72 72 72zM160 132.5c-19 7.5-33.9 23.6-39.4 44.2L99 257.5c-.4 1.4-1.1 2.6-2.1 3.6L7 351c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0L130.9 295c7-7 12-15.6 14.5-25.2L160 215.1l0-82.6zM543.2 250.8L633 161c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-75.3 75.3c10.3 13.9 17.1 30.5 19.4 48.5z" />
-    </Icon>
-);
+const HandshakeAngle = createIcon("handshake-angle", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABlwAAAKHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCYAsGAAE2AiQDCAQgBYMtBzYbZgXIHge5ifVKKCaTyfGL4Pv9fnvOve9jnrybJQ8ZD41KKFAhqaVAI1MKQ8WA/X3NfIgLqcm4BqLuOh2YrklVakjwq9z8+b+mXljTAX6jQ8lFtUVpRPDeBKYD2s2iQfbGZcPZRHFWbXsxRHTR0G4IjQPU+MMjaMgX0QPAVfyh8Q+nHaSmACD6AQA7h7XluPWGb8j7whWIH5SCgNgBMIUoKBhDsE4sMEZiClRV8EtBMP+BAUAA0UKKpXtXNLjBJ6CCVKpk2KJRS7WSBrVU1bscTa67STUXnWdCTlhOWE9CmBccVkal2mep4hnnYngtT6vT8H77slvLnndvta37z0WthalIngs7pQbODVlykVvtFuKmtTzvWgqp4gmVipcjVjzgS+RqaIOXqOMJS91jUGOePZjsbqxrTB6sjmedQWuGtc+BDwYeQH7+JhlY7lXgRPWIyHKhpXQkRG6trrbq3hh67cIAnjzRagdgLLkJ1j/qmoGnzxQyyQe7Ljn5zRAcjK6qWtIF49e6cT/O5+3H9sUeSRdORgZvPj/sYnR8jPi6YG32E2rO5ptTYXmjkhJ8iwIgEHwf/HKuU5/zTaEWAf5ufv3eXCkUiHaL1kC7BEGZEWLQllsAdAZCGs/YgCD+TSDSpYK/a7dHAUInAqSWTgGKUQYEVadpBI0JqQhaOu0Si6pEGNY+gNTtFBRrNoJq2CXQWHc73jIcYsKUyEr6LUxTMEXzFwUkxiUEZAXsVnUKWhPgdHbAaUvEBtsVyddiwKQJc/r1GTY3YWaUp+aNK0B0vh8KkChOggBZAm43Xq5u0G/GrGGTJqJ5sgW8H4iwAQ+O5HaRlHVJQUoi9V8OV7pH+2Nb7+BYPwAAAA==");
 
 export default HandshakeAngle;

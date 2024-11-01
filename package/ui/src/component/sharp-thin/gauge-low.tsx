@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-low` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-low?s=sharp-thin gauge-low}
  * @preview ![gauge-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/gauge-low.svg)
  */
-const GaugeLow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 496a240 240 0 1 0 0-480 240 240 0 1 0 0 480zM256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zm16 80a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zM208 352a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm-16 0c0-22.2 11.3-41.7 28.4-53.2L136.8 131.6l-3.6-7.2 14.3-7.2 3.6 7.2 83.6 167.2c6.6-2.3 13.8-3.6 21.2-3.6c35.3 0 64 28.7 64 64s-28.7 64-64 64s-64-28.7-64-64zM384 128a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm32 96a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM112 240a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-    </Icon>
-);
+const GaugeLow = createIcon("gauge-low", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABnAAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCXQsGAAE2AiQDCAQgBYMtBzAbXQXIHodxTLERV91VohLx8Lze97/2SUaZZ+TZ/lIFslIHuQTc3cGbPnqXVt/8YYjvcF+szMufotr5v9zze34b8Bsdyl6V5Wvins8TCHgsWsMSOQ0k0wQsEKcjFNZjdAx2TSkFp4r8Hj0+r5DHk7arIt2U3sIVzVfxk7YuIskyANEEAFNWLVvguc/j84g3KxNvmoeAmAJKgQytg0MYf7VAB7kSuVzweVQq9h9YEkBU6+9LIEeBi3EbIAdJbZ63b1/XUGki9VUN85X2OcWKT+dFvDnt8Th/6Df3jZUfzX5t8iPOG/LOeX1F9vGCiLenPO+8yc/Nf2v5JwvfmfpCnD/txUXvrlpxbYuRT2Jg5U099ug0a3j4mwR39MujVbSOlrEibqi/r8+t5vjyj/TRxWk5E34zq/CSexg+f5e3dr6lMmiygxyq+Z//aw4dnKxUl/2/50quGmenTesw7qo6VJPTeFGjzz9vNIomNS4OnnnmwUKPbJLuWnq/Ub7V07IHXFN/Z1NUFKh3WujZz24EOm+CltCgxrEQCJBNf397sPH4f2rrE/jyid9+Ir+iynNJehi1Egiy/pX+1ieQCABAipO6JggkF6jV/NrA9QKEAgGSaoUAmfaaCJAr9BOgSicjBKhWWCYTeZ3QwoYdJA0cAZmRzga5Fh4HVcZ7NVatRWRpyScV/1eYMtNDM+aVQwYOLseWh1VTyDS2To8rLzu9T2pXH/ba6ZCDjtthuz2OO/KoBckTDpi5gmf4otIQAw1WGqt83DhuX2mHo47Z45CDNss45fvh3k6uB/chkHTKobT0CRalul1bTuzaMWD/oVMA");
 
 export default GaugeLow;

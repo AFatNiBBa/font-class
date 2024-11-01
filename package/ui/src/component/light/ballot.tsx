@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ballot` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ballot?s=light ballot}
  * @preview ![ballot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ballot.svg)
  */
-const Ballot: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 32c17.7 0 32 14.3 32 32l0 384c0 17.7-14.3 32-32 32L64 480c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l320 0zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zm96 128c0 8.8 7.2 16 16 16l176 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-176 0c-8.8 0-16 7.2-16 16zm0 128c0 8.8 7.2 16 16 16l176 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-176 0c-8.8 0-16 7.2-16 16zm0 128c0 8.8 7.2 16 16 16l176 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-176 0c-8.8 0-16 7.2-16 16zM88 104c-8.8 0-16 7.2-16 16l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0zM72 248l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16zM88 360c-8.8 0-16 7.2-16 16l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0z" />
-    </Icon>
-);
+const Ballot = createIcon("ballot", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABlwAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCaQsGAAE2AiQDCAQgBYMtBy0bZgXIhof/X7O671clpydYPYQ1RKSAaJcdEqt2i0bkrEU1OhNn493ORzt/SaZD+X8c7wdb/8sJJFj2/FQiWZhlmoBlbo053BRF9pMwCTtCejz3+PXqBHm8EjNUSC+lP/FEe9P42zD3kuQZgCgAsHbfrp36OtGJ+LP7HfGn7QiIdaAUyJBhpAArZAIj5UrkckEnul35DywJIKrsaQnkqOE5vA7IQdKT58OHN+23VvQv6pVmvrdeqZ17ZFDEc1LcOfDZWiMeHvx8ZHHXkBfqzZPvTon4cGiKl6Z+NLEZH0z/ZEQWL0/7eFJjz3OD6vHCkOcH1+LZgU7KwaxHdCI02i1UDpLt2Wncx8XH/4798+yf7nij9SAPtu7UaQHWSGPj6jFv9tJbu1Ott/fNNVSi0rE7Wp0vdVo83p3F3jwk2QUOChVpP1EURZ/VsvZ1+HEgEKx7/5bXjrVXXOupJ/DXz/9fC/fr9kVf+hg9EgiyGd0ZDkcfyJJgaYpbjQOfJJA8pge9asPzAoQaAiRVNQEyIxQC5GqmC1Ax2kIBqmp2yUTeTxjoyCCShhuIzCK3EbmBviEqVvglrRoYmXPyrsV/G6ZsmsGN68q5s+aUy8rbukPwN7bMLy8fO1Nu1b6ptNVZ17nqZmecdsHNE3yjncUtrtiEoI2+qDTXLHOUlim3W1+VvZze6CYX1tL+KsuV74dT3IpHTyU/Mcp5KpJEpOqfFtWbAQA=");
 
 export default Ballot;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-down` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-down?s=light up-down}
  * @preview ![up-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/up-down.svg)
  */
-const UpDown: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M103.3 9.7C110 3.5 118.8 0 128 0s18 3.5 24.7 9.7l91 84c7.8 7.2 12.3 17.4 12.3 28.1c0 21.1-17.1 38.3-38.3 38.3L192 160l0 192 25.7 0c21.1 0 38.3 17.1 38.3 38.3c0 10.7-4.5 20.9-12.3 28.1l-91 84c-6.7 6.2-15.6 9.7-24.7 9.7s-18-3.5-24.7-9.7l-91-84C4.5 411.1 0 400.9 0 390.3C0 369.1 17.1 352 38.3 352L64 352l0-192-25.7 0C17.1 160 0 142.9 0 121.7c0-10.7 4.5-20.9 12.3-28.1l91-84zM128 32c-1.1 0-2.2 .4-3 1.2l-91 84c-1.3 1.2-2 2.9-2 4.6c0 3.5 2.8 6.3 6.3 6.3L80 128c8.8 0 16 7.2 16 16l0 224s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c0 8.8-7.2 16-16 16l-41.7 0c-3.5 0-6.3 2.8-6.3 6.3c0 1.7 .7 3.4 2 4.6l91 84c.8 .8 1.9 1.2 3 1.2s2.2-.4 3-1.2l91-84c1.3-1.2 2-2.8 2-4.6c0-3.5-2.8-6.3-6.3-6.3L176 384c-8.8 0-16-7.2-16-16c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0l0-224c0-8.8 7.2-16 16-16l41.7 0c3.5 0 6.3-2.8 6.3-6.3c0-1.7-.7-3.4-2-4.6l-91-84c-.8-.8-1.9-1.2-3-1.2z" />
-    </Icon>
-);
+const UpDown = createIcon("up-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABugAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyGHwsGAAE2AiQDCAQgBYMtBy4bHQfIjtRhLTIW4+H/19L7/sym6WyoxNMqYFbA5IBQyMS2rOKKRuyp7ams3nSAev/7U89jmwL4ATxjUx5mnY9Nwc5FWNAxbXq1ILVasaYFiWFBsFd1OgKjZQpSLxkSpRYZHkO8ezxeIY9ZMVqF9Db9xuPlSeOvfm6Q5BmAaAPAgo1r1+isRS3id/0D8dsqBMRCUApkyDBQgNkygYFyJXK5oBb1uvwHlgQQDQxP7pujQpwmLgJykKQ8n1yfXq005xuqlWLr6+r9XuvjpSs9XxRFiGqwIOa6QOle7w3xKq72iTPViCgCAtkbR9wLwEvnm1/2EldX60XPQo0rL1hQvd9nY7yOV70LVHokP+J1nyqMqx94ZDGso63j39DfB3478KFdS/uWtb52O3K10F+n/hp0+zq16ls3E/mhu2WVyki1lhrb3FIbaX6edduyljQWns+vdBlQw+1AIHjTXtvO1tn/G6sJ/Pn6/+1Tpt4ZE1MHGiUQZKPro22LCxATBQAgxQXDAgIpDkt41CavBAgFAiQNCgEyA7QJkCuMEqBisCkCNCislYm8q9DT9h0lTU6jzFQXUa6nd6hitm9Bg56R5Z2UNdJvb/pSxpbMKyeMHV/OLC9rmpxKwjw7q7wNwy9ozwgcdMBJJ5yz3z6HnSP2jDXxecctjZgl3qg0wVjjlWYqu5uewQayzjirgi/3g1nSwvPecBfi4SPwwgSYyJYliUhdzp8ak4sA");
 
 export default UpDown;

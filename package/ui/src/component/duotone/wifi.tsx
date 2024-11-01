@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wifi` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi?s=duotone wifi}
  * @preview ![wifi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/wifi.svg)
  */
-const Wifi: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const Wifi = createIcon("wifi", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABegAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBbwsIAAE2AiQDCgQgBYMtB0QbBQXIhgc+u/q/VdWzD1A/2xGMFPqQIqd7Nv1wPH9/qmachxbI4xAEZS1aGpAFPma7zytQwF+ckxqDWk2xi9uugoiGxkLjBllsm44qEG/F73Ah/A9g+FUDR4kqJAChOgCGz5052UeloTSG74qvEb4zCQHCCJALSEhoLIBBkoDGMjkymUBpLBYpDcViTgBCidB3AiUoYDbWAjIQJbKsZZMqlQpVsjkBXXHuD3ND+KXSmdk/Tb/GN9e7EQ7V/X7Oz3N+nPXjtKsO1plby5fFRRFjdVEfDPim4ulxbw26WvsqEqVZ72IPs+93eNzuYeN77R91fNKsxePqj39v/t2a7/T+r/vIRoxsPGVKLrYndL9ZpfKtU1Wq3PxmSj6l2QILeBGb36xwVU7dqryiQq854fOHL3106lRELf8n9u0b/5l+s3JlveOjlx5+PicMfZDK/v67LJWfAwGBBud3V19abdD/5StFUPbOn//K9xV/iQfjY5QXQSB1KnayKB4EzA9AEsMeLXa+SUAyWZLsq+y6AIKK9BCVqAhJI9UhU1FHKGiqt3xyx0xJyCoIalsMQ1TZdkj62AeZ2l6FgkG+jErUDgnAVPBQ/++yxozJ0cvy7l265QPyzUyrwYxs5wfmp912e2SnPV5rja222GW1VdbbNaJ3mJzuttmYPWq0H8p110U3uQHy2+Vza84o2mGn9evG/UUGyt8P29mzP7o9DqJEsId9SSLEkCrvXb9mfWc4daoOjO8R");
 
 export default Wifi;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-arrow-up-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-up-right?s=sharp-thin comment-arrow-up-right}
  * @preview ![comment-arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment-arrow-up-right.svg)
  */
-const CommentArrowUpRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M71.9 376.4l3.6-9.6-7.3-7.3C35.2 326.3 16 284.7 16 240C16 136.9 120.2 48 256 48s240 88.9 240 192s-104.2 192-240 192c-30 0-58.6-4.4-85-12.4l-4.6-1.4-4.6 1.4L42.3 455.4l29.6-79zM16 480l19.3-5.8 131.1-39.3c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L23.1 461.2 16 480zM200 152l-8 0 0 16 8 0 108.7 0L170.3 306.3l-5.7 5.7L176 323.3l5.7-5.7L320 179.3 320 288l0 8 16 0 0-8 0-128 0-8-8 0-128 0z" />
-    </Icon>
-);
+const CommentArrowUpRight = createIcon("comment-arrow-up-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABegAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCFAsGAAE2AiQDCAQgBYMtBz0bIQXIhofv1z4793X/CQB1gIgdu8ipOMIlUmyn1qJa/ef/ms8v7egAP9iJHUo0lh5GetSynk9ggLPdvMFSZwOb6QRs5q6mWBLdb0lLkeTxmzxeDpDHO5uUSA/TT7hbPjT+0sIlkiwDEPUBMH7pwtk+q4qqiB/LL4gfzURAjAeFQIYMrQUYJRNoLVcglwuqolwO/4EFAUQF3DCBHCVsxDlADpIsz9u0a1erVCdfUqtUc2mzxs2axs9L/ljq8d8W478uevmNIU2jcSyKpYu6duq6NF7U+mPmj2M/dXwy5uOMH5b8Ou27Ue+L3+YviuYra9aqKWrVWhSNo0k0i6UhRK2ghpodKutX/tP+py0/mTp1GJJHdDQx5k4Y4vCtwQmjJG7ofXK8/o520GbO0K2dsf1CF0/7TnXjcdu2NWpE+/GNqdT1MXNL++U2vJpavXr1+qrvvnHdZJUWuX7DbtXVJ/wcSnUgzsuufD1xbb1R/1evlcCfb//7i/yKylVJqkR1CQRZr3IvqxJIBAAgxREdEgSSlTJ419ruCRBqIkBSoaYAmVbqC5CrqacAJW0NFqBCTQtlIq8hNLa6gaS2/SAzxGmQa+wZKBnl26BC48hMTjAY4cOXOkVDkzcV/fv0K0YUw5YqWhGXVkcWy1q3IzzSnfbaYq89Dtlsk+0OKfKA2fFhu02ZEZN9UaG/PvopjFBsd+93L7HZAQdtt9eevM5IxXmrmyPz6d3JTEA7QClJRGp6x4u91x84sPdo78P7ni0A");
 
 export default CommentArrowUpRight;

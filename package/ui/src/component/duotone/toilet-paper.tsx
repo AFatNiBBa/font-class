@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper?s=duotone toilet-paper}
  * @preview ![toilet-paper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/toilet-paper.svg)
  */
-const ToiletPaper: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M20.2 495.8c-5.7-10-5.6-22.3 .4-32.2C63.6 385.7 64 277.3 64 192C64 86 107 0 160 0L512 0c-53 0-96 86-96 192c0 81.9-7.3 145-16.4 192c-8.6 44.1-18.8 74-26.3 91.9c-10 24-33.2 36.1-55.4 36.1L48 512c-11.5 0-22.2-6.2-27.8-16.2zM128 208a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm64 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm64 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm64 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0z" />
-        <path d="M512 384l-112.4 0c9.1-47 16.4-110.1 16.4-192C416 86 459 0 512 0s96 86 96 192s-43 192-96 192zm0-128c17.7 0 32-28.7 32-64s-14.3-64-32-64s-32 28.7-32 64s14.3 64 32 64zM128 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const ToiletPaper = createIcon("toilet-paper", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABsgAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SCdAsIAAE2AiQDCgQgBYMtB1QbmgXIhof/t+u/fW5V9wNUn8IIyKloHAnRz4ZKe00kx/XH/Tz/ORoNaPd84kOJaq+gYeb5F/jniyqLMpkpbmreywN83aHtCHmakt2rQnoifYr73P8Axq8G3EvSkAGIdgCsO3Jgl1O1qKX4tHyT+NROBMR6UAhkyDAswEqZwLBcgVwuqKWypBZlWRBAVLkHZqCKFjyIFwE5SKoqed7Z1QAYIw2epkpLfth9vfGcxqbGH478sOCNJW/Ne+3Qt3NfXRiPDUU8FXcNPtn7cP/j7hx4oufsx/oe6Xm4+9Heplx1hPHqmkUydtajfW8c+eHwIbaWeJPpDn4b8NZydD/c2Bwv9J4gH+uj+HB3U959/Cvtr/w+7tPzP1WuudJf0LrJTfY9//xddz3/vH067s4v7+KuoaG27EsoYjF3zGmt1VojzVqt29MGRZ6mbA+y5o77fqtsqW61bhfTmXbceFPrppZ1H131008drdqfvWTMyzC/HQgEz30UtTPaVv5f35TAj+//+S+5vrk8lc5Mr6BeAkE2s5zpZLpTs2KCVoDvSXG98VCON1Mgs835Zjd7VARDIxUkVY2QGdIOuUYzoGLUIsHC0QdkIm8Qup0GIWl2FWQWuw1y3d6AipU+8FV1R/aMip4w0R9i8s1NZBNdMW/23GJ5MZpQiB87gW5cUSzWT72eF0yDM53vCpe71nnOdZFrG6yr7Qpe5zKbp5ib/FBhntnmKixXbE7fnXzYea52jYtc4XJLZYXiePdU10+XnwZNic91vsWZjEiRdV97xUWXnnftrK9BPetxL+7tkb7ZAAA=");
 
 export default ToiletPaper;

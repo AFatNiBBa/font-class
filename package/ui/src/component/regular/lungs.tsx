@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lungs` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lungs?s=regular lungs}
  * @preview ![lungs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/lungs.svg)
  */
-const Lungs: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M344 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 142.8c0 18.1-8.7 35.1-23.5 45.6L256 224.2l0-39.5 0-8.7 0-10.7C256 127 225 96 186.7 96c-21.7 0-42.8 10.2-55.8 28.8c-15.4 22.1-44.3 65.4-71 116.9C33.4 292.6 7.5 354.2 .2 412c-.2 1.3-.2 2.6-.2 4l0 7c0 49.1 39.8 89 89 89c7.3 0 14.5-.9 21.6-2.7l72.7-18.2C226 480.5 256 442.1 256 398l0-75.5-48 34.3 0 41.2c0 22-15 41.2-36.4 46.6L98.9 462.8c-3.3 .8-6.6 1.2-9.9 1.2c-22.6 0-41-18.3-41-41l0-6c6.3-49.1 29-104.2 54.4-153.1c25.5-49 53.1-90.5 67.8-111.6c3.6-5.1 9.6-8.3 16.4-8.3c11.8 0 21.3 9.6 21.3 21.3l0 10.7 0 43.2 0 39.3-69.9 50c-10.8 7.7-13.3 22.7-5.6 33.5s22.7 13.3 33.5 5.6l42.1-30 48-34.3 44.4-31.7c7.4-5.3 13.9-11.4 19.6-18.2c5.6 6.8 12.2 12.9 19.6 18.2L384 283.2l48 34.3 42.1 30c10.8 7.7 25.8 5.2 33.5-5.6s5.2-25.8-5.6-33.5l-69.9-50 0-39.3 0-43.2 0-10.7c0-11.8 9.6-21.3 21.3-21.3c6.8 0 12.8 3.2 16.4 8.3c14.7 21.1 42.3 62.6 67.8 111.6C563 312.8 585.7 367.9 592 417l0 6c0 22.6-18.3 41-41 41c-3.4 0-6.7-.4-9.9-1.2l-72.7-18.2C447 439.3 432 420.1 432 398l0-41.2-48-34.3 0 75.5c0 44.1 30 82.5 72.7 93.1l72.7 18.2c7.1 1.8 14.3 2.7 21.6 2.7c49.1 0 89-39.8 89-89l0-7c0-1.3-.1-2.7-.2-4c-7.2-57.9-33.1-119.4-59.6-170.3c-26.8-51.5-55.6-94.8-71-116.9c-13-18.6-34-28.8-55.8-28.8C415 96 384 127 384 165.3l0 10.7 0 8.7 0 39.5-16.6-11.8c-14.7-10.5-23.4-27.5-23.4-45.6L344 24z" />
-    </Icon>
-);
+const Lungs = createIcon("lungs", false, "data:font/woff2;base64,d09GMgABAAAAAAOAAAoAAAAABsAAAAM2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDTQsGAAE2AiQDCAQgBYMtBywbyQXIPg1vTBN3V6oNg5QDJ+KFSt94kJnnTf3kYlpaduEch9JCT9nx9Zud/SQynRhTmYn0KjczDpxzFRoVYpE6oHqlH684woEe6PCfu//g6CyhFkaJhphRW5SndlsUZHm7V2RB0AQpesVsNkGImqI0JUgUKRse+N9vXkRfIkRIEP/pSNPTSYlOFIt4FN36PEXSVuLAITc/tIBTTCWzYAPOIhl0wQF0tMAhlzS/ScIZB8q5wQnlUVQgHko66+nw9e4YR3zbuMIMuwz2H/fz/J9/ynr8P/BXXAY3Z2Dm+QQGHOVtO5/uBjIbqI111s5u/uhNkj7xSZfN9sOmO4SD4QlY/aYBBmYT9IAV+aX0kTGXDK4DAICCBAAAzb2SsD5pi4FP/kd6IgIQgJoBQBIBDlbHEQB1HGRPYEkCFovgWez/6T+QEADIA32eAcACDvAYeAoAWAAMsvZ2QP1tv+D6DNtobxTaGKRJczZHhzMWZ9n4wbyjcfLImYwYtC08VL4ksj8X4iOJitVBM5m1YX1YS01uvUg79B2FJ+Zi7AbfI5II1ewVN2XWqk7SLfl14dWqUnKQt2T0Q1du8ZeEr8s+lH8sfls8y8QJ9WM9vA332L6so+OzwJWVX3o853DMYZ8dHIxCCGVwlVRaQYc/w6ie0LPrBd4jkMkbX/xS601up6Gi/dG4AU/chd+yuzSvqqyun4rg3ZZXaEoFnyt4aPv7dY3L29mf5OQrV6b2SMDuTSd8meP9FPbKsziSKZcvIUXf3mviytLezAPlnd1GS/m13ZHNd11gVvNqFuwOeVhLjBkcfnNq+Sc78uP4BbzJ5EuPsAIQgADBwvQfpLpLYAB48fbVu/+v0Ae6gPDCACBw8r4Nic8EBNMCAEmjqSzngwQYbhNo2o/1YEZ8oIPBAx9wiBUEFh9ywSVBuWlze28wst6IMEMBBj8mgEOFaWAJcwZc6jxIeBAWS4SzJRgtv8mcQYSX2aigKKkmaVnXrBFqkvnapO1geer7snEUs6uLl8lo7wX20KffzgoPzX2RoViBIklqJB23Hp0D8Ycna5rbzheplcSPZJnqj86G7YHGJfkABlOhcUf3exs=");
 
 export default Lungs;

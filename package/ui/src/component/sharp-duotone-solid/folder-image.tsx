@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-image` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-image?s=sharp-duotone-solid folder-image}
  * @preview ![folder-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/folder-image.svg)
  */
-const FolderImage: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l512 0 0-384L272 96 224 32 0 32zM96 376.5l6.1-6.8 64-72L184 277.5l17.9 20.2L219.1 317l57.3-81.2L296 208l19.6 27.8 96 136L416 378l0 7.6 0 8 0 24-24 0-120 0-24 0-48 0-24 0-56 0-24 0 0-24 0-8 0-9.1zM176 224a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M296 208l19.6 27.8 96 136L416 378l0 7.6 0 8 0 24-24 0-120 0-24 0-48 0-24 0-56 0-24 0 0-24 0-8 0-9.1 6.1-6.8 64-72L184 277.5l17.9 20.2L219.1 317l57.3-81.2L296 208z" />
-    </Icon>
-);
+const FolderImage = createIcon("folder-image", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABggAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCHQsIAAE2AiQDCgQgBYMtB1QbQwXIjpSukiM1lJaH/9+v133ufX8CQC+AQC7621RVxRVVhZpVSaQn/ieuef7W1B5F9mjf6wIpn3XqBAYY7YkvMqGZzsB2uW2miElo+9A46tC5QxE/5TvqSB/Tj3ge/Q9g/KqTOySNMoBoCYCZ61cv9aUa1RQ/1r4ifrQEATELlAIZGV0FmCILdFUoUSgE1VSjGrWSAKIiArNAhbhwDJcBBUhCLorezXq3aVLXrFjHDzTePXDQwLXRLiimcdMIYYdYH4NjoBaHc8LpFpE3amJWNN7YoW0HptPmN99ef6NtxJvGj9q/i5sd3jd53O6tXvUt63/v+eO+H/X/c3Lizvb7xmqooY46DuiooUbWmT5fG20kE1aY7NMXtJUb/qK6fcM61GRvxWQPVC3/0PwBD5qXdUIJxGtXHp/5dnuLKf83bJLAz1//+Qv/O6pVk1SPhhII8pDaEFsSSAQAIMU5vRI7EMhmy6JPbeqdAKExAiQVjQXIumgpQKGxwQLU6W6sABWNrZZF0Uhoa2vPJk2dZLNxrrKFtj6zdab4pljRNjLcGVBjfPblmTcwd1M5ctiIclK5WdeaoKTZ+cnl6ciAc/oG4pv2Oe6YM/ba46Az4acsrZx11Lw9bK4vKo00zAilScrbreeX19nrlNMOOu6YX2ey8v3CAOf2Rw/E8SRRHeVQlokUue2+MG/+uBMYCsKD7Rfs4AoAAAA=");
 
 export default FolderImage;

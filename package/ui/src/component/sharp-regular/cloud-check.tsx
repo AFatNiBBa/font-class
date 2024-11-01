@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-check?s=sharp-regular cloud-check}
  * @preview ![cloud-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cloud-check.svg)
  */
-const CloudCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 336c0-62.7 40.1-116 96-135.8l0-8.2c0-88.4 71.6-160 160-160c47.9 0 90.8 21 120.1 54.3C388.7 82.2 402.1 80 416 80c70.7 0 128 57.3 128 128l0 20c55.2 14.2 96 64.3 96 124l0 80 0 48-48 0-80 0-368 0-96 0L0 480l0-48 0-96zm592 16c0-37.2-25.4-68.6-60-77.5l-36-9.3 0-37.2 0-20c0-44.2-35.8-80-80-80c-8.8 0-17.1 1.4-24.9 3.9L361 141.8 340.1 118C319.5 94.6 289.5 80 256 80c-61.9 0-112 50.1-112 112l0 8.2 0 33.9-32 11.3C74.6 258.7 48 294.3 48 336l0 96 96 0 368 0 80 0 0-80zM433 241L305 369l-17 17-17-17-64-64-17-17L224 254.1l17 17 47 47L399 207l17-17L449.9 224l-17 17z" />
-    </Icon>
-);
+const CloudCheck = createIcon("cloud-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABewAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCHwsGAAE2AiQDCAQgBYMtBzIbIQXIhuB5u76vc7vnLaBemxkUrT+FjEqt+Z9r6sXzowP8fASHFk2lB1LPs5fPJzCxtTVNNHE2UdzeNNEiZXStmWiSjq8dX19HyOOfOK9EuiK9jXP1Q+MbTZwgKWUAojYARi+cO93zX8aXEW+VHyHeMhUBMRoUAhkyNBdgmEyguVyBXC74Msrl+B9YEEBUoIdNIEcJu3EQkIMky/N23ZpUK9XIF1QrVY3rekbcNzDig5HPLXxv9G3VXhn+TGvxSPd7WghRtWZEbL+yacSdHQZERMS1Xe4ccLJ+u+gS9054uNPtzYVoFzczwletRiyYt3Bep4k8p/lHRucYHgujK75BpzZ31r7zu9Zvb3jbrloXcdF9lcXYt98eG5PjnfYNZo3tV6rvyhvO15ill16zelk1s1a1X8kvHay9+mLB+to1HvrIRL/2+vGH/2tV1sbf3qzUqFhl1fOzrt1xmA5CGXXwvR07+t0gENT79J6PV9Ya9lvlagl8/eQPP6Tblb9MR9KdqCyBIOtW7mZZOgKBGoCT4oA2xhcFks0ydKi6SwUIVRFIKlSFTDO1IVdVVyhpqf/hClXNlYm8ilDfcoGkut2QGeAg5Op7CEqGec2uUD8yv+O8hnv2JU/Q+PhlRe8evYohxTTDvCsxeX5osax1OoCdzrDRBjvtsM9662y2T5F7TPf2226CRYz3Q4XeeuilMESxXT6uXmC9PfbabKcdZZGhivNWJwfs0Z3BTIi2j1iSiFTtA0K1+wUGAAA=");
 
 export default CloudCheck;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-medical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-medical?s=thin head-side-medical}
  * @preview ![head-side-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/head-side-medical.svg)
  */
-const HeadSideMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 222.9C16 108.6 108.6 16 222.9 16l16.8 0c71.6 0 137.5 43.3 166.4 105c3.5 7.4 6.9 15.1 10.4 22.9c6.4 14.3 12.9 28.9 20.1 42.7c11.3 21.6 24.8 42.2 43.5 58.9l3.8 3.4c7.7 6.9 12.1 16.7 12.1 27c0 20-16.2 36.2-36.2 36.2L440 312c-4.4 0-8 3.6-8 8l0 72c0 22.1-17.9 40-40 40l-80 0c-4.4 0-8 3.6-8 8l0 64c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 72 0c30.9 0 56-25.1 56-56l0-64 11.8 0c28.8 0 52.2-23.4 52.2-52.2c0-14.9-6.4-29.1-17.5-39l-3.8-3.4c-16.7-14.9-29.2-33.6-40-54.4c-7-13.4-13.1-27.1-19.3-41c-3.5-7.9-7.1-15.9-10.8-23.9C389.1 46.9 317.6 0 239.7 0L222.9 0C99.8 0 0 99.8 0 222.9c0 52.8 16.9 101.5 47.4 139.9C57.5 375.5 64 390.2 64 405.3L64 504c0 4.4 3.6 8 8 8s8-3.6 8-8l0-98.7c0-19.8-8.5-37.8-20.1-52.4C31.8 317.5 16 272.3 16 222.9zM216 120c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 56c0 4.4 3.6 8 8 8l56 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-56 0c-4.4 0-8 3.6-8 8l0 56c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-56c0-4.4-3.6-8-8-8l-56 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8l56 0c4.4 0 8-3.6 8-8l0-56zm8-24c-13.3 0-24 10.7-24 24l0 48-48 0c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l48 0 0 48c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-48 48 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-48 0 0-48c0-13.3-10.7-24-24-24l-32 0z" />
-    </Icon>
-);
+const HeadSideMedical = createIcon("head-side-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABswAAALDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDUAsGAAE2AiQDCAQgBYMtBzgb2AXIrgp4Mt7QAQ8YClXicC0f1RubGB4cEQ//r/tf+9zkZUEeLsFVxitR7cC7mc5EW5OWjzC8lcaWBdwJTnjhQ+Tt3gYFs1n/KAhIQhRS1ZvQOMYRTTIoLcN2vg0bcImGA/JgNpzvhG4Dp+M9Ho3uIR7K7R7Nz+VR/2ECAZ/ncQlFBZbJFbDMrTEH+vAz8HGIidRaq8dv0ePVGfJ41lEjPZrew9140PhVRzeQZBmAaAGAGetWLfHST/JTxHsNRrxnEQJiJqgEMmToIsBkmUAXuQq5XPBTNPz8H6gIIArymhLIUcO7+AyQgyTL80PDW73WNF9br5XrvlwV8em6erw+IUMebHtN2wfj0Y5PDmgbD7ptHijLeKCN6Lq65+H2EfU43f7hzrjo2r7t4lynxzrdFg+1e2riO3PLeG3+W8NVfT7jUc3pxwa+snZd9dW3Ps1G8oE2N5qkX/NFs2Fa9OSIzic6iDIK8WifehCnO0fgj/Ut4856nmtx7vds73ua/xTrzuKxddLS8nefa58suOHEu8szLZqfezS3sb2Yr+U/X5bbXkxXbN9ejDff8Qv8dE0s//0H2775KDf+2cWiRdc9vZY+GoyPX4mWf/OP2/M6rWva55R+c2+xvcKtAxiPVIuMt1d+xYq2w3CsVm1nOMPnVqzXg0Bw4ZXbmk/+P1QCvzxj8K+ooUY6h0YSCLLBDZ3NCSQCAJDicj0TAsmrMnKrTTwkQCgRICmUAmQ6ayFArjRIgJpuxghQKK2Sibyx0MaWISZNXCRmxrpSzLXxtFgz2ZvZQpvIAtoOR/t3Mt/cGZqzqppDh1cTq8OK7opRs05OqsyxdnnpGEAn7HXMUZfaY7cD0CfsYksKlzlirobO8USVEYYarjJR5a6/+tYye7FLHIgc9S8zSfV8qr/L9f4DKJmI5kiOJBGpZdT7h7zyoSEfOAAAAA==");
 
 export default HeadSideMedical;

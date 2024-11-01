@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `anchor-circle-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-circle-check?s=regular anchor-circle-check}
  * @preview ![anchor-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/anchor-circle-check.svg)
  */
-const AnchorCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 80a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM288 0c-44.2 0-80 35.8-80 80c0 35.9 23.7 66.3 56.3 76.4c-.2 1.2-.3 2.4-.3 3.6l0 32-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0 0 224-24 0c-73.7 0-133.7-58.6-135.9-131.8l16.3 14c10.1 8.6 25.2 7.5 33.8-2.6s7.5-25.2-2.6-33.8l-56-48c-9-7.7-22.3-7.7-31.2 0l-56 48c-10.1 8.6-11.2 23.8-2.6 33.8s23.8 11.2 33.8 2.6L56 332.1C58.2 431.8 139.8 512 240 512l48 0 48 0c17.2 0 33.9-2.4 49.7-6.8c-14.7-11.8-27.4-25.9-37.6-41.7c-4 .4-8 .5-12.1 .5l-24 0 0-224 48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-32c0-1.2-.1-2.4-.3-3.6C344.3 146.3 368 115.9 368 80c0-44.2-35.8-80-80-80zM640 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-76.7-43.3c6.2 6.2 6.2 16.4 0 22.6l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L480 385.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0z" />
-    </Icon>
-);
+const AnchorCircleCheck = createIcon("anchor-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABngAAAKUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCeAsGAAE2AiQDCAQgBYMtBzobggXIBp7/+rPuq+D0/LRRLWkErgBwr6WViWvyV1MM5IN8KJ06kEju5N0EBhhtkTR+kN1AZhPF+e18b0GJbjFIl3IdGbZj2H7/CszyRxZhAbVa3QMWlreSN/gxDRQWEwAA4goAAJS2a9XIpRfyQuSu/TjIXeoBAZBSADQCmOAOZDoo4FoBAjGjATNmBF6I3Z7/AzUIAIgVIhXPmQErsAHYBQCYAVCYSQOPNgEeNouTua3NYvSb5CmyzJjjvUIm+6y0zfVaTttjMSK7Aif5rY6cBGLINt9G2uSZG0UXwrxku89a76aywrNBlvktj/aR5y0et7GtqaL3+M8xjFyxyc6ANVEAJmuwVjbE7cnqMzlJ5EDeGWNOzqmEfUxK3J972jY3/2zyQWm73LO1LPMukhU+K71ipZXUI8L2uO55F3qv7z2KhznPglnOrsx/Qkgz1z7QVgK+vp6plCaFFl5eLVJ4gS+TWreJ/kfg/8sfJvLnz0Q+XP4f+A9TQ2hag6Sk+I9t8d1q9eWF/imNUjNffw2Qtn1cuw2L1qA93KOi3D20jmZlfl5D3Jo11dXs3j2OaIi6u9zldQAQQOD1xvo73VwKvjnYFACvznz4Hp60/7JfUpPUHsABBYCAKcGeQGc1ScBhAgLFlYwlDF8kgGIFZuB0BCRJwYAuKawYkokAXCUzBvGShWAyTcrNrTAh5iYInnSBpHBkhGQii/GSGU+OShYKuBmz4ikmI7WYmOUTMWcVhypn6dSkFJ2np2XNanemNJ6v1cGYsaEtFgfpyzCGMpo+9GYAoxk/ksbkGIZQJXGV/BBNKkmkoMlDb9ced7elDyMZxQCGMTRPk48+H41hrNw7FhEF6U0jT6FAlMfz8Sb+zuNOvPAAAA==");
 
 export default AnchorCircleCheck;

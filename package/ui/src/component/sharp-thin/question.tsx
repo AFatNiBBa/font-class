@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `question` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/question?s=sharp-thin question}
  * @preview ![question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/question.svg)
  */
-const Question: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M32 152C32 94.6 78.6 48 136 48l48 0c57.4 0 104 46.6 104 104l0 6.3c0 28.6-13.9 55.4-37.3 71.9l-95.4 67.3-3.4 2.4 0 4.1 0 64 0 8 16 0 0-8 0-59.9 92-64.9c27.6-19.5 44-51.2 44-85l0-6.3c0-66.3-53.7-120-120-120l-48 0C69.7 32 16 85.7 16 152l0 8 16 0 0-8zM176 432l-32 0 0 32 32 0 0-32z" />
-    </Icon>
-);
+const Question = createIcon("question", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABXwAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBRQsGAAE2AiQDCAQgBYMtBy8bxATIhiCymVXPrnRAMvGaGTNnzp0RZvCAGGQAHGvq1POchwL4RkEbm9ak2ALd4zwCEUvaar1aXlawmlbAar+T7w0+JboN6eWXZBhv2Fwhj832KJGupk9wMX1o/KqTCyRZBiAqAJi5fvVSb3wVX0V8XH2W+NhiBMRMUAhkyNBVgCkyga5yBXK54KuoVu1/YEEAUYaHSiBHjvlYBshBkvJ8XF1DqSlf11Cq33x7cMTD8Q3x7MD73cSNCWuibQghGgIX18fLvSPuTXttXn28M+WVYuZurG+oL/fs9aDy4Peen+z7RI/+DZ/y2RMjPPHZpw1ljZO2z9ZTboZaFbWm2DzD43lZatWqGKHwfBoaFzsU4JibQSD4YcGvo7e3TPm/tiGBb17689f8M6pU/4pR6QFqJRBkQ6pDbIlzKioxSgAAUpzTK2aoCCTTJXjXRpcECPUIkJTVC5DpoiJArt5gAUq6GytAWb3VMpHXCW1tbSBpdBJkxjkPcm09DUqmeN8raxsZlQgiED+52HkamrtVjBw2ophULBOVZAcWlpOLY2HAOdcYKCftc9wxZ+y1x0FnFHLK0vCso+bt4Lm+qDDSMCMUJimu8/v9dfY65bSDjjsW10xWvHcGOLfvHyhyAtRRIkkiUi3XAAA=");
 
 export default Question;

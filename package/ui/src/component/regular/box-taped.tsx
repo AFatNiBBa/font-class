@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-taped` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-taped?s=regular box-taped}
  * @preview ![box-taped](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/box-taped.svg)
  */
-const BoxTaped: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M261.3 80l81.1 0c6.3 0 12.1 3.7 14.6 9.5L388.4 160 288 160 261.3 80zm-74.7 0L160 160 59.6 160 91 89.5c2.6-5.8 8.3-9.5 14.6-9.5l81.1 0zM160 208l0 48c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-48 112 0 0 208c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16l0-208 112 0zM400.9 70c-10.3-23.1-33.2-38-58.5-38L105.6 32C80.3 32 57.4 46.9 47.1 70L5.5 163.6c-3.6 8.2-5.5 17-5.5 26L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-226.4c0-9-1.9-17.8-5.5-26L400.9 70z" />
-    </Icon>
-);
+const BoxTaped = createIcon("box-taped", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbAAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBbgsGAAE2AiQDCAQgBYMtBzAb7gTIhocPndn7suxJpDAoQEDH3DFV2x1gUXq2PYLyPP83e97zKMDPEYQ2pi0NZEygOZ8nEPBYftPODiihQO1YT93mgjzIZcUgcgSPiKEdQ/MGaTwfjyiTPJt8h4frqeJn7d0kUS4BiGYAmLZmxSJ11ahGfFv7mPjWAgTENFAIlDDeSYCJSsLeIFUglQqqUavpf2BBAFHBX5aAFBWswS5AChJpmuZ55055uXG6Oi9ne/Isv7/1qshidbZyzcos1sTTeb5SuNr6yTyP+9s+HRF5iCdaNYqn2kTka94ZncVHA1fGE8Sz/V7v1TheHfBmx4hrbVZ3f6PZG792+273d9Ijy5Yty8d1mWWnDkvmd1iShZ2sbV62rMOVoXQ1uXu3yVTtM0Md9ZMm1amqTX5y9I97La/94lrLvptsaFIva978laleSV/L6jVZ0G8TEAiW1H/w/5amE/9tkCeg/ovf/5P31apRl7yBBhIQlAbWBtoYdQB0AGoSp3V3LhZILJECz9rIUwKEDAESFZkAJR01EyCVGSBAWRejBKjIrFASaUOhlU0DJBo5BkpGuwRSrXwIyib6Uq1oFaX4IqOD/N3FzbbQrKFi2OChxfhi6elUyOClO6HYFvqelkw/HNrtiMNO2mWnfU4a5LhFximHzPbgWS5UGGawoQrjFcfh8/Zquxx3wj5HHNY+ExT3lb5O++X9ICeIOdxoIiGShtuPnB30wvmdAAA=");
 
 export default BoxTaped;

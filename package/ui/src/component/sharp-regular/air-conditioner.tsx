@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `air-conditioner` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/air-conditioner?s=sharp-regular air-conditioner}
  * @preview ![air-conditioner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/air-conditioner.svg)
  */
-const AirConditioner: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 48l0 160 480 0 0-160L48 48zM0 0L48 0 528 0l48 0 0 48 0 160 0 48-48 0L48 256 0 256l0-48L0 48 0 0zM120 128l336 0 24 0 0 48-24 0-336 0-24 0 0-48 24 0zM368 288l0 104c0 22.1 17.9 40 40 40s40-17.9 40-40c0-14.8-8-27.7-20-34.7l24.1-41.5C478.3 331 496 359.4 496 392c0 48.6-39.4 88-88 88s-88-39.4-88-88l0-104 48 0zM208 424l0-136 48 0 0 136c0 48.6-39.4 88-88 88s-88-39.4-88-88c0-32.6 17.7-61 43.9-76.2L148 389.3c-12 7-20 19.9-20 34.7c0 22.1 17.9 40 40 40s40-17.9 40-40z" />
-    </Icon>
-);
+const AirConditioner = createIcon("air-conditioner", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABeQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCCgsGAAE2AiQDCAQgBYMtBzYbEAXIhof/15Xe96VZ0qwRZWIZkYMAJVDlLlh0QC1WOeky839NvXh+dICfj+DQroeRRUmZzycwwFkHzfa8LNImijO3ESsziHhtyAtOEUNbqGJwCXn8EI+pkZ5P3+NRudL4Q293kdQyANEJAAu3b17ryq/xa8R3jU+I76xGQCwEpUCGDP0EmCMT6CdXIpcLfo1Gg/8DSwKIJjiaBHI04wTOA3KQ1PK8tXPRf0BRa8+3FbW23UJ7RNTnFW0dhRBtHQLmre319gKqH6jYKtzW/eniwZ7PxgvDJ8QXg14a+d6UT0d/MCCi2BKiCNGGvTl7XLzVa7b94A86ffDXoO+PfW/Co69h8K9e82ujqhZUXlOpOknctbdu2HCi0iuq/nv1BKbp/OWHnTt/+GXnpjHXea5Lft99CxZQaH5C9eq995Gjcp8+rMtz1xnTtLo/EAgO/d/Wa3/HOf+2FAn8/uU//8juGlfSgvQBWiQQZGMbY+1JC4CJAXhTXGOw8kWB5IAaXGrdMwKENgRImrQJkOmrkwC5NmMEqBlgqgBN2myWibxV6GZvBkndRZCZ5maQ6+YjUDPHV54m3SKzNsZWmLteomU1urRVOXF8Vc4qhwmJNSDKN84ul8Ujr3EFo6inY8475ypHHXHSVRV+yVr/1c5apmFL/VBpovEqpVnK7fR9522OuuSyk847F5qZrTyvH+kavfwokiUgneSpJBGp48GTl8a9QWB/HQAA");
 
 export default AirConditioner;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `planet-ringed` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/planet-ringed?s=sharp-thin planet-ringed}
  * @preview ![planet-ringed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/planet-ringed.svg)
  */
-const PlanetRinged: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M183.6 433.9c39.7-26.7 85.4-63.4 136.1-114.2s87.5-96.4 114.2-136.1C443 205.9 448 230.4 448 256c0 106-86 192-192 192c-25.6 0-50.1-5-72.4-14.1zm-32.5 1.8c-24.8 15.1-46.7 25.8-65.4 33.4c-25.8 10.5-45.5 15.2-58.5 17.3c-.6 .1-1.3 .2-1.9 .3c.1-.6 .2-1.2 .3-1.9c2-13 6.7-32.7 17.3-58.5c4.2-10.3 9.4-21.6 15.6-33.8c-3.5-5.1-6.8-10.3-9.9-15.5C5 457.9 8.1 503.9 8.1 503.9s58.4 4 159.4-59.6C194.4 456.9 224.4 464 256 464c114.9 0 208-93.1 208-208c0-31.6-7.1-61.6-19.7-88.5C507.9 66.5 503.9 8.1 503.9 8.1s-46-3.1-126.9 40.5c5.3 3.1 10.5 6.4 15.5 9.9c12.2-6.3 23.5-11.4 33.8-15.6c25.8-10.5 45.5-15.2 58.5-17.3c.6-.1 1.3-.2 1.9-.3c-.1 .6-.2 1.2-.3 1.9c-2 13-6.7 32.7-17.3 58.5c-7.6 18.7-18.4 40.6-33.4 65.4C399.6 89.4 332.6 48 256 48C141.1 48 48 141.1 48 256c0 76.6 41.4 143.6 103.1 179.7zm15.5-9.7C105.6 393.8 64 329.7 64 256C64 150 150 64 256 64c73.7 0 137.8 41.6 169.9 102.6c-26.4 40.6-64 88.2-117.6 141.8S207.2 399.6 166.6 425.9z" />
-    </Icon>
-);
+const PlanetRinged = createIcon("planet-ringed", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABhgAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCIQsGAAE2AiQDCAQgBYMtBzQbJQXIjsM4RnwXD2UKIsirqpPMAszKPJD6Ui+hEID+//t5/GPSB7xGHy2SUh/Ij7ZcFqbAgKN8PvGd4WxiA5qAz9rZSwyi2yR9yhOG8Q2TyR1ocoKOGEBZptwE5qQXlQ+4MhEUVBUAALEBAABymtRVcPapPBW58f8QyA3KAAGQHAB0BFABFfBAAEhHRQAPNHRAQ0Pgqfz/7/4DdRAAECPw1AoAGmAA+gDjAAANAAVV0yyL7M0NllqjucGsyZ0mT/JW8bD6bv30xPij/gf9xzmMMxvnvMJ7iftip70eK83HyaKkI02OmT+pe9BkXOQT7zVO4+IPFi9y3OJ8JGic8zjzsQ5LPZaG7049Xrhh37qIXSnOxyNFdvsO/6pLKcciztY/LPfdbrP9k8/Nzjc5Yrm5vLS0vPvdIKlpaKiRIEspON47BhDB/nXr+Y1JfxaQKVPKIwZEN5Ht26VJdFJE+dChNqJpdwYMcn1lMzvqT394P3dAN91dsz/fnoCdxmdjfa+fmN2yCvglHhFA4PLmXcVtrNO/MlcAeH78y4f8JYz/X5ZfynbABAUAATX8fzgtFTDGSH4hwFFkML7COyGAQhdUgCxYvJoVzADxBkZMcKDijg1omBEGBrxI4CbjdaiIZtogB1oZULCgH6gkMgo0HDgABtK54hjhIKriCWojvPtSCzlWsEuPiYzWU/VuQxF1iQuLafq0ETzYD4TQTTrTh94MpBMd6cZAxvSnwh9ELwoluoAPohNDJNHopKIvt28vN9KJ/gygG33oHbdJQz+Pghksjw8hWwGsseQUFBDF8pIsD4zo/xWJ1hEAAAA=");
 
 export default PlanetRinged;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `closed-captioning-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/closed-captioning-slash?s=sharp-light closed-captioning-slash}
  * @preview ![closed-captioning-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/closed-captioning-slash.svg)
  */
-const ClosedCaptioningSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M40.4 18L27.8 8.1 8.1 33.4l12.6 9.8L599.8 494.3l12.6 9.8 19.7-25.2L619.5 469 40.4 18zM608 401.8L608 64l0-32-32 0L139.6 32l40.5 32L576 64l0 312.6 32 25.3zM373.5 216.7c11.7-15 30-24.7 50.5-24.7c21.9 0 41.2 11 52.8 27.8l26.4-18.1C485.8 176.5 456.9 160 424 160c-30.7 0-58.1 14.4-75.6 36.9l25.1 19.8zM64 135.4L32 110.2 32 448l0 32 32 0 436.4 0-40.5-32L64 448l0-312.6zM275.8 302.7C264.4 313.4 248.9 320 232 320c-35.3 0-64-28.7-64-64c0-11.6 3.1-22.4 8.4-31.8l-25.3-20C141.6 219.2 136 236.9 136 256c0 53 43 96 96 96c27.2 0 51.7-11.3 69.1-29.4l-25.3-20z" />
-    </Icon>
-);
+const ClosedCaptioningSlash = createIcon("closed-captioning-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdgAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBawsGAAE2AiQDCAQgBYMtBz4b+QTIHoVx41MumnCJQlxbjbK943n6e/Pc99+mdeueUK0gpXIAYxGLNYHYUnA5FpA/0VhA1n9+f3XuxwJ8MwswyWxQdAPdtrnkbUZNps//5Z7f86MD/EaHtjcdyJi8mot7CQQa9bIxMbC2hVmi2O7cStRE+yQtNUmOz45PDnuo+SZ7iJQP7hq85A/NH309QFEbAGQKAHD2kBiN05ba5Lp/APkWCQI5B7CC0KDBAgKHeMECwQqoqtCm/+//AxkEyAD40gVUDOIBPAKooOhUQV1VSVVLUVQWUmiBQqaOto41aVO9uzk70qGGep7jiRSUfEiZOLJJWbM6sLGjzZCuvU2BrY0tR8iosi8pEZ88b75ou2rQqWtLw5iwWfE4srOVrqqt3kquS65ZfZ7wGt64ENBzAm8nCOzttCfAOQys264XPj4e6z6o2Q7hSPK4yyP+A+wE2pV+lkwHp9XVFTRau3GzKLe62jG41g1AEIb/H6xzVf1f5RQ5wO/X/WM5X65/Xp65VcCQAkKz9m8vq3RAzhBNAWGvpAVS/KKguCDCdx3zCgIxgoBiwIiAxjw1BKoRqwh0LPFAYMCIG7xUecSc7AaKMU+gsa0VVHP2QMehM3fAXHjrImyDuNzFhkgoeB5zcXRmvkytqKTBYHHSj02r1i2hwwZXokStGk2KFSnXJJAG0UGzaiEjONgPMS4cOWN8seX6/fIUxRo0KlerJs3ih+13rLWM+9ugwWHUdZmikKJ7lkWHtyzkpxMph8aq/MYy");
 
 export default ClosedCaptioningSlash;

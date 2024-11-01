@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-xmark` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-xmark?s=sharp-regular cloud-xmark}
  * @preview ![cloud-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cloud-xmark.svg)
  */
-const CloudXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 336c0-62.7 40.1-116 96-135.8l0-8.2c0-88.4 71.6-160 160-160c47.9 0 90.8 21 120.1 54.3C388.7 82.2 402.1 80 416 80c70.7 0 128 57.3 128 128l0 20c55.2 14.2 96 64.3 96 124l0 80 0 48-48 0-80 0-368 0-96 0L0 480l0-48 0-96zm592 16c0-37.2-25.4-68.6-60-77.5l-36-9.3 0-37.2 0-20c0-44.2-35.8-80-80-80c-8.8 0-17.1 1.4-24.9 3.9L361 141.8 340.1 118C319.5 94.6 289.5 80 256 80c-61.9 0-112 50.1-112 112l0 8.2 0 33.9-32 11.3C74.6 258.7 48 294.3 48 336l0 96 96 0 368 0 80 0 0-80zM417.9 224l-17 17-47 47 47 47 17 17L384 385.9l-17-17-47-47-47 47-17 17L222.1 352l17-17 47-47-47-47-17-17L256 190.1l17 17 47 47 47-47 17-17L417.9 224z" />
-    </Icon>
-);
+const CloudXmark = createIcon("cloud-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCOwsGAAE2AiQDCAQgBYMtBzIbPQXIhgg+76nql/wBmAG1MHxb30BNnaoZ59mAzyEI2li4NCALcK/zCESsVxyTKrTOa0UuOFW3yTzsCMNXQoIkouPL4+vrCHX+zjlalEvLGzi7PVS+1t8JFK0KQLoBYNnG66/pmQ/yQfL6/w+S162OQJaBRlDBGMQRLDw2GKTWoFYLH+T//+U/sCFA2tC3LaBGC8fiVEANiqquR04c17HVud6oY6tDrp6S3D0neXfJ0xu/vezmji8uenKYPDjpzsEiHbok2fOyAclto2cnSa4af9vs03qNzPjctdIDY28ZJDIyNxhkh46ds9HYCWMXZlHGZWHGZzHBY4kJWQKPJ8ZlETThhzb8tm63fTvsjZ3esE/X8zn/7nay/BtvLJ9V8+ao3ussP7PVy2XXntN5HVNNXWeqbdbu2vEX6ovmGaWXbLRjt873v29lv0z94fv/urYz3F9ea9u32cY2z6xz59H4znfojnsRhHU/+/Gdrbsu/LVdxwI+euz77/HN/39Qjim3oZ0CQjXx/4m2KMcAsQO4JQcZHnxQUByqoo/ayUUCogMCijY6CKgM1E1ArYMJAlqGmCWgjQ7WV0ndXvSyZQdFJ/uCymxHglov94OWhV522uiVKgvFHBIfgWkreXTFtWba5KnN/GYaMymx+Dpf0CzrYw8qtXHYaid728sBdrSDXR3gmP2s6R9oTytF2Iq+qDHNZFM15mu2s8fNG9nRfva3q73tJUsWaM7bYx0Ud4+DVSjndIGikNLxO0Jj0iE3FgAAAA==");
 
 export default CloudXmark;

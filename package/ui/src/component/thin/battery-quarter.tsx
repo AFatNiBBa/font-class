@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `battery-quarter` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-quarter?s=thin battery-quarter}
  * @preview ![battery-quarter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/battery-quarter.svg)
  */
-const BatteryQuarter: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M448 112c35.3 0 64 28.7 64 64l0 16 0 16 0 96 0 16 0 16c0 35.3-28.7 64-64 64L80 400c-35.3 0-64-28.7-64-64l0-160c0-35.3 28.7-64 64-64l368 0zm80 224l0-16 16 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-16 0 0-16c0-44.2-35.8-80-80-80L80 96C35.8 96 0 131.8 0 176L0 336c0 44.2 35.8 80 80 80l368 0c44.2 0 80-35.8 80-80zm0-32l0-96 16 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-16 0zM112 176l32 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32zM64 208l0 96c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-32 0c-26.5 0-48 21.5-48 48z" />
-    </Icon>
-);
+const BatteryQuarter = createIcon("battery-quarter", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABlAAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCYwsGAAE2AiQDCAQgBYMtBzYbaQXIjsQ4JvGLKEzi4f91mfd9yaQxyEuoZYa4CxGXxF24qIDanJSpp0OI3vX9z+We3/OjBbLsCA5tNcb82BrreQIBpuGYFlCWhVlAiXGD8yYfcIjOP0EevzqugfRs+hkPuzeNf/V1B0mWAYgSAEt2bdvg27/ir4if6x8RP1uHgFgKKoEMGQYIMF8mMECuQi4X/BX1OvsPrAggGvnPTCBHE57E84AcJA15PnRsW79+tYa2fGetoTj15piId/sK+qBnRr8zvDXeGvtev4jnx70/qm1HiFrc3/vpiLi111NFEREvjcHM1vhw3pYB4sUx785oi0+AdXCQvZ7sKZ7oURytFbX7ez5J3NLjiRWq+9YJq0t6P12bLTw7CCNq8XYD+kc8B2FkEW8sOLzP0PfK9/7j55M/+2bTK510FqXSYQm76Ox85bJXbMUrlXvTn6Wfpf2ee9oXJ8ICMnaeKMnyxM5oqTKrw4cPl/6yob/Kl2+ufGGp5bBkpVKp60sg++W3yV1y8m+/ZC3V74BA8Pot33moY/7/zbUE/vm8szvT4vQemiUQZOPr4+1Pi4FxA4im6DJ04oMCyYMa+K/a6ikBQoEASaNCgEx/pQC5wjgBGgwyQ4BGhW0ykbcIPRyoqKTVFSoz041UrocPqAbzfRdp1COyM1M6r6Qfw9Qrm8iKTdWUiZOrudVoSyGfbIJenVctNo/u4iNj4E4nXXLRdSccd8b1BnbVhvgNLlg5ha7wRZUpJpqsMle1uXsXdjohUV9rCsOK7evMUx3vH61revoYaEt83qnqkkSkju+AfsI1CQA=");
 
 export default BatteryQuarter;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chalkboard-user` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chalkboard-user?s=sharp-thin chalkboard-user}
  * @preview ![chalkboard-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chalkboard-user.svg)
  */
-const ChalkboardUser: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M624 16L176 16l0 81c-5.2-.7-10.6-1-16-1l0-80 0-16 16 0L624 0l16 0 0 16 0 384 0 16-16 0-80 0-8 0-144 0-8 0-59.4 0-4.8-16 64.2 0 0-72 0-8 8 0 144 0 8 0 0 8 0 72 80 0 0-384zM528 400l0-64-128 0 0 64 128 0zM240 224A80 80 0 1 0 80 224a80 80 0 1 0 160 0zM64 224a96 96 0 1 1 192 0A96 96 0 1 1 64 224zM21.5 496l277 0L260.1 368 59.9 368 21.5 496zM48 352l224 0 43.2 144 4.8 16-16.7 0L16.7 512 0 512l4.8-16L48 352z" />
-    </Icon>
-);
+const ChalkboardUser = createIcon("chalkboard-user", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABgQAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCLAsGAAE2AiQDCAQgBYMtBzYbMgXIjtRGecSPxMP3a/We+7pnarbhI/ZHpiC51HZSUewAywO7KEQhN7Govgp9uqlKSNg02BTJ5n/+/F9TL8qODvDzERxaNEUuQOr5LPP5BIbDaIumgbYNbDpBm++2njGZQZE1FRn+EDG0F+ql20Mef7uuQ3opfY/n0ofGb8Z6giTLAMQQAGw5deyAjwdiIOK7/4f4zj4ExBbQCGTIMEGA9TKBCXINcrlgIP7/X/4DGwKILn2uBHL08AgeB+Qg6eb5rL56fF9ddur8ZNkpHqzqSjxfRESUtUghimpUlNFBpaZZ2ekRFW7p6utr7+qdoGvOujcZHxsP8cqsLJ+a4WNZO4amW/HkzBgncbqu6pNRxPFTZVGeiJFRVKPj1NQ3htQfU76/5Xv3vvsxjz/ivt5hQwz5eYg2rzfvkM126+m92LPbYe2l/s00vbVZO7mrWx9++NYqLntv3OeL83eNHXvX+S++GGeyJJgzeCQPmdnvazP6xz43oJlzn3PI0EWHlOtBIPj35i/tpcHrb/bKBH796K/fuIv//zi16Q30JBBk8/+f73xqQdgB/KQUj5iaWgSSe3Txu1aeFyAUCJB0FQJkxhsiQK4wT4COSVYI0FU4JhN5nzDChQaSyv0gs9KjIDfCh6Bjva8SXSMig58IHvHjL22nRXf0a5YsXNysbZZZVUIUH7rXNcfm7Ed81Rxa6Rb3usdDbrjudg8Z5gEH0g+7284dvcMXNZZYaLHGWs114V47yYkHPOj2uXLfyzrN+/hsj+wbzyEnUc6lBiSJSIP/vGncCU59AXABAA==");
 
 export default ChalkboardUser;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wheat-awn-circle-exclamation` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheat-awn-circle-exclamation?s=sharp-solid wheat-awn-circle-exclamation}
  * @preview ![wheat-awn-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/wheat-awn-circle-exclamation.svg)
  */
-const WheatAwnCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M489 57l17-17L472 6.1 455 23 383 95l-17 17L400 145.9l17-17 72-72zM316.8 38.6L294.1 16 271.5 38.6c-37.5 37.5-37.5 98.3 0 135.8l10.4 10.4-30.5 30.5c-3.4-27.3-15.5-53.8-36.5-74.8l-22.6-22.6-22.6 22.6c-37.5 37.5-37.5 98.3 0 135.8l10.4 10.4-30.5 30.5c-3.4-27.3-15.5-53.8-36.5-74.8L90.5 219.6 67.9 242.3c-37.5 37.5-37.5 98.3 0 135.8l10.4 10.4L25.4 441.4 2.7 464 48 509.3l22.6-22.6 52.9-52.9 12.2 12.2c37.5 37.5 98.3 37.5 135.8 0l22.6-22.6-22.6-22.6c-21.8-21.8-49.6-34.1-78.1-36.9l31.9-31.9 12.2 12.2c22.5 22.5 53.3 31.5 82.5 27c0-1 0-2.1 0-3.1c0-33.1 9.1-64.1 25-90.5c-15.5-8.7-32.5-13.8-49.8-15.5l31.9-31.9 12.2 12.2c6 6 12.6 11.1 19.7 15.2c27.5-34 67.3-57.5 112.6-63.8c-4.1-3.8-8.4-7.3-12.9-10.5L489 153l17-17L472 102.1l-17 17-43.4 43.4c-20.6-4.4-42-3.7-62.3 2.1c6.1-21.3 6.6-43.8 1.4-65.3L393 57l17-17L376 6.1 359 23 329.1 52.9c-3.7-5-7.8-9.8-12.4-14.3zM496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-64l-32 0 0-32 32 0 0 32zm0-176l0 16 0 80 0 16-32 0 0-16 0-80 0-16 32 0z" />
-    </Icon>
-);
+const WheatAwnCircleExclamation = createIcon("wheat-awn-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABrAAAALOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDOAsGAAE2AiQDCAQgBYMtB0MbywXIngVOmZf5c5NGniQjdmQ4Rh316RUjeN6u7+vc7qeZNXoB4BMZmQmIxQjAmO1+MFiS6Id54mnBEg4s666QI8/ydv+ipMi/qUKTKVWqbBIlkpRk3brWEOTu3h78KQop4gQyaWuhJ01cTn+cPz2uZZ94aGNOmzjWEug84Cwbm0okC7NME7BGt10FkltIH6HhJ8jjH9VUka5LF5e4N41vtHY+SV0GIBoBYNKKJfM8/xl9FvFW5UK8ZQ4CYhIoBDJkaCfAWJlAO7kCuVzwWVQ++w8UCCCqRb+JBHLU4Fm8BshBUpXnjQ+WNS5X1c+Xl7W0ow/7jI+esTQY46JPrFjeO/XuGbc7u1fz6Bk39+8dFfPC0bYlYWJ3lEcfluwdzw7vg2PPjDgn4sQccGt3WHRV85fqtn0CKvbIHRu3dr2lwwRk6xmdT121QsRTA+6L2v/e0U+W+sjH+97t7H73jHqi7ErlUkQ5hCAEVEVXljvf2ejO79rb4+HLC0FjzJiR+u4y2+FOy73do/vbF9+Z9ZljmWe693gaAx9jPw5so6ZY7m2ZqZ7yVo/uH1LLFKeyYdI7IiJOnH45qL741hWDL/0Ym+fe5fdX2oE7fWzGtgdfT6RBnbp37zQopR6gidkrEokUit2oaqFGCo0kD4NAcPjhtHIsv6VO4Isn/wf3Z5XDZ6eNWgkEWd+Kx9o0ZTBpAOkUx3Ue+KBA8qgq0avWc7UAoYQASbWSAJm2GgmQK+kjQJUOhglQrWSJTOR1QjPrCi6p5xCXGe4MLtfMQ1yVsV5LVWsWWSBWBUHVKWT66VV42roi9x9YjC56mzJ1uFTo5THFZDuP86FecKvtDtjvqG222uVoBT1sXvaYfaYPIdN8UWGQ/gYqjFYs7tzUL8fpw47Y1a1evooxiu3DPR0fntwLupJI7mDlSSJSuxMHW7Zfn/v7XfAz3O8XGc5N+w5O");
 
 export default WheatAwnCircleExclamation;

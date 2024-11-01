@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sensor-cloud` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-cloud?s=sharp-solid sensor-cloud}
  * @preview ![sensor-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sensor-cloud.svg)
  */
-const SensorCloud: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 32L0 32 0 480l224 0 0-48c0-44.7 26.2-83.3 64.1-101.3C290.9 271.3 339.9 224 400 224c17.2 0 33.5 3.9 48 10.8L448 32zM112 120l0 144 0 24-48 0 0-24 0-144 0-24 48 0 0 24zm96 0l0 144 0 24-48 0 0-24 0-144 0-24 48 0 0 24zm48 312l0 80 80 0 16 0 192 0 16 0 80 0 0-80c0-38.7-27.5-71-64-78.4l0-9.6c0-30.9-25.1-56-56-56c-18.1 0-34.1 8.6-44.4 21.8C464.8 278.5 435 256 400 256c-44.2 0-80 35.8-80 80l0 17.6c-36.5 7.4-64 39.7-64 78.4z" />
-    </Icon>
-);
+const SensorCloud = createIcon("sensor-cloud", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBegsGAAE2AiQDCAQgBYMtBzMb/QTIjsM4JnwXK4UpHv7f7r/2uVVfD01W28ygzJEwcChn4yD/a1IhauUhLPT8X5Pv3fOjA/x8BIcWhZUg9bxqFc9HA5pAW7QNbDQbziaK253biCLyOCSUJTm+HZdyOUMeT7PLakh300+4ET80ftXeZZKGDEA0A8C0NSsW+aYxGiN+fPkh8aMFCIhpoBDIkKGTABNlAp3kCuRyQWO8fGn+AwsCiFrpyQnkqMU27AHkIMnzvHXz5t3LNdV8tdta2lOpVlKUI+LCgPf6PNZLx1zpFVsFUQqaWw7lDloXKlcj7vV/t3fe2uZW79fb3ev9ZumDvm93Eq/Djnbd32327u/dftr9k68ff0P7aDRU9w4NPw96/vsd1v+4ZM1NiLUzVDs3hb5blTFkzFJ69dClqnmrD0vq/nxxtP9Mntyx2a7V0cKHrfIqEAiW7350e0vTif/XlxP45bM/f0cPv/wmnU/vol4CQTbw5UAb03kw2AC8FKd1Z74okKyTU+9acUuAUEKApFZJgExHzQTIlQwQoEYXowSoVbJCJvIGoZVNFSQVx0BmtDMg18r7oMZE37q1WkUmZZSMUG+8+NktPGtRMWzw0GJ8MS0UWnAIPz2hWBb6nrZd/XCn3Y447KRddtrnZIMetyg45ZDZHDLLDxWGGWyownjFdv24ebVdjjthnyMOh1kmKM47fZ3mB/dDOUm4w8WSRKTKHZVz5PigHwcBAA==");
 
 export default SensorCloud;

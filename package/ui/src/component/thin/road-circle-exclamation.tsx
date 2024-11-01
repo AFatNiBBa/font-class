@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `road-circle-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-circle-exclamation?s=thin road-circle-exclamation}
  * @preview ![road-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/road-circle-exclamation.svg)
  */
-const RoadCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M217.4 32C194 32 173 46.6 164.9 68.6L40.4 404.6C26.9 441.1 54 480 93 480l267.3 0c-4.2-5.1-8.1-10.4-11.8-16L328 464l0-43.4c-2-6.5-3.7-13.2-5-20c-.9-.4-1.9-.6-3-.6c-4.4 0-8 3.6-8 8l0 56L93 464c-27.9 0-47.2-27.8-37.5-53.9l124.4-336C185.7 58.4 200.7 48 217.4 48L312 48l0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 94.6 0c16.7 0 31.7 10.4 37.5 26.1l43.7 118.1c6 .3 11.9 .8 17.7 1.7L475.1 68.6C467 46.6 446 32 422.6 32L217.4 32zM328 200c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 112c0 4.4 3.6 8 8 8s8-3.6 8-8l0-112zm40 168a128 128 0 1 1 256 0 128 128 0 1 1 -256 0zm272 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM496 448a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-168c-4.4 0-8 3.6-8 8l0 96c0 4.4 3.6 8 8 8s8-3.6 8-8l0-96c0-4.4-3.6-8-8-8z" />
-    </Icon>
-);
+const RoadCircleExclamation = createIcon("road-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABoAAAAKKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCcwsGAAE2AiQDCAQgBYMtBz4bgQXIhof/t+v7fW7V6/Wmuoeusf2liEAmZELKSJg69TznoQXyHIKgzN01fA3KleY8r0DPJ36KY1HL9VrBKoodnDceVr5Dgs6Qx9+2qyPdlN7HFcqXxg/auogkywBEEwBMWbVsgTe/jW8j3v//OeJ98xAQU0EpkCFDBwHGywQ6yJXI5YJv4///mf/AkgCiQnt5AjnqcTPuA+QgqeT52Fr79g0aVusa5isF/2Ldsx1Wx41tb+rRMK5vVUQg7/XFtS1EEff7sPbr4pZe1RDXtbyhdYQfv6/tCrZiZdw+slhRi2HE3L0rzu8X8Ui/R6qX9HlIJ53X+0GyuLjvw95oeP7AiMfHvhw9avSL/R913oDHxrxUvWTcK4OeiOU3tG7PMFZ0wg39pq4PN3n4py7v73zfp3dM+f6sRS757bePq1bNaqmfPm2lzZXRvrD4iSe2n7nIjXduMlplc8bhTe68sd8J55038CzfT/nw4ANs8DAb2uuBbjVqn3zctevHn9Rq3WINDKxJr5KyebOePZs1L8tesAHWXLHo20aNvjUzD26ubEYE/nkgEAy+5M31mxqP/7W+msD3L//yF/t45//fTOelh1EvgSDr/39/69N5OgOpAeRTnNS1ZI2B5Gqj+1NrrhcgFAiQVBQCZNprIkCu0E+AOp2MEKCisEwm8gZCCxtCkNQcAZmRzga5Fp4BdcZ7K1fRIrItVNi+hAPE1JlxZMaqcsjAweXYsrDBFzc6TlwcV9Z2e59kB/pAXzsdctBxO2y3x/EYdtSC4gkHzCxDZ/ih0hADDVYaq2zdPq2ujOWOOmZPvqX9MuOU/ad7O1k+vg8MJRrtUHVJIlLrHcUccC3P4IC/XwS3HNjvAA==");
 
 export default RoadCircleExclamation;

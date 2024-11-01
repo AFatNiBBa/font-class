@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `warehouse-full` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/warehouse-full?s=solid warehouse-full}
  * @preview ![warehouse-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/warehouse-full.svg)
  */
-const WarehouseFull: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 488L0 171.3c0-26.2 15.9-49.7 40.2-59.4L308.1 4.8c7.6-3.1 16.1-3.1 23.8 0L599.8 111.9c24.3 9.7 40.2 33.3 40.2 59.4L640 488c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24l0-264c0-17.7-14.3-32-32-32l-384 0c-17.7 0-32 14.3-32 32l0 264c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zM376 384l112 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24l0-80c0-13.3 10.7-24 24-24zM128 248c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24l0-80zm24 136l144 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24l0-80c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const WarehouseFull = createIcon("warehouse-full", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABfAAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCDgsGAAE2AiQDCAQgBYMtBzUbEwXIhof/t/uvfW7Vew2o2nYEIibGUWfDJPhrUkbC/F/z+T0/OsDPR3AoUe1LTMt8PoEBFo3XNKEonE0UZ23OF3QR5BARxK6nnpCG7RvGdpDH39lJJdK99B2u1A+NHzRxkqRKBiBqA2D0wrnTfaiIiohv//+Y+NZUBMRoUAhkyNBcgGEygeZyBXK5oCL+/z//BxYEEGW40wRylLEFewA5SPI871G3dt1qpRr5gmqlqrKUHWt0p+PauNNgdTxscEuKu+2qxqOmWRxreLtq9Thf/6YuXFutarWHTVAq4kHHBW26Wpz7zzcXtnlW+9lPrb/b8J1Ow1FZ//WrRtW2+Oijvk2jV6/rD9dgdi+zG1RW8+zZmkeTUln7BzfuAj6EWUd7l6L/fqZCVxnxG525Co6peDkQCJpfmrl5Za1hv1aulsD3X/zyRzjf/x/S0fQMlSUQZN3+72ZZOgoZHUA2xQFtjC8KJGvkcK3V3RYgVEWApKyqAJlmaguQq6qrACUt9RegrKq5MpFXEepbvkBS3W6QGeAQyNX3HpQM82WmrH5k/kZ7C/23lzCBofHzit49ehVDituqybgQWaaHFo+NTgdUV2fZaIOddthnvXU220fIHtPz+203wYLH+6FCbz30Uhii2G6shQWU2WOvzdfc/ixDFe8nnRywB3cWOwFmH2uTRKSaB1fvWe+NYvcPEwAA");
 
 export default WarehouseFull;

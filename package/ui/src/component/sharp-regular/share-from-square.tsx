@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `share-from-square` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/share-from-square?s=sharp-regular share-from-square}
  * @preview ![share-from-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/share-from-square.svg)
  */
-const ShareFromSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M400 240l0-48-48 0-16 0-33.5 0c-54.1 0-100.2 33.9-118.3 81.6C179 263.4 176 252.3 176 240c0-61.9 50.1-112 112-112l64 0 48 0 0-48 0-12.1L492.1 160 400 252.1l0-12.1zM224 318.5c0-1.2 0-2.3 .1-3.4c1.8-41.8 36.2-75.1 78.5-75.1l1.5 0 32 0 16 0 0 32 0 16 0 32 48 0L526.1 193.9 560 160l-33.9-33.9L400 0 352 0l0 32 0 16 0 32-48 0-16 0c-88.4 0-160 71.6-160 160c0 44.7 23.3 77.4 50 100.3c35.9 30.8 78 43.7 78 43.7s-32-26.2-32-65.5zM24 32L0 32 0 56 0 488l0 24 24 0 432 0 24 0 0-24 0-104 0-24-48 0 0 24 0 80L48 464 48 80l88 0 24 0 0-48-24 0L24 32z" />
-    </Icon>
-);
+const ShareFromSquare = createIcon("share-from-square", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABewAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCKwsGAAE2AiQDCAQgBYMtBzgbMwXIFiFJJw//n9f3+9yk3upOVdNpOa9lfMij7xE8gjQDMTL/55p813Z0gN/o0LJXjQXU/XwCE0m88AlMBzbTCdgi4bfzO4pB9CaSdEXXZdj+G7afQB4fxKVqpCvTi7ikfWh8rZvzSGoZgGgLgNkb1y739KfxacQL/z9AvGApAmI2KAUyZOgpwDSZQE+5Erlc8Gn8/3/6DywJIJrg3RLIUcOJOBeQgyTL8x5j+9ZrrfIN9VqxN0RR3D/k5p6XxfXDb5tYr0dErI91EevOjqtVPCFEPTbGzJgRG6IIwRP1zWmPr7u225VDbxl4Q/387ld131LUC5GMfquAZGs0IounT4p+t7a99du+Lx7wokteqUKU5ku/+vXNM9u3+e/7H2ZVlYatW3P0xl0rUuqzbp2oSm2VKqefrp12PV3RIdvOjRdfjLnefXfWg6ecnNJrr/V8pndX5NyN7vosfRCkyq9yVvI3dV2vg0Bw6X3P/bWzzbRfW9QT+PzR7783fkX/P52qdCtaSCDIRvw/wrY0C21TJQAAKU7QL81CIDlSBuWGy7ydUBAhaVJApoe2kCsMh5rexvPG62tlIm8pdLRdIGk4GjITnA65ju6DmmmeaTbpGBn7RO6IP39pC3Zs/qWyeVRVTimPI1MiFF9Op5Zmb8gJeWWoPHWAIx3hOPvtc7DjNvYYyzvHO9yCGzPfF5WajVIpTVG6p+v7G+x3jGMd7EhH1HOmKt+Xhzjhvn2opBJwjtGVJCK1+1T1kTw1R9IY");
 
 export default ShareFromSquare;

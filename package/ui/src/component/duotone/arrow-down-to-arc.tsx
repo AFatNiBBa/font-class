@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-to-arc` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-to-arc?s=duotone arrow-down-to-arc}
  * @preview ![arrow-down-to-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-down-to-arc.svg)
  */
-const ArrowDownToArc: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256C0 397.4 114.6 512 256 512s256-114.6 256-256c0-17.7-14.3-32-32-32s-32 14.3-32 32c0 106-86 192-192 192S64 362 64 256c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-        <path d="M390.6 185.4c12.5 12.5 12.5 32.8 0 45.3l-112 112c-12.5 12.5-32.8 12.5-45.3 0l-112-112c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 242.7 224 32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 210.7 57.4-57.4c12.5-12.5 32.8-12.5 45.3 0z" />
-    </Icon>
-);
+const ArrowDownToArc = createIcon("arrow-down-to-arc", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABgQAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBeQsIAAE2AiQDCgQgBYMtB14bKQXIhof/Xyu771d1B4AqzKyAUNixiYoiWgI7Zy2B7onL6Y/zf5ENgGPaxE0b5GmuzhPoPKBsYwm9UKYZWNbO3mKQZ7Cg60OSYfI/bB6Qx3fZeSXSk/QFbvH/AMavWjlPUisDEA0BMHH54rleVEd1ii8qz4gvzEFATAKFQIYMbQUYIxNoK1cglwuqU6VCdVQqBQFEGe8pA2XkWIPdgBwkIfK8d886pXr5sjql2tsfiDjddEncr321+bJ4GGdaPKpzrdnCiEh7QCyO9+PHiREv50Z8ufTn+V9Pfr38TPOHta82ve+HBd8s+WnRd8vw+k5VDat+7/jFti9cLF+pR70r+/d7XK/eYwauKFda5orv1b98uT7737tCvuiF6S1pdYcz00135k6rlqZvBLFw6dKFBY2lSwX3ORAI/ru1v9v6BmP+r1kngV+e//lv+iGpvEhSFWpKIMj6VPpYk0AiAAApjumUOIBAprck77WuhwKE2giQlNUWINNGQwFytfUWoKS9oQKU1bZYJvJaQlNrO5bUdRDLDHMCyzX1FCsZ431U1jQyK+NshPvkJU9DeOqpYmC/AcWoYpqrvOEw4XB0sa32OOZ7PelJ2+y3zxFbbbHTEfsdMhfSo/aatkKm+qLCQP0MUBilOK6W8jKIDjls51g8P2a04r7Vw7H1dE86TwIMep8LGZEia7Xx0KH9x/sqn9v3yP6+YG7uq7MTbYaihgIAAAA=");
 
 export default ArrowDownToArc;

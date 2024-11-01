@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `business-time` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/business-time?s=sharp-regular business-time}
  * @preview ![business-time](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/business-time.svg)
  */
-const BusinessTime: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M152 0L128 0l0 24 0 72L48 96 0 96l0 48L0 280 0 432l0 48 48 0 312.2 0c-11.8-14.3-21.4-30.5-28.2-48L48 432l0-128 144 0 0 48 128.7 0c3.3-36.3 17.6-69.4 39.5-96l-8.2 0-160 0L48 256l0-112 104 0 208 0 104 0 0 50.9c10.4-1.9 21.1-2.9 32-2.9c5.4 0 10.7 .2 16 .7l0-48.7 0-48-48 0-80 0 0-72 0-24L360 0 152 0zM336 96L176 96l0-48 160 0 0 48zM640 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM512 288l0 16 0 48 32 0 16 0 0 32-16 0-48 0-16 0 0-16 0-64 0-16 32 0z" />
-    </Icon>
-);
+const BusinessTime = createIcon("business-time", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABeQAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCKQsGAAE2AiQDCAQgBYMtBzQbLQXIjsQ4JvGLKEzi4f/t+n6fW9W9eqoeauQ7cr0B9GlGg+wjA5A5iJkKEfP9K2Timvpx/vTnUfYEjxZpVQMpkIg4n8DEdm+LPF+DDmcTxVk7e8MbRLdJ36c8ZNj8sNlDGX/Hkzqkg+krPFE+NH4w3r0knQJANADYcsIxh/nk2/g24sv/3yS+dAgCYgvIAgUKTBJgvUJgklJGqRR8G///z/+BmQCiC29MoEQXN+IOQAmSsizXDJs4su70l8fXneqUqq6EqEjg4rr/uQl9EVELFs9uqvqAftb++pHREXZVBf3YLXHiKufdtTjipbXvVQ+vfmfhC+5c9OKad+tH1r2/5OU4XhB1bSM1op7+XPPcT311/lf2fzwOj7LbkW3rQQe02tWjD05ypye17nJ8r9de6cLVy/ze9K4c0mqP3G2ccWPPeArrtZ7SLhmck8kjR8yePWJkznNUHQd3HNHg7q3cZM3mxmaNDASChxd//dSD6//q1Ql8/x71cv9/ku5Mz6EngaBY+P9Cp6Y7gbkB5FJcb7rxRYHkSiVcq88+AUKFAElXJUBhokaoUmUB1THFij26KscoRDlMGOU0QiV9rqIKK91GlUZ5nepY79Ns16gonE9yHenvl75TwzuW5aHFbV6bh3VN9ichza/Ly+bc62PfPEp1vitc7lrnOddFrlXo1Q4rXOcyOy1khx/KhizWytbKx6371cc7z9WucZErXJ4XWSffz8x1vT16HjkJeJeqShKR+t+jsehNAgA=");
 
 export default BusinessTime;

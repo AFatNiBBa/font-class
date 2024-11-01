@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stopwatch-20` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stopwatch-20?s=sharp-thin stopwatch-20}
  * @preview ![stopwatch-20](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/stopwatch-20.svg)
  */
-const Stopwatch_20: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M304 0L144 0l0 16 72 0 0 80.2C104.8 100.4 16 191.8 16 304c0 114.9 93.1 208 208 208s208-93.1 208-208c0-50.5-18-96.8-47.9-132.8l37.6-37.6 5.7-5.7L416 116.7l-5.7 5.7-36.9 36.9c-36.1-37.2-86-61-141.4-63.1L232 16l72 0 0-16zM32 304a192 192 0 1 1 384 0A192 192 0 1 1 32 304zm208-64l0 128c0 26.5 21.5 48 48 48s48-21.5 48-48l0-128c0-26.5-21.5-48-48-48s-48 21.5-48 48zm48-32c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32zM128.1 232.6c3.6-14.4 16.6-24.6 31.5-24.6c17.9 0 32.4 14.5 32.4 32.4l0 13c0 10-3.7 19.5-10.4 26.9L139 327.2c-17.4 19.1-27 44.1-27 70l0 10.9 0 8 8 0 80 0 8 0 0-16-8 0-72 0 0-2.9c0-21.9 8.2-43 22.9-59.2l42.6-46.8c9.4-10.3 14.6-23.7 14.6-37.7l0-13c0-26.7-21.7-48.4-48.4-48.4c-22.2 0-41.6 15.1-47 36.7l-.3 1.4-1.9 7.8 15.5 3.9 1.9-7.8 .3-1.4z" />
-    </Icon>
-);
+const Stopwatch_20 = createIcon("stopwatch-20", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABogAAALXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDHAsGAAE2AiQDCAQgBYMtBzMbnwXILgd4MoxXwgh0vasfHdQrNJFnF9+36gX/vP79t0+Sp9xvZCh1kioQLTuI5ayB55/95n0HmkokmTeTBBOPa5yVSB51nk2jifaV8GEDLk8kUB8ETgTEWgaDO+FFB5BNh93my+G/WIAvTj3PeSiAbxSUsW0PTFrvleY8r0CEOjd4uVeQWkG1bLU2x/PyDorc4hBxVL4lDdvTsHUBToeZSAzMQfMM2NNm6x8uNoLBWgDKCng2XfqGDeDBn/yJPFUGPaUKCEBdAAgIsIAFyhAA7bGINzsC4HAIfomy/wcGAgDFwc80ADggAVwF7gAADgBDzLk6WVDYPIqlu5FRzE/xkUeR0Lv2u+7njvue167HvpdiTgoVyNPem15RJE1cFxFdb7cZ7Wiz3mCJtcHF1mt+e9uNhssahThoG64xUzhaKjpUMFJzMm+oKLUjX7QXtDZvyG8vGJG0rnA0Gn7Y08w/W5LWBRCKIsn7UVIvp/0zxKRUc/DBoUVW5clXSFUna/6/+6p+RWT3BA4y0pvBDFdvX2aERl2a7zNKnUyP9v/YTQ8uMZzuLOt2g+lNlqFRHYYd5+eJRLKaS1KFWbe5Bmaonn9Fo9+uVQ1qqSLYql+LEUYYp296vKjeugPbdOlkTVzjqldDkuToLJK9LVUHlp82HfnfX1HT4/MoJPiLAwGAAMHFo+9Kf2b7owHgz8b/9XGj0qq5BCQxAAhs/cd4eYCRLCcXASA1WkxV+SQEGM4SA6+axj4EgPCAADDE8QgASylZCACHpx4CIEYFLRAAcTzDsMilEHlM2MGQxjywtGQVOPK4DTHa8zCNkyc2bJmgY34aE3sy0iMvxBo2Dm3DsGJjI5Eqk+3Cbdm7OHfUkaVMZg6zWcgkJjKNhYTNZ0BxEbPo6aE9+CKBJjSkMYG2hOX6R3GkWvNZwPQ1tz5NO8L7fm0W+/3riGYAblPKDAZk0r4aOtadBvHGAAAA");
 
 export default Stopwatch_20;

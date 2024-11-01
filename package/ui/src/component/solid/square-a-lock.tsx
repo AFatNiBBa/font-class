@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-a-lock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-a-lock?s=solid square-a-lock}
  * @preview ![square-a-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-a-lock.svg)
  */
-const SquareALock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l256 0 0-96c-9.1 0-17.7-5.2-21.8-13.9l-12-26.1-124.4 0-12 26.1c-5.6 12-19.8 17.3-31.8 11.7s-17.3-19.8-11.7-31.8l96-208c3.9-8.5 12.4-13.9 21.8-13.9s17.9 5.4 21.8 13.9l82.4 178.6c5.6-10 13.9-18.3 23.8-24l0-24.6c0-56.4 41.7-103.1 96-110.9L448 96c0-35.3-28.7-64-64-64L64 32zM224 209.3L184 296l80 0-40-86.7zM464 240c17.7 0 32 14.3 32 32l0 48-64 0 0-48c0-17.7 14.3-32 32-32zm-80 32l0 48c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80z" />
-    </Icon>
-);
+const SquareALock = createIcon("square-a-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABggAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCLwsGAAE2AiQDCAQgBYMtBzQbMwXIhof/z+v7fW7ylGojbeobGlFrbo40q4lrnv/50wOWPcGjRFs1SIHFMs8nMLHw1mhKG84mitudzTEimlNLYiHHZzkec8jj8+wCNaRb08e4On1o/K69C0gaMgDRDADT1qxY5PVv4puIj6ovEh9ZgICYBkqBDBk6CTBRJtBJrkQuF3wT1Sr+B5YEELXoPhPIUYtTcCEgB0me5yPrmves1DTOV1dqig0P9I14pF2KW/s92qtxRFzWpkMU0S5u6f1QxzVxc9sbW68CTMTdAx4fs/Xb+j/Wu9GqlWtWVmL1qstbR9xIFBFxbtubKyuFy1rdQJzT+sZKJS5ve3NXaXPTULxr6eajX+j7SKfujzV77M9uH+/+2JS772lO82Kqonnze9iq6aFXneFV983uv3PLZw5+883BZc+5+uf2iqfuvGnaTDj17mf6rM7yUnbK312aXMIlTYaaaigm0V7SdSjRXj2HG7oHn3SoWL2rWbNdqwMIBJ+9tazdlqYT/6mvJPDda3//L25cfT1NTY+hXgJBNrA60MY0FQw+gCjFSboLXxRIjsrRuzZykwChQICkViFApqNmAuQKAwSo0cUoAWoVVshE3iC0sonhpJFjcGa0M+FcK8/DNSZ6L6zVKjL9Y7WH/f4lza6BWePKYYOHluPLYVHhVIoOwxPKaaXvSbapH8y02xGHnWCXnfY5oYKOsyg50SGzJXCWHyoNM9hQpfHK7crt5NV2Oc7x9jnicBxlgvJ80NdJcud+oCdEOFwqSURqfIfdQdsGPQ4A");
 
 export default SquareALock;

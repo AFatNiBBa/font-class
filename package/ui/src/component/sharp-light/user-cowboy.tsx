@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-cowboy` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-cowboy?s=sharp-light user-cowboy}
  * @preview ![user-cowboy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-cowboy.svg)
  */
-const UserCowboy: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 32L188.7 14.3 160 0 147 29.3l-37.5 84.4c9.7 2.7 20.2 5.2 31.8 7.3l34.4-77.4 34 17L224 67.8l14.3-7.2 34-17L306.8 121c-23.6 4.3-51.1 7-82.8 7c-62.2 0-108.2-10.4-140.2-22.9c-32.4-12.7-49.4-27.2-55-34.7L.8 85.1c9.3 27.9 35 62.4 72.5 89.9c38 27.7 89.2 49.1 150.6 49.1s112.7-21.4 150.6-49.1c37.6-27.4 63.2-62 72.5-89.9l-28-14.7c-5.6 7.5-22.7 22-55 34.7c-7.7 3-16.2 5.9-25.6 8.6L301 29.3 288 0 259.4 14.3 224 32zM46.2 480l24-64 307.6 0 24 64L46.2 480zM48 384L12 480 0 512l34.2 0 379.6 0 34.2 0-12-32-36-96L48 384zM371.3 136.6c-4.8 4.2-10 8.4-15.5 12.4C322.5 173.4 277.8 192 224 192s-98.5-18.6-131.8-42.9c-5.5-4-10.7-8.2-15.5-12.4C112.4 149.9 160.9 160 224 160s111.6-10.1 147.3-23.4zM96 226c1.1 69.8 58 126 128 126s126.9-56.2 128-126c-10.5 5.2-21.6 10-33.3 14.1C311 285.4 271.5 320 224 320s-87-34.6-94.7-79.9C117.7 236 106.5 231.3 96 226z" />
-    </Icon>
-);
+const UserCowboy = createIcon("user-cowboy", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABkQAAAKXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCTAsGAAE2AiQDCAQgBYMtBzIbTgVRlA5GiewjISfDayUuIoayxNDiRPuH8Cyep98vPff9FyDSWRVSYRuJRlNZdnwdsK+QVTt+jdipra7+B3Z6F+iTkkkBempXQBPEiaNXYf4v9/yeHx3g9xM/lLFt6oGMSWu05vMEAszqrLEwS7cFlmkClrWT9Ci9bhMl8kmG7Q2jPdR8SweV8qX08CF/aP5Z0URRGwCZBgAu7gO9YaefftJrF0nPFRDIJcA2RIMG6xAcIwvWUWwDVRX6aVv/H8gFATIIt1lAxRDe4yOggmKg1hnWTI6gOEHlUEIIKivSwtxCBSUwCNuUQ9EcRVEcLTEYF1i3FmtiStilPkUo40WixXRZc2Z9aRVsNWsVCUEpVEKzMEM9Qw7qIzs0yCyQQIIjhSHITpTOmzRaYDWbLGm0i50G33nGDVkjbjof224rtir1qkV8unpablxMYVpg+pV3kXIB9792UHcJF5SC4KooeIEA3JIkAG0NE90ofPnJ3oIkcdWFg+hoHR0WDxaSN2kLsn8WrrYDFy7xZrdrETOCWkjCWEVybYNC/za4y0Gcw19ycQMhraYmTTQUJztFYzQ6CYWJGgAY+vkZGoj+UxPa2vT0+DoJ1H8XQBDWvhS+xfIf/x8mCvj75/1T+RW1O+mW3xhWQGg6bUdUupCuAABKXlJIF0HxDhXeddxHATGKgGLQqIDGGgEIqlG7EAzYZAzBoFHXyFJHxLxoB4pxD6BxpBpU8+bBgGPH+qD5NOpIKxP9GUxw6SHneVx9HT2uBXdZqIyGkWnakrstqZWELnVbCyly5SiSLEm6og4p4G0Vy+Yiwc6+iEufDj1cFrjHjcflIZIVKJQuVw7PYol7X1NTIg9WtyoJMPdEikLK2BP2ayfmlibklgMAAAA=");
 
 export default UserCowboy;

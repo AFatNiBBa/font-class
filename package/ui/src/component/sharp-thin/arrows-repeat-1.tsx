@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-repeat-1` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-repeat-1?s=sharp-thin arrows-repeat-1}
  * @preview ![arrows-repeat-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrows-repeat-1.svg)
  */
-const ArrowsRepeat_1: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 272l0-8L0 96l0-8 8 0 411.3 0L346.6 21.9l-5.9-5.4L351.5 4.7l5.9 5.4 88 80 6.5 5.9-6.5 5.9-88 80-5.9 5.4-10.8-11.8 5.9-5.4L419.3 104 16 104l0 160 0 8L0 272zm512-32l0 8 0 168 0 8-8 0L92.7 424l72.7 66.1 5.9 5.4-10.8 11.8-5.9-5.4-88-80L60.1 416l6.5-5.9 88-80 5.9-5.4 10.8 11.8-5.9 5.4L92.7 408 496 408l0-160 0-8 16 0zM240 192l32 0 8 0 0 8 0 112 0 8-16 0 0-8 0-104-24 0-8 0 0-16 8 0z" />
-    </Icon>
-);
+const ArrowsRepeat_1 = createIcon("arrows-repeat-1", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABcQAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCHAsGAAE2AiQDCAQgBYMtBzYbIgXIHgXu1lHZWDcv4XE6yfHw/2v/2+fOfDFUB5KrJGh09ShupfxFZRHJrxCYy/X94tTznGcDvlEopntoQMbEUNK1zytQLY7p9SVcsJpWwHq27dWSoRLajdC4Qx6vbVBGupDiWPjQ+Ku1oyRZBiAaAWDs4vkzfaiP+ojfpafEb9MREGNBIZAhQzsBRsgE2skVyOWC+iiVxH9gQQBRLj03gRxl2I3DgBwkWZ537dq8pqwuX2Si6giBd9XULYoW0TKax0KNNYsF/Pjw4qgNIarXC9Wo3aRbxCKz5WGj7pFkXU11jchP1Or8lprOtxrd+tfpph5UqryhUuWlyWMtcNsEi2fbaCNSJxh3gcVtp1xXqVGp40n2QrfYC1yqNexdFF0q7emrKm3RqrI8DgLBs37jrW444r+aBP68+hf6FZW+JukWKiUQZD1KPaxIIBEAgBSHdE4QSDbLpLDW2btpqIZCUq4aMm01gly17lCmg4HcydPzZSKvEppZiSGptRcygxyBXDOPocwI36NyzSIDOwFohJ++1EljZOKmom+vPsWwYrPRREji7Orw4rTb5ZAc6Ypv2mS3XQ7YaIOtDozofWamB+00aQ+d6IsKffXSR2GY4nb3+eVFNtpnv6122+XXGa54P+zi0P70rjhIEmM/e5JEpIZr930VRk8Q9nr2BQA=");
 
 export default ArrowsRepeat_1;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hotdog` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hotdog?s=sharp-regular hotdog}
  * @preview ![hotdog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hotdog.svg)
  */
-const Hotdog: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M449.9 129.9l-320 320c-18.7 18.7-49.1 18.7-67.9 0s-18.7-49.1 0-67.9l320-320c18.7-18.7 49.1-18.7 67.9 0s18.7 49.1 0 67.9zm33.9 33.9c37.5-37.5 37.5-98.3 0-135.8s-98.3-37.5-135.8 0l-320 320c-37.5 37.5-37.5 98.3 0 135.8s98.3 37.5 135.8 0l320-320zm-6.5 57.5l-256 256L256 512 512 256l-34.7-34.7zM34.7 290.7l256-256L256 0 0 256l34.7 34.7zm371.8-140l14.6-6.5-13-29.2-14.6 6.5-72 32-4.9 2.2-2.6 4.7-37.6 67.7-59.6 29.8-4.4 2.2-2.4 4.3-37.8 68-68 37.8-14 7.8 15.5 28 14-7.8 72-40 4-2.2 2.2-4 37.6-67.7 59.6-29.8 4.4-2.2 2.4-4.3 37.4-67.3 67.1-29.8z" />
-    </Icon>
-);
+const Hotdog = createIcon("hotdog", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABhgAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCPQsGAAE2AiQDCAQgBYMtBy0bOgXIjsQ4JvGLKEzi4Xu7/2/t030/wP6SIpgRFFFB5oiIHAsz6dQLJ9LNd5OQqVM9OQ8F8C8a8aCNtXx7LtS5zitQrbW2dGKtQLWC1bQC1ql5TwzgdYa2C+TxJM4oka6mDzjtPjT+0tRRklIGIOoAYMzcmTO8/B2/I96X7xHvTUNAjAGFQIYMLQQYLhNoIVcglwt+R7nM/gMLAohKgmcnkKMy9uI8IAdJKc8bNapatU/1Us18jvKrrV0lHrhQ7VijS3Go8dq4XP14w4sONhhxMyIOdb0xiOu8Kq452OX67m5ri1lzZ42IuTFy2dxy78iYFSNWNm7QuFk0oFKDVJnMyXbQNBqvkxpjZRo+M7ftjTo3Kvqw5oNXI0YFaUX9+hU/Jf+zVNEDdZ91pOOzb3f8NmoUzkJrXTnY0la5rO2jCd7fefwjPPbBR5NaG6OdDuPcLqD6tXEdfPKPT+NYJ33Uf5X2Y41tCQSCEVVHnV9ae/jfVaon8Odj1M9I+WWSbqCKBIKse7m7RQkkAgCQYo+2CQLJViXBu9ZwSYBQDQGSSqoJkGmujgC5aroJUNLKAAEqqWamTORVhQYW1yCpYTvIDLQP5Bq4A0qGe51X0iCyz5D+iOi/wISJbXjCpqJPz97F0GKypWS+LFKvDitWG5338JEu8Kg1ttpil9VWWW9XC91hRrXbZhPnkAm+qNBHT70Vhip2d+8Lc3Cww05OjrP71xmmOD/pbM/89C7QTgLCvqR0CRqp0rqtu1ZtXQsA");
 
 export default Hotdog;

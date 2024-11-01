@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-brain` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-brain?s=regular head-side-brain}
  * @preview ![head-side-brain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/head-side-brain.svg)
  */
-const HeadSideBrain: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 224c0-97.2 78.8-176 176-176l24 0c60.1 0 115.7 36.7 139.6 88.3c3.9 8.4 7.5 17 11.4 25.9l1.5 3.5c4.3 10.1 8.9 20.7 13.9 31.1c10.1 20.8 22.5 42 40.6 60.1l4.4 4.4c2.9 2.9 4.6 6.9 4.6 11c0 8.6-7 15.6-15.6 15.6L424 288c-13.3 0-24 10.7-24 24l0 72c0 8.8-7.2 16-16 16l-88 0c-13.3 0-24 10.7-24 24l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 64 0c35.3 0 64-28.7 64-64l0-48 .4 0c35.1 0 63.6-28.5 63.6-63.6c0-16.9-6.7-33-18.6-45L489 223c-12.7-12.7-22.4-28.5-31.4-47.1c-4.5-9.3-8.7-18.9-13-29l-1.5-3.5c-3.8-8.9-7.8-18.2-12-27.3C399.4 47.6 326.8 0 248 0L224 0C100.3 0 0 100.3 0 224c0 53.6 18.9 102.9 50.3 141.5c8.9 11 13.7 22.4 13.7 33.1L64 488c0 13.3 10.7 24 24 24s24-10.7 24-24l0-89.4c0-24.9-10.9-46.8-24.5-63.4C62.8 304.8 48 266.2 48 224zm264-32c22.1 0 40-17.9 40-40s-17.9-40-40-40c-2 0-3.9 .1-5.8 .4C299.8 102.5 288.7 96 276 96c-6.2 0-12.1 1.6-17.2 4.3C252 88.2 238.9 80 224 80s-28 8.2-34.8 20.3C184.1 97.6 178.2 96 172 96c-18.5 0-33.8 14-35.8 32l-.2 0c-22.1 0-40 17.9-40 40c0 16.5 9.9 30.6 24.1 36.7c-.1 1.1-.1 2.2-.1 3.3c0 22.1 17.9 40 40 40c5.7 0 11.1-1.2 16-3.3l0 51.3c0 13.3 10.7 24 24 24s24-10.7 24-24l0-48.8c2.6 .5 5.3 .8 8 .8c22.1 0 40-17.9 40-40c0-5.7-1.2-11.1-3.3-16l43.3 0z" />
-    </Icon>
-);
+const HeadSideBrain = createIcon("head-side-brain", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABpAAAAKXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDEgsGAAE2AiQDCAQgBYMtBzYbmAXIhocHu6r3q2vUY/XazPYAMFykp0iYuCb/vTU9YNTCMZt3o1EWdZxPYOdtXecDmg1sphOwDdsGWPnIHscazxOk8XJcIY/kxuQTXI4/NH7Q6BwSeRkAUQGACcsWzfHGiTgR8fH/zxIfm4WAmAByAhlk0CLAaBmBFqkcUqngRPz/f/8fmCOAyHdCCXPaJD+KZ9FnkEjSdNvY4rzSdOmyd3bZ94sivl5WHM+OeLHPtbXX1tbGtbU39ujSXVOTjXsaxDDtxi73N0cUx/29HsZgpJzZsy4earquDsn6jU/N/GhqNt6Z/kH/J3LfTrhWNPO2nq913HRx/dzr48y667IXZa/relHNTV3vaeDummtqIhqdsJQznBln1F5b3GqSFFwRf2Nxx4cqHvqpwydbP9HveMysIGZGgy+mLes6vHv1Odvafb/cPMjk/LITDRbUToeB5VLj1S5YUNsd/47Kymx/nmzqOEjVx3vWVlu95uzysicanGjt/daXZbHg7+OVK8Ll6+0r9pYXtFc+zEuVlS89XJnJ3Na/6NBT69c/daio7IYbWrHL+oiinZHgcxRtHJTlGqB/an1J115AIJh37wUb15WP/rWwOAGnXvrlN/hX9P8bieQhFEpAkOn9f2+rE5AQAIAkjuqYQCBxr8T5riWuEyBkESCRLytARrMKAVJZvQTI02aIAPmyFsmItEiosYaTiRIHyIyhjpGpGk+TeUZ735OvJjJPrOp5U/0vpp8qg1P65Qb07Z8bmXNmUfVDqFi6R+Wi7d2PDlU94Fxb7bPXYVtstsNhiThojv+IPab68Cm+KGeAvvrLGSmXXVjXL20iDjpkB7smv5dRcvWd3R31N+4BB5MABl7riIRIyh9rQ5932tjnswUAAAA=");
 
 export default HeadSideBrain;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `children` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/children?s=sharp-thin children}
  * @preview ![children](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/children.svg)
  */
-const Children: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112 64a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm112 0A64 64 0 1 0 96 64a64 64 0 1 0 128 0zm-.8 188.6l-3.4-7.2-14.5 6.8 3.4 7.2L267.4 384 232 384l-48 0-48 0-48 0-35.4 0 58.6-124.6 3.4-7.2-14.5-6.8-3.4 7.2-64 136L27.4 400 40 400l40 0 0 104 0 8 8 0 48 0 8 0 0-8 0-104 32 0 0 104 0 8 8 0 48 0 8 0 0-8 0-104 40 0 12.6 0-5.4-11.4-64-136zM96 400l32 0 0 96-32 0 0-96zm128 0l0 96-32 0 0-96 32 0zM104.4 160l-2.3 3.9-84.9 144L13 314.8 26.8 323l4.1-6.9L113.5 176l93 0 82.6 140.1 4.1 6.9 13.8-8.1-4.1-6.9L218 163.9l-2.3-3.9-4.6 0-102.2 0-4.6 0zM432 64a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm112 0A64 64 0 1 0 416 64a64 64 0 1 0 128 0zM420.9 160l-4.8 0-2.3 4.2-76.9 144-3.8 7.1 14.1 7.5 3.8-7.1L425.7 176l108.6 0 74.7 139.8 3.8 7.1 14.1-7.5-3.8-7.1-76.9-144-2.3-4.2-4.8 0-118.2 0zM416 280l-16 0 0 8 0 216 0 8 8 0 48 0 8 0 0-8 0-120 32 0 0 120 0 8 8 0 48 0 8 0 0-8 0-216 0-8-16 0 0 8 0 208-32 0 0-120 0-8-8 0-48 0-8 0 0 8 0 120-32 0 0-208 0-8z" />
-    </Icon>
-);
+const Children = createIcon("children", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABvgAAAKbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyENgsGAAE2AiQDCAQgBYMtBy8bNQbIHgXunhOmxqHlMDTATYiHL13Z+y3N1mxrZRywuc14AEAZYOVOnR1nwBEgRRjMj11xGGtx6FGS/X3zyk9cUz9WFsWZ4kOKbKzzqMIBJugwLW0kw9lQBu6bchfxcvLeNWxdoY6/napDeiThgeZN4wdT3UpSVQBiAgB2OuKQ/bzwKX4a8er/j3jVPgiInUARqFBhhgDbqgRmqBXUasGn8f//yX9gIYAYAX51AjXG8CeRATVIcl237YbR0ZltO3tD02nrw5tOPuaxRbVgTo35Y+GaRk8u7cV7Ri45y+5sGfQHvejHYZHzETGMQfTi0OhF0wjRNBERTeh9zSAOP7TJjchpQsgDicN7w94aaj+GcYQzDpPyeXK8YD7iYlxucmOrFGMLiFsEI7Jlyhqdr5i7aUL/NOd0uOCGfP4115yfqfCF1ee//fZ55fPMIpD9tY22uta8zcXjG31tkR3ucLR28Zm6ult2nakI4xa3R4/6rvcCuE9UnHjjiVLFicoVv/DFQx+w0Ts2OvgexznoHkvet9pknQ9PeITv6hM6IDLZvmuBvSnn2hve13f1FRNAuOvde2SuVFypFV3MBOi3VFPgWy+DQLDn26U2ftu/uk0Cnz/1f+DPt/+/kC5Jm9CVQFAt/3+5Y9ONWm21UwBIprjcXP+TBJIfZeDSmAcFCBnNSkZkVmW6CaxatozVMcsG+cILDlGJelToOc5nJWMuYlU2uo5V69nM6tjWi8kRvai+AdUbrPoDTb+7De+2q6xZubpsXUYrpPq1VpST25TF9sWXpx1L/INOd4HzXeo0pzrLpRb5YvtlLnOe3aewu/miYo2VViu2VjbX7+oPD30XuyRVDGu3L7ONcnx4scun+y/xXQmQuVZJkojU/TQAAAAA");
 
 export default Children;

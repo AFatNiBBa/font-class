@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-headset` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-headset?s=sharp-solid user-headset}
  * @preview ![user-headset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-headset.svg)
  */
-const UserHeadset: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 32C135.6 32 64 103.6 64 192l0 32-32 0 0-32C32 86 118 0 224 0S416 86 416 192l0 112 0 16-16 0-128 0-48 0-48 0 0-64 96 0 0 32 112 0 0-96c0-88.4-71.6-160-160-160zM0 512L48 352l96 0 32 0 48 0 48 0 128 0 48 160L0 512zM144 291.9c-29.3-23.5-48-59.5-48-99.9c0-70.7 57.3-128 128-128s128 57.3 128 128c0 23.3-6.2 45.2-17.1 64L304 256l0-32-32 0-96 0-32 0 0 32 0 35.9z" />
-    </Icon>
-);
+const UserHeadset = createIcon("user-headset", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABaAAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBYwsGAAE2AiQDCAQgBYMtBzMb5gTInoWxG22IKxts9NNR796Ih/9fM+/78ydnM5kSoAIkV+FYo19XQhfhSqQI5YKtrs4++62NT/MQh7gnE280YtN275pHSqWBzGrb9dDX9rv/vfV8z0cD/EZD2zrtpAvkAonO83kCieaJR1lgmQZAsWbt7IkflG6VPvHpM2x+2AwOyHG7uKok3Uyf0F1vGv+McSFpFgBiMACw/mg+CZ+90RvxsRPx0U4gINYDYDJEgQLjIViFERiPbTKQZUFvdDr5HzgZBBAN+OwEMkrsA04BkEFS5DynObJVDshHOGV18rUq4vkhWEXE34M/j/7e//0wFFUV0QrRiog/a16WjpULZc6Aw1gf/Zj6OPAq8WH1C9FFZRURVSVMbQvbb9EnP+m5T3ziU2wkhOD+YjGL+/FwEfdvQEjYiw6y0YEb/z9tjJ6eRfeT1hHOhNfdvSaWyzfuy0Ss5bR6EkIXiRRAILj95KeDVv3vaiXQ//Q3fos6r+N1aqNLAkExvzNfI15DvBYAgBQXQByvEUi2YeCqtWsChAoBkoZKgMI4QgiyyjwIShPZIGioHMSI3BSGa3ZIaqehsNIZsuGuUFrly28YHoVnCX4hPOxS4xLFtmiJ3khuWiaa6CysLD20rc8+cUNFuzCytnIwNDB1EGQnGR0txTUc8yBiomdE3MicP6ql6O/sTeeyfY0HnfeUTnq/iiwWUJeKJYlI9XWUf7q198MDAA==");
 
 export default UserHeadset;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wine-bottle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wine-bottle?s=solid wine-bottle}
  * @preview ![wine-bottle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/wine-bottle.svg)
  */
-const WineBottle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M393.4 9.4c12.5-12.5 32.8-12.5 45.3 0l64 64c12.5 12.5 12.5 32.8 0 45.3c-11.8 11.8-30.7 12.5-43.2 1.9l-9.5 9.5-48.8 48.8c-9.2 9.2-11.5 22.9-8.6 35.6c9.4 40.9-1.9 85.6-33.8 117.5L197.3 493.3c-25 25-65.5 25-90.5 0l-88-88c-25-25-25-65.5 0-90.5L180.2 153.3c31.9-31.9 76.6-43.1 117.5-33.8c12.6 2.9 26.4 .5 35.5-8.6l48.8-48.8 9.5-9.5c-10.6-12.6-10-31.4 1.9-43.2zM99.3 347.3l65.4 65.4c6.2 6.2 16.4 6.2 22.6 0l97.4-97.4c6.2-6.2 6.2-16.4 0-22.6l-65.4-65.4c-6.2-6.2-16.4-6.2-22.6 0L99.3 324.7c-6.2 6.2-6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const WineBottle = createIcon("wine-bottle", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbQAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBYAsGAAE2AiQDCAQgBYMtBzIb4gTIhofn7R47980E8ASEumQhd1C/HVWp+1Onnsc2BfCNgraHBiSbQ2t0nlegYr3ytgqNBVbTCljfNkTUEYY3QoIkovGExmq1hzzezU4pQ7qfvsDV+qHxuwZOkVTIAER1AAyfO3Oyj76JbyI+L71OfG4iAmI4KAQyZGgswCCZQGO5Arlc8E2USvwfWBBAlGVwouV45nQsBeQgSXnet2alMlXyOfS6FdferRRxsc70uO1Y7VsVb9WtHdPiVoP79e+1mxVPVbzQYU48E8c7zo1n2z7Z+vF6M6Ne3Inj9VbNnjP7dr25cbfunLhTe1bcqtPimerP/Nn8izVfOPfGvSpUuVdyvkqV8/cqv3T3HL4ateXKkb0PH2jRsEGPuXNlt5YPHjr7888/9fyDe/ZXrny+9fThmH7qqeXLXbigGrocCATvf33xkaXVBv1TvlIC373z9//8M1L6KEnPoLwEgqxTqZNFCSQCAJBijxYJAsl4CV5rZXcECBURICmrogCZRqoLkKuoowBlNNVbgLIqmikTeQWhtsUdJJVtB5k+DoNcba+CMgb52C+rdmSJxaYF+6xLGuOh0euK7l26FQOKaa5xuUKX5YHFstVuj/Taw1ZrbLXFLqutst4uR+4wOdptszERMdoXFbrropvCAMV29bh5jtV22Gm9rbboKgMV57129sST24ObGGUPmSQRqdJF5j5mtDetBgA=");
 
 export default WineBottle;

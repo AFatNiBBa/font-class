@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ear-listen` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ear-listen?s=solid ear-listen}
  * @preview ![ear-listen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ear-listen.svg)
  */
-const EarListen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M398.3 3.4c-15.8-7.9-35-1.5-42.9 14.3c-7.9 15.8-1.5 34.9 14.2 42.9l.4 .2c.4 .2 1.1 .6 2.1 1.2c2 1.2 5 3 8.7 5.6c7.5 5.2 17.6 13.2 27.7 24.2C428.5 113.4 448 146 448 192c0 17.7 14.3 32 32 32s32-14.3 32-32c0-66-28.5-113.4-56.5-143.7C441.6 33.2 427.7 22.2 417.3 15c-5.3-3.7-9.7-6.4-13-8.3c-1.6-1-3-1.7-4-2.2c-.5-.3-.9-.5-1.2-.7l-.4-.2-.2-.1c0 0 0 0-.1 0c0 0 0 0 0 0L384 32 398.3 3.4zM128.7 227.5c6.2-56 53.7-99.5 111.3-99.5c61.9 0 112 50.1 112 112c0 29.3-11.2 55.9-29.6 75.9c-17 18.4-34.4 45.1-34.4 78l0 6.1c0 26.5-21.5 48-48 48c-17.7 0-32 14.3-32 32s14.3 32 32 32c61.9 0 112-50.1 112-112l0-6.1c0-9.8 5.4-21.7 17.4-34.7C398.3 327.9 416 286 416 240c0-97.2-78.8-176-176-176C149.4 64 74.8 132.5 65.1 220.5c-1.9 17.6 10.7 33.4 28.3 35.3s33.4-10.7 35.3-28.3zM32 512a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM192 352a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3l64 64c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-64-64c-12.5-12.5-32.8-12.5-45.3 0zM208 240c0-17.7 14.3-32 32-32s32 14.3 32 32c0 13.3 10.7 24 24 24s24-10.7 24-24c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 13.3 10.7 24 24 24s24-10.7 24-24z" />
-    </Icon>
-);
+const EarListen = createIcon("ear-listen", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABwQAAALQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhESDcAsGAAE2AiQDCAQgBYMtBzEb8QURFZvxyD4ScnOoV1iZuWFC14QnQQ//Xv6cm2wBpu0TyS9ref7f2337O+MRTGSEGQZWoJF2Iuri1POcZwPl3igon7Es6RogC3wvrUCB96AxhQtW0wpYLacDKqrHV7LrMPUE7By0RuGCuc0lYKr/ofqJZhQY3gUAgCYAAFC8bs3KHHumZ9JF927opSIggDYADgIWsEAcAlAIi0AcNgew2YRncrv1/0AHAoAG4dMNABt4gbvAawDABmB4dLtI/tDQyFhfl79dx57n03ZOmDQrbFb47HBporBnR/uB+fHDvAt8J0bO1YosWzJsSDMnYo7PcA3XBEk+mtigODNKsc2WZpQ25t2dfn38onSzouZFoStsVqoJYbMgH7A348ZEaXjGo3Xv1LhR51alQ7XO2DQ7cm5kvYmR0lwNj5jjs9Ks2/JIhn4yrg2gKJ7qUnCWqIGQLIl9BAYzP/Xa2CUZNuTZlW5dXPOm5A1BG94lXWpzicmHdu2EnR0rFiy4BySp5p6PH/atU8C4cQHJs7CqTG2fXiWCDYiAKADwkEd+zyq8gTfb8A3/A/2uXJ4x08sD63uUTVaeut6DwLqqMqoQpAoqJZ8/XiX9+vc/fm3u3LhmsQHjYJ2edFm6dDhjjtd4f/A/3eb5+89rdL1lTT9sYHj16uGq0zooqHUdiccBQEA4cLpz+6aBhb55+RoAXhz48LP4EXIfM5gH8GIACNZyZ9LIAGAgAAAAYNKHZAMgYFzlYgl+5qCk+ECA4cEHLLEEgc1HRnBJILcMWjUhWkj3joZpLMDw0x0seQwGW5id4FLI2ZiHsNQNrt6e6u9lVpkuUbqfkz1LNqeAM5tSafes7LQWdGAnXR+jJD2fSxtdddFLa62016vD91A52VtnZZbI0r7IkV0W2TgKcMjZhwPqaK2Hntqb1um9FOTsH02nz3L19NxjhKI5jDQM1HxaHz0yf6oAAA==");
 
 export default EarListen;

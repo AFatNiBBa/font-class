@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `falafel` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/falafel?s=sharp-solid falafel}
  * @preview ![falafel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/falafel.svg)
  */
-const Falafel: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 144l14.8-30.2-.6-33.8 26.2-20.6 13.8-30.8 32.3-7L272 0l32 8.1L336 0l25.4 21.6 32.3 7 13.8 30.8 26.2 20.6-.6 33.8L448 144l-14.8 30.2 .4 24.5-1.6 .4-40.2-10.2-31.9 27-40.3 8.7L302.4 263 288 274.4 273.6 263 263 239.4l-6.6-14.8-15.8-3.4L216.1 216l-19.3-16.4-9.8-8.3-12.1-17.1L160 144zm73.8 108.5l5.5 12.4 8.2 18.4 22.6 17.9 .1 3.3 .4 26.1-11.4 23.3L252.4 368l6.9 14.1 11.4 23.3-.4 26.1-.1 3.3-22.6 17.9-13.8 30.8-32.3 7L176 512l-32-8.1L112 512 86.5 490.4l-32.3-7L40.4 452.7 14.3 432.1l.6-33.8L0 368l14.8-30.2-.6-33.8 26.2-20.6 13.8-30.8 32.3-7L112 224l32 8.1 32-8.1 25.4 21.6 7.2 1.5 25.1 5.4zM256 144a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM508.6 412c16.2 4.4 35.2 5.9 52.8 .3l.3 19.8-26.2 20.6-13.8 30.8-32.3 7L464 512l-32-8.1L400 512l-25.4-21.6-32.3-7-13.8-30.8-26.2-20.6 .6-33.8L288 368l14.8-30.2-.6-33.8 26.2-20.6 13.8-30.8 32.3-7L390 232.4c-8.2 19.2-7 40.8-2 58.9c7.1 26 23.3 52.6 45.7 74.9s48.9 38.6 74.9 45.7zM426.6 234.6c1.1-1.1 2.2-2.1 3.4-3c23.3-17.6 69.3-3.8 105.7 32.7c32.6 32.6 47.1 72.8 37.3 97.5c-1.7 4.4-4.2 8.3-7.5 11.6c-21.9 21.9-70.8 8.6-109.1-29.8s-51.7-87.2-29.8-109.1zM368 384a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM80 384a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Falafel = createIcon("falafel", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAAB2AAAALjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSSEUAsGAAE2AiQDCAQgBYMtBy4bTgbIrgbs5gPxWHbcTvHG1NPgp8LiQC1rfKEHEQ9Pa6z3ZxYxaybZI4lIhkxqaqGINQ8VSoC7a1fC+vyPe+/7xsB3lgAlkmkVQJqb2tydhArCw//NfxfblKVxIGFx1Aks4Cgq0AJKOwlusGlh1B9z6uYPexqrMQclEFCqXQAeOORAD5qQNT9pYOUC0eHENfkjF/aAS3uwKUa1N3gHDzDP1/a09GiQ2Ww3kAFOSHe27c0QlfUbobGDIi5zhg3pKgkOiheN/7R1QcLPACCaBQCsbkQGY++HPTguXyC+BIIAYhUwjIAMMuhHAAuYCOjHQkGBhcBP/EvxHxhBAEQlQjJZVoB6iEogWgWGi0kEBcvLl2ZMPg4L2WJWTDpXkNhn6RqQFpeT03NKanZswNNZgokQRyo2OiQaB/k0hZA3USc0tXolBAISVfgAGRXARi/IaDhwgLCty01aVXxeVOhe2acGTHxVau+7QInh7Rm7tveY0izkc/WSPWT1ysVivll2htuo0pxl9rjQnDFAY9Go2UbLdPmP8beJmbfwwYhe1zi6fbjLcZyaRbx5w8NQ71tC7cKFBcVudLEyaMXb2nZg+F3tIByTwJZixbYIMIVfRl3rTfuQtiwR6yjSf370bj++yW9R7rzAu69653ZE3nM3EOus7ZPrb8veZI/HPKX7wPX0Iik1l6e6g5m+e72Jc51gf4AAAf+effcxFq5qDAB/Ps8VPwJlk5fuQTUGICBP/jtJaQXKpxBhNEUNowWf0OnKPxl51nr9CCAIQAASDgECyHTJEEBBwAwBVDDggAAqCURiIgUfhEpyw2MQKecxOWrmsais89jc7Uc5VIE/CCU4K39H0/l0Ie9hdLa0pq50NqlSwbjcNrvRzbaqZlBkghmRo1SJKtmy5KvqUBWCE9WK+SxJer+XsmHJGuWKHs481MXQaIVK+dNmxztxQ68PGatZrmyCR8EAMA9KcrkgEjdnsyg9J7sIAAAA");
 
 export default Falafel;

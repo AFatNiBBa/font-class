@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-web` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-web?s=light camera-web}
  * @preview ![camera-web](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/camera-web.svg)
  */
-const CameraWeb: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 32a192 192 0 1 1 0 384 192 192 0 1 1 0-384zM357.5 403.9C412.4 363 448 297.7 448 224C448 100.3 347.7 0 224 0S0 100.3 0 224c0 73.7 35.6 139 90.5 179.9L37 473.4c-5.6 7.2-6.5 17-2.5 25.2s12.4 13.4 21.5 13.4l336 0c9.1 0 17.5-5.2 21.5-13.4s3.1-18-2.5-25.2l-53.5-69.5zm-27.1 17.3L375.8 480 72.2 480l45.3-58.9C149.2 438.3 185.5 448 224 448s74.8-9.7 106.5-26.9zM224 112a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 256a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
-    </Icon>
-);
+const CameraWeb = createIcon("camera-web", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABlQAAAKIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCTQsGAAE2AiQDCAQgBYMtBzEbTgXIjtIcNHC5RIKpwfOpy96X5YC9QVaAjwioYs91xxVWy8O38/3qSiNIAk0kCj2d6IRHtvm/2fOeRwvkcwShjYVLA1lgez5PIMGyfYPuRBJKFM/lrJ0dRRL9JukTn2QY3zBZHEDHZimCDfWoJ8DyfCn5STAHFJ0BAJAOAADU3K2bcsMTT+SJ/yzIR2MgAFkAGAIszCQTAFVYBD9AM0DTBJ74/ek30IAAQCr0b1AANAgEC4GVAIAGoNhFJ2X5kpJcO0S3c22n8+KKIheLHmVGkSMVLjiLKl0qdkxmFj9e+bLb8XJxkeOZu0qdavSo3p0GD0qcMDuLHq3YRtbErI0JkfVx62Pb5dWsVdMnteVi3fuNOy3OFtmbsJEZ8Ruy9jiLcvYlbpKZSZtz97tqcWWRy8WPy8xixypdchZVuFDkCDOKHq140c04FH7oR/qTfk/4tL3MRbiwZUvp0lu2XLhYpszF9r25o5dNg6kt9OWtIimel1Lk1svQwKnTtpWtw+TT2WuBN7jp5DJ1TrzFkhK85f+9wYPKpG6DbV++pKYGfNu21FTeTJGbQM30nJz0kkrleh8+BwABgiLvm/3dw6r8DnIVAJ8v/fpd3sd/Q26oQ0AQBUBgDX8RusQNAEcUAOgqxpEh3IwAZSY2gK7qsw4BIBwgAJQADgFgSRJOAGiOQgLAlqosARDA0ZpFSjAiWtcGFJ+RwFLOVKBFOw1sVdzXA0SHpY6MMjGvwcR6HKo7ZkoWK2EqmamvshpGxX5lsyzljfO5fMzSz3DDjNFXHwONYcgoTa2xhqonwXXdyCipmBKMSsx2dC+2s/ooow0c8/tDKjPntTzj5Op8qAqRlmJTFCQ5N4r9dB8AAA==");
 
 export default CameraWeb;

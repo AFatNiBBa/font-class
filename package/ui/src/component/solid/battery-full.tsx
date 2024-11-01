@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `battery-full` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-full?s=solid battery-full}
  * @preview ![battery-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/battery-full.svg)
  */
-const BatteryFull: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M464 160c8.8 0 16 7.2 16 16l0 160c0 8.8-7.2 16-16 16L80 352c-8.8 0-16-7.2-16-16l0-160c0-8.8 7.2-16 16-16l384 0zM80 96C35.8 96 0 131.8 0 176L0 336c0 44.2 35.8 80 80 80l384 0c44.2 0 80-35.8 80-80l0-16c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l0-16c0-44.2-35.8-80-80-80L80 96zm368 96L96 192l0 128 352 0 0-128z" />
-    </Icon>
-);
+const BatteryFull = createIcon("battery-full", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABZgAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBRQsGAAE2AiQDCAQgBYMtBzMbyATIjtMlNjcfSQTf2/F9nzvz4CVmJUWwMlihQijajB+VQymjnylDRvGnTj3PeSiAbxS0sRbIAhyzY59XIGK92rQtEivWKlQhrrmrWVFE95WWWJLHz0p/F8jju+yYEtLt9BUuljeN3zR3jKQiAxD1ADBu/uxZ3v8cP0d8+f8l8cUMBMQ4UAhkyNBKgJEygVZyBXK54Of4/3//H1gQQJTCaxPIUYIpmAXIQZLleb3OFVUlNfm8OMjK9dcbi2uNquNGk4ibTWtWvega8biVuN/tyaCaeN3jWduIs01vRsThJjcqIx50fzq4emV1TbWoiWj/tN7TP3y17ivftv259pHanw/haw6OqbeWefFIzFtb75B6a+dFPbWnTtWOZaHeyNm+fAV+5JAVDgGBoO0/u1teN/Lv8qoEfn3313xwGpueolwCQdbz/56WOELpFYAoxT7t6ZMEkjEyGGq1GwKESgRISlUKkGmpngC5Sj0EKNHGIAFKVZotE3mF0MjSBpJqO0FmsP0g18hzUGKkD1GpRpGZEmEIxE8udrKEJvUV/Xr3LYYX01IlrQNLmyOKZbXrvjDRjfZaZ7tt9lhrjY32CGSXWeleW03W4Em+qNBPb30Vhiu2m/vd86y1y24bbbctbzNCcT7sap8+vxsZCVD7yySJSNUPN9frzgEAAA==");
 
 export default BatteryFull;

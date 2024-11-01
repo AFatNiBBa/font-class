@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-five-thirty` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-five-thirty?s=duotone clock-five-thirty}
  * @preview ![clock-five-thirty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clock-five-thirty.svg)
  */
-const ClockFiveThirty: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm232 0c0-10.6 6.9-19.9 17-23s21.1 .9 26.9 9.7l64 96c2.7 4.1 4 8.7 4 13.3c0 7.8-3.8 15.4-10.7 20c-11 7.4-25.9 4.4-33.3-6.7l-20-30 0 56.7c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-136z" />
-        <path d="M256 416c13.3 0 24-10.7 24-24l0-56.7 20 30c7.4 11 22.3 14 33.3 6.7s14-22.3 6.7-33.3l-64-96c-5.9-8.8-16.8-12.7-26.9-9.7s-17 12.4-17 23l0 136c0 13.3 10.7 24 24 24z" />
-    </Icon>
-);
+const ClockFiveThirty = createIcon("clock-five-thirty", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABewAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBWgsIAAE2AiQDCgQgBYMtB14bCgXIjpSuzlQ8/L9d/+1zq7o/oPowI0vDbJy+iSDGb00kxx3/f97+fOejAT4Q2dafOt95P6D//zyBzgPJAw8ooUwjgNh72xCHI/BHSJiINE4o/aAT8vgmO69Eejx9hlv8H8D4VSvnSWplAKIhACYumjfDW9VRneKzysvEZ6YjICaBQiBDhrYCjJEJtJUrkMsF1alCdVQKAogy/tgZKKOEmVgCyEESUp43a9O8TqlevrBOqfai59tE9IzHuz/femE87HK/pXi8a3w/MeLtGZ/XuTbry8nvLvph0jszv6h9dfpnE96aX+fJFs83WxAPnG76TOteIR7r8lzr6PRSw5d+7/jZxs9UOsxpNtJYX/Wsd3f8Kk9n/7us2RxvmVqLVlVvT578dlWrWqaaWktYP/k/e9p7/dAadZ/v9fVYIzWbM6fZZSAQrH/tRstVDcb8X7NOAj++8ue/8D2qvJWkl1BTAkHWp9LH8gQSAQBIcVCnxE8IZAZK8K51PRQg1EaApKy2AJk2GgqQq623ACXtDRWgrLZ5MpHXEppaMSCpaw9khjkBuaaqoGSMD+2yppGlFU8K/qlLmybR1K1iYL8BxahimehSptC2HF24zR4HqdETDm20y077bbDeFvsF2WuGd8AO0yw81YMKA/UzQGGUIpw/awvR3mufLboSXzNasV/0cNDu7wn7JMCgA/FlRIqs1R3U+1aw0fedSuw/0rdGe9qoSkUCAAAA");
 
 export default ClockFiveThirty;

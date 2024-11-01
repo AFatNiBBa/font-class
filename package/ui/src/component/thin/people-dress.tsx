@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-dress` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-dress?s=thin people-dress}
  * @preview ![people-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/people-dress.svg)
  */
-const PeopleDress: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M120 56a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm96 0A56 56 0 1 0 104 56a56 56 0 1 0 112 0zM119.6 210.5c1.4-4.2-.9-8.7-5.1-10.1s-8.7 .9-10.1 5.1l-56 168c-.8 2.4-.4 5.1 1.1 7.2s3.9 3.3 6.5 3.3l32 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96 16 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96 32 0c2.6 0 5-1.2 6.5-3.3s1.9-4.8 1.1-7.2l-56-168c-1.4-4.2-5.9-6.5-10.1-5.1s-6.5 5.9-5.1 10.1L252.9 368 224 368l-48 0-32 0-48 0-28.9 0 52.5-157.5zM104 480l0-96 32 0 0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16zm80-96l32 0 0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96zM156.2 144l7.7 0c30.7 0 58.7 17.6 72.1 45.2l60.9 126.2c1.9 4 6.7 5.6 10.7 3.7s5.6-6.7 3.7-10.7L250.3 182.3c-16-33.2-49.6-54.3-86.5-54.3l-7.7 0c-36.8 0-70.4 21.1-86.5 54.3L8.8 308.5c-1.9 4-.3 8.8 3.7 10.7s8.8 .3 10.7-3.7L84.1 189.2c13.3-27.7 41.3-45.2 72.1-45.2zM440 56a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm96 0A56 56 0 1 0 424 56a56 56 0 1 0 112 0zM439.6 210.5c1.4-4.2-.9-8.7-5.1-10.1s-8.7 .9-10.1 5.1l-56 168c-.8 2.4-.4 5.1 1.1 7.2s3.9 3.3 6.5 3.3l32 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96 16 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96 32 0c2.6 0 5-1.2 6.5-3.3s1.9-4.8 1.1-7.2l-56-168c-1.4-4.2-5.9-6.5-10.1-5.1s-6.5 5.9-5.1 10.1L572.9 368 544 368l-48 0-32 0-48 0-28.9 0 52.5-157.5zM424 480l0-96 32 0 0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16zm80-96l32 0 0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96zM476.2 144l7.7 0c30.7 0 58.7 17.6 72.1 45.2l60.9 126.2c1.9 4 6.7 5.6 10.7 3.7s5.6-6.7 3.7-10.7L570.3 182.3c-16-33.2-49.6-54.3-86.5-54.3l-7.7 0c-36.9 0-70.4 21.1-86.5 54.3L328.8 308.5c-1.9 4-.2 8.8 3.7 10.7s8.8 .3 10.7-3.7l60.9-126.2c13.3-27.7 41.3-45.2 72.1-45.2z" />
-    </Icon>
-);
+const PeopleDress = createIcon("people-dress", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAAB9gAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhhiFIwsGAAE2AiQDCAQgBYMtBzMbpgbIBp4v//rO7dcDuL8XMjOImZNgalNGwsWp57F4LkBvEYgHZY3uiWPbGFPrOe8VbEzaXpGClawAWKxrL/XyKcC44O3c+wBafjMJG6jj6h2wN9wvH0ixCRSWRYhLkNek/dCBvXlRlKLIu/93Qd7RExAA6QCAQQALsIAsAkArLATIojGARiNQlP///f9AAwIAYgdQxTkN+EEqQToCux0UXq19vmZeTyWOeGw+PUQ/6h55sup8xdnUsfIzlefSnhOIjszJ4xTNOZ0ZdDR+JDpIDsUOezyCrKuW3Jk4KiIEA+74EBlHm0WDxe0eOkyQlxyKHokP9bg9jUWGGOGdFWdTat3hse4TlefsuOwoP5Nc/wdJDJWTVec9E4/yQOml4KVPJe+mvGPpVnvN5s1r2gviuMD158+vB24be8IxYF5l0/OosrA2jMO/bZvfnB9HkMgy6NKIGpRbOW6Co9Epcqdzd8A7LuYmZBSL/r5jDfBteFzmixNWJWq2PNRqNU0mDKwsTz+YPSfrJDtn9oNWa6iYOKAx+qIOtayZyAw91/MAIICAr2r507GBVl+dHgXA+0dffnkfwv7/hVqhLgFOFAACVq3/tRil1mHHrlYgxHElSyhV6ITQlMcLjns5gkBScIMJCjtusMgQBI2bmmAjT2N25O6BWIh2IUQZDaDwMh8smrAaNFFug41WvIzZiYr15PDXPf/jmtKFRDovMvXr1DMtjLSmER4G1pttaUZbqi2xeqrDSaYwlzksYjKTmM4iAltA7+RiZtNFRe78XkN96lAPQwvM7OasMoRwL2AhyYmF+VpoiVk/UI0l6uHVwa6IKRtQolAgynuz6Wp/iQAAAA==");
 
 export default PeopleDress;

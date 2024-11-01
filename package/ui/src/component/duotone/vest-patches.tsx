@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vest-patches` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vest-patches?s=duotone vest-patches}
  * @preview ![vest-patches](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/vest-patches.svg)
  */
-const VestPatches: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M56 416a40 40 0 1 0 80 0 40 40 0 1 0 -80 0zM117.1 0c6.6 .3 12.4 4.6 14.6 10.9c6.5 19.6 13.1 39.2 19.6 58.7C168.6 79.7 192.6 88 224 88s55.4-8.3 72.8-18.3l19.6-58.7c.1-.4 .3-.8 .4-1.2s.3-.8 .5-1.1c.4-.7 .8-1.4 1.3-2.1c.9-1.3 2.1-2.4 3.3-3.4c2.5-1.9 5.7-3.1 9-3.2c-.4 0-.8 0-1.2 0C311 0 295.7 9.7 285.7 18.8C276.4 27.2 257.2 40 224 40s-52.4-12.8-61.7-21.2C152.3 9.7 137 0 118.3 0c-.4 0-.8 0-1.2 0zM304 280l0 8 0 32c0 8.8 7.2 16 16 16l32 0 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-8c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-        <path d="M207.1 237.4l-11 33.1c-2.7 8.2-4.1 16.7-4.1 25.3L192 464c0 14.5 3.9 28.2 10.7 39.9C195 509 185.9 512 176 512L48 512c-26.5 0-48-21.5-48-48L0 270.5c0-9.5 2.8-18.7 8.1-26.6l47.9-71.8c5.3-7.9 8.1-17.1 8.1-26.6L64 48C64 21.5 85.5 0 112 0l4.5 0c6.9 0 13 4.4 15.2 10.9l75.5 226.5zM224 464l0-168.2c0-5.2 .8-10.3 2.5-15.2L316.4 10.9C318.5 4.4 324.6 0 331.5 0L336 0c26.5 0 48 21.5 48 48l0 97.5c0 9.5 2.8 18.7 8.1 26.6l47.9 71.8c5.3 7.9 8.1 17.1 8.1 26.6L448 464c0 26.5-21.5 48-48 48l-128 0c-26.5 0-48-21.5-48-48zM96 456a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM63.5 255.5c-4.7 4.7-4.7 12.3 0 17L79 288 63.5 303.5c-4.7 4.7-4.7 12.3 0 17s12.3 4.7 17 0L96 305l15.5 15.5c4.7 4.7 12.3 4.7 17 0s4.7-12.3 0-17L113 288l15.5-15.5c4.7-4.7 4.7-12.3 0-17s-12.3-4.7-17 0L96 271 80.5 255.5c-4.7-4.7-12.3-4.7-17 0zM304 280l0 8 0 32c0 8.8 7.2 16 16 16l32 0 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-8c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-    </Icon>
-);
+const VestPatches = createIcon("vest-patches", true, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAAB1wAAAMFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHiEEQsIAAE2AiQDCgQgBYMtB1QbNwZRVA9CZD8TbDr1CzoTCssrYUtYyLL5yjvc4+Fp7X/nzswuIraIa+InxJuIt18xS0SrkH56DS3BE1Eqz+DXfTP/yN13ghoToJDMCihBmc5Cu/v5//7VD87v/6a/d1r7nbdA/rAeYB7K2AMX0N7nCSyQj81pgU6gIszIGpw34gBDZP8BSrzMnSrS8/QFd93/AMZvI3SS9MgAoj8A1u/a1qH1Nb6m+NJ+R3yxFQGxATQCGRmjBVglC4xWNCiK4Gtq42u0NQQQNXfvGdToiV/4CyggqeRSJk/qM35on9lDe1V9ys5eVc9do21HP2KebeZD2tpckUcsyHaRxVGSk2LUVYfDUkYGMUDKIxA6XJaGzcE2kMph4JjpkNOWjTJXLSctJlyWzMbMx50zhySJpkxxw0JQIm5UlimIGzE1pUyCDBDgsKSjA0Usok1ymyqZWJZdO6YVp4Yqb8Y0bh7Dy8EHroFsF+1ujgoG6bRrt3PJdIjntCKPjO3SzgHmnEXssGG48Wd/U3kDn+aDG0XqrWHo/IFBG+Y936ocgkbfeDQalEDl9tlPDXPhSR+Gn2sgSdMlWw/hm6pLWKXQpx7K9qW0ahRvDw5uF6eQ7Xlt3T8CqOkBA9VV4D/QWwv+4VIKTTzBDvrvdpopkpSiCU1AUZmCVnXP8HBPdfjrRM3OhafERUbOfnzMegAACIBGAWogcKSs/P1pa/v5rVQeuRK6jsvZdCY9rr8YXb9V/zR1Evje9Z/8eu0WW+kNuksgyLPas+yPFmD+AGIpLpsw81XLBLLbKsG79vZEgNATAZJaTwGyUfoLUPQ0U4DKWIsFqPW0TRalhzDYgRpJejuHZEvcQorB3iKVVd5Ha4MjX/Gy61X2w5l6S5u6eVDjP2des6KZzCnlF7FE965sVpvdLvOa6XCqw8447aJDDjrmYot9XkfiklO2zAlu/mxjvjnmaazQ7C7eV+/EuPMuOMZ4en8/KzXn+6e5PN98OrQlgdAF5mWZSJEHXz504eLsz4mo0M9+eOqHDihvFAA=");
 
 export default VestPatches;

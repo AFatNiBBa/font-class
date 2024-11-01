@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mound` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mound?s=light mound}
  * @preview ![mound](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mound.svg)
  */
-const Mound: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512.7 384L63.3 384 171.9 195.2C195.8 153.6 240.1 128 288 128s92.2 25.6 116.1 67.2L512.7 384zM288 96c-59.4 0-114.2 31.7-143.9 83.2L35.6 368c-12.3 21.3 3.1 48 27.7 48l449.4 0c24.6 0 40-26.6 27.7-48L431.9 179.2C402.2 127.7 347.4 96 288 96z" />
-    </Icon>
-);
+const Mound = createIcon("mound", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABVwAAAHhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBGQsGAAE2AiQDCAQgBYMtBywblQTIjtRgrTKLEVRr//bs3fs/AHAhIkXgGByDQqGAWTggm4qMfvX1Pv3NP+88CvAZhTamLQ1k+RjzPIHEunCBB9Tf+O2L4tdt4qNEJHsrJEgiOq7wuOqAPL5GdyXSufQFJ/VD46+m9pHkGYCoA4Axc2fO8OJX/Ir4Ur5LfDENATEWFAIZMrQQYLhMoIVcgVwu+BXlMv8HFgQQFfAQCeTI0RtDADlIUp7Xblq9VDOfU71UbX2NmjXmxuVul6sf7XKxy+wFRwZHPOg+K842PNWhZpxvfKbZnLg29FG1tpfqXPrX5suyL4x6BcOaJ1r9/t2+fWJatXW/WveYzexlq5/YdWJH8Uqx48QuOWfZ7Nk9gEBQ3vPmgNrD/1epnsCfR//rmc1JHdIlVJFAkHUvd7cojdZc89RBAFBSbNPW+SaBpLMEV63htAChGgIkFaoJkGmujgC5aroJUNLKAAEqVDNTJvKqQgOLO0hq2AgyA20HuQZug5Lh3isVGkQWNMSVE3+22IkWmjBV9OnZuxhaTAOVjAMsD4cVy3znbVLoQouWWW+dLZZaYqUtBtlkhr7VWhM9eIIfKvTRU2+FoYrt+HF+jqU22Wyl9daVMcMU5+XOtvn1XUhKgNqXLUlEKr24cUsAAA==");
 
 export default Mound;

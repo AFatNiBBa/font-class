@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `train-tram` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-tram?s=thin train-tram}
  * @preview ![train-tram](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/train-tram.svg)
  */
-const TrainTram: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M78.8 16c-17 0-33.1 7.7-43.7 21L22.2 53c-2.8 3.5-7.8 4-11.2 1.2S7 46.5 9.8 43L22.5 27C36.2 9.9 56.9 0 78.8 0L369.2 0c21.9 0 42.6 9.9 56.2 27l12.8 16c2.8 3.4 2.2 8.5-1.2 11.2s-8.5 2.2-11.2-1.2L413 37c-10.6-13.3-26.7-21-43.7-21L232 16l0 80 56 0c53 0 96 43 96 96l0 160c0 31.8-15.4 60-39.2 77.4l68.9 68.9c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L330.7 438c-12.9 6.4-27.4 10-42.7 10l-128 0c-15.3 0-29.8-3.6-42.7-10L45.7 509.7c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l68.9-68.9C79.4 412 64 383.8 64 352l0-160c0-53 43-96 96-96l56 0 0-80L78.8 16zM216 112l-56 0c-44.2 0-80 35.8-80 80l0 160c0 44.2 35.8 80 80 80l128 0c44.2 0 80-35.8 80-80l0-160c0-44.2-35.8-80-80-80l-56 0-16 0zM176 352a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm160 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-48a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM160 176c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-128 0zm-32 16c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-32z" />
-    </Icon>
-);
+const TrainTram = createIcon("train-tram", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABuwAAAKyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDZAsGAAE2AiQDCAQgBYMtBzEb5QXIjpQuZyRBT69L90nyzfnLDDJzkLgjQoWxI5ieW6zS5ipEf/p7d95atEC+USh/rMZ696PNa4zzBAIM56YSCSwLJE5Is2rb3COL2zsamoXECTg6zCTCwDpovQW2Zy+ln6SyBixsGwAAxQAAAO2HDuzN82/6Jr0N3QG9pScgAHUAwEOATSADTgWtAAKrHTzAwUHwTaFQ+x/ogQBAAQqhxTYHMMAn4DPI08Ai6Di90sPj49CYNDcs0hkS7mhGnilO0J6kfcnJutQUqTslidqbwKcnyS80Qi6iL2aiE80G61RDdMbYNhUO2p4yVA9zpeNlh2a6ksxg45rbxRcy0NHY3eDqnvI52dKxUr/RDNqXtCdhb+L+ZLMyWdrvbk7cy4qEPWZT0j4NDnALLRqRAG+CfXoIMyOYXdnNEhiTvxe4AkAARrhbuX6M/9vbKW/pc+2E/YFOAzs1fGB4TC5e9w80LOH2bvvERvrRjBW+HzxBTM9OnWhoGDiwS1eaJ68guXkIc7D0vU4d6RVzgqDvr2hGPzZuGNusWbOYyUN0Ag2ZHLOCJLJZ09+ob9+i6tDqqA2wIQolxByPVsNULeUv3272YNYV9PqQHazABx5Ezg8DIEDwf2XevbHRrf4FXQuAHw//7n9EIPRUDy0fCGIBILDLQ+WM0nMCBPQQUXgsLSHX8k4IsHhFEHrVCPYhAIQBBIBFAIMAsEknBgHgYChDAISRRQMCIIBhIDZywhEJjJ4hiwjmQzaNLIUcErgFhdGKF54ACbJvbfzGxH8s03ThWZ0neTWV1V4Lz1gyEncrGo+29DZbipegpYTmMoW5zGERk5nEdBZx8gX09i9mNl1sss58EI8aKqnGowXe4eqyZggHt5qFKaonj4/TEu96RzFL7N1LiLEo1NaSZWGBLPMFaypa7Ww=");
 
 export default TrainTram;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-binary` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-binary?s=solid cloud-binary}
  * @preview ![cloud-binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-binary.svg)
  */
-const CloudBinary: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128l-368 0zm16-280l0 32c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-32c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40zm40-8l16 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zm88-16c0 8.8 7.2 16 16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16zm136-16c-22.1 0-40 17.9-40 40l0 32c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-32c0-22.1-17.9-40-40-40l-16 0zm-8 40c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-32zM176 320c0 8.8 7.2 16 16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16zm96 24l0 32c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-32c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40zm40-8l16 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zm104-32c-8.8 0-16 7.2-16 16s7.2 16 16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16l-16 0z" />
-    </Icon>
-);
+const CloudBinary = createIcon("cloud-binary", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABxgAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiECAsGAAE2AiQDCAQgBYMtBzMbCwbIBp4vnfb+au1xJCMl2RwgQHXXAXNPlSbtUUXwP5d7fnZ+gJ8P9PxQxqY5QEaTxxgcBZRg0RoUeJwVQgLesG1kPewYh3HNM9Dy21qHB9Rh9RrY6d5UPpBhHSgKLAAAJAwAALQe2Lc7911xRV79vwLyiq6AAEhrAAwCWIAF5BEAmmEhQB6NATQaAVf+/2f/gQYEAMRLQBW7NOAHSoHP0N4AClvrCtloJBuOoLyw4wnoAeQl7f5PW4jcLXOk5rmGq+VNy3sDrzS+Uf2Yc6XyicJV6SvVzxQebXa7nX8owqrEfseRramDIrI6ecC2ZUt8Hw0d29mfQPbFbTmQFDmYGlilFJXJ0pDtTmngHFWEL0ZWS/kJs46sHNhPTKz/mVRRb39CmZPhk59KXk94zc7iBxthUT60d+85raXt69dt5X69+n1nFq06edIX7XX94YWgp17bXrNCKWNM5OapSJjIqZsRg1YXhkPJKK/BOypMzBsYCrqt8J4b7MXVMEjdGJq1ANbwpbIQcnHhl4ULJzby3BUTi90gfx4AAQQ6ZpsuHhlq9tXnKABKb375AX74v6tWqZOADwWAgFXtfzWGqVUADC8AkChZQJmRLxJA8R6bEPk5sDYj2FCCwosNFjnCoLGpCh6KqM/MlPvOKhddgBBnOAKFn9lg0YDloIlzCTw041nsJS5WYueSKnepmdyhjrRfZ2rXqGWamMGanE+/jJ5tamZrlRbwnspwKxOYyQzmMZ5xTGZeDZtD98x8ptNhjNj+s4ba1KAWhiaY1c3b8gCczGEuk/uF9cs0xewfVWLB+PDK0FQE0jqUKRSI8v/1sLj6mMkzRs9ZDAAA");
 
 export default CloudBinary;

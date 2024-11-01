@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microphone-lines` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-lines?s=duotone microphone-lines}
  * @preview ![microphone-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/microphone-lines.svg)
  */
-const MicrophoneLines: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M16 216l0 40c0 89.1 66.2 162.7 152 174.4l0 33.6-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-33.6c85.8-11.7 152-85.3 152-174.4l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24zM192 112c0 8.8 7.2 16 16 16l80 0 0-32-80 0c-8.8 0-16 7.2-16 16zm0 64c0 8.8 7.2 16 16 16l80 0 0-32-80 0c-8.8 0-16 7.2-16 16zm0 64c0 8.8 7.2 16 16 16l80 0 0-32-80 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M192 0C139 0 96 43 96 96l0 160c0 53 43 96 96 96s96-43 96-96l-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-32-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-32-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0c0-53-43-96-96-96z" />
-    </Icon>
-);
+const MicrophoneLines = createIcon("microphone-lines", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABnQAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCXAsIAAE2AiQDCgQgBYMtB1wbigXIjsQ4JvKLKGy0eHjQe95zk3zA+TYncBbVdqJXeez8OuR9/t/E5c7//OkBF774o+yJkxf4bA0vgcDHojGtSyCgMMBEM7AU3HZRRCW0ndA4QxZb072KkJxMPsX+6H8A4x817CVRIgUQ5QHQf+rE0d77MX5M4tPCE+JToxAQA0AukCJFbQF6SQVqy+TIZIIfk8L8GIVzAoiioiemoCiKYR9OAjKQCFmWte9UKomKlMmmFF9RcuaTZhE3aouzzW92ft7ydr2Scazq8WqlIqK941yLW12mCt/1fjtZlIwr1U82LlXqeq1TTTQu4oe+706NIFcWiAu93gx6v887Dcbe1KNVnph8pLJu7wa3yt/6j0+XfOrdd3fe4lbxC4rfurVTkuoN4/xYtuyP4+QIvR8p90ezZKeB98/3L9FAO+OrVBk/bFgZtdPAHHP+voHNkGpBM0U6DRw3bmCnImrs/tKXevfrHgcCwcLXbb+cW67X/8VLJeDnV2Z+SOUL78W65BaKS0CQtiq0Mit2Kq98rBMAgCS2aBA7zVNeIDVZJnnV0o4JEEoiQKKokgKkaikvQKaklgIUUVdnAYoqaaJUZCWEymb3cKK09XCqi21wprLHcBG9fBAXVTlSXLKoYv8Kk4aMgcGz8vZt2uU98s1cy0GN9sd75qetZlt0W3O61RJrrbHJYosst2kEbTA622y1IXvgYB+Ua6+NdnI95Ler59KUUbzBRsvXhfvT9JS/7zezZb93c+omEsIO5qRSIom0+hfNgFdp7Zq11iDvXnNRcNEAAAA=");
 
 export default MicrophoneLines;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-minus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-minus?s=solid message-minus}
  * @preview ![message-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/message-minus.svg)
  */
-const MessageMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L448 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-138.7 0L185.6 508.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3l0-80-96 0c-35.3 0-64-28.7-64-64L0 64zM184 184c-13.3 0-24 10.7-24 24s10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0z" />
-    </Icon>
-);
+const MessageMinus = createIcon("message-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABXAAAAHiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBJQsGAAE2AiQDCAQgBYMtBzQbqQTIjsQ4JvKLKDQxxcP3a1+e+7qHepahF4DBIYdYEjs2Yio2FRmZ+h2i/Y7v4uZ551GAbxTaHhrIAtvzPIHEujxPKAss0wQsa2fflx9Etxikj3ySYdIPm8EJeXyf3VRFepH+wr380PhHezdJ6jIA0QwA09asWOSXhmiI+LPyJfGnBQiIaaAUyJChkwATZQKd5ErkckFDVCrh/1cSQFRDSAI5h8diEugHkaQ879movqpxvrq+qsheDYj4rE/j+KDfJ+1TPO/7cc8iVsbjNk8joogP+3/aIVv1frsXverjo44vexfdP2326b/8tfsvV4vmNH/7qrebNy9KRfPmb99yfqOTN24US20dBb4+s6x162X3lesgEEzd979bmk78r7Y+gb+/a/IVVX5K0qeolUCQDawMtDGBRAAAUpzWPUEgGSrBXRt5KkAoECCpVgiQ6aiZALnCAAGqdDFKgGqFFTKR1wmtbGqQNHIMMqNdglwrn0OViX51qrWKzHWoi6debvGzNTJrqxw2eGg5vpwmKu0NRFxOKJf1vqel0Y8O7XbEYSftstM+JxV23CL/lENmW+gsLyoNM9hQpfHK7fx+f7VdjjthnyMOpzUTlOftvk7b/f3ISoA7XChJRGrsUPKgH+eFEw==");
 
 export default MessageMinus;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `burger-glass` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-glass?s=sharp-duotone-solid burger-glass}
  * @preview ![burger-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/burger-glass.svg)
  */
-const BurgerGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 0L5 64 40 512l216 0 0-229.4c3-9.1 6.7-17.5 11.6-25.9c6.6-11.3 17-25.9 32.7-40.4c17.2-15.9 40.1-31 70.1-41.6L379 64l5-64L319.8 0 64.2 0 0 0zM69.2 64l245.6 0-7.5 96L76.7 160 69.2 64z" />
-        <path d="M640 319.8l0-32s-32-96-176-96s-176 96-176 96l0 32 352 0zm-272-64a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm96-32a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm64 32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm-240 160l352 0 0-64-352 0 0 64zm0 96l352 0 0-64-352 0 0 64z" />
-    </Icon>
-);
+const BurgerGlass = createIcon("burger-glass", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABiwAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCEwsIAAE2AiQDCgQgBYMtB1QbOQXIFkpL8Lwe38+5ydOaWcDohc8eQOeSJVXBmf9rPr/nRwf4jQ6lc1HPo2icqSUwoagE3oQ2U5vfzveidKnLSAguybC5/rD87FAOG8hTt+yyCtK99AGu8P8Axo9aukxSkwGIBgCYsGzRHG99Fp+l+KB8jvjAbATERFAIZMjQRoDRMoE2cgVyueCzVJZ8FmVZEEBU4tdloBK1sBVHADlIKqU8b1xjYpvW1K6omy/lC2vtC3Gn1X0jX1n64fCXWtxtKupuvNP8VtObTW43W+axWplBPRbXrVM3ok6Q3ijr0LHDiqgdEXea39/r0VHLolPUWly7Vu3FUSuWdnykwSM/d/hg6wfOnSuKIr75eOnWqTE1ti79+JsorK8/rt5nn9Wr+/nndde1d1irlOT89eH1MW689cavT05vzcOCHd/0qa+NOXVh652nqveaZ/zf4343/qp1vvH9IBCs3b2zxbr6o3+rrp3AF6/8+gM6uHwrXUiPoFoCQda77G11Ok9ZCs2CjZHiqI74pWiPQGa8SvjUOm4LEGohQFKplgCZ1hoIkKullwAV2hkiQKVaFslEXiM0saaApI4DIDPUGZBr4llQYbS3A5WaRKZylMJQf3zxU4WmdCsG9O1fjCyWCZnWIiI0jiq29e5HK+iBobbaZ6/Dtthsh8MgB80JH7HHVAme4osKA/TVX2Gk4jh9zy/FedAhT8zZ805GKe77ujsql+8BK4moA43PZESKrMnGIwe3bTnY5yOT+2hvcbMB+1IB");
 
 export default BurgerGlass;

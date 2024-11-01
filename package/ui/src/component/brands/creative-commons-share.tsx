@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `creative-commons-share` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/creative-commons-share?s=brands creative-commons-share}
  * @preview ![creative-commons-share](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/creative-commons-share.svg)
  */
-const CreativeCommonsShare: typeof Icon = x => (
-    <Icon viewBox="0 0 496 512" {...x}>
-        <path d="M247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3zm101 132.4c7.8 0 13.7 6.1 13.7 13.7v182.5c0 7.7-6.1 13.7-13.7 13.7H214.3c-7.7 0-13.7-6-13.7-13.7v-54h-54c-7.8 0-13.7-6-13.7-13.7V131.1c0-8.2 6.6-12.7 12.4-13.7h136.4c7.7 0 13.7 6 13.7 13.7v54h54zM159.9 300.3h40.7V198.9c0-7.4 5.8-12.6 12-13.7h55.8v-40.3H159.9v155.4zm176.2-88.1H227.6v155.4h108.5V212.2z" />
-    </Icon>
-);
+const CreativeCommonsShare = createIcon("creative-commons-share", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfwAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCIgsGAAE2AiQDCAQgBYMtBz0bLwXIhuD5vL6vc5N+6PTQGRJf0MrgFtTUqec5DwXwLYMgaGNO7ADd47wCFRu+CWoPFlGstbNfXhLdJvHBJxm2N4wekMfdcYYK6cL0Ck5PkMbXOjiRpJIBiOYAmL525WJPfBAfRLzy/73EKxYiIGaAUiBDhs4CTJIJdJYrkcsFH8T///N/YEkAUQewJZCjHnviBEAOkkqed2nVuVljUWmSrykq1Y3vLo54dXjEnavfmfbEvBdWvbfkpRlPrXl/5N1LX1/rnWURb6x6d/mbq99f+fba91a8tWb1uW3EOa2rcV7bCGrOb1fEpFesKqpFy4wja6vBFg6CHjc1v+nb7q/s/Irf759jX/b9jd/NNr9v26OPnm6mfY9pV2+2GZ//vt9+cw1enw7ncMtj1WkXrE7L3Hdt2hRrTj11Tex4whO1+9SeOMUdtTHGeKK4X6czTxPRI/v3x42dFFeO1c+eLr597Z6oLrEnjwPx3u87HrJwa7NJvzYUCXz00Pd/y1///0L8kG5CgwSCbND/g2yKH4CpAXRSHKyH0rJAsqMK4FdrzhMgVBEgqVMVINNJcwFyVQMFqOhqtAB1qlbKRN4otLa5gqRmP5AZ4yiQa+1uUDHJ8506rSOzPM5uuH9f8hyJzL5UDh8yrJxQLkcKb0xMOJ1Ybtv9DnYr/emune1jbwfayY52c6DA9re4f5C9zNHQ2VpUGm6IYUoTlMfT++tr7GR/B9jNPvaO50xU3s/7OVjf3p+8BLQjDCSJSG2frjb4QboHDDZXAAA=");
 
 export default CreativeCommonsShare;

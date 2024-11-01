@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `futbol` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/futbol?s=duotone futbol}
  * @preview ![futbol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/futbol.svg)
  */
-const Futbol: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M1 278.9c3.5 39.4 15.9 76.3 35.2 108.5c35.9-2.4 71.8-4.8 107.6-7.2c6.4-.4 12.8 1.4 18.1 5.2s9 9.3 10.5 15.6c8.8 34.9 17.6 69.7 26.5 104.6c18.3 4.2 37.4 6.4 57 6.4s38.7-2.2 57-6.4c8.8-34.9 17.6-69.7 26.5-104.6c1.6-6.3 5.3-11.8 10.5-15.6s11.6-5.6 18.1-5.2l107.6 7.2c19.3-32.2 31.8-69.1 35.2-108.5c-30.4-19.2-60.9-38.3-91.3-57.5c-5.5-3.4-9.6-8.7-11.6-14.8s-1.8-12.8 .6-18.8c13.4-33.4 26.7-66.8 40.1-100.1c-25.1-28.8-56.6-51.9-92.3-67.1c-27.6 23-55.3 46.1-82.9 69.1c-5 4.1-11.2 6.4-17.7 6.4s-12.7-2.3-17.7-6.4c-27.6-23-55.3-46.1-82.9-69.1C119.8 35.8 88.3 58.9 63.1 87.6c13.4 33.4 26.7 66.8 40.1 100.1c2.4 6 2.6 12.6 .6 18.8s-6.1 11.4-11.6 14.8C61.8 240.6 31.4 259.7 1 278.9zm165.3-37.2c-3.2-9.9 .3-20.7 8.7-26.8l66.9-48.6c8.4-6.1 19.8-6.1 28.2 0c22.3 16.2 44.6 32.4 66.9 48.6c8.4 6.1 11.9 16.9 8.7 26.8c-8.5 26.2-17 52.4-25.6 78.6c-3.2 9.9-12.4 16.6-22.8 16.6l-82.7 0c-10.4 0-19.6-6.7-22.8-16.6c-8.5-26.2-17-52.4-25.5-78.6z" />
-        <path d="M1 278.9c-.7-7.5-1-15.2-1-22.9C0 191.5 23.8 132.6 63.1 87.6l40.1 100.1c2.4 6 2.6 12.6 .6 18.8s-6.1 11.4-11.6 14.8L1 278.9zM199 505.6C130 489.9 71.6 446.4 36.2 387.4l107.6-7.2c6.4-.4 12.8 1.4 18.1 5.2s9 9.3 10.5 15.6L199 505.6zM475.8 387.4C440.4 446.4 382 489.9 313 505.6L339.5 401c1.6-6.3 5.3-11.8 10.5-15.6s11.6-5.6 18.1-5.2l107.6 7.2zM448.9 87.6C488.2 132.6 512 191.5 512 256c0 7.7-.3 15.3-1 22.9l-91.3-57.5c-5.5-3.4-9.6-8.7-11.6-14.8s-1.8-12.8 .6-18.8L448.9 87.6zM356.6 20.5L273.7 89.6c-5 4.1-11.2 6.4-17.7 6.4s-12.7-2.3-17.7-6.4L155.4 20.5C186.3 7.3 220.3 0 256 0s69.7 7.3 100.6 20.5zM241.9 166.3c8.4-6.1 19.8-6.1 28.2 0L337 214.8c8.4 6.1 11.9 16.9 8.7 26.8l-25.5 78.6c-3.2 9.9-12.4 16.6-22.8 16.6l-82.7 0c-10.4 0-19.6-6.7-22.8-16.6l-25.6-78.6c-3.2-9.9 .3-20.7 8.7-26.8l66.9-48.6z" />
-    </Icon>
-);
+const Futbol = createIcon("futbol", true, "data:font/woff2;base64,d09GMgABAAAAAANwAAoAAAAABwgAAAMkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDRgsIAAE2AiQDCgQgBYMtB0gb4AXIrgbshvhAABXf1IQ4QxUvdj/Q2ax2JTR4HsfS95OU0iszjNFt6vyAWAGzRDuhxwP9WOv9xUwTnhgiSbxRqWxoNFE7yx7FQ71+IerTA0kk8TygQJsnWIq1KC8+6EFWtyuJOMrihF6Invf0KuMgiqRFkbcAM4iizz8/PgU83v+4n+cfuECe+PePFrWIogqKyPMJDLTrfLbpgIc6cZvC5ljiooZlC+0PYMKnXBQHdRAZsCVZLb8o4kTxiCHBJZO/AVI3OdDFgx9+RnjjIF8ZBgKQQQCxBGigQSQBUEkTEMmIBYYh+En/5Sf+txICAImHPFEDcAUWXIMfAAADQHGlYo3D25umBF6IZ5yXGaafZ0d2ZZ/LTu524NjQs74QbrVPylLeTtD4vIulIdwYmpS9gj1Pmfk6XoETspu/GzI5PDgyuNN6/oS8TonesT1B47JTOCbbtcnh9EbGYcHkyLGsD8zAchF3c2xvuEqI/OFFzW1yTkNzFIGkd+3Xqfepn2ge00F8pIMwWgXNdSIsk/tDgpy9vJdlO6HHkZ9qDsPzt1Sf9338h1/1cjYZZO5AY8o8SptSneO9T9/ACQ4/nY9nF6Jh4YsDN148zKGB3k9YdL3d0xT3VY/MpSZ7fpyNTaWvfBP1/Y25Z4NN3lBfy1/t+mv94waFl1LUxYx+zPja3E/LJM7O/hixb7M/101lV59kE8Nk7yM3T3Uxm7Z+/Z078xM1uXV9C8iMzty+2uZl65yX3kiXtGVteOBkIpNcfrzChE/zvlm/aG5gYC4ACBAk/977mYyBXykKgN/71/4K/x/UI7hTAAS6VTYZAaAgAAAAQIWN4iMAIUAbpTERh90CU6fFCIorC1oEXzCsDHARrei4K2uAJrEeiEBTBBSHNaAV2wRGoMvgotLzoKvAEGOYWaPI/komNc+Rpkmxedm5seWxhyU9Zz7pcLQi9rY2dSNtScNWFlplpfUWmG+J9TN0ra7IBis0n5GbvhsrT7ZcscrFvq6+1gybWdZaR+l94f04FWLZO1NtPO+eBoOSUeY7rmlIRLT3wuj6uauWZzkKpe9UsPwAAA==");
 
 export default Futbol;

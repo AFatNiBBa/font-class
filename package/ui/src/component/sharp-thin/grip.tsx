@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grip` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grip?s=sharp-thin grip}
  * @preview ![grip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/grip.svg)
  */
-const Grip: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 400l0-96-96 0 0 96 96 0zm16 16l-16 0-96 0-16 0 0-16 0-96 0-16 16 0 96 0 16 0 0 16 0 96 0 16zM432 208l0-96-96 0 0 96 96 0zm16 16l-16 0-96 0-16 0 0-16 0-96 0-16 16 0 96 0 16 0 0 16 0 96 0 16zM176 400l96 0 0-96-96 0 0 96zm96 16l-96 0-16 0 0-16 0-96 0-16 16 0 96 0 16 0 0 16 0 96 0 16-16 0zm0-208l0-96-96 0 0 96 96 0zm16 16l-16 0-96 0-16 0 0-16 0-96 0-16 16 0 96 0 16 0 0 16 0 96 0 16zM16 400l96 0 0-96-96 0 0 96zm96 16l-96 0L0 416l0-16 0-96 0-16 16 0 96 0 16 0 0 16 0 96 0 16-16 0zm0-208l0-96-96 0 0 96 96 0zm16 16l-16 0-96 0L0 224l0-16 0-96L0 96l16 0 96 0 16 0 0 16 0 96 0 16z" />
-    </Icon>
-);
+const Grip = createIcon("grip", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABigAAAHeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCDEwsGAAE2AiQDCAQgBYMtBysbjgXIngVOmRUf8Z2PMKRp4ySc8/+2iKfWPvvNztHscRAskWKbSJSANmxsHIEEtlHng0L+ij0dvf7/b/M+JPNDvIdkU8nQSJMkJk0stoWytmSefE+I2vapUzVzUAAfRLJ2z+trAO2JBYn1PCC5aLuFawULUNkC5rVtxiHmEIRbRESVhDRMj8P2F6h57hqT8rTAw/KlWbbOh6LrAGQeAJy8UIvwG2WU/BgiP5wGgZwEsJWgQ4eNBByhCzYybAVVFUYZhvQfSAiQccoUz1fM4i2+ASoopmudWmB3hZT6sZl6ntPaVZEW6Ve1voVi63sR57eVS33rI3PPIUdpcSTY/t77t5nwZc8lTUVPbzD/oEdRt+qRc3/WxJfoRetSb8f5ov56fgcQhJenOnDROvJ/si/g3/eX6Z0slfeYVEDodg47tbLEiAi0UvIANjIWFG9MAz512iMB0RBQjGsCOhsoAqpmBwFjNssTMK45Q5c6JVZqd1BMuw06h11BtdIXjDniXxm3Ml3EqvGm/jBmhSManGM6kWKFx66mBaGct6u8LjgXmXKRiImtjZOxkbnTIB1E9bO10BIDGaK0hBSqoHvwbDWpcnA036t+yClVfF90XOzFLuLQAPu/tSydKfXmYb4D");
 
 export default Grip;

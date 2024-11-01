@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-dotted` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-dotted?s=light face-dotted}
  * @preview ![face-dotted](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-dotted.svg)
  */
-const FaceDotted: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-17.1 0-33.8 1.7-49.9 4.9c-8.7 1.7-14.3 10.1-12.6 18.8s10.1 14.3 18.8 12.6C226.4 33.5 241 32 256 32s29.6 1.5 43.7 4.3c8.7 1.7 17.1-3.9 18.8-12.6s-3.9-17.1-12.6-18.8C289.8 1.7 273.1 0 256 0zM398.2 43.1c-7.3-4.9-17.3-2.9-22.2 4.4s-2.9 17.3 4.4 22.2c24.4 16.4 45.5 37.4 61.8 61.8c4.9 7.3 14.9 9.3 22.2 4.4s9.3-14.9 4.4-22.2c-18.7-27.9-42.7-51.9-70.6-70.6zM131.6 69.7c7.3-4.9 9.3-14.9 4.4-22.2s-14.9-9.3-22.2-4.4C85.8 61.8 61.8 85.8 43.1 113.8c-4.9 7.3-2.9 17.3 4.4 22.2s17.3 2.9 22.2-4.4c16.4-24.4 37.4-45.5 61.8-61.8zM36.3 212.3c1.7-8.7-3.9-17.1-12.6-18.8s-17.1 3.9-18.8 12.6C1.7 222.2 0 238.9 0 256s1.7 33.8 4.9 49.9c1.7 8.7 10.1 14.3 18.8 12.6s14.3-10.1 12.6-18.8C33.5 285.6 32 271 32 256s1.5-29.6 4.3-43.7zm470.9-6.2c-1.7-8.7-10.1-14.3-18.8-12.6s-14.3 10.1-12.6 18.8c2.8 14.1 4.3 28.8 4.3 43.7s-1.5 29.6-4.3 43.7c-1.7 8.7 3.9 17.1 12.6 18.8s17.1-3.9 18.8-12.6c3.2-16.2 4.9-32.9 4.9-49.9s-1.7-33.8-4.9-49.9zM69.7 380.4c-4.9-7.3-14.9-9.3-22.2-4.4s-9.3 14.9-4.4 22.2c18.7 27.9 42.7 51.9 70.6 70.6c7.3 4.9 17.3 3 22.2-4.4s2.9-17.3-4.4-22.2c-24.4-16.4-45.5-37.4-61.8-61.8zm399.2 17.8c4.9-7.3 3-17.3-4.4-22.2s-17.3-2.9-22.2 4.4c-16.4 24.4-37.4 45.5-61.8 61.8c-7.3 4.9-9.3 14.9-4.4 22.2s14.9 9.3 22.2 4.4c27.9-18.7 51.9-42.7 70.6-70.6zM212.3 475.7c-8.7-1.7-17.1 3.9-18.8 12.6s3.9 17.1 12.6 18.8c16.2 3.2 32.9 4.9 49.9 4.9s33.8-1.7 49.9-4.9c8.7-1.7 14.3-10.1 12.6-18.8s-10.1-14.3-18.8-12.6C285.6 478.5 271 480 256 480s-29.6-1.5-43.7-4.3zM176.4 232a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm184-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM184 336c-8.8 0-16 7.2-16 16s7.2 16 16 16l144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-144 0z" />
-    </Icon>
-);
+const FaceDotted = createIcon("face-dotted", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABsAAAAKiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDAwsGAAE2AiQDCAQgBYMtBzIbhQXIjtEnYz5mjng8ICKCFw/9r73emX0BQpsoVGGb81WAjCrb6LIC9CRchQUSJiCrq3f+7fRfINbGNVvrKZrirhAncr6+Hfzj3p3/tegDPqOPMlbh3DgmjTHPEwiwi6aVL9ECyzQBa3HbTRHTkEZI3KDEV8gNlnyNusaz4EPjnzFjpFIBiF4AwM5xbjo4QaDLiG/1JvHNHiAgdgHMglChwiQIrEMLTMKYBRRFcAnVtfgPtAICiGbR6xIUdOEDvgAKSB2l9HV19dGytrbOjqaucsR3tp8/tNNx9fxpssqe7jPypkj5Lzg67q57x78UUkVk79xxWw0uh+bRpAlcjM2nLNCwuHZb0gwuRtds4wNaVOVcDMbBPY/qrc6FoHnXvqdITpJVjhMXJkhKh4JpscVhQmC2Lyzk7jvk6Th6Ljle8g080vwnxty79XXDtfp4HH6aDn+I5fNjHxq0v3dFGpdTVets0pjydKft8i1R9LFNeTq/17azZRlLqtRIn97CE0WixHDkWerH5/u9YjeunqT+PJ6/9BmhBzcWLaczbRfvTlVtM0ljWmZuOz11VdBOm+p0YRc0fm/InmCRCH7qbrxXYvubzeVmp+Q2X2/rlgeR7u7L58DfDwLBg5s/MZX09f8EcoLrvc9/8ldUn6T8BGiVIKgWazdlCZIAAGTcZ5MQSC90iOydK0hkQzstpGbtUJnAgKLdAjSZ5q/uvLAPLUqbMKgchtTpFlTW9EMxaB2arDtLNRuMClJ1ONN/FLMn9JH4bVbeHl5WIVaLbbUBfKpdD7Xa7XBSyDFnfBQ06NQBVq9OM7gn9kjP9mmXsCbE+yIr3jx4sRLC6nTvsb2Apnr0ap63zm8Syur+iBPF+mxn7EaJJJdUpSSy4zsoda/rhOH6Og==");
 
 export default FaceDotted;

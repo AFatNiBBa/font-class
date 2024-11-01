@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `family-dress` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/family-dress?s=regular family-dress}
  * @preview ![family-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/family-dress.svg)
  */
-const FamilyDress: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 64A64 64 0 1 0 64 64a64 64 0 1 0 128 0zM112.3 208l15.7 0 15.7 0 38.9 0c-4.3-9.8-6.7-20.6-6.7-32c0-2.4 .1-4.8 .3-7.1c-9.6-5.7-20.8-8.9-32.6-8.9l-31.4 0c-28.6 0-53.7 18.9-61.5 46.4L11.7 343.2C5.8 363.7 21.2 384 42.4 384L64 384l0 104c0 13.3 10.7 24 24 24s24-10.7 24-24l0-104 37.5 0c-3.5-10-5.5-20.8-5.5-32l0-16-80.4 0L96.9 219.6c2-6.9 8.2-11.6 15.4-11.6zM336 176c0 11.4-2.4 22.2-6.7 32l38.9 0 15.7 0 15.7 0c7.1 0 13.4 4.7 15.4 11.6L448.4 336 368 336l0 16c0 11.2-1.9 22-5.5 32l37.5 0 0 104c0 13.3 10.7 24 24 24s24-10.7 24-24l0-104 21.6 0c21.3 0 36.6-20.3 30.8-40.8L461.3 206.4c-7.8-27.5-33-46.4-61.5-46.4l-31.4 0c-11.8 0-23 3.2-32.6 8.9c.2 2.3 .3 4.7 .3 7.1zM448 64A64 64 0 1 0 320 64a64 64 0 1 0 128 0zM256 224a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm32 112l0 16c0 8.8-7.2 16-16 16l-16 0-16 0c-8.8 0-16-7.2-16-16l0-16c0-17.7 14.3-32 32-32s32 14.3 32 32zm48 16l0-16c0-44.2-35.8-80-80-80s-80 35.8-80 80l0 16c0 24 13.2 44.9 32.7 55.8c-.5 2.7-.7 5.4-.7 8.2l0 64c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-64c0-2.8-.2-5.5-.7-8.2C322.8 396.9 336 376 336 352z" />
-    </Icon>
-);
+const FamilyDress = createIcon("family-dress", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABsQAAALLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDPgsGAAE2AiQDCAQgBYMtBzMbwQXIjsK25XOJCYOPMCWoOIiJhw873j93dx/gDeyKrowOYpXUaeUuX9OnU/vdQRDVmO4F6MNlxeCBSFaRaoRs6oDJEo6PEWULpGj+r/n8nh8d4Ac50UPJWha2RaWWwACL5ge+t+eVPNMJ2AbnTT6EkBjKdcjiVYwoILmX+MAVd6fxIyFOIlGQAohqAJjWXF/J+9v4LPH9/yHxPeUQENOAXCBFinYBJkoF2mVyZDLBZ/n/P/kPzBFAFPIvOAEZSvAWvgeQgURRllUMTKyw1UeV6SuyZUpfunopYa/vTvtiv90B+10NylJ2O7pjqtQS5+s3mhtkomGyQYm412u7TaQsbodEaSyX6aZmr79StxoaxRKiKp+Bj8RNNzbJXO89Jr2WH49bw3zrcGCjeaZl6fJGwk1/i+V2o8ixDZll/Q2TRgWhjaMPuIHgwQni6FCgTMWFSSGW6Gvc74p4WL33c7iv7QfXXdr7t9+/psm+5g87nXM6XTrtR3eYxn9UQ0yPKRcuvDaymYaFtQEd9LbO5bSAfB/jH3wKde2MDXswvpa6gGo186KRo9FvW4TstR8tUT+BYWo/arNdnnPy3t1feT4+fl5JHKEep2+ovJWoz/ZqKs+etQv/XUc0teING5rEScMXbTZ1WAqDu8ohS78EAALBsoG56xZHxpdJJeDr2cs3/xmZ/r+JPzR7KJaAIB34P5A1GhQrjj8QAEASB+meoFgg8ZQi/qGWu02AUIoAiUKlAqTaVAuQKTVAgAKdRglQqNRiUpGVCPXWViBRbg9IjXYIZOo9AgUm+hAuVB/a65i+Cum/yISiJlS4KCx98NB8fD5aVjCXJqnHJ+SLjXEHeVs/uJWN7GIn+9nAerawv4HsZW7sADuYPQXP4ovkhhlsqNx4+ebaXWEZduxlHxcY5rbPM0F+vLevg9O9+0FLwsccLi+REEn55S4lfxcAAAAA");
 
 export default FamilyDress;

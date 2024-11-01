@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sheep` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sheep?s=sharp-thin sheep}
  * @preview ![sheep](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sheep.svg)
  */
-const Sheep: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M392 288l168 0 0-185.4L505.4 48l-58.7 0L392 102.6 392 288zM338.7 141.7l16 25.8L376 155.4l0-40.5-37.3 26.9zM356 185.2l-6.7 3.8-4.1-6.6-24-38.7-3.9-6.3 6.1-4.4 55.9-40.3L440 32l72 0 60.8 60.8 55.9 40.3 6.1 4.4-3.9 6.3-24 38.7-4.1 6.6-6.7-3.8-20-11.4L576 288l0 16-16 0-168 0-16 0 0-16 0-114.2-20 11.4zm241.3-17.7l16-25.8L576 114.8l0 40.5 21.3 12.2zM448 144a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM304.2 69.9C315.1 61.2 329 56 344 56l0 16c-11.3 0-21.7 3.9-29.8 10.4l-12 9.5L292.1 80.4C283.3 70.3 270.4 64 256 64s-27.3 6.3-36.1 16.4L209.8 91.9l-12-9.5C189.7 75.9 179.3 72 168 72c-22.5 0-41.5 15.6-46.6 36.5l-3.5 14.2-14.5-2.2c-2.4-.4-4.9-.6-7.4-.6c-26.5 0-48 21.5-48 48c0 4 .5 7.9 1.4 11.6l3 12.1-11 5.9C26.3 205.7 16 221.7 16 240s10.3 34.3 25.4 42.4l11 5.9-3 12.1C48.5 304.1 48 308 48 312c0 26.5 21.5 48 48 48c2.5 0 5-.2 7.4-.6l14.5-2.2 3.5 14.2c5.1 21 24.1 36.6 46.6 36.6c11.3 0 21.7-3.9 29.8-10.4l12-9.5 10.1 11.5c8.8 10.1 21.7 16.4 36.1 16.4s27.3-6.3 36.1-16.4l10.1-11.5 12 9.5c8.2 6.5 18.5 10.4 29.8 10.4c22.5 0 41.5-15.6 46.6-36.6l3.5-14.2 14.5 2.2c2.4 .4 4.9 .6 7.4 .6c17.8 0 33.3-9.7 41.6-24l17.8 0c-8.7 21.6-28.9 37.3-52.9 39.7L391.8 505.8l-1.5 6.2-6.3 0-72 0-8 0 0-8 0-56 0-8 16 0 0 8 0 48 57.7 0 27.7-117.9C397.6 404.6 373.1 424 344 424c-15 0-28.9-5.2-39.8-13.9c-11.7 13.4-29 21.9-48.2 21.9s-36.5-8.5-48.2-21.9C196.9 418.8 183 424 168 424c-29.1 0-53.6-19.4-61.4-45.9L134.3 496l57.7 0 0-48 0-8 16 0 0 8 0 56 0 8-8 0-72 0-6.3 0-1.5-6.2L89.6 375.7C57.3 372.5 32 345.2 32 312c0-5.3 .7-10.5 1.9-15.5C13.7 285.7 0 264.5 0 240s13.7-45.7 33.9-56.5c-1.2-5-1.9-10.2-1.9-15.5c0-35.3 28.7-64 64-64c3.3 0 6.6 .3 9.8 .8C112.7 76.8 137.9 56 168 56c15 0 28.9 5.2 39.8 13.9C219.5 56.5 236.8 48 256 48s36.5 8.5 48.2 21.9z" />
-    </Icon>
-);
+const Sheep = createIcon("sheep", false, "data:font/woff2;base64,d09GMgABAAAAAAN4AAoAAAAAB4AAAAMsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUiEfwsGAAE2AiQDCAQgBYMtBywbewbIBv75z6nd9yW5jmS38jmChFUAclMApgHiHfBqVuXtMHj+z8UL0AGm2HwoURfRGKndAnt+gP8dbX4VvOdnZyeMN7rtpoh5KB/rcAC2/mEODpiL5jPguPel+oYS9oDBsgAAkA8AAPQcP3ooH9zTPenTwqugTxkMCEA9AUgQYAEWUI4AqMZCQDk2CWBjI7inQoH9ByYgAFCK4GADgA0UgapATQHog8BQw7azRc2LoKlvek7WHuc57mzP9aRRcjVCjCspLWkoqVPzIA4itVCkWMM1Wp5GaqhCBWqmwF7cQAi5riTVG19WXJYXqj/ubHgmOBedj9tbqaof97iHDgXLE+caPOJZ3PbUGRsr3hEemXuk+GJ9DD7DxfBs/cNxrFBnEepxPeRxgTnPo9bHyzxdaTdGwRM8Eooi0r3jdSF4xD3U4Il6jzXhlXOlY+XNSo++KNI4PVZ6qXRn/FTl9abndLnp0w0Ph5cbPu4drl/qPdq4zlP+U9/V/mzeZ+y//kQAfJN55JnHm+1O/hVQh9CIQe7sTAfWIumjWc9nDKCvZwztWWc8mzyr8PHf8FlF/kd/CzSofsiZ+F7NmvegoyA5aPr7E7OxT+7jN7nMnREj7lzmTT7O5T5+a3hz7pPYwe3PrZTTlEfZkslseZSmOCnr81ut7OQ+zRn+1rrh9um/8HWO+30rdxKSGpGmEwjyn2tFntK1jP43E8XZ4KuvgmwcZf4dXbqWPK3mBfxYelhIxU52/fRTOh39FEU/xmk3l7vh9Oibyca73gcAAYIpw1r9OL1W9W9pzwDw4K0fvskvp/CB2WyeAtIYAARWs0IzppgdgDNTQUDQABitow60q6UppgboUzOcQwAIFxAAhhQuAsCiDB8BYOPSFAHgUEl7BEAKl9FYyC5CBEw1uCHDStyiA1txm4CXcYdqPsynCGS9J5Irl35Ts/ZrI313Ja1btEryyWRXKTt9YXa7S7La22gdn2oMDZnHcpaxhrnMYSFrWtgqhpbWspR+c8y+v01oTQtakZAn2T24bx2Ho6tYzYVxeb8WupCcn2zEuvnFjWHAELC2ocFgQMb5JmlbAQAA");
 
 export default Sheep;

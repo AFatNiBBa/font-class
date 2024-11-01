@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-check?s=regular hexagon-check}
  * @preview ![hexagon-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hexagon-check.svg)
  */
-const HexagonCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M17.1 292c-12.9-22.3-12.9-49.7 0-72L105.4 67.1c12.9-22.3 36.6-36 62.4-36l176.6 0c25.7 0 49.5 13.7 62.4 36L494.9 220c12.9 22.3 12.9 49.7 0 72L406.6 444.9c-12.9 22.3-36.6 36-62.4 36l-176.6 0c-25.7 0-49.5-13.7-62.4-36L17.1 292zm41.6-48c-4.3 7.4-4.3 16.6 0 24l88.3 152.9c4.3 7.4 12.2 12 20.8 12l176.6 0c8.6 0 16.5-4.6 20.8-12L453.4 268c4.3-7.4 4.3-16.6 0-24L365.1 91.1c-4.3-7.4-12.2-12-20.8-12l-176.6 0c-8.6 0-16.5 4.6-20.8 12L58.6 244zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
-    </Icon>
-);
+const HexagonCheck = createIcon("hexagon-check", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABawAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBWgsGAAE2AiQDCAQgBYMtBzQb3gTIngfZSfNEQmVj1XS5fvHw/3b9t8+t6vcB1QeMHOAAyuAgfGtCRzNpd8DPGOZkLoasb//5v6ZelF0DfoLjQ4nG22Z780jAzOcNNrHUCrEonA1oYjxrZ6egRLeiT/kkw/aG0RLy+DxSIt1OcLG+afypmQskpQxA1AXA2MXzZ/qmMiojfix/SPxoOgJiLCgEMmRoKcAImUBLuQK5XFAZ5XL4DywIICrw7hLIUcIMrATkIMnyvGnThjVKtfJFNUrVF7/Ve7G3B9eID3su9GaPBd4YUD0+6rWoa40Wut6oRtxsstjNxovcaFw9rjVcsAWLFzzrNM+dFi87jozFgZ/ebtrutbqv/d3WJurebd9+8c07844z8xbfItiH27dT236jftsmFRzY7jTTatUq++03F/7Hrl280s8HAsEffb+3us6I/6rWSOD3z/79P+1YXpZSeg1VJRBkPco9rEgU6KiA0RSHtMMngWSCDC61phsChOoIkFSoLkCmhboC5KrrLkBJawMFqFDdfJnIqwkNrRwgqWkvyAxyEuQaeh+UjPBttELDyKzKsAnjT5c7SaITxxV9e/UphhXLjGYaipY7hxfbXpdDsaIrZtpkt10O2GiDrQ4IcZ+ZiYN2mqTRE31Roa9e+igMUxznnycvstE++221267SzXDF/VAXh/T6XRFIKNvPwiQRqdaWjUfWbt69q+fzBA==");
 
 export default HexagonCheck;

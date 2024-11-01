@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wine-glass` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wine-glass?s=sharp-duotone-solid wine-glass}
  * @preview ![wine-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/wine-glass.svg)
  */
-const WineGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M14.5 192.7L32 0 288 0l17.5 192.7c.4 4.5 .6 9 .6 13.4c0 68.9-48.4 127.7-114.1 142.4l0 99.5 80 0 0 64-112 0L48 512l0-64 80 0 0-99.5C58 332.9 7.7 267.3 14.5 192.7zm63.7 5.8C73.9 246.5 111.7 288 160 288s86.1-41.5 81.8-89.5c-2.1-23.5-4.3-47-6.4-70.5c-1.9-21.3-3.9-42.7-5.8-64L90.4 64l-5.8 64c-2.1 23.5-4.3 47-6.4 70.5z" />
-        <path d="M84.6 128l-6.4 70.5C73.9 246.5 111.7 288 160 288s86.1-41.5 81.8-89.5L235.4 128 84.6 128z" />
-    </Icon>
-);
+const WineGlass = createIcon("wine-glass", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeQAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBZQsIAAE2AiQDCgQgBYMtB1AbBwXIngXlGLc60iTxtvjKOMXDg13vnzszu0lmY0xgVgRLdUKrDqpeFTeFPljCm8yu5ZXynupfIROXO/9pTw+4AHgPfZAx6e9pzNrnCXQeSPEECygLLNMMrLeJeXkI0hcSFpPouMo6nq6Qxdz0vBLJ9QQu8/8Axs9aOU+iTgogGgJg4qJ5M9R8ik9JfKw+IT6ajoCYBAqBFCnaCjBGKtBWpkAmE3xKqlU+RbVaEECU8YekoIwS5mI1IAOJkGRZg6JNpVQvW1gp5cvmL5p/y/2hz3s/bL8w8kWL5i+qFwvitHt9Hk0RlRB5HlGJiNf96jz1lohB60ZrQq80p+VRxLWWFzo9aPjg12xk/vjyNFdquvnIhAlHNjeVoivq/9+wBp6kUY1yrey739quM9sEu3dPMNs6y/824n4PfH2jaNioQYMODS6YpVHDaAQEgk2jT/1+gzG/1a4k4Murwg+pUq2JQckD1JaAIO1T7WN5HFRRPwYJAEASB3WKCaarCKRGS/h3reuKACFHgERZLkCqjYYCZHK9BShpb6gAZbl5UpHVEZpaEYlEXXuI1DAniExTj4mSMd4EZU0jtS3OMrivXfI0DUw9VgzsN6AYVVRrwpsLQ/uji2G7x0Gc9YSzNtplp/02WG+L/Qrfa0Z8wA7TWthUX1QYqJ8BCqMU0925vFAFe+2zpSzOHzJasd7v4WB7dU84TQIYtCuVlEgibXyb1b6PSe9rpfOmqXggAQ==");
 
 export default WineGlass;

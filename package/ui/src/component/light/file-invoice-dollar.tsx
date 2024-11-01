@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-invoice-dollar` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-invoice-dollar?s=light file-invoice-dollar}
  * @preview ![file-invoice-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-invoice-dollar.svg)
  */
-const FileInvoiceDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 448l0-256-112 0c-26.5 0-48-21.5-48-48l0-112L64 32C46.3 32 32 46.3 32 64l0 384c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32zm-.5-288c-.7-2.8-2.1-5.4-4.2-7.4L231.4 36.7c-2.1-2.1-4.6-3.5-7.4-4.2L224 144c0 8.8 7.2 16 16 16l111.5 0zM0 64C0 28.7 28.7 0 64 0L220.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 129.9c9 9 14.1 21.2 14.1 33.9L384 448c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM64 80c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 96c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16zm144 99.6l0 13.6c8.3 1.1 16.3 2.7 23.7 4.5c8.6 2 13.9 10.7 11.9 19.3s-10.7 13.9-19.3 11.9c-11.2-2.6-22.2-4.6-32.5-4.8c-8.7-.1-17.9 1.7-24.3 5.1c-6.1 3.2-7.4 6.3-7.4 9.4c0 1.5 .2 3.6 6.6 7c7 3.7 16.8 6.4 29.4 9.8l.5 .1c11.3 3 25.2 6.8 36.1 12.9c11.8 6.6 23.1 17.7 23.4 35.9c.3 18.9-10.6 31.7-23.6 38.9c-7.5 4.1-15.9 6.6-24.4 7.9l0 13.5c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-14.1c-10.9-1.9-21.2-5-30.3-7.8c0 0 0 0 0 0s0 0 0 0c-2.1-.7-4.2-1.3-6.2-1.9c-8.5-2.5-13.3-11.4-10.8-19.9s11.4-13.3 19.9-10.8c2.4 .7 4.8 1.4 7.1 2.1c13.6 4.1 24.8 7.5 36.8 7.9c9.4 .3 18.5-1.6 24.4-4.9c5.4-3 7.2-6.2 7.1-10.4c0-2.4-.8-4.9-7-8.4c-6.9-3.9-16.8-6.7-29.2-10l-1.6-.4c-11-3-24.2-6.5-34.6-12.1c-11.5-6.2-23.3-16.9-23.4-35.1c-.1-19 11.9-31.3 24.5-37.9c7.3-3.8 15.4-6.2 23.4-7.5l0-13.7c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const FileInvoiceDollar = createIcon("file-invoice-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABswAAALGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDMwsGAAE2AiQDCAQgBYMtBzobvQVRlO5Fhuxj9Wl8Y0qqePh/ndl9X7LPRB45JDtASpaAK0S0vUwVMFfkSbtEpRMI7nH+L/f86DYtkM83xQ7lrrE2tzmaU6DnAYaFa4lm63maSeDc4rarNUElxJ1Q2EEeZ8eKGqTb0ie4Pjxo/GyWS0jyDEBMAcBmu++8kzeGMYz4ZPQs8YkdEBCbg1ogQ4a5AmwoE5grVyOXC4YxGon/wJoAoikhye/LMYZX8DYgB0kzz+dvjs8ty11ajTLfrdUoyixlRTzcHcyOKOKqqifFBZ1+q4yrZ9wS2aC7Wwy6ot9pHXTHChFPLNOKqzu7Rl+KW5d9dMnxeHj5x2dnW90yoxX9Tq8qYtA1yOwqsPJ+1es+3L2Kejo9vHipTjy01EOzbl2yVwnHDroRngtDWAa7bAxm3AJ3LrRcXS1dsnSwdBEXFg93H559xzK3zIiQ6s5Nix6f8vivCz857BMH4ASrfv9plgu0r7ii7SHr19MXnXyyRaserz1s//2LqUy9907VDyuZH6q5JqqIcC+VFxeM2kOG7R4u8sFlKnf/5v1fz99pIrPv8+ApeZzSW4LpM9Zbbu6eD73ZVk5MlJP99TXUU8K3K+20uF6VtbV7JzeyU3pLJiL7f9vlVtjzoSdL878YtoFAcOz93z28/+QN/x1rJbD4pd//lc8evREXpMcxJoEgW3G0on3iAhDcAL5SitMsigsQSJ7RRO913ECAUCBA0lQIkJljigC5wgoCNMy3lgBNhZ1lIp8kVPbtQTLuRJBZ27kgV3kaNGzo/WxTFRkEG+DP8AOZdesxtNW8erWVV63XrzerqhEodXZ6g/q0d9nTZNdyeKXDHO84pzjUIY50yog6yU6FUx1r6z1yKx9UW83KVlVbX3278dy6G82c5GRSt268P4sN1O8nl3Xa/uDlcCBJiqurSBKRpreW+EpHHvdZOFZqzA==");
 
 export default FileInvoiceDollar;

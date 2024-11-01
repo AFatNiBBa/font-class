@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-awesome` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-awesome?s=sharp-thin face-awesome}
  * @preview ![face-awesome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/face-awesome.svg)
  */
-const FaceAwesome: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM192 224L80 224l0-32c0-30.9 25.1-56 56-56c.9 0 1.8 0 2.8 .1c-6.6 5.9-10.8 14.4-10.8 23.9c0 17.7 14.3 32 32 32c12.8 0 23.8-7.5 28.9-18.3c2 5.7 3.1 11.9 3.1 18.3l0 32zM136 120c-39.8 0-72 32.2-72 72l0 32 0 16 16 0 112 0 16 0 0-16 0-32c0-39.8-32.2-72-72-72zm40 40a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm200 8a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-21.2-39.9c-6.6 5.9-10.8 14.4-10.8 23.9c0 17.7 14.3 32 32 32c15.1 0 27.8-10.5 31.1-24.5c5.6 9.5 8.9 20.7 8.9 32.5l0 32-128 0 0-32c0-35.3 28.7-64 64-64c.9 0 1.8 0 2.8 .1zM272 192l0 32 0 16 16 0 128 0 16 0 0-16 0-32c0-44.2-35.8-80-80-80s-80 35.8-80 80zm89.9 187.8C334.2 411.9 293.3 432 248 432c-2.1 0-4.3 0-6.4-.1c7.5-36.4 39.7-63.9 78.4-63.9c15.4 0 29.7 4.3 41.9 11.8zm12.8-10.7C359.2 358.3 340.4 352 320 352c-47 0-86.1 33.8-94.4 78.4C153.8 420.3 96.6 362.1 89.5 288l317 0c-2.9 30.5-14.3 58.3-31.7 81.1zM248 448c90.6 0 166.3-69.1 174.5-159.3l.1-.7 1.5-16-16.1 0L88.1 272 72 272l1.5 16 .1 .7C81.7 378.9 157.4 448 248 448z" />
-    </Icon>
-);
+const FaceAwesome = createIcon("face-awesome", false, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAABxgAAALzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiDfAsGAAE2AiQDCAQgBYMtBzMb/wXIhoePvO87N0kraSMfxsD09tVsrf7/753+sexvwGv0UVZjbVwg0ZzHEwi8bRPoWcc7CWQaAMaWtbM3kES3SUjBy7B9DJMHZPGc3VWRXJO8j4vC4fhGj9NJpClANAOpFVtttoGXK1GJeG/4CeI96yEgVoBSIKVQ0S/AYqlAv0yJTCaoxPAw5j+wJICohp+YgAwN+BLfATKQKLKsr6+ro66uq71o6iiqGrIti6p8uy/WiXhnxSNOnv7y2m9v/uW67658NE6Z9dp6722VfLVRxEerXotTVr664Ydbfr7++8tfdvKKVzb4YItt8yKPuK7rqnHnFZc7ueOK4q6+K9jy9vERd3cLURQREddOvHfsksvbr+y8quuKji2cXo5OnRcijwPXTbpv3HnF5gILu3HL3MfH392/xcubn5v3KmO67s2b57259MWRDXH95M2/Whbx0VYRXZHXd4T4YoMXthh5b/O93414f8/3DT+03IEcVPPnsmV/1hx04HK6VZ//cQ0Xc8mi/lWr+hddcvEaqJVSy4YOBuJSzQ//HxzJ3U2NZ5/dOP3kcXk5b6/KLGY1lpo1n9ys1DhrVuWoxkql0XJv1diyby3GJYfscUFr6WSlvKXl5kg2XVbC4BEXv3tsuUdz8x5bxjbPPbJGpOl2K5Z/3DXp3YOHpl9+xi57bbnG1ktscOuJG67hX4qa1aFJ88ZDQvXq4t81AIHg6O67BnZqWvxbbZGAr5/94Zv4NTL8ciK5F7USEKSThyfbPgEJAQBI4kgjEwgkPlTAq9a7UoCQI0CiWi5Aqk+zAJncJAGqDJojQLXcZlKR1QntdsiQqHcIpOY6ATLtHoMqi71VrdYeqZjbhNT2ycy9Zk2usamcMXV6ubDstiS75JpudVG5HB5/pBmZQGft6SAHOtwedrePwyv1UBs0jnCANUf8Gj6oNMNU05UWKre7t8e3tIdDHWYfBznQr7NIeT4/3pHj6RMoloDmTE2JhEjq31Blyi5H7XGFAAAAAA==");
 
 export default FaceAwesome;

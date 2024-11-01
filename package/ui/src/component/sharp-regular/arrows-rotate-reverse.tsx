@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-rotate-reverse` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-rotate-reverse?s=sharp-regular arrows-rotate-reverse}
  * @preview ![arrows-rotate-reverse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrows-rotate-reverse.svg)
  */
-const ArrowsRotateReverse: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M418 187.1C391.2 124.1 328.7 80 256 80c-39.7 0-77.8 15.8-105.9 43.9L97.9 176l54.1 0 24 0 0 48-24 0L40 224l-24 0 0-24L16 88l0-24 48 0 0 24 0 54.1 52.1-52.1C153.2 52.8 203.5 32 256 32c92.6 0 172.1 56.2 206.2 136.3L418 187.1zm30 182.8l-52.1 52.1C358.8 459.2 308.5 480 256 480c-92.5 0-171.8-56-206-135.9l44.1-18.9C121 388.1 183.4 432 256 432c39.7 0 77.8-15.8 105.9-43.9L414.1 336 360 336l-24 0 0-48 24 0 112 0 24 0 0 24 0 112 0 24-48 0 0-24 0-54.1z" />
-    </Icon>
-);
+const ArrowsRotateReverse = createIcon("arrows-rotate-reverse", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABagAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBXwsGAAE2AiQDCAQgBYMtBzwb6wTIhof/Xyu771f1BIAqzKgShy5RRI5xAVDPWUuge+rU85yHAvhGQRsLl2bbAp/zPAIBnm29vibXClbTClitnb3hJdENStKnPMkwvmGyhTxex2kl0vn0JU7lD41fNXOUpJQBiLoAGLt4/kzvVkZlxBflp8QXpiMgxoJCIEOGlgKMkAm0lCuQywWVUS7zf2BBAFEBr08gR475WAHIQZLyvFPHGqVa+aIapeqb7w2LeDXpwxFzokYNUb164AQ1Qoj58cPin2Z+1XfIwjnz53y74OdZX/cbHneHvpz4yej5a9i6IUS4U7tbdW/93vbLTV+6ns++w501377qb1DTPpqebGqPpvpoapD+zs010YYNlx61etYf/I05Ql1w5xEXincGgeBwx4/OrK4z4v+qNRL45dWff9afUd1yZfyVbqGqBIKsR7mHFYm66sZfAgCQ4pB2iboCyXQJ3rWmMwKE6giQVKguQKaFugLkqusuQElrAwWoUN18mcirCQ2t7CCpaS/IDHIE5Bp6DEpG+MSs0DAyuyKsgvjWxU6S0MS+om+vPsWwYupqpKlgsT282Oa6HPKprrTRJrvtcsBGG2x1QCD7zHQO2mmSBk/0RYW+eumjMExxHDyuXmSjffbbarddqctwxX2pi0N6cVcSE6D2M5AkIjVau8/smZ7FObD2wMaeTwQA");
 
 export default ArrowsRotateReverse;

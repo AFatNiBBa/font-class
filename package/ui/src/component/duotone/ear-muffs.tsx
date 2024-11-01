@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ear-muffs` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ear-muffs?s=duotone ear-muffs}
  * @preview ![ear-muffs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/ear-muffs.svg)
  */
-const EarMuffs: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 224l0 34.7c.6 .2 1.1 .4 1.7 .6C103.2 239 121.9 224 144 224c.7 0 1.4 0 2.1 0s1.4 .1 2.1 .1c1.4 .1 2.7 .3 4.1 .5c2.7 .5 5.3 1.1 7.8 2l0-2.7c0-88.4 71.6-160 160-160s160 71.6 160 160l0 2.7c5-1.8 10.4-2.7 16-2.7c22.1 0 40.8 15 46.3 35.4c.5-.2 1.1-.4 1.7-.6l0-34.7C544 100.3 443.7 0 320 0S96 100.3 96 224z" />
-        <path d="M192 272c0 12.3-4.6 23.5-12.2 32c7.6 8.5 12.2 19.7 12.2 32s-4.6 23.5-12.2 32c7.6 8.5 12.2 19.7 12.2 32s-4.6 23.5-12.2 32c7.6 8.5 12.2 19.7 12.2 32c0 26.5-21.5 48-48 48c-22.1 0-40.8-15-46.3-35.4C92.2 478.8 86.2 480 80 480c-26.5 0-48-21.5-48-48c0-6.2 1.2-12.2 3.4-17.7C15 408.8 0 390.1 0 368s15-40.8 35.4-46.3C33.2 316.2 32 310.2 32 304c0-26.5 21.5-48 48-48c6.2 0 12.2 1.2 17.7 3.4C103.2 239 121.9 224 144 224c26.5 0 48 21.5 48 48zm256 0c0-26.5 21.5-48 48-48c22.1 0 40.8 15 46.3 35.4c5.5-2.2 11.4-3.4 17.7-3.4c26.5 0 48 21.5 48 48c0 6.2-1.2 12.2-3.4 17.7C625 327.2 640 345.9 640 368s-15 40.8-35.4 46.3c2.2 5.5 3.4 11.4 3.4 17.7c0 26.5-21.5 48-48 48c-6.2 0-12.2-1.2-17.7-3.4C536.8 497 518.1 512 496 512c-26.5 0-48-21.5-48-48c0-12.3 4.6-23.5 12.2-32c-7.6-8.5-12.2-19.7-12.2-32s4.6-23.5 12.2-32c-7.6-8.5-12.2-19.7-12.2-32s4.6-23.5 12.2-32c-7.6-8.5-12.2-19.7-12.2-32z" />
-    </Icon>
-);
+const EarMuffs = createIcon("ear-muffs", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABtgAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDHQsIAAE2AiQDCgQgBYMtB04bvQXIhofn7fo6973q/oBqpAURwcpmHC0dCa6/5CBcOO6Jy+mv2dgga4CntIdvbHM053nAXYCv2RyARYFlmWKL226KmFQSIyT2UKR5eY0a6dZU4ergfwDjVyPWkLRkANENgF0PO+hAr6+NtSmqxtNE5QAExG6gFMjIGBdgB1lgXKFEoRCsTY0Ga6PRKAkg6oJXZVBHDY/jRUABkiSKYsutd2irdRSHttVaD1vRfyPCdUv/DbMvG7xp8IbWe6VidOXQTUAQNw8BtyvmXT5wc0XbPQM3jnR04xGSuXHAdtBKAZEbLuDf0B8OV3WYsLJtZZuPXR7OmhMDK7kHIr7Z+bXDvtrxlUPErP1GK356ZUTcudmT+32419v7vL/J4+XMB7sf/H1GdWrltcf6Xn65L70iT/+4Sc8LH+y0qmWTH6dzy/wNd9ze03P7HRvmt2CdllU7ffBCzwLkabbVXZ123C+zoqwQK+uEEJG6KTbNYveq2j0TRFVlswub731HBLN0fvbm4om1aycWv/lZJxAIzvz16/OP69rh/+a2BNa/+Oe/4eUar6cV6UE0SyDIixuLHZ1WQG4eQD7FpWaufNXxAtnZkuhT290kQGhFgKSuVYBsTLcAhVaLBKiZtKUAda0OkkXRIvQ7plUm7S5QZltZqiz0e0pZs4P3cnX9keHWCXXO38Z8e/XhPZeVm260SblduVhTu0DRbme3L3fH5l8qexbglU51nnNd7BQnO8PFPemFDixe4hx7rfH39EOlTW1kE6XtlKebj32H0tyFLnLGvOf8PNsr70/Md+n60AXY84CWNzsYskykyD2nnHDhknMuOfXUi5Z8AT19I8+7DgAAAA==");
 
 export default EarMuffs;

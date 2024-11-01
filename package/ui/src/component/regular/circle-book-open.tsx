@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-book-open` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-book-open?s=regular circle-book-open}
  * @preview ![circle-book-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-book-open.svg)
  */
-const CircleBookOpen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 336c23.1 0 41 11.1 46.3 14.8c1.1 .8 2.4 1.2 3.7 1.2c3.3 0 5.9-2.7 5.9-5.9l0-160.7c0-5.8-3.1-11.1-8.3-13.5C221.2 167.1 202.5 160 184 160s-37.2 7.1-47.7 11.9c-5.2 2.4-8.3 7.7-8.3 13.5l0 160.7c0 3.3 2.7 5.9 5.9 5.9c1.3 0 2.6-.4 3.7-1.2C143 347.1 160.9 336 184 336zm144 0c23.1 0 41 11.1 46.3 14.8c1.1 .8 2.4 1.2 3.7 1.2c3.3 0 5.9-2.7 5.9-5.9l0-160.7c0-5.8-3.1-11.1-8.3-13.5C365.2 167.1 346.5 160 328 160s-37.2 7.1-47.7 11.9c-5.2 2.4-8.3 7.7-8.3 13.5l0 160.7c0 3.3 2.7 5.9 5.9 5.9c1.3 0 2.6-.4 3.7-1.2C287 347.1 304.9 336 328 336z" />
-    </Icon>
-);
+const CircleBookOpen = createIcon("circle-book-open", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABiwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCMwsGAAE2AiQDCAQgBYMtBzcbOgXIjsOmbL6IIUy5zC/xGkH9fuje/fdD7NgnChULjUaTBNYEMpZAyLga06lsjagPv7/33Pc9885mg5IcypwE1WWnrb75v9nzbFOA3yi0MW1pIAtwr+cJJNbLpyWUBRbwiZ0eOJ1uEx87wvCLiBEoER2fHl/QCiW2yABq8p65Bpy2h8Y/qOqEVFcAiC4AwOJaXAT238k7IVfsCsQvhIGAWAQwgqBChQEEzOAIDOAaAUUR/CYsy/+BFAKIBiicfh8FDdgGJwAKSKVw1dW1tcVrSW6ieC2W1u1CYsNmAfvW887rYl2um7aLpM1uyW1LnHmLInHnd0TafA8jbxOfw6+999HqcxBxk5A4qUhiVHFUfFyZRJvSlOGE/gjEtXi38rjyuJG4dUJ3TmbuW+e68Bpsv8sn8Hd/3slpfv/j0wUCvHwfgAE4d9Pw89NwGxwIgAThcwS9ySzDt50Ms8B9QPOm6sODap3oAXXNyNgtL8sMWNcBCAQ/3T8XWdIzf0JxBvBn8/e/f43830/kI2iSIKjGWHPpCZIAAGQ0QjchkLZw6V3b3CBAaEGA1KBFgEo/GQQULUYRUBvigIAGLZZwRBEh9MmYILVZB5VpTaDoswRqM87MBn1RZSCbP+wDMCkQoYApamNpTV2pGRhcUtF16Ea3FePGUjChRRSqUqlegXwl6oGsFeE0qBDoEQFeRNmwZI1yRY/j1/lEBWrVKVGlUsa4ofcNY41+vQnpDKUc50pJpMxHHdkiRGWL+AQ=");
 
 export default CircleBookOpen;

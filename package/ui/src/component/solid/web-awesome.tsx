@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `web-awesome` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/web-awesome?s=solid web-awesome}
  * @preview ![web-awesome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/web-awesome.svg)
  */
-const WebAwesome: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M372.2 52c0 20.9-12.4 39-30.2 47.2L448 192l104.4-20.9c-5.3-7.7-8.4-17.1-8.4-27.1c0-26.5 21.5-48 48-48s48 21.5 48 48c0 26-20.6 47.1-46.4 48L481 442.3c-10.3 23-33.2 37.7-58.4 37.7l-205.2 0c-25.2 0-48-14.8-58.4-37.7L46.4 192C20.6 191.1 0 170 0 144c0-26.5 21.5-48 48-48s48 21.5 48 48c0 10.1-3.1 19.4-8.4 27.1L192 192 298.1 99.1c-17.7-8.3-30-26.3-30-47.1c0-28.7 23.3-52 52-52s52 23.3 52 52z" />
-    </Icon>
-);
+const WebAwesome = createIcon("web-awesome", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABZgAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBPwsGAAE2AiQDCAQgBYMtBzIbwQTIhuB5u/+qc7vfH0A9gJHRKZRpwQwKonVqTp16Hs6FAvgcgqDtoRMn+JznEQhgivUJVqBasVajCnB3Z2vFQVpRSEuD5Pjs+Fwgj7+zU0qkm+lDnA9vGl9r4BRJhQxAVAfA8LkzJ3v7i/gi4oP/nxMfmIiAGA4KgQwZGgswSCbQWK5ALhd8Ef//b/4DCwKIMvRrEsiRYSQmA3KQRJ4PrFSqks+pVKq49k6r2TE3rsXtetfb3q1ztcGx2ldazYonvSrGiy5z4l5dkdiC7zV9WItH1R992/zDNR/aebr6G+sXWVvbwWrZR5906/bJR1nteKLY9qda2z+2vVbhCkmpLevVDq49ef0ib1QvffbttGnfflcXCAQtf1n/39Jqg34tXymBr179/o/8iP+/SMfSI5SXQJB1+r+TReiDxwYQpNijBXwUgWSghF61smsChIoIkJSpKECmkeoC5CrqKEBJU70FKFPRTJnIKwi1LW4gqWw7yPRxGORqewpKBnknLFM7Mj2itID6xsWP4dDovaJ7l27FgGKYqrRqEG49sNjW2+2xrfZw1hpbbbHLaqust4uhO0xOdttszAwZ7YsK3XXRTWGA4ri45+dguMNO62XF+ZaBivt2O3vmw+3BSgi3h+MkEanS3tUrOi9PxBsFAA==");
 
 export default WebAwesome;

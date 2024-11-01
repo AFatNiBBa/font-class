@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-cough` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-cough?s=light head-side-cough}
  * @preview ![head-side-cough](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/head-side-cough.svg)
  */
-const HeadSideCough: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 224C32 118 118 32 224 32l16 0c66.1 0 127.1 40 153.8 96.9c3.2 6.9 6.5 14.2 9.9 21.7c0 0 0 0 0 0s0 0 0 0s0 0 0 0c6.2 13.9 12.7 28.5 19.8 42c11.1 21.3 24.8 42.3 44 59.4l3.2 2.8c6 5.3 9.5 13 9.5 21.1c0 15.6-12.6 28.2-28.2 28.2L432 304c-8.8 0-16 7.2-16 16l0 8 0 8 0 10.1-79 11.3c-18.9 2.7-33 18.9-33 38c0 20 15.3 36.6 35.2 38.2l59.9 5C396.2 448.7 387 456 376 456l-72 0c-8.8 0-16 7.2-16 16l0 24c0 8.8 7.2 16 16 16s16-7.2 16-16l0-8 56 0c30.9 0 56-25.1 56-56l0-8c0-8.3-6.4-15.3-14.7-15.9l-75.5-6.3c-3.3-.3-5.8-3-5.8-6.4c0-3.2 2.3-5.9 5.5-6.3l92.8-13.3c7.9-1.1 13.7-7.9 13.7-15.8l0-24s0 0 0 0l3.8 0c33.2 0 60.2-26.9 60.2-60.2c0-17.2-7.4-33.6-20.2-45l-3.2-2.8c-15.1-13.5-26.6-30.6-36.9-50.3c-6.7-12.7-12.3-25.5-18.2-38.7c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c-3.5-7.8-7-15.7-10.8-23.8C390.8 47.3 318.6 0 240 0L224 0C100.3 0 0 100.3 0 224c0 52.9 18.4 101.6 49.1 140C58.5 375.6 64 388.6 64 401.4L64 496c0 8.8 7.2 16 16 16s16-7.2 16-16l0-94.6c0-22.1-9.5-41.9-21.9-57.4C47.7 311.1 32 269.4 32 224zm312 0a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM512 392a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm104 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm24 72a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM552 368a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm88-72a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM552 464a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const HeadSideCough = createIcon("head-side-cough", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABywAAAL7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiEFwsGAAE2AiQDCAQgBYMtBzYbHQbILgbsxumDGQNlpoMCQk+1WMj/01yUHfSk7XWfTp/OTLIdYIQuFXNPPH0Yqm3NXlIEERRFrSbfEr9/rIbcHkR2s1+KCqKAEy2jROMks0gDOsWHh+eY/VXhfJiNkZhhG9DetIATqKgCKOqODu+dXobQ1k9c8/wr7AHLHvT9UdZt8waJiPMJDDCiaeCbDmcTxS1u+4+YXDzEQSgkzsDqtw4BMDvtIbC+/lB9o7AEDNYDAEDxAABAw+6d23L1tV5LD//vQQ8ZgADUCACHAA/wgGwEQB08BGRjcYDFInit/3/8H6gDAYCCtLhhlwV84DPwE+hEMIStPehxICoQY7uNZ/ndfzICveiu0q2a57JbUxakLFR66M6+s2SKhty0xfe1pSCEumzCLdy8NaWpZfEU1YHb0ySI0vG2PUuCbbWbtmlh665S5UXF7feczlpYKlXLsStTpqIzO0Oltl5qdY8pdbPF1b5yr4JT/K3Zt6/nNcfnrmJH0ncW7TorzrW7UnA3uDvc5RULTsWf+uHZfFJ/BR1z0LWj4omfrur+pAQAsGT7xcnyED29E53M69gwYXza+TzfuWL82fXii0/wOjad2Neit6vBhH8mYWKetZLQIRjoUInmenQ6AJYFEM5qBXT+0Z0CAQAAgFHLwCA29kLidY75+ndUh/+/3HA5tD/xvkW8NVIp2o4DenymOXytNJpOi9OF6ZLu8PHnAUCA4N3s9rj+cXW+CwaAt1fs5XH+X1tgp4AwBgCBV8YPfcwCgFgsAAgbTaNA8kUCDK9R2rXRbEMACB84WEMQn/XIIp61+JRmA+RSVaW5pjMeshFEMn3BrCGaiaxHNeaylmQuswHqcCcUJFkggnkNxGo+OTM2uwJNezlHuQqulhNmbFowVhWdtZ22Uz+NqiiJFzKM8YxjCkMZwkimXJhJtI1OZSzNZJKmP8RRkXJUwFELZ52fnt2NoUxiMiMZz7iqm9o4//4STJPXL4k9hla2EjEGAzJxL4ap7GOh+WWga/gIAAAA");
 
 export default HeadSideCough;

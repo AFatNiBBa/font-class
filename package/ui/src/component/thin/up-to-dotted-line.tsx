@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-to-dotted-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-to-dotted-line?s=thin up-to-dotted-line}
  * @preview ![up-to-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/up-to-dotted-line.svg)
  */
-const UpToDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M216 147.3c2.1-2.1 5-3.3 8-3.3s5.9 1.2 8 3.3L363.8 279.4c2.7 2.7 4.2 6.4 4.2 10.2c0 8-6.5 14.4-14.4 14.4L280 304c-4.4 0-8 3.6-8 8l0 136c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-136c0-4.4-3.6-8-8-8l-73.6 0c-8 0-14.4-6.5-14.4-14.4c0-3.8 1.5-7.5 4.2-10.2L216 147.3zm8-19.3c-7.2 0-14.2 2.9-19.3 8L72.9 268.1c-5.7 5.7-8.9 13.4-8.9 21.5C64 306.4 77.6 320 94.4 320l65.6 0 0 128c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-128 65.6 0c16.8 0 30.4-13.6 30.4-30.4c0-8.1-3.2-15.8-8.9-21.5L243.3 136c-5.1-5.1-12.1-8-19.3-8zm0-92.4a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm192 0a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm-384 0a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm272 16a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm-192 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0z" />
-    </Icon>
-);
+const UpToDottedLine = createIcon("up-to-dotted-line", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABjQAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCOgsGAAE2AiQDCAQgBYMtBzgbQgUjEaZrTCL7Z0K88Rg7dIGJK12T/c2dIVlJRGVLPPwz53tfklJS+kOyq/xzY0kKWaixAgZdNYQeXyPyZ3cmp9tQX+/6fPpTsyn4zx9mL00sGovN2VqVKlDA1sngxDX1W5/+PC3FHyWXoZngnTiBgUbq7n1hu/FsYBPFqZtilQoq2sNDwSBb2WTH1+OdCVk8c1CF5EkyxK36pfHXTOdJpCmA6AJg1ZYN6w3KKCOGo4/E0FoExGqwQCBFijkCLJUKzJFZgEwmKGM04v9AEEBUydMSkKGBk7gEyECilmWtFmlIvqi0ss39TL7jUXFt6qZ44P6UPAKIzOPhtABzE2emb5l9dcrGuO/01AdFEaJxrk1/FBHFM9M2x8OX8QdTH01nbzGwpnsfK6s3pxcs6nf7/xYOu6F/b1Glsug540JzsMbe6mXtcqWyfVl17xqDZnX8uUPFcVV6udW6dKK12unU5cvtlXXDaau1TlxqtS6no8eLnWW7NTHRapcDj50OdzpBQe+AbicAgeDHR17bWfq/XiTgz7em93VHZbxJ+qhLQJD2Rj07Y6CrG28EACCJYxYpzgDAUjXyqU0PBQg5AiSqcgFSs3UFyOQWC1AxzxIBqnIbpCJrCIeIurAM0cmyAh+WQ3xZXuZXFJBgrdCwIeMfMEeBcL4OtmEhwW3VtBiWlqdTPA5I79glu4tUZ7d5tBqjB4hLWXlZFRqe+yGwGSyQwHHj3VFB8XIbr73OV0nh+4jkrQ+WXZghso7rGAyKTsZeh/7serM/T9vopgoAAA==");
 
 export default UpToDottedLine;

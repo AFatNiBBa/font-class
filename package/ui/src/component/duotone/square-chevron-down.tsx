@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-chevron-down` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-chevron-down?s=duotone square-chevron-down}
  * @preview ![square-chevron-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-chevron-down.svg)
  */
-const SquareChevronDown: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM96 224c0-6.1 2.3-12.3 7-17s10.8-7 17-7s12.3 2.3 17 7l87 87 87-87c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7s7 10.8 7 17s-2.3 12.3-7 17L241 345c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7L103 241c-4.7-4.7-7-10.8-7-17z" />
-        <path d="M207 345c9.4 9.4 24.6 9.4 33.9 0L345 241c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-87 87-87-87c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9L207 345z" />
-    </Icon>
-);
+const SquareChevronDown = createIcon("square-chevron-down", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfgAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBYwsIAAE2AiQDCgQgBYMtB2IbFwXInoNx41xKO7lEUdb/D3rZta0WEVHL1rN7hBQ8r4hJp6wQGqVwSXoKoSksDmHw+dba/zN7plGA4RJu9a5dQlyaWIIqYhESaRuiIW7oPPLa8OgqK5ns1+cTmaAs/997p07VjPNQAJ/jOjdmezavzn1egZ73vPVNC7xCxRpiF7fdBDENiS00TtDkRtZgoXzwJ16i/wHMrylrUHRVAGQQAHB0X52AbtAo/Px/gnw6AYEcA1hEVFTMItglBbM0i6DRCN/CxDdNixAg7YieXUE72nAJngA0oIjSaMFQksvi0eqiA876q1nPg3LdalhH+bbdXCuFFHv7rnt4cx+q5P65H25erttUuxx3bMPXsp789i0sjdZwU9dDHbcpeu/uf+pn36evPo+nvx+/v8Kuq0NGMrKnJmbHYVJ0BgKnz2kJOTt4oX3R2dfnDNijdEuzsL8f9nGAIPz1U9Puq/rvdAnAz/N/8n7/BvVyD+hUQKgts6UlOihigN8vmUM0ukcQVBsE8E/t9YoguhFQtOsWUM3wI2h0W0LQZl4xgnbdrklpHIhRrT0oej2Dat08aIx6BG12vUTtRiNRi0UM9s8uKT5GY7tUfk6eqlCbHS2HLbTfrFSnrbQ5PZFOj6LPuDEzevUYNDPCpyTSWaPie1jMFyn5cuRRKqjb/edSHY+mTBtcF+5vU0m976eZ25+fTvcjAMsfpVZJoQzDZzm7e6B3bmp8LBvrtGxInZu0LgAmAAA=");
 
 export default SquareChevronDown;

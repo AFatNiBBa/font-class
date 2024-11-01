@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `forward` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forward?s=thin forward}
  * @preview ![forward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/forward.svg)
  */
-const Forward: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M254 80c3 0 5.8 .9 8.2 2.7L492.7 249.5c2.1 1.5 3.3 3.9 3.3 6.5s-1.2 5-3.3 6.5L262.3 429.3c-2.4 1.7-5.3 2.7-8.2 2.7c-7.8 0-14-6.3-14-14L240 94c0-7.8 6.3-14 14-14zm0-16c-16.6 0-30 13.5-30 30l0 103.4L47.7 69.7C42.5 66 36.4 64 30 64C13.5 64 0 77.5 0 94L0 418c0 16.6 13.5 30 30 30c6.3 0 12.5-2 17.6-5.7L224 314.6 224 418c0 16.6 13.5 30 30 30c6.3 0 12.5-2 17.6-5.7L502.1 275.4c6.2-4.5 9.9-11.7 9.9-19.4s-3.7-14.9-9.9-19.4L271.7 69.7C266.5 66 260.4 64 254 64zM224 294.8L38.3 429.3C35.9 431.1 33 432 30 432c-7.8 0-14-6.3-14-14L16 94c0-7.8 6.3-14 14-14c3 0 5.8 .9 8.2 2.7L224 217.2l0 77.7z" />
-    </Icon>
-);
+const Forward = createIcon("forward", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABbgAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBcgsGAAE2AiQDCAQgBYMtBy4b8ATIjtRG94xd4uH7td7Ofd39kwwEsTMqAMhLXB5BATk2Akmt3PoZUqs//9d8fs+PDvAbHUqnRq0KI+r5BCZ2b5YEbQOb0MAnYNttyMoMosyiyDzg8IU2Q/QCeXxkl4L0QvoWj/k3jT91c4skywBEWwBMX7tysc+/i+8ivm2O+NZCBMQMUApkyNBTgEkygZ5yJXK54Ltobsb/wJIAogldXQI5CqzHPkAOkizPOwxuVy3q+ZpqUdn4UKfV8YxrHVfF05VnO2fxXJd40DHiaWJNPFvh+KeluNbpmepDXdYGDJ6L652l5KpVa1ctEWcO03it7Wt/+3bPt/4/WjR+eUnfPI8Hv6hRfF6bpfZ52/o57tb3evuK05UCw6pZ6nfP1SunG3kvVP78kmdrtWcjNg56/fLB7cAsa0WDv8ESIBAMb3P6461tJv3XsprADx/+e/oNJek1tJRAkA1qHmRTAokAAKQ4o5EgkCyXoVeteVaAUEGApElFgEwPbQXIVQwUoNDbaAGaVKyUibyV0NFmBknNcZAZ4zLIdfQ+KEzyRbZJx8g0jNIP6n8XP6eGZu8qhw8ZVk4ohx2ZVhrCbk4sp/V+Z8xEf9hrj6OOOGW3XfY7VSEnLC6cdtgcCZ7tg0rDDTFMaYJyu38fv8ZuJ5y031FH3DYTlfftfs7I8/uDlRDqCE1JIlKLxwgAAAA=");
 
 export default Forward;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-sad-tear` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sad-tear?s=solid face-sad-tear}
  * @preview ![face-sad-tear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-sad-tear.svg)
  */
-const FaceSadTear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm240 80c0-8.8 7.2-16 16-16c45 0 85.6 20.5 115.7 53.1c6 6.5 5.6 16.6-.9 22.6s-16.6 5.6-22.6-.9c-25-27.1-57.4-42.9-92.3-42.9c-8.8 0-16-7.2-16-16zm-80 80c-26.5 0-48-21-48-47c0-20 28.6-60.4 41.6-77.7c3.2-4.4 9.6-4.4 12.8 0C179.6 308.6 208 349 208 369c0 26-21.5 47-48 47zM367.6 208a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm-192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const FaceSadTear = createIcon("face-sad-tear", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgQAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCFQsGAAE2AiQDCAQgBYMtBzQbGQXIjsK25RNDmHKZL6eHicTD9/uxzr3/fUS8Q9IkXsWnE0kkQqWZhEqlRCiBocLuhrj/Nzb/IaY30ty8qVTwkEadmCVosLWlvSVrTN3UxnkU4BuFNhYuLJAFEs15nkCi+aYFngWWaQIWS7pNfOwIQuiIiGEmER1fHl8DlDgiLkJNvhKeAVyXm8YPyC2C1FwBQHQBAFg/LSuA8w/0gdCTZ4f4gDwgINYBMAWhQoUxCCwhCowhmQKKIvhCHg9/AzEIIBpA/kSCgkacA5cAFJDqQlKy+4VCZs0mVTJrBnKkoLgoeGFuFL2lXVU5Uy8LXxnr+c/J5+UVJqkjxSDSS04zjZLydQkKo8KktElNYoPcIjaL9IwqvQiFnrEuMaI5qYm5ITaIKzfEKAxivWi2Rmfn2b+8njuf4Rwymhl+v0hLu9iS022jk8//V8T5SkffG9b9zZ7kD05RkcgF8EnkfjpPKypOnZ9c4rNL9PbGXgVXbM7qKqdCbJV9ptUQm7O2AwgEO3eajybu0k8TkwDwffj9314j/88T8g1okiCoZjwz6hMkAQDImARdQiCdIZOrtnmCAKEFAVKDFgEqo3gQKFpMQ6A2IQICDVocIopCh9CnYYDU5gJUFk2Bos8WqC250xv0RRVydMDQP76ETEQzunBIYDCOxUtHZ6KIzM04vC16T6aED/VCpyGDxnVo12Mc8FEF1oQBmR6W4UFYiEDBsFj42F8LlaCPGtNjc+dt4uD7mrdJP9+HFAIhnGVLSST7QdsDxlraA8Y7WkYB");
 
 export default FaceSadTear;

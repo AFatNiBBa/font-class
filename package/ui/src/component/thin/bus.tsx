@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bus?s=thin bus}
  * @preview ![bus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bus.svg)
  */
-const Bus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 16C163.5 16 101.6 56.5 82.9 79.7C81 82.1 80 85.5 80 89.9L80 96l416 0 0-6.1c0-4.3-1-7.9-3-10.5C475.7 56.4 421.7 16 288 16zM80 256l200 0 0-144L80 112l0 144zm216 0l200 0 0-144-200 0 0 144zM80 392c0 22.1 17.9 40 40 40c0 0 0 0 0 0l56 0 16 0 178.3 0 13.7 0 16 0 56 0c0 0 0 0 .1 0c22.1 0 39.9-17.9 39.9-40l0-120L80 272l0 120zm304 56l-13.7 0L192 448l0 32c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-32 0-5.4c-18.9-9-32-28.3-32-50.6L64 89.9c0-6.6 1.5-14.1 6.5-20.2C93.2 41.4 160.6 0 288 0C424.6 0 484.4 41.3 505.8 69.8c4.6 6.2 6.2 13.5 6.2 20.1L512 392c0 22.3-13.1 41.6-32 50.6l0 5.4 0 32c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-32zm72.1 0c0 0 0 0-.1 0l-56 0 0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32-7.9 0zM120 448c0 0 0 0-.1 0l-7.9 0 0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32-56 0zm0-96a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm40 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm256-64a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm24 40a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM224 48l128 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L224 64c-4.4 0-8-3.6-8-8s3.6-8 8-8zM0 136c0-13.3 10.7-24 24-24l8 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-8 0c-4.4 0-8 3.6-8 8l0 112c0 4.4 3.6 8 8 8l8 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-8 0c-13.3 0-24-10.7-24-24L0 136zm552-24c13.3 0 24 10.7 24 24l0 112c0 13.3-10.7 24-24 24l-8 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l8 0c4.4 0 8-3.6 8-8l0-112c0-4.4-3.6-8-8-8l-8 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l8 0z" />
-    </Icon>
-);
+const Bus = createIcon("bus", false, "data:font/woff2;base64,d09GMgABAAAAAANkAAoAAAAAB4AAAAMXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUiEfwsGAAE2AiQDCAQgBYMtByobeQZRVE5CZD8PY2N24UvEqfauAzE/0dmmD7FwE0G09p/Vs/v2A9AeIgWYHYE7nXMBUt8FSAGBSuzz/7l3956i9xprUMcLNB3TE/5a+sfCNmBAk7Q8JNcHh9z8IvyFCQTa1NXGz/IAlwM9D2X732c8bDzQ7KL3p8CyLAowMW5q3gsDEdJuoXgDeXzpAhXS8+mHR603jT/1eYAkywBEKwDWHNq3w+h38V3E+9VXiPdtQ0CsBaVAhgyDAiyXCQzKlcjlgu+iWmX/gSUBRMHBJfNytBL9xBTqmCTNed5VV9e/qLOzqU4nNQ8OVqjEowt5s+y/OeLV+xREE0mj4E+ei/1ar6QQDUny/nu6GJYaRGKNW6sfiw7JGHGmvkEQ9+RMER4KNh3lpRHp/r4YTN879PGWd/qeRoqwh5BiNXaaRiHi6byGU+SdYvVFGQyv/XPZ7Z0Gl8o4VX9wKnn9JRN6JQih0K/2cUcItmNttF6tvJmTsAtOccakGkXos5DSS3BGFq+2D/FcbxB1F5jSSo8Z+0g9/u33L3pfs7vIoXNja0QVzirUjHvxp86Lj/5924l7zNse+yx50qfa3uRcGyzuhbZzb7bd4qxbZi1qbh4tNT/ySLP4YcW37TM1XPL/xg0n44KYMPGXI/UztX9bMSZtM7C4xfRd6Tsurd1toGuzFp8upi1ZMq0I3Tfv6eraw7Kqq06/+OSTL56G3JsbIFJ+OuseJ+x0UZy+BxZ+u8Sc2pSMpNfgZOja03XNpB7Slc77QSD4eG59/6mW5f/VagI/vPnv8NHV0bQ6vYBaCQTZ9Op0x9NqwIQBeFLcZGwPJ0pjtWvmvGqjZwQI9QiQFOoFyAxoFSBXb5oAFcMWCFCot08m8jqh0wkDJI2uBZmF7gS5Ti+BiuXechc6IztPqEc59TI11sYysmFSOWfm7HJp2VmU0g59sh5eVo4WTb6JN02BM13kale5wYUucKkbSvjr7PDd6Eob+9AbPluaY6bZSkuVsyvXWQcxDFnXl8nt9PmjLFOur5vspv7OU6A0cYjOZU+S3yWrz7vxegAAAA==");
 
 export default Bus;

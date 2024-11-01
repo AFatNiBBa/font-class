@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-medical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-medical?s=solid hand-holding-medical}
  * @preview ![hand-holding-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-holding-medical.svg)
  */
-const HandHoldingMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 24l0 56-56 0c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l56 0 0 56c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-56 56 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-56 0 0-56c0-13.3-10.7-24-24-24L248 0c-13.3 0-24 10.7-24 24zM559.7 392.2c17.8-13.1 21.6-38.1 8.5-55.9s-38.1-21.6-55.9-8.5L392.6 416 272 416c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0-16 0-78.3 0c-29.1 0-57.3 9.9-80 28L68.8 384 32 384c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l160 0 160.5 0c29 0 57.3-9.3 80.7-26.5l126.6-93.3zm-367-8.2l.9 0c0 0 0 0 0 0c-.3 0-.6 0-.9 0z" />
-    </Icon>
-);
+const HandHoldingMedical = createIcon("hand-holding-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABewAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCHQsGAAE2AiQDCAQgBYMtBzsbKAXIjpQuZyTx8Lzef7/2SZ6SMTK2v+gWqsSigVuh/bdC8Ke/d+f//NNY+ow+ylyt6WPiWEsTCPRRl0cBL8oCyzQBS92UIthDKhEPESniyhg7zrDj2RXy+Ca7Th3p4fQl7qwfGr/o7DqSpgxAtALArA1rlnn3x/gx4ova68QXliAgZoFKIEOGbgJMlQl0k6uQywU/Rq2W/wMrAoh6uHMCOepwGpcAcpBkeT54bLOyrnm+vqwrtghFPNdJPNyvDGFf7BpBP9K/CDGs2vdgx4gHOzzQMu3WRhGD95VleWvHB+Nq1QvEb5k49QC5pd19xFXt7y/P1VM27C6L8uq4uggd3vuVVq/85sv9X/rhxYmAWNV+pParJppoxkh3YKL9lhUnPhtBz8cf+/uvr85vcLEfW7T4sdXMFjfd1KI3zNw+bMgH+lmSveapp4dOumLb8YaIgAAQCJ5++eiqHS2n/tdYJvDzO3+kv6Lau2l2egWNEgiyobWhtqaZ1P5PswUAIMV5vdNMBJLDMnjXZh4QIBQIkNQrBMh01UqAXGGIAHV6GCdAvcIamcibhHa2JZA0cwpkxrsc5Np5FdSZ6pNcvXaR0U4mjfzXlzHfI/NOVaOGj6wmV5ddU2GSWLanVLf9A8/r1CC5aL8Tjjtrn70OOeuw05YVzzlmfoTO80WVUYYbqTJZ9Xjwfn69fU4745ATjtsxU1Tvpwc6Hy8eJKEEnKPVJYlI7VjqDKOxM+xDBAA=");
 
 export default HandHoldingMedical;

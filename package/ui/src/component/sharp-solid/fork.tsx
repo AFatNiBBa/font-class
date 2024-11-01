@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fork` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fork?s=sharp-solid fork}
  * @preview ![fork](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/fork.svg)
  */
-const Fork: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M408 8l16 16L320 128l16 16L448 48l16 16L368 176l16 16L488 88l16 16L433.5 227.4C417.7 255 388.4 272 356.7 272c-19.4 0-38.1-6.4-53.4-18L70.6 486.6 48 509.3 2.7 464l22.6-22.6L258 208.8c-11.6-15.3-18-34-18-53.4c0-31.8 17-61.1 44.6-76.8L408 8z" />
-    </Icon>
-);
+const Fork = createIcon("fork", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVAAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBHQsGAAE2AiQDCAQgBYMtBysbmATIHoex22RJF02UHy4IIx6e399/a597PzXgnUmwk4Q2yU0hqsnNJchR7SXzKGH+vw+PnRZvvFTAA5F2Y+NLxwaaM16Bxjc19cZXvFR7sDd9Afvd2aJNhL3SWlmSfsnx2SGPR1nKSFcTXCwfGj91dJqkKgMQjQCYvGTBfM/fxbuIN6U7xBtzERCTQSGQIUMXAcbJBLrIFcjlgndRgv+BBQFEOT4ygRwZBmM8IAdJ5HnvmrK6fHFcqN7S1q5tYbTFEu+o4s1pZ/qg1CsmRF91x/V47JKe1xuv/+5hM5fvUdqyRcmeNUrW7FESHpx+3PWmbvu+frPJW4t9+6p9t6Zrx2cAgWDWjlFlaxrG/amsSeDDw3+7n1FWKv6n66iUQJD1K/WzMpGpjP8CAJDisJ6JTCDpLeG31rokQKhGgKRctQCZzhoFyFXrK0CZboYLUK7aApnIq4RWqzpIau0DmRFOgVyrW6DMOC/kcq2RPRv80vFfW8wMCU3vKgYPGFSMKYaORrwENDXHFtNsr8OU6A2bNttjt4M22WibgwLZb752yC4zLHi6LyoMNsAghTGKZX+9vtgm+x2wzR67c5uxiv1cL4ft/N7QRwIMOXCU7JHyzXv27wAAAA==");
 
 export default Fork;

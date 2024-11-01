@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coin-blank` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coin-blank?s=duotone coin-blank}
  * @preview ![coin-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/coin-blank.svg)
  */
-const CoinBlank: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 208c0 79.5 114.6 144 256 144s256-64.5 256-144s-114.6-144-256-144S0 128.5 0 208z" />
-        <path d="M48 331c-18.3-11.5-34.8-25.2-48-40.9L0 320c0 27.9 17.8 53.6 48 74.6L48 331zm32 17.3L80 413c27.1 12.8 59.8 22.7 96 28.7l0-64.3c-35.1-6-67.6-15.9-96-29zM256 448c-16.4 0-32.5-.8-48-2.2l0-64.1c15.7 1.6 31.7 2.4 48 2.4s32.3-.8 48-2.4l0 64.1c-15.5 1.5-31.6 2.2-48 2.2zm80-70.7l0 64.3c36.2-6 68.9-15.9 96-28.7l0-64.7c-28.4 13.2-60.9 23-96 29zM512 320c0 27.9-17.8 53.6-48 74.6l0-63.7c18.3-11.5 34.8-25.2 48-40.9l0 29.9z" />
-    </Icon>
-);
+const CoinBlank = createIcon("coin-blank", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdgAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBYgsIAAE2AiQDCgQgBYMtB1AbBAXIhofn7fo691V1D6AawIiciQsg2mgdkakQ//m/3PObdnSA3+hQ9tSpC3zt6nkCAaa9NNIFHlDiAUjOvU3Ex44gfCJCbIlEx2d0XN0gj0+yc0qkG+ljXEkvHL9q4hxJlQxA1AbA6IVzp3vnp/gpxccVrxIfm4aAGAMKgQwZmgswTCbQXK5ALhf8lCoq+Cnwz68ggChDPzIDZVTGNKwC5CApiTyvXLVG1cr1qpVq5AuqlaoufLqLuDM8OgtvjY94d8j88x0iHqt2oaN4tOpC4b2hEW+OW3h7WMQzXcWD+RGfz/9y4ZdtHy74YsFn8z4r2jxd++nfW3+84WM99704sKUqP436a/To0Wc2jzbpkRfWNlk9yu7GjXePsrrJzAlDfPOZ5JFJLwyyqKxn/+o2sRMTO26LbZFpVrrJMn4OCAR/TDv03cpaw/6vXC2BX97+89/yLUrS06gsgSDrVtHNsgQSAQBIcUCbBAQyvZXQvVZ3VYBQFQGSsqoCZJqpLUCuqq4ClLTUX4CyqubKRF5FqG85g6S63SAzwHGQq+8VUDLMe2lZ/chci3cM/mOXMkFC408VvXv0KoYUy1IVvIWNh0MLs9PpQBh1hos22GmHfdZbZ7N9gtxjerHfdhM0Yrw3KvTWQy+FIYrt5l5ZINI99to8l/aPGao4H3RyQF/uDH5ClH1cy2REiqzu2p2bd3R/akZ3Jx3Xb6XrCAAAAA==");
 
 export default CoinBlank;

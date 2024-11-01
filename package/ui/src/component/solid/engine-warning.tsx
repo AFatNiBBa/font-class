@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `engine-warning` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/engine-warning?s=solid engine-warning}
  * @preview ![engine-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/engine-warning.svg)
  */
-const EngineWarning: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M400 112c13.3 0 24-10.7 24-24s-10.7-24-24-24L208 64c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 0 32-72 0-48 0-32 0c-17.7 0-32 14.3-32 32l0 56-48 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24L0 352c0 13.3 10.7 24 24 24s24-10.7 24-24l0-72 48 0 0 72c0 17.7 14.3 32 32 32l44.8 0 32 40c12.1 15.2 30.5 24 50 24L448 448c35.3 0 64-28.7 64-64l0-145.2c0-19.4-8.8-37.8-24-50L449.5 158c-11.3-9.1-25.4-14-40-14L328 144l0-32 72 0zM544 224l0 192c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-192c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32zM304 188c11 0 20 9 20 20l0 88c0 11-9 20-20 20s-20-9-20-20l0-88c0-11 9-20 20-20zM280 368a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const EngineWarning = createIcon("engine-warning", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhgAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCOQsGAAE2AiQDCAQgBYMtBzUbPgXIhofv5/o69yXdNT8ZhgwA0BKiAla9io34tRYVwdSp5zkPBfAtgyAoY22QUbA9zytQwVTHIqgFa6UKcgfnjTqg0BTKr5DH39ltaqSn03d40DU0ftDNbSRNGYBoC4C5m9ev1GiO5ohv//+I+NZyBMRcUAlkyNBTgBkygZ5yFXK5oDn+/5/9B1YEEHWh2QnkqOMm3AnIQZLn+ZLurZrKWqt8U1krDr/Z45lBRbzW9emBZYiiuKfjY0QREc8Meq2reHrgmz0iyhA3dXq8LGNkvD2wjDeHv9sj4plh0+KNooiIcqMwG9/b5clefHPnJ0aZk2o2vd5NPDXgje4Rzw7eEFNthp3R75227/zU97tD33lw9dpOndY2ZLVLVJasaX3XXa2nGGOJATWhNjJ1SZeZfGqk3w1q/sJL7doVD2u9b5dendepLHnwdCMwi04l22to2n7p367dFu3aQafLB5cxBg3ETzo8+t6Xu9vM+LVFmcD3n//yR/Fiuim9gxYSCLIR/4+wI90EGTGAMsUl/RY+KJBckQvv2tITAoQCAZK6QoBMD20FyBWGC1DT20QB6grrZSJvEjra2YCkpbMgM8n1INfRB6Bmhi+Luo6RPYTcI8T9AyYv6kILj1VjR42pplWzfRX/XDF6f3q12R5yic8NhScdctopFxx0wFEXOsg5K1sXnbRoCV7oiypjjTJGZZrq8OhhvMnBTD7fZab16vgh01XX50NcWl49FHpJIB2nLUlEav0V6CNvfQA=");
 
 export default EngineWarning;

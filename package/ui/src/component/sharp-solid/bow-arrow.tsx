@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bow-arrow` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bow-arrow?s=sharp-solid bow-arrow}
  * @preview ![bow-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bow-arrow.svg)
  */
-const BowArrow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 32L512 0 480 160l-47-47L183.8 362.1 200 416l-96 96L80 432 0 408l96-96 53.9 16.2L399 79 352 32zM192 64c47.7 0 95.4 13.2 137.1 39.7l-46.8 46.8c-28.1-15-59.2-22.5-90.3-22.5c-29.9 0-58.3 10.2-85.8 28.9L191 241.8 145.8 287 25.4 166.6 2.7 144 48 98.7 60.3 111c38-28.1 81.6-47 131.7-47zM361.5 229.7l46.8-46.8C434.8 224.6 448 272.3 448 320c0 50.1-18.9 93.7-47 131.7L413.3 464 368 509.3l-22.6-22.6L225 366.2 270.2 321l84.8 84.8C373.8 378.3 384 349.9 384 320c0-31.1-7.5-62.2-22.5-90.3z" />
-    </Icon>
-);
+const BowArrow = createIcon("bow-arrow", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABZwAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBZwsGAAE2AiQDCAQgBYMtBzAb5wTIhiBaC6ue3QDwJgqAUIUVqSggVPzPGi0qcjdxTf7782/AJH6UKqpYcYFnnk9goNG4xoGNZgOb6QRsU/Oeapx4naHtAnm8yI4qQ7qQvuC0+9D4XQNHSSpkAKI6AAbNmDLO21/il4jPpUfEZ2MQEINAIZAhQ2MB+soEGssVyOWCX6JUYv+BBQFEWeG5CeQog4lYDshBkuV5g3r1K5Wpkk9XhYorZkwVUfQPDjRnT4/pMSOGLe4/9fi4vvG84rGe06LvyOHWMSDqxDczpg3oO+CdHwfWAUjrmH7StLgTh9q3uF79+p/Nvyz/YsHFi80QT4/6y///+8eCBepNMKFeMhd09b9mHhr1318ud2h3YupUX+zcYbovXjgxOq5d+im87MCoGP3hhS+W2bHTF1On+tCuw2wgEKQzg7ovqNb3n/KVEvjt+d9/xp+R0tskXUd5CQRZ21JbcxNIBAAgxXYtEgSSkTLwXSs7K0CoiABJWRUFyDRSXYBcRW0EKKOpbgKUVdEUmcgrCLXNq2RS2SYy090+MlfbA7KMvt4Xy6od2bclfxnyr13G8DY4bF7RqX3HoncxWZWVz0XU032K1XbL7byrFTxouQ3W22qZpVbZ2iI2G1fZZp3hc9AwX1TopL2OCr0Vuxv3d0+3zGZbrLLBejtLH8X52Za2zw9uBb0kcHZmpUuwLFVYvGFHu0WbN2/YAQ==");
 
 export default BowArrow;

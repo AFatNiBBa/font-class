@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-small-big` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-small-big?s=sharp-light arrow-down-small-big}
  * @preview ![arrow-down-small-big](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-down-small-big.svg)
  */
-const ArrowDownSmallBig: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 478.6l11.3-11.3 88-88L270.6 368 248 345.4l-11.3 11.3L176 417.4 176 48l0-16-32 0 0 16 0 369.4L83.3 356.7 72 345.4 49.4 368l11.3 11.3 88 88L160 478.6zM352 192l96 0 32 0 0-32 0-96 0-32-32 0-96 0-32 0 0 32 0 96 0 32 32 0zm96-32l-96 0 0-96 96 0 0 96zM320 480l32 0 160 0 32 0 0-32 0-160 0-32-32 0-160 0-32 0 0 32 0 160 0 32zm32-192l160 0 0 160-160 0 0-160z" />
-    </Icon>
-);
+const ArrowDownSmallBig = createIcon("arrow-down-small-big", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbQAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBfwsGAAE2AiQDCAQgBYMtBzsbCgXIjsQ4JvKLKOwiHv5/rey+X9UD1WH4IcYOICggH0cq0TMyLuxwhQOye1au7g6pfY83/5fTG8+PDvAbHdqYExvgcz6PAgpwDc6zQHpZYJkmYJm72tUoi/aTJCHJ42ePnzuU8WtMViO9Sr/gWfrQ+NdAT0nKAkD0AMCKxq4tvvwVf0X80pT4xSYExEqQBQoUGCLAYoXAEKWMUin4K5pN9x+YCSBa6AsnUKIVx3ERUIKkVpajerf3bK/XupZ767VqT/8+/RvRPyZGn9geRURUIVLsjH4xPvrGnuh7sF7VQ8uqEqzXGx1UrayHfWOhEQwhm0d29Oj4j1/O/OL1sE59bqPhnTM6/XRdD1kP1/3U6Yx3Gg2dn4cdO/YwOybLOTg6/BgJeP+DZTn/lb2R5S8Ihn9+AwEeBwLB8a19fz/affH/bfUE/nnX+BmNbP6VcupAmwSCYnJzskNpuZFyygIAkOKOkWm5GQLJfjV41y6eCxAqBEhaVAIUBushQKkySYCaYeYI0KKySyHKdqGPwxUkXVwHhbnugVIfb0HNYl8rLfpEYWe0ldDfvIS1LbpmXZ4xdXpemKcNhTEdUhYX5W1j/B0/MIGuOuOqK2457ZTzbjX4DVvqt122doWt8UXZDFNNly2Uj9v35/c67YabzrvqSlxmkXw/Ge/OevwEshMlnOlGkojU5/iNG1fvTnl90hQbLKecOH8WAAAA");
 
 export default ArrowDownSmallBig;

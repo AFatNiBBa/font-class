@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `landmark-flag` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/landmark-flag?s=sharp-duotone-solid landmark-flag}
  * @preview ![landmark-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/landmark-flag.svg)
  */
-const LandmarkFlag: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 464l0 48 512 0 0-48-64-48 0-224-64 0 0 224-40 0 0-224-64 0 0 224-48 0 0-224-64 0 0 224-40 0 0-224-64 0 0 224L0 464z" />
-        <path d="M272 0l96 0 0 96-96 0 0 32 192 0 32 0 0 64-32 0L48 192l-32 0 0-64 32 0 192 0L240 0l32 0z" />
-    </Icon>
-);
+const LandmarkFlag = createIcon("landmark-flag", true, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABaAAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBRwsIAAE2AiQDCgQgBYMtB1Yb7wTIHoex22RJF81QxHhH8fD/S9t9/09ydieh9mEVvXWHW49rFhkLiu66QqgcZJPoSWag9zIDnP9r6gUdXQP+5+eYaQ1SIEe5iucT2PNRlA+8fEIznYFN3cZcMAjvIkfuETEk/9C8QxE/c78G6UWCJ/I/gPHHGP0kvRlADAbA2sP7d/rUjW6KH/Vr4ocdCIh1oBLIyBgvwApZYLxChUIh6Ka6pht1XRFANMlbM2iiwBbsBBQgCVEUo6a2GgOKQ61GeblVtkQZogWsHTy5hEERsYsoQx/c2NHXGdz5NxkGfTzDfc6ofKpSfSrQwOA5OM0cta41uqZw2hz9iBoIBI9Gvbx2etCK/z2tBH69+Tf8jupPSeqgRwJBnlHPcCKBRAAAUjzSlxiMQDZVwk9teypAKBEgaSoFyMYZLEChNF2AhokWCtBU2i+LolcY7uQASdtdkC3yGBSGewUaVvicNQ2PnExSKkh/ufRNRDduq+bOmlMtq5a1LueH0NaXV9v+lEd1bCpuuuS2Wx646IKrHij2np3lQzdt8vCNvqgy1yxzVJapjrtn/RCze+67aqvnmyxX3U+neOTPnordJMC8Z6hkIkUeEXhC3hkzA9eeGZhTRhlqEAIAAA==");
 
 export default LandmarkFlag;

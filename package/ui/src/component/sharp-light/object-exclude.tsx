@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `object-exclude` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-exclude?s=sharp-light object-exclude}
  * @preview ![object-exclude](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/object-exclude.svg)
  */
-const ObjectExclude: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 32l288 0 0 96 32 0 0-96 0-32L320 0 32 0 0 0 0 32 0 320l0 32 32 0 96 0 0-32-96 0L32 32zM160 384l0 96 0 32 32 0 288 0 32 0 0-32 0-288 0-32-32 0-96 0 0 32 96 0 0 288-288 0 0-96-32 0zm64-32l0-32-32 0 0-64-32 0 0 64 0 32 32 0 32 0zM160 224l32 0 0-32 64 0 0-32-64 0-32 0 0 32 0 32zm96 128l64 0 32 0 0-32 0-32-32 0 0 32-64 0 0 32zm96-96l0-64 0-32-32 0-32 0 0 32 32 0 0 64 32 0z" />
-    </Icon>
-);
+const ObjectExclude = createIcon("object-exclude", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABdgAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCMAsGAAE2AiQDCAQgBYMtBzUbNQXIHgVu0zPinUcTTdj4ScSHOmHEU2uf/WbnaHYvTDZRqML2ZAiFRRYmjlT8CZkIi0L+iiXQa//M7f42qBDiPZKotCUkiUkTa4lKKGskcy3LxDX1I6li1EZDiyqu0IjAFJjodDffTWA2sJlOwHY0b5BeCu1CnR5Q8y4xUV4XeN58aL5a70NROwBZBgCOnq7pMCYySd6Pk/cWQCDHANsIOnTYRMABqmATzTZQVWGScUz+AwkBMq17WQEVs7gHngEqKKZr3bjR0uX7qfl6ampu5+eHeenjN7RBShCgl1u6s04RMO/qOM5WqFIyFBciLQuFavJU33JvrxBy8moKzEHO6TC9U/odi8u+37ebsPXNNrIHGkkeAbmvoInH3V4znOE2B0cGGeTlB9x6R8Ft6sv3fL4HkqE80AXz6LbnAYLw+fvwy0sP/J/tC/jy9ufv9WdkNIqyiFkFhG7X6NYqoBAAQMkttgJBcY1Z966DFwKiIaCY1gR0NrISUDU7CZiyRYSAac1xqtQ5sUr7NBSDq4bOfldDtcrPMOWAf3HaqnQAaAEfy+1fzioKV64x4PUzSW7fboUpU7mfonLQfknnHP5NTGxtnIyNzJ0Q4UCvnK1VRVTFF1GAlx8l0Xg06WwixYOjOdtiDrgkhe6zdhfxaocfUXRGd2srCilLwNzv+VNtaDQG");
 
 export default ObjectExclude;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `conveyor-belt-arm` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/conveyor-belt-arm?s=sharp-duotone-solid conveyor-belt-arm}
  * @preview ![conveyor-belt-arm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/conveyor-belt-arm.svg)
  */
-const ConveyorBeltArm: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 416c0 53 43 96 96 96l448 0c53 0 96-43 96-96s-43-96-96-96l-32 0-96 0-64 0-96 0-64 0-96 0c-53 0-96 43-96 96zm160 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm192 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm192 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M128 0l32 0L320 0l32 0 0 64-32 0-52.9 0-5.7 34c.8 1 1.5 2 2.3 3l204.5 27.3 11.8 1.6 0 64.6 0 13.6 0 16s0 0 0 0l-32 0 0-16 0-17.9L255.2 164.4c-8.4 7.2-19.3 11.6-31.2 11.6c-26.5 0-48-21.5-48-48c0-17.1 8.9-32 22.3-40.6L202.2 64 160 64l-32 0 0-64zm96 144a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM96 256l96 0 0 64-96 0 0-64zm256 0l0 64-96 0 0-64 96 0zm160 0l0 64-96 0 0-64 96 0z" />
-    </Icon>
-);
+const ConveyorBeltArm = createIcon("conveyor-belt-arm", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABrgAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDHAsIAAE2AiQDCgQgBYMtB14bzAURlZrlyH4mZHNI69p5YvC42R1cUU/Z0KgXTfwSDx9zvX9ukt15LylDyqjKmlHVAjlgUkDgyl8o2vmSJLkNgHr/N2ibLyXhFxGPkKFR6SKyTVyOfy/AkUUQyti4pq8BNOd5AmEgk9vUBbrO4xLOSJqa98QAhqaQdttDlvRLd6mQnE++46j7H8D4U0e7SDSmAKIFACYvmDPNxxqtJfG9/lR8NxUBMQWUAilSdBFgnFSgi0yJTCaoJfWkFvUQQFS526WgigL38ByQgURFlmUjGgO8fetUUWmazU92ypcUeSHyvEucbru97bxoGwSwXcgj9p8fp/Lr7c50utivc+R5zDvb/ky7U21Ot527qyKiqbAsVBTFDyEuD4i4NaZpvBh0p/uVgbfH5k2e9r/ZpdjWJuJUfqDdmdje/mxxsO1p3bvoebvF7b97fF/1feuHsqxNUo6ZBb518shkTbUApRZa+djRt1bDf/7B82ljB5aTVhytNWtWiyNbV68UhpOsNMkkqw+tvMY3KBtuc3vbR9tu326QZkaW1xZda7aPfc2a7YtH/9i9HggE7/4f89OK5uP+aSgS8Ptrf+SXq39k25LbaJCAIB1cH7w02QbMOIB0Epv0HPuilQik5qkIXrWJMwKEHAESVbkAqc5aCJDJDRKgopsxAlTl5khF1ii0saxWE02sVVNjbVYzbTxRK8b5lKlqE55ft/arzv7VmCdtQ8k8BK6PCJNVpeNStOrpGKu9+su7DLiVtNt6N/Vwt5Qzyz9LOsclH0Tg+oiwu3Hfk7cy5zWMu/bPEuP8pP7ODzZggAlMhm9yKTShXPj3e/l/O52ymW+nOBfnJRggjbpueQ==");
 
 export default ConveyorBeltArm;

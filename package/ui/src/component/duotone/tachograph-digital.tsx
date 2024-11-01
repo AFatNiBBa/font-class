@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tachograph-digital` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tachograph-digital?s=duotone tachograph-digital}
  * @preview ![tachograph-digital](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tachograph-digital.svg)
  */
-const TachographDigital: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 128L0 384c0 35.3 28.7 64 64 64l512 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64C28.7 64 0 92.7 0 128zm64 32c0-17.7 14.3-32 32-32l224 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32L96 256c-17.7 0-32-14.3-32-32l0-64zM96 304a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zM64 368c0-8.8 7.2-16 16-16l256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 384c-8.8 0-16-7.2-16-16zm96-64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm64 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm64 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm64 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm32 64c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16z" />
-        <path d="M96 128c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l224 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L96 128zM80 352c-8.8 0-16 7.2-16 16s7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 352zm320 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0z" />
-    </Icon>
-);
+const TachographDigital = createIcon("tachograph-digital", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABwwAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDLgsIAAE2AiQDCgQgBYMtB2Ab4AXIrgd4Q2X0D4MVIiwLZDOgVUfRyUruxbd4/duLh//2a/fN/DWF5lEl4aFqyWSPNJo1ShGtJErYQ8X/WtP/bi9ElgBsfFJAYzrnSmzDqgSyRrDwXV1fvfDQz+3tL5kgoqHjiSWkikjvxMKBTLhJFOrJDyjlQ1hgUzgEXGyEELN5+U/LMv+X0xs46QC/f/FDGWPYtWyCz/k8kCzRtSgr8IQKJDPucttMEPOQnoXGcYciRdgRJdKj+CHcBv8DGP8UdURSywQQXSIAeycjn+9gXMKPmPilIQTEPoFJQEbGKIBNTGCUbBIpFIJBEjAIIYMCiDIFz86gjDae8Q0oQJLVCtluNNrtOpMuernJoDLJC4boVy8AQ8R1cKQZcBmeSMB+aKzq+0OjoAmT8DhkNLW44XE9k5g0qz4XLXisv8YZ5rWXkhl3ladI7wOTG6DgCHEdGMK4CI0lDIb8SVjoWeabUPBd3wjpLs5MaKj0nLUMm1H9mf4X++XnmtlO+ww37S6ZNznOlbZg+eVhgsBa5BXQLtR7tivkaUiPLXFT4x1aW/LcmtzP88SFCOlmZ2rCbuWKZ8XgdwQCQf3nz7t/KhH8ffyXZ6dr8QJVCQR5TmRtTl5ZIRCVUyiUw1+0C4HsjAK/a9OdAKGOAElZXYBshBVAoW4WQMm4EoCyugOyKHQUhq23IGk6BdmGbVAY9gZKNr1XyoaDAbAMfvLnY8agj/fXZZbTWW/du9hQKzAp2sWGd3cwpciBGN7I1s3V28bawbvHPvn1j4vBGtP3QRk5aVledd7T7cf+FK08vRzmtfPLNHjvz6KU9fExHAsR54pjWSYSmH2r1f72L4XTdBZO0zmMS0xrLz8A");
 
 export default TachographDigital;

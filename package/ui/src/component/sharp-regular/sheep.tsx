@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sheep` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sheep?s=sharp-regular sheep}
  * @preview ![sheep](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sheep.svg)
  */
-const Sheep: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M576 135.8l14.5 6.2 22.1 9.5 18.9-44.1-22.1-9.5L554.3 74.3 512 32l-64 0L405.7 74.3 350.5 97.9l-22.1 9.5 18.9 44.1 22.1-9.5 14.5-6.2L384 288l192 0 0-152.2zM464 128a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM302.3 83.8c-6.5-6.9-14.6-12.3-23.6-15.7C271.6 65.5 264 64 256 64c-19.2 0-36.5 8.5-48.2 21.9C196.9 77.2 183 72 168 72c-30.1 0-55.3 20.8-62.2 48.8c-3.2-.5-6.5-.8-9.8-.8c-35.3 0-64 28.7-64 64c0 5.3 .7 10.5 1.9 15.5C13.7 210.3 0 231.5 0 256s13.7 45.7 33.9 56.5c-1.2 5-1.9 10.2-1.9 15.5c0 35.3 28.7 64 64 64c.5 0 1 0 1.5 0L120 512l88 0 0-85.7c11.7 13.3 28.9 21.7 48 21.7s36.3-8.4 48-21.7l0 85.7 88 0 22.5-120c.5 0 1 0 1.5 0c35.3 0 64-28.7 64-64c0-2.7-.2-5.4-.5-8l-49 0 1 4.1c.3 1.2 .5 2.5 .5 3.9c0 8.8-7.2 16-16 16c-.9 0-1.7-.1-2.5-.2L370 337.1l-10.4 42.7c-1.7 7-8.1 12.1-15.5 12.1c-3.8 0-7.2-1.3-9.9-3.4L298.2 360l-30.2 34.5c-3 3.4-7.3 5.5-12.1 5.5s-9.1-2.1-12.1-5.5L213.8 360l-35.9 28.5c-2.7 2.2-6.1 3.4-9.9 3.4c-7.5 0-13.8-5.1-15.5-12.1L142 337.1l-43.5 6.7c-.8 .1-1.6 .2-2.5 .2c-8.8 0-16-7.2-16-16c0-1.4 .2-2.7 .5-3.9l9-36.3-33-17.6C51.3 267.4 48 262 48 256s3.3-11.4 8.5-14.2l33-17.6-9-36.3c-.3-1.2-.5-2.5-.5-3.9c0-8.8 7.2-16 16-16c.9 0 1.7 .1 2.5 .2l43.5 6.7 10.4-42.7c1.7-7 8.1-12.1 15.5-12.1c3.8 0 7.2 1.3 9.9 3.5L213.8 152l30.2-34.5c3-3.4 7.3-5.5 12.1-5.5c5.8 0 10.9 3 13.7 7.8l34.8 57.7 12.7-15.2L286.5 90.6l15.8-6.8z" />
-    </Icon>
-);
+const Sheep = createIcon("sheep", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABsgAAALXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDWQsGAAE2AiQDCAQgBYMtBywb1QVRlA1GnuzjMN3eyGPShHCFMMGlEOYNR7vGTzx87Pfr3PsEEe2QNHkmaiQU09IgWao00orVjX+2atqkPrxd9t6u/wSa+Yknkiqhsyqo2rTS2a1VVOeORXUT19SP82iQtIkPLZIyec0RcT6BB97aInk2Wgu9KE6dbrlG2Sb1kliKYB3D4+xx6RHK+M07FfmUb3C7/VR8NWKNVBUAohsAbOw11ONBIxoR7/7fJd7ZBAGxAZhGFJg+jmCZUfgjmEyDUiloxP//4z9wGgKImn55ghI1PuEzoASpLMuDwXb7hmJ2NjUrZjGlamo4ExnBGhZQMI9VDGM8IykJKmTzprrhtaVty/RteZqaZcqWOBN1TjjCznhz7QXvJfWC/2H0BnajL4YvK7ulaclE852PBTNauMx1wnrZr28QVLmEDS+HyKA/C6vlMA4QWAKzpFtaINPoUFmWQczhFrFcBmZvy3VlWUlnEKNqNhMBKFsVh2QzZcglt0u/gt/0vlGY+UNv0YY49OuziyK76NMvDm1+2MEDO2NNn11cPovlv2hw3cfcvSen2z94OUvp7FReVJ1wdxc2+VfT/mk2YWtOgKA6p1Uzrw9PpjVrpc2BgNzNZEqGEQaDy2fyHvaQc8OSkodPyppsaZ+QhxTLjZhLOAcDP7sYuApizW5fI6idD4Ln6iNSc/FReZO9Mhr3EVDhp2IgEPx8qQ/2XfN+Nbcl+PL854/j6v8P8iYvoVmCoJj9H6czl9AcyCJoLONKCBQWSK+UgF9tdy9AaEWAVGsVoDDGDUGp1QyCyqR0BLVWW4yibBH6dRmX2p1yhSXzXKnfba6y7Hms1h9FUutSUvdPmbnCw+VyenJCkp6j35ZRn6eaNp6rT9uiZmtbNDai15hR03p0GzDtqEn1yRkjKiKknIJ0yRIk0eXQl2tfVzfrMWnKgDGjY5Jc+vuhKLNx72g4DVTtnJyURFYfEC3jAAAA");
 
 export default Sheep;

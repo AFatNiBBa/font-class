@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rev` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rev?s=brands rev}
  * @preview ![rev](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/rev.svg)
  */
-const Rev: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M289.67 274.89a65.57 65.57 0 1 1-65.56-65.56 65.64 65.64 0 0 1 65.56 65.56zm139.55-5.05h-.13a204.69 204.69 0 0 0-74.32-153l-45.38 26.2a157.07 157.07 0 0 1 71.81 131.84C381.2 361.5 310.73 432 224.11 432S67 361.5 67 274.88c0-81.88 63-149.27 143-156.43v39.12l108.77-62.79L210 32v38.32c-106.7 7.25-191 96-191 204.57 0 111.59 89.12 202.29 200.06 205v.11h210.16V269.84z" />
-    </Icon>
-);
+const Rev = createIcon("rev", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABaQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBWwsGAAE2AiQDCAQgBYMtByob1QTIjtRG95BNIgj0oGaTHOAcIHViBbn6dwWxNUuydurmeedRgA8itXFNkAU+53kCneddntikLMwCtVizbnrP/5DSmrzoJA1TbthaWiCLU3FEAZITySs4XG4aX6tiB4kCKYAoDYDeE8cO9+wX8UXEK/8nXjEUAdEH5AIpUlQXoJtUoLpMjkwm+CL+/9/+gTkBREH1wxOQIcMITAdkIJFkWaWWxQqUyCYUK1B07vHyEcfrXW5wteLRqiernWp4rOGVxjeqTIyIsy3udukUjzW/451uT457r8fTEy71fGagmBgTQrwz6o1x745+c3xEsYg6N0vf/Lb2KwteUft2eo7zDRrWrfvpp23arJlT9M9W5+vUKbovQ/GGHap/qEKd2o31efmJPtEnnngi+pTct/W5Rpb18FMaGF1o0qAYE+M37R2X8pa3gEDwoycvzizV7dfCxRLw1ePf/63rlfv/i7iT3ERhCQjSZv83My2eVU65uCMAAElsUAc8KJAYIKFXLe6oAKEoAiQKKipAqprSAmSKaipAATW1F6CgosZKRVZEKG96B4niVoNUB9tBprxHoIBunrcKKh8pq3BO4I+6mAER6j+Ut27RKu+STz2NIAqaul3zZbbRBs80llkLrLTCOvPNs9i6gKwx3F1vuQEI7u9FudZaaCXXRb4dPk5PMN8aay220orcp6v8vNnIBlzeWMZJAG3uQ0p8Lqytmb8BAA==");
 
 export default Rev;

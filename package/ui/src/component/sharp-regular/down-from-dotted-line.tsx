@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-from-dotted-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-from-dotted-line?s=sharp-regular down-from-dotted-line}
  * @preview ![down-from-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/down-from-dotted-line.svg)
  */
-const DownFromDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M256 256l0 48 48 0 28.1 0L224 412.1 115.9 304l28.1 0 48 0 0-48 0-80 64 0 0 80zm1.9 190.1L384 320l0-16 0-48-32 0-16 0-32 0 0-48 0-32 0-48-48 0-64 0-48 0 0 48 0 32 0 48-32 0-16 0-32 0 0 48 0 16L190.1 446.1 224 480l33.9-33.9zM64 96l0-64L0 32 0 96l64 0zm96 0l0-64L96 32l0 64 64 0zm32-64l0 64 64 0 0-64-64 0zM352 96l0-64-64 0 0 64 64 0zm32 0l64 0 0-64-64 0 0 64z" />
-    </Icon>
-);
+const DownFromDottedLine = createIcon("down-from-dotted-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcQAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCGAsGAAE2AiQDCAQgBYMtBzwbJAURlZojyL5K4OYQF8eWiSMIDANUnX6Va/ddxVe4jDwSz/OsfbtvZlZMiWbJs4hGEe808b4RmljSUvZQOUTyT2ZIoACon/N8D2Gw2ObzKV1kuCNkaFabbY/c/J9r6kXZNeA3OrTrVVoURWJEPJ/AQIez9AKfDWymE7BZuG2mcDT10H4hcoMqL7I6imcFPKo+NH8NeahQVwJIJwDW7d6+0dfZzCa/az/Jb+sRyDowKShRYlTASqVgVGUSlUqYTa1m/gMhQOrhZQWo0IQTuAqoQKGhqnrmNOGElrq2aldLXfNu0dKyI7siuCTVsXP3jt3h2ebmJIOImp1ZlTX7xkiiLS0xuVQkJL6d6+mW5pbYw9MznTP/1ql9yZAaPXGCtUe7RlustSWfbqGqc5HJRR7BLDrrmZz6O21X69L1rQ4OjfdIS9Wib3TeSX4/EIQ7b3e4Y+X/xpYC/HmP+hmpzeZrMYNGBQjlvNq8A/kK+SoAgCKXTecrgsJxDfCurR4HRDMCCvWaBZRGdAqoNJsroM645QLqNduulKpJ9Do4QKHVOSitcAsqvd5BnZW+5+r1piQ6nWT0X74cMkxxvw95ksFit6sz6EiN2w6XA/KzU4ofpW7fnrYZn4l8lcV3DUes/yLyJIPF48HL+qq97nHb+3wXh+9j8jterHiYQbGoY4xE0VcMnXHptOMu9zxtE9Mm");
 
 export default DownFromDottedLine;

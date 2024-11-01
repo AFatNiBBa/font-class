@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bong` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bong?s=duotone bong}
  * @preview ![bong](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bong.svg)
  */
-const Bong: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 384c0 39.4 11.9 76.1 32.2 106.5C41.9 504.9 58.8 512 76.1 512l231.9 0c17.3 0 34.2-7.1 43.8-21.5C372.1 460.1 384 423.4 384 384c0-36.1-10-69.9-27.3-98.8L400 241.9l7 7c9.4 9.4 24.6 9.4 33.9 0c4.7-4.7 7-10.8 7-17s-2.3-12.3-7-17l-24-24-24-24c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l7 7-39.3 39.3c-9.4-9.3-19.8-17.6-30.9-24.8c-4.8-3.1-7.9-8.3-7.9-14L288 64c17.7 0 32-14.3 32-32s-14.3-32-32-32L272 0 112 0 96 0C78.3 0 64 14.3 64 32s14.3 32 32 32l0 144.5c0 5.7-3.1 10.9-7.9 14C35.1 256.7 0 316.2 0 384zm64 0c0-23.3 6.2-45.2 17.1-64c10.2-17.6 24.5-32.6 41.7-43.7c21.6-13.9 37.2-38.7 37.2-67.8L160 64l64 0 0 144.5c0 29.1 15.6 53.9 37.2 67.8c17.2 11.1 31.5 26.1 41.7 43.7c10.9 18.8 17.1 40.7 17.1 64c0 23.4-6.2 45.2-17.1 64L81.1 448C70.2 429.2 64 407.4 64 384z" />
-        <path d="M302.9 320L81.1 320C70.2 338.8 64 360.7 64 384c0 23.4 6.2 45.2 17.1 64l221.8 0c10.9-18.8 17.1-40.6 17.1-64c0-23.3-6.2-45.2-17.1-64z" />
-    </Icon>
-);
+const Bong = createIcon("bong", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABhgAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCHAsIAAE2AiQDCgQgBYMtB0QbMgXIjtMV8UYwjlQ8/L9O674v2SeRnAySBhirmQqIlpHcLWDRcMuY/+hfU6ee5zwUwAeR7GUBGRNozY7zCvS8unlTtSAbtKY1sL5tuRqJdBpSEiZRjRM2ZnvI46HsfDXSLekDXEX/Axhf6+V8ktYMQHQEwMK1K1dofhFfpPjg/+eJDyxHQCwClUCGDH0FmCMT6CtXIZcLvkj/44v4X0UAUUeflIE6ajgWJwFykISU5+2Le5W1tnxNWSt2FmXxsLNHlvFYnDMq7hl7S1nGZX2eGnzvuPnRLR4YflOc031UjIoHh9zcq1vMiRuH3RgRl/XQ5BsLuNGlXa93drcbSnF215fHPF6V54y+bfRrAyLKEHfMfKTXI84eUcSjMejRjo9+O/CDPR8Yd9ZnIdYYPLjxmXKJBeV3v/Rd31++K+u3PWqPtrY9RbHnJCfxzk8+2WOPT4vjW6/WfvHF7Wh2fBqOv0bLCaecsj8tGNz46+qh/a62wDX6Dr36r93XA4HgybX21WHOry1lAl+9+v3P+EPyfzOa6VG0SCDIxvw/xqZoQjQFACDFiQZF0wIEMpsk+V4bbhQgFAiQ1BUCZProKECuMFqAmv6mClBXWCkTeavQ1eYKkoZjQGaaM0Cuq+dAzRxv23VdI/M73GvwX1/MMgktnVdNHDehmlUNE0y4EpqmZ1fTyogTY2MkbLXHUY443m677He8QI61wjvBYcsseKkvqkw0zgSVWarl/J5ZI+xjHWe/Tq3PMlt13hrhRLt/JCwmASbd2PKMSJE1dhx1ZO9Y9+XaG+qVAgAAAA==");
 
 export default Bong;

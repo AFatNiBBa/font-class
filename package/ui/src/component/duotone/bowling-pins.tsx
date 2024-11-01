@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowling-pins` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowling-pins?s=duotone bowling-pins}
  * @preview ![bowling-pins](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bowling-pins.svg)
  */
-const BowlingPins: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 379.5c0 28.9 6.7 57.5 19.7 83.4l15.7 31.4C72.8 505.2 83.9 512 96 512l64 0c12.1 0 23.2-6.8 28.6-17.7l15.7-31.4C217.3 437 224 408.5 224 379.5c0-22-3.9-43.8-11.5-64.4L173.9 210.4c-2.2-6-3.8-12.1-4.8-18.4l-82.3 0c-1 6.3-2.6 12.4-4.8 18.4L43.5 315.1C35.9 335.7 32 357.5 32 379.5zM64 64l0 1.1c0 7.4 1 14.8 2.9 22l17.7 64.8c.7 2.7 1.3 5.4 1.8 8.1l83.1 0c.5-2.7 1.1-5.4 1.8-8.1l17.7-64.8c2-7.2 2.9-14.6 2.9-22l0-1.1c0-35.3-28.7-64-64-64S64 28.7 64 64zM288 375.1c0 20.5 3.9 40.9 11.5 59.9l22.7 56.9C327.1 504 338.9 512 352 512l64 0c13.1 0 24.9-8 29.7-20.1L468.5 435c7.6-19.1 11.5-39.4 11.5-59.9c0-19-3.4-37.9-10-55.8L429.9 210.4c-2.2-6-3.8-12.1-4.8-18.4l-82.3 0c-1 6.3-2.6 12.4-4.8 18.4L298 319.3c-6.6 17.9-10 36.8-10 55.8zM320 64l0 1.1c0 7.4 1 14.8 2.9 22l17.7 64.8c.7 2.7 1.3 5.4 1.8 8.1l83.1 0c.5-2.7 1.1-5.4 1.8-8.1l17.7-64.8c2-7.2 2.9-14.6 2.9-22l0-1.1c0-35.3-28.7-64-64-64s-64 28.7-64 64z" />
-        <path d="M86.8 192c.8-4.9 1.2-9.9 1.2-14.8c0-5.8-.5-11.5-1.5-17.2l83.1 0c-1 5.7-1.5 11.4-1.5 17.2c0 5 .4 9.9 1.2 14.8l-82.3 0zm256 0c.8-4.9 1.2-9.9 1.2-14.8c0-5.8-.5-11.5-1.5-17.2l83.1 0c-1 5.7-1.5 11.4-1.5 17.2c0 5 .4 9.9 1.2 14.8l-82.3 0z" />
-    </Icon>
-);
+const BowlingPins = createIcon("bowling-pins", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABoAAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCawsIAAE2AiQDCgQgBYMtB1QbkQXIjsJxr0S4YLEQzU1UPM//2v/2uTNvULNKMq9EPIs202jaCfklFv3/TyWySDYHa/OO/4TrIa6NqTSXJlYSaW5R21oa+59rPr/nRwf4jc6PPBIrvcErllq45wOO8vkGcjjwMp2B7W0iIhEDxKMnJCaDji/peLpBnW/VNR3K09LFbfofwPw0wRHFgApAhgMAOw72NuGnN70l3faddO0GAtkJMB2iQoXJEGzGCCZjTQdqtdBb2hb0pm0JBEiDHlmBBv1xDy8ANSiKuq4HD54y2fi8zpD6gHtx4MHHuTyWlwcujeEOkWEPXlqiwadzeHkzSYdfcnniQB6N5ebB6L48cRS6NKY/Dw3K5XGDeZzk2cJbx7nrWj18aUJ4iagoPr9guRXf/s3oTnUdaJv+bO6lxoVmD3xG065F69pwZ3oJ3Wlbu9jy6JjhGt9DPd8+42umKYvJoIUjSph6H7YasZ1nUAwcMeL4WCLh9qyd9jHkYPt2KF055X6aoeVcWCVp89YUUwLuB4Lgz63vJ4dt/t1/UAE/vv7/8j8kan/SW96jvwJCtbj1GStMR+kVAEDJRZbCQQRROYvFQwz2SEAMREDRGCigMokYgtpAiwQ6popTk8f3YqQeIEYbBygGOwOVtbahNtobdGz2GzZGp1JPRrmY32FiI0fq22hFIEQZ6qYSq3FUmM/StDR/y7bccBWmLFuyYdKEWRsZtqaZbFrUGKF1X0TCAkJIBm0Xl+IAhmvWzbb5/XWy6LznsjUe7QaVg3FX2lGpSEk1+r37s0vT/tNRW/dreldZ4W81AA==");
 
 export default BowlingPins;

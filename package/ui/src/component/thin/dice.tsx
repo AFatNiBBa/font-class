@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice?s=thin dice}
  * @preview ![dice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dice.svg)
  */
-const Dice: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M263.6 45.7c-21.9-21.9-57.3-21.9-79.2 0L45.7 184.4c-21.9 21.9-21.9 57.3 0 79.2L184.4 402.3c21.9 21.9 57.3 21.9 79.2 0L402.3 263.6c21.9-21.9 21.9-57.3 0-79.2L263.6 45.7zM173.1 34.3c28.1-28.1 73.7-28.1 101.8 0L413.7 173.1c28.1 28.1 28.1 73.7 0 101.8L274.9 413.7c-28.1 28.1-73.7 28.1-101.8 0L34.3 274.9c-28.1-28.1-28.1-73.7 0-101.8L173.1 34.3zM320 448l0-34.2 16-16 0 50.2c0 26.5 21.5 48 48 48l192 0c26.5 0 48-21.5 48-48l0-192c0-26.5-21.5-48-48-48l-110.5 0c-.8-5.4-2.1-10.8-3.8-16L576 192c35.3 0 64 28.7 64 64l0 192c0 35.3-28.7 64-64 64l-192 0c-35.3 0-64-28.7-64-64zm144-96a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64zM208 120a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM104 224a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm88-32a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm-16 72a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm88-72a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64z" />
-    </Icon>
-);
+const Dice = createIcon("dice", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAAB6gAAAKAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXCEdQsGAAE2AiQDCAQgBYMtBysbcAbIBv7h9frOfckoGfCD+SuhglmJKOVuXXTrCqrgzHM/04WNooAqQNP2DYaRiRU46gTc8wFmXJbIveMSxrNtyfkwIhl+trGHRIlIj2eM/XcLbP1hPAEw+81TYOuxXh8pZBUYLAvFKcnnpOOgfn25/1qvpaf+FdBTegMCUCcAPARYgAWUIADaYCGgBBsPsLERvJbvy/9ADwQACgKY4SIbSIHSoGrQfwsMCdsuKqoXybSQG4jZA+vznUkXHGlDjf46x7KaA3Te3Vh7kC5qea2BAy+60kYys8wzOhsQ1AUtx1caIpQvtD+3u6qrs/l7i6UDeXuqOdqT5+p0zfOFaF+Nc1Ucnal1oWjQ7tze/D15u7KFG/KkPVqev9fdmNvNsuwuZ+IYXrwxJyVhQMqt9s+UvI7X/iXj6pUuJC98rng68Smh7ck8yEuuX4/y8nQJbS7vGur2L4XS/hs20LW0tCsJKZecOw5X0kM+jbCePW9wnwbPn1n3ZfpM8vPnciyVcu7jnKBjYmRsHRV//Tougvz4OlgXj68bNRGaAF20FuigcqCJ7jwP+jgACBC8uxf6OCrR5lvYNQC8vfn19/30mH/fLDMXgDAGAIFVx6/DcLOMGDCzACBqtJBKjkZmLIcEShFlDyIuHBC8IYiDtygmibdxqI0PUEZTcXB1PyxkRxBZRgBviDIHb9GMxXibLJfwAdrwIBIkK+sVkW5w6R9qqm4W2nWS17BeA6+VN815ZLte3Hpbe2FTjYWlpiZ2MpFZzGQ+ExjPFOYbzFz6xhcwg24ea9e/9WhIPRrg0QovXbxXDTTRucxjyliWH4fWeOt9NVjoN68Jq0H5NiLLYEDG/gYCAAA=");
 
 export default Dice;

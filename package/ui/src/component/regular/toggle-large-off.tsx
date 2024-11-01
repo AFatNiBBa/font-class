@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toggle-large-off` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toggle-large-off?s=regular toggle-large-off}
  * @preview ![toggle-large-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/toggle-large-off.svg)
  */
-const ToggleLargeOff: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M192 400a144 144 0 1 1 0-288 144 144 0 1 1 0 288zm0 48l192 0c106 0 192-86 192-192s-86-192-192-192L192 64C86 64 0 150 0 256S86 448 192 448zm127-48c39.9-35.2 65-86.7 65-144s-25.1-108.8-65-144l65 0c79.5 0 144 64.5 144 144s-64.5 144-144 144l-65 0z" />
-    </Icon>
-);
+const ToggleLargeOff = createIcon("toggle-large-off", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbgAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBXAsGAAE2AiQDCAQgBYMtBzcb4wTIjsJxr4SiCUsUD4TBGQ//v9bue39mFrOGZ7PkiWheCqF5hmQxU8oeKp269639ZvYOEd//ERMrhawiofBIJJ3/yz2/57cBv9GhjWWTlm863aPyBBLr5ZsgC7OIEuFYUrexcoOoDxY5R/CIGNpCtXmGKp7iHWrymxwDb/VF44+CDpDqAgAxBABg/zI8ENbfsR1x1JkhfvgDAbEPgBmIgoIJCLYwAhNYM0ClErSx8y+/gRQEEA3oP5KgQo1D4A6ACqRSsUqyskI8ImyUEI9gdJ8d4qLRKLYaj9kvCfXbLhiOwIPBsM28IPT2CN2dXkXfhl1GCeL10XnETehFZPSQMeIYthqN6gnhzvYKZ8Bh2aOHOyg++DF7nHUMa8baBOQKR0uLY0qItjYx2WQdTihGRmJHQiMjd9a5r2kyfmQZm9OXZh/3YaO7ZkK5pntjHwACwetX3neymMNXlxAB+F38/G8P5h4ZBLokCMr8v4GEdAFAdpFGZFQBN3ijQDrAwLP2+YAAoQcBUqNHgGKcOASVHnMQ1KZYQtDocYoRlQCEMYkGUp97UGxqBJUxU6C2Zc9rjAVDK5YU7KMuyctDnoeoqZEJtaPL3OCYQudte7qt6FSlni5OQpZiRSpkypCrwpFlAsNKhbwi2NMHUaaMmKDs0OPq+XiUTGXK5SpWVPaxR+/bOqriaV3ohFKuiqUkUpyifcM/FRjFWVkA");
 
 export default ToggleLargeOff;

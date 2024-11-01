@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-waveform` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-waveform?s=solid magnifying-glass-waveform}
  * @preview ![magnifying-glass-waveform](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/magnifying-glass-waveform.svg)
  */
-const MagnifyingGlassWaveform: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM232 120c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 176c0 13.3 10.7 24 24 24s24-10.7 24-24l0-176zm-88 32c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112zm176 32c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24s24-10.7 24-24l0-48z" />
-    </Icon>
-);
+const MagnifyingGlassWaveform = createIcon("magnifying-glass-waveform", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABbgAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBVQsGAAE2AiQDCAQgBYMtB0Ab5QTIhof/t/uvfW5VA66GhJGRkelfk1HZm//LPT+QDfjFzw9tbFp6vulw7+cJBJj1suklkgWWSAIJWLuzrVhZtMMjpEhyfJbj8bhDHm9kZ5Qj3ZY+xjXhTeMnjZwhqZQBiJoAGDl/9lTvlkVZxEell4iPTEZAjASFQIYMTQUYIhNoKlcglwvKolSy/4EFAUR58qwEcpTHRCwC5CDJ87xZVbGqlKuWz4vfXHn11yPmxk1O1L2x8qX68+LjOd/O+nLed7O/mv/NzC/mzru93YMNxW1tH2kSczJ57rmtHq/5+C8tP173sXt+M3bNsaMuVqt28VZ38Najx4wba348/nggPP/xx1kMvTK/3syZ9Z7F2vwWRt8BlGcKowd4GASCJxf+8PvyGkP+qVglge9f/+1/+hkpvZukx1FRAkHWpdTFkgQSAQBIsU+rBIFkpJy8alU3CxAqI0BSXmUBMk3UFCBXWWcBymmurwDlVTZbJvJKQl1LM0iq2gky/RwFubpeAOUM8Z5TXt3IVIpVCPZFlzSuhsbuK3p261EMKrqZxGkJzdvBxbTaYR91OsJJ62y3zR5rrbHRnorYZaq/11bjRqSxH1ToqZseCoMUy+Xt8XnW2mW3jbbb5ncZrNhvdrBvPN4RjEQoe0kliUiNvsQNrDu4cdv6rrdI7nrcac0DAAA=");
 
 export default MagnifyingGlassWaveform;

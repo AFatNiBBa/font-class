@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `certificate` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/certificate?s=sharp-duotone-solid certificate}
  * @preview ![certificate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/certificate.svg)
  */
-const Certificate: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M187.4 0L256 57.2 324.6 0l30.8 83.9 88-15.3-15.3 88L512 187.4 454.8 256 512 324.6l-83.9 30.8 15.3 88-88-15.3L324.6 512 256 454.8 187.4 512l-30.8-83.9-88 15.3 15.3-88L0 324.6 57.2 256 0 187.4l83.9-30.8-15.3-88 88 15.3L187.4 0z" />
-    </Icon>
-);
+const Certificate = createIcon("certificate", true, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABYQAAAHMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBQQsIAAE2AiQDCgQgBYMtB1Ib5QQRlZLBZB+rT/cIDS/i4b+9uftmZn8Seh2iKK0roii9OFw8rgmXsxYU3XWFUHuQXYHd/Ocnmjr1POehAfQAnjnPA7LA5zyPQHB06lreilSopjWwvk1EPCIM6RuUtIjouMrj6wklvuVBLdKz9BWP+H8A46epBkn6MoAYA4BtB/cOeN+JToqv3RfEV3sQENtBFcjImCHARllghqKiKIJO6qITXZUAosHvzaBBxjocBBSQEKUsG94aWQ7whWFH9x/YfzD2x8HYF/sROxD70INxgFw50t8e0/495+uFr16+a63bbuZeB0cZddDemSRJeCRLvEG2iWE8+zoIBEND/z85euO/3uEJfH/594fwO+q+T1IbvRII8sLuQscSSAQAIMUD/QkIZMsk/lNHeCxAGIYASWOYANl0YwQohlkgQMssqwRoDLNXFqVPmOB4BskIt0G22kNQTPActGz0wWpMiKxJtB7QH7kEtVtCu4bqssVL6/o69CRGOUjqbqjLxtwHJjMPdrrgphvuOe+cy+4J5I4B977rds/gXb6oWmaxpar16nZ4LRxA6467Lve5/T4b1PPmXA/m5fNgOQmw/A5GM5Eij9dtZdGjzE2sufcHAAA=");
 
 export default Certificate;

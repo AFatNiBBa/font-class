@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-hushed` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-hushed?s=sharp-duotone-solid face-hushed}
  * @preview ![face-hushed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-hushed.svg)
  */
-const FaceHushed: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm89.4-80.8c3.9-3.6 7.8-7.3 11.7-10.9c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1l16 0c0 10.7 0 21.3 0 32l-16 0c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8l-11.7 10.9L89.4 175.2zm55.2 77.5c.1-1.1 .3-2.1 .5-3.2c.4-2.1 1.1-4.1 1.9-6c1.6-3.8 4-7.3 6.9-10.2c5.8-5.8 13.8-9.4 22.6-9.4c17.7 0 32 14.3 32 32s-14.3 32-32 32c-8.8 0-16.8-3.6-22.6-9.4c-2.9-2.9-5.2-6.3-6.9-10.2c-.8-1.9-1.4-3.9-1.9-6c-.2-1-.4-2.1-.5-3.2c-.1-.5-.1-1.1-.1-1.6s0-1 0-1.8c0-.4 0-.9 0-1.5s.1-1.1 .1-1.6zM304 384a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm0-256l16 0c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2l11.7 10.9-21.8 23.4-11.7-10.9c-15.5-14.5-34.8-24-56.1-26.8c-4.3-.6-8.6-.9-13-.9l-16 0c0-10.7 0-21.3 0-32zm.5 124.7c.1-1.1 .3-2.1 .5-3.2c.4-2.1 1.1-4.1 1.9-6c1.6-3.8 4-7.3 6.9-10.2c5.8-5.8 13.8-9.4 22.6-9.4c17.7 0 32 14.3 32 32s-14.3 32-32 32c-8.8 0-16.8-3.6-22.6-9.4c-2.9-2.9-5.2-6.3-6.9-10.2c-.8-1.9-1.4-3.9-1.9-6c-.2-1-.4-2.1-.5-3.2c-.1-.5-.1-1.1-.1-1.6s0-1 0-1.8c0-.4 0-.9 0-1.5s.1-1.1 .1-1.6z" />
-        <path d="M192 160c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8l-11.7 10.9L89.4 175.2l11.7-10.9c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1l16 0 0 32-16 0zm-15.6 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm160 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM333 160.9c-4.3-.6-8.6-.9-13-.9l-16 0 0-32 16 0c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2l11.7 10.9-21.8 23.4-11.7-10.9c-15.5-14.5-34.8-24-56.1-26.8z" />
-    </Icon>
-);
+const FaceHushed = createIcon("face-hushed", true, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAAB4QAAALGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSCESQsIAAE2AiQDCgQgBYMtB1IbbQbIBv7516n3fclJLIVBYSjiBIA0AtOc05Forf//e6d/hWMCda542gnltof987C1fIzBCRToWLi8jiewKOMysAbnDT7o6lB+AbbeWsvwgdltngMbzf8B1BeSWAYGvwUAgCIBAIAWPbu253atao2eB86DntMOEIBaAuAhwAIsIBUB0BgLAanYeICNjaDWBAJQq0DAAwGAgjC/HwuAICAUJFA4AGADYLAJsu3YmJi4lMTSsPh81xdm93B9Tt81sccKYlWkBJ2tt9N1hRxvbZy0nUWx25w18TvidybsdN3yvbJ2OI4kV2vjLhTGqUDxOpOnDy2kO+1fuGs7vmp1r+fHlnc7vHTWtHve/Ha3njsTpJ0JG4QW4WjT3O6LJS0W1HFEZHvcNoZwwWLtcBfL+az7rpxjeSeS9+afzD2eZLmOa+l3M3WxltJgkUC3crPORJ75lvl8xHNuZQR3+jv9Kj25ytfjk/yReEQGwlfBqvAAGRXGhPU4VObLOgUPTOKfdPzr5KOm/+U2bfyQdO5Oq1Z3ziX5aVMsZ3m9OmVGQXXWNtZI28XWD9VrbwRgKa718mhtr8k1RgaBUJjPgSXOhLlzJzhEv0TFDvS7wsoY8xbTL2I+eKB1HEIqlK4GECD4H3VyzMCIxv9CXAPAp6s/PhP9CgO3DeYMEIIBQGCVBEroZwAwIAAAAMBoBlkGegMCLM5walWh7EBEOIOlYFxOBhYpRIKNQzH4SKeOfqCt6yCpbD+JpT8CQyiTwaIu88EmlnPgozGP4kHEyvoajM+y8Wc0W9si22aeV1lW4TX0WssS0wOu18YbeYN9BTN4WyE8wAgmMoFpDGcYoyMsKKfQPjWd8bTtUm/zXo9KyqjAoyHe5NpVW48CBvxURjebp8/SCG95UsCM7t6FMGiwtVaxxMICGVkxL1tB6ajpU0cNH1b6YnXEVS3vEA==");
 
 export default FaceHushed;

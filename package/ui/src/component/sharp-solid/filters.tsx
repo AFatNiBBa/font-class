@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `filters` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filters?s=sharp-solid filters}
  * @preview ![filters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/filters.svg)
  */
-const Filters: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 96L352 256l0 128 128 96 0-224L640 96l0-64L192 32l0 64zM0 96l0 64L160 320l0 96 128 96 0-192 32-32 0-18.7L169.4 118.6l-9.4-9.4L160 96 0 96z" />
-    </Icon>
-);
+const Filters = createIcon("filters", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABUQAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQiBHAsGAAE2AiQDCAQgBYMtBy4bmgTILgpjcE/TnOeo9KzkyY9i7hfx8N9+/9tnZr6I3/WTISKRaB6qN9NE0gSZSsObeIhvUckku5a3Qyo/qf83yQgJm4ANev8UJXOsaraHQKRZ7fv8X47v3fOjA/x8BIc0ts2Ju3CM+TyBxKZOzALKwixRbHe2FIXZPkkjJDke7XhdoMSffEMT6XGCe+lD45cxN0jaMoDoBcDOgzFAG9GI+FxHfLYHBMROQCWQkTEpwBZZYFJRoSiCRtS1/Q+sCCCa8VMTKChYgS2AApJUSt9IR1NXOeAvbj+6PyeY/RFxMCI6Q7uwP1po0ToQw+ZM++yzMrw9+YTLr7h8Eh9V2EHteLcDCBJPDV6uagMe3HdXl6dAIPix+xcne7b8bu1I4OeLyQ/U79KVFFolEOQl9RLHMIKIDSBOcYGHryKQzEn4XTs9ECC0I0DSrF2AbEKvAEW7RQGaTFsrQLN2ezlR2oRBxytIOp0G2ToXQTHoOWiyxfuk2WBktaEfnf60JYiEeRetXLai2lRNOwqjCWTY3FxtS3MX3MQ8HEWzTFdVdFegW8ifQVYI+yGy0jIrVDapjvv3+7NqO7pl4jabVfe9ORfW8+dBtRh3lYYkEalFn8QDAAAA");
 
 export default Filters;

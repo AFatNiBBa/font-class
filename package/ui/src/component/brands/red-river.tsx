@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `red-river` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/red-river?s=brands red-river}
  * @preview ![red-river](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/red-river.svg)
  */
-const RedRiver: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M353.2 32H94.8C42.4 32 0 74.4 0 126.8v258.4C0 437.6 42.4 480 94.8 480h258.4c52.4 0 94.8-42.4 94.8-94.8V126.8c0-52.4-42.4-94.8-94.8-94.8zM144.9 200.9v56.3c0 27-21.9 48.9-48.9 48.9V151.9c0-13.2 10.7-23.9 23.9-23.9h154.2c0 27-21.9 48.9-48.9 48.9h-56.3c-12.3-.6-24.6 11.6-24 24zm176.3 72h-56.3c-12.3-.6-24.6 11.6-24 24v56.3c0 27-21.9 48.9-48.9 48.9V247.9c0-13.2 10.7-23.9 23.9-23.9h154.2c0 27-21.9 48.9-48.9 48.9z" />
-    </Icon>
-);
+const RedRiver = createIcon("red-river", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABbAAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBWwsGAAE2AiQDCAQgBYMtBzAb2wTIjpQuZyTx8P9zVff9pPr0pHqQM8zogBTikmVQ5RZImGWLanVlCOr+/J/r+Z6PBviNhhaFlSD1fNbBEzjQSD/SKLADGcEJ2Fk7ewMhupG+j3ySYfPD5gJ5vBT3VEjP0/e4Wz80/tLZdZJKBiBaAWDWhjXL1H6P3yO+r39CfG8JAmI2KAUyZOgmwFSZQDe5Erlc8HvU6/4/sCSAaIAXSSBHBauxEZCDJMvzLp06VSvN8/XVSnGgqXnTxwNf75bilUFvjGsenw15q2cWrw5+c/xa4Vm7R0XESwOqcbndo75F3Gj3yLqiWrgJoSzR+81Wb/7j+/3f2/laSunyizcak8Y3XlxOWP2pifDlP/zS/oX2q+K6X36eOVGxf3/x3oIp1iYmWi0HBIIvb2xauqPl1P8bqwn8+eV/p19R/feopTfRKIEgG1ofamvUIGoCAJDivN5RQyBZLINrbfJEgFAgQNKgECDTVSsBcoUhAlT0ME6ABoU1MpE3E9rZxiBpcgpkxrsAcu18BCqm+spu0C4yqyJsgvjUxc6X0LxV5ajhI8vJ5TLQSUPB8nBKuc0NPB8Kg+is/U447qx99jrkrEBOW+adc8x8DZ7ni0qjDDdSabLyOH48vt4+p51xyAnHy5wpyvvWQOf1+kEkJkAdbWuSiNTs9L69w54nAA==");
 
 export default RedRiver;

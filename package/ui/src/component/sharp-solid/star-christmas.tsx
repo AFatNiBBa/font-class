@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-christmas` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-christmas?s=sharp-solid star-christmas}
  * @preview ![star-christmas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/star-christmas.svg)
  */
-const StarChristmas: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256l192 64 64 192 64-192 192-64L320 192 256 0 192 192 0 256zM54.1 88l17 17 48 48 17 17L169.9 136l-17-17L105 71l-17-17L54.1 88zm403.9 0L424 54.1 407 71l-48 48-17 17L376 169.9l17-17 48-48 17-17zM441 407l-48-48-17-17L342.1 376l17 17 48 48 17 17L457.9 424l-17-17zM54.1 424L88 457.9l17-17 48-48 17-17L136 342.1l-17 17L71 407l-17 17z" />
-    </Icon>
-);
+const StarChristmas = createIcon("star-christmas", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABcgAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBfQsGAAE2AiQDCAQgBYMtBzUbAgXIHgVuywOnEy6RbCGEGFSd8+HRjOD7/X57zrtfFG14hqTJQ9ZEiOLTCcUkVEKEECmFoTKE/K1Y072AYht3EwVAClABk4uL8mTjyq7GRriq6k/mWsL5v5zeeH50gN9P/FDG2n6t50VzPo8CCnRMzxd4FlimCViL266CiIY4QuIGJb6q1Mj3BG7Dh8YfjQupVQGIYQDA9kE+h58XvYK+BxPfMiAgtgGzCBUqTCKwRiwwSWIWFEXwQ4Ig/gMZAoi65EUJCho4BEcACki1UkaSQibtlf2irh17+8UilRVcggrbD/QGfZj0FCUDRSQxpIiEIzoKEbUEG21jZQIbID13RuoYNbxKH2ZP7dY+hh//c0b8fEdTisOomsFCf8J9xQCM1NbTSNI6jYY3BNy8uRZuhvX9QCCYfPv0t1Wh/6Yswe/b33/9M8LgJ5EfaEoQVAuCSSMBSQAAMq5pEwikPVLJu3a9CBDaCJDq2gJUJqgRKNrmEaiZ5kagrm2HWJSWMK7Zg9R1BiqrzqAY9wQ1a37LdeMhBjMOSLi/vOT4GI1tYrvFxgHebGp5yGHscpBP27qTHNLjqxhZWzkYGpg6jPCdXO1oKb6HxXwRs7OwYQF8u/N8R8nQzt7UunB/lSB+P9c57U/WY08kIV3UkJLI/ndQmPuT3bRJlt09AA==");
 
 export default StarChristmas;

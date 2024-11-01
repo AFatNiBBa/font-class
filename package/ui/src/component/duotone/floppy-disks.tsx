@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `floppy-disks` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disks?s=duotone floppy-disks}
  * @preview ![floppy-disks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/floppy-disks.svg)
  */
-const FloppyDisks: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 120L0 376c0 75.1 60.9 136 136 136l256 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-256 0c-48.6 0-88-39.4-88-88l0-256c0-13.3-10.7-24-24-24S0 106.7 0 120zM240 288a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-        <path d="M152 0C121.1 0 96 25.1 96 56l0 304c0 30.9 25.1 56 56 56l304 0c30.9 0 56-25.1 56-56l0-218.7c0-14.9-5.9-29.1-16.4-39.6L410.3 16.4C399.8 5.9 385.6 0 370.7 0L152 0zm8 96c0-17.7 14.3-32 32-32l160 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-32zM304 224a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
-    </Icon>
-);
+const FloppyDisks = createIcon("floppy-disks", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABkQAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCIgsIAAE2AiQDCgQgBYMtB1QbSAXIhof/7Pi6r+pD6CG0JjMic7QplArZnun5vybfu+dHBfKNDiUas7DB1vV8AhPdKNI20BSa6Qxs6qZUURFB/KRIUFdH2fF1O74doSK+ztepJD2cvsKd9X8A4xe9riOpzQCiBQAr9u3a4pMf48cUX5VvEF/ZjIBYCQqBjIwBARbLAgMqFKhQIfgxlSU/RlkWBBBV6h0zqEI1zsGlgAqQZKmiYqCvMST1lY0Ve/ND1R36XEfEfT0pHu68f0xjvNj9YH/E1V1744G6uj1Xd0c8WF8ft3beT1zVcV9dXdzS9UDEnjcnvDz+pdlvTXxl0qvzcsrp6SUfrlGm/Y+MbYiNPZSD4+d69jx+Qkx6dfgJ6vCagZGvtLzy24ivTvjKgx+fdZA/qqer/uPgWdMBFbf6Rne5Z4+y+5vqI5tu4qamp3QqQoXoKu68cvrU4eGp02kL61F7/N672NHZuYPlsl0BU1Dxx4v557/++jn724FA8NrhC/4/snnxfzX1Cfz83h//pB+S8pMkvYIaCQR5cjnZYQkkAgCQ4gIjE0chkK2StU9t8IAAoQ4Bkip1AmT9WgSoUGeSAJWGzBGgSp1dsqioFTocPkDS4GyQzXU5qNDhdVBpsU+zKh2RTY8zHO7HL3ktwmtWFTOmTi8WFpcNzFsTUxYXFbeV8RekgQm0xgnOdIbzHO84J3cK0HNsKc93urUSssYXFWaYarrCQoW6/Szvhewc5zp5L+qXWaR4PhjvAnn8BNKTRjrT5iwTKXLHCaededZZF0/5ao1zp1jxcNdCfGEBAAAA");
 
 export default FloppyDisks;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crystal-ball` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crystal-ball?s=solid crystal-ball}
  * @preview ![crystal-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/crystal-ball.svg)
  */
-const CrystalBall: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 224c0 62.7-25.7 119.3-67.2 160L67.2 384C25.7 343.3 0 286.7 0 224C0 100.3 100.3 0 224 0S448 100.3 448 224zM152.5 84.3l-9.8 26.4-26.4 9.8c-7 2.6-7 12.4 0 15l26.4 9.8 9.8 26.4c2.6 7 12.4 7 15 0l9.8-26.4 26.4-9.8c7-2.6 7-12.4 0-15l-26.4-9.8-9.8-26.4c-2.6-7-12.4-7-15 0zm159 48c-2.6-7-12.4-7-15 0l-18.4 49.8-49.8 18.4c-7 2.6-7 12.4 0 15l49.8 18.4 18.4 49.8c2.6 7 12.4 7 15 0l18.4-49.8 49.8-18.4c7-2.6 7-12.4 0-15l-49.8-18.4-18.4-49.8zm98.9 331.8c3.7 5.1 5.6 11.3 5.6 17.6c0 16.7-13.6 30.3-30.3 30.3L62.3 512C45.6 512 32 498.4 32 481.7c0-6.3 2-12.5 5.6-17.6L72 416l304 0 34.4 48.1z" />
-    </Icon>
-);
+const CrystalBall = createIcon("crystal-ball", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhAAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCKwsGAAE2AiQDCAQgBYMtBzMbLgXIjsN06yPHWEk5ScFXPDx/+Dv3vtdYw4smbV6TA/xWFli2MKKlCSxdoPnPj6s/dyG+mRWcCFYBiQ5pJ5T9P6nNxOXO//w34CJ/tD3s70EW4B6dJxBgmieQRVGBZZqA9bahQo0gfBEhQSbSmNY43aHGpGAXhMkHgVfc1A+Nb2O6ILUVAEQvAGDrPDIClzziBb38H0O82QYBsQVgFqGgYBKBVYICk4TMgqoKPojPT/+BDAKIZvCbJqhoxhW4BlBBqlVInctVkhSWFoqRFJbIbDMn2jKWog3LHVq0Owx7CboLebLZ52Soaarp0xDahgxInYYlB1U1yYhGqV3FkDRoRGJAKXpEgmhAyZqCd9AQskHtKOzBoWQbP4y2wSEJKRpQGaF2VS+SJg/uhtzGD+c15xVP71ZqwOifK36pqVnJfL2aa/N42ubXXzKGgxNwbR0+TcK+a5ig1Gj6A1jjS/NZxwB9utKMlb4wBBwoWFB5cCx5+Sz5i7BYCeneOml/SF/2SkvE6sKaLkAgeNz77kyVdf8jJikA+Lr4/R9/Rv4v6TI3AK0SBGWeby4pLiGeBQAgowbcuEQgNQjhV+10i0BoR4DUrF2AYoIcAlW7OQSaTHNAoFm7Y4KiiiMMSh5E6tQgihXNRDXokGiy6iFqNhiC0cfHDv/5SwkkIOASs7G0Zq5sWepCQLHl1I2ZHeOaPDKBm8hRqkSVbFnyVQm8QkRarVigBgb4IsaGJWuMK+ZunpUYolWolM8q8Z/jhp0PjdXoyybgC2DGBZmUREq9U9XiRgE=");
 
 export default CrystalBall;

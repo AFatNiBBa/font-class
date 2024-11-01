@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bitcoin` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bitcoin?s=brands bitcoin}
  * @preview ![bitcoin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/bitcoin.svg)
  */
-const Bitcoin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zm-141.651-35.33c4.937-32.999-20.191-50.739-54.55-62.573l11.146-44.702-27.213-6.781-10.851 43.524c-7.154-1.783-14.502-3.464-21.803-5.13l10.929-43.81-27.198-6.781-11.153 44.686c-5.922-1.349-11.735-2.682-17.377-4.084l.031-.14-37.53-9.37-7.239 29.062s20.191 4.627 19.765 4.913c11.022 2.751 13.014 10.044 12.68 15.825l-12.696 50.925c.76.194 1.744.473 2.829.907-.907-.225-1.876-.473-2.876-.713l-17.796 71.338c-1.349 3.348-4.767 8.37-12.471 6.464.271.395-19.78-4.937-19.78-4.937l-13.51 31.147 35.414 8.827c6.588 1.651 13.045 3.379 19.4 5.006l-11.262 45.213 27.182 6.781 11.153-44.733a1038.209 1038.209 0 0 0 21.687 5.627l-11.115 44.523 27.213 6.781 11.262-45.128c46.404 8.781 81.299 5.239 95.986-36.727 11.836-33.79-.589-53.281-25.004-65.991 17.78-4.098 31.174-15.792 34.747-39.949zm-62.177 87.179c-8.41 33.79-65.308 15.523-83.755 10.943l14.944-59.899c18.446 4.603 77.6 13.717 68.811 48.956zm8.417-87.667c-7.673 30.736-55.031 15.12-70.393 11.292l13.548-54.327c15.363 3.828 64.836 10.973 56.845 43.035z" />
-    </Icon>
-);
+const Bitcoin = createIcon("bitcoin", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABmgAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCfgsGAAE2AiQDCAQgBYMtBy4bfAXIhuB5vaefc5OHtbO2PkC2rlgJ/3M5vqlHB/j9HMfGw+lbl81RzxPoeRSVb5IosEwD8BjanW3LHErKIQmxkOPRjtcF8ng2LlIiXZ3ew4X+TeMHLZxGUsoARH0AjF+6cLaXvoqvIt77/3HiPTMREBNAIZAhQ2sBRskEWssVyOWCr+L///k/sCCAKAuvnUCOMm7AA4AcJHmet1nYqFGtUp18Sa1SzY2fjYt4aVbEe4u+mPPBhFeWfDnx1bkfLv189vvjX1685NqmEVd0aRddonVc0RRPRAyJ5nFuk8trXd64CGScXPOcpovisqbs2G0eg+NyjjdpHZ2jXZD7eNc7W10rZLvc2W7RVV0i7ojGFTU77gW3d769+dIWaUo2fbrDPfXv+an9e1ve8/uLJlWo7GPfJJPs21epmGRYzvOPO79Dt5/596r73O4et9x8rzvc5+STmWaXOHl/fN/iFZIIDaYq3xQnn+wD3cyf16+4zx2edfEt97ndc7qeccTzR+09sfljC0YvOXwxFzehyH5Q5AO37xhSXbpxHvO+o6j/ufpZ6tatExAInl2057W19Ub9Wq2VwDfP/PJ3+hpV/38r/kj3oCqBIOv1fy+rElXV+EMAAFIcoUOiKpBcIRe02gIWUahJgaSsJmRaqQ+5mnpCSVuDLyiraaFM5DWExlYrkNS2HzJDHA+5xh6FklHe9MsaR6anopaJv8S0KTU2eV/Rv0+/YkQxzWVJ9Xi3PbJY1rsdYXvd4awt9trjkM022e5QRR8wOzpstykSNdkHFfrro5/CCMVxda8tIf+Ag7aPlfNdRiruO90cIU93h0MkwIAX5u2RSJUN2w9t3Lt9Dw==");
 
 export default Bitcoin;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calculator` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calculator?s=sharp-light calculator}
  * @preview ![calculator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/calculator.svg)
  */
-const Calculator: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 160l0 320L32 480l0-320 320 0zm0-32L32 128l0-96 320 0 0 96zm32 0l0-96 0-32L352 0 32 0 0 0 0 32l0 96 0 16 0 16L0 480l0 32 32 0 320 0 32 0 0-32 0-320 0-16 0-16zM72 224a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm24 72a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm72-72a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm24 72a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm72-72a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm24 72a24 24 0 1 0 0 48 24 24 0 1 0 0-48zM264 416a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm-56-16L80 400l-16 0 0 32 16 0 128 0 16 0 0-32-16 0z" />
-    </Icon>
-);
+const Calculator = createIcon("calculator", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABjwAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCRgsGAAE2AiQDCAQgBYMtBzEbRwXIHgd27LBaHB3DncTD92u9nfu6Pw0EsQPAIFGhDlsgFcdG/Fq7tXL15EJIfKG/D5zTV0l1rCI7UiRlgERSRNLpAsfj9PgGOejtYDe9gP1tikl1VOERSIUIyYgdn8c7doM8rsRQdaRn6S8e9g+Nf3V2lyTPAEQrAMzasGaZ783RHPG39pH4awkCYjYoBDJk6CbAVJlAN7kCuVzQHLVa+g8sCCDq0esSyFHFLdwD5CAp53lTU/cmKimX66r5+iFdOpCyVIksqlGpsm5UQznIolQhFyLFy9WwLSix81m/112f93/RaV22r1U3KGTt2fNL5ZIolyNKvd+1evdff/f/taPnTPSInoKrdpppZ7FzZ8MVTTu10spMAphZMWFH+1Wr2gPWcYG97mDBAs10vFB54+bNR4VWwRSI536+Z0fLqf83SuCfb8e/otr3uJneoVECQTa0NtTWuAlxUwAAUpzXO24ikFxS1t+14rEAoYQASb2SAJmuWgmQKxkiQJ0exglQr2SNTORNQjvbtjqpOKXOjHdNnWvnvbrOVD8y9dpF5ot2T7J/CeaZL8F5h4pRw0cWk4tj13S4l7VsTyke+weez1OD4KT9TjjurH32OuSs4E5blj/nmPkWO88XFUYZbqTCZMX1YO1Zj/LTzjjkPX6/zxTF++mBztuLB0EoIbOjHU0SkUp/ZQROnAY=");
 
 export default Calculator;

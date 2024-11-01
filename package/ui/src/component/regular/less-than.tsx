@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `less-than` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/less-than?s=regular less-than}
  * @preview ![less-than](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/less-than.svg)
  */
-const LessThan: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M381.5 77.3c5.9 11.9 1.1 26.3-10.7 32.2L77.7 256 370.7 402.5c11.9 5.9 16.7 20.3 10.7 32.2s-20.3 16.7-32.2 10.7l-336-168C5.1 273.4 0 265.1 0 256s5.1-17.4 13.3-21.5l336-168c11.9-5.9 26.3-1.1 32.2 10.7z" />
-    </Icon>
-);
+const LessThan = createIcon("less-than", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABTAAAAHSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHELBgABNgIkAwgEIAWDLQcwG3EEyK4GbGM42iEampViDGvcokOGt/L36MOzURxKS1Ctvd+zBwFGhYpVygMbQ8YTGInCxcWYVGzqy6+fH4x7332I943NFUxKgjsc4bpQluYOANf9n8wP3P1U+76vQuynv/nnnUcBPqPQxrSlGxdItAcnkFiXh9O6zrOP374ofnUbCzcoyqoYBIeIxXoemnXorJDHBh0rSC/pH1y1D40/doeQFBkAohkAbB20tuAjhb+KEN+aQEBsARhGyJChH4FVQoF+IsMglwt+/Ok/kIEAogSvTCBHhgEwASAHSeQic51YLerIzyhGboK91EeP3deT/XTZudc1QM89/rfmt38Mw9b5oDN4YvxW7+VtHc/41Gg+3bL9ChAITr9a7qn6v0wpAPyusE2VHaU3VEsgyOYrSXTGrhgUDxixDD++SSDpIMC31ntEgFCLAEmpVoBMHx0CuVpzCBQGlSBQqrVDKHI5QruuAZJ6ZyCzYgvk2r2Dwqovs9QewgAh3Ev8z2Jrh2qmOJfOciUvPZ30OVa6VbzNR5dlYljEsBnTFg0ZNGYxZF6Ls2RKrYJr/BDLSctilfg4fJ7vMGTegjEzpuuYKnxfjlrW5TFIAkRd4EoSkeRxx6XiDQAA");
 
 export default LessThan;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lollipop` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lollipop?s=sharp-solid lollipop}
  * @preview ![lollipop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/lollipop.svg)
  */
-const Lollipop: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M210.8 334.8C265.3 314.2 304 261.6 304 200l0-8c0-61.9-50.1-112-112-112S80 130.1 80 192c0 39.8 32.2 72 72 72s72-32.2 72-72l0-16-48 0 0 16c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-35.3 28.7-64 64-64s64 28.7 64 64l0 8c0 53-43 96-96 96l-8 0C94.6 296 48 249.4 48 192c0-79.5 64.5-144 144-144s144 64.5 144 144c0 73.2-54.6 133.6-125.2 142.8zM0 192C0 298 86 384 192 384c41.5 0 79.9-13.1 111.2-35.5L465.4 510.6l45.3-45.3L348.5 303.2C370.9 271.9 384 233.5 384 192C384 86 298 0 192 0S0 86 0 192z" />
-    </Icon>
-);
+const Lollipop = createIcon("lollipop", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABegAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBQsGAAE2AiQDCAQgBYMtBy8bBAXIjtRW+YMNOZSWh//Xld73pSWtGWRGDkMXd0GkiuakJWg9GTz5cnl6nvNQAJ8kiqsDe16QscDmPK9AgWvxkEaopgXxKlQ3x7IoVjHIL0de3xbas3MgaMjjlewqNaSb0qc4bUbFrzq6iqQhAxAtADBj3aol3qxEJeKT6nPEJxYhIGaAUiCDoosAk2WCGnIlcrmgEtWq/gNLAoha/m0TyJFjN04AcpCkPJ/VsbGmab62saZY90IRT3SPuH3gw2Of7f9gl5sGPNTngUGPdI4oQtzY+/5Otwx6pN99Ax7qKG7t/+DoIp4f+HC3e6a9Me+9Ka/1uHPyq7PXfrci4qs1H0xbE9NibbzR6/uVX6/9dvmXq3s+3OLh33t8uvdTXx8/PVc2q9f8zJ9//fXnmebNRo2qVEaNatbCcC20XbGibdGy5Z13tmxZ1Kt/+OHL6j35w2eNXc671lvXntelrm+/dV9fFyvWsGZFVP6+6y4/uusu3ZvFijVrVsSKWLMmVgCB4M57LrtjW/PJ/9c3JvDLy3/+Tt+iqqimh1EvgSAbXB1sc4KIqgAApDhHzwSBZLMEpjZxvQChQICkViFAprMWAuQKgwSo0c0YAWoVVslE3iC0sSUhaeIEZMa6GHJtPAM1JvsgqNUmMqoJooifXu5c0ZyrcsTQ4eXEclsIyR4mx0nlsdf/nAcDoLTXMUedZY/dDjgLctKS+GxHzO3wHA8qjTDUcKWJynF9za+1x0mnZGtrfmaS8r7f3zn9/ABYD6SPzEOSukn1h48dPnzg+LHjAAA=");
 
 export default Lollipop;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-code` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-code?s=sharp-solid message-code}
  * @preview ![message-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/message-code.svg)
  */
-const MessageCode: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 0L512 0l0 416-208 0L160 512l0-96L0 416 0 0zM217 161l17-17L200 110.1l-17 17-64 64-17 17 17 17 64 64 17 17L233.9 272l-17-17-47-47 47-47zM329 127l-17-17L278.1 144l17 17 47 47-47 47-17 17L312 305.9l17-17 64-64 17-17-17-17-64-64z" />
-    </Icon>
-);
+const MessageCode = createIcon("message-code", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABYgAAAHgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBSQsGAAE2AiQDCAQgBYMtBzMbzATIjsK2tXNMGMyEIyW8VTz/sfZ67lsIENhEpaBYIhhdpeIK7uuS0PFFITO1qKrX/xibD5VK+4h5giaexKTRSIFMtYk2v764+b8c37vntwG/0aGNSWv7BlyjsZ4nEOhRL88LLMoCyzQBy9zVWU0R7SchZUkeP3v83KHNU3PQUW/rF6f5Q/PLhgOUiQYAmQcAN18UUnj/z3nyM1zJZ3dAIDcB+xho0GAbA1zBEmxj2wetVjhnDAP/BxIESA95boEWHW6BBwBaUJqWLVNsiDgSdjksClkyqYzJEDKKiVtglY4M5hjDkCxjxuTieEyJIXlhMpoivRoNIINnToFeaEr+8DR/+nPw2/t1Bkb4gdM6Go4Y/Y2wAAYwYAH8xd+5Eq1bfxRB+JQraeuyK//HRUzAz8d/f5Rf0XBW6h3GFQjN8WBRKVAEAFDZURUQlJtY5F2nvUJATCKg9CYFNLbIMUBr0hEG6OzyYoDepCdY0goQy6oEyrSXoHHZHrSWnUHnio+0txyWMXGmwP3lkpMjnLhETpuDQrRsVN4+mHgapm3NsPMrRtxEz9zMRlfH0GagVlLF1lRSQxK+iDjZOJAQOu6fr5d1rawNzc3SOWF0PzLY6duNMJmE9kSpFCmxiSnWVwYAAA==");
 
 export default MessageCode;

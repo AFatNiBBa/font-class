@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-fire` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-fire?s=duotone house-fire}
  * @preview ![house-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/house-fire.svg)
  */
-const HouseFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 255.5c0 18 14 32.1 32 32.1l32 0 0 69.7c-.1 .9-.1 1.8-.1 2.8l0 112c0 22.1 17.9 40 40 40l16 0c1.2 0 2.4-.1 3.6-.2c1.5 .1 3 .2 4.5 .2l31.9 0 24 0c22.1 0 40-17.9 40-40l0-24 0-64c0-17.7 14.3-32 32-32l32 0c0-.6 0-1.3 0-1.9c0-35.2 16.3-73.6 37.2-107.4c21.7-35.2 51.9-71.2 87.3-102.8c9.8-8.8 22.5-12.7 34.8-11.7L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24z" />
-        <path d="M640 352c0 88.4-71.6 160-160 160s-160-71.6-160-160c0-76.7 62.5-144.7 107.2-179.4c5-3.9 10.9-5.8 16.8-5.8c7.9-.1 16 3.1 22 9.2l46 46 11.3-11.3c11.7-11.7 30.6-12.7 42.3-1C624.5 268 640 320.2 640 352zM480 464.2c35.3 0 64-28.7 64-64c0-36.5-37-73-54.8-88.4c-5.4-4.7-13.1-4.7-18.5 0C453 327.1 416 363.6 416 400.2c0 35.3 28.7 64 64 64z" />
-    </Icon>
-);
+const HouseFire = createIcon("house-fire", true, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABkAAAAK1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCOQsIAAE2AiQDCgQgBYMtB1AbWwXIrgZsNzUb0aXXuwAG4R0O7aA2LGWQD0uH0hLUr32V9br/H+hZwqFeYHSrSCHgEcgBeRYALduNk+eIB57L/bvmsM1jA6d5GGHPez7BjqMJdAJ5OqEmd9+WeOiBJ560wCyJcHE35jFlKUYY2ecC1CfE7G6JJgVREEgrMAj9SX7imud//lSaRo/SqQ8SCdSLPp/AwEezFBhI0s5nOgObblMLegTpiwiKkpCOzx1fdehcIU8jsqsqpJfS13ig/wMYzzRcJanLAER3ACxarVzh/ac+5ev/z4ivLREQi0EpkCFDkwBzZQJNciVyueD3EPg9wBBAVOmbZqCKCs7hFiAHSRJ53tpnUaHSJV9TVOoP/NxBvL3qzWPN7XtzXiju9JkX/eKFfnf6vNP8Wv9V24zobHx5dEff53s/HdnW/6VR7UVc7BPxXJ8ixEWXwpXniiLuFMIk7E6/FxpDudTQoohLt2t8pfGj3MWa4Pn653tvDJ4aHHXv+MvjitmsY8nX+HoRLImvv1ZHdVtnHcs1vPgLkRffpGM635/5gNbpkW8cMeLZzKt8UmN9j56N3i8tN783y6TgoB6Xzlp3KUVElP17dHbob6GuN2+WSxEDO1/5e//EnuT54s02vzl0BQLBrlNN3lCZ+3dWAn9e7sO/o//PJnWgVgJBNvb/EWvDi/xPWgAAUhw3OLwYCxHILJLke23wvAChHgGSqnoBMo26C5CrN0aAihbTBKiqt1Im8jqht3WDShocojLTnaNyvb1FVcz1WVTVO8hQKGBI+ASmLh9Ytqucj59Yzi6PtS4Ci5PNOeW12ztuYhQftN0B+x21zVa7HA06bEV6zD7LLXCZLypNMt5EpdlKd/eqrik67Ihde9m/zRzl+3Ck4/b8URwklXayPZmMSJH1hKg2LqbNcXie7D3LoQsA");
 
 export default HouseFire;

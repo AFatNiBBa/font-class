@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-music` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-music?s=solid user-music}
  * @preview ![user-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-music.svg)
  */
-const UserMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 0a128 128 0 1 1 0 256A128 128 0 1 1 224 0zM178.3 304l91.4 0c36.3 0 70.1 10.9 98.3 29.5l0 51.6c-18 2.5-34.8 9.1-48.5 19.4c-17.6 13.2-31.5 34-31.5 59.5c0 19.1 7.7 35.4 18.9 48L29.7 512C13.3 512 0 498.7 0 482.3C0 383.8 79.8 304 178.3 304zM630 164.5c6.3 4.5 10 11.8 10 19.5l0 48 0 160c0 1.2-.1 2.4-.3 3.6c.2 1.5 .3 2.9 .3 4.4c0 26.5-28.7 48-64 48s-64-21.5-64-48s28.7-48 64-48c5.5 0 10.9 .5 16 1.5l0-88.2-144 48L448 464c0 26.5-28.7 48-64 48s-64-21.5-64-48s28.7-48 64-48c5.5 0 10.9 .5 16 1.5L400 296l0-48c0-10.3 6.6-19.5 16.4-22.8l192-64c7.3-2.4 15.4-1.2 21.6 3.3z" />
-    </Icon>
-);
+const UserMusic = createIcon("user-music", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABggAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCHwsGAAE2AiQDCAQgBYMtBzEbIAXIhuB5u/+qc7u/HobsAcC1IkARhIzhOmIkTJ16nvPQAnkOQdDGpjlxgoRW1zqvQLlU69W3xQoUsFrJKqK1thVTVP5pIrIoisiF5oZ2V8jj7+xSNaRb08e4IQ8qftDWpSQNGYBoAoApq5Yt8PpX8VXER/8/Q3xkHgJiCigEMsgdBM541wY6yBXI5YKv4v//039gQQBRi/0mkKMGR3EuIAdJluft24wq11Tzlf50ad01fSIe7fOoC3s/4vDS1X0fw+Oifo//zPLqcqn8zhjxQPdHOtzapxJXt7opvlj2yaptNxLiQhe6pfsD3R/q+VC723s93OualhHLQ4w9RNzeelXc3LLrY00e+6nLxzs/9uVr3V7n9Y7Vrl2rHV9/vZuoGXvAoPV8dfMTw9y/6K2elWYtVU9fUY25zbrMjbeuvqky2D0SK1nHDvfc06FjVo+pP7LGDYPcbPLeswbz/WuTPHkTEAh++3v4uk2Nx/9aX07gmxd/+QOe+P/1dGF6DPUSCLL+//e3viQQiQGkKU7qio8ikOyV4VArbhIglBAgqVUSINNeEwFyJf0EqNHJCAFqlSyTibxBaGFDB0nFEZAZ6TyQa+EpUGO897JaLSLTO0ZrmN++xJkSmnGoGDJwcDG2WNYaq0pU2B1XHCu9T9qZPrhop0MOOm6H7fY4LpCjFpQnHDBzB8/wRYUhBhqsMFZx3T2eX2mHo47Z45CDaZ9xiu+D3k7ul/eBnpB0qEqSiFR6rPKAJwkAAAA=");
 
 export default UserMusic;

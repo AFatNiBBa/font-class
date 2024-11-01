@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `award` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/award?s=sharp-thin award}
  * @preview ![award](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/award.svg)
  */
-const Award: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M236.2 26.9L192 0 147.8 26.9 96 25.7 71.2 71.2 25.7 96l1.2 51.8L0 192l26.9 44.2L25.7 288l45.4 24.8L96 358.3l51.8-1.2L192 384l44.2-26.9 51.8 1.2 24.8-45.4L358.3 288l-1.2-51.8L384 192l-26.9-44.2L358.3 96 312.8 71.2 288 25.7l-51.8 1.2zm42.4 15l20.2 36.9L301 83l4.1 2.3 36.9 20.2-1 42-.1 4.7 2.4 4L365.3 192l-21.9 35.9-2.4 4 .1 4.7 1 42-36.9 20.2L301 301l-2.3 4.1-20.2 36.9-42-1-4.7-.1-4 2.4L192 365.3l-35.9-21.9-4-2.4-4.7 .1-42 1L85.2 305.2 83 301l-4.1-2.3L41.9 278.6l1-42 .1-4.7-2.4-4L18.7 192l21.9-35.9 2.4-4-.1-4.7-1-42L78.8 85.2 83 83l2.3-4.1 20.2-36.9 42 1 4.7 .1 4-2.4L192 18.7l35.9 21.9 4 2.4 4.7-.1 42-1zM49.2 339.3L6.7 440 0 456l17.4 0 58.4 0L116 499.2 128 512l6.8-16.2 36.6-86.9-13.8-8.4L122.8 483 87.5 445.1 82.7 440l-7 0-51.7 0L59 357.2l-9.8-17.9zm163.4 69.7l36.6 86.9L256 512l12-12.8L308.2 456l58.4 0 17.4 0-6.7-16L334.9 339.3 325 357.2 359.9 440l-51.7 0-7 0-4.7 5.1L261.2 483l-34.7-82.5-13.8 8.4zM264 192a72 72 0 1 1 -144 0 72 72 0 1 1 144 0zm-72-88a88 88 0 1 0 0 176 88 88 0 1 0 0-176z" />
-    </Icon>
-);
+const Award = createIcon("award", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABuwAAAK+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSEJAsGAAE2AiQDCAQgBYMtBywbIAbIHgVuOzOeIFrQCp7gOIGvznh4fhzvue+9D7ECWlyaQ1mHSmKa29aYnKFSiFD/z+/vPe+TE+6HnUYgOi6tA2juW1xniCNYXk8aaMRdaSIw3tWhcdIt1HThOBUkEwxKqUvpBUu1Utp4BDLesWGn8vbgD/b4gvjW5jgEHeTjl4YQ0f74rGHqoWHqAiUmNCKSbqQ3XN5+aPzRY5EkZwCI5gAAO8cKsuDho8/AXvceEx/sBwJiB2AYhoyMfhhYhxfoRzAMFEXwMf7/8/9ABAKIStBvT6CgGv+JBEABSWUhGG4gncmkE5mE4joirWLV4bRj0VCzEwA0EAclBi6R0FGEoCXiLAgvaLSaeCze8qYBQc0FjBMYYBcHalY0sHNKQDMwAeCUCQMtnUTI4JIIOhZ0cHGI32vbwyWFcRid7hE/yy+JBIXhvcdEa/GUPlJcNEOfqRIojiRF3jju9LG4uW2/cF5lbLquHZfpxS/VO5rdyKNuX7sXFW5xtn4Eb81v8Ofulf51mLbkreyee7K3Lph25czy0Iwv54NBGFXRpkABPqIa+xjwma2pMMPCwoDoinleSkhRBSUsV2Lf5IrG+uAJ4K6Nu3GC6KhHowdIhJHnM9/6ncioAZ5gKs52tQgUx60LDjJXnZEQHPA++0ERl0lM2WVix7gbExMb3NcBIBA8Or9cXsN2PwodB/D5xd9Xed7eg9m0hWoJBHn8q1XGLEA4gESKYUKywkDy3WuEelcFEGppkUoq1TaS9eGQotYYqTDIonGeOQQvChVCuyogSb1TJFs0RYp2x6TCusd4pfbAh74ucHU/nmG0p0WWIYNWj5zIrDv00ayp8y7ktsqHS58CB6FZj26DmjRqM9hx+2WlhnSJMk7EL0IMtPQQJ7TcesTiBP0GtJm71xdxQc8H5Yb5aAUcOKp0VkmSiET80gE=");
 
 export default Award;

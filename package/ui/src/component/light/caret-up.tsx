@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `caret-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caret-up?s=light caret-up}
  * @preview ![caret-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/caret-up.svg)
  */
-const CaretUp: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M154.4 162.2c1.4-1.3 3.5-2.2 5.6-2.2s4.2 .8 5.6 2.2L285.8 275.7c1.4 1.3 2.2 3.2 2.2 5.2c0 3.9-3.2 7.1-7.1 7.1L39.1 288c-3.9 0-7.1-3.2-7.1-7.1c0-2 .8-3.8 2.2-5.2L154.4 162.2zm-22-23.3L12.3 252.4C4.4 259.8 0 270.1 0 280.9C0 302.5 17.5 320 39.1 320l241.7 0c21.6 0 39.1-17.5 39.1-39.1c0-10.8-4.4-21.1-12.3-28.4L187.6 138.9c-7.4-7-17.3-10.9-27.6-10.9s-20.1 3.9-27.6 10.9z" />
-    </Icon>
-);
+const CaretUp = createIcon("caret-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABWAAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBHgsGAAE2AiQDCAQgBYMtBy8bnQTIPgxvjKCPRDLkqPuwKBUJQiHDwYe2yXXwqAwXD/9/yO57/zXW4EFzajiFowSLFmnACXTSbHH2/Ni8h5h+SK4VGszEklhbRUK0ujZvnqonBAhUDgQUNPPCouIO0AX/1wALCBGbxaz2XYXUT516nvNQAN8oaGPh3Lg8F5rzvAIV69VLOhZYhCLEfdtQ0EYY3giJkojGCRuzG1SMRQCffE14KD8aX2ZcQaoGgBgGAGe3fWU8R8HnfxDvLkBAnAOWERoa5hE4xBWYx7MMSgk+eP4PDAKITugnJygU1sEhgAIpi6eZli7nDfbxJWPPfWKAaqrjkuqT58YhX/9Qf9XZRE0aXU81rOeGQar3btzdUXW+kNcFF5frfgfqdve3O7jq+53Bo21K3l3d6fwf1Kjf/GPcDqtuAQgEj/vN9JSy8Lc4gE8vR4zT7IBuCYK29o/xOATiFFFODlk37w2BtIIDeK/9nhAIvQiQOvUK0MxRIVB6rSLQYVESgU69LnFFiRHGTTSQ+t2BZtsxKONuQIdDL0Gn8RA3xK0Tv7bYkoWK51g0FGE5Ns1UMhSwvM2zZc5zmDpeuIpFWzbtWzBvxb5BdpXjAxtKHly0IyYqJILJYdvl/eVBC3btWbFlU07JY+ctj0N/3Asih6KuS6UkUvQi/f3gwTYA");
 
 export default CaretUp;

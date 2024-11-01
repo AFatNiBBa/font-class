@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fireplace` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fireplace?s=thin fireplace}
  * @preview ![fireplace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/fireplace.svg)
  */
-const Fireplace: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M624 16l0 64L16 80l0-64 608 0zM16 0C7.2 0 0 7.2 0 16L0 80c0 8.8 7.2 16 16 16l16 0 0 392c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-136c0-88.4 71.6-160 160-160s160 71.6 160 160l0 136c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-392 16 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16L16 0zM48 488L48 96l544 0 0 392c0 4.4-3.6 8-8 8l-80 0c-4.4 0-8-3.6-8-8l0-136c0-97.2-78.8-176-176-176s-176 78.8-176 176l0 136c0 4.4-3.6 8-8 8l-80 0c-4.4 0-8-3.6-8-8zM295.8 271.2c.5 0 .9 .2 1.2 .5c11.2 10.1 21.8 21 31.7 32.6c5.6 6.5 15.6 6.3 21-.2c4-4.9 8.2-9.6 12.5-13.5c.7-.6 1.8-.6 2.5 0c13.1 12 26.6 28.5 36.8 46.5c10.3 18.1 16.8 37.2 16.8 54.6c0 31.9-15.1 60.4-38.6 78.5c4.7-8.6 7.4-18.3 7.4-28.7c0-40.2-44.6-77.3-61.1-89.7c-3.6-2.7-8.5-2.7-12.1 0c-16.5 12.4-61.1 49.6-61.1 89.7c0 10.5 2.8 20.3 7.6 29c-23.7-18.1-38.8-46.7-38.8-78.8c0-21.9 9.6-44.3 23.8-65.3c14.2-20.9 32.6-39.8 49.2-54.7c.3-.3 .7-.5 1.2-.4zm-11.9-11.5c-17.1 15.3-36.5 35.2-51.7 57.6c-15.2 22.3-26.6 47.8-26.6 74.3c0 63 50.2 114.8 114.4 114.8c63.5 0 114.4-51.8 114.4-114.8c0-21.2-7.9-43.1-18.9-62.5c-11.1-19.5-25.7-37.2-39.9-50.4c-6.8-6.3-17.3-6.3-24.1 0c-4.4 4-8.6 8.6-12.3 13.1c-9.9-11.3-20.4-22-31.4-32c-3.4-3-7.6-4.6-11.8-4.6c-4.3 0-8.6 1.5-12 4.5zM320 488.1c-29.3 0-51.2-21.9-51.2-46.7c0-14.4 8.2-30.1 20.7-45c10.4-12.5 22.4-22.8 30.5-29.2c8.1 6.3 20.1 16.7 30.5 29.2c12.4 14.9 20.7 30.6 20.7 45c0 24.8-21.9 46.7-51.2 46.7z" />
-    </Icon>
-);
+const Fireplace = createIcon("fireplace", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABsAAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDLAsGAAE2AiQDCAQgBYMtBzAbrAXIBuL59+zn3KRdKe1CWfuR+ALp/s81+d7R0TXg5yM4pEhLbKz5MPP5BCaSGIUDmRW2TRSnbkpAULCV+ghjiGgJY8fXY8ezLdDlD62wgJqlzgIT2nR5QyBDQaFpGCDecKFQvG7Nyhx8KA9Fzjq2gZylIiAAUgIAEwE0QANCEAAKoSFACDomoKMj8FAcDvkPNEEAQKxgOwWADjgDW4GjsCremay67pJqxgX7uVk89DpuFteeCJ4i4tVlqoFMs7mJklkxbrIiWORG0QN1rxXeVxtZURM3meEvMt3uWV9TmpcomWq4lmki12tcrnO12sVaoKjuGJYFTvOf0U9pW5Uwi4X5ZsjsxNX26cbU+JUBA227IxckrUka5GZfmbw2ZF7KqtInkjaEzz8iiXdmzLZPdx1t1B5tF5kuc5Lm+E9LWBU40JjqGrnae/W7iLNtztJ1Q7FixZpRjGZNvR56FsPzoTcjsVWvRnXbSKTk2bMlpaScPSslNx7eUFGz8BcjTTdZAmszrJnVrOCtQjJkqJvH/XFTxPPhrFV1auOd4fYnmEqdvMLq1X1Vs+aruvXCvDpXEmnaZbnI7uWDugd4fXSA46MXHqE1d+1qXefh/1JOTqWintjfwV3Dkvv51i0VazHuvrMDgAACnX/1bdfUq9A3ZzcFwOPdH35Tj3AcVAPVasAZBYCAluxIppHGAMIVAEiU9CESXwUCKNZixaa7Mx0BQHClCVAertygEYw36LiSBBbCyBHJ6TXREN0FwaAxQOFOd9DIpR/oGGwBC4U4kVoxRAtfOfjkn8eMMjNaepKZkZpuFjCPJZcSkWIdLWjSVnyf3JKApbShK13oRWta0Z5eE9uDyoXedKaMh5fmh5hkkEo6JgUwH1df59ehNT3oSXu60kXHKYj5vh9PH797AlyF8WYyRaFAlEub9l81AAA=");
 
 export default Fireplace;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-rear` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-rear?s=thin car-rear}
  * @preview ![car-rear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/car-rear.svg)
  */
-const CarRear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M167.6 48l176.8 0c24.7 0 46.5 16.2 53.6 39.9L429.2 192 82.8 192 114 87.9C121.1 64.2 142.9 48 167.6 48zm-69 35.3l-33 110C28.3 200 0 232.7 0 272l0 80c0 20.9 13.4 38.7 32 45.3l0 2.7 0 48c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-48 256 0 0 48c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-48 0-2.7c18.6-6.6 32-24.4 32-45.3l0-80c0-39.3-28.3-72-65.7-78.7l-33-110c-9.1-30.5-37.2-51.3-69-51.3L167.6 32c-31.8 0-59.8 20.9-69 51.3zM464 384l-64 0-16 0-256 0-16 0-64 0c-17.7 0-32-14.3-32-32l0-16 56 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-54 0c7.1-27.6 32.2-48 62-48l352 0c29.8 0 54.9 20.4 62 48l-54 0c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l56 0 0 16c0 17.7-14.3 32-32 32zm-64 16l64 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48zM48 448l0-48 64 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zM496 272l0 48-56 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8l56 0zM16 320l0-48 56 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-56 0zm200-16l80 0c4.4 0 8 3.6 8 8l0 16c0 4.4-3.6 8-8 8l-80 0c-4.4 0-8-3.6-8-8l0-16c0-4.4 3.6-8 8-8zm-24 8l0 16c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-16c0-13.3-10.7-24-24-24l-80 0c-13.3 0-24 10.7-24 24z" />
-    </Icon>
-);
+const CarRear = createIcon("car-rear", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABvwAAALVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhECEDQsGAAE2AiQDCAQgBYMtBy8bDAbIHgfOaT1m8UEkvHMM4+H/dWb3SbLPjDRyHOIfYod5CaEi4oo6hqIKYJctiWy2W8NNgq2vC5I2CIgyi6mqff//753+sez/FuA1CmWsbdEfx4vm5E4CAb4TLV2LZHNmnQSsI3dBuhfaOWytoIgP6SwNsqf4JzxQ3Wj8bLhbyeQ5gGgDYO2xRx7ss12xK+KnLuInByIg1oEkkCPHKAFWyAVGKSQUCsGu6Haj/8BEANHUrJeBAhX24hdwC+8b6i2KAetm1626HjCgatTFMVWjPLEqq3v8sXF09MWx8Qye0KOOOvaoV6e+2cVzIcSN/phWcQ+eKBE1REW8sSKePm/nMePcfF3KuHu/2s8uq7672+MeVuFzVpbxDN7QOu6Jx0YZsSieisrOhvaobKjKSjxqZTze4rQQVRy5M5lJuXgCFTn8mMfOYxUsm43HTWQyaDnNdAJ6/Nv17T/up3N+8sYD7zT5A/dtOXzMuU4wFBy+Zd/ADePTxcnyrwcNrg/T3prraN15Wykf1QEelNvaPkw9eNDX6WLnzBo9/B0aPnrWORfNXLPmRe66bUscPjgZfPgiR/1b4zRD63+PWoSnl2jbCHTXNMiO1q5kV6tz6pxOE1sDCp++zjtLnNZMmqct2TkHJL7td1hjKPB25DBz4Np2Exh8OOAOH2zxrgcCwZq/d9Sn9lvxW49mYM8H/3Z+Rrq7WPY20SMDQT6zO9NJGcgIAEAW1xifQSCzVa9G6fO4sKmUiCTbVLpKbqT2DoXSDGgYY+EKTaUj5aLoFQY5mQOZPpdDbpHroDDI+9Cwwrdi06DIP3fLx2r528y5CZIbJ6W5sztpWWIWrdYv2JQPL0/SwanXxE3T3LnOcalLXOVsZznfVUB3hYOVq11sE4/f6IOSuWbrSJZJ2pVx5zEgcYUrYzPdpj/Ocsl+dqpr+J2nuZFMo3ced3YJpmQ9Z55+xawrzj79CgA=");
 
 export default CarRear;

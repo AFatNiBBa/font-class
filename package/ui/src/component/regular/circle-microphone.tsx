@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-microphone` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-microphone?s=regular circle-microphone}
  * @preview ![circle-microphone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-microphone.svg)
  */
-const CircleMicrophone: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM208 144c0-26.5 21.5-48 48-48s48 21.5 48 48l0 112c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-112zm-56 88c13.3 0 24 10.7 24 24c0 44.2 35.8 80 80 80s80-35.8 80-80c0-13.3 10.7-24 24-24s24 10.7 24 24c0 62.5-44.8 114.5-104 125.8l0 10.2c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-10.2C172.8 370.5 128 318.5 128 256c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const CircleMicrophone = createIcon("circle-microphone", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABigAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCJgsGAAE2AiQDCAQgBYMtBzgbLgVRVC6KZB8J1W0vmmNoM+EKYR6gHcWf8fD92u/cu29RSd4hafKQNVJVKoQGyUIlRAhRQv9DJUPd/98/vTfQ+0Hll5TwZG3QlKwFR0LD2tP5v9nznkcBLvLQxqalgYzpez1PILF+nieUBXamJ2DHctbOLnUG0a/6PkWSYXsZJi4o8RGPavI1v4CH8tL4paebVFcAYgAA2NhNjYfDVrQiPps14lMsEBAbANMQFSqMQ7CMLTCOYxooiqAVTcPfQAoCiDbyxyUoaMMNcAdAAamUMjamLSd1b6lmkFpU0OGAOB9zLVJGXdrNwr39XPQVUcXeOC4g8xGKcZL4QFTxd8FH6a9Bh3G3ImXCfchxRuawDmK/5ZhWrx7EgGaP2bh2nz6mjemNWk+5b9jOmAxbjumN2M26QQyYjesjrjvMGw9bKqZl03/y2+JbeDjw3gfzDPH0JMz8vrf3vp4/QrgQ6K0chYYeregJIdymCXioYX8D/Do5/d6xa0FZAjwzk7Uwo0gmK8rA0WSEpEdHVyIAQQRXR0fS+wIAAsH+kPv2nnT5r4Mk+Hn//+fXSHOY8g0dEgTVbGMnL0ESAICMW4qEQDrBIU/t8SRA6EKA1KZLgMoYGQRFlxkIapPcIWjTZRNblE5hRH5AU48LtLKkBS1GrKC1ZRdmm5GofI/xHObllxhhofA96uzgRH1oN1VZd6LS2pdOK1bNsWUNMBSrUa1RkUJlGhmkXrzTpErECA73QZQzB04oH3S5uD3OUKRegzI1qvMWX3S/YaV5PGwNnUVI50RSEjn4RUe2v7f0EQUAAAA=");
 
 export default CircleMicrophone;

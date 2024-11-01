@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `city` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/city?s=sharp-duotone-solid city}
  * @preview ![city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/city.svg)
  */
-const City: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 96l64 0 48 0 64 0 48 0 64 0 0-96L480 0l0 192 160 0 0 320-160 0-128 0-64 0L0 512 0 192 0 96zm64 64l0 64 64 0 0-64-64 0zm0 96l0 64 64 0 0-64-64 0zm0 96l0 64 64 0 0-64-64 0zM192 160l0 64 64 0 0-64-64 0zm0 96l0 64 64 0 0-64-64 0zm0 96l0 64 64 0 0-64-64 0zM352 64l0 64 64 0 0-64-64 0zm0 96l0 64 64 0 0-64-64 0zm0 96l0 64 64 0 0-64-64 0zm160 0l0 64 64 0 0-64-64 0zm0 96l0 64 64 0 0-64-64 0z" />
-        <path d="M112 24l0-24L64 0l0 24 0 72 48 0 0-72zm112 0l0-24L176 0l0 24 0 72 48 0 0-72zM192 224l64 0 0-64-64 0 0 64zm384 32l-64 0 0 64 64 0 0-64zM64 416l64 0 0-64-64 0 0 64zm192-64l-64 0 0 64 64 0 0-64zm320 0l-64 0 0 64 64 0 0-64zM128 160l-64 0 0 64 64 0 0-64zm64 96l0 64 64 0 0-64-64 0zm-64 64l0-64-64 0 0 64 64 0z" />
-    </Icon>
-);
+const City = createIcon("city", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABtgAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASEEwsIAAE2AiQDCgQgBYMtB0QbKQbInoNxQx9LlCUaZcnl6vzlymRFUC1bz8w+IcsQy6PQZK2iRyPsCYnQa8QWlnqJXnj+f63dt+t/ZlD9uGsTC5nKNk6HvtPQ2In3DsEBUvc/13x+7/03utEAL2zgRyukqtJxJ05ggNEUbaMjGJapbXHbTRGTEMdD4QItc+qZG/mdHb6i/wGMP/GekfwFgDgCgOeZiSHsISPjb34gukEQIF6AawIFBecEuOMkcM5FQ+MiGDknRsypEYDYIKKxgA04hgFrgAYkxWwuy/InHJHbccNtuaaLd9RCIDuCkF0RY5Cc3FWGyNCaMpSGVZjRWg2sB6YI4RE1+k5612ko61nyrjhEmU7t2IHGNDBDDSxQAwYwPX05Wtb07e7kLS55oZQ4vZTqPR04Uj9bcRattN6lRuj/Kxps0bVOIWhrWTksxQxW9+pVbLaAVgIjqxuNV5sR74JGwNfUxgH2PEBA4LN7tBLa+O/bdQB+f64fYdr5mgtscQCBupmFFqMAcOwCSGRcS8c/1AoCyjWmhK49LwQICgJIHooAJVEYxhqlAFtJUXXBBmUCJ2l+RJQleszBdIY5VbvBXKK8Y26NPpMeUeEEeTHAiv84U3SPka5Juqy4VNfrzZxWAsVC29ugTxtyr2VNHt7JNiccc8kWm+xxOWKdM5S54ojuPWYXX0QrU6yUVk/fLj7fPM0W51ywxwnHfpwG+n1Pruv95nnY7JDwvTWnOBEpTjMoaIpCjipkIPtCAAAA");
 
 export default City;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-magnifying-glass` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-magnifying-glass?s=sharp-duotone-solid building-magnifying-glass}
  * @preview ![building-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/building-magnifying-glass.svg)
  */
-const BuildingMagnifyingGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 0L384 0l0 173.3c-25.5 11.1-47.5 28.7-64 50.7l-64 0 0 64 35.2 0c-2.1 10.3-3.2 21-3.2 32c0 65.6 39.5 122 96 146.7l0 45.3-144 0 0-128-96 0 0 128L0 512 0 0zM64 96l0 64 64 0 0-64L64 96zm0 128l0 64 64 0 0-64-64 0zM160 96l0 64 64 0 0-64-64 0zm0 128l0 64 64 0 0-64-64 0zM256 96l0 64 64 0 0-64-64 0z" />
-        <path d="M528 320.2a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM520 426c-20.5 14-45.3 22.1-72 22.1c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128c0 26.7-8.2 51.4-22.1 71.9l63 62.6 17 16.9-33.8 34-17-16.9L520 426z" />
-    </Icon>
-);
+const BuildingMagnifyingGlass = createIcon("building-magnifying-glass", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABlgAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCOwsIAAE2AiQDCgQgBYMtB24bewXIhofn7ao/91V170xjyZpZG59IQUSAk4CKftzzf02+d8+PDvAbHVqHnlcARa4CJzCh8qai7fmEZjoD2+K2m0NUD20jJD1AngZnNyuRHkjf4bb0P4Dxlx5uJmnOAER7AMzdvH6lj76P71N813iN+M4KBMQ8UAhkyNBbgBkygd5yBXK54PvUaPB9NBoFAURZemYGyqjgGtwKyEGSlPO83rOlmdjVUj3flN5fOf3otHemvNX7kalvT3+334bnK1/M+qD1qdkfLv585vstDw9ZG0NjRgyLdVm9VhdvjaiEqMbdnhj5ylRRieCQVGmjUG3KiiE3Zy9qfbH9i/+0fHfoO+2uqx2+ePFwrX7o4sVD9TZHfxm6Zv6EUmn8gjVrFowvNa36Fx3wr4+uz69+xZ4b5pijv1Ed4t57nhrpdtfb43q3M3v3HMKR8vV82d3XdW8HAsFlO3tN2d1uxv9N1QR+fOe/P90PSeOjdGV6EU0SCLIRjRF2pOtRTlcKAECKS1rT9TEHgcwqZfmn1twrQKggQFJWESDTS3sBchXDBSjpa6IAZRXrZSJvFjrbWYOk5izITHINyHX2KiiZ4Uu3rHNkaEgiEXkXGLeoDS9cV4wdNaaYVkxmSgqzcD89vVitDbmkO0PpXoecdsoFBx1w1IUWes7K4KKTFs0hC31RYaxRxihMU+wu73ObuHvOeUfHmf2rTFecbw1xaX7wUGomOeY4GzIZkSJrgVRl5M909UNXVMT1J40E7CH7zzKgDAAA");
 
 export default BuildingMagnifyingGlass;

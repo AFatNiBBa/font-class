@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-box` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-box?s=sharp-regular hand-holding-box}
  * @preview ![hand-holding-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hand-holding-box.svg)
  */
-const HandHoldingBox: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 48l0 80 64-32 64 32 0-80 80 0 0 160-288 0 0-160 80 0zM144 0L96 0l0 48 0 160 0 48 48 0 288 0 48 0 0-48 0-160 0-48L432 0 144 0zm24 304l-7.3 0-6 4-90 60L24 368 0 368l0 48 24 0 48 0 7.3 0 6-4 90-60L360 352l0 32-40 0-24 0-40 0-24 0 0 48 24 0 40 0 24 0 48 0 32 0 7 0 5.9-3.7 80.4-51 15 24L416.6 464 24 464 0 464l0 48 24 0 400 0 7.4 0 6.1-4.2 116.8-80 19-13-12.2-19.5-40-64-12.8-20.5-20.4 13L408 374.5l0-46.5 0-24-24 0-216 0z" />
-    </Icon>
-);
+const HandHoldingBox = createIcon("hand-holding-box", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCFwsGAAE2AiQDCAQgBYMtBzcbHgXIngV2i1vXfLvYDFmML3ofxsPzc+Wf+5KlzBY5RSIHzKpV5FavrWoV8QeNqL+ehAp5T+bar4QYa5//a+rF86MD/EaHlr1IGmVT5vMJHOCiOcHKZ8PZRHGGbXsTxDTEC4Vxgjy+i/tqSI8T3Is+NP7TxQ2SmgxAtAbA7I1rl3v+c/wc8ak68clSBMRsUApkyNBdgGkyge5yJXK54OeoVtV/YEkAUSt5dQI5anAQZwE5SLI8b9duZqWmRb6hUlNsFZbG4oiohGhkqzcUlUIIUWkR1Ch2TNPax7ooCh2qdIqNJ6tGQpd1pBFpER4YXWNOHugX667O79Os+ezip3sSvUrCKpuUmqxaORLm+ZqMMmpV7akbWZesWmvzVIM7j9J5Ypz2VGnQpiH0cMnKMf6yZYa7neWRHF9pmCcue2Xaxr1G6qwzEAiq337do1bT/q+vJPDrs1ffXH2epqdm1EsgyIZVh9mWZiHztgKSSIpT+tBvEkh2ytB3bfRAgFAgQFKrECDTTWsBcoWhAtToabwAtQprZSJvENrb3oOk0VGQmeAiyLX3BNSY5l2kVvvIMEcjhv7lS1gwRufblaNHjCqnlJtVLQMj0k9PLU8bg07prsH0oF0OO+SEnXbY68QIP2Z5/KSDFuxh8/1QabQRRilNUd5uPN+9wU7HHLfXYYfCWaYq3w8Ocmp/8GDqSBLCMSqSRKTWEFWGY5j61gcAAA==");
 
 export default HandHoldingBox;

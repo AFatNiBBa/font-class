@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cake-candles` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cake-candles?s=thin cake-candles}
  * @preview ![cake-candles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cake-candles.svg)
  */
-const CakeCandles: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M69 62.3c-3.3 5.2-5 11.2-5 17.4C64 97.5 78.4 112 96 112s32-14.5 32-32.3c0-6.2-1.8-12.3-5-17.4L96 19.8 69 62.3zM55.5 53.7L86.2 5.4C88.3 2 92 0 96 0s7.7 2 9.8 5.4l30.7 48.3c4.9 7.7 7.5 16.8 7.5 26c0 26.5-21.5 48.3-48 48.3s-48-21.8-48-48.3c0-9.2 2.6-18.2 7.5-26zM384 240l-24 0 0 24c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-24-112 0 0 24c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-24-112 0 0 24c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-24-24 0c-26.5 0-48 21.5-48 48l0 94.4c25.8 5.9 54.7-7.9 74.3-28c1.6-1.6 3.7-2.5 5.9-2.4s4.3 1 5.8 2.7c32.3 36.8 83.7 36.8 116 0c1.5-1.7 3.7-2.7 6-2.7s4.5 1 6 2.7c32.3 36.8 83.7 36.8 116 0c1.5-1.7 3.6-2.7 5.8-2.7s4.4 .8 5.9 2.4c19.7 20.1 48.4 33.8 74.3 28l0-94.4c0-26.5-21.5-48-48-48zM16 398.7L16 480c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-81.3c-29.3 5.1-58.9-8.8-79.7-27.4c-36.8 35.9-91.4 36-128.3 .3c-36.9 35.7-91.4 35.7-128.3-.3C75 389.9 45.3 403.9 16 398.7zM64 224l24 0 0-56c0-4.4 3.6-8 8-8s8 3.6 8 8l0 56 112 0 0-56c0-4.4 3.6-8 8-8s8 3.6 8 8l0 56 112 0 0-56c0-4.4 3.6-8 8-8s8 3.6 8 8l0 56 24 0c35.3 0 64 28.7 64 64l0 192c0 17.7-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32L0 288c0-35.3 28.7-64 64-64zM224 19.8L197 62.3c-3.3 5.2-5 11.2-5 17.4c0 17.8 14.4 32.3 32 32.3s32-14.5 32-32.3c0-6.2-1.8-12.3-5-17.4L224 19.8zM214.2 5.4C216.3 2 220 0 224 0s7.7 2 9.8 5.4l30.7 48.3c4.9 7.7 7.5 16.8 7.5 26c0 26.5-21.5 48.3-48 48.3s-48-21.8-48-48.3c0-9.2 2.6-18.2 7.5-26L214.2 5.4zM325 62.3c-3.3 5.2-5 11.2-5 17.4c0 17.8 14.4 32.3 32 32.3s32-14.5 32-32.3c0-6.2-1.8-12.3-5-17.4L352 19.8 325 62.3zm-13.5-8.6L342.2 5.4C344.3 2 348 0 352 0s7.7 2 9.8 5.4l30.7 48.3c4.9 7.7 7.5 16.8 7.5 26c0 26.5-21.5 48.3-48 48.3s-48-21.8-48-48.3c0-9.2 2.6-18.2 7.5-26z" />
-    </Icon>
-);
+const CakeCandles = createIcon("cake-candles", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAAB6wAAAMJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWyEbgsGAAE2AiQDCAQgBYMtBzMbcQbInoNx43wpUZTMeiYf+S1kwjHaIYJ/aKz2/sysneucO2IukQTpGh4aXjVRWYiPe3Pf1dKxJ+PBWOmgOWscDcHRt3TwDxbA+PQ33w/ntLGsywKbIkWWQB5v4s4DDWRDMy4MsPPInwOQiW3+L/f87PzeAX0+0PNDGbMxhk6QqGxtK7qep71srC1SvhATwMbN4Texyh6ab4DTdRYQAHNV8wM4rffWT4Q5AAZrMVEl8Zj0vRg/kk5VvhF9+B/0AeeAANQPAB4BFrBAHgKgBxYBeTg84HAIvkn0X/0PTIEAQEFM2DDTAbGgTJAHij8lGCLOJWUMi2XJaUkZsfp4N4nRx0zvtcd/kTkGL5NtoF61jJbGlsvM0d+kV674LviP9Ev2XmOuxRqDLvgu6ZIYRS0e+C6Y6GHxsTFQfOrEVQPtxaDyBMm1wKVwDuKiP14uByUPCo/0J/ShgrQX/IxvstUSK0Q2SaJYRcMelp9aaI/vAm3TscAl1PB69Xk0uZbU7iFJxubLb5m4y8OKn4nPTufn6of5Fov96M7hOLK3WwaPevq+m8v1DIbWb9w7tB+PVuvTrzZhe/4yZjME5zTBEGuI9Fm0mjkLLcWOv2mtLuWYU3RMdmqYtujvsNgyi9Gsz28zz0xQO745xmLcavD/U0vefmZzrz4Y17CZWVldDIkRa4jaZ3HHnRyjwHFk53jxrAosBe+d4Xs0o/eR5A5Q/f40Ouj9AECAYKFNrS8TZ/9sNQD8OP1dwfFEFemkngFhDAACWxutMUMUAAwrABAw2oTiBoUyNSUSwXzWOC4hAEQMIAAMQWIQAJZckhAAjhhqEAABCmhDAASJYTwWuQgijZkqMMSxFlja2QkcabwAAXrw2h8kTbTnB8u72avTZIOy0MB6Pq1v9N18bUTEcXlaye3uO+viTUJMFRzKIlazig0sZAFL2ZBB1jEytJGVDGrCD/yup4l6GvF0ww9OSrH/JBayjvUsZTWrtEq646d3VbKpOXkVNBpMwmZeMxiQiZvfLl9Y9wdQ+4qF6wEA");
 
 export default CakeCandles;

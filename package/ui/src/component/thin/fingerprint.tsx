@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fingerprint` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fingerprint?s=thin fingerprint}
  * @preview ![fingerprint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/fingerprint.svg)
  */
-const Fingerprint: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 256C16 123.5 123.5 16 256 16c77.9 0 147.2 37.1 191 94.7c2.7 3.5 7.7 4.2 11.2 1.5s4.2-7.7 1.5-11.2C413 39.6 339.1 0 256 0C114.6 0 0 114.6 0 256l0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56zm484.8-75c-1.3-4.2-5.8-6.6-10-5.3s-6.6 5.8-5.3 10c6.8 22.2 10.5 45.9 10.5 70.4l0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56c0-26.1-3.9-51.3-11.2-75zM256 80c-26.5 0-51.6 5.8-74.1 16.3c-4.7 2.2-5.8 8.2-2.4 12.1c2.4 2.8 6.5 3.6 9.9 2.1C209.6 101.2 232.2 96 256 96c88.4 0 160 71.6 160 160l0 24.9c0 31.5-2.2 62.8-6.6 93.8c-.7 4.9 3.1 9.2 8 9.2c3.9 0 7.3-2.9 7.9-6.8c4.5-31.8 6.8-64 6.8-96.3l0-24.9c0-97.2-78.8-176-176-176zM139.5 135.6c-3-3.5-8.3-3.8-11.5-.4c-29.8 31.5-48 74-48 120.8l0 24.9c0 31.4-4.4 62.6-13 92.6c-1.5 5.2 2.3 10.4 7.7 10.4c3.5 0 6.6-2.3 7.5-5.6C91.4 346.7 96 313.9 96 280.9L96 256c0-42.3 16.4-80.7 43.1-109.3c2.9-3.1 3.1-7.9 .4-11.1zM256 160c-53 0-96 43-96 96l0 24.9c0 42.3-6.4 84.3-19.1 124.5c-1.6 5.2 2.2 10.6 7.7 10.6c3.4 0 6.5-2.2 7.5-5.5c13.2-41.9 19.9-85.6 19.9-129.6l0-24.9c0-44.2 35.8-80 80-80s80 35.8 80 80l0 24.9c0 42.2-4.5 84.2-13.4 125.3c-1.1 5 2.7 9.8 7.8 9.8c3.7 0 7-2.6 7.7-6.2c9.2-42.2 13.8-85.4 13.8-128.9l0-24.9c0-53-43-96-96-96zm8 96c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 24.9c0 61.9-11.4 123.2-33.6 180.9l-5.9 15.3c-1.6 4.1 .5 8.8 4.6 10.3s8.8-.5 10.3-4.6l5.9-15.3C252.3 408 264 344.8 264 280.9l0-24.9z" />
-    </Icon>
-);
+const Fingerprint = createIcon("fingerprint", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABqwAAALTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDJQsGAAE2AiQDCAQgBYMtBzIbpwXIjsM4hrx4UUQUcAme7+2+zn2NAdQjcmFkUCQpgpgBCrc+RO7uqY+S1hZmcSuREk840EwDTCjhRk7ltvF+Px8rXJTz8dEOyLl0zo1PYIAtLfOCLL6MKjTTCdjOtr1aE1RDutAYGdDlFIMxQK1Vt4HFIVfyhchcUGgaAADiDgAAlHfr1Mz5Jy9FbttOgtxmAAIgFQBYCKDh3mAEgKJeVgGC0bEAHR2Bl2Kz+f9ACwQAxCTlXAGgA/bAIeASAKADoDB1PcojxCfR28lw0bs6GY7dnmWKHG8UudXtSv2N4pV+q33PNtyax023y853Rlb6rPaTQav8Cp+N9FpkVmjXeVVr29J2Oz0pPtMFmRk8c7J7s4g87XjYtfNO7ZQxga/wmZ/2rHS1b5cTWWRPsATTgOM9mxP3556M3xuiQAvY3rspYV9Ol1VhhTcpdPbywNv95JlIxD73fd/S7Xkbd46Kf/CvH/SrYIv6O1V16pxdUlD/spZZO/pTm4fZv7+Z97bHDBjouyS6+1Jit/8dHBc2uCar/HtUpdy+LZUBpI61H9/fGJcWgDSIe4NMyu3S+b7UTsrv6EzD53lJLJvfoib5zdwH+xQpyhIDlhjepRUJXYe4uw/pKgGUbqTG2xkvyjvs9+1bpt9bHwigT3i3Fnw7BkT3I6JH/wAAEEDgo/2f1s+t6J+9kwLg9fnx888I2zOF2gfYowAQ0JJsSfRWACgQAAAAQMlUIhSAAIpdmKSyM6vO1gVHaHmFiSOvEYQ7r+NIIm8QSrax0++0a1R0BwRv+hBe4cwEXiOHabyON8d5gyKuVUy8RQNdC/CsL8f8mj5Ufc9KT0mzCqzFqWpDo2GvC63dQdxUuRWPnzKUcYxlMkMYzAgm98iJNNenMIaaNbiaL2KRTgppWBRgnV48ftyVIUxkEiMYx1h/SyHW/eU4pq4fjsexIqlmMKJQIMrpDyUT7gEAAAA=");
 
 export default Fingerprint;

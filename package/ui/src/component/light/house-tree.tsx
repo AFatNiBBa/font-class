@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-tree` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-tree?s=light house-tree}
  * @preview ![house-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/house-tree.svg)
  */
-const HouseTree: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M404.1 37.1c6.4-7.1 17.4-7.1 23.8 0L538.5 160 480 160c-6.2 0-11.8 3.6-14.5 9.1s-1.8 12.2 2.1 17L575.8 318.6c.1 .2 .2 .3 .2 .5c0 .5-.4 .9-.9 .9L496 320c-6.3 0-12.1 3.7-14.6 9.5s-1.4 12.6 2.8 17.2L606 480l-191.6 0c-2.4 11.8-7.4 22.7-14.4 32l209.6 0c16.8 0 30.4-13.6 30.4-30.4c0-7.6-2.8-14.9-8-20.5L532.3 352l42.8 0c18.1 0 32.9-14.7 32.9-32.9c0-7.6-2.6-14.9-7.4-20.8L513.7 192l34.7 0c15.2 0 27.6-12.3 27.6-27.6c0-6.8-2.5-13.4-7.1-18.4L451.7 15.7c-19.1-21.2-52.3-21.2-71.4 0l-95.4 106 23.6 21.6L404.1 37.1zM32 284.2c0-9 3.8-17.5 10.4-23.6l128-117.3c12.2-11.2 31-11.2 43.2 0l128 117.3c6.6 6.1 10.4 14.6 10.4 23.6L352 448c0 17.7-14.3 32-32 32L64 480c-17.7 0-32-14.3-32-32l0-163.8zM0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-163.8c0-17.9-7.5-35.1-20.8-47.2l-128-117.3c-24.5-22.4-62-22.4-86.5 0L20.8 237C7.5 249.1 0 266.2 0 284.2L0 448zM224 288l0 64-64 0 0-64 64 0zm-64-32c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-64 0z" />
-    </Icon>
-);
+const HouseTree = createIcon("house-tree", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABmQAAAKIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDFAsGAAE2AiQDCAQgBYMtBzEblQXIjtRW94RV6Hh43q76c19VL17XLEeolfQBIoKiyT6jHyRKGcHdDrpuOqdO1YzzUACfQxCUNSibEpCxeHVOgZ4XtBhtN5Vr24q1iGIH5406oNAU0vdQxj8xV4P0ZPoa97svjR/1uIWkLADEOABsOvzgfYa/i+8ivm59QHxtDwJiM6gFChToF2CtQqBfqUapFHwXrRb7D6wJIEYIN02gxEi8jk8BJUgaZbm9t390b7PRVh7WbOTTH+84NHLc1f4Ikm/U9g25U2OOJ9qbcXfX43Fj52FRVT+W72o/JGbF4Sfc2HV4PN68+8B5jxI3tD+Sq7ir87GIQ56cFfHmtLZ4fc7bfQGg2dBb0Mwt3uBwIUdEc/dd7RGPSKfj0ebZcnAK3m2e/Na4t36e9PVpX3v4qfpV1sgrVx5+9i0gYn9518zDr7zFsEnvfqPtitvbqitOPsccY+58QnXGYWearLr88iqffsmNWu3trePOdIl008W/e+L6Sz1eVY/z7BNjXjHmjjsgF7wy9HIez/gXeGH8+PyK/s3XX6Lu7q5hanP/K98+vzHIqNRaq8LVjYq27GoQCI74a68fP3btb6OaCfzw6a+/wcu1htMN6S2MkkBQzG3NdUy6ASAxAD/FZSYv/FAgeV5D+NTKYwKEjADJCFmAQp9xApSyOQI0DFomwAjZwQpRjhbaHduApHIhKCx3LSi1ew80rPWZN0J7FLcsd8NxP4zJ27votnX1ovkL69X1bFPF34WMXl5Tb9ZmXsaHZsFKpznfeS5xqlOc6ZIOfpF94aXOtX0J26ZGtUXmW6i2Wn2481A+rONf5GJnTvPHV7FGfb0702XLk2dBMwmki2WSRKR8OyvzPmYAAA==");
 
 export default HouseTree;

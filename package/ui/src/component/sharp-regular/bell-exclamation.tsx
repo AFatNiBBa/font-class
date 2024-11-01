@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-exclamation?s=sharp-regular bell-exclamation}
  * @preview ![bell-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bell-exclamation.svg)
  */
-const BellExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M256 0L192 0l0 51.2C119 66 64 130.6 64 208l0 88L0 368l0 48 48 0 352 0 48 0 0-48-64-72 0-88c0-77.4-55-142-128-156.8L256 0zm80 314.2l12.1 13.6L383.8 368 64.2 368l35.7-40.1L112 314.2l0-18.2 0-88c0-61.9 50.1-112 112-112s112 50.1 112 112l0 88 0 18.2zM288 448l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3zM248 128l-48 0 0 24 0 80 0 24 48 0 0-24 0-80 0-24zm0 168l-48 0 0 48 48 0 0-48z" />
-    </Icon>
-);
+const BellExclamation = createIcon("bell-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdAAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCCAsGAAE2AiQDCAQgBYMtBzcbDwXIHgm2zYP1izg0yVO0Iyh0/7on6RkkM8jEMgBgsCKsDGUAsCn+pM2kTJtXIe8J/+A//+d6vuejAX7exIcWaaUDidJR5vMJHODsgquEosBOT9DOqm1vgizJJbSbD43EErJ4M15WI3k9+QsvFR8a/+jsDolaCiBaAWDm+tVLfdcQDRF/1j8m/rQYATETlAIpUnQTYIpUoJtMiUwmaIh63fwHlgQQjeDREpChMfbhOCADiVqWde/arHXTotY8W1fU8s15kYufpnxVijUhiuYR6yLig2nfzIuN7Tu0nxrNYnp0jIiId4c8G//xoCfdhTV5kd/oXMVzQ57FJi2JSi4CggkxGO/9tNXTf/217y/1b2dg4WiXB0/KN5g+X6V6uWpGNsgnDb48evnEr/ne480w3tfa2KDl/3kbtBlxd8aMG1169+7isQOmV1XVyQpypRYfVxDoy0EguFec7bq95ZT/mhQJ+PuLiZ3r38V3yVM0kYAgHVofakt8BwYdwE9K4pze8R0CiW1qcK3NvCJAyBEg0UguQKqrVgJkckMEqOlhrACN5FZLRdZUaGdrDxLNnASpca6CTDsfgpopftUaaRcpsVGkQn3qxc8bQ3MnlSOHV+WkctPX0vRDxP7k8rQ48JzNDeJz7XPcMWfstcdBZ0bIKUvNs46atwfP9UWlkYarlCYpb0fPp6+z1ymnHXTcsXzIZOX76kDn9qsHcSUB3FE8iYRIWiW1/LCfWMg7jyYfAAAA");
 
 export default BellExclamation;

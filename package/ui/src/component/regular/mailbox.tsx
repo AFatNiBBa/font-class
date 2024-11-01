@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mailbox` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mailbox?s=regular mailbox}
  * @preview ![mailbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mailbox.svg)
  */
-const Mailbox: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 208c0-53 43-96 96-96s96 43 96 96l0 192L64 400c-8.8 0-16-7.2-16-16l0-176zM240 448l48 0 224 0c35.3 0 64-28.7 64-64l0-176c0-79.5-64.5-144-144-144L144 64C64.5 64 0 128.5 0 208L0 384c0 35.3 28.7 64 64 64l176 0zm48-240c0-36.9-13.9-70.5-36.7-96L432 112c53 0 96 43 96 96l0 176c0 8.8-7.2 16-16 16l-224 0 0-192zM104 192c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0zm256 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l56 0 0 24c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-16 0-80 0z" />
-    </Icon>
-);
+const Mailbox = createIcon("mailbox", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABeAAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCBAsGAAE2AiQDCAQgBYMtBy4bAgXIhof/11ne9yUPyLPIWmYOQonEbSr0SYtV0s7Uqec5Dy2Q5xAEbQ9avkFC2R3zvAIV69U3WEFqwXYDVYz7tmVDRxieRkhEWUTjCY3VDvL4OW5VId2XfsQtuafxpy5uIKlkAKI1AGZvXLvcp7WoRfzQ/Bbxg6UIiNmgFMiQobsA02QC3eVK5HJBLZqb8T+wJICoI71IIEc99uMYIAdJJc/bdmvd1L5aaZFvqFaKjY8MjXhh4luDn+shiri7Y6yvFi2eGfpCt4jHZ3y8oCm+nPZhKe4b/Fz/6sbHZ1RjzbizPYWx4cnO9w3CeKbb/QP2GXVEZ0bQZfo83/r5v3v/eOBHI/9teJ7nr7nm+ecbPvWqWstXP/l31KjWj7ZpU7yq+yU3f1b67OZLur+qAPPRV1fdCW/BV17Vslbz6TutVnfosHqVgk/Smdha5VH8MxAIRuz4acLOVtP+a6gm8Mf7//4fzkyz0vNokECQDWseZluaBZEYQJLigj7GDQWS7SrkWpvcLUAoECCpUwiQ6aa1ALnCUAEqehovQJ3CWpnIG4X2titImpwGmQmuBLn23gAV03wT12kfmasxjsJ89BIXtND8deXoEaPKKeW0UFnvodLy1HLbHHSBhgbDVgecdMI5++1z2LkGOWN5dt5xCyx4vi8qjTbCKKUpyuP6fvMG+51x1mEnneBVpirvB4NcsCcPBicR0jFySSJS/Utw95y8BAA=");
 
 export default Mailbox;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-scatter-3d` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-scatter-3d?s=duotone chart-scatter-3d}
  * @preview ![chart-scatter-3d](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chart-scatter-3d.svg)
  */
-const ChartScatter_3d: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 448c0 7.2 2.4 14.5 7.4 20.5c11.3 13.6 31.5 15.4 45.1 4.1L256 329.7 427.5 472.6c13.6 11.3 33.8 9.5 45.1-4.1s9.5-33.8-4.1-45.1L288 273l0-209c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 209L43.5 423.4C35.9 429.7 32 438.8 32 448z" />
-        <path d="M32 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM416 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm0 192a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64-64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM160 160a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM64 256A32 32 0 1 0 0 256a32 32 0 1 0 64 0zM256 480a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const ChartScatter_3d = createIcon("chart-scatter-3d", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABtQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDKQsIAAE2AiQDCgQgBYMtB1wb1wXInoWx22KIjYio5KJ8jFc+Gu3i4fv9aOe+91ZMKyYJzzTVRPQqJiFpg034dDyUlcqQmK18Czb3D7SdScdarpmhkRxJ2x7NZmyGYjO/oR5ST/V9/s/1fM9HA/xEH4cSjaXjaJDCKh3u+cDjwhKwgE7oQA70TPgG5008hFAcytNvUOJ3vqiG9Cx9xR3nfwDjjwEfkoYMINoRgI07RiX9ZmImxddqivhqMxIQmxDGMTIyhjFYQxQYJhlHiiKYSVVFZqKqgAKIWs7dMqhFI97gM6CApE6U0uUFPLmmpWyPTmvcc6Mv4kmc633ceL37obM9j5qOVFoRnBgkWIFmwZZFkMOQrZBtYlNE8EDfjtgWj0YJTnTrvdsjhr8gtsZDk6/aX/2d+Lr6auxA61WutrZeDQfOjLULvhBIVbR+VdGB3XE+Tx8y3nT02pcvz7vt9W1P8h3XNDc/nXrkF03AV7195F0rEAjm9/9Aa+br5QTm3v0P+51Kkl6hXgJBXlgtNEsgEQCAFKfZ6TBNuqSO967NHgsQGhEgqdUoQDbEwKBotACDGqPaGNRqtIUoSoPQbV6CpNkxkK32BkW3L6ixxt+q1R357mXuPebjMbGoI/kc6pUaBhhM5OwNSen2ELOl8MVTETxKK2cnD0sLW48adlO6T0fFGJr7IKirqIEBrC7UFqc16+Zu28+vHzOE/bXQa7w4gqrAw11uIctEitz/4jJ/4As9Hstb1lwsehXyzU7+wgcA");
 
 export default ChartScatter_3d;

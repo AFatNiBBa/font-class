@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-exclamation` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-exclamation?s=solid octagon-exclamation}
  * @preview ![octagon-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/octagon-exclamation.svg)
  */
-const OctagonExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M140.6 21.2C154.1 7.7 172.4 .1 191.5 .1l129 0c19.1 0 37.4 7.6 50.9 21.1L490.8 140.6c13.5 13.5 21.1 31.8 21.1 50.9l0 129c0 19.1-7.6 37.4-21.1 50.9L371.4 490.8c-13.5 13.5-31.8 21.1-50.9 21.1l-129 0c-19.1 0-37.4-7.6-50.9-21.1L21.2 371.4C7.7 357.9 .1 339.6 .1 320.5l0-129c0-19.1 7.6-37.4 21.1-50.9L140.6 21.2zM256 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const OctagonExclamation = createIcon("octagon-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABaAAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBSwsGAAE2AiQDCAQgBYMtBzob1QTIvg1wMgYNrmYZFkuaEqEOS1tTnbFueK/68XdG19YT+BHxUL90b/f/O1pX3RNFU91hixIMCmHjcCnCNSUxJoNlkOjze8bVnzXyzttkRTXyACYoRKie60U32A0u0TTTVKOacdUN2y0YkJCrz7MCpWmUGLhvyVx71wACV8DzARe6Q4ag8CVA4HsHDOmCKwezqVM14zwUwLcs8aCNhUsDssD2PI9AxHLxUaJaz5dpAayM1W1ihx2h+EaIkER0nOu4+jqgxoMGYnIsD770QeMX7UNaKQCIbQDwtEoOr7OI+OqG+GYQEE+AM4SCgiMEbgkFjoicgaoKFnQd/weeQQDRwn5RgooGz+AVQAWpVBFv+DWjFtXXGkVnPpW83DWaFtBoVWnSFLw6dZpV4vlt1C4yaNyvD4lno7YTiUe24cD2weHa0nFotn33h9zM82rrCG18qK4+15F6/gO0Dqt9S1MlczC/FIZlfaC/GWMiQNw2HtVz+7/sBICfnnyLuidngGUJgtLrerqBJAAAGWusCQTSIyG913UDBMIqAqTWqgDFIR0C1apzBBonwgi0Vr0RiipH2NcbIK37AMWNDVDtuweNW292az8UTQIWhMdcatajmTXW4+MET2NdBAjX5kle1lirNTvtYsy8OStGjZi04vAlOW/VrGyGZXwQ8/PwYQm8nR2360YtWTZp3pwsSeLzls1a3m0nU8BYLzydkkjj+/DK4Pj8nPufCmNw9oYAAAA=");
 
 export default OctagonExclamation;

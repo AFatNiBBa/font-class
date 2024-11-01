@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop-binary` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-binary?s=sharp-regular laptop-binary}
  * @preview ![laptop-binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/laptop-binary.svg)
  */
-const LaptopBinary: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112 80l416 0 0 240 48 0 0-240 0-48-48 0L112 32 64 32l0 48 0 240 48 0 0-240zM51.9 400l536.2 0-32 32L83.9 432l-32-32zM640 416l0-16 0-48-48 0L48 352 0 352l0 48 0 16 64 64 512 0 64-64zM176 128l-16 0 0 16 0 80 0 16 16 0 64 0 16 0 0-16 0-80 0-16-16 0-64 0zm16 80l0-48 32 0 0 48-32 0zm112-80l-16 0 0 32 16 0 0 64 0 16 32 0 0-16 0-80 0-16-16 0-16 0zm80 0l0 16 0 80 0 16 16 0 64 0 16 0 0-16 0-80 0-16-16 0-64 0-16 0zm32 32l32 0 0 48-32 0 0-48zM192 272l-16 0 0 32 16 0 0 16 32 0 0-32 0-16-16 0-16 0zm256 0l-16 0-16 0-16 0 0 32 16 0 0 16 32 0 0-32 0-16zm-80 16l0-16-16 0-64 0-16 0 0 16 0 32 32 0 0-16 32 0 0 16 32 0 0-32z" />
-    </Icon>
-);
+const LaptopBinary = createIcon("laptop-binary", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABkwAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyDMgsGAAE2AiQDCAQgBYMtBzQbtgXIHgflpjNLkjbqR3ASwfNz/zknyafkwV3iu8RvEYuIvlXkqhEVsqtbsAVWlFJlrpD3+T+WelF27fn9yiWbooMyn7cd3vOqFbaNYDibKO5s26sgoqGwC5VXqOKfeNwQxdNFPBZ+aPxomkcpDJUAIgFgzxmnHOe9/bE/4sv2DeJLxyAg9oAsUKLETAG2KwVmqmRUKsH+aFvxPzATQAxLvrUAFbp4Cx8AKlBoqmrS2LgJY5PG4cT+pGaoW53OSutzup2uaCJx1x3Rnzyz3+sviU4suy6swXonT4p+nHJ53dTCEeF5YtSnukV9xrqykchYboSj+s3N3F9HnIpVzbEqE8qpIWqREC0dnvds8rOvLu+GG55JXL8Z0JjBd4LesG3X1ISp9YP2mH7irUJOPJK0aL+dk3C2EyXpxNqw+oQBZsoG8g0npCtZsluS7S3vTikddrY5Z+U12HeDJCZ5Nf2W0mBiOqGfLoqCKOfKQHxo40nfL7qgv/3v0aYAB9+9/rp2f/FgAaMKEJQr2hXOLR4EsRRIwkXcbt7OLwoUXtLAL3Y8IUCo0YPCsBqUZkigUlsOhsy2gX/y+ilKUY0JE52HQaHjJlDa6D5Qmeg1MGS7T0PDJkYJwUL4E/4/Jjt8DD9sXV6zapC35s2yVgSUfDu+LZ/WLbldti3Fj7rcDa53q8tc6iq3jsg3Oy56m+scvoc9zB/K1lhlINsq3649P3G6y9zsFldZF9+fZJv8vnWJ2/d7L8WbKABrvz1fPhlF99qLbrz1hhtXXnzV9RfdfBcAAAA=");
 
 export default LaptopBinary;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wpforms` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wpforms?s=brands wpforms}
  * @preview ![wpforms](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/wpforms.svg)
  */
-const Wpforms: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 75.2v361.7c0 24.3-19 43.2-43.2 43.2H43.2C19.3 480 0 461.4 0 436.8V75.2C0 51.1 18.8 32 43.2 32h361.7c24 0 43.1 18.8 43.1 43.2zm-37.3 361.6V75.2c0-3-2.6-5.8-5.8-5.8h-9.3L285.3 144 224 94.1 162.8 144 52.5 69.3h-9.3c-3.2 0-5.8 2.8-5.8 5.8v361.7c0 3 2.6 5.8 5.8 5.8h361.7c3.2.1 5.8-2.7 5.8-5.8zM150.2 186v37H76.7v-37h73.5zm0 74.4v37.3H76.7v-37.3h73.5zm11.1-147.3l54-43.7H96.8l64.5 43.7zm210 72.9v37h-196v-37h196zm0 74.4v37.3h-196v-37.3h196zm-84.6-147.3l64.5-43.7H232.8l53.9 43.7zM371.3 335v37.3h-99.4V335h99.4z" />
-    </Icon>
-);
+const Wpforms = createIcon("wpforms", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgAAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCNQsGAAE2AiQDCAQgBYMtBy4bMwXIHoPjbglFEzEE+5EX+srFkEdQLVvP3n4Mjuh5RVJk+ZZoVJKUR+OSsAhJLo8RV1g0+vz/X2v3zcy6ps+i7muIJbGkHhqVqB4qIXLokPvRtfN/Tf53z6NBqoBPD+UWhZXe4B08gYGvce17PpsNbKYTsO3ORtkhsw+tRSQ5Pjs+V8hxRtuokZ65L3BPHxp/bFYgqRUAiCEAODyvLcddSWXEVxXxoxQExBGAVYQCBRYR2MELLBKsgiwLyqiq8B/IIICog5+YQEYHt+AOQAZJKwv2RZlMggWFSCU04OvlgxzPLRj35UpaNR8ST4uWI4WK1kwHuCg4/tAspzqqoSpqIDntGzk6MKnoyNKDtINIgco2VpZVLi6vH1o1nO940Z7/+HwNfLmddDqdhs9LvZP+7dNA4MotYb/h8alClgyXc9y755lD7iA7IRw4S0r482dxMX/F8wBTsQDF7d3W4jT+L3LgCXoCT6Kn411grcffoNfJKkA8dj3dLujUpP1LFRzg9/X3n/8VVSV9pxfQlEBQzKqZtrgD4hsBAFJMwxF3IJDckOF37XpAgNBGgKSuLUBhgRaBrG0NgZpl8QjUtR3jRZYhTLULl3TdcIVts1w2dcHV7Hgt1U2DN0GvAXl/gIUKNJy/ikVHRLEUNq1pPqtyx9lUth0OmsaeYDiKASO8JvXrM2xSUePKq1M8ClZIvi9iokWIwqRgx837/Q36jZswbIQ3LZOK3c8HmV4PD4YYh23XrUkSkSQzo28YAAAA");
 
 export default Wpforms;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `binary-circle-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary-circle-check?s=sharp-solid binary-circle-check}
  * @preview ![binary-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/binary-circle-check.svg)
  */
-const BinaryCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 0l32 0 48 0 32 0 0 32 0 128 16 0 32 0 0 64-32 0-48 0-48 0-32 0 0-64 32 0 16 0 0-96-16 0-32 0 0-64zM0 288l32 0 48 0 32 0 0 32 0 128 16 0 32 0 0 64-32 0-48 0-48 0L0 512l0-64 32 0 16 0 0-96-16 0L0 352l0-64zM32 0L160 0l32 0 0 32 0 160 0 32-32 0L32 224 0 224l0-32L0 32 0 0 32 0zM64 160l64 0 0-96L64 64l0 96zM192 288l32 0 115.2 0c-12.3 24-19.2 51.2-19.2 80l0-16-64 0 0 96 32 0 32 0 19.2 0c11 21.5 26.3 40.5 44.8 55.8l0 8.2-32 0-128 0-32 0 0-32 0-160 0-32zm128 80c0 5.4 .2 10.7 .7 16l-.7 0 0-16zm32 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm222.6-32L552 313.4l-11.3 11.3L480 385.4l-28.7-28.7L440 345.4 417.4 368l11.3 11.3 40 40L480 430.6l11.3-11.3 72-72L574.6 336z" />
-    </Icon>
-);
+const BinaryCircleCheck = createIcon("binary-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABlAAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiDCwsGAAE2AiQDCAQgBYMtBzoblQXIhofn9fg69yVfyRhvLCw9qlZ256Jct6y24sTl/MduLJ8/rEs4lLVoTZBt8Z6YQIBdNidGXeBhlihmW65HXodvOGiwkKc+eaRhy2GLzlDG38U5DaQH0re4TT80ftXdOZKWAkC0A8C8LRtW+fyn+Cnim//fIb6xAgExD2SBAgV6CTBTIdBLKaNUCn6K///n/8BMANEIRPLmEhWeweuAEiTNZdm1a8eW7o09u9cNrcvNdUO1o65qIepaVFUoEG1svYJ3mNkId71pFUZUxt37MslGXb8yzI9sOtU5/MzTYyJem/FRfdO0D0a94tTIl6e+X904/cPRr8aW4cOGd4q1MTy6xNDoHLM2YdfYcnj/F9u9+Hu/bw9/68fPcr4wO6VdniufWjzt9toYP/Ydyfv2PXXq8czjsqyhvo/Nxfy95tp7ww053zVgZDvKkSd4t3li1g1rmptCuzwka9yOHQYP7tAx62sehX7oexjhl3xTtV9y2Ieu8NKLlizxIRAI5h9/87s9bWf+1Vwn8MuHf/5OH/7/83QqvYhmCQTFyP9H2plOAWsGkExxuf7OFwWSRzTDplbuFSBUGJ00quhCT+3oUmUE3aCPSZsbVTYoRNkidLLL6KSVi+jCZNfRpU7eohvM9EWiUacostWca+aPxRyLe3DRtDxu9Ng8Pd/mHZYENLb+GXnaPfRyqRtWFjrsAue71CEHHXNpJ7vYqvRlzrPYEyzyQ9k4o42VTZfDpc+OzRS62CViHNvik8yQn48PdbnfeljxJdA53qYkEanj/mPn77v4qlE/9rhGvfoAAAA=");
 
 export default BinaryCircleCheck;

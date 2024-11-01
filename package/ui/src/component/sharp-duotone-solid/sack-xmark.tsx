@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sack-xmark` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sack-xmark?s=sharp-duotone-solid sack-xmark}
  * @preview ![sack-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sack-xmark.svg)
  */
-const SackXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 416l0 96 512 0 0-96c0-165.1-122.3-243.3-179-279.6c-4.8-3.1-9.2-5.9-13-8.4l-128 0c-3.8 2.5-8.1 5.3-13 8.4C122.3 172.7 0 250.9 0 416zM128 0c21.3 32 42.7 64 64 96l128 0L384 0 128 0zm30.1 256L192 222.1c5.7 5.7 11.3 11.3 17 17l47 47 47-47c5.7-5.7 11.3-11.3 17-17L353.9 256l-17 17-47 47 47 47 17 17L320 417.9c-5.7-5.7-11.3-11.3-17-17c-15.7-15.7-31.4-31.4-47-47c-15.7 15.7-31.4 31.4-47 47c-5.7 5.7-11.3 11.3-17 17c-11.3-11.3-22.6-22.6-33.9-33.9l17-17c15.7-15.7 31.4-31.4 47-47c-15.7-15.7-31.4-31.4-47-47c-5.7-5.7-11.3-11.3-17-17z" />
-        <path d="M192 96l128 0 16 0 0 32-16 0-128 0-16 0 0-32 16 0zM158.1 384l17-17 47-47-47-47-17-17L192 222.1l17 17 47 47 47-47 17-17L353.9 256l-17 17-47 47 47 47 17 17L320 417.9l-17-17-47-47-47 47-17 17L158.1 384z" />
-    </Icon>
-);
+const SackXmark = createIcon("sack-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABqAAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDBAsIAAE2AiQDCgQgBYMtB1AbpgXIjsQ4hvKpKFYEkc2semZPtldn5D1FBuKIgB8xZIoIo+cMKSbWR2+Hqvv/qVP5L+fZgG8UlD118fJcac7zChQw2NbGpEakgKWa1sBqWw5PwiH+aAuJL0oev2GzYewCRXydb9FGeih9ijv4P4Dxt4FuIemSAUQPACzctG6F93+IH1J82nqD+NRyBMQiUAlkZAwRYI4sMEShQqEQ/JBa+SFaKwKIGjafQQ2d8DReBBQgSXJR1EdW7bPqbV2LjXym3FYv66IsI+qbR48YPT/mxaiYHyNj7gJG4yNiDhiJj4p5YMRuoXtEfD/ptXnvjrox7u/HtIx7+3jdM3PenvDK+m0PDYxodfXYFO0b5s+Zf19f8LPcB/pLR2MT6XOjnhlhvPJ5Y3TIO68nNJ7r8dy/HZ8e/NR7u2644c5KD/uYjuFoaqIn3Go3G2G3WHPp4k13fUWPjkkTb7BuH1/dddNFseb6Jy4B1RvM38XQVk9paTSWbGhq2jsmHXfF7ZcfXLKkZ+OyQ3z69uLJtJqXw2+2hl4HAsEdv/U9vqv7nP871xP46c3//tIfktb7SXoOnSUQ5DGtMbYnkAgAQIrLNBKPI5AdlOFd290vQCgRIKkpBcgG6yFAoTRagDbDTBWgprROFkUXoY8dB0zanYHZNNfCQh+vwzZzfJDV9Ilcq2KliX+Kact6ZOm2auK4CdWs6rHNpfLj1/XZ1bA34jIbGyl7HXTKSecdsN8R5zv6rBXlBScsi9Clvqgy0TgTVGap0r2v2kbNzjrnyL2S32S26v1ohMvi2SMlTDbGSQ5mmUiRe53bs+/Y2Cvq2hpb9eN9zsr3DQ==");
 
 export default SackXmark;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-simple-from-bracket` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-simple-from-bracket?s=light money-simple-from-bracket}
  * @preview ![money-simple-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/money-simple-from-bracket.svg)
  */
-const MoneySimpleFromBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 32C53.5 32 32 53.5 32 80l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16L0 80C0 35.8 35.8 0 80 0L560 0c44.2 0 80 35.8 80 80l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-26.5-21.5-48-48-48L80 32zM496 96c8.8 0 16 7.2 16 16l0 344c0 30.9-25.1 56-56 56l-272 0c-30.9 0-56-25.1-56-56l0-344c0-8.8 7.2-16 16-16s16 7.2 16 16l0 344c0 13.3 10.7 24 24 24l272 0c13.3 0 24-10.7 24-24l0-344c0-8.8 7.2-16 16-16zM320 208c-47 0-80 31.3-80 64s33 64 80 64s80-31.3 80-64s-33-64-80-64zm112 64c0 55.6-53 96-112 96s-112-40.4-112-96s53-96 112-96s112 40.4 112 96z" />
-    </Icon>
-);
+const MoneySimpleFromBracket = createIcon("money-simple-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABiwAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCIwsGAAE2AiQDCAQgBYMtB0AbMwXIHqcr+oIlR1/Fw//P/ec+N/kAnGFGVSBPRGpc2VXSW7Woyw0QUv+vDqDn/5rP7/nRAX4+gkPr0AOJGkbE8wkMMBqzaGCz4WyiOHPTPIcIf1YVEQxSOmy9YesW8vg7xlJGejR9g7vrh8YvutxFkmcAohEAFu3Yss6NUpQivvn/Q+IbaxAQi0EhkCFDrwBzZQK9cgVyuaAU/y//gQUBRDl9cgI5ynENNwFykOR5PtyWlpqyunx7vKN6zwutEQ90igdaH2qPeHrM6zPq4sNRr/Ztix9rf2h47aEH21I80vrA0Np4SezuLB7uQMyjw+ri5Z684tYPRka80vnoqFenfTzm9Z7HRr82fdsTM9Prp340+rP+p+e8PuPDUZ/2DX6t8bXf/Ob4NzY8PfF7vs0Oqi+V6g+K7ccaSxqPbQ8fzr79fmLp6QVj/E4Vf/x3sdHF//6w8xC3U9umRpva2sC3L0zczOLKysWbJ3ZSBl5YUFXNn/9ZXQUSjwOBYNt39z9xoGFulTUJ/PzZH7nT/X8j3ZZeQ6UEgmzsY+1Nt4GgA3BSXDfY+KJAck5O37XWQwKEagRIylULkOnRKECu2hgByvSbJkC5altkIq8SWu2bIKl1CWSmuxnkWr0Pysz1uV2uNTLmkbwhf/zilq/Qsn7FpPETi9nFMatTZMJT95ziWht5PVSNwlLHXXDeVcccdcrVBblsnXfNOcsteJkfKkwy3kSF2YrHhff52x1z2RWnXHC+9DJH8b410nW78SiYiWJOlpAkInXxVBxHXn7cdxo37vDlQ0fOHLsKAA==");
 
 export default MoneySimpleFromBracket;

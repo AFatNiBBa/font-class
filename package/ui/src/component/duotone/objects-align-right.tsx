@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `objects-align-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-right?s=duotone objects-align-right}
  * @preview ![objects-align-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/objects-align-right.svg)
  */
-const ObjectsAlignRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 112l0 64c0 26.5 21.5 48 48 48l288 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48L48 64C21.5 64 0 85.5 0 112zM128 336l0 64c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-160 0c-26.5 0-48 21.5-48 48z" />
-        <path d="M488 0c13.3 0 24 10.7 24 24l0 464c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-464c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const ObjectsAlignRight = createIcon("objects-align-right", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABegAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBSwsIAAE2AiQDCgQgBYMtB2Ib/wQRlZoJyL5I4KlYXp6o6iOjVrMZqcMgVZy+IEGcSBiPDKXl4b81fvfNzO43Td+hmiW8kVQbZG9mzbTiFRLezDJeiRzyQuSmFzA4EDzTLmdAEIwRVU0bAMkMCqKwOaRE+RcvHiFDe31ILlOnnmeABfDF40Eba4Es8DU7zitQkenxCsXrNa2BVbeJvoH4RERHmYR0fI6Opzp0NijxNZ+gIl1X4Kz8D2D8lZ1A0pYBRC8Alm64m5e/4leK980j8d5CQCwDEwIZGSMCLJAFRhQTKIrgV2oa8iuaBgKImuw4gxoVlmMFoIAkpFK6hoY6qq6yvqNq33U7p7jW7pQcN2cWrsvl3hV349UacSNcGZ1xy19K60x8B9S+YfID9+CdZKfnxZHPZFX1WbmEP9Ifvs3MzG8f8hLDOfxzjc7R+0AguPifWbDDLvhvOhL48/j7135IzcskPYBWCQR5ajN1awKJAACkOGByEp8hkM2V6F47XSFAaEeApNYuQDasV4Ci3RQBKmPmCVBrt0YWpU0YtI1B0mk3yOY7CIpBD0FlgVdpbTAMhxMNBvo3l+CG7DWUWQGNbakzCCHLucGxEfxGIb0k/bG/XTu9YXddfJvzcPaLKLMCGuHmWWhK72eyufglBveT4PeXQ7IZJaxucBmaKBdYk9LnRD9JJc3ORWVzyQg=");
 
 export default ObjectsAlignRight;

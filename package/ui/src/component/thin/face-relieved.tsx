@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-relieved` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-relieved?s=thin face-relieved}
  * @preview ![face-relieved](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-relieved.svg)
  */
-const FaceRelieved: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM181.7 370.3c14.3 14.3 39 29.7 74.3 29.7s60.1-15.4 74.3-29.7c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3C325 398.3 296.4 416 256 416s-69-17.7-85.7-34.3c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0zm170-98.3c14.6 0 30.2-8.6 41-27.9c2.2-3.9 7-5.2 10.9-3.1s5.2 7 3.1 10.9c-13.1 23.4-33.6 36.1-55 36.1s-41.8-12.7-55-36.1c-2.2-3.9-.8-8.7 3.1-10.9s8.7-.8 10.9 3.1c10.9 19.3 26.4 27.9 41 27.9zm-233-27.9c10.9 19.3 26.4 27.9 41 27.9s30.2-8.6 41-27.9c2.2-3.9 7-5.2 10.9-3.1s5.2 7 3.1 10.9c-13.1 23.4-33.6 36.1-55 36.1s-41.8-12.7-55-36.1c-2.2-3.9-.8-8.7 3.1-10.9s8.7-.8 10.9 3.1zm81-150.6c1.4 4.2-.9 8.7-5.1 10.1l-6.3 2.1c-25.3 8.4-47.1 25.1-61.9 47.3l-7.6 11.5c-2.5 3.7-7.4 4.7-11.1 2.2s-4.7-7.4-2.2-11.1l7.6-11.5c16.8-25.2 41.5-44 70.2-53.6l6.3-2.1c4.2-1.4 8.7 .9 10.1 5.1zm117.9 10.1c-4.2-1.4-6.5-5.9-5.1-10.1s5.9-6.5 10.1-5.1l6.3 2.1c28.7 9.6 53.4 28.4 70.2 53.6l7.6 11.5c2.5 3.7 1.5 8.6-2.2 11.1s-8.6 1.5-11.1-2.2L385.7 153c-14.8-22.2-36.6-38.8-61.9-47.3l-6.3-2.1z" />
-    </Icon>
-);
+const FaceRelieved = createIcon("face-relieved", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABrgAAALgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDDgsGAAE2AiQDCAQgBYMtBzQbkgXIngPuzkErrv8nSKBF2xxCWUwG8QC/P95z73sf4N5gNsFtbV2Oc1SC0OemtDp4+N9f3fcHjG5yhRdgglqgK9ioRtRJe7Zt2zo8EMfe9zOozjM5dt5AnxdNOx9Ig1bxQD7ZCiJvp74QJaFBKPhqkwipSEUrimL+L/f8nh8d4Dc6lDFHA5f3ojkFep7oWWNaCYwFlmkClm+/7d4+IjaGaGgWEmwhDdygXw7xVnoA+4MPDd9Y2YcoCQEIeQAYO3fmZHdzImfEy/8JYUk1AoQVICMgQYJmAhhBIqCZVAapVOCzyOeN/0AbAhCioq0jSFGAs3AdkBVEeeG0CeeuqKipLoqUpHN0isKVXykQuFJ3J0MVD+Fl1md8nXxrh6uf8/tc/bcK8WA8dy9X+1iv50e56g8yVPfUblbr0YoInHOvd16vm6+ZrZ7psNJhrdNa7RwL2ldb/fzOgINe5G12bksaENfeZA3hI5TyF4uz5vAcBeYKraNZY/gMk3ZpcE43haeIqd3l8q1ffjn4wN+lgp/w72B8mt2/7f+HAl5rpP+ltAANu/e0+N4ua0xELZa+frhcR+eJAzXf6ZnNAycvKzvfns7KlzWGpS4tupsnK5o7bVJe5NnqHZg++HVpA3lf67PRph6blm80Ycasgdsc/VqwrOOpttdU2Nbk9uUZHVuaJmy0fNN0ICDwaep8tassdeO6CL6e/D/KX9H/K4l4B/JFEEjav82iCEQCACAG9tBOgoDoDJXoWosdI0BQiACiXIUCSDRRTgCpQt0JIEcrAwkgV6GZEiFcIKhmcQuiYttBYhB7QaqaqyDHCJ4UclWL0PVKXW3U12L8JA5NXJQNevXJhmWTNTV9CRLu7PBstV7fY/Z0Rao1ttpil9VWWW8XQ3aYXN5ts0lz8ERflNGXXvQhYxjZ7uaSn8OyO+zEiXF6/zwMJzs/7sKe+eFdYUURaj+qokgIlrwMUs/feoI9q1cBAAA=");
 
 export default FaceRelieved;

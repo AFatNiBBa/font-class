@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-up?s=thin circle-up}
  * @preview ![circle-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-up.svg)
  */
-const CircleUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-400c-7.2 0-14.2 2.9-19.3 8L137 219.7c-5.7 5.7-9 13.5-9 21.7c0 16.9 13.7 30.6 30.6 30.6l49.4 0 0 88c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-88 49.4 0c16.9 0 30.6-13.7 30.6-30.6c0-8.1-3.2-15.9-9-21.7L275.3 120c-5.1-5.1-12.1-8-19.3-8zm-8 19.3c2.1-2.1 5-3.3 8-3.3s5.9 1.2 8 3.3L363.7 231c2.7 2.7 4.3 6.5 4.3 10.3c0 8.1-6.6 14.6-14.6 14.6L296 256c-4.4 0-8 3.6-8 8l0 96c0 13.3-10.7 24-24 24l-16 0c-13.3 0-24-10.7-24-24l0-96c0-4.4-3.6-8-8-8l-57.4 0c-8.1 0-14.6-6.5-14.6-14.6c0-3.9 1.5-7.6 4.3-10.3L248 131.3z" />
-    </Icon>
-);
+const CircleUp = createIcon("circle-up", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABjQAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCUAsGAAE2AiQDCAQgBYMtBzAbUAXIjtLU8OIiTFEEl4mH/7fr+31uVdcAqrEdyV8OEjmDnL71U6v/79y/wlsgZVHhVCeankF7m7jm+Z8/PWAU2aNEY9E3R53Hss4nMLHd26JFRrMHm+kEbLpN1mFHVL4SEikRHZ/HWxfI4znbVEj3pfdxS2tpfKONiyRZBiAaA2DyyqXzvVwTNRHvVzvifXMREFNAKZAhQ3sBxskE2suVyOWCmqhW6T+wJIAocEsTyFHgCu4B5CDJ87xdu55d6rEG+Yp6lbprv/BQvDO5cnbQy7P25PdPvY5zQ1+be+X4q4UoPpo6oXNTxvjNvvBWezg7eYielFxvvizudLbFXfXqhUiUG1rdExGHnGu5Iu6u2/qeeje0WB53ubN5XdQDcW83YO5vG+julgyePddqZZeHGz/8Xef3d9xQfWISHOBgrT8V5c9aBw9Mojup+cfpbuW2se2nTm0/9rZbLUAnXry13smtW12t3+DqVT7YKk2efURurMkjz8qrDLbQ6l81iyfrHelSYV3kzUML/vFom4pNWixubHGLTYpNo33coBi6dSsQCD6+ek9ZiON+q10vga+f/eFv9Cuqvpykh1FbAkHWr9rPugQSAQBIcUKXBAgkZ+T4U+u7W4BQFwGSQl0BMu00FiBXV18BKjoaLkChrqUykdcRmls/4KS+w3BmhFNwrrln4Ipx3goLzYMEpBBOwnMwdYYGpu8qBw8YVI4pzQ4RY4wrm2PLba3XiTzRG412OOiAY7bbZrdjCjpifnLcfjM8cLovKg02wCClMcrj/vP+FbY74qjdDjpQtxmrvO/2csKf3xtmwrRDlJJEpDr/dqz+xw8BAAA=");
 
 export default CircleUp;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `skeleton` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skeleton?s=light skeleton}
  * @preview ![skeleton](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/skeleton.svg)
  */
-const Skeleton: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c8.8 0 16 7.2 16 16l0 48 144 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L272 96l0 64 208 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-208 0 0 64 112 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-112 0 0 75.4 86.6-24.7c6.3-1.8 12.8-2.7 19.3-2.7c38.8 0 70.2 31.4 70.2 70.2l0 5.2c0 18.5-6.8 36.3-19 50.1l-26.9 30.2c-11.5 12.9-28 20.3-45.3 20.3l-201.6 0c-17.3 0-33.8-7.4-45.3-20.3L83 461.4c-12.3-13.8-19-31.6-19-50.1l0-5.2c0-38.8 31.4-70.2 70.2-70.2c6.5 0 13 .9 19.3 2.7L240 363.4l0-75.4-112 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l112 0 0-64L32 192c-8.8 0-16-7.2-16-16s7.2-16 16-16l208 0 0-64L96 96c-8.8 0-16-7.2-16-16s7.2-16 16-16l144 0 0-48c0-8.8 7.2-16 16-16zM96 406.2l0 5.2c0 10.6 3.9 20.9 11 28.8l26.9 30.2c5.4 6.1 13.2 9.6 21.4 9.6l201.6 0c8.2 0 15.9-3.5 21.4-9.6L405 440.2c7.1-7.9 11-18.2 11-28.8l0-5.2c0-21.1-17.1-38.2-38.2-38.2c-3.5 0-7.1 .5-10.5 1.5l-93.8 26.8c-11.5 3.3-23.7 3.3-35.2 0l-93.8-26.8c-3.4-1-6.9-1.5-10.5-1.5C113.1 368 96 385.1 96 406.2zM160 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm152 0a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Skeleton = createIcon("skeleton", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABmwAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDCQsGAAE2AiQDCAQgBYMtBy8biAXIhocHve87NxgkY+QLWsju4HIrtkT1pk7lZFsogO+W8z0o6QBZWp7zvAI5L41lcwnVChbSilh9b72XFEV2iSaTmkyH07fD7R8gi7djupzkzuQzXN++NH7U7xISWQog2gCwZvedt/XBd/FdxGe1V4nPbI2AWAsqgRQphgRYLhUYkqmQyQTfRa2W/gMrAog69GMkIEMdHscLgAwksiw7fGJjY5k3Z7uVebH3rd2ijFu7b+kqgq/fPW4vH53yZL+4YPLkeKIo4qqpU+OpiLh72tOTru7elZkp4rae23tLtt+8h3BB95S4tSzj6t5pcXtEXNhzW3FV1y7xyMTdAgtvseXuSY/23zH+sYEybjD2qbanfh7z2WGfqb3/XctsNwhky3fJ1b4K0FfICSwu3NpuvS4qvpo3tjk3PP45nYOfGOx8zvjhXPOm8Kvipl17bX1bapdfurP14P5bc7qm/elnndn8ieYzn/V0e67tqafa6tbs06+rq/g75jLzf/eOO3YX+47xPhAIFnz9zaX7ty7/u6FMwA9v/fp3vKyt9kH8ljyFBgkI0um16fZJKKS2SAGUSeI0YxGzQOJ+GeBTm9wmQCgQIFGnECA1qE2ATGGaALkRCwSoU9hZKrJGocu+EySanAhSC50LMl1eBrnlPszU6YrUWUVXE/8V0zZKZENUNWfm7GppdSxiyf/4OrysuvYmn5abpmCtwxzvOKc41CGOdIqgT7Jt/lTH2qhRG8SoMsdMs1WWqsyVV203kTnJyY7c2+yjLFO9T092mt55CsaRAOZ+Zj5PiqTh5KMPPebQU44/DgAAAA==");
 
 export default Skeleton;

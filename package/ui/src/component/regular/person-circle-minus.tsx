@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-circle-minus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-minus?s=regular person-circle-minus}
  * @preview ![person-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/person-circle-minus.svg)
  */
-const PersonCircleMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm32 128.1L144 304l32 0 0-127.9c-.7 0-1.5-.1-2.3-.1l-27.5 0c-.8 0-1.5 0-2.3 .1zM144 352l0 136c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-264.4L52.9 299.8c-6.5 11.5-21.2 15.6-32.7 9.1s-15.6-21.2-9.1-32.7L69.7 172.7c15.6-27.6 44.9-44.7 76.6-44.7l27.5 0c31.7 0 61 17.1 76.6 44.7L297 255.1c-11.7 14-21.3 29.9-28.3 47.1c-.6-.8-1.1-1.6-1.6-2.4L224 223.6 224 488c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-136-32 0zm144 16a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm224 0c0-8.8-7.2-16-16-16l-128 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16z" />
-    </Icon>
-);
+const PersonCircleMinus = createIcon("person-circle-minus", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABiAAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCNQsGAAE2AiQDCAQgBYMtBzobPwXIrgZslxs4DIoW6drkdRbPsMbD8I7FeJ5+v/Tc9/+GUAEqIgWso6JiZMYT2a0kYToVkoRqjNipRdUq8v/zL+/b9fyFA00gtElHouXpIVcuOhdNeqECBFMjoMQgaocHs1oF/D//13x+z48O8PMRHErWMq1BIuL5BAYcZdE0kGgbziaKUzelgvVScughUmSGMnacPb4xtoY6n3mBBpRXog8024fmqxETFNIKAGQAABydpifisZVW8v5/8tkxCJAjwDQCFajAOALsEiMwToKDmgRBK//rf+A0BCBtwN0UQA3awQV4AtSAQlpL1LpVO3W3VC3J6m6w/DezG+5rNituqx7rtpmIEKK5zLMUYEBc4hoQJyMvmd0uO06/INC8u29m3lovWUYpK4X4aSks83aVchB7I8xHX/nv4WZpN+qSzcVcB+yTsGRhWTAtmoUsW7ls67b/Z557dtbsajrvb2LDNnV9gylhRBB7lMMZzGvqiRk+x542x8djqpzuxFrbwzrFngakMr0CB4OCZ54x3dR6TgPTwwYPD4ORc0+ToYE/Wjc6nY8HCAh8+lNf7O4vEAH48v7n73J4+a8clneggwgQqJb+Lykoh0QgaAIIl3RxIV9EoOgghXftsSSAYCCAQoYhQMWODgFqjC8CNDgKR4A2TDoxqpUgJoULiKi0ArEIg0DC5ARIxXkOyZhShSAdQPQbYEKCheJ78QKCeAw/ZkwmqkjaGcvdertKhbfMRJVmTTpUqlCrwyBtEqOdGiUwON4PccECBOFi8Nv598lZKrVpV6tZU+0mFn/e7aWL1/cWkwgwNyQUIkgxRqzi/7WO4v/zerEdAAA=");
 
 export default PersonCircleMinus;

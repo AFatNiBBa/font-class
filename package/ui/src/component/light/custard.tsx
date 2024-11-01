@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `custard` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/custard?s=light custard}
  * @preview ![custard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/custard.svg)
  */
-const Custard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M49.8 384l66.3-271.2c7-28.6 32.7-48.8 62.2-48.8l219.5 0c29.5 0 55.2 20.2 62.2 48.8L526.2 384l-32.9 0L452.7 218c-18.1-5.7-37.2-10-52.7-10c-18.7 0-32.3 6.4-49.1 14.4l-.7 .3C333.8 230.6 314.4 240 288 240s-45.8-9.4-62.2-17.2l-.7-.3c-16.7-8-30.4-14.4-49.1-14.4c-15.5 0-34.6 4.4-52.7 10L82.7 384l-32.9 0zM132 182.3c14.7-3.7 30-6.3 44-6.3c26.4 0 45.8 9.4 62.2 17.2l.7 .3c16.7 8 30.4 14.4 49.1 14.4s32.3-6.4 49.1-14.4l.7-.3c16.4-7.9 35.8-17.2 62.2-17.2c14 0 29.3 2.6 44 6.3l-15.1-61.9C425.3 106.1 412.5 96 397.8 96L178.2 96c-14.7 0-27.6 10.1-31.1 24.4L132 182.3zM0 432c0-8.8 7.2-16 16-16l544 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L16 448c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const Custard = createIcon("custard", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcgAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBdAsGAAE2AiQDCAQgBYMtBy4b8gTIjtRgrTKL8fD/c2T3/WSojCkzOiAHSBZI1bFwsGT3jKyees+fOvU856EF8pyIB20sXLpxgc95HoEAdkzvFu3VirUCVYxr7ewNftDrDQbpI5dk2H7Y5AR5/IzuSkg30g+cy28a/2vqJEmeAYg6ABizaN4Mn/6JfyJ+VL0hfpiGgBgLCoEMGVoIMFwm0EKuQC4X/BNVVfE/sCCAKKXPmECOEizHJkAOkizPu7WoWb2kZr6wekm1ecsWL7vV6Vn16nGqw5OmS6JaLIynHR+3bxDH4nH/tx2PRTVLmh/VFj2r/qbDgobxpMOzTo3j2aBtvG3c7PjY4ybF/GuNa8eVhpcb1Iqrjdq+rPOyss2PjT+0HlOrLFhQo2ajXxrVrLEg3KGNTk982X1+OxyaO/cQYcf53V9mbps5Xzc0FIft5+FpO9Y23FBp4+5fdm+sPLHWP4V/atXfAYGgb/m9watqD/9TXj2B/z76w3em0eklyiUQZN2rulueRgMRA/BSHNQWfFAgmS+jr1rDVQFCNQRISlUTINNcHQFy1XQToEQrAwQoVc08mcgrhAZWdJDUsAdkBjoEcg28AiWG++yWahCZi7EOwn7wkiZaaMJc0adn72JosQw1zmvoNB5WbMudD3KpCx210S477bfBelvsN8heM4IDdpiI4Am+qNBHT70VhiqOk8f9C22w1z5b7LJTpgxT3Nc7O4ibu5CWKGVf65JEpLJ1B/Y9HQIAAA==");
 
 export default Custard;

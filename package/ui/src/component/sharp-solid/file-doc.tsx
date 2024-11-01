@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-doc` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-doc?s=sharp-solid file-doc}
  * @preview ![file-doc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-doc.svg)
  */
-const FileDoc: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 0L224 0l0 160 160 0 0 144-272 0 0 208L0 512 0 0zM384 128l-128 0L256 0 384 128zM176 352l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0-16 0 0-16 0-128 0-16 16 0zm16 128l16 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96zM456 352l16 0c22.1 0 40 17.9 40 40l0 8 0 16-32 0 0-16 0-8c0-4.4-3.6-8-8-8l-16 0c-4.4 0-8 3.6-8 8l0 80c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-8 0-16 32 0 0 16 0 8c0 22.1-17.9 40-40 40l-16 0c-22.1 0-40-17.9-40-40l0-80c0-22.1 17.9-40 40-40zM288 392c0-22.1 17.9-40 40-40l16 0c22.1 0 40 17.9 40 40l0 80c0 22.1-17.9 40-40 40l-16 0c-22.1 0-40-17.9-40-40l0-80zm40-8c-4.4 0-8 3.6-8 8l0 80c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-80c0-4.4-3.6-8-8-8l-16 0z" />
-    </Icon>
-);
+const FileDoc = createIcon("file-doc", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABlQAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiDDgsGAAE2AiQDCAQgBYMtBy8bjQXIjsQ4RvIDYVHWePje7qlzX/dX96BH7qG8AKIZR0tkUkRlcOXrlNGGW99jTIylYOJy53/+9IBjEj3aHrpxNPGpOT2BAAvfWr5A08AyTcAanDf5kEJRSL9BHh/pIhqkp/ktHsw+NP40xEWSTgYgKgCsPrh3u89/i98ivum+Q3xjKwJiNagFMmQYLsAymcBwuRq5XPBbdLvsP7AmgGjy3zuBHB28gjcAOUhaed6nNajnkqFV2eiZHygbRVYWpShD9AhRROPSoiwi9u8ri/LFPj5EPJXHxhVF+E65v+/Ik494YkW4vCbfO50RQvC49FjE4y1jjhaHniLO5rGiiHv2RESc+5PlvtiO4H4ZazvHrIWQv+DgmNeq1/4e/e1V3/r8N7/yGc94SOVHt3DmzFkfgzNnfvi1fsGsn77LVsm++2lWXVXOqlS9z1RV9VuvVXr9Vrmk1cD0ef1Dt8W1SkZvXlK5pLmrY6itz4evu7JM21XZL09MtuhKyLp7q5DdDQLBe/+XV5/svey/dpnAHx/++zf4Gel+Tuk10JZAkE3rTnMsgUQAAFLcZUyCQPKMFj/o4QlUCwUVnDQVcGaYCs4VpsINI82/oamwVybyjtDfcQBOergVzixwCs719xbcsMwXWVP/yO5X/m7j/xZTNjSB9fvq2TNm1Uvq0Y5CuAVZvbm0XuxMuotPTIaVrnKzm9zhSle41h0N6Dbba3e60YYpcL0vqs02wyy1JerN/bvKAZzd5nbXDkvbd1mqPj6Y5K7p+ZOhn/iMc5SSRKT2p5FOv+LmywEA");
 
 export default FileDoc;

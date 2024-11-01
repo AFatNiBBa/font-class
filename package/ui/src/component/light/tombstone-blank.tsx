@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tombstone-blank` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tombstone-blank?s=light tombstone-blank}
  * @preview ![tombstone-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tombstone-blank.svg)
  */
-const TombstoneBlank: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 192l0 256 32 0 0-256C416 86 330 0 224 0S32 86 32 192l0 256 32 0 0-256c0-88.4 71.6-160 160-160s160 71.6 160 160zM16 480c-8.8 0-16 7.2-16 16s7.2 16 16 16l416 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 480z" />
-    </Icon>
-);
+const TombstoneBlank = createIcon("tombstone-blank", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABXAAAAHYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBIQsGAAE2AiQDCAQgBYMtBzYbpwTIhofn7f79tc9MAE9Smeignq5fG+l2oT/Uskp95/9yz+/5bcBvdGhj09LFC2zP5ydw4G3Pi/MssEwTsMxbTmqPKfsmM5qkxyvT49Md8rgUnVUiXUivcKx9aPytmaMkeQYg6gJgxLxZU5T+iD8iXpVvEa9MQkCMBIVAhgwtBRgsE2gpVyCXC/6Icrn8BxYEEJVJKIFcekVPDAPkIEl53rpmjUq18rk1KlVflbJUI7L4MvPD3E/T381OoZ76ddiTeZ+HPJqz+nTDM41qxbkmZxvXbFdRt+Lftq/WvnKgjAIxY86cGYzEnDmccUa9ejUKSLx6FdrW5o/atf+4Lj8OAsHbWTV/WVZn8I+qNRL46/7/P9CvqFyKUqpAVQkEWedyZ4ujBFESAIAUe7WLEgJJR4m8a01nBQjVESCprLoAmRbqCpCrrpMAlbTWR4DKqpslE3k1oaElAyQ17QCZvvaBXEM3QCWDPXUraxhZ4LDXzv7bksZqaMxe0aNr92JgMU11LhZoXg8qltX2e6nVATettc1Wu62x2ga7FbnTlGCPLcZ68BhfVOihq+4KAxXbxfbyXGvstMsG22ytWwYpzpvt7fWHO8BIhLKng0kiUp3d27asjGKly1MCAAA=");
 
 export default TombstoneBlank;

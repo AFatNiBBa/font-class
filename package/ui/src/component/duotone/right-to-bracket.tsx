@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `right-to-bracket` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-to-bracket?s=duotone right-to-bracket}
  * @preview ![right-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/right-to-bracket.svg)
  */
-const RightToBracket: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M320 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M340.7 228.7L217.9 105.9c-6.4-6.4-15-9.9-24-9.9c-18.7 0-33.9 15.2-33.9 33.9l0 62.1L32 192c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l128 0 0 62.1c0 18.7 15.2 33.9 33.9 33.9c9 0 17.6-3.6 24-9.9L340.7 283.3c7.2-7.2 11.3-17.1 11.3-27.3s-4.1-20.1-11.3-27.3z" />
-    </Icon>
-);
+const RightToBracket = createIcon("right-to-bracket", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABgAAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBegsIAAE2AiQDCgQgBYMtB1wbKAXIhofv1/o893XPfMIF7l0FCGpXMVCg/EQCqThWkVFTsYRy5v9yz+/50QF+OwDYwzfeptXezxMIp7U9DyRNKNMMrMF5Aw8ilCHE4wl5/JBdVyK9Sd/jUfA/gPGzPq6TNGQAoh0A81YtW+rLalRTfF/7iPjeEgTEfFAIZMjQX4CZMoH+cgVyuaCaajWqUasVBBBlwbszUEaOTdgDyEESIs+HjmkqteQrm0qN21auWPmy8W73c6IxIOpyjxdNTVG812tVvIorPXd1jIgp7h5zpLi8SWrcSrEzn474YFAW7w+vTJ45PaTSXvl18Pc7v7f8x7OR86a19Y2snu2y1tu3W+dy77LZMIawNc5ujGbNudR6GzRqH1WnL1cq9dTnyuXVlyEQ/L+ivHFT28x/65sS+OmL3//m/45q1SRVUC+BIBtZG2l9AokAAKQ4aUhCzBXIjJFEn9rspQChEQGSskYBMv20C5BrNEKAkoEmCVDWaJlM5A1Ctw0tSJodAZnJLoBctw9ByUxf+WXdkRkzypBQD3nxi/vQok3FuNFji+nFYktNmxzCXZ1R7NaHnuQjw+BDOx1y0HE7bLfH8R5y1NLohAMWr8GLfFFhnNHGKkxXnO4+vr3SDkcds8chB/11ZijuN4c6uT59GDxOAoxXoC0ZkSLr/cve4vFDo7Ye3bJt346GNrOT+06yFhQ=");
 
 export default RightToBracket;

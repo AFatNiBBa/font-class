@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `battery-bolt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-bolt?s=sharp-regular battery-bolt}
  * @preview ![battery-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/battery-bolt.svg)
  */
-const BatteryBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 368l136.5 0-15 48L48 416 0 416l0-48L0 144 0 96l48 0 259.5 0-63.2 48L48 144l0 224zm188.5 48l63.2-48L496 368l0-224-136.5 0 15-48L496 96l48 0 0 48 0 48 32 0 0 128-32 0 0 48 0 48-48 0-259.5 0zM208 400l40-128-88 0 0-24L336 112 296 240l88 0 0 24L208 400z" />
-    </Icon>
-);
+const BatteryBolt = createIcon("battery-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABXwAAAH0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBUwsGAAE2AiQDCAQgBYMtBzMb1gTIjsM4hrxptljKWcTD92u9nfu651cyHYYO8QQAQZGwgOuWHQoJZFGtwmb+Iq49/9fke/f8qP3zvRM+pKp14hoj8vkEJhYWDTyeDWcDmhhvat5TAxSiru8MeXwbj1RIzxI8dG8av2rrGkklAxBNADB55dL5Pv8pfor45v8R35iLgJgMSoEMGToIME4m0EGuRC4X/BT//8/+A0sCiDrheQnkqGAuVgJykGR53rJj06LSMF9RVKori2rRIarVCPGi4byoGZYvnLewiCjqHEUhhITosuSWlctWrg2tjGVjW5Z1fd7k+e9d7GDQwtthrz+dqdX8pKaW/+9++njQn4Er/G6Zhk6X15QuKdUiqnPjXhcLV2njzU2lBf0ZCAR3e/29usbj/qpXJPDLh3/+yR5Mk9Jz1JNAkPX/v791aRIwegDpFCd0XfigQDJVJrxqA48FCFUESOpUBci010SAXFU/ASo6GS5AnaqlMpHXF1pY34CkgcMgM8J5kGvhA1AxzhepOi0iu6PE+0H8oUub0YWnrysHD6yVY8rZpkq6SXi9PLbc7Oh9gg/1gTvtcNABx2y3zW7HOugR87PH7TdjCZnui0qDDVRTGqM83Hm4eYXtjjhqt4MO2FXGKq+P9HZieXIf6E4C6xA1SSJSg+93asCWg/uOAQAA");
 
 export default BatteryBolt;

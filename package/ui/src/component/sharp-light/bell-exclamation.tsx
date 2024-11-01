@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-exclamation` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-exclamation?s=sharp-light bell-exclamation}
  * @preview ![bell-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bell-exclamation.svg)
  */
-const BellExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M208 0l32 0 0 32.8c80.9 8 144 76.2 144 159.2l0 97.4 59.3 59.3 4.7 4.7 0 6.6 0 40 0 16-16 0L16 416 0 416l0-16 0-40 0-6.6 4.7-4.7L64 289.4 64 192c0-83 63.1-151.2 144-159.2L208 0zm16 64C153.3 64 96 121.3 96 192l0 104 0 6.6-4.7 4.7L32 366.6 32 384l384 0 0-17.4-59.3-59.3-4.7-4.7 0-6.6 0-104c0-70.7-57.3-128-128-128zM160 448l32 0c0 17.7 14.3 32 32 32s32-14.3 32-32l32 0c0 35.3-28.7 64-64 64s-64-28.7-64-64zm80-336l0 16 0 112 0 16-32 0 0-16 0-112 0-16 32 0zm8 184l0 48-48 0 0-48 48 0z" />
-    </Icon>
-);
+const BellExclamation = createIcon("bell-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgQAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCPgsGAAE2AiQDCAQgBYMtBzcbRQXIhofn7ao/tzCoGlSv+HpBfUsRhWzDr1SIe+Ka53/+VCBlT/Bokfa9aIykiDyfwETnmTrazQY2naBtd26WSQqfJAlJjm85PpcFFHF3zFGS3Zl9g1v8h8avRruSTJEDiAYAG/fZYycf/BQ/RXzTeZX4xg4IiE0gCeTIMU6ANXKBcQoJhULwU3Q6/B+YCCC6xFfKQIFuXI7rAAXIlEUxsz2i1VuX/cXedVkdUFe1+HTtu22xWwwPIUTVF4COjD1ix4fXv79NtD9ZE/FOEmJY7BqiPyJ2jxEBD3lo3Xtb71tX9aXDb61vGHl71HHHjCemPDbrqTEHCEJUAWn1XkIVnjrpqeap39vfHP2N799PKbVtvuCGwcM8bQvdZmg0LzRm6LaFpx1m8IYLNrc7u27BkvLYTqzlUq3lzGOVS7bYdf0liUID1147YMlJ1Wo98ECg2mWXBvNO1Ugaydn9+gJU6LNBIPjhxU9+PmRwzf89dQZ+eevPv9X2Oh/EB9lT6JGBIJ/TmePA+ACYGsBPyuJsk+IDBDLnK9G79rlNgFAhQKZLJUBurEaAQmW2AKUJlgrQpbKHXBS9wjAHFSzT5zQst8xFWGGYl7HSGp+HuwyLXA45KeJegclb18BWs9LCeQvSqjSsyLxoMW5ydVpWZ5xtOmbiXEc7xcnOdJQjHefMCjrdTrGznGTrGbiVL0oWmmeBZJW0Xb+V96bw6c5wXF/cn2a1dN47w9nz/jPRyETaRXIyGZE1t7Bz7v8W+mEn3SwAAA==");
 
 export default BellExclamation;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-parking` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-parking?s=sharp-light circle-parking}
  * @preview ![circle-parking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/circle-parking.svg)
  */
-const CircleParking: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM192 128l96 0c53 0 96 43 96 96s-43 96-96 96l-80 0 0 48 0 16-32 0 0-16 0-64 0-160 0-16 16 0zm96 160c35.3 0 64-28.7 64-64s-28.7-64-64-64l-80 0 0 128 80 0z" />
-    </Icon>
-);
+const CircleParking = createIcon("circle-parking", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfQAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCEgsGAAE2AiQDCAQgBYMtBzUbFwXIhof/15nd9y37zEhhUJixy3LFHSKXgXaBa0+dep7zUAD/PMJBGwvnpg24Zvd5BSrWe895wUrRgtS0AlZrZ28g6XWbpEv5JMP2w8oGWbwRg1VJt6UvcVPdVfyqo2tIsgqAaAGAGetWLfHuhbgQ8WX9JeJLixAQM0EpUBFIFwEmqwi8QaZEJhNciHpd/wNLAogafHICGWo4hDOADCRZlnXu3LVFUW2arS2q+a77R0Y8v/Dz/Nr5nw5/trxvxHMLPiuuW/TFqBd6NfllVsQHy74prlvy1Yz31vw4/d3FX+bXLv165vtr1xV58dKAx7re2f/R0XkIkQdeWax5ZFDEE51vH/h43zxE0fPxFo//3uPLvV86/06T9/l+6pJJk5ZM/f79JtSI8AvmNNLxhfdmzXrvhY6N5mgzGO9cvh3xFY8/3tCQcVcsN1wL5fumu1cLLbbdc29LWuZ5y5b3LneF5UAgOPvGsSHbmk/+v6FI4NLrf/7dfkbq7ybpcTRIIKgMrg+2OYFEAABSnNUzQSDZJYO9NnGzACFHgKQmF6CisxYCZHKDBKjqZowANblVKiJrFNrYMkDSxAlQMdY5kGnjBVA12SdpTZuoeBztL/R7L2EuI3MelSOGDi8nlstGZ5yILLeTym2x/9m0GCBQex1z1Gl77HbAacJOWlKcccRcC53ji0ojDDVcaaLyuH9+vtYeJ51ywDFH9Z5Jyvtuf2ft4wNESUA4UilJRGr2MScacnzHSe8FAA==");
 
 export default CircleParking;

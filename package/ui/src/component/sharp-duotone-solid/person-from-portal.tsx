@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-from-portal` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-from-portal?s=sharp-duotone-solid person-from-portal}
  * @preview ![person-from-portal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/person-from-portal.svg)
  */
-const PersonFromPortal: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256C0 397.4 35.8 512 80 512c25.3 0 47.8-37.5 62.5-96L128 416l-32 0 0-64 32 0 26.2 0c3.8-29.6 5.8-62.1 5.8-96c0-18-.6-35.5-1.7-52.4L130.7 176l22.6-22.6C141 63.1 112.8 0 80 0C35.8 0 0 114.6 0 256z" />
-        <path d="M368 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM224 96l-13.3 0-9.4 9.4-48 48L130.7 176 176 221.3l22.6-22.6L237.3 160l27.7 0-31.3 94c-9.3 28 1.7 58.8 26.8 74.5l86.2 53.9-9.4 32.8-16 56L309.6 512l66.6 0 6.6-23.2 16-56 16-56 6.6-23.2L401 340.9 334 299l29-77.4 24.3 48.6 8.8 17.7 19.8 0 48 0 32 0 0-64-32 0-28.2 0-39.2-78.3-5.4-10.9-11.3-4.5-80-32L294.2 96 288 96l-64 0zM205.5 310.7L187.2 352 128 352l-32 0 0 64 32 0 80 0 20.8 0 8.4-19L253 361.6l-9.5-6c-17.5-10.9-30.5-26.8-37.9-44.9z" />
-    </Icon>
-);
+const PersonFromPortal = createIcon("person-from-portal", true, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABmgAAAKkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCYQsIAAE2AiQDCgQgBYMtB2AbkwXIHoexM/qDIdpOBWwVwoEtgkJX1iNpt86SEQ5kZswAQ/s/ogiQM9zoKQbg6Hh42/13Gk2JZpoghcsdV202WcpSkz8C2xyGJIKgGkwKb/3w+PAYX+JLfYgv9RPX5L+3pgdM4kfq0vdcAGaeT2ACjQVY2kIznYHN2hynoIMVt0WE5b+ENGxew9QJsviwu6ZCcmdSC27Z/gcwfoxurpFokQKItgHAzGP1Um9/5rMStXyeqMUSBMSsgFIgRYp6AaZIBeplSmQywWdJc/JZNGdJAFFFKGVXw5PcwN2ADCRSkWWt5o49i0qrbN1QyfffPVo711X2esw+L/KOphhgqsGmK2INK61Rr0RSRA+9E7/u08866w3VTVFE5Pk6nSEgydfMw4dc2KIoemiqerS7T2osyfpQb6MJxBnuisvdpxjs0+XJ9e7fml6PxufvWdtXc/y8+5uXXvrm7ujd2op3dIdm69TstU69xq32XrunrB3jVv962Cz7/Otf60wxa1O/xEWXdVwxQ1nff6lF7rd8WKm68htAf3JpHb73lD9cd/fjbUfyfDrPb1/+9/9rbZxt3beM7tH1MevUzd4GXkqJd29xBAgEO+5d7/Y2U/66IgFfvPrrD7H/jprf9lvyKOokIEiH5BBbArSN3wQAIIlz0SthBwKpPVL81JZuEyDkCJCoygVI9dBWgExusAAVjcYKUJVbLRVZC6GjrSeZaOkkmRrnPJnp6DmyYop3sqqOkSpT0pX0Y5g+rwbnLipHDhtRTirdmkMWm1BmJ5eP/QHncs9A7LTPccecsdceB52piFOWls46al4Pn+uLSiMNM0JpknK4+V1fF7NTTjtoq+PzTFa+Hw9wrj98IKIEOUdZkkqJJNLuSjaGzmJr6MdgD9X5sPq2Oq0BAAA=");
 
 export default PersonFromPortal;

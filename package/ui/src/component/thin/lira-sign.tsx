@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lira-sign` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lira-sign?s=thin lira-sign}
  * @preview ![lira-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/lira-sign.svg)
  */
-const LiraSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M80 143.2C80 90.6 122.6 48 175.2 48c10.2 0 20.4 1.7 30.1 4.9l80.1 26.7c4.2 1.4 8.7-.9 10.1-5.1s-.9-8.7-5.1-10.1L210.4 37.7c-11.3-3.8-23.2-5.7-35.2-5.7C113.8 32 64 81.8 64 143.2L64 224 8 224c-4.4 0-8 3.6-8 8s3.6 8 8 8l56 0 0 20.6c0 20-1.6 39.8-4.8 59.4L8 320c-4.4 0-8 3.6-8 8s3.6 8 8 8l48.3 0c-9.6 46.7-28.2 91.4-54.9 131.5C.5 468.8 0 470.3 0 472c0 4.4 3.6 8 8 8l304 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L22.6 464c24.2-39.5 41.1-82.9 50-128L248 336c4.4 0 8-3.6 8-8s-3.6-8-8-8L75.4 320c3-19.6 4.6-39.4 4.6-59.4L80 240l168 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L80 224l0-80.8z" />
-    </Icon>
-);
+const LiraSign = createIcon("lira-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABbgAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBawsGAAE2AiQDCAQgBYMtBzAb6wTIjpQuZyTx8DHXv+cmeQCcz4wOyHGJHaMiVJ0/fqcWVW23QvQvTj3PeSiADyLJxpwvXpPnPI9AzkNJpwe8y0sFq2kFrLtzszKlzV5JiiTHpR2fHbLY4aASkueS3/BAPzT+1OE2iTQFEPUAmLdlwypfFaIQ8VvxE+I3KxAQ80EukCJFtwAzpQLdMjkymaAQxWL8D8wJIErZOyYgQ4rt2A/IQCKybH1VSU22uaqkcscrIyLemnKnZVM81fZM6+Z4tfLjoa93i8p4svmplqoQ19ub/Gjuk2irJp5pe7q1Or7dUsWBynghIsJLov+b9W/+7bfDv1kztuxN3jxb/2hNp7ODyvav6VDSWPj3/9p1ptpbWrp3qha9KyeAc6yaxXelCS+ufmbULHhP3O9Y2dvidbrN69YBgeDFDWd+31M387/yqgT88eW/6a+oWIi5yZsol4AgHVkcaWdchpgrAABJXNY/5iKQWC9hQrWnT/VQCUGiVCWkutRDptIIKNFr0o5SlTZIRVYhNNsFIFHtHKQmuwKZZh9BiZl+VEo1R+pdpG+Qn7u4xT2yaC4fN3psPj2fhirlMHgez8i3+aGXuTQMrzrsjNMuOuSgYy522Hmr9EtOWbxCF/mi3DijjZWbLj9OHs9vdsh5FxxzxmmZMkN+Xxjq8rp5GC6TAMa/y1pCJBUnj53fN8oxAQA=");
 
 export default LiraSign;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comments-question` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comments-question?s=sharp-light comments-question}
  * @preview ![comments-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/comments-question.svg)
  */
-const CommentsQuestion: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M78.2 274.7L70.9 293 52.4 339.1l99.9-23 6.7-1.6 6.8 1.4c13.5 2.7 27.6 4.2 42.2 4.2c102.4 0 176-69.3 176-144s-73.6-144-176-144S32 101.3 32 176c0 30.8 11.9 59.8 33.2 84l13 14.8zM38 375.2L0 384l14.5-36.2 26.7-66.7C15.3 251.8 0 215.4 0 176C0 78.8 93.1 0 208 0S416 78.8 416 176s-93.1 176-208 176c-16.7 0-32.9-1.7-48.5-4.8L38 375.2zm207.2 6.2c11.5-1.6 22.8-3.9 33.8-6.8C308.4 417.3 363.8 448 432 448c14.6 0 28.7-1.5 42.2-4.2l6.8-1.4 6.7 1.6 99.9 23L569.1 421l-7.3-18.3 13-14.8c21.3-24.1 33.2-53.2 33.2-84c0-70.9-66.3-137-160.6-143.5c-.9-11.1-2.8-21.9-5.6-32.3C552.1 132.5 640 209.6 640 304c0 39.4-15.3 75.8-41.2 105.1l26.7 66.7L640 512l-38-8.8-121.5-28c-15.6 3.1-31.8 4.8-48.5 4.8c-82 0-153-40.2-186.8-98.5zM141 125c0-24.5 19.8-44.3 44.3-44.3l39.7 0c27.7 0 50 22.7 50 50.2c0 18.7-10.5 36.1-27.3 44.7L224 187.6l0 15.7-32 0 0-16 0-9.5 0-9.8 8.7-4.5L233.2 147c6-3 9.8-9.3 9.8-16.1c0-10.1-8.2-18.2-18-18.2l-39.7 0c-6.8 0-12.3 5.5-12.3 12.3l0 5.7-32 0 0-5.7zm50 96.3l34 0 0 34-34 0 0-34z" />
-    </Icon>
-);
+const CommentsQuestion = createIcon("comments-question", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABoAAAAKvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDFQsGAAE2AiQDCAQgBYMtBzgbnQXIjsK2nXOSJIwvSRhURMmwzd63qkoD4umabgxWovHgEJIgDAjbLUa88fmHzXy9/N0YG9knqbq0J6miO9fG1KnnOQ8F8DkEQdlTsy1pt+9xXoECFhvvpA26uVZRrLWzH/hB6TakDz5k2PywWUMzv5kAE+pRuw14iHeVf/hZBhSjAQAyBQDc3rc34spLviRv/z8J+UA9CJA7AAcIGnSLDQIu6Ag2DAo0GQg//L/j/0AFAUgb+LwCNEEHPAHeANAEFLNpBPmlJtjSdDK6pCm6fQN8E9hNH3pxp3xWfC98W9OlrscFt9XGRK+OjOyMEHbzUtiz9kfdT1ofdD5uud+xPKqjc3f03tyzlT3ROwWdTKI/i384ZFvRnrnKe+U2Wwo6GcQsdnGHuFp3M6nPYh9ytZTs8VrptyYigmCfwLt8vCvnOm/BFZ4x6pRC5uVh+1z3vQ29PeI2Gl8GIy0RQ2cYZJD0WSN/2uB/JooLnL/cjR7aC6vfwO8O8was27K1m93cuoVofiu/YbMD7prUB04dmuKdPhiDDZ0h0WB38cXZOnOm2nIp7jAGTWKNnOdfhkfoZdYa05b3bf/1I+HxDrx6xMDr87nhtGkuXCiubMJSfMAK6fohxhZhQbHOBoZBhDseEBB47m6eMtCl4KuD1AD8nXv/UTp4d6UWafsAXRog0Dj8n6BfLQLwaAIklRkIU74ooGyACfc6tAoEhAABFItAQEMAVwQ0CfEIaAmWiYA2oZ2OTRvkqX8FGkeTgS7LfGDwdByYClyLLZ7RTZY2OPrHmFAlocpFKjUpReWpaU1hrJAMs/lq2YiZwT2xlIoRJppgmuGGGW2aQKZozE43XpUGV/ohJVWSFEoeddy8FbpEPMVUo8eq83nyqftOjBn68FiyNcA8V1E0SLnZs5r4sAEAAAA=");
 
 export default CommentsQuestion;

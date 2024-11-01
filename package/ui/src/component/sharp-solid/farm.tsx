@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `farm` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/farm?s=sharp-solid farm}
  * @preview ![farm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/farm.svg)
  */
-const Farm: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 96C0 43 43 0 96 0s96 43 96 96L0 96zm0 32l181.4 0-51 123.8-2.4 5.9 0 6.3 0 248L0 512 0 128zM160 512l0-248 56-136L368 64l152 64 56 136 0 248-144 0 0-112-128 0 0 112-144 0zM416 224l-96 0 0 96 96 0 0-96z" />
-    </Icon>
-);
+const Farm = createIcon("farm", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABXAAAAHrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBQgsGAAE2AiQDCAQgBYMtBysbvQTIHoVxw31kM5XxcSWvRTx8v1b+ua97p3Z7wtCJAmZFjDJRpKIzkUAqDmUkkE1F0sfph1pgZtkb/T7/19SL50cH+PkIDinaSlOj9Cjz+QQmFt60icyGs4nirJ394InoNiSUTzJsn2FzhjzeZ5c1kO6kcT19aHzX2WWSpgxAtALA1GWLFnrxJb5EvK1LvDUfATEVlAIZMnQTYIJMoJtciVwu+BL1Ov8HlgQQFXhxAjkqmI6FgBwkeZ43a9mxqdrQPF/qHy+yu/0j7o9+1Pde90K1qC6OdiFEEdmKEMsctIQZpIiQ+1cV1UJUI3rXWtV+9Hrr1jfWqJ0/X6s1Vopjw05pr+KP887fPfcH7uhrbk22VEn+ccN+54Nzo95zPWTmeRAI3v2ndUz42VhN4Nvzf8gP10tTUg2NEgiyAfUBVqcpwMQAvBRH9Ra+KJCMl8O7NnNTgFAgQFJRCJDpqpUAuUJ/ARr0MFKAisIimcibhHbWNJA0cwBkRjkDcu08AA0meOlWtItMk1g9YP9xSbN6dOa+cuigIeW4cpmpnHLQYTu+3Fb6HLWdvnTSVvvsddgWm+1wuMMPWhgcsccsCZvph0pDDTJEaZzyuHw+vNQWBx2ywz574y7jlfeNPo7K431JT0A6TCpJRMqfGAAAAA==");
 
 export default Farm;

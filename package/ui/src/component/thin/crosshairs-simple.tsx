@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crosshairs-simple` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crosshairs-simple?s=thin crosshairs-simple}
  * @preview ![crosshairs-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/crosshairs-simple.svg)
  */
-const CrosshairsSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M495.9 248L392 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l103.9 0C491.7 390.2 390.2 491.7 264 495.9L264 392c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 103.9C121.8 491.7 20.3 390.2 16.1 264L120 264c4.4 0 8-3.6 8-8s-3.6-8-8-8L16.1 248C20.3 121.8 121.8 20.3 248 16.1L248 120c0 4.4 3.6 8 8 8s8-3.6 8-8l0-103.9C390.2 20.3 491.7 121.8 495.9 248zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256z" />
-    </Icon>
-);
+const CrosshairsSimple = createIcon("crosshairs-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcgAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBcwsGAAE2AiQDCAQgBYMtBzgb+wQjEbZa7imR/TOBN9FcEXGbbeFtS+Djjmh4IkDHi4RRMpSWoH7ts+ft7gEFaRMFzAqYXFwUkrBnzwUI7VUsqugfAM8NqacyaPVVT0HJoVr9v7/VeONRgN8oyuy46dZmHncA3fd4midYnq8GsrZga7oCthDt7L5YlH6TJOWTDJs3TOrQuSGPO7YpSLfSW1zIHxq/dHNKkmUAoi0AZqxcusTD1miNeFtJvLUIATETlAIZMvQUYLJMoKdciVwuaI1KJf4HlgKIKvpkAjlyLMcBQA6SlOfJI3vUF435ivqibmtdfd1VudapPr52gIjr2oH4/oH6uGFAXfwYNGHSAhHfnjy46VtEPNrv+Mz9UE/mez4+7+n0eusPu19z2+Y/fd/ueAv/XuzatWtTVdWmXYpN06ZPn7ap2AV6gF02FdDsKDbt8mad/qs2p5ZuLY941NINhWJO7csgELTbVLN4Y5vJ/2vqE/h5+9/lZ1R5mKRm1EggyAZXBq9LIBEAgBQn9EsQSJZI9F0bXA8Q6hAgqVInQKaHtgLk6gwSoNDbGAGq1FkqE3mt0NH6hpIGh1FmrJMo11ELKkz2wqnSMTIP4/2D/+ClDMwdm3NUjhg6vJxYTlNVcBo2rSeVy3r/E1oDuLTj4IFj27ftPhZxZIl/fP9cC5/zxXLE0OHlxHK7eFRWBEeO9jTqgf0tk8rzdv8T9vAArERJRwaSRKR2D4R9Y9bRIfcUAAAA");
 
 export default CrosshairsSimple;

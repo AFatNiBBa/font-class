@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-lying` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-lying?s=sharp-solid face-lying}
  * @preview ![face-lying](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-lying.svg)
  */
-const FaceLying: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M494 350.5c-4.5 1-9.2 1.5-14 1.5l-128 0-16 0 0-32 16 0 128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-192 0-16 0 0-32 16 0 192 0c11.2 0 21.7 2.9 30.9 7.9C498.8 101.8 389.3 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c108 0 200.4-66.9 238-161.5zM144.4 176a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm160 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM188.8 393.6l-9.6 12.8-25.6-19.2 9.6-12.8C180.7 351.1 208.6 336 240 336c13.6 0 26.6 2.8 38.4 8l14.7 6.4-12.8 29.3-14.7-6.4c-7.8-3.4-16.5-5.3-25.6-5.3c-20.9 0-39.5 10-51.2 25.6z" />
-    </Icon>
-);
+const FaceLying = createIcon("face-lying", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgQAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCJAsGAAE2AiQDCAQgBYMtBzEbJQXIhofn9f77tU/ylDtGxvaXVAGqjM6VUHH+L8f37vnRAX6jQ1nD5uKxwmjO54Ft0WzyfF6UBZZpApa1s1/eQPoySDpCfIbtDaMz5PFCdp4q0s3pHVwZPzR+0Np5JHUZgGgEgEkrlszz6lfxVcTb/z9FvG0OAmISKAUyZGgnwFiZQDu5Erlc8FX8/z//B5YEENXk+QnkqMYhnA3IQZLneb+mTVtUqurnyytVxZbriqKIqFQubXljnN3iBjCbf7bc7/PJ3Hcmvrr000mvzXt32ecL3l+x+caWE+jG8HpnNTtacEmLG1pU2gcvbdayWe9oGY/MuLRb82gVLeKG4r6ene9vdP9Pnd7Z/o6fNm6sOatRqdFZDS66qEESX4Xiq40/L7ZMnxgu3hYznH1161ZmmNGq9dVnz7DID3+3m7Hu4foXcVF9BQ44D7mrNQ9/eau84hyXeSKa13zvXZ95ssGvPYFA8Mnbd0za0HDsX7WVBL55/pef8s/I/68m6X7USiDI+v7f19oEEgEASHFc5wSBZJccvWs9NwgQCgRIqhUCZNpqJECu0EeAKh0ME6BaYYlM5HVCM+sqSOo5BDLDnQ5yzTwBqoz1elStWWSmRxsO/fFLmI7wtG3loP4Dy9HltKYw1kT62THlttTzuOvpRTttd8B+R22z1S5HAT1sXnrMPtNXyDRfVBqkv4FKo5Xq5r2wHMzDjiA55vTzjFHe93o6vh7ei9REMAerShKRindd0W/vybv27wAAAAA=");
 
 export default FaceLying;

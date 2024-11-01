@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `moon` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moon?s=thin moon}
  * @preview ![moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/moon.svg)
  */
-const Moon: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M223.5 48C108.9 48 16 141.1 16 256s92.9 208 207.5 208c56.2 0 107.2-22.4 144.6-58.8c-10.7 1.9-21.7 2.8-32.9 2.8c-105.8 0-191.5-86-191.5-192c0-71.7 39.3-134.3 97.4-167.3c-5.8-.5-11.7-.7-17.6-.7zM0 256C0 132.3 100 32 223.5 32c6.4 0 12.7 .3 19 .8c7 .6 12.8 5.7 14.3 12.5s-1.6 13.9-7.7 17.3c-53.3 30.2-89.3 87.6-89.3 153.3c0 97.2 78.6 176 175.5 176c10.3 0 20.4-.9 30.1-2.6c6.9-1.2 13.8 2.2 17 8.5s1.9 13.8-3.1 18.7C339 455.8 284 480 223.5 480C100 480 0 379.7 0 256z" />
-    </Icon>
-);
+const Moon = createIcon("moon", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABaAAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBTwsGAAE2AiQDCAQgBYMtBysbygTIjpQuZyTx8L1dfOe+7g+4PwQtwIyMQE1tKoRbUyH6U6eexzYF8AE8c+IEGRMou2OeVyDn9V59YkVq6zyi2N3ZEpSsfZKWskmOS8vxuEAeR61TgXR7eh/X4pvGL5o4R5JlAKI2AEYvnDvdy6UoRbxffpZ431QExBhQCGTI0FyAYTKB5nIFcrmgFOVy+A8sCCAqIjjRc/fgJCwE5CBJed6kY7UKNfIF/mlVl34+K+LjeV/M/mT+V3NvqvrlnE8XnO75+NBbqs57sG/E01Mj3pt4ZYObU1j/hW6P0DhXNrqVUfoff3PKu32eatPmodoP/eb9De/76dpFcQcPxcJY+NAdi2J+3PZ3nVkxf37MHvDwnS+cqvzTRzU/4dVutChVue6+Lk1vOXDxYJ+Yos7kqP3pE5MnH/p+WZRadPv0lZpAILhywbOjV9Ya9l/lagn8/NIf1YfLpTibHkJlCQRZt3I3y+IU5f+FMQEwTHFAG5hYIBklAb1qdbcIEKoiQFJRVQEyzdQWIFdVVwEqaKm/ABVVNVcm8ipCfcs7SKrbDTIDHAe5+p4GFQzzVlhR/cjsibMG7juXPIFD48eK3j16FUOKaaXxJsLk/aHFst3pQJzrDGdtsNMO+6y3zmb7GLnH9GS/7SZIxHgTKvTWQy+FIYrt9vH0AuvtsddmO+0ohwxVnA86OSCv7gzHSYA+N1FKRMrfIwA=");
 
 export default Moon;

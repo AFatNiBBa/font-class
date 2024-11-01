@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `panel-fire` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panel-fire?s=light panel-fire}
  * @preview ![panel-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/panel-fire.svg)
  */
-const PanelFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 64L64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l250.4 0c6.6 11.4 14.4 22.2 23.2 32L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 32.2c-11.1-1-22.6 1.9-32 8.8l0-41c0-17.7-14.3-32-32-32zM327.2 239.5c-2.3 .4-4.7 .5-7.2 .5l-192 0c-26.5 0-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48l192 0c26.5 0 48 21.5 48 48l0 24.9c-15.5 17.9-29.3 36.3-40.8 54.5zM112 280a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm96 0a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM112 160l0 32c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-192 0c-8.8 0-16 7.2-16 16zm335.1 32.9c-21.7 19.8-45.3 44.8-63.7 72.3c-19 28.5-31.4 58.3-31.4 86.7c0 33.7 12.7 64.2 33.6 87c-1.1-5.4-1.6-10.9-1.6-16.6c0-57.4 63.8-110.5 87.4-128.2c5.2-3.9 12.1-3.9 17.3 0C512.2 311.9 576 365 576 422.4c0 5.5-.5 10.9-1.6 16.2C595.3 415.9 608 385.5 608 352c0-22.6-8.5-48-22.2-72.6c-13-23.4-30.1-44.9-46.7-60.7l-21 23.7c-3 3.3-7.2 5.3-11.7 5.4s-8.8-1.7-11.9-5l-47.4-49.8zM480 479.9c2.4 0 4.8-.1 7.1-.2c33.7-3.3 56.9-29.4 56.9-57.3c0-17.4-10.1-37.7-27.4-58.5c-12.1-14.5-25.8-27-36.6-35.8c-10.7 8.8-24.5 21.3-36.6 35.8C426.1 384.7 416 405 416 422.4c0 27.9 23.3 54 57 57.3c2.3 .1 4.7 .2 7 .2zM320 352c0-37.3 16-73.4 36.8-104.5c20.9-31.3 47.5-59 70.9-80.2c11.1-10.1 28.2-10 39.3 .1c.3 .3 .6 .5 .8 .8l37.9 39.9L518 194.3c.4-.4 .7-.8 1.1-1.2c11.2-10.3 28.5-10.3 39.7 .1c19.7 18.3 39.8 43.2 55 70.6C629 291.1 640 322 640 352c0 85.6-66.4 154.9-150.8 159.6c-3 .3-6.1 .4-9.2 .4c-3.1 0-6.1-.1-9.1-.4C385.7 507 320 437.6 320 352z" />
-    </Icon>
-);
+const PanelFire = createIcon("panel-fire", false, "data:font/woff2;base64,d09GMgABAAAAAAN0AAoAAAAABxgAAAMqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiDagsGAAE2AiQDCAQgBYMtBzEb6wVRlO1JleyLA5tOXfCKsECGgyZHfOLQNlowPkFbYAi/vFwsGsKDeHja79u58wZTTSvWMKtkklhcSZhI11BYkiX7S8OT+L9Ya3svIm3nk6g0UUOt4SFTCcm8kQgJklk1L79q+/9+be1D7LOoJLOmOt07iRJZmjUxDRVK8MZ0mH43/9fUCzs/wB92oOeHFrUOkEjtfj6BAd4bJbZNYLwG9jHM2py3KCi8H+EQckQ+Jg3bg8PUHnL8iamopBMJ9gkWHw1ymk5yQYDoCW6U2jWFFHyXohTRWo5otQAIiDqAkQgUKDAUASqQBYaiGAlkWVCKcrn9ByIIINoDk9x9Rmc8Qxsgg6RjzkfYBzE7CcaLdagdTsl1accqdO3GroqaWApC3EIIemJ2rM17BTkGloMBj5VpJ8fiqgiiJGmzMjtZLFhL2gqIgbRjQLESt+RYXDdmbpVd7VoxMKB6Rg4IR/qh6Egh2hJWNEX5Z/1RNQu032HKg+Ug7awx7Uw9OSG6aMb2s9k4vmZVEq3tYm+UHeib9/qlcSsjxD1dDeUuhS6hjY6AGgRiQDSjEpDJznZS3/wPM9esY/Uj+Dinusnb/0a1jkFjY40WdN9e5oU183/73/R2vhefVYMViKnYkyN5r7F2uu+RKVeY+eqXjIqn/2YsUVo3+KV6mbRf8nR0JdTZNlJKOKVvKPFQ/hnpkcPefywySdqp61/HOXXPZ2fPMWunn107SYtEStQfS0J8bYeGNhxOKeqfcv9O5xx4N8c5pqRcOpjJk6J6OHfp9CoQ1vggAquq+h40LGpP3YQpmUqlhPPpg7ZaAIGg5ev68Su+deySwLv7X7+Fy5W/U1MaHSUQFFPLUzVTE0RuAMkUW6mMLwokT3Skya6OCqRDZzpI2usMCkMIQNbZFNDOcA5xcscKZJE7CX21ACRdbQCF+U5A1tcdaKfCT6K9vkH2btk35X/LjCTTiUVoMZrRi8OaS3FYscz6cNqt3k09GqyFsTWrto0MzWwTuymV3rEiafETn0UWRmbIC5eb340yhTZtsfjssD6PD34fV9u1h2vgI1HB2YqSRKTOW9Bi2Ck=");
 
 export default PanelFire;

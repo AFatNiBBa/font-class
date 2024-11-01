@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comet` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comet?s=sharp-thin comet}
  * @preview ![comet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comet.svg)
  */
-const Comet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M302.5 35.3l-1.8 23.1-1.3 17.5L315.9 70 492.5 7 512 0l-7 19.5L442 196.1l-5.9 16.5 17.5-1.3 23.1-1.8L496 208l-9.7 16.8L378.6 410.7C342.3 473.4 275.4 512 203 512C90.9 512 0 421.1 0 309c0-72.4 38.6-139.4 101.3-175.7L287.2 25.7 304 16l-1.5 19.3zM304.8 91l-23.2 8.3 1.9-24.6 2.3-29.6L109.3 147.2C51.6 180.6 16 242.3 16 309c0 103.3 83.7 187 187 187c66.7 0 128.4-35.6 161.8-93.3L466.9 226.3l-29.6 2.3-24.6 1.9 8.3-23.2L485.6 26.4 304.8 91zM208.9 206.7l30.6 61.1 68.3 9.8 20.1 2.9-14.6 14.1L264 342l11.7 67 3.4 19.8-17.8-9.3L200 387.8l-61.3 31.7-17.8 9.3 3.4-19.8L136 342 86.6 294.5 72 280.5l20.1-2.9 68.3-9.8 30.6-61.1 8.9-17.9 8.9 17.9zm28.3 77l-8.3-1.2-3.7-7.5L200 224.5 174.8 275l-3.7 7.5-8.3 1.2-56 8 40.3 38.8 6.1 5.9-1.5 8.4-9.6 55 50.5-26.1 7.4-3.8 7.4 3.8 50.5 26.1-9.6-55-1.5-8.4 6.1-5.9 40.3-38.8-56-8z" />
-    </Icon>
-);
+const Comet = createIcon("comet", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABmAAAAKjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDGAsGAAE2AiQDCAQgBYMtBywblAVRVA6aZB+Lsa0atsSVbfgvgmq/z5797wiCzBIA9cmEFYEEQI+kriJZRf+LU/8zaAP+hfbixEKLEuvcVitaQWqd/8vpTT6659PoUNawZWPRXW3rRXM+TyDQMb38g0VZYJkmYJlbQ1AFRbm9ZOgoNiKix2f0+PWALB5ZgScdTy9xaHxo/NLEhySXAxDVAMCYRV0Lv9qojXiRv0O8MA0IiDEArSFyyKE5BMOxAs1xWgOZTFAb+Xz+D2wNAohCAJxAhkKcx1NABpIsy3q0MQyhoCJbWPeUzq9u3Kxx4+gUi2LWOObHwjsdvTz4funnue8X1vS6NsxqbtO+U/tm0ez83v3ul32a827BvmGPei2K9iQMaNFz8/v07bMgOkT9mB4Lokl0jKkxWfFnRsM3zH4ib7KgYYOGqegbvaM+FeNjRDSYReuYFo0KNSXaRsObo2Ji24vVF/+0ebnqpZ6nGgJ8HQWuj9TRciOvma2OJdo4bN0DT39+H7Qgju2JBYOuXP31YJ0SqdFqACrSw/WVLuzd0y9mjh8/M/odO39i5XXvbbXb6Ntuj168/TfujyvRx1+VysZqp7E3ZDZmYW9W6Y++1JbfatQ0m74F1iB+vUG22G2X+Yod0cVyy3VxRLH5dtkNBIJN7b51XFw1/H9xWQI/Hv77lX9GevLPk3QRxRIIct3z3U0JJAIAkGIXLUEgOSeDdy13RIBQigBJoVIBcppRIciU6gZBgZYSCAqVmocVWYlQ37y4pNxWLmegN5ep78sVGO5fKlQ/ck6ruJzyy5jZSLTeRX1cn0pSO1j1Q6ltVnTZ7vwqE0a4CytnJw9LC1sPQd601aejxiJqX0QCLh8p0e3+x+ujpZu7rbNT36ZCz4e6lz3fCB4DvH21JYlIBd+K9QAAAAA=");
 
 export default Comet;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-walking-arrow-right` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking-arrow-right?s=sharp-duotone-solid person-walking-arrow-right}
  * @preview ![person-walking-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/person-walking-arrow-right.svg)
  */
-const PersonWalkingArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M2.7 464L48 509.3l22.6-22.6 48-48 4.6-4.6 2.4-6.1 15.7-39.3-40.7-44.4c-2.5-2.7-4.8-5.6-7-8.6L68.7 398 25.4 441.4 2.7 464zM7.5 260.2l60.7 20.2 10.1-30.4 11.5-34.6 36.7-16.3-17 63.6c-5.6 21.1-.1 43.6 14.7 59.7l70.9 77.4 22 80.5 8.4 30.9 61.7-16.8-8.4-30.9-24-88-2-7.5-5.2-5.7-52.3-57 18.4-62.4 13.7 27.4 4.8 9.5 9.5 4.8 48 24 28.6-57.2-38.5-19.2-35.2-70.5-7-14-15.3-3.1-80-16-10-2-9.3 4.1-72 32-12.9 5.7-4.5 13.4-16 48L7.5 260.2zM160 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M512 130.7l22.6 22.6 80 80L637.3 256l-22.6 22.6-80 80L512 381.3 466.7 336l22.6-22.6L514.7 288 384 288l-32 0 0-64 32 0 130.7 0-25.4-25.4L466.7 176 512 130.7z" />
-    </Icon>
-);
+const PersonWalkingArrowRight = createIcon("person-walking-arrow-right", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABngAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCXwsIAAE2AiQDCgQgBYMtB3AboQXIjtFLT5EkacLMzClKBF9jr/vuLkCsSKEC1gRCxSZCxxMWlGBhYsSfytaI+k9r6fs3FwCeENOGCG2igF1YAirAtqtaYarqCORMXO78bdOfT/8XfrQxRm1e43zO8wQCfczzIZAFlmkGlv+77NHnoHBxkJCvpR1ue2vdd4eSXNkiFdJbkgE38X8A4x8sLEJSlwEQrQCA9ZPCbNxV6LOCZHEO8YEsEBAbAEYRMjIGEVjCBAYpjYKiCCpJCKiEEKNAAFGNCGZ2tXnCNfgCoIAk5KK0M0vU0VLRUUqSq9ni7uFeTO7kRkUoxJCnY2lqEmlpeVBPrEl0TLRn8skMup2Wu9btR1HkVpKekW41eKHk6juTxWS5FpRJliSRaaGAAoNuAj282hELoRDGVETGL7Im85JN533XQ6stlwOnPXOHE/2Tr2Nys0wsNTU15eZCIpHPbiKTbFgYjQO/2oBE5vshy00Qgjj7YlLgxBJuSeXD2dnZLk7l0nNxlpINkx0suzPF7ARmkqXx9l66Ff/dKOCwjS6/5LbgzoLUETyJJuy+fKrvnpjo1sTjAIHg62+rjzV6UX/VtRSAP9++//U/JPb/Pk0pTkCtBII8I7xQmWYxOU2BAAAphuGQZqMWTCA7x+R3bfSMQKhHgKRavQDZAH0EinrTCFQZFoxAtXoHmCgaCJ2qGpM0umSyRVNM0emMqbLktVGtMxgxJVpJ/4XpKT2QfI37+/jxCK6OVZlrQjiP5Jd9t2G/5o6baNaj26AmjdoMdni/7PaQLik7LNkXcf58+OEi8OPZsy7ZRr8BbWv1/JJI/P6Km+H9bndECpl3lp5lRCRiDkS2vb8oI951/f09Iy+47U31fZ109ekGAAA=");
 
 export default PersonWalkingArrowRight;

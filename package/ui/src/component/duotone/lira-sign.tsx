@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lira-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lira-sign?s=duotone lira-sign}
  * @preview ![lira-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/lira-sign.svg)
  */
-const LiraSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M0 224c0-17.7 14.3-32 32-32l16 0 0 64-16 0c-17.7 0-32-14.3-32-32zm0 96c0-17.7 14.3-32 32-32l16 0 0 44.5c0 6.6-.7 13.1-2 19.5l-14 0c-17.7 0-32-14.3-32-32zm110.8 32c.4-3.2 .7-6.4 .9-9.7c.1-1.6 .2-3.2 .2-4.9s.1-3.3 .1-4.9l0-44.5 112 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-113.2 0zM112 192l112 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-112 0 0-64z" />
-        <path d="M176.4 96c-35.5 0-64.4 28.8-64.4 64.4l0 172.2c0 29-7.9 57.5-22.8 82.3l-.7 1.1L288 416c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-11.5 0-22.2-6.2-27.8-16.2s-5.5-22.3 .4-32.2l29.8-49.6c9-14.9 13.7-32 13.7-49.4l0-172.2C48 89.5 105.5 32 176.4 32c13.8 0 27.5 2.2 40.6 6.6l81.2 27.1c16.8 5.6 25.8 23.7 20.2 40.5s-23.7 25.8-40.5 20.2L196.7 99.3c-6.6-2.2-13.4-3.3-20.4-3.3z" />
-    </Icon>
-);
+const LiraSign = createIcon("lira-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABkwAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCTgsIAAE2AiQDCgQgBYMtB04bbgXIjsR0G4/8IleJFQ8vusr3bc/crb0MPgQOAHeMVEcpR2mjVFG6g3r/n//L6Y3nRwf4jQ5tD108FthaLe4lkOjQ9vPAAstCidwzt8WlBUUmBhGd4o9nfmgzxD9DFjvTG1RIHk3+wN3pfwDjHz1uIFGXAohmAKzYt2uLb2pRS+KPYx8Qf9iMgFgJSoEUKfoFWCwV6JcpkckEteRYanFsSQBRlX5bCqoYhltwLyADiZBl2byWts6motKQ7S0q+aEXxke80i2umSyKuL3jQde0P5DXx0udD3XNiscj4vllX6+7fcyeeLDjwfYH2h/o3BsP5XFtV8TDRREij9s6HwqTfU07QXvMayMP42ia7yvyYng6YuRrza/9O+KPM/7w9onPtNCSv2ny6eFnjbfc0lgeo/mpq+/+1p+9b6qsmr29Y+72Xt8f2rh48YcvfB9P3VeoNd7CLY3Nlmu2qCdN4RR1PY2Uv2CokiVpsDfFRYf9iz19EVjxkossBwLBV4N3/nVi0+L/hxcJ+Psz/9UHHz5Wi5XJaxguAUE6+dhkx8UVCnR0i8DZJK4wMpbjsxBIbZDBu9Z7SICQI0CiKhcg1adZgExukgAVg+YIUJXbJRVZndDu+A4S9S4GqbmuBJl274OKxX4OqtojdUjanejfwYS1El2zr5wxdXq5sHwsNMbHyLC5qHxtjL+CBhNw0BkudIHLnO40Z7tM4JfYEl/ufGs1bI0vKs0w1XSlhUpz/SrsFcElLnX2nrPvskj5vTPeFfr8BNgJJpzpWColkkhbzjv7kpOnOLMy5WYP2hbuDgM=");
 
 export default LiraSign;

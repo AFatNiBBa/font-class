@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lips` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lips?s=sharp-thin lips}
  * @preview ![lips](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/lips.svg)
  */
-const Lips: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M192 64l96 48 96-48L576 224s-80 224-240 224l-96 0C80 448 0 224 0 224L192 64zm103.2 62.3c-4.5 2.3-9.8 2.3-14.3 0L194.2 83 19.1 228.9c2.4 5.8 5.8 13.8 10.3 23.2c9.7 20.4 24.3 47.6 43.6 74.6C112.1 381.5 168 432 240 432l96 0c72 0 127.9-50.5 167-105.3c19.3-27 33.8-54.2 43.6-74.6c4.5-9.4 7.9-17.4 10.3-23.2L381.8 83l-86.6 43.3zm-181 109c8.1 7.6 20.1 17.8 35.9 28c31.6 20.4 78.1 40.7 138 40.7s106.3-20.3 138-40.7c15.8-10.2 27.9-20.4 35.9-28c1-.9 1.9-1.8 2.7-2.6L357 208.3c-1.2 .4-2.9 .9-4.9 1.5c-4.4 1.3-10.5 3.1-17.5 4.9c-13.8 3.5-31.8 7.2-46.5 7.2s-32.7-3.7-46.5-7.2c-7-1.8-13.1-3.6-17.5-4.9c-2.1-.6-3.7-1.2-4.9-1.5L111.4 232.7c.8 .8 1.7 1.7 2.7 2.6zM222 192.4s0 0 0 0c0 0 .1 0 .1 0l.3 .1 1.3 .4c1.1 .4 2.8 .9 4.9 1.5c4.2 1.3 10.1 3 16.8 4.7c13.6 3.5 30 6.8 42.6 6.8s28.9-3.3 42.6-6.8c6.7-1.7 12.6-3.4 16.8-4.7c2.1-.6 3.8-1.2 4.9-1.5l1.3-.4 .3-.1c0 0 .1 0 .1 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l4.3-.2 123.4 28 4.4 12.9L480 228c6.2 5.1 6.2 5.1 6.2 5.1s0 0 0 0s0 0 0 0c0 0 0 0-.1 .1l-.2 .2-.7 .8c-.6 .7-1.4 1.6-2.6 2.9c-2.2 2.4-5.5 5.8-9.9 9.9c-8.6 8.2-21.5 19-38.2 29.8C401.1 298.3 351.6 320 288 320s-113.1-21.7-146.6-43.3c-16.8-10.8-29.6-21.6-38.2-29.8c-4.3-4.1-7.6-7.5-9.9-9.9c-1.1-1.2-2-2.2-2.6-2.9l-.7-.8-.2-.2c0 0 0 0-.1-.1c0 0 0 0 0 0s0 0 0 0L96 228l-6.2 5.1 4.4-12.9 123.4-28 4.3 .2s0 0 0 0s0 0 0 0s0 0 0 0z" />
-    </Icon>
-);
+const Lips = createIcon("lips", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABsQAAALHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyEAQsGAAE2AiQDCAQgBYMtBysb/AXIjsQ4RvGIA6VFEM/bVfV+/1XPnVfoldEzJykCGArROvKlF0GpEO+wU7GU4sKI4/xc6u/ei1PPcx4K4KtEKPgZi3KhsTUdE2ROXQI937amYalXK1DBtKwdto1su8dkPB9Ay1uW4QbqmnoNnHFPKl8J4BgoDAMAAJkGAACUuzqbGfwkn0TGJw6QcRoBAZByACwEMAADCEYAKMJAgGA0FqDRCHySiQn2H2iBAIC4E36JAkAD7sB74A8AoAFQaK2DgmN3Otwma6fDzZxrO22X2HIo2Cb1RX+VKUMl/SljqBeXfdEXSZdc8lHJQ/5T7ZDhwp7UKUj4IenquhQds4/sK/eKzX7Cj4pTLpqHzIveISrFcF9uHvd9lIcPi8hhbSKOmeLgYYzOsacVhnEqbxcgXDLY4iO+csk3S8RbLnrDtXEla886c86E5suBBp5afuJtPZc4pgciHkxr38Nfr3jNwMGFqXgTA3dQnz69fTs4+HwRzyvscKKolctWFC9d6kzgyTny5v8cG719u20RbTgaHfs5Pw/i+qpX63oOHgxKHBxMDGru7WEarPVnmhJZfH75pk32/cUomaMzEghbBQW6/bxdlrb8fLsi0iHwEs3eIIroYvs04ErJtF+fPVQIf/2Chc3QazvzZqyLLorYoAZ/BQEELuy9MZNMLfrv6VAAfOn++RVfrMrUA8ATBYCAkTSRxLwt4WAYAeehZAcR8I0EULxBA71JXH6aFEwYQOGOCQZBTAONSSK4EUo2d/FAJwaivRC8mQ8ExSQ2g0EO+0HjzUtwo4jhmDveYmR0IZsK/5mpNVOiepqVnpJmFVi7BZ2Ydzk9WGhd1uN28IZ4uJUVbGQD21jOMlazbUJtoTm5nfXUHJHVfBCLdFJIw6IA63H5peLECpWy1XLb8vNJCrG+9+LYcdw+Hs5CAQAZWYTjuaL0utWbtgIAAAA=");
 
 export default Lips;

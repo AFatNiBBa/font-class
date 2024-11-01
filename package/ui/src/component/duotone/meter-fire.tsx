@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `meter-fire` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-fire?s=duotone meter-fire}
  * @preview ![meter-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/meter-fire.svg)
  */
-const MeterFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 256C0 397.4 114.6 512 256 512c33.6 0 65.7-6.5 95.1-18.3c-39-35.9-63.1-87.5-63.1-143.7c0-35.2 16.3-73.6 37.2-107.4c4.4-7.1 9.1-14.2 14.1-21.3C327.9 216.5 320 205.2 320 192l0-32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 7.4c9-9.4 18.5-18.6 28.5-27.5C430.2 124 457.3 124 475 140c5.6 5.1 11.1 10.2 16.6 15.5C452.5 64.1 361.7 0 256 0C114.6 0 0 114.6 0 256zm128-96c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32zm96 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32z" />
-        <path d="M518 194.3l-12.3 13.8-19-19.9c-2-2.1-4-4.4-6-6.7c-9-10.2-18.6-21.3-32.7-21.6c-7.3-.2-14.6 2.3-20.3 7.5c-23.4 21.1-50 48.9-70.9 80.2C336 278.6 320 314.7 320 352c0 88.6 70.4 159.8 160 159.8c88.7 0 160-71.2 160-159.8c0-30-11-60.9-26.2-88.1c-15.2-27.4-35.3-52.3-55-70.6c-5.6-5.2-12.8-7.8-19.9-7.8c-7.6 0-15.5 2.8-20.9 8.9zM480 464c-35.3 0-64-28.7-64-64c0-36.5 37-73 54.8-88.4c5.4-4.7 13.1-4.7 18.5 0C507 327 544 363.5 544 400c0 35.3-28.7 64-64 64z" />
-    </Icon>
-);
+const MeterFire = createIcon("meter-fire", true, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABsAAAAKwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDDgsIAAE2AiQDCgQgBYMtB1AbsAUjEaZTUCT7R0J1uwWzoszthHROCLvFYnuWtMeHFFp5fBIP/439um9mUGnqFRLeSaoheaPRadY3NLFEWy3hn62bN//7t8uZxLt3jvBDoINQiRVVEaXrQxXw9Wb/B4AD/p9rPr/n14Cfj+DQKhZpmT7s0gkMsGjWQTrcTG1vUzzKoCYegxHDhYnEjs/YcW0LJU3kBzWk1yQEHul/AOMfVQ8kDRlAtANgdWdj3Vulp/5Ut4g/whEQa2BQICOjV4AFWaBXMYiiCCoJUAkIAUQten4GtajDO3wEFJAkuZQm9BWdlJRoaaZUImVTJQrKCqY4qFSWbqRGDbsUtt23yZHHTsKJ117SpOWK6SA1PiN5xhRxQW3MbFF5SHHAZF512HhOH498EA8iEEUJ3W4LronYqD6mPqQ8o4bYWKx0N4YBDvWJiseR4sTDcKH3fnzSxI2IH25Q6Ke6lAYRaWWy7gJn4V5HmC0E6f8dXk4POMgFxHVbui2arWWMfttC/xNDoXBZzbq6u3aa0WHAnOYCcCl1I6Pbtrbb9C51isudhjcIUgFQ7QGNQWC3LpAqpuoLY1/5+cpSBFgdHax8hCxc3Ql43Iuadq2A8+soCILGHlUVCKpPMZwE7BzncHKqPA4Egq6B7qcU9sL/ejqBv98eX69jVPfT0gLqJRDk2eqswyMAjRlAPMWdYfil8EYgu5DxVc2eBAiNCJDUagSQ9WiHotEM1Og3t0WtRhuyKA1CtyM3JM0uIZt3D0W391BjwfdkrbPuyAErhJvwu5gaKJGAccTG0pq4kmlOF2OQq71uxG0zrsYaE1gI2UoUq5QlU55KQZeLyFQpEmihAb6IsGHJGuGKLBcf1USRLFchT5fXR3FD3vcYq7abm4BTArPamiMpgwkleV+tZrH7TRahX6vwlDc5AAA=");
 
 export default MeterFire;

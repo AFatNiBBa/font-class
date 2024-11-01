@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `h1` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/h1?s=sharp-light h1}
  * @preview ![h1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/h1.svg)
  */
-const H1: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 80l0-16L0 64 0 80 0 256 0 432l0 16 32 0 0-16 0-160 256 0 0 160 0 16 32 0 0-16 0-176 0-176 0-16-32 0 0 16 0 160L32 240 32 80zm352.5 73.6L464 103.9 464 416l-64 0-16 0 0 32 16 0 80 0 80 0 16 0 0-32-16 0-64 0 0-336 0-16-16 0-8 0-4.6 0-3.9 2.4L384 116.1l0 37.7 .5-.3z" />
-    </Icon>
-);
+const H1 = createIcon("h1", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABXgAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBXQsGAAE2AiQDCAQgBYMtBykb1gTIHoVxMz3SRXMUUd7+EQ/fz32e+5Kl/IWUOGVGV1dP4HYqVxVcVR0LB2Q7ldU/mWvfKyT+4lTNWJYN+Bz3sSgXHRMX+Oia5xXoeb0X7xQIWLFWoV6FsLuzJXNo2ietJRZyXNrxuUAeX2OCBtLzBHfLi8Zf/dwhyTMAUQJg6e7tG737Fb8ivtQjvliPgFgGKoEMGQYKsEAmMFCuQi4X/Ip6Hf8DKwKIRjxQAjlybMN+QA6SlOcTB9Ua2vJdtYZif4giRL4W4baJDrrV0xpxdPeO3SmKQtSQL4rsxxVFz9gRojasq+z6xymGXC7LslJ66aVSpdSJTqVBfmTtpqnBn2PJhvOSmCVbvkrZNtTmqUYJIBC8eDix2+GOBf+bawn8efv6ZFqSutAsgSCbUJ/gQFoCqAygTHHLMOONAsk6CQ/R6okAoUCApFEhQGaAUoBcYbxAg8FmXtCosF0m8hahp4MEklZXITPLbcj19AYaLPC+aNQzMrfSnUL/1eWs0vjKY9XUSVOqedW00QxPUfP+/GrZG3MrzY2FXqdcdskNJ51w1g0lX7OxvumiVRa70gdVpppkiso81fHo/vwuJ11z3VmXXaJD5qvuR2PcslePhdMkwLQHQVIRKZ2ZCgAA");
 
 export default H1;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-check?s=sharp-regular toilet-paper-check}
  * @preview ![toilet-paper-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/toilet-paper-check.svg)
  */
-const ToiletPaperCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M60 512L8 512l18.4-44.2c.5-1.3 1-2.5 1.5-3.8C60.2 379.7 64 280.5 64 192C64 86 107 0 160 0L492.2 0c0 0 0 .1 0 .1c1.3-.1 2.5-.1 3.8-.1c24.5 0 44.1 11.4 58 24.5c13.6 13 23.7 29.4 31.1 46.1C600 104.2 608 147.1 608 192s-8 87.8-22.9 121.3c-7.4 16.7-17.5 33.2-31.1 46.1c-13.9 13.2-33.5 24.5-58 24.5c-16.3 0-30.5-5-42.2-12.3c2.9-20.1 5-40.2 6.5-60.2C470.5 327 482.8 336 496 336c35.3 0 64-64.5 64-144s-28.7-144-64-144c-1.6 0-3.1 .1-4.6 .4C458.2 53.7 432 116 432 192c0 48.8-1.1 100.8-6.9 152.2l-.1 .5c-5.9 51.2-16.5 101.7-35.4 147.5L381.3 512 60 512zM160 48c-.1 0-.1 0-.3 0s-.4 .1-.9 .3c-.9 .4-2.7 1.3-5.2 3.4c-5.2 4.4-11.9 12.6-18.6 26C121.7 104.5 112 144.8 112 192c0 83-3 182.7-33.1 272l270.2 0C379.6 383.6 384 285.9 384 192c0-44.9 8-87.8 22.9-121.3C410.3 63 414.3 55.3 419 48L160 48zM520 192c0 26.5-10.7 48-24 48s-24-21.5-24-48s10.7-48 24-48s24 21.5 24 48zm-204.7-4.7l-72 72L232 270.6l-11.3-11.3-40-40L169.4 208 192 185.4l11.3 11.3L232 225.4l60.7-60.7L304 153.4 326.6 176l-11.3 11.3z" />
-    </Icon>
-);
+const ToiletPaperCheck = createIcon("toilet-paper-check", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABmQAAAKuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCeAsGAAE2AiQDCAQgBYMtBzkbgQXILgpjcFtziIIo2Mo08qJw9x2LePh+v/Tc9yFAoEqsEB2TIrKB8RtVkAiexyeyYDO11dV7KJeX/0JIYSS1pze2yqPkDZy6jJ1Zs8z5XhtSwP9Tp57nPBTAP49w0PawXECyMW9ZXYN7FShgQ106sdbr+VhYqyh2d5piIlq5pCWW5PiW47OFPP5jRkF6nF5RKR8a//TpIikyAIhWAGDLkYoiuJ+P+YiX6sSsfUBAbAEYhZAhwyAE1mMKDNIxCuRywXxU+//AURBAlEAnTiBHiYf4BMhBkuc6WaMdjsaFqU51hIzK6o2NwuJhqDs68ufwn9XiTKPdXGKw4WThhuMBTKwY91+PXvWdcp7wWQvb81oM3fUdMFpeMo0/D0I/D/ZGY8NkINQeA5ga7hx22K58cnAmNd2CJ1eP2Zucm+hEOTFqN4rae3j9iO0IHD5YU2kT3bGxwoujKxbGgbDH+Z3jmxabX70858ea8sjOACGul6SkMpW9eDG5HyCljJ1Rb1g7CGtjNd3SVp869L3iib2DSaNDzwKD2V3zXWdPTVFAzf7+HdO2XPgAAq3j3UN7IqdZlxaka1sznCxJSdAdrAIhk1fplIArMzNXrto02jtz+S6rb3H4+y5dtmX2TO9cdgkEgqWdAzdnWpL/1zYwAP5+xh5fW5XOpk3USiDIllSXaExtao0KEyDkp9DyhC8KJBU5uNZGDwQI9QiQlOoFyAywgECu3mIIFIbFQKBU7wCmyA0hdGrqIGl0E2TWaQa5TkegsN6DV+qMTElpFaO/iAmUI2QWXhkajhPxMtMYvSPTeBLeNhZosS0AVgKXjJQaB5uAmmFKRaGGBJVQ4oewCKHCYYnwcfm4uBqHkoqAjDRPkwTfd/1p5d4BYDMQ4SqbkkQkqzvXBWKOOuQ1SCEKDw==");
 
 export default ToiletPaperCheck;

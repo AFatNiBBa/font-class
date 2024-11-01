@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `candle-holder` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candle-holder?s=regular candle-holder}
  * @preview ![candle-holder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/candle-holder.svg)
  */
-const CandleHolder: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 112c0 17.7 14.3 32 32 32s32-14.3 32-32c0-3.2-3.6-14.8-17.4-33.6c-4.7-6.4-9.8-12.5-14.6-18.1c-4.9 5.5-9.9 11.7-14.6 18.1C131.6 97.2 128 108.8 128 112zm32 80c-44.2 0-80-35.8-80-80c0-39.6 49.1-90.1 66.2-106.6C149.9 1.9 154.8 0 160 0s10.1 1.9 13.8 5.4C190.9 21.9 240 72.4 240 112c0 44.2-35.8 80-80 80zm-32 80l-32 0 0 192 128 0 0-192-48 0 0 56c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-56zM48 464l0-192c0-26.5 21.5-48 48-48l128 0c26.5 0 48 21.5 48 48l0 192 36.1 0c-2.7-7.5-4.1-15.6-4.1-24c0-39.8 32.2-72 72-72s72 32.2 72 72c0 39.7-32.2 71.9-71.8 72c0 0-.1 0-.1 0s0 0-.1 0l-104 0-48 0L96 512l-48 0-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l24 0zm352-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const CandleHolder = createIcon("candle-holder", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABiAAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCNQsGAAE2AiQDCAQgBYMtBzQbOQXIhoeHubL3k8x2myzQFDBFhEMCVUB5RHHHwh1bVORm/q+pF8+PDvDbkR1KBSXeUQV4ruL5BIYDK4rEiUSBzXQCtttJ3V0xiM5gkCR/hvEyLCZ7yOKteF6N5I3kOzznPjR+19/DJGopgOgAwLI9OzapfolfIr5tvEd8awMCYhkoBVKkGCTAQqnAIJkSmUzwSzQa6j+wJIBowqclIEMv3INHKJ+DRC3Luvt2T+ld1Fqz3UUtP3B/PeKV4qm+r8Vr41/t83LPmfqu98dHnBvy1oTzfV8rnqq/Mu5s/7fHnpm5My9yUUREHuL1kacGxM4Qb/V9bUwRJ+uv9BdFvBor2piT49Dr1sgHwqt5PnjmW2OKi94cfaLfG6NODxx+ruPcn8O+u/Q7921pe5zH2wKl1u+ZePvll98+sWfolo5L2B2T7733z53NzTv/tOHk2H1JR00q+XKV+1Wmmqu+bVt97pYvqqpKv/9h6v2m/vB9WhlpfmvbjBm//EJKG60GuPz/bfX6tn5H+q4wSATitLfvP3buSPvCf5qLBPz28d//wl9Ro4oqOYdmCQjSiY2JDkYFUQkAQBK3Gh4VAolb1PC1tnhVgJAjQKJJLkBqoA4BMrkJAtQMMUuAJrkdUpH1FnocSiDR4gaQmu0ekOnxDqhZ6Mu4SU+kIsgJEPcCTF6do6umldMmTy3nl81c5KWKMeMLymlt7K26bRwsdanrXOtml7jYFW7O8Bttym5xjdU9bJUvKk0z2VSl+crt6nL+bpe40U2ucJ1r7SQLlOftsW7t9x4HZoJJp5uRSIik9YtN5+pLJl1+AQAAAAA=");
 
 export default CandleHolder;

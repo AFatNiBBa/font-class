@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ufo` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ufo?s=sharp-solid ufo}
  * @preview ![ufo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/ufo.svg)
  */
-const Ufo: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 112c59.2 0 109.6 37.9 128.3 90.7c5 14.2 7.7 29.4 7.7 45.3c0 0-40 40-136 40s-136-40-136-40c0-15.9 2.7-31.1 7.7-45.3c18.7-52.8 69-90.7 128.3-90.7zm0-48c-90.1 0-165.2 64.8-180.9 150.4C55.1 237.5 0 276.2 0 320c0 70.7 143.3 128 320 128s320-57.3 320-128c0-43.8-55.1-82.5-139.1-105.6C485.2 128.8 410.2 64 320 64zm0 280l32 32-32 32-32-32 32-32zM96 328l32-32 32 32-32 32L96 328zm416-32l32 32-32 32-32-32 32-32z" />
-    </Icon>
-);
+const Ufo = createIcon("ufo", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdQAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBdQsGAAE2AiQDCAQgBYMtByob7wTIhofn10F/7ptZwLM2G9SYhMomN7p9VCFx6tTzeEIBfA5BUMbamo4NNud5BSpa32AFGQtrBaoY923DkY0ghEZYiJhENKbjddpCHn9nB5QgnUovcbS+afygjgMkZTIAURkAg2dOHe/xt/FtxIv/bxAvjEVADAaFQIYM9QXoJxOoL1cglwu+jf//x//AggCiJHrUBHKUwmysBuQgKZHntRqVKVOmXIkK+YxyJcquvNE74k6DU471ujjtc5/Lsbfehb73esbHcREvpz3tdbv+ud53pn8qd3Dml773Gp3vc3fM5wmvZ6TWbVq3ijbRdkbbVm1bx9CWqjM2uVz58k+NX654aeDEx7Vp+XVb7eS3kTEi4tes9ravLWs/7jRMGeqUH/TbmLGyq2dGVRlZefbsRvT6M1czY8f8ZjbUKTNM7f9JlLxvKjF8odHvgEBwf8uHJQsr9furdLkEvr/7y094YtqTLqO0BIKs3f/tzEt7ALEBlFLs0MT5oEAyWQl0qeUdFyCURYCkpLICZOqpLECurLYClNBQdwFKKmuqTORlhOrmT5CUtxlketgJctVdAyX086RYUvXIQowJEOaFlzhCQsPXFZ07dCr6FMsmZqOGKst9i22z1Y481Bo2WmGjDbZZbpnVtgl0i/GV7dYb4SHDfVGhsw46KfRRHHfW4gxR3GKr1bbmfJW+ivtpKzv8ya3BSQi3iyxJfhqOtq/YCA==");
 
 export default Ufo;

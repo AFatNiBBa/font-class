@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clarinet` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clarinet?s=light clarinet}
  * @preview ![clarinet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/clarinet.svg)
  */
-const Clarinet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 112c0-8.8 7.2-16 16-16l32 0 96 0 96 0 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 32 44.6 0c7.9 0 15.6-2.3 22.2-6.7L602.7 116c7.4-4.9 16.8-5.4 24.6-1.2S640 127.1 640 136l0 240c0 8.9-4.9 17-12.7 21.2s-17.3 3.7-24.6-1.2l-55.9-37.3c-6.6-4.4-14.3-6.7-22.2-6.7l-411.2 0c-8.6 0-17.1-1.3-25.3-3.7L17.1 327C7 323.9 0 314.6 0 304l0-96c0-10.6 7-19.9 17.1-23l71-21.3c8.2-2.5 16.7-3.7 25.3-3.7L256 160l0-32-16 0c-8.8 0-16-7.2-16-16zm224 16l-64 0 0 32 64 0 0-32zm-96 0l-64 0 0 32 64 0 0-32zm256 22.9l-43.4 29c-11.8 7.9-25.7 12.1-39.9 12.1l-411.2 0c-5.5 0-10.9 .8-16.1 2.4L32 214 32 298l65.3 19.6c5.2 1.6 10.6 2.4 16.1 2.4l411.2 0c14.2 0 28.1 4.2 39.9 12.1l43.4 29 0-210.1zM272 232a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm72 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm120-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Clarinet = createIcon("clarinet", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjAAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCUAsGAAE2AiQDCAQgBYMtBy8bTwXIjsQ4JvKL2DQ1Hp63+3/XPneuZp4xX1AkVgC/y0AdVKVzlaJ5aANXjPf5v9zzm3Z0gJ+P4NDWbm5cOtZ4nkCAhT8am+A0ygJKjDua9+IghHYhDVfI4u9YrEo6kr7DC4Gj4geDHiXJKgCiAwA7zj3zZF9MxmTEd/9/RHznRATETlAKVDBkRIDNKkL/CpkSmUwwGf//7/8DSwKImuhdE8jQxBN4FZCBpJ5lG5rNwWazWVRbs3OKan7hof6ieK331Z48RBHP9J8ah3pf6xWv9rzad0oczFvi6b5z4uBQxLH+c+NQUUREHgf7zs6LXBQReZg9e/2m9a/vfaLnrBBnx2tFazwzZ0PEZW8MHp795tCxeWcnQmOdOzpi5rsd7/4047trvjNxattkOTnZlsM7lJZoOXiXjz/6uPVXrRx+l4Mtx7V+sLfHXy7jL7n7g9YXlDpMtk20b4+KStuVl+HQ/33v432Leo9r3L6921myQ7c3jutd9L7vTz3t9N7e0xm5r19oA/f2j38HBIJL//ry0vbNfzWKBKY//6t8MT2Y3kVDAkFl8f+LXZQeBMEMIJfiHjNXPiiQPKAucmqLgwKEHAGSmlyAimEdAmRyiwSoGrNGgJrcmSoiawo9Lm5B0uJ2ULHWfSDT4wNQtdmX2ZqeqACkAE7C72Dq3j6yZ1u5YunycmO52FaLMMbZ9U3lbvf8e+TYAgx1jVvd4i5Xu8r17urRdzi5cLeb7V2j9vii0gpLLVfaqDzde6ye08ve4U7Xz1vOb7JJeX98vnvWZy/AviRiXakmSURqPGXMXH/L1XcB");
 
 export default Clarinet;

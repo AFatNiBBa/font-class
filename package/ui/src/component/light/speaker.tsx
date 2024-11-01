@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `speaker` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/speaker?s=light speaker}
  * @preview ![speaker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/speaker.svg)
  */
-const Speaker: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 32C46.3 32 32 46.3 32 64l0 384c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-384c0-17.7-14.3-32-32-32L64 32zM0 64C0 28.7 28.7 0 64 0L320 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM272 336a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM80 336a112 112 0 1 1 224 0A112 112 0 1 1 80 336zm88 0a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm56-208a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-96 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const Speaker = createIcon("speaker", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABlwAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCVQsGAAE2AiQDCAQgBYMtBy4bUwXIjtEnY46BiLqECfWESjx8rWXv93SASGdVSIVtJLtE2AhHeAxGn7ryMWJr3dYp1PP/+6f3Jv4I+Qp4NrCm9ihv4DT1dP5vxr2eRwvkG4UyNi4NZFm45/MEAgzL19kJnR1YoHas53fzveLdELktSVInqWE7vv0fkKMfK/ikD5wvPMtfGr+MmCDJBQBENwCwsZ+eCC/VqEZ8lZfEoy0gIDYBMA1RoMA4BMu4AuN4poEsC6pRlvwPJCCAaAT9iQlktOAJXgEySJoyzzDKGluUHTSf5WXRDVT+nArRBilG1As0i/PaJeTiqGaRYmLWPBDPXFg8cDvRc3DZ9diRwUP3UwO3cjP8LvTGtBF2G3FvpUaNiGsuR/S804F+BU6Glx33qTnnQ8Mq0msuB/plx0ND9qgGcZGaU9ngBcPXqS2PM7cT87rrsfupxf5Udvo381j1Ze2bZAbcdI5AoQiB2LZKqgf0fAffe+TUCIgIj1TKVHd2VjNx5edkHdS/bk5aSNTrk5NiMA/Uqalq6CG/L2iKwV3Crf3+XSvkfSAQHPWuLB9Kl/+LaA5A7cf/f3ld+YInnFOgWQJBUSkrCuIEgEUIUDNFF9gbDwskl5oAn9rurQChFQGSRq0CFMbIIMhazULQYFIQBI1abeOKLIbQr7CBpN0xKCwZBFm/c9Bg2avZqD+4Lsk5FPdHmBzVw5FLxM/bl4STZaTyXsakaQTZVly7pOKGXajSrEmHShVqdXRom0SnU6MoC4n0IMKPN19EOHKcPspZ0WzTrnYuns+JQO4brrrsdjfoHEo6x5ckIgm/XgAA");
 
 export default Speaker;

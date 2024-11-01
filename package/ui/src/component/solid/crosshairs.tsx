@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crosshairs` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crosshairs?s=solid crosshairs}
  * @preview ![crosshairs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/crosshairs.svg)
  */
-const Crosshairs: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c17.7 0 32 14.3 32 32l0 10.4c93.7 13.9 167.7 88 181.6 181.6l10.4 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-10.4 0c-13.9 93.7-88 167.7-181.6 181.6l0 10.4c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-10.4C130.3 455.7 56.3 381.7 42.4 288L32 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l10.4 0C56.3 130.3 130.3 56.3 224 42.4L224 32c0-17.7 14.3-32 32-32zM107.4 288c12.5 58.3 58.4 104.1 116.6 116.6l0-20.6c0-17.7 14.3-32 32-32s32 14.3 32 32l0 20.6c58.3-12.5 104.1-58.4 116.6-116.6L384 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l20.6 0C392.1 165.7 346.3 119.9 288 107.4l0 20.6c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-20.6C165.7 119.9 119.9 165.7 107.4 224l20.6 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-20.6 0zM256 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Crosshairs = createIcon("crosshairs", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABmQAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCfwsGAAE2AiQDCAQgBYMtBzEbgAXIjpQuZyQRVLr/7Fnp/bqTjkF1ETFnDBkg2yEAZojpL6cYOfXrkC98f1OnnodzoQC+5UISi9GeGpBlsaR7nG+wBrTdPoWXFaymFbAum8PkohbKCOlnyOPD7LQa6UH6BteCD40/dXaapGkGIFoBYMqqZQt81hiNEV/X3ya+Ng8BMQVUAhkydBNgvEygm1yFXC5ojHpd/AdWBBANokdLIEcNz+IVQA6SLM+nTW1b1prnK8tase5S+4g7xK9LflxRxqX2dxxvd7so4pfFPywX7dqLHe5GxG9Lf1pZBNp0ouO9sozfl/28KlBy9ZM+Ec+P4MzhHPFuvxd7blx62veFkRctvtX7uW4Paas+wGBh/129Xmj1wt98s/kb9U9bnOd8i8KsUpQzC31KUCkzwpWztJpZ8utkylmwWaW3ez76n3/fb7+W0977//6oT/n1E+/2pK8wVkixQNx27L2nf9ty/H9NygT++ODflL+i+mdJegFNJBBk/ev9rU8gEQCAFIf1ShBI7ssE79rMXQFCgQBJg0KATFetBMgV+glQ08MIARoUlslE3lRoZ0MLkmb2gcxIR0CunTdBzXifBw3aRQanHJRxv4nJM/vQjFXVkIGDq7HVYlnNgx5jx8dVu+3eh2VbH3zSZnvsdtAmG21zsIfutyA+ZJeZa8gMX1QZYqDBKmNVp2uPD6+0yX4HbLPHbn+Scar7/d4Or/fug70kIhwqlSQiFc6McanKAQ==");
 
 export default Crosshairs;

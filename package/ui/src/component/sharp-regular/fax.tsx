@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fax` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fax?s=sharp-regular fax}
  * @preview ![fax](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/fax.svg)
  */
-const Fax: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M152 0L128 0l0 24 0 104-80 0L0 128l0 48L0 464l0 48 48 0 48 0 32 0 48 0 312 0 24 0 0-24 0-272 0-24-24 0-312 0 0-16 0-48 0-80 214.1 0L432 89.9l0 70.1 48 0 0-80 0-9.9-7-7L417 7l-7-7L400 0 152 0zm24 240l288 0 0 224-288 0 0-224zM128 464l-32 0-48 0 0-288 80 0 0 40 0 24 0 224zM304 272l-64 0 0 64 64 0 0-64zm-64 96l0 64 64 0 0-64-64 0zm160-96l-64 0 0 64 64 0 0-64zm-64 96l0 64 64 0 0-64-64 0z" />
-    </Icon>
-);
+const Fax = createIcon("fax", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcgAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCKQsGAAE2AiQDCAQgBYMtByobIwXIjtMdM9KN/whJOnl4WvvXc2f3074wTKIACH0cqVjAIjhgVVtWqKpfQTLP/+X4xqKjA/wgJ3poY+GaOmYFNufzBAKNennWFsgCyzQBKyjWzn5A4nXrh758kmH8YbM4QxkfBQ2khynutg+Nv3R3h6ShABDtADBz/eqlPv8lfon4pv4O8Y3FCIiZIAsUKNBLgCkKgV5KGaVS8EvU6/E/MBNANMLrEijRgrO4DihB0lSWo1tatyCrNbQu111Uba5qlRBVJVKIWuuIIiKqVkGsWkwNUQu/S6zKndWa1q1aC0tbc6YVDNGtHyBUrOF3F1TqcP+n7Z7+0+/bfd3/rBsudsCKESNkI4z4sZt2uuk2oZ0RVvjJQ/PkJZV9ztun+vm/nPMvsl+G/5zzimyFAbr55dVnM0gTnOnbhXjUpR8HAsGfjzts2d52yv/NtQR++/C//+rPSP3zJD1FswSCYkh9iC0JJAIAkOKc/gkCyVFN8K6t3BMgVAiQNKoEKPTUToBSZbAADfoYK0CjymqFKFuETrZ2kLRyEhTGuQpKnbwFGkzxRdGoUxTOJ7qO+PZLmzcjc/flkcNG5El52SWSP/Fle3Le1gecS1MD6aR9jjvmjL32OOjMxJyytD7rqHkWPdcXZSMNM0I2ST4erI+vs9cppx103DHeZbJ8Px7gnL14IFkJOEdJkuQP4mDfzgsA");
 
 export default Fax;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-gear` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-gear?s=sharp-thin head-side-gear}
  * @preview ![head-side-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/head-side-gear.svg)
  */
-const HeadSideGear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 224C16 109.1 109.1 16 224 16l24 0c95.7 0 172.5 77.9 176 172.7l.1 3.4 2.6 2.3L496 256l0 64-56 0-8 0 0 8 0 104-120 0-8 0 0 8 0 64 0 8 16 0 0-8 0-56 120 0 8 0 0-8 0-104 56 0 8 0 0-8 0-75.6 0-3.6-2.7-2.4-69.5-61.8C434.3 83.3 351.6 0 248 0L224 0C100.3 0 0 100.3 0 224c0 59.1 23.7 114.5 64 156.7L64 504l0 8 16 0 0-8 0-126.5 0-3.3-2.3-2.3C38.7 332.1 16 279.7 16 224zM192 96l0 8 0 29.6c-11 4.4-20.9 10.2-30.3 17.5l-25.6-14.8-6.9-4-4 6.9-24 41.6-4 6.9 6.9 4 25.6 14.8c-.9 5.6-1.6 11.5-1.6 17.5s.7 11.9 1.6 17.5l-25.6 14.8-6.9 4 4 6.9 24 41.6 4 6.9 6.9-4 25.6-14.8c9.3 7.3 19.2 13.1 30.3 17.5l0 29.6 0 8 8 0 48 0 8 0 0-8 0-29.6c11-4.4 20.9-10.2 30.3-17.5l25.6 14.8 6.9 4 4-6.9 24-41.6 4-6.9-6.9-4-25.6-14.8c.9-5.6 1.6-11.5 1.6-17.5s-.7-11.9-1.6-17.5l25.6-14.8 6.9-4-4-6.9-24-41.6-4-6.9-6.9 4-25.6 14.8c-9.3-7.3-19.2-13.1-30.3-17.5l0-29.6 0-8-8 0-48 0-8 0zm16 16l32 0 0 27.1 0 5.7 5.3 1.9c13.1 4.6 24.3 11.1 34.9 20.2l4.3 3.7 4.9-2.8L313 154.1l16 27.7-23.5 13.6-4.9 2.8 1 5.6c1.3 7.1 2.4 13.7 2.4 20.2s-1 13.1-2.4 20.2l-1 5.6 4.9 2.8L329 266.1l-16 27.7-23.5-13.6-4.9-2.8-4.3 3.7c-10.6 9.1-21.8 15.6-34.9 20.2l-5.3 1.9 0 5.7 0 27.1-32 0 0-27.1 0-5.7-5.3-1.9c-13.2-4.6-24.3-11.1-34.9-20.2l-4.3-3.7-4.9 2.8L135 293.9l-16-27.7 23.5-13.6 4.9-2.8-1-5.6c-1.3-7.1-2.4-13.7-2.4-20.2s1-13.1 2.4-20.2l1-5.6-4.9-2.8L119 181.9l16-27.7 23.5 13.6 4.9 2.8 4.3-3.7c10.6-9.1 21.8-15.6 34.9-20.2l5.3-1.9 0-5.7 0-27.1zm16 88a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 64a40 40 0 1 0 0-80 40 40 0 1 0 0 80z" />
-    </Icon>
-);
+const HeadSideGear = createIcon("head-side-gear", false, "data:font/woff2;base64,d09GMgABAAAAAANkAAoAAAAAB4QAAAMaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUCFNgsGAAE2AiQDCAQgBYMtBzUbuwbIjsN0aycHwylhMZw3kaCH5N7mLX4Aba4CxJ7qKLesUp3geThm768qQaabVeBafAJRusYTPG/wzf8x43XjqASne0OJ/OugjSri+XDPJ1QefSeQfkc0Ib5h2+xYZDsWOo4H4HSOJR7MJsV9YMW2Wd/IYTkYrOVgKxk+ZpNe/SaXP+uzdO//CdA92gECUBMAAgIsYIF8BEB9LALycQTA4RB81v//LP8DAwgAFOH4QQYAB0SB6oDaAgAOAIN3rs+Ald4c5xNczzh1bK9X3STPesXJiy5PeqAMDYViYyn5UZwkCcSdJWVqpO+uT3vGyvXWtysfjn31MJIpxMLiXgi01pUh3C6Vbpdb6TXAOiOFQLms9iqrbRoR0rvBmxaA6u3yKFMHZIkni7SVAHtT2nlEpNjqcYY4RIu/um1++QxuWafHsfkUF71JRRGKfZbt5vFjC8hvcCdLvLFsQcVG77MfT6QeO3IOqVvgnGVX3jlwylx8B/8xndhre72L74+8T9In9doLe3vJR2vZsK0txTRvQGNq63SMZna0jsZEk0w0tQntaOFT7bGUonl9fIfm/Zb4+FxQ/uqTRPVt0GSe7kssxJHCBfU4tChaF11IydvtLKjJHGoyjG349Pos5le38+kLiSa6djQTeTte4extuP8S06JwXJNHhCbUeDejKgv4zXia4skxGHI8AONryISNzfhRowkR8ggY06rRlDWfqpSqzGcvoCop1nEXd0aXO7Px9GPNmqOD+/cDgADBqsN+0ySpVhIdZwD4evbXt/5F+X/ZYPYC0RgABLb8/xL9DQAGxLEHo5mUUgAIiJWq4CmfiWc9AoCIBQSAIUIs4ljySOY4YinH8RRSQ2oIuhlR5GL86QyoOIZ4pnAsNVnAcaRzjOOpz61QhHRR5iF5DpD/wQYaJKy+LlalYuVQN0gbgCJbSOfFesHYXHpmP1Cm3MtIJjGR6YxgOGOYTjCm0iE6gwm0VAm2+NtAFSpSmUBdgnN7FvSsXVOZ1svEtoD7MvUI4f2lmakeX6a0GQ6RVSkxGJBJzGia8lumKX+5AA==");
 
 export default HeadSideGear;

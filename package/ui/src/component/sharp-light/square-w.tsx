@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-w` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-w?s=sharp-light square-w}
  * @preview ![square-w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-w.svg)
  */
-const SquareW: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 64l0 384 384 0 0-384L32 64zM0 32l32 0 384 0 32 0 0 32 0 384 0 32-32 0L32 480 0 480l0-32L0 64 0 32zM72.6 144l33.6 0 54 171.2 48.7-152 6.1-19.1 18.2 0 6.1 19.1 48.7 152 54-171.2 33.6 0L303.3 372.8 299.7 384l-23.4 0-3.6-11.1L224 220.5 175.2 372.9 171.7 384l-23.4 0-3.5-11.2L72.6 144z" />
-    </Icon>
-);
+const SquareW = createIcon("square-w", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABXwAAAHdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBUAsGAAE2AiQDCAQgBYMtBy8bzwTIhofn18w/980sJVvkKTMrIF9HoNe2rOKKRqArf9D5n8s9v+dHB/j9xA9lLVoTZIGt1VjPEwjTMT3wPA4s0wQsc1frYklpPwkJaXn85vH0hDzuxRA1pDvpI26kD43vOrlOkmcAoiUAZq5fvVTlU3yK+Fh9Rny0GAExCxQCGTJ0FWCKTKCrXIFcLvgU1ar/DywIIGrJ2yaQowYLsQ6QgyTL84ZW/cs1zfJ15ZrS5pSlZpFF46ByqZlIIUqNEVnE2nKpvDbWR5coR6coJPatibZRivaxjg73amrZ9LPnx30f9bh0GRKHrxZFpXBZoTyGs+B4Tzk2tsmIW1ZpbVWk2iO9LPhmkI4GMRm4+pL534BA0Gf8hO/bW0z5v76cwJfXv//Kv6Lqp6ikJtRLIMiGVIfYEhWIigAApDinV1QQSGbKSNjopjYNJQBJrRJkumgJuZLBUKO7sfTh5dUykTcIbW0lSBqdhMw4FyDX1hOoMcWbqFbbyAyKNQf2O5c0r0fm7ipGDhtRTCqWlcLZCB03JxfH6oBzPDGQHtrnuGPO2GuPg8502ClL07OOmrdD5/qiwkjDjFCYpFC3j9I6RKecdnAu6LeZrLgfDnBuP38gGYkQjpJJEpHq36Q29DwA");
 
 export default SquareW;

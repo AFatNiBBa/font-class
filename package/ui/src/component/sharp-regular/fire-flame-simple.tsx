@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fire-flame-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-flame-simple?s=sharp-regular fire-flame-simple}
  * @preview ![fire-flame-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/fire-flame-simple.svg)
  */
-const FireFlameSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M180.9 9.7L192 0l11.1 9.7c76.7 67.1 135.2 152.5 170 248.3c7.2 19.9 10.9 41.1 10.9 62.2C384 425.4 297.2 512 192 512S0 425.4 0 320.2C0 299 3.7 277.8 10.9 258c34.8-95.8 93.3-181.2 170-248.3zM56 274.4c-5.3 14.5-8 30.2-8 45.8C48 398.8 113.3 464 192 464s144-65.2 144-143.8c0-15.6-2.7-31.2-8-45.8C299.1 195 252.6 123.3 192 64.7C131.4 123.3 84.9 195 56 274.4zm225.7 15.6c4.1 9.3 6.2 19.4 6.2 29.5c0 53-43 96.5-96 96.5s-96-43.5-96-96.5c0-10.1 2.1-20.3 6.2-29.5l.9-2.1c16.4-36.8 40.5-69.6 70.8-96.1L192 176l18 15.7c30.3 26.5 54.5 59.3 70.8 96.1l.9 2.1z" />
-    </Icon>
-);
+const FireFlameSimple = createIcon("fire-flame-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbAAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBUQsGAAE2AiQDCAQgBYMtBzgb2QTIhoeHdU9/7sws4FnAjkZzIhL0ocbK9POb/8s9v+e3AT8fwaGMbVPPN8jR2tXzBALMetnYQtFYYGmClm4TL49IduQRIUIS0fHp8bWDLHbGcUVILiSfcUw+NP5SwyESRVIAUR4A/adOHO3N7/F7xKfCQ+KTkQiI/iAXSJGitgC9pAK1ZXJkMsHvUSjof2BOAFEUnjoBGYpgKKYDMpBIs6xqheqlipTJppQqUnJmtcrVqsRPky/4cdy3k36e8P2U/bV+mTrtvBu9Xw5+1/d1w/01f57y46TJZ1xudrPToxa36+6vVi3u920ajeNl+yoNbpe//U/9z0s+e/DwFubatLjTiXt5jFsyedxAYvISLb/nVtq0eFexzdVrbzv69u3RbbWrbWm5deY0YfSSf5SbXb7Yndv79t2+U6z87HD0l3rq+eVoAIGg3K/Pt80t1+v/4qUS8Oez//7DZxfexL7kNopLQJC2KrQyK/YBUQP4SUls0SD2IZDoK4VrLe2sAKEkAiSKKilAqpbyAmRKailAEXV1FqCokiZKRVZCqGz2AonS1oNUF7tBprL7oIhe3nlFVY60oIRyEP5zqUMsNHhW3r5Nu7xHvo1NsUa4NtkzP9abbeFac1pqibXW2GSxRZbbZMgNRoebrTYkggf7olx7bbST6yG/zvaLp1hsg42WW2tNn6an/L3dzJa4uzlZCdB2EEkkRFIhNZ3WS1bNX61CWgI=");
 
 export default FireFlameSimple;

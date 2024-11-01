@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-shush` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-shush?s=thin face-shush}
  * @preview ![face-shush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-shush.svg)
  */
-const FaceShush: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16C123.5 16 16 123.5 16 256c0 87.2 46.5 163.6 116.1 205.6c3.8 2.3 5 7.2 2.7 11s-7.2 5-11 2.7C49.7 430.5 0 349 0 256C0 114.6 114.6 0 256 0S512 114.6 512 256c0 78.4-35.3 148.7-90.8 195.6c-3.4 2.9-8.4 2.4-11.3-.9s-2.4-8.4 .9-11.3C462.9 395.3 496 329.5 496 256C496 123.5 388.5 16 256 16zM160.4 144a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm160 0a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm-155 74c12.7 11.3 32.2 23.3 58.7 29l0-7c0-17.7 14.3-32 32-32s32 14.3 32 32l0 7c26.5-5.6 46-17.7 58.7-29c3.3-2.9 8.4-2.7 11.3 .6s2.7 8.4-.6 11.3c-15 13.4-38.2 27.4-69.3 33.3l0 61.3c23.5 9.5 40 32.5 40 59.3l0 8c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-8-32 0 0 15.7 64.3 46.8c2.1-1 4-2.4 5.5-4.2l25.6-30.7c11.3-13.6 31.5-15.4 45.1-4.1s15.4 31.5 4.1 45.1L351 483.2c-15.2 18.2-37.7 28.8-61.5 28.8l-1.5 0-56 0c-35.3 0-64-28.7-64-64l0-32 0-32c0-32.6 24.4-59.6 56-63.5l0-57.2c-31.2-5.9-54.3-19.9-69.3-33.3c-3.3-2.9-3.6-8-.6-11.3s8-3.6 11.3-.6zm90.7 6c-8.8 0-16 7.2-16 16l0 80 32 0 0-80c0-8.8-7.2-16-16-16zM232 368l32 0c8.8 0 16 7.2 16 16l0 8c0 8.8 7.2 16 16 16s16-7.2 16-16l0-8c0-26.5-21.5-48-48-48l-32 0c-26.5 0-48 21.5-48 48l0 32 0 32c0 26.5 21.5 48 48 48l56 0 1.5 0c19 0 37-8.4 49.2-23l25.6-30.7c5.7-6.8 4.7-16.9-2-22.5s-16.9-4.7-22.5 2l-25.6 30.7c-5.3 6.4-12.9 10.4-21.2 11.3l-76.9-56 0-23.9c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const FaceShush = createIcon("face-shush", false, "data:font/woff2;base64,d09GMgABAAAAAANsAAoAAAAABzgAAAMiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHiEDQsGAAE2AiQDCAQgBYMtBzEbDgbIjsN0WyczmTLkyyGXFUH8fm12/zvMkkkmUcU6mUiKECGRr6ESyXQITTyRP/Xgef4969zWSSeravxGzqxEf8F/nrjm+Z8/FUiRP0q0pT5IJAVFLep8AgMsmqX42nYPMtMJ2AbnjTjAUBjSL1DiGO3ZkU3LdbDvPjT+CDUekrUCQAwAwNpmvRqcfi2vRa7/PwDxRDUIEOuAaQIVVDBOgEVWAuNsFBQ2gg/532L/gQoBiDaCHiZQoAO+wT9AAZKj2Ap0uhvo+bvtIbaGul1rdr+yyGVTZHf9B9l7aizwzvffLHu24aNy52rdavSgxo0yZxqMNncXn+9fGDiVtUse5t1b9WrD+osCC3zzvQv9uj+g/pYCImMCi/RpvgUQD2mLMMm7OT9yakPseBfQPCGiCbIhW5S0mJlnuJosPKppG1O3hkmQXha+LEnkYOrCGbnBBhTpFnpTor6u6Qt8SEybfoss9S9M1GS9d34QIU3fggRd35SWJov8C73JMt/bUEQWBWK35tz6OeZ6x+v831WWVtiqUSurzO/70vUSK9Qb43JRUaXh0DljKlHJmDmhQSotjO0zr175AhVa9+xZmLJ13apVWVptR91+bRivb0etLrYsrRI7xImxO9lAtNaGzG5YW77Bh5L473f6XISMqLdPx/fgcaHk9Jc5tJIpu09vWuzxDFnJsFVL4YNcuTRFcX1+61uUDw3KF6hfrqn9tVEbpTbjIzBLKfXacFWs3W19fm4qzJcbVkX5axW2nC4wk2lbDi1ZyeDH6oUIMj4AAgJ7ty/9bJWjeO3SLYCvo19/YX+DrdOJ5Qp0sACBaq6VrnkCEgEAkDGQ2AQC0jOu3bv2WIgAQYMAkoNGgEq4nAQoNGkEaIhSgABtNPVYSXEjvFrUmIVHH8yqoBGYjdc+zK64S7aDN6yvO/+y8n+bKRXbQIVVKjvTVEXVZK4U3mBWLxZTq7XkgXwgBe6lo1566q+D9rro34L6quEN0EPFObCCL1KyZTIpRand1X2lIbb76qfLuLR/mWLU+VaygfPjU6BpEVDOyyQLIrWPKZbRr/OAfp0B");
 
 export default FaceShush;

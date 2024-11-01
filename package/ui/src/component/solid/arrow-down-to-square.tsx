@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-to-square` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-to-square?s=solid arrow-down-to-square}
  * @preview ![arrow-down-to-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-down-to-square.svg)
  */
-const ArrowDownToSquare: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M374.6 246.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 242.7 288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 210.7-41.4-41.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l96 96c12.5 12.5 32.8 12.5 45.3 0l96-96zM80 32C35.8 32 0 67.8 0 112L0 432c0 44.2 35.8 80 80 80l352 0c44.2 0 80-35.8 80-80l0-320c0-44.2-35.8-80-80-80l-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0c8.8 0 16 7.2 16 16l0 320c0 8.8-7.2 16-16 16L80 448c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
-    </Icon>
-);
+const ArrowDownToSquare = createIcon("arrow-down-to-square", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfwAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCFwsGAAE2AiQDCAQgBYMtBzsbIgXIjpQuZyRDaXn4/7XQ+/5MAHhCRAoYFSBrksSOHek9sUlbVb0Vgj916nnOQwF8C1lQ9rRcKKEFOGbHPq9AxTK4tAZorWA1rYB1d7Znz5qtdghJCDk+Oz516Owhj9fZERVIN9M3nA8fGn80cYSkSgYgagNg9JwZ030oRSnia/kp8dVUBMRoUAhkyNBcgGEygeZyBXK5oBTlMv7/FQQQFWlCArklt2IP1B0kKc+7jKhWoUY+m9qrrrgeEQcbXqt6qv6whLpCjIiXHGgwK65WO91ozvInnSLuN09xt/OD/jXieddHrbK41+XhgKqxgiNfjbsapLhSv3pca5jF9UbV4kS6fu/Qqm0e1n74j2+rv9n96WQNapy8UaPGjZO+q3niRE3zvjupxcE5uWRJxqWzw6/aq5gdo8TsVbWXEha1YitZKNUcpWZpaSx0rweBYH3V8Q+W1Br2f+VqCfx+9V/wKyp/SNJDVJZAkHUrd7MwgUQAAFLs1iZBIFkr0Xet7poAoSoCJBVVFSDTTG0BclV1FaCClvoLUFFVM2QiryLUt6iApLptIDPAXpCr7zGoYJiPQUX1I/M52mPoL1/ChKHxu4rePXoVQ4phLjFuRNLm0GLZ6LTbRGfotdoWm+20ykrr7AzZbnq8yyYTZvB4X1TorYdeCkMUx9Vt+2yrbLfDOlts5m2GKu67neyez+8MdqKYfQwkiUj1l23fvmVP95fod9+5pfvzBQAAAA==");
 
 export default ArrowDownToSquare;

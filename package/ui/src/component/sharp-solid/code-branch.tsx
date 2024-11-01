@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-branch` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-branch?s=sharp-solid code-branch}
  * @preview ![code-branch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/code-branch.svg)
  */
-const CodeBranch: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M56 56l0 48 48 0 0-48L56 56zM0 0L56 0l48 0 56 0 0 56 0 48 0 56-48 0 0 81.1c18.8-10.9 40.7-17.1 64-17.1l96 0c35.3 0 64-28.7 64-64l-48 0 0-56 0-48 0-56 56 0 48 0 56 0 0 56 0 48 0 56-48 0c0 70.7-57.3 128-128 128l-96 0c-35.3 0-64 28.7-64 64l48 0 0 56 0 48 0 56-56 0-48 0L0 512l0-56 0-48 0-56 48 0 0-192L0 160l0-56L0 56 0 0zM392 56l-48 0 0 48 48 0 0-48zM104 408l-48 0 0 48 48 0 0-48z" />
-    </Icon>
-);
+const CodeBranch = createIcon("code-branch", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABcAAAAH0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCGAsGAAE2AiQDCAQgBYMtBzIbGgXIjtRG+UVWEg8fc71/bpLd6SZlSJlZ1ZGsAwBXVV5XNOJN7Z/Kr7dq36dOPc95KIBvFNAQ7WkBWSChOc8jENDZ4fWKtFawmlbAam6LBTUoclVljjlEP7T9h/YPyOJuelmF5HbyB9frh8Z/urhMopYCiNYAmL1x7XL1pmiK+N1A/LYUATEblAIpUnQXYJpUoLtMiUwmaIpGI/4HlgQQVXjBBGSo4hQuADKQyLKstrxWKyotsg1FJd8qFBGRrynyQgiRh3hbFPFy6NtueUAp9NNH0z7Py+PZoFedi5BSbjsR0d3deZGb5H1lvc+b1m/+9f5z4I+J10aBE0IXJ016NMko6XC1et9dHrVpk48i7UmHdEyVcXNXWXVkX5t40+61sz0PBIIX7z4s29lq2v/NigT8/fhf/Blp1KOevEEzCQjSYY1htkUdoi4AAElc0CfqCCQOyeBdm7shQMgRIFGVC5DqprUAmdxQASp6Gi9AVW6tVGQ1ob3tAySaOw1SE1wCmfbeg4ppvrtV7SN1OtJlyF++uAUcmr9Ujh4xqpxSLiON8iM8T6eW29qgC6kymO464KQTztlvn8POMeSM5cF5xy2w4Pm+qDTaCKOUpiiP0yW3gblnnHVYl53Pmap83hnkgt0+mMwEUMcIJRIiKV5Ecfg3BgAA");
 
 export default CodeBranch;

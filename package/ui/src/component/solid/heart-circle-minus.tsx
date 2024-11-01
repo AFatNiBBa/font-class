@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-minus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-minus?s=solid heart-circle-minus}
  * @preview ![heart-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/heart-circle-minus.svg)
  */
-const HeartCircleMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9l2.6-2.4C267.2 438.6 256 404.6 256 368c0-97.2 78.8-176 176-176c28.3 0 55 6.7 78.7 18.5c.9-6.5 1.3-13 1.3-19.6l0-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1l0 5.8c0 41.5 17.2 81.2 47.6 109.5zM576 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-64 0c0 8.8-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l128 0c8.8 0 16 7.2 16 16z" />
-    </Icon>
-);
+const HeartCircleMinus = createIcon("heart-circle-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABeQAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBeAsGAAE2AiQDCAQgBYMtBzkbAQXIhofn9aI/9yUzCygrqYLVQWz5YXZUy4rVTJ16nvNQAJ9DELQ9NCDLYnN0n1eggLVebWyql7YVaxXFvm040iGFpyEhQhLReI5btIM8vsuOKpFupU9xoX1o/KaZoyTVMgBRFwBj582a6c2f4+eITyrPEZ+YjoAYCwqBDBlaCjBCJtBSrkAuF/wclQr+BxYEEGVykwnkKGEpNgBykGR53qtFrRqlWvncGqXq8+bMnXOtxpkmTeLxdl/N+mzemaE3IuL2qNcnPT/gbpeG0Tge7qRXfnfEq4X4YuSWQ70iHh/2cvXTQ17s8aiDPR8b+lKNM8Nf6f1EVL/asHpcb3yjSY241qjdw3Uf/qPtp2s/1fvKMw/yvJfr1n25no+rxLS6Zf3o3q9a9bJSqTy0Q7X/T77iFSf/r9ZhaNmtxJjf6ozvXFA0qN+pU/0GRdHZpNA/pvbPB/1cu18OBIJnf9/1xbI6I/6uWiOBX1/+6z86X+XNNCY9jKoSCLIelR4WpzEA6ACcFHu1C74okMyVkXet6boAoToCJGXVBci0UFeAXHXdBShpbaAAZdXNkom8mtDQkgGSmnaAzCD7QK6hZ0DJCB/YZQ0jSzIyRcgrXtwkC02cVfTt1acYVkxTSuUNzpPDi2Wty15qdYWl1tpmq93WWG2D3QbZaaa3xxaTIniiHyr01UsfhWGK7WK/eK41dtplg2221mmGK85bXeyN+3cFMxHMfgJJIlL9PJd6PseRev5Oz+8CAA==");
 
 export default HeartCircleMinus;

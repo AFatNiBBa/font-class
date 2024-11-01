@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-down-to-line` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-down-to-line?s=solid arrows-down-to-line}
  * @preview ![arrows-down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrows-down-to-line.svg)
  */
-const ArrowsDownToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 416L32 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l512 0c17.7 0 32-14.3 32-32s-14.3-32-32-32zm22.6-137.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L480 274.7 480 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 210.7-41.4-41.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l96 96c12.5 12.5 32.8 12.5 45.3 0l96-96zm-320-45.3c-12.5-12.5-32.8-12.5-45.3 0L160 274.7 160 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 210.7L54.6 233.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l96 96c12.5 12.5 32.8 12.5 45.3 0l96-96c12.5-12.5 12.5-32.8 0-45.3z" />
-    </Icon>
-);
+const ArrowsDownToLine = createIcon("arrows-down-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABfwAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCIQsGAAE2AiQDCAQgBYMtBzobKwXIjsQ4JvKLKOwiHv5/7X/73Jn33YFZJHFP4tbENNRfaSSaN6JYZRHJr0Nq3/FNXPP8z58esOwJHqWC0iKtwP/XYRMYcBRV0AR2s+FsojjDtr0JYhrijVA4Qx5fs6tKpFfpMx5EHxp/dbtKUp0BiCYAzF23aqW3v+JXxKeyxCfLERBzQSGQIUOfADNkAn1yBXK54FeUy+o/sCCAqJC8UAI5SjiFc4AcJFmedwwbXluqz9fWlmqONTQ23G576mL7s9rGuNP5Ii51PK9Z9yIidm+3zZCYp8SsYI8qa0KTVFm3U40XcUKOJ48Z3N/U/4/Pez8bNAgNN2825Jl2V8fNW/XU33pZX//yli9r4Re3zElq3tq2rSMrZfZIOS6HZKPngUCwaOCBy9saZ/yvqk3gz5tmjyv/SnNSP6okEGQjyiNsTnNA4QOIU5w1eOeLAskhmeRd6zwXINQgQFKhRoBMryYBcjWGC1Ay0EQBKtRYJRN5tdBmSw8ndU7AmUnOwbk2r+GSGd5FFdoiAx4LG/a/L2nRGFg4rRg7akwxrdjMtByWaN87vTitDjmra4bSrfY65qjT9tjtgNMj6KSV6RlHLNoDF/qhwlijjFGYprhdfL5+rT1OOuWAY46Gk0xXvG8PcXa/+VBqJAnhODOSRKTWHSe/C3kkHIORp4+NhCc=");
 
 export default ArrowsDownToLine;

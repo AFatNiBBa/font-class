@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hamsa` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hamsa?s=solid hamsa}
  * @preview ![hamsa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hamsa.svg)
  */
-const Hamsa: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M34.6 288L80 288c8.8 0 16-7.2 16-16L96 72c0-22.1 17.9-40 40-40s40 17.9 40 40l0 132c0 11 9 20 20 20s20-9 20-20l0-164c0-22.1 17.9-40 40-40s40 17.9 40 40l0 164c0 11 9 20 20 20s20-9 20-20l0-132c0-22.1 17.9-40 40-40s40 17.9 40 40l0 200c0 8.8 7.2 16 16 16l45.4 0c19.1 0 34.6 15.5 34.6 34.6c0 8.6-3.2 16.9-9 23.3L416.6 441c-41.1 45.2-99.4 71-160.6 71s-119.4-25.8-160.6-71L9 345.9c-5.8-6.4-9-14.7-9-23.3C0 303.5 15.5 288 34.6 288zM256 288c-38.4 0-76.8 35.8-90.6 50.2c-3.6 3.7-5.4 8.7-5.4 13.8s1.8 10.1 5.4 13.8C179.2 380.2 217.6 416 256 416s76.8-35.8 90.6-50.2c3.6-3.7 5.4-8.7 5.4-13.8s-1.8-10.1-5.4-13.8C332.8 323.8 294.4 288 256 288zm0 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Hamsa = createIcon("hamsa", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABiAAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCPwsGAAE2AiQDCAQgBYMtBywbOwXIhof/t+v7fW5VvwFUYzMC+BXJWLlTOeuJa55/4dN725M9WuYyMJKGmecTGOAsaU00G9hMX8BmbRPLK6hyxaByiP7cGH3hQ9sD8ng1O6lEuiN9hivlS+MnTZwkqZIBiNoAGL1w7nRvfR/fR3xafp741FQExGhQCGTI0FyAYTKB5nIFcrng+yiX5T+wIICogIA4gRwlnMR5QA6SLM9nNKtXrVQjX1CtVHVhtarVbmsUcazRbdUuNLiFuKP9g824eEuDatEuHa0/Lx4b9FLV80Ne6bEgblXj1e7rdA1/qP5NR93OD99yuz4qbXGs4a1dHukg+BFevZnMhof72zxS+5FfWn+24TNt7uyOU9/X/EidVx6tU+fRV+qcVAfOfQzch5y89iM1v++u1h131Kpxbv4Kfxy73qPH9WN/dP9cjcWxb74+xu5Xx1euPP7V3ce+pg5pLGqe5WzN2iFsIN566vuz76ysNeyfytUS+PGV3/7PgZHyW0l6BJUlEGTdyt0sSyARAIAUB7RJEEgOyuBTq7tVgFAVAZIKVQXINFNbgFxVXQUoaam/ABWqmisTeRWhvuWDSarbzWQGOMTk6nuWKRnmw1KF+pHZoWhF4m9g2gQGxu8qevfoVQwpth1NMi0+bg4tjr1OB/xEZ3fSBjvtsM9662y2j7A9plf3226Cho73Q4XeeuilMETxuP98eIH19thrs5125G2GKt7PdHJAn9/ZhRNw9mGkT9CaSptWb9+7GgAAAA==");
 
 export default Hamsa;

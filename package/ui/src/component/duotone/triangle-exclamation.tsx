@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `triangle-exclamation` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/triangle-exclamation?s=duotone triangle-exclamation}
  * @preview ![triangle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/triangle-exclamation.svg)
  */
-const TriangleExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 440c0 6.9 1.8 13.7 5.3 19.9C12.4 472.3 25.7 480 40 480l432 0c14.3 0 27.6-7.7 34.7-20.1c3.5-6.2 5.3-13 5.3-19.9c0-7-1.8-14-5.5-20.2l-216-368C283.3 39.5 270.2 32 256 32s-27.3 7.5-34.5 19.8l-216 368C1.8 426 0 433 0 440zm288-56a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM232 184c0-13.3 10.7-24 24-24s24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-112z" />
-        <path d="M280 184c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112zM256 416a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const TriangleExclamation = createIcon("triangle-exclamation", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABhgAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBeQsIAAE2AiQDCgQgBYMtB2QbLwXIjsQ4JvKLKGy0CKK1/q2e2XsAuJ+BQuQAwYYVqqjvgootsYy+Dnmf/zdxzfM//wYsfPFH69AH+QbMVZzPBjKR9FmCb4JtMAPb4LwJhxjaEMrTD1DE1/kBFdKr6Ss8Hf0PYPyj3wMk9RlAtAFgzaF9O1z9MX5M8VX1Y+Ir2xEQa0EpkJExJMByWWBIoUShEPyYqvNjVC8JIGpEN51BDWpxApcABUiSXBRNnb2dTY2V5uJgY6Xh0msT3+gTr054ezD2P94b8XLc2/NSw2NdL7in+8XGuKf71QnN8fbgknc0DhYPxwvO3dMloBcaHqPFvb0vNz5+rIOvT3qzX7wy/q2BGPte23v/8dXFr/TWdu/Z032TktH7R8sjPNJSYrvVNWz58PT7Tn+4paFx8w83Gri7P4yXHG4cXXRyftGnT10PBIIHrr3666nW5f/XNSbw8ydW/5BUf0zSe6iTQJCnV6c7nkAiAAAp7jA28SMC2UJZch9NXhIgNCBAUqNBgGxQmwCFBtMEqBixQABev08WRb3Q5URPJE1uJrKF7iQKXT4iKpb7NKrRFdmWCXZE+MhL3TgGNqwq58ycXS4tN0utaHE4Pb+sPO1OvoP3TYF7XXSjG9zmgvOuuG2E32JHervrbdwDN3ig0hwzzVZaqrzdPN9+0AW3uNUVN7ohXGSZ8v1wsjv2R0+BQZKwzvXNLBMp8tBtt1w5c8Ol6y7M+IOFf+Z6r2POsLSjRzZkQwo=");
 
 export default TriangleExclamation;

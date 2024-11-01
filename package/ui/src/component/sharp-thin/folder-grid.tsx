@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-grid` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-grid?s=sharp-thin folder-grid}
  * @preview ![folder-grid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/folder-grid.svg)
  */
-const FolderGrid: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 32l48 64 224 0 16 0 0 16 0 352 0 16-16 0L16 480 0 480l0-16L0 48 0 32l16 0 208 0zm48 80l-8 0-4.8-6.4L216 48 16 48l0 416 480 0 0-352-224 0zM96 256l0 64 64 0 0-64-64 0zM80 240l16 0 64 0 16 0 0 16 0 64 0 16-16 0-64 0-16 0 0-16 0-64 0-16zm144 16l0 64 64 0 0-64-64 0zm-16-16l16 0 64 0 16 0 0 16 0 64 0 16-16 0-64 0-16 0 0-16 0-64 0-16zm208 16l-64 0 0 64 64 0 0-64zm-64-16l64 0 16 0 0 16 0 64 0 16-16 0-64 0-16 0 0-16 0-64 0-16 16 0z" />
-    </Icon>
-);
+const FolderGrid = createIcon("folder-grid", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABeQAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCOgsGAAE2AiQDCAQgBYMtBzIbPAXIHoVx4/PkpolszdOlWMTD/6/x+33uzLMZZDAfSK7SILGoryEJqkmTL000RKR+8TzNDFH7MIEgEKZOPQ9wAF88HgppaA1bGpBsXLNzYAUK3u09HwuoVrDWsAJWa2c/PH2i2yRBJBm2Z9gcIY93jmoh3U/QGd40fjXALZIsAxAVABbt2LLO1x/jY8QPzYkfrEFALAK1QIYMgwWYKxMYLFcjlws+RtOY/8CaAKIVLpZAjgI3cRuQg6Q9z/v06GBPr7Kla75dzlHsWbR4UVmKFKLoEpFFRLmtKIu+sTiKSNG19hdbhTIihJBvLIUQRREREdsYb1EWooxYfpooRzyuHv8+3HE+PGia5mOVgyrVX3uoUjUbwsFlHvnWQx8d9PFFJ4h4ZXN1MAtVqo1xvs7ufcQvWDY+RQUEgvPDhvxxYHP/r0zg89s/f0W/ouZjkh6jXQJBNrYZa28CiQAApLhuRIJAcl07vGoXdwQIBQIkrQoBMoNUAuQKYwRoMdQ0AVoVtshE3iH0ti+DpItLIDPdDZDr7Q1oMdc3RqvekWkho0PMHzBxeQktW1ZPGj+xnl0Pc4lVLMqNz6mX5ZHXbdsoOui4C8676pijTrlawJets685Z/kMseyDapOMN1Fttnq7ut293TGXXXHKBef9InPU5/WRrs97jyItAepk0SQRqTx+/6Vx7w0AAAA=");
 
 export default FolderGrid;

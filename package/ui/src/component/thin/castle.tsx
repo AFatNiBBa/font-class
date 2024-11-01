@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `castle` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/castle?s=thin castle}
  * @preview ![castle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/castle.svg)
  */
-const Castle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 24c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 48 24 0 0-48c0-13.3 10.7-24 24-24l24 0c13.3 0 24 10.7 24 24l0 48 32 0 0-48c0-13.3 10.7-24 24-24l24 0c13.3 0 24 10.7 24 24l0 48 24 0 0-48c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 200 48 0 0-40c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 256c0 39.8-32.2 72-72 72L72 512c-39.8 0-72-32.2-72-72L0 184c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 40 48 0 0-200zm8 216l-8 0-56 0c-4.4 0-8-3.6-8-8l0-48c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8l0 256c0 30.9 25.1 56 56 56l168 0 0-104c0-44.2 35.8-80 80-80s80 35.8 80 80l0 104 168 0c30.9 0 56-25.1 56-56l0-256c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8l0 48c0 4.4-3.6 8-8 8l-56 0-8 0-368 0zm360-16l0-200c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8l0 56c0 4.4-3.6 8-8 8l-40 0c-4.4 0-8-3.6-8-8l0-56c0-4.4-3.6-8-8-8l-24 0c-4.4 0-8 3.6-8 8l0 56c0 4.4-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8l0-56c0-4.4-3.6-8-8-8l-24 0c-4.4 0-8 3.6-8 8l0 56c0 4.4-3.6 8-8 8l-40 0c-4.4 0-8-3.6-8-8l0-56c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8l0 200 352 0zM384 392c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 104 128 0 0-104z" />
-    </Icon>
-);
+const Castle = createIcon("castle", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABtQAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDbAsGAAE2AiQDCAQgBYMtBy0b6QXIhqDSVWW1tKQ5Bh0zesfvA6EJZJ3H1gNZE+8yzf9cky/16AC/0SFFrQuk/N4o83mDDXxt1cADibSRT0SmTkc85lEmBRGRrowZyhCPp+BxuYQ8/rFXHenxdBf3bhca3+jsHpIsAxCtADBrw5plrlejGnG39g5x1xIExGxQCmTI0E2AqTKBbnIlcrmgGrVa+Q8sCSDq6Y8pgRz1+ApVQA6SPM9XjpvWqlLXPF9fqSu2PDmgEi93FpWIsOdSPDbwtb7N4pXBb3TJmGpdUSke6RCxn1rEQ+1SPN7+4X6ViHh2yJsT3hn0endRiVc7Pto1qxroKDqElrXKhPRsvvaJwRFv9H9p4GudXp+69xut3viu1939d116tf2q0qr2I3UykmGdyFIcCTxy00gDTU2LMWOqP6oejhb6KQYa6WbD542NM3fWj1S/s1RPoeGH/0++5qBYv69Vq33r46DXnPz/hwaUC7kn1m6q0CITDQNPolOBkSIzpDzTTTtPvFq0pvVzz7VuXRx02UEgEExOA17d0XLqb42VBL7+8Ie/LTvXrqfL6Q00SiDIhtaG2pouQ+kIaCjFeb3JBwWSj+RwSjOPCBAKBEjqFQaZrlpBrjAE6vQwjgsOXiMTeZPQzjZA0swpyIx3AXLtvAV1proRrNcusvQWklP4uUwz32PzupWjho8sJ5e3MZeYsZzUTinDloHn15xBmGi/E447a5+9Djnr6NOWRc45Zj6j5vmi0ijDjVSarJxO3mvWu+BpZxway/P1TFE+HxjoPC8+CPZEGUeLShKR6r9E69F9AA==");
 
 export default Castle;

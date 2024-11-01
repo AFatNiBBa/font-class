@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `traffic-cone` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-cone?s=regular traffic-cone}
  * @preview ![traffic-cone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/traffic-cone.svg)
  */
-const TrafficCone: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M217.8 15c3.7-9 12.5-15 22.2-15l32 0c9.8 0 18.6 5.9 22.2 15L476.9 464l11.1 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 512c-13.3 0-24-10.7-24-24s10.7-24 24-24l11.1 0L217.8 15zM386 368l-260 0L86.9 464l338.1 0-39-96zm-19.5-48L320.9 208l-129.9 0L145.5 320l221 0zM210.6 160l90.8 0L256 48.4 210.6 160z" />
-    </Icon>
-);
+const TrafficCone = createIcon("traffic-cone", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXgAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBNAsGAAE2AiQDCAQgBYMtBzMbtwTIHoVxTGykU6mPQazx8Lzef7/2SR5zh87Y7KB+qnHtCh9iC7dSe5MZsqG7wD7fTX/vzv/5pw/4jD7KGrS2b5+z9nkCiXV5nlBUYJkmYO02ZAtelAWDhik4RAxthmjyAXm8Eqsh3UpwNX9o/KKDKyQ1GYBoDoDpa1cu9uaP8WPEJ9XniE8sREBMB6VAhgydBZgkE+gsVyKXC36MatX8B5YEELXozRPIUYvxmA/IQZLnefuGhrqipkm+pqhp3HijXRHX2qyPIu52uNmrEvc63ulbxMb1lSaVVdEk1gxZs3pNY6yKYk3RWKyJVT0eNX/0W3d7+Ooxf5b+5Pk3FZa3abP8SxALnXnfHP0+W61Q7KGDj7r0JYOO+u5OGxCrhH8eBIKp705ta7NJ/9UXCfz88v8Lv6Lqm0l6hHoJBNmg6iCbEkgEACDFGT0SBJLhcvSqFdcFCI0IkNRqFCDTSXMBco0GClCjq9EC1Gq0UibyBqG1zQiSiuMgM8ZZkGvtGVBjkg/CWq0jUyFKAagHXPwcDs2+Vg4fMqycUE5bjdYKIp5PLJelfmfsqj/ctcdRR5yy2y77nWLICYuT0w6bI8GzfVFpuCGGKU1Qbg+Pt9fY7YST9jvqSLpkovK8188ZeXd/UBNCHaGSJCJV7mT7cwphNwA=");
 
 export default TrafficCone;

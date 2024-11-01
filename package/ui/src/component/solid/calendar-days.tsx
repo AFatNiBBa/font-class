@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-days` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-days?s=solid calendar-days}
  * @preview ![calendar-days](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/calendar-days.svg)
  */
-const CalendarDays: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 0c17.7 0 32 14.3 32 32l0 32 128 0 0-32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32 48 0c26.5 0 48 21.5 48 48l0 48L0 160l0-48C0 85.5 21.5 64 48 64l48 0 0-32c0-17.7 14.3-32 32-32zM0 192l448 0 0 272c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 192zm64 80l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm128 0l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM64 400l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm112 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const CalendarDays = createIcon("calendar-days", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABowAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDIAsGAAE2AiQDCAQgBYMtBzQbpAXIrguMOcQdrD7EhpFIlMMwd5yzcWl5/X66ryFGEI39fvbuEJMOSZOHrCVTmlgSz0Qy3i0kvP7889tY06RIQuWqmHTrCGCbI3KEmu2EeTc04pWb5e1+inmbry99sBEEutCUIEW5ikXWMv83gEMF8Mp6L7PmCsG/OFUzzkML5M8DGkxQ5uym+gYdY1kFKrqW9ypesIhFSKubSo4J/YQdMsRJG6Ts+Oxx7g0lHvOBKtJp+gMH9qPxjzogqcsAEK0AwNJ6KgLMD7GBvxUQLzYQEEsAoxAZGYMQzOIKDOIZBYoi+In/5T/QAAFENegXEyioxw1uAQUktYVnbdNoVFdBypfzsuMOSWlniNdEAyLu9txyVMV8MkStxgny6FcSy+mmKOfgXedVkeFz903mZqDDSfG2B/GmW4JXndJk5sYioExXp9yZu7Xv8v79CfepEzYjO0a5KPItgm1j++hsGIb79jFUIlbNqyNvp74+o1qImZGCHQW2mdjonZQ7bXHVtlSecv5Z+hxAIHi/Ek7L+u+ZA/B3O2IClROT3lErgSCPVzrK8YB4RrSUYoOWRCyQXKsFnG10JECoh0NSrR6yASoo6o1BlWFuuXhmGVcUMYROFYCk0QZkMzah6PQBVWZ9lqp1Brdx1bZTfxuzwhEP7aNpsVGAlg2P1osyXQxSOdE20oAeB6BrZmpNR9vAxEAuRarrJsKMCIkQsbOwIQG03T5b2VBaWhnMffu7BNH3eZ0NPl6PNIcKTqhJEpHkx9o2H3AAAA==");
 
 export default CalendarDays;

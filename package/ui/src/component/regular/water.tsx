@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `water` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/water?s=regular water}
  * @preview ![water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/water.svg)
  */
-const Water: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M80 78.1c9.1-8.1 22.8-8.1 31.9 0c21.5 18.6 51.2 33.9 80 33.9s58.5-15.3 80-33.9c9.1-8.1 22.8-8.1 31.9 0c21.6 18.6 51.2 33.9 80 33.9s58.5-15.3 80-33.9c9.1-8.1 22.8-8.1 31.9 0c16.9 15.1 39.3 26.8 61.3 31.8c12.9 2.9 21.1 15.7 18.2 28.7s-15.7 21.1-28.7 18.2c-28.7-6.4-52.3-20.5-66.7-30.4c-28.1 19.5-61.4 33.8-96 33.8s-67.9-14.3-96-33.8c-28.1 19.5-61.4 33.8-96 33.8s-67.9-14.3-96-33.8c-14.4 10-38 24-66.7 30.4c-12.9 2.9-25.8-5.2-28.7-18.2s5.2-25.8 18.2-28.7C41 104.8 62.8 93 80 78.1zm0 288c9.1-8.1 22.8-8.1 31.9 0c21.5 18.6 51.2 33.9 80 33.9s58.5-15.3 80-33.9c9.1-8.1 22.8-8.1 31.9 0c21.6 18.6 51.2 33.9 80 33.9s58.5-15.3 80-33.9c9.1-8.1 22.8-8.1 31.9 0c16.9 15.1 39.3 26.8 61.3 31.8c12.9 2.9 21.1 15.7 18.2 28.7s-15.7 21.1-28.7 18.2c-28.7-6.4-52.3-20.5-66.7-30.4c-28.1 19.5-61.4 33.8-96 33.8s-67.9-14.3-96-33.8c-28.1 19.5-61.4 33.8-96 33.8s-67.9-14.3-96-33.8c-14.4 10-38 24-66.7 30.4c-12.9 2.9-25.8-5.2-28.7-18.2s5.2-25.8 18.2-28.7c22.2-5 44-16.8 61.2-31.7zm31.9-144c21.5 18.6 51.2 33.9 80 33.9s58.5-15.3 80-33.9c9.1-8.1 22.8-8.1 31.9 0c21.6 18.6 51.2 33.9 80 33.9s58.5-15.3 80-33.9c9.1-8.1 22.8-8.1 31.9 0c16.9 15.1 39.3 26.8 61.3 31.8c12.9 2.9 21.1 15.7 18.2 28.7s-15.7 21.1-28.7 18.2c-28.7-6.4-52.3-20.5-66.7-30.4c-28.1 19.5-61.4 33.8-96 33.8s-67.9-14.3-96-33.8c-28.1 19.5-61.4 33.8-96 33.8s-67.9-14.3-96-33.8c-14.4 10-38 24-66.7 30.4c-12.9 2.9-25.8-5.2-28.7-18.2s5.2-25.8 18.2-28.7c22.2-5 44-16.8 61.2-31.7c9.1-8.1 22.8-8.1 31.9 0z" />
-    </Icon>
-);
+const Water = createIcon("water", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABpAAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iCZAsGAAE2AiQDCAQgBYMtBywbYAXIngU5Gdor8aoMZZCL72yxRQTVGtmzt/fAEAByACgkG8Mq7AGVwPJANjpxyf38OPt/WzPfACcxCW0+oV27fskZYjqneiENHHKCAVgAlnLzb+8AXWNw83/N55d2dIDf6MRPIMpSGwsoFlE0gQFVeQIN7MBmowlOhPe2oQSOsHwhIUEW0e44blfI8TnuKkkP03vcKZmK3/otk5QFgGiDAGw/Xsij9+NHxLtqxDu7IQGxHcIYjAK2D8FgE6KwVyAZg2RZ8IOq4v/AMSiAqCG/lEBGift4AsggKXJeutRBLpvzscay4fT97lXNDvnG7J5Otx54dgQb2lvjfexjQ13GZ+5t0ZbuzkRYpamyOo3ja+tc5SHj8H/8fd/bf2nEv507ebx0gIpbnyahaUf+Dr7dHj7DZbz4fKjNTQh2ARX5SpoRRK8YAQSCT73/f75105+6xgR++b/tyUrSjvQCdRIIikXVIs20zcErR8Iv8+I6JbyTQHJHQbLa5J4AoQEBkhoNAhQGMWCQNVgIg9IIDwxqNDiMKHK90KXVQdLkEiissQSyLlegtMmnX6MritDkAov7GCYnLBRfBA6rHYIwLVA+2pg8GIJtVb9IDQa4iLqmTJrX0TYwb8hZ+WjBhIRHxH0QcLCyA0FwXH48XdYxa87AlEmeJwTum3qLfnsDGARCuUIsSUQqIxcAAAA=");
 
 export default Water;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blinds-raised` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blinds-raised?s=sharp-duotone-solid blinds-raised}
  * @preview ![blinds-raised](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/blinds-raised.svg)
  */
-const BlindsRaised: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 128L16 64l16 0 96 0 0 64L0 128zm0 96l16-64 112 0 0 64L0 224zM160 64l320 0 16 0 16 64-352 0 0-64zm0 96l336 0 16 64-352 0 0-64z" />
-        <path d="M0 0L32 0 480 0l32 0 0 64-32 0L160 64l0 354.7c18.6 6.6 32 24.4 32 45.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3L128 64 32 64 0 64 0 0z" />
-    </Icon>
-);
+const BlindsRaised = createIcon("blinds-raised", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABcwAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBSAsIAAE2AiQDCgQgBYMtB1Yb8ATIhoentcr3q3qpZw65D4jniNFhEk+gVgVtoqLWhcACSVbRPXUq50KhUADfKGh7aHyDz3kegQisLqwv8ArVtAZW3ebEoyOQziIkTEI6PjvO7lDED/kFbaS301d4Uf4HMP4yzAskXRlA9AXAmkP7duj5LX5L8VX9MfGV7QiItaASyMgYKcAKWWCkQoVCIfgt1TW/RV1XBBDt5HUZtKMDm7AdUIAkFEUxogtOo61XcVDeVOZG2UeUzRTvjHpr4GsT3h38xvDuyTnKMvL4anyjIUodip1DvZq9xkYzAl4+7sO+H/4z9quLX+mpKi1V65wf++avf5oz56evc98fzzldtbTquu57uuXpaSC3rXd3t1q7a6e1Tu/ejceBQLDk2vtzTvVZ8X9nI4E/PvnvT/4hqXuS9CE6JRDkGfUMxxNIBAAgxUPjEhDIJijwpza9IUAoESBpVwqQjdBXgEJpugBtRlsoQLvSPlkUXcJAJyZImu6AbJFHoDDQR6DNCp967QZGziYqF6i/XPxGDW9YqubOmlMtq7aRQScIUafLq2N9ysNSmUpnXXTLTfddcN4V9xV2147wgRs2eugGX1SZa5Y5KstU4fSVP8jeXfdcsdn4nOWq+/YUD/32qWQlDXee21kmUuRBZ69fuXn+3swUlmc+zIYhBvsIAQAAAA==");
 
 export default BlindsRaised;

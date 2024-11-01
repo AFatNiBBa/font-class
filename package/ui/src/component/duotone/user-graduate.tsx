@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-graduate` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-graduate?s=duotone user-graduate}
  * @preview ![user-graduate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-graduate.svg)
  */
-const UserGraduate: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 144l256 0 0 16c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-16z" />
-        <path d="M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9l0 41.1L96 144l0-41.1L48 93.3l0 65.1 15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9l-32 0c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4l0-71.8C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7L30.7 512C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z" />
-    </Icon>
-);
+const UserGraduate = createIcon("user-graduate", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABggAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBfQsIAAE2AiQDCgQgBYMtB1YbJQXIHgnZWcbdYOEHJeLhe7voz33d0wuo12YGf0mRVfnWjwBHUxXwRfs//c33Oo8CfCDQXOeBjIVFc54n0HmU5Yn9scG+fVP8bxuOcATS6ERImIg0VtpYHZDHI9k5FdJt6RNcQ/8DGD9q5RxJrQxANATAxOWL53rjs/gsxSdVxCfmICAmgVIgQ4a2AoyRCbSVK5HLBZ+laj6L6pIAokCPnoECFazDHkAOkiTyvFe7BnUq9fJldSq1V99iaTzU6tYuS0LUjYhhIZbGTU1vrF07Lm9+c4vlEXFz6zu6L1/xCAnj/lu6vtv3qY6nVKjuI8QD/Z+Zvrpe3Xri3jGvTHlv3GudotPjDR//ueMn2z7x6WsTJrzfXZOUms6pryd6+t9EDeYppg6tWaoxdWpBnum+lpqYgrum5a9Mm+3FF/vmK3mHi98V9S69tN4Z5UrFdxc7WN8fDVWGTF6wYPKQSkMgEEw6cdP1Dcb8XbNOAl+89OufyG6neiPeSI+jpgSCrE+1jzXxRjXxhgAApDimk/JVGwQy0yXwqXXdLECojQBJobYAmTYaCpCrrbcAFe0NFaBQ22KZyGsJTa2dIKnrIMgMcxzkmnoBVIzxvlFoGlmekVlCfvPipnF46lI5sN+AclS5jQwqdfA6HV2atR7HsNITdm2z3z5HbLXFTkcYeshc+6i9pmnIVD9UGqifAUqjlO70lVvGjEMO2ykz/jmjlef1Ho7p7T1hnQQYdEOhjEiRNYtOue8bkPrGbEMLgYlP");
 
 export default UserGraduate;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hashtag` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hashtag?s=sharp-duotone-solid hashtag}
  * @preview ![hashtag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hashtag.svg)
  */
-const Hashtag: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M74.2 480c5.3-32 10.7-64 16-96l10.7-64c7.1-42.7 14.2-85.3 21.3-128l64.9 0c-7.1 42.7-14.2 85.3-21.3 128l-10.7 64c-5.3 32-10.7 64-16 96l-64.9 0zm58.7-352l16-96 64.9 0-16 96-64.9 0zM234.2 480l16-96 64.9 0-16 96-64.9 0zm26.7-160c7.1-42.7 14.2-85.3 21.3-128c3.6-21.3 7.1-42.7 10.7-64c5.3-32 10.7-64 16-96l64.9 0c-5.3 32-10.7 64-16 96l-10.7 64c-7.1 42.7-14.2 85.3-21.3 128l-64.9 0z" />
-        <path d="M45.8 128l2.2 0 244.9 0-10.7 64L48 192l-12.9 0 10.7-64zM3.1 384l10.7-64 2.2 0 84.9 0L90.2 384 16 384 3.1 384zm399.1 0l-2.2 0-244.9 0 10.7-64L400 320l12.9 0-10.7 64zm42.7-256l-10.7 64-2.2 0-84.9 0 10.7-64 74.2 0 12.9 0z" />
-    </Icon>
-);
+const Hashtag = createIcon("hashtag", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABjwAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCMwsIAAE2AiQDCgQgBYMtB0obTwXIhofv1/o8973+1LMMvX+WkR1QEhkHLIEWVdixEVORrFKRM3BOXZSNBhJFPJT1K7ULqENL4MC3nQ9ySj7Y7YA3wy9uuyliEtpHSFygiI/yYy2kt9NveD36H8D400CPSToygOgBgGV7dmzyQyMaKX5rviR+sxEBsRxUAhkZQwRYKAsMUahQKASN1GzSiGazIoBoFV0tg1aUuInXAAVICkVRdCTOQbRpSK2la7GbnysP1MpaFWVZ31mv6rVO0rWslfWg91T1qizuendwBFEM8eHwZC3eGuA8VancbN2zc08tdka5L/buORd8s3+u4C4JvPcrnZ/2+PTvEb+d/s2kJSn9/8QfXZ+Mbz558iTtemL9w2mzdcPnzCG3e2Lptk2bl9lyZMuWJ+YkmWXzj3TnwWXItmUnR8FBHx4Jci4zZNKITu5W3uyJLZu3blkGBIJ7j7u/daT7wv/aawn8/tW/f8jX5WYjvk2fol0CQZ7YnOhg/CDL8a0AAKS4rXPno9YLZGsVknft4g0BQokASatSgGywHgIUShMEaDHMLAFalXbIougQ+jjUc0kX17hstjtcoY8XXIuFfiy36hMZBA0AMv4Ac60ew6uOVdMmT63mV5sdrQlVmt1cUJ0Ojb0tJ8ZhW6ddcdlNp5x0zs0Rdd2m2i2XrN4jV/miyjSTTVWZr7rdfx7cbVS+7oZz6477hyxQvR8b6/b+/HE4miSy053IMpEid//qcjePnZkUlv09x45ACwAAAA==");
 
 export default Hashtag;

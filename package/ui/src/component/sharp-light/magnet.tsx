@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnet` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnet?s=sharp-light magnet}
  * @preview ![magnet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/magnet.svg)
  */
-const Magnet: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32l16 0 112 0 16 0 0 16 0 208c0 44.2 35.8 80 80 80s80-35.8 80-80l0-208 0-16 16 0 112 0 16 0 0 16 0 208c0 123.7-100.3 224-224 224S0 379.7 0 256L0 48 0 32zM32 64l0 64 80 0 0-64L32 64zm0 192c0 106 86 192 192 192s192-86 192-192l0-96-80 0 0 96c0 61.9-50.1 112-112 112s-112-50.1-112-112l0-96-80 0 0 96zM416 128l0-64-80 0 0 64 80 0z" />
-    </Icon>
-);
+const Magnet = createIcon("magnet", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcAAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBfAsGAAE2AiQDCAQgBYMtBy0b+QQRlZqhyH4m2Ma0HhoJa1gabTkipfHdhYnik3ieWKt8v7tnFugQulYdMgTYAflEEUgGBUB2KjYVGZsJgHwPiU/4B//p7935P/8b8Bl9tLFwblygYzfWeQKJddn0zuOowDJNwNJt4mNHJH4hMYpEouPzeOsOVZ7KDA2KJ4rv8bB8aP4x1kMUqhJAhgBg7eH9O33cSiv5vv2ufG87AlkHakGJEhMErFAKJqjUqFRCK+02/wfWAqRJ37oAFZo4i6uAChSqqpraNamrp9FXHeppdJc93T0iz0x9ceH701+enCQ9PSLPz3ljy9cbvtz27by3BpNMFT1Juv2xN/nl4F/7fzucdEeenvLCgvemvTQJ3POxOLNn8KUhL/3b95e+9/yQIY8M8bMcumjIxUNJhhhynzyn/5dPZ0xstSbO+PSX/p8Naa9Zs2aPNfZ8nL0HObg3e3PwYPaesccZA//DgXHvvbHHgSAsG3yq6/TAiv86ewrw90fuP6N2Kx8XL6FTAUI5oz3jRD6GfCwAgCJ3GczHCApHVfRVez0qILoRUGjqFlAab4iASrfpAhomWSigqdt+pVRdYoSTAxR63QpKi9wNKiO8DRpW+CptGpEyzdgkYR95SWoTQhsP1XNnzamX1duacZlD193ldViecleZmUonXbr5pjsuXrh6B5C37SzuvHGTB2/8Yj131px6WX3cPR8/dPG226/efFPbZ3l9359yl798KmkFpZxXKhSkaH7ABAAA");
 
 export default Magnet;

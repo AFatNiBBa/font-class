@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `game-console-handheld-crank` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/game-console-handheld-crank?s=sharp-thin game-console-handheld-crank}
  * @preview ![game-console-handheld-crank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/game-console-handheld-crank.svg)
  */
-const GameConsoleHandheldCrank: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M432 48l0 224 0 16 0 176L16 464 16 48l416 0zm16 416l0-176 40 0 8 0 0-8 0-72 71.9 0 8 0 0-8 0-64 0-8-8 0L488 128l-8 0 0 8 0 64 0 72-32 0 0-224 0-16-16 0L16 32 0 32 0 48 0 464l0 16 16 0 416 0 16 0 0-16zM368 112l0 144L80 256l0-144 288 0zM80 96L64 96l0 16 0 144 0 16 16 0 288 0 16 0 0-16 0-144 0-16-16 0L80 96zm32 224l-8 0 0 8 0 32-32 0-8 0 0 8 0 8 8 0 32 0 0 32 0 8 8 0 8 0 0-8 0-32 32 0 8 0 0-8 0-8-8 0-32 0 0-32 0-8-8 0zm128 48a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-32-16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm128 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-16-32a32 32 0 1 0 0 64 32 32 0 1 0 0-64zM496 192l0-48 63.9 0 0 48L496 192z" />
-    </Icon>
-);
+const GameConsoleHandheldCrank = createIcon("game-console-handheld-crank", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABpwAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDSgsGAAE2AiQDCAQgBYMtB0Ib3AVRlMvJDNnH6sM9IXIsHv7T9XrfSJ+kJROPCSnA1AFhFdcBpqLBPWldp80mRPv7xDX14/ypPfGF3+RxkYUVOMrUEphAW7TNBjQbziaKG5w36oBCU0g/Qxl/uEgf6cX0Kx53HxrHjXMPSVEAiA4Atp564kFfdqMb8UvvPeIX+xEQW0EWKFBgogAbFAITlTJKpaAbvR77D8wEEP3CExMo0cC3+B1QgiSqyrI5f2jEbC4n8bqvWZ4iL60uFYRoRBHN00PUdURQGaKqSpiqDtAwpGV+M84QGlTzgqpWTais+SSn2jlZ185UMGV238nPjX5+zLOjnhk5645REc/WD495Pu4c/Vz10Mhn1BOqBd34TiziGYtlbM9TQ9QhKh+mvezlpv56ya/eeLwbkh1vOkZ97ZfehPE5g4P2QFlWbItBg6dxWXdZ1tXReZNj0Hf43CeCIHtCntLuyKxiyrwE+3v/DIaYLEMAMZizWoOi2xd3W61uItVrPcADrdYDhjsmFbCW9b1x+xL3qi2W2AIEgv839J9ybnvDf4N1Av9+/HHFw71u2pJexqAEgmJBb4Gz0hZgkwFKpbjFtIUvCiSfqsB3bXhOgFAhQNKvEqAwQUeAUmW+AH0mWylAv8qJClEOCSOd3dBJw/V0YZVb6dJI79B9Nvgh2W9kFHez6l5U/Uum39WFdy7KSxctyevybFmlvkEVi+Pr82b7nFt421y40yWudY2bXOwil7upg97gYOZmV9u1hOz0Q9lSiyyRrZMP1x5uPsXFbnCjy13rGjvPevn68By3LPeeC11JEF2mJElEmvAemBd+q4aFn4DiQ5D1FC8aAA==");
 
 export default GameConsoleHandheldCrank;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `melon` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/melon?s=sharp-duotone-solid melon}
  * @preview ![melon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/melon.svg)
  */
-const Melon: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256c0 55.3 17.6 106.6 47.4 148.4l.2 .3c3.2-70.3 20.6-187.3 95.2-261.9C224.8 61 332 44.8 399.4 43.9C358.5 16.2 309.1 0 256 0C114.6 0 0 114.6 0 256zM79 429.8c0 2.6 0 5 0 7.3c.5 .1 .9 .1 1.4 .2c18.7 2.2 43.1 3.6 71.6 1c56.8-5.3 129.5-26.8 194.5-91.8s86.4-137.7 91.8-194.5c2.7-28.5 1.3-53-.8-70.1c-.2-1.7-.4-3.3-.6-4.8c-2.1-.2-4.4-.3-6.8-.5c-18.6-1.1-44.7-1.3-74.5 2.2c-59.9 7.1-132.4 29-190.1 86.7c-49 49-71.3 121.1-80.6 184.7c-4.6 31.3-5.8 59.4-5.9 79.6zm39.1 41.9C157.9 497.2 205.2 512 256 512c141.4 0 256-114.6 256-256c0-50.8-14.8-98.1-40.3-137.9c.4 65-16.1 164.5-102.6 251s-186 103-251 102.6z" />
-        <path d="M399.4 43.9c28.9 19.6 53.5 44.8 72.3 74.2c.4 65-16.1 164.5-102.6 251s-186 103-251 102.6c-27.6-17.6-51.5-40.4-70.5-67c3.2-70.3 20.6-187.3 95.2-261.9C224.8 61 332 44.8 399.4 43.9zM81.9 437.5c17.2 2.1 41.6 3.5 70.1 .8c56.9-5.3 129.5-26.8 194.5-91.8s86.4-137.7 91.8-194.5c2.7-28.5 1.3-53-.8-70.1c-.2-1.7-.4-3.3-.6-4.8c-2.1-.2-4.4-.3-6.8-.5c-18.6-1.1-44.7-1.3-74.5 2.2c-59.9 7.1-132.4 29-190.1 86.7c-49 49-71.3 121.1-80.6 184.7c-4.6 31.3-5.8 59.4-5.9 79.6c0 2.6 0 5 0 7.3c.9 .1 1.9 .2 2.9 .4z" />
-    </Icon>
-);
+const Melon = createIcon("melon", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABqwAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDAgsIAAE2AiQDCgQgBYMtB0YbmgXIhuDJ7ql63bOAZ21m4AFS6Oji/8e9O//TPn3AZ/TR5mhol49J4ZzcJTDPx9hUpHGmGVjmmUJJKZFfO3Vmiy5i808fz12giC/yGVVI16ePcKn8D2D8pYUzJDUygKgPgPFLF8722m/xW4qPKk8RH5mFgJgASoGMjNYCjJIFWiuUKBSC31Klwm9RqZQEEFXJ+zOoimq4Gs8BCpAkuSiadG3SvVGtKnWKJRJbc+vzvW9f9FWNm/JCnzuXfrvwSz5g8qa7hz4788O5bw58st2tLa+JC2rS7fcMemrae6Ne6vdY65uccMLJuLBJfD2+SawP/2TJV7M+GvfaosUnRFhyLc4iYNbojxd/O/fTiW8u/WbC60d3eKD+A/+0/2jLRy658uUPGzSe2HjCmPHjx0wYTza44dlqDac3mrbjrymNJjfqN+r8K5+8o2Ontr9PGNBj5PCkKyK98daXjRq9MKlsv3ZtiZ+QeM3CX3k2+Id5pjp5eYvmps55uJD0WfDmHVHe7e/McjQxa9e3XgcCwcBHv+qytt6o/6vXSuCPF/77s/+QVF5L0gOoLoEg96r0siqBRAAAUhzRIdEPgWy+TLfVdo0AoSYTkqpqQtZKfSjU1BOqaGvw9qpqWiiLoobQ2OoJSW37IRviKBQaexKqGOVdX1WNI6cqn2j8j2LKFEQmtyv79+lXjihvEw4h+9jWOLJcdnQ7wgXdaakt9trjkM022e4Q0AfMDh622xSLmuyLSv310U9phNKd/qwsAd8BB22/lvytjFTGe7o5YpfvTu5EGQfYmmUiRa6ze/OuvXt673i9Hkg7Gw==");
 
 export default Melon;

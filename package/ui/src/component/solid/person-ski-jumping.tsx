@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-ski-jumping` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-ski-jumping?s=solid person-ski-jumping}
  * @preview ![person-ski-jumping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-ski-jumping.svg)
  */
-const PersonSkiJumping: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM128 128c0-17.7 14.3-32 32-32l144.5 0c46 0 65.7 58.4 29 86.2L230.1 260.8l-6.4 7.5c-2.4 2.8-4.4 6.1-5.7 9.6L179.5 380.6 433.7 249.1c18.6-9.6 30.3-28.8 30.3-49.7l0-7.3c0-13.3 10.7-24 24-24s24 10.7 24 24l0 7.3c0 38.9-21.7 74.5-56.2 92.4L35 509.3C23.3 515.4 8.8 510.8 2.7 499s-1.5-26.3 10.3-32.3l111.2-57.5c-10.7-8.4-15.2-23-10.2-36.4l44-117.4c3.9-10.5 9.7-20.2 17-28.8L232.1 160 160 160c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const PersonSkiJumping = createIcon("person-ski-jumping", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbgAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBXAsGAAE2AiQDCAQgBYMtBzkb5QTIhuB5u/+qc7u/xuyBxJUzMCIyMN2MjOA3/b07/2vRB3xGH2VP+hXIAtvzfIMl1uWT4s7LwixRzNrZ9XmD6DdJUj5k2G5YnSGPV7Pzykj3pQ9wS/nQ+FFT50mqMgBRBwBjFs2b4a3P4rOI90vPE++bhoAYAwqBDBlaCDBcJtBCrkAuF3wWpZL+BxYEEOWMTLxc7pyN5YAcJCnPaw6rXlYzXxheudqmBzo91uGRpve2f7jjo83mn2kccU/16vF80/s6z48GcWeD+bEoHmsd8UCnR5qK003ubb86Hm52f6dF8WjzRXFP40VRLa42ujvaPlnnyZ/bfLDxA6tuqbbz2LGd1eTZn86qdZnLtW7T9qGH7t4000L9G3TY6L9zPo4KDefMaVih1bffPfTwJwY/c67bziFqbuh2wMqnB4812aGojwOBYMT/I8+tqj38t8rqCXzxyq9/1jtLf5deSdKTqJRAkHUvdbc8cXD2BVZKcVBbfFEgmSzBu9ZwtwChGgIk5aoJkGmujgC5aroJUKaVAQKUq2aeTORVQgMrOkhq2AMyA50AuQaeBWWGe7tYrkFktFJJoX7qsiaO0IRDRZ+evYuhxbKpaUyR0/KwYjvqfDAOdcFJG+2y034brLfF/oHfa0blgB0metwEP1Too6feCkMV153n4wttsNc+W+yyM68yTPG+0NlBf3IXpIkJ9lWVJCLVY2Gxx75tW3qwONuycxM=");
 
 export default PersonSkiJumping;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-sun` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-sun?s=light cloud-sun}
  * @preview ![cloud-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cloud-sun.svg)
  */
-const CloudSun: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M303.8 13.4c-.9-5.4-4.5-10-9.6-12.1s-10.9-1.5-15.4 1.6L208 52.5 137.2 2.9c-4.5-3.2-10.3-3.8-15.4-1.6s-8.7 6.7-9.6 12.1L98.1 98.1 13.4 112.2c-5.4 .9-10 4.5-12.1 9.6s-1.5 10.9 1.6 15.4L52.5 208 2.9 278.8c-3.2 4.5-3.8 10.3-1.6 15.4s6.7 8.7 12.1 9.6l84.7 14.1 14.1 84.7c.9 5.4 4.5 10 9.6 12.1s10.9 1.5 15.4-1.6l24.4-17c3.2-20.2 11-38.9 22.5-54.8l-44.4 31.1-11.8-71c-1.1-6.7-6.4-12-13.2-13.2l-71-11.8 41.4-59.2c3.9-5.5 3.9-12.8 0-18.4L43.7 139.6l71-11.8c6.7-1.1 12-6.4 13.2-13.2l11.8-71 59.2 41.4c5.5 3.9 12.8 3.9 18.4 0l59.2-41.4 11.8 71c1.1 6.7 6.4 12 13.2 13.2l71 11.8-40.2 57.5c11.4-3.3 23.4-5.1 35.8-5.1c2.2 0 4.5 .1 6.7 .2l38.5-55c3.1-4.5 3.8-10.3 1.6-15.4s-6.7-8.7-12.1-9.6L317.9 98.1 303.8 13.4zm-59.9 275c7.8-30.6 26.5-56.8 51.9-74.1c.1-2.1 .2-4.2 .2-6.3c0-48.6-39.4-88-88-88s-88 39.4-88 88s39.4 88 88 88c12.8 0 24.9-2.7 35.9-7.6zM264 208a56 56 0 1 1 -112 0 56 56 0 1 1 112 0zm40 112c0-35.3 28.7-64 64-64c29.1 0 53.7 19.4 61.4 46c1.7 5.8 6.5 10.2 12.5 11.3s12-1.3 15.7-6.1c8.8-11.7 22.7-19.2 38.4-19.2c26.5 0 48 21.5 48 48c0 8.8-2.3 16.9-6.4 24c-2.9 5-2.9 11.1 0 16s8.1 8 13.9 8l8.3 0c0 0 0 0 0 0l.2 0c26.5 0 48 21.5 48 48s-21.5 48-48 48c-.6 0-1.2 0-1.8 0l-.3 0-.2 0-266.6 0c-.2 0-.4 0-.6 0c-.8 0-1.6 0-2.3 0c-35.3 0-64-28.7-64-64s28.7-64 64-64c.4 0 .8 0 1.3 0c4.9 .1 9.5-2 12.6-5.8s4.4-8.7 3.4-13.4c-.8-4.1-1.3-8.4-1.3-12.8zm64-96c-53 0-96 43-96 96l0 1.3c-45.4 7.6-80 47.1-80 94.7c0 53 43 96 96 96c1.1 0 2.1 0 3.2-.1l266.1 0c.9 0 1.8 0 2.7 0c44.2 0 80-35.8 80-80c0-39.4-28.4-72.1-65.8-78.7c1.2-5.6 1.9-11.3 1.9-17.2c0-44.2-35.8-80-80-80c-17 0-32.8 5.3-45.8 14.4C433.4 242.6 402.9 224 368 224z" />
-    </Icon>
-);
+const CloudSun = createIcon("cloud-sun", false, "data:font/woff2;base64,d09GMgABAAAAAANsAAoAAAAAB0gAAAMfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQyEKwsGAAE2AiQDCAQgBYMtBzAbKwbIjtIcMptqnERxLnie1/s69yUfGjIjeAV3Nvt1JVc8unn/+LuxhrY90YiziBMJqfm/pi6aIkG++Hwod/961EEV3sXjPR9gNEXzBEazTdhm0jZE/dhbaAuNxhXo8ltGTKDW4gfA4uJD5QOBzACFrgEAIB4AAEBFx7bNufJKXok8+H8S5AFNgABIJQAGAmiABoQgABSjIUAIOgagoyPwSv7/D/4DDRAAEDOVRHFIByzAVxArnCE63qTrnbxdNUkOk0vv4DDZB66yV5ntpIO4zIpQ2k5WSKz2YmultL2szHGSZP2Qj2m7zayS1XaldHRpx443l5VOSxexc8plN51PASS8tEOnzcdUtKnfN59o94Qbu73T/KbjmnJHvctf3+yudnrt1w8i+5v51UpPO3JB7+y13hRzRS51yFQksmetCZXziASM84zMwV39Pl8GDQ7S+c5qexXqeKIV2RMiBpzUJS19+tmYrHtnqVcbP31eua7eRSL3qX1/xIMBD0g75owd0682g2Z2vzFj/V3taOdidF7c3lSLHaqNyxudoleQctIUaGG5BI5aAredDubRqdM8mEzLEo4L9jBz5hnstSTcT5uD7q3pHWQjRV6Phmin4JynvLw16OMKb4t3S/fD3+XD7sEL4kbaPcFzi+3807Zdeg98Oir92UPN1aWuLs9uBWB/lPbwWboIgANQskXztMsgwXsisdTUmH0tZT2nvLDPKsR27qxZ971TlNhR4jGgvbh8fW7626RDf4+gkhtN3YIAQACB9P5Djlzuxb+sVAHw5tyXX+OT///9v4Kn4H0AVhQAAlry/5FuagoQwRgQqriSCUTaPySA4i0mbJ+TVbJJwQ4rUJixA41gPICOnSRgIowcSFzfFg3RbQg+dLeBwslooJHLRKDjw3FgopjbMTM+onE/zrv4x2dM7Z5bM83ISE03Co3HkplgaAhHiwyyKX5C2JJg72UAIxnBOPrTj8GM26nG0Dw5nuHUIt2a7xpkkEo6BoUY0tXPTAc3PoaxDL4n5CehCEO/L54JuHuCbVVUejPJUygQZfsNYjhl7PgRAAAA");
 
 export default CloudSun;

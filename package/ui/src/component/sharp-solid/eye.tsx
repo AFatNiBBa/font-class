@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye?s=sharp-solid eye}
  * @preview ![eye](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/eye.svg)
  */
-const Eye: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 32C129.6 32 30 181.3 0 256c30 74.7 129.6 224 288 224s258-149.3 288-224C546 181.3 446.4 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm48 0c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-6.4 0-12.7 .6-18.8 1.8L288 256l-94.2-18.8c-1.2 6.1-1.8 12.4-1.8 18.8z" />
-    </Icon>
-);
+const Eye = createIcon("eye", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcQAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBagsGAAE2AiQDCAQgBYMtByob5ATIhofn9Z469yUDOAMBa3eGq63/1KnnoVAogM8hCMrYuGjpWOBznkcggLHh6QIqUK1YKyiVueq2v8wgyqrIOXhEDO2hCp6Qx1fZKWVI16W3cUl/0/hLA6dIKmQAojoAhs+dOdnz38f3EW+VHiHeMhEBMRwUAhkyNBZgkEygsVyBXC74Pkol/AcWBBBl8bclkKMM5mIFIAdJludNGtWrVKZKPqdSmYprP54U8fawiOcb3zT8hcnvzP5s6nsjX2p284gXp7w7Z9bxrhH3DXyq0gX9n+h8j2Od7u73eMXzBzzZ5d6odFP7iDt6P9bxrmY3d7izz/m1Z8ecuFKLO6vf+U/zt9e8rdktU+JWbpvJzF9/nTnztlunhJMfG2ngkY/tXvJd24KiVs02bWrWKoq2EsFat/J3cuexY3feWR4EnlrxeM3FFtdUvyIQCMqdWbRsabVB/5evlMCPT/73D3m49H0alu5EeQkEWadSJ4vSMAA2AD/FHi2CDwokU2X4qpVdLUCoiABJWRUFyDRSXYBcRR0FKKOp3gKUVdFMmcgrCLUtniCpbDvI9HEY5Gp7CJQxyGteWbUjyy4mN5i3XeIYC41eKrp36VYMKJaRwSYMVacDi22p3Z5Saa+H1thqi11WW2W9XQbdYXK422ZjImS0Lyp010U3hQGK43S/PcdqO+y03lZb2pyBivtmO3vi9vaqJsTtwUqST4a11ftXAw==");
 
 export default Eye;

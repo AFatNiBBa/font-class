@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-rear` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-rear?s=sharp-regular car-rear}
  * @preview ![car-rear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/car-rear.svg)
  */
-const CarRear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M102.7 32L120 32l272 0 17.3 0 5.5 16.4L457.3 176l6.7 0 48 0 0 48 0 128 0 48-32 0 0 80-48 0 0-80L80 400l0 80-48 0 0-80L0 400l0-48L0 224l0-48 48 0 6.7 0L97.2 48.4 102.7 32zm272 48L137.3 80l-32 96 301.4 0-32-96zM48 224l0 32 80 0 0 48-80 0 0 48 144 0 0-64 128 0 0 64 144 0 0-48-80 0 0-48 80 0 0-32L48 224z" />
-    </Icon>
-);
+const CarRear = createIcon("car-rear", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABZQAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBeQsGAAE2AiQDCAQgBYMtBy8b+ATIhofv1z4793UP9gS5EwXUQUYH5DMqwHpsCB0bMRWb7K5a/f/nmnzFRwf4jQ4tmrKwVoCZzycw4Cgf6Bp0YDOdgM1v53uuGEQ3KEkSnN9v/8MN279AHu+jVR3pfvqF2+lD448+bpHUZQCiMwDmbl6/0pf2aI/4WXtJ/LQcATEXlAIZMvQXYIZMoL9ciVwuaI9azf0HlgQQ9fj9CeSow24cBeQgyfJ8VNPgoq5Dvqmoa95eNHfoERujKIQQzRRFtBADJBqLYnP02tss3LMhOsSmPUJhkAIpiAIprtQypK1z2z+Dfx365dDTLl3G7Tbsqoaqck2ltEZljT3WLM20quEg3d1pzL+cDdpttOwuul2Co+OVVnNcM0er6uoez4BA8CS//3V3pxn/NxYJ/H7333/Kr6jWnqQ2NEogyEbWRtqRQCIAACkuGZIgkGyWoWu1uCNAaEaApF6zAJl+OjfINRsBdQaayAj3r5eJvEnobicgaXEWMpNchlx3z6HODF+Let0jUzJORbh/vORFPbZwXTl2dFVOK5dNldcbJixPL8Xa0Et+aBjOOuS0Uy446ICjLnTUOSurF520aEcu9EWlsUarlKYpH3cej29y0DnnHXXaqbjKdOX70VCX9pOHwUyYdhw1fYINqXH/3nOjzh3cew4=");
 
 export default CarRear;

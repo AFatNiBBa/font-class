@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bath` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bath?s=light bath}
  * @preview ![bath](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bath.svg)
  */
-const Bath: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M93.3 32C77.1 32 64 45.1 64 61.3L64 256l384 0 32 0 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0-32 0L64 288l-32 0-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0L32 61.3C32 27.4 59.4 0 93.3 0c16.2 0 31.8 6.5 43.3 17.9L161.7 43c11.1-7 24.2-11 38.3-11c20.2 0 38.5 8.3 51.6 21.8l1.1-1.1c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-104 104c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l1.1-1.1C136.3 142.5 128 124.2 128 104c0-14.1 4-27.2 11-38.3L113.9 40.6C108.5 35.1 101 32 93.3 32zM32 320l32 0 0 48c0 26.2 12.6 49.4 32 64c0 0 0 0 0 0s0 0 0 0c13.4 10 30 16 48 16l224 0c18 0 34.6-6 48-16c0 0 0 0 0 0s0 0 0 0c19.4-14.6 32-37.8 32-64l0-48 32 0 0 48c0 30.5-12.2 58.2-32 78.4l0 49.6c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-26.8c-14.5 6.9-30.8 10.8-48 10.8l-224 0c-17.2 0-33.5-3.9-48-10.8L96 496c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-49.6C44.2 426.2 32 398.5 32 368l0-48zM200 64c-22.1 0-40 17.9-40 40c0 11.4 4.8 21.7 12.4 29L229 76.4C221.7 68.8 211.4 64 200 64z" />
-    </Icon>
-);
+const Bath = createIcon("bath", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiQAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCWgsGAAE2AiQDCAQgBYMtBysbVQURFZvtyD4SY8fTMRfUjKSRLE/i4f91Zvd9yXMmkschQ4ioY+ySGne3JGBPvcQtFqWWuAI2PPzOehF9bMelxWXT2ew+bEoT2MXN886jAF8jCW0sXJpFSyfNeZ5AgNngAus8ygLLNAHL2tkPzyC6RZIuRZIMyy/aHZDHmzFPjfRQ+gh3pIfGj0a7liTPAMQwAGw+vH+n96qoIj7qvUx8ZDsCYguYJJAhwzgB1skExslNQi4XVNHruX8gBBB98MwEctRwFx4E5CDJ8nzt5oGyNpAfKmvF8ZubEfcSA+V9rXubRf3+9gOdMiIemTs485bZs+OF8rnZnXigdV/zQNzbvr/Tie6Yq8bOifuLI2VRisdmXxVqe64s45aZtDo4MaIM8egscW/z/jbhni2KuHmG1p0Qh++e8FBrf9w/Y0p3WPfnyR+d+ciJJ+pXcEP9Q1cuqhqNathnea8PDeHO0ZNvVLSqbbz00sMPn211nm2N1pM3urG+buIkwCL93zhr99jK2N0A3/QvMskijV+WaFRVY6xjYypjjo2la5b4pbHohd7wQd4YHt0bdYcBgeCP63/+5/TQdb/1lwl88cavvylfUe89KXXRL4Egm9eb50QCiQAApLjMlASB5CYZ3LXufgFCgQBJn0KAzFjDBMgV5gpQM8FyAfoU9ssEkw8RmsoGSd05yKzwQq7pg5p1fr1PMzKrpG2K/hMmOEbsFFmcohkGKmNoZBgalkX1+IInm6KxWlxqld5F2CG3bjM3Q60XIRNLQWM7vl8u1A6n3mqJYwzOq8ozr/dEkUC4hC9JRMofCgAA");
 
 export default Bath;

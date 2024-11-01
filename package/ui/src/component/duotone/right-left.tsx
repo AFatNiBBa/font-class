@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `right-left` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-left?s=duotone right-left}
  * @preview ![right-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/right-left.svg)
  */
-const RightLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 384c0 8.5 3.4 16.6 9.4 22.6l96 96c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-64 320 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-320 0 0-64c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-96 96c-6 6-9.4 14.1-9.4 22.6z" />
-        <path d="M0 128c0-17.7 14.3-32 32-32l320 0 0-64c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l96 96c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-96 96c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-64L32 160c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const RightLeft = createIcon("right-left", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABcQAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBUgsIAAE2AiQDCgQgBYMtB1Ab9ATIHofpFiP/7sROTChTQ2l5+P+1/+1zZ74bOohrgmTSXJqoZK+Q8OaJkCxKJLJefyGEzM//d9jp7+f5P//0AZ9/x6heYQF1n09g56nzSpEJzXQGNr+dfLdY6FIGSX3PJ8Oix7DJjuWwhzy+ZSeVke6lr7jC/wMYv3U5SVKVAYhGAMxZsWSx99/je4qvpRfEV4sQEHNBIZAhQw8BpssEesgVyOWC76mE71FSEECU4zdnoBw5FmEpIAdJiDzv16emrC5fzujq7FhHxJ2aumviwaDHbcvilqOtS+PmwEfdImrjfPvtiKMlrLGle0RdXOi4E8cMV228iPsdRN/l+j5rfPZ3Xzd+Nbv+LGfrZ5stHzzwP87V1Z0783/QoLyCSZiyzE7hgYMJVz/xOhAIfj3sj4bp/6pJ4OfL739ISq+S9AyVEgiy4aXh1iaQCABAioP6JiCQ6Sexn1rrtgChGgGSctUCZLprFCBXbZgAZXqZIEC5aktkIq8SWq2LIKm1B2QmOgRyrZ6DMtN9yJZrjQxSFCCoD138QqEFi4oxI0cXU4tmTaBRQujZacWwPvhgPUNop4122Wm/DdbbYj/IXosLB+ywUIIX+KLCGCONVpiqWG6e88vJ7rXPljq7Ps80xf54sIPy8CG0nAQYexhFGZEia0Ya+drkEeDsbU3Zawg=");
 
 export default RightLeft;

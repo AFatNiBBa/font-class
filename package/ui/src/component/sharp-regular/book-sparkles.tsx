@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-sparkles` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-sparkles?s=sharp-regular book-sparkles}
  * @preview ![book-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/book-sparkles.svg)
  */
-const BookSparkles: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 88C0 39.4 39.4 0 88 0L424 0l24 0 0 24 0 352 0 24-24 0-8 0 0 64 8 0 24 0 0 48-24 0L80 512c-44.2 0-80-35.8-80-80c0-2.7 .1-5.4 .4-8L0 424 0 88zM48 432c0 17.7 14.3 32 32 32l288 0 0-64L80 400c-17.7 0-32 14.3-32 32zm0-73.3c9.8-4.3 20.6-6.7 32-6.7l320 0 0-304L88 48C65.9 48 48 65.9 48 88l0 270.7zM160 112l16-32 16 32 32 16-32 16-16 32-16-32-32-16 32-16zM264 216l24-56 24 56 56 24-56 24-24 56-24-56-56-24 56-24z" />
-    </Icon>
-);
+const BookSparkles = createIcon("book-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdwAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCDwsGAAE2AiQDCAQgBYMtBzQbEwXIjsQ4JvGLKEziefi1Xs99M/sRE54AYolJAYP/kS2rdUUjiGVrt0Lep049z4VDAXwOQVDGxjVBsjmU3THPK1CxXryTCr4GWLWCVnNX9zBFtJ/EUluSx88eP2uo825e0qK8Xb7Hi/VD87fZHqNoVQAyAoBD5511ivYP+SH5rvMJ+c5JCOQQaAQVKswTsFclmKfWoFYLP6TTof/AhgDpws9SQI1u3IQ7ADUoWnW9eHRodLS/NVif29/qqz5ckxzZMdgvJdLXJ/390jfw6eqZBQ8nqS54aDJ5vX8wyUCemXhN3pzg6gTLeXNnzZ2dZVmaWZmT5VlxzpaNWzblhByfjdmcE3PS4pmRmX99f+33rq+f4qmDp8+a5XKzzOo5qGfWRrPOH7nm3NQ1p284b0hPDzUOaiSCuk/4bfSgjXYaPfLl6PBt/3e4X7Cuu+4+DMDxIAgHP9/48WXDe//r6S/gpy/XDu600y4z6FFAqNZ21ro4bSBsgJ9Ucq/FaSMortLC1zrgDQHRh4CiS5+AylwjAmp91ghoWWCbgC59zlJJ3SsmXDJAMeAOUNnuflCb8BFo2esrv8tEKn9jvIX57iUeK6FjljWb1m9sdjdqrrMuROX5Pc22tPLe2LcKna51m1vd7RpXu8HdAr3TKdE9bnGshRzjixqbrLdRY7fmuHpdfa5r3OkuN7jNrWWRPZr73kr32qNXQS0Yd7NMUUgZdEZ53V1v2r75mrsAAA==");
 
 export default BookSparkles;

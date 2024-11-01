@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `barcode-scan` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/barcode-scan?s=solid barcode-scan}
  * @preview ![barcode-scan](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/barcode-scan.svg)
  */
-const BarcodeScan: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M88 32C74.7 32 64 42.7 64 56l0 136 64 0 0-136c0-13.3-10.7-24-24-24L88 32zM64 456c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-136-64 0 0 136zm96 8c0 8.8 7.2 16 16 16s16-7.2 16-16l0-144-32 0 0 144zm64-8c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-136-64 0 0 136zm0-264l64 0 0-136c0-13.3-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24l0 136zm96 264c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-136-64 0 0 136zm0-264l64 0 0-136c0-13.3-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24l0 136zM448 464c0 8.8 7.2 16 16 16s16-7.2 16-16l0-144-32 0 0 144zm0-416l0 144 32 0 0-144c0-8.8-7.2-16-16-16s-16 7.2-16 16zm64 408c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-136-64 0 0 136zm0-264l64 0 0-136c0-13.3-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24l0 136zm-352 0l32 0 0-144c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 144zM24 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l592 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 232z" />
-    </Icon>
-);
+const BarcodeScan = createIcon("barcode-scan", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABnQAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDCQsGAAE2AiQDCAQgBYMtBzMbjAXIjtMNt9xYqRjFw4fef+cm+crL0llQFeCidSd1kDuo28pN8WZbVoLl7fafyk/qNMkmJG8T/G8QuhrN/7l4b89HA/y8iQ8l47qsgLvxAFPs3nmlyFmknSje0byXBinEC21Jc8jiN+9VQ3ImeYdD/pXGB+3sJdGQAoimAJi6rGT8alQj3v5/RLw1CwTEVEApkCJFRwEmSAU6ypTIZIJq/P8v/gOFAKJWeMYEZGiCq7gPyECiUZYVRV404qTGF40qRaWmUbZ0x3zV9baiEhFne+XLz/SsxK0OEXlYcqLVqTZV6bSJSFrJK+sGi+ttrQiEY6FUMIPFydbHW66VCsLOGy32yABqQo5v0Ljb3aZ3P3V9199ZdmlBq4OmeFotaNrmVqrpPb2urnG12viw0uHvY8b6KaHtIeRyTpOOHU0OGi8fDqlc1utp8qnVxvVlyC47Dx/orcjAOh/Z6YBA8OJCfFjXZMLX+koC3j//8oPc+H+VdiZ3US8BQTrg/wCrk52AsQHEktgqLHxRIHFWI+GlFk4KEHIESNTKBUh10FSATK6/ADU6GylArdwiLLIGoaU1DUgUNoDUKNtApqUHoMYEL6O1WkYKrCyosfeKSakLx0kydNCQclw5m1Jx8Ecvto4vN5v6bJUlffFMdM4cqhlOB11y4prSEhL9kBhqkCFK45SHsw+nV2rZBmdeP+OV1/v62LpcvS+2kpBwmKREQiTFPyZ4vekD92QDAA==");
 
 export default BarcodeScan;

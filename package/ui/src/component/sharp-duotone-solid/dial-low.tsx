@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial-low` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-low?s=sharp-duotone-solid dial-low}
  * @preview ![dial-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/dial-low.svg)
  */
-const DialLow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 256l0 64 64 0 0-64L0 256zM64 64l0 64 64 0 0-64L64 64zm0 384l0 64 64 0 0-64-64 0zM256 0l0 64 64 0 0-64L256 0zM448 64l0 64 64 0 0-64-64 0zm0 384l0 64 64 0 0-64-64 0zm64-192l0 64 64 0 0-64-64 0z" />
-        <path d="M129.4 311.6c11.6 77 78 136 158.2 136c88.4 0 160-71.6 160-160s-71.6-160-160-160c-80.2 0-146.6 59-158.2 136l158.2 0 24 0 0 48-24 0-158.2 0z" />
-    </Icon>
-);
+const DialLow = createIcon("dial-low", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABeQAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCAwsIAAE2AiQDCgQgBYMtB0wbIQXIHoPjbonBZorted00tYjnqbXy/e7ZvQCgQ1AH6OJQnjDB8gQyjiSwkASSyG5Fkoweq9asJ0jq5FYUILgoAof0oICMYiM+9hmk+Kp9n/9rPr/CowP8RofWTeetx5FbP5/ARNLTGnRCM52B7W1DT8MSR6MIC4yIxsvxWh2hyX+9oEO5Ud7hCv8PYP5Y6phiagVA5gCAkUOFPO566ZV8tWvyzl4QyChgDUJFxQoE+vEFKwisAY1G6JW2pZe2XQMB0gW/r4IupmESHAbQgCL6GgE3VUK5UCko56tllZsDyfXEz6EXh34MPj/4tv/pmunTkWmEmB4qaAXloQ20hPLQygP1j+Y8+rf2XfedM5dP1nD381jevctYxt6/G/N318kltw2cu2HMISEx9IK0M+i/eAHjhwxs6HaAIFw8cfJpcnb/f8l0HuDX47/jD0l7V4bLI0xRQKib2k2aZRgowwgAULJFX4YdIKiGiMmnznBVQExDQNE1TUC1nAaBxjQbEehYxYtA1zT78KWRIhZoNVDMcAJUe+yAxgJXoKPfa9y1INXVGEdhXnqJOQ1l17HtNgcLMbNQWe+haDnMls11W2FghIPompna0NE2sKGIpXy2aSI3w7O+iHGycWBC2Hb9uLusY2llYGaaVglj5wODrflkIzg8QrrDhqqSQnzNVwCZ9fBs2+qzuq7jbyc=");
 
 export default DialLow;

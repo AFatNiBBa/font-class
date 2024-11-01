@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-slash?s=sharp-regular comment-slash}
  * @preview ![comment-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/comment-slash.svg)
  */
-const CommentSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48.4 14.8L29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7L513.7 376c38.8-36.5 62.3-84 62.3-136C576 125.1 461.4 32 320 32c-68.2 0-130.2 21.7-176 57L48.4 14.8zm135 104.8C218.6 95.5 265.3 80 320 80c124.7 0 208 80.5 208 160c0 38.1-19.2 76.5-52.9 106.1L183.4 119.6zM424.1 430.1l-46-36.3c-18.1 4-37.5 6.2-58 6.2c-26.8 0-52.3-3.9-75.7-11l-13.9-4.2-13.9 4.2-57.6 17.3 7-18.5 10.8-28.9-21.8-21.9c-28-28-42.9-61.8-42.9-96.9c0-16.2 3.4-32.4 10-47.9l-39-30.8C70.7 185.6 64 212.2 64 240c0 49.6 21.3 95.1 56.9 130.8l-19.8 52.7L80 480l57.8-17.3 92.6-27.8c27.9 8.5 58.1 13.1 89.6 13.1c37 0 72.3-6.4 104.1-17.9z" />
-    </Icon>
-);
+const CommentSlash = createIcon("comment-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABcgAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBdQsGAAE2AiQDCAQgBYMtBzQb+QTIhuB5u/+qc7vfAOyxmVkRvDLzv5sKEac/9+c7Hw3w8QiGFoWlA4n0rvMJDHS0+94W4N8i7YviN28Zc6OUPUsmmqTHrz1+rSGPv+OiEulq+gQX6pXGDxo6SlLKAEQNAIyYN2uKN8qiLOLj/58lPjYJATECFAIZMjQRYLBMoIlcgVwuKIv//8d/YEEAUY4eN4EcJSzAJkAOkizPm1bqWLlUNZ+bZiotatumbedoEzv4hN2ibcyNr+fdNfS1iR/N/Wb23Dmfz/t2yqct7pi8csHQIUPvqXS6b72oE+OjMc7eMV5reajxwHjEtzO6R/eYFPPi2cpnBrV8qMZDP7X4ZO0nuj3RtWvXd3U1+GVdtUfbONPzMa1is2bXT4+zPsb2XTbh+Po5M2Np2n+gaqWhrb77tc/XX399b/P2A9/2tYtWeMQc10oNLm/VumNMWtvbOBctauxG9/6/AYGg3cqytKz64L8qVE7g+5d++YUP9/8b6WB6CBUkEGSd/+9scToIQAegptirpfNFgWSGjF5qFZcECJUQICmnkgCZxmoIkKukkwAlzfQRoJxKZslEXlGoY8kASRU7QKavfSBXx9OgZLD3lXLqRBZiZICQP7y4sRYaM1X06Nq9GFgsA52KGjwPBxXbfPu9UuhAK621zVa7rbHaBrsNstMUfY8txnrwGD9U6KGr7goDFcfx8/Jca+y0ywbbbC1jBinuy+3t9es7kJQoZk+uJBGp6qN2dNm1ecWu9QAAAA==");
 
 export default CommentSlash;

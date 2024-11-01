@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wifi-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi-exclamation?s=thin wifi-exclamation}
  * @preview ![wifi-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/wifi-exclamation.svg)
  */
-const WifiExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M289.2 81.1l14.9 208c.6 8.4 7.6 14.9 16 14.9s15.4-6.5 16-14.9l14.9-208C352.1 63.2 337.9 48 320 48s-32.1 15.2-30.8 33.1zm-16 1.1C271.3 55.1 292.8 32 320 32s48.7 23.1 46.8 50.2l-14.9 208C350.7 307 336.8 320 320 320s-30.7-13-31.9-29.7l-14.9-208zM122.5 270.4c35.2-33.1 78.7-57.5 127.1-69.7l1.2 16.2C206.2 228.6 166 251.3 133.5 282c-3.2 3-8.3 2.9-11.3-.3s-2.9-8.3 .3-11.3zm267.9-69.7c48.4 12.2 91.9 36.6 127.1 69.7c3.2 3 3.4 8.1 .3 11.3s-8.1 3.4-11.3 .3c-32.6-30.7-72.7-53.4-117.3-65.1l1.2-16.2zm235.8-25.4C564.7 113.5 484.6 70.2 395.1 54.5c-2-6.2-4.8-12.1-8.2-17.5c97.3 14.6 184.4 60.4 250.7 127c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0zM2.5 164C68.7 97.4 155.8 51.5 253.2 37c-3.4 5.4-6.2 11.3-8.2 17.5c-89.6 15.7-169.6 59-231.1 120.8c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3zM384 416a64 64 0 1 1 -128 0 64 64 0 1 1 128 0zm-64 48a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const WifiExclamation = createIcon("wifi-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABlQAAAKLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCRQsGAAE2AiQDCAQgBYMtBzcbTAXIjlQ1f/A85VXvV6oxDY2Uheh0r3WUb9QNdOra3+e5pl48PzrAb0d2KFGbpTauATt4AgOOsg7RaJsozlwblxYenhkWVE6ZYwyrbRiKySnQ8ofeOECtVZeBZbO9vCGV2aAwDBQgIYYBarRr1YSzD+WhyGX7ENhZaQQIgNQEwEQAAzCADASAyhgIT4HGBDQagYdi2/gPNEEAQJzoBSsANOABJgEWAKABULi1jiR5Pf6g3+91+HVbr8PTr03bNtHE1cntZEZSzLMwwSJhXbLI6nw7E6MprcVKsDwLk2JJbVvfapcotxtbSbHkXndaRBOspKttk9vdbRtLutPkCjcbequZyLV2VsLt1omz9diQf0/BfVmbC+0vsDez8e709Wnr8u5IWZO6Nk/OfaF973Jc7nsZc2jg2uLKvH4905YlMH5BILBgfOCjvgdXqle/ck8HruGbN9/vnz/Pt/WNnqjRIBKkVjjQqlWZOp7aEtaiTJnWtbMOwwffpHbpOj+lQL36no8fw2VKt2491CMf4SOb6hXwBF9ItKldZ/If4/GnT48N49pbnh858nzL/gAggMCFDs8HdQtW/ub2KgAeH//wW1a029RMtQ9wowAQMArbhemspgfEmsijeGQsOfFNCKAYhRu1+4hVA4IHdiiceGCQTggaD4XgIIsyUrJzKwxExyEk0AVQ+BgBg7JMgSaBA3BQmXNeJwlitKLSSMqXYMa6TNdpZJYoWtysaF5GrGp3SaOykpk25x8rGQUwkL4MYyij6UNvBjCa2JE0CYxhCHUjpg4/xKQERSmOSUXMcvyzsS15RzKKAb5er6cS5v32/IyN8xeATaG8JXleoUBUaNyAvgOK/OPC2mPIywUAAAA=");
 
 export default WifiExclamation;

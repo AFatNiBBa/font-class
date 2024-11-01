@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnet` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnet?s=regular magnet}
  * @preview ![magnet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/magnet.svg)
  */
-const Magnet: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 256c0 97.2 78.8 176 176 176s176-78.8 176-176l0-64-64 0 0 64c0 61.9-50.1 112-112 112s-112-50.1-112-112l0-64-64 0 0 64zM0 88C0 57.1 25.1 32 56 32l48 0c30.9 0 56 25.1 56 56l0 168c0 35.3 28.7 64 64 64s64-28.7 64-64l0-168c0-30.9 25.1-56 56-56l48 0c30.9 0 56 25.1 56 56l0 168c0 123.7-100.3 224-224 224S0 379.7 0 256L0 88z" />
-    </Icon>
-);
+const Magnet = createIcon("magnet", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbwAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBaQsGAAE2AiQDCAQgBYMtBy0b5gTIjsR0G4/8IhdEdjz8v13f73OrBnCNzWyyyUF9QWmvn0rh67J4n7jm+Z8/PWCFcyS+RWNqLCLOJ7DzgcwiwXa+mw1nE8X57fzOcBRkUJJeOpIMk27Yfv0L5HExjqlEOp8+x9H0ofGLZo6QVMoARF0AjF08f6a3S1GK+Kz8AvGZ6QiIsaAQyJChpQAjZAIt5QrkckEpymX+DywIICrLL5NAjhxLsBaQgyTleet+NSrVyhfVqFR98Q9zI75Z+NP87xZHVA9xqcu9AS92e9AaDl90sUnE2c414naj083E+a73O97t/rBFhNTGD17r8/SUjyd8OO3Tfs+2i3YP6j74re3nmz7X+62YVpfCOULUjWlj1NSp+OefK+rAYb3vVvmDij197KlY5Z7q9epduxaN6vdIbfzs2t+826NVqdSqx7vf1L4HBIJvL+i6us6I/6rWSODnV/+vPlAuxdvpAapKIMh6lHtYYUII7ACiFIe0o68ikMyR5Het6YwAoToCJJVVFyDTQl0BctV1F6CS1gYKUFl182UiryY0tLLDSU174cwgh+FcQ8/BlYzwUVxZw8iUS1QN8dsubRICE7cVfXv1KYYV07Ym6Qvv14cX23qXQ3asK+21yW67HLDRBlsdAGifmdlBO01agRP9UKGvXvooDFMc9x61RRDvs99WWTnfZLjivtvFofXsrrSbBOj3LLlEpMq/XQI=");
 
 export default Magnet;

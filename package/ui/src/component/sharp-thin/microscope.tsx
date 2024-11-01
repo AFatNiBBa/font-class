@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microscope` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microscope?s=sharp-thin microscope}
  * @preview ![microscope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/microscope.svg)
  */
-const Microscope: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M168 0l-8 0 0 8 0 24-24 0-8 0 0 8 0 272 0 8 8 0 144 0 8 0 0-8 0-168c97.2 0 176 78.8 176 176s-78.8 176-176 176l-80 0L8 496l-8 0 0 16 8 0 200 0 80 0 216 0 8 0 0-16-8 0-139.1 0C432.6 466.4 480 398.7 480 320c0-106-86-192-192-192l0-88 0-8-8 0-24 0 0-24 0-8-8 0L168 0zM272 128l0 16 0 160-128 0 0-256 24 0 8 0 0-8 0-24 64 0 0 24 0 8 8 0 24 0 0 80zM160 352l0 16 8 0 80 0 8 0 0-16-8 0-80 0-8 0zM96 416l0 16 8 0 208 0 8 0 0-16-8 0-208 0-8 0z" />
-    </Icon>
-);
+const Microscope = createIcon("microscope", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcwAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCGwsGAAE2AiQDCAQgBYMtBzEbHAXIjtRG91AmiYfv5/o69yXdlZ8MZIgzyLxA5NCRW0folh2yQ0nsumq15/+afO+eHx3gNzq0KGqLtEjtZTyfwECH071ZCkWBzXQCtt3ZtLZDaSdphFiOczkee8jjVWe0SI+mD/Bg+tD4ySD3kGQZgKgBsHL/7q3e+i6+i3i/g3jfZgTEStAIZMgwVIAlMoGhcg1yueC76HToP7AhgGiTV0ggRxuX4WZADpI8zxcP6uqqWt3zfVWrPFxWpRBlKVKIqoqI+HLnp3u/2PHJnrIUVfeIsnx/+vOjv9r12b4IRYTyXkGUkR2oVTj27BFavsybRz1VP/XLyA/OfeDxNwuxDTQw7VArFI8UnrApoo5NsQlTOz6pFf/jwffO+/WXKnbu3bszDigUAwcqFANur+v6MXdgdwdaYWQP3HH5t5wtDtSKh5cX6JvLgUDw12M/Hu+55J+iSuCHV377iX5GOm8l6SkUEgiyKZ0pjiSQCABAiuuMShBIzsnJtXbzkAChRICkrRQgM0QtQK40WYCW4eYK0FbaLRN5l9DX0QqSbq4EmXluBbm+XgYtS7zttfWNzOtInyE/fXHrNLx2XTNz2oxmUTNtFMqR8Li8uNkWJ1zHQxNhq3Mud5lrnHXGha5R6FW2hte61LoVstYXNWaaZobGIo25c8/tU95VrnbhmLGvslhzX5/guvXkiaAkgjlLLklEKp8r4fw=");
 
 export default Microscope;

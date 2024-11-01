@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-hair-buns` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair-buns?s=sharp-solid user-hair-buns}
  * @preview ![user-hair-buns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-hair-buns.svg)
  */
-const UserHairBuns: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M304 128l0 16c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-16c0-5.5 .6-10.8 1.6-16l46.4 0 32-32 32 32 46.4 0c1 5.2 1.6 10.5 1.6 16zM40 192l65.3 0c19 46.9 65 80 118.7 80s99.7-33.1 118.7-80l65.3 0 0-128-73.1 0C312.7 25.7 271.4 0 224 0s-88.7 25.7-110.9 64L40 64l0 128zM448 512L384 320 64 320 0 512l448 0z" />
-    </Icon>
-);
+const UserHairBuns = createIcon("user-hair-buns", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABZwAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBSwsGAAE2AiQDCAQgBYMtBzUb0ATIjsJx7xbNza8MEUEwV1WdZIEPIceMDkixAhRm7TnOKRYS+AHV6tGTTfUaHlrlMmLg72+e//NPH/AZhTaWTd24QKI5zxNIrMsDDygLLNMAKNasnb3iB9ENFulTPsmwuWFzQBYP0svKSO4lH3Cz3jT+1t5lElUpgGgGgGlrVixSfI2vEe9LTby3AAExDeQCKVJ0EmCiVKCTTI5MJvgapVL6B+YEEOXw1QnIUIa5WA7IQCLNsg6dq2rK6rLVNWXVe4SHfWPk9FcXiwttEQOiX9TELVtrqmse9ctRO6C6IiKqo7G/qq/0jb4edq1etbo2VkZd98Zm+rfbh90fDJnSrFmzWL2rWbNdq6OZyraDlZQM1rayYsq0adN+NP35899005w3T23xqmfPV0XtPOfvkC+jPFU4RQEEgo97fu+4pWFiUyUS8P3J///St6hURJE0olICgnRgaaCNUUAUAgCQxGndo0AgMVUKV611W4BQjQCJctUCpDpqJkCm2gABynQxSoBy1VZIRVYltLJpQKLWMUiNdgYyrTyGMhO99sq1ipRNLBfYz1zSbItmreXDBg/Nx+fLWOcIQuf5hHxb6Xtaa/1k125HHHbSLjvtc9KQ4xaFpxwy28OzPCg3zGBD5cbLj7Pn7dV2Oe6EfY44XJZMkN83+jrtd/cTPQHK4SKJhEjqn6A9aO+2fc3dfurwCQAAAA==");
 
 export default UserHairBuns;

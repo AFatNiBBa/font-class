@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-small` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-small?s=regular square-small}
  * @preview ![square-small](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-small.svg)
  */
-const SquareSmall: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M256 144c8.8 0 16 7.2 16 16l0 192c0 8.8-7.2 16-16 16L64 368c-8.8 0-16-7.2-16-16l0-192c0-8.8 7.2-16 16-16l192 0zM64 96C28.7 96 0 124.7 0 160L0 352c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-192c0-35.3-28.7-64-64-64L64 96z" />
-    </Icon>
-);
+const SquareSmall = createIcon("square-small", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABWAAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBGQsGAAE2AiQDCAQgBYMtBzMbnATILgbsdhMERQsVEc7dMPjs1lv75UJDMUKSWYJsLGf37hFcUYNCEhqNrlIEvs7VmE9t/Y8x997MQ/y3JCptyaSpII3GdZKmNSxy9DUMnqdT3wXnprXIAmQBHB2EB1JssT+Y8+Xr/f9uPr/nRwf4jQ6tMWlpIAtsz+cJJFgeaVZAASWegFWHjrqNL7wcZNUkeuQYki40D6gxiDvU5LcBHttF45/CLUiNAoAYAwBX9406zlpppf7lC+KXHQTEFWAdUVCwjOCUUmCZyjqoqmChRPwfKCCAaIL3SlBRsQ0OAFSQsqpspVFtVrV7asPgPQHfYgPvU/IhM7Z/JvI1B7/nt97Il/WjIp+X98FgP/z3Tz0ltOWNu3iDzZdTAEy6Z8xJcHpTzF8DAkG+/YusmW+7pwD8nf/wDcVlvgNtCYKyJRvDuAbiEgEAGdfsUQCBtEGBZ+37gCB0ESA1dQUoltgQVF2bCBpWRRE0dV1TiqpHmBsBUt8DFPtuoJr7hIZT33bTPJSi4a6c+7Ml10bVNQn6ApKSZazzOmBinpZtzXGt5rRdTO1sXZoYW7iMHNW9Kxu1DFc9SAT5BIgUKWePcjv76MJiLtaXpMl5y+E673aaqUDqNl9KIk0PT/XKCQAA");
 
 export default SquareSmall;

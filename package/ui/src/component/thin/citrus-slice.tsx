@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `citrus-slice` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/citrus-slice?s=thin citrus-slice}
  * @preview ![citrus-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/citrus-slice.svg)
  */
-const CitrusSlice: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M421.7 2.3c-3.1-3.1-8.2-3.1-11.3 0l-408 408c-3.1 3.1-3.1 8.2 0 11.3l3.5 3.5c55.6 55.6 131 86.8 209.7 86.8C379.3 512 512 379.3 512 215.5c0-78.6-31.2-154.1-86.8-209.7l-3.5-3.5zM215.5 496c-73.4 0-143.8-28.7-196.2-80l34.3-34.3C95.5 422.7 152.8 448 216 448c128.1 0 232-103.9 232-232c0-63.2-25.3-120.5-66.3-162.4L416 19.3c51.3 52.4 80 122.8 80 196.2C496 370.4 370.4 496 215.5 496zM431.4 200c.4 5.3 .6 10.6 .6 16c0 56.8-21.9 108.4-57.7 147L269.9 258.6C281.2 244.8 288 227.2 288 208c0-2.7-.1-5.4-.4-8l143.8 0zm-1.8-16l-145.3 0c-2.5-8-6.2-15.4-10.9-22.1l97-97c31.1 31.7 52.4 73 59.3 119.1zm-171 85.9L363 374.3C324.4 410.1 272.8 432 216 432c-5.4 0-10.7-.2-16-.6l0-143.8c2.6 .3 5.3 .4 8 .4c19.2 0 36.8-6.8 50.6-18.1zM184 429.6c-46-6.8-87.3-28.2-119.1-59.3l97-97c6.7 4.7 14.1 8.4 22.1 10.9l0 145.3zM208 272c-12.7 0-24.6-3.7-34.6-10.1l88.4-88.4c6.4 10 10.1 21.8 10.1 34.6c0 35.3-28.7 64-64 64z" />
-    </Icon>
-);
+const CitrusSlice = createIcon("citrus-slice", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABjQAAAKqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCSAsGAAE2AiQDCAQgBYMtBzMbSwXIrgvosY8pBWOhnMix0saJuK7YiFcI/8TDw7r/zp03H9TSiELaSjUpboOioqqT2ubv8z/uve/b8Z2fAGxughvUmIQKsMFpoa3urK4WiirwPc3G2ytEP/9rAQrYf+Ka519FBZLEj/SLpEqQNWAm7yYw8GhMjfYHm00UZ93KSPWIrEiSkVrJPX7L+Z/bQRrXtmGTXE8+4Gw2VPxWZ5xEJgOAKAUAk1fmpOHha3yNeOue+GAuCIgpgFYEGbgbSWAcd/B2llaQSgVfo1v9D2yFACIbgic+myIPR8F1QAoSOSlL11GYL+EJhWwxK78gS9BwpbI2LlWp48XstwVfVvrlx4ccTdCsOjEn4mXCxHg4+nIlzH0/9El4wF4fftWLwYc+Tno978OytbM+LlpBHjeMRIEmv0AwV10Qb5Yvy8vP+1p2oprERMH9vrmfF6wkl6tQ4PV2Ftd6bXTqH5Vu/fXBB3dfLF06f9Xw4UMsLl8RWSyx55Qe5fVTZI3bvnyx4/1RldBxsM3vOYPixSb8yKRBtXn/yjUMmTxK2oLyn5/zfffMySX5xxoawC5ksWZKLoRJY5s2VeLPR8t3Sv75isjtPEtRPyyasz69oOTxc08u1KxW/K9aibUKQVnZDSAQjNz7q2Bjybj/uRiA709vJ0oieYRcCQgy/br7KU0AzRDBpZLop8cXBRJ7ccGoha4IEPIRIJEtX4CMBjIEpPL1RUCWZl4EZMu3FFOkfIRKZUNMFNojZowwIKYqHYtZxnlMZquMjDFaTMnyK5gzlYGUcXTwgEGtY1q3Bd1qX6Y0OLb12NPrYGzojZWo16Fdrzq1mvQS2y0t06dNqsak+CHKycaBCqHX5Wdnvkt269G0tt+PEkafTxj06+2N8DOI5hATEgmRiGp2fxVzW196");
 
 export default CitrusSlice;

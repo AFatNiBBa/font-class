@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-lock` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-lock?s=duotone building-lock}
  * @preview ![building-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/building-lock.svg)
  */
-const BuildingLock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 48C0 21.5 21.5 0 48 0L336 0c26.5 0 48 21.5 48 48l0 145.6c-19.8 20.2-32 47.9-32 78.4l0 24.6c-19.1 11.1-32 31.7-32 55.4l0 128c0 11.7 3.1 22.6 8.6 32L240 512l0-80c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 80-96 0c-26.5 0-48-21.5-48-48L0 48zm64 64l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16L80 96c-8.8 0-16 7.2-16 16zm0 128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm96-128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm0 128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm96-128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm0 128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M432 272l0 48 64 0 0-48c0-17.7-14.3-32-32-32s-32 14.3-32 32zm-48 48l0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const BuildingLock = createIcon("building-lock", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAAByAAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDbAsIAAE2AiQDCgQgBYMtB1YbFAbIhofvdb2e+57+2taaQQbGCgCD2CFx5S4AtJOWoMuMJq6pH+dPD1j2BI8SuYik9og8n8BuQKOyaErgCW0MwxH6BudNOqTQhpC+hyL+zxdrI92R3sd18f8Axi/6uZikQwYQXQGwdNumNY60opXi/fpl4n2rERDLQCWQkTFQgAWywECFCoVC0Ep1TSvquiKAaIifmUEDTXyJHwAFSJJ2RdF1xKTuaaTZ1qnYWj64PCQ0I+KC3reWV/a82YIQ941/avYrY58YJK7qdQtxfs+byzKu7H3rlZ363NbMd/WJuG10p3ik1y39xOMDFaNIvcqIuNM46uHTzr6CA4+m9s8bhFt6NSEbTX9r7zJu7mnxDduOZw97suuTvw19/+j3PffclDRjiSk6X355Z6mqpzmx9aiuXY/aGhua86vW+4c1XZ8/4PsplSnff5Bv9Hvnfj7puU3qfs0O6zGMY+H19muc99dVmtO5VWl1rsDO5y9+Yt95J64HAsGV3b/Zu6/Lgv/aNxP4+c0//kGXq4+kJelJtJdAkCfUE+xOS4BRA4ikONuwrU+K/Qhkd2onfdWObhUglAiQNJQCZAN0FaBQGi9Am8FmCtBQ2iSLooPQ054BSzo6DctmOQcr9PQS1maBt2INPSPbb8F2Cn+XqVZN4ZWTqqmTplTzqt2STrSynB6dX102jTmbt4yFKx3tFCc701EOO86ZE/R0a5JnOcmqI2SlN6pMNckUlXmqx9WXqq2T2OnOcNy2/Hyc+arvfWOcfdx9LLQmKe00c7JMpMi9QoB6ou/TTQwqHfpsyMECAAA=");
 
 export default BuildingLock;

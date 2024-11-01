@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-dot` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-dot?s=duotone location-dot}
  * @preview ![location-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/location-dot.svg)
  */
-const LocationDot: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 192c0 87.4 117 243 168.3 307.2c6.1 7.7 14.9 11.5 23.7 11.5s17.6-3.8 23.7-11.5C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192zm272 0a80 80 0 1 1 -160 0 80 80 0 1 1 160 0z" />
-        <path d="M192 144a48 48 0 1 0 0 96 48 48 0 1 0 0-96z" />
-    </Icon>
-);
+const LocationDot = createIcon("location-dot", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcgAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBOgsIAAE2AiQDCgQgBYMtB1Qb4AQjEaZysEj2j4VsDnF1q1hTTI1wloYvXTTxSjw86EW9n2RmAWVtVmDlyjxRFVVdPQFQLPN/f/P8n38K8HHTaSzsPJAFusd5Ap0Hkm9KKAsszdCydnalfqDPKn3wSYZFZxgtkMXu9LACybnkA5zU/wDGX+o5LFEuBRBVATB09vSJXvk+vk/ig9IT4gMTEBDDQC6QIkVDAQZIBRrK5Mhkgu+TUsn3USrlAogifXIKiihgMMYAMpAISZZlKjWqVKFQKZtVoVB+/s26Z+uda3mnwYX651ull7pGPDo04tWOpyocrfPw8Ne7P97kq2mfzfpiyiczKl3s80y/5xpf6f9832cbNbuv6n3/NP1g1Qde7nz116ef/vVqOuKBht/5c5XVVy9Urnzh6upVf37XMKbOnDk1qAFuTK1acfXOnasrXgcCQevSpxZXGfB/2QoJ+PG5/8r50quxP7kPZSUgSDuULIj9AHIAH5XELs1ivyMEUu0k8l0rOh0glEeARFF5AVINVBUgU157AQoa6ylAUXnTpSIrJ9S0sEKioq2Q6mUPZGp6HAoGeNssqhkpjUQSiJ+4tOUoi0aO5V07dcn75VNfkZjBx37/fFlvs0tybTFr1eZNO1auWLvDENsmOjs3jvLwyBfzrp265P3y7ehWm2XMbdvXjpX9If3z80abXX51W0yTALpdgCslkkhrEtDpuGLzjo6MLNbuKI8P");
 
 export default LocationDot;

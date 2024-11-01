@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-star` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-star?s=sharp-light calendar-star}
  * @preview ![calendar-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/calendar-star.svg)
  */
-const CalendarStar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 16l0-16L96 0l0 16 0 48L32 64 0 64 0 96l0 64 0 32L0 480l0 32 32 0 384 0 32 0 0-32 0-288 0-32 0-64 0-32-32 0-64 0 0-48 0-16L320 0l0 16 0 48L128 64l0-48zM32 192l384 0 0 288L32 480l0-288zm0-96l384 0 0 64L32 160l0-64zM238.4 240.9L224 211.7l-14.4 29.2-23.5 47.7-52.5 7.7-32 4.7 23.1 22.6 38 37.2-9 52.5-5.5 32 28.7-15.1L224 405.4l46.9 24.8 28.7 15.1-5.5-32-9-52.5 38-37.2L346.3 301l-32-4.7-52.5-7.7-23.5-47.7zm-27.2 69.4L224 284.3l12.8 26.1 3.7 7.6 8.3 1.2 28.8 4.2-20.9 20.4-6 5.9 1.4 8.3 4.9 28.8-25.7-13.6-7.5-3.9-7.5 3.9-25.7 13.6 4.9-28.8 1.4-8.3-6-5.9-20.9-20.4 28.8-4.2 8.3-1.2 3.7-7.6z" />
-    </Icon>
-);
+const CalendarStar = createIcon("calendar-star", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiwAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCdAsGAAE2AiQDCAQgBYMtBzQbeAXILgacsokOX4pqytZiaOEv5LmcEO7Qiufp90vPff8FQYV9olCFdRzKRNgoBVwCxYrVjm+F36mtEevzP+6990PY3iQlWA2qC2lnocChECW7bXnFwpxf3O8Zkh0/cTn9cf7bx7YXf5T/5tapy8aa5wkEWNTlnfcCtcEyTcDSaNubASO5hHYQGmeo2QnIKU9KcJF/aP5z24KiNgDIKABg96S+DhfttJOXzjfIHzUgkD0AC4gGDWYQbJAKZsgsgKoK7XT+zX+ggADpBi5dQEUPXoD3ACoouqosSa2OitLK9bKmUKNpJ9JPCEiDSSkY0JNSIqrRcNv2QbJBr9NLqKOUBQjz2ehxe1yMZSlDGcU8CroYwRxmMYweBrOAMQxnOeMbvC6vm/ZSn1VG0kY73W5Hw4TSSycdzQg69wfvmfZ+HGr1qwmVAiaJCheEB0ACfO03zO0kwmRbdSHx9HhtbQ1Yc5/VYGG68O9lMMuqdL+GNNjU7c27d2+6bWow5Fe61anSR9yJDDOulWqktG9Xv3nbaikdKXVtRgZAEN63es2Y+6fSSgD/fr/qV9S5YKt8AL0KCM3SPx25ANJCAEDJEoJzAYLijhy/1kH3CKIfAUW3fgGNaSYEVb9FBF3mpCHo1u+AVKoaMamzE4pB50Jj3bJQTToXumy4z3SbjJREbQRm+0HMXT6Ey3aJpPhEkS1WOxo71VniZo44HI5cshNR/CSGTJuyYNCAUQsDak5dftGk8i2kzBcJSeIlErKJy/2nx5sMmjNv1LSpbJsc4vl4pKXt+VE8JgHNZS1FIUX/AnviviMA");
 
 export default CalendarStar;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comments-question` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comments-question?s=regular comments-question}
  * @preview ![comments-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/comments-question.svg)
  */
-const CommentsQuestion: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80.7 253.2c14.3 15 17.3 37.6 7.5 55.8c-1.1 2-2.2 4-3.2 5.9c-2.5 4.5-5.2 9-7.9 13.6c17.1-4.5 33.9-10.7 49.9-18c4.3-1.9 8.5-3.9 12.6-6c9.5-4.8 20.3-6.2 30.7-4.2c12.1 2.4 24.8 3.6 37.8 3.6c96.2 0 160-64.5 160-128s-63.8-128-160-128S48 112.5 48 176c0 28 11.4 54.9 32.7 77.2zM416 176c0 97.2-93.1 176-208 176c-16.2 0-31.9-1.6-47.1-4.5c-4.6 2.3-9.4 4.6-14.2 6.8C110.5 370.7 67 384 24 384c-9.6 0-18.2-5.7-22-14.5c-3.8-8.8-2-19 4.6-25.9c14.2-15.6 26.2-33.7 36.6-52.1c.9-1.7 1.9-3.4 2.8-5.1C17.2 256.1 0 217.8 0 176C0 78.8 93.1 0 208 0S416 78.8 416 176zM245.2 381.5c17.2-2.4 34-6.3 50-11.8C322 405.5 370.3 432 432 432c13.1 0 25.8-1.3 37.8-3.6c10.4-2 21.2-.6 30.7 4.2c4.1 2.1 8.3 4.1 12.6 6c16 7.2 32.9 13.5 49.9 18c-2.8-4.6-5.4-9.1-7.9-13.6c-1.1-1.9-2.2-3.9-3.2-5.9c-9.8-18.3-6.8-40.8 7.5-55.8C580.6 358.9 592 332 592 304c0-59.9-56.8-120.7-144-127.4l0-.6c0-16.6-2.2-32.6-6.2-47.8C552.1 132.5 640 209.6 640 304c0 41.8-17.2 80.1-45.9 110.3c.9 1.7 1.9 3.5 2.8 5.1c10.3 18.4 22.3 36.5 36.6 52.1c6.6 7 8.3 17.2 4.6 25.9c-3.8 8.8-12.5 14.5-22 14.5c-43 0-86.5-13.3-122.7-29.7c-4.8-2.2-9.6-4.5-14.2-6.8c-15.1 3-30.9 4.5-47.1 4.5c-82 0-153-40.2-186.8-98.5zM147.9 112.1c5.5-15.4 20.1-25.7 36.4-25.7l41.3 0c24.2 0 43.7 19.6 43.7 43.7c0 15.7-8.4 30.1-22 37.9L224 181.4l0 .3c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-9.5c0-5.7 3.1-11 8-13.9l31.4-18c3.6-2.1 5.9-6 5.9-10.2c0-6.5-5.3-11.7-11.7-11.7l-41.3 0c-2.8 0-5.3 1.8-6.3 4.4l-.3 .9c-3 8.3-12.1 12.7-20.4 9.7s-12.7-12.1-9.7-20.4l.3-.9zM185.3 244a22.7 22.7 0 1 1 45.3 0 22.7 22.7 0 1 1 -45.3 0z" />
-    </Icon>
-);
+const CommentsQuestion = createIcon("comments-question", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABuAAAALtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDMQsGAAE2AiQDCAQgBYMtBzgbuQXIHge5OfSSpHLALAwveJ7Xqz/3TbIAs4Q/XAGsYHQwK7fW8ADcL99F9LI026af12kws/kJjdYFzP8/l9MbC+QAv/j5oczR1POmR3twL4GAx7I5OJAsK2HL2py3+IMkQkhIHJ+aPQ1bP2ztgRb6I0vQod7ULWBxfiv5xdtcUPQIAABSBAAAijpa6nh/KS9FbpoPg3SpAQKQTQAGASas8CMAcpkI3oPGABqN4KWYzdt/oAECAIlT9lYANGAJDgE3ANDbg6JHtcCgjEh7W91ea7fVbTr2eq2oplfvHl/dWF3bmXlacHZ429qZ4FHuqYGZqwMfNYrca50XvqJ6rXWVx6rG/s7qxqzGmaGnLQ87Hjfdb2vdHbF38fjsfCNTW2mOjsfX102fDW3KPxOIzPIJwS253Yy1kyurK6pPqvN6O9JXqm/Ed6+PsJWd7ivNDA0VJAlRvBvzjJHV0kwbFnXMY1VD2rS1esF0o9Wh4H3Fff9Bt4bcovFC1zvl8myFrJrcPODp5xDXStm5U3bhkOXSGKmvleotsLVDvAYOGDCvSL0c2mdfxRtBQrcdr8UoILh1S/usfbeXT6g2nF66uX7+bG6evCo93UU9q5IYh9ZBRbrgHbRq/UZKpeNtF3lbsa/3sJdFat6AgYO87ln7bDiwW700GqfuKRfvXkMJsf94ZW+D9csrmi1tlkSTWBGGPrycJ6FzcruPHNltX58HAAGCnaOfnunrmPstaasAeH3iw3e50NxMzVX7ACsKgMA0Y46ll5o5QQ5AlIQKjWcIv4QA5QA6+HZWWdPCBicoFmzAxJcTaGzEgC5AmrQ4u4UIiVoj3PQGKHZGgUm6aaBxcxB0ua4mLLiFTA6suJ/y/5hZznjZKCMpPtHINoZ5TfVJKfXnGMuhyPFSF4WVnHHPHS+ccsIlL8Q+sZ9+5Za9GXf3uwOSxEtkyGaYS2szIKGazyz2PezD5DDe9yONn7eOQjSs8CbLUhQk7OzdXtxnDgA=");
 
 export default CommentsQuestion;

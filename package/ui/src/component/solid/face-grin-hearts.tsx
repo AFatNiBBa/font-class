@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-hearts` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-hearts?s=solid face-grin-hearts}
  * @preview ![face-grin-hearts](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-grin-hearts.svg)
  */
-const FaceGrinHearts: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM388.1 312.8c12.3-3.8 24.3 6.9 19.3 18.7C382.4 390.6 324.2 432 256.3 432s-126.2-41.4-151.1-100.5c-5-11.8 7-22.5 19.3-18.7c39.7 12.2 84.5 19 131.8 19s92.1-6.8 131.8-19zM199.3 129.1c17.8 4.8 28.4 23.1 23.6 40.8l-17.4 65c-2.3 8.5-11.1 13.6-19.6 11.3l-65.1-17.4c-17.8-4.8-28.4-23.1-23.6-40.8s23.1-28.4 40.8-23.6l16.1 4.3 4.3-16.1c4.8-17.8 23.1-28.4 40.8-23.6zm154.3 23.6l4.3 16.1 16.1-4.3c17.8-4.8 36.1 5.8 40.8 23.6s-5.8 36.1-23.6 40.8l-65.1 17.4c-8.5 2.3-17.3-2.8-19.6-11.3l-17.4-65c-4.8-17.8 5.8-36.1 23.6-40.8s36.1 5.8 40.9 23.6z" />
-    </Icon>
-);
+const FaceGrinHearts = createIcon("face-grin-hearts", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABiQAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCKQsGAAE2AiQDCAQgBYMtBzcbMAXIBp7v7b7Ofd0DuHciyyvnUi4jndpUzv7ENc///OkBS1/4UaKxtLFAnjLPJzDAaG97H+jABjKCCdh2Z3s2kVo5lqTJkhyfOS4XoMsVbSNmoPaop8AmeVP5hBcbQWGlAQAgjgAAQHZjbTk3F2RB5InpHMgTSgEBkGwADATQAA3wRQBIQ0MAX3QMQEdHYEFMJvwPNEAAQMzhmRUAOmAOzAIbAQAdAIWu6z4efr42ZnZ6Q3yNdf2HSpEXuXdkXc7tiucNb8ueZt1kbfat8mf1jbvcRHa4Hk26mHc/5XLETo9dbo/qP5Q27Bjh6mS7e4PsdKfIcRMPEUy9m7ubh5A2tMN1O4ukeirwsOPhL4ueDjzFlJnPZtiS6pub65u6ZXM+GMXVG+5vrYf+5LDly6OMMnNacH3/+lsFFHLq6oU3o9AS7phF++ssR960joSnn9v/+jeZpJ/f93qvRyav+MWb/efSw0da35gred3umEV4y+ib2+f19wBAAIEVmw5963RI+2NpowD4ePnbf/kVmW4q1GHAEgWAgBZmCqNNAaBAAAAAACWLCVQAAihG0eHAlp3IycAakKCbYw2Bhg+ODdaxJhQ2w594enF/LRqiWyG40g6wwpZpWCOBVbCOK2dgM9J44JrjKprzsa7D/v2SCnogf5kRHRFlpBjTSOX8iU7TVGNZDlpMlWA4wwCTTDBHP30MC9lBM5QH84xTYIH5fBCDaCKIwiAFYztdH2+gnxlmGWaSibxIKsZ5PYjFdnswaAomjCGkUCDK8WqHwgdnhifCh/ofCgAA");
 
 export default FaceGrinHearts;

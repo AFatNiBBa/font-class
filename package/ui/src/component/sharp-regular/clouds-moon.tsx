@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clouds-moon` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clouds-moon?s=sharp-regular clouds-moon}
  * @preview ![clouds-moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/clouds-moon.svg)
  */
-const CloudsMoon: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 140C448 72.3 499 16.5 564.7 8.9C548.2 3.1 530.5 0 512 0C423.6 0 352 71.6 352 160c0 11.5 1.2 22.7 3.5 33.5c53.7 8.2 96.5 49.8 106.4 103c14.2 5.4 27.1 13.3 38.4 23.1c3.9 .3 7.8 .4 11.8 .4c51.2 0 96.7-24 126-61.4c-17.5 8.6-37.2 13.4-58 13.4c-72.9 0-132-59.1-132-132zM335.3 272c26.5 0 48 21.5 48 48l0 24 0 24 24 0 8 0c26.5 0 48 21.5 48 48l0 48-32 0-31.8 0c0 0 0 0 0 0l-136.1 0c0 0 0 0 0 0l-88 0c0 0 0 0 0 0l-24 0-8 0-32 0 0-32c0-17.7 14.3-32 32-32l8 0 24 0 0-24 0-40c0-17.7 14.3-32 32-32c17.3 0 31.4 13.7 32 30.8l48-.9 0-13.9c0-26.5 21.5-48 48-48zm-208 240c0 0 0 0 0 0l24 0 112 0c0 0 0 0 0 0l144 0 24 0 31.8 0c0 0 0 0 0 0l24.2 0 24 0 0-24 0-72c0-47.6-34.6-87-80-94.7l0-1.3c0-53-43-96-96-96c-34.9 0-65.4 18.6-82.2 46.4c-13-9.1-28.7-14.4-45.8-14.4c-44.2 0-80 35.8-80 80l0 17.6c-36.5 7.4-64 39.7-64 78.4l0 56 0 24 24 0 40 0zm106-335.8l22.7 0c8.8 0 16 7.2 16 16l0 17.1c14.4-8.4 30.7-14 48-16.2l0-.9c0-35.3-28.6-64-64-64l-22.7 0c-12.3-28.2-40.5-48-73.3-48c-38.7 0-71 27.5-78.4 64l-9.6 0c-39.8 0-72 32.2-72 72l0 24 0 48 48 0 24 0c0 0 0 0 0 0l34.7 0c9.4-19.9 24.6-36.6 43.4-48l-30.2 0c0 0 0 0 0 0l-48 0-24 0 0-24c0-13.2 10.7-24 24-24l9.6 0 39.2 0 7.8-38.5c3-14.6 15.9-25.5 31.3-25.5c13 0 24.4 7.8 29.3 19.2L202 176.1l31.4 0z" />
-    </Icon>
-);
+const CloudsMoon = createIcon("clouds-moon", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABuAAAALvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCEDQsGAAE2AiQDCAQgBYMtBzIbDwYRVaIBkH0kxm64P870iM1QEg8fbWXvA901gTEhzpgna6J+XL+ZnjQA/v5UzaCcB/B7AONBGfNRJi1Pu0H2wikQwGh9LKDatoIFGMrQ0W03QVTXbZ3GDrL4Oy5SI7k6eQ8XWl8aP5jpNBK1FEC0AmDlLTdd30tfx9cR7/7/uHjXugiIlUElkCLFHAGWkwrMkamQyQRfx///s//ASgBR59x7AjLU8R1+B2QgkWVZ76pLrV7UmrItilq+560rRjy45h35Z8s9t9lJMx8fvXvu7YPnFueOPzl+W/7GCi/0bXZ7V8TlhCiKXGRRnp8cJ2N2lOcRV/ZcWWA3AsG5o2BJE7s2M7zZyRGaKgotZEREnDx2zxL4DcnnDNxW3pE/NnLXHHEbwMpkUWxb5MXlXeLOYYhdYw7l0Bu6Y6jLyAcoSy3EteOnMK8dJjA/vO3tM2dG0XdP6z0/9b63x3teXDRN+WPorDmrxnvvxaptCw5/992j1myu14d/bdn2uuqg1VfrOejUld7ji86SqzfkPLt+gWo+nA22AuVIpemss5oaytIIgGbzd/6qWfr+5ws+/AUoD4KLloKyLK1lYO+th0LDPfecNGu7dV9bflbr5ntEu8ezzqallMqLN+zp6fmmqc22l4a8re2mHqctN3HSRyuvtG3u60UXayotsKCEfl+8PA8sKEtdG+fDh9vy5JUOfs98IBAs+HHGLTu2LPdXQ5GAb5/55RfGyf+/lJyQ3IMGCQjSif8ntktOQtITJ4CVTeIIfTBlgcQ3MnA+tdEVAoQcARJ1uQCp2VoFyOTGBaiZZ3EB6nKbSkU2Q+i0fY4SjQ5GqSUcjzKdHkU1y3kzW9cZ6eUuX6zy12bg1yiTq8dVC6cWVMtUnXWpcgWLen7ZarQ1cgTvG4Vb7XHgAYftvtveh5XoQ9YvHL7/Gn2s1VOsFk4tqJapZreuwxY4e8ihe7dr8zdZtlo/HDmif/QodBMO5yIViYRIiv8e2odOvjIAAAAA");
 
 export default CloudsMoon;

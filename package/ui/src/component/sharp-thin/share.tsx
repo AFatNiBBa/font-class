@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `share` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/share?s=sharp-thin share}
  * @preview ![share](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/share.svg)
  */
-const Share: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M97.2 464.3C114.9 475.1 128 480 128 480s-10-10-18.8-27.2C102.2 439.2 96 421.2 96 400c0-61.9 50.1-112 112-112l64 0 16 0 0 16 0 64 0 16 16 0 16 0L500.2 218.9 512 208l-11.8-10.9L320 32l-16 0-16 0 0 16 0 64 0 16-16 0-96 0C78.8 128 0 206.8 0 304c0 87.1 59.3 137.2 97.2 160.3zM85.6 437c-3.6-2.8-7.3-5.8-11-9C44.8 401.9 16 362 16 304c0-88.4 71.6-160 160-160l112 0 16 0 0-16 0-80 9.8 0L488.3 208 313.8 368l-9.8 0 0-80 0-16-16 0-80 0c-70.7 0-128 57.3-128 128c0 13.6 2.2 26 5.6 37z" />
-    </Icon>
-);
+const Share = createIcon("share", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbAAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBdQsGAAE2AiQDCAQgBYMtBywb8QTIhofn8x479yW/SIpUTmkMiP3srGI1sLagpk49z3kogG8UpL00IAto7/MIVLReqnXztILVtALW3dkcJKXlIGktRsvx2fHZQR4P26dBuiq9gsvyh8bXuriUJMsARAWA2RvXLvfEB/FBxMv/30u8bCkCYjaoBTJk6C7ANJlAd7kauVzwQfz/v/8PrAkgmsB7TCBHjm04CpCDJOX5yP5lo2W+oWwU628rL+96ddcbhh6YWJZCiLLcGJ2iY2yIohCC2/udVW+se3f4ocFdL++4f8j+nu/PfHxjWUZElLE+1kURsZ3DPjPtkfrCLn32V/u/7f3K4a/Y1fr1VP95T+vW/33/w6yqMkulqu6+1UMeUuWKH2PXkogqlqRZn/32wf61805u1aqIua+8MjdOrCqrFA7dUG5dWKVSrVo1d1yj/SogELz36Tn/7Ww97ddmZQIfPfT91+1n5P8PkrQfzSQQZMP+H2ZbAokAAKQ4XZ8EgWSdBN+1hcsFCAUCJE0UAmS6qQTIFYYK0NDTeAGaKKyViby50N72AZIWTgKZCc4DufbuBg3TPG830T4yEyMNhPzhxS2g0PxN9egRo+op9TLRKavB03JqfawNOj00BsNWhzvB8U51mH2OcipBTrbcO81xFkjwfF9UG22EUWpT1Op8zm0g9slOcdRcpl8zVX3fGuR0uX8wmAmijuFLEpEa7xEAAA==");
 
 export default Share;

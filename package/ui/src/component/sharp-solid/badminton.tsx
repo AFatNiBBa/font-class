@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `badminton` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badminton?s=sharp-solid badminton}
  * @preview ![badminton](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/badminton.svg)
  */
-const Badminton: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M240.2 112.2C272.6 79.8 312.9 64 349 64c28.2 0 53.2 9.6 71.3 27.7S448 134.9 448 163c0 36-15.8 76.4-48.2 108.8c-59.4 59.4-139.7 60.9-180.1 20.5C201.6 274.1 192 249.1 192 221c0-36 15.8-76.4 48.2-108.8zM349 0c-54.2 0-110.5 23.4-154 66.9s-67 99.8-66.9 154c0 32.4 8.4 64.2 26.2 91.6l-48.8 48.8L96 352 0 448l64 64 96-96-9.4-9.4 48.8-48.8c73.3 48.1 177.5 27.4 245.7-40.8c43.6-43.6 67-99.8 66.9-154c0-42.8-14.8-84.9-46.5-116.6S391.8 0 349 0zM509.8 352c-26.4 0-47.8 21.5-47.8 48l0 32 95.6 0 0-32c0-26.5-21.4-48-47.8-48zm-46.8 96l-11.2 39-4.4 15.4 30.8 8.8 4.4-15.4 13.2-46 0 46.2 0 16 32 0 0-16 0-46.2 13.2 46 4.4 15.4 30.8-8.8L571.7 487l-11.2-39-97.6 0z" />
-    </Icon>
-);
+const Badminton = createIcon("badminton", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfAAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCIwsGAAE2AiQDCAQgBYMtBzAbIwXIhofn9Z469yUDOGOzg7iVqFKq5Hb/xDXP//3pAZOe4NEirbQ4Cixr5xMY8GwayQNJG84mitudbceQ0j5JS7OQ45zjsoc8vsyOKEO6mT7E+fKh8YsGjpBUyABEdQAMnztzsle/i+8iPig9RXxgIgJiOCgEMmRoLMAgmUBjuQK5XPBdlEr0H1gQQJTFd5tAjrLYgf2AHCR5ntdoW6N5pTJV8jmVylRc+Eml0+3vc2DYi6Pe7HB/HBw591S/iGcHvdjpQQc6D4q6MSumx1y87cj4aO6nM1/p+kh8OuLjWfPvrB1xpb6oFBG31L3WZlbjZo1rR+uoF81CaPGIJlEn2m5e0zQqtri/+v2/Nf9wzYf+mDq0f8cXXujY/59farb8H7fctLX9NrZRrlz77reU3LB0qVKMn/CnQyMrRVo/x4jvm45w69JhH/JRVlimkH30VbcuS+9me4ofJeJHuqiuIHbxkSF+xN9tBYBx2vSixqil1Qb9V75SAj88/8dv6sWlV9OwdD/KSyDIOpU6WZSGAZEDcFPs0cL4okCyQY7ftbJrAoSKCJCUVVGATCPVBchV1FGAMprqLUBZFc2UibyCUNvijiSVbUcyfexFcrU9gZQxyDtOWbUj8zzWb9iPX9IYCYxeVXTv0q0YUEwTjXMmOi8OLJaVdntCoz1stMZWW+yy2irr7RLwDpP93TYbY0Gj/VChuy66KQxQHOeP0hzh7LDTel04X2ag4r7Rzh67vz3oCVP2sDZJRKqwYvmqzY9G3gIAAAA=");
 
 export default Badminton;

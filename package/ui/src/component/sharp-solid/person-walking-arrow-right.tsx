@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-walking-arrow-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking-arrow-right?s=sharp-solid person-walking-arrow-right}
  * @preview ![person-walking-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-walking-arrow-right.svg)
  */
-const PersonWalkingArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M208 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM132.3 126.6l10 2 80 16 15.3 3.1 7 14 35.2 70.5 38.5 19.2-28.6 57.2-48-24-9.5-4.8-4.8-9.5-13.7-27.4-18.4 62.4 52.3 57 5.2 5.7 2 7.5 24 88 8.4 30.9-61.7 16.8-8.4-30.9-22-80.5-70.9-77.4c-14.8-16.1-20.3-38.6-14.7-59.7l17-63.6L89.9 215.5 78.4 250.1 68.2 280.5 7.5 260.2l10.1-30.4 16-48 4.5-13.4L51 162.8l72-32 9.3-4.1zm-38.6 209c2.1 3 4.5 5.8 7 8.6l40.7 44.4-15.7 39.3-2.4 6.1-4.6 4.6-48 48L48 509.3 2.7 464l22.6-22.6L68.7 398l25-62.4zM534.6 153.4l80 80L637.3 256l-22.6 22.6-80 80L512 381.3 466.7 336l22.6-22.6L514.7 288 384 288l-32 0 0-64 32 0 130.7 0-25.4-25.4L466.7 176 512 130.7l22.6 22.6z" />
-    </Icon>
-);
+const PersonWalkingArrowRight = createIcon("person-walking-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABjQAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCXQsGAAE2AiQDCAQgBYMtB0EbbgXIjsO44TuyxVL+4+FBr/7PTbKA82TNPviDLiF3oIoSxNQM89Sp5zkPBfA94kEZY3YsXQP3PK9ARB/bjbWe9wJWqyh2VK/SIB1nkX9XyOKf9EIlJNcncWkcq/hGhwtJVKQAoh4AC/o3rfHCh/FhxNvFR4m3rUJALAC5QAoh3QLMlgrTK2RyZDLBh1EsRv+BOQFEqfTFCchQiotxCyADiSzLaha19lWV1GQFdVrljrs7rm+/bvA9nTd03Thsc0try5ZoESRunBHjY2a0Qqmz0zZsJDpi+VQqYPgDfZNienRHe6yMruiLNiD288Lmq1vmYKkZQWfH8Jgbo2JeTDpgS2HLiLG2eU4iXGVlRFXVyLhuXowY+ED9A98NeHDvP3/b548//vltVbjq7MvTT19X52dHGbjERk/6w1VWeMsYyy3Rpq3fWV5wiZZ1lq6x7dg68z3oFo+4WdEcr1jW54IhHwxyps8NMVnRQd5R8JSLn3hsHcgXFEBu6+3XuSCfL7/gOgXvOAgIBLdc2DptT93s38qrEvDxUz98Fz2fFl9MzkoeQLkEBOno4mg7k3Ol0oNIAWkxiZMNhN8kkLhIBsa12jUChEoESJSqFCDVpV6ATKVRApToNUWAUpU2SUVWITTbNYBEteNAaqqzQKbZw6DEbK8XSzVHai1ZS8X+FSYtnSJLovIJY8fnM/PdgY6zabQ+nJVftoafzBdGQKiDHeNoJzrIgQ5z4gQ73prKSY6y9Ahd4odyE4w1Xm6m/PH4pVTAZCWdENHbWv78mFny7zPDnXy8fgR0EynhRB2JhEg6bbE2JjhpG7Pv+OOPOcV1AwAAAA==");
 
 export default PersonWalkingArrowRight;

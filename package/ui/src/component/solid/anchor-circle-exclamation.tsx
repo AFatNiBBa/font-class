@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `anchor-circle-exclamation` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-circle-exclamation?s=solid anchor-circle-exclamation}
  * @preview ![anchor-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/anchor-circle-exclamation.svg)
  */
-const AnchorCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 96a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm21.1 80C367 158.8 384 129.4 384 96c0-53-43-96-96-96s-96 43-96 96c0 33.4 17 62.8 42.9 80L224 176c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0 0 208-48 0c-53 0-96-43-96-96l0-6.1 7 7c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9L97 263c-9.4-9.4-24.6-9.4-33.9 0L7 319c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l7-7 0 6.1c0 88.4 71.6 160 160 160l80 0 80 0c8.2 0 16.3-.6 24.2-1.8c-22.2-16.2-40.4-37.5-53-62.2L320 448l0-80 0-128 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-10.9 0zM496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm0-96a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0-144c8.8 0 16 7.2 16 16l0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const AnchorCircleExclamation = createIcon("anchor-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABoAAAAKQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCdwsGAAE2AiQDCAQgBYMtB0AbhwXIjtRO90RMYgr+KZ35/koySMewF2askKlD6D1pMymBnQiA7/9zuec37WiBfD/xQ5ur0kDWGNxLIJHpkyIKs0QxlsxtcWULggzEIDJEhwxDnB/K8+WvwNUfZzkemD3mJbApv6m+kMtyMEQdAACUAgAAtOzfuyuPY4pJL+I3QC/oDAhALQGwCHAAByhAADTBQUABLhZwcRHEFI/Tb6AFAYBCyGMGABcIAweBkzD+eWDwXDe9V340MfAS3X6B549fnCFt99dm7dSS7F3Buswd9L1X+mCls/WuVzhdcKShr7UZ21mcuSMIhHzdrHS2SMrUifL78nrpZJke2p17ony20KemD/oGwbrsu9V8SVKgddm7tCRrp+8PXNdYulf9kpZUu9jorr+2we0q51lc9ULDO4FO5O4uczJvX3ntyETbM3ZmSbuyS51NOfu15OW4lzQfnrQaViclrS78jO7r0iNnz1ZK+rqAWY7lLTWg6hDjSEx8+3Z+5ebz9u2j4wih1i9ftlaPHglXcsqk04PFWN/5YG/38gZMzZJy5UpqGlNedVBsRM/MzJ6lcHMsqQdJMX4dAAQINnfZkTY8uck3gQHg891/8pPxX/HHZrE5C0QwAAicKvEqDDGLDRK2ICRuNI9S+CABhp14wEgAoqTwoYMhhA8O+aSAi09l8Ciirrh5uDcOcqOIDIYCDAnMBId6LACXDK6BRxOexEJkyIlROcLkV8SMdhppu8/WrFbDNrLLjqaEnZg2G9vtoMI8nqiIi4xjOtOYw1jGMJE5ip5F1+RcptLOotryRSw1qUYNLI2w7v6j0U/FZjGbiXPNv0tj7PloBebZ8ysiYhDBWjQYDMjkPj1O1c95Jqv+ACM8curVAwAA");
 
 export default AnchorCircleExclamation;

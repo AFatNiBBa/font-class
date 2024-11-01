@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-history-circle-user` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-history-circle-user?s=regular rectangle-history-circle-user}
  * @preview ![rectangle-history-circle-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/rectangle-history-circle-user.svg)
  */
-const RectangleHistoryCircleUser: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 464l284.5 0c12.3 18.8 28 35.1 46.3 48L64 512c-35.3 0-64-28.7-64-64L0 224c0-35.3 28.7-64 64-64l384 0c23.8 0 44.5 12.9 55.5 32.2c-2.5-.1-5-.2-7.5-.2c-26.2 0-51.1 5.7-73.4 16L64 208c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16zM440 80c13.3 0 24 10.7 24 24s-10.7 24-24 24L72 128c-13.3 0-24-10.7-24-24s10.7-24 24-24l368 0zM392 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L120 48c-13.3 0-24-10.7-24-24s10.7-24 24-24L392 0zM352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm221.7 80.7c-6.2-19-24-32.7-45.1-32.7l-65.2 0c-21 0-38.9 13.7-45.1 32.7C438.5 468.1 465.8 480 496 480s57.5-11.9 77.7-31.3zM544 336a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const RectangleHistoryCircleUser = createIcon("rectangle-history-circle-user", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABjwAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCKgsGAAE2AiQDCAQgBYMtB0QbPgVRlKvJOtmXBzwZvfEyBIZQqBovCr5GWJ5Q8dSicPgWxSqcyReznXEngu/X2L737w7T5lHEQ9YSRSMh0qwVQqEUhkqI6v+z37yPj5g8XDav6slEUyB02hJtJSGlbG3np6oQswE361oDKFqkAS6whNO5tX7P/PNlTuja98F5WyVfAZWYP3Xqec5DAXwOQdD20ICMZat7nVeg59Pax45FLRYkQhXFqpsSQSuK0sdDpAgtMsY/6I5zu0IV38jV5GsOHnup4ovLF6S6AIheAMDh2dwE6m1qB73/B/FuDATEIYBxhALIMAI7BEFeQWocVCrBB4li+w9kIIBo8McTVGjFPXgAUIHU9DRtyrIqKRKj0E45XbQUWdk2MlbtLgFTt68UPJsQZcguozYEGusvsc91PU3KoLO+7QUTcP7+OHq+wxG89Yf7g8L3N56gPZ4iHmF7vDtnLFf5HIZiqdaZTux+zYZ3hujjfZ7aGKomk7pNPRLVNxzOSpCaMOyirW+jwr0Zm23mDMHMT0XLCByNn8YZGB8wx2JmC3NcNKSrGtMh0Nsv/74z9cnj44k6vA8QCNY35U+rhv5fpZTg8/s/eh3/dfItoVWCoMyIPZbyDYAPwMu4Q8hYYyCde5Jl7fSEAKEdAVKjXYBiiBGBSrtpBGqjOhBotDsiiKpNGLS8QOp0CYo1z6AyqAZqO37cxmAI3kf7Dv3tlzAokYFVXMwVuJfVhsk4FFkX+/jYSNzQQBJQ7Dh14sq2LfuuBHZhIrh2bNBCB/wQK8opYL34cvv98KJtFy7tO3XSlunD9zsJN/b4JGwJJlxyQ0oiRy62N6/WT3aPtrOvqZL9W0fMui8AAA==");
 
 export default RectangleHistoryCircleUser;

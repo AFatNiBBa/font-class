@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-saluting` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-saluting?s=sharp-duotone-solid face-saluting}
  * @preview ![face-saluting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-saluting.svg)
  */
-const FaceSaluting: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M101.7 310C126.5 425.5 229.1 512 352 512c141.4 0 256-114.6 256-256S493.4 0 352 0c-26.5 0-52.1 4-76.1 11.5l16.2 23.9 18 26.5-26.5 18-26.5 18-30 20.4 35.5 48.9 6.6 9.1c1-.1 2.1-.2 3.2-.2c17.7 0 32 14.3 32 32s-14.3 32-32 32c-13.1 0-24.4-7.9-29.3-19.1l-13.4 9.7-82.3 59.9c-13.9 10.1-29.5 16.6-45.6 19.6zm125.8 44l25-20c7.2 9 39.7 34 99.5 34s92.3-25 99.5-34l25 20c-14.1 17.6-56.3 46-124.5 46s-110.4-28.4-124.5-46zM464.4 208a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M239.2 71.3l26.5-18L229.7 .4l-26.5 18L35.1 132.5c-44.3 30.1-47.1 94.4-5.6 128.2l1.5 1.2c28.1 22.9 68.2 24 97.5 2.7l82.3-59.9 25.9-18.8-37.6-51.8L173.2 153 128 185.8l0-39.1L239.2 71.3z" />
-    </Icon>
-);
+const FaceSaluting = createIcon("face-saluting", true, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABnQAAAKeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCVgsIAAE2AiQDCgQgBYMtB1YbfgXIjsK2bRNDLJYzqVriKYJqrOzZ3QcixQrRviQSHkLC5aMIhUqEjFBoxFUs+s/bfZ67EN96Zi1VVAWxcglGblO7Sso/099P/tX0vY0+Wq1aG4saM3k3gQG+m80iafdEJjRTnLk1NtEhQdwvIkR0LIl/sD1e0R1KGhcfgCTpvdhrwNP9fwDjN3QNQFKXAUQrAGDnOCUO1xX6LkY/hTOIn4gFAbELYBQhI2MQgXXiAoMkjIKiCCpJEKiEIIxCAFENbBatZgiPwUcABSQhlzLmpqUuL9lUjvL19ec2nE0wcZRKVwbLvCYdWOxYZZAN9QBfojjO+JJGxLd8S3gXcpfxNfg2/m36mKsu8cQVuEGkSePy45oz6OmcltvV06BU2jZPs+FsZix23C6t9rR5mjbfDn203NXKmCeIpH5Ma1ZrTnvuBtj0s8rhb5PX5a/x59EG4Lliw94NpLs0f6og8dl6Q5IPJqWYdM1K/R7KnqhnhHgAtTOPItD7XFcHVYno1Z3ovZJb+w89EzZ84iiTWDTfjSgR0LH3BZLXEH/badOPsyLGO66vO8Yz+nHyX8SY6O/K7wlDApCS4t2IYrLtnwMEgk9frbILlH3/ycgn8OvL/x/Hm4JIuE6FYoeAWgkEeUawlZt6FBpsBwgqKR7AlKLlLx+5Goq/tdEbBEI9AiTV6gXIBqggUNSbRqDKMDcEqtXbJy5KndAp7zKTRtdmtqjTLDqdmlXWPZWrdYa4U7ou5f4SFgxvsbBDzMnekXmzadfp+Zm9bfswc5JrlymeTqJcg3qtypSq0trIzeJqbeqEa1KYH2Kc2HPEeGPLg/tgeio3a1E19q/v44M9n+W064t5yoiB5awjWSZS5K6QD9t9Pay1VtVX2MX3HO2BP5YB");
 
 export default FaceSaluting;

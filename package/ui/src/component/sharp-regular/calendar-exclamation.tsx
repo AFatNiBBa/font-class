@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-exclamation?s=sharp-regular calendar-exclamation}
  * @preview ![calendar-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/calendar-exclamation.svg)
  */
-const CalendarExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M152 24l0-24L104 0l0 24 0 40L0 64l0 80 0 48L0 464l0 48 48 0 352 0 48 0 0-48 0-272 0-48 0-80L344 64l0-40 0-24L296 0l0 24 0 40L152 64l0-40zM48 192l352 0 0 272L48 464l0-272zm200 32l-48 0 0 24 0 80 0 24 48 0 0-24 0-80 0-24zm0 160l-48 0 0 48 48 0 0-48z" />
-    </Icon>
-);
+const CalendarExclamation = createIcon("calendar-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABZQAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBaAsGAAE2AiQDCAQgBYMtBzsb8wTIngNuWwzhEHqeQ1SiGsJsP4pd8TzffuZ98yf0k+xuES2RYs1kkYxtFYFeIavqUKi6nNrq6vh8c/s3SXi7NkngN8Tr1hBNYtJovE7JVEJZQ1PlkQCn+zVaO3Uq53IeCuBzIh6kvTQgY/LsHOcVqNjitQBLtYJVK2hd3Ha1JqiENgiNxA5q3udKpLwtX7wIH5p/VrhA0WkAZA4AHL5QycGcZJL8nob8dgQEchiwHkGDBqsRsA8vWE2wHlRVmGQ6Ff+BMgRIV3pZARVdXATXAVRQ1Fq3DFwDS2dczw/F9kqQNjBUMsNx0gSrLWbWtufs2DouGaU511pasU9Okg3Izu0b5523n/Idfb2OUspAuU0UMU4Me5lzRRNu1Friyn2jTsI50eH8LjGXouhIan5hRAJ/HhCEu3/Wns3+71sK+Pv1/0fOnpr5VuZBXwGh2TzdrBETBDbATyp5To2JoDhJkN515BUCokVA0dUKaKziREDV2oSAjrViCOhqncFLHYjFmi0oRh6Bxl5nUC12Bx37PLyuxeGBiwEN5tMu0ejD+jJZCzI5LS/WKgsvlJ3PyLtN90n2efBGjKytHAwNTB166E4uPFoy1hDdF8k0QYwsTT7dery6bmhnb2pt5RfJkO933U7roz3Y4STCnUpFIWXxo9cf+G2F3V2+MA==");
 
 export default CalendarExclamation;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-code` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-code?s=thin file-code}
  * @preview ![file-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-code.svg)
  */
-const FileCode: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 496c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l140.1 0c1.3 0 2.6 .1 3.9 .2L208 136c0 22.1 17.9 40 40 40l119.8 0c.2 1.3 .2 2.6 .2 3.9L368 448c0 26.5-21.5 48-48 48L64 496zM358.6 157.3c.9 .9 1.7 1.8 2.4 2.7L248 160c-13.3 0-24-10.7-24-24l0-113.1c1 .8 1.9 1.6 2.7 2.4L358.6 157.3zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-268.1c0-12.7-5.1-24.9-14.1-33.9L238.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zm85.7 269.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-56 56c-3.1 3.1-3.1 8.2 0 11.3l56 56c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L99.3 320l50.3-50.3zm96-11.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3L284.7 320l-50.3 50.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l56-56c3.1-3.1 3.1-8.2 0-11.3l-56-56z" />
-    </Icon>
-);
+const FileCode = createIcon("file-code", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhQAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCLAsGAAE2AiQDCAQgBYMtBzAbLAXIHoPjbomhiWilmB51/7go1CMe/tuv3TcziEnCkya80jxuqGzbuMDpNEuNQ8gQGl7J5G/w+827L9gDpvZgIlqhTUXaiBORuFBo01TXIbXv+qZOPc95aJ6/UVDWoqWLF0hozvMIBDCWi6fDehWoFaymBaCydrchMyhvsmIQGfMgYmgzRE8osYo+OulJ+cNdftP4M2EPkpwBEP0A4PCythzeb35H/FUSr45BQBwBmEdkZEwj2KEKTNPMg6IIvqOq7H+ghACiFfSLEihoQwNcAyggaSlaXHfkoL/QbVqD0C3lT8HkUbjK85DjRMF9sU1EM+hQCG4hxUngQZx18DDIwqdw8jCovuchiXwJVXia/Bpv43Pqe4TK7eAGHlkszcfBR4FVPAiq5mHIcXANaxuPAhkjicOQWj7F+eb79s/fwJ8q6x3echP57T3Lg5Sgwe/lfWApqVa8FwknRF31yDTQf7u7cHEzAAx0bqFzYOAGGGVcK4Y/hps+hj31PflbtbWLKPgiak9DBxw14Wv6jwMCwXPVf2jNp+y/XSiA35cWvkWVl03lDbRLIMhrVZq22AKiiQAApFiAM7ZAILmio1ftdo8AoRMBkladAmRTfBEUnVYRtJiVj6BVp1OqKGaEYe0NJN3qINu2DophH6DFjk+v1XCo6scpD/f5S3ZzyLUmszOyZImcxiqvUUycl8ptLWnB1ZLhEAMmTZjTr8+wOYbMKA/njXOvYJcPkrJlyCKVkMfZcr9Bvxmzhk2awCWl5H0rycK6OxlMBZGuiySJSOaXrqRrJQAA");
 
 export default FileCode;

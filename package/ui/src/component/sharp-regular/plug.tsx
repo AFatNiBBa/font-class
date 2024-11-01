@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug?s=sharp-regular plug}
  * @preview ![plug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/plug.svg)
  */
-const Plug: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M120 24l0-24L72 0l0 24 0 88 48 0 0-88zm192 0l0-24L264 0l0 24 0 88 48 0 0-88zM24 144L0 144l0 48 24 0 8 0 0 64c0 80.2 59 146.6 136 158.2l0 97.8 48 0 0-97.8c77-11.6 136-78 136-158.2l0-64 8 0 24 0 0-48-24 0-8 0-48 0L80 144l-48 0-8 0zM192 368c-61.9 0-112-50.1-112-112l0-64 224 0 0 64c0 61.9-50.1 112-112 112z" />
-    </Icon>
-);
+const Plug = createIcon("plug", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYwAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBXAsGAAE2AiQDCAQgBYMtBysb1wTIHoPjbolBGIY2RD2vO36lfInn+d/v2z73yYho1OSIVmjiJZGoPzQmYZImJDTRKeUvKpk6z39Yc+/PPF7bn4jnW1sSE1QSpEJjV8nWPHQIhX4HCIE//5d7ftOODvAbHdpYuHTipLForp4nkFgvTzzKAgsowDwBa3DeqOZLoSmk36HOdU41lDflBy/ci+afJfcUTQWATAKAmw/LJbz100++u6/kj9sgkJuATYQKFVYRuEIuWKWwCWq10E/Xsf9AhgBpEb6tgBot7oBHAGpQ1LXCaLRO6RujojbS6NqRYUJkhEjf2IPhEV0K65EvV5/FvkPv118da3A9RSvf/BRpfcdn3m89Ju2SRfrfz+zH8zNBEKIQNEQ1fjfaxjnNDt5gePpkNwIujuyetA03aMhDzn4v5+Yb/txgPvdAEC6d3j30zVf+a0ZkgL+/EH9F3Vt6RcKgAkK11+3ppAfpCQCg5Iw9PQTFLQrhWUe9FBDDCChawwIqKywI1IbtItBYl0KgNewuudRaxKxuBcWoZ6By7BbUZj2BxhXvbms21W3F3hTsT11SsQuJlzgWjnKeZ0uZu1NofVrgzbL3jI988CZm9u05MTWxdNIhj5SCU1vFJUL0RiwmLIrl8eHm4fWaqSPHlvbt2XMK+Hrd62x52Qc1mUC5r1AUUhSfOw==");
 
 export default Plug;

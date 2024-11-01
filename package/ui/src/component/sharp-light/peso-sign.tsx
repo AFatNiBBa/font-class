@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `peso-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peso-sign?s=sharp-light peso-sign}
  * @preview ![peso-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/peso-sign.svg)
  */
-const PesoSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 32L32 32l0 16 0 80L0 128l0 32 32 0 0 64L0 224l0 32 32 0 0 80 0 128 0 16 32 0 0-16 0-112 128 0c65.6 0 122-39.5 146.7-96l45.3 0 0-32-35.2 0c2.1-10.3 3.2-21 3.2-32s-1.1-21.7-3.2-32l35.2 0 0-32-45.3 0C314 71.5 257.6 32 192 32L48 32zm254.9 96L64 128l0-64 128 0c47.4 0 88.7 25.7 110.9 64zM64 160l252 0c2.6 10.2 4 21 4 32s-1.4 21.8-4 32L64 224l0-64zm238.9 96c-22.1 38.3-63.5 64-110.9 64L64 320l0-64 238.9 0z" />
-    </Icon>
-);
+const PesoSign = createIcon("peso-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbQAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiCCQsGAAE2AiQDCAQgBYMtBzAbCQXIjtRG94xd4uGfOfHvS9KeLe2QMwAGh6BmiRx9UGwEK1TfDTKkNn76e3f+z/8GfEYfaWxbtGiNNo0xzhMIsKjLJ0kWWCT/PAHLb+d3hEH0NqGjTsgw3rD8/g2yOB49lEjuJz/jav7Q+EszF0hkKYCoC4Cxi+fP9M0v8UvEz18ifjYdATEOFAIpUrQUYIRUoKVMgUwm+CW+fPH/gQUBRBkKnoAMZWzBbkAGElmWjaxWqpVSrWxRpZQvzyu5EHmIioEwVFOJ74a/690b8rgbZxv7qufD3k7KFx4yYnSx66OuC1pcue1Mw6Fp4cMuEQ/z3J5v97ju43/8vOlnvR/UhWuOwmFjFDRHz6hr1rWnvrJ16bCeCu31qlevV3uFnoYt3Vr32ufV/+HUGGd0+Pab6r9tPkIaJRZg1Edj/l1d/YZvO5wxxn9AIPjzxYthq+uM+L9GJQG/vf3v8iv68kucSR6jhgQEaY8vPayIMxBnBAAgiUPaxRkEEmtk8K5VdwQIOQIkynIBUi3UFSCT6y5ASWsDBSjLzZeKrKbQ0MoOElV7QWqQkyDT0BtQMsJ3SVnDSJWNUxXuXy95EocmHiv69upTDCvEvsrrDxP3hxfbapdDYa4rXbXJbrscsNEGWx1g5D4z84N2mrSCJ/qiQl+99FEYprgePV9eZKN99ttqt13pkOGK904Xh9aru5KRAGU/LYmESGp+YVR66ikAAA==");
 
 export default PesoSign;

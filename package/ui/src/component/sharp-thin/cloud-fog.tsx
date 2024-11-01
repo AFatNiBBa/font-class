@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-fog` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-fog?s=sharp-thin cloud-fog}
  * @preview ![cloud-fog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cloud-fog.svg)
  */
-const CloudFog: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M464 128l0 16 16 0c44.2 0 80 35.8 80 80l0 80-80 0-320 0-80 0 0-80c0-34.8 22.2-64.5 53.3-75.5l10.7-3.8 0-11.3 0-21.5c0-53 43-96 96-96c32.4 0 61.1 16.1 78.5 40.8l8.9 12.6 12.9-8.4C352.9 52.8 367.9 48 384 48c44.2 0 80 35.8 80 80zM64 320l16 0 80 0 320 0 80 0 16 0 0-16 0-80c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C311.3 18.8 277.9 0 240 0C178.1 0 128 50.1 128 112l0 21.5C90.7 146.6 64 182.2 64 224l0 80 0 16zM0 400l0 16 8 0 560 0 8 0 0-16-8 0L8 400l-8 0zm64 96l0 16 8 0 144 0 8 0 0-16-8 0L72 496l-8 0zm224 0l0 16 8 0 336 0 8 0 0-16-8 0-336 0-8 0z" />
-    </Icon>
-);
+const CloudFog = createIcon("cloud-fog", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABewAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCFgsGAAE2AiQDCAQgBYMtBzAbFgXIjtRe8cVEUjz8v91/7XOrHrR+tVy/RYzoaBxZb0KI6YSNcKx4n/9r6sXzowL5fASHFmmljbH0rucTGGC0V4GXDWcTxVk7+/qYcGWSRI5k2H5YLTaQx99OUCHdnT7DbfFD42tD3ECSZQCiAMCqg/ff5q3dsTvi0/+fJz61BQGxCpQCGTIMF2CpTGC4XIlcLtgd///v/gNLAogqPEwCOWo4CxcCcpBU8nxyb6PRaFU6+UGtSvNkoRXPT3p6hGi2I64ddu+EQYGJD055ZsH70wbEoHiyxahjWs2etIgHJnfnp1E3jn1j/XMTnxouHvPQ4BQHCK253jwmwS2kBXfGj+4W3W97PzvpM1+uKHC64sSDYqedt+80bN++kx/VNkC9272m94XLfWjpYKbf9uaSYeeQzaeNOLvz8A//9Qz08qBaz07Fih1FUdQXFuq/H13gu9SNCh9yPxAIpqxsfnV0z9Jf660E9r7ytR7v/7fSNamLugSCbOr/Ux2RrgFHDyBMcZHR5IsCyUkq8K5tdwgQmgiQVDUFyAxTCJBrmiJAxUjzBKhq2l8m8obQ35EVJG3ngsx8V4Jcf8+CiqU+DKr6R2ZzvMXwL76U9S26blg5a/rMcnE5zSuCGbG0f0m5rU28yNdNkrVOcrazXOBEJzjVBQ1+nm2xC51pPcPW+aHSLNPNVFqsPC7dLz/Iic5zvlOd7awwyBLlfWuii3jrSWImYJwtI0lEanw+6E876eyTAQAA");
 
 export default CloudFog;

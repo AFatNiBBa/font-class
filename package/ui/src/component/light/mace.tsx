@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mace` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mace?s=light mace}
  * @preview ![mace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mace.svg)
  */
-const Mace: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M278.3 95.8L288 66.6l9.7 29.2c3.3 10 11.4 17.7 21.5 20.6c36.8 10.6 65.8 39.7 76.4 76.4c2.9 10.1 10.6 18.1 20.6 21.5l29.2 9.7-29.2 9.7c-10 3.3-17.7 11.4-20.6 21.5c-10.6 36.8-39.7 65.8-76.4 76.4c-10.1 2.9-18.1 10.6-21.5 20.6L288 381.4l-9.7-29.2c-3.3-10-11.4-17.7-21.5-20.6c-36.8-10.6-65.8-39.7-76.4-76.4c-2.9-10.1-10.6-18.1-20.6-21.5L130.6 224l29.2-9.7c10-3.3 17.7-11.4 20.6-21.5c10.6-36.8 39.7-65.8 76.4-76.4c10.1-2.9 18.1-10.6 21.5-20.6zM149.7 183.9L74.9 208.8C68.4 211 64 217.1 64 224s4.4 13 10.9 15.2l74.7 24.9c5.3 18.4 14.2 35.2 25.8 49.8L4.7 484.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L198.1 336.5c14.6 11.6 31.4 20.5 49.8 25.8l24.9 74.7c2.2 6.5 8.3 10.9 15.2 10.9s13-4.4 15.2-10.9l24.9-74.7c47.3-13.7 84.6-51 98.3-98.3l74.7-24.9c6.5-2.2 10.9-8.3 10.9-15.2s-4.4-13-10.9-15.2l-74.7-24.9c-13.7-47.3-51-84.6-98.3-98.3L303.2 10.9C301 4.4 294.9 0 288 0s-13 4.4-15.2 10.9L247.9 85.7c-47.3 13.7-84.6 51-98.3 98.3zM288 240a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-48-16a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-    </Icon>
-);
+const Mace = createIcon("mace", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABlwAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCWAsGAAE2AiQDCAQgBYMtBysbUwXIrgZsY7jYUVrRVVGKssbi8BjTncyH0cfC33j42u937r5FpXnCk+p08cgQIplG9GaSGbqF/EtgqFTI+D376+8sxDmbdj9dCTYoSv39KjeXwAQI+B8458IiG0s0HywRpTKQ28/PP8732t2f/2s+v7SjA/x+4ocSiyzLwA7AcQJ+vHmlyGw4myhucN7kA84O9TvIcQ8OkZJuoBK4cB8aP5yWSHIBgGgEAEu75YV4+aoP/PoSoiQfBMQyoBuhQIF2BGaJBdpJdIMsC77if/IfyBBAlMN/cQIZ5TjGPSCDJGdJ3LQSV0u1kioFV3W3OdxOmvLX+CkjiE9eTLhF9PAARCIlZsIteSkAElAYc3GdvkMQHGxVV0xwy0SHcRAPYpufiuMQ/GF0VPNCeT1tMseYW+4cxek2ZZlwRfmEG8RF9NCGlOs1Tvn6GeWBfw3v6iq4eRfJOaNeH7vU9QXr3r0vipXfmyzbrP7fvftf3XQL3HyLwlBYdZ4jCG4h1VsJE/Nlwgu3t0JQwNobikp9PqRq881yTLZgztbNQarLWk/udcR3lL9q6HB+SMUfBwgEPXuvtc36jD8FKgJ8f/7jJ34i6QWgUgJBMfQ/pCFhgmSmOKdITAnALwrJkcx/11qXAoRqBEjKVQtQaGNAIKs2iECZTokIlKu2SSyyEqFVYwWSWgegMG4RZK3OQZlZr9FyrQF/lNJPSvpLmCqriWRu4tioGE7j0YpC9p0JejKdF5uCU7wjBLeiy7AhEzp16DXRoMcUJiYNypqiMv0QixUlBkvDm+t3g1U6JeFxvYZl2xeQjh3vC5qa7h+CVhGfdZgm3YKsJBncb+8EAAAA");
 
 export default Mace;

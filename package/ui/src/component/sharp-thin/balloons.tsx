@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `balloons` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/balloons?s=sharp-thin balloons}
  * @preview ![balloons](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/balloons.svg)
  */
-const Balloons: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M182.9 346.8s0 0 0 0c0 0 0 0 0 0l.2-.1 .9-.7c.8-.6 2.1-1.5 3.8-2.8c3.3-2.5 8.1-6.2 13.9-11c11.6-9.6 26.9-23.6 42.3-40.8c31.1-35 60-81.3 60-131.4c0-79.5-64.5-144-144-144S16 80.5 16 160c0 50.1 28.8 96.4 60 131.4c15.3 17.3 30.7 31.2 42.3 40.8c5.8 4.8 10.6 8.5 13.9 11c1.7 1.2 2.9 2.2 3.8 2.8l.9 .7 .2 .1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l7.5 5.2 30.8 0 7.5-5.2s0 0 0 0s0 0 0 0zM118.8 432l82.3 0-23.3-64-1.9 0-32 0-1.9 0-23.3 64zm99.3 0l5.8 16-17 0-94 0-17 0 5.8-16L128 360s-128-88-128-200C0 71.6 71.6 0 160 0s160 71.6 160 160c0 112-128 200-128 200l26.2 72zM324.7 261.8c4.3-8.2 8.3-16.8 11.8-25.6c4.1 45.4 30.8 87.1 59.4 119.2c15.3 17.3 30.7 31.2 42.3 40.8c5.8 4.8 10.6 8.5 13.9 11c1.7 1.2 2.9 2.2 3.8 2.8l.9 .7 .2 .1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l7.5 5.2 30.8 0 7.5-5.2s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2-.1 .9-.7c.9-.6 2.1-1.5 3.8-2.8c3.3-2.5 8.1-6.2 13.9-11c11.6-9.6 26.9-23.6 42.3-40.8c31.1-35 60-81.3 60-131.4c0-79.5-64.5-144-144-144c-55.7 0-104.1 31.7-128 78c-.1-9.2-.8-18.2-2.2-27c29-40.5 76.5-67 130.2-67c88.4 0 160 71.6 160 160c0 112-128 200-128 200l26.2 72 5.8 16-17 0-94 0-17 0 5.8-16L448 424s-100.1-68.8-123.3-162.2zM462.1 432l-23.3 64 82.3 0-23.3-64-1.9 0-32 0-1.9 0zM96 152l0 8-16 0 0-8c0-39.8 32.2-72 72-72l8 0 0 16-8 0c-30.9 0-56 25.1-56 56zm320 64l0 8-16 0 0-8c0-39.8 32.2-72 72-72l8 0 0 16-8 0c-30.9 0-56 25.1-56 56z" />
-    </Icon>
-);
+const Balloons = createIcon("balloons", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAAB1QAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiEdgsGAAE2AiQDCAQgBYMtBy8bdQbIjsN0Oyuf4GoSlI6H73X5nvukNUhmkP2BKQxUMbYAuJMuvScdlgTTLrHOAyrkuEusMPBF69fW38BvL9jE5fTH+dcGWks8soB+bGpZG6ePMc/DzhdmWTamdR5nbQ0wTAgb1aswUPmdf1vI428nqZEeSnXca11p/GTQTSRZBiA6ALDl0AP39uFUTEV88/9rxDf2REBsAZVAhgwjAqyXCYzIVcjlgqn4/3/2H1gRQDRwzphAjmain5gLyEHSmOf7N48f39zXV9Za80PKWnHo9RFxPdWM6I/r+92K3bxp0TZebnx3frr+3covWOYMM0wvsKrsjYjr0bq8jP4ff1BZlEujKBaXvX29RdEfh8b9c8eF6+S/6YNDv9vw3sFPzp9n9z300Af6/ZxhUWYx5khF2BOvrt7nq75p3VWuhULu4DnkXtAdS47RxcsWl7E0ilOEIiIemTfNqgCmjmd79ABveS9+uWP8ZaJ+St3rJ3G+rGPbLWPy8k61kctu/eijW8VITeflV4zesg3BMbrImIsINh10gPq50uS5Jx67ROe5xxrcpeOHH37+eSC21evbAkHU6+xAGa2zHc0znvHSUUdNtLUeuvjYk4y7iNMwcbAX7kOoq23kmM6Ys54N7nWsXePTTTd9+sm3tw3nOmYHOFe6tx/O6dCkbdmyqSbp1Of9l8GmTU2nA4Hgd/Ldy9rX/wrLBL5/O/9kHOP/D9N16WU0SSDI5v8/31E6CIZpAKEUl5iEbqI0VLtGzqW2uF+AUCBA0qAQIDOsQ4BcYZ4ANWNWCNCgcKBM5M1Cj6MNRdLifEVmpasVuR6vKGrW+yLcoCeye4Q8w8k/1LidZXjHqGrJwsXV2qozL6VOe1z3r6tG22dfwuvmwIVOca5zXORkJzndRSXpBfaOXexsO/uQHT6ossRCi1XWqmaXrnOHlMIXuNDp7cz8Qdap1vfOdkl/6znQlTgWl8pIEpGavvf8hQ==");
 
 export default Balloons;

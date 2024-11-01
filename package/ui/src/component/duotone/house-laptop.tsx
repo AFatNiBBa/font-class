@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-laptop` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-laptop?s=duotone house-laptop}
  * @preview ![house-laptop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/house-laptop.svg)
  */
-const HouseLaptop: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M2.2 235.7C7 247.9 18.8 256 32 256l32 0 0 112c0 26.5 21.5 48 48 48l160 0 0-128-64 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16l0 37.7c11.7-13.3 28.9-21.7 48-21.7l144 0c0-8.8-3.6-17.3-10.3-23.5l-208-192C255.6 2.8 247.8 0 240 0s-15.6 2.8-21.7 8.5l-208 192c-9.7 8.9-12.9 22.9-8.1 35.2z" />
-        <path d="M352 448l192 0 0-144-192 0 0 144zm-48 0l0-160c0-17.7 14.3-32 32-32l224 0c17.7 0 32 14.3 32 32l0 160 32 0c8.8 0 16 7.2 16 16c0 26.5-21.5 48-48 48l-48 0-192 0-48 0c-26.5 0-48-21.5-48-48c0-8.8 7.2-16 16-16l32 0z" />
-    </Icon>
-);
+const HouseLaptop = createIcon("house-laptop", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfAAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBeAsIAAE2AiQDCgQgBYMtB1QbHgXIjtRG81ViiYfvdb2e+6Td8ZfMIANjZVfA1AFwACsukyrcEba0k5ag3vzfB5645vmnPT1gAWgk/nlThfYyzifw56NRcAINLH02U5zfzu+VMijdIkkXHMmw6P1h/CfI09DskhrpmfQF7sb/AYxf9XCJpCUDEO0BMH/18mU+akQjxRfNt4kvLEVALACVQIYMvQWYJRPoLVchlwsaqYlGNFUEEHXxQzJQRw2bsQuQgySJPG/pP7qstclXlbWiTVmUEUUoQpzv9lRZxs0uj4kyHnd5uvOjQUXxStcnPZ/qVq5+ZnAZ4pkuj8GuW0+6RoyYnRvFm0PLON91VTwpbnReEY96DHij/Ru/9/9i1xe2fCT0ez5yb9zLmbbXrrVtSHtfVmm0zb78Ydy4v8b98GXW21GJ7y/Mqxzh3JedM8+052nbyEeG6PzNPW2f/vpDT7du7e7xx3YgELxy5uqLm9vN+r9VmcAv7/z5L250s3QuvYFWEgiyUc1RNqRzBkqrAHFSnDIAavBfFMiMlsijtvZEgFAgQFJXCJDppb0AucJIAWr6mixAXWG5TOQtQmcbK5G0dpTITHGayHX2FlEzy8deXefIWMZzhP/HS1migcVt1fgx46oZ1bRRBOKwYX1mta0OO+XHhuOgXQ475ISddtjrhMKPWRaedNASC1vshyrjjTFOZYbquHerrFLeMcftHUvnm8xU3deGOWXPHo7tJMCE98llRIqsMwVLow9sPXLi8JHRhJ3s2pG+TQA=");
 
 export default HouseLaptop;

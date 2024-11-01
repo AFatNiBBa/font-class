@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-p` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-p?s=light square-p}
  * @preview ![square-p](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-p.svg)
  */
-const SquareP: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm144 32l88 0c48.6 0 88 39.4 88 88s-39.4 88-88 88l-72 0 0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80 0-144c0-8.8 7.2-16 16-16zm88 144c30.9 0 56-25.1 56-56s-25.1-56-56-56l-72 0 0 112 72 0z" />
-    </Icon>
-);
+const SquareP = createIcon("square-p", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABeAAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCBAsGAAE2AiQDCAQgBYMtBy8bAwXIhof/Xyu779cfqp4gVxhxwRGCBFKjloXiPmtRxaYnrnn+1vSAZU/waFFW7bU67zyfwEAfZ9Fgs9FsYC+KszanCCciyA2iiDxaT0jD9g1jV8jxSkzQRHop/Ywnyo/G3/q5lyQXAKIrAJbu3r5RRz3qET83Pid+th4BsQxUAgUKDBRggUJgoKxClgX1aDTwH1gRQDQjmDyd0YxTuADIIMk592dD11pTp7yrvrHc/3DPiGeluLPXc7VO8UifF6KIu3o/X7aveWV8xCejO8V7Yz/ql+LFMR+OaI/3x33cv9hZK2ufb7RBr6JgRhni2Z7P9w6mL/TZ+UGflg14uffzo7bH1YZ93PXjf4f+fOpni+/o/CAPdl4i90Njo+xGtzcF7c1u3colZHhPDNnDZMmDD+acCpessUTner3zFk/2T+x+4soN/m9p+f/GlTWuWAMEgt9/+bY43GXB9dZaAn998/917uVGPTrSx2iVQFBMaExwIDoAzACyFLcappQskBySgd/a7nkBQokASbNSgMIAXQXISuMFaDLYTAGalbYrRG4Tejo4iaTdVaIwy21E1tOnRJMFvsua9YzC1ARDEX70UldJYOW+auqkKdW86rZriNbD5e351WN9zK1xaqw/6JTLLrnZSSecdbPAr9lYvcVFqzRspRJVpppkiso81fHgVd0VsmtucvZaPt9lvur9eIxb9cVjvZWQdZqmJBGp9Ws1Jl4BAAAA");
 
 export default SquareP;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rugby-ball` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rugby-ball?s=solid rugby-ball}
  * @preview ![rugby-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/rugby-ball.svg)
  */
-const RugbyBall: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M368 16c13.4 0 26.4 2.1 38.5 5.9c-21.1 1.8-44.5 8.7-69 19.5c-53.4 23.5-114.8 66.9-172.1 124.1S64.9 284.1 41.4 337.6c-10.8 24.5-17.7 47.9-19.5 69C18.1 394.4 16 381.4 16 368l0-32C16 159.3 159.3 16 336 16l32 0zm122.1 89.5c3.8 12.2 5.9 25.1 5.9 38.5l0 32c0 176.7-143.3 320-320 320l-32 0c-13.4 0-26.4-2.1-38.5-5.9c21.1-1.8 44.5-8.7 69-19.5c53.4-23.5 114.8-66.9 172.1-124.1s100.6-118.6 124.1-172.1c10.8-24.5 17.7-47.9 19.5-69zM63.7 448.3c-6.7-6.7-10.9-17.8-10.2-34.8c.7-17.1 6.3-38.5 17.1-63c21.5-49 62.3-107.1 117.5-162.3s113.4-95.9 162.3-117.5c24.5-10.8 45.9-16.4 63-17.1c17.1-.7 28.1 3.5 34.8 10.2s10.9 17.8 10.2 34.8c-.7 17.1-6.3 38.5-17.1 63c-21.5 49-62.3 107.1-117.5 162.3s-113.4 95.9-162.3 117.5c-24.5 10.8-45.9 16.4-63 17.1c-17.1 .7-28.1-3.4-34.8-10.2z" />
-    </Icon>
-);
+const RugbyBall = createIcon("rugby-ball", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBewsGAAE2AiQDCAQgBYMtBzEb/ATIHgk2TnKPlTxCPPy/3X/tc6sacDVgRAAGROZQ6V+dDhzOehmCv18s0FOnngcnBfBBIhq0sXBpQLIxOOd5BCK2aJ7XClQrWMnKFbDuzpZCtLVPEmojOc45Ljfk8Ul2RjnSnfQ9LtGbxi8aOUNSKQMQNQEwcv7sqb4si7KI70rvEd+ZjIAYCQqBDBmaCjBEJtBUrkAuF5RFqeT/AwsCiPL4sQnkKIdF2AHIQZLleeMmzaqUq5bPSycrrz/X9tk+Hw74cMinXV7tcr/h3Yj4eX4kVZl7h/hhzr7KcbbdC/0/GfzJ8C+6v9H9UZM1N5uc7C6LXwz+/h+0f6HejYa3m+KX/HTAh30+bHO2fquXa778m+/XfW/7G3Xb/j395Beff/LyLzf8t/usugULOo3vOGFCx/GdFigOLpyJHnXrPVm+cx3++JXbL817sWLjvJgye+7tBxemT798+eyLlSr9W0ym58w40fgsEAji0P/dl9cY8l/FKgk8+fiPys+oZmn8mV5GRQkEWZcSSxI11Yw/BQAgxT6tEjUFklky/KpV3RQgVEaApLzKAmSaqClArrLOApTTXF8ByqtstkzklYS6ljaQVLUTZPo5CnJ1vQPKGeIro7y6kVkZayPsJy9pnIPGThU9u/UoBhVioHKGQ+fh4GJb7rAvFDrCqnW222aPtdbYaE9H7DLV3murcRo+1gcVeuqmh8IgxXH8PD/PWrvsttF223DMYMV9vYN9en1H0BKm7GUjSUSqvGvv+lUHuz4cAA==");
 
 export default RugbyBall;

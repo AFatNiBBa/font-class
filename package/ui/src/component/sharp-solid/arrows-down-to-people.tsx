@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-down-to-people` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-down-to-people?s=sharp-solid arrows-down-to-people}
  * @preview ![arrows-down-to-people](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrows-down-to-people.svg)
  */
-const ArrowsDownToPeople: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M120 0l48 0 0 24 0 118.1 23-23 17-17L241.9 136l-17 17-64 64-17 17-17-17L63 153l-17-17L80 102.1l17 17 23 23L120 24l0-24zM280 200a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM104 296a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm392-40a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM81.9 352L96 352l96 0 14 0 44.9-83.4 6.8-12.6 14.3 0 96 0 14.3 0 6.8 12.6L434 352l14 0 96 0 14.1 0 6.9 12.3 56 100.8 11.7 21-42 23.3-11.7-21-27-48.6 0 72.2-112 0 0-72.2-27 48.6-11.7 21-42-23.3 11.7-21 35.2-63.4-3.4-6.3L376 345.5l0 86.5-112 0 0-86.5-26.9 49.9-3.4 6.3L269 465.1l11.7 21-42 23.3-11.7-21-27-48.6 0 72.2L88 512l0-72.2L61 488.5l-11.7 21-42-23.3 11.7-21L75 364.3 81.9 352zM415 153l-17-17L432 102.1l17 17 23 23L472 24l0-24 48 0 0 24 0 118.1 23-23 17-17L593.9 136l-17 17-64 64-17 17-17-17-64-64z" />
-    </Icon>
-);
+const ArrowsDownToPeople = createIcon("arrows-down-to-people", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABrAAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDVQsGAAE2AiQDCAQgBYMtBzwb4QXIHgPuCjxOVFO2FkM9oUL49EY8/X6/PfddVJr3T9LknaahMESLlESzROmiEaZT/1BphPJ8ev/ezgl0Y3zixfb00tp9qmVVZ7baisE8cSz1O8/T6FGi2iotKrCAnv682mNRQrOB7CaKG5w3+KCrQ/kNan43O7Cn3NuAa/OH5k+QHSgGGgBkHACwe1xdipsuu8mP9hPkWzEIZBfAIqJBg1kEG2wFs+wsgqoK3bT/2f9AGQRIL2xU8fyKfnyBHwAVFL3VTulmx9Yqhb2bXZ2/xaVZuAhEOsKfSh0rONHAKms69RDAX9ReaJ+oHwWdqh5qHgfX5CTdseYskHOg5jyk7niHcBH1DKAQfqw1PxLEBAbTQmSQpImBTGIIs+nPKHOWRF9mDoFK8fUM6DboDbuYRMF9flDx3PP5rbzP/JskSYGY0wcmQEvAKxw+NSfw4YtDJzHR6ACH3rTDjH1tx/uDg/cd8MpVu7v7iqkKI9zPRiA5LGkY8Sf46FjQ3igwoXxTTLbQuKvOBJx1l4ZlCPAu4IQ3emR47/NhpiA57hcRhP+a19TukfLLSdgAfh9/3kbPd2xvypXNc0C/AkKz9N+kpWzAUV/HXBDsQMkcFHCRguLT+fmuw24QxCACil6DAhozPBFUgzoIesyLRdBr0D5bqc6Iaa0Zqxh2yWqsW2VV0z6wemz4Eug1HdtHWvBACv4ok+YVwbnzZJEWSZYkay1IhE8pTxtMlg3W6uZ4gx5eRZ9xY2b06jFopkCdUhqeNSqvC5/rD8lEspDIJJFNLl89X6fXlGmDxo0Z0ySTLe/Umetur4cGGzbbZTuKQopf59QXJzM/6C7zzLj5YwAAAA==");
 
 export default ArrowsDownToPeople;

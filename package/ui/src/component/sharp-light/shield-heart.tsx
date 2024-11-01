@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-heart` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-heart?s=sharp-light shield-heart}
  * @preview ![shield-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shield-heart.svg)
  */
-const ShieldHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48.5 114.9L256 34.3l207.5 80.5c2.7 45.6-4.5 116.8-34.7 186.3S345.4 438.4 256 477.1C166.6 438.4 113.4 370.7 83.2 301.2S45.8 160.5 48.5 114.9zm447-1.9l-1.2-20.5L475.1 85 267.6 4.5 256 0 244.4 4.5 36.9 85 17.8 92.5 16.6 113c-2.9 49.9 4.9 126.3 37.3 200.9c32.7 75.3 91 150 189.4 192.6L256 512l12.7-5.5c98.4-42.6 156.7-117.3 189.4-192.6c32.4-74.7 40.2-151 37.3-200.9zM245.8 166.1c-12.7-12.5-29.8-19.5-47.6-19.5l-1.3 0c-36.8 0-66.6 29.8-66.6 66.6c0 17.9 7.2 35 19.9 47.5l94.6 92.9 11.2 11 11.2-11 94.6-92.9c12.8-12.5 19.9-29.6 19.9-47.5c0-36.8-29.8-66.6-66.6-66.6l-1.3 0c-17.8 0-34.9 7-47.6 19.5l-10.2 10-10.2-10zM172.6 238c-6.6-6.5-10.4-15.4-10.4-24.7c0-19.1 15.5-34.6 34.6-34.6l1.3 0c9.4 0 18.4 3.7 25.2 10.3l10.2 10L256 221l22.4-22 10.2-10c6.7-6.6 15.8-10.3 25.2-10.3l1.3 0c19.1 0 34.6 15.5 34.6 34.6c0 9.3-3.7 18.2-10.4 24.7L256 319.8 172.6 238z" />
-    </Icon>
-);
+const ShieldHeart = createIcon("shield-heart", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABjQAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCTwsGAAE2AiQDCAQgBYMtBzMbUgXIjtFLT5GUSY5B0s5F8P1+vz3nXVSaSeInRLxpqRqJ2mhWAqlRAkOlBAzy720mEDeiHwLr5JpGm6I5ofvzf7PnPY8C/EahjG1TA1mDojmfJxBgWHe0/MCXHVhiJ6S3uO0qiGiIIyTuUOI6g6FLfmq9AK/hS+OPo5WQSgWA6AQAbF5WleDOAheCL/4vQnwrAgGxBWAYUaFCP4IV2gL9dAyDogh+qNGI/0ABAUQ9kjsTFNTjAXyCObXHFfKcdr5CGOua6ijGukZ1qqTK3Cn2hJ9JviF9Sr0Vec5zn3ubk6OTLxXa0YYSvenAHR57I85m3JVtac/P2/ejznvtd5OOGRlxvf8Rh60BMhcDKo87bwtUnM3FXWkTN9tvNjbmBltbBjBIUKPrNtoutZGoeB6zOPbF40XnC4SfvCpPV1+Xw+qqWZJ27dxyRcLOXa2jedjzFq2TkB9eleGCC2Hbj7aJu/Hp6Xfv88UDPAAT3r8bXTg+7vM/OtKF6B/1NDb2aqzHMccQzgtjM2Lt7qmt2HqQd9TcdN3WDqLj8yiZ7CjiXtdmfrSyAtnDgEDw9bLg3mSe/MfAWAvwe+3bj/pHmP3f4c88BmiUIKhqmpr6hHbt8RMlWsYkPHcOFkj3dAB/aqs3BKEZAVK9ZgEqfSwQFM0mEdQZFIOgXrNT2qIYIvRq6EFqdQ0qcxaBotd5UGfFY61eb2jDIwVN1O9gfO4YylkSEaHhIlFsRloaxAg7TRKnRf9JWQnAu+g0ZNC4Du16jI+QUSXmhAG5e3COAwkRQoUTEonb6XNeGWmjxvSss/fnJBHvq/4m99sDsKIlQZ1yLiWRJmPdPR397SGfBQAAAA==");
 
 export default ShieldHeart;

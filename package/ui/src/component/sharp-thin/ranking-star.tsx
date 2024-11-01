@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ranking-star` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ranking-star?s=sharp-thin ranking-star}
  * @preview ![ranking-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/ranking-star.svg)
  */
-const RankingStar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M327.1 14l28.4 55.7 61.7 9.8L432.7 82 421.7 93.1l-44.2 44.3 9.7 61.8 2.4 15.5-14-7.1L320 179.2l-55.7 28.4-14 7.1 2.4-15.5 9.7-61.8L218.3 93.1 207.3 82l15.5-2.5 61.7-9.8L312.9 14 320 0l7.1 14zM296.9 80.6L295 84.2l-4 .6-50.3 8 36 36.1 2.9 2.9-.6 4L271 186.2l45.4-23.1 3.6-1.8 3.6 1.8L369 186.2l-7.9-50.4-.6-4 2.9-2.9 36-36.1-50.3-8-4-.6-1.8-3.6L320 35.2 296.9 80.6zM240 496l160 0 0-224-160 0 0 224zM224 256l16 0 160 0 16 0 0 16 0 224 0 16-16 0-160 0-16 0 0-16 0-224 0-16zM16 336l0 160 160 0 0-160L16 336zM0 320l16 0 160 0 16 0 0 16 0 160 0 16-16 0L16 512 0 512l0-16L0 336l0-16zm624 80l-160 0 0 96 160 0 0-96zM464 384l160 0 16 0 0 16 0 96 0 16-16 0-160 0-16 0 0-16 0-96 0-16 16 0z" />
-    </Icon>
-);
+const RankingStar = createIcon("ranking-star", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABkgAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiDFAsGAAE2AiQDCAQgBYMtBzMblwXIhofvdX6e+6RP8oKWWMtEAaoA2510wJ6UroJUAXfUedIyeeKa+skVWOMRDCnaMjHyvIt3ExhopDcFj2fD2URxCm67OSO5hGYhcYQ8/nFGG+mR9DEeSB8a3xjkfpIsAxAlAFbu373VO81oRnzUepH4yGYExEpQCWTIMFSAJTKBoXIVcrmgGa2W+g+sCCDa4XkJ5CjQwAuAHCSdeT5xYlcvmden1tY932cPFOdnzpq5NvpF31gSI22if2yKDR1xQIyOZeKAWB+zV/Tb03dA376xJpauDFSxeKQgFsaoCIovj3VavXhaTDlQK2oRRdhXOkQuFEVEfI8wPjWK/qLgalErhK69fV/URjXKxncjPz73sXXPvoeHfeAnDa+7ZrrP3e52n5vumtc1/OQrL7vq6rBVvfHSGQaYbZTMjd4100zvulGut9kGmKG3q64ueLJerzfVNXv+UJbvlJpK5TOF/7PtdaTU1VvjaF1b2K6n4Anfiad6ltohcMKj5PcDgWDC729PPt5zyW+dtQS+fu2Hb8jtWu+ku1MDnRIIsimtKY6ku0GpB5BKcZtRC18USJ7WCe/azYMChAIBknaFAJkhSgFyhckCtBlurgDtCrtlIu8S+jraqJJublRl5rlDlevreVWbJd5Ltusb2S1ruOEMP4xZ13XhtfOqmdNmVIuq2YrKeBfq/OTiarN9wm26YyI96JzrXecWZ51x0S0d5iZbM7e6at0SttYPVWaaZobKItXh+kPrvo54k5td9Fzn+CyLVdeHJ7htuf9E6kqgcZaiJBGp20dsm/pZAQ==");
 
 export default RankingStar;

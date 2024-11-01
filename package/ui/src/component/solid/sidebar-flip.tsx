@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sidebar-flip` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sidebar-flip?s=solid sidebar-flip}
  * @preview ![sidebar-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sidebar-flip.svg)
  */
-const SidebarFlip: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 96c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-320zM288 96l0 320L64 416 64 96l224 0zm136 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0zm24 120c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24zm-24 72c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0z" />
-    </Icon>
-);
+const SidebarFlip = createIcon("sidebar-flip", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABbgAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBWQsGAAE2AiQDCAQgBYMtBzMb3ATIrgpsY9jkhTgo67CxbLSWRuVj1PPpzGLEf7/81ufOmw0xkFVU2cVkNMbh1pHU6hUSYTHmFxaNHh9+XL5/BDMSnIRRCSpBFYqLbizlQlkzm9UShg04ocRDG2QdzK+o9wrBv7h53nkU4BuFNpZNDWQB7nWeQOBRPi2hbJ1nmoD1tuExIgpPw0LKJKQxHa8JWl666amfBWftpPln0xllsgNAFgDA48/1Ij5HGSV/w8kfz0EgjwEHCDp02EHAPVTBDpoD0DRhlGHAf+ABBMgY6AEFGsbxBnwC0EDpG00zOcPncel8Wmu658z9ukbyeImX6yv3Kkourj7Y+bm7/qSlTlGoFA6hEi73ZvPcxsnt1pWT+5G5KOlG3nB0IXr8J4ZMLcLi+ZHzRTHnEcGiMHpEgzOPzL5CXhVdUe4NCtrKwn4/AEHYOVtaT3jv/8Q0BfD39/UzMrzUBSYUCN2N4YZ2gSIAgMouS0FQnqCjo874JiCmEFDGTAnobBMhoJlyHQG9PXEEjJnyHlUaG7GiM6HM+AKdu/ahWfEMvXu+tDEr6YKKCgnqTxefl0iuzxQOhEwZ09HFdJwQpZ01XYuu3ZRywyim1qzaNjG2YFtgm4rmjhV5C815kUlYQIhJhskdvPItoW3asqCz/i5Zpveqy65d7AaFgnBvspQixQtxzT/twjoA");
 
 export default SidebarFlip;

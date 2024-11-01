@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `books-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/books-medical?s=sharp-light books-medical}
  * @preview ![books-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/books-medical.svg)
  */
-const BooksMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M192 480l0-64-96 0 0 64 96 0zm32-304l-32 0 0-48-96 0-32 0 0-16 0-16 0-64L64 0 96 0l96 0 32 0 96 0 32 0 0 25.8L417.5 8.3 448.4 0l8.3 30.9L474 95.3l4.1 15.5 4.1 15.5 59 220.1 4.1 15.5 4.1 15.5 17.2 64.4 8.3 30.9-30.9 8.3-85.8 23L427.4 512l-8.3-30.9-17.2-64.4-4.1-15.5-4.1-15.5L352 230.6 352 384l0 16 0 16 0 64 0 32-32 0-96 0-32 0-96 0-32 0 0-32 0-64 0-16 0-16 32 0 96 0 0-48 32 0 0 48 96 0 0-256-96 0 0 48zM192 32L96 32l0 64 96 0 0-64zM352 59l0 37 0 11 5.2 19.5 85.8-23L425.8 39.2 352 59zM320 480l0-64-96 0 0 64 96 0zm0-384l0-64-96 0 0 64 96 0zM450 472.8l85.8-23-17.2-64.4-85.8 23L450 472.8zm-25.5-95.3l85.8-23-59-220.1-85.8 23 59 220.1zM64 160l64 0 16 0 0 16 0 32 32 0 16 0 0 16 0 64 0 16-16 0-32 0 0 32 0 16-16 0-64 0-16 0 0-16 0-32-32 0L0 304l0-16 0-64 0-16 16 0 32 0 0-32 0-16 16 0zm16 80l-16 0-32 0 0 32 32 0 16 0 0 16 0 32 32 0 0-32 0-16 16 0 32 0 0-32-32 0-16 0 0-16 0-32-32 0 0 32 0 16z" />
-    </Icon>
-);
+const BooksMedical = createIcon("books-medical", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABsQAAAKLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASEQAsGAAE2AiQDCAQgBYMtBzQbRAbIhuB5Xea8L5kkg474H1GyvhDpgrzrEFGd60JcuQ1hxz0g1Dv9vTuPorX1+adEQttznCfwAcvK1xbIAksUG9UrPNC/828HZXwamwyQHkwfYJv5pfGrBe4hKQsA0QBg69RxR3jrq/gq4oP+88QHDkNA7AuyQIECiwXYUyGwWCmjVAq+in6f/QdmAohB9hsTKDGK/4jZgBIkVVmOnDoyNmInblxeD4yVPT+p6oaoCKQ+uaqriIqL1tdjYirWxoKYjDlU2g2CC2JVHI+DC2NLzEWkXtBXoxOFNUIGUTG3sMdYOXR0GcUC09eL40/YVlbEzhOnjp+qtUW3B0Nn1VXNYJt0UVWEiBCGxoaS7gqcvvxabr/NIayYbqZ/X/7BeR94c1lrQ87QOmPZ9vnajjNyo9HKsoW2zvChe03Yx952/zRcNaN1mx915/qRc+vj6x/yoFFuWVvA5DM6KzvOwBk6y7adYUNaZ2gfX7jaVNtvgdymdcisZc8cQXZH7Lrzhu5cR9O0A1zzTzt+LjTs/hksIFIu+Lhtj2420jQNV+WM2lYjE0c1TYe7swyOyMXnQSDYfPdNh58+sef/w3UC37zy59+ik/tvpX3SNIYlEBSb+pucklpEB5wAZiTFdVZABiS/qVrDTx11nwChQoBkUCVAYZFGgFJlowADltpJgEGV4xSiHBFmOzUDyagrQWFnt4LSbM+CAXt6OzRodhQ3Auc05vyGJjywiDgALk9u18m759aGhHtus7TFPfJg5brr+MB6uNV5LneZa5zrHBe6pkC4yhHRa13qwC7UAX4om7Sdjmx3eXL7qrCHQ1e52oXN/OnL7CEvb13nuu7x66EmsZluUZYkIo3dH9LNnwUAAAA=");
 
 export default BooksMedical;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brush` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brush?s=regular brush}
  * @preview ![brush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/brush.svg)
  */
-const Brush: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 288L48 64c0-8.8 7.2-16 16-16l32 0 0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96 64 0 0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64 96 0c8.8 0 16 7.2 16 16l0 224L48 288zM0 320c0 35.3 28.7 64 64 64l64 0 0 64c0 35.3 28.7 64 64 64s64-28.7 64-64l0-64 64 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 320zM192 432a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Brush = createIcon("brush", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABbwAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBagsGAAE2AiQDCAQgBYMtBywb5gTIjtRG+UVWEg8fun5/bpJ9iFgQcenFtKTDO2+KDC1DCf93W7XvF6ee5zwUwLcM189c5xs7FoY6p1eg56WxfGOtILWCVRSrbkpTtYcogpeIaFfG2PGMHu8ukMXRuKBEcjP5ifP1S+O3Js6RKKUAojYARi+cO93nIoqIH2XED1MREKNBLpAiRXMBhkkFmsvkyGSCIsrl9B+YE0BUaG9NQIYSlmAlIAOJNMtad6pSrVQjW1CtVHVhiOuNqoW42gALEYK0QVQfdLNzxMv2GgKRPu/6upku0EvTuNXlVYfq8aTTi8bJ/KsNrtS/1vB6ozavar/60/rnhp963i+KomaRW6VmzK8yyqiI8Fc5ZuXlqnWo8yAgI2sPulF1CjBtFtR82lnUrFl0OhB39f6/6LKy1rC/lasl4Nfb//h55c9xKnmFyhIQpN3K3SyLU5C4AeSTOKCNIaiQmCNtgU+t7poAoSoCJCpUFSDVTG0BMlV1FaCkpf4CVKhqrlRkVYT6lk9IVLcbUgMch0x9b6BkmC+5CvUj9S7JN6R/u/QJKzF+Vd67R698SH5ZN2SHEfL80Py23+mA9HWmszbYaYd91ltns30Ltcf04n7bTbDI8X4o11sPveSGyB+33o8vsN4ee222046yzFD5+0EnB+zRnWkdCaDPdxEkE0lpzZ79ezcBAAAA");
 
 export default Brush;

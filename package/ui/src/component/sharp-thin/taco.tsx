@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `taco` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/taco?s=sharp-thin taco}
  * @preview ![taco](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/taco.svg)
  */
-const Taco: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M325.9 86.1l88.3-2.7 24.7 84.9L512 218l-22.2 61.8c-3.7-5.1-7.6-10.2-11.6-15l14.6-40.5-62.8-42.7-4.8-3.2-1.6-5.5-21.2-73-76 2.3-5.7 .2-4.5-3.5L256 52.2 195.9 98.8l-4.5 3.5-5.7-.2-76-2.3-21.2 73-1.6 5.5-4.8 3.2L19.2 224.2l14.6 40.5c-4 4.9-7.9 9.9-11.6 15L0 218l73.1-49.7L97.8 83.4l88.3 2.7L256 32l69.9 54.1zM16 448l0 16 480 0 0-16c0-132.5-107.5-240-240-240S16 315.5 16 448zM0 464l0-16C0 306.6 114.6 192 256 192s256 114.6 256 256l0 16 0 16-16 0L16 480 0 480l0-16zM176 288a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-64 64a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Taco = createIcon("taco", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABiAAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCUwsGAAE2AiQDCAQgBYMtBysbTgXIjpTuIp1DPPy/3X/tc6veF6vh6o5EVEMaIqdWDiBzPJO+NZEcP0+ZkqspAlP+sUvjH396wIu/8KOMteOjm5rSnPEKVHDY8la31QpW0wpYp+Y92TTxOkPbCfL42Ak10jMpeMh9aPxqiAdJsgxA9ABgWbVjky/qUY/4tvEu8a0NCIhloBTIkGG4AAtlAsPlSuRyQT0aDfYfWBJANAmXTiBHM+7Hi4AcJLU8X1QMam1tr3Xmu9UebaerndWu2BVT48mBo2JzDBTp7tgZbR5v5RujiDYuFBi9MUbE48X0qMRd/DUnhM6I+H76W+u/2X1rPfWNnUWIH1Zoy6rf1GXchRBtHVE9MeDx4smBTw3amnaMeannpd9Hf3cqVp2tErre4J3WTnNQtfsnP1shN2CtDaFmuc98ZrmaDaFYq7DCz36yuzpo7TSb0ipZNUv7s872hA11PSz////Dh5dbzuM5sLwxVmfN4CGP3LdGRN33yJDB1vRo+Kvn9dfrXV11rjbS+UAgGLJj6MuHuxf+39KewI8f/fkr+Rlp1JP0ElokEGQTGxMdSCARAIAUNxuTIJDcria8a4cnBQhtCJA0aRMgM0yPALk2EwSoGWmWAE3a7JCJvFUoHKwg6XAVZGa7C+QKb4Oahb7MmhSRfZH090T/ECasbkOr1pXTJk8t55eTTZn5yEi9vKBcbYy9mQ+Ng1udctklN5x0wlk3Wsg1m4o3uWj1HLzKF5WmmWyq0nzl7s59YXcru+a6s+Oq/assUJ6fjHXz/ORx0E4C5nRSugQ1Kb9x9Phl");
 
 export default Taco;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-scream` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-scream?s=duotone face-scream}
  * @preview ![face-scream](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-scream.svg)
  */
-const FaceScream: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 256c0 11 .7 21.9 2.1 32.6c20.6-2.5 41.7 3.5 57.8 16.9c57.6 48 87.8 118 98 187C252.1 505.1 285.2 512 320 512c34.8 0 68-6.9 98.2-19.5c10.2-69 40.4-139 98-187c16.1-13.4 37.2-19.5 57.8-17c1.4-10.7 2.1-21.5 2.1-32.5C576 114.6 461.4 0 320 0S64 114.6 64 256zm110.6-67c17.1-28 44.5-45 68.7-45c7.6 0 14.9 1.7 21.4 5.3c27.3 14.9 31.1 56.9 8.7 93.7s-62.8 54.7-90.1 39.8s-31.1-56.9-8.7-93.7zM272 368c0-26.5 21.5-48 48-48s48 21.5 48 48l0 32c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-32zm94.6-125c-22.5-36.9-18.6-78.8 8.7-93.7s67.6 2.9 90.1 39.8s18.6 78.8-8.7 93.7s-67.6-2.9-90.1-39.8z" />
-        <path d="M183.3 282.7c27.3 14.9 67.6-2.9 90.1-39.8s18.6-78.8-8.7-93.7s-67.6 2.9-90.1 39.8s-18.6 78.8 8.7 93.7zm273.4 0c27.3-14.9 31.1-56.9 8.7-93.7s-62.8-54.7-90.1-39.8s-31.1 56.9-8.7 93.7s62.8 54.7 90.1 39.8zM103.4 330.1C89.1 318.2 68 316.4 51.6 327c-20 13-25.6 39.5-12.4 59.3c26.4 40 43.6 75.3 43.2 125.7L192 512c-7-68.4-34.8-137-88.7-181.9zM588.5 327c-16.4-10.6-37.6-8.8-51.8 3.1C482.8 375 455 443.6 448 512l109.8 0c-.4-50.5 16.7-85.7 43.2-125.7c13.1-19.8 7.6-46.3-12.4-59.3z" />
-    </Icon>
-);
+const FaceScream = createIcon("face-scream", true, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABwgAAALgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDJQsIAAE2AiQDCgQgBYMtB1IbyQXINiSphecp7/1zZ1LmVUiZQvwEVuDK4gry6s3/NZ8f8AH+wAM8P7QoTCxsP4xeP5/AAKN173y+2YCSaEAT8vVBsxHJzmFg7ewykmySJJ4+n3ZvWOiBoZL0FFxALVHXgVkek49YTIkVHhoPEF+4OVRr06IRp5/JMyXXnftBrtMQEACpDoCNABrQQAQCQDkaKakGNmBg/A+EZ8rphGfidNogACCu4A41AK6AJ7ALOAkAGAAoDAzDCAjw84sJCg4wXbyM1qaLZ5sNSSKb0raFLU3cGL8+ebO1JMFrU7jIstSt1gtdnLIl4d2uW+Pne+2gLdYSTFmbubOyx8bk4+nbbVMmhi9LWxS2NLjNhKBNKSdy9sQcMaeVrcvbV2VbwjJ5WP1s45ut7ze8XvV0yzbLRBLmtKAN1pLkzVASN4YtTWu1LOScRUkbghZYyOLA+fEbgxeGSZut4ljSpoQNKVvYsf6psVt9t36Oud77OgfXt5sKS02HlVrWflpc5l+WCpbDXDqtPSx+19R23TKH7fxvZ6+sOL4jYTA1ujSe9FqdHDapcZcag0nYcbxiZbb9niqn/KJ/zl83tOvIu/kFZ0d2Hbpu/k9fX+qEWnMm1qEOE+dYodQZXP18OKT5O+aXpQoc6bpX34BH2dmPbmibBPNA5zEOC1LL2k3d73IAEEDgzbWqL7r4lP92NxUAL45+/em+RKTztOqhtgLuKAAEdLoznY5qApFEqh4IIVAymljis6iKAJouGMBysJAdC56QgcIVT6AJxxcYeJIGXIiigJ3c3QKNGB4IgXQCUDgYBjSFjAUGgewDLpRzKXAlULTu8prHfx1TakvUWmTnZGbbpXY3lQR1ZO1smT2tJo++lYKT9GYIgxlJL3rSj5GQw2kUj2IQtSl6rffa5JBJNjal2OziWmldMJwR9GtL/HnKsNdbyYymh6fAUATGXNZoNIgSHXA19IwRj5HmoIxr0AmqpRMPAAA=");
 
 export default FaceScream;

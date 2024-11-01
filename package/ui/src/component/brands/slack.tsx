@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `slack` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/slack?s=brands slack}
  * @preview ![slack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/slack.svg)
  */
-const Slack: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z" />
-    </Icon>
-);
+const Slack = createIcon("slack", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABoQAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDDQsGAAE2AiQDCAQgBYMtBywbiQXIjsQ4JvGLKEzi4R+dr/dJ8j8/csIKsEJEEzB4S3hKSkwbysNWXns6dnaGvO/P/+WeH92mBfL5TvxQ1mzj/XxMjuZ8nkCAp9lcQlmY5RKgZ5uNMXZjBOEvJIY4K/ERf+nxaQdZPB0PqJE8mVS4f3/T+Fdft0nUUgDRFQBLtm7c4Ie/4q+IqvUpUVmHgFgKSoEUKQYIMF8qMECmRCYT/BWtFv4DSwKINoQlbs+Q4w28D8hAoj3LuvdqmXqtU7ZlrJxvvV5EPJLf6fVYv6d7Pz6qHuo3ekdw2Ks9H+0rnigeGf6aLo7YeqdXxGNhoiJ3t2cEqybM4zVvUK9vhl3XTaQiD0eHvwYjnvYGbIJNN5GqR7jxAv9V78V5PvStrm/9pzpS2X27+I1mUTSrNK2qyZNM6iP4avLkKtnQZQ77rWhM/KZo8lux0KFdgk2eJBukzHaz/tQ3E8OeBwLBZ5+fHb23y/z/2+sJ+OerPs7X+it+SN5CuwQE6fjWeLviB4AwgHwSDUONDwokXtCOXrWjxwQIOQIk2uQCpPrrKkAmN06AmkFmCNAmt1Eqsg5CYfcJEh2dB6mZroBM4WNQM9+PuTZFpOmqJ5v+t5izckZWLCqnTJxczi2XNWxkoLrNzitvJ0Y3es+YstQRZ51xyWGHHHdpYi7YULzstJUWvcIXlaaYaLLSXKW7uXS21PwFFx3XTf8885Tx6dEa9tAxBUqQ5FTViYRIahe/QA==");
 
 export default Slack;

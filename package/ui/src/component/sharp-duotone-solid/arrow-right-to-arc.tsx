@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-right-to-arc` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-to-arc?s=sharp-duotone-solid arrow-right-to-arc}
  * @preview ![arrow-right-to-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-right-to-arc.svg)
  */
-const ArrowRightToArc: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M256 0l0 64c106 0 192 86 192 192s-86 192-192 192l0 64c141.4 0 256-114.6 256-256S397.4 0 256 0z" />
-        <path d="M208 98.7l22.6 22.6 112 112L365.3 256l-22.6 22.6-112 112L208 413.3 162.7 368l22.6-22.6L242.7 288 32 288 0 288l0-64 32 0 210.7 0-57.4-57.4L162.7 144 208 98.7z" />
-    </Icon>
-);
+const ArrowRightToArc = createIcon("arrow-right-to-arc", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABcQAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBRAsIAAE2AiQDCgQgBYMtB2Ab9gTIhof/X/vfPncGER9ILjLgSaybNPKvkMS8/kX0RH4T1zz/83/ABpEoTCzs87fM8xfYeRXIxhtgC810Brbd2ba0Q/aLRZbkeDSOzxny+JSdVoN0Lb3BGfkfwPiljdMkdTIA0RgA45YsmOVBdVSneFO5SbwxEwExHhQCGTK0F2CkTKC9XIFcLqhOlQrVUakUBBA1yY0zUBM5xmEeIAdJiDzv1LZejQb5YtlYd0W37t0WRbfoGgvpnkdHj1gQdetG1Ks3P7rHmBXC13kfF32Z+2Gh+D7n/YTHS76NfzT73eIuVY2r/nR+s/mN9ys3bdpUlhZbrCxt8sZiV30uxio+X7XYG5X7Y9GaF4sWBULzFi0KjDXFiXNtWjM8pXWbcyeuBwLBxL3Xp65pNPJ/7XoJ/Lj172f4Iak8SFIVaksgyHpWelqZQCIAACkO6ZIQBDKdJPSp9V0WINRFgKSmugJk2mksQK6uHgLU0NEgAWqqa4FM5HWE5lYVIqlvL5EZ7AiRa+4GUcNIz52amkfmS7Qn0D+5hMkamDSr6Ne7bzG8GIYy4x5kHI8opsWuh7jUDS60WWm3AzbZaJsDSvvMUv5Bu0y2wEm+qNBPb30VhiuWk9vTi22yz37blHanKSMU+7WuDtnN3WA+CdD/FPZnRIqs7bp9+8rDb9HsdaDsVasbenlmU/s+dw8BAAA=");
 
 export default ArrowRightToArc;

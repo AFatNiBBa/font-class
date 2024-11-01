@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-arrow-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-arrow-down?s=thin message-arrow-down}
  * @preview ![message-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/message-arrow-down.svg)
  */
-const MessageArrowDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 416c0-8.8-7.2-16-16-16l-96 0c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l384 0c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-138.7 0c-3.5 0-6.8 1.1-9.6 3.2L176 496l0-80zM64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l80 0 16 0 0 16 0 64c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM264 104c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 172.7-74.3-74.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l88 88c3.1 3.1 8.2 3.1 11.3 0l88-88c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L264 276.7 264 104z" />
-    </Icon>
-);
+const MessageArrowDown = createIcon("message-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfgAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCEQsGAAE2AiQDCAQgBYMtBzkbGgXIHgnZGeZ9EUudaop4+H+d6H1fsk8ih0EBYJgAC0hbeSuP3cprT8fOzlrf9ww505869TznoQC+UVDGxkULZEzf6zwCEcsF0/a8VqBawQpSggJQWbs7m2OOhV1Ka8iSHJ8dnxvk8YWdKqRn0s+4n180/tXeTZIsAxDNADBtzYpFvv0r/or4uY742QIExHRQCmTI0EmAiTKBTnIlcrngr6jX8T+wJICo4l+RQI4K9uM0IAdJlufde3eoVRrnq2uVYs2TbYp4s82THbJ4ru1TfRrHG62faJ/i6VaP9yziVquVEetf7xvxdrsUz/R7p1etJsTV1k+0XRO1eGvAex2zeLb/u70brXqyzeOtxOp4stXjrVeFpTzV5snTT3Z/t9m7//l5988+6trkr62G/vZLVsp++W3oVbnPbZXhFzZaeuSll5vTvCgVzZu/vLRZM1MVN26cPL/RbXMGT1z9rurWrdUPzJtvxYpRo9asqThiBQt4/4APgEAw/rtfT21pOvH/BrUE/vn86WukXpLeRQMJBNnA+kAbE0gEACDFad0TBJLtMvysjTwpQCgQIKkqBMh01EyAXGGAABVdjBKgqrBCJvKGQiubBCSNHAOZ0S6BXCufgYqJvjOqWkXmcJS7UP+9+NkamrVVDhs8tBxfLhON9iGClhPKbaHv6djoB4d2O+Kwk3bZaZ+TCjlukX3KIbMteJY3Kg0z2FCl8crj/HF/tV2OO2GfIw6nNROU9/W+Ttv9/UBOGHW4UJKI1MINg4O2HT9+5MygpwgA");
 
 export default MessageArrowDown;

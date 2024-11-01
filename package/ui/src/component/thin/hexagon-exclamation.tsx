@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-exclamation?s=thin hexagon-exclamation}
  * @preview ![hexagon-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hexagon-exclamation.svg)
  */
-const HexagonExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M400.8 450.8s0 0 0 0L497.1 284c2.5-4.3 4.4-8.9 5.6-13.6c2-7.7 2.4-15.7 1.1-23.6c-1.1-6.5-3.3-12.9-6.7-18.8L400.8 61.2c-10-17.3-28.5-28-48.5-28l-192.6 0c-20 0-38.5 10.7-48.5 28L14.9 228c-3.9 6.7-6.3 14.1-7.1 21.6c-1.4 11.8 1 23.9 7.1 34.4l96.3 166.8c10 17.3 28.5 28 48.5 28l192.6 0c20 0 38.5-10.7 48.5-28zM483.2 236c2.7 4.6 4.4 9.7 5 14.8l-2.7 20.4c-.7 1.6-1.5 3.2-2.3 4.8L386.9 442.8c-7.1 12.4-20.4 20-34.6 20l-192.6 0c-14.3 0-27.5-7.6-34.6-20L28.8 276c-3.6-6.2-5.4-13.1-5.4-20c0-3.4 .4-6.8 1.3-10.1c.9-3.4 2.2-6.8 4.1-9.9L125.1 69.2c7.1-12.4 20.4-20 34.6-20l192.6 0c14.3 0 27.5 7.6 34.6 20L483.2 236zM256 128c-4.4 0-8 3.6-8 8l0 160c0 4.4 3.6 8 8 8s8-3.6 8-8l0-160c0-4.4-3.6-8-8-8zm16 224a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const HexagonExclamation = createIcon("hexagon-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABegAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCCwsGAAE2AiQDCAQgBYMtBzobFQXIhofn7R479838STI/xgSQVz2kkuhcbxu0a01c8/zTnh4wiuxRorH0uZfceT6BBx3t5m0DTdt5mU7AtjubY4KNk4QiyXHOcflsIY/37FIjPZy+xJ38pPG1Du4gyTIA0RwA09euXOzj63E94sv/3yC+tBABMQNUAhkydBZgkkygs1yFXC64Hv//j/+BFQFEIV5wAjkK7MYpQA6SPM9792jSqF5rkq+p18rtt0bErbE2Hmz3YNsH2q6JV/qU8Vy/VXFf64farI6Xe9fjxYFr72/TvjnfrbEqHupVxgsd18QDcWu7B9utjUf71uP5DqvX3Nda3N/mwXYRD7RdTaKX8ZQerzR/5dvuX+750l0J2PqC0e0GdOowLzHKHz72Qxmsr7e4M6xY/tWYBq20DAz66jZ726sqc1291jrvZStuHtxWPKXYxmXNrjW9fr0p8oE4qPVbxxdtbTbp14b1BG6++/1f9DMq/r8Rf6VX0FACQTbo/0E2JQpF/CUAACnO6JEoBJLNcvyojT0gQCgRICmUAmQ6aS5ArjRQgJquRgtQKK2UibyR0NrmQiSNHScyY1wmcq29RtRM8klcaB2ZtKmyoj72subUwOysaviQYdWEatiQNQGS3eLEatnud0YP9IeN9jjqiFN222W/UxV+wuLcaYfNmWGzfVFluCGGqUxQbbfv16+x2wkn7XfUEVpmouq838+Z+fj+4CVRcISXk0SkVvt2n9u+9+iRwf9YuNsP3yAA");
 
 export default HexagonExclamation;

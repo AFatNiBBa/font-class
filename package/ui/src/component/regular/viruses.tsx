@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `viruses` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/viruses?s=regular viruses}
  * @preview ![viruses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/viruses.svg)
  */
-const Viruses: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M327.8 293.8c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-9.5-9.5C259.1 293 216 310.9 216 346.5l0 13.5c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-13.5c0-35.6-43.1-53.5-68.3-28.3l-9.5 9.5c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l9.5-9.5C91 259.1 73.1 216 37.5 216L24 216c-13.3 0-24-10.7-24-24s10.7-24 24-24l13.5 0c35.6 0 53.5-43.1 28.3-68.3l-9.5-9.5c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 34 0l9.5 9.5C124.9 91 168 73.1 168 37.5L168 24c0-13.3 10.7-24 24-24s24 10.7 24 24l0 13.5c0 35.6 43.1 53.5 68.3 28.3l9.5-9.5c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-9.5 9.5C293 124.9 310.9 168 346.5 168l13.5 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-13.5 0c-35.6 0-53.5 43.1-28.3 68.3c0 0 0 0 0 0l9.5 9.5zM285.8 192c-17.9-17.2-28-41.6-27.5-66.4c-11.1 .2-22.1-1.7-32.4-5.5c-12.7-4.7-24.4-12.2-33.9-22c-17.2 17.9-41.6 28-66.4 27.5c.5 24.8-9.6 49.2-27.5 66.4c17.9 17.2 28 41.6 27.5 66.4c24.8-.5 49.2 9.6 66.4 27.5c17.2-17.9 41.6-28 66.4-27.5c-.5-24.8 9.6-49.2 27.5-66.4zM512 240c0 33 39.9 49.5 63.2 26.2c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6C574.5 312.1 591 352 624 352c8.8 0 16 7.2 16 16s-7.2 16-16 16c-33 0-49.5 39.9-26.2 63.2c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0C551.9 446.5 512 463 512 496c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-33-39.9-49.5-63.2-26.2c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6C417.5 423.9 401 384 368 384c-8.8 0-16-7.2-16-16s7.2-16 16-16c33 0 49.5-39.9 26.2-63.2c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0C440.1 289.5 480 273 480 240c0-8.8 7.2-16 16-16s16 7.2 16 16zm0 112a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM152 176a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm72 16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Viruses = createIcon("viruses", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAAB1QAAALiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiECgsGAAE2AiQDCAQgBYMtBy4bCAbIBuJ5nXrvWw7LIckBUshQJtoCQG2VTAWEDXjYECeC/7nc88NRG+haAzTPMvo3pvVfurGN4ZzPTyDgsWxs8DSggC3WjtwF6R4qrxq2rkCT31KLE5St7gM17UfJB+IoBIXTAQCARAAAAAOnTx7LzafyVOTe/3Mg9xgNCIAMBMBCAIeOiQAz9EEBnqNhARoaAk/l/3+o/wMtEACQALLHFAAaEAS8Ab4AzvF+UYCmLYkeHB0cHOrUtWmhzpDFduxej1sOZ+yNRXZm7I8Xafbs9xmy19OcECNH4ps9IbI/vsUbKgcSWlq5pTnhQKYph7wHEkRavPviEDtzX+sYOZBpxxpyMM7ODJV9cTszQmRv7E5/nuSJOe2wlLv3uw+G5PoOUeE/EprXeqqdKbKv9Q6zyRDPNZmNhigAbHQfA3Tc7j4C6Lg9ZnvQcUfM1qCDNLctAJCuIc8tsj2k3F5CrtkUWhGzQxYdhruANnUxTuGtaYcjDn9Kvb/sPsPtx4913abjyhUJOubEiaZOwoqZA210/fFjG6OpeJeLiaY50cWu4ibDRpYZOHNFvCuGi3jylG7WOXUOgO1fetkb8dXz+YjXc+WKpzzWe/lZ+9gRMMK6eLCiXBUW5j11uZ7mtYoCHgcvWiNGxAIG3JaO4eLB6g2uUih11XUOLj9xHk7H4eHinB4IAPLY5F2ebvPD+3wNClUAPL/85Rvty/9vqlx1GAhCASDgaPO/DXNULoATLgCQV7KNNA4iQCdPuHNMGNuRkhACo1MRQIjTQQIRTo0QWjudJNOVk1QnS5lFC04azB2dijA2Oh10I8upYXDG6aQPt/IBGOJ42oVnVfjXTB0GiaGLrI7tOli9LGZdLz7AXDjf25KO+7a5fX79AMtYzzq2sJQlrGwB2DcxtrSVtQzjRQ79rkVH2tEBi15Ys1vju6exlE1sZiXrWRfr6Y21ftLHNv5ov55QZFE7sUyhQFTgtpWbvhk=");
 
 export default Viruses;

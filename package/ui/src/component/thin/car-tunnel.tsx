@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-tunnel` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-tunnel?s=thin car-tunnel}
  * @preview ![car-tunnel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/car-tunnel.svg)
  */
-const CarTunnel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16C123.5 16 16 123.5 16 256l0 248c0 4.4-3.6 8-8 8s-8-3.6-8-8L0 256C0 114.6 114.6 0 256 0S512 114.6 512 256l0 248c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-248C496 123.5 388.5 16 256 16zM161 258.4L146.2 320l219.7 0L351 258.4c-2.6-10.8-12.2-18.4-23.3-18.4l-143.4 0c-11.1 0-20.7 7.6-23.3 18.4zm-31.9 64l16.3-67.7c4.3-18 20.4-30.6 38.9-30.6l143.4 0c18.5 0 34.6 12.7 38.9 30.6l16.3 67.7c19.2 6.3 33.1 24.3 33.1 45.7l0 80 0 8 0 8 0 16c0 17.7-14.3 32-32 32l-16 0c-17.7 0-32-14.3-32-32l0-16-160 0 0 16c0 17.7-14.3 32-32 32l-16 0c-17.7 0-32-14.3-32-32l0-16 0-8 0-8 0-80c0-21.3 13.9-39.4 33.1-45.7zM336 448l16 0 48 0 0-80c0-17.7-14.3-32-32-32l-224 0c-17.7 0-32 14.3-32 32l0 80 48 0 16 0 160 0zm16 16l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16-48 0zm-240 0l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16-48 0zm64-88a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm32 16a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm112 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64z" />
-    </Icon>
-);
+const CarTunnel = createIcon("car-tunnel", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABwwAAALBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyEEAsGAAE2AiQDCAQgBYMtBzEbEQYRlZpByX4kVJXtQbjNZ2qnaLu9O63JneI38fCRU3tfVjypHFCZ8Vy+ESwAgKfXZXAA+N82uR8p6UVAd4QMzWodY01c8/zPn4rL6E0eq+hX4ZEYkecTmM4+aElJYQP68/FMJ2AbnDfigLtC/RnSeNwWVSSXJm/gbOeq+EZLR0kUCgAiB8DE5YvneqYc5Yg3Kg8Sb5iNgJgEOggUoN6mhTKGHrwo1QEpXB6Uo1LB/gM7CCCKgtcmIEUNTuJ3IAWJLE371o1qXFvboDFNlKpq02Xy4Wz1BzMiXhkQcc8ScUGTi5pFfDz5+flvL/9w7psTn13av+OjQffNem3Zkg6dO5SiU1zWLYsbWgxYvmT55d3boRtbLo2xtkJ8frDJBVkWpzW7KCIyKAXFV3dfWspKEYf63CgzZ0KUlgoXNh1BL24e0dIILb+gCWFY+UXNuh5sEnFBdkz1oeYXl05veqHSaOiCJi1HliI4d+HbO92W3/Zdxze2vaFy9yTrWf8bv036U3HDhuKfprdoee6h6aY7dG7LFqZDk0m//VYUk6z76bvA/gvfmZCfI59QqZ9EC8549xzvnpGf8k3DBapVy9WdckodG3dNm5t1WKDhN2/ty/MJC6RexgULDHi6Pg+Y5oZcuS434EeGjl9eruNiukrdKZxSV3eKtn2Ug53s80AguP7X06f19WN+qy4l4ORjP/yd/4xUniHJbaiWgKDQp9JnTQISAgCQxF6dEggkPpMJ3FrjIgFChgCJokyAgtZyAVKZ3gJUaWeoAEWZxQoibSA0sbYmEzV2kAXD7CNTTdxPVhnj5VRRkyh88MLnKvxupjrXBuw6JGEMjcmmUvyGOb1ssNoQPx+ScCvrj/3t2ultQXeW/TY3B9ovIgljaOzu3LfJu/uZxqX9qxicHxf//GQJfSSgTHW6BbYJb6o7eL9971YA");
 
 export default CarTunnel;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-z-a` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-z-a?s=sharp-duotone-solid arrow-down-z-a}
  * @preview ![arrow-down-z-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-down-z-a.svg)
  */
-const ArrowDownZA: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M292.8 480l70.4 0 14.7-32 76.3 0 14.7 32 70.4 0-6.1-13.3-88-192L436.5 256l-41.1 0-8.6 18.7-88 192L292.8 480zM320 32l0 64 32 0 52 0-73 63.9L320 169.5l0 14.5 0 8 0 32 32 0 128 0 32 0 0-64-32 0-52 0 73-63.9L512 86.5 512 72l0-8 0-32-32 0L352 32l-32 0zm79.9 368L416 364.8 432.1 400l-32.3 0z" />
-        <path d="M160 480l23.6-25.7 88-96 21.6-23.6L246 291.4 224.4 315 192 350.4l0-285.7 0-32-64 0 0 32 0 285.7L95.6 315 74 291.4 26.8 334.7l21.6 23.6 88 96L160 480z" />
-    </Icon>
-);
+const ArrowDownZA = createIcon("arrow-down-z-a", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfwAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCGgsIAAE2AiQDCgQgBYMtB1gbRAXIHgVuzM2IIk6FbkRjI1k0iviKEXy/xvb9f6gksWyW8FDMQ8QjpdCsUZpoKJRwQ4QSzp72azN3vnuoP8wsmUm70qnwK5CheWomzZJZ8Wv+r/n8rArwGx3K9SISG6zz+QQmmkkTSp9NbEY6czM9F6FQtoLEFkR+2OIw/gGK+MluNaTHBNyG/wGMfyHcJA0ZANEOAFjd72jHVckyxUN1TvxoAwGxBmAIkZHRh2CBWaCPxRAoFIIyVRVlVNUQBBC1CHBmqdXvcgpuABQgCbmwxIZE27XVw9KtraorNSm1h6msYBLTaCapiEjMYArLmMwuJo9ppcOoGULNQHYzlIrB7KT/AKipqbgIL8QcUqkeBtFupnqjwqMiqGIMb+N52DTHg3vqup4RNHjU40MEUUVE+NDjUYNNYk/cYAN2eNXmVYNBPd+upVgv8ZOeyyrMl7ymSpxqVW+IPFXp2BNtgfWVDzDELYFg8vni2sq+67UJ8Pv2+pd/RFhVpl6TgXoJBHn0f9RgqkKY+BQGQirFNmKYz4p4ENkqM9xrszsBQiMCJLUaBch6eSMoNBpBUGNAPoJajbaZReFE6DbUQNLsCmTzjkCh2xmoseA6Vas7zGKnCI3y05ehgUL1kyQ7I0tKZFtSVUmS3GipHDuStk1LMqZi2oplm6ZMmrNJuHXt2S1LGjii3heJbBmyiBJyXX00dJPUug1za939OKXk+0iSbb57MtwmiXfazCwTiebAsfX1lZ30x5hN308fSxfhTsEz3XMFAA==");
 
 export default ArrowDownZA;

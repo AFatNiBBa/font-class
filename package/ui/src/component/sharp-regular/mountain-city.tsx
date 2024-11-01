@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mountain-city` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain-city?s=sharp-regular mountain-city}
  * @preview ![mountain-city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mountain-city.svg)
  */
-const MountainCity: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M312 0L288 0l0 24 0 120.4 48 76.8L336 48l128 0 0 168 0 24 24 0 56 0 48 0 0 240 0 24 48 0 0-24 0-264 0-24-24 0-24 0 0-72 0-24-48 0 0 24 0 72-32 0 0-168 0-24L488 0 312 0zM432 336l0-64-64 0 0 .4L407.7 336l24.3 0zM368 80l0 64 64 0 0-64-64 0zm64 96l-64 0 0 64 64 0 0-64zm128 96l-64 0 0 64 64 0 0-64zm-64 96l0 64 64 0 0-64-64 0zM480 512l-30-48L268.3 173.3 240 128l-28.3 45.3L30 464 0 512l56.6 0 366.8 0 56.6 0zm-86.6-48L86.6 464l60.8-97.3L173.3 399l18.3 22.9 18.8-22.4L250.2 352l73.2 0 70 112zM240 218.6L293.4 304 239 304l-11.2 0-7.2 8.6-28.2 33.6-18.1-22.6 65.6-105z" />
-    </Icon>
-);
+const MountainCity = createIcon("mountain-city", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABiAAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCegsGAAE2AiQDCAQgBYMtBzQbfgXIjsM4FjzSqcI/Hr5f+/Lc1/2nZrqXoReAQS2rTaJScayIHRoRVgSKfqkyz//lnt+ie0fz+ed7X/iQxmqMpW0dYz1PINDwtDZGAWVhliimTkeDxkOQgKCMUXQWmR5fPU7PkMc/8USN9FyKx8uHxo86u0tSywBEKwDM2rBmmU++jq8jvqy/SXxpCQJiFqgEMmToJsBUmUA3uQq5XPB11Ov8D6wIIBroaQnkKPEMXgXkIGnK8zFlkx5v2bp5WWuery9rxYGiLIRYFxFlCFGWArmIyBgvijA+BKW6Ng7QrCjXC2WgWPeEZAbda88PrR0+bPjmGB5DY+NaU+5p1rzZhhhEaEjMiDLWrY8VRbu25eDY0PvlVi//3Ov+JnzcSce7aMRSr7npRZ10OvibTkbqpNGRnRYmF6qi2IQVMwHjhk4z6jNtxvCMHYW4QcyItnz8FXJv9vYBpK3qK5NWjBiNY6bs9Lz+2rthkXknnv1r7Fq8dHx50Cfam3UQCAQ/fPbCvR0tp/7dWCbw7Xu//mp/uP5JupmgUQJBNrQ+1NZ0EygMoJDivN7BFwWSx5roXZt5KkAoECBpUAiQ6aqVALnCEAFqehgnQIPCGpnIm4R2tlWQNHMKZMa7BnLtvA5qpvo036BdZFmq5pj6j5htvkfm7atGDR9ZTa4uu4qWePK8PaW67Rt4fpoaZJb2O+G4s/bZ65Czjj5tWemcY+ZH1Dw/VBlluJEqk1Xdg4+29S522hkvtY3+Xaao3k8NdD5ePMiCiURHa0sSkZpnu33YBwwAAAA=");
 
 export default MountainCity;

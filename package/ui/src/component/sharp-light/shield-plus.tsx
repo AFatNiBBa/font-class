@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-plus?s=sharp-light shield-plus}
  * @preview ![shield-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shield-plus.svg)
  */
-const ShieldPlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48.5 114.9L256 34.3l207.5 80.5c2.7 45.6-4.5 116.8-34.7 186.3S345.4 438.4 256 477.1C166.6 438.4 113.4 370.7 83.2 301.2S45.8 160.5 48.5 114.9zm447-1.9l-1.2-20.5L475.1 85 267.6 4.5 256 0 244.4 4.5 36.9 85 17.8 92.5 16.6 113c-2.9 49.9 4.9 126.3 37.3 200.9c32.7 75.3 91 150 189.4 192.6L256 512l12.7-5.5c98.4-42.6 156.7-117.3 189.4-192.6c32.4-74.7 40.2-151 37.3-200.9zM272 160l-32 0 0 16 0 64-64 0-16 0 0 32 16 0 64 0 0 64 0 16 32 0 0-16 0-64 64 0 16 0 0-32-16 0-64 0 0-64 0-16z" />
-    </Icon>
-);
+const ShieldPlus = createIcon("shield-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdgAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCCwsGAAE2AiQDCAQgBYMtBzIbDQXIjpQuI1bx8GXr9+f2zL6CWVwaEbOMnEy0clK+uGSamsTrBgcigcVSbdPPz//Nnvc8CvAbhTK2TQ2kzdGczxMIMFucJ7RugB0d+QnY7c0mFstmXclklKTj3PG1QRkvx3A10r30CW7Jm8avurpJUhYAog0A5mxat8IbP8VPEZ80niU+sQwBMRdkgQIFeggwXSHQQymjVAp+ikYD/wMzAUQTffoEStRwABcAJUiKsuw0sE+91rLcWK9V2zat37QhHmWNnum//ruZr429vunNbl27DYyN0Sk6xProH13iYR+P2TlvbugYneP7eW+Pe9qveqGqV0JUlajXhaiHYsaHx2ml75M2/XufTw5+YvTyz1a30c9Xa3d69/r1jx/N7ZmER4/Jsft039eiPbkG+WyVZzwjmM0VBpw/f/nyV18vzu94Bwlff8WY+/KAH0bmnNuYbXabrM3s2drIcD8QCL7+5d7JXa2n/9+snsAvL/35d/8ZtWq8Ef+kJ2gmgaAY3hhue6KVVvGPAACkuKhvopVAskNBj9rCbQFChQBJk0qAQndtBChVhglQ08sEAZpU1ilE2VzoYIeBpIUzoDDRDVDq4Cmome59rUmHKKKNihXqsxe/MEMLhvKYkaPz1Lz0DDqAiNqdlo/FwRdLZggsOuiUk847YL8jzk/IWSvMC05YuIMX+KBsjJFGy6bK1+F+eqMDzjrniFNOcp9p8nt1sIv78iGgJIo61lqSiFQ/d/jIgeP7R0QrAA==");
 
 export default ShieldPlus;

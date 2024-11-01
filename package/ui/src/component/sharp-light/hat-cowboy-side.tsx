@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-cowboy-side` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-cowboy-side?s=sharp-light hat-cowboy-side}
  * @preview ![hat-cowboy-side](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hat-cowboy-side.svg)
  */
-const HatCowboySide: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M422.5 68.7l-233.9 39-11.3 84.5c36.3 1.8 71.1 15.2 99.2 38.4L307.5 256l151 0-36-187.3zM464.6 288l-118.3 0L486.9 403.8 464.6 288zM560 448l-64 0-32 0L16 448 0 448l0-16 0-70.9c0-85.2 62.9-155.6 144.8-167.4L160 80 448 32l31.8 165.4c4.3 2 9.9 4.6 16.3 7.8c15.5 7.7 36.2 19.1 57 33.7c20.7 14.5 42.2 32.6 58.5 53.9C628.1 314 640 339.4 640 368c0 44.2-35.8 80-80 80zM534.8 265.1c-16.8-11.8-33.8-21.4-47.5-28.5L521.8 416l38.2 0c26.5 0 48-21.5 48-48c0-19.4-8.1-38-21.7-55.7c-13.7-17.7-32.2-33.7-51.5-47.1zM169.1 224C93.4 224 32 285.4 32 361.1L32 416l419.4 0L256.2 255.3c-24.5-20.2-55.3-31.3-87.1-31.3z" />
-    </Icon>
-);
+const HatCowboySide = createIcon("hat-cowboy-side", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdAAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBfAsGAAE2AiQDCAQgBYMtBzYbAgXIhuB5u6h6v3sWYC9gZOsDMOFByIhIjjj/53o+axrg5xEMLQpLB1Lgmc8nMLHQKOCzssOzQzpwPnUbC95wlDUROYJHxNBuiK6Qx9/RVYl0Y3oHl+qbxg8aO0uSZwCiFgBGLZgzzQtfxVcR7/z/KPGOKQiI0aAQyJChmQBDZQLN5ArkcsFX8f//8h9YEEBUQDi5cY6KWIwdgBwkpTyvXrGoWbNqqXo+v2qpyoa5C+bOjVeHdYqqMX9elapV5qlSI3AXH454fsKCWBPz4pRr69/b6clODza/peMDfeeX28+LqnF/w+ub3tS53Hn1K0MjnilE9ZgfT41vXa5V/qnVO+vfcd/h79qnkapz7H74W9dr81SnTw7gt5zfo/6e5bePHNmzlgmMvHDsuxq7tOyh5T3EqrPn/irdfnuTmL+uVqPHrixq/ZD2en72blZt8qT3tnW8vJ71lQe420t3WAYIBN8u/67BippD/6pUNYFvnvrlt3YxnUxlVJJAkHX9v6ul6SQINQArxX6tnQ8KJLOV8FWruU6AUAUBkgqqCJBpqpYAuSq6CFDSQj8BKqhijkzklYV6lg2QVLMLZPo7BnL1PAxKhnrdrKBeZGHGBQn3yUseb6FxfUWv7j2LwcXS1fnIYbQ9pNhWOu7PqU6YtN4O2+21zlqb7DXkbtOcfbYZ7xHjfFGhl+56KgxWHAfPw/Ots9sem+ywvXQZorhvdLTfL+4EPSFtb3OSRKSaG1ft7bZmx4HVOw51e4s=");
 
 export default HatCowboySide;

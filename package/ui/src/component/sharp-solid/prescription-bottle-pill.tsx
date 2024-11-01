@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `prescription-bottle-pill` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/prescription-bottle-pill?s=sharp-solid prescription-bottle-pill}
  * @preview ![prescription-bottle-pill](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/prescription-bottle-pill.svg)
  */
-const PrescriptionBottlePill: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 0L384 0l0 96L0 96 0 0zM32 128l320 0 0 83.2c-57 29.1-96 88.4-96 156.8c0 59.5 29.6 112.1 74.8 144L32 512l0-96 112 0 16 0 0-32-16 0L32 384l0-64 112 0 16 0 0-32-16 0L32 288l0-64 112 0 16 0 0-32-16 0L32 192l0-64zM288 368c0-34 11.8-65.2 31.5-89.9L521.9 480.5C497.2 500.2 466 512 432 512c-79.5 0-144-64.5-144-144zm288 0c0 34-11.8 65.2-31.5 89.9L342.1 255.5C366.8 235.8 398 224 432 224c79.5 0 144 64.5 144 144z" />
-    </Icon>
-);
+const PrescriptionBottlePill = createIcon("prescription-bottle-pill", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbAAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBWQsGAAE2AiQDCAQgBYMtBz8b6ATILgdsItOE9VpYQXDEEIyFePk9fbly/Wp8Lfbi4Wu/37n79jtiDc9myTSKlQqhERrNsoXM0PFSGCpDpPItWtO5gM7buA0RKVKMRQekNFoEVWNZVugYdPPu1/A4S+xFPk7TyRHGiyiOauYW396wAYcYYvSkq94AA2CY8r0Wb/qbf955FODzxEMbC5cGMqZlc54n0AU+ubw8zj5YlqB+a2eXogi/6nvKJxnGHzYZHJDjL45p0k0CLsqPxg+xY5DUCgBEBwBYPSkW8PYVn8He5hCfciAgVgFDGAoU6MPAAr5AH4EhkGXBV6ya/j9wCAKIMujOBDLK2AUnADJIcla+a8Sos+obwiBzyogWslbX4+hNu+HxdOMZIxlCvKDeUnm38bJ0aT5Gez5uPy9O0l5w5/+w8nbuUNlnGNwr3yzi5G3WodKhadlB4E4Ldq3Iv/cPtcn31Uf87+Ndnc8DEAge+o8i/181CsD3k19Mo3kRThegKm18QDHaHFVNYSCtYEhJsZEqLwskOwSAp7a4hCDUESApqwtQ6MVhIKsbwUDJAAcGyuoO8EX2CD1qDJIWZ6AwbwdkPS5ByYIPpawnpFGRJkHe6eKSEkoMkcVoJi9NPY2yEzx1fbTMq7dDRoNN9C3MberpGtkUyLqCvmUmqcEJLyIWRmbEi7bDx+WKnnUbRhbmuY8PnZfVtvVyDSQewpw2lSQiNadT78mOPFrMf2Z0TnuG5TidAgAAAA==");
 
 export default PrescriptionBottlePill;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `watch` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch?s=thin watch}
  * @preview ![watch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/watch.svg)
  */
-const Watch: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M120 16l144 0c22.1 0 40 17.9 40 40l0 44c-31.5-22.7-70.2-36-112-36s-80.5 13.4-112 36l0-44c0-22.1 17.9-40 40-40zM64 112l1 0C25.1 147.2 0 198.7 0 256c0 56.9 24.7 108 64 143.1L64 456c0 30.9 25.1 56 56 56l144 0c30.9 0 56-25.1 56-56l0-56.9c39.3-35.2 64-86.2 64-143.1c0-57.3-25.1-108.8-65-144l1 0 0-56c0-30.9-25.1-56-56-56L120 0C89.1 0 64 25.1 64 56l0 56zM304 412l0 44c0 22.1-17.9 40-40 40l-144 0c-22.1 0-40-17.9-40-40l0-44c31.5 22.7 70.2 36 112 36s80.5-13.4 112-36zM16 256a176 176 0 1 1 352 0A176 176 0 1 1 16 256zm184-96c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 96c0 2.5 1.2 4.9 3.2 6.4l64 48c3.5 2.7 8.5 1.9 11.2-1.6s1.9-8.5-1.6-11.2L200 252l0-92z" />
-    </Icon>
-);
+const Watch = createIcon("watch", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABkQAAAKCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCVwsGAAE2AiQDCAQgBYMtBywbUwXIHgd2TPgDjAaJVLlE8LzObJ707U2khBVghYiPELwHgC0BF81Wx9jGBLntIGTgNxqdQUazhhrM0Y6APHM5cbnzt00PuMgfaUzaunADrdWY5wkEGJZ3nnWdZ4FlOsG9tw0JLBBEOtEQISlrTMfrDCkudJQG2b35C9zMDxq/GuIKMnkOIPoAYPW+e273zlfxVcQX7ReJL2xFQKwBtUCOHMMFWCYXGC6pkSTBV9Fu439gTQDRJGDm9gkduAl3ARLINFKqZlfD+pWNnmmfslEcWBbl9fVO4q33g2URnXF3uZc99Mh8Qmv6k5PFvQ59fBkPx93DLvD4fjo611NTyoi4r901oYgHyh2D7S+0qjuKIq4jln/0m8/HK4/onBnx9P16ef15dfqTWtOeWPRKcd312oynYt+7Bt5RiVbdHnfG3QN3RIx5rM9jv48vjvnCuU/fUh5/zTT//PXXP9P0/R638NCI6ErV1Kkp71qs489dp+W0XX92LNaVp6lTq9QVFjV/0Z9Tpwl3tnWLS0dH3T/rXI69+u7NuPvqnztL1TB4+dDmYYf1K0uj2/ZcN3/dlw4CAsG0/sMVh/Ze9n+3MgPfvPbnb7yK2u9EKz+GbjIQ5NPa0xwULYiWAABkcY4xqYVA5ioNcq893CVAKBAg01QIkBumjwBJYaoADSPNF6CpsKdcpO5C5eBCZHo4ncgtcDGRVJ4nGpb5OGqqUp6TQkYJX8LUDRpYv6+ePWNWvaRe1qaYZhxtL623jUnn1KnJcNIxTnWKsxztKMc7S+Fn2J6e7WQbPGy9J6rNNsMstSXqcLdV91G0M5zpeNop8V2Wqt87k5zjL54MdkYY58hkMiJrpDE=");
 
 export default Watch;

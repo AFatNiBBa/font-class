@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `menorah` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/menorah?s=sharp-duotone-solid menorah}
  * @preview ![menorah](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/menorah.svg)
  */
-const Menorah: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 64.4C0 81.8 14.2 96 31.6 96l.8 0C49.8 96 64 81.8 64 64.4c0-5.5-1.4-10.9-4.2-15.7L32 0 4.2 48.7C1.4 53.5 0 58.9 0 64.4zm96 0C96 81.8 110.2 96 127.6 96l.8 0C145.8 96 160 81.8 160 64.4c0-5.5-1.4-10.9-4.2-15.7L128 0 100.2 48.7C97.4 53.5 96 58.9 96 64.4zm96 0C192 81.8 206.2 96 223.6 96l.8 0C241.8 96 256 81.8 256 64.4c0-5.5-1.4-10.9-4.2-15.7L224 0 196.2 48.7c-2.7 4.8-4.2 10.2-4.2 15.7zm96 0C288 81.8 302.2 96 319.6 96l.8 0C337.8 96 352 81.8 352 64.4c0-5.5-1.4-10.9-4.2-15.7L320 0 292.2 48.7c-2.7 4.8-4.2 10.2-4.2 15.7zm96 0C384 81.8 398.2 96 415.6 96l.8 0C433.8 96 448 81.8 448 64.4c0-5.5-1.4-10.9-4.2-15.7L416 0 388.2 48.7c-2.7 4.8-4.2 10.2-4.2 15.7zm96 0C480 81.8 494.2 96 511.6 96l.8 0C529.8 96 544 81.8 544 64.4c0-5.5-1.4-10.9-4.2-15.7L512 0 484.2 48.7c-2.7 4.8-4.2 10.2-4.2 15.7zm96 0C576 81.8 590.2 96 607.6 96l.8 0C625.8 96 640 81.8 640 64.4c0-5.5-1.4-10.9-4.2-15.7L608 0 580.2 48.7c-2.7 4.8-4.2 10.2-4.2 15.7z" />
-        <path d="M64 160l0-32L0 128l0 32L0 288c0 53 43 96 96 96l192 0 0 64-128 0-32 0 0 64 32 0 160 0 160 0 32 0 0-64-32 0-128 0 0-64 192 0c53 0 96-43 96-96l0-128 0-32-64 0 0 32 0 128c0 17.7-14.3 32-32 32l-192 0 0-160 0-32-64 0 0 32 0 160L96 320c-17.7 0-32-14.3-32-32l0-128zm96 0l0-32-64 0 0 32 0 128 64 0 0-128zm96 0l0-32-64 0 0 32 0 128 64 0 0-128zm192 0l0-32-64 0 0 32 0 128 64 0 0-128zm96 0l0-32-64 0 0 32 0 128 64 0 0-128z" />
-    </Icon>
-);
+const Menorah = createIcon("menorah", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAAB0gAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGyEaQsIAAE2AiQDCgQgBYMtB0obhQbIhofv13o793XPBIBegFElCphcqjqAYBdRjVs04tdKVqtn4pr65U+FUSMfWlR5NEcUT2Dgo42rBep8NkCa43jDtgFGJFVjWt8llGlkcVmN9CL9jnv1C8df+rhM0qYAEJ0BsHj96lUaLdGS4vfm18TvViIgloAsUKBAfwHmKQT6K2WUSkFLajZpifjPLxNA1GlvV4A6OhLdiT6AEiQ1rcpyeYcW6RFqV+tQrhsXtt0com0I8Wb0B9PbYUBbb7sO0QBBxXdjPxpkDLmv6v6YpcaptnGz59NguxD1p12dVlQ9Ip6sv++tXs/iQs8pMSkea8fYc8iHnT/8Z/Dv+363cFDOeZGs0vrDD6uGRSpccsciuVpEUxWx1pVMTna8fr2j8T3uf6+RuKsdDsYscuquwc1UdbzO9Y7Mv2/rGZ/73IzWOxiXA4Hg/olf7m7vNO//1u0S+OPH//5cdtdspCp9iNYSCIpxzXG2pAriMaGNpThniOSdBAqPtALvtb2nAoS2CJDUtRWg0E9nAUptjRWgZqDpAtS1tVohyjZCd1sPPmnvJF+Y4Txf6u4rvmaenyJ13aN4OhTXtuLnNO0KHF4+LU+eMCnPycKiTXnBy4rhuVnbOupc0jQazrXPccecsdceB53BsFNWxc86aoUMXe6DsskmmCSbI1tXprXrsMgppx3kq+0nmSv7D45yTt55NHQkrdQpZhQKIkXR6ZMX3Hlg/G1m6oKr7ycAAA==");
 
 export default Menorah;

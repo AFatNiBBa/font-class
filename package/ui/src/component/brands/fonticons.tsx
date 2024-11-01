@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fonticons` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fonticons?s=brands fonticons}
  * @preview ![fonticons](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/fonticons.svg)
  */
-const Fonticons: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32v448h448V32zm187 140.9c-18.4 0-19 9.9-19 27.4v23.3c0 2.4-3.5 4.4-.6 4.4h67.4l-11.1 37.3H168v112.9c0 5.8-2 6.7 3.2 7.3l43.5 4.1v25.1H84V389l21.3-2c5.2-.6 6.7-2.3 6.7-7.9V267.7c0-2.3-2.9-2.3-5.8-2.3H84V228h28v-21c0-49.6 26.5-70 77.3-70 34.1 0 64.7 8.2 64.7 52.8l-50.7 6.1c.3-18.7-4.4-23-16.3-23zm74.3 241.8v-25.1l20.4-2.6c5.2-.6 7.6-1.7 7.6-7.3V271.8c0-4.1-2.9-6.7-6.7-7.9l-24.2-6.4 6.7-29.5h80.2v151.7c0 5.8-2.6 6.4 2.9 7.3l15.7 2.6v25.1zm80.8-255.5l9 33.2-7.3 7.3-31.2-16.6-31.2 16.6-7.3-7.3 9-33.2-21.8-24.2 3.5-9.6h27.7l15.5-28h9.3l15.5 28h27.7l3.5 9.6z" />
-    </Icon>
-);
+const Fonticons = createIcon("fonticons", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfgAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCPgsGAAE2AiQDCAQgBYMtBzAbPgXIjsM4hvwSS/lHUNmssnpGQIfSAs4B4QMRuECWvEf/XcW7TErm04eJa+rH+dN7Gz1aFFaCFMhT1ep8AgN9WunE1zawmU7AZu10C4Pot0/fp3zIYv5hNbhAHs/Eg0qkp9KXeKB+aHxj2K0kpQxATAPATkccsp9uL3oRX/bfI760DwJiZ1AIZMgwJsBWmcCYXIFcLuhFvx//AwsCiDK6tQRylHEz7gbkIMnzvLJldLxRauWHN0r1LGWpFdmJd7cjHu2IG9uPNhoxFvUQN5KT60LUI2JB3DMQ8Xg9nG5ExFeHPe+18V3jmbmHBQMI7KaB+TEqbAGd+cPHJ8bbsTgWxkBMsj8YjaEyjPnO7Lenvf3dLKfzYpduQTe/tzWf9c0hYXra1as2ukhKM0rvGnaLETupVi6QSgPmGdNhj33ixZFF5qmlvX4apnM7q1TOVT7oNuc50JOLwM9Op38jrnmGnh+d4UZH2GTMN2r+MWYREAiO+XuJE9r6W7WRwNcf//AP/hX1e9FNb6MqgSBb2l/q2OhCdAUAIMXlZkcXgeRqObxr0+MChDoCJGV1ATKjpgmQq1siQMmEdQKU1R0iE3lNaDtO6KTpIjqz3nV0ru0dumSrT6KydmR+yHsR/wpM2V3Du+0qVi1fWWwuhrkmuBabN7cU0+rCy1NvEY463QXOd6nTnOoslyr0YvullznP7haymy8qrLLcSoXNiu3qfv/hTnOxS5zlAueXbbYozocLXW5PL4KREONqmSQRqXbn8KxPKwAAAAA=");
 
 export default Fonticons;

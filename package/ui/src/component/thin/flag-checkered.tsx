@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flag-checkered` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flag-checkered?s=thin flag-checkered}
  * @preview ![flag-checkered](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/flag-checkered.svg)
  */
-const FlagCheckered: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 8c0-4.4-3.6-8-8-8S0 3.6 0 8L0 64 0 383.5 0 400 0 504c0 4.4 3.6 8 8 8s8-3.6 8-8l0-108 112.3-28.1c41.1-10.3 84.6-5.5 122.5 13.4c44.2 22.1 95.5 24.8 141.7 7.4l34.7-13c12.5-4.7 20.8-16.6 20.8-30l0-291c0-17.8-18.8-29.4-34.7-21.5l-19.7 9.8c-46.3 23.2-100.8 23.2-147.1 0c-35.1-17.6-75.4-22-113.5-12.5L16 60 16 8zm0 68.5l112-28 0 93.2L16 166.1l0-89.6zm0 106l112-24.3 0 87.6L16 270.1l0-87.6zm128-27.8l17.8-3.9c19.7-4.3 40.1-3.5 59.4 2.1l65.7 19.3c5.7 1.7 11.4 3 17.2 4.1l0 87.7c-4.3-.9-8.5-1.9-12.7-3.1l-65.7-19.3c-21.9-6.4-45-7.3-67.3-2.4L144 242.2l0-87.6zm176 23.8c16.5 1.4 33.1 .4 49.4-3.1L432 161.9l0 87.6-66 14.1c-15.2 3.3-30.7 4.1-46 2.7l0-87.9zM304 280.3L304 382c-15.9-2.6-31.4-7.6-46.1-14.9c-35.3-17.7-75.1-24-113.9-18.5l0-89.9 17.8-3.9c19.7-4.3 40.1-3.5 59.4 2.1l65.7 19.3c5.7 1.7 11.4 3 17.2 4.1zm16 103.5l0-101.4c16.5 1.4 33.1 .4 49.4-3.1L432 265.9l0 79.9c0 6.7-4.1 12.6-10.4 15l-34.7 13c-21.6 8.1-44.4 11.4-66.9 10zm0-221.4l0-85.8c27.7 0 55.3-6.4 80.7-19.1l19.7-9.8c5.3-2.7 11.6 1.2 11.6 7.2l0 90.7-66 14.1c-15.2 3.3-30.7 4.1-46 2.7zM304 75.9l0 84.1c-4.3-.9-8.5-1.9-12.7-3.1l-65.7-19.3c-21.9-6.4-45-7.3-67.3-2.4L144 138.2l0-93.6c32.2-6.4 65.8-1.9 95.3 12.8c20.5 10.3 42.5 16.4 64.7 18.3zM16 286.4l112-24.3 0 89.4c-1.2 .3-2.4 .6-3.6 .9L16 379.5l0-93.1z" />
-    </Icon>
-);
+const FlagCheckered = createIcon("flag-checkered", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABrAAAALoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDSAsGAAE2AiQDCAQgBYMtBzUbzQXIngPuzgGTGIfRPnXIG/VEBoNB8Dxv93num/l/Ac1ajjuooluZFdvUabM+/anvW+ak0Fi6LUKL0g3SilS8mzf1PAIBKXBhDK55kQ0GHXQdQIdhswGHDbhIhnBhH+j/uebze350gJ8vRA8ll0ERbRHxfAID3Jtl2tlEBjadycB5Vm17cWxJrqHcEBpcgC6HWGICdUCNwLb0TeUvXmwAFJoGAIA4AgAAhe3NtdyfyCTk9cIdyGuqAQGQIgAMBNAADfBFAMhBQwBfdAxAR0fgF/m/+Q80EAAQM/glCgAdsAWuA3wHAOgAKKx1Pc7Kys3W2dHR2cbGZKe32Zisu/cauzVECYLscdtnirTLs8ovTboc89Fkr/teLUSuW++zXnqLCO0t7UiW3h4eEn7Mbd2nYOXhbXI1xVWk9YhfLkiLHA6TFoSjXuYTCZdVjDAjsxvXuKbI5TQRZFN2uOxzWx9sQzgnS55lHtKBhwwbre3JQSelkz/HfA2Ha+ZhwJxBAY5M0Igww7wP/29uhZcvGXowdnuPTJEQFpbQdWYbUkqXuJzay7wHnVPznoYOWq721T4uEOXr1s4sWdPSMFjgjJf7R9rPmWt3QweFdgwPdjiMjqFoaVfX9R4XNhrEzVCxbsWcBmx2xWDj9COQGTUcwU67e09oZMihtYXLzlvQi9eTU5wP5RG9sAulpn3oAwABBG5Vi6L7HXL+UaoA+PO5Uzy90PJVV4AlCgABLWYhoUfuAxi8AMBXUrKCILkPCKA4DwZstGUvCACCNdCAwow1aPjgCDrWRIMJf1K5jRua0RDdCsGVXjgobFkMGmmsBB1XLoGJHJ5FzLiKRswCKQqfkinKukjpLCMxLsHIMmYrKgl9ctFktrHZELHCdkTypYwxzxzLGGWESZZ1sCXUxpczS9kSWsoHMUgkjgQMsjAO1x8q2mRkCUuZnJYdnyYb43p7BCuW+0dyswK0SeQoFIiyf2U0sX8rWZaMjgAAAA==");
 
 export default FlagCheckered;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pallet-box` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pallet-box?s=solid pallet-box}
  * @preview ![pallet-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pallet-box.svg)
  */
-const PalletBox: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176 0l80 0 0 112c0 5.9 3.2 11.3 8.5 14.1s11.5 2.5 16.4-.8L320 99.2l39.1 26.1c4.9 3.3 11.2 3.6 16.4 .8s8.5-8.2 8.5-14.1L384 0l80 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-288 0c-26.5 0-48-21.5-48-48l0-160c0-26.5 21.5-48 48-48zM0 352c0-17.7 14.3-32 32-32l64 0 224 0 224 0 64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0 0 64 32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0-224 0L96 512l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l32 0 0-64-32 0c-17.7 0-32-14.3-32-32zm128 96l160 0 0-64-160 0 0 64zm224 0l160 0 0-64-160 0 0 64z" />
-    </Icon>
-);
+const PalletBox = createIcon("pallet-box", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfwAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCKgsGAAE2AiQDCAQgBYMtBzEbKwXIjsQ4JvKLKOwiHr7X+Xnuk+xZS8ugZWTvDxJ14S5cdOE2kzIVdkjtO775v9zze360QD4fwaHM2Zw2Fo01nicQ4MfyCRhIFmaBnJh3uG5+sHlSaBfS4wp5/J3drEZ6In2P++YPjT/0cDNJIwMQ7QEwf+vG1b78NX6N+O5/ie+sREDMB5VAhgy9BZglE+gtVyGXC36N//8X/4EVAUTd+uoEctRxBa4D5CDJ83zUxEajrLXJt5S1YmdZlOL6Lo90mxnTA1c/FhFlvCKf7SEe7/zwoNbxatdHe0Y8ZYUN3XZDt4jHyrLdXS7H9aK+KEKUITlt7wxTws+KfEQUIWU3l0UpgsoWPuDN9m/+yfdHvvfeF+tWd89p3HyxedxxzZuajXPWGffjD9nzsh9+HFcRyHt7297O7W3n2RjBCbIyjyiNt4Wv2/v8WjPP8+b9ursHBIIh9Q+67G03669WZQK/f9zsif+/TNenN9FKAkE26v9RdtEMjNQAcilaDMBfRSA5L7e+a2uPChAKBEjqCgEyvbQXIFcYKUBNX5MFqCtslIm8IXS2+wJJa+dBZoprQK6zj0DNLF/l6zpHBn0C7Aj/fqlLZGTxqWr8mHHVjMo5cIgAxQ2HM6toz7CWZmE4vuiIs85oOuyQ45oSdsHq0iWnLfGhi/1QZbwxxqnMUGWP19UtUv6Ci47b5fxjZqrqJ4Zp8a8fjv3JSjtBe5KIVJx7Dqc33/gB");
 
 export default PalletBox;

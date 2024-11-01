@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clothes-hanger` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clothes-hanger?s=regular clothes-hanger}
  * @preview ![clothes-hanger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/clothes-hanger.svg)
  */
-const ClothesHanger: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M211.4 91.3C221 38.4 267 0 320.8 0C382.2 0 432 49.8 432 111.2l0 2.9c0 36.5-17.5 70.8-47 92.3l-23.2 16.9L611 391.7c18.1 12.2 29 32.7 29 54.5c0 36.3-29.5 65.8-65.8 65.8L65.8 512C29.5 512 0 482.5 0 446.2c0-21.9 10.9-42.3 29-54.5L306.2 204.3l50.6-36.8c17.1-12.4 27.2-32.3 27.2-53.5l0-2.9C384 76.3 355.7 48 320.8 48c-30.6 0-56.7 21.8-62.2 51.9l-3 16.4c-2.4 13-14.9 21.7-27.9 19.3s-21.7-14.9-19.3-27.9l3-16.4zM320 253L55.8 431.5c-4.9 3.3-7.8 8.8-7.8 14.7C48 456 56 464 65.8 464l508.4 0c9.8 0 17.8-8 17.8-17.8c0-5.9-2.9-11.4-7.8-14.7L320 253z" />
-    </Icon>
-);
+const ClothesHanger = createIcon("clothes-hanger", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbwAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBWQsGAAE2AiQDCAQgBYMtBzUb3gTIhofv7eg793UP4J5Paq0IighkUrTh1EaApk49z3kogM8hCNqYtoct0KRznVeggLFefVNB18RaRbG6TXz0iMKukJCgEdFxelxFS8jj77hSCemm9D6uKB8aX+twEUlJBiDqAbBw++a13hyIgYj3/n+OeM9qBMRCUAhkyNAtwByZQLdcgVwuGIj//+f/wIIAopQeQAI5cqzHLkAOkpTnM+qqSmrybVUllbvvGB3xyPTnRj7UI+6cMyK2hpXcOOLBIdVx/6iHO4F+WKwXvy/iZvcSwy4ecm97c9w47P6urq0HDjtwretaauKGtvNbDw16uP7hb/vfP/J9nx5+1hd8dt7A9//VZio+OeCPBz0TVY39T/7jyf7Gqnim+RWDXStTWR93ttfWTBtv68atLcXxd5U9XUtOr+j78R8/9lWcTvsDgWD0wokj99fN+bW8KoHPX/7+t7a7/99M56WHUS6BIBvz/xh70nnA6ACSFGcaBL4okCyX6LVWu16AUIkASalKATJd6gXIVRotQIleUwUoVWmzTOQVQrO9HSTVTgGZac4GuWbPgBJzvBWXao4sqMiQIN90ccs8tHRWMXHchGJWMa0wKk7wNDm7WBZGnCkdI2mhI53kRKc7wuGOcbpDTrU2O8MJliF4qR8qTDTOBIVZiu364/xtjnCq0xzjJCfmaWYrzjsjnIn7jyQ5UcxJckkiUu23h+iI08YefSXHnwoAAAA=");
 
 export default ClothesHanger;

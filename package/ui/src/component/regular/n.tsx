@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `n` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/n?s=regular n}
  * @preview ![n](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/n.svg)
  */
-const N: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M15.8 33.5c9.5-3.5 20.1-.6 26.6 7.1L336 390.1 336 56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 400c0 10.1-6.3 19.1-15.8 22.6s-20.1 .6-26.6-7.1L48 121.9 48 456c0 13.3-10.7 24-24 24s-24-10.7-24-24L0 56C0 45.9 6.3 36.9 15.8 33.5z" />
-    </Icon>
-);
+const N = createIcon("n", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABTwAAAHAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQh/CwYAATYCJAMIBCAFgy0HKBt3BMieBXbDdRE2DAbNoIhR4I3XjxEPrn3OS7L/qICkULGuQhCOQTgEqU7oIsnqvf+53f1Px/u9JVzy1hBNW0O90XhdQ/VKI5mWQJbUvmfIqv3FzfPOowCfcx8LO9+4wOc8T6DzvMs3UEDZOk8TtMxb5tgeU/qmJpok/0yPXyO03MwDHeVl+eF+Pmn+mGtC0VUAmQIA7D6cicHpjx+T8T4ybg8QyG6AJRAVFQsg2IYLFlBZAjRN+Ih9z/9AAgEyUJ5UQEPFSmA9AA0UaW3hWDexHRrrRo8/NxZT83r1ai7LkxnLWaWUvFixnsfzfLawn7L/51f6mfz2a2Rxxr17jVOTv3/ZU/R7fAOC8L5UuJ1Wb/s/PFbA5+PD5v5d7pU9hhUQ6oZ+Azn3APgAn1RyhZB7CIqFGBx1gmcCYhQBxcCogGo+DQTNqPUQdBbxQzAwaj8ubUTMoDQoJjgP1VZjaGY4QGebpz4wI/WdUFGmvmnxkkXENnI7XBShqa3SoSe0HqVlwTSSmJkGoaStZaCooGpgsJ6YNdQkeajoRcTNwYVE0Lb32J9X1NNX1dZKTaLovGgy8rPN1AUDbLxhQrSUnAEAAAA=");
 
 export default N;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-booth` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-booth?s=sharp-thin person-booth}
  * @preview ![person-booth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-booth.svg)
  */
-const PersonBooth: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 0l8 0 46.1 0L288 0 568 0l8 0 0 8 0 432 0 8 0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56-248 0-8 0 0-8 0-72 0-1.2 .4-1.1 31.4-102L281.6 16 240 16l0 176-16 0L224 8l0-8zm73.9 16l53.9 246.3 .5 2.1-.6 2L320 369.2l0 62.8 240 0 0-416L297.9 16zM240 320l0 184c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-184 16 0zm-82.7-96l66.7 0 16 0 16 0 0 16 0 32 0 16-16 0-16 0-80 0-13.3 0-2.7-2.7-6.6-6.6-9.4-9.4 0 18.7 0 3.9 0 49.4 41.6 55.5 6.4 8.5 0 10.7 0 64 0 16 0 16-16 0-32 0-16 0 0-16 0-16 0-53.3L80 405.3 64 384l0 26.7L64 480l0 16 0 16-16 0-32 0L0 512l0-16 0-16L0 298.7s0 0 0 0L0 288l0-96 0-16 0-16 16 0 16 0 48 0 13.3 0 9.4 9.4L157.3 224zM240 240l-16 0-66.7 0-6.6 0-4.7-4.7L91.3 180.7 86.6 176 80 176l-48 0-16 0 0 16 0 96 0 5.3s0 0 0 0l0 5.3L16 480l0 16 32 0 0-16 0-96 0-48 28.8 38.4 32 42.7 3.2 4.3 0 5.3 0 53.3 0 16 32 0 0-16 0-64 0-5.3-3.2-4.3L99.2 350.9 96 346.7l0-5.3 0-72.1 0-38.6 27.3 27.3 9.4 9.4 4.7 4.7 6.6 0 80 0 16 0 0-32zM64 112a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM16 80a48 48 0 1 1 96 0A48 48 0 1 1 16 80z" />
-    </Icon>
-);
+const PersonBooth = createIcon("person-booth", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABuwAAALvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyEWgsGAAE2AiQDCAQgBYMtBzMbXQbIHoVN2V74kDVYJ1qTR6vbQdP8Bv+gf/XnJhklgyXel1QZKNqtPlSKRQe1crf+wzXfv8pFFt8sQCLpxKah48QKoAmMdDYfDw/H7P1RNtgshCtBwjaigU1gnkd4J1Ix/5d7ftOOAqpPjSkW2o1lrQWyhu39PIEw/Hre2oDLwixRbGreS4Mciq9vCZxe2YiBuZz4wEn7Q/VJyz4wWAsAgPIAAMCA9dgx3H2h96EX/zdBL/SBADQAgIgAC1igigDozSKgiiMCDofgfdTXs//ACAIAxXHfxwDggBQogCoAgAPAkHCuRUntjinMqbGMmxBifmrwGWSE0Lnq1kfkvdyCiZogL1QzHz9+wniExhUHWaUnISbDw4TgA0LI+yrtIdAMUHFAWFOqgHWb0m6IkUIIxdEd74MviZ5K+tUIwWbuIFdqg/t5m4mSaKmkCLQIL3psNWjC0VKii7Gsb5VVdY1FbaNap/w9ew3uM5fcLZR6OV7fBi8XvPT8lJRmJblCorv4rFnx7v4nkwwnRO0WXd4pucLhDmlErssrIA3w2h36+e5A6NF5u/Si+9zhmNmDBs3NE8mTt0+Z7zA3RwcXjQX6y0NyN1rcxR8/YUOatjcBCMw6drhnNMvlFacd5uss0T/PLDEA4tx0BGSW9h75kgaxLtr9xWjsQvZwTdXZL4XMis7z7CE4lI+qWP7fH7ZuXeHh5QAgQHD72LVt53q/JoMB4OPl2ye+u/q7pr+pA5IYAAS29X9r0xL9AaCxACBmtIGGA18kwMiSwH3XNBcQAMIDAsAQxyMALJXyCACHpxUBEKNGFwIgjmcsi1wKUWR6AQxpVgNLV9uBo8h1EKO3J9E4RcHeFew5zf6TJg2tIkPmRb1aI2Eleqsy7kSn9XQzMdnRnvGuIlRkgZVWWGe+eRZbV1GtMSax3nJDh6ghfijSQVvtRXqKFjduShNwdI21FncLy2fpJdo+0tyG4cEtoNvg2u2oyGBAJn0TyW0+RfIiAAAA");
 
 export default PersonBooth;

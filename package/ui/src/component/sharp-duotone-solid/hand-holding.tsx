@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding?s=sharp-duotone-solid hand-holding}
  * @preview ![hand-holding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hand-holding.svg)
  */
-const HandHolding: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M68.8 384L140 327l8.8-7 11.2 0 64 0 64 0 64 0 32 0 0 64-32 0-64 0-32 0 0 32 138.8 0 94.5-65 33-22.7 45.3 65.9-33 22.7-128 88-10.2 7L384 512l-160 0L32 512 0 512 0 384l68.8 0z" />
-    </Icon>
-);
+const HandHolding = createIcon("hand-holding", true, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABWAAAAHKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfIENCwgAATYCJAMKBCAFgy0HVBuzBMgWSktQv9bb83bvPmGA90cBgkoUMDkGR8KgTVRUHBvB7FJ1FzfPO48CfKPQ9tBAFvic5wkEnOWJt4UyzcCCaGf/ZVKfVQb49BkmbtjUobNCHv+zU0qkm+kFrtp/AOOLbk6R1GQAohkA0xfPn+fRy3iZ4kXlAfHCXATEDFAIZMjQU4BJMoGecgVyueBlqlR4GZVKQQBRZmfPQBkZ+mMkIAcJkecddaWGfFFdqXbx4gWLu0RdnaitFXWxOCbGwhgXC6I9ausj6vrea773rePFphdmTZ0zLm1/Rt3LaYo1hYtWTlM2eLqyo4vdUn/smNlAIHj3d+SZ1U2T/lXXJfD64Y/P+iGpPErj0j1USyDIBlUGWZGmoTqNEwCAFIf0TdNAINMh0afWuyZAqEWApKxWgEwPzQLkag0UoKS30QKU1ZovE3mN0G5lg6TeXsiMcRhy7e5DySSPnbL2yHihbpv6rsXPGZk9VQwfMqyYUCwDlUaAyMOJxbbe75BCf1m0yW67HLDRBlsdCNtnnn/QTnM8dLYXFYYbYpjCBEU4vucX5eyz39Y5Gx8zUXHe7ueQX99frKTgjjCTyYgUWTtf8mAA5cHolTsP2GcGAA==");
 
 export default HandHolding;

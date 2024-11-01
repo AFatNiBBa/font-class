@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `desktop-arrow-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/desktop-arrow-down?s=sharp-thin desktop-arrow-down}
  * @preview ![desktop-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/desktop-arrow-down.svg)
  */
-const DesktopArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 0L248 0l0 16L16 16l0 384 215.8 0 .3 0 111.7 0 .3 0L560 400l0-384L328 16l0-16L560 0l16 0 0 16 0 384 0 16-16 0-206.6 0 13.3 80 73.2 0 8 0 0 16-8 0-80 0-144 0-80 0-8 0 0-16 8 0 73.2 0 13.3-80L16 416 0 416l0-16L0 16 0 0 16 0zM80 64l168 0 0 16L80 80l0 192 416 0 0-192L328 80l0-16 168 0 16 0 0 16 0 192 0 16-16 0L80 288l-16 0 0-16L64 80l0-16 16 0zM225.4 496l125.1 0-13.3-80-98.4 0-13.3 80zM296 8l0 204.7 74.3-74.3 5.7-5.7L387.3 144l-5.7 5.7-88 88-5.7 5.7-5.7-5.7-88-88-5.7-5.7L200 132.7l5.7 5.7L280 212.7 280 8l0-8 16 0 0 8z" />
-    </Icon>
-);
+const DesktopArrowDown = createIcon("desktop-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgAAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCZAsGAAE2AiQDCAQgBYMtBzkbbQXIjtRG+UVWEg//bxd1369q6EyNXGNh4QiKqGzCFbJ1BqZ2uHFX7fv/XFMvrArw8wiGEtlW4V3PJzCR5gTa6MCGs4nils1hfhEPbYT4K+TxjdMqpGfSp3gofGj8Y6B7SLIMQBQAWLFv1xbv/xg/RnzSRXxiEwJiBSgFMmQYIsBimcAQuRK5XPBjdLviP7AkgKhKFU4gRxWP4gogB0me54tGNUa1Kp18b6vSPNRqtkQzUrQiqDWbIlHTEikMZHOPr9leWvdNYxHZkXPHPU50zOcx/nak3taBfXRvbvchgdb3j77RJ3YXXL/Yq5869lw6FUY+Xzz/34hPz36qx3t/pq8v/OkOX+JafOkOfyr8WRTuUCi+6GyzoV6ozy/UN7S3+XzT030W1xee9b4r2vusQbNOeN/5ahN5+JXb0lxnm5NuRdb88Rm+tGGj3Z63xr59dttd1+3xpt1W3/eZukIdCAS3Hzu07FiPxf/XWwn8/OZ/2Ce676fl6XnUJRBkk7uTHTZZcKoB5FPcbCT+KgLJvXKpEm1PChCaCJBUNQXIDFYIkGuahKFimDlodf8umcgbQh9HBkjaroPMXLdCro83oGKxDwpVfSIDTQNgGX4Ms66d4mt2lTOmTi8XlrsdnRHadHZzUXnZO/5mOTEBn3XWNa52ozNOu+DGiXy9LeWbXGXtEbvGD5VmmGq60kLl4/5L615auN4NLmybn2+zSPl9crybj+dPwIEkVTtTU5KI1CvmN045cf3119wyJc4C");
 
 export default DesktopArrowDown;

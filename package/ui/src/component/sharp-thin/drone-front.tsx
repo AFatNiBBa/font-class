@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `drone-front` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drone-front?s=sharp-thin drone-front}
  * @preview ![drone-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/drone-front.svg)
  */
-const DroneFront: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M152 104l0-8-16 0 0 8 0 24L16 128l-8 0 0 16 8 0 120 0 0 152 0 8 8 0 53.6 0s0 0 0 0l-35.7 42.9-1.9 2.2 0 2.9 0 56 0 8 16 0 0-8 0-53.1 35-42 56.6 37.7 2 1.3 2.4 0 96 0 2.4 0 2-1.3L429 312.9l35 42 0 53.1 0 8 16 0 0-8 0-56 0-2.9-1.9-2.2L442.4 304s0 0 0 0l53.6 0 8 0 0-8 0-152 120 0 8 0 0-16-8 0-120 0 0-24 0-8-16 0 0 8 0 24-120 0-8 0 0 16 8 0 120 0 0 99.8-80-35c-25.3-11.1-52.6-16.8-80.2-16.8l-15.7 0c-27.6 0-54.9 5.7-80.2 16.8l-80 35 0-99.8 120 0 8 0 0-16-8 0-120 0 0-24zm0 157.2l86.4-37.8c23.3-10.2 48.4-15.4 73.8-15.4l15.7 0c25.4 0 50.5 5.3 73.8 15.4L488 261.2l0 26.8-48 0-2.4 0-2 1.3-70 46.7-91.2 0-70-46.7-2-1.3-2.4 0-48 0 0-26.8z" />
-    </Icon>
-);
+const DroneFront = createIcon("drone-front", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgwAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyDAAsGAAE2AiQDCAQgBYMtBzIbggXIjsO44TsihljKfzz8/9y/7XOT91eaV0iJUwCEIXaEElHVDRnz11hUo7CZF3geTlyT//78+zyadGhRdR4FmIkJNBpoF3iCDmcTxZlbYx8VRJgPWTGs5iWxx2+PbzfI42+HNUivJHhBPjR+1dOjJFkGICoALNi2aY0HrdEa8fP/XxI/W4WAWABqgQwZ+ggwWybQR65GLhe0xv//p//AmgCiBb8ogRw53sVHgBwkKc/v9G022uVbm41yV4gykLQUzaawPhSVfnQJSDMiPC/WRFc72T3WxRxLzuFuMTce6oYu8jGsLCPC07c1vnvqeHr6Zhy2bfO2rzXwzJQtr8gusTlKfbfFhQPfq977fYCjvLStKIpKoYfrctn1lxWKqTBTR5npCmj/FCM8ppIOVh4zwhRr/3SZjmaCqUXhZQ+gR4bnuMPWDbR+ZGXk+sN8eMP/xpYhPWXu0MrQuTJJb+NTZclYu8udKml8byAQfPzwzQf7NvuvogR++e7PX+l9Bel6eg+FBIJs9P+j7U73FYp0XQAAUlw1EHxRIHlVwvvaelGAUKJs0qJkM71VbK40im3oZ8r+FqVNMpG3EbrYo2zS1gU2M9UdNtfF52zDbN9HWnSJLFCVYab8TUy3dAaXjKonjB1fz6yXaacq9uS1fVa9bRt+NZeNoLWOOuesy4447ITLE3HRmvgVZyxF0BI/VJtgrPFqM9Wfc9+Xb3XERZeccM7ZNsgstX9ouKu49ghyJixzoi1JIlLz8MVzZ4+MiW4AAA==");
 
 export default DroneFront;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lock-a` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-a?s=light lock-a}
  * @preview ![lock-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/lock-a.svg)
  */
-const LockA: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 32c53 0 96 43 96 96l0 64-192 0 0-64c0-53 43-96 96-96zM96 128l0 64-16 0c-44.2 0-80 35.8-80 80L0 432c0 44.2 35.8 80 80 80l288 0c44.2 0 80-35.8 80-80l0-160c0-44.2-35.8-80-80-80l-16 0 0-64C352 57.3 294.7 0 224 0S96 57.3 96 128zM80 224l288 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48L80 480c-26.5 0-48-21.5-48-48l0-160c0-26.5 21.5-48 48-48zm49.7 200.8c-4 7.9-.7 17.5 7.2 21.5s17.5 .7 21.5-7.2L177.9 400l92.2 0 19.6 39.2c4 7.9 13.6 11.1 21.5 7.2s11.1-13.6 7.2-21.5L238.4 265c-.8-1.6-1.8-3-3.1-4.3c-1.4-1.4-3.1-2.6-5-3.4c-2.1-.9-4.2-1.3-6.4-1.3s-4.3 .4-6.4 1.3c-1.8 .8-3.5 1.9-5 3.4c-1.3 1.3-2.3 2.7-3 4.3L129.7 424.8zM193.9 368L224 307.8 254.1 368l-60.2 0z" />
-    </Icon>
-);
+const LockA = createIcon("lock-a", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABiwAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCPAsGAAE2AiQDCAQgBYMtBy0bOQXIjsK2eXNkuCRDpph4suJ5/tf+t8+d+8UkavofSGKRqCGxOo3GqySaSZ5FSCQ8QaThVZO18YNx771vzzeYTXDa2tIyoAghpC3UxU1/P8//ecX540/w0aKw9IMUyKeM7XwCE9vN26bTsvRpivneNnQoIYUvQiRIIhpPaKwWULOQAGLKnfKFG+1C892ScYraEEAmEYBTlwqz6e4LviRf3TF56ywSyGkibAIaNFgFcJRQsEpkE6mq8CVdR/+BjAKkn/TQC6gYQA/XARUUfVWk37J3lirFalGJUqyoPN4G9tYIwwBWdg+iiwiGc7S160h4sL0Xqcbp7oELsLyzHxXvZ/34TdbT0SsuUqvUW3NTdoTbs5MeKmzPT9sDCwsz3sWTc1PWYCgRmKmFGUsJpueFVUzMTu6qqDA8JDwUCrdWt//n+tXy5fOjXks7mEJ3TpK1be9abQo+riPd5RKsysVmHdtvdJRCfOhMXl56hFhby8whv9/Cx5p3H0KYbNPQt6rX911RVCXK6Os31bkrMjXlykIhbxr0KMb/H8XpqF8EYeHJ1PNabcIfmVJA8O3p7/++dXeHZ6XFoAJCs9cFqModEDfASyoZIbfcISiuEsNzHXVTQAwjoOg3LKCxQgegGrYLoM+6SAD9hp0jlCqnmFVtoBh1BTSOGAPVrEPQ56hXt99shGkoJZH0CUzP8lDmNA4NCuE4XkaGnFmCjMfztuEzwhVfmEstevUY0qxJuyFHDsgOhnXLiuBMT8RCBQnB4vBx+jy7RLMBg9r16qmTxOP7jo+RuN0XbAHl3RcqCimS52EG1gMAAA==");
 
 export default LockA;

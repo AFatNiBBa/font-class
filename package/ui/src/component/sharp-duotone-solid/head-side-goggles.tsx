@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-goggles` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-goggles?s=sharp-duotone-solid head-side-goggles}
  * @preview ![head-side-goggles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/head-side-goggles.svg)
  */
-const HeadSideGoggles: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 192c.1 3.2 0 6.5 0 9.7c0 53.5 21.3 104.8 59.1 142.6l4.9 4.9L96 480l0 32 32 0 160 0 32 0 0-32 0-32 96 0 32 0 0-32 0-96 32 0 32 0 0-32 0-16 0-11.2-7-8.8-22.4-28-2.6 0-32 0-32 0-64 0-48 0c-26.2 0-49.4-12.6-64-32L32 192zm13.9-64l179.7 0C233 91.5 265.3 64 304 64l48 0 47.1 0C364 24.7 312.9 0 256 0L233.7 0C148.3 0 75.3 53.1 45.9 128z" />
-        <path d="M304 64l112 0 0 160-112 0c-26.2 0-49.4-12.6-64-32L32 192 0 192l0-64 32 0 193.6 0C233 91.5 265.3 64 304 64zM512 224l-64 0 0-160 64 0 0 160z" />
-    </Icon>
-);
+const HeadSideGoggles = createIcon("head-side-goggles", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCBwsIAAE2AiQDCgQgBYMtB14bNwXIhof/7P77far63jWve4wayM/RAPh0BuU/E2IysmMy+vGdOpVzsU0BfKOg7WG5+AbcXVMX9rzAoca6wJdXqEQ14e7OtpSktEeSJBbL79iOzx2q+CrfpUW6P32Cu9P/AMZfJrmLpCsDiJEA6Dm8f6c3vo/vU3zSeZH4xA4ERC8oAhkZUwXYIgtMVSmoVILvU6fD99HpFAKItoRkehvfeiGuAlQgSVJVje1aMrZpDasONa364qZuRB0vL6rriKZ5cPET8w/WTesMh28TcZtv944LgdmMiBxGjI9FQqj2Zze1O79pHt/0el3HNzs+WTHr8ZGP/zPzk4s+sfzWa+glj7nGbVd9UbqVt473dH/x+aPd3d2P6faYGZ2cScm+B/rdqShvFMWZEmzFnxqpcYnj8rO3XfXFdy8ic/zgFcufWtG9eLxuo0dfAgSC3/ou/+b0iC3/D2kS+PH1//4sP6TzRpIexxAJBHlJZ4kTCSQCAJDiJrPSqx7ULaFPHeoeAUKNAElbLUA2xUgBKrXFArRMt1aAttp+WVRdwlgnG0iGuhZk69wMKmO9AFq2eD9uGxvZ2DhT4f56yYM9PHCsrFy2omwqy0rl7YeJ65vLtr3gJj+2EDpd5GpXucGFLnCpGzrqOjuzG11pkCMHfFGx0jIrFJsUcc+xxSEXus71Lp2L8n02K/eDBW7iZy8ELyHaVVqyTKTIk0xSWaqQ+aUXX33xxVdceP1S1Z0xZSoqKgA=");
 
 export default HeadSideGoggles;

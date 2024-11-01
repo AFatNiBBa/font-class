@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-q` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-q?s=sharp-duotone-solid circle-q}
  * @preview ![circle-q](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/circle-q.svg)
  */
-const CircleQ: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128 0c0-70.7 57.3-128 128-128s128 57.3 128 128c0 28.1-9 54-24.4 75.1L401.9 384l-61.5 0-15.9-19.9C304.7 376.7 281.2 384 256 384c-70.7 0-128-57.3-128-128zm48 0c0 44.2 35.8 80 80 80c13.9 0 26.9-3.5 38.3-9.7L238.1 256l61.5 0 28.3 35.3c5.3-10.7 8.2-22.6 8.2-35.3c0-44.2-35.8-80-80-80s-80 35.8-80 80z" />
-        <path d="M176 256c0 44.2 35.8 80 80 80c13.9 0 26.9-3.5 38.3-9.7L238.1 256l61.5 0 28.3 35.3c5.3-10.7 8.2-22.6 8.2-35.3c0-44.2-35.8-80-80-80s-80 35.8-80 80zM324.6 364.1C304.7 376.7 281.2 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128c0 28.1-9 54-24.4 75.1L401.9 384l-61.5 0-15.9-19.9z" />
-    </Icon>
-);
+const CircleQ = createIcon("circle-q", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABmgAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCSQsIAAE2AiQDCgQgBYMtB0wbZwXIhocnu6j3q3pmAfUC8EGRhAhivMiO0cUz/+d6Pmsa4DcaWhS1DqTAO3gCE0mM8wI/oTM9OnI9cxuxtCAMm4ic8rwYigtN8AZF/JJvUCE9kL7DbfI/gPGXdm4gqZcBRFMATF29fKGPLsSFFN/V3ia+swABMQ2UAhkZHQWYIAt0VChRKAQXUq3GhajVSgKIKoGz36aKOrgBtwMKkCS5KNq17tCuXYNKo2JVg0r91Y/0jXhh5E29V0WDGBj3xaP9Xhz1dp/nO658vv4Xkz7o9tTkD2d/PvH9rg/3mRr1o338PjXi44XfN7hp8Y/TP139x7RPFv1Q/8YF3035aEWDpyZHNLLjlRqsf323F5u++E/X73Z957UPYxU7m7aqN3qmSd50dYtYtbNp05W74u79l3stmT6iUhkxfYk7Xv/w3Sa57CMz69HurY+nT//4rXb1zEQviNf0DsDsjmpDjtwPBIJHG7U8t7nJhP/rNkjg0jv//em+SGofJelF1JVAkAfUBtiQQCIAAClO6Za4BoFsocy+a0P3ChDqI0BSVV+ArIOmAhTq6y9ARWcjBaiqb7ksinpCSxsDSBo6CrJRrgSFlt4CFRN8aVW1jKyNrC6xj8GkWQjNnCqHDhpSjiuLHs8pGG2648tutc8pzvSlXbscdsgJO+2w1wkgj1nonnTQrBox0weVhhpkiNI45XR4Kq0C65jj9uaF+THjlfvNPk7Vy/uSkVjKYWayTKTITX/tmAOPDlRruXkkXGA=");
 
 export default CircleQ;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tty-answer` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tty-answer?s=sharp-solid tty-answer}
  * @preview ![tty-answer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tty-answer.svg)
  */
-const TtyAnswer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 0L0 32 0 64C0 311.4 200.6 512 448 512l32 0 32-144L368 288l-67 83.8C232.5 335.7 176.3 279.5 140.2 211L224 144 144 0zM352 64l-64 0 0 64 64 0 0-64zm0 96l-64 0 0 64 64 0 0-64zm32-96l0 64 64 0 0-64-64 0zm160 0l-64 0 0 64 64 0 0-64zm32 0l0 64 64 0 0-64-64 0zm64 96l-64 0 0 64 64 0 0-64zm-256 0l0 64 160 0 0-64-160 0z" />
-    </Icon>
-);
+const TtyAnswer = createIcon("tty-answer", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABbgAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiCDQsGAAE2AiQDCAQgBYMtBzEbDgXIjtRG+QNZSTx8v/Z67tsN7U+Rt1EFIPLfFVx0bF3ZsW11prYTWeCsfX6fuCZ/6tMDlj3Bo3Xa/zYt8MzzCQw02iK9gGbD2URx5rZYcKKCnElFpuh45EP7hfZHyON3dk8N6VH6gGr+0Piil3skDRmA6AiA2RvXLveqNVoj3v9HvLcUATEblAIZMvQVYJpMoK9ciVwuaI3///k/sCSAqIV7JZCjwC5cBOQgqc/zXg3YWqlpl2+o1BRb121cJz6udxMqsTE2xLr4tKEuWV9UClGJ4DIbBVZDih6toOvRxi1NLR1b2gZ+OPBB9WV1QKGVXJu6T90X0teU5l1UV5qz1qGJEw+tnWNltZmzoCrWrhYN2NmtZkJLe+YeADS/ohkIBJt+rZy8s8O0r/WVBD4/uU28+f+rdCu1oF4CQTbs/zDb0i1gZgC5FBc0KV8USDaph3dtdF+AUCBAUqsQINNHRwFyhaEC1OhvvAC1CmtlIm8Quto+iKTRaSIzwXUi19VjosY0r7O1ukZmboKxCH97qQskNH9cOXrEqHJKeSzqogVxaXhq+dgddME3DaaNDjjphHP22+ewcwI/Y3nhvOMWaNh8P1QabYRRSlOU15VXdYPInnHW4b3lfpSpyvfjQS7onQdTkIB1jLlJIlJx7tzl4d82AAAA");
 
 export default TtyAnswer;

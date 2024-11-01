@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `compass-slash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compass-slash?s=thin compass-slash}
  * @preview ![compass-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/compass-slash.svg)
  */
-const CompassSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M455.1 454.4C416.6 480.6 370.1 496 320 496C187.5 496 80 388.5 80 256c0-30.1 5.5-58.9 15.6-85.4L82.5 160.2C70.6 189.8 64 222.1 64 256c0 141.4 114.6 256 256 256c55.2 0 106.4-17.5 148.2-47.2l-13.1-10.4zM320 0C264.8 0 213.6 17.5 171.8 47.2l13.1 10.4C223.4 31.4 269.9 16 320 16c132.5 0 240 107.5 240 240c0 30.1-5.5 58.9-15.6 85.4l13.1 10.4C569.4 322.2 576 289.9 576 256C576 114.6 461.4 0 320 0zM194.5 351.1c-6.3 18.8 11.6 36.6 30.4 30.4l96.9-32.3-15-11.9-87 29c-6.3 2.1-12.2-3.9-10.1-10.1l25.2-75.6L221.6 270l-27 81.1zM318.2 162.8l15 11.9 87-29c6.3-2.1 12.2 3.9 10.1 10.1l-25.2 75.6L418.4 242l27-81.1c6.3-18.8-11.6-36.6-30.4-30.4l-96.9 32.3zM13 1.7C9.5-1 4.5-.4 1.7 3S-.4 11.5 3 14.3l624 496c3.5 2.7 8.5 2.2 11.2-1.3s2.2-8.5-1.3-11.2L13 1.7z" />
-    </Icon>
-);
+const CompassSlash = createIcon("compass-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhAAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCKQsGAAE2AiQDCAQgBYMtBzQbLQXIHolxTMnG6B/x8P92j7/PnQngWakgukvpzw5kFZRfFfwSLEQ//X1r5/+aevH86N4BfaNDibbUxusNqIMnMOAoz+DpbDibKG53toQiWomSRhnJ593xWUMe/1iiDOlm+gjn44fGjxo4QpJlAKI6AAZOnzzWaw/jYcRHpYiPjEZADAKFQIYMjQXoIxNoLFcglwseRqlk/gMLAoiy8N4J5CiHNTgFyEFSJs/rN6hdq3KlMlXyae7lFRd+NOWbUR90em7awWZ1476vB74+9uOp346vO+urMXXi0+lfj3y/47NTDzSuE0/HN4PeGPfJtBlX6kRcrTc96saUuKKc6XXq1tEZ12tPiToBSt1rVlqUqCV4I0Weuqn53ep3f+6jZR95p8zt0QaZP/+33wxq+8cH2nQ2vH6DiweHm+y/D469nevxxA8a77VnXr+T3His8KNpjT3TsP4oH2g4YdeLP2JeJ1mafeOJZh1uTR7Sdcj6X5WrQSD4e3jdDfOr9fmtfKUEHr/w6/rAktLpULqL8hIIsjalNuakAwxkoHi8F9s0h28SSJYoA9+1smsChIoIkJRVUYBMI9UFyFXUWoAymuoqQFkVTZaJvIJQ29wGkso2gkw3e0GutudBGX2865dVOzLh40SH+/slD6Po0FFFx3Ydil7FNKfy8sT43t7Fttpim61pCSsts946Wyy1xEpbCL7J2GirtYZx2FA/VOionQ4KvRTHxcfF0yy1yWYrrbcuDNNbcd9sYRvfvCUYCZJ2Mi5JRKqyeP1a+c5qu3nNws0rAAA=");
 
 export default CompassSlash;

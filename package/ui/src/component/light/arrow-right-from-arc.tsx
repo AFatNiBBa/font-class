@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-right-from-arc` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-from-arc?s=light arrow-right-from-arc}
  * @preview ![arrow-right-from-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-right-from-arc.svg)
  */
-const ArrowRightFromArc: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256C32 132.3 132.3 32 256 32c8.8 0 16-7.2 16-16s-7.2-16-16-16C114.6 0 0 114.6 0 256S114.6 512 256 512c8.8 0 16-7.2 16-16s-7.2-16-16-16C132.3 480 32 379.7 32 256zM362.6 116c-6.6-5.9-16.7-5.3-22.6 1.3s-5.3 16.7 1.3 22.6L453.9 240 176 240c-8.8 0-16 7.2-16 16s7.2 16 16 16l277.9 0L341.4 372c-6.6 5.9-7.2 16-1.3 22.6s16 7.2 22.6 1.3l144-128c3.4-3 5.4-7.4 5.4-12s-2-8.9-5.4-12l-144-128z" />
-    </Icon>
-);
+const ArrowRightFromArc = createIcon("arrow-right-from-arc", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbAAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBTwsGAAE2AiQDCAQgBYMtBzsb2gTIjtRG+UVWEg/f2z117usewD2SIpgRlFEpFEJc57823dpw4l+17/N/zednTQf4jQ6tQ+8WWOCZzycw0Mjw+WxgM52AzdzV0uYh2kuhtSLJ43l5fOwgj2fRTQXS5fQdJ8uHxn+aOEKSZwCiNgBGz5kx3etSlCK+lxHfTUVAjAGFQIYMzQUYJhNoLlcglwtKUS7Lf2BBAFGRwomWhxMnYzYgB0nK8/bNq1Wokc/mi6rOudo34t7UiG8TLza60PDvad9HvZ75z+g303/Msqt+nPK1z902Ky7UP9dgVlSPc/XPN6gRM0Necb7RnLgYBxvObnOn9p3/W39f/V2rVzX/4G03WpRKNWuWJjp4ukljE01s3OT0wYn81FKLbm//qDnl6OPbR69sXaEhWw31dleO3n58cr9xlSqNq8+DQPDkxrDzS2oN+1W5WgL/Pv0L/4rKr5N0B5UlEGTdyt0sTCARAIAUu7VJEEhGS/Rdq7sgQKiKAElFVQXINFNbgFxVXQWooKX+AlRU1QyZyKsI9S0aIKluG8gMsBfk6rsHKhjmU6Si+pHhiUUD+51LmmCh8a2K3j16FUOKaULjIEKnxqHFttVpdyzoTGOttsVmO62y0jo7Dbnd9Pgum0xYEeN9UaG3HnopDFEcp/fDZ1tlux3W2WJzbmao4r7Xye51+c7kJkrZR+8kEan+su3bt+x5jnJ38IW7L9u+AgAA");
 
 export default ArrowRightFromArc;

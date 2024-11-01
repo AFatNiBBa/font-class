@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `music-note-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-note-slash?s=sharp-solid music-note-slash}
  * @preview ![music-note-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/music-note-slash.svg)
  */
-const MusicNoteSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48.4 14.8L29.4 .1 0 38l19 14.7L591.5 497.2l19 14.7L639.9 474l-19-14.7L384 275.4l0-109.6 103.8-25.9 24.2-6.1 0-25 0-64 0-41-39.8 9.9-128 32L320 51.8l0 25 0 64 0 84.9L48.4 14.8zM384 411.2L317.8 359c-14-4.5-29.5-7-45.8-7c-61.9 0-112 35.8-112 80s50.1 80 112 80s112-35.8 112-80l0-20.9z" />
-    </Icon>
-);
+const MusicNoteSlash = createIcon("music-note-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZAAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBSQsGAAE2AiQDCAQgBYMtBzcb0ATIjtRZrThX8fC9HV/nvu4B3APJGZRyBQTRr03NLEcYmP9rPj9rOsDPR3BoHXogUZtFxPMJDDTSG2hAs+Fsorjdaa3NIdqHkLIkx2fH5wJ5/N0JpUjX08e4nD40vlbPCZJyGYCoCoChs6dP9HpJlER89P8zxEfGIyCGgkIgQ4aGAgyQCTSUK5DLBSXx///8H1gQQJQmcKLn+OAoTAfkIEl53r5GhVKV8lm0pvz8Vi1bdYiWsRV2do5WMSsiZkfrkOIeMSNaBHp82cpZM2fdKf90m3sNb7e93/O59g81iWYPqj74tunHqz7W+fFOUPqOTga8pJNy1TfP2Wh1PTvVM0Rbex1u0pXMVOXLyeeHdscNo+r94LeI3/yQX1ELCARnd7f6bHGVAb9eIYGvXvz+W+7p/19PR9IDlJVAkHX4v4MF6QgwNYAwxS7NlC8KJIMk8q4VXREglEeApLTyAmQaqCpArrz2ApTSWE8BSitvukzk5YSaFjaQVLQVZHo5CHI1PQVKGeC9oLSakRkTZwrcXy551AiNXFV07dSl6FcsGypvH0xY7F9s2212+YG2cNYqm22yw0orrLVjILeZGO+00SiNGOmHCl110kWhn+K4/Xx8lpW22W6tzTbFZfor7vtt7NLHtwUvEdpuypJEpKpGpnR8ngUdt29Yun0NAAA=");
 
 export default MusicNoteSlash;

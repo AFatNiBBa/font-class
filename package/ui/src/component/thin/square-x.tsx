@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-x` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-x?s=thin square-x}
  * @preview ![square-x](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-x.svg)
  */
-const SquareX: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm126 34.8l98 113 98-113c2.9-3.3 7.9-3.7 11.3-.8s3.7 7.9 .8 11.3L234.6 256 334 370.8c2.9 3.3 2.5 8.4-.8 11.3s-8.4 2.5-11.3-.8l-98-113-98 113c-2.9 3.3-7.9 3.7-11.3 .8s-3.7-7.9-.8-11.3L213.4 256 114 141.2c-2.9-3.3-2.5-8.4 .8-11.3s8.4-2.5 11.3 .8z" />
-    </Icon>
-);
+const SquareX = createIcon("square-x", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdgAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBfAsGAAE2AiQDCAQgBYMtBy8b+wTIngU5GW96ZJrFpax/dlhWLiGLeHh+rd+5b2YXERvMLH2ThHqj0cU00ki/4aGpZfIm8xfQ4M1t9J/2LmIJBSp1SO27volzne98NMAiLJRoLJ2N1prxUecvMNH3tBeKApsovt/O7w1OUjqT0BGXZNjuD+M/Qh5XwRYl0mUEJ9OPxj8DnCDJMgDRHQDL66o2a/sMP0e8rUi8tREBsQIUAhkyDBZgkUxgsFyBXC74HJUK/QcWBBBl/IIJ5CihFXsBOUiyPB84cESnUpe8tlOpY9M9H3Eup7gczvdd4mG62LK4Ei8MnTddXSOejl3i/vy4pLg0Peo6x4PlSc1qampr6uJiOO+royaAORdrozowF1Jd1Aa9vGLEE/3kxzaWnrze8y5bJnv3/oqQKFzp2IMet4C51aNHx2UkWMdHPAdyxKqqVbPfQ5wyuzEDF3DVq28HAsG+VT9H3m3Rf8wS+Pq8y/Uqn6MtPQG0l0CQTapsmqMNaFQA2ymOGaFMLJDUygD32tkFAUJHBEjKOgqQGaS7ALmOJgpQMtRsAco6qpKJvIPQW0uHk84Owpk5jsO53p7BJYu8sMt6R2ZmvJHwP3kpaySweqy4p0wrFhTbUhUsh427C4tjdTrmZ8bjoG322+eIrbbY6YiADtnsHbXXGg1cbUKF6aaYprBAcd08K7XCPuSwnWvpfp+FivfmOMf05eNhJEw5QypJRGr/pWqTPw==");
 
 export default SquareX;

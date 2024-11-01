@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-lines` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-lines?s=duotone comment-lines}
  * @preview ![comment-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/comment-lines.svg)
  */
-const CommentLines: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c-4.6 4.6-6 11.5-3.5 17.5c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240zm128-40c0-13.3 10.7-24 24-24l208 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-208 0c-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24z" />
-        <path d="M128 200c0-13.3 10.7-24 24-24l208 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-208 0c-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const CommentLines = createIcon("comment-lines", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABiwAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCDAsIAAE2AiQDCgQgBYMtB1YbNAXIjtRWecGFUPHwZPdf51b1fwOox2YGRcKuIxAZkQ/ClbL9+V8PMHUqJ9tCAXyjoO2h8aRjWW1P6lWgItMn9SJSsLFEa2TdnS1lhyyPJJZYwvFtx2kPRXyXz6kiPZC+wBX6H8D4SSvnSGplANEwACYuXzzXR7fiVoovql8jvjAHATEJlAIZGW0FGCMLtFUoUSgEt1I1bkW1kgCigmLMoIIa2I4DgAIkSS6KevV6Y1inql6xDN+pvfyh7nXi8Vb3d6kdT7TW5caPEx/ucbMp/YCnap8WcbPZPXXeHP1m97frXJj9+fgPOz8y7oNZny37YcYnY94rL+zR6ZmGz/zS8YttXzj5X7OF31jYLMsbHHSAhxh8Y8rdKbWOb+vcKEKwvcfM2i8v6N/vjxHTH3qofftatXzhQ+enm+48m/Fk9ycXg0DwwcEXD6xvMOaadRK4885vf5Uz/e9Wkp5BTQkEuY8+1iQCmTlCKk5xTKfEqXhDgWyqDK61rnsFCLURIKmoLUDWRkMBCrX1FqBKe0MFqKhtsSyKWkJTaxtI6joIsmGOg0JTr4IqY3ycqGgaWd94beF/eynTODJ1WTmw34ByVLksqYIKsWF0dLnt9DiGLT1hp2322+eIrbbY6QijD5mbPmqvaRI11ReVBupngNIo5XH1UVnGEocctnMunS8yWvk+6OGY3L0n+EliHGRFlokUuZmFa32V1Ohruh1aTCQzBQA=");
 
 export default CommentLines;

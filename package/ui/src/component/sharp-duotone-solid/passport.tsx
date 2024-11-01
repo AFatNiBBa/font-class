@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `passport` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/passport?s=sharp-duotone-solid passport}
  * @preview ![passport](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/passport.svg)
  */
-const Passport: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 192a128 128 0 1 0 256 0A128 128 0 1 0 96 192zm33.3-16c5.3-31.4 25.8-57.6 53.7-70.8c-6.8 17.1-12.9 40.4-14.6 70.8l-39.1 0zm0 32l39.1 0c1.6 30.4 7.7 53.8 14.6 70.8c-27.9-13.2-48.4-39.4-53.7-70.8zm71.1-32c1.8-29.2 8.1-49.9 14.2-63.5c3.4-7.6 6.7-13 9.1-16.5l.6 0c2.4 3.5 5.7 8.9 9.1 16.5c6 13.6 12.4 34.3 14.2 63.5l-47.1 0zm0 32l47.1 0c-1.8 29.2-8.1 49.9-14.2 63.5c-3.4 7.6-6.7 13-9.1 16.5l-.6 0c-2.4-3.5-5.7-8.9-9.1-16.5c-6-13.6-12.4-34.3-14.2-63.5zM265 105.2c27.9 13.2 48.4 39.4 53.7 70.8l-39.1 0c-1.6-30.4-7.7-53.8-14.6-70.8zm0 173.6c6.8-17.1 12.9-40.4 14.6-70.8l39.1 0c-5.3 31.4-25.8 57.6-53.7 70.8z" />
-        <path d="M0 0L448 0l0 512L0 512 0 0zM183 278.8c-27.9-13.2-48.4-39.4-53.7-70.8l39.1 0c1.6 30.4 7.7 53.8 14.6 70.8zm41.3 9.2l-.3 0-.3 0c-2.4-3.5-5.7-8.9-9.1-16.5c-6-13.6-12.4-34.3-14.2-63.5l47.1 0c-1.8 29.2-8.1 49.9-14.2 63.5c-3.4 7.6-6.7 13-9.1 16.5zm40.7-9.2c6.8-17.1 12.9-40.4 14.6-70.8l39.1 0c-5.3 31.4-25.8 57.6-53.7 70.8zM279.6 176c-1.6-30.4-7.7-53.8-14.6-70.8c27.9 13.2 48.4 39.4 53.7 70.8l-39.1 0zM223.7 96l.3 0 .3 0c2.4 3.5 5.7 8.9 9.1 16.5c6 13.6 12.4 34.3 14.2 63.5l-47.1 0c1.8-29.2 8.1-49.9 14.2-63.5c3.4-7.6 6.7-13 9.1-16.5zM183 105.2c-6.8 17.1-12.9 40.4-14.6 70.8l-39.1 0c5.3-31.4 25.8-57.6 53.7-70.8zM352 192A128 128 0 1 0 96 192a128 128 0 1 0 256 0zM112 384l-16 0 0 32 16 0 224 0 16 0 0-32-16 0-224 0z" />
-    </Icon>
-);
+const Passport = createIcon("passport", true, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABwgAAALPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDUgsIAAE2AiQDCgQgBYMtB0wb8AXIngU5GW+6aQSl1VYWVrK9/ksEha6sR9LueaU1ssyMGVFmPwFGyNmHV59ykB0BeftJ627dLcAacndhFlFUKp2PKBnF08klFCRtRbVl0RECsDjg8p+WZf6v+fyeHxXIx3tnJ3IolYsIKo/I5ycwwKDQNe0NtISmM7QpuO138DXc+yUkjpDFS+mlQvJIUnEn+x/A+Etn10milgKIVgCYta9Z5rPG0JjET00TP1mKgJgNSoEUKboJMFUq0E2mRCYTNCZNaIwmCwFEVfZ8KaiiDb7Er4AMJGoasqzW0CpWW8WuqevQrN6ioaGoNM/WF5U8bV5vnkU9Kps+tSKe6DwucPCDHR7tUcTjne5vN+GxnkU8PXHDk/JJr3z9zHUPtH+kex5PdX2o49iHu+Xx3JR1VzLi1cGv5vfAl2Pc5XgFL54hr62OLS9yURQR+YaphQjNbG9Q+yY8N+XhbrkiL57o/GnvDeeKd6idhtwbhPeoG7J0PNlFvK73q61e/WetU32Gh/EZH/IHdweY+sptMHbx8xhp8vOL+/YrUwe4uy3Oqa/MuiesUJQlz2GEwc8t2fryeq9T//23Un77qd6n06D87WYkSq3+D03a0VcV5LsfvDJ1QDkA3DOE+Tr5uSVtbzmSch+pYOzm+zFz/zeNN2++HwgEz9bCP4489R9TAv78tH3F7Zre8FnyKppJQJAO7dkaPgNFDuBHJXFe7/gMOwVSh9XgU+sepAAhR4BEVS5AqqtWAmRyQwSo6GGcAFW5NVKR1YR2tjUgUXcKpMa7ADLtvAcqpvo2U9UuUiMtGEjhhzJ1fheat6wcNXxkObmcbahEU8rFi1PKzY6B5/XAILrTficcd9Y+ex1ytoOctix/zjHzl+B5vqg0ynAjlSYrD7cfqus7/tPOaG5aPm5mivL6yEDnl8cPou4EaEfbkEqJJNJWnoZzXpZhbsPWpid7AgAAAA==");
 
 export default Passport;

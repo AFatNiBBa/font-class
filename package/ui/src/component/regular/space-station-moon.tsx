@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `space-station-moon` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/space-station-moon?s=regular space-station-moon}
  * @preview ![space-station-moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/space-station-moon.svg)
  */
-const SpaceStationMoon: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48c-16.5 0-32.5 1.9-47.8 5.5C245.4 66.8 272 102.3 272 144c0 53-43 96-96 96c-52.7 0-95.4-42.4-96-94.9C59.7 177.2 48 215.2 48 256c0 12.8 1.1 25.2 3.3 37.4c.5 .2 1 .3 1.5 .5C87.7 306.5 147.6 328 256 328s168.3-21.5 203.2-34.1c0 0 0 0 0 0c.5-.2 1-.4 1.5-.5c2.2-12.1 3.3-24.6 3.3-37.4c0-114.9-93.1-208-208-208zM441.3 350.7C402.1 362.7 343 376 256 376s-146.1-13.3-185.3-25.3C105.2 417.9 175.2 464 256 464s150.8-46.1 185.3-113.3zM512 256A256 256 0 1 1 0 256a256 256 0 1 1 512 0zM176 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const SpaceStationMoon = createIcon("space-station-moon", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABhwAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCIQsGAAE2AiQDCAQgBYMtBzkbKgXIjsJxrwQlNEsM5eWPh3/2Y973viCiUZMm8yQaKhFCIpNoeEhUmIS+01d3VlfC/P/kPu9biPMXlAJPFQHtr7bLSSVMnXqe81AA3yhoe2hAFtDe5xGIWC4eD/BohWpaAStLrZte9EM+vyYneknDeDUsHVDGNVpARb6IPAc81LeKf9A2QqoKAEQnAGDzKjkWt4UkJHr2/wLEL0SDgNgEMIlQyM4oAitEBTxAzCQolYI/9P+//QYyCCBq+DUTlKhxA+4AlCCVpZitqq68rLi8WJpsJZM9ZXLM8hTep066XLTiBqfZgPYqDcoeC72Q+sn9kfkgDdI0/snb9DHpbVrmURei8zJTbhfNzkQ+CX0U/cw5/X0Axe2Y5zJTcS+D7qZ9Cr4X/0p2OvZF4J3UohO62zpbZke1NrQ3TY24Ev8seF72HP/ntUufSGoyKc4HBjiXFMqrCgBxL/srQYJfspNAiBCoUjrn6fTT7vEj4Hdg4KdHj5cU5G/flldYCstDaBNDn3eCg++c05bGrtCm7DvyP7h/6dL+wXQeIBCUh/Od+YorX6VkRQB/r375pl8j/28n8gM0ShAUc/9t5CRIAgCQ0QajBALpmhh/11aPAoRmBEi1ZgEKI5QQKDWbRaAyzhWBWrMzoqKURuiV20FqdQsKy3pBqdc5UFnxyKr1hijxCNoQ/77YMIRC15ijnQPzYtNYI7mElbk3W1Yt2rRmKbsoU69Oi1IlKrUA0iTWbVUrLIJDfRDjyI4Dxgvbzh6305Rq0qxSvTpb4o2dNy20xd2WYohw1HmelESqMFS0vSGc7fsF");
 
 export default SpaceStationMoon;

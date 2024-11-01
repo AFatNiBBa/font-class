@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-root-variable` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-root-variable?s=duotone square-root-variable}
  * @preview ![square-root-variable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-root-variable.svg)
  */
-const SquareRootVariable: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 256c0 17.7 14.3 32 32 32l45.6 0L180.4 464.1C186.1 474 196.7 480 208 480c1.3 0 2.6-.1 3.9-.2c12.7-1.6 23.2-10.5 26.8-22.8L344 96l200 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L344 32c-28.4 0-53.5 18.8-61.4 46.1L198.1 367.6 132.9 255.8C121.4 236.1 100.4 224 77.6 224L32 224c-17.7 0-32 14.3-32 32z" />
-        <path d="M521.4 233.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L525.3 320l41.4 41.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L480 365.3l-41.4 41.4c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L434.7 320l-41.4-41.4c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L480 274.7l41.4-41.4z" />
-    </Icon>
-);
+const SquareRootVariable = createIcon("square-root-variable", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABhwAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCDQsIAAE2AiQDCgQgBYMtB2QbQwXIhofv13o793XPfOgwdIBRJQqYHCArWEK1Km7Zrp5aS6QCPv2p5zkPBfBzhtNLdsc6n7bB9jyvQM+7bYzh9Qq1plbzTCekj1WNmZiKaSNqj9cSe3y2hzxeZadVSA/SD7jW/gcwftHRaZKGDEC0AMCMJQvme1mLWoof3n5J/GAeAmImKAUyZOgiwGSZQBe5ErlcUEtv31KLt29LAoiq9vYMVJFjG/YDcpCEyPORw4pK03xxUWncc6+IuNT2juNtJseUgOB248V2U2NyCO7GifbTYmrABYYZmBbH2wZ8RRGLziF9LhXvdF4RRVwyQHCOb2yMi22edVgai+P9sf2m23q+3+L933r8sPkH9T/db0rT+xeaNr1w330CQKOaUPbRui+bned8s6E2feJpi5RGrd+61TcYLB2zvtHuVbFwYQ/T9xg6fCi9DgSC/2f+eHVN88n/1RcJ/PzVH//IOd7W0vT0PuolEGSD3w62En6o7AACKQ7riV+K4whkRkr2T23irgChEQGSqkYBMp21ECDXaJAAFd2MEaCq0QKZyBuENlZ1kjSxj2TGOkJybXxBKib7OlTVJrJ8U7JF+d3LNFdTczqVI4YOLyeW05RLTSFpa51Uul39D5eSAZhgsz12O2iTjbYJFLPf/Oghu8y16Dm+qDTCUMOVJiqXs99Niym03wHbxvp6O5OUz7v7O2xXH4DuJMDINxWTESmyLkFrHvI12IfEvW1I+lbvNtHDFQA=");
 
 export default SquareRootVariable;

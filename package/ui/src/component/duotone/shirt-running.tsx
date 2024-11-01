@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shirt-running` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt-running?s=duotone shirt-running}
  * @preview ![shirt-running](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/shirt-running.svg)
  */
-const ShirtRunning: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 282.5L0 393.8 342.5 149.2c-4-23.6-6.5-51.8-6.5-85.2l0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 48c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-48C112 14.3 97.7 0 80 0S48 14.3 48 32l0 32c0 91-19.2 143.6-33.3 170.1C6.7 249.1 0 265.5 0 282.5zM3.8 469.8C12.7 494.4 36.3 512 64 512l256 0c35.3 0 64-28.7 64-64l0-165.5c0-17-6.7-33.5-14.7-48.4c-2.8-5.3-5.8-11.6-8.9-19C241.6 299.9 122.7 384.8 3.8 469.8z" />
-        <path d="M342.5 149.2L0 393.8 0 448c0 7.6 1.3 15 3.8 21.8L360.4 215c-6.6-16.2-13.2-37.9-17.9-65.9z" />
-    </Icon>
-);
+const ShirtRunning = createIcon("shirt-running", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfwAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBbwsIAAE2AiQDCgQgBYMtB1YbFwXIjsQ4JvGLWNDi4R+7f3+fmbk3gCapYFewKlEVXKVzyfKttFmp8MF6///j5p93HgX4OPe5zgNZINGc5wl0nret/tAv8gUy+gb83zY8NSRvhIiYhDRWOl4nZLE+3a5AciZ5j0P0P4DxTR3bSZRJAURlAPQbP3qUlyVRksT7/x8R741EQPQHuUCKFPUF6CkVqC+TI5MJSpL/UxL/zwkgiuiHpaCIAsZjLiADiZBkWfnWNcoVKmTjyhXKzp8xe4bYXGN2nG0Ywuy4GBFbap4su7f6ceJ809sdnzS/21B/7kP987VP1x57pkbEiXIV4laLe/UiztY9WfPDmCZ3K9/93vj9vPfGNR/3E2c6K99t9n9OLXRj+fLl4Darfa7i7t0Vx1RbMW5u5cpzx0Vb+IKcAafvXP1UJn0x6y/+rsHlKlXK3lDmU5fh9zfe3wQEgmcrX32ZXqnnr9LlEvD1hR/zff+/jM3JXZSWgCBt+X9LU2IzNHwAZhLrNHHuRiA1QAI6VN5JAUJZGBJFZSFVT2XIlNUCChrqdFxU1mipyMoI1U1lSJS3ElKdbYBMdQ+hoKdXZlH1SAuMKg/qfxc/WCKDhvJ2rdvm3fOtZ9E1Q2C3R36sN13XM81g0TzLLbPGXHMstEZgq4xy1lpqsIcOcqNcO621lesuD4dr9zhzrbLaQpuN9+khv280tc4vbwbjJID2T3OQEkmkNVYvWLhqTav8k1sla0Etg01MAA==");
 
 export default ShirtRunning;

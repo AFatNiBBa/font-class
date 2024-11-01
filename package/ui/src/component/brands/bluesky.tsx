@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bluesky` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bluesky?s=brands bluesky}
  * @preview ![bluesky](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/bluesky.svg)
  */
-const Bluesky: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M407.8 294.7c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3zM288 227.1C261.9 176.4 190.9 81.9 124.9 35.3C61.6-9.4 37.5-1.7 21.6 5.5C3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7c3.3-.5 6.6-.9 10-1.4c-3.3 .5-6.6 1-10 1.4C74.3 308.6-9.1 342.8 100.3 464.5C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4c102.4-103.4 28.1-156-65.8-169.9c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3c64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1z" />
-    </Icon>
-);
+const Bluesky = createIcon("bluesky", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABgQAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCDQsGAAE2AiQDCAQgBYMtBy4bCwXIHodxTLIqOk1MbhL8g3L/npvkA2pTwJgAcBXmxzhgMZf3ZMjP/til8bdNC+T4CR5tD32Qsbh7xitQsaY+Vrz1plawF8W+bYhgwwpfRIiQVDSmNE4n4PRWiwgCs9rcAxbWH9VX0swGQ5AFAECxAABAjbdqwqVP+iTdCxwH3aMREIBqAuAJsIAFMgmAyiwCMjk8cDgEnxQI0H+ghwBAwQhssBy+bTAYAQAcAAbjXESHiKAo1zYiKLzXHEkrkpdHzE1qe6CmdKXpmbw7EpcRw/Ss9aWkzRVO11s5UVPMs8fKn8pc1+JxuZPFDmafoeVJ64vsL3O81VNtqHim7BzN2S9fr3Q218rsG5HRjOQVH517W/l71S8Vzrknds939/reY+UqAdXnjfHjatV/Cbfy/OzRcueLqkVF+FhfotCvI5sTvTWx1av/9z7OND7duHHXJrtR/oKrUvLmK/fU5rLW/ZeCuJK4+civQiW23Iio/MIXK3r0+Jnn1sv6ACBAsKLM6PBuMZX/h0YYAL6c+Xm7X+C4qW72AKEYAAS2cKCwzq0OQGwBQGw0lpxOzQgw9GYA5FsjWYEAEOGAADAEE44AsGSIJQAc4RQiAILIpgwBEEw4rVjkwhCJugxgiGQEsJQ1BTgSHQVBVHYzDiYxNtzEYBF/e2l1NVRnny9RtLiv6KddXYognrcr+WUv/9g0VQCO0tcwQ43WR28DjFbkSE2yMYao6xF11MgroajivIr88WB7uK0+RhplgGGGll0q8fej/Mb6iwtAaBDOkhoMBmRC3rw/aAIA");
 
 export default Bluesky;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `subtitles` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/subtitles?s=duotone subtitles}
  * @preview ![subtitles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/subtitles.svg)
  */
-const Subtitles: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM96 264c0-13.3 10.7-24 24-24l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24zm160 0c0-13.3 10.7-24 24-24l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24zm96-96c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24z" />
-        <path d="M96 264c0-13.3 10.7-24 24-24l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24zm256 0c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24zM96 360c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24zm160 0c0-13.3 10.7-24 24-24l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const Subtitles = createIcon("subtitles", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABoAAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCVQsIAAE2AiQDCgQgBYMtB04bdQXIjsO44TuyxVI+lYqHr7Ww97tnt5KFIE6Y0cVF4RGBijsUli2Bu6pN5i+W+T8X741GowF+gvHQOnQeCbi+aEuBE2hvuncCJ1AgZ8Y3OG/CIYc0hPIjFPF/vq5CeizBPdH/AMYverpO0jYDiA4AWLBt0xp3f4wfU3zb+pD41moExEJQCmRk9BFgtizQR6FEoRD8mFotfoxWqySAqIoelkEVddzA/YACJIVKUTQTpFfTrVeaxdbildq2J4bV46Wejw6uxcu9mgPcZlz9Fznl9NiI14Y045VRb/TO8fjI14c24sXhr/bYcqQ/l/MfHjHw9Q6v/zbAUfZ90nXDuzZ0LXkUWk/DidajzmfP6PvnJ+lax47P3vUsnqrN10/se+VQf/uvd+57+X4gEJz67vvlt5/9X5t6Aj9//sc/9e1aP6b56XW0kUCQR7eyO80HNhmSlBRXDVz7JvsRyNaqgM/a8LAAoYYASVVNgKy3DgIUakYJUNHPFAGqajbJomgrdLGnB0nDBZBNdQ0UuvgAVMz2hV/VJbKdpG0U/UuYsHQML1lVThg7vpxZbmZaxpqRenxWedoYfpW3jYAHHXXOWZcdcdgJl0fYRWuiK85Yuocu8UGlCcYarzRTebt8Lmwd+RddcmKdu7/MLOX7znBX93uPgHaSEE60PstEitzx0pWDPlEZY7rbOs84cww=");
 
 export default Subtitles;

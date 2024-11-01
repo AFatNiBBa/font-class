@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gun-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun-slash?s=sharp-duotone-solid gun-slash}
  * @preview ![gun-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/gun-slash.svg)
  */
-const GunSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M32 121.2L32 240l92 0L64 480l160 0 32-128 68.9 0L32 121.2zM111.8 64c27.5 21.3 55 42.7 82.4 64L512 128l0 32-276.6 0c34.3 26.7 68.7 53.3 103 80l43.5 0-9.4 26.4c13.3 10.3 26.6 20.7 39.9 31L432.9 240l47.1 0 32-32 96 0 0-144-48 0 0-8 0-24-48 0 0 24 0 8L111.8 64z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const GunSlash = createIcon("gun-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBbwsIAAE2AiQDCgQgBYMtB04bDwXIjtRW+YQNFQ/P2/V17qvqHkA1MCNJkRjR6fx0xBWCzIw27vw3RJo6lXM5zwZ8TsSDsoatCbIAk855Xux5wbt9W7VUqlBNsX47PwYmvE3SdfGS7AY3TP9fIE9dsxNKpBvpS5zL/wMYf2nhBEmNDEDUB8D4BXOmefd9fJ/iy8oj4ktTERATQCGQIUNrAUbJBFrLFcjlgu9TBd9HRUEAUYZ3Z6CMEhZiLSAHSUh53qBev1qlOvn8WqWaSzp36bwrOkev6BK7PbPvEqFWzA1owcnVC54Pj7jSpE6I2vGge+C03lxyXh9I9J4JjagpRgPf2qGqftU/7b9c/6XWb78CVV7q4yN9lKDdlAN4zVIj/3Nfu8Mm6/TrjGEtarBv3RiFJj76aNWsXs66hg+evipWOq+f6prrp7nqzgOB4J+vbq1eUW/U/9VrJfDji//+VJ+uvEtHUhWqSyDIelV6WZqOQKAHkKXYrwNRb3KtsRJ8a21XBQg1ESApqylAppX6AuRq6ilASVuDBSiraY5M5DWExpZ1kNS2C2SGOAhyjT0EJaN8kpU1jszAJPOQ/u/Sp0h48qaif59+xYhi2tRkmxHo8shi2ey2Pw51d2ett8N2e62z1iZ7BbXbtHKfbaYwZLIfKvTXRz+FEYrtzlqfL7Ld9tg0VvdXGak4n3azn0/u7pwErANclcmIFFmDDfu2996zddWejb2f6lAjpT5KAA==");
 
 export default GunSlash;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `display-chart-up-circle-dollar` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-chart-up-circle-dollar?s=sharp-light display-chart-up-circle-dollar}
  * @preview ![display-chart-up-circle-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/display-chart-up-circle-dollar.svg)
  */
-const DisplayChartUpCircleDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 32l512 0 0 166.6c11.2 3.2 21.9 7.4 32 12.6L576 32l0-32L544 0 32 0 0 0 0 32 0 384l0 32 32 0 181.1 0-10.7 64L144 480l-16 0 0 32 16 0 72 0 144 0 34.8 0c-12.9-9.1-24.5-19.9-34.6-32l-19.1 0L288 480l-53.1 0 10.7-64 42.4 0 38.6 0c-2.9-10.3-4.9-21-5.9-32l-88.5 0c-.2 0-.4 0-.6 0L32 384 32 32zM480 192.7l0-80.7 0-16-16 0-96 0-16 0 0 32 16 0 57.4 0L304 249.4l-68.7-68.7L224 169.4l-11.3 11.3-112 112L89.4 304 112 326.6l11.3-11.3L224 214.6l68.7 68.7L304 294.6l11.3-11.3L448 150.6l0 48c10.3-2.9 21-4.9 32-5.9zM496 256a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 256a144 144 0 1 0 0-288 144 144 0 1 0 0 288zM472.8 335.4c.6-.9 1.8-2.1 4.2-3.4c5.1-2.7 12.5-4.1 18.7-4c8.2 .1 17.1 1.8 26.4 4.1l15.5 3.9 7.7-31.1L529.9 301c-5.6-1.4-11.6-2.7-17.9-3.7l0-9.4 0-16-32 0 0 16 0 9.5c-6.1 1.2-12.3 3.2-18 6.3c-11.8 6.3-23 18.4-21.8 37.2c1 16 11.7 25.3 21.6 30.7c8.8 4.7 19.7 7.8 28.6 10.3l1.8 .5c10.3 2.9 17.9 5.2 23.2 8.3c4.5 2.7 4.7 4.2 4.7 5.6c.1 2.4-.5 3.7-1 4.5c-.6 1-1.8 2.2-4 3.3c-4.7 2.5-11.8 3.8-18.5 3.6c-9.5-.3-18.5-3.1-29.9-6.8c-1.9-.6-3.8-1.2-5.8-1.8l-15.3-4.8L436 425.2l15.3 4.8c1.6 .5 3.3 1 5 1.6c0 0 0 0 0 0s0 0 0 0c7 2.3 15.1 4.8 23.7 6.6l0 11.4 0 16 32 0 0-16 0-10.8c6.2-1.1 12.5-3.1 18.3-6.2c12.1-6.5 22.3-18.7 21.7-36.9c-.5-16.2-10.3-26.3-20.5-32.3c-9.4-5.6-21.2-8.9-30.5-11.5l-.2 0c-10.4-2.9-18.3-5.2-23.9-8.2c-4.8-2.6-4.8-4-4.8-4.5c0 0 0 0 0-.1c-.1-1.9 .3-2.9 .8-3.6z" />
-    </Icon>
-);
+const DisplayChartUpCircleDollar = createIcon("display-chart-up-circle-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAOAAAoAAAAABywAAAMzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiENwsGAAE2AiQDCAQgBYMtB0UbTAbILgd4MjLXK7RCjUHgts1vwnOGI7Bv3yLs1Hj4zz/+3WfuffBXx/kwO0KdEdCdu6z0Upl09J+/n/d8Sq3GT1S01I1wT/+0gqqogUcyTN3gn/8xd9/m/08NUanQSBoKh2gStdGhEppZJCQLZYemSeMaoNLzfTKreTQAiGf4RugB/jf9/dQfZbUESdrEh9Sl3RZR58OdT/DNG2jjEpooblSv8EDn57/sBGX8rVaqIN1x3CGXzK+KPzCcRVIWAKIZATBhweQEnxRRlL4qHYmvyBAQE4EsUEBbmwLLaFtwtpTZUlntW5Um+A+MAKKS/VIJlKjCPxDVgBIkFWU5IGrdeo11N5Tzrbt2STjUJJ5MQhG1jSKFqKvLMLUG9VQO7gTd9OiU1iJGsUpEtNXO1YxSSGDKaGxCGrOaVhK/D3GrIThXBz2Z7XMy06udmrx+nhuI5YcNC8udG4He7ziIte+HbyYfvLRuOdm2G7ra6lG6a5tJJfJI4TB1JFAIcT0xzfTr2klJKN1ONBItxphOqlKNDJI4aPAzQXE7ScHWRVTdSi/yg/olNMNs6a6n23AdWX8F5uE9DE9T/HIhyzlbKctvntDIZlmzv338E3p2m84i8Bn1j48LdiRCs53wwhEHt5g8ied5nh07eI/1nmftmjL47B719yO/8uGht4ebJ57MdU0ZiLolpAFB164dBiRHN94Fv0V9hQ5njPz1twU/wHYEaiZrpsap/dj2a9+8cPw5V5SLDnvM42/9yIQfgWbNAB57kCdAdSp7iWng/189crUEFAEEgp1fXVcLj36xCXx//6fo7v9zbDvWUC2BoOj9b7U0bQOmHEA6xX46IgUI9voLN/tb690kQKhFgKRSrQCF1poJUKrVS4AK7QwRoFKtOQpR1gitLMskSb1dksJQxySlVl6XVBjt02ylVuG8B/RnsP4TNMt4ER07VNnVt38emVu7EsNprdW2R+XBnsb9fKoHPMp6O2y31zprbbK3INhtWmGfbaZ20VP8UDZAX/1lI+XJg6uW+Ti72x6bmk3TdxklLx/obn/34h7Qn9hqB2pJEpHaXSa2tjdAom19qe2fIXvbOwEAAAA=");
 
 export default DisplayChartUpCircleDollar;

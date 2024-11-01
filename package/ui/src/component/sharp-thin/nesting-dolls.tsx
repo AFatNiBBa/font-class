@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nesting-dolls` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nesting-dolls?s=sharp-thin nesting-dolls}
  * @preview ![nesting-dolls](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/nesting-dolls.svg)
  */
-const NestingDolls: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 128l0 96-16 0 0-96C64 57.3 121.3 0 192 0s128 57.3 128 128l0 96-16 0 0-96c0-61.9-50.1-112-112-112S80 66.1 80 128zM631 496c5.3 9.9 9 16 9 16l-18.5 0-315.1 0L288 512s3.7-6.1 9-16c13.9-25.8 39-77.3 39-112l0-32c0-70.7 57.3-128 128-128s128 57.3 128 128l0 32c0 34.7 25.1 86.2 39 112zm-18.1 0c-3.5-6.8-7.5-14.7-11.4-23.3c-12-26-25.5-60.8-25.5-88.7l0-32c0-61.9-50.1-112-112-112s-112 50.1-112 112l0 32c0 27.9-13.5 62.7-25.5 88.7c-4 8.6-7.9 16.5-11.4 23.3l297.8 0zM464 288.6l7.2 14.8c11.7 24 36.3 40.6 64.8 40.6c2.3 0 4.6-.1 6.9-.3l9.6-.9-.9 9.6C547.4 397.1 509.8 432 464 432s-83.4-34.9-87.6-79.6l-.9-9.6 9.6 .9c2.3 .2 4.6 .3 6.9 .3c28.5 0 53.1-16.5 64.8-40.6l7.2-14.8zm0 34c-15.6 22.2-41.2 36.8-70.2 37.4c7.3 32.1 36 56 70.2 56s63-23.9 70.2-56c-29-.6-54.6-15.2-70.2-37.4zM190.7 35.7l7.2 14.8c11.7 24 36.3 40.6 64.8 40.6c2.3 0 4.6-.1 6.9-.3l9.6-.9-.9 9.6c-4.2 44.7-41.8 79.6-87.6 79.6s-83.4-34.9-87.6-79.6l-.9-9.6 9.6 .9c2.3 .2 4.6 .3 6.9 .3c28.5 0 53.1-16.5 64.8-40.6l7.2-14.8zm0 34c-15.6 22.2-41.2 36.8-70.2 37.4c7.3 32.1 36 56 70.2 56s63-23.9 70.2-56c-29-.6-54.6-15.2-70.2-37.4zM55.2 496l205.1 0-9.6 16L48 512s-48-48-48-128c0-44.4 20.2-84.4 37.9-119.4c0 0 0 0 0 0c1.5-2.9 2.9-5.8 4.3-8.6L336 256c-3.8 5.1-7.4 10.4-10.6 16L52.1 272C34.2 307.4 16 343.9 16 384c0 36.7 11 66.1 22 86.3c6.5 12 13.1 20.7 17.2 25.7z" />
-    </Icon>
-);
+const NestingDolls = createIcon("nesting-dolls", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABxwAAALiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFyDaAsGAAE2AiQDCAQgBYMtBzQb7AXIHoVxs3NEFtOh0XhNc9UIorWqyOpeOsY+RFCniBwgCAMWWaE6frao3v4cv5+7m5i+/W24RnNrYslMK/wE3imBkIANOMBAZCAY7YD+n3PxNt9ogJ8nMBxKBUVfeCRQx/MTmMglRlmC3juQs4ni2ZbDH/6Jp7imiBBJFWnYHNaGOkIe/4JNupLe4dT2UfGnpkZJsgwAog4AMGZRVgq8/Ba/RXyW7hBvTQMCYgxAAZHRO1pAMBxToAWWAsjlgt+iVBr/gQUIIMoBxyWQoxo+4WfkJpBU5ixLc4NZPCs6Vi8Ts3KXfQRFULVA3B/1HPdmxBMbINu81fUs5MHtxNRxoaGgxnLjdWNr0I0rTSlScLHRmmEtdgXg7iYrugWVeGHDRurL4HFh42gQ1zufBD2pGQuGOkR893pp4aL/qvNQeKzTsfHJpzZEr7k6v3o1oSqq4VjPK2rbuG4cwj1xqfEy1sSFBqJYabJv3nVfVVNnsrO/Nu/WvDNr1GrskCnH7j9udnpUUNlq7DLp///qTscNO0ExU//tjx+rFXZQEKy1t+slLJ/fsUNdOIOCmipH1k7xOP+zDvcLeZHlMyr1PdBTFD0H+vLtlmf0wHVt99KLe/YyGHx98l/srWNphRbsQweRbaw307fSaSKkB6xv+OSRwaEb7/EVp7yVjRnt5fLJN0j1IlzkTZL7vXWtZqces3UAAkGH1YNerqo9/L/K6gyAPx7++6fj5lLT7nQTlRIIsu6l7orTbujUAPIpelHGDwWS9yohXcPFbDFU44KkXDXINCeDXDXdoEwrwXxw+TxMkfMhNFBCkNSwCTID9UGugXsoM9xrrlyDyIpbLE3x1TItlmMxUaSPjx+JIGrdKdUrP+cjSdjs3Dv63Gkr1GrTqluNag26GdkppdijRaxFxIgR4c+HHyICSbeWWi4LOnVx/l7JLxKJPJ9202uPdieHAYx9VSeJSOLWT/6mW+u8/0agdwE=");
 
 export default NestingDolls;

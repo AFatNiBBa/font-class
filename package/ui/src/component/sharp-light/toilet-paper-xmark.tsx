@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-xmark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-xmark?s=sharp-light toilet-paper-xmark}
  * @preview ![toilet-paper-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/toilet-paper-xmark.svg)
  */
-const ToiletPaperXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 192c0-46.5 10.3-87.7 26.2-116.8C74.4 45.5 94.1 32 112 32l225.3 0c-7.2 8.2-13.6 17.7-19.2 27.9C299.2 94.5 288 141.2 288 192s11.2 97.5 30.1 132.1c5.6 10.2 12 19.6 19.2 27.9L112 352c-17.9 0-37.6-13.5-53.8-43.2C42.3 279.7 32 238.5 32 192zM346.2 75.2C362.4 45.5 382.1 32 400 32s37.6 13.5 53.8 43.2C469.7 104.3 480 145.5 480 192s-10.3 87.7-26.2 116.8C437.6 338.5 417.9 352 400 352s-37.6-13.5-53.8-43.2C330.3 279.7 320 238.5 320 192s10.3-87.7 26.2-116.8zM480 327.6L480 480l-320 0 0-64-32 0 0 80 0 16 16 0 352 0 16 0 0-16 0-304c0-50.8-11.2-97.5-30.1-132.1C463.4 25.9 435.1 0 400 0L112 0C76.9 0 48.6 25.9 30.1 59.9C11.2 94.5 0 141.2 0 192s11.2 97.5 30.1 132.1C48.6 358.1 76.9 384 112 384l288 0c33.9 0 61.4-24.1 80-56.4zM385.5 212.4c-1-6.2-1.5-13.1-1.5-20.4s.5-14.2 1.5-20.4c2.6-16.3 8.1-27.6 14.5-27.6s11.9 11.3 14.5 27.6c1 6.2 1.5 13.1 1.5 20.4s-.5 14.2-1.5 20.4c-2.6 16.3-8.1 27.6-14.5 27.6s-11.9-11.3-14.5-27.6zM431.4 256c5.1-6.4 8.2-13.8 10.3-20c4.2-12.7 6.3-28.3 6.3-44.1s-2.1-31.3-6.3-44.1c-2.1-6.2-5.2-13.5-10.3-20c-4.8-6.1-15.1-16-31.4-16s-26.6 9.9-31.4 16c-5.1 6.4-8.2 13.8-10.3 20c-4.2 12.7-6.3 28.3-6.3 44.1s2.1 31.3 6.3 44.1c2.1 6.2 5.2 13.5 10.3 20c4.8 6.1 15.1 16 31.4 16s26.6-9.9 31.4-16zM238.6 144L216 121.4l-11.3 11.3L168 169.4l-36.7-36.7L120 121.4 97.4 144l11.3 11.3L145.4 192l-36.7 36.7L97.4 240 120 262.6l11.3-11.3L168 214.6l36.7 36.7L216 262.6 238.6 240l-11.3-11.3L190.6 192l36.7-36.7L238.6 144z" />
-    </Icon>
-);
+const ToiletPaperXmark = createIcon("toilet-paper-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABsgAAAK6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDNQsGAAE2AiQDCAQgBYMtBzkbvgXIHoNts3lkICSHwEg+j+RgZL6Ph2A/3Lv7sg03jWIVzyyUQfPQ8EZIrm2jkrRNfn5cvncQ/92NYCNUqTY3Z7WFspCXnLXvE9c8/7SntGjiR6mlVZ8neOb5bCATWWsW2HhgsxFPwGZujRPUQILrNcKWsKHR4zl6fFpBGbfhhE7ezA9clTeNX4YaIZUFAEQfAGDt4cxkePrF1oiProjXtgMBsQ4AYyAKFBgBwQpUgRFoxgClUtCKXf/lP5CAAKIGvmKCEo14jJcAlCDVJU3e10VssudWfFoOt+Lkfs0+t+bGyoCLrC9zV+Wc2Jl1lnPi3Hrf+TT784wTm6tuH5wN9QhEDkKI7nxEKn7O23LYs+HFzoQD1eJum/a71vyYnryvzbmGg4O3lavqVWgesCFb0wSvJ/0eHbamOGjO1ICVyAY0W245Itzpwc78nGn2DjJcEatiUEyJgbGyqwfE1Bgcq9UDY3oMilXPGzzuSHT0N/aj7MPoLjEt24/a3L38xE7JT65o8+h2i01LW25fbKbpbJHR9g161sgMkUaUOtsH3KxM/xGWukBgYfeanyewU8/SrA79Km5Wcburli4ubm0UlBX/hUvfO+0zh6gyp3ZOaLnE69HaYoXIY/1pRo9hfVYfO+3GgiE3ThuvB4Fg6vF3HUeEK/43cikAP2/+TX5FXU8p76BRgqCY0TVDUYIkAAAZbWBOCKSHalT3cE2QC93oYqp1EwvDicRSN9PFyije5uT4/aiiZEMYoBhi6uGcWFikVywNcC1WVnhO1wZEEcK2ALT9QeaO0UD0KOLu4kYCiJl32qPSbP2BZNpr11br7DEXytSr06JUiUotCm+SnGtVK8bDon0Q4c6FGyIAeVx6nJ6jVJNmlerV7YMEIu8n7bT5re0RoKDmPMtSEim5eKayprTF+VvxOXdEPA==");
 
 export default ToiletPaperXmark;

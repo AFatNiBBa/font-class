@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `route-interstate` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/route-interstate?s=sharp-light route-interstate}
  * @preview ![route-interstate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/route-interstate.svg)
  */
-const RouteInterstate: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M265.6 11.2L256 4l-9.6 7.2C187.1 55.6 113.3 63.1 46.5 33.4L26.4 24.5 24.1 46.3c-12 112-13.5 203 17.7 277.8C73.6 400 137.7 456.4 249.9 502.8l6.5 2.7 6.4-2.9C372.4 451.9 436.3 395.6 468.6 321c31.8-73.7 31.4-162.5 19.3-274.7l-2.3-21.8-20.1 8.9C398.7 63.1 324.9 55.6 265.6 11.2zM53.8 70.6C121.9 93.9 195 84.9 256 43.6c60.9 41.3 134.1 50.2 202.2 26.9c3.1 32.3 5 62 5.2 89.4L256 160 48.2 160c.4-27.6 2.4-57.3 5.5-89.4zM48.5 192l414.4 0c-1.9 44.4-9.1 82.5-23.7 116.3c-27.3 63.2-81.7 114.1-183.5 162.2C152.3 426.6 98.1 375.8 71.4 311.7C56.8 277 50 237.6 48.5 192z" />
-    </Icon>
-);
+const RouteInterstate = createIcon("route-interstate", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcwAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBaQsGAAE2AiQDCAQgBYMtBzcb8ATIhofn7R47980E8ASQuvTp4B7iUl3ULlz/qVPPcx4K4BsFbQ8NyALa+zwCEY2PFmvlCVarKNba2Q1SRL9JusQnGTY/bLJDHg+jkzKkk+lLHM0fFb9q4AhJngGI6gAYPnfmZM/ex/uIL0u3iS9NRECMAIVAho3GAgySCbxDrkAuF7yPUin9BxYEEGXJbRPIUQYzsRqQgyTL8w41qlcqUyWfEx634tq6derWjkejXk1oE/Xjx9k/db8++avZdaJe/DL1m5435/4yp2G0ik/HvBky67OxEZ8MvD/69cSzKlY832xWlcpVfux2adCjWT8PedLlxpwWF6pf+L35l2u+VOHWMVzvea/edceqrcLMNCpGrV3XseHMFjOsML11o0Z716SR7toKM+vop03vXs9/GFiMoffbt73HFFPbf/Nt+an5vnO4fwyfPuTu3QktJxV37gwdaSQQCH55+7H50mqD/i9fKYGPD/78u1xftfQm/kkXUF4CQdap1MmiRFVVlVUBYqXYowW+SSCZKINPreyYAKEiAiRlVRQg00h1AXIVdRSgjKZ6C1BWRTNlIq8g1La4gaSy7SDTx2GQq+0mKGOQT6yyakdmXIRpEG+72DEMjV4runfpVgwoprFK2gsW5wOLZbXdHl9rj01rbLXFLqutst4uQnaY7O622RgNHu2HCt110U1hgGI7u2fnkLXDTuvHkv0lAxXnzXb26N3tYSSC2oMnSUSqbu9S558J+AUEAAAA");
 
 export default RouteInterstate;

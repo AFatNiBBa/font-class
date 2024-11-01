@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fork` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fork?s=thin fork}
  * @preview ![fork](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/fork.svg)
  */
-const Fork: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M401.1 20.2c3.6-2.6 4.4-7.6 1.9-11.2s-7.6-4.4-11.2-1.9L277.3 89c-3.2 2.3-6.3 4.9-9.1 7.7l-7.6 7.6c-28.1 28.1-28.1 73.7 0 101.8l17 17L3 497.7c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L289 234.3l17 17c28.1 28.1 73.7 28.1 101.8 0l7.6-7.6c2.8-2.8 5.4-5.8 7.7-9.1l81.8-114.5c2.6-3.6 1.7-8.6-1.9-11.2s-8.6-1.7-11.2 1.9L410 225.4c-1.8 2.5-3.8 4.9-6 7l-7.6 7.6c-21.9 21.9-57.3 21.9-79.2 0L272 194.7c-21.9-21.9-21.9-57.3 0-79.2l7.6-7.6c2.2-2.2 4.5-4.2 7-6L401.1 20.2zm34.7 33.4c3.3-3 3.5-8 .6-11.3s-8-3.5-11.3-.6L306.2 149.2c-3.3 3-3.5 8-.6 11.3s8 3.5 11.3 .6L435.8 53.6zM470.3 87c3-3.3 2.7-8.3-.6-11.3s-8.3-2.7-11.3 .6L350.9 195c-3 3.3-2.7 8.3 .6 11.3s8.3 2.7 11.3-.6L470.3 87z" />
-    </Icon>
-);
+const Fork = createIcon("fork", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdgAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBewsGAAE2AiQDCAQgBYMtBysb9gTIjsM4FnxjoxPM8fCPXV/3VVX/AVQDo0asAR1BERlD4YoZOwn+2VQIZzstQvTn/3J6Y9nRAX4Qudt4tulsTKA1m5xAz7Mon7QEsjDLJAHP2tkN/KD0k9L7xCfZbPphc4QsvrBLheRpUsXt/Kbxi06ukkhTANESADPXrlri2/qoj6jWPiKqFiEgZoFcIEWKrgJMkQp0lcmRyQT1UavF/8CcAKIO/6YEZKhgCw4BMpBIs2xa06ZNKs2yNU0qjfc+9qhtGQ/ato3XLg4cGLviQbuHHfbGwHjT5PrgDvG4w9qw9zxvfK3ftHgWl7oM0anccl6e0utty7e/Vd1TdeddObZYdWKFWWP2KLp1K2jd2pyinFM0yu6R5R6z+6w4YWy5qlhxXO9eZ7Vo36FF1V/8eVavUcdX9CyKOeWZA0DNXqW0bNLlgTOKcg5uBoHgp1bvD29tMeW/hk0S8PPnfxyurP1f+zreJ2/RUAKCdEhtiE0Jg5KuFbd04oxe+KBAYo0Uv2pTjwQIjREgUaexAKkuWgqQaWywABXdjRWgTmOrpCJrJLS1WUCiqeMgNc45kGnrA1AxxXdunbaRehnvI/wnL2WuRott+chhI/JJ+TRTBcdh0/LkfFkdcIY6A3HQHkcdccpuu+x3SjEnLAlOO2yuRRe+KDfSMCPkJsm3y3tljXJPOGn/mN+HbDJZft4e4Iw9PhC7SACj3oeldCTZnqMnDgI=");
 
 export default Fork;

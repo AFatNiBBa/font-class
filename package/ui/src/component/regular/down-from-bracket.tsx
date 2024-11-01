@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-from-bracket` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-from-bracket?s=regular down-from-bracket}
  * @preview ![down-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/down-from-bracket.svg)
  */
-const DownFromBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M333.8 352L224 462 114.2 352l53.8 0c13.3 0 24-10.7 24-24l0-120 64 0 0 120c0 13.3 10.7 24 24 24l53.8 0zM224 512c11.5 0 22.5-4.6 30.6-12.7L370.4 383.2c8.7-8.7 13.6-20.5 13.6-32.8c0-25.6-20.8-46.4-46.4-46.4L304 304l0-96c0-26.5-21.5-48-48-48l-64 0c-26.5 0-48 21.5-48 48l0 96-33.6 0C84.8 304 64 324.8 64 350.4c0 12.3 4.9 24.1 13.6 32.8L193.4 499.3c8.1 8.1 19.1 12.7 30.6 12.7zM400 168c0 13.3 10.7 24 24 24s24-10.7 24-24l0-80c0-48.6-39.4-88-88-88L88 0C39.4 0 0 39.4 0 88l0 80c0 13.3 10.7 24 24 24s24-10.7 24-24l0-80c0-22.1 17.9-40 40-40l272 0c22.1 0 40 17.9 40 40l0 80z" />
-    </Icon>
-);
+const DownFromBracket = createIcon("down-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABeQAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCCQsGAAE2AiQDCAQgBYMtBzgbEQXIhofndb6e+yT/AJACwFxkcIatvOLUrp469TznoQXyFrKgjWkLE5BsDs15HoEIjLY8uFzbVrCaVsC6OxvFoWmPQ1orgxzfdnxOkMeDcZsS6f5Uxq31Q+NPLVwiKWUAoj4Axi9dONtnv8VvET9W3iZ+NBMBMR4UAhkytBZglEygtVyBXC74LSqV9B9YEEBUoWsmkKOELTgAyEGS5Xmjrp1qlerkS2qVam5ctHTRkqgVz7YKOE7c37nWohubLY1743zTe7rUjIgHIuGpxnc1F/5zTRbH3bVWrlEHi4/0eGFI7Xir23OthTj7fLN7a9WJG5vcTYcX6r/wd/vylrLZa3fTrRhifpNjxjmmyfwhux9tWD5w0E+NG/1ULjpYJ7v2U79x+v10LVung6JcTo1/OnBQueGrS5vMn99knvy668bVN67p+TwBb/DBiw3wBi9+0OByEAgGff3hc2vrjfqveq0E/vjg3//hr6jyWXyWXkB1CQRZr0ovq+IziM8EACDFER3iMwSSNTL0rrXdI0CoiQBJlZoCZFqpL0Cupp4ClLQ1WIAqNS2UibyG0NjqAZLa9oPMEKdBrrE3Qcko35pVGkfmbIyrMH+9xCkcmjxX9O/TrxhRTEOd9R+qjEcW23K3I7nUHQ7aYq89Dtlsk+0OMeSA2c5hu03R4Mm+qNBfH/0URiiuk+XuJTY74KDt9tqDU0Yq3hvdHNGbu4OWEOkAgSQRqYH9Sb3NMtB7w4H1G3duPgQAAA==");
 
 export default DownFromBracket;

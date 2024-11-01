@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-up?s=regular turn-up}
  * @preview ![turn-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/turn-up.svg)
  */
-const TurnUp: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M175.6 6.5c9.2-8.7 23.7-8.7 32.9 0l129 121.4c9.3 8.8 14.6 21 14.6 33.7c0 25.6-20.7 46.3-46.3 46.3L264 208l0 144c0 88.4-71.6 160-160 160l-48 0c-30.9 0-56-25.1-56-56l0-32c0-30.9 25.1-56 56-56l56 0c4.4 0 8-3.6 8-8l0-152-41.7 0C52.7 208 32 187.3 32 161.7c0-12.8 5.3-25 14.6-33.7L175.6 6.5zM82.5 160l61.5 0c13.3 0 24 10.7 24 24l0 176c0 30.9-25.1 56-56 56l-56 0c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l48 0c61.9 0 112-50.1 112-112l0-168c0-13.3 10.7-24 24-24l61.5 0L192 57 82.5 160z" />
-    </Icon>
-);
+const TurnUp = createIcon("turn-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbgAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBbQsGAAE2AiQDCAQgBYMtBy4b6wTIHoVxs3M0LhFFvAi24UOL56n9Xs/dt0FwgDJRqICEAnRhH6WiUOpOXcdnalG1rv9ZZFfVJzw5DxjRR1IMKeMG6SNIVGbcU6ee5zwUwAeBjIWxsXxMoDnPI5DzTbl4wFuQUgtW0wpYrZ3/1BtENkmfeiTDpBs2N9QM0DSElA8eB57zh+YHfZNA0dUAIKMAYP8iIwlP3/SZvLfnkC8SQCD7AOYRGjSYRmALXzBNYB5UVfiktpX/QAYB0o3yJgVUVFyBewAVFKUKnJfkQqUgWy6UFSxZZdECRrXmLWWEfNu6y5TRhs6iAdGa7pKNnJZ0iWQ0pbNIY7o5mXKZfF0f9L56OK8FetGW06XDrimh8uRsyjTfUdv5WeBwOLz6rxztxYeWJpfZYxp0yHER5Kq189czT/yn0+qL0u5l2NP8WlPrh/jC5SCnpWkfGW5GdO2Kf/Vg1S1oHwWj6RGNjwAEoTNRpFGiGvhXIucBvt/8/UP9FbVPdM3bAfQqIDQrraPCjALmUwoCAJR0wzyjgKA4wuNfddArCEQ/Aopu/QIaU9QQqPotI9BllhcC3fqd4EuVIiYVdVAMegKNTUOgmnQKumx51rtNhg8vAhzE7y42WkNRU8zN2ZX5MzPQSMRgcRjAtjnb7lCw40tUa9GsU5VKdToV0i7J6tIkegZH+SLGjTNXjD92HD+eZ6vSrkOdFs1pTAB2X7HVPa+343l4gNWH8RVSxIgWnbpaAQ==");
 
 export default TurnUp;

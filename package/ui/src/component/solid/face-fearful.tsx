@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-fearful` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-fearful?s=solid face-fearful}
  * @preview ![face-fearful](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-fearful.svg)
  */
-const FaceFearful: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-192c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zM96 224a64 64 0 1 1 128 0A64 64 0 1 1 96 224zm256-64a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM176 112c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8c-6.5 6-16.6 5.7-22.6-.8s-5.7-16.6 .8-22.6c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1c8.8 0 16 7.2 16 16s-7.2 16-16 16zm173 .9c-4.3-.6-8.6-.9-13-.9c-8.8 0-16-7.2-16-16s7.2-16 16-16c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2c6.5 6 6.8 16.2 .8 22.6s-16.2 6.8-22.6 .8c-15.5-14.5-34.8-24-56.1-26.8zM192.4 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm160 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceFearful = createIcon("face-fearful", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABogAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iCcAsGAAE2AiQDCAQgBYMtBzMbcwXIjsK22TPykWQYEovhEDmMRFCt/duzdx8AgjZRyJJQqPiwJkKLIAntq29D6N7x+817fJL7IeJNG8mS2sTbmphl0kQjba2w+b+c3nh+dIAf7MQOZQ2ak0cD/ztqrucJJJqORb0skCywTBOwBueNOqDQFNJPkMcdai2UkA7RnmGH+9D4pMMGSUUGIOoBgIkL8jmYFKIQ8bR4jXhqChAQEwH6IsiQoRsBY1AC3ej6ArlcUIhikf0HIkAAUSq8IIEcldiPs4AcJOV53tXArmloEAqZJTX5fPXkynkfZ0S8nPwkViUfT38x/93UZxMeWjnx0bTn8+KaLeKSeq+oMvZLTjiuROYDxdaDjlov2i9rFlyrGaYHr0NuEtosOmvdK9kvhfkB5j7xen/efgbND0i3iDfo+0Sj8GXz3FWSiP0My3hmqX0fc4v0AJmX6hGcGe1gd/W/zLv83+9Z95ni+IwTdo3uTk1WJU5PMrqd7PRJ/UIwP2oLKxVqY/5C3nMt6/nxoyfLKMXxXrdW6/Ye+OIpm/l79Xe8fzc9t6iiUFtbuGpmGT+wYtG56eEt49/V3w9ztRvBxtqajTtsg9TGnBPaIYM7ph4HAsG/bvmyVjfmTzkzgZ7b3/7bn5HiwyRdBsolEGQDi04oJ5AIAECKFfQJAsl25cK7VtsvQKhEgKRUpQCZLjwE5CoNQECJ3kIIKFVpDkrkFUKzSgOSaotBZph1kGv2AUqM8VeUao7sBhVuL+H3MDXbxTO70Of2YhxnOyrxnuP0ZgI3G9Y1PmGDe6Fr3pwVHW0DKx1ySa6xalZ2icj4IuTj5oXi8HD/Yb2kY8mywbR8fJsEvD6xWlueb4M2TaAdpJYkIlU//Zrrcwi7qzMA");
 
 export default FaceFearful;

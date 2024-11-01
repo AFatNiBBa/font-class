@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sun` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun?s=sharp-light sun}
  * @preview ![sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sun.svg)
  */
-const Sun: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M178.7 15.5L256 57.1l77.3-41.6L362 0l9.4 31.3 25.2 84.1 84.1 25.2L512 150l-15.5 28.8L454.9 256l41.6 77.3L512 362l-31.3 9.4-84.1 25.2-25.2 84.1L362 512l-28.8-15.5L256 454.9l-77.3 41.6L150 512l-9.4-31.3-25.2-84.1L31.3 371.4 0 362l15.5-28.8L57.1 256 15.5 178.7 0 150l31.3-9.4 84.1-25.2 25.2-84.1L150 0l28.8 15.5zm92.5 69.8L256 93.5l-15.2-8.2L169.3 46.8 146 124.6l-5 16.5-16.5 5L46.8 169.3l38.5 71.5L93.5 256l-8.2 15.2L46.8 342.7 124.6 366l16.5 5 5 16.5 23.3 77.8 71.5-38.5 15.2-8.2 15.2 8.2 71.5 38.5L366 387.4l5-16.5 16.5-5 77.8-23.3-38.5-71.5L418.5 256l8.2-15.2 38.5-71.5L387.4 146l-16.5-5-5-16.5L342.7 46.8 271.2 85.3zM256 128a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm96 128a96 96 0 1 0 -192 0 96 96 0 1 0 192 0z" />
-    </Icon>
-);
+const Sun = createIcon("sun", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABpAAAAKZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDWgsGAAE2AiQDCAQgBYMtByob1AUjEXZq7gmQ/ZFQjumyNJYeTfGfM/aaNIozwfP8uv9f+9x5gOfZbP87ublKCtVuCoD/uaZePF+k1jca0l3/dWgURVHm8wkMcKPCvcOVyIRmOgEbRLXp7FF6F+6FhUQBmlyUCIxAbVePgM3hR8lH3FiLQjMAACC2AABAbnN9JdeeyTORR/9PI48oBwRA8gDQEcCAy3OggQylAniioQMaGgLP5P//4D9QRwBAjInfrADQAGPgGvAOANAAUGialpvr4WFh1M1Ka3KPmrc3NjU2S7C4SaNdCBRXaYg0bhKADQNLkDRJA7qDTVg8pFmaMBhspiqw0dHF0XkHOibsSZ9Txd6YaBaXgBdX8El0Fl64Kwc914eK7A/dz8qQfYnZfF3YAbOsCj/YatG4yl1kR9CemXsDdrluY6Xb9sDdFuuD93rsFL8Dtgc++z4aesSJoxUhXOcpm3Crp96Nd3witMJIfuLdqNOtnk08oSKU6SdH1H9CGKb+UOBpe8G7+CaKA3GupJpflc4EFrOJTSXTO/0rB+cKigN5y1tNp1WYlrOcqCYrz33wvwbXvKz8/Ky8rl3z97rMs90r3G/D7Y4JN7eJjtu33enidVIABBDweV9i2W2T8dvUQgHw4sLX79XP6P81hToAmKIAEDBE/I/oUAAoEAAAAEDJEn4KQADFOY04Y8mWqxXBHDRQGGMOBjywBQ1zwsEIbxLZg1h/SCOaWcaRTgGFJbNgIIlloOHISTAig7tFYxzFoKp5Ncm/U4bjRUO6cJ8eGxWjp+mrXY2gUFlvO10/HAhZsqZCucjQ9NTC4MDowsAwV1lZnCzaUhV+UY+NitHT9MuDp9ikWebmR31T13dJ15/PhCxtLw4lrGKHcVml/tw4Ob84BQA=");
 
 export default Sun;

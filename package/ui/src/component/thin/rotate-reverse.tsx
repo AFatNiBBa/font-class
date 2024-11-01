@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rotate-reverse` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rotate-reverse?s=thin rotate-reverse}
  * @preview ![rotate-reverse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/rotate-reverse.svg)
  */
-const RotateReverse: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M468.4 224c4.9 0 8.7-4.3 7.8-9.2c-9.7-51.8-37.5-100.4-82.3-135.3c-88.3-69-212.1-61.3-291.3 13.2L114 104c73.5-68.9 188.2-75.9 270.1-11.9c41.4 32.3 67.2 77.2 76.3 125.1c.7 3.9 4.1 6.8 8.1 6.8zM44.7 288c-4.9 0-8.7 4.3-7.8 9.2c9.7 51.8 37.5 100.4 82.3 135.4c88.1 68.8 211.5 61.3 290.7-12.7L455 465c6.9 6.9 17.2 8.9 26.2 5.2s14.8-12.5 14.8-22.2l0-104c0-13.3-10.7-24-24-24l-104 0c-9.7 0-18.5 5.8-22.2 14.8s-1.7 19.3 5.2 26.2l47.6 47.6c-73.5 68.4-187.9 75.1-269.5 11.4c-41.4-32.4-67.2-77.3-76.3-125.1c-.7-3.9-4.1-6.8-8.1-6.8zM144 176L40 176c-4.4 0-8-3.6-8-8L32 64c0-3.2 1.9-6.2 4.9-7.4s6.4-.6 8.7 1.7l104 104c2.3 2.3 3 5.7 1.7 8.7s-4.2 4.9-7.4 4.9zM40 192l104 0c9.7 0 18.5-5.8 22.2-14.8s1.7-19.3-5.2-26.2L57 47c-6.9-6.9-17.2-8.9-26.2-5.2S16 54.3 16 64l0 104c0 13.3 10.7 24 24 24zM368 336l104 0c4.4 0 8 3.6 8 8l0 104c0 3.2-1.9 6.2-4.9 7.4s-6.4 .6-8.7-1.7l-104-104c-2.3-2.3-3-5.7-1.7-8.7s4.2-4.9 7.4-4.9z" />
-    </Icon>
-);
+const RotateReverse = createIcon("rotate-reverse", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABiAAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCNgsGAAE2AiQDCAQgBYMtBzUbOwXIHoVxs3OUbZUmDh8e9GWyiP9+7LfnvodK8w5JEx4aXorodEL7DYmdEhgqJWAP+/t+zgPQ1naDEhkK47Z1I+NuKP7CbRbJWm7/c67nex4N8o2GEo2l82iwuCw9gQleWlqKHthE8dRNLYIeBck3hivSlUx2fGXHtwv0bKMCl/pinQEG40fzB6MhoLQGgMwCAE5u0hNx8EzPRGdMkG/Eg0BOAawjNDQsI7CPLVjGsQ66LvwQw7T/QBMIkGHgZQU6RvAKBgDooAx1jtpchcfFXCknS8wVlS/oHrIeMu5StHSb/Zh4nTknLpnV3mfeXx5ND6Q5/YKeaNlKRLOaWW0gXWXcJd1kzeuyRWJR3U3Ur1/QZtKcZlaUIRaJF5TTZdF8QQP6sixd/Dkt6K1JjuB/T2y2rlh/MT2rOsPtUx9flhLmGeGezE7mPK5jMK7FspkbaayOvxJccK8ItyvZj2fYur+X10B7VoP3wsINhrGcr00pa67BzhJeDbgnoW7V1TBf1HCrVYA0BKs/2xA9wTwPEIS9pWHPYnnAN4GYBfjdevt9PK74n95rHTCqQGibDAoKZimCRgQIK10wk5YRyi0u4NykdxCIcSaUYePQLFFAN24DhqzylEjzgsLThd6iwgll0hM0e7qhW7QJQ/YdhsMWw85BJYOUP8DMKItENpm4OrmY+Jnclk41rSRd9jehLZuuPmQre1GlWZMOlSrU6jB0m8SkU6OoCI3UIhOunLgw4cdku/NqZpmwTbtaX9/fxp/J+56Nrniyrbgs4N1yrhQpWVtzR2lHpeOnBA==");
 
 export default RotateReverse;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gun` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun?s=sharp-duotone-solid gun}
  * @preview ![gun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/gun.svg)
  */
-const Gun: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 128l0 32 416 0 0-32L64 128zM224 352l120 0 16.9 0 5.7-15.9L400.9 240l-51 0-22.9 64L236 304l-12 48z" />
-        <path d="M528 56l0-24-48 0 0 24 0 8L0 64 0 240l92 0L32 480l160 0 60-240 196 0 32-32 96 0 0-144-48 0 0-8zm-48 72l0 32L64 160l0-32 416 0z" />
-    </Icon>
-);
+const Gun = createIcon("gun", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABaAAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBUwsIAAE2AiQDCgQgBYMtB0Ib5wTIhof/X0vv+zO7ASzxpAqYFRE4Vq0i1eiokmIQniSrup6zf38t/rNWBfh4CRat+irHEzxz/AQS/Npa6AjOFO9tQ4cJknRLIsgiGi/H6w55/M/OK5Fupc+4qv8DGD91c56kJgMQzQCYvmLJYs+/xtcUnysPiM8WISBmgEIgQ4aeAkySCfSUK5DLBV9TpcLXqFQKAogyxTNBGdGCc8sAOUj0aZ631NQ01ZUa8uV1pdojIWpDiPoQdbEU0Ao0kI2orSwV6tuphjVCQ0TUL6urreuykK+NYXikZ9+25rbfLZ+3f9Z0qSufHaaral/dsdbEv1rl6dcqNrpmmOqhc4uiaFVoNXVq+8LtLydPXtmgZYORDljjGRAIrvzYMGZD06R/1XUJfH/49wd/rvI1TUttqJZAkA2qDLI2TQOSB1BLcVxfR6c9ZQZIyq161wUItRgkZbWQ6aEZcrUGQklvo2+X1VoiE3mN0NE6g6TeIciMcQ5yHd2HkkneVcs6RhZSekDoP7qcOT02e10xfMiwYkIxbapGlKiyPLHYjvc7nob6w0nbHbDfUdtstcvRTjpsceOYfeZ4zGw/VBhuiGEKExTHncfDy21z2BG7HLA/rzJRcb/cz3F/cn9IJUVxhBuZjEiR1e04tn/wy3QbzHqAAA==");
 
 export default Gun;

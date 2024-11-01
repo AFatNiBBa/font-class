@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mask-snorkel` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask-snorkel?s=sharp-light mask-snorkel}
  * @preview ![mask-snorkel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mask-snorkel.svg)
  */
-const MaskSnorkel: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 32l32 0 0 128-32 0 0-128zm0 160l32 0 0 192c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-32 32 0 0 32c0 53 43 96 96 96s96-43 96-96l0-192zM264 288l-22.1-44.2-4.6-9.1L232 224l-16 0-5.3 10.7-4.6 9.1L184 288 32 288 0 288l0-32L0 96 0 64l32 0 384 0 32 0 0 32 0 160 0 32-32 0-152 0zm-76.6-78.3l8.8-17.7 19.8 0 16 0 19.8 0 8.8 17.7L283.8 256 416 256l0-160L32 96l0 160 132.2 0 23.2-46.3z" />
-    </Icon>
-);
+const MaskSnorkel = createIcon("mask-snorkel", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcQAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCAAsGAAE2AiQDCAQgBYMtBzMbAwXIhofv5/o6N0l3/UmG4Q0zOiA/Chfbbq8kVsvCATsC3RPXPP/zKq9wj8K3/4U3eOb5BHY+qrLGcYIMZxPFmbs6alMLfpKkLMnjoz2+DlDE1zFOjexZ9hUepg+NX/XxgEyRA4jOAFi8c+t6H/8QP0R81XqD+MpaBMQSkARy5OgvwDy5QH+FhEIh+CFaLfoPTAQQdeWeGShQxzGcARQgUxRFuwGDe1S1DsWOqlZercpKlBHyZY157y/7ZMGHQyKqEC+OfmX6W2NfHRSHJoyf0DMELqO7ZFyUZQRTdRC3LHf0692vqvrE+Kgion2IKiYOaXZu/j74qxNfGfRySumO5E4DEz9Wm7Z006al02oJUm3N5p07nGr7uNfBvSG9yhqdsWeVvZ6mpCFJjRr+sv6ue0f3YXed90DDHQ0PnAcCwb873390sNO8/9uqDPz07p9/w9Wtj7NFWRNtMhDk41rj7MsWAekDyGZxwxDliwKZfQp+X3uPBQglnc3UlWyun85soTSWrRlo+v660la5KNoJ3e3vbKa9y2xuhptsobvX2Jp5Ps3UdY/c0Cwzsb55+StGYPmoNHnCpDQnLQuabTuGDM5N28GoG9wwGmudcNEF1xx3zGnXBvyK9fnrzluhgcv9UDLZBJMkc6Tj8vPyHY674qrTLroQh5kr3U+OckNvPxrjyABTnsjgTZG1P3/46tnxVy9cvHL2+DkA");
 
 export default MaskSnorkel;

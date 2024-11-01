@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-hail` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-hail?s=light cloud-hail}
  * @preview ![cloud-hail](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cloud-hail.svg)
  */
-const CloudHail: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 32c-44.2 0-80 35.8-80 80c0 5.4 .5 10.6 1.5 15.7c1.7 8.3-3.5 16.5-11.7 18.6c-31 8-53.9 36.2-53.9 69.7c0 39.8 32.2 72 72 72l304 0c39.8 0 72-32.2 72-72s-32.2-72-72-72c-2.2 0-4.4 .1-6.6 .3c-4.5 .4-8.9-1.1-12.2-4.1s-5.2-7.3-5.2-11.8l0-.3c0-35.3-28.7-64-64-64c-17.8 0-33.9 7.2-45.5 19c-3.7 3.7-9 5.4-14.1 4.5s-9.6-4.3-11.8-9C235.9 51 208.2 32 176 32zm238.7 80.2C469 115.7 512 160.8 512 216c0 57.4-46.6 104-104 104l-304 0C46.6 320 0 273.4 0 216c0-43.4 26.6-80.5 64.3-96.1c-.2-2.6-.3-5.2-.3-7.9C64 50.1 114.1 0 176 0c37.9 0 71.3 18.8 91.6 47.5C282.7 37.7 300.7 32 320 32c47.6 0 87.2 34.7 94.7 80.2zM96 392a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM56 464a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm168-72a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm-40 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm168-72a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm-40 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const CloudHail = createIcon("cloud-hail", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABpQAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SCaQsGAAE2AiQDCAQgBYMtBzEbagXIjtFjRxhBPLk8YMRYXgTf7/fbc979gknDoyVNeKgaKhUvxTzRGVIkRLxSwr9n3Hv3IQ9iktGgtEw49P/WwbrN/zWfX9PRAX6jQ6mg1MIGjGXRaAITaIu0tPlsYDOdgG1x21UQ0RAXGo0DlDhEayCTz4Qn4DJ8aPyT6yCVCgCiFwDA+m5sOJzp8SfiqbVNvAsFAmIDAOMQFSoMQ7CEKDCMZBwoiuAHWy3xH6gDAUQdkqclKGjHHV4ABaRmITkZ0ZOASWaTEooHMVK3zBHnVC3ibtGUrA+eJ+dN2DhrtagcsFww7WR0SXoQsSemzDeRDJjOMOK3LRDn1UPmc84s3FnWNa1HfbNWHC0Dt2ufWeYOI2bkDZpNy/uMZxRxFTPsN1FfbrjAW3g1eCp4svrCywfYiaaUfXny8qvgODnp7UFfapz25cSS5edHpb2PP7bGj6+qdu2w9pa9RbYfgbc25vPHmj2sfTwzJ2TyQxKJ+/f+Mc6uVNt3d+f4SsXR0WKHmwUKfgyzgfPrASAQ7J1O7WZyl36bTALA38H7b/0z0jpL+Qo0JQiqmX9raQmSAABkNIBhAgLpTFPyrp0eBAjtCJDq2gWoDOFBULSbhqBmlAsEde02EUWhQxiUTkHqtA8qixpBMWgT1Cy5jeoGgwicAmgJ34apAWPIf5rOwdZe56nbLGlFeOPsqJfutGHeIFss8FooUKlCnXx5itWNqBrhab1yAXukvy/ScWDLno4n3e3q8+UJ8tWoVaxShZ/Ei+59x1zDfncLbBMktLMyKYlk/KUwsinKLi4DAA==");
 
 export default CloudHail;

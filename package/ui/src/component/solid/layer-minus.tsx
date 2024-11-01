@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `layer-minus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-minus?s=solid layer-minus}
  * @preview ![layer-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/layer-minus.svg)
  */
-const LayerMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M408 56c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L408 56zm-96.5 77.2c-14.9-6.9-32.1-6.9-47 0L45.9 234.2C37.4 238.1 32 246.6 32 256s5.4 17.9 13.9 21.8l218.6 101c14.9 6.9 32.1 6.9 47 0l218.6-101c8.5-3.9 13.9-12.4 13.9-21.8s-5.4-17.9-13.9-21.8l-218.6-101zm13.4 274.7c-23.4 10.8-50.4 10.8-73.8 0l-152-70.2L45.9 362.2C37.4 366.1 32 374.6 32 384s5.4 17.9 13.9 21.8l218.6 101c14.9 6.9 32.1 6.9 47 0l218.6-101c8.5-3.9 13.9-12.4 13.9-21.8s-5.4-17.9-13.9-21.8l-53.2-24.6-152 70.2z" />
-    </Icon>
-);
+const LayerMinus = createIcon("layer-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABZQAAAHqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBPwsGAAE2AiQDCAQgBYMtBzIbwQTIjpQuZyQRxNv999Vn5r4FNAtImUIpXqdyJKQfTBn9+FYI/tiZ8cZLBTyjov2PtvEP6P/jFSjXSk1588XHs+FsZhPQWTt7hUH0m/R98EmG8YbN4A55/JSdUCJdS59xprxp/KWJEyRVMgBRGwCjF86d7s3v8XvEp/JD4pOpCIjRoBDIkKG5AMNkAs3lCuRywe9RLof/wIIAogL/aAnkKGEUZgBykGR5Xr1+42qlGvmCaqWqG280vta+Wtxudr1D1Xm32s2Li/UvNZgfNzsujCuNLjdcsPjBgAUxaXLblJjX5l7te//4vOGzK6dnN2gwexd3tHLa4c0/rvO2Zs233tp8+AfZXaPuzJlXxps4VicaPQwCQdvvdwatrDXs/8rVEvjz2X/r84ry81Ske6gsgSDrVu5mWRqlUKRCAABSHNDG+KBAMkiGX7W6ywKEqgiQVKgqQKaZ2gLkquoqQElL/QWoUNVcmcirCPUtF5BUtxtkBjgOcvXdByXDvLMr1I8MRwQKiGdc7AQNjd8qevfoVQwplolGQgNLy6HFttrpQGx0pksb7LTDPuuts9k+hewx3dtvuwkWPN4XFXrroZfCEMVxfn++wHp77LXZTjvymqGK+2YnB+z+zmQkjNqHL0lEqgZQsfvv89xe");
 
 export default LayerMinus;

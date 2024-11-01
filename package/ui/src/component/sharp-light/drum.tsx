@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `drum` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drum?s=sharp-light drum}
  * @preview ![drum](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/drum.svg)
  */
-const Drum: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M380.6 139L248.5 221.6l-17-27.1L332 131.6c-23.5-2.4-49-3.6-76-3.6c-69 0-128.5 7.9-169.4 23.8C45.3 167.9 32 187.6 32 208c0 11.2 11.3 31.5 55.7 50.6C129 276.5 188.5 288 256 288s127-11.5 168.3-29.4C468.7 239.5 480 219.2 480 208c0-20.4-13.3-40.1-54.6-56.2c-13.1-5.1-28.2-9.4-44.8-12.8zm37.6-23.5C475.4 133 512 162.8 512 208l0 160c0 22.6-13.6 41.6-32.3 56.2c-18.8 14.7-44.9 26.8-75.1 35.9C362.8 472.7 311.3 480 256 480s-106.8-7.3-148.6-19.9C77.1 451 51.1 439 32.3 424.2C13.6 409.6 0 390.6 0 368L0 208C0 128 114.6 96 256 96c42.7 0 82.9 2.9 118.3 9.2L487.5 34.4l17 27.1-86.3 53.9zM32 263.2L32 368c0 8.8 5.3 19.5 20 31c10.8 8.5 25.6 16.5 44 23.5l0-126.4c-25.9-8.9-47.8-20.1-64-32.9zm96 42.3l0 127.2c32.3 8.5 70.5 14 112 15.1l0-128c-40.6-1.1-78.7-6.1-112-14.3zm144 14.3l0 128c41.5-1.1 79.7-6.6 112-15.1l0-127.2c-33.3 8.2-71.4 13.3-112 14.3zm144-23.7l0 126.4c18.3-7 33.2-15 44-23.5c14.8-11.6 20-22.2 20-31l0-104.8c-16.2 12.8-38.1 24-64 32.9z" />
-    </Icon>
-);
+const Drum = createIcon("drum", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABhgAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCOAsGAAE2AiQDCAQgBYMtBysbMwXIhofn9f77tc/NU8bKAOKXVAIuVQGsRn9/q/HGowCfJx7acdOlgRwn0HmOJ5BYk//xrEDaC3RNV8D2neoqm6ZvJhnLTP7oeIcgixejmzLSbekjXDNuFb9q4kKSrAQgagNg9MK50732VXwV8dHZp4mPTEVAjAGFQAl2mgswTEmwCDIFMpngqzh7lv8DCwKIcnJ4AhkqcQhXAjKQlGdZmzbV87x6tbIa2YL26fnGeQvndYmF8Ux++aQH69/oxgY39X9//mdTn210S8PzGt7c4eEOQ5/uHPEYcWenR/t9nF++4Jkuj7eMeGDhZ9WuGL8wOse8VcKNnW9qH/FMl/nC2+Mj3pkwX3h3YsRb4xYKjzR6omHEo/3aPF778d9bf7ThI8f6XTCHLsitHaFt5y0//vryK7UqX3q55smNNjpZ8+WXKmu98vKvHS+c8NJFXNzmXnU+efvzUfXmzcNjPn/7kzr36jKx6cQm20dP2j1BNQv6nXfD5s2bq48+9cI5tl2wsss5Qq7+9ble73pNjXPJX1c/R9fXr2l04sTnT42uvtkF24BA8P7MtH5lrWH/V1ZL4JsX/vzb/A2e/SpJj6NSAkGp29luliWQCABAigPaJAgkuyTUre5mEenmCDLL5eCWNFNbIZPrCmVa6o9QLjdXSWRVQn3LKSTV7YaSAY5Dpr4nocww71rl6kepCNkSYr+ASRMsNn6t6N2jVzGkOMYWV1d0nw8trtVOB7DWGXZtsNMO+6y3zmb7DLHHdHe/7SZ4+HhfVOith14KQxTP2fv2AuvtsddmO+3gJUMV8WYnB/zuzmAkQtmHklIQSdm6Pfu3Aw==");
 
 export default Drum;

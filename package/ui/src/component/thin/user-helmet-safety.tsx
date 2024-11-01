@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-helmet-safety` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-helmet-safety?s=thin user-helmet-safety}
  * @preview ![user-helmet-safety](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-helmet-safety.svg)
  */
-const UserHelmetSafety: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M200 24l0 64c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-49.2C137.4 55.3 104 99.8 104 152l0 8 240 0 0-8c0-52.2-33.4-96.7-80-113.2L264 88c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-64c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8zm-16 0c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0-2c55.6 17.1 96 68.8 96 130l0 8 16 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L72 176c-4.4 0-8-3.6-8-8s3.6-8 8-8l16 0 0-8c0-61.2 40.4-112.9 96-130l0 2zm40 296c-65.3 0-119.1-48.9-127-112l16.1 0c7.8 54.3 54.4 96 110.9 96s103.1-41.7 110.9-96l16.1 0c-7.9 63.1-61.7 112-127 112zm-89.6 48C69 368 16 421 16 486.4c0 5.3 4.3 9.6 9.6 9.6l396.8 0c5.3 0 9.6-4.3 9.6-9.6C432 421 379 368 313.6 368l-179.2 0zM0 486.4C0 412.2 60.2 352 134.4 352l179.2 0C387.8 352 448 412.2 448 486.4c0 14.1-11.5 25.6-25.6 25.6L25.6 512C11.5 512 0 500.5 0 486.4z" />
-    </Icon>
-);
+const UserHelmetSafety = createIcon("user-helmet-safety", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABlQAAAKQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCVgsGAAE2AiQDCAQgBYMtBzkbXwXIHgXunklYREsm3DIsrgji7f6/6jN40Hx5vuGFMzgCkQLONtpMmRRfs9vWdvspRczkiiwx50QSxMHthEeIODCOtN8/Ld54qYDfqChjPuuypiALZIwh0HiBa9Xm4hW4sxU/0xOwG5w36oBCU0i/QR6POKEgPZS+xR3uSeNX/dxEkmUAogLA0t3bN/rwh/gh4tvGa8S31iMgloFaIEOGgQIskAkMlKuRywU/RKPB/gNrAohSuKsEcjThdtwHyEFS5PmoEX2692grOvJdbUXrfuHenqU3x6tjxkCKtoh4fJzPopigPGi1r4+MRjzXj+O1iXvQCvm+XiNgM2rts/qKJyaf2bT383kRbw9GPDZ2zrzj1xDEo3PeivTpgoh3ayCHWHlNX/RX6Y5nFnN8sBrx2cL3hrYRFs/3jy9X/nu/PfWtL15YEk6WR46UUy2Yg03N/iKaDm5cMNUELMnkGj+sem2tbe2VPPbU3Z3Nqr5RHpmCPqjSrPPupx5Lo0dXk5i8lbPf//Lkk7/c2crFkydVeydXQZXm6251XXNUUb1685Wyk53Xveq6nbm5z6W3urQPEAi+O3j258NdC/4XJPDT238+9CtqfBgfppfRLIEgm9CY4EB8CPGhAACkuMqwfIhAcotCeNR29wsQWhEgKbUKkBmgEiDXarwAhcFmClBqtV0m8hahp4MNStpdijKzXI1yPb2CCgt8YZV6JrsnuTuK+yMMVnWxlVv11ElT6nn1bKLibzNGL+fXm5UxV/HGWHjolItd5AonnXDWFR3iMhvdK11o1RK+0hfVpppkito89eH8IezqUBlcbplp/vga89XXm2Nctdw/FupJIJ3GkyQidX+OAxPPnLzgwpNXTPw0AAAA");
 
 export default UserHelmetSafety;

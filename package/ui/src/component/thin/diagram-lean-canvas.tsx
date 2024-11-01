@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-lean-canvas` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-lean-canvas?s=thin diagram-lean-canvas}
  * @preview ![diagram-lean-canvas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/diagram-lean-canvas.svg)
  */
-const DiagramLeanCanvas: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M512 48l0 288 112 0 0-240c0-26.5-21.5-48-48-48l-64 0zm-16 0L384 48l0 144 112 0 0-144zM368 48l-96 0 0 288 96 0 0-288zM256 48L144 48l0 144 112 0 0-144zM128 48L64 48C37.5 48 16 69.5 16 96l0 240 112 0 0-288zM16 352l0 64c0 26.5 21.5 48 48 48l248 0 0-112L16 352zM328 464l248 0c26.5 0 48-21.5 48-48l0-64-296 0 0 112zM0 96C0 60.7 28.7 32 64 32l512 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM256 336l0-128-112 0 0 128 112 0zM496 208l-112 0 0 128 112 0 0-128z" />
-    </Icon>
-);
+const DiagramLeanCanvas = createIcon("diagram-lean-canvas", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABigAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCRwsGAAE2AiQDCAQgBYMtBzobUQXIjsQ4RvGL2Gjx8N9an/dV9/9nt2cWuZaIFBEESAGSjIuKCwsHDFO17xPX5L8/fyqMtH/xR4vCX4ZFWkSfT2Cgw1k0zQY2G9iL4qbmPTVAIer6rlDGP3ZrIj2Q3sZt7kfjG93cQFIUAKItAOauW7XSqx/GhxFvNxBvW46AmAeyQIECPQWYoRDoqZRRKgUfRqPB/gMzAUSzcHUCJeq4HjeDYSVJVZatWkKzVTC7Z6laU6tyLSmt9qUi1SLgD3a+d1CVrFWiLZdAmi585umOd3c1UbNeeKDTPQN3Beo7agJ7rst9PT5VD3sfGh7x0uA28czQF7qluH/I8wNax7PDXuxerAlRhaitO++Jfi+2ffG7vm/vfVvjtpzzcT8q3nl3zJy2xwP/dsfdfs32smy7fHxgzoH7xrz7TvGj4/Kx0R15s/knTBky+difWJ4+bo4hji8+VrWj3eM83q5dNQcyWKDxGiw67hrHf7j6uOsa8H0QCD4f6aZtbWb81qKWwMev/FvxcuPDdE16ES0kEBQjGiNsTtcAEwaQSXFWvwWHBZJLKgjfWnevAKFCgKRZJUChh7YClCrDBWjS20QBmlVWKUTZUuhoS8MkdSeYwiRXmFJHLzNNZngt06xjFPeieiepv4JZi7rgwl157KgxeVqe7ai020vWm9PzZnvIWT4xFB601zFHnbbHbgec7sAnrcyfccSiJWghB2VjjTJGNk0+3H9orcWZk045MG0c32a6fH10iLPL84dCTxIkx2lKEpE6fDhKRx7es+PoyF0ydHbHKQA=");
 
 export default DiagramLeanCanvas;

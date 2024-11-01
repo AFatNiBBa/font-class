@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hourglass-end` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-end?s=light hourglass-end}
  * @preview ![hourglass-end](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hourglass-end.svg)
  */
-const HourglassEnd: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M0 16C0 7.2 7.2 0 16 0L48 0 336 0l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 41.6c0 49.4-22.8 96-61.8 126.3L218.1 256l72.2 56.1c39 30.3 61.8 76.9 61.8 126.3l0 41.6 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0L48 512l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 0-41.6c0-49.4 22.8-96 61.8-126.3L165.9 256 93.8 199.9C54.8 169.6 32 122.9 32 73.6L32 32 16 32C7.2 32 0 24.8 0 16zM64 32l0 41.6c0 39.5 18.2 76.8 49.4 101L192 235.7l78.6-61.1c31.2-24.3 49.4-61.5 49.4-101L320 32 64 32zm49.4 305.4c-5.7 4.5-11 9.3-15.8 14.6l188.8 0c-4.8-5.3-10.1-10.2-15.8-14.6L192 276.3l-78.6 61.1zM76.1 384C68.2 400.8 64 419.4 64 438.4L64 480l256 0 0-41.6c0-19.1-4.2-37.6-12.1-54.4L76.1 384z" />
-    </Icon>
-);
+const HourglassEnd = createIcon("hourglass-end", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCEgsGAAE2AiQDCAQgBYMtBzQbFgXIhod/dL7eJ8k+iTnECgBS251h7J+KtPGc2acTwurp7935P/8b8J1/4Y82lu1Bo/LuU3MJdB54lI0N1HmXBZZpAtbeNLEdkenJZGVN0vGNjqszZHEzRimQPJ98j0fLh8YveniERJYCiAYA5m/duNqXzWhGfN96j/jeSgTEApALpEjRW4BZUoHeMjkymaAZrRb+B+YEEEX8YgnIUMQJXAFkIJFl2ex6qVIuVLMt5UIpfbZbufp0l6c6l0Lc6/3SsE2xOd7o8zJRDsutPNPV3yci7vd7deTW2BJtfV+JiFJA02Lh9dmbA6lfDIyobH+qc7m6JTbNeo6o7j/cszSgrdH2W//vj3zvzVozn9es1ZoNIwz+888HS6eq0gPJB4/QYPblKa0RXFT/XzMLbf+/OoJx464c/dTRKyO65qPeTzNCnw9/BAJB9vfEG3vrs/5rV07ADx//8Z/2K2p9GfeSNrSTgCAd1RplV9yDuCcAAElcMSDuIZA4IMPvWvGMAKGEAImikgCpXhoCZEpGClDQ12QBiko2SkXWXuhsdweJivMgNcVtkOnsHVAwy1dlUedII46LF+6/l7xEQ4s35ePHjMtn5MsW4YOIyasz82112BUaGQ47HXHWGZccdshxlxR5werGZact8eDFvig33hjj5GbIj7vP8pbkXnCRGJs/X8dM+f1wmCv+9OFgJJh2gkoiIZLqe2IfWDb68JlDAA==");
 
 export default HourglassEnd;

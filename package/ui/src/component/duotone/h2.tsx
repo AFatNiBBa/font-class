@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `h2` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/h2?s=duotone h2}
  * @preview ![h2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/h2.svg)
  */
-const H2: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 256 0 416c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 192 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 0-160c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 128L64 224 64 96c0-17.7-14.3-32-32-32S0 78.3 0 96z" />
-        <path d="M491.5 128c-15.3 0-30.1 5.5-41.7 15.4l-29 24.9c-13.4 11.5-33.6 9.9-45.1-3.5s-9.9-33.6 3.5-45.1l29-24.9C431.4 74.9 461 64 491.5 64l4.5 0c70.7 0 128 57.3 128 128l0 5.8c0 35.9-15.1 70.1-41.5 94.4L482.3 384 608 384c17.7 0 32 14.3 32 32s-14.3 32-32 32l-208 0c-13.2 0-25-8.1-29.8-20.4s-1.5-26.3 8.2-35.2L539.2 244.9c13.2-12.1 20.8-29.2 20.8-47.2l0-5.8c0-35.3-28.7-64-64-64l-4.5 0z" />
-    </Icon>
-);
+const H2 = createIcon("h2", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABhgAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCJQsIAAE2AiQDCgQgBYMtB0AbNwXIhof/t+v7fW5V98xUj1EDM5IUUV+MOvpyBCAI3/qpOXXqec5DAXyO+1iY84BkY3BPTNoC9rw6cUzrFXyBVzdghbjWzn55X0rKIHQJIcPED5s15Kl/dkmF9FD6FHe4G46vdXKJpEkGIFoCYOaqZQu82RANKT79/yXiU/MRELNAKZAhQ1cBpsgEusqVyOWChvT//zQE//OVBBBVyJEzUEWOkzgNyEESIs8njKtVmuUrjb7YdaPPgLi3/f3ycx0e6DA4XqnV4r2pr/UU9SnLoxY3293nXNt7iyIe6fxwh1XxZEQ8POiJfkUmiHPt7qvd7PBARNQCtBHn299f3FgaJAo6da8nWj7xbc9Pd37q6+kdu3/osefevH6j1vTBD00bkVs8e0ylqtGJ7euc0fzateZhsS/NuLD9u/rdZnWtKlq1quc214Xuque86Rw0qmt+DwgEf8499demFlN+bVxL4KuXv/85HpjOpSfQWAJBNuT/Idanc8DoAB5UipN6pXOxD4HMBIk/16buFyAUCJBUFQJkumgpQK4wWICK7sYKUFVYJhN5E6GtDQUkTR0BmXFOg1xbL4KKKT4QqtpGpnuE5hBfv9h5CM0dVo4cNqKcVHYNiVQnzBYnl9PcgJMmMJDm2umQg47bYbs9jgNy1AL5hAPmjeC57qg00jAjlCYpt+1rdiUIRx2zp03vt5msPM8PcHIcP5BGkwCjbm1cRqTIit2jhmow2zTTDxUAAAA=");
 
 export default H2;

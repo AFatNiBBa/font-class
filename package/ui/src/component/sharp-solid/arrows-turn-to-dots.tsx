@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-turn-to-dots` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-turn-to-dots?s=sharp-solid arrows-turn-to-dots}
  * @preview ![arrows-turn-to-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrows-turn-to-dots.svg)
  */
-const ArrowsTurnToDots: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M265.4 25.4L288 2.7 333.3 48 310.6 70.6 285.3 96 480 96l32 0 0 32 0 96 0 32-64 0 0-32 0-64-162.7 0 25.4 25.4L333.3 208 288 253.3l-22.6-22.6-80-80L162.7 128l22.6-22.6 80-80zm-18.7 256l80 80L349.3 384l-22.6 22.6-80 80L224 509.3 178.7 464l22.6-22.6L226.7 416 64 416l0 64 0 32L0 512l0-32 0-96 0-32 32 0 194.7 0-25.4-25.4L178.7 304 224 258.7l22.6 22.6zM384 384a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM64 192A64 64 0 1 1 64 64a64 64 0 1 1 0 128z" />
-    </Icon>
-);
+const ArrowsTurnToDots = createIcon("arrows-turn-to-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfgAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCJwsGAAE2AiQDCAQgBYMtBzobMQXIjsK25RMVo1ziMgdhqjwi+H6/355z7xdMmvdP0uQhiYZEEw2FRqNZKFoqkU5mXsV/fj937lTT0McSavaHSqOtBFyiiJewUBCPb/r7ef7Tcu0PbGJDiWoaRVtE8wQGHGWRtJvIbDibKG5w3ogDbI8K5ReocVzspORrvgAe3YfGPyzskPoKAGIUALB9UpKHCwc5iJ75LsQPckBAbAPmEQoKphFYIxaYJjEPqir4I87ZfyCDAKKN4MUJKtq4A/cAKki1Sry8tFq1VCspVxmqtp6nTxx5CoFajaD6iSgVeYViyZvKeYYPVRyWlZd5LdGUQk88+eB21VINbdV4mwMSyKtszmfLa8N12nPde9OteS8RN3kRu14bD4VaNw2brx4vtheKt1NBeFFu3DVjaKSgxL1LxpV7gaBgB+XKpc/ICwJ5yw/BHsPSavlOB/tGeQ82cfP52ZRUKOE80N/d3T/weQACwW+BaKNBv/arUIsAzdH7K3+Q//OLRH6BrgRBWeC+atMMDlPFtQdjlBV+USCdkQjeddATAqEfAVJbvwDFFAMCVb8eAi2zwhBo63dALKoSYVJdDdKga1CsGgPVpG3QsuY+3DYZ4mdP/uTIf/3SpLehtHksyD+QRbPJslLxOEn1eAxbbfEc5W1ecC9s+vQaJmjVYbjFHpQXG9EjfY5I80NMEH+BmGhsd+3+9nKCQUM69Om1s8Rg5wc8jc739oJ2kUDkogUpiTQ3DX4aWr9bXpyk9fm19g0PAQA=");
 
 export default ArrowsTurnToDots;

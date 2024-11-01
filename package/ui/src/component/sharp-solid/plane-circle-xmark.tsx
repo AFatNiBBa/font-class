@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-circle-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-circle-xmark?s=sharp-solid plane-circle-xmark}
  * @preview ![plane-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plane-circle-xmark.svg)
  */
-const PlaneCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 93.7C192 59.5 221 0 256 0c36 0 64 59.5 64 93.7l0 66.3 85.5 57C354.3 247.8 320 303.9 320 368c0 54.7 24.9 103.5 64 135.8l0 8.2L256 480 128 512l0-64 64-48 0-80L0 384l0-96L192 160l0-66.3zM496 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm59.3 107.3L566.6 320 544 297.4l-11.3 11.3L496 345.4l-36.7-36.7L448 297.4 425.4 320l11.3 11.3L473.4 368l-36.7 36.7L425.4 416 448 438.6l11.3-11.3L496 390.6l36.7 36.7L544 438.6 566.6 416l-11.3-11.3L518.6 368l36.7-36.7z" />
-    </Icon>
-);
+const PlaneCircleXmark = createIcon("plane-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgAAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCKAsGAAE2AiQDCAQgBYMtBzkbMQXIjsM4hvwSS/nHw//bfd8+t+oDrv4AHTlzBmDGmUOGvSZlNJFeMj+cT1xTP86/AZOe4NGqV3meQBGpE5jYbt6UwLOBvShud7Zkimh5pCWxJMe3clycII9/srMqkK6n73E5/Wj8pomzJFUyAFEbAKMWzJnmy/Ioj/iu9Jb4zhQExChQCGTI0FyAoTKB5nIFcrmgPEol/A8sCCAqoucmkKMC9uMUIAdJluedm3WqVqFGPt9/ouqSm10iHne42+lhEzEvPnR9Upzs9rSTmB9zI2JGhAEWoKvODzI+GoeclF8w8EPVc4M/7v4sTvV4PuSTavMa1W/UOerH0BgeDaNjNIhhzK8fnaJRjOA2iC7RMIa/q/Wj2o/+KLOeL1ZVb0nLW69a1qw+2ryBNqxfr1NKv1R2olW+daSSmb4YYaUvThjd41SHROpV1r59Wa+UOsQWTg3e/DEV1ntsjOU/tt7H+m75WP8wCASnfhj/iob+XblaAr9+/Ncf5X6lL9PJ9AiVJRBkXUtdLU0nAYUBFFPs11oIWCDZLgP61uquCBCqIkBSUVUBMs3UFiBXVRcBKmipnwAVVTVHJvIqQn3LmE6q20Vn+jtG5+p7TVcw1FfFiupHpnyK6ihPv8zxLTxuX9Gre89icDFtqao+SWF1SLEc7rjfjXSCo9bbYbu91llrk70Ntdu0yj7bjJeQcQJU6KW7ngqDFdvd+8PzrbPbHpvssD3uMkRxPt/Rfnl6J4glJNpbVZKIVPeeuN2+6US6HdRVAA==");
 
 export default PlaneCircleXmark;

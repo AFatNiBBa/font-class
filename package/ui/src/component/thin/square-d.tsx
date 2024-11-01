@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-d` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-d?s=thin square-d}
  * @preview ![square-d](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-d.svg)
  */
-const SquareD: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm144 54.9l0 210.3c0 3.8 3.1 6.9 6.9 6.9l73.1 0c61.9 0 112-50.1 112-112s-50.1-112-112-112l-73.1 0c-3.8 0-6.9 3.1-6.9 6.9zm6.9-22.9l73.1 0c70.7 0 128 57.3 128 128s-57.3 128-128 128l-73.1 0c-12.6 0-22.9-10.2-22.9-22.9l0-210.3c0-12.6 10.2-22.9 22.9-22.9z" />
-    </Icon>
-);
+const SquareD = createIcon("square-d", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABegAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyBfwsGAAE2AiQDCAQgBYMtBy8b/gTIHoVxw32EK4yPQYn6suPh/3Vm933JPhN5gqwwY5cuPcISloBUL7cEbdwLD0nM8j1Ef+TUeOOlAj4rQdHOw3dB+uPvbj8+gYnOzgca0GxgBYYxTLeJBHoEsS9CJEpCOr48vq6Qxx27VUi30rjQvjR+1dF5kiwDEC0AMGPdqiXe/il+ivi8/gLxuUUIiJmgFMiQoYsAk2UCXeRK5HLBT1Gv839gSQBRhd+ZQI4qduMAIAdJnuedOrVpU6s0zdfWKsWmx9pEXO2Q4lbba32axpPtb3TO4na7630bF98ZFPFsv6bx+ICnO6a42f+p3o3xxMBnOmVrhGs14qVBz3Z/YOAzY4u42qZzrah9MOWNHg9Nfn12EU90irjTr+czLZ75vc/3btqF4d/xRTZd9sV3w6cb/p0m60VLWj4kmIdatiym48i4MPZbHFGtLvCX+3rfX1le2bsA718+a3SlMnrW8gVmtPlWmxlAIMh+7VDf5uT/G0jgl1fdX1f/Kd5Oz6BBAkE2uD7Y5ngbGB+Al+Ksns7EAslmOeBTG10XIBQIkFQVAmQ6ayFArjBIgIpuxghQVVglE3kToY0tCieNTsCZsc7BuTaegysm+8irahNZntFZQn/zEuZaYM6+csTQ4eXEclsaTOqQdXtSeSz2PyujAXTQXsccddoeux1w2kAnLQnPOGKuB84xodIIQw1XmqgMN8/C2uKddMqBNRffZZLyvtvfWX/xAFISEI6UShKRGt6qNGQ3AA==");
 
 export default SquareD;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fort` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fort?s=solid fort}
  * @preview ![fort](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/fort.svg)
  */
-const Fort: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 16C0 7.2 7.2 0 16 0L48 0c8.8 0 16 7.2 16 16l0 48 32 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 32 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 80 0 16 0 48 128 0 0-48 0-16 0-80c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 32 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 32 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 80 0 16 0 64c0 20.9-13.4 38.7-32 45.3L608 464c0 26.5-21.5 48-48 48l-176 0 0-128c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 128L80 512c-26.5 0-48-21.5-48-48l0-242.7C13.4 214.7 0 196.9 0 176l0-64L0 96 0 16z" />
-    </Icon>
-);
+const Fort = createIcon("fort", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABeQAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCLgsGAAE2AiQDCAQgBYMtBysbKQURlZobyH4k2O6hztCl0YIFxWA4MEwUT+Lh+7Xezn3dn3oCk6of4A7xhIgcgwPyQKTIRcUtCwVkt1YR5lftewCMnBpvvB/wWQmKdh4+LcgDKd0br0DFmtrbFRrNhrPhBCeCM2+ZWI+UI0lmokl6/KbHrxPk8Xd2Th3pZvoc58uLxo86OkfSlAGIKgCmr1252Ifv4ruIz/5PfGYhAmI6KAUyZOgiwCSZQBe5Erlc8F38/z//B5YCiHr4pQnkyHACpwE5SCLPj1XqWuZrKnVFdr19Ja62FZWIEFNoDqn3brvTW9xovtK7iIhbA1/1fdL/RQdRxLN21zpF07sFvqXnq+qrn3p8vu3z162+K33XqqZUI/AyVdopNVUpw5ppql/+nH3xVe21U4o2bR48qI8oTnmt9tUX2c++rE5TtQwIBDvO/zpV60m/NlYS+OH9f/T7/f8hnUqv0CiBIBv8/+BN6RQwMwAnxTE9jTcKJMckeNYWrgkQCgRI6hUCZDqrCpArDBKgTjejBahXWCkTeZPQbLMQSQsHicwYx4lcs3dEnUk+sus1R+Z/gvcIv79UNUcDs6fK4UNr5YRyGRiiS3FpOLHc1vofi4UBtGjb/n1Htm7ZeUThhxZ7R/fOscDZHyyHD62VE8rj+Hl+zdZDh3fu35fHTCzvW/2P2fUDyEzAOsKXJCLlLxgAAAA=");
 
 export default Fort;

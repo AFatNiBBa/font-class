@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `computer-speaker` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-speaker?s=regular computer-speaker}
  * @preview ![computer-speaker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/computer-speaker.svg)
  */
-const ComputerSpeaker: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M312.4 480c-11.8-13.2-20.1-29.7-23.1-48L120 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l192.4 0zM64 32C28.7 32 0 60.7 0 96L0 320c0 35.3 28.7 64 64 64l224 0 0-48L64 336c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l225.3 0c3.1-18.3 11.3-34.8 23.1-48L64 32zM576 80c8.8 0 16 7.2 16 16l0 320c0 8.8-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16l0-320c0-8.8 7.2-16 16-16l192 0zM384 32c-35.3 0-64 28.7-64 64l0 320c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L384 32zm96 144a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM448 320a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm112 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const ComputerSpeaker = createIcon("computer-speaker", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABlAAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCWAsGAAE2AiQDCAQgBYMtBzcbXwXInoNNWZ4VD1GH7G3HovsbolzoRJAs2+x+rY7qQVXVLY6gFMLVqppTj8eYA4tGn/+wrt7f9cz6AKMRFVCUm0uYUK66Hpnr5X3imvzFTw9Y9gSP0rXhQMqSOs4nMNF5FWglziaKe5tih0FB+EREiZVIdHweO55NoBr/9Ioa+cn7AC/lQ+OPgVFItQoAYggADvKyUvDERRHxXp4T35IAAXEAYBmhggrmEdjGF5gnsAyqqoKCyhL/A80hgKiDXiFBFS08gTcAVZAaVQFjOjTU0pKzQrkglxUyFceGDO3qL9mwhbv2RIf6oE+HIxuWiBia1yVa0GNpxYmpmNPh0ay2BPlmrhHhrXzgdGLEp2XHY1smZ0aPaIGGdOeZae1ZnOrMsdlDicLO6MzhlF2x64Mgdj3wxv/KeC3gOujWzPJYdfxpsTb8lrSSjnCko5Px9D3bHAGjNocZjTY5uOPAKQqK4keS1k9pAvbDX1poxgqFu09gCmaVUUzCraIWYDszmdwuq+vpqZOF/QECwWFah1WZMvi/2eEBfm9+xeWVXJ7yjkFTgqCyWjor5g0CQA8gltELS+WLAukKDXStXW8IENoIkOraAlTMUSFQ1baCQM0iHwTq2o7BF1UpwlTJwFPXCV6xpQ+vmjrFa7Y9R+umwXdK0aXEX8K0WA7FjDL3cHU3DzQ/FnTJz/g8GGRu9ux7Y4MDjEUt2tCKbtSgGg3oZlgnUhI9aEGshsbghzDnwZU7c4HMr8tLLZdFO9GFhr1yP0wQ8/cRe716ewcI8RDjmpyURKr823L5hgEAAA==");
 
 export default ComputerSpeaker;

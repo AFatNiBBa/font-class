@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-i` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-i?s=duotone square-i}
  * @preview ![square-i](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-i.svg)
  */
-const SquareI: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm128 56c0-13.3 10.7-24 24-24l72 0 72 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0 0 160 48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0 0-160-48 0c-13.3 0-24-10.7-24-24z" />
-        <path d="M128 152c0-13.3 10.7-24 24-24l72 0 72 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0 0 160 48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0 0-160-48 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const SquareI = createIcon("square-i", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABgQAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCAQsIAAE2AiQDCgQgBYMtB0wbHwXIrgYcY5p6iCGxdze8XJrZkJUw8++jlzjEePhvP9p9M3/VNG3XaJYESofklRYpYQ+VEvan/dV7M3+pPrvJyrBObFAJSFK8ULYdtW4/IdGgomTXxU7LsiRJ8UMR5XVBBA+wZjYjfF8h81OnasZ5KIDPcR+LcrENkn0+V8e0CvS8IPW1QKoVKpZrRt2dLcUhyyNpjUbIcbHjs4MiXvKUkH4mxBf8H8D4L7gkqcgAEPUCAA7Oy1lYKjTh/2MTf3UgIA4B+iEyMroh2EYFunH6gUIheDck7yD7QQBRCvj6DEpRglvgGYACJCEVnD7qJTwZV6tC3P49JpE8dVxlMUJUYZCeOwUVEeEXUULJ9cRbkeHL1EeieDP5XqX4OP7qq2sXGN7t+yPGWEvxKFHUtRTn3ZoHU19x2WA/+sW62+Y2QeIELXeytvg8QCD48zL4+ULRL68iAP/Oy2d/KG5aKJdAkKc5rRMTDBHA96c4ZIiliUC2hYB912rfBAiVCJCUqhQg66KEoFBpCoISvXwQlKp0jIpCBKFZl0BS7RVkq45AodknKLHtyyzVHFTTaD2hP3oJMY5G17EFu5OFWTdRGOUh/WSETUvjh65hgq0ws2XTvqmJFfsM35V1DmyIjbCoD2Jc7JyYMLad3wo1Zu7asyJz+6tEsPOG0eG43wSbIYDFOwpkIiFVPlfD9jSjsqK64h4nAA==");
 
 export default SquareI;

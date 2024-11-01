@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-fork` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-fork?s=sharp-duotone-solid code-fork}
  * @preview ![code-fork](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/code-fork.svg)
  */
-const CodeFork: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M48 160l8 0 48 0 8 0 0 32c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-32 8 0 48 0 8 0 0 32c0 53-43 96-96 96l-48 0 0 64-8 0-48 0-8 0 0-64-48 0c-53 0-96-43-96-96l0-32z" />
-        <path d="M104 56l0 48-48 0 0-48 48 0zM56 0L0 0 0 56l0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56L104 0 56 0zM392 56l0 48-48 0 0-48 48 0zM344 0L288 0l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56L392 0 344 0zM200 408l48 0 0 48-48 0 0-48zm-56-56l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-56 0-48 0-56 0z" />
-    </Icon>
-);
+const CodeFork = createIcon("code-fork", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABiAAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCRQsIAAE2AiQDCgQgBYMtB04bZQXIFiFJJw8fc1XvJ5munvQyZImzjIqIFIMicmSPqN2hEVMnWV2d7Ilr8t97pX7biz/S/xoztco7scEGvNHGD/I0g5nOwFaJzu5siR2TPJK0FpL8ju34WJDFu/SaJpJnyW94mP4HMP7U3TUSzSmAaAeAuetWLVFviZYkfmt8SvxmMQJiHigEUqToJcAMqUAvmQKZTNCSNBq0RKNREEBUJPtSUEEzruIuIAOJisiy5o6+tv2wWlPrbK23+SYhj4javLyWC+BqtYhD8x3juvW1vCbwdqUQwU3xS50fCeRu1ycG2SBeDn0/IQ+R5xF5fD78Y5/o/7Hdx7/7/bb3N/tullmlVP4/pV1piin766F9J0+gH54A57rdc2P6VqtzCm1u3WrztuQL1SlB+/HjpdIc1Smx0qU+Ui2AQLB8+YBJ29rO+K9aS8DvX//7h/orbNSjnnxEVQKCdGRjpM1Rh6gLAEASZ/WPOkqB1EoPy7fyWJRDThcTFbmY6qmdmMmNEJv0MdFCRW6VVGTNQidbdDHRygkxNcl5MdPJJ2KTGX4sVHSK1BadluT8CuZbxMGF94qxo8tiWjHtaC7zMmlzerHtH3oWJ4bBS3sdc9Rpe+x2wGlGnrSkfMYRi1bwQl9UGGu0UmGa4ri/9K1lhZNOOTD2nB8zXXE/PdTZ9fxhEEpk3XEepFIiibS9hraN2nvs5KFRWj3RUXj0FwAA");
 
 export default CodeFork;

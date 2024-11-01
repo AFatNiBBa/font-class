@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `audio-description` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/audio-description?s=sharp-regular audio-description}
  * @preview ![audio-description](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/audio-description.svg)
  */
-const AudioDescription: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 80l0 352 480 0 0-352L48 80zM0 32l48 0 480 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32zM328 160l56 0c53 0 96 43 96 96s-43 96-96 96l-56 0-24 0 0-24 0-144 0-24 24 0zm24 144l32 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-32 0 0 96zM173.9 287.8l36.3 0L192 245.2l-18.1 42.6zm-17 40L146.5 352l-52.2 0 75.6-177.4 6.2-14.6 31.7 0 6.2 14.6L289.6 352l-52.2 0-10.3-24.2-70.4 0z" />
-    </Icon>
-);
+const AudioDescription = createIcon("audio-description", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdAAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCAQsGAAE2AiQDCAQgBYMtBzgbCQXIjsQ4JvGLKEzi4f/XQu/7M7vZzIZhQjwBIgVMDsgnikiRorKqKwuFe2p7Kqu3Qt4nrnn+50/vkfYEjxaFWbj0iDyfwM7nqW2zne9mA5sozm/neyWS6DaEyCXZDf+G7Z8hj9/jvhrpcfoV9+KXxr/6u0tSywBENwAs3bZpo+9b0Yr4pf0l8Yv1CIiloBTIkGGQAAtkAoPkSuRyQSvabfMfWBJA1NFbJ5CjgYM4BchBUs/zjt17d+3Qu1nrnG9t1opdKUudI4tOi5pFV5FCFF0isogDzaL55bh3g5+NfTujKEJpzS2Tkjd9Hw580ufBaK3Z2j5nckyc2G9gvyK2Rd9oRu/YEkUMiGL4+27v//Pr0V9NObefTrfs12pX1ZLKfpWqW3JX35iDzM337xsNR785p18/96X9+t4rsaf647cs++2PqrT/Y9eRCh5gQIeHJTOt/2CvElx+0UwPrQICwYkdr2fs67rg/0YzgX++Wz+u3UpL0ns0JBBkE9sT7U5LwDADyKe4ajizxUCy06t9aicPBAgFAiR1hQCZgboJkCtMEKBmiJkC1BU2yUTeUehlTyWSTi4QmVmuEblePhM1C/yQq+sVmaAJYiL856Wu6oGVm8qpk6tyXrlsKaLscH51frmtjb1qR8bhoKPOOeuyIw474XIHXbSxeMUZqzhwpR8qTTVZpTRPedx93L3VERddcsI5Z8M685X3o7Gu8tPHwUyIdZqqJBGp+1c9OkkgAQAA");
 
 export default AudioDescription;

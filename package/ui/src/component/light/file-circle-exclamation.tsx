@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-exclamation` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-exclamation?s=light file-circle-exclamation}
  * @preview ![file-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-circle-exclamation.svg)
  */
-const FileCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 480l232.2 0c9.8 11.8 21 22.3 33.5 31.3c-3.2 .5-6.4 .7-9.7 .7L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L220.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 129.9c9 9 14.1 21.2 14.1 33.9l0 34.7c-11.2 3.2-21.9 7.4-32 12.6l0-19.2-112 0c-26.5 0-48-21.5-48-48l0-112L64 32C46.3 32 32 46.3 32 64l0 384c0 17.7 14.3 32 32 32zM351.5 160c-.7-2.8-2.1-5.4-4.2-7.4L231.4 36.7c-2.1-2.1-4.6-3.5-7.4-4.2L224 144c0 8.8 7.2 16 16 16l111.5 0zM544 368a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144 32a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0-112c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const FileCircleExclamation = createIcon("file-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABnAAAAKPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCaAsGAAE2AiQDCAQgBYMtBz4bdgXIBqLSWT2rlcsn2Swf4D4zZsiUAVbOGAH74tTznIcWyGMuBEFbu0unrkGlOc8r0POJiXUO0C1UUaxtuT8cHP6/fmkIkUgJiT0QfpgiaAO0PJSS2KA2qLvAsuWr5CMZzAaFtgAAkAgAAFCvS4dWXH8mz0TuJs+A3KUFIABSHwCDABYcshEAamIh6A3QGECjEXgmyWT/DzQgACA+xisrADTgB9YCWwEADYDCp3XlQFZWStC1g7qzazvNXMfdUGi1E5C9xQ9mWrKpxKEirixKdJI1ILs9EUf2pq7N7HYLvdUomZ5Y4w5Zm9pZ1nRkTcLtNMN4xI2F9zoLC+5OX8/0jA2F9riLiuzL2iSBGWVEjtW45C6qdqHUEaaXPFz1vLOw+sXSR6XTnoz1BfdmbioiaxLIam9tqsi6tPwHIwc/57s7+C7JdzT/ecm6NmyPRp3pONuF2zfjPZ4wgcdefvTbOGMp++ieNZbphObPD5VwXp14fnuB/GXHEHo29tqD3PfwfuvW3NxGvn+fmyuJHUUMmHiscOFY3JgiXICMZXntEol2lDv2WaguoWd8PwAIIFBs2++hfcI1v/ldBcCLi1+/8fEkr6u66iDgRwEgYJVMlqSnqgsAugBAVMlk8jtjFECxlAftD7A2mis4gHAUHw5CwSKLCGgcSoBNLpU28OHQAQvRKQgevRBQBBgHFpWZAhqPU2BTkxsRH55YycmnFv9qmNJYI41GmXKly5rqxizYhXxj62ANc9lddDI3FIMjgxnDaCYyiIEMY6LCxtMqPolRNPbQRvwQQzlKUxZDdUy4/FHpTJHxTGDYuRQfpgbmfn9RJvvti8GnGIzlyVMoEJU2D4xSX/E0lvrxhbffqBkHAAAA");
 
 export default FileCircleExclamation;

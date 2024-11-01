@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-viewfinder` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-viewfinder?s=sharp-light face-viewfinder}
  * @preview ![face-viewfinder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-viewfinder.svg)
  */
-const FaceViewfinder: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 0L0 0 0 16 0 144l0 16 32 0 0-16L32 32l112 0 16 0 0-32L144 0 16 0zM496 0L368 0 352 0l0 32 16 0 112 0 0 112 0 16 32 0 0-16 0-128 0-16L496 0zM0 512l16 0 128 0 16 0 0-32-16 0L32 480l0-112 0-16L0 352l0 16L0 496l0 16zm496 0l16 0 0-16 0-128 0-16-32 0 0 16 0 112-112 0-16 0 0 32 16 0 128 0zM240 216a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm56 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM256 128a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 288a160 160 0 1 0 0-320 160 160 0 1 0 0 320zm0-112c-21.6 0-39.8-14.2-45.9-33.8l-30.6 9.4C189.6 312.2 220 336 256 336s66.4-23.8 76.5-56.4l-30.6-9.4c-6 19.6-24.3 33.8-45.9 33.8z" />
-    </Icon>
-);
+const FaceViewfinder = createIcon("face-viewfinder", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABogAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDJAsGAAE2AiQDCAQgBYMtBzYbqgXIhqDSVWX1aEla0BHrEPmJyEILkMZ7NNnbeI/Qnvm/3POzTQvk+4kf0l66uLEwmvN5AgFeVn49TzcdSJppAtbgvImHEJq6Csjiw5ikifRI+hr3O6WKXw1wC0lWAxAlAJbv3blZvTu6I75uvE18bSMCYgWoBGrQHFxjWMQIXkCmQiYTdEejEf8HVgQQzTw4uWmGAm/iA0AGkrYs69OnV5+2tkGDehRNHdmeoik/mBe5EKIIr6MoIvKODr7osTzSTiFCv5lXjFChjmYPM/IVOQceHfNU/0dGPztofSAVuXvuHh/x/Pjn3TDuOcXkd014gYkbJ76YFenuhd3sD6e+GjdOeWXBB9eb996kl9ww+eX57xfxzsBR8cjop4u7xz47aEw8PGvEC+ULvw//+rSvdX1aepe7QalSusAFZaU8dsMND1TKCy7o+tANSuWfjbJ8jCz9a2XH9WP7bN/eJzQulwI8Ofb8kXXqQzpGjOgYUq+PrPWwI9XEVazetXrChMhbNRH1oHdcMPzVH12xZOugQVuX3PGzV4cDgWD5N73bj3Yt+r+1SOCnD/78W/oratST9AJaJRDUJjUmOZRAIgAAKS4zIkEgeVEbr6ztHhQg5AiQNMsFqBmkFCCTmyhAk6FmC9Ast1NNZG1Cb4cRSNpdCGrmuBZkensTNFnks0qz3lE7dKUDT/pxTF9Th1YfqqZPmVYtqAZ7cvloFPTuwmq2P+4yPjMennWa853nEqc6xZkuqZEX2Vy/1LnWjBGrfVFluimmqSxQrR7e1vfUKhe52Jn96vp9Fqr2j8e5bHz5eBglHucMXUkiUtd9YUw+vs3TnnsZFwE=");
 
 export default FaceViewfinder;

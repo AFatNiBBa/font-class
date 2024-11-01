@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `garage-open` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/garage-open?s=sharp-solid garage-open}
  * @preview ![garage-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/garage-open.svg)
  */
-const GarageOpen: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 128L0 512l96 0 0-320 448 0 0 320 96 0 0-384L320 0 0 128zM176.7 320l-15.1 39.4-1.6 4.2 0 4.5 0 24 0 24 0 64 0 32 64 0 0-32 0-16 192 0 0 16 0 32 64 0 0-32 0-64 0-24 0-25.8 0-4.5-1.7-4.2L463.7 320l-51.5 0 6.3 16L222 336l6.2-16-51.4 0zM240 376a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm136 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM512 224l-384 0 0 64 384 0 0-64z" />
-    </Icon>
-);
+const GarageOpen = createIcon("garage-open", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcwAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCEQsGAAE2AiQDCAQgBYMtBzIbEwXIjsK22ZOTJS4ZRg6DkXc8//2979rn3l96xut4KNyFIhDMeAMJhyMW0Ii0JvDs+/1+e558FUQv7tqYEQvNs2o2r4RKY0gknf9r6kXZNeDnIzi0KIxaPY8Ey3w+gQHOCqNwVD4b2HSCNnNXJ7aHaD+xliLJ47nHzwF6vvlZItRDvYL7+qH5Z20WirwBgGwBAM4vSvJw+UIvyctwDnmWAwLkHMA+Ag00sI0AR3gEtgkY6AQELxn+6T+QQQAyhry4AB1MwCW4AtABReyCMUwulytFtVCuFBU8x3NK4klNHIUVzdRYZudoZyJkdkHUq1QN1RbkQAoyM2S5pGjdetl1w2bNoyxq4zYVKrUKtCJy3tHtfDi9tr9KvJmcbJToUqJGkxKuER9dvFPWBIFVSiVizOpc+ozd2YoNgdGbUAPuNAj5LjKbi0AtWGoaLxxOyr0STUoECAg83j2PN2hjv2RKDsDb0+cH2tXDZd3UDpjiAIF28O+rtiYBkhLAT6qMw7kmQUBpIQrvurSIAKEAARQJBQI0tnQI0Cn4IMCIgzAEGFMowaMuBzGpU8BRGQK8cBNAYHIKRLEechKm8A6nuYv238tOt2jaIhbkH8ii2bKm6z6k5NkYdux4jnOPFzai3YB+o9q06jJqxGF5xTF90nd0mi9igvgLxERj183n1eXaDBvRZUB/mScGe5/xNL4f7gWfI7KHthUOUsqOpuGmjjY/XwQ=");
 
 export default GarageOpen;

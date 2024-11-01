@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-hair-long` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair-long?s=sharp-light user-hair-long}
  * @preview ![user-hair-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-hair-long.svg)
  */
-const UserHairLong: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 240c-53 0-96-43-96-96l0-16 88 0 8 0 4.8-6.4 16-21.3 20.1 10 3.4 1.7 3.8 0 46.7 0c.9 5.2 1.3 10.5 1.3 16l0 16c0 53-43 96-96 96zM275.8 80L247.2 65.7l-11.9-6-8 10.7L208 96l-74.5 0c13.2-37.3 48.7-64 90.5-64c35.5 0 66.6 19.3 83.2 48l-31.4 0zM351 112C343.1 48.9 289.3 0 224 0S104.9 48.9 97 112l-1 0 0 16 0 16 0 40L38.4 227.2 32 232l0 8 0 32 0 16 16 0 80 0 16 0 0-32-16 0-64 0 0-8 50.4-37.8C136.8 247.2 177.5 272 224 272s87.2-24.8 109.6-61.8L384 248l0 8-64 0-16 0 0 32 16 0 80 0 16 0 0-16 0-32 0-8-6.4-4.8L352 184l0-40 0-16 0-16-1 0zM44.4 480L87.1 352l273.9 0 42.7 128L44.4 480zM64 320L10.7 480 0 512l33.7 0 380.5 0 33.7 0-10.7-32L384 320 64 320z" />
-    </Icon>
-);
+const UserHairLong = createIcon("user-hair-long", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABkAAAAKvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCdwsGAAE2AiQDCAQgBYMtBzUbfAXIrgZsYxryJ6EH4VDtrVjmy8Y3HHoARcXzgF7fn5vJPGQWWTkr8BPszIqzX67kolYr1A9xcMOjnjyBAvAIbPelQXkSdwEFoBknNvTp5H5LPM0SSynFFjVvCzSnXOJBa4lkdve7fIcNuAKThUdcnv9rPj9ritIPdIKHFmmlB3LNR7HK5xMY6HBY4BlCM52A7W1THI0IbImEREVI42VjtYUyT+VoUzxRBO6Tj8qvxrmTQtkCkBoAW4854iAfvz+VfJ+ffO8ABLINNIIW2hMNgw1bCyYqNSiVwk8cyPIfuAiQHgwXDlyiF0+iCyhBoV2Wk0bt6x/caQ8uj+60q2Pe20l3ctLpjMmEzMwovcQj5Ok5L604ZtbMWaMzMnNS5an5+2ffNfP5cdVRz97ko13fmlhFRA7MSFit00mqKjkkL899ufPm759/UHTqUCZhdA7OgurMY448ZnCOyiDZz5Fj0xk8Pkdn0LRu3f3dm8CP14VuhmP7dvqfmqpc3NtX6+t205/7AR/guM5c+zx1+9ecA79QTLlkMYvqetHiS6JWm+NJR+rTqNWnNuotfUaZ8MbH0Y/HUcRsqRtMrREd6UlzPGGWXTLvlioebt4tzh3x3Irc65j27OuQndgCBOGERcf+Pn3D/9IK8Evfg1/RwPhx7aJPAUJrwYA5MR9DPhYAQJGrTcvHCAoPauNPHeRRAVEhoNCjEtAyQS2gVJkvoG2ylQJ6VI7QkrJfjHRSA4VBLgMtq9wESiO9Ddo2+CrsMTKtGFUjTP0iZu2y0M55zdJFS5p1zbSkWtjJeXp9s+3MuTp1zcWlznaJi13pLGc6z5WGvNxByVUusmtF7PRFjaUWWaKxTuNu3FtHU3i5K5w3NvyzrNecD+a4ej14LvoFllymUChIMeRi2wtfqb3wKgMAAAA=");
 
 export default UserHairLong;

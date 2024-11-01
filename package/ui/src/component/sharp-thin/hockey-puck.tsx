@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hockey-puck` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-puck?s=sharp-thin hockey-puck}
  * @preview ![hockey-puck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hockey-puck.svg)
  */
-const HockeyPuck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M58.4 132.1c-17.6 13.2-33.9 29.4-41.7 47.3c.2 .3 .3 .7 .5 1.1c1.3 2.6 3.5 6.5 6.7 11.2c6.5 9.4 17.3 22.2 34.5 35.1c34.3 25.7 94.5 52.1 197.6 52.1s163.3-26.5 197.6-52.1c17.2-12.9 28-25.6 34.5-35.1c3.2-4.7 5.4-8.6 6.7-11.2c.2-.4 .4-.8 .5-1.1c-7.9-17.8-24.1-34.1-41.7-47.3C419.3 106.5 359.1 80 256 80S92.7 106.5 58.4 132.1zM16 207.9l0 123c7.6 18.5 24.3 35.3 42.4 48.9c34.3 25.7 94.5 52.1 197.6 52.1s163.3-26.5 197.6-52.1c18.2-13.6 34.8-30.3 42.4-48.9l0-123c-7.4 9.5-18 20.6-32.8 31.7c-37.5 28.1-101.2 55.3-207.2 55.3s-169.7-27.3-207.2-55.3C34 228.5 23.4 217.4 16 207.9zm447.2-88.6c19.8 14.8 40.2 34.9 48.8 58.7l0 155.8c-8.7 24-29 43.9-48.8 58.7c-37.5 28.1-101.2 55.3-207.2 55.3s-169.7-27.3-207.2-55.3C29.1 377.8 8.7 357.8 0 333.9L0 178.1c8.7-23.8 29.1-43.9 48.8-58.7C86.3 91.3 150.1 64 256 64s169.7 27.3 207.2 55.3z" />
-    </Icon>
-);
+const HockeyPuck = createIcon("hockey-puck", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgQAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCDwsGAAE2AiQDCAQgBYMtBzIbEQXIjtMVcxRJ0rwjyIZtdm+f1l2XpXShq0PicRiHowuFshhDsBiBxfuHzQbiC4SWVE2ixLXpD27zp049jy4K4BsFbWxaGpBsoD3OIxDA0e0VqtcKFpBqwCrgtXb2AwbRbZLel0vSbvhh84SKY6n4ybd8ATzVD40/KGsFUmsAiBEAwMVtiB8uPuiD6JnbBeIbPiAgLgDMITQ0TCFwjFdgCp85UErwQxwX/wMZEEB0AT8rQaGDe/AIoEBqxaejoS7KL84XLsovErOg1EhNeuV7jRbtdsO+OOybLCv2KzbR0OKS/V74q+2OYSjIG1lUJeqZX/C8CX13f+I+hZRDddDn/vS6Iw2i8aNlj/uIN7dbI+0lqaXvWi/pL3A62n4iiHH3tpbuH5wvfHE/ulva3GWJnra7f34Gz+fPbiOfGoyeb9ZfuHmuwVrgDNP0hz/NuZnAtbNIgb8j+CtgaQ3Prh1hbRaAQND7bz+XIOn6X0iUB/B79PNrO2TKL9AjQdCWOVPEJiAJYGSUQ5vsLJDu8IK864BnEAh9CJC69AnQTJJCoPRZQqBjhh0CXfpc4hUljDAhboA04AE0u+pAmbANOo7dG10mgtffaG+hv3sJ7hpym2NW5pbMmS1DnXEhMo9d2LZsWJ5KRvIQ6QrkK5UmVZZShRfzs8vkcWeYmx0xVsxZYpyx42R7O1yaYiWyFMgvU1yw+7qhct5sJBoPEG6S8gm2UzSzICUnrcqssCwlBwA=");
 
 export default HockeyPuck;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-check` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-check?s=duotone file-check}
  * @preview ![file-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-check.svg)
  */
-const FileCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0c0 42.7 0 85.3 0 128c0 .6 0 1.1 0 1.6s.1 1.1 .1 1.6c.1 1.1 .3 2.1 .5 3.2c.2 1 .5 2.1 .8 3.1c.2 .5 .3 1 .5 1.5c.2 .5 .4 .9 .6 1.4c1.6 3.8 4 7.3 6.9 10.2s6.3 5.2 10.2 6.9c1.9 .8 3.9 1.4 6 1.9c1 .2 2.1 .4 3.2 .5c.5 .1 1.1 .1 1.6 .1s1.1 0 1.6 0l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM72 328c0-.8 0-.4 0 0z" />
-        <path d="M384 160L224 0l0 128c0 17.7 14.3 32 32 32l128 0zM305 281c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L305 281z" />
-    </Icon>
-);
+const FileCheck = createIcon("file-check", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgwAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCHAsIAAE2AiQDCgQgBYMtB1AbPgXIhof/dPneN6M1yf6I+kgcQJBDgGVSpUIsSp+0BPX+z+X05qB7ftU3CmWsDbLA53yeQKBlc/kmzzQDy2/nd05dIZkUHEXSH7ZnGP8Jirgp36FBejZ9j4fj/wDGr4a6g6Q9A4g+AFhzaN8OH/dET4rvmx8S39uOgFgLKoGMjBECLJcFRihUKBSCntRs0hPNZkUA0SJymbfFfO4S3AAoQJKkoij7rW0tG13FwbLRce7BAwdFPfDJstz//LC3xu+PlSGHPTN0T7w56VB+flrE+5PKqNW6AxO1cyAF3V+MOlk+OZCRUr0/uuP+e5SR4pnJ74zvjLemvjcsH+kW0R1j3+vz3u9jvj/ne7eOftnuUOt1zz296p3X/fxzV9cll/hDNlRn002/9VZ1R1/6vvKKitcIQUhIqbspBs5ft7dPIQVCqFU6+vZ9hVfMWzvqTa0RAASCxz9f98ip3sv/bysT+OWjP/8lv6Pmx1Gn99AmgSBPb053PGqIWgAAUlxjbNTWIJBtkfC6Tk8JEDpokLTogGy4PlDoMA0aRllgPFxjnyyKdmGAEwRJp8shW+hmKAzwATQs91WuxYDIuLOgxvLXl3OjxjdMqubMnF0trZYlxQolkx9dVh0HJ18jLVNornNc6hJXOdtZzneVUq6wo3i1i23cyRt8UWWOmWarLFVdV5+dB1m9wpXO919yP84y1ffZya7Zd59CkSTpnWtGlokUud8bd88AsHcGglsHjPa3CgAA");
 
 export default FileCheck;

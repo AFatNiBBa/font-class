@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `school-flag` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school-flag?s=sharp-thin school-flag}
  * @preview ![school-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/school-flag.svg)
  */
-const SchoolFlag: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M400 16l0 48L296 64l0-32 0-16 104 0zM280 76.1L173.2 160 8 160l-8 0 0 8L0 504l0 8 8 0 216 0 16 0 96 0 16 0 216 0 8 0 0-8 0-336 0-8-8 0-165.2 0L300.9 80 400 80l16 0 0-16 0-48 0-16L400 0 296 0 280 0l0 16 0 16 0 32 0 12.1zM336 416l0 80-96 0 0-80c0-26.5 21.5-48 48-48s48 21.5 48 48zm224 80l-208 0 0-80c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 80L16 496l0-320 160 0 2.8 0 2.2-1.7L288 90.2l107.1 84.1 2.2 1.7 2.8 0 160 0 0 320zM328 240a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zm-40-56a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM72 224l-8 0 0 8 0 80 0 8 8 0 80 0 8 0 0-8 0-80 0-8-8 0-80 0zm8 80l0-64 64 0 0 64-64 0zm336-80l0 8 0 80 0 8 8 0 80 0 8 0 0-8 0-80 0-8-8 0-80 0-8 0zm16 16l64 0 0 64-64 0 0-64zM72 352l-8 0 0 8 0 80 0 8 8 0 80 0 8 0 0-8 0-80 0-8-8 0-80 0zm8 80l0-64 64 0 0 64-64 0zm336-80l0 8 0 80 0 8 8 0 80 0 8 0 0-8 0-80 0-8-8 0-80 0-8 0zm16 16l64 0 0 64-64 0 0-64z" />
-    </Icon>
-);
+const SchoolFlag = createIcon("school-flag", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABvgAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiEOAsGAAE2AiQDCAQgBYMtBzIbOgbIngd2g/MRlBMNGB+W4+E/Xa/3jfT37B+ZQXbFRAHs0rsLMFXuAtgDcbdPDmMOuBjb1btseRom3fWl9T+1sQ5A1tfw+vsmjhkvikYDrACfDi2qtJI7rQXGWZ4BPhvY65+/kD8ENO858NqsUBTStlDGRw5pI92W3sWl7EvjJ33dRFIUAKILAOZv3bja5c/j84h3Wi8R71iJgJgPaoECBQYIMEshMECpRqkUfB6tlvM/sCaAaODdCZTogr+IdkAJkk5lWQ3vMqRjx+7tXdu1rWrrWG6xgfmokIOLqk2btm7KWaQQVeeIIiJy3hJVFTCGAdS2Lz/ljt6qDgHnKkfcPuJZ5xIiR2H9e8fW2Bw9iz+Rttw6xanUbgMfTIPvdlaQcpWFcIFgU9pFiHxQGBz+KlciR+zbMH7o4/5/yLtH3nXpmXFMO6bWxbGrZ57YaHEfsqZ1muJp2ZiHDq91sEsX48SILtf4qnWYunEd6/ZZp3jv43HjPn6v+Gzth/iuk7t2vfep6XmdD81zb9HViY1mflfFvfO+azVGTp8+suGTXv17nxbUbJ4K2aZfunYefFa2du0wjSa0c02Ont30OBAI/h+58+nbedY/ViXw5eu//ZSdrnU5zUuPoymBoBjVGmVXmgcOdQC/UoqrDE3zEEh+0gmf2sHNAoSMAElDFqDQXxcBStlIAdoMMlmAhmyjQpTtQg+7K3TSwXl0YYob0aUeXkC3meUNR0OPKF4C1i3M+gWNv6QJWtypHj9mXD2jHo0q2Pc1I6yeWS+WD7vKzRouNzrirDOucNghx13RQF2w2n2l05ZMIRf7QbXxxhinNkO9OXGXv0U7Lrjo+DB3ezsz1cebh7lquvBwqUqgO0FQkohUvT+C0V8bAAA=");
 
 export default SchoolFlag;

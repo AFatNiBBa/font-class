@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-vertical-nft` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-vertical-nft?s=regular hexagon-vertical-nft}
  * @preview ![hexagon-vertical-nft](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hexagon-vertical-nft.svg)
  */
-const HexagonVerticalNft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M260.9 495.5c-22.3 12.9-49.7 12.9-72 0L36 407.2C13.7 394.4 0 370.6 0 344.9L0 168.3c0-25.7 13.7-49.5 36-62.4L188.9 17.6c22.3-12.9 49.7-12.9 72 0l152.9 88.3c22.3 12.9 36 36.6 36 62.4l0 176.6c0 25.7-13.7 49.5-36 62.4L260.9 495.5zm-48-41.6c7.4 4.3 16.6 4.3 24 0l152.9-88.3c7.4-4.3 12-12.2 12-20.8l0-176.6c0-8.6-4.6-16.5-12-20.8L236.9 59.2c-7.4-4.3-16.6-4.3-24 0L60 147.5c-7.4 4.3-12 12.2-12 20.8l0 176.6c0 8.6 4.6 16.5 12 20.8l152.9 88.3zM95.8 170.6l33.1 82.9 0-76.9c0-8.8 7.2-16 16-16s16 7.2 16 16l0 160c0 7.7-5.4 14.3-13 15.7s-15-2.6-17.9-9.8L96.9 259.7l0 76.9c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-160c0-7.7 5.4-14.3 13-15.7s15 2.6 17.9 9.8zm97.1 5.9c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80 0-80zm112-16l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 144c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-144-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const HexagonVerticalNft = createIcon("hexagon-vertical-nft", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABkgAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCXgsGAAE2AiQDCAQgBYMtBzsbaQXIHgl2jORf0I1G2hAP/9j1dV/hA6yR2X+EBZXZkTIYQdKz6Z4NGXX2vvtH7f9c8/mlHZXe1jbxofx1UEQAZj4f0Ggi6bMUigLaTCdgM7fGIfoRZUI+RqzJlkSP3/692kEWT8X9cpInkh9wX3/T+FOvO0nkKYBoAcCq0p5tPilHOeL7CvG9LQiIVaAQSJFiQIClUoEBmQKZTFCOSqX8BxYEEFXo8RKQoRp34zlABhJ5lvX0DA311OeN2f76vO7EO4v3x3tDEc8tKcX7i/bFu4Pi6YV7lz/SXYrHuiMe7dofj3bsjYeJWzv3Hdy3f1/EY92PdIqHOx421AluqLXxMQsOZ32soaTrQrDOnBOl+rr6KzDMvR/rHv1Kyyt/jfrh7B9kM2bPfnzE2JpXVY97vGTOnMdLQr5m7OMj/5MvNvANLz5ewo14q5Fseit2ZV+xexi3QbFcbnpe/WufbjbKXOOZM40VDa+9euh4vl420y9Dg78WZirYstKt2GnnJc0rSa0jLe43AQCyBeyfDwSCu6584fdjzUv/rqlPwB/v9U/7GamIz5JXUCMBQTq1MtXh+ITK8ZkAACRxtdHxCQKJO+XoUhs8KkCoQ4BElToBUv1aBMjUmSJAbsg8AarU2SMVWa3Q4cgpTjS4TJya7yZxpsPr4txSX+eqdEQal9qo0v4VZlovkXWLilnTZxaLC7OKdaGmrtNLim3XxKtV1yRsdbZLXOxKZzntPFcK+nLbile5yHqPWueLCrNMN1NhseJxY71+v7Nc7grnucTFbZYliveDE13tD54Eb4KUzvbRREIkHeeede2Jcy65eNoHq+/is68EAAA=");
 
 export default HexagonVerticalNft;

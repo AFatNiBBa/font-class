@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kite` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kite?s=sharp-duotone-solid kite}
  * @preview ![kite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/kite.svg)
  */
-const Kite: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 128l0 48 24 0 48 0 0 110 24 10 24-10 0-134 0-24-24 0-72 0L0 128zM72 322l0 166 0 24 24 0 56 0 9.9 0 7-7 96-96 .4-.4L640 321.4l0-1.4c-53.3-53.3-106.7-106.7-160-160c-86.3 86.3-172.5 172.5-258.8 258.8c3.4-14.7 6.9-29.5 10.3-44.2l-.4 .4-89 89L120 464l0-142L96 312 72 322zM320 0c53.3 53.3 106.7 106.7 160 160C533.3 106.7 586.7 53.3 640 0C533.3 0 426.7 0 320 0z" />
-        <path d="M480 160L221.2 418.8s0 0 0 0L318.6 0 320 0 480 160zM640 0l0 320L480 160 640 0zm0 0s0 0 0 0s0 0 0 0s0 0 0 0zM0 256l96 40 96-40 0 96L96 312 0 352l0-96z" />
-    </Icon>
-);
+const Kite = createIcon("kite", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiQAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCVAsIAAE2AiQDCgQgBYMtB0QbagXIjpOlZpozgqe1Put1z6djnAMiSOIYbaKAFK6MP5ABR3Kr6n3icvpj2TcBJyXchbLmxHDO8wQC7aI5KQ0ksCxTbHHb1ZpiGtoIkQsUqV++rYb0WqrgpfA/gPGnjm6TNGQA0QIAM9atWuKHp/E0RaX6JVGxGAExE5QCGRldBJgsC3RRKFEoBE9TtcrTqFZLAoha4R0Z1KIBN/AmoABJIRdF07rmTVsOaN64pmmxNrga7dutiBsxd1M0jjXrUk5rY90wGHEDuw6vWbtKCbFqdUQWGjcWfaJfpNJGqwUx5W0f6yJil+m7qZTr99XfTH6lfbpRrI5Gtqxv9N707ZQIb/p+GiEeNlrc8/MWn//do7K34kn3lEA8O94X3gGmi6KaECB2rbqtH3Xbjki1afrwlO4w/KgLlHJXB1f7Hz/GYnrEzL22bcPZdcKonpWv4RVffz6w08CBYf167bx4wfT/jBU3rxHqGsthLwWC///5ptG25pP/rW+cwPOv/iE/Xf0hXU+fo14CQR5cHWxzug6CP4BcirN67nyTQLZAgX5qEy8LEBohQFKrkQBZZy0EKDQySIAa3YwRoFYjq2RRNAhtbOmspIkTrGysK6xCG1+wakz2U6ZWm8gwKYMo2R9h6rljeM6scsTQ4eXEcrOiysFMYicnlafN/c/KjgF4qb2OOeq0PXY74PSIedKS/BlHzN0j5/ih0ghDDVeaqLxdf65eSzMnnXJgXXl/mknK9/39nd3vPwDbkiR0pG1ZJlLkJocOnN4zBLS1zQbKLxgAAA==");
 
 export default Kite;

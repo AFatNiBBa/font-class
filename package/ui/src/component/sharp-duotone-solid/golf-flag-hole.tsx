@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `golf-flag-hole` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/golf-flag-hole?s=sharp-duotone-solid golf-flag-hole}
  * @preview ![golf-flag-hole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/golf-flag-hole.svg)
  */
-const GolfFlagHole: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 416c0 53 114.6 96 256 96s256-43 256-96s-114.6-96-256-96c-27.9 0-54.8 1.7-80 4.8l0 67.2 0 2.8c11.7-6.6 28.9-10.8 48-10.8c35.3 0 64 14.3 64 32s-28.7 32-64 32s-64-14.3-64-32l-32 0 0-24 0-59.2C51.5 349.4 0 380.5 0 416z" />
-        <path d="M416 128L128 0l0 216 0 24 0 16 0 136 0 24 48 0 0-24 0-152 0-5.3L416 128z" />
-    </Icon>
-);
+const GolfFlagHole = createIcon("golf-flag-hole", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcwAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBXAsIAAE2AiQDCgQgBYMtB1gbBgXIhof/t6v/fW5V93rEjOtJimBlAL+VAo7AaNYPHf24p7+f5/+8yh+I/AxMkNK/oMzzCex8HrrGKKAJzXQGtrctl0Hoj5AikWic0BqrPeTxfXZOifRw+g43+X8A4y/VzpE0zwBEOwBMW754kY+aoinFd5XXiO8sREBMB4VAhgx1AkyUCdTJFcjlgqZUqdAUlUpBAFHGF85AGTkWYh0gB0mIPO86qGWpdb6Miy22b9q4SWS8ZcR9lsfjSyN+WvrL8l8an1j287IrI4V4seXVXs93vtfzuRZXer/QpYVpi8/GvlXV/ZV2r/zT7btt33lySuNJOOdXVdq5pMpQVR5S8t8uRd85NaC/xx7k5tT07btuj/5LZsjUNNRWVbVuDXotvbVQZYLHenZuAQSCUe8d+n1924n/N2uZwB/v/Pen9DuqfJSkV9BMAkE2sDLQmgQSAQBIcUz3xCkEMoMk/KmtPCBAaIEASVkLATK12gmQa2GAACUNRglQ1sJimcibC52sbSBp5SDIjHYc5Dp5FZRM9GVS1ikyvxK9QvzVpc2W0KxFxbDBQ4vxxbSmSq7Cl9kJhdnrewx7+sFG2+y3zxFbbbHTEUEesig/aq/ZGjzLFxWGGWyownjFcvN+9TJbHXLYTvvto3kmKPbHfR3Th/eD5STA8BOpyogUWZfrqg8KYH3QA7cG+eigqpESjwAA");
 
 export default GolfFlagHole;

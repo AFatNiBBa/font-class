@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-up-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-up-slash?s=sharp-duotone-solid plane-up-slash}
  * @preview ![plane-up-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/plane-up-slash.svg)
  */
-const PlaneUpSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 288l0 96 192-64 0 80-64 48 0 64 128-32 128 32 0-63-25.7-20.2L384 400l0-1.5L161.3 223.1 64 288zM244.9 167.4c80 62.1 159.9 124.1 239.8 186.2L576 384l0-96L384 160l0-66.3C384 59.5 356 0 320 0c-35 0-64 59.5-64 93.7l0 66.3-11.1 7.4z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const PlaneUpSlash = createIcon("plane-up-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdAAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBYQsIAAE2AiQDCgQgBYMtB1gbCwXIhuB5u6h6v3tmAfUCRm4cHRnppQyleOb/cs/v+dEBfj6CQxsL1/QNOHc9TyDgouO2LeBeIFmm2O5sKTvU2oe0YEmOzxwPR8hT5+yCEul2+hYX6X8A41fNXCCplgGIugAYu3j+TB/+GD+m+LbyFvGtGQiIcaAQyJChpQAjZAIt5QrkcsGPqVLhx6hUCgKIMrp3BsooYRbWAHKQhJTn9Vo0r1GqlS+iherLO3bquDc6Ro/oFPvcS3ovFhaHmBFicSyMiG4xLCIWxYLFz3eN+G7hQnF4xJ1uL3R6qstzTUXDdi/UfeH3tt9u+lbLDx6AIu/o5TO9JG30wzW864PR5qgY43Qb/KzRrlohfP+qNWPeOjJnDmtnrJ2+rJU1PjhtnJq1W7/xROvWNcd5BggE/777x4TVdUb8X7VGAj+//ecv8XaVD9OZ9AKqSiDIelR6WJHOgEcH4Kc4pJ3yVWMEMgMl/K413RAgVEeApKy6AJkW6gqQq667ACWtDRSgrLr5MpFXExpaWUBS016QGeQkyDX0JigZ4QuvrGFklkXaBfmxi5skoYnbir69+hTDimEqU8aCh/XhxTTf5RC2usKiTXbb5YCNNtjqgED2mRketNMkDZ7ohwp99dJHYZhiubjmFglvn/229pn1TYYr9ttdHNKHu4KUMGY/ezIZkSJrfA2cngf39Nyf7P1belppX9MWcyQBAAA=");
 
 export default PlaneUpSlash;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `buoy-mooring` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/buoy-mooring?s=sharp-light buoy-mooring}
  * @preview ![buoy-mooring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/buoy-mooring.svg)
  */
-const BuoyMooring: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272 0l32 0 0 64 64 0 13.2 0 2.5 13L444 393.6c-6.5 4.3-12.5 7.9-19.3 11c-3.4 1.5-6.8 3-10.4 4.3L397.4 320l-218.9 0-16.9 88.9c-3.5-1.3-7-2.7-10.4-4.3c-6.8-3.1-12.8-6.7-19.3-11L192.3 77l2.5-13L208 64l64 0 0-64zM221.2 96L184.7 288l206.7 0L354.8 96 304 96l-32 0-50.8 0zM192 480c20.9 0 41.6-9.9 58.2-21.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.8 23.1 24.2 37.8 34.2C342.3 470.1 363.1 480 384 480s41.6-9.9 58.2-21.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.8 23.1 24.2 37.8 34.2C534.4 470.1 555.1 480 576 480l0 32c-30.3 0-57.6-14.1-76.2-26.8c-7.9-5.4-14.7-10.8-19.8-15.3c-5.1 4.5-11.9 9.9-19.8 15.3C441.5 497.9 414.3 512 384 512s-57.6-14.1-76.2-26.8c-7.9-5.4-14.7-10.8-19.8-15.3c-5.1 4.5-11.8 9.9-19.8 15.3C249.5 497.9 222.3 512 192 512s-57.6-14.1-76.2-26.8c-7.9-5.4-14.6-10.8-19.8-15.3c-5.1 4.5-11.8 9.8-19.8 15.3C57.6 497.9 30.3 512 0 512l0-32c20.9 0 41.6-9.9 58.2-21.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.7 23.2 24.3 37.8 34.2C150.3 470.1 171.1 480 192 480z" />
-    </Icon>
-);
+const BuoyMooring = createIcon("buoy-mooring", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABhQAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCJQsGAAE2AiQDCAQgBYMtBzMbKAXIhof/t+v7fW5VvzXTNUYNBH45hFM5g3I4FeKeOvU800IBfA5BkMa0uTFpC1Ka8zwCFZq8qcDTirVW1Po2EZ86pPAIJKRBNug47bjaQx7fRn8V0lPpCzwQ3zR+1dZ1kjwDEE0AMGXVsgU++il+ivii9jrxhXkIiKmgFMiQoYMA42UCHeRK5HLBT1Gruf/AkgCiDt1qAjkqOIYrgBwkWZ53qT+lqDTMVxaV6q6iWoiiaBlr4tEWj7ZYGdVYHo+3erzVumgdRRHLl69aXkTPXf1iP8Rf7iFyLu72fGGK2SnV/bmq2BF4eddXmrzye5cvdn6h8YdlWU42uWF/48a78eiUJU1W+0bKlkx59EZd31/DyZOHbur2YVS/4lcadujS3w8vTGnhw3/zD5Va9x719ZsnT7759ajercUurV4PBIKe9z/dfFPj8f/XKxL45Z0//+bL1T5Kk9MrqCeBIOtf6299mgyOGkAlxUldlQ8KJPtk6FUbeFyAUEWApE5VgEx7TQTIVfUToKKTEQLUqVomE3l9oYUNApIGjoDMSBdAroVXQcV4Hxd1WkRmerzh8D+/lJklNGNZOWTg4HJsOWzIgjWxuDiuXNZ6n/QDfWCrnQ456LgdttvjeEEetaB2wgEzNWKGLyoNMdBgpbHK4/bt+pV2OOqYPQ45GMqMU96Pejupj+8DZkK0Q+1MEpEabD1x6MyAA4cOPR4A");
 
 export default BuoyMooring;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dumpster-fire` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dumpster-fire?s=sharp-solid dumpster-fire}
  * @preview ![dumpster-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dumpster-fire.svg)
  */
-const DumpsterFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 32L0 160l114.9 0L140.5 32 32 32zM272 160l0-128-98.9 0L147.5 160 272 160zm32 0l56.5 0c19.7-21.2 40.4-38.5 57.8-50.8L402.9 32 304 32l0 128zm260.5-24.7c2.3 1.9 4.6 3.8 6.8 5.8L544 32 435.5 32l11.7 58.6 5.4-3.4L512 146.6l30-30 22.5 18.7zM288 319.8c0-49.2 20.9-93.1 46.1-127.8L32 192l4 32L0 224l0 64 44 0L64 448l0 32 64 0 0-32 209 0c-30.5-34-49-78.9-49-128.2zM448 128c-42.7 26.7-128 102.4-128 192c0 88.4 71.6 160 160 160s160-71.6 160-160c0-26.7-19.2-96-96-160l-32 32-64-64zm96 240.2c0 35.3-28.7 64-64 64s-64-28.7-64-64c0-48 64-96 64-96s64 48 64 96z" />
-    </Icon>
-);
+const DumpsterFire = createIcon("dumpster-fire", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABiAAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCUQsGAAE2AiQDCAQgBYMtBzQbVQURlZpByX4kxuA2+gGNa85BLJooc7lofBPB83p8P+cmT8kaWcJfUOXKVMcKDjLh1kUPBhGmk4NInpW00lIP0I6funneeRTg+4uHMjYujbLl4ZznCSRa2EWJtC2wTBOwdmezTCL2SkuzJMe54zNDHv/YWRpIl6Y3cEF7aPyou7NIWjIA0Q4A87ZsWOWZb+KbiNfrB4nXrUBAzAOVQIYMvQSYKRPoJVchlwu+ibqmf2BFANGID5lAjhaciUsBOUia8rylpWzXu0fXsqF1vrlsKHZs3LKxjC1RbApRxMYoy7Iobx+xOYqw54Wdw5R+0TXWxYgYttvVfSMuH9Equht6lLEJxSD4uc1bbhgaccvIKXf0+nDWk5s+nvP0lstH37V+aKzfdIm6tDh7+G09Lu95edeLu17Y+cLul3bvf1u72372N/Z5Q9/1PbU6j9S9Dv711NMY2lO3OqmatqWvr2uz0p5Oy7v179/jIAe5zQa3+9LunR7Jn+HtYaPNMdBcI3WcylyVd/0Qy69++uDX+XwT+7SKBW+8saALEQlYv2HGysNq9a6/Fu3p8D07tC+afqP+5V/xtyYgEFy75ne7tp35W3OZwHeP/Sr5K6q/Saen29AsgSAbWY+0UzqNuk6nCwBAimP0v9MQSE7UhO/aykUChAIBkkaFAJme2gmQK4wQoEEfkwRoVNggE3mL0MnOEyStHA4yk50Mcp3cDxrM9LLRqFMyh2TcifkPJrrFElnUV40bPbaaXm1dg/UxqrRnVMfS0GNSahgM2sehDnGUve1lf0cJ7Air7KMdbLGFLvKiyigNFq6DV3EzGkc40v46f9/l4L0W3i5OUBPGHW88SURqvdfRBx925FF7HzHKvQE=");
 
 export default DumpsterFire;

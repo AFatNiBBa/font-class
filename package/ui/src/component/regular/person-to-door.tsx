@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-to-door` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-to-door?s=regular person-to-door}
  * @preview ![person-to-door](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/person-to-door.svg)
  */
-const PersonToDoor: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-90.7 12.6c-14-3.5-28.7-3.5-42.7 0l-1.8 .5c-13.3 3.3-25.6 9.7-35.9 18.6L56.4 165.8c-10.1 8.6-11.2 23.8-2.6 33.8s23.8 11.2 33.8 2.6l44.5-38.2c4.7-4 10.3-6.9 16.3-8.4l1.8-.5c6.4-1.6 13-1.6 19.4 0l8.6 2.1-32.7 98c-8.5 25.5 2.3 53.4 25.7 66.5l88 49.5L225.1 480.8c-4 12.7 3.1 26.1 15.7 30.1s26.1-3.1 30.1-15.8L307 379.5c5.6-18-2.1-37.5-18.6-46.8l-32.1-18 28.1-84.4 5.6 18.2c7.2 23.5 28.9 39.5 53.5 39.5l48.4 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48.4 0c-3.5 0-6.6-2.3-7.6-5.6l-19.7-64.2c-5.8-18.7-20.9-33.1-39.9-37.9l-95-23.7zm70.8 67.2l-38.3 115-19-10.7c-3.3-1.9-4.9-5.9-3.7-9.5L225 169l27.1 6.8zM122.5 317.1L103.4 368 24 368c-13.3 0-24 10.7-24 24s10.7 24 24 24l84.9 0c16.7 0 31.6-10.3 37.4-25.9l14.1-37.6-4.9-2.8c-14.1-8-25.4-19.3-33-32.6zM528 48l0 416-96 0 0-160.8c-10.2 10.4-24.3 16.8-40 16.8c-2.7 0-5.4-.2-8-.6L384 464c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-416c0-26.5-21.5-48-48-48L432 0c-26.5 0-48 21.5-48 48l0 160.6c2.6-.4 5.3-.6 8-.6c15.7 0 29.8 6.4 40 16.8L432 48l96 0z" />
-    </Icon>
-);
+const PersonToDoor = createIcon("person-to-door", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABowAAAKyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDCwsGAAE2AiQDCAQgBYMtBzUbkAXIngNu0zyiUUfU8dEo8rTpiCuu82s8fO33eu6+fUFQ7AFAaJRADoVLhAIqyQhdozrxBZaN0J3vP4213kdMZzEdFnVpNJKoVhGPNL1EvfN4a3Ojm5VikM+rgpsldyu29n/OxXt7Phrg5xEMLZpKGwtku67nJ3CA0Vrh5+PDsxb0252W4hDNIUlSZi05ruV4bCHHa/SjJL0bz+A63Wm80tVBUhYAiBYAwNp2cizOv9G3oKdK4pNoEBBrAPoRChToRmCRuEA3Cf0gy4LfJBK5/0AGAUQVMLEJZFTjGR8BGSRlllAMktewl5dUlEiTl5QrX9Of2pO9HOM5USmrZnK0vHxoOEeuP425No2pJqXQQkq1x9UK02nq2VA66dKEjog8rXGy5ajThGTWTEtNSU+xoFFPJ/MU7szlaDkmil5qTFq0usvFxMXkiGj4cCVIkYr6GMVp0kb77nXDAXojK0okb7I5N7/g+fiZ8s78197e13xJVlZDaKgYJv/f+H7xvzuOrlQwcNvIeA/Fe4V66RyCE7jMhnSYNqH25iduIEnC13/qHImdmokcUp3+mP6cpxUWZN6Uh9kgqBSUYvWyW4hy/MbwVMy/fYFQzvOwwjz8tsCCSkPmAyhevvMC8O8v4vP9lgsYzQ0idgECwd3A52u+ss9fGRED/D38/k89uXKcAsQ2QY0EgmJQZCcnBQA4IgF+ijaYEA8USD4oodHgSRqGOjokVeqg0EUFsjoDUOrlSjFnrxMXWRahQy5A0uACCtPaIeuwBaVFd16VjhDXVkbXmM9iYtiIhg5iTg6cebFlTmMVkAq93oytWLX5GmtYiTL16rQoVaJSy4A3iQ1b1QqjsFBPxDhxwDFemLj4vDhNqSbNKtWri/14Y+cNK210c2vQxSDpuJQkEUlJuV37lnr7lw0=");
 
 export default PersonToDoor;

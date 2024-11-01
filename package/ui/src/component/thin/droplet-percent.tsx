@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `droplet-percent` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-percent?s=thin droplet-percent}
  * @preview ![droplet-percent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/droplet-percent.svg)
  */
-const DropletPercent: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 496C94.8 496 16 417.2 16 320c0-19.5 7.1-44.9 19.6-73.8c12.4-28.6 29.3-59.2 47.7-88.8c36.6-59.2 77.9-112.9 95.9-135.7c2.8-3.5 7-5.6 11.9-5.6l1.8 0c4.9 0 9.1 2.1 11.9 5.6c18.1 22.8 59.3 76.6 95.9 135.7c18.3 29.6 35.3 60.2 47.7 88.8C360.9 275.1 368 300.5 368 320c0 97.2-78.8 176-176 176zM0 320C0 426 86 512 192 512s192-86 192-192c0-91.2-130.2-262.3-166.6-308.3C211.4 4.2 202.5 0 192.9 0l-1.8 0c-9.6 0-18.5 4.2-24.5 11.7C130.2 57.7 0 228.8 0 320zm269.7-66.3c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-144 144c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l144-144zM176 272a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-32-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm96 144a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm-16-32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const DropletPercent = createIcon("droplet-percent", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABmAAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCWwsGAAE2AiQDCAQgBYMtBzYbYQXIhofv6+o792U24PwgxqjuAYltxWy5gmvimud//vQgxU/wKNFWOYz03ahLJzDAaIu2BJ0N7EVxttkUxo2xGb6KCBkpET2eBv07QR4n20cV6cb0CS5ffjR+1OcckiwDEK0AWGdsuy28UY5yxCeVZ4lPbIaAWBcUAhkyDAqwUiYwKFcglwvKUangP7AggKim1yWQow4X4RbmiSQ1eT5uqLGjrscaqpry0TarvvTdthFfjZ4553GeMXB9Q0Nc3HXjrEdpF99s/cX2o99uE/Fl6fvtvh67bd23aML06+rr46LOB9a+QTsM7n1993Wd28c1Xdf2jG1/ZneEQ8K+xhl2U8PFPdfH5Gu7rum8rvv6nhLkCCbDHIj9J+x44PiHWh/6edwn+33i9TmbRtAamw6vmP7qJ1ff/eUGNUnNBl/effUnr05fMSxU+2i8/nhsU6K0TWwTpVJsM9zcvN9+G1/ckrRcvPF++zU3Dzets2jRdttdfrk1Y9e25gu4oLnkAK6Um5vLw3a/3CHBykeAQFC3TcfK3VtW/lbbkMAPL/36N7b7Vd6IM9JDqJVAkM2szLRLnAHAB5BIcZzxQcACyVlqQL+10XUChHoESKrVC5AZ0CpArt4MAaoMWyRAtXrbyUReJ3Ta9cCSRkdimcVOxXKdnsaqrPR+olpnZFnJ5hT7U5i0oQU2GFfMmz23WF64OTuXaHTvXVFcVqYeV2um8Vb7OdxhjrGvfRzoGAMdZYv0sQ61YQRuIECFeWabq7Bccbv4vH7Uvo5ytAMd7jAZZYXi+dBUx8XNp7GeKOF8WUkiUssrET5k32NmfZMAAAAA");
 
 export default DropletPercent;

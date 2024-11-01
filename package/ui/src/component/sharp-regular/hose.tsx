@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hose` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hose?s=sharp-regular hose}
  * @preview ![hose](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hose.svg)
  */
-const Hose: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M288 128l48 0 0-24 0-2.3 80-11.4 0 13.7 32 0 0-16 0-48 0-16-32 0 0 13.7L336 26.3l0-2.3 0-24L288 0l0 24 0 80 0 24zM8 464l0 48 24 0 384 0 24 0 0-48-24 0L32 464 8 464zm24-80L8 384l0 48 24 0 384 0 24 0 0-48-24 0L32 384zM8 304l0 48 24 0 384 0 24 0 0-48-24 0L32 304 8 304zM56 156c0-37.6 30.4-68 68-68l132 0 0-48L124 40C59.9 40 8 91.9 8 156s51.9 116 116 116l292 0 24 0 0-48-24 0-292 0c-37.6 0-68-30.4-68-68z" />
-    </Icon>
-);
+const Hose = createIcon("hose", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcQAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCDwsGAAE2AiQDCAQgBYMtBysbCgXIHoexG/rILkalw3MjHv6Z6+2+JPMhKUNKnCKjA9R1rAhkHeACGfPPWlSrp5lFeCHn02Tt/F/u+T0/OsAPIneb5gCZy3ZjP0+g51GWB5ROysIsUWx3tlZ2TGufhMRIjks7PhfI4lFMjeRBAnfkQ+Mv3d0iUUsBRDsAzN28fqWvLdES8Ud94g/LERBzQSmQIkUvAWZIBXrJlMhkgpao18N/YEkA0UDvnoAMjTiK84AMJGpZNqi5aO5b1Fpnm4pafrjIi4iIzSGK0DAPsSnXhQNC0brO7MuLXDDVpx+NiHg7pFit/zjj5eOZnxa2xuvlrV4Mf9Oj/5t2b/7p5xB9Z1dV1U1idaGNUjuVdkpt6HSim0o3a3TrunqHuS/aVd1UrET23uD1h2sV/b/eUrkFYGC3SreBX/vXCggEtzctO7i77Yz/m4oE/Pn+v//S7ZrqX+Nr8gZNEhCkI+sj7YivmoivAgCQxCX9jS8KJPaq0Xdt5a4AIUeARINcgFRP7QTI5EYIUNPHRAEa5NZLRdYsdLKzgEQrZ0Fqkssg08k7UDPDL06DTpH6G+4t+HcvZlELLTxUjh1dldPKaSMTLoTy7vRymx96iWaGwVmHnHbKBQcdcNSFBjlnpX/RSYsseKEfKo01WqU0TXnc3zOb0DnnvKNj6nyf6cr79lCX7OXD4BgJYNxLoZSMJDty+vxB");
 
 export default Hose;

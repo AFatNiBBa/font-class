@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `leaf-heart` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leaf-heart?s=solid leaf-heart}
  * @preview ![leaf-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/leaf-heart.svg)
  */
-const LeafHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 96s0 0 0 0l104 0c42.7 0 79.9-23.9 98.8-59.1c3.5-6.5 13.6-6.8 16.2 .1c13.5 36.5 21.1 77 21.1 119.6C512 317.1 405.1 447.3 273 448l-1 0c-81.7 0-150.4-55.7-170.2-131.2C68.7 347.5 48 391.4 48 440l0 16c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-16c0-75.1 38.3-141.2 96.4-179.9C102.5 168.5 178.8 96 272 96c0 0 0 0 0 0zM189.7 242.8c0 14.4 5.8 28.3 16.2 38.4l70.9 69c6.2 6 16.1 6 22.3 0l70.9-69c10.4-10.1 16.2-23.9 16.2-38.4c0-29.5-23.9-53.5-53.5-53.5l-1.5 0c-14.3 0-28.1 5.6-38.4 15.6l-4.9 4.8-4.9-4.8c-10.3-10-24-15.6-38.4-15.6l-1.5 0c-29.5 0-53.5 23.9-53.5 53.5z" />
-    </Icon>
-);
+const LeafHeart = createIcon("leaf-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcAAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBdgsGAAE2AiQDCAQgBYMtBzEb9wTIjtMF9c9FtkTwvF1Uvd89s4B6bWZQJh6E7BxBDB3BU0S1f3/zvPMowGcU2li4NJAFPud5AoGPxYHH0z5YpglY6jZW/iDKguXIETwihnZDdIM8ns1OKZFuTG/ifEM0ftTMKZJqGYCoC4Cxi+fP9NK38W3EG5XEG6YjIMaCQiBDhpYCjJAJtJQrkMsF30alIv/AggCijCgnkCPHCmwD5CBJeT6wTY1SrXxRjVL1zccj4njUiNOd729xvcbpRk/6cMGHM95cUD1eHvVCuzcXiBs63Nc84u7ejw//ZPaLi4/H8VhwrNHCuNpkcVyP442vdaoe9zRsGI3DDnhFu4fqPvRz2zc3vanOamCL4vbbf+hQKjecNNacNmNaj120aJzw7gcf/DU6ptXVaO7cRnVVPXfr8+WJtf6bHDD3UuPKJB54oK9UGjf55f85yZz/mQA7rfnllyZAIHjR0i9W1xnxW9UaCXz/zK9/kq+o8m2SHkJVCQRZj0oPKxJIBAAgxSHtEgSSBRI+taZrAoTqCJCUVRcg00JdAXLVdRegpLWBApRVN18m8mpCQysHJDXthcwghyHX0NNQMsIrelnDyHKMyRDmh5c4yWMT24q+vfoUw4qlzdi0oUp9eLEtdTmksa5YtMluuxyw0QZbHXDEPjOtg3aaFOETvajQVy99FIYpjr3n6UU22me/rXbbVZsMV9zXujgUZ3eFmpC0n+4kEan6jo1rN/V86AAAAA==");
 
 export default LeafHeart;

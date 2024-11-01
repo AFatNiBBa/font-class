@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-check?s=sharp-solid hexagon-check}
  * @preview ![hexagon-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hexagon-check.svg)
  */
-const HexagonCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256L128 32l256 0L512 256 384 480l-256 0L0 256zm369-47l17-17L352 158.1l-17 17-111 111-47-47-17-17L126.1 256l17 17 64 64 17 17 17-17L369 209z" />
-    </Icon>
-);
+const HexagonCheck = createIcon("hexagon-check", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABVAAAAHNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBGAsGAAE2AiQDCAQgBYMtBzQbnATIjsK2eXNEQiRDpgwHnlY81N/7nt13U4t1KrWNp4s1oA8Ya6ABDGhE/kTD4ef3jM1/mFfaQRKRJppEbOqNlqh7S97EQl1IbH/c/PPOowCfUShj49JAxgKb8zyBxCat88ACCSxQ/kx/d1oyIdorlrIkx6M5TheUuK9WWsjP/AKv5aXxR29F6qgAEP0A4PShVMRLM5oRn/Ud8SMPAuIUwCRChQqjCBwQCowSmQRFETSjrvE/kCGAaAXdmqCgYAnsASggZRGp9V0talE17lNQrVxTU4XKpKLqyGqyJmimI6x3Lg5iNq5wdT4ejGvdemP4mn55afyiBEAF0j387AAMgMdH/IEBUINGA4BAcLn1U+hpY//tSgHg9/t/w/zoupnyC+0SBNVCbdNOQBIAgIxTGBMCaYoAAABAtzcBQicCpFadAlRG6BAoOs0j0GKcH4FWnW4IRZEjDOs0SN1eoLLlBopht9DiwKveajgqpWGunPmyJaY4khxjt8PFEZ76KqsHVOpHeVkynfqcGRYxtWfXsYmxhWOGHSpaJ3akJDTpQ8zNwYVF8Hb0OF01cejIwp7dPCSKz2smp3K1GVQBwl2zmZJI9XxyPpjt7dpfHwA=");
 
 export default HexagonCheck;

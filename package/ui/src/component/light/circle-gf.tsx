@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-gf` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-gf?s=light circle-gf}
  * @preview ![circle-gf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-gf.svg)
  */
-const CircleGf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM192 128c35.3 0 64 28.7 64 64l0 8c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-8c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-128c0-35.3 28.7-64 64-64zm96 16c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0 0 96 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-224z" />
-    </Icon>
-);
+const CircleGf = createIcon("circle-gf", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABmAAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCagsGAAE2AiQDCAQgBYMtBzAbagUjEbZqDiqR/TPBbvjzFgZiBkOMQa0N1Yeef5EQV+Lhe51v5z7pk+wgK8i8xB0AUL+abbFK7QDogAKR6624GCB84prnf/703kaP0knFuQLpOp/ARJKixacDm+kAcGxTN8Uc9RClj0iRoqx0m8fX492ukMf7MUYT6d70A25ubxp/6+UKkjwDEB0BsHD75rU+qaKK+KHxpvjBagTEIigFMmToK8AcmUBfuRK5XFBFo0H/gaUAohn/xgRyNONuPArIQZLnebY+feb2rdUu31arOPzYpPDaqu8KK76Z8Er56MRXV35ba/X3k18fXP/i8Pn6n2ut/XHhp1v/WPDJmh8K635a9Nm27U+ODM/24o6ud3UPl3a/q9D1DnFJtztr9bg7FkXc1f3uHjV3duOeEc8MeWrUc73D/aOfH751R92LCwj3zhN7ruNz/w784dgP/vy4fn6bt3b27LXzfvusrhpov8HK0jZ6vf7p4sWfvt6rzdLaiD0fX/xIJzoVrdpXVfvuX3NNezIvEbjUUWVXJSonKDp1euQRuMUlyPd3aF8tMIoTDig96oYzR1RAILju3g+vcB6ac6K1lsBf7/1/YnyLGp8k6Tm0SiDIxjTG7EkgEQCAFBcMShBIbpbj16i7S4BQIEDSrBAg00dHAXKF0QI06W+qAKzfLBN5m9DV3kkkdWcTmWkuJHJdvU40mePrrFnXyKKTiy3u2zB5cJkGlq4qJ46bUM4qLxuEDzimLM4u3faIC/LAyLTXsTPPOO/okZPPU9A5a4vnn77MApd+sJw4bkI5q3zcft2+7eg555585hl1mdnl+WjEBfb4kclLmHRSVZKI1PYTjz/2+DEAAA==");
 
 export default CircleGf;

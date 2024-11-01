@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-digging` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-digging?s=sharp-light person-digging}
  * @preview ![person-digging](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-digging.svg)
  */
-const PersonDigging: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 64a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm32 64A64 64 0 1 1 256 0a64 64 0 1 1 0 128zM138.9 107.6l12.2 6.1 96 48 5.8 2.9 2.1 6.1 54 154.2L388 368l39.9-53.2L448 288l19.7 27.1L576 464l0 16 0 32-32 0-254.3 0L256 512l10.7-32L288 416l64 0 16.6-22.2L24.3 206l-14-7.7 15.3-28.1 14 7.7 35.3 19.2L131 118.7l7.9-11.1zM227 187.4l-78-39-45.9 64.2L267.2 302 227 187.4zM447.6 341.9l-70 93.3L368 448l-16 0-40.9 0-10.7 32L544 480l0-5.6L447.6 341.9zM53 279.6L71.8 290l144 80 8.2 4.6 0 9.4 0 112 0 16-32 0 0-16 0-102.6-117-65L34.2 512 1.4 512l47-211.5L53 279.6z" />
-    </Icon>
-);
+const PersonDigging = createIcon("person-digging", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABjAAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCbAsGAAE2AiQDCAQgBYMtBzUbcQXIBv75r7Pu+8HprjSU7hlXWwO5kqG1g7zzitwKK+XvTz3PeSgcekZBGwvXBFkWWqtjn1eg56VQ6x8D1EkVqijWpdZO9x8GkU3SJyRpVz+sEHDrpfLwgNlh7gPr0kfpIxVZDAa3CwAAxQAAAI2DXdtz853eSfdD50D3aQsIQE0AsBHgwngVBEA9XEgi4MYG3LgRvFMoFH8DbRAAyEv+LxgA3EAYsBY4DAC4ATB43e74yOLw6Ko+T6Q74PNYveb7pS2+VUnbtCBxq7UyYTPF53MO5x6peS77UNbBsoA/0e/IL78cOWqqXGXLEUJWRGWVyqdcDVSiKsuv2goqyQk4gW5yFHC6BbslyLIqyCcpMDA9I92RXwghS5IUUDdZCqpyyuGYw5+T7w+9z9t5UctheVTUck6GigqqVy8oImty/Dm6Vb9CuuCnfAcdcphMHeowajMx2Nj2CTrSCA/dr/CUPzwlhZrtmRns0D7DjuY3Yk93Mie+2tm8t7m0m5jsE/zCS79FK+tn483rOjKZcMYTg00Mw5jciKwLJFPwgGYAIECQ/27ujH7R9X6H+QwAHy5//V6mK3TTNDKHgTAMAAJXXiiP3qYRAkcChEZTSRmdUYBhKU89KYKtCABhAQLA4MUC4KIyMeDGIhc8VKMcwYtFV1zIHY5IoA8NDBFMABc1mANuEjgDHupxK/CSIJd6ssrFfg6TWkis+Sm7uKDIrmNPa5XTODoc1rW35aypfiEbVxnKOMYymSEMZgSTBTGR9vEUxtBihTfni9gUU0ARNnWwj7t7KcDBRCYxYiycH1MX+76fxdT1+mxohkxZQs5gQCZKm1P5g0cMGzZi7DAAAA==");
 
 export default PersonDigging;

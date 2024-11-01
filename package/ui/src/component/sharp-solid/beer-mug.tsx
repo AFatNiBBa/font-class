@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `beer-mug` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/beer-mug?s=sharp-solid beer-mug}
  * @preview ![beer-mug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/beer-mug.svg)
  */
-const BeerMug: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 160c-32.5 0-60.5-19.4-73-47.2C123.8 131.5 103.4 144 80 144c-35.3 0-64-28.7-64-64s28.7-64 64-64c23.4 0 43.8 12.5 55 31.2C147.5 19.4 175.5 0 208 0s60.5 19.4 73 47.2C292.2 28.5 312.6 16 336 16c35.3 0 64 28.7 64 64s-28.7 64-64 64c-23.4 0-43.8-12.5-55-31.2c-12.5 27.8-40.5 47.2-73 47.2zM32 512l0-348.8C46.1 171.3 62.5 176 80 176c18.8 0 36.2-5.4 51-14.7c20.1 19 47.1 30.7 77 30.7s56.9-11.7 77-30.7c14.8 9.3 32.3 14.7 51 14.7c19.6 0 37.9-5.9 53.1-16l90.9 0 32 0 0 32 0 176 0 20.8-19 8.4L384 445.7l0 66.3L32 512zM384 375.6l64-28.4L448 224l-64 0 0 151.6zM160 240l0-16-32 0 0 16 0 160 0 16 32 0 0-16 0-160zm64 0l0-16-32 0 0 16 0 160 0 16 32 0 0-16 0-160zm64 0l0-16-32 0 0 16 0 160 0 16 32 0 0-16 0-160z" />
-    </Icon>
-);
+const BeerMug = createIcon("beer-mug", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABigAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCWAsGAAE2AiQDCAQgBYMtBy8bVwXILgacMjs1YmPyfMijaUwaL+dLeDZ2GM9/7Ec7931Z8yTeFE+eiRo3MZ1S3ELdEAkRD80qQyR/C8bV7BHxvAfipQSrfVMojO/K6Mb5P9fCorAwEovHA1yDzEZedde8O73nSfLfgVxjES4yK7O9+b/m83t+Dfj9xA8tmqK3gRRQ9/MJDDjKsoQadKYTsO1NIzqyta4kWzRJ/rHjbQ1tXlGhjvqADPKM7ip/cQ4oYw0AMgsArtzq7sLXL/hX8j9s5LMABHIFsIHQgLoiEM6vLVghsgFarfArw4D/gRsQID34gwq0GMVTvAW0oPStKLgun5vTKzu1qG+iUww/VODc8yf7YFz41ryqm96qRzx5z129vX7mKu0k3YxK2mE0JbzDU8/O3cRj8AlEZCfXI5PTV1s7KArCzUhsQyaImlOq+R3HzAVsPj191rkQsPda9CeWVYwj5dIXTyzLYMhd3Yc0pn07TZYx8OMLCtG6HjLj0RKvlROoN3F0/GdKNRc/7zFxDJ1Ls3pzl9XtQBA+HeXlcfr8/1FcAPjz8fcPfoTM8Ch1DDGqQGj2BstIMQtFAACVPY5iFqHc5eB7nfRWQIwjoPTGBTSW6RBojdtFoLMmjUBv3DVCaeWIRaMTlEl3QOOcfdBa9AI6532He4tpgpILKe5LmNwsoaZeHI/EuMDbjMHHGVM6i3ys+fZyhR9mYs66NTtmzVi0I8gtXbFdq5otuMkXsbiIGFbA1/nXyX1mbdm2aN0adlPE70M+e3Z9P5gCTHuKWi7oU7Kp27Nb4dVyHgA=");
 
 export default BeerMug;

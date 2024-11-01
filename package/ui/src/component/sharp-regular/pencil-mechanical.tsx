@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pencil-mechanical` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pencil-mechanical?s=sharp-regular pencil-mechanical}
  * @preview ![pencil-mechanical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pencil-mechanical.svg)
  */
-const PencilMechanical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M488 136l-16-16 40-40L432 0 392 40 376 24 342.1 57.9 317 83 265 31l-17-17L231 31 103 159l-17 17L120 209.9l17-17 111-111 35 35L64 336 32 448 0 480l32 32 32-32s0 0 0 0l112-32L454.1 169.9 488 136zM183 373.1L138.9 329 376 91.9 420.1 136 183 373.1zm-34.9 33l-59 16.9 16.9-59 42.2 42.2z" />
-    </Icon>
-);
+const PencilMechanical = createIcon("pencil-mechanical", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZgAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBWQsGAAE2AiQDCAQgBYMtBzgb4QTIHomxLaL9hBDlTeLh/9do9/2ZFdznbMJVklmDZI28RBEPiWRayZMQ7e8d4sn+bv5vxr2eR1H8PfHQxqalPZ9Aez9PINBoeN758dk9X6YnYGfu6rIoonlJWmRJHs89fk7I435cUEG6kj7gfHnS+KuNUyQVGYBoDIAxi+bN8ORTfIp4X94k3puGgBgDCoEMGdoLMFwm0F6uQC4XfIqy9P+BBQFEJb5tAjkqMAPLADlIsjwfUKeqXkWDfGFcrbupZYuWo2JhDI+WZHSOudHVCfNhjIhusQjSfAF1EY5X96LYFKNWjxwxcn3n4ZOnTe4XI2pq1caHjR/8HFSW5SGzZjmk1MQ5/cDRo2iCnTvV+PhRp11K7MCuTlq00KT3v/uE/5f7/v0rrmJ1XXEpEFx7plWNhv+vrpfAl3uv/YrKJ0mqRbUEgqx72d3yBBIBAEhxUE2CQDJBBo9a30UBQl0ESCrVFSDTTmMBcnV1E6BCRwMEqFTXPJnI6wjNrRggqW8PyAx0GOSauw4qDPfarNQ8MqOiTYL+0yVMlPCEpaJPz97F0GIb6YydkGk6rDiWOx8MlS44tNEuO+23wXpb7BfoXjOcA3aYqCETfFGhj556KwxVXKfP2wttsNc+W+yyM88Zpnivd3ZQb+8CLWHCvl5JEpGa7N6wc92W7T1sFgA=");
 
 export default PencilMechanical;

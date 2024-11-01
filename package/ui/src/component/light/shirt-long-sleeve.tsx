@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shirt-long-sleeve` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt-long-sleeve?s=light shirt-long-sleeve}
  * @preview ![shirt-long-sleeve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shirt-long-sleeve.svg)
  */
-const ShirtLongSleeve: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M110.3 73.4C124.3 47.9 151.2 32 180.4 32L192 32l4 0 28.3 0c4.1 49.3 45.3 88 95.7 88s91.6-38.7 95.7-88L444 32l4 0 11.6 0c29.2 0 56 15.9 70.1 41.4l66.4 120.7c7.8 14.2 11.9 30.1 11.9 46.3L608 368c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-127.6c0-5.4-1.4-10.7-4-15.4L481.2 118c-1.4-2.6-3.1-5.1-5-7.3c-4.4-5.1-11.4-6.9-17.7-4.5s-10.4 8.3-10.4 15L448 456c0 13.3-10.7 24-24 24l-208 0c-13.3 0-24-10.7-24-24l0-334.8c0-6.7-4.2-12.7-10.4-15s-13.3-.5-17.7 4.5c-1.9 2.2-3.6 4.6-5.1 7.3L100 225c-2.6 4.7-4 10-4 15.4L96 368c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-127.6c0-16.2 4.1-32.1 11.9-46.3L110.3 73.4zM180.4 0c-40.8 0-78.5 22.2-98.1 58L15.8 178.8C5.5 197.7 0 218.9 0 240.4L0 368c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-127.6 32-58.2L160 456c0 30.9 25.1 56 56 56l208 0c30.9 0 56-25.1 56-56l0-273.7 32 58.2L512 368c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-127.6c0-21.6-5.4-42.8-15.8-61.7L557.8 58C538.1 22.2 500.5 0 459.6 0L448 0l-4 0L407.6 0c-1.5 0-2.9 .1-4.2 .4c-1.1-.2-2.2-.4-3.4-.4L240 0c-1.2 0-2.3 .1-3.4 .4c-1.3-.2-2.8-.4-4.2-.4L196 0l-4 0L180.4 0zm76.1 32l127 0c-3.9 31.6-30.9 56-63.5 56s-59.6-24.4-63.5-56z" />
-    </Icon>
-);
+const ShirtLongSleeve = createIcon("shirt-long-sleeve", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABogAAAK1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDFAsGAAE2AiQDCAQgBYMtBzgbnAXIjsK22XOxcsIwRBZCJK94eN7uq3NfVat+D10DGBEXYsZ0soXzdehI8B8u9/419rQ9uA1UVLQoHOBrYpgHfIHHe+pUzuU8FMAHjFBEIjqmTV2cjY/J7li6BApaLK0BVJ7W8yVWIe3RvIcHObQLad5CHn9HP1WkR9JH4C73SeMHJtcgyTMA0RgAk1cune/Ok76J+Oj/t4iPVBEQUwClQIYM7QUYJxNoL1cilwu+of//F/+BJQFENf8CE8hRhdfBOwBykGR5PqdRL6lqkK+Q8Iq1t1RF8kTvV4a/0/e1ThXJW/2Xx464v3lBD7YMutxyBVEebN4kJnq4W0Evts2GlsVyCdxu5crr3qDnWw8h21cfafFA9wq91OqhdkFDgyHUjAYH6G3xtiti3+PFwpevc72IBJ4tEVce7vZ8txd7L6Vtl1cbv/pTZ7bHYnDixOfScvhLD3c3PXxNtG/8+aRyylvGSxp+U+Ib+SW1I8bs0azLznsX4oVosfgztFs0FVef7XfRoIERtYuU1m+tg6bP6nThyVfxC/zjvCT7+Iuw06AvHpxL/kRTNb/8d+gzjP/71zT1J6bU8p8VM78/Xxz1wYyJ9LTYybp9OvPPOFJhv3TJ3igABIL7Qt9OO43yv9ZWEvju/v+Vd/L/d9Kl9CpqJRBk/f7vZ12agxgOiJviBLpMfFkgeR4Z+I9a70EECAUCJNUKATLtNBYgV+grQJWOhgtQrbBUJvI6obn1FUjqHQaZEc6DXHNvgCrjvOtWax4ckOUAjntgTJ7RRKdPKyMDBpVjytFEwUMhYw2OLRerwROyoTeea4eDDjhmu212O9bAj5gfHLffjClsui8qDTbAIKUxys35XXlFwz3iqN3D4vZJxiqPN3s5Md2+NzYSn3SIBUkiUpOju3YfOdb/Z73sWULtxHYA");
 
 export default ShirtLongSleeve;

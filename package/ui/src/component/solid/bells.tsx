@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bells` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bells?s=solid bells}
  * @preview ![bells](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bells.svg)
  */
-const Bells: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M230.8 245.5l18.7 51.2c11.7 31.8 12.9 66.5 3.5 99.1l-1.1 3.9L21.4 315.8C10 311.7 2 301.5 .6 289.5s4.1-23.8 14.3-30.4l8.2-5.4C57.6 231 84 197.8 98.2 159l14.7-40C138 50.4 214 15.1 282.6 40.1c4.8 1.7 9.4 3.7 13.9 6c-64.1 42.2-93.3 124.2-65.7 199.5zm112-187.1c71.4-26 150.4 10.8 176.5 82.1L538 191.7c14 38.2 39.8 71 73.6 93.6l13.7 9.2c10 6.7 15.4 18.5 14 30.4s-9.5 22.1-20.8 26.2L321.1 459.4c-11.3 4.1-24 1.5-32.8-6.7s-12.3-20.7-9-32.2l4.6-15.8c11.2-39 9.7-80.7-4.3-118.9l-18.8-51.2c-26.1-71.3 10.5-150.2 81.9-176.2zM480.8 480c-21.2 0-40-10.2-51.7-25.9l116.1-42.3c.1 1.3 .1 2.6 .1 3.9c0 35.5-28.9 64.3-64.5 64.3zM94.3 376.2l117.6 43.4c-11.6 17.1-31.2 28.4-53.5 28.4c-35.6 0-64.5-28.8-64.5-64.3c0-2.5 .1-5.1 .4-7.5z" />
-    </Icon>
-);
+const Bells = createIcon("bells", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdwAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBewsGAAE2AiQDCAQgBYMtBywb9wTIhuB5u76vc7tnFlC/XnFmKX1nYvQjRzJiK4Jn6qY2zqMA3yi0MW1pIAskmpO7BBLr3psggT1YFrClmnXTDWnI57YkJ3pJw/gallbI45/sIhXSteltXFGRih/1cBFJiwxAtAfA7I1rl3v+s/gs4q3GI8RbliIgZoNCIAOktwDTZIKukCuQywWfRaNh/8CCAKKK3yiBHFXswFFADpI8z/s2tWrdqtIm39Cq0nJjrV57oOgcG+LWntd16xbvje0XD019avGVXd4ec39t41uLI96o1eKB5V3iyu7XDNgVN3e9qle3eKhejwfHPrR086PDNsZ5zhty+4A96zesv33crcPu7Hl+lHe2v/PnprcPvO2bN8qy9EHmm7WqZae/zzB3y7fmfvPb6j17DOw6+eRTu7vSdUFpc/0Nf3csq0OP6vLjO/UVWi0pDd61e//ltxhy+lAp9WrqcP0FB88cnu4bVlzfoUPLPAcCwUcvfXj3znbTfmveKoEvnvz1zyY3eOWzdH66E80lEGQjGiNsS+c5WGNEgJ3iLCWeJJBskAOqrV0lQGiJAElVSwEyvbQXINfScAEq+hovQFVLa2UibyF0tn2ApLVTQWaCs0Gus4dAxTSv2VWdI4syPkb4T17KAiXnzxW1UWOKKcUy0IXAYctwarGtDTkrF4YC6oCTTjjDfvscdobQp1nunem4BR4134sKNaOMUZiiOI6flzfY7zSnO+ykEzZlquK+NcRZfv1QmAkZ63xJIlLljamnAwAA");
 
 export default Bells;

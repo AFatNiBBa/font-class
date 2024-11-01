@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toolbox` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toolbox?s=solid toolbox}
  * @preview ![toolbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/toolbox.svg)
  */
-const Toolbox: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 88l0 40 160 0 0-40c0-4.4-3.6-8-8-8L184 80c-4.4 0-8 3.6-8 8zm-48 40l0-40c0-30.9 25.1-56 56-56l144 0c30.9 0 56 25.1 56 56l0 40 28.1 0c12.7 0 24.9 5.1 33.9 14.1l51.9 51.9c9 9 14.1 21.2 14.1 33.9l0 92.1-128 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32-128 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32L0 320l0-92.1c0-12.7 5.1-24.9 14.1-33.9l51.9-51.9c9-9 21.2-14.1 33.9-14.1l28.1 0zM0 416l0-64 128 0c0 17.7 14.3 32 32 32s32-14.3 32-32l128 0c0 17.7 14.3 32 32 32s32-14.3 32-32l128 0 0 64c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64z" />
-    </Icon>
-);
+const Toolbox = createIcon("toolbox", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABfwAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCMAsGAAE2AiQDCAQgBYMtBy4bLgXIjsR0G4/8IjfZEg/P6/33a5/kKRkjY7PzF9V9dy5at3I1t2rfp7935//80wd8Rh9tD128fO72+QZLrMujLAooCyzTLHDsbcOTIwwhGhISJBqN52t3gzw+yK5XR3okfY272pvGTzq7nqQpAxCtADBrw5plPv0+vo/4qob4yhIExCxQCWTI0E2AqTKBbnIVcrng+6jVyn9gRQBRj3/iBHLU4QKuAnKQZHneYlb/sq55vr6sK7YIZUQ82KGI+9tNDfFYx4cGlPFC+wc6izJua78qHiCKiLjS4cHi1nb3U7GOa+KhstwYAeZy8LS8reND8iDx8MCX+zaLFwe/2qX3q61e/aXX1/u/9taBgQMHPm2g+p1321n/n7qz4bdrJ+928tqGgbpp980Y37Tb6rJKi5tvbtFnVyBu9TjdLvWcyfJlqkh4pqJ166cve3o8owACwbT+f5/d0XLqP41lAj++/3/4Lap9n6RX0SiBIBtaG2prAokAAKQ4r3eCQHJOhl+1mQcFCAUCJPUKATJdtRIgVxgiQJ0exglQr7BGJvImoZ1tEyTNnAKZ8S6AXDvvgTpTfebWaxdZAhLpQ3z/YudraN65atTwkdXkalsSMqewujmlcqsDz+NoEFy13wnHnbXPXoecVchpy4JzjplvwfN8UGWU4UaqTFYdN6+X19vntDMOOeE4bTNFdd8c6Lw9fxAYCaOOlkkSkRoeEQAAAA==");
 
 export default Toolbox;

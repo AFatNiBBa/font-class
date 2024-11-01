@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-minus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-minus?s=sharp-thin comment-minus}
  * @preview ![comment-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment-minus.svg)
  */
-const CommentMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M71.9 376.4l3.6-9.6-7.3-7.3C35.2 326.3 16 284.7 16 240C16 136.9 120.2 48 256 48s240 88.9 240 192s-104.2 192-240 192c-30 0-58.6-4.4-85-12.4l-4.6-1.4-4.6 1.4L42.3 455.4l29.6-79zM16 480l19.3-5.8 131.1-39.3c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L23.1 461.2 16 480zM152 248l208 0 0-16-208 0 0 16z" />
-    </Icon>
-);
+const CommentMinus = createIcon("comment-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbQAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBZgsGAAE2AiQDCAQgBYMtBzQb6gTIhofv1z4793UPhbEDROzYRU7F8S47RIukVv/5v9zzm3Z0gN+O7FD21ObyMebzBAL8VvnSMJAssEwTsHZn22GQ2rekpSzJ8c1xOlwhjzdsVEZ6kD7GHfnQ+EtzF0myDEDUA8C4JQtmeff7+D7io9Jz4iMzEBDjQCGQIUMrAUbKBFrJFcjlgu+jVAr/gQUBRDl+bgI5yjALWwE5SLI8b922qmZZ7XxxhtVY0rRR0ybx5eLvlkTym0Xk1wtffH1wk2gUC2PJwi4duyyJ5zW/m/HRmHc6PB799vQPF3899f2RbxbfzFsYzZbUrFEzokZoX12v+p92H2/+2JQpQ7H+sA4mxJzxg4HcEoJwSqEzvU6M08+R9lrPHrKlE8PPd/akzxTXH7VpU1WVco+uT6EgMWNzu2XWX/ntc0zW8zlkgHhs9Yy7NdbUHfl/Zc0Efnz9v7/Ir6j0fZKqUSmBIOtZ6mllAokAAKQ4rH2CQDJJBt+1lrsChBoIkJSrIUCmpXoC5GroIUCZNgYJUK6GBTKRVwmNrOogqWUfyAx2CuQaeQrKjPReuVyjyHxL8gzpZZc+WSOTjhX9evcthhfTvia7i1D2RxTLftfDNNcNLtpsj90O2mSjbQ4qer9ZtUN2mWxRk3xRoZ/e+ioMV2yPHk8vtsl+B2yzx+56yAjF+VhXh+3V3SBKmLW/jiQRqfZltnv9SG8cAAA=");
 
 export default CommentMinus;

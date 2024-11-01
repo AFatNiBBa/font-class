@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `waveform-lines` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waveform-lines?s=sharp-thin waveform-lines}
  * @preview ![waveform-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/waveform-lines.svg)
  */
-const WaveformLines: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M328 0l0 8 0 496 0 8-16 0 0-8L312 8l0-8 16 0zM520 64l0 8 0 368 0 8-16 0 0-8 0-368 0-8 16 0zM232 96l0 8 0 304 0 8-16 0 0-8 0-304 0-8 16 0zm192 32l0 8 0 240 0 8-16 0 0-8 0-240 0-8 16 0zM136 192l0 8 0 112 0 8-16 0 0-8 0-112 0-8 16 0zM40 224l0 8 0 48 0 8-16 0 0-8 0-48 0-8 16 0zm576 0l0 8 0 48 0 8-16 0 0-8 0-48 0-8 16 0z" />
-    </Icon>
-);
+const WaveformLines = createIcon("waveform-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABdwAAAHhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCPAsGAAE2AiQDCAQgBYMtBzUbQQXIngV20wdk02YrJrZ0shDGp6dnPP//97F97nuNg83UTCPNwCMGHIVplk1Gf3kirTSBoIKxNvsqDfz4hIgk0WRJTBqNUCmFKpa+YaV8RzxpIpAxpyogz9Sp5xkaCuASfg3a2LQ0vkFCc7ZcgYj1yts2aK1YqyjW2tktDB/9oD7pKZ9k2J5hc4Ceb+KmvhyDt/yh+SPdAZTWAMg8ALh+GOgnmVJKuv8/hXzTC4FcAzYJDQ2rBM44BatcNqHrwo/+/8N/oEGAjMIvKtAxgRd4BdBBGeuuODtBd9g1XOiBeaRCm5Tk1NrgUNc5YSJQJQEcBEb3TRzFPOU9N50DvleY5yP60EbIBgd9IxdIOYe1Q+4GeAP82HrVXQ8IwtZdzuF4tC9BB/B79fIgl6f9Jx0LDmBcgdAO/osZqUmTZiwiYK+yRwLfRCjPvPCu094RiEkElFGTApoVMQLdpH0CI9bVEBg16YZTup9YNtqIMu2JaE7tE92yY2LEmWtv1HKcbsg7Ef8JTOnQUPuSVZSWW6NNY1XwLJbmTbas5+/FWgF2Mmfdmh2zZizaUfiW/nDXqg4La/dDpkKpcqaRbWeP24fN2rJt0bq1tEkTO2/n27O7C2A5MOOhSClSkZfBXlKt5OoCAA==");
 
 export default WaveformLines;

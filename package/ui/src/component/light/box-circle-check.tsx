@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-circle-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-circle-check?s=light box-circle-check}
  * @preview ![box-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/box-circle-check.svg)
  */
-const BoxCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M240 64l102.4 0c12.6 0 24.1 7.4 29.2 19l34.2 77L240 160l0-96zm0 128l112 0 64 0 16 0 16 0 0-2.4c0-9-1.9-17.8-5.5-26L400.9 70c-10.3-23.1-33.2-38-58.5-38L105.6 32C80.3 32 57.4 46.9 47.1 70L5.5 163.6c-3.6 8.2-5.5 17-5.5 26L0 416c0 35.3 28.7 64 64 64l232.2 0c-8.1-9.8-15.2-20.6-21-32L64 448c-17.7 0-32-14.3-32-32l0-224 176 0 32 0zm-32-32L42.1 160 76.3 83c5.1-11.6 16.6-19 29.2-19L208 64l0 96zm224 96a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 256a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm67.3-187.3c-6.2-6.2-16.4-6.2-22.6 0L416 385.4l-28.7-28.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l40 40c6.2 6.2 16.4 6.2 22.6 0l72-72c6.2-6.2 6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const BoxCircleCheck = createIcon("box-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABkgAAAKjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCWwsGAAE2AiQDCAQgBYMtBzcbYgXIrgp4Mmq4IYgSQBXKON1sqmUqsz74OhyL57/f73Xt824QSiSJVdlWogSynQqFqIiNjNARntyf6uj///un9yZ+L6V/UlsTsUrcvHXq6dYJAifcihI60AE5AD3gewGkFpjl7gAfmhe0JQ+BJRVFcXr8mEaSZ1Y/eJgxm/5+nv/z34CPP8FHi6ZKkPKPuYrzCex8mt403nkU2ERxu7MtTRLtcaClLMnv2fEpO2h5yz5c6itrEfiQvzT/qemktA4AMg0AnLs6B26XtZw890MWhQKBnAfYCdGhw1YITmILtuLYCTRNWE7/6T9QIEAGga9doGEY7/EV0EAZbBxqOLZliwIdkOIkjHFJ6hihS2rxIYjQngmxTTkh2w4kh2ZxGQT5arymTzOsTtKvPIxBioSSxEwY0sDlNxGzpDYGDzeO6i2S1wbL6uP4SGPCcIXWgCvmwnIHH1lsu5yT106nZpvwcP+W8xm9+slFxST4JINK7vhRJTEjypJ12fXfXd/d/4PIckKYZdcfmv0yeWH3ovDoR9ucUbrUyXdkZmb2w/XDF9Ive6WX7e5cXl4Wh2k7S2QtXfOCX73e+NlrtUWBNoFhUYd3GRiIrVllCAXInV94a0+eFHR8vNEN7AiXAwjC3X/yeg23tcACWF24NXc+/X221oFhBUK3r7+klRcAqQgklQYSZYFBee6Kb3XcJwExioAyaFRAZwtZCJpReyEYsJ09BINGXcSWJoSYl95BGXcfdE5oAs28AzDgpLt40Hw6q+RsinsUJjcJ1Xk+W1gxLsy0UHlDY+K0K7OspQbfZQxbUaBShTr58hSrE2SN8KxeuQAN9vdDDGsWrDBcMNv14/oE+WrUKlapIs3iijkfGWnQBxuDycK0RywtRUr25r2t33dUNXAAAAA=");
 
 export default BoxCircleCheck;

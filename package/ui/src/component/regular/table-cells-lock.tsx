@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-cells-lock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells-lock?s=regular table-cells-lock}
  * @preview ![table-cells-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/table-cells-lock.svg)
  */
-const TableCellsLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M360 80l0 88 104 0 0-72c0-8.8-7.2-16-16-16l-88 0zm-48 0L200 80l0 88 112 0 0-88zM152 80L64 80c-8.8 0-16 7.2-16 16l0 72 104 0 0-88zM48 216l0 80 104 0 0-80L48 216zm0 128l0 72c0 8.8 7.2 16 16 16l88 0 0-88L48 344zm152 88l112 0 0-88-112 0 0 88zm160 0l24 0 0 48L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 65.1c-34.7 5-64.2 25.8-81 54.9l-71 0 0 80 56 0 0 .6c-16.9 9.8-29 27.1-31.5 47.4L360 344l0 88zM200 296l112 0 0-80-112 0 0 80zm328-56c-17.7 0-32 14.3-32 32l0 48 64 0 0-48c0-17.7-14.3-32-32-32zm-80 32c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l0-48z" />
-    </Icon>
-);
+const TableCellsLock = createIcon("table-cells-lock", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABmQAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCDFwsGAAE2AiQDCAQgBYMtBzcbngXIjsK22TNyc4iMGCMDTy7x8P9r5n0/k4XJAkFJISmU7AAlkE4dAahWuLoas6cWFcE9+807IKnEeyRzbyqTZlLqz6trS7RpCUxcTn+cfxPwh5V4KGNuXWOcJxDg2DgmSAFlYZYo9jZFj2JEwydouBDU1nacdlw7Qxa/44wi6Wr6x+nzQ+ODTs8kxQKAaAAAlm1olOB0jomId//fEO+sBgJiGcAARAEF9ECwEFugB8cAkMkEE/j/f/oPJBBAVKCzE8hQg+d4DWQ2SZ5lpeqSPrm6cYRXrM3WH+H5LqgURLrUlntKubhxu+5CS1as1WJzwsVWEK8zuA5LKPUniZp4NOVZVyGuT30+XhsPJz/thG+ncUOUQjzoyMP66dhtx+QRF7w7Ow63Xcqbtw0Rz+e8WQB6Zx9vvUiUWy7k3DimcPXd7ZdLOPSs4dmnwf/pv127u8Q8hyzhxEbrntiFve6d7oxz3Qpz3V1vVSLOoWpeznIcKdA1v9yZEqsxzQpRTGMjtwFcHVPmQ5bpvsyo8kKvlnRC9/abH6xmV5d7hEc4UvdEbYXstLLSj+vBjgbxpI1Cdt/aGX6FFUAgmF7MDm4SLfxaVUrg/eeXb+rD/0+pnN5RJYGgMO3/NMNUBmQMwJfiEI3xRYHkvhy9a41LAoQcAZIKuQAF3cQQZHJTISjq44KgQm4NtsiqhRYjRpMae9GC2W7QTIsPtGihL2+FlijELD/i+L+MSdIjnJpGNrOV/KSWXYIw5JbxAE1rtNe5TQd7YWpn69LE2MLlQD8qBa5spC0k5YeIjZkV8aPl2nJ728TRhYWdbZ0kgL53aF3bvXWgZyGW0+UkiUgN4SwzbXWpaUsBAAAA");
 
 export default TableCellsLock;

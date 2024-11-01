@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-left-from-bracket` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-from-bracket?s=thin arrow-left-from-bracket}
  * @preview ![arrow-left-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-left-from-bracket.svg)
  */
-const ArrowLeftFromBracket: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M2.3 261.7c-3.1-3.1-3.1-8.2 0-11.3l136-136c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L27.3 248 344 248c4.4 0 8 3.6 8 8s-3.6 8-8 8L27.3 264 149.7 386.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-136-136zM328 48c-4.4 0-8-3.6-8-8s3.6-8 8-8l96 0c48.6 0 88 39.4 88 88l0 272c0 48.6-39.4 88-88 88l-96 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l96 0c39.8 0 72-32.2 72-72l0-272c0-39.8-32.2-72-72-72l-96 0z" />
-    </Icon>
-);
+const ArrowLeftFromBracket = createIcon("arrow-left-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABagAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBRQsGAAE2AiQDCAQgBYMtBz4b0wTIHgd2DPkzbEOJXOLh+zXxz327SQFoC0DkWBF7dsSOjcjUdiq//Wkws2pyGfKuP//XfH5pRwXyjQ6lwgrvQMrvHUVu/bzBBhrpCTSgzYazieKsnd3CIPqFQt/LJxk2n2FxgTw+2KJEupd+40r60PirlXMkWQYgGgJg4vLFc32tRCXid/UV8dtsBMQkUAhkyNBWgDEygbZyBXK5oBLVqvsPLAggyuilE8iRYxrmA3KQpDxv3aVOqV6+rE6p9vLbLZbHnWa3mi6JenGr2c2mdWNp3Gp6s/myzbeb32lRJ171fNIuxcMej4fUDvHgo97P2mRxv9fTbrU7PW349J/f/hbvhg69eNHixWXdqZPG2lAubxircZyT3NCaWopvMOHSpbyhPLsTEJjK4MH1tfp4RgUgEDy/PO/1Dcb8V7NOAn/et3+w+n+1kqSnqCmBIOtT7WNNouAsCyhIcUwnfFEgGSfBu9Z1W4BQGwGSstoCZNpoKECutt4ClLQ3VICy2hbLRF5LaGptB0ldB0FmmLMg19QLUDLGN7+saWSmJBmC9JNLn8ahqauKgf0GFKOKaarK1iGE8dHFstnjmG/1xFnb7LfPEVttsdMRRh4yNzpqr2kaMdUPFQbqZ4DCKMV2sTy+zFaHHLbTfvviJKMV570ejum9e8JJiHWQ7UkiUouNhw7tP/7IjL73LtF306GNm3dvPQIAAAA=");
 
 export default ArrowLeftFromBracket;

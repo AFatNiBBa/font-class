@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `meter-fire` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-fire?s=sharp-thin meter-fire}
  * @preview ![meter-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/meter-fire.svg)
  */
-const MeterFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 16c82.6 0 155.4 41.7 198.6 105.2L493.4 160C455.4 66.2 363.4 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c33.5 0 65.5-6.4 94.8-18.1c-4.3-3.9-8.5-8.1-12.4-12.4C312.7 490.9 284.9 496 256 496C123.5 496 16 388.5 16 256S123.5 16 256 16zM384 144l0-16-16 0-32 0-16 0 0 16 0 64 0 16 14.1 0c2.9-4 5.9-7.9 8.9-11.7c1.2-1.4 2.3-2.9 3.5-4.3L336 208l0-64 32 0 0 40.1c5.3-5.4 10.7-10.5 16-15.3l0-24.8zm-240 0l32 0 0 64-32 0 0-64zm-16-16l0 16 0 64 0 16 16 0 32 0 16 0 0-16 0-64 0-16-16 0-32 0-16 0zm112 16l32 0 0 64-32 0 0-64zm0-16l-16 0 0 16 0 64 0 16 16 0 32 0 16 0 0-16 0-64 0-16-16 0-32 0zm260.7 84.8L448 160.2c-42.7 26.7-128 102.4-128 192c0 88.4 71.6 160 160 160s160-71.6 160-160c0-26.7-19.2-96-96-160l-20.7 20.7L512 224.2l-11.3-11.3zM576 422.6c0-70.4-96-134.4-96-134.4s-96 64-96 134.4c0 18.2 5.8 35.1 15.7 49.2C361.3 445.9 336 402 336 352.2c0-39.7 19-77.6 44.5-109.6c21.3-26.7 46.2-48.2 65.4-61.8l54.7 54.7L512 246.8l11.3-11.3L544.8 214C609.1 272.5 624 332 624 352.2c0 49.8-25.3 93.7-63.7 119.6c9.9-14.1 15.7-31 15.7-49.2zm-96 73.6c-45.2 0-80-34-80-73.6c0-28.5 20-58.2 43.5-82.5c11.4-11.8 22.8-21.5 31.4-28.3c1.8-1.5 3.5-2.8 5.1-3.9c1.5 1.2 3.2 2.5 5.1 3.9c8.6 6.8 20 16.5 31.4 28.3C540 364.4 560 394 560 422.6c0 39.6-34.8 73.6-80 73.6z" />
-    </Icon>
-);
+const MeterFire = createIcon("meter-fire", false, "data:font/woff2;base64,d09GMgABAAAAAANYAAoAAAAABzQAAAMOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHSEJwsGAAE2AiQDCAQgBYMtBzEbKAbIhod/vrO6r1LpM5000hi4RnTSC+oL+rO+nAWVFZmJa/J/Y/tSfD6UCuqwBIoI3U1ggI8bRotnCduM5gZtRD8Yw1i3u4A0/rG7PMmFSQ2nRzca3+jtJBK5HIAoAWDRVlvWeejD+DDi2frtxLPWICAWgUwghxz6CTBXTqCfVIZUKvgw6nX1H5gRQDRILi8BKYr4jsgBUpBoTNMxAxvbGjv6TuhbzDenXcV8YbvHV0U8PW9evL7++a5X19YWPlR+bdHD656rnDznvB63FV5f/czkW7remHLrmme3qoQoFIQQxTi/p3QVInpcOKNQpCYxwXtQYksxEnth2aoC94tw98rmTZsvH3n12Ov6vTbv/sobCx7c6uLxN2weGZ3Ro3LZ6IhqbuxxDpRxZ7/jeo+mq8bxfS8e8+CYTdE9esaYuH/cpZ3HgfDFUb7DzNTnYp/72p7n9zy3+7mjrul9Ye8L1PZTB1dL1e8G1fasqd/44RjmtHbpt+LrbzZZ4fgze/eqeCt69T7z+LFTbt6jssPYxXba6bffLLZYyOLIYsceW0p2nFiyUEmLacugaKHMSEcd2fvHLMti08K6iQJr7Oyl+ipQ6i/Rzk/LSxOuA559p2uPplhSqy0piKjVnjWdu+aQpaqqq1/qOJADdmWXUmmXXQ84sKPvb48OaBk+4Jl7Z/T6dE9VVRXf5n9vHd4y4NHf+u60MitTbs7fdtvgeGtQW9ugt9rab7st31wuZ0AgmPXuhBE7tc79rVsxAR/f88M33I3rDyXHJ1V0k4AgN7Y+1vbJcdTrYIDAo0kcaTD9JYHEZxrRfW1yngChgACJBgUBcvoqCZAqGCNA3gDTBGhQsEVOpI1Cpx16caLJIeKc6Y4WpzrdKs6b68log87I3fuqO1f165l++RhaNiqbNH5iNjvbzGnVt7PC752TWZtGHqlrRtGJ9nSQAx1uD7vbx+Ej9lDrEkc4wHIkuey7mUnGmygzW3a46NykizsPdZhWrmuODzNHdr1vpCNx81HUmkikTpaUSIik8AEwjHuQAA==");
 
 export default MeterFire;

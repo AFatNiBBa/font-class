@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelope-open-text` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-open-text?s=sharp-regular envelope-open-text}
  * @preview ![envelope-open-text](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/envelope-open-text.svg)
  */
-const EnvelopeOpenText: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 48l0 167.6L64 183 64 48 64 0l48 0L400 0l48 0 0 48 0 135-48 32.6L400 48 112 48zM256 410l-27-18.3L48 268.9 48 464l416 0 0-195.1L283 391.7 256 410zM464 210.9l48-32.6 0 58L512 464l0 48-48 0L48 512 0 512l0-48L0 236.3l0-58 48 32.6L256 352 464 210.9zM184 96l144 0 24 0 0 48-24 0-144 0-24 0 0-48 24 0zm0 80l144 0 24 0 0 48-24 0-144 0-24 0 0-48 24 0z" />
-    </Icon>
-);
+const EnvelopeOpenText = createIcon("envelope-open-text", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABawAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBcAsGAAE2AiQDCAQgBYMtBzkb+QTIHgPuCnxO84RiCK0jVHiFvnj+/+c+97l5GUj+AKkpK1SoWChCR8uzUeRI2BGytXUs5F+11dWxYk33AooduEsUAClARQq5CI5shGzcTy14IFljYimZTyGnTtWM81AA3yMetLFwUTav8w/NeV6BAtZ6sS6bXq8VrKYVsL5N1KNFGb4ZFhQRHZ/H2wVaviZS6nMB7+uH5h+dOyh9ByDrAODK3VIR73OaJ9+nN8h3eRDIFcAhhA4d9iFwnliwj8Qh0DRhnmny/4EMAbKAX1agYRH3wRMADZS+tZ01zSgb+5V2Z+yHh8jFAGVcETmf62b3j5vMVZKVJLdy9G4imgCJDLMAfCGV3H0kG8YRGRYj2X1kT/281huw/17gg3YeOTmvOfFoR8Dvx0uAX6/w5cmX4i1//+7QCFudIH+glbCd/zcU0xwtFoITWte4Js8DBOH1t6s3Vef/L40F/n7ZbuPPCNN7qT2wpEDoTk5WtQJFAACV1wwFBOU6KX7XmQ8IxICAsmAQ0NmlRqAZnECgd4APgQWDm8TSlsW2egdl5hnonHMLmm0voHfen79gO2ID48yD+94lpzSe3MYuu5PDvEw03maYvIzwsWI8Cw0TrmJg354TfT1jJ4o8UoxOzaV2RNIXMRc7JxbG1/nz/qq+I8fG9u3RJhH83jY62/ebUBdh2lPWS5HafLp31p/tH/RtSd2zWSAAAAA=");
 
 export default EnvelopeOpenText;

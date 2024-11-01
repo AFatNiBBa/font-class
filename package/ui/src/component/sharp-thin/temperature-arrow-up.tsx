@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-arrow-up` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-arrow-up?s=sharp-thin temperature-arrow-up}
  * @preview ![temperature-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/temperature-arrow-up.svg)
  */
-const TemperatureArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M104.9 261.6l7.1-4.8 0-8.5L112 16l128 0 0 232.2 0 8.5 7.1 4.8c34.3 23 56.9 62.1 56.9 106.5c0 70.7-57.3 128-128 128s-128-57.3-128-128c0-44.4 22.6-83.5 56.9-106.5zM256 0L240 0 112 0 96 0l0 16 0 232.2C57.4 274.1 32 318.1 32 368c0 79.5 64.5 144 144 144s144-64.5 144-144c0-49.9-25.4-93.9-64-119.8L256 16l0-16zM128 368a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm112 0c0-32.6-24.4-59.6-56-63.5L184 72l0-8-16 0 0 8 0 232.5c-31.6 3.9-56 30.9-56 63.5c0 35.3 28.7 64 64 64s64-28.7 64-64zM450.3 34.3l-80 80 11.3 11.3L448 59.3 448 472l0 8 16 0 0-8 0-412.7 66.3 66.3 11.3-11.3-80-80L456 28.7l-5.7 5.7z" />
-    </Icon>
-);
+const TemperatureArrowUp = createIcon("temperature-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABjwAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCUAsGAAE2AiQDCAQgBYMtBzsbWwXIngU5GW8qoYRaWOxYtlZ+FC87lIggWiurZ3cP9h6CqPMqpJ59CBxrBpc4ABaGUP8Jl7ACtOGFMbddTHcRg6iulYxXXommmdI4ONfddG1J0YIhNB3JQMbrr+K3KqPHijbDs3w3/c0/7zwK8BmFNqYtjbKFm+Y8TyAMrMsnWEBZmAWsX+1bO7vlDaLbJD7lkwzbDasV8nhhGJt0mmgCB+tD4zO9Y5IsAxCDAAD0LWmqgbe38TZi4P+cGFAFBEQfwCSIDBnGQdCJKTAOyyQglwvexv+//QdOAgFEBX+/BHJUcQDHATlIijyfJIvNspDdmi9uFOWSkSotYkQjhBiO92IOlzoXwan7iZrIpRcJGqUQt+wxXO5ahueep1riTl3EWHrWGhkDMdP75lAiLyTEMyZiRBlCXBMyIXcmxsibyVFzW7Ma2yKFaEREFotiJLbGCFSpeW56mdykafx+HA/zfbDvA77Vzj//UoukX19flGTbX58PVQzi7jj499k2wTStn22f71dxWySfH8j2zgnW7NyaFeDEuto78GPDRzyD8Hy0+ONdrRzM37VNEfzNmkPTI/T1w/WeOz9d92jOHGjWDCAQTLud/lzW3nmtkQm8f/Dndp7+P0sTiDxQk0CQdfw7dKdexB6MAgLVFFvY8SaIZJ8C7trihAChRICkohQgM5YMglxpCgSFCVIQVJQWYIq8LgzTM0DSYj3IzLQDcsM8gEKnX7ViWDAFSciJ+A7GlnqoZIxi4SgV0NbXSY1huV9Ix7x3NeV8WIRRc2YtGzFswrJDFtUYK2aURnCJD5GYsChSgK6j1/lWIxYtmTBntgwpRO9lr9W42geJgahTTSaJSMO06g0NLC7OrYVW5gE=");
 
 export default TemperatureArrowUp;

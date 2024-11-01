@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-calendar` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-calendar?s=light circle-calendar}
  * @preview ![circle-calendar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-calendar.svg)
  */
-const CircleCalendar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM208 96c8.8 0 16 7.2 16 16l0 16 64 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16 16 0c26.5 0 48 21.5 48 48l0 16 0 32 0 112c0 26.5-21.5 48-48 48l-160 0c-26.5 0-48-21.5-48-48l0-112 0-32 0-16c0-26.5 21.5-48 48-48l16 0 0-16c0-8.8 7.2-16 16-16zm-48 80l0 16 192 0 0-16c0-8.8-7.2-16-16-16l-32 0-96 0-32 0c-8.8 0-16 7.2-16 16zm192 48l-192 0 0 112c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16l0-112z" />
-    </Icon>
-);
+const CircleCalendar = createIcon("circle-calendar", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkgAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCWgsGAAE2AiQDCAQgBYMtBzYbYAXIjsK25RNDjJpDXFRwiG889L/2emf2bQDYEylgDWh0jIlMVAqupzK2wlaWddmiqv7H7zfvwP9HpvLmrk0sQZ17MrE4QllcZv4vx3fbjg7wGx3aHs1BbZC9nicQcPZfuMECyg4s0wSstw0dNsLwhYVEhUTjOW7doMQBWmOTzxmPwH2JaPyiqZdUKgCIHgBg7zopBk5lKAt8bGwRb0QBAbEPMANRocIEBJuYAhNYZoCiCL6jXE7/gQQEEE0gUUxQ0Iw7PAcUkOrC0h53EQlptpCV2l5TRS8dEdcj7ylJ+K39Kpl2WIu4o6VRD04bRoKfA4yL4xdaGvMUcJby6X8a/UhJYp8Dz1PT+lUB2xFxUF2vm1ft1wQU4plKnzGFC2oDWgjVUfVBM1c5GRDCBtQoqk8lhWqnIB5U6ekraPiosPJn8Fj6CL8nHefgk2+Ml1eM7/u5wAwQXCakldFXZ0FBZxujfDjiQTz7fvK7SIE/BaLvelmB/ecnpgKiHvPtZ/spROoxBUPBlVyMUxDjtHXOdMpEJ3anoNUz/cIb6gEEgvr1oGueePM/j2YA/Nz/919/RhqnCfkItEgQVHMNa9kJkgAAZLQyTEAg3arhp3Z4IkBoQ4DUpE2AyjgFCIo2sxDUprhA0KTNOaYofAgDcjpIHW5AZUMbKAZsgNqmm1qTgWBGpRhT4pswLdRiIaeIg6098STLAZUCjc+HXsTtmbemBQuAQqk6tZqVKFah2bCNYpotaoTumBBfRDiwZY/wRI7Hj1qqqTVqUjG3nR/jhdzPmWvdr7eAkEE4V3SlJFL8ece2iVsAAA==");
 
 export default CircleCalendar;

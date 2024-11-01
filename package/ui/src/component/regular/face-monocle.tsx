@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-monocle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-monocle?s=regular face-monocle}
  * @preview ![face-monocle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-monocle.svg)
  */
-const FaceMonocle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 336.1L448 224c0-61.9-50.1-112-112-112s-112 50.1-112 112s50.1 112 112 112c31.3 0 59.7-12.9 80-33.6l0 86.5C377.8 434.8 320.3 464 256 464C141.1 464 48 370.9 48 256S141.1 48 256 48c16.7 0 32.9 2 48.4 5.7c-6.9 2.8-13.3 6.6-19.2 11.2L262 83.5c-6.9 5.5-8 15.6-2.5 22.5s15.6 8 22.5 2.5l23.2-18.6c8-6.4 18-9.9 28.2-9.9c8.9 0 17.6 2.6 25.1 7.6l8.6 5.7c5.7 3.8 12.9 3.5 18.2-.3c48 38.1 78.7 96.9 78.7 163c0 28.4-5.7 55.5-16 80.1zm3.9 84.7C489.4 376.3 512 318.8 512 256C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512c65.8 0 125.9-24.8 171.2-65.7c10.2 22.8 27.1 42.5 48.9 56.1l11.4 7.1c7.5 4.7 17.4 2.4 22-5.1s2.4-17.4-5.1-22l-11.4-7.1c-20.2-12.6-34.7-32.2-41.3-54.5zM256 224a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zm-79.6-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm144 64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM144 352c0 8.8 7.2 16 16 16c14.3 0 37.9 2.9 60.6 11.7c22.8 8.8 42.7 22.7 53.1 43.4c4 7.9 13.6 11.1 21.5 7.2s11.1-13.6 7.2-21.5c-15.3-30.5-43.3-48.6-70.1-59C205.3 339.5 177.7 336 160 336c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const FaceMonocle = createIcon("face-monocle", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABsAAAALTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDIQsGAAE2AiQDCAQgBYMtBzMbpAXIjsM4JjzSRWPkEzz/b1fd96u6B1ANiTUjgL0yT76pQinS4LmVbsjB8Sj0N8iBb+c3Vf3P5fTG89uA3+hQxraJt+lq8xjjeQIB3ovKJnDaywPLNAHrbVoFFvh4BBKbuJIhO56BO649gC63pMQEaodagPX8ofIBH5aAwqQBACDOAABAcWdrPfffyBuRV/+vgLyiFhAAKQbAQAAN0AB/BIA8NATwR8cAdHQE3sj///AfaIAAgJihxxQAOmANnAIeglaterOu54Q6uFFmZ3LQO8a72Y4QZG/MyYzLUcf990SfSL+WiJzOum77tVzh791REr7FPUq2eFi8YmWbXeLhIRavG/FnWODf/jr6ZG+28FELb/1XdHrVTpW9v2Cbp6ecDOzYl3sr+0bA7qzrOTdPpxZ6imy1jd23uFs8LHYJWhIMS6QJlz1g+DU9ln4l2l23M+JoxNWwkh9y0vnkp+Bl9ALuTZlKTU7/vnz9+uWfE+d+7eTh4sXJnXLypHSy8+TJp/uM2rxsOCdW77w2nBdOjtdmYplVV12dEvtTa8suk0EqvX02LqykkoUbfbyplA+PlPLC7/o1nqzuu36U9xsfPbYfM2vWGHs82hjkuAJWONIVKxwAYb5jUaiF0rN6UT3o+Gaqig2c82TubwISKs7ef+MIAAIIhFrWHhp0yvtlbacAeHfzy2/4N/j/tiLqJGCNAkBAi/sfR58C/v9ROgIAAAAomU2IAhBAcYi3ENiz1VsRbOEAhRlb0PDDGXRsiQUTgaQ/YMaWVjREt0Fwp58ECnumgUYGc0HHnUtgIo9nRTPuogWuEnbKf2NmhcTLDxnJCUlGjrHtmWosSriba9y2o2a3meh8ltFMYTIzGcVIxjFTcNOpr8xiEhUWUc4XMUgmgSQMcjDcw7XZIYrTmcG4te7fJxfj+SCK2fby6OwpiDeFBoUCUfafRUP8pCmTp4yYOAoAAAA=");
 
 export default FaceMonocle;

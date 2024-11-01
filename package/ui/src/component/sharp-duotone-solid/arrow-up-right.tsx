@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-right` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-right?s=sharp-duotone-solid arrow-up-right}
  * @preview ![arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-up-right.svg)
  */
-const ArrowUpRight: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M18.7 384L64 429.3l22.6-22.6L288 205.3l0-45.3-45.3 0L41.4 361.4 18.7 384z" />
-        <path d="M352 96l-32 0L96 96 64 96l0 64 32 0 192 0 0 192 0 32 64 0 0-32 0-224 0-32z" />
-    </Icon>
-);
+const ArrowUpRight = createIcon("arrow-up-right", true, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABXQAAAHMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBDQsIAAE2AiQDCgQgBYMtB1gbtwTIFiHJLA//v9+3fd57I+KXSaK4Jkim3mkW6lRIpGnYL+Evoify+MitnzePAnwg0nnMA7nAz3OeQPP8xuaJJJRpAP4dfh06uk2Gp+gfHUUiEX/UOq4uKOJR/koF2fushNf+qPilxysyNTmAaAbAxr07d5grRzmL0vxHomQ7AmITSAI57uoXYI1coF8hoVAIytn8POXwt5cIICoBPzEHlSgwhoWAAmRCFEVbU11FQ7GnrqL2bG1dvairE6IuIiJi8dp1a8djb0TUxq4YGZ5tnv2zoHSm5OjRlNIGaW5OskFSlkyXSqXTvnw1adLXL/YAgeDjt+Ubjjat+V9dl4Efn/79lA+pjTiWzaJaBoJ8Yn7CoXimTYpjAgCQxR3D8cwGbQK5Nhk/rfdGgFCLikylWuT6NKNQaxwVBi2lkyc75aKoEdodBmTqXUdumccotPuACmt8diq1R84X9rTZ71rStomtU2nh1ExalYaBwlGA1uHqlLZG7iiMYtMZV11xy2mnnHcr6oYd/m2XbYvIrV6ULDRlRrJKmo5vl/c47Yabzrvqio1ZLa23R9yJ60cxTwZYtNOnOZFF3nn8xo2rdydvX3tx2iT3qrp7wkUDAAA=");
 
 export default ArrowUpRight;

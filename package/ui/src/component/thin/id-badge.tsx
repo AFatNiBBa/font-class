@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `id-badge` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/id-badge?s=thin id-badge}
  * @preview ![id-badge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/id-badge.svg)
  */
-const IdBadge: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 16C37.5 16 16 37.5 16 64l0 384c0 26.5 21.5 48 48 48l256 0c26.5 0 48-21.5 48-48l0-384c0-26.5-21.5-48-48-48L64 16zM0 64C0 28.7 28.7 0 64 0L320 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM240 224a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-112 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm0-152c0-4.4 3.6-8 8-8l112 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L136 80c-4.4 0-8-3.6-8-8zM96 392c0 4.4-3.6 8-8 8s-8-3.6-8-8c0-39.8 32.2-72 72-72l80 0c39.8 0 72 32.2 72 72c0 4.4-3.6 8-8 8s-8-3.6-8-8c0-30.9-25.1-56-56-56l-80 0c-30.9 0-56 25.1-56 56z" />
-    </Icon>
-);
+const IdBadge = createIcon("id-badge", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkQAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCOgsGAAE2AiQDCAQgBYMtBy8bOQVRlMzJEtkXB5lcYb8SCmFkioijCAE72VJbtLt596+8iYfnD3/nvvf+WG3bXjSpDTo1wLKwrdmywCLpg7W1DdL3/7lf3cnQsXeGIoqyKSI3ytZoNYrGNgU+2KflMdrcPTCxUERbXp3XKmK59qm/3ShUYR870l5Kziauef7nTwUSBQAV9vf8IAWWsTyfwM5HUZ44m7YNbKYTsJnbiCsbKBOLQWQIDr9QZKG6hxI3GBCQbtMfuEwfGh807klyBkAMAADWdys5HBnOa8Rf75l4kAEBsQFgCgcZGWM4YAlPYAzfFCiK4JXT69F/IEEAUUW+eAIFdRzhAlBAUi38jK5rmmYpnMaicNtyfgBQCEGLpWu4uVaKjqpQg/4Bf2o4+50ETT2m4rrfomEXlx3S+pm3yvP7+91DPfc7qFlBiQXIqChhDlpvWKmsC0o4eraMAwrxv/F9z5O/0Z/ove0R6PKO5O6jDYBK207SQWDwDu4GB6VHoCLwk3R1c7OSFvY+7/3v753Hvql2NuhU0cmocI/c53QyRTCGUqE19n//Spt/VgQEgpObrrZq6V+scAHvH+zkV9Q74ig9oC6BIM+cZjTiCOJIAABSnEMbRwgkh4Tyu7ZdCRCaCJBUNQXIRqlxQNE0jQMqJrhxQFXTJp4oEoQRzYYlbQdYtugOK0Y8YhVLPp2qkcheKPmQ9AdMj2sgNo3sFhsFaJiosmMJcTxI06bunBt67MTI2srB0MDUQUE7Of/MUtwCY76I2FnYkADazu831w3t7E2trWSSILpv65zbvfWYBRcw+34Cz4skng7Mve5gPAQAAA==");
 
 export default IdBadge;

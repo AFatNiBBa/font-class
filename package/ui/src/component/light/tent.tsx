@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tent` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent?s=light tent}
  * @preview ![tent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tent.svg)
  */
-const Tent: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M278.9 2.8c5.5-3.8 12.7-3.8 18.2 0L517.3 154.7c11.3 7.8 18.7 20 20.4 33.6L571.4 458c3.6 28.6-18.8 54-47.6 54L52.2 512C23.4 512 1 486.7 4.6 458L38.3 188.2c1.7-13.6 9.1-25.8 20.4-33.6L278.9 2.8zM76.9 181c-3.8 2.6-6.2 6.7-6.8 11.2L36.4 462c-1.2 9.5 6.3 18 15.9 18L272 480l0-433.5L76.9 181zM405.4 480L304 288.4 304 480l101.4 0zm36.2 0l82.1 0c9.6 0 17.1-8.4 15.9-18L505.9 192.2c-.6-4.5-3-8.6-6.8-11.2L304 46.5 304 220 441.6 480z" />
-    </Icon>
-);
+const Tent = createIcon("tent", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYwAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBSAsGAAE2AiQDCAQgBYMtBysbwwTIhofn7ao/91V1D3pmyVqbmRh9KZaQCqkQ99/fPP/nUYDPKLSxbGq+QaI5zxP4Yl0+wQLKwixQizVrZzdgEN0m6dP7JMP2GTYL5PFtDFQi3ZM+w031pvGr9i6T5BmAaAaAaWtWLPLWT/FTxGfV54nPLEBATAeFQIYMnQSYKBPoJFcglwt+imo1/gMLAogyfmMCOcqYjpWAHCR5nrdrqGlaKTXmqyul+j13tV4V97dfF/e0ur1nQzzQ5s6OG+K+PmtW3t5qbZxvXYksVu5avWq1qFQq9ZW7Yn3c2WZ1iHXdH2n2yO/dPtv9mTavXbny7V069iwatf7yh6VfWfrDl62LRj07fnvXx0+vKHdr1Ozv7zztnStz+u98M5hv2dVrOZS/m+lyeYV2ksfdyIBAsOm7T2ZtaTrx/9pKAr+88uf/7XhWfStNSo+gVgJBNrA60MY0VSYzsAJopzitO54kkIyXw1Ub3ClAqEeApKxegExHzQTI1RsgQEkXowQoq7dCJvI6oZVNA5IGxyAz2hnItfIslEz0oV3WKjJnYl2B/colzZZoFq4YNnhoMb5YBjrnH3QeTii2lb6nU6EfZu12xGEn7bLTPicFedwi75RDZlvELC8qDDPYUIXxiuP4eXq1XY47YZ8jDpcxExT3jb5O2/X9oCekHM6XJCLlbwg=");
 
 export default Tent;

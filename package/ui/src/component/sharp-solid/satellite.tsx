@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `satellite` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/satellite?s=sharp-solid satellite}
  * @preview ![satellite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/satellite.svg)
  */
-const Satellite: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M384 416l33.9-33.9 60.1-60.1L512 288l-33.9-33.9L416 192l80-80L400 16 320 96 257.9 33.9 224 0 190.1 33.9 129.9 94.1 96 128l33.9 33.9L192 224l-17 17c-24.1-10.9-50.9-17-79-17c-34.5 0-66.9 9.1-94.9 25.1L120.7 368.7 96.3 393.1c-2.6-.7-5.4-1.1-8.3-1.1c-17.7 0-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32c0-2.9-.4-5.6-1.1-8.3l24.4-24.4L262.9 510.9c16-28 25.1-60.4 25.1-94.9c0-28.2-6.1-54.9-17-79l17-17 62.1 62.1L384 416zM321.9 286.1l60.1-60.1L444.1 288 384 348.1l-62.1-62.1zm-96-96L163.9 128 224 67.9l62.1 62.1-60.1 60.1z" />
-    </Icon>
-);
+const Satellite = createIcon("satellite", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcgAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBfgsGAAE2AiQDCAQgBYMtBzAb/gTIjpMldpklHr6fe/LclywAZwGBhCJ0RRZ20ZZUZefnQ63+/1zz+T0/Oj76fuKHUkUVSy3g7OcTGGgXRYkPbDpB294ia5RLRo8k3SY9fnt8O0Men2enlCHdT3/gavzQ+FMDp0gqZACiOgCGz5052Tcf4kPE76WI301EQAwHhUCGDI0FGCQTaCxXIJcLPkSppP8DCwKIsui1CeQog+XYBMhBkuX52AoVKpWpks9xB1RcOXTQ0JkxNIbEjJgbc2IWUtUbFNPSoMExPdrFZxV/6DdbvfVOxQu1bzlW53ali/XuxvG6HWN2vGh5vEvHmB6D58ycNnN6TIsZc2ZMnzEz7EUtHld//HfzP9b84WizGjVqfK6GGt6aOtXSpUF92wmz7XTr2O3B3r3O6pZXPXeuaorn2T6QOJB1zPDdwcc/J8Jbn3u7dOlb/XP1aRAI+v6/8KUG/Ve+UgKfPvv373x7lL5N0mOUl0CQdSp1sigRaBx+Uoo9WiRCIJkvgzdVdkeAUBEBkrIqQsg0Uh1yFXWEMprqzTAnz5SJvIJQ22KApLLtkOnjMORqewNlDPJzoqzakckZJyXcLy95TIuM7ld079KtGFBsswovOozvHliwtXZ7TFV7WGiNrbbYZbVV1tvVYDtMTu+22ZgTOtoXFbrropvCAMV14VGeg94OOw2zFu57Gah4H25nz7lxezATIu0hI0lEqiCTAAAA");
 
 export default Satellite;

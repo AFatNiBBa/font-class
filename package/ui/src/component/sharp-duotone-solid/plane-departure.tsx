@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-departure` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-departure?s=sharp-duotone-solid plane-departure}
  * @preview ![plane-departure](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/plane-departure.svg)
  */
-const PlaneDeparture: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 448l32 0 576 0 32 0 0 64-32 0L32 512 0 512l0-64z" />
-        <path d="M381 114.9L160 32 64 80 234.6 189.7 136 240 64 208 0 240 96 352l160 0L535.6 212.2c46.5-23.3 82.5-63.3 100.8-112C645.9 75 627.2 48 600.2 48l-57.4 0c-20.2 0-40.2 4.8-58.2 14L381 114.9z" />
-    </Icon>
-);
+const PlaneDeparture = createIcon("plane-departure", true, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABZAAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBIwsIAAE2AiQDCgQgBYMtB1obzwTIhuB5u/+qc7u/3h+jx2YERs6EeLyINppsGYuhI7jHLo1//OkBz+jRxlogyx/X6opvsIKX6hObgjcFqdUUuzubHQotr7Q0S8txmePjAnnqlV1SRbqTPsIN+h/A+FFbl0jqMgDRBABTVi1b4PW38W2Kj8q3iY/MR0BMBYVAhgwdBBgvE+ggVyCXC75NZcm3UZYFAUQ1enIGqpFjMKYAcpCEyPPOdfVVDfOVlK3sWrli5fJYEeiujNn4ovrYFp+sutfqZs9KXO6+POorjUWlUXR90uTJz10+2vmRU/O/XFo+btMgTw7YOsSszkqbDnms9RUzu3eYu+3Fy8ljdH6+azhFcW6yYvNkIBD8/XGbjzc1Hv9bbX0C37/z6w/g4fJ1upieoFYCQda/7G99Okf5n3IoCFGKk7rCdyGQ6SxJ79rATQFCBQGSahUBMu01ESBX0U+AKp2MEKBaxTKZyOuEFjZ0kDRwBGRGOg1yLbwFqoz3blStRWRXhzh44uUWO5NDM44VQwYOLsYW01wjbwOWV8cVy2rvk7HXB87a6ZCDjtthuz2OM+SoBekJB8zU4Bl+qDDEQIMVxirM1SO7EqOjjtkj0/Z1xin2h72d1Kf7gJFU1KFOZDIiRdbazycG/D8RB/jhaFuJdjoA");
 
 export default PlaneDeparture;

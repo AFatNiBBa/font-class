@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-line` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-line?s=sharp-duotone-solid people-line}
  * @preview ![people-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/people-line.svg)
  */
-const PeopleLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M7.4 358.1l42 23.3 11.7-21 27-48.6L88 384l112 0 0-72.2 27 48.6 11.7 21 42-23.3-11.7-21-35.2-63.5 3.4-6.3L264 217.5l0 86.5 112 0 0-86.5 26.9 49.9 3.4 6.3L371 337.1l-11.7 21 42 23.3 11.7-21 27-48.6 0 72.2 112 0 0-72.2 27 48.6 11.7 21 42-23.3-11.7-21L565 236.3 558.1 224 544 224l-96 0-14 0-44.9-83.4L382.3 128 368 128l-96 0-14.3 0-6.8 12.6L206 224l-14 0-96 0-14.1 0L75 236.3 19 337.1l-11.7 21zM104 168a40 40 0 1 0 80 0 40 40 0 1 0 -80 0zM280 72a40 40 0 1 0 80 0 40 40 0 1 0 -80 0zm176 96a40 40 0 1 0 80 0 40 40 0 1 0 -80 0z" />
-        <path d="M0 416l32 0 576 0 32 0 0 64-32 0L32 480 0 480l0-64z" />
-    </Icon>
-);
+const PeopleLine = createIcon("people-line", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABmAAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCWwsIAAE2AiQDCgQgBYMtB1IbfwXIngU5GbUr5SG3ld0t91IyK8yVD1EinifH0PeTFAgHDIpYsSNSE3Y3R05MuBrRm50RvVrTvQDhhohc5lXCRXZAQldHF3h8XZ1qM6+omoX+29UWUYlF0GSacFw1E0dn9Pnk6PhNXPP8z58Sk/8e8PnRIi2mA6nAiMQJDDTSomkNOJCwmeJ2V/FDtA8l1rCWPH7b43ev20Ir28IDJuVPgR/lfwDz34wHUPRUABl2AODCw7vX/RpWWNu4IGuuAYFcBFhGUFExj4DT6IJ5DMtA04R1L7GOtAwCpFO5YAWd6MJ34A8ADRTRWuu5PwBP7esYaA/6mL3p6x2S3sE8PHEyoychIH1J9qAlh45q1MToBw6gpBwNGSQRVFTweis0zvA9mvpny3RtfXcu+5g4Zdn0JDn/0VhexpsyfHoe6/FPCL7uXdtRwN/9eGQHOa1QjtwrTsFdBsmg1Eu7RG9337HXsNf8d4xXq+ifp387yxkfK3b5/gSdDyAIh7/u6Z8O5f/uvgL+Pd+bT7dhpZUD3QoIdbd2G5UbgGcSwF3ylZX5qi5B9Q0DvGq/nwiIXgQUnXoFVHMkCGh67UJAh0UJBHTqdRddWo8YNx500e8DXR11STfjvukOp/25Oo2HbpaSUUlfhelXMXCl3/KBYBizeEzqsqUJqTmHYnP7BSnyuIU2HDpwZt2abWcIOjHwntvX5MCGH0IRQWEoC68zU51CrhOntvfqfS85+N7pdsFX9jgHDfAeNKaqpKSOqXLJnr9VyBpeMkFVZQY=");
 
 export default PeopleLine;

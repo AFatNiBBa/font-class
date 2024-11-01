@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-check?s=regular octagon-check}
  * @preview ![octagon-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/octagon-check.svg)
  */
-const OctagonCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M191.5 48.1c-6.4 0-12.5 2.5-17 7L55.1 174.5c-4.5 4.5-7 10.6-7 17l0 129c0 6.4 2.5 12.5 7 17L21.2 371.4C7.7 357.9 .1 339.6 .1 320.5l0-129c0-19.1 7.6-37.4 21.1-50.9L140.6 21.2C154.1 7.7 172.4 .1 191.5 .1l129 0c19.1 0 37.4 7.6 50.9 21.1L490.8 140.6c13.5 13.5 21.1 31.8 21.1 50.9l0 129c0 19.1-7.6 37.4-21.1 50.9L371.4 490.8c-13.5 13.5-31.8 21.1-50.9 21.1l-129 0c-19.1 0-37.4-7.6-50.9-21.1L21.2 371.4l33.9-33.9L174.5 456.9c4.5 4.5 10.6 7 17 7l129 0c6.4 0 12.5-2.5 17-7L456.9 337.5c4.5-4.5 7-10.6 7-17l0-129c0-6.4-2.5-12.5-7-17L337.5 55.1c-4.5-4.5-10.6-7-17-7l-129 0zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
-    </Icon>
-);
+const OctagonCheck = createIcon("octagon-check", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABcwAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCAQsGAAE2AiQDCAQgBYMtBzQbBQXIjtMF8yVDxj+CepufPW9XB4JD3GMmKTqyHSFABhyEv5xiZKfKgDvmiWvqZ9ADFvmjVCzSdm+rAsw8n8DEUt93PpAEm+kEbLuzEVaydmJJQXJ8dnwiyOOLuFeJ9Fj6GffQh8aferqNpJQBiA4AWLBt0xrftkRLxE/Nj4ifrEJALACFQIYMfQSYLRPoI1cglwtaotn0/4EFAUQrTCWJ3D7mflwA5CBJeb64S6VUy7dWSuVdt3fZ7EHiRtfZ8XqviCdGbfPGsEq8NGKL13qKR4dv9urgcrw8cqt5sSUeqlTiju7bPBIRN7tt9XC5vGXzts0vDt3o8d6vDJkT28Lc4bEeA1/v8PrfAz66b+4pH200HC3f1PZYB5OrN9UmN7Lo95u+XVTD5NpN1Q74Fvq92EGjvpyu1zNxrK2ifLTeUC+8++x17qrVmn7/nar/OHuW0+rtQCB4dNWAx/e1n/1fm0oCf3z+7//4M9L8Nkmvo40Egmx0c7TdCSQCAJCibmCCQLJdwq2qh8XNVhmBYStlaGV66yBirmyUWNLPlAitlG2Sibyt0MUeIiZVF8TMVFfFXBcfiCWzfVdvpUtkimapifXPy1/awksOFRPGji9mFsOeYuuOEXdnFduZ4fUwMwLOOuqcsy474rATLjfCRWtaV5yxdMYv8UWFCcYarzBTcTy8P77VERddcsI5Z9M+sxT3w+Hq8+UjIJ+w6kRXk0Sk2rlDlw8cO3d2zJMFAAA=");
 
 export default OctagonCheck;

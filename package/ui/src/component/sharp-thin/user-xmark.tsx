@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-xmark` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-xmark?s=sharp-thin user-xmark}
  * @preview ![user-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-xmark.svg)
  */
-const UserXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 16a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 240A128 128 0 1 0 224 0a128 128 0 1 0 0 256zM75.8 320l296.4 0 54.2 176L21.7 496 75.8 320zM384 304L64 304 4.9 496 0 512l16.7 0 414.5 0 16.7 0-4.9-16L384 304zm73.8-177.5l-11.3 11.3 5.7 5.7L516.7 208l-64.6 64.6-5.7 5.7 11.3 11.3 5.7-5.7L528 219.3l64.6 64.6 5.7 5.7 11.3-11.3-5.7-5.7L539.3 208l64.6-64.6 5.7-5.7-11.3-11.3-5.7 5.7L528 196.7l-64.6-64.6-5.7-5.7z" />
-    </Icon>
-);
+const UserXmark = createIcon("user-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABhgAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCQAsGAAE2AiQDCAQgBYMtBzEbQQXIrgd4Qz6pG0pGjE2rtCO2inG2Cx8VjjzglX82FkG0hs7eXwhAoWJJoBTKCMUKUOn4GJG0DmV1rBrTvQDhTxQQ10UVGByQq6zQCJIdG1OjS1C79o6lwJJmMi2NEy+CR//jz/29URR2UiFOYIS/qYoqCFqjOkAM/F8DA5h9zQcW5vIomrgc///508Jt9Chj45o+8y6a8zyBAMvKpge6LbBME7D8dn6vC4PiisJwhCTDdn8Y/wVy/CvwSY/Yh5vwofFHhwOSogBA1AOAtdHaxPsdFfz8c+LDJgiINQD9CAUKdCOwiCvQjacfZFnwhd7+BxoQQJSCbzeBjDKcg1tABklJ5lm7xHJPFV/O65DyJb2HLqJjsWq2V4bbldvrdtZiyfWxXpWLKUSX8ShWNDR45Q76uDkx2FTV5TJ5O8moc5ROkLWRLqRyQ3R06nidntqp40Ebo5PaaUN0UCehizbqOGzwon74z/z9Pmdai7dfD82RglaLaLK7/ra8q3LXoNz+zkYTgqOVgLPErSMHs1wZ9dmjRn131WD9DbG1coFyRZsnEaxAA+gdZtcDAsHvU/43+f84xQH83PxeUH5F3zA5F0C5BIJi+jt9uQP05ggIAJBiA67cAQLJGT5612p3AoRKBEhKVQpQ6KJCIKs0hUCJXgkESlU6xBVZjNCsn9ik2hFbWLDJZs0e2RKLPopSzcFVRFmN5N/AjBYJNdaxJBhmWbZsaopuiX45x47NYMMNebAXExYtWDNuzLQ1gaxo1tbNa9nBDV/ERASFMVnsuvNodFCwYtWJc+1+lRz2PnXb2E/2wOFgzhkNSSKS5OO1AqXOAg==");
 
 export default UserXmark;

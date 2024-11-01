@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial-max` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-max?s=regular dial-max}
  * @preview ![dial-max](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/dial-max.svg)
  */
-const DialMax: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM271 305l77.4 77.4c-43.4 27.8-101.7 22.8-139.6-15.1c-43.7-43.7-43.7-114.7 0-158.4s114.7-43.7 158.4 0c37.9 37.9 43 96.2 15.1 139.6L305 271c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9zm130.1 96.2A160 160 0 1 0 174.9 174.9 160 160 0 1 0 401.1 401.1zM576 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM32 320a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM128 96A32 32 0 1 0 64 96a32 32 0 1 0 64 0zm352 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM128 480a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm352 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const DialMax = createIcon("dial-max", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABtwAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDSwsGAAE2AiQDCAQgBYMtBy8bygXIjsM4hnziwBJLaxEPz+v9f2uf5AHOl1RBHFAV3JmV0UKtVM71/Ru9H0pAy0I/w5FtqrGE+b/m87Nb0QA/TyASLQrLoigSo0oHFgm4pgqaDmQWaS3oe9vweKIQCiJEjESqMR2v1Rzy+DruUEa6J32C28uBxs+6XENSlgGIRgAs2rx+nTd+wA8RH5eE+NgaBMQiUAhkyNArwFyZQK9cgVwu+CFKJfwPLAggyhGcjMpRg7fwFbodSVWet3T3tICmpqwu39R2Vn345g7EXXFle6q+qTW4oi3WbNi4aeOr0/foG1cueDU3z6O+NtbGw0NLl3liAPFQfx/NK4upa+TorfOLRtE0mXHGuCvbEfslbu7IceJsIAeevcQf+Mngxxv510GfHPrEwOX1N3BDff0NVdL4x1qyztfv+yTGjYtGWL/xk+HTFq1dp67uiy/87t9e5dHHHv/2W773ppt/+1/18de5lfn4zTf//vQZpwoMDGh6u78P6CHB7u2BQPDgpp1duxvm/ltZk8BPr//+X99c6aeF6XFUSiDIxpbG2pEWAuIGoE9xnsHGAwWS11Whfa11pwChGgGSctUCZHo0CpCrNkaAMv2mCVCu2nqZyKuEVjsZJLXOBJnpLgW5Vi+AMnO9ryvXGlk0s2KR9ZiMv1xCy+oVk8ZPLGYXS6/BDlBGyp5TuAUjz1NRo2CoQ0475RwHHXDUOQJ7lnXGc5203MIs80SFScabqDBbsR1Y99/koLOc7ajTTuVi5ijuy0Y6z048CsQJ0Z3MJUlEqvxsQD3u5N4LAAAA");
 
 export default DialMax;

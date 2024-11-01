@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tent-arrow-turn-left` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrow-turn-left?s=sharp-duotone-solid tent-arrow-turn-left}
  * @preview ![tent-arrow-turn-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tent-arrow-turn-left.svg)
  */
-const TentArrowTurnLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 512l224 0 0-160 96 160 128 0L480 288 288 160 96 288 64 512z" />
-        <path d="M126.7 35.2l-17 17L89.9 72 456 72c66.3 0 120 53.7 120 120l0 40 0 24-48 0 0-24 0-40c0-39.8-32.2-72-72-72L89.9 120l19.8 19.8 17 17L92.8 190.7l-17-17L15 113l-17-17L15 79 75.8 18.2l17-17 33.9 33.9z" />
-    </Icon>
-);
+const TentArrowTurnLeft = createIcon("tent-arrow-turn-left", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABcQAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBTAsIAAE2AiQDCgQgBYMtB2QbAgXIhof/n/u3fW5SAE6ZWQH5OgL9bQHoCV+QOGrcrMkf91N/lP0GfEDfKWpR56XRtBtlnk8gcRSla9oN5BPNFLe7qLlWZHmSpCzJ46Px+LlDHv9l51UjXUkVXKD/AYxfWjlPUisDEA0BMHH54rlefotvKSrlXaJiDgJiEigEMmRoK8AYmUBbuQK5XPAtlSXfoiwLAojq6MsZqI4cM7AIkIMkRJ73b1SnWr18GV1Te3WP3j16RL14N/ZZRyFqBxRf7VXVrW70tMkx0SsWId87FpePXVindp2IpaE9yxSyxIVOVQ2r/nSsbKs4eR2D7VM0apR6aGmAlnqoP3jwt30GoxEqhEQj5Te/9bb1t5zW4asXp1DNH4NA8OVBz0nrG4z5t2adBH48/uenebP8v3yZJqQq1JRAkPUp+1iTJjAMCgEoIcUxnQy3pkx/SXKjrosChNoIkFRXW4BMGw0FyNXWu0I17Q3VJg8vlom8ltDUWoCkroOQGeYE5Jq6A9WM8SFVXdPI5MmQBuM3l2dai0+dVwzsN6AYVQyriikiWpgeXUxHehzDrp5w0Tb77XPEVlvsdKSRD5mbPWqvaRw71Q8VBupngMIoxXLj/vQyWx1y2E777YuzjFbsj/ZwjB/cEzaTAINOoiIjUmRt31Fp342HDu0/3vci6+8t0Fc8B7cf2LcR");
 
 export default TentArrowTurnLeft;

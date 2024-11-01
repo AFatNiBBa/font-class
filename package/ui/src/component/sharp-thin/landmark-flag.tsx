@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `landmark-flag` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/landmark-flag?s=sharp-thin landmark-flag}
  * @preview ![landmark-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/landmark-flag.svg)
  */
-const LandmarkFlag: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 16l0 64-96 0 0-40 0-24 96 0zM256 96l96 0 16 0 0-16 0-64 0-16L352 0 256 0 240 0l0 16 0 40 0 24 0 16 0 48L40 144l-8 0 0 16 8 0 432 0 8 0 0-16-8 0-216 0 0-48zM80 200l0-8-16 0 0 8 0 176 0 8 8 0 112 0 16 0 112 0 16 0 112 0 8 0 0-8 0-176 0-8-16 0 0 8 0 168-104 0 0-168 0-8-16 0 0 8 0 168-112 0 0-168 0-8-16 0 0 8 0 168L80 368l0-168zM40 432l-8 0 0 16 8 0 432 0 8 0 0-16-8 0L40 432zM8 496l-8 0 0 16 8 0 496 0 8 0 0-16-8 0L8 496z" />
-    </Icon>
-);
+const LandmarkFlag = createIcon("landmark-flag", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdAAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCOQsGAAE2AiQDCAQgBYMtBzQbPQXIHoVNmSs+XghJZDEy180xPtjr4uGf+1H3vR9TaW1Z1MCJAzw0Y4ODYwUWm7hnQVMXq7js+z1j7t/M49ZuS6aSTFBpNFqgafTmqfGo2veJy/H/tqcH/E34aGPawoFr4lNznScQYBouz/MssEwTsKzNoaBDwndbxHM8JnE0bP6w9YAynqyIydv8BZf2ofGbwTWkogBA9AKA3aNeA+8f6EPETwPilRoIiF3AOEKBAsMIbBAKDBMZB6VS8CGapv8HMgQQNfCyBCVacA4uAJQgVaVIaVxTdijFatGwo1JsIe0BgbLf0a6kSKFANMmdDnV0qH/KQ+kSFNuw3cN+e4e8MDvOmx50D//G382v6bM0rpnBTG923JrNjnVI09GZFFk6bp+tuOxFV/Z+8XartZVwz32tZ1Xi+s62G4eO9Zk38V2QdO/dtgP/nwcCQX5815xqN/60KgWATy//XT8jNO8pH0CrBEEx28waJUgCAJBxyZQQSKfE8K6drhAI7QiQau0CFIboECi1m0GgMiqAQK3dHqEo5QiDxpVKnU6owrorqjTokaps+Mhqg1EkoZJCyj9gZpGhwin2ON0c5ceBW80raRzG+LVtvgwLlnIRG0cOnVtb2XFO5KlGeeFAcUUUfBHzcHJjUSyPj+aQslNndua6fkwMfx+YXa7XW4onANFlvZREqverlK6WY78DAAAA");
 
 export default LandmarkFlag;

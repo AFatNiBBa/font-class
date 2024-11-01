@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pipe-smoking` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-smoking?s=solid pipe-smoking}
  * @preview ![pipe-smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pipe-smoking.svg)
  */
-const PipeSmoking: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M575.2 64c-32.1 0-62.1 16-79.9 42.7l-61.8 92.7c-3.9-4.8-8.6-9.1-14-12.7l-24-16c-4.7-3.2-9.7-5.6-14.9-7.4L442 71.2C471.7 26.7 521.7 0 575.2 0L608 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32.8 0zM333.4 206.2c9.8-14.7 29.7-18.7 44.4-8.9l24 16c14.7 9.8 18.7 29.7 8.9 44.4L287.8 442.1C258.6 485.8 209.6 512 157.1 512C70.3 512 0 441.7 0 354.9L0 272c0-26.5 21.5-48 48-48l160 0c26.5 0 48 21.5 48 48l0 50.3 77.4-116.1z" />
-    </Icon>
-);
+const PipeSmoking = createIcon("pipe-smoking", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABaAAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBTwsGAAE2AiQDCAQgBYMtBzMb0gTIhofn87A/9yWjtEOnHcErid/iVtya839NvbCmA/x8BIfWobVhPd8o8/kEBhzlTRCFs4ni9qZJG6WMnpIZTdJxTsfTHvL4OztFDdKV6R2cXz80vtbSKSR1MgDRAADj5s+e5YUv4ouIt/9/lHjbDATEOFAKZMjQRoCRMoE2ciVyueCL+P9//A8sCSBqYiyx8nDmdMwF5CBJed6mc0WNuvm8WFrsfqXnnLisWWc4Z37cP+Lpioo4u+mlTmhySVHMubx5xOVNO8WlSm2yseWeoU8U741+bl7E1c0v70LQrZe0FPOr72pw17dV76x7x+jjDT4cudi8PcftWdXnrKiu7lql3hln1Gt3VvXjuYde5KHHjru9TY/Nhx63omGjruPj6adj/GzZu5/0vUHfT97N+pu5GwgEO4sZa5fXH/lr7YoEvnrq+z+ki/9/IZ2Q7kJtCQRZz/97WpJOAGQHkE+xT7XxRYFkvISvtdJlAoQCAZKaCgEyrTUQIFfoIUAN7QwSoKbCbJnI6whNLJ0gqbQTZAY7CnJNPAxqGOn1XE1NIvMn0RvE71zaZIlOmlX26923HF4uK4bkInyeHFFue133UUc32Gmd7bbZY601NtojmF1mFffaarJFT/JDpX5666s0XHlcX2+eZ61ddttou21lmhHK+1FX++z+3SBMmLO/siQRqfJ1Z3vt3rrdNQEA");
 
 export default PipeSmoking;

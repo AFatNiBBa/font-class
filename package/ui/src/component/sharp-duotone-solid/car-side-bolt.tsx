@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-side-bolt` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-side-bolt?s=sharp-duotone-solid car-side-bolt}
  * @preview ![car-side-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/car-side-bolt.svg)
  */
-const CarSideBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 432a80 80 0 1 0 160 0A80 80 0 1 0 64 432zm352 0a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M96 64L42.7 224 0 224 0 432l32 0c0-61.9 50.1-112 112-112s112 50.1 112 112l128 0c0-61.9 50.1-112 112-112s112 50.1 112 112l32 0 0-208-117.3 0L416 64 96 64zM208 240L336 112l-24 96 88 0L272 336l24-96-88 0z" />
-    </Icon>
-);
+const CarSideBolt = createIcon("car-side-bolt", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABfgAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBbAsIAAE2AiQDCgQgBYMtB1YbFAXIHomxrYL3yuenoog9QpJOHr5f6+3c1/2nkoEgdohIAZMD8nHAGoAcLgv1ayXJtTvxnvAP/vN/zef3/OgAPx/BoVRR6Xlb2/Uin09g4KNMmtDAomiGvAwsJm8bOiwoxCslURLReDZmO8hTv+yCBtLV9BMu8v8Axt86ukDSNAMQLQAwY+XSJT43RmOKn+rPiZ8sRkDMBIVAhgxdBJgsE+giVyCXCxpTvU5j1OsFAUQJ+zNQwlOWYRsgB0mS8rxPjVFpqOUr+kV57bKVy8ohKnF70L1xLwbc6arxiHKsiOrylRtExn9vZZTn3ZzwZtK77rcmvh3/ukutm9Dzbou7//b4acdPNp4efbsuG+Q3heb/c2d4dOE3x+25bfrBR6fFaL/RKiTkrVd3Hj++s0oNm7rLgUDw4f36PzY2n/xfk0oCf779C89Xf5HOpLtoIoEgG1wfbF06A4gOwE5xQk/npqYLZEZK5FqrLgkQygiQlJQFyHTWQoBc2SABGnQzRoCSsqUykTcV2ljfQFJ1GGTGOglybTwDDSb7YpW0iSy+6Oigf3cJcy00Z1gxYujwYmKxTCgTMmTpn1Rsy/1PpLoBMNYOBx1wzHbb7HbMIEcscY/bb64Hz/FFhRGGGq4wUXGcPworjHXEUbvn3PkgkxT39f5O+K0HgJYI5kgTMhmRImu7dfORISHoG7Ll4L5jQ55qk/YT7lkCAAAA");
 
 export default CarSideBolt;

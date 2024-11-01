@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `draw-polygon` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-polygon?s=light draw-polygon}
  * @preview ![draw-polygon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/draw-polygon.svg)
  */
-const DrawPolygon: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 96A32 32 0 1 0 32 96a32 32 0 1 0 64 0zM80 158l0 196c22.5 5.8 40.2 23.5 46 46l196 0c2.9-11.1 8.6-21 16.4-28.9l-32.2-53.7c-5.8 1.7-11.9 2.6-18.2 2.6c-35.3 0-64-28.7-64-64s28.7-64 64-64c6.3 0 12.4 .9 18.2 2.6l32.2-53.7c-7.8-7.9-13.5-17.8-16.4-28.9l-196 0c-5.8 22.5-23.5 40.2-46 46zM365.8 354.6c5.8-1.7 11.9-2.6 18.2-2.6c35.3 0 64 28.7 64 64s-28.7 64-64 64c-29.8 0-54.9-20.4-62-48l-196 0c-7.1 27.6-32.2 48-62 48c-35.3 0-64-28.7-64-64c0-29.8 20.4-54.9 48-62l0-196C20.4 150.9 0 125.8 0 96C0 60.7 28.7 32 64 32c29.8 0 54.9 20.4 62 48l196 0c7.1-27.6 32.2-48 62-48c35.3 0 64 28.7 64 64s-28.7 64-64 64c-6.3 0-12.4-.9-18.2-2.6l-32.2 53.7C345 222.6 352 238.5 352 256s-7 33.4-18.4 44.9l32.2 53.7zM64 384a32 32 0 1 0 0 64 32 32 0 1 0 0-64zM352 96a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm32 352a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM288 288a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const DrawPolygon = createIcon("draw-polygon", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABvAAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDUAsGAAE2AiQDCAQgBYMtBzMb0wVRlKzFONlHYuywi42LCkuFzE8ExVpVVncfAPedAmYFACiBFME/C7XxFtW4g+eGUqEYOPO1c6OlVuf/cs/PNh3g5xM4PLSx7HZr0AY5ag/NAjnQXhStAZpnWdnGE/POtr0JotpvhMYOsrgYzRUjOZ/8jKPejcbfatlFIksBREUA9Bk7coRXRVEU8fOPJ8TPhiEg+oJcIEWKugJ0lwrUlcmRyQRF8eOH+A/MCSCKC+DEsgyl8Bl/0p9FokSWRarkfavgVJli5bIxyeVLT9yuEWfwAJ9y2+Q0HbSzkAtPSpm4aG3jFN7ZD+LF83AclHZxJpaOS2/6Wbq97odz81490Luhc3xryZzt6eyIuKMXYHGwnQ4HNNz1gto6Spc20w5wxGWp7XoG5/q+CMm9RR5PfBGEW9lmTPcnjR74B7+h75/n/Gzq1PL72Fe+/L5Y/fYu8KjLyXd6PyzYUepapUqlS1eqdK3UjoKHvd852aXeu5F4jXJfR4nkqK/lTNyhxu+/DXhnwG+/1xgX98tRTolCi3zluAYN+jRTGaZe9Q4IBF1+yn6aWqF7oSQl4K+X/xfys38UxavkAUpKQJA2/3FNilcgqAFkk1ij0cwDBRKvlRBca1lnBAilESBRXGkBUnVUFCBTWjMBiqmvgwDFlTZSKrJSQlWTa5AoazlIdbQZZKp6BIrp7mOmuKqRAjQPjvzvZMrANjTALW/TsnXeNZ8sKAUYZe1gt3y11niNbGiCF5pjqSVWmW2W+Va1yBVG5FdbbOAcMcAT5dpoqbVcV/nu8n1lTCu7wkrzx8X9k3STnx9pbM18+ybYTASMbTkSCZGU/VQdLZYtXbR+7tIlAA==");
 
 export default DrawPolygon;

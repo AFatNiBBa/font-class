@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `school` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school?s=sharp-solid school}
  * @preview ![school](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/school.svg)
  */
-const School: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M640 512l-256 0 0-96c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 96L0 512 0 96l160 0L320 0 480 96l160 0 0 416zM144 192l-64 0 0 96 64 0 0-96zm352 0l0 96 64 0 0-96-64 0zM144 320l-64 0 0 96 64 0 0-96zm352 0l0 96 64 0 0-96-64 0zM408 176a88 88 0 1 0 -176 0 88 88 0 1 0 176 0zm-72-48l0 16 0 16 16 0 16 0 0 32-16 0-32 0-16 0 0-16 0-32 0-16 32 0z" />
-    </Icon>
-);
+const School = createIcon("school", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdQAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCEQsGAAE2AiQDCAQgBYMtBy0bDgXIjsO44TuyxVL+4+H/56ru+0lTqgY5w4wK0I9jtIBLDo3psxbVKkxmVaCJy53/+dODLHuyRxsL1zwf01dzY5dAYl22FiWQhVmimLWzT14S3UCSUD7JMP6wOUEef2dX1ZBuJbiWPjR+1cFVkoYMQDQHwPS1Kxf7rjEaI37+/x3xs4UIiOmgFMiQobMAk2QCneVK5HJBY/z/P/8HlgQQtfCqBHI0YD9OAnKQ1OV5lwakm7Sq1DTJ1+Q7isPVJtWI2wNe93na72V7UY0sKrE2VptM2lNUCt6LJgIvj2Lb8sSaxxM+j/tYPhr/aeKXnmsEUamIogjsWunxuvnr37vbw4Wp2KZo0eLhQ58ptuEhiw+2WrIZf04N8DbTbBOnCYu3Xphza6+1uPXhw60WxZw7tDl4ji8tPKy5Eg7EdWvPnlm6tdmkv+orCfzy+c/f1bv//y5dTKNeAkE26P9BNqWLwAsCghRn9BC+KJBsVwfvWnVdgFAgQFKrECDTSXMBcoWBAtToarQAtQorZSJvEFrb3LGk6jiWGeMclmvtDVZjku/9Wq0jUzhaXej/XsKcEZi9rhw+ZFg5odzWNEaHyDA7sTwW+51xPf1pqz2OOuKU3XbZ79QAnbA4Ou2wORI42w+VhhtimNIE5XXzdfMau51w0n5HHYmrTFS+d/s5Iw/vT0oCwhFySSJSra4CAAAA");
 
 export default School;

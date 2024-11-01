@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `game-console-handheld` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/game-console-handheld?s=sharp-duotone-solid game-console-handheld}
  * @preview ![game-console-handheld](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/game-console-handheld.svg)
  */
-const GameConsoleHandheld: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 0L384 0l0 512L0 512 0 0zM64 320l0 32 32 0 0 32 32 0 0-32 32 0 0-32-32 0 0-32-32 0 0 32-32 0zM96 64l0 160 192 0 0-160L96 64zM208 360a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm64-48a24 24 0 1 0 48 0 24 24 0 1 0 -48 0z" />
-        <path d="M96 64H288V224H96V64z" />
-    </Icon>
-);
+const GameConsoleHandheld = createIcon("game-console-handheld", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABeAAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBWgsIAAE2AiQDCgQgBYMtB2YbEgXIhod/1vrdNzO73w0ZxDWZSRLtNE0mFRJpG1rCP0RP5Jk6VTPOQwF8T4SDNtYCmR1Ac55XoIBje70CvQrVtAbW3dlEDpmdk1CW5Pi2HJcnZHE1vatE8ij5jnv4P4DxS4+7JGpSANEMgCVbN65W6Y/+JL4XH4jvViEgloJcIEWKAQLMlwoMkMmRyQT9SVHQH0WRE0CU4RumoIxqrMEWQAYSoZRlNTU9NTU1daWGbEtdqXZnXW2dqI1IG+obsqiP0nahLkRdhENrIdBWxXBl+6MRr/sej3zRvZb3D33X/O7PkO9Hvtt7o0KEJyqeqNwkcZNFi/J5Qji4eALMXtvZUR3r13cUveDXgUAwuGH/vr1N8/9X1yXgx8d/P/0PSVGJm8k7VEtAkI4vxtsVNyFuCgBAElcMjZv2IZBaoIQ+td59AUItAiTKagVI9WkWIFNrnAAlg8wQoKzWRqnIaoR2uxtI1DsPUjNdA5l270HJfJ/ysvZI1YpVCvZTl7SyR1fsyqdMnJzPzZcdldMUOm3Oy7et0VfixBh46IizzrjksEOOu9ThF6yuLjttpYSt8EW5KSaaLDdXftx/vr3FYRdcdNxZZ/I28+T3s9GuyPPHgJsgyqmOpFIiiXSgRmoTXo08wRhpk9QmWOkCgwXBKgEAAAA=");
 
 export default GameConsoleHandheld;

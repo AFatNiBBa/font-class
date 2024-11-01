@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-fairy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-fairy?s=sharp-solid person-fairy}
  * @preview ![person-fairy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-fairy.svg)
  */
-const PersonFairy: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 0a64 64 0 1 1 0 128A64 64 0 1 1 320 0zM424 352l-40 0 0 160-128 0 0-160-40 0 8-192 192 0 8 192zM34.9 32c84.9 0 161.1 37.1 213.4 96l-54.9 0L182.6 384l41.4 0 0 63.3C191.7 468 153.2 480 112 480l-16 0-32 0 0-32c0-45.7 14.7-88 39.7-122.3C40.6 275.9 0 198.7 0 112L0 64 0 32l32 0 2.9 0zm411.8 96l-55 0C444 69.1 520.2 32 605.1 32l2.9 0 32 0 0 32 0 48c0 86.7-40.6 163.9-103.7 213.7C561.3 360 576 402.3 576 448l0 32-32 0-16 0c-41.2 0-79.7-12-112-32.7l0-63.3 41.4 0L446.7 128z" />
-    </Icon>
-);
+const PersonFairy = createIcon("person-fairy", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdQAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCCwsGAAE2AiQDCAQgBYMtBzMbDgXIhof/t/uvfW7VV1UbtzuCHQkcKGMmRAJCpW9NyuhHgzf/l3t+z48O8PMRHNqYtibIAtvz+QkEGvXybYFFWZgFqrFl7eyW/yL8Kn3KJxnGM0xOUMY/xV1aSA+nH3F/fdP43UB3kXQUAKIHABZv2bDep41oRPzQfIv4wVoExGKQBQoUGCLAPIXAEKWMUiloRLMp/4GZAKKV/bwESrTiEC4CSpCUZdm1Zx5et3QtN9ct1ZG3Rj836tlpb495fuwLM7dVdSWqiKhiS9Sx6fDdqyO+m1/FxqhDfLusqiJ+XfrxlNc3R0TU+6q6+mTtD3VdC/HTpFfnfbZJVNXXayLq2Dzy+R7P/znix8M/WvjJpAnDh0+YBP3InlHY+5TbPGWUtk98mh5118JFxzh6cqaOptEW6t7okTPLD3S+/bTFk2T5iT0z8fSTR48tKnI2icVPv915wPIs92h0X2i0jiYQCJaM3fDFnu7zOtvrBH57/+8/tbubn6bb0vNol0BQjGuOszPdBoIOwEtx2cjggwLJLiV71S4eECBUCJC0qgQoDNZDgFJlrAAthpkuQKvKBoUoO4Q+dg2QdHEOFGa4GZT6eAO0mOcbt1WfKNhGcoX87MWt8NDyXXnyhEl5Tl6mOkUgPK/n5m1h1GVtjcZRh51x2kWHHHTMRYectz645JQVEbzcF2WTTTBJNkc+Lp4Pb3bIeRccc8bpsmWufN8Z5XI8PBpyYphThJJEpC7k5Me/If4a");
 
 export default PersonFairy;

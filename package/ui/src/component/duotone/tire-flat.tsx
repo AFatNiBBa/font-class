@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tire-flat` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tire-flat?s=duotone tire-flat}
  * @preview ![tire-flat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tire-flat.svg)
  */
-const TireFlat: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M96 288c0 52.3 25.1 98.8 64 128c26.7 20.1 60 32 96 32c33.1 0 63.9-10.1 89.5-27.3c2.2-1.5 4.4-3.1 6.6-4.7c38.9-29.2 64-75.7 64-128c0-88.4-71.6-160-160-160s-160 71.6-160 160zm32 0c0-36.8 15.5-69.9 40.3-93.3l28.1 38.7 10.1 13.9c-9.1 11-14.5 25.2-14.5 40.6c0 1.4 0 2.7 .1 4l-61.8 20.1c-1.5-7.8-2.3-15.9-2.3-24.2zm12.2 54.6l61.9-20.1c8.6 13.4 22.1 23.4 37.9 27.5l0 65c-44.2-5.5-81.5-33.6-99.8-72.4zm54-166.7C212.5 165.8 233.6 160 256 160s43.5 5.8 61.8 15.9l-38.2 52.6c-7.3-2.9-15.3-4.5-23.6-4.5s-16.3 1.6-23.6 4.5l-10-13.8-28.1-38.8zM288 288a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm-16.1 62c15.9-4.1 29.4-14.1 38-27.6l61.9 20.1c-18.3 38.8-55.6 66.9-99.8 72.4l0-65zm33.5-102.6l38.2-52.6C368.5 218.1 384 251.2 384 288c0 8.3-.8 16.3-2.3 24.2L319.9 292c.1-1.3 .1-2.7 .1-4c0-15.4-5.5-29.6-14.5-40.6z" />
-        <path d="M0 288C0 146.6 114.6 32 256 32s256 114.6 256 256c0 47.3-12.8 91.7-35.2 129.7c20.3 5.6 35.2 24.2 35.2 46.3c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48c0-22.1 14.9-40.7 35.2-46.3C12.8 379.7 0 335.3 0 288zm416 0c0-88.4-71.6-160-160-160s-160 71.6-160 160c0 52.3 25.1 98.8 64 128c26.7 20.1 60 32 96 32c33.1 0 63.9-10.1 89.5-27.3c2.2-1.5 4.4-3.1 6.6-4.7c38.9-29.2 64-75.7 64-128zM256 256a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const TireFlat = createIcon("tire-flat", true, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABywAAALkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDaQsIAAE2AiQDCgQgBYMtB04bCQbIhod/3qu6L0kDzoCsmQXN9JqfwueemrrVeONRgGsU2v9ok3/g/8MJNAGlxYk0ntBhIIsHoifMtzvbtUNp5UBaYrQ5znE8Lsjio/Q0FSRXJwUujP8DGL/ocRqJmhRANANgxZabru+lH+KHJIryY0RhPQTESpALpEjRL8BiqUC/TI5MJvghKZf5IcrlnACiUvwhKahEPQr8DMhAIlWVZeP62vqa6hvbahvrKhqyLeoqauPzUsSrG0a8v+Wn6w+veHnzT5Zf3nG5q9ovG10fd3Re0Xty15Vdr2zR8NnSiBe2+GTxc5udNOX+CU+vfnPRlV0nx73THowtzu2IuNxJ7ZfVntN5RexqdVvKMxFofbZUCVndrcumREdc5SRrxRUxYt211r16jHhi4j29W95Zd+6Y5XFF7TntnTF185PaI+xuPLfjcvmdfWvHVePvmh1blpaXnh9xUvs6cXKc3DvynuZ7fhtR7FG4yZrd9FzMyWta08kX93Qr39bz83XXtqTD30y/yfRvhtOWa6/7uceaN0WpoChFKYoiSuP59IKdmo8eOYJPGX/jUONZnNXYeFbaZMcbx7PkRKkwOM67N33c/X7oTpKP9dU/8TG95ogV2i695Js5d7w4cuSLm7mtoeG26z2x/YHW+/8f8cknvrnkkvYV+R67Akybdtf3fSxJuj8AAsHwP+est2PT4v+q6xLw0zN//JOhLb+USO5BtQQE6eTyZNslICEA3p/EEUYmsJNA6kBVQE+td4UAoRYBEpVqBUj1aRYgU2uSABUGzRGgUq1NpSKrEdpt30Ci3sEgNdfxINPuUVBhsTfdSu2Rejflm9TnMn4Njqxey2dMnZ4vzKehSjssEcaL8m19/BFYmgCH9nCgAxxmd7vZ22EMO8T6weH2t4aErvZBuRmmmi63UK5O7vktmHuIQ+09ZvVLFsnP2+MdITdPACtBuDOdpVIiibTlsL0P2X3Km5an3JNSW8feCAAA");
 
 export default TireFlat;

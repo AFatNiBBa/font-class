@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pizza` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pizza?s=light pizza}
  * @preview ![pizza](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pizza.svg)
  */
-const Pizza: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M344.2 389.5C318.9 406.2 288.6 416 256 416c-88.4 0-160-71.6-160-160s71.6-160 160-160c32.6 0 62.9 9.8 88.2 26.5l-99.6 99.6c-18.7 18.7-18.7 49.1 0 67.9l99.6 99.6zm24.9-20.4L267.3 267.3c-6.2-6.2-6.2-16.4 0-22.6L369.1 142.9l22.6-22.6 33.9-33.9C432 80 432 69.9 425.4 64C380.2 24.2 320.9 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c64.9 0 124.2-24.2 169.4-64c6.6-5.8 6.6-16 .3-22.3l-33.9-33.9-22.6-22.6zm-1.9 43.4l22.9 22.9C352.7 463.4 306.3 480 256 480C132.3 480 32 379.7 32 256S132.3 32 256 32c50.3 0 96.7 16.6 134.2 44.6L367.2 99.5C335.9 77.1 297.5 64 256 64C150 64 64 150 64 256s86 192 192 192c41.5 0 79.9-13.1 111.2-35.5zm132.2-22.4l-22.9-22.9C498.9 335.9 512 297.5 512 256s-13.1-79.9-35.5-111.2l22.9-22.9c28 37.4 44.6 83.8 44.6 134.2s-16.6 96.7-44.6 134.2zM480 256c0 32.6-9.8 62.9-26.5 88.2L365.3 256l88.2-88.2C470.2 193.1 480 223.4 480 256zm32 169.4c39.8-45.1 64-104.4 64-169.4s-24.2-124.2-64-169.4c-5.8-6.6-16-6.6-22.3-.3L331.3 244.7c-6.2 6.2-6.2 16.4 0 22.6L433.1 369.1l22.6 22.6 33.9 33.9c6.2 6.2 16.4 6.3 22.3-.3zM160 280a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm88-120a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM224 376a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Pizza = createIcon("pizza", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABsAAAALcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDLwsGAAE2AiQDCAQgBYMtBywbqwXIjtRWMQRpmo8gyjWqJ5tDcJhjpAcm+fUKLTtgEpL0wfPk39u5EVlBmjfphKZLFqoozQZsf7li/f/ncs9v2m3Az+e6RmvYgTS1d9RczxPoeda2sSkNdGEWqMbW6twQ6naG+KfC/QC0fJEsbEDtczDA4fSm8pVwdoBCOwIAIH4AAEChbq7lpk1sIk/tt0AMLYAASDUABgEswAJ8EQBysBDAF40BNBqBn2K3q//AOBAAEBfgHgoADTgBZ4HXAIAGQOHgpL2Dg1zdvRzcHZxsXHSb+zGOw3drV8ofW6sVT/Srol7ZyVSwyrRU26lQLZlSIXtCVqylVlP5tHe56lnbR7Wq94SUS4ZvZFTk097Xze8LriecKLzR8qFhuS1NHtcvdc71LnfNqzcVOiM96kbi8fJMeaaWKq0zWZZouRSvVvWKtTuoV3YGK0mXMtkVOnQmcn/KybB9yVpL3WCv3SThot/57/FmzKCL+vxqxBjhdI0x0/06h4b4Hhj4fWh4xyiE922hD8EYHuzbX1c2JA1s3RYeRjnlYeFHpxsYkrqy/Vv8GYscHR3d38rP6Kzb8z4+r55nRf9sZf8Yf2xdopR0SZdqbRTb77UhltUW4OMT0MZ1Wqm5G7Be1vdpVMFOiT1fVivDQsr5c2cPH+Zdz/lz/Vu7goMbA6lXa20y9MP4dgAQQMCcevGp37f0v5unAuD3/Z//y/UsPXWodDgP2KMAELCylrLocagEUGIBgLSSVQStfJAAitO4A64zp85mBUdoQWGLI1j44A4aR6LBBn9SlZ3zm7EQJwcEb3opKJxZBIs0NoLGm0tgQw4PUrZ4iyP+atin/T5ml/WR0nEmPy7BZJnFolpHScUPZ5vdkbRVuimSrmGMeeZYwSgjTBapJyyjNruSWcrWqFK+iCGROBIwZGFOVx4vb2OUZSxnknnm4ijZmPvdCFatd46kk1AAQNKXV7RHHGwWJtetGwQAAA==");
 
 export default Pizza;

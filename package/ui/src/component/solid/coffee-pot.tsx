@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coffee-pot` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-pot?s=solid coffee-pot}
  * @preview ![coffee-pot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/coffee-pot.svg)
  */
-const CoffeePot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 128c0-17.7 14.3-32 32-32l12.8 0 34 84.9C95 215.9 64 272.3 64 336l0 8c0 55.5 34.6 99.4 55.9 121.2c9.9 10.2 23.9 14.8 38.1 14.8L418 480c14.2 0 28.1-4.7 38.1-14.8C477.4 443.4 512 399.5 512 344l0-8c0-63.7-31-120.1-78.8-155.1L478.1 68.8c1.3-3.2 1.9-6.6 1.9-10C480 44 468 32 453.2 32L192 32l-69.2 0L96 32C43 32 0 75 0 128l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64zm65 192c5.2-41.4 30.1-76.6 65-96l188 0c34.9 19.4 59.8 54.6 65 96l-318 0z" />
-    </Icon>
-);
+const CoffeePot = createIcon("coffee-pot", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbQAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBXwsGAAE2AiQDCAQgBYMtBzEb4ATIHge5KfNWVEcR5U3i4fu1es993bMA2J+IFBEEUQE7IHJsxFZsKjL2TzG/Vwj+3988/+dRgM8otLFw6cYFtud5Aol1eeABZYFlGgDFmrWzSzGIbpN0KZ9kGN8wOSCPH7JHlEivpL/xfL1p/KvbIyTVGYBoAsCy7Zs3+XUohiL+Kn9F/GUDAmIZKAQyZOgTYKFMoE+uQC4XDEW5HP+BBQFEBfoSyAX/FuwG/UQkKc8XN9SW6vNttaWa3Q92RrxUWxtb49uJHxJvjHtv1Au19fF05zsTPhiMeHDyx/O3x0vxYMeLNXU1X459t0880P5C7dOdL0VsfW1CxAdjauOtce911w1/v+n9/zjGkiUNT/BEQ71hW8zfvmZqlerJg4P3OnId9wYHJ1dXmbpm+/yJ57WV6q4drysdeOD996uWanjiiQacv3TpL4ur6HrzR292VS1eDASCW/WPfbC/ceH/VbUJ/PP97TVSHkrS+6iSQJBNLE+0J4FEAABSXDM8QSDZKOFV67woQKhBgKRCjQCZXk0C5GpMEKBkwCwBKtTYLBN5tdBm74CkzkXIzHYXcm2+gJKFfrMrtEXmV7RX0N+6hNWKVq0V0yZPLeYXy1hnXIXM8wXFtjj2WqqNw65jzjvniqOOOOmK4Jds8q46a7WFrfKgwjSTTVWYrzjOnre3OeqSy04671xZskBxXx3rmt09DkpCwul8SSJSzUO0Jl04fwU=");
 
 export default CoffeePot;

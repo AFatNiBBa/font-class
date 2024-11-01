@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-left` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-left?s=duotone up-left}
  * @preview ![up-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/up-left.svg)
  */
-const UpLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M142.6 302.6L276.7 436.7c7.2 7.2 17.1 11.3 27.3 11.3s20.1-4.1 27.3-11.3l41.4-41.4c7.2-7.2 11.3-17.1 11.3-27.3s-4.1-20.1-11.3-27.3L238.6 206.6l-96 96z" />
-        <path d="M48 80H288c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-240 240c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6V112c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const UpLeft = createIcon("up-left", true, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABYQAAAHZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBGAsIAAE2AiQDCgQgBYMtB0obtATIhoePtf+du7vvfXV0EdcESdySmE/3ColE89CtmkTmT9087zwK8IHepbk9kAU+53kCnWdRXJgHtM6zhLHdubVwiPZKSyzJL5HjskEWh9JTCiT3k/e4Gh8cX7Q5RaIsBRC1AJi2aN5cLz/GxyTetz8n3puDgJgOcoEUKToJMFEq0EkmRyYTfEza2/kY9ueXE0AU4SekoIgMgzAOkIFEiCxrrKsoVGULKwrlyyrKKx603W+cH7d6P+wQcbzlbsWiBQsX3K642DIl7sbx5oUxv/vT2qffur3f+N6QXT9h3dQTaz/8+OF/777ZT9XnzlW7cu004D24Me8jPB9i1SogEDz7fPPeqpqJ/0orEvD5xY8/YV8tcSx5ilIJCNKB7QMtj2MKJAAYkjio+6uuCqQaJfisle4IEMoRIFFULkCqo1oBMuUGCFDQxSgBisrNk4qsTGi0gkCi0h6QGu0wyDR6BgomemUXNUZ6aug9p/9sCbMlMmssHzZ4aD4+b/oScxBI35+Qdxt9D7pcP1y00S477bfBelvsF9hec70DdpitobN8KDfMYEPlxsuHo0thobD32mdLnRsfMkE+3+rroF7dD6dJAMPXeyYlkkhrDux+Tsqg26fWSe6aAQA=");
 
 export default UpLeft;

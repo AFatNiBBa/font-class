@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hammer` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer?s=sharp-regular hammer}
  * @preview ![hammer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hammer.svg)
  */
-const Hammer: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M504 136l-33.9-33.9L405.5 37.5C381.5 13.5 348.9 0 315 0L291.5 0c-23.2 0-46 6.3-65.9 18.2l-.8 .5L176 48l50.9 25.4L272 96l0 48 78.1 78.1L384 256l16-16 33.9 33.9 4.1 4.1 1 1-4.8 4.8-17 17 33.9 33.9 17-17 89.6-89.6 17-17-33.9-33.9L527 191l-1-1-4.1-4.1L488 152l16-16zm-67.9 0l-16 16 33.9 33.9L492.1 224 472 244.1l-38.1-38.1L400 172.1l-16 16-64-64L320 96l0-29.7L293.5 53.1 284 48.3c2.5-.2 4.9-.3 7.4-.3L315 48c21.2 0 41.6 8.4 56.6 23.4L436.1 136zM264 181.3L0 416l96 96L330.7 248 264 181.3z" />
-    </Icon>
-);
+const Hammer = createIcon("hammer", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCFQsGAAE2AiQDCAQgBYMtBy0bEgXIHoXpNp4dkcGU9RncJR7+f+1f97kz7wVwQjgBIHJRDEL9yLiwgraqGkiS7KqcZP5ayPfakItTz3OefT494kHLfsraIB0LaM7zCvS8IPVttQJt0Ipid6dtsiLaKy1lSfodOz4HyOOnuKdGep7gbnuo+Ftn10lqGYBoDYBZG9Ys8/n3+D3ih2riB0sQELNAKZABdFMMTD000E2uRC4X/B5VVf8DSwKIOrltAjlqOIJLgBwkWZ5P6tWkWa1Fvj5f1fTA9GnTV8fH+U3jxsB2sTAWxaQQ62JadIzQPiXtYmBPhsQGhOkKOpB4enRs2q5ju2mBD4zpTLtYHQH9F/HNZtG3Dlq3dueenetiS6zv3dC64d/s5/8JRVFU1s7sqO+PNDfQFyMtW6ZQKYzBXBTYtAmFXzBGoZpbVVVhnTHWKVQq3fTwyiN51kmv8zNmvh7a6C+Md6zex+zZQCCo57P77Gg19b/GJfDnW/DF1ec0IzWgsQSCbGg11NY0E2EcKAAAKc7rHXaFZI+MPGpzTwQITREgqWsqQKar1gLkmhoiQE0P4wSoa2qNTORNhHa2DSFp7pSQGe+akGvnjVAz1ddSXbvIXE51GPXHF8zXyLxt5ajhI8vJ5bKta14kl/Up5bYz8DyPDYK99jvhuLP22euQs4o+bVn1nGPmW+g8P1QaZbiRSpOVx71nWE/MaWccso6fbzJFeb8Y6Lw9exD4iUiOlibpEVrrB3cdO7bvNAA=");
 
 export default Hammer;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-flag` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-flag?s=duotone building-flag}
  * @preview ![building-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/building-flag.svg)
  */
-const BuildingFlag: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 48C0 21.5 21.5 0 48 0L336 0c26.5 0 48 21.5 48 48l0 416c0 26.5-21.5 48-48 48l-96 0 0-80c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 80-96 0c-26.5 0-48-21.5-48-48L0 48zm64 64l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16L80 96c-8.8 0-16 7.2-16 16zm0 128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm96-128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm0 128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm96-128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm0 128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M480 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 480 64 0 0-320 144 0c8.8 0 16-7.2 16-16l0-128c0-8.8-7.2-16-16-16L480 32z" />
-    </Icon>
-);
+const BuildingFlag = createIcon("building-flag", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABtAAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDKwsIAAE2AiQDCgQgBYMtB1Yb0wXIFiFJJw//2UV/X1XP7G7PGrUwI0CfziSncvYdZOrzUyGeiWue//nTA5Y9waN0YmsBL/N8NKAJtEVTAk9oOoXhCH1pqGx2Z9vKI9orac0gx2eOyx6qNDXfokV6Mn2H+/P/AMavRriFpFcGEP0BsP7Anm2+aKJJ8V33HeI7WxEQG0ARyMgYLcAqWWC0SkGlEjSp26WJbrcQQLTlJ2bQRo338CmgAknoUVUjpw3kyzqtPtX+Tqs+98ahEY/Vdw1+RIpO5OjE48NEPLTOT9O6j0/tE68OeXREiicGPzKpjoinhj425ZUxw0UdrxWMzLuER4esjI9HBqNvOGCvMeGt/m/9Pv67c77z8/N97+COvpGe1FhnnQc0fW/Qt3nAA/l7fphXzPvh+/yC/P0P807amWjh7XRSndotpfRtiqZvge1vwJ84cf3A9UAgeHHZuEUn+q36v2cngV8++vNfvFz3i3RDegs9JRDkWd1ZjqYbIOAD+FAprjEh3RAvIJA9ogd+1d4eEyDUCJC01QJko/QXoFKbKUDLWIsFaKvtkUXVSxjsWIWT3i6HsyWuhSuDvQ23rPJl0jY4svuyzsf+HpO2tMDmSWX+nHllRekWFc4j6Ti8skxb064RTdNhpXNc6hJXOdtZzndVA11hW361i22xwM3eqJhvjnmKFcp2ZSntp+QKVzpfF/ZHWamc96e5xu48HdyECReYk2UiRR5yw+XZT0Wb/RTaDFOEaw8AAAA=");
 
 export default BuildingFlag;

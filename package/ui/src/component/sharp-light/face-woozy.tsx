@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-woozy` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-woozy?s=sharp-light face-woozy}
  * @preview ![face-woozy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-woozy.svg)
  */
-const FaceWoozy: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM205.3 120.9c-28 42-69.6 64.1-88.3 70.3l-15.2 5.1L91.8 165.9l15.2-5.1c13.4-4.5 48.5-22.9 71.7-57.7l8.9-13.3 26.6 17.8-8.9 13.3zm22.1 114.8l-15.5 3.9-64 16-15.5 3.9-7.8-31 15.5-3.9 64-16 15.5-3.9 7.8 31zM411.3 347.3L372 386.6c-13.7 13.7-32.3 21.4-51.7 21.4c-13.7 0-27.1-3.8-38.7-11.1L267.4 388c-18.2-11.4-40.8-13.4-60.7-5.4c-30.4 12.2-64.8 8.6-92-9.6l-11.5-7.7-13.3-8.9 17.8-26.6 13.3 8.9 11.5 7.7c18.5 12.3 41.8 14.7 62.4 6.5c29.4-11.8 62.7-8.8 89.6 8l14.2 8.9c6.5 4.1 14.1 6.2 21.8 6.2c10.9 0 21.3-4.3 29-12l39.3-39.3L400 313.4 422.6 336l-11.3 11.3zM327.7 169.9c-4.5 8.9-7.7 22.4-7.7 38.1s3.2 29.2 7.7 38.1c2.2 4.5 4.5 7.2 6.2 8.7c.8 .7 1.4 1 1.7 1.1c.2 .1 .3 .1 .3 .1s.1 0 .1 0s0 0 0 0s0 0 .1 0c0 0 .1 0 .3-.1c.3-.1 .9-.4 1.7-1.1c1.7-1.5 4-4.2 6.2-8.7c4.5-8.9 7.7-22.4 7.7-38.1s-3.2-29.2-7.7-38.1c-2.2-4.5-4.5-7.2-6.2-8.7c-.8-.7-1.4-1-1.7-1.1c-.2-.1-.3-.1-.3-.1c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c0 0-.1 0-.3 .1c-.3 .1-.9 .4-1.7 1.1c-1.7 1.5-4 4.2-6.2 8.7zm-28.6-14.3c6.6-13.3 18.8-27.6 36.9-27.6s30.3 14.3 36.9 27.6c7.1 14.2 11.1 32.8 11.1 52.4s-3.9 38.2-11.1 52.4C366.3 273.7 354.2 288 336 288s-30.3-14.3-36.9-27.6C291.9 246.2 288 227.6 288 208s3.9-38.2 11.1-52.4z" />
-    </Icon>
-);
+const FaceWoozy = createIcon("face-woozy", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAABwAAAAMGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhECEDQsGAAE2AiQDCAQgBYMtBzEbDgbIngNu8/RIczhGTaXjZ0h49PUbnigoaK2snp17mLvnhedMiFElism9CzkiR6AIwDEKk4M1d5dm4lUFS9qgPXERSf8J8yjiefuEWsMziTwEaE1zX6SRYrZAjti4Cjc74WfnNksoTI0YuaoJVZjIzRNJCEP//PN/ruezDJAPNrHZZlYXWOkVGBEC//mBX3vaCc0O7MQmpKdORxTqIcN8RSToVqV4nPW4vAMbzsoLKZhLcwVY445Sk8pyYNgYAAAqAwAA9D5rbIBLX+Ej4L3WPVBDHRBA6wA8gQCHKwlANwFpzvJoSkt4E6r/DxQCgJIQNb7eglzwCfAPACwAIztuKzRxUePuFelUnp2QS7jJV/PSkSEX2YFBZ7P7fkfrw4PPc4NDLxeO6mZebmC4unebGxx+vVY5eVotb19lB0bcrNOnreuj0v4wVDkmuKXhvqaJGmPYLFWE/fDCP3C7XtYcTXTb7wYaxDpY71ZYLpObYoQHD3Q82znSpvRg0lOpqpYpZPsmaKQp0YPJFllUvFnHUcoOhBvDBuPb0pb0YLQp2gbZtTHc6AZuv7ldVEWdg4UHf/ZdEVfeP7k0eLLcEIkMjz/Qeemx2x9yGZTdXt7IVG5VufRvvdMbjYs2Eqz7/TPjx+Jug2uIcUPti77Z1DJ173n8sd4B12vSy9wX5WbYOumMyi2n6Nzn9ZvpvPCSgEMIZw73z5XKGrsJIYTUHu73RNfu1/aC1UX+6lWbK93Ve6THPgcABIShy78L7YLFfyYGgHcvf//uEv4XgbkByGEACMFk1WtiBMBAeMiEZepEABpCvcIAp2ZshgDEAQEwsjgCEKhQSAAspykBSKnWngBkccYKKJ6LhCYdwMhYCAId1AArdBSkdHMznyUMQblbxWr9bebPK5LbZwy1aOW7+LlntyvYWHe7+scB57JlpjFuwjTzzbPEVFPMtESERYaXlpprQET190Neay204nXh08PP/gmSX2SxmX1PHkZX/v1MI8vi5Y0RNqjaRoNhoMh9THW+zlKppxs=");
 
 export default FaceWoozy;

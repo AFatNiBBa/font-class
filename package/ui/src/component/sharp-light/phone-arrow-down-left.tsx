@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-arrow-down-left` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-arrow-down-left?s=sharp-light phone-arrow-down-left}
  * @preview ![phone-arrow-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/phone-arrow-down-left.svg)
  */
-const PhoneArrowDownLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M280.4 355.3l21.3 12.3L319 350.2l40.7-40.7L475.8 356 453.3 480l-5.3 0C218.2 480 32 293.7 32 64l0-5.3L156 36.2l46.5 116.1-40.7 40.7-17.3 17.3 12.3 21.3c29.6 51.4 72.4 94.1 123.7 123.7zM512 336L352 272l-55.6 55.6c-46.5-26.8-85.2-65.5-112-112L240 160 176 0 0 32 0 64C0 311.4 200.6 512 448 512l32 0 32-176zM499.3 35.3L510.6 24 488 1.4 476.7 12.7 320 169.4 320 80l0-16-32 0 0 16 0 128 0 16 16 0 128 0 16 0 0-32-16 0-89.4 0L499.3 35.3z" />
-    </Icon>
-);
+const PhoneArrowDownLeft = createIcon("phone-arrow-down-left", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABcgAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCEwsGAAE2AiQDCAQgBYMtBzwbHwXIHoVxYz1yi/XjYPxS8fD/a2X3/aqek3RPkCtAAC5RYaGIF8ix3dXEcnUnyydzhrzHT53KuZyHAvhGQRsL1wQZk8bqXOcVKGAfU1vnFakVrCIVqIB1cdtNEZPQPkLiAXl8HJRI99K4Gb1p/KOVKyR5BiAaAmDi8sVzffFj/BjxXfUt8Z3ZCIhJoBDIkKGtAGNkAm3lCuRywY9RrYr/wIIAokby3ARylLABlwA5SLI879SqXaVUL19mLpc3d+3WtXeMj6WxJMrxwzJlRiwfw8dEj2gV3y9dvmzpsgWr5uJYti+YkSmkEstXtWjaolc0jUljlwMRK5W+p7y806OGj/7ztu+0WEOuCdcd7qv5aSWHrR2+dtiw4maHS0431++wG3irz9x5fX5v3HiaO25qz55Tj+vOeN5BwZnRW7CwhebPKHR4XusjA93msYcPrNRQoZELYsNb7VesfPAQCATnjj27tr7BmP/rVBL4+aMWv6LqF0l6hDoSCLI+VdYkkAgAQIpjOiUIJCtk6KvWui1AKCNAUqMsQKaNhgLkynoLUNLeUAFqlC2Wibyu0NTaHiS1DoLMMGdBrqnXoGSML70aTSODOBpe6B++hGljdOqpYmC/AcWoYnOgZYCItIeji9Nij2NyoSfutc1++xyx1RY7HRnhh8wNj9pr2h421QcVBupngMIoxe3xc2EZNQ85PCbX2fvHjFa87/ZwbH99T6wkCeEglSQRqVmYzPbdeOjQ/uN9gyL1RQIAAAA=");
 
 export default PhoneArrowDownLeft;

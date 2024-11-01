@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `caravan-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caravan-simple?s=sharp-regular caravan-simple}
  * @preview ![caravan-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/caravan-simple.svg)
  */
-const CaravanSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 80l0 288 60.8 0c16.6-28.7 47.6-48 83.2-48s66.6 19.3 83.2 48L528 368l0-176c0-61.9-50.1-112-112-112L48 80zM96 416l-48 0L0 416l0-48L0 80 0 32l48 0 368 0c88.4 0 160 71.6 160 160l0 176 40 0 24 0 0 48-24 0-40 0-48 0-240 0c0 53-43 96-96 96s-96-43-96-96zm0-288l192 0 0 128L96 256l0-128zm352 0l0 128-128 0 0-128 128 0zM240 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const CaravanSimple = createIcon("caravan-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABdQAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBdwsGAAE2AiQDCAQgBYMtBzUb/ARRlMvJDNmPg5yM18TJsWyXeKGAEje1iCeX0mrHnvYnnv/nvt8+908jDuPyT5/HLLAsTIssDrkEWmnA9SCiOWw2BaIrcUqkmBQBuvoaEVVwzMJWGHpSCP/QzXuN9TuOS2GrpJvaXmTN/7me7/logJ9HMLQOHUiBdT4/gRMqbzqhKLCJ4qnbWLgPorwYRI7gETHEhWbwAO38lh4z1If2BO/1R/PLyyYUsxYAMgcAD0+15Zy9yVvksXmRT6UQkAfAgUALWrAhwJkJgQ1TCtpMCb7lf5P+AxUCSBf7qALa0INneAFoA6XzPS9TcWzlW6+Un3SO64gp/LTZCt29BKxRT2raJErABWT/nON6SIYknSOu5C/q8XeV+LcBazAJoHoMO0I2zyF0Dz99isfxec+NeOp+Ev+qlMrhuqzRx6ex7PqPHRz+P79G4yt1vVVH0elvufL0Jbk7IhY6no+WhrG6ahiW6uzsbJUzVltXwSG+1wDr4YWFYet2O0AguGzO41scsn9ZSgP8HHx+6vU0Z7WqGaBPA4LW8X+MxloFgBaAXZkmKFhYoDQwA3avY9sIENYQoJizJkCLD0cCtFmLJkCHvxQCdFmrZULaVghXTQNobI0BE6mWgClX+8BMtlvbnGtMOEYyhHzixRV4KH+dSojTVaZaxjpFGzzPs9S2FjGttUjspduIYZO6dOoz6ZBx5d6UIQURnG9BSoI4OiWTOs6etzfoMm5CnxHDZZUs6r4VYTrujoSpMcyTTUVDyr6jbfxLYDGWpwA=");
 
 export default CaravanSimple;

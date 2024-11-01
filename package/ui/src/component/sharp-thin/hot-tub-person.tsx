@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hot-tub-person` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hot-tub-person?s=sharp-thin hot-tub-person}
  * @preview ![hot-tub-person](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hot-tub-person.svg)
  */
-const HotTubPerson: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0l0 8c0 30.6 13.9 59 36.7 75.6l16.1 11.8C336 115.4 352 148.7 352 184l0 8-16 0 0-8c0-30.6-13.9-59-36.7-75.6L283.2 96.5C256 76.6 240 43.3 240 8l0-8 16 0zM128 160l128 96 16 0 224 0 16 0 0 16 0 224 0 16-16 0L16 512 0 512l0-16L0 336l0-80 0-80 0-16 16 0 112 0zM272 272l-16 0-5.3 0L16 272l0 64 0 160 480 0 0-224-224 0zm-42.7-16L122.7 176 16 176l0 80 213.3 0zM384 8c0 30.6 13.9 59 36.7 75.6l16.1 11.8C464 115.4 480 148.7 480 184l0 8-16 0 0-8c0-30.6-13.9-59-36.7-75.6L411.2 96.5C384 76.6 368 43.3 368 8l0-8 16 0 0 8zM120 320l0 8 0 112 0 8-16 0 0-8 0-112 0-8 16 0zm96 0l0 8 0 112 0 8-16 0 0-8 0-112 0-8 16 0zm96 0l0 8 0 112 0 8-16 0 0-8 0-112 0-8 16 0zm96 0l0 8 0 112 0 8-16 0 0-8 0-112 0-8 16 0zM112 64A48 48 0 1 0 16 64a48 48 0 1 0 96 0zM0 64a64 64 0 1 1 128 0A64 64 0 1 1 0 64z" />
-    </Icon>
-);
+const HotTubPerson = createIcon("hot-tub-person", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABpwAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDVAsGAAE2AiQDCAQgBYMtBzUb2QXIjsQ4JvJIp4qDCCpdVVZLS9KCjliHAE8EPiFbbJ8/se4zTCEw/8/lnt/5bcBPd2SHNjYt3XgVZWMMihJYYGtg3gvoQAILI03Asnb2P7wBdaZPQpEwbJ9h84A8PnCyFtJ9KW7RN41vDHEzSZYBiAoAqw/u3e7TRjQivm6+RXxtKwJiNagFMmQYLsAymcBwuRq5XNCIZlP+A2sCiFZ4ZQI5uvAZDgNykJR5PmRIV8fgPkihq6ts6coPlC3FUcJDiwfER6NFEREPLxkYH4+JKPftP7C/LIUQRWfg68v9RdkpRFdEFAsO7D9QhCgPHsgLJwuCxpzLsknnxPsnPD3uycH3jX9q4jPDikemvjD5uREPTnp2yvMjxzxfPf/d6KfW/KRde8/Sv93aRqVdia975LrjUkH1Y6WhosmjdtnFW5rnVZVVHtVg8pUzdm52ll0O3//HJYHZbQvb29vPZ9IJH9+UTGwW51511blF4J6f9f70U2/2PBAI7uq/ff9xPct+ay8T6H3/h2/4Z6T5aZKeR7sEgmxac5qjE0gEACDFpcYkCCQfK+Fup7sFCAUKJK0KyAxTQa4wFVqMNF9YvLNXJvIOob9jECSdLoDMAtdArr83oMUynyet+kdm0pJBSh/K9A01sn5ZPXvGrHpJPazJspUKfnZpvWxNutT1TKaLTnWec13sFCc7w8UVc6HtuUucY8MMW++DarPNMEttiXq7eX/6gFNc6CJnOM+5cZGl6vveJJfOh08mNwHvHHeTRKTu08+7ePrFl5w4/RUAAA==");
 
 export default HotTubPerson;

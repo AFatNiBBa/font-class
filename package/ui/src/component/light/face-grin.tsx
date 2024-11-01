@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin?s=light face-grin}
  * @preview ![face-grin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-grin.svg)
  */
-const FaceGrin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 98.1c-31.2 0-61.4-2.9-89.9-8.3c22.6 23.6 54.5 38.3 89.9 38.3s67.3-14.7 89.9-38.3c-28.5 5.4-58.7 8.3-89.9 8.3zm142.8-30.7c-24.1 54.6-79 92.7-142.8 92.7s-118.7-38.1-142.8-92.7c-5.2-11.7 6.8-22.4 19.1-18.7c37.3 11.1 79.3 17.4 123.8 17.4s86.4-6.3 123.8-17.4c12.3-3.7 24.2 7 19.1 18.7zM152.4 208a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm184-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const FaceGrin = createIcon("face-grin", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiAAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCIAsGAAE2AiQDCAQgBYMtBzAbIAXIjsK2tXNMGNeESYr0QIUQLVtmbv8ppXpQVdUmu5DIohEeVYXFYiwKYZpFo8+n9mtvDzFb3LWJJfWkIvWHwpCg3sWp55kWCuAbBWVsXBqQBRKa8zwCEVitT1uCvYLVtALW3dk2OETKIUWKRvrVHKcTlNgnBrjIV9YDeAgfGn8Y00QqFQCiFwBsXYYH4oQhDCEP7E3iAycgILYBzCKoUGESAas4BCZxmgVFEXwTdm3+AykEEE3E909Q0IobcA+ggNQsnAoTfDJtfAJcQpxRAg3+9DEzQtb87vibfW5MVuio6arvrUCL/735urrgtzuJ8+BngZbAR9fTyA+Xk4AH/uagJ7ezqMhmq0PPa+cN/ugFG0J2PK7s9oz6ZQak1lhc7JOMGtGelBvUmJKP1mx9g9qc6NyP6kPWA76OBc/g0ynQ3j7Q6e1MUIXMcQZ7bYy9n7q7n67L8WHPh/FldarxtEZKisa0cbuybgxwCIdXujqRmQ117u513ZGROv93UqGhUonclhHpfgACweKjc2+yyOp/qwAL8Lv3+5d/hOqTRL6BVgmCar42kJAgCQBARhXUEgika5dod3ra9UM7BKmpHSoTRKFoNwcN0yx5pnbKWojChzAoEULqdAuVFdVQDFqHhlXXTtNgcAieKDbity/Nq0U856ipkQm1o8NQkWSJd2N7ytZ1qmxJF44iS7EiFTJlyFXR0GUC/UqFvGaUpy+iTBkxQdmh28n9fpRMZcrlKlbkp9ij520dVfNmXbBYIuOCQEoi+V61Y5hdllsEAA==");
 
 export default FaceGrin;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cable-car` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cable-car?s=regular cable-car}
  * @preview ![cable-car](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cable-car.svg)
  */
-const CableCar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm-64-8a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM432 288l0 64-80 0 0-80 64 0c8.8 0 16 7.2 16 16zm0 112l0 48c0 8.8-7.2 16-16 16L96 464c-8.8 0-16-7.2-16-16l0-48 104 0 144 0 104 0zM80 352l0-64c0-8.8 7.2-16 16-16l64 0 0 80-80 0zm128-80l96 0 0 80-96 0 0-80zM96 224c-35.3 0-64 28.7-64 64l0 160c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-160c0-35.3-28.7-64-64-64l-136 0 0-76.5 212.9-44c13-2.7 21.3-15.4 18.6-28.4s-15.4-21.3-28.4-18.6l-232 48-232 48c-13 2.7-21.3 15.4-18.6 28.4s15.4 21.3 28.4 18.6l203.1-42 0 66.5L96 224z" />
-    </Icon>
-);
+const CableCar = createIcon("cable-car", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiwAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCVwsGAAE2AiQDCAQgBYMtBzAbVwXIHgk2Lny9iCsrnofX+//WPsl9SL6RD2kIdZArqZxu3NGlXKK8VftewP7zfzm98fzoAL/RoYyNc2YTaG/uJRBgetaYIPG2MAslcE/dlD7tIUjQQ0SzoWXIjrPseLaDOq/nPj3K4+Uj3JvfNH+Z6iaKXgUgYwCw69GHH+id7/N98mEf+dD+CGRX0AkqVJghYLtKMEOtQ60Wvk+/r/+BHQEyAFdTQI1h3IlHATUoBut6/PgRI9vh1W1vZH1U22vOvnNy8miun/RIc8eEh1w38eF2r2kqMXJL6u85UjRJ2jw8kXhowog8Milpj4o8OrmNNEe3TStNctSzi5MXp8jjS15aMDIvLHtlevLE0pcXNkmOzgvTnph/RI7Is1MfX3R0pJn78piX/5nz0VkfmX3tqNu4bdSo2+qA/6/Wp7/tgiWHOMQuvh91yWooo77v6dXOOXvVkibKsa49+BSsdohTHHLxqifHMrZ5UjN27JO7IF4TbnOAr5bZa+IZh/22SrnknguOOPSDJXZzGxCEZ8rN3508evu/Q20BP772v3Zmf18p5WUMKSBUy/vLnVA40BkCmZKrzJVPEhQ3GiSvOsIjAqJBQDGgEVCZboyAWmOZgJ5ZNggY0DhcJfWwmODEAYoRLgWVja4GtQleBT3bvZsZMCFVTLIRxf4SJu3F6J6LujUrV3dbu21V58KMTtPbusfy4qusa4kkOsvFLnKFM53hXFcQfpkD81e60F4etqcv6qyx0mqdrbrjxnfpKLIuc7nRa+F8nm269/3FrvIHLxGtAOFaBUUhZfiLTa04/dTLAAAA");
 
 export default CableCar;

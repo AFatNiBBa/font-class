@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `motorcycle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/motorcycle?s=duotone motorcycle}
  * @preview ![motorcycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/motorcycle.svg)
  */
-const Motorcycle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 352c0-70.7 57.3-128 128-128c62.5 0 114.5 44.8 125.8 104l-66.4 0c-9.5-23.5-32.5-40-59.3-40c-35.3 0-64 28.7-64 64s28.7 64 64 64c26.9 0 49.9-16.5 59.3-40l66.4 0C242.5 435.2 190.5 480 128 480C57.3 480 0 422.7 0 352zm384 0c0-40 18.4-75.7 47.1-99.2c10.5 19.5 21.1 38.9 31.6 58.4C453.5 322.3 448 336.5 448 352c0 35.3 28.7 64 64 64s64-28.7 64-64s-28.7-64-64-64c-2.4 0-4.8 .1-7.1 .4c-10.5-19.5-21.1-39-31.6-58.4c12.2-3.9 25.2-6 38.7-6c70.7 0 128 57.3 128 128s-57.3 128-128 128s-128-57.3-128-128z" />
-        <path d="M280 32c-13.3 0-24 10.7-24 24s10.7 24 24 24l57.7 0 16.4 30.3L256 192l-45.3-45.3c-12-12-28.3-18.7-45.3-18.7L64 128c-17.7 0-32 14.3-32 32l0 32 96 0c88.4 0 160 71.6 160 160c0 11-1.1 21.7-3.2 32l70.4 0c-2.1-10.3-3.2-21-3.2-32c0-52.2 25-98.6 63.7-127.8l75.2 139.2c6.3 11.7 20.9 16 32.5 9.7s16-20.9 9.7-32.5L418.2 128l61.8 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-20.4 0c-7.5 0-14.7 2.6-20.5 7.4L391.7 78.9l-14-26c-7-12.9-20.5-21-35.2-21L280 32zM128 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Motorcycle = createIcon("motorcycle", true, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABtgAAAK2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDIQsIAAE2AiQDCgQgBYMtB1AbwwXIBp7/z7nu+0k5kIC3iAZRGXPduUqXoztR6R/38/xbFeDj71qr9rb0iDyfwM4zKJoGNJrgZmobnDf4kEOaQvkF6CpRm4wN1ArlBObF/wMobwhhMig8NAAAxBcAAKjWpkUjzj+Uh0qcrsMgThoCAiDVAbAQQAM0IBwBoAwNAcLRsQAdHYGHyuWCh+JyWSAAIG7EqIbVDZ1yADgNAOgAKPYxul47IDHZtHnprU2b0Wdz8Ip4U0KkpVTITsOQmfbFIKbcKT/TarzdlKUyIXNfaitZkbgttLWYMitomYhMCFx6LaZMQmVlgtF2gxNZpjw9YrxjiSmbKkXO1TlSfCLCkJVJ3Oak7cErknfEB1PDTFlddDzvasXZGK8zjiWOzLWc9ZO3pe4KW5myM2GmsTJ0aeA280r5mej1Zadrnnp7zE7fne+inb2dBK1r5nA0K+Ef3ZrhJCasF97Tp3tbdKWGOJ1Swy+jNhl+SXCn/kwOFqVOGn6bimMlmG7Hc+oLHnCoa+WyLjMHcKnKYYfS1ZYHNZp+DA9fXYNuv1871vv5GQaIWe94/btbDVZv7fnYtEaebXzE5TGD5o59GCx1+wm6tmlT3brxdhaw5dVo2rwOAAII5JUefd3Fp+ybu6kAeHzywxfwPK6HarzaCbijABDQ0lxpdFTjAZhYACCoZDQxWz9kAQJotEORuj1Z+jgqGDCAwg0DNMLwBR2DVLARSb5ycXULNET3QLDTCYLCk2GgUcAY0LFzCGyUcS3khl00m6uxd5ofx4y1p0itQVZ2RpZVYu3mdFrLqAS9pdZlZ9JoXpMMd9KbIQxmJL3oST9GToThNIqOYhC1j6hafBGLbDLIwqIE63HxpbH1JDScEfTb1j/vpxTre3cSo4+bJ8PhKAAgR8+TNBAlmr8nVb2MNd0P1NrneuMO");
 
 export default Motorcycle;

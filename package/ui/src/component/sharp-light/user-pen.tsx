@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-pen` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-pen?s=sharp-light user-pen}
  * @preview ![user-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-pen.svg)
  */
-const UserPen: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 128a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0A128 128 0 1 0 96 128a128 128 0 1 0 256 0zM43.3 480L87.6 336l272.7 0 8.6 27.9 25.6-25.6L384 304 64 304 9.8 480 0 512l33.5 0 284.3 0 5-32L43.3 480zm510-210.7l41.5 41.5L572 333.5 530.5 292l22.8-22.8zM398 424.5L507.9 314.6l41.5 41.5L439.5 466l-49.1 7.7 7.7-49.1zM617.4 288.1L553.3 224 368 409.3l-10.8 69.5L352 512l33.2-5.2L454.7 496 617.4 333.3 640 310.7l-22.6-22.6z" />
-    </Icon>
-);
+const UserPen = createIcon("user-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABhwAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCQAsGAAE2AiQDCAQgBYMtBy8bPwXIHofpFuM2YvZKCCeCymaV1TNS7I10yHPM+ABoEZqIFoP51sa7aAHLDcbgnKfuxg6prY43dep5zkML5DlLMGhj4dJt8zyh7I55XoGe97y1sbFA3VawimJ3Z0vmUMwlaWmWpF/NcdpDHv/EcBXSg+kL3JO+NH7U1Y0keQYg2gBgzqZ1K7zTHM0RXzQkvrAMATEXlAIZMvQQYLpMoIdciVwuaI5GA/8DSwKIKrrjBHI04UrcC8hBUs3z7t07t6i1r1Va5htrlWLbdd0ZDw+a2h0Dqqu7tov1z+L2gd0tonbdUMbTQ1XcPng97tohh9fuGPZXiP2b1m9qGV1jWPSKeqyPLlFr2T3q+2bMnDE4Zsaw9Zo6Q0rNj36b1q5Zuz4HPWJSbHLnDYuhfZ9uo5/54uAXrpnV7UM+3H68a9fj2z/8sBvL4bLmfnXq337Tt+8339br/SAH/vhdw+8p67bBHR70pNkmvOBxfXus0uW/7x4kxkG32fjQwyduf6vjJ3R2+vtbG43Gm28qFpgtt6Dw5FMOOAgEgiGX/NGu1tN/a6ol8MPbv14v13gnXZueRpMEgmx4Y7jt6VpAYgBRiov6KgsMJOdd6qfW3SdAKBAgqSoEyHTXRoBcYZgAFb1MEKCqsE4m8hZCBzs6SOrOgMxEV4FcB6+Aiuk+Dqs6RGaIghkJ38DUhRxaMK8cM3J0ObWc5ppoW1ycnlYua4Mvhq4hsNJBp5x03gH7HXGeIWetSC44YaEGL/BDpTFGGq00VbldPaobWXjWOUdkeX+Wacrz1mAX9cFDwEyIdaxMkojU9Hj9EacPnAQAAAA=");
 
 export default UserPen;

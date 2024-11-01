@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `earth-oceania` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-oceania?s=sharp-regular earth-oceania}
  * @preview ![earth-oceania](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/earth-oceania.svg)
  */
-const EarthOceania: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM387.3 379.3l-24 24L352 414.6 329.4 392l11.3-11.3 24-24L376 345.4 398.6 368l-11.3 11.3zM288 400l0 32-64 0 0-32 64 0zM416 256l0 64-32 0 0-64 32 0zM192 160l0-32 96 0 0 64-64 0-32-32zM96 336l0-48 64-64 32 0 0 32 32 0 0-32 32 0 64 64 0 80-96 0-32-32-96 0z" />
-    </Icon>
-);
+const EarthOceania = createIcon("earth-oceania", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhwAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCTAsGAAE2AiQDCAQgBYMtBzQbUAXIjtMltDKfPh6en+vt3JfMh2SKnFYx8BKAsISkyKJanXxlZZ64Jv/9+Tdg04s/0vci0toj8nwCEypPsAFFgc10Arbd2SYcon2IRSQ5vnF89pDH63GPBunR9AXuDh8af+njBpJGBiA6A2Delg2rvPN7/B7xef0i8bkVCIh5oBLIkKG/ADNlAv3lKuRywe9R1+Y/sCKAaEHPmUCOdtyI+wA5SFrzvF+/Lu3tZZ+y0SHfXDaKA9eOjnhq+WfFbUs/GZlrRj257NPy9hWfjxHNnxdEvL/m6/L2VV/Oe3fTD3PfWflFcdvqr+a/t3nf0BFDu8fw6BUj1Pph0X2jUEREuSUVbA5Rhqg4wzeG2CAiEJZ1vbOiGPJY58f+GfzhL3z99rS3eKpZTplSNp96axprMLu/saidPs+/u2DBu8/3abfIN2LgussuprLHHfaai8XA/u4V8OaqzL367rkiJFW/7Wnhveam1HuMxXit0pesrbVXbS8QCB799cWZezrN/L+tTODP1/77j/oV1e8k6TG0SSDIRtYj7UwgEQCAFBcZkiCQXKkVXmvTQwKEAgGSFoUAmX46C5ArjBCgYaBJArQobJCJvF3oblchk6ZzZGayK8lcd8+TDTN9nGnRPTJxVIRJ+QxmXMzBRauqcaPHVtOrYUNWJUxyizOqZefQi+zAMNjpsDNOu8AhBx1zASPOsyp/oVMWz6BFvqgyzmhjVaarttu3mzc75DznO+aM036ZGarz0aEumo8fBp6EBMcrSxKROlxx86h36Dq2DwAAAA==");
 
 export default EarthOceania;

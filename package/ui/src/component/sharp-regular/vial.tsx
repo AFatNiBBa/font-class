@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vial` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vial?s=sharp-regular vial}
  * @preview ![vial](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/vial.svg)
  */
-const Vial: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M340.2 18.2l-17-17L289.3 35.2l17 17 3.8 3.8L30.2 335.8C10.9 355.2 0 381.4 0 408.8C0 465.8 46.2 512 103.2 512c27.4 0 53.6-10.9 73-30.2L456 201.9l3.8 3.8 17 17 33.9-33.9-17-17L473 151 361 39 340.2 18.2zM177.9 256L344 89.9 422.1 168l-88 88-156.1 0z" />
-    </Icon>
-);
+const Vial = createIcon("vial", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABWAAAAHhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBJQsGAAE2AiQDCAQgBYMtBysboAQRlZoTyH4mxGOgvSWzMiQtPS6/Ym3yTjz8/37f9rnvjYjgaSRhST2JW6PRaWbS8GxpFlUT+RckczY9cEMzjvSxpGu6qW/k1HjjpfoHkfOw8YKcC3RvvAKN169+a2lAs4HNdAI2c1eXMpHli5ayJP2lPX5WyONFUEQ6luIQf2j80uYgSVEGIGoBMH7BnNne9kVfxKfCI+KTmQiI8WCgQIYMnQKMkgl0yg1ELhf0RaHg/wMhgChWbk0gR47hGA/IQZLyfEhZRVFVPj9eLN/Q3dU9KrqiKdbG1c5TXddGPOnZEE3RFWOjO8Dzo3vugmfmxdwoH3y99vqfQdc35xbqMExLiy/lFZ8/3z17Wx6GOkyyY4dJ5/5ccq/DggVOAoGg6sfXBysa9b+0IoGfz//9w7+iwtsopOsolUCQ9RZ6LU0QURAAgBT7DU4QSHoleNdKhwUI5QiQFCsXINOhVoBcuR4BivQ3QoBi5ebIRF4mNFrWiaTSLiIz0gEi1+gBUWSUd3KxxshMh354+ueWIKdIYHLXwElZpo7KWAOZmseyqKeEMWm9Hbbba521NtkroN1ma/tsM0UDJ/uigUYUFtv+4/B86+y2xyY7bM9tDucleT3f6CMBhl46SfZI+f5Nq7YCAA==");
 
 export default Vial;

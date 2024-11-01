@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mobile-signal-out` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mobile-signal-out?s=duotone mobile-signal-out}
  * @preview ![mobile-signal-out](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/mobile-signal-out.svg)
  */
-const MobileSignalOut: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64L0 448c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-160-64 0 0 160L64 448 64 64l160 0 0-64L64 0C28.7 0 0 28.7 0 64zM128 400c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M256 24c0-13.3 10.7-24 24-24C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24zm0 200a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM280 96c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const MobileSignalOut = createIcon("mobile-signal-out", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABkQAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCIAsIAAE2AiQDCgQgBYMtB14bUAXIjsQ4JvGLWNDi4ctW+n733Eo3K4YRAxkRI4oYIowPQpcjl+Ot9/+RU+ONlx5+o6L8qwXpx2Z0b3wCE/h2aV9kQjOdgc3cGk7cHoEs6CNyiK0YPX4ziH8XKOL3fIcm0rPpNzxc/wcw/tHfHSTNGUB0A8CyPTs2+aolWlL81viY+M1GBMRyUAlkZAwSYKEsMEihQqEQtKRGWqKxIoCoqW/LoIYOuATXAwqQZKkoemp5eOd6U+di93FAeeD5MX+t+3naB7ueGfnWgL+3/767XOHWvhFP1+/v/aRbej1R3tfnqdjz/aKIz4fZ6Evj35vNOtyc9n3Pjnt3VD3envD+wIgyiJsD+f6uN8a+02/fk73r8XTfp/qU8USv4e91e+/fYb+d/k3j7d7bllq8uL3dUq5s6x2bZszYFFz+qcs93NOF67im782P7OZU8xW1QHVpZpvnFi2X3bu/0uIVWlW+YqlXtLgF8SN285YuLUvNLvQ6EAgu+flktyNdF/7fsZ5A2yf+kx+SxldJeg8dJRDkiY2JDiaQCABAiqsMTwIC2TyZfmonTwkQSgRIakoBsoG6CVAoTRCgyRCzBKgp7ZBF0Sz0cqjTSSeX0tlsN9KFXj6imyz0Y1zTK3LkiXEj/velrUZg1bJq2uSp1fzqtK5JwcRv8wuq297Yq6RvXNrrtItd5AqnnHTOFQBdZlN2pQuttsBVvqgyzWRTVear3K1HbTfEl7ncubniX2SB6vlorKvs0eNSmCjjdGuyTKTI/b+Q4ouVTbr4yismLeMRA6fKogU=");
 
 export default MobileSignalOut;

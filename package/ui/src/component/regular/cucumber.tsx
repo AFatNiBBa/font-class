@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cucumber` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cucumber?s=regular cucumber}
  * @preview ![cucumber](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cucumber.svg)
  */
-const Cucumber: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M71.4 440.6c-31.2-31.2-31.2-81.9 0-113.1l256-256c31.2-31.2 81.9-31.2 113.1 0s31.2 81.9 0 113.1l-63 63c-4.4-4.7-10.6-7.6-17.5-7.6c-13.3 0-24 10.7-24 24c0 6.9 2.9 13.1 7.6 17.5l-159 159c-31.2 31.2-81.9 31.2-113.1 0zM37.5 474.5c47.8 47.8 124 49.9 174.3 6.3c12.6 10.3 31.1 9.6 42.9-2.2c11.6-11.6 12.4-30 2.4-42.6L436 257c12.6 10.1 31 9.3 42.6-2.4c11.7-11.7 12.5-30.3 2.2-42.9c43.6-50.3 41.5-126.5-6.3-174.3c-50-50-131-50-181 0L172 159c-12.6-10.1-31-9.3-42.6 2.4s-12.4 30-2.4 42.6L37.5 293.5c-50 50-50 131 0 181zM352 152a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM184 320a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const Cucumber = createIcon("cucumber", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdwAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBeQsGAAE2AiQDCAQgBYMtBy8b+ATIHoVN2S0WhRC6M91un+LJO+I/9vvtuU8wbd4hafKQtf2KNErFk3VagxIYKomQsMi/d/b/QLgAdlEB6AA3jUtUSZlXWczzf83nl3Z0gN/oUKKx8Joq6HBZzycwwGg/nw9LaKYTsFk7u5Dhvb4MUj4iyTD+sGmgzTE9Q5B6530BnvJH5Req+oHSNQDINADg6DwuAhcveSF65naBfCIMBHIEYBWhwY1FBHbxhW5AwCpotcI3cRz/BzIgQHrIcxdo0WMArgC0oLStgLaBqKi4oKRAorigWNIGhXrMkmhT/M5kHd3G0TQi9qHSrRhPa2K3pu6nAUS7Xstmm2pJhOBca8HzbFp0j6cV4zVV1E/Q7VG0qj5heG6OG8QT3T9Qd0Nm40tnYQT2xQxYveA4DDE2VMRY8TeKxmIUxRtnZjDIWKOsL8Ff9cBb4HNrCzggrC1jUG9nl9/SAjcZEn01ycU3RlExpuCrq3y6H4AgXN9eD2dJu/+KiPMAP0c/f9X1f8aTH9AGYFiB0Kxz5kgv8P9fPAQAUGmEbgFBOSNAPnXcCwjEKAJKb1RAY4EMAq1Rawh0ljkg0Bt1jC+tKGJehgNl3A1o7OgArXnboLPrPurNh29kvInwf7yUQA0FbGI2ltbMlS1bmmA3LK26sWPVuDGOmOAmClWpVK9AvhL1iqwVkTaoELgjAnwRY8OSNcYVu+4+Xk5UoFadElUqeR037L1lrHE/3QQGj1Bu2FKKlEheQ/ArcgtqAQ==");
 
 export default Cucumber;

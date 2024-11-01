@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bin-recycle` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-recycle?s=sharp-light bin-recycle}
  * @preview ![bin-recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bin-recycle.svg)
  */
-const BinRecycle: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 64l0 32-32.1 0L64.1 96 32 96l0-32 512 0zM32 128l2.7 0L64 480l448 0 29.3-352 2.7 0 32 0 0-32 0-32 0-32-32 0L32 32 0 32 0 64 0 96l0 32 32 0zm34.8 0l442.4 0L482.6 448 93.4 448 66.8 128zM288 192c5 0 9.7 2.4 12.6 6.4l39.8 54 27.2-17-41.2-56c-9-12.2-23.2-19.4-38.4-19.4s-29.4 7.2-38.4 19.4l-41.2 56 27.2 17 39.8-54c3-4 7.6-6.4 12.6-6.4zm-98.7 69.2L153 310.5c-5.8 7.9-9 17.5-9 27.4c0 25.5 20.6 46.1 46.1 46.1l81.9 0 0-32-81.9 0c-7.8 0-14.1-6.3-14.1-14.1c0-3 1-5.9 2.8-8.4l37.8-51.3-27.2-17zM304 384l81.9 0c25.5 0 46.1-20.6 46.1-46.1c0-9.8-3.1-19.4-9-27.4l-36.4-49.3-27.2 17 37.8 51.3c1.8 2.4 2.7 5.4 2.7 8.4c0 7.8-6.3 14.1-14.1 14.1L304 352l0 32z" />
-    </Icon>
-);
+const BinRecycle = createIcon("bin-recycle", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABgAAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCMAsGAAE2AiQDCAQgBYMtBzIbMgXIHoWNM4mKlZW8vCEEi9OPCL7Gfvvu7qslxCIkTXioWqokmneahUpKWgJDpYRv8GPz7xB7MNU3d20qdZ6XlqyRaJPvWayLZkqvduKa53/+9IBlT/BoUZbaNbDM8wlMLDUx6nw3G84mittbZEbFuUckmRyS/GM9nm2hxHtGQk16U7wEPIUPjX+424akZABEHwBweN5QBcuX+EK+tIb4QQUIiCMAi4iMjFkEO5QCs1QWQVEEv7Ra1X+gBAKIKuh1Eiio4xo8AiggqRaV3lPv7Ooq1CZVs1AbFkDNNmnbKwyijSZ2UAhSpcEGIfArmYymVhrZ3nQ0yWME83kZfOWWyzAW8Ew05hbkHlufnOyc18BTlw3XAoY3CYM4cj3jhks+Q5nHExyPDcTyu931d7+Xwy/53kjCfpHANEcZefXAguQoFyUMG8UVM4buOdiFp/+Qoysawo0z72Zn373gxpCien9hXFzcka3Ty5fjekj1LEa1fwNurtQD2Xm67VEcbjTwrxgt9ZAAgaD2Yf7WY5v5XycUgD/zz9/5GNMvKVdxDahLIMhr1kh0egvA4QlEKZbhD18IgeTCZb5r2zOC0ESApKopQDbDDkHRtIqgYl4SgqqmY0pR9AhjXRVO2i7hbNsKXIzdwxU7HuKqcSgFkBYf+vuXUMyBonkyLjpWpsthVWFkirTTGXJZCl3WXWGwEsNmTFs0ZNCYRQbNq8qWTCmegUV+SIoTLZaUTm43bhc3GzJvwZgZ036WDPK8Fmp5PjgMVAUiXLchSUQS/WPTUfNDDx8=");
 
 export default BinRecycle;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pegasus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pegasus?s=sharp-solid pegasus}
  * @preview ![pegasus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pegasus.svg)
  */
-const Pegasus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M448 238.1l0-78.1 16 0 32 64 80-32 0-128L544 32l16 0 16 0 0-32L560 0 480 0 448 0C377.3 0 320 57.3 320 128L160 32s-20.2 141.7 68.1 199.7c-8.7-2.7-16.7-6.1-24.2-10.1c-22.5-12.1-38.6-29.4-49.9-49.8c-7.3-13.2-12.7-27.8-16.5-43c-25.9 3.5-48.1 18.6-61.1 40C33.2 174.5 0 211.4 0 256l0 56 0 24 48 0 0-24 0-56c0-13.4 6.6-25.2 16.7-32.5c1.6 13 6.3 25.4 13.6 36.4l42.4 63.6L94.1 350.1l-21 21 9.4 28.1L120.1 512l101.2 0L182.9 397l27-27L224 355.9l0-19.9 0-16 83.7 23.9c4.1 1.2 8.2 2.1 12.3 2.8L320 512l96 0 0-196.3c19.2-19.2 31.5-45.7 32-75.7c0 0 0 0 0 0l0-1.9zM496 64a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Pegasus = createIcon("pegasus", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABeAAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCHgsGAAE2AiQDCAQgBYMtBy4bHAXIhiCy+/+vnp0LeJ/IDyOCYxoxlDKCz/xf8/k9PzrAbxfuUXaHVRQFlqsQ2PM9H81m0cLROJsobm+atElkX5KZmknHkx1vW8jxZXGJKtIN6WNc1j40ftTnEpK6AkC0AmDVPnts8/p38V3ER5VniI9sQUCsAqVAgQKDAixVCAzKSmRZ8F1UKvgfWBJAVOOzTiAj43ScA8ggSTkfVtdQ1ZT3bqiqPyJEQ8yKfSJicjQ0RNTXv7305XLvuHrw5qFbFl3b/eLkG/ufnvr0xPsH+UjI3tRzQ9+qmJjlvthLB3vHlOhZenvFNV0O66GRCyOJsY9c5urOa7uv6xn9YOuDP4/6+OiPvfbFdn6ZVhU7RlygorW11HrqzjVzq247ROT89TePvnVPar5r/aWr8oYNsVCvmXotlP9uv/0xD1jrJmNPdZRxp3vQ1zq12qPHrp33ONTbvh6CNOOR75qbvytoIA576NyP7j+kZelvtQ0J/PDirz/rJ1deTyvTg6iVQFBMrUx1YFoJSAwgSHG20cYXBZLjJXytja4VINQjQFKtXoDCgFYBsnpTBKgybJ4A1ertoRC5Tuh00ARJo9NAYb5zQdbpKVBlqff8ap1RxB0dNfSvL2G9hNZNK2dNn1kuLre5wYQSWceXlG5p4tnUNgkWOtopTnamoxzpOGcK5HTborOcZL0Fr/NDpVmmm6m0WHlcrYW9RXC6Mxy3Zs4nsUR5X5/obLv3JJhFAsx+MZLmRKo59ahjDjvjrDMAAAAA");
 
 export default Pegasus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-sort` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-sort?s=thin circle-sort}
  * @preview ![circle-sort](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-sort.svg)
  */
-const CircleSort: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM267.3 411.3c-6.2 6.2-16.4 6.2-22.6 0l-96-96c-4.6-4.6-5.9-11.5-3.5-17.4s8.3-9.9 14.8-9.9l192 0c6.5 0 12.3 3.9 14.8 9.9s1.1 12.9-3.5 17.4l-96 96zM352 304l-192 0 96 96 96-96zM267.3 100.7l96 96c4.6 4.6 5.9 11.5 3.5 17.4s-8.3 9.9-14.8 9.9l-192 0c-6.5 0-12.3-3.9-14.8-9.9s-1.1-12.9 3.5-17.4l96-96c6.2-6.2 16.4-6.2 22.6 0zM256 112l-96 96 192 0-96-96z" />
-    </Icon>
-);
+const CircleSort = createIcon("circle-sort", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABhAAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCKwsGAAE2AiQDCAQgBYMtBzIbLQXIhofn7b4691W1qsao6Wgk/j+QdrPNAATZdLQCUlDzf7nn9/zoAL/RoY21QBbgWrUFep5g35uU0AllGoDEnN/O75UYRLdJesElGcYzTL/+FfJ42F4NpNvSK7gmLyq+1tuFJFkGIDoBYE593QpPfBAfRLzy/73EK5YhIOaCSiADpJ8A02UCXyFXIZcLPoj//0//gRUBRCP5QQnkaMZxXAbIQdKY5337dmrq0lQ2tM9rZUOx572xEXetfKm4fPEro+9Y/+6YO1e8WF6x7PVxd9fbvT8v4ulVr5dXrHh1zpMb3pn9xPJXistXvjb3qdquG3vU4uaet/Qs44ruN3VbXy/KYkPUaxtqG27qdmO3Ii7vcXPPetzSffzy+jJqrW2d2r4d9Mr+V3z/uNmf8dvJa2bNuubkb5+ZzXUP/8GCFnrf/eS8eU/e3bvFAtRxubj93LkdO+wfsvjaJxRLhux33vrDT4i/Y4dsvrQDDYWzK7VN9CfQ+yAQfP/k5tYdHaf/2lwm8NFD3/+lfIv+fyJJbWiWQJAN/3+4rQkkAgCQ4nytCQLJfo1kqe3cLEAoECBpVAiQ6auTALnCMAEaDDBBgEaFdTKRtwjdbGsgaecUyEx0Ach1czdoMN3zSaNukVkfZTvUx1/8QkYWnKvGjBxdTa2WtUobFBGPp1Xb+uDzw2wIoPY74biz9tnrkLOEnbYiP88xCzV0gQ+qjDHSaJWpquPunq+Rf9oZJub0+Smmqe7Hg52vbx4CKxHcsQpJIlL5k44w4lkCAAAA");
 
 export default CircleSort;

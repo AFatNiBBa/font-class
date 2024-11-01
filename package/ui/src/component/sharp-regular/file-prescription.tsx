@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-prescription` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-prescription?s=sharp-regular file-prescription}
  * @preview ![file-prescription](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-prescription.svg)
  */
-const FilePrescription: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 48l176 0 0 112 112 0 0 304L48 464 48 48zM256 0L48 0 0 0 0 48 0 464l0 48 48 0 288 0 48 0 0-48 0-336L256 0zM104 192l-24 0 0 24 0 80 0 64 0 24 48 0 0-24 0-40 24 0-1 1 55 55-23 23-17 17L200 449.9l17-17 23-23 23 23 17 17L313.9 416l-17-17-23-23 23-23 17-17L280 302.1l-17 17-23 23-31.1-31.1C227.5 299.7 240 279.3 240 256c0-35.3-28.7-64-64-64l-72 0zm72 80l-48 0 0-32 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16z" />
-    </Icon>
-);
+const FilePrescription = createIcon("file-prescription", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdgAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCHAsGAAE2AiQDCAQgBYMtBzgbJAXIngU5mTR/RGPKdLYs4qLwtXIRz/O/Zt73Z7Iwk2wZFIJiBYCOHKJwREKukHXVLCtzamtbnf9/P3ff/pJKvDPXtDU1oImFTv0Z0dNZo1RCgVBJ5lrVfH8JmTqVcznPBnyjoKxFS4NrYkKd67wCPa8P30LdVrCaVsDqt5PvBiTRW6VL/hm2Y9gs9lDnYV7oUD4WeB4+NH/NckfRqQBkIgCw42S7Csd++snXweSrvUAgOwAWIqhQYS4CNqMEczEtBGq10M/gX/8HIgiQIXjsAmoM4TpwH4AaFHVd9yZt47A7vfpE22nOtk0rbUq6qU42bVdKpO0lVU4cY7WNiEgblNtMTTNLFBaNGTJi8Zg4pseKDFUeF3wyjeua7izXv/3ttDeSxQ+C8d++XWL18zdces2WA6J//uuXNWhrOA6t0XD59P5rJirQkKDgsJBhfeCSMTApXu3Pl6mNcBJd2Fl3rHEgOPyMjfWBIIz9nv/vIn/z/5G2gD+foX9Fg2OelTCigFCtGFj08wzyTAAAJXeocoWguIoJ79r1TkA0CCiGNAIqcwgQUGssR0DHfF4EDGkcRUk9KqYaJFB0XQeVTc5BbapP0LHZdzRkaiixE4RGePSl5jicXYVrbQ4MYbUhipLEucUwDhtLzsyAkXbC2MbaiZGhmRNG7VXTUyu5FpL1RcjJxgGF4HL7fHPPyN7BzMbaLxOG+x2Ds/Z4I9kMoF2nVhRSJp1w13rtxuhbP+7GAwAA");
 
 export default FilePrescription;

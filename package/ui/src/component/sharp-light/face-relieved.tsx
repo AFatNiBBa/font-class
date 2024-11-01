@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-relieved` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-relieved?s=sharp-light face-relieved}
  * @preview ![face-relieved](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-relieved.svg)
  */
-const FaceRelieved: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm187.3 92.7c13 13 35.8 27.3 68.7 27.3s55.6-14.3 68.7-27.3L336 337.4 358.6 360l-11.3 11.3C329.4 389.2 298.9 408 256 408s-73.4-18.8-91.3-36.7L153.4 360 176 337.4l11.3 11.3zM395.2 234.4l25.6 19.2c-34.4 45.9-103.2 45.9-137.6 0l25.6-19.2c21.6 28.8 64.8 28.8 86.4 0zm-278.4 0c21.6 28.8 64.8 28.8 86.4 0l25.6 19.2c-34.4 45.9-103.2 45.9-137.6 0l25.6-19.2zm95.4-112.3l-15.2 5.1-6.3 2.1c-23.6 7.9-44 23.4-57.8 44.1l-7.6 11.5-8.9 13.3L89.8 180.4l8.9-13.3 7.6-11.5c17.8-26.6 43.9-46.6 74.3-56.7l6.3-2.1 15.2-5.1 10.1 30.4zm102.7 5.1l-15.2-5.1 10.1-30.4 15.2 5.1 6.3 2.1c30.4 10.1 56.5 30.1 74.3 56.7l7.6 11.5 8.9 13.3-26.6 17.8-8.9-13.3L379 173.4c-13.8-20.7-34.1-36.3-57.8-44.1l-6.3-2.1z" />
-    </Icon>
-);
+const FaceRelieved = createIcon("face-relieved", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABpwAAAKpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDFQsGAAE2AiQDCAQgBYMtBzQbmQXIBp7n+9POffmpGLT+lT0wd7NqxsLSO2Gd/7nc83t+tEC+0aHt3QS54V00p0DPAxzbxrSEEso0AIuxo3kvDVKIt5B0BZpckkSMoDaox8Ay/63kK/4sAoVmAABAvAAAgLKejiauf5APIo/tZ0Ae0wAIgJQDoCOAAdtBdEgo5FoBgtDQAQ0NgQ9it3v/gToIAIgD4a9TAGiAM3AQOAsAaAAoHDUtMDDEw8Pf39XornW7Gl2G70wXOVn/0KW39n7qcX1H2om6B662hkcZpyLc3lWI3Gp55mprelJ2o+t16fXGxy69zU/Lb3Z3rYkS2eNqi9lntUqcmGR15O7IvdF7LRZJEHNPXHzcYZfe5AQ54GpLcDvgKmJLiJN+usdkNZnkdKxpRzZerJF9LCdL+XdZzJZAMWP7TBLOxooFP3cw2xJ+0Ovg97DHox7z/prbTXhZ3FRQ0FT88qZbp0Ic/kCVM/ifulFRceOUvzNVXmXn2IsDNjiCk7+/k+OGQ4ziIk/Gjfv1Kyl9cpFRHHo2bVU470Rc3IlVGAMCjBZrgnRW0c8MmvyFntpGY/N8FrOCxYzj/M82vrBllDYpbamSNn6eH7dAzqe58XUABBAYebJ80WDPwv9OrgqATxd//qb4FtmvK9RBwAkFgIAh0Z7IAAWAAgEAAACUzCJcAQig2IkjYeLGWuTKxAUQVXTABScGAvFqQMOFBDASQha9cXMHBkRzRjAxEIPCjalgIJuFoGHiFBgp5F7ogEkMIMsCHPvEmFTdRapm6WnJqXq+PltRcVBI28kCfbMVO0t2xOGDjGIyk5jBSEYwlhkdbBpNyUwmUr2EVvFBdNJIJhWdfPTD9YdSN81OY7qkp7nj01CAfn0xllnL/eOwqwgp0ylTKBDlfkOoSX/25GaNHAEA");
 
 export default FaceRelieved;

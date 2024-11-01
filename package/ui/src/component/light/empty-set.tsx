@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `empty-set` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/empty-set?s=light empty-set}
  * @preview ![empty-set](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/empty-set.svg)
  */
-const EmptySet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M491.3 43.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-66 66C363.4 52.6 312.1 32 256 32C132.3 32 32 132.3 32 256c0 56.1 20.6 107.4 54.7 146.7l-66 66c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l66-66C148.6 459.4 199.9 480 256 480c123.7 0 224-100.3 224-224c0-56.1-20.6-107.4-54.7-146.7l66-66zM380 109.4L109.4 380C81.1 346.5 64 303.3 64 256C64 150 150 64 256 64c47.3 0 90.5 17.1 124 45.4zM132 402.6L402.6 132c28.3 33.5 45.4 76.7 45.4 124c0 106-86 192-192 192c-47.3 0-90.5-17.1-124-45.4z" />
-    </Icon>
-);
+const EmptySet = createIcon("empty-set", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbQAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBVQsGAAE2AiQDCAQgBYMtBzAb1QTIPgzwZDTeyxCKCDQV6jCq3S5W2z7VnljnH/kWJR6+9vudu28R8whJk2rTSqiURjNJlUiFEv4QLf4hPh/+WL5/1YD/ops61m2zAYbA9HBRpRNZByxYqGoW5lnYz44yDGuJtLVa3Qt2IKd2ZpcBDmUdBKeZKvk03xOhpHbq5nnnUYBvFNpYuGwsXEB7nyeQWJfnCWWBZZqAxZi1s1veAN0m6ROfZNj8sDkgx2HAJr2mcF1uGj8G7JDkAgDRDgDWzys5nFVUIp7KiU+HICA2AOMIChQYRsASpsAwlnGQZUElylK+geMQQNSCP3MCGTXYAhcAMkiKzFI1NwvZYla9iS2Yfm6/u+rj7ErvaOPfVSW7PXt9De+nt/Yon/ppjerE9MTF+u2f+9ub0xPT5/Mr38ZPKF77wd9E5wm+H+oBV6fkb8TFL2pH8Tgm0lJcggeGdqN0WiuRrOB/6TxAIHi/4kAaqpIB+Hq7Wl8jyw/VNOolEBQzJd0ETZriHwCAFFsUiSaBZAkTr9rsSYDQiABJrUYBCkNkCMgaTSOgxig3Amo1OsYUmY/QrddB0uwSFBZtg6zbENRYcmvV6o7CpQiHIH50sRkNpdcoW2w0QJexRnoJFudBus3hVqjpsYspy5ZsmDRh1oZC1uTcTYsyFpz2IMrOwoYKoMfZ43bdpDXrZi1bykuC6H1FZ8vu1kNkIOosT5KIxH/Wpvm+AQAAAA==");
 
 export default EmptySet;

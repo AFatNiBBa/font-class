@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `glass-water` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-water?s=sharp-thin glass-water}
  * @preview ![glass-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/glass-water.svg)
  */
-const GlassWater: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M29.1 166.7l27.5 12.5c29.9 13.6 64.7 10 91.2-9.3c26.3-19.1 62-19.1 88.3 0c26.5 19.3 61.4 22.8 91.2 9.3l27.5-12.5L329.2 496 54.8 496 29.1 166.7zm-1.4-18.2L17.3 16l349.4 0L356.3 148.5l-35.6 16.2c-24.6 11.2-53.3 8.3-75.2-7.6c-31.9-23.2-75.2-23.2-107.1 0c-21.9 15.9-50.6 18.8-75.2 7.6L27.7 148.5zM40 512l304 0L382.7 16 384 0 368 0 16 0 0 0 1.3 16 40 512z" />
-    </Icon>
-);
+const GlassWater = createIcon("glass-water", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABZAAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBPAsGAAE2AiQDCAQgBYMtBzIbvgTIjsM4FjzSqcI/Hj7myveTHC0cUIFSIlKE7OtoPFtih8bc1KJq7Tazouri+b/c83t+dICfj+CQ9qIFchvHaq7nCSQ2fFNhIFlgaYLW7mxihrCTJEWS41s5LifI4oKdqkjuJXArfWj81MVNEmkKIBoBMHvNiuU+dURHxPfKc+K7pQiI2SAXSJGiuwDTpALdZXJkMkFHVCr4H5gTQFTj5yYgQxVmYhkgA4k0yzq1lItV5Wy1zxQ29B/Q//7Ah6QVl3H7koGxNkqxvuvqVavLsTLGxbMpTwoNejVhwrpyqbwhOkWh1Bbr+jxpfPK7t9107/yW0+uOXZ8+vXNnlz9+bd1bXRZpNnYUbpK2mTpkpCsTj/bocXXglZHF/aMoP+CvBo1HG5THQSC42PR/2JaGaf9qiwn48ebvT/ruyqe4mhy1EhCkwyrDbIyrgOgAflISp/WJqwgkJkrxu5bcFiAUECBRrSBAqptGATIFQwWo0tN4AaoVrJCKrE5otamBRMkxkJrgEsi0egqqTPPZr9YaqRhRQkB94uIX9ND8XfnoEaPyKfm0o9KSQYTNqfm2Pui0nRgMR+12xGEn7bLTPic75Ljl0SmHLFjB831RbrQRRslNkR/3H/evtstxJ+xzxOG4zVT5fW+Q0+v5g8FKMOYYpURCJMU3Iw4XNA==");
 
 export default GlassWater;

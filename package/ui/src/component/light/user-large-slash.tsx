@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-large-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-large-slash?s=light user-large-slash}
  * @preview ![user-large-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-large-slash.svg)
  */
-const UserLargeSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M541 512l-40.5-32L96 480c.7-70.8 58.3-128 129.3-128l113 0-40.5-32-72.5 0C136.2 320 64 392.2 64 481.3c0 17 13.8 30.7 30.7 30.7L541 512zM464 144C464 64.5 399.5 0 320 0C265.6 0 218.2 30.2 193.7 74.8l25.6 20.2C237.5 57.7 275.7 32 320 32c61.9 0 112 50.1 112 112c0 34.9-15.9 66-40.9 86.6l25.6 20.2C445.7 224.4 464 186.3 464 144zM25.9 3.4C19-2 8.9-.8 3.4 6.1S-.8 23.1 6.1 28.6l608 480c6.9 5.5 17 4.3 22.5-2.6s4.3-17-2.6-22.5L25.9 3.4z" />
-    </Icon>
-);
+const UserLargeSlash = createIcon("user-large-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbAAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBTAsGAAE2AiQDCAQgBYMtBzcb0wTIjlQ1fwTRWlVkdc8eAPWtOiDgR1I7LxHUs3sH7AgUTe3uz/+5dPF8NMBvNJRoLB1IgYwynzfYxPbOmyCazk4Uz9rZUQyim5T0KZ9k2N4wKlvI45/ooUR6JH2C2+VF40dtXCDJMwDRGABjF8+f6d1v4puITyovEZ+YjoAYBwqBDBnaCzBCJtBerkAuF3wTlUr4DywIIKrwthPIUcIUzAfkIMnyvE27+vVKDfJF9Up1dw4bOqx+PDf6ncn1YljUjc9GvLngTIsH6jVY9uyoiLcnXRvyao+u8Vj35+u91LWmw9MjusY7i9c92Pz+FnvjgVYPtdxXXW5c/rnzJ5s+0X70aX7EA1oMGD9nr9OmGh9ffBrjG1y50uDtGbvbH+Hye13zrPN5nz99t/q3X/9v1GLNfT6MMS/deLnmeHn1114pH69Z/Q0QCJZ8+cOPqxuN+Lt2vQS+e/3Xv/2JlRXpYiqjtgSCrEelhxXpjAKdC5yR4pBqfJNAMkYG51rfgwKEugiQVKkrQKadxgLk6uouQElHAwWoUtd8mcjrCM2t7CCpby/IDHIS5Jp7AZSM8L5RpXlk5sQaA/uYS5ok0YlLRd9efYphxdTVOAuhU3t4sSx3ORRTXbHRJrvtcsBGG2x1QOD7zLQP2mmShk30Q4W+eumjMEyxHTyuL7LRPvtttduu3GW44rzexSG9uCu0hIT9OJJEpMZXMN3zK12yKvu3AAA=");
 
 export default UserLargeSlash;

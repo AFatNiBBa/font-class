@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-3` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-3?s=sharp-regular circle-3}
  * @preview ![circle-3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/circle-3.svg)
  */
-const Circle_3: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm56-384l-128 0-24 0 0 48 24 0 66.3 0-50.5 46.3-7.8 7.1 0 34.7 24.1-.1 51.5-.3c20.1-.1 36.4 16.1 36.4 36.2c0 20-16.2 36.2-36.2 36.2l-25.2 0c-14 0-26.8-7.9-33-20.4l-4.2-8.3-42.9 21.5 4.2 8.3c14.4 28.8 43.8 47 76 47l25.2 0c46.5 0 84.2-37.7 84.2-84.2c0-43.3-32.6-78.9-74.6-83.6l50.8-46.5 7.8-7.1 0-34.6-24 0z" />
-    </Icon>
-);
+const Circle_3 = createIcon("circle-3", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgQAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCJAsGAAE2AiQDCAQgBYMtBy8bIwXIhof/16Xd96XxcaQwKAA4DjEvVEAVY0cMrc+WXG0909/8886jAJ9RaGPh0kAW4F7nCSTW5Xk6dSywTL+Afd0metgRxr6IkCCR6Pg83uohj7fjNjXS/ekb3NpeGn/p5XqSWgYgOgJg/taNq33QGq0RXzdeJb62EgExH1QCGTL0FaBFJtBXrkIuF7RGoyH/gRUBRBPcMIEcNVyKKwE5SLI879Nnellrl28pa8XOG2dGvDnxRVdPeGHGG8UNs96a9FJcM/nl+ttl+n1txPcLP45rFny05rstv6z6Zt4Hrp7/4epvN+8sykKU5aroGjz+jd3udnXXu4oiHuvdPWZEt7h/6KNlGa+PfnrAI6OemrY2ekREMeipjk/9M/CbI99o3DrzL/784IXp01/44M+/ZhqLdP+w2G3cXu+7cGHf+u23LaZWXmH6VVdffd8EPRf0c5nBek7pcP+THTs8dX+HXvbdsczdpnu0pd6rlwlHLs9MW5KPjQwHAkF9Vq/Vezu0/N9cJvDHW//9139GGh8k6Sk0SyDIxjTG2JVAIgAAKS4zKEEgOS2DrbZ1jwChQICkSSFApo+OAuQKowWo6W+qAE0KG2UibyN0tXuCpK3zIDPNFSDX1cugpsXncpOukaUekTjEwy92iYUWN1UTx02oZlVbyyCzCavVehXmRlxWIiOp0xFnnXGJww457hKDXLBau9RpSzx4sQ9VJhpngsos1bH72r7FYRdcdNxZZ7ROXXVfGuEyP30kiQlQJ9EliUjNP3T4sZMBAAAA");
 
 export default Circle_3;

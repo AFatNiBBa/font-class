@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-plus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-plus?s=sharp-thin cart-plus}
  * @preview ![cart-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cart-plus.svg)
  */
-const CartPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 0L8 0 64 0l6.2 0 1.6 6 69.4 266 341 0L557.6 32l16.8 0L495.6 282.4l-1.8 5.6-5.9 0-342.7 0 20.9 80L496 368l8 0 0 16-8 0-336 0-6.2 0-1.6-6L57.8 16 8 16 0 16 0 0zM208 464a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-80 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-80a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM328 64l0 72 72 0 8 0 0 16-8 0-72 0 0 72 0 8-16 0 0-8 0-72-72 0-8 0 0-16 8 0 72 0 0-72 0-8 16 0 0 8z" />
-    </Icon>
-);
+const CartPlus = createIcon("cart-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABigAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCVwsGAAE2AiQDCAQgBYMtBzAbVwXIHodxTLER14lpPHw/19e5L/ld+ckwZJDIEdCCI9Bjd1mNW6DyQBYVqtaNIQulrhm78vID68t8/q+pF8+PCuQbHUoFVQ4kk7pA9/xE502byGxgRzIRn7opETSIIL0GYxTRUnTH2R3XLpDHd/ZqIb2avsKL/UvjNz3dJckyANEBAAu2bVrj2c/xc8SXzfeJL61CQCwAtUCGDH0EmC0T6CNXI5cLfo5ms/wH1gQQDfK2BHIUeA4vA3KQNPJ8UOe2uWxA1dI231qfKLOqrLrGjmgb26KKzdElyjZbom2ltneLnVGWseNWfixeKh93UTe7WvWku0f5+rAbMj1jcA/dXjLoCDKOnqLEXM8eZKBXb1eWQnWMKgUtRC0vo6r4c1GFgU87/B8Dvtr/lWdFsbSrxa22WPWXDtb8r6vGti7rrCw6KLZ2teeQiUWHb79t95CH7do97PXry+NXrhwveWxd/2XdOz/88DsIHlgu3EEmBQqEDNCvg0Dwffl3L+1n/11UCfz6yV+/wcPNT9Lc9BSFBIJsdHO03Wk+kpEoQLIpzhuIlAWSuxqAT23jJQFCiQBJQylAprcOAuRKowRo0c8UARpKm2QibxW62POApI1TIDPVNZDr4l3QYrZPsw1dIotJIaKEX8LUpRpdklRPGDu+nlkve24xzLi2O6t2G8PPc2YEztrvhOPO2mevQ84q/LQ1hXOOWWphS6SoNsFY49VmqreHj+pWFZx2htxc3D/FLPX7meHO28tHwE6EdqKuJBGp9bPWxoQ0AAAA");
 
 export default CartPlus;

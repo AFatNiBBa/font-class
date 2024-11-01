@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `t` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/t?s=solid t}
  * @preview ![t](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/t.svg)
  */
-const T: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l128 0 0 352c0 17.7 14.3 32 32 32s32-14.3 32-32l0-352 128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 32 32 32z" />
-    </Icon>
-);
+const T = createIcon("t", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABTwAAAHCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQiBCwsGAAE2AiQDCAQgBYMtBygbgwTILgpsY9rIRXglLJTO4jB8yh27oA3xPLX33bm7m4TWuuoa2bpCtdYV6K9sMCKDZZDo9/fb/HadEN+R3DK/kSxB85k1sdgWytqSOQQ/aWvfM0AX/OS0eOOlAh5IncbGxjcu8DnjFWi8umnGaxV5sDd9Afu9aRsbpexNJppJ/qTj64aWW/WxPsqP8hvv6ofmr+k+FMMrgIyDAOw6UOTot6FksIsM2g0JZBeEeTAqKmbBYCsqmIWZB2maMKTr+D9wHhQg/fTJAhoqVkHWQaCBIq0tGtk3uu1PmyOOvJyUfHZ/8peRI1NCuFdTv6VmZPY+mPJ1xIgFvXG9fznF3J9jnvN8DBFs3HcSUqCe9Ohv/AKCcHoJd2Ls1v/DRhbwp4e/om73Sw/DFBDqqm6VJvch9wUAUHKVmPsIikUIlUf5uurECAiKfiOgmkmAZoSV0GcOnwqO70GlDReTtADFKBeg2uIKzSRf6LPV3+w3KfW1MHfNfNYSuUWyPrANCxKYuhr7AKjcTiEsSRdJybCKBlsbJ73O7GSwg9w5W+MemvkiYDNYQAKWg8f5Wu/gaLa1KV1SsF+WXPxiGYYggA3nTImRkss=");
 
 export default T;

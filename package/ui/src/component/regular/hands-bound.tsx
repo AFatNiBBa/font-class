@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-bound` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-bound?s=regular hands-bound}
  * @preview ![hands-bound](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hands-bound.svg)
  */
-const HandsBound: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 72l0 134.6c0 22.2 7.4 43.7 21.1 61.2l69.2 88.6C100 360.7 96 367.9 96 376c0 13.3 10.7 24 24 24l400 0c13.3 0 24-10.7 24-24c0-8.1-4-15.3-10.2-19.7l69.2-88.6c13.7-17.5 21.1-39 21.1-61.2L624 72c0-39.8-32.2-72-72-72s-72 32.2-72 72l0 66.3c-.5-.5-1-.9-1.6-1.4c-29.8-25.2-74.3-22-100.2 7.2l-46.7 52.5c-4.2 4.7-8 9.7-11.5 14.8c-3.5-5.2-7.3-10.1-11.5-14.8l-46.7-52.5c-25.9-29.2-70.4-32.4-100.2-7.2c-.5 .5-1.1 .9-1.6 1.4L160 72c0-39.8-32.2-72-72-72S16 32.2 16 72zM163.8 352L74.9 238.2C67.8 229.2 64 218 64 206.6L64 72c0-13.3 10.7-24 24-24s24 10.7 24 24l0 107.4 71.5 95.3c.1 .2 .3 .4 .4 .6c7.5 9.4 20.9 11.6 31 5c11.4-7.4 14.1-22.9 6-33.7c-.1-.2-.3-.4-.4-.6L189.3 207c-2.7-3.3-4.3-7.2-5-11.2c-1.3-8.1 1.6-16.6 8.2-22.2c9.9-8.4 24.8-7.3 33.4 2.4l46.7 52.5c15.1 16.9 23.4 38.8 23.4 61.5l0 61.9-132.2 0zM344 352l0-61.9c0-22.7 8.3-44.6 23.4-61.5l46.7-52.5c8.6-9.7 23.5-10.8 33.4-2.4c6.7 5.6 9.5 14.1 8.2 22.2c-.6 4-2.3 7.8-5 11.2l-31.3 39.1c-.2 .2-.3 .4-.4 .6c-8.1 10.8-5.4 26.3 6 33.7c10.1 6.6 23.5 4.3 31-5c.2-.2 .3-.4 .4-.6L528 179.4 528 72c0-13.3 10.7-24 24-24s24 10.7 24 24l0 134.6c0 11.5-3.8 22.6-10.9 31.7L476.2 352 344 352zM120 424c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 120 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 120 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-400 0z" />
-    </Icon>
-);
+const HandsBound = createIcon("hands-bound", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABsAAAALIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDUAsGAAE2AiQDCAQgBYMtBzIb0gXIHgfOaS8edOYWCVeew+Cfd+3zvkxmFoCyWCAmu0iq6ruWVU8dkKsmQBzcDgFAQBCmHGDwPN56f9h523YnHmhZQBZaU6ee5zwUwDcKyp66MWl5jO3VnAewV+pbx8JagGrFWlEK7lWno888JhoPkVKLzNAVj2/s+LwAq9+6ig/mnnoOXNneVF/IcBIMvgcAgOIBAIBh94xJhN7Le+nZ/wU9YwIgAA0DwBHgAR6QTQAM5CEgm8UBi0XwXv//l/9ABwIABeCHGgAsEACPgdcAgAXAYK0d2aFN+yg/xs6O8iMXII62m6Wb3CuOUcV+bJqjGpHup2pXGioXdF6OZdWmNAzVzeH2NFzVrjyc5zyHz5s9a/ZtSQ982Ypm6ViNbvmK7TI6K57L7bliHKYqUGSU0LFzhO7YW8PNoaOOyl1bNh+TOb07jg4zFTmzNP2ejRFniopdUkL23nfRBdVN9Z//fPVz4vacAaxg/Mg53I5JmXaVaWPM7Vv5eH2a2B493r/fD4odjoSWNzWNesXqa/Tsz4yykuWSGM6jG/PcbccT6xLOkNLTUjYw5gXgZUZOswDf6FnZlcW/z6zTgznZOhinFK77zL/su4ff8xuiOTf8jRLyhu4tZ0iYZxsn340xwkfhxGtsimevWuHwHK4CgADBpO/v5CVxA7+GRxkAPj68b+vj8R8yW001EI4BQOB1/N+Rheoo8eJJJgJAYrSbAvkgAYYQFrxqNLcRACISEACGgEgEgEeWeALAEkkHAsAnVy8CICCSGXjIRiCSLTJgiGYb8OjtELAkawE+Az2KA5LjDWhmODK/k4mjPTIqy3Xr3NX1d69tyo5Rqq4PcGGz7e5lrJ1AWc0WNrOTVaxkHTsdtp1JxV1sYjRDR/FFnG4668rpz6V7P8XZLtnODta12XwaA7jv3bZ289ntxDEAt7sagwGZqBknd5pSAAA=");
 
 export default HandsBound;

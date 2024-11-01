@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-tongue` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-tongue?s=sharp-regular face-grin-tongue}
  * @preview ![face-grin-tongue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-grin-tongue.svg)
  */
-const FaceGrinTongue: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256c0-114.9-93.1-208-208-208S48 141.1 48 256c0 81.7 47.1 152.4 115.7 186.4c-2.4-8.4-3.7-17.3-3.7-26.4l0-52.4c-8.9-8-16.7-17.1-23.1-27.1c-10.4-16.1 6.8-32.5 25.5-28.1c28.9 6.8 60.5 10.5 93.6 10.5s64.7-3.7 93.6-10.5c18.7-4.4 35.9 12 25.5 28.1c-6.4 9.9-14.2 19-23 27l0 52.5c0 9.2-1.3 18-3.7 26.4C416.9 408.4 464 337.7 464 256zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm176.4-80a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm128 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM320 416l0-64-48 0 0 24-32 0 0-24-48 0 0 64c0 35.3 28.7 64 64 64s64-28.7 64-64z" />
-    </Icon>
-);
+const FaceGrinTongue = createIcon("face-grin-tongue", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABlAAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCWgsGAAE2AiQDCAQgBYMtBzcbYQXIhofn7eo791X1oHqM+gJXQgYzEpl+Rqto4546VTPOQwF8zxILyti29vn0XCjp2ucVKHCtvkCL2wpW0wpY9xaZZXtERpJkuiQ9fuvx7Ah5vBu3q5AeSN/htvCh8Zd+V5NUMgDRBoA1hxywl4+2xbaIb2uvE9/aAwGxBpQCGTIMCbBcJjAkVyKXC7ZFrUb/gSUBRB25tQRy1ONmPATIQVLJ82mDnZ191UpzfnC1Upzwx/4Rvxz8274/HfjEnJe33BsR9/bc23tf9+vVmxbBNe/purtLXN717bxXxzX9uS7i031+rN601/drPj7ot9Uf7fldcePeP6z95OBDbuqOuMflXXcXN/bc23Nf733Vg5wRwVy3RcVBIYoIx42KB6Y8PeHJac8Ojn2m7Zl/xnx38nd+/DAOeYZnDolD4pln4pDmbdu2LGuZ79tHz7z++p/fmTv3nZ+vv/7MR76br2XZlm3bmn+yoZH+Vz9et+7jV/sbbaDbVHtxn5brub4lcQg1I83RZaPNLdysjoLWH1dLNlufEomzrVa0tz/+OKMA4rKpl122+5jW5f83VBPY8c5//8m/otpHSXoGDRIIsum16Y5MIBEAgBQXG5sgkFytQt61yb0ChAIBkjqFAJlBbQLkCtMEqBixQIA6hQNkIm8UuhxVQdLkPJBZ6BKQ6/IqqFjuy7xOV2RWKdmU9CdM36jRDbvKOTNnl0vLaavIhib4zWXltjn5Yp6YAged7Bxnu9BJTnSaCxV+vr2qi5xl4wrb4ItKc8w0W2mp8rh/qx+s8vNd4LSxer7NMuX9dLKL1/OngJMI61yNJBGp7cnvnXHK+aedPePCc84+5aKTAA==");
 
 export default FaceGrinTongue;

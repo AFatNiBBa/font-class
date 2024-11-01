@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-question` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-question?s=solid square-question}
  * @preview ![square-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-question.svg)
  */
-const SquareQuestion: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm73.8 133.3c7.9-22.3 29.1-37.3 52.8-37.3l58.3 0c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L248 264.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24l0-13.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1l-58.3 0c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM192 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const SquareQuestion = createIcon("square-question", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdgAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBdQsGAAE2AiQDCAQgBYMtBzYb+wTIjpQuZyTx8P9rZff9qu6TYa4wwQI6QpBAatwC2rg5sQusu0Lwp049z3kogG8ZBEHbQwOywPY8j0BF69uKBSm1YBHFqtu44QZRXgwiQ/ScY2g+NC+Qx0vZ3UqkF9IPeKz9aPyqy90kVRmAaATA8r07NxsciqGI7yufEt/biIBYDgqBDBl6BVgkE+iVK5DLBUNRqfB/YEEAUSZfmkCOEo7iNCAHSZbn3RNaakp1+Z6aUvXBt8dFvN+Z4oXxH4yui/cmftSTxYsTPhxTu/uljojnamrinfEfdL08blw8P+rd7og7OhbGc/Fse3U82CqeH/NuT8fuO0wveqjtGbe3Pl39YPuzMeLDxg9/98OZHyx97fUmmqqXqW5qen0Z4Pkd6+/edpnLLQu83qQ6u/K3tu3b2+rUf/alG6rqflmg3Jo8tXreqpj9Vf393F/fM4wG4q7j332RjjYs+n9YTQJXvvpzfV5lKAbThxgmgSCbVJnkUAxCIgbgpbjZCOVggWSvDORTaz0rQKhGgKSsWoBMj0YBctUmClDSb7YAZdV2ykReJbQ6PEFS6zqQmeMWkGv1MShZ5GuvrDWyEGMChPnhJa5BaPWpYvqUacWC4pgZbNRQZbuwMJvjbs6d8XTWGde42o1OO+W8GwG53ubwJldZo8GrHagw3RTTFBYo3OWruAe8693g/J7371mouO+Oc7M+Pp6cREhniCSJSA3PVJv8DgE=");
 
 export default SquareQuestion;

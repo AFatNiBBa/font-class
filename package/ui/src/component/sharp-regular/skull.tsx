@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `skull` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skull?s=sharp-regular skull}
  * @preview ![skull](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/skull.svg)
  */
-const Skull: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M368 373.9l0 25 0 65.1-48 0 0-24 0-24-48 0 0 24 0 24-32 0 0-24 0-24-48 0 0 24 0 24-48 0 0-65.1 0-25-20.4-14.3C75.9 326.2 48 276.9 48 224c0-91.4 86.9-176 208-176s208 84.6 208 176c0 52.9-27.9 102.2-75.6 135.6L368 373.9zm48 25c58.5-41.1 96-104.1 96-174.9C512 100.3 397.4 0 256 0S0 100.3 0 224c0 70.7 37.5 133.8 96 174.9L96 464l0 48 48 0 224 0 48 0 0-48 0-65.1zM224 256a56 56 0 1 0 -112 0 56 56 0 1 0 112 0zm120 56a56 56 0 1 0 0-112 56 56 0 1 0 0 112z" />
-    </Icon>
-);
+const Skull = createIcon("skull", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgQAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCMAsGAAE2AiQDCAQgBYMtBywbLAXIjtEnY4gycwyEJ+K4vAiK/X579wTT5h2SJo9kLflHpps0PCRCFK2U8odKJr+FcbUd8Qna205QVRTYyJKcNP+Xe37PjxbIBzuxQ9tDD2SNJs35PAskwLE9LzyQLLBME7DMW+7TKMs+PTJrlCT/2OPbA8rYx26oyDvGFXBVPzT+KGknVQUAxCAAsLEXHQon7WhHXDabxI9gICA2ADANUaDAOATLmALjWKaBUiloR9Ok/0ACAUQN8uIEJWrsAweAEqSyZNlPi8VCtpgVl5sF2YBEN2KjACG0fL3YM1vC163H+OfI+9hmkwUHHcd9c8Rl7TGv76CLuKeAM48TGjVddAQUPWJEjOvTm9KZUOzVndSfVollo195wCcUe5R2a83J5t40r/KuoHxTSSo9WVCk2CBiXQk8KXHlOGdlgH6tbcmRjG2t6GdgZeXo+nM0AM4riXx4oMOfv45HBbmEBeno1mmLQQvw/OiULh8fL0tBqLf//Pv///t8HkAgOB5t/k6XuvzzhAyA3+ePD/oZQXOS8gnolCAoZhsTKQmQBAAgow60EhBILSzyrr2uBQjdCJBq3QIUxsggKHWbgaAyyRaCWrctTFHyIYxKVZB6tUBhSQMojVoHlWWnXm00mAHIhA/z/Uv0s5DvNrI0syAnmrZ0NqaosupM26ZBHY0Y4i7kKVemRq4chWoMUiU0rFXKbwX7+iJiyYwF4oSOu/vrcXJVqVaoXBmv44zuuwbq1tMN4TAI6Rw5nyCb7Ori2pIS");
 
 export default Skull;

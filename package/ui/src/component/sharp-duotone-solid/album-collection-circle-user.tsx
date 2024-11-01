@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `album-collection-circle-user` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/album-collection-circle-user?s=sharp-duotone-solid album-collection-circle-user}
  * @preview ![album-collection-circle-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/album-collection-circle-user.svg)
  */
-const AlbumCollectionCircleUser: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 160l512 0-3.7 32.4c-4.1-.3-8.2-.4-12.3-.4c-33.4 0-64.7 9.3-91.3 25.5c-26.2-6.1-54.8-9.5-84.7-9.5C193 208 90 268.9 90 344s103 136 230 136c13.2 0 26.1-.7 38.7-1.9C369 491 381.2 502.4 394.8 512L40 512 0 160zM16 80l24 0 432 0 24 0 0 48-24 0L40 128l-24 0 0-48zM32 0L56 0 456 0l24 0 0 48-24 0L56 48 32 48 32 0zM224 352c0-13.3 14.3-24 32-24s32 10.7 32 24s-14.3 24-32 24s-32-10.7-32-24z" />
-        <path d="M496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm0-32c-31.7 0-60.3-13.2-80.7-34.3L440 416l112 0 24.7 29.7c-20.4 21.2-49 34.3-80.7 34.3zm0-192a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const AlbumCollectionCircleUser = createIcon("album-collection-circle-user", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABngAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCPAsIAAE2AiQDCgQgBYMtB3QbggXIhof/dObfNyP7xHIYtCFnA0QV0AdE7JlrT53KuZyHAvgcgqDsqQFZ4HOeV6Dg3TY2VahC1Z4XzCoMfZuojxKR9EZITKLjs44vOkORWvkMNdK16QNcLP8DGL8a5AySRgYQPQGwbOvNa73yVXyV4oP2E8QH1iAgloNKICNjqAALZYGhChUKheCr1G7zVbTbFQFEnfyWDOpo4HicByhAkhVFMaTZbUij0adZ61Zs1ayVu56/IOL5KQ/HqZMfmv9ced7cZyY+4JRJD857thlvTZ4QzeiMB1bGnYOuHXjN6LsGXzfk+lbu0b3HwDivfGPuU+UXW3xR3brll1ue37p2TNfYbutm2U2UXcN/27anDoi4unl+vyud0veK8rz+V8XI+3re93vHB3t94M8lrUSa1jF2bMe0lFqt5M6o/HWhQ1zoL6/c8sPTT/9wi+ynwhL1enXMsZN2tXTs0jGDBhERjtpV345v1+6utXOP9QMHfjXVwHemMvTKlnumvrxzeRZnde9+1lklMPg8EAju+fTye3busfD/Ls0Evnnuz1/gce1X0inpPnSRQJAntifaIZ0ChA3gQ6U4ysh0SuyCQLZUIb5qV1cJEEoESOpKAbIhegpQKE0QoGa4WQLUlTbLomgIfe2YQdLVoSCb7URQ6OtxULPQ215d38h2yFgR8wpMXK3hVfOqaZOnVvOrZiSxpkX56YJq2hx3FFc6cae9HOwgR9jTHvZ1hEIPszY80oFW95BV3qgyzWRTVearltNLcSvlHeZw+9b59VkWqPa74xzVb+9EJ4m40y3IMpEij74OlUk3RJ30b0eadJDVSabdfewAf5oBAAA=");
 
 export default AlbumCollectionCircleUser;

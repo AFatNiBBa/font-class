@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-xmark?s=solid octagon-xmark}
  * @preview ![octagon-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/octagon-xmark.svg)
  */
-const OctagonXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M140.6 21.2C154.1 7.7 172.4 .1 191.5 .1l129 0c19.1 0 37.4 7.6 50.9 21.1L490.8 140.6c13.5 13.5 21.1 31.8 21.1 50.9l0 129c0 19.1-7.6 37.4-21.1 50.9L371.4 490.8c-13.5 13.5-31.8 21.1-50.9 21.1l-129 0c-19.1 0-37.4-7.6-50.9-21.1L21.2 371.4C7.7 357.9 .1 339.6 .1 320.5l0-129c0-19.1 7.6-37.4 21.1-50.9L140.6 21.2zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
-    </Icon>
-);
+const OctagonXmark = createIcon("octagon-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABZwAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBSwsGAAE2AiQDCAQgBYMtBzQbzwTILgpsY/qQRdAIOQyhjLXbatYRDDY/exHP/3Pv2z73lbRq6ZxQpdIo2j0BCkcgNgUsBWwoPhXwr9Hh4e8/jLP3J4f4twSiLUE4ol0Jyq4X3ZjOzxv/kI16ms32TVEJUtaFqIZLxamSmfAOGXK7eaYBYc5NXE5/DnrARf5oe+iDNDyc8zyBxBaNaSWSBZZpAtbubFtITHslrSzJ8dnxuUCbFzM66qsGntuH5h9yQRlrAJBZAHB6Vyzgc6AGyd9wkO8GCOQUsI7QoMEyAgeEgmUi66DVCoMMH/8DGQKkh1AlbOnBC3AJoAWlWhFvKDu1qBJepmi+Z2Vua9krgb6UkpekyF2reAuUm17tJcXoIKS4zQk6jOImxOk4irsUpaMcanjyTzeawH7L8MLHeYfwTmVycpfIfPh/FDAJTjXor5gFAgk7RYi29XmAIDzd/5/pDv7LlALA32/v888Iw0+BegOjCoRmaxitAkUAAJUDhoKgnBKQd530SUCMI6D0xgU0lugQaI3bRKCzyodAb9wVobRyxKL2EMukR7Gx71xsLXoWOwe+Kr3FNN5k+ILxmcvNE5xbxy67k8O8bOqmg2hlOcLbqfEgDZlgJyY2bdgzNjK3Nwk7CvV9a3mLz/ki5mLnxML4uLPeXDG2Y9fcpg1eJYLvl0YH9mQTFAKium1/KVLqzYe9/nRzw3b09AAA");
 
 export default OctagonXmark;

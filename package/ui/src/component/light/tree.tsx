@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree?s=light tree}
  * @preview ![tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tree.svg)
  */
-const Tree: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M235.3 4.7c-6.2-6.2-16.4-6.2-22.6 0L72 145.4c-5.1 5.1-8 12.1-8 19.3C64 179.8 76.2 192 91.3 192l17.9 0L38.7 274.3c-4.3 5-6.7 11.4-6.7 18C32 307.6 44.4 320 59.7 320l17.5 0L6.7 402.3c-4.3 5-6.7 11.4-6.7 18C0 435.6 12.4 448 27.7 448L160 448l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0 132.3 0c15.3 0 27.7-12.4 27.7-27.7c0-6.6-2.4-13-6.7-18L370.8 320l17.5 0c15.3 0 27.7-12.4 27.7-27.7c0-6.6-2.4-13-6.7-18L338.8 192l17.9 0c15.1 0 27.3-12.2 27.3-27.3c0-7.2-2.9-14.2-8-19.3L235.3 4.7zM240 416l0-208c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 208-48 0L37.1 416l87.1-101.6c4.1-4.7 5-11.4 2.4-17.1s-8.3-9.3-14.5-9.3l-42.9 0 87.1-101.6c4.1-4.7 5-11.4 2.4-17.1s-8.3-9.3-14.5-9.3l-41.4 0L224 38.6 345.4 160 304 160c-6.2 0-11.9 3.6-14.5 9.3s-1.7 12.4 2.4 17.1L378.9 288 336 288c-6.2 0-11.9 3.6-14.5 9.3s-1.7 12.4 2.4 17.1L410.9 416 288 416l-48 0z" />
-    </Icon>
-);
+const Tree = createIcon("tree", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABgAAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCPwsGAAE2AiQDCAQgBYMtBysbOgXIjsM4hvwSS1m8RDz8/1zv73OTUlKGtIqYHSAqZFXZZ+uqxhVQyFmV+FXlX5PMtV8T19SPskigwgd+pHEWjZoqgDLPJ7Dzak+wAc0GNsLpBGyD80YnXA5JIf0CebyMoZqRnqfPuOveNH7p4TpJngGI9gCYtWHNMrV61CM+NyY+W4KAmA0qgQwZegswVSbQW65CLhfUo9Fg/4EVAURz4aslkCPHJdwD5CBJeT5/VNmsTb6+bFZsedJ5bTxyucvjsoyiLcXjLk+7RahvdnsaV7qu14/Tm0I86fqosyiKDfG06xPRFtTguijiRudHXR4d0NS+6U9/O/n59vXrWzedal2eOlV2NG+VXUVrKbbuYOP1kSO1rdfbjjTyejdQ7BoPdoCojkp7qRK3buYvvgfjOuD7mnPrd1g/aGExRCZ2TooPcvp0KhqkmDhp/Yh3CHrGOSAQNP77/1Xtpv5rWSbw4+1//5BfUaMWtdSElhIIsqGNobZGDaImAAApThoQNQSSU5Lwqq09ESAUCJA0VwiQ6aW9ALnCEAGa6WucAM0V1shE3krobFsjJa0dkTLjXZBynb2RmpnqXaq5zpG9h+a3yPwbmGN+F543rRo1fGQ1uZotK5ZXy6jHp1SbAwNP8rZB8KydDjnouB222+N4hz9qWfaEA+YvkfN8UGWU4UaqTFYdrj08vt4ORx2zxyEH7SRTVNeHBjq53HsQnE0CjL6DJYlI+fcJ");
 
 export default Tree;

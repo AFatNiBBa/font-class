@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-hair-long` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair-long?s=sharp-duotone-solid user-hair-long}
  * @preview ![user-hair-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/user-hair-long.svg)
  */
-const UserHairLong: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M128 128l0 16c0 53 43 96 96 96s96-43 96-96l0-16c0-11.2-1.9-22-5.5-32L256 96 240 80l-32 32-78.7 0c-.9 5.2-1.3 10.5-1.3 16z" />
-        <path d="M320 144c0 53-43 96-96 96s-96-43-96-96l0-16c0-5.5 .5-10.8 1.3-16l78.7 0 32-32 16 16 58.5 0c3.5 10 5.5 20.8 5.5 32l0 16zM224 0C153.3 0 96 57.3 96 128l0 16 0 48L48 240l0 32 176 0 176 0 0-32-48-48 0-48 0-16C352 57.3 294.7 0 224 0zM448 512L384 320 64 320 0 512l448 0z" />
-    </Icon>
-);
+const UserHairLong = createIcon("user-hair-long", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABgAAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCBAsIAAE2AiQDCgQgBYMtB1gbLgXIhofn9fg6Ny8fcGYqEBWMXXdQDyELsugH5bLaOvN/zednVYCfj+DQOu1AYgGY+XwCA57NG2geCXqmuN3ZJhxq+SQJlnB8k+NS9pDHK+luNWSPZX/gHvofwPjLgLvJNCQA0Q6Albu2bfDN5bicxR/VB8Qf1iMgVoFCICFhWIAlksCwXIFcLricVRWXo6oKAohaBCdOLd7kUVwE5CCTRJ4PjjQMNtW05DubahpPPTkh4tU5H00qRyPu6GuKydETTfEQO39YEvFFIcSSEE1NEcsCfuz5ZV+t27Nzx87m2B4t+4SnJr429+PJr49F3NHbGL0xIRrjQePL9vKfcX+c/MPy6fUl5e23l2V9u/q6TSqVxTZ2tB+6Z/Nq5tS0m6FSeOedQmWGdjVzVm++VC3/WvsrYJNv3La8HdP6cgnTsXHxlTapqwcCwaN3bv/hUNuS/+ubMnD1s//+FC6uvolvshL1MhCkKdUU++MbMPwA8ixuNp6p2u0CyQoJ9LSaPSxAaESATK1GAZIh7QLkGk0WoMaouQLUarRNEnmD0O1AAplm14FknltArtv7oMYSP+e1uiPJmiwp8ksvY10Ord1UzJw2o1hUdFuiIj6iW11cDAcTbrYjE2Gnk65x0Y1OOO6MGzPuehtqN7lgHUesVaHCTNPMUFikmO5eGjtVfr0bnGlr8+ssVuzPJriZnz4R4owXnGVLkogsUu8BNafeNm/qR7uK3E7qr2lnFA==");
 
 export default UserHairLong;

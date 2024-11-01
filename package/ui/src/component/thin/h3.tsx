@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `h3` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/h3?s=thin h3}
  * @preview ![h3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/h3.svg)
  */
-const H3: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 72c0-4.4-3.6-8-8-8s-8 3.6-8 8L0 248 0 440c0 4.4 3.6 8 8 8s8-3.6 8-8l0-184 288 0 0 184c0 4.4 3.6 8 8 8s8-3.6 8-8l0-192 0-176c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 168L16 240 16 72zm376-8c-4.4 0-8 3.6-8 8s3.6 8 8 8l188.7 0L418.3 242.3c-2.3 2.3-3 5.7-1.7 8.7s4.2 4.9 7.4 4.9l96 0c48.6 0 88 39.4 88 88s-39.4 88-88 88l-72.6 0c-23.5 0-43.5-17-47.3-40.1l-.2-1.2c-.7-4.4-4.8-7.3-9.2-6.6s-7.3 4.8-6.6 9.2l.2 1.2c5.1 30.9 31.8 53.5 63.1 53.5l72.6 0c57.4 0 104-46.6 104-104s-46.6-104-104-104l-76.7 0L605.7 77.7c2.3-2.3 3-5.7 1.7-8.7s-4.2-4.9-7.4-4.9L392 64z" />
-    </Icon>
-);
+const H3 = createIcon("h3", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdwAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCBwsGAAE2AiQDCAQgBYMtBykbAAXIhof/1+P7fW7ylIyRkVTBrPwpdhyt/rtlJUx/8887jwJ8AN6YuGxzG3DO8wQ6z7usP/iD/m0fLKGE+Fs7u8QP0JdJkniSYdIPmyvk8bctakj3pHO4Kf1o/KC9y0myDEA0A8C05YsX+fjb+Dbi3P9vEOcsQEBMB5VAhgydBJgoE+gkVyGXC76N//93/4EVAUQtvncCOXLswH5ADpKU5z0nljWN82VlTbH6zja3txLijtZ3tY1oXKSIodEoYnNA+1cqY0nc3vqOsow3+j3T+f6+T48s4to2d3aIuLPV7cQ9vZ7oVcZbA57r+mD/Z0cXsTzuanNnUXR/ttmzP3U7t+2cpsdrN2yofdnHYL2t8jbJH3sZ/qdVnj5eZzfUbvjAo4/o0apVzQZTr746z/ONU+dp8fkXVWi7YWNdmNOk8YF5Xv7qXFme//LlRasHuAQEgu8eHv3J+qYTf60vE/j+3V/+ModMB9KzqJdAkA38f6A16TSapQMCNlMc013YWSDZIAG+tZE7BQgFAiS1CgEyHTUTIFcYIECNLkYJUKuwWCbyBqGVtRUkjRwEmdFOgFwrr4EaE31i1moVma6RmkJ+9eJmt9CsqWrY4KHV+GoaKJT64H44odrm+x6jQj+s2ma/fY7YaoudjjTIIYuco/aaLcGz7KgyzGBDVcarjuP75WW2OuSwnfbbF8dMUN1X+zom1/fDHAkw/JVwMiOlHSMAAAA=");
 
 export default H3;

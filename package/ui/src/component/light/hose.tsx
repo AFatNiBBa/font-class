@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hose` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hose?s=light hose}
  * @preview ![hose](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hose.svg)
  */
-const Hose: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M288 112c0 8.8 7.2 16 16 16s16-7.2 16-16l0-1.9 96.1-12c1 7.8 7.7 13.9 15.9 13.9c8.8 0 16-7.2 16-16l0-1.9L448 80l0-32 0-14.1 0-1.9c0-8.8-7.2-16-16-16c-8.1 0-14.8 6.1-15.9 13.9L320 17.9l0-1.9c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48 0 48zm32-61.9l96 12 0 3.8-96 12L320 64l0-13.9zM48 448l352 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L48 480c-8.8 0-16-7.2-16-16s7.2-16 16-16zM12.2 432C4.6 440.5 0 451.7 0 464c0 26.5 21.5 48 48 48l352 0c26.5 0 48-21.5 48-48c0-12.3-4.6-23.5-12.2-32c7.6-8.5 12.2-19.7 12.2-32s-4.6-23.5-12.2-32c7.6-8.5 12.2-19.7 12.2-32s-4.6-23.5-12.2-32c7.6-8.5 12.2-19.7 12.2-32c0-26.5-21.5-48-48-48l-248 0c-30.9 0-56-25.1-56-56s25.1-56 56-56l104 0 0-32L152 80c-48.6 0-88 39.4-88 88s39.4 88 88 88l248 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-248 0C85.7 288 32 234.3 32 168S85.7 48 152 48l104 0 0-32L152 16C68.1 16 0 84.1 0 168c0 48.8 23 92.2 58.7 120L48 288c-26.5 0-48 21.5-48 48c0 12.3 4.6 23.5 12.2 32C4.6 376.5 0 387.7 0 400s4.6 23.5 12.2 32zM152 320l248 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L48 352c-8.8 0-16-7.2-16-16s7.2-16 16-16l104 0zM48 384l352 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L48 416c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const Hose = createIcon("hose", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABtAAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDSQsGAAE2AiQDCAQgBYMtBysbxAVRlKzJPNnDw392/f8+1XU5fmI/mR9EBjKCUtChZv2UkTBxTf04f3pvf8dcVGAFd2MU4M6fnn621oFM3+cTm5BucN7mhNOD+hHa75Djvpiqg3RP+gg3SVXFDwa7nCQXAKIJgFUH7NnmtXa0Iz76/2niI1sQEKtBKVBA+WECLFWI9R2yElkWtOP//8V/YEkA0al4awIZ3XgTXwAySDpzzoyv1I9o1Csdtby/0tF7wh397xoYcUAILczeOeD2fvuhjDBn3/59Yu9p/NhatWYXuL1fVTxz18D5t7un/x3javHowLuGXjLgrqgL7x1w5/jeeITbh9x3mphQiYgV46mJjw17YNLj83hnVpS9s/yV0Q+ueHWD5oyvlr609+LB90zqjYf63T7o4v63qw8OqPRWEi1W9ua9drQhTzSf+GnUR8d/ZOSOertdT46omPraEKgrMZAC7demHjgTXXymmf9yvnRkGKj7GzccWZS06/X2kVqlFS/1LT7+euaRZn79cdH3pZVYiycKfzjzv1+6un7578wTlSC28uqrc3at/MOt8A9lq5UStJSaD+Pex2PluP/+e6gSyX/dGX8UdbmWTzxhRe7XgUCw/NxVdx3RWPprdyWB71/45df+R/j/tXgtPYFuCQTF1P+nOjReg3hNwKkU5xutkVIgedGdUWvVnQKEXgRIOvUKUBiqKUDWa4oAHUaYJ0CnXnsUIvcI/Rw200nVWXRhvgvorJ8n6Q5LvZvq1C+Kj1n8FMV/yQzr1/C6Y+Ws6TPLxeVl3aj5Pnnt/JLS2jHxfN43CZ50vDOc7lzHOdZJzl2hZ9uWPc9p1uuQdb6oNMt0M5UWK71b7w37ceBs53D+XOu/yRJl/MhE5+tHT4JSJMDsz4DnpZHyiWeccxwAAA==");
 
 export default Hose;

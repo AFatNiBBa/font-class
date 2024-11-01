@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tablets` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tablets?s=sharp-regular tablets}
  * @preview ![tablets](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tablets.svg)
  */
-const Tablets: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M608.8 254.9c-4.7 6.4-9.9 12.5-15.7 18.2s-11.9 11-18.2 15.7c-62.6 46.2-151.3 41-208-15.7s-62-145.4-15.7-208c4.7-6.4 9.9-12.5 15.7-18.2s11.9-11 18.2-15.7c62.6-46.2 151.3-41 208 15.7s62 145.4 15.7 208zM559.2 80.8c-37.9-37.9-96.2-43-139.6-15.1L574.3 220.4c27.8-43.4 22.8-101.7-15.1-139.6zM540.4 254.3L385.7 99.6c-27.8 43.4-22.8 101.7 15.1 139.6s96.2 43 139.6 15.1zM318.2 328c1.2 7.8 1.8 15.8 1.8 24s-.6 16.2-1.8 24c-11.6 77-78 136-158.2 136S13.4 453 1.8 376C.6 368.2 0 360.2 0 352s.6-16.2 1.8-24c11.6-77 78-136 158.2-136s146.6 59 158.2 136zM160 240c-53.6 0-98.4 37.7-109.4 88l218.8 0c-11-50.3-55.8-88-109.4-88zm0 224c53.6 0 98.4-37.7 109.4-88L50.6 376c11 50.3 55.8 88 109.4 88z" />
-    </Icon>
-);
+const Tablets = createIcon("tablets", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhQAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCGgsGAAE2AiQDCAQgBYMtBy4bGAXIhofn9Z469yUDOCOpkt2RK2FQrtCy2kp/6tTznIcC+CARDcrYOBdnA86ucV6BAo7NrS/wWkFypZJXwLo7jWxK2CdJRJLjW47PFfL4J04rQ7qSbuNUfNP4TQNHScpkAKI6AIbPmDLZez/HzxFfll4mvjQRATEcFAIZMjQWYJBMoLFcgVwu+DlKJfwPLAggyuK7JZCjPNZhFyAHSdk8b1ClMuWqVCpTJZ9OQcUN52u7FbfHfDLknRYPjLxUTz3x3uiPB7/d/P5h05/oE/FKv2nxbNObHaZOnzb9qSY32j/e++WBUy84WPu+QW+N2kddjEP1Hhz67lhj+kvtMHiscaXATU/08WrHiCebVYz0tRZPVH/ij+a3l9+28L1VJ04ej8Pn3niyf7+iXtD96duLmZJfuWJY7za3az51hUnAhzi2+GF8o8qVG119+OX33nv54au6zY0ZB7/i0+PfOv7pVwd/trcDgWBPm2efWFBt0N/lKyXw6xt//ZV/RkrvpaPpCZSXQJB1KnUyNx2k9G86KgAAKbZrkQ4ikCxTFr9qZRcFCBURICmrogCZRqoLkKuoowBlNNVbgLIqmiITeQWhtnkGJJVtApk+9oFcbS+CMgb5NCyrdmRSR8sM/edLGNNCo5cV3bt0KwYU00JhBIn08wOLbbHdduprD2ctt8F6Wy2z1CpbG2Szyck264xZwaN9UKG7LropDFAc1/fHp1tmsy1W2WB9WGSg4r7bzvb16PagJIzZw6YkEanc1kWL3ycAAA==");
 
 export default Tablets;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reply-clock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reply-clock?s=solid reply-clock}
  * @preview ![reply-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/reply-clock.svg)
  */
-const ReplyClock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 144a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zM496 64c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0-48c0-8.8-7.2-16-16-16zm0 256c5.1 0 10.2-.2 15.2-.6c.5 5.5 .8 11 .8 16.6c0 113.3-81.5 163.9-100.2 174.1c-2.5 1.4-5.3 1.9-8.1 1.9c-10.9 0-19.7-8.9-19.7-19.7c0-7.5 4.3-14.4 9.8-19.5c9.4-8.8 22.2-26.4 22.2-56.7c0-53-43-96-96-96l-96 0 0 64c0 12.6-7.4 24.1-19 29.2s-25 3-34.4-5.4l-160-144C3.9 257.7 0 249.1 0 240s3.9-17.7 10.6-23.8l160-144c9.4-8.5 22.9-10.6 34.4-5.4s19 16.6 19 29.2l0 64 96.7 0c8.1 89.7 83.5 160 175.3 160z" />
-    </Icon>
-);
+const ReplyClock = createIcon("reply-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfgAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCEAsGAAE2AiQDCAQgBYMtBzIbEgXIjpQuZyQRPK8TvfclO44cBoUZN4Ii0FYeO/KKUyesEPz5v9zze360QD4fwaGsRUsP5LavXft5AgFmvXxjVLgtzBLFdmdbmUM0l6RFluT4FsdlC3n8nV1WId2fvsGt6UPjV+1dJmmYAYhmAJi2ZsUin/0UP0V8/f/bxNcWICCmgVIgQ4ZOAkyUCXSSK5HLBT/F///Tf2BJAFHFN51AjgoO4CQgB0mW5x1bjqpXGuer65Viz4UhEa9O+LB+47j3B73s/MCXxr5X3DD+g8GvxJq7Wom7W9fj3rb3tCkiAkLpxrZ3e0wP932u1V3FMx2GdL5mx0f6vzC6CHFfz6farI574kLbNXFvr6fbi3p8t+jbVd1faPbC777Z/Y0tQ/qUlC1b9O7domVZ9hE5WnHrkp+aTNXkp6EKRXhpqLOpba3VGswceeL4XcPy5s2La7sPHqrWXnjh/FZTZe36/PborZ5v0uR5d/Hf+rTLptqmOrNRfVYAgeCdcd8XW5pO/KtWT+CXD/4MT/7/s3Q+vYCaBIJs4P8DbUznAYkBOClO6658USDZIcPv2sg9AoQCAZKqQoBMR80EyBUGCFDRxSgBqgorZCJvKLSyqYGkkWMgM9oZkGvlTVAx0ed2VavIDI4zF+67lzxbQrOWlcMGDy3Hl9Nc5W2ICfMTymWt72nf6wcb7XbEYSftstM+JwVy3CLvlENma/AsP1QaZrChSuOV29X9+tV2Oe6EfY44HBeZoDxv9XVaH90PzIRJh4skiUj1m6sOep8=");
 
 export default ReplyClock;

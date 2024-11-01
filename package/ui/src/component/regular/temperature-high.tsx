@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-high` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-high?s=regular temperature-high}
  * @preview ![temperature-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/temperature-high.svg)
  */
-const TemperatureHigh: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M416 48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 144A96 96 0 1 0 416 0a96 96 0 1 0 0 192zM80 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 161.9c0 14.5 5.7 27.1 12.8 36.6c12 16 19.2 35.9 19.2 57.5c0 53-43 96-96 96s-96-43-96-96c0-21.6 7.1-41.5 19.2-57.5C74.3 301 80 288.4 80 273.9L80 112zM144 0C82.1 0 32 50.2 32 112l0 161.9c0 1.7-.7 4.4-3.2 7.8C10.7 305.7 0 335.7 0 368c0 79.5 64.5 144 144 144s144-64.5 144-144c0-32.4-10.7-62.3-28.8-86.4c-2.5-3.4-3.2-6.1-3.2-7.8L256 112C256 50.2 205.9 0 144 0zm0 416c26.5 0 48-21.5 48-48c0-20.9-13.4-38.7-32-45.3L160 112c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 210.7c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48z" />
-    </Icon>
-);
+const TemperatureHigh = createIcon("temperature-high", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABlAAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCQQsGAAE2AiQDCAQgBYMtBzcbSAVRVA5KZD8STLfPSMeTE2rbQOgEfdKV9O8Rkszy0P/le2f2bUrpnk9p1DlYhTsFQ90aaAATwC+yJxqBvdjmP9IJ8Y/klqGRLEETn1hbW2wLZW3+w/7ecz+MUUlpeY2Oq4uC3xaVAESnNTju/24+v+dHB/iNDu1q29JAFviczxMIAxseabaeZxoAxlYdOuo29vByLmtiEjwihuZCc4MSv9GuJr/yDG/toPFv3odUVwBiDAA4uigL+DXRRHTbFaLrGAiII4A1iAoVliDYxQos4awBRRE00bb+D3SAAKIHPz9BQS8e8AgoINWlbErNNrtezJVyksVcUcmMccDQ75k1DZqHfNHkSzRnHqIK06DPrKjRM23oR7lxwDsjzh8KJFr0nfFfMIIGtAvWYb/5qNUAxjYW2GemlGU/onkLqFyz5JiIW088TNh0T4b0EtFoABPDmtMT9ZlHfYh6dd0a0LRlQNvjdTEK5tV5VnyGsbbxl7W1l3EstZsyIXP/wGg82M/MNOXz2yYliZSAcnxcqRRNgruhh4BhyssZRgD9BncyofTjHfiXT4LtWYalrG57u67MgmUvaxLy//eP8bB74JytuLuF7PlZdos7Bfv8PgwAAAJAwFXNnDpHHvsrEIsm+Pt5/9PfonYr5Tf6JAiqTtvRJkgCAJBxR0wIpHs87nXIuwBhAAFSjwEBKosECIoB6xDUVvgQ9BhwghWlX5jSGaQhl1DZ8YZiyhdqu/52j6mohMjLiP8HpuSjbIzCDYsSWvqGoC0W/ZS2Nb+XnIxVGJ2dPAx6i0fkpvCeDnmFMw8iNoOFJOg4ep5vDG7uFmenHJKi+5bkVVfLMBmkbphMSeSYRlX94QIA");
 
 export default TemperatureHigh;

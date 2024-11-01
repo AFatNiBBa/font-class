@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-y` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-y?s=thin square-y}
  * @preview ![square-y](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-y.svg)
  */
-const SquareY: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm110 34.7L224 259.9 338 130.7c2.9-3.3 8-3.6 11.3-.7s3.6 8 .7 11.3L232 275l0 101c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-101L98 141.3c-2.9-3.3-2.6-8.4 .7-11.3s8.4-2.6 11.3 .7z" />
-    </Icon>
-);
+const SquareY = createIcon("square-y", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcQAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBaAsGAAE2AiQDCAQgBYMtBy8b5wTIngV2i/NRZxs2wyHD8s/CZo+H79f6PPd1zywAdX21AIQaCCWQGreQRLiwjY6eZAZ6t7kRmNwsBg58qn+i5GKF6I+cGm+8VMBHXrTz8Gnt3fi/8QpUtF7fRGYvPtMJ2N42PAkFYtAJsSgJaTwbswvyuEvrlUi3A1ykJ43/tHGeJMsARGMAjFk0b4bK3/x3xK/VD8SvpiEgxoJCIEOG9gIMlwm0lyuQywV/R7Wa/gMLAogyvlMCOUpYiDWAHCRZnrdls16pQb6wfVLdZc+aR1wrKW7j+mwQL+1mz+KO3lj1p9/tFvF2N4jn93VNceu8GvXjxXvTsgULFi5YFDdxXeaHuCY3NGJh3LCbqHmT33w2Muqi/85v2WjZb797ev8u4WrdJjR5hJhHTZrUHY0FdUfNntP11Ph54wccuGCD8urV5Q0yP2C8HQgE11a/37aq0fD/Y0rg36+nn5Hq31FJb4jaEgiy7tXulkcFoiIAACkOqokKAslMGX7U+m4IEOoiQFJWV4BMO40FyNXVTYCSjgYIUFbXPJnI6wjNrRA4qW8PnBnoBJxr7h1cMtw3u6x5ZMFFhQb1tYufqIEJR0Wfnr2LocU20+l4Icp2WHEsdD6InS5waqNddtpvg/W22K+gvWZ4B+ww0QIn+KJCHz31VhiqcJfP/EJl77XPljXr3zNMcV/p7KA93gXkhHH7iiSJSLXfp9jjCAAA");
 
 export default SquareY;

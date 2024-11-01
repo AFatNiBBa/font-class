@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `venus-double` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/venus-double?s=sharp-duotone-solid venus-double}
  * @preview ![venus-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/venus-double.svg)
  */
-const VenusDouble: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M112 176a80 80 0 1 0 160 0 80 80 0 1 0 -160 0zM344 34c14.6 15.6 26.8 33.4 36 53c18.8-14.4 42.4-23 68-23c61.9 0 112 50.1 112 112s-50.1 112-112 112c-25.6 0-49.1-8.6-68-23c-9.3 19.5-21.5 37.4-36 53c21 15.4 45.4 26.2 72 31.1l0 34.9-32 0-32 0 0 64 32 0 32 0 0 32 0 32 64 0 0-32 0-32 32 0 32 0 0-64-32 0-32 0 0-34.9c81.9-15 144-86.8 144-173.1C624 78.8 545.2 0 448 0c-38.9 0-74.9 12.6-104 34z" />
-        <path d="M192 288a112 112 0 1 0 0-224 112 112 0 1 0 0 224zM368 176c0 86.3-62.1 158.1-144 173.1l0 34.9 32 0 32 0 0 64-32 0-32 0 0 32 0 32-64 0 0-32 0-32-32 0-32 0 0-64 32 0 32 0 0-34.9C78.1 334.1 16 262.3 16 176C16 78.8 94.8 0 192 0s176 78.8 176 176zm32 0c0-19.8-2.8-39-8-57.2C406.5 104.7 426.2 96 448 96c44.2 0 80 35.8 80 80s-35.8 80-80 80c-21.8 0-41.5-8.7-56-22.8c5.2-18.2 8-37.3 8-57.2z" />
-    </Icon>
-);
+const VenusDouble = createIcon("venus-double", true, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABrAAAAKPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDEAsIAAE2AiQDCgQgBYMtB1QbtgXIjsM4JnyiMFAIswgizGmzkpO2dsAlVg8A+cU/xi8T+W/3XiRPsbSN3Kb6e/5xP/XH+acCeUYfqXNrGxV45vkE8nzWGOkDH+h45zPiLZvD/CIe2gjxR2Cp3HoGPlCL1FlgXvgfQHlDMjNAEaUBABAXAACo2rp5Qw4+RA+VnPUOkLM0AARAqgFgEEADGkhDAKiARoA0LAxgYSHwUHkePBTPMyAAIH7CW2gA/EAEsA7YDgBYACg0yrJSC0YHSzu+oNXK8dmtZ+VGsiHVy9QUl6uyZ+bISYYpyTZncVpfrSCytwbiOIhtI4gtSLPN7zmOyPFK+1vdaH6l9bWml1o6U1P60mfeNj3kaUpc+by0X1b2Lf9npnJfmSeNtMkHOZOnLfke/24ScTxPRHLticoHWl9vdrnV0QrZNrvdu6yz+iwHVkCC5a9eQUbBpOUAyrBlHkzVSTD5TXaMqYIRo9EgiNMV2XkzeRJVpZ6bc0yT+gmTMU7h9sQirXq69ByXweBwoPfIkb0D7Ku/mNP67jH68cP/cPj/h49djt0l30e//YqVBwFAAIFff4/36Byu8C3SUQA83v3htb/e9Q6qIWozEIkCQEAX8ArQQU3BxT2YigCkBSWjyIZFsSRNWzTkYID5CACCDQyg8GODJhUXLGzyg48MSvIXDzRHI1YUQhwdwaAIMBQ0pZgIFnFsAR8VOJH3EycaYkV4E/8X02pN8ZrTTNFCRUw5s1vWSUDI2/Hy5rKXZ5Rsy4u30ovBDGIEPelBX0ZMyGE0LI1kILWOiJp8EENRClEEQznM49rL9a3oyTCG05fBDPKTlMd8n83DqOPeeXGoSFmLcVCjQZTouFFq0MjhBaO4VRD4OxNWlHgOAAAA");
 
 export default VenusDouble;

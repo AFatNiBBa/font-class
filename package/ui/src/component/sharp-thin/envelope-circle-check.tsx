@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelope-circle-check` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-circle-check?s=sharp-thin envelope-circle-check}
  * @preview ![envelope-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/envelope-circle-check.svg)
  */
-const EnvelopeCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 167.6l240 165L328.1 283c-2.4 7.6-4.3 15.3-5.6 23.3L256 352 16 187l0 245 332.5 0c3.6 5.6 7.6 10.9 11.8 16L16 448 0 448l0-16L0 176 0 80 0 64l16 0 480 0 16 0 0 16 0 80.7c-5.3-.5-10.6-.7-16-.7l0-80L16 80l0 87.6zM496 464a128 128 0 1 0 0-256 128 128 0 1 0 0 256zm0-272a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm75.3 104l-5.7 5.7-80 80-5.7 5.7-5.7-5.7-48-48-5.7-5.7L432 316.7l5.7 5.7L480 364.7l74.3-74.3 5.7-5.7L571.3 296z" />
-    </Icon>
-);
+const EnvelopeCircleCheck = createIcon("envelope-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiAAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCQAsGAAE2AiQDCAQgBYMtBzwbTAXIjtRWdyS5iofn7b4691U1PER1D0BmXjDeaDaEop8tgxzU17mNUekRYqCSEhzV6jRU/+eaz+/5UYF8vhM/tGiqWHEkDTOfT2BiHXZgAxnOJorzvfWeWJSx2yRTmqTDbR2O379CHv/YrYL0XPp4oB8a3+jsNkmWAYhWAJixbtUSpQ/jw4j3yq8Q71mEgJgBCoEMGboJMFkm0E2uQC4XfBjlMv0HFgQQlSTiBHJU4jruA3KQ5Hk+oGvXznUVDfnacn7tpjVr16yLJ9tprA3REE+1l9qILFBa1yDE03ZZfdhzZxDFi4M6fCAqWRv9k3R9QKXq+M6EOf2NIdP1wWP8OXHiHbrCh+1Jr87adWy3OtpFh5jK5R2jfUyJdbqm5VErfNf8/t73NXX84YVUMW+EiXUzh+CI/WaJeevWt2qF7Vpp9WMrKxyvXu5D6z/o16tEqXtDS0tD91Kpl6miZa36JdKI5r59m0ek1A9V8BbumyPvW7bMaquVrfGm1Z63YKHVHgGB4IvfDw3f1jT5t+q6BD5+84dv6MvlD9P1BFRLIMgGlwfbnK4DUQPIpDirxfmiQHJeTnbVe1qAUEuHpFItZLpqBblag6BCD2N2V6q1SibyGqGdLR2SeicgM9YVyLXzElSY7K10pXaRBSIfRvxnYMpci8yZV4wYOryYWCyrmhBbbJ2eVGzr/c/mrgFYaa9jjjptj90OOG2wk5bkzjhirofO8UOFEYYarjBRcdx4XLzWHiedcsAxR3mWSYr78f7O+oMHwEqEcaTdSSJS+z1Hz+45fOz4niH/7GhDXjU=");
 
 export default EnvelopeCircleCheck;

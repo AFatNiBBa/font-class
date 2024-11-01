@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-medical` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical?s=duotone house-medical}
  * @preview ![house-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/house-medical.svg)
  */
-const HouseMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 270.5c74.7-65.3 149.3-130.7 224-196L512.1 270.6l.4 177.3c.1 35.4-28.6 64.1-64 64.1l-320.4 0c-35.3 0-64-28.6-64-64L64 270.5zM192 304l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M309.1 7.9C297-2.6 279-2.6 266.9 7.9l-256 224c-13.3 11.6-14.6 31.9-3 45.2s31.9 14.6 45.2 3L288 74.5 522.9 280.1c13.3 11.6 33.5 10.3 45.2-3s10.3-33.5-3-45.2l-256-224zM256 240l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const HouseMedical = createIcon("house-medical", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABmQAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCVAsIAAE2AiQDCgQgBYMtB1YbfAXIjsQ4JvKLWBUtHr5f6/Pc1/2p/yxyLzAqInCEajmZuFUhBUTjIxFUKm4h/9/Vp7+f+jNo6Q/A16VpfR4VtpvAzlOnlWIDm+1mShucN+igQhlD+gHyeJhdVkd6JtVwM/4fwPhbF5dJmjIA0RoAs9esWOSjH+KHFLUnrxE1CxEQc0ApkCFDdwGmyQS6y5XI5YIf0hP8EE+UBBD1YiZjr0e7XEcVkIPENuV51yFthzTXtchXe5uKPc/2Wxn32t/rcB9GOq2JVVGZnoapHZ/quHqlUKxTwtcclQr6IqDyqY5FaA7Da75bs+rRL1UHPd+vEs8OebFrrBIeeAS+qs+LrV/8t3dtd824N5csefK9aqVy48ZHH1WrEaZqp5qoFqbqqmfc73p/kx9allr+MMoolbnEE0ZZRsx86ci2bPP3n/KSok2bB7M9wOHi5XOlX9NN3fJ1IBBU13Z8b0uraf83Nifw0zv/15jgaz5Ks9OLaJRAkA17MszGNOsAejJFgLEUp/WBn2WWQGaeBL5rxVMChAIBknqFAJluWguQKwwVoE5P4wWoV1ghE3mT0N6mASQVx0BmgjMg196roM40X8bqtY9MT+p0lO6PMPOCKTp/Xjl6xKhySrlb1Om1mSYYnlpedg86vWgaDLfa7YjDTtplp31OTiTHLUqecsiCI3G+LyqNNsIopSnKx5WXptXYpAqfsM+28fksU5Xf+wc5fdx5MFxMAoyRzYyMSJF10LD24U7UPtx4t+m0YTTKAAAA");
 
 export default HouseMedical;

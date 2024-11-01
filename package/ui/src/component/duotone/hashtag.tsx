@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hashtag` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hashtag?s=duotone hashtag}
  * @preview ![hashtag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hashtag.svg)
  */
-const Hashtag: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M80.4 442.7c3.3-19.6 6.5-39.2 9.8-58.7c3.6-21.3 7.1-42.7 10.7-64c7.1-42.7 14.2-85.3 21.3-128c21.6 0 43.3 0 64.9 0c-7.1 42.7-14.2 85.3-21.3 128l-10.7 64c-3.8 23.1-7.7 46.2-11.5 69.3C141 468.9 127.4 480 112 480c-1.7 0-3.5-.1-5.3-.4c-17.4-2.9-29.2-19.4-26.3-36.8zM132.9 128l11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3s29.2 19.4 26.3 36.8L197.8 128l-64.9 0zM240.4 442.7l9.8-58.7 64.9 0-11.5 69.3C301 468.9 287.4 480 272 480c-1.7 0-3.5-.1-5.3-.4c-17.4-2.9-29.2-19.4-26.3-36.8zM260.9 320c7.1-42.7 14.2-85.3 21.3-128l10.7-64c3.8-23.1 7.7-46.2 11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3C356.9 35.1 368 48.6 368 64c0 1.7-.1 3.5-.4 5.3c-3.3 19.6-6.5 39.2-9.8 58.7c-3.6 21.3-7.1 42.7-10.7 64c-7.1 42.7-14.2 85.3-21.3 128l-64.9 0z" />
-        <path d="M292.9 128L64 128c-17.7 0-32 14.3-32 32s14.3 32 32 32l218.2 0 10.7-64zm54.2 64l68.9 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-58.2 0-10.7 64zm-192 192L384 384c17.7 0 32-14.3 32-32s-14.3-32-32-32l-218.2 0-10.7 64zm-54.2-64L32 320c-17.7 0-32 14.3-32 32s14.3 32 32 32l58.2 0 10.7-64z" />
-    </Icon>
-);
+const Hashtag = createIcon("hashtag", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABtQAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDGgsIAAE2AiQDCgQgBYMtB0obtgXIhof/dL7dp5F9EumDQzwhhmXgioCqLbfiiqD29PdO/xoNCvBxBKHsqXtaF+2JCQQ8lm9sAwWWBZaZNjhv0iGFNoT0HZTxeLpSg+K+4hvcEv8PYPxqkCsp9EwAogWAlfvs3uqD7+P7Ir5pv0J8YwsCYhXIAgkJQwVYIgkMVcoolYLvi3ab76PdzgQQTfHFEmiiwlN4A1CCQqksy+40e2x3a1Td6Cz3Ln+mOqaqq+v73unSfnfVdYzeWVf1DQPuicv6311VkfeMm+w6Gd7nngERBfPAEPcjI26oGXXvQGuOKHzvmOuru+94Bhywz54r6nsui/nKvjmq/Ubn0XXsiT31Po/MEYVh9Bc59/R7dNCl7uxroHslcEM16qnWU7+P/Obob4xZ/ovydl17bVcR/s7zh6yFyjG0aPz339+7pu3l1KFMH7FxUaPctm3HilavVmv7Idu3Py+38shjL0vFt8cd3zFnUbUm8069+7EPpmn3W3n8ovuVeaWl0YnMvudv384h97zDpo0efW7m1QNTMXXo9BHTh+fpL75iJRAIPtpzzp5Dupf836MuwI9v/fmv5uz29/FB8RR6KECQprSnODA+ACYcQKyIs406+KjtAsnRSum7drhbgFAhQKGpEiAZoiVAqTJZgIbh5grQVNktibKn0NdBAyh0OA0k81wESn29DBqW+Dza1DeStZVbOvlPY5p1U3TttDxz2oy8KO/mdQqbKNX9i/Nly4Szed1EuNXRTnGyMx3lSMc5cyI43dbEWU6y7oi/1hdlM00zQ7ZIflx6qdl7Ej3dGY7bVj2fZLH8vWOCs49bT4T2QipylhlJIopI3QE1cOZhx0x1/sZeU5U7BwAA");
 
 export default Hashtag;

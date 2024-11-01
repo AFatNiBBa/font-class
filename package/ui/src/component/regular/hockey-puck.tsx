@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hockey-puck` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-puck?s=regular hockey-puck}
  * @preview ![hockey-puck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hockey-puck.svg)
  */
-const HockeyPuck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 184c0 4.8 2.3 11.7 11 20.2c8.8 8.6 22.8 17.5 42.1 25.5C139.6 245.6 194.3 256 256 256s116.4-10.4 154.9-26.3c19.3-8 33.3-16.9 42.1-25.5c8.7-8.6 11-15.4 11-20.2s-2.3-11.7-11-20.2c-8.8-8.6-22.8-17.5-42.1-25.5C372.4 122.4 317.7 112 256 112s-116.4 10.4-154.9 26.3c-19.3 8-33.3 16.9-42.1 25.5c-8.7 8.6-11 15.4-11 20.2zM0 184c0-21.7 10.7-40.1 25.4-54.5c14.7-14.3 34.6-26.1 57.3-35.5C128.3 75.1 189.6 64 256 64s127.7 11.1 173.2 29.9c22.7 9.4 42.7 21.2 57.3 35.5C501.3 143.9 512 162.3 512 184l0 144c0 21.7-10.7 40.1-25.4 54.5c-14.6 14.3-34.6 26.1-57.3 35.5C383.7 436.9 322.4 448 256 448s-127.7-11.1-173.2-29.9c-22.7-9.4-42.7-21.2-57.3-35.5C10.7 368.1 0 349.7 0 328L0 184zm464 72.2c-10.5 6.7-22.2 12.6-34.8 17.9C383.7 292.9 322.4 304 256 304s-127.7-11.1-173.2-29.9c-12.6-5.2-24.3-11.1-34.8-17.9L48 328c0 4.8 2.3 11.7 11 20.2c8.8 8.6 22.8 17.5 42.1 25.5C139.6 389.6 194.3 400 256 400s116.4-10.4 154.9-26.3c19.3-8 33.3-16.9 42.1-25.5c8.7-8.6 11-15.4 11-20.2l0-71.8z" />
-    </Icon>
-);
+const HockeyPuck = createIcon("hockey-puck", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdwAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBcgsGAAE2AiQDCAQgBYMtBzIb9ATIhof/t+v7fW5V9wCqkRRJyJhBDMffGR2+9VNGjN7UqeeZFgrgGwVtbFoaHcuDa3SedwMFsGN6qVSRWsECVosQd3e2EqJpj6QlsZB+teP1hDzejdNKpCvpC5xKXxq/aeYoSSkDEHUBMHberJk+qoiKiM8rXxKfm46AGAsKgQwZWgowQibQUq5ALhdURGWl/Q8sCCDK6L0J5ChhDjYDcpBked6sZdMapVr53HCn+qLzjS50/HTOz9MfNbnU2Ecudvps7g9T7jccvFr9Vvdng3+e9+Ocl12ftBLXuzwe8MPsn+a+6va0daw434G3HjYWu78Q7Z7WffpH2y/WfqF3lfJ7X3zxZqml3nzxxXtl3Nen7uo1PSe1XGONLPbkjrqn1V2zusNn77G+nvx/Z7Oj8/9THA9gChAIftlTOrmszoi/q9ZI4Nd3/vqnDDJJT1FVAkHWo7KHxQkkAvJS7NVO6FkgmSkD+NSaLgoQqiNAUlZdgEwLdQXIVdddgJLWBgpQVt0smcirCQ0tYZDUtANkBjkCcg09ByUjfOyVNYxMw1j9YP93SZNaaGJX0bdXn2JYMY1VTmnoOD+8WFa77HW1rvDQWttstdsaq22wuyF3mhnuscUkiZioR4W+eumjMExxnN3fnmuNnXbZYJutuMhwxX2zi73y6K5gJETZj5Ke4HiqsX7bqk1rDvTcvmfVJgAAAA==");
 
 export default HockeyPuck;

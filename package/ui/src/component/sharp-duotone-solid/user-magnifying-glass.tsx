@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-magnifying-glass` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-magnifying-glass?s=sharp-duotone-solid user-magnifying-glass}
  * @preview ![user-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/user-magnifying-glass.svg)
  */
-const UserMagnifyingGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 512l448 0-9.9-32.3C354.3 474.6 288 405 288 320c0-5.4 .3-10.7 .8-16L64 304 0 512zM96 128a128 128 0 1 0 256 0A128 128 0 1 0 96 128z" />
-        <path d="M528 320.1a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM520 426c-20.5 14-45.3 22.1-72 22.1c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128c0 26.7-8.2 51.4-22.1 71.9l63 62.6 17 16.9-33.8 34-17-16.9L520 426z" />
-    </Icon>
-);
+const UserMagnifyingGlass = createIcon("user-magnifying-glass", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABhwAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBbwsIAAE2AiQDCgQgBYMtB2YbJwXIhofn7ao/91V1j2qWrAXgD0XO7BBEkFHRxj3/13x+1lQg3+jQOvRAig6kYvl8AgOezSJtwCk00xnYdmebopA8kmOJJTm+zXE5nCBPA7JbVEj3pa9wV/ofwPhbZ7eQNGQAohUAZm1Ys8x7P8QPKb6qvUR8ZSkCYjYoBTJk6CbAVJlAN7kSuVzwQ6rV+CFqtZIAoirBGbOKD7gJuwE5SJKU581dWnZtqjTn65sqjScenvzGxNe6PTTp9Slv9lz7bOMn09/p/cSMdxd8PO3tXg8OXBWDYmoMjtWai+YuMdlh/Y0dG2PtlhsGRTw36Lmm24a8EJm4cfDzTOOtA589Re/nWz3/b6+v9n+l5fXFgXPnDhTlxrpDvw5aOWdspTJm7sqVc8dU6pf/h9b4z8z3/G2PuPrAgzGzvu5HM77dcX2fguL773r3/u77ouhDcvZ+IBA8WL10dEfLqVfrmxL46Y3//6o/JLX30uX0POolEGRDa0NtTTegmi4LAECK83qnG2ImApnBEvOphbsFCI0IkFQ1CpDpqpUAuUZDBKjoYZwAVY3WyETeILSzDUFSOAUy410Lcu28CCqm+jSqaheZggnqIbzvUudTaN66ctTwkeXkcppros5wYXlKuewOPO96g2Cr/U447qx99jrkLCFPW5aec8x8jpjni0qjDDdSabJyu7pX15PotDMOjeX9VaYoz4cDnecnD4IgyayjbchkRIqsu1jawz7Jzey/dOj4gWH3yhwmsFP0ZGQBBQAA");
 
 export default UserMagnifyingGlass;

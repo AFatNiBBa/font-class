@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ear` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ear?s=duotone ear}
  * @preview ![ear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/ear.svg)
  */
-const Ear: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 192L0 368c0 36.9 14.1 73.7 42.2 101.8c56.2 56.2 147.4 56.2 203.6 0c20.4-20.4 33.4-45.4 39-71.7c5.1-23.9 16.9-46.7 35.1-62.9C359.2 300 384 248.9 384 192C384 86 298 0 192 0S0 86 0 192zm80.1-5.8c.1-1.9 .2-3.8 .4-5.7c.4-3.8 1-7.5 1.7-11.1c1.5-7.3 3.7-14.3 6.5-21c5.7-13.4 13.9-25.5 24-35.6C133.1 92.5 161.1 80 192 80c61.9 0 112 50.1 112 112c0 2.7 0 5.3 0 8c-.1 13.4-10.8 24-24 24c-6.6 0-12.6-2.7-17-7c-2.2-2.2-3.9-4.8-5.1-7.6c-.6-1.4-1.1-2.9-1.4-4.5c-.2-.8-.3-1.6-.4-2.4s-.1-1.6-.1-2.5c0-2.7 0-5.3 0-8c0-35.3-28.7-64-64-64c-17.7 0-33.7 7.2-45.3 18.7c-5.8 5.8-10.5 12.7-13.7 20.3c-1.6 3.8-2.9 7.8-3.7 12c-.4 2.1-.8 4.2-1 6.4c-.1 1.1-.2 2.1-.2 3.2c-.1 1.1-.1 2.2-.1 3.3c0 6.7 0 13.5 0 20.3c0 .3 0 .7 .1 1c.1 .4 .1 .7 .2 1.1c.2 .7 .5 1.4 .9 2c.8 1.2 1.9 2.3 3.2 2.9c4.7 2.3 9.4 4.7 14 7c18.1 9.1 29.5 27.6 29.5 47.8c0 15.9-7 30.9-19.2 41.1c-12.5 10.4-24.9 20.8-37.4 31.2c-10.2 8.5-25.3 7.1-33.8-3.1c-1.9-2.2-3.3-4.7-4.2-7.3c-.5-1.3-.8-2.6-1-4c-.2-1-.3-2-.3-2c-.1-1-.1-1-.1-2.1c0-.9 0-1.1 0-1.3c0-.4 .1-.8 .1-1.3c.1-.8 .2-1.7 .4-2.5c.4-1.7 .9-3.3 1.6-4.9c1.4-3.2 3.6-6.1 6.5-8.4c12.5-10.4 24.9-20.8 37.4-31.2c1.2-1 2-2.6 2-4.2c0-2.1-1.2-4-3-4.9c-4.7-2.3-9.4-4.7-14-7c-9.5-4.7-17.2-12-22.6-20.6c-2.7-4.3-4.8-9.1-6.2-14c-.7-2.5-1.3-5-1.6-7.6c-.2-1.3-.3-2.6-.4-3.9c0-.7-.1-1.3-.1-2s0-1.3 0-2c0-6.7 0-13.5 0-20.3c0-1.9 0-2.4 0-2.9c0-.9 .1-1.9 .1-2.8z" />
-        <path d="M192 128c-35.3 0-64 28.7-64 64l0 20.2c0 3 1.7 5.8 4.4 7.2l14 7c18.1 9.1 29.5 27.6 29.5 47.8c0 15.9-7 30.9-19.2 41.1l-37.4 31.2c-10.2 8.5-25.3 7.1-33.8-3.1s-7.1-25.3 3.1-33.8L126 278.4c1.2-1 2-2.6 2-4.2c0-2.1-1.2-4-3-4.9l-14-7c-19-9.5-31-28.9-31-50.1L80 192c0-61.9 50.1-112 112-112s112 50.1 112 112l0 8c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-8c0-35.3-28.7-64-64-64z" />
-    </Icon>
-);
+const Ear = createIcon("ear", true, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABzwAAALXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiEBQsIAAE2AiQDCgQgBYMtB0IbGQYRlZpvyX4kZGcyd0VsmKI/jSoaZ4KidFbPruTy6cg+AHhizD7niORHhAiIM4L0nO90NkabQyJH6B+ZaIQMbXXd3ee5nN5Iw9PsgxxQx6Hc2NYetHyM+TyBgKM1xUvjUBO3ls1hclELZYT0J3A02c7EBbPO3AGWBCf0lUxmgiHGQgSFgL8B0nZw/55c/aAPRneiJ0F36AEIQO0AKECABSyQgwBogUVADg4FgIOD4IOJRuGDotECEAAoQPSZFoAA4AJfgB8AgAOAQRjHaZy1INaNdwbFut7wnRXS3gzkp6ZqV+bakibambY+vbnWKJKWpt150pbqBxqfqtyXi9aW7M6S1lfbX2YRfstLsQtaH8hf21L7iJ71ezToSZ8HAwZH0m1mTfqG9AMJHx8ZmJ+2mhCyRKTjiZ0VK1Mw4TPyYStCRKtYlSp+RFw1dp7TI5Qj65p0myJpqwlxI+9RtD+0/3vhnTF3uNJ6axjCXgpu3WfcTwzmjyb757Wq3oSsLXzGe6WQWOXXL1WJQVL79k0N4oXDW+FodFWzDTebNr35fs77XlmnuvoOHNhXmM95VtvbtQq4WV3HHzNMxPsbvTFFKTIIjEbiJUVbw3O7paZaE5Iy3GiPQIAUatc2FPpOyZo5s9fk/CxKXmQjCYHKjFLaz54zZ803X9q2XkHo2cLSrCMjkOR5FgkBgADB40EDOo1ObPE/GGsA+HTeX8rfUfSqfLMfCGIAENga0RqMkA8gHwEAAABGkyiST1dAgGUXhuhUHKsRAMKDFoYAHizZhODgUR0ueTQ8HcCjPxY5MYgURrYwxDEWlkZMgUMKJ+DSguvZAChFHNZlSJV/NTNcn7brkMUpNBabagV8RbtssNupfjnk4Z2k52DnpaNl4u0xN0XhY8Ot2dvvgoyYFKDB6c5jo6SBm0eK89r5VQy4P6r41yd72MOIHOac4FighnLRVXfkZEzZai4DAAAA");
 
 export default Ear;

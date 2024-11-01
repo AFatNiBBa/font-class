@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reflect-both` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-both?s=sharp-light reflect-both}
  * @preview ![reflect-both](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/reflect-both.svg)
  */
-const ReflectBoth: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M278.6 169.4L256 192l-22.6-22.6L96 32 96 0l32 0L384 0l32 0 0 32L278.6 169.4zM370.7 32L141.3 32 256 146.7 370.7 32zM192 256l-22.6 22.6L32 416 0 416l0-32L0 128 0 96l32 0L169.4 233.4 192 256zm-45.3 0L32 141.3l0 229.5L146.7 256zM320 256l22.6-22.6L480 96l32 0 0 32 0 256 0 32-32 0L342.6 278.6 320 256zm45.3 0L480 370.7l0-229.5L365.3 256zM256 320l22.6 22.6L416 480l0 32-32 0-256 0-32 0 0-32L233.4 342.6 256 320zm0 45.3L141.3 480l229.5 0L256 365.3z" />
-    </Icon>
-);
+const ReflectBoth = createIcon("reflect-both", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdwAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCIwsGAAE2AiQDCAQgBYMtBzMbJgXIHoVx41PiqxzKYVsUEQ9ajZCkk+e/XyvPff2Xumc3DApBhW0ksdrEsnDk4kjYCJkI20ZMxUahnpWx/ZiH+JFELEFTbS6NpqmpdBqp0Rj59W0+cc3zP/97gcIXf5QKy140SEScD7TExsm7CcwGNtMJ2EpA2JsW68lmX5KZNUnHOfJ3h5YfOYJNfa0RH/lD88s2c0rrAGQtAHDldiIE7ylOk3H2IqNrQCBXAfZCdOiwE4LzmIKdWPYCTROmmc3qfyCBAJknLyvQ0OMZ8BbQQFlsbc3CBiQVh7nlduvF/dMDaoUKbyUZluXGbcHQ38ztGw6UxF7uXHxu5mB/62YaxKGizpiSVITxrRwa1KcwN24oVcqUtSeJyw5L3k4Kc2v/Xrb/7Ruro82bq4KF9Qd7EQbWH+6vxw1fwPDFvVXWLQN7BRmrR4dln68XL05ktf04fy8/DwBB+HwluiE9/39xKPDz+/93/xmZvUt9w6ICoTsyO6JYoAgAoPKGvCAoT/DIu058EhA9Asq8XkBnBxkETe8wBHN2s0Iwr3cdU9qS2Kg04TLxHO6cM4ObjR7wnPM+5Xkb02Uemzfsxy8pqIHAKTLqDOSiZdfgkolu227aVhRTM6WEB6Gqp2usoqxhrGcopGoTHcEIDPgiYqRjQFzoeLA9n1YxNNLQ06Vd3Oh+oDCNFytBZxDCU1pKkZq8PLI2VQEAAAA=");
 
 export default ReflectBoth;

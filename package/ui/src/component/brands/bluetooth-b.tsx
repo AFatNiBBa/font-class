@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bluetooth-b` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bluetooth-b?s=brands bluetooth-b}
  * @preview ![bluetooth-b](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/bluetooth-b.svg)
  */
-const BluetoothB: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M196.48 260.023l92.626-103.333L143.125 0v206.33l-86.111-86.111-31.406 31.405 108.061 108.399L25.608 368.422l31.406 31.405 86.111-86.111L145.84 512l148.552-148.644-97.912-103.333zm40.86-102.996l-49.977 49.978-.338-100.295 50.315 50.317zM187.363 313.04l49.977 49.978-50.315 50.316.338-100.294z" />
-    </Icon>
-);
+const BluetoothB = createIcon("bluetooth-b", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABVQAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBIAsGAAE2AiQDCAQgBYMtBzIbogTIngNu0zyio1ohTjRNE4k4+h6dOmE8z/9+3/a5745K86aWxkPVbHgiJfOQJkTINBYh/0Ulk59f7Nfenkq8n3YuuVZRRa3RmG6R0KiEYpoq84M5Q2r3J655/uffgEn8aJFW+iCR+FSxPJ/AACusfBOZDWymE7Dtzi2hyNonsZQlOR7teD2gZphrXZQvBbyiD80/FlcUXQ0AMgoATq+bZTx10kn+2shvRRDIGWAeoUGDaQQOSAXTZOZBVYVO2jb8BzIESDf4tQVUdGEDnACooGiqzNLTo5XrZZ10laZ73ep2CLmKLZdpxZ5rd6abznWtWSOqX9QbdbhgfTA9/Nvw+nO0QRtvvvujfQnR7guvicMqyS937908tm2YmbGCeevejGLlmSCsf28PpsbUf5VWAvj7Q7z+jIT2KdvlAb0KCM1q6zLKBYGQbQQAKLlgzQkBoVgghe866KOA6EdA0a1fQGOKCYGq3woCXWaFEejW75xUqhoxadyJYtBLorHvkqgmPRJdDnw63SbTGI7w7MK3LTUjgfQy9nt8nOBlpom2wOX5JG/rtovYseNZbDh04MzayrYzgZ8o++f2ZTQw7YuYn4cPS+Dj8vl4x9qJU9sOHZRFkvi+bXOhj7ajJcGs21JFIUVrlMmzw8OzLfcCAA==");
 
 export default BluetoothB;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-check?s=light location-check}
  * @preview ![location-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/location-check.svg)
  */
-const LocationCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 192c0-88.4-71.6-160-160-160S32 103.6 32 192c0 15.6 5.4 37 16.6 63.4c10.9 25.9 26.2 54 43.6 82.1c34.1 55.3 74.4 108.2 99.9 140c25.4-31.8 65.8-84.7 99.9-140c17.3-28.1 32.7-56.3 43.6-82.1C346.6 229 352 207.6 352 192zm32 0c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192zM283.3 150L176.6 256.6c-6.2 6.2-16.4 6.2-22.6 0l-53.3-53.3c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0l42 42 95.4-95.4c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const LocationCheck = createIcon("location-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdAAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBagsGAAE2AiQDCAQgBYMtBzUb7wQRlZp3yD4SY2fTHTWlcGdswpMICl1ZjyQDsOwIgDACxieC6OpDjvzpBsD8n+v5no/y+ecRDKWKShsLNPqinp/AiRW3DezaDmyieOauZkKEfaWlLMnjd4+vI2SxLZorRnI++RJH24/GX2rZTyJLAURFAPSZNG6Ed4uiKOLLwkviS8MQEH1BLpAiRV0BuksF6srkyGSCoigUwn9gLoAoTvpNQIZiGI8FgAwk0iyrU69qmWLlson5UOl5P/eMeHvij93fHL+7xeNENHnY6pm+r0aZS60jnu0d8W7zU6UPVH/S9/22z9f/ZdwPk34a892EieMnjT9VfWycqXG2Wo+YFPwop6s2elDxwT8Nv1z4pVmF6PclX/aLfvHll9GvZvESF87fvNW5862b5x+U+L9mXvd3/lzIomsXy5e/eG3Rwj9/rxtjJkwYE0QT7YP5TZYsdfd49d4AFy7cv3/erFnu3bt4AQgE+z8uM2NWhe5PS5ZJwB+v//e031x4L3YnD1BSAoK0eaH59NgNTA4gTGKjRsbAAonhUuBvLeuMAKE0AiSKKy1Aqo6KAmRKayZAMfV1EKC40sZJRVZKqGrGBImy1oBURztApqoXQDHdfRIWVzVSdPHY4P92KWyghgZsytu0bJ13zbe5IQCGLavd8mO98cY40oT2Wrhq5foF85esV8jaEcmGFQMteMCAeZuWrfOu+XX1un3igrXrlqxaWdfplr+3G2+0pzchKyGUbVOJhEjKw1JrgVMAAAA=");
 
 export default LocationCheck;

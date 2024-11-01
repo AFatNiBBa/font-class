@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tower-cell` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tower-cell?s=regular tower-cell}
  * @preview ![tower-cell](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tower-cell.svg)
  */
-const TowerCell: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M51.8 1.6c12.4 4.8 18.5 18.7 13.8 31C54.3 62 48 94.2 48 128s6.3 66 17.6 95.4c4.8 12.4-1.4 26.3-13.8 31s-26.3-1.4-31-13.8C7.4 205.8 0 167.8 0 128S7.4 50.2 20.8 15.4C25.6 3 39.5-3.2 51.8 1.6zm472.4 0c12.4-4.8 26.3 1.4 31 13.8C568.6 50.2 576 88.2 576 128s-7.4 77.8-20.8 112.6c-4.8 12.4-18.7 18.5-31 13.8s-18.5-18.7-13.8-31C521.7 194 528 161.8 528 128s-6.3-66-17.6-95.4c-4.8-12.4 1.4-26.3 13.8-31zM291.3 191.9c-1.1 .1-2.2 .1-3.3 .1s-2.2 0-3.3-.1L239.8 288l96.4 0-44.8-96.1zM195 384l186 0-22.4-48-141.2 0L195 384zm-22.4 48l-30.9 66.2c-5.6 12-19.9 17.2-31.9 11.6s-17.2-19.9-11.6-31.9L241.2 171.6C230.5 160.2 224 144.9 224 128c0-35.3 28.7-64 64-64s64 28.7 64 64c0 16.9-6.5 32.2-17.2 43.6L477.7 477.9c5.6 12 .4 26.3-11.6 31.9s-26.3 .4-31.9-11.6L403.4 432l-230.8 0zM163.3 73.6C156 90.2 152 108.6 152 128s4 37.8 11.3 54.4c5.3 12.1-.2 26.3-12.4 31.6s-26.3-.2-31.6-12.4C109.5 179 104 154.1 104 128s5.5-51 15.3-73.6c5.3-12.1 19.5-17.7 31.6-12.4s17.7 19.5 12.4 31.6zM456.7 54.4C466.5 77 472 101.9 472 128s-5.5 51-15.3 73.6c-5.3 12.1-19.5 17.7-31.6 12.4s-17.7-19.5-12.4-31.6c7.3-16.6 11.3-35 11.3-54.4s-4-37.8-11.3-54.4c-5.3-12.1 .2-26.3 12.4-31.6s26.3 .2 31.6 12.4z" />
-    </Icon>
-);
+const TowerCell = createIcon("tower-cell", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkQAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCSQsGAAE2AiQDCAQgBYMtBzEbSgXIHoWNg1ttw4kD9TGN1OofD/+/36997hNMm3pSC1kjnUYlEkW0VUqZNXXy5O//59/7+7znuTEmkipYHVTFJagPdV49iDYNEND7furU85yHAvgcgqCNaXPbBEm613kFClxKy9NqBRsLaxXF7s72WLG0w7MQg+Q4l+OxgzyexDikpGfRA3AZPzT+MTQAJEUGgGgGAJt7qSm49bKXQfcrp0D8SgIBsQmgFyFDhk4EVogFOkn0glwu+EMXF+4/kEMAUYJfL4EcNTgG3AAgB0lVLtFsUVOat2gKUlVJhiBluasGO+hxmbReMTqiXq9pG9V1w0P0uE/YrhnvU6/rlF3aCSPqpUGWRgJlpAlMcA1GzpNpe2kLW3Njymjaadtu1WHTcMIgO67kMoLlTKDHMK+fo17zaZtVg9J39JgsX2aaeo2m7NYNLbc0tr5ZPKh4wGv+6R1eXsbpCzE30cHB0TcxD6NsH9Mt+3g9EZDCeV+RpO/fvMJ+IUYhollEKPmJdSy78MAvJdNsWVhAgyl/lX7ZeOyPnvNeWb5harrhw9d2dq/31CFtodXzAQgEcWD4qVA9+L9CEAH+Xvl/OkXlqihctAWolkCQTVac5VEAQGgCohQdsISvgkByRI6vtd4DCIRaBEhKtQJkOmggkKs1gUChmw8CpVpbxCJXIrTLzyCpdwgyczpBrt0xKKy4HZfaExsjaUrkXzAutoZiVnEPV3ceyIcNQtkXHhaD+LZg34EDDrARFRo1aFOuTLW2CmmRkrWrFzuDY/wQ58GVOy4QP27fFjOUa9GqWqfPlwnC7zv2OubjHUAWYcwphSQRib1U3uWxAQ==");
 
 export default TowerCell;

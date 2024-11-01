@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-frown-open` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-frown-open?s=duotone face-frown-open}
  * @preview ![face-frown-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-frown-open.svg)
  */
-const FaceFrownOpen: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm144.4-48c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1 0 1.8c0 .5 0 1 0 1.5s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zm14.1 161.1c16.7-38.2 55.8-65.1 101.5-65.1c45.7 0 84.9 26.9 101.5 65.1c5.3 12.2-8.6 21.5-20.8 16.4c-24.4-10.3-51.8-16.1-80.7-16.1c-28.9 0-56.2 5.8-80.6 16.1c-12.3 5.2-26.1-4.2-20.8-16.4zM368.4 208a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M176.4 240a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceFrownOpen = createIcon("face-frown-open", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABqwAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDAgsIAAE2AiQDCgQgBYMtB1obrgXIhofn9fr/tU8ycwHlwawAfaOCWdIVgNquZ/6vqRd0FA3y6QgPJXIRwZHc+XwCAyyapU9oQjPcDGyD8wYfVChDSH9CHp9mFyuR7kjv47rwfwDjVz0uJqnJAEQzAJZt37zWy1/FVynerzxDvG8NAmI5KAQyZOgXYKFMoF+uQC4XfJUqFb6KSqUggCgLv4cMlFGN+/EIIAdJkud5W1vfpK62ulJDvq2uVLv9qq6I2+KCzltrr2y/uf2Wjlvq6sZEfLEs/sraD+YPrP9oxWvbv1z+6roPeeOa95e+vGX7bQfl2UDHLYn4fOfHBXE+dgG5ggRubofy3prOWzu33jWBQQ/nxz3Yc8u4pvO52c/MvHlO6Np+fru+Gbqt65lrDH+o+aHfh71/1Pse/6jxci5vLGQGNSANC+4f3+Blq2roefqVFSteebqnxirRzZLXTWk4DjWcmzkqskiBSDDRLIVIaeTMx55vvP/9G3hgxIgHHnh/3BFH3Lj+iSfWX3jGEfM+/tT6UP38dSAQ/Hj2PYf2Ny38v7ougW9e+vPf6oek8nKSHkK1BIJsYmWiPQkkAgCQ4izDE9cjkDlNLn7XercKEGoRICmrFSDTp1mAXK0JApQMmiVAWa3NMpHXCO32diCpdyrIzHYOyLV7GpQs9FahrD0yraprNP1HMcfqIbpqXzFt8tRifrHa1Ri6T/W2FxSHA2PP4lPj4EVHOdlJznCkIxzrjAF7mrXlM51o9Ra+ygcVpplsqsJ8xeXBU8e2QeE0pzt22bq+ywLF85mxztpePA6Gk1hyuhOZjEiRdTmExklHnXby2SdN0sieScZ+bs+SZcYBAAA=");
 
 export default FaceFrownOpen;

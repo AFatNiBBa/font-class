@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands?s=thin hands}
  * @preview ![hands](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hands.svg)
  */
-const Hands: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M560 136l0 90.5c0 56.5-29.9 108.8-78.6 137.5c-11.6 6.8-23.7 12-36.1 15.6c-1 5.9-2.2 11.8-3.8 17.6c16.5-4 32.6-10.4 47.9-19.4c53.6-31.5 86.5-89.1 86.5-151.3l0-90.5c0-22.1-17.9-40-40-40s-40 17.9-40 40l0 25.7L415.6 22.4C404.5 3.2 380-3.3 360.9 7.7c-7.8 4.5-13.5 11.2-16.8 18.9C333.1 7.5 308.6 1 289.5 12s-25.7 35.5-14.6 54.6c-8.3-1-17 .6-24.8 5.1c-19.1 11-25.7 35.5-14.6 54.6l1.6 2.8c5 .9 10 2.4 14.9 4.5l8.1 3.4-10.8-18.7c-6.6-11.5-2.7-26.2 8.8-32.8c11.5-6.6 26.1-2.7 32.8 8.8c0 0 0 0 0 0l42.5 73.7c9.6 4.4 18.7 9.5 27.3 15.3l-56-97c0 0 0 0 0 0l-16-27.7c-6.6-11.5-2.7-26.2 8.8-32.8s26.2-2.7 32.8 8.8l16 27.7c0 0 0 0 0 0l64 110.9c2.2 3.8 7.1 5.1 10.9 2.9s5.1-7.1 2.9-10.9l-64-110.8c0 0 0 0 0 0c-6.6-11.5-2.7-26.2 8.8-32.8s26.2-2.7 32.8 8.8l95.4 165.2c1.8 3.1 5.5 4.7 9 3.7s5.9-4.1 5.9-7.7l0-55.5c0-13.3 10.7-24 24-24s24 10.7 24 24zM233.3 177.9l75.5 31.8C364.1 232.9 400 287 400 347c0 82.3-66.7 149-149 149l-147 0c-13.3 0-24-10.7-24-24c0-13.2 10.7-24 24-24c0 0 0 0 0 0l96 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-96 0c0 0 0 0 0 0l-32 0c-13.3 0-24-10.7-24-24c0-13.2 10.7-24 24-24c0 0 0 0 0 0l128 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L72 368c0 0 0 0 0 0l-32 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l32 0c0 0 0 0 0 0l128 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L72 304c0 0 0 0 0 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l183.5 0c3.8 0 7.1-2.7 7.8-6.4s-1.2-7.5-4.7-9l-44-18.5c-12.2-5.1-17.9-19.2-12.8-31.4s19.2-17.9 31.4-12.8zM72 448c-5 6.7-8 15-8 24c0 22.1 17.9 40 40 40l147 0c91.1 0 165-73.9 165-165c0-66.4-39.8-126.3-101-152.1l-75.5-31.8c-20.4-8.6-43.8 1-52.4 21.3s1 43.8 21.3 52.4l7.4 3.1L72 240c-22.1 0-40 17.9-40 40c0 9 3 17.3 8 24c-22.1 0-40 17.9-40 40s17.9 40 40 40c-5 6.7-8 15-8 24c0 22.1 17.9 40 40 40z" />
-    </Icon>
-);
+const Hands = createIcon("hands", false, "data:font/woff2;base64,d09GMgABAAAAAAN0AAoAAAAAB2AAAAMnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiEZQsGAAE2AiQDCAQgBYMtBywbYQbIrgZsYxryF81AYiyzaLCce9Q7HyFQ/1zwD9pR7yeZWUA5mx3Nyj3VbXkwDzyH7d9Yw04Xnrfn82lZQGFAB1pgAfc8D/f8/2/+fa81aCzbpIHkWcejLJ62aUwt4e/ffzjX+0TbhGaZgEHDJB3wQPsCG7jCzzojpsObpRb43/9/P49/nQ7wiX8f2v2/R9lYFFnAOz7AaOsAS6AJ49RNydMcjtGnDI8irhYZjP3i8WwFXOAldgUwI/wD1pxfpWs0LIRhQwAAKA8AAJpsd+vA3QMdiJ78hS4wDwTQGAB4AhbiXOcK9VniIo4HjiO8o/9g/4EsBABF0Q81ABwIoALUAQAOgGHDbmZSLYaKcz2FIHoayNzuydoHi29MPVLqRqUzQtqubY4ulY2gLbRZ25y6MRWCjWmaNHXiZwXm8EjWPAkXe2lPVbJVZIl6fUs6AYSfVUg7wkNZg3v07HGtdypvb/2bzXkdtg5IuAraom9Oj06n3Wkag0jitBX6lvS6uuwdJXpvNLeyKUbQU3Hea+ufrttT7wax8lquRGCQINHZOU08Xshtky0Gw3769GWbN2sRVSJmHI1fcpBW6gfHzySduC6bTidWPZ/vzXx79fw/BHH2veYyEGYnM3lnKvstaNe+B1Bmli8LPgbgF47T0fsFQKNDWqx1K1kWB1jQqnMvrBVf7RLUlrbaJa1lmXYF5dp107O4/NG2K10qaV0ABhscDQcnAPgONhdfNPUQ8OirwkjY5FNnd8PUksnlpPMTNtAiULgjHR95chi+Xq9pNHDglxJrfVManxsMkaPXA4CAkLVQoeKghPqvrGAA+DDcv679/Q9L+DhAJANAsN1/9A82BsCaiNpNYCYUDcRyLUVhqT3WZoJToiHICEUjK0cicqKVQ4F8NSA5vBtL4Sgk1QAgI9YUZNU0CzmpLqBAffdtodQAsTXIhU3+mca19FiLdr5Kxcq+rr+Nq9Rqh1Jfz6clpWcyrwymMtIkE003wnBjTHfCqTo4Z5igZYRv8Vuviooq8+ry06lbrqfTTDWN0KfmW1GPf95Q2sy4dBnIDRVZVYhhoGCwdwEAAAA=");
 
 export default Hands;

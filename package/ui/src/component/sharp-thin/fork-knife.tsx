@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fork-knife` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fork-knife?s=sharp-thin fork-knife}
  * @preview ![fork-knife](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/fork-knife.svg)
  */
-const ForkKnife: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M38.4 6.2l5.7 5.6c-5.7-5.6-5.7-5.6-5.7-5.6s0 0 0 0s0 0 0 0c0 0 0 0 0 0l-.1 .1-.4 .4c-.3 .3-.8 .8-1.3 1.4c-1.1 1.2-2.6 3-4.4 5.4c-3.6 4.7-8.4 11.4-13.1 20.1C9.6 51.2 0 76.3 0 107.2c0 44.5 15.4 81.7 42.6 119.5c26.1 36.2 63.5 73.4 109.1 118.4L163 333.8c-45.9-45.2-82.2-81.4-107.4-116.4C29.7 181.5 16 147.5 16 107.2c0-27.5 8.5-50.1 17.1-65.8c4.1-7.5 8.2-13.5 11.4-17.6l207 221.4L262.8 234 50 6.4 44.3 .3l-5.8 6zM495 506.3l5.5 5.9 11.7-10.9-5.5-5.9L339.3 315.9 328 327.2 495 506.3zM464.8 .8L341.3 89c-3.2 2.3-6.3 4.9-9.1 7.7l-7.6 7.6c-28.1 28.1-28.1 73.7 0 101.8l17 17L70.2 494.5l-5.7 5.7 11.3 11.3 5.7-5.7L353 234.3l17 17c28.1 28.1 73.7 28.1 101.8 0l7.6-7.6c2.8-2.8 5.4-5.8 7.7-9.1l88.2-123.5L563.7 99.7 474 225.4c-1.8 2.5-3.8 4.9-6 7l-7.6 7.6c-21.9 21.9-57.3 21.9-79.2 0L336 194.7c-21.9-21.9-21.9-57.3 0-79.2l7.6-7.6c2.2-2.2 4.5-4.2 7-6L476.3 12.3 464.8 .8zm33 33L370.2 149.2l-6.8 6.2 11.3 11.3 6.2-5.6 128.2-116L497.8 33.8zm33.1 33.1L409.3 201.3l11.3 11.3L542.2 78.2 530.9 66.9z" />
-    </Icon>
-);
+const ForkKnife = createIcon("fork-knife", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABlwAAAKfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDCgsGAAE2AiQDCAQgBYMtBzEbiwUR1ZoXyT4S0+2M8oCCMsE9aYo3wT+QV76fZOXBsk1lZKYm0yOkE8zb8DztfD8sLcqC7nbZDAeC2eb/ms/v+dEBfj/Re4cWaUUF0tuAMp832LCDou1s4bOBTRS3OjeEusGJ40nYn4ClR/QgDIy15QawOHypPpFmBgxMEwAAJQIAADWCrZpw5rmeS9dDB6HrNAIEoBoAbAJMwAQyCYDKTARksrCBhYXguUIh8R9oQwCgcMBvAwALiAA2gmMAwALAIMyyysRViYuKCYuzAqZddPvh867yTpVCSWieFf2OPZl3apx1/Lpb85w2z9V+R34F4pOn5w7en/0JxCPnax1svcLj0R5TngLqEY+88qt3Cmhvm3/8iiFB+dQ6ywt21Hm7qtZl6pziq+ykVtMtwZvH53QT3S85bvS6QZ7fAWwvdkFISbkCA6KyUX3V8No1XPReLYdVSnvXzrn1GNftVzjUufxr3zaXOuy+uHbdrP/jg+79NUv3ok5WVh1ISKA2+zjEJwCts7Ja96JW7uB4XG0nkGuNJsHnT7jBD5/v+2hyvhPa4po8DE3vyXEOk4fjGjsTPew4Y2bhAkCAoMJpXaZzQuU/kTEGAC+PfftEujl0xqhmuCASAwCBWThUWAejOtBCMwKwDY2SE/cLMFgpDPypsawiAEQ0IAAMwolGAJhkSCQALKIpRACEkU0ZAiCcaFphIisK4dGxAQaxDAUmZU0EFh77QRimsstmOE/Mr5X61qh/xfi6XahOK7tE0eJ2RXs2rNAfIGHLK9mbxfyjZFoBvJFeBhtkhJ566GtEBxmmiTPSQHWX4Dp+yFZCUcXZKrIPxx6uDuhpmOH6GmyQr6QS+3ojv1HLuQtgxQC4JakG4yZMi+41eFj/Iv0H9e3VEwAAAA==");
 
 export default ForkKnife;

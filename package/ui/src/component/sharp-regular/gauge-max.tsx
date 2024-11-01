@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-max` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-max?s=sharp-regular gauge-max}
  * @preview ![gauge-max](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/gauge-max.svg)
  */
-const GaugeMax: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 464a208 208 0 1 0 0-416 208 208 0 1 0 0 416zM256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zm32 112a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM256 408c-30.9 0-56-25.1-56-56s25.1-56 56-56c10.3 0 19.9 2.8 28.2 7.6l110.2-75.4 19.8-13.6 27.1 39.6-19.8 13.6L311.3 343.2c.4 2.9 .7 5.8 .7 8.8c0 30.9-25.1 56-56 56zM384 160a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM112 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm80-64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-    </Icon>
-);
+const GaugeMax = createIcon("gauge-max", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABowAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDEgsGAAE2AiQDCAQgBYMtBzAbkgXIhqDSRfas9ACsB2K2OcOIAFKKgCKXs7/5P5cuno8G+ImGQ4u00oGUD7Pv9AROoL0SsO3AZnoCdrtNZphBlAVFRIfqGGJoC/XlK8jjtbimDOn+9Dmupi+NPzVwiqRMBiCqA2D43JmTvf1z/BzxWekF4jMTERDDQSGQIUNjAQbJBBrLFcjlgp+jVML/wIIAoiy6YQI5KuBxvAjIQVIuzxs1qtWkFt1vpTJV8jmVylScfXFgxGs9n4vjPZ4d8GrFC/1e7va0Y92f6f9KpeyHyRFfDH/HsWFvT/p81o9Tvhzxbhwf+d7Ur+bOPlY74lbFC3XvxPF6dytdrHPbvMfqRtxp+OAIte1nbrSNztEqZsVt99W+1WquVliWhRAESxcGKXZo8VT1p/5u/vmaz5Wq9f+TP95+um/fp9/+48/+zIXLvx7tGtcHNh45svHA69dGi27naLa16jnOVS0uPKhZ2233+LdcuX/vbav+0uaJBnlMZ1smyPN5yNH/9UOqDQWiqdcDgeDb7KffllYb9F/5Sgn8+uq//9afkdLbSXoK5SUQZJ1KnSxKIBEAgBR7tEgQSB5VDn1qZXcECBURICmrogCZRqoLkKuoowBlNNVbgLIqmikTeQWhtsUdJJVtB5k+DoNcbc+BMgb5yCirdmQWy9gb872YOIajo8cV3bt0KwYUR1djjZAK7YGFWm63x6faw1JrbLXFLqutst4uhu8w2d5tszESNlqPCt110U1hgOI6eBbnMGOHndbv+ftRBire6+3skYvbg5YQaQ8Tk0SkCmuX7177m0hpHw==");
 
 export default GaugeMax;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link-horizontal` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-horizontal?s=regular link-horizontal}
  * @preview ![link-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/link-horizontal.svg)
  */
-const LinkHorizontal: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M143.9 64C64.4 64 0 128.4 0 207.9c0 75.7 58.7 138.5 134.3 143.5l8.1 .5c13.2 .9 24.7-9.1 25.5-22.3s-9.1-24.7-22.4-25.5l-8.1-.5C87.1 300.2 48 258.3 48 207.9c0-52.9 42.9-95.9 95.9-95.9l160.3 0c52.9 0 95.9 42.9 95.9 95.9c0 50.5-39.1 92.3-89.5 95.6l-8.1 .5c-13.2 .9-23.2 12.3-22.4 25.5s12.3 23.2 25.5 22.3l8.1-.5c75.6-5 134.3-67.8 134.3-143.5C448 128.4 383.6 64 304.1 64L143.9 64zM496.1 448C575.6 448 640 383.6 640 304.1c0-75.7-58.7-138.5-134.3-143.5l-8.1-.5c-13.2-.9-24.7 9.1-25.5 22.4s9.1 24.7 22.3 25.5l8.1 .5c50.4 3.4 89.5 45.2 89.5 95.6c0 52.9-42.9 95.9-95.9 95.9l-160.2 0c-53 0-95.9-42.9-95.9-95.9c0-50.5 39.1-92.3 89.5-95.7l7.1-.5c13.2-.9 23.2-12.3 22.3-25.6s-12.3-23.2-25.6-22.3l-7.1 .5C250.7 165.6 192 228.4 192 304.1C192 383.6 256.4 448 335.9 448l160.2 0z" />
-    </Icon>
-);
+const LinkHorizontal = createIcon("link-horizontal", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABiAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCHQsGAAE2AiQDCAQgBYMtBzYbIwXIhofn9Z469yUZgBlIWEh/S8BNoZKVMHXqec5D8/w5BCEL4Ni0NBZaIKE5zyMQ0fhoSzAW1gpU0Qpo3zY8OoLwhYSESYnj5XitkMffcbuC9ED6Grf1F40fNHeRpMgARD0AjFuyYJb3v4lvIr76/xXiKzMQEONAKZAhQysBRsoEWsmVyOWCb+L///E/sCSAqIJvJIEcOQ7iGCAHScrzwYNrFrXzxTWLGis+HhnxdvnEqHcmNY7nWj7YuUa82r3S5rEeLw6pGa90e6H1w12fH1gjnm72QKem8dmY9zo8OfrdyTU2iRlBahO73PhMjLJZdqP4eGT2L1CzfaVe5ad2X2/+2m1nPrjC0VbVl0y5e6+5A4sJ1S24fq1KtUrl7OPOVirVqly7vqCaBcXAuXvdPWVJ9VZHr3zw+JobmoOK8WfNJzZUNQFe63tAIKg95/sGa+qO/LVazQS+e/OX38aJ6WyqoJoEgqzn/z2tTGcByQG4KQ5r77xRINkp4XOt5V4BQg0ESKqoIUCmpXoC5GroIUChjUECVFHDApnIqwuNrJogqWUfyAx2CuQaeQkURvrMqaJRZGXHFQ3360uerKFJc2W/3n3L4eU2JHwlMW08ojzWuh6mUjdYtNkeux20yUbbHFTIfrP8Q3aZ7MGTfFCpn976Kg1XhpNXebFy9jtgmy3Gp4xQ5ltdHfabu4GZMGV/gSQRqe7rLvWqSQAAAA==");
 
 export default LinkHorizontal;

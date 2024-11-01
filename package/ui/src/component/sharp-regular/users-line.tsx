@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-line?s=sharp-regular users-line}
  * @preview ![users-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/users-line.svg)
  */
-const UsersLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M83.2 96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM64 192l160 0 10.7 32-9.1 0-22.2 0-7.8 20.8L179.4 288 32 288l32-96zm399.8 96l-16.2-43.2L439.8 224l-22.2 0-12.3 0L416 192l160 0 32 96-144.2 0zm-46.2-32l12 32 18 48 18 48-51.3 0-185.5 0-51.3 0 18-48 18-48 12-32 19.7 0 149.3 0 22.9 0zM435.2 96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM321.6 64a80 80 0 1 1 0 160 80 80 0 1 1 0-160zM246.9 336l149.5 0-12-32-125.5 0-12 32zM24 432l592 0 24 0 0 48-24 0L24 480 0 480l0-48 24 0z" />
-    </Icon>
-);
+const UsersLine = createIcon("users-line", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABhAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCJgsGAAE2AiQDCAQgBYMtBzEbJwXIhof/t/v6fW7V69V9q42aiWB/QRmUi87gIBql35r/az6/50cH+O2C4NAiLYsXhRHxfCCzAUd5pOhsOJvRBHjWzj71kugWSUj5kGF7w+gIZfwdN2iQ7kyf4fr4pvG1IdeRNAoA0QmAtYcfvNMHe2JPxKf/v0p8ajsCYi2oBQoUGBVghUJgVKlGqRTsif//5//AmgCiCS5LoETGRbiC8SeRNJdlW0dHV1tbS1U12srDqkY++v7pT099cuyeKU9Me2r8kCpXQ5HzYMyIHIefOD42Phw5j0QVh0ZeNjQ8NDNmRs6zY3aMRHX42eHDXp357IxnFrw267nZzy8+osoVPxuDh3S0d4jcHlFNfqrzqW8nfXbaZw46vtj344/7imR1H/8A9j2vZeAU2c0mjr/++L+QfYn+tuc90EZu2P0+5UyYsODbNPe+3nfv386/YOKDyzZvvuyDryj6alvHrVj+vsu9v+v4Aw44Y45BhwbispMenrT4+I4VvzZXCex76/vv5Zv/35OuSk+hWQJBMeP/GY5JV4EhBhBPcZnJwgcFkrM0w6u2uk2AkBEgaZIFKIzoFKCUTRegYdxCAZpkBytE2SL0OraCpNWFoLDI5aDU62XQsMKHsSa9UegeoznMzy9xUw9tXFTPnTWnXlZPqwqrTpSfXl4vy1Mus11T6aDTnO88lzjVKc50SYdcZGfyUufaJMEbfVFtrlnmqC1THzcedx/mVBe52JnOd16YZbn6vj/FZfLgqaQlIJ2nIElEyqoszXycAAA=");
 
 export default UsersLine;

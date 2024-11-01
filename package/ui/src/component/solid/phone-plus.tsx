@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-plus?s=solid phone-plus}
  * @preview ![phone-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-plus.svg)
  */
-const PhonePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M424 200l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24zM149.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L176 207.3c33.3 70.4 90.3 127.4 160.7 160.7L377 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C513.8 499.9 498 512 480 512C232.6 512 32 311.4 32 64c0-18 12.1-33.8 29.5-38.6l88-24z" />
-    </Icon>
-);
+const PhonePlus = createIcon("phone-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbQAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBYwsGAAE2AiQDCAQgBYMtBzEb5ATIjsN0Gz1HblnlS+Lh/9fK7vtVQz1hqDCjShyRCuuwyoki2mWFaEGS62SufZ//yz2/uQEX+aFcYy3fQHs/T+DE6nsLs4CyMEsU89v5XcIgegZJusSF/rC5YfsXyOPH7IQK0o0El9OHxp9aOkFSkwGIBgCYsGzRHK9/i98iPitHfGYWAmICKAQyZGgjwGiZQBu5Arlc8FuUy+4/sCCAqAQyieTmwYXYAMhBkvK8Y/fairr5UnuutClEKe60utWtNiKM4XZLURuG651LIawpv/FaU/CVpkviRvfZ8WjMixmT4mGXJUPhSpPFy+Q3S7N1BFjW8UGDB393sPVzd/8bj6oFTZsuKPh4+IKmI/izGn74xdd8sLbbOucmVjlx9vr0/TrfW9fN17vX9G2+zM03x2welR32ZZsda/NkWXMgEBz4/a+KdfVH/1Ndm8AfT/+/PlaUX6f+6QGqJRBkvcu9rU7jBVwDWwGopziqI32TQDJTgnet46oAoYQASaWSAJnWGgiQK+klQIV2hghQqWSRTOQ1QhNruprUcUDNDHVczTXxWK0w2kf1Sk0i0yy3Xrh/7ApM5dAUu2JA3/7FyGI50DzK4gyHo4rtRPejfqEHAW21z16HbbHZDoeZctCc1hF7TJW4KX6oMEBf/RVGKq7Hj6eX2uKgQ3bYZ288ZpTi+0p3R+X1PSidwHSgtiQRqfT2gn1eJgA=");
 
 export default PhonePlus;

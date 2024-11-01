@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-users` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-users?s=sharp-duotone-solid calendar-users}
  * @preview ![calendar-users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/calendar-users.svg)
  */
-const CalendarUsers: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 64l96 0 0-64 64 0 0 64 128 0 0-64 64 0 0 64 96 0 0 96L96 160l0-96zm32 128l384 0 0 1.1c-54.3 7.8-96 54.4-96 110.9c0 31.3 12.9 59.7 33.6 80L424 384 379.2 512l-118.4 0L216 384l-25.6 0c20.7-20.3 33.6-48.7 33.6-80c0-56.4-41.7-103.1-96-110.9l0-1.1z" />
-        <path d="M32 304a80 80 0 1 1 160 0A80 80 0 1 1 32 304zM192 416l32 96L0 512l32-96 160 0zM448 304a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zM608 416l32 96-224 0 32-96 160 0z" />
-    </Icon>
-);
+const CalendarUsers = createIcon("calendar-users", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABiAAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCHgsIAAE2AiQDCgQgBYMtB1gbSAXIjsM4hvxiKkMcI/h+rff73JlHC0GcAKNKFDA5IB9HIAHQsRFbkcn/MnqL+X3+L8f37vltwM9HcGh76KarDTjn87DnCU0a27KAAsvSDK23KRIVUZlfRMjmZMSOT49zZ8jToOy8BtKV9AsX8H8A46+uzpO0ZACiDQDmrFiy2Jda1FL8qr8gflmEgJgLCoEMGXoIMF0m0EOuQC4X1FK9Ti3q9YIAohE+LwONaMZunATkIMmlPK+2xOquPcsN1Xx5+RWlFbemvZ/ytuf1yW+mvuu1bNnyZaVYEWUhW1MulaOjIcS4n6hELKtWquLF4Ds9bkwpxdJAaPn573vfHHpvYvS91+be/31sp/eFyo5jx3ZUcnrrQO8Nza6BBd2uH5BjG05tJHe24J82lY1Q9cXG3qdO045w8cajUuvW3Qw/5fiwu2GvKj26cTGAQLAw/eu0ofX0f83lBH6/+8d8uP4lnU730CyBIBteH25tOg2JHkAhxXF9lY/aKJCZKEfvWnFRgFBCgKRRSYBMd20EyJUME6BBLxMEaFSyRCbyFqGDdRskFYdAZqITINfBc9Bguq/5Rh0iMzzebPjfvpSFHF6wrBgzcnQxtXisWYItsXV2WvHaGXw89wyBrbY7YL+jttlql6OMOmxx6Zh9FmrIAl9UGGOk0QpTFcfNr8rykD/siF2ydD7PNMX3wWDH9eFDwE+IcawVmYxIkXXyS22EMxsjjHhQlzvJYQEAAA==");
 
 export default CalendarUsers;

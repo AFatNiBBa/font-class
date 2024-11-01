@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-medical` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-medical?s=sharp-thin head-side-medical}
  * @preview ![head-side-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/head-side-medical.svg)
  */
-const HeadSideMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 224C16 109.1 109.1 16 224 16l24 0c95.7 0 172.5 77.9 176 172.7l.1 3.4 2.6 2.3L496 256l0 64-56 0-8 0 0 8 0 104-120 0-8 0 0 8 0 64 0 8 16 0 0-8 0-56 120 0 8 0 0-8 0-104 56 0 8 0 0-8 0-75.6 0-3.6-2.7-2.4-69.5-61.8C434.3 83.3 351.6 0 248 0L224 0C100.3 0 0 100.3 0 224c0 59.1 23.7 114.5 64 156.7L64 504l0 8 16 0 0-8 0-126.5 0-3.3-2.3-2.3C38.7 332.1 16 279.7 16 224zM208 96l-8 0 0 8 0 64-64 0-8 0 0 8 0 64 0 8 8 0 64 0 0 64 0 8 8 0 64 0 8 0 0-8 0-64 64 0 8 0 0-8 0-64 0-8-8 0-64 0 0-64 0-8-8 0-64 0zm8 80l0-64 48 0 0 64 0 8 8 0 64 0 0 48-64 0-8 0 0 8 0 64-48 0 0-64 0-8-8 0-64 0 0-48 64 0 8 0 0-8z" />
-    </Icon>
-);
+const HeadSideMedical = createIcon("head-side-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABjAAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyDHAsGAAE2AiQDCAQgBYMtBzgbpAXIHgd2Y9cIN2E1vFjGCL63lfb7M3s12hXD3EUCIMoJKmfbkTMgDgWpyqHjbZYqWGZV+z5yarzApfITrBesROf8HZo9kNG9vExgoOf6o2bxxT/YTCdgU6cj7PBwjj5FRErpujLmcVU8Lo+Qx4e2q5AepXGjfWi81cV1kiwDEK0BMGXVsgU+exWvIn6sI340DwExBZQCGTJ0F2C8TKC7XIlcLngV9Tr/B5YEEA3obhLIUcF7+ASQgyTL8zX9GmuVFvnKWqW66t9lEX+uqsXfS35fITrEihDVKmBFLSICV7soomOsjH+W/rGyGl/N/m5w5d8rQqxDmVNWVWsLyGoCdbCsLG/8gPiw2KX07aLpResX/zW+8yetXsaqF7xYFZ3Njtay2ZlG0yeYbHRR2O10UZis0FphtKDAmInmyzSZPl5lwfRlC6OzVz344veWsXbClHOjCy/KtfFx+OmlgnImm8xQoZjcb7aORi2aTPrgqg92quv1QCBYdmt+202txv9f1BJ488G3589I/bMkvUAhgSDrX8f6BBIBAEhxUlOCQPJYhpI0d1+AUEWApEH1hjPdtIZzVf3gip5GMMHNy2Qibya0twFw0twRODPSBTjX3vtwxXjf5hu0jyxtuaTjfhqTZ0pgxrxyyMDB5diyW3Hxmcjsk+PKsN375NbRBwftdMhBx+2w3R7HBXjUgtIJB8z0cDO+qDTEQIOVxiqn62t5ZckfdcweW5yfZZxyfba3k37/PvASIhyqLElEapPbyoAXWx/wGQM=");
 
 export default HeadSideMedical;

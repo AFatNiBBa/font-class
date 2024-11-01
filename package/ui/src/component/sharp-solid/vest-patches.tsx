@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vest-patches` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vest-patches?s=sharp-solid vest-patches}
  * @preview ![vest-patches](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/vest-patches.svg)
  */
-const VestPatches: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M151.2 69.7l55.9 167.7-13.5 40.5-1.6 4.9 0 5.2 0 224L0 512 0 256l64-96 0-32L64 24 64 0 88 0l40 0 7 0 13.3 0 6.9 11.1 .3 .4c.4 .6 1.2 1.5 2.3 2.8c2.3 2.6 6.1 6.3 11.5 10.1C179.9 31.8 197.4 40 224 40s44.1-8.2 54.7-15.6c5.4-3.8 9.2-7.5 11.5-10.1c1.1-1.3 1.9-2.3 2.3-2.8l.3-.4L299.6 0 313 0l7 0 40 0 24 0 0 24 0 104 0 32 64 96 0 256-224 0 0-224L296.8 69.7C279.3 79.8 255.3 88 224 88s-55.3-8.2-72.8-18.3zM96 456a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM72 247L55 264l8.5 8.5L79 288 63.5 303.5 55 312l17 17 8.5-8.5L96 305l15.5 15.5L120 329l17-17-8.5-8.5L113 288l15.5-15.5L137 264l-17-17-8.5 8.5L96 271 80.5 255.5 72 247zm232 33l0 8 0 48 48 0 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-8c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-    </Icon>
-);
+const VestPatches = createIcon("vest-patches", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABjwAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCbwsGAAE2AiQDCAQgBYMtBzMbcgXIjsM4JjzSRePDGEGks6oeyV7Q7qF9gDoGeiDOgCgEjJw9YPoZUvThrZsZoZLw/F+O752tBTj1RA9lLVqNBbL8sLmeJxDgoh/2zvNemgWWaQKWtU1P8Q2CvMEg4xnO+WKIz0JZAXk8nU2F9GSC+8uHxl/6u4ukLQMQPQCwbM+OTRrfx/cRXzTfI76wAQGxDJQCGTIMEmChTGCQXIlcLvg+mk36DywJIKoYSV6bo4on8CogB0me56s7x9WKSme+u6i0H9i1e9egqIUQ7ZHFnnDgoqhHPW6v31a8/uisD/o+HlURfaMoRG1XpFUo7ntl5vuj974+8OkBT41+pd8T/Z8ctXvshLHKoObpcdHXFLUJ0QcmovFDA7ldgigKpU7mGVN9Y/hbPd76Z5jTPHb9nNfqUz5VU/G9BpYcUTqrn34LLwARI64+f+zY+atH9MQFOtf0c1b5qhjf+97a7zz/ww/Pz7796NsPP/z20Qbo+y3u86//3Asp/9N0LcqmLteR6/Kv+34r45NTTW3dVq9va9XK6/1xIBDc0rXj1JHuC/+vSODHj//7h35Gmo1opLfQKoEgm9ic6GA0IBoCAJDiGsOjgUDygFx41w6PCRDaESCpahcgM1APAXLtJghQMcQsAara7ZCJvE2oOXQJSYfLhcxsNwu5mneEioU+aVfVIrNP27rs38OC1RJedaycNnlqOb987OuOyZl5f0G5HI+9Js2NA9Bpl7rEVU456ZyrBH+FTb2rXWz1jFzli0rTTDZVab5ye/Q92B1qV7hSmmN3/5AFyvOtsa6Zrx6HLGHN6a4niUgd15y68qpJ335y6koAAA==");
 
 export default VestPatches;

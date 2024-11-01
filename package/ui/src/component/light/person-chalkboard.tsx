@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-chalkboard` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-chalkboard?s=light person-chalkboard}
  * @preview ![person-chalkboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-chalkboard.svg)
  */
-const PersonChalkboard: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M168 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 136 56a56 56 0 1 0 112 0zM179.3 160l44.7 0 0 160-64 0 0-156c6-2.6 12.5-4 19.3-4zM160 496l0-144 64 0 0 144c0 8.8 7.2 16 16 16s16-7.2 16-16l0-336 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-80c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16l0 224c0 8.8-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16l0-80-32 0 0 80c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48L368 0c-26.5 0-48 21.5-48 48l0 80-76.9 0-63.8 0c-29.5 0-56.7 16.3-70.6 42.3L49.9 280.5c-4.2 7.8-1.2 17.5 6.6 21.7s17.5 1.2 21.7-6.6L128 202.2 128 496c0 8.8 7.2 16 16 16s16-7.2 16-16z" />
-    </Icon>
-);
+const PersonChalkboard = createIcon("person-chalkboard", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABiQAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCOgsGAAE2AiQDCAQgBYMtBzgbQgXILgbsxuVCZxy1DxksQsRiJcHwb8O5r2URfK199pudoz1gBWQBWDi2GB+H6BCEYSEjw8L/io19v7a3uPQPyS1Dc5lOv0YjxDssmVQJ2UuhBBLTLlsEbbKyNArHry3e+RtsHj5OfV8zOWDBRHh0nJdrBa5V69UFXuIpUv7PDRmVYuApFbVQQtdYnPN/zeeXdnSAn4/gUKLX8bwKO59PYIBnK21K4NkwShSnbkoVKihKwEOKFHEyRo+vO849W0GOP4qU9Br/4GG70fivMybJBQFECwKwcVDJ0fWLX8Qnb8QfEyAgNgH0AwoU6AawTCzQTaIfybKgEpn8H9iPAohqwmkTyKjGDTwAZJDkLFFqNfWySivJJ1d1LnvXZ7kf6jdrn1ufz90+RLUs1RQlgCkdhqgHxXOZmliYaJ/o1mrqNYnwjFXBl0SoQPFahKmOg00DsdDJUsWWeSeUqmtV45kI1ohkstB+budn+3PuD3icOktba8/etF/Pt6/NybO990JrCetOt4u29Rma64qmyq9powiM4ANWs9X4G+9vUEX472u8Ynj9LX60fMOtf6vFg/D9vzyxo20OBwLB++vRaqBf/teSiODf8//C/jxvOuIHoFYCQTGcpZtuwCBiagChFBy+u6thQHIBgWtt8EKAUCJAUq0UoNDFACArDQGo0isKoFppBxZZSaFDb4KkwXlQmDUCWYcLqLLsHq7WEYUXCj4kfAOmZjWUmcRGX4Cl2GWJiI7FldE0u23tudTipLmUTUa7JGrsily52GFgT4TxQ1SQTwCTwh5XX6d7yWrTmIx1nDRmH3Tgzt2d5EBAOyknSUQyOm2L9yec+uFrCgAAAA==");
 
 export default PersonChalkboard;

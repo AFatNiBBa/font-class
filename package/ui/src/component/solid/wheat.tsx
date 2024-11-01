@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wheat` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheat?s=solid wheat}
  * @preview ![wheat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/wheat.svg)
  */
-const Wheat: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M472 0c-48.6 0-88 39.4-88 88l0 24c0 8.8 7.2 16 16 16l24 0c48.6 0 88-39.4 88-88l0-24c0-8.8-7.2-16-16-16L472 0zM305.5 27.3c-6.2-6.2-16.4-6.2-22.6 0L271.5 38.6c-37.5 37.5-37.5 98.3 0 135.8l10.4 10.4-30.5 30.5c-3.4-27.3-15.5-53.8-36.5-74.8l-11.3-11.3c-6.2-6.2-16.4-6.2-22.6 0l-11.3 11.3c-37.5 37.5-37.5 98.3 0 135.8l10.4 10.4-30.5 30.5c-3.4-27.3-15.5-53.8-36.5-74.8L101.8 231c-6.2-6.2-16.4-6.2-22.6 0L67.9 242.3c-37.5 37.5-37.5 98.3 0 135.8l10.4 10.4L9.4 457.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l68.9-68.9 12.2 12.2c37.5 37.5 98.3 37.5 135.8 0l11.3-11.3c6.2-6.2 6.2-16.4 0-22.6l-11.3-11.3c-21.8-21.8-49.6-34.1-78.1-36.9l31.9-31.9 12.2 12.2c37.5 37.5 98.3 37.5 135.8 0l11.3-11.3c6.2-6.2 6.2-16.4 0-22.6l-11.3-11.3c-21.8-21.8-49.6-34.1-78.1-36.9l31.9-31.9 12.2 12.2c37.5 37.5 98.3 37.5 135.8 0L486.5 231c6.2-6.2 6.2-16.4 0-22.6L475.2 197c-34.1-34.1-82.6-44.9-125.9-32.5c12.4-43.3 1.5-91.8-32.5-125.9L305.5 27.3z" />
-    </Icon>
-);
+const Wheat = createIcon("wheat", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABiwAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCSwsGAAE2AiQDCAQgBYMtBywbRwXIhofn7fo691UN4BpAWpAR64crZuqOV0rlrCeuqV/8T++R5I8WhaUPEmV/T73o8wlMbD+LBBvQbDib6QvY9mbbWEfK6EhmoiQd53Q8XSGPt7Ob1CM9nqq4t3xo/KSTm0gaZQCiJQBmrl+91Affx/cRldqrRMViBMRMUAhkyNBVgCkyga5yBXK54Puo1fg/sCCAqE8GygRy5LgD9wNykKQ8b3+kSb1m+bom9Rrvf2VAxItdxcPtmsTrg+t6RDzSvvGaR9q2jRddN7BdDIhnhrUP27cmHnJdu4eb3NlhfbSLl+jLB3eIR9u3j/fGDYbny3GvjXm2+zOD2vcqW5a/9Kzuq/rs/Rm3cVveUfPvO1KVj3iu8xsv1qn271d9wi8Wfl9CQendfv3fAb4BfkdffCM3Z7bbmzW7/bGafmzOHG+rHPR8VbrzjlLLl39TUQmZylvuuPMtJGre9jVSfeXjDTo0uv+6E7fXAYFg2aXy0+0tpvzTsEkCP7712//aUFT7IEklGkogyIbUhtiSQCIAACnO6ZUgkNwgkXdt6hEBQmMESOprLECmi5YC5BobLEA93Y0VoL7GVstE3khoa6uySVMn2cw4V9lcWy+z9UzxoV9f28i8UfEl5TOYOY/gubuKkcNGFJOKaamrDialzcnFtjXgXJwYCAftc9wxZ+y1x0FnDH7K0uiso+atsLl+qDDSMCMUJimOm8f96+x1ymkHHXcsbzNZcd8b4Nx6/kBwExEdpZgkItU7/2oAAAAA");
 
 export default Wheat;

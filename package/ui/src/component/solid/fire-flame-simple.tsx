@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fire-flame-simple` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-flame-simple?s=solid fire-flame-simple}
  * @preview ![fire-flame-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/fire-flame-simple.svg)
  */
-const FireFlameSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M372.5 256.5l-.7-1.9C337.8 160.8 282 76.5 209.1 8.5l-3.3-3C202.1 2 197.1 0 192 0s-10.1 2-13.8 5.5l-3.3 3C102 76.5 46.2 160.8 12.2 254.6l-.7 1.9C3.9 277.3 0 299.4 0 321.6C0 426.7 86.8 512 192 512s192-85.3 192-190.4c0-22.2-3.9-44.2-11.5-65.1zm-90.8 49.5c4.1 9.3 6.2 19.4 6.2 29.5c0 53-43 96.5-96 96.5s-96-43.5-96-96.5c0-10.1 2.1-20.3 6.2-29.5l1.9-4.3c15.8-35.4 37.9-67.7 65.3-95.1l8.9-8.9c3.6-3.6 8.5-5.6 13.6-5.6s10 2 13.6 5.6l8.9 8.9c27.4 27.4 49.6 59.7 65.3 95.1l1.9 4.3z" />
-    </Icon>
-);
+const FireFlameSimple = createIcon("fire-flame-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABZgAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBQQsGAAE2AiQDCAQgBYMtBzgbyQTIjsQ4JvGLKEzi4fu1Ps993QvAXaMWCEABlQegOET7KzYVGT0Z8o4//f08/9b0AR+I/Izz7xVAlYvzCex8vpsn2ICiwGY6AdvubC0cwh6HtJS15Lhsx2cPeRzITqpEupl+wJX6ofGvZk6SVMsARF0ADJszY5KvKqIi4vvyK+J7ExAQw0AhkCFDSwEGygRayhXI5YKKKJfjf2BBAFEZwYma45nDMQWQgyTleeuWNSrVymeHV6++onGjxn/NbhzXqp9v2DD+mClu+HPar7P+nvH7nGPNZ151p+3dnq/b3299rEmTeDGkSVyvcaFRo/jUrVHpft37//lh9Q92fo6IHpc3ry6ZVbXqrJLNq3tcTj6XYsqqWVNjasxaFVNKj+d3XVS3yoP7R4/ef1Cl7qIGdp09q73YqLNu7GoABILqPzeYvaTOwP+r1kjgn/et/YrKX8XRdB9VJRBkHcsdLYyjEEcFACDFbqU4ikDSX0LXWtM1AUJ1BEgqqy5ApoW6AuSq6yBAJa31EqCy6mbIRF5NaGjRBElN20Cmt0Mg19ALUMlAX7uVNYzMkRg3YP5xiaM5NGpd0a1z16J/sc0M1jeovDygUJttd6dOO9hptS0222mVldbZycjtJgW7bDJaIkb5okI3nXVV6K84Ll+3z7bKdjuss8XmssoAxX2rrd3yeDvYTAJ0f4JUIlI9k7Q7rd64bFNnzBE=");
 
 export default FireFlameSimple;

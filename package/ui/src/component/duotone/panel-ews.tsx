@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `panel-ews` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panel-ews?s=duotone panel-ews}
  * @preview ![panel-ews](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/panel-ews.svg)
  */
-const PanelEws: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64L0 288l16 0c44.2 0 80 35.8 80 80l0 16c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l0 32c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-16c0-26.5-21.5-48-48-48L0 320 0 448c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64zM96 80c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16zM288 80c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16zm0 144c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-128z" />
-        <path d="M128 288c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l0 32c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-16c0-26.5-21.5-48-48-48L0 320l0-32 16 0c44.2 0 80 35.8 80 80l0 16c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32c-17.7 0-32-14.3-32-32l0-32zm192-32l64 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const PanelEws = createIcon("panel-ews", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAAB4AAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSCESAsIAAE2AiQDCgQgBYMtB04baAbIjpOlZpqFiofv13o7972eqaT7M3SAUSUqWUBWhCCJHZGmqbVbq1BO/r9j/8/lnh/wAd374nd8KGu2B24fa2JgG7zN5b2IoyzCaWANzht4mJEh/QJF/Jxv0iA9nr7Fvcb/AMafRt1EMjMDiB4A7Drq0EGft6KV4tv228S3DiAgdoNaICNjQoCtssCEQo1CIWilNlrRVhNANBm3zKCJkiiIDkABkqRZFNvHjuy0XslY1egsjqwa5VHXD0c8WlVx5+DDxHUDD5XisYWvzX1l8RtjEU8MPTK/jIgq3ln0+qS4bvDh6s7hRyPijqFHIo6qymqQVlYY4/rG2VUWBrBKVYs5xeMsYV5nvLrkzfFcpmqD8zvipfZHRo54dLiKhwcfGijjkSEZwlFEZU7Hb/JJs9/oeeOvWd+e+a1rn+26jdu6al23+aGyt/e559gZZY/83S8re9R69JxxZPS0FfZyfja902Ji83X8gZ10p+tauPwQ1q9qOfW6kvk6vCjNOKm7q3WyVpfftFOd7LMd1dp9Jyzcm5heDQLB/w9f2UndW/+dUSXwx4f/Hf4MtT9P0huYIYEgL20vdXwCiQAApLjS7AQEspdcWazDIyIeSlJImkrIxvVAobQEGqasY3ruPiSLYqYw4AQISYdLIFvvaigMeAsatvoi0jQQ+W3g7mXuXzR5fx7Zt65etXxlvbluLIj5G5xRB7fUvU0Lr+QNi+BJZ7rIhS53htOd4/IceqmD8StcYH8bft99a6sst1Jts3p0+fLhI53hUpc5x0Uu1KfZop7ft9CV7e0XQWtika62IctEitz7zcaXnXHVZcs+q4b+kvgBAQA=");
 
 export default PanelEws;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `headphones` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/headphones?s=solid headphones}
  * @preview ![headphones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/headphones.svg)
  */
-const Headphones: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48l0 128c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80l0-16 0-48 0-48C0 146.6 114.6 32 256 32s256 114.6 256 256l0 48 0 48 0 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48l0-128c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z" />
-    </Icon>
-);
+const Headphones = createIcon("headphones", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABaQAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBUQsGAAE2AiQDCAQgBYMtBzEb0gTIjsQ4JvGLKEzi4Xm7vs59VX8A1sg9NDMoo1On0ArIGG7cGfKOf3HzvPMowDcKbSxcGsgCieY8TyCRyXWedZ4GlukG58xbZhSl7Jdkopnp8Tw9Ps2Qx0vZCRWk6+ljnO07jX80dYKkagYg6gBg9MK5073+e/we8VH5MfGRqQiI0aAQyJChhQDDZAIt5ArkcsHvUS6nf2BBAFGJLJlAjgxTsRCQgyTyfGz1ipr5gjK92tKvZ0V8Pu9q9dsNLzcV1xpcav+k64NWQd/x3di3Zn628Jvpn4x+Y74Q4lbne/3uNLrSLOJm46udTjb8ds6XC9o+qPPgPx9v+Fh556w4xtFqM76pU/r5k+yI7JOfS3XWL4g6SkpMbNL0/NGJJjp6vmkTE0tK6ogF653cN8F1jh6bFUAguDx38V8raw/7v0r1BP580eM0Uv49SQ9QRQJB1r3c3bIEEgEASHFA2wSBZKyEt1HDFQFCNQRIKqkmQKa5OgLkqukmQIVW+gvg9rkykVcVGli+IKlhN2QGOAi5Bh5ChWHeUytpEBmgKDhQ/7n4CRoZ31T07lkqhhRHy6QxQtTq0MItdD6QI11o1AY77bDPeutstk9he0w39ttugoWOd6BCbz2VFIYowu57/wLr7bHXZjvtaHWGKu4rnR2w07uQnAhuH6YkEaka6qh3CQAA");
 
 export default Headphones;

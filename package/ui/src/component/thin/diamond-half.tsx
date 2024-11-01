@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diamond-half` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamond-half?s=thin diamond-half}
  * @preview ![diamond-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/diamond-half.svg)
  */
-const DiamondHalf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M227.7 11.7C235.5 3.9 245.8 0 256 0l0 16 0 480 0 16c-10.2 0-20.5-3.9-28.3-11.7l-216-216c-15.6-15.6-15.6-40.9 0-56.6l216-216zM240 489.9l0-467.8c-.3 .3-.7 .6-1 .9L23 239c-9.4 9.4-9.4 24.6 0 33.9L239 489c.3 .3 .6 .6 1 .9z" />
-    </Icon>
-);
+const DiamondHalf = createIcon("diamond-half", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABUgAAAHMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQiBEQsGAAE2AiQDCAQgBYMtBzMblATIjtMl9jYJbTw8vz/q3Pf/zCyAv5KS0IxmNIU6dcVGpnVkEnLha2/+L/f8nh+dnX6jQxrb5uIFOGf1PIHEenme0FhgmSZg+d3k3VKS8obE70QnaZh+w9QZ8rhkgRLSyXQXR/2HxgcN7SLJMgBRAwAjZk6d4vqbeBNx9/8Z4q5JCIiRoBDIkKGJAINlAk3kCuRywZv4/1/9BxYEEKXwVAnkyNEZfQA5SFKe16pVuaRqPqNySaW5x4kU4kC9GXEsttefOTtL2fY622NanGg4PbbH9roty2uUf2pxd9Fd709dqlHDGzXUuPTihQqPRuWXTxFANj18GFC4JBB8r/buqg/+WkEC7y5++WV+Rv5fj56pHBUkEGSd/3c2L8Ho6CkAACk2aZkgkLSW4FqrOCZAqIQASalKAmQaqyFArpJOApRopo8ApSqZKhN5RaGO+QUkVawFmb42g1wdp0CJwW6EpepEdmGo7ab+a/FjOTTmUNGja/diYNEtJPoOEHZ3UDEstt+kBx3opEVWW2WDhRZYagND1pmSbLTSWAke44sKPXTVXWGgYrq+PT7DQuust9Rqq9w+gxTr3fY2yfMdSEmA2VMqSUSq8kaFLocRAAA=");
 
 export default DiamondHalf;

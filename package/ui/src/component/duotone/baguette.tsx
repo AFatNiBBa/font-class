@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `baguette` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baguette?s=duotone baguette}
  * @preview ![baguette](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/baguette.svg)
  */
-const Baguette: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 384.1c0 24.4 7 49.1 21.5 70.9c24.7 37 65.3 57 106.6 57c24.4 0 49.1-7 70.9-21.5l384-256c58.8-39.2 74.7-118.7 35.5-177.5S499.8-17.7 441 21.5L356.5 77.8c23.6 23.6 47.2 47.2 70.8 70.8c3.1 3.1 4.7 7.2 4.7 11.3s-1.6 8.2-4.7 11.3c-6.2 6.2-16.4 6.2-22.6 0c-25.1-25.1-50.2-50.2-75.4-75.4c-29.4 19.6-58.7 39.1-88 58.7c24.7 24.7 49.4 49.4 74 74c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-78.6-78.6c-29.4 19.6-58.7 39.1-88 58.7c25.8 25.8 51.5 51.5 77.2 77.2c6.2 6.2 6.2 16.4 0 22.6c-3.1 3.1-7.2 4.7-11.3 4.7s-8.2-1.6-11.3-4.7L98.9 249.5c-14 9.3-28 18.6-41.9 28C20 302.2 0 342.8 0 384.1z" />
-        <path d="M356.5 77.8L329.3 95.9l75.4 75.4c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L356.5 77.8zM126.1 231.4L98.9 249.5l81.8 81.8c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-77.2-77.2zm115.2-76.8l-27.2 18.1 78.6 78.6c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-74-74z" />
-    </Icon>
-);
+const Baguette = createIcon("baguette", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkgAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCIQsIAAE2AiQDCgQgBYMtB0wbPwVRlM3BDNkDz5Nd9X5VzyygXtgnOYM4F0GzZ0ZQkMHoi1PPQ4nP8xePB2kvjY/ZAs15XoEAVmtjYq3X83q9plhrc5yDDg9ym6hckU9Jw9YPWxdgqGS9ABuoreo2sLr+D6C8IYwFoHDTAACILwAAUNuza3uuPJSHSm5bJ0Bu0w4QAKkDwEQADWggEgGgAo0AkRiYgIGBwENlWfBQLMsEAQCxQ0xj2dMDE4DZAIABgEIjhtH2QK3Rw+Zl9LDv3EempKd0l40hm4N7dBuMnk+SOZnOxN0ey8uHyvn4nVmHmq6WdJOLlRuZE7gheFNwS9qGwDMlZxUN2uj3EKE3BjlTPfdlOGRXwr7QLcS1+La8i7094jbDJh/lzrZtcDodjsam51t2MOjcSeJ27ae03Y6gQ3u8oXVrapI6pV+8FJMYONvi8va1d/6Eh93rWkxcfIPd3uB0du/+39qzx2b3Ib/A4di37xFn7TaH8/z5bY71Kzt3ol2Ho6bvvokBAAEEGlISCwb6VHxz9VAAPD734QvtYeuKWqJaAFcUAAI6w8qgn5oD1k+nCQGgxkpmEIeUoUAGTSO6Dz/Vk00IAII7IAAo7LgjAGgi8EUAMHAnHQHARjSFCAB23OmKRgw3hED6T1B4Mhk0RcwEg0COg40KrqV2AkVHnhg34o9fWpMijU1mblaOWWYuO7oUTLxtlpu3vZQZZSIVexnBRCYwjeEMYzTTBJ9C+2I642nyGI0/xCSXLHIwKcPc7n/Wekg6hamMvlb2tynHfD9KYYY/PxWhgqx5XKPRIEq075DBI6cPnzZteGYIO/4H5WMFAAA=");
 
 export default Baguette;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-progress` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-progress?s=sharp-regular arrow-progress}
  * @preview ![arrow-progress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-progress.svg)
  */
-const ArrowProgress: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 88l0 40 24 0 72-64L280 0 256 0l0 40L24 40 0 40 0 64 0 256l0 24 24 0 440 0 0 144-48 0 0-40-40 0-48 0-40 0 0 40 0 48 0 40 40 0 48 0 40 0 0-40 72 0 24 0 0-24 0-192 0-24-24 0L48 232 48 88l208 0zM160 384l0 40-32 0 0-40-40 0-48 0L0 384l0 40 0 48 0 40 40 0 48 0 40 0 0-40 32 0 0 40 24 0 72-64-72-64-24 0zM424 40l48 0 0 48-48 0 0-48zM384 0l0 40 0 48 0 40 40 0 48 0 40 0 0-40 0-48 0-40L472 0 424 0 384 0zM88 424l0 48-48 0 0-48 48 0zm240 0l48 0 0 48-48 0 0-48z" />
-    </Icon>
-);
+const ArrowProgress = createIcon("arrow-progress", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABfAAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCUwsGAAE2AiQDCAQgBYMtBzUbWAXILgocY2p6iIuSS9dmRHL4cZz5lDOMiFr7t2cPPgC6ICjWxC5ChyVJVijsFyoVYYE8WwL9LFmz2RLLk5sqAHCAChhVXaWrfHSozDcEJHM7ZMKZTlMpxos+32tDJi53/udPD7jIH23MVbbA5zyPAnrAdNPChLLAMpkClrU5BFFQ0Nsq5Cj/yc9h/GHrBHVeoobypIT77UHz1YwHRVMBIMMAYP+ZUhGfn/Ip+etMnjsAAtkPWEaoUGEegV3EgnkSy6BWC5/S6aT/wGUIkBZ4OQXU6MYtPADUoGhrSXBJOdLTo5ZqJdW+RtVC+lLL6fQS0qtCRPq0SC8Rm2rqBHSVZqyuI2JMyDflWV+v2lyUQMSiPF5y1Gp5vXGFlXvRFzqDkoD03nytwOR/ehqfpglPtZmJ6axjMDP335xbZRrFKsHsJr/rzGZg4OK6qrk41+5Z+XXeDhCEo+/evzw3tOt/d58I8OUZ8Wek80VZQbcCQrW+s167gEIAACVXxgJBcVML99rvoYDoRUDR6hVQmWNAoNZrHQKNRX4EWr1OEEutRIzrDLjodx6u7HSHa+OecGOXr0prPJVHUv5E/RDGpxhIFnEcLo6w2HDRTkbUxSi/1l3zgDlsxNTO1tnE2MKZoKNi/WIjpYFJT8TcHFxYBJvb3/kqVY5OFnPWvkwU749Nrvp4c7BEgLvVkaKQohtcOO5udvcFAAA=");
 
 export default ArrowProgress;

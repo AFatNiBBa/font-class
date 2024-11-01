@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree-decorated` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-decorated?s=duotone tree-decorated}
  * @preview ![tree-decorated](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tree-decorated.svg)
  */
-const TreeDecorated: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 487.1C0 500.9 11.1 512 24.9 512l398.3 0c13.7 0 24.9-11.1 24.9-24.9c0-4.7-1.3-9.2-3.8-13.2L368 352l31.8 0c13.4 0 24.2-10.9 24.2-24.2c0-5-1.6-10-4.5-14.1L344 208l24.9 0c12.7 0 23.1-10.3 23.1-23.1c0-5.7-2.1-11.3-6-15.5L237.4 5.9C234 2.1 229.1 0 224 0s-10 2.1-13.4 5.9L62 169.4c-3.9 4.2-6 9.8-6 15.5C56 197.7 66.3 208 79.1 208l24.9 0L28.5 313.7c-2.9 4.1-4.5 9-4.5 14.1C24 341.1 34.8 352 48.2 352L80 352 3.8 474c-2.5 4-3.8 8.5-3.8 13.2zM184 288a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm96-128a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm32 256a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M256 184a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm32 256a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const TreeDecorated = createIcon("tree-decorated", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABjgAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCFQsIAAE2AiQDCgQgBYMtB1gbPwXIjsO44TuyxVL+4+Efvf9vnyQPcD4gj2q5A1uoutW4Kd6aSq6TzIqE83+55zfwjg7w8xEc2lh229ZqLIz28ICigLOLxqbAsoTCDLGjeS8MYmi7haQLZPFemjKS1xJ4xvsfwPhVl6dIVKUAohEAS3Zt26A0GINJ/FB8TPxgPQJiKcgFUqToFWC+VKBXJkcmEwwmRcFgFEVOAFHOe3cKylGJ07gFyEAikWVZVdW0qqqqmrK6bGdNWfW+93peH/l252sjdliRluuCb3q8fWfU5LUvV9+6PV6cXakJ3Ljr1eHvdr8x6p0uju7YO/TDxg9/H+IkRcWWtrYtsTlQ2AOMaj/ytCPtFTPW3ZHb0lZJss7osqS1aueLb1pRWblC1O2sal3SZe2Ztte2JbcsnFHx2Ve74y1thx6V2EDxOhAIemZ49lDD/P8raxLw45d//iueV5SilHyISgkI0vHFePujBIIcwO8ncdPQKPkJgdRGGYhPrfWyAKEaARLlqgVI9WgUIFNtnABl+s0QoFy1bVKRVQmtDtQgUesKSM30AGRafQTKzPd1vlxrpDDHQgz7yJe0sg2t2JZPmTg5n5tPNpUcGNF2eV6+Whl9Uw6NwZlOuuSi60447ozrLeKqDaUbLlg5h6/wRbkpJposN1e+u3Nf2tnKX3XNmXFh/zrz5Odbo92cnzwG64mAcqodqZRIIm2/GYcm/EJhnTg+AX7HdQ4JFys=");
 
 export default TreeDecorated;

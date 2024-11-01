@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `notebook` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notebook?s=thin notebook}
  * @preview ![notebook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/notebook.svg)
  */
-const Notebook: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 16l208 0c26.5 0 48 21.5 48 48l0 384c0 26.5-21.5 48-48 48l-208 0 0-480zm-16 0l0 480-64 0c-26.5 0-48-21.5-48-48l0-56 40 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-40 0 0-112 40 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-40 0 0-112 40 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-40 0 0-56c0-26.5 21.5-48 48-48l64 0zM64 392l0 56c0 35.3 28.7 64 64 64l288 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L128 0C92.7 0 64 28.7 64 64l0 56L8 120c-4.4 0-8 3.6-8 8s3.6 8 8 8l56 0 0 112L8 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l56 0 0 112L8 376c-4.4 0-8 3.6-8 8s3.6 8 8 8l56 0z" />
-    </Icon>
-);
+const Notebook = createIcon("notebook", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABhAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCNAsGAAE2AiQDCAQgBYMtBy8bMwXIjtRG94xd4uF9m5/nvje2/o6XYZaIKmCsgHoKIHXhDlg9WWmxShk5Q2r1p049z3kogG8UtLFp2eZsDs2JUyCAteH1CtVqxQoWNAJWa6df3iC6xfB9T0EybG8YPaCITxxUIz2Rvsfd8qbxpz7ukOQMIDoDYPGWDet92YxmxPetiO+tRUAsAZVARkZ/AebJAv0VKhQKQTNaLf4PrAgg6nBOJFCghuu4AyhAkouiy8SZjVqHYnOjVu5olI1XejzSJ8Xj3R8eVkYuU05lvNrz0b4RjXis16M9y5Df9VSvx0Y2tgpPjH5jeId4bexb/XI8OebNEe3j5VGv9xZlPNz9kR6NCJeHvNn5zb99f/h7P733M92a9MsP+Yb8wy+Tftbs3IS4SPupWUbZW6/vHeWs8LOWzUXXr8xCsOzS5fnK83VW3qDKLLP2tmY5K8+DQPB/13Uz93Sa919bI4E/Pv53fBa1voxmehNtEgjyuNY4OxNU0RQAgBSXDUkQSK7I8KrtPSpAKBEgqSsFyPrpLEChNFaAmoGmC1BX2iCLop3Q3S4FSXvnQDbDVVDo7iNQM89XVl33yC5IOBDxAYxdYaHlR9XkCZOqOdUwIqRXYWk6t9oWRl2OldF012FnnHbRIQcdc9Eg5613LzllxQxe7osqk00wSWWO6ji9v77ZIeddcMwZp/Oeuar72iiX5+2jSU6AOkUoSURqe9CYhwIAAA==");
 
 export default Notebook;

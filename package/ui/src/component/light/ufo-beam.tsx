@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ufo-beam` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ufo-beam?s=light ufo-beam}
  * @preview ![ufo-beam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ufo-beam.svg)
  */
-const UfoBeam: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M141.3 166.7l11.3-11.4c-11.3 11.4-11.3 11.4-11.3 11.4s0 0 0 0s0 0 0 0l.1 .1 .2 .2 .6 .5c.5 .4 1.1 1 1.9 1.6c1.6 1.3 3.8 3 6.7 5.1c5.8 4 14.5 9.1 26.3 14.1C200.7 198.4 236.7 208 288 208s87.3-9.6 110.9-19.6c11.8-5 20.4-10.1 26.3-14.1c2.9-2 5.1-3.7 6.7-5.1c.8-.7 1.4-1.2 1.9-1.6l.6-.5 .2-.2 .1-.1c0 0 0 0 0 0s0 0 0 0l-11.3-11.4 11.3 11.4c2.7-2.7 4.3-6.2 4.7-9.9c.7-8.1 .8-16 .2-23.7c30.2 8 55.1 18.1 73.1 29.4c23.1 14.4 31.2 28.3 31.2 39.1c0 7.9-4.2 17.4-16 27.9c-11.8 10.5-29.7 20.7-53.3 29.5c-47 17.7-113 29-186.7 29s-139.7-11.3-186.7-29c-23.6-8.9-41.5-19-53.3-29.5c-11.8-10.5-16-20-16-27.9c0-10.9 8.2-24.7 31.2-39.1c18-11.3 42.9-21.4 73.1-29.4c-.6 7.7-.5 15.6 .2 23.7c.3 3.7 2 7.3 4.7 9.9zm2.3-68.3c-38.9 8.9-72.5 21.4-97.3 36.9C20.1 151.7 0 173.9 0 201.6c0 20.3 11 37.8 26.7 51.8c15.7 14 37.6 25.9 63.3 35.6c51.4 19.4 121.4 31 198 31s146.5-11.7 198-31c25.7-9.7 47.5-21.6 63.3-35.6c15.7-14 26.7-31.5 26.7-51.8c0-27.7-20.1-49.9-46.3-66.3c-24.8-15.5-58.4-28-97.3-36.9C412.1 39.7 353.1 0 288 0S163.9 39.7 143.5 98.4zM288 32c66.9 0 122 50.8 119.9 115.3l-.8 .6c-4.2 2.9-10.9 6.9-20.7 11.1C366.9 167.2 335.2 176 288 176s-78.9-8.8-98.4-17.1c-9.8-4.2-16.5-8.2-20.7-11.1l-.8-.6C166 82.8 221.1 32 288 32zM103.8 338c-7.7-4.3-17.5-1.5-21.8 6.2L2 488.2C-2.3 496 .5 505.7 8.2 510s17.5 1.5 21.8-6.2l80-144c4.3-7.7 1.5-17.5-6.2-21.8zm368.5 0c-7.7 4.3-10.5 14-6.2 21.8l80 144c4.3 7.7 14 10.5 21.8 6.2s10.5-14 6.2-21.8l-80-144c-4.3-7.7-14-10.5-21.8-6.2zM288 272a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM120 200a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm360 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const UfoBeam = createIcon("ufo-beam", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABvAAAALnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDXgsGAAE2AiQDCAQgBYMtBy8b3QXIngU5GW8qrYyJLKtlT0QJB3Go/cXz8Psxz31fMG14Nkt4qFoyIZKINCuFbUk0LqR1s0z+Ro2ZewHCywMQuMhHtmRRIbaq7Os6Hf8DtzV4Z08c4HFkPVDPc3QDGlbx8s9zP9Nl0CzyB84xqkHWgJm8N4E9r6aMo2ixsxPFg2hz3PAaFPGLVJh8JvI0bD+s7aHOnyxhUx4YL7jZJ+c/PTtQ1BUUIKMG4eiiMBvXX4jE5b3boOwvEwRyDGAeQSU9xzQCdjEF01jmQa0WvqTr+B9IIUBaKKlYVaMfn8BXsIMpemtWgU0rxvgsF7LFrBIhW1CpVWlXVDFxRcw6QoJcCR1hok6cr+Ifka02wyIEewiigMeHS/Yem/ulS5yqoK/oe8mZS6MtI8fQWJ2orfuwSpVj070P/ot/lJ57jkbXkLrcKXsRWdxfcJqsh3AQvIAqsaryreuSanjixj6pZWsqnayoE61F1jXYaTZIFmM2ydMEc99YulS6wtncxHejbQarR7Lh38Lb8o4Z3aPM61BgERIvPx7R2DKJiNraKEEOEuAh3q6DwBYRvb1gkwOEdSnd2Ic+5SwvqxSRNdPbwAA7sGgXJVFfr9WCfagn1zwMxPxMz5DdzF1/jTIvPjvaZbL2js/5eD8rMLoOnPy6TCbJ5PLvCbA+avU79/8nc+dR/VI8fefV4pz8TDA+X63OXwj7qfLqbNXapwMQhMeKb6O10qinXoQB+Pbm/9NxYbdTNMYRoFcBoVrqvFSVuAFiExAaLBmBA79JUHwED4FBt95I9FOBotUPVKbIgFq/RaAxK1g6Of0EU2o+YlI1QDHoEqjsmAZqk46Bxq6nYGsycFzLo1L+V5kmpUUnt6P+Pn40gr4mXIpQla6NkXTa4jaSC9xZiha9egxp1qTdUMMYkB0Z1i1lRE/2hyh/PvxQEag7vdWUNLwBg9qdPfytRKLfB9yMjMu70xkGYCMiEGVUCm+4pde7obm+GwAAAA==");
 
 export default UfoBeam;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fire-smoke` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-smoke?s=sharp-thin fire-smoke}
  * @preview ![fire-smoke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/fire-smoke.svg)
  */
-const FireSmoke: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352.8 88.5l-12-13.9c-15.7-18.2-31.4-33.7-43.3-44.8c-3.6-3.3-6.8-6.2-9.5-8.6c-2.6 2.3-5.7 5.1-9.1 8.3c-11.7 10.8-27.3 26.1-42.8 44c-15.6 18-30.8 38.2-42 59c-11.3 20.9-18.1 41.3-18.1 59.7c0 31 9.8 59.8 26.5 83.3c-2.3 2.5-4.5 5-6.6 7.6c-4.2-3-8.5-5.8-13.1-8.4c-14.5-24.1-22.9-52.3-22.9-82.5c0-88.4 128-192 128-192s25.8 20.9 54.2 51.9c3.5 3.9 7.1 7.9 10.7 12c3.8-4.3 7.5-8.3 10.9-11.9C375.6 39.7 384 32.2 384 32.2s96 86.4 96 160c0 30.2-8.3 58.4-22.9 82.5c-4.5 2.6-8.9 5.3-13.1 8.4c-2.1-2.6-4.3-5.1-6.6-7.6c16.7-23.5 26.5-52.2 26.5-83.3c0-31-20.8-67.2-44.6-97.8C407.8 79.6 396.2 66.9 387.5 58c-1.2-1.3-2.4-2.5-3.5-3.6c-5.2 5.2-11.8 12.1-19 20.3L352.8 88.5zM238.4 246.3C229.2 232 224 214.4 224 194.2c0-15.1 4.8-28.8 13.5-43.8c8.6-14.8 21.4-31.2 37.9-51.5l6.2-7.7 6.2 7.7c2.3 2.8 19.9 25.4 36.9 47.3L347.9 176l4 5.1 31.5-41.2 6.4-8.4 6.3 8.4c3.7 5 6.2 9.9 8.4 14.2c0 0 0 0 0 .1c16.2 29.6 14.9 65.6-2.3 92.6c-4.6-2.8-9.3-5.3-14.2-7.6c14.6-22 16.2-52.2 2.3-77.5l-.1-.3s0 0 0 0c-.4-.9-.9-1.8-1.3-2.6l-30.7 40.2-6.3 8.3-6.4-8.2 6.3-4.9-6.3 4.9s0 0 0 0s0 0 0 0c0 0 0 0 0 0l-.1-.2-.6-.7-2.1-2.7-7.5-9.7-23.1-29.7c-11.7-15-23.6-30.2-30.6-39.2c-13.4 16.6-23.4 29.9-30.2 41.7c-7.8 13.4-11.3 24.4-11.3 35.7c0 17.8 4.7 32.8 12.6 44.6c-4.9 2.3-9.6 4.8-14.2 7.5zM112 288c30.7 0 58.5 12.4 78.8 32.4c4.2 4.1 8 8.6 11.5 13.3c2.3-5.4 5-10.7 8-15.7c22.4-37.2 63.1-62 109.7-62s87.3 24.9 109.7 62c3 5 5.7 10.2 8 15.7c3.5-4.7 7.3-9.2 11.5-13.3c20.2-20 48.1-32.4 78.8-32.4c61.9 0 112 50.1 112 112l0 96 0 16-16 0-96 0-208 0-208 0-96 0L0 512l0-16 0-96c0-61.9 50.1-112 112-112zM624 400c0-53-43-96-96-96c-31.7 0-59.9 15.4-77.4 39.2L434 365.7 423 340c-17.1-40-56.8-68-103-68s-85.9 28-103 68l-11 25.7-16.6-22.5C171.9 319.4 143.7 304 112 304c-53 0-96 43-96 96l0 96 96 0 208 0 208 0 96 0 0-96z" />
-    </Icon>
-);
+const FireSmoke = createIcon("fire-smoke", false, "data:font/woff2;base64,d09GMgABAAAAAANwAAoAAAAAB0gAAAMlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQiEIwsGAAE2AiQDCAQgBYMtBzEbJAbIHoex42UZLSQS1TuIh/9fB//73JlHO4pugJr9zdWp9BKP38/dTZLr24ZNvfJ/W8JUG1FcokkiErqHSsH7X13KPw/cQJYf9P1RSrfS07lULKUIZDygscOUaiGIJeAehSxuuzliEtoIiQvk8cIMbNLx9Dn2hjeNv1UxTpJlAKI0ANBndFoc7n+IHyI+e3OX+MwwICD6ANSGyJChOgTdMQWqY6kN5HLBD/HmjfgPrA0CiILiFyeQoyCe4yUgB0me5/0mJ9fnFCiRjzKIorMrVpAfWGfkU9KtlD0VKpcdDT9AnODZVqe2Q8W0bNoyjYU1q3DVln3HsW7YvlVzalhQL1gP5Ff2StNPxNZqizYFVoijlspSua1iYI5gkjleeU55RF/cNNWIRaoXlZXNo3xUjEpycivBAqtIN40jFfW9K3WwpcqUNP1uk9cztkPOTil3ZuhaVOsARdGSJ8yzzSaokjNNMS51fG7eGKvGiaak7CplT6nEyLo2EB+iBSxWKupeEh781fl81uemzLqJf8ydpdPbtUtttX6doWSxkjvqmtOmlzur//z9zz+l/b0aBQb0z6BMhLPnlJXJWpZPTzO3nRQUfPhxowrvZcp0XXm67NT3tSp+vL9xNmQRX1n+eiG/T7NloRsCPixU+P3p09ey/EKAiPC70aqUKwcAIJTRo0HPnInZnfZvlNY8LJs+YPnh9aiBoU6ct9+uV+/+7WIdO9Oj/n/w/1JTCAmXlFZM8Pp/bxYXvsSlLXGnoIu+uHW+Nlm/+OKigu7ElkuXCk9RrBhAIBjf/K27yaW6Py9cLIGfHv3/N/f0m7fTlnQJhSUQZM3fNJeftoBgBpBLsYpp44sCyb9ycbK4I1cLoSgdJAUVhUw1QsgV1QwKqCkgHjSGH6IjLyJZXgGBpLilkOloAHLlXUIB3b1lCyofGeTLcCv/eGbQQ5zaRdo43SRKVjsaBZhFuxkjh63GnXLCgtFQqUmjdhXK1Wg3IFrFCx0a0Fts6rOEh5MbEUUu951aMge5Vm1qlpXr24ghzydTdG7Pt2CXIeZsqyZJRCr6DVU5li9sqqsAAA==");
 
 export default FireSmoke;

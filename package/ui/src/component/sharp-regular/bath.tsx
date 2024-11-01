@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bath` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bath?s=sharp-regular bath}
  * @preview ![bath](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bath.svg)
  */
-const Bath: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 0L56 0l64 0 9.9 0 7 7 18 18c11.1-5.8 23.7-9.1 37-9.1c23.6 0 44.9 10.2 59.5 26.5L264 30.1 297.9 64 281 81 177 185l-17 17L126.1 168l12.5-12.5C122.2 140.9 112 119.6 112 96c0-13.4 3.3-25.9 9.1-37l-11-11L80 48l0 208 352 0 48 0 8 0 24 0 0 48-24 0-8 0-48 0L80 304l-48 0-8 0L0 304l0-48 24 0 8 0L32 24 32 0zm0 336l48 0 0 32c0 26.5 21.5 48 48 48l256 0c26.5 0 48-21.5 48-48l0-32 48 0 0 32c0 28.4-12.4 54-32 71.6l0 48.4 0 24-48 0 0-24 0-25.3c-5.2 .9-10.5 1.3-16 1.3l-256 0c-5.5 0-10.8-.5-16-1.3l0 25.3 0 24-48 0 0-24 0-48.4C44.4 422 32 396.4 32 368l0-32zM192 64c-17.7 0-32 14.3-32 32c0 10.4 4.9 19.6 12.6 25.5l44.8-44.8C211.6 68.9 202.4 64 192 64z" />
-    </Icon>
-);
+const Bath = createIcon("bath", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABeQAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCLQsGAAE2AiQDCAQgBYMtBysbKAXIjsQ4JvGLKEzi4f/zvn6fm7xar5My0nKq4Q/Qw8b0izN4zb9HgCrkferU80wLBfCNgjI2Lg3IWBqa8zwCEY0HdJVKtYLVtABehpq3zKhH5OiRzGRN0uM58m+HPF6MOzVID6V3cEd90/jakGtJGhmA6ATAVgfss5vXPo1PI97+/2nibbsgILYClUCGDKMCrJMJjMpVyOWCT+P//9N/YEUA0QI/JIEcDVyCqwA5SLI8n1zeVjba8v3LRnFIWZR9MTfWl0/PHYjNYk7sG3Ni8xiITeNXjfRHEaKtFEVrRFlGRCqLUjzUd9/Mtlg/8MBIRBni0TlCFBERcW/RGjf306FN43HIzb3WY93Xt0Xc3z9tU+emb71z/DsmXh0cPPp4XZq99Ylv68IJJ6DL2+7Pe6/cZNwHjtyzNvhFw5tf0ELjmEr27oc19YfvZpVapfy6Nqg2aMiZTZpnDumn1L4uqyc62m/kxvaO519yyw9AILhk1V9HHNGx7tdmmcDnL9y/Rv5/LUmb0JRAkC34f4FDE0gEACDF+aYlCCTnyOBVW90vQCgQIGlRCJAZ0SlArjBfgIZxywVoUdhHJvIpQq/DBCStzgKZFS4DuV5PgoZ1Xrda9EYWfnzw8L+/lO0Z2m6tmlxUV2uqZWwIEcWW+dpqW51zfq7NpU3HO8PpznWcY53kXEWebTf3PKfZ3iO280GVSYvUKmtUx9mzsj9bZzvHSbZ0vmSt6r45x/l+91wyElAuEUkSkfInAQA=");
 
 export default Bath;

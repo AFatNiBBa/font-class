@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kaaba` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kaaba?s=sharp-solid kaaba}
  * @preview ![kaaba](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/kaaba.svg)
  */
-const Kaaba: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 0L0 96l0 32 0 15.1 0 .9 288 96 288-96 0-.9 0-15.1 0-32L288 0zm0 189.4L79.8 120 288 50.6 496.2 120 288 189.4zM0 176.9l0 46.3 5.1 1.7L64 244.5l0 33.7L0 256.9 0 416l288 96 288-96 0-159.1-64 21.3 0-33.7 58.9-19.6 5.1-1.7 0-46.3L293.1 271.2l-5.1 1.7-5.1-1.7L0 176.9zm96 112l0-33.7 96 32 0 33.7-96-32zm128 42.7l0-33.7 64 21.3 64-21.3 0 33.7-58.9 19.6-5.1 1.7-5.1-1.7L224 331.5zm160-44.4l96-32 0 33.7-96 32 0-33.7z" />
-    </Icon>
-);
+const Kaaba = createIcon("kaaba", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdgAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCLgsGAAE2AiQDCAQgBYMtBywbKgXIjsQ4JvGHGCni4WHdf+fOzAewu7OSEqwGRTUltl+3rZtDg6qQX7LUPv/9qfwv56EAPo77XLZ9g+zOdV6Bnsc7aSxqCQpWUezgvMmHlBXqr5DF2/SiIpKbyRtcdV8aX7W5SKIsBRC1AJi5atlSzz7Fp4jXhYjXFiMgZoJcIEWKTgGmSAU6ZXJkMsGnKBTYf2BOAFHM/3gCMpTiIC4BMpAozrKmsr5ldWUVRVXZSnWqfNfmbZuFEFtiW8DHtlq5YuWqWBHLtwpNsTDEokm04PDiaImIzdEYzbF1RQhPWonFhcOuWMDOXrRq1fJVYnlEr67aru893+x8o8fTHpuCTK5G6LGJilGh3Hv8HCRDVo+KYaw80z09/XNr2Z5b/unlrpmGad+QopnWpkO9ULCph16MeWZQpf9bEM9095bL3B69uLdBIDj08eeSTTVT/pdWJODLg5/fs9cVniUzki6USkCQDimwPpkBjBxAnMRJvSYaDCR2upcnK10TIJSjgkSxckh1qIVMucFQpLux1MITy6QiKxMabQAhUekIpMY5BZlG96HIFM+jYo2Rfn/M18P8/SXOa2JzN+Ujh43IJ+WjLQX7SVF6dXK+2Bxwko8MhHvtdMhBx+2w3R7HG8RRS9MTDpg3hc/1Q7mRhhkhN0m+uXt3+0o7HHXMHocctOtMlh/vD3ByevpA2EQCGPXkRDwTSdG+LVu2bgEA");
 
 export default Kaaba;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-disguise` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-disguise?s=sharp-solid face-disguise}
  * @preview ![face-disguise](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-disguise.svg)
  */
-const FaceDisguise: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512c141.4 0 256-114.6 256-256c0-16.4-1.5-32.5-4.5-48L440 208c0 49.4-37.4 90.1-85.4 95.4l4.5 2.3 8.8 4.4 0 9.9 0 32 0 9.9-8.8 4.4-14.3 7.1L364.5 398l10 12.5-25 20-10-12.5-23.9-29.9-7.3 3.6 10.5 26.3 5.9 14.9-29.7 11.9-5.9-14.9-9.5-23.9-7.6 3.8 0 22.1 0 16-32 0 0-16 0-22.1-7.6-3.8-9.5 23.9-5.9 14.9-29.7-11.9 5.9-14.9 10.5-26.3-7.3-3.6L172.5 418l-10 12.5-25-20 10-12.5 19.6-24.5-14.3-7.1-8.8-4.4 0-9.9 0-32 0-9.9 8.8-4.4 4.5-2.3c-48-5.3-85.4-46-85.4-95.4L4.5 208C1.5 223.5 0 239.6 0 256C0 397.4 114.6 512 256 512zm55.1-249.3c2.9 1.8 5.4 3.2 6.8 3.8c7.9 3.5 16.8 5.5 26.1 5.5c35.3 0 64-28.7 64-64s-28.7-64-64-64s-64 28.7-64 64c0 4.4 .4 8.7 1.3 12.8l29.6 42.3 .2-.4zM232 208c0-35.3-28.7-64-64-64s-64 28.7-64 64s28.7 64 64 64c9.3 0 18.1-2 26.1-5.5c1.4-.6 3.9-2 6.8-3.8l.2 .4 29.6-42.3c.8-4.1 1.3-8.4 1.3-12.8zM12.7 176l64.7 0c5.3-14.9 14.1-28 25.4-38.5l-5.2-10.3-7.2-14.3 28.6-14.3 7.2 14.3 3.5 7c4.6-2 9.3-3.6 14.2-4.9l0-19 0-16 32 0 0 16 0 16.3c4.4 .4 8.7 1 13 2l4.7-9.5 7.2-14.3 28.6 14.3-7.2 14.3-3.6 7.3c16.4 10.2 29.5 25.3 37.3 43.1c7.8-17.9 20.9-32.9 37.3-43.1l-3.6-7.3-7.2-14.3 28.6-14.3 7.2 14.3 4.7 9.5c4.2-.9 8.6-1.6 13-2L336 96l0-16 32 0 0 16 0 19c4.9 1.3 9.6 2.9 14.2 4.9l3.5-7 7.2-14.3 28.6 14.3-7.2 14.3-5.2 10.3c11.3 10.5 20.1 23.7 25.4 38.5l64.7 0C465.7 73.8 369.4 0 256 0S46.3 73.8 12.7 176zM256 240.5l-50.9 72.7-2.3 3.3-3.6 1.8L176 329.9l0 12.2 80 40 80-40 0-12.2-23.2-11.6-3.6-1.8-2.3-3.3L256 240.5zM144 216a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm200-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const FaceDisguise = createIcon("face-disguise", false, "data:font/woff2;base64,d09GMgABAAAAAAOgAAoAAAAAB6AAAANWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWCFNwsGAAE2AiQDCAQgBYMtBzQbuwbIHgPuDI7rlFGlm9lIEj5xO3rj4fv90nPf3w0BF5gds46rz1S4ugoTVXZsG52pJ3ILz/+vmfcNhmAw2d3+AgNLIHQsZE+FLvH4u3dB8YMpUpA1ISN1TY46zaYKTZJNHZMX6TuPwg1sPpRfhzZV4CiT1gIDjGzx2VAnYBu2jWqjciwZxx3k5FH2UB7S8fQRc8WHxl+tNpGI6gCITACw5dTA3jxf9IRPhTvEJ/sggGgf0ENABjLQQQDr6QjoYKAgh4HAYvz/2X+gQgCERYhNLMuBUoiGIfqG4WeSsA1jadc6orU0GjeTxpBSxQbfh/i2jVentraYnBq51sgVF4IgDkd1rmo8NThCrko8BQ4EiYmIiCfgqMJX5KnGUYOvJo8nPMnnuzt2oywmx3zash84TyyHGw/Hn4zfLJ4IWlW5VO1asM6tLTKkoxPhdMerX6+80z/qd6jraJwsdfzk8Gmaqt7GmeogEhcEOdx4trTyS0twuXWDKS7fT0bo67hlGjR00LBjJchgC1LFYdOQ+eTwFuexSlcKQ3PQfl+FG5kb/3o/Xj4UNu2ynket0KJr68pOzOVrw6VsVIYS0/gFq50CCeOsha477Q/jVg94MpTLs9DWKch1+eytlcN+XHHxEp2uLzfHdGnVtaV1//pdmvzf0s6nHtdmY7Fse67wts1fHFzZ1gXOGaVJzde2hzVv/+7eHM7bUrU3q31xSxMTzuWfPyej39luzPHULVXsffZsbojVvrqt26Q8s+GkvPHnm5jti1k9pDdvFh7YXHfLzAmDZaACHcvPdv2uqEO9emZK0HeYihONqZ68Kb87QWP/I26CftPMQ88DAgRUnl74O7YZvpK4Bvj89P1S/IwUXqdoN1CCBgjIav21jEoBCQIAQJIlqZCAAElqxiacV8ERAQhigMgJixg5oyhDzhGjJjlPmcacjf0H0hEjiuAYDckaCeaTdZpYTTZw3CKbtPLObuGE7od4PoD3C5u4SxfWuZlaUqeeaqFmgyq+t+Do4pZqs3pkCU+qDscwxVxzLDLZJNML0MEt0Nu12Gxdlpg7f1epr456lBbU4chD8ZAOyMQLu5xpwfFGWlLX66tZspy5OtRphCyXCkhoEFryCw2sffHawqmLpy+cDA==");
 
 export default FaceDisguise;

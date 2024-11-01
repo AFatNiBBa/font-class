@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `memory` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memory?s=thin memory}
  * @preview ![memory](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/memory.svg)
  */
-const Memory: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 128c0-26.5 21.5-48 48-48l448 0c26.5 0 48 21.5 48 48l0 7.4c0 .1-.1 .3-.3 .6c-.4 .7-1.3 1.5-2.5 2.4C539.6 149.7 528 169.5 528 192s11.6 42.3 29.2 53.7c1.3 .8 2.1 1.7 2.5 2.4c.2 .3 .3 .5 .3 .6l0 71.4L16 320l0-71.4c0-.1 .1-.3 .3-.6c.4-.7 1.3-1.5 2.5-2.4C36.4 234.3 48 214.5 48 192s-11.6-42.3-29.2-53.7c-1.3-.8-2.1-1.7-2.5-2.4c-.2-.3-.3-.5-.3-.6l0-7.4zm0 208l544 0 0 80c0 8.8-7.2 16-16 16l-64 0 0-32c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 32-112 0 0-32c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 32-96 0 0-32c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 32-112 0 0-32c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 32-64 0c-8.8 0-16-7.2-16-16l0-80zM32 448l72 0 128 0 112 0 128 0 72 0c17.7 0 32-14.3 32-32l0-167.4c0-6.8-4.4-12.6-10.1-16.3C552.7 223.7 544 208.9 544 192s8.7-31.7 21.9-40.3c5.7-3.7 10.1-9.5 10.1-16.3l0-7.4c0-35.3-28.7-64-64-64L64 64C28.7 64 0 92.7 0 128l0 7.4c0 6.8 4.4 12.6 10.1 16.3C23.3 160.3 32 175.1 32 192s-8.7 31.7-21.9 40.3C4.4 236 0 241.8 0 248.6L0 416c0 17.7 14.3 32 32 32zM160 144c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zm128 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zm128 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zM160 128c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64c0-17.7-14.3-32-32-32zm128 0c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64c0-17.7-14.3-32-32-32zm128 0c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64c0-17.7-14.3-32-32-32z" />
-    </Icon>
-);
+const Memory = createIcon("memory", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAAB1QAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiESAsGAAE2AiQDCAQgBYMtBy0bRQbIhof/t+v7fW5V95uu9og1Mj7ITEQGRi/7YM5eP2UkzP/l9IadL5Avfn4ot9vbx/SxhgXcO8CsF60N0vMsO6EwIW5w3qgDCk0h/Qh5fOVUFdIj6VPc5T40fjDC9SRZBiA6AFh/xMHd+nvRi/j0/7eIT+1EQGwApUCGDKMFWCUTGC1XIpcLevH//+w/sCSAqApYsilHnagQDYbLSGp5PmfxnCaEhoXrlWZ+ePqS4pjHhkU8NLUZLwx5YIS4Ou4f/PLoJ6Y/MOTqEK2IuCYeGvbauCdnPDj0mgjtVtt8WhERDw71s4iKgxlxWL1o3zbsoZE7Xhz52NSHhkU8OuPVKY14ftrLw8UDQ14Y8fCkteGrhzxQP6bNX86us0aw7uot6vBbB4fRdvHixV0z9MGiPvbLE17tvPrT+E9P/1R7bfYZX8/rN+/rz7I+Qef1lF7vCFuVtg68fV+WYdM+rd46peqJJ1ZLF1adThxev06vta99wbZtWjff3HpJccPuWm33DUWfott9ut/Tmafos4aXNmRdNbfXWqfVQ91d3bL+395ohRvWHXC3bq76d/XY94BAcN2c8ocT2qt+HVBP4Pv3f/nLPJHWpVcxQAJBNuv/WY5N6xYUBYRoistNgOoLJP+qAb6thgcFCAUCJFWFAJlROgLkCjMFqBhrsQBVhYMykdeEwY5rQNJwEcgscQXIDfYGqFjlg2jV4MheBvFWFn9F023popuVyvlz5pUrytmiSrq/eT28stxsm3Y5b5oO1zrdBc53qdOc6iyXdvCL7U5c5jxbluib1S3NN8c8pRXKw5WHqw93motd4iwXON/Os1J5fWiay5c7T4fOJDAukJUkIlU/QAAA");
 
 export default Memory;

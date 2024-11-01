@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snowman` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snowman?s=light snowman}
  * @preview ![snowman](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/snowman.svg)
  */
-const Snowman: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0C194.1 0 144 50.1 144 112c0 17.6 4.1 34.2 11.3 49c-5.7 7.3-10.7 15.2-14.7 23.6L96 169.8 96 112c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 47.1L21.1 144.8C12.7 142 3.6 146.6 .8 154.9s1.7 17.4 10.1 20.2L130.4 215c-1.6 8.1-2.4 16.4-2.4 25c0 14 2.2 27.4 6.4 40C110.5 308 96 344.3 96 384c0 41.2 15.6 78.8 41.2 107.2c13.7 15.2 33.2 20.8 51 20.8l135.7 0c17.8 0 37.3-5.7 51-20.8c25.6-28.4 41.2-66 41.2-107.2c0-39.7-14.5-76-38.4-104c4.1-12.6 6.4-26.1 6.4-40c0-8.5-.8-16.9-2.4-25l119.5-39.8c8.4-2.8 12.9-11.9 10.1-20.2s-11.9-12.9-20.2-10.1L448 159.1l0-47.1c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 57.8-44.6 14.9c-4.1-8.4-9-16.4-14.7-23.6c7.2-14.8 11.3-31.5 11.3-49C368 50.1 317.9 0 256 0zM176 112c0-44.2 35.8-80 80-80s80 35.8 80 80c0 15.6-4.5 30.2-12.2 42.5c-3.9 6.2-3.1 14.2 1.9 19.5C342 191.2 352 214.4 352 240c0 13.3-2.7 25.9-7.5 37.3c-2.5 5.9-1.2 12.8 3.3 17.4C370.2 317.8 384 349.3 384 384c0 33-12.5 63-32.9 85.7c-5.9 6.6-15.6 10.3-27.2 10.3l-135.7 0c-11.6 0-21.3-3.7-27.2-10.3C140.4 447 128 417 128 384c0-34.7 13.8-66.2 36.3-89.3c4.5-4.6 5.8-11.5 3.3-17.4c-4.8-11.5-7.5-24.1-7.5-37.3c0-25.6 10-48.8 26.3-66c5-5.3 5.8-13.3 1.9-19.5C180.5 142.2 176 127.6 176 112zm96 128a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-16 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM224 112a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-64 43.2c0 3.2 .8 6.3 2.3 9l9 16.9c.9 1.7 2.7 2.8 4.7 2.8s3.8-1.1 4.7-2.8l9-16.9c1.5-2.8 2.3-5.9 2.3-9l0-3.2c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 3.2z" />
-    </Icon>
-);
+const Snowman = createIcon("snowman", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABvgAAAKvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyDRwsGAAE2AiQDCAQgBYMtBy4bxQXIjpSuxgTB8/+55X0/wTww40VqprrndOuW+u3/n2vq3S0b8IvPhxZVHslHy+K9CQw4okBSD3ATtqnTkXMIo6BDdMwwSyh6fAX5PQFdLkhBLKDWqYfAkjpZ3pDGTFDoGgbiBwhKtTYtGnE1KUmRh+YpkIc0AARAqgMQRQAN0IBMBICKaAiQiU4U0NERSIpp0v4DoyAAIFbAVGzTASdwA3gMPAAUdl1vVMiBNMNl8eittx2cHU7mFdmbOTVtpVFaRFZHCh8pnW6sDLeSlcyuvxjdVmlfHpfsKnAlsb3yBpkWaSNrIquNkiJSUhvBKZvz7y/dcksBkQNlTuXblzU1dWW47XAptrXgSqdT5kcOx3dUWRNZL4Ic+lbB8KrwmpSWVXmaY0RtT20zseHUcJqsci1IyZA1rxInvt+//13sYe+HmD5+gP++jF3jOz6mPN5k0luEQzzvWOnV6DxkeMLN67u9E3odncvRXhO87vrNw56M0Xl4Vanj80MUUT9ansd0HL8rw/f/w8cmQ6Q19PL7e7WW1OPtxs63Gl3L9Uno6vO84FyC8z4rPdEn31DDOn9su+OpXaZE5Svd10XZzeaVWySHu4mPF/22hKYS1LTgVEIWDTxAAwABBBoP/jq6i6/iN7tLAfD6/Idv+51mk9LUfsCOAkBAK2gWpKPCQXZBsKiS0cTxSwiguIAdhNysjiYEJ3RQWHGCRgZ+0HFSACxkU0oujm+BhugOBINOAIWbYaBRmkmgY3ACLFTkTtSKIVouKzNR+SuZrvZIqtUvWqxw0Wj56G3GoUpP+dJZISrb8o6minyYS2+GMJiR9KIn/Rg5SIbTKDGKQdT2pGt9N0oxClOUKOWJhvMzvjW9GM4I+s3NxHupQPT5UF5G+/XzwakwmcXBKRSIsn0i/IO6DQYAAAA=");
 
 export default Snowman;

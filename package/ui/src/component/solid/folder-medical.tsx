@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-medical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-medical?s=solid folder-medical}
  * @preview ![folder-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/folder-medical.svg)
  */
-const FolderMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 480L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l128 0c20.1 0 39.1 9.5 51.2 25.6l19.2 25.6c6 8.1 15.5 12.8 25.6 12.8l160 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64zM224 208l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const FolderMedical = createIcon("folder-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABbAAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBXQsGAAE2AiQDCAQgBYMtBzUb4gTIHoexm+WGsLya8VGJeHjerq9zX9VX9R+6RlIEK4NyiOFk2t3MQT5IF447UWJq8yEEf/6vqRfPj6L0Gx1ax6JA1h6ROoEBBm0+H3jZwGY6Advbhgo1gvBFhIhJROMljdMN8nifnVdDupV+wYX6ofGrDs6TNGQAojkApq9Ysth3n+NzxM/ViZ8tREBMB6VAhgydBZgkE+gsVyKXCz5HtZr+A0sCiFr8GAnkyLEUqwA5SFKe9xhQqWmSL6/UFJsamzQ+H/C6YxZ3Br7pW4ln/fvHtQpeftUhxc1+L3utFoq42poFtZGIu9EugrnetgjBPd7jdfPXv/fL9l982+00Vz9s0aKYpsBzD0/7C3ebP6RRqU+G4Qmfm5aafh5mGOql2DEM3Q8EglErZl7aYNL/9ZUEvr778/YzUv2cpNeol0CQDaoOsjaBRAAAUhzXI0EgWSThd210XYBQIEBSqxAg00lzAXKFgQLU6Gq0ALUKS2QibxBaWzdA0ugQyIxxAuRaewtqTPJ9vlbryMJKCgrpV5c+R6KzD5UNGVZOKKdtXY4UoaxPLJd9x/NYf7hquwP2O2qbrXY5KvDDFpeO2WeOh832RaXhhhimNEG53Vvryyl/2BG7bGkfss9E5flcP8f92f0hSph3hNokEanp9httD35lAAAA");
 
 export default FolderMedical;

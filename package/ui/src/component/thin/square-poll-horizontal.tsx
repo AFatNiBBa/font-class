@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-poll-horizontal` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-poll-horizontal?s=thin square-poll-horizontal}
  * @preview ![square-poll-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-poll-horizontal.svg)
  */
-const SquarePollHorizontal: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 96c0-26.5-21.5-48-48-48L64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320zM384 32c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0zM112 160c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-192 0c-8.8 0-16 7.2-16 16zm0 96c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm16-224l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32s14.3-32 32-32zm0 96l192 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-192 0c-17.7 0-32-14.3-32-32s14.3-32 32-32zm0 96l32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32z" />
-    </Icon>
-);
+const SquarePollHorizontal = createIcon("square-poll-horizontal", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABpgAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDBgsGAAE2AiQDCAQgBYMtBz0bkwXIjsQ4JvKLKOxiKC0P/z/Xv/vc5FHmMeQTkUIok0MAVxVXFo5m1XZVVk+H1L7rm7ic/m98+gdb5I82pq3dsvb5nucJJJpPK5EssDyiF7Csm05EXrkliciXpGH7NExl5zC4QB6vu0wT6dX0G55OHxr/GvEASZYBiG4AbDt++JCqHvWI3xoSvzmAgNgOSoEMGcYF2CgTGJcrkcsF9Wg0/H9gSQDRjC9LIEeBD/E5IAdJa56PjnYQGMzRak0d+bFaU3Hla4MRL81ujw/6XxhO8erAi7M64uOhl8ey7R/Oi/h0JMUrcz+Z2R4fzf9sNIvXF3w+p+PCiwO1eHnopcEiXujX/FrHa0Xt8YEX3dP/QlHEY4Mvxb1DL9coD0z/rPuz//jtit98fT77nT+WbrX0j9+zrUT17Y13eugpwCl6et7ZSkVH192d9QvqnblyobNeCVKBpYSg6+8LLHc+8khn8C+oWkUlLlQKVZYlXj4PBILB5bvfPN+18f/WWgL//NAlN9KoR5U+Q6sEgmxhY6EzUUFUAgCQ4g7To0IgeVMrvmu7lwQIBQIkzQoBMmO6BcgVFgjQZNIqAZoVDstE3ib0O+vopN3NdGa1O+lcv+/pJhv9WG3WH5mtSpYm/RTTdwvvOlUuW7y0XF8OB6psfoIcbiiXzbl3vDAPZ13hRje4zeUuc7XbIG9xqHG76+2eEbt8UWmZxZYqrVduj+/1Y1VvcaurdXX/mA3K8+lcd8zXz4OTkHe5jiQRafC6G4se9sKiuwwAAAA=");
 
 export default SquarePollHorizontal;

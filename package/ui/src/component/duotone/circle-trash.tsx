@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-trash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-trash?s=duotone circle-trash}
  * @preview ![circle-trash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-trash.svg)
  */
-const CircleTrash: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM144 144c0-8.8 7.2-16 16-16l41.4 0 11.3-11.3c3-3 7.1-4.7 11.3-4.7l64 0c4.2 0 8.3 1.7 11.3 4.7L310.6 128l41.4 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16zm16 48l192 0L338.4 354.7c-1.4 16.6-15.2 29.3-31.9 29.3l-101.1 0c-16.6 0-30.5-12.8-31.9-29.3L160 192z" />
-        <path d="M212.7 116.7L201.4 128 160 128c-8.8 0-16 7.2-16 16s7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-41.4 0-11.3-11.3c-3-3-7.1-4.7-11.3-4.7l-64 0c-4.2 0-8.3 1.7-11.3 4.7zM160 192l13.6 162.7c1.4 16.6 15.2 29.3 31.9 29.3l101.1 0c16.6 0 30.5-12.8 31.9-29.3L352 192l-192 0z" />
-    </Icon>
-);
+const CircleTrash = createIcon("circle-trash", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABjwAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCLgsIAAE2AiQDCgQgBYMtB1QbVAVRlMzFHtlHYrodWn4zoRORiYbS8kDtl77d/QHg3ypgVsDk6lA1VSQbGVdQpy6qqDodfxNbYH3239renCB/ENHSrarFtltPW0OqJfifaz6/tKMD/EaHFmWpB1LllSufwESam4Yw0wHYhHG6TbwN8YuIqBJZHZ8dZ9Whc4UsfE53VRCfx08Ylv8BDF/1uEtUkwCEZgCs3rNju2IJpRg+ld8QPtmGAGENyAUkJPQLYJkkoF8mRyYTKMVymVIol3MCECrJj06gElW4iXuADERRillWLV2vpmknrQNtuRa6CgKn4BYJv+yVBCV4IlCF3f6wD4eELvvlIwS/1cB9+5t6+Z0+j//JY/ERNXuNbrujXybK8EnoYhGEW3QKAq/UpHCHYCBQJa906I1abB79PuHT6U++bCkUCpOVGhtLxXRhsoJ5VatUzZu3pWGEX1zy8pT6Bw/76kcUFa2voef12Nq1Y697aqw/32wMX4HXCo6q5aLGkiOWvDi9iaxreB8EBH5Vjj860rTsf3VdBOOFn3/l71G5GMVRVIsgkKaVpzkYQSQAAGK4bWLkMQKStRK16j2BvaCWClGlWkj6NEOm1lSoMGg+69y/QxKyGkG7QwRRvWuQLHAHMu1eQ4Vl3tqV2kMKQD58+OdfyoaR9bvy2TNm5UvyZa4IMcXy+tLcrU26rTeZzjrtistuOuWkc25GX7fdu+WSDRa13gflZpthltwSOVzdK7uzr7vh3FzCt1kqP29NctuenkxmpIxz7EkSIYbU/lEnO/3m9WM3zk6P5WHnQLq2AAAA");
 
 export default CircleTrash;

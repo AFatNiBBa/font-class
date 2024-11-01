@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sensor-fire` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-fire?s=light sensor-fire}
  * @preview ![sensor-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/sensor-fire.svg)
  */
-const SensorFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 64l320 0c17.7 0 32 14.3 32 32l0 41c9.4-6.9 20.9-9.8 32-8.8L448 96c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l273.6 0c-8.8-9.8-16.5-20.6-23.2-32L64 448c-17.7 0-32-14.3-32-32L32 96c0-17.7 14.3-32 32-32zm64 80c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128zm255.1 48.9l47.4 49.8c3.1 3.2 7.4 5 11.9 5s8.7-2 11.7-5.4l21-23.7c16.6 15.9 33.7 37.3 46.7 60.7C599.5 304 608 329.4 608 352c0 33.5-12.7 63.9-33.6 86.6c1-5.2 1.6-10.7 1.6-16.2c0-57.4-63.8-110.5-87.4-128.2c-5.2-3.9-12.1-3.9-17.3 0C447.8 311.9 384 365 384 422.4c0 5.7 .6 11.2 1.6 16.6c-21-22.8-33.6-53.3-33.6-87c0-28.4 12.4-58.2 31.4-86.7c18.4-27.5 42-52.6 63.7-72.3zM480 479.9c-2.4 0-4.7-.1-7-.2c-33.7-3.2-57-29.4-57-57.3c0-17.4 10.1-37.7 27.4-58.5c12.1-14.5 25.8-27 36.6-35.8c10.7 8.8 24.5 21.3 36.6 35.8C533.9 384.7 544 405 544 422.4c0 27.8-23.2 54-56.9 57.3c-2.4 .1-4.7 .2-7.1 .2zM320 352c0 85.6 65.7 155 150.9 159.6c3 .3 6 .4 9.1 .4c3.1 0 6.2-.1 9.2-.4C573.6 506.9 640 437.6 640 352c0-30-11-60.9-26.2-88.1c-15.2-27.4-35.3-52.3-55-70.6c-11.2-10.4-28.5-10.4-39.7-.1c-.4 .4-.8 .7-1.1 1.2l-12.3 13.8-37.9-39.9c-.3-.3-.5-.5-.8-.8c-11.1-10.1-28.1-10.1-39.3-.1c-23.4 21.1-50 48.9-70.9 80.2C336 278.6 320 314.7 320 352z" />
-    </Icon>
-);
+const SensorFire = createIcon("sensor-fire", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABsAAAALRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDKAsGAAE2AiQDCAQgBYMtBzIbqgXIjtLUMhiS5OXkCZ7/15nd9yUD0IxCgFCFWwKfdEy75uHb+X51cYkHHCSSYUK73YBHOrJdnKoZ56EAPmcJBmUtyu4EGZPGmOcV6HnPU99gFShYTQpiZag6HeuxHUOph8cooWoYxeOyyC94AXr8lcKYoB51D1i2vqn8xMyGomcAAKQBAAA1dqsmXE9LWuRe5gzy0QgIQBYABgEa0ECSAKhMIyBJZwCdTpCWTKb+BxogAJCKXqYA6MAKToPr4FX2Vc1FL+p05o/kc5hceluHyd7J5XQtCq2B3HlENhY8mNcpu/PvjyrZUOBAHpesjdtlYXitaDIjss7RZm14dRC5Qusi4rDXtqlRs8Yax6JIITlQ5Ehqe+V1sjF+sODB8Nrg6vz786+PTg9dzbmt2LFKHRba98bXyqZCh/LtKXAgNj24PvcMkfq296uIXGmzyLE1Pqx2rd3WokcL7j2sWy1BqSoLZQgQf7nyZSPnQe/B9znu9b1HtVNd493z57sL8BqDvfu2V2f7jtglq/HzYvkfmF1dONWaudNp93Tw6jiJ/4t/1h9S2mKpU5d1teoopUVszl+2krXOz5lzvlZJ2y+nLaI0+9PHKSNL11amM2HbtjIuV5lttnAmvRJ63jaNGi82V9d1k0mvrm/eJDVSEya8q1oV4AqbQGbR5p6s/AAgQPBnxdwb3TyVv1sdCoBXFz9+tzydua6mq4PASgEQaCNTmM5pOkCoAYC8irHkJCcUoBzmQWSd1kaLwg4DxcwOmgQv6OwKgUmWMtJkXSsaKTZcNqiLgOI0AjRlTQFd0CkwqexmziwYWvIqqaf8OmbWRbzOMaNE0eJGReOyb6j5KPX9Ssa0k39smytQztLXMEON1kdvA4wGcqQmxTGGqMuIOj7IUEJRxRkqMsKjvdkWEiONQulcjx9SiXF/Nr+xfHWB4ivKW1KLoiDJ8ekrNWxkkTcBAA==");
 
 export default SensorFire;

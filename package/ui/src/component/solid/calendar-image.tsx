@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-image` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-image?s=solid calendar-image}
  * @preview ![calendar-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/calendar-image.svg)
  */
-const CalendarImage: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 32l0 32L48 64C21.5 64 0 85.5 0 112l0 48 448 0 0-48c0-26.5-21.5-48-48-48l-48 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32L160 64l0-32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192L0 192 0 464c0 26.5 21.5 48 48 48l352 0c26.5 0 48-21.5 48-48l0-272zM147.2 360.7c6.5-8.4 19.1-8.3 25.5 .2L184 376l58.3-84.2c6.5-9.4 20.5-9.1 26.7 .5l83.4 131.1c6.8 10.6-.9 24.6-13.5 24.6l-226.4 0c-13.3 0-20.8-15.2-12.7-25.8l47.3-61.5zM128 256a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const CalendarImage = createIcon("calendar-image", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgAAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCHwsGAAE2AiQDCAQgBYMtBzUbJAXIhof/15nd9yX7TIZRIXaAeIEQ3IWLbrnFijpPXFM/zp8eMIrsUaqoEqRAl40p8GK7eeJu4LOBzXQCNmtnUm8QfRkkXcpDhs0Pm1wgj6ezW5RIT6Z9uD9+aPyuzy0kozIA0QqAVYcfvE31l/glYm/tU2KvLQiIVaAQyJBhUIClMoFBuQK5XPBL1Gr0H1gQQJTxfQnkKOMiXE37VJI8z2e09XY0lJrywxpK9UcL9fFK5yO9oikinup+bEJ9RNxom+vv6nyEgIed2NjUmOLJrkfHN8XrPY8PZCc83tUVh8fjDXd3HRqPinrnpP4YRT1rDkMgSG7ofKT+rihu7LGvGvNW61t/jt532j7HP18URUXlh/1ZRVVFtv+HSkWh+Y47mtN24QbgR/UqW60D1gkLD7ZOe2PfvvcsOthhdXXrD7rJxgXzH/jNCwsWHPFH+xnksaQmNhD3fTfx073Htyz9p64hgd+++vt/+VdUq0Y1vYU6CQTZtNo0x0QVoioAACkuMyaqCCRnyfG7NnpMgFCPAElZvQCZAa0C5OpNFaBk2DwByuodLBP5KKHTsRVLGl2IZea7Fst1+hgrWWpnUdYZmd7JWiM/+zLWI7yuqZg1o1IsLrodRVEl0W8uKabtSZe5icnmrNOc7zyXONUpznQJoBfZVl/qXOslZJ0vKswyQ0VhsWK7f3v6MKe6yMXOdL7zwjFLFOfzSS6T5082XsKcs7UkiUjN11L5uAMAAAA=");
 
 export default CalendarImage;

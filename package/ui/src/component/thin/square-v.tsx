@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-v` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-v?s=thin square-v}
  * @preview ![square-v](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-v.svg)
  */
-const SquareV: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm111.2 52.4L224 374.1 336.8 148.4c2-4 6.8-5.6 10.7-3.6s5.6 6.8 3.6 10.7l-120 240c-1.4 2.7-4.1 4.4-7.2 4.4s-5.8-1.7-7.2-4.4l-120-240c-2-4-.4-8.8 3.6-10.7s8.8-.4 10.7 3.6z" />
-    </Icon>
-);
+const SquareV = createIcon("square-v", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbwAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBYAsGAAE2AiQDCAQgBYMtBy8b3wTIHoVxMz3SRXNsbxfx8Pxar+e+mQ0sBHHCzCqOJACVZF3Vd2XhAFhvMisCZUit/sTNzjuPAlwWQWhj4dIsap/veZ5AovkWit4eLGB4htdtskePIOyKEImSkI7PjrMN8nhgtxLpXoIr9UvjVx1dIMkyANECADPWrVqi4av4KuKTesQnFiEgZoJCIEOGLgJMlgl0kSuQywVfRb1O/4EFAUQj8qMSyFHCSmwB5CDJ8rxTp3aVUi1fWymVN71sE3GzQ4p7bW/1qcUb7e90zuJ+u9t9q4sfDIp4p18tXg14q2OKu/3f7F2N1wPf7pStWbN2zbq40/ZWm9Vxs3y7tXG7/Z22Pd9u8fbv7GXaleGf8Wk2XfbpZ8Mz/DN118stafmUMU9btixPx0E7Our41+0ZY3au6nPuL61Lpdbn/tR31c4xQCBo8uPlUduaT/6/SSWBb977c/12/atoSG+jiQSCbHB9sM3RAIQPQE9xVk/nZYFkoQzkU6tuCxDKCJA0UhYg01kLAXJlgwQo6WaMAI2UrZKJvKnQxhaFk6oTcGas83CujXfhksne1xtpE1li0WlBf+sS5lpgzlIxYujwYmKxjQwmV8gynVQci/3PcmUAVu11zFGn7bHbAacNdNIS64wj5nrgHC8qjDDUcIWJinD6LKw1+kmnHFhz8TmTFPfV/s767QOgJEI4kidJRGryNqUhZwEAAAA=");
 
 export default SquareV;

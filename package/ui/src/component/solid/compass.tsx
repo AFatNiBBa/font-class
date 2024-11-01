@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `compass` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compass?s=solid compass}
  * @preview ![compass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/compass.svg)
  */
-const Compass: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const Compass = createIcon("compass", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABawAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBWQsGAAE2AiQDCAQgBYMtBy4b1wTIHomxLYr9Bv3tIh6+n/s89yVbAMxUMYIDQmHX1gGxJYmq+odFhtTiz/81n9/zowP8dmSHFkVdmAsaZj6fwICjLNomMhvYTCdg253tsC2aOCiEIslx7vhcII+b2UFlpGvpFc74D41fGjtIUjkDELUAMGTWtAnufYtvES9LES+NQ0AMAYVAhgzNBOgvE2gmVyCXC75FqYT/gQUBRAXhtQnkKMN4zAfkIMnyvGmDulXLqucz7YNVZnydFPF22MPYN/TBxDczP41/NfievUPuT3g9Y9Z0Lr94ueGsuEKH1L9Ub3pcrDdzX8TlKsfrXbR3fL7qiYZXolV5rfI/Xq18pTRohLOc69ds2LBm/c6dHYGrMep642yvGPy8dm1gNox/VHmmos7wGkc5WiNVIRqIuxaP719rUc3+/ytVTeDHjX/Lz0jpXpLKUUkCQda+1N78BBIBAEixU6sEgWS4jH/Xai4LEKogQFJBFQEyTdUSIFdFOwHKtNBDgAqqmCYTeWWhngUNJNVsAZmedoFcPddBmf6exhXUi0ypSJUg/3RxI3toxLyiS8fORd9iWVUoPcHddL/iWGy9k7rawF4rbbLRdisst8b2DtlqQrbDBiN38AhfVOiio84KfRXXjeftM62w1TZrbLJRZumneO+2tnM/uA0oScDsalGSiFRx2aYNegsA");
 
 export default Compass;

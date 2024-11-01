@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-ngo` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-ngo?s=solid building-ngo}
  * @preview ![building-ngo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/building-ngo.svg)
  */
-const BuildingNgo: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 0C21.5 0 0 21.5 0 48L0 464c0 26.5 21.5 48 48 48l96 0 0-80c0-26.5 21.5-48 48-48s48 21.5 48 48l0 80 96 0c26.5 0 48-21.5 48-48l0-416c0-26.5-21.5-48-48-48L48 0zM64 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm112-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM168 64l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 64 16 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 24c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-88c0-8.8 7.2-16 16-16zM304 96c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32c0-8.8-7.2-16-16-16zm-48 16c0-26.5 21.5-48 48-48s48 21.5 48 48l0 32c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-32zM61.3 71.1l34.7 52L96 80c0-8.8 7.2-16 16-16s16 7.2 16 16l0 96c0 7.1-4.6 13.3-11.4 15.3s-14-.6-17.9-6.4L64 132.8 64 176c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-7.1 4.6-13.3 11.4-15.3s14 .6 17.9 6.4z" />
-    </Icon>
-);
+const BuildingNgo = createIcon("building-ngo", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABtAAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDRgsGAAE2AiQDCAQgBYMtBzMbyQXIjsN0ayfjEEsMZ7IIP/Hw/X7t3PffqqVdpEPS5CHiJTKkZJKyaGQ2dIZKJuP3jLl/G2JyiLiHYiKJ5iFqI/GotBlx6nmmheL7PMJB+aRz6rYJuidXoNrz6WsJ1Yq1ohTcO+hNVK0S/xynHeToEY6iRHoQvAHOmjeNX2gbJakVAIguANg5TonDwzd9E72KrogvxICA2AEwj1CgwASBdUKBCTHzIMuCbxKJkv9AhgCijO73JpBRxydgCoAMkmoWs+yqKLG8xqysuLxYuqy4TM6mGtGkloDm1KfMZIloQXPGYkt9ShvUoB3NGV0hzWtMm8ulzWjK0pQ66FpNhqY1KENWRvbqJFrVnEg3kzSiQb7ZsPemkW0dUVQu+NhcVIVcFyq71dX3apOm2xrTOpQeFBwkhTA9qRFMq9XWdTPqxvtK+79Gb+VvHF4d34GpcBXF9N2xEIk+UCTYAZiVlbiMFf8UvhnfCswXTxR5nttU0xIU2cLxiaOjo5lkAilR8gFotajvMpJGmdEJQ0HrnBcJp8DNAX5Dkj8sTTqPDceCQshcnWeaAHgegEBwM/7RLFD0/ZOSFQB+7v/+1/P9P9CgYB9UJRAUi/+2cmMQSKaELpeiHcaMDwokj6r8V226FSDUESApqwtQGFNCIKtbQKBklhsCZXX7hCJLIwzlnWrSdKoW1vSp2dCFWrLuMVs2DKFbtrpE659krnCQCJvHTvaO7M3Ust3mPM1y3IeFQ5btaZuVvwXlGtRrVaZU1QqAbxZXaFMnnMWF+SLmxJ4j5o2Va6OudACzqwU0yXb1WXyw+ZildnZvKz8q0OkuKUoSkeQ+9rRdfUUDAAAA");
 
 export default BuildingNgo;

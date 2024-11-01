@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dolphin` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dolphin?s=regular dolphin}
  * @preview ![dolphin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/dolphin.svg)
  */
-const Dolphin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M80 160c0 13.3 2.3 26 6.5 37.8c3.9 10.8-.4 22.8-10.2 28.7L56.8 238.2 44.7 217.9l12.1 20.2c-5.5 3.3-8.8 9.2-8.8 15.6c0 10.1 8.2 18.2 18.2 18.2L192 272l24 0 32.9 0c6.3 0 12.3 2.5 16.8 6.8L304 316.3l0-20.3c0-13.3 10.7-24 24-24l16 0c48.6 0 88 39.4 88 88l0 8c0 .9 0 1.8 0 2.6c19.9-21.2 32-49.6 32-81c0-60.8-22.4-116.2-59.4-158.7c-7.2-8.2-7.9-20.3-1.7-29.3c10.4-15.3 23.4-35.5 31.4-51.9c-27.3 4-58.4 14.3-84.2 24.6c-6.4 2.5-13.5 2.2-19.6-.8C297.9 57.2 261.2 48 222.3 48L192 48C130.1 48 80 98.1 80 160zM277.7 408l66.3 0c22.1 0 40-17.9 40-40l0-8c0-19.4-13.7-35.5-32-39.2l0 1.9c0 25-20.3 45.3-45.3 45.3c-11.8 0-23.2-4.6-31.7-12.9L239.1 320 216 320l-24 0L66.2 320C29.6 320 0 290.4 0 253.8C0 230.5 12.2 209 32.1 197l3.7-2.2C33.3 183.6 32 171.9 32 160C32 71.6 103.6 0 192 0l30.3 0C265 0 305.6 9.3 342.2 25.9C374.9 13.5 418.7 0 456 0c7.8 0 17.9 2.4 25.2 11.3c6.7 8.1 7.5 17.4 7.3 23.2c-.4 11.3-5.2 23.4-9.7 33.1c-7 15-17.1 31.8-26.4 46.2C489.8 162.5 512 223.5 512 289.7C512 381.5 437.5 456 345.7 456l-1.7 0-66.3 0c-19.9 34.5-56.8 56-97 56l-4.7 0c-5.5 0-10.7-2.9-13.6-7.6s-3.2-10.6-.7-15.6L190.1 432l-28.4-56.8c-2.5-5-2.2-10.9 .7-15.6s8.1-7.6 13.6-7.6l4.7 0c40.2 0 77.1 21.5 97 56zM136 160a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Dolphin = createIcon("dolphin", false, "data:font/woff2;base64,d09GMgABAAAAAANYAAoAAAAABngAAAMOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDAAsGAAE2AiQDCAQgBYMtBy4bfgXIvgzYxjK0/hVr4hpGCIt6maRozrUcHp+tv76yj4bgn28/2n3zZ0V84opK2iRuTYHkzSS5n+6Vbp1DxSGIUz+JrXGei0DAEhsbaMyORVos8bZ6DWvFmu4l/AHiVhGABDK2ink8EIyPLNiqOgYe3m7v163tFnQEgYR3Eod2oi2wtjSRCNOTTfsoQhNSM1nSVDHoZupma9j2Lgp7LgzsHzDD6Ce1lmaBdWl1BWDju/K875Cca3vNUgvsz+e52fOeRwF+iyy0sWlpIAskmvN5AolMXyaBnekB0aGeecsZ9Ui5bzLRzOQfe3w7gY3XVODCnKwFODVeqh8GjgCGzwgAgAoAAKChpqOd+zVdE334F9CHAoAAqgA4BDzggWQEoBqPQDKWAyxL+Ez///If6AEBQBP8wRgAFviAqwD3AQAsAMNLtqI6i3xCbHcQN3Bg3yDUqYxkoFGMaVzRMU0h0gWfS08Du0VSp8Cq7UfjutN0xWLtUzH0xL+Z4cwEHdMxIp33SupqzKS2FBN4LeQwtqGxpulSTmsU+pQ361tFrSFqrub6D54nHlXKzFn3xLCOaqkOKJzGdUwkOuaZDejyzQbuXozJLflxS7AOosSmHqu/MjzGJtoYe/SNaenEJSYvqO/s5ABRfJbRYHna0y/8GUdGBGOVfvzyeW+tMWLxQGEh9acg6vuqVB9zxF3XHF4Q51sY8m1lfAxmkBX1GLuuspzdCbX1vTE/mpT1/S6LWI0/G1YdAXtpzAvsISZoy1xSb/2fpeyIEToA0LPJX7BVayS+QjEAfD148i36HwvmBvBnAAje+g8GWQAwEAAAADCxjS8CEDDOgo12sNNRXwKxYPgKhCeJcFiBsuAjlRLWudwBiVIAEs0QYARbg6eUHVjRPIaPat44vqIFdqLyacZ/E1NaNdEy58Jy812lO4amkHtsG1c5t+7frqUMHNJjhy3O6NBiwllRR8T+BRtEFhnig/AoIJd8HJW4cPK+3aDDESdM2GHbp1Th7tvpbNvNGbBEZCxEM08QHPwmVxZXZ+eWAQ==");
 
 export default Dolphin;

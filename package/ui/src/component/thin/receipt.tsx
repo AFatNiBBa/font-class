@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `receipt` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/receipt?s=thin receipt}
  * @preview ![receipt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/receipt.svg)
  */
-const Receipt: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M13.3 2C10.9-.1 7.6-.6 4.7 .7S0 4.9 0 8L0 504c0 3.1 1.8 6 4.7 7.3s6.2 .8 8.6-1.3L71.6 459l50.7 50.7c3 3 7.8 3.1 10.9 .4L192 458.6 250.7 510c3.2 2.8 7.9 2.6 10.9-.4L312.4 459 370.7 510c2.4 2.1 5.7 2.6 8.6 1.3s4.7-4.1 4.7-7.3L384 8c0-3.1-1.8-6-4.7-7.3s-6.2-.8-8.6 1.3L312.4 53.1 261.7 2.3c-3-3-7.8-3.1-10.9-.4L192.4 53.1 141.7 2.3c-3-3-7.8-3.1-10.9-.4L72 53.4 13.3 2zM16 486.4L16 25.6 66.7 70c3 2.6 7.5 2.6 10.5 0l58.4-51.1 50.7 50.7c3 3 7.8 3.1 10.9 .4l58.4-51.1 50.7 50.7c3 3 7.8 3.1 10.9 .4L368 25.6l0 460.7L317.3 442c-3.2-2.8-7.9-2.6-10.9 .4L255.6 493 197.3 442c-3-2.6-7.5-2.6-10.5 0L128.4 493 77.7 442.3c-3-3-7.8-3.1-10.9-.4L16 486.4zM96 152c-4.4 0-8 3.6-8 8s3.6 8 8 8l192 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L96 152zM88 352c0 4.4 3.6 8 8 8l192 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L96 344c-4.4 0-8 3.6-8 8zm8-104c-4.4 0-8 3.6-8 8s3.6 8 8 8l192 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L96 248z" />
-    </Icon>
-);
+const Receipt = createIcon("receipt", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABkAAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCTwsGAAE2AiQDCAQgBYMtBy4bTQURlZovyH4k2G6setCRKSdDwbAxeBIP/79Wdt+vqp4AQJ0oAEKFZEeOjQs7bCMCEnZZdwBkSK3+/F/z+T0/OsDPR3BkBxiFlSAFFLXK562jiY4qaEKz9BOcTUR3NO/FQQjxQhsOkMc52xWk56mKu8GDxk+dXSfJMgDRCgBTVi1b4P3X+BpRrUVUzUNATAWlQIYM3QQYLxPoJlcilwu+Rq0m/gNLAURF9HsSyFGHG3gAyEFS5PnwPs2aN2taNM9XNi2arHvS7pEUl9s/7rgslgT++GlkcaXDk3aLY2mgRWuylC3YhmNRpFgYa+ave9Tucfum8bTjkw5NltdczDSv0l+iV0Orht+qO6uavRk6ZErxVzFlyNB6bSybVq/etGVt1OP0mp5+VKO5fqZNmwv6qep3ivHhfosWbK5UNr+Xy3UfGgoP1+2avh0IBN+vnnu2qeX4/xs1TeD7yz/316u9jcupAY0kEGT9a/3Xx2Ug6ADcFCf1WilZILmqgOhem3kiQGiCAElFEwEyXbUSINdEPwEKPYwQoKKJZTKRNxba2dCCpJkjIDPSBZBr5wUojPfBrWgXGTxS0EQ9DsabmX1oxrJyyMDB5dhyMVPTIEbY4XHlbqH3SdnUB6+089DB4zu27zneQ44uCE4cmLkGzyixHDJwcDm2PF15HF654+ixPfPM+VHGlfc7vU+ud+6D5STCHJpIEpHq/nwQDx8HAA==");
 
 export default Receipt;

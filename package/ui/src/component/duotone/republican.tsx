@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `republican` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/republican?s=duotone republican}
  * @preview ![republican](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/republican.svg)
  */
-const Republican: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 288l0 96 0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64 192 0 0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64 0-32 32 0 0 48c0 44.2 35.8 80 80 80s80-35.8 80-80l0-48c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80 0-32-32 0-64 0-32 0-96 0-192 0L0 288z" />
-        <path d="M160 32C71.6 32 0 103.6 0 192l0 96 544 0 0-96c0-88.4-71.6-160-160-160L160 32zm261.7 99.4l12.6 24.6 28.2 4c2.4 .3 4.4 2 5.2 4.2s.1 4.7-1.6 6.3l-20.4 19.2 4.8 27.1c.4 2.3-.6 4.7-2.5 6s-4.6 1.6-6.7 .5l-25.2-12.8-25.2 12.8c-2.2 1.1-4.8 .9-6.7-.5s-3-3.7-2.5-6l4.8-27.1-20.4-19.2c-1.7-1.6-2.4-4.1-1.6-6.3s2.8-3.9 5.2-4.2l28.2-4 12.6-24.6c1.1-2.1 3.3-3.4 5.7-3.4s4.7 1.3 5.7 3.4zM271.9 128c2.4 0 4.7 1.3 5.7 3.4l12.6 24.6 28.2 4c2.4 .3 4.4 2 5.2 4.2s.1 4.7-1.6 6.3l-20.4 19.2 4.8 27.1c.4 2.3-.6 4.7-2.5 6s-4.6 1.6-6.7 .5l-25.2-12.8-25.2 12.8c-2.2 1.1-4.8 .9-6.7-.5s-3-3.7-2.5-6l4.8-27.1-20.4-19.2c-1.7-1.6-2.4-4.1-1.6-6.3s2.8-3.9 5.2-4.2l28.2-4 12.6-24.6c1.1-2.1 3.3-3.4 5.7-3.4zm-138.3 3.4l12.6 24.6 28.2 4c2.4 .3 4.4 2 5.2 4.2s.1 4.7-1.6 6.3l-20.4 19.2 4.8 27.1c.4 2.3-.6 4.7-2.5 6s-4.6 1.6-6.7 .5l-25.2-12.8-25.2 12.8c-2.2 1.1-4.8 .9-6.7-.5s-3-3.7-2.5-6l4.8-27.1L77.9 170.5c-1.7-1.6-2.4-4.1-1.6-6.3s2.8-3.9 5.2-4.2l28.2-4 12.6-24.6c1.1-2.1 3.3-3.4 5.7-3.4s4.7 1.3 5.7 3.4z" />
-    </Icon>
-);
+const Republican = createIcon("republican", true, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAAByQAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhESDeQsIAAE2AiQDCgQgBYMtB1AbGwbIjsM4hrxZYtJaoQTiEEFlq8zq7gPgeWASIXnA5OpkAuDKU8hCNmUvhO1+o93GeXnAGQZAQQIJBBZ0vqlTz3MeCuBzRGLBGI2Je1jX4j24ILUKbd1UgV7BakUpuXdx200RkxDHQ+EMJc3LN2kgPZ5quDf6H8D4x4ibSFoygOgGwI6jDz/Qez/Gjylq9YWoOQABsRNUAhkZ4wJslgXGFRWKIvgx1RN+jHpWBBCNot+UQSOa8C3+BBSQFFFK78IFC/e0NXSUo9oaWo//enPEW0cQXRHxzdZ3jvJTR0ZH5sTDAw/3z4+RuK7/ocG5MTseGnxkaCwWxiNDjw7Ni7F4tO3OgaPuLCNxDNvDg0c8h/XhwhDEdSxsa4s719Yjoi3GrNz39ILn17y66IWpiOsHH2m9g74+8VD/I4MREa0zp7un/2u1eTz77C6pUYtdp6icInbVarvkx4bTXtuvfUjVm2eutJ8yY8aKO91pxYyZaaOVZube5S/6TCql9+FUel/zouXniDfKRa/pLbenuNOIxKbnTklqtuu87bbOcsl7xqcqleXiqDO7u888KpavUDnZJj/+2HnI3vMgEHw147dxctfm/y0S+PmN93EP169el6bRLIEgL653TkjXgUAHkElxlZk7nySQ3atI3rXdIwKEVgRIGrUKkI3pFqBotUiABpPWCNCo1eGyKC1CvxN7kLS7FGRrXQ2Kfi+CBpt9mmrUHxnKGRhlfjIT9xpDezZVK5YurzZWm3UtC7iUnd9UnZbmXyX7FuCDznKxi1zhTGc41xUj5DIHZq90ob324D2+qLLCUstVNqput56LR41Sl7ncuev8/VU2qd735rtqf/QCrCYJ7kpbskykyL0Byzv1oiXhpb9/yn8aAAA=");
 
 export default Republican;

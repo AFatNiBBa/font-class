@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bug-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bug-slash?s=solid bug-slash}
  * @preview ![bug-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bug-slash.svg)
  */
-const BugSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L477.4 348.9c1.7-9.4 2.6-19 2.6-28.9l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64.3 0c-1.1-14.1-5-27.5-11.1-39.5c.7-.6 1.4-1.2 2.1-1.9l64-64c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-64 64c-.7 .7-1.3 1.4-1.9 2.1C409.2 164.1 393.1 160 376 160l-112 0c-8.3 0-16.3 1-24 2.8L38.8 5.1zM320 0c-53 0-96 43-96 96l0 3.6c0 15.7 12.7 28.4 28.4 28.4l135.1 0c15.7 0 28.4-12.7 28.4-28.4l0-3.6c0-53-43-96-96-96zM160.3 256L96 256c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c0 24.6 5.5 47.8 15.4 68.6c-2.2 1.3-4.2 2.9-6 4.8l-64 64c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l63.1-63.1c24.5 21.8 55.8 36.2 90.3 39.6l0-143.7L166.7 227.3c-3.4 9-5.6 18.7-6.4 28.7zM336 479.2c36.6-3.6 69.7-19.6 94.8-43.8L336 360.7l0 118.5z" />
-    </Icon>
-);
+const BugSlash = createIcon("bug-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiAAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCQAsGAAE2AiQDCAQgBYMtBzAbQAXIjpMldrmJh+f1+v+1kzPzAOU+wPwAKkidi5otKziZ/5w7/5fTG8+PDvCrn+DYuCbIrOyyObmXQM/btmhs8KgszBLFbMv98ZBB8DQVEsdjYtKwhMPaEVL8k19VIXs4+xp3jg+NH7VxlUydHEA0BsCkFUvm+fS7+C7iq/It4itzEBCTQCGQI0d7AcbKBdpLCiRJ8F2U5fIfWBBAVO0vmIGEKi7hdkACmZTS0Dbdq/UqDdLyepW6a55u/lCLQ/FUq0dbLo8Ho17c2urBuNTygbp145G2D7ZaEpR7S/OFcZ+nDVJ3LN/yZs+IZ9uLiy3urxfOj3ii9/PDl9atF9LuY7kX29yXoIn0U0vio2kRy2O2ln024dhL5+cbP/9zzdfbv9b9/T6/vv7/grVVD5/Qr9FEDW+6qeFK6qLmlyjd3KDBzQ/hoYdKYnXbg+q//vnjrdPF53m+dlL/xIn6N0k6qf388xefLCcO4TlBt19rap7yi4nT7nTTXvM6vvLNsW3rZzkOBILvGxzpvqHR2N9q18vAD+//+ud5Y6ksu5E9j9oyEOR9y77WZhcdyBChB1kc1xnfJJA5JcG71veAAKEuAmSq6gqQa6exAEldfQSo6GiYAFV1LZGLVEdobt0FMvUdArnhzoGkuTdAxVifBVXNIy9EtozY38Ck6YxOG1cM6j+wGF3cFihXW/Q2OKYIyz2PS0MvrLXdAfsdtc1Wuxwl/LB58TH7TPewaX6oMEh/AxVGK9LlZ2k5BYcdscsW8qOMUbzv93Tcb98Lk8gAgz8hLSsjq7P52I5+R/ZuOrITAAAA");
 
 export default BugSlash;

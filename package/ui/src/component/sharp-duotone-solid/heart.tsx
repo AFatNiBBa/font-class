@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart?s=sharp-duotone-solid heart}
  * @preview ![heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/heart.svg)
  */
-const Heart: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M64 288L39.8 263.8C14.3 238.3 0 203.8 0 167.8C0 92.8 60.8 32 135.8 32c36 0 70.5 14.3 96 39.8L256 96l24.2-24.2c25.5-25.5 60-39.8 96-39.8C451.2 32 512 92.8 512 167.8c0 36-14.3 70.5-39.8 96L448 288 256 480 64 288z" />
-    </Icon>
-);
+const Heart = createIcon("heart", true, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABWAAAAHNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQiBAQsIAAE2AiQDCgQgBYMtB0YbmQTIjsR0e4P8YpJwdTz8/3799rn3/UHEHmaWTNpXAxKNDsmStl8huSRCmkW0Bnnyy/v9j5t/3nkU4DMKbQ8NZIHPeZ5A4FHR9BJJKNNvYF+3iXs8AumNkCgJ6bjU4+uCIn7k6+pId9N33JD/AYzfprhOMiQDiNEA2H3mxHGvq1FN8b32hPjuGAJiDygFMjKmC7BNFpiuUKJQCKqpVqMatVpJAFEhz2ZQQcZ8LAUUICGKYsawuhHFaVkfembJ4iUv5zza+ergh+2LY2lg44vZ97ctipNxes7A6IG/s783frfz3lUcbho0pOH0ze4rV111pfvm6YYhg5quevWK74NAcOXOv4za9n/wsAR+Pv0X/I5q1SQNYLAEgrystszFBBIBAEhxxZwEBLIZErx1uFsChKEIkFQMFSCbZrQAhaGWClBnpvUCVAx1QhbFEGG8SxOS4Xog2+AaFMZ7DHW2+eRUjI9cKVScqY9a/AGN7J8qV69YVW4pj4FBB59ow63ltb7oChcW06JGXTr1a1CvRb/Ceh33L+twwEL3+1BptRVWKW1RuuNX/rRyevVp2bP+MVuV7+1Frtj1i8lKOu4aM1kmUuQR1SovzzhplGIzCwA=");
 
 export default Heart;

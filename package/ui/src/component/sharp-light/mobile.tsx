@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mobile` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mobile?s=sharp-light mobile}
  * @preview ![mobile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mobile.svg)
  */
-const Mobile: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 32l0 448 256 0 0-448L64 32zM32 0L64 0 320 0l32 0 0 32 0 448 0 32-32 0L64 512l-32 0 0-32L32 32 32 0zM160 400l64 0 16 0 0 32-16 0-64 0-16 0 0-32 16 0z" />
-    </Icon>
-);
+const Mobile = createIcon("mobile", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABUgAAAG8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBEAsGAAE2AiQDCAQgBYMtBy0bjQTIHoVxMz3SRRHFVd7+EcH3y1q/P7Nbd7Pk8AkhB3+OoLDUWRxqHdGIKyyFRG8zA9W+7xDg+H0XN887jwJ8iyy0sXBpIAtkjHGeQGJdvgTiqDBLFLN2dgYG4VbpUy7JsOiH1QplPImpaqSPCTrqQ+Ovwd6SlAWA6AWAVQf2bNPsiq6I360Rv21BQKwGWaBAgWECLFUIDFPKKJWCrmi14j8wE0DU8Z4JlKhhGmYDSpAUZdneu9GodS/3N2rVkVSk7lFEt8mNqrtIIapuEUXEoUbVEFUV0Rjd2avzH86z4lPTJk1aOa/MmrKcg+VFR+3MejU8EIfufPaJnkv/tzUS+PP14bzcasbJ1Ik2CQTF1NZUR+OlLMdJAQBIcd9o8aJAMk6BV+3mnQChQoCkrhKgMFQvAUqVKQLUjDBPgLrKHoUo24V+jg1IurkFhfmeQamfL1Cz1Detrl8UDkM/N/1dS1hvkXVTedb0mXlxXgY64wNkHi7J2+LE+6kwCYvOu+G6u84565K7Brttm3nPNesVus6HslmmmylbLB/Hz/P7nXPbHZfccL2MWSLfVye6r+snQUlIOJsjSUSqOxQAAA==");
 
 export default Mobile;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `whiskey-glass` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whiskey-glass?s=sharp-regular whiskey-glass}
  * @preview ![whiskey-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/whiskey-glass.svg)
  */
-const WhiskeyGlass: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M91.9 336l328.2 0-13.7 96-300.7 0L91.9 336zM41 318.8L64 480l384 0 23-161.2c.6-2.1 1-4.4 1-6.8L505.1 80 512 32l-48.5 0-415 0L0 32 6.9 80 40 312c0 2.3 .3 4.6 1 6.8zM85.1 288L55.3 80l401.3 0L426.9 288 85.1 288z" />
-    </Icon>
-);
+const WhiskeyGlass = createIcon("whiskey-glass", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABVwAAAHkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBIQsGAAE2AiQDCAQgBYMtBzQbpQTIHgfVrRezIw6ZJVna9clLzhIP36+9nnv3bRBU2AGw0ElbWdfKTIWLcAUW9gtZYVlIJFW9fs+4+rNygudtsjKYAB7ZLoUL/aIbk7kWcurU85yHAvhgEQvaWDZp+Qaf8zwCAUxo0ujQitQKVtMKWHdn22Qiy4ckRZLjEsflBiVeIzX5PIG78qHxi8kTqa4AEAMA4OxGvYav9/E+4r+ZeKkCAuIMwDRChQrjCBwSCowTmQZFEbyPptH/gQwBRBvCaxMU1FgFpwAKSFURyfWdSrFa1LJHFG11j7pBPdQqN1tNdbTpqVqdCoXKFk26Gj1oNVvq6I47WwOtPzNuvdK/LJKhvgkfUlj/bPgrPCkLf3Ms9O5SsoTVx8Rb5B9AtBZAPHf79JTH2sP/MqUA8PHFv3/ir6h5n7KFDgmCarHxGSRIAgCQcQVnAoE0S0jetccTAUIXAqQ2XQJUxugQKLosIFCbFEegTZdzQlHkCCOGBaQed0Bl2yMoRryA2qFvq81ICC8Oeezkvy0uX0O5IQ4HQpzhridTdwF33SxPC64rzrhhFSvHjlxYWti6qJAzNffSofwIzvkiFhYQwjJ4Obydb1k6c27r2JHvk8X7dZercbkbZIGAuW43JZHq6832fL+89T8VAAA=");
 
 export default WhiskeyGlass;

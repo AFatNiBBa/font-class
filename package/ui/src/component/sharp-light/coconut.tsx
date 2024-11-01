@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coconut` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coconut?s=sharp-light coconut}
  * @preview ![coconut](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/coconut.svg)
  */
-const Coconut: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272.5 40c45.4-14 79.7-8.9 98.6 9.9s23.9 53.2 9.9 98.6C367.2 193 336 244 290 290s-97 77.2-141.6 91c-45.4 14-79.7 8.9-98.6-9.9S26 317.9 40 272.5c13.8-44.6 45-95.6 91-141.6s97-77.2 141.6-91zM393.7 27.2C362.4-4.1 312.8-5.9 263.1 9.4c-50.5 15.6-105.8 50-154.8 98.9S25 212.6 9.4 263.1C-5.9 312.8-4.1 362.4 27.2 393.7l42.4 42.4C118.2 484.7 184.1 512 252.9 512C396 512 512 396 512 252.9c0-68.7-27.3-134.6-75.9-183.2L393.7 27.2zM421 100.1c37.9 41.7 59 96.1 59 152.8c0 4.1-.1 8.2-.3 12.2l-20.4-20.4L448 233.4 425.4 256l11.3 11.3 37.4 37.4c-8.5 36.5-25.9 69.7-49.7 97.1l-45.1-45.1L368 345.4 345.4 368l11.3 11.3 45.1 45.1c-27.4 23.8-60.5 41.1-97.1 49.7l-37.4-37.4L256 425.4 233.4 448l11.3 11.3L265 479.7c-4 .2-8.1 .3-12.2 .3c-56.6 0-111-21.1-152.8-59c18.5 .1 38.1-3.3 57.8-9.4c50.5-15.6 105.8-50 154.8-98.9s83.4-104.3 98.9-154.8c6.1-19.7 9.4-39.3 9.4-57.8zm-102.7 3.2c3.5 3.5 9.6 17-1.7 48.8c-10.4 29.4-32.9 64.9-66.2 98.2s-68.9 55.9-98.2 66.2c-31.8 11.2-45.4 5.1-48.8 1.7s-9.6-17 1.7-48.8c10.4-29.4 32.9-64.9 66.2-98.2s68.9-55.9 98.2-66.2c31.8-11.2 45.4-5.1 48.8-1.7zm22.6-22.6c-34.4-34.4-120.5-4-192.3 67.9s-102.2 158-67.9 192.3s120.5 4 192.3-67.9s102.2-158 67.9-192.3z" />
-    </Icon>
-);
+const Coconut = createIcon("coconut", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABoAAAAKhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDCAsGAAE2AiQDCAQgBYMtBy4bhgXIHoPjbglKIGKIKQb+eivDioh+P3TvfQgAalDhEmmi8VElMJJIyApbYWNEWltH+v/lX749BdDeD0BW6mh2rDl9kmZ33P9zzeeXVPX8Gx3arS2paBZtow6ewAAruC2KDmw4myhucN6ohFPZoX4HddaihEr5Ws6B1+5D85uQKoq6AoCMAgDnbns6w/YrOkrOuwVyyBEI5DwAViFUqLAIgZPIgkUUq0CtFo5Q17H/QAwCpIVw6QJq9OAbfgBqUDQ1hWtVU4SHhcpG8VHpzLFP8iNe90JVGPV9Svcd1UFocbv9rnaxDnljtHFsheXp8pXlnm+5yqSJifeDdxmshT9y4Ytxuk+aVNT6xSz5VPc/3qqR3W1rG/Jq4EOoYbbd7Vqrn78RJ4t0ed7pDvENJSmO2qEc0yS1afkRxzN3juacAjHKOfpJP3cOnJ+teC7msea1sra1tY56Q7DitTY0j/UlATB+z1nQyd7eSdB5gE7EjsD2n49tW+h5Jy8MttsmKlatwnb6ZuDbtpYw5sCqSw7tzxkcQv19L+e26QxfMDsm+rzbjR0FXepEY0ib/WDg4E9S48V0D0FnEX71x6P+0kw3d/SyB8C1l7HS0jXDEekVMtUAgvDzZO80lOPkf0YWEsCv1e9fcGL3320X5Tt6FRCqjU5JUDFBMlDONZQcIOAXBcU7jWDEoE8Coh8BRatfQGUBJwRq/dYraCzT1hcuvo4sNRPEpGAIxaAnUNlVDLVJc9A46Sjcmgz5YzV/auZfxRw2TcR6FFZXUcMGeDSnsHx/uu41xItdcjm8Rh5uhBipUmSJFiVeVkPM4BzLlsxmirb2Q5g6FWowA3hz8e5qH9EyZIqXKsUOYwgfH5STM91cHnpJguamMUUhhSEylfpSsrMAAA==");
 
 export default Coconut;

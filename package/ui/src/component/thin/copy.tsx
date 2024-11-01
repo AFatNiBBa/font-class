@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `copy` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/copy?s=thin copy}
  * @preview ![copy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/copy.svg)
  */
-const Copy: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 368l-160 0c-26.5 0-48-21.5-48-48l0-256c0-26.5 21.5-48 48-48l108.1 0c8.5 0 16.6 3.4 22.6 9.4l67.9 67.9c6 6 9.4 14.1 9.4 22.6L432 320c0 26.5-21.5 48-48 48zM224 384l160 0c35.3 0 64-28.7 64-64l0-204.1c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1L224 0c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l160 0c35.3 0 64-28.7 64-64l0-32-16 0 0 32c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-256c0-26.5 21.5-48 48-48l64 0 0-16-64 0z" />
-    </Icon>
-);
+const Copy = createIcon("copy", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABewAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCFQsGAAE2AiQDCAQgBYMtBysbEAXIjtRG94xdIqi39drzdu+XtCeGFTNmAGTm0JkjolOQmVOMHF+G1OrP/zWf3/OjA/x2ZIcWTdkYpUexap/AROf1fMBRYDOdgO1tFjXkEIjQEJ+EPWc3bOew3QHyeMVuFdJLqYYH+KHxl46ukmQZgGgBgBnrVi3x+e/xe0StHlGzCAExE5QCGTJ0EWCyTKCLXIlcLvg96vXwH1gSQDSgx0kgRwVHcRaQgyTL8y5dhlYrTfO11Uqxq6gW77d7vlMWr7R/oV817rRdE88RL7Z52nt1tah+MOiTzhGX2q2N54si3u3/YYcULw34qM/aqkWAUo0dpYhHG0Xcu1BE0fPjFh//o7a35sKyN998c/jPzzKyZz8PP6zpi7NmudW01ptvNH+Tqi1bFjVtfpGiX9oc5g0KNN58o44aILwpJqUWSt3am24G07WQUCDO++rG2P+2NZ/8f6NqAn9+9t/yr6j+eXyePkYjCQTZ4Ppgm+NziM8FACDFWT3jcwSSvTJ4rU08L0AoECBpUAiQ6ayFALnCIAEquhkjQIPCKpnIGwttbGkgaeIEyIx1DuTa+BRUTPZd3KBNZCZHGgz5xxc3l0NzdpUjhg4vJ5bTRqGsCI/rk8pjsf9ZGBvg9trrmKNO22O3A04z5KQl2RlHzF3Bc3xRaYShhitNVKp7j9xaZpx0CnCZ0W8zSfm+29/Z9ewBTkkIc6RakoiUf/AA");
 
 export default Copy;

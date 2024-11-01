@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gear` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gear?s=sharp-thin gear}
  * @preview ![gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/gear.svg)
  */
-const Gear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M188.9 93.2l7.7-3.2 1.8-8.2L212.9 16l86.2 0 14.4 65.8 1.8 8.2 7.7 3.2c14.5 6 28.1 13.9 40.3 23.3l6.6 5.1 8-2.5 64.3-20.5 43.1 74.7-49.8 45.4-6.2 5.6 1.1 8.3c1 7.6 1.5 15.4 1.5 23.3s-.5 15.7-1.5 23.3l-1.1 8.3 6.2 5.6 49.8 45.4-43.1 74.7L378 392.9l-8-2.5-6.6 5.1c-12.3 9.5-25.8 17.3-40.3 23.3l-7.7 3.2-1.8 8.2L299.1 496l-86.2 0-14.4-65.8-1.8-8.2-7.7-3.2c-14.5-6-28.1-13.9-40.3-23.3l-6.6-5.1-8 2.5L69.7 413.3 26.6 338.7l49.9-45.4 6.2-5.6-1.1-8.3c-1-7.6-1.5-15.4-1.5-23.3s.5-15.7 1.5-23.3l1.1-8.3-6.2-5.6L26.6 173.3 69.7 98.7 134 119.1l8 2.5 6.6-5.1c12.3-9.5 25.8-17.3 40.3-23.3zM312 0L200 0 182.8 78.4c-15.8 6.5-30.6 15.1-44 25.4L62.3 79.5l-56 97 59.4 54.1C64.6 238.9 64 247.4 64 256s.6 17.1 1.7 25.4L6.3 335.5l56 97 76.5-24.4c13.4 10.3 28.2 18.9 44 25.4L200 512l112 0 17.2-78.4c15.8-6.5 30.6-15.1 44-25.4l76.5 24.4 56-97-59.4-54.1c1.1-8.3 1.7-16.8 1.7-25.4s-.6-17.1-1.7-25.4l59.4-54.1-56-97-76.5 24.4C359.8 93.6 345 85 329.2 78.4L312 0zM192 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm144 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const Gear = createIcon("gear", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABpQAAAKXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDRgsGAAE2AiQDCAQgBYMtBysbwQXIHgd2M9dEVArGxmGRp3j4fu3Lc1/3AHAvESlC9ruKVHwsscPysVNjw/Cnzi2s7MNXQjvPeJwNqYKiQKqZAx/OTlxOf/nTn0/bwv8IY1N72Jg4xjpPINHXLi+RLLAXSzBwTZ2OUljHRMkjQ6VMDKN4fD08Hh+QxweOKCO9SvB0+9D4RpcnJFkGIBoBsGz75k0+HYzBiK9KbxFf2YCAWAYKgQwZegVYKBPolSuQywWDUSqV/8CCAKIcXpxAjnJ8hK8BOUjyPD82q06sKavLtzWP6t0drR0dQYKPrQFr5zoKBg7bpZwAVq48aO2dbiRhBRory0gQQFNcbFMcxTYauYak/MBSrqOOXvGChBkS49jHkGq+eouble4wSg/agkhZZR2VBq/KqrmeKJqoPY6JH2gbnW15bcI97uwbxx7jr35+nv/NfXqnee+Cf0B6vfH6bpiCDw9dunSpgqpfZpu6ZTpcsqP/iEt+MX6dPltU6q4VuiuorXqNX+8XlxzVt+OSgIy+o0AfvK79iP4dt/ZcwB2Nm9xcsrHDnAPe0lMn9rx9VjZ2WnLzPnoBQzrBXvgtuGPgeikb+umnoWxnPqv91avHa5+nQCC4F9oX+fTfKvkEht7/4Rv7EuWlT+PvdKFSAkE2sTTRnkQpVx5/C6imuGY48VkgeUsOeNdazwUI1QiQlKsWINOjUYBctQkClOk3S4By1TbLRF4ltNp70Umti3Rmtrt0rtUbdJmFPquWaw02l41MNP4kc1d7eNWtYtrkqcX84nHiMNNTWy4XFNOhsddsY5x4Oua8c6446oiTrjjskk2Nq85azdBVfFSYZrKpCvMV4fmju03xSy47GTgXv2aB4v3cWNf4/nESTSA5XU+SiJR/PAAAAAA=");
 
 export default Gear;

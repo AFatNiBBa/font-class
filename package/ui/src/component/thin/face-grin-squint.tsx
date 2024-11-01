@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-squint` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-squint?s=thin face-grin-squint}
  * @preview ![face-grin-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-grin-squint.svg)
  */
-const FaceGrinSquint: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256.3 91.8c-43 0-84.1-5.5-121.5-15.4c-3.9-1-7.1 .3-8.7 1.8c-.7 .7-.9 1.2-.9 1.4c0 0 0 0 0 0c0 .1-.1 .7 .5 1.9c25 46.8 74.1 78.5 130.5 78.5s105.5-31.7 130.5-78.5c.7-1.2 .6-1.8 .5-1.9c0 0 0 0 0 0c0-.2-.2-.7-.9-1.4c-1.6-1.5-4.8-2.8-8.7-1.8c-37.4 9.9-78.4 15.4-121.5 15.4zm144.6-2.7C373.2 396.8 318.8 432 256.3 432s-116.9-35.2-144.6-86.9c-9.1-17 8.7-33.1 27.3-28.2c36 9.6 75.6 14.9 117.3 14.9s81.4-5.3 117.3-14.9c18.6-4.9 36.4 11.2 27.3 28.2zM128.8 164.4c2-4 6.8-5.6 10.7-3.6l80 40c2.7 1.4 4.4 4.1 4.4 7.2s-1.7 5.8-4.4 7.2l-80 40c-4 2-8.8 .4-10.7-3.6s-.4-8.8 3.6-10.7L198.1 208l-65.7-32.8c-4-2-5.6-6.8-3.6-10.7zm243.6-3.6c4-2 8.8-.4 10.7 3.6s.4 8.8-3.6 10.7L313.9 208l65.7 32.8c4 2 5.6 6.8 3.6 10.7s-6.8 5.6-10.7 3.6l-80-40c-2.7-1.4-4.4-4.1-4.4-7.2s1.7-5.8 4.4-7.2l80-40z" />
-    </Icon>
-);
+const FaceGrinSquint = createIcon("face-grin-squint", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABpAAAAKnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDDgsGAAE2AiQDCAQgBYMtBzcblQXIjtFjR4xFxAiMHAAigxdBtUb27O09YIBZAVF51KwTiyRjXwZQRiFYALB3/3J6FxTgr80Nwpq5kuZ6y8tUePr7ef7PP33AZ/SRIq36PGq2G2WeJ+CAoyyaBpw0wJlOwDbl7sUg3J6HqQPkuGETOulsOgYOO28VX0iqJSkKANEOAMCsDUE+sH4XLyPuVjPEXV5AQMwGQD+IAq7pBcFUVKF+AJp+QJYFL7Gq7H8gAQFEDe8DE8iowzlcA2SQ1OTcU1pJXFSEu2zO67nLho23EzDOL7/dsG/h3XHjwc/GT/jcaty/5MHEqbCmF3Mwbq44a9y/7N6sjXXXM9eXHjfsW35/9ub6kGbXUyK9sDfotM4jFgsmc1ZLegNc9Y279Itsc20YNse4OmnWclG3X3xAdId7/wKs94kkkvSQOGlPp+A4MccVD4v1iPBeITgI26kDa/BRha4a0CYwyFQ4Tj3GWoOZ78H//A47u478/y9gX89m63+CSz3dL2w4OW1ckOQ0D2bDe6miHCr8FSHAwE4iDIaIiBEghA4rDzscobiGAaz/eRca5hrd2PgQazcj9/GZxujWi5MTV6gxKMvxSWri5CFBs4hgNGjw7wLVDJlxO0AgeLXflxnHP/W1jjuB14usL+lvsFpPUhvqJBAUo/61RSeQCABAit2gmCCQnHXs37XJKQFCAwIkNRoEKPQkAEHWYCQEpT5MIKjRYA2qyPVCJzElSJpsA4UpykDWyRQoTbXn1egUxf1K3m3k32Kcax1yGUfG6+oTSzKYlVO3IK67rchsYVgpr9KAayFVnlzFUiTLUFxDCvmEJXK4jsEuvogwoEsfYYmsLtxeHipFoSIZ8uTaXqyQ/R11peONNaBM4aFOkJEkIrX7GCbqbN2ekauzY1tJRm4xAAAA");
 
 export default FaceGrinSquint;

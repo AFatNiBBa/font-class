@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-medical` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-medical?s=duotone file-medical}
  * @preview ![file-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-medical.svg)
  */
-const FileMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM96 304l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M384 160l-128 0c-17.7 0-32-14.3-32-32L224 0 384 160zM160 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" />
-    </Icon>
-);
+const FileMedical = createIcon("file-medical", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABkQAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCQgsIAAE2AiQDCgQgBYMtB1QbaAXIHodxTLIxXZSbxMP/r4Xe92d2TzIThh8iUsCkaIIFQMWyVVVxReEDtqeyekvzPUOe5v//+3n8W/s/Vx+A/0xrkAKvVR2fQOKwfV48ndBMZ2DbnaHsUPJI0hoWcjwax+cGZdwuHmmRPkv/4B3/P4Dxr8EekXQtAEQvAKzavX2bp8/jeYp/Or8S/9iKgFgNskCBAsMEWKoQGKaUUSoFz1Onw/PodDIBRJvHC3Zbv+8h3gCUIElSWdYTR0yuW93LXXWrOl3V1esDPo6InTs+GVjHR/0FwIf9qoCPB0QI7Gui+GJKxM8T6hBN/4/qOlJ8OvGHsd3iu8k/DSl2Ch/17wgaPhkYAR8PqIL9sJ94wuifev30n39O/ePeyKZperz6ao/GN988q8fz7HmPmWZGL0NCbqWHmqo3vb/9VmPSywhnA76Nu6uaw3POpk7vBwLBV/dUh3su/b9LncDL355+SDpPo0k/oYsEgmJqZ6oD0UA0AgCQ4pbR0TiCQGGjJHxqNx8LECoESNoqAQpD9RKgVJkiQMsI8wRoq2xXiLKr0M/BgpJurqLCfHdQqZ9fUMtSv2dt/aIQRUmQpI9g+nqMrVuVZ02fmRfnbiXL0iW4xSV52J94CwYmqatOueySG0464awbCK7ZprzpovUcs84XZbNMN1O2WF5up/ouk11z3dm2ur7MEnl/OtEtfvwktY8EmH2IAmSRouh37e1pL9OeJtXDAyrqBQYAAA==");
 
 export default FileMedical;

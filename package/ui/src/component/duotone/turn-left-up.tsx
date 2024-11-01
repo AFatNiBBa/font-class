@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-left-up` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-left-up?s=duotone turn-left-up}
  * @preview ![turn-left-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/turn-left-up.svg)
  */
-const TurnLeftUp: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M144 192l0 192c0 70.7 57.3 128 128 128l80 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-80 0c-17.7 0-32-14.3-32-32l0-192-96 0z" />
-        <path d="M38.5 151.5c-6.6 7-8.4 17.2-4.6 26s12.5 14.5 22 14.5l272 0c9.6 0 18.2-5.7 22-14.5s2-19-4.6-26l-136-144C204.9 2.7 198.6 0 192 0s-12.9 2.7-17.4 7.5l-136 144z" />
-    </Icon>
-);
+const TurnLeftUp = createIcon("turn-left-up", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABZwAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBKAsIAAE2AiQDCgQgBYMtB1QbzgTIhoePufL9JLtzzZUhBUZFBAoQXO3ZVpUdG8GKQO/Uqec5DwXwOe5jYWzjmCChOc8jkPPYrm+LFahgtZpid2eblkNbXklkSX5pclyukMWB9IQSyd3kHS7L/wDGVy2cIFErBRD1ATB+wZxpXryP90m8qzwk3pmKgJgACoEUKVoLMEoq0FqmQCYTvE8qFd5HpVIQQJTJySkoI8NQjAVkIBEiyxq2qS7VyebLifmSG01uNqkTt5vdbjo/buXnGs9dINwf/XRydZxvdjsijja9ledxjl6PiLxDTf2a7+3frX+nS9ea5Vvf1/d+6/R7py/bkOcbiL9ceeHmSoMmzpyp7pkzdQsk8lteWAkEgo4Tv/xZUW/U/6rqBHx89PMvv9668iKOJDWokoAg7VXpZWkc0RpEB2AnsV8H5auuCKTaSMRPre2WACFHgERZLkCqlfoCZHI9BShpa7AAZbk5UpHVEhpblkGitl0gNcRBkGnsASgZ5aVV1jhS6yHOnvi7xU4pocljRf8+/YoRRdeXSIPAQn9kMcx12+9z3eGi9XbYbq911tpkb4HsNs3dZ5spGjzZDxX666OfwgjFdHS9P986u+2xyQ7bechIxXqlm/16dXeYJgEM2HdPSiSRNrZY/F2pvfft7G2IxaYN+s4BAA==");
 
 export default TurnLeftUp;

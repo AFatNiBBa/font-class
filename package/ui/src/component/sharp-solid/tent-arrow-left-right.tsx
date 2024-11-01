@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tent-arrow-left-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrow-left-right?s=sharp-solid tent-arrow-left-right}
  * @preview ![tent-arrow-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tent-arrow-left-right.svg)
  */
-const TentArrowLeftRight: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M109.8 52.2L89.9 72l396.1 0L466.2 52.2l-17-17L483.2 1.3l17 17L561 79l17 17-17 17-60.8 60.8-17 17-33.9-33.9 17-17L486.1 120 89.9 120l19.8 19.8 17 17L92.8 190.7l-17-17L15 113l-17-17L15 79 75.8 18.2l17-17 33.9 33.9-17 17zM64 512L96 288 288 160 480 288l32 224-128 0L288 352l0 160L64 512z" />
-    </Icon>
-);
+const TentArrowLeftRight = createIcon("tent-arrow-left-right", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABZgAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBWAsGAAE2AiQDCAQgBYMtBzwb5ATIjpQu7hIPz699O/fNrBs6kFwtiTVtliBvhYQ3D02saiL/9Aeunf9r6sXza8BvdHgmUYtoq6AbZT5vsInOokEGNhvYQCdmUzc1LaogSj8RkeHKkB1fcce1C+TxKbuujPQgfcSd+qHxS5frJFUZgGgEwMz1q5d6/T2+R3woRXywGAExExQCGTL0EmCKTKCXXIFcLvgepVL4DywIIMoJkbDm/OAybALkIEl5PrappqwuX+d11ZsHDB5QF4NSenoMjJVEDIgVwWkxGERtDDROUYyriBgcqw1TUb5h/Zr162MtH1Qd60JU9+9u7P7T7+O+j47eGC0/5KbRaMJH8BFNGG2ZGvqh7zcKvrrE8+2FLtv+0CPfgUBQerLg0PaGKf8raxL4+fTfH/dkSek0K3WjUgJBNqQ0xJY0Q4FsCziT4pz+0Akk8wo33rXWXQFCNQIk5aoFyPTUKECu2mAByvQxVoBy1VbLRF4ltNo6QFLrJMiMcwHkWj0GZaZ4kynXGplRySYh/9JlnDejc3cVI4eNKCYVt3VdsRMxz08uHjsHnIt9A7HXPscdc8Zeexx0ZmJOWZo/66h5GjbXFxVGGmaEwiTFduurcR1nTjnt4FrehywyWfF+dIBz+uiB8CTCOkpNkojUdpaqhu48der4+Q9OPpg=");
 
 export default TentArrowLeftRight;

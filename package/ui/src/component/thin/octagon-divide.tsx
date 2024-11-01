@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-divide` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-divide?s=thin octagon-divide}
  * @preview ![octagon-divide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/octagon-divide.svg)
  */
-const OctagonDivide: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M191.5 16.1c-14.9 0-29.1 5.9-39.6 16.4L32.5 151.9C22 162.4 16.1 176.7 16.1 191.5l0 129c0 14.9 5.9 29.1 16.4 39.6L151.9 479.5c10.5 10.5 24.7 16.4 39.6 16.4l129 0c14.9 0 29.1-5.9 39.6-16.4L479.5 360.1c10.5-10.5 16.4-24.7 16.4-39.6l0-129c0-14.9-5.9-29.1-16.4-39.6L360.1 32.5C349.6 22 335.3 16.1 320.5 16.1l-129 0zm-50.9 5.1C154.1 7.7 172.4 .1 191.5 .1l129 0c19.1 0 37.4 7.6 50.9 21.1L490.8 140.6c13.5 13.5 21.1 31.8 21.1 50.9l0 129c0 19.1-7.6 37.4-21.1 50.9L371.4 490.8c-13.5 13.5-31.8 21.1-50.9 21.1l-129 0c-19.1 0-37.4-7.6-50.9-21.1L21.2 371.4C7.7 357.9 .1 339.6 .1 320.5l0-129c0-19.1 7.6-37.4 21.1-50.9L140.6 21.2zM272 160a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm-72 88l208 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-208 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zM256 368a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-48a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const OctagonDivide = createIcon("octagon-divide", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlAAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCYAsGAAE2AiQDCAQgBYMtBzUbZQXIHidZ0wJH4uH/7fpvn1v1VP2M+pIiD6R+0YDKIGZwEPaaVAhndQZUQVeI/v9cUy+SrgG/0Zkc5poqvQIo8/kEJtY4Wgsm2EwnYPO99Z5okWV0qCT5fyYdbuMfTv8AeXzsTA2kx9N3uLd8aPxiyE0kWQYgOgGw5ejBA76oRS3iu/q7xHf2ISC2glIgQ4ZRAdbLBEblSuRyQS3q9fgfWBJANJI7JpCjBffgaUAOkqY8L8uWnnbKVBra8iP0UMUJdwwe8gxx3YzDHq5U4s6Box6NiOv7j3iiKLa/PKsSz8457MUh8djsQ16YXsRzc494aTjiyXlHe6T/od6H+x4dKK4fiHi0cmffw67rfai4o/+ROFQpKg/3PdRbxCP9jw4chm1zhz4XQfqJHo+Z+lLnS7/57uzvfP764J/Vqo7B6w10VCfVO1ufRAaQQb7qz+rp277eF9semOVt/tblYLZ94ftpQ1rRtpob7miv1dqr1uL227itvf222K6jP0nNqY2Np/6EQ+dMmvTQim8HAsH/XV/VT+lY/19zJYGfP/pj+xmpf5Gkl9AsgSCbX5/vxAQSAQBIUTU1QSC5RRMptnpE3CwWiJRuVKCYGdE5IVeYBw3GrTCNew7KRN4i9DoJIGl1GWRWuhpyvd6GBut9mWvUG5lj2m5l/xbm2bniO5aVSxYuLteWr3XD4Wtmnl9Xmv2zq9Q3Bxud7RIXu9JZznSeKxflcgeKV7nITo3b4YtKSyy0WGmt8rj1vvqIs1zuCue5xMW8yDrl/fRsVX30HIQSUV1qb5KI1H7JGVeeds4lFy/4SAAAAA==");
 
 export default OctagonDivide;

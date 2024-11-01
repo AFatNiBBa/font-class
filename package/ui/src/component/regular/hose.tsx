@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hose` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hose?s=regular hose}
  * @preview ![hose](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hose.svg)
  */
-const Hose: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M312 128c13.3 0 24-10.7 24-24l0-2.3 80.2-11.5C417.3 98 423.9 104 432 104c8.8 0 16-7.2 16-16l0-48c0-8.8-7.2-16-16-16c-8.1 0-14.7 6-15.8 13.7L336 26.3l0-2.3c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 80c0 13.3 10.7 24 24 24zM8 488c0 13.3 10.7 24 24 24l384 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L32 464c-13.3 0-24 10.7-24 24zM32 384c-13.3 0-24 10.7-24 24s10.7 24 24 24l384 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L32 384zM8 328c0 13.3 10.7 24 24 24l384 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L32 304c-13.3 0-24 10.7-24 24zM56 156c0-37.6 30.4-68 68-68l132 0 0-48L124 40C59.9 40 8 91.9 8 156s51.9 116 116 116l292 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-292 0c-37.6 0-68-30.4-68-68z" />
-    </Icon>
-);
+const Hose = createIcon("hose", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfwAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCFAsGAAE2AiQDCAQgBYMtBysbDwXIHoexGzpWqFGzaXoFfiL++71uz30vCa26UiUqmiokCmOwGN2Kc99jTAaLEYHn+XF9536I70OKMhIUIpSESC5UwrSF0m6dFoHkZTb/13x+z48O8IOdSyS2HUgkUMb2fAJ7njpeA2XYcDZR3O60xw5aeySxYEmORztec+jZFNFH/egMT/Sh+edsEYp+A0A2AMDtfWk+TxrRRD7Pz5FfuRCQW8ARgQYN9ghwQZfAHj0KOj2CmWi1/j9QIYCM4ZsroMMEHuARoANFv+u5m6+Ye5mOzPUqTPVNOg9cJZWybL/qKFlxWLKrEJEN/10n5MevDSeZ58B1w98su06VjmmL0+FSmyGSkwDTiJjIm4vUVtp9+mrz/eBjF+9jq+PfXnd8kXBdbK+jcJnQQWMRicVsCG3cOuzviu2LEiqi0754luJdxbGTMChMTmeNODEDToZFIi0C4Ezbli9P3pgBAsH7969fGy1T/xmZ6gD+bv7+z8czmj/JUx2DBTpA0M61oeryxAgZCABAZQLv+EUCpY0+ftcVKwgQJhCgGDAhQOPKigCdiRACjHiII8CYiVK6pBsj7NRXoMPMMNAVbwrosXMK9KV6rxmwSzM50mDID19choTS+6mo8EiVrJa+QlkRHrpT1DYfOIG5IJhKh0EDxrRr021MICPyzXH9MjQ43Q8pUcJFUpKp4+ieqxDaiFHdc+a8lxTqvhpoQq8OgkHoAEwfC0dvSq9rcLQdAA==");
 
 export default Hose;

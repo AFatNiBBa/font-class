@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-circle-arrow-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-arrow-up?s=solid cart-circle-arrow-up}
  * @preview ![cart-circle-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cart-circle-arrow-up.svg)
  */
-const CartCircleArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4L538.8 197.2c-13.7-3.4-28.1-5.2-42.8-5.2c-68.4 0-127.7 39-156.8 96l-168.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5l123.2 0c-1.9 10.4-2.9 21.1-2.9 32c0 5.4 .2 10.7 .7 16l-121 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368 48a144 144 0 1 1 0-288 144 144 0 1 1 0 288zM428.7 371.3c6.2 6.2 16.4 6.2 22.6 0L480 342.6l0 89.4c0 8.8 7.2 16 16 16s16-7.2 16-16l0-89.4 28.7 28.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-56-56c-6.2-6.2-16.4-6.2-22.6 0l-56 56c-6.2 6.2-6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const CartCircleArrowUp = createIcon("cart-circle-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABigAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCLgsGAAE2AiQDCAQgBYMtBzsbOQXIjtFLz3AYM+EF4Z2QVETU2r89e/vuA1CiAUjHhX3KgwSUrFApIGFizFUc2cjU/a9t/hyeg6oGKia2gq81sWnt62rzf7nn9/zoAD8fwaGNtUB2Rb1ozucJJNblmwpwW5glik3Ne2IAQ1NIu+2g5r+ZhAHlPfUJvHIfmj8MTVKMNACQaQDg3NWMJLjt0iUf/RH5IQEI5BzANggNGqxD4CSGYB3TNqCqQpe+Z/+BBARIC8GNF1DR4g7wBFBBUSvTZWJtjR4ImNljLMxQ2dA5MhRkSVdikJll/Hj01BHHMO+t6Ijh0QLOvP2yUX6kGCPE5i2tW7FaMpRbLlo3rlj21B/l3HkbjbnsBFzQC35nTlvwaOem7ynOfq3vgOS1rkwfxS70tWR66ZHqpEasK1rXWP8SflZ/wupC2m7Q/K+y9/u2u1m7yEXXubn6VbggbNsAl2nuUB/jbSGxB9S0rbO0hZEPuPnuQDNOS1v22FCUfdutrYVuVLGBTaz0/PO1tQ/Io9Z1k9d9gJ5S2YPVHuCXAwjC36Ebv0rUA/9xaQrg5+fvH3C+/ryMUuvAsAJCs7N3VFhGARAdICnpJpr5oqC4jSl413FvBMQoAorWqIDGGg0IVKN2QGBgkxcEWqMuYkjlQcwrqkEx7hZoHDYEqnkHYOCkl7g1n+b6I68e8usvLroNRa0jbs6uxJ9MNpXUJYXr5QCyWrPt5kN2cCtUa9GsU5VKdTpbSLukrEuT6Dk4yg8Rbpy5IvyR3Z37m7NVadehTotmu0oAcn5kq3t+sh00KQHmfg1FIUXnDZacftRhnaqa9pYep66bAAA=");
 
 export default CartCircleArrowUp;

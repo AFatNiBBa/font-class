@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fire` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire?s=sharp-thin fire}
  * @preview ![fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/fire.svg)
  */
-const Fire: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M252.2 99.4c-11.4-14.2-32.8-35.9-52-54.6c-9.3-9-17.9-17.2-24.3-23.2c-4.3 4-9.8 9.2-16.1 15.5c-16.2 16-37.8 38.7-59.3 65.4c-21.6 26.7-42.8 57.2-58.7 88.7C25.9 223 16 254.8 16 284.5C16 403.5 107.5 496 224 496c115.2 0 208-92.5 208-211.5c0-52.7-31.2-108.6-64.8-153c-16.5-21.8-33.1-40.1-45.5-53c-4-4.2-7.6-7.7-10.6-10.7c-2.5 2.1-5.4 4.5-8.3 7c-10.7 9.1-21.2 18.8-25.5 24.4l-12.4 16.2-12.8-16zM0 284.5C0 152 176 0 176 0s49.6 45.5 78.1 77.1c4 4.4 7.6 8.6 10.6 12.3c2.6-3.3 6.5-7.5 11-11.8C290.6 63.3 312 46.6 312 46.6s136 121.4 136 237.9C448 412.2 348.2 512 224 512C98.4 512 0 412.1 0 284.5zM303.4 408.3C279.8 424 254.3 432 225.7 432c-35 0-67.4-11.3-91.3-33.1C110.3 377 96 345.3 96 306.8c0-20.5 6.5-39.1 18-58.6c11.2-19.2 27.8-40.5 48.8-66.2l12.5-15.4L187.7 182c2.9 3.6 24.7 31.3 45.7 58L262 276.4l.8 1 37.9-44 13-15.1 12 15.9c5.1 6.8 8.4 13.5 11.2 18.9l.1 .1c28.6 52.6 16.3 120.4-33.1 154.9l-.3 .2s0 0 0 0zM262.3 302.6l-10.1-12.8c-16.7-21.2-49.9-63.4-66.8-84.9c-5.4-6.8-9.1-11.5-10.2-12.9c-3.6 4.4-7 8.7-10.3 12.8c-35.3 44.1-52.9 71.3-52.9 102C112 375.4 162.6 416 225.7 416c25.3 0 47.7-7 68.8-21c42.1-29.4 53.4-88.2 28.1-134.4l-1.2-2.3c-2.4-4.8-5-9.6-8.7-14.5L302 256.3l-29.2 33.9-10.6 12.4z" />
-    </Icon>
-);
+const Fire = createIcon("fire", false, "data:font/woff2;base64,d09GMgABAAAAAANwAAoAAAAABqwAAAMjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDHwsGAAE2AiQDCAQgBYMtBysbmgXIvgxoR5i/kO1FsdUzU0ZAtzaHrd2UO4WLA98fOWjlR4bSwj84jv9ztz3Ae9Q33QQmMBHRHUzk4e32/gGehQm1gJuniSQRJNAC7yjhPGgefB54juW/iMBsO+3nOaACHtEGNvIWT9iAI1sXmXwaxEfL8nYndH42QZFMqJSmap0g2VStC1VpFG+/QlWUKHabmAVBCkIWYKNKGqFYd7/R5Xagg/1ywAsElEAWRkHQgtpyg0ujYZAFBvxtWu1Rzhiur1zx5f/7U89zHgrg4xAEZS1aGpBs/pQ1us4rUNAxbWxrrQIFCzCUobuzoa2Q9jgcEkuL45vj0h3B5fACXGA3RgmAeVYX1pcv1bfOKhg2BACA8gAAQPN5Grc3n4iHuaBXExBAawB4AhZYkE4AGrEE0jkeOI7wnpn4H9iAAKAo/GIDwIFAcB7cBAAOgOHCrqy4PD8sIML1iZHQgSFRCrQ/ZEv8iUbXy86kv/Z2WadxkyrOZa1kKofSU0fi45XYq9eULhfpVpROy9bik8VbE7Yn9Y6wlW40n9mvrJ7nsV/dh/Z8M2d56enKJCVoq92ZUn6zqbq5ejUKnHV76knLQ6qpJO4qOZV6n9nHkndwcHgybMTTWfsrErXNxKtM8Tmnok996t+y+Ns3vL1vr+5IDlo/IzggnuqHjq50+9XShRs25rQSoFZO5rzL07/LARvrkPICO8Q8nRgX4bfnxBX5byLyC4e//8aSj4t9pFGdbkqlh/3KE9Sv9z8M9ASX/kNA0G67DgBA8UPbs+f2uHpWdLuWYs7fvSX0e+HnWb0WKTgM7uAEgIAwZN/ye8kvlTIAfMy8wKf/N7ZyAIIZAIKd/GeD4kDkAIBjAnOQI/SMgHGcA7AdbpsWlVAgkC4QHsFKEw1OqFIIkKk2u7m+J0vhECTeYAAj3HSw6lgMTrzLEKCRu06g+IC1W97q+G9jSonlLFtWVPkGfhlrgimyabKh39YHc1Yrhr0YY6opZhltlPFmQczQ2Z9tsjYS3lqPvGoVqngNeHX2qPTBmWGm8XNJP01D/rxdZI7cXQyWwZQ1IIaBgu4FAAAAAA==");
 
 export default Fire;

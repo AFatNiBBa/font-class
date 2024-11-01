@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cassette-vhs` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-vhs?s=thin cassette-vhs}
  * @preview ![cassette-vhs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cassette-vhs.svg)
  */
-const CassetteVhs: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 160l0 256c0 26.5 21.5 48 48 48l448 0c26.5 0 48-21.5 48-48l0-256L16 160zm0-16l544 0 0-48c0-26.5-21.5-48-48-48L64 48C37.5 48 16 69.5 16 96l0 48zM576 96l0 48 0 8 0 8 0 256c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 160l0-8 0-8L0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64zM109.9 228.8C99.1 240.2 80 265.6 80 304s19.1 63.8 29.9 75.2c3 3.1 7.5 4.8 12.9 4.8l85.2 0 0-160-85.2 0c-5.3 0-9.9 1.7-12.9 4.8zM352 384l0-160-128 0 0 160 128 0zm103.7 0c4.2 0 7.6-1.1 9.9-3c10-8.4 30.5-31.2 30.5-77s-20.5-68.6-30.5-77c-2.3-1.9-5.6-3-9.9-3L368 224l0 160 87.7 0zM122.8 208l93.2 0 144 0 95.7 0c6.7 0 14.2 1.7 20.2 6.8C488.7 225.7 512 252.6 512 304s-23.3 78.3-36.1 89.2c-6 5.1-13.5 6.8-20.2 6.8L360 400l-144 0-93.2 0c-8.6 0-17.8-2.8-24.4-9.8C85.9 377.2 64 348 64 304s21.9-73.2 34.3-86.2c6.7-7 15.8-9.8 24.4-9.8zM176 264c-22.1 0-40 17.9-40 40s17.9 40 40 40c4.4 0 8 3.6 8 8s-3.6 8-8 8c-30.9 0-56-25.1-56-56s25.1-56 56-56c4.4 0 8 3.6 8 8s-3.6 8-8 8zm264 40c0-22.1-17.9-40-40-40c-4.4 0-8-3.6-8-8s3.6-8 8-8c30.9 0 56 25.1 56 56s-25.1 56-56 56c-4.4 0-8-3.6-8-8s3.6-8 8-8c22.1 0 40-17.9 40-40z" />
-    </Icon>
-);
+const CassetteVhs = createIcon("cassette-vhs", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABwwAAALwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDaAsGAAE2AiQDCAQgBYMtBzMb6wUjEWZTkSb7IzF2HqXQja4rRhG2TtggLDCOdY03ETztx5q3u4hphQoJ7ySqheyNRqdZqOKNkH+k2Um9fJXvP+nU9yXjSYaLiS7EisdkRSgwzO6Em0ykAK/lyVuBpwHX+jyXe37AB/j5QM8PZQ2aOm20LdwLtOcBjq1tSyTqhVmi2OC8UU2XQ1uo1wVKfDgPM+k6VeDc7Y5/Qs4gyVlAdOM1rR/aN4fGb/odUdUvISozgIDYADAtkJExLsCSLDCumEZRBL+jrs1/oCCAaAQ/LIGCNryDLwAFJC2lNMZ5h8/eFI9EFLPDdFAxs2OSLBV92XYHbQXyEZmc5HK6iEr+XIdK695MELdAAIEkKnRtt6m02bMblikE5d69zkPRRvdO6PSmB4gKwWKo6MsqChExeuY9QCBGoN7a54F8pJyohUv+HKPRWYU5nq8rDhVjlWDBm2FBfTbOzgXxeqSMDWXpWESUQWq2QMn6Mt7NcW5M72wWnnnkJ8qxnD8f2JjTQsf0NqQ+R49Sy65799fMl4sVVwKA/PVTa0D7/CoDoluEVq0faIODGjzBBhsAxrnRYHDOAEXX3ubn2WMd0FVV1x+P2g7AwAHYRv+VDMNIwUDqsiX5YEUn0lceJC2HYeDw7OOJE5utua0XL83mly+2cuz0r86d4vpL4OV6ccc5wfeAd5y/2+OnLZbTt3/+WK1/fm43hrVzYgoFOLuZZc8DgaBzZPZ1z7X0v1lJ4O/bn//xEfXvtCbdgGYJBHm+nreNQwBDJSBOcYIW+FUQSCp2wW13cTQTWmmQNGpFNqYbRas5NJi0wG/cvgVZlBah3w5E0m4f2aJTFP1e0WDJ7fvEAm/kyi1WTfHWMm28S4zNE0MDmhgWsyVZqq+8Hh0Rm82uh7ylGx7FRbfcdN8F511xv0PeNZd54IbxJdrYDwlDBmiEYeJw9aF2EAd33cP5aen4LEaI690uD5e7d0NHQmBM2iVBAkhSz5259xPc5EL/w8v3AAAA");
 
 export default CassetteVhs;

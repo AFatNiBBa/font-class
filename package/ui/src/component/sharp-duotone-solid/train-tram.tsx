@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `train-tram` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-tram?s=sharp-duotone-solid train-tram}
  * @preview ![train-tram](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/train-tram.svg)
  */
-const TrainTram: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M8.6 45.6L39.4 82.4 80.7 48 200 48l0 48 48 0 0-48 119.3 0 41.3 34.4 30.7-36.9-48-40L384.7 0 376 0 72 0 63.3 0 56.6 5.6l-48 40zM40 512l80 0 64-64-80 0L40 512zm88-352c0 32 0 64 0 96l192 0c0-32 0-64 0-96l-192 0zM264 448l64 64 80 0-64-64-80 0z" />
-        <path d="M384 96L64 96l0 352 320 0 0-352zm-64 64l0 96-192 0 0-96 192 0zM128 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm160-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const TrainTram = createIcon("train-tram", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjgAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCPQsIAAE2AiQDCgQgBYMtB1AbXwXIngdVZfmESx62Fg6aY5bj9xFJRNR+nz277wCD7AgcsFCIKkKRQnXnAizsCRNADSzMr0hW0evzrun/l3RbcmPIqxoQKyJSCGosJ8lOmHND5yubzFUP7cAyR2vimvpx/vSARf4o0Zilq/NZl+0mMMCiWTQNtMFmM8Utbrs5Ih4aIyQO0OW1nuqD8rj8g5vhfwDzS4xTClUBQKYDgD1HO5vh9NIr+W+TD5pAgOwFLEdQQQWLEbCdQLCYZEBHIvRKa/TS2nIIQPoR7rsC+sEwuAImAR2gkGQnlQqblaACle0KkD0jfXp2dMzfYgBFG9Ih7a4b88LnkZs5912ffW/4eu6D9PYGQkmv0iJ/cN36jCraRAby6opkpTKR0f7hKT8+Mmx3ZphtJw8lh0ZyJDbV/fs72u10ZNg9NX3qzwrnOThbzchjqDbWzs13jHHevOGSyfGigI55WTZN4Hf7O83cdlk232DXre88prYc5ln6dR+e57WP9+jZ6PmABh1GOhPLGtH2mb8ZEBCYeNO7s23/PzhiAfjx/N/P6nLV3uZJ+cAgCxCoa5uG8paiogmCpkp2uDFQ/U0IqgoS/tRRTwIIDQIofGgEVHGCEdDR0hDQJ1EBAvppnQR2ChRuuMMs/tYxodAeJoX7xFzKfaV9hEfAIQ9F/G9gSuMQbphlNmVmm1KzWtAIoMXawTJzWF25IxtS8FrMWLViy7Qp87YG6Ibm3LZljVtIgx8ycmTKZpQyl8tPlR6a3rBpflm6Pk0Z83yYbGe7fQo2LDHlZisqASkUoR+cklGYyxkQPRB+YSy9vAAA");
 
 export default TrainTram;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `minimize` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/minimize?s=solid minimize}
  * @preview ![minimize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/minimize.svg)
  */
-const Minimize: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M456 224l-144 0c-13.3 0-24-10.7-24-24l0-144c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2l40 40L442.3 5.7C446 2 450.9 0 456 0s10 2 13.7 5.7l36.7 36.7C510 46 512 50.9 512 56s-2 10-5.7 13.7L433 143l40 40c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8zm0 64c9.7 0 18.5 5.8 22.2 14.8s1.7 19.3-5.2 26.2l-40 40 73.4 73.4c3.6 3.6 5.7 8.5 5.7 13.7s-2 10-5.7 13.7l-36.7 36.7C466 510 461.1 512 456 512s-10-2-13.7-5.7L369 433l-40 40c-6.9 6.9-17.2 8.9-26.2 5.2s-14.8-12.5-14.8-22.2l0-144c0-13.3 10.7-24 24-24l144 0zm-256 0c13.3 0 24 10.7 24 24l0 144c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-40-40L69.7 506.3C66 510 61.1 512 56 512s-10-2-13.7-5.7L5.7 469.7C2 466 0 461.1 0 456s2-10 5.7-13.7L79 369 39 329c-6.9-6.9-8.9-17.2-5.2-26.2s12.5-14.8 22.2-14.8l144 0zM56 224c-9.7 0-18.5-5.8-22.2-14.8s-1.7-19.3 5.2-26.2l40-40L5.7 69.7C2 66 0 61.1 0 56s2-10 5.7-13.7L42.3 5.7C46 2 50.9 0 56 0s10 2 13.7 5.7L143 79l40-40c6.9-6.9 17.2-8.9 26.2-5.2s14.8 12.5 14.8 22.2l0 144c0 13.3-10.7 24-24 24L56 224z" />
-    </Icon>
-);
+const Minimize = createIcon("minimize", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABjQAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCUwsGAAE2AiQDCAQgBYMtBy8bUgXIhofn7ao/91WNqmfd2HUt7Q8p8grxdyhnTif+SOWsL049z3koAZvEQdlD/wKSjbnQ7tjnFShgtbh8AteqpZpWwHq27dWaYhrijVC4QB4fZc9oIV1N3+Kl8Kbxk36eIenIAERPACzdvX2jz7+P7yO+ab5DfGM9AmIpKAUyZBgowAKZwEC5Erlc8H00m+I/sCSAaJVunECOVjyLy4AcJHmeDyvLstLSLd9ljiqOF5Xilf4RlxuXawtjd1yuPEcZFz1R3RGF6oWqizUGC2LnAkcYF4pn67tib/1SPeL66Erny/1YrTqGRbFjh6OMS/FkY3fQG5cblV2X6rA4dlFz8eP+ziDPq12siSsjimFv9Hzjl6HfnvrWF9+dOXNma+2MHl1dH95vzRo729t3ThfcoOx+bx48+PuS34375gY+w44P+rCrq8cZta1nXIczLy2W9a0OfDUIBBNn3PHH4R4L/mmvJPDjh7/9n39Gmp8n6Q20SyDIJjQnOJBAIgAAKe4zLEEgeUouvWqnSwKEAgGSVoUAmQF6CpArjBegxWAzBWhV2C4TeYdQdbATSac7icwsjxK5qreIFgt8EbWqRgaREjxJP4Tpq8bIyl3l1ElTynnlZq3KQCbYzfnlaX/MfXJiLD7olNvd5h4nnXCje0bYXTam97rVqj10pS8qTTXJFKV5ytvdc20XZbjL3W50b7u/zXzl++EY9+3PH4shkVinqSSJSO2fMKeDh04CAAA=");
 
 export default Minimize;

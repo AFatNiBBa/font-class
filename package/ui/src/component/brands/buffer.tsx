@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `buffer` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/buffer?s=brands buffer}
  * @preview ![buffer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/buffer.svg)
  */
-const Buffer: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M427.84 380.67l-196.5 97.82a18.6 18.6 0 0 1-14.67 0L20.16 380.67c-4-2-4-5.28 0-7.29L67.22 350a18.65 18.65 0 0 1 14.69 0l134.76 67a18.51 18.51 0 0 0 14.67 0l134.76-67a18.62 18.62 0 0 1 14.68 0l47.06 23.43c4.05 1.96 4.05 5.24 0 7.24zm0-136.53l-47.06-23.43a18.62 18.62 0 0 0-14.68 0l-134.76 67.08a18.68 18.68 0 0 1-14.67 0L81.91 220.71a18.65 18.65 0 0 0-14.69 0l-47.06 23.43c-4 2-4 5.29 0 7.31l196.51 97.8a18.6 18.6 0 0 0 14.67 0l196.5-97.8c4.05-2.02 4.05-5.3 0-7.31zM20.16 130.42l196.5 90.29a20.08 20.08 0 0 0 14.67 0l196.51-90.29c4-1.86 4-4.89 0-6.74L231.33 33.4a19.88 19.88 0 0 0-14.67 0l-196.5 90.28c-4.05 1.85-4.05 4.88 0 6.74z" />
-    </Icon>
-);
+const Buffer = createIcon("buffer", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABbAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBYgsGAAE2AiQDCAQgBYMtBy0b3wTIHgl27MhWxHD7Yzw8rNXen5ndM8NkcNdG82Qa2tGgkUxDVovkrdr3DAnen//L6Y3nR6dnHwRuLPsfP+iNhXtH2PMsKlteHmdhliimboqKjShKBR8ZRVwZsuMZPd7dIYu7cUmB5HbyDhfbh8YfbZ0mUUgBRD0ApqxatsCjj/Ex4l0J8c48BMRUkAukSNFBgPFSgQ4yOTKZ4GOUSvQfmBNAFPFzE5ChgIXYBshAIs2ydu0aqwo12cp8UeW25auWX2u1Mm60Hhc3W66I661XBWJMtEWMHTP2RovloXAtRsc1q9XWFStXVGFLLj/Ttbm++Z93O9+5N/XZ5g63bcMxy5Z9d3Tr2am2RnT0+wIvfOeyipc+2yL4EVi67OaRZ2sT3LIF2NKlXp6PA4Hg+s96baob/7+8KgGfH55eV1t6H/eTZpRLQJD2L/W3Ph6pVRv3BQAgiZO6Kl8USMyU4netdkOAUIkAiaJKAVLt1QuQqdRPgIJORghQVGmZVGQVQgsbLpCodgSkRjoFMi08AAXjvTSKWkRqWZJdSP916TMlPWNfPmTg4HxsfpubsrEIZXdc/hj1PoleH3fSToccdNwO2+1xXLBHLbBPOGCmxszwQ7khBhosN1Z+XL3ClQQ+6hiEvXyOjKPq9y29naRP93GHSABDv4mAcCTFrSd27txxFAAA");
 
 export default Buffer;

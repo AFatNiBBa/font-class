@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `booth-curtain` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/booth-curtain?s=sharp-light booth-curtain}
  * @preview ![booth-curtain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/booth-curtain.svg)
  */
-const BoothCurtain: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 0L0 16 0 496l0 16 32 0 0-16L32 32l32 0L64 0 16 0 0 0zM288 32l0 352c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-352 64 0zM256 448c19.1 0 36.3-8.4 48-21.7c11.7 13.3 28.9 21.7 48 21.7s36.3-8.4 48-21.7c11.7 13.3 28.9 21.7 48 21.7c11.7 0 22.6-3.1 32-8.6l0 56.6 0 16 32 0 0-16 0-112 0-336 0-32 0-16L496 0 96 0l0 16 0 16 0 352c0 35.3 28.7 64 64 64c19.1 0 36.3-8.4 48-21.7c11.7 13.3 28.9 21.7 48 21.7zM480 48l0 336c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-352 64 0 0 16zM384 32l0 352c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-352 64 0zM192 384c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-352 64 0 0 352z" />
-    </Icon>
-);
+const BoothCurtain = createIcon("booth-curtain", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABhwAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCRgsGAAE2AiQDCAQgBYMtBzQbSgURlZpVyD4SY/fQHWuKhXInJvElHv5/rfK+XzV9ZgdrlrCWGR1SiFTiyBI7YBm3YEPoOgDm/5p+9/wa8IOc6KFEW64SIzEieG80oAFHa+JsQLOBzXQCNnPTiIPyc6MitpBYUoctdNh6gTw+jCFqSC+lb/BE+9D4SSfXSPIMQBQAmLl+9VKfPYgHEd9U3xbfWIyAmAVKgQwZugowRSbQVa5ELhc8iGrV/weWAogKPD2BHLW4jscAOUgqed6meXBLc1Ff05ivS2fqMiGFqI+IzK2s25mydKnts3V32j9/jW14dfDrfUvgbgdbfICiuEGIFC8NFPtsVs0K695h51QE93jq9Ubxxi89v9n3zWdFUTxQKBV+UCqNaO6xA9GmW7eaIn2HGT1e/qFt2x8CrX+cuIedsCJSKJ6kXDvUtbS8IrrvP7EC1boFiu3Nh/RPt/cp2FfsAALB82Pr/t/ePOWf2voEHn3w2x/pV1T9LElvoFYCQTakOmRLAokAAKQ4p1eCQHJeBd61wfMChDoESCrqBMh0UQiQqzNYgBrdjRWgos5qmchbCW1tnSBpcBJkxjkPcm29CWpM8Xmsom1ktihakvgnmMbnrfDcZeXIYSPKSSVbNSTz4vP05PKxMeBc6BpIR+07fuzM3j0HzyzUqaXJs0fnScjcL5Yjh40oJ5Xqxvf96/aeOn3w+LE6z+TyfGDAOXnwQLITMI7KSxKRGr/+/ANDd589dWbnwWMAAAA=");
 
 export default BoothCurtain;

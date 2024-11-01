@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `object-group` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-group?s=solid object-group}
  * @preview ![object-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/object-group.svg)
  */
-const ObjectGroup: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 119.4C12.9 108.4 0 87.7 0 64C0 28.7 28.7 0 64 0c23.7 0 44.4 12.9 55.4 32l337.1 0C467.6 12.9 488.3 0 512 0c35.3 0 64 28.7 64 64c0 23.7-12.9 44.4-32 55.4l0 273.1c19.1 11.1 32 31.7 32 55.4c0 35.3-28.7 64-64 64c-23.7 0-44.4-12.9-55.4-32l-337.1 0c-11.1 19.1-31.7 32-55.4 32c-35.3 0-64-28.7-64-64c0-23.7 12.9-44.4 32-55.4l0-273.1zM456.6 96L119.4 96c-5.6 9.7-13.7 17.8-23.4 23.4l0 273.1c9.7 5.6 17.8 13.7 23.4 23.4l337.1 0c5.6-9.7 13.7-17.8 23.4-23.4l0-273.1c-9.7-5.6-17.8-13.7-23.4-23.4zM128 160c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-96zM256 320l32 0c35.3 0 64-28.7 64-64l0-32 64 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-32z" />
-    </Icon>
-);
+const ObjectGroup = createIcon("object-group", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhwAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCKwsGAAE2AiQDCAQgBYMtBzMbLgXIjsQ4JvGLKEzi4f91ovd9yT6J7CArAIAlpBFoylbgmWHs7Ax5x5//y/G9e350B/b5CA5lLVoTZALdbk3uJRBgmo0NFFAWZolijKnbuMIfLGtHRESPHENcaJ4hj2+yG1VIj6XPcI+/afyjkxtJmmYAoiUAZq5fvdTlH+PHiE8bbxOfWoyAmAlKgQwZugowRSbQVa5ELhf8GI2G/gaWBBBV+DclkKOKi7gWkIMkz/MBrTt3q1Wa5etqlWLz692fGPxG/7cHNos3xr808LVOTw5I8Vq3Rwe82uedQfV4dczLg17v/MzgbHe9Wf3BtikeatcsHumQxcPtd1zXIeKRWi3uaPcQcW3bB4sibm//cMTaWlF7ZfAbXSIO+/d6veXr//ls32d6LPi6bdGq1bMzu63SbeazPSvaft3aiq001Hm1/Srkrv6jtT+uXsW3LJje/FZubX4tJxXaIQznmmdK0KnVpRnBM0ogEPTZ9M367S2m/N+klsDPHzR/uHE5zUivo4kEgmxIY4gtaQYoPoA4xTm9ygcFkpNyeNW6hwUIBQIkVYUAmS5aCpArDBagoruxAlQVVstE3lRoa+sASd1JkBnnKpBr601QMcWHUVXbyNjHcof9/CXNm+G5m8qRw0aUk8pjrXOEotvy5PJaHXDOhgbKTvscd8wZe+1x0JkJPWVpetZR8yJkri8qjTTMCKVJynTnVVpXnVNOG70X8utMVr4PBzgXTx4oRgLCUXJJIlKd48pQdgIAAAA=");
 
 export default ObjectGroup;

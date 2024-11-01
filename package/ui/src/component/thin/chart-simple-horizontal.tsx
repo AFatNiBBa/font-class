@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-simple-horizontal` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-simple-horizontal?s=thin chart-simple-horizontal}
  * @preview ![chart-simple-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chart-simple-horizontal.svg)
  */
-const ChartSimpleHorizontal: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 240c0-17.7-14.3-32-32-32L48 208c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l352 0c17.7 0 32-14.3 32-32l0-32zm16 32c0 26.5-21.5 48-48 48L48 320c-26.5 0-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48l352 0c26.5 0 48 21.5 48 48l0 32zM240 400c0-17.7-14.3-32-32-32L48 368c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-32zm16 32c0 26.5-21.5 48-48 48L48 480c-26.5 0-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48l160 0c26.5 0 48 21.5 48 48l0 32zM368 112l0-32c0-17.7-14.3-32-32-32L48 48C30.3 48 16 62.3 16 80l0 32c0 17.7 14.3 32 32 32l288 0c17.7 0 32-14.3 32-32zm-32 48L48 160c-26.5 0-48-21.5-48-48L0 80C0 53.5 21.5 32 48 32l288 0c26.5 0 48 21.5 48 48l0 32c0 26.5-21.5 48-48 48z" />
-    </Icon>
-);
+const ChartSimpleHorizontal = createIcon("chart-simple-horizontal", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABoQAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDAgsGAAE2AiQDCAQgBYMtBz4bkAXIrgZsYzjmIa1Y0WtR5XCH0ShjfztHw9eu8Wk8T7/f/9Y+934zwxJeiYROZQgN2ms0leSV+KcjoeCVIZLvwbi8ezkx3X+yMtInUEOD0lYB1IWyNsfiBgi4IgsbY4gnaN3O/uVPLXMHwOiCm//L8W2gA1x2oP/40PbAUTim7/08CqjngeSbSiQLLFFscN7EQ+oO7Reoc+jYlPvlA7edL81fU9YpqgoAMggAXFosCk/zK/loIp9cAQK5DLAIUaHCLARnMQWzWBaBWi38ovln/4EEAqQdvEsLqNGJV3gN7WYU7TVLDQvCNjErGb1TULslx+x0i3BjdIvcHNvuEePmxG5QdW8Us7Uqys34zjTmEOU3xLkeS6YgPh8U8IWgABXmc4kceshhU2+faPtH8N7o1qr2YfDhn+ZTcx++Slq0+sskrRgirWxs/OSbnGX79ukiDcZflxaAZ/wz4pkG69ctEs3tj43/3h60swjl6wCC8PFapF2Snv2fMgD+9K/0ec0dl9foVECodpvJdwyMG6BcMk87csKgeOSsf2qvOwLRjYCiXbeAygwZBLVuOxC0meeGoF23q5hS8yFGFUqq6HWDqpyxQNVGPVJtznoutRtN9aTKz5n8n5gRriOhY3RksVGABnty5eET9W6QZgeb83xGD89C08jQrIa6jtkaORWtzhkIjwGhHyJ2FjYkgFYPbxvJWmlqRqdfW79PEO2f6syPL9fDmMETPKGpKKQovlHb/LDPmB9lAA==");
 
 export default ChartSimpleHorizontal;

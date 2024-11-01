@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `terminal` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/terminal?s=thin terminal}
  * @preview ![terminal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/terminal.svg)
  */
-const Terminal: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M34.2 45.5c-3.1-3.2-3-8.2 .2-11.3s8.2-3 11.3 .2l208 216c3 3.1 3 8 0 11.1l-208 216c-3.1 3.2-8.1 3.3-11.3 .2s-3.3-8.1-.2-11.3L236.9 256 34.2 45.5zM232 464l336 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-336 0c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const Terminal = createIcon("terminal", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABVAAAAHRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBCQsGAAE2AiQDCAQgBYMtBy8biATIHoVxMz3SRXNsb/+Ih/9f+98+d+a/b4bJQHKVRmNRTSL1VxpJPZlVTeSXzLVfGfKjP//XfH7Pjw7w8xEcSjRWgkQ+r1o/n8DEwptCYDacTRT3NhGfjC19IRIkER2X1HF1gjw+2aGCdCPBufKh8UtnZ0iyDEA0AWDq6uUL3fke3yNelCdemI+AmAYKgQwZugkwQSbQTa5ALhd8j3LZ/QcWBBAl9NQEcuTog6GAHCQpz1saaivq81XhQM36qx2vtV8ZV9qtiMsd+EWrY9Xa+rr6K+0vt6uLqx2udezd1tT2h130ujBy5PLlr98ZORLwhHvj2VvNeHhzCWW2lEpblqiPA4Hgytnf1Tjhf1VtAj9v/xvv71H+mqakNlRJIMgGlAfYkKboAaAD8FOc0lv5okBSSOhd61wVINQgQFJSI0CmqyYBcjX6C1Chh5EClNRYLhN5tdDORgZJnaMgM8ppkGvnFqgwwWOvpF1kl4U2Nf1XS5gloZm7iqGDhhTjimmpM/Yn4+b4YlnscwpHfeGoXQ475ISddtjrhECOWRiedNAsDZ7phwpDDTJEYZxiu3ncv8pOxxy312GH8jbjFefdPk7p8/uCkhDmMLkkEanqKQAA");
 
 export default Terminal;

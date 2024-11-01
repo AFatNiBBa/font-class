@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-simple-high` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-simple-high?s=light gauge-simple-high}
  * @preview ![gauge-simple-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/gauge-simple-high.svg)
  */
-const GaugeSimpleHigh: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 96c35.3 0 64-28.7 64-64c0-18.6-7.9-35.3-20.5-47l82.6-153.4c4.2-7.8 1.3-17.5-6.5-21.7s-17.5-1.3-21.7 6.5L271.3 289.8c-4.9-1.2-10-1.8-15.3-1.8c-35.3 0-64 28.7-64 64s28.7 64 64 64z" />
-    </Icon>
-);
+const GaugeSimpleHigh = createIcon("gauge-simple-high", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABggAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCFAsGAAE2AiQDCAQgBYMtBzgbHAXIhofn68o/91VFPRO6AveE1rcUfXpLrbLui1PPcx4K4INFLChr2NKAZAPOeR6BiHUuLUHBajrBveYt67EozT5JZkZJevzu8e0MebwRZbVIt6VPcI08aPyttQtJ8gxANALAhGWL5jj0Q/wQ8UnlJeITsxAQE0EhkCFDOwFGywTayRXI5YIfolLh/8CCAKI2vXMCOWpjN04G5CDJ87xt26Ztq2rVz5eW31da9e6MiA8HPOfc/s9O/2DyezM/Gvh8nDfohVkfT0vfz4v4fNLROG/ikbmfLf1m9ifjDzl3wuE5ny6JK5pH3OTcZjeWLm9xc5zX8pYqj/SJeKLt7b2XxS0tbm62OG4uPdjz0Va39XqsW+fHGz3+b6dPtn6ics+hMjU/fzNq1Dc/15QPHSrb4h+muJbrRrWbNKndqOuuncIH2X+owaVc2qAHeL/19zamcam604JbrXnl2zMW3mZD3UiyWEq4e4G47bPZvz+5ruHo43WrEvjp9f+PG6+iyqEkPY66EgiycqVsdQKJAACkOFnnBIFks5ysrXazAKEEg6S2EmTaagS5kj5QSwdD6MM1i2Qiryc0swZBUu0AZIY6C3LNvAC1jPa+WVuzyCDHAob98CVN9ciUqWJA3/7FyGIZmByK6DocVRwrPU/OhV600Fb77HWiLTbb4USHHTTHOckeU3foFE9UGKCv/gojFdfxcfZSWxx0gh322dvGjFK8N3o6eV/fi/RECQdakyQiNd624aRtW2pQK9dAFAAA");
 
 export default GaugeSimpleHigh;

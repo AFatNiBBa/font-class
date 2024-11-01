@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-point-left` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-left?s=sharp-regular hand-point-left}
  * @preview ![hand-point-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hand-point-left.svg)
  */
-const HandPointLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 104L0 80l24 0 216 0 0-16 24 0 56 0s0 0 0 0l24 0s0 0 0 0c92.8 0 168 75.2 168 168l0 48c0 92.7-75.1 167.9-167.9 168l-.1 0s0 0 0 0l-88 0-40 0-24 0 0-24 0-56-16 0 0-24 0-56-8 0-24 0 0-24 0-56L24 208 0 208l0-24 0-80zM256 400l80 0 0-32-96 0 0 32 16 0zm128-6.8c46.6-16.5 80-60.9 80-113.2l0-48c0-66.3-53.7-120-120-120c0 0 0 0 0 0l-24 0s0 0 0 0l-32 0 0 72 0 56 32 0 0-56 0-24 48 0 0 24 0 56 0 24 0 24 0 32 16 0 0 24 0 49.2zM240 160l0-32L48 128l0 32 96 0 24 0 72 0zm0 80l0-32-48 0 0 32 8 0 40 0zm-16 48l0 32 96 0 0-32-56 0-40 0z" />
-    </Icon>
-);
+const HandPointLeft = createIcon("hand-point-left", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgwAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCeQsGAAE2AiQDCAQgBYMtBzYbfwXIhof/dL7dN5IdRwqBwhNi/xDAEnDPVFFJ3HGJ5T9bAVXbxhOX41+b/nwXlnBoY07a52Os8wQC7aK88wWcBRZQ4glY1ua4R3QQ5QUbQp4iv6RhvIapK5TxaTymRXo+/YBH65vGX8Z5hKRVAIhhANh88uh+X/VHf8T3vfeJ7+1FQGwGWaBAgYkCrFMITFTKKJWC/uj14n9gJoBo09slUKKDl/EmoARJuyzX1ssGaqluDS5P9IaqCFHXEeIPxoMJjHM/rf/8uPhx3WfHwpaqKiIABVYVT9dVfaYl6pMfzm95Z0rEGxu+2OF3h+gLUUdEeDXzSJ8ID73Ha3Gh4DxdTXt72Nv/TP3hsh+cavSRvw7TrIIG7Igz/8WOrtjx35kdAZza1FhlmI3sNMAd+UO92Yfw5OwC2bD72+v2c+6ArjR8eIYGZLuskq3S6GqK0MiG5fse/T1D5yvZBecfzNpdWef+7LrA/TUQCG5698e7zh+67v9OncBvn/z3n/yGkvQ2OhIIigW9Bc5JIBEAgBS3mZYgkDytTV51kGcECBUCJG2VAIUJhglQqswXoGWy5QK0VY4qRDlQGOXcoSSD3KgUVrhXKY3yrtKyzteVtlFRkNRMMfM/Yo4dFtp+LPct6uY1+bJvt/DOmPfX5tuBObelubm46DLXu84tLnWJK91i+Jvsr9/qWjtm3HYflPVZpCtbIy+PPjpOGOEmN7vSd936IWvl9zNz3DZfPRfhRA0u0ZQkIg3ltGshgU1fMAAA");
 
 export default HandPointLeft;

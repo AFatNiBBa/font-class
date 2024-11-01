@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-drooling` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-drooling?s=light face-drooling}
  * @preview ![face-drooling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-drooling.svg)
  */
-const FaceDrooling: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256C32 132.3 132.3 32 256 32s224 100.3 224 224c0 57.4-21.6 109.7-57 149.3c-5.9 6.6-5.3 16.7 1.3 22.6s16.7 5.3 22.6-1.3C487.3 381.4 512 321.6 512 256C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512c8.8 0 16-7.2 16-16s-7.2-16-16-16C132.3 480 32 379.7 32 256zM352 370.9L352 496c0 8.8 7.2 16 16 16s16-7.2 16-16l0-151.8c4.6-4.7 8.7-9.5 12.5-14.2c5.5-6.9 4.4-17-2.5-22.5s-17-4.4-22.5 2.5c-22.8 28.5-61.3 58-115.5 58s-92.7-29.5-115.5-58c-5.5-6.9-15.6-8-22.5-2.5s-8 15.6-2.5 22.5c26.7 33.4 73.5 70 140.5 70c11.2 0 21.9-1 32-2.9l0 66.9c0 8.8 7.2 16 16 16s16-7.2 16-16l0-76.2c11.7-4.7 22.3-10.4 32-16.9zM158.6 189.6c8.2-7.8 19.1-13.6 33.4-13.6c8.8 0 16-7.2 16-16s-7.2-16-16-16c-24.1 0-42.5 10.2-55.4 22.4c-12.6 12-20.4 26.3-23.8 36.5c-2.8 8.4 1.7 17.4 10.1 20.2s17.4-1.7 20.2-10.1c1.9-5.8 7-15.4 15.4-23.5zm210.2 23.5c2.8 8.4 11.9 12.9 20.2 10.1s12.9-11.9 10.1-20.2c-3.4-10.2-11.1-24.6-23.8-36.5C362.5 154.2 344.1 144 320 144c-8.8 0-16 7.2-16 16s7.2 16 16 16c14.3 0 25.2 5.8 33.4 13.6c8.4 8 13.5 17.7 15.4 23.5z" />
-    </Icon>
-);
+const FaceDrooling = createIcon("face-drooling", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABnQAAAKQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCWAsGAAE2AiQDCAQgBYMtBzQbXAXIhof/t/uvfW7VB1wNcWhmTYVQNoBfD/lWp6Oo4/fHvTv/558+4DP6KGvQ2iAL5NNcnXceJjK1i6Isi8LAMk3AWtz2OyJ+D22ESOIGebwRU1WRtqUS1hQfGn/r8yxJngGIVgAcdcE5p3m3HOWIUuUlouQUBMTRoBDIkGFQgKUygUG5ArlcUI5KRfwHFgQQ1aoHJ5CjGiuwA5CDJM/zeVPb2hqqmvLzkzeuv2DnnIgXTon44oSPTvps1nOjvj9zY9emnp8u+PHo90//8vzvTy0d+e65Pxz13mkHz9vSs7n745M/n/386KuETV1beiK29Gzp3ty5b+K+uS9PPjB5c+fGrv2LXjtuRY9QhXt7zt8ywUp4sZR6vRKreF4nd283tOdv7FQLu48v6xp9oPXAv6NK15eMvNP8De9PZahcHpr6/jfNccGtK7a/un/5cXGtE3r71j11ghM8ta6v1wlRUG5u1rSPuPuxitzc17zV9ec/sv/V7V3Pvfvkk+8+V3Xg1f0rFo0b29p26Biq1Km6f3n3xTePtLtq1pgxRy774dtLJx38puey7z6aduTosbPunnTkm6VJQCA477dLX72iZenh2oYEDr3+/2Hjr6jybpIOoFYCQTa1MtWlCSQCAJDifqMTBJJn5Kqg0WbXJNSzQlKtHjIDWiFXbwpUGTaPMjx8jkzkdUKnyzAkje6CzHyPQa7TC1BlqU/Cap2RASUDUswnYeLxe+S4fcWs6TOLxcVjZmbhjFJuLimMlYn3y84kfNH17nC7e13nWje5d4fd7bTkPrc5XoUe54sKs0w3U2Gxwrn8LJ6/C+92j5vuefdtlijCBxPdrx6fhPWkwp0tlSQiNb3xO9OuvfuOO35tCQAA");
 
 export default FaceDrooling;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug?s=duotone plug}
  * @preview ![plug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/plug.svg)
  */
-const Plug: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M64 32l0 128 64 0 0-128c0-17.7-14.3-32-32-32S64 14.3 64 32zm192 0l0 128 64 0 0-128c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-        <path d="M0 192c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l0 32c0 77.4-55 142-128 156.8l0 67.2c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-67.2C87 398 32 333.4 32 256l0-32c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const Plug = createIcon("plug", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABcwAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBYgsIAAE2AiQDCgQgBYMtB0Qb+ATInge2W7QrIzmERnh3lSL4fq3s92d26zJ7QZ46FSBWiSJwSKjPJiqsiIS7ik1FRm8y+37V+3+GmM9PXFM/zp8KpMI1+/y3cXFR5vkEdj6aDSNp4CX0pri3DRFsBF4JkyiJaJwwGqsL5HEoO6VCup++4Sr/D2D81d0pklYZgGgHgOmL58/zviVaUnyrvyC+mYuAmAFKgQwZegkwSSbQS65ELhe0pHpaor4kgKjid8pAFRUsxDJADpKQ8nxwu3a1Sut8Ua1SZMe7RtyttY6LnW871ulWIZ5Nej1L6N4LXe5ExIcpN0UoY7lQC+A4UVzodKubPaKpuV3zP9agzTnOtZkmCmlUXyomDDg4E/kzHRwwoShLpj49xsVpjjnT3tvXgUDw+Hdbajvpf0MtgT8vLc+rv49jqRkNEgiyQfVBVsQxIHkAlRR7NGHO0wQygyXwz2p0R4BQIEBSVQiQ6amdALnCQAEq+hgtQFVhvkzkrYROViqZNNpOZsY4TOY6eU5WTPKxXNUpstAyAsP42OXOsfDsbeXwIcPKCeWwrZjRouX1ieV02m9PGusPB62x1Ra7rLbKersMusO82m6bzfGQ2XJUGm6IYUoTlMu9W3cRlnfYaX3fXt9konJ/1s8ef3Z/2E0CjDiUloxIkTW++XBwhPptKvsiAgAAAA==");
 
 export default Plug;

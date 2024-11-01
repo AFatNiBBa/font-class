@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `moon-cloud` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moon-cloud?s=thin moon-cloud}
  * @preview ![moon-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/moon-cloud.svg)
  */
-const MoonCloud: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M479.5 48c-110.2 0-200.3 86.1-207.1 194.9c-5.2-1.2-10.5-2.1-15.9-2.5C264.5 124 361.2 32 479.5 32c6.4 0 12.7 .3 19 .8c7 .6 12.8 5.7 14.3 12.5s-1.6 13.9-7.7 17.3c-53.3 30.2-89.3 87.6-89.3 153.3c0 97.2 78.6 176 175.5 176c10.3 0 20.4-.9 30.1-2.6c6.9-1.2 13.8 2.2 17 8.5s1.9 13.8-3.1 18.7C595 455.8 540 480 479.5 480c-60.9 0-116.1-24.4-156.4-64c3.7-3.9 7.1-8 10.2-12.4c37.5 37.3 89.2 60.4 146.2 60.4c56.2 0 107.2-22.4 144.6-58.8c-10.7 1.9-21.7 2.8-32.9 2.8c-105.8 0-191.5-86-191.5-192c0-71.7 39.3-134.3 97.4-167.3c-5.8-.5-11.7-.7-17.6-.7zM80.3 297.4c-.2 2.2-1.3 4.2-3.1 5.5s-3.9 1.9-6.1 1.6c-2.3-.4-4.7-.5-7.2-.5c-26.5 0-48 21.5-48 48s21.5 48 48 48l184 0c30.9 0 56-25.1 56-56s-25.1-56-56-56c-10.7 0-20.8 3-29.3 8.3c-2.2 1.4-5 1.6-7.4 .5s-4.1-3.2-4.7-5.7c-6-29.1-31.8-51-62.7-51c-33.1 0-60.4 25.2-63.7 57.4zM144 224c35 0 64.8 22.5 75.6 53.8c8.7-3.7 18.3-5.8 28.4-5.8c39.8 0 72 32.2 72 72s-32.2 72-72 72L64 416c-35.3 0-64-28.7-64-64s28.7-64 64-64c.5 0 1.1 0 1.6 0c7.4-36.5 39.7-64 78.4-64z" />
-    </Icon>
-);
+const MoonCloud = createIcon("moon-cloud", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABmQAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCWAsGAAE2AiQDCAQgBYMtBzEbWQXIngNuy0aVzl/7r9B6ZRUzpxPOSzyG0kKBY+VskqfcM+QBuIgKQdUiga2vA2L/QpUgsLWcLQIrYrb/qkyWUF6qGs/oUcjCw3Oz3/BeGPWipZFtDTDwPOCx7o74aNIEmhtieZ8UdEFgZdOBzGVGu/GAN3Xqec5DAXyPeFD21MXZHFqz47wCBa0lnvNYgSJU0wJA2bs7WxyatuZRcoiRHN9yfC516OzAid/UogxmWRwD+/lU+sKcLWCwigAASA8AABgcTxjPyafYCsKT/wOdkgIIQNEABARY2MhHAPTDIt6BIwAOh+CH+P/pP7BAACAV5FgDgAOigN3AGQDAAWCwSq7bLI1EJbjJuO7nv8kU4kWwYPKQc1MwajwfXqZLdXu8zbrKGzVdDO9nRiKOaxazCFfX5jQW3nW+3Pewd8EnG4wQz3zjdTbM+OWauj6byVvJXKgYaXB3UOZKxUbFWtladsGos9BVbTHS2ts5S1VbZRq65uzkrtbuVsojiaQf4XAreafPOK0/5WMyVyzAUfXnLYgp/PhcLNQPFB4Wx5YNDgTIGPSThN7kKClpxZdS4ZN29uUFnykiT0snNVPkTVJWxz0tydTzh9yGDXLT8s3I6Ourn8SC3b/Z/12q9/39iu3wgph7QFc3B46yXDBg8K6ydQMTEwn1Q+JC6nv/zgsIlQwe9AIABAiq7e/srNCNuqq5AeDX8d8L+Bb934qZOAJiMQAIrNffi5miDP5/xY0AAAAAI5bhoLABEGDYjIXPGs8xBIDwgAAwROMRAJY8khEADk8tAiCKQtoRANF4JqCIlOIQ6cyqwBDPQmDpYC1wpHMbRNGP+0E06cIaJW1S9JMwYcTQ8GdhNjSFnjAsFMbOyHjfG5aNscygGjapp4N2eqmjliZ6Q7pJi/toI16D4/ggdjTTQBOBHsJ2fSvkF3TTQ1Of23+kl3DeqWKZPl8NtgKC2ULOYEAK/lIr9f8TAg==");
 
 export default MoonCloud;

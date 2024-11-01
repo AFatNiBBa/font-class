@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blinds` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blinds?s=sharp-solid blinds}
  * @preview ![blinds](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/blinds.svg)
  */
-const Blinds: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 0L0 0 0 64l16 0L0 128l128 0 0-64 32 0 0 64 352 0L496 64l16 0 0-64L480 0 32 0zM24 160L0 256l98.7 0c4.8-13.6 15.6-24.4 29.3-29.3l0-66.7L24 160zM144 320c-20.9 0-38.7-13.4-45.3-32L24 288 0 384l512 0-24-96-298.7 0c-6.6 18.6-24.4 32-45.3 32zm16-93.3c13.6 4.8 24.4 15.6 29.3 29.3L512 256l-24-96-328 0 0 66.7zM0 512l512 0-24-96L24 416 0 512z" />
-    </Icon>
-);
+const Blinds = createIcon("blinds", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZgAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBYwsGAAE2AiQDCAQgBYMtBy0b4ATIjtRgrTKL8fD9Wm/nvu750BOGDjMrIB8HrNgSuyyQkL/WbkWunrp4n//L8b17fhvwGx3KWrR00xp4dNfazxMIMOvF5ct6ngWWaQLW3qJmbHGuZ5Jokvx77PHrCnl8ym6okO6mP3Azf2j8p7MbJI0ZgGgFgFkb1izzvSmaIn6vvSF+twQBMQuUAhkydBNgqkygm1yJXC5oilqN/gNLAog68soEctRjJXYCcpBU8rxrtWXRWK00z9dXK8WWolqIapQIBdOJ5tE7Knau3bDWG/cH8CXr3nYpYm20jPXRLO6M3fCkc3OX2NiyRUt4xtreL1u9/Nnrj/1/6PmtLMuZWqm5YqbSTDvVtMLwx2M76vE9zi6Y4+CFx/FliWJS2kN8iZZbF5ydE5sLzXncDdL/UW+GQLB11NxdO1pO/b+hmsC/H/+Uf0W170l6iQYJBNnQ2lBbE0gEACDFeb0TBJKFKuRdm7klQCgQIKlTCJDpqpUAucIQASp6GCdAncIamcgbhXa2dZA0cwpkxrsIcu28AhVT/UjqtIvMsgS7ED52qfNHeN6hctTwkeXkctlporFwYXdKuW0MPM8zg+Cs/U447qx99jrk7ECdtiw/55j5GjLPF5VGGW6k0mTl8fD59Hr7nHbGISccT/tMUd53BjqvLx8EdiK0o+npCVqpbvfRQ8f3ngEAAA==");
 
 export default Blinds;

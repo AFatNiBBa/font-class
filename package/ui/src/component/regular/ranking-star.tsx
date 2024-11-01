@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ranking-star` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ranking-star?s=regular ranking-star}
  * @preview ![ranking-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/ranking-star.svg)
  */
-const RankingStar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M353.8 54.1l52.3 7.5c9.3 1.4 13.2 12.9 6.4 19.8l-38 36.6 9 52.1c1.4 9.3-8.2 16.5-16.8 12.2l-46.6-24.4-46.9 24.8c-8.6 4.3-18.3-2.9-16.8-12.2l9-52.1-38-37c-6.8-6.8-2.9-18.3 6.4-19.8l52.3-7.5L309.8 6.3c4.3-8.6 16.5-8.3 20.4 0l23.6 47.8zM272 304l0 160 96 0 0-160-96 0zm-48 0c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-160zM48 368l0 96 96 0 0-96-96 0zM0 368c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96zm592 32l-96 0 0 64 96 0 0-64zm-96-48l96 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48z" />
-    </Icon>
-);
+const RankingStar = createIcon("ranking-star", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABmAAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCcQsGAAE2AiQDCAQgBYMtBzMbdAXIjtRG+UVWEkGkK6se6UhrBhmJZcaMnpCzj5w9BxlySFC17xPX5L8HSsASfH+UyEUERp9HpE1ggI+bRVOBz4azieJ0Uwmlyj4/KVLKGjbZcdrj2hHy+DtuV0d6IH2I2/xD4yedXU1SlwGIVgCYtWHNMpc/j88jPvgf8YElCIhZoBTIkKGbAFNlAt3kSuRywefx///yH1gSQNSzlyWQowkP4klADpKGPB/U1KXHanXN8/WXdrF/3vx597S/p93U6BWNcneHyTExHnFv9InpcW/H+zouiBFxX+2m9sPWCrWIKIqHOkbcNyDUZ95EO4v7Jdq3iGdl0S6xzzta1Aqh6nrvXiNqZFjR7v1iqxd/6fXhvg/tvGGCra/ad5i71lXq58zZ9Z3v7fLtGq621tx+HaoJLhpX39Dv4qo/H8eFlcdVI7OP+HhkZeTHH2WPyz4K32szKkxTcXoFVSt6AjN9M3eMGPxqmcnkuB8IBBOfv+n4jpZTf22sJfDl23/z2/1/OV1KL6JRAkE29P+htqZLIFOCJVOc05t8USC5UwO8azP3ChAKBEjqFQJkumolQK4wRIA6PYwToF5hjUzkTUI72wJPmjmJZ8Y7j+faeQuvM9U7iXrtIitQsbzE/8N082dw3qpy1PCR5eRyWzakmuPp+JTysW3gOW0bhI32Oe6YM/ba46AzE3bKsvRZR81n9Hk/Ko0y3EilyUrp2qtuffOdclr5ezm/zBTl96GBzvHeg+BMjHG0giQRqdmZ1Q87RQAAAA==");
 
 export default RankingStar;

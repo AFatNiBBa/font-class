@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `feather-pointed` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/feather-pointed?s=solid feather-pointed}
  * @preview ![feather-pointed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/feather-pointed.svg)
  */
-const FeatherPointed: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M278.5 215.6L23 471c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l74.8-74.8c7.4 4.6 15.3 8.2 23.8 10.5C200.3 452.8 270 454.5 338 409.4c12.2-8.1 5.8-25.4-8.8-25.4l-16.1 0c-5.1 0-9.2-4.1-9.2-9.2c0-4.1 2.7-7.6 6.5-8.8l97.7-29.3c3.4-1 6.4-3.1 8.4-6.1c4.4-6.4 8.6-12.9 12.6-19.6c6.2-10.3-1.5-23-13.5-23l-38.6 0c-5.1 0-9.2-4.1-9.2-9.2c0-4.1 2.7-7.6 6.5-8.8l80.9-24.3c4.6-1.4 8.4-4.8 10.2-9.3C494.5 163 507.8 86.1 511.9 36.8c.8-9.9-3-19.6-10-26.6s-16.7-10.8-26.6-10C391.5 7 228.5 40.5 137.4 131.6C57.3 211.7 56.7 302.3 71.3 356.4c2.1 7.9 12 9.6 17.8 3.8L253.6 195.8c6.2-6.2 16.4-6.2 22.6 0c5.4 5.4 6.1 13.6 2.2 19.8z" />
-    </Icon>
-);
+const FeatherPointed = createIcon("feather-pointed", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcgAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBWgsGAAE2AiQDCAQgBYMtBzYb4ATIjsM4hvzipw0x4+F5vafOfckAzgBmO5WxKCEUFeRqf0ODMtOf/2vqBfABfvHzQ4nG0tQosFjl8wYbcCRFWz0fzYazieJ2Z2uaIvJJGrEkx7fjk8MB8nguO6UM6VJ6H2fjh8aPGjhFUiEDENUBMHzuzMle/iw+i3iv9ATxnokIiOGgEMiQobEAg2QCjeUK5HLBZ1Eq0X9gQQBRVrplAjkyTMNCQA6SyPNxlcpUyee4TSuunDV31sUG99rOjXN1nuj71NQLdc/XrRgmdrze3LhQj0iOq2g/1vJOMzu29uOjXh/39iBFTc6N1tc5V7vFI9Uf+bn51ryv7rel//EZVKkyYYL7rzX4n93OtO13s7pt5cpNX97Y8Jbr5/ft07dC2+b10+pZ0Wbunbutqz3yyG+3P/j4wx9+vnr10XcWPX33joce2rcACATRetaWpdUG/V2+UgJfPPvrf/m6CqVnUqRHUF4CQdap1MmiRIBKwwJ0UuzRAr5JIBknce9a2XkBQkUESMqqKECmkeoC5CrqKEAZTfUWoKyKZspEXkGobXEFSWXbQaaPwyBX22OgjEHecsqqHZlWsTrBvumSxnB09Kiie5duxYBimiicotC+fWCxLLfbY8vaw0prbLXFLqutst4uhu0w2d9tszESbvQPFbrropvCAMV27n7xHKvtsNN6W20JnQxUnNfb2SPXbg9akgh7mJQkIlVbs3r5pVZ55w9xAQAA");
 
 export default FeatherPointed;

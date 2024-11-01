@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-sort` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-sort?s=duotone circle-sort}
  * @preview ![circle-sort](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-sort.svg)
  */
-const CircleSort: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm145.2-41.9c-2.5-6-1.1-12.9 3.5-17.4l96-96c3.1-3.1 7.2-4.7 11.3-4.7s8.2 1.6 11.3 4.7l96 96c4.6 4.6 5.9 11.5 3.5 17.4s-8.3 9.9-14.8 9.9l-192 0c-6.5 0-12.3-3.9-14.8-9.9zm0 83.8c2.5-6 8.3-9.9 14.8-9.9l192 0c6.5 0 12.3 3.9 14.8 9.9s1.1 12.9-3.5 17.4l-96 96c-6.2 6.2-16.4 6.2-22.6 0l-96-96c-4.6-4.6-5.9-11.5-3.5-17.4z" />
-        <path d="M244.7 100.7c6.2-6.2 16.4-6.2 22.6 0l96 96c4.6 4.6 5.9 11.5 3.5 17.4s-8.3 9.9-14.8 9.9l-192 0c-6.5 0-12.3-3.9-14.8-9.9s-1.1-12.9 3.5-17.4l96-96zm0 310.6l-96-96c-4.6-4.6-5.9-11.5-3.5-17.4s8.3-9.9 14.8-9.9l192 0c6.5 0 12.3 3.9 14.8 9.9s1.1 12.9-3.5 17.4l-96 96c-6.2 6.2-16.4 6.2-22.6 0z" />
-    </Icon>
-);
+const CircleSort = createIcon("circle-sort", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABiwAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCGwsIAAE2AiQDCgQgBYMtB1IbPwXIhof/Xyu77//qTqY6DJUoRnBxUUhCZlSyuwoI9Zy1BLrn/1zP93w0wG80tA4dSIFn4nYNeCKJZSmUwGd6Bna3k7IwKN0mcd7jMmzOMCknKOL7fE2N9Cx9iTvufwDjV31dI2nJAKILAOZv3bjau23RluLL5mvEl1YhIBaASiAjY4AAs2SBAQoVCoWgLTWbtEWzWRFA1MEHZlBHOxzHVUABkiQXRZdu/bt3bdQ6FlsatXLnk56b41GPhz3KuN7rce+tacvmLY97P+ndiBs9H/XYFA97xU/zI95b/VXjxtpvFn6w9ecF76/5ury+6st5727aSlbiSdW7zkg9a8qW6J47tLVL6+9Dvjzypf92PH++d68jw5fdfVe5fPiRvXun7AVfziDs4V2LW+j76nsLF773at8Wi51X63eHkxYX1euLdvU3LS/5ePV+IBCs3vfGi72dZ/3fvpHAL6//+a//IWm+m6RWtJdAkEc1R9mVQCIAACmuGJq4jUA2VwaP2sFjAUKJAEldKUDWXxcBCqWRAtQMMlmAutJGWRQtQg+7I0g6OA+yKa6CQg+vgppZPrHqekQWO0JoiFdf7BIMLV5WjR8zrppRdT2BlCTMdmdW0+qwKyYzXO10xFlnXHLYIcddQsgFq93LTlsyghf7osp4Y4xTmaFih5fsFmRdcNHxNs2fZKZqvznMlXH5cGUkgDrBiiwTKXL37znc6Aspjj7BuZ4lfVgB");
 
 export default CircleSort;

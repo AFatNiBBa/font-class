@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `telescope` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/telescope?s=sharp-thin telescope}
  * @preview ![telescope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/telescope.svg)
  */
-const Telescope: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M334.8 82.1l112 194 104.3-60.2-112-194L334.8 82.1zM565 207.8l8 13.9-13.9 8L454.8 289.9l-13.9 8-8-13.9-8.5-14.7-41.4 22.4c.6 4 .9 8.1 .9 12.2c0 25.3-11.7 47.8-30 62.4L417.6 512l-17.5 0L340.4 375.3c-10.9 5.6-23.3 8.7-36.4 8.7s-25.5-3.2-36.4-8.7L207.8 512l-17.5 0L254 366.4c-1.2-1-2.4-2-3.5-3L122.1 432.8l-16.3-28.2L63.8 428.9l-13.9 8-8-13.9L8 364.3 0 350.5l13.9-8 42.1-24.3L36.7 284.9 326.9 100.5l-6-10.4-8-13.9 13.9-8L431.1 8 445 0l8 13.9 112 194zM63.9 332L21.9 356.3 55.8 415l42.1-24.3L63.9 332zm271-217.7L58.2 290.1l70 121.2 111.2-60.1C229.7 338 224 321.7 224 304c0-44.2 35.8-80 80-80c34.3 0 63.5 21.5 74.9 51.8l37.5-20.3L334.9 114.3zM304 368a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const Telescope = createIcon("telescope", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABiwAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCWgsGAAE2AiQDCAQgBYMtBzAbWgXIjtMFdcpLhhzj4f/ren+fW9UdQBWA/QKoXyB+WiNxZoyy/kyqy/e/P/U856EAfqOgZT/MWp50nI+xzjdYsWBNqHOK1Iq1imIH5004xNAUkneQxxe2KJFuTO/jcutD45h2ziHJMgDRFACTa5fO9/K38W3Ee/8/S7xnLgJiMigEMmToKECNTKCjXIFcLvg2/v+f/QcWBBBlzqsTyFEH5+IuQA6SUp7Xm12vVaMGpUZ5VQXV3768urw2qrFseavWrVpyIQS0ZuFj4lq39Fke9aMa19S/qPWy1KyN65jdPsb0wxSe2iYqMSg2R+scav2EVrF8w5jKmMmNxpTNGwxYbgXdFLf3f3j0xT3vbVeJ6rLn8037PTTqmT4P9H1wZLeHmj70c9f3t71vwd79ryBje4UUUPGnUx34xF7fJ051mfOUyuU3J16pucoF/mjZ8g8mNldJaRpnTPc3g5a3d4pP3KDQ9XmrnGq6t/+VX07mQHsUad/4s5aP65umn2BfxQ8dorq1afsJ48+bZtElnf8dMqhLl0FDwueBQLC93QfT1jep+bVugwS+f+kxfrr/X07j00OoK4EgG/D/AGvSJGQ90wInmuI43eAXBZJTlTjv2tB1AoT6CJCU1Rcg00FTAXL19RegpLORApTVt1Qm8npCS2tzlDR0EGVGORXlWnoaldR4K1LWMrKtktmmmGvCYEYZmz6rGDpoSDGu6MxL2Q2N0v2VYrTY5zhe1xeG2ma/fY7YaoudjpSIQ+bHj9prRh8+3Q8VhhpkiMI4xezS9cVVWx1y2E777TMHqSjWd/s4rr91X6gkDukwc5NEpHr/KKHPDQ==");
 
 export default Telescope;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star?s=sharp-thin star}
  * @preview ![star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/star.svg)
  */
-const Star: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M374.6 164L297.1 17.1 288.1 0l-9 17.1L201.5 164 38 192.3l-19.1 3.3 13.5 13.9 115.7 119L124.5 492.8 121.7 512l17.4-8.6 149-73.2 149 73.2 17.4 8.6-2.8-19.2L428 328.5l115.7-119 13.5-13.9-19.1-3.3L374.6 164zm150.1 42.2L416.6 317.4l-5.5 5.6 1.1 7.8 22.1 153.5L295.1 415.8l-7.1-3.5-7.1 3.5L141.9 484.3l22.1-153.5L165 323l-5.5-5.6L51.5 206.2l152.8-26.4 7.8-1.3 3.7-7L288.1 34.3l72.4 137.1 3.7 7 7.8 1.3 152.8 26.4z" />
-    </Icon>
-);
+const Star = createIcon("star", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABaAAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiCAQsGAAE2AiQDCAQgBYMtBysb/ATIngVOmT0a8ZIKUcJJGo+P80V8csKIh/ZL5+3flJAUIFkmW8kkz0XIChshW1Ysq+9qbO0iYukGcU008eTWaISEZyL1Q6F9Ipjzq/Z94nLnvxb9+TR6tDHbU8fGaM7zBB70sbAtFmVhlii2uO0qiGiIIySuUPPRcXTK24LH4UPzx0hniqYBkAEAwJpD+3b4fsNvSVc70mUbEMgagAkQDRqMgWA5qmAMmglAVYVvabfFfyABAdJNgheBSp88CtwCoIKi1DpzJpfetx7kHr1OHTxwcFRUqaiKPvJUY0UVU+qSM0STWloZI64d2H9o/5DNci2KEF9lMaAgPuVhR25OTOoc0Plv4tDN0TsuKXrbmdufaY2m83PtJkXLJCwvNvMulkGUrSX7R7veo1/OPLek3gcwDX3j3jo9vUoZvLK7DWYXPUdaCyrdtfmOaTZeIwEE4f2xn8/1j//vwS3gx4f/2OcGt79lbvmghwJCM6dt1ynpHZTUFUJSK7lJi78IUexFgd+1j1cCohcCim56CWiMJoKg6mU2BB3GCUDQTS/7UKX2FEN0e6no44rUWOYkVUP8SR2W+692MyRUQNPARPvPy944Bja4TVjodJMo2exrddhR7H6MnI7MOMo5Cz5qaGVpb6BvYj9it8qNg4XiHlPwQ4SHkxsRRW6Pnts1ym3tTELL+4fEkPcLZsf91RYcp0hkF+kpCin1SwAA");
 
 export default Star;

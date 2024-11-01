@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `whistle` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whistle?s=sharp-regular whistle}
  * @preview ![whistle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/whistle.svg)
  */
-const Whistle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M119 95.2C107.8 76.5 87.4 64 64 64C28.7 64 0 92.7 0 128c0 28.4 18.5 52.5 44.1 60.8C36.3 209.7 32 232.4 32 256c0 106 86 192 192 192c64.7 0 121.9-32 156.7-81L536 448l71.2-76.7L640 336l-37.8-29.9L352.5 108.7C315.9 79.7 270.6 64 224 64c-38.8 0-74.8 11.5-105 31.2zM68.5 143.4c-1.4 .4-2.9 .6-4.5 .6c-8.8 0-16-7.2-16-16s7.2-16 16-16s16 7.2 16 16c0 .3 0 .7 0 1c-4 4.6-7.9 9.4-11.5 14.3zM402.9 324.4L365.8 305l-24.2 34.2C315.4 376.1 272.5 400 224 400c-79.5 0-144-64.5-144-144s64.5-144 144-144c35.8 0 70.6 12.1 98.7 34.3l70 55.4-11.9 15.9-14.4 19.2 38.4 28.8 14.4-19.2 11.2-14.9 139.1 110-43.7 47.1L402.9 324.4zM224 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const Whistle = createIcon("whistle", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABgAAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCGQsGAAE2AiQDCAQgBYMtBy4bFwXIhofv8/g69yVfbaYBeWwup4paCX9/8/yffwrwcQShjYVLA1mge5wnkFiXb4IszAIK0FPLuuk8NaTcmrzoJA3jD1tLM+Txd5ynhHR5egvntovGDxo6iaQkAxA1ADBi3qwpnvs0Po148/+HiTdNQkCMAIVAhgxNBBgsE2giVyCXCz6N//9P/8CCAKIUv2MCOUqxGYcAOUjyPG9VvU3VyiVV87mVSyotuqPvTe1va3Bc3YvbXObjGe/POXPQk93mxLwYFgNjbrwz96X+ky+qdEm9S+tfXPd4x8dFdVYMHDCwc9zW+rZKrwx9puWNw54d9/KQOVEnGsSAaBz1Y04Mjrlzb218ZaMr2t7U4LKGl7dpeUeNO35q8dbat+xd3mTEdTVrVqr37Lttn2kdM+bMmRE9Tt5z0xXTjZ0sWeKPl5w5znWfNC/Sp9WqffppNcHcsVMeGjly5A6DfnmvzfOn7m/SZP+pzy+/b0w/z/rcZh+625lbPOPg8AdqX/f1o49+fR3eAwJB69ue+HRZ9cG/lldO4PMnfvnFDqbj0h0ol0CQdf6/s8XpOAA5ADPFXi3FjQLJajmetYpLBAiVECApVUmATGM1BMhV0kmAEs30EaBUJbNkIq8Q6lgyIKliB2T6OgK5Oh6EEoO9apSqE1nQsSHDvvmSxno0Zqjo0bV7MbBYejoXR3TpDiq25fZ7c6YDJq21zVa7rbHaBrsdsdMUe48txio8xoMKPXTVXWGg4jh8Hp9rjZ122WCbrbXPIMV9vb29urwDtISUPTmTRKSyfX/rKpvXAAAAAA==");
 
 export default Whistle;

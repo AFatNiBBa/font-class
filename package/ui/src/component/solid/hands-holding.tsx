@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-holding` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding?s=solid hands-holding}
  * @preview ![hands-holding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hands-holding.svg)
  */
-const HandsHolding: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 104c0-22.1-17.9-40-40-40S0 81.9 0 104l0 56 0 64L0 325.5c0 25.5 10.1 49.9 28.1 67.9L128 493.3c12 12 28.3 18.7 45.3 18.7l66.7 0c26.5 0 48-21.5 48-48l0-78.9c0-29.7-11.8-58.2-32.8-79.2l-25.3-25.3c0 0 0 0 0 0l-15.2-15.2-32-32c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l32 32 15.2 15.2c11 11 9.2 29.2-3.7 37.8c-9.7 6.5-22.7 5.2-31-3.1L98.7 309.5c-12-12-18.7-28.3-18.7-45.3L80 224l0-80 0-40zm480 0l0 40 0 80 0 40.2c0 17-6.7 33.3-18.7 45.3l-51.1 51.1c-8.3 8.3-21.3 9.6-31 3.1c-12.9-8.6-14.7-26.9-3.7-37.8l15.2-15.2 32-32c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-32 32-15.2 15.2c0 0 0 0 0 0l-25.3 25.3c-21 21-32.8 49.5-32.8 79.2l0 78.9c0 26.5 21.5 48 48 48l66.7 0c17 0 33.3-6.7 45.3-18.7l99.9-99.9c18-18 28.1-42.4 28.1-67.9L640 224l0-64 0-56c0-22.1-17.9-40-40-40s-40 17.9-40 40z" />
-    </Icon>
-);
+const HandsHolding = createIcon("hands-holding", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABiwAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCXgsGAAE2AiQDCAQgBYMtBzQbYgXIjtRG94xdIoh0ZdUjHWktI8qsMxE/EhkoeqDss+fsOYiAUoKIlCG1+Bennsc2BfA57nNxLiDZbUHmPK9Az+sb5z6vF2sVxU7Neyph5HWGtiXk8U92vzbSkfQ5nnIfGj8a4n6SrgxA9AbAyv27t/rwu/gu4rMm4jObERArQSWQIcNwAZbIBIbLVcjlgu+iadh/YEUA0S6giZHjLZ/HUUAOkpTn69a12sp8H31lcdo9AyMOFo/2f54Q4kT33nit1YpXBh0aFnFy2qS4J+6JgTFpQfruAd0xIF4ocvu/OHBXvB5hj1IQ4u56Rzw/4eDAg4MGxeQ4FPcMXOHW0X+HxXW8OVwcGfDC+FY8Nnl/vLFSWPC2zxvzeu/Xf/b5hZ/bvr/P27zRp88bb/dZYIULtb9x3nnGDF1txldfZNuVvz0MftU4XJaHHynLRxr/u7koDnZ+OcaYYbUd6u/quo6zDBszxpedB4vi5v81ZrIrntH4FTzst3K77IuvZqw2dMx553ln4oVWWKDP2+dfDgSCM2/Zs+KsXkv+7mwl8MPbv55213yY7k6vo1MCQTalmeL0dDcwZgBBihuNmfiiQPK4JCzs4aAAoUAFSbsCMsP0hlxhMrQZaS67cMFumci7hP7OACHp4RrIzHMH5Pp7C9os8ZHfrn9kzyX/VPF/hSnrmsjaYdXMaTOqRdVoXiE8aqzuX1wtduobeV03nOpCV7nS9S5wvktc36CvtTW6wRXWTVFr/VBlpmlmqCxSbS7dHb/PBa51nUtc5Uo7yGLV8V7txunW3XA0CTDriuYkIpUfjjH1PQcAAA==");
 
 export default HandsHolding;

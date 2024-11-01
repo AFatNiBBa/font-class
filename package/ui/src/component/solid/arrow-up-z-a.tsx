@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-z-a` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-z-a?s=solid arrow-up-z-a}
  * @preview ![arrow-up-z-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-up-z-a.svg)
  */
-const ArrowUpZA: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M183.6 42.4C177.5 35.8 169 32 160 32s-17.5 3.8-23.6 10.4l-88 96c-11.9 13-11.1 33.3 2 45.2s33.3 11.1 45.2-2L128 146.3 128 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-301.7 32.4 35.4c11.9 13 32.2 13.9 45.2 2s13.9-32.2 2-45.2l-88-96zM320 64c0 17.7 14.3 32 32 32l50.7 0-73.4 73.4c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-50.7 0 73.4-73.4c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L352 32c-17.7 0-32 14.3-32 32zm96 192c-12.1 0-23.2 6.8-28.6 17.7l-64 128-16 32c-7.9 15.8-1.5 35 14.3 42.9s35 1.5 42.9-14.3l7.2-14.3 88.4 0 7.2 14.3c7.9 15.8 27.1 22.2 42.9 14.3s22.2-27.1 14.3-42.9l-16-32-64-128C439.2 262.8 428.1 256 416 256zM395.8 400L416 359.6 436.2 400l-40.4 0z" />
-    </Icon>
-);
+const ArrowUpZA = createIcon("arrow-up-z-a", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiwAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCQQsGAAE2AiQDCAQgBYMtBzMbRAURlZpxyD4SY/fQHWuKFjGIaLZi4k3wPM1Z70+m7W7SRZ4lInUMoI8VomPhgCyxSwD8/annOR8b5INIsu0Fx9JsDaZzcLnnPa8vGtMWeK1YqyjWPFOUHSsV9piYiiStdI/X9PHbCWh5ZW3FA+qUegkcaB8qn4hjKygCLQAAJBQAAGgdMWSQx+/lvcgL9wbygn5AAKQVAIMAFmABiQgADVgIkIjGABqNwHtx3eM/0CAAIF74OgWABrzAJmA/6NtAobXOyU73OZ4gPdzx2GOO27sjh8rRqGO1FHMipliUbBRw9iAVSwrFEE5EDx8GIjAdmYvjTmU6EsKm6ORVtoyQE/Gns2zZHXmUYWdih0rsqiJGHIlaEMbLcBl64dDiguJCsdMuhV76kvpy+stbx04FB58aMYHdjn/XhcuPT/4qInjnzuCrXMSvk48vX9hl67t92BGlAbCinN4e3k3e3LJxqF7becIjc7B5A25/ff3N69euzZnHSOYxR+D6zdPqd53ooIk4UM00OdwjgMDSW/mvJoQ0/AlwFAAf7377f9+e5r5V4eoSEIACQMAqcAvGqhbSKApmIHCkZDlp9FXZCKBYhYbe1c9xBADBBgQAhRcbAcAigVAEAI1NPgKAh2QqEQC82AzBQnQgQiTjHqTwswhZVLEOaSK5hjw08CT2EinWRpS3kfwfmCG7eqxzkSktKjF1xq2IsrfEOl1vps2c5ejKpY1MXzB/6bSps5Z27OLBbNm8rgjv/KEpLSoxdSbdWBvDi7V4CURbyc9Tb973cpbHg3NpGQoAyj6hiG2i/JMWL16wonDZwsLVhZMAAAAA");
 
 export default ArrowUpZA;

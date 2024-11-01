@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-tissue` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-tissue?s=solid box-tissue}
  * @preview ![box-tissue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/box-tissue.svg)
  */
-const BoxTissue: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M92.5 0L208 0c40 0 52 24 64 48s24 48 64 48l85.2 0C436 96 448 108 448 122.8c0 3.4-.7 6.8-1.9 10L409.6 224 384 288l-256 0-16-64L64.9 35.4c-.6-2.3-.9-4.6-.9-6.9C64 12.8 76.8 0 92.5 0zM79 224l16 64-15 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 256 0 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-13.5 0 25.6-64 19.9 0c26.5 0 48 21.5 48 48l0 112L0 384 0 272c0-26.5 21.5-48 48-48l31 0zM0 416l512 0 0 48c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48l0-48z" />
-    </Icon>
-);
+const BoxTissue = createIcon("box-tissue", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdgAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBfQsGAAE2AiQDCAQgBYMtBzEb/gTIjsQ4JvGLKEwi+H4tst+f2YPlqyKaA0COAyRL7MLChW0qMnoz5B1//i/3/J4fHeA3OrSxaenCMflo7ep5AoG3fSxrg2SBZZqAZe5qFpKm+0mSWJLHc4+fDeTxZfaAEun59AseLR8a/+rmAZL2GYBoAmDu5vUrffdX/BXxc+tj4mfLERBzQSGQIUNPAWbIBHrKFcjlgr+i1Qr/gQUBRBt4XQI5StiHY4AcJFmeDxjYoVKq5ZsqpfL2Srnydqenuz3P+sBKPOgu507HDTEmqtEvNsUzcbfLs5UNffv1LcdTHZ/uVKk92+WZzuUYH5W4CIp6RLyoM4P9YY16QzzX8akB1Xin8zPdo98HzQ/+88uhX+z49jyM737/9dy5dOB3G1UPX6qWOvbf5lW0jPpKymqXL9dqf7YQavirXv9rzBg5p+ZRHY357dfsDM7Ifv1tTJ9V32JM519bP2MMEAhemP3JxN2NGf+3qyTwzxet/opa3yXpA7STQJCNaI2wI4FEAABSXNIvQSDZJoN3rXpGgFBGgKSNsgCZHpoC5MqGC1DS20QB2ihbLxN5e6GjnQySqrMgM8lNkOvoQ1Ayw/dWGx0jMzPCSIhfXuyiEVo4qRg7akwxrdhGGmk5WB6dXhwLQy7FylBa65DTTrngoAOOujAg56x0LzppkQYv9EWFsUYZozBNcZ0+L9/koHPOO+q0UzLOdMV7ZYhLevtQkhOgjjM9SUQq7zt9ZeQF+wQ=");
 
 export default BoxTissue;

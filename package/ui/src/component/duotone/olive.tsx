@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `olive` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/olive?s=duotone olive}
  * @preview ![olive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/olive.svg)
  */
-const Olive: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M256 129.8c0 19.2 11.1 43.1 31.1 63.1c30.3 30.3 69.6 40.1 87.8 21.9s8.4-57.5-21.9-87.8c-20-20-43.9-31.1-63.1-31.1c-9.9 0-18.5 2.9-24.7 9.1s-9.1 14.8-9.1 24.7z" />
-        <path d="M160 480C71.6 480 0 408.4 0 320C0 128 181.9 32 280 32c56 0 112 56 112 56s56 56 56 112c0 98.1-96 280-288 280zM287.1 192.9c30.3 30.3 69.6 40.1 87.8 21.9s8.4-57.5-21.9-87.8s-69.6-40.1-87.8-21.9s-8.4 57.5 21.9 87.8z" />
-    </Icon>
-);
+const Olive = createIcon("olive", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABeAAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBVgsIAAE2AiQDCgQgBYMtB0Yb7gTIhocHvaj3k8wsoKykClYH+qple1eB6AB0yNSp55kWCuADeOY8D8jyXGjO8wjkPCCx1fNaC1KhmtbAujsbhVotn6RlSHI82o7TA7K4lx5UIrmWvIkz9D+A8ZNGDpKolAKImgAYOWvaVM9+Hp8n8WbxGPGmKQiIUSAXSJGiqQBDpAJNZXJkMsHnSVHweRRFTgBRRs9OQRklTMZsQAYSiciyFnVqVSlVy2bSlcozPh4W8fTMT6a9MOuNKnfa3ql3KR1vdK3R3h4fTnl3+rwHbSPuNLjS+Hqnh+3u1r0oWh3nISXwAa98/O1aPaz58JeWb6580yMtRsebvBmjY1GNYkSLos+zp07++x+fvfPqp1X7FC1GFL8vit3Ndx5ix89vz561aueOQyU0a/YqxdDqn0mcf9n/LWpcPVYDCAT7lmffLqox5J+KVRLw5eO//cX9jorP49nkISpKQJB2KbqYH89CPCsAAEns1CqeJQikeknkT63qsgChMgIkyioLkGqipgCZyjoLUNJcXwHKKpsmFVkloa4FDSSq2gJS/ewCmboeBSVDvOKW1Y1UqTiV4L50yeM4NHYt79mtRz4on8YqrycMzgfn23aHnbHWEXattMlG262w3BrbGbnV1GCHDcatiLG+KNdTNz3kBsmPs3t5JnO32mbNWDxfMlh+3+lg57q7I2yTAHo9RzQlkkirbbI5vattajWYaIMA");
 
 export default Olive;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-drooling` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-drooling?s=sharp-solid face-drooling}
  * @preview ![face-drooling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-drooling.svg)
  */
-const FaceDrooling: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M384 477.8c76.5-44.3 128-127 128-221.8C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512c33.9 0 66.4-6.6 96-18.6l0-122.4c-9.7 6.4-20.3 12.2-32 16.9l0 60.2 0 16-32 0 0-16 0-50.9c-10.1 1.9-20.8 2.9-32 2.9c-67 0-113.8-36.7-140.5-70l-10-12.5 25-20 10 12.5c22.8 28.5 61.3 58 115.5 58s92.7-29.5 115.5-58l10-12.5 25 20-10 12.5c-3.8 4.7-7.9 9.5-12.5 14.2l0 133.6zM200 176c-39.2 0-58.3 25.6-64.8 45.1l-30.4-10.1c9.5-28.5 38.4-66.9 95.2-66.9l0 32zm176.8 45.1C370.3 201.6 351.2 176 312 176l0-32c56.8 0 85.7 38.4 95.2 66.9l-30.4 10.1z" />
-    </Icon>
-);
+const FaceDrooling = createIcon("face-drooling", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfAAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCEgsGAAE2AiQDCAQgBYMtBzQbFgXIjtMdM9KNxCcevl/r7dzXPT8A1AFgtIQWaIFBx/2KXVIrU2N5u88NKhJi0tSCIB0Jm6lTz3MeCuAbBW0snIuzOZTdMc97HqxYr75tgo4FVtMKWHcbsuAE5SwpIkMuYmgzRJMryOPTrCiR7ibisv/Q+EszF0iqZQCiLgDGLp4/01eVURnxa/l94lfTERBjQSGQIUNLAUbIBFrKFcjlgsool/E/sCCAqECHTSBHCdtwGJCDJMvzSbVr1yjVyheZE1Vf+6eV+HbxMyPsfBxVi1d3v1IdHnGjgxDVA/a/UX0O+6Rb4+gejeJp16cDP+z+vHuT6BoN40ZDyx40jKB2ivsNd7CFt2YScatTxPtqn2Yd2j2r++yftr9tIk63utqVZiab3LTZ1bOx5ezVZk35Rfp/cwwvGo9QV6Gu/l7Wq9uh49D7zruv9PZXZ8589XYjvIdFmy592POrV/wz+2PThg1Xi7d6zP4HXn1VuLphw6YXAIHgcd16s1bXGfF/1RoJvPzkv3+kX1H5qyQ9Q1UJBFmPcg8rEkgEACDFIe0SBJJ1MnStNd0SIFRHgKRCdQEyLdQVIFdddwFKWhsoQIXq5stEXk1oaGUBSU17QWaQkyDX0LugZIQfvQoNI5M4Ql6I917sJA5NnFf07dWnGFZ0M5kUIsxODy+WuS6HdFdXWGqT3XY5YKMNtjrAkH1mhgftNGkET/RFhb566aMwTLFdXi9eZKN99ttqt11uluGK81YXh8aDu4KYEGo/qSQRqdZ1bvXcsG/37n8rAQAAAA==");
 
 export default FaceDrooling;

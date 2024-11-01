@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `angle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angle?s=regular angle}
  * @preview ![angle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/angle.svg)
  */
-const Angle: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M253.3 67.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2l-208 400c-3.9 7.4-3.6 16.4 .8 23.5S15.6 480 24 480l400 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L63.5 432 253.3 67.1zM242 175.5l-22.6 43.4c19.3 15.8 36.5 34 51.3 54.1l40.8-25.6c-19.6-27.2-43-51.4-69.5-71.9zM322.7 392l48.8 0c-6-36.9-18-71.8-34.7-103.8l-40.8 25.6c12.4 24.3 21.5 50.6 26.8 78.2z" />
-    </Icon>
-);
+const Angle = createIcon("angle", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABWAAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBGQsGAAE2AiQDCAQgBYMtBywblQTIhocPXen7kvbGXjCiDARUEXYQIOgAy7Q3abFKKsP0N/+8aVGAz3MeCzuPsgUS7cEJdJ53+QQKbPyF374ofuumE/2Qcmvyope0tCU/bM2QxcO4pkByP/kZV8uHxp+aOk+ikAKIOgAYs2jeDN9WR3XETy8+In4yDQExBuQCKVK0EGC4VKCFTI5MJqiOFy/if2BOAFGFD52ADAX0xmBABhJpljUoFkuFSrawVCgue9jx5SaL41bD26VKvNL8QcdyLJvfvVf317oMi7eHLigVS496Do63WrZ9vc7rf7f5eePPnh4/123w+79dtWzrtso1cxo2nLPZl9uL27eS+t2OI74/Mfv3PkfdvXpFuyNAIGh/ZszQVbWH/1ejlIA/Pv/3/7DzxbMX1fFt8jpqSECQdn/R3fL41sBpFYeqcVBbfFEg0VmKZy27I0AoIkCiSlGAVHN1BMgUdROgoJUBAlQpmicVWU2hgRUNJMr2gNRAJ0CmgQ9AwXDfaVUaROo07JOzf7akiRqa0Jf36dk7H5oPbZXzAzrVh+XTcueDEuuCSRvtstN+G6y3xX5F7jXDPGCHiRYxwQ/l+uipt9xQ+bJ3P77QBnvts8UuO3OXYfL9SmcH7ewuGCIB9L1uWiyRFNbs3LR9AwA=");
 
 export default Angle;

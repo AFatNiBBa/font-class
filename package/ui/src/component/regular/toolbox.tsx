@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toolbox` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toolbox?s=regular toolbox}
  * @preview ![toolbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/toolbox.svg)
  */
-const Toolbox: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M184 80l144 0c4.4 0 8 3.6 8 8l0 40-160 0 0-40c0-4.4 3.6-8 8-8zm-56 8l0 40-28.1 0c-12.7 0-24.9 5.1-33.9 14.1L14.1 193.9c-9 9-14.1 21.2-14.1 33.9L0 328l0 88c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-88 0-100.1c0-12.7-5.1-24.9-14.1-33.9l-51.9-51.9c-9-9-21.2-14.1-33.9-14.1L384 128l0-40c0-30.9-25.1-56-56-56L184 32c-30.9 0-56 25.1-56 56zM464 304l-96 0 0-16c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 16-128 0 0-16c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 16-96 0 0-76.1L99.9 176l312.2 0L464 227.9l0 76.1zM48 352l96 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 128 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 96 0 0 64c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16l0-64z" />
-    </Icon>
-);
+const Toolbox = createIcon("toolbox", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABhgAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCTAsGAAE2AiQDCAQgBYMtBy4bSgXIFiFJJ8HzutJ5X9o9W7J57wykMyMEK6AKkEvijvtUxjZUJaV3/m/2vOdRgN8otLFwaTgm4J6eQIBpNjkNKAvPzvQE7ApSMW85UVSy72SyJtPjt1/vTsjjm3hCjfRi+h2Pj5fGn/p4kKSWAYhuAFi0Y8s6P16LaxG/NT8jfrMGAbEIVAIZMvQXYK5MoL9chVwuuBbNZv4PrAgg6ujNCeSo4yE8AchBkud5l8nt7WWtc769rBV7yqJ8tlUUEfF8r6VCEQ81NsYzhHhx1IfDOsf7Yz7uFxFxX9vmeK4oIuKltueGF/FO45neh4qyiHhp+Du9/T5e3BKdY1M4WBaleHHY+3VQBlY90+gUz7XF4I+6ffR3++/Hf/fFhSfMHqyP9IaR6gfvHGlNf43LU1xuHLVT0b37G/d6o1zsdFS71t9ILf/evPiEizf/bdnwx8GDB7tp3bSptZt78ecctNYUM02x9vUJ5p0Ldbl2r2tdFgKB4Ol3Xv3nQNe5/3UoE7jx9b//67+i5rUkfYQOEgiysc2x9iaQCABAijsMThBI7pejp3bynAChQICkrhAg0083AXKFMQLUDDRNgLrCFpnIOwoN+yZIOrkEMtPdBXINn4CauX4y6hqRhSMRTMRnMHa5hJZNVZPGT6xmV1sfkxGGtf6c6pgbeUfJjcKi4y447zbHHHXKbQK5xTr7ducst+BlvqgyyXgTVWar3NEruz0Zt7jVKZ32j5mjui+NdIddPQpiQqiTOZJEpJYnBQAA");
 
 export default Toolbox;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grill-hot` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grill-hot?s=solid grill-hot}
  * @preview ![grill-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/grill-hot.svg)
  */
-const GrillHot: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M120 0c13.3 0 24 10.7 24 24l0 2.6c0 5.3 2.7 10.3 7.1 13.3l12.4 8.3C181.3 60 192 80 192 101.4l0 2.6c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-2.6c0-5.3-2.7-10.3-7.1-13.3l-12.4-8.3C106.7 68 96 48 96 26.6L96 24c0-13.3 10.7-24 24-24zM0 192c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32c0 78.1-46.6 145.3-113.6 175.3l47.7 111.2c5.2 12.2-.4 26.3-12.6 31.5s-26.3-.4-31.5-12.6L327 472l-171.7 0c-9.5 23.5-32.5 40-59.3 40c-35.3 0-64-28.7-64-64s28.7-64 64-64c3.4 0 6.8 .3 10.1 .8l7.5-17.5C46.6 337.3 0 270.1 0 192zM155.3 424l151.1 0-18.3-42.7C277.7 383.1 267 384 256 384l-64 0c-11 0-21.7-.9-32.2-2.7L147.5 410c3.2 4.3 5.8 9 7.8 14zM96 472a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM256 24l0 2.6c0 5.3 2.7 10.3 7.1 13.3l12.4 8.3C293.3 60 304 80 304 101.4l0 2.6c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-2.6c0-5.3-2.7-10.3-7.1-13.3l-12.4-8.3C218.7 68 208 48 208 26.6l0-2.6c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const GrillHot = createIcon("grill-hot", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABkAAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCUQsGAAE2AiQDCAQgBYMtBzAbUQXIhoeHvLc/N8nrtHkDFc6Y/ljR2nmzADV1qmachwL4AJ4xMbZBlgfnPI9AzrMtpekVqhWsYBWugJW15i0TW/TpN8lJTSb5Z49fd8jilvRcJZKbkvdxhb5ofK3euSSqUgDREQDT1qxY5M0P4oOI9/5/jnjPAgTENFAIpEjRJMBEqUCTTIFMJvgg/v+ffwMLAogK9Z8pARna4BJcA8hAopRlzUM6VrWUS+2y1eVSvuG+enFmdXU81Cxu7Hl/Q8RZNTXxcEvELX1WnlUbcUO5XVxSfZ07Bz46d1Xc1PPehobI48au1+b393+44ZYBj/S5pLox3h38ePdV5bw8OK7N87i4pi6uq174QOPNve+tu6nXBuH8R9xX3/3hjg9/2+393e879Y1l1anKnW+5R6p6GRCGq/2FXNj+TErw2fl33/YecsTOfrPvedCjtv31V9c7O3XKc169szT1mN7ffpff/PkN+XSDjzpN1fGnV43q88Sy6uplJN/xRkqBN4wXPAOPA4Gg9qolv2zpMPHXynICPnr5+z/0a+T/V+LN5GFUSkCQDvx/oI3xJsSbAgCQxCm6x5sIJM5Rkp61resFCDkCJCrkAqQadRQgkxsgQEmLUQJUyK2QiqxK6GpTB4m2joHUaKeBTFfPgJKJ3jIrdI00IJlwYv6DibMRnTVUDBs8tBhfLD2NjTGqdCcU21LfUyTTjw7sdsRhJ9llp31KAH7cIudkh8y2sFneqDDMYEMVxivc4aO4GuTjTiA1Z/yQPhMU542+TrHL+9EYCWD4U1KyG0nVnuP7Dh4ctPfISQA=");
 
 export default GrillHot;

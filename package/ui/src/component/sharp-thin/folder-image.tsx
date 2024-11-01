@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-image` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-image?s=sharp-thin folder-image}
  * @preview ![folder-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/folder-image.svg)
  */
-const FolderImage: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 32l48 64 224 0 16 0 0 16 0 352 0 16-16 0L16 480 0 480l0-16L0 48 0 32l16 0 208 0zm48 80l-8 0-4.8-6.4L216 48 16 48l0 416 480 0 0-352-224 0zM88 208a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm40 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm168-30.2l6.6 9.7 120 176 1.4 2 0 2.5 0 16 0 8-8 0L96 416l-8 0 0-8 0-16 0-2.7 1.6-2.1 72-96 6.1-8.1 6.5 7.8 33.2 39.9 82-119.3 6.6-9.6zm-.1 28.3L214.6 348.5l-6 8.7-6.8-8.1-33.5-40.2L104 394.7l0 5.3 304 0 0-5.5L296 230.2z" />
-    </Icon>
-);
+const FolderImage = createIcon("folder-image", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCNwsGAAE2AiQDCAQgBYMtBzMbOgXIjsQ4JvJIF00cRBDZRGfvX7IsMOIbADjpuEpHzE1haANcK5m/IOb/cny37egAP8iJHtqYtibIbb/2ep5AYr1wLLEoK6BME7Csnf19GBDbJ0mRZNj8sMkF8vjEfiXSQwnukzeNX3V1B0mWAYg2AJizad0KX96IGxG/NN8jfrEMATEHFAIZMvQQYLpMoIdcgVwuuBHNpv0PLAggyvIHJ5Cjgqu4F5CDpJznHds2WvZrXys18o21UnXbnLlzajWRQlTrEVlE1DZUa9VOMTeqkaIRWVTXPzLohQHPdX2w/7MDn+825YXuDw98tstDAzZ17NRxQ3QMYRMKv3NsSkHHmCEPW79pfYfoFDNjfYhGRGzs+3Kbl3/v4yDXn2hy5Uab7AayzV/ak/Caqyq4bIGX/OhJN+x244Nd5WFTpgwrh+TSmo4d17D3Qs8jOP7SG0LSRkVlcUUbmbYW7bLJMFtYc8nhHqsvPmOTQzqbtUHJaCWnngUCQdH9u1O3nv5/pZbArY///JX8ipo3kvQyKhIIsuHN4bYnkAgAQIqL+iYIJGeV4VXr7hcgVBEgKasKkOmujQC5qmEClPQyQYCyqnUykbcUOthRQVJ3BmQmuh3kOngHlEz3Q1LWITIdFDRIeAKmLmyRBbuKMSNHF1OLYUcR1Yrzm9OKZX3wRTcxhA466JSTzjtgvyPON/RZK/ILTlg4oxb4osIYI41WmKrY7t/v3+iAs8454pSTcZtpivPxYBfn84eQlWTWsepJIlL94PUX//AAAAA=");
 
 export default FolderImage;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `greater-than-equal` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/greater-than-equal?s=regular greater-than-equal}
  * @preview ![greater-than-equal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/greater-than-equal.svg)
  */
-const GreaterThanEqual: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M47 78.2c-12.3-5-18.2-19-13.2-31.3s19-18.2 31.3-13.2l336 136c9.1 3.7 15 12.5 15 22.2s-5.9 18.6-15 22.2L65 350.2c-12.3 5-26.3-1-31.3-13.2s1-26.3 13.2-31.3L328 192 47 78.2zM424 432c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 480c-13.3 0-24-10.7-24-24s10.7-24 24-24l400 0z" />
-    </Icon>
-);
+const GreaterThanEqual = createIcon("greater-than-equal", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABWAAAAHSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBCQsGAAE2AiQDCAQgBYMtBzkbkgTIjtRG+UVWEg//v/a/fe7MV0F8EDFrFk0rXmmk39BK1coiQn1V+z52WrzxUgGPS1C0sWlpQbrje8YrULGmvulfP/72YBXFf5uIj9LEN0KCJKLjMjuuNsjjWdxWRnqSvuJW/dH4o5NrJGUZgGgEwMz1q5dq+xk/I76UEF8sRkDMBIVAhgxdBZgiE+gqVyCXC35GqYT/gQUBRDl+awI5cgzASEAOkpTnrbU1ZXX5uvix6s0vuzzruzMetLvfuiOed37af3fs2vui0+M+tfGy87P+db3eNr792/Prvq+GnZy459685Td9a2j4Rs559/ZM7HhSdl3YubJdu5W3hddBIPheu3L89oYp/yprEvj9/n90u/Qz2tJbVEogyIaUhtgSbQDoALQU5/RSHhZICgn4W2s9FCBUI0BSrlqATBeNAuSqDRagTHdjBShXbbVM5FVCq60dJLVOgsw4V0Gu1TtQZooPWrnWyJyFNDX5V4ubJ6G5c8XIYSOKScU01Cj742k8uVgWB5yj0kBYtc9xx5yx1x4HnRHIKUvNs46ap8FzPagw0jAjFCYptpPH5XX2OuW0g447VqZMVpxXBzinNw8EJWHMUTxJIlLz4+CH3j5hqFsD");
 
 export default GreaterThanEqual;

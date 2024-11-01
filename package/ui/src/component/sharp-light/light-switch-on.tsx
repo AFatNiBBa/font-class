@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `light-switch-on` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-switch-on?s=sharp-light light-switch-on}
  * @preview ![light-switch-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/light-switch-on.svg)
  */
-const LightSwitchOn: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M176 48l0-16L32 32l0 448 144 0 0-16 0-16 32 0 0 16 0 16 144 0 0-448L208 32l0 16 0 16-32 0 0-16zM0 0L32 0 352 0l32 0 0 32 0 448 0 32-32 0L32 512 0 512l0-32L0 32 0 0zM96 240l0-112 0-32 32 0 128 0 32 0 0 32 0 112 0 32 0 112 0 32-32 0-128 0-32 0 0-32 0-112 0-32zm32 32l0 112 128 0 0-112-128 0zm0-32l128 0 0-112-128 0 0 112zm48-72l32 0 16 0 0 32-16 0-32 0-16 0 0-32 16 0z" />
-    </Icon>
-);
+const LightSwitchOn = createIcon("light-switch-on", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABcAAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCGwsGAAE2AiQDCAQgBYMtBzYbIQXIjsO44TuyxVKeRTz8/1rZfb+q+8xUBSrEP1HArAjZJ4pcNCy7VeMWjZizlkB3MteqTlyT///8qUCiyB4ta9XYIBFxPoGJ7eZRYPPZwGY6AZu6KSJYVFpzCSJFUbex41uPbyco435M1SK9S/BSPjR+NcILkrIAEA0AVu3evk1Pb/RG/NyZ+NkWBMRqkAUKFBgtwFKFwGiljFIp6I1OJ/wHZgKINrw2gRJduILbgBIk7bIcP2BEd3ddt/qWu+pWtT9EFSnqgFErg2cWUYWgx0G56isS4X0iitTOEMHalqzqZmGSEIBI1VVdA7tJXj1TT/jQfPh9vFN88bJpmld6vNJoZOnVxS9m5PyEOT2yfCRx+M8raMry++yKqHSjMzWeSOJJfoLgCq6bsSHnmVlT+EBcd/lIn7GH+y/9v6tO4Jdv//yb/Io6PfEkhS4JBMXUzlQH4gnEEwEASHHLhHiCQHJGG961j9cChAoBkrZKgMIojQClyhQBWsaaJ0BbZbtClN3CYAc7kfRxlSjM95AoDfYN0bLUd+W2wVFYnWwz8k9fxnoNrduXZ02fmRfnZVdTDEnM20vy5WDiLZqa5I465bJLbjjphLNuKOSabbWbLlq/g9f5omyW6WbKFsuPB4+HdznpmuvOuuwS77JEfj870a394kkukkBwtoYkEam/IdrTvszUtMuXAAA=");
 
 export default LightSwitchOn;

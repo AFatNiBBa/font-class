@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-holding-back-tears` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-holding-back-tears?s=sharp-duotone-solid face-holding-back-tears}
  * @preview ![face-holding-back-tears](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-holding-back-tears.svg)
  */
-const FaceHoldingBackTears: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm78.1-93.9c5.3-.7 10.6-1.3 15.9-2c3.8-.5 7.7-1 11.5-1.4c25.5-3.2 46.6-21.3 53.6-45.9c.5-1.7 1-3.4 1.5-5.2c1.5-5.1 2.9-10.3 4.4-15.4c10.3 2.9 20.5 5.9 30.8 8.8l-4.4 15.4-1.5 5.2c-4.2 14.8-11.8 28-21.9 38.8c40.4 4 72 38.1 72 79.6l0 32 0 16 0 16 0 16-32 0 0-16c-13.4 10-30 16-48 16c-11.4 0-22.2-2.4-32-6.7l0 6.7 0 16-32 0 0-16 0-32c-10-13.4-16-30-16-48c0-17.9 5.9-34.5 15.9-47.9c-4.6 .6-9.2 1.1-13.8 1.7c-1.3-10.6-2.6-21.2-4-31.8zm79.6 213l28.6-14.3C192.4 373 215.6 400 256 400s63.6-27 69.7-39.2l28.6 14.3C344.4 395 311.6 432 256 432s-88.4-37-98.3-56.8zM272 240c0-41.4 31.4-75.4 72-79.6c-10-10.8-17.6-24.1-21.9-38.8c-.5-1.7-1-3.4-1.5-5.2c-1.5-5.1-2.9-10.3-4.4-15.4c10.3-2.9 20.5-5.9 30.8-8.8l4.4 15.4 1.5 5.2c7 24.7 28.1 42.7 53.6 45.9c3.8 .5 7.7 1 11.5 1.4c5.3 .7 10.6 1.3 15.9 2l-4 31.8c-4.6-.6-9.2-1.1-13.8-1.7c10 13.3 15.9 29.9 15.9 47.9c0 18-6 34.6-16 48l0 32 0 16-32 0 0-16 0-6.7c-9.8 4.3-20.6 6.7-32 6.7c-44.2 0-80-35.8-80-80z" />
-        <path d="M191.4 116.4l4.4-15.4L165 92.2l-4.4 15.4-1.5 5.2c-7 24.7-28.1 42.7-53.6 45.9L94 160.1l-15.9 2 4 31.8 15.9-2 11.5-1.4c38.2-4.8 69.8-31.9 80.4-68.9l1.5-5.2zm129.2 0l1.5 5.2c10.6 37 42.2 64.1 80.4 68.9l11.5 1.4 15.9 2 4-31.8-15.9-2-11.5-1.4c-25.5-3.2-46.6-21.3-53.6-45.9l-1.5-5.2L347 92.2 316.2 101l4.4 15.4zM128 232c-8.3 0-15.9-3.2-21.6-8.4c-1.6 5.2-2.4 10.7-2.4 16.4c0 30.9 25.1 56 56 56s56-25.1 56-56s-25.1-56-56-56c-1.4 0-2.8 .1-4.2 .2c2.7 4.7 4.2 10.1 4.2 15.8c0 17.7-14.3 32-32 32zm224-32c0 17.7-14.3 32-32 32c-8.3 0-15.9-3.2-21.6-8.4c-1.6 5.2-2.4 10.7-2.4 16.4c0 30.9 25.1 56 56 56s56-25.1 56-56s-25.1-56-56-56c-1.4 0-2.8 .1-4.2 .2c2.7 4.7 4.2 10.1 4.2 15.8z" />
-    </Icon>
-);
+const FaceHoldingBackTears = createIcon("face-holding-back-tears", true, "data:font/woff2;base64,d09GMgABAAAAAAO8AAoAAAAACAwAAANxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhhCFDAsIAAE2AiQDCgQgBYMtB2obyAbIHoVx2/ISsBDT7VTTOkEPytXPS7IHMPdBuoI7iLXd3h7N7W9mSRw8RPIyTazlJz51onFekVIIHQjgZtdYm9paYks184Aifv7p7yf//5eYgD/Odz4fWlR5tXacJw4HWEXR9IAHOtCdb2I8hc2xm1lGQvoZOD21iwiA2S7+gLX5cn0lnUVgCLd4KIqDZ6B+146tufxKr4zuB1+g+7QChLe8AQAeAVYGlYUAqIVFQBYODzgcglcmGIRX0v/8PAgAFALyK1gAQoAIUEFQeQDAAWBwOOcyM9OzMxunVI9ko12XyEBEz9Sk1CLSpavaYHdk2Zu6daqsSCMlefs89IYIw5Np+LS4byOj04qUiO3Jcd9laVWkyUDMmHlJkXlXdAB6nikgWIjRi/rSldYPIlfejxpe6/qywdU2DyNWHPfrXe7UdWUqgBeRWt8OZxqU0uKEposri5t5KJBSIiQdMklag5Z2lLiKTBIn6bVooaKb+6bvxi7bKpv67bOM5X1nSYAjY1ImQpJCcKzOEAj1/kxiy2Yr2TiS5sxLO06/ydy0oV0d9sd/3v0h97nYsk2w8RN1SeLmlJP8JuQ3eeS1BvVXBh4Khma2b3Bt6NgpN5OoyyfaXJ4YvTQV+Z/548bl/+TzCcZUCdeWPTH/XE0HyDOnA/0AdJnG4ZD+fg0bXjmTLqLG7UwtonVvVw5iT7uQKTdl0LH7x0/oP74NAQb/fFu5cuyCOFWQB9tmxn8IrTd53kVk/itnGZ+b2/b5BfnZ5tHZjx9nR+8v0G/BhPXrJyzoN35J7A4q/34ONjbhUOf4AeM/7VkSOJRz4bIQL9Pl/mVm/fUHfk8oH+LjBncRAAgQNN4Xs+obW+t/mGUAeHP255f8R4OXDeYwEIYBQGBLBUvRywBgQBB8KKMpFBARbQABlhM4gmAUW9CpwQhAhjuECAQtmcTVqCOCkmiAHCoLVi7viEUuHJFEb6CGKMajlirMRh1JnEED1OKWL4QkgeYvItou+ltN3qSNNB7ny5cp52v4yYxSzAUEdmdNv1pfbIpeURxbGcJYxjCJwQxiOJNanAm0Dk5mNE3meBu/11OeMpTDUwO/O39f3kX2TWAiw8el+7upiT/fXYwp8/WLw2QI+FZghsWCjGyuaFSX5oCK0kIpufSkwf0nTCwt/hrKm5MKOAA=");
 
 export default FaceHoldingBackTears;

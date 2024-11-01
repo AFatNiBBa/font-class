@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tie-hair-long` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie-hair-long?s=duotone user-tie-hair-long}
  * @preview ![user-tie-hair-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-tie-hair-long.svg)
  */
-const UserTieHairLong: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M48 249.4C48 261.9 58.1 272 70.6 272L224 272l153.4 0c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16l-3.9-3.9c-24-24-37.5-56.6-37.5-90.5l0-10.3 0-1C351.8 57.1 294.6 0 224 0C153.3 0 96 57.3 96 128c0 3.7 0 7.3 0 11c0 33.9-13.5 66.5-37.5 90.5l-3.9 3.9c-4.2 4.2-6.6 10-6.6 16zM128 112c16 0 32 0 48 0c34.6 0 65-18.3 81.9-45.8C269.2 84.1 289.2 96 312 96c2.7 0 5.3 0 8 0l0 32 0 32c0 53-43 96-96 96s-96-43-96-96l0-48z" />
-        <path d="M257.9 66.2C269.2 84.1 289.2 96 312 96l8 0 0 32s0 0 0 0l0 32c0 53-43 96-96 96s-96-43-96-96l0-48s0 0 0 0l48 0c34.6 0 65-18.3 81.9-45.8zM70.6 272L224 272l153.4 0c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16l-3.9-3.9c-24-24-37.5-56.6-37.5-90.5l0-10.3 0-.2 0-.8C351.8 57.1 294.6 0 224 0C153.3 0 96 57.3 96 128c0 0 0 0 0 0l0 11c0 33.9-13.5 66.5-37.5 90.5l-3.9 3.9c-4.2 4.2-6.6 10-6.6 16C48 261.9 58.1 272 70.6 272zM279.7 510.9c1.8 .7 3.8 1.1 5.8 1.1l131.7 0c17 0 30.7-13.8 30.7-30.7c0-75.5-51.9-138.9-121.9-156.4c-8.1-2-15.9 3.3-17.9 11.3l-36 146.9L238.9 359.2l18.6-31c6.4-10.7-1.3-24.2-13.7-24.2L224 304l-19.7 0c-12.4 0-20.1 13.6-13.7 24.2l18.6 31L175.8 483.1l-36-146.9c-2-8.1-9.8-13.4-17.9-11.3C51.9 342.4 0 405.8 0 481.3c0 17 13.8 30.7 30.7 30.7l131.7 0c2.1 0 4-.4 5.8-1.1L168 512l112 0-.3-1.1z" />
-    </Icon>
-);
+const UserTieHairLong = createIcon("user-tie-hair-long", true, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABwAAAALnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDVgsIAAE2AiQDCgQgBYMtB2AbCAbIrgd4Q2r8TSsYguEVwqglevkqSi9z7YYVEVS20J7beyDh6wV0QqKMITMRpoAQOVU5pcyxoGq39/RBU5oFHAacQYAZBxhwApFFkLv7LWkJBxREmET2gJkGkgQOuWUeMCV0wsjuBieRBZLFgUhG4Tg45OaFJ804C73MbH7PkMz5qVPPcx4K4HMIgjI2zWGhdCzd2ytQwKZWWoMq0O21mmIH540X0IeQjj3k8Vq6WYnsiexncJ/zP4DxN8XNZGoJQHQDwJK1bYPPn275+V/iZwYCYikoBBISBggwXxIYIFcglwuumOKKtBJAlDk3lEAZFfwI/gSQg0yS5fmQ0bOHDWqUWvnORql+5I00QtwQN4R4evTr098d++agqM9pxF2jXuu/vVFvxbk3dDrx6dBAeS8u/HTlzV8xP+r5+e142BN9xyPS1N6PDW1VtsfOGBePdR7t1OsPtx/uNSZaeB+5SLu+17w00YjYZeOI27xcCa53PUXedebgIXkT+Y0Z6UTDPT966Jvd3vzX79I1AyZXFaBQffPNtfb2yWCyfnvd1x+WtqRdOzzUilJH6Ixpmzcvm16ChnzGVIdre8nv/2XcpHX77bHar3bgj/l8UJEmmjVXXk/7+pVeNUiRurLWvwOhX3XWypvk3cJZYdInT/yMciVIKUtK2qbb3SQkr2QPUOZ0Ly58nUDw9eyfN83/31sG/jovvfgqwoaqDARp/NXaH58DClpALIvLho581WSB5AaJ96hNjwoQ6giQKasLkPTXTYBc3TgBSgaZIUBZ3TZJ5DWh7UAJMk3nQDLTNSDX9hYome+7sKwdiVHTTJJ+pExYWYdWzCqmTJxczC0Gy3KGnZLm+Lxitjz6sto2Bi512BmnXXTIQcdcrCHnbUhccsrKMXiFHypMMdFkhbmK1bXbETsdct4Fx/Rz66eZp9jfH+3yeO8xUMt4mFMtSBKRReonE8IJF48dmiCxxQn/9GWESK8B3ZyEAAAAAA==");
 
 export default UserTieHairLong;

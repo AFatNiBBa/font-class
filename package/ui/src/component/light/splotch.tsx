@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `splotch` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/splotch?s=light splotch}
  * @preview ![splotch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/splotch.svg)
  */
-const Splotch: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M189.1 416.1L86.4 425.5C65.8 427.3 48 411.1 48 390.4c0-7.6 2.5-15 7-21.1l18.8-25c14.5-19.4 22.1-43.1 21.6-67.3c-.5-20.2-6.6-39.8-17.6-56.6L37.3 158.5c-3.4-5.2-5.3-11.4-5.3-17.6c0-20.1 18.2-35.2 37.9-31.6l42.8 7.8c47 8.5 94.9-8.8 125.4-45.5l22.3-26.8c6.7-8 16.6-12.7 27.1-12.7c15.2 0 28.7 9.7 33.5 24.1l15 45.1c14.2 42.6 46.9 76.5 88.9 92.3l32.3 12.1c13.7 5.1 22.7 18.2 22.7 32.8c0 11-5.2 21.4-14 28L404 313c-33.4 25-51 65.8-46.4 107.3l2.5 22.7c2.2 19.8-13.3 37.1-33.2 37.1c-7.6 0-14.9-2.6-20.9-7.3L269 443c-21.8-17.5-49-27-77-27c-1 0-1.9 0-2.9 .1zM51 237.8c7.8 11.9 12.1 25.7 12.4 39.8c.4 17-4.9 33.7-15.2 47.4l-18.8 25C20.7 361.7 16 375.9 16 390.4c0 39.5 33.9 70.5 73.3 66.9L192 448c20.7 0 40.8 7 57 20l37.1 29.7c11.6 9.3 26 14.3 40.8 14.3c39 0 69.3-33.9 65-72.6l-2.5-22.7c-3.4-30.2 9.5-59.9 33.8-78.1l62-46.5c16.9-12.7 26.8-32.5 26.8-53.6c0-28-17.3-53-43.5-62.8l-32.3-12.1c-33-12.4-58.7-39-69.8-72.4L351.3 46c-9.2-27.5-34.9-46-63.8-46c-20 0-38.9 8.9-51.7 24.2L213.5 51C190.3 78.8 154 92 118.4 85.5L75.6 77.7C36.2 70.6 0 100.8 0 140.9c0 12.5 3.6 24.7 10.5 35.1L51 237.8z" />
-    </Icon>
-);
+const Splotch = createIcon("splotch", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABkwAAAKLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCUQsGAAE2AiQDCAQgBYMtBy4bTwXIBv756uzvq64kA6DHnW9pR3MlnD20M//ncs/PNh3g9xM/lLFWgSyQaM7nCSQyvQ0USEKZBuAx5HuL90yKKbsmk6/pcFyHU2dgdVEl8IFZb+4CS8tb6TWpzAKDdQAAUAwAAFC3c/uWXHumZ9Ld/6dBd2kOCED1AHAR4OBEBgKgBg5Cn4HFBSwWwTP9/5//A10QAMiPoAbb0p2LgNUAgAXAYKxtUCfcF2k7hSysc4f02gVJazQ9ubgOZm1Iq6c1Wpu8NrGiTlc+W7y41obvTs3U5uD+ggLtTl2X0EL7Utalpmp1wqqwBUnVdIGZYZ3Wsz7F0zpu596izloYrKrd4XuLH0xL05bqrXUwe3rahsJC3S6Xpfz8nrBdnqd9+bsKK2mPty9lWmLd3AMxB97m3B10l0vZg0LpF8bs3x8TPtSjp436uYgmodH79j3fS8Xw8GHdOBQ7Zs4btg0a/Oc3XQLcfsyMi3drJRG1YEN0xJyWpBWXmX/8eFLoF4/rSVH16j0aFII7syWZyQ/zEzILKN3yCSuVeOxYpd/k571hQHhE0odK3UiYN+/kWl61axsVf3QyAAgQLJj5Y0nv6BpfQ8INAC8uvP+KrxH/rxnMASAEA4DAKfG/BD0MAAYEAAAAGE0i1wAIMMzCINUI1libIgwaGPyEgUM6MWAJozj4yKKicLi7PQ6yoYgEegIMEYwFh0pMBksCJ8FHDW7U/CTIcUjJnaT/YHojjTTc5pYtVcat5k7bquxjAq9Xd499b1IcC+IkgxjNKCYwkAEMZYKix9GyOZGRNFpRDfkgLmUpRRlcquGae/d6J6qNYzxDx6p9k+q496sek9azg4gMwlqOVoMBmcD4pxj0HwIAAAA=");
 
 export default Splotch;

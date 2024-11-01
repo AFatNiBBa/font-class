@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-chalkboard` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-chalkboard?s=solid person-chalkboard}
  * @preview ![person-chalkboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-chalkboard.svg)
  */
-const PersonChalkboard: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-8 384l0-128 16 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-288 56 0 64 0 16 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-64 192 0 0 192-192 0 0-32-64 0 0 48c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48L368 0c-26.5 0-48 21.5-48 48l0 80-76.9 0-65.9 0c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9L120 256.9 120 480c0 17.7 14.3 32 32 32s32-14.3 32-32z" />
-    </Icon>
-);
+const PersonChalkboard = createIcon("person-chalkboard", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABgAAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCIAsGAAE2AiQDCAQgBYMtBzgbKAXIPgxvjFGaBMmwBSnQBEsOpUs3pY9zMBeU/rMmQxF8v9/rnvsgQOgShSosFKGOA1Qs4wosVI3s+E6EK9sa8f2HdfX+zKwUt/3dBOHgBKtB6S60S0J0lEO/UpUIHrVOua0wCLR5IBjD52+A/3rVUzd/2GjYL/7XMpiYwljaBgzjzsOnt9IR9LkBcrC+9oHa7bvp76f+sKba+eNNfCiRSVE0i4jzCUxsN68Smg2jRHF+O79LXArdIkkSL/mG7f4w/uUvIY9/TkH6kr7Aq3Sj8Z/ZBklNBoBoBgAru7U1uHPwT8RnZeK7KhAQK4BhhAwZ+hGYJwr0kwyDXC74Ayu5/8BAAFFCsMSYmy1vwC2AHCQpl3RddYVOarCHq1u/6llNdhGDHE0Voo4QTx0t3erqoUgan73a2RE10VxGsFrzBUcMjWOOaBjbCLKCg/ZGiKg3xxeRxXsJS8IkT24tYV18/Zb3+N0+f5PfyR6WnyQnBisan59DH2WxtZYyyrkL77McH/HlR+r4frzgP7ThmppVc+vRc7WRSefN+py778cuBwgE3+br9PxJAPy7/ym7Vzk8pTNUSyDIJqu29GQQnHAAqRQLrOCOCMkJgVxrvY8ChFoESEq1AmT6GBHI1ZpAoDAojECp1iZR5CqEdu0NJPUuQGbOIsi1uwCFea/JUntkiqdQG8VnX9rSHi2ZxX6PjxO8rKhKXZLBySRvW20L3GGnhRgwacKcfn2GzXXMjJrMvHGliC7xQ8zPw4cl8HH9cX6DfjNmDZs0EadJ4vtBmwXc304OgYidUpAkIpn0tMP930396JsJAA==");
 
 export default PersonChalkboard;

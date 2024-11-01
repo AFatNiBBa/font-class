@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-q` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-q?s=sharp-light square-q}
  * @preview ![square-q](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-q.svg)
  */
-const SquareQ: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 64l0 384 384 0 0-384L32 64zM0 32l32 0 384 0 32 0 0 32 0 384 0 32-32 0L32 480 0 480l0-32L0 64 0 32zM128 256c0 53 43 96 96 96c20.6 0 39.7-6.5 55.4-17.6L212 258.6l-2.3-2.6 42.8 0 49.6 55.8c11.3-15.7 17.9-35 17.9-55.8c0-53-43-96-96-96s-96 43-96 96zm224 0c0 30.4-10.6 58.2-28.2 80.2L364 381.4l2.3 2.6-42.8 0-22.7-25.6c-21.4 16.1-48 25.6-76.8 25.6c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128z" />
-    </Icon>
-);
+const SquareQ = createIcon("square-q", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbQAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBZAsGAAE2AiQDCAQgBYMtBy8b4wTIjpSqm2PHw/N2fZ37qroHUM2PRmZmRGDGTNDKQT5IF467vu6nbp53HgX4nngoa9HSQBbYnucJJJpNTygLLNMAJOZ259Yyh1orlzRCkuOb43RAHmeiixLpVPoFx+Sm8asWDpLkGYCoD4CR82dP9cWH+BDxS+UZ8YvJCIhRoBDIkKG1AENkAq3lCuRywYeoVPgfWBBAlOmnJJCjjHlYAshBkud5jQatWtQq1cnn1SrVXJyyVCeyqN2pVs06IoWoWTsii5h7rmPErb6HOs+LplErZsadON/pdr+nHW62rnW2y9BoEjWjU7zs892wz6quDP98/LdD37Wvul3/9u/tf1nxi3Z79oIgoCtF8UVhr0K6SMv2vK9+m9t7220eNUlDnVXTrGhx5vfmjdU/1Lm0U0OdrFb94YzRfUqlPqNn0HkgEDRa9Hf1hvxfvVYCn17/+Te8Riof4ot0G9UlEGRdKl0siS8gvhAAgBQ7VMUXCCTT5OSqtR0XINREgKSspgCZVuoLkKupswAlbfUVoKym2TKR1xAaW1pBUttmkOlnF8g19gSUDPG9UdY4MteiHYP+2CWMs9DYqaJntx7FoGIaKIy3kGk4uNiWO+yIhY44a4WNNthmuWVW22aQLaba2603bgWP9aBCT930UBikOI7vhXlkbLHV6jF3Pmaw4r7ewY51fUfUEsXsxZEkIlV/nUrXzQ==");
 
 export default SquareQ;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-from-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-from-line?s=regular up-from-line}
  * @preview ![up-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/up-from-line.svg)
  */
-const UpFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M82.2 192L192 82 301.8 192 248 192c-13.3 0-24 10.7-24 24l0 120-64 0 0-120c0-13.3-10.7-24-24-24l-53.8 0zM192 32c-11.5 0-22.5 4.6-30.6 12.7L45.6 160.8C36.9 169.5 32 181.3 32 193.6C32 219.2 52.8 240 78.4 240l33.6 0 0 96c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-96 33.6 0c25.6 0 46.4-20.8 46.4-46.4c0-12.3-4.9-24.1-13.6-32.8L222.6 44.7C214.5 36.6 203.5 32 192 32zM24 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l336 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 432z" />
-    </Icon>
-);
+const UpFromLine = createIcon("up-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABaQAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBWQsGAAE2AiQDCAQgBYMtBzMb3ATIHgl27MhWxHD7YwQPc73NS7K/AJQCMChAtHVlVxYO7xzK05tfte8Zcms//5fTG8+PDvAP8kMb0+bi5eGczxMIeC3LSwMPLNMErLcNT44wPI0QC7SIxtPxekAWe+OsAsm15CvOtA+Nf9RxjEQhBRCVATB45tTx3v+O3xFfihFfjEVADAa5QIoU9QXoJxWoL5Mjkwl+R7FY/gNzAogS/M4EZChgAuYAMpBIs6xay/LlChWyGeUKZWfOnDZzepSNh7VBHnG9xXzqePVpcdGhGpfKlQtxjYjm2JNaV+pFECca4nDNGXG57Kx97FrzCvGk3p3yTZ5Xfv6fryu+mlxczy/Sw+QauwyyS43JPdbfqfp1y1bfq1f7/q1aE4uk3753GqSTwtJFmqgWVKv2w9zxteqTM5Nr1Jg8SX8eBIK3R/9KpX7/ly6XgD9fPvwVFX/HoeQ5SktAkLYrtjMvDkEcEgCAJHZoEocQSIyQ4nvlXRYglEVAokRZkKqnMsiU1RYUNNT9fomypkpFVkaobr6ARHmbQaqH/SBT3QtQ0M+HokT1SJNKTAnxT5c2QtPD1+WdO3TK++Rm05DyhK/LffNjo9UOHGoNZ62w0QbbLLfMatsUu8X4erv1RnjMcF+U66yDTnJ95Ned1+MzLLfFVqtttIFW6St/n7Syw5/cGuwEc3axKZEQSfntm9pHn94+7gAAAA==");
 
 export default UpFromLine;

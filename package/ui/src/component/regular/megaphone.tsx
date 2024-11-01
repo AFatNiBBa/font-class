@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `megaphone` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/megaphone?s=regular megaphone}
  * @preview ![megaphone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/megaphone.svg)
  */
-const Megaphone: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M552 32c-13.3 0-24 10.7-24 24l0 5.7L48 192.6l0-8.6c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 21.7L0 224l0 64 0 18.3L0 328c0 13.3 10.7 24 24 24s24-10.7 24-24l0-8.6 117.6 32.1C162 361.7 160 372.6 160 384c0 53 43 96 96 96c46.9 0 86-33.6 94.3-78.1L528 450.3l0 5.7c0 13.3 10.7 24 24 24s24-10.7 24-24l0-24 0-352 0-24c0-13.3-10.7-24-24-24zM528 400.6L48 269.7l0-27.3L528 111.4l0 289.2zM208 384c0-7.1 1.5-13.8 4.3-19.8l91.5 24.9c-2.6 24.1-23 42.8-47.7 42.8c-26.5 0-48-21.5-48-48z" />
-    </Icon>
-);
+const Megaphone = createIcon("megaphone", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbwAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBbQsGAAE2AiQDCAQgBYMtBzAb7QTIjsQ4JvJIF42HCOLt4qt+M7sf0HybGRjDOCi67BxEUMpI2RYM8/xf7vk9PzrAz0dwaHvoPZ9Ae1TPEwg8itsWb8rCLFFsd7ZnS0pzaSTNQo7Pjs8O8vg+ziqRrqU4kz40ftfMKZJSBiDqAmDs4vkzff5L/BLxTeVD4hvTERBjQSGQIUNLAUbIBFrKFcjlgl+iUsH/wIIAooyvmUCOEhZjIyAHSZbnQ6vVqlGqlS+qUaq+/2FTsSYirncSOh5zreOTFhEL46JbXZ8N/Lj7izYLFSFbvOySdWvXRayPtO54k4VxteHFDo8bX27e7nnd53+2vanOd+Y2Kvv5hGoaza3Bxuobo77GYZtqDhZW1av6/PmxPhdPr33XW1mzm1qjqahN9mzhWW2JXqHd6Lo1hixvqt03Xxd++C4DAsH/y4+9XF1nxD9VayTw22d//6ucXfkljUnPUVUCQdaj0sOKNAYQHYCb4pB2xhcFktky/K41XRYgVEeApKy6AJkW6gqQq667ACWtDRSgrLr5MpFXExpa2UBS016QGeQwyDX0PigZ4QunrGFk7kU6B/m7i5vUQxNXFX179SmGFdOUUB6Dx8XhxbLW5RC1usJGm+y2ywEbbbDVgQ7ZZ6Z/0E6TLHiiHyr01UsfhWGK4+IxuMhG++y3VafPlxmuuG91ccge7gpmwpj9rE0Skart3Lh57RMEAA==");
 
 export default Megaphone;

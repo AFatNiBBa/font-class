@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-arrow-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-arrow-up?s=solid circle-arrow-up}
  * @preview ![circle-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/circle-arrow-up.svg)
  */
-const CircleArrowUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 215c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71L280 392c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-214.1-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 103c9.4-9.4 24.6-9.4 33.9 0L385 215z" />
-    </Icon>
-);
+const CircleArrowUp = createIcon("circle-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYwAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBNwsGAAE2AiQDCAQgBYMtBzYbvQQRlZoZyH4k2LaK1y9EW7bFMBwYFuFLBPVrnz1v9y4AtGFmBeSJdNjGAbG9ik1FRv8OqX3HFwB/f/O88yjAZxTK2Lg0kAUyxjhPILHue94XyQLLNAHL9xZvl/VTdorkGU3S4bjDLTohj/vZSWWkK+kDTrWHxl9NnCSpkgGI2gAYvXDudE8qoiLifUnx3lQExGhQCGTI0FyAYTKB5nIFcrmgIkol/gcWBBDlBGsCOXIMxxRADpKU582aViurkS/IeKvO/z0z4vPY53FszLMZnxb8mPZh1BNHRz+d/nH+0iuNr3VYEOJyuxtNI+YFYLnabGHcbD+/zZ3ad/7xYcMHpZHjnebM0OZjxzYfeub0eOMxTeijnb58qVFjwgS/NJg9u8EvkUFGazt3dpavg0Bw/2SrVStrDftfuVoCf+51+opKT5J0B5UlEGTdSt0sSyARAIAUB7RJEEj6S+Su1V0UIFRFgKRcVQEyzdQWIFdVVwHKtNRfgHJVzZWJvIpQ3/IJSXW7ITPAIcjVdxfKDPPaLlc/Mh8SPEB4wqXyCUiM3yt69+hVDCmWqSG6BVfWQ4ttrdOB0OpMSBt27ti3ft3mfUDtme7t3z7BIse/WPTu0asYUhwX6+MF6/fs3bxzR90ytLhvdTpgD3cmMxHaPpEkEanWVxt/99V79uw82H3/LgAA");
 
 export default CircleArrowUp;

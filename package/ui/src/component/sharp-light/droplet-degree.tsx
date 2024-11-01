@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `droplet-degree` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-degree?s=sharp-light droplet-degree}
  * @preview ![droplet-degree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/droplet-degree.svg)
  */
-const DropletDegree: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 320c0-18.5-8.9-46-26.5-80.1c-17-33-40-68.3-63.5-101c-23.4-32.6-47-62.1-64.7-83.4c-1.9-2.2-3.6-4.4-5.4-6.4c-1.7 2.1-3.5 4.2-5.4 6.4c-17.7 21.3-41.2 50.8-64.7 83.4c-23.5 32.7-46.5 68-63.5 101C40.9 274 32 301.5 32 320c0 88.4 71.6 160 160 160s160-71.6 160-160zM0 320C0 235.8 121 83.6 170.9 24.4C183.8 9.1 192 0 192 0s8.2 9.1 21.1 24.4C263 83.6 384 235.8 384 320c0 106-86 192-192 192S0 426 0 320zM480 112a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-128 0a80 80 0 1 1 160 0 80 80 0 1 1 -160 0z" />
-    </Icon>
-);
+const DropletDegree = createIcon("droplet-degree", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfAAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyBdwsGAAE2AiQDCAQgBYMtBzUb/ATIhuB5vaefc5MFnAWMXvqUSlVk9y5OPc95KIBvIQvaWDY1Flq+V9d5BQo4tk9rBSdYTStgtXZ2i/+IfjF8+hRJhs1nWBwhj+eikzKkq+l9nC4fGj9p4BRJngGI6gAYPnfmZC9/E99EvF96gnjfRATECFAIZMjQWIBBMoHGcgVyueCbKJXCf2BBAFGW3DmBHGWxCOsBOUjyPG/UrEqVSmWq5HPinIorj/d4dMSrXS7V5Qe4UPv+YS93e9gXg1+Y/dXQl+ZWvqlnxGMjI17reF+943Gx/T3DX+n+SJPPp30868sZn85Zea3Nna1ur3+19R1t72pU8aaBz/V/psn1/Z4e8GzTFvdWv/eX5u+ved/So43P3zp8+CPUiBY1H1Hnrecbx8j33x8ZEN9/H9cta/Q9/69i94N9oM+Du1f9/32jmD579vSAOHs2Al9/VHHLwYNbKlb8scprd+9eW/l2IBCc7d+lwtJqg/4pXymB75797Q/6GSm9nKR7UV4CQdap1MmiBBIBAEixR4sEgWSWnNiVXRIn7YoI1sqqCDvTSPUGuYo6QhlN9SYXN8+UibyCUNtiQFLZdsj0cRhytT0GZQzyllFW7ch8jPYQ+ouXMMYio2cV3bt0KwYUw4QybkOmyYHFstRuDzXa46A1ttpil9VWWW+XwXaYbO+22ZgZOtoXFbrropvCAMV2fr97jtV22Gm9rbbkaQYqzmvt7Jn3t4eaCGEPniQRqeoF1zet3tX5cQAAAA==");
 
 export default DropletDegree;

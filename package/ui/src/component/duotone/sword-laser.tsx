@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sword-laser` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sword-laser?s=duotone sword-laser}
  * @preview ![sword-laser](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sword-laser.svg)
  */
-const SwordLaser: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M207.1 248.5c18.8 18.8 37.6 37.6 56.4 56.4L505.7 40.2c4.2-4.6 6.3-10.4 6.3-16.2c0-6.2-2.4-12.3-7-17c-9.1-9.1-23.7-9.4-33.2-.7L207.1 248.5z" />
-        <path d="M172.7 236.7c-6.1 6.1-6.2 15.8-.5 22.1l81 81c6.3 5.8 16 5.6 22.1-.5c6.2-6.2 6.2-16.4 0-22.6l-80-80c-6.2-6.2-16.4-6.2-22.6 0zm-11.3 33.9l-23.7 23.7 80 80 23.7-23.7-80-80zm45 115l-80-80-20.7 20.7 80 80 20.7-20.7zM181.7 425L87 330.3l-2.3 2.3L10.3 407C3.7 413.7 0 422.6 0 432s3.7 18.3 10.3 25L55 501.7c6.6 6.6 15.6 10.3 25 10.3s18.3-3.7 25-10.3l74.3-74.3 2.3-2.3z" />
-    </Icon>
-);
+const SwordLaser = createIcon("sword-laser", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdwAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBYwsIAAE2AiQDCgQgBYMtB1IbBwXIHomxLZrtB4vTNFoE36/9W587EwCeIGIxOCAWhlhFRREK9St2geXWS4SK/9TDfJ+4GXedRwEu8tDGwqVRtjCf8zyBgMfCdV5A0Qu96RvY785mx4TG40ASkhzfdnwuyONHdlQ50q30CRf4fwDjF40cJamUAYiaABg5f/ZUr8uiLMWn0kvikykIiFGgEMiQoakAQ2QCTeUK5HJBWSpNWZQuCCDK4/szUB4VMAWrADlIcpHn1SpVqlezSrlq+TzeXXn+1ebGtQY36s+L63WbdujcYW50jnlzrdghKtBltW7MiasO1hsa16qcaTA//LPXirjXcXHciEP1r7dZ0ep+zfu/tfy09pOHP06bMcOdu7dvT5/u3r1na9euDbi1pk/vspNEoXfU9N67zA3UNmmiWzVq3PqUX5w4SUtf3pyMVq3+Yl6lymv/r1rxbyAQrF1QZcLyGkP+UyWBn6/+B/2OSq+TdB8VJRBkXUpdLEkgEQCAFHu1SvBVINNHznxqVdcFCJURICmvsgCZJmoKkKusswDlNNdXgPIqmy0TeSWhrqUNSaragWT62Yfk6nqBlDPEW728upGpFq0Y9M8uYVwPju0qenbrUQwqlo7CaAvpm4OLY7HDXkp0hE1rbbPVbmustsHuDt5pqrXHFuN20FhfVOipmx4KgxTX/qMwD/Wddtkw5+7bDFa8VzvYu8/vCEqSCHvpy2REiqzOLumzd928cteanV2lNFVv5AQSAAA=");
 
 export default SwordLaser;

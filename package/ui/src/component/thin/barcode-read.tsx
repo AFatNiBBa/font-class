@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `barcode-read` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/barcode-read?s=thin barcode-read}
  * @preview ![barcode-read](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/barcode-read.svg)
  */
-const BarcodeRead: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M40 16C26.7 16 16 26.7 16 40l0 112c0 4.4-3.6 8-8 8s-8-3.6-8-8L0 40C0 17.9 17.9 0 40 0L152 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L40 16zm96 112c4.4 0 8 3.6 8 8l0 240c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-240c0-4.4 3.6-8 8-8zm48 0c4.4 0 8 3.6 8 8l0 240c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-240c0-4.4 3.6-8 8-8zm56 8c0-4.4 3.6-8 8-8s8 3.6 8 8l0 240c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-240zm88-8c4.4 0 8 3.6 8 8l0 240c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-240c0-4.4 3.6-8 8-8zm40 8c0-4.4 3.6-8 8-8s8 3.6 8 8l0 240c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-240zm72-8c4.4 0 8 3.6 8 8l0 240c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-240c0-4.4 3.6-8 8-8zM560 40c0-13.3-10.7-24-24-24L424 16c-4.4 0-8-3.6-8-8s3.6-8 8-8L536 0c22.1 0 40 17.9 40 40l0 112c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-112zM40 496l112 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L40 512c-22.1 0-40-17.9-40-40L0 360c0-4.4 3.6-8 8-8s8 3.6 8 8l0 112c0 13.3 10.7 24 24 24zm520-24l0-112c0-4.4 3.6-8 8-8s8 3.6 8 8l0 112c0 22.1-17.9 40-40 40l-112 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l112 0c13.3 0 24-10.7 24-24z" />
-    </Icon>
-);
+const BarcodeRead = createIcon("barcode-read", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABrAAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDIgsGAAE2AiQDCAQgBYMtBzMbpQXIHomxLYr9CPXtIh6enyv/3JdstkNFTJlZASn6RBrJrar7KByQJdATERlSqz//13x+z48O8JPcOzuUaMxFhKVFtcDE9ubVNKDZcDZR3Nm2N0HU1o8QaWwgj28d0UJ6NX2Dp70PjV/1cp8kywBERwAs3L55rSc/xU8R3zQjvrEaAbEIlAIZMvQVYI5MoK9ciVwu+CmaTfEfWBJAFILnJZCjjo/RBshBUs3z7o1Gnad079mz1tLIt+kbqrtf7yle6PpS94g7PV6u1eLFbi90rW59sdvI1Ms9ag1hqeZZ1fZBTFMD218bVo2KEHG1eNjtRcR9oVatXRMbD7q/FBE7o68OPR9q3+2uL1Q3Pe2tPoPe7fju77459o3hH23sdkFx4EBxQae29y44UBQHLuw/f6D4a4hJqyY0hOuaZwNtbx1FWW7d3m3jqVGd3mu7zdD6+YUg90hQt42tPXTuB73Gxm5AIPj56Ynf7u8w5/92tQR+aftz+dHNJ2lBehftJBBkY5pj7EkLQEwHQTjFNYNmviiQvK0qeNe6lwQIVQRIClUBMn10FCBXNVqAFv1NFaBQtVkm8orQ1d4aJHUXQWaaGyDX1WegxRyfhwpdI4NcBu6Y78bEZW1o6bJy4rgJ5axyMqNkgZGynbPL1dKIa7JiJF7rmPPOueKoI0660kIuWRu96qxlc/BSP1SaaJwJSrOUu/P3V29z1CWXnXTeOXeR2crzrSNcm68/EqtJgDtJWpKIVP/hBNf5I0fHvvQA");
 
 export default BarcodeRead;

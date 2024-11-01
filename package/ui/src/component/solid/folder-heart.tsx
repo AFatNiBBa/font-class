@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-heart` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-heart?s=solid folder-heart}
  * @preview ![folder-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/folder-heart.svg)
  */
-const FolderHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 416c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l128 0c20.1 0 39.1 9.5 51.2 25.6l19.2 25.6c6 8.1 15.5 12.8 25.6 12.8l160 0c35.3 0 64 28.7 64 64l0 256zM144 253.3c0 16.2 6.5 31.8 17.9 43.3l82.7 82.7c6.2 6.2 16.4 6.2 22.6 0l82.7-82.7c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3c-16.2 0-31.8 6.5-43.3 17.9l-7.4 7.4-7.4-7.4c-11.5-11.5-27.1-17.9-43.3-17.9c-33.8 0-61.3 27.4-61.3 61.3z" />
-    </Icon>
-);
+const FolderHeart = createIcon("folder-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZQAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBQQsGAAE2AiQDCAQgBYMtBzMbxATIHge5OfRGOlXY3kkElc0qq2eWtHvIcywdE3lAFtIjmsQeuh/+xrsEtpKZlDBDrvHn/3LPzzYd4Dc6tD30QMbG2VzPEwg06uVtCizKAss0AettQyJDonB0IkRIIhpPx+sEeXyRpYb0LMGd/qHxqy6ukTRkAKI1AGauX73Ut83RHPFT9SPiJ4sREDNBIZAhQ3cBpsgEussVyOWC5qhW8T+wIICoxXCi5enGuVgCyEGS8rxPt8aaFvm6/FBp99NyxDv9muKtQe91zeL5we8PbIw3K5V41Ejpd7ukXZcqa0Wq0/p4v9tz9rMGXC+3j47xXunyO/q81/q939lHtVepDW1eueSVNm1KMwCNxb/KZS+0fkXvcfy1Lm1XrfTuu+Mlqb6BV7q02eecNl3uat0VCAT3fu6j7a2m/F/fmMAvn/85+hVVm5P0HuolEGRDqkNsSSARAIAU5/RJEEimSvhdmzwWIJQQIKlVEiDTTWsBciWDBajR01gBapWslom8QWhv6wJJk5MgM855kGvvA1Bjiu/8Wu0jCyQ2DNh/XNI8Cc3dVYwcNqKYVGw7JhcbdN2cXBxb5XNlogJH7XPcMWfstcdBZwR5ytLorKPmWcRcX1QYaZgRCpMU1/314XX2OuW0g4471raZrHjvlZ2z51fATZhylHKSiNS0z4eVof4MAAAA");
 
 export default FolderHeart;

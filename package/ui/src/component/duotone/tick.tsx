@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tick` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tick?s=duotone tick}
  * @preview ![tick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tick.svg)
  */
-const Tick: typeof Icon = x => (
-    <Icon viewBox="0 0 192 512" {...x}>
-        <path class={generic.secondary} d="M32 98.3V96c0-35.3 28.7-64 64-64s64 28.7 64 64v2.3c0 3.8-.3 7.6-1 11.4L133.5 256.5c-3.2 18.2-19 31.5-37.5 31.5s-34.3-13.3-37.5-31.5L33 109.6c-.7-3.8-1-7.5-1-11.4z" />
-    </Icon>
-);
+const Tick = createIcon("tick", true, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVgAAAHTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBAwsIAAE2AiQDCgQgBYMtB0QbmQTIHgnZGeZ9EUvdGI14+P/9vu1z3/t/zfwRw+QhrgmSuDWxJOqRRqJ5IqRZVBaRZslJ+57/8yF/f/P8n0cBPqPQ9tBAFvic52HnAWd54tECjyQTb3e27XCo5RVLLC2/GjkeO+T+ZKeVSLfTN1zk/wDGTx2dJqnOAEQjAGYsWTDfh9ZoTfHtf8Q38xAQM0EhkCFDFwEmywS6yBXI5YLW9B+t8V9BAFHGD8hAGRn6YjAgBwmR591qSnX54ppSZUWIu4Pe9ns+4HVHcbzNwrjW5lrlTLsb7RbHjej5pvHNr75t/qb7qpRSpanp0SM8qJKUSx2uGPzqVn39rVddOl5RKgOB4PZ31jRM/l1Vk8CP949fLoiR6Q2qJBBkg/8PtjIOo4iRAgCQ4rCePuzJrG4SOmutGwKECgIkZRUBMp01CpCrGCRASTdjBCirWCATebXQxqoCSa19kBnrCOTaeAclk310y9pEdlVoR9M/tYS5Es1ZKkYMHV5MLIahzHifjONJxbTR/3AoDYBNm+2x20GbbLTNQYHvNz84ZJe5GjbHiwojDDVcYaLCnNwKi8nd74Btfc4+ZZJivdPfYb15ANhJIhxpJZMRKbLal6AMuXFSfcWdLAAAAA==");
 
 export default Tick;

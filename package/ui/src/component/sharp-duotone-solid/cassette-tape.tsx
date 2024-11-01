@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cassette-tape` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-tape?s=sharp-duotone-solid cassette-tape}
  * @preview ![cassette-tape](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cassette-tape.svg)
  */
-const CassetteTape: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 32l576 0 0 448-92.9 0L439 362.4 435.1 352 424 352l-272 0-11.1 0L137 362.4 92.9 480 0 480 0 32zM80 208c0 44.2 35.8 80 80 80l256 0c44.2 0 80-35.8 80-80s-35.8-80-80-80l-256 0c-44.2 0-80 35.8-80 80zm47.1 272l36-96 249.8 0 36 96-321.8 0z" />
-        <path d="M240 208c0 11.4-2.4 22.2-6.7 32l109.3 0c-4.3-9.8-6.7-20.6-6.7-32s2.4-22.2 6.7-32l-109.3 0c4.3 9.8 6.7 20.6 6.7 32zm176 80l-256 0c-44.2 0-80-35.8-80-80s35.8-80 80-80l256 0c44.2 0 80 35.8 80 80s-35.8 80-80 80zM160 224a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm272-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const CassetteTape = createIcon("cassette-tape", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABkwAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCKwsIAAE2AiQDCgQgBYMtB1YbUwXIhofn/as6971f1YD+wIzg6vECyKCcDo2os2W48ShcRnD9zzWfX9rR3QbyeSk2lOiwaKDM5xOYzqKpmnBgm6ltd7aHgsUlIY20HJ+VfjlDEf/mh1VIz6Xv8Aj+D2D8aMjDJE0ZQHQCYNvk4b2mzsf5FN/VPyK+swcBsR2UAhkZowJslAVGFUoUCsH5VK9zPur1kgCiCj8hgyqacDseBBQgKeSiaOtvauobaGqptBW1lkrz5P29LfF0PDDQHE852trW+sn8N8ZfWfDmmrb4eN7rYy/OfW1l7ZmBp/uf7H2q7wojrifljvaOFM1Ri37Dbu2NIxMjH31pXsTrq9riUybXxMvz31jdGh+9NXp88shkSxyN1ulvdL7x87Tvrv7Or7923Xyzm7tgx7v70XlVLaJ2VaecV99yvr39vCM7OuTe7dWtOHPKaQvusk7LyDocd9rU/nejBlNuo4s7ZlwSzX/TwrYDcdu1285+f0nHxt8aWxK4+MWvP0gP18+nrekNNEogyAvrC51KW0FxBhBLcbfp1A8dQCBbpRDeavW0AKEZAZKqZgDZiE4oNFsAFeNWnVHV7LAsiiah12kFkla3QbbaPVDo9SFUbPRlvKo3svjJhUf++kuzu0V2jSqXLV5ari+HBVkhUVI7uKFctsy9WzfMg62udoub3ekqV7rOnQ19u72pu9xk94za5YtKyyy2VGm9kl22n6HmKre7w3W0ij/MBuX+wFx3z9vPA3sSRC63KMtEitx3xV8Z751XLboEDIuOcosBQnVsAQAAAA==");
 
 export default CassetteTape;

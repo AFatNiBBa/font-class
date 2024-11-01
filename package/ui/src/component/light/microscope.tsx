@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microscope` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microscope?s=light microscope}
  * @preview ![microscope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/microscope.svg)
  */
-const Microscope: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 0c-17.7 0-32 14.3-32 32c-17.7 0-32 14.3-32 32l0 224c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-128c88.4 0 160 71.6 160 160s-71.6 160-160 160l-80 0L16 480c-8.8 0-16 7.2-16 16s7.2 16 16 16l192 0 80 0 208 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-101.8 0c51.7-34.4 85.8-93.2 85.8-160c0-106-86-192-192-192l0-64c0-17.7-14.3-32-32-32c0-17.7-14.3-32-32-32L192 0zm0 32l32 0 0 16c0 8.8 7.2 16 16 16l16 0 0 224-96 0 0-224 16 0c8.8 0 16-7.2 16-16l0-16zM160 368c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM96 432c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-192 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const Microscope = createIcon("microscope", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABgwAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCLwsGAAE2AiQDCAQgBYMtBzEbMAXIhofvdb6d+yx7EinfQVIYcYG5aAGgQ1VLtWdbrFJ7/q+pF8+r/BsdWuQitTjKIlJLYOBrS5/uzU9ophOwmduIA3XBhxWDyBQ+xBCHofiELL6KieqkN1KF55Kj4m/9PUyS1QBENwAs27Njk+9b0Yqo2p8QlQ0IiOWgFKghOIggWGgHPSFTIpMJWtFu5//AkgCigd+WQIYG7sDDgAwkWZYt793RUdQ7st1FPT/wZK+Il+EjLxP3936lKOKpvq9FxB+Lvtn1+8Kvd+b5y71e6V10vNb31T55fDXlvRF/bv91d8QDfV7NXX6uyAsxLgyRR0QRa8HYK9X1pZd7bU1XDH+z25v/DqtOV777rvk4jzez+HizBT2ae78VUVVh8BVVVbL1+1az2fq+xO7Tzp07m2Lbrl3bYumeHOyS4900WyBajkLd4s1uQ7c00FJ3M5ptC3+v4nUgEHy+5cRDR7ouvNGpSOCvL/+/QT8j7e+T9CY6SSCoTWxPdDCBRAAAUtxqeIJAck2GndrFqwKEHAGShlyAmoG6CZDJTRCgbohZAjTkdqiJrLPQy6EKki6ugZrZ7gGZXj4CdQv9kGjoFTX9U7VH/f5lrZboqm3ltMlTy/nlsKFoKiX7xQXldmDsrTQwDheddsVlNzvlpHNuFsx1m9K3uGT1DFvli0rTTDZVab7yuH1/erdTrrvJOVdcjpssUN6PjHXrfPw4hBOWnK4sSUTKH67yDAAAAA==");
 
 export default Microscope;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard-list` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-list?s=duotone clipboard-list}
  * @preview ![clipboard-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clipboard-list.svg)
  */
-const ClipboardList: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 128L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64l-49.6 0c.2 .8 .3 1.6 .4 2.3C290.1 72.6 304 90.7 304 112l0 24c0 13.3-10.7 24-24 24l-88 0-88 0c-13.3 0-24-10.7-24-24l0-24c0-21.3 13.9-39.4 33.2-45.7c.1-.8 .3-1.6 .4-2.3L64 64C28.7 64 0 92.7 0 128zM120 272a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm0 96a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm40-96c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16zm0 96c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16z" />
-        <path d="M113.2 66.3C119.6 28.7 152.5 0 192 0s72.4 28.7 78.8 66.3C290.1 72.6 304 90.7 304 112l0 24c0 13.3-10.7 24-24 24l-88 0-88 0c-13.3 0-24-10.7-24-24l0-24c0-21.3 13.9-39.4 33.2-45.7zM216 80a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM72 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm0 96a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const ClipboardList = createIcon("clipboard-list", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABrgAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CCdgsIAAE2AiQDCgQgBYMtB1gboAXIhof/14nepy/7xHIYFACGPSkAj+1U3oCH0acrwezp7935P//0AZ/RRxlrg6yKx5icQBdglm8qkTTvsi5Da3De4EMObQrlR8jjRnqgQvZc9j0exv8DGL/q5gGZWgIQbQEwd/P6lb5sRCOL75sfEd9bgYCYB0qBhISeAsyQBHrKlcjlgkbWbNKIZrMkgKiKXyKBKup4Hm8AcpDJVfK8W61WG1ertWpVr7TKN9UrxfYXhkd8MPitoe91e6uXeHZAUbzdPeKVwRufH/Rm1+cGvtNjwwuD3+r27IC3uwu0lAXcc6e/YWCreGf4Bz1SPD/s/UFFPOVu3Mem5c9EEW8OebfrxpggivaNzc90qcdTnZ7sWMTTnY0e1O/9tu//3vf7Q987c3PHXNb+/PPauTt+bddVp7Vbtqzt1FW7Xw+1GrCOKJyHX0BlD9HNSUuLdu1e5dU4KOYYdhhH8EEqGHe8/vJDWDV4d+vGHY3W1cie0f1AIHj56MDPd7eZ8X+LegZ++fjPf6PbNb+MO9n7aCEDQRrRHGFH3AG0JqQ/KotL+sUdSxBIdqlIn7WlpwUIBQJkqgoBkh7aCpArDBegoreJAlQV1ksirwkd7RxApqWzIJnkJsh19CGomOGrpKpjJE1KaTHqFzF+0RRauK0cO2pMOa3cbepofUcEy9PLy/qQS3xoKDzokNNOueCgA466MEHOWZlfdNKiI3ihDyqNNcoYpWnKx52X/KZJcs55R7fZ55tMV34fD3HpePJQaGVS1HH2JInIInX2IkgjLIw06fJIDT+u6xpruAEAAA==");
 
 export default ClipboardList;

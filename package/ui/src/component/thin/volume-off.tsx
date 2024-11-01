@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volume-off` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-off?s=thin volume-off}
  * @preview ![volume-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/volume-off.svg)
  */
-const VolumeOff: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M290.2 48c-3.4 0-6.6 1.2-9.2 3.5L143.2 174c-1.5 1.3-3.4 2-5.3 2L56 176c-22.1 0-40 17.9-40 40l0 80c0 22.1 17.9 40 40 40l81.9 0c2 0 3.9 .7 5.3 2L281 460.5c2.5 2.2 5.8 3.5 9.2 3.5c7.6 0 13.8-6.2 13.8-13.8l0-388.4c0-7.6-6.2-13.8-13.8-13.8zm-19.8-8.5c5.5-4.8 12.5-7.5 19.8-7.5C306.7 32 320 45.3 320 61.8l0 388.4c0 16.5-13.3 29.8-29.8 29.8c-7.3 0-14.3-2.7-19.8-7.5L134.9 352 56 352c-30.9 0-56-25.1-56-56l0-80c0-30.9 25.1-56 56-56l78.9 0L270.4 39.5z" />
-    </Icon>
-);
+const VolumeOff = createIcon("volume-off", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABZQAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBSgsGAAE2AiQDCAQgBYMtBzEbywTIjtMlNiPiN/Hw/dqX577uoe5l6EUihwDxLONGjQsaMRWLKhW3v0O+avVNf/PPO48CfCBSGzvftG3inOcJdJ4Pz9NAxl9g3/QL2N+dG8Whaa9YaktyPJrjtEEeu+xVR/qUfseL+qHxp57ukmQZgOgAgAXbNq3R0hqtEb/XIn63CgGxEFQCGTL0EWC2TKCPXIVcLmiNWi39B1YEEPX4sARy5FiBDYAcJCnPB1RlXdt8a1lXHHjcZXO8LYoIC2+Jm13flWU86bolwPuhexbvuw39UI7KOyluqk9QPO62NYr4utv7XhFfdf8wrIxtA7/v8P3f/L7/dwNe1E16dEnHbKOOPzR3XK9j8w8dN8o6PrpsYl1Lm7vatEx7ULa9+KDtXW0fXGxbPrh/wTonv/zbsF7Dv19OrkP7QSAYt+b/Sbaf/V9jmcAfzf8u/opqrTE/fY9GCQTZ6Npou+M8xHwBAEhx3sCYj0CyQMJnbeO9AKFAgKReIUCmtw4C5AqjBKjTzxQB6hU2yUTeJHSxp4OkjVMgM9U1kOviR1Bntp+0el0i8ybcF/C/XMxSCS0ZqyaMHV/NrFRfIxwELf1Z1TI7/HzOjcBV+51w3Fn77HXIWYGctsY855ilFrzEF1UmGGu8ykzVdvQ8v9U+p51xyAnHacgs1XluuPN29QicJgEm3oMlEal4qPKYE/v3AwAA");
 
 export default VolumeOff;

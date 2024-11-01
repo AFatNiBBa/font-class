@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-plus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-plus?s=light calendar-plus}
  * @preview ![calendar-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/calendar-plus.svg)
  */
-const CalendarPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M112 0c8.8 0 16 7.2 16 16l0 48 192 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 32 0c35.3 0 64 28.7 64 64l0 32 0 32 0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192l0-32 0-32C0 92.7 28.7 64 64 64l32 0 0-48c0-8.8 7.2-16 16-16zM416 192L32 192l0 256c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-256zM384 96L64 96c-17.7 0-32 14.3-32 32l0 32 384 0 0-32c0-17.7-14.3-32-32-32zM320 336c0 8.8-7.2 16-16 16l-64 0 0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l64 0 0-64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 64 64 0c8.8 0 16 7.2 16 16z" />
-    </Icon>
-);
+const CalendarPlus = createIcon("calendar-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABhQAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCOwsGAAE2AiQDCAQgBYMtBzQbPwXIhoev/fw6t99LauYz9hCRIlomkoRxi0ak1qIil4nL8d+fPz3gJn2UtWgvatB7c58nEOBbFy4PJM0CyzQBy2/ndwYG6BbDS0fRhQzLv2H7DyjjpZirQnoh/YrHyofG7wbdTVIWAKIDAJsO79+nVo96xK+NT4lf7UFAbAZZoECBEQHWKgRGlDJKpaAejYb/D8wEEFX80gRKVHEH7geUICnLclln16TmSmt5qLnSdPyZXtEcEc/148Z3Zn0wKESK52e+P7Ul3p394VARVL0056MZqivOaGltSXF77zPNrfFQ/3NRHOpwD/Y8TTRH3NH3bNOBp3uaQlTcs30RTUFvDD2g3Y2TP+z48M9Jv577q8u+r7ctVLNQWx3N2eudnU1ZRhPM1zdKAJi1rPIWfH8712m7//62jTUzftpGYkHKbpfVN/zdVt9o41E20X6kfB4IBJe+/PT/p7Wv/WdCcwK/ffX3P+5npFGLWvoQEyQQFHMbc52IGkRNAABSXGty1BBIblDid23xrAChCQGSqiYBCsM6BCg1mSNAxZhlAlQ12a8Q5UShx8mGJC2uQArL3YKUenyMVKz1Q6uqJwor5G2I/wlM2S7BbafyovkL8+o8HYBgWGw8XJPV+sxrw8Isuuhcl7nU1c5xtgtcLeAr7ete4xLbV9A2X5QtMt9C2Wp5e/x4/pBzXOkqF7jMpfmYNfL9eKZr1+tnkZUw5WI9SSJS60eqzjNj");
 
 export default CalendarPlus;

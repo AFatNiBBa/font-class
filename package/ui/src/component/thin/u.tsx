@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `u` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/u?s=thin u}
  * @preview ![u](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/u.svg)
  */
-const U: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M8 32c4.4 0 8 3.6 8 8l0 248c0 97.2 78.8 176 176 176s176-78.8 176-176l0-248c0-4.4 3.6-8 8-8s8 3.6 8 8l0 248c0 106-86 192-192 192S0 394 0 288L0 40c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const U = createIcon("u", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABUQAAAHOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBDQsGAAE2AiQDCAQgBYMtBygbhQQRlZLDZD8TTLxrlHvKerZaUgpC+01S/JM8fCQevt/vf2ufe76YNktYwqOoRbdoSRP9VRqJplrfUBmiSQCkWe07BN4itYsUo5JpqpCwCc/mMf+Xe37PbwN+kAM8tTHxdGwbC2yOep5AYr1seolkgWWagLU7Wy2KYZeS1sqSvB45Pg/IccouFaQ76Rmu5w+Nz3pclhQFgGgGwLy1Kxd7UI5yxLP/iWcWIiDmg2GBAgX6BZipEOiXDSPLgnL8/+/+AxFAVOJXJpBRYAzTARkkkfNIXUVDXhNuqN14o0O8X/569ceVb9dG3OqSlHfLXq36sOLNmktGS82lLyPPPFN1d1vlj1jQTAwqUf0fldu0s3z16uWExOrVLDwPBIK38/df2do082t1XQKf7v+r/Iz8L8f5VEK1BIJi8v/kpjgPcV4AAFIcNRrnEUhGJPyu9W4GCLUIkFSqFaDQp1mArNaEABUGTRegUq2VCpFrhHabO0jqHQCFGc6ArN09UGGmh0Gl9iieC3/Z/G8tBSUJxWM4Y/EMC014AWzcD0yr6vmBhrOir3laHUeQO8f3SxYcv4gzFs9yvT5d2v7HmumQwH5TPXteg3hA+il5SBJqSV4=");
 
 export default U;

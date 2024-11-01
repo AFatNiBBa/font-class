@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plate-wheat` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plate-wheat?s=sharp-thin plate-wheat}
  * @preview ![plate-wheat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/plate-wheat.svg)
  */
-const PlateWheat: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 72c0 35.3 28.7 64 64 64l0-24c0-35.3-28.7-64-64-64l0 24zM160 32l16 0c44.2 0 80 35.8 80 80l0 24 0 16-16 0c-44.2 0-80-35.8-80-80l0-24 0-16zm16 216l0 24c35.3 0 64-28.7 64-64l0-24c-35.3 0-64 28.7-64 64zm-16 40l0-16 0-24c0-44.2 35.8-80 80-80l16 0 0 16 0 24c0 44.2-35.8 80-80 80l-16 0zM288 48l0 24c0 35.3 28.7 64 64 64l0-24c0-35.3-28.7-64-64-64zm0-16c44.2 0 80 35.8 80 80l0 24 0 16-16 0c-44.2 0-80-35.8-80-80l0-24 0-16 16 0zm0 216l0 24c35.3 0 64-28.7 64-64l0-24c-35.3 0-64 28.7-64 64zm-16 40l0-16 0-24c0-44.2 35.8-80 80-80l16 0 0 16 0 24c0 44.2-35.8 80-80 80l-16 0zM400 48l0 24c0 35.3 28.7 64 64 64l0-24c0-35.3-28.7-64-64-64zm0-16c44.2 0 80 35.8 80 80l0 24 0 16-16 0c-44.2 0-80-35.8-80-80l0-24 0-16 16 0zm0 216l0 24c35.3 0 64-28.7 64-64l0-24c-35.3 0-64 28.7-64 64zm-16 40l0-16 0-24c0-44.2 35.8-80 80-80l16 0 0 16 0 24c0 44.2-35.8 80-80 80l-16 0zM0 152l8 0 144 0 8 0 0 16-8 0L8 168l-8 0 0-16zM40 80l80 0 8 0 0 16-8 0L40 96l-8 0 0-16 8 0zM32 224l8 0 80 0 8 0 0 16-8 0-80 0-8 0 0-16zm80 220l0 20 288 0 0-20 0-12.4 12-3.1c43.3-11.1 76.4-47.5 82.9-92.5L416 336 96 336l-78.9 0c6.4 45 39.6 81.3 82.9 92.5l12 3.1 0 12.4zm-16 0C45.8 431 7.5 388.5 1 336c-.7-5.2-1-10.6-1-16l16 0 80 0 320 0 80 0 16 0c0 5.4-.3 10.8-1 16c-6.5 52.5-44.8 95-95 108l0 20 0 16-16 0-288 0-16 0 0-16 0-20z" />
-    </Icon>
-);
+const PlateWheat = createIcon("plate-wheat", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAAB7AAAAKaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXCFIgsGAAE2AiQDCAQgBYMtBzIbpAbIjtRe84FupOAfPi//3JfMTPtSZCrm214Jy+6+4B2krek2Ji2no90L0iauqR/2/oBNA5zPZhQZ55EWUecDehrgqKgaPApkoHN5MN7gvBEHGBpD+Qa4OomhhMAsrytAgRuv12SyAAyOg8PkA69Jox5d2nHuhV5Il/8fBl2mDSAANQIgQIADOEAOAqAuDgJycAkAFxfBC/3/n/4HBiAAUBiIGOa5QDKoLKgG9BPBEHXdhFStSeMjYr3YzCwvFO92p59l+ywvJW1faUV2FCfPs95hb89FyOpIduRJ6obYWmZntrTptmXkCElrf2cNTwitum1VbQ/E8lJHMOmwJcYOecAxgz3rIWvVo/DJ68rjuiHiFZyUrqO/M9/Grfb2aqnCHom0Y5bIi5/TZxyLkI2TVHiHv+NtoSvDr7B3ho1CdF0GNpoavyvIHNZdGfj4lI7E+xkwbl00ajPAonlaBuo+zJdi4+z3ELDSQwSM3zBgC/4DOmNxTMw6EbNMJVp07NizFMWBSAFjBlpHh8cpLjYghTgOtDlHNupQ0Ghkz5gD1/R7rYJVLSIx/gdGWqxa1SsFH7+iTwoACBB0vv3n2oDEul/pGQBenXj/Or+E/y8MZgcgBgOAwCn7vyx9FYMBgX+S0XQKGwABRkWJErxrHEsQAMICAsAQxiIAHLLxEQAuljIIgBB5VEMAhLF0wUFuLCKFfjVmiGMS5lCdmZhLCgexEHU57w+TIufJkVz3kv/WlM3bcLNhQaXyFYPawWReKX0YRLq/TrDaWHI6rysFZzKcCYxnKsMYyiimttDJtAtNYxzN57ibfTegEuWpSEBtgt2l+5O7M4zJTGEUExhvB6lDcL63JNPnW5eCFkPAszIpBgMy3pfIVG7GQw4=");
 
 export default PlateWheat;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swap` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swap?s=thin swap}
  * @preview ![swap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/swap.svg)
  */
-const Swap: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M200 118.3c0 14.2-11.5 25.7-25.7 25.7L120 144l0 224c0 53 43 96 96 96s96-43 96-96l0-224c0-61.9 50.1-112 112-112s112 50.1 112 112l0 224 54.3 0c14.2 0 25.7 11.5 25.7 25.7c0 5.9-2.1 11.7-5.8 16.3l-62.9 76.9c-4.7 5.8-11.8 9.1-19.3 9.1s-14.5-3.4-19.3-9.1L445.8 410c-3.8-4.6-5.8-10.3-5.8-16.3c0-14.2 11.5-25.7 25.7-25.7l54.3 0 0-224c0-53-43-96-96-96s-96 43-96 96l0 224c0 61.9-50.1 112-112 112s-112-50.1-112-112l0-224-54.3 0C35.5 144 24 132.5 24 118.3c0-5.9 2.1-11.7 5.8-16.3L92.7 25.1C97.5 19.3 104.5 16 112 16s14.5 3.4 19.3 9.1L194.2 102c3.8 4.6 5.8 10.3 5.8 16.3zm-16 0c0-2.2-.8-4.4-2.2-6.1L118.9 35.3c-1.7-2.1-4.2-3.3-6.9-3.3s-5.2 1.2-6.9 3.3L42.2 112.2c-1.4 1.7-2.2 3.9-2.2 6.1c0 5.3 4.3 9.7 9.7 9.7l124.6 0c5.3 0 9.7-4.3 9.7-9.7zM600 393.7c0-5.4-4.3-9.7-9.7-9.7l-124.6 0c-5.4 0-9.7 4.3-9.7 9.7c0 2.2 .8 4.4 2.2 6.1l62.9 76.9c1.7 2.1 4.2 3.3 6.9 3.3s5.2-1.2 6.9-3.3l62.9-76.9c1.4-1.7 2.2-3.9 2.2-6.1z" />
-    </Icon>
-);
+const Swap = createIcon("swap", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABiQAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCRAsGAAE2AiQDCAQgBYMtBysbPwVRlMvJDtkXhzEY0w67hOIoQpRQ2HZAtlpt/eplceH30f14+Nrvd+7ufkS8Q9KEN7KWQCJpZDokC/WFiIZCCX+omqg8g99fzSyA9van9YkVTLCSVumuSukcWa+5hF/yMeEf/IsF+k2ZvvoWG/UM8q35v9zze350gB/Ab0y7s7F1TKC1WhQl0PNoLJveaS/OwixRzNrZGSgik5I+8Z4Mi35Y3aHEtyFq0oPiE1ynD41PfhmSnAEQfQBg+6ixAc9NysHP+oF4VwcCYgcwh8jImEKwRikwRWUOFEXQjP/a/gfOQQDRgjxsAgUNXOEGUECSO5Wq2elktVnV4s8xdO43A8GTeX2f9m0lzwz/H8ggGTTyPCSkidu0aS3cxaNuJHm6bt79uErgMfjziOsKaeBFTHor93hLm7kDhuQyuoNvirCjWLPnw7tm4LYkOFSAy56CHkhVX/Ud+Bz59LLrnS+ETFfdJBI3NzqZ9f+X35MVmh/Vt2zUY6zLNFbm1tIOyZYdwZKKSjJbHFmXWJVoO3MiY/w4QCA4fpPVay3/0xkVgI/H3y+8zldPY+kGtEkgyAs1XSmBMb40hgCAFCuk+EVEckkpv2uXWwFCBwIkLToEyCbZEBQd5hE0zChA0KLDHqUoeoQh3Q0kXU5AtmoNFEPuQMOaF7vFUChVkVQk8iMYV0mhimUiJ54tSsU0USntwsNsmRALwRXXCOEkRsyasWTYkHFLBFnQ4C2bVsnBFX5IyBGXTSgljvP7wy2GLVg0btZMXKSMuK8FrfD9IaxCAVh8RNzFI6kWT/vnAA==");
 
 export default Swap;

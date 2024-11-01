@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rabbit` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rabbit?s=sharp-regular rabbit}
  * @preview ![rabbit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/rabbit.svg)
  */
-const Rabbit: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 0L203.2 0l-2.9 20.6L196.5 47c-7.8 54.3 8.4 108.9 43.5 150.1l0 20.6c-66.8 20.7-119.8 73-141.4 139.4C90.3 353.8 81.4 352 72 352c-39.8 0-72 32.2-72 72s32.2 72 72 72c5.5 0 10.9-.6 16-1.8L88 512l24 0 96 0 96 0 40 0 16.6 0s0 0 0 0l13.6 0 93.3 0 42.4 0L488 475.7l-17.1-28.6L385 304l63 0 24 0 0-24 0-88.9 0-11.4-8.8-7.2L404 124.3c-6.1-4.9-12.5-9.3-19.3-13c10.8-26.9 14.5-56.5 10.3-86L391.4 0l-40 0L340.3 11c-5.8 5.7-11.1 11.9-15.8 18.3c14.7 21.4 25.1 45.4 30.7 70.4c-8.4-2.1-17-3.4-25.7-3.7c-8.2-29.3-23.8-56.6-46.2-78.8L272.9 7l-7-7L256 0 224 0zM88.7 406.7c-.4 5.7-.7 11.4-.7 17.3l0 17.9c-4.2 3.8-9.9 6.1-16 6.1c-13.3 0-24-10.7-24-24s10.7-24 24-24c6.5 0 12.4 2.6 16.7 6.7zm231.3 31l0 26.3-16 0-96 0-72 0 0-40c0-80.8 57-148.2 133-164.3l19-4 0-19.4 0-48.3 0-9.6-6.6-6.9C251.8 140.1 237.8 96.8 244 53.8l.8-5.8 1.3 0 3.4 3.4 3.3-3.4-3.3 3.4c20.4 20.2 33.2 46.2 37.2 73.7l3.8 25.9 25.5-6c2.7-.6 5.5-1 8.5-1c17.9 0 35.3 6.2 49.3 17.5l50.3 41 0 53.5-64 0-24 0 0 24 0 28.9 0 6.6 3.4 5.7L425.1 464l-37.3 0-19.2-32-4-6.6-17.8-29.7-12.2-20.4L320 351.1l-.9-1.4-21.7 20.6-21.5 20.4L232.2 432l60.2 0 11.6 0 16 0 0 5.7zM352 208a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Rabbit = createIcon("rabbit", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABpwAAALpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDQwsGAAE2AiQDCAQgBYMtBy0bwAXInoNxs3xxRN3W2WdlUR2xq4igIP94Z+/hA7ovMnYJqINUoktKuKjFKkWTwEO/lr6/4d0AHaPLxAKRBEAdDQyWYPwJ31N1nVogAtvtQbK880ASDNCCMNE4ipc4XLW/f2n84rcBnx0AjU0X//FbdnS0Rme8Ao1vaurdQKU1QWtaAat5yy3aIyV6JJkoM/X47fFrAVw9EYt4YM5LAeBouSv9QccBMHgOAACKDAAA6GycNspnUASFePt/0FtKAQGoEwCLAAdGqiChxRCTLlZzg1/wUfzP+B/YQAAgn3qmBgAX8IFnwHsAwAXA4LruZEx9lOKFuTOVsOB5shKcSGvXtOdDz9JerevyqfdSu+W7cs1oUEjIXjENq4xfQzBEB4pXI9bVB2a9ZMVaTb4zrav3M9RSk2evgk7J5/odz4yqHkFwsHQz86PQI2zTrvXbBo0UxdHwtlcmnTw2lBlfuUDBwQihOPVCVhF10/SRVPPuIY0SwqwNzbp6NXlNZX8Qf/3NFug8fPmoqrgcCpl9fr+vojw37+8uwdTU8Fh8/sfIkUQSfwKEHaklmhnztGsTmYPCIa5xaO1HKOABW7onNj78DCRssRL5znpEVHSsiKpWqSblzq9mfXJy5D0vYcNllxzEUkEwK2jc368MQ1SRRRYfegYHqQgzTC21dGi1pBFAzrPdcimnjlQe8wOYRh6PtBh9yw3Gxn4EFwC03lI2ppoi0n6kYgD4/Py+039F/5d/0jUQiAFA4JRkZ74EYPQPAQAAABhtwi4BCDA8xaWgUM5YPREMEww+weCQQiS4BFMMHunU8kptmoqUG4RiWUBgCGUtONSxE1xieQQeLby0fWJFiCeLfih+JNP6JNbbz6aUVdgmuw0NyTn51N1s1aZ3E5cKMZdOhhhknA7a6WFcsKOUexMMUHDC8/kiViopowJLE9acvM5uoINRxuhhiMHcSzP2Pipg07lxIQYhAQBVPsBzUMZf17J06ZoNAA==");
 
 export default Rabbit;

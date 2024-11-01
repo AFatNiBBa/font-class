@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-music` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-music?s=sharp-duotone-solid cloud-music}
  * @preview ![cloud-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-music.svg)
  */
-const CloudMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336L0 480l144 0 368 0 128 0 0-128c0-59.6-40.8-109.8-96-124l0-36c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192l0 8.2C40.1 220 0 273.3 0 336zm192 40c0-17.7 21.5-32 48-32c5.6 0 11 .6 16 1.8l0-81.8 0-32 0-11.1 10.4-3.9 128-48 21.6-8.1 0 23.1 0 32 0 128c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-74.7-96 36L288 376c0 17.7-21.5 32-48 32s-48-14.3-48-32z" />
-        <path d="M416 160.9l0 23.1 0 32 0 128c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-74.7-96 36L288 376c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-81.8 0-32 0-11.1 10.4-3.9 128-48 21.6-8.1z" />
-    </Icon>
-);
+const CloudMusic = createIcon("cloud-music", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABngAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCawsIAAE2AiQDCgQgBYMtB1IbjwXIhofv7eI793XPfED9bWZQRK9DIaInXIVTG0rxTJ16nvNQAB9EMsd5zif4nrUKlMe0t45JFapQa1YD7NsUj/IIwiciQqwipMa/PL59u0CeemeXlEiPUgU34v8Axq/auURSLwMQTQEwdfXyhT6qRjVFpfY2UbEAATENFAIZMnQUYIJMoKNcgVwuqKZajWrUagUBRFn8pTJQRgn38QIgB0lIeT6y2+gGpUb5qgal+rsFIe62vFv/cuv7rR+0edDgSquIFRIHeJtYHb1DaNAo4plBr45KB/V7cdTlHq+Oe2fUdxPeWyHeHvByx5XrAxEY6ZHt3V5s+uLvXSu7Kp7t3Ib2Fs5p9NVPLVv+9FWjPFfdo/Nt7m5nA7ZMoYE7zg622pGbxP2leezm8497qPvii+c6H14+csRH06NSiel1vXbnTpMPe7t+cLI2jr0OBIJPry9asrnJhP/rNkjg53f+/CU/r1ZN59KLqCuBIBtQG2BDOge+J5CR4pRuvS/6CIHMWgm8a0P3BQj1ESApqy9ApoOmAuTq6y9ASWcjBSirb7lM5PWEljZWkDR0FGRGOQ1yLb0FSib40ixrGZl5ksZFfh3GzeLIzFnF0EFDinHF0FUoi8NDe3yxrPU5ham+ALXLYYecsNMOe51g2DELnZMOmjVDZ/qgwlCDDFEYp1AHS24VM485bm+f0U8zXrFf7+PUvLgvLCMBhr1YHJ1IkbX4UaEw0HSlgTc900oylxo=");
 
 export default CloudMusic;

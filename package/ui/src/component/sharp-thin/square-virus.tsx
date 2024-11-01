@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-virus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-virus?s=sharp-thin square-virus}
  * @preview ![square-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-virus.svg)
  */
-const SquareVirus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 48l0 416 416 0 0-416L16 48zM0 32l16 0 416 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zM208 224a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 72a8 8 0 1 0 0-16 8 8 0 1 0 0 16zm0-32a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM215.8 109.6l0 10c0 42.8-51.7 64.2-81.9 33.9l-7.1-7.1-11.3 11.3 7.1 7.1c30.2 30.2 8.8 81.9-33.9 81.9l-10 0 0 16 10 0c42.8 0 64.2 51.7 33.9 81.9l-7.1 7.1 11.3 11.3 7.1-7.1c30.2-30.2 81.9-8.8 81.9 33.9l0 10 16 0 0-10c0-42.8 51.7-64.2 81.9-33.9l7.1 7.1 11.3-11.3-7.1-7.1c-30.2-30.2-8.8-81.9 33.9-81.9l10 0 0-16-10 0c-42.8 0-64.2-51.7-33.9-81.9l7.1-7.1-11.3-11.3-7.1 7.1c-30.2 30.2-81.9 8.8-81.9-33.9l0-10-16 0zm105 14.3l11.3 11.3 11.3 11.3 11.3 11.3-11.3 11.3-7.1 7.1c-20.2 20.2-5.9 54.6 22.6 54.6l10 0 16 0 0 16 0 16 0 16-16 0-10 0c-28.5 0-42.8 34.5-22.6 54.6l7.1 7.1 11.3 11.3-11.3 11.3-11.3 11.3-11.3 11.3-11.3-11.3-7.1-7.1c-20.2-20.2-54.6-5.9-54.6 22.6l0 10 0 16-16 0-16 0-16 0 0-16 0-10c0-28.5-34.5-42.8-54.6-22.6l-7.1 7.1-11.3 11.3-11.3-11.3-11.3-11.3L92.9 351.9l11.3-11.3 7.1-7.1c20.2-20.2 5.9-54.6-22.6-54.6l-10 0-16 0 0-16 0-16 0-16 16 0 10 0c28.5 0 42.8-34.5 22.6-54.6l-7.1-7.1L92.9 157.8l11.3-11.3 11.3-11.3 11.3-11.3 11.3 11.3 7.1 7.1c20.2 20.2 54.6 5.9 54.6-22.6l0-10 0-16 16 0 16 0 16 0 0 16 0 10c0 28.5 34.5 42.8 54.6 22.6l7.1-7.1 11.3-11.3z" />
-    </Icon>
-);
+const SquareVirus = createIcon("square-virus", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAAB4wAAAMIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUyFAgsGAAE2AiQDCAQgBYMtBzMbhQbIjsM4RjxRoln5Bj28zmzel7zwTQrITlgBIu6Y5BBqQx0fFN1Ce1RdeefLbUjiP85qxVuncX3zKjZxzfPHURX9XS4KaD6TcWRwpEWUwM4fdDiq0AYZ2IRxttnYwbZX4F4SIWIi4uM3qsenI3B1iYXEwFwwP4EzjNIfVOdg2uA4EIQ8eC70mzJhFJ/LVCb9yL8C/WAEIAD1AyBAgAOeUQsB0BMHAbVwCQAXF0GZ8vn5HxiAAEAF4DgDgAtYUH1Qc9Bq77soct3iSsWkeBu3D2NJd3I8ZmcYxyTlKJGJQxIZIZuQHGnSWS6rKt9k4cvO87n4CV+xt6q0xzNak86JcZ85VbcNc43Q5EVcbhibc1ExtWq2I8worlfVXVPFJTQapdpc0rUmpRkXV68ZunBZva7hW2CoauNcp3iSn/F9MdG+2VZ3jRARQtbermbNABVfdt1Qq20pSbrYODcEuEHAHmpADSkpHr9XM9QAhLLEnppADQmELjRK2dX1Q6//Ve/n4p+kz1wnA10873mfPa7jmZ5ywW+fUmVlqUNR29QPR1Opo1xzhswtKJgLBuN8f9yzmlyw1npReHAJJWxmaNiNxcOiMDd0MxGLOZSLPI31ctGhxYScqSVdDBNGUyVyLOFgFHrxpckwzBGIUL/PWzfOeqolYff180qXEBFDcoWb+S/TJAa2IagB8bOZZKiEEDiLKVs3f2w2ecxbV7bYVLs4i0llMz4+F2uc/X8zIQAIECzZtuPbnHTPf4vQAFAR/fMHfHO+TJ9NCBRhABA4LfMtmanPAENUAJA02kx9xySxVA2KIK4EZxFpYeGCDAVYyKEmHuRiaQHFqEMnZdAwIUSUWxypyixAhgTrIIfO7IJcqvICitGTL4kCqmp9UtT7XP2fmmGwBAbhBe1atw26B7cNp2bzK93FHkHY0XSzGmjW1rKYNaxmI4tYyDI2Cup6RqU3sYrBnuyg3wa0ozVtCehOkG6vDZNFcj0bWGZr8svQg6A+0pTN/vhmzW0gue2pMBiQSbxsplbfIAAA");
 
 export default SquareVirus;

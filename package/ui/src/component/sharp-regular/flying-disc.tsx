@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flying-disc` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flying-disc?s=sharp-regular flying-disc}
  * @preview ![flying-disc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/flying-disc.svg)
  */
-const FlyingDisc: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M390.4 89.6c7.9 7.9 16.9 31.4 .6 80.4c-15.3 45.9-49.5 101-100.7 152.2S183.9 407.6 138 422.9c-49 16.3-72.5 7.3-80.4-.6c-5.6-5.6-11.8-19.2-9-44.3c19.9 19.2 45.3 20.8 62.5 18.9c18.1-2 36.3-8.8 52.8-17c33.6-16.6 70.7-44.5 105.1-78.9s62.2-71.5 78.9-105.1c8.2-16.6 14.9-34.7 17-52.8c1.9-17.2 .3-42.6-18.9-62.5c25.1-2.8 38.7 3.3 44.3 9zM105.2 175.4C8.3 281.9-28.4 404.2 23.7 456.3C79 511.6 213.5 466.8 324.2 356.2S479.6 111 424.3 55.7C372.2 3.6 249.9 40.3 143.5 137.1c-6.6 6-13.2 12.2-19.7 18.7c-6.5 6.5-12.7 13-18.6 19.6zm35.6 32.2c5.4-6 11.1-11.9 17-17.8c5.9-5.9 11.9-11.6 17.9-17c57.9-52.3 116.2-78.4 135.5-59.1c21.4 21.4-12.7 90.1-76.1 153.4s-132.1 97.4-153.4 76.1c-19.4-19.4 6.8-77.7 59.1-135.6z" />
-    </Icon>
-);
+const FlyingDisc = createIcon("flying-disc", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABfwAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyBegsGAAE2AiQDCAQgBYMtBzIb/AQjEWZT7kz2x0J20uI9Momm5RUjcSZ4ns/7PPclGYAZ0RW4M7hrl/XO/gHwP9fUi+fXgN/o0KIs9UCuAatWzxtsIs1NujecDdTHMnNX90GJ5iVpkbWWx295/FyALutlCQaoteoBsLi+qbzBlxkoDA0AAHEBAABKOrY1cOW5PBe5bzmJ3KcOEAApAcBEAA3QgAAEgHw0BAhAxwR0dASei8US/gNNBADECnoBBYAOGEBPYAgAoAOg0HQ9yt/T3nDUO9gbdgNX+oqErw3YEH8g/0L2mfQTkbu8VgWvjNjpvTvqftvDtPX+q/3WeZ327PWoncijgr1Vt+t2ieNh22MvtUvGCo9GFqz2Ni7nyT9qbfyB4gfZZyJXBR8uCt3nsu9dyIMBD5jZv18o7tuPzZo1YMCgQXG5KaGVuzzeKe3q8QU55eXL7+QFJJtPS4YEtKtu9WrAq7HTeXd90+GJE3+/Kk45P7PRq8GrpXrN2rVzkifNmTP7dHPTv+d1XT467zzh9Owrx5gKAAIIGAOXVvZ0zv9mY68AeHnuw4f+pOWz5bHcUPsAGxQAAlq8Jb6bXBGQv5sIkKdkAqH4JARQdEQDrgOrrKFgBxMUVtiBhj8uoGNHHBgEkSEod7ehIbotggfdAQoHRoNGJtNBx4PjYJDPbc8KD9G8TPIR6Y+XflzJ8YptZkpisplrHlNDdhwhz+aZajN6QmzF4CQDRo4Y17/f4HGMG9MQjh9eKREVXzRTEpPNXNNcvB7u0H/M2MEjR5R58sz7bvQEeTgGjoJ4U88pFIiyHzBs8uARAxMeOQA=");
 
 export default FlyingDisc;

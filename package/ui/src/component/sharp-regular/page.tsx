@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `page` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/page?s=sharp-regular page}
  * @preview ![page](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/page.svg)
  */
-const Page: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 464l288 0 0-332.1L252.1 48 48 48l0 416zM272 0L384 112l0 352 0 48-48 0L48 512 0 512l0-48L0 48 0 0 48 0 272 0z" />
-    </Icon>
-);
+const Page = createIcon("page", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABTAAAAHCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeIEACwYAATYCJAMIBCAFgy0HKxt7BMgehXHjU0IhtHY5RC0btuxBLyKC1rLq2dkQO2BHpFg4IKNZR7hEkdSJ8PD2jTi/fk3f/rsQybidKCYNqACgDK5KRJ+tq4orGlFhKqvTIbXP7/7+5vk//xTg4whCGwuXBrJAPjXXeQKJdfmmhKIC+6KYblM97Ihib4QESUTHI3WcrVDzmFct5bP8gJf60fxn90LRNgDICADg5KZWxe6XfpPvjuRLGQRyAphDaNBgCoF9kmCKbA5UVfilTkf/gXMQIF3AKwqoqFgCKwAqKEqVDTZDa5Kb/a0+ZhowSdRMH4neVbMhgvQZiSQiMjgUq/LH9/LHnue4onaBH2x/OiVyjKDg6Qa2ch8gCE/735cjy/5/T78A/Ht7uo7OLs9FQY8CQrOyX9HPMwg7gFNyw+FQFhRTBOCpA94ERB8Cii59AhqTrAhUfZYRaM2IIdClzwVJqg4xYdChGHALjT3PUE14hda+d6fLRJqLIoZZ/Kal5SzKTnHIH+Q0TwNNij2fhxle1p03qeDiRSydOnFlYW7jyjAXqv61YzkPZ1HEQvyCWBpvx4/zTQsXLm2cOiljMvi87XTj17vYEsC5hSgKKfJbAgA=");
 
 export default Page;

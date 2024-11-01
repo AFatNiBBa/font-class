@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-circle-plus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-circle-plus?s=duotone calendar-circle-plus}
  * @preview ![calendar-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/calendar-circle-plus.svg)
  */
-const CalendarCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 112l0 48 448 0 0-48c0-26.5-21.5-48-48-48l-48 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32L160 64l0-32c0-17.7-14.3-32-32-32S96 14.3 96 32l0 32L48 64C21.5 64 0 85.5 0 112zm0 80L0 464c0 26.5 21.5 48 48 48l282.8 0C285.6 480.1 256 427.5 256 368c0-91.8 70.3-167.2 160-175.3l0-.7L0 192z" />
-        <path d="M288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-80c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const CalendarCirclePlus = createIcon("calendar-circle-plus", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABmwAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCSgsIAAE2AiQDCgQgBYMtB2QbgAXILgbs1uJjOww1rE1Diht9PO+kGF2PGA//7fe/fWbm3W/axKookMSz6OqE5Mm0mSVNeLRIxbPdRSVD+mLB3O63NbN8aSpoqlDqGiaNFgiFxv876yD5L0oTKEsL5Dp2i2wqPd94/ue2t7ohJulD5bokseuEVImFRP6/087/NfUyqEAKAO+WYRWW/mnZWkCjPR/IvO1sQBOaztA2ug0xu1koQoiMK5RYzOfRIN1TXnCl+x/A+Mt3J2nJAKIbAGzaf6+YddQpPq5EfLRAAmIzhFGCjIxBAtZSBQZpRkFRBHVaQR0rRiGAqHRMFq0iBy7hCqCAJEmlDIzVod7oKPtSJ1oPnOkjXm3fi2f9ll7g9OTz4Q2/N++6l8zetEhrpKZbdlsI0x03oi1Mt53WiKhmoeOs3I9uN0jgTGPJHQ1uQgCBJxHoUXK6F96qhV2an/+3fNgf0T7+VHv65R/DR+n2FoDRPi+OPZ9MgI4M+Ox156zWSnXWVKsnmHLMDsFfr6qffsxCzFx+d/bb4AwArfbHl3d0xy6h9w8gWT1Wsu31O1bhARAIvv8/vj/q2n/NbQn8efdvf3llko3pKWiWQJAnVybt0kaIbBsT/6gUx7C0MUZBINuCGD613W0BQisCJJVWAbIBDgFFqwkCGoZNBFRa7UZFaRH67W8taXdQy9Y4aEW/r9aw1r9W6Y/sHT2eyfMxWHAG0elUJuqWG1I7Tq8Pc9WbWwon+ZxPZOFFBIvh5DnZCUg73bx0iiVKXwQ6tRZtULk/GjSAaXfI4kP9kC2az6dm9vwsPA8BzFtkSyZS5MG3NUq/7oTonY6S756fUPwvMw==");
 
 export default CalendarCirclePlus;

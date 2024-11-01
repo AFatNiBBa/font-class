@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sunrise` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sunrise?s=thin sunrise}
  * @preview ![sunrise](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sunrise.svg)
  */
-const Sunrise: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M282.3 2.3c3.1-3.1 8.2-3.1 11.3 0l88 88c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L296 27.3 296 216c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-188.7-74.3 74.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l88-88zM182.5 225.2c5-2.1 10.7-1.5 15.2 1.6L288 289.1l90.3-62.3c4.5-3.1 10.2-3.7 15.2-1.6s8.6 6.6 9.6 11.9L423 345l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L489.9 464l-19.4 0L528 380.6 414.7 359.8c-3.3-.6-5.8-3.2-6.4-6.4L387.4 240l-94.9 65.4c-2.7 1.9-6.3 1.9-9.1 0L188.6 240 167.8 353.3c-.6 3.3-3.2 5.8-6.4 6.4L48 380.6 105.5 464l-19.4 0L34.8 389.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L153 345l19.8-107.9c1-5.3 4.6-9.8 9.6-11.9zM398.9 464l-16.2 0c-7.6-45.4-47.1-80-94.7-80s-87.1 34.6-94.7 80l-16.2 0c7.8-54.3 54.4-96 110.9-96s103.1 41.7 110.9 96zM8 496l560 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 512c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const Sunrise = createIcon("sunrise", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABiwAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCTwsGAAE2AiQDCAQgBYMtBy4bTQXIjpQuZyTx8P+6fr/PTSZAHnh4Ax7MBzX5Itqql0j5TTtfvUnp1a8nQ7L15/9yeuP5bcDPR3AoY9vUTWOWZXMK9DzgqHxTL4EszBLFbLNxn8mIQoI9WoiZs9HjaY9XZ8jjR6c0SC+lb/HE9qHxl4EeJckyANEbAMv37tzs89/it4hv2+8Q39qIgFgBaoEMGYYIsEgmMESuRi4X/BbtdvkPrAkgCnx2AjkKPIRXgU5Ictw/aGFnz45Gj3xPR6M8+0L/3fFc9WznnhDPVs93RuwKET/f3LvLNPdGM54jweehV6ZRKnNPBJA9chMMcneUcfOF5t7wfc3dZUf5+sSrc94ef3lIGW9Mujb3nQlXhh7r1bPXc/2L3jMEdT488mrvq//49sy3Bn6yc+fevWbP3rlz/QafKI4dKz7Recnrzr17T/xy4tb9i+2vuPXmk81+F13s56Y549bOWK+feTvcWNnWqG50eJkVK0joVmPbRTp/h8pAtHbs3JvGhUdJ8+R3//bm5MRzz7Va9ciJ3s5//+ebb/7Z+ceHt9B2rCiOtazPA4Fg1y3VuaO9Fv3ftSOBPz78b3pc+/O0LF1FVwkE2eT2ZIfSMgA7gDzF7UY6XxRI7pLjd+3ueQFCiQBJoRQgM1hvAXKlSQI0DDNbgEJpp0zk3YTK4RMk3d0EMnPcB3KVt0DDIl9khSqyfJSzSf4dzFgj0dX76ulTW/WC+rbrUFJMXLYX1mFr/O00NQEnnXGD693qtFPOu1UwN9tc3uY6azxstR+qTTdVS22BenqwNvaI/Ga3OG8r87tYqH7fG+92f/EEuAlzznAoSUTqcstt139eAAA=");
 
 export default Sunrise;

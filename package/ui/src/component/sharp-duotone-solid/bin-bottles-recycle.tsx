@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bin-bottles-recycle` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-bottles-recycle?s=sharp-duotone-solid bin-bottles-recycle}
  * @preview ![bin-bottles-recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bin-bottles-recycle.svg)
  */
-const BinBottlesRecycle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M32 144l0 48 320 0 0-48-32.4-16.2L256 96 128 96 32 144zM112 32l0 32 16 0 128 0 16 0 0-32-16 0 0-32L128 0l0 32-16 0zM321.8 93.1l44.5 22.3 17.7 8.8 0 19.8 0 48 191.6 0 0-56 0-41.9-64-30 0-64.1-128 0 0 64.1-61.8 29z" />
-        <path d="M0 224l640 0 0 64-32 0L576 512 64 512 32 288 0 288l0-64zm295.4 64l-4.8 7.1-25.6 38.4 27.1 17L312.6 320l14.8 0 21.2 32.1 27.1-17-26.3-40-4.7-7.2-8.6 0-32 0-8.6 0zm70.7 90.9l17.1 25.9 0 11.2-45.5 0 0 32 61.5 0 16 0 0-16 0-32 0-4.8-2.6-4-19.3-29.3-27.1 17zM256 416l0-11.2 18.5-27.7-27.1-17-20.6 31-2.7 4 0 4.8 0 32 0 16 16 0 65.7 0 0-32L256 416z" />
-    </Icon>
-);
+const BinBottlesRecycle = createIcon("bin-bottles-recycle", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABlgAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCbgsIAAE2AiQDCgQgBYMtB2IbogXIHoPj7qb/r5dFxHxsU4l4+P+1f91nZh5+mhDfMKMD8kmBHIEiVxVXYF+WRLLrg6xupZxxAlEKnT/hk42YcX+B+VjyiTX/59LF89EAP49gSF06OsukzOeH9/wAo72FosHPFG9w3uBDDokheQdFNjJ/oEL2QgYPzf8BjF/o4wGZRg4gSgAs3rl1vcc/xM/4zCM+Yx0CYglIAjly9Bdgnlygv0JCoRD8kCl+CE0EEFX2A+agigaewcuAAmQKeVF06dGrV0eXPi2VtmJHS6UZHe0dohnboj12RDPicPde3cfF6BgbLXr+hOgZze2jx4weEBAtLWHn9IwxMWpbMKg4JbqH0DazuVdoi4gRsWZR306hSQ4PEtw+e87s4X3lsLU1tZNXDXm77G+D1/PDHZi3SDLoe/hRyaIRC2fAr3nWizZod9CL3jBDY8CeRqPRYrxkfllKKrqZ58Ub1tLSMtY7FhiqIimVS5IpBk2cNGnSIpN0IuvgxI0XU0rlo6SU3JGUX9fbl+qtu0kem2WM/y1yxyLfAIFgyJW/52DHvP/qLRn46YM/fhad3fmyTVGXgSAf1znOvuwOMGIAgSxuGNLBr4iRtinYr9rqWQFCEwEyVU0Bcv2UAhSaxgpQMdB0AaqatspF0RC625+BTKvLIDfDTVDo7n1QMc+H/qrukW+g7ObFXh4mrSiiy8elyRMmpTmptSDhtjlaG5ybBlujbvCG0XCrEy664JrjjjntWgG/Yn3ouvNWdGHL/VAy2QSTJHOkyeWr+Tscd8VVp5uF6cPMlZb3RrnR3X40dDM26RTLczmRRd7vyOkLf3hMOHf86vgrx88Obfzu3nZAs7B3Aw==");
 
 export default BinBottlesRecycle;

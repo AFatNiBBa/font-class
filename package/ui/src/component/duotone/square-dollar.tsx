@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-dollar` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-dollar?s=duotone square-dollar}
  * @preview ![square-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-dollar.svg)
  */
-const SquareDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM145.1 199.4c4-21.8 21-36.3 39-44.1c5.5-2.4 11.4-4.3 17.5-5.7l0-16.1c0-11.9 9.7-21.6 21.6-21.6s21.6 9.7 21.6 21.6l0 14.2c9.7 1.2 19.4 3.9 29 6.6c1.9 .5 3.7 1 5.6 1.6c11.5 3.2 18.3 15.1 15.1 26.6s-15.1 18.2-26.6 15.1c-1.6-.4-3.1-.9-4.7-1.3c-7-2-14-3.9-21.1-5.3c-13.2-2.5-28.5-1.3-40.8 4c-11 4.8-20.1 16.4-7.6 24.4c9.8 6.3 21.8 9.5 33.2 12.6c2.4 .6 4.7 1.3 7 1.9c15.6 4.4 35.5 10.1 50.4 20.3c16.3 11.1 25.3 28.1 25.3 47c0 3.7-.3 7.4-1 11.2c-4.1 22.4-19.7 37.1-38.4 44.7c-7.8 3.2-16.3 5.2-25.2 6.2l0 15.2c0 11.9-9.7 21.6-21.6 21.6s-21.6-9.7-21.6-21.6l0-17.4c-14.5-3.3-28.7-7.9-42.8-12.5c-11.3-3.7-17.5-16-13.7-27.3s16-17.5 27.3-13.7c2.5 .8 5 1.7 7.5 2.5c11.3 3.8 22.9 7.7 34.5 9.6c17 2.5 30.6 1 39.5-2.6c12-4.8 17.7-19.1 5.9-27.1c-10.1-6.9-22.6-10.3-34.5-13.5c-2.3-.6-4.5-1.2-6.8-1.9c-15.1-4.3-34-9.6-48.2-18.7c-19.5-12.5-29.4-33.3-25.2-56.4z" />
-        <path d="M223.2 112c11.9 0 21.6 9.7 21.6 21.6v14.2c11.6 1.4 23.2 5 34.5 8.2c11.5 3.2 18.3 15.1 15.1 26.6s-15.1 18.2-26.6 15.1c-8.5-2.3-17.1-4.9-25.8-6.6c-13.2-2.5-28.5-1.3-40.8 4c-11 4.8-20.1 16.4-7.6 24.4c11.9 7.6 26.8 10.7 40.1 14.5c15.6 4.4 35.5 10.1 50.4 20.3c19.4 13.3 28.5 34.9 24.2 58.1c-4.1 22.4-19.7 37.1-38.4 44.7c-7.8 3.2-16.3 5.2-25.2 6.2l0 15.2c0 11.9-9.7 21.6-21.6 21.6s-21.6-9.7-21.6-21.6l0-17.4c-14.5-3.3-28.7-7.9-42.8-12.5c-11.3-3.7-17.5-16-13.7-27.3s16-17.5 27.3-13.7c13.7 4.5 27.8 9.9 42 12.1c17 2.5 30.6 1 39.5-2.6c12-4.8 17.7-19.1 5.9-27.1c-12-8.2-27.5-11.5-41.3-15.4c-15.1-4.3-34-9.6-48.2-18.7c-19.5-12.5-29.4-33.3-25.2-56.4c4-21.8 21-36.3 39-44.1c5.5-2.4 11.4-4.3 17.5-5.7V133.6c0-11.9 9.7-21.6 21.6-21.6z" />
-    </Icon>
-);
+const SquareDollar = createIcon("square-dollar", true, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABzwAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSDRQsIAAE2AiQDCgQgBYMtB1Yb7QXIjtRG+YJkGDxP/n2eO/P+ApyFWUVwtYBil0mVaqtA7lLG1V9vU5+E/w6b4leqEIogNq1RjM9zLl3ZeDT+4ntTXF+URXKUd2oJFOBRWhXoHfCBHpmdOh19lkOR7BCRUaQbY9jTrz0u98CSi7oDG6jD6j4wfOyQHwTTAQpnDYR4AX8DpGr+7KlMfpbPSu7br4PcZwogAFINgEEADWggDAGgFI0AYVgYwMJC4LOy2+Gz2O0GBADEAX6gBsABsAE3gfsAgAWAQlCWNTVkvqvN3ZrnanNZfD4Y2e/fT+flkB3gA3yhTeAE7df9dF4vl2NqOXIo9kISuRB/IR+13OfDwZrGB+wAtO7hK/Vk1w+LHE3QSqvDSZfVXS6mXM1ajiRfMTc5l3hJ5h7tK17M/kHoQ7jf7XetC5yPuxxb0HOon/rB8oF3jr7ir7yo++vu83F6lq8HX74rr/icldHGjK2agnbL7zq+JrNzvpi98+317YVPVpaPD7X1gTk7YzMzbXrsRXsP2vs/xlhCx5ZnNS3vdrV64ZvFikqmunh7nxqcOgmXgnbTyLrhd7tGvVFZWT6ePPlmvOJjdkYjirHTfjs7rxa8FGp/Y6ubg9XqSkZRczJyxUt52XzbwEcbw+sAIIDAmgbryHLP0t9OrgqArzf+z+ty7J9lUl0BnFAACOhUeypLZBKgDAvwRynZR7RMMgAIoNmJgrvcOIAAILhAg8IBF2hC8YKFCymwEUGeNLllNhqxnBH8WIpA4cZOaPJphIUf12CjlFsRB/xEx7ISicqvZKZ6TddNM1npmabYdAtuNTylbbDETLsS96EhSVayju1sYw9rWcNG9ihuF1Pje9lK/UhY911DFulkYijGLJd/muYp9y52Q7L19UlKMO8HEtk3bpsk+geKZ28B0GgQJdo/IaxpSW1Ly4sWgYaeAwA=");
 
 export default SquareDollar;

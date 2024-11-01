@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `360-degrees` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/360-degrees?s=sharp-thin 360-degrees}
  * @preview ![360-degrees](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/360-degrees.svg)
  */
-const $360Degrees: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M608 16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM560 368c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-224c0-35.3 28.7-64 64-64s64 28.7 64 64l0 224zM496 64c-44.2 0-80 35.8-80 80l0 224c0 44.2 35.8 80 80 80s80-35.8 80-80l0-224c0-44.2-35.8-80-80-80zM347.8 80s0 0 0 0s0 0 0 0s0 0 0 0l8-.6-1.1-16-8 .6 .6 8c-.6-8-.6-8-.6-8s0 0 0 0s0 0 0 0l-.1 0-.3 0c-.3 0-.6 .1-1.1 .1c-.9 .1-2.3 .3-4 .5c-3.4 .5-8.1 1.3-13.8 2.7c-11.3 2.8-26.5 7.8-41.8 16.8C254.6 102.4 224 136.8 224 200l0 88 0 8 0 72c0 44.2 35.8 80 80 80s80-35.8 80-80l0-80c0-44.2-35.8-80-80-80c-26.2 0-49.4 12.6-64 32l0-40c0-56.8 27-86.4 53.7-102.1c13.5-8 27.2-12.5 37.4-15c5.1-1.2 9.4-2 12.3-2.4c1.5-.2 2.6-.3 3.3-.4l.8-.1 .2 0s0 0 0 0zM304 224c35.3 0 64 28.7 64 64l0 80c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-72 0-8c0-35.3 28.7-64 64-64zM8 64L0 64 0 80l8 0 141 0L34.2 202.5 32 204.8l0 3.2 0 8 0 8 8 0 32 0c57.4 0 104 46.6 104 104l0 8c0 53-43 96-96 96c-25.9 0-42-9.2-51.6-17.9c-4.9-4.4-8.2-8.9-10.2-12.1c-1-1.6-1.7-3-2.2-3.8c-.2-.4-.4-.8-.5-1l-.1-.2s0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0L8 400c-7.4 3-7.4 3-7.4 3s0 0 0 0s0 0 0 0c0 0 0 0 0 .1l.1 .2 .2 .5c.2 .4 .4 .9 .8 1.6c.7 1.3 1.6 3.1 3 5.2c2.7 4.2 6.9 9.8 13 15.4C30 437.2 49.9 448 80 448c61.9 0 112-50.1 112-112l0-8c0-66.3-53.7-120-120-120l-21 0L165.8 85.5l2.2-2.3 0-3.2 0-8 0-8-8 0L8 64z" />
-    </Icon>
-);
+const $360Degrees = createIcon("360-degrees", false, "data:font/woff2;base64,d09GMgABAAAAAAOEAAoAAAAAB4gAAAM3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUiFOAsGAAE2AiQDCAQgBYMtBzIbugYRlZq7yX4m2HT6FXhgeZFpWGZWKwzW8FiJehMfbF4WnwT/vGt+9yUpZVqe3y4QKwTFbBnY7VnHQi5bRvi33ft34+4GnkcQhTaVJOAJBDbNsmhtc58QkaW9gDdPosmqmCVodGomZOg0QoEx4FoHl0GfOGbnW3th+wDnExroMJqyLcqiyqrOB9xJ8eAF9Pai+lPznkyzQ9H13YDTb/pEwOw1jwE2J4v1GnYrgMFaAlFZ4LPSaXCtiruXvWB69N/QI5QBAagTANUIsIAFKhEAbVkEVOKoBhwOwQv9/w+Y/4EEAYCiQLjhmAMSoLagHtD8RGCIOZcoFK0d+0YZSblBQcRP32neEe4q7i6x3irt1tLiLr8u3EGYdwZD9vDSmVqnGpyrIO1veL7uyfpnyzPsBiephA7WP9v6tqGqdGjQvc2AO5OWxgUlFRUKLQWrJJ9wPYKuC00nap2ot0JNtAp97W2HK+6ve7q0O9it9YEULF004KQgnS2P9tS7DpP7j1MEHgXBgN1EqEDfrH+2MvfAJEOrW8VdkSat01J5Le0LtaNURUvIZUmwRDvLIPtEM461v9NdocEqKWz2Nc5lz7315TDRuvzRpF9I13BbA2s0PAKuaNpUkYPcj3hO8QIFi63IDN0ADNILsEETdZAN658ZwrIpZJhCHG8IDwtASNnIUrtgg7OiZghxerIJoM/Hb5N4JL6/3vO3sSwSCICGO+KQa5+TqHsSLxR1D8fxxCzxjdOuyLHEo7nalScvZfKX587Feg87jIQEoh7Hch0YAXoU5Vs/8tc+1L+MDJPLkRnT5iK/duS0B+Gc2DDe0rb9GlcaAF6d+uIn/x8wS8w5II4BQGAb/W9khFky0AARrEazqAEFrDJSK2Kgn5pkFwSA8IAAMETxCABLRVkCwOFpSABEqKI1ARDF0x+LXAIRGlkQDUmmEi1tLCQ6QteJEdq6Z4kSxt5EzFuA+QsbD+SqgOw4igTDFKfeiIx1X9B1ZYImC/kjzxDgWgytLO0N9E3sK4itqv1gITdEnv1dEhEURuJocfwmr4mtWzuTbvbyVhJoey3vOJxfgBIOgWLUXA4cwDhlrE048KkCAAAA");
 
 export default $360Degrees;

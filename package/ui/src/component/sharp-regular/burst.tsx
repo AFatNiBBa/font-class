@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `burst` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burst?s=sharp-regular burst}
  * @preview ![burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/burst.svg)
  */
-const Burst: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M312.8 118.8L282.6 55.6 256 0 229.4 55.6 220 75.3l-20.8 43.5L157.8 94.1l-71-42.4L0 0 51.8 86.8l42.4 71 24.7 41.4L75.3 220l-19.7 9.4L0 256l55.6 26.6 63.2 30.2-23.3 66L75 437l58.1-20.5 66-23.3 30.2 63.2L256 512l26.6-55.6 30.2-63.2 66 23.3L437 437l-20.5-58.2-23.3-66 63.2-30.2L512 256l-55.6-26.6-63.2-30.2 23.3-66L437 75 378.9 95.5l-66 23.3zm45.5 34.8l-10.4 29.5-14.4 40.7 38.9 18.6L400.7 256l-28.3 13.5-38.9 18.6 14.4 40.7 10.4 29.5-29.5-10.4-40.7-14.4-18.6 38.9L256 400.7l-13.5-28.3-18.6-38.9-40.7 14.4-29.5 10.4 10.4-29.5 14.4-40.7-38.9-18.6L111.3 256l28.3-13.5L187 219.8l-27-45.2-21.5-36 36 21.5 45.2 27 22.7-47.5L256 111.3l13.5 28.3 18.6 38.9 40.7-14.4 29.5-10.4z" />
-    </Icon>
-);
+const Burst = createIcon("burst", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABhAAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCYgsGAAE2AiQDCAQgBYMtBywbXgXILgt4QzrrWaaoor5UKL5g+M9weeRqVSJ4uN9/c86NH9GWQVvJ6c0N1mlrBbhrqx98SxPwXY21vZek0sQsuSdJJohr/I42mE7DOx5pP3Xuk6fReV76QTaFNTMkcG3GgDvSCXw+v0ixy4xz4pr6YVXe5++Yq7A+jwbKPJ/AADd8X6XAAw1HNJ+AzbpV00qRsr8kKxon53/s43tbKONLBE++TcDj7qr4jWcdpKoAEN0BAPvPZOPw8CN+ROw0BmJHFAiI/QDTEAr4x40Iu7YNjMOZBkql4Ec03v4Dp0EAUVMkhUs58hnwDoASpCzL4/sJtKM8nRxbL62v9T1sqUo7UUCuraxCV9x+RnJvyOgADn6+Uz2hA3z8Ei+4gu0eNlQTbiKhlUUTm5VUutqYRYNjzyUONfyb+JsoaCrL+v7dn/7OgP3YN/229y6sitoWmFPYYDpNccS2e3KzZg2w9ws74x7y58KFP+5B5xw4+w04cJ4Y/BpXL+3du7QPfc8OsPx4I3HgWR/b/ObfLS+zF+Ug/mA7fBwgEAy9uRnlXHNbgl+f//83fkWNp/wENEsQFItfVEwASQAAMm4QJkAg3YMR3druFQRCKwKkWqsAhTFUCJRaLUCgMskCgVqrE7CibBH6lZaa2l1WC9sW1FK/O7Wyy2O+1h/YMy2/sv4L8wcs7F/FX6tbd3ePDdN2NqMuHu7j+OyXBzI4Qs2QnnFVFU3jhh8VL03oCjDS74P4DLT0+Jz41+13f0HEUWOa0d79Mi7897Nyk3y8Am/EANZpMD9BfVZnr4+OjQMAAA==");
 
 export default Burst;

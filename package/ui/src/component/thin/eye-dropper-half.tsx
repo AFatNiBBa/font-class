@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye-dropper-half` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-dropper-half?s=thin eye-dropper-half}
  * @preview ![eye-dropper-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/eye-dropper-half.svg)
  */
-const EyeDropperHalf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M211.8 159.1l11.3 11.3L341.6 288.9l11.3 11.3 25.4 25.4s0 0 0 0c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-14.1-14.1-11.3-11.3 11.3-11.3L482.8 170.4c39-39 39-102.2 0-141.1s-102.2-39-141.1 0L234.4 136.5l-11.3 11.3-11.3-11.3-14.1-14.1c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l25.4 25.4zm259.7 0L352.9 277.6 234.4 159.1 352.9 40.5c32.7-32.7 85.8-32.7 118.5 0l11-11-11 11c32.7 32.7 32.7 85.8 0 118.5zM197.7 205.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L53.1 327.6C39.6 341.1 32 359.4 32 378.5l0 51.1L4.4 470.9C1.5 475.3 0 480.4 0 485.6C0 500.2 11.8 512 26.4 512c5.2 0 10.3-1.5 14.7-4.4L82.4 480l51.1 0c19.1 0 37.4-7.6 50.9-21.1L317.7 325.7c2.3-2.3 3-5.7 1.7-8.7s-4.2-4.9-7.4-4.9L91.3 312 197.7 205.7zM64.4 338.9L75.3 328l217.4 0L173.1 447.6c-10.5 10.5-24.7 16.4-39.6 16.4L80 464l-2.4 0-2 1.3L32.2 494.2c-1.7 1.1-3.7 1.8-5.8 1.8c-5.8 0-10.4-4.7-10.4-10.4c0-2.1 .6-4.1 1.8-5.8l28.9-43.4 1.3-2 0-2.4 0-53.5c0-14.9 5.9-29.1 16.4-39.6z" />
-    </Icon>
-);
+const EyeDropperHalf = createIcon("eye-dropper-half", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABjQAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCXgsGAAE2AiQDCAQgBYMtBzcbZQXIhofn7f7ftc+cJ18kni+pCu0qbTIpRbWs4Dv/13x+z48OsMgPpYoyNovkT8t6PoGBRmIUHthABjbTCdis2vamsA310I4QGW6Q40mHayPdk97CTcWHxo+2dzlJUQCIQQCs2mu3bZ77Lr6LeKv1MPGWLQiI1aAUKFBgJwGWKgR2kpXIsuC7aLXMf2BJANEOKSeQ0Y4bcC8ggyTnPKM2uuxp68t7hpXd+9Ub9T2iHpPiEke4o3lXoxG5ZuwVDwzByVX3tRN3j1pM19xZu70+qW/3vXbfcyXbc92k5mzufhdPPPg4VZ65e9xHTI3b3TPuuuaS6InrpuwVxu3ujv01zVqzJ3YvpW5Qx+WFFXBn45LmjGgGqJzq6Gqw+nnUW0e+5cOyqqozz1S5Buy227x5P6tUjjvO2xMnvvNTKX8VmYn6zUZ0dz4TgDPPcPeo0VenmqtHj7pmcLqgNl++/Aprd5njMfM7m6d0HnaduXZee8XlxtRqbV879phWqvDmL5x1llZzfhr0lKF8cWceelNI5tmuBQSC1qcv3HLQwNLfOnsS+OGJX/8ufkZazyWpQqcEgmJqa6r9E0gEACDFmUYnCCRXyFDudad4styNcFG7bl4u7GiwQ7NuU9A2u5jHHNy9m0LkLqHmAI4mvU5BC/NdgGY1D6Jtlnq10K4WBV1yVMV9FSavH0LrlpWzps8sF5erdQ1PakycX1Ie1iaeOembxE860klOdLojHO4Ypw+QU20rn+EE67fgdb6oNMt0M5UWKy+3nh7e0xFOdZpjnOTEvMgS5fPRRGduj57EzQSks+1MEpEGjzjniGm/xuinTnvpAQ==");
 
 export default EyeDropperHalf;

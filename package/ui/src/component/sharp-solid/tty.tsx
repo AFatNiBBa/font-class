@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tty` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tty?s=sharp-solid tty}
  * @preview ![tty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tty.svg)
  */
-const Tty: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M51.2 264L0 174C29.9 132 122.9 48 256 48s226.1 84 256 126l-51.2 90-128-42 0-78c-49.6-18.1-104-18.1-153.6 0l0 78-128 42zM32 320l64 0 0 64-64 0 0-64zm0 96l64 0 0 64-64 0 0-64zm160-96l0 64-64 0 0-64 64 0zm32 0l64 0 0 64-64 0 0-64zm160 0l0 64-64 0 0-64 64 0zm32 0l64 0 0 64-64 0 0-64zm64 96l0 64-64 0 0-64 64 0zm-352 0l256 0 0 64-256 0 0-64z" />
-    </Icon>
-);
+const Tty = createIcon("tty", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABcwAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCHQsGAAE2AiQDCAQgBYMtByobFwXIhofn5z479yWDmSKnAAy+jkCPLaFrF+yuZoVq9Z+4nP7W34BL+PXR1mys7eGc5wkkmnZ5VGBZYJkmYO1O2zFFaT6jpUjLce74PO6Qx/vslirS/fQjbpcPjb90cIukLgMQzQEwfe3Kxb78Er9E/FB5SfxgIQJiOigFMmToLMAkmUBnuRK5XPBLVCr0H1gSQFTjZyWQo8BBXATkIKnL8051/Nqiqkm+pqiqX7tm9ZqHE98v/GHtT/O/G/+2w6pYExE/rxKrhhX1haiP0CprBSpGUUzSBbY63NCk3iIaIno0Nm/8p/uPe3404vWI9UH856BBY0bPEB49Rqw/ccjV/pZY1BHtJT3Sd1qyYbCtJZ9ulaAE7BlWpqZutRAAPA4EghsP75zZ2mzS/7VFAr+9+++f9DNS+SVJjaiVQJANqgyyKYFEAABSnNEjQSDZqQ6/a4M7AoR6BEiq1QuQ6aS5ALl6AwWo0tVoAarVWykTeZ3Q2ubBJQ2Oc5kxLnO51p5zVSb52q3WOjK305xGe/Vlz9Hw7Evl8CHDygnlckR0T1Ly6cTyONLvTFzpD1ftcdQRp+y2y36nFHvC4sFph83Z4bN9UWm4IYYpTVCap8/2GiU64aT9kkfYz5movF/o58x+e3+IJyw7QjNJfh/Onjp1HgA=");
 
 export default Tty;

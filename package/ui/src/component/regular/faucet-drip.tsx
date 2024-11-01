@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `faucet-drip` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/faucet-drip?s=regular faucet-drip}
  * @preview ![faucet-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/faucet-drip.svg)
  */
-const FaucetDrip: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M248 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 21L96 32C78.3 32 64 46.3 64 64s14.3 32 32 32L200 83l0 45-18.7 0c-14.9 0-29.1 5.9-39.6 16.4L126.1 160 24 160c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c6.4 0 12.5-2.5 17-7l22.6-22.6c1.5-1.5 3.5-2.3 5.7-2.3l93.5 0c2.1 0 4.2 .8 5.7 2.3L303 201c4.5 4.5 10.6 7 17 7l40 0c57.4 0 104 46.6 104 104l0 16c0 4.4-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8c0-30.9-25.1-56-56-56l-32.3 0c-8.2 0-15.8 4.2-20.2 11.1C277.2 305.3 252.3 320 224 320s-53.2-14.7-67.4-36.9c-4.4-6.9-12-11.1-20.2-11.1L24 272c-13.3 0-24 10.7-24 24s10.7 24 24 24l100.1 0c23.4 29.2 59.5 48 99.9 48s76.5-18.8 99.9-48l20.1 0c4.4 0 8 3.6 8 8c0 30.9 25.1 56 56 56l48 0c30.9 0 56-25.1 56-56l0-16c0-83.9-68.1-152-152-152l-30.1 0-15.6-15.6c-10.5-10.5-24.7-16.4-39.6-16.4L248 128l0-45L352 96c17.7 0 32-14.3 32-32s-14.3-32-32-32L248 45l0-21zM420.8 423.4l-18.2 42.4c-1.8 4.1-2.7 8.6-2.7 13.1l0 1.2c0 17.7 14.3 32 32 32s32-14.3 32-32l0-1.2c0-4.5-.9-8.9-2.7-13.1l-18.2-42.4c-1.9-4.5-6.3-7.4-11.2-7.4s-9.2 2.9-11.2 7.4z" />
-    </Icon>
-);
+const FaucetDrip = createIcon("faucet-drip", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABnAAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDBwsGAAE2AiQDCAQgBYMtBzIbiQXIjtRe8YVoUjw8b/fYue8zM4k/Ek8ILo0KYrdut1q3rNBlSul9/i+nN2zTfP79gE/pdmM/n7YHzfk8gUDL+hyl7ecnlEWcgLW47aaIaaMtNM5QjY/jXjXSY+k73BM4Kv4wyI0ktQqA6AuAlft3b/XFr/FrxLflu8S3NiMgVoJCoIIhQwVYoiL05VUFqqod/Bplif8PLAgg6iIiCVRp43N4k/E7kaRq9cbBea1XdV9ey454fNwzA8W+uL31oGvbD+X7Q2Rxe6sVWTwz8LGxedzRnRyP5KXUnhgPQd+d+OIw8WAri4c7j3ceHrez4ZU57017ONud+nTtl8tzl2w/1n6oB3m++8iQiB+WfbYvi07sULFsb9zRfSSu6yB7Og5OmT7lQeJpfcoT0jNt0yW3t0a91Pelv0Z+d/J3/n++vXNnu+2UnnrfemvvVGsOTDVAtyydbP7KO8+VnXyyfpWjVUbuc3I2wRs/fp/3VT92hmPrjX8On1vodfr5b755/OW9zt1df6Ktv/22teW/bYZzD2/0FStefHxFDFcqu0NMfS/RfuXuwVF8bCMmnhoaYwcb12yOAwLBvL8+dUyfJf828wR+/+h/yl9R+UWSXkJTAkFlSjnFkQkkAgCQ4mKjEgSSpyWRU3t6WICQIUBSlwlQMURfAaoykwWoGW6uAHWZ3Sqi2kNoOaoFSU/ngYp5rgJVLW+DmiW+zNS1ogKrJqSZv4p51vXxtfuKmdNmFIuKxa7aAj/dbi8udkcmXCynJuKTTnaOs13oJCc6zYU97nxb8xc5y7o1dq0PKsw0zQyFRYrTg8eefTRxvgtIfd4+v8tixf3RCS5eXzwR2x+oPKscksSOp/zk4y464aQLp554/mnnAgAAAA==");
 
 export default FaucetDrip;

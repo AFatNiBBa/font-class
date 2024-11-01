@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `jet-fighter-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jet-fighter-up?s=sharp-light jet-fighter-up}
  * @preview ![jet-fighter-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/jet-fighter-up.svg)
  */
-const JetFighterUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M248 0L237.5 0l-4.2 9.6-56 128-1.3 3.1 0 3.3 0 66.1-.4 .3L32 299.3 32 272l0-16L0 256l0 16 0 56 0 40 0 32 0 16 32 0 0-16 0-16 144 0 0 2.9-45.1 63.9-2.9 4.1 0 5.1 0 36 0 16 16 0 224 0 16 0 0-16 0-36 0-5.1-2.9-4.1L336 386.9l0-2.9 144 0 0 16 0 16 32 0 0-16 0-32 0-40 0-56 0-16-32 0 0 16 0 27.3L336.4 210.4l-.4-.3 0-66.1 0-3.3-1.3-3.1-56-128L274.5 0 264 0 248 0zM32 336.9l144-89.1L176 352 32 352l0-15.1zm304-89.1l144 89.1 0 15.1-144 0 0-104.2zM208 147.3L256 37.6l48 109.7L304 392l0 5.1 2.9 4.1L352 465.1l0 14.9-80 0 0-48 0-16-32 0 0 16 0 48-80 0 0-14.9 45.1-63.9 2.9-4.1 0-5.1 0-244.7z" />
-    </Icon>
-);
+const JetFighterUp = createIcon("jet-fighter-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiAAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyDHwsGAAE2AiQDCAQgBYMtBzUbpAXIjsM4hvxiKs1PRPD9Wu/3uTO7lTcbhgkSKSYH5AktoIsDUvmfhQUguclc+zVxzfM//wZM/hd7pGjrNVYDZZ5PYMDROtDdgKLAZjoB29S8lwcpJF3fCfJ4EYNUSLfSJ7jgPjR+1sF5kjwDEM0BMH3tysXefhFfRHxSn/jEQgTEDFAKZMjQWYBJMoHOciVyueCLqNfZf2BJAFHl31ECOap4ineAHCR5nu9paOhbqzTJ19QqxcaiVrSOVdE6hIhYFRERRaBQLUJABTEtWndlGo+2MWPYE6Z6q78mFhhroiPFurWr1ooiYsvqNatzY01nyeoQok1MDyqvVKrwzGiHz9rjcfPHv3a3nf/fFEUx39hTkswMXFink+ZKzY3TTwkXN3dR5nM9VfQyjD+a66WS+VzmIlKWxfoZV5mddqpkhkzaPzVe7ftlQgxYO13UbOi6C9xmLtp5auvQvZ5/jySaWWZYfphlml19iX+BQHBv9uU7NZv0b6NaAl89//1P2a+o/jZJj9FIAkE2qD7IpgQSAQBIcVyPBIHkrpx/rY1dFyAUCJBUFQJkOmkuQK4wUICKrkYLUFVYKRN5g9Da5opIGjtEZMY4QeRae0ZUTPI+U9U6svtWvuvk38aMOU1g9rxy+JBh5YRytKpQbkVRT08sF1v9jne6+sO9tjtgv6O22WqXow38sMX5Y/aZMwXO9kWl4YYYpjRBublx11jTyBx2xK5hbfssE5XHx/o5Pj24P3QTn3eEtUkiUtPd244O/nCFBx87CAA=");
 
 export default JetFighterUp;

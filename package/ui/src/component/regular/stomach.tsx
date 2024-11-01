@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stomach` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stomach?s=regular stomach}
  * @preview ![stomach](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/stomach.svg)
  */
-const Stomach: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M184 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72c0 66.3 53.7 120 120 120l.2 0c-.2 2.6-.2 5.3-.2 8l0 64c0 39.8-32.2 72-72 72l-64 0C53.7 360 0 413.7 0 480l0 8c0 13.3 10.7 24 24 24s24-10.7 24-24l0-8c0-35.3 28.7-64 64-64c9.6 0 19 3.5 30.6 11.1c8.8 5.7 17.1 12.6 26.9 20.7c4.2 3.4 8.6 7.1 13.5 11C214.6 484 255.9 512 320 512c106 0 192-86 192-192l0-96c0-70.7-57.3-128-128-128c-50.6 0-94.4 29.4-115.1 72L256 168c-39.8 0-72-32.2-72-72l0-72zm18 388.3c-2-1.6-4-3.3-6-4.9c46.2-4.6 84.6-35.4 100.4-77.3c12.2-6.9 22.6-8 32.7-6.6c12.4 1.7 24.9 7.1 41.1 14.4l1.2 .6c14.8 6.6 33.1 14.8 53 17.6c11.5 1.6 23.3 1.3 35.4-1.5C444.4 417.4 387.6 464 320 464c-47.9 0-78.6-20-107-42.7c-3.5-2.8-7.2-5.8-10.9-8.9c0 0 0 0 0 0s0 0 0 0s0 0 0 0zM464 301.6c-12.4 7.1-22.9 8.2-33.1 6.8c-12.4-1.7-24.9-7.1-41.1-14.4l-1.2-.6c-14.8-6.6-33.1-14.8-53-17.6c-10.3-1.4-20.8-1.4-31.6 .7l0-52.7c0-44.2 35.8-80 80-80s80 35.8 80 80l0 77.6z" />
-    </Icon>
-);
+const Stomach = createIcon("stomach", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABmAAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCZwsGAAE2AiQDCAQgBYMtBy4bZQXIjsPGDS2ciAmRsPEUFKjLZmU54AuDkjwjd0AVIHfA3N6nfYLWBPT7tX3/tIlHs+TNojiaGBqp0IKlTGMu0fj7U89zng34jIIyNi6Nb/+YsTvPK1DA0vKJvQ/UyfVWK2i1dnb9YFA6kyTpfcgw/rBZ7IHVtbBRAsyu6DmwIa3XF3KtwuB7EJQCoLR97t+T21FlDHoWXoCe0R0IQG0BcAR4IJgoIABa8BBQwOKAxSKIKgwh/Ac6EAAoBl67AcACPrADDgCABcDgWdutZjXiJ9pBET8YvrtzNAcdWtzoKC1DO3snKwS63+K6Q7vaJ/KlPcMzlddU3Ja5LLKthDNPNbzQ8NP97+Cgw8ubnc73TuYEOj44naeh28uSrLxU/Uz+icxjFSPaFoAcq7y3yeUOFzumqM4tV0bHHy0fr5Sl1UGC7RnSgQ3MjS9UPVVI6XfK6W8lz99+uPSR2feauWFSUx1Y24ak+vWjay6XauLQqTTBBQ4mBZf+pNSSevXHZ5J/9tXAgeo7Br9B+0uf8ndhItH4TkldUt/JgtTmka23cj4XpgVg2C0t/dXLsU5tz5q27QcAAAD4M3P+89Mght1+/W6IBk1MyU58Uk8AECA4O2/1/DXT4l9cxABQfvXHf8ra8LbBnIY4DD7j1QhrMCICwIDgTzJaRGkEIMCwQQy+agLbBQBEAAgAQwwBAsAjXwoBYAmoTgD4FGlIAMQQ0J+HbDwiw8gGhgTmgkcji8GS4Rz4tPAoiiEjeL6pepb6NMzq1BMdl7lRrTqumZtmquZucpxv7pbt3qLQqYqdTDLbLAtMNMFUCzp+np7pQjN1ssiOvsipq5Y6nGbccfloDZJonvmm6sb5Is25+34Vi+zRVeEZKFjPOoMBmdj5C2b/lAsAAA==");
 
 export default Stomach;

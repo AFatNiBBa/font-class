@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-image` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-image?s=sharp-thin hexagon-image}
  * @preview ![hexagon-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hexagon-image.svg)
  */
-const HexagonImage: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M135.3 460.5L81 365.5l79.1-79.1 72.6 70.2L135.3 460.5zM72.8 351.1L18.4 256 137.3 48l237.4 0L493.6 256l-32 56.1-87.7-93.5-5.8-6.2-5.8 6.2L243.7 344.9l-78.1-75.5-5.7-5.5-5.6 5.6L72.8 351.1zm380.4-24.5L374.7 464 154 464 368 235.7l85.2 90.9zM128 32L0 256 128 480l256 0L512 256 384 32 128 32zm64 176a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-32-48a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const HexagonImage = createIcon("hexagon-image", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeAAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCGgsGAAE2AiQDCAQgBYMtBzQbHgXIHqfLecR8aQT1a0/2vN0D4D1C/nAI4MidCwA6QBUZlqhSkd9tDOdxvKVSdVuF+cQ1z//86QGjyB4tCivPF62d5xMYcLfuJjywmU7ANjXvyaaJ1xXqdoM8PrJNHdLT9C0eug+NP3VwjSTLAERzAEyvrlzs81/j14hvau8Q31iIgJgOCoEMGToLMEkm0FmuQC4X/Bq1GvsPLAgg6govTyBHfWzBNUAOkrp53qBTgyZNWjWq0ySvKLthuSIyqlGOUiXJjXj+sKhE22gdJZGytVQtNYwV8g7slKMJfn8lGpef67Qdp8+1rw7dm5fbIR43utvGLrVWwzttEz1ebP5/d/92x7duNB69IU5cstS8OTbvnLx/zAYQOvGDf8jL/1ddp6Li+HmLFyopW7bsbLvFt+Csn/z4h9KaWX0u/gIcQEZmTX3t2XvvPWPYWtNb3GpaxKhAPDe6XqvOG5tN+q9+owR+//DfP6HfYO3XJL2I+hIIskG1QdYlkAgAQIoTeiQIJGtcwX2NPRIgNKTCSV0N4UwnzeFcQwPhOroavb+uhlbKRN5AaG09gJPGDsOZMc7DudbeguuY5ItwXa0je+u4d4b75kue0wZmjyuGDxlWTCgmizL/IjF6eGKxWul3gjf1h2vtcNABx2y3zW7HWtARi2PH7TdnDpztiwrDDTFMYYJid+W+XMHOEUc5My7sH2Wi4vygnxPznftDPQm0I+xLEpGa7Np+avPOgwf+2gE=");
 
 export default HexagonImage;

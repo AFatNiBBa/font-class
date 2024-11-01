@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `golf-ball-tee` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/golf-ball-tee?s=sharp-solid golf-ball-tee}
  * @preview ![golf-ball-tee](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/golf-ball-tee.svg)
  */
-const GolfBallTee: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M384 192c0 66.8-34.1 125.6-85.8 160L85.8 352C34.1 317.6 0 258.8 0 192C0 86 86 0 192 0S384 86 384 192zM242.1 256.6c0 18.5-15 33.5-33.5 33.5c-4.9 0-9.6-1.1-13.8-3c5.3 11.6 16.9 19.7 30.5 19.7c18.5 0 33.5-15 33.5-33.5c0-13.6-8.1-25.3-19.7-30.5c1.9 4.2 3 8.9 3 13.8zm-52.3-49.3c-4.9 0-9.6-1.1-13.8-3c5.3 11.6 16.9 19.7 30.5 19.7c18.5 0 33.5-15 33.5-33.5c0-13.6-8.1-25.3-19.7-30.5c1.9 4.2 3 8.9 3 13.8c0 18.5-15 33.5-33.5 33.5zm113.5-17.5c0 18.5-15 33.5-33.5 33.5c-4.9 0-9.6-1.1-13.8-3c5.3 11.6 16.9 19.7 30.5 19.7c18.5 0 33.5-15 33.5-33.5c0-13.6-8.1-25.3-19.7-30.5c1.9 4.2 3 8.9 3 13.8zM96 448l0-64 192 0 0 64-64 0 0 64-64 0 0-64-64 0z" />
-    </Icon>
-);
+const GolfBallTee = createIcon("golf-ball-tee", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABeQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCCAsGAAE2AiQDCAQgBYMtBzQbDAXIjpOlZpI1Hv5/rfK+X9ULgLWAgGo1hkCNC5KdE4squssBfOKa+nH+DZj0BI+Si0qK5KdlYQpMdBhJe5HZwF4U9zbNQyOCEDoiKirdiB2fdHy7QR4nsotKpGfpW9xJPxp/ae4iSfUMQNQDwLglC2apqIzKiG/KHxHfmIGAGAcKgQwZWgkwUibQSq5ALhdURrlM/4EFAUQVbFgCOapiE/YCcpCU8rxxw/pYqlmqnS8ORtTY8KJnxOuhNeLz3m/b/7HglyW/zftp0cKzjSIe1rje5FmnJ02h8rzzI/M74AYUkiSRb4luW5WXhqiZ4RpAnNP+Zb2X/7T7dvO3zpTTVrZt+9W1bk0xb9GieYjGokXn3RrrKdfqVJt/fuyrV+VdO1Xr1/HmuvZUSZIkiu2t98C2i38fY3mzwlj8HASCT75e++WauiP/r1YzgT8//+8f5e1yRZxNL1FNAkHWs9zTyjgLJAygkuKw9orJAskqJeBvreWxAKEGAiRV1BAg01I9AXI19BCgpI1BAlRRwwKZyKsLjaxqdFLLPjoz2Ck618gHdMlIX1SqaBSZsWmmov3q5Zg8wpOOFf169y2GF2JbtdiPEtdHFK8DXQ/7sW5w0mZ77HbQJhttc3Cg9ptVP2SXyRoyiYkK/fTWV2G44rj3rF9sk/0O2La3nR8yQvF9pqvD+uxuEE5YtD9dkohU+wo7e12fYq+DmzYB");
 
 export default GolfBallTee;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `burger-lettuce` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-lettuce?s=sharp-duotone-solid burger-lettuce}
  * @preview ![burger-lettuce](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/burger-lettuce.svg)
  */
-const BurgerLettuce: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 192l0 32 448 0 0-32s0-160-224-160S32 192 32 192zm0 192l0 96 448 0 0-96L32 384zM144 128a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zM272 96a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm128 32a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-        <path d="M168 253.9l10.9 4 77.1 28 77.1-28 10.9-4 10.9 4 76.9 28L484.8 266 507.2 326l-64 24-11.1 4.2-11.1-4L344 322l-77.1 28L256 354l-10.9-4L168 322l-77.1 28-11.1 4L68.8 350l-64-24L27.2 266l52.9 19.9 76.9-28 10.9-4z" />
-    </Icon>
-);
+const BurgerLettuce = createIcon("burger-lettuce", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABkQAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCMwsIAAE2AiQDCgQgBYMtB1gbXQXIjtRWcxRJchMPX/e+597dfWnVuifU+3gVruCxWDOORuBPNALfnl9H8xYH8N8lEw0O6VyhCqW95OS67aAE7/xf8/mFHh3gNzqUaKz0a+CoVegEBhjtO96bwIQGNPEZ2Ba3XQURDY2FxgNqnPNjEMlv7gzwHv4HMP5hbgxIQwUAMQkAOH3IToUkk8zRmbIJxC9SQECcAVhGKCiYR+AALzBPsAyqKuhxigL0SFEYEEB0CC8soMMgXsEbACpIoVXB00w9CTRFbSGv+KpGvrGJcS7lkykZUy4lkyclkBGZUB7l0CiJvCnxTP98kLEgmrGYd1oP2s+7DNh1WDWbNcbaFa38SaNpkxnTKeMGzd1tv663/mx3VneGlYOFxE6xhHQWsFBl0Yp9DEhSFpIPFIsmlm2fJbckMNi+Dgu7uc1ClpKk5MiCVEEPSaggtSs6sqyj1wza0ucBAsGPheFEuW7Im5omB/jbf30QPySxL9MPtw4YlCAoq4oLShKaFj8gAEBGH+wTmiWE4oCIvuuoDxAIwwiQOsMCFHP0EKiGrSDQLPJFoDPsBi+qOsKs0h6kUY+g2NIPqlkboDlwGHVmgwdBFoDYP8CkuDEUu415unmwILaZazmoou1iMDstO/TJAUd8F3XatelRq0ajnhHeJTXt1SpuD4v1QYwnNx6YIOx29VzKo1aXbkmvC/c3Ccbe9x307Y93xBonIVzTvyhEEm9S1dtVX9vl2lLb09NbXesKzqPMloRvFw==");
 
 export default BurgerLettuce;

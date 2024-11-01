@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-ellipsis-vertical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-ellipsis-vertical?s=thin square-ellipsis-vertical}
  * @preview ![square-ellipsis-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-ellipsis-vertical.svg)
  */
-const SquareEllipsisVertical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM224 240a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-16-80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm16 176a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const SquareEllipsisVertical = createIcon("square-ellipsis-vertical", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABeQAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBaAsGAAE2AiQDCAQgBYMtBz8b9wTIngm2rZi1D7TxZLM5shAPz699O/fNrOA+kFyl0eji2kjb8JDEKln829qQIxENwDvqmMGSiwn+7l+1/BPXPP+0pwcse4JHi8K2B4nkikWeT2BC5U3b+XQ2sBfFWTu75QeKL4PQ9/FJhu0NowvkcYZWKyOd4tc4kH40vmpmP0mWAYi6ABgxb9YUVZ/iU8TrEuK1SQiIkaAQyJChpQCDZQIt5QrkcsGnKJXoP7AggCjH704gRwXmYSkgB0lZnjdvXq1atRpltfK54fPVF13ViKMxxSk71mrFDZwoWZz2473m5DMn4s6oFdfWrZTi5LxZa8b1fTtnc47ZUT3uJzD3BLqsHmh3O9z+bV+vfW3YgfeON9lw2Zt33YfLMsVL1etR7yJoF+vVqz6cjNTHA2rX/lTQOtME2HUe6NeBQFD622V1Bn+TGgl8edrv+rySqEq3iUoJBFnn0rU4qoCYAbgp9mpnjCyQTFMG/K01HRcgVEeApFx1ATIt1BUgV10nAcq01keActXNkom8mtDQkkEkNe0gMn3tI3INPSHKDPbMLdcwMucSXEP42qWOlcCYfUWPrt2LgcWy0kR/4eL2oGJba79XTXXAWWtts9Vua6y2wW6B7zQl2GOLsRY2xogKPXTVXWGg4rhdq3OFu9MuG+by+S6DFPed9vbaizvATJi1p0ySiNT0fR7osmbz5g3bd23Y1eXNAgA=");
 
 export default SquareEllipsisVertical;

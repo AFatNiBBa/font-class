@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signature-lock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signature-lock?s=thin signature-lock}
  * @preview ![signature-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/signature-lock.svg)
  */
-const SignatureLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M104 48c-39.8 0-72 32.2-72 72l0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-40c0-48.6 39.4-88 88-88s88 39.4 88 88l0 15.9c0 25.1-1.8 50.2-5.4 75l171.2-50.6c3.2-.9 6.6 .2 8.6 2.8s2.2 6.3 .4 9.1L294.4 288 408 288c4.4 0 8 3.6 8 8s-3.6 8-8 8l-128 0c-2.9 0-5.6-1.6-7-4.1s-1.3-5.7 .2-8.1L342 181.6 183.7 228.4c-1.2 6.7-2.6 13.4-4.1 20.1l-4.8 21.8c-10.1 45.5-26.3 89.3-48 130.5l-27 51C90.6 469.2 72.6 480 52.9 480C23.7 480 0 456.3 0 427.1L0 319.8c0-31.9 21-60 51.6-69l118-34.9c4.3-26.5 6.4-53.2 6.4-80l0-15.9c0-39.8-32.2-72-72-72zm62.4 185.5L56.1 266.1C32.3 273.2 16 295 16 319.8l0 107.2C16 447.5 32.5 464 52.9 464c13.7 0 26.2-7.6 32.6-19.7l27-51c21.1-39.9 36.8-82.4 46.6-126.5l4.8-21.8c.9-3.8 1.7-7.7 2.4-11.5zM208 376c0-4.4 3.6-8 8-8l160 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-160 0c-4.4 0-8-3.6-8-8zM528 208c-26.5 0-48 21.5-48 48l0 64 96 0 0-64c0-26.5-21.5-48-48-48zm-64 48c0-35.3 28.7-64 64-64s64 28.7 64 64l0 64 16 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l16 0 0-64zm-16 80c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16l0-128c0-8.8-7.2-16-16-16l-16 0-16 0-96 0-16 0-16 0z" />
-    </Icon>
-);
+const SignatureLock = createIcon("signature-lock", false, "data:font/woff2;base64,d09GMgABAAAAAANkAAoAAAAABtQAAAMXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDVAsGAAE2AiQDCAQgBYMtBzUb2QXIPg3QY46JcCIxnEoDe9FCCiPzywpZeq+UkJC79YbSQlG6smd3pXpLD7onlJkxQ8DYzswZkcqpy6EjZDC4hg1HfnAf9glo5xeExaVJIlnW+cA2w4FOZ7j1QgQZMDe4YivjRGKbdKBB/2TIpt6ZJAiKKjQN8M+cu2HqmLvp3IBo5sCGweDmprZurMSiTu5/W4siDjGhHDJ6hszo/881n9/zowP8fASHUkXRW1s0UObzCez5KMojaS0wsIH6WDY4b/IhhMKQnoNDZwOcfosH5qi8BLvdh+oH1QYM1gIAoAgAAOh8DO3PY3PFl/8/eskGAlAXAGICLGCBUgKgHYuAUo4YOByChB/7DxwQAMjH/3UGAAekAU+ADwCAA8DgOze4kFO1otDLcCNCLxh7oZZ0JdABPZQvnT7XWz6sfbUMrekjdRgHc4cp1EEcyA20zQ4VjNQwHdBCve4EHpmX8g8VS2vzeM2ROs3SsX2txvBhI4ddyD0ArcHB8HI21f1XeNiHHy7YxTlkUydFqWigcANpJtbod7yudH1drH21qCd7Ow5Ca7QSnLlG0lo/HIbSsAO5iIU67OqdQZVr0bWffobrTkLTXAt/0iS/Fm5L/W/ZQhE11rUmdOqT22spS0xK/qQ1ZI5/xW7zOVkUtW5kdss4R+/9MhR9/1kFRg4js2nTZG5+08vy5q2YS/Qes0HnzsG2u+N5tXf5k84wKblRx8uNPvMqxCSd2FefpyaknjOeCjoRydxSsgY0nqnyIjqVgQn1J2dkr4gAIEBgpyXT2u5XYQD4/jdw9P9VuUZIwwAgsPX+X+PiGgLwAQAJoxVUmRijAMMjlyeQzqGtKRFABQafACwlInAE1AWPcs038AkYyiJXCZFrPACGdBaDpYWV4Mh1HzzaeRL3yQ32lmZvSPaHMqnHke6j4mvQKG4TjxYU3F1K68G28WJ1V9RQG65lhoUWWGa6aWZbNmyJ/qnl5usxhXb3RbHGGmgk1ka8uXxXGiG+xFKzh4Xtw7QVHx+oZcV0+9rQMPiETcwyGJDJXDp75nsg1//eAAAAAA==");
 
 export default SignatureLock;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `worm` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/worm?s=sharp-light worm}
  * @preview ![worm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/worm.svg)
  */
-const Worm: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M432 192l0-27.8-27.5-3.9-31.1-4.4c-30.7-4.4-53.4-30.6-53.4-61.6C320 59.9 347.9 32 382.3 32L480 32l0 72 0 56 0 48 0 148c0 68.5-55.5 124-124 124s-124-55.5-124-124l0-36c0-44.2-35.8-80-80-80c-39.8 0-72 32.2-72 72l0 144 0 24-48 0 0-24 0-144c0-66.3 53.7-120 120-120c70.7 0 128 57.3 128 128l0 36c0 42 34 76 76 76s76-34 76-76l0-164zM382.3 0C330.2 0 288 42.2 288 94.3c0 46.9 34.5 86.7 80.9 93.3L400 192l0 164c0 24.3-19.7 44-44 44s-44-19.7-44-44l0-36c0-88.4-71.6-160-160-160C68.1 160 0 228.1 0 312L0 456l0 24 0 32 32 0 48 0 32 0 0-32 0-24 0-144c0-22.1 17.9-40 40-40c26.5 0 48 21.5 48 48l0 36c0 86.2 69.8 156 156 156s156-69.8 156-156l0-148 0-48 0-56 0-72 0-32L480 0 382.3 0zM408 112a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Worm = createIcon("worm", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABmgAAALWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDCwsGAAE2AiQDCAQgBYMtBysbhgXILgpsY/pgD1xWeEY3zCKBnnihDvnwtTIo0lb2SHraewY9EBsBIqAcCEN/ZsQQIXU5iA3/Z3sQiv2iCk3JzW7HA//36n0/m9awfzyY2BxdS2gLFrTacj2nYP0CHzBgMfL0k7tQdMzzDop3Ek218j4v1WSZ7T4MA+2G2UgDzjiEbXVe4InE/z/ner7nowF+G9lQqqh0IJFAURf1/AROpClTMMHO9ATs/G7y95K/35qcKEn2hhu21sDpDukhDMwJmsC+/KH6q2svDM4CAKB4AABA/6e7Cw/T8EJ6e7qgt86AADQAAE+ABSyQTQB0sQjI5vDA4RD8CqT5D4whAFA49b4GAAeEAVdBHwBwABisc8NHlXhYjJsSQsFCQSVu2FV3Ul/5rdKQoKXPF3cHPR9HgXQ2u9lyuex6OkKB1D6X6gdDn408H51IbxRfq7yVpSl9iXQ9nOEnNxcL7RSHg091VEEfxjHl3dAmIYRCIWGXXfpY6EceyUDvRz7542RNFc0bTLrmT5ZcTj9RXHAz/ua/OSPxewq0zyW+KU07WfFzAcO0qXNYFtR+U/9grgiasrjyqMbuR6uTbj9PKH7cos+KEDd40vHYV+UlPlh3EtwoZKZPH/z4pn9T0t03EjTwbbIIjeYzTPejef46Rrr96nCrWvftZgTqf+eeqZUl9ezDWG2G8fzm9aYpxys8ALRb8d+0K11c8YvcAPDncE/5Ff3fEcxNQCQGAIGtYjMrAoABAQAAAEZbKIgABBjOCrIbzVF20w0AOTOcAK4lS3wHR0AlhJGrmd4cPpFFLgqRbDbAEM16sLTYBo5ktyGMLi+scJKDlVZW1tjPYtKaI6tBcayp8x1+GmucANKxt9Nvq8kWW1OOqZZYa41NFltkuU0M22C0u9lqQ1boYF/k1atRx+vgj7PH8VMstsFGy621JvXTyd83y2xZNy+HYaiEDRTzBBHjtq79eAY=");
 
 export default Worm;

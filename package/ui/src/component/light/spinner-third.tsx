@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spinner-third` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner-third?s=light spinner-third}
  * @preview ![spinner-third](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/spinner-third.svg)
  */
-const SpinnerThird: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M463.9 376c7.6 4.4 17.5 1.8 21.4-6.1c17.1-34.3 26.7-73 26.7-113.9C512 120 405.9 8.8 272 .5c-8.8-.5-16 6.7-16 15.5s7.2 15.9 16 16.6C388.2 40.8 480 137.7 480 256c0 35.1-8.1 68.3-22.5 97.9c-3.9 8-1.3 17.7 6.4 22.1z" />
-    </Icon>
-);
+const SpinnerThird = createIcon("spinner-third", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABTwAAAHWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfHULBgABNgIkAwgEIAWDLQc0G3kEyJ4FTpl1GpHwko2bfSIJNw+tz3h4fn//rb3v+RDHSFSy87jUSWAoiuNQFaqUf35+z9z+TfIW4r0ltzigLSEJmkuj0RJVK43HLkuTQMp8e5NlXn+R8YG3ZHix+ZJ6//ub5//8U4DPKLSxaWkgC3zO8wQS+5d3nshYYJkmYJm3zFiUct9kokl6vFaPX59mKPE+FpPJB/kBt8tD478hd1KpAEQnANh8pNvg9yW+RHyovSQ+2AsCYgtgEqFChVEE1hEFRkkmQVEEX6JWk3/gJAQQ9bBkgoIKE2AegAJSlDLQUtdWDse9N1+4MzD1rhzuU8i9jc++7dPiyvKg/qbsssHnnSuWNtt+f2qxo73t21F88SSOrzl56gsEgsazr06fUdbNNLYk+PbuDH9GAimfolGCoFpcW2yYTEMSAICMW7QUBNIAAdba6q4AoRkBUr1mASojVASKZosQqDMuQaBeswNEUZqEXqMGqdVVqKx1g6LXE+qs87fr9UZ1RTgHcy+05I5G7TFe4fpc8tBXea8zqV/xtDb/GnIGTWJqZ+tsYmzhrKijxrvY6Fi47UUs4PKxEi9H9+SBiaOThZ1tHlLh/ZbualcbZApAuxIhJZFt16984Ks6Jw4AAA==");
 
 export default SpinnerThird;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop-file` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-file?s=sharp-light laptop-file}
  * @preview ![laptop-file](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/laptop-file.svg)
  */
-const LaptopFile: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 32L96 32l0 256 224 0 0 32L96 320l-32 0-32 0 0 2.7L61.3 352 320 352l0 32L48 384 0 336l0-16 0-32 32 0 32 0L64 32 64 0 96 0 480 0l32 0 0 32 0 64-32 0 0-64zm0 128l-96 0 0 320 224 0 0-192-112 0-16 0 0-16 0-112zm32 0l0 96 96 0 0-2.7L514.7 160l-2.7 0zm16-32L640 240l0 240 0 32-32 0-224 0-32 0 0-32 0-320 0-32 32 0 144 0z" />
-    </Icon>
-);
+const LaptopFile = createIcon("laptop-file", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABaAAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBdgsGAAE2AiQDCAQgBYMtBzIb+ATIhofv13o793XPVNI9QX6JYgQH5ONIJfrbZFF9tzTCB+wCK5qJa/JH0bc3p+Cj/a8pqbwKJPN8AgPcqLiB5mUDe1GctbNbXhLdJiHlXzJsP6zOUMY/MVmD9Cq18az8aPxomKckZQEg+gJgxb5dW3R/iA8R7c5nRNsmBMRKkAUKFBgpwGKFwEiljFIp+BCdjvwHZgKIJr5cAiWaOIqzgBIkZVlO6lP3qxu9yr11ozrX6tVKUYeoKjEheoVoxdKIiKjrAvFelIYIVV3ZgHCQEobmvVGN2LN3jyHdirBvH9fVt+vnse2zbe9fP2SOD3IUlhfaxKyvjpDljJLfEMtFHx7H7uU+6Ha9b1/X83FaFQ4fVnSuRX6zwp6RgUCwafmy7cf6LP67R53Ap69//V19uNOdHqYu9JBAUEzuTHY4PQTRBlBIcdc4xWOBZK8S+K0tzwUIFQIkTZUAhRH6ClCqTBKgYbQ5AjRVdilE2VMY6EhXk5YbamGue2ppoLdqw2LfFJoGRuFjPg/x/fAKr52hNZvyjKnT88K8bWl+t3HS6qJ8HBt/N4xMwFFnXXPVbWecdsHtib9pS/mOK9Zq5BoeymaYarpsoXzdfd2/1xk33XLBNVfzOovk99nx7urTJyCZ0HamU0kiUn35xPXb165PcWk=");
 
 export default LaptopFile;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-medical-flag` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical-flag?s=sharp-light house-medical-flag}
  * @preview ![house-medical-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/house-medical-flag.svg)
  */
-const HouseMedicalFlag: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 16l0 16 128 0 32 0 0 32 0 96 0 32-32 0-128 0 0 320-32 0 0-320 0-32 0-96 0-32 0-16 0-16 32 0 0 16zM608 160l0-96L480 64l0 96 128 0zM281.6 35.2L416 136l0 40L272 68 96 200l0 280 312 0c2.7 0 5.4-.3 8-.8l0 32.4c-2.6 .3-5.3 .4-8 .4L80 512l-16 0 0-16 0-272L25.6 252.8 6.4 227.2l256-192L272 28l9.6 7.2zM240 176l64 0 16 0 0 16 0 48 48 0 16 0 0 16 0 64 0 16-16 0-48 0 0 48 0 16-16 0-64 0-16 0 0-16 0-48-48 0-16 0 0-16 0-64 0-16 16 0 48 0 0-48 0-16 16 0zm16 80l0 16-16 0-48 0 0 32 48 0 16 0 0 16 0 48 32 0 0-48 0-16 16 0 48 0 0-32-48 0-16 0 0-16 0-48-32 0 0 48z" />
-    </Icon>
-);
+const HouseMedicalFlag = createIcon("house-medical-flag", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiAAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliDAwsGAAE2AiQDCAQgBYMtBzkbjAXIHoVxMz3SRXNsb/+I56G10Pdn9y7JbmCSlGBKvCkyKSZHshbYlR0LH7AlVUXXzAy1qjNEPX76+6k/rIo+Px7B0CJLS6PifAIT282rhGbD2UhKBKfRtjeFNdRDPAiFNfT5J/uaUd4t8GbxoPnN1p6j6DsAqQA44bKLzvH9hmxIfl2c/OosBHIiaIIOHbYTcLROsJ1eQ68XNmSxMP+BjQCZA1a8XY8leA+fAHpQzPp+p2W77LPTOFvRXzrOhtvEOIrIMJQM6YJ3GeOSyBAZb7zk0kvk0lyckhV5dUt5ZWhIuhyevXNZtszmF4/DKHKbSopJpGQcMy4Rw7DPOs6r8/mx8/v1/T+4lfWf1Fqfas31mvbU8ZrjDdiqxuqTb16Pwqdc76lTHnv+Zv1D9/TmXT551lYO10876fvTa1Vd7QiL77zlrb1eO/7486vJVKvjVXWaVHXqX3VehXNqS/ZJBakf3g4E4btNvXjdqqP/XjoWsOnLv+b7zBffl6fKsFQBodt3sa+rZdycJBsgWfKonTeeKCjeNYN7Xe4tATEgoJgbBHS2VQX0BvsImNnBIQLmBhfppF8mNnNNB4rlHgCdQz0Oepv5Aswc7YfE3GbpKFVFZ6ofxfSnDtFTFrV1+0/tyLZa06iJTxFnj2qH7Xs+anv24ivd6j73etgtbnaHhwfig85JP+Iep27Rp3ihZp39TZojtcvNp8svdYsHPeQO97k3z3OU9nx4T49uD9+LuwrIPVBRUUhZQ8Xm/V5cw36fBQ==");
 
 export default HouseMedicalFlag;

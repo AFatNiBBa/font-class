@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tablet-rugged` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tablet-rugged?s=sharp-duotone-solid tablet-rugged}
  * @preview ![tablet-rugged](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tablet-rugged.svg)
  */
-const TabletRugged: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 64l0 96 32 16 0 16L0 208l0 96 32 16 0 16L0 352l0 96 32 16 0 48 64 0 256 0 64 0 0-48 32-16 0-96-32-16 0-16 32-16 0-96-32-16 0-16 32-16 0-96L416 48l0-48L352 0 96 0 32 0l0 48L0 64zm96 0l256 0 0 384L96 448 96 64z" />
-        <path d="M96 64H352V448H96V64z" />
-    </Icon>
-);
+const TabletRugged = createIcon("tablet-rugged", true, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABcgAAAHWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBXgsIAAE2AiQDCgQgBYMtB1YbBgXIhof/X/vfPnfmva8GPphZErdmmmgWklVIpNfQEv4ieiLP1KnnOQ8F8EEk2ZTLeUCWjjXOIxCcILHprUiBiqWS18D6tqWORiDdEAmLksYJG7Mb8nidPVAhvUrf8Yz/BzB+GegBSUMGINoBsGLn1i1q/dGf4nv5gfhuMwJiJSgEMmQYIsBimcAQuQK5XNCfypL+KMuCAKKKn52BKirYil2AHCQh5XnDgoamSku+g7/UuLeluSVFc2SZMCbE6BD4hqaWiHERMTaSorFZjG5y7x35rv3dnxHfT3x38Dbu4I47h2ik1K50CIrTLV8+XaLZ7KH9x0EgeLrh9NiDbYv/1zcl8OPjv5/od1TWopbeoV4CQTa5nGxf1CBqAgCQ4oaRUXMIgcxKSX3VZs8FCI0IkFQ1CpAZrF2AXKNJAlQMM0eAqkZbZSJvELrtF5A0uwwyc90EuW7vQcVin4Sq7sgCCw8L/FsXs1ZDa4aKGVOnFwuLoacRsYKW7qJimRt/I2cmwKYTLrrgmuOOOe2aQq7YIl933toZvMYHFWaYarrCQoU7vGd2kHDFVadtyt9nkeI8P96NefkEWCcBZl6JKSNSZD1BZ7825cr1kyePH5vyRgv6DOo9Ag==");
 
 export default TabletRugged;

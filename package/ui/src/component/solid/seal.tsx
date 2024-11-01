@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `seal` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seal?s=solid seal}
  * @preview ![seal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/seal.svg)
  */
-const Seal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M289.9 18.4c-18.7-18.7-49.1-18.7-67.9 0L176.5 64 112 64c-26.5 0-48 21.5-48 48l0 64.5L18.4 222.1c-18.7 18.7-18.7 49.1 0 67.9L64 335.5 64 400c0 26.5 21.5 48 48 48l64.5 0 45.6 45.6c18.7 18.7 49.1 18.7 67.9 0L335.5 448l64.5 0c26.5 0 48-21.5 48-48l0-64.5 45.6-45.6c18.7-18.7 18.7-49.1 0-67.9L448 176.5l0-64.5c0-26.5-21.5-48-48-48l-64.5 0L289.9 18.4z" />
-    </Icon>
-);
+const Seal = createIcon("seal", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYQAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBRwsGAAE2AiQDCAQgBYMtBysbwgTIjpMldpklHp7s/uvc6vp6b4weSpmRQREZLxhtZgXZOF2rvmr//ub5Px8NwGcU2li4NJAFEs15nkBiXZ4nlAWWaQAWY9ZN7/mGlN+SvOgkDeM1TB2Q443irBrS3fQlLtebxtfaO0vSUACIZgCYtmbFIu8+jscRX/yf+MICBMQ0UAoUKNBJgIkKgU6yElkWPI7//7d/YEkAUcu/MYGMAvOxGJBBEjlPr9Y0zqurNZVttyoR51pNjEo80+pGOzExbjjZelKIu61v9qrGpLhZPd92SlTj+ba3O0ZMidtxqs3kiLjX5lbvSkzu/lKzl77t9uXWL3V79duWtPz2K9MMvf9VMc19D1u2fPjAVMVX94dO85VvW7b89oGpiJ3qAXvfNDGeBoFg6Lofj2g68df6agJPX//+j/Ya5f8/jH/SS6iXQFAM/H+gjYksxz8CAJDiqO6JLJBMl+hVG7klQKggQFKrIkCho2YCZBUDBKjRxSgBalWsUIjcILSyaUDSyAEojHYMslZegxoTfeLVahUFl2QmyF+5jNmKZq2VwwYPLceXy1hX6CHm+YRy2+x7NNX6ya6t9tnrsC022+Fw4A9aFB6xx2yEZ3lQaZjBhiqNVx5nz9urbXHQITvss7csmaC87/Z1FHf3EydxweEiSSJSfrU=");
 
 export default Seal;

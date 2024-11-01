@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alien-8bit` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alien-8bit?s=sharp-thin alien-8bit}
  * @preview ![alien-8bit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/alien-8bit.svg)
  */
-const Alien_8bit: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 32l-8 0 0 8 0 64 0 8 8 0 56 0 0 48-88 0 0-32 0-8-8 0L8 120l-8 0 0 8L0 312l0 8 8 0 56 0 0 56 0 8 8 0 56 0 0 88 0 8 8 0 112 0 8 0 0-8 0-48 0-8-8 0-48 0 0-32 176 0 0 32-48 0-8 0 0 8 0 48 0 8 8 0 112 0 8 0 0-8 0-88 56 0 8 0 0-8 0-56 56 0 8 0 0-8 0-184 0-8-8 0-64 0-8 0 0 8 0 32-88 0 0-48 56 0 8 0 0-8 0-64 0-8-8 0-64 0-8 0 0 8 0 56-48 0-8 0 0 8 0 56-96 0 0-56 0-8-8 0-48 0 0-56 0-8-8 0-64 0zM496 176l0 64 0 8 16 0 0-8 0-104 48 0 0 168-56 0-8 0 0 8 0 56-48 0-16 0-40 0-16 0-176 0-16 0-40 0-16 0-48 0 0-56 0-8-8 0-56 0 0-168 48 0 0 104 0 8 16 0 0-8 0-64 96 0 8 0 0-8 0-56 40 0 0 56 0 8 8 0 112 0 8 0 0-8 0-56 40 0 0 56 0 8 8 0 96 0zM168 48l0 48-48 0 0-48 48 0zM456 96l-48 0 0-48 48 0 0 48zM144 464l0-80 40 0 0 40 0 8 8 0 48 0 0 32-96 0zm248-40l0-40 40 0 0 80-96 0 0-32 48 0 8 0 0-8zM208 232l0-8-16 0 0 8 0 80 0 8 16 0 0-8 0-80zm176 0l0-8-16 0 0 8 0 80 0 8 16 0 0-8 0-80z" />
-    </Icon>
-);
+const Alien_8bit = createIcon("alien-8bit", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABtwAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByEfAsGAAE2AiQDCAQgBYMtBzEbfQbIjtLM9GQzRdTFGQ/f6z4990l/561kBplYJsYAYe8uUKX1bBWkDouSocyk/I3ADPP+j/upf9FcIE98ytFBZd/WqXU+3PmoyppSoHE2UZxpbrmik2rf8f3DsLGBMr52RYf0cgrXsw+Nv432PElRAIhBANh4/PBen/4QP0R81X2L+MpuBMRG0AgUKDBOgDUKgXFKDUql4IfoduP/wIYAokdxRwmUqIgJxExACZJclk9t7e0dOHDw4LrTvzxWd6rTVV0JIepaVBERUbFCJA95d0Qd9M0RQfKgMhXjER9coC4KwqKgTon9ZPUFxOBRCbP3mHCT7WJV2zuvBCOPqI6nCc+RHpsKHFuy3txkct+gvn8ndS13vULONsjyitYJjSzvyN6NpCta7AnWw1m7Rm4br2q0OWtl5hNWrKQrSP7u3kDjhJbJNzDpCnvvChecKG1b0/rrG4px2SDZzVo3TtG1d9+KuqF1M511gwty2kyFD8/m359aIRYZJi4YTcvvOkD2mWa+133h/xkz4XPAhZeb3vkEwgbJDsj6kq9uTgcCwaWyfef8wDX/qRP46f3/jeN1f0gbUh+yBIJibneuM2kDxM1BEUjxoMmaLwqkGCHDun5eECBUzJD0qKAw1iAoVeZAxwRLOZbjDytE2SsMcxaQ9HMPFJZ5AkrDvAEda3zm7zEsis+E58l5P6mJt61xW3s1C+e3zapGmTDyfT5H27i6sVbPfJAVzMJc19zlTve76opb3L+i32tv6AF32KZj2/pDjYXmazVWaXan5+JjQeBe97lFLm/2d7Jac759pgf15WehPwmwyIMhaXCk6uLtt1y9c96KS7fcDwAA");
 
 export default Alien_8bit;

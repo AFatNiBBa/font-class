@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crop` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crop?s=duotone crop}
  * @preview ![crop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/crop.svg)
  */
-const Crop: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M64 32l0 32 0 64 0 256c0 35.3 28.7 64 64 64l256 0 0-64-210.7 0L384 173.3l0-45.3-45.3 0L128 338.7 128 128l0-64 0-32c0-17.7-14.3-32-32-32S64 14.3 64 32zM400.6 66.2c22 5.9 39.4 23.2 45.3 45.3l56.8-56.8c12.5-12.5 12.5-32.8 0-45.3C496.4 3.1 488.2 0 480 0s-16.4 3.1-22.6 9.4L400.6 66.2zM448 384l0 64 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32 0z" />
-        <path d="M32 64C14.3 64 0 78.3 0 96s14.3 32 32 32l32 0 0-64L32 64zM384 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-352c0-35.3-28.7-64-64-64L128 64l0 64 256 0 0 352z" />
-    </Icon>
-);
+const Crop = createIcon("crop", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhQAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCKgsIAAE2AiQDCgQgBYMtB0QbQAXIjsM4hvwSSxniwYqH7/2Znvvel2xLPCMDfwNjBYRBwC7bJly5C1brotlJm0mVSa1kfv//n8s9P9t0gN/o0PbQe6dr4NE1x/MEAszaFgVS5IFEkIG1uO0qiGhoI0QeUMRgflaF9FH6C2+E/wGMf4z1LMmIDCA6ANhy9OBu14diKMVf/e+Iv+xCQGwFpUBGxgQB1ssCExRKFArBUOrPUPQvCSCqApq9u4phuA9PAgqQJLkoOmNmt9r1SrM4Uq/UTr7ci3jXkyPfq9cjonbZ2xHyyVdGfxA5Pp47MLMRohnppCBSfDTnmxnNQ14cLf1Dkdx5atT7tZd77zr//cSD8cGwue+4UI+HWP+l2tSBzsC/U1xh8hOtF3mx1XrxxVZps/LsF+j0ObVu90s245xNX5RJuJmF1g2DgxZYUKk37skYLw7tmzLu6xe91Gy+9GEeffjgwg2bVWfnFSUQCDZ0Nj58tr3+/+H1BP7+pf/Uv6P+9SQNYLgEgjy/P9+pBBIBAEhxv6kJNgtkO2TJvYb3BQg1ekiqapCN14FCzTyomGTF/aqag7IoRgg9pxEkDXdBttJjUOj5FirW+zWp6kUGPx54+J+/lJ1jZMe+csnCxeXacrPTChDF2u115Wln9v1yag4+64o73O5el11yk3tH9N125/e5zc49aocPKi2x0GKltcrbg+fHj7jsbve4yR1u97usU74fzHb//uI52E8SxqXuZZlIkRsX777jzgVQrLUG0scKAA==");
 
 export default Crop;

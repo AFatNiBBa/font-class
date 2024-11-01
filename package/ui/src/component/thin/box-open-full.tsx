@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-open-full` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-open-full?s=thin box-open-full}
  * @preview ![box-open-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/box-open-full.svg)
  */
-const BoxOpenFull: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M510.9 12.1c2.3-3.8 1-8.7-2.7-11s-8.7-1-11 2.7l-72 120c-2.3 3.8-1 8.7 2.7 11s8.7 1 11-2.7l72-120zM256 16c61.9 0 112 50.1 112 112c0 4.4 3.6 8 8 8s8-3.6 8-8C384 57.3 326.7 0 256 0S128 57.3 128 128c0 4.4 3.6 8 8 8s8-3.6 8-8c0-61.9 50.1-112 112-112zM61.4 174.6c1.4-3.4 4.9-5.5 8.6-4.9l236.3 33.8L232.7 312.7c-5.7 8.4-16.1 12.4-25.9 9.8L39.1 279.1c-9.3-2.4-14.4-12.5-10.8-21.4l33.2-83zm10.8-20.8c-11-1.6-21.6 4.6-25.7 14.8l-33.2 83c-7.2 17.9 3 38 21.7 42.9l167.7 43.5c16.4 4.3 33.7-2.3 43.2-16.4l74-110 74 110c9.5 14.1 26.8 20.6 43.2 16.4L605 294.6c18.7-4.8 28.8-25 21.7-42.9l-33.2-83c-4.1-10.3-14.7-16.4-25.7-14.8L320 189.3 72.2 153.9zM560 336.1l0 74.4c0 14.7-10 27.5-24.2 31L328 493.5 328 296c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 197.5L104.2 441.6C90 438 80 425.2 80 410.5l0-74.4-16-4.6 0 79c0 22 15 41.2 36.4 46.6l208 52c7.6 1.9 15.6 1.9 23.3 0l208-52c21.4-5.3 36.4-24.5 36.4-46.6l0-79-16 4.6zm10-166.4c3.7-.5 7.2 1.5 8.6 4.9l33.2 83c3.6 9-1.5 19-10.8 21.4L433.3 322.6c-9.9 2.6-20.2-1.4-25.9-9.8L333.8 203.4 570 169.7z" />
-    </Icon>
-);
+const BoxOpenFull = createIcon("box-open-full", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABnAAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCfgsGAAE2AiQDCAQgBYMtBzQbggXIBnowj29emvbbu1nAukK+wTiD9nnO9XxpowHtfaOhrC8okyPtLPP5Cez5Veq1WImeKN7UvCcG8DpD3BVY/aY3PpgV5iowz+3Wa9KYDQbPwwHFwtdCjXatmnDygR5IV//vA12lESAA1QTAIcADPCATAVAZDwGZWBxgsQge6P9/MP+BDgQACoBfaACwQCiwFNgLAFgADIG1kRnRrlB0hB9l20b44f2WJS9NbK3FSUtS2rXeV0DakbUkaVnKxqrH656tfNTVpesK7SrXellSGy1JJLfVUh7O2Jq6XO4nthRqp5RdkU/CtmUzjpW5XUHbHojlxSXS0uTFiaittqZLyULTN7iXpCxNSkpsd6hnSSI/s13OnbE73+a42vcq//bkbdWyTr1x5GmdnfXP+/Ae/sUE3bsHfulazZvXKu3XT8T8e//h9No8zV/noP5gVn/aVoinVXO0XBzX3aymSadBd7cVZInfYAjM+XVLY+ndQZ2auJYMj/ueExh4vq8RKw763SjFeY5ynqda2S9oxGeaEbt69eemc/fuxPrZvSy2GZ/DtjTP41pS9em2QnxaXX8Irx0ACBAMmnNvareYyl9DIwwAjw6//+WfD/1/0ow3O4FQDAACr/D/wnQ20wkldMYUAQRJo7HkhNNEgGEu11yIZCnKiHCoYQgIh0cGsbCEUwg+2SijrNzdCg/ZMEQiXSAMkYyAR1mmwJLIHvhU5kIyIFHee6q9ZdpfYra6baKOmStRtLir6CbLSv3VU/R4JbfamX8sbysAT9KXYQxlNH3ozQBGt/iRNMmMYQh157g6/BBHCYpSHEdF3O7afVtbnBzJKAaMW/ZPUgl3fjQ/Y+d7F4AeQyBakrUGAzJRPYeNL/IB24u80A==");
 
 export default BoxOpenFull;

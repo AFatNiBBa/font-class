@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-plus?s=solid calendar-plus}
  * @preview ![calendar-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/calendar-plus.svg)
  */
-const CalendarPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 32l0 32L48 64C21.5 64 0 85.5 0 112l0 48 448 0 0-48c0-26.5-21.5-48-48-48l-48 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32L160 64l0-32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192L0 192 0 464c0 26.5 21.5 48 48 48l352 0c26.5 0 48-21.5 48-48l0-272zM224 248c13.3 0 24 10.7 24 24l0 56 56 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-56 0 0 56c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-56-56 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l56 0 0-56c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const CalendarPlus = createIcon("calendar-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdwAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCBwsGAAE2AiQDCAQgBYMtBzQbCwXIjtRG+UVWEg/Pz/V57ks+LWOWeBYZHTC3bOuqxpWFKyuW5KZq3yeuef5pTw9Y5I/SqQ9S/lSrxhSY6CzSCnw2sJlOwPY2EREMisLHI0KiTceXx9cJ8nieXVBFepq+xe30ofGnti6Q1GUAogkAJq9cOl/55/g54psK4htzERCTQSGQIUMHAcbJBDrIFcjlgp+jUqH/wIIAoho/NoEcVdiFA4AcJFmeD2zapX5Vw3yFv6HeWqFevN/iQRvRMCKetXrUs15EnEW33rXGPKF2t7lBwwYpnrZ82KNhfNT6cfts2QdtRf0Q2pPu9ULQPmwXUS9oz3vVj4hXdf20yad/d/l2x7c2vi6KoqT0/XdZSVlJ9t33pZJCoytXGtF84YxiZ9UyG00mjE0b+SY/jVzccpRRBG25GB2lob4fCATXfpu8YWPjcf/U1k/g18//H39GKuUop09RK4Eg61/pb12UIcoCAJDihK5RRiDZJMPv2sAjAUI9BEiq1RMg014TAXL19BOgSifDBahWz1KZyOuEFtYXImngMJEZ4SSRa+Ezoso4X8TVWkRma6KliF+9tBkITN9UDB5YKsYU3UqWzIcPs2OLZa/3CdfTB7ba4aADjtlum92OKfyI+dlx+80YYdN9UWGwgUoKYxTHzWttBcZHHLW7rZyvM1ZxP+rtxHh4HwgTZhyikCQiNXyK+gBjBQAAAA==");
 
 export default CalendarPlus;

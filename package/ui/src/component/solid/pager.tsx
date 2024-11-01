@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pager` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pager?s=solid pager}
  * @preview ![pager](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pager.svg)
  */
-const Pager: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128zm64 32l0 64c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L96 128c-17.7 0-32 14.3-32 32zM80 320c-13.3 0-24 10.7-24 24s10.7 24 24 24l56 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-56 0zm136 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0z" />
-    </Icon>
-);
+const Pager = createIcon("pager", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABbQAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBXgsGAAE2AiQDCAQgBYMtBywb2gTIHoex2+RKNEMR5e0/Iqi3+dnzdqW6W+mQ95gxA0Ijhs7MGSfBL6cuh46VzLXvFYI//c330kUBPqAEQxuTpgayQKI5zxPoEssmaRZYQIn/Be5ft4kIeQSxpyNEoiSk47Pj7IA8fshuqJDepr/xuF00/tXFDZLmGYBoDYDZG9cu92tTNEX81Yj4y1IExGxQCmTI0F2AaTKB7nIlcrmgKRqN8h9YEkBU4QcnkKOKddgEyEGS53nXrvV6rdIi31CrFNm7QyO+HdgiPh/8dZcUbwZ91a8eXwz5pmu2WLjS4WWtRdzv9DoirnZ8VdTjXvsX1n/W+W3/WnzZ7Z0BRU2X9/mm9Tf/cYBZRRvafHTFR23aFIhASmMWJra8c6flLJ3U6sPVHTqsngS6g4zyGAgEHz0e/9XOVtP+b1ZL4J/vL6+hJH2DZhIIsmGNYbYlkAgAQIoL+iQIJMvkcNa6VwKEAgGSqkKATDetBcgVhgpQ0dN4AaoKa2Uiby60t11BUncaZCa4CHLtfQcqpvnNqmofWV6xWcH+6pIWWHj+WDl6xKhySrn1DS5V6NqfWh6rgy5IbjDNOuCkE87Zb5/DzhnijOXuecct8PD5blQabYRRSlOU4ehZ2sDWGWcdXgvxIVOV981BLvjVg8lIQDmGJ0lEqjw9+QwA");
 
 export default Pager;

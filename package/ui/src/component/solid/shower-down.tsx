@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shower-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shower-down?s=solid shower-down}
  * @preview ![shower-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shower-down.svg)
  */
-const ShowerDown: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 0c17.7 0 32 14.3 32 32l0 3.2C297 50 352 114.6 352 192c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 256c-17.7 0-32-14.3-32-32s14.3-32 32-32C32 114.6 87 50 160 35.2l0-3.2c0-17.7 14.3-32 32-32zm52.8 423.4c1.9-4.5 6.3-7.4 11.2-7.4s9.2 2.9 11.2 7.4l18.2 42.4c1.8 4.1 2.7 8.6 2.7 13.1l0 1.2c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-1.2c0-4.5 .9-8.9 2.7-13.1l18.2-42.4zm-82.2-85.6l18.2-42.4c1.9-4.5 6.3-7.4 11.2-7.4s9.2 2.9 11.2 7.4l18.2 42.4c1.8 4.1 2.7 8.6 2.7 13.1l0 1.2c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-1.2c0-4.5 .9-8.9 2.7-13.1zm146.2-42.4c1.9-4.5 6.3-7.4 11.2-7.4s9.2 2.9 11.2 7.4l18.2 42.4c1.8 4.1 2.7 8.6 2.7 13.1l0 1.2c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-1.2c0-4.5 .9-8.9 2.7-13.1l18.2-42.4zM98.7 465.7l18.2-42.4c1.9-4.5 6.3-7.4 11.2-7.4s9.2 2.9 11.2 7.4l18.2 42.4c1.8 4.1 2.7 8.6 2.7 13.1l0 1.2c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-1.2c0-4.5 .9-8.9 2.7-13.1zM52.8 295.4c1.9-4.5 6.3-7.4 11.2-7.4s9.2 2.9 11.2 7.4l18.2 42.4c1.8 4.1 2.7 8.6 2.7 13.1l0 1.2c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-1.2c0-4.5 .9-8.9 2.7-13.1l18.2-42.4z" />
-    </Icon>
-);
+const ShowerDown = createIcon("shower-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABowAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDFwsGAAE2AiQDCAQgBYMtBzIbmQURlZonyD4SchOtT3HmTPFDLOVJPPyj99/vk2QAZ0CoFirxk0X31m9ZqbsBMHFN/Th/esAW/adAqKK2eXtU4gBT7DdL301gNrCZTsD2NsUjI6oQOiIkCk3GjtPjG+wBWexOjyhGcjP5Aefbh8bvajlColQKICoCYOD0yWN9UhRFEd8XnovvjUZADAS5QIoUdQXoIxWoK5MjkwmKolDA/8BcAFEcvSwBGUriCV4AMpAonmUta9YOyTLFymXT0onSs09Xi7hKfNn3fUO+76oDVa+ULhunql+LgzWul7nV/+PwQHNmEiWn7Z0syygft2g/rX2b9nGc6WbGKVB1NtMubvSw4sM/G/6w7IePH8uf4ET51O5WvUqziHKPBgBa6V6tdqfiutxtVrJks9qalgglL5RoWnvilNrURlnnYis7968PgXJQOSFtHz4PBIKf63UcMr9Cn39KlknAb2/+/n/8jAqfxIHkIUpKQJC2KbSZEwcgDggAQBLbNIoDCCTuKI7etaxrAoTSCJAorrQAqToqCpAprbUAxdTXVYDiSpssFVkpoaq5jCXK2oilutmLZap6ihXTx9fp4qpG6rOqx6mfjFlu2AoPPZZ3bNch75WLdVNzQznP987Nbottsa8lnLVs/botS5es3LKgm8bmtq4dpiFDv5h3bNch75U/br3HT1u6afPK9evqJr3z9xMttumjW0KQIN5OZYmESMr81ONtauvJAAAA");
 
 export default ShowerDown;

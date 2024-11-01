@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-rifle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-rifle?s=solid person-rifle}
  * @preview ![person-rifle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-rifle.svg)
  */
-const PersonRifle: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M265.2 192c25.4 0 49.8 7.1 70.8 19.9L336 512l-192 0 0-174.3L90.4 428.3c-11.2 19-35.8 25.3-54.8 14.1s-25.3-35.8-14.1-54.8L97.7 258.8c24.5-41.4 69-66.8 117.1-66.8l50.4 0zM160 80a80 80 0 1 1 160 0A80 80 0 1 1 160 80zM448 0c8.8 0 16 7.2 16 16l0 116.3c9.6 5.5 16 15.9 16 27.7l0 109.3 16-5.3 0-56c0-8.8 7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 84.5c0 6.9-4.4 13-10.9 15.2L480 325.3l0 26.7 48 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-44 0 23 92.1c2.5 10.1-5.1 19.9-15.5 19.9L432 512c-8.8 0-16-7.2-16-16l0-96-16 0c-17.7 0-32-14.3-32-32l0-144c0-17.7 14.3-32 32-32l0-32c0-11.8 6.4-22.2 16-27.7L416 32c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 16 0z" />
-    </Icon>
-);
+const PersonRifle = createIcon("person-rifle", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCJAsGAAE2AiQDCAQgBYMtBzMbJwXIhuB5vf//WTu5gPMof7uD2QLo4BJkd/64n+f//FOBPKOPEo2lnypWFlHnE5hIelPbwHbD2URx5rYwGQRdOUTGIXPvjw9tof4O8vgou0AZ6db0Fq7uHxo/6XIBSVUGIBoBsGjHlnVe+Tw+j3iz9CTxpjUIiEWgEMiQoVeAuTKBXrkCuVzweZRK+A8sCCDKydskkKMMp+MsQA6SLM+765bXlNXl22vKqg+9fFSK6ojYGje03tB+U/tNHTvi/jH319Rsv3vO87Oe7btj5jOzn+s/9MY2cWOX6IiImztqgunH7soQmlEd2+LWoSBvao/Ydln7TRFxbsfNNRG3d4TBBJ49+L7G+34Z9NYRb6ksjfhrrFc8ZNouV3311/vfz19w5ZpzTHjvi2GTjzqx9sjTTz+yFucNbPi8/jTfp+P9bab6zxt9Xr9N9fUL9ZioSuOeN1b7Hk0xd6gHqdYll9Rfg6CQvj/MYN9cDALBV/eOuv1Aw9x/KmsS+PK53/6fr6srvZKKdB8qJRBkY0tj7U0L1SlSIQAAKc4w2PmiQHK8jDyt1k0ChGoESMpVC5Dp0UghV20MlOk3jb1cvkUm8iqh1T6FpNbJkJnuTMi1ehzKzPVqWK41stTjE4f/8UtZzsiyRcWk8ROL2cWxZgnZxLbZOcW1OvKM2jOqbHWEE53gNIc7zNFOI+wU65LTHW+5hy7zQ4VJxpuoMFsRbr4r24mGciqzthifZ47ie3OkM/zho4qRCOVkJUkiUm2m5ow75egjjjscAAA=");
 
 export default PersonRifle;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clover` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clover?s=regular clover}
  * @preview ![clover](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/clover.svg)
  */
-const Clover: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M174.4 80c-14.4 0-26 11.7-26 26c0 6.6 1.7 13.2 5 18.9l35.6 63.2c5.3 9.4 3.7 21.1-3.9 28.8s-19.4 9.2-28.8 3.9L93 185.3c-5.8-3.3-12.3-5-18.9-5c-14.4 0-26 11.7-26 26l0 2.6c0 7.6 3 14.9 8.4 20.3l9.8 9.8c4.5 4.5 7 10.6 7 17s-2.5 12.5-7 17l-9.8 9.8C51 288.2 48 295.4 48 303l0 2.6c0 14.4 11.7 26 26 26c6.6 0 13.2-1.7 18.9-5l63.2-35.6c9.4-5.3 21.1-3.7 28.8 3.9s9.2 19.4 3.9 28.8L153.3 387c-3.3 5.8-5 12.3-5 18.9c0 14.4 11.7 26 26 26l2.6 0c7.6 0 14.9-3 20.3-8.4l9.8-9.8c4.5-4.5 10.6-7 17-7s12.5 2.5 17 7l9.8 9.8c5.4 5.4 12.7 8.4 20.3 8.4l2.6 0c14.4 0 26-11.7 26-26c0-6.6-1.7-13.2-5-18.9l-35.6-63.2c-5.3-9.4-3.7-21.1 3.9-28.8s19.4-9.2 28.8-3.9L355 326.7c5.8 3.3 12.3 5 18.9 5c14.4 0 26-11.7 26-26l0-2.6c0-7.6-3-14.9-8.4-20.3l-9.8-9.8c-4.5-4.5-7-10.6-7-17s2.5-12.5 7-17l9.8-9.8c5.4-5.4 8.4-12.7 8.4-20.3l0-2.8c0-14.3-11.6-25.9-25.9-25.9c-6.7 0-13.3 1.7-19.1 5.1l-61.9 35.5c-9.3 5.3-21.1 3.8-28.7-3.7s-9.4-19.2-4.2-28.7l34.7-63.4c3.1-5.7 4.8-12.2 4.8-18.7c0-14.6-11.8-26.4-26.4-26.4L271 80c-7.6 0-14.9 3-20.3 8.4L241 98.2c-4.5 4.5-10.6 7-17 7s-12.5-2.5-17-7l-9.8-9.8C191.8 83 184.6 80 177 80l-2.6 0zm173.3 26.4c0 11.1-2.1 22.1-6.3 32.4c10.3-4.2 21.4-6.4 32.7-6.4c40.8 0 73.9 33.1 73.9 73.9l0 2.8c0 17.1-5.7 33.7-16.1 47c10.4 13.4 16.1 29.9 16.1 47l0 2.6c0 40.9-33.2 74-74 74c-11.2 0-22.3-2.2-32.7-6.4c4.2 10.3 6.4 21.4 6.4 32.7c0 40.9-33.2 74-74 74l-2.6 0c-17.1 0-33.7-5.7-47-16.1c-13.4 10.4-29.9 16.1-47 16.1l-2.6 0c-40.9 0-74-33.2-74-74c0-11.2 2.2-22.3 6.4-32.7c-10.3 4.2-21.4 6.4-32.7 6.4c-40.9 0-74-33.2-74-74L0 303c0-17.1 5.7-33.7 16.1-47C5.7 242.6 0 226.1 0 209l0-2.6c0-40.9 33.2-74 74-74c11.2 0 22.3 2.2 32.7 6.4c-4.2-10.3-6.4-21.4-6.4-32.7c0-40.9 33.2-74 74-74l2.6 0c17.1 0 33.7 5.7 47 16.1C237.4 37.7 253.9 32 271 32l2.3 0c41.1 0 74.4 33.3 74.4 74.4z" />
-    </Icon>
-);
+const Clover = createIcon("clover", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABvQAAAKtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDZwsGAAE2AiQDCAQgBYMtBy0b5AVRVE2qZD8PY2NW42dxrBuBrbE0TPOn1oap+X+4eBXB92v/1ufO/FfJhGnCzIpQJYqFIxUXdrRAajngllA+G25BvSsGnjmqzK8lSwp2ABFlbQW3MUyadVKyaglv5a+8glexiWvqh2WAlD3449CyfSDFRR28gQ+wgqKBdjufDWcTxemmkhT07SejiHQipe8+j29nyONOXFNDupU+xlX70PhZK+dJajIA0RAAE5cvnuvFW28jPqqe+MhsBMREUApkyNBWgDEygbZyJXK54G1Uq/IfWBJAVEwk8ecj9Wv8QLybJOV5jXyULLE0JL07BvHQaENkJrgQRwFns5w2OyaszTI3e+oOIN1qA+BFyAqTaOAuGpEp6U4p3QWAG1HKSQpsq7fEEHTFNEtIB8COoC/sC70gNvO8351Dxios13PsI6OYuTZ9HdBxPZ/SHIDQhM6tTYH9/U/mE7IMrG8auPFS/+72/R0/3vaxDQ/2b+xezBjn1JOP/v/gfHGoeabupSu2FcW2Ky7VzTQ/VJz/4P+PnpwaZ0bRfWOGHr9F33J88MEWp/kItTgI8Cvm/v5+Jg6mfR60arT/v0Zvq36m9T//zEz9FXvb6L/9jcwcNfPnt07+GL1Do/WVJ9QHAsH9+T91Xd9gzL+1mMD7R7//x8dV33qR7qKWBIKsT7WPNfECRB9APMUxnZIvCiRfSOa71nVdgFAgQFJRCJBpo6EAuUJvAWq0N1SAisJimchrC02tXXJS10E5M8wJOdfUQ7nGGC9jFU0j621bZ9p+LXNP8/DUceXAfgPKUeVrzmNvV0vaO7osh3sc05qe2Gqb/fY5Yqstdjri+EPmJo/aa1pGTvVDpYH6GaA0SnlcPLqXjfghh+3cO86HGa28H+3hWN68JxwfaDxoBySJSJXNe/oeAA==");
 
 export default Clover;

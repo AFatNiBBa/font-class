@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-exclamation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-exclamation?s=regular square-exclamation}
  * @preview ![square-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-exclamation.svg)
  */
-const SquareExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm224 32c13.3 0 24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-112c0-13.3 10.7-24 24-24zM192 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const SquareExclamation = createIcon("square-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcQAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBXAsGAAE2AiQDCAQgBYMtBzkb5QTIjtRG+UVWEg/fr/V57uueqd3P2MuMDijALOOivgoLv2BTkYmdqn2f/uafdx4F+KxlCYQ2Fi4NpH2+53kCiXV5f9kXyT5YovjfJmKCwcQ3JIIkouOzjq+rE/L4KF5XIn2Q/sZr5UfjH50ekpQyANEAgCW7tm0w8DgeR/xVQfxlHQJiCSgEMmToEWC+TKBHrkAuFzyOSoX+AwsCiDL+cgI5ytiK3YAcJHmeN3TVNleXavOd4epV+95uSfFOa228157Fu201yz8aF/HTqNr4ZswPnSneH/398Jr4duyPXdmObzrF+8O/7Yr4aNT2e+0R71W/1PqOuy1vV73Y9m4M/bHhx3+H/H3yb4suPa5brO7xYuivVDXS+LlQPm9srFqsqjHwqH9L62WtWxKp/1Hd8zxflyA0EK+9te/XJYfq5/83qDqBp7/8H35ceRwD6UcMkkCQja+Mtz8GwBEDMFPcNFS5WSBZKwe8ao13BQhVCJCUVQmQ6dYgQK7KOAFK+swQoKzKNpnIBwstDghIalwBmZlugVyLn0HJfL+ZZS2RmRVnFNyjLnllC63YKqZMnFzMLYaJylsKE5fzimll9E3fGAOHTrrkoutOOO6M6w1y1QbnhgtWavAKNypMMdFkhbmK5fx+f6cTrrrmjEsu5jXzFPuN0W7q/WNAT5h2qkCSiNR0MpsT/qvQjly4KQAA");
 
 export default SquareExclamation;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-xmark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-xmark?s=sharp-light comment-xmark}
  * @preview ![comment-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/comment-xmark.svg)
  */
-const CommentXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M86.9 382l7.2-19.3L79.6 348.2C49.1 317.6 32 279.9 32 240c0-91.3 93.8-176 224-176s224 84.7 224 176s-93.8 176-224 176c-28.4 0-55.5-4.2-80.3-11.7l-9.2-2.8-9.3 2.8L68.6 430.8 86.9 382zM16 480l38.5-11.6 111.9-33.6c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L30.1 442.4 16 480zM191.4 152.8l-22.6 22.6 11.3 11.3L233.4 240l-53.3 53.3-11.3 11.3 22.6 22.6 11.3-11.3L256 262.6l53.3 53.3 11.3 11.3 22.6-22.6-11.3-11.3L278.6 240l53.3-53.3 11.3-11.3-22.6-22.6-11.3 11.3L256 217.4l-53.3-53.3-11.3-11.3z" />
-    </Icon>
-);
+const CommentXmark = createIcon("comment-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfgAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCHgsGAAE2AiQDCAQgBYMtBzQbIgXIjtFLT5GUaTjSOafj4f8P2X3vv+agMbVo0hogY2u2wQLLFmjECXTSBDL+x9S7AuEvAIOKq25VJSCN0O1FmAHpTH/zues8CvAZhTaWTQ1kAe51nkCAY3ueUBZYpgHgZ/tvGyIkUYVXRIQkovFszE6oOA13KJKf+QrwOh8afzA1D6RqAIhhAMDueV4GrqSUkq9k+xDfSAMBsQdgDtHQMIVgg7zAFAVzoJTghzJZ+Q8UEEB0gn9ygkIH7sELAAqkVgqW1i7qipoKheqKakXmJuZGvFj4mvex6HPO+4JP2e/yJetGNGA+/fKD/IOKuN/3Ne1l1KXdcuRF6ovCT8lP4Wfic04+Lcqc3ZwNmcNsGtCFxsxjDg3pRiPmMo/GdKUBs5lLI9sVnZXvNq8aX6Fwt7a29ht+aDDx5mMta/nxhona75Y2YwFFE9A5qmmD/k6BJe8kSBatrFRVK78oUYp6mNZolojPG4kFOLUqXrxVFDgR6MTHXwcEgpu7luoq7fD/KupygN+Tn7/1r+hfmsgv0C1B0JZk7soTkAQAIGMQtgkE0i15eNd+byAIvQiQOvUK0EzSQVB6LSLoMCMAQadex+RFqSKMq1CQ+j2DZt0EKON2QYcNj2qn8ZDPOzJryF9fXKKFE7qEj6e3CBVLh1CphLdmmNgWnAcp4QKHaNSlU78G9Vr0G7RXhjGgQ2KEJHiR4MOTNyGUOPb324Ua9OrTokvnaBNG3FecDcb5LiDLYcxlppREaj500WP4jQIA");
 
 export default CommentXmark;

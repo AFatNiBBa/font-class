@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-fearful` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-fearful?s=regular face-fearful}
  * @preview ![face-fearful](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-fearful.svg)
  */
-const FaceFearful: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256c0-43.5-13.3-83.9-36.2-117.2l-.1 .2c-6 6.5-16.2 6.8-22.6 .8c-15.5-14.5-34.8-24-56.1-26.8c-4.3-.6-8.6-.9-13-.9c-8.8 0-16-7.2-16-16s7.2-16 16-16c5.8 0 11.6 .4 17.2 1.1c8 1.1 15.7 2.8 23.2 5.2C342.4 62.2 300.9 48 256 48s-86.4 14.2-120.4 38.4c7.5-2.4 15.2-4.2 23.2-5.2c5.6-.7 11.4-1.1 17.2-1.1c8.8 0 16 7.2 16 16s-7.2 16-16 16c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8c-6.5 6-16.6 5.7-22.6-.8l-.1-.2C61.3 172.1 48 212.5 48 256c0 114.9 93.1 208 208 208s208-93.1 208-208zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zM136.4 224a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm216-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM160 176a48 48 0 1 0 0 96 48 48 0 1 0 0-96zm80 48A80 80 0 1 1 80 224a80 80 0 1 1 160 0zm64 0a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm48 80a80 80 0 1 1 0-160 80 80 0 1 1 0 160z" />
-    </Icon>
-);
+const FaceFearful = createIcon("face-fearful", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABtgAAALSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDIwsGAAE2AiQDCAQgBYMtBzMbpgURlZp/yX4m2A1/jojNCiuTEsFfkMivJowjwfO83te5Ly9/NhizXaEasBKSJToAleU2a7Y/AAZv6l730jkPzLKyACP8FgTcEild5MeKZNrXD2mP/7nm80s7OsBvhyd2KBWUVCCx4Ih4PoEJla5tb+A3oZkmuE+3iXR4pDHoCpIoieg47bg6Ai1nZREmqNXqHrCwrJcvpDIbFKYBQGKAbFLiN1ZzKZBA5G74OHKXSkAApASAHAQwAAPIQADIx0CADDQ5gEYjEEg4LP+BgACAhMA9FQAacIC9wGUAQAOgsLRunx5rWZG41jEjteeY9oAXpSLLkvZ4K9CKpJXKXGm59MB7VtXIlbhomThH3BY4GRC51PS8/nHzy8anvvuyTORq7UNnbvX9ksvNz4ovVd2z59Q8KL3iNR8PRXZnLhNtWZG0Md7be2v97doqZ4fuF76/xtumrtJWuzuNtfoar3ndcGo6Y2+cz46nLWdibfeZJ2uH4//G5hPZgfxgfzzdn+xr8vawe/7ce4Pv8fAiJXmw+9SYv3URQVRUYA0/vHQqo4xOW/bh1qvIqCCi7u+YUyvkUSL+ns0XX/bsEf8RFRakHj3Kyi4fTbWooMIye4eLYgaBJ1HBdIIo8QbFjOuTWF+fWMmXybJUXFQ2fSdPvt+krNq27pAxY4a4zGJ76KRJQ21W29pLY31/7KXbAUAAgZ4zzs19ovP/AUcB8PrMj//8MgpfUqg9QAsUAAJGq3BCTwWAAgEAAACUjCVPAQig2IoFHtVlBQKAYAMCgCKEjQBgkE4MAoDGpiUCgEkWnREAQtg0YiDaQkigVwKFywgw6MIU0CRwFEzyuRmHSBAjcuW4kz+OGTJYxK+izAosy4amBKOYFx3btv55wNBO0R/727XTa+i7zn1b8Cj/RMqswHLcftzcdPczHbsu47gf6d8fb8hTgLMqUSiQyn0XZvpQ/P5bAQ==");
 
 export default FaceFearful;

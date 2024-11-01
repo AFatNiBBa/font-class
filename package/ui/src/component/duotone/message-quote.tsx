@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-quote` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-quote?s=duotone message-quote}
  * @preview ![message-quote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/message-quote.svg)
  */
-const MessageQuote: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L448 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-138.7 0L185.6 508.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3l0-80-96 0c-35.3 0-64-28.7-64-64L0 64zm128 80l0 48c0 17.7 14.3 32 32 32l32 0 0 7.3c0 11.7-8.5 21.7-20.1 23.7l-7.9 1.3c-13.1 2.2-21.9 14.5-19.7 27.6s14.5 21.9 27.6 19.7l7.9-1.3c34.7-5.8 60.2-35.8 60.2-71l0-39.3 0-24 0-24c0-17.7-14.3-32-32-32l-48 0c-17.7 0-32 14.3-32 32zm144 0l0 48c0 17.7 14.3 32 32 32l32 0 0 7.3c0 11.7-8.5 21.7-20.1 23.7l-7.9 1.3c-13.1 2.2-21.9 14.5-19.7 27.6s14.5 21.9 27.6 19.7l7.9-1.3c34.7-5.8 60.2-35.8 60.2-71l0-39.3 0-24 0-24c0-17.7-14.3-32-32-32l-48 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M128 144c0-17.7 14.3-32 32-32l48 0c17.7 0 32 14.3 32 32l0 24 0 24 0 39.3c0 35.2-25.4 65.2-60.2 71l-7.9 1.3c-13.1 2.2-25.4-6.7-27.6-19.7s6.7-25.4 19.7-27.6l7.9-1.3c11.6-1.9 20.1-11.9 20.1-23.7l0-7.3-32 0c-17.7 0-32-14.3-32-32l0-48zm256 87.3c0 35.2-25.4 65.2-60.2 71l-7.9 1.3c-13.1 2.2-25.4-6.7-27.6-19.7s6.7-25.4 19.7-27.6l7.9-1.3c11.6-1.9 20.1-11.9 20.1-23.7l0-7.3-32 0c-17.7 0-32-14.3-32-32l0-48c0-17.7 14.3-32 32-32l48 0c17.7 0 32 14.3 32 32l0 24 0 24 0 39.3z" />
-    </Icon>
-);
+const MessageQuote = createIcon("message-quote", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABwQAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDZQsIAAE2AiQDCgQgBYMtB1YbDQbIjsQ4JvGLWNAiqLf12vPe3n1pTwwrYIyIyUQQ2pE54wgjc+pypHJ8+f/eOP/XfH7WdIDf6FCyV+EN3kUlMKAqnyfwhNpgBjaTtr3BPaIW4hYSRyjix3yXGun59AMejf8HMP7V010krTOA6ACABRvXLvfVX/FXih+aHxM/WIaAWAgqgYyMPgLMlgX6KFQoFIK/UhN/RVNFAFGXnjGDOlrwM34DFCBJclGMHDkYsUatbbEBZy233t494tlGIx7s+jQhxG3D3xvcJd7q9cKw7vFu74gyHuj2TMT6rf4RGIzbuz/en18cFfHhsLbx9oj3e6Z4bvgDOgqti6fAXJ/zzsgPeuX1wm2WSULiuRfhns87o16EGiEdTU1ZxgNdntK4dOuBH3T44L8BPxz4wc1x7e7jvnbjtbvvvnY99DBM75yeOm3VutqSUwblFtV2YHxzg+0PxEq6v++2siMdX7vNax07lpUJ7a590JVtzt15Z7nKrrXAzZXjU/b6tyst0uBTltTWrTrtqXSrHKaHHh+25rFLpwOB4Jsv+3Vn+9n/t2ok8M8n32p+SJpfJOkDtJJAkEc3R9uWQCIAACkuGJi4DYHskiy91zaeESCUCJDUlQJkvXUQoFAaJUBNP1MEqCutlUXRWuhi+wCSNk6DbKrroNDFR6Bmtq8TdV0i0zZPmfyvZcrSKbRkUjVh7PhqZrWb0Qnkygads6rLzvALqBghDzrgpBPO2W+fw85NyDOWp887bukRscQDVSYYa7zKTNXj/EtlwyRwxlmw29LzcWapvo8Od+G4/gjpSVLKiTZkmUiRu5K8Nob3jDF8UqP7hsQTAA==");
 
 export default MessageQuote;

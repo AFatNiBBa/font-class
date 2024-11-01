@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-bounty-hunter` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-bounty-hunter?s=regular user-bounty-hunter}
  * @preview ![user-bounty-hunter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-bounty-hunter.svg)
  */
-const UserBountyHunter: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M323 120C309.4 78 270 48 224 48s-85.4 30-99 72L323 120zm5.5 36.4L248 171.5l0 98.4 9.5-1.9c7.6-49.7 42.9-81.5 71.9-97.8l-.9-13.8zm-209 0l-.9 13.8c29 16.3 64.2 48.1 71.9 97.8l9.5 1.9 0-98.4-80.5-15.1zM96 70C123.1 27.7 170.5 0 224 0c80.1 0 146.5 62.2 151.7 142.2L383 256.5c1.3 20-12.4 37.9-32.1 41.8L250.1 318.4c-5.2 1-10.4 1.6-15.7 1.6l-20.9 0c-5.3 0-10.5-.5-15.7-1.6L97 298.3c-16.2-3.2-28.4-16-31.4-31.6c-1-3.4-1.6-7-1.6-10.7L64 16C64 7.2 71.2 0 80 0L96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l0 38zM313.6 400l-179.2 0c-40 0-73.6 27.1-83.5 64L160 464l59.2-44.4c2.8-2.1 6.8-2.1 9.6 0L288 464l109.1 0c-9.9-36.9-43.5-64-83.5-64zM0 486.4C0 412.2 60.2 352 134.4 352l179.2 0C387.8 352 448 412.2 448 486.4c0 14.1-11.5 25.6-25.6 25.6L25.6 512C11.5 512 0 500.5 0 486.4z" />
-    </Icon>
-);
+const UserBountyHunter = createIcon("user-bounty-hunter", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABjgAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCRAsGAAE2AiQDCAQgBYMtBzkbTQXIBqLSlT0rqLP0DDIxPAGZIwYKnV05JUrv4tTznIcC+ByCoI1Ne9gCCSVd+7wCBYz1oh3LKtCrQLWAVNbuzraH0jQfaSnSOL5Jv5yALrtlAwaoneoNsD6+lHwhnJWgMDQAAMQPAAAYn7BwNg/c4hZ57bkK8pqZgADIeAAcBNCgIwoBYBQagjwBHQfQ0RFwi8dD/4EOCACICf8MBYAOuIBlwHoAQAdAYeq6l7d3j5BA2/DW423DKtjVQ+TUkCvdToTZ0YsSFiGhsr/n6a5iBYUGHe1+MjpYROLjT48UuW0/HX23fZxsDdoStEi2WJasComXYxHbRGR7qC1bg7cEkWTZ1pFFB8pc2R48W2zZ1eNUl8zDY0XuT7VFbe/o5KV4oMMpv1Pf2r/Jf8OEqec3wyHHObT5/LOF83xTWzYbWTQ1McXnozc/KSVxau4yspnrGxo3V4Hq/mH79lSzGp9Vqz/nBlLlCsJVlVu3Tgsyf+Lj9sPt46Mun6Zfwbf5kDm/pYzTTJx4mjJa5md+GB7nioO4pVdYGhfnCq1aQ1UoAAggcOF73MEM31H/XLYC4POtH/+huz0P5IE6BbhQAAhovTy9SJUHAIgXAPhKSurpIA8AARRNmKDvxTZtKVhQQWFigUYkfqBj0RMMYhh8gonFQjREb4cQRBoVFF5UgcYQ2kAniMtgMIrnmUmQaKZIGxL9EUyYIpHJu5z+ffo5I5xurTDWRYbNkc603K3eTXSHTvKpoJxa8siliFqBVTO7rKOMKSN0Mh/EoT996IfDCBx1/3Z/PHlUU0MRFZTTNiNx9vvdqB/P7w6aggkHUFEoEBVwfKXeb2FpbVPvwqsNAA==");
 
 export default UserBountyHunter;

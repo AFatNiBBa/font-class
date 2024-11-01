@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-terminal` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-terminal?s=duotone square-terminal}
  * @preview ![square-terminal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-terminal.svg)
  */
-const SquareTerminal: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm64.4 67.7c-.1 .7-.2 1.4-.3 2.2s-.1 1.4-.1 2.1c0 1.7 .2 3.3 .5 4.9s.8 3.2 1.5 4.7c1.3 3 3.2 5.8 5.8 8.2L148.5 256 71.8 326.3c-2.6 2.4-4.5 5.2-5.8 8.2c-.7 1.5-1.1 3.1-1.5 4.7s-.5 3.2-.5 4.8c0 .8 0 1.5 .1 2.2s.2 1.4 .3 2.2c.3 1.4 .7 2.8 1.2 4.2c1 2.8 2.6 5.4 4.7 7.7c9 9.8 24.1 10.4 33.9 1.5c32-29.3 64-58.7 96-88c5-4.5 7.8-11 7.8-17.7s-2.8-13.1-7.8-17.7c-32-29.3-64-58.7-96-88c-9.8-9-25-8.3-33.9 1.5c-2.1 2.3-3.7 4.9-4.7 7.7c-.5 1.4-.9 2.8-1.2 4.2zM192 360c0 13.3 10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0c-13.3 0-24 10.7-24 24z" />
-        <path d="M71.8 185.7c-9.8-9-10.4-24.1-1.5-33.9s24.1-10.4 33.9-1.5l96 88c5 4.5 7.8 11 7.8 17.7s-2.8 13.1-7.8 17.7l-96 88c-9.8 9-25 8.3-33.9-1.5s-8.3-25 1.5-33.9L148.5 256 71.8 185.7zM216 336l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const SquareTerminal = createIcon("square-terminal", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABnwAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCTwsIAAE2AiQDCgQgBYMtB1obewVRlM3FItnPxMH93iIU9OickplPZuPh//fzbZ97X9L2JUV+/aqMoIAtDQBJIEUozLissaNHJ//n3xswkLLyp/PQHviOCj+h5YcSP3G58z9/esBF/mhjzeI1xnkCAUfleZdAQpkGIAlzg/MmHVKHQvkDivgoP1AjvZL+xmP7fwDjPwM9IOmSAUQPACzasWWd71vRSvF3+wvib2sREItBJZCRMUSAubLAEIUKhULQSm20oq0igKizf0wGdXTCIzwPKECS5KLI9uk2aFrXRq1rsb1RK/e8qh/5tngB9Nka78eruiO2b2uUjQ/4ZSvjQ3kt82sd8Vl2jQ/uJ5zi5fOxNePD+lTytjtAge7QC7Qttsbz+DwUA3gz/UF+1hrz0mh9WvqHNvQa3PaKN+IjfTXKeH93fDo//SP+Pv63FbXW992aB3a43ihvxKXNbt+31i7je4/fE7diU9++m5445tx0sOxJz7cXertnz3KhClv4C5aE20WOlHpPmdlpSp9IpNR5JUXu6NacPOnbb7bnJiXct7qho4i4/dPKhHkeCATX/rnY7UD3uf93biTw73eNv0jarfg+fYrOEgjy2PZYe+N7iO8FACDFdR3xvVkIZHtl7rs2vShAKBEgqSsFyAbrIUChNEaAmmGmCVBX2iKLoovQx74CTpouwdl0N+FCH5/DNXP9lqnrE/mBpB4n6n8wfnkVWHapmjR+YjW76h3J6GeM0Kdzqsn6yOt8ZRS867gLzrvqmKNOuVqBLluXv+ac5UPgMh9UmWS8iSqzVYunN/ntOHPZFae62eXnzFFtH490fXj7KGglLu5kmSyz+6T+d7Uy7pOTx93dGwd2sbcyAA==");
 
 export default SquareTerminal;

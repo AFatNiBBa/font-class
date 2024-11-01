@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sheep` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sheep?s=sharp-duotone-solid sheep}
  * @preview ![sheep](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sheep.svg)
  */
-const Sheep: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 256c0 24.5 13.7 45.7 33.9 56.5c-1.2 5-1.9 10.2-1.9 15.5c0 35.3 28.7 64 64 64c.5 0 1 0 1.5 0c2.8-.1 5.6-.3 8.3-.7c6.8 28 32.1 48.7 62.2 48.7c7.5 0 14.7-1.3 21.3-3.6c6.8-2.4 13-5.9 18.5-10.2C219.7 439.6 236.9 448 256 448c19.2 0 36.5-8.5 48.2-21.9C315.1 434.8 329 440 344 440c30.1 0 55.3-20.8 62.2-48.7c2.7 .4 5.5 .7 8.3 .7c.5 0 1 0 1.5 0c35.3 0 64-28.7 64-64c0-2.7-.2-5.4-.5-8L352 320l0-135.6-21.4 9.2L286.5 90.6l15.8-6.8C290.6 71.6 274.2 64 256 64c-19.2 0-36.5 8.5-48.2 21.9C196.9 77.2 183 72 168 72c-30.1 0-55.3 20.8-62.2 48.8c-3.2-.5-6.5-.8-9.8-.8c-35.3 0-64 28.7-64 64c0 5.3 .7 10.5 1.9 15.5C13.7 210.3 0 231.5 0 256z" />
-        <path d="M576 288l-192 0 0-152.2-14.5 6.2-22.1 9.5-18.9-44.1 22.1-9.5 55.1-23.6L448 32l64 0 42.3 42.3 55.1 23.6 22.1 9.5-18.9 44.1-22.1-9.5L576 135.8 576 288zM464 160a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM304.2 426.1C315.1 434.8 329 440 344 440c30.1 0 55.3-20.8 62.2-48.7c2.7 .4 5.5 .7 8.3 .7L392 512l-88 0 0-85.7 .2-.2zM105.8 391.3c6.8 28 32.1 48.7 62.2 48.7c15 0 28.9-5.2 39.8-13.9l.2 .2 0 85.7-88 0L97.5 392c2.8-.1 5.6-.3 8.3-.7z" />
-    </Icon>
-);
+const Sheep = createIcon("sheep", true, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABqAAAAKuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDFAsIAAE2AiQDCgQgBYMtB0YbrAXIjsN0eyPLBMmBoDnmIR7+8c/v97nISm4enBnfkVTNWhnw2xXs7r/qwxXA0q7DA8/l/p22tmYBRoGsCRoF2mmn83lt0tCb/2s+v7SjA/xGh1K1LmzQjucTOPB1coNsQpup7XDd8GLypNBuoTwOkCWT0svkJHcnP9w4/Q9g/GrgMhK1FEB0AWDNYecOL34VfBXGu/+niHdNERBrQSmQIsUIAZZLBUbIlMhkgq+SVouvotUqCSAqprdPQQVVPIqnARlI5CLLxtRqXb3bSnl71qznxWlFvYjoi/ExMybFtlgV9VgRW2JCTI+JMRCaeSMbSPrS/kNH33c73uvxpOfwtL6NIiKiefeEIERvEKpJzbi2Edw/JXH36D0hqq80pbVM5WnkDdb1nOYZiSIOxv8dHkVQxvtMaMTgxNvkR3EdfxuSFccmryGX/teI4WDX5/cx7x77rsmDLy7XKHzmZITdjnO31e52nN1GOMFnivOFX3V0fNXii07+2vnPQXuj0d62YXY+cJ7dmrw2dkMZxeY07dZ/nmy2Fwf+HqgW3d0PCcHSerpKq9/6yLl9H37Y9o4SHupXFll2katsMe1YP2g+prWtzjUvqjb+GgACwW9fjpcfqi3/v1pPwDcv/PmL7eLWi8l5ySCqEhCk01vT7Q8vQq3XE2CKJnGusfiXHIlAqim3fGqbOwQIBQIkKgoBUsN1CZApTBMgN8oCASoKO6Uiqwl9Dlwg0eYMkFrofJDp8yTILfdGvKIvUpjlIY7/Y0zZyEIb9Mo5M2eXS0tt1iGAIdt3LyudrZPPraum4KmOdZpTne0YRzvB2Qx5ph2pc5xio4nY4ItKc8w0W2mpMriwqDSZ+JnOcoJaCu9lmTJ9cLJzzY2nYEdioZyrTyolkkjbHxA6T5+R9Q2djJTFAQ==");
 
 export default Sheep;

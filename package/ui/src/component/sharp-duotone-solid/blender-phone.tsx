@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blender-phone` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blender-phone?s=sharp-duotone-solid blender-phone}
  * @preview ![blender-phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/blender-phone.svg)
  */
-const BlenderPhone: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M192 0l32 384 256 0 24-96-104 0-16 0 0-32 16 0 112 0 16-64-128 0-16 0 0-32 16 0 136 0 16-64L400 96l-16 0 0-32 16 0 160 0L576 0 192 0z" />
-        <path d="M153.6 44.8L84.9 0 72.4 12.8c-96.6 99-96.6 259.4 0 358.4L84.9 384l68.7-44.8-25-89.6-58.9 6.7c-12.6-41.8-12.6-86.8 0-128.6l58.9 6.7 25-89.6zM560 64L400 64l-16 0 0 32 16 0 152 0 8-32zm-24 96l-136 0-16 0 0 32 16 0 128 0 8-32zm-24 96l-112 0-16 0 0 32 16 0 104 0 8-32zm32 128l-384 0 0 128 384 0 0-128zM352 416a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const BlenderPhone = createIcon("blender-phone", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjwAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCQAsIAAE2AiQDCgQgBYMtB1YbaAXIHoVN2W50FEmZpDjG8PQtgq+x3767+yZIw7NZwkMSDZEIkUaDZtJIjVAogSGC/7Xf79wvYtgirgmSuDWV6s0kWSP9hr2h0QlFtDGzRYs//9fUi7JokG90aIssi8LNMvneBCZ609YGG9hsYjPSPZyb2cUsNAjxByjxnxcgJX2IBMBd/D+A8Q+nBUgaGQDRBwDsnJaWwP1KryISOIhvFIOA2AUwiZCRMYrAOrHAKIlJUBTBj4hz4Ic4ZxBAVBFfL4MqGrgC9wAKSKqiSJxK0mj2VUu1kor4J6tqK8orLOQu2/N9ybVSJVVQAV3HF1Jls0qtQrTUHmXtxeUarQbRISpbtxJtYmZ4Q7Vm26JZ+7a6trqmelOpJJVKW632d7s0fheGi7cpoUOw+1gQkTUK+NLncK5jX4JJKxxnOBY9f9zqbZr29i4ZDO/T9saVlR0JX7NDQzPF82mf6ZnUDtn05aNbAW67VZvy4WvDMc19wHkWXf3CBcdMA90iO9DnC2YAAkHt5rk06jP+FGoR4Pf2449cyHN3yhFdAOoSCPIMj1CXcg4oQAMkLaeYgB/9KDcI2R4Z+q5trwiEJgIkVU0BshEGBIqmaQQqxiUiUNV0SCyKEmFY/QCStkuQrZkExbAbULHurlQ1HGJINMGR6T8we9EULdzGYqNiWBrbbevMwGXw6+nssj9kQo+FUl10GDRgTLs23cYm4oiS6rh+RUd0oS9iYkWJwaRhj3sv7RW8NGJU97b1+Sbp2PfpEBPHs0NpSCRVXbJHlolEYmtLX/tAW/tIJL66I5F6in3DisA=");
 
 export default BlenderPhone;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `boxing-glove` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxing-glove?s=thin boxing-glove}
  * @preview ![boxing-glove](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/boxing-glove.svg)
  */
-const BoxingGlove: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 104c0-48.6 39.4-88 88-88l176 0c48.6 0 88 39.4 88 88l0 24-32 0c-38.7 0-71 27.5-78.4 64L136 192c-30.9 0-56-25.1-56-56l0-8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 8c0 39.8 32.2 72 72 72l120 0c0 44.2 35.8 80 80 80c4.4 0 8-3.6 8-8s-3.6-8-8-8c-35.3 0-64-28.7-64-64s28.7-64 64-64l38 0c.3 0 .7 0 1-.1c.3 0 .7 .1 1 .1c30.9 0 56 25.1 56 56l0 48.7c0 18.1-6.8 35.5-19.1 48.8l-64.2 69.5c-8.2 8.9-12.7 20.5-12.7 32.6l0 64.4c0 17.7-14.3 32-32 32L80 496c-17.7 0-32-14.3-32-32l0-104.4c0-2.3-1-4.4-2.7-6C27.3 337.5 16 314.1 16 288l0-184zM104 0C46.6 0 0 46.6 0 104L0 288c0 29.5 12.3 56.1 32 75l0 101c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-64.4c0-8 3-15.8 8.5-21.7l64.2-69.5c15-16.3 23.3-37.6 23.3-59.7l0-48.7c0-37.1-28-67.6-64-71.6l0-24.4C384 46.6 337.4 0 280 0L104 0zm36.6 337.5c-3.6-2.6-8.6-1.7-11.2 1.9s-1.7 8.6 1.9 11.2L178.2 384l-46.9 33.5c-3.6 2.6-4.4 7.6-1.9 11.2s7.6 4.4 11.2 1.9L192 393.8l51.4 36.7c3.6 2.6 8.6 1.7 11.2-1.9s1.7-8.6-1.9-11.2L205.8 384l46.9-33.5c3.6-2.6 4.4-7.6 1.9-11.2s-7.6-4.4-11.2-1.9L192 374.2l-51.4-36.7z" />
-    </Icon>
-);
+const BoxingGlove = createIcon("boxing-glove", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABpwAAALHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDHQsGAAE2AiQDCAQgBYMtBzMboAXIjsPGGT1QUQtExWJcBP+UrfZ+d+/JzLkM4mJzuGXildtCShGSsvDQz+3NFVHJIyUivf4UFiIWCrfO/J9LF8/XgD9sBEPZ7hqzsAok8/kJHGiFNtANLwQnimfbjCuiIQwhGuIR6UXkh9Fh+wtwOsFEImCOmY/AnonpD/lszBushQFKg1+FdkMG9OJ1VIpKH2MPQB/pAQhA7QEIEGABCxQhAFpiEVCEIwAcDkFUsRj7P7APAgDFgbc0ADggAtwFngIADgCDdW50zcCPJLvBfsQbcaaGVNbE14Nq1zrI08WqV+ueLuccbkqHcw6m6Ng1OfF1qgQvR2rqicvLsHliVTbztUM7dCn7UAOtrTpQB6Fg1kE7RmwnpOXrcsKuhtyvKl0togfRMV/5xNeV3CMt40DuEJVJOl49nEqnd/LqDTtcU1krtRSwQ7U+6iXsSN5abaRe9eyp3uXDMPwNysklqUPcVthaCNpu3armEfC17W3Ecub+r+ITiBs7Ni6BlAYNokvR4ElpQlWps+npnreqzk4R8pytR9G4TUc+ZRakbN3qR0n3qbhyT4zHQx63v8En/zFJfydhP33bf6n7/KS0JXlrm05MLV8P32beq+N/+ibEuN+EjpU7RvlFh1Y1viIVGS+FKB1fUQEABAhGLqn94h60/JfgGwB+P63+jKdjr/XahEACBgCBrRmryUi9BqhyAUDGaDHlDYMRYAixABxL4nA0Lzx4gCEOD1gKSQMOjxogQgmNTM7tA7DIJSKyGAVgSGIesDRmFXBkcQ9EaMmbTBxZkk1bS9JZ/hpzdpZ0p0VBvdp1g+bBa82xZqJpzLYI3K6qi3tPNRxlMnOYzUImMZFpLBTSfHrlFzGLzhbTCQMJqEdt6hLQnCDcXO8fzCTms4BpzGE2zdOC4PtYVRbbw6vBa2DF+pw0GJBJGj9n6bTZU2pNSWsAAAA=");
 
 export default BoxingGlove;

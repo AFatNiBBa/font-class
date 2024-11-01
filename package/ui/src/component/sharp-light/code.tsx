@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code?s=sharp-light code}
  * @preview ![code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/code.svg)
  */
-const Code: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M381.5 4l-4.7 15.3-144 464L228 498.5l30.6 9.5 4.7-15.3 144-464L412 13.5 381.5 4zM160.7 105.4l-11.7 11L13 244.4 .7 256 13 267.7l136 128 11.7 11 21.9-23.3-11.7-11L47.3 256 171 139.6l11.7-11-21.9-23.3zm296.7 23.9l12 10.6c27.8 24.7 47.5 44 67.4 63.5c0 0 0 0 0 0c16.8 16.4 33.7 32.9 55.5 52.8L469 372.3l-11.7 11 21.9 23.3 11.7-11 136-128 12.7-12L626.6 244c-27.8-24.7-47.5-44-67.4-63.5c0 0 0 0 0 0C539.2 161 519 141.3 490.6 116l-12-10.6-21.3 23.9z" />
-    </Icon>
-);
+const Code = createIcon("code", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABawAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBdQsGAAE2AiQDCAQgBYMtBysb8AQRlZoFyD4SYzfcH2d6xGYoieB5O96fc3cDeAPYZToVZV4bSDW/KrliAEydyrmch8KhNwrK2LYnpRv71LnOK1CR6dNakVqxVlHs4rarNcU0NBYaF8jj7+igFOlCeo0z4UPjB/WcIMkzAFEVAENnT5/o/lfxVcTr/6+I18YjIIaBQiBDhoYCDJAJNJQrkMsFX8X//4v/wEIAUVp6bQI5SmE+1gJykGR5Xq1e2wqlKuWzzJnyq2vWqTknakbLqBPzmdpqxgSZ4daKmbi1fdSOWTF7EW63tFbtWnfaHg2nXWy77beNOssUNu62C0rJoH6iTbOSqiU/NX296rWDtyal9jPvTPatQULTJO8/rbiJW08fdsstDrpptpv2b/d0V1vX2dm7/Saw+8d92zV9qnjlldUs3NyhngaB4HE2pffiKgP+KlshgW9u/vJbfiT+f5yOpBKUlUCQdfi/wwJbCBwBlRS7NMNfFEimy6R3reisAKE8AiSllRcg00BVAXLltReglMZ6ClBaedNlIi8n1LSwg6SirSDTy0GQq+kSKGWAZ2VpNSMDMQ5AuD+8ZDVqjI7cVXTt1KXoV2x2VB5qGLvZvzitttklJ9ris1Zt3rRj5Yq1O0b4tom1nRtH7WEjf1h07dSl6Ffc7j8/Pmvltu1rN2/y2/Qv3g/b7Nqf3xYbSSLtBiWJSPl3BwA=");
 
 export default Code;

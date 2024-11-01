@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `draw-circle` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-circle?s=light draw-circle}
  * @preview ![draw-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/draw-circle.svg)
  */
-const DrawCircle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm58.5-6c-10 22.4-32.4 38-58.5 38s-48.6-15.6-58.5-38C147.4 107.6 107.6 147.4 90 197.5c22.4 10 38 32.4 38 58.5s-15.6 48.6-38 58.5c17.7 50.1 57.4 89.9 107.5 107.5c10-22.4 32.4-38 58.5-38s48.6 15.6 58.5 38c50.1-17.7 89.9-57.4 107.5-107.5c-22.4-10-38-32.4-38-58.5s15.6-48.6 38-58.5C404.4 147.4 364.6 107.6 314.5 90zM454.1 192.3c32.5 3.1 57.9 30.4 57.9 63.7s-25.4 60.7-57.9 63.7c-20.5 63.6-70.7 113.9-134.3 134.3C316.7 486.6 289.3 512 256 512s-60.7-25.4-63.7-57.9C128.7 433.6 78.4 383.3 57.9 319.7C25.4 316.7 0 289.3 0 256s25.4-60.7 57.9-63.7C78.4 128.7 128.7 78.4 192.3 57.9C195.3 25.4 222.7 0 256 0s60.7 25.4 63.7 57.9c63.6 20.5 113.9 70.7 134.3 134.3zM256 480a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM96 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm352 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const DrawCircle = createIcon("draw-circle", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABrAAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDDAsGAAE2AiQDCAQgBYMtBzIbjgURlZqtyH4m8GR4jYi4leOEDZWEVfWKiQcTCeOTCKK1snp2PwC4eRVgVMDkmBQpRhd2LBNNlkBfAFxdmwWAwzI98PqKGLw53C8759F7RiWecpzhnf/LPb9pRwf4jQ5lT70r3CDRXhrYBjyrtJcX4LbAtkEC1pS7l4K4e9i6dpDH42ivjHQmvcPx5E7jq8b2kOQZgKgFgCFTJ07w4lN8inhXWsU74xAQQ0EhkCFDMwH6ywSayRXI5YJPUSqx/8CCAKIC93AJ5KiEa7gHyEFSIc/rtupWFySqllXPp6ijqDLzsARxKnY2UPhQPQF21Jdk1K1qK5e40E/D6dykrPt2Lfasti7TH720avBlBeJMY0M2fGd6KhSR+FmYqdvymSDCUm3Njvz1b0E8j9Jg2oR1fg22hzyl1AfB6V6atZg/4SvlN8TqbvVuf6c0t8YBDtSocSBYc7kuP7LZj88PnRs16vI+sWdnVbwuwt93wTt/2H7CoW3X/6ty5V//rlJ5eSluWfPEiZotWxd0ZxlsxNVylxFnPzZbzZ2yPxAIzi9/+WBuzf7/YdUEvjz6+T/5EZZeJOkGKkkgyNqXcrMSSAQAIMUW5QkCyTmH/larOSlAqIIASQVVBMg0VUuAXBXtBCjTQg8BKqhiokzklYV6ZhcgqWY9yPS0FeTqeQjK9PcyVUG9yG5X/mbjPxZT0MgqNGJZ0aVj56Jv0ZuXCXcgq/v7FZOd1lt4XRu4wZK1azYtXrQ8oSvkhgnZzatHDhEjHlh06di56FssLt1cPWXxho3L166xxulXbB+03jLcug30E5eya06SiFT1RTQ6/NcD");
 
 export default DrawCircle;

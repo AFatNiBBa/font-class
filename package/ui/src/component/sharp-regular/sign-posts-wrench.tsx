@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sign-posts-wrench` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sign-posts-wrench?s=sharp-regular sign-posts-wrench}
  * @preview ![sign-posts-wrench](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sign-posts-wrench.svg)
  */
-const SignPostsWrench: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 32L64 0l48 0 0 32 352 0 0-32 48 0 0 32 16 0 48 0 0 48 0 112-48 0 0-112L48 80l0 288 311.3 0c5.5 17.5 13.9 33.7 24.7 48l-272 0 0 96-48 0 0-96-16 0L0 416l0-48L0 80 0 32l48 0 16 0zM427.3 224l36.7 0 0 96 48 48 48-48 0-96 36.7 0c26.6 23.5 43.3 57.8 43.3 96c0 40.4-18.7 76.5-48 99.9l0 92.1-160 0 0-92.1c-29.3-23.5-48-59.5-48-99.9c0-38.2 16.8-72.5 43.3-96z" />
-    </Icon>
-);
+const SignPostsWrench = createIcon("sign-posts-wrench", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZQAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBYwsGAAE2AiQDCAQgBYMtBzgb6wTIjsQ4JvKLKOxihCSdPPz/fr3uc9+bwMwP8g0QkEoUKXTfxkHBsYyq+qu2qzKqMPleGzL/l+N79/zoAD8fwaGNTXvRamE05/MEEu2lbdBJWZglioVjdxXTFCXlIWlpRvL4Wff43B7K+Ceeq5Bep9/xLH1o/KWbBySVAkC0BcDczetX+rEpmiJ+q0/8ZjkCYi7IAgUK9BRghkKgp1JGqRQ0Rb2O/4GZAKKZfMMESpTYjB2AEiSpLMf3rFValZtqler2ELUQrSKsVauxfJVYDZEY73W3BspXg1BsWHtrVefMjNnr6Xd9387Aa77v92F2v8a2jX/3+6HfzX6Tcx4j2yOrDW3HjHFG2dUkm+zpt7b2GGMPC+VwzLUfBr5wj7q6PQZ60L331x3e2uFr7+4PgEBQWf1H591tZnxrUUvgz0+Ai+s/pjupES0kEBQj6iPsSHcAsQHkKS7pJ3xRIFktgXdt8EKAUEWApJmqAIUe2gpQqhouQEVvEwVopmq9QpQthY52dpA0OAsKk9wEpY4+gooZfsqa6RiFZlF6Qf3YxS+i8MJNeeyoMXlanrY0WlmIuDo9b0tDLvmRoWarQ0475YKDDjjqAkHPWVledNIiCVnoh7KxRhkjmyYfdx/5TZCdc95Rnj1fZ7p83xvikjx9qFGTjDtOU5KI1O5JiiM/gsaRl88dPLX/CAA=");
 
 export default SignPostsWrench;

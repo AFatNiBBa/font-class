@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-from-square` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-square?s=sharp-regular arrow-up-from-square}
  * @preview ![arrow-up-from-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-up-from-square.svg)
  */
-const ArrowUpFromSquare: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272.7 18L256 1.7 239.3 18l-112 108.8-17.2 16.7 33.4 34.4 17.2-16.7L232 92l0 260 0 24 48 0 0-24 0-260 71.3 69.2 17.2 16.7 33.4-34.4-17.2-16.7L272.7 18zM24 32L0 32 0 56 0 488l0 24 24 0 464 0 24 0 0-24 0-432 0-24-24 0-72 0-24 0 0 48 24 0 48 0 0 384L48 464 48 80l48 0 24 0 0-48L96 32 24 32z" />
-    </Icon>
-);
+const ArrowUpFromSquare = createIcon("arrow-up-from-square", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABYwAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBVQsGAAE2AiQDCAQgBYMtBzsb4ATIHoex22RJF81QPgon8fD/c72/z03mrTZThpSZFZCvI1cLQA6FhQ+KJblJZsiHDvmafvf3p3pyHgrgMwrSWPN8Ynx1rfMKFPRTB/YCXpBiwWpaAevblgg1IvFJhBRKROPleE2Qx+tYhXQ9wWX60PhTW5dIKhmAaAKAKauWLfDh5/g54mvtKfHVPATEFFAKZMjQQYDxMoEOciVyueDnqNXyf2BJAFGH2wnk+D4LsQqQgyTlebdu1UrDfGW1Uuzq2aNn91gevWNC9ItVkUJUIyKLFdEnJkXfWLm8qBaWWEN0RFGIajVFg8iE1uiut5rc+hs7aXK3MT/p0H40xczpcm0M1kZORROBFf/fsA23PdBGm98EvXmwNoPPueGcwW3GC4BA0OrbzWz8P/WqCfz66sGvqPYhSbdQTwJB1r/W3/oEEgEASHFS1wSBZKYE8waunDahACGpU0CmvSaQK/SDik5GTKhTWCYTeX2hhQ0SJA0cgcxIpyHXwmOoGO9jWadFZCHFBQT3o0ueqfEZl8ohAweXY0uz0/koYerpuHLb7n2yrPSBu3Y65KDjdthuj+OKPGpBc8IBMz1ihi8qDTHQYKWxyuPx+fpKOxx1zB6HHGznjFPez3s76W/vA17ClEM9ThKRWmw5evTQqQEnDg94ftqA1wkA");
 
 export default ArrowUpFromSquare;

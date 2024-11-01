@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `starfighter-twin-ion-engine` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starfighter-twin-ion-engine?s=sharp-thin starfighter-twin-ion-engine}
  * @preview ![starfighter-twin-ion-engine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/starfighter-twin-ion-engine.svg)
  */
-const StarfighterTwinIonEngine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 40l0-8L0 32l0 8L0 209.6 0 216l0 80 0 6.4L0 472l0 8 16 0 0-8 0-166 133.2 29.6C176.8 383.6 228.6 416 288 416s111.2-32.4 138.8-80.4L560 306l0 166 0 8 16 0 0-8 0-169.6 0-6.4 0-80 0-6.4L576 40l0-8-16 0 0 8 0 166L426.8 176.4C399.2 128.4 347.4 96 288 96s-111.2 32.4-138.8 80.4L16 206 16 40zM435.9 194.8L560 222.4l0 67.2L435.9 317.2c7.8-18.8 12.1-39.5 12.1-61.2s-4.3-42.3-12.1-61.2zM140.1 317.2L16 289.6l0-67.2 124.1-27.6C132.3 213.7 128 234.3 128 256s4.3 42.3 12.1 61.2zM288 112a144 144 0 1 1 0 288 144 144 0 1 1 0-288zM257 263.9a32 32 0 1 1 62-15.9 32 32 0 1 1 -62 15.9zm3.2 31.2c5.8 4.1 12.5 7 19.8 8.2l0 48.3c-20.5-1.7-39.2-9.8-54-22.4l34.2-34.2zM350 329.3c-14.8 12.5-33.5 20.7-54 22.4l0-48.3c7.3-1.2 14-4.1 19.8-8.2L350 329.3zM383.7 264c-1.7 20.5-9.8 39.2-22.4 54l-34.2-34.2c4.1-5.8 7-12.5 8.2-19.8l48.3 0zm-48.3-16c-1.2-7.3-4.1-14-8.2-19.8L361.3 194c12.5 14.8 20.7 33.5 22.4 54l-48.3 0zM296 160.3c20.5 1.7 39.2 9.8 54 22.4l-34.2 34.2c-5.8-4.1-12.5-7-19.8-8.2l0-48.3zm-16 48.3c-7.3 1.2-14 4.1-19.8 8.2L226 182.7c14.8-12.5 33.5-20.7 54-22.4l0 48.3zm-31.1 19.5c-4.1 5.8-7 12.5-8.2 19.8l-48.3 0c1.7-20.5 9.8-39.2 22.4-54l34.2 34.2zm0 55.6L214.7 318c-12.5-14.8-20.7-33.5-22.4-54l48.3 0c1.2 7.3 4.1 14 8.2 19.8zM288 368a112 112 0 1 0 0-224 112 112 0 1 0 0 224z" />
-    </Icon>
-);
+const StarfighterTwinIonEngine = createIcon("starfighter-twin-ion-engine", false, "data:font/woff2;base64,d09GMgABAAAAAANsAAoAAAAAB1wAAAMfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQyERAsGAAE2AiQDCAQgBYMtB0IbVgbIHoVxwz204NW3IRryIcLJFDxPdtj7sxPNxpgNrA4nsbtUJ7NjUUId1QWiWsuefWJFgAoTS8KkYgyw+vIBUkDGkD2jorXbCJ9eXiDy1LMCSzKadkGAm/7ende2Cfi4AZSH9Hcv2oPWwGjO8zTvorJvzU0bNKAStqbcPRzIqcm3dwBaXmAPH1C7lQbYaH6UfIKfNaBwHAAAJBQAAGjZHdjFI4nI594gz7EJCIC0AGARwIHvSEQAqMdBgEQ0FtBoBN7S5v+BMRAAEF9MvmK4BkKB/8ewWAOgCNa6yx6YEOEPE02CawjSQ/yRZqQgRhACV2TcYDnfv11xs+5u0dCGTEhM2GSIXBjcqbxWfSt/kMj47SGDkTiwV84C4/idh4gMlV2cxg1d2xe5XT7Paf656ltmPbhTeEHOqhfr7rpbV16Rnd6dUdsxN3KbN3pHdBxMQ04UmgafStUHG4buyjWaWncOaZrkw292XvL1knklti3S9H5lycb0RvYWG6if1p+Jd2Vs6uC1WZGTwT0o7Mk8YdapY7GTd2ccdxNnQs98CW1fw7XTbE8NxZ8zGOmHL2cwU5zCCS6TaJuVP/puzdrS3k9gZoj/6N1BwNG2wwfjrufdzVpemrhVSwWqxMvM9EqUyhIZjDZ5Z/4ImPH3+7JGDGGPep2jwt7Ddd53z3Bv4vs6h3s9XnNhZRjDAiUhgWFhVFZKMoe2QfrA7wqi4L+CKG11mI10qRlClzkw+QAc+HAjEU/7NHjFgQxi3wgCCMQ8ZywaG1L/x2xTALw//xFd3SfV1BnAHwWAgJPfV4xSzQBYWgAgrGQJqR0/JIDiO07shYHsQAAQDJABhS8GOCQQCjSGPOBDMhXowAUDcRAdgBDJaCBQBDIfOFSyGmgiuQp8qOdxyJdI0d0K+ImM/4gGO4uMjn62pLDY1trWjIQ4u1Gts84O1mUv4RU5cCpTmMscFjGZSUxnUUGygK7oYmbT2aXc8V1LCYUUY6nFTs5fhUNwaAELmd5MTe+mDru8K5sl3fVzoFFhqywlTaFAVMKjSnwKNQXfJmvB9LkSfyoBAAAA");
 
 export default StarfighterTwinIonEngine;

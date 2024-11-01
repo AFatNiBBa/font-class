@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wifi` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi?s=solid wifi}
  * @preview ![wifi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/wifi.svg)
  */
-const Wifi: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const Wifi = createIcon("wifi", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcwAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBbQsGAAE2AiQDCAQgBYMtBysb6ATIhof/t6O671cN4BrbEcjdFGbktE+na12cqhnnoQXyHNfPWJjzgIwJNLrmeQV6vnFOagiKtYpiz7a9CiIaErvQuEIef2dHlSHdSp/gQvjQ+FoDR0kqZACiOgCGz5052RslURLx8f/PEh+biIAYDgqBDBkaCzBIJtBYrkAuF5TE//+L/8CCAKKspNwEcpTBbKwF5CDJ8rxlkyqVylTJ55jFFed+Njfiq0pnZn8x/RpZX+9GHKr76Zwv53w+6/NpVx2sM7eWL6NATNRd9NqAjyqeHvfCoKu1ryKUZr2LJcy+r8ND7R5ofK/9gx0fbtbioeoPfdv8kzWf6P1L95GNGNl4ypQc2yO636xS+dapKlVufjSlmNJsgQU8YvOjFaHKqVuVl1ToNSfefeCJN06diouW/5T69k0/Tb9ZubLe8sYTD7w7J4ben5X++GNpVr4PBIK5a5t/vLTaoF/LV0qg9KXv/5Cv+/+rdDA9hPISCLJO/3eyKB0ELA7AS7FHi50vCiSTZZKtlV0XIFRED0lZFSHTSHXIVdQRymiqt3xyy0yZyCsItS2GIalsO2T62Ae52p6GMgZ53y2rdmTgpQKH+neXNWZMjx5XdO/SrRhQbGZaDWJkOzywOG232yOb2uOV1thqi11WW2W9XSN2h8nBbpuN2WNG+6FCd110UxiguF15bs0ZYWnu9PK6ep8wykDF+047e/Y7t8eTSIAeH0aW6Uj53vVr1gMAAA==");
 
 export default Wifi;

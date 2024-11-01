@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shapes` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shapes?s=duotone shapes}
  * @preview ![shapes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/shapes.svg)
  */
-const Shapes: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 384a128 128 0 1 0 256 0A128 128 0 1 0 0 384zM164.2 207.8c5.7 10 16.3 16.2 27.8 16.2l192 0c11.5 0 22.2-6.2 27.8-16.2s5.5-22.3-.4-32.2l-96-160C309.7 5.9 299.2 0 288 0s-21.7 5.9-27.4 15.5l-96 160c-5.9 9.9-6.1 22.2-.4 32.2z" />
-        <path d="M328 272c-22.1 0-40 17.9-40 40l0 144c0 22.1 17.9 40 40 40l144 0c22.1 0 40-17.9 40-40l0-144c0-22.1-17.9-40-40-40l-144 0z" />
-    </Icon>
-);
+const Shapes = createIcon("shapes", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdAAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBWwsIAAE2AiQDCgQgBYMtB0gb9QTIjsQ4JvGLKEzi4Xubr+e+XWlsSbb1Tbhmxg6oIgoQV+GOqKj+pM2kTK0MeZ+f/n7qj/NPBfJA5HdgcQH1Ms4nsPOd7/uAWltopjOw+d3knXNuiLQU+chXGqZ6w9YB8vg7u6FEejb9inv2fwDjX13cIGmZAYg6AGZvXLvc983RnOLXxhfEr5YhIOaAQiBDhu4CTJMJdJcrkMsFzanRoDkajYIAoszebQbKKGEVNgFykISU5127tauWWuUbqqXK3pvtIx4TVzo8qVbjVqenI+Jqx6cqlbgyOOLdwe9Wbw19X6i4OuQ9qnJz0DuRjU/6z0FvH6HjhnhqwBvt18XjDn3eq7/3n18P/Grhx03v82XTfU1fvu/H3k/7ZvWtUfvrzz59/vyrVuurDWp//eOX6t+rv3T53s6X3a3X74ab3LsMBILu++d/vbPNtP9bVBP458smv6PG90l6Dy0kEGTDGsNsSyARAIAUF/RJokAgM0LiPrXmKQFCBQGSsooAmW7qAuQqhgpQ0tN4Acoq1spE3lJobzuDpOY0yExwEeTa+xyUTPNDXNY+MlixoGB/dUkLSnT+tmL0iFHFlKLbiBxSaLM+tVi2Bl3QscHU6oCTTjhnv30OO1fgZyzPzjtuwQib74sKo40wSmGKYrt3LW3g+IyzDreF/U2mKs77g1wYzx5Mu0mAMReSy4gUWWt8emeHw1Or58I7BAAA");
 
 export default Shapes;

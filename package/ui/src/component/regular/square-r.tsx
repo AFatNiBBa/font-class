@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-r` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-r?s=regular square-r}
  * @preview ![square-r](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-r.svg)
  */
-const SquareR: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm152 32l104 0c44.2 0 80 35.8 80 80c0 36.6-24.6 67.5-58.2 77l45.4 60.6c8 10.6 5.8 25.6-4.8 33.6s-25.6 5.8-33.6-4.8L220 288l-44 0 0 72c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-96 0-112c0-13.3 10.7-24 24-24zm80 112l24 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-80 0 0 64 56 0z" />
-    </Icon>
-);
+const SquareR = createIcon("square-r", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABeAAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAwsGAAE2AiQDCAQgBYMtBy8bAgXIhofv1+w793UnNb8zDP2RYAHQEYICVuMWjUitJbK5OPU88VAAnxOLQNDGwrlxtud7nlegYr362CS9gkUUa96yjSUp+2YSnaTHrz1+nSGPl+JxFdIL6Sc81n40fjHgbpJKBiDaAbDx+OG9xutRj/ix8Tnxo90IiI2gFMiQYViANTKBYbkSuVxQj0ZD/wNLAogq++4EclRxEa4E5CDJ87x9cFJHrdKSH6tVitNPd6d4pqclnuvL4tne5i0vzY74aHpLvDPzg4EUz894f0pzvDvrw8HsaK2ofT7zg5Hb+9+fsjFemPL24LEoQjw/5d3BiIiXpsPPH+p7Lu7ofbYoQtQmfdj+4W8Tf7r4J+uvqbdu0FrfQJobRQcdrzvl9Y6OYoOiw35u7FJ5qP2iYzH8b3bfTz5uHapvOGqOHXoOHuw517Vs77+mn9LW++9vzeQDNlgBaNy26JLXHzunbc1/TbUEfv7mj//xw416jKcP0SSBIJvTmONMjIMSA8hS3GwSqFkgOUsO8kmzZwUIBQIkVYVDZkg75AqzoWLU0jOqCodlIp8gdDuLQ9LsOsgscwvkun0KFWt8m1V1RxZpXJxwH73kbSOy9VC5cN6CclW57Ol88DBld3W5rcy4Oc3MpJMudo2r3egiF7rMjQN+vb3lTa6yDWFb1ai00DwLlFYpj4fPx4+5yPVucJlrXF33Wa28H8xwM14+k/TEaBdpSRKRml6rOvd6");
 
 export default SquareR;

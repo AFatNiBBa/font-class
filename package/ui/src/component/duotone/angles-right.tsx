@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `angles-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angles-right?s=duotone angles-right}
  * @preview ![angles-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/angles-right.svg)
  */
-const AnglesRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M64 96c0 8.2 3.1 16.4 9.4 22.6L210.7 256 73.4 393.4C67.1 399.6 64 407.8 64 416s3.1 16.4 9.4 22.6s14.4 9.4 22.6 9.4s16.4-3.1 22.6-9.4l160-160c6.2-6.2 9.4-14.4 9.4-22.6s-3.1-16.4-9.4-22.6l-160-160C112.4 67.1 104.2 64 96 64s-16.4 3.1-22.6 9.4S64 87.8 64 96z" />
-        <path d="M470.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L402.7 256 265.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-    </Icon>
-);
+const AnglesRight = createIcon("angles-right", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABbgAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBRgsIAAE2AiQDCgQgBYMtB1Qb7ATIjsO4sSuxiksZ+VDx8DWWvr+7AUKbqJICskQShSJAFR8hO77qVMsqYAusz/+Y2/vbmifyO5Jb3toS4s2licUG12n8z+We3/OjA/wAfnM+33gbcK3amkDPA1nUthIMPNNErMF5M9KpUBzSr1Dibb6qhvQqVfDAfXB8NeBN0pABRDsAWLen5uM3H/MpKtUvUbERBMR6wDhBRsYwASupAsM046AogvlUrcJ8sD8/QgBRS3hzBrUo2AC2ASggCVHK6Ihe01J2qzMbDz4TcbF7pzxtvN37PC717ZHdgdMvmu707OrdlSDDPMQ/axKIf8GE3il82XPdT03Ots9+n6iMKz5+vNVCy62ZGS9bWl7eyt6tWzcRoiA7RO+6NXs9WXIrXgcCwZe5M2/2tq38X9+UwOLrn3/dD2kSYj7Nol4CQZ6uTusnJjHmBQAgxXHBJFhLkI1ShJPNngsQGlFBUqsRsiEOFI2moMaoPLnwxA6qKA1CtwEISbNDkK1wgaLbB2qs9PdrdUe+mehbgf6VS/CaiLuN6USKFY5mCub+IPVilYuN0Jl3wnAvxjbWjkaGZo4NbM+PTla8KdT1RZSWkEIV3FzeFZoNf+9gNsxt36SKx5sh5+nxMNyNAlhyGk5kIkXu3r+eLEeHj1GJ35f9QA/3CAI=");
 
 export default AnglesRight;

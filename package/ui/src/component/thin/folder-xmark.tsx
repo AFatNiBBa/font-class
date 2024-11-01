@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-xmark?s=thin folder-xmark}
  * @preview ![folder-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/folder-xmark.svg)
  */
-const FolderXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 464L64 464c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48l133.5 0c12.7 0 24.9 5.1 33.9 14.1l35.9 35.9c9 9 21.2 14.1 33.9 14.1L448 112c26.5 0 48 21.5 48 48l0 256c0 26.5-21.5 48-48 48zM64 480l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L301.3 96c-8.5 0-16.6-3.4-22.6-9.4L242.7 50.7c-12-12-28.3-18.7-45.3-18.7L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64zM178.3 210.3c-3.1 3.1-3.1 8.2 0 11.3L244.7 288l-66.3 66.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L256 299.3l66.3 66.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L267.3 288l66.3-66.3c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L256 276.7l-66.3-66.3c-3.1-3.1-8.2-3.1-11.3 0z" />
-    </Icon>
-);
+const FolderXmark = createIcon("folder-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABgAAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCGQsGAAE2AiQDCAQgBYMtBzMbHAXIjtRG94xd4uF5u3jPfTP7sfjkfEkVwUDclOniTqrjllXqzZBa/env3fk7//QBJ/FHWcOWbhqbZ3OdJxBg1qVdntBYYJkmYJm7OiseouUjaa0myeNnj58z5PGhHUqkZ9M3eLh+aPylsxskWQYgWgFg1urly3z2e/we8U0j4htLEBCzQSGQIUM3AabKBLrJFcjlgt+j0Yj/gQUBRBP8yAnkKOEgzgNykGR53rt3r0qplq+qlMpbq7XqWx2e6pLF8x2fHlCJ++2nxZOVSrzZ/snOKZ5p90TfLbVq7e0h73XN4rnB9f7luNdhetTL5Xhj4DudUjw76N1+659ovzJWBHBPdlwdKwP3dIdVsTpwT7VbEatif+96q/o/vtn1jU9bXsFJI3/+Npsp+/bnkbe0/WWMX9o9TgPKZTv/SuvWZcrkv/K42h14vbveRGBm8Wht3LjZszTiuHHLl8+ajep9w+VAIDg96KfXN7ec+n+zSgJ/fvDf+Blp/J6kOppJIMiGNobakEAiAAApTumdIJDslOFrrXpKgFBGgKSJsgCZrloJkCsbIkBJD+MEaKJsuUzkzYV2Nk4kqTqKZMa7iOTaeR8pmerzsIl2kTkd5zLcny95vgTzdhWjho8sJhdmx+D9iMmbU4ptdeCpNDEIR+1y2CEn7LTDXicEfMyy5KSD5q+geb6oMMpwIxUmK47768Or7HTMcXsddqhsM0Vx3xzo1Hr+IBgJk45WThKRqrveuzbsjIMCAA==");
 
 export default FolderXmark;

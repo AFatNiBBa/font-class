@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `can-food` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/can-food?s=sharp-duotone-solid can-food}
  * @preview ![can-food](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/can-food.svg)
  */
-const CanFood: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M16 64c0 1.3 .1 2.5 .3 3.8C21.7 101.4 98.3 128 192 128s170.3-26.6 175.7-60.2c.2-1.2 .3-2.5 .3-3.8c0-35.3-78.8-64-176-64S16 28.7 16 64zm96 160l0 66.1 0 93.9 160 0 0-93.9 0-66.1c-53.3 0-106.7 0-160 0z" />
-        <path d="M320 434.3l0-158.9c-13.8 6-30 11-48 14.7l0-66.1-160 0 0 66.1c-18-3.8-34.2-8.8-48-14.7l0 158.9c3.4 3 10.2 7.5 21.7 12.2C110.5 456.6 148.1 464 192 464s81.5-7.4 106.3-17.5c11.5-4.7 18.3-9.2 21.7-12.2zm48 5.7c0 39.8-78.8 72-176 72s-176-32.2-176-72L16 72c0-1.4 .1-2.8 .3-4.2C21.7 101.4 98.3 128 192 128s170.3-26.6 175.7-60.2c.2 1.4 .3 2.8 .3 4.2l0 368z" />
-    </Icon>
-);
+const CanFood = createIcon("can-food", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgAAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAwsIAAE2AiQDCgQgBYMtB0wbIQXIhuB7/77/XnufuQM94jxJEawIjBxBX0yhSAyVTv1Qiu/U1cbPfjrAHT/hQ3u+D+R+wOt9xhMIsMmK8xpvssCyyDLR3jYUpBGILyJMSiQaL8frBkWcz9fVkB6l73CX/wcwftXddZL6DCDaAWDe+tWrfNQWbSm+q75NfGclAmI+KAUyMnoJMFMW6KVQolAI2lK1SltUqyUBRAXDmV7BB2zHCUABkiQVRbcends11jQX6+hFDbtDvDwwoiHEq4PFvUHvrP1pymtdJz1cGvHVmh+Xf9Mjx5V4tOzztT8t+bbnZWnzZSq6Eo+98+u+X/pVt7WCaAyxbjTQ6f5vtnvz937f7fvOnObn4FcsfWW+5833ytLnLKw9Pt98x2sX/t+nI3m55XLHPiektFHrEku02pjSCa2XTNKjfcQ60b7H9ufmI3Wb520z31DIPYFg5eK/v9reOvP/usYEfv7wz1/a89pVP4oT6U3USSDII6sjbYnL2mkXJwQAIMU5/Z1PEsjGS/Bdm9wXIDQgQFLRIEDWUzsBCg1GCFCjj0kCVDRYLYuiXuhk6wBJk5Mgm+wCKHTyFqgx05dFRafIqcYlCvfTS16soUXHynGjx5bTy22v89nD1P0ZZdgeeq7MDYOL9jnumDP22uOgM4o8ZVV91lGLPWKRLyqNM9pYpenK49FWXqeKU047uBbPD5mhvJ8Pdc5fPQy8RGjHu5JlIkVut3vnsVGPVh+Vs2aHSXydAAA=");
 
 export default CanFood;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `atlassian` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/atlassian?s=brands atlassian}
  * @preview ![atlassian](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/atlassian.svg)
  */
-const Atlassian: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M152.2 236.4c-7.7-8.2-19.7-7.7-24.8 2.8L1.6 490.2c-5 10 2.4 21.7 13.4 21.7h175c5.8.1 11-3.2 13.4-8.4 37.9-77.8 15.1-196.3-51.2-267.1zM244.4 8.1c-122.3 193.4-8.5 348.6 65 495.5 2.5 5.1 7.7 8.4 13.4 8.4H497c11.2 0 18.4-11.8 13.4-21.7 0 0-234.5-470.6-240.4-482.3-5.3-10.6-18.8-10.8-25.6.1z" />
-    </Icon>
-);
+const Atlassian = createIcon("atlassian", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABYAAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBPgsGAAE2AiQDCAQgBYMtBzAbvgTInodxrGLKxFO4eHh+3dO5b2YBz9pMYKJCBdDc0BWZNv8msT7XlyHb+wXsP//X1AtrOsBvdHgmXdOmfj7LfN5gA430JpjtDWSiuN3ZYDuEvUuLSHJ8O16HK+TxPM4oQ7qaPuF0+dD4pYGjJGUyAFEdAMPnzpzszbf4FvGp9JD4ZCICYgQoBDJkaCzAIJlAY7kCuVzwLUol/A8sCCDKYixxcv/kEEwD5CBJeV6jdaUyVfI58aWKcy/VnhUX6lysUymO17s/xxlzv8yK+DI74itkrja4WGmYvVz3UpdbE578HvfkGyseq93iWvVrf3xa88nlz93au759eh+8rULfl1UmVJ1Qb+HPnrNMJCY2GkWj0S2H8evD2Aq3VOjTp29s2d9idPPRLce0GHNwO33Ll58LBIJrUyq/tNqg/+UrJfDj2b9xf2lJSukaynObgqxTqZNFSYCuCjifYo8WUCaQ9KnceNfKLgkQKiJAUlZFATKNVBcgV1FHAcpoqrcAZVU0UybyCkJtixtIKtsOMn3sA7na7oMyBnmbL6t2ZHYkW4H8issYo9HR64ruXboVA4pphSimIabJgcV20G4PdbSHi9bYaotdVltlvV2K2WFyabfNxqzo0X6o0F0X3RQGKI7r96fnWG2HndbbakueZqDifrydPev+7SGWMGsPx5JEpArLd236bjdcvgU=");
 
 export default Atlassian;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ornament` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ornament?s=regular ornament}
  * @preview ![ornament](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/ornament.svg)
  */
-const Ornament: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm55.4 64c5.4-9.4 8.6-20.3 8.6-32c0-35.3-28.7-64-64-64s-64 28.7-64 64c0 11.7 3.1 22.6 8.6 32L128 96c-17.7 0-32 14.3-32 32l0 25.7C38.6 186.9 0 248.9 0 320C0 426 86 512 192 512s192-86 192-192c0-71.1-38.6-133.1-96-166.3l0-25.7c0-17.7-14.3-32-32-32l-8.6 0zM192 176c42.6 0 81 18.5 107.3 48L84.7 224c26.4-29.5 64.7-48 107.3-48zM56.2 272l271.6 0c5.3 15 8.2 31.2 8.2 48s-2.9 33-8.2 48L56.2 368c-5.3-15-8.2-31.2-8.2-48s2.9-33 8.2-48zM84.7 416l214.7 0C273 445.5 234.6 464 192 464s-81-18.5-107.3-48z" />
-    </Icon>
-);
+const Ornament = createIcon("ornament", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABegAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCCgsGAAE2AiQDCAQgBYMtBy8bCQXIHgfldjJDFuTTY8JGnwOmRPC19tlvdg4I1YVQsQYiBSTMyoQdoVFA5Qntr9joxK7/MM7eH3hy+gehbu0sJpDNdRc6e6EW+N38X+75Pb8N+P3ED2lMXBNkTDocq7GeJxDgojxPKAss0wQslt42RKghhC8irFQiGs/xogfkaKYJdaS76RM3y5vGX0N6SOoKAEQnAFi7KzoUz7WoRXxUEu+tAwGxFsAkQoECowisIBQYJTIJsiyoRVWl38BJCCDqwX9QAhkNOA4uAsggqcsiw7nSdplSrC2KU4oVycN9FLPK3hnFUP8cdQ7MKyPnY2n2rt26w7ZZh7EihnpnIJ7P3WfNlq87fm/7vuvZ/MMgis7+OYUiRrOyOZ52bdfW0l5UDmrFUnSOxLYolPfbf62a3tXb/Z/6cPKDd4/bB7jUrjOAlPLRbkVX1/JypOi+Lsd4zsL1/St1FBkbG0kIxcbG4qH7z4f1utxv01oa/eU6Of2HOrlSNzRU1wmc0ZtfwKwY63kgEJxaF/d9qCPkXyMCwJ+X/69fI1VRpl00SiAo5lZzpUQHRCkAACnqYBUlAsl+YvyqrW4JEJoRIKnXLEBhhB4CWbM5CNQZ54tAvWbbCEWWI/RK7SBpdR4UlmsFWa8zUGeFl6hebxTRxscK/9dLUUtIdYoXuXlwEJuNJgQQS4fBvK3O1OUFR7iLPOXK1MiVo1CNIKuEprVKqT1Y5YOYJzceWBA+7p+VOIyqVCvUpfNjgvH90EGdv94RDAGmXexmkogkK68qy3xxBAAAAA==");
 
 export default Ornament;

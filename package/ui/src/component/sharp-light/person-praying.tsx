@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-praying` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-praying?s=sharp-light person-praying}
  * @preview ![person-praying](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-praying.svg)
  */
-const PersonPraying: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M320 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-96 0a64 64 0 1 1 128 0A64 64 0 1 1 224 64zm-66.8 80l10.8 0 64 0 10.2 0 4.3 9.2 46.7 100.1 95.9-89.1 21.8 23.4-112 104-16.1 14.9-9.3-19.9-21.7-46.4L185.6 399.3l126.5 75 7.8 4.6 0 9.1 0 8 0 16-16 0L48 512l-16 0 0-32 16 0 211.1 0L115.2 394.7c-27.1-16.1-38.5-49.5-26.8-78.8l64.7-161.8 4-10.1zm64.6 32l-43 0L118.1 327.8c-5.9 14.6-.2 31.4 13.4 39.4l26.3 15.6 75.4-180.9c.1-.2 .2-.5 .3-.7L221.8 176z" />
-    </Icon>
-);
+const PersonPraying = createIcon("person-praying", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdwAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCEQsGAAE2AiQDCAQgBYMtBzUbFgXIhocPXeb7knbHJx2DDggggFwCVe6CXYrG4zbAZWYvTj3PeSiAbxS0sXBpQJaFxhjnEYhYLh6T1W6rWKkiXt0mFrhDir0REiQRHafH1wpZvBJDVEheSn7CE/2k8YtO7pDIUgDREgAz169eqr4hGiJ+qn1O/GQxAmIWKAVSpOgqwBSpQFeZEplM0BC1mv4HlgQQVdxEAjJUcQDnARlIZFnWptnwVkWlWbauqOT7b7aPeD5/uO2zbrR7rnikwwuRvzH4k4EfdXt1wIeDPu6+psiLdrE21sfAWBNto3MMK9raaBfsJ/KmEUWxLt7v/HKX9dFhbV7ka+LFvn1jfdyMm0XnXh+3/Pi3nj/t+8n0680f8KB58wcw70gb//qrMcVNzVpeFGsXGLrb9g3WO77f/27ZZubrri5yRhN1WmrZstTy5yfWmHJ2z7kZb5k4o8fgwYOnvOD8tjcs+gwRXwGB4NX/ut7d3mLKf3VFAhq/+eOv+iXKWn28knyMOgkI0iG1IbZEvVLfeEWglsQ5vYI3CiR2yFBp6vlbc8gREFQdpZDqoiVkcoOhoruxK6pyq6UiayK0tdWERFMnITXOVci09SlUTPGtWtU20oSj0oX678XP88jcqXLksBHlpHIbGHQOETacXB4LA86hMFAW7XPcMWfstcdBZxx2ylLjrKPmRehcH1QaaZgRSpOU1/Hr/Dp7nXLaQccda2MmK98rA5yL6weKnCDuKI5EQiTN89My9MSpnRcPHtsPAAA=");
 
 export default PersonPraying;

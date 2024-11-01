@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diamonds-4` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamonds-4?s=light diamonds-4}
  * @preview ![diamonds-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/diamonds-4.svg)
  */
-const Diamonds_4: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M261.7 34.3c-3.1-3.1-8.2-3.1-11.3 0l-74.1 74.1L256 188.1l79.7-79.7L358.3 131l-79.7 79.7c-12.5 12.5-32.8 12.5-45.3 0L153.7 131c-12.5-12.5-12.5-32.8 0-45.3l74.1-74.1c15.6-15.6 40.9-15.6 56.6 0l74.1 74.1c12.5 12.5 12.5 32.8 0 45.3l-22.6-22.6L261.7 34.3zm-50.9 199c12.5 12.5 12.5 32.8 0 45.3L131 358.3c-12.5 12.5-32.8 12.5-45.3 0L11.7 284.3c-15.6-15.6-15.6-40.9 0-56.6l74.1-74.1c12.5-12.5 32.8-12.5 45.3 0l79.7 79.7zM108.4 176.3L34.3 250.3c-3.1 3.1-3.1 8.2 0 11.3l74.1 74.1L188.1 256l-79.7-79.7zM381 153.7c12.5-12.5 32.8-12.5 45.3 0l74.1 74.1c15.6 15.6 15.6 40.9 0 56.6l-74.1 74.1c-12.5 12.5-32.8 12.5-45.3 0l-79.7-79.7c-12.5-12.5-12.5-32.8 0-45.3L381 153.7zM233.4 301.3c12.5-12.5 32.8-12.5 45.3 0L358.3 381c12.5 12.5 12.5 32.8 0 45.3l-74.1 74.1c-15.6 15.6-40.9 15.6-56.6 0l-74.1-74.1c-12.5-12.5-12.5-32.8 0-45.3l79.7-79.7zM176.3 403.6l74.1 74.1c3.1 3.1 8.2 3.1 11.3 0l74.1-74.1L256 323.9l-79.7 79.7zm227.3-67.9l74.1-74.1c3.1-3.1 3.1-8.2 0-11.3l-74.1-74.1L323.9 256l79.7 79.7z" />
-    </Icon>
-);
+const Diamonds_4 = createIcon("diamonds-4", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABmgAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDHwsGAAE2AiQDCAQgBYMtBzEboAXIjsK25RNzMjNRVXEx86ASD/+/9r99ztz3/JujljSJJZUQyZ4h4kk0FEs0CHUI/S2qpp/H//8xd+821Os7S7hV+0NmXxDzRvO6eairHJInSIHM/F9TL55fA36jQ4m2WhZFWkTzBBJ8bz7ficwGNqMSsM2cm1ra3elG/w1K/OAeeeRbT40X7knjtyV3pFIBiEkAcPxGdAbfI44i6uaVqJ0BAXECwAZEhQprEBziFVjDZwMoimAUTcP+AwUCiLbgXIKCHj7iJ6CA1Cll23LJMudCrDVWrltH+zdTtZqGjk1xlYnix/WWKT5scEyXPKkzTOLBbDOv6yQisl6DZVY7naibbdjNmidiRue4OXVnzFiTjJW01M5plzZvQtP4c5W5/431Tq31MRpVCsELCF6ANXsBmbGxN7NBZMeGb5XC22TlW0DheTj2aAfqVPfP8xhjj4KzvZCCstpbF9wZVMHT17edUVk3ZQ2OB5ApexMM4nlsg7PEY2/G2C0VDA7ubNV2va1/Jze/H4BA8LU6+m21YnS1W5Lg1/f/q8nPSPOd8hPoShBUe5o9lhKQBAAg4z78CYH0Ukd41KFXAoQ+AqS2vgCVFZUIir7dCFrW6UPQ1neFV5SeMGu5AGnoFqgcdAuKWS+g5ZDfdNtsVPetdNdJv43p41V0bJ90tXfKsPS2ZfKtKOj1EZlsNt7wsSZ4FTtOnbiybcu+qwpzYSZ37dj4EDbmhUSXdp3EMFncu3nZ2nbh0r5TJ3aXEbJ9uNHN8Owm6PIIrHs1pCSy/6kIXLb1AgA=");
 
 export default Diamonds_4;

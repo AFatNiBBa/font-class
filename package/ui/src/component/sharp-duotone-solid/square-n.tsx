@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-n` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-n?s=sharp-duotone-solid square-n}
  * @preview ![square-n](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/square-n.svg)
  */
-const SquareN: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l448 0 0-448L0 32zm112 96l35.1 0 7.2 8.5L288 294.5 288 152l0-24 48 0 0 24 0 208 0 24-35.1 0-7.2-8.5L160 217.5 160 360l0 24-48 0 0-24 0-208 0-24z" />
-        <path d="M336 128l-48 0 0 24 0 142.5-133.7-158-7.2-8.5L112 128l0 24 0 208 0 24 48 0 0-24 0-142.5 133.7 158 7.2 8.5 35.1 0 0-24 0-208 0-24z" />
-    </Icon>
-);
+const SquareN = createIcon("square-n", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABbgAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBcwsIAAE2AiQDCgQgBYMtB0wbEQXIhof/XzPv+zPJ2Z2UYQqMighc3dbuugI7sq2qiiugB5KsqjNxzfMvfHrAAuAsa5DyylWcT2DnA5nPC7CEZjoD29uGNBqS+EIio0KkscrxukAeD7IWFdKN9AZt9D+A8UtvLSTNGYDoBIBFm9evVP8W31K8aTwl3liBgFgMSoEMGfoJMFcm0E+uRC4XfEuNBt+i0SgJIKroaTJQRQXbcRCQgySkPB/WPKxWaZ9vqlWKw0WtEGJT9IgihBC14GBjdBc7soTp9pFFu421ojYBNmo1o1S4gE1qAY8Z/LjT4z+D3hx6Y/WCiRMn9tLmyh1HDNHLB71M1EurRg5b9+tMVVc/vXuIfGQht5m44g5xWKOtrgcCwcdZN8rdHef+b6ol8OPZv5/1h6TxLerpMZokEGRjG2PtiDpEXQAAUlwyOOrOIJAZL+FPbeeqAKFAgKSqECDTVycBcoUxAlQMME2AqsJ6mcibhW52Njxp5yyeme4ynuvmCV4x1/OwqltkIcYGCPvDS1reA8uOlZPGTyxnl8uWcFFD4/6c0myNvJTnRsFZh5x2ygUHHXDUhQ47Z2Vy0UnLd+gyX1SaZLyJSrOV7uFR2pTCc847Ohf8h8xRng9GurRfPQpOkwCTL6eUESmyTu80GHdqXKwaXZTwKgEAAAA=");
 
 export default SquareN;

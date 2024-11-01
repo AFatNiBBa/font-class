@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side?s=solid head-side}
  * @preview ![head-side](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/head-side.svg)
  */
-const HeadSide: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 224.2C0 100.6 100.2 0 224 0l24 0c95.2 0 181.2 69.3 197.3 160.2c2.3 13 6.8 25.7 15.1 36l42 52.6c6.2 7.8 9.6 17.4 9.6 27.4c0 24.2-19.6 43.8-43.8 43.8L448 320l0 64c0 35.3-28.7 64-64 64l-64 0 0 32c0 17.7-14.3 32-32 32L96 512c-17.7 0-32-14.3-32-32l0-72.7c0-16.7-6.9-32.5-17.1-45.8C16.6 322.4 0 274.1 0 224.2zm352-.2a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const HeadSide = createIcon("head-side", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABaAAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBWgsGAAE2AiQDCAQgBYMtBzAb2gTIjtRG94xd4uF5u77OfVVf1WPU2My0AtPJVlAqxJ0htfjT3/zzzqN5/iyy0Ma0pYEs76I5zxNINBtLIC37YN/0C9g3d7WEx7T2k3SJJXn85vG0Qx7PZpeqId2V3sMN8qHxq/YuJWnIAEQzAExbs2KRl36KnyLerUa8awECYhooBTJk6CTARJlAJ7kSuVzwU1Sr6T+wJICopQ9NIEeO5VgLyEGS8nxMy0pN43x1paaIR0ZEXFgQ8e6cSny+6P1Vd7WeFrc53+rWoghxZ98nexYhcMbVbW6PiLs7vLK68TVtI+6Ii+L9xdWtbnW+9W2V7k83e/p37+1+z0+NP+HlQXT+qZ25Dh5sPLPHi7e6p2nLd59r2cpURfPmD05VanLllU1eCq556v/9zsKtTHBlE6GQgbj29VXbv9vSdOL/9ZUEfnnmz9VfUfWlJD2NegkE2cDqQBsTSAQAIMVp3RMEkvkSeWsjtwsQCgRIahUCZDpqJkCuMECAGl2MEqBWYYVM5A1CK5s6SBo5BjKjnQG5Vi6AGhO9adZqFZlXsT7B/umSZiM0a6wcNnhoOb5c+hrnKDT3J5TbSt/TOdePJu12xGEn7bLTPicBOW6Rc8ohsy14li8qDTPYUKXxyuPoUVoN5nEn7JsL50MmKO8bfZ22q/uRnijlcJ4kEanB9eRB7w4A");
 
 export default HeadSide;

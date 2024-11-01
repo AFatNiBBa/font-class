@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `highlighter-line` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/highlighter-line?s=sharp-duotone-solid highlighter-line}
  * @preview ![highlighter-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/highlighter-line.svg)
  */
-const HighlighterLine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M48 400c4.2 4.2 8.5 8.5 12.7 12.7l70.6 70.6c4.2 4.2 8.5 8.5 12.7 12.7l80-80 96 0 40.1-55.9L183.9 183.9 128 224l0 96c-26.7 26.7-53.3 53.3-80 80zm176 64l0 48 24 0 304 0 24 0 0-48-24 0-304 0-24 0z" />
-        <path d="M544 104L360.1 360.1 183.9 183.9 440 0 544 104zM4.7 468.7l56-56 70.6 70.6-24 24-4.7 4.7L96 512l-80 0L0 512l0-16 0-16 0-6.6 4.7-4.7z" />
-    </Icon>
-);
+const HighlighterLine = createIcon("highlighter-line", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBWQsIAAE2AiQDCgQgBYMtB1wbBwXIHoexY/pINpJlVcdHpQjq1z573u79IwrBhpkVkI9C4RhUHAsVdRVJMo6S+eE9/uf/cnzvbNMBfqNDG2uBXBNwTl0CiV3pWJZIL5AsU8zapn+iBnmxiojiI7LQdqGt7QJ5/MmuKCPdSnC1/A9g/NDeFZLKDEA0AGDamhWLvGuJlhRf/j8nvliIgJgOCoEMGToJMFEm0EmuQC4XtKT/tMT/ggCipCAZvYQXzMcGQA6SJOV5ZXPnyuqy2nx1OLfqxMo1K1fHmlh1dMXSFauib7SKqqpAU9sp11pHAFp18GLrNVEdM2J1LAxxu288dZVQXRtR1f1uw91f3eym65pXLnr0iDbZs6fDwTP+o2fNcsZI5VsbNCg3w/8RI2jsPmuWVatYssRWZzx65IytRszsPuLRlKFDh7abO1Q7IBAcXnjg65Ym/q6oTuDb27/r8/6/S1PTXVRIIMgG/h9oY5oKWA9QSXFad+OrhgpkekvkXWtcFyBUIUBSUiVApqMGAXJVBghQpotRApRUWSETeaXQyqYOkhrHQGa0syDXyjNQZqL3RUmryFjFcYL7qEuePcKz9hXDBg8txhfblsYThcmrE4pju+/pNNJPjtrtiMNO2mWnfU4O1HGLaqccMtsiZ/mhwjCDDVUYr7juPpevtstxJ+xzxGHdZYLi+byv0/b0fuIllXa4kkxGpMjacW1t1/FBv5vgKTq5w1J8IQEAAA==");
 
 export default HighlighterLine;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-ramp-couch` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-ramp-couch?s=sharp-thin truck-ramp-couch}
  * @preview ![truck-ramp-couch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/truck-ramp-couch.svg)
  */
-const TruckRampCouch: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 0l8 0L632 0l8 0 0 16-8 0L368 16l0 375.8 50.1-13.7C428.3 326.7 473.6 288 528 288c61.9 0 112 50.1 112 112s-50.1 112-112 112s-112-50.1-112-112c0-1.6 0-3.2 .1-4.7L18.1 503.7l-7.7 2.1L6.2 490.4l7.7-2.1L352 396.2 352 8l0-8zM624 400a96 96 0 1 0 -192 0 96 96 0 1 0 192 0zM318.4 194.5l1.6 6 0 19.4c-2.6 .1-5.3 .4-8 1.2c-18.2 4.9-29 23.6-24.2 41.8l2.3 8.5 4.1 15.5-15.5 4.1L112.9 335.4l-15.5 4.1L93.3 324l-2.8-10.6c-4.6-17.1-22.1-27.2-39.2-22.6S24.2 313 28.7 330l21.8 81.2 47.9-12.8 15.5-4.1 .1 .2 179.7-48.1 15.5-4.1c0 0 0 0 0 .1l10.9-2.9 0 16.6-6.8 1.8-15.5 4.1c0 0 0 0 0-.1l-15.5 4.1-164.2 44L102.6 414l-.1-.2L87.1 418l-32.5 8.7-15.5 4.1L35 415.4 13.3 334.2c-5.4-20 2.8-40.5 18.8-51.8l-2.8-10.5C16.7 225 44.6 176.7 91.5 164.1l119.1-31.9c46.9-12.6 95.2 15.3 107.8 62.2zM214.8 147.7L95.7 179.6c-38.4 10.3-61.2 49.8-50.9 88.2l2.1 7.7 .4-.1c25.6-6.9 51.9 8.3 58.8 33.9l2.8 10.6 15.5-4.1 134.9-36.2 15.5-4.1-2.3-8.5c-6.9-25.8 7.6-52.3 32.7-60.6l-2.1-7.8c-10.3-38.4-49.8-61.2-88.2-50.9z" />
-    </Icon>
-);
+const TruckRampCouch = createIcon("truck-ramp-couch", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABtgAAAL4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDYQsGAAE2AiQDCAQgBYMtBzcb6AXIjsK22XNYWYmMEVnrEj+Jh+fX8Z37ZhbwLOwkskmNDa4/lKVD+n83wo3w/GP3ed/SM7MCTi+oBxGihlVu6pxUcfX/53LP7/ltwM9HcGhj06xA1rYxFmEiewLHvUCyQDHGzra9OKK+fiMUGmfI47cmypEu6L0EZ9yXio84cRCSLAMQNQFgZOm0Ce4cyIHIc90lxHMyISBGAgWBDC9pSoAhZEJzfa6AXC4oFd1/5z+wIIAoz/8hCeQoj1egDEAOkjzPO7vM9zU3rJbPNDesvMrcrJqoXDXFeDkacjHhUtB5t0OB52IvB19wH5U6cRBVNGkU/YgVo84iF/3PmM35nnLcYcRp1++0+XzAWZd9aVDUeuK4w4bDhqKEIg5StCmsypa6NZBeLAmiCTGLqqMBV2F1xUFcpgrWfZc/WiJ7IWocCbmYUCpXgs67lRTNmn7VccdJCYkbfpuZrh2Qqsqey36A+pg9fL1v21z44fWi5SW1d0xMChvx0t004/DTryvfvv6rUePf12/0/pSd6rKF4WxhSqWDmNQ44/wIHlZ1NXJaX/XwkXOjRHh6vlD8J9WR9/jQ2TlUM5wPnA7hFxk0Zsjp0+8eVFR0USbziZ+Ikkg+AC5hwxLs/cnJEKX+s/bMoF4ei8aD2GbllrzTgwHvvq2t7Iq54A2+fP3arRF6m/yf2okPTPnwC43RIyPtVKcGT30GCARdV65GrXXq74pVEnh//et387jR/ztpRO8CqCiBIOui62K+3ghGCKYA4RQ7aTXxQYHkEQb8cFVnERwNlakgKa8yZJpQE3KVdYZymtOXWzh5GpnIKwl1WYAhqWoLZPpxAHJ1KYFyhvA4VF5d0QdsASyF78rUcU1k7LgiqluPYlAxWlKIsMpZo4OLxUbgTtnSES+0kk1sZDsrWM4atjforUyI7mAD46bQsXyRgp50owcFgyg2V++qM2l4K9tYMyxuNxgsqh/vpQM7p7t3xHbis/YiK0lEqvnmRroO1G/Y/F9Ac9lqAAA=");
 
 export default TruckRampCouch;

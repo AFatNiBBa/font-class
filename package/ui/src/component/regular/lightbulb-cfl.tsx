@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-cfl` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-cfl?s=regular lightbulb-cfl}
  * @preview ![lightbulb-cfl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/lightbulb-cfl.svg)
  */
-const LightbulbCfl: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M165.8 47.3l-128 32C25 82.5 11.9 74.7 8.7 61.8S13.3 35.9 26.2 32.7l128-32c12.9-3.2 25.9 4.6 29.1 17.5s-4.6 25.9-17.5 29.1zM311.3 82.2c3.2 12.9-4.6 25.9-17.5 29.1l-256 64c-12.9 3.2-25.9-4.6-29.1-17.5s4.6-25.9 17.5-29.1l256-64c12.9-3.2 25.9 4.6 29.1 17.5zm0 96c3.2 12.9-4.6 25.9-17.5 29.1l-256 64c-12.9 3.2-25.9-4.6-29.1-17.5s4.6-25.9 17.5-29.1l256-64c12.9-3.2 25.9 4.6 29.1 17.5zM144 384l80 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-40 0 0 8c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-8-40 0c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32l0-77.8 48-12 0 89.8zM311.3 274.2c3.2 12.9-4.6 25.9-17.5 29.1l-64 16-5.8 1.5 0 63.3-48 0 0-81.4c-.3-11 7.1-21.1 18.2-23.9l8-2s0 0 0 0l16-4 64-16c12.9-3.2 25.9 4.6 29.1 17.5z" />
-    </Icon>
-);
+const LightbulbCfl = createIcon("lightbulb-cfl", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgAAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCKgsGAAE2AiQDCAQgBYMtBzQbLgXIHoexG6clNsPlNT7i4Z+1//0+I8hcXAZ3baJS8Uoj0eBb6G/96narlrnMPicud/626X37FnqUNey/NXlMHGOcJ5BYl3aBBFKUBZZpAtbuopbMQzQPSbZ0Jo/fHl93yGJN3JaTPEm+xK34ofGN1s6TyFMA0QgAk1YsmedDTdREfFFFfGEOAmISKAVSpGgnwFipQDuZEplMUBPVKv4HlgQQtRCYeHaG2jiKc4AMJPIsa1C/fq+2lbx+trySF2uWrlj6vM3THiviVesnXZc96bo0+Ap8/NJKUbnW/AFxutn9ogjxuOvLNhFFXG3xMCLOtHxUiRgRVjzpOjWahSER8axHSy2p+YYZ8ap157eN3n7XqV7cPtURiku2DpsOPiu/3XnY9OoES7au2ciTL79aSC0NLl9uUDKcnupovmhR86OeBs3z/WP1y337L7PIBAMtEvkh8IuqJVuBQNDjq3c3NBz7W51KAr5+/8Pv5WeUVz/EmOQt6khAkPat9rU2jsvlMUYAAJI4rnNMlAsk9srRu9bzUIBQIECilkKAVFuNBMgU+giQ62CYALUUlkhFVldoZl1jE/UcYlPDnWAzzbxjc2N9LNXSLFLtM3XH/PvlTZfAtHPloP4Dy9HldKhaCqX74zHlcdDzuFvqBVdtd8B+R22z1S5HBX7YvOox+0xfYdN8UWmQ/gYqjVZeT+4vL7fNYUfscsD+cMoY5ftcT8fXm3tBNEGKg3UkEiKpr5Btm4/t3dxvy/a9AAA=");
 
 export default LightbulbCfl;

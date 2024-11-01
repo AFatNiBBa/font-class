@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-snow` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-snow?s=sharp-regular cloud-snow}
  * @preview ![cloud-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cloud-snow.svg)
  */
-const CloudSnow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M368 128l0 48 48 0c26.5 0 48 21.5 48 48l0 48-48 0L96 272l-48 0 0-48c0-20.8 13.3-38.7 32-45.3l32-11.3 0-33.9 0-21.5c0-35.3 28.7-64 64-64c21.6 0 40.7 10.7 52.4 27.2l26.7 37.9 38.8-25.3c7.5-4.9 16.4-7.7 26.2-7.7c26.5 0 48 21.5 48 48zM0 320l48 0 48 0 320 0 48 0 48 0 0-48 0-48c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C247.3 18.8 213.9 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 48 0 48zm88 32l-48 0 0 24 0 16-16 0L0 392l0 48 24 0 16 0 0 16 0 24 48 0 0-24 0-16 16 0 24 0 0-48-24 0-16 0 0-16 0-24zm192 32l-48 0 0 24 0 16-16 0-24 0 0 48 24 0 16 0 0 16 0 24 48 0 0-24 0-16 16 0 24 0 0-48-24 0-16 0 0-16 0-24zm192-8l0-24-48 0 0 24 0 16-16 0-24 0 0 48 24 0 16 0 0 16 0 24 48 0 0-24 0-16 16 0 24 0 0-48-24 0-16 0 0-16z" />
-    </Icon>
-);
+const CloudSnow = createIcon("cloud-snow", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABlwAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDIwsGAAE2AiQDCAQgBYMtBzEbpAXInge225RKuNU4Hqmwiofn5/o89yXzIVnI8vzFLHEWiBRyEV1dFSBN64gdCwdkCWynQt6rA7DNmrv3TX8/z781pbXRR+ttVukV3nU+0AL8j3bTKCrw2UB2M52ATd1UFRSVaj4RKULLGDvOwvj37QB5fBD3aJEeTV/j7v6m8YsBt5K0MgBRAWDT4f37fPpj/BjxVfct4it7EBCbQC2QIcN4AdbKBMbL1cjlgh+j203/gTUBRA/AyfU5evEmPgTkIGnl+azJLlG2BueH6m7FJUIZL456cEAUgyKenjkzAHx87msz35o9P9bEw6XCOVMWQ0sinprTWT7sbpv28fY3Z70yXryQwW3hYFEWQhSOLUvhCjjLtlhRRIToOiyMGgSe0qk6v/mar12zocHTNd+aNZprG9U3Y7Ri2LBnqoEXXerloc23jbzmk6bRaPR1Oou9awY/++f/h4723pjewGkOT2o+bqtU7Ua7qrQ1+Jif1HBvu71bpttBIJj45uTe00PX/tdXJvDz+5u/ou6nSeqgTwJBNq87z4kEEgEASHGzKQkCyeta8KqDPCRAKBAg6VEIkBmnEiBXmCtAy0TLBOhR2C8Teb8w0skoJ4NcJ2eWu0XOjfSG3LLWZ6keIyOzXN3u9A/HnNs5tG1dvWhBU6+uxZplGKPaZtfUl92zbs49s/1WF7vG1W50kQsucyMjr7cve5OrbNeIbb6otsgCjdpq9e3m5+ZDLnK9G1zmGlfTPGvUz8dnuVkfPtv7EiguVpYkIhW/MHTNfycA");
 
 export default CloudSnow;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial-high` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-high?s=thin dial-high}
  * @preview ![dial-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dial-high.svg)
  */
-const DialHigh: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272 32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM288 296l143.8 0c-4.2 75.8-66.9 136-143.8 136c-79.5 0-144-64.5-144-144s64.5-144 144-144c76.8 0 139.6 60.2 143.8 136L288 280c-4.4 0-8 3.6-8 8s3.6 8 8 8zm160-8a160 160 0 1 0 -320 0 160 160 0 1 0 320 0zm96-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM16 288a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0A32 32 0 1 0 0 288a32 32 0 1 0 64 0zM96 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM464 96a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM96 464a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm368-32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const DialHigh = createIcon("dial-high", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAAB5gAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVyETAsGAAE2AiQDCAQgBYMtBzAbTAZRlKvFFtmXBzwcraMMhaoahlA1W5fU00e/1kdwxHExhEXvwLXcj4fv9/v92ude1JJn06SetBKaWMg0SJYgk7JNF6tkvqT393P7mrc6f7ckhkkWrSRRb8RGKDTACTeCUBK7SCr3i4V+iHDbfZ0hViVbHeY58vPneu8vyzbaFMLTdsCfLgtTSzOET/gSEKI97fDe/7if59++//u6ejzQLNJxJFVbNGBE4QQGOOqi6c53nsK2cXOYX0xCYoT29CPk8WKEk27IA+TcjY8fkg8kWcbhUes5Te9srPv98DPioXAQD2qQgJgBhA4YGTK0wGAMFWjBdEByueATC2/+A0tQAFEMosmmHPVQBFHFdBRJbc5GkuN6URoLKZzGhvIRcjEtxtkoneQKzREnqpGOkI11s5hKrMjKfD7f3/Var7bb91kulYw7CeMsop1jOx75EX7frNFuhoNuTqd+J9Fdr0wLaBaIU6H5jXWWL+V/hdWEG+ncwMt9u9+8CLf656eeyeqvrgFnrvrM0V7Si293Tu8e1aTe/sdcli9giot3Z0LXHGhzfrPT0Ya5rkEa83WDz+oHc7G+a9pfq/f5Est7Urmt3A8EgqaRt+8GY7+iksD38X91O4U7mSL3gFIJBFl3oaGVpgDBqDEQTXEK5sYPBZL/hGJvpcur8VBOB0mxcsg0EyFXrguKtEkeUazcBiryMqFRWwdJpQPIjHpDrtEXioz5R4o1BhMclJ5Z+TGabmGIzA/riAYRyMFqWqPy4XLdnofDRuvCy2w408TWxsnYyNxpgB004mdrxS3awndBVCAC5MDl3NPJTWMHR3NbGztIHjzvtVy2a9vQQsRCByUkiUhlPyvQ9wQd");
 
 export default DialHigh;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `print-magnifying-glass` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/print-magnifying-glass?s=sharp-regular print-magnifying-glass}
  * @preview ![print-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/print-magnifying-glass.svg)
  */
-const PrintMagnifyingGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176 48l0 112-48 0 0-112 0-48 48 0L448 0l64 64 0 96-48 0 0-76.1L428.1 48 176 48zM295.3 368L192 368l0 96 186.2 0c21.1 10.2 44.8 16 69.8 16c16.7 0 32.8-2.6 48-7.3l0 39.3-48 0-256 0-48 0 0-48 0-64-32 0-48 0 0-48 0-112 0-48 48 0 240 0c-17.2 12.9-31.7 29.3-42.6 48L112 240l0 112 32 0 0-32 48 0 96 0c0 16.7 2.6 32.8 7.3 48zM448 400.2a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0 48c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128c0 26.7-8.2 51.4-22.1 71.9l63 62.6 17 16.9-33.8 34-17-16.9L520 426c-20.5 14-45.3 22.1-72 22.1z" />
-    </Icon>
-);
+const PrintMagnifyingGlass = createIcon("print-magnifying-glass", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABfgAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCIgsGAAE2AiQDCAQgBYMtBz0bLwXIHoVx41MuKOUUFz1DJvOPh6/9fufuk/mz74M3z6bJQ/VKKKKJEiBZqoRKKQzVs/vPj3vP/d6clPYmv9loi3ATXILj4hIr5H3q1POchwL457kIBm0s2hqQMXXNjnVegYr1amsCbaq1Vqso1trZL3746BYDn5QnGbbPsClrKOObriEm3QuewFV603ihqReSqgBAdAMANvZiwnD2TM9Bj//bEI9CQEBsAEYRChQYRGCZUGCQyCgolYIn+v8P/4EMCCBq4FIJlKhxAS4BlCApS5G6mdKQQqUkim/E8ilIDvgUlKICoWe4U07KCvKIhqYV+gxBWZGISF6epgIKc0bygWjoMzo143YtVy1W7LfMlsyX7XDjTnGiM+lxGnDtdqw9YRRFxrRMY7QZc/I6C6oLn57yn7B6VVlZyVGJ493/yMSFsvFT71FQUJCJA/8GmvmG4DMcntiMzP/Zr3CtEsPwfc38Ea2z+oSEuvPzuvz0+jMe6QPM15WNT1SUj424Ff4O6AHv+DAGIBA8fLVJM7pcv2SNAPB8MO+v83+WmtMCoCWBoJj4N0Nq6oQOiYFBABpS1NP5Kk+E5IAIXrXtBoGQESCpZQEKA1QRKGXjCFSG2SFQy7YIRSmH0C9NQdJ2AgpL2kCp3yaoLLvVa/1ReB7lN9S7L96/hfwmMSsLzpzZMFVoZyJk1IUtS0b13GJMM5GvQrlaeXIVqW2QamFWnTL+FuznhxgrFjjGGdsu7qfHy1OtRpEK5XEcF+y8ZqTe7m5MqgBw5wSSRCQ1nxXMP88V85uqUmB+3wAAAA==");
 
 export default PrintMagnifyingGlass;

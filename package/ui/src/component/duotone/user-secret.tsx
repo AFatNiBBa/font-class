@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-secret` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-secret?s=duotone user-secret}
  * @preview ![user-secret](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-secret.svg)
  */
-const UserSecret: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M112 167c2.6 .5 5.2 .9 7.9 1.3c2.6 .4 5.3 .8 8.1 1.2l0 14.4c0 22.1 17.9 40 40 40c4.1 0 8.3 0 12.4 0c16.5 0 31.1-10.6 36.3-26.2c2.3-7 12.2-7 14.5 0c5.2 15.6 19.9 26.2 36.3 26.2c4.1 0 8.3 0 12.4 0c22.1 0 40-17.9 40-40l0-14.4c5.5-.8 10.9-1.7 16-2.6l0 17c0 61.9-50.1 112-112 112s-112-50.1-112-112l0-17z" />
-        <path d="M224 16c-6.7 0-10.8-2.8-15.5-6.1C201.9 5.4 194 0 176 0c-30.5 0-52 43.7-66 89.4C62.7 98.1 32 112.2 32 128c0 17.8 38.6 33.3 96 41.6l0 14.4c0 22.1 17.9 40 40 40l12.4 0c16.5 0 31.1-10.6 36.3-26.2c2.3-7 12.2-7 14.5 0c5.2 15.6 19.9 26.2 36.3 26.2l12.4 0c22.1 0 40-17.9 40-40l0-14.4c57.4-8.3 96-23.8 96-41.6c0-15.8-30.7-29.9-78-38.6C324 43.7 302.5 0 272 0c-18 0-25.9 5.4-32.5 9.9c-4.8 3.3-8.8 6.1-15.5 6.1zm44.1 496l149.2 0c17 0 30.7-13.8 30.7-30.7c0-57-29.6-107.1-74.2-135.8L415 242.4c.6-1.6 1-3.3 1-5c0-7.4-6-13.4-13.4-13.4l-59 0L273.7 490.5l-34-116.6 17.8-29.6c6.4-10.7-1.3-24.2-13.7-24.2L224 320l-19.7 0c-12.4 0-20.1 13.6-13.7 24.2l17.8 29.6-34 116.6L104.4 224l-59 0C38 224 32 230 32 237.4c0 1.7 .3 3.4 1 5L74.2 345.5C29.6 374.2 0 424.3 0 481.3c0 17 13.8 30.7 30.7 30.7l149.2 0 88.1 0z" />
-    </Icon>
-);
+const UserSecret = createIcon("user-secret", true, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABtQAAALaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDIAsIAAE2AiQDCgQgBYMtB1IbxAURlZsi2VcJNhxi7Wi/1G+W0azowTqWs8aYL8bzx5gpnuPh//fHt8+970tNAyZAjUmMU7k6k9EBN4f+Ucd4zWxWSfhqTXcDdPniXQhQlTSBjiuDC9gCg5B1qlPfoXNd6KKtKVrgNpqOu/5Jqt/BKgFXyPwf91N/nH/6gI+/e1QMpM4j6nwCO58mRgINeD4bqE1YZ20OF1s6ERoiDhE6nsfa461h6gJFnMlTQTqRYF/5H8B4o80OkpoMIJoBMGvpwgWedkVXitflTeK1+QiI2aCfQEZGLwGmygK9FPqhUAi6UlnSFWXZjwCiUnnPDCpRgat4BChAkkRRtClOCZAKTtBTVyEbPKpUcctxobrRfdgu4D/4Mg64hW0SgtfabVJju3YSNeW2FuPbea3cclwljjx7jgu6jlXcoP11tUQch+uBp0xvHMMthSz6YkkMiWMKirWyeIO5cVGsiFpj2Rrrjru+BxgtDm7OJrsntNfIyoElg5+0rQQ87bqJfXnuDDjgfMPdL9F5ZV2htLX8XXMw0TGHaqjsfdVB4/37RrmT41RYQY+fyKHxwh0wvnbuciQ9Z/xH+t/WAQhdW7y/f5Mrlznv6Ch1lcBMXrLQUsu8mSo5oXWLRNdaJ2QNzJuQGlkvdXx0rSONiXg9JZtwtMaCkSMvjO4A1/B0mwFhNG24w6vH1/Og/r+PH/1vagEQQIBnUT2ylp36rbqOB4Ce+9qfLp/G03QegGo8gAB5aDnUUDyFTA0AuRQzLPFR60EgW4DUTL0tdyHIACERkUGm1QAFGS9UMIjTxs2dMCykgKhhAo/cOPAlLIMA9Q5COT9ZERo5ctm4Y/8bk9IWJ6uMJBAyZUynDQcXjLRczJrMlj2zDLjTQdA77F46rcmrIW954W2TKoL4IkNYQIhJhsndvt9d6Nwek8OOZbJM4zMuM3q8O60HATD6mZfwQSTkN093NXgjtOAbGJJ7YboD");
 
 export default UserSecret;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-simple` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-simple?s=regular chart-simple}
  * @preview ![chart-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chart-simple.svg)
  */
-const ChartSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M240 80l0 352-32 0 0-352 32 0zM208 32c-26.5 0-48 21.5-48 48l0 352c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-352c0-26.5-21.5-48-48-48l-32 0zM80 272l0 160-32 0 0-160 32 0zM48 224c-26.5 0-48 21.5-48 48L0 432c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-160c0-26.5-21.5-48-48-48l-32 0zm320-80l32 0 0 288-32 0 0-288zm-48 0l0 288c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-32 0c-26.5 0-48 21.5-48 48z" />
-    </Icon>
-);
+const ChartSimple = createIcon("chart-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABgAAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCHAsGAAE2AiQDCAQgBYMtBzMbHwXIhof/1vy6r6qT86fzB7mGARcAPRBZIBW3LNyyRQUy83+553fbD/CLnx/KnK2tY/rezwOKAkyzSW2RLLBME7Bsm9FBRgThFg0SKSUNm/yw/RmqeCke1yC9kL7HY/1D4w9DPUrSyACiDwDWHNq3Q/vX+DXiu84nxHe2ISDWgCKQkTFCgOWywAiVgkol+DU6HfoPLAQQTUwml1fowk24A1CBpFlVPYbldKvRszpYX1YfSznVkaM18+0BEU8PSfHCwGcmtOK9wc8Nz/HioGcn1vsFHQs6OMrOtepWirI+1ymnazU8LG0f+2GfD/8a8/3F7/1zw2neqzitdGb/yA/5tPzDj7MLoVD4gX9eR6p43cZeVxBZtatAk1mwaNKWCjwPBIL8f3XPqd7L/+1qJfD7l//8N35GOr9GO32ILgkEeXpnuuPRhmgLAECK242NNgLJFU38rt2eFSDUCJA01QJkw/URoFKbJkDDKAsEaKrtk0XVQxjgBEDS7SaQLXQfqAzwEWhY7qts04DIYScGjfjTl7ZRQhs2lTkzZ5elRW2aUiTxbXlZOfZMvr0MTUk7XXSD693qgvOuuFVQN9tRuM11Nlq0DV9UzDHTbMVSxd151Q6K7M1ucWWv+FdZprxPTHa7PXlK8ifMOFdFkojU/cGZMyIXAAAA");
 
 export default ChartSimple;

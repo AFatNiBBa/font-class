@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart?s=regular heart}
  * @preview ![heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/heart.svg)
  */
-const Heart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
-    </Icon>
-);
+const Heart = createIcon("heart", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdQAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCEQsGAAE2AiQDCAQgBYMtBywbDQXIhuB5u/+qc7sHcP+REMGMoAjwyo7+bspoZ7N583+557cWHeA3OqS99ECu8jHm8wQCzHrZ2BgFlAWWaQLW0bynBijEC21nyOP1OKUC6XL6AifDh8afmjhMUiEDELUBMGr29GneKY/yiM9LLxKfm4KAGAUKgQwZmgswVCbQXK5ALheUR6kk/gMLAoiKEpm4Ob1zPXYBcpCkPO86oFqFGvksvl/VmQ0bNJwVb82KuDvi6QkfTzvf4GIjhR+IA78e92G3N8vED0NnRP04V/VIw/kHGsZq1DmqvR9r/1DbFzo+0lxc7zQzZsfjrSJudH6sf4ge6Hg31zEO1D9wZ3Prx2o/9nfZF6u+8Hu9svSMp+74y8hMhUr3Jv9W95cnZu0cOx3q/jr5/0oVMkb+tf9wmc/r1Pm8+migHqi3e/e59vPm5plq95Goi+9Xy+Rz57U/tzlUz79oVdWqq4BAsOPXK58srjX0v8rVEvjjtX/vaX5FpfIkPYbKEgiyrqWuFiSQCABAil1aJwgkyyXpXau7IECoigBJRVUFyDRTW4BcVV0EqKClfgJUVNV0mcirCPUtHEBS3VaQ6W8PyNX3PKhgqI+ziupHBnAKuCj/e5njp9C4dUWv7j2LwcVuU6fCkGSXhxSXw4675FAnvNMqm22yw0orrLVjwm8zrbDTRuOPuHG+qNBLdz0VBised15un2WlbbZba7NNfpUhiu/TjnYdT+6EkyQJ9laRJCJVgHk=");
 
 export default Heart;

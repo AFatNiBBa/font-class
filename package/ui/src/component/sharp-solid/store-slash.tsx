@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `store-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/store-slash?s=sharp-solid store-slash}
  * @preview ![store-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/store-slash.svg)
  */
-const StoreSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M579.6 103.8L512 0 128 0 94.8 50.9 48.4 14.8 29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7L544 399.6l0-15.6 0-131.4c-4 1-8 1.8-12.3 2.3c0 0 0 0-.1 0c-5.3 .7-10.7 1.1-16.2 1.1c-12.4 0-24.3-1.9-35.4-5.3l0 99.2-179.1-139c7.1-4.4 13.5-9.7 19-15.8c15.9 17.6 39.1 29 65.2 29c26.2 0 49.3-11.4 65.2-29c16 17.6 39.1 29 65.2 29c4.1 0 8.1-.3 12.1-.8c55.5-7.4 81.8-72.5 52.1-119.4zM112.2 223.2c4 .5 8.1 .8 12.1 .8c11 0 21.4-2 31-5.6L48.9 134.5c-6.1 40.6 19.5 82.8 63.3 88.7zM160 384l0-133.4c-11.2 3.5-23.2 5.4-35.6 5.4c-5.5 0-11-.4-16.3-1.1l-.1 0c-4.1-.6-8.1-1.3-12-2.3L96 384l0 128 432 0L365.5 384 160 384z" />
-    </Icon>
-);
+const StoreSlash = createIcon("store-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcgAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBfwsGAAE2AiQDCAQgBYMtBzIbAQXIhofn9aI/9yUzCygLiR+upAp2z06o+D/XfH5pRwf4+QgOJRp70VZBEfl8AhNNWwNtNJCBTSdoe5uICgYFUV8h0iY6To+vE+Txd3ZGiXRH+hDXxQ+NHzRyhqRSBiBqAmDk/NlTvfp1fB3xwf9PER+YjIAYCQqBDBmaCjBEJtBUrkAuF3wd///P/4EFAURZen0COUpYgW2AHCRZng+oUq9KqVo+r0qp8u55c+dVjRExLNpFl2gbO0nvLua8QO/NdU9irPKldnTebQ0e7vtMZyi93OCZFnd2W3FLlcJ1yNs7xueGuG/jofoRt9YXolrMi8qtHqn5yE8tP1z3odHzR6/PR05IvtPNW7oZ8gI9YcogNZ02YwY7KtXOV3v8kgcOXN6x4/LlE+UZt/35/Zgv9s0o1/pq4yzDKlXKu9911r8lr1NxBzNmnHbCo+4+7mMgENzTN0/Lawz5q2KVBL59/pef+Lv/fzWdSI+gogSCrMv/XSxJJ4CZAfykFPu0SicQSBbI4LGqbhUgVEYgKasMmSZqQq6yzlDSXN/jZZXNlom8klDXUoGkqp2Q6eco5Op6AkqGeCdZVjcyO5OsRPrmpY/TyNhNRc9uPYpBxbSlyqYjhNXBxbHRYZ8b6QhbrbPdNnustcZGexS9y9TMXluNW1FjfVGhp256KAxSXHdv9XmU3GW3jWP1fp3BivehDvatp3cEO0msvVQliUhV7Lao6+4tK3dvAAAAAA==");
 
 export default StoreSlash;

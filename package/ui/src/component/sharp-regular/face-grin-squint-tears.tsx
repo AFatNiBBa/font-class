@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-squint-tears` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-squint-tears?s=sharp-regular face-grin-squint-tears}
  * @preview ![face-grin-squint-tears](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-grin-squint-tears.svg)
  */
-const FaceGrinSquintTears: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M442.3 98.6c-.4 .1-.8 .2-1.3 .2c-13.2 2.4-25.4 4.1-33.1 5.1c1-7.2 2.6-18.6 4.9-30.9c.1-.7 .3-1.4 .4-2.1c.8-4.4 1.7-8.9 2.7-13.3c.1-.4 .2-.9 .3-1.3c4.1-18.5 9.6-36.2 16.6-43.1c17.9-17.9 47.1-17.6 65.3 .7s18.6 47.6 .7 65.6c-6.9 6.9-24.5 12.4-43 16.4zm13.5-2.7c-4.5 1-9 1.9-13.5 2.7l13.5-2.7zM403.1 403.1c73.3-73.3 80.5-187.8 21.4-269.1c10.8-1.6 24.8-3.9 38.5-6.9c4.1-.9 8.3-1.9 12.5-3c59.2 98.4 46.4 228-38.5 312.9c-84.9 84.9-214.7 97.7-313.2 38.3c1.1-4.1 2.1-8.2 3-12.2c3.1-13.7 5.4-27.8 7.1-38.6c81.3 59.1 195.8 52 269.1-21.4zM75 75C159.9-10 289.7-22.7 388.1 36.7c-1.1 4.1-2.1 8.2-3 12.2c-3.1 13.7-5.4 27.8-7.1 38.6c-81.3-59.1-195.8-52-269.1 21.4C35.6 182.2 28.5 296.7 87.5 378c-10.8 1.6-24.8 3.9-38.5 6.9c-4.1 .9-8.3 1.9-12.5 3C-22.7 289.5-9.9 159.9 75 75zM98.7 441.1c-.9 4.8-1.9 9.7-3 14.6c-4.1 18.5-9.6 36.2-16.6 43.1c-17.9 17.9-47.1 17.6-65.3-.7s-18.6-47.6-.7-65.6c8-8 30.1-14 51.4-18.1c2.1-.4 4.2-.8 6.3-1.2c13.2-2.4 25.5-4.1 33.1-5.1c-1.1 7.6-2.8 19.9-5.3 33.1zM300.4 300.5c35.6-35.6 62.6-74.8 79.9-113.1c32.5 52.1 24.7 123.3-22.6 170.5s-118.4 55.1-170.5 22.6c38.3-17.3 77.5-44.3 113.1-79.9zM75 278.6l129.3-38.8L165.5 369.1l-12.9-77.6L75 278.6zm164.9-74.3L278.6 75l12.9 77.6 77.6 12.9L239.8 204.3z" />
-    </Icon>
-);
+const FaceGrinSquintTears = createIcon("face-grin-squint-tears", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABqAAAALLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDGgsGAAE2AiQDCAQgBYMtBz0bpwUR1ZqnyH4kpts4ZNf1vSVLllwJ4nm7qt7v7h0vqRM1e4BDiBmIiNHFk/i4tQqbQ1JZxK4RMrTXd/fp76f+XAbgC/KhRFvqB1kU7T4t67zBBhhtFZjnA55NFDc4b/IhhaKQfgC6XJWNGKB2qQfABofJL4JYGlYYGg4gnrABVPXq1satL/JF5L4rSA6nBRAAqQIgEgE08H1CEQBK0RAgFJ1IQEdH4Iu4XAT4HwgQABA38GEKAB2wAnuAu9C1Td1s1vUwc0hIkMNisRkOvafNsI7qsO7z3RHSIR2yIwDfYU/ADtsav204fbfGylaryFbfgN7Pe4m8rj6YsCPgZfcXgbNnwdsT8rDX624jX/djPbb67gx8JOr8BKvaF7vV95WnV5+eEb5brav9t0tHwA68ecKagIMBTrYG9nqeczx0b+m13HPF97v17NUdiKSnq1fu7iHwk7tHH/E88ifqwcgHXO6PVJ+2ZQuCm5+ADDj2wdvn40cf74f3XpKpQWTms9zs0XoTGM03pLbzkJQWSw9z94qqqoru5h6WllTDLzfqd5PRrC9vaOh6gYv9DFWz0WTaZmSiR17yLql9ARP8TVfcOOLFC6VFVp8WFRJ1Z03P3SsHDIyt/vlyxZHuX/yc8cGUOCf2Vtrs+5rrb3Ta22i144wDAAEEik/OPTzIo/S/2aYA+Hbl37/sShfXyqyOAGYUAAJaqiuV/ooJwiACOKBkJtHwmxBAsQUzirOzfWtYsEIFFG5YgUYInkDHSgowCCfPvHB+NzREtyD4MgAChZ0pQCOfBUDHl7PAoJTbATeJr/C71nrPWf8Zc4Um7Ychi1NYjKYUthvRrFsdFnvEz0skXEt6DnZeOlom3ob+pgh/bIQppeeHgIyYFGDB5uzd5SUdNw8TB7ttx4HjOcE/XV1CP8M3mMNjKKDK/5NIjoZ72qPn+pLEN3q76n4AAAAA");
 
 export default FaceGrinSquintTears;

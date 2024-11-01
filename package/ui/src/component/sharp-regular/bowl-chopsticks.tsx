@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowl-chopsticks` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-chopsticks?s=sharp-regular bowl-chopsticks}
  * @preview ![bowl-chopsticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bowl-chopsticks.svg)
  */
-const BowlChopsticks: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 128L0 96 512 0l0 48L0 128zm0 16l512-16 0 48L0 176l0-32zM176 464l160 0 0-20.9 26.7-13.2c55.1-27.3 93.9-82.4 97.8-147.5l.6-10.3L50.9 272l.6 10.3c3.8 65.1 42.7 120.3 97.8 147.5L176 443.1l0 20.9zM3.6 285.2L2.8 272 0 224l48.1 0 415.8 0 48.1 0-2.8 48-.8 13.2C503.5 368.1 454 438.2 384 472.9l0 39.1-48 0-160 0-48 0 0-39.1C58 438.2 8.5 368.1 3.6 285.2z" />
-    </Icon>
-);
+const BowlChopsticks = createIcon("bowl-chopsticks", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABagAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBVgsGAAE2AiQDCAQgBYMtBzYb3ATIHoexG/qZvbFwqtmIh+9tvp77dqXxX8nIayKqgKkD6okquwXuzEGsw20mZWrVE3C+14ZMnXqe81AA3yhoY9rSqWNSLjTneQQCGsrFkrZeoVrBaloAKmvNW86sHin7JZlokh6/2ePXA/J4E1dUSHfT97jc3jT+1dklkkoGIFoBYNbq5ct8/Cv+iviuMfGdJQiIWaAUyJChmwBTZQLd5ErkcsFf0Wik/8CSAKJKfkwCOapYhtWAHCR5njc1de5SqzTPV9UqRRZie4gttm/ZLlpErK0VtYgB8WbEsz4R9WgfD4Y9mdQvrOrQvkOPqDXvFu3i/swLRVFEfDv70969H7Z6+F/f7/rezLIsG5uN1NCq0ZJDI1E+m3Efp9t77Matm6MK9zTpdfPWjcfaP3pZl+0RRv48Qt10rRYPmPoAi1vx8yAQbPj17G+bW079v1ktgX9eo3+LGpP0EM0kEGRDG0NtSCARAIAUp/ROEEjmydGr1t0SIBQIkFQVAmS6aiVArjBEgIoexglQVVguE3mT0M5GAkndUZAZ7zTItfMKVEz1lVHVLjKfIjyC+NHFztfQvLVy1PCR5eRyGxukm2BlPqU85geeyrVBOLTLYYecsNMOe51QyDHL7JMOmm/B83xQaZThRipNVl5nr/ur7HTMcXsddqgumaJ8Lw90yu4eBCkR1NEiSSJSyxgNDNu+5/CR42HDHQc=");
 
 export default BowlChopsticks;

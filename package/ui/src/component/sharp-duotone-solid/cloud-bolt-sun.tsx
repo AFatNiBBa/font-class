@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-bolt-sun` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-bolt-sun?s=sharp-duotone-solid cloud-bolt-sun}
  * @preview ![cloud-bolt-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-bolt-sun.svg)
  */
-const CloudBoltSun: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 121.3L60.7 208 0 294.7 104 312l17.3 104L160 388.9l0-97.8c-28.7-16.6-48-47.6-48-83.2c0-53 43-96 96-96c18.4 0 35.6 5.2 50.2 14.1c11.9-19.9 29.1-36.2 49.6-47.2L294.7 0 208 60.7 121.3 0 104 104 0 121.3zM144 208c0 18.5 7.8 35.1 20.3 46.8c10.6-39.7 39.9-71.8 77.8-86.4c.8-4.3 1.8-8.5 3-12.6C234.7 148.4 221.8 144 208 144c-35.3 0-64 28.7-64 64zM288 360l0 24 88 0L336 512 512 376l0-24-88 0 40-128L288 360z" />
-        <path d="M639.9 383.9l-80 0-15.9 0 0-63.9-76.5 0 40-128-51 0L256 344.3l0 39.6-64 0 0-96c0-47.6 34.6-87 80-94.6l0-1.3c0-53 43-96 96-96c34.9 0 65.4 18.6 82.2 46.4c13-9.1 28.8-14.4 45.8-14.4c44.2 0 80 35.8 80 80c0 5.9-.6 11.7-1.9 17.2c37.4 6.7 65.8 39.4 65.8 78.7l0 80z" />
-    </Icon>
-);
+const CloudBoltSun = createIcon("cloud-bolt-sun", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABkAAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCQAsIAAE2AiQDCgQgBYMtB1gbagXIhocvm9b73SOVPfIizxKTvHsASBFCEKsu5Ogi0vxf8/lZ0wF+uyA4lKpl+trPlvV8AgOsoGjank8ntJnajua9PCU6pFuIPkORJubr1EgPpx9xZ/gfwPjNENeRdGYA0RsAq7v3bvdpK1opfmy/R/xoGwJiDagEMjKGC7BMFhiuUKFQCFqp3aYV7XZFAFEXw5mzTl5wCe4BFCAJuShmju3Vp1HrUTT5lPLMslFGlNGNo/uCpEQ8OfXVhZNvHf/8kBcb709+ecRV/Z9H9iHy/ub+fbHfGUsnJV8Y+oiIvjq1uVTMUvv2Pzz5Ub9l4oODHiifm/TS4P1Coy/QHUe8f9+YV3q/8sfoH0/40ZUrd+06apVtJl5prm8fNMkqRykOHJwQOl555aqhh239cvnQ3sc3o3PQV/0H9Nhl47JmssuJvfU+0SmOcdiXXw2baR9++PRW1w7NZVbs50f3ubPZNfr2BfN/qA34Z8BTffqUdz44ODYPHFV480aD5c+DQPDzVyP7Htlr2d8djQR++eSvX4mH25+mq9Ir6JBAkKe1pzksXQWCHUA6xQXG9P3Qpwhka2Xxp3Z5QIBQIkBSVwqQDdNbgEJpqgA1I80XoK60VxZFp9Df4SVIupwNsgUuB4X+3gU1y3yTqesfGRJlOJKvAzM21KH146rZM2ZVS6rBolwBLtEOL61meyddIJsm461OcKYznOd4xznZeTXyHNvz5zvdhjFivS+qzDbDLJUlqtWV20azFj3HuVLo19aPslS1f3KSC8Y7T8aBJOacY0mWiRR54D8Jl0w/5szTzpt+7vlnTIfqdoO7tDMYAAAA");
 
 export default CloudBoltSun;

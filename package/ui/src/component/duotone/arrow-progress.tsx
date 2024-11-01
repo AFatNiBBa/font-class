@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-progress` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-progress?s=duotone arrow-progress}
  * @preview ![arrow-progress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-progress.svg)
  */
-const ArrowProgress: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 448c0 35.3 28.7 64 64 64c23.7 0 44.4-12.9 55.4-32l40.6 0 0 14.1c0 9.9 8 17.9 17.9 17.9c4 0 7.8-1.3 11-3.8l60.8-47.3c4-3.1 6.3-7.9 6.3-12.9s-2.3-9.8-6.3-12.9l-60.8-47.3c-3.1-2.4-7-3.8-11-3.8c-9.9 0-17.9 8-17.9 17.9l0 14.1-40.6 0c-11.1-19.1-31.7-32-55.4-32c-35.3 0-64 28.7-64 64zM384 64a64 64 0 1 0 128 0A64 64 0 1 0 384 64z" />
-        <path d="M256 110.1L256 96 128 96c-35.3 0-64 28.7-64 64s28.7 64 64 64l256 0c70.7 0 128 57.3 128 128c0 62.2-44.4 114.1-103.2 125.6C398.1 498 376.7 512 352 512c-35.3 0-64-28.7-64-64s28.7-64 64-64c22.2 0 41.7 11.3 53.2 28.4c24.9-8.7 42.8-32.5 42.8-60.4c0-35.3-28.7-64-64-64l-256 0C57.3 288 0 230.7 0 160S57.3 32 128 32l128 0 0-14.1C256 8 264 0 273.9 0c4 0 7.8 1.3 11 3.8l60.8 47.3c4 3.1 6.3 7.9 6.3 12.9s-2.3 9.8-6.3 12.9l-60.8 47.3c-3.1 2.4-7 3.8-11 3.8c-9.9 0-17.9-8-17.9-17.9z" />
-    </Icon>
-);
+const ArrowProgress = createIcon("arrow-progress", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABnwAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCRQsIAAE2AiQDCgQgBYMtB1gbbwXIjtEno2KUIypCCGKeK4Kne3Pe7v69tGZdG1UqzUKlCUck1DpoiE/gcho6DMV/3u7t3EEAvvzYqqAuraC1iypFs1A9U6ee5zwUwAeRzHEekDF5r3orkPPymDStQhWqaQGowlprZ0iflCwGIfgkhoUbNlco8Y0fhUj64j4AHtz/AMYvDI0CSX8GQIwBAPavMpPx5D7uOfognUO0kQQC4gDAAkJGxgwCW3iBGYIFUBRBh5MkOiRJCxBAVLhfl0FFgxvALQAKSEIqQoKtqrKoKuQoN0qFJAZo3W7bYMZ+x1qVXgY/tJh32vfa9tp02DWac9yzvbDfMp6iWYddGxV6FfJIthb6OFY5iKb0x3ST6Q2DOkn0qjSpRzP2RDvWV47KhHjTHdNPpQ8a0kuhd6VxHdAA7fqckGsXtMNxz3zRYTfbYSLb1dj9bvGhpk1KH1HOQSxraiopmc3LwPGhl6j+9OSteXk9w4ysjx/rMk+IXpFpg9TM92rkJ1l9fVmfRNaeOfAyQMvCTe2lZwSLTPf3+QYG+O7vXjeH1wECwZ/Vj1mp+tb/PmUO0L39+Ze+SP6fJKRvQJ8EgrwiOSlKIBEAgBQ9kCWAQHaE4991yDsIhAEESKoBAbJpGggUA5YRaMzxRqAacIYXRRFhSnECyZBrkG3qA8WUM9DY8lqrpoLHIo4k/CsYE1NC0XPM3cWNBbBhLBLwQu1iIJtW7HqoZi/2okarFl2qVanXVSAdks1uzWI4ONoHMe5cuGECsOXsmslRWodO9X1qfZVAbL9qp4fvthfr4QCrt3ghE4l4vfKOjtZeZ+QKzrhuM2hRjxgA");
 
 export default ArrowProgress;

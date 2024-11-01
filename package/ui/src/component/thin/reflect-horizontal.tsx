@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reflect-horizontal` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-horizontal?s=thin reflect-horizontal}
  * @preview ![reflect-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/reflect-horizontal.svg)
  */
-const ReflectHorizontal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-4.4 0-8 3.6-8 8l0 496c0 4.4 3.6 8 8 8s8-3.6 8-8L264 8c0-4.4-3.6-8-8-8zM16 128c0-6.5 3.9-12.3 9.9-14.8s12.9-1.1 17.4 3.5l128 128c6.2 6.2 6.2 16.4 0 22.6l-128 128c-4.6 4.6-11.5 5.9-17.4 3.5s-9.9-8.3-9.9-14.8l0-256zM182.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9S0 115.1 0 128L0 384c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128zM486.1 113.2c6 2.5 9.9 8.3 9.9 14.8l0 256c0 6.5-3.9 12.3-9.9 14.8s-12.9 1.1-17.4-3.5l-128-128c-6.2-6.2-6.2-16.4 0-22.6l128-128c4.6-4.6 11.5-5.9 17.4-3.5zM329.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l128 128c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-256c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-128 128z" />
-    </Icon>
-);
+const ReflectHorizontal = createIcon("reflect-horizontal", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABegAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBfwsGAAE2AiQDCAQgBYMtBzkbCAXIHge5aeqeEbcpa8oigvq1f7/n7AaAN0SkgFERKnxAMmzjwo6NQIcfZermH4JBhtTqX5x6nvNQAN8oKGPj0sULcIyhEYhIlxcnVyNYsQJXwLo7Ww4i7JGkJTRyfFb6XSGPZ7arR6pOH3EjHI7vOrlEkmUQREv2ysxVy5Z6/Sk+RXwsRXy0GAExCxQCGTJ0FWCKTKCrXIFcLvgUpZL0H1gQQNSHr04gRwNsxEFADpJ6ed6sZdtWbZvUa5avtG9svK6sbYrydpUdsqhov/x8h8p2K6K87fIoa1/RPltRGRHn26+Mij53O6ao7nuvw6pt5VKca1vWIYgQXHN5mYjUyk39H3TJoqbf/bbLez1u+finjzs/Kr3a3F/qb05f5/fZxmW3dzqrpuYsO29fauR+xfVmNLt+lj/9BuTkA/r9Ydi9ssYwl+tOmeeBQDC577d3m1pM+f8mCXx5+vv8M1J6naTHaCiBIBtSGmJ9AokAAKQ4qVeCQLJSPbiPpioECI0RIKmvsQCZLloKkGtssAD1dDdWgDq8TCbyRkJbGyokTR2BzDinIdfWE6hnijdWfW0jkzNGSphvXuI8iszdKkYOG1FMKoahwooO5caTC7Y04KQuDYSLdjrkoON22G6P4wQ7aql7wgHzZuhcH1QYaZgRCpMU28nt6ZV2OOqYPQ456NdMVpzXBjg5bx4IaoK4o3iSRKTW70xp6DUE");
 
 export default ReflectHorizontal;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-repeat` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-repeat?s=sharp-light arrows-repeat}
  * @preview ![arrows-repeat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrows-repeat.svg)
  */
-const ArrowsRepeat: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 272l0-16L0 96 0 80l16 0 374.3 0-49-44.1L329.4 25.2 350.8 1.4l11.9 10.7 80 72L455.9 96l-13.2 11.9-80 72-11.9 10.7-21.4-23.8 11.9-10.7 49-44.1L32 112l0 144 0 16L0 272zm512-32l0 16 0 160 0 16-16 0-374.3 0 49 44.1 11.9 10.7-21.4 23.8-11.9-10.7-80-72L56.1 416l13.2-11.9 80-72 11.9-10.7 21.4 23.8-11.9 10.7-49 44.1L480 400l0-144 0-16 32 0z" />
-    </Icon>
-);
+const ArrowsRepeat = createIcon("arrows-repeat", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABZgAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBbAsGAAE2AiQDCAQgBYMtBzQb8ATIjsO44TuyxVI+lYqHp7X/nTs7XxyVheQqjUaHZI38E6rJQ8SrSX7NzPL1cf6v+fyeXwN+o0PrwDuQAo9eP5/AQCt0Xjifjdt0AjZrZ58iiX6C9KlHGLYbVgfI8TBSRbqS4Hy60/iqq3MkuQAQbQAwfe3KxZ59ik8Rbyu3ibcWIiBmgFKgQIEeAkxSCPSQlciy4FNUKvY/sCSAqMbXSCAjYwN2ADJIUs79+zdUNeU1DVX1EYKnNTQtiU4xMDrGao92iFX7B0TnWBqNIUT9TqFajYtVqd+itMagnWOt1J+8RdF05QJ9W9u0fu9jD9fatGlzVRttzjR4YK0Hls71xpvMykfUYI8L2igr2zseCATvfr8+85ZJ/2sbEvjy4Ofv8jNSeZ6kVtRKICgGVbIpgUQAAFKc0TdBIFkh4VttdFGAUI8ASbV6AQrdtREgqzdQgCq9jBagWr2VCpHrhA42d5A0Og4KY5wFWQc3QZVJXgTVOkQBLxYc7OcuaY6EZk8qhw8ZVk4o1UTjEEOH0YnlttXvjGv0p632OOqIU3bbZb9TgjxhcXzaYXNm8GxfVBpuiGFKE5TH+eP6NXY74aT9jjoSx5mofO/3c2bevT+5CVOOMCNJRGrafgL96mCoAgAAAA==");
 
 export default ArrowsRepeat;

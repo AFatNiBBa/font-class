@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-two-thirty` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-two-thirty?s=duotone clock-two-thirty}
  * @preview ![clock-two-thirty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clock-two-thirty.svg)
  */
-const ClockTwoThirty: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm232 0c0-8 4-15.5 10.7-20l96-64c4.1-2.7 8.7-4 13.3-4c7.8 0 15.4 3.8 20 10.7c2.7 4.1 4 8.7 4 13.3c0 7.8-3.8 15.4-10.7 20c-28.4 19-56.9 37.9-85.3 56.9c0 41.1 0 82.1 0 123.3c0 .7 0 1.5-.1 2.3s-.2 1.6-.4 2.4c-.3 1.6-.8 3.1-1.4 4.5c-1.2 2.9-3 5.5-5.1 7.6c-4.3 4.3-10.3 7-17 7c-13.3 0-24-10.7-24-24c0-45.3 0-90.7 0-136z" />
-        <path d="M256 416c-13.3 0-24-10.7-24-24l0-136c0-8 4-15.5 10.7-20l96-64c11-7.4 25.9-4.4 33.3 6.7s4.4 25.9-6.7 33.3L280 268.8 280 392c0 13.3-10.7 24-24 24z" />
-    </Icon>
-);
+const ClockTwoThirty = createIcon("clock-two-thirty", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABggAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBdQsIAAE2AiQDCgQgBYMtB1wbIwXIhofn7eI9983sfkDzYVaWktaoUgGo4kqud+Ka50/f9B4NoNH05++R3ss4n8DOm3bz+XhaQjOdgW13touSlRySlmUkx8X8yg3y+Cw7rUS6P32Aa/g/gPGrZk6TVMsARF0AjJ03a4pXvo/vU3xQeYn4wGQExDhQCGTI0FKAETKBlnIFcrng+1Sp8H1UKgUBRBk+fwbKKGER1gFykISU5w1adKxRqpXPrVGqPu+R5hEnmsyLR5vd32F2iPs6xJdjI16d8mGNS9M+Hv/6vK/GvTb1o+oXJ38w5pXZNYbMe2y+0R3HGz7UISDHgbcbktUfaX4iHtDuibpP/N72g7UfqLSZ0ei8Wo8sG63bpw+0mj3EIY1meMXEajR78dXx4199sVk1E2mbOD91+7Oq1Dw4MJ59dNux7j3atGndJlJYacN2a6vPaNQOcFcgqPH1f88sqzPi/6o1Evjx5T//lX5HlVeS9ASqSiDIelR6WJxAIgAAKfZql/gJgcwYCXxqTXcFCNURICmrLkCmhboC5KrrLkBJawMFKKtulkzk1YSGlhQuqWkHlxnkCJdr6EWuZIS3w7KGkemYqiHqFy9rEgUmbiv69upTDCuaraypjezWhxfDbpe9ZqwrXLXWNlvttsZqG+wmxE5Tkj22mCThE31Roa9e+igMU0z3ri/PtcZOu2ywzVa/yXDFeq+LvfLsrrCbBOi3O4WMSJE1vZHTe75ZebsP9FTY6c1Z43gCAAA=");
 
 export default ClockTwoThirty;

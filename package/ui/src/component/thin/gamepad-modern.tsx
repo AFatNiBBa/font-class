@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gamepad-modern` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gamepad-modern?s=thin gamepad-modern}
  * @preview ![gamepad-modern](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/gamepad-modern.svg)
  */
-const GamepadModern: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M216 368l208 0c7.3 0 13.7 5 15.5 12.1l3.6 14.3C453.3 435.3 490 464 532.2 464c50.7 0 91.8-41.1 91.8-91.8l0-2.8c0-5.4-.5-10.7-1.4-16L589.9 162.5c-7.8-45.5-36.6-82.3-78.4-92.7C466.8 58.7 402.5 48 320 48s-146.8 10.7-191.5 21.8c-41.9 10.4-70.6 47.3-78.4 92.7L17.4 353.4c-.9 5.3-1.4 10.6-1.4 16l0 2.8c0 50.7 41.1 91.8 91.8 91.8c42.1 0 78.9-28.7 89.1-69.5l3.6-14.3c1.8-7.1 8.2-12.1 15.5-12.1zm211.6 30.3L424 384l-208 0-3.6 14.3c-12 48-55.1 81.7-104.6 81.7C48.3 480 0 431.7 0 372.2l0-2.8c0-6.3 .5-12.5 1.6-18.7L34.3 159.8c8.6-50.2 40.9-93.2 90.3-105.5C170.5 42.9 236.2 32 320 32s149.5 10.9 195.3 22.3c49.4 12.3 81.7 55.3 90.3 105.5l32.7 190.9c1.1 6.2 1.6 12.4 1.6 18.7l0 2.8C640 431.7 591.7 480 532.2 480c-49.5 0-92.6-33.7-104.6-81.7zM200 160l0 56 56 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-56 0 0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56-56 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l56 0 0-56c0-4.4 3.6-8 8-8s8 3.6 8 8zM392 272a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm40 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm64-160a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm24 40a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const GamepadModern = createIcon("gamepad-modern", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABuAAAALUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDPQsGAAE2AiQDCAQgBYMtBzUbwgXIjsJx72SyaW6mEvHwvB71575kMgsgCxj9+oOlKpDd70APnHMR/Wxr8YVe4c1b836RKqHP/zWfX9rRAdaaYCid2kkRLbDnA/y4s0Vagg5sNlHc4rab4jY0xEMoHCGPv61XQboxnXEhYsXXmjqfTrJMQok6ABizaN4Mz3wQPCfe+P9ByuNNQ0CMBaVARryjhQDDZQIt5ErkcsEH8f//+D+wSgBRSC5LIEdVPIa3mANJKvO8f++2NavaWPWKmvlCfcdqi6pXq36toRo3dklap0FWAeNMIzdu65q2vwvf8/3OcdGOq8StED6JNhT0uL6x06hho2rRIG4RtvHxkL583NfYi9tJzuy36LMgJwUlJ67hY65QfZbbcKVQIUrWRgOjWrC2Oh0RstVtnZs7Ra3A3DX9dmgt7igc2r6xb3nEtjekDNsOBcg0IrJ1cP1uIf23eWPj2buz7sk19wwdOXV2zw+rb7yxgFWpLJ8E5k4e/Pk46VjieWPr/T6fPHcaq6ySKUDg6h/2nD05Utd7Xi1H0GveMcL5Fx+c/c5739bMVG3S+ilg47btS8bXO5GorPQv2b5t45SrSdVMzW/fe2d2/uL5j78dTGNWF8Vqgg+Gry7ajKue3lV0GzKkW4ETh+Y0bDhHVI26fXnflSv3rcamQwsyIgzEZWP/Gz1sVe3hvxLVE/jose//Ut/8/wfpdEpRRQJB1v3/oeXpNFDJAJIpDmoLfFEguU+l5FNruE6AUA0BkkI1ATLN1REgV003ASq0MkCAQjXzZCKvKjSwoqeSGvZQmYFOULkG7qcqDPdyotAgsmCsCoSqv8j0E8fQhHVln569y6HlZlOrDpkKcHlYedje+aAc6oI5bLTLTvttsN6WWjYi95qRPmCHiRAxwQ+V+uipt9JQ5eXOc/1CKiv1+7xiXX19FcOUz7s7OwhP7oJdSSK1r7IkEanWBxDavWZ9j/cNAAA=");
 
 export default GamepadModern;

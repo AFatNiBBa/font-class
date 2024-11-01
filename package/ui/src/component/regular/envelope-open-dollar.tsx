@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelope-open-dollar` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-open-dollar?s=regular envelope-open-dollar}
  * @preview ![envelope-open-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/envelope-open-dollar.svg)
  */
-const EnvelopeOpenDollar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M120 48c-4.4 0-8 3.6-8 8l0 169.2L69.2 190.1c-1.7-1.4-3.4-2.6-5.2-3.8L64 56C64 25.1 89.1 0 120 0L392 0c30.9 0 56 25.1 56 56l0 130.2c-1.8 1.2-3.5 2.5-5.2 3.8L400 225.2 400 56c0-4.4-3.6-8-8-8L120 48zM48 276.2L48 456c0 4.4 3.6 8 8 8l400 0c4.4 0 8-3.6 8-8l0-179.8L322 392.8c-38.4 31.5-93.7 31.5-132 0L48 276.2zM0 237.9C0 221.4 13.4 208 29.9 208c6.9 0 13.6 2.4 19 6.8l171.6 141c20.7 17 50.4 17 71.1 0l171.6-141c5.3-4.4 12.1-6.8 19-6.8c16.5 0 29.9 13.4 29.9 29.9L512 456c0 30.9-25.1 56-56 56L56 512c-30.9 0-56-25.1-56-56L0 237.9zM276 88l0 13.9c7.5 1.2 14.6 2.9 21.1 4.7c10.7 2.8 17 13.8 14.2 24.5s-13.8 17-24.5 14.2c-11-2.9-21.6-5-31.2-5.2c-7.9-.1-16 1.8-21.5 5c-4.8 2.8-6.2 5.6-6.2 9.3c0 1.8 .1 3.5 5.3 6.7c6.3 3.8 15.5 6.7 28.3 10.5l.7 .2c11.2 3.4 25.6 7.7 37.1 15c12.9 8.1 24.3 21.3 24.6 41.6c.3 20.9-10.5 36.1-24.8 45c-7.2 4.5-15.2 7.3-23.2 9l0 13.8c0 11-9 20-20 20s-20-9-20-20l0-14.6c-10.3-2.2-20-5.5-28.2-8.4c0 0 0 0 0 0s0 0 0 0c-2.1-.7-4.1-1.4-6.1-2.1c-10.5-3.5-16.1-14.8-12.6-25.3s14.8-16.1 25.3-12.6c2.5 .8 4.9 1.7 7.2 2.4c13.6 4.6 24 8.1 35.1 8.5c8.6 .3 16.5-1.6 21.4-4.7c4.1-2.5 6-5.5 5.9-10.5c0-2.9-.8-5-5.9-8.2c-6.3-4-15.4-6.9-28-10.7l-1.7-.5c-10.9-3.3-24.6-7.4-35.6-14c-12.7-7.7-24.6-20.5-24.7-40.7c-.1-21.1 11.8-35.7 25.8-43.9c6.9-4.1 14.5-6.8 22.2-8.5l0-14c0-11 9-20 20-20s20 9 20 20z" />
-    </Icon>
-);
+const EnvelopeOpenDollar = createIcon("envelope-open-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABrAAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDJgsGAAE2AiQDCAQgBYMtBzsbsQXIjtMlNuMxcfA82VXvV1f3cOmag+hxdCAyOGKkUIoWqm7tJUsIYtv4sd+eYA0C6RDG4xP38/yf/wZ8Rh8l2mKVHAWWeT6BgVZoUwIOBzjTCdhss+FrjEFdDxkxpJaYWI+P9Ph1AFpucw9sUNH2DNi9LJcv5LABFLYFgCTDu0Lbwf178uCDfBB5WnYV5CndAQGQtgAYBLAAC8hHAGiBhQD5aAyg0Qh8kLIy+D/QgACAONCHKgA04ABXgfsAgAZAobUul1ZhgM9O0IN8tnf4gXSklYRcJB7hlSBHLdiRA7qWLUQk5P4BCMGMBAmHyAA5sW27B7VaGyJh2W4DJSjbY/DYGwQS0QPTL8c8NGT8neTRM1Krue3MtG1mMEW282ge7ZH5osjusREeWsu1VHTsimdQzFNse4QZ9lBlzuxjpbvx9azIoufu5U4dp/7As0nPWLx7jHMSh0gJrIPrR+mcZOaU/nCtQyAFDnESZ0xy589XIHZ7D6bXXMHOBbyuUOH1zgX/EjaDJQm+Rad3UJymxad2sMiXsGRzwvsIYk/yfVpwx7UHPzvQJ9V6lbDh1ar/hoYgpOcMq1k049jFRFJwj0T+XAEwxqk7Ji1ZJSdX+pmwoJ/LGr+xQjKQ5hlq5JYHL90OAAIITO1V2vBJavHP7VMAfLr143//GVH2QKFOAdwoAASsGmU1GKEAUCAAAACAkkWUUwACKM6iQcxPyJsVvDCgcPDCIo9kaLxUh00hDWXj8v5YiPYgpDOSoPAzFxaNWAlNOpdh04KHKYd0sXJXzTz1zzGrkyQ6TjJ1a9Uxzcxlya6lo9xGmxuzU2VRaalKW5nEbGaxgIlMYCoLBD+PntmFzKSTRnbkixjqUos6GJph3NWPoUFMZHO+lOeGf5zmmPhYFRbp3auSVwHBemxXKBCVPnHWookzZs+ZWLN6Z9X8jAEAAA==");
 
 export default EnvelopeOpenDollar;

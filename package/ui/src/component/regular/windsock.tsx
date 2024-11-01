@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `windsock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/windsock?s=regular windsock}
  * @preview ![windsock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/windsock.svg)
  */
-const Windsock: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M24 0C37.3 0 48 10.7 48 24l0 72 80 0 0-8.6c0-20.3 18.7-35.5 38.5-31.3l320 66.7c14.8 3.1 25.5 16.2 25.5 31.3l0 108c0 15.2-10.6 28.2-25.5 31.3L166.5 360c-19.9 4.1-38.5-11-38.5-31.3l0-8.6-80 0 0 168c0 13.3-10.7 24-24 24s-24-10.7-24-24L0 296 0 120 0 24C0 10.7 10.7 0 24 0zM48 144l0 128 80 0 0-128-80 0zM416 259l48-10 0-81.9-48-10L416 259zm-48 10L368 147l-80-16.7 0 155.3L368 269zM240 295.6l0-175.3L176 107 176 309l64-13.3z" />
-    </Icon>
-);
+const Windsock = createIcon("windsock", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBcAsGAAE2AiQDCAQgBYMtBy8b7wTIHge5afRGOpWjN4h4+N7uv1/7dN8B2GMzEyM5daRsnDFJXk0qfDCZIRNKr3bimud//vSAVeKPFoXRW1MF7UaZ5xMYcCQXD3c+G9hMJ2CzdvqFJLrhC+lTPsmwfYbNFfJ4EiuRriY4XT40PmjoKEkpAxA1ADBi3qwpXpZFWcS7/xPvTEJAjACFQIYMTQQYLBNoIlcglwvK4v///X9gQQBRDp6VQI7yWIDVgBwkpTzvUhGZyqWq+Vy+WGnRzYaickRcrn+57ooQG6+0Xh4X6l2qF1EpXORWo0DN9XZzhL3XVlrRr3e/iL6hd4i5IebNDjE2xLiW92rc+9TCWuq/mFF3vOkqqnbn7vdhI61psFmDNU37LuurZbo76s7Qsy/dt7z79U8fBGe6g6Zv2/kndqY/rf1TZloNN7B/oNF9Sv7jrUgB8dhfL56eWlZ98K8KlRN4//jLb+qv6P+XSbqHChIIss7/d7Y4gUQAAFLs1TJBIJmhBO9axSUBQiUESMqpJECmsRoC5CrpJEBJM30EKKeSWTKRVxTqWDLgpIodcKavfXCujkdwyWCvcuXUiczAJPOQvnfpYyUwZl3Ro2v3YmCxbOqyzQhpeVCxbbTfG4Y60FlrbbPVbmustsFuAe00pbjHFmM1cIwvKvTQVXeFgYrjzvPxudbYaZcNttmaVxmkuB9rb68+uQPZCXh7akgSkSq8tPSubas2AQAAAA==");
 
 export default Windsock;

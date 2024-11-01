@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-left-from-circle` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-left-from-circle?s=thin arrow-up-left-from-circle}
  * @preview ![arrow-up-left-from-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-left-from-circle.svg)
  */
-const ArrowUpLeftFromCircle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M184 0L8 0C3.6 0 0 3.6 0 8L0 184c0 4.4 3.6 8 8 8s8-3.6 8-8L16 27.3 314.3 325.7c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L27.3 16 184 16c4.4 0 8-3.6 8-8s-3.6-8-8-8zM288 64c-4.4 0-8 3.6-8 8s3.6 8 8 8c114.9 0 208 93.1 208 208s-93.1 208-208 208S80 402.9 80 288c0-4.4-3.6-8-8-8s-8 3.6-8 8c0 123.7 100.3 224 224 224s224-100.3 224-224S411.7 64 288 64z" />
-    </Icon>
-);
+const ArrowUpLeftFromCircle = createIcon("arrow-up-left-from-circle", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBUwsGAAE2AiQDCAQgBYMtB0Ab4wTIjtRW+YViEsH3NtF9/04yAJ2ZuXLnnqnyqDJhAKjWpM2kTJlRhrzrX5x6nvNQAN8jHpQ9NSDZgGu3Pa9ABcayXr2iE6ymFbDuTkMcon2SlrLWcpxzXHKDPN7ZoUS6kX7Aufah8Y92zpJkGYBoCoCpq5cv9Ek1qhE/1F4QP5iPgJgGCoEMGToKMEEm0FGuQC4XVKNWS/+BBQFEGT56AjlyzMcaQA6SlOcdezcoNcpXNSjVX1+/Qf3LLcWVVtfaROyMK22utd4VDeJam6utV15ueaXVn0t/XfnHkl9W/LXst1VXW19u+WDok7nfzvx6/vfDn3V/OOzpvO9mdas0rfzrh10/ePXxY0xtKT9W3uKvuqNvP8uXjxzZr687tpTLW3ZPdrjVUanE6lhNRnbSwq2Nf/1sQKdqtdOAz35tDPcDgeDR/6/vbm4y4b+6DRL4+233n5HaJ0mqoK4EgmxAbYANCSQCAJDilG4JAsl0CXoNXdVGoT4BkrL6kOmgKeTq6w8lnY2khbuXy0ReT2hpI0DS0FHIjHIGci09g5IJvvbLWkZmUaw9sA+6pFkUmbmpGDpoSDGu2GYGZyR0WR1fiK0+p3KnL5y0y2GHnLDTDnudINgxC6OTDprFoTN9UWGoQYYojFOoy9fDq+x0zHF7HXaorjNecd7r4xQ/3hfcBAmHuZgkIrXbeuzY4dMDTx65bfJA+9MGfsEB");
 
 export default ArrowUpLeftFromCircle;

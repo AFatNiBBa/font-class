@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-eps` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-eps?s=regular file-eps}
  * @preview ![file-eps](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-eps.svg)
  */
-const FileEps: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zm96-96c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-64 0-64zm144-16l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm117.7-80l26.3 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-26.3 0c-7.5 0-13.7 6.1-13.7 13.7c0 5.2 2.9 9.9 7.6 12.2l31.2 15.6c15.5 7.7 25.2 23.5 25.2 40.8c0 25.2-20.4 45.7-45.7 45.7L424 512c-8.8 0-16-7.2-16-16s7.2-16 16-16l34.3 0c7.5 0 13.7-6.1 13.7-13.7c0-5.2-2.9-9.9-7.6-12.2l-31.2-15.6C417.8 430.8 408 415 408 397.7c0-25.2 20.4-45.7 45.7-45.7z" />
-    </Icon>
-);
+const FileEps = createIcon("file-eps", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABnAAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDDwsGAAE2AiQDCAQgBYMtBy8bjgXIhocvm9n7PaNducdmaQ3UJh4DHRJFhJQhRRxdEKkuxYgi6+9PPc95KICfIByUl7Fw6cYFEpoTPDkvYBtrrMN7Be5FqKYVsC5uuwoiGuIIiSfU8UU8rEN6Jv2Ch8Kh4ncz3U7SqQDEZADsefzRh/p2EIOIn4cfET87GAGxJygCFd6eI8AuKjF+Qq2gVgsGMRz6/8BCADEi+dQEaoziXbwPqEHSqet28ay8sulMqI9rOnnfJjcix5sr351VxXOr3lvWxH0rjo13iBwROe4de9JfeLyX4on+8U9NbxgMFnIIddOTYxFxfJObN/pPzHy69/jiHG6xS1JY/9i3Zj+7lDD7XIR84+b+knhj5s29x/Nl5nEgN94ytjTenHXL9Keahe9OfvfPBb+c94thm5zRennKlHyz7N/z8ptmLTzxRAtnP6H1sCNMvPvuiUd42WDizSYOTj994mCPHrDfKopjhNxibvWWPezx0KRSyhU7/h4d/XvHFZOVO+BgVz6i3p1/+JH9/pGTtSZfe/isWbNu7M7y7fju1X+7Pvd++aW30Jy88HUgEIx+9+tHp0/a5Z9uk8Bvn//9L/kZGX4b/6d30ZVAUK0ernZKgm78LwAAKa6zMEEgeVVHctTxnhQgZARIRmQBKrNNFqCWrRKgY57NAozIjlaJepzQc2qPkvGuRJUtbkC1ng9Qxy6+90b0ooJXDtq438Xk/cbYvqfK+rVt2alsxloeBBk737mcVpZfJ2sr8BXnudxlrnGuc1xYw4i4yqHhtS613x6+ry8q1lurVeyk3M6ey8eN/Ktc7cJ1/v4aOyvvG8tdt9+9AutJQrlBJElE6n4b7ppzr7gaAA==");
 
 export default FileEps;

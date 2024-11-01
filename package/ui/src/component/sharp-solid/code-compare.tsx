@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-compare` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-compare?s=sharp-solid code-compare}
  * @preview ![code-compare](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/code-compare.svg)
  */
-const CodeCompare: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 320l-96 96 96 96 32 0 0-64 16 0c70.7 0 128-57.3 128-128l0-160 48 0 0-56 0-48 0-56L456 0 408 0 352 0l0 56 0 48 0 56 48 0 0 160c0 35.3-28.7 64-64 64l-16 0 0-64-32 0zM408 56l48 0 0 48-48 0 0-48zM224 0L192 0l0 64-16 0C105.3 64 48 121.3 48 192l0 160L0 352l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-48 0 0-160c0-35.3 28.7-64 64-64l16 0 0 64 32 0 96-96L224 0zM56 408l48 0 0 48-48 0 0-48z" />
-    </Icon>
-);
+const CodeCompare = createIcon("code-compare", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdgAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCLwsGAAE2AiQDCAQgBYMtBzMbMgXIngPu7BCLMocow9wf53KMWW1byuKhfq183fOXZo/RYQAVkIxktzYS0EUROHKRVJ6EjTFbsamT0eP/M+6978shvg+zUQPY1laa205fJFMeMuQAA5UU2wJ5Ate+T1zu/Kc9PeDiF320OZuD1sBozvMEAl1D8xLJAss0AUujbW8Ka6iHxhESDyhxV1WL/JTwrvjQ+GfRKalXASAmAMD56+0qnocxjPhrIv64BALiPGADoUKFFQROEQqsENkARREMo2nMfyBDANEGXpWgoI1H4AmggFSKyNvTub5YLer5LYqFK/1Ol/pEKvt19sZSQL1CgRCGjYiPW19M9bRu3K+ViFbpOaYCUdP7qbF4TDzJ8eLZ7ndrv1T62bpx5bjhm+7b/6Zl1h8PcBcsR6dxMdT67LCYR2M3he7KtXpy8lonhx92DoMOH9+P6MYgLkTMDHLw5sO15wECwcs79gc59V+mFAD+/n6/+hlppPyGrgRBtdfsmSRIAgCQccyQEEi3iOBdR7wXINQIkNpqASrLdAgUtV0EWtaEEWirXSYURY4wY6oj0ojbROWkE6KYcUu0nPJVaJuJiv4E6hF+/1IrQ6C8iY94fJzg1ZZGJCkurib5sLt1bEfs/CqW7dh2aMmiNYcDfF+1fGRLZQsr+yLm5+HDEvhy96naG9D2HVgT3HZ9nSR+PmFzvD3dzv0CYD2qKSWRqpfSdH9TAAAA");
 
 export default CodeCompare;

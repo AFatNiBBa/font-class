@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `input-text` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/input-text?s=solid input-text}
  * @preview ![input-text](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/input-text.svg)
  */
-const InputText: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 128l0 256 512 0 0-256L64 128zM0 128C0 92.7 28.7 64 64 64l512 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128zm184 32c9.5 0 18.1 5.6 21.9 14.3l64 144c5.4 12.1-.1 26.3-12.2 31.7s-26.3-.1-31.7-12.2l-4.3-9.7-75.5 0-4.3 9.7c-5.4 12.1-19.6 17.6-31.7 12.2s-17.6-19.6-12.2-31.7l64-144c3.9-8.7 12.4-14.3 21.9-14.3zm0 83.1L167.6 280l32.8 0L184 243.1zM304 184c0-13.3 10.7-24 24-24l52 0c33.1 0 60 26.9 60 60c0 9.2-2.1 17.9-5.8 25.7c13.3 11 21.8 27.6 21.8 46.3c0 33.1-26.9 60-60 60l-68 0c-13.3 0-24-10.7-24-24l0-8 0-64 0-64 0-8zm48 24l0 24 28 0c6.6 0 12-5.4 12-12s-5.4-12-12-12l-28 0zm0 96l44 0c6.6 0 12-5.4 12-12s-5.4-12-12-12l-16 0-28 0 0 24z" />
-    </Icon>
-);
+const InputText = createIcon("input-text", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABiAAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCMwsGAAE2AiQDCAQgBYMtBzEbNAXIjtMdtfKks+LhS5f1fktjj1tGmNrVEuIRYr7RMYeYXgYYpK5LGTtAF/zf/F9Obzw/OsDPd+KHNiZNXTrpcO3azxNIrBeOaVlAUWGWUEKctbMvkYQbSShPMow3bI5Qxt/FwxqkJ9JnOJHeNL425mGSjgJA9AJg22knHfJBUfDp/+8SnzqAgNgGaoECBVoCbFQItJRqlErBJG//A2sCiDZ43QRKdOAuPAQoQdJelh3jI+2tqqoaXeWpVSOflYrUE0V056cWRLw1pydemffGWIrH574+sztenf/meHHKI0OnxBMzXx4fjhyD8fjsVydOi8dGtKa2qphy2lNzqnPl/sFMRygb4wF3nVDtRR8dzqpclUdl09/sffPbaZ9d+pktWwC25j76nuf5vr5M7vO7vT918uotJ1w8f/eL6xy0zou75188OFdPnvQL7lD75bb1Q8dWup9m91lbO5vcv9Oxoaattmr+Pgpyy/M5P986fyFdfqK3NQoEgnzLh1+e17Px12aVwFd+/4e5Md2f3kRTAkGx8P+Fzk73gyUG4Ke41XTlgwLJTdrhWTs9KkDICJC0yQIUJvQKUMoWCNAwxSoB2mQnKUTZIQw6p4Gk0w2gsNo9oDTobdCw0Ydem8EoGMjyh/0AJu3u0V3r6mWLl9br62WhcqSiw/KG+lide6sbzJOtLnWda93sEhe7ws0dfqND4S2usVvDdvmi2jKLLVVbr76unzef6hI3uskVrnNtXGWD+r0516365HliJKBcLpYkImWSyovoCQAA");
 
 export default InputText;

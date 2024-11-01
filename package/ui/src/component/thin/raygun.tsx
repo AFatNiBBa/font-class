@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `raygun` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/raygun?s=thin raygun}
  * @preview ![raygun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/raygun.svg)
  */
-const Raygun: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M51.6 1.3c2.3-1.5 5.1-1.7 7.6-.6L201.7 64 280 64c22.6 0 42.8 10.4 56 26.7L336 48c0-4.4 3.6-8 8-8s8 3.6 8 8l0 88 0 32 48 0 0-88c0-4.4 3.6-8 8-8s8 3.6 8 8l0 88 48 0 0-16c0-3.2 1.9-6.1 4.9-7.4l96-40c2.5-1 5.3-.8 7.5 .7s3.6 4 3.6 6.7l0 128c0 2.7-1.3 5.2-3.6 6.7s-5 1.8-7.5 .7l-96-40c-3-1.2-4.9-4.2-4.9-7.4l0-16-48 0 0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-88-48 0 0 32 0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-42.7c-13.2 16.3-33.4 26.7-56 26.7l-4.2 0L172.6 494.3c-7.9 15.8-27.1 22.2-42.9 14.3l-80-40c-15.8-7.9-22.2-27.1-14.3-42.9l69-137.9C46.1 283.8 0 235.3 0 176c0-38.1 19-71.7 48-91.9L48 8c0-2.7 1.4-5.2 3.6-6.7zM480 176l0 18.7L560 228l0-104-80 33.3 0 18.7zM200.2 80l-.4 0L112 80c-53 0-96 43-96 96s43 96 96 96l168 0c30.9 0 56-25.1 56-56l0-40 0-40c0-30.9-25.1-56-56-56l-79.8 0zM64 20.3l0 54.5C78.5 67.9 94.8 64 112 64l50.3 0L64 20.3zM122.1 288L49.7 432.8c-4 7.9-.7 17.5 7.2 21.5l80 40c7.9 4 17.5 .7 21.5-7.2L257.9 288l-135.8 0zM112 160a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Raygun = createIcon("raygun", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABswAAAK6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDXgsGAAE2AiQDCAQgBYMtBy0b2wXIjlMsmE6Cfz7/qvvqV7eHrllQiCBHVMQ+mzLadBpxcEsovmGgEmAI/XE/9cf5p+/5QGBRdR6No0wtgZ1nUDStxYazieKO5j01QKFdqNsDqy+MwQfmoHkFbA8fql/kWAMGzwMAQMkAAEDL/r278jimmPQqfgP0is6AANQKAEeAB3hAPgHQhIeAfBYHLBZBTPG4+A90IACQn7S3AcACYeAZEANgORgMQWvHRwpCCSF8QcSXYPtFfOHB+zP6KqIbFaX9WXszEBOhEArryqz+ZN+MvaAV6Xsy+2mfpLDQnvR9mVg8UKfrhNVHeEGXue9JxM1KZwuPNX/uHono65E+ilHh4dcrnM4/WvFM3YhOZe3Pk6RDmfvKhfshTkUi6jewT/8+ezL6am9Wf4X77c1437o/q24u7NX9F28odTb57J+8GveK2ltcc1szuuGmMv4RI/wDcGoYYBfXkMzXcnh5aqaWXYGtdZFn61v6ko9VbriwMh2dZdxrJl+7dr17eW42bty5zUaufb+E3HddHlrPXUxL7u6OCZSD03o4MIAVZ88Gg2ydFaeZUfIvUIEKAv9KZvRY37h+GjEotxYjKzeMtN/BVw952r08n6eMfsKG0PJYYmKMKOKah83dk+bXA4AAwcMR6XWHJzX5H4wYAH7e/ffN5cQfmhbmLBDEACDwqsSrMMS0ABD1guQ1mkepgy8SYHhMEOyKsu+pX4RhAIOfMHjkSQZLmMrgo1Bd/sXpvfGQDSHSDcVgiDITPOpZCpZ018BHE089ftLLg2shVAr/KpO1m+Jt27ma1Wq4Rm43phOBKt/WNnaXdRXmyZyKeCnjmM405jCWMUxkzoScRVf/XKbS7ohoyw9xaqqmBqcR9zj5UtaPemcxm4nb4uetNOa+d1Uw77h4RdwZAwDUggjERMv4Z41cOH7uNA==");
 
 export default Raygun;

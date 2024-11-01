@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-pensive` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-pensive?s=sharp-regular face-pensive}
  * @preview ![face-pensive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-pensive.svg)
  */
-const FacePensive: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM208 368l96 0 24 0 0 48-24 0-96 0-24 0 0-48 24 0zm183.5-98.3l32.2 23.8c-36 48.7-108.2 48.7-144.2 0l32.2-23.8c20 27.1 59.8 27.1 79.8 0zm-271.8 0c20 27.1 59.8 27.1 79.8 0l32.2 23.8c-36 48.7-108.2 48.7-144.2 0l32.2-23.8zM74.5 200.8l14.3-7.2 22.9-11.4c14.5-7.2 27.2-17.6 37.4-30.2l14.4-18 10-12.5 25 20-10 12.5-14.4 18c-13 16.3-29.4 29.5-48 38.8l-22.9 11.4-14.3 7.2L74.5 200.8zm348.6-7.2l14.3 7.2-14.3 28.6-14.3-7.2L386 210.9c-18.6-9.3-35-22.6-48.1-38.8l-14.4-18-10-12.5 25-20 10 12.5 14.4 18c10.1 12.7 22.9 23 37.4 30.2l22.9 11.4z" />
-    </Icon>
-);
+const FacePensive = createIcon("face-pensive", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABmQAAAKUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCbwsGAAE2AiQDCAQgBYMtBzMbcgXIHoPjbunnFy2GmCxoQTEfEVT7ffbs23cArABJB6h8hIpS50iHSUUoFDZ1NjoV+f3/xn7dh9h81AcRl4R3QhNvJrZ9D5FI1c7//annOQ8F8BkFbSxbG2QsHbtrnVeggNGPHee1AlWopgWwMvZtmgUZhCF0RISNJhEd3zy+PSDHKk1AlHQpdAZOy1vFX+oGISkLAEQLADi4lxCFrS/6CjqtgPguAgTEAYARhAIQAwhsExbkA0SMgCwL/tDfH/0HcgggqsA/JYGMWpyDhwAySKqziGY/a5JR72WltEgyK6UK+qwp5sJPpIZCjyxn0DszG3bMhiNObeZJ8HhEsXvtkg1HnfttJ935bkWeSQ1FX/jvJCexOoaokyJiKWbmZjNSQ9YWdMmGLQSXjGjYwozmyWRVJVUTeqqpSd3h8h3RE88MDRui776yirIadcVoPDHXcM+Yis7ojUsjI/0puan/emfFZ7jcdNsA3jQwlzXWMLfhJjoRfYWgWno/bgcEbC+rSzqhrij8rsnNbbWFWrW+5v3y1O2kxe6vaqrCLVkCUP1vtqYDH8K1FUi/+sakAZO+4fqtHA94zRBbiq89Lre+fq286hr/0isACATnKzuzObLb/ySYEOBq5ecH7VtU2UpILwA1EgiK6YqlzAQSAQBI0Qz9BIHklDiOG5yhm3EdIvlV6iAu9JMbkNWZgtIQJ2rTukWYalkSoUOWh6TBAyis6oKswzKUth0GVTqisE/Gupjfw8RgwoIucTtrW+7OXzudNTkqn3rwbdm0GVfMAIliNao1KlKoTKMg6kXFTaoEa3iQD+LsWLPFuePH408xOVj1GpBa8+fneOD3fVPN+nYz0IQw6aJCkogk+PoLVrVF1Q1lzUUAAA==");
 
 export default FacePensive;

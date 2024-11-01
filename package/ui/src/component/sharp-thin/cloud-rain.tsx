@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-rain` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-rain?s=sharp-thin cloud-rain}
  * @preview ![cloud-rain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cloud-rain.svg)
  */
-const CloudRain: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M400 128l0 16 16 0c44.2 0 80 35.8 80 80l0 80-80 0L96 304l-80 0 0-80c0-34.8 22.2-64.5 53.3-75.5L80 144.8l0-11.3L80 112c0-53 43-96 96-96c32.4 0 61.1 16.1 78.5 40.8l8.9 12.6 12.9-8.4C288.9 52.8 303.9 48 320 48c44.2 0 80 35.8 80 80zM0 320l16 0 80 0 320 0 80 0 16 0 0-16 0-80c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C247.3 18.8 213.9 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 80 0 16zM68.9 444.3L96 399.1l27.1 45.2c3.2 5.3 4.9 11.4 4.9 17.6l0 2.1c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-2.1c0-6.2 1.7-12.2 4.9-17.6zm-13.7-8.2c-4.7 7.8-7.1 16.7-7.1 25.8l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8l-31.5-52.5L96 368l-9.3 15.5L55.1 436.1zm173.7 8.2L256 399.1l27.1 45.2c3.2 5.3 4.9 11.4 4.9 17.6l0 2.1c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-2.1c0-6.2 1.7-12.2 4.9-17.6zm-13.7-8.2c-4.7 7.8-7.1 16.7-7.1 25.8l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8l-31.5-52.5L256 368l-9.3 15.5-31.5 52.5zm200.9-37l27.1 45.2c3.2 5.3 4.9 11.4 4.9 17.6l0 2.1c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-2.1c0-6.2 1.7-12.2 4.9-17.6L416 399.1zm-9.3-15.5l-31.5 52.5c-4.7 7.8-7.1 16.7-7.1 25.8l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8l-31.5-52.5L416 368l-9.3 15.5z" />
-    </Icon>
-);
+const CloudRain = createIcon("cloud-rain", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABwgAAAKHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEiDeAsGAAE2AiQDCAQgBYMtBzEb+QXIjpTuLlRSPDxfl9+5ryqqDtid78qHNBAcrAbCjlwJ2+l4/59rPj86igb5Rod2W1slSCRGlI+mDVSFRZHCAxv4hCZgu1p38EMObedD8xHyeN6BGki3pQ9wjfum8YtRLiTJMgDRCYD1dtlhK698F99FvF9/knjfFgiI9UApkCHDWAFWywTGypXI5YLvol4X/4ElAUQj/3EJ5CjwNX4G5CBpzvOZA9V+7t83qtLQlu+s9y0OESrx5IzHxomiNeK8MXdMq4U/855ZQ8venNMXtXikMsXvWyk6giLunjm41Jt0+eSXNn5i+qNjxYPyRf3CTvNmz5sTNxHn9t5YXF69OSLOq1VvJG7ru2nKI7VbWiNYXRjV6I35C9vuMmfuHNF5XnX+ovnO9ImDnYO/DXxw8AeuWafTP13nQTvHtra9dltjfvzxkAdUVDUPDp478NQZ3ra6f0p7zcuzdLbtFaOdxh3Tdt+f/3dUPVtr6thW54ZnDPuhNimS9ksvbcdfQtKy6adHtCfZh1/Nn//V171J+xE/usc1/hlpmkv+4xr0nckphXn46n98+eymdT84+n4QCNb5qH/GPh2r/2uuJPDDc7/IfkX1V5I0iGYJBNns+mx7JpAIAECKk01MEEg+1sz3tLpZHOkpEMrRqMCezBidFeQKs6DBeEvEhct3kIm8Rei1F4ak1XGQWeosyPV6HBqs9razUW9kQC4FUeklZqqNm8hGw8oFc+eXK8vRhEIGt6LVuKpcrJl+siyYgbc62DGOdqKDHOgwJzaY423lOclRNp7CNvJBpQXmmq+0Urk5fXf9zg5yvBMc5hhHO62sUh7vmO7k6fIzsD7xBReKShKRir8dqueciQAAAA==");
 
 export default CloudRain;

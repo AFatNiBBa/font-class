@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up?s=regular up}
  * @preview ![up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/up.svg)
  */
-const Up: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 82.4L334.7 232.3c.8 .8 1.3 2 1.3 3.2c0 2.5-2 4.6-4.6 4.6L248 240c-13.3 0-24 10.7-24 24l0 168-64 0 0-168c0-13.3-10.7-24-24-24l-83.4 0c-2.5 0-4.6-2-4.6-4.6c0-1.2 .5-2.3 1.3-3.2L192 82.4zm192 153c0-13.5-5.2-26.5-14.5-36.3L222.9 45.2C214.8 36.8 203.7 32 192 32s-22.8 4.8-30.9 13.2L14.5 199.2C5.2 208.9 0 221.9 0 235.4c0 29 23.5 52.6 52.6 52.6l59.4 0 0 144c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-144 59.4 0c29 0 52.6-23.5 52.6-52.6z" />
-    </Icon>
-);
+const Up = createIcon("up", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYwAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBTwsGAAE2AiQDCAQgBYMtBykbyATIjtRG+UVWEsHzc/855yZZyF+GLACDQtTLtq7sysKVLbnWvsysff/7m+f//NMHfPYBaDWw80AW+JznCXSeL46wbJ1nmoClbmMPfziKVeQIHhFDkoXmBnlciAcK0sv0I+7Xk8Zf2rtJUmQAohkApq1ZscjXv8fvET/UIn6wAAExDVQCGTJ0EmCiTKCTXIVcLvg9ajX9B1YEEPW0vSeQI8d8rALkIEl53rFPXdE4X11XlBtWrV711NWyjNftRBkRr3qXcSuutV2z6lqb1fGsvNVqZTzxsvXTXnUhhHrX9nnHiJXuH5t9/Kfbj7t/9NWhe0/9EZHyYoVlrd+b6r3Wy1Yoioh7T7960frXR/zYosWPD/m3db1f/9k6wQPZTz8PnWrozz9lD0yw9Z9f6wGBYM+ex8e2NJ34X4O6BP789P/hM6n9HlfTRzSQQJANrA20Ma5CXBUAgBSndY+rCCTTJXDURp4JEEoESOopBch01EyAXGmAAIUuRglQT2mFTOQNhVY2DUgaOQaZ0S5BrpVPoDDRN1Y9rSLjk2CD+M6lz45o1lA1bPDQany19HRJEebdCdW20fe0Zfph0W5HHHbSLjvtczKQ4xa5pxwyO8OzvKgyzGBDVcarjsPn6dV2Oe6EfY44XPpMUN03+zqdl/fDGAkw/CWYWZHSqaMAAAA=");
 
 export default Up;

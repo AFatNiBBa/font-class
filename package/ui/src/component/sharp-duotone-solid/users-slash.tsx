@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-slash?s=sharp-duotone-solid users-slash}
  * @preview ![users-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/users-slash.svg)
  */
-const UsersSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 320l235.3 0c-20.6-18.2-35.3-42.8-40.8-70.8L121.8 192 48 192 0 320zM76.7 36.8c42 32.6 83.9 65.2 125.9 97.7C215.9 120.2 224 101.1 224 80c0-44.2-35.8-80-80-80C115.7 0 90.9 14.6 76.7 36.8zM128 512l384 0-5-16.5L324.9 352 176 352 128 512zM243.4 166.2c50.6 39.2 101.1 78.5 151.7 117.7c13.1-16.4 21-37.2 21-59.9c0-53-43-96-96-96c-31.3 0-59.1 15-76.6 38.2zM420.3 303.5c7.1 5.5 14.1 11 21.2 16.5L640 320 592 192l-148 0c2.6 10.2 4 21 4 32c0 30.1-10.4 57.7-27.7 79.5zM432 80a80 80 0 1 0 160 0A80 80 0 1 0 432 80z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const UsersSlash = createIcon("users-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABjQAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCHgsIAAE2AiQDCgQgBYMtB1IbQgXIhofn7fo691X9HkA1NiOIKyOIwNDRxj116nmmhbY/hyBoY9PSgCQdE/c6r0DPx6Jcdc3zaoVqit2bRpNE7YmSSU2SP9bxRHvIU8fspArSPel7XAn/Axh/aeIkSZUMQNQGwOiFc6f7+Lf4LcX35deJ701DQIwBhUCGDM0FGCYTaC5XIJcLfkvlMr9FuVwQQJSEN2aghCrYioOAHCShlOd1qtXC1Do1qlXUyBe4iKpL23dovzvaR7foEHvM/T2jWtVqz7ZcEFVj3tIn2kd8MPy5Zg92eXbA690W16heo2F08XcGc+8Mfq5V6ufd5t9qEAFWtbjilvu7LXxg8DtD38PdQ94d9HbzNs/Wfvaf1t9v+F7zj16ECt7Twxd6yPbRv+ic85MGmaLnkWlNe/TglVcG1IoF62u/sqbPD0fpIzO9ccUtPR/as3hIVw5fGZQqP/vs0Xjt5XNzxzJ27pd6HnHTiDo1Hqn2a/WN+/dvrJ5eBwLBZz/93W1lrWH/V66WwB/v/venvVz543Q0PYvKEgiybuVulqWjAPwAYikOaCPMUiAzxyF+a3W3BQhVESApqSpAppnaAuSq6ipAhZb6C1BS1VyZyKsI9S2vIKluN8gMcAjk6nsNVBjmq6CkfmSKJ6uN/O3LmMCh8dOK3j16FUOKYVlRdEn040OLabvTAdvWGSJtsNMO+6y3zmb7GLnH9Ph+202QiPF+qNBbD70UhiiWa7fGAhbssdfmvrY+yVDFfr+TA3LvzuAlJNjHlkxGpMjqKXJ+973bVu/d1P0KdzRotdsK");
 
 export default UsersSlash;

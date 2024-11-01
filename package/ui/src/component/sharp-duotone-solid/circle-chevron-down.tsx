@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-chevron-down` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-chevron-down?s=sharp-duotone-solid circle-chevron-down}
  * @preview ![circle-chevron-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/circle-chevron-down.svg)
  */
-const CircleChevronDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm118.1-32L152 190.1l17 17 87 87c29-29 58-58 87-87c5.7-5.7 11.3-11.3 17-17c11.3 11.3 22.6 22.6 33.9 33.9c-5.7 5.7-11.3 11.3-17 17c-34.7 34.7-69.3 69.3-104 104c-5.7 5.7-11.3 11.3-17 17c-5.7-5.7-11.3-11.3-17-17c-34.7-34.7-69.3-69.3-104-104c-5.7-5.7-11.3-11.3-17-17z" />
-        <path d="M256 361.9l17-17L377 241l17-17L360 190.1l-17 17-87 87-87-87-17-17L118.1 224l17 17L239 345l17 17z" />
-    </Icon>
-);
+const CircleChevronDown = createIcon("circle-chevron-down", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABjgAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCDgsIAAE2AiQDCgQgBYMtB2IbQgUR1ZqJyD4S0+0ssjmTJH9MmS/x8P9rZff9qu4AUAUYFRMLR3Kiwsuo56xktboDYP6v+fzSjg7wA/hlWuRmCRIRzyew56mHC1qLTGimM7DtrloeyrT8JC1mIY+P5vG8u0AeP2fnlUhP0re4Rf8DGH9p5TxJrQxANATAxEXzZvhQHdUpvq28FN+ajoCYBAqBDBnaCjBGJtBWrkAuF1SnSkV1VCqFAKKM3p2BMkrYiAOAHCQh5XmrNr3qlOrlC+no2ot69+i9KHrHuOgR82Nh9Iox0TMWuCt/mxjx0Yzv6lyb9cPkTxb9Punjmd/Xvjr92wkf5i8aP2a8br3oHfFHLfAHzfD7TbNvxjztka2HzSF5N+55L7ii0/OGz//p+O3Gb1UWsGkTGmHhQoxo1En/YGotWlV9NHnyR1WtapnKm5lzoEOjxK4cWDB/6oLBg4ZMOXwJc406LVjQSSo7tJEpkzsPrlR4HQgEZxYePbmqwZj/a9ZJ4I9X//2Zf0gqH5L0HDUlEGR9Kn2WJ5AIAECKgzolDiKQmSpJn1rXQwFCbQRIymoLkGmjoQC52noLUNLeUAHKapsnE3ktoakVDiR17QGZYU6AXFNVoGSML/JlTSMzOM5cuM+9ZDGNQ1PXFQP7DShGFcOmwtsQg8uji2m7x0E/1BNSbdy1c/+G9Vv2M3LvjNKBHdM0YuoXi4H9BhSjiu3ObfnCDXv3bZHF/VVGF+fDHgf1yT1hMwkw6KpqMiJF1ubHnPK+6zZvOLh3186+tqj3fb4T28niawUAAA==");
 
 export default CircleChevronDown;

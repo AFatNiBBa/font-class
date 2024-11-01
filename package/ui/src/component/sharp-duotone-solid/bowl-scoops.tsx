@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowl-scoops` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-scoops?s=sharp-duotone-solid bowl-scoops}
  * @preview ![bowl-scoops](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bowl-scoops.svg)
  */
-const BowlScoops: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 208c0 17.2 3.9 33.5 10.8 48l189.4 0c-5.3-15-8.2-31.2-8.2-48c0-22 4.9-42.8 13.7-61.4c-19.8-30.2-53.8-50.2-92.6-50.6L112 96C50.1 96 0 146.1 0 208zM122.6 64.4c40.9 3 77.1 23 101.4 53.1c24.3-30.1 60.5-50.1 101.4-53.1C307.5 26.3 268.8 0 224 0s-83.5 26.3-101.4 64.4zM224 208c0 17.2 3.9 33.5 10.8 48l202.4 0c6.9-14.5 10.8-30.8 10.8-48c0-61.9-50.1-112-112-112l-1.1 0c-38.7 .4-72.7 20.4-92.6 50.6C230.7 164.2 224 185.3 224 208z" />
-        <path d="M448 256L0 256l4.5 44.7C11 366.2 66.1 416 131.8 416l60.2 0-80 72 0 24 224 0 0-24-80-72 60.2 0c65.8 0 120.8-49.8 127.4-115.3L448 256z" />
-    </Icon>
-);
+const BowlScoops = createIcon("bowl-scoops", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfQAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBbQsIAAE2AiQDCgQgBYMtB1IbEQXIhuB5u6h6/XtmAfXaPilyBiAT++AJsoMQ7sz/5fSGbTrAb3RoYy2QBb4b+3kCAWd5QGc97yWQaQbW7myeFbV2EmuxJMdnOR6fJ+TxWLpOheyOrIZb6H8A4xedXEemUQIQLQEwc/3qpcov48ssavVniZolCIhZoBBISOgqwBRJoKtcgVwu+DKr1/ky6vWCAKKKsMSshhduwE5ADjIh5Xm3Ns3aNKk0y9c1qTTe3bRZ027xwMSX5jaJNSGaRMQ6XOj9ya/07hFXdWoSd8bVXe7s92i/xvHsgMe7rn936hvz7xz0ZOPrBzzeca2V3BX3touNaxwP93m44+N6Pdnyyd961vbVvPFGWZZLrBw+vJhi+XwdfaljTqYoNLTzU//s/MhrznXq+cn3l99Yhj//uNDiklu+37bt+9r9D/Tq9cD9tT23dH7kI490bnHhjz9Dednl/3fqDQSCRi0+fHp7iyn/NWySga9f/uNn8XdUL6PMnkRDGQjSkPoQW6KEKAUAIItzekUJAsloCb9rU7cKEBojQKaqsQBJFy0FyDU2WICK7sYKUNXYaknkjYS2tlaQaeokSMa5HOTaegZUTPF+VdU2kn8J3iE871LnSXTurWLksBHFpGLYKaLLcOlycjHtDjiHGwPhoX2OO+aMvfY46IxgTlnannXUPIue64sKIw0zQmGSYnlcq+tEcspp5Pry+jWTFfvLAc7Z+wdCkGHWUe4kicgitbmwl0NPf0cRnh56VLfaaflUAgA=");
 
 export default BowlScoops;

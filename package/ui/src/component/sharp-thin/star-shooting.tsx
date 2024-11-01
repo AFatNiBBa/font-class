@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-shooting` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-shooting?s=sharp-thin star-shooting}
  * @preview ![star-shooting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/star-shooting.svg)
  */
-const StarShooting: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M309.7 21.7l-72 72L232 99.3 220.7 88l5.7-5.7 72-72L304 4.7 315.3 16l-5.7 5.7zm192 0l-168 168-5.7 5.7L316.7 184l5.7-5.7 168-168L496 4.7 507.3 16l-5.7 5.7zm0 192l-72 72-5.7 5.7L412.7 280l5.7-5.7 72-72 5.7-5.7L507.3 208l-5.7 5.7zM202.4 162.1l50.9 103.1L367 281.7l19.9 2.9-14.4 14.1-82.3 80.2 19.4 113.3L313 512l-17.8-9.4L193.5 449.1 91.7 502.6 73.9 512l3.4-19.9L96.7 378.9 14.4 298.6 0 284.6l19.9-2.9 113.7-16.5 50.9-103.1 8.9-18.1 8.9 18.1zM251 281l-8.3-1.2-3.7-7.5-45.4-92.1L148 272.2l-3.7 7.5L136 281 34.4 295.7l73.5 71.7 6 5.9-1.4 8.3L95.1 482.8 186 435l7.4-3.9 7.4 3.9 90.9 47.8L274.4 381.6l-1.4-8.3 6-5.9 73.5-71.7L251 281z" />
-    </Icon>
-);
+const StarShooting = createIcon("star-shooting", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiQAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCdQsGAAE2AiQDCAQgBYMtBzQbeQXIjsO44TuyxVKGeIyH79d8z327+VzkLTEkKRA7QNmpI6HIEjsUmm2nsgqL+X3imvphTX+eJK+PVItKi8Ld07LORwMa6Ci1Smg2sJlOwLa47SqIaIgjJPaQx3M7lUi3ElyrPzR+6OQySZYBiJYAmFldvdSbr/E14uP/h8RHixEQM0EhkCFDVwGmyAS6yhXI5YKv8f+/+A8sCCBqJEhydo5aXMVDQA6SUp63QuUDBzaWmuUVs7Rhz5rqmrbRPjpElc1tF20bJ4LKt5cr5XL0bYKxJlimU/SLiqT7RJeo0u2jf1SNXVZz5fbt2rfXtrYHLe1q9Q1LmYAddlR63Wt572dPuxl7d35StsY9c9UW3PPmdqJEgG6h4an04NGjdqdXHGtplE9WLdfmqN462jnWrrE66j2RltKfjHKgYrdjLow4fTS5drwhGwzdYLyjdjW3cJ6yOq12Wj/cDicqaRCuU16WNl8HgeDQrUq/LS2m/KprTOD7sz/Uv6L/b+J3uoc6CQTZkP9DbExQit8CAJDitF4JAskVJcm7NrkuQGhAgKRGgwCZLloKkGswWICS7sYKUKPBapnI64W2NvV80uQYnxnnDJ9r6z5fMsXbbI22kYGoCmDqH2KmeWN47qJi5LARxaRis6rVQZ1spycXp10DTsuugXij3Y447KRddtrn5Ig6bmnhlEPm7ZFzfVFhpGFGKExS3G48X12xy3En7HPEYT/LZMX7sQFO7w8eiL1JIjqKJklEavYNaYee2HvkyMl9h/cAAAA=");
 
 export default StarShooting;

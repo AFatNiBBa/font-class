@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial?s=sharp-regular dial}
  * @preview ![dial](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/dial.svg)
  */
-const Dial: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 0L256 0l0 64 64 0 0-64zM128 64L64 64l0 64 64 0 0-64zm384 0l-64 0 0 64 64 0 0-64zm0 192l0 64 64 0 0-64-64 0zm0 192l-64 0 0 64 64 0 0-64zM64 448l0 64 64 0 0-64-64 0zM0 256l0 64 64 0 0-64L0 256zm208.8-47.2c37.9-37.9 96.2-43 139.6-15.1L271 271l-17 17L288 321.9l17-17 77.4-77.4c27.8 43.4 22.8 101.7-15.1 139.6c-43.7 43.7-114.7 43.7-158.4 0s-43.7-114.7 0-158.4zm192.3-33.9A160 160 0 1 0 174.9 401.1 160 160 0 1 0 401.1 174.9z" />
-    </Icon>
-);
+const Dial = createIcon("dial", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABggAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCPwsGAAE2AiQDCAQgBYMtBysbOgXIjsQ4JvJIF0fx8LxdX+e+rq/uP3QN5BopghlZEbSbDqMVMziHsnUkNHOLYuD/uebzq6ID/GRnh5ax0NQ1RuTzCUyofJg0oYHNdAK2tw0dNoISCqohUSHSmI7X6gpZfBbXVZFuJ7iWPjR+0MZpkqoSgGgMgEmL58/z9tfxdcQH/79AfGAOAmISyAVKKKG9AOOUBNrL5Mhkgq/j///pPzAngKjGdHJzhgqO4QIgA0ldltVxdYd2laoG2aJ6rLy5XCmLSsSCjjfIESgdZRNeHyzCVy1+PDLipdELoleMj76xOJ62v9fr9fInvBmbuPjRiIgXhz3f60F+T4f7vR8Of2HkS30fd3q24zN9ujxq/OinzjZ9aOJbRVEUCsVbE2NwHCW+3WO5/OkA65ifzZ2LJoDaYniPDxvXv3GU8/FW518ucenR4y++ePXRyy//J3roeSAQrPjur42rG437tbaSwLev/vJL+xn5/+1UpEeolUBQ6vd/PytSAakQAIAUh3RJBQLJYXX4pno3BAhlBEiqlSGUtNMYMmV9oUpHwxWlPV/VHlmd0NxKhKTeXigZ4QhkmnsOqozzTr5a8yj5oeZF2jMwe7pEph3KBw8YlI/Jtz1Ddy0l7o7N1bFeh8JMb7hok912OWCjDbY6IMR95pUO2mn6SZjmi3KDDTBIbozcPHy2F4n8PvttXQfs+4yV30/1cui8vDckE5Ydoi1JRMq+CQA=");
 
 export default Dial;

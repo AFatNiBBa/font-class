@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-plus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-plus?s=thin calendar-plus}
  * @preview ![calendar-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/calendar-plus.svg)
  */
-const CalendarPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M120 0c4.4 0 8 3.6 8 8l0 56 192 0 0-56c0-4.4 3.6-8 8-8s8 3.6 8 8l0 56 48 0c35.3 0 64 28.7 64 64l0 48 0 16 0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192l0-16 0-48C0 92.7 28.7 64 64 64l48 0 0-56c0-4.4 3.6-8 8-8zM432 192L16 192l0 256c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-256zM112 120l0-40L64 80c-26.5 0-48 21.5-48 48l0 48 416 0 0-48c0-26.5-21.5-48-48-48l-48 0 0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-40L128 80l0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8zM320 344c0 4.4-3.6 8-8 8l-80 0 0 80c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-80-80 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l80 0 0-80c0-4.4 3.6-8 8-8s8 3.6 8 8l0 80 80 0c4.4 0 8 3.6 8 8z" />
-    </Icon>
-);
+const CalendarPlus = createIcon("calendar-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABkgAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCYwsGAAE2AiQDCAQgBYMtBzQbZwXIhqCyhfbs3X9JD0I8EZ+QwXbkzCkxfGagIAHMMCKY/7Px3p6PBviNhnJct40u0N1dlycQYHboXp5FaRZYpglY1uZ4Bx3k5QYdDnmq5KloWPph6w553OmQCun29DGubR8aP+jpKpIsAxAdADB/68bVWl/H1xEf//8y8bGVCIgFoBDIkKGPALNkAn3kCuRywdfx///5P7AggKjCSxPIUcXNuAuQgyTP88kdhw6oV5r5lnqltvPmrqIeEbd258iHRzzeU4gUtw1/bHAjHhn5RK8sJL1z1JPDXM/e32g2Utze9eYhzXi0+629swMhavFQl5t6iGZE3NHtlqG1EDd1uaVbBPnNvbWD14Nbu7+Ky8iBT3R44qcBHx/52BXv7qtO0zJNdR/Pl+7r2LFW6oAarfvmWQhcSqXLn/rufbhK9snn5Tzl559k5i4dDqmceek+5XFUGn5nMlyL+mdfjWiddUoqnjrt40Ag2PrM69/vbT/r1zb1BL5945e/0s/I/61opSfQRgJBNvr/0XZFC6IlAAApLjcwWggkV8vhXRtuESDUECCpqgmQ6a2DALmaUQJU9DNZgKqajTKRtxW62D1B0nAeZKa4EuS6eBFUzPJeVtUlssik44r+MUxYYuHFp4rxY8tiRnHaIBNsZN2fWbiN4ZeXuRFy0xFnnXHJYYccd8mgF6wuL3PakhWy2BcVxhurVJihuNy/vbzFYRdcdNxZZ/SYmYrnk+EuX68eIXYCzAkqSSJS88MVx4Q2AAAA");
 
 export default CalendarPlus;

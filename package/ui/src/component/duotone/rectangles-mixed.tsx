@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangles-mixed` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangles-mixed?s=duotone rectangles-mixed}
  * @preview ![rectangles-mixed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/rectangles-mixed.svg)
  */
-const RectanglesMixed: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 352l0 80c0 26.5 21.5 48 48 48l176 0c26.5 0 48-21.5 48-48l0-80c0-26.5-21.5-48-48-48l-176 0c-26.5 0-48 21.5-48 48zM384 80l0 256c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-256c0-26.5-21.5-48-48-48l-96 0c-26.5 0-48 21.5-48 48z" />
-        <path d="M0 80C0 53.5 21.5 32 48 32H272c26.5 0 48 21.5 48 48V208c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80z" />
-    </Icon>
-);
+const RectanglesMixed = createIcon("rectangles-mixed", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABgAAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBZQsIAAE2AiQDCgQgBYMtB1wbEwXIHgPuxlnKzTmx+QWBrYuELh7+f+1/+9xzZ77jVs0SHpKIZc+EZh7xRCbkeaEhs6hkGmuNH3/z3f/ZmnrWXqQlmmUZpQXewDkXZRtmWIlstFFp5+9+lPfYpfEDfsDjB31/tD10TvDOFW+8OOO1ptxNX5EK1RS7u8g+k0R7KGk5l+Txs8fPDWr8zxsN5bXoAB7G/wGMvxg3xUQCiDkA4MDJKAQePfUluuEjOgFAQBwEYA1CIrECgd2kwAqKNaCqgr4MA/QxDAwBRCt+LEGLBicAzgFABUUotS6jTG1m6on08mS+DSNeRlPxwX/OoFfeM30yPgYv2DgJ9HpwwpiKT+FLLuKN8czJeL/coG+WLFNsNln3UF+fSnejs+cI8GNLz/0xkg+QI/aw7+IhIhrwbeUQDvfNxoFL7dAYBIJnXfwuI3f/I9QC/nx///P7hr7sL1/BuAKC3DBssJf9ABANAmWJ+1SBwiOlHQT61mkvBAiTCFC0JgVIy1kIVJPWI9BYZUCgNekoWNQJYYGDYTHtFky7XLBa4IWN3f6itSBStyjNoL528X4NvG1yU9a88rKl0OpC+NWNt/X4tCMJXARam9VNoza4VcgprO8WvoT1fiRrlGpsxY679+dTjdNlsFnDOhu+b8dOeXoCFoRwt7kuJVEil9y+Xt2KtZuby3r2sqWok9kh+ywBAAA=");
 
 export default RectanglesMixed;

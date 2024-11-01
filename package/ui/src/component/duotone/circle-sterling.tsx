@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-sterling` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-sterling?s=duotone circle-sterling}
  * @preview ![circle-sterling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-sterling.svg)
  */
-const CircleSterling: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm160-8c0-13.1 10.5-23.7 23.5-24c-.1-11-.2-22.1-.2-33.2c0-1.4 0-2.7 .1-4.1s.2-2.7 .3-4c.3-2.6 .6-5.3 1.1-7.8c1-5.1 2.5-10.1 4.5-14.8c3.9-9.4 9.7-17.9 16.7-25.1c14.2-14.3 33.8-23.1 55.6-23.1c10 0 19.8 1.9 29.1 5.6l30.3 12.1c12.3 4.9 18.3 18.9 13.4 31.2s-18.9 18.3-31.2 13.4l-30.3-12.1c-3.6-1.4-7.4-2.2-11.3-2.2c-16.8 0-30.4 13.7-30.3 30.5l.2 33.5 32.5 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-32.3 0c-.6 16.4-3.8 32.6-9.5 48L328 320c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-8.4 0-16.1-4.4-20.5-11.5s-4.7-16-.8-23.5l9.6-18.6c6.8-13.2 10.7-27.6 11.4-42.4c-13.1-.2-23.6-10.9-23.6-24z" />
-        <path d="M231.2 190.5c-.1-16.8 13.5-30.5 30.3-30.5c3.9 0 7.7 .7 11.3 2.2l30.3 12.1c12.3 4.9 26.3-1.1 31.2-13.4s-1.1-26.3-13.4-31.2l-30.3-12.1c-9.2-3.7-19.1-5.6-29.1-5.6c-43.5 0-78.6 35.4-78.3 78.9l.2 33.1c-13 .3-23.5 10.9-23.5 24c0 13.1 10.6 23.8 23.6 24c-.7 14.8-4.6 29.2-11.4 42.4L162.7 333c-3.8 7.4-3.5 16.3 .8 23.5s12.1 11.5 20.5 11.5l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-105.8 0c5.7-15.4 9-31.6 9.5-48l32.3 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-32.5 0-.2-33.5z" />
-    </Icon>
-);
+const CircleSterling = createIcon("circle-sterling", true, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABrAAAAKwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SCeQsIAAE2AiQDCgQgBYMtB1obpQXILgrsBu2AI9LhE0NQvAij+hEuHr7GaO/v7omhYk09uTQzr2RNngjphkoJ+A/7e8/90PuwlqhkNUdmJTqCcUtLqmZaW1z+RJO73jjFAKzmdcgQ87z8f88YuzT+9Jse8EDg58bPgyzA3TXjjRcbL8haIGPGW5Ga1sC6O1urObTllZaQcFzs+JRyhBJ/2KPgku6xLgBX5H8A4x8MTgJJTQYQzQDA9OWL5/ryQz8s+p04IH6jGAExA9BNICOjkwCTZIFOim4oiqCRlQA0UoIdAohK8vkZVKICjwFvAVBAElIp40z5DLehLGO4tauHdER3mHGNh7ZM614vLYmO/LtmxEv9qmdFr6cFzSLDxBvTmldED0x8ki70mEv0teSSGS+7zj+ve8o7K70SjRVf5JxU1z3wrdEQLSNNsG7ZPUiejupX1o6pF9QWYuKVYcUtort6fO157ZLOROumbaNzX77/R+0X+IXkLHBWwl34jqIb1YF3PMrkNTXhwPTWmgrN/DCatm1tmEGFCrudFthhNzv4gsIaaL+n5n89TIjZnFd3e8LXVKBZWJEQOVf1admvkcsePpA6c4XvqKiQnB0Uk2le9elufPAMJFt7Vh/HBrdCAxAIps/92NrWNONfwCTw9/hBv6P/z0J6D6iWQJAHJRprEiARAIAUB9Ej8AgQyNZJwrvWuw0CoRYBkkq1AmQdNROgqDVQgApdjBagUq3Fsig1QitrE0jq7QHZGIdA0coHUGGSb0GlVsW2Us7GuEti8hwNzZ7ULSkat6fZq7nIGx7jh9Pt3bZ/wDUFYKaNdtlpvw3W22K/ovaaGx+ww5wWOdsXdTPcEMN0M0G34cq5vAyDvfbZUhbHR5mo23q/n4Ptzv1hOgkwYn8TmUiR277mGRvc27dh73eX+uAj37Z9STzfAAA=");
 
 export default CircleSterling;

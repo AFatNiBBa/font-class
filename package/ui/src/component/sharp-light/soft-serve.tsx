@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `soft-serve` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/soft-serve?s=sharp-light soft-serve}
  * @preview ![soft-serve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/soft-serve.svg)
  */
-const SoftServe: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 0L162.1 0l16.6 24.9 10.8 16.3c1.6 2.4 2.5 5.3 2.5 8.2c0 8.1-6.6 14.7-14.7 14.7L120 64c-39.8 0-72 32.2-72 72c0 10.1 2.1 19.7 5.8 28.4C22.5 175.2 0 205 0 240l0 64 0 16 16 0 32 0 0 64 0 16 16 0 19.9 0 12.2 98 1.8 14 14.1 0 160 0 14.1 0 1.8-14 12.2-98 19.9 0 16 0 0-16 0-64 32 0 16 0 0-16 0-64c0-36.2-24-66.8-57-76.6c5.7-11.2 9-23.9 9-37.4C336 56.4 279.6 0 210 0L192 0zM80 320l224 0 0 48-18 0-14.1 0-1.8 14-12.2 98-131.8 0-12.2-98-1.8-14L98 368l-18 0 0-48zm256-32l-16 0L64 288l-16 0-16 0 0-48c0-26.5 21.5-48 48-48l.8 0 31.2 0 8 0 8 0 0-32-16 0-24 0c-5-6.7-8-15-8-24c0-22.1 17.9-40 40-40l57.3 0C203.1 96 224 75.1 224 49.3c0-5.7-1.1-11.4-3.1-16.7C267.7 38 304 77.8 304 126c0 13.1-5 25.1-13.3 34L240 160l-16 0 0 32 16 0 14 0 43.1 0 6.9 0c26.5 0 48 21.5 48 48l0 48-16 0z" />
-    </Icon>
-);
+const SoftServe = createIcon("soft-serve", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABjAAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCYQsGAAE2AiQDCAQgBYMtBzEbYgXIjsO4sRuZaOVL3BF8ryvrJ2m21l8L8lpjQBn4YOCYwJQdcgaEGUIGFBLEgzi4HYRCTDyM+NPfz/N//hvwGX2UKvq9Cou2R8s6n8BAR2FV5wPZbGAznYDNb+d3kSPRWwzXJQX9DOMZpn+EIq6M9bTI7smKm+qHxq9mWEemyAFEBYDt58C9vftj/Bjx8eAl4mN7IiB2AI1AjhyzBdhKLjBboUGhEPwYg0H4D2wIIIbgxTJQoIXb8ACgAJm8KHZud8vWaHFI2UpHpjItj3bc4fY6xYPLHp2+qv3g9LsJUZaEHxxtfFocSkfETatn3rvkvrht3t4lHVamUqRUx0GR4pCYquwhnMqRiPum3bWUAyndyaxyXr2usQJPfWn5Y3NW1Snd3uqh9h0zRFrwePX47/M/PqXeeWcuHhj2jCnF6Oeb+7HfHxs/6rJffpm1nUrVuCV1ebw5xp6eI1XXVWU7Da2Z/e9/u6pu9RbuN3Hutj8i3TExtuGss5+Y6AzmxS07Hfkn33Ziw0Y1/fKxya8/MXlz9VBaDy/tn356Ic/uV41qu863n+QdFRAIXv3m7YuPHd/q/+EyAz+//uffwq9o8G6syh7DMhDk6w3Wc1RWQawSAIAsLrEgViGQuU4O7zriTgFCQoDMkCRAbpZKgEKyUoCWuTYWYEhyoFwUk4Ta0QoyI84HuU1cDQq1F0DLVt7LDKkjN0zRrMT/wrRdemTnRU13g06zRTOtEcnW+Dy7ZXNsLruEe5bTRqc41zkucrKTnO6ijr7A3vmLnW2XFbqzL2p0baCjsYXmc/Nx9SFOdoELne5c55R5ttTcjy5zyXr4cnIyYOyBMhmRpVdsrP92AAA=");
 
 export default SoftServe;

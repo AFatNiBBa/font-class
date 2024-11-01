@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-medical-circle-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical-circle-xmark?s=duotone house-medical-circle-xmark}
  * @preview ![house-medical-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/house-medical-circle-xmark.svg)
  */
-const HouseMedicalCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 255.5c0 18 14 32.1 32 32.1l32 0 0 160.4c0 35.3 28.7 64 64 64l266.7 0C349.5 480.1 320 427.5 320 368c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 40.2 0c32.3-39.1 81.1-64 135.8-64c8.9 0 17.6 .7 26.1 1.9L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24zM320 352l0 16c0-5.4 .2-10.7 .7-16l-.7 0z" />
-        <path d="M352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm203.3-59.3c-6.2-6.2-16.4-6.2-22.6 0L496 345.4l-36.7-36.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L473.4 368l-36.7 36.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L496 390.6l36.7 36.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L518.6 368l36.7-36.7c6.2-6.2 6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const HouseMedicalCircleXmark = createIcon("house-medical-circle-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABpAAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCWQsIAAE2AiQDCgQgBYMtB3AbmwXIjsK25RNzKOMSHwZERHCIh+/3Y5373kfEf0MliTXzyBAioUEjQdOWmE5jOrtbt4Tvw4/L9+4G4Q9mWxKd1A714gAmOMQLZVDdJi53/rZpLF327mtXtEGWjzHPE+g8kOJtgbWF0gwt/2/pFxUlXZMnlXyZ+/Z2OI3toUhe0hnUkD4kD3jJ/wMY/w2YgaQhAyDaAQA7N9lZuFTzT4qHapf4dggCYhdQIjIyhhGskwoM01CCQiH4I6kq/rCqSgggapHBzK819/IM3gAUIElSoWHvkqatr2mokdekqVf9GERuxJ3oz8UcBazhwX81+lBvNvY4cJ35rxbxTKSXyCwTGE+J3DqJCZQorRKZxN2csCTllvpEfPgseRhSEZdZ6IW0FWk4pbU+Kbkl6KxcclXLPCr0FBYVlOEOPVrruS6bLL+6PNQ9uD3xEkDZZebpaWYuhBc0uaK72KWlPaSxks/PFYRri5f6MnyCpxcBFRo7TFX6GF8NDzBSl1AbLSBYIiWSUo3+xt4WhPAxvPo5xqu+atEvPoySyk1MTHS0CRAI3jz/1suN43919CWAf8fv39LF1WV6kCyDegkEeebfX0maAJw8gB+Voo9rmmAFCGT7JMqnNntFgNCIAEmtRgGyISYICo2mEdQYFYGgVqMLUlHoInQrbXzS7J7P1ozyhW47fI1119la3SFlpcYp7aMwOxOBjHUiJDBYxIppU9WJpsTlOLEd9e7zQz6yFXXatelRq0ajHsC7ZBV6tcpcYRm+SAgRKJgQS6g793YeZLt0axyb+lXiiPMZb33ryT6yGQlg6X5WZCJR6kpZP+At9QN+4okFDDDZD+D5tO5z89EGAA==");
 
 export default HouseMedicalCircleXmark;

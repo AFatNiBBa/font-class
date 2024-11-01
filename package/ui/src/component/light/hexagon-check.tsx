@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-check?s=light hexagon-check}
  * @preview ![hexagon-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hexagon-check.svg)
  */
-const HexagonCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 288c-11.4-19.8-11.4-44.2 0-64L108.3 64.2c11.4-19.8 32.6-32 55.4-32l184.6 0c22.9 0 44 12.2 55.4 32L496 224c11.4 19.8 11.4 44.2 0 64L403.7 447.8c-11.4 19.8-32.6 32-55.4 32l-184.6 0c-22.9 0-44-12.2-55.4-32L16 288zm27.7-48c-5.7 9.9-5.7 22.1 0 32L136 431.8c5.7 9.9 16.3 16 27.7 16l184.6 0c11.4 0 22-6.1 27.7-16L468.3 272c5.7-9.9 5.7-22.1 0-32L376 80.2c-5.7-9.9-16.3-16-27.7-16l-184.6 0c-11.4 0-22 6.1-27.7 16L43.7 240zm319.6-36.7l-128 128c-6.2 6.2-16.4 6.2-22.6 0l-64-64c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L224 297.4 340.7 180.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const HexagonCheck = createIcon("hexagon-check", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABawAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBWgsGAAE2AiQDCAQgBYMtBzQb3gTIvgxvTIP+QVCwLEZlkGWxKeKM+FIXXT//HHx+iNB4+H7td+7dh5h0syQaaZoYQmZIYRuisRCZ/odKJq8PP87eAMQ/iG1r0kkIcQjlzlFuboCHjKUEuKurRRmk0FJJ4gJqGSUv/MnM8pALiO+NErNFqSEoKto1glntvwqpn/9zPV/aGvATjCc2oWgs25vXFWDm8xM4sdQKsSg8O6AT47N29sOjRLcY0Ec+ybC9YbSEEi+UMcgXKtT5TePPHJNKBYAYBADHN6UMPp8X/puIbwcBcRKARRRUqDCLAvbQBGbRLYKiCFr+3X/gIgQQ7cCDJShowzm4BVBAqgpdPSnnZQG9Whjc2rbVXId47iwVl+ayCz/XvbVar6Jp4DlX1bSVVS0j14m83Mq1ckNZ1FK1K5j/VtFUe8XVSF+iuiZWjw6OVpsQ1Edd45+D+OAnH0FSv4eCy8vGeC3RqeUHsNTOBwLBz7e6K/4PKuD3Plhjp1ZEvQKdEgTVcrPuRAORhJBkrAat8kkgnaGhS+31KEDoRoDUrluAygwxCii6LaGANvMCKKBdtws0UTgIo3o6SL3uQWXXDihG3YA2e76SdqORrEqzCe1Pl52WUGoc0ekmUbIsqrqhKHE4RrYdVn2ThWZi1JxZy0YMm7AsuEWZ7IoZaY1I+SLCw8mNiCLHlcfJVSMWLZkwZzaNEkPuh2aremcL+VQQ3LQwJZGC8b4+MDY363ieAAAA");
 
 export default HexagonCheck;

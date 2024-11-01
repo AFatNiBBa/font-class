@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lemon` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lemon?s=sharp-regular lemon}
  * @preview ![lemon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/lemon.svg)
  */
-const Lemon: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 80l-21.3 63.7c45.1 87.3 14.5 190.7-54.9 260.1s-172.8 100-260.1 54.9L48 480 0 432l21.2-63.8C-23.9 281 6.8 177.5 76.2 108.2S249 8.1 336.2 53.2L400 32l48 48zM96.6 413.2l19.2-6.4 18 9.3c63.6 32.9 145 12.9 204.1-46.2S417 229.4 384.1 165.8l-9.3-18 6.4-19.2L393.1 93l-6-6L351.4 98.8l-19.2 6.4-18-9.3C250.6 63 169.2 83 110.1 142.1S31 282.6 63.9 346.2l9.3 18-6.4 19.2L54.9 419l6 6 35.6-11.9zM135 278.7L89 265.3c19.8-67.7 76.6-124.5 144.3-144.3L246.7 167c-52 15.2-96.5 59.7-111.7 111.7z" />
-    </Icon>
-);
+const Lemon = createIcon("lemon", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdwAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAwsGAAE2AiQDCAQgBYMtBywb/wTIHoVx41NCtuziEjU9InyUVzz8t1+7b/7MLmZNPWnyUPFIUyuVJhbTlsKh4j+Nw/8G8QZIbesLUaiSQwHz5VNH4NSpmrEsFMAnD+qYGNsg2fqhdA7uVaDn03rFMa1U3mC1imLNXa6UorEnsZQleby0x88ecnxFr0L6SEdEXvJHxT+p6yZJqQBEFxGA7cOEKFp7wxvQ4NNEgyKQgNgmwgigAjwAYE3sGxggZATJsuAXnNN/IEMBRA1fN4GMgmPkHoEMkirnQSsZydKeD+KSlhNbB9vrxKvYM780ORTecMBNym3CpburpAh4FZoYmhhhP2TXZ9Vg0F4DmtCFChxhCGMcBG55LrE+O3WoQQvKcElxdnIe9FkNCVMzY1r6E3IT73pHxUe0WoNhXX+5QLmgoMSgAvnr/uHELIxFWNmRRryhGoleZD4db8/Ubsck7fNghJjLDN70jjXZ84zsT3KRzTN11BvMEggEPy9S1Tmynv9Nkgn8LXx++gv5P7/GocAEmiQQVAvcUmasKcj/CAIOUjyTPr6JgOSIIHxqm1cKEFoQIKlpEaDSTw5A1mIeQDHECUBNi12CIjcLfbI6SNrcgcqqLpD1mQTFmt2gpi8ELU22E/mjlxEs8aBJzM7alrmzZaEpxiOmYQ+2bZo2hyYzrKViNao1KlKoTKPg6kXFTaoEa2yQH2LsWLPFuGPHlefVyYrUa1CmRjWN44Hd9001653NMB0BwOIbISkXqVwWVdVUAwAAAA==");
 
 export default Lemon;

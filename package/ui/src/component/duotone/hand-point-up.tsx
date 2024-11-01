@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-point-up` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-up?s=duotone hand-point-up}
  * @preview ![hand-point-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hand-point-up.svg)
  */
-const HandPointUp: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 336l0 27c0 33.9 13.5 66.5 37.5 90.5l11.6 11.6c30 30 70.7 46.9 113.1 46.9l61.7 0c88.4 0 160-71.6 160-160l0-8.6c-9.4 5.4-20.3 8.6-32 8.6c-27.9 0-51.7-17.9-60.4-42.8C281.4 316 269.2 320 256 320c-11.7 0-22.6-3.1-32-8.6l0 .6c0 39.8-32.2 72-72 72l-56 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l56 0c22.1 0 40-17.9 40-40s-17.9-40-40-40l-88 0c-35.3 0-64 28.7-64 64zM32 32l0 208 64 0L96 32C96 14.3 81.7 0 64 0S32 14.3 32 32z" />
-        <path d="M128 160c0-17.7 14.3-32 32-32s32 14.3 32 32l0 48c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-48zm96 32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64zm128 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const HandPointUp = createIcon("hand-point-up", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABngAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCZQsIAAE2AiQDCgQgBYMtB1YbjQXIjtRhLTIWIyh0/7on6ZOeGWRmrIAoDGVShTs0dXH5Jm3GVYgq4n3+L6c3nh8tkG90KGvRmO0BPrcnEGAvO2tM6iVwQmlkCWDqdGRHegjSp8eQMmsZ0+Nbj88LZHEkPaOC5PnkAa6fkYqfNHeGRE0KIOoBYNySBbN8VY5yEg/+/5h4YCYCYjwoBFLorRzFSHpIeKZAJhOUk///Nyj+AwsCiEr6S6egElW4jZcBGUikkixr0qTp0HqlitrZ4lJFvuJk04j7pcuN7xInGt3JLzW5F7EoYP16hCgxw/CEEF4f1Tg+X1SKH8Z8uSQiMd9pYYeL57q+1zGPe03uNy3F5ab342STe3kebwWVZisE6sEDLzW6o/0H9T541u7B5geOt61zgQt1jKHRF4Q+uuYOHisCOrHGIMC3t6W+KZv0gWfjjDYhHjyICTWeNmj8d2n+X40aPA11BgwoD1WuU8d21f/wE/U/+dBSr0kmb9vnSUuP9eS914FA8F6/D+avqTvy1+pSAn785M/tef9/FSeSD1AtAUHa8/+eVsYJ4HrQbyWJw9rHCScQSE2V0qjWck+AkCNAolIuQKqlegJkcj0EqNDGIAEq5RZIRVYjNLLqAola9oHUYEdBppGPQIWRvq5VahRpbQqVJfwapk726KRtRb/efYvhxWNLF8uNO1ZHFNNG18My0g2hNttjt4M22Wibgw7fb1bzkF0mZ9gkH1Top7e+CsMVy91HdbGr7XfAtlhe32SE4vtkV4fz6d1gJ5S2vz2plEgibVzLeq/CLfY6tLfXPp/QNJD3NA==");
 
 export default HandPointUp;

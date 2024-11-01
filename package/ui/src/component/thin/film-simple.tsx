@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `film-simple` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/film-simple?s=thin film-simple}
  * @preview ![film-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/film-simple.svg)
  */
-const FilmSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 104l0-56L64 48C37.5 48 16 69.5 16 96l0 8 96 0zM16 120l0 80 96 0 0-80-96 0zM0 216l0-8 0-8 0-80 0-8 0-8 0-8C0 60.7 28.7 32 64 32l48 0 8 0 8 0 256 0 8 0 8 0 48 0c35.3 0 64 28.7 64 64l0 8 0 8 0 8 0 80 0 8 0 8 0 80 0 8 0 8 0 80 0 8 0 8 0 8c0 35.3-28.7 64-64 64l-48 0-8 0-8 0-256 0-8 0-8 0-48 0c-35.3 0-64-28.7-64-64l0-8 0-8 0-8 0-80 0-8 0-8 0-80zm16 80l96 0 0-80-96 0 0 80zm0 16l0 80 96 0 0-80-96 0zm96 96l-96 0 0 8c0 26.5 21.5 48 48 48l48 0 0-56zm16 56l256 0 0-64 0-96 0-96 0-96 0-64L128 48l0 64 0 96 0 96 0 96 0 64zM400 48l0 56 96 0 0-8c0-26.5-21.5-48-48-48l-48 0zm96 72l-96 0 0 80 96 0 0-80zm0 96l-96 0 0 80 96 0 0-80zm0 96l-96 0 0 80 96 0 0-80zm0 96l-96 0 0 56 48 0c26.5 0 48-21.5 48-48l0-8z" />
-    </Icon>
-);
+const FilmSimple = createIcon("film-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABqAAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDbAsGAAE2AiQDCAQgBYMtBzIb7gXIrgpsY9JSo+hoB1NTCKGLyw7/4lPRbDz8/9r/9rlzn43gViFpwpuIJYhipYppFovE9xsRr2QWcfyeY/VnO3XeUmRRNEWFrR3Bgh/I2SUzzIMODkGHTzuasFQg7xWiP3HN8z9/eu/zF36k6EW3jjLPJzDAUVmCTGAWaaPZE0zAZm6Ng2ZQEPcJDJlBW6if3gMfrw6Q4xOWxKSbAjh/nGn8NdUPJEUBIMYAgNW7u3X8/aJfEcP2DcTQehAQawBzEAoUmIHAMkKBGUTmgCwLfkXbpv9AEEB08cgJZIzCV/wAZJDUOTeDtYNBM7UZIFl1mrxrUaPcH6KMJ6YrRNUOpIqIckcIvtVt1+utmqeOl0LyyA37iyrrZ85XDizYWZVVRBn0lXZWpaW4ab7aqTC3qZugvw6iO+aN3bJcGz+NweQNnluvJ+a9wqvnKMd3xznXD/+3EWHfkcPaLSRN0TIdfbgfsYVMisuxY7+35XtqFdqwBc3Z8OjNR6bT+FRrTGfT4Un9JZli5Jt/xP9jlampqXxxjr4fp20Kl31SG9H/SLbH8QXVQCD48tmPwy37168S+PPx7VfU/krSK0BfAkGxoHUbJpAIAECKc2wJAslQjadau4ZAKBEg6SoFKEynQyArzUegY5YIAl2l7YQiD4QJRoVIaieJwlIfIpvgl+hY5j/dNSGK8OaCk/u5TK5qoDKLA14/J/mx4uIjltknU/zaZH+vHQ6sxdrF2dPK0s5TQXf13MtJ1QIrPogFePmxJG6uf5cHCr572PmdtU+TwuN9dm+7vwNWAVIuVJYkIlVzQ+uZIAAAAA==");
 
 export default FilmSimple;

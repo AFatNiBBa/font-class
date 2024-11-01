@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-xmark` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-xmark?s=sharp-duotone-solid phone-xmark}
  * @preview ![phone-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/phone-xmark.svg)
  */
-const PhoneXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 32L176 0l80 144-83.8 67c36.1 68.4 92.3 124.6 160.8 160.8L400 288l144 80L512 512l-32 0C232.6 512 32 311.4 32 64l0-32z" />
-        <path d="M529 49l17-17L512-1.9 495 15l-47 47L401 15l-17-17L350.1 32l17 17 47 47-47 47-17 17L384 193.9l17-17 47-47 47 47 17 17L545.9 160l-17-17-47-47 47-47z" />
-    </Icon>
-);
+const PhoneXmark = createIcon("phone-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABcAAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBXAsIAAE2AiQDCgQgBYMtB1IbAAXIjpSuzlQE3y9x+/5dSulHFL1XF00cReFjQaHiqBZ0BtkVLoH4n//L8b17fhvwg8DN6Rtv+2ju5wHO51HUec+zMEoozpDana21HLJySRohST9tx+kBeYxmA0pIL9NnDPL/AMYPHQZIKjIAUQ+AFft2bTE8EiMpPv9/Q3y2GQGxEhQCGTJ0C7BYJtAtVyCXC0bSf0bif0EAUYqfnIFS5NiI44AcJCHyfEJHVUlNvpdbKm9NGj9paYyPxbE0JhI2IZZA47FJsQyagE6MpTcP7du9b0/sji979gVGlfF1b/w10T9UP/Rr3Oezn9U/RQN++x2ivleDfXB326BdK807f37eyl0Gt6nLCo+dXgQ0vea0xwUQCBY+m3n/WN3iv+VVCXx7++d7em/xfzj1pyGUSyDIJv+f7HBartCb+gUAIMVd/Wl5HL2/QyZI4KdWeyZAqESApFSlAJku9QLkKk0SoESvOQKUqrRLJvIKodmRApJqN0Bmricg1+w1KLHYu7hUc2R6xWkF96tLXivhNZeKGVOnFwuLYU/mVYXxu4uKZXv8XTczAVqddc1Vt51x2gW3BXXTluyOK9bOkDW+qDDDVNMVFiq2h7fyXoxvuuVCX9zfZ5HivDve3fnyCXCdBJj5IpWMSJE1WZ4z5b4N6lMsdK6lFY0R");
 
 export default PhoneXmark;

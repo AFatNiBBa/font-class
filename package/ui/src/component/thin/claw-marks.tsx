@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `claw-marks` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/claw-marks?s=thin claw-marks}
  * @preview ![claw-marks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/claw-marks.svg)
  */
-const ClawMarks: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M34.3 2.3c3.1-3.1 8.2-3.1 11.3 0L165.3 121.9c12 12 18.7 28.3 18.7 45.3l0 32.8 32.8 0c17 0 33.3 6.7 45.3 18.7l95.2 95.2c12 12 18.7 28.3 18.7 45.3l0 32.8 32.8 0c17 0 33.3 6.7 45.3 18.7l87.6 87.6c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-87.6-87.6c-9-9-21.2-14.1-33.9-14.1L368 408c-4.4 0-8-3.6-8-8l0-40.8c0-12.7-5.1-24.9-14.1-33.9l-95.2-95.2c-9-9-21.2-14.1-33.9-14.1L176 216c-4.4 0-8-3.6-8-8l0-40.8c0-12.7-5.1-24.9-14.1-33.9L34.3 13.7c-3.1-3.1-3.1-8.2 0-11.3zm0 224c3.1-3.1 8.2-3.1 11.3 0l89.9 89.9C146.1 326.8 152 341 152 355.9l0 36.1 36.1 0c14.9 0 29.1 5.9 39.6 16.4l89.9 89.9c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-89.9-89.9c-7.5-7.5-17.7-11.7-28.3-11.7L144 408c-4.4 0-8-3.6-8-8l0-44.1c0-10.6-4.2-20.8-11.7-28.3L34.3 237.7c-3.1-3.1-3.1-8.2 0-11.3zM269.7 2.3l25.9 25.9C306.1 38.8 312 53 312 67.9l0 36.1 36.1 0c14.9 0 29.1 5.9 39.6 16.4l35.9 35.9C434.1 166.8 440 181 440 195.9l0 36.1 36.1 0c14.9 0 29.1 5.9 39.6 16.4l25.9 25.9c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-25.9-25.9c-7.5-7.5-17.7-11.7-28.3-11.7L432 248c-4.4 0-8-3.6-8-8l0-44.1c0-10.6-4.2-20.8-11.7-28.3l-35.9-35.9c-7.5-7.5-17.7-11.7-28.3-11.7L304 120c-4.4 0-8-3.6-8-8l0-44.1c0-10.6-4.2-20.8-11.7-28.3L258.3 13.7c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0z" />
-    </Icon>
-);
+const ClawMarks = createIcon("claw-marks", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABlAAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCfAsGAAE2AiQDCAQgBYMtBzEbfQXIjtRG94xd4uH5/f239rn3/QF0R1KCmaBmdaZp4+bQwCjklyG1+hOX01+gDzjF3h9tr9q0FvCc5wkEOLZN7zzQMCqiRDhzaxyoe4iyX6wlgnNFj9/o8esOebyxUol0Ob3Gyf6i8VUTR0iyDEDUBsDoOTOme/oxPka8Lke8NhUBMQYUAhkyNBdgmEyguVyBXC74GOVy+Q8sCCAq8G8lkKOEG7gLyEGS5fngtkOqlWrks6uVqi642GBW3CSqxdHO8snz9c81nB0XqlaNCw0jDpLbyC3k8vD2u9VGczp36Wxawzvcmd6ld4QCXc5tdLFBm1u1b333evVrrR/NmLF7jzZNWydC0zaLF+fnzNa//2L57Dne1e9saUVn9d9R7cXZs7vJH/OqefP8atROO41qnayfMm+e23W6pbqpc3+OfP1wmUVHqC/RLu/2Xk69fZU3HgcCwfOJX/ovqTXsf+VqCXy+//PjeS3Lj1ObdAuVJRBk3crdLEyjtNQytREAgBS7tcEbBZILMqxUBxyVUBXFkgpVsUwztbFcVV2xkpb6s87dM2QiryLUtwhYUt02LDPAXixX3z2sZJhnxQr1IwtTPsj4n8SUCSM8flHRu0evYkixrBEh8tg6O7RwO512U09nnLTaFpvttMpK6+wc0O2mV3bZZIJFG/9Fhd566KUwRPG4+Xx4tlW222GdLTa3eYYq3k92stse3hl+wox9bE4Skaqu2LhsT/fPCg==");
 
 export default ClawMarks;

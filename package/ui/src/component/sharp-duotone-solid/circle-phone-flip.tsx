@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-phone-flip` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-phone-flip?s=sharp-duotone-solid circle-phone-flip}
  * @preview ![circle-phone-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/circle-phone-flip.svg)
  */
-const CirclePhoneFlip: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128 56l72-40 33.5 41.9c34.2-18.1 62.3-46.2 80.4-80.4L272 200l40-72 72 16 0 16c0 123.7-100.3 224-224 224l-16 0-16-72z" />
-        <path d="M384 144l-72-16-40 72 41.9 33.5c-18.1 34.2-46.2 62.3-80.4 80.4L200 272l-72 40 16 72h16c123.7 0 224-100.3 224-224l0-16z" />
-    </Icon>
-);
+const CirclePhoneFlip = createIcon("circle-phone-flip", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABgAAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBcwsIAAE2AiQDCgQgBYMtB14bIwXIjtRe9YNCYcXD/6/5/j53JiliilMkcgwOSCG56qdKqgoAdNaXrL5O/s9/nVwa//jTAx6I/Jj08Y1r4Zxt4xVofGp9A9WgpgWgCmt3Z2uNlVpejYQkx8WOT7lCHt+zs0qku+kjLsv/AMZfKs6SNMgARHMATFuzYpGn1aim+Fh7THy0EAExHRQCGTJ0EmCiTKCTXIFcLqimGqpRUxBAlMlvyUAZJazCLkAOkpDyvNKx0qjUJF/dqNRw2+pVq1fGpLg/d3KsjFXRKN4s+DDiUY+IX9Mini361Oj8ki8zXqz5Pf354s8Nzy38OPXpylVrVq6ZFB9GTI41sSrEvaH3576d2TBWd69rXvdPt49bPzoxZE4zOttnjqseTaiY00f+kuaqnQc+/9a0uadmNaDy6NmMGc8eVRqYRXmnnxgzpw96KiY8ukreb04zzTX99nxg52pzzeYAgWDetZ/WbOL/9Rsl8MeT//7kL5La0yTVob4EgmxgbaCNCSQCAJDiqO6JkwhkRkqi3dgtsdVuiGCprCHYmY6aK+QaGgAlXYy6oqyhFTKRNxBa20QhaewAZEY7BrnWHkHJRG+MstaRmRhpIOQLL252iczaVQwbPLQYX3RzibIaPGxOKKbFvkd9rx9ctNU+ex22xWY7HC6wgxbZR+wxe4TO8kGFYQYbqjBesVxdc6vROOiQHW1mfZsJiv1SX0fH0/1gPwkw/HASGZEiq3zFEQYZYmzQ1t079g+6sBMdm8z1BA==");
 
 export default CirclePhoneFlip;

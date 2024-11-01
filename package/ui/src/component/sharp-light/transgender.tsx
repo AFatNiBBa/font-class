@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transgender` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transgender?s=sharp-light transgender}
  * @preview ![transgender](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/transgender.svg)
  */
-const Transgender: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 0L144 0 32 0 16 0l0 16 0 112 0 16 32 0 0-16 0-73.4L89.4 96l-4.7 4.7L73.4 112 96 134.6l11.3-11.3 4.7-4.7 13.2 13.2C106.8 157.9 96 189.7 96 224c0 83 63.1 151.2 144 159.2l0 32.8-32 0-16 0 0 32 16 0 32 0 0 48 0 16 32 0 0-16 0-48 32 0 16 0 0-32-16 0-32 0 0-32.8c80.9-8 144-76.2 144-159.2c0-34.3-10.8-66.1-29.2-92.2L464 54.6l0 73.4 0 16 32 0 0-16 0-112 0-16L480 0 368 0 352 0l0 32 16 0 73.4 0-75.6 75.6C337.1 80.6 298.5 64 256 64s-81.1 16.6-109.8 43.6L134.6 96l4.7-4.7L150.6 80 128 57.4 116.7 68.7 112 73.4 70.6 32 144 32l16 0 0-32zm96 96a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
-    </Icon>
-);
+const Transgender = createIcon("transgender", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABhgAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCXQsGAAE2AiQDCAQgBYMtBzIbXwXIhocvW+n7PSOaEbSI++4EyOaIkSJRZqLNTBu6FF85JYh3+vt5/s+jQR4I/OqN1iDRIJnnExhGU7XPC2cDm+kEbG9T6sgjCr0iQoJEzOMa7ni2K9TxZSwxhPR66uLZ/qHxq6keIqkrAJEBsPPUE0/QGYzBiG7vY6LrOATELlAEKlSYIcAWlcAMtYJaLRiMXq/8BxYCiKHwngnUqPEC3gTUIEl1fe30dsio+pR2SHNm0zZCiDbQszUmELowJs+bGIfL+1u/3isa2dW2wC419t4R323/duCDZadazdClnhTfnPLzlkke+iI/bZsBOfnJhfEHFh5w34L9xDRPLDrIxP2LD72u7T+YD/7e172k691vc34uu05WZMd4zBpfuMQhu3V9Wo158s4jfUouclmhMFfw7X2O3PnkmOrT4493jKy44sz3Qfwxxx7nhx1B7T8ccjvuMcfkcu65Ax06M0f194+a2ekMsLRyOxAIlr/58chzx2z5f3ibwC9f/Pn3+BnlXif+SgcxXAJBtaS3xFmJLMdfAgCQ4hb9iSyQPCHBdx3pFQFCgwDJUI0AlemyALXGYgGGmGWtAEM1TlSJeoQwwdkZJCNdDyrr3A1qE3wIhtjiu+BQE6IKSyGohL/C1H0c2tutrFy2omwqx7QpRhpX2zcXtXPBLVC2MK10iWtd4yYXu8jlbmLkDU6I3Oxq+yR4ry8qVlpmhWKTYs69Lz7FxW5wo8td65rWyWbFP7DALXLthWk0CbDqgaYkIrWvu37pFzDtBgA=");
 
 export default Transgender;

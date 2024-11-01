@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-squint-tears` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-squint-tears?s=duotone face-grin-squint-tears}
  * @preview ![face-grin-squint-tears](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-grin-squint-tears.svg)
  */
-const FaceGrinSquintTears: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M33.2 382.1c4.8-1.5 9.6-2.9 14.3-4.1c18.9-4.8 38.5-8 50.4-9.7c26.8-3.9 49.6 19 45.7 45.8c-1.7 11.8-4.8 31.3-9.7 50.3c-1.2 4.7-2.5 9.6-4 14.3C227.5 534.2 353.8 520.3 437 437c50-50 75-115.5 75-181c0-43.6-11.1-87.1-33.2-126.1c-4.8 1.5-9.6 2.8-14.3 4.1c-18.9 4.8-38.5 8-50.4 9.6c-26.8 3.9-49.6-19-45.7-45.8c1.7-11.7 4.8-31.3 9.7-50.3c1.2-4.7 2.5-9.6 4.1-14.3C343.2 11.1 299.6 0 256 0C190.5 0 125 25 75 75C-8.2 158.2-22.2 284.5 33.2 382.1zm54-97c-6.3-6.3-3.6-17.2 4.9-19.8c32.5-9.9 65-19.8 97.4-29.7c11.6-3.5 22.5 7.3 19 19c-9.9 32.5-19.8 65-29.7 97.4c-2.6 8.6-13.4 11.3-19.8 4.9c-2-2-3.2-4.6-3.4-7.3c-1.7-18.7-3.4-37.4-5.1-56.1c-18.7-1.7-37.4-3.4-56.1-5.1c-2.8-.3-5.4-1.5-7.3-3.4zM202.7 416c-11.9-4.8-10.9-20.9 .4-26.9c36.7-19.4 73.2-46.3 106.7-79.8s60.3-70 79.8-106.7c6-11.3 22.1-12.3 26.9-.4c24.1 59.4 12.2 129.9-35.8 177.9s-118.5 59.9-177.9 35.8zm32.9-226.5c9.9-32.5 19.8-65 29.7-97.4c2.6-8.6 13.4-11.3 19.8-4.9c2 2 3.2 4.6 3.4 7.3l5.1 56.1 56.1 5.1c2.8 .3 5.4 1.5 7.3 3.4c6.3 6.3 3.6 17.2-4.9 19.8c-32.5 9.9-65 19.8-97.4 29.7c-11.6 3.5-22.5-7.3-19-19z" />
-        <path d="M497.1 14.9c19.6 19.6 20 51 .7 70.3c-14.8 14.8-65.7 23.6-88.3 26.7c-5.6 .9-10.3-3.9-9.5-9.5C403.3 79.9 412 29 426.8 14.2C446-5 477.5-4.6 497.1 14.9zM87.1 285.1c-6.3-6.3-3.6-17.2 4.9-19.8l97.4-29.7c11.6-3.5 22.5 7.3 19 19l-29.7 97.4c-2.6 8.6-13.4 11.3-19.8 4.9c-2-2-3.2-4.6-3.4-7.3l-5.1-56.1-56.1-5.1c-2.8-.3-5.4-1.5-7.3-3.4zM265.3 92c2.6-8.6 13.4-11.3 19.8-4.9c2 2 3.2 4.6 3.4 7.3l5.1 56.1 56.1 5.1c2.8 .3 5.4 1.5 7.3 3.4c6.3 6.3 3.6 17.2-4.9 19.8l-97.4 29.7c-11.6 3.5-22.5-7.3-19-19L265.3 92zM14.9 497.1c-19.6-19.6-20-51-.7-70.3C29 412 79.8 403.2 102.4 400.1c5.6-.9 10.3 3.9 9.5 9.5c-3.2 22.5-11.9 73.5-26.7 88.3C66 517 34.5 516.6 14.9 497.1z" />
-    </Icon>
-);
+const FaceGrinSquintTears = createIcon("face-grin-squint-tears", true, "data:font/woff2;base64,d09GMgABAAAAAAOIAAoAAAAAB5gAAAM7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSCEFgsIAAE2AiQDCgQgBYMtB2gbUAZRlO5FnezHYew8OWZL/dGNgLAijSp0ToJ4fq6c95PdI0o2d5xDpiIpQN0qdNWVrasCAA0ImzJy3Pe/tv5URKyRIUSr+CealsDW3abDvaWdubULkcxdHPN82YAvPiyU6MAoi0jeTWDAs2E1JfB0M7YN2wYYmUR9axw3QJc72l4coI6oa8D++H8A5Q1h7AWFlwYAgAQCAAC1w/2dnHooD5Vcc2+BXKMDEACpA8BGAA3QgEgEgAo0BIhExwZ0dAQeKrcbHorbbYMAgDiJ8Rqf4QS8gSfAHwBAB0Cho+u6GRFuZkdZYT4OP33Ix+E93zwAQN8QE6YSWFEiFAt9OLMmWwBoUUBTMnIgGqJLlhAkhHVRtGAthSDEhdtTiY4ACk6uU5QFgLEweTaZY+AYGKK3IxhTZ03pTqGi8U1/6Wn2qjB1osHKVMKUS45QItB6UbElexVfua88FYq/TRKHtkF2ZYaZpIiWl2VJ6zH7GUEfNJcjhxVHBVtldDIeLdw2Uxv8VfTtoYXAhXexT40n8nFtZBBi/D3s3ASpVMZed+mdYRlNaGMmxMyUPPD5fDiyRJJS6VhIp2xGD62fmpgIDq3IJgFekqMy44Wx447I8r/IjGMn+AJiW6ydXf9A7fWN+NWWqy2l36vPu6ZyMDozr85ntld4vr3C0Xp3Hg9U1nj3efWntBXOFDi0cPj77TY9YR8emkk+EQEBZ46jEzfu3uMFnpu2xgU/aPFaV5K5b39B/c/xafvRrYeJvVjaZu1Czln//+btACCAwJrtD5oOqPjm6aMAeHzyw5fmQPfYvadQxwBPFAACWoY7gwnFARYmIKRZSrYQpyD6IQE0tqIDvb4cpI4J3jCAwok3aEQQCDrepIODaApFmMp+LJroXl6DSQQKX9aDRhHbQMfgBDio4GLYiSHaRS+5ZCW/nCmbpojGWXZuVo5dZu+WddLrWBSMl9vYxpQtTlsqXMgS1rKGTSyywHI2TVgb6IxtZjVNR+yN37XJJYscbMqwqWsvlUOT8AY2snxbTj9NOTZ/bwpbjnunQosi5ZvHHA0NRIkW/UqlZy7dsHxN5sb1m6uiTZmbFmc3bMz8KNSzJ39pAAAAAA==");
 
 export default FaceGrinSquintTears;

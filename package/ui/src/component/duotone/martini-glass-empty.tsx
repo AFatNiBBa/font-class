@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `martini-glass-empty` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/martini-glass-empty?s=duotone martini-glass-empty}
  * @preview ![martini-glass-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/martini-glass-empty.svg)
  */
-const MartiniGlassEmpty: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 0C19.1 0 7.4 7.8 2.4 19.8s-2.2 25.7 6.9 34.9L224 269.3 224 448l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0 96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-178.7L502.6 54.6c9.2-9.2 11.9-22.9 6.9-34.9S492.9 0 480 0L32 0zM256 210.7L109.3 64l293.5 0L256 210.7z" />
-    </Icon>
-);
+const MartiniGlassEmpty = createIcon("martini-glass-empty", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABaAAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBKwsIAAE2AiQDCgQgBYMtB2Ib3wTIjlQ1fwTRWu9Xz+5dAGgDjCpRDKSjnn1RQIpV8oktgb4C3p//a+rF86MD/HZkh9ZpsWk9jwoqgQm0r4UabDZT3O5sLTlk7dOSxJIcl+F4HCCPj9kpJdL99AFX6X8A41etnCKplQGIhgCYOHfmDC9/ip9SfKg8Ij6YjoCYBAqBDBnaCjBGJtBWrkAuF/yUKhV+ikqlIIAoo3vOQBk5hmMSIAcJKc971KhTqpfPqVOqvfBhy3vNZoeoHRea3nKs2e06depcbHE3jje/U7t2RMyNu60fdKs7e467sV7M6lTVsOr3jh/WfNDhxYQTK3784nPVJqh/7lx99JYtk+gE1ToZP644MeHljx9vsNENEoE4ad2rbw8sbTDm/5p1Evjl8Z//pisrK1IpVaGmBIKsT6WPRYkCnRYwVYo9OiXiNwlk+kvgU+u6I0CojQBJWW0BMm00FCBXW28BStobKkBZbTNlIq8lNLU4g6Su7SAzzGGQa6oalIzxOlbWNLLjw2w+83tLnFaiU5cVA/sNKEYV3SJhTwQVhkcXw2aPPb6pJ+y1xlZb7LLaKuvtKvAdZiR322yahk31Q4WB+hmgMEoxXbkW52Bsh53Wt/n5RUYr1vs97NE79wQnYdJBVmQyIkXW5sHZ6/veGLmvKat9rXFSu81t3vgA");
 
 export default MartiniGlassEmpty;

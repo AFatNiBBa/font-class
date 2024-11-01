@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-nurse-hair` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-nurse-hair?s=sharp-regular user-nurse-hair}
  * @preview ![user-nurse-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-nurse-hair.svg)
  */
-const UserNurseHair: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 48L224 0 352 48l0 80-.3 0c.2 2.6 .3 5.3 .3 8l0 40c0 70.7-57.3 128-128 128s-128-57.3-128-128c0 0 0 0 0 0l0-40c0-2.7 .1-5.4 .3-8l-.3 0 0-80zm48 128c0 44.2 35.8 80 80 80s80-35.8 80-80l0-16-48 0-16-16-32 32-64 0zM208 40l0 24-24 0 0 32 24 0 0 24 32 0 0-24 24 0 0-32-24 0 0-24-32 0zM189 456.9L105.4 368l-6.8 0-32 96 129.1 0-6.7-7.1zM381.4 464l-32-96-6.8 0L259 456.9l-6.7 7.1 129.1 0zM321.9 320l62.1 0 48 144 16 48-50.6 0L50.6 512 0 512l16-48L64 320l62.1 0L191 389l33 35 33-35 64.9-69z" />
-    </Icon>
-);
+const UserNurseHair = createIcon("user-nurse-hair", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABgAAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCUwsGAAE2AiQDCAQgBYMtBzYbWQXIjsQ4JvGLKEzi4Xvdp+c+wawlM8hbmQj/N0OAoDJUAW6zKYGg6HfSZlKmVr7ThUxczv/Pn9630aONSVM3/tZ/Gq15HlAUYNbl2RzcZYFlmoC1uO3miHhojJBYQR5vxm0F6fX0F26FD41/jfMCSZEBiKEAWN89uNt3/dEf8Wf7MfGnnQiI9aARyJBhogCrZAIT5RrkckF/tK34D2wIIErxiyWQowfP4y1ADpIyz6eOHFfXY+piUN6pi+p491D3cIiIZ4j3Vn216Zc13/Q+G89G0DXj8NvTI95f/OnMD6ZEVDE6pkXVFaoQNQIDqJwjncOdGjkUdYxm5cVGRt2pq/pwTIpq4JToRh2HY3WsjW5v39C+//rr0l9O33p6bvIU+5Dn0xSLNu7bt3FRAdPkOfvmPh0dLg4derETQ83Taq1b+/LYeJrGWIU3/L2DR8ic0pTTnnXp29LTWClN0y55dsWtNXF27i2thTdadW6NdZskSewPAsGPf3/+6SGr/u+pE/jnC/BfUftdfJf60COBIJvVznIivoP4TgAAUjykN75DIHlcib7rQK8IECoESEqVAJkJhgqQq8wUoDDZYgFKlYMykQ8QRjrZkclA95KZJZ4kcyN9SBZW+dUvjYwMIll4Yn8Ik7YMwc2zmvlz5jUrmtVCwwEZbcdXNofVaQ/Jtul4qUvudpcHXHTBVQ8M4Pvsjh50py1b0GZf1JhvjnkaKzSXa08Xd1x0n/tddbe7/CQrNc+b0zy03Xs6NpKYcoFckog05DV2Zt/14H2lPPuzBAA=");
 
 export default UserNurseHair;

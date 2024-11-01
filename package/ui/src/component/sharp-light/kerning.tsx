@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kerning` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kerning?s=sharp-light kerning}
  * @preview ![kerning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/kerning.svg)
  */
-const Kerning: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M417.5 9.2l-224 480 29 13.5 224-480-29-13.5zM145.4 406.6l4.3 9.4 20.6 0 4.3-9.4L316.1 96l-35.2 0L160 361.4 39.1 96 3.9 96 145.4 406.6zm320-301.2L325 416l35.1 0 36.2-80 167.4 0 36.2 80 35.1 0L494.6 105.4 490.3 96l-20.7 0-4.2 9.4zM480 150.8L549.2 304l-138.4 0L480 150.8z" />
-    </Icon>
-);
+const Kerning = createIcon("kerning", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABYgAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBSgsGAAE2AiQDCAQgBYMtBy4byATILgtsY/ZIPwg0LVhDHGYdxlEhL6z6zb9ZTvHwtd/v3N1FLYlGSKqJZlphOpkSTFKhJAj9D5X5kfz8f/Zz901Emqgl0WTShqg0KIXG+ZVGouEhj9LxGIsM5Rx941/N/IXZmJhxfzHnFABO1mbJ7/8yhC9+4pr6cf70gFXijxRNy7ZooEzQOh9wlCfozmfD2URxR+c+y3KVYAc62hVK/GO4pM8A9+FD44/RPUnJAIhuALB91m7h7S9qET/ViW8NEBA7gDGEjIwhBNawBYZwjIGiCGpULf4DCwFEI9LrEyhoxBY4B1BAUgpHqB7gt3GlnF4bV7R0Ph7Y6Soc1wM6rTj0LSuiQYyIM1xPiakfDujKU1snSZrh7mlXtHuC6WbqwNPXJ/GP+dyvYrvbNKh6XIDVcbO0JweZov9hwdRYYd3zrF1WozCqzkXqPXWNZAPx0PbTlTz377AAv6+dn1cl7xKDZgkEebqaSbpWNOwsIlI+xSEL/qJAsoQDv2u7NwFCKwIkjVoFyAYpEChaTSHQYEQcgUatjrBFESL0m3YsaXeLZQsusKLfC9ZgzXuuUX9kaNJgQfuWyy6P4dImUzgQMmVMm3VVBxDFzmdNp92uQ9nnxhexaMumfQtmVuyP0F2t4oEN5T2k5IdMwgJCTDJMt1vP7R7N79qzsq7fX0eW6f24y+H+aDf2sSTJGYeSRCT+2s3u7yUAAAAA");
 
 export default Kerning;

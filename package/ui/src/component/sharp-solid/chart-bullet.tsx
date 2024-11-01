@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-bullet` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-bullet?s=sharp-solid chart-bullet}
  * @preview ![chart-bullet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chart-bullet.svg)
  */
-const ChartBullet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 32l0 24 0 8 160 0 64 0 0 64 0 32 0 64-64 0-160 0 0 8 0 24-48 0 0-24 0-8L64 224 0 224l0-64 0-32L0 64l64 0 176 0 0-8 0-24 48 0zM160 128l0 32 80 0 0-32-80 0zm128 0l0 32 160 0 0-32-160 0zm48 224l-80 0 0 32 80 0 0-32zm0-64l0-8 0-24 48 0 0 24 0 8 64 0 64 0 0 64 0 32 0 64-64 0-64 0 0 8 0 24-48 0 0-24 0-8L64 448 0 448l0-64 0-32 0-64 64 0 272 0zm48 64l0 32 64 0 0-32-64 0z" />
-    </Icon>
-);
+const ChartBullet = createIcon("chart-bullet", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABdAAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCNwsGAAE2AiQDCAQgBYMtBzMbOgXIHgfVrRPzkQchiYyndN2cHyae///9aPvc/0bEkMwkLI1mopbsUSzTLDEVPBOqhjhSWRPJ34qxtYd5JN6QRKWJJzFpNFIgdIb02jy/pt8nLsc/dU1e+OKPNhpr0gba+zyBANMu7dISyQLLNAFrd7YNDqV9kqQsluNcjkfu0PLS3QxQ7+ofr/KH5p8VNygjHQAyDQD2b9cK+DzKUfLXP8lP10Ag+4BzCB06rCOwRShYJ3IONE04St+H/0CGABkEv65AwzAegZcAGiiDTWQaGZFTbUysFjX9bcUUkTElIjKqIJ6ICFRIREpltY7UpELp3I1IKpAoQQRo8hFUFezvXTZ8nP54ev5/8u/s+2V+VOYgmQRLSh7IsMxJT+b7CH1PP+4yaMtg5Sesuzvn7jgsaxllvCdzatA9cM9GdDqym9i029OAIPz93Afarf/DSgHg5Men5WekPyr1EcMKhG6z39QqUAQAULkwFATlIQl+13GvERCjCCiDRgV01ugQaEZdQGDAGT4EBo26TihNjpjXRrmMuyN3rrrKzbyHPGDLV2PQfDobtC3IfgLmyfdQ7hy77E4O83SoOszKTMcRXo4YL3HJBFcxsbVxMjYyd+qYg0L7bC0vYTlfxFzsnFgYqyePniZpDo7mkhv6UyL4fMHoIm82QVyADS/qKEVKdfuCtm+P");
 
 export default ChartBullet;

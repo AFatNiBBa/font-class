@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inbox-in` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox-in?s=thin inbox-in}
  * @preview ![inbox-in](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/inbox-in.svg)
  */
-const InboxIn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M264 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 284.7L141.7 186.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l120 120c3.1 3.1 8.2 3.1 11.3 0l120-120c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L264 292.7 264 8zM48 336l74.3 0c12.1 0 23.2 6.8 28.6 17.7l9.9 19.8c8.1 16.3 24.8 26.5 42.9 26.5l104.4 0c18.2 0 34.8-10.3 42.9-26.5l9.9-19.8c5.4-10.8 16.5-17.7 28.6-17.7l74.3 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32L48 496c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32zm298.7 10.5l-9.9 19.8c-5.4 10.8-16.5 17.7-28.6 17.7l-104.4 0c-12.1 0-23.2-6.8-28.6-17.7l-9.9-19.8c-8.1-16.3-24.8-26.5-42.9-26.5L48 320c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l416 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-74.3 0c-18.2 0-34.8 10.3-42.9 26.5z" />
-    </Icon>
-);
+const InboxIn = createIcon("inbox-in", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABgwAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCJwsGAAE2AiQDCAQgBYMtBy8bJgXIHoexs6U2OlLY30k8/L9d3+9zq57GrDUR1AMpsvzBVOzsO5ZSRj9ukx2tIGhQcNt69APSuEC4DHnUn7jm+WM1SJE/ShXVKrjAM88nMOAoXgNNZGAzHQCNdVPznhjA6wxtF8jjI1qtivTAf4Nr7k3jL22dJskyANEEAGPnzZqp/Hv8HvFN5R3iG9MREONAIZAhQwcBRsgEOsgVyOWC36NSYf+BBQFEteB3JZCjCntxHJCDJMvzdt27169qmM+tX1Vv3V29jRRz4y5uy5y4Y/Pint7F7Mjm169X/5XaNh7M+vFabx+Pdv24JHdE3Mbt2CAu6l0XccLu8Yo27dvcH/Xi1dYuHq568TJuF/FA7syG8Zrd6xEP9e7YU6XLm/nN75u136h5LyxfXt3Rho1mzRo4cN++TGWKV5DaLXf8bvK04LzS8ef78nrl7285Xpqm4fnTcHmKPadGYKPl6e71bkJlSlkiKR2/fihzpZ+/zbjs259LDfWLpin/AASC6z/0aFka8X8tJ/Dnh/8t/xZVykl6k6iVQJD1rPS0OIFEAABS7NUlQSDZKhMUGri7tx7qgfmkWj0+014TPldPD75KJwO1le6sVVzkdQotLEF80sAOPjPIET7Xwlt8lRE+r1RrEdm3Z3w5xq9f7qQ2MHFV0bd3qRhWTDaU5uek6cXhxeqg614+0A2etNY2W+22xmob7G7RO82s77HFpDl0og8q9NVbSWGYYnf7/uG51thplw222WqXGa44v9DV3vnx3WCcBLL9+OkSrEm1G7au3La/14atAAAA");
 
 export default InboxIn;

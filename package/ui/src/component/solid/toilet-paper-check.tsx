@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-check` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-check?s=solid toilet-paper-check}
  * @preview ![toilet-paper-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/toilet-paper-check.svg)
  */
-const ToiletPaperCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M444.2 0C397.2 49.6 384 126.5 384 192c0 158.8-27.3 247-42.7 283.9c-10 24-33.2 36.1-55.4 36.1L48 512c-11.5 0-22.2-6.2-27.8-16.2s-5.6-22.3 .4-32.2c9.8-17.7 15.4-38.2 20.5-57.7C52.3 362.8 64 293.5 64 192C64 86 107 0 160 0L444.2 0zM512 384c-53 0-96-86-96-192S459 0 512 0s96 86 96 192s-43 192-96 192zm0-128c17.7 0 32-28.7 32-64s-14.3-64-32-64s-32 28.7-32 64s14.3 64 32 64zM291.3 187.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L208 225.4l-28.7-28.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l40 40c6.2 6.2 16.4 6.2 22.6 0l72-72z" />
-    </Icon>
-);
+const ToiletPaperCheck = createIcon("toilet-paper-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfQAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCAQsGAAE2AiQDCAQgBYMtBzkbCgXIhuB5Pah5P1nAWdsV1AO+q2RUUCXM/+We3/PbgN/oUNaipee7wnDO5wkcYDY3rsVZmCWKmdvighMUZcUgUwWH/3yIF9qvII+/s4NKkM6k13Cofmj8oI6DJGUyAFEZAINnTh3vqa/iq4hX/7+feNVYBMRgUAhkyFBfgH4ygfpyBXK54Kv4/3/5DywIIErSPSeQoyQWYSMgB0me50W1alXLlaiQz0hHK7vysSLicuP3pr1X+3T142XLxs2aJ2udq3eu6bX4sOu9PSvMfqBLxD0zbKb7O989/b1Od3WLU/UizsW+umdrHn+QaG+dMzVmnApO9UnRJtqrj9foHydqzWxyZ+U7f2r82orXPPpkjXd5NmyvOLzCsFc2f/ttlZ9Vvrjn0KvrDy1bNs7kGzf21R+6Z98Nbpg80iZK0t639rGvXr1Vfgu8dPhs2Nmzd9zxqlcJevbszluMHAkEgmLoZ1sXVur3a+lyCXzzyC9/YPfy/z+VFqU7UVoCQdbu/3bmpb3KK5xIAeql2KEJvkkgmSWHdy3vpAChLAIkJZUVIFNPZQFyZbUVoISGugtQUllTZSIvI1Q330BS3maQ6WEXyFV3Lyihnxe9kqpHRjSeJvx/XsqIGRoeVXTu0KnoUxxTusAdNrf2La71VjtiSWv0tcJGG2yz3DKrbZvILcaH2603woOH+6FCZx10UuijeJ197z7DcltstdpGG0o7fRXf263s8Ku3hpUoZRfDkkSkqts2rl63fFt7RmvtSQsA");
 
 export default ToiletPaperCheck;

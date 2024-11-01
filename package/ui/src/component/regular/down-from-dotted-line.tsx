@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-from-dotted-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-from-dotted-line?s=regular down-from-dotted-line}
  * @preview ![down-from-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/down-from-dotted-line.svg)
  */
-const DownFromDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M114.2 320L224 430 333.8 320 280 320c-13.3 0-24-10.7-24-24l0-120-64 0 0 120c0 13.3-10.7 24-24 24l-53.8 0zM224 480c-11.5 0-22.5-4.6-30.6-12.7L77.6 351.2C68.9 342.5 64 330.7 64 318.4c0-25.6 20.8-46.4 46.4-46.4l33.6 0 0-96c0-26.5 21.5-48 48-48l64 0c26.5 0 48 21.5 48 48l0 96 33.6 0c25.6 0 46.4 20.8 46.4 46.4c0 12.3-4.9 24.1-13.6 32.8L254.6 467.3c-8.1 8.1-19.1 12.7-30.6 12.7zM32 96a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm96 0a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm64-32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM320 96a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm64-32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const DownFromDottedLine = createIcon("down-from-dotted-line", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABnQAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDBAsGAAE2AiQDCAQgBYMtBzwbkAXIjsQ4hnIJxWTCSUTYsM3e14rqHlRVXUi60QgFEodriiAMyhSFpVuMwH9e7+vc5A/gNyBcu5U77GaLjkUDt5n/c+ni+WiAn1YCw6FUWOl8u/B7R912Agca6U1l9/ws0k4Uz9w0REgGeW4QRN5ilNJhi8PYJVSzTyuoUe45AXAdrjR/0DMBRa0CgAwBAPtn6Yl4/kpfid6LF5BnxINA9gEsIVRQwRwCW3jBHIklUFUVvkkU6T+QAQFSB05WQBUtPIInAFVQNKoSDWsN+ApSSpKsNFA+OzMrM5vk6VCf7CrInYV85px2VrZoX2fbWoGICQdam3qgGFxqZmRDPm8HJmjUUZh/4IlFQY9vGoiYX/JUfebBZLNT1dNvpkKVgNaLRpwDXlJneoTooXWw2figLrS145MGJwjMDCX4148uIVzeP/AlMMNePmpofrRPCepPw8ozcKWsPBPLlIwsYvfDJjv7AwThraL9d7FKwD9ZBQ7we/vjf94d/1/pmTsFTQWEyorogII8AxCTgHBJF8yELwqKezTgUrtuEBBtBBR1bQEVs1QRqGpbRqBmgScCdW1HeKnKIaYKKyi6zkHFpkFQNXUGara8hOqm4VVVVjT5RzEjqkcj+zFXJxfmx5YJRdE+0TX6s2PLposLbM1CVGnWpEOlCrU6OrxNYrRToygJi/RDjCsnLhg/7HX6eXaWSm3a1WrW5Hvxx773bHTJ5W2NywHnqriikKJ1eU3HO607llBHR2WFo0YDAAA=");
 
 export default DownFromDottedLine;

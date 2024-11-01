@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dollar-sign` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dollar-sign?s=thin dollar-sign}
  * @preview ![dollar-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dollar-sign.svg)
  */
-const DollarSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M168 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 55.5c-9.5-.2-18.9 .1-28.2 .8c-24.6 2-48.4 7.8-67.4 20.1C37.1 96.9 23 115.7 17.9 142.6c-3.8 19.8-1.7 36.6 5.3 50.8c7 14.1 18.5 25 32.3 33.7c27.1 17 65.2 26.8 101.6 36.2c0 0 0 0 0 0l.9 .2c37.5 9.7 73.2 18.9 98 34.5c12.2 7.7 21.2 16.5 26.5 27.2c5.2 10.6 7.2 23.7 3.9 40.7c-4.9 25.3-22.9 43.8-51.1 54.6c-28.4 10.9-66.4 13.9-108.8 7.9c-26.5-3.9-66.2-12.9-99.3-26.9c-4.1-1.7-8.8 .2-10.5 4.2s.2 8.8 4.2 10.5c34.8 14.8 75.9 24 103.3 28c0 0 0 0 0 0c9.4 1.3 18.7 2.2 27.8 2.7l0 1 0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 0-.5c27.2 0 52.1-3.9 73-12c31.9-12.3 54.9-34.4 61.1-66.5c3.8-19.8 1.7-36.6-5.3-50.8c-7-14.1-18.5-25-32.3-33.7c-27.1-17-65.2-26.8-101.6-36.2c0 0 0 0 0 0l-.9-.2c-37.5-9.7-73.2-18.9-98-34.5c-12.2-7.7-21.2-16.5-26.5-27.2c-5.2-10.6-7.2-23.7-3.9-40.7c4.3-22.5 15.7-37.6 31.5-47.7c16-10.3 36.9-15.7 60.1-17.6c46.5-3.8 99.8 6.4 135 14.8c4.3 1 8.6-1.6 9.6-5.9s-1.6-8.6-5.9-9.6c-25.1-6-60.1-13.2-95.9-15.4l0-.2 0-56z" />
-    </Icon>
-);
+const DollarSign = createIcon("dollar-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhQAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCLAsGAAE2AiQDCAQgBYMtBzIbLgXIjtMlNuM1YTx82H3fud097wPqDxgZ6EwLIYimNt3aUKjX95FTual9KhYfAJ9rxavnWan03l58AotfW4YvPrDRrGAznYBtdzaCiPZJWspacjxajs8TsphtiSKSy8nXOFlnGj+r5QiJNAUQFQEwcPrksd4vjuKIr/9/SXxtNAJiEMgFUqSoK0AfqUBdmRyZTFAc///v/wNzAogCfGUCMqTYg4OADCQiy7aUKSqXTUu3lJ59ofq5quJC1RctHtW9VOty0/sROhhqNXv2k573q52vea3Hi2kPmoF7oeq5alxwvppgjIs1AjNHm3/V4GrtK80EwiZQegaf9npQ/UKdm80fdn+t68um52tcrP5qWEQ0elLxyS8Nv172tYevFRYsKPTw/feTvv9x+5x79+b0eXjxFQBPl9Y+uX/E1lvvDSjZ6f6Fy4uaVZ/05MGrQfDD96EHxw4t/65kLjlm9MNLbw08W1Jn/4kRC/eeaNSxS5cHC5oVFu7aQg8gEPywssOP8yv0+bVkmQT89Oa/2s+o7P/vR5fkCUpKQJC2+b+NObFNWWWjiwAAJLFNoxigrEBiiwR+alkXBAilESBRUFqAVB0VBciU1lqAIvV1FaCgtMlSkZUSqpo7qERZG6lUN3upTFXPqSJ9fBYWVI1U/QTlET5/qcMoOHRX3rFdh7xXvsx1UaO4vNk7F+sttoVeS7hqmfXW2WKpJVbaQohNxiZbrTWMw4f6olxH7XSQ6yXfrp4vT7PUJputtN66sk1v+XmnhW38dEvYTwLodHGphEjKPEGtreoC");
 
 export default DollarSign;

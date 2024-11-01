@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-angry` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-angry?s=duotone face-angry}
  * @preview ![face-angry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-angry.svg)
  */
-const FaceAngry: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm112.8-69.1c2.8-8.4 11.9-12.9 20.2-10.1c32 10.7 64 21.3 96 32c8.4 2.8 12.9 11.9 10.1 20.2s-11.9 12.9-20.2 10.1c-3.6-1.2-7.2-2.4-10.9-3.6c.2 1.5 .3 2.9 .3 4.4c0 17.7-14.3 32-32 32c-8.8 0-16.8-3.6-22.6-9.4c-2.9-2.9-5.2-6.3-6.9-10.2c-.8-1.9-1.4-3.9-1.9-6c-.2-1-.4-2.1-.5-3.2c-.1-.8-.1-1.6-.1-1.6l0-1.7c0-.5 0-1.1 0-1.6s.1-1.1 .1-1.6c.1-1.1 .3-2.1 .5-3.2c.4-2.1 1-4.1 1.9-6c1.6-3.8 3.9-7.3 6.8-10.2c-10.2-3.4-20.5-6.8-30.7-10.2c-8.4-2.8-12.9-11.9-10.1-20.2zm59.3 186.4C188.2 355.4 216.3 336 256 336s67.8 19.4 83.9 37.3c5.9 6.6 5.4 16.7-1.2 22.6s-16.7 5.4-22.6-1.2c-11.7-13-31.6-26.7-60.1-26.7s-48.4 13.7-60.1 26.7c-5.9 6.6-16 7.1-22.6 1.2s-7.1-16-1.2-22.6zM304.4 240c0-.4 0-.8 0 0z" />
-        <path d="M133.1 176.8c-8.4-2.8-17.4 1.7-20.2 10.1s1.7 17.4 10.1 20.2l30.7 10.2c-5.8 5.8-9.3 13.8-9.3 22.6c0 17.7 14.3 32 32 32s32-14.3 32-32c0-1.5-.1-3-.3-4.4l10.9 3.6c8.4 2.8 17.4-1.7 20.2-10.1s-1.7-17.4-10.1-20.2l-96-32zm256 30.4c8.4-2.8 12.9-11.9 10.1-20.2s-11.9-12.9-20.2-10.1l-96 32c-8.4 2.8-12.9 11.9-10.1 20.2s11.9 12.9 20.2 10.1l11.7-3.9c-.2 1.5-.3 3.1-.3 4.7c0 17.7 14.3 32 32 32s32-14.3 32-32c0-8.9-3.6-17-9.5-22.8l30.2-10.1z" />
-    </Icon>
-);
+const FaceAngry = createIcon("face-angry", true, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABtQAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDGQsIAAE2AiQDCgQgBYMtB1AbuwXIHoVxwz0YoERsRWvOb0XwvB7fz7nJAs5uBdEt2OKD6O36QVRr2bMPHN5bGeTyYUesUDki++yDlsERC8c+7uP//7+f+oP/GQ2Hz2go972trSIt8/gEBhhtkQQlMNMZ2Ba33RwRD40REhfI4zPbYRykG+oazoX/AYxfqcdhJOUyAFEVAAOmTRrjla/iKxUfJB4jPmA0AmIgKAhkyNCQAL3JBBqSKyCXC75KJXwVJQUBRGnh2TNQGmXxEJ4FyEGS5Hlev36DLg0yX6lK+dQKpcrPupoR1PkRzAjpkG/RRGRcdIRMxOqfcs0KZ/TGZR0yJsYY25ppwlZhvDRIvNp2Mzyw4+NBF9NeB56PvS1/svWD/qeTB67ppfzEGMoInlRYJ6CCWfA4ocYFInFAGcGimzApMX3XCkXuFZ5iNWA4AYQ0D5iBA+Ssp6z/Nf1g6bXDlZ8Gy69+drxS4HhGJe1OUukmj7NrXuZlJhp92Wf2Z87Im22Y+xFbWiN7INv94RVDylFv42xQ06uP6nkGeFiOQ+sHz/l8W0zOcQO60k401VIqsFeQf1qIrHrNwRs2Ltj4ZZ+ezx41M/KTT0Y2v7gY312b//yxVq0ffzrxYDe+ODklAgSCPS/+355Xpff/ZX0JfPPcn//Sv6OSV5L0EJSVQJC1LmltdgKJAACk2KqZwloEMmvlyKtWdJWAUB4BktLKC5BpQFUC5MprRYBSGtOFAKWVN0km8nJCTeZ0KKloA8p0ZQ/K1eQRKqU3b4dLqyk2qBXDnPinMcXQITtkWlHdtn3Rs1gtaySASOx4r+KwqmirbGuB91hqnbU2W2KxFRUM+BuNiW2xxtAt3hBfVNCBtrSnoCfF5drT7VMtsdEmK6yz1k/Si+J5W3O2bvdugbVJLLQjCzIZkSKr/lHkthldu2zjjjbw315zLHvVAQA=");
 
 export default FaceAngry;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-envelope` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-envelope?s=light square-envelope}
  * @preview ![square-envelope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-envelope.svg)
  */
-const SquareEnvelope: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 64c17.7 0 32 14.3 32 32l0 320c0 17.7-14.3 32-32 32L64 448c-17.7 0-32-14.3-32-32L32 96c0-17.7 14.3-32 32-32l320 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM352 160l0 29.2L231.3 255.6c-2.2 1.2-4.7 1.9-7.3 1.9s-5.1-.6-7.3-1.9L96 189.2 96 160l256 0zm0 65.7L352 352 96 352l0-126.3 105.3 57.9c7 3.8 14.8 5.8 22.7 5.8s15.8-2 22.7-5.8L352 225.7zM96 128c-17.7 0-32 14.3-32 32l0 192c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-192c0-17.7-14.3-32-32-32L96 128z" />
-    </Icon>
-);
+const SquareEnvelope = createIcon("square-envelope", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABgQAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCJgsGAAE2AiQDCAQgBYMtBzYbLAXIHonpNqD8B7R2JfHw/2uV9/2qoW5ewlpGCALLuKh2QSPmRLFc3e5gcd3ImFC17/9zTb97fnSA3+jQorDSo7WX9XwCA4z2+UgGNtMJ2Nhm7upS81Dai6QllsbjN4+nJ+TxgU3VQXrP/8Ar+U3jX4M9SZJnAKIBgFUH9mzT6o3eiD/aiD9sQUCsBoVAhgzDBFgqExgmVyCXC3qj3abfwIIAohP/5RLI0YU78QggB0lHng8ZUq8PKXdU8/3ljtKFFzLiLaR4lG+WKvF8vR1ZPKZ3ytXTX07Et53ivf1uXDW++R+GZvH+fT++ckrYG2/y+QH7I6JKqETEvngrXtCB/c8z4k2IR/OtcjVe0DsR8Vi9XaqM/r7x/f+j/jj/h0ceqT0Lz9ZWqj2LuytGftqkWVqp1Gx+upLgyBj5yHDO37taMTMfVbzhrH4Y+3jYxUW+rFS+hNI+dRRtIbj+OggE7/y1ZfuJ+tJb3eUE/vzpLfVb1O6NVvoedEsgyKa2pzoaLYiWAACkuNvoaCGQXNWB3Yq3rXEoESDpVILMUA3IlUyBDiPMIzcv75GJvEfo5xggqbgNMvM9BLl+foQOS/0cdOoXme/RnkP//BLWS3TdrmLW9JnF4mLZ0Rh3ItPmkmJbnHh3nJiEh8674bo7nXPWJXcK/Hbb4rtcs17D1vmgwizTzVRYrDD3H4X9IrjdHS7NOfs2SxT33Ynu1udPgpIw4WyVJBGp/nyL085dv/vc1Rs3zwEAAA==");
 
 export default SquareEnvelope;

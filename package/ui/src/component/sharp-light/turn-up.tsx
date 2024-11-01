@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-up?s=sharp-light turn-up}
  * @preview ![turn-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/turn-up.svg)
  */
-const TurnUp: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M160 160l0 32 0 192 0 32-32 0-96 0 0 64 192 0 0-288 0-32 32 0 50.7 0L192 45.3 77.3 160l50.7 0 32 0zM64 192l-32 0 0-32L169.4 22.6 192 0l22.6 22.6L352 160l0 32-32 0-32 0-32 0 0 32 0 256 0 32-32 0L32 512 0 512l0-32 0-64 0-32 32 0 64 0 32 0 0-32 0-128 0-32-32 0-32 0z" />
-    </Icon>
-);
+const TurnUp = createIcon("turn-up", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABWwAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBTAsGAAE2AiQDCAQgBYMtBy4bygTIHoVN2S0WVTeZ7pZlMccBvrwj+n6/z57z7tL9y2wThSqsUpEIwhIYEUfSr7BBGyO+BXN6X1Bsq3qtAsSRIgUEjsi4+diNVdyMrZsC1EnmB/L5v5zeeH50gN/okNagNUHGxKO1Ws8TSKwXlyd0FlimCVi7c9tqkrAcSpIiyfHteL2g5XMCMFI/CviSPjT/OZwDpQ0AsggAuHZ/cABqN93IyfgecqIPBHIdcEgwYMAuARfpBbsMDkHThD+iafIfSAiQSbrPAg0NN8EtAA2Uam3LazLOtXsjY39MiPQuowxJRqN7GYrpRjf15H784pXhpVxMZtoz9HQ/VuzKu8s8N06SKogvKoACnt3eRnHiY0oZ19fmzdcy8SoBhv4gFegFcvw+QBB+vu0/UeF/2lTg38vnN/yMjNVMlgKmFQjDaS1gNMfgMJMEAFB5x51jEJTrdGivs75CQHQElEldwGCHnYCmO0XAhH1JAiZ1t+mlzYhVYx2UWS/B4IID0Ky6BRMueg0nrUZvTowxMJ+5xNaINm8xGoowx2WtsRZChcs8jxXPvpt58SHmbVi3a86sJbsDvm0g2bOmtcOavoiiQiIoh9fd8/0Rc7btWLJhPV6Tx/eBx/5+24u6jhKeUSlFasqC3eDeJgA=");
 
 export default TurnUp;

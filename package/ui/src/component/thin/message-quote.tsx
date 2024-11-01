@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-quote` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-quote?s=thin message-quote}
  * @preview ![message-quote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/message-quote.svg)
  */
-const MessageQuote: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 416c0-8.8-7.2-16-16-16l-96 0c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l384 0c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-138.7 0c-3.5 0-6.8 1.1-9.6 3.2L176 496l0-80zM64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l80 0 16 0 0 16 0 64c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM208 128c8.8 0 16 7.2 16 16l0 24 0 24c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-48c0-8.8 7.2-16 16-16l48 0zm0 96c5.8 0 11.3-1.6 16-4.3l0 10.3c0 25.7-17.5 48.1-42.4 54.3l-15.5 3.9c-4.3 1.1-6.9 5.4-5.8 9.7s5.4 6.9 9.7 5.8l15.5-3.9c32.1-8 54.5-36.8 54.5-69.9l0-38 0-24 0-24c0-17.7-14.3-32-32-32l-48 0c-17.7 0-32 14.3-32 32l0 48c0 17.7 14.3 32 32 32l48 0zm96-96l48 0c8.8 0 16 7.2 16 16l0 24 0 24c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-48c0-8.8 7.2-16 16-16zm64 91.7l0 10.3c0 25.7-17.5 48.1-42.4 54.3l-15.5 3.9c-4.3 1.1-6.9 5.4-5.8 9.7s5.4 6.9 9.7 5.8l15.5-3.9c32.1-8 54.5-36.8 54.5-69.9l0-38 0-24 0-24c0-17.7-14.3-32-32-32l-48 0c-17.7 0-32 14.3-32 32l0 48c0 17.7 14.3 32 32 32l48 0c5.8 0 11.3-1.6 16-4.3z" />
-    </Icon>
-);
+const MessageQuote = createIcon("message-quote", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABtQAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDXgsGAAE2AiQDCAQgBYMtBzQb4gVRVA5KZD8OcrLQHsKoSEW5p7h+Qar8EzaKNR76v/f9PXNOSmucUKV0DVbhLhproAFMQErl0Ftfv8D1Kbm39xLvJv7CRt6YnYAjWao7F925vypz9a4//b07/+efPuAz+mh74N+4AMdqjfN4TaCsi+s8CygLLJAIApCYs3amdAbRL5IkoqcfJl+GyQ1qvBjhTT7mJ27ji8Z/U3ZBKgVADAKA/bPmWrxvsRXx2byG+HQIAuIAsIgoKJhFsMVTYJaXRVBVQSuaBv+BCgKIdvS7ElR04hd/gApSe62XkbFhyYZU6R3o1Sa9RfsZk+Ad0xmbJy+az8YF8rbxtNWD5wynogUPGFrIrlvx5D2LB88n3I+REgS3GU+b2yl5N+mh3ZMXEh/EBrSeNoLgKYPgGRN51ixx0AxuM5yKNvAUlzHDtF8k+dtNZ4SwfgoyR0rZLoXcnkYrCHyYB82RD0Ie/Fv6OvaJp+6g3wP092+eCp7fvutt9T4H0ZaxsQcN81evhQKhQkGEhl5rCAlBGcTOnas29OAgxhRObzu69XeQBRYE/dYonMa1A/7DAoY3T6JXDPnEDqxY8/evNRYMZd8+FNLS/n6t9fE2SruFEPYx8B8GAIAACIz8PGvpDy763yk1E/x7Vv4ONm9TPoFOCYKy0qzoSZAEACDjRmRCIL26o2ftdYcgdCNAatctQDEjBEHVbRlBm3nZCNp1O+IpapcwqreC1OscFJs2g2rUS9Bmy4eg3WgUvSa0kvhVxta0UPU+lZ6qVYGa5gqpqpgfL1RsNX6Na0swFzFm3pxVRo2YtKpBltTGq82qWcHV3khJl0pTCqjj6v58m1FLlk2aNxcmKaTkrXhr1r0TjOGBUFclUhLZp+18yqsDAA==");
 
 export default MessageQuote;

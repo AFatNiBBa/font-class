@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-pull-request-closed` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-pull-request-closed?s=sharp-light code-pull-request-closed}
  * @preview ![code-pull-request-closed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/code-pull-request-closed.svg)
  */
-const CodePullRequestClosed: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 32l0 96 96 0 0-96L64 32zM32 0L64 0l96 0 32 0 0 32 0 96 0 32-32 0-32 0 0 192 32 0 32 0 0 32 0 96 0 32-32 0-96 0-32 0 0-32 0-96 0-32 32 0 32 0 0-192-32 0-32 0 0-32 0-96L32 0zM355.3 12.7L400 57.4l44.7-44.7L456 1.4 478.6 24 467.3 35.3 422.6 80l44.7 44.7L478.6 136 456 158.6l-11.3-11.3L400 102.6l-44.7 44.7L344 158.6 321.4 136l11.3-11.3L377.4 80 332.7 35.3 321.4 24 344 1.4l11.3 11.3zM416 192l0 16 0 144 32 0 32 0 0 32 0 96 0 32-32 0-96 0-32 0 0-32 0-96 0-32 32 0 32 0 0-144 0-16 32 0zM384 384l-32 0 0 96 96 0 0-96-32 0s0 0 0 0l-32 0s0 0 0 0zm-224 0l-96 0 0 96 96 0 0-96z" />
-    </Icon>
-);
+const CodePullRequestClosed = createIcon("code-pull-request-closed", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABiAAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCeQsGAAE2AiQDCAQgBYMtBz8biAXIHgeO86zipyNa9BphPPz/Wnrfn9k9yUwZ/okqMCpgckC+VaRSxa51ZZcUdPWe2urqbRAIsPYdUvseb/6v+fzSjg7wGx1K5TItkmYR8XwC89GwyicUBTYb8QRso3oFBzp/cTw7QRmfYooG6Xn6jUfBm8Y/Iz0kKQsAMQAAK3dt2+p7K1oRv9sSv21GQKwCWaBAgTECLFEIjFHKKJWCVrTb7D8QAURTdEsJlOhAN14CSpA0y7Jz4sSxwzrrRt9yZ92o9gl1RFST6qoWQlSVqFstYLCuA+57ZOmypctjeEyMIbEklsbQmBDDYlnrGRKT5pTlcPphMTmG7hBuYfO07VVdiVfDcS/uQXFmdtfb3p7fJ39b3r1IQWNt+YUKz0Lf5dx2vjv2rOrzK/pm75z00WeffXTSO79A95L3wW6P76FR1gB5/Dc5P7tBBhm0PnM+EAjmz/nz41D/Jf876gT+fuzyZ6T9PVrpLTokEBRT2lPsT2Q5WgIAkOKmrkQWSJ5qii61jycChAoBkqZKgMJoAwQoVSYL0DDOXAGaKtsUouwUhjjQgqSPK6Awzy1QGuIDaFiiJ940JApNymsx/h8xZV0fWjspz5w2Iy/KiyW1oO9Yd3Rx3m2ZcJO3TIRznXTJRdedcNwZ13vkVVtTN1ywbo1Y64OymaaZIVskn64+zt7phKuuOTMvnh9nsXx/YIKb690nQnsSUc6SkSQijVC56lT7Z5iqmfWpZgMAAAA=");
 
 export default CodePullRequestClosed;

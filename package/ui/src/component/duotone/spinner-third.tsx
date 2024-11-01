@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spinner-third` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner-third?s=duotone spinner-third}
  * @preview ![spinner-third](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/spinner-third.svg)
  */
-const SpinnerThird: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256C0 114.9 114.1 .5 255.1 0C237.9 .5 224 14.6 224 32c0 17.7 14.3 32 32 32C150 64 64 150 64 256s86 192 192 192c69.7 0 130.7-37.1 164.5-92.6c-3 6.6-3.3 14.8-1 22.2c1.2 3.7 3 7.2 5.4 10.3c1.2 1.5 2.6 3 4.1 4.3c.8 .7 1.6 1.3 2.4 1.9c.4 .3 .8 .6 1.3 .9s.9 .6 1.3 .8c5 2.9 10.6 4.3 16 4.3c11 0 21.8-5.7 27.7-16c-44.3 76.5-127 128-221.7 128C114.6 512 0 397.4 0 256z" />
-        <path d="M224 32c0-17.7 14.3-32 32-32C397.4 0 512 114.6 512 256c0 46.6-12.5 90.4-34.3 128c-8.8 15.3-28.4 20.5-43.7 11.7s-20.5-28.4-11.7-43.7c16.3-28.2 25.7-61 25.7-96c0-106-86-192-192-192c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const SpinnerThird = createIcon("spinner-third", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABigAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCEQsIAAE2AiQDCgQgBYMtB1YbOQXIhofn9Z469yUDOANYC7CEOUK1bIX6T516nmmhAD6AZ87zxcuDc55HIOf1Xm16igWpUE1rYH2b0pNBJHVFhIRKRMeVHt+ePSGPS9kpZUgPpzO4E/8HMH7VwCmSChmAqA6A4XNnTvbxT/FTijOl14kzJiEgRoBCIEOGxgIMkgk0liuQywU/pVKJn6JUKgggysIXZ6AscqzBfkAOkhB53nxwpTJV8jl4XcWFx+tFPFjp6uSzwz+ZfWXYfbXvq/tAStR7qeW1GZfm3DL8iOsjC/7ZVPv8XOEKx+rcX+nKtAuzrk6/OPurge91vY+yzToeHF1oeN+t9T6edGbWtSnnRnw6p8Wz1Z/9vfmZNWf8+GTVm7ip6ljH725Q31hjym/89NU33uzUceEteUyfPXt6iFS8w8fGNKDBce4e4+ObbqrCUEhplM7BsWFPPf3IhIF5rxo1QMDO8jWfbHDP3WNdPg4Cwferfp+wtNqg/8tXSuCXd//8V/8dlT5O0rMoL4Eg61TqZFECiQAApNijReInBDKDJfVTK3tAgFARAZKyKgqQaaS6ALmKOgpQRlO9BSiropkykVcQals8QVLZdpDp4zDI1fYaKGOQr4KyakfmcZy/cB98yWMoNHqv6N6lWzGgEFODdyImrwcW23a7PdBqHy5aY6stdlltlfV2EXKHyfFum43RiNG+qNBdF90UBiiOi1d5Dgl22Gk9L55vGai477SzRx9uH06TAD3e6kxGpMjq7Nz2Q2C1swXrna23px4jWioAAAA=");
 
 export default SpinnerThird;

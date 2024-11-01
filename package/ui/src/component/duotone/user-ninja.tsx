@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-ninja` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-ninja?s=duotone user-ninja}
  * @preview ![user-ninja](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-ninja.svg)
  */
-const UserNinja: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M144 112c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16z" />
-        <path d="M224 256c-57.2 0-105.6-37.5-122-89.3c-1.1 1.3-2.2 2.6-3.5 3.8c-15.8 15.8-38.8 20.7-53.6 22.1c-8.1 .8-14.6-5.7-13.8-13.8c1.4-14.7 6.3-37.8 22.1-53.6c5.8-5.8 12.6-10.1 19.6-13.4c-7-3.2-13.8-7.6-19.6-13.4C37.4 82.7 32.6 59.7 31.1 44.9c-.8-8.1 5.7-14.6 13.8-13.8c14.7 1.4 37.8 6.3 53.6 22.1c4.8 4.8 8.7 10.4 11.7 16.1C131.4 28.2 174.4 0 224 0c70.7 0 128 57.3 128 128s-57.3 128-128 128zM0 482.3C0 399.5 56.4 330 132.8 309.9c6-1.6 12.2 .9 15.9 5.8l62.5 83.3c6.4 8.5 19.2 8.5 25.6 0l62.5-83.3c3.7-4.9 9.9-7.4 15.9-5.8C391.6 330 448 399.5 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM160 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L160 96z" />
-    </Icon>
-);
+const UserNinja = createIcon("user-ninja", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABkAAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCHAsIAAE2AiQDCgQgBYMtB1AbPgXIhof/t+v7fepW93rTGqqG5JcdyQqSYfalsCeuef7W1F72BI/SNS0unGeeT2DAUd60F5nQm+J2VxGltPHwkWYy6B6/eTzvDnk8nq5UIrsv+wa34P8Axs+6upJMqwQg2gBgzqZ1K3ywP/Zn8U3zFeIbyxEQc0EhkJDQQ4DpkkAPuQK5XLA/azbZH81mQQBRhmASlG0Op+A8QA4ySeT5qN61erVUzzf6PZVNrw2NeKvXnR0Cc3fc0xm8uxNzWfWuju88Pezp6qcz3u3zwPR35q9/eFbE+4vu6bgh7uq8KZI6tC89q1Vqcf16Lbbd2cGl1bgWVLbd07kaMosrQfLr+1Sbp37t883R39j3/gv/0/JZ2/jq8OEHfqhXV6545ppHHrn26ZUrK43GA/DhV8dManz008DV88aXSuPnrd53oLGCmc9fdsyMtb75ptx9zGXPz1zRqF9zbv1K9XOvqd9/2f5GY/+lPHjLKpN9DwSCle+/N31X6+n/tlQzcPCt3/+GzzU/iA+yp9AiA0Ea3hxue3wAVhxAPYuz9RWKdqtAslUC/qyauwUIFQTIlFUESLprI0CuYpgAJb1MEKCsYp0k8lZCBzsam6k5jU0muojNdfAyWzLd5/WyDpH0Ttca/a8vZyEFFuwqxowcXUwtph3VUCU1bk4rtpPBZ7OJIeamo53iZGc6ypGOcybBT7eidZaTLJSwBQpUGGOk0QpTFdf9+eWNjnK6MxznFCfDNtMU35cHO1ueP8SUMllyrD1JIrJI7R5r+4iTjzv5+D0jNHiyQ2+9VQAA");
 
 export default UserNinja;

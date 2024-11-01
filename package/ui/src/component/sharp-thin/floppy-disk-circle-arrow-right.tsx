@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `floppy-disk-circle-arrow-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk-circle-arrow-right?s=sharp-thin floppy-disk-circle-arrow-right}
  * @preview ![floppy-disk-circle-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/floppy-disk-circle-arrow-right.svg)
  */
-const FloppyDiskCircleArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 480L0 480l0-16L0 48 0 32l16 0 320 0L448 144l0 48.7c-5.3-.5-10.6-.7-16-.7l0-41.4L329.4 48 320 48l0 136c0 4.4-3.6 8-8 8L72 192c-4.4 0-8-3.6-8-8L64 48 16 48l0 416 268.5 0c3.6 5.6 7.6 10.9 11.8 16L16 480zM224 240c25 0 47.6 10.5 63.7 27.3c-3.2 4.5-6.1 9.2-8.9 14C265.6 265.8 245.9 256 224 256c-39.8 0-72 32.2-72 72s32.2 72 72 72c12.1 0 23.6-3 33.6-8.3c.7 5.5 1.7 11 3 16.4c-11.1 5.1-23.5 7.9-36.6 7.9c-48.6 0-88-39.4-88-88s39.4-88 88-88zM80 48l0 128 224 0 0-128L80 48zM432 496a128 128 0 1 0 0-256 128 128 0 1 0 0 256zm0-272a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm8 68.7l5.7 5.7 64 64 5.7 5.7-5.7 5.7-64 64-5.7 5.7L428.7 432l5.7-5.7L484.7 376 360 376l-8 0 0-16 8 0 124.7 0-50.3-50.3-5.7-5.7L440 292.7z" />
-    </Icon>
-);
+const FloppyDiskCircleArrowRight = createIcon("floppy-disk-circle-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABqAAAALFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDGQsGAAE2AiQDCAQgBYMtB0UbrgUR1ZqDyX4kxsbMnqrYnZc3dKbQqFTxSzy8r+vz3GcP2R9GK2bsMEkHhN1WAeAKWD2O0hKWY+S2SencR8TjyKMRIYt4CAmz2311elaLSpCUhe0H1VFMnXqe81AAn0MQtLFGBy/r+ZznFej5pj3AaqUIFdiqWv9v1ltKUv6W5Im+pGGJfzcsx10hj2+dVCE9nr7EvSVS8bN+biLJMgDRBMCyPTs2+agVrYgv2q8TX9iAgFgGhgpkWDNQgIUygbfnhiKXC1rRbuf/QBBAVMlvkkCOOl7Am4AcJNU8nzCoMWDAkLLSme8uK0W/oiwisogoO3eFeKSI2B1FiId6hnikN6KIFJ3xcK+45/VxpSdny1jt28bZqNyn9pLijfEc3Cf4nCSUEVGcunMC4tkJHteP53gWd4zVseq6cTbOyuzOeYi3J03XTRxzT3HH/Dt5xfVT9oJX7urVu9e26BU9Y2v0jN7RJ3ZEUUSU5XaaO/yZJn8d9uXpL7WbeI/LmppLz50zzfn6OKdPa7hN9egf0uptprqs05o9fb/5/ejtq2evabZmzOjqijNbPf6v9an1XHrbbXnukkvv/fA6HNdyndaRD0d8PhrUOXx456CPPhpBeX5Zc0wiTRs2evSwaSmNQR7c2sqd8tk2aZW22LNWGebqelP96mFWeQYIBGc/fujNI90L/62XCfz0zu8/qy+3P2JL0zOoSyDIJrZNB9NS8OgA0imuMlwZYSB5wg1EtcMjAoQCAZKqQoDMAE0BcoUJAlQMNkuAqsIOmcgbQk+HOkg6XACZ2a4GuZ5eBRULyT9V1TO40ZImR34zxoUMyWHwbBcC07xG2SGe+gMsa+od6jSsJLXF7FQpdU5CdlH2Mgk1WPoi8NhcIGC79Lg4UdkdOos5DxLA+Zjq1ltrMBnB9K1jEjQp9bis62e97pL1h0+Ole378jz9AA==");
 
 export default FloppyDiskCircleArrowRight;

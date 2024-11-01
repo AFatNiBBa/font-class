@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-repeat` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-repeat?s=sharp-duotone-solid arrows-repeat}
  * @preview ![arrows-repeat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrows-repeat.svg)
  */
-const ArrowsRepeat: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M50.7 384l22.6 22.6 80 80L176 509.3 221.3 464l-22.6-22.6L173.3 416 480 416l32 0 0-32 0-96 0-32-64 0 0 32 0 64-274.7 0 25.4-25.4L221.3 304 176 258.7l-22.6 22.6-80 80L50.7 384z" />
-        <path d="M0 256l0-32 0-96L0 96l32 0 306.7 0L313.4 70.6 290.7 48 336 2.7l22.6 22.6 80 80L461.3 128l-22.6 22.6-80 80L336 253.3 290.7 208l22.6-22.6L338.7 160 64 160l0 64 0 32L0 256z" />
-    </Icon>
-);
+const ArrowsRepeat = createIcon("arrows-repeat", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABdAAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBbgsIAAE2AiQDCgQgBYMtB1YbFgXIjsK2eXNEEiTDsXx4W0NpeZ5vv//tMzNfJYk2S5q+h/IdaxAaoVs0CZUQqVQy+S2iJ/K1akz3AgDuJgoQFPCrFABdXY2I0LHt+LjSq87/NZ/f82vADyKXZVGa4NFb+wT2fHQ2nxf4hNpgBrbd2ZRLrV0khxkmx6NxfPIQ6Jyg5b8+0Uf5VCR4gf8DmF/83imGKgAyCQBO786H2PbSK5HdJ/lmAAI5A6wgVFQsIHBAKVigsgKaJvRK10EvXccQIP3AC1fQj4YH4BGABopIU4XWjWqzSmBiIEIgMprD8XEjoSyhwSzseiKhJkIyPF8Ph3irkSHXbCSSDYI86pS65gZrm8nNn1V5Km1XmPfBeGftDunE+ByCiF85IQlrM5pYU+KOEFxiZ4WhY4RtJ/XZgCC8fv59bs968H/QqAD8+PLvZ/ohoftalM8YVECoW13UqoBCAAAlrwIF2EGo1inQvY56LyCGEVD0GxZQzbMh0AzbRKDPkhwC/YZdU0rTI2btFFCMegyqfW+gmfUB+hz4SvrNRmlgjHkw37vE/qHePk7Fk1xmsZBZm6HCZoWnzeCrQQiO4tSdW89OHLvwPPLRMH9xo9+Dex6IpcQlsTJerq0nCCcePblo8+u7VPB+P+i1Pz8Eh1EAto9mopJCSvfDxwegxKxVjd3VGd4Gfy8BAAAA");
 
 export default ArrowsRepeat;

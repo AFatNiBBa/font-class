@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link?s=sharp-light link}
  * @preview ![link](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/link.svg)
  */
-const Link: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48.5 256c-50 50-50 131 0 181s131 50 181 0l22.6-22.6-22.6-22.6-22.6 22.6c-37.5 37.5-98.3 37.5-135.8 0s-37.5-98.3 0-135.8L195.7 154.1c37.4-37.4 98.1-37.4 135.6 0c35.6 35.6 37.6 92.6 4.7 130.6l-5.3 6.1 24.2 21 5.3-6.1c43.9-50.7 41.2-126.7-6.2-174.1C303.9 81.5 223 81.5 173 131.4L48.5 256zm543.1 0c50-50 50-131 0-181s-131-50-181 0L387.9 97.6l22.6 22.6 22.6-22.6c37.5-37.5 98.3-37.5 135.8 0s37.5 98.3 0 135.8L444.3 357.9c-37.4 37.4-98.1 37.4-135.6 0c-35.6-35.6-37.6-92.6-4.7-130.6l5.3-6.1-24.2-21-5.3 6.1c-43.9 50.7-41.2 126.7 6.2 174.1c49.9 49.9 130.9 49.9 180.8 0L591.5 256z" />
-    </Icon>
-);
+const Link = createIcon("link", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeAAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCEAsGAAE2AiQDCAQgBYMtBysbCwXIHgVuc3PEFa6oEQ6R8Kg+Hcbzz++Pb+3z7geHTGSiIqOjkFzdlKpDeSUM0+RJtOfndg/zUOSzhIikrS0NSNBEvNESlarJQyVUpm7+BFv8jY1hggss4Uj+eXH2A7Fr6tTznIcC+OQZaHtoLLRAQnOeRyDgpfq22uRSi7WKYt82PDWCcBVhEiZijWdjtoOW31lDSb2R9XhRPzQ/zXOgtA5ApgKAPaclEffP+Zz0/1/SOwYC2QtYitChw0IEtpMLFlJYCpomfM7//+k/cCkEyCB8lwINDZfALQANlGpt0yY9nWinxujo6feSh7mkf1KYacoQq3vs9vTIc1HQP3E5q3YyGiNTOJPPusfZ3VwoeUTCIMqzxcXDFbtvo814JE1hiQ5983IXd7T4v+rv3oZP5S3A5lP1SGReRkndb9myX+z68+4uvu28byAznvFmeOqpU9bbkUhtu7MLEWDLwdkUNFBXssN9h8YzybPX2G0BCMLaJ4/5jHn7NTxW4Ovb7+/PG/v/o26XB8MKhG7N/0WlHowZq9sIAFC5g1O+KCgXyeCrjnspIEYRUAaNCugsYEGgGbUagQGLxRAYNOo4ubQRMVOVQBl3HXS22YNmphMYsN3TGzQzOODocKG/ewkCh/g1FvIHWZptY4OJIbLMM8xsOBe55oKtaBgamKmraZsxZEIM5/oEDeb9EBPiF8SkMXf2KpSZNzHVljn/kgx233Fa6N0usGWQcJNIKVLtWQM=");
 
 export default Link;

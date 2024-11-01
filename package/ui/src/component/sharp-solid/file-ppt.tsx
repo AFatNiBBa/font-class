@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-ppt` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-ppt?s=sharp-solid file-ppt}
  * @preview ![file-ppt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-ppt.svg)
  */
-const FilePpt: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 0L224 0l0 160 160 0 0 144-272 0 0 208L0 512 0 0zM384 128l-128 0L256 0 384 128zM288 352l16 0 32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32 0 16-32 0 0-16 0-48 0-80 0-16zm32 80l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48zM160 352l16 0 32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32 0 16-32 0 0-16 0-48 0-80 0-16zm32 80l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48zm224-80l16 0 32 0 32 0 16 0 0 32-16 0-16 0 0 112 0 16-32 0 0-16 0-112-16 0-16 0 0-32z" />
-    </Icon>
-);
+const FilePpt = createIcon("file-ppt", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABfgAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCQQsGAAE2AiQDCAQgBYMtBy8bQAXIjtEnY0SVMPFMxMFzROJ5vrXX+2Zn//+ZTYEUkG1USbHQIV0hAVVONSAJWyEjXIEsCll72M/dzN/E2psqYlk9uc0beEtUsfQboqHhcZG6/z+X43v3/OgAv9EhjYlLN65BR2tXzxMIJN4YeEBZYHlECVjWTr88JbqJJJHvk2Hzw+YBNR+6Ez3lXnkGXMlvml9wO6GY6gBkNQDgyOJoP4TPfEoky+IFWUYvCOQIYBsJOnTYRAL2kwk2kdsGqip8l4gi/wcyBMgIXr6AiimcxwVABcW41jWqjbqNug26fkVdGPrWDW2QITIdaemPtqEl83O6NrzacMt913bT3yLSAnF+ffQ3G+8HWywokMVQWiOday07Tul91fO8/AzhExefeuqq1d6Rg6WlA5Dl/swHUTpX+6dS/avlCCx8A2lDaOsgEQ3b7cOE9JNBDfItO8ug1TkwWZ+ymgEIQv34d2LGtP9/oivg5+2/Kvcr+i8UlPeYKCB0M+KMyQIKAQCUnOYtEBTnqODutNsCoqFDMdKgsxFB1eyE3hYNlPLOLJnUKbHeFIJi2jHo7LML1Xpn0NvvzhlZn84QGTNi/oGJHSPafogzyTS38rbQWNui4m4bq6VwxQ8idBHLdmwrWbJoTWnAC/r9si0dEtbug1hGUhprxcf18+kJSwqK1uzYTvu04ftaWEWej5AqBcJdckUhZfLo7UQuVwI=");
 
 export default FilePpt;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-middle-top` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-middle-top?s=sharp-thin comment-middle-top}
  * @preview ![comment-middle-top](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment-middle-top.svg)
  */
-const CommentMiddleTop: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M310.2 116.8l-3.6-5.8L256 30.2l-50.5 80.9-3.6 5.8-6.7 1.4C89.8 140.3 16 216.9 16 304c0 103.1 104.2 192 240 192s240-88.9 240-192c0-87.1-73.8-163.7-179.2-185.8l-6.7-1.4zM246.6 15.1L256 0l9.4 15.1 54.7 87.5C430.5 125.7 512 207.1 512 304c0 114.9-114.6 208-256 208S0 418.9 0 304c0-96.9 81.5-178.3 191.9-201.4l54.7-87.5z" />
-    </Icon>
-);
+const CommentMiddleTop = createIcon("comment-middle-top", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABaQAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBTwsGAAE2AiQDCAQgBYMtBzkb2ATIjtRG+UVWEg//v/a/fe7MF0dlcNdGI3kzyb/S8KaavLKIRNar2veJy53/WvSAi/xR5q504wLc6zyBQKMuGxOzgLLAMk3A8rvJu/Ij8baTnH6Shq0bti6Qx33blZGuple4yB8af7R1miTLAEQTAExZtWyBJz/jZ8TLEuKleQiIKaAQyJChgwDjZQId5ArkcsHPKJX8f2BBAFEOeBLk9sGp2ADIQZLyvGPHmrK6fKXbUr2rVctWK2N5tIiiT4vfLf+8Av26qvBl6YeV3ee1btG6ZayIz0ver7gz/sHsZ8u/zH0x8VHXr8s+rlrVtbFJ498ur3a+MmJuDxw0dLEhi42w2aKmKUyNRVNHGnRXqCyLgqmRhsXNE3dcwGFGrrK86cgZMaeqU6frZ2aZ5cz1YlfJZMbI0StWAYHgW9n/15saxv+rrEng971/8K+o9CRJjaiUQJD1L/W3PoFEAABSnNQ1QSAZK8G71rokQKhGgKRctQCZ9poIkKvWT4AynYwQoFy1ZTKRVwktbKhcUusIlxnpFJdr4S5XZryn5XItItMnXRv071zOTAnM2FQMGTi4GFtMW4qhImpaHVdsJ71PhpE+tNdOhxx03A7b7XFcsEctqJ1wwMwVM8MXFYYYaLDCWMVx93b3SjscdcwehxzM64xT3M/2dnI9vQ9lEkgOVZckIjV7wf4A1S0NOH7oMAAAAA==");
 
 export default CommentMiddleTop;

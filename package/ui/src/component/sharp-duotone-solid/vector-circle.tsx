@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vector-circle` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vector-circle?s=sharp-duotone-solid vector-circle}
  * @preview ![vector-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/vector-circle.svg)
  */
-const VectorCircle: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M41.3 192C62.8 119.8 119.8 62.8 192 41.3c0 2.2 0 4.5 0 6.7l0 32 0 29.3c-36.9 16.1-66.6 45.8-82.7 82.7L80 192l-32 0-6.7 0zm0 128l6.7 0 32 0 16 0 13.3 0c16.1 36.9 45.8 66.6 82.7 82.7l0 29.3 0 32 0 6.7C119.8 449.2 62.8 392.2 41.3 320zM320 41.3C392.2 62.8 449.2 119.8 470.7 192c-2.2 0-4.5 0-6.7 0l-32 0-29.3 0c-16.1-36.9-45.8-66.6-82.7-82.7L320 96l0-16 0-32 0-6.7zm0 361.4c36.9-16.1 66.6-45.8 82.7-82.7l13.3 0 16 0 32 0 6.7 0C449.2 392.2 392.2 449.2 320 470.7l0-6.7 0-32 0-16 0-13.3z" />
-        <path d="M240 48l0 32 32 0 0-32-32 0zM192 0l48 0 32 0 48 0 0 48 0 32 0 48-48 0-32 0-48 0 0-48 0-32 0-48zM48 240l0 32 32 0 0-32-32 0zM0 192l48 0 32 0 48 0 0 48 0 32 0 48-48 0-32 0L0 320l0-48 0-32 0-48zM272 432l-32 0 0 32 32 0 0-32zm-32-48l32 0 48 0 0 48 0 32 0 48-48 0-32 0-48 0 0-48 0-32 0-48 48 0zM432 240l0 32 32 0 0-32-32 0zm-48-48l48 0 32 0 48 0 0 48 0 32 0 48-48 0-32 0-48 0 0-48 0-32 0-48z" />
-    </Icon>
-);
+const VectorCircle = createIcon("vector-circle", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABqQAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDOwsIAAE2AiQDCgQgBYMtB1Yb4wXIjpQuJ6Tx8P3al+e+/ti9DG+JexaYAsTfBdkBlh8VUgwqQk1FsorubOhgn/9rPj877uctdH50ZrGo1iiLSvwCAz1b2p6fzWCmM7CdbXtTxCQ0jpAYb2jF78VT2qQ30294NfgfwPjLdE+R9AsAMQ4Aey45d8JXIzGS4rfmY+I3xxEQe0EWKFBglgDbFQKztGS0tAQjqWkYiabJBBAdgT4F6GAMPsH3gBZIelqRrz+eWyfK+gnjpoyr2qNbF/nd8gqhiohyZ1VWgpBlGbHe+dma68qqFHLpagwW1SUnopd8tMvxvjz2mMfkfqrL88vwB0euiV92frH2lp93RHw+9EIZyxHy4dHoTL+uq6r3t392uK89f3jc8D/zfrv5N/+9mvFDWW7q+rFaVqtPl+e9+t+0YKw059OA6i+v08vSpjPglmtTipTN9vwbLX60293/xvPJuq69ZdCZMiX3Qg3r1tmzccZJ6+37vDadlMXnurJxRgOB4LP3fu6asdv/71UJ/PHJf38qf0fNV0kaRk8CQbGyWenKBBIBAEgxMD/BMoHC7XqiV6O8JkAoaamko6QKM42jWkorqLY5NrzuKJ1TiFZfmOSqlkpGuY8qbPQw1TLJR1Tbdj/mOyZFAcZGIDR+RWY72IcOXMpDq+u8NS/21SbIVO3+trzbt3Qg55bhm252j7s96CY3us2DPfR+J0oPucvBNcGBL8qGrFbLtsqnR481LrrJ/R5wm3nLeZBt8v2ppQbrq5fhYBKJrvW6UBApismDm2548J77V/3y41r1SiyZOmN5/AEAAA==");
 
 export default VectorCircle;

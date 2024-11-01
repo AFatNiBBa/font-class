@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-cowboy` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-cowboy?s=light user-cowboy}
  * @preview ![user-cowboy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-cowboy.svg)
  */
-const UserCowboy: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M166.4 41.7l-33.3 77.7c25.3 5.2 55.5 8.6 90.9 8.6s65.6-3.4 90.9-8.6L281.6 41.7c-2.5-5.8-8.4-9.7-14.9-9.7c-3.5 0-6.9 1.1-9.7 3.2l-4.3 3.2c-17.1 12.8-40.5 12.8-57.6 0l-4.3-3.2c-2.7-2.1-6.2-3.2-9.7-3.2c-6.5 0-12.4 3.9-14.9 9.7zm-64.7 69.7L137 29.1C144.6 11.4 162.1 0 181.3 0c10.3 0 20.5 3.3 28.9 9.6l4.3 3.2c5.7 4.3 13.5 4.3 19.2 0l4.3-3.2C246.2 3.3 256.4 0 266.7 0c19.1 0 36.7 11.4 44.3 29.1l35.3 82.3c6.4-2 12.3-4.1 17.9-6.3c32.4-12.7 49.4-27.2 55-34.7c4.7-6.3 13.3-8.2 20.2-4.6s10.2 11.8 7.8 19.2c-9.3 27.9-35 62.4-72.5 89.9C336.7 202.6 285.4 224 224 224s-112.7-21.4-150.6-49.1C35.8 147.5 10.1 113 .8 85.1c-2.5-7.4 .8-15.6 7.8-19.2s15.5-1.7 20.2 4.6c5.6 7.5 22.7 22 55 34.7c5.5 2.2 11.5 4.3 17.9 6.3zm-9.5 37.7c33.2 24.3 78 42.9 131.8 42.9s98.5-18.6 131.8-42.9c5.5-4 10.7-8.2 15.5-12.4C335.6 149.9 287.1 160 224 160s-111.6-10.1-147.3-23.4c4.8 4.2 10 8.4 15.5 12.4zM100.7 416c-32.3 0-59.5 24-63.5 56.1l-1 7.9 375.5 0-1-7.9c-4-32-31.2-56.1-63.5-56.1l-246.5 0zm0-32l246.5 0c48.4 0 89.3 36.1 95.3 84.1l1 7.9c2.4 19.1-12.5 36-31.8 36L36.2 512C17 512 2.1 495.1 4.5 476l1-7.9c6-48 46.8-84.1 95.3-84.1zM224 352c-70 0-126.9-56.2-128-126c10.5 5.2 21.6 10 33.3 14.1C137 285.4 176.5 320 224 320s87-34.6 94.7-79.9c11.7-4.1 22.8-8.8 33.3-14.1c-1.1 69.8-58 126-128 126z" />
-    </Icon>
-);
+const UserCowboy = createIcon("user-cowboy", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABrQAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDGQsGAAE2AiQDCAQgBYMtBzIbmwXIjtRWeUByQvA85GXvJ6mS1oPWKYw1kekaR8gn8Soeh8B2P5mOBh5aqlF3mcU0n/5UzbC1AJ9/8aCl3TR10xrUC3VujkBFJi1KseAVK6iXpUatm00nvF2h0P4JNNkuGXiAslV5CKzTBMhnwiyuKWgqGkggfCjU7k5tuPpBPog8dJ8CeUgrIABSB4BJABVQgUgCQAUVASJpmEBDQ+CDuN3Rf6AJAgDiCTiFWxrgDRwDLkDzvaDgqWmhBSHB4U7Dw0/ranjovTp363zKWFXcVVyOlTabHElziEvfbGOeum1PXmW3i+V0SqNxMKyLNDovOBvtlm1LyhFHFJzUVxadTjuWCHdxR6lljzxaKLJSx5n0Rufdzs9aaqXHygSvB0Jt4icO2ZZ0KEkXQzdOpR6Nsotl26z7ykrHXNIpu9OPF3e7XVW8HGcl7uyLFZ6pPRdz2Lmn4mJD3LHAY19jHw59yEHLbO1y3QsLu0cXaX488/K4cSOPvFzfvHpUtIO78OBD4L06llh53At8+rr609g48c+Y5QcOpQ92Jp+82adPVlafPjdPJjsHpx86sHzMn4mbNi80IGKlRBgLpwxp6CN9pGHIFG89LAYCir2Yzoviip7/z/z371/NIVdnL/xXrAyYTsDKFdFeNNxDNTNj2udDXv/3GGhZOTmWNdDjvz0vvz0ACCAw+wXs6BdQ8dfbUAD4dP773+RF97i/XFeOAd4oAAioGe4MesfVAWr2IjtdkKnEIYFUXLKPO5D2xbW0JuhQQMETHSoRAqGhkw4PohXaE493oiKaD4JNH0DBlwlQKTIHGjYn4EGFO2VPbKF+tP5Pzv/PWKRplW1yyMzNyjHLzN6uLPAd2mK73JwcT5lKplJxlaHGGWuyIQYbYXLFnKhNbYoxmg7JTXyRKVeWHKYy5uLBzfNdDTHRJCOMM1a5KWdun04xdXhxKlIK1jKPQ0EBUYw3vT1z0LhpA8fNAA==");
 
 export default UserCowboy;

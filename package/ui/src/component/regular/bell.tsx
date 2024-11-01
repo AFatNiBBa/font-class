@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell?s=regular bell}
  * @preview ![bell](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bell.svg)
  */
-const Bell: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416l400 0c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4l0-25.4c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112l0 25.4c0 47.9 13.9 94.6 39.7 134.6L72.3 368C98.1 328 112 281.3 112 233.4l0-25.4c0-61.9 50.1-112 112-112zm64 352l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
-    </Icon>
-);
+const Bell = createIcon("bell", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBZQsGAAE2AiQDCAQgBYMtBysb4ATIhocPXdr7ktaTaB1kBQDxCKgE4PL6QHeElWHqVM04DwXwLWRBGwuXblwgoT04AhHLxVdLUCvWCmplrbWzWxiE2yR9Xz7JZv0MiwOyeCzuViJ5JPkBd5U3jV+0cj2JUgogGgJg4vLFc31yJa5EfF/7JvG92QiIiaAQSJGirQBjpAJtZQpkMsGVqK0N/4EFAUQFXkxAhhKWYR307yaRZlnfZpXlUr1sWbmUr761acT9xBdjPijEjxNaxv3NHmhWLx5q8VDz1vHZsohnx300LeJi8wdzb/aMeKWduDCxMj5fHvFU79eGr8zL+YWer5Rv6/1adHq14au/dfxh2w8uf1z/Zm6u38TpXqPyVkx98Zrb1uy5crcre+acvuZFU1vJR/U63UT9m2+uv+HPP6hp0MqsMwPsMbOVBjV//Dl+/YQJF1p36tS6EoG41LXzzJ/WNxjzX51yAq6998f/7cnaqtpP4vPkVdSRgCDtU9vHmvjEgKpnxdXsOKYTPkkgMU+Kr1rpQQFCjgCJCrkAqTYaCpDJ9RagpL2hAlTILZaKrK7Q1NoBEpUOgtQwZ0GmqddByRhfOxWaRupajGMwP7vEaRKdulYM7DegGFVMQ531FiqNRxfLUo9jsdQTu7bZb58jttpipyMCP2Suf9Re0yxsqi8qDNTPAIVRiu1kvb3MVoccttN++/KS0YrzWg/H7OaeUBMkHSSQSIgke1gAAA==");
 
 export default Bell;

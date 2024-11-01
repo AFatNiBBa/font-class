@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `input-text` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/input-text?s=sharp-thin input-text}
  * @preview ![input-text](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/input-text.svg)
  */
-const InputText: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 80l0 352 608 0 0-352L16 80zM0 64l16 0 608 0 16 0 0 16 0 352 0 16-16 0L16 448 0 448l0-16L0 80 0 64zm280 96l32 0 20 0c28.7 0 52 23.3 52 52c0 15.7-6.9 29.7-17.9 39.2c19.8 7.4 33.9 26.4 33.9 48.8c0 28.7-23.3 52-52 52l-36 0-32 0-8 0 0-8 0-24 0-64 0-64 0-24 0-8 8 0zM248.7 352l-17.4 0-17.4-40-107.8 0L88.7 352l-17.4 0 1.4-3.2 80-184 2.1-4.8 10.5 0 2.1 4.8 80 184 1.4 3.2zM160 188.1L113.1 296l93.9 0L160 188.1zM288 192l0 56 44 0c19.9 0 36-16.1 36-36s-16.1-36-36-36l-44 0 0 16zm44 72l-44 0 0 56 0 16 60 0c19.9 0 36-16.1 36-36s-16.1-36-36-36l-16 0z" />
-    </Icon>
-);
+const InputText = createIcon("input-text", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABhQAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCTgsGAAE2AiQDCAQgBYMtBzEbTwXIhofn9b7/tU9yB8kgT86z8X8HuYVaonJRs2UlTFzu/M9/+/YXf7Q5G/u8fb73+QR80KxskmZhllBgCXjW5jgfdZDoti9Cyr6Qhu2GtQfk8bdjGqRn0ld4yF80ftDH7SRZBiAqACzeuXW9j7+NbyO+/P8N4ktrERCLQS2QIUN/AebJBPrL1cjlgm/j///Lf2BNANGEvz+BHK24A48DcpA053lrl0F9mrt0Kxvt+Y6yUexNWeqMLDp6lkWnSCGKjogs4nBZlC/0eKLP08NeGPB098eHFUUwWW4rovyEKGLcCveKnUQZPWL79Tu27dxWxo7tQhn39Xoqbun5ZFGE7Y8Phbg4PuTV6tWfBn914iudFw9Rl7n/V9XNlUMq85Jf3etgXU/b9NPXjeaOf7o1vv5p07BRLXpbBKi3luTAj7raDc3OadZVVxvf0l2h+1bouuu5CWeTd0BN3pTNspPjdD77SmfnK892jlONXTmO1Vkq8wZfUAGB4M9P7rzhYOe8X1vKBL5/95cf/OJ0c3oVLRIIsnH/j7NvkYJQASykuN4QvJNAcoNmeNY2TwoQCgRImhQCZPqpBMgVxgrQMNB0AZoUtspE3ip0t/9gkzaX2cwMN7C57l5jG+b5tNCke2R6lNQk/Q2mr+iB5WH15AmT6jn1bdsuS0xo63Pr1/6o6+vYaJx1wkUXXHPcMadd6/Ar1pevc96KCFzug2qTTTBJbY56uvdZ32GFK646PVbnN5mr/j43yvXx7NGIJuSdoiZJRCoka4wXKwAA");
 
 export default InputText;

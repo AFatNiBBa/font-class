@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-dots` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-dots?s=light comment-dots}
  * @preview ![comment-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/comment-dots.svg)
  */
-const CommentDots: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 240c0-91.4 93.8-176 224-176s224 84.6 224 176s-93.8 176-224 176c-32 0-63-5.9-93.5-16.2c-9.9-3.3-20.7-1.8-29.2 4.2c-15.4 10.7-31.4 20-48.4 27.4L91.2 446l-6.4-14.7c-10.5 4.6-21.5 8.6-32.7 11.5c.5-.9 1.1-1.8 1.6-2.6C68 416.5 76.3 391 79.4 363.9c1-9.2-2.1-17.7-7.4-23.9c-24.5-29.4-40-62.9-40-100zM256 32C114.5 32 0 125.2 0 240c0 46.6 19.6 87.1 47.4 120.5c0 .1 .1 .1 .1 .2c-2.6 22.6-9.5 43.5-21.3 63.1c-6.5 10.8-13.5 20.8-21.7 29c-4.5 4.6-5.9 11.5-3.4 17.4s8.3 9.8 14.8 9.8c28.7 0 57.6-8.9 81.6-19.3c19.2-8.4 37.1-18.7 53.9-30.5c.2-.1 .5-.2 .7-.1C185.5 441.3 220 448 256 448c141.5 0 256-93.2 256-208S397.5 32 256 32zM128 264a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm128 0a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm152-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const CommentDots = createIcon("comment-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABigAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCLgsGAAE2AiQDCAQgBYMtBzMbMQVRlMvJDNnHatUXM6yL4Pm8qHo/6QGYAagFeCNwA3Tc7kDO22RTp55nWiiAbxSUPTUUWxZNugdXoMBj2ZigPa8VawX1stT0zC01CCoGBJFoRH78rT+Mf4E8noyuSqRr01u4OLxp/KyxM0jyDEDUAsCoBXOmee6L+CLirfLDxFumICBGg0IgQ4ZmAgyVCTSTK5DLBV9EuUz/gQUBRAX8YxLIURH7cBYgB0ldyvN23SpXrly1VD2fX7VUZcGncyI+XPDxrPfnfTTzvbnn9b+q3k1t60eDuKLt1UHDe1te3eCZ1gs+mhjx2tCIp4qPR50KqtrxinpX1L+yakNu7XJ+PO7TKW+OeLbNDcOfmfzG/Lm3Nr2u/U2Nrm1XNeoLiB4Pam3BHbXu+LXVW+vf0vLdGP8CH66OZH/4QmAsgyf2fPefz3act9xy/+WC0QOrH1rS8PN3JziP61vQonIa9wCiV7OLn9rQcVKV+2c+dSrUminSRJNcOS+4/rwJTnw/q379WcY8We2rG4KPWSBw0yUPd9qwoubQfytVTeCrJ37/tzxY/r/8RZLuQCUJBFnXcldLEwFnqnj9MPZrjQ8KJNuU8KtWc5UAoQoCJBVUESDTVC0BclV0EaCkhX4CVFDFHJnIKwv1LOsgqWYXyPR3DOTqeRCUDPVqVEG9yPSP1x7+7y9l/AyNm1f06t6zGFxsy5qgUqwbH1IcOx3327ZO2Gu9Hbbba521Ntk7kbtNS/fZZrxEjPNFhV6666kwWHFde90+3zq77bHJDtv9LEMUzwcd7Zd7d4KfMGVvuSQRqdoHH3Vbu2PvHg==");
 
 export default CommentDots;

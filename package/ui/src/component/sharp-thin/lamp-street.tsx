@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lamp-street` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp-street?s=sharp-thin lamp-street}
  * @preview ![lamp-street](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/lamp-street.svg)
  */
-const LampStreet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 164C16 82.3 82.3 16 164 16l4 0c79.5 0 144 64.5 144 144l8 0c-100.7 0-183.2 77.4-191.3 176c-.4 5.3-.7 10.6-.7 16l16 0 352 0 16 0c0-5.4-.2-10.7-.7-16c-8.1-98.6-90.7-176-191.3-176l8 0C328 71.6 256.4 0 168 0l-4 0C73.4 0 0 73.4 0 164L0 504l0 8 16 0 0-8 0-340zm304 12c91.8 0 167.2 70.3 175.3 160l-350.6 0c8.1-89.7 83.5-160 175.3-160zM241.6 384c7.4 36.5 39.7 64 78.4 64s71-27.5 78.4-64L382 384c-7.1 27.6-32.2 48-62 48s-54.9-20.4-62-48l-16.4 0z" />
-    </Icon>
-);
+const LampStreet = createIcon("lamp-street", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdAAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBfQsGAAE2AiQDCAQgBYMtBzIb/wTIjtRG+UVWEg//b/df+9yqB63/Wq6GOVKDzgZSDIaTQY7IcLJG4tW+/9/N5/f86AC/0aGNFi4NZIHP+TyBBLZHmgWWaSCeQuo29vAHUV5FjuARMTQXmifk8aLtSqRH00e4u900/tHLDSRZBiDaAFi46oqLvPZj/Bjx4dmID12AgFgICoEMGfoKMEcm0FeuQC4X/Bhnz+o/sCCAKPNvmkCOEjbgECAHSZbnk1rdG6VWvrJRqq97bH7Eq+c04u25Lw9sxFeXfrb8AY3Wtd2/ufyLlY34Zt4rK+vx1ZyXlqcQjYjItnx9UcTHK5rx7SWfrlr+6MiIZ4Y+Nfq5PvV4pOvj9duGPdS7PujZ9rP/Dfxo50c6+vS/lUd+yr1+s75VF8aCBZULKtX24WqlcsGCBRdGVSz+6KPFkVsa330XS5eraqtaPr6xNBo0y0s2Ki9pNpbGRZ+uW8iCzz5bsHBd2/JTrR49WqeWt4FA8Er/jt83dcz5v9pI4OcX/oe8RWdfS9KzqEogyMacHWN9AokAAKQ4aVCCQLJCBldtekiAUEeApKwuQKaPtgC5utEClPQ3VYCyuitkIq8JXW0YkDQdgcw0V0Kuq+ehZI53nbKukdFMkET88tKWRbR0qpg4bkIxq1gGusQcVoazi219xEkrjMShnQ456LgdttvjeCBHXeSfcMCyDC/1oMJE40xQmKU4jp+3V9rhqGP2OORgHTNbcd8e4WRePxJW4tRJ5pNEpMb+LQcOj325AAA=");
 
 export default LampStreet;

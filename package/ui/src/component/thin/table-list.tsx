@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-list` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-list?s=thin table-list}
  * @preview ![table-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/table-list.svg)
  */
-const TableList: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 48l0 128 336 0 0-80c0-26.5-21.5-48-48-48L160 48zm-16 0L64 48C37.5 48 16 69.5 16 96l0 80 128 0 0-128zM16 192l0 128 128 0 0-128L16 192zm0 144l0 80c0 26.5 21.5 48 48 48l80 0 0-128L16 336zM160 464l288 0c26.5 0 48-21.5 48-48l0-80-336 0 0 128zM496 320l0-128-336 0 0 128 336 0zM0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96z" />
-    </Icon>
-);
+const TableList = createIcon("table-list", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABeQAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCDQsGAAE2AiQDCAQgBYMtBzEbDgXIHge5afROGahvFyMkmSV4fq2y3u/evdvemUPsY0YH5BkTlnFhF9ZEFlVipwGh/gBmSK3+/F+T793zowP8RocWaZUg1x61yucTGHgUN+0NtGxgM52ArQ8dCKi1szP8ovhNSsHTZ9jcsDlAHh/YrY70IH2Na+lD408dXSXJMgDRAgAz1q1a4tPf4reIr2sRX1uEgJgJSoEMGboIMFkm0EWuRC4X/Ba1mvwHlgQQ9fRuCeRowH4cB+QgaZLn1WqDWKfGumq+1rXFJqEaEQ/b3e1bKYrG4rU2tzuIxojVggVREB60vdOn2bumWqm+2f5e54hK2BXwAFHd+WhQxLv9qvH6gLc7prjf/63elXhj4Dudsp7vtHjnb1/v/dqza8hy2Tc/DS9bLG/58J++yZa76OKFMS9z1x9uEdCvvRyxwcEvA9T25f/+WrSk5fOLe96yZTFdSnI7CAT/7z/87bbmk/9r2pjAH+//u/Irqv2WpHfQVAJBNrg22OYEEgEASHFWzwSBZLsm9F0r7goQCgRI6hUCZDprIUCuMEiAOt2MEaBeYZVM5A1CG1sCSCpOgMxY50CujfdAnck+c+u1iYxuJFnI317c3MJz5pUjhg4vJ5bLUqUYhMfpSeWx0P+srgHYaa9jjjptj90OOB30pCXBGUfMtZA5vqg0wlDDlSYq3Y17bm30k07B54x/lknK+05/Z+3BAyAnijlSIklEKpjID3mxAAAA");
 
 export default TableList;

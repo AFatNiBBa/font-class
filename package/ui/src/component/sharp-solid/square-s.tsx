@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-s` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-s?s=sharp-solid square-s}
  * @preview ![square-s](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-s.svg)
  */
-const SquareS: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 32L0 32 0 480l448 0 0-448zM175.6 196.2c-1.1 6.4-.2 9.7 .6 11.6c1 2 2.9 4.6 7.4 7.7c10.1 6.8 25.7 11.5 46.8 17.4l2 .6s0 0 0 0c18.4 5.2 41.4 11.7 58.6 23.2c9.5 6.4 18.5 15.1 24.1 27.2c5.7 12.3 7 25.9 4.4 40.3c-4.7 26.3-23.1 43.3-45 52c-21.3 8.4-47 9.6-72.6 5.7l-.1 0s0 0 0 0c-16.3-2.6-43.7-10.7-57.3-15.1l-22.9-7.3 14.7-45.7 22.9 7.3c13.9 4.5 37.8 11.4 50 13.4c20.2 3 36.8 1.4 47.7-2.9c10.3-4.1 14.2-9.6 15.4-15.8c1.1-6.4 .2-9.7-.6-11.6c-1-2-2.9-4.6-7.4-7.7c-10.1-6.8-25.7-11.5-46.8-17.4l-2-.6c-18.4-5.2-41.4-11.7-58.6-23.2c-9.5-6.4-18.5-15.1-24.1-27.2c-5.7-12.3-7-25.9-4.4-40.3c4.7-26.3 23.1-43.3 45-52c21.3-8.4 47-9.6 72.6-5.7c8.1 1.2 24.4 4.8 32 6.7l23.2 6-11.9 46.5-23.2-6c-6.7-1.7-21.3-4.9-27.3-5.7c-20.3-3.1-36.8-1.4-47.8 2.9c-10.3 4.1-14.2 9.6-15.4 15.8z" />
-    </Icon>
-);
+const SquareS = createIcon("square-s", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABeQAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCAQsGAAE2AiQDCAQgBYMtBy8bAAXIjtRO+YKZSDz8v13Ufb9qANfYzKAcUsSFeyNnjIxoz4b98DCOkj7XJNwRpU1c7vxt0zyfxI+2hz7IVz7GPE8g0DFxiXZRFlimCVi707ZCifZJWmJJjs+OzwPyuJqdUIF0OX2Kk+VD409NnCCpkgGI2gAYvXDudKXv4ruIT8qvEJ+YioAYDQqBDBmaCzBMJtBcrkAuF3wX5bL/DywIICpiMHFzqt6ArSDPIUl5XmV+tQo18gXpTNWN1WtUT1EjslXnGpyPdDWIo7vudz7vl+3afnkDN1zo8EA6RKtoH3oR318X9aJcwLCrzrc86HIhruTN99pxgvbRPDrEFfig3Tlo84Se/NafbvjUezdLbMJn1rrbuG5a99uvtcHPT387erT/hWm2Hng/z+8s8LUN7v742ekfK35ZuXJKa3//PxFf7L2o2v5VR0/PXu8d6406urvCT5V+rgIEgq86Nuu+staw/ypXS+CHN//9W/0Vlb+LUnqCyhIIsm7lsSxKECUBAEhxQJsoIZCskNC7VndBgFAVAZKKqgqQaaa2ALmqugpQQUv9BaioqrkykVcR6lvemaS63UxmgINMrr4XTAXDfJBVVD8yQ1PMRPnnZU6QwPh1Re8evYohxbKpqbYjpeWhxXbY6UAY6gwXbbDTDvust85m+wS+x/TCfttN0LDxvqjQWw+9FIYojjuPpxdYb4+9NttpR15lqOJ+2skBfXJnSBIW7aMqSUSq/Fij7nsBAAAA");
 
 export default SquareS;

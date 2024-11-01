@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-ampersand` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-ampersand?s=sharp-solid square-ampersand}
  * @preview ![square-ampersand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-ampersand.svg)
  */
-const SquareAmpersand: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 32L0 32 0 480l448 0 0-448zM136 128l24 0 96 0 24 0 0 24 0 35.7c0 20.4-9.7 39.6-26.2 51.6l-18 13.2 28.6 29.9 27.7-40.1 13.7-19.7 39.5 27.3-13.7 19.7-33.3 48.1 60.9 63.6c.8 .8 1.5 1.7 2.2 2.6l-66.1 0-24.8-25.9-10.8 15.6L252.6 384 240 384l-16 0-88 0-24 0 0-24 0-39.7c0-22.9 10.9-44.5 29.4-58.1l21.9-16.1-7.3-7.7c-12.8-13.4-20-31.2-20-49.8l0-36.7 0-24zm66.4 89.6l23.1-16.9c4.1-3 6.5-7.8 6.5-12.9l0-11.7-48 0 0 12.7c0 6.2 2.4 12.1 6.7 16.6l11.7 12.2zm-5.6 63.6l-27 19.8c-6.2 4.5-9.8 11.7-9.8 19.4l0 15.7 67.4 0 9.2-13.3-39.8-41.5z" />
-    </Icon>
-);
+const SquareAmpersand = createIcon("square-ampersand", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcgAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCAAsGAAE2AiQDCAQgBYMtBzcbBwXIhuB7m2W/PyPVruAQ5wAIjTljRoCRwy2nGDnW9Pfu/J9/WiDP6KONhUv/+di0R/M8gQCzLlzgpdMCyzQBy9rZDf8G0W9Cn/JJhu0ZNhfI47HsTiXSI+lH3JU/NP7S1Z0kzRmAaAOAOZvWrfBpS7RE/NB4i/jBMgTEHFAIZMjQQ4DpMoEecgVyuaAlGg3+DywIIMrkvhPIUcZ+HAXkIMnzvHlS63q1VM83VkuVQ7V6LUU9st3VSlWIhwf3jyExKrrHlOgS02NNPNDxtqjE0OhAeKUS4X9q2KDoFM83bcOwwcMe4mAlxK0dOxaD9ZH3E9XoHDP7Pt/m+X/6/HjwR5889akI6JaTdnXpcncX/bW+vYePvON3R32ht58F5rriFUfUb+1isOytXQ4Z32OALnO2nMbu9U01o9U1H3xx5XNyzQdrbczzuCtAIPjoj/GrdrWe/n9TNYE/3//vH+VX1GiJT9PzaJJAkA1vDLc9PoX4VAAAUlzUNz5FINkuh3eteVCAUEGApKwiQKa7NgLkKoYJUNLLBAHKKtbJRN4sdLCjg6TmDMhMdAPkOngDlEz3jV7WITJHo92E/uYlLNTQgm3FmJGji6nFtFAZ3yHj+rRiWRx8MQyG4KCDTjnpvAP2O+K8Qs5aYV1wwkILXuCLCmOMNFphqmK7fty/0QFnnXPEKSfTJtMU59XBLtqzh0BJhHCsRJKI1Oau+kbsOXH6wNnHDQAA");
 
 export default SquareAmpersand;

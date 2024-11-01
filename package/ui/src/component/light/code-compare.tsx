@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-compare` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-compare?s=light code-compare}
  * @preview ![code-compare](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/code-compare.svg)
  */
-const CodeCompare: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M322.8 484.2c6.5 5.9 7 16.1 1.1 22.6s-16.1 7-22.6 1.1l-88-80c-3.3-3-5.2-7.3-5.2-11.8s1.9-8.8 5.2-11.8l88-80c6.5-5.9 16.7-5.5 22.6 1.1s5.5 16.7-1.1 22.6L265.4 400l70.6 0c44.2 0 80-35.8 80-80l0-161.6c-36.5-7.4-64-39.7-64-78.4c0-44.2 35.8-80 80-80s80 35.8 80 80c0 38.7-27.5 71-64 78.4L448 320c0 61.9-50.1 112-112 112l-70.6 0 57.4 52.2zM384 80a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zM189.2 27.8c-6.5-5.9-7-16.1-1.1-22.6s16.1-7 22.6-1.1l88 80c3.3 3 5.2 7.3 5.2 11.8s-1.9 8.8-5.2 11.8l-88 80c-6.5 5.9-16.7 5.5-22.6-1.1s-5.5-16.7 1.1-22.6L246.6 112 176 112c-44.2 0-80 35.8-80 80l0 161.6c36.5 7.4 64 39.7 64 78.4c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-38.7 27.5-71 64-78.4L64 192c0-61.9 50.1-112 112-112l70.6 0L189.2 27.8zM128 432a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const CodeCompare = createIcon("code-compare", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABmAAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCUQsGAAE2AiQDCAQgBYMtBzMbVAXIjoTcROtfxNSu8fD//vW1z637VWjyNSCPItAh4CBXOmvCTqfqHX7+r/n8rOkAv9GhdehZL0BGmdYCA4y2SJvQCc10AjZz08gg8hDJJIgcwp8OW9Nh6h1yfB7DNZCeSX/goZyq+FdX95DkEoBoA4A5m9at8M1f8VfEH/UPiT8sQ0DMBYVAidb3EGC6ksA7ZAWyLPgr6nX+DywIIBoJnLyf0Yh78QQggyTnPL7m4kpDLW8M75f3PNHh8U4b48m4s/OmeKrjEx1WRyU+HvZe74g3h77b7aW6dNKHQ97p+fTgt/uL59NZ48uxZtszA94Y9Fb3Zwe+2f/1Lhuf7HyyZEM84Y4O6+PxTrBsXZTjg8Fv9xBvsNx1fc1HQ9/t9dyw9wZFaPmVWLv5jNW4tO+7bd79r88fB/8wt9+z973zyaZV5jc1zS9XfvLOfc8+ZpE2BzbGqz7skGux8UAbuK+WO3z4qtb/u8hj0x8rn7x27WQ5jvq7cQqfA4Hg5dee+3NX6+m3mysJ/POZ2/wzUv88Se+iWQJBaXh9uO0JJAIAkOKivgkCyV0ySWvVkwKEMgIkjcoClHTXRoCsbJgADXqZIECjsnVKIrcIHexoIKk6A0omugGyDt4HDab7OdOoQ5QMkjUn9n8waSFCCxYVY0aOLqYWw6LK2RidhqcV29bgi75pCJ100CknnXfAfkecB/KsFfkLTlg4Ixb4osIYI41WmKq4rtwf3uiAs8454pSTPM80xfPeYBfnnYeQmwjlWAVJIlL1LdVGfGQA");
 
 export default CodeCompare;

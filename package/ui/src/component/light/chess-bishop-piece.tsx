@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-bishop-piece` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-bishop-piece?s=light chess-bishop-piece}
  * @preview ![chess-bishop-piece](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chess-bishop-piece.svg)
  */
-const ChessBishopPiece: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M96 32l32 0 32 0c8.8 0 16 7.2 16 16c0 6-3.3 11.2-8.1 13.9c4 4.2 8.2 8.8 12.4 13.8C201.4 101.1 224 138.7 224 184c0 16.6-4.4 30.1-10.8 40.9C219.5 227 224 233 224 240c0 8.8-7.2 16-16 16l-11.9 0 9.6 96-32.2 0-9.6-96-71.8 0-9.6 96-32.2 0 9.6-96L48 256c-8.8 0-16-7.2-16-16c0-7 4.5-13 10.8-15.1C36.4 214.1 32 200.6 32 184c0-45.3 22.6-82.9 43.7-108.2c4.2-5 8.4-9.7 12.4-13.8C83.3 59.2 80 54 80 48c0-8.8 7.2-16 16-16zm75.5 192c10.2-7.5 20.5-19.8 20.5-40c0-18.9-5.2-36.6-13-52.4l-31.7 31.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l37-37c-2-2.6-3.9-5.1-5.9-7.5C146.4 85.1 137 76.2 130 70.1c-.7-.6-1.4-1.2-2-1.7c-.6 .5-1.3 1.1-2 1.7c-7 6.1-16.4 15-25.7 26.2C81.4 118.9 64 149.3 64 184c0 20.2 10.3 32.5 20.5 40l87.1 0zm45.9 175.1l32.7 52.7c3.9 6.2 5.9 13.4 5.9 20.8c0 21.8-17.7 39.4-39.4 39.4L39.4 512C17.7 512 0 494.3 0 472.6c0-7.3 2.1-14.5 5.9-20.8l32.7-52.7c5.8-9.4 16.1-15.1 27.2-15.1l124.4 0c11.1 0 21.4 5.7 27.2 15.1zM65.8 416L33.1 468.7c-.7 1.2-1.1 2.5-1.1 3.9c0 4.1 3.3 7.4 7.4 7.4l177.1 0c4.1 0 7.4-3.3 7.4-7.4c0-1.4-.4-2.7-1.1-3.9L190.2 416 65.8 416z" />
-    </Icon>
-);
+const ChessBishopPiece = createIcon("chess-bishop-piece", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABlAAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCTwsGAAE2AiQDCAQgBYMtBzkbWAXIjsM4hvwSS/nHw/c2X899+6SRVrK9Jl4TBoDpE1RhrNwFsCg1abFyG9Uvs09/Kv/LeTbgMwraHhqfHYBznleggC11WwXKAel5TStgtXb+LfR5+k2SFEmG8TMs8oIcB8RWDdJo+gWvpCfxl8WeJMkFiqjQVIedc8ZJdvSiF/FL/0viFycgIA4HtUCBAssEOFAhsExWI8uCXvT7yH9gTQDRhPclkNHEcxgAZJDknPeul8zuNGbkszuN8oJO2Rmc/+g8Lt5dPLp8JHcNzCvjrAA5m5xJzjkxtGB44dCS6aXjW2AGrpz19tKxJRtjYMHQwkNiaBSOLUA+MG9g0YhrpNF1nbMOO/ywQY/OGyjLeH7BUDy28IgY3tCJN+efeegRhw4YnN+J4YWPLTg8ytXvVe/9s+rVXTJd14f2ZrbvPOuc9NPP0Zp+o5zZ62pfombmWC17VQm7Fo6Wb0y34uef0jln3dmmTztBe1v3q/+9++7Y2JFYM6f3DrzT++OtN5dsW3zO1o9yzud2q+/erz5Tvf9d1T03e6l6UPXSUJVzjtQ49TOnNgrZg0AgeOX+8fFLZh24s9VJ4M/v/tspPyP9HbF7eg8tCQTF1v5WF8bdELsLAECKu60OCCSPyfRZ15AAoaQiaSpRWKpCVtqChhX2et5UOkMhcluY5yJC0nUbCnt7CNk8n6PhQN+XTfOisEfVmtTnYNbRLXXUoXq37bvW+9fDnqKZmBx2D6iXo413+5lNuOpqt7jZna5ypevc2Yi3O6l1l5scPaOP8kW13Wy3q9r+6u3h/fmzXeV2d7jOLW6O+xygPp9tdPd8+SakiUru7kmSiDTnimuvuuOObb+gnG3XAQAA");
 
 export default ChessBishopPiece;

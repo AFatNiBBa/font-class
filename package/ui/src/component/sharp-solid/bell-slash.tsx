@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-slash?s=sharp-solid bell-slash}
  * @preview ![bell-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bell-slash.svg)
  */
-const BellSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M544 399.6l0-31.6-64-72 0-88c0-77.4-55-142-128-156.8L352 0 288 0l0 51.2c-42.9 8.7-79.5 34.5-102.5 70.1L48.4 14.8 29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7L544 399.6zM406.2 416L160 222.1l0 73.9L96 368l0 48 310.2 0zM384 448l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
-    </Icon>
-);
+const BellSlash = createIcon("bell-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABYQAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBRwsGAAE2AiQDCAQgBYMtBzEbyATIhofvdW+e+ySTvhdZC0TcBdp065QAXGZ6T1qCCuf/Zs97HgX4rUEQ2li4NJAxMZrzeQIBj1u+7USyA0sUb28aWSnLupKZaJKOczqe7pDH39ktVaQX07d4Wn80ftDBLZK6DEA0B8D0tSsX+7AxGiO++f814hsLERDTQSmQIUNnASbJBDrLlcjlgsb4/3/8DywJIKrxdxPIUYVZWAHIQZLlee9KfaWqSb4mf1gcDbEmIl6a8v6ciCLEd9PWRJ8YFL3jeBCHyi7WrFqzeo1YFaJJv6JSXOv/rPJw4MvRo6F5w0/dv93zrW5Dy7KcOtc6xYQBF0eaZqTpTcfc32+Izwwx6Z3kWzThfrO/PmrSArtLw4zZOm3atY49enQkNBCvTf/12cOtzSb9VVtJ4Pu3f/lJ//j/D9O11IBaCQTZoP8H2ZSuARID0FOc0cM4WCCZJAPea73nBAgFAiTVCgEynTQXIFcYKECVrkYLUK2wUibyOqG1zQKSesdBZozLINfaK6DKJF/o1VpH5kuMJzBfucQ5Gpo9Vw4fMqycUC5Dg3UPqownlttSvzOx1B9u2uOoI07ZbZf9TinkhMXWaYfNseDZDlQabohhShOUx8nz5TV2O+Gk/Y46QlMmKu9r/Zyxm/uDmjDpCIEkEal4Sb7BJw9tP7kP");
 
 export default BellSlash;

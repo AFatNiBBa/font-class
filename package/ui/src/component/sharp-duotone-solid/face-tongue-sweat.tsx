@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-tongue-sweat` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-tongue-sweat?s=sharp-duotone-solid face-tongue-sweat}
  * @preview ![face-tongue-sweat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-tongue-sweat.svg)
  */
-const FaceTongueSweat: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 256l16-21.3 25.6 34.1L112 320c10.4 13.8 16 30.7 16 48c0 24.6-11.1 46.5-28.5 61.2c28.9 31.4 65.6 55.6 107 69.5C197.3 484 192 466.6 192 448l0-31.3c-10.2-7.2-16-15.7-16-24.7c0-26.5 50.1-48 112-48s112 21.5 112 48c0 9-5.8 17.5-16 24.7l0 31.3c0 18.6-5.3 36-14.5 50.8C470.9 464.7 544 368.9 544 256C544 114.6 429.4 0 288 0S32 114.6 32 256zm77.6-61.2l15.8-2.6 2.5-.4c26.3-4.4 50.6-16.9 69.5-35.7l7.4-7.4L216 137.4 238.6 160l-11.3 11.3-7.4 7.4c-23.6 23.6-53.9 39.2-86.8 44.7c-.8 .1-1.7 .3-2.5 .4l-15.8 2.6-5.3-31.6zm130 77.2a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm160 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM337.4 160L360 137.4l11.3 11.3 7.4 7.4c18.9 18.9 43.2 31.4 69.5 35.7l2.5 .4 15.8 2.6-5.3 31.6-15.8-2.6c-.8-.1-1.7-.3-2.5-.4c-32.9-5.5-63.3-21.1-86.8-44.7l-7.4-7.4L337.4 160z" />
-        <path d="M238.6 160L216 137.4l-11.3 11.3-7.4 7.4c-18.9 18.9-43.2 31.4-69.5 35.7l-2.5 .4-15.8 2.6 5.3 31.6 15.8-2.6 2.5-.4c32.9-5.5 63.3-21.1 86.8-44.7l7.4-7.4L238.6 160zm-63 112a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm192 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM288 512c35.3 0 64-28.7 64-64l0-64-48 0 0 24-32 0 0-24-48 0 0 64c0 35.3 28.7 64 64 64zM48 288L9.6 339.2C3.4 347.5 0 357.6 0 368c0 26.5 21.5 48 48 48s48-21.5 48-48c0-10.4-3.4-20.5-9.6-28.8L48 288zM348.7 171.3l7.4 7.4c23.6 23.6 53.9 39.2 86.8 44.7l2.5 .4 15.8 2.6 5.3-31.6-15.8-2.6-2.5-.4c-26.3-4.4-50.6-16.9-69.5-35.7l-7.4-7.4L360 137.4 337.4 160l11.3 11.3z" />
-    </Icon>
-);
+const FaceTongueSweat = createIcon("face-tongue-sweat", true, "data:font/woff2;base64,d09GMgABAAAAAAOUAAoAAAAAB9wAAANJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWyFAQsIAAE2AiQDCgQgBYMtB14bsQbIBuIrZ36/GdmVyLssjLZihZl8CxEfCekDgf//+6k/7NvK84rPhxJdFIUPl80T2PFRlEXTHu9MbIAjwy3O2YyIFQtD/wUY8q+eRQTUenUbWCqtl2/wmQWK3BoJkAz4HyDU69KhFeffy3slt5OHQW7TEhAAqQ9AiAAa0EAOAkBNNALkYBACBgYC71UyCe8lmQxBAECiIEaDLwqkgnggpQEAAwBFlIhh+NnZfqZfPrCKglgk1ehMFZs9ihcrbonq31fR5P2+uGC/VgcO6jjNFlkdW+iuddc4a8wF1io6BUZEaFmmjCruuLeEyMFAZ5mCykbWF9tfqHPdBnWzifXPFNrrrg2mO/UH2I59ppEttgTiiClHizuAq6jYXQIvKCX1ZD2bip5ptkFE1sjGInurHCm0259mIdO8Z13Uk57Wv9j6bufHLW/XPd+xi2u5MTlWYpz+YmJB6nTDBSywfyNPp1WWyCpzgbNGprtrYwvt1XYsmuhcomiJUfj3V4qZek+wTTfV91yt7YiT/0DGge/y3R58m+/jgwcPPkiC2wnNR1rzExkUqTCEk7XHpM2DeWmp8+al0kSaL+1c3B2BsALb3+betkzINOtSFo8Qz0brYmZmbvvhXXtp56YMfed12bKv7+iMTe1LThyCDm/gZvATvfkZTeJ2goMM5iTxc78iDMtpz69BZM+5zz7PifN3mv7v2x9//PY/nfZ3nJynLfOUqUuidKKJ5y+f3sTiM3257/la1fyIlbWzeAgNXBHhJ1pPbznakpEqRt1lW3Ry7TFLkERE6NcBQACBR+b+eX3Sa/6WK6YA+Hjyh6/tz5E8r0J1AMiFAkBAl0yWpKeqC4QqRAAAAAAlCfLnzBMBNEtY7aIU1iA5wQQfFFFM0ARkgIFJCYiQl0qKkus7oBEjN4JFLwBFCuNAU5nJYGBxCCLU5Fo6iiX6SlEd56ob1fSNw3SjWWG50mXD6mFmias++BX8aI2wtL1ogm4pBnsZzBhGM5FBDGQYE0O88bTKTWIUjfMkG303pBylKUtIdcLa1eP6ziHfeCbQinRt/WlqELYfLkoiv3sxcCkUqeVZoNEgSrR/IhaVmjhm9JBJlnnCX+ubS513XYJU7VkGAA==");
 
 export default FaceTongueSweat;

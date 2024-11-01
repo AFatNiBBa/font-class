@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bandage` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bandage?s=sharp-regular bandage}
  * @preview ![bandage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bandage.svg)
  */
-const Bandage: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 144l0 224 144 0 0-224-144 0zM192 96l256 0 144 0 48 0 0 48 0 224 0 48-48 0-144 0-256 0L48 416 0 416l0-48L0 144 0 96l48 0 144 0zm0 272l0-224L48 144l0 224 144 0zm80-136a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm120-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM272 328a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm120-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const Bandage = createIcon("bandage", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABbQAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBYQsGAAE2AiQDCAQgBYMtBy4b3wTILg5sOm3BLQIFRB6Cse62cvBrhMUIvt/vt+c+wTzhTSV5pJl1OolKxpOFROgkOqW8oWoif6PG2t6LSLsX8SyiTRyxRmM6FTLpK9OhaagaCiFpMwOofu2Hl7t/WXFY+z+Xe37TjrZ/PoJDuV1Z2/I1dIypCSTQ5jmEwyygxLi9ac8qiVGsrESTdJwjfxvI4zseFKSXBNzzm8YXvQtIigwA0Q4ANg6bZdxXUUW81CY+FEFAbACGEGTI0IeAZUyBPixDIJcLqqiN/4FDEECUoJclkKMB2+AUQA6SupzFVzaQX8gWszplrWCOaApCBJ2WZjHCC40SQpzCfmcnqFO6r73X1hvdlaWLct+8Fa437mS7r2Fn3Pk+q+pB5fJfeJ/pk59/i733UiWp2raeeibT6jLiovl3AIHgSvE6Mpb/65sYgM+3vz8+Ml2mo14CQTZRmzBKl4DiAEIpzhiVDwokm7jommaPCBAaESApNQpkeskg12gcCgMiG5Qa7WKKnI/QbUwgaXYOmSXnkOt2C4VlD8FSd2SGpZuF/q/LlhmR9CQ66/XTJF3mNcNW1NifotuOkTNX54CVmNm358TUxNLJQB8pR05tZTQq7YuoAC8/Kokel54Xd0wdOba0by+Nk0Lv++zO9NYOcDOQ5JyUJBGJ+4o451MA");
 
 export default Bandage;

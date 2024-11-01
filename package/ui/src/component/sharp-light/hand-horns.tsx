@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-horns` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-horns?s=sharp-light hand-horns}
  * @preview ![hand-horns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hand-horns.svg)
  */
-const HandHorns: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M32 0L48 0l80 0 16 0 0 16 0 128 64 0 16 0 0 16 0 16 48 0 0-96 0-16 16 0 80 0 16 0 0 16 0 144 0 16 0 112c0 88.4-71.6 160-160 160l-64 0C71.6 512 0 440.4 0 352l0-96 0-16 16 0 16 0L32 16 32 0zM224 208l0 32 0 16 0 16 0 48 48 0 0-80 0-32-48 0zm-32 64s0 0 0 0l-48 0s0 0 0 0l-32 0s0 0 0 0l-80 0 0 80c0 70.7 57.3 128 128 128l64 0c70.7 0 128-57.3 128-128l0-112 0-16 0-128-48 0 0 80 0 16 0 48 0 96 0 16-16 0-64 0-16 0-16 0-80 0-16 0 0-32 16 0 80 0 0-48zm-80-32l0-80 0-16 0-112L64 32l0 208 48 0zm32 0l48 0 0-48 0-16-48 0 0 64z" />
-    </Icon>
-);
+const HandHorns = createIcon("hand-horns", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABgAAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCdQsGAAE2AiQDCAQgBYMtBzEbdgXIhofv7f77tRuD7kGPfEbuN4K/gBxSKmdU/OqnQnz/53J64/nRXfX8cwSh3W1sUy8fk8aYzxMIcIzNYwMGliZoWZvjEN7B5Z0OEanXHouG6demNlDEDTFLSfZI9iXu4ofGr0a4k0yRA4gGAGsP79/p4+7ojviy8wbxpe0IiHUgCeTIMVqAFXKB0QoJhULQHZ2O/AcmAoge9J0ZKNATj+NFQAEyZVF0DVjWt67LvsWhuqyO11UtRA0pwPUJQvy44v0DVfy86sNDliIiDhrFRa+o2tsi4jYiESWdxTMrP9hYxyerP5oYHmOo2qq6yXwonNvruq7qtNCEV5tXfx//5dlfGvdR01zauNUaIhStUylObdzd8FKx/ssv18ca64PaWG8HN92aj75JKXlP29ojaTtACxLYY49ywfo9a+xZv6C8VONWEV7w/jhp9rS7x+1R/8alWt9qP57p+S2sAQLB4z2fPnxK/xX/96oz8Mu7f/7N43U+jluzV9FLBoJ8VmeWE3EriHIAPymLq02IWxHI3K+kE/t4UIBQoUOmhwpyozRQqMyE0lgLaeeE/XJR9BYGOwkg08dlkFvkJigM9hqUVvjE0sPgyEOUDTD2DzFp04hvrJe65rRpWZpGNS7q6FK9PLnV067OWdMx1NkucbErneVM57lyIC+3036Vi2xaERt9UdJljlayTNpOfJQOJcvlrnCeLezXslx63jTN1evC06HLqMp5/DIZkVUR7TH73Esuv/gKAA==");
 
 export default HandHorns;

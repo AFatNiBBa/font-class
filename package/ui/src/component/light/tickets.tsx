@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tickets` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tickets?s=light tickets}
  * @preview ![tickets](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tickets.svg)
  */
-const Tickets: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 64c-17.7 0-32 14.3-32 32l0 47.5c23.7 11.8 40 36.2 40 64.5s-16.3 52.8-40 64.5l0 47.5c0 17.7 14.3 32 32 32l416 0c17.7 0 32-14.3 32-32l0-47.5c-23.7-11.8-40-36.2-40-64.5s16.3-52.8 40-64.5L608 96c0-17.7-14.3-32-32-32L160 64zm452.2 77.5s0 0 0 0c0 0 0 0-.1 0c.1 0 .1 0 .1 0zm0 132.9c0 0-.1 0-.1 0c.1 0 .1 0 .1 0zm-488.4 0l.1 0c-.1 0-.1 0-.1 0zm0-132.9l.1 0c-.1 0-.1 0-.1 0zM160 32l416 0c35.3 0 64 28.7 64 64l0 56c0 8.8-7.4 15.7-15.6 19.1C610.1 177.2 600 191.4 600 208s10.1 30.8 24.4 36.9c8.1 3.4 15.6 10.3 15.6 19.1l0 56c0 35.3-28.7 64-64 64l-416 0c-35.3 0-64-28.7-64-64l0-56c0-8.8 7.4-15.7 15.6-19.1c14.4-6.1 24.4-20.3 24.4-36.9s-10.1-30.8-24.4-36.9C103.4 167.7 96 160.8 96 152l0-56c0-35.3 28.7-64 64-64zM16 96c8.8 0 16 7.2 16 16l0 256c0 44.2 35.8 80 80 80l416 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-416 0C50.1 480 0 429.9 0 368L0 112c0-8.8 7.2-16 16-16zm240 64l0 96 224 0 0-96-224 0zm-32 0c0-17.7 14.3-32 32-32l224 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-224 0c-17.7 0-32-14.3-32-32l0-96z" />
-    </Icon>
-);
+const Tickets = createIcon("tickets", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABogAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDMwsGAAE2AiQDCAQgBYMtBy4bsQXIhuB7nVW/L9k7lj3IWiA+IIIMMCIMt3LVRcQRDpxTF7RXABb5UVZBz9IK7dISmODvTZ/ILdIuij/b9iaI6vqNUNhCHn/HAjXSw+lr3Oldafxg2HUkeQYgugCw9YH77u79KqqIr/9/k/jargiIbUApkCHDmAAbZAJjciVyuaCK//8X/4ElAURd8AAJ5GjiPXwIyEHSyPNZnbV626Lhxkiz1p4f0KwVh97SF3Ef8e74Y2vEVf33N9vj1sEHI+K9iSfXR1w98EDROvrqiLia87TQ6uojQuoD21vtz899eVjc1/fc0MMz7+8XD815aUYrXpj3ykjEg4Mvjj4y64GBiEfnvzp7vylfiseX+la2R4m66ALgLWQis9pfaEa8KK4e3CBxsxm39t9PXNV3X1HELQMPREx7peuVn6Z+fcLXnryy4yZu6lhin7GxfRdroUJ4KvUttm9Psc+S+Y92F4hcB99WeZh++lN4bXd3scb4llMajVO2jK9RtNH+UPK4OzdXHcQBx3c9peroqJ7y6y//ddJR/bL5qKCkcpSqfJdQ3S8chen6bBAI6hc9t+rIzg1/tTUT+Oa9X/7KT/d/la5Kr6BNAkG24P8FDktXgZgPgmSKC0yb+aJA8poGfKktDwgQCgRI6goBMqO6BMgV5gtQM2GlAHWFfWUibwh9Dq9NScvZpswql5tyfV431WzwWaKuLzIIJuGP/IGM26ENby9WLl20pFxXTtaUFFDidnZ9udo+5wLZMxdvdIIzneE8xzvOyc5rGc+xe/p8p9thTr29HyottcgSpXXK3c373AEt3znOlbxxev8q65Xnh+e4YH74XOxKApvLlCWJSFO+Zg==");
 
 export default Tickets;

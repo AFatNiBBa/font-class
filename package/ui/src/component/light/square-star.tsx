@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-star` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-star?s=light square-star}
  * @preview ![square-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-star.svg)
  */
-const SquareStar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm238.3 16.9l36.2 73.4 81.1 11.8c6 .9 11 5.1 12.9 10.9s.3 12.2-4 16.4l-58.6 57.2 13.8 80.7c1 6-1.4 12.1-6.4 15.6s-11.5 4.1-16.8 1.2L224 342.1l-72.5 38.1c-5.4 2.8-11.9 2.4-16.8-1.2s-7.4-9.6-6.4-15.6l13.8-80.7L83.5 225.4c-4.4-4.3-5.9-10.6-4-16.4s6.9-10 12.9-10.9l81-11.8 36.2-73.4c2.7-5.5 8.3-8.9 14.3-8.9s11.7 3.5 14.3 8.9zm-40 95.1c-2.3 4.7-6.8 8-12 8.8L129 225.1l41.5 40.4c3.8 3.7 5.5 9 4.6 14.2l-9.8 57.1 51.2-26.9c4.7-2.5 10.2-2.5 14.9 0l51.2 26.9-9.8-57.1c-.9-5.2 .8-10.5 4.6-14.2L319 225.1l-57.3-8.3c-5.2-.8-9.7-4-12-8.8L224 156.2l-25.6 51.9z" />
-    </Icon>
-);
+const SquareStar = createIcon("square-star", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjAAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCSgsGAAE2AiQDCAQgBYMtBzIbTAXIjtRG+YWZRFDZKrN6ZjfuFh5xnhktZAGhKU/WeULHuJCreFOAW7XvE+c63/logEU+lAorbYzCqM84f4GBPr43QRTYRPH9dn5HPYMSk6Qjd0mG7fxh+0fI4+0YqUR6M/2M59OPxq+6u0OSZwCiHQDmbdmwSktrtEb83ED8bAUCYj4oBDJk6CXATJlAL7kCuVzQGo0G/gMLAoiy/H4J5CjjDl4B5CDJ87xHj+F9qqV6vrlaqux41CniFSludH61Wo/HXV+PLG52ea1SW/r2iIivh9Tj02Ffdk/xxtAvBtbis+Ff9cg2bdq8aVO82vnVTmvDxTu90mVzbAyHea3rllgf4utEhD2vVx933vhKp4UxS04XsSJe77ws+kvXzYnF8VqX8TG2/1ftvnrW7+fDP5tzvc0DHrSZy/dDvFFpT/sPGOaD9u0rc/FwnrUbuLTcsLbq5tRum79UX6P50sULSwdZMsjti5eah8SbDg8delMmdp7D1Epl6pDdk8/d94aFTW+Y7sCB6d7QtPAN952b/LKXgUBQ//vmyT1tZ/7WVE3gl2//Vq/XaI2W9BWaJBBkIxsj7YwWQKsAuCku6690LJBckQPda81rAoQKAiRlFQEyPbUTIFcxQoCSPiYJUFaxQSbyZqGTXR1Oas7BmcmuwrlOvoFLZvrOLesUmTUytsT8CyYu5sCitmLc6LHF9EJsNNbAqLg9o9iWh14OU8PooMPOOO2iQw465iKDzlsVXHLKYg1cpEOFcUYbqzBdcTx4Fjcz97wLjq35811mKO7rQ13WFw8jLcm44xWSRKTqg5ZGfTEAAA==");
 
 export default SquareStar;

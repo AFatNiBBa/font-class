@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-simple` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-simple?s=sharp-light code-simple}
  * @preview ![code-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/code-simple.svg)
  */
-const CodeSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M203.3 99.3L214.6 88 192 65.4 180.7 76.7l-168 168L1.4 256l11.3 11.3 168 168L192 446.6 214.6 424l-11.3-11.3L46.6 256 203.3 99.3zm169.4 0L529.4 256 372.7 412.7 361.4 424 384 446.6l11.3-11.3 168-168L574.6 256l-11.3-11.3-168-168L384 65.4 361.4 88l11.3 11.3z" />
-    </Icon>
-);
+const CodeSimple = createIcon("code-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABWgAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBMgsGAAE2AiQDCAQgBYMtBzIbtATIngNu0zyOIpITTkRjU9TzqXV0umEE9fuhe/dfgNAmClGRBDSKwIi4grSdCNey7VRWx///MXffJJnWd5ZEpS2JOKIJGqVBn0XaTzRKXWorXeYOqX2PN3FN/Tj/BmzSR4pctA6kzjfK9DXYzqu9UmQ2sInirJ1dfYToN0kiTzIsYhjtocTXcJGTnzNew5fGXwO+gFQqANEOALZPa1X8Xeka9PYuxJsDEBA7AMYRKlQYRmCNVGCYzDgoiuAX3W7qP5AhgKjFb01QULACdgEUkLKUgQGFvKWc2BmNlxajxUHGqBNmisY8Z5ijSS1Fo9loCO1hiRZZJFxlC9Pkuf38j8u+9BFLFxwOEBAm5oIlge8fC5xVagqBgZcBgeBlSf4x0qT+1ysS/BEdzydyM8+gXoKgmn536WcOJIR+BEcy7mHFsJBmSOBTm30AgdCIAKlWowCVIVoEikZTCNQYFUagVqNDUlEahG6DTKdmV3RlwSdddPula6z5D9XqDukNUs9f/b9lVUq4PIj9Hh8nuJuQtEshu8YkT3tt77rAjp1YenDv1cLcxmtBPatG39ypSEjZDzE/Dx+WwMvp681NC89ebDy4960k8f6gzbtc3o6ABIvOiEtJZNOrcrjfIAAA");
 
 export default CodeSimple;

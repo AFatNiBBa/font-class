@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-three-quarters` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-three-quarters?s=thin temperature-three-quarters}
  * @preview ![temperature-three-quarters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/temperature-three-quarters.svg)
  */
-const TemperatureThreeQuarters: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M160 16c-35.3 0-64 28.7-64 64l0 163.7c0 8.4-4.4 15.7-10.7 20.3C53 287.3 32 325.2 32 368c0 70.7 57.3 128 128 128s128-57.3 128-128c0-42.8-21-80.7-53.3-104c-6.3-4.6-10.7-11.9-10.7-20.3L224 80c0-35.3-28.7-64-64-64zM80 80c0-44.2 35.8-80 80-80s80 35.8 80 80l0 163.7c0 2.7 1.4 5.4 4 7.3c36.3 26.1 60 68.8 60 117c0 79.5-64.5 144-144 144S16 447.5 16 368c0-48.2 23.7-90.8 60-117c2.6-1.9 4-4.6 4-7.3L80 80zm80 336a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0 16c-35.3 0-64-28.7-64-64c0-32.6 24.4-59.6 56-63.5L152 136c0-4.4 3.6-8 8-8s8 3.6 8 8l0 168.5c31.6 3.9 56 30.9 56 63.5c0 35.3-28.7 64-64 64z" />
-    </Icon>
-);
+const TemperatureThreeQuarters = createIcon("temperature-three-quarters", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjQAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCIgsGAAE2AiQDCAQgBYMtB0EbMwXIhoeHvN4/N8lMobyKKWAvP8XFqqsPYurU85yHAvhGQdlTFy8PznlegWKxtmh6I1ILWE0rYB2cN+mQQhtC+guyWGyNEsk1yfu4KN5ofK2RMyTSFEDkABg5f/ZUL38QH0S8//8TxPsmIyBGgUIgRYqmAgyRCjSVKZDJBB/E//+z/8CCAKIsXTkBGcrYi8OADCSyLGvdqkaTaqUa2Tx1tOri2ztE3N1QXF4X3XC1W4a+MPat4S+1Ptn42k5X1o8AK93bbs5NnSPu6/9Ex3uaiRP17ml0jZuHPD/mzWEvtjrZ5LrOV0UsvItjp712tze8ejve1p2dIu5tfB3ZUPuIqxpcUU/c0eiaRld3uLtNq3vze79t+f6699300M0VVFS9XfUrd174qij1GT1jxug+peKrCzuvrH67qhUVN08fHvNYm+dr58Xtsl6P/ftfm6YHzr/yyvkDTdv89+9jvbLbp0+/+bOnnvrs5krKv7ta+cMfdt2jvGJF+R67fviw8jfvA4Fgz6ZFpeW1hvxauVoCPnr2+7+an1H+/8vRK7kXlSUgSLv838WS2CeXRy8BAEhin1YxQi6Q2CqTfmp1VwoQqiJAoqyqAKkmcgEyVXUWoKS5vgKUVTVbKrIqQl1LB5CobidI9XMUZOp6DJQM8ZZfVjdSm0fZG+q/L37cFBq7r+jZrUcxqNhNdLRlIvRycHFZ77CPNzrCi9bZbps91lpjoz0TZJep0V5bjTuCx/qiQk/d9FAYpHicvzw9z1q77LbRdtuiXQYrvrc72Hfc3xFaiRS1l4OJhEgaW0qxq6OWu4Y7YTcAAA==");
 
 export default TemperatureThreeQuarters;

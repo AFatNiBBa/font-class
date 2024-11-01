@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-bible` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-bible?s=sharp-thin book-bible}
  * @preview ![book-bible](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book-bible.svg)
  */
-const BookBible: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 56C0 25.1 25.1 0 56 0L440 0l8 0 0 8 0 400 0 8-8 0-24 0 0 80 24 0 8 0 0 16-8 0L56 512c-30.9 0-56-25.1-56-56L0 56zM56 416c-22.1 0-40 17.9-40 40s17.9 40 40 40l344 0 0-80L56 416zm-40 .8C26.2 406.4 40.3 400 56 400l376 0 0-384L56 16C33.9 16 16 33.9 16 56l0 360.8zM208 80l64 0 8 0 0 8 0 56 56 0 8 0 0 8 0 64 0 8-8 0-56 0 0 104 0 8-8 0-64 0-8 0 0-8 0-104-56 0-8 0 0-8 0-64 0-8 8 0 56 0 0-56 0-8 8 0zm8 72l0 8-8 0-56 0 0 48 56 0 8 0 0 8 0 104 48 0 0-104 0-8 8 0 56 0 0-48-56 0-8 0 0-8 0-56-48 0 0 56z" />
-    </Icon>
-);
+const BookBible = createIcon("book-bible", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABgwAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCWQsGAAE2AiQDCAQgBYMtBzEbWgXIjsQ4RvKhGLQIvtdV9vvS7OqkY9ABABiQcw6d8WTG1PmWM3Pk9Kbgauf/cnz/gI+Ov/j5oezRWFvHGM8TCDTMA0+3BZZpAtbubK04SHskSQwjx7kcjwvk8ZFTGqQP0q94LXxo/GWAp0myDEB0B8DyvTs3a3ZER8QvrcQvNiIgloNaIEOGwQIskgkMlquRywUd0WqZ/8CaAKIN3X8COdrxOt4F5CBp5PnQ7l0nDq8aXfI9VaPMPuoX8d7YLpVIIcpSVJUoO3/c992B2f4Xe0e87fE+71RdIqLzLJEVGUrBtb8tHazKSiyrNrmIRQQeUVXZ3cLdmKj6/OJNhBGfd//8n+G/nvnV8+3/cd/jReF1haL/Nv2L7orHr93/r/31uWd7fMFXPXp89UWPfbbZd63lnsfdEyhz6vz325YtW1eYZ94uWNYw75xC4YnnwLxA+9qCXPOmcalzphHxNTLvGvOAQPDbhzf+ONpt0f9FlcDvX/33l/QrajWjmT5HIYEgm9Sa5FA0IZoCAJDijhHRRCB5XgO9a2fvChBKBEjalAJkBukuQK40UYCGoWYL0Ka0UybyTkJvhwtMOrsOM3M8AnO9fQkbFvmh2KZ3ZErJqRT3J0xeg+jqY/X0KdPqBfWwL/N6xrj9hbXYHnfHzo2Hs8646opbTjvlvFsVdsPmym2XrZkRVn9RbboppqktUB+PbuU9WLzhpvM8cw4cslB9PzLOnfnq8eBOiHSGpiQRqdRYdfLrBQ==");
 
 export default BookBible;

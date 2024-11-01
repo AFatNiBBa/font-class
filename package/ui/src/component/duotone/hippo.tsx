@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hippo` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hippo?s=duotone hippo}
  * @preview ![hippo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hippo.svg)
  */
-const Hippo: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 360c0 9.2 5.3 18 14.3 21.9c12.1 5.4 26.3-.1 31.7-12.2L64 329.1 64 448c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-76c19.8 7.7 41.4 12 64 12s44.2-4.3 64-12l0 76c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64-32 0c-17.7 0-32-14.3-32-32l0-10.8c-37.8-18-64-56.5-64-101.2c0-8.8 7.2-16 16-16s16 7.2 16 16c0 24.9 11.3 47.1 29.1 61.7c.9 .8 1.9 1.5 2.9 2.3c9.3 7 20.2 12 32 14.4c5.2 1 10.5 1.6 16 1.6l48 0 64 0 16 0c18 0 34.6-6 48-16c19.4-14.6 32-37.8 32-64c0-32.5-19.4-60.5-47.3-73c-9.3-4.2-16.7-12.7-16.7-23c0-15.4-4.4-29.9-12-42.1L577 89c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L527.6 70.5C517.9 66.3 507.2 64 496 64l-32 0c-2 0-3.9 .1-5.8 .2L441 47c-4.7-4.7-10.8-7-17-7s-12.3 2.3-17 7c-9.4 9.4-9.4 24.6 0 33.9l3.5 3.5c-1.9 1.7-3.6 3.4-5.3 5.2C371.4 76.1 329.7 64 288 64l-32 0-24.8 0L224 64C117.2 68 32 155.7 32 263.2c0 13-2.7 25.8-8 37.7L2.1 350.3C.7 353.4 0 356.7 0 360zM480 232a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm-31.7-91.2c.2-1 .5-2 .9-3c.8-1.9 2-3.6 3.4-5.1c2.9-2.9 6.9-4.7 11.3-4.7c8.8 0 16 7.2 16 16s-7.2 16-16 16c-4.4 0-8.4-1.8-11.3-4.7c-1.4-1.5-2.6-3.2-3.4-5.1c-.4-1-.7-2-.9-3c-.1-.5-.2-1.1-.2-1.6s-.1-1-.1-1.3l0-.4 0-.4c0-.3 0-.8 .1-1.3c.1-.5 .1-1 .2-1.6zm64 0c.2-1 .5-2 .9-3c.8-1.9 2-3.6 3.4-5.1c2.9-2.9 6.9-4.7 11.3-4.7c8.8 0 16 7.2 16 16s-7.2 16-16 16c-4.4 0-8.4-1.8-11.3-4.7c-1.4-1.5-2.6-3.2-3.4-5.1c-.4-1-.7-2-.9-3c-.1-.5-.2-1.1-.2-1.6s-.1-1-.1-1.3l0-.4 0-.4c0-.3 0-.8 .1-1.3c.1-.5 .1-1 .2-1.6zM592 232a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M480 144a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm64 0a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm16 176l-16 0 0 16c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c-13.4 10-30 16-48 16zm-128 0c-5.5 0-10.8-.6-16-1.6l0 17.6c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-16-48 0z" />
-    </Icon>
-);
+const Hippo = createIcon("hippo", true, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAAB4AAAAL4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiETgsIAAE2AiQDCgQgBYMtB0YbZgbIjsN0eyyzeXAkRgyep9r0/ZldEnYTr8lAzaibk7pARf2kIleem0ByUAwAiuHF6/6Q0nt4fmmfOBdvs/kAywY6H1Lkd4BEWkSdv8BAHyMK6EXent/QfnDeiANMrwrpO2CpXHoK2KCW01VgvvsfQPlCeqaAwqsBAJAEAACgcsum9Tn5Ul4quRo5BHKVeoAASBUADAJoQAOZEADKoREgExYGsLAQeKkiEXgpkYgBAQDx4GDNWz2AC2KDJAAAFgAKC9uyvN6EuNFen8/r2rFWC9d2eoZ8iS61cLg6prnjOgg1ucLVRDaxM8tlsiNB2zwKCfkXloorsyOMIptl9vYmR3Yoody95d5hRyy11ddsC8rSc5ZZt9bOIyVXrJCnZFpZmVtmKgnxajPnzV8/S5f11LJEt6wt7Dh3G91sFmwBWQJdl80tuXJv7i3CGI6wLLUlOstDnhKCCAhvu3InDc2PmejfUXf8vqs9rvKiUNzLl3GxoVLhjt9bnYw1GXiWoWHGYBmcxLdIIECr+Ps1NjRGEjfjiauUEurxxO9/UuC9lTA2weWaN4P/yJd6jiAij5MGRwcaZWz4Pjr96dO1/8fHgZebN2Njf/A+0aA19HCcHuiiIvj9s74HxpjGVsuW0jjV4Eaksl9MTN24cer4pqxtRJSvWNTNLFluRhXzKRFBQAAqXaVJ9joVQEfDNgc9DwACCPwjcLljfLl/RRQAr0/8+JOfT+QlBWkHQDQKAAGdP5KfdioIACMLAPwoJSPwqyCuAxBAcw2bwB9DaHdYcKBGFR4cVJORBNTCIR9qk4XizMo5NEUjlhchFe0hqohhMKopwXjUIhUHUZtyXAh4SCX6heBvZ/53NKVGG6quZgoXDJgyZrKgFO5xVg+WNavNuUfwhjxwLD0YyACG0Z1u9GZYCxlC/fBw+lNjjlr9s4bCFCSAoQxmd/m+qQWtwBCG0ntc2j9MWcz5/tyMmG+fB9oUAW0R5mo0iBId26v3oEEDC3xXuviW9P0AAAA=");
 
 export default Hippo;

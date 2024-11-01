@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `baht-sign` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baht-sign?s=sharp-thin baht-sign}
  * @preview ![baht-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/baht-sign.svg)
  */
-const BahtSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M144 0L128 0l0 64L32 64 16 64l0 16 0 168 0 16 0 168 0 16 16 0 96 0 0 64 16 0 0-64 60 0c55.2 0 100-44.8 100-100c0-48.6-34.7-89.1-80.7-98.1C252.5 232.4 272 200.5 272 164c0-55.2-44.8-100-100-100l-28 0 0-64zM128 80l0 168-96 0L32 80l96 0zm16 168l0-168 28 0c46.4 0 84 37.6 84 84s-37.6 84-84 84l-28 0zm-16 16l0 168-96 0 0-168 96 0zm16 168l0-168 28 0 32 0c46.4 0 84 37.6 84 84s-37.6 84-84 84l-60 0z" />
-    </Icon>
-);
+const BahtSign = createIcon("baht-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdAAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCCAsGAAE2AiQDCAQgBYMtBzAbCAXIhuBh7vVeklJ+2yFlU4zg5uY3BWhLcgAo5Niimv7zf029SLoGuvf9xA/ttrZKkAIZZT6fQD6PtgSPstlaJ4rzvcUb1Q4T7xCTTD9Jh9sO17aQxQY7VZBcTj7hnN5p/NLFWRJpCiBaA2DamhWLPPse3yM+lm8THy1AQEwDhUCKFN0FmCgV6C5TIJMJvke5nP4DCwKISrhqAjJUYQ8OAzKQqMiyITWtalqVKuqy1aWKfENeykWei2grlZiOGHp3QEuvG/2bRzd0uxoal0esFPKFddXRp3G7X1OPa30bR+btZ2Spf5/m1s1/en/a/cm5p63hnWprCWoU2NZbp0KWnuj8x0c12fr1ow+9ft295tHH891NbbWkEYqtGm1t1dD4le6G7jmdpqf3DO1eHhLFDiYCgeDzyGLjllYT/1eXEvDzwb9fepjW5WcxPGlGtQQE6cDyQBvjtNZax3ABAEhE7hNTte5RYosKuNVaFwQIOQIkKuUCpLppLUAmN0CACj2NEqBSboVUZDVCe5saSNQ6BlKjnQGZ9m6CChO9DVdqH6mz6V1F/9XLMtuis1oVwwYPLcYXy4Rq8B9NGicUx7a+p7mgHy202xGHnbTLTvucNNJxi2KnHDJ7x8zyQ4VhBhuqMF5xnb6fvdoux52wzxGHczMTFO9DfZ3el+9HzgRUhxueSIikZvu2vScH+SkA");
 
 export default BahtSign;

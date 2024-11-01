@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-lock` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-lock?s=light building-lock}
  * @preview ![building-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/building-lock.svg)
  */
-const BuildingLock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 32l256 0c17.7 0 32 14.3 32 32l0 208c0-30.5 12.2-58.2 32-78.4L384 64c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l64 0 32 0 64 0 32 0 64 0c2.8 0 5.6-.2 8.3-.5c-5.3-9.3-8.3-20-8.3-31.5l-64 0 0-64c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 64-64 0c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32zM224 416l0 64-64 0 0-64c0-17.7 14.3-32 32-32s32 14.3 32 32zM64 120l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L88 96c-13.3 0-24 10.7-24 24zm32 8l32 0 0 32-32 0 0-32zM248 96c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0zm8 64l0-32 32 0 0 32-32 0zM64 248l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zm32 8l32 0 0 32-32 0 0-32zm152-32c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0zm8 64l0-32 32 0 0 32-32 0zm208-64c26.5 0 48 21.5 48 48l0 48-96 0 0-48c0-26.5 21.5-48 48-48zm-80 48l0 48c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80zm160 80l0 128-160 0 0-128 160 0z" />
-    </Icon>
-);
+const BuildingLock = createIcon("building-lock", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABzwAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHyEPwsGAAE2AiQDCAQgBYMtBzQbQwbIhofn9ag/9yWjZIysnLW+qE5yK3dwD7Xm/F/u+QEf4Bc/P7Sxljcm701RAonOqb08yrIStqbcRbwYcTuGpRPk8XHM1UC6M72H66sPja8NuYQkzwBEJwA27rvnzt74Ir6IeO//Z4n37IiA2AQqgQwZRgVYIxMYlauQywVfxP//R/+BFQFEI/DIBHJ04B+iGZCDpC3P13V2t3S2+JGuqS1lQ4vZJ39WcWBba9vVfbcS98+JuGv2U9Nb45GZTwymuHPWk9PK8urytiiiF4tY1vKr+m+LLC4cuL3cXygiImyHyAHCnSvceHxkdmR6EY8MGl5RWs3sq8dFf9akEGUEw95rfs6+j/ZF3DrkWrvdPXD7jL2Eq3pvIS7ou7Us4+oYu5Laf1teeN/sp5Y9M/OJ0b0vens5+anOp76d9N4x71l/P9qvuKL9I+3fXaTo6nqAB6heXKBzN7yR5+d1bbAhxvowjc3lL6Du/edvAGQTj5QZNcjr2722e1+Nq79XgBXat090EL50fu/EX993xW4frq8/4f2sdpha9v4n9a4LalB2s7EH6BfVYp+jOzuP3ifu3/WCCy54wAUeAAJB9vAXKw7tWPNrc5nAVy99/yt+9/9vpA3pKTRLIMjm/j/XQWkDROMB5CDFOSaP/FAg+UUb8K6tbhMgFAiQNCoEyIzoFCBXmCNAg3FLBWhU2FMm8hah18EaJK1OB5llzgW5Xk+DBmu8GWvUG9l3QDzFxG9o7DY2tHVWtXB+Xa2qBssk+Whj+fjqarY685y4bZY71zFOdYqzHO0oxzvLgs+wc/JsJ9tmDLn1u5WF5qtVVqlW126z+/ixM5zp+H7J+mlWq/YPZzpnvPcs10gA6iJFSSJS25vCzftIAQ==");
 
 export default BuildingLock;

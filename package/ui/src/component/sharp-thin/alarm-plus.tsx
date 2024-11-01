@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alarm-plus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-plus?s=sharp-thin alarm-plus}
  * @preview ![alarm-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/alarm-plus.svg)
  */
-const AlarmPlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M157.4 25l5.9 5.4L152.4 42.2l-5.9-5.4C132.7 23.9 114.1 16 93.7 16C50.8 16 16 50.8 16 93.7c0 15.4 4.4 29.7 12.1 41.7l4.3 6.7-13.5 8.6L14.6 144C5.4 129.5 0 112.2 0 93.7C0 42 42 0 93.7 0c24.6 0 47 9.5 63.7 25zm-54.1 427L53.7 501.7 48 507.3 36.7 496l5.7-5.7 49.7-49.7C54.8 400.6 32 347 32 288C32 164.3 132.3 64 256 64s224 100.3 224 224c0 59-22.8 112.6-60.1 152.6l49.7 49.7 5.7 5.7L464 507.3l-5.7-5.7-49.7-49.7C368.6 489.2 315 512 256 512s-112.6-22.8-152.6-60.1zM464 288A208 208 0 1 0 48 288a208 208 0 1 0 416 0zM354.6 25C371.3 9.5 393.7 0 418.3 0C470 0 512 42 512 93.7c0 18.5-5.4 35.8-14.6 50.3l-4.3 6.7-13.5-8.6 4.3-6.7c7.7-12 12.1-26.3 12.1-41.7C496 50.8 461.2 16 418.3 16c-20.4 0-39 7.9-52.8 20.7l-5.9 5.4L348.7 30.4l5.9-5.4zM264 184l0 8 0 88 88 0 8 0 0 16-8 0-88 0 0 88 0 8-16 0 0-8 0-88-88 0-8 0 0-16 8 0 88 0 0-88 0-8 16 0z" />
-    </Icon>
-);
+const AlarmPlus = createIcon("alarm-plus", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABoQAAAKiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDDwsGAAE2AiQDCAQgBYMtBzEbkAXIngU5GdorMdiwUMbF+J5OiwiqtaisHtg9RtTEwp1mR6AQFKBCdqwuXr5eo9Z0N8zla1QZ9MeVAB2Q8FUAqJBlp5qzFvg9Q+rW5/+aemFNUfqNDi3KatpYQN3PJzDgSEqfz6PAZjoBm7mNWFCDPCsKIofw8YXkQvMEeZxZR0k6ll7hkP/Q+KeNaZIsA0A0BgBTVhVk4fpH/Ih4qyFemgcCYgqgMyJDhvYIxpMLtKfQGeRywY+o1fR/YGcIIEowllw4RwUXcAeQg6TIFcF9AwJD9YVRUVyv0FW0aOl0sGVc6nnSe6P9eBsnYerxONNve9Rpn9LFBbnmxFaxLD6sXB52PO/lrIc5L0NudvlYnMe5nZfGu+WfSxsmBjL25r6ou3f2s/5X7BmwO+LW2xcSg67H2iPyZofx1lkn4nTfrZErvWHDciTq6RF1dYjIkySkE/R68mG8lxpv/efVhncnzy1fXrhtuoIfVqyA++ZIPBvpv33l+MVdk2dGbEWw0JYZLGZjbcP3T/t3+PrRof/t+4ZRfqoxJFuWo+9ruTa+b1oec8m1+vVSR+nr7z0cQyV6Tmd5ZPKuzeOV9n/3+4etru3wNa0Q25avnatWNaVKq42l+GpoqA7wbEAg6H/kUzXm8f9X68kAv+4+/YzUStIlVCUQZP1r/VUmkAgAQIph3gSB5KwCX2t9hwUIdREgKdUVINOOBUGurn4ICh0lIyjVtYxc5FqE5qoKSOrbDTIjjYBcc8egMN5TstQ8MnnVpU3/Lub4EJUmiSExcSJDNEuyIYKqHc0U017vYdMSThvRrEe3QU0atRkEpl9WZkgXX4+WfJEQL0YcIYNYrl6vLtak34A2PbrdOJnE+XCY4X73cArJsOJQW5JEJF3dtrr+ruj3Dg==");
 
 export default AlarmPlus;

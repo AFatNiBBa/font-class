@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spray-can` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spray-can?s=regular spray-can}
  * @preview ![spray-can](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/spray-can.svg)
  */
-const SprayCan: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 0C110.3 0 96 14.3 96 32l0 96 128 0 0-96c0-17.7-14.3-32-32-32L128 0zm96 208c26.5 0 48 21.5 48 48l0 184c0 13.3-10.7 24-24 24L72 464c-13.3 0-24-10.7-24-24l0-184c0-26.5 21.5-48 48-48l128 0zM96 160c-53 0-96 43-96 96L0 440c0 39.8 32.2 72 72 72l176 0c39.8 0 72-32.2 72-72l0-184c0-53-43-96-96-96L96 160zM224 336A64 64 0 1 0 96 336a64 64 0 1 0 128 0zM320 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM512 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM480 192a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm32 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM384 192a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const SprayCan = createIcon("spray-can", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABtQAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDVQsGAAE2AiQDCAQgBYMtBzAb1QXIhof/t+v7fW5V93pTPUaNrS8oghzJ4XcqpT3/13x+1nSAn+jjoXTavXnl88NV0wQGHEXtA20b2EwnYDM9yw26COlARIRC+Jf9hw7bXyCPN+ImFdLd6RPc6D80ftHBZSSVDEA0B8D0tSsXe/fH+DHi4/pLxMcWIiCmg1IgQ4bOAkySCXSWK5HLBT9GvU7/gSUBRBWjyb4cjfEhvkEuJCnyvGXbjk1aIVmrNMnXhLsoNl7TOuI2ohYRF7e9oyhWP9Qm4vYO4q5eRTzcMeLednf2ra15sV/Eo53F3f0f612LRwY+0SnigQGPjylWG7XfUL2fWLm928aL20bcUVzT+jYXtbm9du2ZG/NDFHHnXbnXZO0GZBVkOGTNbfR4vPnjv3X/ZM8nLnyn6VVc1XSbi2zT9Kqrmk7b+vmwb/k0e1Wb5c9a3uZV2affDrvowqEXPc7jDa9qOnLkj8/6MRY3fVXD449f1K9+Jvv5r79+zhBubfYeixg1qbdDLuxmJtDtwjPI1OuBQLDglgerW5tN+q+hlsDPr//xf/oZqb+bpMfRIIEgG1QfZFMCiQAApDhDjwSB5D0FftfG7hAgFAiQVBUCZDppLkCuMFCAiq5GC1BVWCkTeSOhtc0FJI0dB5kxzge51l4AFZO8n65qHZlKiwop/lGmzamR2bPK4UOGlRPKaSxLWsrb3onlttfvDFHTHzvtcdQRp+y2y36nKvqExbnTDpuzomb7otJwQwxTmqB83JTcvMZuJ5y031FH3DQTlfcT/Zyxbt4fYcKMIxjpE8xLjU4eO7H97ME7tx8BAAAA");
 
 export default SprayCan;

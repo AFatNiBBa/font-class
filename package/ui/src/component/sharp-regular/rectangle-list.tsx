@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-list` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-list?s=sharp-regular rectangle-list}
  * @preview ![rectangle-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/rectangle-list.svg)
  */
-const RectangleList: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 80l0 352 480 0 0-352L48 80zM0 32l48 0 480 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32zM96 160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm104-24l24 0 224 0 24 0 0 48-24 0-224 0-24 0 0-48zm0 96l24 0 224 0 24 0 0 48-24 0-224 0-24 0 0-48zm0 96l24 0 224 0 24 0 0 48-24 0-224 0-24 0 0-48zm-72-40a32 32 0 1 1 0-64 32 32 0 1 1 0 64zM96 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const RectangleList = createIcon("rectangle-list", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABgAAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCKQsGAAE2AiQDCAQgBYMtBzUbLgXIjsQ4JvGLKEzi4fu1es993bO10/MZ+hP3ByIFTA6IIuzahFUcC4dTsalIclMh71Onnuc8FMDnEARlbJs6dXnwMWtoKEABjE0bXVShWrFWtIJrrZ1ZziS/PQnlejJsftickMcv8VKN9En6GS/0TeMv/d0lqWUAohsAlm7btNG3zWhG/NT6nPjJegTEUlAKZMgwSIAFMoFBciVyuaAZrRb+A0sCiDbyUyeQo8BVXAPkIGnP83r3nvV6vWfPRq1zvrVRK3alLHWOLDotahRdRQpRdInIIrbc6hvxofGk9zs3e70tHvd5H9saRWdRFCGLW5kcEUk7hJRqe3x4R7eOv/189GdTzu2X7ab9mq2qWlLZr1J109C+G10e8rALIDjH+vbrR/r7/V/tLy2rx1hTWuPzQCB4OPPN0n1dF/zT3kjgz2/Wx7WaaUnqQLsEgmxia6LdaQkAH4CX4qrh5IMCyVnt5FU7eS9AKBAgaVMIkBmomwC5wgQBaoaYKUCbwiaZyOtCL3saSDq5ADKzXAO5Xj4FNQt857bpFZnzsa7D/v2SVvXIyqFy6uSqnFcuocr5E02r80uzMvZqjIwLi44656zLjjjshMsddtHG4IozVjF0pS8qTTVZpTRPeZxqnt7qiIsuOeGcs6nLfOV9Y6yrPH1c0BMhnGZHkojU5eKRQ5cPnD12+sikFww=");
 
 export default RectangleList;

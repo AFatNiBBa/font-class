@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-gif` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-gif?s=sharp-duotone-solid file-gif}
  * @preview ![file-gif](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-gif.svg)
  */
-const FileGif: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 144-208 0 0 208L0 512 0 0z" />
-        <path d="M384 160L224 0l0 160 160 0zM224 392l0 80c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-24 0-16-16 0-16 0-16 0 0 32 16 0 0 8c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 16 32 0 0-16c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40zm160-24l0-16-32 0 0 16 0 128 0 16 32 0 0-16 0-128zm48-16l-16 0 0 16 0 64 0 64 0 16 32 0 0-16 0-48 32 0 16 0 0-32-16 0-32 0 0-32 32 0 16 0 0-32-16 0-48 0z" />
-    </Icon>
-);
+const FileGif = createIcon("file-gif", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABiAAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCTwsIAAE2AiQDCgQgBYMtB0wbbQXIhofv5746N0lTMpA/hG9GAYIiAkcLQKpbL7Bq1W4JygOQ/hOXO/9pY4Ms8kcbi+bw/wYFMud5AgWadWn6F0lgmWZg7c42SVJaOSSZ0MLx2fF5QRGf53drIXsh+xCPxf8BjF8NdTeZjhxA1ABYvmPLOj1fxVdZfNh8m/jQWgTECpAEcuQYIcAiucAIhYRCIfgqazb5KprNRADRKn52DlrRhvvxJKAAmUIURdu8xuhG1dK72F61lCe2b9suqq3C7YHPVFU8NPi5iIgoS1GFeHpAGc8OinhucBXPDBRVRNwx6NmyjAcHPG1HiDKEGN6IuWVVYkVU1SEjN3lVVjwatPSkZeyL9Yu/j/nw+Iduje4kWZeuzh83dmt0v9SoNV7qbgxRq1NSa9d6sHawdaPha8mYiO8cXNejarfVwGkyobbMsmKaNI1SwkzPV+R1scTjPqVf561A0OehP7840HfR/+1VBr7p/vMX+Dtq9sRf2Ytol4Egn9ScZG8GdfwlAABZXDc24ysEchcUsEsvzwoQSgTItCqrkBuuFgqliUKLUWarQmeLiIiiox5gHwqZXi4JuTluCIUB3hJaLPJOr9WAyBVSVyf9P5izpgVWX0vTp0xLC9J0rBg6pobzhUnsj7vu1sbDQ8ddcN5Vxxx1ytWGuWzd8Jpz1qyw1b4omW6KaZIF0vbs3tluepddcWps7V+yULpfj3N9vXs8RBlSnOFOLieyyOvXP5x84tTxyZrt9mPWGwYAAA==");
 
 export default FileGif;

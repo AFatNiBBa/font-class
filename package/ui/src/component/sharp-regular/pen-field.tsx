@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-field` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-field?s=sharp-regular pen-field}
  * @preview ![pen-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pen-field.svg)
  */
-const PenField: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M458 137.9L502.1 182 393.7 290.4l-50.4 6.3 6.3-50.4L458 137.9zM553 199l17-17 36.1-36.1L640 112 606.1 78.1 561.9 33.9 528 0 494.1 33.9 458 70 441 87l-17 17L304 224l-9.9 78.9L288 352l49.1-6.1L416 336 536 216l17-17zm-17-50.9L491.9 104 528 67.9 572.1 112 536 148.1zM24 128L0 128l0 24L0 488l0 24 24 0 528 0 24 0 0-24 0-176 0-24-48 0 0 24 0 152L48 464l0-288 216 0 24 0 0-48-24 0L24 128zM160 288l-64 0 0 64 64 0 0-64zm32 0l0 64 64 0 0-64-64 0z" />
-    </Icon>
-);
+const PenField = createIcon("pen-field", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdgAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCJQsGAAE2AiQDCAQgBYMtBzAbJQXIjsQ4JvKLKOwiHv5/7V/3uTMP5wd5wswK2CaKVPxXAYetA7SVf9V2VVbRy/fakPm/Jt+1Hd3z5CM4tKh1gKz127KeT2DPqzWKJrA3G9hEcQpuuxmwhEv30LhAHv/EcxXS6/QznsVfGn/q5zFJJQMQXQGwdPf2jb7tiI6In1oTP1mPgFgKSoEMGQYKsEAmMFCuRC4XdESrpf4DSwKIKrxLAjnquIZ7gBwk1TwvhjeGNhpFpVO+q6g0Ty9ctHBHrIjhsXvn+DHjF8fiWCShBdAYaAdTxurY7Rk/beY5ixbHwlhwrFk0RQpRdAlYzQoQbZFFUWhrx6hXFKlCKKYWD2vv2v5XP5/62Q8zP6Hw/HmjHJOuPbQA03XTzSdxwnRw+7bGJltUbGrUvNIKYLpPprd69EXEFpbsO4Z8C5oCvNKh9HvfKnr6zRJYpKvMXwcCwW+jNj493GXB3/UigT8+Ip7X+jbdT+2oSyDIJrQmOJDugxIHkE5xy7CJCQaSc87jp7Z5IUBoIkBS1RQgM0BXAXJN4wWoGGymAFVN22Uibwg9HayEpM1VITPLHSHX0wehYoHvUlU9I/v01A9H/fPLWtVEVo4rp06aUs4rR4sK7WuS/fD8crF3zC3dNJYedcpll9xw0gln3WjQ12zM3nTRqilqpR8qTTXJFKV5ys2Vu/t3Oema68667FI0ynzl8ckxbk13HksDCSSnWZskIjWunLw08a0E");
 
 export default PenField;

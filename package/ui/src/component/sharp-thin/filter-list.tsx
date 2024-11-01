@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `filter-list` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filter-list?s=sharp-thin filter-list}
  * @preview ![filter-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/filter-list.svg)
  */
-const FilterList: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 232l0 119.6 96 66L224 232l0-7 5.1-4.7L336 121l0-41L16 80l0 41 106.9 99.3L128 225l0 7zm-16 0L0 128 0 80 0 64l16 0 320 0 16 0 0 16 0 48L240 232l0 196.6 0 19.4-16-11L112 360l0-128zM384 80l8 0 112 0 8 0 0 16-8 0L392 96l-8 0 0-16zM328 240l176 0 8 0 0 16-8 0-176 0-8 0 0-16 8 0zm0 160l176 0 8 0 0 16-8 0-176 0-8 0 0-16 8 0z" />
-    </Icon>
-);
+const FilterList = createIcon("filter-list", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZwAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBcwsGAAE2AiQDCAQgBYMtBzIb9QTIngXu3iVkRMLQ7Fr1iE/Ew//P/ds+N3kfkjKkVQCEvo5Uq9DWEQ84tn+NrR7gZL5EaAhY3HZpVPs+cc3zP48GSeJHi6TUtFpzJ6bAAGfFowHOZwMb0MQnYLPfyUf597mR9FIkGcYbNnfI47kdaqS7CW6WN40vOrtBkmUAohUApq5evtCbpmiK+Pb/iG/NR0BMBZVAhgzdBJggE+gmVyGXC5ri///tf2BFAFEHT0sgRz3WYjcgB0ktzzt3bizLstY8X1XWitXCygDVMVZH1CyE5LcPxaqVq+IomwvQigBHh6C2l0VpFYVR20aU3OneT3hyL7u4/PMZ3N481TP1Zti3TV9T9NU1M9S3Orw7QUO0Spa0MkR9zEdt/eXwAlda3tCVVhrOtBp9T0NDHrsfvwcEgvy7Bza3nPBrZQK/PPuL/w0l6QkaJBBkA/4fYEMCiQAApDild4JAslQNXrWZWwKEAgGSOoUAma5aCZAr9BegpoeRAtQpLJeJvFFoZ+Ogk2aO0plRLtK5dp7SNRN8zuq0i4xhMj/kD17GLAnMPFYNHTSkGlct27pCGjGtj6+O7T6n3FhfddUuhx1ywk477HVC4McsLJ500KwdONMHVYYaZIjKONV17/n8Kjsdc9xehx3Kh4xXvff7OLWf3Vd5CQSHqUsSkUrqmQNJCgA=");
 
 export default FilterList;

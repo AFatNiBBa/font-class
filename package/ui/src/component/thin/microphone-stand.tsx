@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microphone-stand` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-stand?s=thin microphone-stand}
  * @preview ![microphone-stand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/microphone-stand.svg)
  */
-const MicrophoneStand: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M468.9 212.9l5.7-5.7 2.3-2.3c46.9-46.9 46.9-122.8 0-169.7S354-11.7 307.1 35.1l-2.3 2.3-5.7 5.7-5.7 5.7L283.1 59.1c-26.5 26.5-38 62.4-34.5 97L12.9 407.1C4.6 415.9 0 427.6 0 439.6c0 12.6 5 24.7 13.9 33.6l24.9 24.9c8.9 8.9 21 13.9 33.6 13.9c12.1 0 23.7-4.6 32.5-12.9L248 364.7 248 504c0 4.4 3.6 8 8 8s8-3.6 8-8l0-152c0-.7-.1-1.4-.3-2.1l92.1-86.5c34.6 3.5 70.5-8 97-34.5l10.3-10.3 5.7-5.7zM354.4 247.1l-89.5-89.5c-4-30.9 5.8-63.3 29.6-87.1l10.3-10.3L451.9 207.2l-10.3 10.3c-23.8 23.8-56.2 33.6-87.1 29.6zm-36-200.7c40.6-40.6 106.5-40.6 147.1 0s40.6 106.5 0 147.1l-2.3 2.3L316.1 48.8l2.3-2.3zM72.4 496c-8.4 0-16.4-3.3-22.3-9.2L25.2 461.9C19.3 456 16 448 16 439.6c0-8 3.1-15.7 8.5-21.6L256.2 171.5l84.3 84.3L93.9 487.5c-5.8 5.5-13.6 8.5-21.6 8.5z" />
-    </Icon>
-);
+const MicrophoneStand = createIcon("microphone-stand", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfQAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCIAsGAAE2AiQDCAQgBYMtBzcbJwXIhofn86o/9yVdTQyUHtGp+aSX8BL00loJE9fUj/OnB0ziR+vQB/nGWOf5BCZWfT6byMBmOgGbuZlE0Fgot4qI0pAftuCw/RPyeNx+akg3pzdwZfrQ+EE/55FkGYBoA8CSHds2eObT+DTijf8fJN6wDgGxFBQCGTIMFGC+TGCgXIFcLvg0/v/f/AcWBBAVeHECOSo4AmcBcpDkeT6rpa29saY5r/rjDfv26erTJ56Osxc+1XDJ/K6w25/o3R7XOat7TFzfeGmfHSFnu2/sE3F2VOvFRZbSZ3u1rN6qlJvXzqze1xhx6Zx7nDW+K6rRZ6dLesbGDRroc00Z2+O6hqH3tt37U+8bB7zhg+9LZNsNnzx5+FJ33dJ2pdLNTil/+MubnZ0fXeQjfvzDK853qcpee1VuErFrVXnXzcpjenfC3Ztn3OKaa9xin1+Hv/LvWMY0fzJ2zDu9g3z7r880X3SRi5rVe7/+1fZtfvvGhc1AILh5zk2P7tk6/9e6xgQ+f+yXv/Cv6P9nknQv6iQQZOP/H2+3BBIBAEhxgqEJAskBcjja5AYBQgMqllQ0YJkB2rBcg3FYjcFmMIdHtslEXi902R1hSZOjscxMp2O5LvdjNeZ7OajoikzwOLHhfvuSV7bwinXFlImTi7nFtKnwssSE5XnFsT36BB4aQzsd4EhHOM7+9nOw4xr0GBvi4x1u5QpZ4YsKU0w0WWGu4rpzv7lqf8c41sGOdERcZZ7ie3+0E9aTx5CXgHaqiiQRqe3FssKpTngyAAAA");
 
 export default MicrophoneStand;

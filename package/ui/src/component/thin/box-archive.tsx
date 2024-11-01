@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-archive` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-archive?s=thin box-archive}
  * @preview ![box-archive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/box-archive.svg)
  */
-const BoxArchive: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 48L32 48c-8.8 0-16 7.2-16 16l0 48c0 8.8 7.2 16 16 16l16 0 416 0 16 0c8.8 0 16-7.2 16-16l0-48c0-8.8-7.2-16-16-16zm0 96l-16 0L48 144l-16 0c-17.7 0-32-14.3-32-32L0 64C0 46.3 14.3 32 32 32l448 0c17.7 0 32 14.3 32 32l0 48c0 17.7-14.3 32-32 32zM160 232c0-4.4 3.6-8 8-8l176 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-176 0c-4.4 0-8-3.6-8-8zm304-56l16 0 0 240c0 35.3-28.7 64-64 64L96 480c-35.3 0-64-28.7-64-64l0-240 16 0 0 240c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-240z" />
-    </Icon>
-);
+const BoxArchive = createIcon("box-archive", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdwAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBfAsGAAE2AiQDCAQgBYMtBzIb/gTIjtRG94xd4uF7nW/nPsmeRLJ/kBQiqohwAbBLtVRRt9wR1cstQe0MqdWf/2s+v+dHB/iNDiUaszByo4h8PoGJpE98bQOb6QRs5jbiyhYUuSYiQ/wxtIXqBfJ4x3410ovpczyePjR+1cs9JFkGIDoCYOGmdWt9+FP8FPF5K+JzqxEQi0AlkCFDXwHmyAT6ylXI5YKfotWS/8CKAKKO959Ajjr24jAgB0me5517NweWtWa+sawVhxrNxjNdxbPdyubzPSKe664oGw91fy4i7uzxfNmMh7s9S9zR9Zli9/M9yiVslS/iyX1lUYoXRrwypBEvjXqtN4IyxIviD23Gy0en+sSg1zq+9rvPD37ux8c/ZMNPbRO0/dTx9Vy+u2PHD9seeKDiceNDaJi/qb77dbvr0MdP78jKvxSdOt1e4DauUvylo79kX3w3YYEJ332R/QUEgm/7z9i7q8Oc/9uVCfzy9p/TX1HrpyS9hnYSCLIxrTG2J5AIAECKiwYlCCRb5fiuDc8JEAoESOoKATJ9dBQgVxgtQE1/UwWoK6yTiby90NWOCpKGMyAzzQ2Q6+otUDPHR1Fd18jcjHIS6pMXv8xCS3dVE8dNqGZVw45Cew4RNmdX28KIizoxEmcddMpJ5x2w3xHnDXLW2vSCE5bN4KW+qDLROBNUZqmu+7f8RhOddc6RPnu/zWzVe2eEi/P5IyEnRJ1kb5KIVO49dXmsWwI=");
 
 export default BoxArchive;

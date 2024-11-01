@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-pointer` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-pointer?s=solid hand-pointer}
  * @preview ![hand-pointer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-pointer.svg)
  */
-const HandPointer: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 40c0-22.1 17.9-40 40-40s40 17.9 40 40l0 148.2c8.5-7.6 19.7-12.2 32-12.2c20.6 0 38.2 13 45 31.2c8.8-9.3 21.2-15.2 35-15.2c25.3 0 46 19.5 47.9 44.3c8.5-7.7 19.8-12.3 32.1-12.3c26.5 0 48 21.5 48 48l0 48 0 16 0 48c0 70.7-57.3 128-128 128l-16 0-64 0-.1 0-5.2 0c-5 0-9.9-.3-14.7-1c-55.3-5.6-106.2-34-140-79L8 336c-13.3-17.7-9.7-42.7 8-56s42.7-9.7 56 8l56 74.7L128 40zM240 304c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96zm48-16c-8.8 0-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96c0-8.8-7.2-16-16-16zm80 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96z" />
-    </Icon>
-);
+const HandPointer = createIcon("hand-pointer", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfwAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCFAsGAAE2AiQDCAQgBYMtBzMbFwXIhod/7P7ffWbmAZ5vs2OSCkYnd/Hq4Y6qcuf/cs9v09EBfqNDGWPRaNgCifbgBAIs6uWTNnAWZoliU+5eDMLY5ts7QBb3pdcoIrkn+Rg3OR8aP2pzDYmyFEDUAmDWhjXLvPtNfBPxUeEl4iNLEBCzQC6QIkWnAFOlAp0yOTKZ4JsoFNh/YE4AUcy7cwIyFOMYzgEykMiybGZlVWVFUVW2Xm0v33KlJeKuiuua7gDnX2q7a0DJGKLiiUuEEA9PfXNueXlEeVzb/PLk14evjztb7vKZsU1N6yLddGfz7Y2iZFpxTDBK9PSvk3fo/Wztsz/3+nj/xy7dVfc6z9XVPfd63e0+aog3v5zZ8MVH9ej1I7/4JB2p1khFY+esrJ1JkdKdt40dc8uCHR7oGf7hp79/9/yExeacKKn+5pvqnWK7AFk4v6Km93ogEPQa3PT9jpqpf5dWJOC713/9z15U+L/wbrybPItSCQjSoYWhthpmBGepOOJinNcbflEgsU/Ge9dKdwoQyhEgUaxcgFSHWgEy5YYIUKTbOAGKlVsjFVmZ0GhbCRKVToHUeBdAptELoMhU75WKNUZ6ygknjPDDlzq/Ds1bl48aPjKfnA/W5eJZxOn5Kflsd+B53jcI7rXfCcedtc9eh5ytUactq55zzPwxcp4fyo0y3Ei5yfLVrdu719vntDMOOeG4XWWKfP9koPPjowfBIOHRjlaTSIik8gw1h331AQAAAA==");
 
 export default HandPointer;

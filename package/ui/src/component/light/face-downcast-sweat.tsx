@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-downcast-sweat` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-downcast-sweat?s=light face-downcast-sweat}
  * @preview ![face-downcast-sweat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-downcast-sweat.svg)
  */
-const FaceDowncastSweat: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M79.8 68.6c5.4 8.5 9.8 16.4 12.8 23.1c2.6 5.8 3.2 8.8 3.4 9.6l0 .1C96 113.5 84.3 128 64 128s-32-14.5-32-26.7c0 .1 0 .1 0-.1c.2-.7 .8-3.7 3.4-9.5c3-6.7 7.4-14.6 12.8-23.1c5-7.9 10.5-15.8 15.8-23c5.3 7.2 10.8 15.1 15.8 23zM72.5 4.1c-4.3-5.5-12.8-5.5-17.1 0C38.1 25.8 0 76.3 0 101.3C0 133.8 28.7 160 64 160s64-26.2 64-58.7c0-25-37.9-75.5-55.5-97.2zM256 32c123.7 0 224 100.3 224 224s-100.3 224-224 224S32 379.7 32 256c0-20.7 2.8-40.7 8.1-59.7c2.4-8.5-2.6-17.3-11.2-19.7s-17.3 2.6-19.7 11.2C3.2 209.5 0 232.4 0 256C0 397.4 114.6 512 256 512s256-114.6 256-256S397.4 0 256 0c-43.1 0-83.8 10.7-119.5 29.5c-7.8 4.1-10.8 13.8-6.7 21.6S143.7 62 151.5 57.8C182.7 41.3 218.2 32 256 32zM96 272c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16zm208-16c-8.8 0-16 7.2-16 16s7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0zM173.3 411.9c6.6 5.9 16.7 5.4 22.6-1.2c11.7-13 31.6-26.7 60.1-26.7s48.4 13.7 60.1 26.7c5.9 6.6 16 7.1 22.6 1.2s7.1-16 1.2-22.6C323.8 371.4 295.7 352 256 352s-67.8 19.4-83.9 37.3c-5.9 6.6-5.4 16.7 1.2 22.6z" />
-    </Icon>
-);
+const FaceDowncastSweat = createIcon("face-downcast-sweat", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABrQAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDDgsGAAE2AiQDCAQgBYMtBzobmAUjEaZLkCf7IyEnQ33PIky0QvCL2FxlMcVSjsTz/7/f/+ba53xFRCqvQsIrg2RSAp7EOkk0emX8hDaT0P6gkn++g3WaG1047YifQHypvz/1PBQKBfAZBeXnJdvWBFkgoaRrn1egomtzCtbzglWkAhWwDs4bdND5Dkk36HmbkTHqYf3AHf1N898atym9AchiAOw7duigTw+ZTX4MM+SHAwhkP9gsaGhYL2CnJliv24yuC7PIMLD/QEiAjDMbL9AxiWeYAXRQxnvftEyRc/6aeWML+lH5lulTd1F33UjSVIZAjUAdug7JFDSm/um1KLs6gQaxAWyjeK9wv+gwoUliCG+7a4ggh/JIJqkdchMGBzp7RkcKU7RMQj26ZXPgVnPT9NT23vxce9v+TmvL7MzuxqAGVYtZ1repRbGnHlOHZkuNgL2ipEkpLuSzF6M4H70yuk6kT6RHqEegBkUb4hn6pZ74nQDzpBRDUQSm4/MfHvLj2QAoEcOU5KSkZCaN/PxLFWl+lsWUjg4KD8syaanHOcIDCYDRFgB/ubgut6RID1nCCHuYkiJ982RaLgT0sbjKTH2gDzIrcVigj3ZrAJd9l+Sbj4z2f64HD/DA5Tnn3BHC07KaFwYLP95RqPePwsGFpuJVI6OLC/YVq8VNACAIl5fu73Hn3jk3yV7g39L/nPYbHD6Veo1JBUIbDSOnCxQBAFQu2VoQlKfW/c757gmIaSRQxk1Ds85i6KZtgzEbbceOOw5p0qfEcmdAKPOdhWaHK9At9wbG7PQ5Hbc87XgVjzbxaTHtXi9L6a6C8jJyUAnWViLpEERlURl2NsTi+IA4XAP8hAsTw5ePwIBk2CimRaxQek2Mrg+C5MmQAymBg9sXNbtMGiVaYLUyfBllcPpETFzzeHFo0zE5FZToFEjx3wy69EGM15cjHf2DewA=");
 
 export default FaceDowncastSweat;

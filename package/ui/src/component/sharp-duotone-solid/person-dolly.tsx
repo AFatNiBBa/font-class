@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-dolly` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dolly?s=sharp-duotone-solid person-dolly}
  * @preview ![person-dolly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/person-dolly.svg)
  */
-const PersonDolly: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M194.9 174.5l5.8 23.3c2.2 8.7 4.4 17.5 6.5 26.2c5.3 21.3 10.7 42.7 16 64l27.1 108.3c-16 11.6-26.3 30.5-26.3 51.7c0 35.3 28.7 64 64 64c32.3 0 59.1-24 63.4-55.1l134.4-33.6 23.3-5.8-11.6-46.6-23.3 5.8L339.7 410.3c-10-13.7-25.3-23.3-42.9-25.7L247.3 186.2l-5.8-23.3-46.6 11.6zM304 448a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zM288 230.4L326.4 384 480 345.6 441.6 192 288 230.4z" />
-        <path d="M80 96A48 48 0 1 0 80 0a48 48 0 1 0 0 96zM0 480l0 32 64 0 0-32s0 0 0 0l0-69.5-64-64L0 480zM32 128L0 128l0 32L0 274.7c0 17 6.7 33.3 18.7 45.3l22.6 22.6 56.7 56.7 6.3 37.9 4 24 4 24s0 0 0 0l4 24 .5 2.7 64.9 0-2.2-13.3-4-24s0 0 0 0l-4-24-4-24-8-48-1.7-10.1-7.3-7.3L96 306.7l0-65.1 21.4 32.1 9.5 14.3 17.1 0 79.3 0-16-64-46.1 0-54.5-81.7L97.1 128 80 128l-48 0z" />
-    </Icon>
-);
+const PersonDolly = createIcon("person-dolly", true, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABowAAAKuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDDwsIAAE2AiQDCgQgBYMtB1QbtQXIjsK2tfMgKZMUh7eZICqb2bN7Ur1OTyTw1z0wRsAmxBCIUgCOnDljDl3Hw+ft/b/dICqgdnFCgXRRONJEQ4+s6e/n+T+v8nf+hT9K1CIao7j7fAITaCwvGsiEZjoDm7W5/sHeCJ5fGiIOUxFp2Lpha+oGjHiu1+KAetUzYKP/D6D8eKyF4ioAAMgMAADU3z1t3HopL5U8s89BPlqBAOQAwCJAAw38BEAVTYCfwQIGg+Clsm28FNvuEABIw9+gAThBADgCLgIAA4Ci6WoEhTWmulxuR5DR3881h5z07fXuSTkWu8uzO3kgwh0iq/KZIt3CkMltIuRJT5cu6SeeRW5UeyRK3BItXjB7FY2T6Gy3iKTXK9wJYkr/otwc4vF6tkfpg3Z7+uSUf3f66eSTqSd9AyRV4iRJemVPSn/xStGgbZE7onfGjLj698mtA6S/9CacCT3zLf7Z+Gc6xqH3Fy++P3SEOlZYwdVh4TWzWbeOsO5gDu/Wnw36lCoFUEqp54eLS63gMcE49TrsF3bachRfOeVOaH99bVZWVXZ9gXcKq5lL2KGVwXGp6+MZ64Zx1nX+Hs1/QIsvU0ODX74M3jIhL5J3r2IyYWbS/QAIEJSMpG0jQqr+BbgVAK+v/PiM/Y7sW/JfnQECKAACvdtZhiaAjv8IAAAAUDGfhAS4iwBtFC0+NdAOAkCYQAAoTiYBoPmEEgAGUyYB4BCnmABwMvXQpLoQkYZdQAk0C2gllgFDpLPAocrDrFNkaMKqdFO/FzO3INS8ycrPybMqrGbLqXFQ3lcrrWF32nwbSZeTjDfDdHONM9Ykc4Gcra0wzzQtPbjZF1ny5chjqWBNdy/N/SE72xyT6sb8OpWs5+Np5venp4tPCcECWzQNSdGRBLdn/2LAvyib++PRN8Z7Dg==");
 
 export default PersonDolly;

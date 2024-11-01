@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-minus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-minus?s=sharp-thin heart-circle-minus}
  * @preview ![heart-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/heart-circle-minus.svg)
  */
-const HeartCircleMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 118.6l-11.3-11.3L220.5 83.1C198 60.6 167.5 48 135.8 48C69.6 48 16 101.6 16 167.8c0 31.8 12.6 62.2 35.1 84.7l24.2 24.2L256 457.4l16-16c2.3 5.1 4.9 10.1 7.7 14.9l-12.4 12.4L256 480l-11.3-11.3L64 288 39.8 263.8C14.3 238.3 0 203.8 0 167.8C0 92.8 60.8 32 135.8 32c36 0 70.5 14.3 96 39.8l12.9 12.9L256 96l11.3-11.3 12.9-12.9c25.5-25.5 60-39.8 96-39.8C451.2 32 512 92.8 512 167.8c0 13.8-2.1 27.4-6.2 40.4c-4.8-2.2-9.8-4.3-14.9-6.1c3.3-11 5-22.6 5-34.3C496 101.6 442.4 48 376.2 48c-31.8 0-62.2 12.6-84.7 35.1l-24.2 24.2L256 118.6zM432 496a128 128 0 1 0 0-256 128 128 0 1 0 0 256zm0-272a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm80 152l-8 0-144 0-8 0 0-16 8 0 144 0 8 0 0 16z" />
-    </Icon>
-);
+const HeartCircleMinus = createIcon("heart-circle-minus", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABlQAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCUgsGAAE2AiQDCAQgBYMtBzkbWwXIhuB5u/6rc7sf4J75MhYygwxKGW08838u3tvzUYF83sSH1qHFFx6Rz0/ggEc7b4viBDs7UTxrc5yDDqL8JiKn2RNPw/Y0bEUryOMnR6oi3Zd+xC31o+Ivfa4kyTIA0QqAFfvs2uLT3+P3iB8qbxE/2ISAWAEKgQzxgwIslgleQa5ALhf8HpVK+Q8sCCCqyaMlkKMaN+JOQA6SPM/XDAzUNVQ15XsbquoP6O7qnhgfr/1y8YfFY0smxJ7oibu6OqMzumNvbHPLTyz7ZN1XS7oiQz3MiPmodGnv3d0PxONLLUnjo3O/GyZFvDDphbhs4vOBqL9+/LOESyc8FzVkNyw4pr435SWXTn5x/ru7L3x/6stx2bRXFn3QsKe+oT6ioUH5+dbn/yn9ePSPKutfkAudY4airS3pOMebb6gYt/ZHz3vem286xzE1dUftvfXUs+dD/ejsU2/de1Rd187DT1/eltraCqVrvPDKuaM+5dOhpnK5aejTT0dRTUxqHZdIM0pjx5ZmpDQONbjrtntqax9tVXtvKxAIDrnr4cMOaVn8f21DAn++/99f2t6VT9Py9DxqJRBkkyuTHZiWQyQHkE5xtrLyRYHkSjn51EZ3CxDqESCpVi9AZkCrALl6kwSoMmyOANXq7ZKJvE7odNAASaPTQGaui0Cu0xugymLfpKp1RuaRnD9x74PJaxles6iYMXV6sbA4rem8kzF5dlFx2R5/duqZgKWOdoqTnekoRzrOmYSebkv2LCdZqyFr/FBhhqmmKyxUmJuv8l5Kn+4Mx+31wj7PIsX9/nhn68MnwEuEdqaiJBGp/aHQp3y7o0/5lb1yBgA=");
 
 export default HeartCircleMinus;

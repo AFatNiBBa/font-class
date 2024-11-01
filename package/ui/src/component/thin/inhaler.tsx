@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inhaler` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inhaler?s=thin inhaler}
  * @preview ![inhaler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/inhaler.svg)
  */
-const Inhaler: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M559.7 90.1c.6-2.1 .3-4.3-.8-6.1s-2.9-3.2-5-3.7l-128-32c-4.2-1.1-8.5 1.5-9.7 5.7l-16.4 60.7-13.1-13.1 14-51.8c3.4-12.6 16.3-20.2 29-17l128 32c6.3 1.6 11.6 5.6 14.9 11.2s4.1 12.2 2.4 18.4L533.2 248l-13-13L559.7 90.1zM519.3 301.9l-145-145-18.5 74.7C352.4 246 339.5 256 324.8 256L248 256c-22.1 0-40 17.9-40 40l0 128c0 22.1 17.9 40 40 40l190.9 0c21.7 0 40.7-14.6 46.4-35.5l34-126.5zm11.3-11.3c4 4 5.6 9.9 4.1 15.5l-34 126.5c-7.5 28-32.9 47.4-61.8 47.4L248 480c-30.9 0-56-25.1-56-56l0-128c0-30.9 25.1-56 56-56l76.8 0c7.4 0 13.8-5 15.5-12.2l18.5-74.7c3-12.1 18-16.3 26.8-7.5l145 145zM32 240a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm32 16A32 32 0 1 1 0 256a32 32 0 1 1 64 0zm64 32a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm32 16a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM16 352a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm96 0a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm32 16a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM16 448a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64z" />
-    </Icon>
-);
+const Inhaler = createIcon("inhaler", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAAB0wAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRCEJQsGAAE2AiQDCAQgBYMtBy4bIwbIjpQuJ6QRPK8zm/elJXnDsgOkJEeAVYChOwCw96AFwg7dpTwKlEcVsCpCfuJy52/vC2QJvr/J41y1KZDl4ZznCczzMTblcQGFmoB1tu1VENEQLxTGGfL4xio9pMdTFw+E6fGj8W4lyTIJFiPxni6cO/Nan+2LfRHd+m2i62oExEWgEsiQYZIA58gEJslVyOWCfVHX7j+wIoDolYDJrhwj8CNq5lNJhuX5pInVwBjravQ4dU58ZbFzqNVpzYlOWUUrZsSTh86OdrNdzopWzJ01Z/acWfHYIUXcXT5K3NhsNxpxz9ihsXPHtsvVhU8VRTzT6kyIeHLs0OGNQK4YasnN2SseLdvNOZ3WoTeWEY8Wd7c6cZPpaeOeZtuV2pxF2V11/EowQqpOsaIejTuPTX9h5As/T+uu6Tp+dRo9urphqmWH/atrr1UzBytumnfFEUc+ruvwB4/Y+2DS11XWbLvWqBc/cGOJfvCiT+Pe//K8add/MHscW2jW4GDrU9v+/7XvRn2//n9q+WtHjb7KEdt37HnwwSftGz58n2Gqh9/JncOH31lpve564HgmxnSiLssuPQ8EgtV37puzdMQ5v/U3Ejjwwa9/1z8j9b50UXoB/RIIsmPqYyxKF1D/ny4SAIAUe0xPFyCQHDRM8qmDOgKEAgGSXoUAmYlGCpArHC1AjylOFaBXYaZM5ANCaXGPJYO2Y5nTXIflSm9iPc7xebhXGRnoi4Ar/nmmXTYGLm1VnXjcCdVZ1WZCK0EzbxvPrk67j9gjC47EC62x1Ra7rLbKertG0A7Xxnbb7LI96qXfrZzoOCeonKW6nX6uzqEkO+y0PmjL/WbOVr0fOsKe/fJHYl+S0J5kVJKI1Ld+y7qPegAAAA==");
 
 export default Inhaler;

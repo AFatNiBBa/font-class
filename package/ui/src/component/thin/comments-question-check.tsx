@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comments-question-check` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comments-question-check?s=thin comments-question-check}
  * @preview ![comments-question-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/comments-question-check.svg)
  */
-const CommentsQuestionCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M208 16C99.4 16 16 90 16 176c0 36.1 15.1 68.8 38.9 96.5c1.9 2.2 2.4 5.3 1.4 8c-8 21.5-21.4 41.2-40.2 55.4L16 336c28.8 0 57.3-10.1 83.4-23.9c2.3-1.2 5-1.2 7.3-.1c31.7 15.7 65.9 24 101.3 24c108.6 0 192-74 192-160s-83.4-160-192-160zM0 176C0 78.8 93.1 0 208 0S416 78.8 416 176s-93.1 176-208 176c-36.5 0-71.9-8.4-104.7-23.9C76.8 341.7 47 352 16 352c-6.9 0-13.1-4.5-15.2-11.1c-2.1-6.6 .2-13.7 5.7-17.8c14.7-11.2 25.9-26.6 33.1-43.9C15.7 250.1 0 215.2 0 176zm448 0c0-5.2-.2-10.4-.6-15.5C555.1 167.1 640 243.2 640 336c0 39.2-15.7 74.1-39.6 103.2c7.2 17.3 18.4 32.7 33.1 43.9c5.5 4.1 7.9 11.3 5.7 17.8c-2.1 6.6-8.3 11.1-15.2 11.1c-31 0-60.8-10.3-87.3-23.9C503.9 503.6 468.5 512 432 512c-95.7 0-176.2-54.6-200.5-129c5.5-.5 10.9-1.1 16.3-1.9C271 446.3 343 496 432 496c35.3 0 69.6-8.4 101.3-24c2.3-1.1 5-1.1 7.3 .1C566.7 485.9 595.2 496 624 496l-.1-.1c-18.7-14.2-32.2-33.9-40.2-55.4c-1-2.7-.5-5.8 1.4-8C608.9 404.9 624 372.1 624 336c0-81.7-75.3-152.6-176-159.5l0-.5zM185.3 83l39.8 0c26.2 0 47.5 21.3 47.5 47.5c0 16-8 30.9-21.4 39.7L216 193.4l0 16.6c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-20.9c0-2.7 1.4-5.2 3.6-6.7l38.9-25.6c8.8-5.8 14.2-15.7 14.2-26.3c0-17.4-14.1-31.5-31.5-31.5l-39.8 0c-14.4 0-26 11.6-26 26l0 4.6c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-4.6c0-23.2 18.8-42 42-42zM208 232.7a11.3 11.3 0 1 1 0 22.7 11.3 11.3 0 1 1 0-22.7zm309.7 63c3.1 3.1 3.1 8.2 0 11.3l-85.3 85.3c-3.1 3.1-8.2 3.1-11.3 0l-42.7-42.7c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0l37 37 79.7-79.7c3.1-3.1 8.2-3.1 11.3 0z" />
-    </Icon>
-);
+const CommentsQuestionCheck = createIcon("comments-question-check", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAABvAAAAMFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDQwsGAAE2AiQDCAQgBYMtBz4b0QVRlA1GkuxHQnYWcyUiSogYNAuxUmb/T7hjsI2H+v1ez+67AQKfKFRhSyjjorg0vsLUkTAdXxmhY+v/1FYDv4u6snshznn2ICGCfxDqn8rTBez/x73T/8vyAJ8HmIeypy5cw8ZY3CXQ+VgbA1lTE8Zss3GfSUUhxAgJGZuI7PGJ7PFqBSX+KEcnP+QjvDkeKr4aM06qKgDRCwBsXaQlwJ1GNCKe6ovEkx0gILYBZiEq8CaVA6uoAo2mmQWKImhEXdf/wFkQQDRjXJpW0IpHfKa9OlJzKVMTzo7sgVNcOp+WyaVz8l7FIz5K3xuwIdtBIl722yy/yn2b9DTrTeKTzPS3aYgvs16nPM94lfwsfTb2ivsmxSblce0tc/6IYlHv8d9qClmtyy753uO4HVw3K8/G3M+Ym7CTB+IxwyblbYt9gU8ysZTL4R6Ub6i3WHojxEqwSYE4ovRDsjhv4nDwgApwuGO7XbmZm7EhH9fcrCzZkKXjuiIQN0EjD8AsrAcwPyY69sPsUeUjeHo6FQsAEjBEEWMuO3MRnK1wcfnlAUohQ5xQIPZPd2PsHrA3Kybeu2enEAVf6qXs+L7Hx3Yy+Vie5g6LkUpPTsZITd6x4k5bnz3fO5Re0ZCWSjY3i4XCMPD45eJScRZcPCMzj1EY/vPi6cjIJ0nS+dOjwkqwBjEwiosZcqC5VsN9IX+6W0BCiQ0dWpqLGXSI69fFio1lNnv5PJZHoLtHRroECD89ank57SQcEvch/RQAAsH01cfrS6H/NxY3wZfHn7+vPeu1fJ3H0CpBUM3X8/Jz2EDmEViX8Yo5SgmRPnksik5vo8bQzg2pWTtUJoigaDcHTaZ5UJ3tT1BFaRMGFQBSpweorBiAYtB5aLLqrq7ZYFSZTM9D+o9knEiNjShGuDg6E77E0EcYyUndcv0It4TspBgT+kKlJo3aVShXo13hWyUYOzSItIgjfktw4cgZwRcRDt5yMpWuVZuavlC8ED/EfAWp005ugpyCSS7wSEnkSJoLHd53nsOHAQA=");
 
 export default CommentsQuestionCheck;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book?s=sharp-thin book}
  * @preview ![book](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book.svg)
  */
-const Book: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 56C0 25.1 25.1 0 56 0L440 0l8 0 0 8 0 400 0 8-8 0-24 0 0 80 24 0 8 0 0 16-8 0L56 512c-30.9 0-56-25.1-56-56L0 56zM56 416c-22.1 0-40 17.9-40 40s17.9 40 40 40l344 0 0-80L56 416zm-40 .8C26.2 406.4 40.3 400 56 400l56 0 0-384L56 16C33.9 16 16 33.9 16 56l0 360.8zM128 16l0 384 304 0 0-384L128 16zm48 112l8 0 192 0 8 0 0 16-8 0-192 0-8 0 0-16zm0 80l8 0 192 0 8 0 0 16-8 0-192 0-8 0 0-16z" />
-    </Icon>
-);
+const Book = createIcon("book", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbgAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBeAsGAAE2AiQDCAQgBYMtBysb8wTIjsQ4RvKhGLR4+P+5qvt+UjXpZBgyzOhwAdCzXNeq3AIK2WctqrVTBVc7/9d8ftZ0gJ+P4FCisbS4QI4qF88nMLEoahpo295AphO06TYRxY6ofCMkSiI6vh1vO8jjc+c0SJ+mX/B2fdP4yxAvkGQZgOgNgNUH927X6oquiJ/biZ9tRUCsBrVAhgzDBVgmExguVyOXC7qi3db/wJoAosng5KNzFDiJ84AcJM08H9m7Z0dHR9XokR+oGmX2+aCIjyf2qEQKUZaiqkTZ/YuBHw3NDr/WP+IDTwZ8WPWIiO7zPp5YRRZlvNb/A+loylKPyKL7/qqsRFmGdgVjvun9zT+jf7nwi1e6/cczT4rCOwrF4F0GF70VT249+6/bOwsv9vmWzj59Or/tc8guh261LfLEIitG3cs333nCW2d5YtbMm0XxR2/FD7138eVAINj3ebx4stey/4sqgT87//tLztduRSt9g0ICQTatPc2xaIFSA/hJKR4YEy0EkoOa+FW7+0iAUCJA0lQKkBmmtwC50lQBGkaaL0BTaa9M5B1Cf8cHSLq7DTILPAS5/r4DDct87zX1jwxkAkSEL17qBg+tn1bPnjGrXlJvY13EDZfHl9bH2qQHqTaZFrrgphvuOe+cy+458o7t4X3XbYiI9b6oNtsMs9SWqK+z59kHnHfHXZfddKNMslT93prkQdw9mczEaOeIJIlIOQIB");
 
 export default Book;

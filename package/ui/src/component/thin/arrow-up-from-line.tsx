@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-from-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-line?s=thin arrow-up-from-line}
  * @preview ![arrow-up-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-from-line.svg)
  */
-const ArrowUpFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M197.7 34.3c-3.1-3.1-8.2-3.1-11.3 0l-136 136c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L184 59.3 184 376c0 4.4 3.6 8 8 8s8-3.6 8-8l0-316.7L322.3 181.7c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-136-136zM8 464c-4.4 0-8 3.6-8 8s3.6 8 8 8l368 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L8 464z" />
-    </Icon>
-);
+const ArrowUpFromLine = createIcon("arrow-up-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABWgAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBFQsGAAE2AiQDCAQgBYMtBzkbngTIrgds9xZYlFjijRBVYhNH24jb4afAsFdXEdHvx/bef6g0T2IaqkYJkZRoFiopUwJDJVP5VqzpXpBcom6imCVQFTEK8yB8QXUqkToAEPwfNOP+0smkohHgcsrgvSgOO6BTF3yF6M//uZ7v+WiAn0cwlAorLS7wzOcTmFhx3dEJRYFNFG93tseKaI8DrcmSHJft+KxQs4sxasqH/sFL+dH8cjqDomkAkGEAcHnf2oLnK/y398iXBgjkCsAsQoMGkwicUAomqcyCqgrfPvwHMhAgnaD3LKCiYg3sA6igKFXl6jeqzaoOo9rQK2kjwWI7SUGi5SqpncTK6egSiDaTXCkm9+devf+Jfz7iMnZ3W1u3d1CkeRzSFHWc4xKfmg+3Q0V1CfV2QBBW/k33YC386UYB+NnBq9uoK+hWQGhW2gD6cgQAHcAq2YBbOVlQzFEA3Wu/VwRELwKKTr0CGhNsCFS9lhHoMC2JQKde15RS9Yhx/QMU/Z5BY88+qMbdgQ4nvqxO41G6DP3g9I8tocyh0hBHQxHO8dLTGC8gUzfP25JnAzNemMWERQvWjBszbY0hK1rcdfPKGlxyIhYVEsFy+DhcjncYt2LVtEULuU8e39c8NvRyL6gKhLlluSikOJ5WVhY3g+tLQfMSg4YFAA==");
 
 export default ArrowUpFromLine;

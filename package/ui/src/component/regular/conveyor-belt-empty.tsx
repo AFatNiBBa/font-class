@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `conveyor-belt-empty` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/conveyor-belt-empty?s=regular conveyor-belt-empty}
  * @preview ![conveyor-belt-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/conveyor-belt-empty.svg)
  */
-const ConveyorBeltEmpty: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112 336c-35.3 0-64 28.7-64 64s28.7 64 64 64l416 0c35.3 0 64-28.7 64-64s-28.7-64-64-64l-416 0zM0 400c0-61.9 50.1-112 112-112l416 0c61.9 0 112 50.1 112 112s-50.1 112-112 112l-416 0C50.1 512 0 461.9 0 400zm128-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm160 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm224-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const ConveyorBeltEmpty = createIcon("conveyor-belt-empty", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABggAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCFwsGAAE2AiQDCAQgBYMtBzobIQXIFqGS8/C83WPnvpkfgBNJla1VCVXplkUftGvN/+We3/OjA/x8B354KGPb1PPtezSfJ5AGVjY2lUgWZoli1s4u9b/pB5I+wScZNoZNapE7Qx5/xwUl0s30Fc77D42v1XeEpJQBiGoAGDZ98iTPX8bLiC//f5/40gQExDBQCGTI0EiAgTKBRnIFcrngZfz/P/0HFgQQZcjLEshRFuuwDZCDpJTnderWFLNiqXI+LdxfYfqTthFv1rvZ7q1WleONDu80vNX+7daVptzvEPFOn8rxfg/T+E7bN3tWig/2azL9dO2Iqw7UulLhVJ1rcbDu9YpTIUcw2cxR1cTezd+u9va3zb5a9pX16x9Up3qFCtWrP3hAOdqyfkjV//j+hwd++P6/quDh29+0yglOVIk5mnS/xnvxPBAIXlRZ89H8qgN/LVcxgdeffP9betz/z9OB9DbKSSDIOv7f0Zx0ABw6ACfFNs2NLwoky5TIu1ZyTYBQAQGSMioIkGmomgC5CjoIUNJELwHKqGCyTOTlhVrmKkgq2Qgyve0FuVreBSUDfWqXUSuyc+yNYZ98SaNLaNS6olvnrkX/YpjL3DWiLQ8oppW227jXDjsts946Wyy1xEpbCmSTSd5Wa4224FF+qNBNZ10V+iuWq+voNEttstnKPr++ygDFfqOtbfbkdtATIexuY5KIVPPfdnTn+k2dFi1ds6XT8Qc=");
 
 export default ConveyorBeltEmpty;

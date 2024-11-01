@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snowman` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snowman?s=solid snowman}
  * @preview ![snowman](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/snowman.svg)
  */
-const Snowman: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M341.1 140.6c-2 3.9-1.6 8.6 1.2 12c7 8.5 12.9 18.1 17.2 28.4L408 160.2l0-40.2c0-13.3 10.7-24 24-24s24 10.7 24 24l0 19.6 22.5-9.7c12.2-5.2 26.3 .4 31.5 12.6s-.4 26.3-12.6 31.5l-56 24-73.6 31.5c-.5 9.5-2.1 18.6-4.8 27.3c-1.2 3.8-.1 8 2.8 10.8C396.7 296.9 416 338.2 416 384c0 44.7-18.3 85-47.8 114.1c-9.9 9.7-23.7 13.9-37.5 13.9l-149.3 0c-13.9 0-27.7-4.2-37.5-13.9C114.3 469 96 428.7 96 384c0-45.8 19.3-87.1 50.1-116.3c2.9-2.8 4-6.9 2.8-10.8c-2.7-8.7-4.3-17.9-4.8-27.3L70.5 198.1l-56-24C2.4 168.8-3.3 154.7 1.9 142.5s19.3-17.8 31.5-12.6L56 139.6 56 120c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40.2L152.6 181c4.3-10.3 10.1-19.9 17.2-28.4c2.8-3.4 3.3-8.1 1.2-12C164 127.2 160 112.1 160 96c0-53 43-96 96-96s96 43 96 96c0 16.1-4 31.2-10.9 44.6zM224 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48 128a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-16 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM288 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm-48 24l0 3.2c0 3.2 .8 6.3 2.3 9l9 16.9c.9 1.7 2.7 2.8 4.7 2.8s3.8-1.1 4.7-2.8l9-16.9c1.5-2.8 2.3-5.9 2.3-9l0-3.2c0-8.8-7.2-16-16-16s-16 7.2-16 16z" />
-    </Icon>
-);
+const Snowman = createIcon("snowman", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABpQAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iCfwsGAAE2AiQDCAQgBYMtBy4bfQXIjtRG+UVmBEXpsp5d3bHNOvuM8gMgR8CQEWccIqRfnxEo99+B/+eaelF2dIAf5EQPJXJdIAUSEbw3gYk0VvpoIMPZRHHmmU6rVaXC2ExXkUbEHs/s8doeOLph1xAAs8c8BjaND9VnkqwBQ8QCAKB0AACgZf/eXbn7QR+kR/4l0CM6AwJQSwA8BFjAAgUIgCZYBBTg4AEODoIP8v3yH+iBAEBBaG8DgANEgIPAeQB4NhhCjtM7gvcnYoEUp18sEB2/3d3hNpa0r/yJJCqvU8k9ZTqoj7Znb3dv9X3SZHs0qrWJ2/2eN9+V2Jnop046mb+vbFnzXR21K2dXYq8OVT5X/1LFM4UrcvvtytmZ2J69w+17ik9nn0YVUv23aIBY4Sa1I7YuJ1+7JEmvLnU2/eyXksfjHtOnVtm656Z/pQJuz55uNhNpt21Mw/l0KCalidvmr9qpzZt/7k7cf2/URu3+tnGbpGxy59No9LZ2E8n2rKqAw/Bzdcsezw2fPbtixcEP5x6fU+VDauoHpvpydQbTunOXnynf/cPShkDWCjKtzVxBVsAiPQ8AAgQLX3b4OTytybdwzADw6fo/rwt9fiZgzgJhDAACW8WvwhCDgpiAoKTRPErhmxBg2EkIWOLAlRFRmGAIEgVLPungEKUyBCiirmyc3xuLnAgim6EAQ5yZYKnHUnDI5gIEaMK9ZJBs2ThVo0z9TczSbsXbzvJqVqvhNfK2ZbcWenIfb+yZPRXm1baKWMs4pjONOYxlDBOZs3Cz6JqZy1TaaWxbfohHTapRA49GeO7a3NIvJWcxm4myE/80jfHeT1Rgnt67IvwGEqxFlsGATOjzj04dOQ0AAAA=");
 
 export default Snowman;

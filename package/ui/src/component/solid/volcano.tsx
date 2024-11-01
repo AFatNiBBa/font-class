@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volcano` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volcano?s=solid volcano}
  * @preview ![volcano](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/volcano.svg)
  */
-const Volcano: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 144c-35.3 0-64-28.7-64-64s28.7-64 64-64c15.7 0 30 5.6 41.2 15C212.4 12.4 232.7 0 256 0s43.6 12.4 54.8 31C322 21.6 336.3 16 352 16c35.3 0 64 28.7 64 64s-28.7 64-64 64c-14.7 0-28.3-5-39.1-13.3l-32 48C275.3 187 266 192 256 192s-19.3-5-24.9-13.3l-32-48C188.3 139 174.7 144 160 144zM144 352l48.4-24.2c10.2-5.1 21.6-7.8 33-7.8c19.6 0 38.4 7.8 52.2 21.6l32.5 32.5c6.3 6.3 14.9 9.9 23.8 9.9c11.3 0 21.8-5.6 28-15l9.7-14.6-58.9-66.3c-9.1-10.2-22.2-16.1-35.9-16.1l-41.8 0c-13.7 0-26.8 5.9-35.9 16.1l-59.9 67.4L144 352zm19.4-95.8c18.2-20.5 44.3-32.2 71.8-32.2l41.8 0c27.4 0 53.5 11.7 71.8 32.2l150.2 169c8.5 9.5 13.2 21.9 13.2 34.7c0 28.8-23.4 52.2-52.2 52.2L52.2 512C23.4 512 0 488.6 0 459.8c0-12.8 4.7-25.1 13.2-34.7l150.2-169z" />
-    </Icon>
-);
+const Volcano = createIcon("volcano", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABdwAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBfwsGAAE2AiQDCAQgBYMtBy4b/QQRlZq3yD4SctOoV3Y2wok4EY038fC8XV/nvqoeVPena0iukUER6FDOwCBjOooWWQfA3988/+dRgM8otLFwaSALfM7zBAJv+/cG+BfKNACMLXUbS4ZzWRORIXhEDPGhiBjy+CK7V4X0bPoZD1ei4owe95KMzABEMwBWHdizzbd/xp8RP9U/Ej/ZgoBYBUqBDDv9AiyVCYohVyKXC/6Met3/gaUAYhh+aAI5KjiNqwE5SLI8n9DXXa005PurleLIW5Mj3ut9fsr7E+4f9/6Cjya9XX1z0rs9z0x8Z+x946fGE8V9ndPjjWLvkoVLnq7eP2lSPFm9v6sr9sdTRRH3te+NrgPvL6jGR5P2xZPubH+iqMVbnU/13tV1YPR7ze+dG/XzpT97ecYrLbQURUvLK92NU2fNmtrY/UqL7nXW6h5obn6gXuts+u0/3N4ytK/+bGPrSy8tXuVCx2QdF5astrr1xK+vTPbKr0++82t75/nznc/Yee73SrsdBoHgml2x/ETT0n9GVBP4+/ML/7fXqP5tkt7DCAkE2dT61KMJJAIAkOJWoxMEksMyJLXmKQFCgQDJMIUAmT7NAuQKUwSoGDRPgGEKe2QiHym0OzYgqbkBMvPdBrl2H0DFUt9Zw7RHlmd8lvDfvBS4XtG6oXLW9Jnl4nLp6ULqsNZdUm6rE28tmUnYdel11958ycVX3Cz0jdvcW65ZH1HrHixnTZ9ZLi6Pw+f1/ZfceNMV113rfZaU982Jt8blk2AkZJw9liQiDb/1uqufvAAA");
 
 export default Volcano;

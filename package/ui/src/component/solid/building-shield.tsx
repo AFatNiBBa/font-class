@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-shield` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-shield?s=solid building-shield}
  * @preview ![building-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/building-shield.svg)
  */
-const BuildingShield: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 48C0 21.5 21.5 0 48 0L336 0c26.5 0 48 21.5 48 48l0 159-42.4 17L304 224l-32 0c-8.8 0-16 7.2-16 16l0 32 0 24.2 0 7.8c0 .9 .1 1.7 .2 2.6c2.3 58.1 24.1 144.8 98.7 201.5c-5.8 2.5-12.2 3.9-18.9 3.9l-96 0 0-80c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 80-96 0c-26.5 0-48-21.5-48-48L0 48zM80 224c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm80 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zM64 112l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16L80 96c-8.8 0-16 7.2-16 16zM176 96c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm80 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zM423.1 225.7c5.7-2.3 12.1-2.3 17.8 0l120 48C570 277.4 576 286.2 576 296c0 63.3-25.9 168.8-134.8 214.2c-5.9 2.5-12.6 2.5-18.5 0C313.9 464.8 288 359.3 288 296c0-9.8 6-18.6 15.1-22.3l120-48zM527.4 312L432 273.8l0 187.8c68.2-33 91.5-99 95.4-149.7z" />
-    </Icon>
-);
+const BuildingShield = createIcon("building-shield", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABrwAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDOQsGAAE2AiQDCAQgBYMtBzYbvwXIhuBp7ct6PbM0x9THzCphjwhyVcIWFbk/cc3zP3/68zR6lO9tGNnnEWVroImFReJsDzIbRoniFrddNQkqobHQ2EEZ3xfXqyPdlb7FDeVG43fdXE/SVACItgCYu3n9Sh/+Er9EfFN7jfjGcgTEXJAFChToKcAMhUBPpYxSKfglajXxH5gJIOql8yVQosLb+ApQgqSxLKe1bd9eRnatWtS1KjdJoarini4RdwxuFY91uq2bmBJVdWtHIcTVrnHf2JdW3lpVEXF359sHPdrx1q6iisd7Xfdi45l3b+vUIu7oEnF752qjMJwet3bcpGvbfN668Y5OG3cX3Nfz3hHPLrm189ejnu99fx+l2bxxUxZOfDP6hT79nm779J99vz30rRuL7/hhTDbmh++KB9xoUP6lddZVowjRcvHm49dVe6xxhhS0sK2xR9E9uPqFQ87Wv2QYXt0m51xkrf3uq6Y9nm5zZfXHz1533eXRmtt488nPmjddd92m5s+efFObZm87vHHXwHypd3XfurQzEAjeX/L/v7vbzPinsUUCv7399//ldLX309z0NBolEBQjaiPsSHOo1XYmBcSX4pJ++J4Ekpc1Stfa0u0ChAoBknqVAIUe2gpQqgwXoE5vEwWoV1mvEGWT0NHOHk9aOosXJrkCL3X0Cl5nhi989TpGAcQsCLL/kEkWjYGFs/LYUWPytLyZ1Di4pG3z9HxaOuSSLBqKlzrktFMuOOiAoy6MoHNWBi86adEeuNAPZWONMkY2Tb6deT5/k4POOe+o0075fqbL7xuHuLRfeShWJIlwnLgkEanNZx478vyRowdPHAAA");
 
 export default BuildingShield;

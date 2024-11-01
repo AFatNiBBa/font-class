@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `display-arrow-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-arrow-down?s=regular display-arrow-down}
  * @preview ![display-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/display-arrow-down.svg)
  */
-const DisplayArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 0L224 0l0 48L64 48c-8.8 0-16 7.2-16 16l0 288c0 8.8 7.2 16 16 16l175.5 0c.3 0 .6 0 .8 0l95.2 0c.3 0 .6 0 .8 0L512 368c8.8 0 16-7.2 16-16l0-288c0-8.8-7.2-16-16-16L352 48l0-48L512 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-147.7 0 8 48 51.7 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-72 0-128 0-72 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l51.7 0 8-48L64 416c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0zM260.3 416l-8 48 71.3 0-8-48-55.3 0zM312 24l0 182.1 39-39c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-80 80c-9.4 9.4-24.6 9.4-33.9 0l-80-80c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l39 39L264 24c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const DisplayArrowDown = createIcon("display-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhQAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCNwsGAAE2AiQDCAQgBYMtBzkbQAXIjsO4mRvpojlG8RAP3+t8O/dJ/pPIYVCYucJlpBaoxWq3dTM/fQX8n2vqxfOjA/x8J34o0Xa9SI60iHq+58MBn82inyf4cDZR3LI5zC/iobHQfoQ8fozrVEi3J7g2fGj8qa2LSCoZgGgCgCmrli3w3m/7LeLL2svEl+YhIKaAUiBDhg4CjJcJdJArkcsFv0WtJv4DSwKIOun7E8hRwVlcCshBkuX50vodqpWG+cpqpVhXLaqiiJtapLi5ZTXOc5kU39o6i1taFRGD98N9Hm+b4rbej3UvouNUb3ub2754pN2dvarROYp4pO8T7bK4s9+TvdZ06NxhiXTaYp0wKR7tcXub5fFQz5VxR3sanxAR59mbd+r6RJMn/u5iJ5Peve+++wa7z2+NSo1+ew5sBs9R8z5Hufc1bVqUisr7vpucNdySli2XzP4MrQ531k3Y/+G9Z1PabGeNHnbpK0U7NWz43XdVc4JNWPLEnV7RcsmSlkAguKr1D9veePx/9aoJ/PHGv//jN9feS5PTE6gngSDrX+tvfZoMghpAMsVJXQ++KJCckknv1cAtAoQCAZI6hQCZ9poMkCv0g4pORhxRp7BMJvL6QgsbDJA0cAQyI52GXAsvQsV4nybqtIgMBkUIEn8B02ZO8RnryiEDB5djy92GTgIr3i6OKy8bvU/KgT54o50OOei4Hbbb4/iEPGpB+oQDZh4RM/xQaYiBBiuNVT5uv9RW0uRRx+zZlp8vM075faS3k8fj+2A7SRmHqkoSkZpF08IBW44ePXRqQOwEAAA=");
 
 export default DisplayArrowDown;

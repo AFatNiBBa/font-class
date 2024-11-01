@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-simple?s=sharp-regular link-simple}
  * @preview ![link-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/link-simple.svg)
  */
-const LinkSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 256C0 167.6 71.6 96 160 96l72 0 24 0 0 48-24 0-72 0C98.1 144 48 194.1 48 256s50.1 112 112 112l72 0 24 0 0 48-24 0-72 0C71.6 416 0 344.4 0 256zm576 0c0 88.4-71.6 160-160 160l-72 0-24 0 0-48 24 0 72 0c61.9 0 112-50.1 112-112s-50.1-112-112-112l-72 0-24 0 0-48 24 0 72 0c88.4 0 160 71.6 160 160zM184 232l208 0 24 0 0 48-24 0-208 0-24 0 0-48 24 0z" />
-    </Icon>
-);
+const LinkSimple = createIcon("link-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABagAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBXwsGAAE2AiQDCAQgBYMtBzIb4QTIrgZsYzi5IRqKetiKePz+xZqHrJSFX5b3jIf6pXu7949yCb14UFW1LukKI2IUElQTFmWJZHwGixH4H+Pq/ZUb+GeTFYUktN2j2rWLTW6uUigX6l0/LCiIhZLdwcSnw4WUpVZcn8lM4vphCN4fMuQWYWIeQfapU89zHgrgW8iCtocunSChOc8jEPBuD0awtWKtVEGuect9mqQZPZJMNEmP3/b4tUOJ93hFTX4KHsALv2n8MdpBqisAxCgAcPTYqOPqJ72I+/99iG9VEBBHgFWEChUWEdglFFgksgqKIujR/3/6D2QQQPRBniNBQY1r8ASggFQVkd2VSrFa1G7VCno+ILrs1EI0ij3ntkzXian9T/sXbT+7RGfNNURK5aHn2pdbcXXice+8dWWjRNBxh3T67cMYV3TSBd1sLmcThsvMn+BK3a418jB7z/qqM97QAPGTzrQ5O7tPlgDwe0I/kIf5BQYkCKr172WYh8YmAgkytjjwQYF0RQiv2vZGgNAgQOrTCFBZoEOgaKwhUFsWQ6BP45ZQFDnCpNEEqa0DKju2QTFpF9R2Xft9JkMYV2RUkN+6uIKG8lvc/EFO8zYxqFDByzLDx1psUcOFh5iybMmGibFZGwpZU482LSpYcN4XsRC/IJbG1/nr7baJNetmLVuqazL4veW0Zfe7YAoI5oZYSiKV7iv6XBM=");
 
 export default LinkSimple;

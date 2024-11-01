@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-middle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-middle?s=solid message-middle}
  * @preview ![message-middle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/message-middle.svg)
  */
-const MessageMiddle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M343.5 416L448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l104.5 0 75.2 90.2c3 3.6 7.5 5.8 12.3 5.8s9.3-2.1 12.3-5.8L343.5 416z" />
-    </Icon>
-);
+const MessageMiddle = createIcon("message-middle", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABVQAAAHRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBCwsGAAE2AiQDCAQgBYMtBzUbkATIngVOmT0a0VHJo4lomxrFbxo9pFc8//0aeu7bvyF2gJJIsdBhYeOiVBRV2CpbYzK11dXrE+Pe96kEMwqJmNWgUoy4W3JjyrvVJfMiYQbogv/P2Z7v+WiA32ho96ED2Q1yX7hVAon18oGnPQ8s0wQsa6enGPS6VfqUTzJMumFzQssTKfTULyLw3j40/4jtUMY7AGQOANw+FQt430/yMzySP3IgkFsAGwjo0GEFAVwgCVaQbYCmCT+GIf8HqiBARoA3L9DQYQccAWigpJG1kz2HXGH1zEHWBOvaei8lZc9yZ2DnwnQjImbXfKtnpUz4YC2sau74d79qI1TXxxA9EQiYG5hxd7JhvHYc2Rf4x0YTuToAQXh9ih12eRf/xyaJgL/9/dNf0fBe6jcYUyB0u4NNq0ARAEBlBZqCoGwjgj3l89SPCRKUERPQWcaHZsIO9Nb4T4yYcIckjYFY0hagTHmDzrlVaJY8QO/ChzNiKR1bqLemPmvxSYsk7qncDpcqolpmOk0Aom6jqm3dtFI6ZnmKEbNmLBk2ZNySwRYU/GXTkh6a8EUqbg4uKhGq4/L5ccWwBYvGzZrRW6JU922TFX/cLBYRcI/FSpHickiyExMA");
 
 export default MessageMiddle;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice-six` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-six?s=sharp-duotone-solid dice-six}
  * @preview ![dice-six](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/dice-six.svg)
  */
-const DiceSix: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32l448 0 0 448L0 480 0 32zM96 160a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm0 96a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm0 96a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zM288 160a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm0 96a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm0 96a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M128 128a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm0 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm0 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64zM320 128a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm0 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm0 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
-    </Icon>
-);
+const DiceSix = createIcon("dice-six", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAAB2QAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQiELwsIAAE2AiQDCgQgBYMtB0wbTQbIHgl2rMVGhI2b4uH/1/63z9z5KogPJFFJkFyk0axCwpuX8BbRIpH1ktT9Pf7/51zPh+MBfh5o09C2i0hv8Exr0AKMpgpKwgNphiPkG3Q3KNAv/LeBPJ6l8yrInmQ/cEv/H8D4rYvzZGoSgGgGwLRF8+b6VIpSFj/Kr4kf5iAgpoNCICGhuwATJYHucgVyuaCUlSlFuSCAqKTfLIFKNOEf/gNykKlUledtJlrT5qmraMgXut+9dtnV9oj7Tnd4UHet06M40/FhrTzNIva6pIb6hizqIy2QSiJ481fb74NoFrH3kD4vm1/+7f1j4w+npjRe5nJj42Un/9WwLB8/DrJ7+smUo7+26tTCp4NA8OC+VjVN/Fddl4Gfb/4lOLpcik/ZS1TLQJAGlgdaHp+A4QP4UFkc1Cc+WY1AckwVc369hwKEWsQaVdcmkHTTDLlaA6BCT6P4jqPnSSKvEdqtgJCptweS0U5Art0rqDDRZ1+l9kgPgOjyFf1/Jp+dRWZ1KoYNHlqML2pDIvE1zSulE4rO+r4HeUo/ONNGu+y03wbrbbE/g+01N3jADrObiLPuWxhmsKEK4xWDoxflCzO+vfbZUi0d3sgExfTuvg42Z+8HTRmTc7g+SSKySM2fuOCgfVsOD3qStK056T0DAA==");
 
 export default DiceSix;

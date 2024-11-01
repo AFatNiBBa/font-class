@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-hushed` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-hushed?s=regular face-hushed}
  * @preview ![face-hushed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-hushed.svg)
  */
-const FaceHushed: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm176.4-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm128 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM179 160.9c-21.2 2.8-40.6 12.4-56.1 26.8c-6.5 6-16.6 5.7-22.6-.8s-5.7-16.6 .8-22.6c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1c8.8 0 16 7.2 16 16s-7.2 16-16 16c-4.4 0-8.8 .3-13 .9zm141-.9c-8.8 0-16-7.2-16-16s7.2-16 16-16c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2c6.5 6 6.8 16.2 .8 22.6s-16.2 6.8-22.6 .8c-15.5-14.5-34.8-24-56.1-26.8c-4.3-.6-8.6-.9-13-.9zM256 336a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const FaceHushed = createIcon("face-hushed", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABngAAAKaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCaAsGAAE2AiQDCAQgBYMtBzIbagXInoNx41xiLkRmpf4/X7tMKeUPaxEP36+9nvt2NwAskwKBI3IEsqxTh+yASFZmfO2f2urqPX6/eQ9Ipp7VEzSXBI32QyNRoXqCLS010sQutsk3vBMhVY5EtUgqmkliE5Fknkyvr4Tdsg6KdOpUzTjPBnyPeFDGtkkLZEzKhdI5zitQwOr7eyuywGtaAau6KX0iKEofEZGgrhuy4+uOcwjy+IVcKEj3cBeIK+Wp4h/GhqTIAEQLALByZzENL1+oREyUI2KCCATESoARCJlABiCwBF5gBAQjQC4XVKAs83/gCAggquiHJ5CjFjdwH5CDpDrP+/tZLAaDUl805jvqi7r9Z6wQbxOnuvOxw5QejE/tx4/1F5Ln6UNE/lkN8Xvjvf5C+rpyt/2zYrvuUnc+c1u136FiHIhbMN4REh1uzE14CUmOLkSQlyOIlfUhN+Z1fd2IE7IdtnpPNumRIXoot6ONidITQZqfUjeEGVFWxx3onQ/2cujivgmswdsGYv58UsPbe4BGgD8ItfR+euX5108CzNo8pt47GX0WnG2qMjCKoETWcOOMNY52t/Vd/77vse17fYxVkFWqN12EhlR79Ml7BtvfFr+ql7/bPSfXZwn3AwgEz2rtlUZb8h8lEvg7//rLz0i5TdJLoEYCQTalnKKaQCIAAClOUyYIJBdU02dtcFuAUIcASZU6ATL96BDI1ZkMgcIQDwSq1NkKL/JaoUNtgKTBMZCZZw1yHY6gsMRbVqUjMufUXUv/NcyJMBm+Jp9ptcuD8stRN/xNTech+WNvdBnWDAKBppGhuYa6TpNJmEqXCwMRiwr7IjkHKzu5IPnx7NmpUDY109lb55eEyN9P9Zb2boOEOCo5yyBJRKr/8ruWI2btRh0=");
 
 export default FaceHushed;

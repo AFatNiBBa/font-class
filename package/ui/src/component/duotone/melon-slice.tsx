@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `melon-slice` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/melon-slice?s=duotone melon-slice}
  * @preview ![melon-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/melon-slice.svg)
  */
-const MelonSlice: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M16.6 385.2c8.3-2.7 17.8-.8 24.4 5.9c96.9 96.9 253.6 97.1 350.4 .3s96.6-253.5-.3-350.4c-.8-.9-1.6-1.7-2.3-2.6s-1.3-1.8-1.8-2.8c-1.1-1.9-1.8-4-2.3-6.1c-1-4.3-.8-8.7 .6-12.9c-.7 .5-1.3 1-1.9 1.6L321.6 79.9c-3.9 3.9-5.4 9.4-4.5 14.8c1.9 10.8 2.9 22 2.9 33.3c0 106-86 192-192 192c-11.4 0-22.5-1-33.3-2.9c-5.4-.9-11 .6-14.8 4.5L18.2 383.3c-.6 .6-1.1 1.2-1.6 1.9z" />
-        <path d="M7 391c9.4-9.4 24.6-9.4 33.9 0c96.9 96.9 253.6 97.1 350.4 .3s96.6-253.5-.3-350.4c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0c115.6 115.6 116 302.6 .3 418.3S122.6 540.5 7 425c-9.4-9.4-9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const MelonSlice = createIcon("melon-slice", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgwAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiBbAsIAAE2AiQDCgQgBYMtB1IbEAXIHqmd/iqhN5SWh+ftnjz3zSzgWZsdVJElWKLaikhcxa1QJj/+8/Y+f/4vpzee3wb8IHduazcXtyme83kCPY+iuS2RAsoyxd4m4pskdg1CpEV0PGEdX9n5jC6Qx+fZEWVIV9J7nKL/AYyfNXCEpEIGIKoDYPjcmZM9/iF+SPG+9JB4bxICYgQoBDJkaCzAIJlAY7kCuVzwQyrxQ5QKAoiy6MUZKIscc7AKkIMkRJ4371ypTJV8Dh1QseXt1h/Gvxj7auYXLa+3uD/iaiNZ/Nnsr2Z9Oe1TF5rz9QzI97xU57PRzdS1GQfrBujivLhY72jtaXG+zgVj6lHFi8Va3Kt+79fm79e8t65KlWo//M44/6eq/vHppz52teYE9F+9m1w179ZKVH12t/r3U5/wXxComdWtEz6YXb5rjZg+e/b0qPHXgdnfEEAgGND17S9Lqw36t3ylBH569Pvf8clLUoV0D+UlEGSdSp0sSgaKIwA2pNijxXepIZDpLOF3reyiAKEiAiRlVRQg00h1AXIVdRSgjKZ6C1BWRTNlIq8g1La4gKSy7SDTx16Qq+0BKGOQV+myakdmX6J1iL+7tDGio6cV3bt0KwYUzbIsmQyP4wOLaXe7PWlrD0utsdUWu6y2ynq7YHaYnNttszE9bLQfKnTXRTeFAYrl2lqbQ3qHndbXlfVJBir2x9vZ0+/dHmaTAD1OZk1GpMhqbV69aeuWzg/Z6nxTO+po5VICAAA=");
 
 export default MelonSlice;

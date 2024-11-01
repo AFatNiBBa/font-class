@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signal` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal?s=sharp-thin signal}
  * @preview ![signal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/signal.svg)
  */
-const Signal: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M584 8l0-8L568 0l0 8 0 496 0 8 16 0 0-8L584 8zM456 96l-16 0 0 8 0 400 0 8 16 0 0-8 0-400 0-8zM328 200l0-8-16 0 0 8 0 304 0 8 16 0 0-8 0-304zM200 288l-16 0 0 8 0 208 0 8 16 0 0-8 0-208 0-8zM72 384l-16 0 0 8 0 112 0 8 16 0 0-8 0-112 0-8z" />
-    </Icon>
-);
+const Signal = createIcon("signal", false, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABZQAAAHKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBdQsGAAE2AiQDCAQgBYMtBy0b8gTIhqBaI3v27hlDl1cBRgVMDsixImHfJqzigIX8iiVQOHIq93Gp/qnUVLBo59PF+vm+/+IVGA5sGX974LPhbKI4a6eXmF4/KIlPuSTD+IbJCfL4bbsS0u30Ctfyh8YHHS6SZBmAqAfAzFXLlnrSEz0RL//fI15ajICYCQqBDBl6CzBFJtBbrkAuF/TE///xP7AggCglL0ogRxk2YAcgB0lJnjdIWFVSk68slcpjISoDkHZXRUS2vLKqcqwRsRwigOjJx3Z113d/6v9q5yvzH5SXl9cr91W5ip9ZVV9fz7quXD3/zC6MjEBGIO+Ad9amCTos+7tBIFh1qeP5propv8qrEnj/+MsHd3vX/ydpQepGuQSCbMj/Idans7pMADwBcCHFSV1fNUEgWaGEvGu1GwKESgRISlUKkOmlXoBcpcEClOhrrAClKi2TibxCaLahM0m1I0xmnFNMrtkdpsQUT+NSzZGZmGwg8g8vY56G5m4rRg4bUUwqlh1NsRoRbk4utu0BJ9PEQDpop0MOOm6H7fY4rrCjlmYnHDAPoXP9UGGkYUYoTFIc95/3r7TDUcfscchBrjNZcT8Y4CSeP5C8RARHaUgSkUpfDw==");
 
 export default Signal;

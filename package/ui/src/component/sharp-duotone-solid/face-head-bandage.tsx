@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-head-bandage` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-head-bandage?s=sharp-duotone-solid face-head-bandage}
  * @preview ![face-head-bandage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-head-bandage.svg)
  */
-const FaceHeadBandage: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M59.8 372.2C102.2 455.2 188.5 512 288 512c141.4 0 256-114.6 256-256c0-8.2-.4-16.4-1.1-24.4l-15-4.5C451.9 204.3 371.4 192 288 192c-14.1 0-28 .3-41.9 1c-9.4 5.3-18.6 10.8-27.6 16.6c12.7 4.2 21.9 16.2 21.9 30.4c0 17.7-14.3 32-32 32s-32-14.3-32-32c-40.5 32.4-76 70.8-105.1 114c-1.2 1.8-2.8 4.4-4.7 7.5c-2 3.2-4.3 6.9-6.7 10.7zm40-289.8c36.2-7.2 73.1-12.4 110.7-15.4c49.3-24.6 102.2-43 157.7-54.3C342.9 4.5 316 0 288 0C213.6 0 146.6 31.8 99.8 82.4zM235.9 347.6l15.3-4.8c13.4-4.2 28.4-6.8 44.8-6.8c44.2 0 77.2 18.3 98.8 37.9l11.8 10.8-21.5 23.7-11.8-10.8C356.4 382.2 330.8 368 296 368c-13.1 0-24.8 2-35.2 5.3l-15.3 4.8-9.6-30.5zM400.4 240a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M476.2 82.4c-16.4-17.8-35.3-33.2-56.1-45.7c-41.3 5.1-81.2 14.4-119.5 27.4c60 .8 118.7 7.1 175.6 18.4zM506 121.8c-32.7-7.9-66.1-14-100.1-18.3C367.3 98.5 328 96 288 96c-23.1 0-46.1 .8-68.8 2.5c-51 3.7-100.9 11.6-149.3 23.2c-14.1 22.8-24.6 47.9-31 74.7c19.1-5.7 38.5-10.8 58.1-15.3c45.4-10.2 92.2-16.9 140-19.7c16.9-1 33.8-1.5 51-1.5c86.6 0 170.2 12.7 249 36.4c-6.4-26.8-17-51.9-31-74.7zM177 199.3c-43.4 5.8-85.7 14.9-126.6 27.1c-6.2 6.7-12.3 13.5-18.2 20.5c-.1 3-.2 6.1-.2 9.1c0 28 4.5 54.9 12.8 80.1c35.7-52.9 80.5-99.3 132.2-136.7zm41.6 10.3c-14.6 9.4-28.6 19.6-42.1 30.4c0 17.7 14.3 32 32 32s32-14.3 32-32c0-14.1-9.2-26.1-21.9-30.4zM368.4 272a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceHeadBandage = createIcon("face-head-bandage", true, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAABwgAAALzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDMwsIAAE2AiQDCgQgBYMtB14b4wVRVA9yZB8J1a27mBEZSXIYl7FGXh38Ii/yFg9f+/3O3d2PiFdLmvBK1Eoje6k0yzTvhMov4Q0RMo2Z93/+vd0JNIkfEk9sdqArsIO16vb8dqF2/+eaegHSgF/8/FCyV+ENnvl8Age4SE/aQKfjzdh2te42HfwAQ+F0XqDEf27QID2mJnCr/gcwfsloIGnPAKIPANg9CfWHwyqqFM16lWjyAwJiD2AOQkbGFAQ2cAtM4TEHFEVQpbqmirqeAwFEC/XRGbSgEx/4AqCApKGU0jrcKTI4j2UGMW93Oe7k7Th71jn1egvXP/c4F1psM3sNW5af0/wQOYfbw6cMkl69BqgaqFH4EGk+rVZDD+J2dpgd0whvZxEaRrXMkFAbNUANVq6OPPJH6C78Q+CD60kkyjDoHSNqmRmZmkYhFjoRzGOYZB+MvfD8ELku1GZ1aRfNUuwcXlOfoWmkhRg0pDErSxSFZCMHJBDC7zXMDuN2ehBUFsUXvynfZtzCl/zWr+/10RAm8Y7Vh+1UJX15vCSchy/OXUU9eWpk6ypUh529/JwEnlrbeHh1zswD/a3G4h1FW1pERdySCGMxYJ8GAFgrSe6zYOsrOgOw5gueUNsrIw2ewpgDJSqVtNOHSwu+bg8c6jpJUgBSqprK0Q3eaiHicTpW/xrqzYIcdamFDLS1/d8WAVuwY6UlS3EM/up8yl1HW0Oa5HUgEEzs9/klitn9teEEvj9//ISPk/owzaVFtEkgyEu1nrjkhCAtURBQlRQ3VOC32EHITvEyxS53o+uhgxSSFh2QTRKHosMiNMwwl3ruP8AtSrswJB4g6XIO2bpKKIasQMOGi0qLoeDehZUdULmDzPTI4+5RxNjAiNiQxoZY3SslvmhLeodaFXhAG85ChkIFyqRLk60sx5bwr5fL59HGdf8uYcyAEcIGGd2+bEbkMiVKsVSvj1/GFpm/qKWifbw2JLgY3mUbskykyONHiP5PXVv/qmVkZtQDYoxcrb75AwAAAA==");
 
 export default FaceHeadBandage;

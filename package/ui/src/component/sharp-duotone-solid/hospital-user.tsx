@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hospital-user` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hospital-user?s=sharp-duotone-solid hospital-user}
  * @preview ![hospital-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hospital-user.svg)
  */
-const HospitalUser: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 0L320 0l0 359L253.1 512 0 512 0 384l144 0 16 0 0-32-16 0L0 352l0-64 144 0 16 0 0-32-16 0L0 256 0 0zM96 104l0 48 40 0 0 40 48 0 0-40 40 0 0-48-40 0 0-40-48 0 0 40-40 0z" />
-        <path d="M432 352a80 80 0 1 0 0-160 80 80 0 1 0 0 160zM576 512L520 384l-176 0L288 512l288 0z" />
-    </Icon>
-);
+const HospitalUser = createIcon("hospital-user", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABdAAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBZAsIAAE2AiQDCgQgBYMtB1YbDAXIhoev/Xo7t/vNVP5AEF+iAEERgQPyiQL2iGpclsqv/LWS1brA/1xTL4MO8PMRHFosQ5sicZj5fAJ7A6u0punIpzO0+b/zv+OK+mYkSZ+kN2zHML4rFPE1X1Mh3Um/4Xr6H8D4Sx/XSNoygOgMgHnrVy/Vao/2FL/9eEv8ZgkCYj4oBTIy+gswUxbor1CiUAja048ftMePHyUBRFXiMk9VfWQVtgEKkCSpKJpt/frUK81iXb1S2/1hzIvRzye/Hfl01LNJa9eZBbVYE83cbDRTKa1FRL0emqqV57VCPYTggdcQVwx53PnxP4N/2/ebF9tb59avP9eyyeuPplwM/peQUmrNdRf3m3/bN5fc6FzqfGNujNu+fyzmHGqoseR9EAh+KX5/uL3TzP871BP44/N/f1Iv/2iluekxOkggyCN/jLQlzQWoA/hRKc4ZkuZGiUA2USKXGm4KEGo0SKpqkPXTGQo1I6BioEmXq2pWy6JoE7rb2iBpOAnZZOeh0N0bqJjpS6aqe2Rumcww/+xyLO7xRbPKcaPHltPLZUW10EX3kzPK48DQc7ZjGA7a57hjzthrj4POdMopS/NnHbV4Jy/yRaVxRhurNF15XX90rJPMKacdnNvup5mh/D4y1Ll9/2EIJ1lzvC1ZJlLkHlx1jmKlZ9Qz7dFrYnuSAAA=");
 
 export default HospitalUser;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tank-water` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tank-water?s=thin tank-water}
  * @preview ![tank-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/tank-water.svg)
  */
-const TankWater: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 48L279.4 48l-9.8-16L384 32c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l114.4 0-9.8 16L64 48C37.5 48 16 69.5 16 96l0 240c28.1 0 54.3-14.7 74.1-30.3c11.5-9 22.5-19.2 31.6-30.7c1.5-1.9 3.9-3.1 6.4-3s4.9 1.3 6.4 3.3c8.5 11.1 18.3 21.4 28.8 30.7c17.8 15.8 39.8 30 60.7 30s42.9-14.2 60.7-30c10.5-9.3 20.3-19.6 28.8-30.7c1.5-2 3.9-3.3 6.4-3.3s4.8 1.1 6.4 3c9.1 11.4 20.1 21.6 31.6 30.7c19.8 15.6 46 30.3 74.1 30.3l0-240c0-26.5-21.5-48-48-48zm48 304c-33.4 0-63.2-17.3-84-33.7c-12.4-9.7-21.9-19.4-27.8-25.8c-5.4 6.4-14.1 15.9-24.9 25.5c-18.2 16.2-44.2 34-71.3 34s-53.1-17.8-71.3-34c-10.8-9.6-19.5-19.2-24.9-25.5c-5.8 6.4-15.4 16.1-27.8 25.8C79.2 334.7 49.4 352 16 352l0 64c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-64zM152 150.3c0-14.5 4.3-28.8 12.4-40.9l47.2-70.8C214.3 34.5 219 32 224 32s9.7 2.5 12.4 6.7l47.2 70.8c8.1 12.1 12.4 26.3 12.4 40.9l0 1.7c0 39.8-32.2 72-72 72s-72-32.2-72-72l0-1.7zm25.7-32c-6.3 9.5-9.7 20.6-9.7 32l0 1.7c0 30.9 25.1 56 56 56s56-25.1 56-56l0-1.7c0-11.4-3.4-22.5-9.7-32L224 48.8l-46.3 69.5z" />
-    </Icon>
-);
+const TankWater = createIcon("tank-water", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABqgAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDFAsGAAE2AiQDCAQgBYMtBzEblQURlZpFyT4S0412MpgoBgKSndERjidBD69HzfvJKlmBV4FEtVfBPUwePrb5wK/DpP028QqtTqu2SE6kvM3/NfWi7OgAPx/BoXXorSkSR5kCez7RWTQl8OxwNlGc/7cUeR0inyTJk+2rtMPpjx0uOwJbG5zxALMuvQaWpJjqtSgzYbAsAAAUCAAAVGvTohHlD/Qg0bX/KXRNA0AAqg5AIgEWYAGxBEBFFgJi2SQCGxvBA/3/j//ARAgA5InEzgBgA57AQXAaANgAGGzbbpoZGep6+NmtXQ+nj+M64XK1a7Uvymjtcm+qr3av90db2rA5kOEqVI52Nisj0YLFnog9MWvcBe26sFVhq9wF0zURa3iLtFVpu1xp/WR1ervd6dLuSaRWpro7U6kJHlpKp/lpD+rUfVpMGy0WWmkdj/LIKWclMwKu1rRJa7VM3h+4/23Std7XmLKkX79+S3iyNSjIqYpToK1N/RnDWcKDwvG69UHYMvN13K1g2w4u/3v7xY/AwB8vbv89mszvuxX3OjMz7APW9bGwoGBqO6j3J3/eOP8786iqVaOi7viPm5f/p167qVVVo+qpratGXA4/XlCLCrV3hYLaHAs3+JeUPHiQd/Q3W4Ygg9f739Ch/957GYKGvJr4+wEQIGjy4PmFLgEVv3q7BoBH59//ot78/4HK0/3gjQFAYOX+z9VR5QCwBQAFo9EkK18kwLCTHPlUX1aTACAcQAAYPHEQABYxAgkAG4ccAsCDeGUEgCcOLbCQ7YMI1akDgy/DgEUFk4BNqBPAg4ou5j0JTSyTFQ1O/GFMA7UZrbUusWh/jC5um5pkhXxc7mPay/yGoZXbSG9DDDZSLz31M5KY4RqVRhmktkbX8kOJTvaOQie2O49aayoMN0K/a2l/Fb04Hy199ckrFxqEs1iDwYCM8wUw8t5pAAA=");
 
 export default TankWater;

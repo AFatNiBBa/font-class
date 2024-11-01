@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lambda` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lambda?s=sharp-duotone-solid lambda}
  * @preview ![lambda](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/lambda.svg)
  */
-const Lambda: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 32L0 32 0 96l32 0 108.2 0 16.4 32.9L2.2 480l69.9 0L193.8 203.3 323.4 462.3l8.8 17.7 19.8 0 64 0 32 0 0-64-32 0-44.2 0L188.6 49.7 179.8 32 160 32 32 32z" />
-    </Icon>
-);
+const Lambda = createIcon("lambda", true, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABVAAAAHCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKeIEHCwgAATYCJAMKBCAFgy0HSBuhBMiGh4+58v0ku3OXlCEFRtVTJUTbqQOWZIEUoRE7layqd/qbf955FODj3Oc6D2SBz3meQKLTNiVUf+jHTPG/bahQI5BulERJSGOZ4zVDFvfTSyokN5LvuML/Axi/dHaJRGMKIFoBYNbShU1e16KWxPf6E+K7BQiI2aAUSJGimwBTpQLdZEpkMkEtqdepRb1eEkBU8femoIoUAzACkIEEkWU9i0rzbElRyVfmRS6KYlgsiyJWxvLoHEURkecrokvkvR+1evSn1/ct3/W8V5blTOUubq4x3/F2ziXOa7dupnLos910HggElxe+Hb+25dT/DUUCfrz69xOPq9fidfIIDRIQpEPrQ62K15DQAehJHNFbeRqBVE8J+LKauSpAyBEgUZULkOqqlQCZ3BABKnoYJ0BVbqFUZI1CO6s7SDSzH6TGOw0y7TwGFVN90qvaRRoshKuJv1rsfAnNaytHDR9ZTi63tkb6Hyv1KeWxOvBIjg2CTlvstcchm22y3SGBHNBkHbbbfA2e50GlUYYbqTRZafae2SWkH3DQ9jVtbzJFeV8b6IiePQh+mABGq9OplEgibbFr/e4Nm9YPCzqx1Ui/LgA=");
 
 export default Lambda;

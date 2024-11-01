@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-nib-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-nib-slash?s=sharp-solid pen-nib-slash}
  * @preview ![pen-nib-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pen-nib-slash.svg)
  */
-const PenNibSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M212.8 142.4L48.4 14.8 29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7L446.7 324 480 224l.7-.7-128-128L352 96 212.8 142.4zM64 448l20.7 20.7 144-144c-3-6.3-4.7-13.3-4.7-20.7c0-9.4 2.7-18.2 7.4-25.7l-87.8-69.2L64 448zm345.1-29.7L306.4 337.4c-8.7 9-20.9 14.6-34.4 14.6c-7.4 0-14.4-1.7-20.7-4.7l-144 144L128 512l281.1-93.7zM375.3 72.7l128 128L576 128 448 0 375.3 72.7z" />
-    </Icon>
-);
+const PenNibSlash = createIcon("pen-nib-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABZwAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBXwsGAAE2AiQDCAQgBYMtBzQb4wTIjsM4hvwSS/nHw4fdv+fubgBvZL38QOwgFq0qCF2m/5OWVSr2Qgcps4lrnv/503vzO0fav0VjLrXzfAI7byqKpk1kNpxNFLc7m7Aiohy0JJbkuLTjc4Ysfqf7lCC5nHzEyfih8VUd+0iUSQFEZQAMnjF1vKfFURzx4f8t4oOxCIjBIBdIkaK+AP2kAvVlcmQyQXH8/2//A3MCiJLSixOQoSRGYSkgA4ksyxpUqFCmXIkKWcGtLDu7ML3QItpF89io5Y5BfiFmRK2QWj2mFbVu09rDF2J3rYK0eGvJuWZHak6L1rF4FonTIzXZ0eRK5SvfG79snzu3I+d28EoH/R6oe1w/IF+MnTtxpP25zsPczpMnjS5XcXVhmIk/ilw2SXmfBnFulj1M7bmNi3YqddQoRWKeB4Hg9IM6U+ZX6verdLkEfLn/8zt8+P/TZFdyBaUlIEjb/W9nTrILgBxAmMQ2TZgvCiQGyaR3Le+CAKEsAiRKKitAqp7KAmTKaitACQ11F6CksqZKRVZGqG4uEYnyNhKpHrYTmepuECX08yYoqXqkcsVKBfutSxrRA8Mn5Z07dMr75MuSxokK7Uf75ttKq23Y0hq2Wma9dbZYaomVtnTQJuPjrdYawYHD/VCusw46yfWRH1cf1xcstclmK623LozTV37famUb3701TCMBdHkRCe6MpMKGpevar1u5qP3mNQs3rwAA");
 
 export default PenNibSlash;

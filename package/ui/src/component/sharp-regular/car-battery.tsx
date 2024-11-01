@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-battery` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-battery?s=sharp-regular car-battery}
  * @preview ![car-battery](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/car-battery.svg)
  */
-const CarBattery: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M80 64l128 0 0 32 96 0 0-32 128 0 0 32 32 0 48 0 0 48 0 256 0 48-48 0L48 448 0 448l0-48L0 144 0 96l48 0 32 0 0-32zM48 144l0 256 416 0 0-256L48 144zm336 32l0 16 0 32 32 0 16 0 0 32-16 0-32 0 0 32 0 16-32 0 0-16 0-32-32 0-16 0 0-32 16 0 32 0 0-32 0-16 32 0zM96 224l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0z" />
-    </Icon>
-);
+const CarBattery = createIcon("car-battery", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABaAAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBdQsGAAE2AiQDCAQgBYMtBzIb9wTILgpscE0x4kHMEDGcpoknH+dbh64excPHfv3OvU++iHaz5Nm0GTKdRCREmjUqm8iE6pG4QyWT177G9ruIHcxcaDxIbhmaiH+VJhbbj940mSEfEqK2Pd+/QiauqR9JTw9YKfxo0RSjtSZ45vkEBhjtI9xsYKORT8C2O5tjS5r2SRplCce50u8BZbzGKvJjwtv8pvHPhGdSVQAg+gHA4V2rgq8mmxH/rYhvjkBAHALmEQUKTCPYYRSYZjIPSqWgGa0W/gcKBBA15NkTlKhxD14CKEEqS5Onw9OlzC5Tt6tyjLo6FaKLpCKiSyGSiE4naSSpFNtZGFw00rlAZr7TAQIYstlsrcXzM3a329vQOFvO3txLdd5cBO95shoDELHfdtkxL+4a4BNgOHNrrQVC6nlIp67NRefzU7SCHCC+8vrL5z+3879dGQB/v1J+QykbaJcgKBZbi8YJkgAAZFzzJhBIt0zkVbu9EyB0IkCqdQpQmKIRlDotIKjMSiOodbpiFKUdYdikManbK6aw7YYpDXthKju+67XhMLqY4yDOD6+wrOHSNolHYlKQaVt1vcZK60VZTnzXNOaHu9g6cezSxtqeS0Wfq7SuHClbVMkHibiIGFEg273H610b5y7sOXHMmxTJ/ZLPtT3bDzkDMV13NiWRavV0Hn7SAQ==");
 
 export default CarBattery;

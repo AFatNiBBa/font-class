@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `manhole` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/manhole?s=regular manhole}
  * @preview ![manhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/manhole.svg)
  */
-const Manhole: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM281.4 115.4c5.8-7.5 14.5-14.7 23.6-11.8c64.4 20.7 111 81.1 111 152.4s-46.6 131.7-111 152.4c-9 2.9-17.8-4.3-23.6-11.8c-5.8-7.6-15.1-12.6-25.4-12.6s-19.6 4.9-25.4 12.6c-5.8 7.5-14.5 14.7-23.6 11.8C142.6 387.7 96 327.3 96 256s46.6-131.7 111-152.4c9-2.9 17.8 4.3 23.6 11.8c5.8 7.6 15.1 12.6 25.4 12.6s19.6-4.9 25.4-12.6zM192 176a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm0 64a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm0 64a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm80-112a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-32 64a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm32 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48-144a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm0 64a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm0 64a16 16 0 1 0 0 32 16 16 0 1 0 0-32z" />
-    </Icon>
-);
+const Manhole = createIcon("manhole", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABuwAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDJgsGAAE2AiQDCAQgBYMtBy4bpAXIhofn7ao/91X1AqyZaC1nxjcUAkj7fy73/GzTAX6jQ9mj9LyxKdwTEwh4LBrbiiCwLOIErMF5Iw4wNIbyC+TxdFygRLoyvYPz7k3jF80dISllAKIeAIbPnTnZC1/GlxFvlx8l3jYRATEcFAIZMrQSYJBMoJVcgVwu+DLKZfYfWBBAVBGgyb4cdfAAnqG/jqRWnrdsWVEdRmqWaudzkpfXWHmwS8R9E96qcWrcG53ucaDzvePfrHl64ttd749an4+MeHnq+zVPT353+IuzPxn2wqR3luRPeW/ES3NWXt74VelW3LA6c9QlTS5rckmjNPJal/sqb96hjh2NXNr48qazunzGDrdm1blSJHq3hLd2916Hc3c8UHlXvbt+q3hnzTvef77/c9xXq2bfvjVr3fdc/1YB2/2B0dVp/vCLI0e++HDz6kbbQvSFzc5c82HdH78olb74se6H15z+88/TMGfeoC/r1Pkybj2scKduhWLduowm7Hp+z/NAIPhh+vF6S+sO+q9azQS+fuqP/9XPSPmFJN2FahIIsk7lThYlkAgAQIo9KhMEkjvUEgS1XLY3GWpQQ1JFDci0VA9yNXSEkjZ68ytXz5SJvLrQyGIISS3bIdPHXsg18jCUDPJ6rIpGkV274pUn/jmmjWkjo2cV3bt0KwYUkwWldDnyenBgsdprt6fX0B7utMZWW+yy2irr7WrRO0xO7rbZmDlqtA8qdNdFN4UBit3l+9qcVmyHndaP2/ZPM1BxftDOnvn27WE4CRh7mJckIlXdvHzLBwQAAAA=");
 
 export default Manhole;

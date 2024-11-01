@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `seedling` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seedling?s=light seedling}
  * @preview ![seedling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/seedling.svg)
  */
-const Seedling: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 32c0 95.3-69.4 174.4-160.5 189.4c2.7 10.2 4.7 20.7 6.1 31.4C431.4 234.9 512 142.9 512 32c0-17.7-14.3-32-32-32L448 0C367 0 296 43 256.6 107.5c7.8 8.3 15.1 17.2 21.8 26.4C310.7 73.3 374.5 32 448 32l32 0zM64 96c106 0 192 86 192 192l-32 0C118 288 32 202 32 96l32 0zM32 64C14.3 64 0 78.3 0 96C0 219.7 100.3 320 224 320l32 0 0 176c0 8.8 7.2 16 16 16s16-7.2 16-16l0-176 0-16 0-16C288 164.3 187.7 64 64 64L32 64z" />
-    </Icon>
-);
+const Seedling = createIcon("seedling", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbwAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBagsGAAE2AiQDCAQgBYMtBy8b6QTIhofvdeaf+yTvbOQwKFuFiTv+gFASs+e3WKX23988/+efPuAzCm0smxrIAp/zPIHEurxL486j7ZkmYL1tipAjCq+ECFlE4zlupwnyeDUGqJDuSp/hhn7Q+FsXl5LkGYBoDYCpq5cv9FYtahGf1Z8nPjMfATENlAIZMnQXYIJMoLtciVwuqEW9Xv6BJQFEA9lhAjkqWIXtgBwkWZ73bNlUrbTIV1Urxe7vpkS8teK2Dj8u/3b1+Y63F0W8N+ejIbd1eHL8q7OrW75fGvH1yiJ+WPbNqmq/q9tH3OqhoU/P/XhmNcRtHe7oFLD6w8OemffJrKLpkdaP/Nv7s12f+fMBc97l3RnVyb2WtBwwPla0vPLKlqW3unf7+tH7rvv0lSPlA5OXxkpWxtKS0iTWF2R4Vsuv3xnQo1Z6SstareVTWmvNLweBYMivK8dvbjXhYmM1gb9e+f8i+orqbyXpETRKIMgG1AfYkEAiAAApTmlKEEgWychWm7tdgFAgQNKgECDTTWsBcoX+AlT0NFKABoXlMpE3E9rbOCBp7ihkRjkNufaehYoJPjQbtI8su9jcYN92SbMsmtlXDh00pBxXTl3KJQxd2+PLbaXPKU71xVG7HHbICTvtsNcJQ45Z6Jx00KwIz/Si0lCDDFEapzwO9sOr7HTMcXsddqh1Ga+8b/RxKi7ui3oilMM8ShKRGo/v3Lnjh0o=");
 
 export default Seedling;

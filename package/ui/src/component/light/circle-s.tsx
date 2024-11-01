@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-s` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-s?s=light circle-s}
  * @preview ![circle-s](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-s.svg)
  */
-const CircleS: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM192.7 190c2-10.7 9.2-19.1 23.1-24.4c14.3-5.5 34.5-7.2 57.9-3.8c7 1 23.4 4.5 31 6.4c8.6 2.2 17.3-3 19.4-11.6s-3-17.3-11.6-19.4c-8.2-2.1-25.7-5.8-34.1-7c-26.9-4-53.1-2.6-74.1 5.6c-21.5 8.3-38.6 24.2-43.1 48.5c-2.5 13.9-1.2 26.6 4 37.7c5.2 11 13.6 19.1 23 25.2c17.5 11.5 41.3 18.1 62 23.8c0 0 0 0 0 0l1.5 .4c22.6 6.3 41.6 11.7 54.4 20.1c6 4 9.7 8 11.7 12.3c1.9 4.1 3 9.7 1.5 18.2c-2 10.7-9.2 19.1-23.1 24.4c-14.3 5.5-34.5 7.2-57.9 3.8c-14.3-2.2-41.3-10-56.4-14.8c-8.4-2.7-17.4 2-20.1 10.5s2 17.4 10.5 20.1c15 4.7 44.2 13.3 61.2 15.9c0 0 0 0 0 0c0 0 .1 0 .1 0c26.9 4 53.1 2.6 74.1-5.6c21.5-8.3 38.6-24.2 43.1-48.5c2.5-13.9 1.2-26.6-4-37.7c-5.2-11-13.6-19.1-23-25.2c-17.5-11.5-41.3-18.1-62-23.8l-1.5-.4c-22.6-6.3-41.6-11.7-54.4-20.1c-6-4-9.7-8-11.7-12.3c-1.9-4.1-3-9.7-1.5-18.2z" />
-    </Icon>
-);
+const CircleS = createIcon("circle-s", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABmAAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCUAsGAAE2AiQDCAQgBYMtBy8bTwXIjpQuJ6Tx8LxdX+e+qgFcA7D/EMzASFjS4SBcOO4E+yqautb40dFRjq/RoURj1ZdFj3eNv8CLnn9ZgUeNl+kL2Ju7GpmH0n6SLrGWPH57fFlCHq9HD5VIt6YvcK4+afyqmRMkeQYg6gJg9MK5071zNa5GfFF+kfjCVATEGFAIZMjQUoAKmUBLuQK5XHA1ymX+DywIICqT20ogRyWcwmVADpIsz1u0mF6jUq18QY1K1Zd+ODni077POtLnmUmfjPtoymf9nouj/Z+f+vnE9PPMiK/Hvh9Hx7w346sFP0z7YtQ7jox+d/qX85fc3PnhgVcaJbLJzY1vKnppwAstb2mG8QcHHg1K1IgXO65LG17u8MCgmzppdKfB6fhgoyif4uTgl9vc3nxOPzSoerwUtmnS7rG6j/3e9osNXyjf/U4Pet74oVT64UbPHu9ADYdfHe88F0otx45tWbpwPlgLRxsxus3ERQNmHT3qu+mtP1h94V4na7Q4PmDXuV++rgJJ09KJTh1bGF66N/vv+e+W9/zw+YYN3yWYGIKHndwdCAR/NX796etU/F+1RgLXX/vz//YzUn4nSY+hqgSCrEe5h2UJJAIAkOKAdgkCyXEZOdWabhIgVEeApLLqAmRaqCtArrruAlTS2kABKqturkzk1YSGlg+Q1LQbZAY5CHINPQ8qqfBxurKGkTkk7078czBlAkLjFxV9e/UphhXbmi74GFtmS4VZ7XIg93SlUBvstMM+662z2T5A95ie22+7CRoy3hcV+uqlj8IwxXHzWVkA6T322ryWzucpKe5HujigD+9KRiKU/ZQliUhV/+1oPfcCAA==");
 
 export default CircleS;

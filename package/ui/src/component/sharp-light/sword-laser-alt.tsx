@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sword-laser-alt` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sword-laser-alt?s=sharp-light sword-laser-alt}
  * @preview ![sword-laser-alt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sword-laser-alt.svg)
  */
-const SwordLaserAlt: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 225.3l0-1.3-41.9 0L467.9 49.1l-5-5L263.5 224l-47.8 0L464 0l48 48L352 225.3zM96 512L73.4 489.4 22.6 438.6 0 416l22.6-22.6L160 256l146.7 0 45.3 0-32 32L118.6 489.4 96 512zM274.7 288l-101.5 0-43.3 43.3 25.4 25.4 25.4 25.4L274.7 288zM144 390.6L81.9 452.7 96 466.7l62.1-62.1L144 390.6zM121.4 368l-14.1-14.1L45.3 416l14.1 14.1L121.4 368z" />
-    </Icon>
-);
+const SwordLaserAlt = createIcon("sword-laser-alt", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABZwAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBVwsGAAE2AiQDCAQgBYMtBzYb3QTILgpjcE9TomY4kRc9K3ff/SLin98fNOf+txATkcC20UoOeZ2EUOG2aSNDdWXa/P/vmP/WxfdG3bhZJnVZlchApsOmtfnqEzmZax8qJH7+b6aN51GA3yi0sXBNkPW8aM7nCQRaludx7/jswM70BOx2GzInGgSZ7Q4fIobmQvOCllMWIVOP6jNu+A/NL1OsKK0DgIwGADbtjvjg/j3fk18/+WwbEMhmgNkQOnSYDoG1iILpSGYDTRO+p+/Nf+BsECADgV5boGEQtgF7AWigDGgk4TjmEDqTzCbFh5EZ+UCGokQk2aEgd3SPYr4iHEUW1iaTKetGZLuHMhmuzA+nu3cEI0FxtkeyQCKWBJMfnPt49OM/nOLw1wQp7J/b6vHGMv9vel72M0+dKvGVlOyuubO4971Tr78N9g6ue+jgwcWpLyRALt4HgnCxHXx/ONf/wcMIAD/f/qt/Rvp3pR5jsAKhW9Qvki2AIgCAyoi0IChbkNG7DndfQAxFQBloqIDONDwINEMthMAAM5khMNBQ2xGl0SHGyxVQhrsAOmuMQTPeEQyw1tMbaHw6maIlgv7SJXg56tnCyzU67MDTRGLEhHRLJ94W541sQw6nUNLWMlBUUDVgeI8vHGryrjCPL8L0NHQwB3yc3wpx9Hr6qmPufI0Tvu/KjNb9clAIiHCFeClS3P6rO1CfPtov9tRHTw8AAA==");
 
 export default SwordLaserAlt;

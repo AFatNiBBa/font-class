@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pizza-slice` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pizza-slice?s=thin pizza-slice}
  * @preview ![pizza-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pizza-slice.svg)
  */
-const PizzaSlice: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M168.6 16.8c-14.4-1-27.2 8.9-30.9 22.9L124.7 88.3c162.2 6.5 292.5 136.8 299 299l48.5-12.9c14.1-3.7 23.9-16.5 22.9-30.9C483.1 168.6 343.4 28.9 168.6 16.8zM16 496L407.9 391.5c-4.4-156.7-130.7-283-287.4-287.4L16 496zM122.2 35.6C127.7 14.9 146.9-.7 169.7 .9C352.5 13.5 498.5 159.5 511.1 342.3c1.6 22.8-14 41.9-34.7 47.5L20.1 511.5c-5.5 1.5-11.4-.1-15.4-4.1s-5.6-9.9-4.1-15.4L122.2 35.6zM176 200a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm24 40a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm32 96a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm40 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM144 328a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm24 40a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const PizzaSlice = createIcon("pizza-slice", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABnQAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCXgsGAAE2AiQDCAQgBYMtBzIbYAXIjoRyO7KVF1xIhsTD83p8nfuSnwGUgaClO7ICUO2Uq9bM/1qzicud//nTA27SR5m70nytpQkEGk1aPDnNwiyxhLSzba+CiIZ2IzTOkMcL1qkg3Zk+xPXhTeNrTZwjyTIAURsAoxfOne7VL+KLiA//n/jQVATEGFAKZMjQXIBhMoHmciVyueCL+J/4DywJIArJAxPIUQ1ncD8gB0mVPG9QrXGNKtxTraJGvkDnVF16VePm8el8TBgYD8aVBZmL1q5ae2XM6zM+bhOX3t4o4vb2uze4s/4t9VfFLQ1va7R0/v1N7mx8R7sHmt7V7O6O3e/qcF/jO9s/2Gy+tx5sv0oJ674OWBo85kj/BecObfNI7Ue+bf1hH3roicYbPjE7G91pdMeOxeps9j9qVCzqOqHrxIkoZmFxx2cXN6pnpJk7V/7624y06eLmD2Y+x3u1lxZTuk/u0WNy9ynF0rj7nl/eOez0gvmND73T/95Vz9x88zOrrO9gg9mzG4iCViuLroMHdy2wdnCBIvNPtjp5ORAIbntn4QMraw37tXK1BL56/vu/aknyE15O0iOoLIEg6/Z/N8uS/5EIiS/FAW12PkkgOaIK/KrV3SZAqIoASaGqAJlmaguQq6qrABVa6i9Aoaq5MpFXEepb3sNJdbvhzADH4Vx9z8IVhnnHV6gfGVxyUMX9FSZPGAPjl5W9e/Qqh5SbFS0PaoydHFqetjsdkB2d8VYb7LTDPuuts9m+EbTH9OB+203YA8f7olJvPfRSGqK8XX++foH19thrs512+EWGKt93d3Jgv39n7EoS0j72JIlI1XZtPnJkdffvHwAAAA==");
 
 export default PizzaSlice;

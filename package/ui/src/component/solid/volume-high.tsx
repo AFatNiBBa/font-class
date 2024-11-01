@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volume-high` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-high?s=solid volume-high}
  * @preview ![volume-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/volume-high.svg)
  */
-const VolumeHigh: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M533.6 32.5C598.5 85.2 640 165.8 640 256s-41.5 170.7-106.4 223.5c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C557.5 398.2 592 331.2 592 256s-34.5-142.2-88.7-186.3c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zM473.1 107c43.2 35.2 70.9 88.9 70.9 149s-27.7 113.8-70.9 149c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C475.3 341.3 496 301.1 496 256s-20.7-85.3-53.2-111.8c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zm-60.5 74.5C434.1 199.1 448 225.9 448 256s-13.9 56.9-35.4 74.5c-10.3 8.4-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C393.1 284.4 400 271 400 256s-6.9-28.4-17.7-37.3c-10.3-8.4-11.8-23.5-3.5-33.8s23.5-11.8 33.8-3.5zM301.1 34.8C312.6 40 320 51.4 320 64l0 384c0 12.6-7.4 24-18.9 29.2s-25 3.1-34.4-5.3L131.8 352 64 352c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l67.8 0L266.7 40.1c9.4-8.4 22.9-10.4 34.4-5.3z" />
-    </Icon>
-);
+const VolumeHigh = createIcon("volume-high", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgQAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCDwsGAAE2AiQDCAQgBYMtBzIbEQXIhof/t+v7fW5V97ypHqMGgD+cis6o+K2fMhKmv5/n//xT++NP8NEiqXpN6/NOgZ1PdBYNtHHZcDZR3G5DZtAgykAMh/nGEENzoXmAPP7OrlIh3Z4+wbXxQ+MH7V1F0jADEM0AMG3NikXeq4/6iI//f5n42AIExDRQCmTI0EmAiTKBTnIlcrmgPv7/3/4HlgQQVfioCeSoYi9OAXKQ5HnesW3zzrVK43x1rVKc+HRYxPOrvhn63MKH2tzR9t0hz8blg5+ZfEvHW3utfH1QxNMuG/jU2Hnm8zXfLZ4Zne/qyEc73tG7fPXD7VPc1tPdZ3UU8Uj/JzpE3DngyT61WBO39ur+RLMnfur2ye5PtL6nwWu8boYZr79WN+CX53+57NJLx41L8mV12wET5xe96D1oUO9eRcf/XvivX8yKWf2s2nHC0u/SpSZNNa5WG8s2PHJ9u+wyWbs+P15zxkz3NW9eTFVk776Zupv82AcIBC9eqJ3f0nTir3W1BL5/45c/hKv//yZdlp5AnQSCbOD/A21Ml4GhBpBLcVp35osCyVY5fNdGbhEgFAiQVBUCZDpqJkCuMECAii5GCVBVWCETeUOhlU0NJI0cA5nRLga5Vl4EFRO9n61qFZm+cdrCffeSZ1No1qpy2OCh5fhy21B4FWL84oRSrPU97Qb6wVq7HXHYSbvstM9Jghy3qHDKIbM5eJYfKg0z2FCl8crj9qO8muSOO2Hfmj9fxgTl/aiv0/z4fmAmSDtcRZKIVHvLyiDlBA==");
 
 export default VolumeHigh;

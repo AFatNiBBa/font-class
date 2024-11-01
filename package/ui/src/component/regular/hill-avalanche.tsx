@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hill-avalanche` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hill-avalanche?s=regular hill-avalanche}
  * @preview ![hill-avalanche](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hill-avalanche.svg)
  */
-const HillAvalanche: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M551.1 391.1c34.4-34.4 34.4-90.1 0-124.4c-27.8-27.8-69.5-33.1-102.6-16c-11.8 6.1-16.4 20.6-10.3 32.3s20.6 16.4 32.3 10.3c15.1-7.8 34-5.3 46.6 7.3c15.6 15.6 15.6 40.9 0 56.6s-40.9 15.6-56.6 0l-81.7-81.7C401.2 261.3 416 236.4 416 208c0-33.9-21.1-62.9-50.9-74.5c1.9-6.8 2.9-14 2.9-21.5c0-44.2-35.8-80-80-80c-27.3 0-51.5 13.7-65.9 34.6C216.3 46.6 197.9 32 176 32c-26.5 0-48 21.5-48 48c0 4 .5 7.9 1.4 11.6L439.7 401.9c34.2 23.1 81.1 19.5 111.4-10.8zM448 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm64 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM48 440l0-294.1L366.1 464 72 464c-13.3 0-24-10.7-24-24zM68.3 98.3C43.1 73.1 0 91 0 126.6L0 440c0 39.8 32.2 72 72 72l313.4 0c35.6 0 53.5-43.1 28.3-68.3L68.3 98.3z" />
-    </Icon>
-);
+const HillAvalanche = createIcon("hill-avalanche", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABkgAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCRAsGAAE2AiQDCAQgBYMtBzUbSQXIjsN02yNHDLKccsl3BNEaOnt/H8IPACgkoVEostFQYNU6FA7IV8gaA7ZGxOr9w71AfLHZQRXIjurE0kWTSZW0f+rU85yHAvhGQVnD1gRZIKE5zyMQsVw859VuqhVrRSm4920iPnpEInRITEgiOj7p+Lo6IMcb9SlJH9Id4A2/afyHsnaSsgBAtAEADs9iwnDxTd9Et9wuxG+EgIA4BIwiFCgwiMAOXoFBfEZBlgV/iOPwP5ABAUQN5PclkFGLp3gNyCApM5+DrKxIJVqK88U3liIVX4ioZX5Df0V3SXncYNVoGI+qIZGO7nj6NdKiMqE/SjPzG/Y7pjP2S3JDSs3yefRpZtUkuVORYjRaukdEOqohPOoaFo16rEBRY1MMz5xbJN68aKKV/pQNXYqlXp4Yn1vXE4/VgUnjfO0NqY0frbv8O+hvTOgAEx99t7enVGs2HSa8j6WkjtPpbiMjYTCg8vpSaCwa8edS85lzWpbv97wC/PZ26Pv7Up+vL/GKVy0Ugw6uNx4V9fnZbm7QF9UlG+eVBFwNOEFi2ebbCZsvhuWSkgAIBD/vjuoyJHf+hER5AP+Ofv+hF7u/4PFKn1EngaBY5EyRmg7gnuPxQgCAFPW0jU8SSG7wk1dt8laA0IAASY0GAQoDpBDIGiwgUBpmh0CNBkd4RRZGqKQVkDS5BoU1DSCrbIPSjkuvRhWFK1KORD0E4/1byG+NWZlbMmc2jWXau4gwd2HLomE91YxgB/kqlKuVJ1eRYg1SLSysU8bfgv18EWPFnCXGGdvOHrfj5alWo0iF8rjEBTvvGqq3u41A4SGoSyJJIpLELQrMsuqzSj/KE/IA");
 
 export default HillAvalanche;

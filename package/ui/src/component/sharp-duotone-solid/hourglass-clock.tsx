@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hourglass-clock` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-clock?s=sharp-duotone-solid hourglass-clock}
  * @preview ![hourglass-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hourglass-clock.svg)
  */
-const HourglassClock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 0L32 0 352 0l32 0 0 64-32 0 0 64 0 13.3-9.4 9.4L237.3 256l36 36c-10.7 22.2-16.8 47.1-17.2 73.3l-64-64-96 96L96 448l179.2 0c13.1 25.6 32.2 47.6 55.6 64L32 512 0 512l0-64 32 0 0-64 0-13.3 9.4-9.4L146.7 256 41.4 150.6 32 141.3 32 128l0-64L0 64 0 0zM96 64l0 50.7 96 96 96-96L288 64 96 64z" />
-        <path d="M432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-208l0 48 32 0 16 0 0 32-16 0-48 0-16 0 0-16 0-64 0-16 32 0 0 16z" />
-    </Icon>
-);
+const HourglassClock = createIcon("hourglass-clock", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABhwAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCMQsIAAE2AiQDCgQgBYMtB1obXQXIhqBe11vPk3bLlszwDMQyRoB4gJwdBxEAZIRB8utCouyqduJy52+bHnDiv+ijjDHaFE3wOc8TCLQsHAus8y6hgBLPwHo4N7V29dAGIf0CZfxf3K1Feip9hcfS/wDGL4a6m6R7ASD6AGD1nh2bfNIVXSm+6rxBfGUjAmINyAIFCowQYLlCYIRSRqkUdKVOh67odDIBRFsBC26bvdL1uAdQgiRJZTm8/6K6bvUsd9et6thDyyLen/Vy3DHzpaXvVQ8ufmf6C26f8eKSd+s9Ql2Lqgp6dB2KuuopqhBiQOyMFfHsiO2cLep4cUmPKiTKGRx7YncMCnGltkvYpcTRA2Of6/Pcb2O+Ov2Vl1dNSqQ5YyZOHDMnpUmyTeV7fzu77Mx9sj5NH40+AsMnOd/efLHR0wPOnTXPX+2OI0fM87qFi6flA9FWH9DTMn9k1bwinFLsMz4BAsF/P05pjvRe/l+3OoGf3vvjZ83vqPNJatJz6CaBoJjeme5gaiA1AgCQ4lpjUxMZgcIaSXnXHh4XIFQIkLRVAhSG6yNAqTJNgJZRFgjQVtmhEGV3YYBDA5H0cAVRWOgWojTA60TLcp/W2wZEAYEK/Cg/gJkbpsD6bXnOzNl5ad5t61Sgkvz6snw5nHytHptCDzrtMpe62iknnXP1BL/SptY1LrHhCFvvg7I5ZpotWyo/7r00d/P6la5yblt/vsky+fvKZNcez55Ck6TwzrWnUBApisEYJqOcPQNp3RnVeerQLb3uAgAA");
 
 export default HourglassClock;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `f` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/f?s=solid f}
  * @preview ![f](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/f.svg)
  */
-const F: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 256 0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 224 64 96l224 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L64 32z" />
-    </Icon>
-);
+const F = createIcon("f", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABVAAAAG9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBHwsGAAE2AiQDCAQgBYMtBygblwTIjpQuZyTx8P3c57kvWcpukTOrCowKmByDQkVkgVQdG/GnklX1zxBP/Kmb551HAT5JSmNjungNsDnPA4oS69IuirKAssAyTcDyu8k7l+LraEjDE52ktSUNWzvksTI7o4Z0J33H9fzQ+KWLMyQNGYBoDYApSxcu8LESlYhv1dfEN/MQEFNAKZAhQ3cBxssEusuVyOWCSlSr9h9YEkDUkjMTyJFhJMYCcpBEng9srGmRL/Gbi5WPekc86yzEiQ43Gi93uhURjcETJzveLAo40Pyi9Ys/vm/5btLde21oU9zzUcsLF1oWLML3qE6owBUVIBDc/1nz2lbj/9c3JvDjw7/Vr6haicnpBeolEGT9q/2tiiMQkwUAIMURzTEZgWSgRO7a5KYAoUCApFYhQKab1gLkCv0EqNHTCAFqFRbKRN4gtLeaQdJkP8iMdBTk2nsJaoz3yajVPrJ3Q9069W2Ln4nQjLlyyMDB5dhyGGj0UyDCcFw5LfQ+4gp9aNUWe+1xyGabbHcIkAMW2IftNlODZ3hRaYiBBiuNVS7H98tLbHbAQdvttSeNGafcr/R2RK/vQ8wB0Yf6IUlGTLEFAA==");
 
 export default F;

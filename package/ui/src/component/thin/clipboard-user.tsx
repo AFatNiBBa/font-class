@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard-user` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-user?s=thin clipboard-user}
  * @preview ![clipboard-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/clipboard-user.svg)
  */
-const ClipboardUser: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 0c-37.1 0-67.6 28-71.6 64L112 64C91.1 64 73.3 77.4 66.7 96L64 96C28.7 96 0 124.7 0 160L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64l-2.7 0c-6.6-18.6-24.4-32-45.3-32l-8.4 0c-4-36-34.5-64-71.6-64zM16 160c0-26.5 21.5-48 48-48l0 16c0 17.7 14.3 32 32 32l192 0c17.7 0 32-14.3 32-32l0-16c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-288zM136 72c0-30.9 25.1-56 56-56s56 25.1 56 56c0 4.4 3.6 8 8 8l16 0c17.7 0 32 14.3 32 32l0 16c0 8.8-7.2 16-16 16L96 144c-8.8 0-16-7.2-16-16l0-16c0-17.7 14.3-32 32-32l16 0c4.4 0 8-3.6 8-8zm56 24a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0 112a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-40 48l80 0c30.9 0 56 25.1 56 56c0 4.4-3.6 8-8 8l-176 0c-4.4 0-8-3.6-8-8c0-30.9 25.1-56 56-56zM80 424c0 13.3 10.7 24 24 24l176 0c13.3 0 24-10.7 24-24c0-39.8-32.2-72-72-72l-80 0c-39.8 0-72 32.2-72 72z" />
-    </Icon>
-);
+const ClipboardUser = createIcon("clipboard-user", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABvQAAALBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDSQsGAAE2AiQDCAQgBYMtBzUbzgXIjsM4RjyLg/IN/qE6vz+3qqPOS4bqkTsDyytosQP9/7LNnQjf8yr8LCFkW7M2m1Zcql/Gnx7w7D8hCMqmtAZSKZ1qFch4QIO1gyQCwVhEMaN6FQYqv/+dgaPx9CAAZi3dBhZbH6o3ZGAGGKwFAEDJAQCAqq2bN+TKQz2Ubv9/EnSb+oAAVA0ADwEWsEBmBEAFLAIy4+ABDg6Ch/r/f/Yf6IEAQEGcNxgAHMAFrgJ3AAAHAEPYcQrnyR2JxVKmiAZiTis1z22/o0h7dlcnCHKwU43W1r0xpt19/2W1ru1LrtYNF+zZYv0mrc5oyrJSRDV/W43STrjuMFozrwhJ2rWuOm3rEZo298oFIl4AaMXsatUqTd1Wzwqt3up6KKIBnU+yM8PafU3Yda671mdOF9zf9o0TZU/de1eIutEFdNNM61lZbrE2RrX7OobuoPfm2Gf3/dlv97rN5ctHEuCXD6OLzJYUKVwPN5zcAvnpzEWFKe8njryb7R246ycnPueJX4FFyfHv3rEerWA28jWjW4c+wH9Dhvz3IRTsMpBJnnl4hYdxM9QlOJqgqvGzh2z5Tp9+voVLh/hFsmUr4rsmN3F0C5iPDN4n9OG/IbVLp2l6BJqmiRcv/rAJD/Er4gAgQND466aLnZNV+BYWBoDH5z78hj/8/xVNoX0AYQwAAlvo/0J00BQAoLIAIGk0ihw9XyTAcIkwztokViEAhAvkZAjikiUTycnBpSAFyEpJzcg1zbHIiSBS0xFIhiSGkqUUE8khNccpQAWuJYKklr2YdZei7l8yc60yX3OWlyjie+W8zopUf31q9GR5b7Q73yjekR8uoBeDGcQIetKDvjFK4jAapkcykFp9Qk1+iEeCIvh4lMObXb9uboURmoebmnb9/Gkoj7d+PB+j+vvnhz6Do7IYZQYDMvEvifZUtxS+DQAA");
 
 export default ClipboardUser;

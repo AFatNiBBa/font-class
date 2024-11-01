@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-check` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-check?s=solid shield-check}
  * @preview ![shield-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shield-check.svg)
  */
-const ShieldCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M269.4 2.9C265.2 1 260.7 0 256 0s-9.2 1-13.4 2.9L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.7 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2L269.4 2.9zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
-    </Icon>
-);
+const ShieldCheck = createIcon("shield-check", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYQAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBOQsGAAE2AiQDCAQgBYMtBzMbvATIjtRG94xd4uH/7b5vn1vV8hfq28ygyAMjG2dk2mtSIX4ZUos//f08/9aU58/oo3Tabh6Jw8zzCXyxZdqEZgP7ojhzV0szJbqPhKQsyeO5x88d8ng3u6qM9GD6Arfzj8avOrpKUpUBiEYAzFi3aomPWqM14vNSxOcWISBmgEIgQ4YuAkyWCXSRK5DLBa1RKvn/wIIAohzgxMndmxOxDJCDJOV5tzY1ZXX5Wt5Uve++6mttVsczbe7xxJofA/tsv5/XndnzUrv7+q5ds3rd6mf6royHOj/fZ0qsi/jWgx16vtT40u++2PuF2vdWVlSsfG+Z8sdea5OaZlPd0OlDZqwZ+PDDwld+iEsutXntsfJ9ZteXF1BTV1fyzTcl94ejRzHfPwcCwfCPrz29rWHy/5U1Cfzyzp+H9xtK78ff6SVUSiDIBpcG25xo0KAkCkAhxVk9KWWBZKQE+NZa9wkQqhEgKVctQKazRgFy1QYJUKabMQKUq7ZKJvIqoY0tAyS1ToDMWOdAro23QZnJPi6UaxOZEckmIP/hMubO0JykYsTQ4cXEYtvQFLsQ4+Kk4jjof1YGBtBGex1z1Gl77HbA6Yk8aUn5jCPmasQcKSqMMNRwhYmK6/br6rX2OOmUA445mpaZpHif7e+sPn4AxQk4R9qVJCLVntp/YM/h3UOsEQAA");
 
 export default ShieldCheck;

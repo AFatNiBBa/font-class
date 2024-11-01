@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cabin` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cabin?s=solid cabin}
  * @preview ![cabin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cabin.svg)
  */
-const Cabin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M237.4 6C248.5-2 263.5-2 274.6 6L384 84.1 384 64c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 88.7L498.6 166c11.3 8.1 16.1 22.6 11.9 35.8S493.9 224 480 224l-32 0-32 0L32 224c-13.9 0-26.2-9-30.5-22.2S2.1 174 13.4 166L237.4 6zM32 280c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24L56 320c-13.3 0-24-10.7-24-24l0-16zm24 72l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24L56 416c-13.3 0-24-10.7-24-24l0-16c0-13.3 10.7-24 24-24zm0 96l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24L56 512c-13.3 0-24-10.7-24-24l0-16c0-13.3 10.7-24 24-24zM320 280c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24l0-16zm24 168l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24l0-16c0-13.3 10.7-24 24-24zm-24-72c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24l0-16zM256 160a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Cabin = createIcon("cabin", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABmwAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDBAsGAAE2AiQDCAQgBYMtBywbgAXIngc2DldjCuXei4cHvf47N8nTzDfybXaittoK6txvqVaop2r1MyIEv4D5/+eaevH86J7XtxM6PbQoLM3hGqOC93w4sb15luhwNlGcuS1mcJbJikFEhh5DzJaF+uU3kMUn6XFlJHeS73Gpfmj8qrHjJKpSAFELAKMWzJnmy5/ip4jvSojvTEFAjAK5QIoUzQQYKhVoJpMjkwl+ilIp/wfmBBDl9JoEZCjgCT4AZCi9MsvyWnXqSHqtusWy6tl8fmJhyat28yLiSMNbxWKcq3+DaBcvGt1uW6j2ssndDgsW3utQjBeNhUFiMeYVC8Wix643M9waf6/58J3zzzWMuBVHGtwsnK133eH6N4qt39Z6+3vfr//ebx916bJ1mnpqnD5dI29XLNJV9XF7V+aPZ+6dV/3HR9+rP2unWfVrYarhhJ07d3ZY9V5pZla8OuB/NavhBJwx4ocapzldo1VkLhA73f5n6BU1h/5fWUzALx//uRxZWpJkyVtUSkCQdi11tTQBkDPFSyOxX2v6JoHEHZX0mmpuChAKCJAoVxiQaqoWZAq6QJkW+olOY46rOLIqoZ5lCRLV7IJUfwcgU8+HUGaor6Ll6kUaqnKgyR+KGeNnfNyyvFf3nvngfFvRlegT4eSQ3G123M8dnWit9XbYbq911tpk70TuNi2xzzbjETHOD+V66a6n3GD5cX27er51dttjkx22yzxD5Pfdjvbj/p3ISahgb0WJhEjKfu4HAAAA");
 
 export default Cabin;

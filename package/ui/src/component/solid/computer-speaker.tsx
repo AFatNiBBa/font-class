@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `computer-speaker` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-speaker?s=solid computer-speaker}
  * @preview ![computer-speaker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/computer-speaker.svg)
  */
-const ComputerSpeaker: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M288 432l0-16-160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l176 0c-10-13.4-16-30-16-48zM64 32C28.7 32 0 60.7 0 96L0 320c0 35.3 28.7 64 64 64l224 0 0-64L64 320 64 96l224 0 0-16c0-18 6-34.6 16-48L64 32zm304 0c-26.5 0-48 21.5-48 48l0 352c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-352c0-26.5-21.5-48-48-48L368 32zM544 320a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-160 0a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm64-192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const ComputerSpeaker = createIcon("computer-speaker", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkQAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCUQsGAAE2AiQDCAQgBYMtBzcbWAXIjtMd8UMzJJMjKHRWPZLs2pOPQUdEETBlyI/EQUZ+yBghakc7p+l9Ff8WiDVxzfOnp6cHrCB4tMhlewV3nk9g54mbRYONywY2Udygu0GBfuG/E2Txd3qcEsl18iEu0b80vtbCcSRqpQCiPgDGL5gz26vVqEZ88P9TxAdmIiDGg0IgRYrWAoySCrSWKZDJBNX4/3/2H1gQQJSZT5yADDU4B5cDZCBRzrKGrVvWadWoUqqTza+U8jUh8jirVzpsV1UqcX1bfOeOuDfFdee+zpWIyCMC4W7oeZ071X9lJtWgXRW9J65plbZf61d3yRfdfO/vdm/rmyiu5wPt8iP9QTeseyrnxl0trnM4r+10Z3523t3y+lhwJCKuKefsKof1yvysXx0d7q9//7ftP1z/oXb16pt5t6p7+teVjn2Ur/LPLrm1AQ3yqrxBg1urxqmynerLv/qhX7+P+ShdKf3o435VGZUVPNIu/eLHH79IvU23trd4a+nWFnXr0rfeaokqUN7YV+qexlIVDh2Iq149VXvRinqjfq2pJOCL57//I7jf/1U5LPdDjQQEaa//e1maHAaMG0Aiif06NMwxkDjG2v3U2q4mQMgRIFGWC5Bqpb4AmVxPAUraGixAWW6OVGS1hMaWJUiitl1IaogDSKaxJ5CSUd6JlzWO9IKULifpfzB9ShaYPKt4ffoVI4raiki+xgRlcmTR2bH3847ucKv1dthur3XW2mRvBt5tdmqfbaY0QZP9UKG/PvopjFAMrl/U52fiu+2xqVodPs1IxfSRbvY39+8O3QmTd4CSREIk9a9tS+/vFw==");
 
 export default ComputerSpeaker;

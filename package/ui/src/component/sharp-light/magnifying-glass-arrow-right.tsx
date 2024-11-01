@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-arrow-right` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-arrow-right?s=sharp-light magnifying-glass-arrow-right}
  * @preview ![magnifying-glass-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/magnifying-glass-arrow-right.svg)
  */
-const MagnifyingGlassArrowRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 32a176 176 0 1 1 0 352 176 176 0 1 1 0-352zm0 384c51.7 0 99-18.8 135.3-50L487.9 510.5l22.6-22.6L366 343.3c31.2-36.4 50-83.7 50-135.3C416 93.1 322.9 0 208 0S0 93.1 0 208S93.1 416 208 416zm27.3-299.3L224 105.4 201.4 128l11.3 11.3L265.4 192 112 192l-16 0 0 32 16 0 153.4 0-52.7 52.7L201.4 288 224 310.6l11.3-11.3 80-80L326.6 208l-11.3-11.3-80-80z" />
-    </Icon>
-);
+const MagnifyingGlassArrowRight = createIcon("magnifying-glass-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBdAsGAAE2AiQDCAQgBYMtB0MbBwXIhofv18o/93XPVjIThk4UAKEKK1LxwB8Y7Na3hHLm/5rP7/k14PcTP7QorAQpuqZY9fMJTGxvPpp4FNhAjmACNuuml2p45abIe1GShu3VMEVnyOPV6KFEup0+w7X8ofGz1i6Q5BmAaASAsYvnz/RWbdRGfFZ9nvjMdATEOFAIZMjQToARMoF2cgVyuaA2qtXwH1gQQNTAMyeQo4Sl2AbIQZLleduWHSul+vmiSqm8/NLQiJd7PnCmx/0hL5UvDnul18M42/vR8Fcr6cfZC6N7LIp3F/8w75tF3835asH3c79euLxF8xZdonnMjXJZVCpzoll0jZax2PXVIhZ1vtvo7q+dPtv0mS/v9DnMoSNHe/U6euTQ4T59Dkv9zKw4ff26TZjyf8yKxXfvLkbi7l2O7Dbd7uGCTV4xwO1GhUa3B3jFJvfMnu0Vr5TeQCBY/1a7yasbjvi3TiWBn175/U//K6q+HdV0F3UkEGQ9qj2sSBBRFQCAFId0ThBI5srgWuu5IUAoI0BSoyxApq1GAuTKugtQ0sFAAWqUzZeJvK7QzEoBST17QWaQkyDXzDNQMsKHYY1mkZkYZyDcAy95koYmHir69upTDCu6rcpbDcO7w4tppcuhONOVTtpkt10O2GiDrQ4ocp+ZyUE7TRrBE31Roa9e+igMUywPb48vstE++2212660z3DF/qCLQ+PlXUlPQNtPI0lEavdFbmrT0a27Nvc8VZmea/ft2334pgIA");
 
 export default MagnifyingGlassArrowRight;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-turret` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-turret?s=sharp-regular house-turret}
  * @preview ![house-turret](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-turret.svg)
  */
-const HouseTurret: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 0L24 0 96 0l48 0 64 0 48 0 72 0 24 0 0 24 0 110.3-48 40L304 48l-48 0 0 40 0 24-48 0 0-24 0-40-64 0 0 40 0 24-48 0 0-24 0-40L48 48l0 158.9 57.9 65.2 6.1 6.8 0 9.1 0 200 0 24-48 0 0-24 0-190.9L6.1 231.9 0 225.1 0 216 0 24 0 0zM304 216l48-40 96-80L640 256l0 208 0 48-48 0-288 0-48 0 0-48 0-208 48-40zM176 144c22.1 0 40 17.9 40 40l0 56-80 0 0-56c0-22.1 17.9-40 40-40zM304 278.5L304 464l288 0 0-185.5-144-120-144 120zM496 272l0 96-96 0 0-96 96 0z" />
-    </Icon>
-);
+const HouseTurret = createIcon("house-turret", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdwAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCQgsGAAE2AiQDCAQgBYMtBzMbRQXIjsQ4JvKLKAyiR/C9rbTfn1kB4JQioBUQcX4K0QCUOb1y6nJIkF8h7/N/Ob3x/GiBfD6CQ5uzsSlbw/Z+3vMwkembSiQLs0QCTwAztxELavi4JjJ8cD4Y2kL1CHn8HdeUSPfTN7iaXjR+1twpklIGIOoBYPjcmZN9UBmVEV///5L42kQExHBQCGTI0EqAQTKBVnIFcrmgMv7/3/4HFgQQVeBXSiBHVRzHFUAOklKeD29Yv2b1mqXa+ZyapRpZzRq1hRgUETVCiBoRvDo7Goc+PieaBEqXDx00dG7MHiO1qKFzLjb23rZWfrzp3ZqzhdoHiVlzhdFX1mxXUa/il75Z840PmjVb1swWvzuirL1mypppbxhvLHuq/zBzVPdFMN9voA+C3X78HQ8y1ftP/aCsPK3sB78fHVv/GW/V72eafuq/9az+0TNvIq/wpqt7Xej9KsugMveDQLB20oOP1R30a7WaCfz01ss3//9BOpYqUE0CQdb5/84WpWNg6QEkU+zRTnijQLJfCZ61ljsChBoIkFRRQ4BMS/UEyNXQSYCSNnoLUEUNM2Uiry40sphBUst2kOnjMMg18hyUDPJ5oopGkWkir0f8PzBlTI2OXld071ouBhTThiIoF+sXBxbbTvs9bqADHbTGVlvsstoq6+2q8B0mp3fbbIyEjfZBhe66KisMUFy373fPsdoOO6231Za4zEDF+1h7e+TxHcibgLGHsiQRqZaWFnbZtXvHjtW7AAAAAA==");
 
 export default HouseTurret;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-love` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-love?s=light hand-love}
  * @preview ![hand-love](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hand-love.svg)
  */
-const HandLove: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M184 32c13.3 0 24 10.7 24 24l0 144c0 0 0 0 0 0l0 96c0 30.9 25.1 56 56 56c15.7 0 29.8-6.4 40-16.8c10.2 10.4 24.3 16.8 40 16.8c30.9 0 56-25.1 56-56l0-64 0-56 0-56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 216c0 79.5-64.5 144-144 144l-8.5 0c-57.3 0-112.2-22.8-152.7-63.3L39 313c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l59.7 59.7c4.6 4.6 11.5 5.9 17.4 3.5s9.9-8.3 9.9-14.8L160 56c0-13.3 10.7-24 24-24zM288 296c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-96.1c0-13.2 10.8-23.9 24-23.9c13.3 0 24 10.7 24 24l0 8 0 24 0 64zm32-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-64zm48-50.6c-7.3-3.5-15.4-5.4-24-5.4c-9.7 0-18.8 2.5-26.7 6.8C310 160.3 288.9 144 264 144c-8.6 0-16.7 1.9-24 5.4L240 80c0 0 0 0 0 0l0-24c0-30.9-25.1-56-56-56s-56 25.1-56 56l0 232.8L95.6 256.4c-21.9-21.9-57.3-21.9-79.2 0s-21.9 57.3 0 79.2L120.2 439.4C166.7 485.9 229.8 512 295.5 512l8.5 0c97.2 0 176-78.8 176-176l0-216c0-30.9-25.1-56-56-56s-56 25.1-56 56l0 56 0 5.4z" />
-    </Icon>
-);
+const HandLove = createIcon("hand-love", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABmwAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCfQsGAAE2AiQDCAQgBYMtBzAbfQXIhof/t+v7fW7VA1wj8gNAKijq9TMxnZ469TznoQC+UdDGpmW5WGhMyoXmPI9AxHKhzvNaeVrBClTxCljNrbGXoigDGTJkRJ3Revza49cZ8ngpJqog3ZE+xnX9TeNXPS4myTMA0QyAZbvttMnrpShFfFx+hvjYBgTEclAIZMjQL8BCmUC/XIFcLihFuSz/gQUBRCW+cAI5KvEAngTkIMnzfFFz/dK6ioZ81+Kt3euRHnFBDok7Om4Z9VhXUm7rCxbvGgP2uX/hyytr48rZL47fNe7se2zUtrgFCl0Z2XvcPvLR3h1NmKH4iX/FrbVXtt/ZKXy4CxHmO6Mfbr+5W0yOR2uvHHm783t2iVfmvVBXF9/t9NVu8FYMf7L5yd+HfXzox567b1vH9WB/VX/uOP74cvn443f8WbXUXHN1bNvW8b3+0y97o9rE4/b//bDDfP55Q8NLDr3poprmLB5WVcX9ia9at6VllZaiE/55uKHp2aW//NjW8PAq0O2PeQd/9pehzs6hv8fuvw871PQ335xebX1Ec6z/fuM6c1UAgWDou5vP3q9p4f/VdQn89OKf/5u/ovLrUUpPoloCQTaxPNHeCYooCQBAilMNTxBI7pDjV613qwChFgGSSrUCZPo0C5CrNUGACoNmCVCp1k4ykdcI7fZZIKl3AsjMdg7ItXsKVFjoPb1Se2RhSgQZ8ZcYu9pCq5aKaZOnFvOLy4iSkYfV6YLitjD21FQZR5sOdZxjnewQBzvCyQY50SbrFMdYjeBVPqgwzWRTFeYrHqcf13d1iBOd5AjHObbNWaB4Xx3rVNw+juSEUacLJYlINVHNTfqKAQA=");
 
 export default HandLove;

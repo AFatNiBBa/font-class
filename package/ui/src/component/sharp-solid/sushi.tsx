@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sushi` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sushi?s=sharp-solid sushi}
  * @preview ![sushi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sushi.svg)
  */
-const Sushi: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M479.7 320l-73.8-24.5L506.3 125.6c24.8 26.7 42.1 60.7 48.5 98.8L576 352l-57.4-19.1L479.7 320s0 0 0 0zM393.5 66.1c32.9 4.8 63.2 18 88.7 37.5L374.8 285.2l-92.7-30.8L393.5 66.1zm-36-2.1L235.6 270.4 96.1 318.7 246.6 64l110.9 0zM21.3 224.4C36.6 132.2 116.1 64.6 209.5 64L49.4 334.9 0 352 21.3 224.4zM32 384l0-9.2 250.1-86.7 261.9 87 0 8.9c0 35.3-28.7 64-64 64c-19.1 0-36.3-8.4-48-21.7c-11.7 13.3-28.9 21.7-48 21.7s-36.3-8.4-48-21.7c-11.7 13.3-28.9 21.7-48 21.7s-36.3-8.4-48-21.7c-11.7 13.3-28.9 21.7-48 21.7s-36.3-8.4-48-21.7C132.3 439.6 115.1 448 96 448c-35.3 0-64-28.7-64-64z" />
-    </Icon>
-);
+const Sushi = createIcon("sushi", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcQAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBfwsGAAE2AiQDCAQgBYMtBywb+wTIhofn7f79tc9MAE9k3RsCXfJ/lVdF7YfYSS0r4e9vnv/zKMDHuY+FnQeyQKI5zxPoPF/cpkSyqMsS+kLc7jTHJpr2SUJZkuPSjs8EeXyRnVOJ9Gh6HzfzTeMHzZwjqZYBiLoAGFueP9PL38a3Ee/9/wTxnukIiLGgEMiQoaUAI2QCLeUK5HLBt/H///gPLAggKpOzE8hRBYuxF5CDpFKe169arWa7GpVq5aU4WH1taWGpHC+0XRjTYlCcDrtLbwxdEKUoD1pQXrAgylFj1SezIz4qL4opUV4YxgdXh3iky/0Od7vx6MPm7R7WffhT2/c3vO+bk1Ob+KNrHyg/aHjSGdvAwn+rbN/yuGWt7Xyu7+EPHF5X+7j1n51z7tScOJzhk6OiNhqerH6nWrVqf5ZUKqmmer16FR83bPgxiBUzBtWBQHD54w/Syjojfq1aI4Hvn/3lp7IzjUkPUVUCQdbj/x6WpTGA1AC0FAe0U14USOaqRK5a0y0BQnUESCqrLkCmhboC5KrrLkAlrQ0UoLLq5stEXk1oaHmDpKbdkBnkOOQaegwqGeEttbKGkdkZayXsNy9pUo8mNhV9e/UphhVLS+VMh07V4cW23OUARbrCoA122mGf9dbZbF9H7jHT2G+7SRox0YcKffXSR2GY4th97i5Zb4+9NttpB9cZrrivdHFAT+8KbSRAvxeiyRSp0t79ezdtBgAA");
 
 export default Sushi;

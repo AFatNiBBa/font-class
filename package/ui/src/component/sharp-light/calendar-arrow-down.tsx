@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-arrow-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-arrow-down?s=sharp-light calendar-arrow-down}
  * @preview ![calendar-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/calendar-arrow-down.svg)
  */
-const CalendarArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 16l0-16L96 0l0 16 0 48L32 64 0 64 0 96l0 64 0 32L0 480l0 32 32 0 384 0 32 0 0-32 0-288 0-32 0-64 0-32-32 0-64 0 0-48 0-16L320 0l0 16 0 48L128 64l0-48zM32 192l384 0 0 288L32 480l0-288zm0-96l384 0 0 64L32 160l0-64zM240 256l0-16-32 0 0 16 0 121.4-52.7-52.7L144 313.4 121.4 336l11.3 11.3 80 80L224 438.6l11.3-11.3 80-80L326.6 336 304 313.4l-11.3 11.3L240 377.4 240 256z" />
-    </Icon>
-);
+const CalendarArrowDown = createIcon("calendar-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcgAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCFgsGAAE2AiQDCAQgBYMtBzobIAXILgpsY9qwxUVADoOhLMsyP5aMx9WyeJ5+v/+tfe75duXjFs0SHop6IoqWSjPJ3klvOpLob6gMkfysWrPehBWBm4oihidA5wBd1LkvFuaUrH2vkPj5v6ZePL8G/H7ih5S9osayqHw+gYkVJ84GNBvYTCdgW9x2FUQ0tBEiF6h5FYSUFyV4Ej40fxm8QlEbAFkIAI5d6NbBjTNOvk+CfFcFgRwHbMTQoMFaDBzEF6wlsBFUVRhnMhH/gQQBMi15cgEV07gNHgOooKi17p6TbumEQz1v6torkTYI0hJSirohaZIQbRt5vzY5O/RDSb/FN7BYzl2vPZ3lMUWTfk7oMnzUEnVayeYPCz/8c72Hr/KFcoKcS2ojIQhC8HvbOH/UBbl9Fsd14+vx8RF61G82cCqe+vXugbNXst6sm2qewJs398qpdW+yrgCCMPv7pQXZwf+zXQF/vh3/FU1GGZUPYFYBodk2YTYjICMMAFDymDEcCIpbBJJ37T3FQLQIKKa1AhpryDFQtbZiYMp6fgxMa53BlzonlprrQdG7BxoH3IFqqT8w5aD/7LSl4cOcBDHSH196YYzm95Hb4aIIbXa1MhgJdjtKp33TuZwy45NYd2DfqTWrtpyOmGP1wpk9hT0s74uIm4MLiaDbg+eHB9YcO7HlwL7fJYrej5uc7y824zBPwrlHW1FIWfJFanaZOT64sEMjAAA=");
 
 export default CalendarArrowDown;

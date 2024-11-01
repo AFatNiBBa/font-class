@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bag-seedling` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bag-seedling?s=solid bag-seedling}
  * @preview ![bag-seedling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bag-seedling.svg)
  */
-const BagSeedling: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 64L38.6 38.6c-4.2-4.2-6.6-10-6.6-16C32 10.1 42.1 0 54.6 0L457.4 0C469.9 0 480 10.1 480 22.6c0 6-2.4 11.8-6.6 16L448 64 64 64zM56 96l400 0 10.6 42.5c8.9 35.5 13.4 72 13.4 108.7l0 17.7c0 36.6-4.5 73.1-13.4 108.7L456 416 56 416 45.4 373.5C36.5 338 32 301.5 32 264.8l0-17.7c0-36.6 4.5-73.1 13.4-108.7L56 96zm8 352l384 0 25.4 25.4c4.2 4.2 6.6 10 6.6 16c0 12.5-10.1 22.6-22.6 22.6L54.6 512C42.1 512 32 501.9 32 489.4c0-6 2.4-11.8 6.6-16L64 448zm80-288c-8.8 0-16 7.2-16 16c0 59.2 45.9 107.6 104 111.7l0 40.3c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40.3c58.1-4.1 104-52.6 104-111.7c0-8.8-7.2-16-16-16l-2 0c-47.3 0-88.4 26-110 64.5C234.4 186 193.3 160 146 160l-2 0z" />
-    </Icon>
-);
+const BagSeedling = createIcon("bag-seedling", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABeQAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBfgsGAAE2AiQDCAQgBYMtBzMbAQVRlM3BJNnPw5jIdIUvkUV7srxaLeZYK3G8cnLxbSVCIZS3UQ6/xMP3+/1v7X3PN5GkybMZliQRvUKkQbJUITHETwlvqGTyM2hz90BjR0jHcO8MjeRI2vZoNmMzFE3+sd98jySulSNyhEjWxC8Vk2Ri1bZmoS6U3eo6QBX838Wp5zkPBfCNgjYWrgmywOc8j0DENva8pVag58u0AlZrZ/cDRfSbpI88ybD9sFpcoMTPKqGB/J4f+JSfNP4Z8QappQIQ3QDg6MEwwbeGBff1C4h7xyAgjgDTBCpUGCfALllgnGIaFEVQi3f/gWpAANGIr5ygoBHPwQsABaRSSs+ITbWho9yFm2ap3tWV1S/YyjBw4kT45qCLGXSGAgcAIpQHHZU4FIjRQPVo+EALVlCfp+PUjYpsT8r9HcvCAdhIzWSIt8JKVRVSMZedm5fWJZWqXbKXv5o/xAe4whlaI1r47iI3v4X4KPL+M58t4c3Zy/m+kLfw3vSm4AeMM7C4fj5VY7Z/f/1eJvB4BMtedO/2zh8S/WPfwdj/9BZJQCDY/PWKB1m7/8m0BH9//P2Xn5G6fqcUzRIE1XrdDtNkGqMmAAAZ7/jJNIH0hIJP232BAKEVBKlRK1TGWFC0WoMGk1rE5sk1WZQWod8MILV7CZUdLyj6faDBrr/bqD8qO6OshHrlxccSieZYK1fZ5zRUadMh4njAbSH79KUcNrF0cnS3MLdxF9hVEjwcxBoa+SKqKauiPh4n98sTC1c3GyfHNGWA952sp96cgyxh3A0vpSSy/dnTVekWWsx/qwQAAAA=");
 
 export default BagSeedling;

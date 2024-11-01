@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-party` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-party?s=sharp-regular face-party}
  * @preview ![face-party](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-party.svg)
  */
-const FaceParty: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M35 93.5C49.7 67.8 67.7 44.3 88.5 23.6l45.8 12.2C99.7 65.1 72.1 102.3 54.3 144.7L35 93.5zM20.9 55.6L0 0 53.3 14.2C41.5 27.2 30.7 41 20.9 55.6zM320 464c59 0 112.2-24.6 150.1-64l61.6 0C485.6 467.6 408 512 320 512C178.6 512 64 397.4 64 256S178.6 0 320 0C433.4 0 529.7 73.8 563.3 176L528 176l-15.9 0C480.7 100.8 406.5 48 320 48c-114.9 0-208 93.1-208 208s93.1 208 208 208zM196.8 237.6l-25.6-19.2c34.4-45.9 103.2-45.9 137.6 0l-25.6 19.2c-21.6-28.8-64.8-28.8-86.4 0zm160 0l-25.6-19.2c34.4-45.9 103.2-45.9 137.6 0l-25.6 19.2c-21.6-28.8-64.8-28.8-86.4 0zM416 316c0 6.9-3.1 13.2-7.3 18.3c-.5 .6-1 1.1-1.5 1.7L608 336l0-96-64 0 0 32 32 0 16 0 0 32-16 0-48 0-16 0 0-16 0-64 0-16 16 0 96 0 16 0 0 16 0 128 0 16-16 0-216.8 0c.5 .6 1 1.1 1.5 1.7c4.3 5.1 7.3 11.4 7.3 18.3s-3.1 13.2-7.3 18.3c-4.3 5.2-10.1 9.7-16.7 13.4C378.7 427.1 361.4 432 344 432l-3.9-15s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2-.1c.2-.1 .5-.3 .9-.5c.8-.5 2-1.2 3.4-2.1c2.8-1.9 6.5-4.5 10.2-7.6c3.7-3.1 7.2-6.6 9.6-10.1c2.5-3.5 3.5-6.4 3.5-8.6s-1-5-3.5-8.6c-2.5-3.5-5.9-6.9-9.6-10.1c-3.7-3.1-7.4-5.7-10.2-7.6c-1.4-.9-2.6-1.6-3.4-2.1c-.4-.2-.7-.4-.9-.5l-.2-.1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l0-13.9s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2-.1c.2-.1 .5-.3 .9-.5c.8-.5 2-1.2 3.4-2.1c2.8-1.9 6.5-4.5 10.2-7.6c3.7-3.1 7.2-6.6 9.6-10.1c2.5-3.5 3.5-6.4 3.5-8.6s-1-5-3.5-8.6c-2.5-3.5-5.9-6.9-9.6-10.1c-3.7-3.1-7.4-5.7-10.2-7.6c-1.4-.9-2.6-1.6-3.4-2.1c-.4-.2-.7-.4-.9-.5l-.2-.1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l3.9-15c17.4 0 34.7 4.9 47.9 12.3c6.6 3.7 12.5 8.2 16.7 13.4c4.3 5.1 7.3 11.4 7.3 18.3zm-32.8 36c.3 .1 .5 .2 .8 .3l0-.7c-.3 .1-.5 .2-.8 .3z" />
-    </Icon>
-);
+const FaceParty = createIcon("face-party", false, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAABzAAAAL1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHCEfQsGAAE2AiQDCAQgBYMtBzEbfgbIngU5mWtqjuIojqsIyzKZt98W/BN61PtJVskiK2dFnIyK6qzS3blk5+rmyqvoP1zz/aPS1tOz0163jjbRAUbphEcRpUe2BgAJeZcstf9Tp2rGeSgUfo5wLmhj09LQWN0a6lwCOe8Q6NXWACpIzsvbS1RwrrU57wcdEvkGkYYj8nmehtEclnbA0m/q4gPGaeM14GBLlX6gsRsY+JgAAMgFAABaxo0a4GlAgejV/4BekQEEoBYAPASYUBMoBvWYCN7CwgMsLASf6D/9P1AgAJAv+uMNACwgABQLKgIALAAM/CzL3z8vOPhmkOMTZI11fOxJt40KvR5tJpWWlHboSsycvZb0IM/R0+599Zu/hpf1X2RVuDU+tU+Nt+8NXuvv4r36KT1q9dyc3NvO3oJsXbP3ZDu05Zjt4jFttx1JtpDjINsWmKojLtnLDuk4rpkiLqRHaccpSSDH3quT0SC0I+rEPDvsHdojeZsbKorWxYzjkWLX73DUmNmKqdfcaz87t87QZ4z9d4IV35z6NqFXHMD8njspGIbhNy5KpyxppYsdvdgYuuiKiT28owtjaCluLoodSHPXp6a2ME7XrmmcxvVgHG38PMCtd3Ny7h7FJy7O5wxdXjvgzAXpBU2a8fBcD7fZpRkXd7nL9nGvj0Qwz3bmzjuenrrINwgJ3NJRo9MrTLMiffSoUhckhA4aHKKgRY2cSY/ajQAT5fLxKUHkhbyCaSH1v1jBAODL7NPZ/+dMx7gG+GMAIDDz/8NkYztAJgsAMobWkmqookSh+KFpDeQEBICwAQFg4IuNADCJx0UAWNjkIQB8SKICAeCLzShMZAUgIphSgUEgK4BJJVuARQT3gQ/1PIt8iZC5TbhFzv2lJncy2jHJKyks9mq9adnFr3zmGK/z3Fr22tKWg6XMZRlLWc0cZrOA1YSvZCC3hiV0WlgHd8SjhEKK8ajFC9e+y2Mps5JVLHjm40mow3vfymat3TsHpoHSlhIzMECG/RGqBfsPAA==");
 
 export default FaceParty;

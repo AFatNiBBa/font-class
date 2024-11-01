@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-right-dots` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-right-dots?s=solid arrow-up-right-dots}
  * @preview ![arrow-up-right-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-up-right-dots.svg)
  */
-const ArrowUpRightDots: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l50.7 0L9.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L256 109.3l0 50.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128c0-17.7-14.3-32-32-32L160 0zM576 80a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM448 208a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM400 384a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm48 80a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm128 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM272 384a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm48 80a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM144 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM576 336a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-48-80a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const ArrowUpRightDots = createIcon("arrow-up-right-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABvwAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDMAsGAAE2AiQDCAQgBYMtBzobugXIjpQuIxjFw/N54Z/7kipTI7X9Ba1hLHaw5s0hZksz5hcFjdkdVh9s/s/1fDYf4LfhnqcNJdpSm3YFFpF4AidW7Sd0dtY6Qb6jeS8NUmgX6nSFPN7JzlGDdGN6G5f7DxrfaOUckjoZgGgIgInLF8/1/IfxYcRb1UeIt8xGQEwEpUCGDG0FGCMTaCtXIpcLPoxqVfwHlgQQNYVwcihHPTyMlxgWklTyvFc9HFVq1MuXpbuK1Rc1hbjGGc2qUoklFeriFhYi7h4RZzZvRbHxpm63y245u57urw1rVuurNWeFPlrhFplswVaHWFNxNyFblB5Bdzb833V8e9vbbn+u/gVcUD9jxRGDvfG6C+vVu/CGevVueP0Ng02I1DoDxdw+v9h38sn7ipHTT+9k9b/vjs8fe+zzO3Br/02tZzCa80fu6z895X33HbkdCASH3/mxjzcY81vtSgIfP/nDn8UO1SfTtHQnaksOxJj1qfaxJk2g+neaJgiTKY7ptPB8geRuFeC7Vdd1AoQCAZKaCgEybTQUIFfoLUAN7Q0VoKbCYpnI6whNrW1AUtdBkBnmVJBr6iFQwxivJWtqGhkAi+An3j6mTetCU+eVA/sNKEeVs0WVBJO8HR5dbjZ6HJNNPfFK2+y3zxFbbbHTkQ5yyNzMUXtNW8JPfW5poH4GKI1SHq48XLzMVoccttN++7xZRiuvd3o4tty5J7aTkHGQ35JEpCYbDx3af7zv0QN9/wccbtl/5DAAAA==");
 
 export default ArrowUpRightDots;

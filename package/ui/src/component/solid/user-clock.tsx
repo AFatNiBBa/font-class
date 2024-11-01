@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-clock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-clock?s=solid user-clock}
  * @preview ![user-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-clock.svg)
  */
-const UserClock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 0a128 128 0 1 1 0 256A128 128 0 1 1 224 0zM178.3 304l91.4 0c20.6 0 40.4 3.5 58.8 9.9C323 331 320 349.1 320 368c0 59.5 29.5 112.1 74.8 144L29.7 512C13.3 512 0 498.7 0 482.3C0 383.8 79.8 304 178.3 304zM352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-80c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0-48c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const UserClock = createIcon("user-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfAAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCCQsGAAE2AiQDCAQgBYMtBzEbCgXIhofn7fo693V9VY9RA5hLBxmgzpYZw0G2joSpU89zHlogzyEIylgbZIGE0jnOK1DAWK++qREJWK2iWHNbnGGKoqyIiAzFIfKh/fhQ/gZZ/F26qor0VPoCD5RBxQ9au0pSVwIQjQAwacWSeSo342bE5/+/QXxuDgJiEigESlDbCZyxbg20kymQyQQ34///839gQQBRjXtOIEM1duAgIANJlmVtW7RtWq6qny2P3fmae3pFPNPrGRd7Ph3w/O7ez+Jxqc9zr5ZXlvPyPd2edLHfC6Pqxd0tHo9vl3y5YtmlAREvjXlvbY16h150se/zI9/O7x79bv8XY8WjzcRjzcvxRMvHW+QRUV/o/GyjZ3/q9MX2L9z4qEuFSvv6nTvXb1+pdBEtivoNWMu9dHznrnb9hg7rsU/9k3fUj9lNOs2OFyb0KCiaNunevUnToujhWq7jgQU3G0zU4OZAjSK8MNDnQCDY/uiD321oOPbX2nICt9/95Q+87/9KupieRa0EglLf//tamy4CiAGUKY7rrHxRINkgw0Ot53EBQo4ASbVcgJK2GgmQyfURoEoHwwSolluiJLI6oZl1AyT1HAIlw50DmWZeA1XG+rio1ixKxsaZCvevlzxdQtPOFYP6DyxGF9tW5+2HScdjimO753G/1AtXbXfAfkdts9UuRwVy2Lz6mH2ma/A0P1QYpL+BCqMV15Pny8ttc9gRuxywP58yRvF83tNxfXMveAmTDtZIEpHyN1Tt920CAAA=");
 
 export default UserClock;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `films` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/films?s=regular films}
  * @preview ![films](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/films.svg)
  */
-const Films: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 264l0-32 160 0 0 32 0 72-160 0 0-72zm0-80l0-32 0-72 160 0 0 72 0 32-160 0zM440 32l-24 0L256 32l-24 0-24 0-48 0c-35.3 0-64 28.7-64 64l0 32 0 24 0 24 0 64 0 24 0 24 0 32c0 35.3 28.7 64 64 64l48 0 24 0 24 0 160 0 24 0 24 0 48 0c35.3 0 64-28.7 64-64l0-32 0-24 0-24 0-64 0-24 0-24 0-32c0-35.3-28.7-64-64-64l-48 0-24 0zM160 80l48 0 0 48-64 0 0-32c0-8.8 7.2-16 16-16zm-16 96l64 0 0 32 0 32-64 0 0-64zm0 112l64 0 0 48-48 0c-8.8 0-16-7.2-16-16l0-32zm368 48l-48 0 0-48 64 0 0 32c0 8.8-7.2 16-16 16zm16-96l-64 0 0-32 0-32 64 0 0 64zm0-112l-64 0 0-48 48 0c8.8 0 16 7.2 16 16l0 32zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120L0 344c0 75.1 60.9 136 136 136l320 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-320 0c-48.6 0-88-39.4-88-88l0-224z" />
-    </Icon>
-);
+const Films = createIcon("films", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABmAAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDJAsGAAE2AiQDCAQgBYMtBywboAXIjsPGMR1poyx/ZDz8t9bnfdX9qWcWuRaIe4ExCC4OHZFaAhUEh0LinFhUiZ1kvgWfuOb5pz29t7/4UKIaZO3d5y8wkEqLxtGAZs0znYDN2hzPRT8YcmNij9kj5rA9DVs7KOPneFkH6Z0EL+U7jT8N8yxJRwEg+gJgzaF9O3zbilbET+2PiJ9sQ0CsAVmgQIGRAqxQCIxUyiiVgla02/t/YCaA6MRLJlCiiffwBaAESVWWvXrNbzYaGjW00dGrPKjDq0MhGiFEFUSF7PrBoarRvDbl1lCRPn1n6u2JjV43p98dEYx+d9qdSdXpxrj0Fc9bQ/ZXiercEW8OjjOVdLnn9YGHIIUMK7wxyNl3J10bKi6v/GpDr7g5Qs5uxsfT7oyOcXf63vl7rIu0yzlfkm12yebdm+SMll365K2hHHepX78qG2qoOjuzquFzac6cnmv27DkYoJb1bvU5VZObZbX60bqrc8zR6p0f8Rf83jVoz55BLT0XDr5cK0JzvVr94ovlQCD48a87T57qs+K/7kYCf3z+7/+OX1H7VKc76JZAUMxoz3A81ZBqAQBI8bRxqUYgua3CW216U4BQIUDSqRKgMEJfAUqV6QJ0GG2hAJ0q+xSi7BEGOlHZpOkxtrDIM2xpoA/YDit85+80MIrQlQae9Mcx1UYLbOiU586ak5flx7Qii0Zxal+eh01TntayqbLURY942JMuOO8+Txr8cTtCT3nIRg/b4IuyuWaZI1smT+duVQfhf9wT7usr5vksl9f7pnjarz1VrAkFzhOTJCJ1fEkA");
 
 export default Films;

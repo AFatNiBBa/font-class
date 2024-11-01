@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-shield` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-shield?s=sharp-light user-shield}
  * @preview ![user-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-shield.svg)
  */
-const UserShield: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 128a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0A128 128 0 1 0 96 128a128 128 0 1 0 256 0zM43.3 480L87.6 336 323 336c-1.6-10.8-2.6-21.5-2.9-32L64 304 9.8 480 0 512l33.5 0 381 0 11.6 0c-13.3-9.5-25.3-20.3-36.1-32L43.3 480zM607.9 301.6C606.1 367.4 572.8 437 512 470.3l0-205.8 95.9 37.1zm-223.8 0L480 264.5l0 205.8c-60.8-33.3-94.1-102.8-95.9-168.6zM496 512c96-32 144-130.2 144-216l0-16.2L496 224 352 279.8l0 16.2c0 85.8 48 184 144 216z" />
-    </Icon>
-);
+const UserShield = createIcon("user-shield", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABhgAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCNwsGAAE2AiQDCAQgBYMtBzIbOQXIhofvdb6d+yR7fiQHWUGmJcAOiaqddJ5tCSqc/8s9v+dHC+TzERzaWLh00xp4tBv7eQI9z+u0NgW6LbBEMWtnN/wbRG+S9CmfZDf4YXOAPP6OkWqkW9MXuDF/afygu8tI8gxAtAPAvC0bVnmnGc2IL/5/kfjCCgTEfFAJZMjQS4CZMoFechVyuaAZ///P/4EVAUSd3HECOVpwFq4F5CCp53nPnh2LomNZa51vLmvFjot7Rtw+5OHy2kEPdr/VRd1uGfhAcc3gh3rcFuXFwyMeG/5Ycc3QRwh30bBH8fLaEY9fGwe3bNxSxk1dGrExukXZ+qEejRPvGRnxxNSITcWkU7w2+qn+m75bEPF+RGxeuVhcNO/dTf0fa/fYT/2+OOILF87p8SEf7jyue/fjdn74YQ9V4G3NAQ0a337Tv/833zYaA1CAPXHPyBvLZT/o25ZJT7tb/6tm/bZj4rPtz+f8w1/aM7BJFHb50uHzz29/4rdLus9i5oJ2bpwCp50FM2eNtwOBYMFb61/Z03bmXy1lAt+/9stv9Xr/v5MuSo+hRQJBNvL/kXami4CJAfgpztDfWGMgOcmFfmrDTQKEAgGSukKATE/tBMgVRghQ08ckAeoKG2QibyV0squDpOFkkJnsfJDr5HlQM9PHXl2nyHyQ8SDmC5i4WEOLVlXjRo+tplfTQmPdioqLM6plaegZYWAYOh3hRCc4zSEHHe00hZxiVXi64y224EV+qDLOaGNVpqu268fNmx1yilMd7UQnpGVmqM5rQ51hjx8GNRHS8XJJIlL5cLOjTj3q6EPHHQQA");
 
 export default UserShield;

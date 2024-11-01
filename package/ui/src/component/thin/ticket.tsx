@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ticket` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ticket?s=thin ticket}
  * @preview ![ticket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ticket.svg)
  */
-const Ticket: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 64C28.7 64 0 92.7 0 128l0 72.6c0 4 2.9 7.4 6.9 7.9C30.1 211.8 48 231.8 48 256s-17.9 44.2-41.1 47.5c-3.9 .6-6.9 3.9-6.9 7.9L0 384c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-72.6c0-4-2.9-7.4-6.9-7.9C545.9 300.2 528 280.2 528 256s17.9-44.2 41.1-47.5c3.9-.6 6.9-3.9 6.9-7.9l0-72.6c0-35.3-28.7-64-64-64L64 64zM16 128c0-26.5 21.5-48 48-48l448 0c26.5 0 48 21.5 48 48l0 66c-27.6 7.1-48 32.2-48 62s20.4 54.9 48 62l0 66c0 26.5-21.5 48-48 48L64 432c-26.5 0-48-21.5-48-48l0-66c27.6-7.1 48-32.2 48-62s-20.4-54.9-48-62l0-66zm144 48l256 0c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-256 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm-32 16l0 128c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-256 0c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const Ticket = createIcon("ticket", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABmAAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCZwsGAAE2AiQDCAQgBYMtBy0bZAXIhof/t+v7fW5V95p5Zg3tL2eiMjmDcyhlBPf8X/P5vbOiA/xGhxZlqecVXrkW2PMTWlg+n0gUzgY0MZ66KfWoiCr5RKSMrhS34+zxDXaCPL50VIl0b/oEN483jR91uoIkywBEAwAW7diyznvfxXcRn1ReJj6xBgGxGBQCGTL0CDBXJtAjVyCXC76LSoX/AwsCiDI8XAI5yrgHDwJykOR5Pn18U1d1qTbfXl2q2vPEyIhnOsQlrU+23umSljuG3tEi7h317LDaeHrM890Rl7Y91XZXXNp+94i72yPuG/3c8JqF97dH3D2iNvz7dIonWu5xSeedw8Q9LXcMrQlvoCvi6fb7+x5ddw2PbbU1tXe2ijtaauKuthJoHypckqPVtXF9+93xvHFXVU1c189n8HMNz/086JPjn1hw8SONNFatUj7U+MJbzc1vvdC0sbRKVWPjI+/RaUYONmGNm3avZJ/y1cT3TPzq02yxZZ9/0d7+xefLFuMyXnXzBHxXd4m676ZUuQSRumuuqaNBl8B+BYGgvHnYmwfq5/42oDqBH9749e+0c1qYnsMACQTZ2MpYezXGGBQAO8UFBtMHBZJb5HCpNe4SIFQhQFJWJUCmW4MAuSpjBCjpM02AsipbZCIfKLTYt0FS42yQme5CkGvxIiiZ632rrCWy2GQii/k0TFwuoWVDxaTxE4vZxW1mseFG1cU5hVseeUHujKKtjjvTGc5zzFEnO08Q51jnnu90yy18mS8qTDLeRIXZiuPyq7hd2Oc418k6e76MOYr39ZEusMePIi0B6WSxJBGp/J8OAAAA");
 
 export default Ticket;

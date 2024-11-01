@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `draw-square` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-square?s=solid draw-square}
  * @preview ![draw-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/draw-square.svg)
  */
-const DrawSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 151.4l0 209.1c9.7 5.6 17.8 13.7 23.4 23.4l209.1 0c5.6-9.7 13.7-17.8 23.4-23.4l0-209.1c-9.7-5.6-17.8-13.7-23.4-23.4l-209.1 0c-5.6 9.7-13.7 17.8-23.4 23.4zM119.4 448c-11.1 19.1-31.7 32-55.4 32c-35.3 0-64-28.7-64-64c0-23.7 12.9-44.4 32-55.4l0-209.1C12.9 140.4 0 119.7 0 96C0 60.7 28.7 32 64 32c23.7 0 44.4 12.9 55.4 32l209.1 0c11.1-19.1 31.7-32 55.4-32c35.3 0 64 28.7 64 64c0 23.7-12.9 44.4-32 55.4l0 209.1c19.1 11.1 32 31.7 32 55.4c0 35.3-28.7 64-64 64c-23.7 0-44.4-12.9-55.4-32l-209.1 0z" />
-    </Icon>
-);
+const DrawSquare = createIcon("draw-square", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABZQAAAHoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBOQsGAAE2AiQDCAQgBYMtBzIbuwTIhuB5u/6rc7ufer7RX1IEK4NyaekIiiZbeIJoiUjZXNw87zzqAnoQaY7zQMYEmvM8gc7z4XlCWWCZJmDpNtFDjyh8I0RIIuLvGB1PJ+TxWHZNA+lh+gzX20Pjd91dI2nJAEQ7AMxbv3qV6jfxTcSn9beJT61AQMwDpUCGDL0EmCkT6CVXIpcLvol6Xf6BJQFEI3t8AjlyzMcSQA6SlOcdhlYaWufrKg3FZuFu50rc7xpxr0sRdzptfHnii8Nf7fHUiIhX+zw24rUhbw+rxGtTXhj2SvfHh4pXej8Y+vLAd4YX/V9t9+qf/T7b95ntQ2u12s8Xai78XMN7XYb2nvd0+/ZFp6+/VutUqPv0vN41Ea/5+jIIBFfeuPXb9rYz/2muJPDdB3//z5+R+jdRTa+iWQJBNrI+0paoQlQFACDFOf2jikAyXWJ3beWeAKFAgKRRIUCmp3YC5AojBGjQxyQBGhVWy0TeInSydUDSyknITHYecp28CQ1m+tBs1CkyEFEQoP5w8Ys9smipHDd6bDm9nEY6jQuiTGeUy/rQc1oZRof2Oe6YM/ba46AzDjtllXPWUYszdJEXlcYZbazSdOV2etxeZ69TTjvouGN1zgzleWOoc3n7MFonAcZffygRqfI8pFFQBAAA");
 
 export default DrawSquare;

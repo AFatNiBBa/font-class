@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `watch-smart` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-smart?s=regular watch-smart}
  * @preview ![watch-smart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/watch-smart.svg)
  */
-const WatchSmart: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 48.3C64 21.6 85.6 0 112.3 0L271.7 0C298.4 0 320 21.6 320 48.3l0 17.3c36.5 7.4 64 39.7 64 78.4l0 224c0 38.7-27.5 71-64 78.4l0 17.6c0 26.5-21.5 48-48 48l-160 0c-26.5 0-48-21.5-48-48l0-17.6C27.5 439 0 406.7 0 368L0 144c0-38.7 27.5-71 64-78.4l0-17.3zM80 112c-17.7 0-32 14.3-32 32l0 224c0 17.7 14.3 32 32 32l224 0c17.7 0 32-14.3 32-32l0-224c0-17.7-14.3-32-32-32L80 112zm136 72l0 60.8 39.4 32.8c10.2 8.5 11.6 23.6 3.1 33.8s-23.6 11.6-33.8 3.1l-48-40c-5.5-4.6-8.6-11.3-8.6-18.4l0-72c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const WatchSmart = createIcon("watch-smart", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABeAAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCBgsGAAE2AiQDCAQgBYMtBzIbCAXIjsM4hvwSS/nHwz9zvd2XZP5pZ8qQAgLrsqJFRSzcskUFbieZlUGnTj3PeSiAzyEI2ti0JsjytTv2eQUq1ot3ApWnULVkFcBaO7tbDHr9Kn1CkmG7DJsDZHEoriuQPEi+w7XyVvG7hk6TKKQAogYARsybNcVHv8QvEd+W3yG+NQkBMQLkAikGmggwWCrEA2RyZDLBL1Eu239gTgBRwe84ARkKWI8tgAwk0izr2ahOqVA1m1sqFBc9qh9xr10pHte901A87vC8objf/llrcb/O7dbFeFLvbqOIJx1f4Jd/1Ollu2hxsU7EbeJ43TulUlyqfy8iTtS7WyzOEYbEnQa32w6NuxHxqN3jhi1f1HjxZwtrGXYt/Z4fuqf7D9+ntbxTJ6v6i6pZnXdqSb8fRcvVznO+2i+sica5cUP89sv9/6rc+D/nSuPVnTGjLhAIPuvw+WXVB/9TqZSA3z78+19er/xRHE9eoJIEBGnncmeL4zgQHcBXSmKvlnEcgcRyKb5rFXcFCEUESFQoCpBqrIYAmaJOAhQ000eACkWzpCKrLNSxpIFEFTtAqq8jIFPHG1Aw2JdehTqRao1UCvnTixsboTG78h5du+cD82mlUvLB8+agfFtsvzdNdMCgtbbZarc1Vttgd0B2mhLuscXYFTzGB+V66Kq73ED5cXu/f641dtplg2222jaD5Pfd9vau53eAknDMnlKJhEhK8hS6PA0=");
 
 export default WatchSmart;

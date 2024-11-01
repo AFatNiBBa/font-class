@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cassette-betamax` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-betamax?s=light cassette-betamax}
  * @preview ![cassette-betamax](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cassette-betamax.svg)
  */
-const CassetteBetamax: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 160l0 256c0 17.7 14.3 32 32 32l448 0c17.7 0 32-14.3 32-32l0-256L32 160zm0-32l512 0 0-32c0-17.7-14.3-32-32-32L64 64C46.3 64 32 78.3 32 96l0 32zM576 96l0 32 0 16 0 16 0 256c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 160l0-16 0-16L0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64zM240 304a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM80 304a96 96 0 1 1 192 0A96 96 0 1 1 80 304zm72 0a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm200-48l0 96 96 0 0-96-96 0zm-32 0c0-17.7 14.3-32 32-32l96 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32l0-96z" />
-    </Icon>
-);
+const CassetteBetamax = createIcon("cassette-betamax", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABoQAAAKAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDBQsGAAE2AiQDCAQgBYMtBzcbjAXIjsM4RnygWDmKeHiy+75zq3vUPUZ9GGs4s8PN7GgjKBXixwPfzX/vrAGcYprC2DYWBxhh839NvQA+wM8Hen4o0VYNUl7rej6BAQ5v3pTAs8PZRHFn294cEQ/xRiiMI5TxbSzURHoofYH7Qk3jVyNuJikLANENgG2HHbSPd36KnyK+aLzEF/ZCQGwHWaBAgXEBNioExpUySqXgp2g0xH9gJoBoFtcrgRIVnsUrgBIkrWXZ0zO7Y6ytbbRu6igPrZuqo1KRrh9o6o64a6iLIjqjq7Mr4obBtmqPO/trzhOESPHg3HNmFs/Pv0djxHsfWfDMyeO5eddI9fgctaaMLy01vm4quWEsxCNzjvquWdvI4PrhfuZa3Tl7Hx2jphSm+lSbLYU6Iqqd0ND7HqjruGugIa7vr6sq7hxsI6a/3H3/Pu2LU78wVaDz9ts73ykiZKJjLOX1ypxzt25UPT1PvuNJ6lVMiLlhv6+LX/7++5cCVz05+vHh0WePjJx99Icfjg46RLT7wAEHDGTux0uOj2U8mztv5/bO41U9xd0gEBz+5v/NcV0b/2+tE/jltT//x7dr/JS2ppfRKoGgWNhY6Oi0FTA+gDjFpaZvfFEgeVSr+FPb3S9AqBAgaVYJUBjTLUCpskCAJpNWCdCscpBClG1Cv2M6kLS7ABRWuwaU+r0Kmmz0cdSsPxSgygEa96WYvOsQ3WVXXrZ4aV6fVzsaHvoYu7khH1bnXion5uGDTnWec13sFCc7w8UD7EL7pJc4x65bhF1+KFtmsaWy9fLl/lP50AFVeBc5Y1m8vs0G+flwrku358/DRhKTLteYJCJ1n/RbjXfxKYteYu+cEy4HAAA=");
 
 export default CassetteBetamax;

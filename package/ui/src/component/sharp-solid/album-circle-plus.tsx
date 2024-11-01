@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `album-circle-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/album-circle-plus?s=sharp-solid album-circle-plus}
  * @preview ![album-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/album-circle-plus.svg)
  */
-const AlbumCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 32l448 0 0 160.7c-5.3-.5-10.6-.7-16-.7c-20.1 0-39.5 3.4-57.5 9.6C352.3 140 293.3 96 224 96C135.6 96 64 167.6 64 256s71.6 160 160 160c12.9 0 25.4-1.5 37.4-4.4c6.5 25.5 18.5 48.7 34.8 68.4L0 480 0 32zM224 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm208 0a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm16 80l0-16-32 0 0 16 0 48-48 0-16 0 0 32 16 0 48 0 0 48 0 16 32 0 0-16 0-48 48 0 16 0 0-32-16 0-48 0 0-48z" />
-    </Icon>
-);
+const AlbumCirclePlus = createIcon("album-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfgAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCIwsGAAE2AiQDCAQgBYMtBzgbKwXIHgVuW/PUVWhImZrTc4uuePh+rfxzX/dMbXrC0BtmUkwKXSITGxWVdUHh6INFRXDsrEuLMNPMfqtNPxrIj/vBnp+3RImpnf5+6o/zT3n+jD5KxqpBIjUifAIDHL7zJc1HbcPZRHHWqe7JZwjxQ6iKE+2r6DDesJXuII9P2RUV0pO04H7/0PhBB1dIGmUAojkApq1ZsUjDH99GfPh/4oMFCIhpoBTIkKGzABNlAp3lSuRywbfw///+H1gSQFTFjSWQo4qTOAvIQZLneZdWneprlSb56lqlyJo0biIeFkHPevww+5k4rXwnzavCPlk/Gpldow3EAxdaR0XQNgnbLq2R2+MgXg2qXBhYju2KYPwwuA47pJkw1niIIhhSsLWaMMP4acS6Pbq/aJ7/VL/sXjxtMNgzR+u6Pu8qzkydER8/xtBnFB6wVq0e3IUavtdNHTeaoslhRx9MGlbfu3f9sJT6UJNHmy1pHuWl5oYaeiBDV5vjy4FA8FeLbWk28de6WgLfD7/8hPP935Cmpheok0CQDfyf2Zimgq+GKJPitO7JNwkkB+Xwro09FCAUCJBUFQJkOmkuQK4wQICKrkYJUFVYIRN5I6G1TRMkjR0DmdHOglxrL0HFRG/SVa0jU56sG/nDL2M247M2lQ0eWo4vb5tORUxiW55QPvY5XYf6AW63Iw47aZed9jmJyOMW5U45ZHZGzPJDpWEGG6o0XrndeTVWU/q4E/Zdy/uIdSYo30/1dTqf3A/BJDiHq0gSkVro3xn0j445SLwA");
 
 export default AlbumCirclePlus;

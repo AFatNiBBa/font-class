@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-merge` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-merge?s=thin code-merge}
  * @preview ![code-merge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/code-merge.svg)
  */
-const CodeMerge: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M80 16a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm8 111.5c31.6-3.9 56-30.9 56-63.5c0-35.3-28.7-64-64-64S16 28.7 16 64c0 32.6 24.4 59.6 56 63.5L72 144l0 240.5c-31.6 3.9-56 30.9-56 63.5c0 35.3 28.7 64 64 64s64-28.7 64-64c0-32.6-24.4-59.6-56-63.5l0-176.4c22.9 42.8 68 71.9 120 71.9l112.5 0c3.9 31.6 30.9 56 63.5 56c35.3 0 64-28.7 64-64s-28.7-64-64-64c-32.6 0-59.6 24.4-63.5 56L208 264c-66.3 0-120-53.7-120-120l0-16.5zM80 400a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM336 272a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const CodeMerge = createIcon("code-merge", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABjQAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCIwsGAAE2AiQDCAQgBYMtBzEbJAXIngV2m8ubI6VAgjGrSY7qznh4mCt7P8nSQBFTICBVxxbwGNSxEdvaA9az3WhTFXEscTZfKIEUlaYmTaJzg0oxdGNn5spvVRFN81qP+b/m83t+dICfj+BQoq0a5G4DiYjnDTadRXvThGaRNlHc7cxlkKBbbpAQ14Vhc8P2028hi4ewVRXJffMLbucrjV+1dpVEmgKIRgCYtGLJPN/WY33EL5WJX8xBQEwGuUCKFO0EGCsVaCeTI5MJ6qNSof/AnACiGl5dAjJU4xjOAjKQyLKsPL1cLlaVs+XFqsKaxx4U+QTyLJ6s8ZDZn656CR4iIR5REFpJjs8MVI23Wtli3Jc9klI+C0ZYfDf+66Qrz/HDiykdHyteYYv+wr0bf9n+iwXvbOcTm8bVHDjyF69rC40bBzy+Wqh9/deRRv52+K80/fB70OjNvz0OSY+GHS4acm6tmuXzMpA0qml4MKYybf+ZM/sLdD4QCMbder6h4dj/a20C3nz+53enN6p8i98mL4BaCQjSvpW+1sa3GgHoAIIkjuvMfFEgsU8GL7XkjgChgACJagUBUm01EiBT0EeAKh0ME6BawRKpyOqEZtZVkCg5BFLDnQOZZj4AVcb63q/WLFLNo/WG/vBLmN5C04blg/oPzEfny5TCKBMZWsfkYqnncVfSCzba7oD9jtpmq12ONshh88LH7DOdg6f5odwg/Q2UGy3fzj6uXm6bw47Y5YD9qZ0x8vteT8f56r1ATSDmYBGJhEgKz7G03y8zAQAAAA==");
 
 export default CodeMerge;

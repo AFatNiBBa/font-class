@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fireplace` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fireplace?s=sharp-thin fireplace}
  * @preview ![fireplace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/fireplace.svg)
  */
-const Fireplace: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M624 16l0 64L16 80l0-64 608 0zM16 0L0 0 0 16 0 80 0 96l16 0 16 0 0 408 0 8 8 0 112 0 8 0 0-8 0-152c0-88.4 71.6-160 160-160s160 71.6 160 160l0 152 0 8 8 0 112 0 8 0 0-8 0-408 16 0 16 0 0-16 0-64 0-16L624 0 16 0zM48 496L48 96l544 0 0 400-96 0 0-144c0-97.2-78.8-176-176-176s-176 78.8-176 176l0 144-96 0zM331.1 299.2l-33.5-33.5C267.7 284.4 208 337.4 208 400.1c0 61.9 50.1 112 112 112s112-50.1 112-112c0-18.7-13.4-67.2-67.2-112l-11.1 11.1-11.3 11.3-11.3-11.3zm34.4 10.9c41.3 39.1 50.5 77.8 50.5 90c0 29.3-13.1 55.6-33.8 73.2c3.3-7.4 5-15.4 5-23.9c0-49.3-67.2-94.1-67.2-94.1s-67.2 44.8-67.2 94.1c0 8.5 1.8 16.5 5 23.9c-20.7-17.6-33.8-43.9-33.8-73.2c0-26.3 12.6-51.8 30.1-73.8c13.4-16.8 28.9-30.6 41.6-40l35.4 35.4 11.3 11.3 11.3-11.3 11.7-11.7zM320 496.1c-29.3 0-51.2-21.9-51.2-46.7c0-18 12.8-37.5 29.1-54.4c7.8-8 15.6-14.7 21.5-19.4l.6-.5 .6 .5c5.9 4.7 13.7 11.3 21.5 19.4c16.3 16.9 29.1 36.4 29.1 54.4c0 24.8-21.9 46.7-51.2 46.7z" />
-    </Icon>
-);
+const Fireplace = createIcon("fireplace", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABpQAAAKiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDJgsGAAE2AiQDCAQgBYMtBzAbpgXIBnr4uqp4P7O6wEMLOSJ9BHdPo5NL4x//DXj8eeFHmrNrxCfgXvEKNF4ay7e1VpuCFcXaluNAHp7/yiGCH0RMRBqmHBqWDsDWLzriArPM3ATm7Ov1kQQmgsGyYEAR+FYo16RBLc6+1Vvpxr9DoBvUAASgcgA4CLAAC0hGAJTEQkAyNg5gYyN4q3//mP+BDggAFAW+xwBgAx5gH3AOALABMETZtjdfXELWOL8raDf2u3wDECFJ4d4+vw8h5Pcb6ELxkzJnmjwqdaoRyrasR0u+vpaxwjLySXpc/37jh3XvNkS+DqVLld6Yc2fyqmzbCh3JsSNtSeLy0tGKVmyhbQnSsuiVRZdo+XanzItjx2lh9Mb4pfFjY46nrsmzI0spxShOcQ2nx0qLtSLHkrg45S2KyeweG73Ql357ZPvndDc736TPnrLMaktZ2rYJR/jlRaBdS/HgGephKapw82aFE9PNmxWGGoqV+TqXMw5zadtjqh4hnnRdvLp54kVg1YMPecJ/v3779vVvOPT6S/vtHGd79ldLYas34K8e9Pz3X+A3wO/AscgTrO4PxO2rWjsDkSfuyHks9jO8jE7admIywOQT25KiX36OBQABgrl5RzltwiX/9/gNAO+Pf/04r+ffWTPWbAc8GAAEVs5/OWlpxgI0pgAgZzSY9M4cBRi28R7WB1iMABC+MAaGF1IDiyQiYOMjB7hIpZAQXN8AC9leRDStAIYA/cCiMKPAJpoD4KIkV7JRRMuqXanypD/H9MoSqTTLyZc7r1Pcua1YcjkKY7KEE/azDlYd2bCXzvShNwPpREe6MVDQ/alVGEQvKntoJX6IQz5ykxeH4jjp+lpvLLL9GUA3W81PUwLn+XRWBvv9syFkYM78rDEYkPF27vZJAw==");
 
 export default Fireplace;

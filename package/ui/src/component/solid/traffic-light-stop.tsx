@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `traffic-light-stop` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-light-stop?s=solid traffic-light-stop}
  * @preview ![traffic-light-stop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/traffic-light-stop.svg)
  */
-const TrafficLightStop: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 352c0 88.4 71.6 160 160 160s160-71.6 160-160l0-288c0-35.3-28.7-64-64-64L64 0zm72 368a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm72 0a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zM160 216a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm0 72a48 48 0 1 1 0-96 48 48 0 1 1 0 96zm0-128a48 48 0 1 1 0-96 48 48 0 1 1 0 96z" />
-    </Icon>
-);
+const TrafficLightStop = createIcon("traffic-light-stop", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABfQAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyBcAsGAAE2AiQDCAQgBYMtBzkb+QTIhof/t+v7fW7VU2PIGsDIf2amcsZOZ/2UipT1/F/u+T2/DfiNDmVPPZCxKt3reQIBj2XTO5EssEwTsKbmPTGA1xninpDHtuy+BtJjqYaH3IfG77q6T9KSAYg2AJizad0Kn34T30R8VX+L+MoyBMQcUAhkyNBDgOkygR5yBXK54Juo19l/YEEA0SgoLYEczdiCfYAcJI153qWlSnPVckM13yhLL217cXDEq11SPJjx0YavZ32yKYvHh74+sLTlsQGvdH984Itdyo/2f3Hgy92eGPTKgJe6bmzzYzJrP96d09B+rMvcWDSu7/t6m9f/7FM7WDPrk2fb0rZUiHm12rwEiVpte6HUtu2zny461XHNmo6kdnHp5LVrJ0vcH/XIAI1qFz/70zvv/PQsGrvdeB0IBA/Gzn1qV+vp/zSXE/ju/b//tz9C9U9jdnodzRIIsuH14bbHRYjZAgCQ4qK+MRuBZI2L9a4VDwsQSgiQNCoJkOmujQC5kmECNOhlggCNStbJRN4idLCjBknFGZCZ6AbIdfAGaDDdZ2GjDpG9YPzrwf/epSxsQws2FWNGji6mFpMtpfDOsHp1WrHaGXyRjwyBFx10yknnHbDfEedb5FkrkgtOWDgHL/BFhTFGGq0wVbG7e//0Rgecdc4Rp5y060xTnB8MdnF++hDoJwHlWHVJIlK7L1Yb8d6pI15z");
 
 export default TrafficLightStop;

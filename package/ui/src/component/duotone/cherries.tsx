@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cherries` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cherries?s=duotone cherries}
  * @preview ![cherries](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cherries.svg)
  */
-const Cherries: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336C0 224 96 224 96 224c30.5 0 56.3 9.5 73.4 18.2C183.7 249.4 192 256 192 256s1-.8 2.9-2.2s4.7-3.2 8.4-5.4c7.3-4.4 17.8-9.9 30.8-14.7c15-5.4 33.4-9.7 54-9.7c0 0 96 0 96 112c0 160-144 176-192 176S0 480 0 336zM353.9 488.9c36-32 62.1-80.9 62.1-152.9c0-53.1-18.7-88.3-43.2-110.5c17.1 2.4 32.2 7.4 44.2 12.7c19.4 8.6 31 17.8 31 17.8s7.2-5.7 19.7-12.4c17.1-9 44-19.6 76.3-19.6c0 0 96 0 96 112c0 160-144 176-192 176c-20.3 0-57.6-5.7-94.1-23.1z" />
-        <path d="M302.4 4.8l.3 .2c.3 .2 .8 .6 1.4 1c1.2 .9 2.9 2.2 5 3.9c4.3 3.3 10.3 8.2 17.5 14.5c14.4 12.6 33.7 30.9 53.6 53.9c35.1 40.6 73.3 97.7 87.6 165.3C455.2 250.3 448 256 448 256s-11.6-9.3-31-17.8c-14-50.1-43.6-94.2-73.1-128.5c-14.3-16.6-28.3-30.5-40.1-41.2c-3.1 12.9-7.3 28.2-13 45.1c-11.7 35-29.6 77.5-56.7 120.2c-26 9.4-42 22.3-42 22.3s-8.3-6.6-22.6-13.8c38.4-49.1 61.8-101.8 75.8-143.7c7.7-23 12.4-42.5 15.3-56.3c1.4-6.9 2.4-12.2 2.9-15.8c.3-1.8 .5-3.1 .6-4l.1-.9c.6-5.3 2.9-10.1 6.3-13.8C274.9 2.9 281.1 0 288 0c5.4 0 10.4 1.8 14.4 4.8z" />
-    </Icon>
-);
+const Cherries = createIcon("cherries", true, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABpQAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCYQsIAAE2AiQDCgQgBYMtB0wbfwXIhofn8/o69yWpD1XLqZY9kLmadWs78Er1P+fSRdlogB9Etqa9PS9N8KzTErjnB5IW6UF8RyrHfH47+W5AUpdN0uOfDBM3bA6Qp2HZpQrSXelb3MD/Axg/6uVSkqYMQFQBsGDbpjU+3BW7Unxbf5X41moExEJQCmTI0FeA2TKBvnIlcrlgV6rX2RX1ekkAUcGvy0AFBW7GvYAcJCHl+cxRQ1qKtnxrS9F8REtzy0Vxm0K6MU+NcZ6rPQrfdfvQ+8c+PfLpoXf2fHHzo11vjYuGvjDuhT4P9Lkj7oiIO3rc0XJNt3hkVMQzwyKe6PbakMe6XRQX9ag6w54Ydgc8MuKp2g+z35386tBHp74+9/2tBz0zLuKFQRf1vnvoY3NTw55ZNvNjXj308aEDn64+/XPt28O/NebtiIDqwEOf3LT7+avOenlmkHY8On7cUdsHLDyrGLZg6uNPiGM/Hdzt/pen9KpEonHxES2Nm53Y/QiOOJRDq3vu3ydQqy16fOqRu6qHHnrEEd1j7ZIlX399443ff7dkaSw96M4nCvJi+Ntvj7ulx84gZt7Y2T6peuml7wKB4Io+/5x6QMfsvxtbEtjz9q9/ClfXP0gXpqfRKIEgG10fbd90IejpwLspTjew9UVPIZBZL6F9rW4XIDSTIKlohkwfVcg1GwWF/qbsr2i2SSbyJqGr/RIkrU6CzFTnQa6rV6Aw2xdeRdfIJFOUK/FjmLYU8SXLygljx5czy24kSsLGu8lZ5bIx/HRTGUFrHe4ExzvVYQ51lFOBO9ma8DTHWTpil/ig0gRjjVeaqdxOL7Wt4J3sFEe1lf1FZinPm8OdPm4fQatJgIl3uj8jUmTVQ4487OSTjzrslDEirnfOlMcMAA==");
 
 export default Cherries;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-through-window` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-through-window?s=sharp-light person-through-window}
  * @preview ![person-through-window](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-through-window.svg)
  */
-const PersonThroughWindow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 32l0 384 96 0 0-144 0-8.3 6.8-4.8L320 127.7 320 32 32 32zM352 136l0 8.3-6.8 4.8L267 204.5 328.1 288l71.9 0 7.4 0 4.8 5.6 96 112 8.9 10.4 90.9 0 0-384L352 32l0 104zm15 280l107.9 0-82.3-96-51.3 0-54 40.5 93.5 126-25.7 19.1L312.5 448 32 448 0 448l0-32L0 32 0 0 32 0 608 0l32 0 0 32 0 384 0 32-32 0-217.5 0L367 416zm-98.7-81.2l35.1-26.3L240.9 223l-36.4 25.8 63.8 86zm-89.9-67.5l-18.4 13L160 416l128.7 0L178.4 267.3zM168 136a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm-80 0a56 56 0 1 1 112 0A56 56 0 1 1 88 136z" />
-    </Icon>
-);
+const PersonThroughWindow = createIcon("person-through-window", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABhQAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCQQsGAAE2AiQDCAQgBYMtBzwbTQXIhof/n6u67ydV1Z0MQ4YZ3RIpQlbLwqzrs5ZA4dSp5zkPLZDnEARtD41vC2Z3zfMKFHBs31SvB6xWUC5TdZusRyKMvRESJBEdnx5fF8jj7xipRro/fYtbe6PiB91dT5JnAKIdAOZt2bDKZy3REvHt/28T31qBgJgPKoEMm3sJMFMm7AVyFXK5oCX+/1//AysCiDq+MYEczbgCtwJykDTyvH33Ac3Nza3LWut8c1krdqQslUG8a2yJM632CZ1iY2yKsuxcfmnnKCOLVmFbWZSbo4iVsSmGxvxoVURkEVG2FSlEUQzfPGPqjM0xNTZtHjhkoChj8+YHBj/V7f5Bz/YsHhzy7KCnu9838KnBz/To/0K7F37q9+3hb/V99Oqrr97rNk0Oeu9ae1VzjjQ1NR20aoqZ6y1tLLLnjFvscDWOtul68uTJdXtMtNWuK9zhft2rytUq1V7xvrtq/9phXDFrk2lmb9q2oBc33uwap+9qvrbzunWda3Jt21c//fTVtvI6EAgujaoVe9rO/KupTOD7D375TZ73/+fp6vQCmiQQZCP/H2lnuhpADCBMcVl/54MCySUNbGor9wgQCgRI6goBMj21EyBXGCFATR+TBKgrbJCJvFnoZNcESSvnQGayK0CukzdBzUxfBHWdIktEJo2Yf2DiYgstWlaNGz22ml5tS4PNLarNz6iOzaGXpW8YzjrsjNMuOuSgYy4a5LxV8SWnLPbgRb6oMs5oY1Wmq65br8c3O+S8C44547QuMkP13h3qsj96GJyEpOOlkkSkznmrjopmZVQcAw==");
 
 export default PersonThroughWindow;

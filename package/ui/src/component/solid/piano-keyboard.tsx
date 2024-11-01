@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `piano-keyboard` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/piano-keyboard?s=solid piano-keyboard}
  * @preview ![piano-keyboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/piano-keyboard.svg)
  */
-const PianoKeyboard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zM512 224l0 160-80 0 0-68.3c9.6-5.5 16-15.9 16-27.7l0-64 64 0zM400 384l-96 0 0-68.3c9.6-5.5 16-15.9 16-27.7l0-64 64 0 0 64c0 11.8 6.4 22.2 16 27.7l0 68.3zm-128 0l-96 0 0-68.3c9.6-5.5 16-15.9 16-27.7l0-64 64 0 0 64c0 11.8 6.4 22.2 16 27.7l0 68.3zm-128 0l-80 0 0-160 64 0 0 64c0 11.8 6.4 22.2 16 27.7l0 68.3z" />
-    </Icon>
-);
+const PianoKeyboard = createIcon("piano-keyboard", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABcAAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBdQsGAAE2AiQDCAQgBYMtBzUb+gTIjsQ4JvJIFy8igufnen/OTbaQLUMKwODrmGVd+8mxUIAKSJF7yVwbP3Xqec5DAXyjoI21QBb4Wl3nFVggtamTJFawAFWMa24jJjiDTK6JPzhEDHGh+YA8vsmuqpBuJbiWvjR+19pVkroZgGgEgEkrlszzyY/xY8SXNRFfmoOAmARKgQwZ2gkwVibQTq5ELhf8GDU1/B9YEkDUgmknkKM21mMrIAdJJc/b1G/cuH61Uj9fXq0Ua572jHjZKsWtXq+61Y8Xfd60zeJ279fd620Sioi40TaiurSoFvXYELeaKyZaPuj8utHrPzvZ/pUJFx42pnFB0bjxw094mp2PHzzEyYWm+iVNNPHAg40g3eEmSr9MvTgxCyE97H4HBILxX7d8Q8Ox/9SpJvDzu7//zx+miek16kggyPrW9LU2TQTeKQBRiuM6KzMLJMtVgKZaz3UBQoEASS2FAJm2GgmQK/QRoKKDYQLUUlgiE3ldoZl1DST1HAKZ4c6BXDNvQcVYn0a1NIvMxAgDIX54sdNHaNquclD/geXocpsppNVgcXNMeaz2PB46veiq7Q7Y76htttrl6IAcNi89Zp/pGjzNjEqD9DdQabTyunw9v9w2hx2xywH7ZZsxyvdhT8f18V5kJEAd7H6SiNTg4K5N+w/027PtlAkC");
 
 export default PianoKeyboard;

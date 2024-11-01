@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-open-full` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-open-full?s=sharp-regular box-open-full}
  * @preview ![box-open-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/box-open-full.svg)
  */
-const BoxOpenFull: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M312.8 157.6l7.2 .9 167.3-20.9 44.1-93L444.6 3.4 384 131.5c0-1.2 0-2.3 0-3.5C384 57.3 326.7 0 256 0S128 57.3 128 128c0 2.2 .1 4.3 .2 6.5l65.5 8.2c-1.1-4.7-1.7-9.6-1.7-14.7c0-35.3 28.7-64 64-64s64 28.7 64 64c0 10.7-2.6 20.7-7.2 29.6zM64 160L0 288l224 64 96-160L64 160zM576 339.6l-48 13.7 0 57.2-184 46L344 312l0-24-48 0 0 24 0 144.5-184-46 0-57.2L64 339.6 64 448l256 64 256-64 0-108.4zM640 288L576 160 320 192l96 160 224-64z" />
-    </Icon>
-);
+const BoxOpenFull = createIcon("box-open-full", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdQAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCEwsGAAE2AiQDCAQgBYMtBzQbFwXIjtMV8Uyb4BIP/28Xdd+v6h5ANYCRyyuHcuYgAtM9G0nVIY/E7+b/ms/Pmg7w8534IUVbaVstcZT5fAIDjPZKkdlwNlGcuZm4xIZym1QEY8Fh+wzb7yCPf+KaCul++gJX44fGT1q5QlLJAERDAExcvniuj76P7yM+L18nPjcbATERFAIZMrQVYIxMoK1cgVwu+D7Kkv4DCwKIKrw4gRxVbMY5QA6SPM971epQq06lXr7Mbam9vVnzZstjeSyLJXHRXPr0uA+mNea94oKLlsadeNj7le7P9Xyp1YWmS5YsX7J0K9w4ZPgQqxxotUOIZREMCzHLi8XLli5bUiZ3ernhyz/zxbYvjOi4AS96vqneayztacwFERGVIZMXLJg8pJJlYmINzWvWbtToySdtfu2Ge/+M8edp0nfjrX9C2aF89V9sGeXNvq5raYCWrjeFRvnXHuX4YO35ZR0uO7BHz4NA8OU9u6xvMOa3mnUS+PGdl84uP0oX0suoKYEg61P2sSZdAKIGEKc4phPzRYFktRzeta47AoTaCJBU1RYg00ZDAXK19Ragor2hAlTVtlgm8lpCU2srSOo6CDLDnAW5pl4FFWN8HFU1jUziBHkRfvhSp/XQ1HHFwH4DilHFtCiLQsT54dHFtt7jmG7qqbbaZr99jthqi52OdOQhc1NH7TWNI6b6ocJA/QxQGKW4rjyuX2arQw7bab99YZTRivd2D8f4zj2VlYBxkJlJIlK9TftP9P0Wtb6iCQA=");
 
 export default BoxOpenFull;

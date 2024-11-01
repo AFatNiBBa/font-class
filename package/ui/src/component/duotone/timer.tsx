@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `timer` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/timer?s=duotone timer}
  * @preview ![timer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/timer.svg)
  */
-const Timer: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256C0 397.4 114.6 512 256 512s256-114.6 256-256S397.4 0 256 0c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-29.3C378.8 81.9 448 160.9 448 256c0 106-86 192-192 192S64 362 64 256c0-53.7 22-102.3 57.6-137.1c12.6-12.4 12.8-32.6 .5-45.3S89.5 60.8 76.8 73.1C29.5 119.6 0 184.4 0 256z" />
-        <path d="M159 159c9.4-9.4 24.6-9.4 33.9 0l80 80c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-80-80c-9.4-9.4-9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const Timer = createIcon("timer", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABewAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBcgsIAAE2AiQDCgQgBYMtB0YbCgXIhof/t+v7fW7V6wFUI6N7QGTkpyIwgp2+9VMh7unv3fk//xvwAfjfEz/IAvm0dnWeQOdTs+1Z13lCmWZgvW04MiLwFUSIlIg0TtiY3SGP77ILakj3py9wK/0PYPyqnQsk9TIA0RQAU1cuX+id2qhN8UX1BeILCxAQ00AhkCFDRwEmyAQ6yhXI5YLaVK1SG9VqQQBRQk/OQAk5KtgDyEESIs8bTW1Q0yiv0Fvqr32iZznub/tor0o80CF+nBrx7sKIL8s/L/56+vsrf5r23qKvKtda3kWcaXV3g+tt7o0wnPFu+Ycl36z4adl3lZ+X3xtnW99THx99Y8Czuj3d9Onfu36x4wuPFI0aLV7sm2/6hd4xuy3tbufsbLOdvb1dW7MlhTRGja9caTylMXi8k5kNn3vfnFhaLi9NaJTLr152/Gqjhlfvb9jovmGTFo0CAsEDV15NG5tM+L9ugwR+ee3Pf8svRfWdJD2NuhIIsgHVAdYlkAgAQIoTuiVuRyAzVYI+taF7BAj1ESApqS9ApoOmAuTq6y9Ajc5GClBS33KZyOsJLa2fIGnoMMiMchLkWnoe1Jjg47CkZWQhxgUI98FLnsWhmZuKoYOGFOOKbWbwUcPU1fGF2e5zInf6wkk7HHTAMdtts9sxRh6xMDluv1kaPNMXFYYaZIjCOIW7XMoVFh5x1O616F9nvOJ80McJfbwvbCcBhl1OKiNSZI2izj8y8KVqTZj4IgEAAAA=");
 
 export default Timer;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `family-dress` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/family-dress?s=sharp-regular family-dress}
  * @preview ![family-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/family-dress.svg)
  */
-const FamilyDress: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 64a64 64 0 1 1 128 0A64 64 0 1 1 64 64zm36.2 144L63.6 336l80.4 0 0 48-32 0 0 104 0 24-48 0 0-24 0-104-14.1 0L0 384l13.7-48L64 160l113.6 0c-1 5.2-1.6 10.5-1.6 16c0 11.4 2.4 22.2 6.7 32l-26.9 0L128 208l-27.8 0zm229.1 0c4.3-9.8 6.7-20.6 6.7-32c0-5.5-.6-10.8-1.6-16L448 160l50.3 176L512 384l-49.9 0L448 384l0 104 0 24-48 0 0-24 0-104-32 0 0-48 80.4 0L411.8 208 384 208l-27.8 0-26.9 0zM320 64a64 64 0 1 1 128 0A64 64 0 1 1 320 64zm-64 64a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm80 240l0 48-32 0 0 96-96 0 0-96-32 0 0-48 0-64 0-48 48 0 64 0 48 0 0 48 0 64zm-112 0l64 0 0-64-64 0 0 64z" />
-    </Icon>
-);
+const FamilyDress = createIcon("family-dress", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABiwAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCZgsGAAE2AiQDCAQgBYMtBzMbaQXIHgfO6S1GvPNIo0kayadcMYLn58p5P8nuXlICVoDkKwFt6xjUnS5KFPKMKLPO8fu5e/tL8yZ6E9cmnsSkDe9UrXgkFBotgQw5YA4sk7z5xy7lz8d/A57Ro61OmnPFN1jFmmpzXoGmVrBtUAHr2xSF7AjDjogxajDnwuOTHd8g5PEiqiDdTXC53ml8NdAdSZEBiB4AwJJd2zb4fRWvIjrrEZ3WAQGxBGAEggwZhiBgPkpgCLoRQC4XvIq6pv/AESCAaJCrSiBHG66hHZCDpJnnXUeOYHcd2FYVXfOdVVHua5/8bfiUvug/jF+yWnXX9ipEGQCPiO+Xw2NXVHHDqb6M6nakHzN2xNAoS10VQXs7o9zpBFF8HfgoeFC/iZ7Ez7oaEOVj4QVHSZVQVo1bYYy6x/v6H2k/i05Sb37/fpN19+jLqkssLbJDEwJGBGdxZr008zEcwW/1PCB+uOrZ6n9kCbw0q5shGbIr2twDyaJ7x+y648OTJx86unHTzxliQegkziyPs8p+aKgOLRaFdDlAIOh1Ophpd5//v1Ul8Ob5z5/wV1Q/SffQkkCQTamnaCSQCABAihOUCQLJOU14q13cEiCUCJA0lAJkBuMhIFeajIDCMB4ENJS2oUTeJvTRPEHSxWGQmecMcn38gMJ8f+GGPpHFphBZwp9h8pUzuuLQiJlWOwbxtukQw40ryyE0qyac8pABThpZWzkYGpg6TMxOLna0lNWwjAdCDlZ2KAi3O1+P1w3t7E2trXiVEPS36Z30yQbQ0gjrLFVJIlKXEFZO/dYB");
 
 export default FamilyDress;

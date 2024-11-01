@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-laugh` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh?s=duotone face-laugh}
  * @preview ![face-laugh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-laugh.svg)
  */
-const FaceLaugh: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm96.8 58.1c-3.8-13.7 7.4-26.1 21.6-26.1l275.2 0c14.2 0 25.5 12.4 21.6 26.1C396.2 382 332.1 432 256 432s-140.2-50-159.2-117.9zM144.4 192c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1 0 1.8c0 .5 0 1 0 1.5s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zm224 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M176.4 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceLaugh = createIcon("face-laugh", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABpgAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCfQsIAAE2AiQDCgQgBYMtB1AbnwXIjsQ4JvFKPNDi4Xm76s99Vd2D2nXNLFQLM4L5mcFK6QhAugo/HHfn+TL/m/9r6gUdXQN+OsJDica7RYNUeebzCQywE0toQjPcDGyL226GmIfCCIkb5PFDdr0a6ZH0Fe7y/wcwftXL9SQtGYDoAoCFm9at8N7ZOJviq8brxFeWIyAWgUogQ4a+AsyRCfSVq5DLBWdTY85G44oAos7/HjJQRzOexDOAHCRJnufdu/dpG9u9qHXMNxa11k239Yh4KK5pf7D11vL+8oG2B4qiT8TPC73vr/h6fMSqbxd/uOmXRR+s/EamL/9qwXvrNzy4cXvRMW5re6B8es7bSz6Z5aBND42IQoy4V7s6romrsWsIBcS6v8QzWm9tf7C9uLqMqIU9sjjFoGe7PPv7wA5+5aUznW7m5k6ZIKCOSMcWT/fP8J6lLfR67f3Fi99/rVeLpSpfXL575qiDbCpKxaaDoy48/dLdd7/09IVxdLwE6njnlKGRRQqEEIQghUhpyJQnzLN31rlPuvt1IBD8fVO3zbs6z/m/uUjg/Lt//lv8kDTeS9KzaJZAkI1pjLE9gUQAAFJcblDibgQyp+XCd+3gQQFCKwIkda0CZProIkCu1WgBavqbKkBdq3UykbcIpR0NSDq4CGSmuQLkSq+Bmjk+DdeVkcGpAmXKb2Lmsi66dFg1cdyEalY1m1epoCfZ/tnVZmvE5bJuJF7roFNOutQB+x1xaYe92IrYZU5YtoQv9UGVicaZoDJLdbj00NzYCV/sEkem9eODzFZdHxrh8uXWI7EzCXknmZDJiBRZt88gd+zxPZcdOjwW4uvLvv5yAwAAAA==");
 
 export default FaceLaugh;

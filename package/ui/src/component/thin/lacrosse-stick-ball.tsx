@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lacrosse-stick-ball` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lacrosse-stick-ball?s=thin lacrosse-stick-ball}
  * @preview ![lacrosse-stick-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/lacrosse-stick-ball.svg)
  */
-const LacrosseStickBall: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M344.1 16l.3 0c34.8 0 72.6 21.6 101.3 50.3C474.4 95 496 132.9 496 167.7c0 0 0 0 0 .1l0 .2c0 0 0 0 0 0c0 51.2-32.8 96.7-81.4 112.9l-.8 .3s0 0 0 0l-1.1 .4c-19.1 6.4-40.8 13.6-59.6 29l-42 34.4c-18.3 15-41.2 23.1-64.8 23.1C189.8 368 144 322.2 144 265.7c0-23.6 8.2-46.5 23.1-64.8l34.4-42c15.4-18.8 22.6-40.5 29-59.7l.6-1.8C247.3 48.8 292.8 16 344 16l.1 0zm.2-16L344 0C285.9 0 234.3 37.2 215.9 92.3l-.3 .8s0 0 0 0c-6.6 19.8-13 39.1-26.5 55.6l-34.4 42c-17.3 21.1-26.7 47.6-26.7 74.9c0 29.8 11 57 29.2 77.8L2.3 498.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L168.5 354.8c20.8 18.2 48 29.2 77.8 29.2c27.3 0 53.8-9.4 74.9-26.7l42-34.4c16.5-13.5 35.8-19.9 55.6-26.5l.8-.3c55.1-18.4 92.3-70 92.3-128.1l0-.3c0-40.8-24.8-82.5-55-112.7S385.1 0 344.3 0zM432 432a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm144 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const LacrosseStickBall = createIcon("lacrosse-stick-ball", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABlAAAAK4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCZwsGAAE2AiQDCAQgBYMtBzobcQXILgbsxuprtQNK3WKRYWxbs2g4HIH6iod/9P77fZK8uwZAxmYHVQI/pA5QUX0ePm/v/+GABpqngcS7UZaGgSTYXcAxBpjl7t5aEnDQFiSBRZZAJJHlUZK9Bkn7JZgEubifagiTApcg625ZC+I//9d8fmlHB/jtSvzQIq2o6ChpGhE8gYntfV+VyGw4G6iObbuzJVZEexzSUkby+taOxxay+IZdEcnp5GM4WN40/qHZTSJNAUQ5AOg3JozyuoSIPg7iY1YERH+QC6RIUUuAnlKBWjI5MpngR/oJ/4ERQBTQkxOQoYCTuADIQCLLsh5VunTJotLZ5AgtsSQi9ja63ux29dN2xA4mueRc01sdS8B5lbQnrjXtGbdKPNv8Tp0dLfrE3Zo7SkZcbHG3S1Dp012fryV2eOvUEsz5ZhPjWOXjVafE7U57eywLm+yIkvFcm4d1f+qZGmea32l8o/G0iy3uNrtd+1zTW83v1Cl5ofuLXZ+vdb7bCz1eqlv/Trk7/1k2Y7yo+dzv/etdEwAKo7eRAcLn87BnG136mEu4boZRh0i8vX6di3J41KTaXwKwv3p1D1uUeu3MrdM8YcKZM/4fkz5sx58QLqy7SlLmv7c/Oz9OaenPu7dUZi215Ny0pNT9QCAYvqTXs+l5qibg5/49PDL/sm/eQTEJCNKWCWZmX4FkqXhbHJvVhw8KJA7K0KuWckKAUAIBEgUlBEjVVE6ATAktBChSRycBCkqYIBVZcaGSWR0kSlkHUp1tAZlKngJFenovLagUqW4qmqV8DTMHc2TQujy2bpt3z6d1TVU3Kc33yLdtvxn7mgHUYmusttEiCy2zkdHrjSo2WWWwRA3yRbl2Wmsr111+3HrcPNki622wzBqr8yo95PejpjbLo5uBlyDR9soTCZFUHIP1F7Uq5me1MjkAAA==");
 
 export default LacrosseStickBall;

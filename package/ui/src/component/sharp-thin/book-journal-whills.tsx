@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-journal-whills` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-journal-whills?s=sharp-thin book-journal-whills}
  * @preview ![book-journal-whills](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book-journal-whills.svg)
  */
-const BookJournalWhills: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 56C0 25.1 25.1 0 56 0L440 0l8 0 0 8 0 400 0 8-8 0-24 0 0 80 24 0 8 0 0 16-8 0L56 512c-30.9 0-56-25.1-56-56L0 56zM56 416c-22.1 0-40 17.9-40 40s17.9 40 40 40l344 0 0-80L56 416zm-40 .8C26.2 406.4 40.3 400 56 400l376 0 0-384L56 16C33.9 16 16 33.9 16 56l0 360.8zM302.3 87.1C346 109.7 376 155.3 376 208c0 75.1-60.9 136-136 136s-136-60.9-136-136c0-52.7 30-98.3 73.7-120.9l10.2 11.8C180.4 109.3 176 122.1 176 136c0 17.3 6.9 33.1 18.1 44.6l4.7 4.9-4 5.5C188 200.2 184 211.6 184 224c0 28.2 20.9 51.6 48 55.4l0-32.5-11.6 7.7-6.7 4.4-8.9-13.3 6.7-4.4 14-9.3-14-9.3-6.7-4.4 8.9-13.3 6.7 4.4 11.6 7.7L232 88l0-8 16 0 0 8 0 129.1 11.6-7.7 6.7-4.4 8.9 13.3-6.7 4.4-14 9.3 14 9.3 6.7 4.4-8.9 13.3-6.7-4.4L248 246.9l0 32.5c27.1-3.9 48-27.2 48-55.4c0-12.4-4-23.8-10.8-33.1l-4-5.5 4.7-4.9C297.1 169.1 304 153.3 304 136c0-13.9-4.4-26.7-11.9-37.2l10.2-11.8zM320 136c0 19.3-6.9 37.1-18.3 50.9c6.5 10.8 10.3 23.5 10.3 37.1c0 39.8-32.2 72-72 72s-72-32.2-72-72c0-13.6 3.8-26.3 10.3-37.1C166.9 173.1 160 155.3 160 136c0-6.7 .8-13.3 2.4-19.5c-15.2 12.9-27.1 29.4-34.4 48.3l21.6 21.6 5.7 5.7L144 203.3l-5.7-5.7-15.5-15.5c-1.6 7.3-2.5 14.9-2.8 22.6l29.6 29.6 5.7 5.7L144 251.3l-5.7-5.7-16.5-16.5C131.9 285.4 181 328 240 328s108.1-42.6 118.1-98.8l-16.5 16.5-5.7 5.7L324.7 240l5.7-5.7L360 204.7c-.2-7.7-1.1-15.3-2.8-22.6l-15.5 15.5-5.7 5.7L324.7 192l5.7-5.7L352 164.7c-7.3-18.9-19.2-35.4-34.4-48.3c1.6 6.3 2.4 12.8 2.4 19.5z" />
-    </Icon>
-);
+const BookJournalWhills = createIcon("book-journal-whills", false, "data:font/woff2;base64,d09GMgABAAAAAANcAAoAAAAABzAAAAMSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiEKgsGAAE2AiQDCAQgBYMtBzobNAbIjsK25XNBxBhxqDlEGB+ToIe3q+r9/qPumVmq92BlhEIz2nV00kQHxUJqEtDv1/adIyLNJIlI0ukw/TcyjSFdyQehQLrpDJl4jaj6/99P/sW/AS/IF/0o0auy1DU/WpbAjk8kPdKnLTTTCdhsy3EI/0OL8YPEI2EiEg2LOGxtgdURUwTAHIpdww75KL3WZAsMjgMAgJIBAIDuBzvbEoVQCOHO/xnojk0gAHUH4BPgwJuvWOjk1WQtvmsJFbwI//8x/gN9CAAUhB/fAGCBEPAT/AMAFgBDwNrC5PiM7ZJkzA4rSbrOkQbpQFfMQ0bIdZHnITdaUr8/1xl5li7ttaFun1cmKdoqFJJDjqxr92KmX9aXyttOdrrc63qXqzVONKzsmKG9DvVkKD2RrS2ln2ymsryZ5GYAE+sJLMub4XszRAOCShsO6KQ+GKpskYqs5gfr7WNJymqVNKjI3ZiVLsuuH03stRfl6th4eetzDS8VZX9YbqiN9em4k8O9+6iRS654W3x32l1O0/f8izaEM+wUJpw9QHYmmfCG6N/7UHZ0etU5XKxKuViZMsIAI6L/aIUNVrCU8REz29arZqBpOjJ1P7tz2NSidNMuKUe4Vueql1aqazKf3V/wnTPYVlM8cOvIVoOds1GYZGE2OsQQavcYX4+bZ/Vp1a3pSW7GtSPJMXuiLt6y5YsXa8d4xglb5mZPuhhCbxWGeK+39Mne9MGqkq9E4stb9cAQFVR8orTBe9xsiKrDnGIAECC4f/eaPr5i6mvYMwC8unr/mvyK/ieUj+VAGAOAwGn0v5ExIQ8oIQAAAABGy9QICRBg+CgAJ6PszxaFCwSGIC445EkGi0tDCFCotRZcPJiDbASRbizAEGUhOLSxFizpTkGATm7kgqQHp/qN2jX+PXNXNLE8r3OkSTO/g/9YdZkFrR3THf1wuHvZ7KqPjaaZb54lpppipiVKXKRvcam5+nh0b1/ka66JZnwd+OnGd3SYqRZZbKbtl59FR/77yXqW+YPrI2Zg2RYQgwGZtNbwDzRPdOC4vQE=");
 
 export default BookJournalWhills;

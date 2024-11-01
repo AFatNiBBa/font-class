@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-rotate-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-rotate-left?s=solid clock-rotate-left}
  * @preview ![clock-rotate-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/clock-rotate-left.svg)
  */
-const ClockRotateLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9L0 168c0 13.3 10.7 24 24 24l110.1 0c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24l0 104c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65 0-94.1c0-13.3-10.7-24-24-24z" />
-    </Icon>
-);
+const ClockRotateLeft = createIcon("clock-rotate-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdAAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBawsGAAE2AiQDCAQgBYMtBzgb8wTIhofn9f77tU8ygDMy8t5I/GYLdbBblXJ3/+eaz8+aDvAbHUqnHkjRsPv5BCaSGA00sAab6QRsbxsi5ZDCFURIlEg0po3VHvJ4MbusBune9BFurh8aP2njMkmdDEA0BsDk6qXzvfZdfBfxYeVp4kNzERCTQSGQIUN7AcbJBNrLFcjlgu+iUsn/gQUBRE2CJlaOZ5bYCshBkvJ8TLN6NRrkVenquqsmjJ9wV/M7Wot7u9eLh1vd3bJPfFn99eLPy68WfbbsnTVLt2lxZ4uPy28Xfjr1zepvpryx4JOq60Y9N658oLU436KMB3ve37YqIu7r0eWxxo/90vmjrR+Zc7iJbPzC11/Zq8Xivcxf8/ivysWxOMoymlaO+/3s94dff+LkyXb9Hv55iZku3NqmtZlmtm5z64WZhv/4ZZenhi1usV3drTNnatDgs88mTbJWi8VAILi214tt1zUa90/tegn88MJv/+NfUeW1JD2G2hIIsn6VflYnkAgAQIqjuiQIJPMlEtV312kW6oKQ1FQXMu00hlxdfaGGjobzzvlLZSKvIzS3BiCp7wBkRjgDueaehBrGeTeuqXlk0SXGhvi5S5uhkemzisEDBhVjim1FlwKG58mxhdvrdZQ6esNaW+2z12FbbLbDYUUfND87Yo8ZFjXdFxUGG2CQwhjFcf15eZUtDjpkh332lmnGKu5HvRy1+/eGMBHGIfKSRKQmTzG3/8F9hzcc3vL2AA==");
 
 export default ClockRotateLeft;

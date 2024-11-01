@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-pants-simple` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-pants-simple?s=sharp-thin people-pants-simple}
  * @preview ![people-pants-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/people-pants-simple.svg)
  */
-const PeoplePantsSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 16a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112A64 64 0 1 0 128 0a64 64 0 1 0 0 128zM47.3 176l161.3 0 6.7 160L192 336l-48 0-32 0-48 0-23.3 0 6.7-160zM120 352l16 0 0 152 0 8 8 0 48 0 8 0 0-8 0-152 16 0 16 0-.7-16L224 160 32 160 24.7 336 24 352l16 0 16 0 0 152 0 8 8 0 48 0 8 0 0-8 0-152zm64 144l-32 0 0-144 32 0 0 144zM104 352l0 144-32 0 0-144 32 0zM384 16a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112A64 64 0 1 0 384 0a64 64 0 1 0 0 128zm-80.7 48l161.3 0 6.7 160L448 336l-48 0-32 0-48 0-23.3 0 6.7-160zM376 352l16 0 0 152 0 8 8 0 48 0 8 0 0-8 0-152 16 0 16 0-.7-16L480 160l-192 0-7.3 176-.7 16 16 0 16 0 0 152 0 8 8 0 48 0 8 0 0-8 0-152zm64 144l-32 0 0-144 32 0 0 144zM360 352l0 144-32 0 0-144 32 0z" />
-    </Icon>
-);
+const PeoplePantsSimple = createIcon("people-pants-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABqQAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDRwsGAAE2AiQDCAQgBYMtBzob0QXIngNu04ynTk5uRGMR8pKq9x+e8fzHvXnu21atpXppVLrFgkGJL2Yi9EECFgpYJhqB9Z/fX5074/eHWLyFUAE2o0F9J60Z5cZSNkJp8yTz51eaF8BPnXqe81AA37LEgzTWaH2fj7HOK1DQYrUX7wSNUE0rUMECef3fZU9KUbyLJEmfljnc9nc47bIM2rnWSAr1WcAm5ir/7KahiFsAIHMAwPNbWQEe3ugt9Lo9hXzLAwHyDOAQgRZesYsAd8QI7JLgoE2C4JfcbvcfyCEA6YKvLEAbTMEX+AFAG1BUbYlarQxQKlESpGpJpb0Pq9uxL9jm/Xcdi86lIJwfHYUeJp4E74ccJJQLTKggxqoqUiMIjQQiMo0WqiRG5WRKolSqYAIjTyZUIiz0nS1HM/ge6g5/fDQz1qw7P7ee0b3nkd7ekdFRcdQmS8364aOXRocL5qGguFJgnm6uhazxgH0tMXqc4SS5wLleNy66/Da+KLr/eoCAwM77zGnT/xWCCMDf1d8XPka27QO91yHoEwECrWN3uPoClmx5RwAAKsPwLWCJQDmhwryOzSJAMBBAkWEI0OKkQ4A2JgwBOrwkIEAXU0aM2koQk4YGRFT6gFiiESBhcgyk0j1WZEwR6zKnidynZHJmD2Uc4zGR0TyVT/sqr55M2E/jl+3gYTcXgrNo1qPboCaN2gx2SL+C+pAumSs4wxtxMSJF41Lx7dHjiUpN+g1oI4v7h6Th54vBhterQ+CJkPJSWxFByvj4GxF/GfYGIl4JAAA=");
 
 export default PeoplePantsSimple;

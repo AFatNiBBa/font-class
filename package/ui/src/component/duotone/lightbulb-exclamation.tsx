@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-exclamation` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-exclamation?s=duotone lightbulb-exclamation}
  * @preview ![lightbulb-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/lightbulb-exclamation.svg)
  */
-const LightbulbExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4c19.8 27.1 39.7 54.4 49.2 86.2l160 0c9.6-31.9 29.5-59.1 49.2-86.2c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176zM224 288a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM168 88c0-13.3 10.7-24 24-24s24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-112z" />
-        <path d="M192 512c44.2 0 80-35.8 80-80V384H112v48c0 44.2 35.8 80 80 80z" />
-    </Icon>
-);
+const LightbulbExclamation = createIcon("lightbulb-exclamation", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfwAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBZgsIAAE2AiQDCgQgBYMtB2YbHgXIhof/r6u6L35kFhQtR5MYgNhZqzqzFZc5/5d7frbpAL/Roe2hB7J8z8bznoeBR3meUEKZBiAJc3vTJiYxe5NJTabjWzqunp6Qx5npQhWy27KPcQ3/D2D8rIcLyTQkAFEAYP7Wjau92x7tWXxce5H42CoExAJQCiQk9BZgliTQW65ELhe0Z7Ua7VGrlQQQVQwnWhV/6EbsBeQgE1Ked+jVqbmp0pJvaao0bn5lZMQT/SIaQ9w1/LHJO+8bfVOXc+Op0U3xzNjz4pZuzwz8dsOXW75e9/mmzed2jrix8fKuN8d53W5puqLLTbbcMfShHuLWQQ/3jAGPF4//2v/jgz/2ztziILbEOPcaJ7YcVGhrq//x9NPCf633avmf00//sT5WFLEiVkTk2GfHtF7Kpa2phrmp73VZv77LseBlEAgGX7791r1ts/6tb8rAT6///jd9kYrau3Fs9jjqZSBIo2qj7IpzFYo4VgAAsjjZgDjXsQqBZIZE3rXZzQKERgTIVDUKkPRSCJBrNFKAir4mC1DVaKMk8gahs90NZJodB5IpzgK5zl4AFbO851d1jhRcbGiwT7ukJRpafKscP2ZcOaOc1ioXL3Q5n1kuW8NOptlweOhgxzjaiQ5yoMOcqMjjrY5OcpQlFrHYB5XGG2Oc0gylu7uXtij/eCc4bCz4L5mp3O8Nc7K9PRzcjFBOcCdJRBapT8Bd73/SkfuP/rjC2e+oG6ONPqs7+hnC2QQ=");
 
 export default LightbulbExclamation;

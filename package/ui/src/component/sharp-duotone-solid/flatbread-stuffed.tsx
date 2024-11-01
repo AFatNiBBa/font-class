@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flatbread-stuffed` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flatbread-stuffed?s=sharp-duotone-solid flatbread-stuffed}
  * @preview ![flatbread-stuffed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/flatbread-stuffed.svg)
  */
-const FlatbreadStuffed: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M13 282.9L75 365.7l.5 25.5L133.8 333c-13.7-19.5-21.8-43.3-21.8-69c0-66.3 53.7-120 120-120c25.7 0 49.5 8.1 69 21.8L422.5 44.2l-75.9 9L255.9 3.4 185.1 78.8 83.6 98.9 77.8 202.2 13 282.9zM144 264c0 16.8 4.7 32.5 12.9 45.9l121-121C264.5 180.7 248.8 176 232 176c-48.6 0-88 39.4-88 88z" />
-        <path d="M464.3 47.7c106.2 106.2 106.2 278.4 0 384.7s-278.4 106.2-384.7 0L464.3 47.7zM272 448a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48-48a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const FlatbreadStuffed = createIcon("flatbread-stuffed", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiQAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCDQsIAAE2AiQDCgQgBYMtB14bPQXIjpSuztRQWh7+367v97lV3Q9QzUQkPshMiKEUVtzrh47grtv/+b/c85t2dIDf6FD21ANZ4GtXzxMI+Cxc63kgvQQyzcAaPLesUwfYAuT47EwOR8jj3+xmJdJD6RPc4f4HMH7U52aSugxAtAJg6e7tG71RiUqKT6rPEJ/YgIBYBgqBDBkGBVggExiUK5DLBZVUTSWqCwKIMveCDJRRi4O4EpCDJJfyvL2urm6ooaHUlO9yz9Wf9uXOiG93RHyz5Ysd3+z6bttpex7oub/73s77unZzemgtkjvt3LWzL7bHU8MPL3599bNjd8eO2DXHrtp9fd/ueKz+mTFPDI5+qvWpn0d9cuoTn9+xsm0FkOfhyp0rWlcMZlp3Xnfd63dUmpsrCN/cwiuzOg01PrJwW/VhtR6ysZza2ooj31xxhfW19k21ar0THUqnLNlyY3vfO5dfbkH/kttvz4FA8Oj4P4vDLQt+q21I4PuXfv2h/iE1VaWx6SnUSiDIJlQnOJCWaNKTxgoAQIpLjU5LbNEkkJkop9610f0ChHoESMrqBcgMaBUgV2+8ACXDZgpQVm+7TOR1QqeDPUgaXQAys1wDcp2eBiULvB+WdUaW3vjUwn/upawSWrmpmDppSjGv2Ey1QhJi9er84rQz5tJaY+FWp5znXBc76YQzXAx5oY3JJc6xao9Y6YsKU00yRWGe4nbxXNlFeKGLnLEu3V9nvuL9YIxL94fHQj8JlNPMZDIiRdaXx1I/I6BNLJvyyVqIvQMDq1JcBQA=");
 
 export default FlatbreadStuffed;

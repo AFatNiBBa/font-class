@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-chimney-user` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-user?s=solid house-chimney-user}
  * @preview ![house-chimney-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-chimney-user.svg)
  */
-const HouseChimneyUser: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L512 185l0-121c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32l0 36.7L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1l32 0 0 160.4c0 35.3 28.7 64 64 64l320.4 0c35.5 0 64.2-28.8 64-64.3l-.7-160.2 32 0zM288 160a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM176 400c0-44.2 35.8-80 80-80l64 0c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const HouseChimneyUser = createIcon("house-chimney-user", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdwAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBeQsGAAE2AiQDCAQgBYMtBzkbAgXIhofn7b4691U14BpDKyKaztaIOlswBlNGyv7Uqec5Dy2QNwraWLg0INm8V9vzChRwbJvn67wUoZpWwGrusjyuJmsvpSUiyeNnj5875PF9dpcy0vPpSzwqo4rfdbmLpCoDEI0AWLZnxyZDv8QvEV+U3iO+sAEBsQwUAhm9pVeAhTKBXrkCuVzwS5RK8B9YEECU08cmkKMMR3EWkIMky/O5dS01ZXX5bnZUX/psR0Q869n2zRFxe/sz1dXxQOtTxO4w/JnWo3HubW1Pt9WEeH7cS6Pq4oUJr0REze734Bj74sz3x78Mx5yd5ydEFLEmBm/pe6q1Op5pH/5y48t/Dvvy9JcGzg/dx321dR9tdr36++6rL/jYKOcOeaZm8EU/e76+TpZ+WxhU3dQ0uNSbtLVnUFG6derkgYHJU8OHLv07dnOqcanGU7uj/pchv9QDgWDupu/6jjQs/KeyJoHfPv77f/gVlYbSsvQyKiUQZBNLEx1MSymV0jIBAEhxjeFpKQLJXhkda61nBAjVCJCUqxYg06NRgFy1CQKU6TdLgHLVdshEXiW0OmQgqXU5yMx2M8i1egeUWegTrVxrZE5Guwj9x0tY3UKrFhXTJk8t5hfTWGX8hkyzC4ptcew1qI2jk0671CWucspJ51zVIFfYZF7tYqtX8CpfVJhmsqkK8xXH2f3h3U65wpXOudQleZ4FivvqWNesu8eRkijhdJ4kEanZAd2TTpw9d/Elp66f9EAB");
 
 export default HouseChimneyUser;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-xmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-xmark?s=light octagon-xmark}
  * @preview ![octagon-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/octagon-xmark.svg)
  */
-const OctagonXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M191.5 32.1c-10.6 0-20.8 4.2-28.3 11.7L43.8 163.2c-7.5 7.5-11.7 17.7-11.7 28.3l0 129c0 10.6 4.2 20.8 11.7 28.3L21.2 371.4C7.7 357.9 .1 339.6 .1 320.5l0-129c0-19.1 7.6-37.4 21.1-50.9L140.6 21.2C154.1 7.7 172.4 .1 191.5 .1l129 0c19.1 0 37.4 7.6 50.9 21.1L490.8 140.6c13.5 13.5 21.1 31.8 21.1 50.9l0 129c0 19.1-7.6 37.4-21.1 50.9L371.4 490.8c-13.5 13.5-31.8 21.1-50.9 21.1l-129 0c-19.1 0-37.4-7.6-50.9-21.1L21.2 371.4l22.6-22.6L163.2 468.2c7.5 7.5 17.7 11.7 28.3 11.7l129 0c10.6 0 20.8-4.2 28.3-11.7L468.2 348.8c7.5-7.5 11.7-17.7 11.7-28.3l0-129c0-10.6-4.2-20.8-11.7-28.3L348.8 43.8c-7.5-7.5-17.7-11.7-28.3-11.7l-129 0zM180.7 180.7c6.2-6.2 16.4-6.2 22.6 0L256 233.4l52.7-52.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L278.6 256l52.7 52.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L256 278.6l-52.7 52.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L233.4 256l-52.7-52.7c-6.2-6.2-6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const OctagonXmark = createIcon("octagon-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABegAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCFwsGAAE2AiQDCAQgBYMtBzQbGwURlZqNyL5IsKnIfI41iqn46FM5v4wra8c1DYOUmjQOk/4mHv5/zbzvzywFCsQyrQJ0DDKyAKCY1bKsKztgIfdUEukEgP9tU3/lDP1Fx46QoVmtY+wKuEuY2veJa+pH0tMDFvmjRdM3PUj5Y8XyfAITK55vIlFgM52AbXe2KUjTXmmtjOT47PicII/HMUUd6VZ6hwvtQ+OrgU6R5BmA6AGAOWtWLPKiS1fEu1rinQUIiLlghECGDEMEmC4TGCI3Arlc0BW1WvwPhACiHj9wAjlybMYBQA6SlOfzR7K6cr66WFfYcLrPSleJY30nRMegiDuT1+gcX4zmiau0DxQ3J6zUNqYQLZNWmxyr4lqxGGf6r3EjIo73W+16obDyRt9lVgTwrvVZalnwrvZbbmnwrvdfYXlcZFRHj47vI9+1754/6Pl4zx6Pex7X43FVpXRcubK3eZ8K+WIeUSlbJQW8gD6FVcsiAj3QnrnC1fb2eebJvNu3Kyoq5flAIPjzz5es+/T/jSyBz4/+Tz+j2guSOtAogSCbUpuyMYFEAABS7DEqQSCpSvhaS64LEAoIkNQrCJAZrIcAuYLJAtQZZqoA9QpWyETeJPSxaTBJyXYmM81hJtfHQ6bOdC/jen0i8znZY+QvXwZXAZbbEPkhOKaFrriRWNcFtm3zTQMLDmrttt5NPdyCPpPsWZRFyS8i8kNwHNfr3WlzXsO20iYC9yPztWdb4BEWjI+ThJ6MrbqLblu9/4ECAA==");
 
 export default OctagonXmark;

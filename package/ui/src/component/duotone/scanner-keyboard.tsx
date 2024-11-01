@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scanner-keyboard` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scanner-keyboard?s=duotone scanner-keyboard}
  * @preview ![scanner-keyboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/scanner-keyboard.svg)
  */
-const ScannerKeyboard: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 160L0 448c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 96C28.7 96 0 124.7 0 160zm64 24c0-13.3 10.7-24 24-24l176 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24L88 224c-13.3 0-24-10.7-24-24l0-16zm0 120c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-32zm0 96c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-32zm128-96c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-32zm0 96c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-32z" />
-        <path d="M152 0l16 0c13.3 0 24 10.7 24 24l0 40-64 0 0-40c0-13.3 10.7-24 24-24zM312 0l16 0c13.3 0 24 10.7 24 24l0 40-64 0 0-40c0-13.3 10.7-24 24-24zM224 16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48-32 0 0-48zM400 0c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16zm48 24c0-13.3 10.7-24 24-24l16 0c13.3 0 24 10.7 24 24l0 240c0 13.3-10.7 24-24 24l-16 0c-13.3 0-24-10.7-24-24l0-240zM88 160l176 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24L88 224c-13.3 0-24-10.7-24-24l0-16c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const ScannerKeyboard = createIcon("scanner-keyboard", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABwwAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDUwsIAAE2AiQDCgQgBYMtB1wbAQbIjtMF9S5DHqwIKl1VVrd24k6zoCPWEeETow/M1rNHZFh6ZnPy8P1/4nLnf89P72OCPMjjP9pqjOFj4thTIOCsOF/gCXQBlXAG1tS8QXopRF3fBYr4Il+vi3RX+gg3DP8DGD8b4XqS/hlAVABYf9B+u73TRJPio86rxEd2ISA2gFogI2O0AKtkgdEKNQqFoEmdaaJzTQDRMjw6gxZ68S4+AxQgaWkVRW9v2VMNHFlNoXZXT3Hg9nJ5WLtsPzZClBFxz9Q2EN3/jmG3Dck0B51pKW4dfPvQHKh2uYguioI7J5Xx+Mg4WkL+ilLflFNOd01/anI7npj5zKgcd894ekoZj057cvj22uOOYSDjtiHi1sH8tw/lOojLByc8XT396/iPTvzIHW9XVbXPkGnWmWbIPg8W5w/q622a3nlq817oa3rJxb3w/yH7VPYZ8ocSOcmLL76orUDHi2KrekotBwx4sPHgvlbWXvP/AvLJvri3WafprYFHgxa56ijq9UAg+P42bxzVt+rffu0Evnqtv+Mfks47SXoa/SQQ5FmdWQ5PIBEAgBQXmpBYh0B2qpbpWbvdLkAoESBpKQXIRqkEKJRmCtBlrMUCtJT2k0XRXxjsiJdMup1DZktcQRYGe4Xsssq7kZbBka20bCHlP8q0W0Bg86F6/px59YqaWnYrtlRsx1fWwtZpF5Zt0+OTTnSWM53vBMc7xfkAfK7d8QucYQsL2uyNavPNMU9thVq5Nqo9EGCc6zynMJ+pvs9KtfngNBeye0+PHckkuMDRLBMp8vDzjgs6oufOPu2ESyy9cbb/6D4Sq3YNAAA=");
 
 export default ScannerKeyboard;

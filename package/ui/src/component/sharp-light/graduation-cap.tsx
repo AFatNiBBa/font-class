@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `graduation-cap` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/graduation-cap?s=sharp-light graduation-cap}
  * @preview ![graduation-cap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/graduation-cap.svg)
  */
-const GraduationCap: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 288L640 176l0-32L320 32 0 144l0 32 92.1 32.2-38.9 36L48 249l0 7 0 64c-2.4 11.9-5.1 23.5-8.1 34.6c-8.5 32.1-18.7 59.9-26.7 79.4C5.6 452.8 0 464 0 464l32.3 6.5L80 480c25.1-58.6 15.2-99.7 0-125.6L80 263l46.3-42.8L320 288zM51.2 160L320 65.9 588.8 160 320 254.1 165.2 199.9l160.4-60.1-11.2-30-192 72-2.9 1.1-.8 .7L51.2 160zm92.4 100.2L128 408c0 35.3 86 72 192 72s192-36.7 192-72L496.4 260.2l-31 10.9 14.2 135.3c-.7 .8-1.8 2.1-3.7 3.7c-6 5.2-16.5 11.5-31.9 17.5C413.6 439.4 369.7 448 320 448s-93.6-8.6-124.1-20.6c-15.4-6-25.8-12.3-31.9-17.5c-1.9-1.6-3-2.8-3.7-3.7L174.6 271l-31-10.9zM480.5 405s0 0-.1 .1c0-.1 .1-.1 .1-.1zm-321 0s0 0 .1 .1c0-.1-.1-.1-.1-.1zM59.1 443.2l-13.9-2.8c.9-2.2 1.8-4.5 2.7-6.9c4.3-11.3 9.1-24.4 13.7-38.9c2.6 12.6 2.8 28.7-2.5 48.6z" />
-    </Icon>
-);
+const GraduationCap = createIcon("graduation-cap", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiwAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCUAsGAAE2AiQDCAQgBYMtBzUbVQXIhof/96+vfW69+gBft0dwoSFnAyOCFFnRXxPaE9c8//On9+YneLTuRWOBdpxPYOc7/2GkNqfQRHGj266ajuq6hwZbyOLv2FaRdGN6C5e7r4qv9TuHJCsAiDYAHFQ95Tgvj8VYxFv/P0G85RgExMEgFyjAawwJsK+CwJBMjkwmGIv//+f/gTkBRI3w3AlkqMOpuB2QgaQmy7bqnlAsNjQWm7NKY7Fh4cJ5CyMWxLwQ5dg3ukKIG/ru6Luha1LsFg8N3DQQcUCUF0yS5rNMJarRUkootFIuVUs3HvV6+dNj3hysxESRiTO7rolnnvh06ZO97+y5rqcak+ef2XBmY9NFjWdGqae75/remwdv7Bt/b9u93457a8lbDrj9gLXAzHGaXCc3c9RCh6p1oJ12fO/t5/3mD4Pbb//YTF945ZCm05tmIwlc76bd3LGPF7x0hFw4pHfWwtarITxYKp8kUi4Nliv6Sst50H7+8p+OcYyfl50/LpphX514hRAHRbBo0gfhYR1p/qKdVgOB4O2brvx8buu+v9Y1JvDls9//KJ38/1g6I92LOgkEhW3/39asdAYwcgCFFFuMH1lgINns4H5rk+sECA0IkNRoEKBgUJsAmQbbCFA0YjcBajQ4RUFk9UKX2SWRNFlPFOzuVCLT5TGiaF+v5mt0ReGGZG8n9nMw6fA6cNi8fKftd8z3zgercu4eo/X0Pvlsa+oW3rUVXGqJtdbYZLFFlttUgzY4rrTZaoePgYf5odxOtrej3N7y1Y3bUqUGb7DR8sCa9bPsI98/OdWW8cFbQTcJlDsrSxKRWn6UYN6v3HYL568D");
 
 export default GraduationCap;

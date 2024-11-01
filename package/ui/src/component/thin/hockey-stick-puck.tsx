@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hockey-stick-puck` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-stick-puck?s=thin hockey-stick-puck}
  * @preview ![hockey-stick-puck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hockey-stick-puck.svg)
  */
-const HockeyStickPuck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M507.7 .9c3.9 2 5.5 6.9 3.4 10.8l-242.9 470c-9.6 18.6-28.8 30.3-49.8 30.3L48 512c-26.5 0-48-21.5-48-48l0-85.3c0-26.5 21.5-48 48-48l280.3 0L496.9 4.3c2-3.9 6.9-5.5 10.8-3.4zM320 346.7l-208 0L112 496l106.5 0c15 0 28.7-8.3 35.5-21.6l66-127.7zm-272 0c-17.7 0-32 14.3-32 32L16 464c0 17.7 14.3 32 32 32l48 0 0-149.3-48 0zM432 416c-17.7 0-32 14.3-32 32l0 16c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-16c0-17.7-14.3-32-32-32l-160 0zm-48 32c0-26.5 21.5-48 48-48l160 0c26.5 0 48 21.5 48 48l0 16c0 26.5-21.5 48-48 48l-160 0c-26.5 0-48-21.5-48-48l0-16z" />
-    </Icon>
-);
+const HockeyStickPuck = createIcon("hockey-stick-puck", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABfwAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCIAsGAAE2AiQDCAQgBYMtBzgbKAXIhofn9f77tU/ylIyRkVSB/jJbuSO679a6F6ee5zwUwOcQBGVPDciy2Nhd47wCFVu8JkGxVrSCa982PDZC8EmICUmI40njtYM8/rFDHem29DaukTeNb3R2IUmWAYhWAJi1evkyr34ZX0a8XXuKeNsSBMRsUAlkyNBNgKkygW5yFXK54Muo1fA/sCKAqMe/QwI5GnAMZwBykNTleeeyTZcuZV3zfFVZV+y+qd2auHVsEQ93uLlLxB0dbymbx/q4pf2aoixEGY90Xd3s8nYRNxLntr+pLCOi2OrEKxL3RMR5HW4uiol3dIy4ZUAZD7W/qbO4td2NfWtf1/vxVo9/1+vtXW/75+Xl/X/+xL+tHjfy03eylfK3P2vXyaPzjdv2wtr3ef1N9tvy5KyzW7W4lEtbrCQkxke6ychz5u5IK+Ve4DRRy97h05H31pmtUEmfB4Hgpe+2vbm55dTfGssEvn7+h7/J2bVX07npcTRKIMiG1obakM4FxAcQpDhZ7+CDAsk+dfieZm4WIBQIkNQrFDJdtYJcYQjU6WHcDvUKy2UibxLa2UghaeYoZMY7C3LtPAF1pnrNr9cussZj24b99iXNt8i8ZdWo4SOrydWxtLheouf8lOraGnjy6BsEG+1y2CEn7LTDXicMdsyy6CQHzY/Qeb6oMspwI1Umq9LNfvUqOx1z3F6HHaJFpqjqvYFOjkcPAjdhwtG2JolIrfcc3r5/52nDjj8tf9iRk7bvBwAA");
 
 export default HockeyStickPuck;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-frown-open` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-frown-open?s=light face-frown-open}
  * @preview ![face-frown-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-frown-open.svg)
  */
-const FaceFrownOpen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm176.4-72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm136 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm22 192.1c-22.4-9.5-47.7-14.8-74.5-14.8c-26.8 0-52 5.3-74.4 14.8c-11.2 4.7-23.8 3.1-32.8-3.6c-9.7-7.2-14.9-20.4-9-33.9c19.2-44.1 64.2-74.7 116.2-74.7c52 0 97 30.6 116.2 74.7c5.9 13.6 .8 26.7-9 33.9c-9 6.6-21.5 8.3-32.8 3.5zm-74.4-80.2c-36.9 0-68.5 20.3-83.9 49.5c25.6-10.4 54-16.1 83.9-16.1c29.9 0 58.4 5.8 84 16.1c-15.4-29.2-47.1-49.5-84-49.5z" />
-    </Icon>
-);
+const FaceFrownOpen = createIcon("face-frown-open", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjQAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCKAsGAAE2AiQDCAQgBYMtBzYbLgVRVA5KZB8JORleK8FCxNCG0hpxwAP+jIf/v/dtn/NuarHuCVVKB63FW+GAxRpovM6ARuCv0eHw+/n9ved9efKd7URUWBFCIkPZxannmRYK4BsFbSxcGpAxMTTneQQikrT1ChRsg9W0Ata9aY1NsoyOFImS5I91nF2hxN9QQSRf8wB4jB8a/wkpJ5UKQPQCACtb3q6w0sAaET/1AvHDGQiIVYBxGCpUGIaBeXiBYQTjQFEEjahr+g9EIIBopo+YoKAVt8ADoIDUXEpLRIRK5WPTiUyCH72JFt2rhWGzTnu0WocdjWnUoznjuEuvc97XnpNmXFtjse5+TK9zPbRc9b2wWHE5oNW6HVmt+fkPCDXLDAq3yfsyX2/su6g3r9PP3yjSpTxGr1McEWvhrZfzq5XBsH7BJf0F3Va5QZrUKGf0R/Ig7gDulhlrAGdmrsbGrmZnawyfoMv3YEsFQnOr1tarc0JUsJWki0zZe/LxeSaySkDAO1kWyyhmyt3+xzycPyvIPz89xPx/8Du6O4qGgv33tJWVtIWQUFEACAT3J44Q3jP/20pP8O/P32/+EapXUr6hVYKgmqxVhCRIAgCQcU8qIZBOXaTZ6WnXDe0gpGbtUBnCgaLdBDQZpcsu7q/Bi9ImDAoFSJ2uoDKnAIpBc9Bk3rbVbDAq4+NNh//6pdi1iO0W0lTTQEZomCiCPbFhaYyWVYU8bijCRYiTLk2OWDES5TR0Flc3Vyq7GWXrixBNajQgRtB2fn/aT6ws2RKlS5M1xtB5U0HevF8RDBxlnBJLSWTPy46qxl2n56epWiYA");
 
 export default FaceFrownOpen;

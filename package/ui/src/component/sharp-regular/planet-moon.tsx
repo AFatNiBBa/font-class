@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `planet-moon` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/planet-moon?s=sharp-regular planet-moon}
  * @preview ![planet-moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/planet-moon.svg)
  */
-const PlanetMoon: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 0a64 64 0 1 1 0 128A64 64 0 1 1 512 0zM224 464c97.2 0 176-78.8 176-176c0-82.2-56.4-151.3-132.6-170.6L176 224l32 32 112 0 0 64L264 424l-40 0 0-72-32 0 0-64-64-64-68 0c-7.7 19.8-12 41.4-12 64c0 97.2 78.8 176 176 176zM0 288c0-52.3 17.9-100.5 48-138.6c1-1.3 2.1-2.6 3.2-3.9C92.2 95.7 154.4 64 224 64c13.3 0 26.4 1.2 39.1 3.4C368.2 85.9 448 177.6 448 288c0 123.7-100.3 224-224 224S0 411.7 0 288z" />
-    </Icon>
-);
+const PlanetMoon = createIcon("planet-moon", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABcwAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBcgsGAAE2AiQDCAQgBYMtBzIb9ATIjtFLzzhTJpwkCZKO5/9/P9o+978/5k0UsaQWkklIQ/VSaVYSiVCoE1kk1UxSv36/31nEdLkJN29izRuVIZl4+pEXCvMj8U1/8887jwJ8RqGNhUsDWUB7nyeQWJd24QaeApl+Afu6TWZHRxi+ERYoER2f4HE1QcvLzOupx/UO7vdb5Sdrk1D6DkCmAMCZq3kZuJZICm3+P4BsSgOBnAGsIHQYWEDgOFWhJ1CzApomvCNZ5v9AhgAZIOcs0NDjOrgBoIHStTa+fVFXfbxdGVUf2XjqsuK87H/ouuq2FlSvyCN6fnUp8jIxn1yiG7kUnaSwF2jMIy9yfgoKFXELlmO0dexMd2rrMnPRezv5Of4x9dV3V4hVo9U/p/fGd8hX3p6Ojp7eONDxK5WIqaROZJzYKm2FjG7RgjbgLBmLJiPehaBU+xX5fYKzP4wBnx8OAsxEtqHbbsqf+Hnmbi9J9u63PwYAQfh9dJZYZRj+S0u3wIdTpRL8K/p/XSm1iiEFQrfnv7vyiob//5WCAACVe0RFg6Ccp0ruOuYBAmIEAWXAiIDOPCMEmhG7EegtCUBgwIiLVKUNizkVE5QxN0HnoCHQzNkDveOe5AFzUY0wIj6I/11sooYSutjH05tD2XQMMmiw1gzjY855sCZcMIhGXTr1a1CvRb9CemVoAzokenCCDzEfnryxUHztv/cXatCrT4sundwmDL+XnA36+S4QVQjqXrpSpEaTge/3SFI=");
 
 export default PlanetMoon;

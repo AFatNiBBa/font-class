@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diploma` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diploma?s=regular diploma}
  * @preview ![diploma](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/diploma.svg)
  */
-const Diploma: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 80.3L302 59.7C286.6 42.1 264.4 32 241 32l-1 0c-44.2 0-80 35.8-80 80c0 11.4 2.4 22.2 6.7 32L96 144c-65.1 .3-96 71.5-96 128c0 56.9 24.1 119.2 81 140.7c10.5 4 22.5 4.2 33.4 1.8L256 383l0 81c0 6.2 3.6 11.9 9.2 14.5s12.3 1.8 17-2.2L320 444.8l37.8 31.5c4.8 4 11.4 4.8 17 2.2s9.2-8.3 9.2-14.5l0-81 141.6 31.5c10.9 2.4 22.9 2.2 33.4-1.8c56.9-21.5 81-83.8 81-140.7c0-56.5-30.9-127.7-96-128l-70.7 0c4.3-9.8 6.7-20.6 6.7-32c0-44.2-35.8-80-80-80l-1 0c-23.4 0-45.6 10.1-61 27.7L320 80.3zM400 144l-8 0-46.4 0c-6.9 0-10.5-8.1-6-13.3l34.5-39.5c5.5-6.3 13.1-10.2 21.3-11.1c1.2-.1 2.3-.2 3.5-.2l1 0c17.7 0 32 14.3 32 32s-14.3 32-32 32zm-105.6 0L240 144c-17.7 0-32-14.3-32-32s14.3-32 32-32l1 0c9.5 0 18.6 4.1 24.8 11.3l34.5 39.5c4.5 5.2 .9 13.3-6 13.3zM240 192l16 0 0 141.8L104 367.6c-1.5 .3-3.1 .5-4.3 .4c-1.1 0-1.6-.2-1.7-.2c0 0 0 0 0 0C68.1 356.5 48 319.7 48 272c0-20.6 5.9-43.3 16.1-59.3C73.6 197.8 84 192.1 96.1 192L240 192zm144 0l16 0 143.9 0c12.1 .1 22.6 5.8 32.1 20.7c10.2 16 16.1 38.7 16.1 59.3c0 47.7-20.1 84.5-50 95.8c0 0 0 0 0 0c-.1 0-.6 .2-1.7 .2c-1.3 .1-2.8-.1-4.3-.4L384 333.8 384 192z" />
-    </Icon>
-);
+const Diploma = createIcon("diploma", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABnQAAAKmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDFgsGAAE2AiQDCAQgBYMtBy4blAXIjtRW+YUFGfxTNvX91cmwZ5BRNp8CQCg5DNhi50mbSUdU3u8T1zz/96cHLGuxR4m2yJVHg2WeT2A4jPbWt50PZ7OJTMi3uO0qiGhoCxXOwNFvrccPZod5DawLL6VPZLIYDH4fAAAKAAAAjXt2bc/9QhVKr/5fAb2iLSAANQbAQ4APR5ODAKiHDwE5OHiAg4OgUP//g/wP9EAAoCjCuxkAHCAaOANcBQAcAAx+x2mekZqd6frjnR6u344sU7rMyRpWl0sdzwmnWT0ud5pw+TO1t5TsKRRO2xKsq9raEtwmqbuOBG9VPKdIhbMtrLZp762jpbpb124NNtS24Cqtcl3KhwrCqZutXUuvTN+qyFXJpetrS2o7tcFF3bTSrlQkDY9m7Swz2buKu+4y61jmDsIZ24s9O2JX2h5SkZOBk59Dr0e8puHElJSUOY1EYHgPJU1oiRk5s3y5kjU2fDFr8umMXVwwfQADmF6w2HaGRmq+bKhRslz5mSNNSyYkqcfwgKi0MqVjw5iYGhd7B1l+QciIhOXLE3JzTA2l9ktE4s4gvS8ODGDcWraFMCBLRj3/UCz0801g/fpl9v7Am5+hYh+ejxJP8Od+gbUAIEBwJ3hn+8DEel9jXAPAx5u/1Q//Z8LmJBCDAUDgK/e/HP1MGEAQBQA5oxkU2fkgAYYj+ElScWy9WxAWesQQhUV8ZBNAHCxlET95VD8jCktXfMiJRaTSnx4xxDEZ8VGD+YhDKpcQP/V4lo0iVT6YlSFO/mLMaDEGms/zKleo5NXxNqtaBQxFO13XO22VmiG7SuOTjGAiE5jGcIYxmmkjeArtC9MZT4s9qDlfxKMyFaiERx28243nRg+am8JURq+r92epi/d+qhQz9geXxq4h4azCAoMBmeifLQA=");
 
 export default Diploma;

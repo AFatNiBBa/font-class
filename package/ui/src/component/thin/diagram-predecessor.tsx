@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-predecessor` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-predecessor?s=thin diagram-predecessor}
  * @preview ![diagram-predecessor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/diagram-predecessor.svg)
  */
-const DiagramPredecessor: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 416c0 26.5-21.5 48-48 48L64 464c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48l384 0c26.5 0 48 21.5 48 48l0 64zm-48 64c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 288c-35.3 0-64 28.7-64 64l0 64c0 35.3 28.7 64 64 64l384 0zM272 160c0 26.5-21.5 48-48 48L64 208c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48l128 0 32 0c26.5 0 48 21.5 48 48l0 64zm16-64c0-19.1-8.4-36.3-21.7-48L368 48c22.1 0 40 17.9 40 40l0 116.7-50.3-50.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l64 64c3.1 3.1 8.2 3.1 11.3 0l64-64c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L424 204.7 424 88c0-30.9-25.1-56-56-56L224 32l-32 0L64 32C28.7 32 0 60.7 0 96l0 64c0 35.3 28.7 64 64 64l160 0c35.3 0 64-28.7 64-64l0-64zM72 384c0 4.4 3.6 8 8 8l352 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L80 376c-4.4 0-8 3.6-8 8zm8-264c-4.4 0-8 3.6-8 8s3.6 8 8 8l128 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L80 120z" />
-    </Icon>
-);
+const DiagramPredecessor = createIcon("diagram-predecessor", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABpwAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDBQsGAAE2AiQDCAQgBYMtBzobjwXIngW5abxGdupFeftHPDxv19e5r+qrMWSNzQzKZgVk6wxSymjT7aplLvT3DPHRn/9rPr+jDJAvfseHUkus9AbrxBQY6OxmkTaQ6Sx9phOwTc17aoBC1PUdII/X7VZHujvFje5B408dXSXJMgDRAgAz1q1a4p3f4reIj2qIjyxCQMwEhUCGDF0EmCwT6CJXIJcLfotajf0HFgQQ9QKSXJyjEY/jOUAOkvo87xRuPrZaKddV87XlutKuu9pE3Na7Ek+0u6NTxL3t7+xXjcfb3t7R9CcHRTzbOeKegc/0rcRj/Z/qIO4e8HSf6sbt8hJaLrt6bQuX41plTayMO9rc1nZF3N5+VdzZjieXR8Q9ZqJvqXTJZuV4ctCznWP97W2rcWf7O9pV4rY2m2KtDZUvKfV8psUzf/tob/92zz7mp+EXDf/p42w64mRWtYda0rI0Xally4cugk7of3HaDsVDcEFVZ+xd+exrLc9oZdWqMWNqmVQzZswHrZzR8O//x2966BzfQ3Det93rt2+3vR55GxqM/yJ4PQgEXzymbc0n/9dYTuCP147/imq/JekZNEogyAbXBtucQCIAACnO6pkgkNyvXrjXijsECCUESOqVBMh01kKAXMkgAep0M0aAeiWrZCJvEtrY0oCk4gTIjHUO5Np4FdSZ7N10vTaR3aq2G832p5h7bheas6wYMXR4MbGYLavsd5+hxycVmz39z/K2AXCtvY456rQ9djvgdIc/aUnujCPmLsnmfFFhhKGGK0xUHK49dK/F6ZNOOTDtPL7IJMX1if7OLvceAP1JUB2pIElEav1daR/yLgA=");
 
 export default DiagramPredecessor;

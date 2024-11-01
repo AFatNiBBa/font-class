@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reply-all` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reply-all?s=solid reply-all}
  * @preview ![reply-all](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/reply-all.svg)
  */
-const ReplyAll: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M209.4 39.5c-9.1-9.6-24.3-10-33.9-.9L33.8 173.2c-19.9 18.9-19.9 50.7 0 69.6L175.5 377.4c9.6 9.1 24.8 8.7 33.9-.9s8.7-24.8-.9-33.9L66.8 208 208.5 73.4c9.6-9.1 10-24.3 .9-33.9zM352 64c0-12.6-7.4-24.1-19-29.2s-25-3-34.4 5.4l-160 144c-6.7 6.1-10.6 14.7-10.6 23.8s3.9 17.7 10.6 23.8l160 144c9.4 8.5 22.9 10.6 34.4 5.4s19-16.6 19-29.2l0-64 32 0c53 0 96 43 96 96c0 30.4-12.8 47.9-22.2 56.7c-5.5 5.1-9.8 12-9.8 19.5c0 10.9 8.8 19.7 19.7 19.7c2.8 0 5.6-.6 8.1-1.9C494.5 467.9 576 417.3 576 304c0-97.2-78.8-176-176-176l-48 0 0-64z" />
-    </Icon>
-);
+const ReplyAll = createIcon("reply-all", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABawAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBVwsGAAE2AiQDCAQgBYMtBzAb1wTIjpQuZyQRPG/3X3Vu95dH6LGZcSFGdrQZpHQUbbj7KgR//q/5/KzpAD8fwaFlbtoYxd3PJzCxve+rFIjC2URxbxsS2pDEFURIkUQ0pjROc8jj1+w6ZaSH02e4Uz40LmrvOpKqDEA0AmDamhWLfPBX/BXxaekt4lMLEBDTQCGQIUMnASbKBDrJFcjlgr+iVKL/wIIAopyiiZmnNRdhPSAHScrz1kNryury1XhM9YYHeq6M+5xvvSqeavtom9WxJh7ssOqR3k+3msHu7/NMx4iaeKvfc50fanWfXOjhXre2fXDAC0Ne6fHD8m9WV0d0f77x+cs+2/2Zrx78v+72611p1epKza777+s/b78Bw/786o62Wbs+l56803P19c/BnVzq0y6bqnD++ecryw8e2n1jdVNTPuy+4ydGzqyI+Y0xP4aaCgSCTl+1urKlYeK/lTUJ/PP+1bh5S+mvNDU9j0oJBNnA0kAb01QtEDOAeIrTujtfFEhmSfRaaz0gQKhGgKRctQCZjhoFyFUbIECZLkYJUK7aCpnIq4RWNnWQ1DoGMqOdAblW3gBlJvowVq5VZDElRITwpUudbZFZ04phg4cW44tlWRPDhOPxCcW22/d0busHULsdcdhJu+y0z0lDH7coecohsz1qlh8qDDPYUIXxiuPa4+zVdjnuhH2OOFwmmaC4H+jrtN+7H/gTZR0uJ0lEqnqc0UHbDh4EAA==");
 
 export default ReplyAll;

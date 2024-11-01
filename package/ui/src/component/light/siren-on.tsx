@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `siren-on` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/siren-on?s=light siren-on}
  * @preview ![siren-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/siren-on.svg)
  */
-const SirenOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M55.2 33.7l64 32c7.9 4 11.1 13.6 7.2 21.5s-13.6 11.1-21.5 7.2l-64-32c-7.9-4-11.1-13.6-7.2-21.5s13.6-11.1 21.5-7.2zm544 28.6l-64 32c-7.9 4-17.5 .7-21.5-7.2s-.7-17.5 7.2-21.5l64-32c7.9-4 17.5-.7 21.5 7.2s.7 17.5-7.2 21.5zM16 192l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm544 0l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zM492 320l-32.2 0L439.3 156c-2-16-15.6-28-31.8-28l-175 0c-16.1 0-29.8 12-31.8 28L180.2 320 148 320l21-167.9c4-32 31.2-56.1 63.5-56.1l175 0c32.3 0 59.5 24 63.5 56.1L492 320zm-250.1 0l14.2-114c1.1-8.8 9.1-15 17.9-13.9s15 9.1 13.9 17.9L274.1 320l-32.2 0zM496 384l-352 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l352 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16zM144 352l352 0c26.5 0 48 21.5 48 48l0 32c0 26.5-21.5 48-48 48l-352 0c-26.5 0-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48z" />
-    </Icon>
-);
+const SirenOn = createIcon("siren-on", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABnAAAAKPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCbwsGAAE2AiQDCAQgBYMtBy8bbgXIHgl2DLEFjIvGSfHw/3b/tU9VfT23fLsj2JGEcQYqhSJQb006cUcjq107aRLs3VZcnWhuGcb0IC/F+/T38/xbU4E8/nOOwmfL82iKyPMJ7LzaomkTmWWJ4qzN4Q3+IMoPisr3Fj0hDVP8sDWDIv6O4VrI7k+f4tayp/GXXm4gU+QAogGAOWtXrvBmM5oRn/7/MvGpZQiIuSAJ5MjRV4DpcoG+CgmFQtCM/1/8D0wEEK0YzaxdoIS78DSgAJn2oqixc79y597llmqxpo5S2rhk6ZK7eZcvjXt0rx1evGyxcPdoWXx+Nw+VS+W77S6W4h6/V3USWFUql9bEA2udp+qqKMXaeDCejXLcOJ9uq0trV629N9+NS6fVlWrlLootfTXuVZB8x7KV6tN2dxP38a5RiWf8nh7xoO6NQS+UF76Bn+751MSHHzt9sOnQd/97f3ODA/ocufcubX7f9rtDmz5YeO2GQ7NWa86G1KSU865OcO36JJbcfj2+ZEyUdH0Wk+r9r7l6DqhP6vrsXz2eGo2of12vHpb+nbUNXs1aUmtu0+HWAetZo3/9LE/yz34dvY1sDgSCcy+cn7bWp19pL2fgzzeuYH3/N7Nr0gugXQaCfPj/w23KrgEiPwBjFmcMMu4okLlJO97VinsECCUEyLQqCZDroyFAoWSYAC36myBAq5KVclF0CF1tFpCpOA5yE10Gha5eBC2m+8DQqmvk/in2LvHvYYqFGllQLo0ZOTpNTbdBU+JywlQ8LT2Gg89Q0pAw1B5HHXHKbrvsd0rRJ6wwn3bYQota4IeSMUYaLZkqbUc+919jtxNO2u+oI7mUadL7usHO2JmHhEpkgLFfVkitIms/uf/E7iMjjh4BAAAA");
 
 export default SirenOn;

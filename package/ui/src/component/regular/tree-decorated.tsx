@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree-decorated` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-decorated?s=regular tree-decorated}
  * @preview ![tree-decorated](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tree-decorated.svg)
  */
-const TreeDecorated: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M242.9 9.3C238.4 3.4 231.4 0 224 0s-14.4 3.4-18.9 9.3L66.8 186.9c-5.6 7.2-6.6 17-2.6 25.3s12.4 13.5 21.6 13.5l16.5 0L35.1 326.2c-4.9 7.4-5.4 16.8-1.2 24.6s12.3 12.7 21.2 12.7l24 0L4.1 474.6c-5 7.4-5.5 16.9-1.3 24.7S15.1 512 24 512l400 0c8.9 0 17-4.9 21.2-12.7s3.7-17.3-1.3-24.7L369 363.5l24 0c8.9 0 17-4.9 21.2-12.7s3.7-17.3-1.2-24.6L345.7 225.6l16.5 0c9.2 0 17.5-5.2 21.6-13.5s3-18-2.6-25.3L242.9 9.3zM147.2 177.6l-12.3 0L224 63.1l89.1 114.5-12.3 0c-8.9 0-17 4.9-21.2 12.7s-3.7 17.3 1.2 24.6l67.2 100.6-24.2 0c-8.9 0-17 4.9-21.2 12.7s-3.7 17.3 1.3 24.7L378.9 464 69.1 464l74.9-111.1c5-7.4 5.5-16.9 1.3-24.7s-12.3-12.7-21.2-12.7l-24.2 0 67.2-100.6c4.9-7.4 5.4-16.8 1.2-24.6s-12.3-12.7-21.2-12.7zM184 312a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm80-152a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm24 280a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const TreeDecorated = createIcon("tree-decorated", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABiwAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCQQsGAAE2AiQDCAQgBYMtBzUbRgXILgZyMj4V5YAsMjRc5L0V1KIWofYXD/+/X7997ntfTKJJ9izipC+hEVUSobFoVCqRKWEWlWZ5LFrT2efcfYp4BQIFRAoIHADZsq0wcQUUMsIUHHLzhHJpgUqi6bPW9r2A+4euqd+bjQZ4YBMbSnRYNI46eAIDjPZqgVmkjWgivMVtN0VMKm0PiSnkcRPvlUH6nAp4F11o/NZllUTNAEA0AoCl/fpK2IpRjPgsIX5aBgHEEoBBBDKQgV4EmCUj0EshQE5BUIwS4j9wEAIgypH8egLkoAI8Bh8AOSBRcyV5yFJl4apVaeIqaz+vftnaEKdtZ+48yFO8jnY6LjyagtMFarPDOGumRmJ0iSFiCK1JzXTRfu7B+rHdh57r8Fuvq7BmxhjKWvWpg5+dnv9dSMGfWmv2b33z6uTO3ijvGkMnQ3+dyh4wdDzscKj+rn3IGb38LTK2QuHEfneyc9hw/qU2MbZMQvYwOdwOL+V1w6txl40inVct3T3COM6ikQ6hT2rb2mpz8voFJ9Z1eM73BwgQ8Knrd+cNuf8rJQH49f3XK7IkfqSvqCQBArKx0piOsO1AG4oPccUsgvEnCZDMUCXnWutcAAIDAUg0DAEyvpwQIMfEIECZAGkIUI6pJ6PcAuKmswcS0wSQpVsBCjcvQJXr1aNxiwwQOWDE+Q9MWDRGC1uJ6fhEkS02Y1oubLFsbY44rRyalTlReCJ6jRk1rUe3AdMj6qRK/4wRRXuUQl8kJImXSMgmbiefj27SY9KUAWNGfTM5xPvWSLP7xaOwRpLQnRGVSBDJIYB6424edY2FTwAAAA==");
 
 export default TreeDecorated;

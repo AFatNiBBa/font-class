@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-list` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-list?s=light rectangle-list}
  * @preview ![rectangle-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/rectangle-list.svg)
  */
-const RectangleList: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l448 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm104 64a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm88 0c0-8.8 7.2-16 16-16l256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-256 0c-8.8 0-16-7.2-16-16zm0 96c0-8.8 7.2-16 16-16l256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-256 0c-8.8 0-16-7.2-16-16zm0 96c0-8.8 7.2-16 16-16l256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-256 0c-8.8 0-16-7.2-16-16zm-64-72a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm-24 72a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const RectangleList = createIcon("rectangle-list", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABkAAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCOQsGAAE2AiQDCAQgBYMtBzUbPgXIhof/t+v7fW7VU2uoGpsZv8AQisQgY6+fMpq4p07lXM5DAXwOQVDGGBaQNc5H1zyvQMWGjU0VqhVrRS24dXe21HZIrRxLSJmR47Pjc4Y8fo1RmkjPpl/wsLxp/K2HO0jyDEC0B8D8rRtX+6Ie9YhfGh8Rv1iJgFgACoEMGXoLMEsm0FuuQC4X1KPRwP/AggCiGf/8EshRwjXcCchB0prnPXu2VavVtrZyUzXfUm4q7byvc8QTUtzo8mS5Gvd3ezqyuNn1qVJl2fMjI94fWo03h7/bI8Uzw94ZVIm3RrzXM9v8/NA3ezwz6K2e5ae7VePJLk90rsRTXTXCFhNj1jZt7TXgvfbv/dv/lyO/mHu9dg/31OYRAqEv+LqtUepAh1e+8EqHDqV5iIfC0bld1q/vkqvbanXqNZpuX+PMXbpKBK/b0r3ngUCw6+seq/e2m3WrtZzAX5//f0se16ineek9tEogyEY1RtmV5gFiAwhTXDFA+aBAckUrftWKpwQIJQRImpUEyPTSXoBcyUgBmvQ1WYBmJRtlIm8TOttdQVJxHmSmuApynX0AmszyfdCsc2ROyLgQ8wdMXNLDi9cV48eMK2YU01ph/YqKyzMLsznsCg0Nh52OOOuMSw475LhLHXrB6viy05ZoyGJfVBhvjHEKMxTHncfNWxx2wUXHnXUmrTJTcd8f5oo+eTg4CeNOcESSiFS7cPjgpf1njp46PPolAwAA");
 
 export default RectangleList;

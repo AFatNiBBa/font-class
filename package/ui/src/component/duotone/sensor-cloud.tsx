@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sensor-cloud` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-cloud?s=duotone sensor-cloud}
  * @preview ![sensor-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sensor-cloud.svg)
  */
-const SensorCloud: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 138.8c-14.5-6.9-30.8-10.8-48-10.8c-60.1 0-109.1 47.3-111.9 106.7C250.2 348.7 224 387.3 224 432c0 17.2 3.9 33.5 10.8 48L64 480c-35.3 0-64-28.7-64-64L0 96zm64 24l0 144c0 13.3 10.7 24 24 24s24-10.7 24-24l0-144c0-13.3-10.7-24-24-24s-24 10.7-24 24zm96 0l0 144c0 13.3 10.7 24 24 24s24-10.7 24-24l0-144c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-        <path d="M256 432c0 44.2 35.8 80 80 80l224 0c44.2 0 80-35.8 80-80c0-39-27.9-71.5-64.8-78.6c.5-3.1 .8-6.2 .8-9.4c0-30.9-25.1-56-56-56c-18.1 0-34.1 8.6-44.4 21.8C464.8 278.5 435 256 400 256c-44.2 0-80 35.8-80 80c0 5.9 .6 11.7 1.9 17.2C284.4 359.9 256 392.6 256 432z" />
-    </Icon>
-);
+const SensorCloud = createIcon("sensor-cloud", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABjgAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCEwsIAAE2AiQDCgQgBYMtB1QbOQXIhof/bL7eN7OS/febYc0EAeyYKmCsEItSJy1hleh/rvn8rOkAPx/BoVQvmyOBMp9PYKD3RoUZptMZ2qzNcQ/6gyi/NEQcWlJPw9YPU03toEgj8rVqpHvT17ij/Q9g/Ki3a0laMoDoBIBFO7as834jGim+br5BfG0tAmIxqAQyMvoJMFcW6KdQoVAIGqnZpBHNZkUAUWdoZtflBefgQkABkpCLYsTgDh1aa+2L7ek15Y4HR0U8O6013h7z/MD7Rj83/O64r8ddw5/odd/wp8o3Rj7T78ruT6StvfL9YyKeH9E+nhz1bG8x5nPGlb1L4q4498mrhHuHPd034j5nf6t8bPBznZ77edDXx7/W7BjbOdapodOx7dG+W/c3c63Nr/+f/8pfN8yf37ePtPT8RK9s72DZmc6PLPRI587lLXb3+f7n/8Z909JncJ8nn0dk4b93WlX3TZu632npP0jPA4FgXLn7wwMd5/7dtjWBH9779c96vub76cr0HNpKIMhjm2PtTVeCMAP4USkuNThdGRDI5sss2c5d7kIo2SCpKyHrqxMUSmOgZoBpTnWlLbIoWpDsZh8gaecCyKa7DArdvA41c32WresWOeSkgJG++NKXM7JsUTVp/MRqdnVYs8pRJJTZOdVp78hLtWcUVjruPOe62DFHnXIx0RdaV7jEOZbPqGW+qDLJeBNVZqvczXt9O0UudJEK+6p/njmq+5MjXTofPgqBxFgnW5JlIkXu9sYqed6F435AaI+L3v4eA/VJBQ==");
 
 export default SensorCloud;

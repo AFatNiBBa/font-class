@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-jpg` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-jpg?s=solid file-jpg}
  * @preview ![file-jpg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-jpg.svg)
  */
-const FileJpg: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 144-208 0c-35.3 0-64 28.7-64 64l0 144-48 0c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM208 512c-26.5 0-48-21.5-48-48l0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96c0-8.8 7.2-16 16-16s16 7.2 16 16l0 96c0 26.5-21.5 48-48 48zm96-160l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm80-40c0-22.1 17.9-40 40-40l16 0c22.1 0 40 17.9 40 40l0 8c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-8c0-4.4-3.6-8-8-8l-16 0c-4.4 0-8 3.6-8 8l0 80c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-8c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 24c0 22.1-17.9 40-40 40l-16 0c-22.1 0-40-17.9-40-40l0-80z" />
-    </Icon>
-);
+const FileJpg = createIcon("file-jpg", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABoAAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDGQsGAAE2AiQDCAQgBYMtBy8bmAXIjsQ4JvFKNB7i4f/z+n6fm5SSh1SLabla+oRmtGbwmqvWn3Ik5NcT8/xfTpuDArxJiYfy765pe+Aa43kCARctzLYt4MAyTcBa3HYVRDTEERJHyOPt7BIN0p3pM1wfPjR+MN4lJJ0MQFQA2HzfPXf2QT/6EZ/+/yrxqR0REJuDWiBDhkkCbJAJTJKrkcsF/fj/f/EfWBNANCWC5K052ngOrwNykDTzfHpr6oRiXdkYzPcpG0V294KIp+eUIS4YfWtJcEU8MveJcQWPzX9qQnZ4UUr52Hu/x8ZE3DYh4faxt44WOSDqfu0do26ZuW9ZlI+OvnV8n1yEuGXUbWdJEdr78Yl3zZ46y30vPJ5blnH16Fttg1xXtORjulKQY1CClnySdsE9iyKuGnNbxPSnqqd+mvYxu6Do0n3gARcYuuKKoQvc4CsPdLtFzewFLjh/0wuSw84///nze1/zeVYZ6veHSvZhidnnX/fcX+NNp/33S6v1y3+nVeplR89u9QlT23306N0rPdWuc7pv8XS30n36rW77QHVb87DKYc3dcHJbf2ioXwn9OCfV4gG7AYFgx+bf4w1v+LVdJvD9W7/8QX9G/v8gSU+hLYEgW/j/QgclkAgAQIpzTE8QSB7TlBwccJsAoUAPJU0FlJmognKFBVDDFCvJkwf2lIm8I4xyMAwlA06HMqucC+VGeRlq2ODDUNOoyIBWCXLKf8Z024yZW6+qly7u1evqzYZWBYekXVxfnzbMPUcOzMNbHeNUpzjL0Y5yvLNGsjPsHD3bybbZk27ti2pLLdZTW6e+3X6u24eCUnemJ9fV95dZr37fM9c5++PnYXOSKFymJElEan8gwUUnnHYs");
 
 export default FileJpg;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-bill-trend-up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-trend-up?s=regular money-bill-trend-up}
  * @preview ![money-bill-trend-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/money-bill-trend-up.svg)
  */
-const MoneyBillTrendUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M320 24c0 13.3 10.7 24 24 24l54.1 0L286.7 159.3 191.6 77.8c-9-7.7-22.4-7.7-31.3 .1l-120 104c-10 8.7-11.1 23.8-2.4 33.9s23.8 11.1 33.9 2.4l104.4-90.5 96.3 82.5c9.5 8.2 23.7 7.6 32.6-1.3l127-127 0 54.1c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24L344 0c-13.3 0-24 10.7-24 24zM103.5 304l305 0c3.6 29 26.6 51.9 55.5 55.5l0 49c-29 3.6-51.9 26.6-55.5 55.5l-305 0c-3.6-29-26.6-51.9-55.5-55.5l0-49c28.9-3.6 51.9-26.6 55.5-55.5zM48 256c-26.5 0-48 21.5-48 48L0 464c0 26.5 21.5 48 48 48l416 0c26.5 0 48-21.5 48-48l0-160c0-26.5-21.5-48-48-48L48 256zM256 448a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const MoneyBillTrendUp = createIcon("money-bill-trend-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABhQAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCHgsGAAE2AiQDCAQgBYMtBzobKAUjEaZTTyX7iwSeiuXlZ8SJetVAQlgTwhrrhBlW+lWbNvv+7auoubt0JC4kxCvxEK3xezO7d19MEK2QPBNNOhFP0OiQLNRfSaLJu1klQz3//8fmv0QLmYeIZ2gmnhKexaqsJFIdp0+2Gy1qhLE56uatxCi0KiU65g+UWZ7d+c3/5fTG86MD/EaHNtYCue3t+TyBBMvzNJCxwDJNwHrb0EhHEJ5GwyIjovGk8TqdoMaTuKMhH+QH3M4fGn/NuUVqCoAYBcDhk1E/e/kLvyLed0/ivSMIiMNgVaCgYFGAfYrAomoVVRX8iq6j/0AigGjJKyeoaHERNwAVpFrrtvn5oYFmqJ4YaPoDmjvhIYYE1hjDMq5KEnGsKAmGnZwTsFcuDpwS8AU7vxKGAy6Zj31YK3CmTQocEFgygyUJWglwQX78a9z7bT/qpV2X+OZub+2zg2cfthsMFEJ+fuLz6j9LK4X9/D47i0F46mLRR9j/SEhd9v2jiCAkg2xQBIoetGn8Bt4lKO9vxkBx1HRfGPVCod6I5xsBgeDRRd0o2n3/DC/Bn8ef//wz0r1MuYFeCYKyu5vOJUgCAJBx3XpCIF1QybUOuitA6EeA1OoXoFgwKkDVb5cAjWV7BGj1O6qI2idMOh9AGnQJFHvdBNWkh6Cxz+u0NRnF72ivoV99CSc+jXr3kUlvJDeZXZVxJTJte2jZUC54SgVHWcPQwExdTdtM4RP+Yq7PN8O8voiY6BkRN9oe3AsJ5U9MmRxz+7t40PlEaTFfrAKbQwjNGjgS5ISXirprYOtmv9aFuvkIAAA=");
 
 export default MoneyBillTrendUp;

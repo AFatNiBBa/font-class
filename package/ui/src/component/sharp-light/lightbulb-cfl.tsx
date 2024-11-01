@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-cfl` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-cfl?s=sharp-light lightbulb-cfl}
  * @preview ![lightbulb-cfl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lightbulb-cfl.svg)
  */
-const LightbulbCfl: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M160 28l0-20.5-19.9 5-128 32L0 47.5 0 60l0 67.5L0 140s0 0 0 0l0 20.5 0 47L0 220l0 20.5L0 300l0 20.5 19.9-5 111.9-28 .1 0 64-16 92.1-23 0 47-99.9 25-12.1 3 0 12.5 0 48-32 0 0-50.5-32 8 0 42.5-16 0-32 0 0 32 0 32 0 32 32 0 48 0 0 16 0 16 32 0 0-16 0-16 48 0 32 0 0-32 0-32 0-32-32 0-16 0 0-35.5 99.9-25 12.1-3 0-12.5 0-80 0-20.5s0 0 0 0l0-47 0-12.5 0-20.5L320 68l0-20.5-19.9 5L160 87.5 160 28zM288 215.5l-163.9 41L32 279.5l0-47 256-64 0 47zm-128-95l128-32 0 47-256 64 0-47 115.9-29 12.1-3zm-32-25l-96 24 0-47 96-24 0 47zM224 448l-48 0-32 0-48 0 0-32 128 0 0 32z" />
-    </Icon>
-);
+const LightbulbCfl = createIcon("lightbulb-cfl", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiQAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSDJAsGAAE2AiQDCAQgBYMtBzQbqAXIjsQ4JvKLKOwi4uHXKut19ywMHPYe4D/iOaAwsENHCt3GbVxYhV2EIZbkpkNq3+NNXO78bQ6dRo80VwPLx9YxxnkCieZRIJ13WWCRdJ6AdTTv5UEK5ULdDZpcmq06VK9X3+Dl8Kb502LPUWlqAJkDgKMvPPd0n36X75JvRpJvnIpAjgFFUKPGMgGHqQXLNAoajfBdRiPxH1gIkDExWPn+BuN4F58BGlDpNM3DvcHkZK8zaC7odbqXRtbmvLQRkafzdPD2DbkwyYkkcUDoJlkLd7u5Xg/zSWJybbmWXJiFPeNBJza+Kuf88y48ryzlwrhAFy4UnVm4eckQT3txt9dNerF6es7033xzwzfeeKdt2z2eXGlG33H6YMoOfVMONWWPO5di5NIFdrh2kRl9Q8Uu/9lsTikSfDgHUcyJhy4/Z83uOwfO0oIdBlqHae3x/GqHPfnBOxuJcXPH6Eg7nrziyZXYHHS4d5mZ/69ciNMd5IPtuPLK4fCp4ikFCMK3v1x31JWzD/tnoleBH95v1a9o9GmOqqYxoQKh3jra6rI8ADlKAABVHrA6RyGovKMjftW+VwREFwGVMV0BtaXmCGh0bRHQscJeAWO6zlVLMylal3dKpe9upbbP40qj9Z7ScZjPK2Pa1KBrAp7545h3whA4/lLZuX1YDimrI40Fjbo9PbQczmx8QK5swlfd4E53uM/1rnOz+wbMPU6v3+92J2xhx/ugYqfthopDlMvTp50XuN497nXzsnP9nEOV54sbPbC9fRPOV2LVXboqFakG0Nxxzf23XbPt2htuAwA=");
 
 export default LightbulbCfl;

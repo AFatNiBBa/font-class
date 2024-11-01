@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `teeth-open` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/teeth-open?s=sharp-thin teeth-open}
  * @preview ![teeth-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/teeth-open.svg)
  */
-const TeethOpen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M560 48l0 192-48 0 0-44c0-33.1-26.9-60-60-60c-17.9 0-34.1 7.9-45.1 20.4C401.5 126.6 375.4 104 344 104c-24.1 0-45.1 13.3-56 33c-10.9-19.7-31.9-33-56-33c-31.4 0-57.5 22.6-62.9 52.4c-11-12.5-27.1-20.4-45.1-20.4c-33.1 0-60 26.9-60 60l0 44-48 0L16 48l544 0zM168 196l0 44-88 0 0-44c0-24.3 19.7-44 44-44s44 19.7 44 44zm112-28l0 72-96 0 0-44 0-28c0-26.5 21.5-48 48-48s48 21.5 48 48zm112 28l0 44-96 0 0-72c0-26.5 21.5-48 48-48s48 21.5 48 48l0 28zm104 0l0 44-88 0 0-44c0-24.3 19.7-44 44-44s44 19.7 44 44zM16 256l56 0 104 0 112 0 112 0 104 0 56 0 16 0 0-16 0-192 0-16-16 0L16 32 0 32 0 48 0 240l0 16 16 0zm496 48l48 0 0 160L16 464l0-160 48 0 0 36c0 33.1 26.9 60 60 60c19.9 0 37.5-9.7 48.4-24.6c9.4 23.8 32.5 40.6 59.6 40.6c24.1 0 45.1-13.3 56-33c10.9 19.7 31.9 33 56 33c27.1 0 50.2-16.8 59.6-40.6C414.5 390.3 432.1 400 452 400c33.1 0 60-26.9 60-60l0-36zM168 340c0 24.3-19.7 44-44 44s-44-19.7-44-44l0-36 88 0 0 36zm112 12c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-12 0-36 96 0 0 48zm112-12l0 12c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-48 96 0 0 36zm104 0c0 24.3-19.7 44-44 44s-44-19.7-44-44l0-36 88 0 0 36zM16 288L0 288l0 16L0 464l0 16 16 0 544 0 16 0 0-16 0-160 0-16-16 0-56 0-104 0-112 0-112 0L72 288l-56 0z" />
-    </Icon>
-);
+const TeethOpen = createIcon("teeth-open", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAAB0QAAALQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQSESwsGAAE2AiQDCAQgBYMtBzEbTAbIjsM4JjxS6dxF8HzZ1Pd3T7J8KxlxTXwOEZq5C3CJXAN34S5cVKhJyRXBevtDFrMQ1fLnM/IdV5lSTByz83VzFOnQIimqbRZRPBrQbkBdX0Hy+Pai+EabQzTtG/jMr0soewCOvKQBH6iT6gP73Q+VD6SyGxRaAwAgMQAAwNTVyxfyMCxhkWf/L8gz5gMCIFMBsAigAQ1kIABMQCNABg4WcHAQCMv//+p/oAUBAPEDuOKcA0SBKJBoaC8GRdBximLiYmPiWdD4Qs4q8Ra3H8EVkVOlXqjFrdDcU+yjKF9TSvdMARnRRddMSd2RXAwnCquZUeS0hhZ1ZGqS0n5gptNrjBstE9woBEFMbUMzSBTUyKaTJatglNVEMa9sjeQlivRy8U7Hmu0JKEdcSsqz1CtPUGi+adNQO1cjWIkaZgQz3VfnGvdAyQUm516M8U85z5s+Vfsf4hKPcgKw/bqKUVEpS7Oylqa4zTPV9e0QKMfjIXbf4XJsWkM58c/uxoe7z+K70+dgaw3lZKBfvPK8Vy90d/q4o4Y5Vb+MlgUr344fM8aL4SExxDjjlyoPiRewXMAj/w484Yi+X+8TeRLf/+qLCMfnr86LfwZ7LMpnDfndRr+AU5RBamwNniwIycljedSQ37LA9HZ4DLRcOF3kvg8AAgi0j7vye3P0hK8BowB4d/vLB/d6/ofVFHURCKAAENDl/8vZoKYAqD4CIkqGyB35RQIofhEEPEGOIcQEFxJT4cdlatKJYTq4lDF9ZDFSMHP5cjTiRCIksJEyFUF6mZpRbGE6JHCL6WMCj8J+EkR/DaJnWfQzmnxWCZg5ylZXenacHcwK4gdcMNo93s5WFQ/pqhK6lSa66WKARhpoZaAg9bEwNkgns8YwM/lDLNVU4mEZh11duJ24ikb66Ke1X7J+kPHY/W3FDI03LqFaBfgOY4dCgSh3oLFxoKXiRQEAAA==");
 
 export default TeethOpen;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mushroom` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mushroom?s=sharp-regular mushroom}
  * @preview ![mushroom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mushroom.svg)
  */
-const Mushroom: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 272C16 139.5 123.5 32 256 32s240 107.5 240 240l0 24 0 24-24 0L40 320l-24 0 0-24 0-24zM146.2 114.5C96.5 149.2 64 206.8 64 272l384 0c0-18.7-2.7-36.8-7.7-53.9C431.8 231.3 416.9 240 400 240c-26.5 0-48-21.5-48-48c0-26.2 21-47.5 47.1-48c-25-28-58.2-48.6-95.8-58.1c.4 3.3 .6 6.7 .6 10.1c0 44.2-35.8 80-80 80c-37.8 0-69.5-26.2-77.8-61.5zM179.7 352l48.6 0-12.3 80 80.1 0-12.3-80 48.6 0 12.3 80 7.4 48-48.6 0-94.9 0L160 480l7.4-48 12.3-80zM144 176a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Mushroom = createIcon("mushroom", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeQAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCFwsGAAE2AiQDCAQgBYMtBy8bFgXIhqDSVWW1NBN70sIhaA8JH4lNIPCOvSd2CeyZOvU859mAbyEL2li4NOfTg3OeRyDAY3mHtgIRqmkBpMzdm2YUzWZnyUQz6fja8XWDPD6Ie9RIj6YjuFsuFb/q5QaSWgYgOgJgwbZNa3z6U/wUcbjxFnHYKgTEAlAJZDDdV4DZMmFvkKuQywU/RaPB/4EVAUSd/pwEctRxOi4D5CDJ87x3e7cuZa0l31rWim1fTop4Y1XE4W2frzg44bUtQhTNEbHt3dERL2qJa3s/Mvjp7g/1vrbHw8M+XvqgJ4Y/O/npkU/33lIW5eYoY2uUsSX6RVEMiG1bb+8W8aBruj5Q3Nb9oYi/oxz4fMfnf28/ctIRba9Y+D//72PfQgvt2/f//xb2RPIBfM21T+zYzvYJ1+h76Wf3jP/uaNb1+yPjdz6V1+KkLR0/nb/utPbfxqNZrrNeQ8ZrNs824e6zu2fQK623cEsr+goViKd+KP+bt69t9v9NZQK/vP/nn/w16tj4Kf5Kz6NJAkE2ujHa7kRHHeMvAQBIcZGBiY4CyfFyctVmDwkQCgRI6goBMn10FCBXGCVATX9TBKgrbJKJvIPQ1Z4JkmbngsxUV4JcV2+Amtn2W3VdI8s5LmO4L1/yUgstGasmjB1fzay2vsGnEUP9WVVYGX5RzY2AUyc521kucKITnOoCQ55njXuhMy314CU+qDLBWONVZqqOo9f9rU50nvOd6mxn8ZBZqvvGcBf51SNAT5R2oskkEanpzAvPP+VhAw==");
 
 export default Mushroom;

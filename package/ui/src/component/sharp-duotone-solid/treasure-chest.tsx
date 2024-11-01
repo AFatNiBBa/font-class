@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `treasure-chest` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/treasure-chest?s=sharp-duotone-solid treasure-chest}
  * @preview ![treasure-chest](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/treasure-chest.svg)
  */
-const TreasureChest: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 160l0 96 96 0L96 36C40.8 50.2 0 100.4 0 160zM0 288L0 480l96 0 0-192L0 288zM160 32l0 224 64 0 0-64 128 0 0 64 64 0 0-224L160 32zm0 256l0 192 256 0 0-192-64 0 0 64-128 0 0-64-64 0zM480 36l0 220 96 0 0-96c0-59.6-40.8-109.8-96-124zm0 252l0 192 96 0 0-192-96 0z" />
-        <path d="M160 32l0 224-64 0L96 36c10.2-2.6 21-4 32-4l32 0zM416 256l0-224 32 0c11 0 21.8 1.4 32 4l0 220-64 0zM224 192l128 0 0 160-128 0 0-160zm80 32l-32 0 0 16 0 64 0 16 32 0 0-16 0-64 0-16zM160 480l-64 0 0-192 64 0 0 192zm256 0l0-192 64 0 0 192-64 0z" />
-    </Icon>
-);
+const TreasureChest = createIcon("treasure-chest", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABlQAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCcwsIAAE2AiQDCgQgBYMtB1gbnQXIjsQ4JvEHYkGLh+/n+jr3Jb9rOhmGzCgAyqAiIgXkYHcVkSVQ3G5RSPqgluQq6vx//5n/y/G9e34b8CrrJxzanuN5AgEuyjeVSEJphtbZtjdFTELjWGdcII9/s0c6SC+lH/Fs+T+A8YcRHpE0MwDRHwArd23boNUZnSl+bH9K/Gg9AmIVqAQyZBgtwFKZwGi5Crlc0Jna6Iy2igCiIXpzBhroi+fxFiAHSUMjz8uyOaDZ7B0AA3o3y44++c49xT6hiIgXFvbtCFHG4yGiUN6iFCJ/R1EWAuZH0u2DvIgy9NG5osiEheSnU98drTUWu5SyPGXrnWzHIwpeqTy2Gn59+vvzj+yf8Hb/t/8a/+PJH73xRmdUXftJz4Cq/Wu7pzKg5yf1193DwJvueXPTuKquv1p/ldLybLvGrC21lhZHraVWHQb95OW3nutzr5V/WMvhN1zsq92TezsxDRFPWFb881PUethhfZ576+V/D70OBILfbh2+eKjf0r97lQl0f/bv5fPanalOb6OXBIJsanuq/akGwR7Aj0px04RUO4xAZr2G6FN7e16AUCBA0lAIkBmlvwC5whQBOow1T4CGwjaZyJvCYAdaOuntCp2Z7zadG+wTusNS38QaBkcGogIAE/whJl3Xh9fuqmZNn1ktrhY7aiHU8ezmkmq3duJNOTEJn3XSJRddd8JxZ1zvUVdtSN5wwbo1ZK0vqswy3UyVxarT/cfSnTR21TVn5sXnt1miut850c31+ZOwIYm4znYikxEpsqHfA3lvTvG0Y6dPXLs+DdxnDZ8SP9sAAAA=");
 
 export default TreasureChest;

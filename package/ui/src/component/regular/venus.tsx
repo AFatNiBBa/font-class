@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `venus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/venus?s=regular venus}
  * @preview ![venus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/venus.svg)
  */
-const Venus: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 176a128 128 0 1 1 256 0A128 128 0 1 1 64 176zM216 350.4c85.8-11.7 152-85.3 152-174.4C368 78.8 289.2 0 192 0S16 78.8 16 176c0 89.1 66.2 162.7 152 174.4l0 49.6-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-49.6z" />
-    </Icon>
-);
+const Venus = createIcon("venus", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABagAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBXwsGAAE2AiQDCAQgBYMtBywb2wTIjtRG+UVWEg/fr/V57uueBcBeAAa1rAAg7MIO0f6KTUUmdqr2feKa519FBVLCr1a5OC+OpGHm+QQecJGeYBMZziaKszbHob6iKOIgNBxhj0hr2w9bN8jjWFxTIt1K3+Nq+9D4R1PnSUoZgKgDgDGL5s3wZUVURHxXRnxnGgJiDCgEMmRoIcBwmUALuQK5XFAR5bL8BxYEEJV0PIly9+IcrATkIEl53rxn9VLNfGHYXG3ZmW4Rb7q9qX6xy6skON35pVDtQtfXL8eCv0ZFfLHoz7m/Lvx99s/z/xjx2QJRLZ42udWheoiieNE8onq8ertjtYi2r+u8/rfN9xu/N6p2uxrU+OXntm1//qVGjXbUIptvvDOm6gPeMy6m1hma92LmjXvvwaqpr97mNGw4J6OdoXMa2vyGvkAgqFe198hVtYf/V6V6An9//P/6Wp3yl7E7vUYVCQRZ93J3y+O0gqoTK6AXUhzUFt8kkEyR4IUargsQqiFAUgmZImaaqyPmqukmlrQyQN88Pk8m8qpCAysgJjXsETMDnRBzDXwklgz3VaGSBpHZlWkV5m9d3kQGJsQVfXr2LoYWjy2XZSp6WR1WbKc7H4wjXXDVRrvstN8G622xn9i9ZpQP2GGixkzwQ4U+euqtMFRx3P3uLaT8XvuwvrbP1xmmeD/T2UF9ehfYH6jetx6S5BtT6eCGnQf2AQ==");
 
 export default Venus;

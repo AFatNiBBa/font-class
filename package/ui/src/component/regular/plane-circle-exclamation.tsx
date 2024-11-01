@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-circle-exclamation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-circle-exclamation?s=regular plane-circle-exclamation}
  * @preview ![plane-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/plane-circle-exclamation.svg)
  */
-const PlaneCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M215.3 18.7C224.9 8.8 238.6 0 256 0c17.4 0 31.2 8.6 41.1 18.7c9.7 9.9 17 22.6 22.4 34.9C330.2 78.2 336 107.4 336 128l0 26.2 84.8 54.3c-16 7.5-30.6 17.4-43.5 29.2l-78.3-50.1c-6.9-4.4-11.1-12-11.1-20.2l0-39.4c0-13.6-4.2-36.3-12.5-55.2c-4.1-9.4-8.5-16.3-12.7-20.6c-4-4.1-6.2-4.2-6.8-4.2c0 0 0 0 0 0c-.2 0-2.2 0-6.3 4.2c-4.2 4.3-8.7 11.3-12.9 20.7c-8.4 19-12.8 41.7-12.8 55.1l0 39.4c0 8.2-4.2 15.8-11.1 20.2L51.7 290.8c-2.3 1.5-3.7 4-3.7 6.7l0 29.6 144.7-46.3c7.3-2.3 15.3-1 21.5 3.5s9.8 11.7 9.8 19.4l0 72.3c0 7.6-3.6 14.7-9.6 19.2L160 436l0 23.9c6.8-2.1 15.3-4.6 24.3-7.3c22.6-6.8 49.1-14.8 64.6-19.6c4.6-1.4 9.5-1.4 14.1 0c15.5 4.8 42 12.8 64.6 19.6l17.3 5.2c10.6 17.7 24.3 33.3 40.3 46.2c-6.4 5-14.5 7.9-23.2 7.9c-2.3 0-4.6-.3-6.9-1l6.9-23-6.9 23s0 0 0 0s0 0 0 0c0 0 0 0 0 0l-.2 0-.6-.2-2.4-.7-8.9-2.7c-7.5-2.2-17.8-5.4-29.2-8.8c-19.5-5.9-42-12.6-57.9-17.5c-15.9 4.9-38.4 11.6-57.9 17.5c-11.3 3.4-21.7 6.5-29.2 8.8l-8.9 2.7-2.4 .7-.6 .2-.2 0c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0l-6.9-23 6.9 23c-2.2 .7-4.5 1-6.9 1C129 512 112 495 112 474.1l0-42.1c0-12.6 5.9-24.4 16-32l48-36 0-27.4L52.2 376.2C26.4 384.4 0 365.2 0 338.1l0-40.6c0-19.1 9.7-36.9 25.8-47.2l12.9 20.2L25.8 250.3 176 154.2l0-26.2c0-20.7 6.1-50 16.9-74.5c5.5-12.3 12.8-24.9 22.4-34.8zm104 262.1l20.1 6.4C327 311.3 320 338.6 320 367.5c0 17.4 2.5 34.1 7.2 49.9l-29.6-22.2c-6-4.5-9.6-11.6-9.6-19.2l0-72.3c0-7.7 3.7-14.9 9.8-19.4s14.2-5.8 21.5-3.5zM496 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 240a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-192c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const PlaneCircleExclamation = createIcon("plane-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAOcAAoAAAAAB1AAAANRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQSESwsGAAE2AiQDCAQgBYMtBz8bWgYRlZrFyX4m2LYa1kIBoSQWkZqbBwCrZZAZbONp5IJz4aJ4Es9/f5Xnvv49O9gOPjW2JAEL+OoBGrDEAxqgCAS4K6Ir/MPbfZ4781YfXIAh1FOLKsLMoovgOvXvY/kfY+5NzP9EFWkmnrmFhlcNjVCJhMx10waIBH8/ccx00b7zDND50CITK0Jg5xNoi6btA/SBGvjF9Nl+nBtpRexHjsc+QtNvvaKHamK+hBfjTeW1DA0o4mwAJAQAbob6OnB3YMSiF/+XyAvDgQDpC+wIdPA1VgQ4shFYMeRDwyAY8v+/+DeQEIDEYz26AA2MIfGQCIAGKOKMuaHMSvJ74/xmkpLpmf7mPZSxL6NJ2huZmDvfJF0wpFqjk+ok16pWvRfEIpvUE2T6J+dSsy8fMUKQq0OeI2VH0so/LjlUUqIm/17PZm2W0lULMZJHqShHS3U4dW/x3mREsoBir/VmKkPjeTvQ6Hr75gm5ywEyLS3BjBbp5Dq1qcWelza1xFNykktGpfr9Z7gpk7fkpWvhU1yqT3a56tlcuN7qtGqjZ7rf8HIkq7n0YHpTifaq0T6NmyY52sLjoeNv7S8XH71633Gx972dZDKUyYQM1sQ72uKIv4z0z4nBfiATHic2IxFPGf4jV4vQts9hZw0HHNc3hM8ZRrq5zVibFJN8Ye7MvdqkGH49X0rsNotYBOsXhpA6bndndm5vOn75Pew/0Kd2u9PEjsUd98g2Xej48VAlyd8/ltZ60PH72ZQT2PSAh/bNRqbQvv/ivacnThrGFldnLnrE2c427sWBs13KLKi2BaWlBW0tqyxXIfg+9Gg0Y93Eu4N0jEBMvB8QELjLh79PyUpf+XML8PXxf/F2/3drE/M4mGABAl31/2ozmEcAZA2Av7RCYcsHCij+6bGoFjiEYPBASiji8RA6soQIDQ9VhJ5cHbk9F4+HjUwSItlMSLDwsZhg08l6giHZBUIcPTzxxZMcmzfw2TL/ZDSJaM+D22ZRPBKjAjVWxAIGzlUni9Rb4zsUO/xwIxZt2bRvwbwV+zn0ro7ggQ3tbext70viImJIAY2uX5YM5vy79qzUC8ZPo4jmd/gctvf3Qz2TxTEhj6lglP7IVYSfG+oM/2pDN7PBxwEA");
 
 export default PlaneCircleExclamation;

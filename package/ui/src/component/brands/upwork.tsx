@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `upwork` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/upwork?s=brands upwork}
  * @preview ![upwork](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/upwork.svg)
  */
-const Upwork: typeof Icon = x => (
-    <Icon viewBox="0 0 641 512" {...x}>
-        <path d="M494.7 295.6c-50.3 0-83.5-38.9-92.8-53.9c11.9-95.3 46.8-125.4 92.8-125.4c45.5 0 80.9 36.4 80.9 89.7s-35.4 89.7-80.9 89.7zm0-237.8c-81.9 0-127.8 53.4-141 108.4c-14.9-28-25.9-65.5-34.5-100.3H206v141c0 51.1-23.3 89-68.8 89s-71.6-37.8-71.6-89l.5-141H.8v141c0 41.1 13.3 78.4 37.6 105.1c25 27.5 59.2 41.8 98.8 41.8c78.8 0 133.8-60.4 133.8-146.9V112.1c8.2 31.2 27.8 91.1 65.3 143.6l-35 199.4h66.4l23.1-141.3c7.6 6.3 15.7 12 24.2 17c22.2 14 47.7 21.9 73.9 22.8c0 0 4 .2 6.1 .2c81.2 0 145.9-62.9 145.9-147.8s-64.8-148.1-146-148.1z" />
-    </Icon>
-);
+const Upwork = createIcon("upwork", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcAAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBagsGAAE2AiQDCAQgBYMtBy0b5wTIjtRZrTkX8fD/dv23z63q/oDqQ9QIucBoJn1rUkZCmE/c7LzzNkeLPJS1aGkgy8M5zxMIOMvDPC1/fHtR/LcNTwpB2GhEWJiENJ6N2Ql5/B23lEj3py9ws3xo/KCJcySlDEDUBsDohXOne6ciKiK++P9F4gtTERBjQCGQIUNzAYbJBJrLFcjlgor4///0H1gQQJTx6xLIkWMR1gBykKQ8rze8WqlGvqBaqeral7pEPNbwu66P93+x86MtHur0SL/4YFDEK82falM1xKkJeqnLY2YQc/ib1T4e+fbC2P0tHu4+L6oFBXc3eLX/VeXx3454a0Kbx2o/9lPrLzZ84ed7Z+9lz7bKE64eLYqFGytX3riw+PmbnvS8suyj3a7rWLlR7dodG3e8brTrRk7ePOyZiQONXmnRb6+0+chYDa955OP6u6P0zaVLMapy7YZvgEDQ71jjtStrDfu1crUEvn/tl7/xevz/ZzqdHkNlCQRZt/+7WZZOC4CAIMUBbbQvCiSzJHypunsECFURICmrCshMM7XJXFVdyZKW+p8oq2quTORVhPqWG2RS3W4yM8BxMlff82TJMB/7ZfUjiy4pNqS/XfoECYzfKnr36FUMKbaJLgeMkJdDi2Or0wFsdIZDG+y0wz7rrbPZPoHvMT3ab7sJFjjeDxV666GXwhCFO3/VF4hgj70264p/zVDFfa+TA3Z/Z3ATZu1jJ0lEKu/f9e4AAAAA");
 
 export default Upwork;

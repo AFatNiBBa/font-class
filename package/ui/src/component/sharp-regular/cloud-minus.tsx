@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-minus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-minus?s=sharp-regular cloud-minus}
  * @preview ![cloud-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cloud-minus.svg)
  */
-const CloudMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 336c0-62.7 40.1-116 96-135.8l0-8.2c0-88.4 71.6-160 160-160c47.9 0 90.8 21 120.1 54.3C388.7 82.2 402.1 80 416 80c70.7 0 128 57.3 128 128l0 20c55.2 14.2 96 64.3 96 124l0 80 0 48-48 0-80 0-368 0-96 0L0 480l0-48 0-96zm592 16c0-37.2-25.4-68.6-60-77.5l-36-9.3 0-37.2 0-20c0-44.2-35.8-80-80-80c-8.8 0-17.1 1.4-24.9 3.9L361 141.8 340.1 118C319.5 94.6 289.5 80 256 80c-61.9 0-112 50.1-112 112l0 8.2 0 33.9-32 11.3C74.6 258.7 48 294.3 48 336l0 96 96 0 368 0 80 0 0-80zM248 264l144 0 24 0 0 48-24 0-144 0-24 0 0-48 24 0z" />
-    </Icon>
-);
+const CloudMinus = createIcon("cloud-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcwAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBfwsGAAE2AiQDCAQgBYMtBzIbAQXIhuD5vL6vc5N+8yYZIyP3iPrWDlqR7t0ntubUqec5DwXwLYMgaHtoQBbgXucRiFgu3klQK9YKbFWtuo2XP4i6JiLn4BExxIdmELxAHn/H+WqkK1ID55U3ja91dwZJLQMQ7QAwd/P6lZ7/Ir6IeOv/R4i3LEdAzAWVQIYMvQSYIRPoJVchlwu+iP//5//AigCiCe5LIEcN++JQ7C9CkuX5wJFlWWudbyprRVw3JuK+yRHvz35u87tzbytfmflMP/HIqHt6C1G0iYjDr+wRcefgSRERce3wOyed2WlgDI97Fz089PZeQgyMm4feTpStY5+yKEVRRJT972x357f9Ggc0HNX2Ii66r1nMbzTmx9J4e1DnNfMn1Dq58obzW69RV19Tt2d12/IX8kunGqST2LR/u9YPfWixX+o/fP9f22b9/eXNFl2rPfY8v2bz5vPPv72uW0UDcVfj2o/P3t12xq/NZQJfPfn99+15/3+RTkl3olkCQTby/5F2pFOAiQH4KU7Q3/mgQLJdBq/ayqUChAIBkiaFAJme2gmQK4wQoKaPiQI0KayXibyl0MnOAZJWjgaZSU4EuU4eAjUzvOY16RRZnDFRwlzzEhdpaOFeNXZ0vZpWTVOdDR0qradXy+bQE6Q1jE4d4EhHOM7+9nOw4xRyjJXh8Q63yIMX+qLKWKPVVaaptovt8Sb7O8axDnakI/KW6arz7lAn+MPDyElAOk4kSUQqPxxUR71OLx0LAAAA");
 
 export default CloudMinus;

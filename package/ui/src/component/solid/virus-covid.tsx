@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `virus-covid` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/virus-covid?s=solid virus-covid}
  * @preview ![virus-covid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/virus-covid.svg)
  */
-const VirusCovid: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 24c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-16 0 0 33.6c30.7 4.2 58.8 16.3 82.3 34.1L386.1 92 374.8 80.6c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l56.6 56.6c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L420 125.9l-23.8 23.8c17.9 23.5 29.9 51.7 34.1 82.3l33.6 0 0-16c0-13.3 10.7-24 24-24s24 10.7 24 24l0 80c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-16-33.6 0c-4.2 30.7-16.3 58.8-34.1 82.3L420 386.1l11.3-11.3c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-56.6 56.6c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L386.1 420l-23.8-23.8c-23.5 17.9-51.7 29.9-82.3 34.1l0 33.6 16 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l16 0 0-33.6c-30.7-4.2-58.8-16.3-82.3-34.1L125.9 420l11.3 11.3c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L46.7 408.7c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L92 386.1l23.8-23.8C97.9 338.8 85.8 310.7 81.6 280L48 280l0 16c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-80c0-13.3 10.7-24 24-24s24 10.7 24 24l0 16 33.6 0c4.2-30.7 16.3-58.8 34.1-82.3L92 125.9 80.6 137.2c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l56.6-56.6c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L125.9 92l23.8 23.8c23.5-17.9 51.7-29.9 82.3-34.1L232 48l-16 0c-13.3 0-24-10.7-24-24zm48 200a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm64 104a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const VirusCovid = createIcon("virus-covid", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABrwAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDNQsGAAE2AiQDCAQgBYMtBzIbtwXIngU52WkKp1Gh2VLo3+PCiaDar7dn37sPwPKHULEGQkds4+MYJZMi8FexqKLP6vfT2/woYvvmqzDoxAErUABYVyOa6AKRi1Lt7lzcyrlZJG3bozxKPOcvQ77w//7U89imAH4L2Q/Cy9i0NCBjW7rneQUqmPo6L3CtV5CaVsBqnepyfIZWRImoNkrjxQ3jU3uvkMfjeBgKpBPhPY6UN41fOu2TVGYAogEBmL4kE6PfYhQj3pXuEu/MQAJiOsIAIEOGHgCTcAI9hAaQXC4oRqlk/4EdBRBlKpl8ao4CnuMtIAdJlucXUmV1oTZfXF2oWnHKxbhCByKCuHvN0MWWTzQVJ/DQdDDEVRUj4pQfEeG4HBegKk5PI/RxohtMxmXbsh6meN0ECThkYT3i3jNAm5w0+rQwx3UTASrq1XFumaCBk0FDA2N8HAAtuZN2LIe40SM/4dwBd9mewZ/n8+/95veeX2tNzaVUa2uqAe9v2D7nPn+urd3XWm7CPg+rBgXtvHlajwwZZPciGJizjzLJ8A/giArzPxRzv1pk6VbXqF3V1kOrroje1C1aeRciiMf2/DnxsfpJ/yuqE/j56N/6r6j0Ikk3gQoJBNnw0lRIIBEAgBR78YkQSO7LlFetcVSAUIUASZkqATLdFAByVYYBKOjjBVCmygKcyCuFFsULJTV2oMxEeyjX4gEVTLKLyrQEF8JqAKp/kFnRkYicY2NsDhZir0OnFpXydhxmbndwmpeMuEBVPV1jFWWNDgM/FEsnOqIzLuKLGCcbByaELU9+WnlC6xtp6OlaPyWM6UOD6XyzEYFAxY7VkSQiVX8ZKtYN26aNMgA=");
 
 export default VirusCovid;

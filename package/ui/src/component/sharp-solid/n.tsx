@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `n` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/n?s=sharp-solid n}
  * @preview ![n](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/n.svg)
  */
-const N: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M0 32l47 0 9.6 11.5L320 359.6 320 64l0-32 64 0 0 32 0 384 0 32-47 0-9.6-11.5L64 152.4 64 448l0 32L0 480l0-32L0 64 0 32z" />
-    </Icon>
-);
+const N = createIcon("n", false, "data:font/woff2;base64,d09GMgABAAAAAAH8AAoAAAAABTQAAAGyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQCBDgsGAAE2AiQDCAQgBYMtBygbhgTIHoex22RJNTRD+bgSEXztV/ab+fsvADAhIkXIPo5Ax8ZFnQsZsxWbOhm9yazKUbXvf3/z/J9/CvAZhTamLd24wOc8TyDArMvzhL4FFkWegLU72445RPu0NGJJfmnH64Qq7ucXGqS3CV7mm8Y/g70g6ZwBRC8ArNq9fZv2ZjQj/rQQf2xBQKwCRSAjY5gAS2WBYSoFlUrQjFaL/oGFAKLGpCRQIWMaZgMqkERVjeva6F7t6trokrt26do/TkaOiK4hUoguMSBOiRLDzdFfe90xyim+zMC336uXmKhYqXiimOGdeml7HQSCbu1jOtxz6f9OXRP4+32H8hW1mvEkjU4SCPLU1lQH4gnEEwEASHHL6HiCQDJOgqR280qA0AUBkloXAbKheglQ6WKKAA0jzBOg1sV2WVSdhX4OVki6uQrZfA+h0s83aFjqh1/rF9lfuNfmfmvJ6zVat1ZmTZ9ZFpdpTHgXYOJ8SVlWJ94KtUlw6JTLLrnhpBPOuqGoa7ZFN1203sLrPKiYZbqZisXKdna/v8tJ11x31mWX0pIlynlzolt29yQwEqadzUuS21QuAQ==");
 
 export default N;

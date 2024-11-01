@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-medical?s=regular book-medical}
  * @preview ![book-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/book-medical.svg)
  */
-const BookMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 88C0 39.4 39.4 0 88 0L392 0c30.9 0 56 25.1 56 56l0 288c0 22.3-13.1 41.6-32 50.6l0 69.4 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L80 512c-44.2 0-80-35.8-80-80c0-2.7 .1-5.4 .4-8L0 424 0 88zM48 432c0 17.7 14.3 32 32 32l288 0 0-64L80 400c-17.7 0-32 14.3-32 32zm0-73.3c9.8-4.3 20.6-6.7 32-6.7l312 0c4.4 0 8-3.6 8-8l0-288c0-4.4-3.6-8-8-8L88 48C65.9 48 48 65.9 48 88l0 270.7zM208 112c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" />
-    </Icon>
-);
+const BookMedical = createIcon("book-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfwAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCJQsGAAE2AiQDCAQgBYMtBzMbKAXIjtRe8cU0WgRP+0nO27/JAdAeI5SIFbOKKwqPIHuyifepU89zHopF3ygoe2pA1qDQ7tjnFahYr76pXh8LrKYVsO7O9gxBe3aIUZbkOJfjsYUcz8XDaqRn0nd4qHxo/K2X20lqFYDoCICF2zev1fghfoj4tvkx8a3VCIiFoAhUqNBXgDkqgb6ygiwLfohmE/8DCwFEHT1NAhl1XIXrARkkOechnTqPaFNrl7e1qbWuXhod8eb0dvFytyd6pXh+iGgTL/d6ekjb+GTUG/1viYhq583dIp5o0y4i2sa9XR8XT3W5p3pU8WT3QU/bfa5NPNFNMPp419aBq3YEkHCBGPRGxzf+Hfjdse+cyHdz94IJLvzfouj8/VItbezWbeMOHY9ui5zZMH57+xBvXyxQNBxPW/lbpxkO1Iv6gQk6vflFpw4vXWz/Q/FD+wkmsF4IsjbO54NAMPzVd6bu7zDnv5ZtEvjpi4vSr6jZiEZ6Ay0lEFRjmmPsiQZEQwAAUlxpUDQQSM7L6FrbelKA0BoBkrrWAlT66ChA1tpoAWr6mypAXWubVSK3Erra20DS1iWgMs0NIOvqQ1Azx5duXdeoTI82HPrnl7BMQktXlYnjJpRZZVmqjDWRcXF22TZGXOkGRsJGx5x3zuWOOuKkywVyqbXBFc5apsFLfVEx0TgTFLOU4+Z5/TZHXeoyJ513Li8zW7nvjHClPn4k2AlhTlJIEpHa2qUy9iECAA==");
 
 export default BookMedical;

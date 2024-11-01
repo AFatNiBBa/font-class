@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-arrow-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-arrow-right?s=sharp-thin phone-arrow-right}
  * @preview ![phone-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/phone-arrow-right.svg)
  */
-const PhoneArrowRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 512C200.6 512 0 311.4 0 64L0 32 144 0l80 144-83.8 67c36.1 68.4 92.3 124.6 160.8 160.8L368 288l144 80L480 512l-32 0zM16 64s0 0 0 0c0 238.6 193.4 432 432 432l19.2 0 26.6-119.8L372 308.6l-58.6 73.2-8.3 10.3-11.7-6.2C222.2 348.3 163.7 289.8 126 218.5l-6.2-11.7 10.3-8.3L203.4 140 135.8 18.2 16 44.8 16 64zM413.7 10.3l88 88 5.7 5.7-5.7 5.7-88 88-5.7 5.7L396.7 192l5.7-5.7L476.7 112 296 112l-8 0 0-16 8 0 180.7 0L402.3 21.7 396.7 16 408 4.7l5.7 5.7z" />
-    </Icon>
-);
+const PhoneArrowRight = createIcon("phone-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdAAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCKwsGAAE2AiQDCAQgBYMtBzgbMwXIhuB7m2W/P7MkHcMcAEl7DJAC2w5SAMg4teMtpwSxxi7lz8efZvziL/xIY+KY7dY1RrwCFWuKKz4WUK1gNa2Addg2OhZYPV6N4wny+Mw+daRX0o946D40ftXdPZIsAxDtADB749rlvm6Jlogfah8QP1iKgJgNCoEMGXoJ0CwT6CVXIJcLWqJWY/+BBQFEvXDeBHLU4TAeA3KQZHnea3Dfcl3rfIMqKO3+eUMEqdkY62Nd/LTep5cO3I6I2102KuUFaIPbKbps83eJrjjN3vUb1nceY8d5mF0qRZTLGzp7dO7/artXf+/344EffTXzmn1Vmazu40zXCg/7WvnQ2jmmHDo0Zc5aD1fq+1Dx1leAS9N2MYbeatolHfW46PIclUUu+8DRSuXoVi9ZVDHnsos9dLw/aSMLzTefD1vnVUldstgHje00fvCq+V61DggE1b+7/bezbfP/jeUEfvn0z1+RX1Ht6yS9ikYJBNnI2kjbEkgEACDFBf0TBJLdMvhdW3khQCghQFKvJECmp3YC5EpGCFCnj0kC1CtZKxN5k9DJ9gYkrZwGmcmug1wn74E6zb6J1OsU2dPHPzv8z1/Kgi48f1MxbvTYolLMthThgWL1arXYrA69wEeGwZ0OOOmEc/bb57BzHfSM5fHzjluwhMz3RYVxRhurUFEc7j7cvsF+Z5x12Ekn7DpVxfX+oS4sTx8GjSTQjleVJCK1vz9zRu0+c+bkxe8XAA==");
 
 export default PhoneArrowRight;

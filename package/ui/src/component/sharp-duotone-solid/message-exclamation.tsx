@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-exclamation` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-exclamation?s=sharp-duotone-solid message-exclamation}
  * @preview ![message-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/message-exclamation.svg)
  */
-const MessageExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 0L512 0l0 416-208 0L160 512l0-96L0 416 0 0zM232 80l0 24 0 112 0 24 48 0 0-24 0-112 0-24-48 0zm0 192l0 48 48 0 0-48-48 0z" />
-        <path d="M280 104l0-24-48 0 0 24 0 112 0 24 48 0 0-24 0-112zm0 168l-48 0 0 48 48 0 0-48z" />
-    </Icon>
-);
+const MessageExclamation = createIcon("message-exclamation", true, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABbwAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBUgsIAAE2AiQDCgQgBYMtB2IbBgXIjsPGMR1poyxhfFARPL/Mzft/cyR79LJE0VtX4OJxzUVSJChUHK0I1bpEXzK//0+dep7zUADfIx6kvTS05nnSPc4rUMCxcXkrUqGa1sA6OG/zQYY2hHQ+oYgPuU0T6W6Cm97/AMYfA7SRtGQA0R0AC7dvXqvjY3xM8arxmHhlDQJiEagEMjIGCzBHFhisUKFQCD6mxnyMxhUBRE3wxgxq6ITV2AQoQJLkoujR0o2H9aYuxTZeKo+HKIOh1yNwlPWyQuduXbulKGMLnhZ5q7CA6MaEerG59UH3B/+GO0a/7f2D0gT9XdCfpd+bAAX0hg60e+fmfge0a/+xfh27BofwhI7XQSB4Xn94fX+3Of+b6wl8ftJv+e+o0ZGkB2iWQJDHNMbYk0AiAAAprmlN/EQgGykLPrWzWwKEEgGSmlKAbJDuAhRKowVoMtRUAWpKm2VRtAi97a1B0tlFkE1zAxR6ewSazPE0rukdWUhRAoK6oItf1oaWrqsmjptQzaomm0palBD28uxqtT7iGh8aCa865rxzrjjqiJOutJBL1mZXnbVsDl7qiyoTjTNBZZZqd+f++W2OuuSyk847564yW3W+PcK1+ckjoZUEmJMcyTKRIg8SacNj/1ZhHjyrTeSxEnTikHFWPgIA");
 
 export default MessageExclamation;

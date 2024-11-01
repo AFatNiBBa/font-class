@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cucumber` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cucumber?s=duotone cucumber}
  * @preview ![cucumber](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cucumber.svg)
  */
-const Cucumber: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M120 304a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm160-32a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm96-160a24 24 0 1 0 48 0 24 24 0 1 0 -48 0z" />
-        <path d="M37.5 474.5c47.8 47.8 124 49.9 174.3 6.3c12.6 10.3 31.1 9.6 42.9-2.2c11.6-11.6 12.4-30 2.4-42.6L436 257c12.6 10.1 31 9.3 42.6-2.4c11.7-11.7 12.5-30.3 2.2-42.9c43.6-50.3 41.5-126.5-6.3-174.3c-50-50-131-50-181 0L172 159c-12.6-10.1-31-9.3-42.6 2.4s-12.4 30-2.4 42.6L37.5 293.5c-50 50-50 131 0 181zM400 88a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM304 248a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM120 304a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Cucumber = createIcon("cucumber", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABjAAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCCgsIAAE2AiQDCgQgBYMtB0wbKAXInge2zWPriEGpoW70DDvKjPVDjIf/9qPdNzMrLohoFrFGWhoRr9uQROP0jVhIlODJpPIXxtx2dWt3TK0U0hNatdI8UTrJrJhlc6PUifk2GhFiZdCY37Sadf6v+fz8jg7wGx1KNEVZYQXQ3aqfT2CehXvzBJ7QTGdg2100y9GSpbx0Fkkev3k83aDEX76vhvQ0wSL/D2B8MeCKpCEDQLQDAPtOt6vw/i7epfitLvHWASAg9gOMQ2RkDEOwE1FgGMk4UBTBu1RVvIuqGgcBRC3w+zKoRQOuAwsAFJAUuZDMDeAyyWxSD19gxF+XI172dOdRMJo7v6Yyj/FO4PP5JQe+cnuX3Qy4aSjSCsKJ1tPw9cxUhqXJ8Gp65O3/Ccq5/civBcmRPi8tsVvqxtrNW8ENU/v7tXMm6NH53vmLoz09zWSMdrL2tsXGTbHdRTKeaRG+3LkfQCC48fDehcvcnf/qmwgAH178+IOO6k2KP6FH1EsgyCurlYYSqv8pQQAAUuwwJLgFke1FAp/a7JEAoREBklqNAmRDeBAUjVZAUGNUGIJajY4jikKH0G24gKTZTZBtdgyKbk+gxk4ffq3uyOJGCwv92UuotFB5km6dx6dL6KaFzEgQ6UeTum15fse12NVZmLFqxZZpU+ZtNeiGarRtWWWFlH2Rjp+Hj06C7rj6eLzHtA2b5q1aCeMk6e6bNjvr7nalEUTM9VZmmUhI5F3fNtHyxPSGW25FQcc9UAAA");
 
 export default Cucumber;

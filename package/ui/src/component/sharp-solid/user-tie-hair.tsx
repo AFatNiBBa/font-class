@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tie-hair` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie-hair?s=sharp-solid user-tie-hair}
  * @preview ![user-tie-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-tie-hair.svg)
  */
-const UserTieHair: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M304 144l0-16c0-11.4-2.4-22.2-6.7-32L256 96 240 80l-32 32-62.4 0c-1 5.2-1.6 10.5-1.6 16l0 16c0 44.2 35.8 80 80 80s80-35.8 80-80zM224 0c70.7 0 128 57.3 128 128l0 16c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-16C96 57.3 153.3 0 224 0zM209.1 359.2L176 304l48 0 48 0-33.1 55.2 33.4 123.9L312.2 320l71.8 0 64 192-168 0-14.9 0-82.3 0L168 512 0 512 64 320l71.8 0 39.9 163.1 33.4-123.9z" />
-    </Icon>
-);
+const UserTieHair = createIcon("user-tie-hair", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABawAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBYQsGAAE2AiQDCAQgBYMtBzQb5QTIhqDQWfVIshdIR6wDYMiBnykC4CTY+hSjjz3/N3ve8yjAbxTaWLgmyAKJ5nyeQGK9PE8DmXcHdqYnYLc7W2oO0Q4lzSJLcnzmuKyQxTPpLSWSp5I/cDt9aPylg1skalIAkQNg+tqVi33THM0Rv1c+JH63EAExHRQCKVJ0FmCSVKCzTIFMJmiOSgX/AwsCiDJ6WAIylLACWwAZSKRZ1rFdh7pSQ7amrlS7N8T1trXRNvpFbTwgnuv/1uiPB77Tbc2PkyO+7C5enPTFrJ+mfNUj4pWpX89dN2P6jLq6abE61kYdiLX1bpe1Pd7O3/6n+x97/jB0aJ7nLY70V1ExRbvqXKzZnee718TS28tmMqqUK42auYwpVBv3lGl52LCy4qK+L5tn6tfebJ/ZeS022A4CwaYV783Z2jTp/+q6BPz52X//KL+iyjfxTfI2qiUgSAdVBtkU30B8IwAASZzRI75BILFAio5a75EAoRYBEmW1AqQ6yQXI1BooQElXowUoq7VSKrIaobXNDBL1joPUGJdBprX3QckkP9tlrSM1LMIsiH9d7BwJzZ4qhg8ZVkwopoFK2goWhhOLZa7fGV/oD4v2OOqIU3bbZb9TAjlhsXfaYXM0eLYvKgw3xDCFCYrt+H5+jd1OOGm/o47EMRMV561+zuj1/UFMEOoIvkRCJA230R58av/uwY8LAAAA");
 
 export default UserTieHair;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building?s=sharp-light building}
  * @preview ![building](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/building.svg)
  */
-const Building: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M32 32l0 448 96 0 0-80 0-32 32 0 64 0 32 0 0 32 0 80 96 0 0-448L32 32zM160 480l64 0 0-80-64 0 0 80zm-32 32l-96 0L0 512l0-32L0 32 0 0 32 0 352 0l32 0 0 32 0 448 0 32-32 0-96 0-32 0-64 0-32 0zM64 96l16 0 64 0 16 0 0 16 0 64 0 16-16 0-64 0-16 0 0-16 0-64 0-16zm32 32l0 32 32 0 0-32-32 0zM240 96l64 0 16 0 0 16 0 64 0 16-16 0-64 0-16 0 0-16 0-64 0-16 16 0zm16 64l32 0 0-32-32 0 0 32zM64 224l16 0 64 0 16 0 0 16 0 64 0 16-16 0-64 0-16 0 0-16 0-64 0-16zm32 32l0 32 32 0 0-32-32 0zm144-32l64 0 16 0 0 16 0 64 0 16-16 0-64 0-16 0 0-16 0-64 0-16 16 0zm16 64l32 0 0-32-32 0 0 32z" />
-    </Icon>
-);
+const Building = createIcon("building", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABiwAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCDDAsGAAE2AiQDCAQgBYMtBy8biwXIjsJxrwSfMpQQQ6EcxIjn+V9L7/vzdzeZSYEUkEKFqiwUAHgk4eIKqICPZ2HWiJza6uq52m+/D8lcJbGQTCWJSRNL3SpD5hot8eV/rqkXz48O8BsdSoUVJUdte95hLTDwtZ+vxUbTmU7AZm6NgXOgBPcbJmK4avX4rcezHGruZj0u5VkZA9P6pvmH70JRGwCZCwDsOpxLAJ1hZpJx/yJjMSCQ3QArMGjQYAkGbMUWLMGxAqiqMJO+z/+BCAJkCNcroGIW3uIboIKiq3XR5IJ5ok6y3w1m1UNc2h4vTemCM10n0qXJ1NGunf02VrfNShoDmVVUIu2lbImdKUg+uAajS9IeTl66lY+M/4DjGqs+kcdXOO6MCd5QSmvSEJ5BSKuh3A/fbmxNg1u6r9UOCHQlKH1+GyE1Am4E2UNavwIKsDYtuFN7XC0z+OPyXA4gCE6dv1Z5W/9PdAX8/f77rz8jPc2j8gkTCgjN+n69Uh5BHgkAoOQGUR4hKF7p4FVTHguIFgHFUCugsRjpULXWwcAyhhxDrf3YUifFQmUdiimXobHFFqqFnjCw1SccWpgmXPlg438WU4IjHtiEGqUarbisakIEsnXahpc18Ua6JHQWOqYmVtpa+lYDuZBI1saCFhHwRUhDSQ1ZobvxfLyobWGpb2qyrWOD77tiG3uwhEwWUG5QVhRSJr5nAAAA");
 
 export default Building;

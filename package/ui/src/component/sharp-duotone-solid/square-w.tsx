@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-w` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-w?s=sharp-duotone-solid square-w}
  * @preview ![square-w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/square-w.svg)
  */
-const SquareW: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l448 0 0-448L0 32zM70.5 152l50 0 40.7 141.5 39.9-124.8 5.3-16.7 35 0 5.3 16.7 39.9 124.8L327.5 152l50 0L311.1 382.6l-5 17.4-35.6 0-5.3-16.7L224 254.7 182.9 383.3 177.5 400l-35.6 0-5-17.4L70.5 152z" />
-        <path d="M327.5 152l50 0L311.1 382.6l-5 17.4-35.6 0-5.3-16.7L224 254.7 182.9 383.3 177.5 400l-35.6 0-5-17.4L70.5 152l50 0 40.7 141.5 39.9-124.8 5.3-16.7 35 0 5.3 16.7 39.9 124.8L327.5 152z" />
-    </Icon>
-);
+const SquareW = createIcon("square-w", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABdQAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiCBwsIAAE2AiQDCgQgBYMtB0wbJQXIjsQ4JvGLWNDi4f/367fPfW/mf0ftIeJSWTRrNKuQSNPQEswjeer9f+zS+MefHvBA4OeKf3xMn7sbK9B4t02rV6hCJWm8Btbd2ZIcorlGQiwtx8WOzxPyeJLdUSI9Sh9wL/4PYPzRyR2SugxAtATAzPWrl6p8jI8pPlRfEh8sQUDMAoVAhgxdBZgiE+gqVyCXCz6maj5GdUEAURa/LgNllLAdZwE5SELK8/51/RtKTfm6hlL9/ob6hjXRMeqjc6yL4G+ItbE+uhDXCZQsJV9TZNG4djc9RSlPerzX85bP//X8sO+D+f1H4blZ383Q2woDrruHM/Qxw8zvRul/V/8rCzTrA+56XEGWVeedF+VwK41y6HUQCIYNahqxvcWU/7UNCXx+5Tf6HVU/RiU9R60EgmxIdYgtUYGoCABAinN6RcV8BDIjJPiuje4LEOoRICmrFyDTRUsBcvUGC1DS3VgByuqtlom8TmhrawVJo5MgM85VkGvrBSiZ4rVR1jYyZSNUhfjrxc5robmbipHDRhSTimWikPqD+dnJxbY64JxrDISL9jnumDP22uOgMw1yylL7rKPmcfBcH1QYaZgRCpMU4vyRXWeMU047OKfl60xWnNcGOMf3D4TtJMCoawpkRIqs5YvVhp4fqrVy645+nwA=");
 
 export default SquareW;

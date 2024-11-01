@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `xmarks-lines` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xmarks-lines?s=solid xmarks-lines}
  * @preview ![xmarks-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/xmarks-lines.svg)
  */
-const XmarksLines: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l576 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 32zm0 384c-17.7 0-32 14.3-32 32s14.3 32 32 32l576 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 416zM7 167c-9.4 9.4-9.4 24.6 0 33.9l55 55L7 311c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l55-55 55 55c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-55-55 55-55c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-55 55L41 167c-9.4-9.4-24.6-9.4-33.9 0zM265 167c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l55 55-55 55c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l55-55 55 55c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-55-55 55-55c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-55 55-55-55zM455 167c-9.4 9.4-9.4 24.6 0 33.9l55 55-55 55c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l55-55 55 55c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-55-55 55-55c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-55 55-55-55c-9.4-9.4-24.6-9.4-33.9 0z" />
-    </Icon>
-);
+const XmarksLines = createIcon("xmarks-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABmAAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCZAsGAAE2AiQDCAQgBYMtBzMbZwXIHoex86QaFywpL4TFi6B+7d/vObs3ALgvSOCQSLFNxabi2IhULKoPeDsAXDd/Qn8hDJxTF2WjAinyoUVTXBvfGBVEF71liN2OtxteAP82xYIqgvALCQmTiu49bse3PeTxT3ZCiXQ3fcbl+qbxTVMnSKpmAKIOAEYvnDvd2+JLxKfya+KTqQiI0aAQyJChhQDDZAIt5ArkcsEX5XL4DywIICrB3zmBHJVxC/cBOUhKed6oUUVRUb1UM19QvVRt6bkGETccaXizeu043/h2HG10q1qtJGQvuNN0tlnhRE86zjU7RPebzTE3RE/bzTInzJqp9flY1bfXaPOyzssfFZ9Xfdb6ca0znKnl2TO1RtFo+BEhp8mfrLKKI2rWJFZpyIekXA9jvdl+HggEC2rV/evaw36regJf9+vPdmH55dLp9BJVJBBk3crdLEtHFOALxZPFYpc28EkguaQEX7WGWwKEagiQVFJNgExzdQTIVdNVgJJW+gtQSTVzZSKvKjSwvHNJDVu5zAAHuVwDr7iSYd7FK2kQmWmqhqX+GGZN4PD4ZUXvHr2KIcW0hjRrk8vs0GLZ7bQr9nSGlVbZbJMdVlphrR2M2mZ6aqeNJmjkeF9U6K2HXgpDFMdDjcULrLTNdmtl7dw1lFq4H+xklz68MwQSlOyjOElEqrHnQ3K6v80A");
 
 export default XmarksLines;

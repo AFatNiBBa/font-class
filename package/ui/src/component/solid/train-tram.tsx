@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `train-tram` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-tram?s=solid train-tram}
  * @preview ![train-tram](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/train-tram.svg)
  */
-const TrainTram: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M86.8 48c-12.2 0-23.6 5.5-31.2 15L42.7 79C34.5 89.3 19.4 91 9 82.7S-3 59.4 5.3 49L18 33C34.7 12.2 60 0 86.8 0L361.2 0c26.7 0 52 12.2 68.7 33l12.8 16c8.3 10.4 6.6 25.5-3.8 33.7s-25.5 6.6-33.7-3.7L392.5 63c-7.6-9.5-19.1-15-31.2-15L248 48l0 48 40 0c53 0 96 43 96 96l0 160c0 30.6-14.3 57.8-36.6 75.4l65.5 65.5c7.1 7.1 2.1 19.1-7.9 19.1l-39.7 0c-8.5 0-16.6-3.4-22.6-9.4L288 448l-128 0-54.6 54.6c-6 6-14.1 9.4-22.6 9.4L43 512c-10 0-15-12.1-7.9-19.1l65.5-65.5C78.3 409.8 64 382.6 64 352l0-160c0-53 43-96 96-96l40 0 0-48L86.8 48zM160 160c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-128 0zm32 192a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm96 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const TrainTram = createIcon("train-tram", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABkwAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCawsGAAE2AiQDCAQgBYMtBzEbbAXIjlQ1fzxP6Mzel2TPRk5Y6wAp7E2OgTsCHwJ0gEW7cy1WVJ0LOH/+r6kXz68Bv9GhVFhpYwHdIkInMNF5xfNZ2nA2UdzubKk5FHuWJA1L8vrmuKyhymPlDToUjxQ/4q74ofnNfDdQmFICyEwA7Hzkofv7ejKTyQ+jD8gP9kUgO4NWUKLEIgHbKQWLVFpUKmEyoxH+B7YESBetV4AKXTyMZ5CyplV0JwctmDOn15lWHdHr1Mfe2jS5f/WDC+fmtS2n5YOJ8TzSPN/v58G6jvTywcQri+XxrQ7PA839TZ1b+4ekzkG5H272YP/BuUfm0yXJU+te27KXpD781ia5n1wz/kCvl9vmPpTk2v6DdX34tf3kwfrW5n5jAbXDE5k8pMb7Wv7qzFf/WPbjGT864q45X/5itHD0zi/eunu2u9/6xbv/r/vrKz/PudhGBq559dWxpy1Zt/POdl81ftHAtOEZrnGG4bSBi8ZX7e4PWrfkaWOvvnrNwEYu3uvC6UOG01vTh8Pp17BanaVf9TmuwDknLpXXA0G4YaPTNj1xxnZ/j/UK8Ounf/2XDxwdyTfFqxhTgFCuN1rPcflagc6U20W5wnL4JkHhbhV616keFBA1AgpdtYDSQjMFVGrrBHQssbmArtqhSqmmiMbxFRSmuhiUtnAlqDTeAx3b+SbualJap2Rb0ucwfY8W3X1Zu/EGG7XbtNOKIhucECa3bZfNwRW+YwJWOsOFLnCZ053mbJc1zCX2zy53vj00bHc/1NrYBjbS2ka7XV/qR7j4Epc6e6zuL7Kt9rw7cIXefwKcArFuIlcoSFG/Qn19Ns4H");
 
 export default TrainTram;

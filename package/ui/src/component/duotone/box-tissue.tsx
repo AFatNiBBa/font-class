@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-tissue` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-tissue?s=duotone box-tissue}
  * @preview ![box-tissue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/box-tissue.svg)
  */
-const BoxTissue: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 272L0 384l512 0 0-112c0-26.5-21.5-48-48-48l-58.7 0L384 288l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-58.7 0-238.2 0L80 320c-8.8 0-16-7.2-16-16s7.2-16 16-16l48 0c-4.7-21.3-9.5-42.7-14.2-64L48 224c-26.5 0-48 21.5-48 48z" />
-        <path d="M103.9 0L208 0c40 0 52 24 64 48s24 48 64 48l67.6 0c21.8 0 37.3 21.4 30.4 42.1L373.3 320l-238.2 0L72.7 38.9C68.2 19 83.4 0 103.9 0zM512 384l0 80c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48l0-80 512 0z" />
-    </Icon>
-);
+const BoxTissue = createIcon("box-tissue", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgAAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBdQsIAAE2AiQDCgQgBYMtB1AbFwXIjtRW+YYFFQ//b9f3+9yqfmum+g1dI/eYkehsIvnTEZlJ8XcqxJ3/jH//c83n9/zoAD+AX6ZV0N0iQTKfT2DPR1EWadORz3QGNgW3XRwxDwkWGjfI49vsggrp/vQ5roX/Axi/6uQCSdMMQLQEwIyVS+f78Kf4KcXn9VeJz81DQMwEpUCGDF0FmCwT6CpXIpcLfkp1/BR1JQFEg/CTGWhABeuxHZCDJIk879pqQLXSLF9RrRRrq0X16XZ3Ot3Pwr7VuKNfbrssilgTdzvc67BduK/t7T6N8Uz7u50jWoQgzIgH+pl+RdRid8nttkXj3fY79WoU+JJZxFP8QMdeL7R84feen+/43M4PdsXJh99/ceSIPfHD2f568IWTX/OHKR0Nv3jxr3stogezL76rPab23RfZIrx4KI45ZGHlJAvV/NS8+U+T+hbVNcOn1obPPPY+EAj+vPFw940tJv/fpJrAL2//+W/wQ1L/MEkvoIkEgmxIfYh1CSQCAJDihF4JCGSGSuJ8o7uCeQUdJA0KyHTREnKFwVDR3Rgy2L5UJvKmQlvrKSSNDkNmrPOQa+sVqJjso0yDtpFhjEYI/YuXMHeIzFlUjhhWKyeWqzUNAxvSm51UHjYGnNA9A+lROxx0wDHbbbPbsQF2xPz8cfvN3ULn+KLSCMPUlCYqLzefmitsL2JH7V7mrs8zSfm8N8CJ7eED6XISYOTbWZ8RKbLWWw6eGnoMncpQtPa2HXMfJgAA");
 
 export default BoxTissue;

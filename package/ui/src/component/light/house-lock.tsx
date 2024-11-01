@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-lock` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-lock?s=light house-lock}
  * @preview ![house-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/house-lock.svg)
  */
-const HouseLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M298.6 4c-6-5.3-15.1-5.3-21.2 0L5.4 244c-6.6 5.8-7.3 16-1.4 22.6s16 7.3 22.6 1.4L64 235l0 197c0 44.2 35.8 80 80 80l248.6 0c-5.4-9.4-8.6-20.3-8.6-32l-16 0 0-160c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32 14.3-32 32l0 160-64 0c-26.5 0-48-21.5-48-48l0-225.3L288 37.3 456.4 185.9c8.6-7.1 18.2-13 28.7-17.4L298.6 4zM336 480l-96 0 0-160 96 0 0 160zM528 224c26.5 0 48 21.5 48 48l0 48-96 0 0-48c0-26.5 21.5-48 48-48zm-80 48l0 48c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80zm0 80l160 0 0 128-160 0 0-128z" />
-    </Icon>
-);
+const HouseLock = createIcon("house-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhgAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCRAsGAAE2AiQDCAQgBYMtBzEbRQXIFkrLw/N6//3aJ7kPyRgZOQP6Wxi4/YCLCmpZwXfq1PNMCwXwjYK2hwZk1/fmXgUqNrcvsFC1VlGsuY24tCDKFRExiM43tIEhWYfOGfL4J8ZrkB5Pn+PekKr4UV83keQZgOgCgMWHbl3v7e/iu4jPmy8Qn1uLgFgCKoEMDxkgwDyZwAC5Crlc8F00m+Q/sCKAaMFPTSBHK27EPYAcJI08n9bedXh72eiYH1I2ilMf6XFcPNTz4d4LQzw9Zv/0Mh6JIiKu7/VIUcQdPR4iitjT65F+EYfGwfFo70MOL8oiogyH7u4Z8XBfwzlP9n501EGCZF7X8+GyjDtr7syKiGfGHpjx/Oh9A5RFOf3AoQe6HPh5yOenfG7sa3v3dv7VE3fuf3mRD8QhJ3f5y93dutim0223dTou7rvNIvVXX2Tfe2u/vQ/59LdXdg3/8jhmbnOcbW812yayrHacWvbFV/XGSXVdL2nXrZYUpT6f0eXkQ2LTNr7pOttcBwSCj49u7D6287zf2soEfnj119/Snc1/mm+n69IBtEkgyMY3xzsqXafgjBEYpLjEUHxRILlSA9LawSMChAIBkhaFAJn+ugiQK4wToGGQ6QK0KGyVibxd6OHoApIOzgeZGa4GuR6eAw3zfOS36BGZKbKGxH4Ek1YMLZ9WTZ5YV3OqbknmrIt2o3OraWv0JVrGYKFTnOscFznZSU53UeQF1kcXO9sKjVjuhyqTTVSrzFFtV69nH+JkF7jQ6c51jp9kruq+N9olevcxcBNSTpGVJCIVZipPeCU=");
 
 export default HouseLock;

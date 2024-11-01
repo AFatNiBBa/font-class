@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pepper-hot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pepper-hot?s=thin pepper-hot}
  * @preview ![pepper-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pepper-hot.svg)
  */
-const PepperHot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M441.6 127.3l5.8 4.6 5.3 5.2c26.8 26.2 43.4 62.6 43.4 103c0 16.7-2.8 32.7-8 47.5c-.4 1.2-.9 1.6-1 1.6c0 0 0 0 0 0c-.1 .1-.5 .3-1.2 .3c-1.4 0-3.7-.9-5.2-3.9l-11.7-23.4c-6.8-13.6-20.6-22.1-35.8-22.1L360 240c-4.4 0-8-3.6-8-8l0-80c0-22.1-17.9-40-40-40l-17.1 0c-3.1 0-4.6-1.1-5.1-1.8c.3-.2 .6-.4 1.1-.6C309.4 100.9 330.1 96 352 96c33.9 0 65 11.7 89.6 31.3zM512 240c0-44.8-18.4-85.3-48.1-114.4c0 0 0 0 0 0c.5-1 1.1-1.9 1.6-2.9c12-22.3 16.6-48 13.2-73c-1.1-8.1-3-16.1-5.8-23.9c-1.6-4.6-3.5-9.1-5.8-13.5l-3.9-7.8s0 0 0 0c-2-4-6.8-5.6-10.7-3.6s-5.6 6.8-3.6 10.7l3.9 7.8c5.9 11.9 9.4 24.5 10.6 37.2c1.3 14.6-.5 29.2-5.2 43c-1.8 5.2-4 10.3-6.6 15.2c-4.2-3.4-8.6-6.5-13.1-9.4C413.5 89.3 383.8 80 352 80c-24.3 0-47.3 5.4-67.9 15.1c-19.3 9-10.5 32.9 10.8 32.9l17.1 0c13.3 0 24 10.7 24 24l0 80c0 13.3 10.7 24 24 24l73.2 0c9.1 0 17.4 5.1 21.5 13.3l11.7 23.4c8.2 16.4 30.7 17.5 36.8 .1c5.8-16.5 8.9-34.3 8.9-52.8zM289.2 110.7l0-.1c0 0 0 .1 0 .1zM261.7 160L172.4 305.7c-18.1 29.6-47.5 50.5-81.4 58.1l-35.4 7.9C23.1 378.9 0 407.7 0 441c0 39.2 31.8 71 71 71l32.1 0c141.1 0 269.1-68.1 348.9-176.2L444 319.6C367.6 427.6 241.9 496 103.2 496L71 496c-30.4 0-55-24.6-55-55c0-25.8 17.9-48.1 43.1-53.7l35.4-7.9c38.1-8.5 71.1-32 91.5-65.3L280.4 160l-18.8 0z" />
-    </Icon>
-);
+const PepperHot = createIcon("pepper-hot", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABnwAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDFQsGAAE2AiQDCAQgBYMtBzEblgVRlA1GmezjsHFGUWHUWIyrByrc+FfXeP7/78197nszadW6ZyiN0kGrcIhizQazAhrQCMyKRuD7D3rvn/vAQkmhFAI3Yf2Ud2Ps0vjHnxbI4RM92hirm1d8jCXQeAFPz7uA6xu0phWwqptSQXL4VESKuDBmJ7Lj7PHtCD1HUUpIffKugVe7q/zTNgqU1gCQdQBw+5wSh1OzvApdG/ZDfsWAQO4AHCI00XeJ5oIbOILAIei6MMv/of8HchAgY+iNC3SM8QX4AUAHpXeB7cMAiZ1cqChIlwtlFQzLMHTcaFBrnoYyVGOa1aFVcxktskRIdlEmo2kakm+Un/dKe+C/VDQvpZ0Gi2zV2dfQRY15hqEV7RWteQ2UjrhPm3L9gpmc1muDVixZYLRbk3xBc43SibZRjqkZqdtCXWmd1jJWrDb7zsOMSrN0L/VKGW1gF3WGNJcsPOiiSwbJjLeobHlrdK38Gg4HhiozFZP62u34lKZ+EPsao1AoSoTqka2qqhDyQMeNHPPCGin0GRAQqYXp+rDuHgDOkkvM3THEZ0pZj9LUig9m7x76+EAVSUwimKQovKrZiB6FXbGTei8GATDNmpFnPBZrgbE3H3UUXVxucahGtn2WnW/SALySMu0y7SvBofDf+/H28ROmHtj+KW8FagAEEGChhIsqUPb9KpHzAPwdef/LfkbyDKcK9Q2YVyC0yTCRW6AIAKDSDuOCoEwhkO512RsIxCICytiigGaHCgLdoiMERva5ITC26B5fuhSxLW+CsuwFNOf6QLdtLxi5cLE8tp0WskLACX+MqeGMhR3inOwdOW9u2TPEKOTKrg+37Vq2Y8ZKkCjXoF6rMqWqtBLRLK7Wpk64h4f5Io4Te4443rjj4Xc1nUrNWoB7Fs/34YP7Pm+p3V9uJQGPsh6DlSIlayxrRLnZrrKhFQA=");
 
 export default PepperHot;

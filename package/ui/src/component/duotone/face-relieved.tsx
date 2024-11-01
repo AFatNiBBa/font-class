@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-relieved` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-relieved?s=duotone face-relieved}
  * @preview ![face-relieved](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-relieved.svg)
  */
-const FaceRelieved: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM96 144c0-3 .9-6.1 2.7-8.9c2.5-3.8 5.1-7.6 7.6-11.5c17.8-26.6 43.9-46.6 74.3-56.7c2.1-.7 4.2-1.4 6.3-2.1c8.4-2.8 17.4 1.7 20.2 10.1s-1.7 17.4-10.1 20.2c-2.1 .7-4.2 1.4-6.3 2.1c-23.6 7.9-44 23.4-57.8 44.1c-2.5 3.8-5.1 7.6-7.6 11.5c-4.9 7.4-14.8 9.3-22.2 4.4c-4.6-3.1-7.1-8.2-7.1-13.3zm3.2 113.6c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0zm65.5 99.1c6.2-6.2 16.4-6.2 22.6 0c13 13 35.8 27.3 68.7 27.3s55.6-14.3 68.7-27.3c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6C329.4 397.2 298.9 416 256 416s-73.4-18.8-91.3-36.7c-6.2-6.2-6.2-16.4 0-22.6zm126.5-99.1c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0zM304.8 74.9C307.1 68.2 313.3 64 320 64c1.7 0 3.4 .3 5.1 .8l6.3 2.1c30.4 10.1 56.5 30.1 74.3 56.7l7.6 11.5c1.8 2.7 2.7 5.8 2.7 8.9c0 5.2-2.5 10.2-7.1 13.3c-7.4 4.9-17.3 2.9-22.2-4.4L379 141.4c-13.8-20.7-34.1-36.3-57.8-44.1l-6.3-2.1c-8.4-2.8-12.9-11.9-10.1-20.2z" />
-        <path d="M207.2 74.9c2.8 8.4-1.7 17.4-10.1 20.2l-6.3 2.1c-23.6 7.9-44 23.4-57.8 44.1l-7.6 11.5c-4.9 7.4-14.8 9.3-22.2 4.4s-9.3-14.8-4.4-22.2l7.6-11.5c17.8-26.6 43.9-46.6 74.3-56.7l6.3-2.1c8.4-2.8 17.4 1.7 20.2 10.1zM124.8 238.4c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2zm192 0c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2zM314.9 95.2c-8.4-2.8-12.9-11.9-10.1-20.2s11.9-12.9 20.2-10.1l6.3 2.1c30.4 10.1 56.5 30.1 74.3 56.7l7.6 11.5c4.9 7.4 2.9 17.3-4.4 22.2s-17.3 2.9-22.2-4.4L379 141.4c-13.8-20.7-34.1-36.3-57.8-44.1l-6.3-2.1z" />
-    </Icon>
-);
+const FaceRelieved = createIcon("face-relieved", true, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAAB5QAAALvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSyEFAsIAAE2AiQDCgQgBYMtB1YbPAbIBp7n7fLPfTO7kWayiScwK/ILqIhN+QFVAGpXQr3/c8yeL0HS8vsAxxtKdT7PfD4a0ACjvS2K4ECPTs+OQG9028UQl/VLSLAHurzS1mMD5VRPgK3+avlKKOtB4aHhA+IP/wcINb2dzdx4L++VPHFdBHlCEyAAUguAhQAaoAERCADlaAgQgY4F6OgIvFcuF7wXl8sCAQCxE15bA8AOeANfgP8AgA6AQseu62ZQkBEeHRBKI142H73H+kU8B3cbhlxMNmRX8B6HQ84UOWSv2eX0EtkYvtfcbRz13JC6x7HX9OrLeqDHlEsZhGG3sSs4WI4XXvi2RuRm81Ovja3P6273vqu91fLMc0PTk+obXb1rHHsZ6UzRXi+yudvY5Um6mLzL8AXvke6Lhpxe50u7S03CoZ496YhjY0b8wfjDiYc3sXT0anr3tkSvMLOac/DfEHvc//j3mCcTn/BsfsXbdspHLmPDvaPTp3L1ZzuvR7Tvf2mC+XL4/rHlm+PjN0933nPe6GOXH7uVbHlbMfSqnZ9XpzL96L0Ny2hpaucGDR4QeuFmXd3NC6EeNIhidodRs2xxEhAUePUn4q9ej8i4i0I1tQSowLgN98a7qznnDr0075laM/bYMaebe2iou5uzyhwefjp16q9fieQpHLNi7HTntgKfy6Vemv97QnE29/H8I28rAEAAAf+atLBRfuX/3b0UAB+v//xLoXXd8H/MccAdBYCAlu5KZ0gBoEAIvyklC4lVMAQIoLEFO2HSmz3IpU5PaEBhxxM0wvEHHU/SwEYUBbyNqzvREN0DwWAEBIU3c0CjkBWgY3ABbJRzP2bHEE3OC2Ss4IszaWMX0TDJysnMtkqt2aJKKI15znCZtVmbvJA3pcCdTGQWM5nPBMYzhfkd3FyakwuYQeMSc8PXWuSQSTYWpViHKw+lPTg2l3lMmRYfH6UM63pnMguXO6dAgyJkm8scDQ1EiWaaKEXGv0HBhRPGZxifNo4JsVEBAAAA");
 
 export default FaceRelieved;

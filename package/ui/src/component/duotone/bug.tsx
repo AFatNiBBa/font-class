@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bug` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bug?s=duotone bug}
  * @preview ![bug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bug.svg)
  */
-const Bug: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M160 96l0 3.6c0 15.7 12.7 28.4 28.4 28.4l135.1 0c15.7 0 28.4-12.7 28.4-28.4l0-3.6c0-53-43-96-96-96s-96 43-96 96zm80 144l0 239.2c5.3 .5 10.6 .8 16 .8s10.7-.3 16-.8L272 240c0-8.8-7.2-16-16-16s-16 7.2-16 16z" />
-        <path d="M86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l64 64c.7 .7 1.4 1.3 2.1 1.9c-6.2 12-10.1 25.3-11.1 39.5L32 256c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c0 24.6 5.5 47.8 15.4 68.6c-2.2 1.3-4.2 2.9-6 4.8l-64 64c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l63.1-63.1c24.5 21.8 55.8 36.2 90.3 39.6L240 240c0-8.8 7.2-16 16-16s16 7.2 16 16l0 239.2c34.5-3.4 65.8-17.8 90.3-39.6l63.1 63.1c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-64-64c-1.9-1.9-3.9-3.4-6-4.8c9.9-20.8 15.4-44.1 15.4-68.6l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64.3 0c-1.1-14.1-5-27.5-11.1-39.5c.7-.6 1.4-1.2 2.1-1.9l64-64c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-64 64c-.7 .7-1.3 1.4-1.9 2.1C345.2 164.1 329.1 160 312 160l-112 0c-17.1 0-33.2 4.1-47.5 11.4c-.6-.7-1.2-1.4-1.9-2.1l-64-64z" />
-    </Icon>
-);
+const Bug = createIcon("bug", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABowAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCegsIAAE2AiQDCgQgBYMtB0IbjgXIhofv1/o893XPB8CeJcYAggImtSizKuxwVISaiiXQ/T+Xe3626fjoKxzp2HS2Jl1bozmfJ9DzsI29aEyPKNMMLHU6sj6CMA8RkVFKHSUTf+mO0xPk8XP2pArpvVTDK/V/AONXw54kac4ARBcANp88ut+39ainqJUXiJp9CIgtoBDIkGFMgHUygTG5ArlcUE9lST3KsiCAaFDRzIcbUMGnOA3IQRJSnt8z1NFaac9PtFZaLn27JeL5vjc92n843up/d6hFrXirtTUeHX6z71CoI14YPBpfbY94Z/CtfvHdxsNhV74Tjw0cibcHPojWQOXbLS3x/sg7QQH687T1WJzyzOenvS3epWI0tx2I+HjOuRUXZp0ZOy6Me1vE2wNv9k0513Xu92rthpoTJ95tp/3d59rbnyvxWN8mHc8+27FXbTL9z2q15Cvv4vC7f9i0/U8d9XrHn7Zv+oMVGFa1+ud0pu8xznq21BVcMnKXkT2UPrkyz/O2Bx9se9ZRnms6d+7RRyVsOvjKn0t6V1PTXS88DgQCz5+vXdm57v+m1gR++fzPf88fkvLbJJ1DkwSCbF45z2UJJAIAkOIBUxJ8KpC5R1K8Nm/ThdBCg6RBC2RGdUGuxVyomLCcC64/KhN5s9DnckDS5m7IrPAQ5Pp8BhXrfJc16IssTYUkE34SU3doZPuiYvGCRcWa4rbmEjOPW2fXFmFj1gOmZzb2usGd7nCf613nZvcp+h77C/e73Y4etd0XFRZbYJHCGgXd3KonJLvHvW72ZX6etYrnvVke6A+fjeUkwJIPvDYjUmSt19x/4/zJrrU3eU4DAAAA");
 
 export default Bug;

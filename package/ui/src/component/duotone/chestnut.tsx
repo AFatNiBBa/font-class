@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chestnut` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chestnut?s=duotone chestnut}
  * @preview ![chestnut](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chestnut.svg)
  */
-const Chestnut: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M4 384L444 384c-14.2 55.2-64.3 96-124 96l-192 0C68.4 480 18.2 439.2 4 384z" />
-        <path d="M224 32c5.3 0 10.3 2.7 13.3 7.1c2.9 4.3 7.9 9.7 15.5 16.6c7.5 6.8 16.7 14.3 27.2 22.8l3.1 2.5s0 0 0 0c20.3 16.4 44.7 36.1 68.2 59.6C400.8 190.2 448 258 448 352c0 11-1.4 21.8-4 32L4 384c-2.6-10.2-4-21-4-32c0-94 47.2-161.8 96.7-211.3c23.5-23.5 47.9-43.2 68.2-59.6l3.1-2.5c10.6-8.5 19.7-16 27.2-22.8c7.6-6.9 12.7-12.3 15.5-16.6c3-4.5 8-7.1 13.3-7.1z" />
-    </Icon>
-);
+const Chestnut = createIcon("chestnut", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABbAAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBOwsIAAE2AiQDCgQgBYMtB0wb2QTIjpSuzlQ8POjx/rlJCjivEiZYG7RxEsaHrSC2jlrrL8b/yWnxxrsBj+s+FjWNNz7B54xXoPGCjPVj2ZN9vKb45q6tFUrtL41YkseLe/zcIYvCdI9SJMeSFzio/wMYn9Szh0S5FEBUBcCQqRMnuPM+3ifx4v8LxAvjERBDQS6QIkVDAfpLBRrK5MhkgvfJ/7yP/3MCiNL0yykojQxDMBqQgUSILGtXuUKpStkUNcrP3FvrUCJrxc6Liwfc7HJ28o6aFeNwvO12ftDtdjujThypQz9boVmlipVO9r7SvXxc6nutcdOSqiVfCl4seeHdmbIjR5QU/1MA+KProvP3jag28IqB1Yy4f35R1z8o8E/x1Z4jyxp05cqV4vrl3tzxplz9YiAQdH+5deDcKv1/LVshAR+vffuZfPz/+7iTlKCsBARp+//bmxV3IDADMJPYoqlzukwg1U4CslbRYQFCeSokSisPqQaqQqa8dlBKYz3WSytvolRk5YSaZhMkKloPqZ62Qqam81BKf4/N0mpGCiMeBPwvLmWkRUb05V06ds775lNXEZDB5na/fFlrvSWm2vCoJdZaY5PFFlluk6E3mOBsttpIDx3hRLkuOuos11e+HdwrU8TcYKPlY2m/Sz/5eb21LX5xGx4mAXS9gPWUSCKtunDZ4o2b1mze1AGPavVGenkAAA==");
 
 export default Chestnut;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brain` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brain?s=sharp-solid brain}
  * @preview ![brain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/brain.svg)
  */
-const Brain: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 0l0 56 0 400 0 56-56 0c-28.9 0-52.7-21.9-55.7-50.1c-5.2 1.4-10.7 2.1-16.3 2.1c-35.3 0-64-28.7-64-64c0-7.4 1.3-14.6 3.6-21.2C21.4 367.4 0 338.2 0 304c0-31.9 18.7-59.5 45.8-72.3C37.1 220.8 32 207 32 192c0-30.7 21.6-56.3 50.4-62.6C80.8 123.9 80 118 80 112c0-29.9 20.6-55.1 48.3-62.1C131.3 21.9 155.1 0 184 0l56 0zm32 0l56 0c28.9 0 52.6 21.9 55.7 49.9c27.8 7 48.3 32.1 48.3 62.1c0 6-.8 11.9-2.4 17.4c28.8 6.2 50.4 31.9 50.4 62.6c0 15-5.1 28.8-13.8 39.7C493.3 244.5 512 272.1 512 304c0 34.2-21.4 63.4-51.6 74.8c2.3 6.6 3.6 13.8 3.6 21.2c0 35.3-28.7 64-64 64c-5.6 0-11.1-.7-16.3-2.1c-3 28.2-26.8 50.1-55.7 50.1l-56 0 0-56 0-400 0-56z" />
-    </Icon>
-);
+const Brain = createIcon("brain", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdwAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAAsGAAE2AiQDCAQgBYMtBywb/ATIjsK2bROLg2OJJ1NskXj42u937t3dh2nzzk9Y8pC1EbWREs0amVQpxSxkBv//5fS+xDV/7WAuNMHaoAnkCHpYNOd06tiT+b8mX1DTAX6jQ+tcg0Rx9/MJDHB6Ph9ItA1sphOwvU3EhDqC8IsICW0fn3R8HaDGAbcVfPKO8wi4Sh8avzDWCqSBAoAYBwDsHkVF4vSTnigelFsQjwgHAbELWEQoKJhFYANXYBbPIqiq4In+lf4/kEEA0YGwZFY89Qm4AFBBysrz8FDlq/Nih5pKEpKBGKQ2gyGTAZUl5zWTJsMlkzFqMh13cNBQzbDDuOGwKsWoqLbrDxov6o+iUW/RGFCjuxuxHcSI44ptm8GI3oCKChFxiazXtNYUVo+5j/g9kUgkPZCQMPhT2FWI7rW1VVSl+T8fJkbn66GvhoavrzGGYsPXl0A7xb+BhI1yQ6nAl1fBi3lV94WunxuZfPzkS1VVFjMzogpMQ+Lk8YBA0Pd5Y5umufEnUuUAXvZ/Fci/ov/TlA+AfgmC0lP2JCdIAgCQUcs6gUA6xkHvOuwaBMIgAqTOoADFDC0EqkFLCDTz/BDoDNrDFVWMMC2lgjTsEhTr6kA1bQM0G27ynengGppgJsI3LzWII4G7mJe7J5MxtaOItsPFTTmbdh1rw4QTxCJXmVLVcmQrUM2YSpGlGiWCenSgL2K8uPPEyLDt/q0ai/lKVQpkeX8bOXY/56i2P98JAg5iXVaXkkj+QwMA");
 
 export default Brain;

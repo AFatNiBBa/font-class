@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-pants-simple` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-pants-simple?s=sharp-light people-pants-simple}
  * @preview ![people-pants-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/people-pants-simple.svg)
  */
-const PeoplePantsSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 64A32 32 0 1 0 96 64a32 32 0 1 0 64 0zM64 64a64 64 0 1 1 128 0A64 64 0 1 1 64 64zM57.4 320l6.6 0 32 0 64 0 32 0 6.6 0-5.3-128L62.7 192 57.4 320zM200 352l-8 0 0 144 0 16-32 0 0-16 0-144-64 0 0 144 0 16-32 0 0-16 0-144-8 0-32 0 1.3-32L32 160l192 0 6.7 160 1.3 32-32 0zM416 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-96 0a64 64 0 1 1 128 0A64 64 0 1 1 320 64zm-6.6 256l6.6 0 32 0 64 0 32 0 6.6 0-5.3-128-130.6 0-5.3 128zM456 352l-8 0 0 144 0 16-32 0 0-16 0-144-64 0 0 144 0 16-32 0 0-16 0-144-8 0-32 0 1.3-32L288 160l192 0 6.7 160 1.3 32-32 0z" />
-    </Icon>
-);
+const PeoplePantsSimple = createIcon("people-pants-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABmQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDFwsGAAE2AiQDCAQgBYMtBzoboQXIjtMF9SWLu0RQv/ZV1use6r8MvUSkgFEB8aFckKeAHPuzE6OOUP+qZZ469TznoQC+UYgCOtaobyuNMc4rUMBarjamLazXChYgKQiuw3UDH0Rou9Cee8jj0xiqhvQi/YB73ovGrzq7TJJnAKIVAGatXr7MV43RGPFDFfGDJQiI2aAUyJChmwBTZQLd5ErkckFjVKviP7AkgKgV3C+BHAVe4WNADpL6PG/bvGEATVZqmuer+EOK9Rc6RDwtbrZ77Hz7J5VbHZ9F8cGQt4Ned3934KvBb3qsqBSVVVHEipVFpRCiiGC2iPrTKrrG6qjEyugcZ63R+02rN7/3uqsPzrW4zvUWaY3I35I1/f13U4aX1Fbr6u7WnHMRc+/2rA8i72ul1Mp9M9WF6suWaj/wFXm/lsofex55ORAItp0e/NfmllP/r68k0PTJn3/753aqfhU/pTeol0CQDa0OtSHRKcSMnwTpFKf0nolZIPlQPeBnbeapAKFAgKRWIUCmq1YC5ApDBKjRwzgBahWWy0TeILSzsQZJM0dBZrwzINfOR6DGVF+na7WLDGZJiCMvGePmt6F5i8pRw0eWk8vJmpICQ9yenVKu1gaekj2D8Eq7HHbICTvtsNeJFnLMstxJB82fg+eJUWmU4UYqTVbubt6PXmWnY47b67BD7jxTlOcnBjo1P3wQNpMAdbSSJBGprTGXh/1N2Dw+zOgD");
 
 export default PeoplePantsSimple;

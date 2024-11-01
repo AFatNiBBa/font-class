@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-right?s=sharp-regular down-right}
  * @preview ![down-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/down-right.svg)
  */
-const DownRight: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M248 267.9l-33.9-33.9L112 131.9 67.9 176 169.9 278.1 203.9 312l-33.9 33.9L131.9 384 320 384l0-188.1-38.1 38.1L248 267.9zm38.1-105.9L320 128l33.9 33.9L368 176l0 208 0 48-48 0-208 0L97.9 417.9 64 384l33.9-33.9 4.1-4.1L136 312l-33.9-33.9L33.9 209.9 0 176l33.9-33.9L78.1 97.9 112 64l33.9 33.9 68.1 68.1L248 200l33.9-33.9 4.1-4.1z" />
-    </Icon>
-);
+const DownRight = createIcon("down-right", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYgAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBUQsGAAE2AiQDCAQgBYMtBzEb0gTIngWOa8JNkUg2JmLx3RQ/XuP5/9+v7XP/m8G0mSRImkQjTUtlUqJZzB4ii4p9rP12v4i0Nz8Jop5MmqhOp1SuYtrEQ7FQiAzxknn2q0Lex07jpvFuwAOBjk1NufGxgeaMv8DHp01a8Rd5e7AKVYh/cN6kQwppCOlvaFnlPvTUmwbgKf7R/CNsD0qvA0CmAQDnD81NuPvhD/msHgN5RwMI5BzAKqJDh0UER7SCRTqroGnCL1WV/QcKECB9pB8t0NBwDe4ANFCq6YJJVr1d16auWNqLi4rbWMhWFrEQ41by0faSwpIi+onIqCXAYpYwyBKgtg1QiVp0g946HVFcyi8D8L87Nfv7cam86ubW6sqVVu6tYTe8i098IFXqzyfc3DK0XnFJG5ejFWQABKENDppzFv6ZrBrA38V6lXnUKIBhBUK3oyaiJ1uA6UyBpFZlAZGDhQXligbgt457RhCjCCh9owI6C1wImlHbCHqWZSHoG3VDK82MmNc7gDJuADqH1kEz7xD0HLm3+uaj9VCcd+D+55Krp3DVNklLTpV82Y11vB9h9LxALmvRBV6LwasYMGnCnH59hs1NqBlN7rxx1UdIlQWJNMlSiXzyOHt5vk2/GbOGTZqINikg3xtRC8fdMbgbDWDXKiJFyuLGuPAIAAA=");
 
 export default DownRight;

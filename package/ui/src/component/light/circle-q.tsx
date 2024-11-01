@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-q` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-q?s=light circle-q}
  * @preview ![circle-q](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-q.svg)
  */
-const CircleQ: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM160 256c0-53 43-96 96-96s96 43 96 96c0 20.7-6.6 39.9-17.7 55.6l-50.9-50.9c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l50.9 50.9C295.9 345.4 276.7 352 256 352c-53 0-96-43-96-96zm224 0c0-70.7-57.3-128-128-128s-128 57.3-128 128s57.3 128 128 128c29.6 0 56.8-10 78.5-26.9l22.2 22.2c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-22.2-22.2C374 312.8 384 285.6 384 256z" />
-    </Icon>
-);
+const CircleQ = createIcon("circle-q", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiAAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCIwsGAAE2AiQDCAQgBYMtBy8bIgXIhuB5u6h6f3oWYK/NDIoARjhJ6SI8OJ6pUzmX81AA3ygoY+OavgHnbHtegQJWX3sPXqAI1bQAUPaq21i5QS4PliNDVEQM8aEJIsjijeioSLqcvsTJcqr4VX2HSbICgKgGgGFzZkzy7oN4EPFl6SXiSxMQEMNBLlAApJEAAxUERpDJkckED6JU0v/AnACiDENOIEMZ7MQe0EckGbCGUcVi5Wx2/RUVFnw0LuKzbs/Z3/XZsZ+O/Hj8592fjwM9XpjwxZj0y5SIb0Z8EAeGvz/569k/Tvxy6Lv2D3tv0lezZt/sEPFEn5fa3Wt8qe30uFDrXO1pcbfly+3vN6l4Z3DE26M/HPhmfnvQW6NeGdAuzte9WKd9PNO0+f1q939v9uXqL5VuvtuRTo9/HDDgx8edOr5LNYE/GOUUpwc0GjGi0YDTp0bROr28pFTuPvf3779/v1zVss3du3fkSHNb/8KzB8WejJg6dUTPotPivlt/1uxdV67McroSEAg6TXux7JKqA/8vVzGBR6//+T++RkrvJuk+ykkgKHQsdbQwgUQAAFLs1jxBINkoY2et5IIAoQICJGVUEKCgoWoCZCroIEBRE70EKKOCGQoiKy/UsqiBpJJtoKC3PSBTywugaKBPkjJqRSHy+LjhH34poxkf9Sjv1rlr3j+f1lwIJjbfDsi31ba706wdoFbbYrOdVllpnZ1Ebjcp32WT0StilA/KddNZV7n+8uPuXplNyXY7rBtL5/cMkN8P29q93m4HIzHK7gpJIlK5Dzpap20AAA==");
 
 export default CircleQ;

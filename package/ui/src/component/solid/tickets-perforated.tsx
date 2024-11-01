@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tickets-perforated` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tickets-perforated?s=solid tickets-perforated}
  * @preview ![tickets-perforated](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tickets-perforated.svg)
  */
-const TicketsPerforated: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 32c-35.3 0-64 28.7-64 64l0 224c0 35.3 28.7 64 64 64l416 0c35.3 0 64-28.7 64-64l0-48c0-8.8-7.4-15.7-15.7-18.6C605.5 246.9 592 229 592 208s13.5-38.9 32.3-45.4c8.3-2.9 15.7-9.8 15.7-18.6l0-48c0-35.3-28.7-64-64-64L160 32zM528 96a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 64a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-16 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm16 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120L0 360c0 66.3 53.7 120 120 120l400 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-400 0c-39.8 0-72-32.2-72-72l0-240z" />
-    </Icon>
-);
+const TicketsPerforated = createIcon("tickets-perforated", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABhQAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCCwsGAAE2AiQDCAQgBYMtBzkbFAXIhof/t+u/fW7VA1yf5hAZlEOMqMzhj4a9JrV64nLnb5secNkTPMretS0a0/c6T6Dzzj/flgWUBZYoNjjvkAYdHQqFF8jjn+xGFaR70ie4KfjS+EaPG0lqMgDRDIBle3Zs8l4pShEfl18mPrYBAbEMFAIZMvQLsFAm0C9XIJcLSlEuG/+BBQFEpQhMns9RjbNxESAHSWWej6yJmrrrKhry3dkLaw88Pjbi6W5xz7hnRjXEUxOe64u4s/PJwYfG3NUVce/4Z0fXH7uj4/Z2lAMdlbbTllRnwEg6fu/ox7vFI4veXtUQT/UBmfp4cthDvTH82eZnvxv2yelPPPTQwy201JbUtrQ8/DCZ3lI71cCZT0ufnhmYSmi7aEmpsbGUOkurqGmLxilOGU746qmObds6fpRaWoqb1RzwvpuVZsxo/BEIBM9/efKsI00Lf6uuS+DrN374k/d0uZSuTc+iWgJBNrE80cF0LRjMACoprjScccJActSs+9R6dwoQahEgqVQrQKZPswC5WhMEqDBolgCVau2QibxGaHeoJZJ6lxCZ2a4icu1eJCos9H65UntkR5t0rEg3e+mrQWDVsWLa5KnF/ILaV8sHkODuLyiE/bFXmnPj5LNOu8iFLnfKSee4HMAvtal2hQusZmGr/FBhmsmmKsxXDB6N6ruB8qUucw7ZMfyQBYrpi2NdyV49To6SiHW6jiQRqfXKWzLp5xjiaQg=");
 
 export default TicketsPerforated;

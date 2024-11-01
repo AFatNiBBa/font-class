@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pencil` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pencil?s=sharp-light pencil}
  * @preview ![pencil](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pencil.svg)
  */
-const Pencil: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 512l6.8-34L32 352 361.4 22.6 384 0l22.6 22.6 82.7 82.7L512 128l-22.6 22.6L160 480 34 505.2 0 512zM176 400l0 18.7L398.1 196.7l-82.7-82.7L93.3 336l18.7 0 16 0 0 16 0 32 32 0 16 0 0 16zm-32 48l0-32-32 0-16 0 0-16 0-32-32 0c-.9 0-1.7-.1-2.5-.2L40.8 471.2l103.4-20.7c-.1-.8-.2-1.7-.2-2.5zM420.7 174.1L466.7 128 384 45.3 337.9 91.3l82.7 82.7zm-89.4 28.7l-128 128L192 342.1l-22.6-22.6 11.3-11.3 128-128L320 168.8l22.6 22.6-11.3 11.3z" />
-    </Icon>
-);
+const Pencil = createIcon("pencil", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbwAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCCQsGAAE2AiQDCAQgBYMtBy0bBgXIjsQ4JvKLKOwiHr5f8z337eZD8oEKvFPFCA5IsSNVD+zKjoVl26msTofUvscbOTVeKpUK+LDiRfrPmoKcB3bezotPYDre90/jxWcDm+kEbNY2uX/UIOoHDarPYCJjIX5oaztDHq9jkBLpXvqGW/lD469urpDkGYBoAcD0tSsX+/ArfkV8q0p8sxABMQMUAhky9BRgkkygp1yBXC74FdWq/w8sCCBqyKsTyFGLbTgDyEFSyvMu7R31rZVSY76mUirr07PP2tgbA6N/rOYT/WJXrIpRa4W1sWaAlQrNxEEhyuWIeCyullfF2rgYe6dOmromJsXqVavWruqIAdEl1tKx/tHR90HLg3982/PNtO2ysetZ8+bZY4/lywulsme76vz0aDvlvn+3YoWGb29pUSisagF2OSKiY4897VJ0tH4HfSSq3vqe5ynzwG6vFZV7HgSCL6cm39/aPOl/XSWBP68afkXVD0l6gDoJBNmg6iCbEkgEACDFGX0TBJJ1SvhdG9wWIJQRIKlRFiDTQ4sAubKBApT0NlqAGmUrZSKvFzpsnkjS4DiSGeMskuvwEimZ5GNQoyMyY2NNhf3WS5qjgdmriuFDhhUTittC5+yHjosTi2Or35kw0B8n7XHUEafstst+pxR8wuL4tMPm7KDZvqgw3BDDFCYoHtdfD6+x2wkn7XfUkbTMRMX7fj9n9uP7w02EdIR1SSJSzbHfOsuHAAA=");
 
 export default Pencil;

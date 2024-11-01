@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lock-a` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-a?s=duotone lock-a}
  * @preview ![lock-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/lock-a.svg)
  */
-const LockA: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 256L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-192c0-35.3-28.7-64-64-64l-16 0 0-48C368 64.5 303.5 0 224 0S80 64.5 80 144l0 48-16 0c-35.3 0-64 28.7-64 64zM129.7 424.8C156.3 371.6 183 318.3 209.6 265c.8-1.6 1.8-3 3.1-4.3c1.4-1.4 3.1-2.6 5-3.4c2.1-.9 4.2-1.3 6.4-1.3s4.3 .4 6.4 1.3c1.8 .8 3.5 1.9 4.9 3.4c1.3 1.3 2.3 2.7 3.1 4.3c26.6 53.3 53.3 106.6 79.9 159.9c.6 1.1 1 2.3 1.3 3.5c.2 .9 .3 1.8 .3 1.8c.1 .9 .1 .9 .1 1.8c0 .7 0 .9 0 1.1c0 .4-.1 .7-.1 1.1c-.1 .7-.2 1.4-.4 2.1c-.4 1.4-1 2.7-1.7 4c-1.5 2.5-3.7 4.6-6.5 6c-2.3 1.1-4.7 1.7-7.1 1.7c-5.9 0-11.5-3.2-14.3-8.8c-6.5-13.1-13.1-26.1-19.6-39.2l-92.2 0c-6.5 13.1-13.1 26.1-19.6 39.2c-2.8 5.6-8.5 8.8-14.3 8.8c-2.4 0-4.8-.5-7.1-1.7c-7.9-4-11.1-13.6-7.2-21.5zM144 144c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48-160 0 0-48zm49.9 224l60.2 0c-10-20.1-20.1-40.1-30.1-60.2c-10 20.1-20.1 40.1-30.1 60.2z" />
-        <path d="M235.3 260.7c-1.4-1.4-3.1-2.6-4.9-3.4c-2.1-.9-4.2-1.3-6.4-1.3s-4.3 .4-6.4 1.3c-1.8 .8-3.5 1.9-4.9 3.4c-1.3 1.3-2.3 2.7-3.1 4.3L129.7 424.8c-4 7.9-.7 17.5 7.2 21.5s17.5 .7 21.5-7.2L177.9 400l92.2 0 19.6 39.2c4 7.9 13.6 11.1 21.5 7.2s11.1-13.6 7.2-21.5L238.4 265c-.8-1.6-1.8-3-3.1-4.3zM254.1 368l-60.2 0L224 307.8 254.1 368z" />
-    </Icon>
-);
+const LockA = createIcon("lock-a", true, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABswAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDJwsIAAE2AiQDCgQgBYMtB0gbwQXIjtEnYw41QxQxRKh4OOLhH7vP+2ZmNbuxOggV5M6djBZwmwoqkzIn9fefH/ees/n9GXeSktBAhgg4obE5NIakicvx/7aniaNlEYQy5rY1LJvzPIEAF3XZWPgWSJdAmqE1OG/wQYUyhPILZHGUblJEcjz5hL3h/wDGX/XMkShLARBVAcCAicVFePgZP5N4K1wRnwwDATEQ0BSRIkVDBL1pCzSkoynIZIKfSaHAzygUmkIAUYzwBSkoRilu4gkgA4lElum4ljQfULWiXNdYpyxsVOVHai+qHTXnxcaSOFRrwTaE5QwKnF6yKYtl8UvzchURHUI43uLEyziOWp05MlZbnnqrIHf73mW/6n0jYM795sd2pSdp5rLTki1mNTtrLaQ3gi6CcN0U18c6zLteoP0qN6921F5MQioGp9lWn23FOOt27XfiDOZkaXmu2VYz8Zbt3E/NTn+avTW8+fPA3E20U2lqYc6RZ017+3lBtBrRxl6/mT7KRrXqLb1j7h1fPKvOq1XbTrVdRNUz3TEzhHJatvX5861DDdvDbHHP+msv77l8idXuxUOrbjT/j/ZFlCBiAGwQipYDmmVluYMjuTUoPiR2UJ6G3S2sVDcmwPyqVesnsL1t7Tt8JyYmTiwe76hu65oGAkH/FdmLM6v0/l+q0QL8fvD3jz+v8MBnyQ2USkCQti4EqolnAJUD+FFJDHCPZ1aBQGqzDH7XCkcECDkCJIrlAqQaMEOQybVCUKSxKATFcmNpi8wQoabaTpqosFSa6mpcmqnpUlqkt8d8sZqRGl690dP/O2bJHkJZ66RDcKjEy2pTYzCPWm85QQ57mg/wIT94EA06dehTr06zvgHZo6jUr132FpHli0SYYKFEPLnceRopU19EezUvm66vkkCeT/ga2J7sB/1aYpUd7UilREJtE2uVCJrdxhE4zPom3Q4AAA==");
 
 export default LockA;

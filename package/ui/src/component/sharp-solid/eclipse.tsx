@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eclipse` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eclipse?s=sharp-solid eclipse}
  * @preview ![eclipse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/eclipse.svg)
  */
-const Eclipse: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 73.1L150 0 126.7 126.7 0 150 73.1 256 0 362l126.7 23.3L150 512l106-73.1L362 512l12.5-68.2c-31.6-15.1-58.8-37.9-79.2-66c-12.4 4-25.6 6.2-39.4 6.2c-70.7 0-128-57.3-128-128s57.3-128 128-128c13.7 0 27 2.2 39.4 6.2c20.3-28.1 47.6-50.9 79.2-66L362 0 256 73.1zM256 256c0-33.6 8-65.4 22.1-93.4c-7.1-1.7-14.5-2.6-22.1-2.6c-53 0-96 43-96 96s43 96 96 96c7.6 0 15-.9 22.1-2.6C264 321.3 256 289.6 256 256zM464 432a176 176 0 1 0 0-352 176 176 0 1 0 0 352z" />
-    </Icon>
-);
+const Eclipse = createIcon("eclipse", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABdAAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBfgsGAAE2AiQDCAQgBYMtBy4b/AQRlZpfyD4SY2fcH2eCDmMTSuLh/+36fp9b1T2AagAjcjZfYAQH6Vs/AtABMP/XfH7PrwE/H8EhRVvpgVx71SKfT2CAs7Bo2vNZ2XA2UdzubKk5RIsDMcqSHN/KcTlAHv9kl5RIt6VPcCN8aHyjhUskNTIAUR8A45cunO3dqqiK+LjykvjYTATEeFAIZMjQWoBRMoHWcgVyuaAqKhX8DywEEGV0vwRylLAa+wA5SLI8796gVa1SnXxJrVLNlUsWL1kUi2KxwRfH0sd6vc+DNd8b83aHB8a+M/VK52dmLolFzve9WfPFbo+2vqv7Y4OvNHs6Fl8ZGfFG32fifJ+nR7xe8/KwV3s96Vzvp4a/VqvD4/Uf/679J1s+qRzZPg1DTc8401RhHAtMr2+fFlfVnuj3v5s0mTdxUKk0aOK8qn1dHhdun/bKwOX31zr3+OPVq6fNztW6f/nAz5/pd5Qjx4736XP82JGj/VgObwcCwcpfO365tt6o36rXSuCL13/4Ll+v8m46lx5HdQkEWa9Kr1XpHCA1ACfFER2ELwoki2XoXWu7KUCoiQBJWU0BMq3UFyBXU08BStoaLEBZTQtlIq8hNLa6gaS2/SAzxGmQa+wFUDLK+3ZZ48j0jNcS/peX4qZwaPK8on+ffsWIYpmrguqwbnpksa11O2K7usNaW/buObR50/ZDjDww2zu8e4oET/5h0b9Pv2JEcVw9L1+y+cDB7Xv3+FlGFvetbkfkwd3BTIh2QDRJRKq2+dGqmwEAAA==");
 
 export default Eclipse;

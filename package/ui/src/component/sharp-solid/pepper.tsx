@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pepper` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pepper?s=sharp-solid pepper}
  * @preview ![pepper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pepper.svg)
  */
-const Pepper: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M191.6 36.7c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0L208 19.2C224.4 1.7 224.4 1.7 224.4 1.7s0 0 0 0s0 0 0 0l.1 .1 .2 .2 .6 .6c.5 .5 1.1 1.1 2 2c1.6 1.7 3.8 4 6.4 7c5.1 5.9 11.9 14.5 18.7 25.4c10.3 16.4 21 38.8 25.5 65.4zm86.3 65.6c17.7-6.8 37.6-8.4 57.5-3.4c10.5 2.6 20.1 6.9 28.7 12.4c21.5-13.8 48.5-19.1 75.3-12.4c51.4 12.9 82.7 65 69.8 116.4l-56 224c-12.9 51.4-65 82.7-116.4 69.9c-10.5-2.6-20.1-6.9-28.7-12.4c-5.7 3.7-11.8 6.8-18.4 9.2c-10.6 4-21.9 6.1-33.5 6.1c-11.8 0-23.3-2.1-34-6.2c-6.5-2.4-12.5-5.5-18.2-9.1c-8.6 5.5-18.2 9.8-28.7 12.4C123.8 522 71.7 490.7 58.9 439.3l-56-224C-10 163.8 21.3 111.7 72.7 98.9c14.4-3.6 28.8-3.7 42.4-1C84.2 128.6 72.1 176 83.8 223l41 163.8 31-7.8-41-163.8C102 163.8 125.3 111.7 176.7 98.9c4-1 7.9-1.7 11.9-2.2c8.7-1 17.3-.9 25.7 .4l.6 .1c4.6 .7 9.1 1.8 13.5 3.1c-3.8-14.5-10.1-27.4-16.7-37.9c-5.2-8.4-10.4-15-14.3-19.4c-1.9-2.2-3.5-3.9-4.5-4.9c-.5-.5-.9-.9-1.1-1.1l-.2-.2z" />
-    </Icon>
-);
+const Pepper = createIcon("pepper", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABggAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCQgsGAAE2AiQDCAQgBYMtBy0bPwXILgpsY9joGB6KHmq3nBtl+N6QGR/jefo1fue+3W+oeIJEIiTPYglPDFE0mlSxpJ3snteqtey5Z0p461WYHLkoBLRE6Fj4CAXYiJPM/1oi6nhe6uvWTn8/9Yc1fcCH9E0ydz6PpKRM3k1g86bd061FooQmijvb9iqIaCjsQuUAda6qbi1QTpVXHA9fla8G6qaQVAAgPQDAyg1Rkbh/lVfJSxN5YR0IkJWAEQhUGDIEAZbgIeMD8DFQ4yN4lWb/HzgCApBWJETh1vTCwzgGqAEFV/O913ZuUfBj+Wxp0n4i6lBZ1jnRf0w/MmV7CDI7d/QdopG+JLJhSxfHVjtd+Z647thE5+yCdb9R47B+WDrYj685drq0i835yXv+J4rWbaZtYzI+401z/mOysb6yjPSd9IJ8+g5pR8h8Rb35PrJNeXgaAIDf7vYyA4CAQFCgnV1/Qdzn8su/9aFxxIxe/zcXy+/un2z3H/4PHnoyCJWLS7Cjy1njmtDc9vKDDkv4qLjZie5f2xQ+vh2kr4+Za9pkDgoABARmdtt3Pa37kv/tnTkAb+78/K6vbDQXIbeJdhwgUE1ppkgudhBjQJJYSS0zLhBQtER+8K1djAogpCCAQkiKABVragSoSTkjQAs7vgjQSioKD9USEL2UHnDkKgCPnxbAp3cEBEI8xIT0qSBRgSPlPzAzYoyHT2Mz3TxYENssaVXgkuxoMDsdmlArWxwxFLnKlKqWI1uB6hFXKTJZo0TEHhvuhxhPbjwwQdjt6vPtsXJUqlKgTKmfJBh7P+ygdr+7I54PB2DWN0S44hRh+cby8pxKAAA=");
 
 export default Pepper;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `champagne-glass` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/champagne-glass?s=duotone champagne-glass}
  * @preview ![champagne-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/champagne-glass.svg)
  */
-const ChampagneGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M32.2 224.5c0 58.6 40.2 109.2 95.8 123.5l0 100-48 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l80 0 80 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-48 0 0-100c55.6-14.3 95.8-64.9 95.8-123.5c0-5.4-.3-10.9-1.1-16.4l-23-180.1C261.7 12 248.1 0 232 0L88 0C71.9 0 58.3 12 56.3 27.9L33.2 208c-.7 5.5-1.1 11-1.1 16.4zm64.5-8.3c3.8-29.4 7.5-58.7 11.3-88.1l8.2-64 87.7 0c2.7 21.3 5.5 42.7 8.2 64c3.8 29.4 7.5 58.8 11.3 88.1c4.9 38.1-24.8 71.9-63.3 71.9s-68.1-33.7-63.3-71.9z" />
-        <path d="M212 128l-104 0L96.7 216.1C91.9 254.3 121.6 288 160 288s68.1-33.7 63.3-71.9L212 128z" />
-    </Icon>
-);
+const ChampagneGlass = createIcon("champagne-glass", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCCAsIAAE2AiQDCgQgBYMtB1obNAXIBp7n9b7OfclXMsYbmNVCcjXdSu26FeoYcep5zkMBfI/r3haQBT665nkFqnPT9IoWvKY1sA7OG/FmhOKQ/AKm9DBW4QK1Xz0Dtrr/AZSvRLMKFD4DAAAJAgAAmvr27EzHJ/mk5JlzC+QZnQABkGYANAIYgAHEIQDUYiBAHCYaMDER+KQcBz6J42gQABA37kMMANyACxgNTAMATAAUgjLNwJJY2+Vv9rFd1kDLtnrJvqzzaWdzLsb06Xs4T+RyGWLJhrBdLAvfbdv2xsi9sjxij2WJyN2Cq4np+T5yIN2SU1G9ZBd9D8aKYFqK2LI/enc4w27KPJd6JvtCbPKFoAvfk56NecbbhnF4k9WXvNCwV6/CQvOSq4kf7O1w7OAoCglYty4Ah926qXsKGcXBY9ttnyfiJv23b2N7f3KTx9voCUuF9PSl9CM4OD4+NUyKE74PAAIILAh5Vzs0sPa/11YAfHnw82/4Q9JOhxSrC4AXBYCAkevkMkjmoNFSjAAAAABK5pAsjQxBI4BBFxRB4sceBEOwAAo3FgxiCYKJRQ5cJFDG9jzcEwMxfQhhDIZQ+DEdBuUshkkYN+GiloexmzAxtjZ+W+Gv9VLa80TbOF2UX6irdWMuFjYgVg/X6N5O5hzelAUvMoapTGEWoxnFeGblqBl0zmYzmfY2so0voikin0I01ejRlctKHxzPYCbj66Xxo9Sg548ymdPeOQvORwEAxctpggGixIj8fUUyfOyU0XknmJG357aNrpN2UwAAAA==");
 
 export default ChampagneGlass;

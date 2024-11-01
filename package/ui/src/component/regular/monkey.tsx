@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `monkey` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/monkey?s=regular monkey}
  * @preview ![monkey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/monkey.svg)
  */
-const Monkey: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 416c0-91.5 54.8-170.2 133.5-204.9c7.3 15.1 17.2 28.6 29.3 39.9C255.7 275.8 208 340.4 208 416l0 48 192 0 0-24c0-39.8-32.2-72-72-72l-16 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l16 0c27 0 51.9 8.9 72 24l0-24 0-32.9c5.2 .6 10.6 .9 16 .9c11 0 21.7-1.3 32-3.8l0 1.8 83.5 83.5C560 398 576 436.7 576 477l0 11c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-11c0-27.6-11-54-30.5-73.5L448 353.9l0 86.1 0 24 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-8 0-48 0-192 0-48 0-8 0C68.1 512 0 443.9 0 360L0 120C0 53.7 53.7 0 120 0l8 0c53 0 96 43 96 96s-43 96-96 96l-8 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l8 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-8 0c-39.8 0-72 32.2-72 72l0 240c0 57.4 46.6 104 104 104l8 0 0-48zM448 251c-10.1 3.3-20.8 5-32 5c-5.4 0-10.8-.4-16-1.2c-13.5-2.1-26.1-6.8-37.4-13.5c-16.4-9.8-29.9-24.1-38.8-41.1c-1.4-2.7-2.7-5.4-3.8-8.2c-35.3 0-64-28.7-64-64s28.6-64 64-64c15.7-37.6 52.8-64 96-64s80.4 26.4 96 64c35.3 0 64 28.7 64 64s-28.6 64-64 64c-11.6 27.9-35 49.6-64 59zM384 64c-26.5 0-48 21.5-48 48c0 20.8 13.2 38.4 31.6 45.1c4.7 1.7 8.4 5.9 8.4 10.9c0 22.1 17.9 40 40 40s40-17.9 40-40c0-5 3.7-9.2 8.4-10.9c18.5-6.7 31.6-24.4 31.6-45.1c0-26.5-21.5-48-48-48l-64 0zm0 32a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const Monkey = createIcon("monkey", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABwwAAALiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCDZwsGAAE2AiQDCAQgBYMtBy0b5AXIBp7n37POfUmVDJoR0wXoL1CdNd3/uabebc9HA6wgGErUX0RwRQjs+USaMkTOxrOJ4i71Cin8qBgW3d4j0OWOTMYBao46C0wqqOQNsYwJKhwaFQnxAlahZP3aVTn4UB6KnAlsAzlDZUAApCQANgJogAYkIAAUQUOABHRsQEdH4KEEAmT/gTYIAIgT+zIFgA64gGvAAyA/AxQOXR+UNsHjMR3Bej3TYdS/UVrkSOU5GU9mWWsjpojMzeRPZ8jKuHnpTdmWUURkhjkuGqkr+3zI7DQr40QWZqolCGLKitjZaYyg68X21xNZVvxAefmUNYnzM6zOo5+xKnpW/NyomelQWM7wxiALIMhrZ0jr6cbYqJXpYJjZazP5pWyZU9K3WnMcoItdYcNsuY1p1uaptzxCZHrMgrQzIkdEXiFulsyKXpVsCiC10yMUeSjkjUULtlL5vf53vrPtzrIombJ5oezuld7Uv994cnCQGEJy537opWZkZE0vI57H4KOH23qiqF2blBCTyJo1I02Mcxb1iMEttJ07QwmZu0ZKfERZlu1mhN/vdreqEcAW5Lh7TtPO3c3h5mHu3CEfMVdk43s5kpc/tdw9chkTb4WHL7Ysw7CsxXsnj/T5Rk7ei3ozXSi+W1UL4UbvnVYua3eKZaXstlyt7niNxZSwH4aEPGyVgZhnMwOAXFT6cvETzUOLfHObCoDHuz98T28ncFCVUH7AjQJAQMsSyEITVQIg4BQA8CvpRyrgiwRQnMNB5Qpipm5QMGAlKZwYJI14vCQdg8wkB0nkFUjOr42G6B6ECJraJEUQPUka+RhK0olgC8lBEU74nESIdm+L7kzRr2Wycii+7Cw7Z7YcdiGbWzGLb1dBOlnYltZl6Bd2ZLTX0o7udKMPbWlDR/ogxF5UDfalK+UgQll+iE1OspEDm0LY2vVJqIcAPfTOBWwV+tNQGHt/Vwb6wf0z2kZFxTUX+QoFopxdPxU=");
 
 export default Monkey;

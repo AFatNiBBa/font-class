@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `watch-calculator` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-calculator?s=light watch-calculator}
  * @preview ![watch-calculator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/watch-calculator.svg)
  */
-const WatchCalculator: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M96 48l0 16 192 0 0-16c0-8.8-7.2-16-16-16L112 32c-8.8 0-16 7.2-16 16zM64 65.6L64 48C64 21.5 85.5 0 112 0L272 0c26.5 0 48 21.5 48 48l0 17.6c36.5 7.4 64 39.7 64 78.4l0 224c0 38.7-27.5 71-64 78.4l0 17.6c0 26.5-21.5 48-48 48l-160 0c-26.5 0-48-21.5-48-48l0-17.6C27.5 439 0 406.7 0 368L0 144c0-38.7 27.5-71 64-78.4zM96 464c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16l0-16L96 448l0 16zM80 96c-26.5 0-48 21.5-48 48l0 224c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48L80 96zm16 96l192 0 0-32L96 160l0 32zM64 144c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16L80 224c-8.8 0-16-7.2-16-16l0-64zm64 136a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm64 24a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm112-24a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM104 384a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm112-24a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm64 24a24 24 0 1 1 0-48 24 24 0 1 1 0 48z" />
-    </Icon>
-);
+const WatchCalculator = createIcon("watch-calculator", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABuQAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDPwsGAAE2AiQDCAQgBYMtBzcbxgXIjsR0Y4/8oG5skXj4R++/3yfJUzJGZipA+qhAlBCKTlm/Fcv73JAREnMcT7Cg+Equzv81+aLoKJ9/PoJDWVR6hUakTmCAX+dNCTwbzqYTtI1uQ+Wq4CE+NMYesjgfA9SRPIDf4Db+pvGzzm4gkaUAohUApq5evtAHVVQR39ReJb4xHwExDZQCKVJ0E2CCVKCbTIlMJqiiVmv+A0sCiHrgqQnI0ALv4gtABhLNsqzFsGZdmlo1gURR1zxbRc7M1wtFRNyredzNfUI8ZPdFEc/IPUXJ7Bek+9fzDuG7PY9n9d4aGXNefPJD96VYe48UcZ9F5GHd0xxxdxYPyD2jiOfsvhbxoN4785VFXmybBh1zFXF8H3E353Gvxsr7/dn6UDxT5jKV6VjdUyta78N7v0gv/l7f7PrG5tsIQD/QSovqcVWLPxP4Gem33w15HIZ8923axqvtsuaV5lm7V5OYr99yq7CVD7Rqebhz0Vqrg0hl1KGWmz8ABaUPlLXDSOWfgpdMvlmWLm2Pbf/3qjxwuKO75vPdtfHI9UAgeHftJ3dsbjnh38YiAT+99fu//HK1D+IKvgg0SkCQDqg9G+IKoJEHkE7ilN47HxRIvKoZ8KrN3CtAyBEgUS8XINVVKwEyuf4C1OlhpAD1csulImsS2tmoQaKZoyA1ykWQaedlUGeCz1P12kWajnWpUPcZmXmWjc3cVg4dNKQcV242SH3S1IyL48vT7j6n2oG++U67HHbICTvtsNcJiztmYfakg2btsTN9UWmoQYYojVPebu+bV1mpY47bGzfe32S88v14H6f2x/fNfQmgOExZIiGSVkl/cOBfHZ7DxwAA");
 
 export default WatchCalculator;

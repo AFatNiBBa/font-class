@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-rook` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-rook?s=sharp-thin chess-rook}
  * @preview ![chess-rook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chess-rook.svg)
  */
-const ChessRook: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M40 32l-8 0 0 8 0 160 0 3.3 2.3 2.3 53.5 53.5L80.9 384l16 0L104 256.4l.2-3.6-2.5-2.5L48 196.7 48 48l64 0 0 48 0 8 8 0 64 0 8 0 0-8 0-48 64 0 0 48 0 8 8 0 64 0 8 0 0-8 0-48 64 0 0 148.7-53.7 53.7-2.5 2.5 .2 3.6L351.1 384l16 0-6.9-124.9 53.5-53.5 2.3-2.3 0-3.3 0-160 0-8-8 0-80 0-8 0 0 8 0 48-48 0 0-48 0-8-8 0-80 0-8 0 0 8 0 48-48 0 0-48 0-8-8 0L40 32zM184 216l0 64 0 8 8 0 64 0 8 0 0-8 0-64c0-22.1-17.9-40-40-40s-40 17.9-40 40zm40-24c13.3 0 24 10.7 24 24l0 56-48 0 0-56c0-13.3 10.7-24 24-24zM48 496l0-20.5L87.1 432l273.7 0L400 475.5l0 20.5L48 496zm-16 0l0 16 16 0 352 0 16 0 0-16 0-26.7L368 416 80 416 32 469.3 32 496z" />
-    </Icon>
-);
+const ChessRook = createIcon("chess-rook", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABiwAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyDFQsGAAE2AiQDCAQgBYMtBzEblgXIHgflpjNL2ijqncbzhE7rfUn2eqWEnQXUIh4j9kRUpTua/trMtQS1k1lVMSJGTuWm8VIBr1etYOdh7R08s2/3xifwdPQ/lwc6WmYTxVmb43xQFIyaIo5H6EhpmOKHrRtUec6FOhTPFPDQ9qb51XwPUihLABkDwH6nnHCU6ZnMJD8NviA/OQKB7AdaQYkSiwTsqRQsUmlRqYSZDAb5P7AlQLr25wpQYRbex5eMUVPoVNUl/WZ4vOkMVyc3nfqMuqlFZCrH5cQ0OSXJnByfkJpI04R4bPqRk+JOzgmZmzRKXYvUAE7iZ2fdN+fJuv7j9nhjvor2uTWnRvbJcPaKDNWiGU6S/TOUfWP5u2Pv/r7Mxax5qWd7vaw04UTdO43p3uM+94R9bdXTO7RnK6UnLGNCpXu3sRnaPKWXJXAqfeSlss9X+zZ2+eR9jX/73vh7395y3NSuttrV1HEfbenDucKE6vWdO4aMa8cs9J8WpIVAnrrt54/+P2d0z/97TQF++fbPX8/XtYPpvFyMngKEcuNgozMzrdXmZQEAFLnZcvFFQeF1HbZvyJMCooZIoatGSguNIZXaBqRjiZ32d9VOUEo1W/SdRaQw5DqktLO7kErfZ0jHnr7zu/opQ5YNOPaPMelgDx7Ur922eWu7e3ubdXFRSMvuPdrH8tqbS9U6rHWxa1ztRhe50GVudPD1jord5CoHK+ggP9TaZrOtWrtrlwuPy092kevd4DLXuLr3sof2fXOtm3XjdRhHAdj+sekyOUV9waUX3XDDpuuvueYKAAA=");
 
 export default ChessRook;

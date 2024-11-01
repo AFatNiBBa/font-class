@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snowplow` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snowplow?s=sharp-regular snowplow}
  * @preview ![snowplow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/snowplow.svg)
  */
-const Snowplow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M136 0L112 0l0 24 0 104-40 0-24 0 0 24 0 156.1C19 328.3 0 361.9 0 400c0 61.9 50.1 112 112 112l256 0c61.9 0 112-50.1 112-112c0-20.4-5.5-39.5-15-56l47 0 0 56 0 9.3 6.2 6.9 80 88 35.5-32.3L560 390.7l0-141.4 73.8-81.1-35.5-32.3-80 88-6.2 6.9 0 9.3 0 56-80 0 0-64 0-24 0-5.4-2.3-4.9-88-184L335.1 0 320 0 136 0zM381.4 208l-161.9 0-56.8-71-2.7-3.4L160 48l144.9 0 76.5 160zM132.5 176l56.8 71 7.2 9 11.5 0 176 0 0 33.1c-5.2-.7-10.6-1.1-16-1.1l-256 0c-5.4 0-10.8 .4-16 1.1L96 176l16 0 20.5 0zM112 336l256 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-256 0c-35.3 0-64-28.7-64-64s28.7-64 64-64zm32 64a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm56 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm104-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm56 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Snowplow = createIcon("snowplow", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABnwAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDGQsGAAE2AiQDCAQgBYMtBy8bmAXIjsK2+THxyMyRR5I1gu91Vv2+ZZdHshdRy4DHjBlwEE5dyhkgz2O792mnmkxEq+jNJjalapdU5v+az+/50QF+o0OpXCdF66iDJ3Cgi6Qu4NnAThQ3Ne+pAQpR17eFLP7Oraqk+5qvcYv70fhRd1eSVCsAoh0A5m3ZsMqnrWmN+Or/t4ivrEBAzAOlQAUV9BJgpopAL5kSmUzQGv//z/4DSwKImvDCBDLkeA7vAzKQ1LNsSbPj0BICRbWZbU6H5DvyIhcixx/6cHxo2HOTmnlnfaHvZT2KCNE5e8zIERFbYnq26JStUmBblxwyVDblRV4mJYrYtNk8u3N0hbi7NOL6PlJoNppPzc91v3foswMbeXp5vscDI14YMu7+wU92u2/QMz2XUaquvmXQv//z7Z7/efr68Neu+aRb8DlqaHb+g77v0farv/Fb/a9t32eMqVpstmaLOZatdTMR5rSX36zFVGvN1U1VJ1vecZK2M+/H8KKpi/W32W1WPPJ73ymL6dLnKl6dnFqnfupp2l14tH37vPCyR6vQ/53XresMpXMkBrsf6dp/HAgEY84XXtrTduZbLxL44f1ai+P9/2k6Pz2PugSCysh/pJ3pUtQWZAXgUIqz9YcKCySPqQP81oa7BQg5AiQ1uQAVPbUTIJMbIUBVH5MEqMltUBFZi9DJrgYkDaeBiskuAplO3gBVM30WqumU9qalbjnqnzF+cRdaJFeOGz22nF7OplX0fUjo9hnlZt3Qs3nZMDjXYac42ZkOOeiYMzvI6VZFz3KSxUvwIgoqjTPaWKXpysO5h9M3O+R0ZzjmFCfbXmYor3cNdfZy7WHQmATU8VKSRKT6t8B/6omnnAMA");
 
 export default Snowplow;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sterling-sign` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sterling-sign?s=sharp-duotone-solid sterling-sign}
  * @preview ![sterling-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sterling-sign.svg)
  */
-const SterlingSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M0 224l0 64 48 0 0-64L0 224zm112 0l0 64 144 0 0-64-144 0z" />
-        <path d="M173.9 96c-34.2 0-61.9 27.7-61.9 61.9L112 344l0 7.6-3.4 6.8L79.8 416 288 416l32 0 0 64-32 0L32 480 0 480l0-32 0-8 0-7.6 3.4-6.8L48 336.4l0-178.5C48 88.4 104.4 32 173.9 32c16 0 31.9 3.1 46.8 9l63.2 25.3 29.7 11.9-23.8 59.4-29.7-11.9-63.2-25.3c-7.3-2.9-15.1-4.4-23-4.4z" />
-    </Icon>
-);
+const SterlingSign = createIcon("sterling-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABbgAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBUwsIAAE2AiQDCgQgBYMtB1Yb+wTIhoeHudD3k9wVgFIAIlfHihyjKjtg3267TQGp6Ru7lD8ff1ogZw8Ae/GDjAU2Z7wCjRek5UkVaSpU0xpY37bEESTYjpAwCWmsdLyukMWs9JgCyYXkE07z/wDGXxo5RqJSCiBqAmDk/NlTvSlFKYlP5afEJ1MQEKNALpAiRVMBhkgFmsrkyGSCUlIuU4pyOSeAKOK3SUERBUzFbEAGEiHJst6VKlUpVMvmVSlUXny1Q8TNhkLUjR5RpYqoXDUK0SDmx0tXhr8ef7ztxGgbPaJdTIqzlUOoEhGVq9CzrW7XvP1Py0/rPrm3/ExNotIzFbX13rd8hBxcFeUTXRZ6rNCr9YyGG3733WHf/eFKVaURkOlhhB47EDpDdRKIx34de/Hp8hpD/q9YJQG/PfvvT+13VC7FiOQ2KkpAkHYpd7Ek9kGMEACAJPZpFSNAINVbAj+1qrMChMoIkCiqLECqiZoCZCrrLEBBc30FKKpstlRklYS6lk6QqGonSPVzFGTqegIKhnjrF9WNNKW4hOB+dMnjJDz2WN6zW498UL7NDT5LGNoPzo/tDvtqryOctc522+yx1hob7RHoLlOjvbYaZyFjfVGup256yA2Su6tXeR76u+y2URf9hwyW3/c62GdPd4TTJIBej3E5JZJI6+3es3bXlo3b1ndNSL1reI40UMRQBAAAAA==");
 
 export default SterlingSign;

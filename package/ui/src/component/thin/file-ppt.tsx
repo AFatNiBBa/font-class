@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-ppt` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-ppt?s=thin file-ppt}
  * @preview ![file-ppt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-ppt.svg)
  */
-const FilePpt: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 496l48 0 0 16-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L204.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 145.9c9 9 14.1 21.2 14.1 33.9L384 304l-16 0 0-124.1c0-1.3-.1-2.6-.2-3.9L248 176c-22.1 0-40-17.9-40-40l0-119.8c-1.3-.2-2.6-.2-3.9-.2L64 16C37.5 16 16 37.5 16 64l0 384c0 26.5 21.5 48 48 48zM361.1 160c-.8-1-1.6-1.9-2.4-2.7L226.7 25.4c-.9-.9-1.8-1.7-2.7-2.4L224 136c0 13.3 10.7 24 24 24l113.1 0zM304 368l32 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-24 0 0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-48 0-80c0-4.4 3.6-8 8-8zm32 80c17.7 0 32-14.3 32-32s-14.3-32-32-32l-24 0 0 64 24 0zM176 368l32 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-24 0 0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-48 0-80c0-4.4 3.6-8 8-8zm32 80c17.7 0 32-14.3 32-32s-14.3-32-32-32l-24 0 0 64 24 0zm208-72c0-4.4 3.6-8 8-8l40 0 40 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-32 0 0 120c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-120-32 0c-4.4 0-8-3.6-8-8z" />
-    </Icon>
-);
+const FilePpt = createIcon("file-ppt", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABpQAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDMgsGAAE2AiQDCAQgBYMtBy8bsQUR1ZobyX4kxsbMnqp4SGG424uh6RdN/BIP/7/2r/vcmU93wjAhfiFmC1hCVl1VRDIgTNmiqgsQye0myvsJSeH/nb0X0c+OW4vL0oBq58U24KFv/q/5/NKODvAbHUq0pUXhGvdGmc8ncDSPtPTtC8zGbToBm7qpRYyIKH1ERHRQV8aOr7Dj2hnK+NIRTaSX1kU8Ue80/tLbvSRFASA6AWDh9s1rffd7/B5x8cZLXLQaAbEI1AIFCvQTYI5CoJ9SjVIp+D1u3MB/YE0A0Yyvl0CJNnyOnwAlSFrKcla7Pp1CQc+qqX25LUHIa6tciRzvv4/7FPHK/2REFY9kazxH5Ii4iwpzPDzPR+Q9do53+9leKV7Kc8OOP99jWwCCeOlWW6pcvZfner/Y7dmhOcSz/XyPiIgXztZHeqZHU3fN8zmHqLap1O17QlU9l2e7VT1H23/wx50+/gdfPHbRjUaj0UnDm5075ztlB/nNR3X75Z57/NLtVp3cKiUu6PzJF50vSOlRjZ8vFXcqLv3cGLlelLmdnNR948kZV+q6FnjM6mWk5gMHmhs29KKB6zs8yIMdwGKaelmg1xvrdQVXljcfGDlSYr1Tu3CLJbJ2ORAIrg4+3nl/xzn/t1YJ/PnFf3/8GbnxXZI+RqsEgmLsjbH2JJAIAECKcwYnCCSfasG32s7zAoSMAEmzLEChr04ClLIxAjQZYKoAzbLNClG2Cd3snSBp5yQoTHMbKHXzGWgi5vhSzbpVYcGi/Yn/j2nLVmRpUj1xfKOeVYtlQzJKPo/PrtXGyHOxbRTt1FgtLlXRuxb6kLK3WTxRwRcBSzGAA49rXzdn1eHUWy1lEg/e94jn3JuSjTDjJCVJIlLrxxKPO3HiDAAAAA==");
 
 export default FilePpt;

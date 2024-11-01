@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `burger-fries` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-fries?s=sharp-thin burger-fries}
  * @preview ![burger-fries](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/burger-fries.svg)
  */
-const BurgerFries: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 4.2l11 4.4 80 32 5 2 0 5.4 0 224-16 0 0-218.6L160 27.8 160 272l-16 0 0-256 0-11.8zM301.8 205.6l-19.7 28.1L317.7 66.2 272 75.4 272 59l54.4-10.9 11.9-2.4-2.5 11.9L305.6 200.2l-3.8 5.4zm66.5-30.2c-6.2 2.3-12.2 4.7-17.8 7.4l17.7-88.4 1.6-7.8 15.7 3.1-1.6 7.8-15.6 77.9zM112 304l144 0 0 16-144 0-9.1 0-4.7-7.8L54.9 240l-35 0L76.8 496 256 496l0 16L64 512 3.6 240 0 224l16.4 0L64 224l48 80zM19 192L.2 97.6l-1.6-7.8 15.7-3.1 1.6 7.8L35.4 192 19 192zm63.2 13.6l-1-1.4L56.1 49.3l-.9-5.8 5.3-2.6L112 15.1l0 17.9L72.8 52.5l29.5 181.9L82.2 205.6zM304 303.8s32-104 160-104s160 104 160 104l0 32 16 0 0 16 0 64 0 16-16 0 0 72 0 8-8 0-304 0-8 0 0-8 0-72-16 0 0-16 0-64 0-16 16 0 0-32zm304 2.7c-.1-.4-.3-.8-.5-1.3c-1-2.4-2.5-6-4.7-10.4c-4.5-8.8-11.7-20.5-22.5-32.2C558.9 239.6 523 215.8 464 215.8s-94.9 23.7-116.2 46.9c-10.8 11.7-18 23.4-22.5 32.2c-2.2 4.4-3.8 7.9-4.7 10.4c-.2 .5-.4 .9-.5 1.3l0 29.3 288 0 0-29.3zM304 415.8l8 0 304 0 8 0 0-64-16 0-288 0-16 0 0 64zm16 16l0 64 288 0 0-64-288 0zm74-168a10 10 0 1 1 -20 0 10 10 0 1 1 20 0zm70-6a10 10 0 1 1 0-20 10 10 0 1 1 0 20zm90 6a10 10 0 1 1 -20 0 10 10 0 1 1 20 0z" />
-    </Icon>
-);
+const BurgerFries = createIcon("burger-fries", false, "data:font/woff2;base64,d09GMgABAAAAAAN8AAoAAAAABywAAAMvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGyEUAsGAAE2AiQDCAQgBYMtBzMbUwYRlZq9yX4kxrYOtkqjILOIM5nrCJbdHRVVXdZ4ExShS/ckmfTvsYxISd4OQUvQAXdAXHHFXbgnaJne6vfOvUdp7SSlS9DgUKU3DYlVVcZlfCQRPv43QMIufJ+4d/5Hi8YEecBpHsoYw743vYvmPE8gDLtsrGUJlrA1Ne/FQQhtt9C8Bpb+mMAHjD3GfcAmZ4zeIJq1MDBN8IAcmAOa6+USbj7pSXRPugxmffQCBKBmAJIQYILfEYcAqMNEQBwWSYCFheAlSV74H5gEAYB88XgGsywgCPgLiob2UDAItKzoUHd8YGhJUgB0u3yMeSRawZ4U7gz3KFwI2ZJ65Nym5MmKZY2qTFKnIhWmcQob3W40pTWcjx6ns13ItiM0IlseudYkTlSEXC7PSA3bnLOSPbLbIxwRI6qGe4Wq7Co5np0+aV+tdKXzu/otek8Ya62s18dytyRCfMkVmrGKJHbQzoidMXszTlZcSjsetTtse9hKexUoUJrusuGatptwRKAk9+h2+86IXZE7wkepuur0yN4pZ52z75J/ZvfZtOPe/IMhNMOHl3B4gp/+mQH3gTu13j1ST/EQDhNxXizxGyhvTnhdZG4QwWcugvq8Kzd7xztsrpOcTlKp8nKRw03UBtGIU1Q4OHlv7dKP+fEakYRMx3lHpKi9WLSgmhBmIe4Stc+GeggehkHWq79w+OEvMQ4OTXH3LvjjX+VPV/vOSYWGABGSMefTqwdf585du/bp0zZDSCieJOILZ/v7NzXBKWryNnn9GE1I6j6lXrnSX3LaffRlcIICXw8AAgTrf3TVNFPdN3+XAcDr9w9vUrPk7XtT3I2zgD8GAAIzz5tnsljp9YJRQAAQNbSUlJEfEmDwlQGPcbNzbVzYUMLAFxsmsTiwsMmFDwmUa2eOGQsTWQGIMKYAwsDNAphUsAwWYVyED3XcivgSJvOE0B/O+svRLKpYJwudOJNMc44HU3LDMa7VrXme7QnfeEkEDsTM3s7F1MTSpSY5KcWvtopjyoXvsoykNJbDq7O3LTUcOTlb9jutbyeP92fCbuPVI9Av4KnMGitgABLumdfTfHpKzH5FCQAAAA==");
 
 export default BurgerFries;

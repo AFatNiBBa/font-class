@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trumpet` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trumpet?s=sharp-solid trumpet}
  * @preview ![trumpet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/trumpet.svg)
  */
-const Trumpet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M512 285.5c38.4 25.4 71.5 63.4 96 98.5l32 0 0-320-32 0c-41.7 59.7-108.4 128-184 128l-24 0 0-32 0-24-48 0 0 24 0 32-40 0 0-32 0-24-48 0 0 24 0 32-40 0 0-32 0-24-48 0 0 24 0 32L48 192l0-16L0 176l0 24 0 48 0 24 48 0 0-16 33.1 0C70.2 274.8 64 296.7 64 320c0 70.7 57.3 128 128 128l96 0c0 0 0 0 .1 0l95.9 0c69 0 125.2-54.6 127.9-122.9c-1-.8-1.9-1.6-2.9-2.3C488.8 307 468.3 296 448 291l0 29c0 29.8-20.4 54.9-48 62l0-126 24 0c8.1 0 16.1 .8 24 2.3c1.3 .2 2.6 .5 3.9 .8c21.1 4.6 41.2 14 60.1 26.5zM352 384l-40 0 0-128 40 0 0 128zM176 258l0 124c-27.6-7.1-48-32.2-48-62s20.4-54.9 48-62zm48-2l40 0 0 128-40 0 0-128z" />
-    </Icon>
-);
+const Trumpet = createIcon("trumpet", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgwAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCYgsGAAE2AiQDCAQgBYMtBy4bYAXIhiA+j6/ql3wlY2RILyTd9gpq/i+nN57fBvx85zwXj4Uj8DmfJzAxOsvbFPbyLMwCSozbm2asY2J0TGZSk3Q82fF2gDz+zk5SQ7o8vYVz9U3ja+2dRNKQAYhmAJi2ZsUiz30QH0S8+f/DxJsWICCmgUogQ4ZOAkyUCXSSq5DLBR/E///Tf2BFAFFLHpRAjlpcjCsBOUjyPN+3oVFDWdM4X13WFDtu7xeBlWVkUcRdE5+aWQRsuQghjCoCXHLKuM31k56epR3PN5fx6pRne5wRZ7S5o7c4rt1FPSPKOLP1xeXN/VYWZVGfaLVwS5sr4viOl/YZUxalKCK639Hsjm+7vbXLW/6//oXDOb1DZarKf5/9fnw7lXaG0nH6on+cZiS2ezfTTaMeNSNnLN0Ktpo6fFjPiPD+5521fe/dWcdop9H9zdJvD167ra9wjtPXcfcefVQ269332i7tHye/AwLBwn3Sa1uaTvy1vkzgoye+/1avTMelO1AvgSAb+P9AG9NxQOwAihSH6B58UCA5W05etZFLBAgFAiS1CgEyHTUTIFcYIECNLkYJUKuwQibyBqGVTQaSRvYHmdGOBrlWHgQ1Jno1r9UqsswU80r8F6bN9uisZdWwwUOr8dWyrkvJxvP8hGrb63tI6esHe+1iX/s4yM52sruDHHOARbWD7W12hM3yRZVhBhuqMl513HrUVmN+gAPtPredLzJBdT/s65B4dD/YTQIMf1MoVUSqO+iAg/feb+eDAAA=");
 
 export default Trumpet;

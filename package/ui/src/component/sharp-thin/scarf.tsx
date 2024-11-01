@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scarf` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scarf?s=sharp-thin scarf}
  * @preview ![scarf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/scarf.svg)
  */
-const Scarf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M171.2 0L176 0 336 0l4.8 0 2.3 4.3 72 136 .9 1.8 0 2 0 64 0 3.7-2.8 2.4-49.4 42.4 56.7 56.7 5.7 5.7 3.5 3.5 5.7 5.7 70.8 70.8 5.7 5.7-11.3 11.3-5.7-5.7L424 339.3 387.3 376l70.8 70.8 5.7 5.7-11.3 11.3-5.7-5.7L376 387.3 339.3 424l70.8 70.8 5.7 5.7-11.3 11.3-5.7-5.7-76.4-76.4L98.4 213.8 96 211.4l0-3.4 0-64 0-2 .9-1.8 72-136L171.2 0zM346.3 261.7l-144-144-2.3-2.3 0-3.3 0-8 0-8 8 0 88 0 8 0 0 16-8 0-76.7 0L352.4 245.1 400 204.3l0-58.3L331.2 16 180.8 16 112 146l0 58.6L324.3 409.3l.2-.2 3.5 3.5L412.7 328l-3.5-3.5-62.8-62.8zM5.9 398.8L120.4 284.3l11.3 11.3L17.2 410.1l-5.7 5.7L.2 404.5l5.7-5.7zm48 48L168.4 332.3l11.3 11.3L65.2 458.1l-5.7 5.7L48.2 452.5l5.7-5.7zm48 48L216.4 380.3l11.3 11.3L113.2 506.1l-5.7 5.7L96.2 500.5l5.7-5.7z" />
-    </Icon>
-);
+const Scarf = createIcon("scarf", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABkAAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiDJAsGAAE2AiQDCAQgBYMtBywboAXIhof/t+v7fW5VPVSPUSOjuwfwRyZlk31EP/xrAcjIUKmc9fxf8/k9v+ajb3RoVcugbuzECaTIDvfmCTwb2EwnYDO3xkAUGcg9jAqbsUbI+Ad7fLtCHq87oSA9nD7C9fah8ZOB7ibJMgDRAwArmru2eOf7+D7iw9aLxIc2ISBWgEogQ4YhAiyWCQyRq5DLBd9Hq5X/AysCiDa4WwI52vEoPgDkICnyfMukrojXiq55o9eX+2tlrW/UI6FCaZ/YHDuib2aU0/SJftGIxUNubBw8/aNZo3sb9cb0olpNlGU9lkVEI8rYHaIetegbzegXO480dzf7xm6PzfovuTx85GM9HvtlxEenPvLY20XxWG/r7hOS5XIjlO6zxiyrrV2r7jH1o0M22rzJd9/qJbNcEj6h3k8V18EoSgcbHumhY8vdd/vfQqvv8EC9ZJEvPxRG2b3bTL/uuv/qNbK8jnZb4zX11kTVPUY0bwcCwafHBvx5uPvifzpqCfz42m8/7T8jrXeS9Bg6JBBkk1uTHUggEQCAFDcbmSCQPKKAd+3iAQFCiQBJm1KAzGA9BMiVJglQGGaOAG1Ku2Qi7xT6ODhA0sVVkJnrFpDr43lQWOzdZJs+kYUuF3jcj2PyWgmt2VXNmDq9Wlg9Npx8NDK8uKh6bR1/cxmYQGedctklNzrphLNuFOQ1WzI3uWitBa/xRZUZppquslC13P4uN0Tymhuc1cX1bRap/IPj3WyPn0COBLQzqekTFKfihuNHr50C");
 
 export default Scarf;

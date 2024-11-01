@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `abacus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/abacus?s=light abacus}
  * @preview ![abacus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/abacus.svg)
  */
-const Abacus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 64c17.7 0 32 14.3 32 32l0 96-96 0 0-32 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-64 64 0zm-96 64l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 32-128 0 0-32 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-64 128 0 0 64zm-160 0l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 32-96 0 0-32 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-64 96 0 0 64zm-128 0l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 32-96 0 0-96c0-17.7 14.3-32 32-32l64 0 0 64zM32 416l0-192 96 0 0 64-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 32-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 64-64 0c-17.7 0-32-14.3-32-32zm128-32l16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-32 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-64 96 0 0 64-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 32-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 64-96 0 0-64zm128-64l16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-64 128 0 0 128-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 64-128 0 0-64 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-32zm160 64l16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-128 96 0 0 192c0 17.7-14.3 32-32 32l-64 0 0-64zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32z" />
-    </Icon>
-);
+const Abacus = createIcon("abacus", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAAB0wAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRCEeQsGAAE2AiQDCAQgBYMtBy0bdgbIjtRG+UVWEg//ryu970szxystaE0oA/GYqIIAmrkLMXeptgsWHc5Jm5PS9VTt+/yfSxfAA/w80H3VrW17HkWRONquWqMAD/P5nTedQNhRCNuNbkOt3Y1QPkLhCHn8EXM0SK+l3/HM9abxn1EeJMkzAFEBYMONe/cYaEc74vcO4ne7EBAbQS2QIcNYAdbIBMbK1cjlgnZ0OtN/YE0A0fQ8TgI5SmIsMQ2Qg6Qrz0eOGzdi0sLpI0aXjZ78hrJRHH9iWMRLRBERZbwy4uXh6MP7irJ4cehLw8qQzywUs3nfiFdK4twUgue6Ilrx+PCX48ayKFNwbaXuxYXly7+o1X4b896hLxbkCY59OCPi05EpXpv52dSe+GT2F2OyeH3W59O6J31eff7/xN+P/a5zT++jPNp7wAG1Sru3t11pad25vqqqebh2r3rxXq13R/gAcgC+N3VA76OP9iaTJww8+gEty2IpxmHwngl+xXTjVVQN97wRbUH3FgIa3nEJ73XAwIv23nPnu/30Fy1Ff/+7A5jcdD8IBN+sP3X2zr411weVCfz74+vAzZ12aqXPMUgCQTanM8dtqQUTOQAvxTWTDD8USDFUl+dVu70sQCgQIGkqBMiMUQmQK8wWoGG8pQI0FfbKRN4lDHU7AUm3iyCzzF0gN9QPoGGNn9ymoZF9JGwVZ/9Rk7ay+JZl9cJ5C+pVtTaHuHpP74Ora2dlxrW5YWZ70DHnnXPFUUecdIUhLtkTXHXWVhN1y3drC82zQG2VOri8KN3AuJdcdlIthE+yWp1eneGauf3MdjcJsKh6ISkbqXnw0MHDVy8DAAAA");
 
 export default Abacus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `drum` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drum?s=sharp-solid drum}
  * @preview ![drum](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/drum.svg)
  */
-const Drum: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M505.1 79.5L484.8 92.3l-47.4 29.8c46.1 18 74.6 46 74.6 85.9l0 32 0 128c0 31.3-27.4 58.8-72 78.7L440 328l0-9.3c-14.3 6.4-30.5 12-48 16.7l0 128c-33 8.9-71.1 14.5-112 16.1l0-128c-7.9 .3-15.9 .5-24 .5s-16.1-.2-24-.5l0 128c-40.9-1.6-79-7.2-112-16.1l0-128c-17.5-4.7-33.7-10.3-48-16.7l0 9.3 0 118.7C27.4 426.8 0 399.3 0 368L0 240l0-32C0 128 114.6 96 256 96c42.7 0 82.9 2.9 118.3 9.2l85-53.5 20.3-12.8 25.6 40.6zM243.2 187.7l66.6-41.9c-17-1.2-35-1.8-53.8-1.8c-68.2 0-125.4 7.9-163.6 22.7C53.6 181.8 48 197.4 48 208c0 .8 2.7 17.2 46 35.9c38.9 16.8 96 28.1 162 28.1s123.1-11.3 162-28.1c43.3-18.7 46-35.1 46-35.9c0-10.6-5.6-26.2-44.4-41.3c-10.6-4.1-22.7-7.7-36-10.7L268.8 228.3l-20.3 12.8-25.6-40.6 20.3-12.8z" />
-    </Icon>
-);
+const Drum = createIcon("drum", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABdwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCEQsGAAE2AiQDCAQgBYMtBysbDAXIhofv7fg693UP4B5JkeEMSsdLR05/bcpImP9rPr+0owP8RocWTaUHEgmUtecTGODZghJ8QFFgM52ATbeZBHZEsU4JCRKJ+Ds8vs6Qx+vZYaVIN9IXONc/NH5Qz2GSchmAqAqAodMmTfROSZREfP7/M+Jz4xEQQ0EhkCFDQwEGyAQayhXI5YKS+P9//g8sCCBKA56Y5PlhlmMHIAdJyvP+LSuUqpRPrVCq/LIWrVv0iW+aCnF7ckTE3RbigxERJ8ufLC8+GhVxv5UQ3zaOiLgz7bsKp0ZOi9bRcf60ydPulz855m7Ny7V45krLT6d8N/5BnWu1E3611V6To0V0itbNHld9/FPTL5Z+4Y91/XH4v0bXb1fYr/OIxtuUM/3qfo2+3K8iZvf7stF+V6eXs40R6LxfoZ1z1+h6a4aOmdzDBMdLrRrWduxzoeHy56/tPFnGjh0/f7bYYp/9LJdX5uTO137tsXG0CY4ZAASCIYOGDpxXZcCvZSsk8P1rv/yEf0X/lyTpMcpKIMg6/N/B7AQSAQBIsVWzBIFkvgTXWtFVAUJ5BEhKKy9ApoGqAuTKay9AKY31FKC08ibJRF5OqGnOBElFG0Cmlz0gV9MTUMoAH1ul1Yws4NhwYf97SaM0NHJV0bVTl6JfsY0JF0N0XexfuNU2W0utLW211DprbbbEYitsVuRGE90t1hhlESN9UaGrTroo9FMcZ6/rp1pio01WWGdtW6a/4r7Zxla7uy0ZCSi7UdITRFK+eOOWNQAAAA==");
 
 export default Drum;

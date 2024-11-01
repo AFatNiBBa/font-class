@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge?s=thin bridge}
  * @preview ![bridge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bridge.svg)
  */
-const Bridge: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M8 32c-4.4 0-8 3.6-8 8s3.6 8 8 8l80 0 0 96L8 144c-4.4 0-8 3.6-8 8s3.6 8 8 8l560 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-80 0 0-96 80 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L8 32zM472 48l0 96-112 0 0-96 112 0zM344 48l0 96-112 0 0-96 112 0zM216 48l0 96-112 0 0-96 112 0zM8 256c-4.4 0-8 3.6-8 8s3.6 8 8 8l24 0c39.8 0 72 32.2 72 72l0 96c0 22.1 17.9 40 40 40l32 0c22.1 0 40-17.9 40-40l0-96c0-39.8 32.2-72 72-72s72 32.2 72 72l0 96c0 22.1 17.9 40 40 40l32 0c22.1 0 40-17.9 40-40l0-96c0-39.8 32.2-72 72-72l24 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-24 0c-48.6 0-88 39.4-88 88l0 96c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-96c0-48.6-39.4-88-88-88s-88 39.4-88 88l0 96c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-96c0-48.6-39.4-88-88-88L8 256z" />
-    </Icon>
-);
+const Bridge = createIcon("bridge", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABmQAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCfwsGAAE2AiQDCAQgBYMtBy0bfAXIjsQ4JvGLKEwiqGyhPXsg6V4MJyQ+AZogI4QIOHIGWDl+OXU5dPwZ8q4/cbnzP39aIJP40fbQB1m+2wv4zwOP3hoTKKAszMIEMXVT+3goSL9RthBqcW7HWXY8O0MevzurIL2QfsZj403jX0PcTZJlAKI3AFYf3Lvdt+1oR/zc+Zz42VYExBpQC2TIMFyAZTKB4XI1crmgHZ1O/Q+sCSBKenYCObrgLXwAOElS5HndTY5qWkWP/ECrqI4+3f+ZAa0QVdiuXvHcoGcHVhHRKmHPU8J1ctW0fffq3pn8wRBx+4BnWq14aNBzpcJLUz+a6Oitp3/gs0nvDxfPj6vi3aERr075cAEdW435sPeH//n5/M+6vNaUZbNLYxfbNAtSfuvVNM21m6+9vTm//Tbfb7D23Lk9G32++ahPrc9H3/Rp9KQZ2o432Dq66v778+SA3bXdAxo5TFlFzxgMBILFC+77+GSvZf93bSXwzzfteLjTTqvSh+gqgSCb1pnmWFoFdUPQMMXNxgQfFEheUtBX7e5ZAUKFAEmpEiAzTG8BcpWpAhRGmi9AqbJXJvJuQn/HTyzp7joss8AtWK6/T7HCMt8Fpf6R5SmXZdxvYvIGBNZvq2fPmFUvqactxqce01eX1sv2pJtpZLLUOu8aV7vROWddciNA19se3+QqGyJwvS+qzTbDLLUl6u3uLB+A8Ho3uOTz+1UsVb/vT3JzPH2yeInSzlFIEpHKbwcAAAA=");
 
 export default Bridge;

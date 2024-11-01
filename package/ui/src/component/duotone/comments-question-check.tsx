@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comments-question-check` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comments-question-check?s=duotone comments-question-check}
  * @preview ![comments-question-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/comments-question-check.svg)
  */
-const CommentsQuestionCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 176c0 38.6 14.7 74.3 39.6 103.4c-3.5 9.4-8.7 17.7-14.2 24.7c-4.8 6.2-9.7 11-13.3 14.3c-1.8 1.6-3.3 2.9-4.3 3.7c-.5 .4-.9 .7-1.1 .8C2.4 326.1 0 331 0 336c0 1.6 .3 3.3 .8 4.9C2.9 347.5 9.1 352 16 352c21.8 0 43.8-5.6 62.1-12.5c9.2-3.5 17.8-7.4 25.2-11.4C134.1 343.3 169.8 352 208 352c114.9 0 208-78.8 208-176S322.9 0 208 0S0 78.8 0 176zm134.7-59.9c0-2.2 .4-4.5 1.2-6.7l.4-1c6.6-18.6 24.2-31.1 44-31.1l48.5 0c29.1 0 52.6 23.6 52.6 52.6c0 18.8-10.1 36.3-26.4 45.6L228 191c-.2 10.9-9.1 19.6-20 19.6c-11 0-20-9-20-20l0-11.2c0-7.2 3.8-13.8 10-17.3L235 140.9c3.9-2.3 6.3-6.4 6.3-10.9c0-7-5.7-12.6-12.6-12.6l-48.5 0c-2.8 0-5.3 1.8-6.3 4.4l-.4 1c-3.7 10.4-15.1 15.9-25.5 12.2c-8.2-2.9-13.3-10.6-13.3-18.8zM234.7 264a26.7 26.7 0 1 1 -53.3 0 26.7 26.7 0 1 1 53.3 0z" />
-        <path d="M136.2 108.4c6.6-18.6 24.2-31.1 44-31.1l48.5 0c29.1 0 52.6 23.6 52.6 52.6c0 18.8-10.1 36.3-26.4 45.6L228 191c-.2 10.9-9.1 19.6-20 19.6c-11 0-20-9-20-20l0-11.2c0-7.2 3.8-13.8 10-17.3L235 140.9c3.9-2.3 6.3-6.4 6.3-10.9c0-7-5.7-12.6-12.6-12.6l-48.5 0c-2.8 0-5.3 1.8-6.3 4.4l-.4 1c-3.7 10.4-15.1 15.9-25.5 12.2s-15.9-15.1-12.2-25.5l.4-1zM181.3 264a26.7 26.7 0 1 1 53.3 0 26.7 26.7 0 1 1 -53.3 0zM432 512c-95.6 0-176.2-54.6-200.5-129C348.9 372.9 448 288.3 448 176c0-5.2-.2-10.4-.6-15.5C555.1 167.1 640 243.2 640 336c0 38.6-14.7 74.3-39.6 103.4c3.5 9.4 8.7 17.7 14.2 24.7c4.8 6.2 9.7 11 13.3 14.3c1.8 1.6 3.3 2.9 4.3 3.7c.5 .4 .9 .7 1.1 .8l.2 .2s0 0 0 0s0 0 0 0c5.6 4.1 7.9 11.3 5.8 17.9c-2.1 6.6-8.3 11.1-15.2 11.1c-21.8 0-43.8-5.6-62.1-12.5c-9.2-3.5-17.8-7.4-25.3-11.4C505.9 503.3 470.2 512 432 512zM566.1 318.1c7.8-7.8 7.8-20.5 0-28.3s-20.5-7.8-28.3 0L472 355.7l-25.9-25.9c-7.8-7.8-20.5-7.8-28.3 0s-7.8 20.5 0 28.3l40 40c7.8 7.8 20.5 7.8 28.3 0l80-80z" />
-    </Icon>
-);
+const CommentsQuestionCheck = createIcon("comments-question-check", true, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAAB1wAAALkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCDeAsIAAE2AiQDCgQgBYMtB2obNAbIHoVxwz1YNAwCpZxowVtBD9n11evuD/gAIBJCzs4ZKaRM8MLz/H7u3DczrwreTCLVOnmSCAnifsVSMitJ4/9/rvn8gA8Pv/j5oXRsmlT9PPN5gzVoYVlq8YD2hjZx2+C8QYfVh5B+BM4UtXMxgFmhLgML/dV6QwZzwRBh8UHxwN8AqX+ws8bxh3podDm4G3SZVoAA1ACAfAiwgAWyEQC1sAjIxpEPcDgED00QHiqYDwQACiW8hwUgFIgArgFvAQAHgMFhnSsSUzYxV3FEhcS4LumGyJ6rSlHaEghwWaiQkNdtjUqzQjVlmfjBSHl+5BW3xtR5VmhZIMAo2Qv60vl6G5GrFW50fOs6Dl5r/9J51g8EGCZRmnV6wO9Z9xb94P7lrhdB399JVfl+L1BbAqGuVht4fuATj9GulH2lZaEDK6d952eH1y7v7Z47HYxD0rtEn7DfYb+2e/bKvfM7/+Uh9yzoePi/Q7uf96kxC+/whOfZiQos09FkW9+hnE+Y4Qurp/pK97kbN87FZ3f//aMZHaFDuXv41znTOdzYIWSznaxGnvY5P+qUBQQAwJRqDVv8wY8tzxfNO3HkyJ079RdYASVraSryt90gfkcmg8zKVF+/MqGrtJlaROZ6rWL5Euf3rBUvHTsdO3ApuR0ABAj+/K236DCu/y08ygDw+OCHL8UPieBxNVvtBMIxAAhsqWApeqkRBP+r2QgAAABgNIUCaiZTQIBlEo7wXaPxEQBEJCAADKFEIgAsWcQjAByRlEQAhJBLZQRAKJF0xCIXgUimdwOGaMaDpQrTwJHMLgihFudCoSSLleWsHGX/MZNWu8jKpHT5ZjvdTc9mVZzEpZ3uXnqzVeyMV1XgVoYwljFMYjCDGM6kDjqB1tHJjKbJEr7xZ/NRnjKUIx81yHe48FDqgkMTmMjwaeF4LzXJd72rGFOWGxeHTkNIWIEVFgsysnl6QG+YBaVhaLSGqWkqsyQYEwAA");
 
 export default CommentsQuestionCheck;

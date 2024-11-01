@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-w` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-w?s=regular circle-w}
  * @preview ![circle-w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-w.svg)
  */
-const CircleW: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM150.9 168.7c-4-12.6-17.5-19.6-30.2-15.5s-19.6 17.5-15.5 30.2l64 200c3.2 9.9 12.4 16.7 22.9 16.7s19.7-6.7 22.9-16.7L256 254.7l41.1 128.6c3.2 9.9 12.4 16.7 22.9 16.7s19.7-6.7 22.9-16.7l64-200c4-12.6-2.9-26.1-15.5-30.2s-26.1 2.9-30.2 15.5L320 297.3 278.9 168.7c-3.2-9.9-12.4-16.7-22.9-16.7s-19.7 6.7-22.9 16.7L192 297.3 150.9 168.7z" />
-    </Icon>
-);
+const CircleW = createIcon("circle-w", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABegAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBgsGAAE2AiQDCAQgBYMtBy8bBQXIhof/X/vXfe7MCwBOmFkBKWQbVuECkv2rklVr39Sp5znPBnyjII2JSwOyAPc6j0AAE8rFp0Wo1itITStg3Z22Yw5Ny7c0RJLj2/GyQx5vxUUl0q30NS7kN40/NXWKpJQBiDoAGLNo3gzvV0RFxFfll8RXpiEgxoBCIEOGFgIMlwm0kCuQywUVUS7Tf2BBAFGJfGICOUpYi32AHCRZnjdv3r56qWa+sHqp2rIzQyLe6PPUsd5PBr9e7fTQN/s+i+P9ng97q3r6bVbEd+M+iuNjP5z57cKfp389+n3Hxnww45sFS2+3v9t0QVzr8KDxosDFOx3vN5kfC+N6x7sNwo22j+s8/rvN1xu/Vr4w5E/+eP/JoEFP3v/jzyEmQNvfT3CRS8NajBvXYtilixNwEOc2Lzw1fvL4UZ9ZpSCdj2KVbuhR4RRw+hwEgs/aXW68qvbw/6pUT+D3N//9H/2Kyu8n6TGqSCDIupe7W55AIgAAKQ5qmyCQLJWRV63hugChGgIklVQTINNcHQFy1XQToKSVAQJUUs08mcirCg2sqCCpYQ/IDHQY5Bp4DkqG+8yspEFkvsZ5CvfSS55ooQlTRZ+evYuhxTSgvPswaTis2FY6H4yFLrBpo1122m+D9bbYb8i9ZjgH7DBxBU/wRYU+euqtMFRxHN+vL7TBXvtssctOHjNMcd/o7OC6vgvoiVD25UoSkap8yVF7HAIAAA==");
 
 export default CircleW;

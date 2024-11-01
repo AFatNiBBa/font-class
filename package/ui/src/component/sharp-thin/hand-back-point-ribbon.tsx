@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-back-point-ribbon` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-point-ribbon?s=sharp-thin hand-back-point-ribbon}
  * @preview ![hand-back-point-ribbon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand-back-point-ribbon.svg)
  */
-const HandBackPointRibbon: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M112 0l-8 0 0 8 0 56L32 64 15.4 64 25.8 77l28 35-28 35L15.4 160 32 160l72 0 0 72 0 8 0 7.4L34.8 305.9 32 308.3l0 3.7 0 53.7c0 48.8 26.2 93.9 68.5 118.1l18 10.3C139.1 505.8 162.3 512 186 512l142 0c57.4 0 104-46.6 104-104l0-16 0-88 0-48 0-8-8 0-56 0 0-24 0-8-8 0-64 0 0-24 0-8-8 0-80 0 0-24 0-16 0-64 0-16 0-56 0-8-8 0L112 0zm80 64l-72 0 0-48 72 0 0 48zm0 16l0 64L48.6 144l21.6-27 4-5-4-5L48.6 80 192 80zm0 80l0 32 0 8 8 0 80 0 0 24 0 8 8 0 64 0 0 24 0 8 8 0 56 0 0 40 0 88 0 16c0 48.6-39.4 88-88 88l-142 0c-20.9 0-41.4-5.4-59.5-15.8l-18-10.3C71.1 448.5 48 408.8 48 365.7l0-50 56-47.4 0 75.7 0 8 16 0 0-8 0-89.2 0-3.7 0-11.1 0-8 0-72 72 0z" />
-    </Icon>
-);
+const HandBackPointRibbon = createIcon("hand-back-point-ribbon", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABkQAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniDGwsGAAE2AiQDCAQgBYMtBz0bqAXIjsM4hryUJYYStDLEK56nt+Pr3Nfvq3vQI/fQSzozsnXlADMH4Trd2lCw3N3bb8Fz9nkUUNiWeFsUWWZ58yIKmgfN/+X0xvOjA1zkhzbWyNfAaA9OINHvX6j4XpRlASXGWZvjFVEQ5TYROcK+sobNH7Yg1DztAiOUJ8vX4NFaqfzMuouiaQCkB8C+Jx9/pE9/oB+Sr/4fkK9kBLIvGASNABYK2EMjGEI1oKrCD/n/l/9AhQAZhTcooGIUr+MdQAVFrfX4ial7dyOT60ndSHt627UibTsrG7MhM9N1InJCZkbktrXP7boyz3Vd3ln/wpLgats6ZZoNbZdguyDarM+czM66dIS3J/0P5Jk1z+7Q5oFVq/L8/KeSHB2RLgB0y57vn//FrbLQPmE8yi4Omfai173uRdMOScaNOWA3S1U7Wbl4cZnnxxXdq99s0zvFFuPGd5nr8H2QY4Z7++jtQu6th4C9xSG29Ps0HsVhdgj1wzx6jIp4UXn0WruscYpeve++2DG8Ms+nfz0NbnWEcb1xp6o64w5xCBCE5u0Nn5wte/zKpoCf3r+nPU/+n/RqeR7jCgjNhv89zsinRJ9XBQBQcpNlygcFxfMqVHWSxwREi4BiVCugsUAvoGqtFzBisR0FjGodr5E6IWY6c1DFJNdSjZ3cTFUzvUGN2MNnzVEz01itaHPiT2PaQYwfeG/YumnLsNtwOtYlQ+Tz+e7DbW/NTXFtrQBd5GpXucGFLnCpG4i8zpGdG13pII040BcNttpki8FuhuXZR+0kal7nepfOlfVbdjd8X1vjJn33WgkLcG4zUhRSZhu5vnEzGxs39fDG6+p55119FQAAAA==");
 
 export default HandBackPointRibbon;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `uikit` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/uikit?s=brands uikit}
  * @preview ![uikit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/uikit.svg)
  */
-const Uikit: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M443.9 128v256L218 512 0 384V169.7l87.6 45.1v117l133.5 75.5 135.8-75.5v-151l-101.1-57.6 87.6-53.1L443.9 128zM308.6 49.1L223.8 0l-88.6 54.8 86 47.3 87.4-53z" />
-    </Icon>
-);
+const Uikit = createIcon("uikit", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABTwAAAHeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBFwsGAAE2AiQDCAQgBYMtBywbkwTIngU5mWuKShWFBzs/+9j6Ds4iovq9rWffXgrlj6ApFJoshEFF6TEiWDT6w/O1pu/vQZIy7pwqAChABUyOwFaxcGfryo41uSjXhhByatchte/7pr/52jiPAnwg0lhUODYukGjO8wQ6z7u886KAssAy/QL296YxxbJWZzLRJPmTHV8HdG5yxkJ91he85JfmT7wjKNYAQI4A8NTd3saLX/yRr0nkSwsIyDPgksCAAScC3DIInJg0NJPgW/6n8B+oEUDmlFMLaGi4gjuABopqM34VaAWbXbQTMK0M1SFdItIpoNwtoqBusauLhA65znFx52vqy30t+Nnlb5dvurPY5KiZ02YumCinq0ickzry6o09JXTm0F0EEAheYy8cDq369wYqwO9d41/R9CIP5cKSAoJxPWUZkBfoPBAAgMoWTl4gUBwKPXXrHAEiAAIUWwABhkRhBGgBMgkwk6KYAHMB2jFI+xBRBjtQgqwCQ4ltYIpyCyxVXl1bVAyfoV6c+rLF12u0bknn5+TpCj2NNNoNiDSt1MtS2laspMMuUyyzxAaTTDDLhsLXaAs2WaTewur4EC1fjjxaBb2dPm53Mcka68yyzBLPqaTP62m27PZ0WEcB3Nw2pEIpa3N2fnYD");
 
 export default Uikit;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reply-clock` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reply-clock?s=duotone reply-clock}
  * @preview ![reply-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/reply-clock.svg)
  */
-const ReplyClock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 240c0 9.1 3.9 17.7 10.6 23.8l160 144c9.4 8.5 22.9 10.6 34.4 5.4s19-16.6 19-29.2l0-64 96 0c53 0 96 43 96 96c0 30.4-12.8 47.9-22.2 56.7c-5.5 5.1-9.8 12-9.8 19.5c0 10.9 8.8 19.7 19.7 19.7c2.8 0 5.6-.6 8.1-1.9C430.5 499.9 512 449.3 512 336c0-5.6-.3-11.2-.8-16.6c-5 .4-10.1 .6-15.2 .6c-91.8 0-167.2-70.3-175.3-160L224 160l0-64c0-12.6-7.4-24.1-19-29.2s-25-3-34.4 5.4l-160 144C3.9 222.3 0 230.9 0 240z" />
-        <path d="M496 288A144 144 0 1 0 496 0a144 144 0 1 0 0 288zM512 80l0 48 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const ReplyClock = createIcon("reply-clock", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABiwAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCFQsIAAE2AiQDCgQgBYMtB1IbOQXIhofvbb6e+95Klldm2G9gqgAhxNQBQQdcZVJq0hLUmv9rPr/nRwXy+QgOLapA7pZgmc8nMPDRMBJsGCUwnaHtbUMaDkk8jRCRiojGyxqnHRRpbL5RjfRY+hb38P8Axq8GupGkcwYQPQCwfMeWdT5vRSvFt+23iW+tRUCsAJVARsYQARbJAkMUKhQKQSu127Si3a4IIOr42jOoo4YzcTGgAEkSRTG4z+xmrWuxvVkrj9yxMOKjqa/FdVNeXfBhefu89ye97NrJr8z/oLlDaMZDfR/sU8bD/SIe6a9rxbV9t8VDY58bHNGMd8a/MPTRPg/SxR4bfUf/Rya+NPW1kdf1e7D8af3328uIeHzMs322xoNGvNjjxd87vj3+rT+fGZtI0zvGjOmYntLYXKNB9x+mSXWl1a1ba1rBl+nW+mQ/dnvhmXv8NnZAXuaga198sVE/86zjt5Q9exbTHzz/glmrOjUaBxuro9mlvuqQZfKAsb89c48XugGB4OfLn+51oPui/xvNBH758M9/8Xztz9O16UU0JBDkSe1J9qZrAYgB/KgUFxuRro2DCGSzJfKqXTwsQCgRIKkrBcgG6yFAoTRRgJphZgtQV9oii6Kz0Mc+BUkX54FsjqtAoY+3QM0iX2R1fSLHHBMxzJcvcY2FVi+qpk+ZVi2oujWVDSOKZhdW0+a4i7FnPKx03DnOdqFjjjrlQoOcb13xImdZM4JX+6LKdFNMU1mgWm7uxe0pON8FSLX59XkWqvan41w8Hj4enERIZ1iSZSJF7v165cmXVJ18fPv6ev6kAg==");
 
 export default ReplyClock;

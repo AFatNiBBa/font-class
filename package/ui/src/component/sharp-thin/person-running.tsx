@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-running` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-running?s=sharp-thin person-running}
  * @preview ![person-running](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-running.svg)
  */
-const PersonRunning: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M291.4 270.3l-15.1-30.1-9.7-19.3L258.8 241l-22.2 57.1L305 340.9l20.4 12.8-6.6 23.2-32 112L280.1 512l-49.9 0-16.6 0 4.6-16 7.1-24.8 25.4-88.8-86.2-53.9c-25.1-15.7-36.1-46.5-26.8-74.5l26-78 5.3-16-16.9 0-10.8 0-38.6 38.6L91.3 209.9 80 221.3 68.7 209.9 46.1 187.3 34.7 176l11.3-11.3 11.3-11.3 48-48 9.4-9.4L128 96l64 0 6.2 0 5.7 2.3 80 32 11.3 4.5 5.4 10.9L339.8 224l44.2 0 16 0 16 0 0 16 0 32 0 16-16 0-16 0-64 0-19.8 0-8.8-17.7zm5.1 84.1l-68.3-42.7-11.2-7 4.8-12.3 30-77.3 13.1-33.6L281 213.7l24.7 49.4 4.4 8.8 9.9 0 64 0 16 0 0-32-16 0-44.2 0-9.9 0-4.4-8.8-39.2-78.3-2.7-5.4-5.6-2.3-80-32-2.9-1.1-3.1 0-64 0-6.6 0-4.7 4.7-48 48L57.4 176 80 198.6l11.3-11.3 38.6-38.6 4.7-4.7 6.6 0 27.7 0 22.2 0-7 21.1-31.3 94c-7 21 1.3 44.1 20.1 55.9l86.2 53.9 10.2 6.4L266 386.8l-25.4 88.8L234.8 496l33.3 0 3.3-11.6 32-112 3.3-11.6-10.2-6.4zM304 48a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM272 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM97.6 352l13.7-37.2c2.9 6.2 6.4 12.1 10.6 17.6l-9.2 25.2L108.8 368l-11.2 0L16 368l0 32 115.2 0 16.3-44.4s0 0 0 0l13.9 8.7-19 51.7L16 416 0 416l0-16 0-32 0-16 16 0 81.6 0z" />
-    </Icon>
-);
+const PersonRunning = createIcon("person-running", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABvQAAALqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCEKQsGAAE2AiQDCAQgBYMtBzUbLgbIjpMlZn6Jhw9d2vuS1k6kwMaECjGtnQOiDokrd4fTA1B19VYt8cQ1zz/t6T0SX/yRfpGFZcPO8wlM8OcZVDwb2EwnYFudG/ABOb6ZMF9AFg86QYXk/uQz3Op/aPyl01Uk0hRAVAGwdmD/TkPfx/cRn9YRn9qOgFgLSoEUKXoEWCEV6JEpkckE30e9Lv4DSwKIBuGjE5ChEf8RjYAMJCpZtn9v88jxRWVkVisq+fFdnV1d0RFz4mBMJMYDgUKet0d3DEQtnul6oBsb2wfBFdESBdtiGjW2Y+NqLCiK1jgYKpkqCkGIPO86WFOtEA1Ef3TG3AgWRYwG26K2U5Ol8rwlzrNPPUd1b+qu1rtbTzO3vAEtQnXzLm2HX94WcU9+Q8tdLmu9u7ix/d6Y9XTn/R33Tfia+MHJg/09/Xe3dsiO0Z7g7Lg8CrbGnK45QoVi3AvVF/4Z+9lJnxn3+j/hC65wvkHrp1mhpv9sJ5lXXe0UnYMOLrDi+ONP7NxptzFFzQde8IKTslu8qO4+IzfttbvfUw4zaacZZVWpqnrC5ZX9G6Y6ez1jh94dhtRdZol8T6m6aInJO7Xad89SunmBug+c5EUn2qBh3gn6jrR791GfH1zobtN1DNpvrOn6z7bMM41zR13HdaNIhcivP/bru+/++hgOvHx0f+ktA9dbqthXOl8BPjTeJdX3nQ8Egp+Wt3xz9OgV/w8rEvDjB//9VfyM1IfiseQFDJOAIJ1Rn+GIGEIZjwkAQBIXGRdDCCR+U0HedYR7BAg5AiQa5AKkulUFyOSmC1DRZ6EADXL7pSIbLrQ4smETI5zLpha5mM20eJOtWOHDdIOWSIFfA7qaf8+Mm7rAxlnl3FlzymXlbEWlhWeVM7m83OyccpHsmIrnOsnZznKBE53gVBd08PPszF3oTJuWsI2+qDTXLHOUlikP1x8aa5Q8z/lOtZ91fJrlyuujU1y03H8q9iRCyXkKEgmRjLIr1plWAw==");
 
 export default PersonRunning;

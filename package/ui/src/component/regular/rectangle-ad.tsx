@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-ad` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-ad?s=regular rectangle-ad}
  * @preview ![rectangle-ad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/rectangle-ad.svg)
  */
-const RectangleAd: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l448 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm229.5 77.3l72 144c5.9 11.9 1.1 26.3-10.7 32.2s-26.3 1.1-32.2-10.7L253.2 328l-90.3 0-5.4 10.7c-5.9 11.9-20.3 16.7-32.2 10.7s-16.7-20.3-10.7-32.2l72-144c4.1-8.1 12.4-13.3 21.5-13.3s17.4 5.1 21.5 13.3zM208 237.7L186.8 280l42.3 0L208 237.7zM392 256a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm24-43.9l0-28.1c0-13.3 10.7-24 24-24s24 10.7 24 24l0 96 0 48c0 13.3-10.7 24-24 24c-6.6 0-12.6-2.7-17-7c-9.4 4.5-19.9 7-31 7c-39.8 0-72-32.2-72-72s32.2-72 72-72c8.4 0 16.5 1.4 24 4.1z" />
-    </Icon>
-);
+const RectangleAd = createIcon("rectangle-ad", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABiQAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCKwsGAAE2AiQDCAQgBYMtBzMbLgXIHoVx41MumtiORU2LrBA/XPHw/3Psvv+3YdrwDEmTh6yliWYICZJ5CVQ6pexQtVHnPz/uPfdjAN8AqS2JTGvOlNntiRRlnK1i0LKshCTKpr/55+VRgMtyH8vqfGMb30VznifQeSDFf0yyD/ZB7bN+c2vMgxMVRJ8iI2qY9A9ij18nKOI1zsEnXdt7cFY/NL4oaweSMgMgegEAq1sxYbj8ijrirjmG+BACAmIVwDhCRsYwAgu4AsN4xkGhENTUNPwPZBBAVGi/KoECrTgGpwAoQFIVPClWEhRW83xxXrwoXyRlSI5DwyROo4lLI1HMd9KEaFPFaXmsZw6N9bUiRitzg7lxcfFx47pLrEAiJGfG2ook0KjvpFhTC1NRMt9LSuN1VSaaBSFudTmDxFXpiEPu7huTa1M7SXsjbNyJ+/x7eOx8SaxAon6HcCMiDfQ96dCctLSIJyjQ+g8N6O2kXPGfT0Yo2H4A1wJAabdkqbxnUI4aI+hNOkpePirJLWpCDyMTlgiK5D9If9nYSEiA/CX+CgDHdSc7YxlH0vW1inIAnxd//+Tu5iutcDYArRII8tQ3lZo8AUglwE5RD21jS4Fk26t8p9MFCIR2BEgq7RPLhkhhhXaTWGmUHb0IrOGKQhhQB6UFLOm0h2Xz2rDCoEOstODKrgwG1/tY32F//pL8NeS3xqzMLZkzu4wNzqHoMndhy4phfawZyS7yVShXK0+uIrUKrRbm1SnjbyF+voixYs4S44xtZx+leNjVahSdC/tLXLDnVUP1dreRbMEBTH83Oh5FEqvOy6nNKi8ozTPLygUAAA==");
 
 export default RectangleAd;

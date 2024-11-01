@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sun-haze` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-haze?s=duotone sun-haze}
  * @preview ![sun-haze](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sun-haze.svg)
  */
-const SunHaze: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 156.6c0 3.2 1 6.4 2.8 9.1L129.1 256l62.9 0c0-70.7 57.3-128 128-128s128 57.3 128 128l62.9 0 62.3-90.3c1.9-2.7 2.8-5.9 2.8-9.1c0-2.1-.4-4.2-1.2-6.1c-2.1-5-6.6-8.6-11.9-9.6L455 121 435.1 13.1c-1-5.3-4.6-9.8-9.6-11.9c-2-.8-4-1.2-6.1-1.2c-3.2 0-6.4 1-9.1 2.8L320 65.1 229.7 2.8c-4.5-3.1-10.2-3.7-15.2-1.6s-8.6 6.6-9.6 11.9L185 121 77.1 140.9c-5.3 1-9.8 4.6-11.9 9.6c-.8 2-1.2 4.1-1.2 6.1zM224 256l192 0c0-53-43-96-96-96s-96 43-96 96z" />
-        <path d="M640 312c0-13.3-10.7-24-24-24l-112 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24zm-208 0c0-13.3-10.7-24-24-24L88 288c-13.3 0-24 10.7-24 24s10.7 24 24 24l320 0c13.3 0 24-10.7 24-24zm144 88c0-13.3-10.7-24-24-24L24 376c-13.3 0-24 10.7-24 24s10.7 24 24 24l528 0c13.3 0 24-10.7 24-24zM88 464c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L88 464zm208 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l320 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-320 0z" />
-    </Icon>
-);
+const SunHaze = createIcon("sun-haze", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABnQAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCVAsIAAE2AiQDCgQgBYMtB0wbcgXILg7sxq9dJRMY9q1+heKUKR7+f+4/97lJPiRvkDNMUCS0HVV2wEISq67ql8y9/wlc/F4VJokAeD//19QLjwL8fCl2KNfLsKZIwMznE5jY3jBLZGCzmeIWt10FEQ1thMge8jQyu11BeiZ9jYfC/wDG3/q4naQ9AxCdAbB459b1Pv0hfkjxdfM88bV1CIgloBbIkKG/APNkAv3lauRywQ+pOT9E85oAokV4WwZa0I478RQgB0kh5XmH5IxGY2qjKjrkO6qivOjZZbze+5nhVbzVrxygDbgDtB3tCHfyH9pWGVZW2skz995se1Tx2sJPVja/wVXsjKfilp5P9twRO+LJOlve232bDHV/HBPb4vF7ba/K6sUx7844P+rt/kPe7fzuv4Od4Ka7bL7Y5h7C+T2HF5k4+NDOGu5s4vjvCw9oGP7ecWqThUOKofN3W6iYtnTTpqXTioWGmw0t8jTjkrPddDur19E6L6bsni/LXH7ksl5TbbH2kpkpe+mIJNf27rulZYA46dm7nnSw07z/VQn89P7/1ZdrSjend9EmgSAb1xxnX7oZBDeAYoorDdn5qkUCmYUKyac2PClAKBEgaVEKkOmnswC50lgBCgNNF6BFaatM5O1Cd/t7kDRcAjIz3ABy3b0HCvN8VmjRPTKYNCHK/CPMtWKMLl9WT54wqZ5Tb9a1Fpjpdn5ufTo06krZNxqvdcJFLnS544457fIRe6n15StcYMUevtwP1SabYJLaHPXt1vPVOxx3qcucdpEL/SJz1e8nRrlyf/RoHE0SxSkOyWREiqzzZVdcOP7U4WuPjwfuQNeJ4ysGAAAA");
 
 export default SunHaze;

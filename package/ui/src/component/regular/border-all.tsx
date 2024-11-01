@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-all` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-all?s=regular border-all}
  * @preview ![border-all](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/border-all.svg)
  */
-const BorderAll: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 80c8.8 0 16 7.2 16 16l0 136-152 0 0-152 136 0zm16 200l0 136c0 8.8-7.2 16-16 16l-136 0 0-152 152 0zM200 232L48 232 48 96c0-8.8 7.2-16 16-16l136 0 0 152zM48 280l152 0 0 152L64 432c-8.8 0-16-7.2-16-16l0-136zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32z" />
-    </Icon>
-);
+const BorderAll = createIcon("border-all", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABaAAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBVQsGAAE2AiQDCAQgBYMtBzEb1gTIjtRG+YqFxMPzc32e+5JPyTJkiUgBkyMYtwRFknVV44pGICmQk2a10f9zuef3/OgAPx3hoY1pc+ptwDWazxOI8+l5z8M0sEwTsN42VNARhC8KJCpEGtPf6AF5vBL3NZFepG9wr35o/KG3WyRNGYDoBIBFm9evU/82vo34uhHxtTUIiEWgEsiQoZ8Ac2UC/eQq5HLBt9Fo8H9gRQDRTN8ggRwtWIeNgBwkTXlelGXZp2xqn28qm4rDT7qLIiLKjcLjbsPaVJRUetazDBtELLeve9ojNr87MuLDXilejPpoWPv4YMwnfbN4Ofrj4e0Gf9zp478GfeMbV09/26HmuedqHT+v1WodvjX4zyc8f/68RnzG0XM1rpsd/3+zM52LhYrOnd9cCCv4PAgEt/v9/O6Oc/9tLRP4/rN//tN+RY1vo54+RqsEgmxsY6wdUYeoCwBAiksGRx2BZJkm6rXzNJqFAoKkWQGZvjpBrjAGmgwwjXSeXy8TeZvQzU6ApJ2zkJnuMuS6+RSazPV53KxbZClFJwT9o0tYbpFlx6pJ4ydWs6ttpTNZQpb9OZVbGnlJJqPgrkNOO+WCgw446oLBzlmXXXTS8hO6zBdVJhlvospsVbh9FjZRfM55R9dc/JA5qvveSJfOq0eBmijhZCcmiUjFa5O998QJAA==");
 
 export default BorderAll;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-sort-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-sort-down?s=solid circle-sort-down}
  * @preview ![circle-sort-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/circle-sort-down.svg)
  */
-const CircleSortDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM267.3 411.3c-6.2 6.2-16.4 6.2-22.6 0l-96-96c-4.6-4.6-5.9-11.5-3.5-17.4s8.3-9.9 14.8-9.9l192 0c6.5 0 12.3 3.9 14.8 9.9s1.1 12.9-3.5 17.4l-96 96zm0-310.6l96 96c4.6 4.6 5.9 11.5 3.5 17.4s-8.3 9.9-14.8 9.9l-192 0c-6.5 0-12.3-3.9-14.8-9.9s-1.1-12.9 3.5-17.4l96-96c6.2-6.2 16.4-6.2 22.6 0zM313.4 192L256 134.6 198.6 192l114.7 0z" />
-    </Icon>
-);
+const CircleSortDown = createIcon("circle-sort-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbgAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBWgsGAAE2AiQDCAQgBYMtBzcb4QTIhof/3+9/P9c+BxE/kFyl0UQkJHgVMUuQ36D6/97u/F/u+T2/DfiNDm1MWxNkAe71/AQSG54nlAWWaQIWS7uzLXGI9kkaZSTHNzkuHpDHvWyvCqRL6T1OxDeNb5rYS1IlAxC1ATBszoxJHpdHecS70g3inQkIiGGgEMiQobkAA2UCzeUK5HJBeZRK9jewIICoiP7SBHJUxEQsBOQgyfO8We26lapVqJHPrlah6oovwyOeTv5Y9fDE90Mfz/w87MmkD9WOTPk04tmcmWcbzo7zjS40qhZHGpyrPzObNXvWufpn61eNww3PN5oTFxrMmj5t+tSo1qasdtmP1u9Xv1d6ZFQVmlx7MmLEk2tNqhhlVBV2++/LV68uWWJ1u7EnH6s6rt1qo/VegqVaNOB0mn8Qcds9FQguX9nWa0mtgf9UrpbA17u//pe+RaXHSSpDZQkEWcdSRwsTSAQAIMVubRIEkpFy8KrVnRcgVEWApKKqAmSaqS1ArqoOAlTQUi8BKqpqhkzkVYT6FhWQVLcNZHrbA3L1XQMVDPQqrKh+ZFrF6gT7pksazaFRl4punbsW/YtuIXOKQvvjgGJaabvbDdrBXattsdlOq6y0zk5Gbjcp2WWT0RI8ygcVuumsq0J/xXJ9e322VbbbYZ0tNoczAxT7g7Z2y/PtQE+IsrtUkohU+/ON3Om2yZ1OGwAA");
 
 export default CircleSortDown;

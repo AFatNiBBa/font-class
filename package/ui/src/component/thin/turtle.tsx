@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turtle` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turtle?s=thin turtle}
  * @preview ![turtle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/turtle.svg)
  */
-const Turtle: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M208 48C119.6 48 48 119.6 48 208l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56c0-97.2 78.8-176 176-176s176 78.8 176 176l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56c0-88.4-71.6-160-160-160zM416 200c0-39.8 32.2-72 72-72c48.6 0 88 39.4 88 88l0 16c0 30.9-25.1 56-56 56l-34.2 0-1 3c-18.5 55.5-70.5 93-129 93L336 384l0 56c0 22.1-17.9 40-40 40l-16 0c-22.1 0-40-17.9-40-40l0-56-64 0 0 56c0 22.1-17.9 40-40 40l-16 0c-22.1 0-40-17.9-40-40l0-56-40 0c-22.1 0-40-17.9-40-40s17.9-40 40-40l328 0c26.5 0 48-21.5 48-48l0-56zM240 368l16 0 0 16 0 32 0 24c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-24 0-32 0-16 16 0 19.7 0c51.7 0 97.5-33.1 113.8-82.1l2.8-8.5c1.1-3.3 4.1-5.5 7.6-5.5l40 0c22.1 0 40-17.9 40-40l0-16c0-39.8-32.2-72-72-72c-30.9 0-56 25.1-56 56l0 56c0 35.3-28.7 64-64 64l-48 0-64 0-96 0-64 0-56 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0 16 0 0 16 0 32 0 24c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-24 0-32 0-16 16 0 64 0zM496 192a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Turtle = createIcon("turtle", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABswAAAKuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDXwsGAAE2AiQDCAQgBYMtBy0b3AXIjpQuZyTB8/869b4v2U6kgHxCpHIQisQbEToFBBWQp651OoTo/8/l9MayowP8dlvxwFab0gUyJvWOmut5Aj1fG8e0KKEwS6yEsNW5ER2Q4ivcT0CXl/TGBWqVcoAF/ovKT2KYCgpNAwBALAAAoEa7Vk04/07eiTj+IyAOjQABkJoA2AigARoQjwBQGQ0B4tGxAR0dgXfi94v/QBsEAMRNeJ0CQAfcwF3gDQyfCApd10s1bBFouoL1tqbL6PSossjp1sjS8OWRIk9bPWz3uMX9Nt0HPKl6tm2bNWkixeWOpOxKQFaGLy1tSLisLX883xBkYhcxNM6OXC4iVpE6KWqFGSw7hC1OWpuGiUSqVWVM2REnkmWax9KKk6JkDWHuI6tTfWW3hi+NRlYm7yxtBG2N3lr0UKDXsogv3r4iqqTP8v3O6etwd0EtccCRWuVxd+/uLo80tGKdeSR3Db9eLcepJXdXhORB3rvqM2fqFp6//4eXRPE9Ofp8OOXxniz2WniLT3rLU73rSy4Mb0Z9sl/d1srv22GFqdhEE9GCMC0iGJtfaYV3//z5cjTh7mTw+bAIyct7N/z/X095DK93Y3Z0i4iIFsmHMqrteyfkXcIHALlur3fouG6hlf8FmAqADyf/Drnb/05VVz4gAAWAgJbuT6ezqg4gpAIAUSVjKbnwRgIorqEThoNYfjQuGNCAwo0BGnFYoGOQBi4SKTA2rm6FhuiBCOF0waAIYgRoFDIOdMI5BC4qcy3iJlw0uLag0vqtzFO3i9cZZOdkZtsV7dmcygGqhu2tZG/2J4+VNSl4J30ZxlBG04feDGB0hxtJk/gYhlB3ia3DB7HJIZNsbCpiHy4+9LSlkZGMYsC063g/lbCvDyczdrl5Ch6OAgByIQJRdlHu0WNGjh7cBw==");
 
 export default Turtle;

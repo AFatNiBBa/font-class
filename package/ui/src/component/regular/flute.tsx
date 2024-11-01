@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flute` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flute?s=regular flute}
  * @preview ![flute](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/flute.svg)
  */
-const Flute: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 304l432 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-432 0 0 96zm-48 0l0-96-32 0c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l32 0zM64 160l32 0 24 0 24 0 432 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-432 0-24 0-24 0-32 0c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64zm256 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm72 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm120-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Flute = createIcon("flute", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcwAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBagsGAAE2AiQDCAQgBYMtBywb5gTIrgpsY1ToDzfRGOpIKekoUnmSH2IWr/Hw//v92uc+WfAET6IVkiY8FNFII4lPJrQxy6IpUcpfUydE9XvW2p8TsTQnoohJErNEoy8hmiTvNFrikaBuMqt+IIWH+QPuAF1SsyYULHgG6ILP/zX1ouzoAD+fa8fCBhKJo0xMgT1P25s3QRTYgCbG253t2cNmjyS0siT9tOO1hzx+uyAnvQ3AY/7Q+AW3cyApMgDRBwDY+GMD+FqH4kH8hHhAHwiIDcAkQoYMowgskwqMkpkEuVzQ8V/E/0CGAKIkj5ZAji4cgWMAOUjKPG/bYbW6uy7a/LAuqqO2aV/PoFejIVWIKl409LLXk3XV+2F/caM363Og0Xw8Xz1B7++38MGd+03go+d94kgi50htnn42ff3xWkEQkk0b1hk6L5h7cxJm9Js5gSdxae7XNNPkkcsXnCd2jdjtI5HqckoQPXXq3wEQCH4sGDePjct/Km0CP/v9Lxem+wy6JBBks2LCVO4BZBOQSPGIz1hgINlyU9faeAUCoUKApFQJkBlhQiBXmUGgMK6IQKmyRyrybmHIdANJ4wpklpyB3JB3UFj2HS8NldS7JN+Q/nbpnSPaMY+zqQzXeFpUZYcRwnAdL/uRE9UUhZ1YsWvHkWVL1h0NzIGB1LFtnRbd4YtYVkoGq+Htynr7pGUHDq3btUOz1OHzsYgTu3MUFiMBzL0LlAoiFSenx0fLAAA=");
 
 export default Flute;

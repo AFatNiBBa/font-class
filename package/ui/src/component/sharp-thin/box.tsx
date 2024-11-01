@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box?s=sharp-thin box}
  * @preview ![box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/box.svg)
  */
-const Box: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M74.4 48L216 48l0 128L17.5 176 74.4 48zM232 176l0-128 141.6 0 56.9 128L232 176zm200 16l0 272L16 464l0-272 416 0zM384 32L64 32 0 176 0 464l0 16 16 0 416 0 16 0 0-16 0-288L384 32z" />
-    </Icon>
-);
+const Box = createIcon("box", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABVQAAAHeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBJQsGAAE2AiQDCAQgBYMtByobnwTIjsO44TuyxVKG+BLx8P9r6X1/ZjeEBZ4SkSJk3bgSuqiCq4oqGpNT21NZvclc+z516nnOQwGclBcP2li4aC/wdI7zClSsV99UobHAqhW0Wjv7vt4guk3iUz7JMOmHzWIHebxwUIn0LEFH/tD4q4+HJFkGIJoBsHjLhvW6uqM74ncl4re1CIjFoBDIkKG/APNkAv3lCuRyQXdUKvIfWBBAlOGBEshRxjQsBOQgyfO8pqampa7UkG+uK9XuqKutE7WxZVOIutgUtZtSluoji4bN9Q31GyOFqGuIyGLzkM7mzn+DHWZ1xyOAd30z886rO3fBR2bd8f17UzPwVrO3E98s8hd2KDpS88dmhctBIGjOP4zY0zTvf3VdAn++/lc5u9IdXakT1RIIsnGVcXZGFwg1gJ+U4rIh0YVAMk6Or7XeYwFCLQIkZbUCZPppFiBXa6wAJQNNF6Cs1gaZyGuEdrsamtQ7h2ZmuIXm2n1BS+b5XpS1R+Y63MVzL7fkFRpavq6YPGFSMaeYNirvDUxcnlssK6Muh6HRtNVhZ5x20SEHHXNRIeetry85ZYUFL/dFhckmmKQwR7Hdedy82SHnXXDMGafTKnMV5+1RLtuTR5OegHaKJEl+EDb2n7kK");
 
 export default Box;

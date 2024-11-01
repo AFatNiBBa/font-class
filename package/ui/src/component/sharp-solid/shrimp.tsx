@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shrimp` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shrimp?s=sharp-solid shrimp}
  * @preview ![shrimp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shrimp.svg)
  */
-const Shrimp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 32L0 32 0 48l0 96 0 16 16 0 49 0c3.7 88.9 77 160 167 160l56 0 0-192-24 0L88.8 128 32 128l0-64 432 0 16 0 0-32-16 0L16 32zM320 320l18.3 0c9.9 0 19.1 3.2 26.6 8.5l133.5-92.4C471.8 172.6 409.1 128 336 128l-16 0 0 192zm62.8 35.1c.8 3.4 1.2 7 1.2 10.6c0 4.6-.7 9-1.9 13.1L472.6 415c24.6-30.3 39.4-68.9 39.4-111c0-12.3-1.3-24.3-3.7-35.9L382.8 355.1zm-21.2 50c-3 1.8-6.2 3.2-9.6 4.3l0 69.9c36.4-3.3 69.5-17.6 96.1-39.6l-86.5-34.6zM320 407.8l-64.1-22.4L224 374.2l0 33.8 0 48 0 24 24 0 72 0 0-72.2zM168 192a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Shrimp = createIcon("shrimp", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABcgAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCAAsGAAE2AiQDCAQgBYMtBy0b/QTIhofvdW+e+6T/15YMWmItMoe4AuwYKyDquM2k9WyVcEUw/c0/7zwK8FlkoY1NSwNZINGc5wkktmwsTCTrAsn0C9g3b+0+S1L2SzLRZPKPPb6tkMf72c0apIfSV7ijPTR+0N/NJK0ZgKgAsGzPjk0+6YquiC//f5P40gYExDJQC2TIMEiAhTKBQXI1crmgK/7/n/8DawKIJnlvAjlacBQXAHKQNPN8cGdbS2dr2WjPd5eN4kBRFkKIsvx60Ye7yogoioj2MqLYWxblLb33xEvz31tdhE33ub7Xrvh4xA0Ddk69t5f4dMnumevXrR8d7qmx+5ExT/Z/cORTA4Y/Vz3307CvTn+l84kK5xxVqaZlK378cWXM9Yl+3y71SlWr7hjag67pfOfmg5a8+MIllU/O5s1uvfePcLizx7Srdy9bvnS1kzfsGn73bzT+l+Gm6qff2rUPfNN727beGQ3Esb4PtT50pHPhry1lAmff++Un/Vf0f1eSnkOLBIJs4v8THUwgEQCAFFcZniCQ7NUkd21zvwChQICkqRAgM1AlQK4wQYCGIWYJ0FTYIRN5q9DLoQmSNpeCzGzXgFwvr4OGhT7VmnpFFmhkmJDfvLjVGlrVVk+bPLWeX29tg4odvNQX1Mfi2KtSbBwGnXaxi1zhlJPOdYVCLrPJvNKFVlvwKh+qTTPZVLX5arf32r3bKZe53LkudlFtskB9Xx3rKjt7HJREMKcT0hNYUvPycy4798JLAAAAAA==");
 
 export default Shrimp;

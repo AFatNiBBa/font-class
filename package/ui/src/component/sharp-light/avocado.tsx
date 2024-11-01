@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `avocado` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/avocado?s=sharp-light avocado}
  * @preview ![avocado](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/avocado.svg)
  */
-const Avocado: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M393.3 277.1l53.9-53.9c43.7-43.7 43.7-114.7 0-158.4s-114.7-43.7-158.4 0l-53.9 53.9-9.6 9.6-13.6-.3c-46.3-1-92.8 16.2-128.1 51.5c-68.7 68.7-68.7 180.2 0 248.9s180.2 68.7 248.9 0c35.3-35.3 52.5-81.8 51.5-128.1l-.3-13.6 9.6-9.6zm76.5-31.2L416 299.7c1.1 54.7-19.2 109.7-60.9 151.4c-81.2 81.2-212.9 81.2-294.2 0s-81.2-212.9 0-294.2c41.7-41.7 96.7-62 151.4-60.9l53.9-53.9c56.2-56.2 147.4-56.2 203.6 0s56.2 147.4 0 203.6zm-293.7-5.7c-38.2 38.2-40.4 88.1-16.4 112.1s73.9 21.8 112.1-16.4s40.4-88.1 16.4-112.1s-73.9-21.8-112.1 16.4zm134.8-39c41.4 41.4 28.8 112.1-16.4 157.4s-116 57.8-157.4 16.4s-28.8-112.1 16.4-157.4s116-57.8 157.4-16.4z" />
-    </Icon>
-);
+const Avocado = createIcon("avocado", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABggAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCFQsGAAE2AiQDCAQgBYMtBy4bEwXIBp7n9b7OfT8DOCNqs6A7owPISj79zfPOowCfUWhj4dIP0gCf8zyBMJDp3+POE8o0EEk5dZtLBrmsicgRPOcY4kMzSYEmByQGM1Dz1EVgVr+VfMCL8aDQTAAAiCMAAFDYwqjl6FN5KnLx/y6Qi1QDAiBFAOgIYMKBLwJADiYETYGGDmhoCDyV///lH6iDAICYw4+gANAAc6AfMBwA0ABQaJoW6O/iYmNmpzW3MbPuYjQYR2RM3mHrqTkN4irWcrvhKqMbr9lMM240F/Fo0WA0LPJdGHHVemqT6zLG2JC+J9WQIzbTcg8xOqfzWk+RuZHrwtdEb/BZELU+ZGVEi02+IgtzDqbszNocsCT/SPqezKD1jus/BV7sfpHJ65s1ayaxseIYG+vYjLnYUUHX1LKyVKOszCijwo4pNf721Zavf3/5Yxh/rhjGlX8D+o9uxrnMzHMLsjIXhpodioe8oKAX3x8cissPCvrx/MHEsKttoG1w4KlddlfbtHVOGucBQACB2OnPwzo45PyytFEAPN//5Vt5jfh/VKHWA5YoAARMMf9jaKsAUCAAAACAkuEEKQABFN3QILFldtQXrGFBYY41TPjgCA1romGGP6mCc9nAhGhWCK60AxS2DIKJNEZAw5UdMCOHM445rmJKOSlhpBdfeplmSqf0xLgEPUs/BqacRUIbZutuI2J4LUTikO4MoD9D6UZXejFUcYOp9YfRjzKLLeVBdBKJIwGdLPRw/L7dnG4MZgi9GEB/GZONfp9EMNyuj4StIG8ScwoFoiw6fV1pdh0A");
 
 export default Avocado;

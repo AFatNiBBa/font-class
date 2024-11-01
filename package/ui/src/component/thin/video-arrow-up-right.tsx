@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `video-arrow-up-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-arrow-up-right?s=thin video-arrow-up-right}
  * @preview ![video-arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/video-arrow-up-right.svg)
  */
-const VideoArrowUpRight: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 80c26.5 0 48 21.5 48 48l0 74.9 0 106.2 0 74.9c0 26.5-21.5 48-48 48L64 432c-26.5 0-48-21.5-48-48l0-256c0-26.5 21.5-48 48-48l256 0zm64 304l0-47.2 0-27.7 0-106.2 0-27.7 0-47.2c0-35.3-28.7-64-64-64L64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64zm32-29.6l103.4 56.9c5.6 3.1 12 4.7 18.4 4.7c21.1 0 38.2-17.1 38.2-38.2l0-243.6c0-21.1-17.1-38.2-38.2-38.2c-6.4 0-12.8 1.6-18.4 4.7L416 157.6l0 18.3 111.1-61.1c3.3-1.8 7-2.7 10.7-2.7c12.3 0 22.2 9.9 22.2 22.2l0 243.6c0 12.3-9.9 22.2-22.2 22.2c-3.7 0-7.4-.9-10.7-2.7L416 336.1l0 18.3zM152 160c-4.4 0-8 3.6-8 8s3.6 8 8 8l108.7 0L98.3 338.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L272 187.3 272 296c0 4.4 3.6 8 8 8s8-3.6 8-8l0-128c0-4.4-3.6-8-8-8l-128 0z" />
-    </Icon>
-);
+const VideoArrowUpRight = createIcon("video-arrow-up-right", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABjwAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCTgsGAAE2AiQDCAQgBYMtBzsbWQXIHgd2Y9dMeKAwHDBaxnj4/7V/3efOvEnyIIgTIlLAqICKEGZZV9WqslBAtjaVXX/Z4QqbBDsdPReUwtjrkNp3fVOnnuc8FMC3DIKgjG2TFsgCmatboOcVbKxjErQUrJUqyN2dbcco0RwOaYklOb7JcblAHr/aqUK6aX/GJ2mi8a8urpBkGYBoDYDZa1Ys981f8VfEz00SP1uKgJgDSoEMGboLME0m0F2uRC4X/BVNTfQfWBJAFPgdE8hR4B1cBeQgyfO8Z5/+XWuVRr66VqnuecoRV6MQ4gZ9WerxTK6lLG7r9d5YF4Ine2u9avV4Ml6EFDfny9qI5/t1Hrpq9aqr+IFeNxEX5Zp7n1aGWBPX8WkUN8r7sjps/5Kuci1Wxpd8VdeEuMrXNeKaVPu88q8+P+/+2cwjo37jl2yp/ZbKfvltFKN++yXT1JkjYV93+3U3UrVNmwfgQdmsQvP/3ZNy6Ipr/eq1fgOV6hU5qq3D08wpRrd7o93oYo4/rG2zb7cWxdZDHj00fvyKFQ+vQ4Dq5QuFIhSIn4xs8893W1pN+685JvDP1x2fTLPSK6C5BIJsWNOxMc0CJAbgpTitj/JBgeS8HL9q3TUBQhUBkkJVgEw3rQXIVQ0VoKKn8QIUqlbIRN5CaG9TA0ndMZCZ4CzItfcVqJjmO7fQPjJ75KyJ+w0mL5DQ/F3l6BGjyinlNFd5E2PC5tRyWR102vUGw6jdjjjspF122uekQI5bHpxyyAINnu+LSqONMEppinK7updXC++4E/aN+f1tTFWedwY5rc8fDEbCpGNEkkSk9jc0Pnzb8eNHzgw/dfRJAwAAAA==");
 
 export default VideoArrowUpRight;

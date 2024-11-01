@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bug` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bug?s=sharp-duotone-solid bug}
  * @preview ![bug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bug.svg)
  */
-const Bug: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M160 96l0 32 192 0 0-32c0-53-43-96-96-96s-96 43-96 96zm80 128l0 16 0 239.2c5.3 .5 10.6 .8 16 .8s10.7-.3 16-.8L272 240l0-16-32 0z" />
-        <path d="M64 82.7l22.6 22.6L141.3 160l229.5 0 54.6-54.6L448 82.7 493.3 128l-22.6 22.6L416 205.3l0 50.7 64 0 32 0 0 64-32 0-64 0c0 24.2-5.4 47.2-15 67.7l53.6 53.6L477.3 464 432 509.3l-22.6-22.6-47.1-47.1c-24.5 21.8-55.8 36.2-90.3 39.6L272 240l0-16-32 0 0 16 0 239.2c-34.5-3.4-65.8-17.8-90.3-39.6l-47.1 47.1L80 509.3 34.7 464l22.6-22.6L111 387.7c-9.6-20.6-15-43.5-15-67.7l-64 0L0 320l0-64 32 0 64 0 0-50.7L41.4 150.6 18.7 128 64 82.7z" />
-    </Icon>
-);
+const Bug = createIcon("bug", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgAAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCIgsIAAE2AiQDCgQgBYMtB0IbNgXIjtRW94RRynieXtfruU/aP9+SzSGQgbEKAMkBwg4rojKzbVyFK94qZSqkKvUmAuDw/1zu+T2/bacfRG4sOxuTl01cu3qeQM/T6XlAEWUagCWMvW3oiYi8ESJBYtI4oWP2hDrfVs8YUF4rI7xI/wOYvxzvGYopFYDMBMDeC8893Wff5/uS0fgIGTkNgewDnaBChZME7FAJTlLrUKuF78t4zPcZjzsCZAL9rgpMYIB78DCgBkWUuj595ox2MK2+oB00ly5dtvTstDk3y7MzS3JWpG2laZ447uwszY4sy658dCBJmoh8vmtHlmRXlufcvJ6mSdo2OSfLsvtS0SZ5e9lw05El7510vpCX2mePPX37vOHM4T9zR4dHdt/S9/0FfnWB3sgFeuvt6fbo9iz89zwXGOn9a8/B/8zUmek/B/f8a2PO8+9Ccr1ef+fKDouf6UwOh1V9Zz4+ExL/uWNy8g736yAID3637aMrZ+z4X1vAjx/896fxPRpflCEmFRCqFeMVLiugEABAyX3mFXhXUDldgc5UL2McDQzFhAYqJ5oJtcZyGDjFRtZ4+VyV1FPEUS4HKKa6EyqbPAq1o7wPAzt8EUw4KlXo8YHDf/xSDknk4Klu7ao13bZuW5pCNLHtcHtn1pbcV0ZL4aHDbnebe/Suc6N7BH2X0+N73eqQhh70QZ21Vlmjs03nbl5vX6B3l7vd6Ha39WO26+47S9ynLy+F8xTAuke7WJGSqr3m3utXJrA6jaU8BQA=");
 
 export default Bug;

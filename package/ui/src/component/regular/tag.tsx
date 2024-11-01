@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tag` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tag?s=regular tag}
  * @preview ![tag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tag.svg)
  */
-const Tag: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M197.5 32c17 0 33.3 6.7 45.3 18.7l176 176c25 25 25 65.5 0 90.5L285.3 450.7c-25 25-65.5 25-90.5 0l-176-176C6.7 262.7 0 246.5 0 229.5L0 80C0 53.5 21.5 32 48 32l149.5 0zM48 229.5c0 4.2 1.7 8.3 4.7 11.3l176 176c6.2 6.2 16.4 6.2 22.6 0L384.8 283.3c6.2-6.2 6.2-16.4 0-22.6l-176-176c-3-3-7.1-4.7-11.3-4.7L48 80l0 149.5zM112 112a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Tag = createIcon("tag", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABYgAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBSwsGAAE2AiQDCAQgBYMtByobxQQjEbZa7imR/TMhG7LwNtyDR8aGaNg7DxemnmjULqPPxG/i4UEv6v0kM7ubWSMrqYLVwaigEyu56M4tq7t2AiACUqMiZermeedRgG+RhTYWLlo6Fvic5wkEWNTliygLLNMALMbUbbzsQX5eDCJH9IgY4kOzuEEW9+KyEsmd5Adc0pvGn1o4TqKUAoj6ABi/YM5sn/wWv0V8X31PfG8mAmI8FAIpUrQWYJRUoLVMgUwm+C2qVfwDCwFEmX1JAjKUMBVzABlIpFmW1rJho0qpTja/UsqXnHvec4e7zX2Wn+0x/0VE3Gt2q2tl7uHm3Wi24FbT+TfzPCw4V8QNhxtfz882vRlHmt2qdHhR/8Xf7X9Y/8OXj3R4440OWnQ8caK9Fv3d3E136Y8/9bt548vyJOafPZvzZ89ielKNG26O3Vf3NKfrVh/QQJx7/HW3X1bUG/VfzUoC/vj43//lLar++X7yAjUlIEh7VXstjU+Qx/sCAJDE/g7xCQKJsVJ61dpuChByBEiU5QKkWqkvQCbXU4CStgYLUJabIxVZLaGxZR0katsFUkMcAJnG3gElo3xtlzWONJvIXCAfc3FDUzw0eazo36dfMaJY+hqVIHjpjyy2+W77OdedVq3fsX3vurWb9jpk92xv37YpETz5waJ/n37FiOI4elyev273nk07tsuQkcV9rdv+uLo7SYlhDtCT5FNhee+qDQAA");
 
 export default Tag;

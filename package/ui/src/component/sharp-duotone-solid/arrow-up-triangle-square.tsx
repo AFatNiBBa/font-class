@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-triangle-square` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-triangle-square?s=sharp-duotone-solid arrow-up-triangle-square}
  * @preview ![arrow-up-triangle-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-up-triangle-square.svg)
  */
-const ArrowUpTriangleSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M304 224L416 32 528 224l-224 0zm16 64l192 0 0 192-192 0 0-192z" />
-        <path d="M160 32.4l23.7 26 80 88 21.5 23.7-47.4 43.1-21.5-23.7L192 162.8 192 448l0 32-64 0 0-32 0-285.2-24.3 26.8L82.2 213.2 34.8 170.2l21.5-23.7 80-88 23.7-26z" />
-    </Icon>
-);
+const ArrowUpTriangleSquare = createIcon("arrow-up-triangle-square", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABbAAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBNQsIAAE2AiQDCgQgBYMtB2wb8wTInge2zWIvVSxvF+PZYkWMeTGMh6/9Xs/d3f9D6JK2mwLjeESL7OLrSNWTqqswLHxAFmRdZ978X/OH0EXzfyfUwZlbG410xpfMv+9J+wA8/f08/+df6Bl9tA5Na/vnVavzCQwwCqRSZEIznYFtd9qeybJ8kpayJMdnx+exhxL/86QW6U0CeCH/Axi/USZJujKAGATAvpOJB/7TMZ3iZ4P4yQUExH4AVSAjY1yAnbLAuKKiKILp1DRMR9NUAog2eXcGbbSwA0cAUEASUikLOrp6Wn3lhCzsPrts+bLjcFnsjOVxUQrRHRE5lgZ3d6yIk7TqapEWGeye6OnuMebPfzf47u+Ejt/bx3JZUADDpfDFqfYSzfFE7qJLsS91ao8d083IgpcBBIK7H6+52M5/nT0JzH7+V/0hyc10Gkzv0CmBIK9sVjqX9pKtTYMCAJDiATntpcRagWyBBD+110sBQjcCJG3dAmRjBgUouq0QoGWuTQK0dTsKi9IljDrfQdLrNsg2ew6KUZ9Ay05f/LbRyD6EewD+hIvRNaTNEtetXlu312miEW6B8uSOuqwsfUCNZXAg6Ow2D63G6GF346noaaVbsOaLROustla1Xd3OH3fnWjd3o92Wp9mhnjeWemD3LwMdKYjr3ZVlIkWul2+3/U3uH+TebSy3fmnJjRTIp3TFptQ1BA==");
 
 export default ArrowUpTriangleSquare;

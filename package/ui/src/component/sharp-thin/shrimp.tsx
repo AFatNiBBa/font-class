@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shrimp` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shrimp?s=sharp-thin shrimp}
  * @preview ![shrimp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shrimp.svg)
  */
-const Shrimp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 32l8 0 432 0 8 0 0 16-8 0L16 48l0 80 320 0c97.2 0 176 78.8 176 176s-78.8 176-176 176l-48 0-8 0-48 0-25 0 20.3-14.5L275 431.4l-48.2-41.4-20.5-17.6 26.8 3.6 110.6 14.7c5.4 .7 10.8 .5 16.2-.5c14.1-2.8 24.2-15.2 24.2-29.6l0-4.8c0-19.9-16.1-36-36-36l-108 0c-97.2 0-176-78.8-176-176L8 144l-8 0 0-8L0 40l0-8zM240 304l108 0c28.7 0 52 23.3 52 52l0 4.8c0 22-15.5 40.9-37.1 45.2c-7 1.4-14.3 1.6-21.4 .7l-83.8-11.2 35.5 30.4 7.8 6.6-8.3 5.9L257 464l23 0 8 0 48 0c2.7 0 5.4-.1 8-.2l0-31.8 0-8 16 0 0 8 0 30.2c46.8-7 87-34.3 111.3-72.7l-41.8-13.9-7.6-2.5 5.1-15.2 7.6 2.5 44.7 14.9C490 353.8 496 329.6 496 304c0-24.7-5.6-48.2-15.6-69.1l-42.7 42.7-5.7 5.7L420.7 272l5.7-5.7 46-46C444.2 174.5 393.7 144 336 144l0 104 0 8-16 0 0-8 0-104L80 144c0 88.4 71.6 160 160 160zM192 176a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Shrimp = createIcon("shrimp", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABlAAAAKKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDBAsGAAE2AiQDCAQgBYMtBy0bgQXIhod/dL7eJ8n/OFIYFGbcWt6YaAuuJdz8P+fytY0G+G1kQ6mi0oGU7422q35+AgdYwdE04CvgMz0BO+tW5pEi1T4iyRbV3ln/Yx/f20EWr9mmQnJL8jmuyg8VP2njUhJpCiAaA2DyyqXzvX0mzkR8VnuB+MxcBMRkUAqkKKS9AOOkAu1lSmQywZmo1fj/wJIAog59QAIyVHAvngFkIJFm2ehV9YpKg2xFUcnTIm8g8vqiQfyw+Jvl3y/6elme94yJMSH6RPdYHje0eqhdxEUtb8zz+HHJtyuiiPGri7x4oMUNbcSFza93BbdcEaOjRTSPUVEUlxUREUUI8VLfx/qOiJbRKlrE8HgsLmo7LprzORPjyTGv5kKoJfP4Yfwby1fc0CKcemPLm1p1ebTxo790/nzH5+6uVt9urPrwIpPMiWgcFZlzx6DF4/3pf5Pd50BDhw5vr6tofMsjjfbd6KMeUTbpv008PciiX05VKprc9thf91y9NNffCceM1mpUlpWqGqvqqNu777a/whELHPamRj271261zKOmO2nK0G79dom27vK7mPr551Nj4AVnGjY8U9hAHPfc/ftu29ho3D/VIgHnXv3tJ+1XVDuTSB5FVQKCtF+tn3UJSAgAQBIndEkgkLhViuL6bhSacY4Ifp0ccaqdxgMyub5Q0dFwUTh/qVRk9YTm1oMtUd9hkBrhPMg09xxUjPNRUKd5pKYqG5r8o5gxg6PTR5WDBwwqx5TbTFesT4yDY0ux3euEb+iNjXY46IBjtttmt2OMOWJ+fNx+M070dF9UGmyAQUpjlK/Lr6tX2O6Io3Y76EAaZqxS3+/lxLl9b3gJ4hzCSj5BKqk7uuvI7v2HAA==");
 
 export default Shrimp;

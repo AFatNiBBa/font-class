@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `binary-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary-slash?s=sharp-duotone-solid binary-slash}
  * @preview ![binary-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/binary-slash.svg)
  */
-const BinarySlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M128 0l0 32 0 44.6c21.3 16.6 42.7 33.1 64 49.7L192 64l64 0 0 96-20.6 0 82.4 64 2.1 0 0-32 0-160 0-32L288 0 160 0 128 0zm0 288l0 64 32 0 16 0 0 96-16 0-32 0 0 64 32 0 48 0 48 0 32 0 0-64-32 0-16 0 0-128 0-32-32 0-48 0-32 0zm32-65.9l0 1.9 2.5 0-2.5-1.9zM320 348.1L320 480l0 32 32 0 128 0 32 0 0-12.6L446.8 448 384 448l0-49.5-64-50.4zM352 0l0 64 32 0 16 0 0 96-16 0-32 0 0 64 32 0 48 0 48 0 32 0 0-64-32 0-16 0 0-128 0-32L432 0 384 0 352 0zm48.3 288c37.2 28.9 74.5 57.8 111.7 86.7l0-54.7 0-32-32 0-79.7 0z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const BinarySlash = createIcon("binary-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABjgAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCVgsIAAE2AiQDCgQgBYMtB1QbfAXIhof/t+v7fW5V98yrHuMOzEjm/86ESEoBJ8FbP5Tinrgc/16Ay57gkcYKl+bb0jEWhp0HuCjfGHWdJ1Sm1ui2myPi6xoS4wxlGlHcq0Z6Jv2Eh9z/AMaveruXpKUAEJ0AsGjz+pU+a43WFD813yJ+sgIBsRhkgQIF+gkwVyHQTymjVApaU7NJazSbmQCizpGF99bRggfxFKAESaiXZef+Pdt07tmuUWtfbmrUqu3Dhg87G8NibAyPc+jcCdsF8fqoJ7pHNEJUsTEaAXdXW4RGQ1SVwEC4feCmkuixUaDCpqhWWLd9bm7L66MiIrs6OviNTm/8PuinQz/p9+n3obIPjfe18cSTb3+acx7nxcfXL5lvoT26W7dAkj0ny88OXLhwYe60R6e8UL6D8E53MvKERUkYCoOevXnvT2T5ufYWTrbAJP8M3D7/xQMHvvQWb38zQ5aBQPDH049+t7vj3P/bNhL4+YM/f8ke1/ws3UlvoK0EgmJsc6wd6Q4wcwD5FJcMnvDYhoXTTvCntvOkAKFCgKSuEqDQVycBSpUxAtQMME2Ausp6hShbhG52VmrSzlm1MN1NtdTNm2rNXN/m6rpF8VB6j5T3S1hseRNati1PGj8xz86jNYX/nDl6dk5eHB95ifeMgicdctopFxx0wFEXGso5K4sXnbR8ilvmi7JJxpsomy1vbt6NbcK5c847OhxuX2eOfHx6pEvTw0fBVOJbTnZpoSBSFN32HT2199zVcedP7D1/ZNzz3d+jJ3yVAQ==");
 
 export default BinarySlash;

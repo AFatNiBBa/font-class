@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-z` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-z?s=solid square-z}
  * @preview ![square-z](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-z.svg)
  */
-const SquareZ: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm72 96l176 0c9.3 0 17.8 5.4 21.8 13.9s2.6 18.5-3.5 25.6L187.7 336 312 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-9.3 0-17.8-5.4-21.8-13.9s-2.6-18.5 3.5-25.6L260.3 176 136 176c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const SquareZ = createIcon("square-z", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABYQAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBNwsGAAE2AiQDCAQgBYMtBy8btgTIrgd4QzX0D8TCMFHkUrW0d4MInp4xnyUbYkSO5/n2a/fNn11EtENSSxq1ZDqh0ywRA6XsoZLJ//r92u6Z50tvLolKE3XwRiNUUQnlN6wUUiOZCbsaYOGL9ODNnYfnl74PlnJGWWGc0UBiDLhAF5tsp9Os9j1D2PCnTj3PeSiAzyEI2li4JsgC2/M8AhHLxdNFFaoVLMBQhqrbWLlB1DWRcwSPiKH50Dyh5gAPOpQvBG/1S/NnwSbFQAMAGQcALp8zMaBy/oK/beTHHRDIJcA6RIMGyxCcoAuWMawDVRV68L+V/8B1ECBd4C8ooKLiArgCoIKiVIZ0lc8UMvIxeZUX8TbScK+/q4V4Mz6UdNwf7htBLh5/y23ZLOTjVdqteLjtt0MB8vC6OGhl9/L+B+fflwKYGPTjTUycHk6j2hqvOMp18Bu8Ss241Ksh+3/eBwBBGFsZjEzs/hfRAH6/769re6HKPaBfAaHZbCfVUCDoAE7JOplzsaA4QAN+6rB3ATGIgKJrUEBjiQSCatAGBB2rLBB0DbpHl8qFmFZTUAx7AY09G6Ca9gE6Tnw6XdOhxxAZAeQXLi5qocgW2bV64iTLxKDCAs9LF9nmu/XUUOAQ+hbMrerpGlk1yLKYv2Ym6sERFyIMtPQIJ3KcP+/n9SxbMbJgXta4kPu23Lrfr4BEQ8wtgaKQwnmHguYE");
 
 export default SquareZ;

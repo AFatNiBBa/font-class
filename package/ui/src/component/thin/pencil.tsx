@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pencil` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pencil?s=thin pencil}
  * @preview ![pencil](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pencil.svg)
  */
-const Pencil: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M395 25.9c12.5-12.5 32.8-12.5 45.3 0l45.8 45.8c12.5 12.5 12.5 32.8 0 45.3l-66.9 66.9L328.1 92.8 395 25.9zm-78.2 78.2l91.1 91.1L164.7 438.4c-1.5 1.5-3.1 3-4.7 4.4l0-34.8c0-4.4-3.6-8-8-8l-40 0 0-40c0-4.4-3.6-8-8-8l-34.8 0c1.4-1.6 2.9-3.2 4.4-4.7L316.8 104.1zM51.4 384.7c1.7-5.8 4-11.4 6.8-16.7L96 368l0 40c0 4.4 3.6 8 8 8l40 0 0 37.7c-5.3 2.8-10.9 5.1-16.7 6.8L19.8 492.2 51.4 384.7zm400.1-370c-18.7-18.7-49.1-18.7-67.9 0L62.3 336C50 348.3 41 363.5 36.1 380.2L.3 501.7c-.8 2.8-.1 5.8 2 7.9s5.1 2.8 7.9 2l121.6-35.8c16.7-4.9 31.9-13.9 44.2-26.2L497.4 128.3c18.7-18.7 18.7-49.1 0-67.9L451.5 14.6zM317.7 173.1c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-144 144c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l144-144z" />
-    </Icon>
-);
+const Pencil = createIcon("pencil", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfQAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCIQsGAAE2AiQDCAQgBYMtBy0bHgXIjtRG+YWZxMP/2/XfPreq+0lfqC8pkj3Uyp1ONs7YQTpMrc7O2vf/uebze350gN/oUCoorTVqA8oU2PNpJKZV+kAHNlGctU1OUMUgXxRE3qGHyEL80Na2hzzetkeJ9FKq4InypfGN7u6QZBmAaAXAvPWrV/ngy/gyolKNqFiBgJgPCoEMGXoJMFMm0EuuQC4XfBnVavgPLAggyuTdCeSowWHcBuQgKeV5e9f2Xo0NpaZ8Xb6/fv8LDRGPdJ4Vz7nRaU2si/Vr1q5buyae7RTxfJf6cO4LXdfvCVkNIZ7rDIJ4a2L9/ud9xsOd9sRr3U7lzs/xXfHqiP3xQtzsMnvNC12e77Q4s/8brW9816+yr+Lhl19sovHFzzzU2PTQ/Pk2bVKNVas2ydKff9a/bYDyjqGGwh2grf8c1HUbOmVw+tRQg52+daiPPoeePPldB50+mzdX+4UBF2UDxo+9OMD9fnPn+axTx+eVuyZNXLPmiSdMnNSeBoFg4Ev/vry9ZeZvtQ0JfP3Wf3uhKue8H9X0BmolEGQjqyNtSTZDRVQFCFOc059MCsluJdjV6HkBQj0DkrJ6yPTUCrl6I6Ckj0m7y+qtlom8Tuhk64Ck0UnITHYVcp28CSUzfeiXdYrM8BizYb77EhdrZNGgYtzoscX0YpvTWVuiaO+M4lgZei7WDMNK+xx3zBl77XHQGYWdsio666jFDF3khwrjjDZWYbriuvhTXKeCU047uGbv+zFD8b411DnefBj0RHDHG5YkIpVP/OJZOgIA");
 
 export default Pencil;

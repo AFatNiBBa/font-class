@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mountain` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain?s=solid mountain}
  * @preview ![mountain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mountain.svg)
  */
-const Mountain: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32c12.5 0 24.1 6.4 30.8 17L503.4 394.4c5.6 8.9 8.6 19.2 8.6 29.7c0 30.9-25 55.9-55.9 55.9L55.9 480C25 480 0 455 0 424.1c0-10.5 3-20.8 8.6-29.7L225.2 49c6.6-10.6 18.3-17 30.8-17zm65 192L256 120.4 176.9 246.5l18.3 24.4c6.4 8.5 19.2 8.5 25.6 0l25.6-34.1c6-8.1 15.5-12.8 25.6-12.8l49 0z" />
-    </Icon>
-);
+const Mountain = createIcon("mountain", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABVwAAAHhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBFwsGAAE2AiQDCAQgBYMtBy8blgTIHoPjbomBEDHEMPx1KEWU8Twe/n+/b/ucd8dcEMtELRVScI+TKqtT/6Jqos7zH8bl+2fWf5dANExsRoPqmkIi2txcwkpcftX2Tt087zwK8I1CGwuXBjLm+R7nCSTW5ROLAsoCyzQBy9zVfUYT7SdplCV5vLTHzwwlnqodTeTb/MXj8tD4ZcwOqa0CQPQCgBv32ut4/6NGxE8d8d1NEBA3AMwiVKgwicBlQoFJIrOgKIIG1TX9AxkCiGbIoQkKCrbBBQAFpCwia0+HWC3q4h2K/iNzL+17M7i3qIrj4YPxzZF+Olzp7IondpAzXo746XWH0n7We/7H9jvyq/68e/OjB7u90n/nc09w//yftPfhYLvZLbwVRnFxYw1Wv7+bPvQGAQgEfZ++TZv5L1MKAD8f//2jfkV1I+UZWiUIqs1600ACkgAAZKzAnhBIywT4rp1eCRDaESA1axegMkGHQNFuA4Em06IINGt3i1AUOcKgwQ5SpwegcmwVFIMeQJPLPuRmg1H5DPHixJcttqah6hAHfQFO8dLTSDfAUjfN25xjJWScmMSIWTOWDBsybkkhC+rasmk1C656EQvyCWApfBw+j3cZtmDRuFkzuU8a35ccVuxyJ0QBQd3nSEmkzPcAAA==");
 
 export default Mountain;

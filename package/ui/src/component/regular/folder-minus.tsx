@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-minus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-minus?s=regular folder-minus}
  * @preview ![folder-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/folder-minus.svg)
  */
-const FolderMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M251.7 127.6s0 0 0 0c10.5 10.5 24.7 16.4 39.6 16.4L448 144c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l133.5 0c4.2 0 8.3 1.7 11.3 4.7l33.9-33.9L208.8 84.7l42.9 42.9zm33.9-33.9L242.7 50.7c-12-12-28.3-18.7-45.3-18.7L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L291.3 96c-2.1 0-4.2-.8-5.7-2.3zM184 272c-13.3 0-24 10.7-24 24s10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0z" />
-    </Icon>
-);
+const FolderMinus = createIcon("folder-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbgAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBXgsGAAE2AiQDCAQgBYMtBzMb4QTILgpsY9joIR6aRVq3LNui6/FN8fVjPM//2v/2uffOfES88hOWRJtKIkEnNLyq55cqlDCLqkl8/n5cvb9EE5R2m3RqRpP4L91cdGPK5w4W1xXDOLBULXMHOOiCmzr1POehAL5R0PbQgCygvc8jEIHt9QrVClbTAlgZa96yjfZI2TeZaJIev+vxjB7Q8iJ30VGe6XvcqW+aj1aapugqAGQBALDvXCEFnzMkfyPyziEgkH0AGyBUVKyBwE5EwRokG4CmCQPjmP4DN4AA6cF+dgENHU4DFwBooKiNJNvEmk1mk8qzO0bdtTyy2WiHhGw7K7tBzF4ys8Q42plde2LRGGbMQtd9LyDkYB607Nzdo5iYw8U6RhajeL3iQMvMXR3qGJsmPPy/8eX+7AHj8lcwyLzhqsG9OMNt/cGF4MMLMZ5sEs/A24V8xl6MhQvPxztk80RdeOnpBJlbx8+DINxZy/l1cf7ObzOMAPChr9/pt2gcijIBMxQQ6vQ4rb6AQgAAJcNUBYLiMCJ51TkeC4hZCCh6swRUq/Eg0MyyGQKddbwQ6M1yClEaHWKJBgHFHFdAtcMIaJZ4Bp2dvqzeklRcEaggXnWxSQ8l1hRvcyhCimmskVDB8jysWFZ7WGtGuoVmPboNatKozaBD+qXcIV2SEZzwQQpONg4KIYrt7PG8rEm/AW16dJclYYrzpsFw3G0kg8BQt/AWhRRW840Wrb/RcwM=");
 
 export default FolderMinus;

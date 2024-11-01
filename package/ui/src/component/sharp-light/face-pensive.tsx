@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-pensive` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-pensive?s=sharp-light face-pensive}
  * @preview ![face-pensive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-pensive.svg)
  */
-const FacePensive: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM208 384l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0zM395.2 266.4l25.6 19.2c-34.4 45.9-103.2 45.9-137.6 0l25.6-19.2c21.6 28.8 64.8 28.8 86.4 0zm-278.4 0c21.6 28.8 64.8 28.8 86.4 0l25.6 19.2c-34.4 45.9-103.2 45.9-137.6 0l25.6-19.2zM74.5 200.8l14.3-7.2 22.9-11.4c14.5-7.2 27.2-17.6 37.4-30.2l14.4-18 10-12.5 25 20-10 12.5-14.4 18c-13 16.3-29.4 29.5-48 38.8l-22.9 11.4-14.3 7.2L74.5 200.8zm348.6-7.2l14.3 7.2-14.3 28.6-14.3-7.2L386 210.9c-18.6-9.3-35-22.6-48.1-38.8l-14.4-18-10-12.5 25-20 10 12.5 14.4 18c10.1 12.7 22.9 23 37.4 30.2l22.9 11.4z" />
-    </Icon>
-);
+const FacePensive = createIcon("face-pensive", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABmgAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCbwsGAAE2AiQDCAQgBYMtBzMbcgXIjtFjR45YnlweRMYYvHj4b7/0vvmzAQKdKCZFKHxcZHSOj6NWAtk6Eq5sgWxVhVr/+/3ScwP0fpBfmNEBqV25KpKQijS+U1Wdvz/1POehAD6joI1la/vYmt05zitQwOrHjvNagSpU0wJYGWtujVNwwlgMeoiUhg0RH7/2+PWAHPvkCFnSvdQDro+3in+6DZPkAgDRBABYPctIwslv+h30UN4k3tsCAbEGYAihAKIPgQXSQvsAGUMgy4Lf9FqW/0AOAUQF9KckkFGNWzwCZJBUZhlDQ6aioq/PZJVlsllJqWLMnWgt/k5JFHvjusJH3Vbjbpk44d5j3UL4tE5xvvfMxEmPYadZ70NPEh+URMlP4WfZWayGIWqUiFiOnb3dgpLI2YFmmdhBmGVEYgc76q/L1tXStaFpQ0PSJTvSIj2asbQsgUGFto72raxD1jRlb4BnOJA26dOIlZX5nNrc3+GH6gf8OhbO+BqcFBCQFPz2TOBBQv+2WU33q9P1iNN1fUVsyjBUPvWVlrZyqJ3W6y6JXlq1s1uVoNRjIKvDEkCqBL1lF/oxXtuA/L9/8NCVh/5g5l09PuJbgdxQ/FbTc4czb4xXfcHf/AYAAsHlk+8fSlQX/iswKcDfvX//lW9R+SQhvQRVEgiK0VdHhQkkAgCQohvmCQgk1yppWudG7ExrENmvUIO00EvtgqzGCJQM8KImrSPS0sqKCG2KAiR1LqAwpQeyNutQsuA6qtAW0v7JeBfze5gYLVjUOe7m7Mr9+eugsi5H8XEAn5Ztu2nJDkhUa9GsU5VKdTobol1S2qVJtIVH+SDOjTNXnD++PPkpZkerXQdRY379lAB8v2+r295sB02Kko6pJIlIwtdfcWqtau6o664CAAA=");
 
 export default FacePensive;

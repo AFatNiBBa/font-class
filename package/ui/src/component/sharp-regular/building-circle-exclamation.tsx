@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-circle-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-circle-exclamation?s=sharp-regular building-circle-exclamation}
  * @preview ![building-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/building-circle-exclamation.svg)
  */
-const BuildingCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 48l288 0 0 246.6c11.1-24.3 27.7-45.5 48-62.3L384 48l0-48L336 0 48 0 0 0 0 48 0 464l0 48 48 0 288 0 48 0 0-8.2c-20.3-16.8-36.9-38.1-48-62.3l0 22.6-96 0 0-112-96 0 0 112-96 0L48 48zM88 88l0 80 80 0 0-80L88 88zm208 0l-80 0 0 80 80 0 0-80zM88 216l0 80 80 0 0-80-80 0zm208 0l-80 0 0 80 80 0 0-80zM496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-64l-32 0 0-32 32 0 0 32zm0-176l0 16 0 80 0 16-32 0 0-16 0-80 0-16 32 0z" />
-    </Icon>
-);
+const BuildingCircleExclamation = createIcon("building-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABhgAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCTAsGAAE2AiQDCAQgBYMtB0IbXgXIhof//Puvferer4cmq02OIitS1vHYGRyEf00E4A2ck1f1N+CC/GhRBRJJUcEXuOj8FUK34+2ieIPmPTxdGx2aQvIeyvgnHtJEeix9jAfjD41v9HYbSVMBIDoBYNGOLeu82x7tER81XiI+sgYBsQhkgQIF+gkwVyHQTymjVArao9FQ/4GZAKIZyOTyEhXchQcAJUhay3JEGynp29a52lQvt7uLK3vqtbp4ZkxERKUmUohqPeLx8aISIQBFxTyhWrRUfY/IJm+tXbTr3jkRb0x4Jm4e//Ts1yv3zHx17JNuGvfUrNeqQ/qBsOK4UFYibqsOfrzT498N+vj4xyY8mHP+Q/nVqyaauHGiK3F9q6+KHg66GESuXLcRFtz5ebL5sxurYu+NGJFIkwYNHz5oUkqlFuVpZAhk+dlONRt1knUSvw4CwY+ftXx5oOPc31qrCXzx+g8/IBc33k03pcfRKoGgGNsYa2+6CdSGgFSKaw3u+aJAcpNWeNeahwUIFQRImlUEKPTVSYBSxRgBmgwwTYBmFVsUomwTutmXs0nNJbYw3fVsqZsX2CZzvZds1i2KzVG/MekvBrMsL0PLduVJ4yfm2bmzJTVsYVpvdU4e7Rl5rR4ZRUUdd8F5VzvmqFOuLqkvW5e5xjnL+6TL/FA2yXgTZbPl2d3rlu1ccNlVTnGdn7/NHHn9xEjX9k8fRf0JNE7WkCQi9d1fHeOe3Bkd97ML36FzZxkAAA==");
 
 export default BuildingCircleExclamation;

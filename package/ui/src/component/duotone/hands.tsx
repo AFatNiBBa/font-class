@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands?s=duotone hands}
  * @preview ![hands](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hands.svg)
  */
-const Hands: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M152.8 164.2c0 4.1 1 8.2 3.2 12L179 216l31.8 0c4.4 0 8.8 0 13.3 0l4.7 0c-2.2-5.6-3.7-11.4-4.3-17.4l-26.8-46.4c-6.6-11.5-21.3-15.4-32.8-8.8c-7.7 4.4-12 12.5-12 20.8zm49.6-51.7l28.9 50c.8-1.5 1.6-3 2.5-4.4c8.4-13.4 20.8-22.6 34.7-27L243.9 88.5c-6.6-11.5-21.3-15.4-32.8-8.8s-15.4 21.3-8.8 32.8zm46.4-63.7l45.9 79.5c9.4 1 18.7 4.1 27.3 9.4l60.2 37.6C443 213.4 480 280.2 480 352l0 8c0 1.9 0 3.8-.1 5.7c40.1-32.1 64-80.9 64-133.1L544 160c0-17.7-14.3-32-32-32s-32 14.3-32 32l-.1 49.3L426.1 116c-19.2-33.2-38.3-66.4-57.5-99.5c-4.4-7.7-12.5-12-20.8-12c-4.1 0-8.2 1-12 3.2c-11.5 6.6-15.4 21.3-8.8 32.8l51.5 89.1c3.3 5.7 1.3 13.1-4.4 16.4s-13.1 1.3-16.4-4.4L290.3 24.8C283.6 13.3 269 9.4 257.5 16s-15.4 21.3-8.8 32.8z" />
-        <path d="M305 164.9c-15-9.4-34.7-4.8-44.1 10.2s-4.8 34.7 10.2 44.1L317.2 248 224 248s0 0 0 0s0 0 0 0L88 248c-13.3 0-24 10.7-24 24s10.7 24 24 24l124 0c6.6 0 12 5.4 12 12s-5.4 12-12 12L56 320c-13.3 0-24 10.7-24 24s10.7 24 24 24l156 0c6.6 0 12 5.4 12 12s-5.4 12-12 12L88 392c-13.3 0-24 10.7-24 24s10.7 24 24 24l124 0c6.6 0 12 5.4 12 12s-5.4 12-12 12l-92 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l176 0c83.9 0 152-68.1 152-152l0-8c0-60.8-31.3-117.3-82.9-149.5L305 164.9z" />
-    </Icon>
-);
+const Hands = createIcon("hands", true, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABsAAAAKeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDJAsIAAE2AiQDCgQgBYMtB0YbvAXIFkoLz1tNfX9mbSXrhNcBnACVCJwigesi8InoSnCr5P//fh5/9pM+4DX6aNnTHY/CYbdNYOCjKovEJJgpbndGiRLtk5Y0S8txGY5Ldg6APbDkv56DC9R69QhYnv8HUL6QyBxQhGoAACQKAACoXdi2Odc+ykclj4KnQB7RDBAAqQOAQQANaCAFAaAaGgFSsDCAhYXARxUMwkcJBg0IAIibjGlMt73CceAqAGABoBC0ZbXwRlTyuMItn1ts9w84In7H713jrSy2zAwptuxKWJ/jEWIgv4Nrvah5tVBkZokjVVp0nuEtLh5Z7LFbeCQgJWRDtp+2pcuUXhu/MS8l7Uqs297XXjihuZwvfhhkBgdLHpUOigvYixw/iE82JB0oErADzq7E9rLG8cf5JI/OPBB14FvGo36PKJV05gTcGDS4aLE9b+kKAMACWnu9raewzba3bUK0qXwKhbpc7Ri1ZMN+qRVCCV9h/9OsS3bn9MegtaVdVAw9wvVKZ8PVdQip6Ju+hYST5/wo3iJu+fzuKd5t3lwxBK1fisprTMSCBRH+y6Up34UdO1PDJ4e3aps8p2wHKs/1d6g7huOVUmYDgAAC5Wd/HtQ9stq/EI8C4POFH3/K80zwmjLqABCCAkBAFwsWo4uqhcEogwAAAABKxpHJmOv3CHWuDSwKI4AAINiAoHBjgyaZKLCwKQou0ii/2I1NWzRihSI4dEVQhDESNBWYChYOJ8FFNe6G3TiidVfQPOHnmNpAVH+UKV2ilKlihmlVVEcutlc1027+uMsKzET6MZxhjKEvfRjIGJhRNI+NZSgNOLo+P8RQmhKUwlAFI87dqz7CoxjNQFqWD1MVsz6Yzzi+doEJKIC1DGM0GkSJDr9dZvEnYEQ28lEH");
 
 export default Hands;

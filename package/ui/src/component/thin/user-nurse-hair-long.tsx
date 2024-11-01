@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-nurse-hair-long` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-nurse-hair-long?s=thin user-nurse-hair-long}
  * @preview ![user-nurse-hair-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-nurse-hair-long.svg)
  */
-const UserNurseHairLong: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M112 76.9l0 67.1 224 0 0-67.1c0-6.4-3.8-12.1-9.6-14.7l-96-42c-4.1-1.8-8.7-1.8-12.8 0l-96 42c-5.8 2.5-9.6 8.3-9.6 14.7zM96 144l0-67.1c0-12.7 7.5-24.2 19.2-29.3l96-42c8.2-3.6 17.5-3.6 25.7 0l96 42C344.5 52.7 352 64.2 352 76.9l0 67.1 0 8 0 8s0 0 0 0l0 8c0 37.8 17.8 73.3 48 96l4.3 3.2c7.4 5.5 11.7 14.2 11.7 23.5c0 16.2-13.1 29.3-29.3 29.3L328 320c-4.4 0-8-3.6-8-8s3.6-8 8-8l58.7 0c7.4 0 13.3-6 13.3-13.3c0-4.2-2-8.1-5.3-10.7l-4.3-3.2c-20.6-15.4-36.1-36.2-45.2-59.6C328.1 267.7 280.3 304 224 304s-104.1-36.3-121.2-86.8c-9.1 23.4-24.6 44.1-45.2 59.6L53.3 280c-3.4 2.5-5.3 6.5-5.3 10.7C48 298 54 304 61.3 304l58.7 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-58.7 0C45.1 320 32 306.9 32 290.7c0-9.2 4.3-17.9 11.7-23.5L48 264c30.2-22.7 48-58.2 48-96l0-8s0 0 0 0l0-8 0-8zm148.8 16c-16.8 29.6-48.2 48-82.5 48l-45.7 0c13.8 46.3 56.6 80 107.4 80c61.9 0 112-50.1 112-112l0-8 0-8s0 0 0 0l-91.2 0zM112 160s0 0 0 0l0 8 0 8c0 5.4 .4 10.8 1.1 16l49.2 0c25.3 0 48.7-12.1 63.4-32L112 160zM232 48l0 24 24 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-24 0 0 24c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-24-24 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l24 0 0-24c0-4.4 3.6-8 8-8s8 3.6 8 8zM137.4 365.9l-3 0C69 365.9 16 418.9 16 484.3c0 5.3 4.3 9.6 9.6 9.6l396.8 0c5.3 0 9.6-4.3 9.6-9.6c0-65.4-53-118.4-118.4-118.4l-3 0-64 64c-12.5 12.5-32.8 12.5-45.3 0l-64-64zm0-16c4.2 0 8.3 1.7 11.3 4.7l64 64c6.2 6.2 16.4 6.2 22.6 0l64-64c3-3 7.1-4.7 11.3-4.7l3 0c74.2 0 134.4 60.2 134.4 134.4c0 14.1-11.5 25.6-25.6 25.6l-396.8 0C11.5 509.9 0 498.5 0 484.3c0-74.2 60.2-134.4 134.4-134.4l3 0z" />
-    </Icon>
-);
+const UserNurseHairLong = createIcon("user-nurse-hair-long", false, "data:font/woff2;base64,d09GMgABAAAAAANsAAoAAAAABzgAAAMfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHCEPQsGAAE2AiQDCAQgBYMtBzsbSAYRFZtPyT4SY/fQAUeiaLFgh9kkvgT/9Drzz5VkyJN37EmWQCEi6FI0jB9QiINbPSE4cz7P5Z7fXQUS4OdA81BubGouGpOvaE6Bnge6hm6gomh6CVtT7iKeCB423d4eONpMHwJgbbSeAMu75fpIijlgYdsAKAY8JjXbt27KjWd6Jj3xz0JPaAwIQLUA8AiwARtIJwCqsBGQzsEDDg6CZ/J9+h/ogQBAQcDnWwA4QDbgf8gAAA4AFiHHyd49NXuutHQ3EOe0cwOmM8KVNDOxndbFt9Ea2ghtzt9e6xPaam8KQmimZgrtrJqgtcyIX2OM1iWuT3K1PmlmYqIOZW6pcKDMuUKXYm2BeK1hbYKrfteaeKNFies0MylJ13Nrf76kthvySHuyOVsLHix7vvDhLGk8YMxMmURoRkRHOdMecYwV0di6ROlaRTk9qulgXHOnyhVPKnH2jXZVu1bPqIXWmEWJrbQ4oaXWJrXWetfV3apXc27IE9G+1N3Vr9d3cx2KHfqc80m/J4aPqg0mPVMbs6Z7QVq2JPROW7TWgM1O1ra7d+O7Jac2YcIAhDGvSnEhGpk/IVKZHsFgj8qccEO1a/H26b3Q7+3voXtP39aidsg9MbckMmF+JHqhFK/M/n3Ca6J3u0CX1KLsOnu3x7ev/0cPz0HnuSyYRDhUkhHTRo0fngy4g2hqSEZLOixje7tVtcGkmGIKz1jCjLDU+TY+G+LiNvixUB3fgQM+dUI2M9q2DSeNXMLIpLC8ygwbAAQIcvyC7t2jVX4LuxYALy59/ZvsYv+WbliHgDAWAAK7iF+ELroBkJkKANKWxpFr5ocEWPwuBAhFWLc3KwxoWAQxsEkTA+owCiMgU9k9gozWbLpsSLyuNCwRI2ErZyoc8U4joIr7qaD4yWvA38T8X2hKPZuoO84rWayEV8mbLJLCnc3Ww5W91bYC4/KmguFG+hlumDH66mOgMZZxlKbZsYaqN2de97uekoopwVOJt7uyr7SzaKqMttlxYf8oKvPODxUwbr5zwdBpARZLKbBY0MY/O9Giw8aOYmrRb4Fa9IEBAAAA");
 
 export default UserNurseHairLong;

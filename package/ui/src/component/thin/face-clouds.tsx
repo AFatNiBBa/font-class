@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-clouds` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-clouds?s=thin face-clouds}
  * @preview ![face-clouds](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-clouds.svg)
  */
-const FaceClouds: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M136 0c20.3 0 38.6 8.4 51.6 21.8c8.7-3.7 18.3-5.8 28.4-5.8c39.8 0 72 32.2 72 72s-32.2 72-72 72L64 160C28.7 160 0 131.3 0 96S28.7 32 64 32l12.1 0C89 12.7 111 0 136 0zM80.3 48L64 48C37.5 48 16 69.5 16 96s21.5 48 48 48l152 0c30.9 0 56-25.1 56-56s-25.1-56-56-56c-9.1 0-17.6 2.2-25.2 6c-4.1 2.1-9.3 1-12.3-2.5C168.2 23.6 153 16 136 16c-20.5 0-38.5 11.1-48.2 27.5c-1.6 2.7-4.3 4.5-7.4 4.5zm208-46.1C298.7 .7 309.3 0 320 0C461.4 0 576 114.6 576 256c0 7.3-.3 14.5-.9 21.7c-4.9-3.1-10-5.7-15.5-7.8c.3-4.6 .4-9.2 .4-13.8C560 123.5 452.5 16 320 16c-6.6 0-13.1 .3-19.5 .8c-3.6-5.3-7.7-10.3-12.1-14.8zM80 256c0 102.6 64.4 190.2 155 224.5c3.7 7.6 8.2 14.8 13.4 21.3C141.9 470.9 64 372.6 64 256c0-22.1 2.8-43.5 8.1-64l16.6 0C83 212.4 80 233.8 80 256zm144.4-48a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm176-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM583.9 355.6C616.4 365.8 640 396.1 640 432c0 44.2-35.8 80-80 80l-224 0c-44.2 0-80-35.8-80-80c0-39.1 28-71.6 65.1-78.6c7-46.1 46.8-81.4 94.9-81.4c28.7 0 54.5 12.6 72 32.5c9.4-5.4 20.3-8.5 32-8.5c33.9 0 61.6 26.3 63.9 59.6zM568 360c0-26.5-21.5-48-48-48c-10 0-19.3 3.1-27 8.3c-4.4 3-10.8 2.3-14.1-1.9C464.2 299.9 441.5 288 416 288c-41.5 0-75.6 31.6-79.6 72c-.4 4.4-4 7.9-8.4 8.5c-31.6 3.9-56 30.9-56 63.5c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64c0-30-20.6-55.1-48.4-62.1c-4.4-1.1-7.6-5.3-7.6-9.9z" />
-    </Icon>
-);
+const FaceClouds = createIcon("face-clouds", false, "data:font/woff2;base64,d09GMgABAAAAAANYAAoAAAAABxgAAAMOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiDWwsGAAE2AiQDCAQgBYMtBzIb3QXIjtRWcZLkLh6+Du393U0r43U8FE4XCVDEAxbOBKkB9tPT8/P/v866L/GvoBGh0jIqPRB3gFFzZm34xL3TP7bn83EB5qHsqQvH5GjO8wQCTIvGBlq8uYStxW03QdRCGSGR2EKJ3+gKOaST5Drg6BXHL6zGYyRHmoEA0Qfcp423sRqnRRKJrv8/AMQdlYAAYgtggkAGGQwQYE6KwIAMDwoZgg/9/5/+B/JAAEQVgZR8fAFNcAE8AFAAiarI7LzVX632hHJyrUzg5KzNhvBF3IbwLdbFYZuDGG2M2GpbFrktlKNtqVWMY+sN8y1LjAuCOdpkXmRfaloYMtUw37Q1ZL1lPvMu4h5U38g/0zzasNA0hh4m7K24Kkytk00P8omGEguMD4WwaIydo8VY5zA3nfPHPd7MQBY3b7ASLcHysM1JjA5GbHVdKayKdB14DBGcMyw1Ed01I2V92GbLfMN6y2JPCt8ij9xmH2NbdiEFbPXZ+tZzvft1TDolFl3Qi4mJOl2sJS7Gal9fxopXa1DdaZRPcPdxz29IpTeexy3GwH/vlcr3/wbqNnQuksz+8CtQfiv6o08pxsyxWlDKsa6DlUoUfP3aoUMB2MHb/dZfVG8DzkW21r3qLAn58fnU4hnpi5meWbGu26JOJ9527dLnhvbtDq2b9Ab4s5PQzUeEz14grcF4oGHhgrzdpx77zXb7WD9LbwCPOP2hoULfgR8aG3MUnQZ/eK16qFt88tnMt28VD1IBECBgtvvu6KDP+qriJAB+jr7/BXry/2nJaMlWQJ0EEJCn/6PQVjIaQGgSQCbFcATM/FCA5AxUgmjbwr25wKBGosCQ2fmgYCJR4ZK8RRXTCCkqahCDdqghoTEIUilGQMZgH+SyXEorGEIK1RaYtHxU5ixp08XT+PiYOD6DnywrrYBqsuOZ/Opg2HDZFo7nojsGoD+Gohu6oheGtmSDUZ0bhn4omdMt/i4vXow4vAz87tp9p9BKD8YQ9Bq3758kE39+NMzw+d7hOCIR6J0pSSQQiXtnvNF/OHQNAQ==");
 
 export default FaceClouds;

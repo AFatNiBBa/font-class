@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `waffle` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waffle?s=sharp-regular waffle}
  * @preview ![waffle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/waffle.svg)
  */
-const Waffle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM176 112l0 32 64 0 0-32 0-16 32 0 0 16 0 32 64 0 0-32 0-16 32 0 0 16 0 32 32 0 16 0 0 32-16 0-32 0 0 64 32 0 16 0 0 32-16 0-32 0 0 64 32 0 16 0 0 32-16 0-32 0 0 32 0 16-32 0 0-16 0-32-64 0 0 32 0 16-32 0 0-16 0-32-64 0 0 32 0 16-32 0 0-16 0-32-32 0-16 0 0-32 16 0 32 0 0-64-32 0-16 0 0-32 16 0 32 0 0-64-32 0-16 0 0-32 16 0 32 0 0-32 0-16 32 0 0 16zm0 128l64 0 0-64-64 0 0 64zm96 0l64 0 0-64-64 0 0 64zm0 32l0 64 64 0 0-64-64 0zm-32 0l-64 0 0 64 64 0 0-64z" />
-    </Icon>
-);
+const Waffle = createIcon("waffle", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABoQAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDZAsGAAE2AiQDCAQgBYMtBy0b4QXIhuD5uX+bc5NPSRnSKkZSQKqsSFhYYrSoVr/5v9zzo6M1nn+S00NZu7l4g0R7aWBb9LxlvTTPAss0AWtw3ogD7gr1Z8jjpbiljnQvfYyb7kPjL51dJqnLAEQrAExdvXyh13+P3yM+qj1DfGQ+AmIqqAQyZOgmwASZQDe5Crlc8HvUauw/sCKAqBc8L4EcTfgKPwNykDTkedeuR5uCYlnXPF+VvLbYfmFQxKPzPiyuzHl/wEPnBz4y94Py6vyPBj8Wzb6bHvHW4s/Kqws/mfrGyq+nvL7g4+LKok+nvblqtVBGIGpUaKq3lKIorIS4iIhOkKTXlCWWcDkoi24hlN5zfaUoirIgd/S+3+r+P70+3vWxz14b+yqPNitHjy6bPfrq2FZD7f+5mU10fuqN6dPfeKpzk5m2EaUeu1kFtSkqrWRTDVet5Jnm3LCztyd8fkpgoYEtBX/1OBAIdtxr33Jzywn/N5YJ/Pnif/+Rn5Ha60m6j0YJBNmA2gAbEkgEACDFKb0TBJKPNMDv2sxtAUKBAEm9QoBMV60EyBX6C1Cnh5EC1Cssl4m8SWhnYw2SZo6CzChnQK6dp0CdCd4r12sX2aetfpjqj2XWrDY081Q1dNCQalw12VBqX6usF8dXq8N9TvGBvtDXLocdcsJOO+x1okUds7B20kGz5pCZvqgy1CBDVMapdrfvW6tw+Zjj9o4b+zcZrzo/38ep+fF9YSwJBIdx0i2oS/Wnt+7adWAn");
 
 export default Waffle;

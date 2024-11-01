@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `desktop` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/desktop?s=thin desktop}
  * @preview ![desktop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/desktop.svg)
  */
-const Desktop: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 16c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-167.8 0-.3 0-111.7 0-.3 0L64 400c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l448 0zM64 416l158.6 0-13.3 80L136 496c-4.4 0-8 3.6-8 8s3.6 8 8 8l80 0 144 0 80 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-73.2 0-13.3-80L512 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64zm161.4 80l13.3-80 98.4 0 13.3 80-125.1 0zM80 80l416 0 0 192L80 272 80 80zM64 80l0 192c0 8.8 7.2 16 16 16l416 0c8.8 0 16-7.2 16-16l0-192c0-8.8-7.2-16-16-16L80 64c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const Desktop = createIcon("desktop", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhAAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCOAsGAAE2AiQDCAQgBYMtBy4bNgVRlMzFBNmPBNuNVRUKsrgRhvGDJzrx8L3N13PfrmT/BSOuf2VECHEVd8EKGDtWFy4q1KTFKrV0bFhpEMbTem7J1arVn//LPb+16AA/H8GhjUnTNjfA9nyeQMBR+aZ6PraFWaKYtZPUG5TOIEkST59he8NoBXn84qIW6Zn0Ex6KHxp/GesekiwDEEMAsO7IgV063ehG/NRD/GQHAmI9aAQyZJggwEqZwAS5Brlc0I1ej/4DGwKINpDJaXMMwN14EJCDpNbK8/7ZfX3DyladHy5bxZU3NOKJTPE0Hm9FRLhbe9OeLFk850/N+mJZlAejiMfxhJblU/6kFXE4ynjrvlezePa8O6p4fb0dKZ7Z7/RDRw4eKeNQFMfrqhZVRCGI8DrsCH+kKh5H/7vy7p9i+6fLP+l9NPdXfs4a2c+/zn0bt+BtE43SzjcPvYR59R7bnG23z+7t5gXbVHu86OWhQ4tGYSZf7rTg5T11ss5vZK4+/NLLL69SnSEdFAzqvqw7qKMcDgSCnWd2jzvDK/+nMoE/P/+v2V+vk9amdzFQAkE2s/ecTGuBhAFkU9yln/miQHKHFrxr5UkBQoEASVshQGa8IQLkCjMEaJlkkQBthQMykfcJI5xqIKncCjKLXQW5ET4DLSt9m2kbEZkSKiqkfAEzN/fQplnNvNlzm+XNsqKqeiWFyRXNsTP1Lt8xzS512c1ucodLLrrWHR1/m135O91oM8dt8kONeWabq7FcI64/modd9ja3u3auyadZobkfTXUX33+a9ROIzleUJCINeOM=");
 
 export default Desktop;

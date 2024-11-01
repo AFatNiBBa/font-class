@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-down-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-down-right?s=thin turn-down-right}
  * @preview ![turn-down-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/turn-down-right.svg)
  */
-const TurnDownRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M336 240l0-89.1c0-3.8 3.1-6.9 6.9-6.9c1.8 0 3.5 .7 4.7 1.9L495.2 286.1c.5 .5 .8 1.2 .8 1.9s-.3 1.4-.8 1.9L347.6 430.1c-1.3 1.2-3 1.9-4.7 1.9c-3.8 0-6.9-3.1-6.9-6.9l0-89.1c0-8.8-7.2-16-16-16l-208 0c-53 0-96-43-96-96L16 72c0-13.3 10.7-24 24-24l16 0c13.3 0 24 10.7 24 24l0 152c0 17.7 14.3 32 32 32l208 0c8.8 0 16-7.2 16-16zm170.2 34.5L358.6 134.3c-4.2-4-9.9-6.3-15.8-6.3c-12.6 0-22.9 10.2-22.9 22.9l0 73.1 0 16-16 0-192 0c-8.8 0-16-7.2-16-16L96 72c0-22.1-17.9-40-40-40L40 32C17.9 32 0 49.9 0 72L0 224c0 61.9 50.1 112 112 112l192 0 16 0 0 16 0 73.1c0 12.6 10.2 22.9 22.9 22.9c5.9 0 11.5-2.3 15.8-6.3L506.2 301.5c3.7-3.5 5.8-8.4 5.8-13.5s-2.1-10-5.8-13.5z" />
-    </Icon>
-);
+const TurnDownRight = createIcon("turn-down-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeQAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCDwsGAAE2AiQDCAQgBYMtBzYbFQXIjoTcROtfxKC5RlDZrLJ6Rhva0YJ0hHNM9EAeIHqsM5/QAzbMA/OB3d98D9GfONf5zkcDLPKhRVLqQAokIs4nMMCNdo8F9GBpD/ZGJWCv28SnDjG8iggREomOc3Q8nSCPTxxXIb2Yvsfj7UnjF33dQ5JlAKIOgCW7tm3w5aW4FPF913vE99YhIJaCUiBDhgECzJcJDJArkcsFl6Krq/wHlgQQLfSiE8iR4yxuBuQgSXk+eWqt0p7vrFWKYyGe7/1wzx3xrDt6bI9niud6RTzXq4j3xzYHRbw8qhav9xV39Hy2VkuJO3ay87nitT5CFCLe2cvuX8RDPZ4hXh3z9oxaTYgXRzzce1c8HywPbdabv/X9ye9t+mmPrlU2Z42nHiZCP0sj21zZo+PSz+5oNqsv6LmlbkvPF3Q88EDHzy51vD30qUcYe6J1SY816tyX/i28oPHxxUZd4+LHjRd0/u/PL+t1a/RY0nriqYftqFa3A4Hg6pChZw91zv+vWkvgyscev6EkNVGVQJCN7xpvfwKJAACkuMXQBIHkqEQftc1zAoQCAZIWhQCZ/uoC5ArjBKgYZIYALQrbZCJvFXo4sOCkzfVwZqZb4VwP78AV832lt+gRGd4otFDfvfiVFlgxV06ZOLmcW25Dk4YQweN5ZVoafUstjaGdTrrWNW5ywnFn3GSgG2ywbnbByghc4YVKU0w0WWmu8jjZb+90wg1udMa1rpEp85T3tdFuiZvHkJoo7lS2JBGpE+LCBBBSDxYAAA==");
 
 export default TurnDownRight;

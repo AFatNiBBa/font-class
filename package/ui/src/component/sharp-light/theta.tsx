@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `theta` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/theta?s=sharp-light theta}
  * @preview ![theta](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/theta.svg)
  */
-const Theta: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 256c0-58.9 17.1-111.6 43.9-149.1C118.7 69.4 154.3 48 192 48s73.3 21.4 100.1 58.9C318.9 144.4 336 197.1 336 256s-17.1 111.6-43.9 149.1C265.3 442.6 229.7 464 192 464s-73.3-21.4-100.1-58.9C65.1 367.6 48 314.9 48 256zM192 16C141.3 16 96.9 44.8 65.8 88.3C34.7 131.9 16 191.2 16 256s18.7 124.1 49.8 167.7C96.9 467.2 141.3 496 192 496s95.1-28.8 126.2-72.3C349.3 380.1 368 320.8 368 256s-18.7-124.1-49.8-167.7C287.1 44.8 242.7 16 192 16zM112 240l-16 0 0 32 16 0 160 0 16 0 0-32-16 0-160 0z" />
-    </Icon>
-);
+const Theta = createIcon("theta", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYQAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBQQsGAAE2AiQDCAQgBYMtBywbvQTIHoVxw11iIIahDRf5b05f8Tz8frhz338TkzjHpZLwyCJxpLQlC5VE9lC0ES2JJfL3e8bVnyVC2nmbAN05EUp3KcGKSmHTJCR+6tTznIcC+BYAGBtjY+sCCc15HoGcT8vF01agXCvWilJw7940Y5Mp+zKZaJKOKzu+LqiZiY2YclS+sdveNL/MWKWoDQAyDABuPCzJw/2XfEm+2xPy1i0QyE3AMkKDBvMIXCYUzBNZBlUVvqRt6T+QIUA6ob+tgIoOXAO3AVRQNFWkn1P2idWi8j6xouJT5lPuS/pD2U/afdZrxmN5xdoK5Xzjp/S3bOfCRt/6+tWx/4q/8t2Lm72lvUoF0qckUhifDm/+6bv9G8fepProaG/v6CjVtrv7T4qyfSwzLYKhuS1ImSJILPisU4uhe1bQAHno5HeD6NFQ7H93nwDw7fm/+/OG24/ZKZvoVkBoNtoNtVk0TJcdBAAoGWcMPohQnCOEr9pvX0D0IqDo1CugMUeHQNVrHYEOi/wIdOp1l1CqHDGuboCi3xPQOGsOVOOOQIfL3uxO42kSiUoD6h8Xn+Oh7Cl2O1wc4WXA6NwgZBjlbcE0zgUznKLdgH6j2rTqMuqQYXnemD45EZzti5ibgwuL4OP4+bhcm2Ejugzor2Oi+L5mMh7Xm2EOAeDkExDsSxGPPm4bbQIA");
 
 export default Theta;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shop` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shop?s=solid shop}
  * @preview ![shop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shop.svg)
  */
-const Shop: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M36.8 192l566.3 0c20.3 0 36.8-16.5 36.8-36.8c0-7.3-2.2-14.4-6.2-20.4L558.2 21.4C549.3 8 534.4 0 518.3 0L121.7 0c-16 0-31 8-39.9 21.4L6.2 134.7c-4 6.1-6.2 13.2-6.2 20.4C0 175.5 16.5 192 36.8 192zM64 224l0 160 0 80c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-80 0-160-64 0 0 160-192 0 0-160-64 0zm448 0l0 256c0 17.7 14.3 32 32 32s32-14.3 32-32l0-256-64 0z" />
-    </Icon>
-);
+const Shop = createIcon("shop", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZQAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBUwsGAAE2AiQDCAQgBYMtBysbzgTIHomxLYr9iihvF/Hw/Vqf577uWQDsZUYHxIrJRX0XVmvDNhUZRVOM7xlSiz//19SL50dR+vkIDi0KK9ZYvh0t6/kEJradbi3WNrATxVk7u+WF8CNJykOGzQ+bE+TxT3ZSiXQv/YAr8UfjT02dJKmaAYg6ABizaN4MFb/FbxHflyO+Nw0BMQYUAhkytBBguEyghVyBXC74Lcpl+g8sCCAq4cdLIEcJMzEfkIMky/NmLWtXL9XMF1YvVVtUu1btC43vxLFGC+N+xxrxpMn8uOlow1vVuwjiXmnpUD2eN77TPBBWCxaKSs2UpQlxb28W1dq+qvPqLz9s/EH78kBOq3P/ZZ3qi6ft8eUqV7/kpsXV67y8X+f9Axw2W/bjT71/0/unH7PZHhjtgQqXqECts2drJYrROMRVMzq8GrWq9vC/q1RP4I+vjvuVK9LR9ApVJBBk3cvdLU9HgfgBVFMc1FbIWCCZKAP+1hpuCxCqIUBSSTUBMs3VESBXTTcBSloZIEAl1cyTibyq0MCKCpIa9oDMQIdAroHPoGS4r6uVNIhMo2R9kD90GRNbdMK2ok/P3sXQYthWFCUR/fqwYtnsfNCMdUGqjXbZab8N1ttif4PvNaNxwA4TJWyCDBX66Km3wlDFce9+90Ib7LXPFrvsDJsMU9zPd3ZQnt0FTsKCfSWSRKT8CQMAAAA=");
 
 export default Shop;

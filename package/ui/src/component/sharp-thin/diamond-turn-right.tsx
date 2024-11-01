@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diamond-turn-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamond-turn-right?s=sharp-thin diamond-turn-right}
  * @preview ![diamond-turn-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/diamond-turn-right.svg)
  */
-const DiamondTurnRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M11.3 267.3L0 256l11.3-11.3L244.7 11.3 256 0l11.3 11.3L500.7 244.7 512 256l-11.3 11.3L267.3 500.7 256 512l-11.3-11.3L11.3 267.3zM22.6 256L256 489.4 489.4 256 256 22.6 22.6 256zm287-109.7l72 72 5.7 5.7-5.7 5.7-72 72-5.7 5.7L292.7 296l5.7-5.7L356.7 232 200 232l0 96 0 8-16 0 0-8 0-104 0-8 8 0 164.7 0-58.3-58.3-5.7-5.7L304 140.7l5.7 5.7z" />
-    </Icon>
-);
+const DiamondTurnRight = createIcon("diamond-turn-right", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABaQAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBagsGAAE2AiQDCAQgBYMtBzkb8wTIHgPuCoRH84TWYijohF6vz3j++/1e1z7vBghtolAlBR1XFK5Ty8bW0XjWQELGmD91nejq51dj+7d4E607JLd8kEji1miUynSuEgqNVOFrtTFPf+/O//nfgM/oo41Nc/Hy2R7nCSyB7nvngUVZYJkmYPnd6r1+o1LmFEnykezhNnQ47QNa/mBITb1TxKv8obm25gql6wBkFgDcfljI4znIILnqv0GuXIJAbgPYRejQYROBc0rBJpVd0DRhkL53/4EMATKMn1ugYQh3wSMADZSutbUx14R6qj0I5fGHNqvNThUyqDUl1JJiyZayvVQuVbxL9wY0NKvaU6DxiMyyPzFxR3VY96VB/u4dN/5V4gaff74o5u83FORvyyEREPTrUSQJdzddOrN0HtMZfX8nSEWAINx47kx19Of/dRMF/v7+v7Y/I/2z1BfAqAKhO+wPNQsUAQBUXsJRQFAuKfG7TnqNQIwjoAwbF9DZYECgGXeAwJBtMQSGjbtLKW1MLGo1UCY9AZ0zF9AseoAh517psMUopYuVDfbfLinbQ+Ich/xBTvNyqHICQ8fjDB+rzjMtudCJsY21o5GhmWNH7uWLk5XsDha+iIX4BbE0vp483i8b2TuY2VinUzL4+9DpvN/sgqHAlEd6SpGaf8+yT6jZ9wk=");
 
 export default DiamondTurnRight;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-arrow-up` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-arrow-up?s=duotone book-arrow-up}
  * @preview ![book-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/book-arrow-up.svg)
  */
-const BookArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 416c0 17.7 14.3 32 32 32l120 0 0-64L96 384c-17.7 0-32 14.3-32 32zm200-32l0 64 88 0 64 0 0-64-64 0-88 0z" />
-        <path d="M96 0C43 0 0 43 0 96L0 416c0 53 43 96 96 96l120 0 0-64L96 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l120 0 0-174.1-39 39c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l80-80c9.4-9.4 24.6-9.4 33.9 0l80 80c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-39-39L264 384l88 0 64 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L384 0 96 0zM264 448l0 64 120 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0-88 0z" />
-    </Icon>
-);
+const BookArrowUp = createIcon("book-arrow-up", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhwAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCHwsIAAE2AiQDCgQgBYMtB1YbRwXIhuB7nVW/L9k1Iy+DFoi1RHCElCFG7OwAg3DqUoLY09/P83/+qf0B+I+0qEVxJmWeT2Dn1Z5g5ROa6Qxsy+bwiwke0lloP0Mer2V3qpGeS9/jkfJ/AONX/d1J0p4BiG4AWLp7+0bNjuhI8X3rY+J7GxAQy0ApkCHDIAEWygQGyZXI5YKO1GrREa1WSQBRV2ZmoE7efhmuB+QgSVKeV127tzdqnfNdjVqx/+OxEa8PSvHSuDdmNSKiiPv7PB239X2mcTiyMF4e/fzA3fHaqJ3xXD8RvzhEo/GARIlMTumkFcUe4cSKzPW39o54quEkudeTdgv4vmL4m93e/H3Y96e+d/jLW9/kzbZK25tv3nqtSkd2uffeLiuv9a5TOnf++efNmxNaUBVFkk55155KplXSQHnNl1VtXVtaOCqtUSEqcaR+NVQq7UkeogICwU1rP/jrcNeF/7c1Evjlkz//Nf2OWs1opjfRJoEgm9ia6EA0IZoCAJDiasOjiUogs1lSf2onTwsQCgRI6goBMgN1EyBXmCBAzRCzBKgrbJeJvF3o5eAGkk4uA5nZbgK5Xj4CNQt9FazrFRngcWDD/fclrzpCKyeV0yZPLeeXryULD0uMdHRBqa2OvTpqGYdPOuUSF7vSSSecdeUBudzGyFUuskoGr/RFpWkmm6o0X2ld/SrvOgQvd4Wzz6L9OAuU/r1jXS3vPg5PJwGmf7KijEiR9QbLHZOOXn75JddMuurSSYG4Q98HMcACAAA=");
 
 export default BookArrowUp;

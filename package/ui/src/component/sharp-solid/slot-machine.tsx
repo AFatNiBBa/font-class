@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `slot-machine` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/slot-machine?s=sharp-solid slot-machine}
  * @preview ![slot-machine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/slot-machine.svg)
  */
-const SlotMachine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 0L64 0l0 64 384 0 0-64zm64 96L0 96 0 416l64 0 0 96 352 0 32 0 144 0 32 0 0-32 0-268.2c9.8-8.8 16-21.6 16-35.8c0-26.5-21.5-48-48-48s-48 21.5-48 48c0 14.2 6.2 27 16 35.8L560 448l-112 0 0-32 64 0 0-320zM80 176l72 0 24 0 0 24 0 8 0 5.3-2.2 4.8L119.4 336l-52.9 0 3.7-8.1 48-103.9L80 224l-24 0 0-48 24 0zM263.4 336l-52.9 0 3.7-8.1 48-103.9L224 224l-24 0 0-48 24 0 72 0 24 0 0 24 0 8 0 5.3-2.2 4.8L263.4 336zm144 0l-52.9 0 3.7-8.1 48-103.9L368 224l-24 0 0-48 24 0 72 0 24 0 0 24 0 8 0 5.3-2.2 4.8L407.4 336z" />
-    </Icon>
-);
+const SlotMachine = createIcon("slot-machine", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABfAAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCOgsGAAE2AiQDCAQgBYMtBzMbPQXIjtRG+QMZxsP/21Hd96uqp7tqjBpJEawMisAlIwAZfPJ1utvhRqyn96lTz3MeCuBzCIK2h06cIKE1Os8rUMBarz5tgdfGtIpidxe1D3W2n2SLjOTxmzxe1pDH39lVBemR9A1upyuNP3RzlaQpAxBtATB33aqVPvs1fo34+v+3ia8tR0DMBbVAhgw9BZghE+gpVyOXC36N//83/4E1AUQDfOwEcrTAOVwD5CAp8rxpYLcuXaqiVb62Ksp9LVu1FK0i1rRu0zpFFaJVFZHFQz0e7fzgoOc73t/1kU6ijIgqsu1VWQkhOsbqKKNLrIuyjKjWlFVJUuMhqt7ifi+0faG57zd7v/HppxfxXHNcNGf2Nswxx3bbf6i11Fxk3/44ZsyP32ZF85+Oq4V9X7VkyfauGhU6mnTGBION3mdQ1zG6vvPUBEjR9MxQd7qHA4Hgs34/DdzWZsZfjVUCv3+wOe/j/8/SxfQCGiUQZCP+H2Gz8yCgA/BTnNUPvopAckYBL7WlBwUIJQIkDUoBMj20FSBXGi5AobeJAjQorZKJvEnoaEsFSUsnQGaScyDX0ZugMMPnQYOOkWkhqUPkHzBuEYcWzqvHjhpTT6uHqUIpFu6np9fL2pCztjUUVtrrmKNO22O3A04z5KSV8RlHLJLghX6oNtYoY9SmqbeL2+Vr7XHSKQccczTOMl193hrirDx4KJgJYo6TSBKRWj5KaeTNBQA=");
 
 export default SlotMachine;

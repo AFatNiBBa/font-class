@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone?s=solid phone}
  * @preview ![phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone.svg)
  */
-const Phone: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
-    </Icon>
-);
+const Phone = createIcon("phone", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVwAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBHQsGAAE2AiQDCAQgBYMtBywbmQTIjtRG94xdInh+7X9z7u5X3BZ3TdDMmmaxSHOpdE+aqLwMqcX/+5vn/zwK8BmFNhYuDaTte58nkGhx5x8sygLLNAHrbSIiNCF8IyRMQjqu8vg6IY8H2VFlpCvpIy60h8ZPzRwlqcoARF0AjF08f6ann+NzxIdSxAfTERBjQSGQIUNLAUbIBFrKFcjlgs9RKoV/YEEAUY5wJpAjQx+MAuQgiTzvUqOsVr6oHFQvv9g44mLDBXGt6aeFyXOzxeK41FjAuChudBkT70c97jc77jZf1O5O3Tu/fdz00bUbq17x6eviJm63dHj4BpA24MWHPbvaZLFeK1f8WN3ZrQ57TLl86miFcac7rwYCwbnFZyasrjPiX2WNBL7e/7v8FZWeppTuoFICQdaj1MOKhNL/lAQAIMUh7RIEki4SumtNFwUI1QiQlKsWINNCXQFy1boLUKa1gQKUqzZfJvIqoaGVA5Ka9kJmkCOQa+gelBnhjVGuYWRuw146+2tLmsTRxK2ib68+xbBimeicJ9B1ObzYlrscio2usGuT3XY5YKMNtjrAyH1m2gftNEkjJnpRoa9e+igMU5jzZ2kRGvvst1UW7GuGK87rXRzS+7uClhBlP74kEansYQEAAAA=");
 
 export default Phone;

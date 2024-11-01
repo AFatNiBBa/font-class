@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `robot-astromech` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/robot-astromech?s=light robot-astromech}
  * @preview ![robot-astromech](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/robot-astromech.svg)
  */
-const RobotAstromech: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0C176.5 0 112 64.5 112 144l0 16-16 0c-35.3 0-64 28.7-64 64l0 196.2L2.4 479.5C.8 482.6 0 486 0 489.5C0 501.9 10.1 512 22.5 512L128 512c8.8 0 16-7.2 16-16l0-89.4 36.7 36.7c3 3 7.1 4.7 11.3 4.7l128 0c4.2 0 8.3-1.7 11.3-4.7L368 406.6l0 89.4c0 8.8 7.2 16 16 16l105.5 0c12.4 0 22.5-10.1 22.5-22.5c0-3.5-.8-6.9-2.4-10L480 420.2 480 224c0-35.3-28.7-64-64-64l-16 0 0-16C400 64.5 335.5 0 256 0zM400 192l16 0c17.7 0 32 14.3 32 32l0 200c0 2.5 .6 4.9 1.7 7.2L474.1 480 400 480l0-112 0-176zm-32 0l0 169.4L313.4 416l-114.7 0L144 361.4 144 192l224 0zm-256 0l0 176 0 112-74.1 0 24.4-48.8c1.1-2.2 1.7-4.7 1.7-7.2l0-200c0-17.7 14.3-32 32-32l16 0zm32-48c0-61.9 50.1-112 112-112s112 50.1 112 112l0 16-224 0 0-16zm80-16a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm80 0a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM192 240c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16zm0 64c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const RobotAstromech = createIcon("robot-astromech", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABrQAAALVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDQgsGAAE2AiQDCAQgBYMtBzYbyAURlZq5yX4m2HT4FnqKUWPrJQ4nVRvStDKjPgw9PUcvw0+Cfz67r/uq66tq7GhmAWZWujFAx+yzqRA3wdmOGaWIXfxUX4FtjovprhqBCo10ySISKvEhpce/HnRwA6oALEsDwEAiL6BPXO78pz34MnqUNWjqpjH92+s8gQCzws1x51lgmQZCqea7rWfFgaK8YpAPX4aIoQwupCt3N2B1Qw2IgdlmXgLWhDfVVxRbCAw2AABAWQAAQNc30HA3VCjo5f8S6CV6AgGoGwBVBARAAJQRAB0ECChjqQIWiyBUFJn/QEIAoDj4VQwAFvDAfeAZAGABMKSs7ZqbnpuVm0pP97F0O8Sb3ciHsnSzCjkdrD0aQ020kW0lry2FUkdt8l4rCjsLbcr3OlI6L9JM0vZ6x8tO0v5Ot9XBTodfkb8JaG5+UzlJcoh+4dAACfJpCOTUXFskzSvc4vSN9zSkE60v1Y6lkZOGriiUtmhewWbH8ryNmBve5PRbCjdHNoY2hQfd5Ardiaeg59Uc9x3/5F6uFtGdezpM3Syy7PVnu4d4T27ndt0izBhOdy1mLokW3TFcRrijaT96j4c4kbZXXC37+r33BI5nLF1qT2FzxqKHsc7yGPYV441xDCFnIYzCnHoK0SlZUab4+et/yrMIyTqv1YGZ2GHwfqEnI0TPrU9IQpzqUjwOAAIEweR3v8yU/ye9AeDL9fv6r5HorsEcB5IYAARBg6iBUQkAAwIAAACMJlOTAAIM15ECr5rGZggA4QABYIjjEAABpbIIAIujPgEQo0JLAiCOY6AA2RQiz+hMGdIYRwW0Mouy5LlAxejgSRInLwJNFvRQeI9MlWoNKLvYa3cpctqRROXk3KZEsVF98USN7sTK2cnD0sLWw9mNVuVPR+oKU3wQ9bR1kYjb/dvDY0s3d1tnJ7+NhOedqtd6fo1sA0DbVzPAAMGQ+TBOtX660fGpTAA=");
 
 export default RobotAstromech;

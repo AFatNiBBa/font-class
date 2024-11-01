@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `id-card-clip` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/id-card-clip?s=solid id-card-clip}
  * @preview ![id-card-clip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/id-card-clip.svg)
  */
-const IdCardClip: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 0l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zM64 64l128 0 0 48c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-48 128 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 128C0 92.7 28.7 64 64 64zM176 437.3c0 5.9 4.8 10.7 10.7 10.7l202.7 0c5.9 0 10.7-4.8 10.7-10.7c0-29.5-23.9-53.3-53.3-53.3l-117.3 0c-29.5 0-53.3 23.9-53.3 53.3zM288 352a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const IdCardClip = createIcon("id-card-clip", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfgAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCDQsGAAE2AiQDCAQgBYMtBzMbEAXIBp5/da/3SfI/+XIYFGInKSJvhDASb+WpI9CKE031/1zz+T0/OsDPR3AoFVS9jQs8U2DP9wYYZZmgCTabKM7cFpcWRFkxiBwyxxBDc3wovwZG3ukNeKCOqtfA7vZR8o0sNoAiqgEAkEQAAKDzyKH9efpZPou8Cm+BvKIvIADSGQCHABr9cxEA2qERXgODAwwGgc8ShvU/0IEAgETQh1IAGCACzAEWAwAGAIUxJrsqKc734swI37NjfetvTzsIsib1gLWyLf2QiKzNOOwPMx3kqMRKfbnMd84R8eVi5dUsJUcqrpTEyqWqa9lajldfLx99MM2Xwxlr0w+VWbmQeiBz5B2DdJQWNyNkdErzomuJ134Uvp7xmvBJJ+0xfsuW+E5050nHNZg3QL95H0wieP9GB6zhTFKS7YRF+5mn84yFy6J7XrInmv7/56DlTPr501s4LKgrKKgLcDsACCBwtLHw7cSEdr9jfAXA1/u//snhhE9VJ3UNiEEBIKBrwhrGqU4AwAsAJJSsoMj5IgEUUzDoWbEcQgAQLCAAKCJYJmhySASDpRo88mlOB0cPRSMmipDKeIAilsWgacFKMKRyAzza8SweIVV0urHJwv7tJfVgpHs311AXuDZumza4DKJLe1sXVitWSFklZjKDhSxgGdOZxmyWEbaE/qnlzKeHh3bnhzgaqCPA0QZ3nHuVRlBiCUuZbXPnndAWdz+sYIVfuxKGQgkb6adQICp29rTaty3Xfu8AAA==");
 
 export default IdCardClip;

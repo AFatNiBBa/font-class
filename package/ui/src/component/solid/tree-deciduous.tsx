@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree-deciduous` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-deciduous?s=solid tree-deciduous}
  * @preview ![tree-deciduous](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tree-deciduous.svg)
  */
-const TreeDeciduous: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M384 80c-11.5 0-22.5 2.4-32.4 6.8C347 38.1 305.9 0 256 0s-91 38.1-95.6 86.8C150.5 82.4 139.5 80 128 80c-44.2 0-80 35.8-80 80c0 14.4 3.8 27.9 10.5 39.6C24.1 214.2 0 248.3 0 288c0 53 43 96 96 96l128 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96 128 0c53 0 96-43 96-96c0-39.7-24.1-73.8-58.5-88.4c6.7-11.7 10.5-25.2 10.5-39.6c0-44.2-35.8-80-80-80z" />
-    </Icon>
-);
+const TreeDeciduous = createIcon("tree-deciduous", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZQAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBNQsGAAE2AiQDCAQgBYMtBzUbugTIhofn9Z469yUDOGOzg7BktpQ7NwXA7k+dep7zUADfKGh76MYFEprzPAIRW9zzXkBKtYLVtALW3dl2ULD2SVrKWnKcc1zKA/J4OzujCunB9Bmu04fGT1o4Q1IjAxD1ATB+6cLZPvg8Po/4tPIq8amZCIjxoBDIkKG1AKNkAq3lCuRywedRqYT/wIIAoip+ZgI5MozHZEAOksjz4bWq1MmXpIuaWy81fqxHOeSVbi+0vlcTbznR4pnmD3i0+4uDa4U40eRurcvN7kdErXi950vtTrZ8qMvDYb65Q1m//KX9Z1s+c3xvg28n339+3rzn70/+tkH9zUui6ZPlv/+1rV6WJ05Yp+6FC3XLS9Y54URZVm/7378P3WwaSzbXBwLBp+WdP9bWG/VP9VoJfPnWb/9rv6LKB0kqUV0CQdar0suqBBIBAEhxRIcEgWS4hN61tnsChJoIkFRVU4BMK/UFyNXUU4Aq2hosQFU1LZSJvIbQ2OoBktr2g8wQR0GusZdBFaN86FfVODIXIhyAeMHFTpHQ5K2if59+xYhimeikV2B5ObIwq92OxEZ3OLXFXnscstkm2x0SyAGzo8N2m6LBk31Rob8++imMUGznz/tLbHbAQdvttaeuGak4b3ZzRO/vDkbCqAPEkkSkuldL6P1fxju89/BB");
 
 export default TreeDeciduous;

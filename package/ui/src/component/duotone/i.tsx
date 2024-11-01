@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `i` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/i?s=duotone i}
  * @preview ![i](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/i.svg)
  */
-const I: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l96 0 0 320-96 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0 0-320 96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L160 32 32 32z" />
-    </Icon>
-);
+const I = createIcon("i", true, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABXgAAAHEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBKQsIAAE2AiQDCgQgBYMtBz4buQTIhof/XzPvmz/J7pZxWgUIiggcEKp6AlVVhzEip5ZAZ/qbf955tEAegDcmdh7IAp/zPIFEpk3wAglo/mH6Dey/bYhgoxBPQ0LCJKKxqvFaII/56bQS2YOsgmv8P4DxVUenyTQkANECAJOXLJjlXTWqWVRqb4iKmQiIKaAQSEjoIsA4SaCLXIFcLqhmtRrVqNUKAogy3j6BMhLGYAIgBxkiz4c0LjXNFzcuNVpxsU3Ebcfb3mncOLJoFJahV5rGpfb34kS7u40aRYrGZkDPRy0efe9R2VzR/WGz85xvVgnC15qEUAZFauutcRwIBPXPKyPWNB/3v75xBr68/flX+R3VqjEpe4R6GQhSv1o/K+MwxCQBAMjisJ4xCQSSITKy1ybuChAaIUCmrJEASWctBMg10leAkm6GC1DWyAJJ5A1CG6sayDSxDyQjHAG5Nl6DknHeK2VtIr0e5uyZz1viDAtNryoGDxhUjCmGBmUfBJWLY4tpqdfhFOgNvTbbY7eDNtlom4MG2W+WfsguMyJ4ui8qDDbAIIUximX7XlyMyn4HbPP59TJjFfvlXg7H8b3hwAwwhNQmicgiNWzrfweFxsrfNAAA");
 
 export default I;

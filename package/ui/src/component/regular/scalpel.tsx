@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scalpel` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scalpel?s=regular scalpel}
  * @preview ![scalpel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/scalpel.svg)
  */
-const Scalpel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M421.4 59.2c5.1-6.1 13-9.2 20.9-8.5C454.6 52 464 62.4 464 74.7c0 5.9-2.2 11.6-6.1 16L325.1 240l-56.3 0L421.4 59.2zM227.7 288l.7 0 96.8 0c13.7 0 26.8-5.9 35.9-16.1L493.8 122.6C505.5 109.4 512 92.3 512 74.7c0-37-28.1-68-64.9-71.7c-23.7-2.4-47 7.1-62.4 25.3L206.1 240l-.4 .5-5.6 6.7-12.2 14.5c-4 4.8-4.9 11.4-2.3 17.1s8.3 9.3 14.5 9.3l19 0 8.8 0zm-63 36.7l-160 160c-4.6 4.6-5.9 11.5-3.5 17.4s8.3 9.9 14.8 9.9c18.1 0 84.1-8.4 145.9-33.1C222.5 454.6 288 410.9 288 336l0-16-16 0-96 0-6.6 0-4.7 4.7z" />
-    </Icon>
-);
+const Scalpel = createIcon("scalpel", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABZQAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBTQsGAAE2AiQDCAQgBYMtBy4bywTIFkrLw//rtO77kgNyhpUB1CDDInaM1O3puSMq1/N/zeeXdnSA3+jQorCoQAooa/m8wSa2d7zUgUSBzSaKU7ex1/PzJmIQHCKGuFDE7DwOe8jjrbhejXRH+hrX5UfFz3q5mKSWAYjOAFi4ffNa738X30V81XiF+MpqBMRCUAlk6OkrwByZ4B5yFXK54LtoNOI/sCKAaFKPnkCOGlZgCyAHSZbnbQPa67UO+bZ6rTjmtvZHep1fbokitm+JiHpc1WN7PBV3jnpy2KsjtoQoo4yb22+p19ds2b7li7dfNf212W/Nf29wRFGUg57s/OSvA78++msPX3z585PK1m0X32yG215+/ycc1P1bdy77tHXr9uKiq178RtjqXdtnzCi6bbnPrnD0yBXXd7r1sj//3LSxR2edj5kCBILWLk98vL/TnH9b6gn88Obv/7UzG/833k/Sk2iRQJCNaYyxJyE46wJzUpxtEL4okCyQwae2uVWAUCBA0qQQINNHZwFyhdEC1PQ3VYAmhc0ykbcKpb0DJG1OA5lpzgG50kugZo7P7CZlZHJixcD+5pKWCS3dVE0cN6GaVS0TnVMI7dOzq215xNk1RqLX0U5xsjMd5YjjnAl5urXeWU6yjBFL/VBlonEmqMxSHefP27c5yunOcJxTnByzzFbdt0Y4mw8eCS0pykl8SSJS81uWfupRJwIA");
 
 export default Scalpel;

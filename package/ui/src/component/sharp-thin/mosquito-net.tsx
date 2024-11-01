@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mosquito-net` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mosquito-net?s=sharp-thin mosquito-net}
  * @preview ![mosquito-net](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mosquito-net.svg)
  */
-const MosquitoNet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M376.7 80.8L415 11.9 401 4.1l-40 72-1.7 3.1 1.1 3.3 14.1 42.2L320 161.1l0-23.1 0-32-23.8 0 0-42.2 0-8.2-16.3 0 0 8.2 0 42.2-23.8 0 0 32 0 23.1-54.5-36.3 14.1-42.2 1.1-3.3L215 76.1l-40-72-14 7.8 38.3 68.9-14.9 44.7-1.9 5.8 5.1 3.4 62.3 41.5L76.3 202.1C32.7 207.6 0 244.6 0 288.6c0 77.6 93.8 116.5 148.8 61.9L256 257.1l0 19.6-53.7 53.7-2.3 2.3 0 3.3 0 45.9-39 70.2 14 7.8 40-72 1-1.8 0-2.1 0-44.7 40-40 0 61.3 0 32 64 0 0-32 0-61.3 18.3 18.3 11.3-11.3L320 276.7l0-19.6 26.7 23.3 6 5.3 10.5-12.1-6-5.3L320 235.9l0-44.5 177.4 26.5s0 0 0 0l.2 0c4.2 .5 8.2 1.4 12.1 2.6l7.7 2.3 4.7-15.3-7.6-2.3c-4.7-1.4-9.6-2.5-14.7-3.1L326.2 176.2l62.3-41.5 5.1-3.4-1.9-5.8L376.7 80.8zM256 191.4l0 44.5L138.1 338.6c-.1 .1-.3 .2-.4 .4C92.8 383.9 16 352.1 16 288.6c0-35.9 26.8-66.2 62.4-70.7c0 0 0 0 0 0l.2 0L256 191.4zM392 376l-8 0 0 16 8 0 32 0 0 64-32 0-8 0 0 16 8 0 32 0 0 32 0 8 16 0 0-8 0-32 64 0 0 32 0 8 16 0 0-8 0-32 64 0 0 32 0 8 16 0 0-8 0-32 32 0 8 0 0-16-8 0-32 0 0-64 32 0 8 0 0-16-8 0-32 0 0-64 32 0 8 0 0-16-8 0-32 0 0-32 0-8-16 0 0 8 0 32-64 0 0-32 0-8-16 0 0 8 0 32-64 0 0-32 0-8-16 0 0 8 0 32-32 0-8 0 0 16 8 0 32 0 0 64-32 0zm192 16l0 64-64 0 0-64 64 0zm0-80l0 64-64 0 0-64 64 0zM440 392l64 0 0 64-64 0 0-64zm0-16l0-64 64 0 0 64-64 0zM272 360.6l0-222.7 0-16 32 0 0 16 0 222.7 0 16-32 0 0-16z" />
-    </Icon>
-);
+const MosquitoNet = createIcon("mosquito-net", false, "data:font/woff2;base64,d09GMgABAAAAAANwAAoAAAAAB4QAAAMlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUSGFQsGAAE2AiQDCAQgBYMtBzMbGAfIrgd4Q5n0G4iYa2iCY4PQck8Zn2LqqGvwzzv2el+ST0kZ0nYADHIKUDEodng8KFJop7ABAqq45wNZIw//3Kv3fcucx3OiAcsujkljW1Mt1ooVXBTuPv692AjWYrYb2Ma7wUfd2l2XJKVczIFG3NUIIDJamqX2/V+CmKlNfz/1B1DUzh/vBjYfWlRZlkYkDnc+wKL/eUkJPJtNGGepGypX7It79maHI3D6LQkwp5MUHKMv1Q/lDmGwFgAA5QEAAP0PJ47mxSpWEW/XordGAgGoP4BIgAUsUEUA9GIRUMURgcMh+BTrjf9AEAAoCZ5nAHCABy2CdgIAB4Ah7dzZzsYMsvJDIttNSfj90sNJU0tiUhSpWNUaFTB4l0JkjYlalWoOPMU3Oapmakav4HrYv2rn/Vp/FFMDjevDEJ5iTZ0rha5vSxdKTXNf14J0xTthPSTNfhbM6XijnTjRnBJj84KaScSkoT3Pvcvlup6NG3nawan7PngUAvJUtfsyQaUlaF4DqnphM6XyjMRkwm+o5KFJOR8m6uiK+CnBkbKQp/66XP8pLbVt0XjKXvir6YYClm8WKhWVaSFNnjQtlIlKTfSBpWCS+Z3Zb/KTY6D3bnVwQzeUPPJg3v2IIpMUsLTRZGZPUWFobas+nn4iPavAY1fksjlrxmrtbhcAMW57PmMssP403PLVQEV+3t20Br6u2b15uWxAKVhzAS1xHz2gMI907CeSIFIaiCX6KY1xbkfWeL55CA26cYs7Hzd1Y1l2PxX/UFQW5fmI7gdAgKDZ/5/o9YucAeDLWw/d/P8nuU9eIY0BQGBb/cesZB9gCAcACaMt6kd0qq01Sxp8ahYnBIDwgAAwJPEIAEulPALA4WlJACSo0ZkASOKZyCKXQRSZXQJDFuuBpYvdwFHkAUjQy8t4kqKwQk4uYOR/vGmG1NHBm+KgNgwMVuUKUSR1pydmW/q71eUyJ0ustcYmiy2y3KYatcHo1GarDRkTH/zbqL022ol6iKsbtzVTaokNNlrer1y/Sk9x/0AzW8YHN5ftBkjs4JDBgEzW6tuNnwDja1svrjYBAA==");
 
 export default MosquitoNet;

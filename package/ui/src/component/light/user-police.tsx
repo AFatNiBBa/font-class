@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-police` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-police?s=light user-police}
  * @preview ![user-police](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-police.svg)
  */
-const UserPolice: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M217.1 .8l-144 32C61.7 35.3 52.5 43.8 49.3 55.1s-.2 23.3 8.1 31.6L80 109.3l0 1.6c0 15.6 7.6 31.8 23.2 40.1c22.5 12 59.5 25 120.8 25s98.3-13.1 120.8-25c15.5-8.2 23.2-24.5 23.2-40.1l0-1.6 22.6-22.6-6.2-6.2 6.2 6.2c8.3-8.3 11.4-20.4 8.1-31.6s-12.4-19.8-23.8-22.3l-144-32c-4.6-1-9.3-1-13.9 0zM224 32L368 64 340.7 91.3c-3 3-4.7 7.1-4.7 11.3l0 8.2c0 5.8-2.8 10-6.2 11.8c-11.9 6.3-30.3 13.8-58.4 18C284.2 121.1 288 98.9 288 83.2c0-6.5-4-12.4-10.1-14.9l-48-19.2c-3.8-1.5-8.1-1.5-11.9 0l-48 19.2C164 70.8 160 76.7 160 83.2c0 15.7 3.8 37.9 16.5 57.5c-28.1-4.2-46.5-11.7-58.4-18c-3.4-1.8-6.2-6-6.2-11.8l0-8.2c0-4.2-1.7-8.3-4.7-11.3L80 64 224 32zM96 192c0 70.7 57.3 128 128 128s128-57.3 128-128c0-2.9-.1-5.8-.3-8.7c-9.1 4.3-19.6 8.5-31.8 12.1C318.1 246.9 275.9 288 224 288s-94.1-41.1-95.9-92.6c-12.2-3.6-22.7-7.8-31.8-12.1c-.2 2.9-.3 5.8-.3 8.7zm128-49.7C203.5 131 195.1 111 192.7 93.7L224 81.2l31.3 12.5C252.9 111 244.5 131 224 142.3zM191.4 429.5c18.4 17 46.7 17 65.1 0L305.8 384l7.8 0c54.4 0 98.9 42.4 102.2 96L336 480l0-16 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 16-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 16L32.2 480c3.3-53.6 47.8-96 102.2-96l7.8 0 49.3 45.5zM320.3 512l102.1 0c14.1 0 25.6-11.5 25.6-25.6C448 412.2 387.8 352 313.6 352l-7.8 0c-8 0-15.8 3-21.7 8.5L234.9 406c-6.1 5.7-15.6 5.7-21.7 0l-49.3-45.5c-5.9-5.5-13.7-8.5-21.7-8.5l-7.8 0C60.2 352 0 412.2 0 486.4C0 500.5 11.5 512 25.6 512l294.1 0c.1 0 .2 0 .3 0s.2 0 .3 0z" />
-    </Icon>
-);
+const UserPolice = createIcon("user-police", false, "data:font/woff2;base64,d09GMgABAAAAAAOQAAoAAAAABvgAAANDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDdgsGAAE2AiQDCAQgBYMtBzIb+AXIvgxwY4gNsP4DsjDBqElAEXIytsXXXdXv0w5y+JXBCP75/Kvuq189AGsg7jqSkIkIlUHM+mwGB8kQfOzX9p1gak00kfBWieqJTshi9U8ndC5RUYTQ/zbvCYIomARDdCVYw5b60NAX4sJY+6WulGURZLdTioEWxYEEmnmAYRxZ4OnkLkFbSRIEBZpKnGLENQLO47sOAdSt1wEILo0apBb438Q1z9+aavMPG8FQOjWToijzfECjnSfux00VxBPFGTTvoRk3ISSGtC2wcThG8ME8pRKwveDoj0ZrkoZNE9KoAp4KXdrA3tz+8EvPlyhhAwigFQCOgMd40ghAK4/gFiwHLEvwq2PvPxAIAMojBI2PWhAEvoBvAMACMAIytrClBs9todlwO6TYh4zcGTroTMOB+CLRQe9ZSYWe9J+/ikIlqlOtHpoO5Q+JUZM8eG9wYdyi25oztZdTViY0j2gbIe9A0fX8fQr1vles/Z2T84ob65Y/clbqtudI4YXa68WXMs4lrGB/NRWoV48Dw+6KQ5vr+0bStcGL6SGhSri/fl+CJOPsiUNFevre+NBAJTo+fLkhNHrvhsbQ882n2m/2jNpU0yvOuj4xiop0v7+6g3nhsTLa0HVFXfpFMtfvU5J1sf0n3yZjJI8Cs8Z0irObUiZTz43uXz0bYHyfs+5zl1hLgaCVwtkeXLTnn/pfLsycwVuFgcC1Fxe5/Dk7A91Kv2612YzvY6m/eHF3fjuP+0h2+eRP5JCj5VT7D0PMU4Ks+OwnShR/jvAXEiXxynBllMb9VKTPzSlhdH5iwe4urA4/LHHhxAYtYEVvQlA9+oRnCQiJ/4qx5f232ADw9X7FyR3FbXcJghgAgjeyRoyKF6BEAwBxE0tkz8xQwHjD9XpWmH0IABICBMAIEEIAPKmiGtoKUUL7ZKiTrdQOXEUpE4wzzmhGG2Hm0556S2krzhXap9WjWIC4SN/jijtU8YeZticCPaa5yfJK1+wmSyrlbStzRlvcauvAEt1SRHmYYq45FplskumFBPAFeicXm63nHNbDDzlVylVymrnd1fvaISDJtAs92bhq/zgt3PnOQkvmuxdRhxGKrVZkGCgV+l0Yyt4tAAAA");
 
 export default UserPolice;

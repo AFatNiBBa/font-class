@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tomato` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tomato?s=sharp-light tomato}
  * @preview ![tomato](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tomato.svg)
  */
-const Tomato: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M269.5 80.3c45 2 84.1 13.5 112.7 24.8c15.7 6.3 28.4 12.5 37.1 17.3c4.4 2.4 7.8 4.4 10.2 5.8c1.2 .7 2.1 1.3 2.8 1.7l.8 .5 .2 .1c0 0 0 0 .1 0c0 0 0 0 0 0s0 0 0 0L424.5 144l8.8-13.3 29.1 19.2-33.5 9.5-40.4 11.4 10.7 32.1 10.6 31.8L378.4 223 256 177.1 133.6 223l-31.4 11.8 10.6-31.8 10.7-32.1L83.1 159.4l-33.5-9.5 29.1-19.2L87.5 144c-8.8-13.3-8.8-13.3-8.8-13.3s0 0 0 0s0 0 0 0c0 0 0 0 .1 0l.2-.1 .8-.5c.6-.4 1.6-1 2.8-1.7c2.4-1.4 5.8-3.4 10.2-5.8c8.8-4.8 21.4-11 37.1-17.3C157.2 94.2 194.3 83.2 237 80.6c-2.8-13.9-7.1-25-11.3-33.4c-3.5-7-7-12.2-9.5-15.6c-1.2-1.7-2.2-2.8-2.9-3.6c-.3-.4-.5-.6-.6-.7l-.1-.1s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0L224 16C235.3 4.7 235.3 4.7 235.3 4.7s0 0 0 0s0 0 0 0c0 0 0 0 .1 .1l.2 .2 .4 .5c.4 .4 .8 .9 1.4 1.5c1.1 1.3 2.6 3.1 4.4 5.4c3.5 4.7 8 11.5 12.5 20.4c6 12 11.9 27.9 15.1 47.5zM240 112.5c-38.8 2.2-72.9 12.3-98.3 22.4c-3.9 1.6-7.7 3.1-11.2 4.7l17.9 5.1 16.1 4.6-5.3 15.9-5.4 16.2L250.4 145l5.6-2.1 5.6 2.1 96.6 36.2-5.4-16.2-5.3-15.9 16.1-4.6 17.9-5.1c-3.5-1.5-7.2-3.1-11.2-4.7c-25.4-10.1-59.5-20.2-98.3-22.4l0 15.5-32 0 0-15.5zm197.6 77.7l31.2-8.8C496.1 214 512 255.3 512 304c0 130.9-114.6 208-256 208S0 434.9 0 304c0-48.7 15.9-90 43.2-122.7l31.2 8.8 3.2 .9C48.9 219.7 32 257.5 32 304c0 55 23.6 97.8 62.5 127.7C134.1 462.2 190.8 480 256 480s121.9-17.8 161.5-48.3C456.4 401.8 480 359 480 304c0-46.5-16.9-84.3-45.6-112.9l3.2-.9z" />
-    </Icon>
-);
+const Tomato = createIcon("tomato", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABrgAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yEDAsGAAE2AiQDCAQgBYMtBy0bCQbIhoeHOt8/dzJ5YJEUTAFj9S2vuJJX1cQ1+atpgIkvPJSo9kjvPp/AcPi2oAQfPm0NNtMJ2KzNeYg6qHKTIvFEPU80bD9s0RnSeD46ypJcm3yAi8eHxq/qO0kizQCIGgAYNmfGJK98H99HfHDuSeIDExAQw0FBIIMMGgkwUEagkVQBqVTwfZw7l/8DCwQQRUgmRE2Rxfc4BUhBIpOmF7ZvVp6tTGeXZ8vWfNnvzvyV+WPlR8uvjPIQx5JyLupGu+gJ1Oe3jtkxM1pGQ6D3ig6Rj6vqXJW3AhG5uu6xnry6zfNzrrvWRMd5Ta9Cx+auztkFyiPiaPnRuDIfha6t3/GNvuflrsi1igDk+HOibuRjVtRR7/3axHllV9V5brQoi5jVpmWbV2d9MRP4V7Mv//WIVpGPF2Z+OenDWV9P+XjOV4PrNr+vxn2/N/tg9Qcqt4zIPrbvrRndRAQhoOUgdrymxAE3e9gp+zqlyCkP48XOV+I1F1gXNQEAatBt+tv7Lh2aHblwXs9ECABwnz01awIgEBFqNh+96dKJr9yxNNGtWypjiSmWtDDNtGmZgj3+lRfRbdrSO2soqPHmpJ9YfKmxyfIxvYBvpF1qIaqxl/6kq/eMiukffLTCCt++ENONeq8rEAiS3f/OWFI98P+S8gT8+Nyff8Ov6NwrieQ+lEhAkOl4rqOFCUgIAEASuzVPIJD4RgavtcJVAoQyBEgUKRMgo6EaAqTKdBAgq4leAhQpM0NGpKVCzqJDmqiwTZrR2yFpKudxadZAb6eL5CLj7npn1f9sZhktoVHLCt06dy30L9zWbYMHa+v8gILZ03Z36WuHrVbbYrOdVllpnZ1Cst2k3C6bjNa4Ub6ooJvOuiror/C49Xn9bKtst8M6W2zuiwxQeD/R1m59dDv4E1TZXUkiIZKiT5renVsAAAA=");
 
 export default Tomato;

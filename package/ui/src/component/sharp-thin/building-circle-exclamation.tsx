@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-circle-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-circle-exclamation?s=sharp-thin building-circle-exclamation}
  * @preview ![building-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/building-circle-exclamation.svg)
  */
-const BuildingCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 16l352 0 0 231.2c5-5.3 10.4-10.3 16-15L384 16l0-16L368 0 16 0 0 0 0 16 0 496l0 16 16 0 128 0 16 0 64 0 16 0 128 0 16 0 0-8.2c-5.6-4.7-11-9.7-16-15l0 7.2-128 0 0-112 0-16-16 0-64 0-16 0 0 16 0 112L16 496 16 16zM160 496l0-112 64 0 0 112-64 0zM80 232l-8 0 0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0zm8 64l0-48 48 0 0 48-48 0zm144-64l0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0-8 0zm16 16l48 0 0 48-48 0 0-48zM80 104l-8 0 0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0zm8 64l0-48 48 0 0 48-48 0zm144-64l0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0-8 0zm16 16l48 0 0 48-48 0 0-48zM368 368a128 128 0 1 1 256 0 128 128 0 1 1 -256 0zm272 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM508 444l0-24-24 0 0 24 24 0zm-4-164l-16 0 0 8 0 96 0 8 16 0 0-8 0-96 0-8z" />
-    </Icon>
-);
+const BuildingCircleExclamation = createIcon("building-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABwQAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSEOAsGAAE2AiQDCAQgBYMtB0IbSgbIjtRGecSPxMPzc72d+5JPyUybEqeMsKyAFDvSiG5V3QK7dYCoJ/PSGsckG0xcUz/On34bNu8GPhtKdFl5RFoF2ACjPQoHPBvOBvJivsF5I/5khaSQfII8/nZMC+mB9AbuiT40vtbHbSRZBiAqACzeuXW9yx/EBxGv/9/E69YiIBaDWiBDhv4CzJMJ9JerkcsFH8T//7P/wJoAolXwwgRyVPiDyAE5SDrl+diObh1dsLpfP0osW5r5jmeLvc1GU9zXCxFRNEQKUTYj7u0pUUQDUHAzbba7nqsIe4qyANnLMrqVm5pndwrMt6wsynmav2PCwu03j0U8OdbLO0ZbSHDTKCUUt49heDRvnoB4Zs7lMZw148JN43P2lnfM/YkV20IUIcoV4Vg85ImK3w5+48QbOj97KFj/ueuufU+lulT5IIpud+11bW5yqeDZVLnE3B/c8/4lzLDIJYs2trWzMU279lWaGydBCaq+Z2E9E+0dePSeKQev+31og8a77wwZ8s67jcbQQho7VI2sqbt1HTGia7e6HgnToOXWtb0DCWrOHqxgXLtD2lUizEAg2NLz97sPdp73a3uZwEcvff91dPf/l9NN6Qm0SyDIxv0/zr50EzD6AAIprjWk44sCyQ86Cd614V4BQoEASatCgEw/lQC5wlgBWgw0XYBWha0ykXcI3e3PaEnDFbTMDNfTct29SGsxz8v+Vt0jOwj4mzD/EjTJiiK8fF49ecKkek7dmpYItmuubp9bD9aMupaXjYZHnXDRBVc77pjTri6gV1ofusZ5K7qQ5X6oNtkEk9TmqCfnrkp2YP+VrnK6WWn6MHPVyztGuba79mioTwKWUyQliUj9zhLF+OeFysf/YkN3+Py5DQAAAA==");
 
 export default BuildingCircleExclamation;

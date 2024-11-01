@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `family` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/family?s=regular family}
  * @preview ![family](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/family.svg)
  */
-const Family: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 64A64 64 0 1 0 64 64a64 64 0 1 0 128 0zM105.6 208l22.4 0 22.4 0 32.3 0c-4.3-9.8-6.7-20.6-6.7-32c0-3.9 .3-7.8 .8-11.5c-8.3-2.9-17.2-4.5-26.4-4.5l-44.8 0c-41.6 0-76.3 31.9-79.7 73.4l-4.1 49.3c-2.5 29.8 15.7 56.1 42.2 65.6L64 488c0 13.3 10.7 24 24 24s24-10.7 24-24l0-136 32 0 0-16c0-11.1 1.6-21.9 4.6-32L88 304l-2.4 0c-9.4 0-16.7-8-15.9-17.3l4.1-49.3C75.1 220.8 89 208 105.6 208zM336 176c0 11.4-2.4 22.2-6.7 32l38.9 0 15.7 0 15.7 0c7.1 0 13.4 4.7 15.4 11.6L448.4 336 368 336l0 16c0 11.2-1.9 22-5.5 32l37.5 0 0 104c0 13.3 10.7 24 24 24s24-10.7 24-24l0-104 21.6 0c21.3 0 36.6-20.3 30.8-40.8L461.3 206.4c-7.8-27.5-33-46.4-61.5-46.4l-31.4 0c-11.8 0-23 3.2-32.6 8.9c.2 2.3 .3 4.7 .3 7.1zM448 64A64 64 0 1 0 320 64a64 64 0 1 0 128 0zM256 224a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm32 112l0 16c0 8.8-7.2 16-16 16l-16 0-16 0c-8.8 0-16-7.2-16-16l0-16c0-17.7 14.3-32 32-32s32 14.3 32 32zm48 16l0-16c0-44.2-35.8-80-80-80s-80 35.8-80 80l0 16c0 24 13.2 44.9 32.7 55.8c-.5 2.7-.7 5.4-.7 8.2l0 64c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-64c0-2.8-.2-5.5-.7-8.2C322.8 396.9 336 376 336 352z" />
-    </Icon>
-);
+const Family = createIcon("family", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABsgAAALNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDQAsGAAE2AiQDCAQgBYMtBy0bvQXILgZjN9kQC2GB9Tqu8Wq8OjVZRTz8/37f9rnvvRFxXJOYRZIlsczE31BZnUYS78PqxM9U3I7G1cxBe/JrH2Yjm9FEJDW6BEfFb58DDmawAQe4y2AbZrzYJrvBARV4ImlAmthoAT5yarzxUgEfV7Qo9+4e/GD/xgcyG+hWGj7we2xgpQryTHN7Qcyv4Nk7rOwgjyMcgoJ0jfGMM9GPxmvd2kiKDACiCQBYvnfnZuflKEc8/S8xYiMQEMsBhiAyZOiDYBGmQB+WISCXC8rx/7/1HzgEAogKSB43gRzVeI4RQA6SypwlcpomqleOJ4WIlVJbCDJvT92x2TKct9223zVJqq0hE9ismRAIcM1mS0vxqm7aElBjNg0wCJLrpEHCdczjimaSpA63kdpxVXLUIERvBIneyqhT4rrVJbM9yibY+wKJzVn9untNe/GSZOhim6BmQi0WTJJe1TgsCEF2eR3aJqCdGgMxvJYkBHsh/YHd1LsmZjvSnS+9eJ6dNvrxo8pz7j7ToY4+3FyRXzdM9xvPnAOqu3vug/bt29tLMERKtmVx+tg4Byl14nOwuWzS0JIfrRa3HJmggObUIWq/EKsu2FX7p2MI5C/l5UeeKXi22N29VQcHy5sSU1x2cS81EZe6KP3Pg7hnv7bI3RNNVK/kIesKlfsKwcpe2wEEglNvyq/3adHXqloGwOjD929btv1/Hj/SHaDKlsOCbPr/6bISbXjxJ0gyKeqYAZshkvsqIfnWOpcFCDUIkFSoESDTSwpBrsY0CAoDPCGoUGMnpsj5ENpk93BS5xicWagezrU5gAuL3GUqtEXGyCwbsr+RSWvGwOp5Q3OcXKgf3axoOd6k/Ul/uts1uc7usJUr5SlXpkauHIVqRlCV6HytUlEIjGQjypUTF5Qferr+XErRwSrVNr0unJ/GH70/ZqMO97eVXoaEcK6CJBGJw+8A");
 
 export default Family;

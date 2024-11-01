@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-left` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-left?s=light circle-left}
  * @preview ![circle-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-left.svg)
  */
-const CircleLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256a224 224 0 1 1 448 0A224 224 0 1 1 32 256zm480 0A256 256 0 1 0 0 256a256 256 0 1 0 512 0zm-400 0c0 9.2 3.5 18 9.7 24.7l84 91c7.2 7.8 17.4 12.3 28.1 12.3c21.1 0 38.3-17.1 38.3-38.3l0-25.7 80 0c26.5 0 48-21.5 48-48l0-32c0-26.5-21.5-48-48-48l-80 0 0-25.7c0-21.1-17.1-38.3-38.3-38.3c-10.7 0-20.9 4.5-28.1 12.3l-84 91c-6.2 6.7-9.7 15.6-9.7 24.7zm33.2 3c-.8-.8-1.2-1.9-1.2-3s.4-2.2 1.2-3l84-91c1.2-1.3 2.9-2 4.6-2c3.5 0 6.3 2.8 6.3 6.3l0 41.7c0 8.8 7.2 16 16 16l96 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-96 0c-8.8 0-16 7.2-16 16l0 41.7c0 3.5-2.8 6.3-6.3 6.3c-1.7 0-3.4-.7-4.6-2l-84-91z" />
-    </Icon>
-);
+const CircleLeft = createIcon("circle-left", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjgAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCTAsGAAE2AiQDCAQgBYMtBzIbTgXIhof/15nd9yX7ZKQZDoGCgAsEHRBXCFCF26UqtUdOjTdeavwaFe08fFqQ8+L/xStQkTc8zyY02sBmOgHb24YOG2F5JSQyIhpPaKy6QB7vxzg10kPpB9xRPjT+1se1JHkGINoBsHjn1vU+ORgHI35ovEn8YC0CYgmoBDJk6C/APJlAf7kKuVxwMBoN+g+sCCDq5F0TyFHHDbgHkIMkz/N+/UYOKWst+Y6yVux8fGrE62u/L29Z/e3kVwc/MumVVd8UN6/5bsprQ1r+WhLx2YafipvX/bDok21/Lv50/Y/lLRt/Xvr5zuYre2yP+8pbej0QEWU8jdhVPe8fURxb3Nx9W9xr+v1xVa+d8UB5H3Ffj7LC4t7uxePiyu4399wx5Ln25/4d/MOpPxj0cfNn/LZg/dy56xf89lmzCdHhg5Y30ef1T5cu/fT1Pk2WcxgfurP14a17PN/R/txz7X1tMmnvvu6V7vv2TtoEyIHY8bzrfrg1SYkud2SbamO0HjzewdaKXGPUNmUdzvMgEEwftPzh49rmHelWJnD4vf+PgF9R45MkPYduEgiycY1xjk4gEQCAFJcakiCQXCEnr9rsfgFCgQBJXSFApp92AXKFsQLUDDRdgLrCVpnIm4Tujml40uwCPDPDZXiuu9fxmnm+1uq6RxaOdDDRj8GEFRZYPldNnjCpmlO5IWUijMzjudWyOOrSVBoNB53qPOe62ClOdoaLDXSh9eYlzrFiBi73RZXJJpikMke1ndxv73CKC13kDOc5l6fMVZ1XR7l03jwalEQIp/AkiUjlrx3qogI=");
 
 export default CircleLeft;

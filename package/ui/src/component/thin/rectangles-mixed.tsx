@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangles-mixed` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangles-mixed?s=thin rectangles-mixed}
  * @preview ![rectangles-mixed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/rectangles-mixed.svg)
  */
-const RectanglesMixed: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272 48c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32L48 240c-17.7 0-32-14.3-32-32L16 80c0-17.7 14.3-32 32-32l224 0zM48 32C21.5 32 0 53.5 0 80L0 208c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-128c0-26.5-21.5-48-48-48L48 32zM528 48c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l96 0zM432 32c-26.5 0-48 21.5-48 48l0 256c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-256c0-26.5-21.5-48-48-48l-96 0zM112 320l176 0c17.7 0 32 14.3 32 32l0 80c0 17.7-14.3 32-32 32l-176 0c-17.7 0-32-14.3-32-32l0-80c0-17.7 14.3-32 32-32zM64 352l0 80c0 26.5 21.5 48 48 48l176 0c26.5 0 48-21.5 48-48l0-80c0-26.5-21.5-48-48-48l-176 0c-26.5 0-48 21.5-48 48z" />
-    </Icon>
-);
+const RectanglesMixed = createIcon("rectangles-mixed", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABnwAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDBAsGAAE2AiQDCAQgBYMtBzcbiwURlZolyH4kZGeYt4ozZ4b2Ra3iSzx8r/Pz3Cd9z195GbTM2CGHsATCLlxU6EmLVWoHQIZs6s//5fgGLTzAzwf6jw9lrubCDT7n8yignve8eE2QNAssUWzQ3aQg/vm42kMev9ijgfRM+gkP2V8af+nkGkmWAYiWAJi5fvVS39SiFvFT/UPxk8UIiFmgFMiQoasAU2QCXeVK5HJBLep19h9YCiAqXCK5OUcjXsAbgBwklTzvDIrVhmb5OvWmYv/ddhFPEJfaPl4Ucaf9kxFxucNT1eq6F9pGPN5RPNPuib7VeLnDU10inm3/ZL9i53Q4cTM44VlhT7Woypa7LJ8grH9OvND28Y69Xmv52j9+2vdTi4ea3+JW80ua34qQml5s/KPFiF/5Obsk+/nXETVch0K7sgCD7cDQO7ZjkB16kZje4x1XGhFaIZp7Bw7UV2Bp2H5n6twK+HUgEHT5+u+2t5jyf2M1gT8/++/k8notzUivoVECQTakPmRLmgGMHUAlxTm9BtYYSJ532D+1qScFCAUCJBWFAJkuWgqQKwwWoEF3YwWoKKyWibyJ0NbWAiRNnQSZcc6DXFvvgwZTfFuuaBvZrarcaMqPYiacV8XmripHDhtRTip76zL17pP0/ORycnDAOd43EG617/ixM3v3HDxTYU4trZ09Om8InvujcuSwEeWkcnHrprkOl0+dPtitL19kcrl9dsC54dEDYSRxeUftkiQitTy1d/eZncf2H9l7eug3BA==");
 
 export default RectanglesMixed;

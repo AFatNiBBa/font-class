@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-mp4` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-mp4?s=thin file-mp4}
  * @preview ![file-mp4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-mp4.svg)
  */
-const FileMp4: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 496l16 0 0 16-16 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L204.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 145.9c9 9 14.1 21.2 14.1 33.9L384 304l-16 0 0-124.1c0-1.3-.1-2.6-.2-3.9L248 176c-22.1 0-40-17.9-40-40l0-119.8c-1.3-.2-2.6-.2-3.9-.2L64 16C37.5 16 16 37.5 16 64l0 384c0 26.5 21.5 48 48 48zM361.1 160c-.8-1-1.6-1.9-2.4-2.7L226.7 25.4c-.9-.9-1.8-1.7-2.7-2.4L224 136c0 13.3 10.7 24 24 24l113.1 0zM150.7 371.6l41.3 62 41.3-62c2-2.9 5.6-4.2 9-3.2s5.7 4.1 5.7 7.7l0 128c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-101.6-33.3 50c-1.5 2.2-4 3.6-6.7 3.6s-5.2-1.3-6.7-3.6l-33.3-50L152 504c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-128c0-3.5 2.3-6.6 5.7-7.7s7 .3 9 3.2zM304 368l32 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-24 0 0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-48 0-80c0-4.4 3.6-8 8-8zm32 80c17.7 0 32-14.3 32-32s-14.3-32-32-32l-24 0 0 64 24 0zm90.3-2.3c-1.5-1.5-2.3-3.5-2.3-5.7l0-64c0-4.4 3.6-8 8-8s8 3.6 8 8l0 56 48 0 0-56c0-4.4 3.6-8 8-8s8 3.6 8 8l0 64 0 64c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56-56 0c-2.1 0-4.2-.8-5.7-2.3z" />
-    </Icon>
-);
+const FileMp4 = createIcon("file-mp4", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABqAAAALWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDPAsGAAE2AiQDCAQgBYMtBy8buwXIrgfsYBn+k0O0K2PtmEwi4S4P1/E3w18sN2qJoNJVZbU0ij3NMeiA0UOGB2CX2CMIH9B6w3nveeC72p/Z6L7pugA3jqJeVORxmkiGaQnGa7bblzVKyiMMfAUYaATbLuAFubhLJ+kwDASSacyvk9vthIckoogCTzDHBLM/vVoWBdXqdPh3MLnpJTrhQd5mg83vKkR/+nt3/s8/fcBn9FHGtj1obGrQnOcJBLgoLvCu8yywTAPgWLI2h8sJBXFLichh7xdPELvQMHWHPD62RY30ZAT3tzeNf/VcIckyANEcANMvi+f64oUL+C47xHdOCIgZoBLIkKGzAJNkAp3lKuRywe9o4z+wE0AU+IsSyNGAz/E1ADlIijyfUOzTb969XmuSLyvUyrmFsi7KeG0VLcfT6784brckHiXKiLgYEhS32o4Vt/KKV5oaKZ5s2TyPtRWPtSmenPKS44zpM+PxloF4pOmOmBYeyX97hgoXO06862X9Vb8ln+ooZjPi8Y7c7kca0nZe7PryF0SzxoC9TLzl5HhL4gNkwiOae6FWywvK/ZkvbK1/6hc9zZ2REie0eFftSumOYd+SkX3/Pex8cfmhuYPanA/+/HnyRqPShcUFxYZ7sU3omct7BtsUN2oL01FLQyJOwLZ+5+YwC0rbpJre4EYZGC7YNO2v0TKZNszGGWZc1abpMDwk6w4EghGyf2496U9O4M+68i36/+JjoEECQTYoC2siNMR/AABIcUyPCIHkfQW+amOPCRBKBEgKpQCZTpoLkCsNFKCmq9ECFEqLZSJvJLS2toGksYMgM8ZZkGvtbVAzyZdpoXXIpjE1CamfyPg5Cs0+VOWQYdWEathT6ZlJrLsTq9uijuWZ/umqbfbb54itttjpiCCHzC2O2muOB8/2QZXhhhimMkEVHt7zy8Q85LASNhPfZ6LqebefY/7y/klJiDpCV5KI1PDFRIP7wCg=");
 
 export default FileMp4;

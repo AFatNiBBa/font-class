@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `braille` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/braille?s=sharp-solid braille}
  * @preview ![braille](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/braille.svg)
  */
-const Braille: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 96a64 64 0 1 1 128 0A64 64 0 1 1 0 96zM224 272a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-80a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM80 416a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zm240 0a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-80 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM64 192a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM224 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM352 96a64 64 0 1 1 128 0A64 64 0 1 1 352 96zm240 0a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-80 0a64 64 0 1 1 128 0A64 64 0 1 1 512 96zm64 176a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-80a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm16 224a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-80 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM416 272a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-80a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm16 224a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-80 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const Braille = createIcon("braille", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAAB7wAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhgCEJgsGAAE2AiQDCAQgBYMtBy4bJAbInge225QlVI2NwfGHeIBf99+5d+aLK81uMtHE9NsiOZFpG0tws14yq8LY5U6lNDF7ckHadbO+vL+uPbimfq68QE58ZUOJxtJ5pUW2wEQimmi2CdtUnNuBId1BmAp7OEIa/iT75RFPRKgJPzS80cB+oqIEQKgEwKAZU8Z58Dw8D+FpLsJTYxAgDAKZgAQJGgugr0RAY6kMqVTgecjlzP/AjACEfDEj2pSiLt7iJ1N/otppWlbkIWXUIlNJXlk63dm+ODnZ5rW6TU7Lab1Ncaxe183aVYduqZyW0/WLNww9TBEvZzGWXxaynJQVvUJBTPxqwSiVY8v1fOW+a245C5OXnz69TAqPZ1eel5c/N30n1r5Zs/YdFUPNsxmxmjURzP9xoWrBM1rVyZODJncNkC1gwP1CVLRsQQ34PhAQKGjx4NyCir7fCksieHn/w7vqxpzc8UgchSIIJG1zbc2NuzcQ3YLYQwzbtVB+SUD0Wm3KqlJHBRAU00GUrxgSjVRCqlgbyNNUNyk4eopESIsEtc1TICq1CRLd7YBUbTcgT18PLflqh4T35Zwrf/JMM3yIDxuWdWrfMeudrUY0CnaWepV9MljbcruV0UqZabkN1ttqmaVW2TpgbjbOvs06w7e4h30300l7HWV6y6Tzmk6ebpnNtlhlg/XBIH1k5xtb2r6dv5ViiGKRnY2KIiEWLN686N/+AAA=");
 
 export default Braille;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pump-soap` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pump-soap?s=solid pump-soap}
  * @preview ![pump-soap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pump-soap.svg)
  */
-const PumpSoap: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 32l0 96 128 0 0-32 60.1 0c4.2 0 8.3 1.7 11.3 4.7l33.9 33.9c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L372.7 55.4c-15-15-35.4-23.4-56.6-23.4L256 32c0-17.7-14.3-32-32-32L160 0c-17.7 0-32 14.3-32 32zM117.4 160c-33.3 0-61 25.5-63.8 58.7L35 442.7C31.9 480 61.3 512 98.8 512l186.4 0c37.4 0 66.9-32 63.8-69.3l-18.7-224c-2.8-33.2-30.5-58.7-63.8-58.7l-149.1 0zM256 360c0 35.3-28.7 56-64 56s-64-20.7-64-56c0-32.5 37-80.9 50.9-97.9c3.2-3.9 8.1-6.1 13.1-6.1s9.9 2.2 13.1 6.1C219 279.1 256 327.5 256 360z" />
-    </Icon>
-);
+const PumpSoap = createIcon("pump-soap", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABcgAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBdwsGAAE2AiQDCAQgBYMtBzAb9wTIjsM4hnzmZGoRDw9z73tuklJeGdJ+AlbA5IAHTHJurMbCk0VFaq8QasdOizdeKuABeMe0Nr54gc8p0HjjpbFwUUX60x7fXhR/d7YdlkR7xdIs5Li043NAFi+ld1SQvJD8iMfKh8ZvutwhUZMCiEYALNm6cYOvfo6fI34oJ36wDgGxBBQCKVL0CjBfKtArUyCTCX6Ocjn8BxYEEJX4nhKQoQJ7cRSQgUSaZSO7O0oVddmWUkW+UyhFRCkealsQz5Qe6ngubrYvjA/zHLln8fSDrU/b9PbwiLc7N8XzYz4YUYr3xn3UvSVeHPnuyHzz8yqfP9j47pcUdFMpPdT2jD3TNfRh44d/DP545EfXX9vHczcU5qua3uT5urrnH4idDzS5Mjhf/f331y+mdfn1GwMMdDX/pHeo5atPfNUy1Ntd3DUwcOPZB7/J++jv6envy7t6x3++QvWKz8f3dgGB4OvvKv7f2zD/b6UE/PrJX//lzsHyV/F68iGqzWYF6fjyeLviK4MKo1YAq0lcMQTfJJDYKsXvWutZAUKOAIlKuQCpHo0CZHLjBKjQb4YAlXIbpSKrEVrtbiBR6zxIzXQVZFp9DCrM941aqTVSHyM9hPzixa2U0Iq6YsrEycXcYmqqlNvgqTyvWBZGX6HQGFh0xFlnXHLYIcddEsgFG4zLTltpwSv8UGGKiSYrzFUcO4/cFqFccBHhOnVexTzFfXG0K3byGGgiAUx9HZxaI6k5d/n0uQkXz+4/BwA=");
 
 export default PumpSoap;

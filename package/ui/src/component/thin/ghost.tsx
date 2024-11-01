@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ghost` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ghost?s=thin ghost}
  * @preview ![ghost](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ghost.svg)
  */
-const Ghost: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M242.7 506c3.3 3.8 8.2 6 13.3 6s9.9-2.2 13.3-6l29.3-33.4c11.6-13.3 32.1-14 44.5-1.5l2.3 2.3c4.2 4.2 10 6.6 16 6.6c12.5 0 22.6-10.1 22.6-22.6L384 192C384 86 298 0 192 0S0 86 0 192L0 457.4C0 469.9 10.1 480 22.6 480c6 0 11.8-2.4 16-6.6l2.3-2.3c12.5-12.5 32.9-11.8 44.5 1.5L114.7 506c3.3 3.8 8.2 6 13.3 6s9.9-2.2 13.3-6l26.6-30.5c12.7-14.6 35.4-14.6 48.2 0L242.7 506zM27.3 462.1c-1.2 1.2-2.9 1.9-4.7 1.9c-3.7 0-6.6-3-6.6-6.6L16 192C16 94.8 94.8 16 192 16s176 78.8 176 176l0 265.4c0 3.7-3 6.6-6.6 6.6c-1.8 0-3.4-.7-4.7-1.9l-2.3-2.3c-19-19-50.2-18-67.9 2.3l-29.3 33.4c-.3 .4-.8 .6-1.2 .6s-.9-.2-1.2-.6L228.1 465c-19.1-21.9-53.1-21.9-72.2 0l-26.6 30.5c-.3 .4-.8 .6-1.2 .6s-.9-.2-1.2-.6L97.5 462c-17.7-20.2-48.9-21.3-67.9-2.3l-2.3 2.3zM128 216a24 24 0 1 1 0-48 24 24 0 1 1 0 48zM88 192a40 40 0 1 0 80 0 40 40 0 1 0 -80 0zm192 0a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm-24-40a40 40 0 1 0 0 80 40 40 0 1 0 0-80z" />
-    </Icon>
-);
+const Ghost = createIcon("ghost", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABnwAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SCegsGAAE2AiQDCAQgBYMtBywbdgXIjtMFd5ZV5BwPz9v1de6r6h5A9ScC6KVDAFFvBCk1P6ecPLVB8qqO/+o+mziXLs4rzss28aFsn62FbaOnzPMX+PO27SmaCvztwV4U39K53Lc8II4nYXeCPA5bo0S6GV/Blf6XxtdaOEOSZQCiPgBGzp89VeWL+CLilf+fIF4xGQExChQCGTK0FmCITKC1XIFcLvgi/v9f/gcWBBBl4fMSyFEdt+FeQA6Scp736VOjjsjWKtXJ5xmTmnOvr3Wpd48b/VJtEo3pXZnFe7PemvfOjDfmpLh5TwPNOL5eu2oAO2tbJB3nXVfzBlO8P/vt+e/OfHOu9XVyiTWNG+h26RIn6ZLWCcQl0gHottu5UxrPv7PlrfeOuKkG3bzvuHflLSOZun3W6joCT7cmclN4GkVuXXhG+3v7vb/qlXWv+Gng2OrVx77hYqX2TcO6GiMb1xAz586dmXpCaNhSQ+ORNdY1cFPtysU3bNv8gFvq1r3lvd+5QZpREpFJ9WOdeyN/Zw2lGalBlW8bFZ+9SYQHfd+kyfcPEuE53xXFd1Vrfp2pTWZq4/5y54EDO5dVoDLUyLh/xaPXXvvoCnocCAQfj79wxfJ6Q36tzgl89ez3f6n7/V+JE3gvUF0CQdbl/y6WxAkA5AEUUuzTfmGOgeQ6d/xTa7tBgFATAZKymgJkWqkvQK6mzgKUtNVXgLKaZstEXkNobGnDJ7Xt5DP9HOVzjT3GlwzxfL6scWRfqeMbc/wj5h3XhcfOKnp261EMKmYrKueHZ3MmBxebox32qY6OsLTOdtvssdYaG+3pULtMLe211bglZKwfKvTUTQ+FQYrD9YfeeZ38LrttnHYcB0wzWHF9soN9y/07IpGEqr2UJ4lIpfWfPg==");
 
 export default Ghost;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-movie` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-movie?s=sharp-light camera-movie}
  * @preview ![camera-movie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/camera-movie.svg)
  */
-const CameraMovie: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M144 0c40.8 0 76.4 21.8 96 54.3C259.6 21.8 295.2 0 336 0c61.9 0 112 50.1 112 112s-50.1 112-112 112l-192 0C82.1 224 32 173.9 32 112S82.1 0 144 0zM64 112c0 44.2 35.8 80 80 80l192 0c44.2 0 80-35.8 80-80s-35.8-80-80-80c-39.6 0-72.5 28.8-78.9 66.6L254.9 112l-13.5 0-2.7 0-13.5 0-2.2-13.4C216.5 60.8 183.6 32 144 32c-44.2 0-80 35.8-80 80zm80-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm168 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM152 288l-16 0-40 0 0 192 288 0 0-192-232 0zm0-32l232 0 32 0 0 32 0 192 0 32-32 0L96 512l-32 0 0-32 0-192-48 0L0 288l0-32 16 0 48 0 32 0 40 0 16 0zM448 467.7l0-33.9 96 33.2 0-166.1-96 33.2 0-33.9 96-33.2L576 256l0 33.9 0 188.3 0 33.9-32-11.1-96-33.2z" />
-    </Icon>
-);
+const CameraMovie = createIcon("camera-movie", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABlAAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCaAsGAAE2AiQDCAQgBYMtBzMbawXIjtEnY4gyc0TNBWK+SjxPfy957vtvWylUaTtgB1rORLgWywQkJBHYiYbD355f+/0c8F1cLu7aaORHNbFtmEU8wRerOnFN/7anP09+gkfLVWpbNEXk+QQGWMFNs3HbcDZR3LBtdCywerwayx3UPGSfJOWH2AV45z40/2jrhKI2AMgwALh6TImD8ErPyUW7Qf6IAYFcA5YRGjSYR+CUuGCehGVQVeGZ2pb9BzIIkE6EWy6gogefwE8AFRRdVUJ/TVaWV5/hJeUl0vskuZxXZkQT2n0WU/yG1Yx+v+W0K0eb1rMGQzZzHqkDVkQzbjxttaIMB61n3cfnErTUiOM00qsx83WzXsax6G7TSZ0+i7Qk1bGpHM8hA0TEEZkij4j0ylGP5Ij4IvI+RKmBjFgE8RqbSV+dVZr9ZnRRfqHryFAEb9/fRSLDnz/+Kyr+//FTAFqb8ILS4WlYgNJTOlF62XKTFJyrB4XhecTeJN1MxCVMJamrJ2VsSlNqtg4tKSl5CmAEfLCPDxnhZdglSXAcZlD6fW8cfAUMk3CAcepvq/ax6nfrYkAQfi3rvRUo+v6X4cUAf3d//MLna4VyWWZBtwJCs9/uyy2BAOMSEChpZ7zwRUHxCl3Cu/b7ioDoRUDRqVdAY44SAlWvPQQ6LHJDoFOvW+JSZRHj8hq26PeSbZzoYKtxa2yHU8f+TuMRvzmlW0v6NUwT3gXDRjEne0fmzWYLiny/CXrQh222WLbzBiu4EeUa1GtVplSV1g7RLC7Upk74Eh7mhxgn9hwx3tjh8sPV6co0a1GlQb0dxge73mGpfbm9FbSLCbwHMopCitznpbN70gE=");
 
 export default CameraMovie;

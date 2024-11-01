@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-vertical-nft-slanted` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-vertical-nft-slanted?s=sharp-thin hexagon-vertical-nft-slanted}
  * @preview ![hexagon-vertical-nft-slanted](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hexagon-vertical-nft-slanted.svg)
  */
-const HexagonVerticalNftSlanted: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 493.6L432 374.7l0-237.4L224 18.4 16 137.3l0 237.4L224 493.6zM0 128L224 0 448 128l0 256L224 512 0 384 0 128zM200 87.4l22.8-13L272 102.6l0 18.4L216 89l0 159 40 0 8 0 0 16-8 0-40 0 0 168 0 1.7-16-9.1L200 256l0-168.6zM336 374.3l0-216.7-40-22.9 0-18.4L348 146l36 20.6 0 18.4-32-18.3 0 198.4-16 9.1zm-176 19l0 8.4-16.8-9.6L80 202.6 80 356l-16-9.1 0-181.7 17.1-9.8L144 344l0-224.6 16-9.1 0 1.7 0 280 0 1.3z" />
-    </Icon>
-);
+const HexagonVerticalNftSlanted = createIcon("hexagon-vertical-nft-slanted", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdgAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCHwsGAAE2AiQDCAQgBYMtB0MbMgXIhgiye77q2X0f4H5JkXWgwsvgFGAEp5cBzt78X5Pv3fNrwM9HcGhRVm2jSKDM5xMY+BojgdY4G9CmE7SZm0YM+CDKOb4IBpEu3bN26hbq3OuEFuXu8iFuz2+anwx2M0VVAUgvAKzavX2btz7P58kH7efJB7YgkFWgEVSoMEzAUpVgmFqDWi18nnbb/gc2BEgHuHoBNTriLNwAqEHRquvu3Yf2Hdq11b3e1bXVZefuHbuTXdkR2blvwHamPG1Xqt0Txk7YFNkc6dpVunQRGZAkeyOLk2zKosjkSL8dYnx2id6E7OT1BkZKjH6k1yO/jPrw1Ic+m/bJpUX9FbGeTbHPzvnsOvYQWOO+M/FsHNFNH9d50MROvXSa+JDifw97+LYRn2KFS/W1zFx9/OFt/z/ZpzPGWP6au/3vBQ364lzFIAGCcN63X19wuOfSfzp1LeDLV377iT+5/VbeKo+gkwJCNbU91YG8BZYe4CeVXGp03kJQHNfCr9rNHQKiCwKKDroIqAzVS0CtiykCWkaYJ6CDLrarpO4s+jnYQdHNBaAy3zWg1s+zoGWpd+Id9Euld7zW8L99KetneN2oZtb0mc3iZltQBVVi4+CS5libeKlrmERLnXKec13spBPOcPFEXWhb6hLnWC8h63xRY5bpZmos1lyXX+fvctKFLnKG85ybhlmieT6a6FK5/SQyCzDO9tGikDLs9JOXHz3tvHOnfZHmn3vq4mkXnX309QA=");
 
 export default HexagonVerticalNftSlanted;

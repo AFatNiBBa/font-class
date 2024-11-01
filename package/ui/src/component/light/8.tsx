@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `8` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/8?s=light 8}
  * @preview ![8](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/8.svg)
  */
-const $8: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M304 152c0-66.3-53.7-120-120-120l-48 0C69.7 32 16 85.7 16 152c0 41.4 20.9 77.9 52.8 99.4C28.1 270.6 0 312 0 360c0 66.3 53.7 120 120 120l80 0c66.3 0 120-53.7 120-120c0-48-28.1-89.4-68.8-108.6C283.1 229.9 304 193.4 304 152zM184.1 272l15.9 0c48.6 0 88 39.4 88 88s-39.4 88-88 88l-80 0c-48.6 0-88-39.4-88-88s39.4-88 88-88l15.9 0c0 0 .1 0 .1 0l48 0c0 0 0 0 .1 0zm0-32c0 0 0 0-.1 0l-48 0c0 0 0 0-.1 0C87.4 240 48 200.6 48 152c0-48.6 39.4-88 88-88l48 0c48.6 0 88 39.4 88 88c0 48.6-39.4 88-87.9 88z" />
-    </Icon>
-);
+const $8 = createIcon("8", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABeQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCFgsGAAE2AiQDCAQgBYMtBygbDgXIHoPjbglKEzHUPy7/A6LEZMXDf/u1+2ZmMW9ilvBQNVKJXjLNIrRMKNv2UMmW+H4wzn83Is637RNsVoJKMSLgEla/E/HOZ+pUzuU8FMAH8IxJuZxv2h6c8zwCOQ9IKLutVagWsJpWwLo3jdlMZO9k0lLpeLLj7YQSteFHTHoVfIDHetP4YjBNUjIAogcAHF2U5uPGRY2Ij+qQ+JALAuIYMIaQkTGEwC6hwBCRMVAUQYOqiv4DGQKIJugdEyio4Ro8ACggyUXkOWFTitWiinaxovk9oqsMBT3sXvC4YcZ93Wsbb3uX6Up6Prh2TvjsemyZ5qisXaE89N6xzHtthynoyGfXuuS7F6mkCZogwJFASJGfCJmNlx27ut3f8Y+mD4GzAj30jgWBe/UCW/1z7G/Jz63HCC7i3Jznb+yzbhtep0YSRSTyYRFsSQdgDTAGwoZCkL0PQCD4+5fWXWrjvmVKAeDz7P+bfkYqFx2mXdAigSAvVX7qYgiIQwQASDHEEUkgkFwR0k/t8CRAaEOApEmbANkgHQJFm0UEakaEI9CkzQmhKHKEAfUNJB1uQLZjBBQD9kHNrmeryUAIc47KGOrHF5/h4fQxDg4I4hgOfUanEVH6sbwseg1xzhtm0aRblwGNGrQacGiffHdQp4wZku6LWLAAQVgMPo7u+Qpn9enXOmbPh8Ti+5KXoXm1N0whAGy8FsF6JIoC");
 
 export default $8;

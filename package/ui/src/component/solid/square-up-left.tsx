@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-up-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-up-left?s=solid square-up-left}
  * @preview ![square-up-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-up-left.svg)
  */
-const SquareUpLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM288 160c6.5 0 12.3 3.9 14.8 9.9s1.1 12.9-3.5 17.4l-40 40 71 71c3.6 3.6 5.7 8.5 5.7 13.7s-2 10-5.7 13.7l-36.7 36.7C290 366 285.1 368 280 368s-10-2-13.7-5.7l-71-71-40 40c-4.6 4.6-11.5 5.9-17.4 3.5s-9.9-8.3-9.9-14.8l0-144c0-8.8 7.2-16 16-16l144 0z" />
-    </Icon>
-);
+const SquareUpLeft = createIcon("square-up-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZAAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBOwsGAAE2AiQDCAQgBYMtBzUbwATIjpQuZyTx8LzdV+e+qlZ1D10jKYIZQRHEVQhFYpAP0lW08a8Q/ImbnXceBTiJQxoTl3WBLLA9zxNItEs7z+JpgWX6AvbWzt7who9+MUiX+CTD5jMsVsjjQXZOFele+hNX8kvjL+2cI6nLAERTAExdtmihb9/G24g/Kp8Tf5iPgJgKSoEMGToKMEEm0FGuRC4XvI1Khf8DSwKIanrMBHLkmIa5gBwkKc/bl/VVjfKl9VXFqpd9Ij5sm+Je3496NooP+n/SIYv7/T7u1bDkQqtbLSfEkrjlVMDdLM63XhobtL7dOuJOm/puHzf9+B9/bv3T5CdPm9GsmKJo1uzpFMDz4puTxdy+W4+ZNcuS2tolwwspux6z9fq5uqsav70KBIKvP9/2w7omE/6vrU/g/Tf/TT8jlbfxbfoYtRIIsgGVAVbHtxDfCgBAiqO6xbcIJOMk+tQGtwUIBQIk1QoBMh00FSBX6C9Alc5GClCtsEgm8jqhpTUNThocgDOjHIdzLX0KV5ngF6Nay8i8iPEB5hOXOAuBmVPl0EFDynHlNFBZx6BkOL5clvocjYW+NGurffY6bIvNdjgM0EEL7SP2mGWBM32oNNQgQ5TGKbfje3EpGAcdsmPM748Zrzyv93HUru9LaqKEwziSRKTGN1EbeGT/CwMA");
 
 export default SquareUpLeft;

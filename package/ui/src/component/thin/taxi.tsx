@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `taxi` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/taxi?s=thin taxi}
  * @preview ![taxi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/taxi.svg)
  */
-const Taxi: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 40l0 24 160 0 0-24c0-13.3-10.7-24-24-24L200 16c-13.3 0-24 10.7-24 24zM160 64l0-24c0-22.1 17.9-40 40-40L312 0c22.1 0 40 17.9 40 40l0 24c32 .1 60.1 21.4 69 52.2l33 115.6c34.1 14.7 58 48.7 58 88.2l0 96 0 16 0 48c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-48L96 432l0 48c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-48 0-16 0-96c0-39.5 23.9-73.5 58-88.2L91 116.2C99.9 85.4 128 64.1 160 64zM416 416l16 0 64 0 0-96c0-44.2-35.8-80-80-80L96 240c-44.2 0-80 35.8-80 80l0 96 64 0 16 0 320 0zm16 16l0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48-64 0zM16 432l0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48-64 0zM160.3 80c-25 0-47 16.6-53.8 40.6L76.3 226c6.4-1.3 12.9-2 19.7-2l320 0c6.7 0 13.3 .7 19.7 2L405.6 120.6c-6.9-24-28.8-40.6-53.8-40.6L160.3 80zM96 336a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-48a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm336 32a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const Taxi = createIcon("taxi", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABvAAAALsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDewsGAAE2AiQDCAQgBYMtBysb9gXIPg2YQ8ZCrd8eTCmxojssSuzh7fE7w3DFw8SyLPKH3OAf1KXvywrJvotDrAIDj+1U3njrBjjxnDE88H+v3hfMx4w1QJeGNo+JEcwJSAWml7BUoUJN7m8trOBBJRCMLKjJnba2hCDPf55p6aeHJnOCQLzn1wVFCzhEYIANuCZ7sMV5uRDuk+ULfOrU85yHAvhGMQnuqZtWN9Cc3KtARetzAdcKFipghLiD7oI0qXp5fG2A1RNnUsCci70HR4ov1V9ydsIQBAAAKAYAALqNGTGIl3+ceP9B71kAAlB3AJ6AAAiAUgKgowABpSweWCyC7+Ed/AeCAECpVI81AFggAj7BLwCwABictcn+iUTlh/3HZCbs6CjFTSBCSefbjpvZQknbMmfCUAdSp+BErVtFo0Lw23MQQluTJ53T/vRpSRFIFxXbChfqjAlOHu6E4yIXSpf791tHPOreLUXhNOJUXsiZjHDR5tgJr8TJ7MhwJkroQGp0OJ8+7dzIt0/nn8w9lQeH4pSdiIA6nTyNiDN5BwiSwZ264IjqHd//n73u+8yFhVfJyls+GJZXCbwh6/GDlsp6f1whheNGs6srnK98e7Gmknuf+n5RU7rmD4pNpfx/VpjdqHFhVcVD92j0Je4qvuw0VdcpmU2rJHnmu+rA1c2pR/gjf+bmOua6csdKcw3/82tNvP29xWote5PJvfaQCh63W+X3A4AAQaP78pjpeCIDwM+fN+ZVlZC5D+kYAARBQzPRAGBAUCVGq1VnZIwAwwdxAPtTI04TABAOEACGVBwCIKBETABYHA0IgBTKtSIAUnGMIEA2A5Fr0goMEctAQGubgCXXQ5BCR6+SVHJDfOX0N0r/ZCb0BqFeq3yzxk19e0+tm5kPl0znO3hho+7qsK+evZbZLGExK5nFTOaxEkCWM6i4ikX0ZsG9yBCvmcaa8trzyq1RYTSA98KKnCBz6st04M07da1mj65n24YKtTnJXIIaY1ce1s4DAAA=");
 
 export default Taxi;

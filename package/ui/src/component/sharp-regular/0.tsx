@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `0` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/0?s=sharp-regular 0}
  * @preview ![0](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/0.svg)
  */
-const $0: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M0 192C0 103.6 71.6 32 160 32s160 71.6 160 160l0 128c0 88.4-71.6 160-160 160S0 408.4 0 320L0 192zM160 80C98.1 80 48 130.1 48 192l0 128c0 61.9 50.1 112 112 112s112-50.1 112-112l0-128c0-61.9-50.1-112-112-112z" />
-    </Icon>
-);
+const $0 = createIcon("0", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABWQAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBJgsGAAE2AiQDCAQgBYMtBygbngQRlZoDyH4kZKeYtxpndrLTZiWm0QNXYxOexMPHmvn+7iYFoC0RKWByQL5VwPZAltBhpopsppbAXgKgQt7//ub5P/8U4AOR2tj5xgU+53kCnefD84TGAss0AUu3iQjziMK3YwRJRH+Ex9sMWayJiwokV5MSLrSHxlcdnJcopACiOQCmr1iy2MtylCPeVe6JdxYiIKaDXCBFis4CTJIKdJbJkckE5ahU8A/MBRBFftEEZMgwGtMBGUgkWda2XaNCk2x5o0LD9PPUiBcrPk5+tkx8mPR06acpz5fHirv9Iqo6i5v9q0c/GFjbLeLWgJoxPWqa13xX2l4iZpYozYyZUSrFzNPswMjtA79S1+y0ZnV/gcVyCATv5/a8taHZpP/1GyXgy+PxGamUY1pSg/oSEKSDKoPWxnGIaQIAkMRxPWIaAonBEr7Wxi4FCA0RIFHUUIBUJ80FyDQ0UICCrkYLUNTQEqnIGgitrVNINHYIUmOcgExrd6BgkldGUetIc4d+efrnlsDmMJrdlQ8fMiyfkE8dnUkHsjQn5stiv+OW6C+Tth/Yf3Tb1l1HiTi82D62b06EZ7+YDx8yLJ+Qb/uPw8u3HT6y68D+2mZifl7qdzzO7y99JMCIWydNjySGAQAAAA==");
 
 export default $0;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-tanakh` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-tanakh?s=regular book-tanakh}
  * @preview ![book-tanakh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/book-tanakh.svg)
  */
-const BookTanakh: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 88c0-48.6-39.4-88-88-88L56 0C25.1 0 0 25.1 0 56L0 344c0 22.3 13.1 41.6 32 50.6L32 464l-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l344 0c44.2 0 80-35.8 80-80c0-2.7-.1-5.4-.4-8l.4 0 0-336zM368 400c17.7 0 32 14.3 32 32s-14.3 32-32 32L80 464l0-64 288 0zm32-41.3c-9.8-4.3-20.6-6.7-32-6.7L56 352c-4.4 0-8-3.6-8-8L48 56c0-4.4 3.6-8 8-8l304 0c22.1 0 40 17.9 40 40l0 270.7zM216 104l13.9 24-27.7 0L216 104zM202.1 80l-27.7 48L119 128c-12.3 0-20 13.3-13.9 24l27.7 48-27.7 48c-6.2 10.7 1.5 24 13.9 24l55.4 0 27.7 48c6.2 10.7 21.6 10.7 27.7 0l27.7-48 55.4 0c12.3 0 20-13.3 13.9-24l-27.7-48 27.7-48c6.2-10.7-1.5-24-13.9-24l-55.4 0L229.9 80c-6.2-10.7-21.6-10.7-27.7 0zm-69.3 72l27.7 0-13.9 24-13.9-24zm55.4 0l55.4 0 27.7 48-27.7 48-55.4 0-27.7-48 27.7-48zm-55.4 96l13.9-24 13.9 24-27.7 0zM216 296l-13.9-24 27.7 0L216 296zm83.1-48l-27.7 0 13.9-24 13.9 24zm0-96l-13.9 24-13.9-24 27.7 0z" />
-    </Icon>
-);
+const BookTanakh = createIcon("book-tanakh", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABqgAAALFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDMQsGAAE2AiQDCAQgBYMtBzIbswURlZplyX4m2DZptqKYirEeR8vaNDwNTRrFNPwSDx86y/cl2XsrHQBBe9wBQgDZm4p7l4E2k5KqcwBYbA6JlHKRiUbIT1tdd893c4SJy52//9P7mPYEj7Jmc1k0JvXRnOcJBJh12djUZQ+SBfai2NssFLLhwyUiQnos7m4YHba7QhZP4qYSyaPkV9zIPxp/6eAsiVIKIJoDYMa6VUs0/B6/R/xS+1T8YhECYgboLpAiRWcBJksFOst0RyYT/B61Gv0HQgBRxp9NQIYm+BzfAzKQKLKsd/OWdSPrmtSxK0WpSba2KOX7nhsY8dbYxvFK67vtk3i2j8jjlfaP+jSJzwe93e1URKTrr7SJuOek6sgbR0STYfdr0/22aTxo1yTWPB2ZrO3QsUMenToOHjY4j8ut77YZEoOjMO4VRQwJxpV2w6IIxoO2Q2NYMO7neQwN/sqxusiL9tGxCOK5ONs1bHWn9p06RL6mYweXjPbrfDLvFJIf3WzfMYqebzV/6+8ev/a/VvZlF7k4fbj9T9V11/I30siKNm1WrNd8z9rIMpYvG9f0IhebFp6e6G667v/fYrzt5e7K24dr8fZXLZp9/rTKSGfVauWJcfJxY8dXVIwfOy4fp2Jeff28inFQXYHz6pOz53VGpMqq48bXve9942Fq7LYq5HVeOexNvsoH9vbZ+0AgePHt717b1mzyP6kE/PmVf/H1WkM0JG+hkQQE6eDa4M3RAMQOoJDEUT0VjwUS7ysgfmtj9wUIOQIkynIBUp00FyCTGyRASVdjBCjLrZKKrF5obUsnE40dIFNjHSMzrX1Mlkz2Q6GsNQ9pwLL5yf+PGU4CtA1ZnMJg29YUmxTDusV1SP9+zIODrD/2t2unV8B3Uf42p0HkIWRiKTDwuPe4v+zuZzr2tImF73Par8/2ICowZ65FSOCJsu7G6K32ahkBAA==");
 
 export default BookTanakh;

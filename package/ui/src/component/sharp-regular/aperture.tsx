@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `aperture` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/aperture?s=sharp-regular aperture}
  * @preview ![aperture](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/aperture.svg)
  */
-const Aperture: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M404.7 401.5L348.4 304 323 348 256 464c58.2 0 110.9-23.9 148.7-62.5zM436.2 360c17.7-30.6 27.8-66.1 27.8-104c0-19.4-2.7-38.2-7.6-56l-112.6 0 25.4 44 67 116zm0-208c-27.6-47.8-73.7-83.5-128.5-97.5L251.4 152l50.8 0 134 0zM256 48c-58.2 0-110.9 23.9-148.7 62.5L163.6 208 189 164 256 48zM75.8 152C58.1 182.6 48 218.1 48 256c0 19.4 2.7 38.2 7.6 56l112.6 0-25.4-44-67-116zm0 208c27.6 47.8 73.7 83.5 128.5 97.5L260.6 360l-50.8 0-134 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm223.7-56l-32.3 56 32.3 56 64.7 0 32.3-56-32.3-56-64.7 0z" />
-    </Icon>
-);
+const Aperture = createIcon("aperture", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgAAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCLAsGAAE2AiQDCAQgBYMtBy8bKwXIBp4nnfr+6UxSUkSFmOQi4rAS8UhbeersP+7d+T//G/AZfbSxaY7SNuAenECAa9jyLtEusEwTsKyd/eIU6ReDdAl90q5+WD2AluuyBxeoo+oFsLt8qPyiLxtA4TIAAJAuAABAib+tgTtf5avI88BFkOfUAQIgJQDYCGAABjAAASAfAwEGoLEBjUbgqwQC4T/QBgEAcaMvUwBowATmAJsAAA2Awqt1kGmisn+w5QrWDt7VHO90OPHSLtvzLsclnQ5b28+UBOmQU7ki1zLbxXK2ZYtciO6QJPG3n7DX9LUkURxO5ohczfCL6XwuE7nf9Nra3vCy5G7Hh+I79S/MbY2vSu85/uKy4hKxpExKxQw91uXYn5AXk15wICF7bLy4ndL5xDePfvHjlHfgsjnw6jdlXvBtzR5DWsLkeRZGv+xsnnt+sgHblj32ireTqfBB3/N3y8runu/ro4Krg/8ly6M5ivFQnwdAAIHEPnunj+6c/99rKQC+X/v3D/yKAncU6hjgRQEgYMQH4hmhAFAgAAAAgJJFhCoAARRT8KLFIA4hN4smIDF2Y0rRoD9dOmhM4sDFIDJY4/42DET7EHowUkARxFwwyGQlaHpwHlzk8zjnpocY7sc7D//5S6lkpGKZnZKYbOfay6omeBSbpvNssx69CF0xcpZJzGYWC5jIBKaygOh5NBQXMpPKHVrBF7FJIZFkbHKxjxuPikP+POaDnYvni+Rh34+jWbQfHCOWQhlT0dQTbFDesXMmzluwcN5EAA==");
 
 export default Aperture;

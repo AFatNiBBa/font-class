@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge?s=sharp-thin bridge}
  * @preview ![bridge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bridge.svg)
  */
-const Bridge: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M8 32L0 32 0 48l8 0 80 0 0 96L8 144l-8 0 0 16 8 0 560 0 8 0 0-16-8 0-80 0 0-96 80 0 8 0 0-16-8 0L8 32zM472 48l0 96-112 0 0-96 112 0zM344 48l0 96-112 0 0-96 112 0zM216 48l0 96-112 0 0-96 112 0zM8 256l-8 0 0 16 8 0 24 0c39.8 0 72 32.2 72 72l0 128 0 8 8 0 96 0 8 0 0-8 0-128c0-39.8 32.2-72 72-72s72 32.2 72 72l0 128 0 8 8 0 96 0 8 0 0-8 0-128c0-39.8 32.2-72 72-72l24 0 8 0 0-16-8 0-24 0c-48.6 0-88 39.4-88 88l0 120-80 0 0-120c0-48.6-39.4-88-88-88s-88 39.4-88 88l0 120-80 0 0-120c0-48.6-39.4-88-88-88L8 256z" />
-    </Icon>
-);
+const Bridge = createIcon("bridge", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABhAAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCUwsGAAE2AiQDCAQgBYMtBy0bUAXIjtMlNOVjwgi+X4vs92eWZo9hDgA4gJJBhRWwigMsj1uxV5HRW4jvE9fUD/qm34aRNoKhRRVIJHfybjSgAonWKKABzWabTRS3t6ikuO2XZEYz0+M5PT6dIY8/HFchvZZ+wTPjTeO+vp4gyTIA0QUAS3Zt2+C7VrQifm5/QfxsHQJiCSgFMmQYIMB8mcAAuRK5XNCKdjv9B5YEEFWAJvfnqOEpvADIQVLJ8/4Nl7CpWemY7yxLi31FsxDNpigC0jmAAJvs7UIxOJpFNG5XsN4d82FfPekMEW+M+3gUkd9JLT4f/cEAkUe8PfajmejYYuhHXT76b8gvJ39Re6der3dR33zY5lk/u3kOdT4MU1922OVHhuP33zVifVrTpnV65BPqp+se0WnatBbR9xHNW0x+22a35avJYvSMPkAg+GVEj08OdZ7/f72ZwL/fvq893G6lxekj1CUQZOPb4+1PiyFJBhBOcdNQ5osCyZMq4FU7eFmAUCBAUlUIkOmviwC5wjgBKgaZIUBVYZtM5A2hhwNbkHRwRZCZ6UFBrofPBBXzfR+q6hGZRSrsSfEhTLsSwyvGlVMmTi7nlse8pTQyWe2fV4qto2+SujH+oJMuuei6E4474zqir9oQveGClRy1wg+VpphostJcpbo03b3TCVddc8YlF/sw85T3g6Pd5FuP8Y4EpE6VliQiVV8J");
 
 export default Bridge;

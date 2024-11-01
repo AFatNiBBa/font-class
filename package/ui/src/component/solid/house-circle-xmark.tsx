@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-circle-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-circle-xmark?s=solid house-circle-xmark}
  * @preview ![house-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-circle-xmark.svg)
  */
-const HouseCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320.7 352c8.1-89.7 83.5-160 175.3-160c8.9 0 17.6 .7 26.1 1.9L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1l32 0 0 69.7c-.1 .9-.1 1.8-.1 2.8l0 112c0 22.1 17.9 40 40 40l16 0c1.2 0 2.4-.1 3.6-.2c1.5 .1 3 .2 4.5 .2l31.9 0 24 0c22.1 0 40-17.9 40-40l0-24 0-64c0-17.7 14.3-32 32-32l64 0 .7 0zM496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm59.3-180.7L518.6 368l36.7 36.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L496 390.6l-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L473.4 368l-36.7-36.7c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L496 345.4l36.7-36.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const HouseCircleXmark = createIcon("house-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABiQAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCPQsGAAE2AiQDCAQgBYMtBzkbRgXIhuB5u76vc7tnHtbqBYhPKiJDpYyEiWvqx/nTn0fhiz9KxqpByqOCJzDRedNA24azieL8dn5cMZDeIkmXuCTD+Ibt199DHn9n5yqRbkof4IryofGDZs4lqcoARF0AjF08f6Y3v41vI97//znifdMREGNBIZAhQ0sBRsgEWsoVyOWCb+P//8N/YEEAUYb7SyBHCWfhEkAOkizPR7RoV6NUK19Uo1S9/uvZER8vvqTRori++vqGa+JaZxpd16hGiDPOCqGAGsFLaiQB2CVNbmgRxllNEM7CS4ZHvNL7iXN7PT7s5eqLh7zY41Fnej429KUai0eMHjEyrmt4beNRMSIy6/omo2NUsG5oNDJGh7C85XYP1334p7YfbPrAmNXlCTWpMTFqvfX5y66vceeDvnFT7VoXXvhJYaIU7FHv5Ufq1ZVSRETRtN4jD2tqjNoXXlh7zBN3dE6kvm07dWrbN6XOvikkhj07AMVuvvmhh8Ybrwp9zQD6eiAQ9Lr1vk9X1xnxa2WNBL5/+Zc/8uX+fzOdSQ+jUgJB1uP/HlakMyBrAnIpDmlnfFEgOSqDd63pegFCNQIkZdUCZFqoK0CuWncBSlobKEBZtfkykVcJDa0cVFLTXiozyEkq19AzVMkIb2fLGkZGQ4VEyldg5iQNT9xW9O3VpxhWbJu6yiwpLQ8vjgNdDsWhrm6HTXbb5YCNNtjaBIXuM7Nw0E6TLGSiHyr01UsfhWGK686zuUiy++y3da3fbzJc8T7TxSF7clcXTsDbT0WSiFSfom7PH3aCPY+wFgAA");
 
 export default HouseCircleXmark;

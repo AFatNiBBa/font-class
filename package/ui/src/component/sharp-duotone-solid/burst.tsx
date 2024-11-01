@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `burst` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burst?s=sharp-duotone-solid burst}
  * @preview ![burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/burst.svg)
  */
-const Burst: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 0L51.8 86.8l42.4 71 24.7 41.4L75.3 220l-19.7 9.4L0 256l55.6 26.6 63.2 30.2-23.3 66L75 437l58.1-20.5 66-23.3 30.2 63.2L256 512l26.6-55.6 30.2-63.2 66 23.3L437 437l-20.5-58.2-23.3-66 63.2-30.2L512 256l-55.6-26.6-63.2-30.2 23.3-66L437 75 378.9 95.5l-66 23.3L282.6 55.6 256 0 229.4 55.6 220 75.3l-20.8 43.5L157.8 94.1l-71-42.4L0 0zM111.3 256c9.4-4.5 18.8-9 28.3-13.5c15.8-7.6 31.7-15.1 47.5-22.7c-9-15.1-18-30.1-27-45.2c-7.2-12-14.3-24-21.5-36c12 7.2 24 14.3 36 21.5c15.1 9 30.1 18 45.2 27c7.6-15.8 15.1-31.6 22.7-47.5c4.5-9.4 9-18.8 13.5-28.3c4.5 9.4 9 18.8 13.5 28.3c6.2 13 12.4 25.9 18.6 38.9c13.6-4.8 27.1-9.6 40.7-14.4c9.9-3.5 19.7-7 29.5-10.4c-3.5 9.9-7 19.7-10.4 29.5c-4.8 13.6-9.6 27.1-14.4 40.7c13 6.2 25.9 12.4 38.9 18.6c9.4 4.5 18.8 9 28.3 13.5c-9.4 4.5-18.8 9-28.3 13.5c-13 6.2-25.9 12.4-38.9 18.6c4.8 13.6 9.6 27.1 14.4 40.7c3.5 9.9 7 19.7 10.4 29.5c-9.9-3.5-19.7-7-29.5-10.4c-13.6-4.8-27.1-9.6-40.7-14.4c-6.2 13-12.4 25.9-18.6 38.9c-4.5 9.4-9 18.8-13.5 28.3l-13.5-28.3-18.6-38.9c-13.6 4.8-27.1 9.6-40.7 14.4c-9.8 3.5-19.7 7-29.5 10.4c3.5-9.9 7-19.7 10.4-29.5c4.8-13.6 9.6-27.1 14.4-40.7l-38.9-18.6c-9.4-4.5-18.8-9-28.3-13.5z" />
-        <path d="M328.8 164.1l29.5-10.4-10.4 29.5-14.4 40.7 38.9 18.6L400.7 256l-28.3 13.5-38.9 18.6 14.4 40.7 10.4 29.5-29.5-10.4-40.7-14.4-18.6 38.9L256 400.7l-13.5-28.3-18.6-38.9-40.7 14.4-29.5 10.4 10.4-29.5 14.4-40.7-38.9-18.6L111.3 256l28.3-13.5L187 219.8l-27-45.2-21.5-36 36 21.5 45.2 27 22.7-47.5L256 111.3l13.5 28.3 18.6 38.9 40.7-14.4z" />
-    </Icon>
-);
+const Burst = createIcon("burst", true, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAAB6gAAAL5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVCEXwsIAAE2AiQDCgQgBYMtB0YbdwbIngPu7LAYIuJWhlrE/GIixtpueTx8v9//1t7nfDGLlsyBRNcoGsVCotMs02hUMrSXGKa/IYmGdv9+zXwvoI7pBwB2cwBIisCRjrrS1pdVpy5TYsb1l9pEfVwg/P/3Thv6tROvJ57y/fM2xtA24JzHEwhwjE0lGn+iSDir9GYvAB8RexRNrlDjS3mBS77NFvDSnx+/BJgHqafwlTGcvwE6fy0vA+xtbGe0mhcQLelAQFwAwDJEQcE8BMfYAvM4loGqCtrZjHY0WwYBRKfwGwroRAcxQCwFQAUpZK3nU8acuAP1qhO3975EKPHHYBQRIasQAcTMlPwFUjMSChKGJiZho44klI2m4+UAKpYWFBYUoIqVUDKmYArmo1YaFqEOaIiwgFR6hZiGqcAiYPIE1GOplj8lWiEWFhz5ISagU4e+1IEPEKAg69z3BtdVkLgtOILbMBW32E7j0HD+g/uDY4VpZCTPfQpfOYdvcjG+yvHNuU82+PiFIarsnxDm6Ocz/nkSx+izSr/84muTfasw+qnVRMteSI0a5eB7Xoo9MVPwx61bf8RMwj6K33mOYck+NQkfn5VmWeIqFG51NrV1ALcev3++2m9rK20pSU5Omp9fmL+5vnnrnLJYxBKzWOwMs1ApF6m9vYs9rc5Yzs7Do+SUbH5vf762t662FthXZ8/JaBnF9uqMacnl5Thhd3I0Zd8smTmBAZHdd7t7f7+agszw5ahz3weAQPD/w/frbuHvlODbx/8/i1+Fxp7yPdAtQVA2plSeAEkQXpPxHPgJHgCB4pNSHKl+r+CmqV6EiZ0MQ6lijrtLql7rpMMiE0ycfQlb1B5hXAVI6veIFLsmSDXumXQ49iHeaTzYHwbzWDP/pWEiK08YRHRqLaFJb07FPuvg9NrIZJt00KiRYSU06tKpX4N6LfoZRa+M1IAOiUO6CeISOmpaBI0sLi5iIePr1WdAN7e8HxuyfUhqcLi5DCKyAJvCnUUhMsrArYHevn7VC2Z0Y/gXCQA=");
 
 export default Burst;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mace` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mace?s=sharp-light mace}
  * @preview ![mace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mace.svg)
  */
-const Mace: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M312.5 114l-5.9-11.1L288 68l-18.6 34.8L263.5 114 251.6 118c-32.5 11.2-58.4 37-69.5 69.5L178 199.5l-11.1 5.9L132 224l34.8 18.6 11.1 5.9 4.1 11.9c11.2 32.5 37 58.4 69.5 69.5l11.9 4.1 5.9 11.1L288 380l18.6-34.8 5.9-11.1 11.9-4.1c32.5-11.2 58.4-37 69.5-69.5l4.1-11.9 11.1-5.9L444 224l-34.8-18.6L398 199.5 394 187.6c-11.2-32.5-37-58.4-69.5-69.5L312.5 114zM478 205.9L512 224l-34 18.1-53.8 28.7c-14.4 41.9-47.5 75-89.4 89.4L306.1 414 288 448l-18.1-34-28.7-53.8c-15.8-5.4-30.3-13.5-43.1-23.7L35.3 499.3 24 510.6 1.4 488l11.3-11.3L175.5 313.9c-10.2-12.8-18.3-27.3-23.7-43.1L98 242.1 64 224l34-18.1 53.8-28.7c14.4-41.9 47.5-75 89.4-89.4L269.9 34 288 0l18.1 34 28.7 53.8c41.9 14.4 75 47.5 89.4 89.4L478 205.9zM288 208a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm48 16a48 48 0 1 1 -96 0 48 48 0 1 1 96 0z" />
-    </Icon>
-);
+const Mace = createIcon("mace", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkQAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCXgsGAAE2AiQDCAQgBYMtBysbWQVRlKzJMNmPxNgWcV7FCBNUonz+OB7+f03svp8pAE+jyoyuClkxLAALnbOWKRlgsWMno5Kwu+ydlJj/az6/59eU9I0OLZpK73kVjTKfT2Cgo+LDFWALTQc0IR2EZzp9pFqtUH1URVnMzH/k8V0NWbweHVQgXUpf4ER/q/hGE4dIsgKAqA2AobOnT/ROSSnii/KLxBfGIyCGgVyggN2cQRhgC6khkyOTCUpRLs//wJwAoiK9cgIZKuI0LgMykGRZ1up7lRrVKtTIZpUNVVfXoGGn6KB+tj/pkvw++mqA/fTwO+qsEfbn3fH766cht//sm9m3X98+McbFvuNdooNOurmVM6K+dhqZ7TLHRT/9jXdl71f36Kyjrm7OXYydcbb+Oblg57XnRb+Rt3ilbsdNOFK8V/ved62/WPWFPhPn6YGionGeKxb7u8GgN/XDr5uHzHOdat3fTeSG/n7d5zfm1+EXWuDxqlV/f6iOOj60u9O1q+5b5TXXrvl59wJ1+Nrfu+HxgjejVLNmaVTLVTft37+pqlwOBIKvVk/uubjWgN8qV0vg69d++EmOV343SfdQWQJBoUO5gwWJAA6+UopdiokQSA7L6LtWd16AUBUBkoqqClDQTG0BMlW1F6CClnoKUFFV0xVEVkWob+EGSXVbQUEvB0GmvuegggE+DiqqH4W4lKJK+itMH2Whkevyrp265P3yy6Ylh5pQl/vnt602u2SoLXutstkmO6y0wlo7DLnNxHinjUZ58EgflOuqky5y/eSPO5/bZ1lpm+3W2mxTW6W//H2vjV3+5La4ifJ2Y6ZPUEjZxqXLVwI=");
 
 export default Mace;

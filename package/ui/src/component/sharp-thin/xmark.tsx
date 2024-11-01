@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `xmark` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xmark?s=sharp-thin xmark}
  * @preview ![xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/xmark.svg)
  */
-const Xmark: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 244.7L45.9 98.6 34.6 109.9 180.7 256 34.6 402.1l11.3 11.3L192 267.3 338.1 413.4l11.3-11.3L203.3 256 349.4 109.9 338.1 98.6 192 244.7z" />
-    </Icon>
-);
+const Xmark = createIcon("xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAH4AAoAAAAABSgAAAGwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKcH8LBgABNgIkAwgEIAWDLQcsG3sEyC4G7JbjEA2R9igby1FpbvR96SE9TCMiaK2snp0HYkmkWGiKihEERhBImzcmhDL6Nta2/UM2aUNMqmgStybWEpUjQyOZcd8TQJW/A0R1wU2dqhnn2YBPFLWxLDkPyJhAc55HIOfxqfFUpFawmlbAau7aURSRr7SUJemv8fi5oeaJPi7lfQE8zR+aPxSeFE0DIIMAwNmNXBZ+8zG5bn3ItTQQyBnAIkSDBrMQHGIFszgWgaoKH2m13H8ggQBpV15ZQEWDJWATgAqK1DrVw+2rV+Gg+8ZVoSjGQvKRpGQJWYqX0uSXX4P9WzLk++G50QIIu8cgCN/tFi/yv7OngM/9h35GKpCb5YVOBYRmrbWmnqtl6jQgAKDkPlWuViCKKQy8a683AqIbAUW7bgGNGXwIqm6rELSZ54WgXbdzrNQuMarRQNHrFmgcOIFq1Bu0OfQ3242GfSeCloVvWmqMo9ElctocFKJhpIqq5+I0TNO64egrRhzC0MrS3kDfxJ4xW1nnYCEmYVFfRJxsHEgILaf320UDWzsTK8s0J4z2GwZHud2IdRjAzgmHCyltDy8U");
 
 export default Xmark;

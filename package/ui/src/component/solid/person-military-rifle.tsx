@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-military-rifle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-military-rifle?s=solid person-military-rifle}
  * @preview ![person-military-rifle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-military-rifle.svg)
  */
-const PersonMilitaryRifle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 39c0-13 10-23.8 22.9-24.9L334.7 1.4C344 .7 352 8 352 17.4L352 48c0 8.8-7.2 16-16 16L185 64c-13.8 0-25-11.2-25-25zm17.6 57l156.8 0c1 5.2 1.6 10.5 1.6 16c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-5.5 .6-10.8 1.6-16zm228 364.3L352 369.7 352 480c0 1.3-.1 2.5-.2 3.8L177.5 234.9c16.6-7.1 34.6-10.9 53.3-10.9l50.4 0c15.9 0 31.3 2.8 45.8 7.9L421.9 67.7c-7.7-4.4-10.3-14.2-5.9-21.9s14.2-10.3 21.9-5.9l13.9 8 13.9 8c7.7 4.4 10.3 14.2 5.9 21.9L416 173.9l1.6 .9c15.3 8.8 20.6 28.4 11.7 43.7L392.6 282c2 2.8 3.9 5.8 5.7 8.8l76.1 128.8c11.2 19 4.9 43.5-14.1 54.8s-43.5 4.9-54.8-14.1zM320 512l-128 0c-17.7 0-32-14.3-32-32l0-110.3-53.6 90.6c-11.2 19-35.8 25.3-54.8 14.1s-25.3-35.8-14.1-54.8l76.1-128.8c9.4-15.8 21.7-29.3 36-40L331.1 510c-3.5 1.3-7.2 2-11.1 2zM296 320a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const PersonMilitaryRifle = createIcon("person-military-rifle", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABjgAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCRQsGAAE2AiQDCAQgBYMtBzwbUQXIhuD5Or+vc7vz0JnxE3oEfjj5NlfyzluvAO4ydep5zkMBfAtZ0PbQgIxJ2Z3zvAIFrqW8tFiQscAiViGtbpMh1NGRXRIhUhLR8eXxdYA8Xs0uViHdkT7AdfKl8ZNuF5O0ZgBiBADW1HfZzlufx+cR7zeeJ963DQJiDSgFMmToE2C5TKBPrkQuF3wejUb6DywJIJrw2yWQoxnn40ZADpJKng8fMb+vtVoZmteqlWKvuybV45Z2cXNbEY/2zKkW1VvcPfnx+S9MfXLggs49arvVxPkuiFo8Vq3GVRPqcWvnbe3t0R63tO0Ktp241eB20+zNLdFxa8euRbW4ktyI2DXMxW/trMddk/aIm4vaY713Tny4644JY58c8eQvYz449AP33d627rYhPh8YNOzz2xzQ0XU37+1sidohI0YcUouWzq+OWrAHXetYKfHM/67sm6urvu9DXtr7rA8/9rEX91m0nxEeXTb9yFXGtW1zvmtWrfz++6++una3eeejftjllw871oI9XPvVX598v3LVNcvdH+/3XLKmqfPNndrbd6poIM569DNv7Td8+T8t1QS+fOW3/+VH9Dfeiq/Sk2iRQJBNb0y3d6Jff3wlsJ3iVGOdhgWS01UAtzrErQKEAgGSJoUAmV4jBMgVpglQMWCBAE0Ku8hE3iq02WeAZIgTQGahc0CuzbOgYrm37SZtkYUiGUjkTzBuo4Y2bCvnzJxdLi2XbZ2KLrysLyu3tcmn5rEpqHWo4xzrZIc42BFOVsiJtvNOcYyNHrxBg0pzzDRbaanyuLflamSf6CRHzGXnmyxT3rcmO9WfPQVmwphzFZJEpPbIlWc81NiME4849OhDAAA=");
 
 export default PersonMilitaryRifle;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `credit-card-blank` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/credit-card-blank?s=regular credit-card-blank}
  * @preview ![credit-card-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/credit-card-blank.svg)
  */
-const CreditCardBlank: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l448 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM96 360c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zm128 0c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const CreditCardBlank = createIcon("credit-card-blank", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBTwsGAAE2AiQDCAQgBYMtBzgb1wTIPgzYZIjh3leIFIujSKPM8Onkvf/GPvdRGnuyjYvx8P1+/1v7XPkins2SmMUPhMJQumsmVUp5QyVDfcffr2b++1uFu1QRlmnZZ1GgBXKNB7J2BXjA1wABwP8bYCGCGTjktoNEmlIcIF5P9j0JBSNpME1xsqKpFb5q32WALvj0N5+7zqMAH0cQ2ti0NJAFtud5AgmWb0ooC7OQPjj/3dlatmOlPQ4hsSTHZzkeC+Tx10sUpE8cL+JD468+N0iKDACiFQDYuLs6cbxK8fuI346AgNgAGIXIkGEQgmVEYBBtFMjlgorq6T+wQABRgv6OBHKUOAYuAMhBkue0uF8g4DEEdL2h4HbeQuGtCvDeCd4ZP/0lxPcW4OO+Sil8mBc1H5/uTUZaX+ThYzyoufiUvGqV8k389j/2tvbY5nXCyuDUCbT9PPqZhBsnLNnua7ouCqWuxF0E6BRcB4BA8Ojq6Wb5n0gB/On/fF5V1tMvUCuBIJuovm5aBwAWASPFCaXxokCyjaZ3bfSeAKEeAZJSvQCZAWIIcvXGISgM80BQqneFiJwDoVOvgKTRE5BZcgpynT5AYdmnXuoM4k+UN1DfufjdFt4ZG3VY7fKgfOrLtIsQ0g/JlyX9CecMMGtoZWlvoG9i36BbOetgIWshGR+Sc7CykwuSb0f3fB31rZ3JmN0fEiI/r+md2NUGUCmKO8eWJCJJ/FmYvL7i5BMDAA==");
 
 export default CreditCardBlank;

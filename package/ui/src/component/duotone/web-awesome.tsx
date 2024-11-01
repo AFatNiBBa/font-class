@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `web-awesome` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/web-awesome?s=duotone web-awesome}
  * @preview ![web-awesome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/web-awesome.svg)
  */
-const WebAwesome: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M46.4 192L159 442.3c10.3 23 33.2 37.7 58.4 37.7l205.2 0c25.2 0 48-14.8 58.4-37.7L593.6 192c-.5 0-1.1 0-1.6 0c-1 0-2.1 0-3.1-.1s-2-.2-3-.3c-2-.3-3.9-.6-5.8-1.1c-3.8-1-7.4-2.4-10.8-4.2c-6.8-3.6-12.6-8.9-16.9-15.2L448 192 342 99.2c-6.6 3.1-14 4.8-21.8 4.8c-1 0-2 0-2.9-.1s-1.9-.1-2.9-.2c-1.9-.2-3.8-.5-5.6-.9c-3.7-.8-7.2-2-10.6-3.6L192 192 87.6 171.1C79 183.7 64.4 192 48 192c-.5 0-1.1 0-1.6 0z" />
-        <path d="M268.2 52a52 52 0 1 1 104 0 52 52 0 1 1 -104 0zM0 144a48 48 0 1 1 96 0A48 48 0 1 1 0 144zM592 96a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const WebAwesome = createIcon("web-awesome", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABiAAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCDgsIAAE2AiQDCgQgBYMtB1IbMgXIHodxLLIVVdhdjYf/t+v7fe6t12umuoeugRmB+iQjKPqZGCR2XMWcX+D6839NvbBM/2AndkgVi9KBrAEzn0/ggLf2BBvQBPbOFGfbkqunKAU9ihLHZIw9fvp47g5FGpmv0ka6P32EW+V/AONXfVxF0j4DiM4AWLxlwyrvfBVfpfiofpX4yEoExBJQCWRk9BdgnizQX6FCoRB8leqar6KuKwKIBsGybKO8cQhnAwqQZFEUHdAxo9nWodhMv5RHHhz57PCn+9w37KkRz/TdewSnTuX+3vcNKzzQ72r/lk2bN708vRlvTNwSN3So1C4v7+lZ2xib4y5tcuWeEux9wy6/Y8gLnV/4fbDDNG9s3frww7e2WNfcUZ5y4YWnlLo1Ex/74Y03fnisZnx92t7R7fRPnN6N3xdCighRVWuX3HXsSHfHdrqrFUlEdM7WPE362Je3CQEEgl9+LLvu6TTv/3bNBL55+89/1bdr6Zr0AtpJIMjj6nF2psuoO0kCSC3FOYYgdRMEshkytG9tuUeAUCJA0lAKkPXTWYBCaawAbQaaLkBDaYMsivZCd7s2SFpOB9kMF4NCd6+ANvO8W2voHjngnHBxfvcKV2h0eVI1ecKkak5127XcGLJoe271uDjqHDM1GjcddqpTnOWQg445S4lnWNU828lWePRyKapMNsEklTmq14Pt5c0OOcOZjjnVKbzLXNX31VHO8RePRiVphlNcyzKRInc799D+8fuGlczZ8ak708P6WQo=");
 
 export default WebAwesome;

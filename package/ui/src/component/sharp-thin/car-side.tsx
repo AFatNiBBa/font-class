@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-side` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-side?s=sharp-thin car-side}
  * @preview ![car-side](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/car-side.svg)
  */
-const CarSide: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M122.6 32l5.4 0 256 0 3.8 0 2.4 3L515.8 192 624 192l16 0 0 16 0 176 0 16-16 0-49.3 0c-7.6 45.4-47.1 80-94.7 80s-87.1-34.6-94.7-80l-130.7 0c-7.6 45.4-47.1 80-94.7 80s-87.1-34.6-94.7-80L16 400 0 400l0-16L0 208l0-16 16 0 42.6 0 62-155 2-5zM384 384c0-53 43-96 96-96s96 43 96 96l48 0 0-176-368 0-16 0L16 208l0 176 48 0c0-53 43-96 96-96s96 43 96 96l128 0zM75.8 192L240 192l0-16 0-96 0-32L133.4 48 75.8 192zM256 192l239.4 0L380.2 48 256 48l0 32 0 96 0 16zM160 464a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm400-80a80 80 0 1 0 -160 0 80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const CarSide = createIcon("car-side", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjgAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCVgsGAAE2AiQDCAQgBYMtBy8bVQXIhof/n+v9fW4ys6ZJISVOqxjxEylUROTYiLdqP7DC+b/m80s7OsDPl2KHlqukLvDM5xPY8zVtVEF7A2sb2ERx6qbq0UNRAiIorhRXh4x/0OPdHvL42wEN0kPpe9xbvjR+0NvtJFkGICoAzN28fqUv26It4rv/3yO+sxwBMRfUAhky9BNghkygn1yNXC5oi///p//AmgCiCTdLIEcLd+IBQA6SZp6PHdDBJcpGh3xTvK7YXhYdusfGKEshRFE8OuTFCe8Pe3lAEcNRBM4oy83R8+ATwyNemfze0Jf6lxHRvhBlSIUi+8qi3AwWsaG86Db1OxDClg9GvzHq9Unvjnh15GsT9z8+7eMpH/Z7bOpH0z8ZOPjl6uWfBn1/6HvXPtFotOvihkedqCpvqlRj991335gx1bXvVgmfc4d57Pqc4TMf1i3f3XqZl2+++eWXW2O86cyvbxpDyhS4efwXz2JqZY/acVPuffcX7HHuXter7VHt7vTlpc2bL33ZePeubn/44sXD7RcDgeBq/2MzN1fN+KtVJnD1419+kC/+vy3dnF5GSwJBNuL/EXakmyFQA0inuGSwMsRAcpvv+6nt3S9AKBAgaSoEyPRVCZArDBegYYCJAjQV1stE3k7oZucESXtnQWaSG0Cum3dAwwxfpZq6RWaTskXJf4TpFnFo4aB67Kgx9bT6NmcoZiam3un1Y9uQS6JmqF/qkNNOueCgA466wMhzVmYvOmmRRiz0Q7WxRhmjNk19XFzqNrHUOecdXZud9zNd/b53iEt686HemUBwnLlJIlJr/95zI60WAAAA");
 
 export default CarSide;

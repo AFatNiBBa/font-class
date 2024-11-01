@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard-medical` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-medical?s=duotone clipboard-medical}
  * @preview ![clipboard-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clipboard-medical.svg)
  */
-const ClipboardMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 128L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64l-49.6 0c.2 .8 .3 1.6 .4 2.3C290.1 72.6 304 90.7 304 112l0 24c0 13.3-10.7 24-24 24l-88 0-88 0c-13.3 0-24-10.7-24-24l0-24c0-21.3 13.9-39.4 33.2-45.7c.1-.8 .3-1.6 .4-2.3L64 64C28.7 64 0 92.7 0 128zM96 304c0-8.8 7.2-16 16-16l48 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32z" />
-        <path d="M113.2 66.3C119.6 28.7 152.5 0 192 0s72.4 28.7 78.8 66.3C290.1 72.6 304 90.7 304 112l0 24c0 13.3-10.7 24-24 24l-88 0-88 0c-13.3 0-24-10.7-24-24l0-24c0-21.3 13.9-39.4 33.2-45.7zM216 80a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM160 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" />
-    </Icon>
-);
+const ClipboardMedical = createIcon("clipboard-medical", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABrwAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDFQsIAAE2AiQDCgQgBYMtB14bxQXIjtOltuG0hPHw/2tl99Wv7mRqwlCJAgRFBArQA7OKissCCdln7cg9q9vcRsfoYvimw/Z8SYulJnH+L/f8bNPZ6ecjOJQ9aYHMAtxLE+gFVpZvKoESSqPMtMF5kw84NPefII8T6QIqZLfpD1x0/wMYTbq6QKYhAYg2AJi+Ysk8P2pRy+KP+jfiD3MREDNAKZCQ0EOASZJAD7kSuVxQy+p1alGvlwQQVf6rJ1BFM7zDN0AOMkmW510b+o3o11hpmS9vrBRr7q6It+35eB2eJ3ErF8WLGPGwLbtTn/Ht8lKW3vSNcd0KQ10zRVA3XAQ/+QuRspTdHq9Ly3i53kqKO/NNLeI6zsaubFO7uSZ/1l/xMjpdHP2kvm/0m9fnj+1/OHhy7XQW/fPPoulrm9p20XHRypWLOrK2TdtbVizjo333oaqVaq2GGcZZBLeqte1q0/z6om3bR/AIR8U01Q6H4NhcMGJ67YaPB7XtPg4CwbADS3dvaD3p/+aNGfj3+/9Pdnf9R5yhN6C5DARpUH2QtXEGYPQAvlQWx/WNM1iIQLJa4r9rCzcECAUCZKoKAZLu2giQKwwUoKKX0QJUFZZIIm8QOlhXgUwLh0AyxkmQ6+ArqJjkZ1bVIdI1K15x4i9j2pwmNHtbuYcMKyeUow2FdBnyenFiudjrx/lAf3jUdgfsd9Q2W+1ytEEeNq88Zp85U8RsH1QabohhShOUm9t3teWN7LAjdg0r2zeZqDw+7ef49Pj+MMz4jCMcSBKRRer6xRBOaWvwXWwNvgPGdB9Uznc=");
 
 export default ClipboardMedical;

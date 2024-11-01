@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-prop` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-prop?s=solid plane-prop}
  * @preview ![plane-prop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plane-prop.svg)
  */
-const PlaneProp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M240 384l-8.3-66.4-110-11L113.8 370c-1 8-7.8 14-15.9 14l-35.8 0c-8.1 0-14.9-6-15.9-14L36 287.8c-1.3 .2-2.6 .2-4 .2c-17.7 0-32-14.3-32-32s14.3-32 32-32c1.3 0 2.7 .1 4 .2L46.2 142c1-8 7.8-14 15.9-14l35.8 0c8.1 0 14.9 6 15.9 14l7.9 63.4 110-11L240 128l-16 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l24 0 6.2-50c1-8 7.8-14 15.9-14l35.8 0c8.1 0 14.9 6 15.9 14L328 64l40 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32c8.8 0 16 7.2 16 16s-7.2 16-16 16l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16-32 0 8 64 138.3 0c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64L344 320l-8 64 32 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32c8.8 0 16 7.2 16 16s-7.2 16-16 16l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16-40 0-6.2 50c-1 8-7.8 14-15.9 14l-35.8 0c-8.1 0-14.9-6-15.9-14L248 448l-24 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l16 0z" />
-    </Icon>
-);
+const PlaneProp = createIcon("plane-prop", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABkwAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCdQsGAAE2AiQDCAQgBYMtBzEbdgXIHgd2i08z/BqW4U3sw3j4//383Oe+9+llGO4AowNMBojdcAFQArm6qriicJhf21VJLg2QsfSuvmqnTj3PeSgXoOcQBGXM0fIC2vu8AgUvpTgWUIFaKsYqil3cdjPEPKRBKFygjF+Kp3SQ3k8/w6v+l8Zf9BRJTwEgBgBgQ2PPNs1WtCJ+aid+EgJiA8gCBQqMEWC1QmCMUkapFLSi3Rb/gZkAolP4wQmUKPAxvgCUIImyfLvW0bes1zqqRn1fvR453hpSxTvD6vFC9cKwd+LR8HdrL9Ya8e7wWrw9dEI0ohFVTKK1mEQQMRpCiLzyW0NEEr4zLLZRk0X7ZMYXI9+b/vnkKvIW7tGZiVcfmfjlgC//nvDz2Z+9rmtDdNKVyn2zm5M1Z/fsklK/557rJ82U2syUed8KYlNmgBlvBBbtMn3qQKvVL2v169fKTf4A2QMvaPb2zpzV22q+IBfnLdPTL9FHXP2KAUAg+Prkv+m/+p/uWgJ/fvv/iqfbzbQ+fYluCQTF7PZsh9N6ENgAqinumrhQoEDytiR81z7eESBUCJB0qgQojDZAgFJllgAdxlkiQKfKHoUoe4QhjjQg6eMGKCx1D5SG+AZ0WO27SqchUYAoA2DMH2Li1i60ZV9eMHd+XplnuyoW6ii7vSpvNqfflVMzcK6zrrnqtjNOu+B2B7lpW/2OK7YuwVv8ULbAXPNlK+XDg4divVO96ZYL09zxXVbJ16fT3V1ePAM7SYi7UEOSiFS9TtKczxgA");
 
 export default PlaneProp;

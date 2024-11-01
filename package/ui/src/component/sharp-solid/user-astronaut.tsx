@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-astronaut` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-astronaut?s=sharp-solid user-astronaut}
  * @preview ![user-astronaut](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-astronaut.svg)
  */
-const UserAstronaut: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M370.7 96C346 39.5 289.6 0 224 0S102 39.5 77.3 96L48 96l0 128 29.3 0c24.7 56.5 81.1 96 146.7 96s122-39.5 146.7-96l29.3 0 0-128-29.3 0zM336 128l0 32c0 53-43 96-96 96l-32 0c-53 0-96-43-96-96l0-32 32-32 160 0 32 32zM192 160l-16-32-16 32-32 16 32 16 16 32 16-32 32-16-32-16zM97 304l-49 0L0 512l128 0 0-96 192 0 0 96 128 0L400 304l-49 0c-33.8 29.9-78.3 48-127 48s-93.2-18.1-127-48zm95 144l-32 0 0 16 0 48 32 0 0-48 0-16zm80 32a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const UserAstronaut = createIcon("user-astronaut", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABggAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCNAsGAAE2AiQDCAQgBYMtBzUbOQXIhnhC5+c+Sfb4S8egA4YgYotcElCX2pMWq9SeuJz+OH96wDUIHm0sW9tHUz+a8zyBRPNNkAWWdh6Qx9jubC2TlPZIYglJjm+OUzlDlafKu3Uonih+wX3hRfOXye6mMFQCyCgA7DruqEN80U8/+XnwLvnZQQhkF2gFJUpME7BVKZim0qJSCf0MBvQf2BIgXfyjClChhxtxL6AChW5VzRg/etLwoaYzvDq26dTnvbY5+WjfbzZ+sLSONHl104f7fL/l4xVNknqjeHrhC2vrvLf4pRnJkjRZdPSUyVMmZW7mZXKmZkHmH1039dFpkjSRJsemzi9H/3HoMXVTi+7X5pjHJj464eFxj4yf/dKol/6Z9cu5v7jytM0ncMGoURecsHm62023+QRhrWi5u/fSS7e3bo9ArzbwvMF9Mwcwz0Sn3rcKait+d7vTfeHs21XFKtsODBrbBkbL5SgrtY4+6rCZ/REj+mwgt939z1c5beTW/3tNAf786L9/pIcHX+SL4iX0FCCUSwdLnZwvgIQBPlKRa83OFwgKV+rCZx3mUQFRI6DQVQsoTTVKQKW2REDHDOsEdNWOUko1JMY5pWCFYa7ASuvdglXGeRvr2Or7qmtcShVUFEh5AGbuK+F9jrWrlq9sN7fDvqxqleT3t7TL9sJr7dwiOOlcl7nU1c5xtgtcLdArHdK6xiX2nSH7eKPWKsut1Nqs3R7dmsdidaWrXNDX9w/Zoj2fL3TtfPUi8AosulpPoSDFiGs7t+yf3uSMa64GAAA=");
 
 export default UserAstronaut;

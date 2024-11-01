@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fish` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fish?s=regular fish}
  * @preview ![fish](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/fish.svg)
  */
-const Fish: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M180.8 303.7c9.2 10.4 19.4 20.6 30.7 30.1c33.7 28.5 76 50.2 124.5 50.2s90.8-21.8 124.5-50.2c30.3-25.5 52.7-55.7 65.3-77.8c-12.6-22.1-35-52.2-65.3-77.8C426.8 149.7 384.5 128 336 128s-90.8 21.7-124.5 50.2c-11.3 9.5-21.5 19.7-30.7 30.1c-14 15.8-36.7 20.6-56 11.8L70.6 195.3l21.1 36.9c8.4 14.8 8.4 32.9 0 47.6L70.6 316.7l54.3-24.9c19.2-8.8 41.9-4 56 11.8zM4.2 336.1L50 256 4.2 175.9c-6.9-12.1-5.2-27.2 4.2-37.5s24.3-13.3 36.9-7.5l99.5 45.6c10.5-11.9 22.5-23.8 35.7-35C219.7 108.5 272.6 80 336 80s116.3 28.5 155.5 61.5c39.1 33 66.9 72.4 81 99.8c4.7 9.2 4.7 20.1 0 29.3c-14.1 27.4-41.9 66.8-81 99.8C452.3 403.5 399.4 432 336 432s-116.3-28.5-155.5-61.5c-13.2-11.2-25.1-23.1-35.7-35L45.3 381.1c-12.6 5.8-27.6 2.8-36.9-7.5S-2.7 348.2 4.2 336.1zM416 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Fish = createIcon("fish", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABhQAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCIQsGAAE2AiQDCAQgBYMtBysbHAXIjsK2bROHqljiCU9LIvh+v9+e8+7DvHnzpEk0NA2dJpYYIo0kFhshilVC5x+No2YO4h4IV4hNiFAowr8nrnn+aU8PGEX2aFFY2lggT8vmCUxsN6sEjAScTRRn7XQDBr1++UGflE+yWT/DYg0l3qIVavKR4hi4qbT4w68yS3WFCdED8KGs73s4we4DPgS+NpaIVw5AQKwDjEFUqDAEwRJKgSFUxoCiCL7xf0P+AwkIIJrgcRMU1DgCLgEoIFWljKtyMlJ3lr126rb9W6kxqSHGBpkRhR2VaeNx6WGGeslB2UGuUWl7VMI+PkV0iBE5T584jzf2C/ZIeeGAzITBhs6S3prcWKDxd3H1yo5eVndVc1l/XX5cwBMHefoFIxq4EW/hiquToZ6nG8t4exjFx9nGH8WOo49hseWOperxr6Tk38euAw2Ngy5dr4rl7uKPL1haWbEEX39yZ0WVXHAedFz8s4lQgjeTg7DQl5fQsMt9fbvB5ORBO/39y2GOfdXXCEWw+b/oGEhhqQXXLFKQ+ABiq5cqtZoQVsNPuvYEv+vPX7Tn/1/kVo4DLRIE1cz/GYFpaqCNPyPhxaM4I45vEkgHKPFZHe4gQGhDgNSkjRKVQWxE0WaaqI3QWqNJm22UorQKA4IokTocEpVFRUQxYIGoLdmLmwwEpePJbiP/+zKse8BqElFTViX6ZFrQFF8Sy6ABWTZls3ODHGZCtBTJMkWJFCezw9M5ZVmSWFuYlR8i1ChTRegj2+XH6d6ipMsQJ0UyjWOAnHdlZdvt5eBQYMFZuZRElicEAA==");
 
 export default Fish;

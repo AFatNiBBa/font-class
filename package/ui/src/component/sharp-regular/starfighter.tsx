@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `starfighter` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starfighter?s=sharp-regular starfighter}
  * @preview ![starfighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/starfighter.svg)
  */
-const Starfighter: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M258.8 0L280 0l80 0 21.2 0 2.6 21 27.4 219 76.8 0 24 0 0 24 0 88 56 0 0-184-24 0 0-48 24 0 0-24 0-24 48 0 0 24 0 24 24 0 0 48-24 0 0 280 0 24-48 0 0-24 0-2.7L512 464l0 16-24 0-8 0 0 32-64 0 0-32-24 0-24 0-96 0-24 0-24 0 0 32-64 0 0-32-8 0-24 0 0-16L72 445.3l0 2.7 0 24-48 0 0-24 0-280L0 168l0-48 24 0 0-24 0-24 48 0 0 24 0 24 24 0 0 48-24 0 0 184 56 0 0-88 0-24 24 0 76.8 0L256.2 21l2.6-21zM368 432l0-150.5L338.8 48l-37.6 0L272 281.5 272 432l96 0zm48 0l48 0 0-144-48 0 0 144zM224 288l-48 0 0 144 48 0 0-144zm96-64c17.7 0 32 14.3 32 32l0 64-64 0 0-64c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const Starfighter = createIcon("starfighter", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABiQAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSDIAsGAAE2AiQDCAQgBYMtBzIbogXIjsQ4JvGLKEzi4fm5z859yZ/OJGVIiUgh0rJwAOhYqKoFhbJqqULeJ655/k/fK4+0EQwlsjFtTZnnE2iP9qadj2fD2UQnZJua99Igh+LrO0Eef8dDNdJL6Uc8sN80/tDBVZJaBiCaA2D6iiWLff1T/BTxw/8fED9YiICYDiqBDBk6CzBJJtBZrkIuF/wU///P/gMrAog6LpQ8P0cjvIPPATlIanl+qklDQ4uy1iRfXtaKHWVRdohlUZZClBFRRCAJogiUIpIEaeZl2qJSaBIRC8JwJ9lyg2ZuuSI6rQqxnLqXBttTFuWhMcuLshiTvOJOm4jnrPa7XGr3Qtnj1eav/uXH7T9KX7Vpc7qXjk8sbt/eSuN8rL1h2muf0DOHNeerr0xTgS/Pp759c4dly+gfG2flAu0Xd3yi1963nncjnX/TRxh+3sZhbvpDwzz86kG2YsPUpje52XQaLbJE6HEgEPz6dP7bG5pNelpfJvDLp7P7/f91upheRb0EgmzQ/4OsTReBCQYQS3Fcj4EPCiSvqHFftbHnBQgFAiR1CgEynTQXIFcYKEBNV6MFqFNYIhN5g9DauoKTNHaIkxnjHCfX2nucmkm+idZpHdmJKzvtZL+NqedUgdmjquFDhlUTqt6CTH4uSvTgxGqyud9x3tAfHrXdAfsdtc1Wuxyt0A5bnDhmnzlD+GxfVBluiGEqE1SLyzf3L7fNYUfscsB+a5iJqu39/Rwfbt8f2hJX6Ah5SSJS+WDJP1w=");
 
 export default Starfighter;

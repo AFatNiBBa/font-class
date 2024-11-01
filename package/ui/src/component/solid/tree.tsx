@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree?s=solid tree}
  * @preview ![tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tree.svg)
  */
-const Tree: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M210.6 5.9L62 169.4c-3.9 4.2-6 9.8-6 15.5C56 197.7 66.3 208 79.1 208l24.9 0L30.6 281.4c-4.2 4.2-6.6 10-6.6 16C24 309.9 34.1 320 46.6 320L80 320 5.4 409.5C1.9 413.7 0 419 0 424.5c0 13 10.5 23.5 23.5 23.5L192 448l0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 168.5 0c13 0 23.5-10.5 23.5-23.5c0-5.5-1.9-10.8-5.4-15L368 320l33.4 0c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16L344 208l24.9 0c12.7 0 23.1-10.3 23.1-23.1c0-5.7-2.1-11.3-6-15.5L237.4 5.9C234 2.1 229.1 0 224 0s-10 2.1-13.4 5.9z" />
-    </Icon>
-);
+const Tree = createIcon("tree", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABYgAAAHrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBTwsGAAE2AiQDCAQgBYMtBysbygTIjpQuZyTx8GH377m7+6GQG0qd0YHowBaqxCqT6f+kZZX6ZcgX/sip8cZLBekH4HOt8YKcay3dG69A45+a6jLwAc0GNpvgeAK23WlLHGvaKy2yJMelOS53yOJGelARybXkG86UF41fGjtIoiwFELUAMGrBnGleVUd1xNfCE+KrKQiIUSAXSJGimQBDpQLNZHJkMkF1FArpPzAngCgmXyQBGVJMxnxABhKRZaMriqqy+RVF5UvmLph70bV2FTE38JPF3vqXKk40vBIRFXGv6b4G88MNl8uP12v9sNbDP76t/Ob7i4s36WB+Wb1RjU2caCWRWpm8yDj/rPtyNY4ercGe3AOj6pWNG0utEF45caLGD5x/8aZxpaXjgEDwY8qB99Uc+r+0IgE/X/5b/BUVXsWr5CFKJSBIuxa6WhqvIF4JAEASO7WOVwgkRkvIs1a6LEAoR4BEsXIBUk3VEiBTrosARVroJ0CxcnOkIisT6lnWsESlLViqv11Ypp5HWJGhPqrF6kXqT4w3MN+5xPEaGDeV9+reMx+cTwOVdRGKhkPyZbnjzlzoBJdW2mSj7VZYbo3tCtpqmrHDBuMtcJw3yvXSXU+5wfLt+P58vhW22maNTTbymCHy80pHO+36TjBPAuh9E66ESLJ3BgAAAA==");
 
 export default Tree;

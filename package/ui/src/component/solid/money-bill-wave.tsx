@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-bill-wave` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-wave?s=solid money-bill-wave}
  * @preview ![money-bill-wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/money-bill-wave.svg)
  */
-const MoneyBillWave: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 112.5L0 422.3c0 18 10.1 35 27 41.3c87 32.5 174 10.3 261-11.9c79.8-20.3 159.6-40.7 239.3-18.9c23 6.3 48.7-9.5 48.7-33.4l0-309.9c0-18-10.1-35-27-41.3C462 15.9 375 38.1 288 60.3C208.2 80.6 128.4 100.9 48.7 79.1C25.6 72.8 0 88.6 0 112.5zM288 352c-44.2 0-80-43-80-96s35.8-96 80-96s80 43 80 96s-35.8 96-80 96zM64 352c35.3 0 64 28.7 64 64l-64 0 0-64zm64-208c0 35.3-28.7 64-64 64l0-64 64 0zM512 304l0 64-64 0c0-35.3 28.7-64 64-64zM448 96l64 0 0 64c-35.3 0-64-28.7-64-64z" />
-    </Icon>
-);
+const MoneyBillWave = createIcon("money-bill-wave", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfgAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCDQsGAAE2AiQDCAQgBYMtBzYbEwXIjpQuZyQRPG/3X3Vu91e/MXog9x9Ju86gXFIEI4KijV+F4M//NfXi+dEBfqNDqbBKb6B1Pp/AgKMsQUYDigKb6QRs1s5+eSS6wSJ9QpJhPMPkBHl8n12ugXRT+gBX5A+Nv/R0OUlLBiA6AKB1y4ZVXvklfol4v/4c8b4VCIhWUApkyNBHgNkygT5yJXK54Jeo1/U/sCSAaISzJZCjGYdwLiAHSWOeD+xcIKw1tM03l5cvspSlm4Z8ueXrLe8veXvRfd1v6J3FzUO/2vjFxncWvrH4/i7X9tj3/MiIh/vdMeqRac+NeKjvrcMfnFzcNyLioZ5FxJYbh0c8ODiitk8o4pZRjwzbXCtq4v6RD/ca+HCHh//xweEPrJkyZUrbW6qurU1VU9XxyRdfeLzzH7+nKXpS5VbZ5YUXHx/0zR+p/78djrO9uXn78Q6V1dm/3NmRjkWlmvdxEeA7nYvuqCCypJIDJkN3XqIAAsFT9z8ycU/72f831xL47eX/8r+i+nepSg+jWQJBNro+2s5UQaoEACDF+QamCoFkl0a41jauFyAUCJA0KgTI9NZBgFxhlAAN+pkiQKPCBpnIW4QudjWQtHEWyEx1Ach18QxoMNvbcaMukdGNJQv720tabNFF08oJY8eXM8tpWeUYRMfxWeW2Mvx81zZCtjrsDKed65CDjjnX4GdblZ3nlMUrbJEvKk0w1nilmcrj2v36zQ452zmOOcPpNMks5f1guPPXvUeInoBwopwkEak9OeUx7JfHvAMAAAA=");
 
 export default MoneyBillWave;

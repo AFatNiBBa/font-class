@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelope-open-text` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-open-text?s=sharp-thin envelope-open-text}
  * @preview ![envelope-open-text](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/envelope-open-text.svg)
  */
-const EnvelopeOpenText: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 396.6L16 231.6 16 200l48-36 0 61.7 16 11L80 80l352 0 0 156.7 16-11 0-61.7 48 36 0 31.6-240 165zM64 80l0 64L0 192l0 48L0 496l0 16 16 0 480 0 16 0 0-16 0-256 0-48-64-48 0-64 0-16-16 0-90.7 0L256 0 170.7 64 80 64 64 64l0 16zM256 20l58.7 44L197.3 64 256 20zm0 396L496 251l0 245L16 496l0-245L256 416zM168 160l-8 0 0 16 8 0 176 0 8 0 0-16-8 0-176 0zm0 80l-8 0 0 16 8 0 176 0 8 0 0-16-8 0-176 0z" />
-    </Icon>
-);
+const EnvelopeOpenText = createIcon("envelope-open-text", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdgAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCIgsGAAE2AiQDCAQgBYMtBzkbKwXIjsO44TuymcqziKDSVWW1tKQ50BHrmPEJTfKAvLOe2UP7/Y13mZTMtbMXp3Iu56EAvlHQxsIxVrsB5zyvQMUyMBeQihesICGogPVo3lMDFNqFug7yeN8xTaQnEzwaPjS+0ceDJFkGIEoALN65db1P2qM94st64ktrERCLQSWQIUN/AebJBPrLVcjlgvaoa/EfWBFANEvvSyBHKy7gXkAOkuY87ze0pZGCpo75jrK22Llj+46IhSF6RERHjfRC5rfdtkdYFyKFaHSMyCJiQ5BBUeyIba4vO9dvWF/ExrRz207RISK27ygahWg0IoptfcOQ58rnvhvsBPWUH25m9ZVfLPC3Zx3yrL8tmM5Xfrj58bxFqU1tEkrljyUmqS2ahHu3LeTn9pblx3OfJ8kNzz/00txv2v2mMXbWrSQstb6jH17eOPQHBIKv7mj2wc7zfmttJPD1ez98Q39F9SdJeg6tEgiycfU4+xJIBAAgxQ1DEgSSE5pRt4PHnk5CAYWkWQGZfkrIFcZCk4Gmd2hW2CoTeZvQ3X4Ikg4uQ2aGuyDX3evQZJ5Ph826RwZ5NNzQ/30JK6bo8lfV5AmTqjnV7kLHABNpH+dWl8VRN+TBaFzrhIsuuOa4Y067NsGvWD+57rwVR9hyX1SZbIJJKnNUj9cvy3c47oqrTrvogn9mrup7d5Qbx+dHYyVJhFPUJ4lIXY9fuHH83MVLx8dr6cJ40AQ=");
 
 export default EnvelopeOpenText;

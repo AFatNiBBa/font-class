@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `delete-right` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/delete-right?s=sharp-duotone-solid delete-right}
  * @preview ![delete-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/delete-right.svg)
  */
-const DeleteRight: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 64l400 0L576 256 400 448 0 448 0 64zM126.1 192c5.7 5.7 11.3 11.3 17 17c15.7 15.7 31.4 31.4 47 47c-15.7 15.7-31.4 31.4-47 47c-5.7 5.7-11.3 11.3-17 17c11.3 11.3 22.6 22.6 33.9 33.9c5.7-5.7 11.3-11.3 17-17c15.7-15.7 31.4-31.4 47-47l47 47 17 17c11.3-11.3 22.6-22.6 33.9-33.9c-5.7-5.7-11.3-11.3-17-17c-15.7-15.7-31.4-31.4-47-47c15.7-15.7 31.4-31.4 47-47c5.7-5.7 11.3-11.3 17-17c-11.3-11.3-22.6-22.6-33.9-33.9c-5.7 5.7-11.3 11.3-17 17c-15.7 15.7-31.4 31.4-47 47c-15.7-15.7-31.4-31.4-47-47c-5.7-5.7-11.3-11.3-17-17c-11.3 11.3-22.6 22.6-33.9 33.9z" />
-        <path d="M305 209l17-17L288 158.1l-17 17-47 47-47-47-17-17L126.1 192l17 17 47 47-47 47-17 17L160 353.9l17-17 47-47 47 47 17 17L321.9 320l-17-17-47-47 47-47z" />
-    </Icon>
-);
+const DeleteRight = createIcon("delete-right", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABkQAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCJQsIAAE2AiQDCgQgBYMtB1QbSwXIjpNlfsIbwfdrYf3+zG4AaAKMKlGE7AmEI1QMMpYlq3NXtVVx6BP3k38sLBokCgDeMi0a1+ed5xP45zvft9X5RCZUYUgbnDfpkEIaQvoR8vg/O6ZEupg+4nj8P4DxSzPHSKplAKIuAMbOnDrF02/xLcXHyj3io8kIiHGgEMiQoaUAI2QCLeUK5HLBt1Sp8C0qlYIAoiw+dQbKKGE79gNykISU511rDK1RqpXPiFmqL+3epfuo6BIjYlR0o6KuMZLoIuoeo4muwm4xamNWq2at6TEtakY2/awIlr3c9UxDhg6Qf75J+Gr3s6iU5xpf6WZeIMJB8FIXDAxuvvSb2l2pe+VP248rPurzF/XwVxc8dCKN3HyCb3fCof0HJ4ynff+dK3bu/FvZ9S6Srtdu+vSp1l+ALrhyR8YH6xhAKqZPaNfu8+fCGIiXvPo0f8fCOiP+q1ojgR/3//2Mt05j0hVUlUCQ9aj0MG/LesAgAFdIsUM7eE0OIJCZIInPtaZzAoTqCJCUVRcg00JdAXLVdRegpLWBApRVN1Um8mpCQ/MHVVLTZlVmkP2qXEN3VSUjvMmVNYzM71l9jvXXL9ekKTWRqejbq08xrNht6mzeyayXhxeXQ1128KGukNUKG22wzXLLrLZtIttiSnG79SYdCSa6oEJfvfRRGKZ43HkZnAHntthq9bbj+SrDFd8nuthxPLkrXE8C9LO1qoxIkTX099bA6+vpjUcbrzicLAA=");
 
 export default DeleteRight;

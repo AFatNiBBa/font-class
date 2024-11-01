@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-odnoklassniki` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-odnoklassniki?s=brands square-odnoklassniki}
  * @preview ![square-odnoklassniki](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-odnoklassniki.svg)
  */
-const SquareOdnoklassniki: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 137.1a39.9 39.9 0 1 0 0 79.7 39.9 39.9 0 1 0 0-79.7zM384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zM224 95.9A81 81 0 1 1 224 258a81 81 0 1 1 0-162.1zm59.3 168.3c16.8-13.2 29.5-5.5 34.1 3.6c7.8 16-1.1 23.7-21.5 37c-17.1 10.9-40.7 15.2-56.2 16.8l13 12.9 47.7 47.7c17.4 17.9-11 45.8-28.6 28.6c-12-12.2-29.5-29.7-47.7-47.9l0 0-47.7 47.9c-17.7 17.2-46-11-28.4-28.6c3.7-3.7 7.9-7.9 12.5-12.5c10.4-10.4 22.6-22.7 35.2-35.2l12.9-12.9c-15.4-1.6-39.3-5.7-56.6-16.8c-20.3-13.3-29.3-20.9-21.4-37c4.6-9.1 17.3-16.8 34.1-3.6c0 0 22.7 18 59.3 18s59.3-18 59.3-18z" />
-    </Icon>
-);
+const SquareOdnoklassniki = createIcon("square-odnoklassniki", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABkAAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCMwsGAAE2AiQDCAQgBYMtBzsbPgXIhofn9aI/9yULOCup0iyICqrET7EHNX/cT/1x/inPn9FHiba0f19za4pIgZ1PJD1xPtA6n+kEbNbmeE5UFOUXB7EnSp6nYeuHraET5HFZnFKBdEl6HSf7k8Y3mjhMUiEDELUBMLo0Y7qnP4wPI14vP0C8bioCYgwoBDJkaC7AMJlAc7kCuVzwYZTL8T+wIICoiO+cQI6K2IPDgBwkeZ7XaFpjdLUKNfLZ5dFV5x9pfHGTS6odbXZZ00urlqrXqH59p5sbp7ik8y3ta8RNXW9rlsWlXW7tMPOB7nd0u73fgz3u7HnXwFkXNYg43+B8/XOZP1jDI5Q2vLXLgYgYFtG70OgisI3iQkNZmg32q832N+HGOBBtbq1963etX1/1ug8GNHr2/vuea9Toufvuf7bRVWtGcf7VdepUHaXqQK5uWR941ci3d80p7X777d2lObveHnLTywc50HFeqfTVS798cvfrvvfk64993fY1KPv6scfvnLlq3PjHXnvd3b/88tJXpdK8jgcOvhx/fHH33V/8EQCBYOf769cvrjXst8rVEvj40R/+0X5F5Q/j6XQrKksgyLqVu1kQT0M8LQAAKXZpE08jkOyUg1/dBWsmVAWQVFQVMs3UhlxVXaGClvqLyu0zZCKvItS3kCCpbitkBtgDufrugwqGeSmpqH5kHij7j/wBmDFB4uM3Fb179CqGFLctU3Eqsa4OLdRWp11ppDMdtcpmm+yw0gpr7RDkNtMzO200YUeM90WF3nropTBEYe5+NmaDH952a68V+zqGKp73O9m1n96Z3IQ5+6hJEpHqv8VB980rNv2Ut2j79k1r168FAAA=");
 
 export default SquareOdnoklassniki;

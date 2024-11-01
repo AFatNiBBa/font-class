@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `utility-pole` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utility-pole?s=sharp-light utility-pole}
  * @preview ![utility-pole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/utility-pole.svg)
  */
-const UtilityPole: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 0l16 0 64 0 16 0 0 16 0 80 80 0 0-48 0-16 32 0 0 16 0 48 15.8 0 .3 0L480 96l0-48 0-16 32 0 0 16 0 64 0 16-16 0-58.5 0L304 231.8 304 496l0 16-32 0 0-16 0-271.8 0-.3 0-95.9-32 0 0 95.9 0 .3L240 496l0 16-32 0 0-16 0-264.2L74.5 128 16 128 0 128l0-16L0 48 0 32l32 0 0 16 0 48 47.9 0 .3 0L96 96l0-48 0-16 32 0 0 16 0 48 80 0 0-80 0-16zM126.6 128L208 191.3l0-63.3-81.4 0zM304 191.3L385.4 128 304 128l0 63.3zM272 32l-32 0 0 64 32 0 0-64z" />
-    </Icon>
-);
+const UtilityPole = createIcon("utility-pole", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdgAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCWQsGAAE2AiQDCAQgBYMtBzMbXAXIngemmztpIx5KHkm42TgfHzVRPM//ft/2ue+OGiZNTKppJTFxICSP1jw0POOrW6h/UU3ys+/H2u6Z/hDfXBKVpoqINRqUSilEb14szOVTO3Uq53IeCuBfDII2Ni0NyFq413kEItLlBS/1SrWC1bQCVnPTcHgRJE6i4ZA2SMgwhg5L71DzEvSU+yVu9w/NV3M9UNQGABkFAPvPDlr47KST/LfJBwdBIAcASxANGixAsItWsIDOElBVoZO2Tf+BSyBAukHPL6CiGzfwEFBBUavutKfHbNXbdeOBLstioN+KyABJ0krOo1/6LcOUqZPUkngLdHPyY3ki9RS/cnh6PGIso7PDiSU40z9gQQZI16PRR9+XPt/nd6OjG6O6usIUoYQpsA6hckTteJxmiqcVOEdsgNEaNrk+LTd6SRlgYTAqhu11dexStzjMvei9sB99XGnx05IlUibKAEF4NrP/eN2563/vgAbw5eXP38qvqH1flEfoVUBoVrUsCygEAFByx1UgKK6r6F0H3REQ/QgouvULaMynEFT9ViLoskgCQbd+J2mlmhGTVgyKQRdBY4t7UE16Bl12+dK7TaZxSsqlqH/C+CbCjSNZHwxLVl4zi/Yzom1zci0tu8sdT7iJPefO3Ni149ANoFda1q1TTQlp+CIRERQmskRdfvJj0K9cO3xm9XtyxF5zu5PHPUHVINwNYkUhxfYl6oELMye7AA==");
 
 export default UtilityPole;

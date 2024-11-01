@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clothes-hanger` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clothes-hanger?s=sharp-duotone-solid clothes-hanger}
  * @preview ![clothes-hanger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/clothes-hanger.svg)
  */
-const ClothesHanger: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M209.8 84.8C222.3 35 267.1 0 318.5 0L320 0c61.9 0 112 50.1 112 112l0 6.3c0 36.5-17.8 70.8-47.8 91.8l-8.3 5.8L626.3 389.7l13.7 9.5 0 16.7 0 64 0 32-32 0L32 512 0 512l0-32 0-64 0-16.7 13.7-9.5L301.6 189.8l.1-.1 45.8-32c12.8-9 20.5-23.7 20.5-39.3l0-6.3c0-26.5-21.5-48-48-48l-1.5 0c-22 0-41.2 15-46.6 36.4l-.9 3.4-7.8 31-62.1-15.5 7.8-31 .9-3.4zM320 255L64 432.7 64 448l512 0 0-15.3L320 255z" />
-    </Icon>
-);
+const ClothesHanger = createIcon("clothes-hanger", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdAAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBawsIAAE2AiQDCgQgBYMtB1gbFQXIHgnGbeR/SF3ENckRQbx//1V9zv1vAN2BGUnIoAhAht0QiiZaKRIiQPlvvZLvsa3zf67nez4qkM8jGFoUJo5ma8DM5xOY0IVXijSfnSne7rQDh1r7JC1YWo7PjousoEhd83FVpOvpNZzF/wGMr7VwnKRGBhD1ATB+wZxpHn0an6Z47f8niddMRUBMAKVARkZrAUbJAq0VShQKwafpf3wa/ysJICrwxhlUUGABVgMKkJCKYlKtWlV1ivl4fM0ld4t4fGiteKr7wzbi3qjGMS+ahBCiZt0AvFmsic8dGfdbRdxoeqVLzTjR+FLjxtE8pkSraDZv7oK5ol5EzO/wWP3Hvm3/2vrXvL358rywM/zgv3oVNT7b58+8q4FxSuXK0jgNvKvdi/hEn+oV+fUP+4UGL788NjvoEwelbQ/tffVQT74eCAQfD/rinRX1Rv1avVYCnz/vK7e//x+lw+kxVJdAkHv938vSdBgCMQA7xX4dhG8SyGZI6F5ruyJAqIkASUVNAbJW6gtQqKmnAFXaGixARU1zZFHUEBpbVkFS2y6QDXEAFBp7AlQZ5UWzonFk82KMg3ndJU7h0OSpsn+ffuWIchoorMVQaTiyXJa67Y+F7rDUejtst9c6a22ylyG7TXP22WaKBE/2Q6X++uinNEKpjm/F+czcbY9NY14/ZqRyv97Nfrm+O6gJkQ4wI8tEitz0B4Sxbk/vjbdz2u7eplrVvMefSwAAAA==");
 
 export default ClothesHanger;

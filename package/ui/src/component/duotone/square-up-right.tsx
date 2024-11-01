@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-up-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-up-right?s=duotone square-up-right}
  * @preview ![square-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-up-right.svg)
  */
-const SquareUpRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM112 312c0-5.1 2-10 5.7-13.7L184 232l-33.4-33.4c-4.2-4.2-6.6-10-6.6-16c0-12.5 10.1-22.6 22.6-22.6L304 160c8.8 0 16 7.2 16 16l0 137.4c0 12.5-10.1 22.6-22.6 22.6c-6 0-11.8-2.4-16-6.6L248 296l-66.3 66.3C178 366 173.1 368 168 368s-10-2-13.7-5.7l-36.7-36.7C114 322 112 317.1 112 312z" />
-        <path d="M320 176l0 137.4c0 12.5-10.1 22.6-22.6 22.6c-6 0-11.8-2.4-16-6.6L248 296l-66.3 66.3C178 366 173.1 368 168 368s-10-2-13.7-5.7l-36.7-36.7C114 322 112 317.1 112 312s2-10 5.7-13.7L184 232l-33.4-33.4c-4.2-4.2-6.6-10-6.6-16c0-12.5 10.1-22.6 22.6-22.6L304 160c8.8 0 16 7.2 16 16z" />
-    </Icon>
-);
+const SquareUpRight = createIcon("square-up-right", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABhgAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBwsIAAE2AiQDCgQgBYMtB1obMwXIjsQ4JvGLWNDi4f/363Wfe99MAOgFGFWigMkRgkxV1XdF30pi1VU9+f+uNHFN/Th/esAGsExP/j5fN09g56mhTZvIhIazmekG5w0+5JCmUH6GIt7mUyqk++lbXI3/BzD+1sEpkgYZQDQHwPTF8+ep+yF+SPFt7TPiW3MREDNAKZCR0VmASbJAZ4UShULwQ6rhh6gpCSCq4ldnUEUFG7EbUIAkpKLo0bF7o0qTYlF8rOFm4V6vC22nxIK41RDR7sTxdovjdx72bRS32+SU0/3+73s3ibcDP3bK8WDAhz6N41W/d+0XnlooXtnf40PzD/92/3bTt6Y2O5+eaD29wSamT7ewfv2FIytmFLKpwWbxvB+aWjMNFxu2aPFsmmcYaFgzLNr93bXF5330PBAIfv/+QqubTfq/fqMEfvr8/5rH1X6IuvQB9SUQ5EG1QVZEHbAFIf3+FIf0iDp7EMgmSpC+a2N3BAgNESCpaihA1klzAQoNDRSgoqvRAlQ1NF8WRQOhtZUDljS2F8vGOIwVWvuEVUzyRVTVOrJl460K/6+XMmcKz15VDh8yrJxQ7tZ0gv1hg9mJ5WWn3yHe0x8etMluuxyw0QZbHZig+8xLD9ppzhEy2weVhhtimNIE5ePmS2URjvbZb+u29HyZicrvvX4OHQ/vD9eTACO0qSQTKXI7E+sOPrjHuxqDTe7ADluSMQUAAAA=");
 
 export default SquareUpRight;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circles-overlap` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circles-overlap?s=sharp-light circles-overlap}
  * @preview ![circles-overlap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/circles-overlap.svg)
  */
-const CirclesOverlap: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M232 415.8c-25.2-36.2-40-80.3-40-127.8c0-99.1 64.3-183.1 153.5-212.7C312.4 48.2 270.1 32 224 32C118 32 32 118 32 224s86 192 192 192c2.7 0 5.4-.1 8-.2zm36.4-5C353 390.8 416 314.7 416 224c0-46.7-16.7-89.5-44.4-122.8C287 121.2 224 197.3 224 288c0 46.7 16.7 89.5 44.4 122.8zm-11.6 34.8c-10.7 1.6-21.7 2.4-32.8 2.4C100.3 448 0 347.7 0 224S100.3 0 224 0c62.3 0 118.6 25.4 159.2 66.4C393.9 64.8 404.8 64 416 64c123.7 0 224 100.3 224 224s-100.3 224-224 224c-62.3 0-118.6-25.4-159.2-66.4zM408 96.2c25.2 36.3 40 80.3 40 127.8c0 99.1-64.3 183.1-153.5 212.7C327.6 463.8 369.9 480 416 480c106 0 192-86 192-192s-86-192-192-192c-2.7 0-5.4 .1-8 .2z" />
-    </Icon>
-);
+const CirclesOverlap = createIcon("circles-overlap", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgQAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCEQsGAAE2AiQDCAQgBYMtBzYbFwXILgrsxgdD3HAQUrz1iGyat/lXRBC/H212/ztXxCSpJfHo2ZuHQrNMuwaRdFLR5JpJOv1+E7Um+vgJl2zqjUaC61S2NdIkbUnE6kLZjl1eWiLhGlbUb1qDZfJ3Vy34uw4ZIor3P5fTG89vA34+8NND2wvPRwW41/MEEpm+qYR7YRYmiL1teGxE4QiiQoREpDEl+p2gxO+YD03eykdcq28aPw1YkEoFINrBAKw/sPZw+i7eRdz/L3HfTjABsQEMk8FRocJ4cLAKUmA8lMlgiiJ4F///43/gZLAAoha9coKCWhwBcwEMFJBKKV1tM7qINS1lf1NN44HR46e6OJ+Pz+l1+5rf9hUxPN0Ij7ED3+VnPt2+Cs5FuN5xH+5Ce5oj90O3iseiNfFq+52/I9go9x239TKdiNMjuzF/2n/WD9cTlvdjiaEh2vaP+yce4eukk+zcN77o3CYY+/ahRu7atx8pZfm6tqtctYnt9lTwF/47mjD//Elr65PR+RN+F10Z/Iv04SCikPVxIBCMvZo9lKeu+lXflODDve/3+z+cl3OLegmCav7/+TJ5GZAfQCXjPEj5oEA6DIWyZte9tdDIglSrESrj0KBoNA9qTKSTjNv3QIrSIHTLAqRmp6Cy0hyKbkdQY5WbslZ3VAGnhIvy38tsOd5sol6uBGawbRlqDEl51QLMIZulEREchZq+nomqiqYJ40a8takum0ZYfRGgIqcEmAF3d7k/pmpkrKmvV9axAOczoZk+XQQJAokuVZeSyLZ76epXEAAA");
 
 export default CirclesOverlap;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fondue-pot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fondue-pot?s=thin fondue-pot}
  * @preview ![fondue-pot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/fondue-pot.svg)
  */
-const FonduePot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M292.2 16.6c-8.5-2.3-17.3 2.7-19.6 11.2l-24 88c-2.3 8.5 2.7 17.3 11.2 19.6s17.3-2.7 19.6-11.2l24-88c2.3-8.5-2.7-17.3-11.2-19.6zm164.4 1.9c-7.5-4.7-17.3-2.5-22.1 4.9l-56 88c-4.7 7.5-2.5 17.3 4.9 22.1s17.3 2.5 22.1-4.9l56-88c4.7-7.5 2.5-17.3-4.9-22.1zM318.9 40.4l-24 88c-4.1 15-18.2 24.6-33.1 23.5L248.4 192l-16.9 0 15-45.1c-11.4-7.4-17.2-21.5-13.5-35.3l24-88c4.6-17.1 22.2-27.1 39.3-22.5s27.1 22.2 22.5 39.3zm62.6 109.8L353.6 192l-19.2 0 33.8-50.7c-9.3-10.4-11-26.1-3.1-38.5l56-88C430.5-.1 450.3-4.5 465.2 5s19.3 29.3 9.8 44.2l-56 88c-8.1 12.8-23.8 17.8-37.5 13zM32 240c-8.8 0-16 7.2-16 16l0 64c0 79.5 64.5 144 144 144l128 0c79.5 0 144-64.5 144-144l0-80-264 0 0 48c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-10.5c0-3.1-2.5-5.5-5.5-5.5l-4.3 0c-3.4 0-6.2 2.8-6.2 6.2l0 41.8c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-80-24 0zm0-16l24 0 16 0 80 0 16 0 264 0 16 0 56 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-56 0 0 80c0 52.3-25.1 98.8-64 128l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-45.4c-23.5 13.6-50.9 21.4-80 21.4l-128 0c-29.1 0-56.5-7.8-80-21.4L80 504c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56C25.1 418.8 0 372.3 0 320l0-64c0-17.7 14.3-32 32-32zm40 32l0 22.2L72 320c0 4.4 3.6 8 8 8s8-3.6 8-8l0-41.8c0-12.2 9.9-22.2 22.2-22.2l4.3 0c11.9 0 21.5 9.6 21.5 21.5l0 10.5c0 4.4 3.6 8 8 8s8-3.6 8-8l0-10.5 0-21.5 0-16-16 0-21.5 0-4.3 0L88 240l-16 0 0 16z" />
-    </Icon>
-);
+const FonduePot = createIcon("fondue-pot", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABuAAAALUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDYQsGAAE2AiQDCAQgBYMtBzEb4gVRVE3yZA/B8zm1eV+2m8phUAooZ4kAb6Xj0olg/q/5/J4fHeA3ujTsWFhahUWUwJ5PcGfr5w00G9iEBj4B2+K2qyCiIS4kOEIlXrK3KumG9DEuC28aPxhwNkmWAYh2AKyx3VabeH1+zI/4+P9niI9thIBYExQCGTIMC7CyTGBYRYGKimB+/P+/+A8sCCBqkjMTqGAyPsE8zL+CpD+pUmlp6e+fs/h4vdpS2bZezfe7tnvruLrnmr7t4rrebQYeW2+93dbX58ORx1jcOzSz+65bpWW8e5tysXJOXStuvMTWcf2M3a/uFnes8so69XhvtdemRjSHuH7avYMRZ+R5eH6Un0c9b7mmR5fmIU4vH55lI3Ftb8TzR4IXrkhjD048GtfO67uuvoIgrum5ri/ippn1uGcAs8mJeW7Kg+0P/jT+8b4fm/rol5v0bafxdRW/O969cDkZO/iBd27ERTvff0F333bp1i7P6/9Oux+V6/RtZ+V773nzrQN3LFc95IWkoFunz+8+WHLik2/ee9/c8sDuOou23WWH+a2rGz7+vDdO98Z5xw9vrsnierbYoidXq1atXpmjt9tcf3t///e712q7L29zs/hmeYL2lQ1Ll6crl26QDcv7hlmraz3//NbTehNtzkrlHF1LVI135eSZuV7t2ldvBwJB47Pb5u3WtvKvTfUEFr74y1/qX9H/ryfpQTRJIMjK/0s7J5AIAECKY01JEEjeMUnyqs2uFSDkCJDU5AJkhrQLUJGbK0DVqGUEqMltJROVyUK3XXqQNDsCZJZ1Cqjo9hSoWtl7yZruyACbB0v+vzJl3TG0zrpiiYnFixWLzaZWgFXWLq9UnHZmHSuHZmNP+zrMoY62j70d4OgRcqRNMsc4xLp78Do+qLCECYsrrKi43Xleua19HOkoB6wL91exkuL90CzH7k+ejf1JgrqkiiQRKf90WXTMPo3DDzsaAAA=");
 
 export default FonduePot;

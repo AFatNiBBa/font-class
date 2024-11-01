@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sim-cards` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sim-cards?s=thin sim-cards}
  * @preview ![sim-cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sim-cards.svg)
  */
-const SimCards: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 368L96 64c0-26.5 21.5-48 48-48l149.5 0c12.7 0 24.9 5.1 33.9 14.1l90.5 90.5c9 9 14.1 21.2 14.1 33.9L432 368c0 26.5-21.5 48-48 48l-240 0c-26.5 0-48-21.5-48-48zM80 64l0 304c0 35.3 28.7 64 64 64l240 0c35.3 0 64-28.7 64-64l0-213.5c0-17-6.7-33.3-18.7-45.3L338.7 18.7C326.7 6.7 310.5 0 293.5 0L144 0C108.7 0 80 28.7 80 64zM48 82C20.4 89.1 0 114.2 0 144L0 448c0 35.3 28.7 64 64 64l240 0c29.8 0 54.9-20.4 62-48l-16.7 0c-6.6 18.6-24.4 32-45.3 32L64 496c-26.5 0-48-21.5-48-48l0-304c0-20.9 13.4-38.7 32-45.3L48 82zM168 184c0-13.3 10.7-24 24-24l24 0 0 48-48 0 0-24zm128 24l-64 0 0-48 64 0 0 48zm64-24l0 24-48 0 0-48 24 0c13.3 0 24 10.7 24 24zm-56 40l56 0 0 48-56 0-80 0-56 0 0-48 56 0 80 0zm32 112l-24 0 0-48 48 0 0 24c0 13.3-10.7 24-24 24zM232 288l64 0 0 48-64 0 0-48zm-64 24l0-24 48 0 0 48-24 0c-13.3 0-24-10.7-24-24zm24-168c-22.1 0-40 17.9-40 40l0 32 0 64 0 32c0 22.1 17.9 40 40 40l32 0 80 0 32 0c22.1 0 40-17.9 40-40l0-32 0-64 0-32c0-22.1-17.9-40-40-40l-32 0-80 0-32 0z" />
-    </Icon>
-);
+const SimCards = createIcon("sim-cards", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABrwAAALCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDYwsGAAE2AiQDCAQgBYMtBzAb4wVRlA5Gi+xjMbZVw5a4sg3/xcP3dtSf+7pnauf1wuglFMEZst0PMpYyIoJS82Kb/0gnxD+SW4ZGsgRNfGJtbbEtlLVNHLPznY+6bBMfSjRmh05g4GuLpgL+twebKP7itqsgoiGOkDhDGbfbhyfdmt7E1eGPxte6+JAUBYBoDQDM3lgW8Psivoh48/8niDctBQJiDkBviAIFukMwDSvQHac3UCoFX8T//4v/gb1BANEoeW0CJVrgHXwMKEFSlWX37i/65qbmVXMa0rdqaFFu4D8gbyxScXunmwdVcXmH9XEjcUv7G/rneKjjTV23pCLdOuTRAVU8POzxbhEXhm6Ix3KOBwY/0nnwA+0jbpFiM+fyQTd3y3HLuEt0Rdw9KNbfPsgkcrTiXJWZVVgq5LCmB7ssq1Y0ImvBni1u6b/BxUQsCnEX+1DXjZe1h91AuOJ8hxurBHl5p5vjExc63pRz38daP/ZtnzcPvGnnyrqui7c+qW/S7tMtW3za/iPDtB/Un7xVtBq1Y8pt2tyDhfeUi/JHuvXdvFnfrjfh3B/nv8O7nWq7OZ1a/LOujRfi2j611h+3ObO/w+rOarXO5zrNSqhrs9S/d+ZMXVZ3ODMJm2uTLmrlkSNrzAtTD446ub3Tw20e59k2vc3SW5tnH2+FR2fl4nkgEDx1tttjO1tN+7VZlcBXz37/V/24HP+/HC+nx9BMAkEx/P/h2ngZBG0AnhSniTtfFkheUUHyW5u7SYCQESBplAUodCNAUMqGQdCgJx+CRtlarCibhPa6npQ0d4xUmOBNKrX3JTWY5u9p1D4KyObCJffHMlE+BmTzaLRhUUKbJS0PWNl2NKXT4sEv2SLjnTA6O3kY9BaPEeim8D8d8j1g5ouIzWAhCbpdfW5qDErN3bIuuD9Lit7XS1773WUsYyQMx1iYJCI1nTh86F8t");
 
 export default SimCards;

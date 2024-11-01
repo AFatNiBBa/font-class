@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-ring` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-ring?s=regular bell-ring}
  * @preview ![bell-ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bell-ring.svg)
  */
-const BellRing: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-17.7 0-32 14.3-32 32l0 19.2C151 66 96 130.6 96 208l0 25.4c0 45.4-15.5 89.5-43.8 124.9L37.3 377c-5.8 7.2-6.9 17.1-2.9 25.4s12.4 13.6 21.6 13.6l400 0c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C431.5 322.9 416 278.8 416 233.4l0-25.4c0-77.4-55-142-128-156.8L288 32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112l0 25.4c0 47.9 13.9 94.6 39.7 134.6l-303.4 0c25.8-40 39.7-86.7 39.7-134.6l0-25.4c0-61.9 50.1-112 112-112zm64 352l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3zM113.4 15.4c-9.1-9.6-24.3-10-33.9-.8C30.5 61.2 0 127.1 0 200c0 13.3 10.7 24 24 24s24-10.7 24-24c0-59.3 24.8-112.7 64.6-150.6c9.6-9.1 10-24.3 .8-33.9zM399.4 49.4C439.2 87.3 464 140.7 464 200c0 13.3 10.7 24 24 24s24-10.7 24-24c0-72.9-30.5-138.8-79.4-185.4c-9.6-9.1-24.8-8.8-33.9 .8s-8.8 24.8 .8 33.9z" />
-    </Icon>
-);
+const BellRing = createIcon("bell-ring", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABiAAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCMQsGAAE2AiQDCAQgBYMtBzAbMQURlZoLyT4ScpOW/7ErLmUkHp7Pq/7cl6SRaiNDfsBeEViPV1/YzVQA/N/N5/f8KMBvFMoatjSQBRLN+TyBxHr50YEUSHZgmSZgvW14dEQiNCJChESiMcVxIpDHm3GzgnRP+go3MaPxi0GXkxQZgOgAwCZ77baD9xbH4ogv6y8TX9oOAbEJqAQyZBgRYH2ZwIhchVwuWBz1Ov4DKwFEAyFLIEcjzsXlWNVjs8jzOb0tnd21ojXfs1aU+13bE3E78dH6b1Xip40H4vbeO3pb467+u/qG4oM9Ix7Y8J0tIy7pu7P08oyIx0fFz5u0xIcRce+sJ9fap6yVF894vHbdrCdj3zsnvzX7KfdMeXT4knnPzrpr6JDH50Q8zffOfWbDR3ru7p34RMcTv0346siv1N9tu5qr27qdN3PdcpAtHlnqvO2PX3yzxcdvf95Sj9hiULnuzPO6hQSkPfjPP1jVPsg2x893/raD2lf98edGB2288cVDEycODYpvnlvZuuuOO63Vu8suvXOKhl8XfT864dcGijnmwrV22nHT0ZXf/wEEgiMWreg7qH39/5pqCSx944//za+o/l6SnkCTBIJsdn32/gkkAgCQ4kwTEwSSUxXkqS3uFCCUCJA0KAXIDOsQIFeaJUBhzBoCNCjtJhN5s9DjgA1Ji1Mgs6YLINfjRSis79OgQU9kCaikj/L/y2RbarTFXrVg7vxq3eqYWmpOSW29XhW2p59JrRlw6siTTjz9iMOPOV1xp+4Qn3HClh7e4sVqwdz51brVdbE93vOIU0875qQT+5b1qvf+9DP94RngJcK7MJEkIjWXnzWngAAAAA==");
 
 export default BellRing;

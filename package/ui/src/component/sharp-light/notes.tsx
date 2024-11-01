@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `notes` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notes?s=sharp-light notes}
  * @preview ![notes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/notes.svg)
  */
-const Notes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 416l-32 0 0-32L96 64l0-32 32 0 320 0 32 0 0 32 0 240L368 416l-240 0zm226.7-32L448 290.7l0-2.7-96 0 0 96 2.7 0zM320 384l0-112 0-16 16 0 112 0 0-192L128 64l0 320 192 0zm0 96l0 32-16 0L16 512 0 512l0-16L0 144l0-16 32 0 0 16 0 336 272 0 16 0z" />
-    </Icon>
-);
+const Notes = createIcon("notes", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABXAAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBSwsGAAE2AiQDCAQgBYMtBywbxwTIhofv13o793XPVNLzf6VD/MKMDsjHZXeF/XYJHbCQU7ELrOd/rqkXz68Bv5/4oUVaaWkC9TKeT2Bia1rbwAYysJlOwGbuspI9RPeTtMgmeTz3+LlAGZ/GdA3SO+kHvKofGr8a6iVJWQCIGgBrDu3b4at2tCN+6LxP/GAbAmItyAIFCowQYLlCYIRSRqkUtKPTSf+BmQCiCS9LoEQTm7EHUIKkLMv+rT4cNrrLg/xkdahqVRFFRLS6hdgf1aFD+w9FVCHWpniiFdEVKVqEqsuKxM4U3WN76p7fx/xw8QdPRmecYbUsn87+cuuWv96MPg5+4bTTinG3o1p9+ysLudpX78i5nl07rZbVdquBQPB84JlfTvVZ/n+vVgJvPvnzb+1X1Pkq2qkHvSQQFNM70x1PkKMtAAApHhqbIJCsVsKpLq8FCBUDkqYKCsPVUKpMg4ZRFpxuquxTiLK3MMCJAEmXO1BY6BGUBngXGpb7Om4aEIU3yb4gf+YyNkp8w7o8Z+bsvDRvG11xEDEvL8vH1uSHPDSFdrrolpvuu+C8K+4L7q4d2QM3bNSIDb4om2Om2bKl8nXnefNBF9x1zxW33CyrLJPfe5M91CdPITeB4Fy5JBGp4a0AAAA=");
 
 export default Notes;

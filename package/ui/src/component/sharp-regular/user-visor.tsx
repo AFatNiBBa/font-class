@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-visor` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-visor?s=sharp-regular user-visor}
  * @preview ![user-visor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-visor.svg)
  */
-const UserVisor: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 208c26.2 0 49.4-12.6 64-32l-128 0c14.6 19.4 37.8 32 64 32zm0 48c-53.7 0-99.7-33.1-118.7-80L80 176 80 48l44.1 0C147.5 18.7 183.6 0 224 0s76.5 18.7 99.9 48L368 48l0 128-25.3 0c-19 46.9-65 80-118.7 80zM128 96l0 32 16 0 160 0 16 0 0-32-16 0L144 96l-16 0zM65 464l318 0L348.5 352 99.5 352 65 464zM64 304l320 0 49.2 160L448 512l-50.2 0L50.2 512 0 512l14.8-48L64 304zM286.7 448l-6.7-6.7L313.3 368l33.3 73.3L340 448l-20-20-33.3 20z" />
-    </Icon>
-);
+const UserVisor = createIcon("user-visor", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABbQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBbgsGAAE2AiQDCAQgBYMtBzEb7wTIhuBhrvx5SXZ7ly1D7lSZ2AFpUMC2PVXAjyx0y+oTq5069TznoQA+hyBoY+GaIGNSLjS7xnkFCljr1TdQdU2wagWt1s7O8Ipwq/Qpn2TY3jBaQhbX4oISyZXkB5yvHxo/6uAsiVIKIJoDYMKyRXN88jJeRnxffUR8bxYCYgIoBFKk6CzAaKlAZ5kCmUzwMqpV+Q8sCCDK+DQJyFCDpdgMyECinGWNOtXWNmlSKTXJllZK+bInvfK4M8TjnhENXfOIqMTH074cUwmRx/XutwcvFSqViHx5k8ZNlkYei5e2g1sSXSJv3C2WLWnbpu2yWBKto2cMr29o3vBz3Q9bf/Di15N7T9p7sv/Jt/z9poOTepvz6tWc3k7q4M3fb0+uu1UURfO7hea/7BuLGXX7/K9+n1vjme5/y68GnvtV0J6f34q9FtPVTbfVICkQCN4d+33eumaj/66pJOD1e7/+mnZX/SQ+SRpQIwFB2rva2+r4BAQdwE9K4qj6+ASBxFxlvNbGLgoQcgRIlOUCpDppLkAm10uAkq6GCFCWWyQVWa3Q2poBEo0dAKmhjoFMaw9AyWhfO2WtI/Uv0jvI313cVA1NmVYM6Nu/GFksc51yGTyPjyq2+e5HY1sPLLTVPnsdtsVmOxxWyEFz/CP2mGrBU3xRYYC++iuMVBxXz/OX2uKgQ3bYZ2+ZZJTivt3dUbt3D0gJYg6USSREkr/JRJ+jOw7tOwgA");
 
 export default UserVisor;

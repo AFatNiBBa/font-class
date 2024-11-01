@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `burger-soda` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-soda?s=sharp-solid burger-soda}
  * @preview ![burger-soda](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/burger-soda.svg)
  */
-const BurgerSoda: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 0L205 0l-4.4 18.5L174.9 128 32 128 0 128l0 64 32 0 301.1 0c14.5-8.5 31.3-16 50.9-21.6l0-42.4-32 0-127.8 0L243 48l37 0 24 0 0-48L280 0 224 0zM40 224L64 512l192 0 0-229.4c3-9.1 6.7-17.5 11.6-25.9c5.4-9.3 13.4-20.8 24.8-32.7L40 224zm600 63.8s-32-96-176-96s-176 96-176 96l0 32 352 0 0-32zm-256-48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm64 0a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm96 0a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-256 112l0 64 352 0 0-64-352 0zm0 96l0 64 352 0 0-64-352 0z" />
-    </Icon>
-);
+const BurgerSoda = createIcon("burger-soda", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCKwsGAAE2AiQDCAQgBYMtBzIbLQXIhof/n/u3fW7yKSlDCsDg2wEUhiyxYzmrdpgVvenvp/44/5TnD0R+1TaL1krO1BLYeepm2eCz4WyiOHNXaygp3RPSYkkeL+3xs4E8/snuqiM9lT7Gvfyh8aPO7pI0ZQCiFQBmbVizzLufxWcRH9VeIj6yBAExC1QCGTJ0E2CqTKCbXIVcLvgsarXwH1gRQNTD6xLIUeAMbgNykDTmedfmHZqwfFnXPF9f1hVbirLoFGujKETZ/JkBUaENchnotZs2b3pEPNHxia7FsSe6RDw9OeL19Z9MfLXTk+1F84j1j7V/tN3jHVSpjFwzSuFbK7A7mimzez/f6vmfe328/2OfvtMWp43W+ah71UzVsK3vD1bdbLNCv04jdfr10449/WPf9bVpV67//u+GGfEND9azf37Mj/3rH3wTlZ2q2ojPWjT//PPmLT6b6blm7BTW2omZSNtppp07y/1AIHhlcfpuR8upfzeWCXzx+q8/uwPV3k230vNolECQDa0NtTXdpEC1bgFxUpzXm75JIDmiEb1rM48LEAoESOoVAmS6aiVArjBEgDo9jBOgXmGNTORNQjvbOkiaOQUy410DuXZeAHWmes9fr11k1sfZDvf5S54/ovOGVaOGj6wmV8uMyhsUkzqnVNuWgedFxSCaa78Tjjtrn70OOTvgpy0LnXPMfA2b54cqoww3UmWy6ji/lNez/7QzDs0N54NMUd13DXRerz+IRpMAo98NSgsilbvPnT6w7/SwMyf27gI=");
 
 export default BurgerSoda;

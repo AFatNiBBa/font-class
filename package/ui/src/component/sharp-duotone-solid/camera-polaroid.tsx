@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-polaroid` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-polaroid?s=sharp-duotone-solid camera-polaroid}
  * @preview ![camera-polaroid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/camera-polaroid.svg)
  */
-const CameraPolaroid: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 352l0 96 0 32 32 0 512 0 32 0 0-32 0-96L0 352zm96 48l16 0 352 0 16 0 0 32-16 0-352 0-16 0 0-32zM224 192a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-        <path d="M64 32l32 0 384 0 32 0 0 32 0 182.3 58.6 87.9 5.4 8.1 0 9.7L0 352l0-9.7 5.4-8.1L64 246.3 64 64l0-32zM288 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM384 96l0 64 64 0 0-64-64 0z" />
-    </Icon>
-);
+const CameraPolaroid = createIcon("camera-polaroid", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfgAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBdQsIAAE2AiQDCgQgBYMtB1obIQXIjsO44StxhcXiOR6+3y89972/GwB2BSbHZIEs+zpgX10WOkmFDMgSuM7s/c/tPiMtreL3lhCVtIS4NLGSyQOiZRotMf39PP/nFeePP8FHicaqeYNnnk9gAu1ZwAObzRS3O9uxlmTt2SEkluT4zHHZQBH/8z0l0uM0ivv8P4DxRY8LSU0GEM0AwMaDSQ6+kzGZYrTymhi1BwiITQDDCDIy+hGwBiXQT2gYKBSCyVSpMBmVyjAIIMr4iRmUUY0jwHkACpBkuSh6GmowW1dqKA6E1bVH62obhNgfHSEaQ9iuOBhv2f9u9kN9t7+UvOpmyyLqIqI2BFHXFBHRuH8vW1sfB5/bwiKjuKrvJ0vZO3P/j4xeGLX+JeJ32MeqgxJoG9C2V7M+hicmFsxTKPRGjaovN4gJaKkBgnBDqAmeNDQzBwTm0vDNT3n616/prPcDgWDg1Nijk01r/lXXJTD98cdnOl5lMm1Ir1AtgSDPqcxRShsAwCVAMcUNrPFNAtl8FPnUeg8ECLUIkJTVCpD1YRBQqDUbASWDbAgoq7UXJYoaoV25gKTeZZAtswWFdk9QssYvX9Ye2ccUD1G+eJnxFopNw4V6I7pxWpZVt5HiuAeXrRkbalPBWuiYmlhpa+lbNeQCV1obi1twzA8hEz0j5IbbtfvlGW0LS31TkzSJB57PKG3s3ipwBYR3kRlZJlLkrncyR3fp4qi+mPZbugvbVTTSbycA");
 
 export default CameraPolaroid;

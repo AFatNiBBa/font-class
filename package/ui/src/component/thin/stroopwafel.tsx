@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stroopwafel` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stroopwafel?s=thin stroopwafel}
  * @preview ![stroopwafel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/stroopwafel.svg)
  */
-const Stroopwafel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 0 0 480 240 240 0 1 0 0-480zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM131.5 120.2l56.6 56.6 56.6-56.6L210.7 86.3c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0L256 108.9 289.9 75c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3l-33.9 33.9 56.6 56.6 56.6-56.6c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3l-56.6 56.6 56.6 56.6 33.9-33.9c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L403.1 256 437 289.9c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-33.9-33.9-56.6 56.6 56.6 56.6c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-56.6-56.6-56.6 56.6 33.9 33.9c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L256 403.1 222.1 437c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l33.9-33.9-56.6-56.6-56.6 56.6c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l56.6-56.6-56.6-56.6L86.3 301.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L108.9 256 75 222.1c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0l33.9 33.9 56.6-56.6-56.6-56.6c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0zm0 135.8l56.6 56.6L244.7 256l-56.6-56.6L131.5 256zm67.9 67.9L256 380.5l56.6-56.6L256 267.3l-56.6 56.6zM267.3 256l56.6 56.6L380.5 256l-56.6-56.6L267.3 256zM256 244.7l56.6-56.6L256 131.5l-56.6 56.6L256 244.7z" />
-    </Icon>
-);
+const Stroopwafel = createIcon("stroopwafel", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABwwAAAKUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDbQsGAAE2AiQDCAQgBYMtBzIb7wXIjtEnI6rMHHO5VHlU4uH7e7Fz738prWNrVDoFq2AmHIx1a6DRtQUO7ni15eXvf8nl+4G4uSqA7xxKO31Q9FIFsakyaaGJa+pHWW0DqfMXfqRFJkZ7x/kECmg3GkbiaNpCM52ADaLNcQ02RPGjTzym8j3iMDlsDe2hxCZKqZIfSlfg5fqo+IcRo5CqCgDRDQAOrlLisPczflJc/W8A8YVTEBCHAKYRKvTjhmJ7b4FxKqZBUQQ/o67P/0AGAUQj5HoJClrwA38BBaSmomI91qwpd6atqquSrq2qlfMkIzqLXMbg6r78PO015lK4RkPeB4qL9NRXIdFhwq32Q9x11H7aU+Re7JXWffxN9EF6RlJyUgqFx7T5jGkYRcRWOGUSSkmUokCiumSFxZTJpFk4yQGS1bBCY9Js2jyC5AApKtRjpchVj2lSlyktYxkxs5TElPeXJQlmDWbfHK7Kr1AvRaIerps+IiI+mhrqI2HL0wb/705aYOTbvlC4v2apiRPK8dxNdMpyDkOiE1GqIQyl5pWG4DjhmZ/fBOrSBxnStpIFfTdThBwRqlMKty+nJvjZU/g0qUt4KOScu/mREp/8VhOYwAECwdzt+nKBfuj/Zm0lwO/v71/Sr6jeS/kJaJYgqBbqBbkJSAIAkNEOQQKB9KWJfGq7VwRCKwKkRq0CVMYYIFC0mkegwSQ/BBq1OqMsiiZCv7xbktrdSCpb+iRFvzVJg22n8Ub9oby8FYtT8XWZVmJh8TTm5e7JglmzTJUrVnaMhzC31bF9b3NiLco1qNeqTKkqrUbQLC7Vpo6kR4p9EePFnScmGAvXLrXpJt6sRVVdHZ8kBBsfdNTe7+2EQ4lwrilKSaT2z3nzGxo7isrLagEAAA==");
 
 export default Stroopwafel;

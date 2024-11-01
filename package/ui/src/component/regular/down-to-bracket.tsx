@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-to-bracket` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-to-bracket?s=regular down-to-bracket}
  * @preview ![down-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/down-to-bracket.svg)
  */
-const DownToBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M114.2 192L224 302 333.8 192 280 192c-13.3 0-24-10.7-24-24l0-120-64 0 0 120c0 13.3-10.7 24-24 24l-53.8 0zM224 352c-11.5 0-22.5-4.6-30.6-12.7L77.6 223.2C68.9 214.5 64 202.7 64 190.4c0-25.6 20.8-46.4 46.4-46.4l33.6 0 0-96c0-26.5 21.5-48 48-48l64 0c26.5 0 48 21.5 48 48l0 96 33.6 0c25.6 0 46.4 20.8 46.4 46.4c0 12.3-4.9 24.1-13.6 32.8L254.6 339.3c-8.1 8.1-19.1 12.7-30.6 12.7zM48 344l0 80c0 22.1 17.9 40 40 40l272 0c22.1 0 40-17.9 40-40l0-80c0-13.3 10.7-24 24-24s24 10.7 24 24l0 80c0 48.6-39.4 88-88 88L88 512c-48.6 0-88-39.4-88-88l0-80c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const DownToBracket = createIcon("down-to-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABeQAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCDQsGAAE2AiQDCAQgBYMtBzYbEwXIjsR0W5z8IoMMcuLh/22m9/2ZJWmNPAZADBBVzJW6kFx04TYnZdyq2t6nTj3PeSiATyEM2h66cIOE1ug8r0ABx7bN5ZzXClbTClh1mwyhJwqfjgiRFImOL4+vB+TxWjytjvRKquKp/qHxry7uJ6nLAERrAMzeuHa5yl/xV8Svta+JXy1FQMwGhUCGDN0FmCYT6C5XIJcL/oparfwHFgQQ9XjIBHLU4RDOAXKQZHnebuCAcl2LfEO5rrRx/Yb1G6MU73QNPCNe7lda/2jHDfFivNbppYHlCEK93eGFLmKlW+3XxfOlDcIt4ZZbxGMuHtEGvo0drw96b1xzfDPkg55qf58PWn/wX+/qgarTNTyECVZ3uGSWSzqsnnD8rbbVM2f91j5Vq0Ufu2R3fxs1y6jf7ma79FFUf2vX7nfTq7b9tGEVLm/zw4dtWmvz4Q9tVumwenWHVfKHH57V2qwh5up1IBDcc/vVna2m/d9YTuCfH95rPyO1SlTSB2iUQJANqw2zLSoQFQEASHFBn6ggkOyS4Xdt9qIAoYQASb2SAJluWguQKxkqQJ2exgtQr2StTORNQnvbF0ianQaZCa6DXHtfgjrT/BjUax9ZupHJQv724hZIaP6yYvSIUcWUwkxNKoPwOj+1CGuDLqjWYJx1wEknnLPfPoedE8gZy+PzjlvgwfN9UWG0EUYpTFEcF2tuAwVnnHV4z5wvMlVx3xrkgj96MMyEMcdIJIlIrV7gpuHnTg7fc2b33qP7zwEA");
 
 export default DownToBracket;

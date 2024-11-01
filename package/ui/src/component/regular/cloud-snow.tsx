@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-snow` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-snow?s=regular cloud-snow}
  * @preview ![cloud-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cloud-snow.svg)
  */
-const CloudSnow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 120c0-39.8 32.2-72 72-72c25.8 0 48.5 13.6 61.2 34c3.8 6.1 10.1 10.2 17.2 11.1s14.3-1.3 19.5-6.2c10-9.3 23.4-15 38.1-15c29 0 52.9 22.1 55.7 50.4c1.2 12.3 11.6 21.7 23.9 21.6l.3 0s0 0 0 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-292 0-1.9 0c-.3 0-.7-.1-1-.1C73.3 270.4 48 244.2 48 212c0-28.3 19.6-52.1 46.1-58.4c11.8-2.8 19.6-13.9 18.3-25.9c-.3-2.5-.4-5.1-.4-7.7zM184 0C120 0 67.7 50.1 64.2 113.3C26.4 130.1 0 167.9 0 212c0 57.1 44.3 103.9 100.5 107.7c1.2 .2 2.3 .3 3.5 .3l4 0 292 0c61.9 0 112-50.1 112-112c0-55.2-39.9-101.1-92.5-110.3C406.5 55 366.9 24 320 24c-18 0-34.9 4.6-49.7 12.6C248.5 14.1 217.9 0 184 0zM64 352c-13.3 0-24 10.7-24 24l0 16-16 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0-16c0-13.3-10.7-24-24-24zm192 32c-13.3 0-24 10.7-24 24l0 16-16 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0-16c0-13.3-10.7-24-24-24zm216-8c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 16-16 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0-16z" />
-    </Icon>
-);
+const CloudSnow = createIcon("cloud-snow", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABsAAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDOwsGAAE2AiQDCAQgBYMtBzEbvAXIHoPjbolBEDEEg35ep9SN0xfPf7+Gnvv2b7jMihSSQokyQnaiVB2BjlAFkmVby4pA79Fam7k/9FWBfUQ04clMklhS95Qg0iAR3N8nrnn+aU8PWOSPFmmlD1KAWYuyCQxwtpuP1jiQKLCZTsC2N41skmV0JJloko5z5O9rAy1n2A09dY16x6X8oflqhRZK3wFA5gMAxy5EBMH1e3yfvA0H5JXTQCDHALAeokOH1RAcxBCsRlsPNE14n2HA/0ACAmQE5AEKNIziGZ4DGih9o502qdWE2bPpaGavmzBmhVkzO7AYEA9Ih5ht4gH5iAmmERcsVuTD5svGrIlGbMVFxaCiUTpktgRbYcz9Xsyxat58GW5tXnFpYzLZR1ZrBpOWq664rNX4MiB2XgY4gUAbMWEGQltSYphIGzXVDWJPUVM5JmYP5zOc5a1+q9+z3108ztkBdrwvC4md2a7+WSb5y9jIG3B3AV93olx62pgiZn4NJG+/nE0YjQ6sAQMw78hrnRUbmY8v9pCijX/9P09norN6eq7PXlm4yL5mOkzMAx5CxWEoT6Ke6amBqb0bHbPz6QBBeLoy5cs09+B/TArg44N/1V/RcF1qFhhTIHTbBmuJBYoAACrVYFgQlHt6cq1TLguICQSUERMCOqvwIGgmbIWgt5YLBCMmnMGQpgOxWFInypQZorNbLdEstkf0DnqyRyxO58W8D/KPyJQADfgvIg629sSTTCNNcEw2DXuRZc28mioWsBaylShWKUumPJUKLxfkVSkSYGH+vohwYMse4Ylsp4+ro2UpVyFPiWKexws5b5mrttstwKQI43a+UqR0vzNUbe4HAAAA");
 
 export default CloudSnow;

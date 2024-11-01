@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cannabis` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cannabis?s=duotone cannabis}
  * @preview ![cannabis](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cannabis.svg)
  */
-const Cannabis: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M16.3 152.9c5.6 27.7 19.3 70.9 42.7 111.7c9.1 15.9 19.9 31.7 32.4 46.3c-27.8 6.6-52.4 17.3-67.2 25.5c-5.1 2.8-8.2 8.2-8.2 14s3.2 11.2 8.2 14c15.2 8.4 40.9 19.5 69.8 26.1c20.2 4.6 42.9 7.2 65.2 4.6l-8.3 33.1c-1.5 6.1 .6 12.4 5.5 16.4s11.6 4.6 17.2 1.9L232 417.2l0-41.2c0-13.3 10.7-24 24-24s24 10.7 24 24l0 41.2 58.5 29.1c5.6 2.8 12.3 2.1 17.2-1.9s7-10.3 5.5-16.4L352.8 395c22.2 2.6 45 0 65.2-4.6c28.9-6.6 54.6-17.6 69.8-26.1c5.1-2.8 8.2-8.2 8.2-14s-3.2-11.2-8.2-14c-14.8-8.2-39.4-18.8-67.2-25.5c12.5-14.5 23.3-30.4 32.4-46.3c23.4-40.8 37.1-84 42.7-111.7c1.1-5.2-.6-10.7-4.4-14.5s-9.2-5.4-14.4-4.4c-27.9 5.5-71.2 19.2-112.2 42.5c-12.1 6.9-24.3 14.7-35.8 23.6c1.4-28.7-3.1-57.6-10.4-84C306 70.8 285.1 30.6 269.3 7.1c-3-4.4-8-7.1-13.3-7.1s-10.3 2.7-13.3 7.1c-15.8 23.5-36.7 63.7-49.2 109c-7.2 26.4-11.8 55.2-10.4 84c-11.5-8.8-23.7-16.7-35.8-23.6C106.3 153.2 63 139.6 35.1 134c-5.2-1-10.7 .6-14.4 4.4s-5.4 9.2-4.4 14.5z" />
-        <path d="M280 376c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112z" />
-    </Icon>
-);
+const Cannabis = createIcon("cannabis", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABkgAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCHgsIAAE2AiQDCgQgBYMtB0wbPAXIngXl2LEaYhAkG3d6bt8WD19r6Pu7exdixSqsUCGrpK0E8p2qOvRVKHyUrBFECmXn7Hv/3j3vI4BuANeiO6gSWSWVK6PNpEOWz+cV8P//XPP5pR0d4Afwi6R4fiDXgJULLYE9n3cSbODTGdrMXVuSh275SqMsyeOjeTydocR1foaK9Ia7As/lfwDjJzWNkLRlAEQvANi6FhaA4096l+Kq2YF4yx8ExDaACYSMjBEEVvEERvBNgKII3nFN4B01GRBA1JCPzKBGwQPwEEABSYjCl0ySqKT4kRKVeNqQ0Ywq6I3hvAbFDaoRDZoOmu4Y9OCR0qzjrLMm9Sj1qvhR0LDxrBroiF6o9Ctr067xvnE/1SnPOS1rRH1YYwz0Kc4YzJhgr3HtMfUh9T7xJsUB1QHNEa05oyUjYoyzepT0lmSX/rjKvILKgVJIiFIx8JrM5NIqXMo8DC1VlYu1l7VdJF8MtXsVPSOYsd/dFCt4WpGhVgz5rxdtZeJt5VVLSg8yl6sOIpHhxWHnz59mkhLzna+eeIq2ep5cvnbOS0iavn+6CCsOjxQBAsHZ/9+1JJnVf6ISHODD0f+4T6ZBv7gl0CqBIM83FohPAqlnEKT8KikqoZfgG2QEsus4tKnTSwQI7TRIau2QDZOFot0cVMY4bq61O8cTRQxhUAJB0uk+ZCuqoBi0DZVVp1ZtMHiOJ7iN8O1L9dSIxyRma2XD3Ng0VEVf4nK/O1s2TCpTyZQXIlORQuUypMtRruhSAW6FAp4W5eGLGFtWbDBu2HbyODtShlJlchQpxDju2HnTRKXdbMrT4QALV7Y5E4l4srdTCgtTUnPKLD1Yk+/kpwoAAA==");
 
 export default Cannabis;

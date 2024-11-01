@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-image` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-image?s=sharp-regular comment-image}
  * @preview ![comment-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/comment-image.svg)
  */
-const CommentImage: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112.7 358.8l-10.8 28.9-7 18.5 57.6-17.3 13.9-4.2 13.9 4.2c23.3 7.1 48.8 11 75.7 11c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 35.1 15 68.9 42.9 96.9l21.8 21.9zm-39 103.9L16 480l21.2-56.5 19.8-52.7C21.3 335.1 0 289.6 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-31.5 0-61.7-4.6-89.6-13.1L73.8 462.7zM144 160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM400 304l0 16-128 0-80 0-48 0 0-16 64-80 22 27.4L296 160 400 304z" />
-    </Icon>
-);
+const CommentImage = createIcon("comment-image", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfAAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCEAsGAAE2AiQDCAQgBYMtBzQbFAXInoWxG22IK5rO2vDpwvi4xsP3a6/nvn0bLgEqYJCpBVTdSkDFsi4TW5aM9k9tdV3gnv3c3dzTvqSZOOLSxNISapm3RtVGS3SoaC+zfC8Mmbp53nkU4BuFNhauCbIA9zpPIMCsew88oIQyDURTytrZGRj0+k3SpXySYXvDyAk5nsdNJelu+ogb5VbxzxCnJGUBIHoDAMv3dlXhtxa1iA/dD4kPNgIBsRxgNEQByHAIFmEKfALLaCDLglp0d8s/cDQIIOroJ0kgow6twDkAMkhyziNGKaXNZY+8p7ls2jt4mE6HG2NQDIiHzX+2fhln7fOen5s+jiZq7F5XLrhjXnzf82DpT/nD3l/r3y2Oeot8Ft7uuryw++DRIIzbzVcGXMOF/leCywNvcDfU1BSxN6bE3tg9tk32/t+tHx3b12nvTDjzwg9Tp4ym85W4R1WN4pGoKnF5b/fEozdvnuV5zMbGxpEjH9t5ee37ej2fdu3tQ8NWz+x5kYs9QyLq3Td66+WHhzKIbzUoeQDmbgCBoIM/x3ot+t/QnMDfZ6hvUXctSW1okEBQTO+ebjiBRAAAUpxBJwgkR7Dgri1uCRCaECCp0yRAYRgZBFmTaRCURvJCUKfJTkyRG4X+RjpIWhwHhYX2QNbfBygt8ufW6R+Fw1HuQj334nOMZLfIOTYHGSKniUb7EJGXYXJZmLybGkZAYdaaVdtmTFuwTdimarBjRc5Csx5EcrJxIIWQ2/njca8Zm7YsWLMqa8LI847Brt1vhMyguHOFkkSkHjec/rADAAA=");
 
 export default CommentImage;

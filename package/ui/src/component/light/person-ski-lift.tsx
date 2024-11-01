@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-ski-lift` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-ski-lift?s=light person-ski-lift}
  * @preview ![person-ski-lift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-ski-lift.svg)
  */
-const PersonSkiLift: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c8.8 0 16 7.2 16 16l0 194.8c-1.9 .3-3.7 .6-5.6 1.1L240 218.5 240 16c0-8.8 7.2-16 16-16zM104.8 177.7c7.9-4 17.5-.7 21.5 7.2l42.3 84.5L274.2 243c15.1-3.8 29.8 7.7 29.8 23.3l0 136.5 150.7-59.7c15.3-6 25.3-20.8 25.3-37.2l0-1.9c0-8.8 7.2-16 16-16s16 7.2 16 16l0 1.9c0 29.5-18 56.1-45.5 66.9l-348.6 138c-8.2 3.3-17.5-.8-20.8-9s.8-17.5 9-20.8L272 415.5l0-139-95.7 23.9c-14.6 3.6-29.7-3.3-36.4-16.7L97.7 199.2c-4-7.9-.7-17.5 7.2-21.5zM9.1 161.6c8-3.8 17.5-.5 21.3 7.5L103.3 321c10 20.9 33.5 31.6 55.9 25.5l36.5-10c8.5-2.3 17.3 2.7 19.6 11.2s-2.7 17.3-11.2 19.6l-36.5 10c-37.3 10.2-76.5-7.7-93.2-42.6L1.6 182.9c-3.8-8-.5-17.5 7.5-21.3zM128 88A24 24 0 1 0 80 88a24 24 0 1 0 48 0zM48 88a56 56 0 1 1 112 0A56 56 0 1 1 48 88z" />
-    </Icon>
-);
+const PersonSkiLift = createIcon("person-ski-lift", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABhgAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCKQsGAAE2AiQDCAQgBYMtBzYbLwXIjtRG91MG4uH/7fpvn1v1ANcnOKRS2VmvSRn9STt7zfvn/5rPL+3oAL/RoUVS6tFZWeQ6eQIDnIVX63w2nE0Ut7jtLgm1Rh0hsYE83oqJKkgPpK9xW/jQ+EuPq0nyDEA0A2DZnh2bvF+KUsTX5VeIr21AQCwHhUCGDP0CLJQJ9MsVyOWCUpTL4j+wIIColB6dQI4qnIWrADlIKvK8YUpPTUNdRUO+2xxRe9A9HeLG9pERcV/Xzvs6dsWeuK/jHqj2WN8Mvbrg8u77Rx4ed3fe26ViETvj4d7d0cm794r3CG3MnP1K+8w5ffSjcuWeB0c/3P3AqMf6ah8a89ioR3pO0vbJw59sfvKfYV8f+7Xye6XGj2TFvb7SWLr3hU8uHr/D8T1euOba+hvcu8CFNYm8vNSYdL7wwdyDb/DTyYs+fWSpmxzW6eyXx+108GeHNf180tr7XPZ/2To/bpr08zyfPXTTH2vus+nVc9d1bNvWUf1bm557773nmuTtQCC4YEnr94c1LTxQXZfAn2/+d0AeWL4sSU+iWgJBNrE80cHJBs5U8fJWnGs4/qJAcpIK6V3r3StAqEWApFKtAJk+zQLkak0QoMKgWQJUqrVDJvIaod0hHUjqnQEys10Ccu1eAhUW+syu1B4Z8LGgw/77Ja0eQqvmFdMmTy3mF6tlDQdPtB1fUBxWx54r28bhtY51mlOd7RhHO8HZA/JMm7xznGL1FrHKDxWmmWyqwnzF5drT5bsd40xnOcFpTvWzLFA8b4517nbvcdhIEuV0uSQRqQlW7UlnnXTCpI8UAAA=");
 
 export default PersonSkiLift;

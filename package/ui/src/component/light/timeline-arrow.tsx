@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `timeline-arrow` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/timeline-arrow?s=light timeline-arrow}
  * @preview ![timeline-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/timeline-arrow.svg)
  */
-const TimelineArrow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 80A32 32 0 1 0 80 80a32 32 0 1 0 64 0zm32 0c0 29.8-20.4 54.9-48 62l0 114 224 0 0-114c-27.6-7.1-48-32.2-48-62c0-35.3 28.7-64 64-64s64 28.7 64 64c0 29.8-20.4 54.9-48 62l0 114 195.8 0-62.1-51.7c-6.8-5.7-7.7-15.7-2-22.5s15.7-7.7 22.5-2l95.9 79.9c.6 .5 1.1 1 1.6 1.5c2.6 2.8 4.2 6.7 4.2 10.8c0 .3 0 .7 0 1c-.2 3.5-1.5 6.7-3.6 9.2c-.6 .8-1.3 1.5-2.1 2.1l-.1 .1-95.9 79.9c-6.8 5.7-16.9 4.7-22.5-2s-4.7-16.9 2-22.5L579.8 288 256 288l0 82c27.6 7.1 48 32.2 48 62c0 35.3-28.7 64-64 64s-64-28.7-64-64c0-29.8 20.4-54.9 48-62l0-82L16 288c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-114c-27.6-7.1-48-32.2-48-62c0-35.3 28.7-64 64-64s64 28.7 64 64zm32 352a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zM400 80a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const TimelineArrow = createIcon("timeline-arrow", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABowAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDFgsGAAE2AiQDCAQgBYMtBzUbmwXIhof3dX6d++xEM85n8ADSEmO1UrKMWDTRtgQVzv/Nnvc8CvBziYc2Fi6hBRLtRRJHab4pkbIwuyl8Inpv03osCELoiAgJkxC37fd492yEPP6OuSqkW9LnuKpeNH4w6HySPAMQHQDYtPfuO3q7Gc2Iz/9/gfjc9giIzUApkCHDiABrZQIjciVyuaAZ//8P/4ElAUQVHj2BHFU8iRcBOUjyPO8+sbu7VmnN96pViv0bfRE3Fpf2XK/ee0Ptsv6bolYfiLh+qqhFxIN9t8Ztcx6b8cCsRwbrA8xP3S1u7L+pd8+4LOq1GzQ0ot5zfU/EHnF93439u0dLiAd6b3HzzIenPjj70aHG8E0zIoq4se+mfjtt33pvxJ1yo+8NTs/5yuRHOx79adLnR33uqpPbLubitraLW1/Z/zVfbXmapoDd8quv+4vOzrvv5gqOgC3v+84jl9368sE7CxFLq4LKEsjdX771ske+s4XdVN1287VmW1tzF8OG8YOvT3pr3Q8Egt+3WnDDwe1r/5pQS+D7V3/5q2/3/9epnh7FBAkE2dz/5zog1QHQAagpzjJZuFEgeVAOz9riRgFCgQBJVSFAZliHALnCHAEqxiwToKqwu0zkE4UeB06QtDgVZJY7B+R6PAcq1vpIqeqJzGcpj6O+GOO3otCWbeWi+QvL1eXWNGg3JEp5TXkszDwrhWbFQUc52UnOcKQjHOsMgpxmR/1MJ9pKgrf0QKVF5luotFqpdl75vYh6mtMdy9N6wRpwttfMdBY5eVaUE8RdzJAkIrV5seU/Fsqhp5128tkAAAA=");
 
 export default TimelineArrow;

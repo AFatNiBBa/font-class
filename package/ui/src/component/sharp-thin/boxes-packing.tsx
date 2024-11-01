@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `boxes-packing` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxes-packing?s=sharp-thin boxes-packing}
  * @preview ![boxes-packing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/boxes-packing.svg)
  */
-const BoxesPacking: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M624 16L272 16l0 112-16 0 0-112 0-16 16 0L624 0l16 0 0 16 0 480 0 16-16 0-240 0 0-16 240 0 0-480zM549.7 322.3l5.7 5.7L544 339.3l-5.7-5.7L488 283.3 488 440l0 8-16 0 0-8 0-156.7-50.3 50.3-5.7 5.7L404.7 328l5.7-5.7 64-64 5.7-5.7 5.7 5.7 64 64zM16 176l0 96 16 0 16 0 288 0 16 0 16 0 0-96L16 176zM32 288l-16 0L0 288l0-16 0-96 0-16 16 0 352 0 16 0 0 16 0 96 0 16-16 0-16 0 0 208 0 16-16 0L48 512l-16 0 0-16 0-208zm304 0l-64 0 0 40 0 8-8 0-144 0-8 0 0-8 0-40-64 0 0 208 288 0 0-208zm-208 0l0 32 128 0 0-32-128 0z" />
-    </Icon>
-);
+const BoxesPacking = createIcon("boxes-packing", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfwAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCTwsGAAE2AiQDCAQgBYMtBzQbUwXIhof/t+v7fW7VU2NNjXzH0JcyKAKUktFkHwzCXj8VIvX09+78j10b8HGXcGhj0h7Y5jHGeQKdb+qiucGiLLBEMcP0cu+C2qFh6Q7K+MdZHaRn0td4yP7S+NFg95AUBYCoALDqwJ5tLreiFfFV+wPiK1sQEKtAFihQYJgASxUCw5QySqWgFe22+A/MBBCd3JcnUKIb9+IRQAmSzrIcOqZneP+eekez3K8n1m5sNBuiFnik3hQpRK0WUY/iYP8B/fvFgNgdot+wMxr2gbEnWN4/dl0j1JsRjX21ei1WgMgsTaOuafbIwYkIXWBkhLaupo9+tXr151Ffn//atW+ddAPXqWh4dR3egle/xf2mtWnWOsx+1V59vKBbpTsR72OvV63Tjtur3f+Rk5hW7TzpZK9rqypXkG8hh6H6XsTNrHw/c6X71om6dT/dbaKVvpd9/33O+Q7ZHUAgeOW/w1ec6LX07+56Aj98+uuPyNnty+mO9Cq6JRAUU9tTHU13ABENIJTiFqMHhhhI7rJzP7XhSQFCDQGSTjUBCkNVApRqpgjQYYR5AnSq2aMQZY/Qz7ECJA3Xg8J8t4JSP++BDkt9FuzUL4rnUf40yX8H06yvQusG5VnTZ+bFuTcnUzxiUqN3SZ6sn3iLrJmEhc671jVucs5Zl9xUEd5gW+RmV1s/xF7nh7JZppspWywvLt6cv985N7jRJde6xupniby9e6JbhptPgilxJc6WlCQiNb9U57TrTn2+AA==");
 
 export default BoxesPacking;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-anguished` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-anguished?s=solid face-anguished}
  * @preview ![face-anguished](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-anguished.svg)
  */
-const FaceAnguished: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-192c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zM144.4 224a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM192 128c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8c-6.5 6-16.6 5.7-22.6-.8s-5.7-16.6 .8-22.6c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1c8.8 0 16 7.2 16 16s-7.2 16-16 16zm141 .9c-4.3-.6-8.6-.9-13-.9c-8.8 0-16-7.2-16-16s7.2-16 16-16c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2c6.5 6 6.8 16.2 .8 22.6s-16.2 6.8-22.6 .8c-15.5-14.5-34.8-24-56.1-26.8z" />
-    </Icon>
-);
+const FaceAnguished = createIcon("face-anguished", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjwAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCOAsGAAE2AiQDCAQgBYMtBzUbPQXIFkrLw//b9d8+t+oBri9jbIcw016TytH0/1xTL54fHeA3OpSIXIGs+WhZzycwkdRIkIkMbKYJ7pua9/IAX2eIS6tD5wB5vJxdrIJ0R/oE17kHjR/1uJikJgMQzQBYttuOTd4oRSni4/KzxMc2ICCWgUIgQ4Z+ARbKBPrlCuRyQSnKZfYfWBBAVPJ/VQI5qnE2LgfkIKnM876WtraWlrqKhnzXuoraXb7fEvH5irfjguVvbf5s1282frL0Decve3PTp7vEs+Minhi4ub02bu28b8JTc3a9rSvitrqrOm5xfvvNtVd23tq521UdEXV6lGZVu17Z/vDYm4XcNTt5W90tHTe373JrraEXxc+Ou4Vd2/nk6OFPNj/587BPDv1Eeckq13PDgv4VK/oX3HD9Ktey295oPoRdo7F0vlJj7HpI83H7NVzO5Q2Nl1/eGCENccPrQ3CGJot2vG5J1da/Tnnhiavu/OmR42tKjY2lq22tyu5ac/wjP9151RMvnPIXEAj6/j/jgP2aFv5dXZfADy/9+h/wGiy/kaQnUS2BIJtYnmjvBBIBAEhxquEJAsnJTmip3q3iyFItQuQq1cJSpk9zBblaE6DCoFnswuU7ZCKvEdrtAyGpdwJkZjsHcu2ehgoLvZ+v1B7ZQ8g/QvwnYMrq8VWLimmTpxbzi9GaQniuWD27oFjsjD1Vzzi41aGOc6yTHeJgRzg58kSbSqc4xuopYpUnKkwz2VSF+YrNzbvrd3WIE53kCMc51s6zQHF8bqxTp4ePg37iU06XSBKRGt9wY9LvBfJHnHT4IQcDAAAA");
 
 export default FaceAnguished;

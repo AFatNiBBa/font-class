@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flask-round-poison` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask-round-poison?s=thin flask-round-poison}
  * @preview ![flask-round-poison](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/flask-round-poison.svg)
  */
-const FlaskRoundPoison: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 16l128 0 0 133.3c0 13.1 7.9 24.2 18.8 29.5C371.4 209.7 416 275.6 416 352c0 51.7-20.4 98.6-53.7 133.2c-6.7 7-17 10.8-28.5 10.8l-219.6 0c-11.6 0-21.8-3.9-28.5-10.8C52.4 450.6 32 403.7 32 352c0-76.4 44.6-142.3 109.2-173.3c10.9-5.2 18.8-16.4 18.8-29.5L160 16zM304 149.3L304 16l24 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L288 0 160 0 120 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l24 0 0 133.3c0 6.5-3.9 12.2-9.7 15C64.3 197.8 16 269.3 16 352c0 56 22.1 106.9 58.2 144.3C84.5 507 99.3 512 114.2 512l219.6 0c15 0 29.7-5 40.1-15.7C409.9 458.9 432 408 432 352c0-82.7-48.3-154.2-118.3-187.7c-5.8-2.8-9.7-8.6-9.7-15zM120 312c0-42.5 44.7-80 104-80s104 37.5 104 80c0 23.7-13.6 45.6-36.3 60.7c-6.8 4.5-11.7 12.2-11.7 21l0 14.3c0 4.4-3.6 8-8 8l-96 0c-4.4 0-8-3.6-8-8l0-14.3c0-8.9-4.9-16.5-11.7-21c-22.7-15-36.3-36.9-36.3-60.7zm104-96c-64.4 0-120 41.3-120 96c0 30.3 17.4 56.7 43.5 74c3 2 4.5 4.9 4.5 7.7l0 14.3c0 13.3 10.7 24 24 24l96 0c13.3 0 24-10.7 24-24l0-14.3c0-2.8 1.6-5.7 4.5-7.7c26.1-17.3 43.5-43.7 43.5-74c0-54.7-55.6-96-120-96zm40 112a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-32-16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm-32 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-16-32a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
-    </Icon>
-);
+const FlaskRoundPoison = createIcon("flask-round-poison", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABuQAAALhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDRAsGAAE2AiQDCAQgBYMtBzkbzQXIjpQuZyTx8JFTe1+W3VgyTRoCtQuEZCeLhLfydYHPzpBD/alTz3MeCuAbxSS4py5c3TjGOK9AAHux+rQNMsFqFcX6fzaPbTP5eZckebK+TB1On+7RFtK4y+HKJHckX+Om+aPiV8MuJ1EqAYgWADbZa7cdvL8gFkR83X2F+Np2CIhNQSFQQvqYAOsrCd1CqkAqFSyIbtf+AwsCiAqeMwEpMnyAbwApSPSk6fiy4+PVmTnIy/V0z/bw2X55los7lvhihWdm/bxzO8vi2oEf93xopee2e2w09giRx/Tg1ECWtfs6/XmIi/s+X/n54pddHsnzuG6pn/Z6cNUXt50a2P2+5SKeWuuVZZ4Yv3vtdp9o92UxNRAp/c2JvT5eO+L1sXvW6Xjmvnk8NhpxyeBbk/eu++aWe0wNTA92+tt9S17cH9HJrxucjksGprJr+9qydp/Dj4gf0eY2lfWzn2w9+buvj/zafc9dzCOvkA7NmPNNNXZc487eOXrvXCN2rH4zZ8ZQesVNl1/BsiEHVyoHL/348uRDrpDfts3ffzVij3Oag3MMNs+JPRp//b3NZdlrD/qUT99//9NPpUs9Wm+oHHywgysN9UeXSo86qDXMstWJO1ctN/TvcrBd+hvKm147UV12uLXUSQsajQUFq9u4mqsbjavlooujk50OBILH57XcQc31/+/JE7DozT9fj29134/nkyfRIwFBafnu8vaP97W0LFEAoyTONBvfJJB4Qw9+as2UACFDgERFJkDJqJYAqcxyApRNWEOAisxuSiKtCn0O2EGi5hRQsqYLQKrPS6BsfZ9FFX1RCmU6EOkfyYQtFdoiqVhlxZWLdYvTpo2JTnJaXq+4bCx9Zh1aBhsd6SQnOt0RDneM0wU51Q7ZM5xgSw/ewg8VVrGilRXWVQx3Pgp7SnSq0xzT58ZXWU9xv7O0M/3Jy8BOEHVVFYmESHq/hlnHrfDOla5w8knHnHbSiQA=");
 
 export default FlaskRoundPoison;

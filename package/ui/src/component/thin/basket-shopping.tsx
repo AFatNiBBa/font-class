@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `basket-shopping` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/basket-shopping?s=thin basket-shopping}
  * @preview ![basket-shopping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/basket-shopping.svg)
  */
-const BasketShopping: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M340.2 1c-3.9 2.1-5.3 7-3.2 10.8L434.6 192l-293.1 0L239 11.8c2.1-3.9 .7-8.7-3.2-10.8s-8.7-.7-10.8 3.2L123.2 192l-74.7 0L32 192 8 192c-4.4 0-8 3.6-8 8s3.6 8 8 8l28 0L99.9 463.5C107 492 132.6 512 162 512L414 512c29.4 0 55-20 62.1-48.5L540 208l28 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-24 0-16.5 0-74.7 0L351 4.2c-2.1-3.9-7-5.3-10.8-3.2zM52.5 208l471 0L460.6 459.6C455.3 481 436.1 496 414 496L162 496c-22 0-41.2-15-46.6-36.4L52.5 208zM208 296c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 112c0 4.4 3.6 8 8 8s8-3.6 8-8l0-112zm80-8c-4.4 0-8 3.6-8 8l0 112c0 4.4 3.6 8 8 8s8-3.6 8-8l0-112c0-4.4-3.6-8-8-8zm96 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 112c0 4.4 3.6 8 8 8s8-3.6 8-8l0-112z" />
-    </Icon>
-);
+const BasketShopping = createIcon("basket-shopping", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgwAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCIQsGAAE2AiQDCAQgBYMtBzYbJwXIHgk2LnY9iOSUUxgPD3Nl7ydZykyRU2Z0QApRGLKrWnZ4d5bIngYeqNU1YUmw3UH84vj5VPs+dep5zkMBfA5B0PbQaRt8zY7zChQLWt5W7nltTKsodrchY6AcHCuGy0XEEBeawS1k8a1tqkge5Ge4Rlcav2rjAok0BRCNATB55dL53v4UP0V8Von4zFwExBRQCKRI0V6AcVKB9jIFMpngp6hU1H9gQQBRjR8/ARlqcBCnARlIVGXZ4CblBuVSVYNsRakq33m7xfIox8q4p7ssizy/zZ0txfJ48O50KS750a2MUtzzXeX5irjLpgblBsviNrcrj4u6qxXL77a8jbiz9xwrIxuDjDlDl6fz9Hf+bMdnlr5e2mNzve421euxdMvw7S/M6b2punpTexMrlpX/879a/VdeVujtWa312rk/fEvHL77kTSf8Y+GzD03+1eTDM+P/ebiyetOm6kOCubAmkTC/saZ/OhAIao/uzzY2GvdbbSkBvzz/b3+MyttkUvI0qJWAIO1X6WcdeYDoAIIkTugCX0UgsVMVvtSyuwKEHAES1XIBUu00FiCT6ytAlY6GC1Att1QqsjqhufUZJMoOg9QIJ0GmuXpQZZx3YbXmkQoeKTbkuy9uRg1NX1YMHjCoGFNMU5GSJdzNjy22tV4ndKs3rLXDQQccs902ux2rkCPmJ8ftN2MFT/dDhcEGGKQwRnFc3HIrMDziqN1j2fkiYxX3rV5OrId7g5lgzCFWJBIiafRDrtxfVAEA");
 
 export default BasketShopping;

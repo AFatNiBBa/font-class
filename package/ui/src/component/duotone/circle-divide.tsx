@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-divide` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-divide?s=duotone circle-divide}
  * @preview ![circle-divide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-divide.svg)
  */
-const CircleDivide: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm144 0c0-13.3 10.7-24 24-24l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24zm144-96a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm0 192a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M224 160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm-80 96c0-13.3 10.7-24 24-24l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24zm112 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const CircleDivide = createIcon("circle-divide", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABngAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCVQsIAAE2AiQDCgQgBYMtB1YbfQXIjpQuUyZDaXl4Xu+/X/skAzgDs5LQgajdvqmED7GV2ps/gLBTp57nPBvwjYK2hwYk+3zi2K1WoBWYNr0RqVBNa2C9nXUDNyhZJAmdy2HYXIbl6+vQeUEeH2cHlSNdS+/ijP8fwPhFIwdJKmUAoiYARs6aNsGzH+PHFO+W7hPvGo+AGAUKgQwZmgowRCbQVK5ALhf8mEolfoxSqSCAKM+vmYHyqIRjuATIQZLJ87xOtTpNMFWnSrlq+UxcofK8fQ0irlQ5Ue+SvXUvVj5e/3JMv9G+StxsdLVN5bjVeAY5i0BkX4Mrt3w2MuL5hPeqnJj0weiXsz4f9WLi++bA+HdHPJteRYbMqq4gYfZ3aG9oda/mvd9avrvyXT+0qH6Uo9VjxWYmLao3ZVPqwZZN2Ds8M7YSjcqejx79vKxRJWOvVo2zYoozizqete8DgeCbpxv+X1RjyH8VqyTw84M//kk/JKVnSbqHihIIsi6lLuYnkAgAQIqdWiXOIpCZKBc+tarLAoTKCJCUV1mATBM1BchV1lmAcprrK0B5lU2TibySUNeCApKqtoBMP7tArq4yUM4Qb/jl1Y1MJ1mNYj8Jk8YNjd1X9OzWoxhUDCuZUzPazQcX01aHnWod4aqVNtlouxWWW2N75FYToh02GMfBY31RoadueigMUix36qWZ+Vtts4YW1ncZrDjvdbCT7+4IbhIoezmSyYgUWb1/d9SuD0Trer9bGhDCXQYAAAA=");
 
 export default CircleDivide;

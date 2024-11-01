@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `screen-users` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/screen-users?s=thin screen-users}
  * @preview ![screen-users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/screen-users.svg)
  */
-const ScreenUsers: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M544 16L96 16C69.5 16 48 37.5 48 64l0 172.8c-5.7 3.3-11.1 7.2-16 11.6L32 64C32 28.7 60.7 0 96 0L544 0c35.3 0 64 28.7 64 64l0 184.4c-4.9-4.4-10.3-8.3-16-11.6L592 64c0-26.5-21.5-48-48-48zM96 368a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0-112a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM320 368a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0-112a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm272 64a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-112 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM16 488l0 16c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-16c0-39.8 32.2-72 72-72l48 0c39.8 0 72 32.2 72 72l0 16c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-16c0-30.9-25.1-56-56-56l-48 0c-30.9 0-56 25.1-56 56zm280-56c-30.9 0-56 25.1-56 56l0 16c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-16c0-39.8 32.2-72 72-72l48 0c39.8 0 72 32.2 72 72l0 16c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-16c0-30.9-25.1-56-56-56l-48 0zm168 56l0 16c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-16c0-39.8 32.2-72 72-72l48 0c39.8 0 72 32.2 72 72l0 16c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-16c0-30.9-25.1-56-56-56l-48 0c-30.9 0-56 25.1-56 56z" />
-    </Icon>
-);
+const ScreenUsers = createIcon("screen-users", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAAB2wAAAKAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSyEFgsGAAE2AiQDCAQgBYMtBzMbGQbIhofn9f77tU/y7szkWRlJFfFB96I7sGhgDV1Of2z/CuSsAZqHMtb2MX2sYQkE+Fi0BqWBZFkvbA3Om3RQXSH9Ann87QBVpKvTG7jQ/tL4WqcLSLIMQDQAYPGWDeu99EF8EPHG/48Tb1iLgFgCSoEMGXoEmCcT6JErkcsFH8T//7P/wJIAosJlkn05avAVfqFZSFLk+ZBaCI2IV1fV5pvDNxTH19TW3NZyWYe4rCXi2rH3jqyN20ff3SmuaIu4pu2KEQfc2X1t1zUjbuu4qvPq4fF4N89G3TXtiTH3jL135iZm3NfhvGMYV0Ln7SOHncWNDWW3s/c6roTFfXuFy1quaDsGr1Y3tJa7iIsY9w+dEXx5MW70TdtwD7mn4Z5vB79x0Bv6H3zJ3T7pnTez+11w4FOKxsabXnJTdEnxlAMvuF/25juTXtxz02dPPvnZTUD8mEkT+vsnTFru/aPbi+oXFkedfvpRBRQ/Jvvoxx8/yoJv39ngclf27q00qJs69YNJPoDRugYN0YDv/zsm75j/vh/QPhM64cs3mLb6nTM3eh0IBMe2fTF3T/28XwdWJ/DRM9//hZ73/0vpnHQPBkogyMb9P87OdA4w2QBSKU4yZIBHgeQjBfdTa1whQCgQIKkoBMh0axAgVxgrQJU+0wWoKGyQiXyQ0GJXAZIax4LMDGeCXItHQZV5Xk5WtER2z2vvWO0fZ6YVVXT5pnLyhEnlnLK3KtPdxmo9Pbec7Bp1Eu8aDXc6yNGOcoIDHeBQJ1TY46zPnOhIK4bkl/+2NNkEk5TmKBc3bpo249Rxjndot375OnOV28dGOWl48GjoTVyFUxQliUg1n4Nl/FcEAAA=");
 
 export default ScreenUsers;

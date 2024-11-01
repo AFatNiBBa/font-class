@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-group-simple` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-group-simple?s=light user-group-simple}
  * @preview ![user-group-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-group-simple.svg)
  */
-const UserGroupSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M88 136a72 72 0 1 1 144 0A72 72 0 1 1 88 136zm176 0A104 104 0 1 0 56 136a104 104 0 1 0 208 0zm144 0a72 72 0 1 1 144 0 72 72 0 1 1 -144 0zm176 0a104 104 0 1 0 -208 0 104 104 0 1 0 208 0zM208 320c53 0 96 43 96 96l0 16c0 8.8-7.2 16-16 16L48 448c-8.8 0-16-7.2-16-16l0-16c0-53 43-96 96-96l80 0zm-80-32C57.3 288 0 345.3 0 416l0 16c0 26.5 21.5 48 48 48l240 0c26.5 0 48-21.5 48-48l0-16c0-32.4-12-61.9-31.8-84.4C280.7 304.9 246.3 288 208 288l-80 0zM432 480l80 0c70.7 0 128-57.3 128-128l0-16c0-26.5-21.5-48-48-48l-240 0c-12.7 0-24.2 4.9-32.8 13c7.7 7.4 14.7 15.7 20.8 24.5c2.9-3.4 7.2-5.5 12.1-5.5l240 0c8.8 0 16 7.2 16 16l0 16c0 53-43 96-96 96l-80 0c-24.6 0-47-9.2-64-24.4l0 8.4c0 9.8-1.8 19.2-5 27.8c19.9 12.8 43.6 20.2 69 20.2z" />
-    </Icon>
-);
+const UserGroupSimple = createIcon("user-group-simple", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABrgAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDIAsGAAE2AiQDCAQgBYMtBzgbqAUjEbZqDoqQ/ZGQm2J9YEUUGqPjuckumuNJYJCu1Kx9ZD9yHGaugCpmdtIDVkiwvO/q4ggSGogNfWSbOvU856EAPocgaHtoQJbnQnOeVyCCrW/ftq1Yq3iFpLvTUpNW2idpLRZyfHOclsCO3ypGAOaaO8D88qb6pDMThp0AAGgAAIDaHds254IvX7rz/yj0aAoIoAPAQ8ACFshCAKphEcjC5gE2m+Dr/3/8D/QgAKjhpQ0AG0TAIXASgPaDESo7usVM8qVkFHED0XaH/MNwuq6verryyew1lU5UOZXjTsuQVhXY5szKtyVtBVPTV+bf6s4uuD1ztdyVq+l1tLC0MxstSXK0LEVaX3R3RbfDlWrSGQ+tTF6a39X21OWZ0qYS5xo4vV3HvV7zfF5pVcqyAo5mJS1NXu66oj2gNYV2lHN0rAiamrSzfJ5dcbs+5b4z4A4dK4bzlS2bLxzmHch6Ds8nzc3MnDvp+fMsEcI+FsTLTDw+dRfsCscR43/lx8QR3rVraquWuVrVhXKBOKy7b0p9pdSbu1Yc+tB4Y6uS51txqe54MvHNqbn1Q5unpNWyMLHNHvUCAAGCTf2bPOoZW+1X2DUAfDz15RetuvN/30w1u4AwA0Cw9n8x3cxUAEQLAI6JCfIYHyRg7BLCrxplGQEQBwiAEeQQAEsmcQiAzVEUAQjIoTwCEORoi0UVQZLo3oERZTSwVGASsCVxGARU47odlCTLcUm3I7+NcQMNJFR/yitdopRXxZuGGuWLOI2restaoQmpVBgWMsBII4zTXz+DjRPIGM298YZrYMH1fZGntBJK8VThHSdrroOwxxhr8Jg5n6Uq775VyAS7uTCYBsYsI2AwIBP/2IXifi0Wf/0A");
 
 export default UserGroupSimple;

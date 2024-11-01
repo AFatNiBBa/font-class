@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `campground` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/campground?s=solid campground}
  * @preview ![campground](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/campground.svg)
  */
-const Campground: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M377 52c11-13.8 8.8-33.9-5-45s-33.9-8.8-45 5L288 60.8 249 12c-11-13.8-31.2-16-45-5s-16 31.2-5 45l48 60L12.3 405.4C4.3 415.4 0 427.7 0 440.4L0 464c0 26.5 21.5 48 48 48l240 0 240 0c26.5 0 48-21.5 48-48l0-23.6c0-12.7-4.3-25.1-12.3-35L329 112l48-60zM288 448l-119.5 0L288 291.7 407.5 448 288 448z" />
-    </Icon>
-);
+const Campground = createIcon("campground", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABYgAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBOwsGAAE2AiQDCAQgBYMtBzEbvAQRlZoryH4kxsayG09Ipt4qWIW146BjEz6Jh+91n577pCX9NbIMBBDk6Q2dJ124CxcVUMkcABnQWjv9zT/vPArwcQShjYVLFy+QaM7zBBLr8g0UjT/tgyWK39rZG94guk2fPvJJhs0bJiPk8VF2TRXphfQBHis/Gl9r4xpJXQYgGgNg8sql8731eXwe8f7/i/fNRUBMBqVAhgztBRgnE2gvVyKXCz6P///n/8BSAFENxyaQI8dkzAHkIEl5PqiuUtUgX1GpKnY+1zLi2ZbPNn+6+SRT5LmfbjHZqniaeKHFM90rldutnmsXcbnlGlNXFZViZSyPosu9xve+7fzBjg9OPXSmnnbP337r/gObbPLA/bduP9+u/szfX3XzZrPW2YcfD/rhh0Eff5i11uzNgfb3qodOhv1OvOTkS04BgeDMoAVtbDTu19pKAl++8v0fdfP/b6VJ6R5qJRBk/f7vty5NAkYHoKc4oYtxs0AyWgJ8a71nBQgFAiTVCgEy7TQWIFfoK0CVjoYLUK2wVCbyOqG59Q0k9Q6DzAjnQa65l0GVcd7WqzWPzItIHyA/cXFqhoamd5WDBwwqx5RTh1COgafm2HKZ73UiJnrToB0HDxzbvm33MYUcmW8d3z/DgqffWA4eMKgcU2779/0rth85uvvggdxmbHle7nXCzu9NUgLMIbYkEal4OuRFBQAA");
 
 export default Campground;

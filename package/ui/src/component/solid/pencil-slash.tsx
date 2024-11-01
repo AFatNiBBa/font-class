@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pencil-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pencil-slash?s=solid pencil-slash}
  * @preview ![pencil-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pencil-slash.svg)
  */
-const PencilSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L409.6 295.8l42.1-42.1L474.3 231l11.3-11.3-33.9-33.9-62.1-62.1L355.7 89.8l-11.3 11.3-22.6 22.6-57.8 57.8L38.8 5.1zM306.2 214.7l50.5-50.5c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-47.8 47.8-25.4-19.9zM195.5 250l-72.9 72.9c-10.4 10.4-18 23.3-22.2 37.4L65 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2l88.3-88.3-77.9-61.4-27.6 27.6c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l24.9-24.9L195.5 250zM224 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9l-78.1 23 23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1 0 32c0 8.8 7.2 16 16 16l32 0zM426.7 18.7L412.3 33.2 389.7 55.8 378.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L517.3 18.7c-25-25-65.5-25-90.5 0z" />
-    </Icon>
-);
+const PencilSlash = createIcon("pencil-slash", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABiwAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCSQsGAAE2AiQDCAQgBYMtBzMbTAXIjpQu7hLB8/71Vef26xG/8EZW98BciDGRrTMpXqeM4M783Nr5v6ZePD8qkG90aNFU2hhLGnbwBKbjtUXbGuzAZhPFqZsSEAqKmsdDtAgrY/Td1+PbtwNk8U/hBkXSo+lj3N1iFT+qdwNJ+wKA6AaAWeU1y7z7XXwX8VEl4iNLEBCzQC5QgNqkKKZSQ3bJ5Mhkgu+iUmH8B+YEEG3w1glkaItr8SAgA0kxy/KOzT1bOhY7Z6W8bYdNT1Y9Un0inqh9vKYUM2JI1Mb0WJ0uqYqBsTJKO9asXPNw9YNVU2Pw2rXltQ/UrY0Hdq+2HE9BLtn3eaDmodohMX1dXWPdA1VroxwP1w4I8WB1x01VtVUDoyqmxSqotb7Uc3Ht4F2f7XDbwN7Pdnv2514f7/1Y/9eH/Prq/ys+0y/46nmPKnldd1/r7nUlj/ru5Q5f9OaUp59+/LFf3X+k90JeXNnd+7ypjz765bk+1lXKZcumecPTTz/2+C3uaXzgJm60dsfyGrXL1IzbL9f8Rf7h5Z9ZxDn3Zz0b6nue1Xt8YDQQCCY9/tm+bV2n/tauYwI/vP7rn3JlReV0c3oW7SQQFIZWhtqcrjEgQ8XL+HFWb3yTQHJBEePayUMChA4IkLTRQYCCRt0EyHQwRICiFuMEaKODNQoiay9U2bJA0skJUDDeFZCp8hoomuq9oI2qKAQjF0rct2DyfI3OG5ePGj4yn5xf5k0+vpjSPyW/rQ08K3WDsNZexxx12h67HXBa4SctS5xxxHwLm+eHcqMMN1Jusvxx6XN5yR4nnXLAMUfrKFPk/tZAZ+3Wg2AmpB1tUpKI1On4b5+zDw87dXjHqf0AAA==");
 
 export default PencilSlash;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-share-nodes` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-share-nodes?s=solid square-share-nodes}
  * @preview ![square-share-nodes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-share-nodes.svg)
  */
-const SquareShareNodes: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM384 160c0 35.3-28.7 64-64 64c-15.4 0-29.5-5.4-40.6-14.5L194.1 256l85.3 46.5c11-9.1 25.2-14.5 40.6-14.5c35.3 0 64 28.7 64 64s-28.7 64-64 64s-64-28.7-64-64c0-2.5 .1-4.9 .4-7.3L174.5 300c-11.7 12.3-28.2 20-46.5 20c-35.3 0-64-28.7-64-64s28.7-64 64-64c18.3 0 34.8 7.7 46.5 20l81.9-44.7c-.3-2.4-.4-4.9-.4-7.3c0-35.3 28.7-64 64-64s64 28.7 64 64z" />
-    </Icon>
-);
+const SquareShareNodes = createIcon("square-share-nodes", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdwAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBawsGAAE2AiQDCAQgBYMtBzkb9ATIjsQ4JvKLKOwiHr5fez337SZc5C0zOiDFDohdVVzRiExtp7L6d0jtO775v+bzs6YD/HyuUQEYi+RMwj0fzeZNBT4bziaKszbH+3BOhltI2fcdIg1TfcPUEfK4k11QRrqVfuPa8qHxVxsXSKoyANEYAJNXLp2vrj7qI36VJH6Zi4CYDAqBDBnaCzBOJtBerkAuF9RHqYT/wIIAolyFEyPX9tXYgn0xkpTnbUfWlDXIV9SUVa992iviZesUt3q/6t4gXvR90y6L231e96jdfNOt6naxx7JYDrvmGZPbGBryc79oezZWRJPvjMo9XXtlGFZZfleX141f/+P3jt8mPnjYhCbVk1Q3afJwkodNSjrxdPX5voetGyzrb9kADVtnVti1Pc8W9dPl49H52GUfZjm5HwgEB4Yum7qx0bj/lTUJ/PnaertSfdSl16iUQJD1K/WzLuoA1ADyFCd0SV8USBZL6rvWui5AqEaApFy1AJl2GguQq9ZXgDIdDRegXLWlMpFXCc2t30BS6zDIjHAS5Jr7AsqM8y0r1zyy6OJjg/+5S5nRQ9O3FYMHDCrGFJcdTQgYlm6OLYadXifyRG85aIeDDjhmu212O9aRR8wvHbffDEZM90OFwQYYpDBGMd3fKis0P+Ko3b4w7xiL/vcXejmBz+8tu0mAIc+lKRGp6Ruq9Y9Gtf+nph4FAAAA");
 
 export default SquareShareNodes;

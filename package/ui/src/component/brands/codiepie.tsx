@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `codiepie` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/codiepie?s=brands codiepie}
  * @preview ![codiepie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/codiepie.svg)
  */
-const Codiepie: typeof Icon = x => (
-    <Icon viewBox="0 0 472 512" {...x}>
-        <path d="M422.5 202.9c30.7 0 33.5 53.1-.3 53.1h-10.8v44.3h-26.6v-97.4h37.7zM472 352.6C429.9 444.5 350.4 504 248 504 111 504 0 393 0 256S111 8 248 8c97.4 0 172.8 53.7 218.2 138.4l-186 108.8L472 352.6zm-38.5 12.5l-60.3-30.7c-27.1 44.3-70.4 71.4-122.4 71.4-82.5 0-149.2-66.7-149.2-148.9 0-82.5 66.7-149.2 149.2-149.2 48.4 0 88.9 23.5 116.9 63.4l59.5-34.6c-40.7-62.6-104.7-100-179.2-100-121.2 0-219.5 98.3-219.5 219.5S126.8 475.5 248 475.5c78.6 0 146.5-42.1 185.5-110.4z" />
-    </Icon>
-);
+const Codiepie = createIcon("codiepie", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABdQAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBegsGAAE2AiQDCAQgBYMtBy8b+QTIhod/7Hi7b2YCeGKzg1hmBUbs/tlOrKK/v3n+zz8F+Dj3sbDzQBb4nOcJdB6N5ZsgCywN1FNI3cYX/nAUq8gRPCKGIgvVBbJ4No4pRHI+uYij9abxq2p2kSiUAoiyAOg7efxInxVEQcTFx28TFw1HQPQDuUCKFDUF6CEVqCmTI5MJCuLxY/0H5gQQhbUPmoAMhTADKwEZSKRZVrF6oxKFSmWTShQqPv90pYjTFSNONSgeonhElJh4c0TExQm3R13u98WkO/2/HH1l8q2Rl/pOiIkdhg0ddnPCN70+qfdk708H3+o7Ol7p9kHxA0O+a/OabW1fH/r9wG+7f9i+3gtlX/i97sVFFz3zX8EMho9ghBJaqG6uRm1O1xmwj7MjDLBmTZEiBhhQpMiaNQMMsX5BnfdX+HTu9MuXLzcdMDr5+/z50mXOn/9rqJcv+PPevS49a5a6+nnPnp9fLVXzs9cePLgBBIIKPxd5eXaZHv8XLZGAnz748z6cfvxd3E1eQFEJCNIWj1uYEXcB5ABeKYlN6sVdBBITpHDVks4IEIojQKKw4gKkaigrQKa45gIUUltHAQorbrxUZMWEimYOSJS0FlKdbIZMRW9CIT18qxRWMVKWMRxh/niJgyIaWJW3bdUm75YvDZ0lDuXF7vm21GSTBZrKrEVWW2WDhRZYakMg1hmpb7TSoAwP9KBcW620kesmP7afxydZaJ31llptVSnTXX5fbmJTHt9U6kgA7d6HsqZIis5fvWDpwjVLFwIAAA==");
 
 export default Codiepie;

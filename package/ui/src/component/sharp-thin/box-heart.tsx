@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-heart` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-heart?s=sharp-thin box-heart}
  * @preview ![box-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/box-heart.svg)
  */
-const BoxHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M17.5 176L216 176l0-128L74.4 48 17.5 176zm413 0L373.6 48 232 48l0 128 198.5 0zM16 192l0 272 416 0 0-272L16 192zM64 32l320 0 64 144 0 288 0 16-16 0L16 480 0 480l0-16L0 176 64 32zm77.7 226.2c-17.4 17.4-17 45.9 1 62.7L224 397l81.3-76.1c18-16.9 18.5-45.3 1-62.7c-17.1-17.1-44.7-17.1-61.8 0l-14.9 14.9-5.7 5.7-5.7-5.7-14.9-14.9c-17.1-17.1-44.7-17.1-61.8 0zm73.1-11.3l9.2 9.2 9.2-9.2c23.3-23.3 61.1-23.3 84.4 0c23.8 23.8 23.2 62.7-1.4 85.7l-86.7 81.2L224 419l-5.5-5.1-86.7-81.2c-24.6-23-25.3-61.9-1.4-85.7c23.3-23.3 61.1-23.3 84.4 0z" />
-    </Icon>
-);
+const BoxHeart = createIcon("box-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfAAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCKAsGAAE2AiQDCAQgBYMtBzAbKAXIhiCymVXPruQ7wSGugeABQNIzUApAkc1B9pxi9LEmznW+89EAyzbxoUVhaWok7Ub90ecv8IBV2kDvZQ/2+oL2u7O1NoemXUojIcnxLcfnCHm86jwl0stpN55MHxp/GXUfSZYBiB4A7Nc64Sg//R6/R+xqf07scgQCYj9QCGTIMCHAFpnAhFyBXC74Pdpt/g8sCCDK9OgEcnTgatwL+gRJOc874QF7p6eqpXrerJYqp1Yr1YhKnFhvNpqVENWzUpbqkUWtVa/VG5FCVGoRWbQaz4m4a7ARrXgx7h56ofLIwEAMxFAMhR1qDQ4NDse71UcXvu2uBScOY814J15ZjNNnvdPzzj8zd1+wW2/3Vkzf5Qnr73x9w52UeMJdtr3R3QOEt/R4a/mb+1r7PKmoMD0f9SjMOuqPPX30/XzsEWTnz319e3b39f78q4aGf5m1+9DKQ7jTzOGRmWlkZFbzWAc6UL7jrJEZfcXIcAEEgu/mnNJzZveW/zuqCfz5zX9/oZvbv8dP6R10SCDIlrSXOC1+AsYH8JNS3GBW/IRAcrEyfNeaFwQIFQRIyioCZMb1CJCrWCxAyZS1ApRVnCATeacw4HSDk5qr4cw6t8O5AZ/CJVtss8sGInM+xnWYr1/iwS1w0KRi5bIVxaZimimsP1FxdHOxLS24IbQshJ0ucKUrXOd857nYdQ10jaO8613u4BV4kC8qrLTMCoVNiuPyfnPT+a5xrYtd6QoZZ7PivrbADevuC0FNlHSVhUkiUuc5V9609AUAAAAA");
 
 export default BoxHeart;

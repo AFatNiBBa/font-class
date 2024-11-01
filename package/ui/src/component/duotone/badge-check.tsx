@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `badge-check` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badge-check?s=duotone badge-check}
  * @preview ![badge-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/badge-check.svg)
  */
-const BadgeCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256c0 36.8 20.7 68.8 51.1 84.9C41 373.8 49 411 75 437s63.3 34 96.1 23.9C187.2 491.3 219.2 512 256 512s68.8-20.7 84.9-51.1C373.8 471 411 463 437 437s34-63.3 23.9-96.1C491.3 324.8 512 292.8 512 256s-20.7-68.8-51.1-84.9C471 138.2 463 101 437 75s-63.3-34-96.1-23.9C324.8 20.7 292.8 0 256 0s-68.8 20.7-84.9 51.1C138.2 41 101 49 75 75s-34 63.3-23.9 96.1C20.7 187.2 0 219.2 0 256zm136 0c0-6.1 2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l47 47c37-37 74-74 111-111c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7c2.3 2.3 4.1 5 5.3 7.9c.6 1.5 1 2.9 1.3 4.4c.2 1.1 .3 2.2 .3 2.2c.1 1.2 .1 1.2 .1 2.5c-.1 1.5-.1 1.9-.1 2.3c-.1 .7-.2 1.5-.3 2.2c-.3 1.5-.7 3-1.3 4.4c-1.2 2.9-2.9 5.6-5.3 7.9c-42.7 42.7-85.3 85.3-128 128c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7c-21.3-21.3-42.7-42.7-64-64c-4.7-4.7-7-10.8-7-17z" />
-        <path d="M369 175c9.4 9.4 9.4 24.6 0 33.9L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0z" />
-    </Icon>
-);
+const BadgeCheck = createIcon("badge-check", true, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABowAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCUAsIAAE2AiQDCgQgBYMtB1IbdAXIHgd2bLFazNsdx0Npefj/tbL7flV3AKjCjA6IddREJgoWFJKfs5ZAl43NTiMUw4tUQaeh5IW4UOK2G91yUIqTI7Onfkwrpr+f5x+Tvucr0o8UuSiNpAbPPJ/AzndeSaNvM5jpDGy7sx3TipYPSWJJOx5tx6kOnRfk8UN2CRXS8/gV7vL/AMav2rlEUi8DEE0BMHX18oU+ro3aFF+Vb4ivLEBATAOFQIYMHQWYIBPoKFcglwtqU1lSG2VZEEBUcdAZqKKCm3gAyEESUp63mD6wQaVRvopvqL/7edsRL73HC01rsTpwJ5wTiOdGws81XxwwvrlSHbtPdSQWzg9xxU55TMHoxrQe2D6dxMpocL4pJV/dJG6+WRaJx3EO5yIgOpdn/kse1b9RsdbB0K0m1d/1q11fOdL0u+/OntWoUanqVPnDoUPwNh93/JmfD+xZO2f48EfvlU82buzYkYqfXHl8acTmrN1z4OefYz9LGpc+eu6a9DXapfXWu5p373bVr7+re4tIIUUSIrJo0b0sVx+rebFixu56QCBovuzeZ5ubTPi/Lifwy9s//1V+R+XHSaoBdSUQZAPKATYkkAgAQIpTuiXOI5A5IsnNhp4I1WZ9BOWq6kMz00HTDnL19QcVnY18oaq+5TKR1xNa2qiDpKGjIDPKaZBr6TWomODTWlXLyCzStif7P1ho1tTMTcXQQUOKccW2pTlGZsbV8cVxqs8pI31hr10OO+SEnXbY60TCMQubJx00S+Jn+qLCUIMMURinuO4+h1ZVO+a4vWvvfp3xCv1cH6fk6X1hOwkw7C2PZESKrMW2rTt27xzo2rGBvj3WavbcGAAA");
 
 export default BadgeCheck;

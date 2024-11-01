@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brackets-round` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brackets-round?s=sharp-regular brackets-round}
  * @preview ![brackets-round](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/brackets-round.svg)
  */
-const BracketsRound: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M123.7 35.4C82 60.2 0 137.9 0 256S82 451.8 123.7 476.6l24.6-41.2C115.3 415.7 48 351.3 48 256s67.3-159.7 100.3-179.4L123.7 35.4zm264.6 0L363.7 76.6C396.7 96.3 464 160.7 464 256s-67.3 159.7-100.3 179.4l24.6 41.2C430 451.8 512 374.1 512 256s-82-195.8-123.7-220.6z" />
-    </Icon>
-);
+const BracketsRound = createIcon("brackets-round", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZQAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBNAsGAAE2AiQDCAQgBYMtBzUbuQTILgpjY9bYQyykltLOu27kxzg1Gk8iHnr263dnnnwRjSrpO6JNvBRoeyiBhkc8REJlaVYtkkl6NqZ3JY6nLxDJ1lUB49BNGQbJbqzkGpL3l1k/mNXeq5D3+b/c87NNB/iNDmVPPZAFPkc9TyCxqdMSygLLdIJ75q7WMg/RfhJLGcnjd4+vI5TxFKjIxznulweNn8bskaoCAKIXADi6Fo/B+9f4GvHzP+K9C0BAHAHMQhQoMAnBLqrAJJpZoFQKvsb///IfOAsCiBoUTkbJV+4DpwEoQcqSJh7nVnxaKvxETv75HMbZEsbV7L75Wn+utuLL/dfUl4O0Fv7Squk4/JL8uKvKjK8WL623ygPLjeFCo7gQXfzbpnvPbjf5cBHcbm8vXPxr3m7A65SZcibPLE+9brY2GpujbJMWUW4HEAh+PzVUZvdXawcF4Pu768vI/x8p36JVgqBY+r+kkCAJAEDGiiIhkHZQ6L12eiBAaEeAVGsXoDBBBEGp3SIElWluCGrtLqGKkg1hULGD1OkOKOzYBaVBj6Cy6yOsDUYBIR4A/AcuJWqhyDqybrGRAFmmmoAKNi0HybEzt4otPe2ElrGRhaaGroUhZ2LJ0lDUIyKeiLCzsCECyHXxvDmlaWaua2yUVwki7wOdlT+sJ59CKTccTkmkoHa3Wu83F3Mz2gEA");
 
 export default BracketsRound;

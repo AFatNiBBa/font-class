@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nose` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nose?s=sharp-solid nose}
  * @preview ![nose](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/nose.svg)
  */
-const Nose: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 368l0 144-96 0-67.2 0L208 448l-33.6 0c-25.6 0-46.4 20.8-46.4 46.4l0 17.6-16 0C50.8 512 1.1 462.9 0 401.9C1 345.3 44.3 298 100.9 292.4l44.7-4.5 15.9-1.6-3.2-31.8-15.9 1.6-44.7 4.5c-11.7 1.2-23 3.7-33.7 7.5L64 0 176 0 448 368z" />
-    </Icon>
-);
+const Nose = createIcon("nose", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVQAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBGwsGAAE2AiQDCAQgBYMtBysblgTIjpQuJ6Tx8M/c631JSr8dclY1YlQFGrCbI8msOkns2IieWQK7319gpcOmv/nnnUcBPs59LOw8kDGB5jxPoPO8e9aY9kXGAksU/960jY1SepNJTZI/2fG1QBZX0iNKSC4ln3Ai/2h80csREhUpgOgIgNkb1y73pi3aIj4WHxIfLUVAzAa5QIoUfQWYJhXoK5Mjkwnaoljk/8CcAKJUuWUCMqQYi8mADCQiy4ZWlrTLNgRooUYoFDZEIe52PdsTwR8Nae1/Y+i9iROjR/SOrjFuOCCNyqirbu3Y+m3gp/pPXq88Sc/k3GUzVcs/fUo666jt//f+fV6+bL/M9MsDHf9V2aPDbiAQnO978jgdpv0rr0zA52c/vsHTxTfxJmlFuQQE6bDiMNviDTA+ACmJQ6qNiwUSQyVA91rlvAChgACJUgUBUn10FCBTMFSAEv2NF6BUwVqpyCqErrY3kKiyF6QmOAwyXd0HJaZ5K5XqGqnXUG9OfdriF2hkfls+esSofEo+tVXaEYhYn5ovC4MOSWwwQNXbbZcD6tRqckBh+yxXD9ppgYXOd6HcaCOMkpsi3/bu+zeos89+TXbblZpMlZ8XBzlkZw+GLhLAmPsmxBpJtmv3/joAAAA=");
 
 export default Nose;

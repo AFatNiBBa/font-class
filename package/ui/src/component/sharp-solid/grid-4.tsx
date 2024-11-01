@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grid-4` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-4?s=sharp-solid grid-4}
  * @preview ![grid-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/grid-4.svg)
  */
-const Grid_4: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32l89.6 0 0 89.6L0 121.6 0 32zM0 151.5l89.6 0 0 89.6L0 241.1l0-89.6zM89.6 270.9l0 89.6L0 360.5l0-89.6 89.6 0zM0 390.4l89.6 0 0 89.6L0 480l0-89.6zM119.5 32l89.6 0 0 89.6-89.6 0 0-89.6zm0 119.5l89.6 0 0 89.6-89.6 0 0-89.6zm89.6 119.5l0 89.6-89.6 0 0-89.6 89.6 0zM119.5 390.4l89.6 0 0 89.6-89.6 0 0-89.6zM328.5 32l0 89.6-89.6 0 0-89.6 89.6 0zm0 119.5l0 89.6-89.6 0 0-89.6 89.6 0zM238.9 270.9l89.6 0 0 89.6-89.6 0 0-89.6zm89.6 119.5l0 89.6-89.6 0 0-89.6 89.6 0zM358.4 32L448 32l0 89.6-89.6 0 0-89.6zm0 119.5l89.6 0 0 89.6-89.6 0 0-89.6zM448 270.9l0 89.6-89.6 0 0-89.6 89.6 0zM358.4 390.4l89.6 0 0 89.6-89.6 0 0-89.6z" />
-    </Icon>
-);
+const Grid_4 = createIcon("grid-4", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABiAAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCfAsGAAE2AiQDCAQgBYMtBy0beQXIngemm4v0I77zEYYTNnI0zXH9KJ6n9ns9d3cDhDZRSVvFuhLQKCDjWkWg0LP6vijkn9rq6mf/bO4+0CHEe6QxHTtDIzn2aDZjMxSbzfxH+D7bQyAGzqnLoHkbDS0K35TWmtRtFzhopN8vdDvYwS58AfvbNJ+CgrCrJKzIRrjjEnZce0DLszoDlCcF7uc3zT8rPhQjFUCmAcCZS/UUv376yffuI/nuLAjkDGCboKJinYDjVME6zTZomtBP1/n/QEKADEKq+LqGWfAYbwANFNOtjbjM2MBEuxgvjdax0TEZTbT0BcInMnZ+mvia7MBwa+xCxxp7dz/0wVbw+ir6KP69WtpFT/fKa6wj8e6y2+0CXfJe10cJX34dG+RsYn+WSs7YEjZfX774PEAQXn9sbqwf/z88VsDfb1d/Rrp+euUDhhUQ6n63b5AepCcAgJI7zPQQFA9Mw1cd91BAjCKgGDQqoFpjENCM2iNgwKYCAYNGnaNKGxHzhl0rxl3XqmPeWjPvqw047p8bNJ9qppaRWT+J+QmH413MBBGr3NaRbXlGmq/xccB6hT4b7mLl7ORhaWHrwYSbtPh0lEh87IMoIxChKl63nv0WE2/utjGn+21qqB+3vOTRNoQVqHugpiikDH6MQT8PAAAA");
 
 export default Grid_4;

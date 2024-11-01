@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crab` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crab?s=regular crab}
  * @preview ![crab](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/crab.svg)
  */
-const Crab: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M.2 120s0 0 0 0s0 0 0 0C4.4 53 60 0 128 0l44.7 0c7.1 0 10.7 8.6 5.7 13.7L141.7 50.3c-5 5-1.5 13.7 5.7 13.7L184 64c4.4 0 8.1 3.6 7.5 8c-3.9 31.6-30.9 56-63.5 56l-80 0 0 33.3c0 9.4 5.4 17.9 13.9 21.8L133.3 216c16.9-12.2 37-20.3 58.7-23l0-41c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40 32 0 0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 41c21.7 2.7 41.7 10.9 58.7 23l71.4-32.9c8.5-3.9 13.9-12.4 13.9-21.8l0-33.3-80 0c-32.6 0-59.6-24.4-63.5-56c-.5-4.4 3.1-8 7.5-8l36.7 0c7.1 0 10.7-8.6 5.7-13.7L333.7 13.7c-5-5-1.5-13.7 5.7-13.7L384 0c68 0 123.6 53 127.8 120c0 0 0 0 0 0s0 0 0 0c0 .1 0 .3 0 .4l.2 7.6-7.9 0c0 0-.1 0-.1 0l8 0 0 33.3c0 28.1-16.3 53.6-41.8 65.4L413.1 253c2.2 3.6 4.2 7.2 6 11l31.2 0 26.9-13.5c11.9-5.9 26.3-1.1 32.2 10.7s1.1 26.3-10.7 32.2l-32 16c-3.3 1.7-7 2.5-10.7 2.5l-24.2 0c.2 2.6 .2 5.3 .2 8l0 1.4 23.6 7.9c3.5 1.2 6.7 3.2 9.4 5.8l32 32c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-28-28-30-10L387 381l36.6 12.2c3.5 1.2 6.7 3.2 9.4 5.8l32 32c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-28-28-54-18-2.2 2.2L371.7 435c7.6 4.2 12.3 12.3 12.3 21l0 32c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-17.9L297.9 449c-.6-.3-1.1-.6-1.6-1l-80.7 0c-.5 .3-1.1 .7-1.6 1L176 470.1l0 17.9c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-32c0-8.7 4.7-16.7 12.3-21l24.9-13.8L163 419l-54 18L81 465c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l32-32c2.6-2.6 5.8-4.6 9.4-5.8L125 381 107 363 77 373 49 401c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l32-32c2.6-2.6 5.8-4.6 9.4-5.8L80 321.4l0-1.4c0-2.7 .1-5.4 .2-8L56 312c-3.7 0-7.4-.9-10.7-2.5l-32-16C1.4 287.5-3.4 273.1 2.5 261.3s20.3-16.7 32.2-10.7L61.7 264l31.2 0c1.8-3.8 3.9-7.4 6-11L41.8 226.7C16.3 214.9 0 189.4 0 161.3L0 128l8 0c0 0-.1 0-.1 0L0 128l.2-7.6c0-.1 0-.3 0-.4zM296 240l-80 0-8 0c-42.9 0-77.9 33.8-79.9 76.2L211.9 400l88.2 0 83.8-83.8c-2-42.4-37-76.2-79.9-76.2l-8 0z" />
-    </Icon>
-);
+const Crab = createIcon("crab", false, "data:font/woff2;base64,d09GMgABAAAAAAOIAAoAAAAAB4QAAAM+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUyFMQsGAAE2AiQDCAQgBYMtBysbrAZRlA1Gn+zHQU7GtU5OsWmHmJThy59pcWgTb+Lh+bnezn3JTAEoZWZVR6jI9dsyuy6QBbard238//Zr74LPrLk0LIlVPBPi/3W3iUfxCJkErXEo4H2fuHf6B/DExhPvUhybumwsHdO+NRd3Yecfw3CMARJ+kIZImJB3uW3aUPs5po0jFLaQx7u4rkK6nb7DtWBS/KuN0ySVDBFEY+TK5JVL5/v8V/wV8W35gvjWXATEZFAIZMjQXoBxMoH2cgVyueCvKEvef2BBAFGFH5RAjgoxjpgGyEGS8rxc71HzfenePd9nuyIAkQ+e1L9P66Gp7Woq6JD7OEeXBp6ph4HQ1d5hkwfG/pmRwFEv/xV8QF8PMMx9c5Oo52jq+7oaergf5/ipfnCKoG4CIyQ/TTAMPGfoajn8WBiHHg86jEEgEQSv7vkghoapLwQfAshC1wU0tiFEMfDMTUAJDR1LY9RAAXKyqPdDh7NRz099I3MYfX0eIXig3X9iKxsn9mFuHnu94BrLRSuYRoBdtOjs4ifG2WdgabijMnrAKLTOMddasf5zfvf+nTMigCnOZCJK+xp1Jk3p5pp9L30c5uU24ZKT7PekoNZukLSLr7QBcgjUwSDttsLnf2VOuiTBJvcfPnpHS0cpMdjpeYrIW1vt8tc7a3mnZtQF3bp3ct/MmmOm0pRqa3lOOGny0NJPPzVo8M7PmpgLycXhK142LJaf1NQyYZGIsExTeUih4csrmljsnQYNRihKQxePLf+ZfnunkOetVSeX2h2rmbnVSfduF4yqudOys9o7HdHz5KJFqyzb3mnpUqtk3k7blxnvEgie/LZP3Cgf998RT+Cft///hyeWS6mS7qK2BIKsX9nPuiQgdhCiUIoTumAngJ6GSYi3vhtjo6EuLZKqusi00xi5uvqioqPhup7JS2UiryN5m1tPkNR3GJkRTiHX3DNUjPMlVNU8sg/I8Pob/l+zzoD0dKli8IBBxZjCmFYbvwmdtX1s0dvR64RU1huPtMNBBxyz3Ta7HQPMEfOjx+03w6Y5/bOFwQYYpDBGMTq3bF1Bw0cctVtvGt/NWMX83l5O2Gv3xqYH1D4kGZLEUlK+9cjmLQ==");
 
 export default Crab;

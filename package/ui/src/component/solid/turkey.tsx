@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turkey` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turkey?s=solid turkey}
  * @preview ![turkey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/turkey.svg)
  */
-const Turkey: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M472 56c0 22.1-1.2 49.3-19.3 62l-31.6 22.3C375.9 112.2 327.9 96 288 96C176 96 0 224 0 384C0 512 160 512 288 512s288 0 288-128c0-63-27.3-121.1-67.3-168.3c-.4 .2-.7 .4-1 .6l-28.3 20c-8.3 5.9-15.1 15-21.2 28.3c-6.1 13.4-10.5 28.6-15.4 46l-.3 1c-7.9 27.5-24 53-47.9 72.3c-61.8 50-152.5 40.5-202.5-21.4c-13.9-17.2-23.2-36.6-28.1-56.7c-2.3-9.4 5.3-17.9 15-17.9c8 0 14.6 5.8 16.9 13.5c4 14.5 10.9 28.5 21 41c21.3 26.3 52.1 40.5 83.5 41.5c25.9 .8 52.2-7.3 74-24.9c18.6-15 31.1-34.8 37.2-56.2l.6-2c9.6-33.7 20.1-70.5 48.7-90.6L486.7 192s0 0 0 0l2.5-1.8c18.3-12.9 43.3-10.4 67.4-8c9.4 .9 18.6 1.8 27.3 1.8c30.9 0 56-25.1 56-56s-25.1-56-56-56c-1.1 0-2-1.1-1.7-2.2c1.1-4.4 1.7-9 1.7-13.8c0-30.9-25.1-56-56-56s-56 25.1-56 56z" />
-    </Icon>
-);
+const Turkey = createIcon("turkey", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABgwAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCKQsGAAE2AiQDCAQgBYMtBy0bJgXIhofv674692UW4GwRA3MHSMuK3o7xR07lpvFSAZ+VoGjn4dOCnMv3b4tPYGJXv3X0fDacTRS3O7epEdHeJSlLcpzL8ThAHv9kpysjXZPex0XtQ+MbXU4nqcoARCMAluywzQYvD8ZgxHulJ4j3rENALAGFQIYMvQLMlwn0yhXI5YLBKJX4P7AggCgnUyaQI8NxOAOQgyTy/LCasrp8+7yt+oCTOyOubh0dX658fdvPE+6WOc9s98UOt/9q3nPDTpn44MRz45QYHZd3Xt0prp/9/so3F97bfWXHFW3XdL2w4ol59w1EXNdz3ahxcQr4OuKqUeeN0B1X1NzVcVXPte1Xjjw3rgqe9PbWyzuH3tt473dD3t//fV+d1TSE4p3frBg7ePGSEUtHTFw8aXFs7n/23cVlSwgglNGr3n22f9LY7k8Dr3n6tGMOCs8syM8444S1hzX89PK87bZ0xJFdT16cHHT1XZsuAU2+bry7j0/qjvy+VFFR+v7IlNrDnY78/4cKIBBUn/rCEXs0zP+tsiaBLc/+8Ce4uvRSOjndi0oJBNn40ni7ppOBiQEYKY431PiiQHKYRN611pUChGoESMpVC5Dp0ShArto4Acr0myFAuWrbyEReJbTarSNJraOQzEwnILlWjyFl5ntLL9camfMxrsP8/RJXjuCKVcWUiZOLucUyoaw/UWVxXrEtjT4+NsbgVvs7wuGOtZ99HeTYAT7aBus4h1lpQSv8UGGKiSYrzFUc58/rt7efox3jIEc4vC4zT3FfG+14u38MqomQThVIEpHK3x0AAA==");
 
 export default Turkey;

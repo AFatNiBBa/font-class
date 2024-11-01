@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bin-recycle` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-recycle?s=light bin-recycle}
  * @preview ![bin-recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bin-recycle.svg)
  */
-const BinRecycle: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M536 64c4.4 0 8 3.6 8 8l0 16c0 4.4-3.6 8-8 8l-24.1 0L64.1 96 40 96c-4.4 0-8-3.6-8-8l0-16c0-4.4 3.6-8 8-8l496 0zM0 88c0 20.3 15.1 37 34.6 39.6l0 .4L59.1 421.3c2.8 33.2 30.5 58.7 63.8 58.7l330.2 0c33.3 0 61-25.5 63.8-58.7L541.3 128l0-.4C560.9 125 576 108.3 576 88l0-16c0-22.1-17.9-40-40-40L40 32C17.9 32 0 49.9 0 72L0 88zM91 418.7L66.8 128l442.4 0L485 418.7c-1.4 16.6-15.2 29.3-31.9 29.3l-330.2 0c-16.6 0-30.5-12.8-31.9-29.3zM288 192c5 0 9.7 2.4 12.6 6.4l31 42.1c5 6.7 14.3 8.5 21.4 4.1c7.9-4.9 9.9-15.6 4.4-23.1l-31-42.1c-9-12.2-23.2-19.4-38.4-19.4s-29.4 7.2-38.4 19.4l-31 42.1c-5.5 7.5-3.5 18.1 4.4 23.1c7.1 4.4 16.4 2.7 21.4-4.1l31-42.1c3-4 7.6-6.4 12.6-6.4zm-86.1 77.1c-7.1-4.4-16.4-2.7-21.4 4.1L153 310.5c-5.8 7.9-9 17.5-9 27.4c0 25.5 20.6 46.1 46.1 46.1l65.9 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-65.9 0c-7.8 0-14.1-6.3-14.1-14.1c0-3 1-5.9 2.8-8.4l27.6-37.4c5.5-7.5 3.5-18.1-4.4-23.1zM304 368c0 8.8 7.2 16 16 16l65.9 0c25.5 0 46.1-20.6 46.1-46.1c0-9.8-3.1-19.4-9-27.4l-27.6-37.4c-5-6.7-14.3-8.5-21.4-4.1c-7.9 4.9-9.9 15.6-4.4 23.1l27.6 37.4c1.8 2.4 2.7 5.4 2.7 8.4c0 7.8-6.3 14.1-14.1 14.1L320 352c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const BinRecycle = createIcon("bin-recycle", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABoQAAAKfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDBQsGAAE2AiQDCAQgBYMtBzIbhwXIBp7/989vn/sQvHDFn28kVbAqwFE3ACvpazooK+UIdf7nms8v7ahAPh/BoUVSUm5YAZQpsOd7PpBMmg/HA5sozrYcPo8ONTz8IBFXmYi0t9gwdQG6vJemGKAyqgLYp18qX0mwGRS6BgCABAAAgF6jhw/jfk5yIhWFmyAVDAEEQHoDYCOABmhACQJAVzQEKEHHBnR0BHJSKPB/oA0CAGIyPlgBoANO4ChwBQDQAVCYuh5oHEgUF1uGVx9lGe7lRyLI4bDbk4yKpGLeBesjIkciImMlU+9kPa+cbnC6eLzYRqodtyGadHtkZ/gwjB03dpxXxki67uHAaDI6elekmRyJpaLNJVv/RLypHI5AeQtJWSOS4W6xXkjLSsWSUbdMc8N1aXTkkYglu+K2bBA/GT6cTnE47JZ5Ue1zgXPfa1XMqiC2booZwJwSf6Nv+BWLBTKQzUOsLo3K/fsHs99f3ihWF8hnM4EAwXvng78Inr8XDIwbHKu9WvegQ+h8dTDebdutx3lnvy/suHl3NXOvlyx5za2+e3NHsp9z5FA67ia7/OGKinBvcj5frjf3PUbtk64zcxqIZuDfdTNZcZLahud+5HUAEEDgy2w7P9nf9b/TUgDk7/38r89TyKme6hzgRAEgoDUtNGWC6gnAfAGArJJV1HYWKIAiw3uPPCSzecENOyhM3KBRTAB03DQBgzLaiUFjeIgT3UUUZmIDhYeloNGeNaAT5joYdOVZxiQsWqnKhSb/KWb0R6TfPLtV85Z2Z/u2alOqT1ymu9hhu+Eq6WpES5nFYhaxgpnMYC4rgF7GsPxKFtLfo/rxQ2xa0ZyW2HTGTjc+G6Mgu4zlzLWV/Cx0wX4+asgqf3Aj8hRDsDVrFApEWdPmLmq2bOY3AgAAAA==");
 
 export default BinRecycle;

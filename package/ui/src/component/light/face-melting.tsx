@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-melting` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-melting?s=light face-melting}
  * @preview ![face-melting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-melting.svg)
  */
-const FaceMelting: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M544 256c0 21.5-3 42.3-8.7 62c-6.5 22.7-2.1 46.4 9.5 64.6c.6 .9 1.2 1.9 1.9 2.8c-29 6.1-50.7 31.8-50.7 62.6c0 11.7 3.1 22.6 8.6 32L320 480l-218.7 0c7.3-9.4 12.9-19.6 16.7-28.9c11.5-27.7 16.2-65.6 1.3-95.4c-15-30-23.4-63.8-23.4-99.8C96 132.3 196.3 32 320 32s224 100.3 224 224zM16 512l25.4 0L320 512l240 0c8.8 0 16-7.2 16-16s-7.2-16-16-16c-17.7 0-32-14.3-32-32s14.3-32 32-32l44.1 0 19.9 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-19.9 0c-27.7 0-45.6-30.6-38-57.2c6.5-22.5 9.9-46.2 9.9-70.8C576 114.6 461.4 0 320 0S64 114.6 64 256c0 41 9.6 79.7 26.7 114c18.4 37-8 110-49.3 110L16 480c-8.8 0-16 7.2-16 16s7.2 16 16 16zM249.3 212.2a24 24 0 1 0 12.4-46.4 24 24 0 1 0 -12.4 46.4zm183.9 24.4a24 24 0 1 0 -46.4-12.4 24 24 0 1 0 46.4 12.4zm-220 46.7c-3.9-7.9-13.4-11.3-21.4-7.4s-11.3 13.4-7.4 21.4c14.8 30.5 45.1 67.5 98.3 81.7s97.9-2.6 126-21.7c7.3-5 9.2-14.9 4.3-22.2s-14.9-9.2-22.2-4.3c-22.7 15.4-57.9 28.5-99.8 17.2s-65.8-40.2-77.8-64.8z" />
-    </Icon>
-);
+const FaceMelting = createIcon("face-melting", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABoAAAAK3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CCXwsGAAE2AiQDCAQgBYMtBzMbYgXIHocp3KAf8go3WpqWXxIPkH9+f2Zy8+ilXG5llaJb8IOoVMM5GlezB3HuXnASEugkqkElOJTP312ote8mrnn+508PWEHwKNEYiwSJxKdlnU9ggNEWraPZqHk2UZy1OU5Qh0d5HIyIo+p5pGHrh60dJOGf0BadeDy+jb39rsKvauknSlIAQgkAMGhGchI8fB++D+HtTIS3jQEChMEADRGksKQuAvqiCngHNA2BRCLwfchk2n9gQxCAkEU/J4IE2diHU4AEROkkadaTnVsrP12YTM9P5y1ZV7Nk10MOV26p5mBdJSfvaPWidlFzQi52uUx4a8Qro97odN9Unp9XfLR6RjGgmCHrq2e5+fm0Oidcqb2gXSWfDn4x/t3pH499e+Czqec7zavmZLAlJxyqmJZnX66zaL0jLqvUyWNRypGKKfm83b7Xtc2uzayCfFuWW9fXtD/QmA9EB3+N3p79tgZPcbivLQBTv3+/pmz4/qs7bKrFurKoe9EHL9rW+/2+XtunD4qKM7Vq4W9R0Qhs21aUrbYVdIEKoefPDd3fDGJqao33jBCjZ38tFcQUHtw4sudHPw6sxZHxU5spK626J8Ktyitmct5NP9ot+Pi1sVdXr25r+f9jpgt3vJp/eMsfPzVq3AsgILBo69rUzOK+v+XkR/Djg3+znZ15FtfFG8gRQSDVNtNWTlwHhR2AaAyrmY0vCoi2SVNCgSOCeJDHAUdZ8uCUOkRwIk8bOK0+L9E5fQqqkOQKKuQCjgosg1O664ATFS7htL7eI1kqQiou5aiSfwszohmI6oednF3RHx+zdiXUROkOQLfZsrFW2WEpFKpSqV6BfCXqCaqVFG9QIdoCo/wQcuPMFfKHy4XPRhpFatUpudfWewmA74dtNdqN7eCiUM7OHFEkxIKv3uG0aFZ5fUllEQAAAA==");
 
 export default FaceMelting;

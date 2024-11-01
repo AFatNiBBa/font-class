@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-showers` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-showers?s=sharp-regular cloud-showers}
  * @preview ![cloud-showers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cloud-showers.svg)
  */
-const CloudShowers: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M368 128l0 48 48 0c26.5 0 48 21.5 48 48l0 48-48 0L96 272l-48 0 0-48c0-20.8 13.3-38.7 32-45.3l32-11.3 0-33.9 0-21.5c0-35.3 28.7-64 64-64c21.6 0 40.7 10.7 52.4 27.2l26.7 37.9 38.8-25.3c7.5-4.9 16.4-7.7 26.2-7.7c26.5 0 48 21.5 48 48zM0 320l48 0 48 0 320 0 48 0 48 0 0-48 0-48c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C247.3 18.8 213.9 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 48 0 48zm136 32l-48 0 0 24 0 80 0 24 48 0 0-24 0-80 0-24zm192 0l-48 0 0 24 0 80 0 24 48 0 0-24 0-80 0-24zm-96 56l0-24-48 0 0 24 0 80 0 24 48 0 0-24 0-80zm192-24l-48 0 0 24 0 80 0 24 48 0 0-24 0-80 0-24z" />
-    </Icon>
-);
+const CloudShowers = createIcon("cloud-showers", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABigAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCZgsGAAE2AiQDCAQgBYMtBzQbagURlZqjyH4mmOfdlEpYy9LoQCtsPtDoHxuDIxFEdv//1bN7tefB2CciQgZloL50fkRFUBBBqRCxQt4DAAJuiZQu8mNFMu3rh7THxOX0x/nT+zZ6tL1q+xo6xuIEHvCfurTLuxfIAss0Acvv5mvpiNwb4iQVPUnDdsPaH/4T8ngrrqgh3U2f4bJ9aPygvRMkNRmAaAaAaWtWLPL+t/FtxKf/vyI+tQABMQ10E8iQoZMAE2UCneS6IZcLvo3//4//gQggaiGxBHLU4yYeAuQgqc3zft2bo1SpaZyvLo8V24VKPNX6ZntRNIp4pG/fQOz9gc/3faX/4JgQtysEs7VSNO2IeHhAdbRGnev17uyX+z3bSTwpQLuMVQXtEkJUAhsrQ+jKEEXIxjU0vke1WfUnn237bOeUEgkpv/w8K5W7Ss2++BttFM2bP9qs/VN2eKZp+eVXrXa+V6ZOpfpq9YhGd97Z+LFf/9e0jTfa1mVMebpr2dXOUu2UbOP7Q2bLmHY4LenF99ry14FA8MLTXT/Y0nTiX/WVBL5/c/sZ+f/9JFVRL4EgG/T/oI0JJAIAkOKAHgkCyUW18K6N3BIgFAiQ1CoEyHTUTIBcYaAANboYJUCtwgqZyBuEVjY1OmlkN50Z7SCda+UlusZEH1ZqtYrMN3nP4l+GKTD0sA+jzAosy5EquBtLTx3bjv5lxYS7oj/2t2unt0Pvuv5tgSH+i5RZgeV4+ny76e5nOvZ8jeN+Uf98uwm+AsaqT0nI1PgnhXr6/Y57PwA=");
 
 export default CloudShowers;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-minus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-minus?s=thin shield-minus}
  * @preview ![shield-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/shield-minus.svg)
  */
-const ShieldMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M237.3 22.6c12-5.1 25.5-5.1 37.5 0l176.7 75c16.6 7.1 28.6 23.2 28.5 42.4c-.5 96.6-40.3 270.2-204.5 348.8c-12.3 5.9-26.7 5.9-39 0C72.3 410.1 32.5 236.5 32 139.9c-.1-19.1 11.9-35.3 28.5-42.4l176.7-75zM281 7.8c-16-6.8-34-6.8-50 0L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.8 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2L281 7.8zM160 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l192 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-192 0z" />
-    </Icon>
-);
+const ShieldMinus = createIcon("shield-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABbAAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBWgsGAAE2AiQDCAQgBYMtBzMb3QTIjtRG94xd4uH/7fpvn1vV/QHVh6BIAyozI6VvTSqF0xlSq//HvTv/55/m+TP6KGvY0u9j4lqtdZ5AYm3L0zQPLNMErL1pUjtS9mQyM5qk49vxRg/I4y2blEj3pa9xo39o/KyFSyRZBiDqA2D80oWzvV8VVRFfVyK+NhMBMQEUAhkytBZglEygtVyBXC6oikql/AcWBBBl9JYJ5ChhGtYDcpBked68de1apTr5klqlmiuf6bw4nmrx2KLvxr2/6MkuP0z4cMkPHR/ounTo050WxZON7/To4u8z9VTXH5e+pMP5pnd3WbLozsZ3NakV9zS7u2nNDs/Xf/5XX2/52i/Pdu366gwPtIkG4+uP//bded2GdZvf7d1vhdGZaPPiKzPeuX7dS5YffrlxajAppfqM6z1+cY8HHkCGGeGMkxq//HB5XTr2+7pyed37xtMgEPy3/v9Wa+uN+rd6rQR+evP38WdUr/JO/JmeR3UJBFmvSi+rEvXUiz8FACDFER0S9QSScTJ0r7a7BQg1EUjKakKmlfqQq6knlLQ1+H5ZTQtlIq8hNLZaIKltP2SGOA25xt6AklE+88oaRxZVQkwIb7rUKRqZfKjo36dfMaJYtqYYKFzdHVls692O4Ex3OGOLvfY4ZLNNtjOjsANmh4ftNsVDJ/uiQn999FMYoTgetseX2OyAg7bba0/bZ6Tivt3NEX95d7ASoh3gXpKIVPvgtu2bd23q/Re9dhAAAAA=");
 
 export default ShieldMinus;

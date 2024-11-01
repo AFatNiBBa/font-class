@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-ring` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-ring?s=thin square-ring}
  * @preview ![square-ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-ring.svg)
  */
-const SquareRing: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 48c26.5 0 48 21.5 48 48l0 320c0 26.5-21.5 48-48 48L64 464c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48l320 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm160 80a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 304a160 160 0 1 0 0-320 160 160 0 1 0 0 320zM144 256a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zm176 0a96 96 0 1 0 -192 0 96 96 0 1 0 192 0z" />
-    </Icon>
-);
+const SquareRing = createIcon("square-ring", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABoAAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CCbwsGAAE2AiQDCAQgBYMtBzIbcQXILgYcZx7ikmiI1JaIzqPl3Y4b0Qjjefi1fue+me+4JrUknojiSZN4Zsmilsgkb/tDwyvN8iyNrR1iOsS1iSdoLo1GCoROKLy39IM39zoPJPxogQaWp6Xn4nu6w1mA5Vfte4Xo//2p5zkPBfBzCII2Jk0NyALb8zwCOR9t7Z13UitSK1hBpewdnDfpkDoUys9Qp4e96JRblA8X7A/Nb2M9KKoKAGQIALB6a68B7x/5kXxNpG0DEMgagCkIKlSYgIBlqIIJaKYAtVr4kaZh/4EIAqQTuD+jgBrduI1HgBoUnTWxx2m1/PF9HRaJ+jr0+JkcplSjNLLCamZWVBqcXlk7rN1PnTCrCqV1bTYri+fQ4nTu3W5uPpOCYb4LWrPPJOVkae6/SRp4MoKL8gyMyBWS1uE052RJ6j2hNedKMW70YAhOMf2QpGluME5rYDr7zF9pHVUNtMa2tombOxZtT5zXov1fe3/bqQvBn/5qFWr/l/mrVAQGrhQ+FAMY2rsKZ+jQZxEUIPigNY1CWTDVbjeFKCWEEXhivqcK1m+qud2hUvWgCPK0HvDik9c5L4LeaF4+7zqgVm92/XwehyLoeQBB2PHn7w/hsv/dXATg19snj2t+5F15DXQrIFSzG69R3gEmB7BLEuaBFYPisp39rgNcFxC9CCg69QqojCdCQK3XLAR0mCSGgE69NqJKrYEYYVygYoCjqLLUHdVGeKEOy/xZnUakej7Zp4v9PUyqV7HaEob8QUxjbyTjHjlaTzM4WXXeeMUFYZjZ27mYmli6qBAnDfdqqz6E13wRCvELQmm4OL0pDbF1crbsFpbPycDtTafbcLsLGhQu5UKeopBi3OOy7wMD");
 
 export default SquareRing;

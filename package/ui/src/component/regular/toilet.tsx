@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet?s=regular toilet}
  * @preview ![toilet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/toilet.svg)
  */
-const Toilet: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 24C0 37.3 10.7 48 24 48l32 0 336 0 32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L392 0 56 0 24 0C10.7 0 0 10.7 0 24zM81.6 182.9l-1.6 .5L80 80 32 80l0 127.1-.4 .4C17.5 219.4 8 235.7 8 256c0 72.7 33.4 120.2 78.4 148.3c1.7 1.1 3.5 2.1 5.2 3.2L69.3 448.2c-3.5 6.3-5.3 13.5-5.3 20.7c0 23.8 19.3 43.1 43.1 43.1l233.8 0c23.8 0 43.1-19.3 43.1-43.1c0-7.2-1.8-14.4-5.3-20.7l-22.3-40.7c1.8-1 3.5-2.1 5.2-3.2c45-28.1 78.4-75.6 78.4-148.3c0-20.3-9.5-36.6-23.6-48.5l-.4-.4L416 80l-48 0 0 103.4-1.6-.5C328.4 172 277.7 168 224 168s-104.4 4-142.4 14.9zM373.8 326.8c-9.8 15.7-22.9 27.6-37.6 36.9C303 384.4 259.9 392 224 392s-79-7.6-112.2-28.3c-14.7-9.2-27.8-21.2-37.6-36.9c2.4 .8 4.9 1.5 7.4 2.3C119.6 340 170.3 344 224 344s104.4-4 142.4-14.9c2.5-.7 4.9-1.5 7.4-2.3zM56 256c0-3.7 1.2-7.4 6.6-12c6.1-5.1 16.5-10.4 32.3-15C126.3 220 171.6 216 224 216s97.7 4 129.1 13.1c15.8 4.5 26.2 9.8 32.2 15c5.4 4.6 6.6 8.2 6.6 12s-1.2 7.4-6.6 12c-6.1 5.1-16.5 10.4-32.2 15C321.7 292 276.4 296 224 296s-97.7-4-129.1-13.1c-15.8-4.5-26.2-9.8-32.3-15c-5.4-4.6-6.6-8.2-6.6-12zM312.3 426.8L332.6 464l-217.3 0 20.4-37.2c30.5 9.7 61.8 13.2 88.3 13.2s57.7-3.5 88.3-13.2zM128 80c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0z" />
-    </Icon>
-);
+const Toilet = createIcon("toilet", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABoAAAAKXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SCegsGAAE2AiQDCAQgBYMtBy0bdwXIBp7n9b7OfUkGyR86I3glVKZaV1S1236f/tTznIcWyOO4jm35lrF4ci40uqZAz3sekA7cVJFgwSqKfdMhg3kMlo9BDClTkfgLj7cb0GWbrMYAtUU9B1bNa/KTEOaDwtAAgngDw6S6e+e23H4n70SeOS+APKMVEACpBsBGAA3QgHAEgDI0BAhHxwZ0dATeidPJ/4E2CACIC/CFCgAdcAN2AEcAAB0AhYuue1SEhDgcluGhd7MMU9sSb3kcCtuaYDr2B3c1LVPEFAQ5HLwn/UTxhoANAWmyntkBGyxLlgVtkjmBGbIp6FrmqditKSJBcas87PKybuDmuP2dN5cmHCShy9zJg+4vGn3JMmvQxkw18ZG1rP5AwAb/5qyPu+9wGg4GKknX9Iz0XJIpFwqb3Wv9tRNgSfSmjYFmzFHvo7+jnw97zuGAjvaEjgHsdNypaGDDyWIWwgBPo66zvzd4D6fZ8n123fcHvtef+VrNI7Cj/TvXGZ4DYRZZDEdxqhOdOBW76svYlS9fhIW9eLly7Bfl7a20E7YtUt6gT5s+zdGhg2MvdWPqomHLcR6to6tvqeP37Nm/L/V65+n5Lgv+HAABBF56Rs3o71X2z81SAHy4+vc/+LbzttxWRwE3FAACWpozjT5yGwCEAgCZkmnEGD0KoNjAGw8dbMwWggkLChdMaIThDR2TVBhEki8Hr3RGQ3R3BH/6AlA4mAiNAmZAx59zMCjjUeqCv2hVqtaY+o+Y1SCp+mN2dkaWXWLfNg6t8OSxX2qHSdI0nEuGkwxjPOOYwlCGMJIpgplE22IqY2mw6Hp+iE02GWRhU4KdHn12ujGUCZOlrGv5QyjFfj5MYpq9Ohn6UABAzveVsS7KZcr4kWOGTgEAAAA=");
 
 export default Toilet;

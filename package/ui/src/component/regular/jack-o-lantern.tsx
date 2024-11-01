@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `jack-o-lantern` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jack-o-lantern?s=regular jack-o-lantern}
  * @preview ![jack-o-lantern](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/jack-o-lantern.svg)
  */
-const JackOLantern: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M275.5 10.4L231.6 110.6c-4 2.1-7.9 4.5-11.6 7.1C200 104.1 176.9 96 152 96c-45.4 0-84 26.5-110.2 64.2C15.5 198 0 248.9 0 304s15.5 106 41.8 143.8C68 485.5 106.6 512 152 512c24.9 0 48-8.1 68-21.6c20 13.6 43.1 21.6 68 21.6s48-8.1 68-21.6c20 13.6 43.1 21.6 68 21.6c45.4 0 84-26.5 110.2-64.2C560.5 410 576 359.1 576 304s-15.5-106-41.8-143.8C508 122.5 469.4 96 424 96c-24.9 0-48 8.1-68 21.6c-1.3-.9-2.7-1.8-4-2.6l0-79.6c0-6.9-4.1-13.2-10.5-15.9L299.3 1.4c-2.2-.9-4.5-1.4-6.8-1.4l-1.2 0c-6.9 0-13.1 4.1-15.8 10.4zM81.2 187.6C101.3 158.7 126.7 144 152 144c18 0 35.8 7.4 51.9 21.9c9.1 8.3 23 8.3 32.2 0C252.2 151.4 270 144 288 144s35.8 7.4 51.9 21.9c9.1 8.3 23 8.3 32.2 0C388.2 151.4 406 144 424 144c25.3 0 50.7 14.7 70.8 43.6c20 28.8 33.2 69.9 33.2 116.4s-13.2 87.6-33.2 116.4C474.7 449.3 449.3 464 424 464c-18 0-35.8-7.4-51.9-21.9c-9.1-8.3-23-8.3-32.2 0C323.8 456.6 306 464 288 464s-35.8-7.4-51.9-21.9c-9.1-8.3-23-8.3-32.2 0C187.8 456.6 170 464 152 464c-25.3 0-50.7-14.7-70.8-43.6C61.2 391.6 48 350.5 48 304s13.2-87.6 33.2-116.4zm140.1 27.5c-3-4.5-8-7.1-13.3-7.1s-10.3 2.7-13.3 7.1l-32 48c-3.3 4.9-3.6 11.2-.8 16.4s8.2 8.5 14.1 8.5l64 0c5.9 0 11.3-3.2 14.1-8.5s2.5-11.5-.8-16.4l-32-48zM368 208c-5.4 0-10.3 2.7-13.3 7.1l-32 48c-3.3 4.9-3.6 11.2-.8 16.4s8.2 8.5 14.1 8.5l64 0c5.9 0 11.3-3.2 14.1-8.5s2.5-11.5-.8-16.4l-32-48c-3-4.5-8-7.1-13.3-7.1zM470.1 312c1.4-5-.3-10.2-4-13.8c-5.8-5.8-15.1-6.6-22.2-2.4C420.8 309.4 365.6 336 288 336l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-19.5c-52.4-7.7-89.9-26.2-107.9-36.8c-7.1-4.2-16.4-3.4-22.2 2.4c-3.7 3.7-5.4 8.8-4 13.8c4.2 14.7 17.2 46.8 54.1 71.4c.3-8.6 7.3-15.4 16-15.4l16 0c8.8 0 16 7.2 16 16l0 21.5c21.8 6.5 48.2 10.5 80 10.5s58.2-4 80-10.5l0-21.5c0-8.8 7.2-16 16-16l16 0c8.6 0 15.7 6.9 16 15.4c36.9-24.7 49.9-56.7 54.1-71.4z" />
-    </Icon>
-);
+const JackOLantern = createIcon("jack-o-lantern", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABvgAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDUAsGAAE2AiQDCAQgBYMtBzUb1QXIjtFjR4YnGaysJAPHcGQiKPZ73XsQIHIlYqE6UQX0tUg2rkCkElli29rqfyWXe4nvYlweYKsqArt0UAujhjq4zfTqYJ/nms8P+AC/+PmhXC8si6ptlMn3JjDgiOD2gW40Ud3gvMmHEJJC+g+Qxdc4DjnJBZshHHOj469WLSTylI+oAd7VvC3xkbD/K35FDBZ2iUErgICYB9ADIUWKDgjMZCvQwU4PkMkEv6LwD2D+AykIIIrAwxKQoRhv8YmuOHW1PMumDvPy1pK8Mttcnpf1b0xO6GlY0nTxFnj7Ce/nXRy2SO4LF9XRU7qFy8Kj5A/zLw1fwnd4fX4oDvgZ0FlcFgd9Eq6XH+L3+i/zkeLVxNuRV/BBQZ/PAoiVrCU9jNl0Vv7KR4RO+/aS8jjk3+8nSW660Vm8yfTs85lR7ZgAnfbBcY7lHmeuy85ZHDjI7/cnccYX0F1yiIuiscNy8LA/Y8lj6TliqGhI/V1hQbDR+vjbtX2bGzO7YKOEgzM3Nvti3nUYm2Pg4NqaGOTUlJ40UT7t1eY3N7j1+7s12Pq430+xOKjjH5p2KMhSUrK4wDrVWjqXcypXOFnUug5LydZ+/8Rzd9uat03UgNuvGo9V9YoeXfq4N7DJX7i9PdB5KZMb4TFjv3wnzZedA0OvGAEAgWDWvfPBbPeZ/51IAv48en2TXVDYT+Yml4ASCQjSkQWRDOgGGBmIH0hiP8bENwkknsrBhRXOChDKUCFRpAypdh7IlBmBXBc1t3DBBrYiKxUaZIJIVNiF1GTNyDTYRm6ms0CRhkgvaOFyFD4nU1mahLkblUtk1EBH0wrxGuV0u5Eu1vCaOmV8OBWKVKvSoFCBUg0Nsk5kuFElyxTV/FlKTkKGMqCbc3fHJylUp16palW2EyN6vIOnabo2H+pt+LTjpSQSIql6IT3i6lEV/5CoqwAAAA==");
 
 export default JackOLantern;

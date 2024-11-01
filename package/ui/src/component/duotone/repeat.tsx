@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `repeat` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/repeat?s=duotone repeat}
  * @preview ![repeat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/repeat.svg)
  */
-const Repeat: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M64 416c0 8.2 3.1 16.4 9.4 22.6l64 64c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-32 160 0c88.4 0 160-71.6 160-160c0-17.7-14.3-32-32-32s-32 14.3-32 32c0 53-43 96-96 96l-160 0 0-32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-64 64C67.1 399.6 64 407.8 64 416z" />
-        <path d="M32 256c-17.7 0-32-14.3-32-32C0 135.6 71.6 64 160 64l160 0 0-32c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l64 64c12.5 12.5 12.5 32.8 0 45.3l-64 64c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-32-160 0c-53 0-96 43-96 96c0 17.7-14.3 32-32 32z" />
-    </Icon>
-);
+const Repeat = createIcon("repeat", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABewAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBcwsIAAE2AiQDCgQgBYMtB0gbDQXIjtRW+YNmEg/f63o990m78601g8wMSQdMlamNq3CHqoLtn7RYpfQoLULm5/9yz+/50QF+AL85nx/NxWs1pifQ80DyPI2XUKYZWLuzOTiUlENiwbAcFzs+N8jj5+xJDdJ7qcIr7n8A4y/9PEnSIQMQXQGwdPf2jb5tj/YUVX2PqGxAQCwDpUCGDAMFWCATGChXIpcL2lNd0x51XRJANLknz0ATOQ7gJCAHSYg8Hz+21eiU72o1it3Pi3g7/lj8ze5WRHww+lavrfGWR3tuiTdH3ewfUcS9MbcHPtrzzWL9o210aAyIaE27j3m7eL6p+lClZhQR8b7Cdx5j2N2ud/+pOlUZ8k3nZ3m2cyyvquXxqVI+ZtT92nOdOj1Xuz9qTF761KN377atoPpI3cktj6qK5QYPbBu99Cj3fiAQ/H00f/NwlwX/t7US+PPz/44/JPUXSbqLNgkE2YR6ggMJJAIAkOJBwxIsEciMl/hP7ehtAUKBAElTIUBmgK4C5ArjBWgYbKYATYXtMpF3EHo6mEHS0VWQmeUhkOvpM9CwwHd+U8/IRIwUEPKHF7cKQyvPlVMnTSnnlcNGoqQGt4fzy2VtzINmYSxcdcpll9xw0gln3UDINRujB1y0ioJX+qLSVJNMUZqnZPfX3C7kX3Pd2T7DP2W+8rw+xoP0+rFwmQSYdjmFjEiRdX6s0kRRlbqWzJsEAAA=");
 
 export default Repeat;

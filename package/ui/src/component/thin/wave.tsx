@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wave` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wave?s=thin wave}
  * @preview ![wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/wave.svg)
  */
-const Wave: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M304 72c-92.8 0-168 75.2-168 168c0 57.4-46.6 104-104 104c-4.4 0-8-3.6-8-8s3.6-8 8-8c48.6 0 88-39.4 88-88c0-101.6 82.4-184 184-184c62.2 0 117.3 30.9 150.5 78.2c2.1 3 1.9 7-.4 9.8s-6.3 3.6-9.5 2.1c-13.5-6.4-28.6-10-44.6-10c-57.4 0-104 46.6-104 104c0 48.6 39.4 88 88 88c0 0 0 0 0 0c22.5 0 44.6-14.2 61.8-29.9c10.1-9.2 19.7-19.5 27.6-30.7c1.5-2.1 3.9-3.4 6.6-3.4s5.1 1.3 6.6 3.4c7.3 10.3 15.9 19.6 25 28.3c15.7 14.8 36.1 29.2 57.4 31.9c4.4 .6 7.5 4.6 6.9 8.9s-4.6 7.5-8.9 6.9c-26.5-3.3-50-20.7-66.4-36.1c-8.8-8.3-15.9-16.4-20.6-22.2c-5.2 6.4-13.3 15.6-23.4 24.8c-18 16.3-43.9 34.1-72.6 34.1c0 0 0 0 0 0c-57.4 0-104-46.6-104-104c0-66.3 53.7-120 120-120c8.2 0 16.2 .8 24 2.4C393.5 91.3 351 72 304 72zm18.2 362.1C339.5 449.8 361.5 464 384 464s44.6-14.2 61.8-29.9c10.1-9.2 19.7-19.5 27.6-30.7c1.5-2.1 3.9-3.4 6.6-3.4s5.1 1.3 6.6 3.4c7.3 10.3 15.9 19.6 25 28.3c15.7 14.8 36.1 29.2 57.4 31.9c4.4 .6 7.5 4.6 6.9 8.9s-4.6 7.5-8.9 6.9c-26.5-3.3-50-20.7-66.4-36.1c-8.8-8.3-15.9-16.4-20.6-22.2c-5.2 6.4-13.3 15.6-23.4 24.8c-18 16.3-43.9 34.1-72.6 34.1s-54.6-17.8-72.6-34.1c-10.2-9.2-18.2-18.4-23.4-24.8c0 0 0 0 0 0c0 0 0 0 0 0c-5.2 6.4-13.3 15.6-23.4 24.8c-18 16.3-43.9 34.1-72.6 34.1s-54.6-17.8-72.6-34.1c-10.2-9.2-18.2-18.4-23.4-24.8c-4.7 5.8-11.8 13.9-20.6 22.2C59 458.7 35.5 476.1 9 479.4c-4.4 .6-8.4-2.6-8.9-6.9s2.6-8.4 6.9-8.9c21.3-2.7 41.7-17.1 57.4-31.9c9.1-8.6 17.7-18 25-28.3c1.5-2.1 3.9-3.4 6.6-3.4s5.1 1.3 6.6 3.4c7.9 11.2 17.5 21.5 27.6 30.7C147.4 449.8 169.5 464 192 464s44.6-14.2 61.8-29.9c10.1-9.2 19.6-19.5 27.6-30.7c3-4.3 10.2-4.3 13.2 0c8 11.2 17.5 21.4 27.6 30.7z" />
-    </Icon>
-);
+const Wave = createIcon("wave", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABvAAAAK0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDQgsGAAE2AiQDCAQgBYMtBysbvQXIngVOmR7Dx0Ot4RgdYUiU62jbp6MIqrX3e/Y2RBKoPJBFkmEFJGyMjEahwSY2jlQkfLDE7vnQfu7dTcxuiJg07VaCePSGh8QnxNEssfnu548Wi8SomUUCbni20GiKyue7UQrO1ws+R+3+uJ/nv4oG+HgTGMFEo5IquCjzfAIDHgU3lehmkaI422yMwVwMwl4RcsiSJvZ4SY9fK8jxYZ8A0gmFON6vND5ptkHCKwBANAIAJtZry/HwnryPeCttiAdLIICYBHQhoAAFaEMAw3gIaMPHQMZH4H2USu0/sAsCIMrBdGLONf8OT+g5JDTzW3dkAgW/YZxfOvg8HHFTd67140rGsmkXOnJ9l5/r+cAhvKgvGLvSdVDf3gwexAMCSN5U7klZ3lA0KHsR1qyArrFkLOgLfm0/ktiGDJ2tzFuh79qwuUXQ2JctSGVTiQuQo0KrRFeYh0y70Bf1VdJGyeEShUP10MM/HEJ9RwXkn28xW/P+ch4sF3aN72QyWj5klZPIvr5dyY7NLjbPP6Es7+yMA03//99/LxLZ95RLUV2Vxq5orvqaS6a/XoKbqwCuXh6ypNEw+bW30Ay//ud/0wp5LtA+ZzIVpq4Y9oMqi859XUYA6CVJ7pZjY7qMzHb50sulN37uuf9F2WIHcDgCAgT8vhDfakj7roQC+Hjz+5/7K71P4+kQVKKAgKLb260tZQFNnABkUizwMe4oQHIj4XCtA28uSEEgEZJCwUYNmVQolHGKX6GcVC0ekiUg9NoJUHLTwJNgHfj0rkAgzWNaSB9FJqvyUPUfmb4AkfxpzIiIYinstuxSJ6dijKeyx3ZtgdqCy0IMmDRhTr8+w+ZANKM8N29cgSXk+yEmWoQoTArmrq31DZCeMWt4rvVPkorFh4Ms2L2Dyw0pgEFcklCIxP+4AAAA");
 
 export default Wave;

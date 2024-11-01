@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sensor-on` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-on?s=sharp-light sensor-on}
  * @preview ![sensor-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sensor-on.svg)
  */
-const SensorOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M416 64l0 384L32 448 32 64l384 0zM32 32L0 32 0 64 0 448l0 32 32 0 384 0 32 0 0-32 0-384 0-32-32 0L32 32zm96 96l-32 0 0 16 0 128 0 16 32 0 0-16 0-128 0-16zm64 0l-32 0 0 16 0 128 0 16 32 0 0-16 0-128 0-16zM600.2 93.7L614 85.5 597.5 58l-13.7 8.2-80 48L490 122.5 506.5 150l13.7-8.2 80-48zM528 240l-16 0 0 32 16 0 96 0 16 0 0-32-16 0-96 0zm-7.8 130.3L506.5 362 490 389.5l13.7 8.2 80 48 13.7 8.2L614 426.5l-13.7-8.2-80-48z" />
-    </Icon>
-);
+const SensorOn = createIcon("sensor-on", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdwAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCKAsGAAE2AiQDCAQgBYMtBzAbKAXIHgm2TZr1hRKOvIcR1K999rzdo/0HGMCtKEZwQB5Zn42LigOUibyKjY7Chghpj1e17yOnctt4qYCXSlCUe3e/PRqd8+ITGGhpGZ5Lm8hsYBXFadNFCi+tmO0UaQWDiMN2wyR4hTx+x1BVpEfpE27Yj8ZPPV0nyTMA0QyAWRvWLPOmK7oiPv1HfLIEATEblAIZMvQRYKpMoI9ciVwu6Ir//9N/YEkAUY0fSyBHHc7gMiAHSU2e17W1UKnEbFVDvr6eWhxIWaqPLBp2F5VCpBCVhpgKEcXODNKDcyuhdk/39u69oj3WrlWDontsWCvVSnEp1nbr6DYwOmJdOGFIdIv1AzrpzE/7P3lx6TLJLrt8qX/JGKpUvvT13zE3NLusWQlzZ/boA7/R9bdvVozwXeHtFl1wqxm5UvPJGj1w5S2MigLeAt/fBwLB1+NXnu5omvqrtpLAj9e31/3vSpdTJ2olEGRD/w+1NV2GRA2gmOK8AcJjgeSIGuC31rsvQCgQIKlWCJDprVmAXGGIAFX6GSdAtcIamcjrhHbbDjSpdwrNjHcBzbV7hVaZ6m2xWntkzie4jvDrlzp/hObtK0cNH1lOLi+7dtGfuLY9pbztG3g+Tw3CUfudcNxZ++x1yNkBOW1Z5Zxj5it4Hg+VRhlupNJk5ePB58Pr7XPaGYeccHzZZYry/dRA5/XiQQgmpB2tIUlEqvt0VTxxetiJ4w==");
 
 export default SensorOn;

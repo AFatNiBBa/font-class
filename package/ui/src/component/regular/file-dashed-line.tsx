@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-dashed-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-dashed-line?s=regular file-dashed-line}
  * @preview ![file-dashed-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-dashed-line.svg)
  */
-const FileDashedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 464l-256 0c-8.8 0-16-7.2-16-16l0-80-48 0 0 80c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-80-48 0 0 80c0 8.8-7.2 16-16 16zm16-304l0 96 48 0 0-101.5c0-17-6.7-33.3-18.7-45.3L402.7 18.7C390.7 6.7 374.5 0 357.5 0L192 0c-35.3 0-64 28.7-64 64l0 192 48 0 0-192c0-8.8 7.2-16 16-16l160 0 0 80c0 17.7 14.3 32 32 32l80 0zM56 288c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L56 288zm224 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0zm192 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0z" />
-    </Icon>
-);
+const FileDashedLine = createIcon("file-dashed-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfgAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCGAsGAAE2AiQDCAQgBYMtBzcbHwXIHoVxTCwqlSa2569ie0RU7f317N3PRBuiRqGzMWAkDo3EpeBwHox4hcUI4PnPP/K+r7M7s8YshFZEkk4qhUoq08Wdm8JlSqFq3+f/cnx3OOkAv9Gh7aHnq0DGGM8TOPC2ziGShVmaoKVu4+npsvIg54gOEUO7IbqFnt9yEhf1ab0F9+1N80e0I1DcBoCsAYCLq542nr+TdyJv/kO+aYGAXAD2CDRosEWAYzaBLQ4DnUMwyP///h9oEEDG4GkFdJjANdwAdKC43UlI88OV2vV3+rWrpvz8/c5HiChBPrPupvnL7Zz7sXntl7ARhI7Iwex+uaeU3Mi8E4Xoz7kQqQW5DT+n9eSNqEtpWm7HXk5XOo5Mvhd070vS2/m3PAsEQ0AnhTqp9eAr8OWaykHAEFgwiYmFzIk9GBoieeMWgZ5Dz5Ur3Lo7cZh1YX9XeHjXJg6/QztpfT57HCAQXP58TpoIrP3qoy3A78Pf7Hjz/7wmrXtgygKCdvg/12gdwDAkEQGIKntIlk8iUBa48KpLziNAKAhQPIoATawgAnRKDgFGEpQRYEzpYZPuiwgzFsDiZwvYyu0FjjAPgKvWi8gTFrvouJLhvnzJ9RmpSzJF+YWm2ixLOl9HDB2tMdt25h5tyZKVzNuwbpc5s5bsStS2tvRua+oZWeeLjCL5ChnVzHH1cXG/Odt2LNmwbuPUMPf9THt49yzxLKA9klEspILed0be7NTO4txs3sMEAAA=");
 
 export default FileDashedLine;

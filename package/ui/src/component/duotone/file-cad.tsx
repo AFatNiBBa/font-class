@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-cad` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-cad?s=duotone file-cad}
  * @preview ![file-cad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-cad.svg)
  */
-const FileCad: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 144-208 0c-35.3 0-64 28.7-64 64l0 144-48 0c-35.3 0-64-28.7-64-64L0 64z" />
-        <path d="M384 160L224 0l0 128c0 17.7 14.3 32 32 32l128 0zM200 352c-22.1 0-40 17.9-40 40l0 80c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-8c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 8c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 8c0 8.8 7.2 16 16 16s16-7.2 16-16l0-8c0-22.1-17.9-40-40-40l-16 0zm232 0c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16l32 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-32 0zm16 32l16 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-16 0 0-96zm-160 8l0 56 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32 32 0 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 0-56c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40zm32 40l0-40c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 40-32 0z" />
-    </Icon>
-);
+const FileCad = createIcon("file-cad", true, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABsQAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDNwsIAAE2AiQDCgQgBYMtB0wb1QXIhof/t+v7fe6t1/Ne1Rg1co8ZkR9gJiIEFavXj6iw7/+Yung+KpAzGsrtLyopkiMSU2CA3T6bwUxnYFvchsrasZtDt1B4QhFf5Yt1kO5In+C66X8A42dDXEzSlQFEbwCs2r19ozda0UrxSfsZ4hMbEBCrQS2QkTFcgKWywHCFGoVC0ErtNq1ot2sCiIbprRk00IWX8S6gAElDFEU1v3+PMaW/6uhR7GpfKY/ZtXOXOH/ALVW148r+ETfDpsdVg26LiFsH3txfdNJyjY+4bVAVtwyQ4hoTccHAW8uy4hPcUsVjupRhkjtpz4RySNViJzCJxg5B21TFKrTMiiv732x68Mop811TvU9NrOIKCaKMhyc9Phg98OiUJ4fmMU/2fvLX0Z8c/YnzRt0H156v5+WX9zz/+df7PMVLfbbo89JTfXrDsDrVqWer1bNT49DeDm1syYUcgY7kh1V6Pr6t1vz607xS/vTrZt3uDciiruSpWu7rthDkTXVdrSdrf9PCEJr/J4HA7epJaueXfehz//1OFet6X7i/T58S0ZufOB8IBA9feut7h/Ra+m9nlcD3L/3+N/Q7ar+RpCfRKYEgT2tPcyCBRAAAUpxtTOJ+BLIbNMCp7m4VIJTskDSUkA3TGwqlqdBhpHlEc/V2WRRdQn8HpZB0dxpk850Dhf6ehg5LvR9s6B/5IRY8goJ/yKTrcfq6SfWsGc16cS3MWYXPJel7l9Ta2kln1zWT0x2OdoqTnekoRzoOIcY83cbIWU6yXsZY54tqs8zQVFusti5OS3dhltOdgRO+2H6cJWr/zknOljefnBoS4DrbnCwTKXLvNyYy/YjDjpz+Naj7EuL7HgA=");
 
 export default FileCad;

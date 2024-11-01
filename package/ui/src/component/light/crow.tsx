@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crow` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crow?s=light crow}
  * @preview ![crow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/crow.svg)
  */
-const Crow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M25.7 412.7L63.2 384l209.4 0 48.6 118.1c3.4 8.2 12.7 12.1 20.9 8.7s12.1-12.7 8.7-20.9L307.2 384l12.8 0c16 0 31.4-1.9 46.3-5.6l50.9 123.7c3.4 8.2 12.7 12.1 20.9 8.7s12.1-12.7 8.7-20.9L396.6 368.1C464.5 338.5 512 270.8 512 192l0-48 128-32c0-44.2-35.8-80-80-80l-72.4 0C470 12.4 444.4 0 416 0c-53 0-96 43-96 96l0 51L52.4 352l-8.6 6.6L6.3 387.3c-7 5.4-8.3 15.4-3 22.4s15.4 8.3 22.4 3zM506.5 64L560 64c18 0 33.7 9.9 41.9 24.5L512 111l0-15c0-11.2-1.9-22-5.5-32zM132.7 330.8l186.7-143C313.6 250 268 302.1 205.9 315.2l-73.2 15.5zM320 352l-133.2 0 25.7-5.5c81.3-17.2 139.5-89 139.5-172.2l0-11.6s0 0 0 0l0-15.8 0-51c0-35.3 28.7-64 64-64s64 28.7 64 64l0 32 0 64c0 88.4-71.6 160-160 160zM440 96a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const Crow = createIcon("crow", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABiwAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCTwsGAAE2AiQDCAQgBYMtBysbSgXIjsO44StBmUyuFD8RQfv9Zu8jZh2SJtMkXglVG5FOs1hIr0HWSsj4T/59nvuhWWMWsCoisKu4cvvrsNoqePN/Lt7aRgP8thIfUiSWDuSuLSL53gkcYAVF4ujABnZ2onjWTtcPkuhlkPQpn2QYf9hs7lCXP+QOKeVV9B7wmEOVP5iah6KuBoB0AQDWL/Iy8EJNaqL3wl1SIQ0EsgFgCqGG1WMILBGLvIPEFKhTJ3yTIKT/QA4ESAP4yQLq0IgH8ALmD1HU10lCNZT2SibVlBQyqcorLDiMUQFtG+8aFRKjRadx4J3XdTuiIjrmeilQRfXAHecLFqBLMqBg2jLUBU1Mxc6a5tPCGaP6ovyiI+5X/PMLKF3lRK+intsFqUAUzGG3y05nXS6aguQj/El+0SHHMyb7DufNbS/pXPpp877xvY10vuEDrzu0v79FuLVA09CZ75gIzGcEjv+/mDemJkHnDTrJeHZj+tIlhR9YhUFl9tv3X6rLA7D6xtcSQ2jr3h9QPVyhzMwPP9+StR8ZLOC8LXxWVmozQBc/qm7dEyfCaRVHNNp8X8XRkGCYk2PomADkqb0+hbhKO/xAwUSA30e/D9qbwl/haZkWXQJNCgi1GcEd5WVaIWEKgqIlg7DFFwXFPSmEtc0TAqIFAUWDFgE1o3QQqNNiGoF6EwIQaNDihFjqlIg+FQMUba5AzaIJUKfPbVBvyatIg76I7VG1JvU5mJUokYR53MfTm4fyZUXXTEyOk2F823Ye9B0uOIpGXTr1a1CvRb+ge2XEB3RI1KgEP8T58OSNC8WP68/7CzXo1adFl840Sxh+33c2qPd3gSfCorOKikKK5G8HAA==");
 
 export default Crow;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `computer-classic` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-classic?s=duotone computer-classic}
  * @preview ![computer-classic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/computer-classic.svg)
  */
-const ComputerClassic: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 48C0 21.5 21.5 0 48 0L400 0c26.5 0 48 21.5 48 48l0 320c0 26.5-21.5 48-48 48L48 416c-26.5 0-48-21.5-48-48L0 48zM32 448l384 0 0 32c0 17.7-14.3 32-32 32L64 512c-17.7 0-32-14.3-32-32l0-32zM56 336a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zM64 96l0 128c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32L96 64C78.3 64 64 78.3 64 96zM224 336c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M64 96c0-17.7 14.3-32 32-32H352c17.7 0 32 14.3 32 32V224c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V96z" />
-    </Icon>
-);
+const ComputerClassic = createIcon("computer-classic", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABlwAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCOQsIAAE2AiQDCgQgBYMtB1wbZwXIhuD7Nf/rM3eSB0DzgVEB4RI6BFKr4paFo9RaAp35v6ZePD8qkM8XoodSuSyv4M7nE9hEypsGXkLDGeLMrbHPBgriZ0jIqOVEe/y6Hq9OkMdb6XYlsmey7/BQ+R/A+NWA28k0JADRDoB1+3dvValGNYvvap8T39mCgFgPCoGEhGEBVkoCw3IFcrmgmtVqVKNWKwggysrzJVBGPW7AnYAcZEIpzwcHOxoGW5pKLfm+plLj4Vv6Ip5qaon7ep4gbu5+vLE57u19MiI950JToDeogSyehiZCb24dTAdbmltiB/Y/M+mtoWcnv96/X7g5Ku3i9D0VEbf0PilMpe19oqcp3dL3ZG9jPN49/t32d38f992576w53no3d7fSBEZu1vuhh9P3/DD3hLk/fJ/WEp2iYw/dXO0iYq/V6qLvip6dO3vYV/enL3DXfTUv/dlavVm1VR8HAsG6CR9ee7xt5f/1TRn45Ys//5X71SpRyd5FvQwEaWZtpiNRAaIH8PtZXG98VKxFIDmsBPypzZ4UIDQiQKasUYBkSLsAuUYzBCgZtUiAska7JZE3CN2OdpBpdhVIFrsB5Lp9BkpW+jJb1h0JhQqGlJ/AzM0W3bSpmDd7brG8uG05VGBJeXVFMe2ber2MTKOjzrnC5a511hkXudbgV9tauM5lNo+wTb6oMM9scxWWK5a7n819RtD4NS7y9fV1ViieT011/Xj6NApmKu98O5JEZJH6Ee2a9em7ZkF68uCl/gIDAAA=");
 
 export default ComputerClassic;

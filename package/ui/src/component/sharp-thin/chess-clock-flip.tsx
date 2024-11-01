@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-clock-flip` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-clock-flip?s=sharp-thin chess-clock-flip}
  * @preview ![chess-clock-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chess-clock-flip.svg)
  */
-const ChessClockFlip: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M392 32l-8 0 0 16 8 0 64 0 0 80L16 128 0 128l0 16L0 464l0 16 16 0 608 0 16 0 0-16 0-320 0-16-16 0-152 0 0-80 64 0 8 0 0-16-8 0-72 0-72 0zm64 112l16 0 152 0 0 320L16 464l0-320 440 0zM96 80l0 16 8 0 144 0 8 0 0-16-8 0L104 80l-8 0zM464 208a96 96 0 1 1 0 192 96 96 0 1 1 0-192zm0 208a112 112 0 1 0 0-224 112 112 0 1 0 0 224zM108.1 236.1A96 96 0 1 1 243.9 371.9 96 96 0 1 1 108.1 236.1zM255.2 383.2A112 112 0 1 0 96.8 224.8 112 112 0 1 0 255.2 383.2zM472 240l-16 0 0 8 0 56 0 8 16 0 0-8 0-56 0-8zM221.3 270.1l5.7-5.7-11.3-11.3-5.7 5.7-39.6 39.6-5.7 5.7L176 315.3l5.7-5.7 39.6-39.6z" />
-    </Icon>
-);
+const ChessClockFlip = createIcon("chess-clock-flip", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABuAAAAK+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDXAsGAAE2AiQDCAQgBYMtBzcb4wXIBqJe97r3JJNkkIllYg4QV0T8UwJViF1SetKFKwLLlrNPb0KuRgmkGUpzd//vCApHl+BqjccIhARXu1AYg8RhrGTFTUSlCrP8nn9XoMtvJuAE6oB6BmzLPlQ+EMxqUGgaAABiAQAAVQM9bdwalEGRp/+vgDylBRAAqQLARgAN0IAwBIBSNAQIQ8cGdHQEBuX/f+8/0AYBAHGmMCoO6YAJPAfewH4RKNx0PcZ0CzWLvb1NJw+9v3nRmGyYBmKaiLuBKEFMLxFNRAxDMH/Oek0eYNwTyHiMQ3Ce79sUJ3Im+ADLg/bHnjY2xp8NOSgrQg8lnDPZlCBybsISW0CAQYGGBLJ03Blz3EUYA0u6sATAEs/bIFmyQwJhcUrfxVCRQxOW2AICDAo0JJClEs6lDDyeHpFMKcp7A/0CA8RPSsMj/CVQKqIdluNT1LNJz1h3zNXcaeFa2cl1y6ISC2tOr9/fGcBZx2xPOF8yhkquT66wCu66H1n6elnICBhx/0Fw8IP7I0aErCq8Oa8ijsLRd+8iImp29KgPM2ovHX8pahGsWbPW23vKkCGTffwKs3jnzr7psLiw19Y+ZFf7rApLfLP1pnoKE1j07Fc4+fY+B30sog4HvUwGAAEEroS6vxztVfrV1VQAvL355QPmy/8H1XLlAFxRAAhoqf9TGaGWA3jeAgAZJYuIZr5IAMV93Ch2ubMXAUAwYCaFMwZphGKRjkEKORFBnl+5gx40RHdD8GOkSQp35pJGPktIx49L5EQpD9PO+In2tA49KUN/KovXr1V1s+ys9Ey72CYrxvAzNRBPlthqnrjI70gyVzCJ2cxiAROZwNQeK8882nILmUk9Z6vjh9hkkU4mNsXYp+vvWT92eh7zmYpHz09Tgn39ZCKL+P5JpqwofGazQaFAlDV+ysT589N+BdJpk2ZMnQM=");
 
 export default ChessClockFlip;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grimace` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grimace?s=light face-grimace}
  * @preview ![face-grimace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-grimace.svg)
  */
-const FaceGrimace: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 0 0 448 224 224 0 1 0 0-448zM512 256A256 256 0 1 1 0 256a256 256 0 1 1 512 0zM168 320c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0-48-8 0zm40 48l32 0 0-48-32 0 0 48zm96 0l0-48-32 0 0 48 32 0zm32 0l8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0 48zM168 288l176 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-176 0c-30.9 0-56-25.1-56-56s25.1-56 56-56zm-15.6-80a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm184-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const FaceGrimace = createIcon("face-grimace", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABmAAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCXgsGAAE2AiQDCAQgBYMtBzMbYQURlZphyD4S45jIVcz8iiZeggh12aws33EQFWJfHhk6Iq4IqMQSq7RxAEx/P89/2qcPsrsX5EvDaOqmSPy0rPMJDDDaIm3AJTbTCdgWt10tGSqhjRA5Ay03pRwb1B71CtgU1stvUlkOCm2RFCSGj2w1oE837n2X7yKv3Msgr+gCCIC0BsAggAVYQAYCQFMsBMhAYwCNRuC7uK77DzQIAIgHfK4CQANBYAOwF2C+C1D4tU5PD/j9waQYscO6P3+OwJBHHUWeOedYHDnf6Xm7p11e1rkoS6ovdH7Rvt+nliL3ur4KrO3+pvWD/l/bPOzxNriu2+tW9/uNPJ6ypyAoIoFmwUBQioSg4JVgcBY9lb63UJr6d3ueSNyRujthe35ATibtTNuXvKuo/76iEyaRfzJtQFYO78g9G3P2b86r8a9wD90rh4pfn5o0+fSrovweKxFb3W+080Pqxftt2ty/mOrHirTzTx/QoldiYi8fDr5FJuEOBmekgxscjPHptjynepzDa2bW/vd6/9fOPEcriu6R2KtXYmSvJmv94wAggECr4UXJI6Kb1viCCoCfN/7XlJ+Re0+hzgI+FAACVrlbPlQBoEAAAAAAJfPJVQACKFbgJwVD7LybEQJAgcJDAFikEwM0AcqATRb11CdX98FCtB8hgWEYKELMAhb1WQA0CVwENk15mvSQIBZcaqFK+1eYCbYfE+0mmUilYxqbzZKmAzW1HW1iTluL58uWEryT8TOmzx03dtLcET+7W2betPZ7XLsvmkilYxqb29Xnpv4Umz1nknn6/XGamPeDxfP3u5dghyKJrRYoFIgKffSCigmzJ00bNWYcAAAA");
 
 export default FaceGrimace;

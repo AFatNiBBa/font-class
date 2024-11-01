@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `train` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train?s=solid train}
  * @preview ![train](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/train.svg)
  */
-const Train: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 0C43 0 0 43 0 96L0 352c0 48 35.2 87.7 81.1 94.9l-46 46C28.1 499.9 33.1 512 43 512l39.7 0c8.5 0 16.6-3.4 22.6-9.4L160 448l128 0 54.6 54.6c6 6 14.1 9.4 22.6 9.4l39.7 0c10 0 15-12.1 7.9-19.1l-46-46c46-7.1 81.1-46.9 81.1-94.9l0-256c0-53-43-96-96-96L96 0zM64 96c0-17.7 14.3-32 32-32l256 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32L96 224c-17.7 0-32-14.3-32-32l0-96zM224 288a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const Train = createIcon("train", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdAAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBeQsGAAE2AiQDCAQgBYMtBywb9QTIhuB5u/6rc7vnAexPYQFmEmdDOXOQQspm6ub5n0cBPtiLhTYWLg1kAe19nkBi3XuTEkooYEwxdRvD8CCXV5EhOEQM8YbkCnk8kF2pRLovfYxb2qPiJ72uJKnNAEQLAFbs27XFu5/H5xEfVV4iPrIJAbECFAIZMAMCLJYJvEKuQC4XfB6Viv8DCwKIKvFNEshRwjE4CZCDJMvzmX2N9aXGfG99qe7Qi+Mjnh1I8dCE5+Ysjjs77+qsjxu6d0V97Ii76uvjnu57upbGK5OeH87i4YnluQ27L+uOuKe+MW7ovIu4tOPOuoa4vuvuiD1P9d7Xc+/op/vu739g3MhyS/mXER+f+LGj3rm0TLmG/MApYz6xZkzn2eM1XnuiS53o2sbxzu4cs+YTY045kFNTLl9q+Kima7m2iaZrr206GgB69CPvPPrtK698++h9IBD8/uNHZx/VvPifmvoEvnz9t//tusq78W4qo0YCQTa5MtnheBcwDsWBFBcaKdBAckCWhKc2uFuAUIcASZU6ATL9WgTI1ZkkQMmQOQJUqbNLJvJaocMRAyYNzoGZuS6CuQ4vwJLF3jOqdESWZGyKsH+8pLUM1swVM6ZOLxYWy1Dn8oau40XFtjz+QitNANaJznKm853geKc4n8hzbbEvcIa1iljjRYUZppqusFBxnDwv73WCc53nFGc506csUtzXx7tQN0+AlgTlTI4kEan0mAAAAAA=");
 
 export default Train;

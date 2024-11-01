@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-clock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-clock?s=sharp-regular chess-clock}
  * @preview ![chess-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chess-clock.svg)
  */
-const ChessClock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 32L96 32l0 48 56 0 0 32L48 112 0 112l0 48L0 432l0 48 48 0 544 0 48 0 0-48 0-272 0-48-48 0-48 0 0-32L384 80l0 32-184 0 0-32 56 0 0-48zM592 160l0 272L48 432l0-272 544 0zM200 400a104 104 0 1 0 0-208 104 104 0 1 0 0 208zM184 240l0-16 32 0 0 16 0 48 0 16-32 0 0-16 0-48zM513.5 369.5A104 104 0 1 0 366.5 222.5 104 104 0 1 0 513.5 369.5zM502.2 256.4l-11.3 11.3L457 301.7 445.7 313 423 290.3 434.3 279l33.9-33.9 11.3-11.3 22.6 22.6z" />
-    </Icon>
-);
+const ChessClock = createIcon("chess-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjgAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCYQsGAAE2AiQDCAQgBYMtBzIbYwXIhofvdb2e+6Td+ZbMIDNyiHFdJlylCtexyz9psUpFO/+Xe350NDbIxxvih3LthXthL5rzeQI9z/ewLKAssESxQXcTg/Dn4+oCefwTT6mRXk4/48n0S+M3vdxHUssAREcALNy+ea1vWqM14qfmZ8RPViMgFoJKIEOGvgLMkQn0lauQywWt0Wyy/8CKAKLOe10COVrwDF4F5CCp5/nINn060URZa5dvk08Uu4uyEGWIohApRNkhIouoKxQc0IgyeTBlqX0n2+HAo8Mv/rDPq3F371eGfVA8MuS9ni+5q9fLQ98vt8U2FktklrjSJ+LVOfZRDS5D+4iPoAztIz+GS4d/OHpb1x5d50TXGBU9Yn64YOSgRsfGHwN/Pvaz5ptveUUTzFA5MSHldDTBhA3iCZW3VL5UMMOE9Xd2hIdVOqoe/Kvv7dx+9VqfPteu3n5731oZ83R4c0Z4go7SO1bePfkWbjl9evLkzz//8MMhi25BgcnlxSteSScNxzSgdxwFAsG3HX6Zsr/DnL9bygR+/fqvv6RPN1vTXamBFgkE2ZjmGHvSXcCEAaRT3GDQyAwDySOO8qe29YIAoUCApK4QINNHRwFyhdEC1PQ3VYC6wmaZyNsIXe0tQdLWRZCZ5naQ6+oTUDPHd6m6rpG9mOrXSv1fmGFZHVo6rZo4bkI1qxosyzXvmlKPz65mO0bcwNtGwqWOOe+c6xx1xEnX1ahL1mavd9ayMWSpH6pMNM4ElVmq1bXb87c56pLLTjrvnJ1ktmp/7wg3jPceCd2JJznJmiQRqTx84ujly2M/ZAA=");
 
 export default ChessClock;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shekel-sign` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shekel-sign?s=thin shekel-sign}
  * @preview ![shekel-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/shekel-sign.svg)
  */
-const ShekelSign: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M56 32C33.9 32 16 49.9 16 72l0 400c0 4.4 3.6 8 8 8s8-3.6 8-8L32 72c0-13.3 10.7-24 24-24l136 0c48.6 0 88 39.4 88 88l0 216c0 4.4 3.6 8 8 8s8-3.6 8-8l0-216c0-57.4-46.6-104-104-104L56 32zM328 480c57.4 0 104-46.6 104-104l0-336c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 336c0 48.6-39.4 88-88 88l-136 0c-13.3 0-24-10.7-24-24l0-272c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 272c0 22.1 17.9 40 40 40l136 0z" />
-    </Icon>
-);
+const ShekelSign = createIcon("shekel-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbAAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBVQsGAAE2AiQDCAQgBYMtBzIb1wTIjtMlNuUxYTz8v13/7XOruh/qG/VtZsIAyCBkQiaksyYUCvF95NR446UCPvKinI/vUu2B3xuvwMSujj8Ol9lwNlGctfN/IYl+k3SRTzKMN2xOkMe9tquQ7k4f4cb6ofGzti6SZBmAaAKAKauWLfDOD/FDxEf/v0h8ZB4CYiooBTJk6CDAeJlAB7kSuVzwQ/z/f/gPLAkgquxVEsiRYzFWAHKQpDzv3r2oNMxXFpX6dde0iLhNittb3tk6i3t7FfFin0c7wjMjHuj72Mj6HS/3i3i8cxZ3tLqtRYr7ej8yvD4eaicPO9vy9qLo+liTx37p8tHOj4x6sOnjvNb0JtXNm6s3abmEyVddlX8hR79QfPzNMxq//cw3fFwsXpiL5Vsi+Za0bIKYJpq+9njTi0EgWPh5w/82NR7/a22RwE+v/as9r8n/P8Qz6THUSiDI+v/f3/p4RxNN4hkBAEhxUlfniwLJbIm9awN3CBDqESCpqhcg014TAXL1+glQ0ckIAarqLZOJvE5oYcOAkwaOwJmRTsG5Fp6HK8Z7N6hqERmlGEIwP7rEmQjM2FQOGTi4HFtuE51lCZWX48pjqffJ2Oije+10yEHH7bDdHscBOmpBfMIBMz1whh8qDTHQYKWxyuv8eftKOxx1zB6HHCxrxinfe72d9Pv7qJoY7lCHkkSk4tjuHft27B9ARwAA");
 
 export default ShekelSign;

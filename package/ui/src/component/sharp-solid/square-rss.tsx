@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-rss` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-rss?s=sharp-solid square-rss}
  * @preview ![square-rss](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-rss.svg)
  */
-const SquareRss: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm32 80c150.2 0 272 121.8 272 272l-48 0c0-123.7-100.3-224-224-224l0-48zm0 96c97.2 0 176 78.8 176 176l-48 0c0-70.7-57.3-128-128-128l0-48zm0 144a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const SquareRss = createIcon("square-rss", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcAAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBaQsGAAE2AiQDCAQgBYMtBzEb6gTIjtRG+UVWEg/f63o990m7Y+t/I8vM2CEEELqkA6J+J23iMvVW7fv8n+v50kYD/LYgGFoUljYWWMVFPj+BEz1vm8hdg00Uz9rZG84g+sUgXeKTDJsfNkfI49nsmgrp6fQTHiw/Gv/q5BpJ0wxAtATAzPWrl/qsFrWIH+uIHy1GQMwEpUCGDF0FmCIT6CpXIpcLalGv4z+wJICo0s9IIEcV67EDkIMkz/PObZu3aag0y9c1VIrNrw2IeKtjiqcHvt23Wbw5+N0uWTwz6J1+jWv/Xhrx88yIz9cW8cqo9xb9MC/8vTLid9anfQL8cofBnmy42+5xl9o+Vtxp/0T0eqflO/d6/rTvJ9NffKkVrYoZilatXpqBFAzcY/liX/LnVKZYPELz378Y0q02YseiCFrGohEqY2avGPFQ81vcal5LoAJx2eH/xvfe3mLK/00aEvjng/fkm+u1+Cy9gyYSCLIh9SG2xGcQ2AGEKc7pZYwskCyXg95roycECAUCJFWFAJkuWgqQKwwWoKK7sQJUFVbLRN5UaGtrB0mjkyAzznmQa+t9UDHFt2FV28icS3QN8W+XNo+hufvKkcNGlJPKZalJ/sKn7cnltj7gXJwaKAftc9wxZ+y1x0FniDxlaXLWUfMsYq4RlUYaZoTSJOVx86ito/CU0w7OlfNdJivv2wOcsxcPFCtRzlFSSSJS8UCDoadOnwY=");
 
 export default SquareRss;

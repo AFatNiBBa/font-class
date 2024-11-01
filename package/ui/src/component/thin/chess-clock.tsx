@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-clock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-clock?s=thin chess-clock}
  * @preview ![chess-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chess-clock.svg)
  */
-const ChessClock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M248 32c4.4 0 8 3.6 8 8s-3.6 8-8 8l-64 0 0 80 392 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 192c0-35.3 28.7-64 64-64l104 0 0-80-64 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l72 0 72 0zM176 144L64 144c-26.5 0-48 21.5-48 48l0 224c0 26.5 21.5 48 48 48l512 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48l-400 0zM544 88c0 4.4-3.6 8-8 8L392 96c-4.4 0-8-3.6-8-8s3.6-8 8-8l144 0c4.4 0 8 3.6 8 8zM176 400a96 96 0 1 0 0-192 96 96 0 1 0 0 192zm0-208a112 112 0 1 1 0 224 112 112 0 1 1 0-224zM531.9 371.9A96 96 0 1 0 396.1 236.1 96 96 0 1 0 531.9 371.9zM384.8 224.8A112 112 0 1 1 543.2 383.2 112 112 0 1 1 384.8 224.8zM176 240c4.4 0 8 3.6 8 8l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56c0-4.4 3.6-8 8-8zm333.3 30.1l-39.6 39.6c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l39.6-39.6c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3z" />
-    </Icon>
-);
+const ChessClock = createIcon("chess-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAAB0gAAALwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQiEBwsGAAE2AiQDCAQgBYMtBzIbCQbIjsN0azxnZ1dfIhEUurIeSbfl05pBdoQMTxCZEMJ/jhBzNETPEYFBN6/HOSpdQzlLKJBAbP7PNZ9vTQ14PND5UP4i6d8qQCIpIp9PYICbZQMN6GxRwrapeS8Ocii6vj1k8bflKkhOk09w0LnR+EEj2yCRpgCiJgCGzJo2wRv34l7EJ/+/RHxiHAJiKCgEUqRoKkB/qUBTmQKZTHAv/v+f/QcWBBAlHjexKkMZD/ET7VEkKrOsfZNqTWB4terlimrZzIhK+bzj4ZjPQ1SL6+PtUpwabjXV48Z0p4o4O9/tyxGRx4l4MpXl5fyaP5bF6XC8rRE308k64kw80VVddsxPCI/jYfnePgbOrc8Wm6sz3Q26p7mWT2FTebq9zmJvG3G9PI1NTeiCbhiCYZgC02L7m2zJ3TribBWnOx3QjcOtQZiC4+35gJ3zzLubGdrLcU9n7rWOfaYOn348iGOeYASPXdJ/UP9j8UQaVAI+07e6o+/8LT9Z+YnfLy4ulRYPNtkuXDK18nvyuPcSUNRussFmkKOf9F7q/NWn6T3pp191BtkPHb3G8BCwKobamMbzmf/ue40avffu/PmNaznlkC+aX4AL93fNm4f2Cxeaoxw0dtkLdhWzZ6+uVWvHuf35ljAHhh+5ZrwM73u84cPX4SMzUA5K+aL64lJvpcWxfXyzVfiq06b16PG86cOHjwACQc/pW7ZFNfr/WoUl4MHrv/zFXvz/vWQTuQOqSECQtv9/MT/ZBCDJAHxJPK/VyA8FEl+qhKla1QkECDkCJEpyAVJN1BQgk2snQIXmeghQkpsmFVmlUNeCkkhU9RSR6mk9kanrBaJCf+97S+pGeq+r7lTVr2b6kXXaiEFFl46di77FYE6uvn0VurdfMZts/TyvaQMnWukJj3vWCsut8WxN/LQJgec8ZuSY9IjvFrroqLNCX8Xqom00E0OMnrGKfu36fvop9ve09vx48zbQnPBkdjUjkRBJednqFc880+HbAAAA");
 
 export default ChessClock;

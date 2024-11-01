@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `repeat-1` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/repeat-1?s=duotone repeat-1}
  * @preview ![repeat-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/repeat-1.svg)
  */
-const Repeat_1: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 224c0 17.7 14.3 32 32 32s32-14.3 32-32c0-53 43-96 96-96l160 0 0 32c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l64-64c12.5-12.5 12.5-32.8 0-45.3l-64-64c-9.2-9.2-22.9-11.9-34.9-6.9S320 19.1 320 32l0 32L160 64C71.6 64 0 135.6 0 224zM73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3l64 64c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-32 160 0c88.4 0 160-71.6 160-160c0-17.7-14.3-32-32-32s-32 14.3-32 32c0 53-43 96-96 96l-160 0 0-32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-64 64z" />
-        <path d="M278 196.5c6.3 4.5 10 11.8 10 19.5l0 80c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-48c-10 0-19.4-6.4-22.8-16.4c-4.2-12.6 2.6-26.2 15.2-30.4l24-8c7.3-2.4 15.4-1.2 21.6 3.3z" />
-    </Icon>
-);
+const Repeat_1 = createIcon("repeat-1", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABiAAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCHQsIAAE2AiQDCgQgBYMtB0wbOwXIhof/t4u671d1D6AaAFqRGaJ1xo6WaZ9Nrfr7UzXjPBTARx7EsSmX8w+SAbbneQRynrTVerxjgha4pjWwmtuIFQ3CsIjImPJyGJIuNDfI49PsOhXSw6mGO/l/AOMbnVxH0igDEC0BMHP96qXer0c9Ra18g6hZgoCYBQqBDBm6CjBFJtBVrkAuF9RTWVKPsiwIIKr4IzNQRQUncAkgB0lIed5m8KAmlWb5uiaVxrvvJx7q80LniAfaP9K/fzzYLq5qF3F/k1s7PBhPDn51fJMQD/d9vsPqeDCubr8qHujzXEfROD6f8vaatfeJVWzlof4vdoloEl9Nf2/9wvseaHxL2/s8NuClMY0j4pF+L7Rd0euVlq9817O2r6bd3w80XaHdypXtRvjx2NwJ5732gHrzm7ipeWLdzRq+8spVTynkA/r9V7q5WbObS//1758XnjI7arWYveClm5vRY/YbwIKJ8OkgECy/8rHq9hZTfmvYJIGv3/zhF/l3VL6VpFfQUAJBNqQcYksCiQAApDinV+JzBDJrJRE19QDshMYIJFWNIdNFS8g1Nhgquhu7oaqx1TKRNxLa2kogaeokZMa5HHJtvQ4VU3xgVrWNzO5EqxG/fWnzNDl3rhg5bEQxqRiGimRKfBhPLraNAed8aSAdtc9xx5yx1x4HnVH0KUuds46aN6Pm+qLCSMOMUJikgJNbbZ0yTzntYF/Bp0xWnEcDnJs3D6RlEmDUjbkyIkXW8gWjoSOHGrDeulKeKgAA");
 
 export default Repeat_1;

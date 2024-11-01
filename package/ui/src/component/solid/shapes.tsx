@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shapes` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shapes?s=solid shapes}
  * @preview ![shapes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shapes.svg)
  */
-const Shapes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M315.4 15.5C309.7 5.9 299.2 0 288 0s-21.7 5.9-27.4 15.5l-96 160c-5.9 9.9-6.1 22.2-.4 32.2s16.3 16.2 27.8 16.2l192 0c11.5 0 22.2-6.2 27.8-16.2s5.5-22.3-.4-32.2l-96-160zM288 312l0 144c0 22.1 17.9 40 40 40l144 0c22.1 0 40-17.9 40-40l0-144c0-22.1-17.9-40-40-40l-144 0c-22.1 0-40 17.9-40 40zM128 512a128 128 0 1 0 0-256 128 128 0 1 0 0 256z" />
-    </Icon>
-);
+const Shapes = createIcon("shapes", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABawAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBVwsGAAE2AiQDCAQgBYMtBy0b1ATIjtRG+UVWEg/fr9V77uue/QDUnxkdkALGkONxQSO2YlOR5KZq3/+4n/rj/FOBPKOPFmmVIAXSyzqfwAQ3i7SB7nxgM52AbXc2Kzsm7ZGEhNZynDs+V8jju+ycEule+gNX8ofGX1o5R1IrAxANATBx+eK5ytVRHfF7BfG72QiIiaAQyJChrQBjZAJt5QrkckF1VCrxP7AggKgi75JAjhLmYzkgB0mW541bt6lTqpcvq1Oqvf12t5dNl8TNZre61ok3Le40X7ZCODUidZALx0fE6ea3a9eO801vWnKhd8SH3h/idK/3zNQ+3+Mt41TPd0/W6fS+4fu/O/6x7Q+jvrjcsOHl9U9cOfm4YVnDxyevJK9196tSbPTth0ZXNfrwbZH73ic/dy5TblevU6d67crlztQBrwOBYMj+LuPXNxjzT806Cfz57f/rz0ilnKT3qCmBIOtT6WNNAokAAKQ4plOCQDJdRuK6blvzUBuEpEptyLTREHK19YaS9oZySnWxiom8lriptQGSug5CZpjjkGvqGygZ4+ekStPIfErwCOFLlzptxqfuKgb2G1CMKo4dTXQTjjdHF2q9xzGa6AkHbbPfPkdstcVORybykLn5UXtNuxFTfVFhoH4GKIxSmPuv6jJMDjls5162bzNa8T7u4dh9fk+wEmEdpJQkIlX5pnYY");
 
 export default Shapes;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `window-restore` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/window-restore?s=sharp-light window-restore}
  * @preview ![window-restore](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/window-restore.svg)
  */
-const WindowRestore: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 32L160 32l0 64-32 0 0-64 0-32 32 0L480 0l32 0 0 32 0 320 0 32-32 0-64 0 0-32 64 0 0-320zM352 160L32 160l0 96 320 0 0-96zM32 480l320 0 0-192L32 288l0 192zm0-352l320 0 32 0 0 32 0 320 0 32-32 0L32 512 0 512l0-32L0 160l0-32 32 0z" />
-    </Icon>
-);
+const WindowRestore = createIcon("window-restore", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABYgAAAHOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBSAsGAAE2AiQDCAQgBYMtBzUbzQTIjsM4JjzSReMu4uH5tW/nvpkV8YHkKk2s0yzRt9Lw5qFbNcm/mVlq+8//5fTG86MD/EaHNObU2jrGeJ5AoFEvz0skCyzTBCxzV/tMI3W/JS2C5PFbebw8II+nkTLSwwR39UPjqy53SPIMQDQCYP7Wjau9+hSfIj6URnywEgGxABQCGTL0CjBLJtArVyCXCz5FqcT/gQUBRDm8OIEc5ViGNYAcJHme91RVtdSU1eVbYmf10dq6WlEdaKupEymMWM1xZJv6UJ1wSEkua0Mm7BiqlbL160MHGwe/D3GEj4/mIVIQt9inyLxw3vXr/fZ95tk3d26GX5mv9jWTFp8HAoFvk763Ydb/ypoEvjz5+Vt/RkqvkjSISgkE2ajSKLsSSAQAIMUVQxMEknlyeNda9wQI1QiQlKsWINOjUYBctZEClOk3WYBy1TbKRF4ltNpdQVLrPMhMcRXkWj0GZWZ5XSnXGpkzMa7AfOUSl1h08aVi/JhxxYxiOFJY/6DS6cxi2xx2JawMp7uOOOuMSw475LhLBr9gdf2y05bMsMW+qDDeGOMUZiiOp7e3tzjsgouOO+tMPmem4n46zJX59uHkJCCcoCdJRKr3QXX0uwA=");
 
 export default WindowRestore;

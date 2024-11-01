@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spray-can` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spray-can?s=solid spray-can}
  * @preview ![spray-can](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/spray-can.svg)
  */
-const SprayCan: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 0l64 0c17.7 0 32 14.3 32 32l0 96L96 128l0-96c0-17.7 14.3-32 32-32zM0 256c0-53 43-96 96-96l128 0c53 0 96 43 96 96l0 208c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 256zm240 80A80 80 0 1 0 80 336a80 80 0 1 0 160 0zM256 64a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM384 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm64 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM448 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM384 128a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const SprayCan = createIcon("spray-can", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABqAAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDJwsGAAE2AiQDCAQgBYMtBzAbpwXIjsQ4hvIZw1KiIqh0VVktLWn2kHUACA/EHs2ZT+gBh//sovX2JEII/tSp5zkPBfA94I9B25viGzy7a2kFCji217eVawWraQWs1s6+9D+IbiAJKRLaDT9szpDHx9nd6kgvpO/wmP/Q+EsXd5M0ZQCiNQBmb1y73Be/x+8R39beJb61FAExG5QCGTJ0F2CaTKC7XIlcLvg9ajX+DywJIOrhcQnkqOBtfArIQdKU5227tmiHoFLXIt8QXl5srRSVhzo8QxQRcUen5yrrXhsacXtiJd4d/FYP8Xz7p/sV8XrHZ7vG+lenfDTpg+6vTP5w6se9tt7RKeK5Pf7WWC8eZD02Vl6EUId6LF6AjIasg2xY3qfauvpP3x34zs3PZ2FNy/vvb7nLLbvkZ9ysqVK9dcutarXxJ9n3P4/63aifv89++m9l88Hz5w82R1yrVi3v5/6WGZ5xs1c/eM3M6HWTYDMvBwLBmdFzN+xsNe1/lQT+/Oi/089I7YskVdEogSAbVhtmWwKJAACkuKBPgkByWxO8a7NnBQgFAiT1CgEy3bQWIFcYKkCdnsYLUK+wVibyJqG97QUkzU6DzATXQa69t0Gdab6M6rWPTHdpzaO/jgkLWmT+onL0iFHllHKYyYw6knZ8arlsDLogbYPppANOOuGc/fY57FyDnbE8Pe+4BTN0vi8qjTbCKKUpyu3y/vAG+51x1mEnnXDzTFXe9we5MO89mOwEhGNI6QnWpaazp87svjx87+4TAAA=");
 
 export default SprayCan;

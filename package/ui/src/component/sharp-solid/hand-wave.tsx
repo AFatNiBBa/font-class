@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-wave` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-wave?s=sharp-solid hand-wave}
  * @preview ![hand-wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-wave.svg)
  */
-const HandWave: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 80c0-26.5-21.5-48-48-48l-8 0-16 0 0-32 16 0 8 0c44.2 0 80 35.8 80 80l0 8 0 16-32 0 0-16 0-8zM185.4 70.6L162.7 48 208 2.7l22.6 22.6 192 192c3.3 3.3 6.4 6.7 9.4 10.2l0-99.5 0-32 32 0 16 0 32 0 0 32 0 184.3c0 60.2-27.9 116.9-75.5 153.7C385.7 505.3 321 515.7 263 498.7c-28.4-7.1-55.3-21.8-77.6-44.1l-4.9-4.9L73.4 342.6 50.7 320l-9.4-9.4L18.7 288 64 242.7l22.6 22.6 9.4 9.4 22.6 22.6 56 56 18.7-18.7-136-136L34.7 176 80 130.7l22.6 22.6 136 136 18.7-18.7-152-152L82.7 96 128 50.7l22.6 22.6 152 152 18.7-18.7-136-136zM32 344l0 16 0 8c0 26.5 21.5 48 48 48l8 0 16 0 0 32-16 0-8 0c-44.2 0-80-35.8-80-80l0-8 0-16 32 0z" />
-    </Icon>
-);
+const HandWave = createIcon("hand-wave", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhAAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCUgsGAAE2AiQDCAQgBYMtBzAbUgXIhof/t/uvfW7V+2C1fFvCQDVi09HQUXPl44yI2vEIKaOJ3/yf6/m0aIDfaCgVVrY3kKLZKPP5bCADrgssP/ASOtMTsLN2dpNBz29IT0gwTF+GyR3K+Lx4RoN0Ll3F6+6j4i9DPEPSXgCICgCrb7/lOt/8Hr9HXGl+SFyxFQGxGmSBAsvDBVimEPIOpYxSKfg9mk36D8wEEC34aRMo0cBLOAMoQVKU5dAbhnQ2usu6s9Gx8/zAiNMTOjoiOjs/nPz2CCE6IiLqKZOnrIzJcVucGhDRu0yIJ6a9t+iTeR8s+GjFwKhjSgz09IQ0AMZNMbVmFiLzwh2CODfg1Pgtno6Oj6a8M3Lnx495p3rnn9FXd1x1/8HiGj/Paquyqq3aXkebSlZpe6Otruurtvv6a+vmPyLLs7JPzFi4cOq+7y58/k6eZ+8etbNqV233ou1O6uP55wsyUg4+c4YC01bOVjzRprh28XEQCK5Mv37Z/b3L/m/rTODPz/77R/gVNb9N0jtok0BQTGtOc08CiQAApDhhTIJA8pQCf2qX0wKEDgRIWnQIUBimEqDUYaoADSPNF6BFh1sUomwX+rs3g6TLYVBY4FFQ6u990LDMBatF/yg0ktUn9j+YtEFC6+fy7Bmz8pLcDSROyWg7XJqnlUknTGEyztrhoAOO2e4Rux0T+BHXucftt2GErfdF2WwzzJItkZfj6+O17Y44areDDtCYpfJ5c5IT4/rJ0BMmnMOXJCK1K7A8/ZkAAAA=");
 
 export default HandWave;

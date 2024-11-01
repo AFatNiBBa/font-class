@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `steam-symbol` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/steam-symbol?s=brands steam-symbol}
  * @preview ![steam-symbol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/steam-symbol.svg)
  */
-const SteamSymbol: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M395.5 177.5c0 33.8-27.5 61-61 61-33.8 0-61-27.3-61-61s27.3-61 61-61c33.5 0 61 27.2 61 61zm52.5.2c0 63-51 113.8-113.7 113.8L225 371.3c-4 43-40.5 76.8-84.5 76.8-40.5 0-74.7-28.8-83-67L0 358V250.7L97.2 290c15.1-9.2 32.2-13.3 52-11.5l71-101.7c.5-62.3 51.5-112.8 114-112.8C397 64 448 115 448 177.7zM203 363c0-34.7-27.8-62.5-62.5-62.5-4.5 0-9 .5-13.5 1.5l26 10.5c25.5 10.2 38 39 27.7 64.5-10.2 25.5-39.2 38-64.7 27.5-10.2-4-20.5-8.3-30.7-12.2 10.5 19.7 31.2 33.2 55.2 33.2 34.7 0 62.5-27.8 62.5-62.5zm207.5-185.3c0-42-34.3-76.2-76.2-76.2-42.3 0-76.5 34.2-76.5 76.2 0 42.2 34.3 76.2 76.5 76.2 41.9.1 76.2-33.9 76.2-76.2z" />
-    </Icon>
-);
+const SteamSymbol = createIcon("steam-symbol", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhAAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCGwsGAAE2AiQDCAQgBYMtBzMbHgXIjpQuZyTx8I/e/7dPknsfoHzTQ1Xjyi6hiirat6YV6lTI/vxf8/mlHRXINzq0jGVbgUQkT2CA0T6isuFsojim7U5r4hDNJQmaJJ/Tjs8Nsng6HlUieTL5AY+EN41fdbmPRCkFEI0AWLJr2wafDMZgxA/Fe8QP1iEgloJcIEWKXgHmSwV6ZXJkMsFgFIX5DcwJIMroThKQoYzLuBmQgUSWZS3DBlpqSnXZzppS9aknRke8Mfy1sW/F3ePernlgzJtdNc+0weXbA11vTB9u7F4bETvi9RG74nken/UlM2T7U2ODb1XfHze3johXu57sfGL4KyMfa1fBN2e8DtGeXc9xydFv9D656BrxQfu/DH2r8a3f/XDyBw/UVQaNdz3aGF3d0djd1RhV0xsKiji/0eQT1xk8cnT/Y845PNKFz1aeMFAUfykK/31YjabuLM3yp4y6cuXYPR0dM7cevefegS2PNqn++UPbWTEk37Fcw4rtf1m+owEIBD3Tv+051DD//8qaBPzy8Z9TeXySvIVKeChIxxfj7Y9P9FJx60zcYCh8UCBxWoZetdZjAoRqBEiUVQuQ6tEoQKbaOAFK+s0QoKzaNqnIqoRWBwpI1LoCUjPdDjKt3gEl832dLWuNVOoEmRE+fakra2jFunzKxMn53Jyty6IgcW5+Xr7sGn2D7RsDV510yUXXOeG4M66ryKs2FK53wcoZscIX5aaYaLLcXPl26/78Tidcdc0Zl1z0q8yTn4+NdsN89BjwJoh1quJEQiS112TXmPC2AQAAAA==");
 
 export default SteamSymbol;

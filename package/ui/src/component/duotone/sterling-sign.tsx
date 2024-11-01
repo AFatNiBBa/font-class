@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sterling-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sterling-sign?s=duotone sterling-sign}
  * @preview ![sterling-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sterling-sign.svg)
  */
-const SterlingSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M0 256c0 17.7 14.3 32 32 32l16 0 0-64-16 0c-17.7 0-32 14.3-32 32zm112-32l0 64 112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-112 0z" />
-        <path d="M176.4 96c-35.5 0-64.4 28.8-64.4 64.4l0 172.2c0 29-7.9 57.5-22.8 82.3l-.7 1.1L288 416c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-11.5 0-22.2-6.2-27.8-16.2s-5.5-22.3 .4-32.2l29.8-49.6c9-14.9 13.7-32 13.7-49.4l0-172.2C48 89.5 105.5 32 176.4 32c13.8 0 27.5 2.2 40.6 6.6l81.2 27.1c16.8 5.6 25.8 23.7 20.2 40.5s-23.7 25.8-40.5 20.2L196.7 99.3c-6.6-2.2-13.4-3.3-20.4-3.3z" />
-    </Icon>
-);
+const SterlingSign = createIcon("sterling-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfgAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBeQsIAAE2AiQDCgQgBYMtB1YbIQURlZqLyH4kxsYqH08jJmbxqsLq1ekv8fCik3zfdqI754CANwAuMc44RR2JtqoJAGjGkT6WdE039c3/NfXi+dEBfhC5DGuQa8CKJe9NYM8HEtqaYOmzmeLeNsTRCKQXFRImKY1VjtcWspiTnlAguSP5GpfpfwDjZ42dIFE1BRC1ADB64dzp3i9HOYmvKy+Lr01DQIwBrQRSpGgmwDCpQDOZVshkgnJSqShHpdJKAFFEH56CIgpYiY2ADCRCkmUDa9csFapnC0qFfOnDnSIebySOdBOlOF//piP1buTV4tEGtxr2jbsi4qGR7008335+3Kx/s96NejcaLIhbeRypH3GzVIqIPM7Vu2GhYD1Tw9viaINbed7myVpP/tr66w1fP7fy/trUzp/RbX34TI0zZ2rgadS69/DlD3zT5BmFsf1m1R8wq4mPlk4ZNuyVhz/qm66VvF/jDGdq1DJKLY+xs+Woou6y32EXEAh++uGvfStrDvu3SikBP775+9/1xMp/lXKMSZ5EFQkI0m6VbsvigAL9P0PAZBIHtIlR8F0EUgMl4FGruSVAyBEgUZQLkGqqlgCZXFcBClroL0BRbq5UZFWFepYPkKhmN0gNcBBk6nkJFAzzmVdUL3waZVSMUJ+8+AkcHb+o1aQsy1SjA4fI08e2rk8tw0obdu7Yt37d5n0M3zM93L99goaN/2GrSVncxTO/AL09ezfLrH+e47yr1wcblpMA+tzP+pRIIq2/d9/6Pds279jYPUbl7i+2p6HAvk4AAAA=");
 
 export default SterlingSign;

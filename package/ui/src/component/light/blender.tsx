@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blender` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blender?s=light blender}
  * @preview ![blender](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/blender.svg)
  */
-const Blender: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 72C0 32.2 32.2 0 72 0l56 0 24 0 8.1 0L471 0c20.8 0 36.1 19.6 31 39.8L423.1 355.4C456 365.3 480 395.9 480 432l0 32c0 26.5-21.5 48-48 48l-288 0c-26.5 0-48-21.5-48-48l0-32c0-37.8 26.2-69.5 61.5-77.9L148 240l-76 0c-39.8 0-72-32.2-72-72L0 72zM128 432l0 32c0 8.8 7.2 16 16 16l288 0c8.8 0 16-7.2 16-16l0-32c0-26.5-21.5-48-48-48l-224 0c-26.5 0-48 21.5-48 48zM423 224l-119 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l127 0 16-64-143 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l151 0 16-64L162.8 32l26.7 320L391 352l32-128zM72 32C49.9 32 32 49.9 32 72l0 96c0 22.1 17.9 40 40 40l73.3 0L130.7 32 72 32zM288 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Blender = createIcon("blender", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABiwAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCRwsGAAE2AiQDCAQgBYMtBy4bRQXIjsN0a3TfzkCNROLhP7v+f5/qvuqZR9eT8WmnEDMwBHv9lIjG8nbUL357j8/mN2xC7eRs6lTO5TwUwLeQBWUNWxNkgYTm6nkFCt7tywteyxWkphWwvm14bFQitCRMyCIa07HqBmW8EaZoI90XP8YttNL40SBXkpQFgOgJgJX77N7q3TrqiI9bLxEf24yAWAWyQIECQwVYohAYqpRRKgV1tFr4H5gJINrxcwmU6MCVuBX7ISRtZTmt/7DeXY22buXejbaqeGBFPOGNbnflu2TfeKjdB3Gv3Nmb8bDebREPrAd876ji4fm4xX7CXf26xT0l4n69e1TxoNxZj6ga1d16T2nE6KhC1tKM/aIR+xx+vUTcCXFpvosasXdU+z3U7u0P2wM+6vH0+B/58dEfO7f7bGbXC/b57fobzrZFrvnrz6FZ8ck3M7IZ33xSZM3yr5e7TrNFPXt290MvOSbn3L3O6u4rcG2N++wcJsZE9/oSLbcQ6J5XzDF4uQ+MuOTgd/gJeL3XoXq9/nijbs9g8efn7OzXb2fDAvHUH3+dsuqQHkv+7qQEfnj917/Lz0jr3fg/XdApgaCY0toOTNAR/wsAQIqzjUoQSC7Uht616W4BQoUASbtKgMIQPQUoVSYL0Ga4uQK0q+xWiLJL6OugDpKm00BhnotAqa8XQJsl3gva9Y0iFplIYr6Cies0vHZXnjltRl6Upylhw4vKm4vztjzh7NSaCFcd7RQnO9NRjnScMxV6uq3xWU6yzkPW+qJspmlmyBbJx8X2/N6OcrozHOcUJ9dtFsv3/QnO9ocngpYw7ix7kkSkjsNPfPSSTgcAAA==");
 
 export default Blender;

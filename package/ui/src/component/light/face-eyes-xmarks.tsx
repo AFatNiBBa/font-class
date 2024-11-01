@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-eyes-xmarks` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-eyes-xmarks?s=light face-eyes-xmarks}
  * @preview ![face-eyes-xmarks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-eyes-xmarks.svg)
  */
-const FaceEyesXmarks: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm260.2 80l-8.4 0c-29 0-53.2 20.6-58.6 48l125.7 0c-5.5-27.4-29.6-48-58.6-48zm-8.4-32l8.4 0c50.7 0 91.8 41.1 91.8 91.8c0 11.2-9 20.2-20.2 20.2l-151.6 0c-11.2 0-20.2-9-20.2-20.2c0-50.7 41.1-91.8 91.8-91.8zM100.7 132.7c6.2-6.2 16.4-6.2 22.6 0L160 169.4l36.7-36.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L182.6 192l36.7 36.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L160 214.6l-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L137.4 192l-36.7-36.7c-6.2-6.2-6.2-16.4 0-22.6zm192 0c6.2-6.2 16.4-6.2 22.6 0L352 169.4l36.7-36.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L374.6 192l36.7 36.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L352 214.6l-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L329.4 192l-36.7-36.7c-6.2-6.2-6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const FaceEyesXmarks = createIcon("face-eyes-xmarks", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABpAAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yCfgsGAAE2AiQDCAQgBYMtBzcbhQXIjsJxr8QQWgwxWVAOxYogfr82u/8hZhmSJvFkWjIp0ayRr1IiJEKxSqbdwf2vtZlT2MXlY67JRNPR1L1eKDwSmYnLnf/50wMu8kcba4Es/3sau32eQKDhe8sSygLLNAGLOd0mPnaE5RcSIzAiOj6p4+oCJfbREJt8Yjzgrrxp/BjTQioVAEQvALB9ExEEJ/zgBz78bxJvDoCA2AHALESFCpMQrGEKTGKZBYoi+MT/f/4NJCCAaAb9p0pQ0Ipn1AAFpObCUpwQkZhTo9nCrGi6iUoeM0dc87+jeL43pitk1GzV75ZuDbi3WNcQ+t7FOD95pluDHt1Ooz5cTwIfKF7wk/tZdCLVQfGkOuRo7JPpohQ6KHpTb1a5R5PCKYVhg3mb6G5pJ3SJbulOKUd0ik6pDhlndIwOmS5ZF3SOLlnafUB9TmzuR+0h7QE+joXOeHcOcnAIcn4764QKL/PttzH2curhcbouLwj7UgWvOhHQczKNumcdeNYbMvVUSOjt5Yj39UDlOFZM6JqbnfUAD4Lp67MES4241Yn7PIBA8EraauNF135baQbA997vX/sa+T9JyBrQKkFQLfwbikmQBAAgowzUExBIj5rpq3a6FyC0I0Bq1i5AZYIYBEW7eQiaTLOCoFm7C0xRBCEMiu1w6nQLV1bVwsWgdbjJmuuk2WAw45SKMuqXGO+NgNcpYmZsSuyJWzE69Ih86ECWdd2yNNGjRUiTL0+JVCkylQBUJCgvlct7Bnr5IMKMMVOEPbLdPvLRgClSLJOat3+MA3I+1lU2X69HFoPiLiqlJFLsEQhGd840qrhaAAA=");
 
 export default FaceEyesXmarks;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-fist` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-fist?s=sharp-light hand-fist}
  * @preview ![hand-fist](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hand-fist.svg)
  */
-const HandFist: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M176 32l0 32 0 128 48 0 0-128 0-32-48 0zM144 192l0-128L96 64l0 128 48 0zm-80 0L64 64l0-32 32 0 48 0 0-32 32 0 48 0 32 0 0 32 48 0 32 0 0 32 0 32 48 0 32 0 0 32 0 48 0 16 0 32 0 32c0 49.9-25.4 93.9-64 119.8L352 496l0 16-32 0 0-16 0-129.1 0-9.2 8-4.6c33.5-19.4 56-55.6 56-97l-48 0-32 0 0-16-48 0 0 16 0 32 0 16-16 0-96 0-16 0 0-32 16 0 80 0 0-32 0-16L64 224l0 32 0 16c0 48.3 35.8 88.4 82.3 95l13.7 2 0 13.9L160 496l0 16-32 0 0-16 0-100c-55.2-14.2-96-64.3-96-124l0-16 0-48 0-16 16 0 16 0zm192 0l0 16 48 0 0-80 0-32 0-32-48 0 0 128zm128-16l0-48-48 0 0 80 0 16 48 0 0-32 0-16z" />
-    </Icon>
-);
+const HandFist = createIcon("hand-fist", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSDDwsGAAE2AiQDCAQgBYMtBzAbjwXIjpSqo2PGw//b1f8+1dWD6kE9+T65nowPIkYEM6KDbNZPzbJG/59r6kXZ0YCiSIf2L4qWTVc2iojnEzjRlaUNfDycTRS3OjeiA1J8hfsV8rgjJqiT3ZZ9ghv9D42v9XM9mbwGIEoALNm1bYM3uqIr4pP/XyI+sQ4BsRQkgRpqGCjAfDWBgXIJuVzQFf//L/4DEwFEk/DtMpCjGU/gOUAOMvU8b289q7OzUW/PdzbqxT5BNCIiotgeogjRKEJENBoUJxIem1ePeXSMlXzY3CceGXBHFEXszQkNWHFg3zX2sRm9MH+g9vKkpwcb/lLYJmhtF0mILz0z7PHy8W+HfnLiJ565J6V0tcrVkmrIPVeH0ESqzaqSpCpBNjNV4mW1UqLuUYM73r74cukarc53wx9TlUrVRKQ8m4RuTkr3as9POWXklzqcs1R33O333dS+NV1+UYa1ymZ36K6+qrMKszabQ9LrQCB45B9nH+qc/2tLIwNfvf79j8Xz6f834t7scbTIQFCb8P8E++MNSTKOAqiZxYWG4S8KZB5QF15qc7MAoaDxZpoU3poBSm+uMN5bN9gM2Khs29QeeavQ0wHizbQ5x1sz0xXeXE8veOvme99o0jNq8MpDG/+7mLKyi69wSlMmVWlumu2pBBAEuzsvbY6MuVDOjMUHnegsZzrfCY47xfkd17k22Bc4w8oldoUfSqaYpJLMlQ4PHUbspOa5znPKtHh8n3nS9YUxLlxePhbHM2HYqRoyGZG1grcx8cRTzjsfAAA=");
 
 export default HandFist;

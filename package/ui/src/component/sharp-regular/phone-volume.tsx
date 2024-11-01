@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-volume` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-volume?s=sharp-regular phone-volume}
  * @preview ![phone-volume](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/phone-volume.svg)
  */
-const PhoneVolume: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272.4 369.2l31.9 18.4 26-26 33.2-33.2L457.7 366l-17.8 97.9C225.4 459.7 52.3 286.6 48.1 72L146 54.2l37.7 94.2-33.2 33.2-26 26 18.4 31.9c31 53.8 75.8 98.6 129.6 129.6zM512 336L352 272l-55.6 55.6c-46.5-26.8-85.2-65.5-112-112L240 160 176 0 0 32 0 64C0 311.4 200.6 512 448 512l32 0 32-176zM256 48c114.9 0 208 93.1 208 208l48 0C512 114.6 397.4 0 256 0l0 48zm32 208a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm80 0l48 0c0-88.4-71.6-160-160-160l0 48c61.9 0 112 50.1 112 112z" />
-    </Icon>
-);
+const PhoneVolume = createIcon("phone-volume", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABgAAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCOgsGAAE2AiQDCAQgBYMtBzMbPQXIjoTcROtfWJS4RlDpqrJamgNAHTFpjgAeAK23idjeeJfA/amQ9/m/3PN7fnSA3+jQxlogy0d7CvQ8wMJsTMyWZ4FlmoBl7ewTlNIpJSTxSYbtDaMj5PF63KVCejh9gTvDh8YvOrqOpJIBiBYAmFFdtcQ7dVEX8XntReJzixAQM0AhkCFDFwEmywS6yBXI5YK6qNXMf2BBAFEPXp5Ajvo4igcBOUgqed6tY4vWzRpXmuZl40qjHQMGDhgU02JNrI6fSs1W2/rJ0T8GxI9rquWacvnMXRUlxxqwmG8c1fU/roj4tlzx08z3ln5VWnNr+4gH4+p2DzS6pc19rmp7f2Ns36jxT1PfKsWLAx7t2vOxFo/95ovdX2i+9G9s8bCWNvXRcpuDqRxdHTWqmvZMB7a11GeT8LBuhq1YMez34pFpLnPGnAED5pxRV3i6u4KLk3YSu1Pd4qJC96dr3avxGI9FdTjzOnS8++p5hnf/utlN3NRM1xll+XDcOWZ98cWsGO7P/zcHAkGL5zbu2tJ88n8NGifw82vLv6LaO0l6DA0kEGSDa4NtTCARAIAUp/VMEEj2qqB3beIBAUIjBEjqaSRAprMWAuQaGSRARTdjBKinkVUykTcU2tjUQNLEMZAZ6xLItfE8qJjs46ieNpFJISFDxB8wdm4PzVlWjBg6vJhYLOsKKViYn59UbKv9T9u+AbTRbkccdtIuO+1zskOOW5KecshcDp7jiwojDDVcYaLiuPXIlso97oTF5uT5IiYp7of9neZHDyAjAepIJUkiUpNnKgx54wAAAA==");
 
 export default PhoneVolume;

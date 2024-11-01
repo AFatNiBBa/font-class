@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snowflake-droplets` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snowflake-droplets?s=sharp-thin snowflake-droplets}
  * @preview ![snowflake-droplets](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/snowflake-droplets.svg)
  */
-const SnowflakeDroplets: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M328 8l0-8L312 0l0 8 0 100.7L261.7 58.3 256 52.7 244.7 64l5.7 5.7L312 131.3l0 110.8-96-55.4-22.6-84.2-2.1-7.7-15.5 4.1 2.1 7.7 18.4 68.8-80.3-46.3-6.9-4-8 13.9 6.9 4 80.3 46.3-68.8 18.4-7.7 2.1 4.1 15.5 7.7-2.1L208 200.6 304 256l-96 55.4-84.2-22.6-7.7-2.1-4.1 15.5 7.7 2.1 68.8 18.4-62.2 35.9 7.3 14.2 62.8-36.3L178 405.4l-2.1 7.7 15.5 4.1 2.1-7.7L216 325.3l96-55.4 0 110.8-61.7 61.7-5.7 5.7L256 459.3l5.7-5.7L312 403.3 312 504l0 8 16 0 0-8 0-100.7 50.3 50.3 5.7 5.7L395.3 448l-5.7-5.7L328 380.7l0-110.8 96 55.4 22.6 84.2 2.1 7.7 15.5-4.1-2.1-7.7-18.4-68.8 62.8 36.3 7.3-14.2-62.2-35.9 68.8-18.4 7.7-2.1-4.1-15.5-7.7 2.1L432 311.4 336 256l96-55.4 84.2 22.6 7.7 2.1 4.1-15.5-7.7-2.1-68.8-18.4 80.3-46.3 6.9-4-8-13.9-6.9 4-80.3 46.3L462 106.6l2.1-7.7-15.5-4.1-2.1 7.7L424 186.7l-96 55.4 0-110.8 61.7-61.7 5.7-5.7L384 52.7l-5.7 5.7L328 108.7 328 8zM576 352.2l41.8 73.1c4.1 7.1 6.2 15.2 6.2 23.4c0 26.1-21.1 47.2-47.2 47.2l-1.6 0c-26.1 0-47.2-21.1-47.2-47.2c0-8.2 2.1-16.3 6.2-23.4L576 352.2zm-9.2-16.1l-46.5 81.3c-5.5 9.6-8.3 20.4-8.3 31.4c0 34.9 28.3 63.2 63.2 63.2l1.6 0c34.9 0 63.2-28.3 63.2-63.2c0-11-2.9-21.8-8.3-31.4l-46.5-81.3L576 320l-9.2 16.1zM22.2 425.4L64 352.2l41.8 73.1c4.1 7.1 6.2 15.2 6.2 23.4c0 26.1-21.1 47.2-47.2 47.2l-1.6 0C37.1 496 16 474.9 16 448.8c0-8.2 2.1-16.3 6.2-23.4zM8.3 417.4C2.9 427 0 437.8 0 448.8C0 483.7 28.3 512 63.2 512l1.6 0c34.9 0 63.2-28.3 63.2-63.2c0-11-2.9-21.8-8.3-31.4L73.2 336.1 64 320l-9.2 16.1L8.3 417.4z" />
-    </Icon>
-);
+const SnowflakeDroplets = createIcon("snowflake-droplets", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAAB2gAAAK6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSCFJQsGAAE2AiQDCAQgBYMtBzkbrgbIhofn7fo691X1R/UHq2dcA2LJ1kLOoFzIJnK460jMyJCRMHXqeYA22AMFJB6wEK3ZPTHDe6GvrcHFnldw4qYJ/EAtVtRqmF4h3bNgdmXvEfL42yVqpCfTe7g/Qip+MNV9JFkGIEYAcFi3eZKXvolvIt79/xniXScgIA4DlUCmOjMAZ7sTeDhXIZcLvon//y//AysCiB4JSgnk6CXmEKcBcpDU8vz18cZEWa8N5p16rbg8RBFCnB5lTMRknBaiEx3obbdOyyo3ohvCPOtEq/cUSdgNcSrgzZCuR+KcRpXKOF2j29Fmd+KkaMTJ0XUmNu3pSiAe3IatiGiqbzs14sx2p/2oJyYemV/E3vKxaXc3umWr23rEk0sOLKjHvmWHpt9dXjV5TVdd0I5pw8opm6I19+DIwZ/mvHfZe455ri953Yg+lxrTctBRvnC98zcqmxq+1zB6hFNWuNjtLm7MI7XIhXa6UXPSEF1Zt2+kZLb3vdu9P15e1l5osiX8iet94SgHtYy5VJ+jmJbyC753rfcdMebGQ2R213U0XbihbLZ/7y45Nu08azB7773VyeqymA2eheX7V56qbbhjtBiJPcmeGClG71CT7leT1RkiVR1gwdCPJ1q8u0EguP35zeeeP7z91756At+9+MsP9e3+fyndlQ6iTwJBtvz/5c5Jd4G1ICR+itvMlTgBK01Vk6A64DEBQoEASY9CgMx0IwLkCssEqJllgwA9Ck2ZyPuFCecGIBlwI8hsdDvITXgK1Gz3ptdjIrJXR73x1T/XrKMRO2pdtWbl6mprJYRa7W2QpbPbqsmpxbdRPUvUrS5zvevc4lKXuNItQN/kpPBW1zpaxj3qs5U1VlqtslW1eCja6oB3k5tdyTeWL7NNtX1tsdvkw5eo2SThXSuSJCKNfZHsy15ze8XDK39qAA==");
 
 export default SnowflakeDroplets;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crystal-ball` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crystal-ball?s=regular crystal-ball}
  * @preview ![crystal-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/crystal-ball.svg)
  */
-const CrystalBall: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 224c0 71-42 132.2-102.6 160l83.3 0c41.5-40.7 67.2-97.3 67.2-160C448 100.3 347.7 0 224 0S0 100.3 0 224c0 62.7 25.7 119.3 67.2 160l83.3 0C90 356.2 48 295 48 224c0-97.2 78.8-176 176-176s176 78.8 176 176zM167.5 100.3c-2.6-7-12.4-7-15 0l-9.8 26.4-26.4 9.8c-7 2.6-7 12.4 0 15l26.4 9.8 9.8 26.4c2.6 7 12.4 7 15 0l9.8-26.4 26.4-9.8c7-2.6 7-12.4 0-15l-26.4-9.8-9.8-26.4zm113 48l-18.4 49.8-49.8 18.4c-7 2.6-7 12.4 0 15l49.8 18.4 18.4 49.8c2.6 7 12.4 7 15 0l18.4-49.8 49.8-18.4c7-2.6 7-12.4 0-15l-49.8-18.4-18.4-49.8c-2.6-7-12.4-7-15 0zM20.3 474.2c-5.1 7.3-5.8 16.9-1.6 24.8S31.1 512 40 512l368 0c8.9 0 17.2-5 21.3-12.9s3.5-17.5-1.6-24.8L386.9 416 61.1 416 20.3 474.2z" />
-    </Icon>
-);
+const CrystalBall = createIcon("crystal-ball", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABjwAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCSwsGAAE2AiQDCAQgBYMtBzMbTgXIjtFjR45heHJJgssYP4L6/dC99yEA6BOFCkmisYlQoBBKsqoxrlPbCl9WLFz85/0r71mIb/5CQC2WRiUHbKEqmyppZ+Ka53/+DRhF9ihV1Fb8S5Cu8wkMdDiLEk7awGY6AdvubIdRK82zkpaykOMcx+MEeczihgrSa4FPuM4fGr906ScpMgKIRiIAc7txEXT2BV8Cj88HxEcbSEDMEWEQkCFDL4BJggK9hAwiuVzwBXw+/gcyFECUxNclkKPEMe7o34Mkz4XMOE5OUlhaKFFSWCJvaRhYd5bEmtUW3truhj4EXgXfWW+zbosNE0mcWm5yn+PeJ32MeZuQOFEdGFVSgz7G6LDNAOoYlzxX1YQRJnGkYgiNBGs76+ABGgIb1A5hWShssSriLeSPtY0rS2NSdVLFF1Lw5lblVv/wngqf6Pqz8Al5+hlPL2pqVjJvP5hrf/mibX7xVsZKTe0lnn6unBQRKofQYkF2+92mL0yK1hl6MlcI+y57ozXQ9EfpnflqnxVne1Y8dhQMVJ54kTxpSJ7+BiWhgLL0sjfV9EayEcsSD8R19f9/xGTJuv8TkxQg+Hb69z/6FT2f4SytEpUSCLJhvrn0OIN4LwAAKRqJizMEkgNC+FVrvRAgVCNAUqoWINNDDkCu2hCAQj8HAKVqmwRFLk6hVUYjklr7RGZCB5FrtUcUJt3mpdYQ9EbVl9TPYFagBgLWMRtLa+bKhk1VczCZlt3YtGvcGIdMYCsVqlKpXoF8JeoVXiui1KBCoAUG+CLGhiVrjCu23bm3EhWtVp0SUaX9Vdyw87GxRnuyCQQCWHBETZKIJPVubYsbBg==");
 
 export default CrystalBall;

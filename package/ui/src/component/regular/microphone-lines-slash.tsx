@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microphone-lines-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-lines-slash?s=regular microphone-lines-slash}
  * @preview ![microphone-lines-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/microphone-lines-slash.svg)
  */
-const MicrophoneLinesSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M472.1 344.7c15.2-26 23.9-56.3 23.9-88.7l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 21.2-5.1 41.1-14.2 58.7L408 294.5c5.2-11.8 8-24.8 8-38.5l0-160c0-53-43-96-96-96s-96 43-96 96l0 54.3L38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L472.1 344.7zM272 187.9L272 96c0-26.5 21.5-48 48-48s48 21.5 48 48l-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 0 32-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 0 64c0 2.3-.2 4.6-.5 6.8L272 187.9zm86.2 190.3C346.1 382 333.3 384 320 384c-70.7 0-128-57.3-128-128l0-8.7L144.7 210c-.5 1.9-.7 3.9-.7 6l0 40c0 89.1 66.2 162.7 152 174.4l0 33.6-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-33.6c20.4-2.8 39.7-9.1 57.3-18.2l-43.1-33.9z" />
-    </Icon>
-);
+const MicrophoneLinesSlash = createIcon("microphone-lines-slash", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABiQAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCNwsGAAE2AiQDCAQgBYMtBz0bRAXIHge5afIGHEVj9oJ/erv6c9/rnprt2e/pBXv9LWdiJDqCIjpjBA/i4HYAvHEgkCdS5ebP/+X0xvOjA/xGhzY2Ld20ht61JyeQWC/fOkF6WZhlkoC3O5vDlGiPY2mtLMnrshyPHXD0R8twwaw3d4Gl9U31kWTzweBaAABUFAAAaNSjSzuuvdEb6U7sNOgObQABqBEAAQEWsEAaAVCXRUAahwA4OAjeKBaL/4EBCAAUgg4zADiAC8wAloD+RYDBOk7pnJIRt5DTPeJ6Q47mSBvydyWh2UmltVHSltIHqp8quS8Nddee6Dp/knYnbkzo3l1oY+Lagt3+6mRPq6Kr/YgQP/Vsunfb5V2vfyVbqq9VoIf1LndDnnYlrc+LRPambsj3JO0tqJ99oOiBz1l3h9/l8fARlOS3k1+S4FYyyd9G+MCB2bMPHAhX59wyyvyJ/x02uVvmxqa+dIC996JixRf3bMCbwoXfBATChRpinQGtu132ox2bVHXj+ICxJaHJ0a2N4rKpqJPvd2rZsj2sItneb94OAAIEfTPutxhQpO63cMQA8O7C1+94ZmyMWWQOAGEMAAJbNlaWvma2AV2KzuBoOtnwSQgwTMNCrxrPGgSA8AABYAjhIQAsqYoSAA4eZQgAlwzVCIAQHl2wyIlDRPXrwBDPJGCpbgZwiDoJXOq64YeIxvog7UH0FzChuUSbrQsqla8Y1A6Gdcy4FZnn6wTTcsnp2FcKtjKcCYxnKsMYyiimCnwy7aJpjKO5hTXjiwQqKa+iQG3Bcmu9uTvDmMwURjGB8WWVOoL9eknT7dGlQDMQYWUFgwGZhMdL+alU7ubmyk0ZO2jKSAAAAA==");
 
 export default MicrophoneLinesSlash;

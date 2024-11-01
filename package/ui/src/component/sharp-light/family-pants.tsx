@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `family-pants` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/family-pants?s=sharp-light family-pants}
  * @preview ![family-pants](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/family-pants.svg)
  */
-const FamilyPants: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-96a64 64 0 1 1 0 128A64 64 0 1 1 128 0zM62.7 192L57.4 320l6.6 0 32 0 48 0 0 32-48 0 0 144 0 16-32 0 0-16 0-144-8 0-32 0 1.3-32L32 160l139.3 0c-2.2 7.6-3.3 15.7-3.3 24c0 2.7 .1 5.4 .4 8L62.7 192zM368 352l0-32 48 0 32 0 6.6 0-5.3-128-105.7 0c.2-2.6 .4-5.3 .4-8c0-8.3-1.2-16.4-3.3-24L480 160l6.7 160 1.3 32-32 0-8 0 0 144 0 16-32 0 0-16 0-144-48 0zM384 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-96a64 64 0 1 1 0 128A64 64 0 1 1 384 0zM256 208a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112 56 56 0 1 1 0-112zm48 160l-96 0 0 96 32 0 32 0 32 0 0-96zM208 416l-32 0 0-32 0-96 0-32 32 0 96 0 32 0 0 32 0 96 0 32-32 0 0 80 0 16-32 0 0-16 0-80-32 0 0 80 0 16-32 0 0-16 0-80z" />
-    </Icon>
-);
+const FamilyPants = createIcon("family-pants", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABsQAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDbAsGAAE2AiQDCAQgBYMtBzMb7wXIjtEno+KIMVHmGHweLx7+/963fe67qa2CViyAAQvGYo2+UeoMDdCs6KwB/v7z4/DPHcQ3mw1EhdjAUBfXwP89cTn++/PfgBNf+NFma03c29M80Wz6As8CyzQB60zvwYLOfumw6QY5jsIQ3KTXdAsenQ+Nf+Q1Q5ILAEQzAODkKiII54/0GHRb3oH4LQAExCmAYYQCBfoR2Mcp0I/LMMiy4C/9L4v/QAYBRCW8xyWQUY8/gB8AZJDUZi5JYTU1quYXZXqC3MJc0fq1AgldXURj0dA5WtvZPqy+Y6SOdmYWpufXd2cX55a2IiNjIgUFEbWE4DARVQooUgwJ0tQyAreEGASiuQ3R0ClIUSTfaS0Vs/vlc32Tk9PdExM00zPRPT4+2zvZNzUVJSAosKmFIjMdecIVtsU1usoT1BebF/+r3Wb/Rt21SDs8NMYdoj7VdFFV1dgUR13PKuqsV/OGMqb6iWHE9OMbFkVlSRf9Bi6uPNPSMGOmOtx1yMOVhfW7+lOihqsn78O06f8xVXUPYR0dYWF96Muv379/vUiPSenGY4Mdp6bUMQ3KAHaf2oXuvi20vBsQCN7WfD5TRB0/q+s4AD+Hz6/kZ9RdPqentAiqJRAU8/8NJSboJhdPCACQohrqCboRkm8I8N613hMCoRYBkkq1AhT6iCGQ1ZpDoMIgKwQq1TrDKTI/Qrukkkzq3ZGFTTVk1m6LrLDvIlupPTjBWwJO6eEyjXcd9DrEVoxNmT0b7MhliBXMTQc22zJdLSf08FFkK1GsUpZMeSprRLmgQpUi3mOQly9izBgzxdhjq/u3NdE0W65CXr/R+l0csP0DuqrH5+thOwePd1VDkogkdBcYjX48rK0AAAA=");
 
 export default FamilyPants;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-rain` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-rain?s=sharp-light cloud-rain}
  * @preview ![cloud-rain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cloud-rain.svg)
  */
-const CloudRain: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M384 128l0 32 32 0c35.3 0 64 28.7 64 64l0 64-64 0L96 288l-64 0 0-64c0-27.8 17.8-51.6 42.7-60.4L96 156.1l0-22.6L96 112c0-44.2 35.8-80 80-80c27 0 50.9 13.4 65.5 34l17.8 25.2 25.9-16.9c10-6.5 22-10.3 34.9-10.3c35.3 0 64 28.7 64 64zM0 320l32 0 64 0 320 0 64 0 32 0 0-32 0-64c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C247.3 18.8 213.9 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 64 0 32zM82.6 452.6L96 430.2l13.4 22.4c1.7 2.8 2.6 6 2.6 9.3l0 2.1c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-2.1c0-3.3 .9-6.5 2.6-9.3zM55.1 436.1c-4.7 7.8-7.1 16.7-7.1 25.8l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8l-22.2-37L96 368 77.3 399.1l-22.2 37zm187.4 16.5L256 430.2l13.4 22.4c1.7 2.8 2.6 6 2.6 9.3l0 2.1c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-2.1c0-3.3 .9-6.5 2.6-9.3zm-27.4-16.5c-4.7 7.8-7.1 16.7-7.1 25.8l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8l-22.2-37L256 368l-18.7 31.1-22.2 37zM416 430.2l13.4 22.4c1.7 2.8 2.6 6 2.6 9.3l0 2.1c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-2.1c0-3.3 .9-6.5 2.6-9.3L416 430.2zm-18.7-31.1l-22.2 37c-4.7 7.8-7.1 16.7-7.1 25.8l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8l-22.2-37L416 368l-18.7 31.1z" />
-    </Icon>
-);
+const CloudRain = createIcon("cloud-rain", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABvQAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDYAsGAAE2AiQDCAQgBYMtBzEb4QXIjsK22TNiCJJDvgZZJ1c8//9r/Pa58+bL/O/QRCMkTXiIXgKJ0AjNJIonsjezKN5YZCrjPz/uPfdDfJOU/t8ShAaltbnJUU5QaAsVnP9r6gUdHRXINzq0SCs9kFh61/PmBqq0orXIbGATH9AEbH47P4OTdLxNEsoRf9iuP2x/+SdouaBgfOoK5wWcim+av8wmobQOAFkEAPuPuUpw+5N+Ji/jEXmjCARyAMB6hA4dViOwC1ewGs960DThZ8aR/gMZBMgE8LwCDQM+gk8AGihTjRe4QWOy/mqzlC/nlflDJU0gM9kM2DWDBhnRmHHRz48wczloP+4oIICCsiiV6GrpoAwiWgrci02Tpryvcw/9d2ygGw4y7XJklclqpnnIed2C4c70wDnIFf28z7Zx0dqNkCGUAuOf4K22Y2aLmTpbA4PDgnn6xj3V3rvHS+OLkb0M52NFrZakI/1kOvRPb3zzYGBARxtU0yMip/FnpTR75IYxMOlE9/ZG0172LvnVr8//SoMzo1CZDnZw8g7fGnj1HMz//Kko9JvutykK3duv4eFvr9zC/HE3QoVyP1StYS/6GOriWajb7ebHAUG43ZjzX6Xc9U8k5QB+P/j8Rv4Vjbel7oEpBUK3ZQxWXqAIAKAyCM8CgvKSCF511kUExICAMmEQ0FlFhUAz2IxAb60YBCYMDuFKEyNWqqigzDoBOjsNgWalA9Db5d6esDJcxebVkv+sTMlt0ZxhLCI0nCWyaVQRdJUN1UlsW/MfdFkBZisadenUr0G9Fv0N0avEM6BDroTn+CAmQqhwTCJ2nHhcX6ZBrz4tunRyLUnY85a/QblwgDE5wLhVSClSkj8cqiFvHwAA");
 
 export default CloudRain;

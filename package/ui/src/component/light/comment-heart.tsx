@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-heart` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-heart?s=light comment-heart}
  * @preview ![comment-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/comment-heart.svg)
  */
-const CommentHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 240c0-91.4 93.8-176 224-176s224 84.6 224 176s-93.8 176-224 176c-32 0-63-5.9-93.5-16.2c-9.9-3.3-20.7-1.8-29.2 4.2c-15.4 10.7-31.4 20-48.4 27.4L91.2 446l-6.4-14.7c-10.5 4.6-21.5 8.6-32.7 11.5c.5-.9 1.1-1.8 1.6-2.6C68 416.5 76.3 391 79.4 363.9c1-9.2-2.1-17.7-7.4-23.9c-24.5-29.4-40-62.9-40-100zM256 32C114.5 32 0 125.2 0 240c0 46.6 19.6 87.1 47.4 120.5c0 .1 .1 .1 .1 .2c-2.6 22.6-9.5 43.5-21.3 63.1c-6.5 10.8-13.5 20.8-21.7 29c-4.5 4.6-5.9 11.5-3.4 17.4s8.3 9.8 14.8 9.8c28.7 0 57.6-8.9 81.6-19.3c19.2-8.4 37.1-18.7 53.9-30.5c.2-.1 .5-.2 .7-.1C185.5 441.3 220 448 256 448c141.5 0 256-93.2 256-208S397.5 32 256 32zM176 221.3c0-16.2 13.1-29.3 29.3-29.3c7.8 0 15.2 3.1 20.7 8.6l18.7 18.7c6.2 6.2 16.4 6.2 22.6 0l18.7-18.7c5.5-5.5 12.9-8.6 20.7-8.6c16.2 0 29.3 13.1 29.3 29.3c0 7.8-3.1 15.2-8.6 20.7L256 313.4l-71.4-71.4c-5.5-5.5-8.6-12.9-8.6-20.7zm72.6-43.3c-11.5-11.5-27.1-17.9-43.3-17.9c-33.8 0-61.3 27.4-61.3 61.3c0 16.2 6.5 31.8 17.9 43.3l82.7 82.7c6.2 6.2 16.4 6.2 22.6 0l82.7-82.7c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3c-16.2 0-31.8 6.5-43.3 17.9l-7.4 7.4-7.4-7.4z" />
-    </Icon>
-);
+const CommentHeart = createIcon("comment-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABlwAAALRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCaQsGAAE2AiQDCAQgBYMtBzQbbQXILgbsxulmIQyiPaAIozVb4RsDHDs8DP4p/3jP3befZkWGPSB1bDPpAxKsaa5VgIpIIQiHLAGH4Gtf6pEmljOqsyMAjuV9lGV7A0WvEnDD8ewFloAbcRFE2/I+obTzEiyLBjayKUxm9EQLdHC7+jXgwDyhzDZxufOf9vTn0+hR9tSnbPlYgxMINOqyMYHWeRZmgWKMvU3xUSIKoR4JiZSI3n1ux7MjsIFnysYF5t58B7vqm+qNEusxbAgAACUBAICGwdW4ozDy3Qs9sQUIoAkA8Qg4wAHRCEA1DoForHjAsoS/MuJ/oA8EAEXh32MAWOAK9sBFALAADBu2KbGYSK+Ijx3wcvEc/HMk+rFfB28nn/uvx0r+YPD55BDl5Sr5kNaE3Yo7FPoycfBzJfpcCTyP/zVeyxqv4+n7g/eHHPB6VHUpa5u+zM/Ww/A26Wzty8770/6xKnDIa1tIhq7DsmSnA6yzfTKggxq8qj2ffjl8dUa/kTUo16KOZl5Nna4JVj5w1f/qf//j2aPGS6De8mPLdP24wRMPT8x/+f8LZcSIvzBCY7nhclR/X0soHKtDrCbYchdo4Nr1/DxY0d7puloH8G+7HHKoJdp2x7YuaT3Xb8Jib+/NCVx5aLFZ/MWbFNFaRLF1ZXumP2I3PMqWno7J95tKwgNOr5OzuQQAAWHOkuHYVL2J6wwA/97XJnn+9RUqmEfgzgAQnPa/M2YgFOaih0sEFhKADxJgbBHGr+rtoAAA8QQCYLjyJACOKPwRAMtTFgLgIpYSBMCVp17UFPZAghkfjOFtDuMoZQVjBXOPcVHNp6SrYAkFpxRa0r9hemkgl1kqNz++Mt6sEjnehDxdFb/tBxdSVwZsxIojDjlnyYIdzhV+SiNzwQFFDyvwRXwUkEs+8VQSf9x4Xj9kySln7HDEYVmkivj7cToL/cEZEKkwayElhoGCPq+DGd8IAA==");
 
 export default CommentHeart;

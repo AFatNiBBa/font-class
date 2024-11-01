@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `menorah` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/menorah?s=duotone menorah}
  * @preview ![menorah](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/menorah.svg)
  */
-const Menorah: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 62.8L0 64C0 81.7 14.3 96 32 96s32-14.3 32-32l0-1.2c0-4.5-.9-8.9-2.7-13.1L43.2 7.4C41.2 2.9 36.9 0 32 0s-9.2 2.9-11.2 7.4L2.7 49.7C.9 53.9 0 58.3 0 62.8zm96 0L96 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-1.2c0-4.5-.9-8.9-2.7-13.1L139.2 7.4C137.2 2.9 132.9 0 128 0s-9.2 2.9-11.2 7.4L98.7 49.7C96.9 53.9 96 58.3 96 62.8zm96 0l0 1.2c0 17.7 14.3 32 32 32s32-14.3 32-32l0-1.2c0-4.5-.9-8.9-2.7-13.1L235.2 7.4C233.2 2.9 228.9 0 224 0s-9.2 2.9-11.2 7.4L194.7 49.7c-1.8 4.1-2.7 8.6-2.7 13.1zm96 0l0 1.2c0 17.7 14.3 32 32 32s32-14.3 32-32l0-1.2c0-4.5-.9-8.9-2.7-13.1L331.2 7.4C329.2 2.9 324.9 0 320 0s-9.2 2.9-11.2 7.4L290.7 49.7c-1.8 4.1-2.7 8.6-2.7 13.1zm96 0l0 1.2c0 17.7 14.3 32 32 32s32-14.3 32-32l0-1.2c0-4.5-.9-8.9-2.7-13.1L427.2 7.4C425.2 2.9 420.9 0 416 0s-9.2 2.9-11.2 7.4L386.7 49.7c-1.8 4.1-2.7 8.6-2.7 13.1zm96 0l0 1.2c0 17.7 14.3 32 32 32s32-14.3 32-32l0-1.2c0-4.5-.9-8.9-2.7-13.1L523.2 7.4C521.2 2.9 516.9 0 512 0s-9.2 2.9-11.2 7.4L482.7 49.7c-1.8 4.1-2.7 8.6-2.7 13.1zm96 0l0 1.2c0 17.7 14.3 32 32 32s32-14.3 32-32l0-1.2c0-4.5-.9-8.9-2.7-13.1L619.2 7.4C617.2 2.9 612.9 0 608 0s-9.2 2.9-11.2 7.4L578.7 49.7c-1.8 4.1-2.7 8.6-2.7 13.1z" />
-        <path d="M64 160c0-17.7-14.3-32-32-32s-32 14.3-32 32L0 288c0 53 43 96 96 96l192 0 0 64-128 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-128 0 0-64 192 0c53 0 96-43 96-96l0-128c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 128c0 17.7-14.3 32-32 32l-192 0 0-160c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 160L96 320c-17.7 0-32-14.3-32-32l0-128zm96 0c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96 0 32 64 0 0-32 0-96zm96 0c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96 0 32 64 0 0-32 0-96zm192 0c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96 0 32 64 0 0-32 0-96zm96 0c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96 0 32 64 0 0-32 0-96z" />
-    </Icon>
-);
+const Menorah = createIcon("menorah", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAACCwAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhlCGDQsIAAE2AiQDCgQgBYMtB0obKQfIhoePNd8/d/cBwRYYVauAyXUmBQTbVMInFffRCFYEOvN/ued3oAf4+UDPD2Xv1qCxAefUBV4eHqVtPYGGl0AAHBCWtTl0+EnihyJEjuc9HpEaJqW9I5Qkw9ILSkmeJt/h9vHE8atOF0hUpgCiAQAL1qxYrvB9fJ/Ed8UPxHeWISAWgkwgRYoeAWZLBXqUyFCiRPB9UizyfcifX0YAUYb6l4Iy1BG7iQOAEpAoVV5SsrZF4a5sdWltyepz76oNZ9siHlVda3lAvBzxdkp1iKrAVK71YXVOXW9/HJwQr6qIqI5PR73rD2TCQu6iXN7QY0Sbi6ieuUZRHWGjqXgNJWIkeWz3W42OB6pdHwbmG/K/D/hu93fm9ddd4Upd3ZUrdTkV+XyuYL4cpG3gzZtanTNfQY72VBAmZwreiEYVSM/WmdtulZkvs9VOohApOxsRD/yqQvmQLkMrKoZ2GVK+1f0cEAi2tf1Ss6V+9v8V1Qn48Ys//72vKBaSXJJHhQQE6ejiaBtLGgo6gGISpw0k7ySQ+kQ5vdUajwQIVQiQKFMlQKpbgwAlqowSoFSfKQKUqbJCKkoqhRabGkjUOAZSU50BJVq8B6Vm+zJfpiXS/cbsFuZ3N3EpQks2ZRPGjs9mZt2aym4his7OysLm8NOmZ0TaabcjDjtpl532OQnIcctLpxyylGGXvD4zwVjjZWbKhptacTXkjzthn8+PrzJLNj8+3Gk+fERyEoo7kUcqJZJI6z+i8W17xyxcrRH5FQoAAA==");
 
 export default Menorah;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hamsa` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hamsa?s=light hamsa}
  * @preview ![hamsa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hamsa.svg)
  */
-const Hamsa: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32c17.7 0 32 14.3 32 32l0 32 0 112c0 8.8 7.2 16 16 16s16-7.2 16-16l0-112c0-17.7 14.3-32 32-32s32 14.3 32 32l0 176c0 8.8 7.2 16 16 16l50.7 0c16.2 0 29.3 13.1 29.3 29.3c0 7.8-3.1 15.2-8.6 20.7l-90.2 90.2C348 461.3 303 480 256 480s-92-18.7-125.3-51.9L40.6 337.9C35.1 332.5 32 325 32 317.3C32 301.1 45.1 288 61.3 288l50.7 0c8.8 0 16-7.2 16-16l0-176c0-17.7 14.3-32 32-32s32 14.3 32 32l0 112c0 8.8 7.2 16 16 16s16-7.2 16-16l0-112 0-32c0-17.7 14.3-32 32-32zm0-32c-27.9 0-51.7 17.9-60.4 42.8C185.4 36 173.2 32 160 32c-35.3 0-64 28.7-64 64l0 160-34.7 0C27.4 256 0 283.4 0 317.3c0 16.2 6.5 31.8 17.9 43.3l90.2 90.2C147.3 490 200.5 512 256 512s108.7-22 147.9-61.3l90.2-90.2c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3L416 256l0-160c0-35.3-28.7-64-64-64c-13.2 0-25.4 4-35.6 10.8C307.7 17.9 283.9 0 256 0zM176.9 349.3c6.5-6.7 18.7-18.4 33.5-28.2c15.1-10.1 31.1-17 45.6-17s30.5 6.9 45.6 17c14.8 9.9 27 21.5 33.5 28.2c.4 .5 .9 1.3 .9 2.7s-.5 2.3-.9 2.7c-6.5 6.7-18.7 18.4-33.5 28.2c-15.1 10.1-31.1 17-45.6 17s-30.5-6.9-45.6-17c-14.8-9.9-27-21.5-33.5-28.2c-.4-.5-.9-1.3-.9-2.7s.5-2.3 .9-2.7zM256 272c-23.8 0-46.2 11-63.4 22.4c-17.4 11.6-31.4 25.1-38.7 32.7c-6.7 7-9.9 16.1-9.9 25s3.2 18 9.9 25c7.3 7.6 21.3 21 38.7 32.7C209.8 421 232.2 432 256 432s46.2-11 63.4-22.4c17.4-11.6 31.4-25.1 38.7-32.7c6.7-7 9.9-16.1 9.9-25s-3.2-18-9.9-25c-7.3-7.6-21.3-21-38.7-32.7C302.2 283 279.8 272 256 272zm0 104a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Hamsa = createIcon("hamsa", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABtQAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDSwsGAAE2AiQDCAQgBYMtBywbxwVRVA5KZB+F416JR8TQhtKWOGjTIBYhbB4GZzz8/37f9jnvvhEXIGnCq0qcRhWLE2kkbZOH0CzSxEL5i0qehLz/X+53b9AnqxfgTeZGa/MsDEunvfm/5vMrPDrAb0cneihZKy2s0IjiCQyw6GaRomUD2RuNfAK2QXdBmtjN4+sAJd7FAfLk6/yEZ9WLxm+T6kmlAhADAMDpmyF+cN3CVsSn5oD45CwQEGcAFiAqVJiB4BhZgRlyFoCiCFrRNNF/IAEBRJvmlhIUtOMjfgIKSHUpUwFWosnObnmaXDilVolp42EMgPD56JAAo2Z8iNI2OgCghxLrum1uKH4LfQoOxxeMqRQU4Xwh3oytIxjzE4Mq8xvLQsAunPepNgjD72HPIRH4Jkb3reqqBDqMmGtUN8qJHDJa0lvQWTmF0q8/r72ou8p3ReyrMZALtrELDFZsjozWBENY4zAqIVtYkoRXzgtHdDR3mau/i5/SH6GZojfTTCdQiN76oY/KU4Dr1W3Q2Qr1SROV2nw7Ciw9wZPlojS74aYn1EMghm1LajqJtyW8P1Cu/HOnWayuHcvQDZQn2W7GexiEeV8WsUWdoFsLpqGL/Z0d7v8Vyh+ef+xoYlVgYFXiKGRC/Yb/OefeufNROn30/VyvsxPNDOLxZIN6MoA4b+vyXngC49heByXBr7d/e+ZfUXOdchcdEgTVgeaA2ARJAAAyHtFMCKQPatWz9nghQOhCgNSmS4DKNCYERZf9ENTm2EDQpstVsqJ0CiPifJB63AWVoypAMWIP1I65ibYZieprFr5F4Wcy1R2E3OYRC1Nz4kioZav4gXL5uBMRduuXx20GrgOkK5CvVJpUWTMDEMX8EmXyuLNwNx9EWDBljnBElGujarjPjGoJyJEl9VmcEPN+feXs3gauT0ZDe5CelyA76ztbeSVJAAA=");
 
 export default Hamsa;

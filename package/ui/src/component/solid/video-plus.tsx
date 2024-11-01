@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `video-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-plus?s=solid video-plus}
  * @preview ![video-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/video-plus.svg)
  */
-const VideoPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm512 64c0-11.8-6.5-22.6-16.9-28.2s-23-5-32.9 1.6l-96 64L416 174.9l0 17.1 0 128 0 17.1 14.2 9.5 96 64c9.8 6.5 22.4 7.2 32.9 1.6s16.9-16.4 16.9-28.2l0-256zM216 184l0 48 48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0 0 48c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-48-48 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0 0-48c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const VideoPlus = createIcon("video-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcgAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBcQsGAAE2AiQDCAQgBYMtBzEb8gRRlMrFEtkXBzwZascQCYEhhMCwqxoqYNzZiFvtNC2ONxzH99Bf8dD/fumd+S9A4BOFpCOBJWm2ETKOpM4Kl7Kt7qlcH/5y73fZGnyDGmvb2FS2h41FcJxmURbwWWDpRX26KBLMoHK/v+T6+qkFgbZ1w6ThkZjNa8ArvE5c8/zTnh6w7AkepcJK3/s8ahnnE5joMJIgCmcDmhjP2tkrbxD9YpAuvU8ybH7Y7KDEV3XTQH5kDS/1TeOvETdSSwUgugHA7nGtgNeHT5DPeuLTHgiIXcA0ggoVxhGwgRIYJzUNiiL4Rf51/g9kIIBoJHeXoKABF+ASQAGpKqVPotRWXaWwVau9N3xU4jjfcnnff8ic81vOfMqLMzwEwAA5S28hTwJ2PLanhYBoLwcL2tU2wKknpD/6fbbWqzmz/cz3QE8rtPb08IDK69SlaPxGENDjpIeAmBBBlHCz7BQPlQFDpaFOaMXQBH8HQCD4P/R3xOg/Q5bgz/MrljNzJ+9oliCoZutPK5NAYBIgzHjCGR8USAcocqntXgUIrQiQGrUKUBmjRkDRagYBDSb5ENCo1T5KlBahX3sQqd0tUVmyJ4p+D6LBhnfQqD8oB5PcQ/rfpecRyC1jXHYnE2aWtS77jJDnI8y2adylPhOtRM/czEZXx9AG8JVCvDWVt7CcL2K42Dkxwpjj1rPehGBlbair54tEMPddo5092kSOhLDOyaQksvXNGbYHCgAAAA==");
 
 export default VideoPlus;

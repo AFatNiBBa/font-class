@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-csv` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-csv?s=thin file-csv}
  * @preview ![file-csv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-csv.svg)
  */
-const FileCsv: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 496l48 0 0 16-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L204.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 145.9c9 9 14.1 21.2 14.1 33.9L384 304l-16 0 0-124.1c0-1.3-.1-2.6-.2-3.9L248 176c-22.1 0-40-17.9-40-40l0-119.8c-1.3-.2-2.6-.2-3.9-.2L64 16C37.5 16 16 37.5 16 64l0 384c0 26.5 21.5 48 48 48zM361.1 160c-.8-1-1.6-1.9-2.4-2.7L226.7 25.4c-.9-.9-1.8-1.7-2.7-2.4L224 136c0 13.3 10.7 24 24 24l113.1 0zM200 368l16 0c17.7 0 32 14.3 32 32l0 8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-8c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-8c0-4.4 3.6-8 8-8s8 3.6 8 8l0 8c0 17.7-14.3 32-32 32l-16 0c-17.7 0-32-14.3-32-32l0-80c0-17.7 14.3-32 32-32zm133.1 0l34.9 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-34.9 0c-11.7 0-21.1 9.4-21.1 21.1c0 8.3 4.9 15.9 12.5 19.3L362 441c13.4 6 22 19.2 22 33.9c0 20.5-16.6 37.1-37.1 37.1L304 512c-4.4 0-8-3.6-8-8s3.6-8 8-8l42.9 0c11.7 0 21.1-9.4 21.1-21.1c0-8.3-4.9-15.9-12.5-19.3L318 439c-13.4-6-22-19.2-22-33.9c0-20.5 16.6-37.1 37.1-37.1zm98.9 0c4.4 0 8 3.6 8 8l0 31.6c0 29.1 8.3 57.5 24 82c15.7-24.5 24-52.9 24-82l0-31.6c0-4.4 3.6-8 8-8s8 3.6 8 8l0 31.6c0 33.2-9.8 65.6-28.2 93.2l-5.1 7.7c-1.5 2.2-4 3.6-6.7 3.6s-5.2-1.3-6.7-3.6l-5.1-7.7c-18.4-27.6-28.2-60-28.2-93.2l0-31.6c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const FileCsv = createIcon("file-csv", false, "data:font/woff2;base64,d09GMgABAAAAAANcAAoAAAAABsgAAAMRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDWAsGAAE2AiQDCAQgBYMtBy8b1wVRlA5GkuxPBZzIECahnf6HOKBmNPgKYVkLq7H27ghvz7EYJMIRWos3yt6+Gpvq42f9U75H9xwP/7+W3vdnNjCblIEUAXoCYQHAAbrqnBpVF3j+f2zeB/7hcNRmLqFoKJ5U68gzyR7yQtRQFq1BUN327m8+a/qEowATiSiDSAMONKA84EKOOSvTmJEtF8BUG6L9XR88/3/qu5pvEpJYTsRjY9vEPWpFLlnLALQsnnPQrDkhQrgnLuf//Pf0vo0eZU+bLVo0Fs15nkCiPbU8obfAMg1AYs62HGLk0NAtIU88YmL/P2xCw9QT8njHlBLp1lxwSd80fgm4iCRrAGIBgMnnaD+fv/hCfv5fIF7pRUAcQCeBDBnaCTBOJtBOrhNyuaBOEvX7f2AnAogOvySBHJX4A/4CyEFSqnyMtSIn2aKvzZdY9JpBKZGCN+duMGPKvZdZpvQslyOgAFJZE0XhvSlCoRS3+7o/MXhupG+JWyFxL+6kl01KlZ4bwHX3TW/QeovWjxueMp0vToY6cNZ9Xa0ppL5bFjia8phMoeD2S2W0PIHQab3ZQplPSMtj5A0y/zbNfyRz0LxmUquwhXzt9V1u7Xe/e+2n+kGDiuzo7KOxSlBX7o4Pud/x7l7ETkCTBIfj7mUcRZMqit5G0P6aWYPIhQ12bJ7h6dnttmx3NolhbUxiq8PPZpEdNtTtDA45TpsKZ8zgZ6bSebXeN5k92W9GLhbIhS6GlMmtOYl+13xe0pyMJIY80qV0XTt4u9vXAYFg8YdrGtb9VEng30vr14j6z/xrBlUSCLItkWdlgqr4jwAAUhymS4JA8gU95LXGTQJCgQBJhUKATFuNBMgV+gpQ0sFwASoUlspEVQvNrLqppMY+KjPCKSrXzDOqZJwv1QrNQlvUQkkKv5SpHT3Yfi6puKAoqSbpcaiJdcodx7VJaTdrQZay6SKb7bHbQZtstM3BDtlvfuOQXWZE8HQf1MlgAwzSyRidhidbZwWu7nfANl8eP2WsTuvjXg7Hm3tTkIB2iIEkEVn1/ZTyJ2cXAAA=");
 
 export default FileCsv;

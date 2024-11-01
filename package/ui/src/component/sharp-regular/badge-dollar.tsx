@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `badge-dollar` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badge-dollar?s=sharp-regular badge-dollar}
  * @preview ![badge-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/badge-dollar.svg)
  */
-const BadgeDollar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M200.3 81.5C210.9 61.5 231.9 48 256 48s45.1 13.5 55.7 33.5L321 99.1l19-5.8c21.6-6.6 46.1-1.4 63.1 15.7s22.3 41.5 15.7 63.1l-5.8 19 17.5 9.3c20 10.6 33.5 31.6 33.5 55.7s-13.5 45.1-33.5 55.7L412.9 321l5.8 19c6.6 21.6 1.4 46.1-15.7 63.1s-41.5 22.3-63.1 15.7l-19-5.8-9.3 17.5c-10.6 20-31.6 33.5-55.7 33.5s-45.1-13.5-55.7-33.5L191 412.9l-19 5.8c-21.6 6.6-46.1 1.4-63.1-15.7S86.6 361.6 93.2 340l5.8-19-17.5-9.3C61.5 301.1 48 280.1 48 256s13.5-45.1 33.5-55.7L99.1 191l-5.8-19c-6.6-21.6-1.4-46.1 15.7-63.1S150.4 86.6 172 93.2l19 5.8 9.3-17.5zM256 0c-35.9 0-67.8 17-88.1 43.4c-33-4.3-67.6 6.2-93 31.6s-35.9 60-31.6 93C17 188.2 0 220.1 0 256s17 67.8 43.4 88.1c-4.3 33 6.2 67.6 31.6 93s60 35.9 93 31.6C188.2 495 220.1 512 256 512s67.8-17 88.1-43.4c33 4.3 67.6-6.2 93-31.6s35.9-60 31.6-93C495 323.8 512 291.9 512 256s-17-67.8-43.4-88.1c4.3-33-6.2-67.6-31.6-93s-60-35.9-93-31.6C323.8 17 291.9 0 256 0zm20.9 149.3l0-20-40 0 0 20 0 8.5c-6.7 1.3-13.1 3.2-19.1 5.9c-16.1 7.3-29.9 20.8-33.3 40.2c-1.9 10.9-.9 21.4 3.6 30.9c4.4 9.3 11.3 15.9 18.5 20.8c12.6 8.5 29.3 13.6 42.4 17.5l2.3 .7c15.4 4.6 26.3 8.3 33.2 13.3c3 2.2 4.3 4 4.9 5.4c.6 1.3 1.2 3.9 .4 8.7c-.8 4.7-3.5 8.6-10.2 11.4c-7.3 3.1-18.7 4.5-33.2 2.3c-6.9-1.1-19-5.3-29.6-8.9c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-2.4-.8-4.7-1.6-6.9-2.3l-19-6.3-12.6 38 19 6.3c1.4 .5 3.1 1 5 1.7c0 0 0 0 0 0s0 0 0 0s0 0 0 0c9.3 3.2 24 8.2 34.6 10.4l0 8.9 0 20 40 0 0-20 0-8c6.5-1.1 12.7-2.8 18.5-5.3c16.9-7.2 30.3-21.1 33.8-41.4c1.9-11.2 1.1-21.8-3.1-31.4c-4.2-9.6-10.9-16.6-18.1-21.8c-13.2-9.6-30.8-14.9-44.4-19l-.8-.2c-15.6-4.7-26.7-8.2-33.8-13c-3.1-2.1-4.3-3.7-4.8-4.8c-.4-.9-1.1-2.8-.3-6.9c.5-3.1 2.9-7.2 10.4-10.6c7.6-3.4 19.1-5.2 33.1-3c4.9 .8 20 3.7 24.3 4.9l19.3 5.1 10.3-38.7L302 163.3c-5.3-1.4-18-3.9-25.1-5.2l0-8.8z" />
-    </Icon>
-);
+const BadgeDollar = createIcon("badge-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABwQAAALiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhESDawsGAAE2AiQDCAQgBYMtBzMb7gXIjtEno2Iwc8wxFyKqeBFPv9/rngshfC7oE4WKhUYZF50qRTCehavQdZVVf2qrUKHV91dlDd3w6x4bJ4C/B17Bl8NO3Ffwea6pF2XXgN/o0K6HlSBrHmU+n8AEIvGej8clcHaAONap01Fy7NiQeMmQMlwoxeMsHo8BtDykZWhTXmp8AveP/flKZBwoegVBFrwqzq6zU/Hsc0bJx/+3IR8lg0DOAGwiVFSsInBIU7BKyyZomjCi///HfyCDABkDgxXQ0PEZMAJWR/2m2rQilJ2G3Vgrz7AbFF/0v+0oIvvcdTwvFZJtzst2HWxIlD2Hc352JMw5nztOYrLJLacLCgnZ5YL8wNmexNl3vuhrS5LrVy5vQh4p77GjwMPQx/GXY9+6vw5/qnpofSLoZNiTmCtxuSRThMgTq1PCdR7HO23Lo9M8DpzVutW6nZqvNhihMzY799hFGtvMGXKGaDttC5JpYsuG4Kxkhx8VztjlDegMLqsFI4INW47H8WxJEbuo8WBSvTe78EX5qe4T3rYqMjMVw7Dl+GFnNQtCxzzesRBZVnfuO9piBHIlykckPd/EH3pRHPbP7PzvO1GQvSQQLGUXTPj+7/S5Yd2KT3eAFX0Px7b7FWWtd4JzzFD72kvDfExn/FbW0R8BsrCgYec17FDMAtCHSQyyhN7XdJ9vY6VtZ0pzgLh95Q30zt2KjOjs8LABB1sed5UZ+kAQfhf/jb4xPfylZ6gB+PLg2zfXvv/PivIeMGEXiVC3/7soKaAQqJT0QSVCFhSfoAksz3iWrccUN4oxU6hWmKGZsoVuna8ZvHNOU5o+YlDKUMy4h+rAAJrBTXSH3lbGDNGsbrs27Z/LYnGejt3FPN08WBDbdkynYM2+GczCcYe+NuFoF1GnXZsetWo06nF6l9R6r1ZxSowVIsaTGw9MEJbuv8byUOnSrfHZy28TjL1fdtCn5ztaSgMNd9wpCilGVZU19bWuHzk=");
 
 export default BadgeDollar;

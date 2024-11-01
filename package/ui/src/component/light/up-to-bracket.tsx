@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-to-bracket` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-to-bracket?s=light up-to-bracket}
  * @preview ![up-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/up-to-bracket.svg)
  */
-const UpToBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M222.2 192.8c.5-.5 1.1-.8 1.8-.8s1.4 .3 1.8 .8L350.2 324.7c1.2 1.2 1.8 2.9 1.8 4.6c0 3.7-3 6.7-6.7 6.7L288 336c-8.8 0-16 7.2-16 16l0 120c0 4.4-3.6 8-8 8l-80 0c-4.4 0-8-3.6-8-8l0-120c0-8.8-7.2-16-16-16l-57.3 0c-3.7 0-6.7-3-6.7-6.7c0-1.7 .7-3.3 1.8-4.6L222.2 192.8zM224 160c-9.5 0-18.6 3.9-25.1 10.8L74.5 302.8C67.8 310 64 319.5 64 329.3c0 21.4 17.3 38.7 38.7 38.7l41.3 0 0 104c0 22.1 17.9 40 40 40l80 0c22.1 0 40-17.9 40-40l0-104 41.3 0c21.4 0 38.7-17.3 38.7-38.7c0-9.9-3.8-19.3-10.5-26.5L249.1 170.8c-6.5-6.9-15.6-10.8-25.1-10.8zM32 176l0-96c0-26.5 21.5-48 48-48l288 0c26.5 0 48 21.5 48 48l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96c0-44.2-35.8-80-80-80L80 0C35.8 0 0 35.8 0 80l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16z" />
-    </Icon>
-);
+const UpToBracket = createIcon("up-to-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgQAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCKAsGAAE2AiQDCAQgBYMtBzQbLAXIjpQuJ6Tx8P9rYvf9meS0CZdwiswLRIrRYSqX0C0LRzlrUdVRRExcTn+cP73t5TpbGE4fE8M5zxPoPGzT2FQYSBZYmqD1tmGCoyB8EiFiEtE44bidII83YrIS6bX0C57pHxp/G+gxkjwDEC0ArNi3a4vvutGN+OXKx8QvNiEgVoJCIEOGIQIslgkMkSuQywXduHKF/gMLAogyfm0COUq4Ew8BcpBkeT5y3NhqqZ7vrZYq+16pPtF3T7zkxT6VQBBdiZf7hYMnPNx/3/DH++yOFz3U96VqNYRonuj/SkQUPdxvb7xciUvFG/1fGVePd0g6ULzU95X+c96e2Jlbi4/Gvz/EPHdkp9X5d8QvZ3/x+2UR7n1UO5W2L9Bt3KV8fLvj5bs0ugtsL6X2ItJqvl4O7jTbnc4EV2l/cX679vkvrjKBY1XgvuTrzW+bx3nH7Nffphem//Zrdlyj220cF3vPtAzWOrM3HgcCwcU/Tg871lx8oUc1gb+++P+C3O/Kd/Fd6qCHBIJs8pXJDsd3QOYAflKKO4yM7xBIbpTBd615WYBQQYCkrCJAZrCWALmKSQKUDDNHgLKKXTKR9xT6ODL5pOZmPjPX/Xyujw/5ksW+T5f1iSz5vNTxvn6F1mp4zbRixtTpxcJiWTZ8+eS08UXFdnj8HaZtAmx01o1ucJszTrvabQq9xZbc7a63NkLW+KLCDFNNV1ioOK5tQ3sxfYtbXe1754BJFinuJ8a7I+49AWaTADOfDUhbI9Vvv2nKbTdOOXnLiVPXnrkNAA==");
 
 export default UpToBracket;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-down-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-down-right?s=duotone circle-down-right}
  * @preview ![circle-down-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-down-right.svg)
  */
-const CircleDownRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm144-56c0-5.1 2-10 5.7-13.7l36.7-36.7c3.6-3.6 8.5-5.7 13.7-5.7s10 2 13.7 5.7L280 216l33.4-33.4c4.2-4.2 10-6.6 16-6.6c12.5 0 22.6 10.1 22.6 22.6L352 336c0 8.8-7.2 16-16 16l-137.4 0c-12.5 0-22.6-10.1-22.6-22.6c0-6 2.4-11.8 6.6-16L216 280l-66.3-66.3C146 210 144 205.1 144 200z" />
-        <path d="M352 336l0-137.4c0-12.5-10.1-22.6-22.6-22.6c-6 0-11.8 2.4-16 6.6L280 216l-66.3-66.3C210 146 205.1 144 200 144s-10 2-13.7 5.7l-36.7 36.7C146 190 144 194.9 144 200s2 10 5.7 13.7L216 280l-33.4 33.4c-4.2 4.2-6.6 10-6.6 16c0 12.5 10.1 22.6 22.6 22.6L336 352c8.8 0 16-7.2 16-16z" />
-    </Icon>
-);
+const CircleDownRight = createIcon("circle-down-right", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABiAAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCDQsIAAE2AiQDCgQgBYMtB14bPQXIhof/X7O671clA0A1gJDp06OIwAGxx7W9ahUQqJy1BDoT1zz/tKcHbADLPC8uwFg2T2DnbaVNITChmc7ANjhv80GGNIVynCGPr7PzSqQn6VPcCv4HMH7VxXmSJhmAaA2Ayool87xZjWqKT2uvE5+ai4CYDQqBDBm6CzBNJtBdrkAuF1RTrUY1arWCAKIseHUGyihhO44CcpCElOd9uvVuVmqRLw+ONd0S4umAq+2nxfJ42BSx7jvdYVm870n/ZvGoU3xXiXhr3mfNri34ou6dFd/Pfnv+502vzv101ptLV5zpNDMeNbu2l4c7nnUR99s3jedd5/i79kSf11q/9nvvT7d/asOBK9GJ9pUm26lULGvceNnYnOs8xPYm7StXVFt6U30TujS8VVf3VkOXJurtSjbr1sQjaKV91LJ6Ralc+jwQCC78/PvSDa2m/d+4WQK/vPHnv/CHpPZmkl5DYwkE2bDaMGsTSAQAIMVxfRK3EchMk0Sf2txDAUJTBEjKmgqQ6aa1ALmmhgpQ0tN4AcqaWiITeROhvXUtkTR3iMhMcILItddAlEzzQVzWPjL1JqoW8XEvbU4fqF9UjB4xqphSLFbUkhLi3cmpxW5v0HHeMRgetN0B+x21zVa7HO3hh83LjtlnzhpW74sKo40wSmGK4nT9sba8Fx92xK555fw8UxX3+4McX+8/GC4nAcaIVC4jUmRd/svRhytD0chaw2Vvn26zilwFAA==");
 
 export default CircleDownRight;

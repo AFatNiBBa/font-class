@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `champagne-glass` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/champagne-glass?s=sharp-thin champagne-glass}
  * @preview ![champagne-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/champagne-glass.svg)
  */
-const ChampagneGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M60.5 144l-9.2 67.5C42.3 277.3 93.5 336 160 336s117.7-58.7 108.7-124.5L259.5 144l-199 0zm2.2-16l194.6 0L242 16 78 16 62.7 128zm221.9 81.3c9.9 72.8-44.3 137.9-116.5 142.4L168 496l80 0 8 0 0 16-8 0-88 0-88 0-8 0 0-16 8 0 80 0 0-144.2C79.8 347.2 25.5 282.1 35.5 209.3L64 0 256 0l28.5 209.3z" />
-    </Icon>
-);
+const ChampagneGlass = createIcon("champagne-glass", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABXwAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBOgsGAAE2AiQDCAQgBYMtBzYbwATIHge5OeqOdNsTXaoRBHPlbJJ7ghKmzOjq6ltFDhUpYkUgTFkS6OtXX2FmFbJ+cfO88yjANwptLFyab/A5zxNIAxq4wONpgWWagLU7WxPHYnNKS1mS41s5Lo8VslhhowLJ6WQcKw+Nr5o7SiJNAUQdAMYtWTDLo4/xMeJF8TrxwgwExDiQC6RI0UqAkVKBVjI5MpngYxSL8R+YE0CUkD0kIEMBozEDkIFEmmW15W0qC9XZ4spCxYqFSxae6XVl0pM+tF8cFU0rKyppQixcdHZkxL2JorJSVFQEzo94PNoOS6IyFrW/WHfxuze/NLJP+YQ6MO7LX/5+GVc2wZO2oVqzxwU8+m7u0qaUHTxublmdslth67nHHSxrurXlW4+0egsEgj6vP01eUzvyf1llAj7f+Zk/o9bFR9E/uYgyCQjSnsWeVsZhrbWO/gIAkMRh7WOs1gKJwVJ41yonBAgVCJAoUSFAqqU6ATIVeghQ0MYgAUpUWCAVWbnQyKoOiSr7IDXYEcg0chUKRnqil2gUqRdRPkC94eIna2RSW96vd998eD61NdoxCKqPyJeFrodTrBuM2myP3Q7aZKNtDipsv1nWIbtMttBJXpTrp7e+csPl295j/2Kb7HfANnvszk1GyM8rXR22s7uBnBDc/joSCZHU/kphrNuye1OvewM=");
 
 export default ChampagneGlass;

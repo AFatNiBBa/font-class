@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-portable` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-portable?s=solid toilet-portable}
  * @preview ![toilet-portable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/toilet-portable.svg)
  */
-const ToiletPortable: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M0 32L0 64l320 0 0-32c0-17.7-14.3-32-32-32L32 0C14.3 0 0 14.3 0 32zM24 96L0 96l0 24L0 488c0 13.3 10.7 24 24 24s24-10.7 24-24l0-8 224 0 0 8c0 13.3 10.7 24 24 24s24-10.7 24-24l0-368 0-24-24 0L24 96zM256 240l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const ToiletPortable = createIcon("toilet-portable", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYQAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBOwsGAAE2AiQDCAQgBYMtBzYbwQTIHoex2+RKNEMR5e0/Ivh+Wev3Z/bqbvaIecg5upCiwyWLQ+GyEVtYConeZK59rxD8+b/m83t+dIDf6NCisPRAIqlz8XwCA6+itAnszQY20wnYzFvO0R4p+04mmqTHc3p8ukAeW7MbKqS36Tce9w+Nv7q4QdKUAYjWAJi9ce1yX2tRi/hVj/hlKQJiNigFMmToLsA0mUB3uRK5XFCLer38B5YEEA30FRPIUcFcLATkIMnyvG23ltVKi3xDtVJkQouIuNrxVdEc99q/MLqoFiLF2/7vu0VUgz2aRUSxTnjR/lXHiNedXnbo86n1p38c4F0J/yyllnfutETucmcsdEqH1as7NKpppOOUzjoPfDwLtpa1WstZ+DwQCGY8Oj5tZ6tp/xurCfz5cvkZqX+NWekTGiUQZMPqw2yLCxCzBAAgxQV9YhYCyVQZfddmrwQIBQIkDQoBMt20FiBXGCpARU/jBWhQWCsTeZPQ3vYBkmanQWaCiyDX3mdQMc03uUH7yLKIyAHiExe7wEPz55WjR4wqp5TLhJGJgdXpqeU2N+iCNAZjpwNOOuGc/fY57JxDzliunXfcggie74tKo40wSmmK8jh/3rzBfmecddhJJ9osU5X3pUEuxP2DISaKOsa5JBGp1bmTh4/tPzf8HQEAAAA=");
 
 export default ToiletPortable;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-cfl` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-cfl?s=light lightbulb-cfl}
  * @preview ![lightbulb-cfl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/lightbulb-cfl.svg)
  */
-const LightbulbCfl: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M176 57.7C176 22 142.5-4.1 107.9 4.5L41.5 21.1C17.1 27.2 0 49.2 0 74.3c0 16 6.8 30.1 17.3 40C6.6 124.4 0 138.7 0 154.3c0 16 6.8 30.1 17.3 40C6.6 204.4 0 218.7 0 234.3c0 35.7 33.5 61.8 68.1 53.2l63.7-15.9 .1 0 64-16s0 0 0 0l63.8-15.9c14.4-3.6 28.3 7.3 28.3 22.1c0 10.5-7.1 19.6-17.3 22.1l-82.6 20.7C181 306.3 176 312.7 176 320l0 32-32 0 0-42.5-32 8 0 34.5-16 0c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l48 0 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16 48 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-16 0 0-19.5 70.5-17.6c24.4-6.1 41.5-28 41.5-53.2c0-16-6.8-30.1-17.3-40c10.8-10.1 17.3-24.4 17.3-40c0-16-6.8-30.1-17.3-40c10.8-10.1 17.3-24.4 17.3-40c0-35.7-33.5-61.8-68.1-53.2L175.1 67.7c.6-3.3 .9-6.6 .9-10zM96 384l95.9 0 .1 0 .1 0 31.9 0 0 64L96 448l0-64zM270.7 203.8L124.1 240.5 60.3 256.4C45.9 260 32 249.1 32 234.3c0-10.5 7.1-19.6 17.3-22.1l18.6-4.6 .2-.1 191.7-47.9c14.3-3.5 28.2 7.4 28.2 22.2c0 10.5-7.1 19.6-17.3 22.1zm-136.2-93L259.7 79.6C274.1 76 288 86.9 288 101.7c0 10.5-7.1 19.6-17.3 22.1l-18.6 4.6-.2 .1L60.2 176.5C45.8 179.9 32 169.1 32 154.3c0-10.5 7.1-19.6 17.3-22.1L68 127.5c0 0 0 0 .1 0l66.4-16.6c0 0 0 0 .1 0zm-7.8-31c0 0 0 0 0 0L60.3 96.4s0 0 0 0C45.9 100 32 89.1 32 74.3c0-10.5 7.1-19.6 17.3-22.1l66.4-16.6C130.1 32 144 42.9 144 57.7c0 10.4-7.1 19.6-17.2 22.1z" />
-    </Icon>
-);
+const LightbulbCfl = createIcon("lightbulb-cfl", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABtwAAAKtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByEAwsGAAE2AiQDCAQgBYMtBzQbBwYRlZpPyb5I4PBa+HMHNBapY0Q9/XFboNEXG5mPxPM8c/Xel2QWkl3+gKyAUVhWVCBQDK7s2Fay7alC9ycAypY5zWrfIWhzQEofJx4hQ1vdddeJy52/bXrAxS/6KL8ba9nCsdZ5As9xm6PNXZwFlmkC1uI2XNLVCWWhcYIqp7JAi+L54kc8enxo/jTWXRSqEkAGALDh2KE9vv4tvyU/tpMf7UIgG8EUQYkSEwSsVgomqExBpRJ+S7s9/AciQDpcYOG1FTrxM/4GVKDQqqor/WOmjG1avdXRplWfemFW8vqMw3l1xFOeH/nUmJY+87XZ25L4bs/tzXOfHfm050YczlMjpE4yI1LngRFPkdtGPt00kadHPjs6afLg6GeT3D7qmbpOcixvsIkXRj07vtHPKlLybI43dZM4iqmsxw7f3s15yj6RF0fPHqVsuqNSCQmN5bBR+BC3xx9oxt1ehJeabh8Vr/OmvT3w9l9T+8HdzTrWvrah34z3vxjuutXufBnNurWvtrmYtpev3t3jn4MjXm6mmGKe/00zoO+++/rWj/oljOpvv/UNWKJYacCwrYMjkhbsHq5a+7acv47BFOvdZv37nzwxozfdypQ1Pb5aRMXvPX1tUtMoDy32UrMONg4kN3ShfkK4RR4eB4LQ/cMo5/pX/9vVFOCPT/+3+xlpf531xdvoUoBQLmhHp3MVsl4AAEWumpb1CAo/abnetcczAqJGQKFDLaA03oCASm2+gJZJVgroUDuklKpbjHCGEIUeF4jSKteJygifEC2rfZPsMCIlpEtwKv1opkOOBawaeZKh0TYgGXiFddHgbPP+ccCvD4r+2N+unV4Gv8vMtzkTZr9InmRogtuLuorx3c8oqJXwZQzpQ95vHu/XTuViLcqUAln0An9J/a113FgBAA==");
 
 export default LightbulbCfl;

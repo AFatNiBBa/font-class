@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `won-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/won-sign?s=solid won-sign}
  * @preview ![won-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/won-sign.svg)
  */
-const WonSign: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M62.4 53.9C56.8 37.1 38.6 28.1 21.9 33.6S-3.9 57.4 1.6 74.1L51.6 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l40.9 0 56.7 170.1c4.5 13.5 17.4 22.4 31.6 21.9s26.4-10.4 29.8-24.2L233 288l46 0L321 455.8c3.4 13.8 15.6 23.7 29.8 24.2s27.1-8.4 31.6-21.9L439.1 288l40.9 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-19.6 0 50-149.9c5.6-16.8-3.5-34.9-20.2-40.5s-34.9 3.5-40.5 20.2L392.9 224l-64 0L287 56.2C283.5 42 270.7 32 256 32s-27.5 10-31 24.2L183 224l-64 0L62.4 53.9zm78 234.1l26.6 0-11.4 45.6L140.4 288zM249 224l7-28.1 7 28.1-14 0zm96 64l26.6 0-15.2 45.6L345 288z" />
-    </Icon>
-);
+const WonSign = createIcon("won-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABegAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCHQsGAAE2AiQDCAQgBYMtBy8bHAXILhJ4jvTxK+AlmRDYvvHw/3bft8+tatX7Rn3bkT3jGI4gBHmvyRgKVfteZvDV+V/g/hOX01+jQQH+Ig5tzGVz4pzcJRBgl01rnycUZolii9uugoiGxkLjAnm8k11SRXoifYu74UPjJ21dIqnLAEQTAExZtWyBD+ujPuKb/xHfmIeAmAJKgQwZOggwXibQQa5ELhfUx//Ff2BJAFEtoZKzOapxAGcwL0CSY2JxTaJS1TBfWTQW6x5tFfFoi4dVQcsVUcSNeMy5lo9UKrEinqg8235VSLrHze03Wz8W51s9WhSxKh7DhlZ39MtF2cp4sudTbeiZFZWi0iE6rWrfpn3bKEavdn2hyQu/dPnWtyZcH/8aT33yybq544c8ooVG1641yvf0Mfp5J1pv2dHnWQPx+I4trU9MrX127S0c9o2fu+6e/ynjVw2TT8R3Hj68s9JPvulb8EP7RPCyf/dP2hfXaNOk8Vv+9TIQCMZ/16bG43+trSTw/dv/qJ/8fymlF1ArgSDr/39/65Md4AohSaU4qSv+JoFkhxw+18CjAoSCnkmqFUymvSZMrtCPqdLJiPPVCstkIq8TWtiAmKSBI0xmpNNMroVXmCrjfZGq1iIysFMBjeqvL/3MMTxjUzlk4OBybLnZ1KohSWGXx5Wn7b1PyqE+eK+dDjnouB222+P4SHbUguwJB8zck87wQ6UhBhqsNFZ5u/Ncv5Kmjjpmz7r2/jrjlO+Hezu5P7kPdiWJ3KF2JolItacOHRzwxQIAAA==");
 
 export default WonSign;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `skull` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skull?s=light skull}
  * @preview ![skull](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/skull.svg)
  */
-const Skull: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M384 399.6c-.2-10.7 4.9-20.8 13.6-26.9c51.3-36 82.4-89.8 82.4-148.7c0-102.2-96.1-192-224-192S32 121.8 32 224c0 58.8 31.1 112.7 82.4 148.7c8.8 6.1 13.9 16.2 13.6 26.9l0 .4 0 64c0 8.8 7.2 16 16 16l48 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 64 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 48 0c8.8 0 16-7.2 16-16l0-64 0-.4zm32-.7c0 .4 0 .7 0 1.1l0 64c0 26.5-21.5 48-48 48l-224 0c-26.5 0-48-21.5-48-48l0-64c0-.4 0-.7 0-1.1C37.5 357.8 0 294.7 0 224C0 100.3 114.6 0 256 0S512 100.3 512 224c0 70.7-37.5 133.8-96 174.9zM160 288a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-96a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm224 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-96 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const Skull = createIcon("skull", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABogAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDFgsGAAE2AiQDCAQgBYMtBywbkgXIjsK22TPCCOKSn0HkgSuC7/f77bnvotLwbJbwEL1kQiP+RtJMg+k0QoJqGs3y95/3Dz33IwBf5B+aG7lBqOCpGZaOnTP/l3t+044O8PuJH8qeej5rP98LtOcBFp61vC+SBRZJzxOwzK15iFsShD18jBgxh0j8hT2+PSDHPXKESNrn3oOt603jlb4hSHIBgGgGACyspyfi8Tk9Rrwv3yBOxYOAWATQi1CgQCcC03iBToJekGXBI5XL9B/IIICoRIOXQEY1jsAxgAySyix4OWkql0RRVBayKgSF8n7dey6X6OfS16zvKZ8z+pxOfWcRgdjWViSied26BWIOKRHZ9OfyPkLsac1YKtCezpwBUf/xPXedz8y3w5/Fv8v+Efsm9InZhuOJT9akLtE89evMKUxozWBTe1aRbtgd2h543LQ/cjj2zuzXIbK5SY48hXWLcz3jFeZwuYn5kdrRv773Ve/RO6z+Jz8z04mSfv4qpdu7OBfNSZ/N/6MOzFN5HIHUyUcVN0Q8CWDMA18Q5vFnt9I5pNsP/DwQnKxMCyrqGulENKJNr2ioqwiJ+fCiSaUEJZUOai+RnE1NnSXs+xs8bOOfv7+feTwPBIKXkdvbYtXp/9WKHOD57uc//wiVHyfpEFRLICgGLhwVJJAIAECKLpgnIJAcYP9ftd4OAoRaBEgq1QpQ6KCGQFarH4EK3TwRqFRrGS+yPEK7wgck9TZAYUo3yNpdAxWmvcoqtQcfs1LESX+M6VEaiTzGXJ0l5seGHSKHoXBu+rNp37aLJ+xQiirNmnSoVKFWh6LbJFY6NYryqEgfxLhyJmH8sOX+by+L4rrXTgu2vH4If+z72FaXP98OEaexjjHTFjQnsb2+s6EB");
 
 export default Skull;

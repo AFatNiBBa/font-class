@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `seal-question` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seal-question?s=duotone seal-question}
  * @preview ![seal-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/seal-question.svg)
  */
-const SealQuestion: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M4.4 256c0 12.3 4.7 24.6 14.1 33.9L64 335.5 64 400c0 26.5 21.5 48 48 48l64.5 0 45.6 45.6c18.7 18.7 49.1 18.7 67.9 0L335.5 448l64.5 0c26.5 0 48-21.5 48-48l0-64.5 45.6-45.6c18.7-18.7 18.7-49.1 0-67.9L448 176.5l0-64.5c0-26.5-21.5-48-48-48l-64.5 0L289.9 18.4c-18.7-18.7-49.1-18.7-67.9 0L176.5 64 112 64c-26.5 0-48 21.5-48 48l0 64.5L18.4 222.1C9 231.4 4.4 243.7 4.4 256zm165-89.5l.4-1.2c7.9-22.3 29.1-37.3 52.8-37.3l58.3 0c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8c-10.8 6.2-21.5 12.3-32.3 18.5c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24l0-13.5c0-8.6 4.6-16.5 12.1-20.8c14.8-8.5 29.6-17 44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1l-58.3 0c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6zM288 352a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M222.6 128c-23.7 0-44.8 14.9-52.8 37.3l-.4 1.2c-4.4 12.5 2.1 26.2 14.6 30.6s26.2-2.1 30.6-14.6l.4-1.2c1.1-3.2 4.2-5.3 7.5-5.3l58.3 0c8.4 0 15.1 6.8 15.1 15.1c0 5.4-2.9 10.4-7.6 13.1l-44.3 25.4c-7.5 4.3-12.1 12.2-12.1 20.8l0 13.5c0 13.3 10.7 24 24 24c13.1 0 23.8-10.5 24-23.6l32.3-18.5c19.6-11.3 31.7-32.2 31.7-54.8c0-34.9-28.3-63.1-63.1-63.1l-58.3 0zM256 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const SealQuestion = createIcon("seal-question", true, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABvgAAALrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDQAsIAAE2AiQDCgQgBYMtB1Yb6AUjEbZyLzKS/TMh3nSMLUpg6oTXoafEM3ZJh2VDaXn4f//62ufeV9UQIhCRHYTOBEXdIcSZyeBUyP5a1V+47/NgAw5GWWkwC6yv32/tMqT3EdcmlqCpRZcMoYtGvCVCpt9NXO78z38DLvJHG2MXreF/0ZznCQQcFS5PA0kojDQASxibmvfSIIfi68vOgXCHIr7KW5RIJ9MH7Lf/BzB+1cIWkhoZQNQHwOg5MyZ58lP8lOJD5QbxwUQExBjQXiAjo7UAw2SB1grtUSgEP6VKhZ+iUmlPAFFm/5IMyqiGp3gHKECS5KJowtRodLdGtUpMerFWidRutBbECeNdjnGgauFOuBb44giIk8an3B7X1Gfbx0Rm7W6GccCNoj3ZJdjChiY7as6GJuEQJ4U7IxXhOErtFkejFj7FBzlGdGQ9EoHn8bGJRMbOskMBaTfBVgLRdQTmNGvc7LR4x9zd+pZeLVuBd/JoeMgwNuKn+YDHRCSmXwBxwvSQFzY0xtiSXaI9bkzejZ8IHa9yPn8dPuyDH0Yu+yqMGzTuUNK4PMQXdWrM77pVpy40mTatyd9+yTW5LgzRVOruADvqRj3sQvkx/x+j5ON3vUbD740a/X7z/Y48yv1QLf2g0UMsZCGK0fBoXnelHIHpr79uNMSFBlAz/1auWrVy1w+ro+6t+sKVNep8hyg3Tg6PHzRuzZ3jH5YBgaBqk2+oN+z/6rUS+OVeJ1+kovIiqtJVVJdAkLtVulmYKBRRJQAAKdbomLiiEMg2yNxXre2YAKEmAiRlNQXIWqkvQKGmrgKUtNVfgLKaZsiiqCE0tqggktqWE9kAa4lCY9eJkmFeN8vGGkc+k/nzkP+PTJkgMP5Q+94ujyag6e3JhJOT1btBzWSn0+oZKzyrZWxkoamhawE+k+gsDcWHwJg30vBy8dAI0Cwe3lSKNGfmut3S8n2CNNsXLVbDy63Qp3EZ+ziSZSJFbvLNMLtf7Ub3h2JBsw7pAQAAAAA=");
 
 export default SealQuestion;

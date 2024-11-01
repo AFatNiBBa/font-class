@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-z-a` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-z-a?s=sharp-light arrow-down-z-a}
  * @preview ![arrow-down-z-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-down-z-a.svg)
  */
-const ArrowDownZA: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 478.6l11.3-11.3 88-88L270.6 368 248 345.4l-11.3 11.3L176 417.4 176 48l0-16-32 0 0 16 0 369.4L83.3 356.7 72 345.4 49.4 368l11.3 11.3 88 88L160 478.6zM336 32l0 32 16 0 99.5 0L340 189.4l-4 4.5 0 6.1 0 8 0 16 16 0 128 0 16 0 0-32-16 0-99.5 0L492 66.6l4-4.5 0-6.1 0-8 0-16-16 0L352 32l-16 0zm65.4 265.5l-80 180-1.1 2.5 35 0 14.2-32 93 0 14.2 32 35 0-1.1-2.5-80-180-4.2-9.5-20.8 0-4.2 9.5zM416 343.4L448.3 416l-64.5 0L416 343.4z" />
-    </Icon>
-);
+const ArrowDownZA = createIcon("arrow-down-z-a", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABcwAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCHAsGAAE2AiQDCAQgBYMtBzUbIQXIjsK2bRMVsQxnOgOIr8Tz3+/3uvZ5NwgOUOarkAqPhwLLVrIwFbZVJCwrEyP+1La2+lkwp/ctJ4Mi/ACI3Iyfb+QIHQvHwuD8X5Pv3fNrwG9HdmhRltpYIEfR6+cTGOioKIooCmwkez4Bm7WzW3x8vt8koQgZtjeMDtDymgEl9bVuwQd50/xltw+ldQDIPAC4eNRSh7svGiYv/THkVg0I5BLAJkKHDqsIHJMLVilsgqYJQ+p79x/IECCj0Ccq0DCKl+A9gAZKa4qQLbtaVPor2kWl0GY1WTvImuiY0khyIhIIKWomSyJjThuZn4FMTbWSKYjIlEgkCBs85gidrR2tJhLJ6SE7Zkn7pgKZ1tra2wTqCPbpfN9BL+MvDtYlfHFHBy6MkzxjiQ7TWfIMybgLHY8g/b5hZt3owi5SqYybp/vI0D2fb/wrbcMhLyE7ftHnEyFISKKKSdW/jUqohSA6ADlr+NB2ORCY+398Sgb4c/H7n35G2/2w1DcwrkDoBv1AbxUiWGFBAACVdQRXIZIQygsKcqnTPiEQkwgooyYFdFboEGgm7SIwYl0aAqMm3SOXpkUs6yugTHsHOkf2QLPsEIw4dh+MWo7c7Hij4T99KeU1XDaLk+ITOZuHqSxYEsuTObysRa5TKworMW7BvFVjRk1ZrahldfGaOeUzpMwHsSTxErFsfFzcL243ZtmKKQvm4zQ5+L4VaX3ePwqmjDLuWVOKVMDQ8vLCRtxb9OO244YAAA==");
 
 export default ArrowDownZA;

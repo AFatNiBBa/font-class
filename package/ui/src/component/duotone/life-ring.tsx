@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `life-ring` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/life-ring?s=duotone life-ring}
  * @preview ![life-ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/life-ring.svg)
  */
-const LifeRing: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256c0 59.2 20.3 113.5 53.9 156.8l3.1-3.1c.1-.1 .2-.2 .3-.3l112-112c-5.8-12.6-9.4-26.6-9.4-41.4s3.5-28.8 9.4-41.4c-37.4-37.3-74.7-74.7-112-112c-.1-.1-.3-.3-.4-.4l-3.1-3.1C20.3 142.5 0 196.8 0 256zM99.2 53.9l3.1 3.1c.1 .1 .3 .2 .4 .4c37.3 37.3 74.6 74.6 111.9 112c12.7-5.9 26.6-9.4 41.4-9.4s28.8 3.5 41.4 9.4c37.4-37.4 74.7-74.7 112-112c.1-.1 .2-.2 .3-.3l3.1-3.1C369.5 20.3 315.2 0 256 0S142.5 20.3 99.2 53.9zm0 404.1C142.5 491.7 196.8 512 256 512s113.5-20.3 156.8-53.9l-3.1-3.1c-.1-.1-.2-.2-.3-.3c-37.3-37.3-74.6-74.6-112-112c-12.7 5.9-26.6 9.4-41.4 9.4s-28.8-3.5-41.4-9.4c-37.3 37.4-74.7 74.7-112 112c-.1 .1-.3 .3-.4 .4l-3 3zM342.6 214.6c5.8 12.6 9.4 26.6 9.4 41.4s-3.5 28.8-9.4 41.4c37.4 37.3 74.7 74.7 112 112c.1 .1 .2 .2 .3 .3l3.1 3.1C491.7 369.5 512 315.2 512 256s-20.3-113.5-53.9-156.8l-3 3c-.1 .1-.3 .3-.4 .4l-112 112z" />
-        <path d="M57.4 57.4c-12.5 12.5-12.5 32.8 0 45.3l112 112c9.5-19.8 25.5-35.8 45.3-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm112 240l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c-19.8-9.5-35.8-25.5-45.3-45.3zm128 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-112-112c-9.5 19.8-25.5 35.8-45.3 45.3zm45.3-128l112-112c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-112 112c19.8 9.5 35.8 25.5 45.3 45.3z" />
-    </Icon>
-);
+const LifeRing = createIcon("life-ring", true, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABsAAAAKvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDNgsIAAE2AiQDCgQgBYMtB04b1gVRVA6KZD8SbGOaD0UwTB40B6NhkKY0xOIHeBQPX/e+597d1GKlaWuUDlo5gOkg8VgDDfGnTMafR2Dt/enutY1fwlyq1oKtW1fFUOD2cDikg/jv8OH3957zAaZ/B6dVuEEPg0N5cRFihUJzJvo6OP/XfH7Pj9La6FD+Va+tsfxwHTqBAR/QoixBWmimM7ANzht8UKEMIX0LNX7Lmz7yO3vgPfwfwPgX9SENFQAxCQDOb0cNVMcuo9d+RE8FCIgLwDJBQcE8AUd0gXmGZVBVQZetQRetEQKIfuH5CujHMH7wB6CCVNVaN72e2B+NhSJ2o9Og5EvbmhdB9gZlbqQpXLaNB2RJlRYxCVyyT4RVbsdkWZG7zAr7QpuZ1WRVJSISj921xK0on+Uw+6hynX3x04L9zD72McQnSQ2Ggn2c4H3tjn0i5SDrrHCCYb4oT5LuWX5VQ+yzPdRt2sZTj/N208cZUNfQGznJ38voYy+DxEDdKMA+SGLfs/+euFpdoTc85gTnmKbh40PTsOp0rmqfWgwWAROH0nKsJ2dGHImzEpqV03PoGCg25pYIoKahPxTqLy8TCQIEAjCf6zoXguN47U4n0xOirNy3iovcRjaycBeluC0TQioTvsTvz00IsPyT0wEABBDan8pm2915/xa7DgC8HX7+Cqp+R02l/MGgBEFZb+tmCZIAAGS8cJNtECjuGOJPHfUhQBhGgNRvWIBijklANWyNgD6L2gT0G3ZJF3VImDXvuDTqnisOvblq1pfrc+Sf7zcbRRPLWlD+hcyoh1C1iHmSccDVskbRl6I3PuThsPfibT7cEStnJw9LC1sPZzfNoPR0VG/BlS+iXCJDA7xce2pMB/mbu+2ydn2eIT6f9Ly2e/swpol5dwUUhcgoUxrbjG2hE7uGNmeimXsAAAA=");
 
 export default LifeRing;

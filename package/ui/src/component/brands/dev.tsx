@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dev` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dev?s=brands dev}
  * @preview ![dev](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/dev.svg)
  */
-const Dev: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M120.12 208.29c-3.88-2.9-7.77-4.35-11.65-4.35H91.03v104.47h17.45c3.88 0 7.77-1.45 11.65-4.35 3.88-2.9 5.82-7.25 5.82-13.06v-69.65c-.01-5.8-1.96-10.16-5.83-13.06zM404.1 32H43.9C19.7 32 .06 51.59 0 75.8v360.4C.06 460.41 19.7 480 43.9 480h360.2c24.21 0 43.84-19.59 43.9-43.8V75.8c-.06-24.21-19.7-43.8-43.9-43.8zM154.2 291.19c0 18.81-11.61 47.31-48.36 47.25h-46.4V172.98h47.38c35.44 0 47.36 28.46 47.37 47.28l.01 70.93zm100.68-88.66H201.6v38.42h32.57v29.57H201.6v38.41h53.29v29.57h-62.18c-11.16.29-20.44-8.53-20.72-19.69V193.7c-.27-11.15 8.56-20.41 19.71-20.69h63.19l-.01 29.52zm103.64 115.29c-13.2 30.75-36.85 24.63-47.44 0l-38.53-144.8h32.57l29.71 113.72 29.57-113.72h32.58l-38.46 144.8z" />
-    </Icon>
-);
+const Dev = createIcon("dev", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABeQAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCJwsGAAE2AiQDCAQgBYMtByobIQXIjtRG+YqFxMP/233fPrfqNer1p6u/hEiIzAiKAA6VjTMhyHpNykjIL7Pa+b8m37vnRwf4/cQPLcqqtWI2zHw+gYntzaJp4GXpM52AbXc2iYLat8QSIznOHZ/HFvK4F5dVSHfSl7hEDxo/6OQMSSUDEC0BMGPl0iU+boqmiC//n/jSIgTETFAKZMjQVYDJMoGuciVyuaAp/v/f/QeWBBA18AITyFGLgzgByEFSyfNWnVt3a12tNMtXVCvFyptFEaIa5zrcioiT7Tc0NGs42/Z6xxR32t2oNhsFXbK4236nuOpG24jrvVehEJ5rx0qsLKoF64kiqOT5zhH3+gXs8tvtI252XhHm8liZjl7W8+WWL//U+GVfOvLL0ppWtmqlZunS+rnqlnV5Yyt+1Ob999JW6b3322xllvwzNX+D1x8P85zhLr/xevN5G1eOgbK+St2VCBpz8lSNrY5KjdN037L/uW/57lSfy0rd9um6T6PmfBAIxqwa/KUWk3+tqybw/bu//A1+Rf83xcfpZdRJIMgG/z/YuvgY4mMBAEhxWM/4GIFkpwq81wY3BQgFAiQ1CgEyXbQUIFcYJEBFd2MEqFFYKhN5vdDW+gqSBvtAZqyjINfWO6Bisk+iGm0j0z1Kc6inX/xcDs+ZVY4YOrycWE4rCq1ORJycVG6L/Q/7jgGw0GZ77HbQJhttc5Ch+y1JD9llroTM8UWlEYYarjRReVy/n7/CJvsdsM0eu/M0k5T33f4Oy/0HgJIg7kheknxBbG3cdBg=");
 
 export default Dev;

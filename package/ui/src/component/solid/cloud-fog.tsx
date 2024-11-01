@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-fog` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-fog?s=solid cloud-fog}
  * @preview ![cloud-fog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-fog.svg)
  */
-const CloudFog: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 320c-53 0-96-43-96-96c0-42.5 27.6-78.6 65.9-91.2c-1.3-6.7-1.9-13.7-1.9-20.8C128 50.1 178.1 0 240 0c43.1 0 80.5 24.3 99.2 60c14.7-17.1 36.5-28 60.8-28c44.2 0 80 35.8 80 80c0 5.5-.6 10.8-1.6 16c.5 0 1.1 0 1.6 0c53 0 96 43 96 96s-43 96-96 96l-320 0zM0 392c0-13.3 10.7-24 24-24l528 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 416c-13.3 0-24-10.7-24-24zm64 96c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L88 512c-13.3 0-24-10.7-24-24zm208 0c0-13.3 10.7-24 24-24l320 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-320 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const CloudFog = createIcon("cloud-fog", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdAAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBagsGAAE2AiQDCAQgBYMtBzAb6gTIjtRW84w2OoL6tX+/5+wGgDfM6IAcK2CFN5LYAeuoV7HJB1KYIWr4E9fUj/On9+YneLQoS236X2NEnk9ggNHetBeZDWcTxVk7u8QPwheLJPFJhu2H1eICefydHVOOdCF9wOn4ofFdI8dIKmUAoiYARs6fPdWrsiiLeP//feK9yQiIkaAQyJChqQBDZAJN5QrkckFZ/P+/+w8sCCDK47gSyFEeC7EckIMkz/NO1TisUq5aPq+cqjz/QaeIUvNLne+0PxvXDNb/eMfrjfLud7zd7FDd4xG5uuJyh1t9qs651L5GzHPPt6keNxrPTXAVsDJQBa4GVo25Valm6Scf1n1w7eChEqWKNRo2eNuoSo3/fvnVmWtfm1Fz7byo2CCEQ6WgVMw7Do24Nr7ezJpm1iNt+HICdwhQvlhwhIDXgUAwstWLZctrDPmrYpUEvj35ZfO8/1+lQ6mEihIIsi7/d7EkHQIwA0im2KeV8EWBZKYcv2tVZwUIlREgKa+yAJkmagqQq6yzAOU011eA8iqbLRN5JaGupY1OqtpJZ/rZT+fqukuXM8TrRHl1I9MuQTeEt13quB4eu6zo2a1HMahY1lVRYTg/P7jY1jvso76OOGud7bbZY601NtrTobtMTe+11TgJGeuHCj1100NhkOK49Xh8nrV22W2j7baFRQYr7tsd7JNHd4SVMGsvFUkiUqVvBoOu67avBwAA");
 
 export default CloudFog;

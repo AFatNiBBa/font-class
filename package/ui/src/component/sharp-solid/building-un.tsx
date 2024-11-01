@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-un` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-un?s=sharp-solid building-un}
  * @preview ![building-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/building-un.svg)
  */
-const BuildingUn: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M384 0L0 0 0 512l144 0 0-128 96 0 0 128 144 0L384 0zM64 224l64 0 0 64-64 0 0-64zm160 0l0 64-64 0 0-64 64 0zm32 64l0-64 64 0 0 64-64 0zM112 80l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64 0-16 32 0 0 16 0 64c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-64 0-16 32 0 0 16zM224 64l8 0 9.9 0 4.4 8.8L272 124.2 272 80l0-16 32 0 0 16 0 96 0 16-16 0-8 0-9.9 0-4.4-8.8L240 131.8l0 44.2 0 16-32 0 0-16 0-96 0-16 16 0z" />
-    </Icon>
-);
+const BuildingUn = createIcon("building-un", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABeAAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCMwsGAAE2AiQDCAQgBYMtBzIbNQXIHoex22RJF81QPq5EPPwzJ/59SdrTJmPIiEgRsidwU2jnxo4+CYMsv24yq8JU7fv8X/P5NV0DfqNDq15RlJZF5fMJFGj7xhOabUAznYBNt4lHPkHsMwmRipCOL4+vO2RxNr2mQvIwgevtTeMfHV0jUU8BRAsAzFi5dIn3P8aPEV80EF9YhICYAUqBFCm6CDBZKtBFpkQmE/wYjQb/B5YEEFX4mARkqOEcrgIykKhmWct6vd6jX1Fpmq0oKvnOJk2bZFFERBGiiMqmIi9EHlEIeUQUI0IUIfIVwt2299vH4QnxoM2d3o/b3evkjJUxqm2M0Jb5Is/bxUi1A1eKns9bPP+vhx1cfHcJldxwySaXJGXaD9PJUNxHHW0Q1795sNmPPzabroVSC9OlX307vG+/St2Rg81rtVbj3TKYD7BJCy3oeSAQ9P6jdmhj88n/14oE/Pzyf/Iz0ngfl5JRk4AgHdwYbF1cgrgkAABJnNAzLiGQOKYKr9rEPQFCjgCJqlyAVGctBMjkBglQ0c0YAapyS6UiqwttrB8g0cRhkBrrPMi08QJUTPYhXdUm0gyU80f+AGbMtdCcbeWIocPLieWyTZWkEuv6pPLY3/+EGxtAN+1w0AHHbLfNbscMf8SS3HH7zd2Rc3xRaYShhitNVIZ7e2OFSR9x1O65Ft9kkvJ+rL8T+9kDKJSA4EhNiYRIijcaHnL8AAAA");
 
 export default BuildingUn;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `retweet` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/retweet?s=sharp-light retweet}
  * @preview ![retweet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/retweet.svg)
  */
-const Retweet: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 192L0 192l0-32L73.4 86.6 96 64l22.6 22.6L192 160l0 32-32 0-48 0 0 192 192 0 16 0 0 32-16 0L96 416l-16 0 0-16 0-208-48 0zm114.7-32L96 109.3 45.3 160 80 160l32 0 34.7 0zM464 128l-192 0-16 0 0-32 16 0 208 0 16 0 0 16 0 208 48 0 32 0 0 32-73.4 73.4L480 448l-22.6-22.6L384 352l0-32 32 0 48 0 0-192zm16 274.7L530.7 352 496 352l-32 0-34.7 0L480 402.7z" />
-    </Icon>
-);
+const Retweet = createIcon("retweet", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZAAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBYQsGAAE2AiQDCAQgBYMtBy4b3wTIHoVxMz2yO8pHYRfx8LRW9n51LfWEoYNEilEB+TgSdm1c1LgASgKFJ09PfTF3SO17vKlTNeM8FMDnuI+FOQ/IWKtjn1eg56VacUzRZcVahSrEfduwoSMIVxEhYSbRWOF4HSHHpxivifQoxb3ypvFXX3dJcgEgugBgya5tG9S/x/eIVw2JV9YhIJaCSqBAgQECzFcIDJBVyLLgezQa+B9YEUA043tJIKMZW3EAkEGScx7cMrCl1tQx76w1lbvKWhmxK8bFmNgRoixFrZaEgGS5a+uWrZujdtBBarQR2x6jY2zsjHm32LNt87ay3DK0vUv7f7w60uBGxXarVzviSN2pUk2uq3epdPnexTuTLwweCkHDbgyu198pDX6xc7ednxi2bCgQCPq9/3VM5/n/t9YS+Pmk241pcWpHqwSCYnxjvP1pMSAxACXFFUONDwoka2X8qh3cFyCUCJA0KwUo9NdFgKw0ToAmg8wQoFlpm0LkNqGHAwMkHZwHhZmugayHx6DJfE/lZj2iCCw6LOh/XcJKia5YVU2ZOLmaWy1LnYkVMi/Oq9zi6Cs0MAa2OuKsMy457JDjLgn8gg3aZaettLAVvqgyxUSTVeaqjptnYaeQL7jouE6fQ5aZp7ovjXbFHj8G1pEAU5+EpA2RWi4cvnT18OFL");
 
 export default Retweet;

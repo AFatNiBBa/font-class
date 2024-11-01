@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-facebook` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-facebook?s=brands square-facebook}
  * @preview ![square-facebook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-facebook.svg)
  */
-const SquareFacebook: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z" />
-    </Icon>
-);
+const SquareFacebook = createIcon("square-facebook", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABYQAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBQgsGAAE2AiQDCAQgBYMtBzYbyATIjtRG94xdInh+LmzeTwrAKTM6IAXIsq5qXdlW0d1ZAr0ZUrs/dotb8yjAA5HeZx7IZ83fd55A80BOW/Ms/S2wTBOwdmdrNUVpn6S1EHI8GsdnhjxuxXkVSDfSJ5yLD41fNXGCpEIGIGoDYPTCudOVfoqfIj6VIz6ZioAYAwqBDBmaCzBMJtBcrkAuF/wU5TL9AwsCiIp4yQRyZJiA6YAcJJHnI6pVqJEv8BOrLn3cKeJ54xQ3Or9oXy0iqkYEwr7MP9X+SgNxterJ+pfR/Lw6YlPPur5qlsXNLi87VG/zsvbL333a8MnIe/frUKfqKFXr1Lm/xkX9zdBfG44cjBrx94WJztdv9fVzy+bmqTndeBcdNcHQGqOAQDCzzuyrK2sN+79ytQR+efPn0ldU/ilK6SUqSyDIupW7WRYliJIAAKQ4oE2UEEhGSPiu1V0VIFRFgKSiqgJkmqktQK6qrgJU0FJ/ASqqaq5M5FWE+pYXkFS3G2QGOAhy9b0GFQzz1qyofmSWRNkB9Y+LnyDR8UNF7x69iiFF05Np4yBCd2gxrHc64DKdAWqDnXbYZ711Ntsn8D2mO/ttN6GHjfeiQm899FIYolgO1/wCNPfYa3Ndsd5nqGK/0cmBfnlnGCcB+pyBKxGp1mVUur9qAA==");
 
 export default SquareFacebook;

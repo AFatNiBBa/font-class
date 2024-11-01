@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-binary` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-binary?s=sharp-duotone-solid cloud-binary}
  * @preview ![cloud-binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-binary.svg)
  */
-const CloudBinary: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336L0 480l144 0 368 0 128 0 0-128c0-59.6-40.8-109.8-96-124l0-36c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192l0 8.2C40.1 220 0 273.3 0 336zM160 160l16 0 64 0 16 0c0 5.3 0 10.7 0 16c0 26.7 0 53.3 0 80c0 5.3 0 10.7 0 16l-16 0-64 0-16 0c0-5.3 0-10.7 0-16c0-26.7 0-53.3 0-80c0-5.3 0-10.7 0-16zm16 144l16 0 16 0 16 0c0 5.3 0 10.7 0 16c0 26.7 0 53.3 0 80c0 5.3 0 10.7 0 16l-32 0c0-5.3 0-10.7 0-16c0-21.3 0-42.7 0-64l-16 0c0-10.7 0-21.3 0-32zm16-112c0 16 0 32 0 48l32 0c0-16 0-32 0-48l-32 0zm80 112l16 0 64 0 16 0 0 16 0 80 0 16-16 0-64 0-16 0c0-5.3 0-10.7 0-16c0-26.7 0-53.3 0-80c0-5.3 0-10.7 0-16zm16-144l16 0 16 0 16 0 0 16 0 80 0 16-32 0c0-5.3 0-10.7 0-16c0-21.3 0-42.7 0-64l-16 0c0-10.7 0-21.3 0-32zm16 176c0 16 0 32 0 48l32 0 0-48-32 0zm80-176l16 0 64 0 16 0 0 16 0 80 0 16-16 0-64 0-16 0 0-16 0-80 0-16zm16 144l16 0 16 0 16 0 0 16 0 80 0 16-32 0 0-16 0-64-16 0 0-32zm16-112l0 48 32 0 0-48-32 0z" />
-        <path d="M176 160l-16 0 0 16 0 80 0 16 16 0 64 0 16 0 0-16 0-80 0-16-16 0-64 0zm16 80l0-48 32 0 0 48-32 0zm112-80l-16 0 0 32 16 0 0 64 0 16 32 0 0-16 0-80 0-16-16 0-16 0zm80 0l0 16 0 80 0 16 16 0 64 0 16 0 0-16 0-80 0-16-16 0-64 0-16 0zm32 32l32 0 0 48-32 0 0-48zM192 304l-16 0 0 32 16 0 0 64 0 16 32 0 0-16 0-80 0-16-16 0-16 0zm80 0l0 16 0 80 0 16 16 0 64 0 16 0 0-16 0-80 0-16-16 0-64 0-16 0zm32 32l32 0 0 48-32 0 0-48zm112-32l-16 0 0 32 16 0 0 64 0 16 32 0 0-16 0-80 0-16-16 0-16 0z" />
-    </Icon>
-);
+const CloudBinary = createIcon("cloud-binary", true, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAAB/QAAALGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhhCGNwsIAAE2AiQDCgQgBYMtB1QbXQfIhofn7fo691V9VX3UyG/kHi0VDbyCRtECSAeO1hk7XEaDcIW4B64ZL9LbzwdYOJCRRqVVtVfwQOvLmxL4gV6TzF+jbY/5EJXMhULjFso0u9ihi/RmauN5++L41Tg7SPoKYBCN/wI8+8INq3xxNI6maHcOE20rERDngCxQoMBEAU5TCExUyiiVgqOp0+FodDqZAKIb3rMA3RhF3EXsAJQg6VOV5Yi+UcOUlGmT8+DY8f3DKq66a6DcbEVWl1Z1JVRiXUeoqo0Fb4jqwnZJrcBiuRaGqk6q6zusIjZyNC8ERVo9EPHeor0nhH83b+cJT83Ye8pHJ3x32icbxeEFuydeWFf1Fi5DVW2Njpt64MFJcy7cImKLusoaybl4hRXkF7ZVnAvfJAiZ/EJRoHQp7k1scaEYeHjazmbn71PbN7Ttm9Ig3lqNZm1sWLymxZFkLfnONc0FWeMsjaxPeFZD+WBFJ4Np71DryJ0K3TunGN31Al7nry0GXvjwrRl6d+7cMvnODSuWf3FutNtxbq99L7889P6+prmqBGgkqBxr1pYUQ893UbTQmagBSm/I0J39/WigzFR8a+5smqv2rrYIp7HydPg+RYtMvo8tlM/iXk83dOezPh8IBBNOPuW/K4dO+7+3TuD4R3/+Ej9d52jaknaiVwJBsaCzwGVpC8hLAbhTPGBa2xf6AIHCzyrcR+33mgChQoCkWyVAYYJGgFJlvgBdJlshQLfKBoUo+4SRLs+BpN/dQOEEjwOlkQ4BXU7zpafbyCiIkENCnG/ghBeUIefvy0sWtfIpubMk5dIVyxg9NY9WznlAaZnL3egGd7rDfa53nZvdV8LcY5X/fre7oI/8/M/NllikJTtFnl29LtwseO5xr5vb+fMnOVVe3zrHA/3d53KaBHSXuqBQECmKkb9jzFt4zc13XH3PwwvpuX10A//dBQ==");
 
 export default CloudBinary;

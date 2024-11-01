@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `anchor-circle-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-circle-check?s=sharp-regular anchor-circle-check}
  * @preview ![anchor-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/anchor-circle-check.svg)
  */
-const AnchorCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 80a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM288 0c-44.2 0-80 35.8-80 80c0 35.9 23.7 66.3 56.3 76.4c-.2 1.2-.3 2.4-.3 3.6l0 32-48 0-24 0 0 48 24 0 48 0 0 224-144 0 0-112 72 0L96 256 0 352l72 0 0 136 0 24 24 0 192 0 106.8 0c-18.3-12.9-34.1-29.2-46.3-48L312 464l0-224 48 0 15.2 0c2.8-2.7 5.8-5.3 8.8-7.8l0-40.2-24 0-48 0 0-32c0-1.2-.1-2.4-.3-3.6C344.3 146.3 368 115.9 368 80c0-44.2-35.8-80-80-80zM640 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-65.4-32l-11.3 11.3-72 72L480 430.6l-11.3-11.3-40-40L417.4 368 440 345.4l11.3 11.3L480 385.4l60.7-60.7L552 313.4 574.6 336z" />
-    </Icon>
-);
+const AnchorCircleCheck = createIcon("anchor-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABjwAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCYAsGAAE2AiQDCAQgBYMtBzobagXIjsK2bfNWQ1hOCYZ4Bf9fa73nvunZSno+Q4eI1IIKEChAtgDs2IgPMhWhkId/Dn/3/b1xjYbIpDXwU2mgAWYQBRwFtI63+U+dep7zUACfcxEO2hir3brA9jyvQIHHsrEBe15qsVaQF/Puzq2YQ7RySVpZkuMbxydn4PRbD8Rgl+0HOJk/VD9V2wcjjgAAUBEAABh3fX7o06uaQt/Xz0HfzQAC0DgAgYAIiIA6AmCkCAF1HAE4HIKm+P+f/gMDBABKwe9mADggBZwB1wCAA8BwzpXu1FYncb7LFWO/7L4lnfNHKi5od+XF5Gj5eXKPc+lW3a7qy512gbxHSYK8pES5yEQihJL8O91lOrlYqYknSLt1s/aqbnS/M3jJ7m3pwfA3/sjQVz3vsWvr/rDXydERb/s8VK5VWZZRWVTE6AKrR5RHt0hHZXQb3im682vw4/aZMXcFh+BQpeAQ7NV4XLQEclH793EwYUHfXl/cnCanrDfVvBUEUx2SO1RtPK3tRJO+1QE7XXVIAbODrX+1yt3U5q2bBQjNks6dS0pD6NIltGBs4xtOHxy464nbvLHUXd/FuxUaAAIE57IjX1bVkf+5ogHQ8vT5SQ///2S77A7QBgNAEPVc9zQ7sQuA8AKArGmr9soXCTCOcPCr5nGBABAeEABGCo8AiKhVRAA4PD0IgJgGgwiAFJ60CLm2iDJzGjDy2AAiBtsOHGWegpiRPmdSlEVkmIxZMc/CxP0e2ZvV79e7bxgehhWVtTUqTo4I02bXraGjG+601DprbbbEYits7rCNZuW3WGOyhk7yQ0E/vfUVDBeW68vNOUtstMkK66xN04wQ9se72qr374aOwaT9FRgGstIro2594ZG3DjkA");
 
 export default AnchorCircleCheck;

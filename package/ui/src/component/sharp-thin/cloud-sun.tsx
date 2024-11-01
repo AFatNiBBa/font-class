@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-sun` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-sun?s=sharp-thin cloud-sun}
  * @preview ![cloud-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cloud-sun.svg)
  */
-const CloudSun: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M106.6 119.8l11.3-1.9 1.9-11.3 13.2-79 65.9 46.1 9.2 6.4 9.2-6.4 65.9-46.1 13.2 79 1.9 11.3 11.3 1.9 79 13.2-42.7 61c6.8-1.2 13.8-1.9 20.9-1.9l39.3-56.1L416 121.3l-17.5-2.9L312 104 297.6 17.5 294.7 0 280.1 10.2 208 60.7 135.9 10.2 121.3 0l-2.9 17.5L104 104 17.5 118.4 0 121.3l10.2 14.5L60.7 208 10.2 280.1 0 294.7l17.5 2.9L104 312l14.4 86.5 2.9 17.5 14.5-10.2 27.5-19.3c2.1-9.1 5.2-17.7 9.1-25.9l-39.6 27.7-13.2-79-1.9-11.3-11.3-1.9-79-13.2 46.1-65.9 6.4-9.2-6.4-9.2L27.7 132.9l79-13.2zM304 208c0-53-43-96-96-96s-96 43-96 96s43 96 96 96c8.1 0 15.9-1 23.4-2.9c3.5-1.7 7.1-3.3 10.7-4.7c1.2-6.4 2.8-12.6 4.9-18.6C235.5 284.3 222.2 288 208 288c-44.2 0-80-35.8-80-80s35.8-80 80-80s80 35.8 80 80c0 4.4-.4 8.7-1 12.9c5.3-4.4 11-8.3 17-11.8l0-1.1zm64 16c-53 0-96 43-96 96l0 1.3c-45.4 7.6-80 47.1-80 94.6l0 80 0 16 16 0 80 0 271.9 0 64 0 16 0 0-16 0-64c0-37.1-25.3-68.4-59.7-77.4c-2-.5-4.1-1-6.2-1.4c.5-2.1 .8-4.1 1.1-6.2c.5-3.6 .8-7.3 .8-11c0-44.2-35.8-80-80-80c-13.2 0-25.7 3.2-36.7 8.9c-3.2 1.6-6.2 3.5-9.1 5.5c-2.2-3.6-4.6-7.1-7.3-10.4C425.2 238 398.2 224 368 224zM623.9 431.9l0 64-64 0-271.9 0-80 0 0-80c0-39.6 28.8-72.5 66.6-78.9l13.4-2.3-.1-13.6 0-1.3c0-44.1 35.8-79.9 80-79.9c29 0 54.5 15.5 68.5 38.7l8.8 14.6 14-9.8c10.4-7.3 23-11.5 36.6-11.5c35.3 0 64 28.6 64 64c0 4.8-.5 9.4-1.5 13.8L554.8 366l16.4 2.9c29.9 5.3 52.6 31.5 52.6 63z" />
-    </Icon>
-);
+const CloudSun = createIcon("cloud-sun", false, "data:font/woff2;base64,d09GMgABAAAAAANcAAoAAAAABxAAAAMRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSEIAsGAAE2AiQDCAQgBYMtBzAbIAbILgpsY+rQRRg0A9AhFhfyebs22IZ4nv/9vu1z38NUk5gnsyYWtZs0FhHPtMlopX0mMhXx7z8/7r3n21t6g9kEN6LCiEQqq6tshEZgZlvb9h/VsCQeGSVTQuQ6bVr7/G7+r/n8nl8Dfj6CQ4laRFuURpRA4gDvzTaLtoFsNBvOJopT2Bz4k+su2gn1eoQ63w7jUx7SD1y3PzRtBumnqCoCSE8EYOnulDi6aaSRvDclb6xHAlmKMBJQocJQAAtwBUPxjERqtdBIs6n+A0eiAGlP7nMLqNEeX0hNQA2KuuYVTZzmLOXLeeld+JKcAX2NRmQkLfowtZ5FwzPFoxpu26R7UfPokspRQ0wM1VpjhqG62DBMbTYq7pSp7M/VBurLiDHZYefiZGAXz9ftbmHbucfylKe0zi733WHp2HsumkjfHUyIgSZAWwijriJIFzkAzDaz82SaIlNkcd/F0XE8VA46xDTQuSswd+wtRgDAOprr/NdN8Y1tp3YHHfTZqDPVctfs/qM+upOrV9zswSTbJGKaAY+JudJ95k5s6krP3OxSYVGxqxt128nCp9WzffenUbWotG7UG1lmr2bqxUKdNgbdhS09tnD9yXWiNH2pTM/ssrSk+LCbXfDk0qUnTzpajNradfVdZpooNvQs2wWkH1GRDCG//Vr+oQn9OND4vXu5iVRUrwyFk379ykjG4fL5KN+p6iuKmD3W++RrtsRdX5hI8n7jHlp0Fwu9quWwPvnd75FVS4SGGfTl0OePHYAg9L24/Wpfj+BvdOEQtL6+Lblds3KJ7gIdFRCqqc2pcks3QFEDxEvaWYIvCopWNfddu7onIDojoGivs4DKECoAtc6mAGhnOB8A7XW2HVdqMUVfeQUoujoFKvN1gFpfZ6CdBZ5j7fUN1+ALxla47EwdW4ViVrFZru4skPVWZKJZ5uBkEBttntiuOxzoRirXoF6rMqWqtFbIZnHJNnViERzjhxgPrtwxgdjs+k11Onc3a9Fctzh/GkHY+n577bi/A7VxuLSzFRWFFPEfECMuZ87VAwA=");
 
 export default CloudSun;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `castle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/castle?s=regular castle}
  * @preview ![castle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/castle.svg)
  */
-const Castle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 200-80 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24L0 440c0 39.8 32.2 72 72 72l496 0c39.8 0 72-32.2 72-72l0-256c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-80 0 0-200c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-64 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-64 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-64 0 0-40zm0 88l288 0 0 112-288 0 0-112zM48 272l544 0 0 168c0 13.3-10.7 24-24 24l-184 0 0-80c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 80L72 464c-13.3 0-24-10.7-24-24l0-168z" />
-    </Icon>
-);
+const Castle = createIcon("castle", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABegAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCFgsGAAE2AiQDCAQgBYMtBy0bEwXIHoex46UkG8nSvZN4+H4u/HNfsjsFgJQZHZBvFTCqOjRmp/YDK0xm1YcM6bafOvU856EAPocgGLOxbGpAxrJcaO225xUo8BjLagWqFWsVxe5NezZKGUkmqZqk4xsdV2fI4+84rUQ6n+BU/ND4QVMnSUoZgKgDgDGL5s3wsRKViG//vya+mYaAGAMKgQwZWggwXCbQQq5ALhdU4v//8T+wIIAo4+cmkKOE3TgAyEGS5fn4qs2rl2rmC93QassudLzVRFSLCNmR4nyX+x1qxt1uD5tnMU8Bq9WsUVPUiJhfu1Ztca59ELo+ILnzPTr+TrNo+6DOg5/YyNO7DefMafjZbJ2Jl1r9+lV+VclyLZ3Z2WyfBXe0zsLigt27FXYfuQr8vaH3ndmq1a177Vp6XbXZ3pnT8B4QCBY++tyqhv9VpXoC3z/8cnnc/x/T0TSqSCDIuv/f3fJ0FBAdgJ7ioLbKFwWSzTL8rjWcESBUQ4CkrJoAmebqCJCrppsAJa0MEKCsmnkykVcVGlhRQVLDHpAZ6BDINfASlAz3SStrEJnNURZD/fjiJ7bQhEFFn569i6HFMiC0GRG+d1ixLXY+SIUusNBGu+y03wbrbbG/QfaaYR6ww0QNnuCHCn301FthqOI4vp+90AZ77bPFLjtDP8MU99XODur1XUBJGLMvX5KIVH4e0vYNAAA=");
 
 export default Castle;

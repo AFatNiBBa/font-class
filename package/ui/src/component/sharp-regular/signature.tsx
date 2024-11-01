@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signature` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signature?s=sharp-regular signature}
  * @preview ![signature](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/signature.svg)
  */
-const Signature: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176 128c0-26.5 21.5-48 48-48s48 21.5 48 48l0 7.9c0 27.5-2.3 55-7 82.1L112.9 265.1 96 270.3 96 288l0 168 0 24 24 0 72 0 13.6 0 7-11.7 29.3-48.8c29.6-49.4 51.1-103.3 63.6-159.5l1-4.7 110.8-34.3-23.9 66.8L381.9 320l34.1 0 136 0 24 0 0-48-24 0-101.9 0 28.5-79.9 16.1-45.2-45.8 14.2-133 41.2c2.7-22 4.1-44.2 4.1-66.4l0-7.9c0-53-43-96-96-96s-96 43-96 96l0 40 0 24 48 0 0-24 0-40zM144 305.7l109.1-33.8c-11.7 43.2-29.4 84.5-52.4 123L178.4 432 144 432l0-126.3zM64 368l-40 0L0 368l0 48 24 0 40 0 0-48zm216.8 48L616 416l24 0 0-48-24 0-311.9 0c-7 16.3-14.8 32.4-23.3 48z" />
-    </Icon>
-);
+const Signature = createIcon("signature", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABeAAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCKAsGAAE2AiQDCAQgBYMtBzAbKAXIjtRW94RR6Xj4R/fqfZL+P7YUAjkoOyQHlaSAEEDeWt6JaAKGFadOmAiAqvN/rud7Phrg5xEMLQpLB1Lgmc8nMIH2FhrVBZ4dqB3r6Tbx0UOKfREhQSLR8e14GyGLv+NyLZIbkvdwWX/T+FWXS0m0UgAxAABHzz/3dC/9FD9FvPv/M8S7TkVAHA0qgRQpRglwmFRglEyFTCb4Kf7/X/8DKwKINvyWBGRoYxcuBWQgkWXZaUVnXrT6ZvOKVr74puER1026Z+g1XeLCUXNifAghimJ4zIgv5w+P+TEnyiiKiDyfH2Njv5gTt0XErZMfPODp+v5RQhQREXPmz5n/2VFTI4+Ykxe5+lPN7dunb0Te5/qy58EBD/7e/d669zx2ZPo+3zXNd++nHXo3XDddZpD7lcp5m31o6imD5mS2dht+jMf03N4o14060z++d2mt6e7Q8eCD9WqlRqke+8SWbt974FFda/Q4/8zD6/qoRlk3X80488z1jfKg698AAsHIVzoPWt7/sL8UCfjlxT//NDb//1NyYfIgOiQgSKf+P9WS5EJQdABqEvv0JB8USGySwVH7uFaAkCNAoi0XIDXSAAEyuSkCtIyxvwBtuXOlIusUhli6QKKPnSB1gPNAZoinQMth3lTahkRKPpI65Ncv7oQIHV9VzZzeVIdUR8Ok+IR78dCqzNf7LNArg9bZbps91lpjoz0B2eV0fa+tTsjg431RZabpGpVDVNf2e/c8a+2y20bbbWtlDlW9l2v78vhekRLAnKUukRBJ5+6N6xkLAAA=");
 
 export default Signature;

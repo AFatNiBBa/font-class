@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `castle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/castle?s=solid castle}
  * @preview ![castle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/castle.svg)
  */
-const Castle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 32 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 96 0 112 64 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 96 0 192c0 26.5-21.5 48-48 48l-208 0 0-128c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 128L48 512c-26.5 0-48-21.5-48-48L0 272l0-96c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 64 0 0-112 0-96z" />
-    </Icon>
-);
+const Castle = createIcon("castle", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABcwAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCDwsGAAE2AiQDCAQgBYMtBy0bDAXIjsQ4JvKLKOwigu/Xwvr9md1KZsMwISIFTA7IEykmF3ZwXP7YXp08hR1S+45v6uZ5508BPkcQ2li4NJAFEs153nmYaDoWhQFlYZYlngj1tiGCjiBsRYhESUhj2liNkMff2SkV0tX0DU7Xi8YfWjtFUjcDEI0AMGnx/Hk+/hq/Rnz9v8TX5iAgJoFSIEOGdgKMlQm0kyuRywW/xv//0z+wJICoki+VQI4Mu7APkIMk8nxTrVI/X1SrFMsvt6zFxeaiFhHqyO+70uxC1yIirvV+2P12z/utRBF3W1xqE9F+0flho4d/8s2mbxx91uDX0q8NBmoMghIwsLnGHhNx30fZtz8O/MExRePG1683blwc84OBP36bfbQGj5pojzVAIHifL4/VDcf+VaeWwO+vW9/8/8d0LD1EHQkEWd//+1qRjgFhA9BSHNLZuVEg2SSRs9ZzSYBQIEBSVQiQaauRALlCHwEqOhgmQFVhvkzkdYVmVipM6tkLM8MdhrlmXsGKsT6pVc0iyzcqW6jvXvx0i0xrKwf1H1iOLreWQacQUapjymOh5yGO9IJOm+y2ywEbbbDVAYPuM884aKfpHpjmQaVB+huoNFoZdp/5Rajts9/WNROvM0Z5X+npkJ/eC+REcAczJYlI1bch7tgIAA==");
 
 export default Castle;

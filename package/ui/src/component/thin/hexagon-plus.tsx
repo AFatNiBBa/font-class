@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-plus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-plus?s=thin hexagon-plus}
  * @preview ![hexagon-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hexagon-plus.svg)
  */
-const HexagonPlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M400.8 450.8s0 0 0 0L497.1 284c2.5-4.3 4.4-8.9 5.6-13.6c2-7.7 2.4-15.7 1.1-23.6c-1.1-6.5-3.3-12.9-6.7-18.8L400.8 61.2c-10-17.3-28.5-28-48.5-28l-192.6 0c-20 0-38.5 10.7-48.5 28L14.9 228c-3.9 6.7-6.3 14.1-7.1 21.6c-1.4 11.8 1 23.9 7.1 34.4l96.3 166.8c10 17.3 28.5 28 48.5 28l192.6 0c20 0 38.5-10.7 48.5-28zM483.2 236c2.7 4.6 4.4 9.7 5 14.8l-2.7 20.4c-.7 1.6-1.5 3.2-2.3 4.8L386.9 442.8c-7.1 12.4-20.3 20-34.6 20l-192.6 0c-14.3 0-27.5-7.6-34.6-20L28.8 276c-3.6-6.2-5.4-13.1-5.4-20c0-3.4 .4-6.8 1.3-10.1c.9-3.4 2.2-6.8 4.1-9.9L125.1 69.2c7.1-12.4 20.4-20 34.6-20l192.6 0c14.3 0 27.5 7.6 34.6 20L483.2 236zM248 352c0 4.4 3.6 8 8 8s8-3.6 8-8l0-88 88 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-88 0 0-88c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 88-88 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l88 0 0 88z" />
-    </Icon>
-);
+const HexagonPlus = createIcon("hexagon-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABewAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCHQsGAAE2AiQDCAQgBYMtBzMbIAVRlMvFDtlDEOn+dfakJ9uSGWQAhEBP2IZLhI7r1D8pmef/ms/v+dEBJvGhRGNpWQVY1KKeT+ADblTcNOC0gZ0oztrZGRjk/WKQnvgkw+aHzQnyeNsBDdIT6TPcRz8aX+vmXpIsAxBtATB38/qVPmiKpojP/n+V+MxyBMQ8UAtkyNBTgBkygZ5yNXK5oCn+/9//B9YEEAV+3gRyNHAaNwE5SLIyzwf2q6tGq3xT1Sj33hURd8XmeKzLY50f7bwpXhxUxtNDNsTDHR/vtDFeGFjFc8M3P9Kpa3fTXbEhHh9QxrPdN8WjcVeXx7psjqcGV/FMt40bVJqciCoK4dHOZUQQHu4oyqCnd1ah34ttX/zWd9/PDn3m/gTsftbELsN6dFuSSeUPH/ihdLdW7e6TW9Z+PqlZB+0Dl3tpzwf2vOSAW6pGx3zAsOGr88WePcUWWxBdWV8pHwaBoO/Gsyt3t5nxa/MqgS/f+v4v3F78/0X8lV5EcwkE2Yj/R9iRKBQKUAAHKS7ph4EFksMywLe29KgAoUSApFAKkOmhrQC50nABGnqbKEChtF4m8hZCRzsbmrR0Fs1MchPNdfQy2jDDh0GhY2RmxxsN/+tLWSShhaB67Kgx9bR6WaiCJbFxdXq9rQ65FEaG4qBDTjvlgoMOOOqCQM5ZGV900iINXmhAtbFGGaM2TX1cP+7e5KBzzjvqtFNpnenq++YQl/TpQ2EkTDnO0SQRqeWRg1f2Hj59auS7BQAAAA==");
 
 export default HexagonPlus;

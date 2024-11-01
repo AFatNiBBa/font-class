@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-exclamation?s=sharp-regular lightbulb-exclamation}
  * @preview ![lightbulb-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/lightbulb-exclamation.svg)
  */
-const LightbulbExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 176c0 27.2-8.4 52.3-22.8 72.9c-3.7 5.3-8.1 11.3-12.7 17.7c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c-12.9 17.7-28.3 38.9-39.8 59.8c-10.4 19-15.7 38.8-18.3 57.5l48.6 0c2.2-12 5.9-23.7 11.8-34.5c9.9-18 22.2-34.9 34.5-51.8c0 0 0 0 0 0s0 0 0 0s0 0 0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4c0 0 0 0 0 0s0 0 0 0c12.3 16.8 24.6 33.7 34.5 51.8c5.9 10.8 9.6 22.5 11.8 34.5l48.6 0c-2.6-18.7-7.9-38.6-18.3-57.5c-11.5-20.9-26.9-42.1-39.8-59.8c0 0 0 0 0 0s0 0 0 0c-4.7-6.4-9-12.4-12.8-17.7C72.4 228.3 64 203.2 64 176c0-70.7 57.3-128 128-128s128 57.3 128 128zM112 416l0 96 160 0 0-96-160 0zm96-304l-32 0 0 16 0 80 0 16 32 0 0-16 0-80 0-16zM176 256l0 32 32 0 0-32-32 0z" />
-    </Icon>
-);
+const LightbulbExclamation = createIcon("lightbulb-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABhgAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCYQsGAAE2AiQDCAQgBYMtBzwbbQXIjsM4JjxSqfxFPHzMVb2fpHuAssSZBUBWQIdg1547dsRq1dQ5Qt2+7fjzGexGPh15gf8vTOpJFEdZ3Pxf8/mlXevZ9xO+Q4u0u1VyAXU/3/PhREftGxbPIm2iuN3ZtsahtEtJ0izJcc5x+Wwhi0vxSInk5eThYb7S+FUnt0mUUgCRA2DGulVLfNwSLRFfVDbxhUUIiBmgEEiRoqsAk6UCXWUKZDJBS1Qq4T+wIIAokwMlIEMZz+B1QAYSWZbtq2lVU1dqyNbWlWr3vdY/tGURHy+M/qUjxatd2iBlce6wev2V36/9cfm3q98eEts5NTk71U6r/CudMRBP7ddH9z7tzLtTPmhWoS4iajfV1tUKousiDDx+zyc5fm/+cu+XpjVVbxs9tnVrAICFw36bPELz9Z/7A8DFi0+rY2EeC8GKsv/qpxcvBID+P19vFpN/67EQ4MA6tlWXRs9avnzW6NI3f24XwVu2e2sbFzm55XKFFOrxsAAb7wwCwWtn7a9tTZP/r65LwE/v/vknni+vfBzHkyeoloAgHVwZbHNcl8vjuAAAJHFWT+OLAok7MnSp9V4QINQiQKKsVoBUF7kAmVqDBCjpbowAZbVWSUVWI7S1pYFEvRMgNdYVkGnrHVAy2SepsraROqbqVuq7MGtuD82ZVYwYOryYWEzLquZrchqfVCw7/c/GtgEw117HHHXaHrsdcLrjTlqSPeOIuRYxxw8VRhhquMJExXbt0VpLqZNOOaAb+5NMUpyP9XfW7j0AvAmRHCknkRBJO1+d3nnm8M4hf154dhy5bQ==");
 
 export default LightbulbExclamation;

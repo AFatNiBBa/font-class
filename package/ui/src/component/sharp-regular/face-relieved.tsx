@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-relieved` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-relieved?s=sharp-regular face-relieved}
  * @preview ![face-relieved](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-relieved.svg)
  */
-const FaceRelieved: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm193 87c11.8 11.8 32.7 25 63 25s51.2-13.1 63-25l17-17L369.9 360l-17 17c-19.1 19.1-51.6 39-97 39s-77.9-19.9-97-39l-17-17L176 326.1l17 17zM391.5 237.7l32.2 23.8c-36 48.7-108.2 48.7-144.2 0l32.2-23.8c20 27.1 59.8 27.1 79.8 0zm-271.8 0c20 27.1 59.8 27.1 79.8 0l32.2 23.8c-36 48.7-108.2 48.7-144.2 0l32.2-23.8zm92.5-115.6l-15.2 5.1-6.3 2.1c-23.6 7.9-44 23.4-57.8 44.1l-7.6 11.5-8.9 13.3L89.8 180.4l8.9-13.3 7.6-11.5c17.8-26.6 43.9-46.6 74.3-56.7l6.3-2.1 15.2-5.1 10.1 30.4zm102.7 5.1l-15.2-5.1 10.1-30.4 15.2 5.1 6.3 2.1c30.4 10.1 56.5 30.1 74.3 56.7l7.6 11.5 8.9 13.3-26.6 17.8-8.9-13.3L379 173.4c-13.8-20.7-34.1-36.3-57.8-44.1l-6.3-2.1z" />
-    </Icon>
-);
+const FaceRelieved = createIcon("face-relieved", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABpgAAAK6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDFQsGAAE2AiQDCAQgBYMtBzQbmQXIHge5KeuOKKJCw7LJPIgewfP745tz/wJCY9sKNQgRdmiA2z57flzN2/WZ/yglCA2M7rJCUby4mTM3Pf+Xe37PjxbINzqUsTZIwwfNKdDzANPD1hbKAss0AIsxa3McD/6g2g8tEmfYE9IwfsMUtINcsUdrkJu0lfMQq9ubxifldZDkzgFAFAMA3ccmxeD4eTyPuMtOEQ8MBAHRHVANIQc5qIRAJ1yBSniqgVxyCZ5HlqX/wGoQQOSB/boEciE/9uM0IBdI8ubiaVfUk5PTLC/Nl+WlFswtlbu4CdFi5P0Cy8LvNjpoUeOF/vcKLo960PRIFPrqSXE29Kng8phH3U9Gv3c7HnRfYFns4x6nY1KGShMNSS9XHylrRT5hHoPG460260yWsSS/sBhbv4HFfIFltlY0Jr3cSmZMOqjfyoLGirRSZVVUaN18IyWyDPViL7mhSnN0mdJq2qQKe8MGkXmo4bRZVzXD2WKzX6o/nHbvyZX2hxwuVNCtrbTM4iGqS/nPeuen/IlrPYNOTpQXo3etpyuujun5x7uyZf/+LaE4eLp8TrFiLcufUnh7hsRW3aDh2T+/ypXlKuwmqCMxhhP7lnWHI3pIKwastcIs29+G49vOabmm0s5eHu7/7CwHnyt20NOAQLDmzf81U4t2+pOvIAfw8vy3b+VrJLuapP0gnwSCnEZZI9kJJAIAkKKBYQICyT552asWskmAUAABkjwKCJCjIgUEcimgIQK5VeGCQB4FjMQVucQIpeQcIClkNsjRRjvIpZQ1kFsnV4U8SgU3ZNmAY78Yk0IZClnGmtvaM092Wde5KKTzvBe7bdVr0D4L5KJApQp18uUpVkdIjZhyvXKhHhzigxgHtuwxnthy67OUKlGNWqXn3PoivLDnM3MN/mgLuBxG2EJNkogk+0KoNn/2xA35eQ==");
 
 export default FaceRelieved;

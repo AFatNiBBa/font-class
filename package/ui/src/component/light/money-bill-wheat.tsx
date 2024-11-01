@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-bill-wheat` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-wheat?s=light money-bill-wheat}
  * @preview ![money-bill-wheat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/money-bill-wheat.svg)
  */
-const MoneyBillWheat: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 80l0 5.3c-18.6-6.6-32-24.4-32-45.3l0-5.3c18.6 6.6 32 24.4 32 45.3zM160 16l0 24c0 31.7 18.4 59 45.1 72c-26.7 13-45.1 40.3-45.1 72l0 24c0 8.8 7.2 16 16 16c44.2 0 80-35.8 80-80l0-8 0-32 0-24c0-44.2-35.8-80-80-80c-8.8 0-16 7.2-16 16zM48 16c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L48 16zM16 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 96zm16 96c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM336 85.3c-18.6-6.6-32-24.4-32-45.3l0-5.3c18.6 6.6 32 24.4 32 45.3l0 5.3zM288 0c-8.8 0-16 7.2-16 16l0 24c0 31.7 18.4 59 45.1 72c-26.7 13-45.1 40.3-45.1 72l0 24c0 8.8 7.2 16 16 16c44.2 0 80-35.8 80-80l0-8 0-32 0-24c0-44.2-35.8-80-80-80zM448 80l0 5.3c-18.6-6.6-32-24.4-32-45.3l0-5.3c18.6 6.6 32 24.4 32 45.3zM384 16l0 24c0 31.7 18.4 59 45.1 72c-26.7 13-45.1 40.3-45.1 72l0 24c0 8.8 7.2 16 16 16c44.2 0 80-35.8 80-80l0-8 0-32 0-24c0-44.2-35.8-80-80-80c-8.8 0-16 7.2-16 16zM304 189.3l0-5.3c0-20.9 13.4-38.7 32-45.3l0 5.3c0 20.9-13.4 38.7-32 45.3zM192 184c0-20.9 13.4-38.7 32-45.3l0 5.3c0 20.9-13.4 38.7-32 45.3l0-5.3zm224 5.3l0-5.3c0-20.9 13.4-38.7 32-45.3l0 5.3c0 20.9-13.4 38.7-32 45.3zM480 304l0 32c-26.5 0-48-21.5-48-48l32 0c8.8 0 16 7.2 16 16zM32 368c44.2 0 80-35.8 80-80l288 0c0 44.2 35.8 80 80 80l0 32c-44.2 0-80 35.8-80 80l-288 0c0-44.2-35.8-80-80-80l0-32zM432 480c0-26.5 21.5-48 48-48l0 32c0 8.8-7.2 16-16 16l-32 0zM32 432c26.5 0 48 21.5 48 48l-32 0c-8.8 0-16-7.2-16-16l0-32zM80 288c0 26.5-21.5 48-48 48l0-32c0-8.8 7.2-16 16-16l32 0zM48 256c-26.5 0-48 21.5-48 48L0 464c0 26.5 21.5 48 48 48l416 0c26.5 0 48-21.5 48-48l0-160c0-26.5-21.5-48-48-48L48 256zM224 384a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 0a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const MoneyBillWheat = createIcon("money-bill-wheat", false, "data:font/woff2;base64,d09GMgABAAAAAANsAAoAAAAACEAAAAMhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhnyFZAsGAAE2AiQDCAQgBYMtBzcb6wbIjsN0Gy8fCCEGmyHX4J/Sme+vdCTLMBMdYDbM2DFiUaHn2hB2hgAud79ozMaaQE9lawCVjkmSF3DCBZ74nDhm51t7gSQObD6UiKK1VQStBSIxmraPFn2wB01+If2peS8PUmi6vnvg6pZQkSQwO8TXwDp3WJ/IZjEYXAcfpRjvk2aLSY/7ccWl14kroNd0AASg5gBYBDiAA+QhABriICAPFwu4uAjiSiTM/0ALAgAlA+GGSy6QAWoL6g/d68AQyK5nfT+cWtSzXqrn51SUyLlIOJQUdnvTN3sDEEcLpCPx7oj52TtKHc7aDtriv1bhVFH5znsrJ2tvDjxO6Vka0rbg1gyvZyXuxTgaEIw4Zor0vgSI16fXhbt6Cu0rot253qlavTr0AwwZW3NCWzhDqUTi28PaUz5RC10uHc/z1xNq2K5MadsNN/u84UfSpS1hT1sD6rM9kDbnho3BUPnD1S1DaId/S6mwjgW35Uo7A1tL+70WbJSoq4acmB9s9lZ2n6PQ3srJssfz9pQ7UeFU0eInYye/FHusXvNxSpJP9Dam8Db2z3rWw3u9ehcfZoWIxGPL3kIqlizUe5T1MqZyUyTeFCkrOqDy+UBFdMgQAyqqjN9rmkqVnvFIFrI11y7nSrucngeNvaVE0LULU1B/dLurvJ1N2arvno5lmeSetxENvQUak6RosNnKdVOcN/CuaopInHKqLFYA77RV1g0K/kSyny6FSW402Czo3LzIclgeSZKY91Cn8MePQgf+HgAIEPx/pzUYEm34JzVkACi8+e0P/xsS9w3mJJCKAUDgVExUZKAIgAHhf0pGsykuAggwakqAr/HZutUmPKgwhmQ8jEMuMYyLRwVMEgXUoi3c3wMHuWmIgEEQY/CZhnGozRyMS8AlTBINeWZOJhCcW4txYzB+bON2m4DOsFS7clVb344mFcy7haabG9jF0tJsXlQOnmU0U5jMTEYxknHMbCCm08k2i0m0niJt9bGWalSmKpb62M2Zu5LeNMzTmcG4Yfb2QRpgj9eUZfZ05XJQYfDJVifCYEAmdiPy6ne6rH7+DgAA");
 
 export default MoneyBillWheat;

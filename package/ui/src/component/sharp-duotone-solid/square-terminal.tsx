@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-terminal` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-terminal?s=sharp-duotone-solid square-terminal}
  * @preview ![square-terminal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/square-terminal.svg)
  */
-const SquareTerminal: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32l448 0 0 448L0 480 0 32zM62.1 176l17 17 63 63L79 319l-17 17c11.3 11.3 22.6 22.6 33.9 33.9c5.7-5.7 11.3-11.3 17-17c26.7-26.7 53.3-53.3 80-80c5.7-5.7 11.3-11.3 17-17l-17-17-80-80-17-17C84.7 153.4 73.4 164.7 62.1 176zM192 336c0 16 0 32 0 48l24 0 144 0 24 0 0-48-24 0-144 0-24 0z" />
-        <path d="M79 193l-17-17L96 142.1l17 17 80 80 17 17-17 17-80 80-17 17L62.1 336l17-17 63-63L79 193zM216 336l144 0 24 0 0 48-24 0-144 0-24 0 0-48 24 0z" />
-    </Icon>
-);
+const SquareTerminal = createIcon("square-terminal", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABgQAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCCgsIAAE2AiQDCgQgBYMtB1obNgXIHomxLYr9ipheo8XD92t9ntuvZ3Z/dy9yLzAqZAeMjsIqcQs2UTwuaMRUJLrIZPLL8T3/pREmrnn+ad+AhS/+aFnL0ALPPJ/ABNactPHOJzTTGdgWt12N5BLaRmhcII836bEG2WfZb3iR/gcw/jTEYzJdCUD0BsDqPTs2abWjncVvna+I32xEQKwBtUBCwnABlkkCw+Vq5HJBO+ugHR01AURTem8CTXTDEZwH5CCTSXk+pOwaV5WNHvnuslHsmTJ5ysqYHLsYMSl2PrQipsaO2L6rLEpRFBFl6lH1yKKKtOtcdfK22GrCjwZU6CeDKg/ih5Vc8MmgKbE7xG/7fxi77ot4qiwjijHve7//e/RvR3+z+X/0wZYt2HN98I9/nvfy5dtZBtOsL1rGIhPLX+xcg/ffrNvVp++RXVy7xvVnV7fq8ODzqqKq1OsgECz478d6Lfu3MgO/f/0f6t9Rpx2t7D26y0CQpnWmORgtiJYAAGRx1ZhoWYFAslhSPrXysQChQIBMUyFAMkxvAXKFqQI0jDRfgKbCDknkXUJ/h3o2U7nAJgvcYXP9fck2LPNjral/JHBTgUX92cvaMAbWb6pnz5hVL6k3W1oNgmS/urQ+HU26qkcm05OOOuesy4447ITLI+aiTc0rztiwh633RbXZZpiltkR9u/vc2s1rF11yYt24v85S9fvFSa7uT59ME5kiOceWJBFZpEEo60//oLzpqDtxyJqBpw==");
 
 export default SquareTerminal;

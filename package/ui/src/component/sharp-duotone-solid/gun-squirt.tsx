@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gun-squirt` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun-squirt?s=sharp-duotone-solid gun-squirt}
  * @preview ![gun-squirt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/gun-squirt.svg)
  */
-const GunSquirt: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 160l0 32 416 0 0-32L64 160zM218 376l54 0 0 16 0 24 48 0 0-24 0-40 0-40 0-24-48 0 0 24 0 16-42 0-12 48z" />
-        <path d="M128 56l0-24L80 32l0 24 0 9.3C34.6 72.9 0 112.4 0 160c0 50.4 38.8 91.7 88.1 95.7L32 480l160 0 56-224 264 0 32 0 0-32 0-32 32 0 0-64-32 0 0-32 0-32-32 0L128 64l0-8zm352 72l0 64L64 192l0-64 416 0z" />
-    </Icon>
-);
+const GunSquirt = createIcon("gun-squirt", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdgAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBfgsIAAE2AiQDCgQgBYMtB1AbIAXIHoex82RJN5qQHy5oEcSv9Vb9ZnYDQBMg3hApBFDIMvk2UWHHwpPM3clzgWT+emjj6/d/E5c7/6e1ABe++KPNWTQmbaC9zxNIrMvrPMqXUKYZWIvbrlbviIY2QuQKefzKziiR7iS4FP4HMP7RwhmSGhmAqA+AcfNnz/LuW3xL8eXvc+KLmQiI8aAQyJChtQCjZAKt5QrkcsG39He+xd8LAoiyAGX8MnmGFdgEyEGSpDzvWaNGq1qlOvm8WqWai0PUDCGed3vS+kH3p4PnRK2YH3VqRUTwTM0ILqodKwUrlkWLhTrRVnturZq1hCNglEMg92jdoap+1X/treP4+ebNm/fTXA1dFi7MyhcPzR761WOsUr0oKKaiqJ6o/pQKkz5W8djYdoXkscLjOw6p1NfcE/luuuVH1dfDWyAQNL96kuWN+r96rQR+vOgn8Tv6+y1VUhWqSyDIev3tZUmqQKoIAECKfTqkCioCmUES+qm13RQg1ESApKymAJlW6guQq6mnACVtDRagrKbZMpHXEBpbWrmktp1cZoijXK6xZ1zJKO/rZY0jAzQNTLTfvOzJPTDpVNG/T79iRLE5kHXYUezhyOJ03G2fXOiOL1pnu232WGuNjfZ07C6zWnttNXkPn+SLCv310U9hhOL2+Pn8PGvtsttG223zx4xUvJ/vZt/++u44nSTZAW7LZESKrOH6vdt67965d+OuPb1BdrHxaH6cAAAA");
 
 export default GunSquirt;

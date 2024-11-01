@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-minus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-minus?s=sharp-solid heart-circle-minus}
  * @preview ![heart-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/heart-circle-minus.svg)
  */
-const HeartCircleMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 288L39.8 263.8C14.3 238.3 0 203.8 0 167.8C0 92.8 60.8 32 135.8 32c36 0 70.5 14.3 96 39.8L256 96l24.2-24.2c25.5-25.5 60-39.8 96-39.8C451.2 32 512 92.8 512 167.8c0 13.8-2.1 27.4-6.2 40.4C483.4 197.8 458.4 192 432 192c-97.2 0-176 78.8-176 176c0 32.2 8.6 62.3 23.7 88.3L256 480 64 288zm224 80a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm224 16l0-32-16 0-128 0-16 0 0 32 16 0 128 0 16 0z" />
-    </Icon>
-);
+const HeartCircleMinus = createIcon("heart-circle-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbwAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBWAsGAAE2AiQDCAQgBYMtBzkb4QTIjsQ4hnIJxWRyE/Ef+/323Ccfs+YdkiZPRNMSJFEJjWaJGCiFoVICfrH2+vbuB4A3zKyAVFjYTBwRuJRcVaaq+k+dep7zUACfQxC0PTQgC2iPtucVqNjibbUCjYW1imLNW7ZYlLJvMtEkPX73+Ja20OZLHEVHfQqPgNf6ofmDgVEoww0AMgUAOLzOTMbpH/pD9CDdgnwjEQRyCGAFoUGDBQR2iIIFEiug1Qo/JJXKfyADAdJDz1ugRYdjcAOgBaVpJZZGCkoyKpKctFkx18He4dhiLvQk9irYnhwpPOSR+aD+tuJn2mvWrLMd5WQPuRKtBB4ojfvvOS/hxWnRb1dxLGDfZZmyCRlRREYt5tXnv80fax4R+tXb21srp1CdM9PW04tePY8zOdUKOhlmdglE6pSAmmecnPxOtWVgZVbTxkZTi9nWJOSiv9WYWX2GoQ4QhPuHjL+lakH/5ZUEwO/+v2/wyf+nQpgwD4YUCM2a1AlFFQYgaAKcSg8snC8KyhGRXuuYNwTECAJKb0RAY546Aq0Rqwh0lngj0BtxTpRWATGnuIMy5gk0tvWB1pwN0NlxY/fmIoKKhAR5pYuLsVD0InZ3ceMAniYahRM8zwbysmbXExv2tBY1WrXoUq1KvS6DdEj2ujWL8eBoP8TcuXDDAvB2/rg8R7UOneq1ainzBOLzlp0ev9+eTIFirvOVIqWJa8n5+Y3k/Bs93wkAAAA=");
 
 export default HeartCircleMinus;

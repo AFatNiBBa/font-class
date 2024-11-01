@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shop-lock` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shop-lock?s=light shop-lock}
  * @preview ![shop-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shop-lock.svg)
  */
-const ShopLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 185.8c0-6.4 1.6-12.7 4.7-18.3L82.4 25C90.8 9.6 106.9 0 124.5 0l391 0c17.6 0 33.7 9.6 42.1 25l77.7 142.4c3.1 5.6 4.7 11.9 4.7 18.3c0 12.4-5.9 23.3-14.9 30.3c-5.4-9.3-12.1-17.8-19.8-25.2c1.6-1.1 2.7-3 2.7-5.2c0-1-.3-2.1-.8-3L529.6 40.3c-2.8-5.1-8.2-8.3-14-8.3l-391 0c-5.9 0-11.2 3.2-14 8.3L32.8 182.8c-.5 .9-.8 1.9-.8 3c0 3.4 2.8 6.2 6.2 6.2L80 192l369.6 0c-9.4 9.2-17.1 20-22.8 32L96 224l0 128 256 0 0-80c0-8.8 7.2-16 16-16s16 7.2 16 16l0 79.6 0 .4 0 112.3c-.2 26.4-21.6 47.7-48 47.7l-224 0c-26.5 0-48-21.5-48-48l0-240-25.8 0C17.1 224 0 206.9 0 185.8zM96 464c0 8.8 7.2 16 16 16l224 0c8.8 0 16-7.2 16-16l0-80L96 384l0 80zM528 224c-26.5 0-48 21.5-48 48l0 48 96 0 0-48c0-26.5-21.5-48-48-48zm-80 48c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l0-48zm0 80l0 128 160 0 0-128-160 0z" />
-    </Icon>
-);
+const ShopLock = createIcon("shop-lock", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABlQAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCewsGAAE2AiQDCAQgBYMtBzAbewXIhuB5ndm8L9nJyg4vgUKsMB4hdEhcpTtyiuaAoMKJa55/2vd5WhE80iKTGmSUKbDzic6jaLjzKLAXxVm3kmgkZT9JkrRb1j2ee/f43Bby+DtmqZHuSC1cV340ftDjYpI8AxCjAbBunz12suXT+DSi9f8rRMsOCIj1oBTIkKFfgJUygX65Erlc8Gn8/3/4DywJIOrosARyDMN9eIL1DUhqeb5Tc8yktkZtRL53o1ZkF3TtE3dNHRGP9OwVt7i9/dbO2+KCzr3j1qIZV7bvGTe7paMx4ubuZogREXFb1y0dIkLc3n7zpCIe7by1N6KIKztvjf3ODGwgIuNHPNzO3twtGvY7ma2n7HnfzIinlrwy/YkBcVXHLcT57TcXqlLEBV23oUi4vUox4cnRT/40vnV0S73YZsdrffP8Ze7/ZsdrbFuk9895c3yWbNBt2m5RLNnpWlK+dsbpP522g/Oxq5GffjpyV5wqb31Yfar6cGv2q16jn3xy9CEdghviuz73S/GDyyqHqmRbP6x2mRt7c9To0UftHZWRl18+8vw6fP+IV7ueT/n7nS9KQBx20+/zvzxk1Mq/hjcS+PzNX/7STv5/Szo/PYnhEgiyWf/PcmA6H4I6gEqKs00QdBZIblMDutemWwUIBQIkdYUAmT6jBcgVZgpQM2iRAHWFPWQibxPaHTTEpOk0MbPYOWKu3UtizUpvVeraI7NSs42ZfxJzbJ6BTevKeXOqcnnJNnWL4RnT8oryOjDtbAxNdxsd7RQnO9NRjnScMyfmdDvVz3KSzRK2iY5K88xRKS1Xqjuvjr19/HRnwGlv0a9ihfL5zDRny5Onu3BCmvM1JIlIba+Fc/YHBAAA");
 
 export default ShopLock;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-heart` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-heart?s=duotone calendar-heart}
  * @preview ![calendar-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/calendar-heart.svg)
  */
-const CalendarHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 192l448 0 0 272c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 192zM112 317.3c0 16.2 6.5 31.8 17.9 43.3l82.7 82.7c3.1 3.1 7.2 4.7 11.3 4.7s8.2-1.6 11.3-4.7l82.7-82.7c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3c-16.2 0-31.8 6.5-43.3 17.9l-7.4 7.4-7.4-7.4c-11.5-11.5-27.1-17.9-43.3-17.9c-33.8 0-61.3 27.4-61.3 61.3z" />
-        <path d="M128 0C110.3 0 96 14.3 96 32l0 32L48 64C21.5 64 0 85.5 0 112l0 80 448 0 0-80c0-26.5-21.5-48-48-48l-48 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32L160 64l0-32c0-17.7-14.3-32-32-32zM112 317.3c0 16.2 6.5 31.8 17.9 43.3l82.7 82.7c6.2 6.2 16.4 6.2 22.6 0l82.7-82.7c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3c-16.2 0-31.8 6.5-43.3 17.9l-7.4 7.4-7.4-7.4c-11.5-11.5-27.1-17.9-43.3-17.9c-33.8 0-61.3 27.4-61.3 61.3z" />
-    </Icon>
-);
+const CalendarHeart = createIcon("calendar-heart", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABlQAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCPwsIAAE2AiQDCgQgBYMtB1gbaQXIjsQ4JvKLKGy0ePhvrc/7qvrP+QDQiwBBRL3LMlHcLixc2IKMng55n/83dmn8bdMDHoj8HPx5kBWfu2NpsfHGC1LetsArVNMaWAfnTTqkkIaQfoYizubnNZA+ST/jrfh/AOMfQ54nacoAohMAm04c2af6M/5M8XP9c+JnexEQm0EpkJExKsBaWWBUoUShEPyZ6vNn1C8JIGpiOFNr6AlP4zVAAZIkFcWCka6xloa24ji9t/myV3sj3iea41Tv+4OiLSI+7f9wenNEPIOF5iOGMZOnnXx61rH4YOBEXBz5dPaF6a/O7I3+uNB8auY5ua21LcXHve9PbY0z56zhfIxubnmNv3Xyhc4L//HzjT976tv2l3m5vbTQwl9/yQdVDsq//LpwoVL7yy+3F3bp6UmwY+1Q9+FDzp/XJ6fGJt4e7rrRg7qG3tY5TFVVnXflq9+yOu96/OouW2u1rfxRCAT/bn24uKpj7f+NLQn8/YU1PyT1Kqp0AY0SCPLc+lyXRwVRCQBAigdNjgoEst2S9FNbfShAaEaApKZZgGxEpwCFZnMEaDBumQA1zY7IomgSel0xgKTVPSBb7glQ6PUZaLDWd05Nb2SPyHgj5j8wcfsU2ravXDR/Ybm63M11rN+i9PKa8rI580HemwWPutFd7nS/G1zvFvdPyHvt8x9wh+1HxDZfVFpkvoVKq5WPq5fi8Ylzr/vcss0/32aN8nt7pgePJ8+Ch0mAxVaYykSK3O9Q5XkhQp3nqccG13gXDAAAAA==");
 
 export default CalendarHeart;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-turn-down-left` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-turn-down-left?s=sharp-solid arrow-turn-down-left}
  * @preview ![arrow-turn-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-turn-down-left.svg)
  */
-const ArrowTurnDownLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M445.3 64l0-32 64 0 0 32 0 224 0 32-32 0-354.7 0 73.4 73.4L218.5 416l-45.3 45.3-22.6-22.6-128-128L0 288l22.6-22.6 128-128 22.6-22.6L218.5 160l-22.6 22.6L122.5 256l322.7 0 0-192z" />
-    </Icon>
-);
+const ArrowTurnDownLeft = createIcon("arrow-turn-down-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVAAAAHZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQiBGQsGAAE2AiQDCAQgBYMtBzsbpATILgpsIpMHi6rUfGUTIbRDC+f56ffQjOeptfL97j4Ed4GpKAAWmlGzA/JxLNzauKQ8GrMVGx15NZbMeSVdXfepAvaEI4USAOW0QSWWzITv2R4CUbXzU6ee5zwb8I2CNqYtDcgC2vs8AgENjXLPxxIpWEG5TLV29ouH6DdJH5FkmHQZFmdo+V4zQvlUgHfpQ/OP5C3FRAWQeQCcOt9u4TfMMPnTI380QCCnAJ2gomKNgKOqYI2mQ9OEYfre/AcSATJKLllAQ8UuHAI0UKS1TVPCTDvnXZP3I1Nh1yanz2ZTvGjpMaqnf3s/SjqZSTYMGtic1wui7iTIEOluVRXm/rqeLzA3d1JXK3Pd9yR+AEH4cntgDsSj/8enCvj7bfKP7me1DDCugFC39oYrBWpWBQBQ8pRcgKDYpAAAAJj2XkBMIqAYNSmgWjEvoJm0RcCIdfYJGDXpNE7ahFh2tYJi2gNQ7fcMNMu+ghFH/TBHLYcDDXvl7J8tqdBQvkTu9p3d4W4YKRwO6DA90i0rylOubKJDzB3sXc1MrVwVedZybnaKGZz7IrLLdjt1Duu209vtnpmzi5WDfZxzRHfe2OjpvH0T6Syh3O1EUUhZvnk+Hx4mVGUTTMybAgA=");
 
 export default ArrowTurnDownLeft;

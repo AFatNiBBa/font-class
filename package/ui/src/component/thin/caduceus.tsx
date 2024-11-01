@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `caduceus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caduceus?s=thin caduceus}
  * @preview ![caduceus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/caduceus.svg)
  */
-const Caduceus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM208 48c0 23.8 17.3 43.5 40 47.3l0 41.7L176.4 89.3c-9.1-6.1-19.8-9.3-30.7-9.3c-13.3 0-26.2 4.8-36.3 13.5L8.4 181C3.1 185.7 0 192.4 0 199.5C0 213 11 224 24.5 224l121.6 0c31.5 0 62.3-8.8 89-25.5l12.8-8 0 172.8-58.8-32.1c-18-9.8-29.2-28.7-29.2-49.2l0-18c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 18c0 26.3 14.4 50.6 37.5 63.2l57.8 31.5-25.8 14.1C190.4 403.4 176 427.6 176 454l0 18c0 4.4 3.6 8 8 8s8-3.6 8-8l0-18c0-20.5 11.2-39.4 29.2-49.2L248 390.2l0 58.4 0 55.4c0 4.4 3.6 8 8 8s8-3.6 8-8l0-55.4 0-58.4 26.8 14.6c18 9.8 29.2 28.7 29.2 49.2l0 18c0 4.4 3.6 8 8 8s8-3.6 8-8l0-18c0-26.3-14.4-50.6-37.5-63.2l-25.8-14.1 57.8-31.5C353.6 332.6 368 308.4 368 282l0-18c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 18c0 20.5-11.2 39.3-29.2 49.2L264 363.3l0-172.8 12.8 8c26.7 16.7 57.6 25.5 89 25.5l121.6 0c13.5 0 24.5-11 24.5-24.5c0-7.1-3.1-13.8-8.4-18.5l-101-87.5C392.5 84.8 379.7 80 366.3 80c-10.9 0-21.6 3.2-30.7 9.3L264 137.1l0-41.7c22.7-3.8 40-23.6 40-47.3c0-26.5-21.5-48-48-48s-48 21.5-48 48zm40 108.3l0 15.3-21.3 13.3C202.5 200 174.6 208 146.1 208L24.5 208c-4.7 0-8.5-3.8-8.5-8.5c0-2.5 1.1-4.8 2.9-6.4l101-87.5c7.2-6.2 16.3-9.6 25.8-9.6c7.8 0 15.4 2.3 21.8 6.6L248 156.3zm16 0l80.5-53.7c6.5-4.3 14.1-6.6 21.8-6.6c9.5 0 18.6 3.4 25.8 9.6l101 87.5c1.9 1.6 2.9 3.9 2.9 6.4c0 4.7-3.8 8.5-8.5 8.5l-121.6 0c-28.5 0-56.4-8-80.6-23.1L264 171.6l0-15.3z" />
-    </Icon>
-);
+const Caduceus = createIcon("caduceus", false, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAABswAAALzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDYQsGAAE2AiQDCAQgBYMtBy8b4AXIPgzwZBP+6mSxJsYhbkrHHhOmO6xcs3SJVN79p+AfXEPfT3JXAErbERA5YElgp+eIh7fd+7ebzWYm2URJsSlNsS5WUr+QpCwoWbnBmzu/d4EulYWQSJg9vyifNOC6ghnmJejgvjQogwvGkQdKNYDExb88MmuuV+AEYan9n2s+P2sqkK9HcnSmtaTS1GjveD6BAUfk80iggc10AjZ1U/Sogij1UpGsMCll7N7R49sGON1nhADMXvPC5vah+mWyAgzWAgCgRAAAoOnZvSNPPvhFvKpDrxxAAGoGgCfAAhbIJQAasAjI5fDA4RB8jzr9B4IAQCGMGmY5IATewTdkEGBwfHrK+iAtJohzvWKC6P7rSTtZkrpDjem7YJexW6uXXINKol7alc6f2oMd7C0Zo/X1M4Ta6VS+tCt9h48O1m1LCd3JRTvTdkfS4dKlhYAnldTJvKhD9Uqpve4X2GYeKNEGKU13YzSdzlkavqMTLJWxG+7pu5IT/o64p0SJuBOtDO2XRr3ZHTOl9czePXrPA9nJjtRoratXSio6Z5/75krV97AmPsfRO34L4IEpaL2B94O/zTKrSxt6VLkOhcs8Jlk4ZEiYTFSNw+AgNVqM5PEl6qtNXG3qS9CJD4LD97/MRZ66q8zV0FGbNaI3f9jvDZRjHlzQvn7Lfx4v49tO7KBWa6spjSsasZxN0Hd1tt3F3TVr1ll52aIcTplLhX1IBIAAwdLt5Q2uBr+FZgD4+fxv/Ir+D+YcEIkBQGAr/M+ABIABAQAAAEazKEoAAgzPZNgWyy6rT0TDBkNINFhyJIIjmvIQkK+mpNR3V3FyUdhSDYxgiGUqWGpZCI5U1yGggafukNSwjq24pfJfmb4VIi2b+apSFV/P38Yt1VelUl/fq03ZrJRXNgxllMkmmWGkEcaaAfQ0HX0zTdTqRLX0RV5VlVTh1ePNqWX/XkaaZrqxJptUG6nPP28rY9a5dNlgNbBgNUbzCVqYyOFDR8wcPnLmdAAAAA==");
 
 export default Caduceus;

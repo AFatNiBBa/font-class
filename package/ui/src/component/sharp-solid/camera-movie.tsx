@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-movie` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-movie?s=sharp-solid camera-movie}
  * @preview ![camera-movie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/camera-movie.svg)
  */
-const CameraMovie: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 64a64 64 0 1 0 0 128 64 64 0 1 0 0-128zM352 256l-224 0C57.3 256 0 198.7 0 128S57.3 0 128 0c48.2 0 90.2 26.6 112 66C261.8 26.6 303.8 0 352 0c70.7 0 128 57.3 128 128s-57.3 128-128 128zm0-192a64 64 0 1 0 0 128 64 64 0 1 0 0-128zM576 256l0 256L448 448l0-128 128-64zM416 288l0 224L64 512l0-160-32 0L0 352l0-64 32 0 32 0 64 0 32 0 256 0z" />
-    </Icon>
-);
+const CameraMovie = createIcon("camera-movie", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABcwAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBZAsGAAE2AiQDCAQgBYMtBzMb5wTIhiDe7r+vPjPzdt/FkrM2MyhjpkgfyiAEGZQy+vGduNz5nz894KQneLSxlq+m7ynw5wGm+QYKKAssowS43dmoSYodHmkpo+X4JsflAnn8lN1UkB6lH3Evf2j8paubJM0ZgGgDgDmb1q3w6e/xe8QPjbeIHyxDQMwBpUCGDD0EmC4T6CFXIpcLfo9GA/8DSwKIJvTTE8jRAuuxA5CDpMjzeo96c71a1PON1aKy7c3BLw95ZcI7w14b+urEDZVq5euZH/d9btYni24NeWXIa8Neq34146M+T6Z/OD+WspSljQHYTeuFWlxaqURU+77a5tV/+vx48EdXrowe2bv3yNE++O2T3+H06nnji2L8vNUDPvusXo/aAL7i0612XJnlajUf91a8crcnynK2EggEr/ec+8Ou1tP/b1lN4M/3//tHebrxaZqdXkVLCQTZ8MZw29NsQGIAWYqL+jocgkrLFehda+4LECoIkDSpCJDpro0AuYphAhR6mSBAk4p1MpE3Cx3s6HBScwbOTHQJznXwBlyY7puiSYfITIsxDOZjl7iQAwuOlWNGji6nltOBxloLlQ6nldvm4IthYQicddApJ513wH5HnGfQWSvqF5ywUAIX+KLSGCONVpqqVI8fxY0Mc9Y5R2gn9VVMU55PB7sorx8CTkKkY3UkiUi1xyGPuKcA");
 
 export default CameraMovie;

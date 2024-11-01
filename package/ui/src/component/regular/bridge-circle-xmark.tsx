@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge-circle-xmark` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-circle-xmark?s=regular bridge-circle-xmark}
  * @preview ![bridge-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bridge-circle-xmark.svg)
  */
-const BridgeCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M56 32C42.7 32 32 42.7 32 56s10.7 24 24 24l48 0 0 64-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 128 0 240 0 88 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-64 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L56 32zM339.1 288.1c8-15.7 18.3-30 30.4-42.5C359 241.9 347.8 240 336 240l-32 0c-57.4 0-104 46.6-104 104l0 88-48 0 0-96c0-53-43-96-96-96c-13.3 0-24 10.7-24 24s10.7 24 24 24c26.5 0 48 21.5 48 48l0 104c0 22.1 17.9 40 40 40l64 0c22.1 0 40-17.9 40-40l0-96c0-30.9 25.1-56 56-56l32 0c1.1 0 2.1 0 3.1 .1zM488 80l0 64-80 0 0-64 80 0zM360 80l0 64-80 0 0-64 80 0zM232 80l0 64-80 0 0-64 80 0zM496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm59.3-180.7L518.6 368l36.7 36.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L496 390.6l-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L473.4 368l-36.7-36.7c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L496 345.4l36.7-36.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const BridgeCircleXmark = createIcon("bridge-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABqQAAAKKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDIwsGAAE2AiQDCAQgBYMtBzobrQXIhofn9aI/9yWjZI0sxQ+zItCBRfPdsoJn4nLnf/70gL8JH2Wt9qYxcazBCXQJ9eFYVB5nYZYoZpuNQ9ge1fAzSIaE2ZAev6THJzpBHv/EDWqkO9NnuL59aPyorytJahmA6AKAJbu2bfDBd/FdxKftV4lPrUNALAGVQIYMAwSYLxMYIFchlwu+i3a7/AdWBBB1/OoEcrTwMt4G5CBp5Hk1rdVq9R9a1jrmO8tase+RPneOKEMUIfGOj/e/a2SNRZSBPZ0Ou3vcbUURr4x+YoCwYveNfWrmVP6jPW/tKy7tcon8q3vfHhF3Qxk1UuUuITy6aM876up5EW9Pej4um/jc3LeKq2a/Mf4Zl054ds6b5a75i+YviFt73NJrYcwPwtzWe1EsDMztPRfEoqDNA4c+1eWpn4d8dvRnZt2/pWfPLZMtNpm4Vn+kgdE6zX7t14f81q3ywlefl7svkA7VfOqpS+nthuxYXd96uutiXZ9+q+uhGr/+f2olxS1fLuatN1ts86X7zsbzoxJpypCRI4dMSWmUaijeua9M50J33fXkk8ss02lZMZ1+HAgEV7+x6vhDOs//rVkm8MNbv/6+3l+1P0iXpqfQlECQjW+Ptz9dqoJWBE6lONtQ54sCydMa8K4d3CZAKBAgqSsEyPTXRYBcYZwANYPMEKCusE0m8pbQw4EBJx2cBmdmugjO9fAyXDPfh8m6HpFlLp93/IdjykoNrNhUTZk4uZpbnTaIkIzssjivmraOPrsOjIGuo53iZGc6ypGOc6aCTrchc5aTrPTAFX6oMsVEk1XmqsLtj8pOSp3uDMfZYnydear7g6Od7Y8fA0fClFNVJIlI3d8m44SffGwTzn3SAQ==");
 
 export default BridgeCircleXmark;

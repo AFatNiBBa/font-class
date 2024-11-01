@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-check` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-check?s=solid file-check}
  * @preview ![file-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-check.svg)
  */
-const FileCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zm49 281L177 409c-9.4 9.4-24.6 9.4-33.9 0L79 345c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 247c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
-    </Icon>
-);
+const FileCheck = createIcon("file-check", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYgAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBPQsGAAE2AiQDCAQgBYMtBzEbvgTIjsM4Ftz504Q1Hr5f6/Pc1/2pZxl6gYgdquWQTEXnu6ARW7GoyE0H6EKDm//LPb/nRwf46ab4oaxFa/quOJrzeQKJ9fJpCY0FlmkClrXTDVCiX9GnfJJhc8NmD3lcym6rIb1Kv+JZ/dD4XUe3SRoyANECADPWrVqi8fgc8Uv1O+IXixAQM0ApkCFDFwEmywS6yJXI5YLPVKvhP7AkgKglj5FAjhrMwCJADpIsz7vVtanUNM3XVmqKTR/6R3zZIcWrAV/1aRpfDPqmcxZFPGz3PCKKilCJtRtWr1v9oe/KeN35iz5TYl3gvFcden7d4us/e/y691fTvn/TkpbFdUXLlm9446hF6bpm9+83C940XgfKtWvDO1xraNq0qpD+5ehRnumXA4Fg3u7ZE7Y1n/xPfSWB3/z7//QzUm3kevoa9RIIssHVwTbHdYjrAgCQ4qyecR2BZIKMXGsTzwUIBQIktQoBMp21ECBXGCRAjW7GCFCrsEom8gahjS0DJE2cAJmxroBcG9+CGpP9kNdqExmNBBIIv7jUuRqas6kcMXR4ObFctjSRGVxenVRuG/3PxpEB2GmvY446bY/dDjitkJOWVGccMdeC5/ii0ghDDVeaqDzuPm9fa4+TTjngmKNlnUnK+0l/Z+3pA2AnQjtSU5KIVDxZfQgdAQ==");
 
 export default FileCheck;

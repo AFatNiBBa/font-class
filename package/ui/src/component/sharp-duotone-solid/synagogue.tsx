@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `synagogue` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/synagogue?s=sharp-duotone-solid synagogue}
  * @preview ![synagogue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/synagogue.svg)
  */
-const Synagogue: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 272L0 512l160 0 0-240L80 192 0 272zm480 0l0 240 160 0 0-240-80-80-80 80z" />
-        <path d="M160 128L320 0 480 128l0 384-128 0 0-96c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96-128 0 0-384zm160-9.9l-21.3 36.9-42.7 0L277.4 192 256 228.9l42.7 0L320 265.9l21.3-36.9 42.6 0L362.7 192 384 155.1l-42.6 0L320 118.1z" />
-    </Icon>
-);
+const Synagogue = createIcon("synagogue", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABcAAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBYgsIAAE2AiQDCgQgBYMtB04bAgXIhofv117PfbvJNGXcAqNiYpXqqJKqqmMj/lQS6X91Kd88facHXKNH6y2lc6lAtY5HIBORjtUyMY5pDCx+O79HukEuBgkuRdIftjOM/wZ56p6dV0F6kj7hFv8PYHzVynmSqgxANATAxEXzZnhTilKKT+VXxCfTERCTQCGQIUNbAcbIBNrKFcjlglIqlylFuVwQQFRiImNXmpdmYyUgB0mS8rxVqzooVdTLF/rP1F62aP6iBZGidkScaf6w9tWm94nakS3q079P7egbfaKOQ/1RP1T7oFAnIhbG/HralU41DWu+d/y08ZPq8dWnEu5022r1L1+uT8ZqmaqumsJ79jbFFNl79gstT/0yaxZNlYb3gUCw6uiPEasajPlfq04Cn1///FJ+SMpv0ulUg1oSCLI+5T6Wp9OQTgsAQIqDOqXTniKQGSSxV+t6KECojQ5JpdqQaaMh5GrrDRXaGyocXpknE3mV0NQKgKSuPZAZ5gTkmnoJFcZ4W67UNDLVkhRD+rFLnyaxqbuKgf0GFKOKZUeVtUXwm6OLY7/HQZroiZM22mWn/TZYb4v9gttrRu2AHabt2Km+qDBQPwMURimu+8+HF9pgr3222GVn2Ga04vt8Dwf383siSiLvIHdlMiJF1mjfkZ1rNu3adGBD3zc60WRSXyMA");
 
 export default Synagogue;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `drumstick-bite` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drumstick-bite?s=solid drumstick-bite}
  * @preview ![drumstick-bite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/drumstick-bite.svg)
  */
-const DrumstickBite: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 265.2c0 8.5-3.4 16.6-9.4 22.6l-26.8 26.8c-12.3 12.3-32.5 11.4-49.4 7.2C69.8 320.6 65 320 60 320c-33.1 0-60 26.9-60 60s26.9 60 60 60c6.3 0 12 5.7 12 12c0 33.1 26.9 60 60 60s60-26.9 60-60c0-5-.6-9.8-1.8-14.5c-4.2-16.9-5.2-37.1 7.2-49.4l26.8-26.8c6-6 14.1-9.4 22.6-9.4l89.2 0c6.3 0 12.4-.3 18.5-1c11.9-1.2 16.4-15.5 10.8-26c-8.5-15.8-13.3-33.8-13.3-53c0-61.9 50.1-112 112-112c8 0 15.7 .8 23.2 2.4c11.7 2.5 24.1-5.9 22-17.6C494.5 62.5 422.5 0 336 0C238.8 0 160 78.8 160 176l0 89.2z" />
-    </Icon>
-);
+const DrumstickBite = createIcon("drumstick-bite", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbgAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBTgsGAAE2AiQDCAQgBYMtBzUb0wTIHqfLecx8STw8r/ffr32SAZyx2YH4RAm5KO323SKjrhD8qVPPcx4K4BsFbSxcOif4nOcRKODY2st5ryClCNW0AlZrZ29RdHqDJH3ikwzbl2GyQh6vZMeUI91On+Ji2lT8qpFjJJUyAFETACPnz57qza/iq4hPSs8Rn5iMgBgJCoGMjjcVYIhMyBVyBXK54KsolfAfWBBAlMevTCBHhimYDchBEnk+pkq5avm88GTl+Yfqdohrla/Vv1H5kQ5PNLzd8cm21+s59/HOTzc5PNnb4HCDznGzSpU42+BmVuvfifuh9T9b73p/30PDXp93xpdztHqq5lO/+3Tdp+5/vtrpp9yq9uXbMyseomJFDj1QuWAwK9TvWlX7/EKVLh1u0L7/B81qlP35V9UHD69R8fUfjzQpomZMWggEglsD1y9eXmPI/xWrJPDNy3+uPyOlN6MsPYWKEgiyLqUuliRIUSYAACn2aZUgkIyR8FaruiFAqIwASXmVBcg0UVOAXGWdBSinub4ClFfZbJnIKwl1Le0gqWonyPSzH+TqegaUM8QHfnl1I7MnwhqI31zsOAmN3VX07NajGFQsY400ESzOBxfbXId9vtaRHlpnu232WGuNjfYIZJep0V5bjdPgsb6o0FM3PRQGKY6zx9vzrLXLbhtttw1LBivuSx3s07s7kpgwai/Hk0Sk6mt27d26+734XVdt3LMWAAAA");
 
 export default DrumstickBite;

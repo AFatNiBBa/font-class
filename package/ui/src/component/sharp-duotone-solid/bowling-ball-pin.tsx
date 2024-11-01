@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowling-ball-pin` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowling-ball-pin?s=sharp-duotone-solid bowling-ball-pin}
  * @preview ![bowling-ball-pin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bowling-ball-pin.svg)
  */
-const BowlingBallPin: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M96 220a28 28 0 1 0 56 0 28 28 0 1 0 -56 0zm72-48a28 28 0 1 0 56 0 28 28 0 1 0 -56 0zm0 88a28 28 0 1 0 56 0 28 28 0 1 0 -56 0zM404 442.5L423.9 512l112.3 0L576 368 524.9 209.6c-1.9-5.7-3.3-11.6-4.1-17.6l-81.7 0c-.8 6-2.2 11.9-4.1 17.6l-2.9 8.6C442.4 244.8 448 273.8 448 304c0 51.6-16.3 99.4-44 138.5zM416 64l0 1.1c0 7.4 1 14.8 2.9 22l17.7 64.8c.7 2.7 1.3 5.4 1.8 8.1l83.1 0c.5-2.7 1.1-5.4 1.8-8.1l17.7-64.8c2-7.2 2.9-14.6 2.9-22l0-1.1c0-35.3-28.7-64-64-64s-64 28.7-64 64z" />
-        <path d="M0 304a208 208 0 1 1 416 0A208 208 0 1 1 0 304zM224 172a28 28 0 1 0 -56 0 28 28 0 1 0 56 0zM196 288a28 28 0 1 0 0-56 28 28 0 1 0 0 56zm-44-68a28 28 0 1 0 -56 0 28 28 0 1 0 56 0zm286.5-60l83.1 0c-1 5.7-1.5 11.4-1.5 17.1l0 2.1c0 4.3 .3 8.5 .9 12.8l-81.7 0c.6-4.2 .9-8.5 .9-12.8l0-2.1c0-5.8-.5-11.5-1.5-17.1z" />
-    </Icon>
-);
+const BowlingBallPin = createIcon("bowling-ball-pin", true, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABzQAAAKUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEiEAAsIAAE2AiQDCgQgBYMtB1wbLgbIhocnvfg/dyar5Bl5sD7likBnVOxcwTv/l9MbwAf4+ebzhYcyVmNsbOPH9tAEAs7ybZdAQGWZYoPzJh9CSAzlFyji33yBBumG9C4uc/8DGD8a6gKSTgYQfQCwZuftt/T6N/FNine7TxPv2gIBsRbUAhkZIwRYLguMUKhRKATfpG6Xb6LbrQkgmpxzGTTRA1/hZ0ABkoZGUQzv77v7Re2DRlSNnsVO1PEyzp0V8djm71QXbfrWjEecM/3hTd4sL9zs7ZmPxs7nDoq4trxwwNXOGXhNddHg62IHEIrgSm8Hm7PTAmj/qqyuJprucqY7uGtnF4sYsbb1a0t4YMcdd9qxip1jp7h2UBlXDxgQt/h09e6Ch+wYUrHo4J1PePzGqQ9OvHvy/UPGPtjnwZ/HvHvQuy5f8iqP9qgWLap6PPrqkkYHg74+v8fJnNwj6WB7hh/flZm2LjVq2fbuN0PaSauxnUYr6bTs/f2SPRvPQnN2IZUfn+2/PnjNMSZdZu4tJre30548yR8zbfVQdVpEVFP7rpaLHRQ5h6dWoezb9/bbLacE4r57Plh69969l//WrhL47sVff6Ce7r6eVqcH0ZZAkKd3p9sjrQZGDqCW4iRjJ75qH4HscA3+u/ZwrQChRICkqRQgG66PAIXSNAEaRlkgQFNpe1kUHWGAPSuQ9HAsyBY6ExQGeAo0LPdGtWlA5CvduE6N/8zcGzXxDcfqOTNn10vr0Y7CvHg1vbmsXhyefBKfmALPOsjRjnKCAx3gUCc0iONs2TjRkTaa4m/4bG2OmWarLVVv7t9179SoHud4hw7b2w9Zpj4+P9lJ0/OnwFjiy851IstEijzk01E59KiDZ7y9oRnHFP4Zj83sYb32OwIAAA==");
 
 export default BowlingBallPin;

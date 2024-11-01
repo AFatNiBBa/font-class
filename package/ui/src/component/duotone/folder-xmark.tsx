@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-xmark?s=duotone folder-xmark}
  * @preview ![folder-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/folder-xmark.svg)
  */
-const FolderXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L288 96c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32L64 32C28.7 32 0 60.7 0 96zM168 352c0-6.1 2.3-12.3 7-17c15.7-15.7 31.4-31.4 47-47l-47-47c-9.4-9.4-9.4-24.6 0-33.9c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7l47 47 47-47c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7s7 10.8 7 17s-2.3 12.3-7 17l-47 47 47 47c4.7 4.7 7 10.8 7 17s-2.3 12.3-7 17s-10.8 7-17 7s-12.3-2.3-17-7c-15.7-15.7-31.4-31.3-47-47c-15.7 15.7-31.4 31.3-47 47c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7s-7-10.8-7-17z" />
-        <path d="M209 207c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47z" />
-    </Icon>
-);
+const FolderXmark = createIcon("folder-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABlwAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCNwsIAAE2AiQDCgQgBYMtB1QbXQXIjpTuEoFVPPz/2r/uc2f+W8mDIE6AUSUKCR1gCWyrquqIhHqrlkDPc0OQWdxMxZABSzK3O83uTlxTP86fHrD4nTqwQHLTiDqfwM5TZ0lrkQnNdAa2wXmTDimkIaRfII+fs+taSM/St3gU/w9g/Kq76yStMwDRDgDzVi1b6vNmNFN8W35KfGsJAmI+KAQyZOglwEyZQC+5Arlc0ExlSTPKsiCAqIjfnYEKWnAJNwA5SELK86L/pJpt5CvjHdVV7w/s3SU4KGkNiSFBmj00YtCb13FoZrL0bNgd5PGDEb8n4fPhb7DDu11CRAXvDj3d0pWuLSvUGD1b7V5necY2lOJyJw4JO1dPKxXLueP5QdH/43bv937f7vzWj381Gj/++Ic/IPAj2zSd2pvnpvnV9u3fvOzNyquCoexN7V4OhaF/LYt2Wd1Z/nHq1HV7Z3VgI7ZpOjCHalnw09eBQDBz0tzLm9rO/L9VLYFfPvvz3+aHpGwm6WO0kkCQjSxHWp9AIgAAKU7qn8BbCGRWSdJPrXssQKgiQFJRFSDTUzsBclUjBGjRxyQBKqqWyUTeWuhkw4AldUewzGQXsFwnn2AtZvoiqugU5Al5L8T/A6YsxvCiZcW40WOL6cVuXSf4K1bPzyguO0NP8r5hcK+dDjnouB222+P4BD1qaXrCAYuPkEW+qDDOaGMVpiset14qK3F01DF7tqXni8xQfB8OdfJ49DC4mgQYb32lGZEi67QzALijTvtYY5R/HuyyIrld");
 
 export default FolderXmark;

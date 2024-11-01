@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-relaxed` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-relaxed?s=sharp-duotone-solid face-smile-relaxed}
  * @preview ![face-smile-relaxed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-smile-relaxed.svg)
  */
-const FaceSmileRelaxed: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm107.2-37.6c34.4-45.9 103.2-45.9 137.6 0c-8.6 6.4-17.1 12.8-25.6 19.2c-21.6-28.8-64.8-28.8-86.4 0c-8.5-6.4-17.1-12.8-25.6-19.2zm22.5 108.8l28.6-14.3c8.7 17.5 41.3 55.2 97.7 55.2s88.9-37.7 97.7-55.2l28.6 14.3C369.7 352.3 327.6 400 256 400s-113.7-47.7-126.3-72.8zM267.2 218.4c34.4-45.9 103.2-45.9 137.6 0l-25.6 19.2c-21.6-28.8-64.8-28.8-86.4 0c-8.5-6.4-17.1-12.8-25.6-19.2z" />
-        <path d="M132.8 237.6c21.6-28.8 64.8-28.8 86.4 0l25.6-19.2c-34.4-45.9-103.2-45.9-137.6 0l25.6 19.2zm160 0c21.6-28.8 64.8-28.8 86.4 0l25.6-19.2c-34.4-45.9-103.2-45.9-137.6 0l25.6 19.2z" />
-    </Icon>
-);
+const FaceSmileRelaxed = createIcon("face-smile-relaxed", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABlgAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCMAsIAAE2AiQDCgQgBYMtB2AbYgXIjtRW+YUJNZSWh+/X+jz3dc8sAPUCo2KCJC6KEPWvKJbkpjO83/9Nf+/O/54gz+ij7IatjWsDzXmeQMBR4eSEEgoowDwDa3HbzYHkEtpOaFqHzh3y+CE7q0R6KH2FG+F/AONPLZwlqZEBiPoAGL9gzjTvVUVViq8qLxFfmYqAmAAKgQwZWgswSibQWq5ALhdUpcpUReWCAKIskJkvL6M6DuAMIAdJkud53bqtGjRtUKtUJ59fq1RzwZO1Iq507xnP1Lzcq3utFh8/jz/1/rSva12Z8e3EDxf8MuGD6d+MdU/9atx7cxc8u0jvfbfxE6lu95tmD87r2qnrve6PD36155PNOseD3R6b9EmPJ1o6tlt8sMMT9Z/4u/1X679y9vtSS1qW7ni+e/fn7zzcusB7JtegxYvvT5z4/ovUMFkvDm3uTEPI0OefbzFF+9q5c9c23fp2etf23adv3Tq9e/vbzv7/26xZv/1/9uJWSt6Bz137PBAIHvnhFVfUG/VP9VoJ/PpGf+Q/JJX3kvQEqksgyHpVelmaQCIAACn265DYgkBmjlz6qrXdFyDURICkrKYAmVbqC5CrqacAJW0NFqCspjkykdcQGltWg6S2XSAzxDGQa+xFUDLKp9WyxpFBoAs/7v1fwSlDkw8V/fv0K0YUkz2lB1S23R1ZrA5322+mOz5rvR2222udtTbZm7LbtMY+20yZ4yZ7o0J/ffRTGKHYPbwfmo9Wd9tj07h//z4jFefnu9k/v7w7jiWp4QBHMhmRImsZvyO991z/873/X1E4uG5tb3he1nrYH3sBAAAA");
 
 export default FaceSmileRelaxed;

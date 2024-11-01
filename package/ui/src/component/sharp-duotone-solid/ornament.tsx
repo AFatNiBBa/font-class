@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ornament` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ornament?s=sharp-duotone-solid ornament}
  * @preview ![ornament](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/ornament.svg)
  */
-const Ornament: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 320c0 22.4 3.8 44 10.9 64l362.2 0c7.1-20 10.9-41.6 10.9-64s-3.8-44-10.9-64L10.9 256C3.8 276 0 297.6 0 320zM128 64l0 32 32 0 0-32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32 32 0 0-32c0-35.3-28.7-64-64-64s-64 28.7-64 64z" />
-        <path d="M96 96l192 0 0 57.7c39.3 22.7 69.7 58.9 85.1 102.3L10.9 256C26.3 212.6 56.7 176.4 96 153.7L96 96zM10.9 384l362.1 0C346.7 458.6 275.6 512 192 512s-154.7-53.4-181.1-128z" />
-    </Icon>
-);
+const Ornament = createIcon("ornament", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcwAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBVQsIAAE2AiQDCgQgBYMtB0wb8wTIngNu0zzSRvPx/tFINlWjiPLTPuYVD/+NfbtvZlbMqiRN61mFEsQSp2+jeSmaSCTS0vD0D9Es//8Zl/8fla7dPwhJShzkBrXlvVWrsjlVhzKk3OyFoF4YsBiJmFDzSNyS9X8AOODp7935t00f8PGfTnNay9egMeZ5Ap1HUdnYgJ0nlGZoWTvdf71BWSU9Ickw8cPmCiVutzWd9CB94E78H8D4alojacgAoh0AWDvlEjxV8tRF9Tlx4QUCYh1gHCIjYxiCRUyBYSzjQFEElQSVYBwEELUinNm19I4N4BCAApIkldLS3DLaxG4pR8VuvFSCJvH6UITvt7Ghu//x4l3y1fPgwaUBMT6K5UFXet+BmiIUu29TuN6zAeK4h5Mnhj3TkVJzIjv5nPj4Ptz7xPkbbkZ8CDh+syuqIcSzf39+flCbtbTOh5wvH1r8H6diIJLz81YKiMQFHR1bW+AJAMRjbz79He3S2P/6pgQ+v/j5RXq5+rKlE9RLIMjT1WktWQKhBvg1KW7RZEkhkE1hwJ/a7K6A0IgASa1GAbIhMgiKRlMQ1Bjlh6BWo31MURqEbq0FJM2ugmzBPCi63YIai56TtbrDtCnJIqQvXXpaQ6lN5Ha4KELDliybiRBWo7Tsm+b8iBkHoc+4MTN69Rg0o8gppcysUekZkfJFxM3BhUTQdvdWr3FyyrTBvrq/ThSdj5nMzaebsR0GYOY2dmQiRW6/PPUMY2MzduN0FZX6DAEA");
 
 export default Ornament;

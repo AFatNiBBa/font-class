@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-arrow-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-arrow-up?s=thin folder-arrow-up}
  * @preview ![folder-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/folder-arrow-up.svg)
  */
-const FolderArrowUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 416c0 26.5-21.5 48-48 48L64 464c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48l133.5 0c12.7 0 24.9 5.1 33.9 14.1l35.9 35.9c9 9 21.2 14.1 33.9 14.1L448 112c26.5 0 48 21.5 48 48l0 256zM64 480l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L301.3 96c-8.5 0-16.6-3.4-22.6-9.4L242.7 50.7c-12-12-28.3-18.7-45.3-18.7L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64zm200-88l0-188.7 74.3 74.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-88-88c-3.1-3.1-8.2-3.1-11.3 0l-88 88c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L248 203.3 248 392c0 4.4 3.6 8 8 8s8-3.6 8-8z" />
-    </Icon>
-);
+const FolderArrowUp = createIcon("folder-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfQAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCCwsGAAE2AiQDCAQgBYMtBzYbEQXIhofv/Ys6973fXTONIf8IWEUDK1oa2TrI1ikjuOf/cs/v+dEBfqNDGRvn4ts6VnM8TyDgsTzwgLLAMg3AYmx3tqk5FnYpaVYkOT47Pg8o4l07VUh3py9wY37T+FFPl5HkDCA6AGDBmhXn+ei7+C7ii9brxBfOQUAsBKVARkYfAWbLAn0UShQKwXfRatF/YEkAUSW/OoECFezFcUABklwUAwf2qVeaxep6pbbjri4Rtw1uxBPd7uiV497udw6rx7Vd58Tt9Xo83vX2nmlrs9F8ctSzvXPcM/KZobW4ptvceKZWi8eGP9Ujxd0jnh6yJsSquL37nd1Wxx1dVsZtXW/vvibE7V3v7D7wmQ7P/Dzgi91f+LV//pKvxl9k/Fdf5vnyl1+Nv0Lnryf5usut1vfivIsg+1DHjjVq4dBDt2peNcnA3pdDaL7+8Zr3MX/W2VasmDJlzZqKE1YwxMdnva+6dWsVCAStHScu29J+9m9t6gn88M6vf/PXSOu7JD2DNhII8ujWaBsTSAQAIMVpAxMEkq0yedWGOwQINQRIqmoCZL11EKBQM0qAin6mCFBVs0IWRVuhi00dJA3HQDbV+aDQxaugYraPg6oukb2N8hXqsxe/VENL9pUTxo4vZ5bTTqMdiODtWeW2MPx0nBoBd+12xGEn7bLTPicVctx58SmHLF3BS3xQaYKxxivNVB4PttdX2+W4E/Y54nDaZZbyvjPc6fXiESAngjpROUlEar/7oRfHbDt+/MiZMaeOAgAAAA==");
 
 export default FolderArrowUp;

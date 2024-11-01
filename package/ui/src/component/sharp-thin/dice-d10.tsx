@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice-d10` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-d10?s=sharp-thin dice-d10}
  * @preview ![dice-d10](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/dice-d10.svg)
  */
-const DiceD10: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M248 505l8 7 8-7L500 298.5l4.4-3.8L512 288l-8.7-9.8-1.9-2.2L269.8 15.5 266.7 12l-4.6-5.2L256 0l-6.1 6.9L245.3 12l-3.1 3.5L10.6 276l-1.9 2.2L0 288l7.6 6.7 4.4 3.8L248 505zM27.6 290.9l138.5-26.4L248 324.1l0 159.7L27.6 290.9zM177.5 253L256 24.6 334.5 253 256 310.1 177.5 253zM283.3 54.8L477.5 273.3 350.1 249 283.3 54.8zM484.4 290.9L264 483.7l0-159.7 81.9-59.6 138.5 26.4zM228.7 54.8L161.9 249 34.5 273.3 228.7 54.8z" />
-    </Icon>
-);
+const DiceD10 = createIcon("dice-d10", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcAAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCDwsGAAE2AiQDCAQgBYMtBy8bDgXIjsM4FjzSqcI/Hr5fe/TctxsA3jCjI1RR6KJJAYFMCkCqU9efzBfj8385vfH8NuAHOdFDWYuWblpNuxfN+TyBQMf0KMoCygLLNAFrcN7IhBMhsv8Oedy1ShnS+QSn3IfGHxo4QpJlAKI6AIbPnTnZo2/j24i3pevEWxMREMNBIZAhQ2MBBskEGssVyOWCb6NUYv+BBQFEWeF5CeQojwU4CMhBUjbP21eoUI6mlcpUyefIHRVn16lbp17MjXoQrkstiLpobWueNurA8uw5c2fNnR3CShSexfd5rAfnmzyzY+6skKFZu1tcrH7xr+bW8F+/PeEBf7zX0x4n1fBzpqVR5phjlJbN5hpO2qPnguSLDycbxH3TB7jgi0enW0/+Aeydsin9TO637vmTzwB7f0Y8fvXHF4/KF0wf6GTD///oivBV+/L4MyAQXOpT98rSaoP+LV8pge/v/POH9CsqPUrSRZSXQJB1KnWyKIFEAABS7NEiQSCZoazwrpWdESBURICkrIoCZBqpLkCuoo4ClNFUbwHKqmimTOQVhNoW1yCpbDvI9LEX5Gq7CsoY5GVeVu3Irjf5apF/9zLGtNHR24ruXboVA4rJtqJcQqJeH1isttvt4WPt4U1rbLXFLqutst6uFrPD5Opum42Zw0b7okJ3XXRTGKDY3bt/eY7Vdthpva222E0GKs7329kzP7s99JLA2UNLkohU/oOSdF7VvRs=");
 
 export default DiceD10;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-three-quarters-stroke` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-three-quarters-stroke?s=sharp-regular circle-three-quarters-stroke}
  * @preview ![circle-three-quarters-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/circle-three-quarters-stroke.svg)
  */
-const CircleThreeQuartersStroke: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M460.2 296L240 296l-24 0 0-24 0-220.2C120.3 70.5 48 154.8 48 256c0 114.9 93.1 208 208 208c101.2 0 185.5-72.3 204.2-168zm3.7-48C459.7 139.5 372.5 52.3 264 48.2L264 248l199.8 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
-    </Icon>
-);
+const CircleThreeQuartersStroke = createIcon("circle-three-quarters-stroke", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABaAAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBRAsGAAE2AiQDCAQgBYMtB0Mb1wTIjsQ4JvJI50bEw/Nz5Z/7kqVMGdIqRlKtqmJHwo5dV8JPhHqSuRZy6lbjjUcBrlFo/2uBfID/N55AYk2eNwF2jx3YmZ6AnbWzX94g+omkT3mSYbsMG+WAPO5E6ki3ElyLHxq/6uoCSV0GINoAYPralYs9/Cq+ini1NvGqhQiI6aAUyJChhwCTZAI95ErkcsFXUavxf2BJAFFP7p1AjjpMxwpADpIszzsU3St1LfM1lbpiZ1EpIiLem/Zw1fvL31794dI31/b+YEXEO2tEZduHMyOeLH2zcmnx69MfrR64atFrxcUlb8x4vKZvtU319z72vObVG5999l8Xn5nX6scPY1GsrVbXpgvOnW81b2q+4ixnV+QveenNBrOb6Nr8aObMR81dm8zWCT4PAsHg1YtHb2096f/GSgLf3P7zT/lXVHuYpCoaJRBkg2qDbEogEQCAFGf0TRBIxsvIu7ZwXYBQIEBSrxAg010bAXKFgQLU6WW0APUKK2UibxI62FxB0sJxkBnjHMh10AzqTPLCqdchMigRQCAucrFzNDR7rRw+ZFg5oezGCokOzM8nltNqvzOu1p927XHUEafstst+pxRywmL/tMPmWPBsX1QabohhShOUy9nt9hq7nXDSfkcdCUsmKvfb/Zyxu/uTkQjqCIEkEanHixt+MEbFwcfIOjn4S1zt4G4AAAA=");
 
 export default CircleThreeQuartersStroke;

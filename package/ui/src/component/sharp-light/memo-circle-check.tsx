@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `memo-circle-check` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memo-circle-check?s=sharp-light memo-circle-check}
  * @preview ![memo-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/memo-circle-check.svg)
  */
-const MemoCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M352 32L32 32l0 448 264.2 0c10 12.1 21.7 22.9 34.6 32L32 512 0 512l0-32L0 32 0 0 32 0 352 0l32 0 0 32 0 166.6c-11.2 3.2-21.9 7.4-32 12.6L352 32zM64 128l16 0 224 0 16 0 0 32-16 0L80 160l-16 0 0-32zm16 96l192 0 16 0 0 32-16 0L80 256l-16 0 0-32 16 0zm0 96l128 0 16 0 0 32-16 0L80 352l-16 0 0-32 16 0zM432 480a112 112 0 1 0 0-224 112 112 0 1 0 0 224zm0-256a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm78.6 112l-11.3 11.3-72 72L416 430.6l-11.3-11.3-40-40L353.4 368 376 345.4l11.3 11.3L416 385.4l60.7-60.7L488 313.4 510.6 336z" />
-    </Icon>
-);
+const MemoCircleCheck = createIcon("memo-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkQAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCYAsGAAE2AiQDCAQgBYMtBzgbaAXIhoenvL4/t5KnpHvIGphf1IpG7760hLDuiWue//lTgVQKP0ovKrT8admYAhPcvIF2z7sHm00UdzTvhUEM7RYir1DGpzFdB+nG9C4u9xwVvxrqHJKyABB9ALBmlx220voqvop4t/0s8a4tEBBrQRYosH9EC2U5f0hpKaNUNnwV7Xb6H5gJIDoFH51AiR5ciZsAJUi6ynJ4T10PHz607miWO9cd1SGNZiNFM26c0Kgiioiom0LcMyD2raumqKrYqa5qfytq0v79Lp4Ucf/wm+PMYTdNvK+6aPw9Q25wxtAbJ9xbFxcviXhxxqPOmP7I4heqi5a+NPOxOHPW48terncaMHjAjjEgBsXK2DotBsaU2CEGS3vGPtTnod/HvHvwu/a5ffXq1S3dvl4xLWctWd43u1/x49Oj9+nTR9bnr9x7n1brw1Ij9H3POOOKrI+y0TrqNm77+edRo3DmtttGtTrEOZMSac6YiRPHzElpEu7Ama2PeSmobrKJh7n0FC852MPeec/DDgYCwUefPPHUPr2X/99dJ/DNS3/+LX+53Uqr00PolkBQTG9Pt2daDUIYQD3FycbOfFEguVCXwKkN1wkQKgRIOlUCFIbrI0CpMk2ADqMsEKBTZQeFKHuEAfaqsaThOKyw0KlYaYCnsQ7LvVHrNCAKwDTAyrgtzLuxDWw4lefMnJ2X5smO0oQ1zW4uy6ujk0+WE1PwRQc7xtFOdJADHebEFnS8rZonOcrGOXCDH8rmmGm2bKm8u3/fu3Mrc7wTpDbu3n/MMvn84mQnz8+fghNJIDtXS5KI1PeHuMEZb/D4Z1zjAAA=");
 
 export default MemoCircleCheck;

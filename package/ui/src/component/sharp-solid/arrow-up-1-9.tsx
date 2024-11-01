@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-1-9` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-1-9?s=sharp-solid arrow-up-1-9}
  * @preview ![arrow-up-1-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-up-1-9.svg)
  */
-const ArrowUp_1_9: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M352 32l32 0 48 0 32 0 0 32 0 96 16 0 32 0 0 64-32 0-48 0-48 0-32 0 0-64 32 0 16 0 0-64-16 0-32 0 0-64zm-192 .6l23.6 25.7 88 96L293.2 178 246 221.2l-21.6-23.6L192 162.3 192 448l0 32-64 0 0-32 0-285.7L95.6 197.6 74 221.2 26.8 178l21.6-23.6 88-96L160 32.6zM432 368a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm-88-32c0-48.6 39.4-88 88-88s88 39.4 88 88c0 22.6-6.2 44.8-18 64.1L453.5 480l-74.9 0 10.1-16.6 25.1-41.3C373.9 413.7 344 378.3 344 336z" />
-    </Icon>
-);
+const ArrowUp_1_9 = createIcon("arrow-up-1-9", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdwAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCGAsGAAE2AiQDCAQgBYMtBzMbGwXIhof/dL7dN5J9fuQwTBhpCaDKVlwSd1x0QFB7/m/mbYsC/CBSG781QZaHcz5PoOf5OD7wyWPh2Yni7U1bbEfKniQz0SQdT3a87aGMT4tb1EhPpk9wf/3Q+FUPt5C0KgBEewDM37pxtfe+iq8iPm6+THxsJQJiPsgCBQr0FmCWQqC3UkapFHwVzSb9B2YCiDo5eQIl6jiDKwAlSMqy7DawU49GrU25pVGrjjaqhhCNhqiqQCRea9PwEcM3x/CYFSNiTKQQVUQUMSqGxZwYGVtj5OG7u0U8Hjd2fay6q/MjbujyaGPLhZERL0x9efhzfW4Ytimq6BVj4+kRz/cc8Hz753/v/8mRT+y9kPO5bJ/2eZ58wzy5/TxV33UFbm3da6lfbPGvvrIF1BeVLTNcCv1XtFvT9g7uaNsCpG/tVyZq3rzDlwN7j11rpQfc4YchQ9sBgeDkkKeO72036/+WRgLfvPHn7/1yvZpfpZb0PFokEBSjmqPsSvP0Mi21CABAissMcL4okBxRkmtt7TEBQoUASV0lQKGX9gKUKiMFqOlrsgB1lY0KUbYSOtutIGntPChMcS0odfYiqJnlfbuucxRBx4cM/+VLWWLRxVN5/JhxeUZeBoYQR2wezszbcNhlXBgOm44464xLHHbIcZcY5iKrvUudtsSjF/uhbLwxxslmyMfx8/IWh13kYseddaaMmSnft4a5zK8fDnMkwITnYnlXpNb7L7ro7OWjLz03evzo6QAAAA==");
 
 export default ArrowUp_1_9;

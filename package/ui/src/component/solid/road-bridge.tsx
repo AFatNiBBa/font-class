@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `road-bridge` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-bridge?s=solid road-bridge}
  * @preview ![road-bridge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/road-bridge.svg)
  */
-const RoadBridge: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 0L608 0c17.7 0 32 14.3 32 32l0 448c0 17.7-14.3 32-32 32l-256 0c-17.7 0-32-14.3-32-32l0-448c0-17.7 14.3-32 32-32zM480 200c-13.3 0-24 10.7-24 24l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64c0-13.3-10.7-24-24-24zm24 184c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64zM480 40c-13.3 0-24 10.7-24 24l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64c0-13.3-10.7-24-24-24zM32 96l256 0 0 64-40 0 0 64 40 0 0 96c-53 0-96 43-96 96l0 64c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-64c0-53-43-96-96-96l0-96 72 0 0-64-40 0c-17.7 0-32-14.3-32-32s14.3-32 32-32zm168 64l-80 0 0 64 80 0 0-64z" />
-    </Icon>
-);
+const RoadBridge = createIcon("road-bridge", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABigAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCRwsGAAE2AiQDCAQgBYMtBzIbSQXIhofv1+w793UnlQl8xP7M6AiWWXHsEjo2YmotKoLp7935P//0AR9/go821mzg2DbG8gQ6DyRuW9Z1ngWWKGZujUPwo9ogIkLGrBFj/z7z8eoMefyd3VYiPZ++w6P9S+MH3d0mackARDsAzNuyYZUvWqM14tv/3yW+tQIBMQ8UAhky9BJgpkygl1yBXC5ojf//z/+BBQFEGb0lgRwV3MEjgBwk5Tzv0ag3JrbUSo18c61UPcKe8mDnp6W43umpaj0e6PJMZHGj67O1Ta92E88PeqNnxAuDNzWmTG2fnrK3UW+IaohaiHeGvtmLC1Qtj3hleHNybGaEIFzT1VpVO6l/s13zp37fHf7Ons/R5r772nxxdI2Ga1+u6zxX53Uwu75fCWx13TKv+3wK5hpaq/e63mxW5pqFIrlzVUT6+l5LNQL47r4xZy29aK615gKBYNx/u3fuaTvz10otge8/+uWP83H/f5GupyYqEgiykf+PtDNdh4wOIJvisv7KAQPJFR/2U+ueESBUESApqwqQ6amdALmqEQKU9DFJgLKqDTKRtwid7BogqTsHMpNdAblO3gYlM32ZKesUWSySkUT+CsYt5tCifcW40WOL6cVjx0WFF142ZxSvtaGXxcQwHHXYGadddMhBx1xkyHmr8pecsliDF/mhwjijjVWYrjD3l9zmlDnvgmP3jH2XGQr/aKjL+vxhMBPCHK8mSUSqLQlx1BIBAAAA");
 
 export default RoadBridge;

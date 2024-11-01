@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-magnifying-glass` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-magnifying-glass?s=solid building-magnifying-glass}
  * @preview ![building-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/building-magnifying-glass.svg)
  */
-const BuildingMagnifyingGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 0C21.5 0 0 21.5 0 48L0 464c0 26.5 21.5 48 48 48l96 0 0-80c0-26.5 21.5-48 48-48s48 21.5 48 48l0 80 96 0c25.6 0 46.6-20.1 47.9-45.3C327.5 441.9 288 385.6 288 320c0-11 1.1-21.7 3.2-32L272 288c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c4.8 0 9.1 2.1 12.1 5.5c16.9-24.5 40.4-44.1 67.9-56.2L384 48c0-26.5-21.5-48-48-48L48 0zM64 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm112-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM80 96l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM272 96l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM448 240.1a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm0 208c26.7 0 51.4-8.2 71.9-22.1L599 505.1c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-79.1-79.1c14-20.5 22.1-45.3 22.1-71.9c0-70.7-57.3-128-128-128s-128 57.3-128 128s57.3 128 128 128z" />
-    </Icon>
-);
+const BuildingMagnifyingGlass = createIcon("building-magnifying-glass", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABtwAAAKJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDQgsGAAE2AiQDCAQgBYMtB0Ab0gXIhof/6vq6LzKrPqBocgSodfYD7ayauNz5vz/9+Vj44o8yNm36itf0MZYlEOCXvbUGYJwFlmkC1uC87ZAGh3aExBOU8U9xtgrphrQAl2UfGt8YcDZJQwEg2gGwxnZbbeL1z+PziI9qzxAf2QgBsQbIAgUKDAuwskJgWCmjVAo+j1rN+w/MBBBVxXUJlGjE61gA6kdSX5Yrt3d2prktA02VlnJbf9fGne7ujri6P8UNPddMaoqIm/qum3LPTBsQTXFR0NCLsx8df0ZfY1zbG3FdH7qt57GVIm7svXZy8zbromt6xNXdrOh2TY1Nkcjbe1ukSfHXb/PMrEdmPrz0s7MfnfPYcp6bsU3cM+WmwW3jobE7V3113bdXfjnfscor64x/sP3B78Yt2HeBOa/N/ZiFxe2KhR/P3d3mPYdyyHOb2133ggWdd11zbXTM7vJ5a9b6eVa3zjVXniLg5bYfIhEr9chhbTnnDtHs3U7bLrlZm4zPY5e9ccx22x37+uvHthuPeWPJ6V9vuqmWliVL3NxN6ytrLbXFFgGzUl1qrc0BjOt+vXHdc3drW/m3+qYEvnzxhz/Fv6LaC+m89CDqJRAUM2sz7ZxOp/ZXOk8AAFIca3w6HYHkefWyd212rQChEQGSqkYBCkPaBSg1miFAxahlBKhqtJVClA1Ct11mIml2BFFY1ilEqdtTRMXK3ktUdUexJ0v7oXQfmb7uGlhnXZ43e25eMVMrRnnnFOLJlbKwNfVYv2MaDLCvwxzqaPvY2wE9t4KPtEn6GIdYlwWt44uyeWabK1tRVq6P6tuukCMd5QDjUPVVVpLNR6Y6lt1/GnSTgnW+kiQRaeBQN2b9jdfe94RJvIABAA==");
 
 export default BuildingMagnifyingGlass;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-question` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-question?s=light circle-question}
  * @preview ![circle-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-question.svg)
  */
-const CircleQuestion: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm168.7-86.2c6.5-24.6 28.7-41.8 54.2-41.8l57.1 0c35.5 0 64 29 64 64.3c0 24-13.4 46.2-34.9 57.2L272 268.3l0 19.7c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-29.5c0-6 3.4-11.5 8.7-14.3l45.8-23.4c10.7-5.4 17.5-16.6 17.5-28.7c0-17.8-14.4-32.3-32-32.3l-57.1 0c-10.9 0-20.5 7.4-23.2 17.9l-.2 .7c-2.2 8.5-11 13.7-19.5 11.4s-13.7-11-11.4-19.5l.2-.7zM232 352a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const CircleQuestion = createIcon("circle-question", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhwAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCJgsGAAE2AiQDCAQgBYMtBzYbLAXIhofvdb6d+yR78mUHWUHiZe6IuCIkz5ZIlae/+eedRwE+iyy0PTSQBbjXeQKJ5gs8zwLLNAH7LP9tw2MjEKERISIlIY1nY9YGeTwVI1VI16a3cTE9NH7U3RkkeQYg2gFg3pYNqzzfiEbE281HiLetQEDMB6VAhgy9BJgpE+glVyKXCxrRbOJvYEkAUcXnEshRxfE4GfvXkOR53rPn6JZapXW+uVYp9r1tfMSDy98szlv6+tj7y1vHPbDsjdr5K96a8NCA+mcLIl5a817t/FXvzHth08dzn1/5dnHe6nfnv7h5y/VdI66u1eLOYfd2v2Hq1BBXdLqqS8SpXWfE1T1P7XJVUcQd3SKu6HJV19h0/ZA7u18z8K4e/e9rd9/P/d4+4G3fPVd/kQ9nr5oxY9XsD1+s11+U9YZFLXR/6IUFC154qHuLRTqK19yzaf4PfNVpmlvaty+qHebppE2j0aa34oxP/Z/anHNOm2nazWXXBx+PNvuRzuvWdW5oIM798ePLJ+1pO/PvVrUEvn/y17/1r6j5fJLuQysJBNnI5kg7E0gEACDFCfonCCSHy9Fd664SIBQIkFQVAmR6aidArjBCgIo+JglQVdggE3mL0MkuAUnd0SAz2Ykg18lDoGKm1+yqTpHlHpk55MsvbrGGFi2V40aPLaeXy8ig0gmv0xnltjb0hFIZBqsOcKQjHGd/+znYcQo5xirveIdb7MGLvKg0zmhjlaYrw+mW26zsYxzr4LksPmeG8rw11Al++zAwE8Ycz5ckIrX9oiOPup8AAAA=");
 
 export default CircleQuestion;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-ppt` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-ppt?s=light file-ppt}
  * @preview ![file-ppt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-ppt.svg)
  */
-const FilePpt: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 480l48 0 0 32-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L220.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 129.9c9 9 14.1 21.2 14.1 33.9L384 304l-32 0 0-112-112 0c-26.5 0-48-21.5-48-48l0-112L64 32C46.3 32 32 46.3 32 64l0 384c0 17.7 14.3 32 32 32zM351.5 160c-.7-2.8-2.1-5.4-4.2-7.4L231.4 36.7c-2.1-2.1-4.6-3.5-7.4-4.2L224 144c0 8.8 7.2 16 16 16l111.5 0zM304 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm208-64c0-8.8 7.2-16 16-16l32 0 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 112c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-112-16 0c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const FilePpt = createIcon("file-ppt", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABnQAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDDgsGAAE2AiQDCAQgBYMtBy8bjQXIjsR0G4/8IjfZEg//r8u870smyeYZL9BfDJA2SGjuQsRd0jEXDc1Ji9W2O1X7Pv/XfH5pRwf4jQ4l2pIisUCOohb1fAInerbCAi+hCQ9nE7Dtzq0dkmiPJJZYkuNbOS4nKOPD2FYP6en0Ex5MLxV/W+I2krIAEKMAOOC0k47xWSc6ET91ET85CgFxIMgCBY4sF2BvhSBPUMoolYJOdLvxPzATQPTie0ygxADexHuAEiR9Zbnz4NJqabWo7hkqT617qiPqqhZVvLH1O0uLeHabd7eo4972KfE4UUVMrcknlpZv9p7WY1Lc1H68vuyJyVPjiUnxeLs+ua7q19uPL3mq9di6KsRjrScmIyKeXHTKm8ue2VCFqE/V5dO6gbp+vP1YK6lV5N3XvDP6zr+rf7r0J92mabLGS2Nj1U0qOPOl57R+n531e+s+2ZQpzW8/F1NuMnzXXcMQrtpvYk38tNc01xnuTO3wac55avO+vv83T43Khjud4cbxhjurjjuh3T5hVGP0xeO8+ut+fZBzZ5jsUVNEIz7qdiAQfL3qxOvPG9l7U3+dwF8f3OR+RrqfJekd9EsgKLbtbuvsBBIBAEixYE2CQPKiPvyqg54QIFQIkPSqBCgsMypAqbKNAD1W2kWAXpWTFKIcEFrOaSAZNA0Ku7oelFreBz329m3cqxWFvfLWxv8WUw6V0CFDeeP2Td4zLwtVMEE2bO6Vt7UtF9zEVjjqUte51pxLXOwKc4KccUw27xqHasQh3ijbaHuNbE/5uH5UTqV4xqwr5tL5NnvJ990tLejzt0IzYcod5ZJEpP6nEW03NTUHAAAA");
 
 export default FilePpt;

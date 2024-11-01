@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bus-school` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bus-school?s=sharp-solid bus-school}
  * @preview ![bus-school](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bus-school.svg)
  */
-const BusSchool: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0C371.9 0 464 48 464 48l0 48 0 16 48 0 0 128-48 0 0 16 16 0 0 192-32 0 0 64-96 0 0-64-192 0 0 64-96 0 0-64-32 0 0-192 16 0L48 96s0 0 0 0l0-48s92.1-48 208-48zM48 240L0 240 0 112l48 0 0 128zM272 128l0 128 128 0 0-128-128 0zm-32 0l-128 0 0 128 128 0 0-128zM112 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm288 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM352 96l0-32-16 0L176 64l-16 0 0 32 16 0 160 0 16 0z" />
-    </Icon>
-);
+const BusSchool = createIcon("bus-school", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABhQAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCXwsGAAE2AiQDCAQgBYMtBzEbYAXIhocnu/86t7q/+o1RI/dAikDubgYxEyJQOZgy2vjN/zX53j2/BvxGl8YdutLyYebzCQw4yqOeD2g2sDNZCdjMbcSCU1hZO0WmvIghLjT3UMY7xQ1aSI+mb3E3njT+0t8NJB0FgOgGgKXbNm304e/xe8Q3zdeIb6xHQCwFWaBAgUECLFAIDFLKKJWC36PZ5P/ATADRSl9mAiU6cC8eBZQgaSvLxR0dHT17djRaOpdbGy3Vrs9mRrw2KuLp3kI0QlQQVhFYRMO4VuZGPDzm2dlvrN5cNapB3jZhElRVB8nF5tv7HiQQ1/Z5qLqt1wOu6f1go7Pkd4aotm8b/kK3F/4Z9u3RbzU/eOxH/nqHF9S6qV2D1d18KFtivyU+xOXZh7p5DNS88M5fPz72w391XV+jds1v565RQ3BzLru62eUWbumSKrhPbu86ZWjOuduLWTcgEAzovOanfV0X/N/eSODPt//7B35FzQ+T9ALaJRAUE5sT7U4gEQCAFFcYniCQ3KqNPmonDwkQKgRIWlUCFAbqJkCpMkGAFkPMFKBVZZNClB1CL3sqSDq5AAqzXAlKvbwCWizwRb5Vryj8UvYq+VuYscrCK2flqZPrPC9PK4riaqJMzs/HwdgrYsc42umoc866zBGHnXCZoS7aWLrcGatWyEoJyqaarJbNk6/r98ZWk7/okhNj1/008+X3qbGuWPcfR3GitNMsTRKRqoOXX5rk1AAA");
 
 export default BusSchool;

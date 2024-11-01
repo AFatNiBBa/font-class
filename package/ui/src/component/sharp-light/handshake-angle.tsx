@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `handshake-angle` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake-angle?s=sharp-light handshake-angle}
  * @preview ![handshake-angle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/handshake-angle.svg)
  */
-const HandshakeAngle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M499.3 35.3L510.6 24 488 1.4 476.7 12.7 425.4 64 224 64l-16 0 0 16 0 224 0 16 16 0 96 0 16 0 0-16 0-80 144 0 0 64-16 0-16 0 0 16 0 56-32 0-16 0 0 16 0 40-16 0-16 0-48 0-96 0-6.6 0-4.7 4.7-56 56L145.4 488 168 510.6l11.3-11.3L230.6 448l89.4 0 48 0 16 0 32 0 16 0 0-16 0-40 32 0 16 0 0-16 0-56 16 0 16 0 0-16 0-25.4 0-45.3 0-25.4 0-16-16 0-160 0 0-24 0-16-32 0 0 16 0 120-64 0 0-192 192 0 6.6 0 4.7-4.7 56-56zM544 201.4l0 45.3 83.3-83.3L638.6 152 616 129.4l-11.3 11.3L544 201.4zM112 128l-16 0 0 16 0 121.4L12.7 348.7 1.4 360 24 382.6l11.3-11.3 88-88 4.7-4.7 0-6.6 0-112 48 0 0-32-64 0z" />
-    </Icon>
-);
+const HandshakeAngle = createIcon("handshake-angle", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgQAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCZAsGAAE2AiQDCAQgBYMtBzYbagXILgpjY1rcJWhGMTLJO1d8xU7E8/T7/W/tc8+3e78YppWXsISH+i0iVvEKoTAksybaaWaR6W+oZJJev1/bd2JpT6ztXDL3JopaYzqlkIg00m8MpRGKl5luIb13CGdtvIlr8t/T01Nh4xM9StU6Mc8jincT2PlA5gnW+jawieLU6YigpwQUVGTWGboyj6t4fJ6g5nd6hJSb5RtwZf7S/KT3SFEbAJkEAPYvdWrA9dNPvv2PfFMBAjkAsBFDgwZrMbALX7CWwEagqkI///9P/4EbQYAMopMKqBjAVdwDVFA0tR4dW9cJx+piN9CeXKHSmpkqzbStiHRdknRhtEHS3NmYok1Hh85g2wKPkOuis7AAzFKL/EbyiKwb3fN9pFsZUuSTm5/gky+++ebf82Krj8lJ+ITw1CQ0PdkHJxGCaBLBCB96XXnjC4xOWZsUgHE9+0IgfKCDUNW1JA43FIj1nu0Mt+ca819fmkQWblzvvbQEGWKnOJEkgCDcOvX9w8GJXb+GuwJ+vPp2e/6/LhfLEwwrIDS9/z3TcklEbMGwXHKBAYdCcVkDTh11TUC0CCgGtQIaayAGqtYWDAxYz4eBQa05fKkjYtbsZItRp9nGTg9sNeuVHbDLe3HQbPipqSSW8mOYmS/B3D5y2Z0UpseOQ802SW5GyO03XpoJE47C0pFD5xbmNs4L5FStcuFAXsE5P0Rc7JxIGIX72/q+hVNnNnUtvksE9U8bXer5JoR4yLtVXVFImfh2hDW2W9j2xGq/AA==");
 
 export default HandshakeAngle;

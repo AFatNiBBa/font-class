@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-a` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-a?s=sharp-duotone-solid square-a}
  * @preview ![square-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/square-a.svg)
  */
-const SquareA: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l448 0 0-448L0 32zM88.6 384c37.9-80.7 75.8-161.5 113.6-242.2c2.2-4.6 4.3-9.2 6.5-13.8l30.5 0c2.2 4.6 4.3 9.2 6.5 13.8c37.9 80.7 75.8 161.4 113.6 242.2l-53 0-22.5-48-119.7 0-22.5 48-53 0zm98.1-96l74.6 0c-12.4-26.5-24.9-53-37.3-79.5c-12.4 26.5-24.9 53-37.3 79.5z" />
-        <path d="M239.2 128l-30.5 0-6.5 13.8L88.6 384l53 0 22.5-48 119.7 0 22.5 48 53 0L245.7 141.8 239.2 128zm22.1 160l-74.6 0L224 208.5 261.3 288z" />
-    </Icon>
-);
+const SquareA = createIcon("square-a", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBZwsIAAE2AiQDCgQgBYMtB0wbBQXIjpQuJ6Tx8P/7xX6fe98MIvYQMUvQSWbNKiTSJLyyqLOI3yRPCgJMzv81+a7tqEC+0aFEU+VS14CZzycwwAqej/d8QjOdgW3ZHOYX8dBYaH9CES/zbRXSw/QNd8L/AMavurlN0iwDiLYAmLt5/Uq1etRTfGu8I75ZgYCYB0qBjIyeAsyQBXoqlCgUgnpqNKhHo1ESQFSFd2dQRROsxV5AAZIkF0WnJs26tmxRaVVsalFpvr15i+YdY0O0iNEEGlneFJ03rtzeHBtzyqlV5Gi59cfm+10c1yLudjK+H7TGqGgeI+JY0HGLR90p+aDr7n5v2r75ve+3Q9/8Mbt3+uCkM3+baLcrdps4Kp3s9HwZTgasIp0XNWziO7fsnnxlypUOqUP73qSghUGY6g+cvbtPt9y6NVevBwLBwBUPP+xuM+P/pi0S+Pn+z1/kD0mjHrX0Bk0lEOQRjRF2RA2iJgAAKS7pFzVbEchGytJPbemeAKE5AiRVzQXIemgrQKG54QJU9DZRgKrm1suiaCZ0tHMASUtnQTbJTVDo6C2omOFjpapjZOBSQEP5t8tcNEUWbivHjhpTTit32zoVXiS7Pr287Ay5JMeG4rsOOe2UCw464KgLE/qclfWLTlp0RC30RaWxRhmjNE35uPfS3DSpnHPe0W39+SbTld/nh7h0PHso9pOUd5wTWSZS5LYxND9y70gotdrP9PgI");
 
 export default SquareA;

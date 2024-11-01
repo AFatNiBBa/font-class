@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-injured` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-injured?s=sharp-solid user-injured}
  * @preview ![user-injured](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-injured.svg)
  */
-const UserInjured: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M240 80l102.7 0c-7.9-19.5-20.4-36.5-36.2-49.9L240 80zm37.7-68.2C261.3 4.2 243.2 0 224 0c-53.7 0-99.7 33.1-118.7 80l81.4 0 91-68.2zM224 256c70.7 0 128-57.3 128-128c0-5.4-.3-10.8-1-16L97 112c-.7 5.2-1 10.6-1 16c0 70.7 57.3 128 128 128zM448 512L384 304l-227.7 0 48 80L336 384l16 0 0 16 0 112 96 0zm-204.3 0L181.5 408.2 118.9 304 96 304l0 208 147.7 0zm37.3 0l38.9 0 0-96-96.5 0 57.6 96zM0 512l64 0 0-208L0 512z" />
-    </Icon>
-);
+const UserInjured = createIcon("user-injured", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBcAsGAAE2AiQDCAQgBYMtBzMb8wTIhocHvaj3k4ySNbI2O6jzwRXcyh1cVOdOaG+mTuVczkMBfE7Eg7SXBmSBhNZuK9DzAhYHb1rgY4FVK2i9neSSMyjdhp70dhm2M2i3hiyeSm+qkDyRfIF7/kPjF13dJNFIAUQbAMzZtG6Fj76P7yM+b75OfG4ZAmIOKAVSpOghwHSpQA+ZEplM8H00m/gfWBJAVNGTJCBDA+txCJCBRC3Lannb1kWjVlRaZhuLSr6tyIsnh67f9EL+2uCXehSxaf3HsyI+7HetUx4Pe3rG+ws2bNywMY8NURRCFHlpbAwLIXlmRF9uERes7/tKm1d+6/PFwS/8ceoQXej9c3PHDJh3q+fVn//7aa2t8yb8s3oe4yv12v9q9cr4eau/a8762qz62ahVbrZp47TdX8w4pObMPKSzbzw8YBDgdttjyq6us41vLB4PBIJvvu1xZVfr6f/ViwT8+M4fv4XDNT+Kj5JXUJeAIB3eHG57fASIDeAnJXFR3/gIgcRyNXStLTwqQMgRIFGVC5Dqro0AmdwwASp6mSBAVW6dVGQNoYMdGSRaOANSE10CmQ5eBRXTfexVdYhUwBjxYL53iQtreMGscszI0eXUchhLrMxQbnJauW0OvmhrQ2Cpg0456bwD9jvifIWetSK84ISFM2SBLyqNMdJopalKdnYrbtTeWecc6av405imPO8OdnHePQScBBGOFUkkRNLiUqojniAAAA==");
 
 export default UserInjured;

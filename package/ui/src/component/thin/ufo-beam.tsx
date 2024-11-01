@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ufo-beam` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ufo-beam?s=thin ufo-beam}
  * @preview ![ufo-beam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ufo-beam.svg)
  */
-const UfoBeam: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M138.8 165.6c-1.3-1.3-2.1-3-2.2-4.9c-1.4-15.9-.3-31.1 2.9-45.5c-36 9.1-65.8 21.3-87.2 35.4C27.8 166.8 16 184.2 16 201.1c0 12.4 6.3 25 19.5 37.3c13.2 12.4 32.7 23.8 57.5 33.7C142.5 291.7 211.4 304 288 304s145.5-12.3 195-31.9c24.8-9.8 44.3-21.3 57.5-33.7c13.2-12.3 19.5-25 19.5-37.3c0-16.9-11.8-34.3-36.3-50.4c-21.4-14.1-51.3-26.3-87.2-35.4c3.2 14.3 4.3 29.6 2.9 45.5c-.2 1.8-1 3.6-2.2 4.9l-5.7-5.6c5.7 5.6 5.7 5.6 5.7 5.6s0 0 0 0s0 0 0 0c0 0 0 0-.1 .1l-.1 .1-.5 .5c-.4 .4-1 .9-1.7 1.5c-1.5 1.3-3.6 3-6.4 5c-5.7 4-14.3 9.3-26.3 14.5C378.2 197.8 341.2 208 288 208s-90.2-10.2-114-20.7c-11.9-5.2-20.5-10.5-26.3-14.5c-2.9-2-5-3.7-6.4-5c-.7-.6-1.3-1.1-1.7-1.5l-.5-.5-.1-.1c0 0 0 0-.1-.1c0 0 0 0 0 0s0 0 0 0l5.7-5.6-5.7 5.6zM431.3 97.5c41.1 9.5 76 23.2 101.2 39.8c26.2 17.2 43.5 38.9 43.5 63.8c0 18.3-9.4 34.8-24.5 49c-15.2 14.2-36.6 26.6-62.5 36.9C437.1 307.5 366.1 320 288 320s-149.1-12.5-200.9-33.1c-25.9-10.3-47.4-22.7-62.5-36.9C9.4 235.9 0 219.3 0 201.1c0-24.9 17.3-46.5 43.5-63.8c25.2-16.6 60.2-30.2 101.2-39.8C166 39.5 223.6 0 288 0s122 39.5 143.3 97.5zM288 16c-76.4 0-140.9 61.3-135.7 140.2c1.1 .9 2.6 2.1 4.6 3.5c4.9 3.5 12.6 8.2 23.4 13C202.1 182.2 236.9 192 288 192s85.9-9.8 107.6-19.3c10.9-4.8 18.6-9.5 23.4-13c2-1.4 3.5-2.6 4.6-3.5C428.9 77.3 364.4 16 288 16zM272 256a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM96 176a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm368 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM102.9 356l-88 152c-2.2 3.8-7.1 5.1-10.9 2.9s-5.1-7.1-2.9-10.9l88-152c2.2-3.8 7.1-5.1 10.9-2.9s5.1 7.1 2.9 10.9zm384-8l88 152c2.2 3.8 .9 8.7-2.9 10.9s-8.7 .9-10.9-2.9l-88-152c-2.2-3.8-.9-8.7 2.9-10.9s8.7-.9 10.9 2.9z" />
-    </Icon>
-);
+const UfoBeam = createIcon("ufo-beam", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABvAAAALwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDZwsGAAE2AiQDCAQgBYMtBy8b5gXIrgoyuZcdYRxKxZgVq15XexT5xcPDuv/OnTcf5DKR1WhOQtuNdKKSGJXFBOVN3/9+v3buqiP+9uNuSSxEEYuuoUCJGxkiFaKfOFVm/Q9wTzb9fZcmrqn/PRvleRQARIQ1NXgm7yaw8wzKEJsNo0Qm5DO31k3WHkoMwiDEhg2RHs89fi0hjfeWEJIcT15i73Gl8UudWRKZDIAoBQCMn1uYjecv8SXiZc9N4qWJICAmAFoRMsigEYFR+AKNBFpBKhV8iR77f2ArBBDZdNkEpMjHM3wH2xKJ3DSd02Qhhae4uCCrqP1IQVb+wiNxouHdHWztcxz80+u5t/ud0rYRtynHaycN5nS4eoqyMyI/Bnxqd6hyzum66NWI8+YLnmIHpcZE6xqqbPwYftduye0o6HtrM+dW3xPrzci71BunYNTCu+R9VMSDtnmzwrJf/LrXUQvPbsxjyqyLd95szrBgXsInbb2Zoq6otGiuesGilI5WzRsai0uKK79QS+hIzZbciebE5OUv7ajT8muSu4VDrfX+ATlZ9sMYhvdzEox661Dh4sEW/LJijJRCW4dA2YRhCy6HeFi7xXCCFhQRMCVmK+5INK3YXiVfsr43z2EUo+q2vU1D8sqVsj+F81cCK+cr9kw/uRw2NmiNTX9KaFLPR2sz0rpV8q/4y5diIdyYKm7WVSXWveLM3KPJObih0KUqsXlC/KR1FzYEC3E+AIHg2v8xW2rVo35zCxLw7d6/vCNOJiSXkSsBQab/f39VyTgHUAZRXxIbcbilAomncuFSCx0RIOQjQCJbvgAZDTQIpPL1QyBLs2AEsuWbiS/SPKFSdaMnCq2hZwwxRk9VOqNnGeXLl60yMrEtjkzxr2WKlB5Orsb8ffxYBHsNuSXhKsylkWza4DYiKe4Yixa9egxp1qTdUEcakB0c1i3FIyb7IsafDz9MBLYc3SpKkm/AoPax1nolkdj3NjcjfnZ31IIHGBAVQukUSe6GZb3eDc313QAA");
 
 export default UfoBeam;

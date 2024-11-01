@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diamonds-4` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamonds-4?s=duotone diamonds-4}
  * @preview ![diamonds-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/diamonds-4.svg)
  */
-const Diamonds_4: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M153.7 85.8c-12.5 12.5-12.5 32.8 0 45.3l79.7 79.7c12.5 12.5 32.8 12.5 45.3 0L358.3 131c12.5-12.5 12.5-32.8 0-45.3L284.3 11.7C276.5 3.9 266.2 0 256 0s-20.5 3.9-28.3 11.7L153.7 85.8zm0 295.2c-12.5 12.5-12.5 32.8 0 45.3l74.1 74.1c7.8 7.8 18 11.7 28.3 11.7s20.5-3.9 28.3-11.7l74.1-74.1c6.2-6.2 9.4-14.4 9.4-22.6s-3.1-16.4-9.4-22.6l-79.7-79.7c-12.5-12.5-32.8-12.5-45.3 0L153.7 381z" />
-        <path d="M131 153.7c-12.5-12.5-32.8-12.5-45.3 0L11.7 227.7c-15.6 15.6-15.6 40.9 0 56.6l74.1 74.1c12.5 12.5 32.8 12.5 45.3 0l79.7-79.7c12.5-12.5 12.5-32.8 0-45.3L131 153.7zM381 358.3c12.5 12.5 32.8 12.5 45.3 0l74.1-74.1c15.6-15.6 15.6-40.9 0-56.6l-74.1-74.1c-12.5-12.5-32.8-12.5-45.3 0l-79.7 79.7c-12.5 12.5-12.5 32.8 0 45.3L381 358.3z" />
-    </Icon>
-);
+const Diamonds_4 = createIcon("diamonds-4", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABiAAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCKwsIAAE2AiQDCgQgBYMtB1AbTQXIHoexG/osbjRqND7Y4uH/9/u2z31v/ohj+jCzZNJcmpj9UKdCwhOeCGkWlUXC04e2HFqtnouZBT7/37/m/3LPz+YA+QB+c9LR4a4A93oeSNbzQPJNCSWUWMAZWMO2kbUweyxiLC+Qx9fsgqpI5f6C2+5/AOO77i6Q1GYAogUA89avXuVte7Sn+FJ5RnyxEgExHxQCGTL0EmCmTKCXXIFcLmhPFbRHRUEAUeLgjF9CTxzCZUAOkiTleQ9Y1lc15uv0Q3WbH9VFXNs18UBnOq+Nh3P9rY/HdfbWrR2SCG7FFZMdbH4g4qJ5tFra/Cb921rafvT7suOLc4PKjTSUbS9aWl4ss3JDY5m42th4lfz/rMjvCf0E7CsxKu8+G8HF4In9BEmq96VFQ162nei99joIBO+m/D9V88zfNZPAt+f/1PyOKm+T1CZqJBBkIysjbUkgEQCAFCf0T3BHIDNREt61wSMBQh0CJCV1AmR6ahEgV2eEAFX6mCRASZ3VMpHXCp1sHUDS4DDITHYS5Dp5CqrM9L4u6RRZ8dMKj/b3l714Ci06VowbPbaYXuz2dHqJUvTujOJyPPQEnxkGz9rhoAOO2W6b3Y5NuCNWtY7bb/ERscgHFcYZbazCdMXj4Ut73aQ+4qjd2+bzfWYovk+HOnG8fBg8TQKMT7i2jEiRdajy2dFRE0cV5NlOczPPAgAAAA==");
 
 export default Diamonds_4;

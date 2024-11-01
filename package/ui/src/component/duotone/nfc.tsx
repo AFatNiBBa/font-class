@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc?s=duotone nfc}
  * @preview ![nfc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/nfc.svg)
  */
-const Nfc: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 144l0 224c0 8.8 7.2 16 16 16l224 0c8.8 0 16-7.2 16-16l0-224c0-8.8-7.2-16-16-16l-80 0c-8.8 0-16 7.2-16 16l0 66.7c18.6 6.6 32 24.4 32 45.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-66.7c0-5.6 1-11 2.7-16L144 128l-32 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm48 64l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l66.7 0c6.6-18.6 24.4-32 45.3-32l80 0c26.5 0 48 21.5 48 48l0 224c0 26.5-21.5 48-48 48l-224 0c-26.5 0-48-21.5-48-48l0-224c0-26.5 21.5-48 48-48z" />
-    </Icon>
-);
+const Nfc = createIcon("nfc", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABiAAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCFQsIAAE2AiQDCgQgBYMtB0IbKQXIjsQ4JvGLKEzi4fu1Ps99r2fqb/cy9AKjIgIH5DdAIBMVdmGhsCs2FZmKnAx5n7849Ty2KYDPcR/Tcr4xG4Nrtz2vQEWnbap4tbgNvbuT1Cg1Do/W0qwlx2fH5wBFfJgfa5FeTr/gCf4PYPxjiMck3TKA6A2A1Xt2bPJdE02KXzqfE7/YiIBYA2qBjIzhAiyTBYYr1CgUgiZ1OjTR6dQEEG2IZnffRguXcRNQgCSJohg6blLV6lHsrlrlgfcmRXw0OMXLkz8e3yM+nPrpsByvTPlkQvfVVVk9P+C5/lW8urCK9wc8P0S81P+5cWV8MPCFoRGvDnpx4gHh+QFVvDgo4oWBZTzXX7w/wsBC4s2JEQ8GlaVwwZhPen/yr19O/2Llm2/1oU+5Stmnz1urMAl+36nruunZs1nr69hq1u+/5kb+9fdZDcUcmdk0ja41hgyUrc1Z67feMmtI9P5tra6Ja+tyOxAIVvw/b8ORXsv+66oS+PuLTtfrNPFd+gRdEgjytM40B+M7AGYAborbxijPdlQgWyEB9+ruBQFCCUHSVkI2TG8olKZCy0jz97eVdsii6Cb0dyhA0t01yBa4A4X+PoOWZb532/pH9jneY/gvX8oGjqxfVc+eMateUm9TU3Ajti4urc3apNu5NTmuddoVl910yknn3GT0dZuCWy7ZoFHrPVFtthlmqS1RHxevyu7kXnfDOVk6X2ap+r4+yW19eHJ8YALM0fdkmUiRq8unT0x/umoPkl4oAAAA");
 
 export default Nfc;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-pilot-tie` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-pilot-tie?s=regular user-pilot-tie}
  * @preview ![user-pilot-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-pilot-tie.svg)
  */
-const UserPilotTie: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M217.9 .8l-152 40c-8.6 2.3-15.3 9.1-17.3 17.8s1 17.8 7.8 23.6L80 102.5l0 8.4c0 10.7 5.3 20.8 15.1 25.2c24.1 10.8 68.6 24 128.9 24s104.8-13.2 128.9-24c9.8-4.4 15.1-14.5 15.1-25.2l0-8.4 23.6-20.2c6.8-5.8 9.8-14.9 7.8-23.6s-8.7-15.6-17.3-17.8l-152-40c-4-1.1-8.2-1.1-12.2 0zM183.2 65.7L224 86.1l40.8-20.4c7.9-4 17.5-.7 21.5 7.2s.7 17.5-7.2 21.5l-48 24c-4.5 2.3-9.8 2.3-14.3 0l-48-24c-7.9-4-11.1-13.6-7.2-21.5s13.6-11.1 21.5-7.2zM96 192c0 70.7 57.3 128 128 128s128-57.3 128-128c0-7.9-.7-15.7-2.1-23.2c-14 5.4-28.5 9.9-43.3 13.4c.4 3.2 .6 6.5 .6 9.8c0 46-37.2 83.2-83.2 83.2s-83.2-37.2-83.2-83.2c0-3.3 .2-6.6 .6-9.8c-14.8-3.6-29.3-8.1-43.3-13.4C96.7 176.3 96 184.1 96 192zm91.6 183.2L208 416l-12.2 48.9c0 0 0 0 0 0l-.5-.9s0 0 0 0L133 360.3c-3-5-8.6-8.1-14.4-7.4C51.8 360.8 0 417.5 0 486.4C0 500.5 11.5 512 25.6 512L168 512s0 0 0 0l1 0 21.2 0 1.7 0s0 0 0 0l64 0s0 0 0 0l1.7 0 21.2 0 1 0s0 0 0 0l142.4 0c14.1 0 25.6-11.5 25.6-25.6c0-68.9-51.8-125.6-118.6-133.5c-5.8-.7-11.4 2.4-14.4 7.4L252.8 464s0 0 0 0l-.5 .9c0 0 0 0 0 0L240 416l20.4-40.8c5.3-10.6-2.4-23.2-14.3-23.2l-44.2 0c-11.9 0-19.6 12.5-14.3 23.2zM139.2 464l-88.3 0c7.2-27 27.3-48.8 53.2-58.5L139.2 464zm257.8 0l-88.3 0 35.1-58.5c25.9 9.7 45.9 31.5 53.2 58.5z" />
-    </Icon>
-);
+const UserPilotTie = createIcon("user-pilot-tie", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABrAAAALkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDQgsGAAE2AiQDCAQgBYMtBzUbxwXIHoVxsxOVS0TjKYrZsd1p8fD/a+2+P7OIeCKZJLMKidM1E9qGBJlQSYS4FQ3ZLC914Pne9u7ctZjt/wF/MfVFrIpLhVglqpWYdnhH0TB0pKS+tqdOPc+khAL4HIKgjYWLxtKk3TbGOK9AAXO1aLuBWp1WsIBaWbs7J+FQmkdpLbEExzXH6QB5HJc9mEhX2mdwmb40/phrKyRmBoBoA4CNw44mnv+OZ4lP/+8g7mmAALEBGCOQQQZDBFimExhiUJAzCJ6lKPx/oIIARA34sxKQQx1UwBOAHEis3IjsWtzu4elj+hlLfUzvVc4y54B9wBUnSNl1MeuOz/acezGHRSQhDrsPuZfKIdvJy88rkMOug3auHHDny6HQwy7nbJHIk6p3Jc8iNrkvRG7kROyVzLvx1xZtkkvRB1gymZykZJO4Y5Nskg3lrwsfq6NRPlz38bHtVH15/rnip9WHbKeD22GGR8r9JG9v2WYfcDnePt6nc8r8yg4Vcmdh+LXAa3/CPvd85tfTwzE5/ktS0pEpPAV9zbE8KMbDmvMV5MmUIyB/EYpoOwgv3YJ34M3aNW9n6Tya9XbN0Lel68xMbO23VmSavvP2HNPUemeUmunVTNOpmee76m4uENd5mJUzasrZhqGHnu8CRC9YB1IPuGC8Vzfs8Y01Rb0AuCFXzlKNVyKvveyc1OUQPNgdp5UbxbHhFiAg8P+kWkBh1dNHA7w+/PsPd3XxPCraNaijAYFsokhkdTwHPF0AYYoZwoWUBST3sQB+apNDCBC8IYDE4k2AzHyBBMh5SyBAySJZBKjhrYNOci+EbQ0Bja9xoMu2Dhhst4Cp0LvQYoeuybwe8v/IlGoOVW1SacmpKl8NW6qgnGxcLVDTauxMGIkzifQYNWJKty79phg1oSk7bVi1RFZJkZImWSoln1ru3ipLbThhUn9fWl+ngDrvxJqRp8cZQ4OMcyoSDZH8X/+WpLH+odGppKn+bgAA");
 
 export default UserPilotTie;

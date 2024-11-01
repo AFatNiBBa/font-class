@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-triangle-square` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-triangle-square?s=sharp-thin arrow-down-triangle-square}
  * @preview ![arrow-down-triangle-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-down-triangle-square.svg)
  */
-const ArrowDownTriangleSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M165.7 469.7l-5.7 5.7-5.7-5.7-104-104L44.7 360 56 348.7l5.7 5.7L152 444.7 152 40l0-8 16 0 0 8 0 404.7 90.3-90.3 5.7-5.7L275.3 360l-5.7 5.7-104 104zM296 224l10-16L406.6 47.1 416 32l9.4 15.1L526 208l10 16-18.9 0-202.3 0L296 224zm211.1-16L416 62.2 324.9 208l182.3 0zM336 304l0 160 160 0 0-160-160 0zm0-16l160 0 16 0 0 16 0 160 0 16-16 0-160 0-16 0 0-16 0-160 0-16 16 0z" />
-    </Icon>
-);
+const ArrowDownTriangleSquare = createIcon("arrow-down-triangle-square", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbwAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBfQsGAAE2AiQDCAQgBYMtB0EbDgXIHgd2w9cRNmFoOQyP8fD9Wp/nvu5P3cvQS8gDCwiKE50oVASjAqziUEgguxW5eoI5QSPf5/+azy/t6AA/2IkdWjRdrxM883mDTaywWmBvNpxNFGftdAQlMikh5ZMMmx8mdpDH787qIL2V8Gr80HhuuJdJsgxA9APAuuaBXX78J/6J+K39NfGbHQiIdaASyJBhlAArZQKj5CrkcsE/0W6b/8CKAKJTeq0EcnThGK4BcpB05PmEvl09A8uO3nmj7Cjqg4YOGhKNGBJDY3DUI4uIMkSK5hAaFLUmaQ1tuqsHRzGkUW/UoqwJZUQUURalEKIoQq0ox7f6tf4fd96Hg2tiQxcu2KSl5tBhr+nWT7fXmnRNyybpevribRk+yyuaevYdbxv49uHSvmmdABmkfhn/rF9CP/3080Ag6Fue33ei78oX3WUC//3wc3Ha+PY/aVhqoVsCQTazPdPRtJbATZ0VqHSK+8bje2YJJHUd4F17eV2AUCBA0qkQIDNSPwFyhRkCdBhjkQCdCgdkIu8RBjlWQdLLLZBZ7CHIDfIl6LDST5lOgyJjM45JuF9e8uYe2jSvmjd7brW8mhYUnnMYP7iiWtam3rcN07DSeTdcd9c5Z11ytyNv25W/55rNFLHJD1XmmW2uynLVdvlxccM5t91xyQ3XwzArVOf9U92n20+DmSTa+dYkiUgjTt2+fePBrMunznpBy12/cPXcrEsLAAA=");
 
 export default ArrowDownTriangleSquare;

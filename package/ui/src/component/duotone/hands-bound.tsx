@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-bound` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-bound?s=duotone hands-bound}
  * @preview ![hands-bound](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hands-bound.svg)
  */
-const HandsBound: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M32 32l0 64 0 59.1 0 .7L32 192l0 21.9c0 14.2 5.1 27.9 14.3 38.7L131.6 352 288 352l0-32 0-61.9c0-24.6-9-48.4-25.4-66.8l-46.7-52.5c-11.5-13-31.3-14.4-44.5-3.2s-15.2 30.9-4.4 44.5l27.6 34.5c7 8.8 4.7 21.8-5.1 27.5c-8.1 4.8-18.6 2.7-24.2-4.8L96 144.8 96 96l0-64C96 14.3 81.7 0 64 0S32 14.3 32 32zM160 480l0 32 128 0 0-32-128 0zM352 258.1l0 61.9 0 32 156.4 0 85.3-99.5c9.2-10.8 14.3-24.5 14.3-38.7l0-21.9 0-36.2 0-.7L608 96l0-64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64 0 48.8-69.3 92.4c-5.7 7.6-16.1 9.6-24.2 4.8c-9.7-5.7-12.1-18.7-5.1-27.5L473 180c10.8-13.5 8.9-33.3-4.4-44.5s-33-9.8-44.5 3.2l-46.7 52.5C361 209.7 352 233.4 352 258.1zM352 480l0 32 128 0 0-32-128 0z" />
-        <path d="M128 352c-13.3 0-24 10.7-24 24s10.7 24 24 24l384 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-384 0zm0 80c-13.3 0-24 10.7-24 24s10.7 24 24 24l384 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-384 0z" />
-    </Icon>
-);
+const HandsBound = createIcon("hands-bound", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABoQAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCfgsIAAE2AiQDCgQgBYMtB1IbogXIhocnu/47t7rffED1YUayV3S0joRos3VmzsQ1zz/t6QHTXvxRohcRVH2eeT7c+eN8NG4r8IGXKc7cGhN8SBD3GREiw9a2erxSH7+OUKaexQVqSLem93D1/j+A8Y02LiCpUwCIxgCYvGTBLK9/Hp+neK/6AvGemQiIKSALFCjQXoBxCoH2ShmlUvB5qlb5PKrVTABRgfsUoILauAuPAUqQJCVS9euPqJOz9WoalIvLm3WXPND61u4N4uF2t/WorzatEERinm2zKOpFsM/1mRI3tbyp+Q2pFv3jRva1XNzjJVr3srxlgqmm7hKBI7Mkbg9od6qFWBg3pGKrgXFzy8fKk+IRvAd0eazxY991fm/ze86smdeixbyzGJgLCnW6exKePlbopqWWHy1a7w7ZBD2u+Mqlrz/zyM316x1/zt1ff/z4tBUGm6ThJZc0LKEzr2VinZWdfe2TCensDs7tH7VsqZsw1pSeZDA65/E3/r77Ocfr1b/5kWdev/QrV/T4NHw7EAieGDev45pG436rXS+BL1/84Zfjulx9Pa1Nj6G2BIKiX7WflemsgsomAlAjxWFdyLn1g2x0WgmvWt9NAoS6CJBU1BWg0E5jAUp19RWgRkfDBaioa4FClHWE5lZVIqlvH1EY4RRRau55osY4b+YrmkcxUOVhJv8mZsxogelmefCAQXlMvmw5lbEnbqtjs9nd67AY6U17bbbHbgdtstE2Bxt8v1mlQ3aZoWHT/VA22ACDZGPkcFeZttgmTh+wTV+LrzNWfj/ey2F9em/yJeAcYkehIFIUzZaStf9asfef8mMtpDa7AQA=");
 
 export default HandsBound;

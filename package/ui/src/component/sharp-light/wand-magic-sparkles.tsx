@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wand-magic-sparkles` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wand-magic-sparkles?s=sharp-light wand-magic-sparkles}
  * @preview ![wand-magic-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/wand-magic-sparkles.svg)
  */
-const WandMagicSparkles: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M150.6 489.4L128 512l-22.6-22.6L54.6 438.6 32 416l22.6-22.6L425.4 22.6 448 0l22.6 22.6 50.7 50.7L544 96l-22.6 22.6L150.6 489.4zM498.7 96L448 45.3 337.9 155.3l50.7 50.7L498.7 96zM128 466.7L366.1 228.7l-50.7-50.7L77.3 416 128 466.7zM252.2 3.8l0 12.2 0 19.8 19.8 0 12.2 0 0 24.3-12.2 0-19.8 0 0 19.8 0 12.2-24.3 0 0-12.2 0-19.8-19.8 0-12.2 0 0-24.3 12.2 0 19.8 0 0-19.8 0-12.2 24.3 0zM128 80l0 48 48 0 16 0 0 32-16 0-48 0 0 48 0 16-32 0 0-16 0-48-48 0-16 0 0-32 16 0 48 0 0-48 0-16 32 0 0 16zM480 336l0 48 48 0 16 0 0 32-16 0-48 0 0 48 0 16-32 0 0-16 0-48-48 0-16 0 0-32 16 0 48 0 0-48 0-16 32 0 0 16z" />
-    </Icon>
-);
+const WandMagicSparkles = createIcon("wand-magic-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABiQAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCcQsGAAE2AiQDCAQgBYMtBzobewXIHoVNmS92JBEkD+EFa8O3s8RD/Rr6du8HCG2iUIVtJMpMxqNC4RNHQmFbpToVOlNbhfrsYb95h4i0B0ltkqFNraHe1jRl6toSbZpWPZRfte/T3zv9gz6tcf488VDGxrlwbCvb28o673xtz8vjbHqimLVN/lENolzQIPoIPjLWV34LZRco8RXztORzfuC+PGn8MuIGUqkAEN0AYOvwYAur//iM+KgR3+2AgNgGMI2oUGEcwSq1wDiNaVAUwSfrOvwHCgQQjcDtEhQ04wG8ACggNRZNsMUYQsCstWqOa6rpKBKPxLhPR8ajSUZjLy0Steb+3v7hlHxYOzk82Wc4cwESbWZEqwnRBJKETKLZTE56CNqNRRzH9bPvjqUy89H48BBp4Cs4NTSML9Aw2S8eZinQP0FYdU0mCknOQlHM3v5oT/DwtAdkmccsqknH7U4GfofAwSQcINk81FGtXg8QCJq/ff08sq/+bzarAD+f/ub7Sb3K6VyiWYKgmq8TLnMTQlIQAJCxQFiZIZHu8LQftd0DAoRWBEiNWgWojHEgKFrNIWgwqYigUatdalGMCP2uBkjtLkBlxTUo+j2CBqueQ436Q22gKvNS/R+mr0q0Mk2yqYxsyDajq21OkTo35dgQWcSKKJ1Fw9DATF1N20ywE1vRub6qhlf8kMhKyRAb5HL+9fixuomptqFBHmWT3O+JWOj1o2RWgdQF21MS6b48HtSSH6MxOX0PnL36FAA=");
 
 export default WandMagicSparkles;

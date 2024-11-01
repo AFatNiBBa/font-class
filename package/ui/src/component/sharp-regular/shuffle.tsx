@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shuffle` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shuffle?s=sharp-regular shuffle}
  * @preview ![shuffle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/shuffle.svg)
  */
-const Shuffle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M429.8 47l57 57 1.3 0 0 1.3 5.8 5.8 17 17-17 17-5.8 5.8 0 1.3-1.3 0-57 57-17 17L378.9 192l17-17 23-23L332 152l-58 77.3-30-40 56.8-75.7L308 104l12 0 98.9 0-23-23-17-17 33.9-33.9 17 17zM204 322.7l-56.8 75.7L140 408l-12 0L24 408 0 408l0-48 24 0 92 0 58-77.3 30 40zm208.8-36.6l17 17 57 57 1.3 0 0 1.3 5.8 5.8 17 17-17 17-5.8 5.8 0 1.3-1.3 0-57 57-17 17L378.9 448l17-17 23-23L320 408l-12 0-7.2-9.6L116 152l-92 0L0 152l0-48 24 0 104 0 12 0 7.2 9.6L332 360l86.9 0-23-23-17-17 33.9-33.9z" />
-    </Icon>
-);
+const Shuffle = createIcon("shuffle", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABewAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCPQsGAAE2AiQDCAQgBYMtBy4bOwXIHomxrYL9ihjsby3ieZ65Pu9L8imzDFkkUoyqDIqEJUXsgF3tb21PXVdPhbznV633/F/z+T0/OsAPAhdNlRj5/KxW9XwCidU+30RmA5vpcOC2tw0JckjmrZDAinCscLzuUOWrvKmD4t3iV7zBb5p/jfQshY4SQAYAYMOxQ3t835ve5Jd25Be7EMgG0AhKlBgjYLVSMEalQaUSetNu5//AhgDpJD/aAlTowBN4DVCBQllVC/ova3X0rY62OuqLBw4eaEWGZkamZ0ikzv5Mz9rMyqzUOZy5OZbhabVmZmbWZcbxw8cOD0ldJ63Wscw5NmPmjAO5duthObqrD82RxMdj+8T3Brz3n18v/OrDN1+U50ccAUdEvIiBuOCYFbv9ZflOl/U5ewED+Xuwxgit0ZPzjThtL/LPyXiRS/Zsn8s+f+T0iGP+XleO8XoUgvDHL7/9r//qR92tAvzz5fw10j7t4j10K0AoZ7dnO11A0hYAQJEHJhYQFB4qyav28ZaAqBFQ6FQLKI02QEClNktAh3GWCOhUO6SUqkcMcWaAQh+3QWmpx0BliI9Ah9V+iDoNSRmGRBARv8DYrRraMqlZMHd+s7Ixc42MLIxGVzXHwvQH2DIDbrrgphvuOe+cy+4p5I496X3XbV3BW3xQY4G55mus1FxXz5ePOu+Ouy676UYZZ5XG35nuwbr7DFhGAVj4gBjuSdF199L9CxeunQcAAAA=");
 
 export default Shuffle;

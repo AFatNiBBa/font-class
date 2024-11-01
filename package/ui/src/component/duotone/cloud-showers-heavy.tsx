@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-showers-heavy` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-showers-heavy?s=duotone cloud-showers-heavy}
  * @preview ![cloud-showers-heavy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cloud-showers-heavy.svg)
  */
-const CloudShowersHeavy: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M1.9 478.5c-5.2 12.2 .4 26.3 12.6 31.5s26.3-.4 31.5-12.6l48-112c5.2-12.2-.4-26.3-12.6-31.5c-3.1-1.3-6.3-1.9-9.4-1.9c-9.3 0-18.2 5.5-22.1 14.6l-48 112zm120 0c-5.2 12.2 .4 26.3 12.6 31.5s26.3-.4 31.5-12.6l48-112c5.2-12.2-.4-26.3-12.6-31.5c-3.1-1.3-6.3-1.9-9.4-1.9c-9.3 0-18.2 5.5-22.1 14.6l-48 112zm112 0c-5.2 12.2 .4 26.3 12.6 31.5s26.3-.4 31.5-12.6l48-112c5.2-12.2-.4-26.3-12.6-31.5c-3.1-1.3-6.3-1.9-9.4-1.9c-9.3 0-18.2 5.5-22.1 14.6l-48 112zm120 0c-5.2 12.2 .4 26.3 12.6 31.5s26.3-.4 31.5-12.6l48-112c1.3-3.1 1.9-6.3 1.9-9.4c0-9.3-5.5-18.2-14.6-22.1c-3.1-1.3-6.3-1.9-9.4-1.9c-9.3 0-18.2 5.5-22.1 14.6l-48 112z" />
-        <path d="M0 224c0 53 43 96 96 96l320 0c53 0 96-43 96-96s-43-96-96-96c-.5 0-1.1 0-1.6 0c1.1-5.2 1.6-10.5 1.6-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28C256.5 24.3 219.1 0 176 0C114.1 0 64 50.1 64 112c0 7.1 .7 14.1 1.9 20.8C27.6 145.4 0 181.5 0 224z" />
-    </Icon>
-);
+const CloudShowersHeavy = createIcon("cloud-showers-heavy", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABkwAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCGwsIAAE2AiQDCgQgBYMtB2IbTwXIHomxrZjtLJ4sQs9QWh7+0fv/9knyAOfDrAQOUYHKlFA1nSuwumtaoZ2bC7v79fA/cbnzn/b0vo0eZU/7i4raHM3JXQIBjm2Tu0QCy7pEMtIG542HEdoQyu86dO6QxVfpnSpInky+xP3O/wDGL3rcSaImBRDNAFi2ffNaH5eilMSX5XeIL61BQCwHuUCKFP0CLJQK9MvkyGSCUlJOKcpzAohKznNSUIkqnMV1gAwkQuahExrLmusqGrJt0Vm18ey4iDdnNcT7E94aem58Mfu2Wi18PPKyd8Y+NbqojYk3+m/teOUru3ueGPVq3/Z4evRjtXe1b6mrpR+PxzrVc4cXzcVvw7489qVSdUFx61K3FkW1xec/TYiu6th2tHnDqZ+ef2DYn3/8T89nXd1NBo/MW/3wlPOOzJtW0XRuyvlr0TAXxjJtFY3fqY8DgWBf9Ypd+5sW/lctAT9/9Mc/6faXSyQFqjnLgnRieaI9CYIyQ/Aqkrja8AT7jQKp+TLwVes9JkCoRYBEpVoBUn2aBcjUmiBAhUGzBKhUa7NUZDVCu70lm6h3kU3NdhObafc2W2GhT7KV2iPldjKnkY/6MlYPrFqUT5s8NZ+fD1blCk8SzekF+exg7NW6xsGTjjnvnCuOOuKkK+GXrC1c5azVY9gqH5SbZrKpcvPlqxu3jW1lL7nsZL+2fp4F8v1TY109PngcjBMe53Q7UimRRNr3A0J70r05yaXLk6SQM4kVDxzo1xgtAA==");
 
 export default CloudShowersHeavy;

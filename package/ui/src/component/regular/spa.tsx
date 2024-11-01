@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spa` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spa?s=regular spa}
  * @preview ![spa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/spa.svg)
  */
-const Spa: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 92.1c21.2 24.9 52.1 69.7 68.6 134.5c13.3-10.3 27.4-19.5 42.2-27.6c-27.3-91.6-79.3-145.6-96.8-161.8c-3.8-3.5-8.8-5.2-13.9-5.2s-10.1 1.7-13.9 5.2c-17.5 16.2-69.5 70.1-96.8 161.8c14.8 8.1 28.9 17.3 42.2 27.6c16.5-64.8 47.3-109.7 68.6-134.5zm-96 377c22.9 6.7 47 10.5 72 10.9l48 0c25-.4 49.1-4.1 72-10.9c111-32.7 192-135.4 192-257c0-11.1-9-20.1-20.1-20.1c-61.7 0-121.7 17.9-171.9 54.1c-41.8 30-75.1 71-96 118.7c-20.9-47.7-54.2-88.6-96-118.7C141.8 209.9 81.8 192 20.1 192C9 192 0 201 0 212.1c0 121.6 81 224.3 192 257zm0-50.5C116.8 390.9 60.8 323.2 49.9 241.4c55.1 5.9 104.6 30.5 142.1 67.2c33.5 32.9 57.4 75.5 67.2 123.2c-23.5-.9-46.1-5.5-67.2-13.3zm192 0c-21.1 7.7-43.6 12.4-67.2 13.3c9.7-47.8 33.7-90.4 67.2-123.2c37.5-36.8 87-61.3 142.1-67.2C515.2 323.2 459.2 390.9 384 418.5z" />
-    </Icon>
-);
+const Spa = createIcon("spa", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdAAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBdQsGAAE2AiQDCAQgBYMtByob7wTIhofn7cI/983sBtBsAKFLvlWB7EBU5tSp5zkPBfA5BEEZGxctHQt8ToGcR3BwJ1CL24q1imJ3p6XNobSLpKVZkuPc8XnsII8P4gIl0pXpRZxfPjS+1sxJklIGIOoCYMyieTM8/Wl8GvHC/w8QL5iGgBgDCoEMGVoKMFwm0FKuQC4XfBr//0//gQUBRBnfZgI5yliIHYAcJHmet2hRq0aNUq18YY1S9U239Ii4o3JTp7d73tn4supnNbyk++3zb+hwXa+7ui1+YECNeGjQO4tw4aqOZ81/cf7bM9+ufn3TtxaEq8XzIyOebPvWnNcWPNixxvX935n3xqKrhz8+ue2tdW/9tvLixhe1WZcKKq+OWtZ4/DPvfj2/atX5X7/7zDhx26inK0VadbjZ7N5mN5vfrP/4fuNjeb16q6YP+LfNZOD/bfwqgU+4gqu4sd331EpWnDev+hWVOpMrfz39V73cFfOqnbti5SkgELT/auZPq+oM/7VqjQQ+f/T73+DZ/3+aRqdbUVUCQdb9/+6Wp9FA6AC8FAe1jV8USGbK8bvWdJkAoToCJGXVBci0UFeAXHXdBChpbYAAZdXNk4m8mtDQigGSmvaAzEAnQK6h+0DJcM+4ZQ0jczHaQegXXsJECU2YK/r07F0MLZahzngNmcfDim2x88FU6gKrNtplp/02WG+L/QLZa0ZwwA4TLXiCHyr00VNvhaGK4+RZWCi8vfbZojPnUwxT3Dc6O2g3dwElYcy+zCT5aVjdt3sN");
 
 export default Spa;

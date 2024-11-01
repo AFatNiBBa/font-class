@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octopus` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octopus?s=sharp-duotone-solid octopus}
  * @preview ![octopus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/octopus.svg)
  */
-const Octopus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M.5 349l6.8 31.6c12.4 58 63.6 99.4 122.9 99.4c45.1 0 89.1-13.3 126.5-38.3L295.3 416l49.5 0 38.6 25.7c37.4 25 81.4 38.3 126.4 38.3c59.3 0 110.5-41.4 123-99.4l6.8-31.6L592.5 339l-6.8 31.6c-7.7 35.8-39.4 61.5-76 61.5c-41.1 0-74.8-31.9-77.6-72.4c-.1-1.8-.2-3.6-.2-5.4l0-1.4c0-4.5 .4-9.1 1.2-13.6l9.6-55.3c6.3-36.4 12.7-72.9 19-109.3c1.5-8.4 2.2-17 2.2-25.6l0-5.2C464 64.5 399.5 0 320 0S176 64.5 176 144l0 5.2c0 8.6 .7 17.1 2.2 25.6c9.5 54.9 19.1 109.7 28.6 164.6c.2 1.1 .4 2.3 .5 3.4s.3 2.2 .4 3.4c.1 1.2 .2 2.3 .2 3.4s.1 2.2 .1 3.4l0 1.4c0 1.8 0 2.3 0 2.7c0 .9-.1 1.8-.1 2.7c-2.8 40.4-36.4 72.3-77.4 72.4c-36.8 0-68.5-25.6-76.1-61.5L47.5 339 .5 349zM272 272a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm128 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-        <path d="M207.8 359.6c.1-1.8 .2-3.6 .2-5.4l0-1.4c0-4.5-.4-9.1-1.2-13.6l-9.6-55.2c3.5 20.2-11.3 39.1-31.8 40.6c-16.3 1.2-31.2-9.2-35.8-24.8L118.8 263c-12.4-42.1-51-71-94.8-71L0 192l0 48 24 0c22.6 0 42.4 14.9 48.8 36.5l10.9 36.9c11 37.3 46.5 62 85.3 59.2c14.4-1 27.7-5.7 38.9-13zm235-75.5l-9.6 55.3c-.8 4.5-1.2 9-1.2 13.6l0 1.4c0 1.8 .1 3.6 .2 5.4c11.3 7.3 24.5 11.9 38.9 13c38.8 2.8 74.3-21.9 85.3-59.2l10.9-36.9c6.4-21.6 26.2-36.5 48.8-36.5l24 0 0-48-24 0c-43.8 0-82.5 28.9-94.8 71l-10.9 36.9c-4.6 15.7-19.5 26-35.8 24.8c-20.5-1.5-35.3-20.3-31.7-40.6zM272 272a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm112 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Octopus = createIcon("octopus", true, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAAB0wAAAMJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHCECQsIAAE2AiQDCgQgBYMtB0obJQbIjtRWecYDFfxDOX9/7kxaaAJekyBinoeJlKXYd92y+yKybP5TI16cep4JEsDngMaDtoeO4prnc55XoIKprg1WKlVbY+vq3IAPyPGdUN8Bx9SzOwmBOWc+Bo74/wOon0mxEwwRCwCAqgAAAD3GjRrC61/oC6OPSw9BHzMYEIB6AuAjwAIWyCIAOmMRkMXBBxwcBF+YEvhCJT4IABTG/yALQBiIAN8AvwEADgAGB+s49RpGIvMiES9U0RnrhdxxZZLK4jV1Knoyuj+d1/mGRdcV8nQgdiqV07k6t+rdqTfOr+WfBAWU6dbghExBFxJnPE+Sq4f17yazOuuejp9OjE3LT0ZPxc4kxgihPm1cKp261OFZmwPDOslTB33iPen0UiGjtkrq7KGce7thMf2BdKKWLmQi9UyTcL3rq33f7vyyj4LYpRyuDgh0irKn6whAAU7ibP27tfc3LKbTaj3rZBQXzyROxbzynWoWqxR/rfHx3I/5bJy1olz4NIX9B/5Md5Mrx3fUTNKcJFU/eNH9BgeXLft8hPvToNOnT4fLCWvBHfH5smUHbtL9xQdV123A8eNXbrI3/ef+A4WiV+mLLyol5LLKQpOCmdP8h++76df7nJpASyZwqs/raff+Mn5kGQubd8/+0WtU03e8dlCngQOyFUNk1+95440967MhKma3bB49yxiBwBgkCYMQUtNeo77INe++cBo/Vhp8sxWUzwOAAMH/Dc5Pq9z53/KeAeCr57//xM6n9IUJTBEojwFAYBuXGjPZBACCLgDIGa2l5sJPCQGWDTiEuQqcRrggXGjAEMYFS4Yq4ODSCELkabNDGJdRWOREEFGm0IChAivA0pYt4BDlAYTozHvZMFFZaBdgVfjZTO3bRfqs8ls0be539GcbKhGAOWexk7/Zrb9WDjTAa5nLMpaymjnMZgGrO9RKhhTWsIS+S8w+3/VpQVOa49MR/3D7oTq2k13JKhZMy8eX6YR/fViftcvjG+DAELK2ZA+LBRnZystmrV62fM2qJtbGqtqV7QcA");
 
 export default Octopus;

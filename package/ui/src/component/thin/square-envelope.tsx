@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-envelope` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-envelope?s=thin square-envelope}
  * @preview ![square-envelope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-envelope.svg)
  */
-const SquareEnvelope: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 48c26.5 0 48 21.5 48 48l0 320c0 26.5-21.5 48-48 48L64 464c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48l320 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM352 160c8.8 0 16 7.2 16 16l0 6.7-4 2.6L234.4 268.9c-3.1 2-6.7 3.1-10.4 3.1s-7.3-1.1-10.4-3.1L84 185.3l-4-2.6 0-6.7c0-8.8 7.2-16 16-16l256 0zm16 41.7L368 336c0 8.8-7.2 16-16 16L96 352c-8.8 0-16-7.2-16-16l0-134.3 124.9 80.6c5.7 3.7 12.3 5.6 19.1 5.6s13.4-2 19.1-5.6L368 201.7zM96 144c-17.7 0-32 14.3-32 32l0 160c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L96 144z" />
-    </Icon>
-);
+const SquareEnvelope = createIcon("square-envelope", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABigAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCPAsGAAE2AiQDCAQgBYMtBzYbQgXIjtRG+UVWEg//b6t236/qnh33WldBxUMyoonAgwxPORsiXrXv8385v7NNB/j5CA5lbFx6IMv3aj1PIMCw8yYllAV2wBBD5q5uMg+lvZSWxJI8fvN4ukIeLzmmRHohfY3HypfGLzrdTZJlAKIBAIt3bl1v4Mf4MeLr/xFfW4uAWAIKgQwZegSYJxPokSuQywU/xv//839gQQBRJkjy63NU4DY8CMhBUsrzrq625q7qUm2+o7pUdfKd1ohnOlM83/L0sJp4t+3Zrixean9uZO2Rt0dFvN+R4oXRHwyvjffGftSdxYtjPhxRc/iZVtES2+LpqgfbdkRbRDzXXtsrPN1SE8+2RWyPZ6ofat955MGWiKeJ21ufqa6Nh9qfi4g72p6tqhnyYcOHlwd/feJrtz026Vu+yRbJvvl20iKTvtWLC+tfb6SxapGqxsbXF0kKlvpv+7GuwmR3bDWlXJ5Sg5NVqPvRn/cKB9UqeK+bN7qnquoenKmfXXc/99e9LrIMUfR9EAhaLv/x6cH6eb8Oqk7g50/+hV7+/8cYSB9ikASCbNz/4+yLASB6AE6Kaw0xVhZIrlMC+dQazwoQqhAgKasSINOtQYBclbEClPSZLkBZla0ykVcKLfYrSGpcATIz3AJyLT4GJfN85pS1ROaGohOJn8C0FT28/FQxecKkYk6xLDTJs/h8OLfY1kddmwajseiEiy642nHHnHZ1R11pvX+N81ZY5HIrKkw2wSSFOYrj+lHbEZwrXeX0XDk/Zq7ivj3Ktfb8aFiJME6RSBKR6l9ydPzxC9ceP3fx0nE=");
 
 export default SquareEnvelope;

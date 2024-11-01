@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chevrons-right` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chevrons-right?s=sharp-light chevrons-right}
  * @preview ![chevrons-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chevrons-right.svg)
  */
-const ChevronsRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M267.3 267.3L278.6 256l-11.3-11.3-192-192L64 41.4 41.4 64 52.7 75.3 233.4 256 52.7 436.7 41.4 448 64 470.6l11.3-11.3 192-192zm192 0L470.6 256l-11.3-11.3-192-192L256 41.4 233.4 64l11.3 11.3L425.4 256 244.7 436.7 233.4 448 256 470.6l11.3-11.3 192-192z" />
-    </Icon>
-);
+const ChevronsRight = createIcon("chevrons-right", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABWwAAAHFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBMAsGAAE2AiQDCAQgBYMtBzUbtQTIHoVNWTP+SXvKiFOUcmPi4f/3+7bPfXdE/K2fENckbo1Gp1moMxHT5n0iUllE8m9mlnT9HdL5Hu/vb553HgX4jEIbC5d2PsHnPE8g0LUwjySwTL+ApdtkTx5R+EWEJIpExxNBx9UNOd5GakhPEjyoL42/BtwnyQWAaAfA2n27dvr0K35F/Kg+J37YjoBYB0qBAgWGBVihEBiWlciy4FdUq+kfWBJA1GJ0lEBGxjJsAmSQpJwHBppqWvLepprGU33dfb2xN3pjSvTEntgd3TE1+mJfk9pfGW8f/4ezND57g0EfP5pw1htPn5H+xlkTSuFPxnMgEPw8d4+1rfhf35TAnzfdkFGluphM46iXQFDMqOZwomJqTAoAQIq7KompAsk8CV82eyhAaMSApFYjFIa0Q9ZoOtQYtZAKXuxSiNwgdDsCkDS7AYVF7kHW7SnUWOGzUas7igvEHD/zfUvcJLGNXeXcWXPKZaXp6OydoHJzeRmWptylxFTsOuuaq24747QLbgvipp32HVds8vCNPlSaa5Y5SsuUy/7z+l5n3HTLBddcLW2WK/drU9z186dCTZh0nsskEan11Pkzd29eu3rrAQIA");
 
 export default ChevronsRight;

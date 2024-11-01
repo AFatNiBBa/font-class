@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mobile-notch` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mobile-notch?s=thin mobile-notch}
  * @preview ![mobile-notch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mobile-notch.svg)
  */
-const MobileNotch: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M256 16l0 24c0 13.3-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24l0-24L96 16C69.5 16 48 37.5 48 64l0 384c0 26.5 21.5 48 48 48l192 0c26.5 0 48-21.5 48-48l0-384c0-26.5-21.5-48-48-48l-32 0zm-16 0l-96 0 0 24c0 4.4 3.6 8 8 8l80 0c4.4 0 8-3.6 8-8l0-24zM32 64C32 28.7 60.7 0 96 0L288 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64L32 64z" />
-    </Icon>
-);
+const MobileNotch = createIcon("mobile-notch", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABbQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBXgsGAAE2AiQDCAQgBYMtBzMb4QTILgtsQ7QdrA9CDG2A6HDKdjsNbcye8uk/HhcPzx/+zr3v/cYaXDSpjcPaFmhE0bSPUGBtDWxbMObuJqY/EaduDdEkJk2spVVCWSMSKqEQyUuQh3er5txL+C7oIllRq2QVG8/GAlkg4ao6/o0obMABaGABRjKgny9mzc3yWgts6tTznIcC+EZBGwvXBFmAe51XoIKNdXnPy5trW9Br7ez8YNDrN0mf+JBh+0W7PdTYYJ+avFcoXOWTik/jPiGVAoDoAwDsnC7PYvKn36D6D+LBPgiIXQBziIKZKQTrlILeg8ocqKrgjabn/0BAANECucsEFQ0cgXMAFaRSjcocMKp9YyhqnoHuSuY9QGS6urY+jSf3LiV8eA9BnWfPPs0GFkZcu4UHL61cauInI7zlXn6Nx+xzd3X+HdDjY9v7b16l8G+C37oXweKwD6L6tP6K8vjU/zU1tW1jfR80FwNst/h+sB3ob04049jwCo6Eg0EgmN7bwWb+HdEAH9+/yvH8T9vaGLRJEJTFKViPV8yR2AYBABlzxI0HItIBJTnVLjcIEDoQILXoEKCYZENQdVhA0DCjhaBFh0NKUV2EIRsEUpdLUKx5AtWQL9Cw7ttuMRRKvyK8gvjVxY40NFwmtXJV+jKNVNJVsDQdyDKXfYyVHGZx6Mqlewf2nbhXyK1Z78GFkQUPPZGoKasSfXKc3rNrZN+6czKmzxcZkPtW1qPdnoOoIKhLfCmJ9J4/+7L7vWMA");
 
 export default MobileNotch;

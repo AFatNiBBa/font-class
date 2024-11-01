@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-up-across-line` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-up-across-line?s=sharp-light arrow-down-up-across-line}
  * @preview ![arrow-down-up-across-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-down-up-across-line.svg)
  */
-const ArrowDownUpAcrossLine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 510.6l11.3-11.3 96-96L278.6 392 256 369.4l-11.3 11.3L176 449.4 176 272l384 0 16 0 0-32-16 0-128 0 0-177.4 68.7 68.7L512 142.6 534.6 120l-11.3-11.3-96-96L416 1.4 404.7 12.7l-96 96L297.4 120 320 142.6l11.3-11.3L400 62.6 400 240 16 240 0 240l0 32 16 0 128 0 0 177.4L75.3 380.7 64 369.4 41.4 392l11.3 11.3 96 96L160 510.6zM144 48l0 144 32 0 0-144 0-16-32 0 0 16zM400 320l0 144 0 16 32 0 0-16 0-144-32 0z" />
-    </Icon>
-);
+const ArrowDownUpAcrossLine = createIcon("arrow-down-up-across-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcQAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiCDQsGAAE2AiQDCAQgBYMtB0AbHQXIHgPuCoTH1QkthNA6qqqeWKIZzz+/Rjv3zV/7s45KZROWxBNRJZE9E9qSLNFJeUMDr2SoY/X76V5AEthLFCC4KKYiKSBVFaPzVKbuq1bV2AqDzVzr7H3q1POchwL4HIKgjWlrWmhM313zvFovYG3aWEA979WKtYpiTc90qQFyq9AITSOGTX+Y/gwtX7NBSX0q2Kwfmr/2eIHSBgBZBQAXb9dreP/Kr2RrCrLlGgjkEuAwwoAB+xE4Qy7YT+EwaJrwi6aJ/wMZAmQWXrFAwwyegdcAGihDa1eXVOPMUrs1KvvNXUZLmyxxxphGKEtj0ntyM6a4Yk4r5uVhYxyxpB1kscs4CqY9JlPmHsgY5HvcRWRcf/SLdvNtteLzOUHHjceQrAjly9h6WGVo325zSliR7JYVBIO+sndIMda0FGHSCKI9xxoDBGHz/1/HmvS/+bHAH+n3nx83fdSF2oB5BcKwMbkNKg8wmgC/8oZN+aKgPCaHd130HoHoCCizuoDBPloEmu4YAjMOiiAwq7tOLm1BbDfsoCx6Dgan3YJmuzcw44xPb9b2yN2NdBbyby+uKqHKKg54/ZzkbaVRHoSn+RSbBft17HPQTqycOHZpaWHPpUDO1cIrR6oaXPFDLMDLjyXxcet5c8vSuQt7ThyXRVL4vmN3rY92kCwDzOP2lCK15+n5+cmN5xG6nqtTz6fIe/wSAAA=");
 
 export default ArrowDownUpAcrossLine;

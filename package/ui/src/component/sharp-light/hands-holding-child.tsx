@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-holding-child` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding-child?s=sharp-light hands-holding-child}
  * @preview ![hands-holding-child](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hands-holding-child.svg)
  */
-const HandsHoldingChild: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M336 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-64 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm18.5 64l59.1 0 6.6 0 4.7 4.7 50.5 50.7 11.3 11.3L400 201.3 388.7 190l-27.1-27.2L368 271.1l.9 16L337 288.9l-.9-16L334.1 240l-28.2 0L304 272.9l-.9 16L271.1 287l.9-16 6.4-108.3L251.3 190 240 201.3l-22.7-22.6 11.3-11.3 50.5-50.7 4.7-4.7 6.6 0zm41.7 96l-3.8-64-16.9 0-3.8 64 24.4 0zM112 64l16 0 0 16 0 185.4 36.7-36.7L176 217.4l11.3 11.3L320 361.4 452.7 228.7 464 217.4l11.3 11.3L512 265.4 512 80l0-16 16 0 96 0 16 0 0 16 0 304 0 6.6-4.7 4.7-104 104L520 510.6 497.4 488l11.3-11.3L608 377.4 608 96l-64 0 0 192 0 6.6-1.4 1.4-3.3 3.3-8 8-72 72L448 390.6l-4.7 4.7L432 406.6 409.4 384l11.3-11.3 4.7-4.7 11.3-11.3L497.4 296 464 262.6l-128 128L336 496l0 16-32 0 0-16 0-105.4-128-128L142.6 296l60.7 60.7s0 0 0 0l16 16L230.6 384 208 406.6l-11.3-11.3-16-16s0 0 0 0l-72-72-8-8L97.4 296 96 294.6l0-6.6L96 96 32 96l0 281.4 99.3 99.3L142.6 488 120 510.6l-11.3-11.3-104-104L0 390.6 0 384 0 80 0 64l16 0 96 0z" />
-    </Icon>
-);
+const HandsHoldingChild = createIcon("hands-holding-child", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABtwAAALdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSEJwsGAAE2AiQDCAQgBYMtBzobMQYR1ZqryX4kZG7paVYONDqNILalUHeY6mnCJ8E/pdPeX0l2vApsgKk6YigReoQu4foIpndTeK4jrEiIg9sP4IkHHgjm02+OnWj86y+yV4VGpdHmUps1WYITl+O/P/8N9Jv+XvjR1mprIIvK9j5PIMA1bMzzLqAszALFGLOYG2BUnm8P28uweAK+/qiNAMxdkwQux2+qjxS7BIPvAQAgBwAATFuzYhFvU0pJyegRlGQBIABNB6CKAA/wgDICYCIPAWV8qoCPjyClKLL/AwEBgGKkv8kA4ANx4DvyAAAfAEPg+4mM3sTtMMjwV4eB3XOr4EbezfzbhfZ+43D9YPGduoGGoZLu0Ib5WqZ8NalALVqlfNWpQBWyKlOeGlSoNWpSnlpUqBUqVLiqprrGqkrh6tCGCE1RofK1SmtUaJLksjBERihPK6+lrpEnK5ZeHvLysJzxV2iyVgrESvzVmqhlOg/kI00qIM9rtQrkNGlltErJCJG83WHNmBv7XJ3cnbTkcmYqlVmkT7WHT548bJ09OydMmDaTbC/sYsyY4ABZfJeIU6YM8oqMJ+7ihWwziTVvmZKKHFMU/WU3i2dmMG7cpXPk7uEzeMZx6+gSZwZ79jBuN89t30GxqbwlDvQ4ypw5jJtBHNTnuZfg7Fn24VRx9iUOYDZEPLebcRGcmn2UHhDnLVMpvlch5JeeOYM4XRwHAAGCh9N3eEvWxN9poQHg3fOv3zV3R2+Zc2YMSMMAIPDaojYbzTkAWygAiBsdocb4IAGG9wSkr5rOLQJAWEAAGGJYBIBHKUcA+FhaCYCACv0EQAzLCjzkJxCaaAaaIbpoVuhLc4gfzcv9YwISlvdVzlV/PbPKKViMg2PaSLFZ1GnsLAfDGQ4H5Y/TpMitVO+we+m0Jq8JcauSb5uSggpfBA6TDVK4XHlp1Ub89piwh+ujZPB8VPahOysywkglXRkMBkVX0pye8TE5hpYDAA==");
 
 export default HandsHoldingChild;

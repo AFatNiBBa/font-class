@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sunrise` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sunrise?s=solid sunrise}
  * @preview ![sunrise](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sunrise.svg)
  */
-const Sunrise: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M354.5 135.7L320 104.3 320 208c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-103.7-34.5 31.3c-13.1 11.9-33.3 10.9-45.2-2.2s-10.9-33.3 2.2-45.2l88-80c12.2-11.1 30.8-11.1 43.1 0l88 80c13.1 11.9 14 32.1 2.2 45.2s-32.1 14-45.2 2.2zm39.1 89.5c5 2.1 8.6 6.6 9.6 11.9L423 345l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L512 432l-105.3 0c-19-46.9-65-80-118.7-80s-99.7 33.1-118.7 80L64 432 34.8 389.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L153 345l19.8-107.9c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L288 289.1l90.3-62.3c4.5-3.1 10.2-3.7 15.2-1.6zM0 488c0-13.3 10.7-24 24-24l528 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 512c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const Sunrise = createIcon("sunrise", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfgAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCEwsGAAE2AiQDCAQgBYMtBy4bEQXIhuB5u/+qc7sHcA8ILrJhtHD0s2WQwRGRvf+5pl48PzrAz0dwKNFYeiCRQLWq5xMYYERTiA9nE8UtbrtaU0xDHCFxhjw+z84oR3qYPsP18KHxk0bOkFTKAERNAIycP3uqsm/im4hPS28Tn5qMgBgJCoEMGZoKMEQm0FSuQC4XfBOlkvgPLAggykuvTSBHOWzCAUAOkizPO3StVqVctXye2avy+kEDB4kTde9UvlT/XkQMiDuUkX0b3G8wP562nRt3691dR+oqcw0zEOTaLlE5Xu30ot9bHZ41rRzd4iAjlfuZ2efwPfXWvNS+Rjxu9KBN9XjSuNWLmi9+afnZus+s6t89xTaofuFCdb14gxaelb328GLVKg/nTzd9OX/vxSpVLz58rdr9dgtWN6iz2eY6dvZrP/5jG33/zw8nTvzwz/cbfWx8u/47N9exGW2weteehUO5MXt2XSxfb2ZNM+vp54FA8OMfu4YtrzHkn4pVEvjug9/+l48rlaUR6QUqSiDIupS6WJJGAKYG4KTYp9XOFwWSVTJpbVX3BAiV0SEprzJkmqgJuco6QznN9eVOrpktE3kloa6lMCRV7YRMP0chV9ebUM4QH9rl1Y0M4gR4EX74UseN8bG9ip7dehSDis1EFYGIs52Di9Nah32yoiNeaJ3tttljrTU22jMid5nq7bXVuD1irB8q9NRND4VBitv589nzrLXLbhttt813M1jxvtXBvv36HbGZJNpehiWJSBV27932AQE=");
 
 export default Sunrise;

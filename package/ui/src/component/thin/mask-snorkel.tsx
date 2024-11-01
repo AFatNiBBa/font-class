@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mask-snorkel` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask-snorkel?s=thin mask-snorkel}
  * @preview ![mask-snorkel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mask-snorkel.svg)
  */
-const MaskSnorkel: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M536 48c-13.3 0-24 10.7-24 24l0 72 48 0 0-72c0-13.3-10.7-24-24-24zM512 160l0 32 48 0 0-32-48 0zm0 207.3c0 44.5-36.1 80.7-80.7 80.7c-39 0-72.4-27.9-79.4-66.2l-.4-2.1c-2.4-13-14.9-21.7-27.9-19.3s-21.7 14.9-19.3 27.9l.4 2.1C315.9 451.5 369.2 496 431.3 496C502.4 496 560 438.4 560 367.3L560 208l-48 0 0 159.3zM536 32c22.1 0 40 17.9 40 40l0 295.3C576 447.2 511.2 512 431.3 512c-69.9 0-129.8-50-142.3-118.8l-.4-2.1c-4-21.7 10.5-42.6 32.2-46.5s42.6 10.5 46.5 32.2l.4 2.1c5.6 30.7 32.4 53.1 63.6 53.1c35.7 0 64.7-28.9 64.7-64.7L496 72c0-22.1 17.9-40 40-40zM64 80c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l79.7 0c21.4 0 40.3-14.2 46.2-34.8l3.4-11.7c8.8-30.9 52.7-30.9 61.5 0l3.4 11.7c5.9 20.6 24.7 34.8 46.2 34.8l79.7 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48L64 80zM0 128C0 92.7 28.7 64 64 64l320 0c35.3 0 64 28.7 64 64l0 96c0 35.3-28.7 64-64 64l-79.7 0c-28.6 0-53.7-18.9-61.5-46.4l-3.4-11.7c-4.4-15.5-26.3-15.5-30.8 0l-3.4 11.7c-7.9 27.5-33 46.4-61.5 46.4L64 288c-35.3 0-64-28.7-64-64l0-96z" />
-    </Icon>
-);
+const MaskSnorkel = createIcon("mask-snorkel", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABrwAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDNQsGAAE2AiQDCAQgBYMtBzMbuAUR1ZpvyX4kVLdTMUvnmdrJiYVHJOnUfBNElPd99SSrZJUVswI+xCtgnKQrT/ALACO34Ym4I39EtG55a1SqiIVQ+Z9r6oVVAX4+9yi85wdS4JWL5xPY89MlN208b9CB8pi2O5vDDk0+LS1lLZSbdnx2QJeX9McJ1Bp1H1iU70o+Esx0UGgaAADiDQAAVHVq14LL7+R3IvcdJ5D7NAMEQKoBsBFAgw1hCAClaAhyB3RsQEdH4J04HPQfCAQAxJlCKG6qA67ABeA6AKADoHDWddPNTklONZ089I6mkzFsexBiisja+PYI/BEG6xNFdufuTN4bIrI2dnuwv2woOpN3q+JSjIghdJvnL7ICJZtLz9feLD8bLbI2cFXCLv8Vwf6yJm6HuStlX6gmUwJXmb23+4ksD0LW+K+IM2Ve4KrAQFlnzltn50lk19VEZErAynj35utSRPYleMiOpD3ByOrE3bGGzA3YGRIgK425fn7IxS43tIN+e/Re772fo+4PvE/gojb+jWTSiH+bwEG2bWdik/lIDYCO9uOqNt0VHdp08BcWpqa+651b47yJTDYFtrT2wVkrgfDRs55U9h60XWHPn6/U7dsQ8iM8gw5blpmAdXaf9TQj8xU80HqjPXgVt8b7zulWycwKCJiVzGGrNZmvXpPe+L1+FVc6DAuszZVstiyjN4ZlbW5NwF+zfQklpllSQnvzr9VauRgAAQSaFf4dlnuVfnM1FQAfzn79Xc93XFYq1V7AFQWAgJbqSO2uKgGiUgAgUDKS6DCgAIoT3IfnzsrZSDCggcIZAzRC8QYdgxRwIoI81bi4HRqiuyH40QNA4c4Q0MhnAuj4cQycKMX9vgER1YV1B9R/kDlC4nwekjAGxTDGhleqaZrB7Nof1hzYKHX79rTN+Aj5SqN3FRrLvwgSQmIABdPZ/eqsve5x32gWBvZ7Np/e7cAQChIA2Y+v4jZR5lrec3Bv+zW3Cw==");
 
 export default MaskSnorkel;

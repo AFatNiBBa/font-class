@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-star` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-star?s=sharp-thin circle-star}
  * @preview ![circle-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/circle-star.svg)
  */
-const CircleStar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm9-398.9L256 96l-9 17.1-39.9 75.5-84.2 14.6-19.1 3.3 13.5 13.9 59.5 61.3-12.2 84.5L162 385.4l17.4-8.6L256 339.2l76.6 37.7 17.4 8.6-2.8-19.2-12.2-84.5 59.5-61.3 13.5-13.9-19.1-3.3-84.2-14.6L265 113.1zm37.1 91.3l73.4 12.7-51.9 53.4-5.5 5.6 1.1 7.8 10.6 73.7-66.8-32.9-7.1-3.5-7.1 3.5-66.8 32.9L192.7 284l1.1-7.8-5.5-5.6-51.9-53.4 73.4-12.7 7.8-1.3 3.7-7L256 130.3l34.8 65.9 3.7 7 7.8 1.3z" />
-    </Icon>
-);
+const CircleStar = createIcon("circle-star", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABkAAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCcgsGAAE2AiQDCAQgBYMtBzIbdAXIHoVx41MumnBs2aGEprR5iXj4fr/fr73vQaWZJBGJ1rREhhBpJLNQSWRC5Zfw5ldKwOj9y90LpBdZ/wK5g6ZPmhYuITaV1F391M7/5Z7f86MD/EaHshbNjQtwt+bzBBJbOJZlAUUFlmkC1tm2N0fEQ7sRGpygxDoaqJAfsgvAXfjQ+IWFKUhVBYDoBADsXxRmY6cWNca5IhA/yAQBsQ9gGFGhQj+CLUoC/ZQNg6IIavGnEP+BAgKIesQPTlBQj3vwBaCAVIqylZW7u5aKjrJk3lmz/DGdPI1fMTa3k3ZS9JRxlrAa44H7medy2XMueZ24z+uEvZwr6SHrIm4HY/u72ZfF5ZYWluYsYhGdaMJ8FtGcrpSzmM60pMRCmtGFEqXiYqk4j8Y0YTElmtKYRZTTjKYsoKLZCc4kucthVn/2ZeSi6QKKpTh0wWXDP/9q3V1xGNbF7vdk0/CwaZ2YaB05M50MXMeW+u1YfCBcj1DYhjEXNmmdwIGa4wlpqxsbJRsuOa5ju2KnsnTtZFcwiqhpPkDCMOrVl0Rvn5pTwdJbcMWFw376nBC1AIHgX8fqUbVe1I+6lgzw//vtV/Ur+ttJ+QlolCCophReKhKQBAAgYwgOCQTSDWXxq7Z6RRCaESDVaxag0kcfQdFsEkGdQcEI6jU7oSSKBkKvyg6kVlegsmIYFL3WQJ0tx0m93lCCUAq+qO/D+JQhlLxO+Pv4iQixWmtooCPscqQ4LLkNySF3vBNNunUZ0KhBq4EB0ic7H9QpZQtO9kWCPx9+hAjicufpZkmjPv1adevyq0QSz3tuhrYnu2NVJkZdUEhJpNaPPIL3WwQ=");
 
 export default CircleStar;

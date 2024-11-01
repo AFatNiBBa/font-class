@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `washing-machine` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/washing-machine?s=sharp-light washing-machine}
  * @preview ![washing-machine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/washing-machine.svg)
  */
-const WashingMachine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 32l0 448L32 480 32 32l384 0zM32 0L0 0 0 32 0 480l0 32 32 0 384 0 32 0 0-32 0-448 0-32L416 0 32 0zm96 96A24 24 0 1 0 80 96a24 24 0 1 0 48 0zm56 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM335.2 317.5c-9.8 1.5-20.3 2.5-31.2 2.5c-32 0-56-16-80-32s-48-32-80-32c-7.2 0-14.6 .6-22 1.7C139.6 219 178.7 192 224 192c61.9 0 112 50.1 112 112c0 4.6-.3 9.1-.8 13.5zM325.7 351c-17.8 38.4-56.6 65-101.7 65c-61.9 0-112-50.1-112-112c0-4 .2-8 .6-12c10.8-2.5 21.5-4 31.4-4c20.9 0 37.2 9.9 62.2 26.6l2.1 1.4c22.8 15.2 53.9 36 95.7 36c7.5 0 14.7-.4 21.7-1zM224 448a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
-    </Icon>
-);
+const WashingMachine = createIcon("washing-machine", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABkwAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCSwsGAAE2AiQDCAQgBYMtBzYbUQXIjtMVdyQJ7kI8/P/cf+5zk0/JMGQAiFuWDK5rbB2DrgJg23d5euFwLBQOSXDVvK//2m5dizZwDTp16nnOQwF8T4SDsqcGZC1PuvZ5BSLWbdP6IrWCRRRrbhq3nGhQs8mLYCilw5hh6x3yeCK0OtJj6cM95UfjF53dQZJnAKIVAGZtWLPM61/GlxEf1w7iY0sQELNBJZAhQzcBpsoEuslVyOWCL6NW439gRQBRT+EnkKMJd+MeQA6ShjxvatvU1LFn17Kueb4+wSoOpCw1iyya7y7KQqQQZfOILCKKnY/3bzqV/fquhtwoRUmB/bsEA9vVQ+byGDR2j9vJRweyeL44B089IKBjXlL7tJ8Isdp+gEgdA01h8dKIPWD4NvktcOI9dHHLsHXSU6qbrabfen28/2PPPPO6Em7xultu9KzqXlepnm2FnjvEKtu+ahciBXz2zletOg0a2K3rHSf5c58991zv/4//WzbU3/LpcyxSVt5P/7Rs+f0n3VqhvHL5y/LZfTsHJNKoXv379xqV0gBp8HMgEBzwwPYdLaf+11gm8PWLf/zV3ld7PV5PN9EogSAbWtO2xuvATgEMUpzX2+hZILmhAfCtzTwsQCgQIKlXCJDpqpUAucIQAer0ME6AeoU1MpE3Ce1smyBp5hTIjHcN5Np5AdSZ6r2gXrvIvJHzJe5nMHn+jszrqkYNH1lNrq6NzjsYI7tTqsf2wPNhZhBO2u+E487aZ69Dzm7Yacvic46Zb6Hz9KgyynAjVSarXg8/D6+3z2lnHHLC8bzPFNX3/kDn7eWD4CVKOtrNJBGp5YVdZw4eOn5gmA8D");
 
 export default WashingMachine;

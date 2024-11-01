@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bug` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bug?s=solid bug}
  * @preview ![bug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bug.svg)
  */
-const Bug: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c53 0 96 43 96 96l0 3.6c0 15.7-12.7 28.4-28.4 28.4l-135.1 0c-15.7 0-28.4-12.7-28.4-28.4l0-3.6c0-53 43-96 96-96zM41.4 105.4c12.5-12.5 32.8-12.5 45.3 0l64 64c.7 .7 1.3 1.4 1.9 2.1c14.2-7.3 30.4-11.4 47.5-11.4l112 0c17.1 0 33.2 4.1 47.5 11.4c.6-.7 1.2-1.4 1.9-2.1l64-64c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-64 64c-.7 .7-1.4 1.3-2.1 1.9c6.2 12 10.1 25.3 11.1 39.5l64.3 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c0 24.6-5.5 47.8-15.4 68.6c2.2 1.3 4.2 2.9 6 4.8l64 64c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-63.1-63.1c-24.5 21.8-55.8 36.2-90.3 39.6L272 240c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 239.2c-34.5-3.4-65.8-17.8-90.3-39.6L86.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l64-64c1.9-1.9 3.9-3.4 6-4.8C101.5 367.8 96 344.6 96 320l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64.3 0c1.1-14.1 5-27.5 11.1-39.5c-.7-.6-1.4-1.2-2.1-1.9l-64-64c-12.5-12.5-12.5-32.8 0-45.3z" />
-    </Icon>
-);
+const Bug = createIcon("bug", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABjwAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCXQsGAAE2AiQDCAQgBYMtByobVwXIjpTuNjRaPPy/rvS+Ly1JO2skjZEgAFgBQ2kqQ1iF69Rz0pqqAKpE5adOPc95KBZ9owCFdExbtHQtDa3d9rwCFY13Ur1ey3mHaQWsu7O1mkNpjyQtsRjHuePzOEIen2cPayO9kX7Gc2mlccYQD5N0ZQCiNwBWHdizzTetaEX8VH9I/GQLAmIVqAQyZBguwFKZwHC5Crlc0Iq6pv/AigCiHa8tgRw5XsYbgBwkKc+H3F62NfL9ZVtx5MNJESdHiPv7v1wU8eTAVyPivSmnF+x9rYx4asCueGXAA46XZTw17oFBe+K18qkBr7i//854uf8bQ8oQxJ56/+BXFkmx+OTA3fHF2ohXB77cX3y7HITiLGn2B70ZRWDytbKMt4a9igTcMvpU71Pnmj9f9bP66/tPcaoz13333d2PaeQH5DpPnbr/l2teb9B4vYbYMvQWQ48ktdcbjdefaDSeqPFA/5V6Hn+8h1IrjbvQbNbGhP7qeSvXXdDTavVcsG7leQuu2bwwDu3/APcDgeDgf17ca+lvnWUCv3524c/yM1J/k6RT6JRAkE2tpzqaQCIAACnuMjpBIHlaws/a7VUBQoEASbtCgMwwvQXIFaYI0GakeQK0K+yRibxL6O9YA0m3W0FmvntArr/3QZulvnPb9Y/MLSmnol6F8esltO5QNWv6zGpxNc1U2tOIuLukWhYn3hU6k2DRVW52kztc6QrXukMgt9kW3OlG6zV4nS+qzDLdTJXFKnN5z+9H9za3u3bM2vdZorpvTHSXPj4JlIQxZzOT5Hdi9bI7rwYAAA==");
 
 export default Bug;

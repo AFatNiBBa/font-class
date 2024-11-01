@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial-high` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-high?s=regular dial-high}
  * @preview ![dial-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/dial-high.svg)
  */
-const DialHigh: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0 248l109.4 0c-11 50.3-55.8 88-109.4 88c-61.9 0-112-50.1-112-112s50.1-112 112-112c53.6 0 98.4 37.7 109.4 88L288 264c-13.3 0-24 10.7-24 24s10.7 24 24 24zm160-24a160 160 0 1 0 -320 0 160 160 0 1 0 320 0zm128 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM32 320a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM128 96A32 32 0 1 0 64 96a32 32 0 1 0 64 0zm352 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM128 480a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm352 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const DialHigh = createIcon("dial-high", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABtAAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDRQsGAAE2AiQDCAQgBYMtBzAbxQXILg6yOWWdfKTTZAn/GqhhCBfEw/drfZ77uj/NLEMvMzomhaB2E3arQiQckE1FksrY3GhXSRVaN5dvJquizoT7grnb3uH9dcjxtb35v+bzs6YD/HwC944OLZJSzxuw8BatA2vwNVXQhGbDWRNOwPe24fFIIRREhAiJWGM6Xqsd5PFj3FZFup9+wK16o/Gn1s6TVGUAohEAJq1YMs8nv8VvEd9XjPjeHATEJFAIZMjQToCxMoF2cgVyueC3qFTwP7AggKjGcLIsRxmf4Qf0KJK6PG/apm1TcMtV9fPl/ceUdlxribgbZ1rE0tVm3unmoaxcKj/qWYfu3tqh9OkjrFdrT/GqVe7mzvRHvDf6la6OPH2H0/3mqFu+NuYPWFE+0wIR73CtZYq9Z0uscNBsYr71K51fN9K/2K7jqQaXudygweWm/weff/HrTucNG/5vp/MiFjVvvuhpS57K0mlLe/cmfWofkcESp4+06NhRs234la5jFTZ4LgcCQfcexwZvaDj279pyAn+89XG+yidpYnqNWgkEWd+KWJsmAlIDCFIc19m4o0DyVh2+1nruCBBKCJBUKwmQaauRALmSPgJU6WCYANVKlshEXic0s26BpJ5DIDPcCZBr5mNQZayv/WrNIktlIRGFl2TqdAlNG1YM6j+wGF1sM1PMTo7qxxRuo+dxlesFC213wH5HbbPVLkcFedi86Jh9plvENA9UGKS/gQqjFeGS9OzltjnsiF0O2F/aGaO47/R03C7dC+yEWQeLJYlIdT8NaP3SHgAAAA==");
 
 export default DialHigh;

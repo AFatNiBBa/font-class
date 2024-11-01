@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dong-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dong-sign?s=light dong-sign}
  * @preview ![dong-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dong-sign.svg)
  */
-const DongSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M304 32c-8.8 0-16 7.2-16 16l0 16-80 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l80 0 0 107.3c-23.5-26.6-57.8-43.3-96-43.3c-70.7 0-128 57.3-128 128s57.3 128 128 128c38.2 0 72.5-16.8 96-43.3l0 27.3c0 8.8 7.2 16 16 16s16-7.2 16-16l0-112 0-192 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-16c0-8.8-7.2-16-16-16zM96 288a96 96 0 1 1 192 0A96 96 0 1 1 96 288zM16 448c-8.8 0-16 7.2-16 16s7.2 16 16 16l352 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 448z" />
-    </Icon>
-);
+const DongSign = createIcon("dong-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdgAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBdwsGAAE2AiQDCAQgBYMtBzAb9wTIhocPndn7kryT2BtkBYChYjqiFgiL1nMtQe35v+bzSzs6wM9HcCidiwIp8MznExhwlGXpQGYDO1GcbpMZ5FGFX0RIkEh0nB5fB8jiePRQIHmQ/IBr/UfjV81cIJGlAKIuAMYunj/TJ+UoR/xQeZP4wXQExDiQC6RI0VKAEVKBljI5MpmgHJVK/g/MCSCqyKcSkKGANdgEyEAizbK+LapLhVrZolKhuPl2Q1EMbHSnUSnER5O+GPFB/uzIDyd+PVrsiXtNgpxSjMTdxkVm6k0LzraIeNT55dKlji82e+BM0/sdXihe7PRS84ex4IFey7dJdbvX6r72e9sfNv2g99Pl2nXNQXjt8v7bTXl2zvgBhcKA8XOendJC7XK59h6fqGsxwOta+XOl+Zd8uWJHs2Y7Vnz5ZXNVlL3ZT3uCNdL7IBD8s+781dV1Rvxfo5SAX9778398daUcZ5LXUEMCgrRHpYcVcQZADSCbxCHtjJAFEkukIN9a7a4AoYgAiSpFAVIt1BUgU9RdgILWBgpQpWi+VGQ1hYZWLpCothekBjkJMg29DgpG+DpbpWGkMSZEiPDFS52koYnj8r69+uTD8mPRFMOGK8PDc7fb5RA3dcVam+y2ywEbbbDVAUXuM7Nw0E6TLGKiEOX66qWP3DD5deV9+SIb7bPfVrvtaqMMl7/PdHHI7twVQUJo+5mcSIik5obduzb3DE8A");
 
 export default DongSign;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `robot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/robot?s=thin robot}
  * @preview ![robot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/robot.svg)
  */
-const Robot: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 0c4.4 0 8 3.6 8 8l0 88 120 0c53 0 96 43 96 96l0 224c0 53-43 96-96 96l-256 0c-53 0-96-43-96-96l0-224c0-53 43-96 96-96l120 0 0-88c0-4.4 3.6-8 8-8zM192 112c-44.2 0-80 35.8-80 80l0 224c0 44.2 35.8 80 80 80l256 0c44.2 0 80-35.8 80-80l0-224c0-44.2-35.8-80-80-80l-128 0-128 0zm8 288l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm96 0l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm96 0l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zM224 216a40 40 0 1 0 0 80 40 40 0 1 0 0-80zm56 40a56 56 0 1 1 -112 0 56 56 0 1 1 112 0zm96 0a40 40 0 1 0 80 0 40 40 0 1 0 -80 0zm40 56a56 56 0 1 1 0-112 56 56 0 1 1 0 112zM48 224l16 0 0 16-16 0c-17.7 0-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l16 0 0 16-16 0c-26.5 0-48-21.5-48-48l0-96c0-26.5 21.5-48 48-48zM592 400c17.7 0 32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-16 0 0-16 16 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-16 0 0-16 16 0z" />
-    </Icon>
-);
+const Robot = createIcon("robot", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABzQAAALMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHyEEAsGAAE2AiQDCAQgBYMtBywbDAbIHoVxM30pLIwfs+giHv7R++/3SfLueit3jMxUsCurFdGRlX/3XXSwLub2P5PQkZS8rWFZRCJU8swRy1K5TmxM3Xzeq7HPl2liEUTcpRRIE5c7f3tfuG2Bvj/af9Pm5DXGeQIBPhatQb1IlhUmalmb8xAUEb4bkgh5xL6Qhu2hYeoMWfwtRJOcS97CEXnT+FpDO0mkKQBEDQAMnjJhvO8H8UHE7/+HeMtYICCGABQCKVI0EaCfVKCJTIFMJvgg/v8//QcWBBAlIJjYlaEqPscPjAokyhmVblQNRpnJqZblCpmq7CoLnVMGooyv1vcCcbHVbZXi3eZRYQRtn4cYiEb90uMF49YE4tINhU2OT9tnjeGHDbswtZyLWl1VC6HXK9OK6p7KZW8Ga7wmJ9qTcnY4TZfozNfxHMQJep6vCbsMJ59B7eTMJsvbqtbLuQiR46GOCsTWuhoqI0SOl3p6xHDqG/PogMMwInAvRTBHRBHPW2aAOFtHHWT/1E3++Fq8tfgtA1+epam2djdvVn6gsi1v1fdcq4aZu2VJjUVgcnwgJi+qQdYhtPVq3ommuSXb0kmbdq6quvbOfXifeDgXzDXV7718ea86c26pbe/ebUvMNT/8f//91w/uJVNqsEIN1fburTYXlhrqT3V65+10LvLtdzo1v0f3Ymj08yAQvP/egYdzqvf7tbJMAHz05Pu/HA///0qyNbmJSgkI0nb/tzMz2QqJH0AkibVU/KJA4n1lfNUqTgsQcgRIlOQCpBqrIUAm11aACs10F6AkNwEpMh5CHbM6nahiGZ3qYROdqeMRXaGfV8MldSJ1eI27an43M47QwPB1RecOnYo+xWXTqfVhqS73LR6bW63OQ62xVdvE2FJLU89SQXNKbGWkaAkLn03orINOCn0Uy51HYyVG5hZ6c936Kn0V7/tbWW1Pbg0bgaJdVCQSIqG/WQAA");
 
 export default Robot;

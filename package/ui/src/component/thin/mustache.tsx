@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mustache` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mustache?s=thin mustache}
  * @preview ![mustache](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mustache.svg)
  */
-const Mustache: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M235.8 112c-30.2 0-59.2 12.9-79.6 35c-34 36.8-91.2 41.3-129.9 9.6L13.1 145.8c-3.4-2.8-8.5-2.3-11.3 1.1C.6 148.4 0 150.2 0 152c0 0 0 0 0 0l0 8 0 43.7C0 307.7 84.3 392 188.3 392c45.6 0 89.7-16.6 124-46.6l7.8-6.8 7.8 6.8c34.3 30 78.4 46.6 124 46.6c104 0 188.3-84.3 188.3-188.3l0-43.7 0-8s0 0 0 0c0-1.8-.6-3.6-1.8-5.1c-2.8-3.4-7.8-3.9-11.3-1.1l-13.2 10.8c-38.7 31.6-95.9 27.2-129.9-9.6c-20.4-22.1-49.4-35-79.6-35c-25.3 0-49.7 8.9-69.2 25L320 149.6 304.9 137c-19.4-16.2-43.9-25-69.2-25zM624 168.9l0 34.9C624 298.9 546.9 376 451.7 376c-41.7 0-82-15.1-113.4-42.6l-13-11.4c-3-2.6-7.5-2.6-10.5 0l-13 11.4C270.3 360.9 230 376 188.3 376C93.1 376 16 298.9 16 203.7l0-34.9 .2 .1c45.3 37.1 112.2 31.8 151.8-11.1C185.4 139 210.1 128 235.8 128c21.5 0 42.4 7.5 58.9 21.3l20.2 16.8c3 2.5 7.3 2.5 10.2 0l20.2-16.8c16.5-13.8 37.4-21.3 58.9-21.3c25.7 0 50.4 11 67.8 29.9c39.6 42.9 106.4 48.2 151.8 11.1l.2-.1z" />
-    </Icon>
-);
+const Mustache = createIcon("mustache", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABgwAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCNQsGAAE2AiQDCAQgBYMtBy8bNAXIhofn7fg8980s4PkL0JWYpN0qokpQ83/N52dNB/iNDi0qF1ggo0zem8BEzxclWs9nM5oAz+/me06SlLclOamTNIznD8vfQx5/W64U6br0Ms7Wh4qv1XOcJMsARFUADJk1bYLHP4gPIl7+/x7iZeMQEENBIZChoKEA/WWC3kOuQC4XfBD//1/+AwsCiNIIJ1ouZ+7FSUAOkpTnQ7pUKFUpnxnOLz/v7v7Xd7+7be24UvOSI3EkhHhnyhsz3ptUJ2rFK6ky7a1ZIfT6zCO1r9SsGdf3vLftrT1PtK4ZtePG8kuEtwe/PP3diYoudI+enBl8qwd63dfupl4n27SJy3XaxU0V7mlzQ497+kXTG6ve+G3Jyytf9vWkD+KmLl0/e9G04dUyKKu9mDR8+KQYacIOO0wYaVIMHx6T2isLsmrDp73o3aFdbvrxh1bvf+Mb77c61rsZf1KM/qHK6Bis3IuGDXtRucFGR5UfYnQz9Lt49fuHN5dc6mzYsM4ulWx++PurF/sBAsGDt/99YFGV/r+WrZDARw9+/1e7Ix1ON6KsBIKs/f/tzU+HjQ0C6yl2aooPCiRbJXjUiq4IEMojQFJaeQEyDVQVIFdeOwFKaayHAKWVN00m8nJCTQsGSCraAjI9HQC5mu4CpfT3XK20mpG5IOtA7B9g0kgNjdhVdOnYuehbbNs651V0Xu9XHFutd8axNii00iYbbbfCcmtsV+RWE5o7bDDSIkb4okIXHXVW6Ku47j1LMyXaaluk1/z9Nv0U77PWdtqz28BNSNlVS5KIVPaDqC5ZtnoFAAA=");
 
 export default Mustache;

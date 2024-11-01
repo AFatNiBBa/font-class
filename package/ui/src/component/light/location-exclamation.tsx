@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-exclamation` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-exclamation?s=light location-exclamation}
  * @preview ![location-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/location-exclamation.svg)
  */
-const LocationExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 192c0-88.4-71.6-160-160-160S32 103.6 32 192c0 15.6 5.4 37 16.6 63.4c10.9 25.9 26.2 54 43.6 82.1c34.1 55.3 74.4 108.2 99.9 140c25.4-31.8 65.8-84.7 99.9-140c17.3-28.1 32.7-56.3 43.6-82.1C346.6 229 352 207.6 352 192zm32 0c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192zM192 96c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zM168 320a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const LocationExclamation = createIcon("location-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdwAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBbAsGAAE2AiQDCAQgBYMtBzsb9wTIjtRG+YWZRPCg99S8JAs4CxgViIM7gaW622t/1b7P/zWf3/OjfP7tyA4lGksPJJIzls8nMLHi0olEgc10Ara3DQssCsUbIkES0XiO2+oAWeyMVoqQXEo+xgn+0PhbDYdIZCmAKA+A/lMnjvb67/F7xMcFxMdGIiAGgFwgRYraAvSSCtSWyZHJBL9HoYD/gTkBRFFy4QRkKIopWATIQCLLslp1ypQoVaRMNqXtK7nw2z4Rr075utfLk/a1fqoSzZ9o+8xD34hSV9tFPNsv4vVWZ0servr0gDc7PF/3u4lfTf1m/BeTp5yrIs5WPl814kK1SVea3qtxsdH9mg0eL//4v/U/XvKxuYUY+DEfD4yB8fHHMbB60WKXL925263b3TuXHi/2f/W89o/8tYSlN6+ULXvl5tIlf/1YO8ZPnjw+xkemU+y1ub+X3afs7xCp9luV8eOrIBmIs/576vnv5pbr9ah4qQT8+eJH9DNSeCP2JY+juAQEaatCK7NiH8Q+AQBIYosGsQ+BxBgZvtbSzgsQSiJAoqiSAqRqKS9ApqSWAhRRV2cBiippolRkJYTKZitIlLYepLrYDTKVvQCK6OU9q6jKkYYXHxz84y5liIUGr8vbt2mX98iXuSFEDNuXe+bbarMtpdccdlpirTU2WWyR5TYZZIPR7marDfHgwb4o114b7eR6yI+r581TLLbBRsuttYZW6Sm/bzazxZ/cHIyEUHaQSiREUjku+60/rtDnr1YAAA==");
 
 export default LocationExclamation;

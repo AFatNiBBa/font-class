@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tty` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tty?s=sharp-thin tty}
  * @preview ![tty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tty.svg)
  */
-const Tty: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M336 237.2l0-88.4c-51.9-17.4-108.1-17.4-160 0l0 88.4L32 256 0 152.6C30.8 112.4 118.7 32 256 32s225.2 80.4 256 120.6L480 256 336 237.2zM160 148.8l0-11.5 10.9-3.7c55.2-18.5 115-18.5 170.2 0l10.9 3.7 0 11.5 0 74.4 116.7 15.2L494.2 156C461.4 116.7 379.8 48 256 48S50.6 116.7 17.8 156l25.5 82.4L160 223.1l0-74.4zM56 288l64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8 8 0zm8 64l48 0 0-48-48 0 0 48zm-8 48l64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8 8 0zm8 64l48 0 0-48-48 0 0 48zm328-64l64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8 8 0zm8 64l48 0 0-48-48 0 0 48zM160 400l8 0 176 0 8 0 0 8 0 64 0 8-8 0-176 0-8 0 0-8 0-64 0-8zm16 16l0 48 160 0 0-48-160 0zM160 288l8 0 64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8zm16 16l0 48 48 0 0-48-48 0zm104-16l64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8 8 0zm8 64l48 0 0-48-48 0 0 48zm96-64l8 0 64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8zm16 16l0 48 48 0 0-48-48 0z" />
-    </Icon>
-);
+const Tty = createIcon("tty", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABvAAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiEWQsGAAE2AiQDCAQgBYMtByobUwbIhofn7ao/91WNqmfpWkD+RCaGADIydcRIWU9cUz/5G3AlunsbykfasigKvBMnMMBRU1Ek+GxgM52AbXLdpIcU4u5D8RHyeMsuNaT706e4O/vQ+F0HN5BkGYBoDoDpa1cu9v6P8WPEJ9VXiE8sREBMB6VAhgydBZgkE+gsVyKXC36MapX9B5YEELX81yWQoyWB6ATIQdI8zzt1a9VAgRYiSlVqmuRryO7FzhDfrxKrYk08OPGthZ+s/W7+R+Pf6NA8YU2IdvHD6jYhxOpYG88u+XzNt4s+HVRtiVWVoiKEKIrwHZXubTyi6LTzMNudVtdYtBEqUSHrdO1R7NbO7/Fk8yf/7P7pnk8t/Xqdb1/aga5a5+6Wuu3x28COvUfNAtKjencc+FuL6/M/t7bRjz9hVSe8+gmNFjjVVPvlrnnppU0JcIl+TY1vL16w97Zp0+bVm6Zefea4OszX0U6vDk86dyo1/D21vv59+HW9ysDH8MeaXUWXofPkDZPubbYfsLUi534gEPxy89RpW5tN+qe+ksDPb/79e/YzUv0xSU+iXgJBNqg6yKYEEgEASHFGjwSB5H/N+e/a6B4BQoEASa1CgEwnzQXIFQYKUKOr0QLUKqyUibxBaG1zZUgaHTdkxrhsyLX2kqHGJB9karWO7KSQrLR0TZo+pwnPnlUOHzKsnFCOFhSyPRf04MRysaPfGd7QH661x1FHnLLbLvudajAnLM6fdticKWy2LyoNN8QwpQnKzeW7+hqcOeGk/cPq9mkmKo+P9HNmun1/6E58myMkkuTfyMFTp84DAAA=");
 
 export default Tty;

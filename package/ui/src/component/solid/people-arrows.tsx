@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-arrows` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-arrows?s=solid people-arrows}
  * @preview ![people-arrows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/people-arrows.svg)
  */
-const PeopleArrows: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 64a64 64 0 1 1 128 0A64 64 0 1 1 64 64zM25.9 233.4C29.3 191.9 64 160 105.6 160l44.8 0c27 0 51 13.4 65.5 34.1c-2.7 1.9-5.2 4-7.5 6.3l-64 64c-21.9 21.9-21.9 57.3 0 79.2L192 391.2l0 72.8c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-115.7c-26.5-9.5-44.7-35.8-42.2-65.6l4.1-49.3zM448 64a64 64 0 1 1 128 0A64 64 0 1 1 448 64zM431.6 200.4c-2.3-2.3-4.9-4.4-7.5-6.3c14.5-20.7 38.6-34.1 65.5-34.1l44.8 0c41.6 0 76.3 31.9 79.7 73.4l4.1 49.3c2.5 29.8-15.7 56.1-42.2 65.6L576 464c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-72.8 47.6-47.6c21.9-21.9 21.9-57.3 0-79.2l-64-64zM272 240l0 32 96 0 0-32c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2l64 64c9.4 9.4 9.4 24.6 0 33.9l-64 64c-6.9 6.9-17.2 8.9-26.2 5.2s-14.8-12.5-14.8-22.2l0-32-96 0 0 32c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-64-64c-9.4-9.4-9.4-24.6 0-33.9l64-64c6.9-6.9 17.2-8.9 26.2-5.2s14.8 12.5 14.8 22.2z" />
-    </Icon>
-);
+const PeopleArrows = createIcon("people-arrows", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABnQAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCbwsGAAE2AiQDCAQgBYMtBzQbcwXIhofn7fo691V9uX8PVGNwhUwIIUZwNNnK2Tq16n+uqZdBB/iNDiVXlslR3vl8AvcGNGtMG8lwNqEJDpy3uO3miHhojJC4QB7/ZFerId2Z3sb14UXjG71cTdKQAYh2ACzcvnmt01/GlxFvlS8Qb1mNgFgICoEMGfoKMEcm0FeuQC4XfBllKf4DCwKIWvHPTCBHHe7CQ4AcJDV53jKiZdioppqWfFtTTePu+0c/PfLJfveMeGLUU/233D064unhTfHCyFsqG+IOl/eaG+KOyi1DGuOx6m29Ix7rfVefwYdPZG+rPj1duB8dbdJrYNzZ844hbtv8uDuu6L1pi7CjOuL2Hrd3b5TRDXHLGlLVsFvjrsiKTXFXn82xfNGt3YOean/qu4FvH3vb/Muyr3/66eus+KahT4zbwuEfx3jwnEmTSj9Vqz/9b6XsnU8nFCZ8+k52oWnPPNM98dEnznjbrtvpvexGV/nj4S3jJupeXZ12oUus9P8t2fL+4UV80QGFtk8+ebX0/vulVz7+pK0wFT5+hXn1k+eBQPDGJXta97fN+a2+KYGvX/3hz+qxSnk6nZmeQr0EgmxMOcaedPkGo2IrIM6luNgg/E4CyU1q4LPNbhMgNKKDpFYjZPpoh1yj0VCjv6nGwTObZSJvECr2wpA0Ow8y01wCuYrnoMYcr+VqVSKDTwu6rN/DPMuG+FK7YuK4CcWsYrWlcYCcYVdnF4d9Iy6WIyPxQcec42wXOuqIky4cKOdbW7zIWZZtyUt9UGGicSYozFJc7j7dvc1R57vASec4268zW/F8aoSLt6ePxMEkVp2kJklEanml42MPnv8JAQA=");
 
 export default PeopleArrows;

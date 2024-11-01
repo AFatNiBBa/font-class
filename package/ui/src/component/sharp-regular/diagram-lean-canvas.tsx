@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-lean-canvas` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-lean-canvas?s=sharp-regular diagram-lean-canvas}
  * @preview ![diagram-lean-canvas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/diagram-lean-canvas.svg)
  */
-const DiagramLeanCanvas: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M512 80l0 216 80 0 0-216-80 0zm-48 0l-64 0 0 88 64 0 0-88zM352 80l-64 0 0 216 64 0 0-216zM240 80l-64 0 0 88 64 0 0-88zM128 80L48 80l0 216 80 0 0-216zM48 344l0 88 248 0 0-88L48 344zm296 88l248 0 0-88-248 0 0 88zM0 32l48 0 544 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32zM240 296l0-80-64 0 0 80 64 0zm224-80l-64 0 0 80 64 0 0-80z" />
-    </Icon>
-);
+const DiagramLeanCanvas = createIcon("diagram-lean-canvas", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABdAAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCFQsGAAE2AiQDCAQgBYMtBzobHwXIhofv18o/93Uv9YShQzwbZHJAPlGk4tcmrOK4/LqARfUBZ+Ka+mHRG+CHbeJDikyLBOk6n8AAZ6lVQrPhbKI4ReeGUHdkISn+e8jjn7irjvQwfcSd9KHxTU+3SeoyANEBAPO2bFjl9ef4HPGh9pT4YAUCYh4oBTJk6CPATJlAH7kSuVzwOWo19R9YEkDUA5LcnaMNjuMCIAdJkedNxNCRpip1bfPNorQ4IlQCQJGsFKJuVdm2rjTsEyoVCIfp0e1FClG0i8gitoUoQlS27Fg+sKVDy48BHw9/VDvTCvFardZW54q3mmvr2bnG1hJo1Q2otWvXAmsDaxq2Qu5PW/05bMufymKXrVvuVKvXq/aqqq4lzl8NW4G5KXM/rZkL11rN6yAQND9aPnRP+5m/NVYS+Prq1y/84trndD21oFECQTa6NtrOdB2UbADZFJcNXPiiQLJfAe/axj0BQoEASb1CgExvHQTIFUYJUKefSQLUK2yQibxJ6GJXwyVtnOMyk13hcl085urM9CZTr0tkt5zmhtH88WVc3IUXLSqbx1bL6eVsTaW9i1R+dka52Tn8su4ZQTc67IzTLjrkoGMudqTnrcpfcsriJXKRHyo1G6uqNF15uPlw9WaHnHfBMWecjvPMUF4fHe7y8vAR1JNA4XhlSSJS5+9D6ZiTh/adHnPAhi7vuwAAAAA=");
 
 export default DiagramLeanCanvas;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brightness` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brightness?s=sharp-duotone-solid brightness}
  * @preview ![brightness](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/brightness.svg)
  */
-const Brightness: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 224l0 64 32 0 48 0 32 0 0-64-32 0-48 0L0 224zM50.7 96l22.6 22.6 32 32L128 173.3 173.3 128l-22.6-22.6-32-32L96 50.7 50.7 96zm0 320L96 461.3l22.6-22.6 32-32L173.3 384 128 338.7l-22.6 22.6-32 32L50.7 416zM224 0l0 32 0 48 0 32 64 0 0-32 0-48 0-32L224 0zm0 400l0 32 0 48 0 32 64 0 0-32 0-48 0-32-64 0zM338.7 128L384 173.3l22.6-22.6 32-32L461.3 96 416 50.7 393.4 73.4l-32 32L338.7 128zm0 256l22.6 22.6 32 32L416 461.3 461.3 416l-22.6-22.6-32-32L384 338.7 338.7 384zM400 224l0 64 32 0 48 0 32 0 0-64-32 0-48 0-32 0z" />
-        <path d="M160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0z" />
-    </Icon>
-);
+const Brightness = createIcon("brightness", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABnQAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCeAsIAAE2AiQDCgQgBYMtB1AbmgXIjsQ4JvGLWNDi4fm1Xs99M38DQBNgVAiowgoAXKKwRKuqy5Jk9db7/8Q1z//8G7DpxR+tepUga48onsDA156WwBOa6Qxsfju/t6BENyhJdwr+9w3TGcZ/gjx+zs6qIt1IZVyO/wMY/2jhLEmNDEDUB8D4BXOm+fyP+CNFufKWKJuKgJgACoEMGVoLMEom0FquQC4X/JEq+SMqCwKIkvjGDJRQC7fwGJCDJFTP81Y1GlBBjVpVdfL56ZE1F5xqFXGr67Na5zs/aXHDyebXOz2uea7L05Y3I4RatSJqzu/eo3v3cOjY6MEelUaPGd0zkDHRjbZEEGitiIU1kxi4ZH5g2ugsOHVDh5f1X/7Xvry+7N5nLb/hm6VbW7TYuvSbb1qyGhPxxzjiFDPHKVqfmF9UsU7ZfNkzroyidSrmK0Pk9b0CRf0Uxilg4BWxcHe9BwPtDI26d+5+IBCMGlvzlxX1Rv1fvVYCf73zd/4hqXyepJeoLoEg61XpZWkCiQAApNivQ+I+ApmDqqNPre2qAKEmAiQlNQXItFJfgFxNPQWo0tZgAUpqmiMTeQ2hsWWVSGrbRWSGOEbkGntDVBnlu1RJ48i0VNIx6R8xfQoHJq8q+vfpV4woujVFVjzBz44slr3d9tue7jhqvR2222udtTbZy/DdpmX32WbKCJzsiwr99dFPYYTidfN2/3zr7LbHJjtsD8uMVHyf7Gb/eHh3BBLiHWBdJiNSZA1XX97s9nV79vTW997GUr3ZAAAA");
 
 export default Brightness;

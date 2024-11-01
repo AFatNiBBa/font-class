@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mistletoe` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mistletoe?s=sharp-solid mistletoe}
  * @preview ![mistletoe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/mistletoe.svg)
  */
-const Mistletoe: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M312 24l0-24L264 0l0 24 0 94.1-98 98L91.3 230.4C38.3 240.6 0 287 0 341c0 41.4 33.6 75 75 75c50.5 0 94.3-33.5 108.1-81.2c7.2 10.4 19.3 17.2 32.9 17.2c22.1 0 40-17.9 40-40s-17.9-40-40-40c-7.9 0-15.3 2.3-21.5 6.3l5.4-28.2L264 185.9l0 72.4c14.7 13.2 24 32.3 24 53.7c0 39.8-32.2 72-72 72c-7.2 0-14.2-1.1-20.8-3c-2.1 8.4-3.2 17.1-3.2 25.9l0 9.1c0 53 43 96 96 96s96-43 96-96l0-9.1c0-25.1-9-49.4-25.3-68.4L312 284l0-98.1L376.1 250l14.4 74.7C400.6 377.7 447 416 501 416c41.4 0 75-33.6 75-75c0-54-38.3-100.3-91.3-110.5L410 216.1l-98-98L312 24zm64 88a40 40 0 1 0 0-80 40 40 0 1 0 0 80z" />
-    </Icon>
-);
+const Mistletoe = createIcon("mistletoe", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABgQAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCHgsGAAE2AiQDCAQgBYMtBzAbHgXIhofv6+o792U24PwSB4CrdwM49pDXNf/X1AtrOsDP5571/EDKa13PJ7Dn1d40odnhbKK43dmCKU17HNJaWZLj0Y7XFfL4NLtQBem29CGuaTmNX/W4kKQmAxDNAFixyw5bvPpVfBXxQfkp4gObEBArQCGQIUO/AItlAv1yBXK54Ksol/N/YEEAUYmxxMzDk8fjTEAOkpTnezXUVTTkO6eNtYeEqA0hdizPPzn+0f7bJjw25plJw0M3jbmi65Y4r/Pm2svb+2KHEI8N3GrFRl/eeSNx1wYyRwnKTFwZEdvFThp6JN5398TS3J1j54j5f6Tvjt7bxz7YfWvPbWNGlppLv4/48OAPzXuku7t7um57228/GxucetXV1U2rV/+171tvPfDK8pbh51tanh9uqb9ok7L1DtQ4a9ZXdddPbqhRXSqde26pVF1j3JU/2F9Z40anfPTTuX+tXt1UffVVp2xstN9+9l62y76P33DD4/v294FA8Ptuv9fv07T4/+q6BL55/s/f8XXlV9PyVEK1BIJscnmyPdNyAHYAQYqTjTS+KJAcLuFPrXezAKEWAZJKtQJk+jQLkKs1SYAKg+YIUKnWDjKR1wjt9pogqXccyMx1Fsi1ewJUWOwdv1J7ZH4neI3w60tdK9E1s4oZU6cXC4tlxRBdiauTi4ptd/zJ2DEBLjrYMY52ooMc6DAnCuZ4W6KTHGWtRa/xQ4UZppqusFBxXF+f3tlBjneCwxzjaJpmkeK+N97Jdv8JMI8EmPliHG6NVHPUYSeceORBJx5zEAA=");
 
 export default Mistletoe;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-desk` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-desk?s=regular clock-desk}
  * @preview ![clock-desk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/clock-desk.svg)
  */
-const ClockDesk: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 224A176 176 0 1 0 48 224a176 176 0 1 0 352 0zM224 0C347.7 0 448 100.3 448 224l0 240c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 224C0 100.3 100.3 0 224 0zm0 96c13.3 0 24 10.7 24 24l0 94.1 41 41c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-4.5-4.5-7-10.6-7-17l0-104c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const ClockDesk = createIcon("clock-desk", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbwAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBYAsGAAE2AiQDCAQgBYMtBzEb4QTIhod/7Pq6r6r6nwFQYzsCEcoLKl+nUtrzf7PnPY8C/BxBaGPa0kAW0N7PE0isl2+Cugl2eoJ2LGfeMsd6pOybTDRJj9+xx6sZsrgeZxRIriaf43R/0/hFbQdIFFIAUQkAg2ZMGeftH+PHiM+KLxCfGYOAGARygRQp6gnQVypQTyZHJhP8GMWi/gbmBBAl7H9JQIYCpmE2IAOJNMvqNqxatlA+m162UGbJ3vYRj3u/WuZYz5fbPrSn3aNer5Q93ue1Dk9i+gejIj7pFPFMI3Gl2oWm5eJ2jUt1Im50eW7MZyPcqi36xdVaN5v3j0sRcb1F4/uV7v/W6PPlnzv9Q8cdrDh8uX37y4dX7OjYcce8zSc//Fiftu/yTYU/pV9823Ghjt9+kf6pwjfvtq3/48JJ1ec74uuvy5cvWl5mpeqTgEBwZM2zhxdU7PtfqbIJ+PnVP/6Hw8W34+3kPkpJQJC2LbY1N94GoAP4Skls1zjeRiAxTgpnLeeSAKEMAiRKlBEgVVclATJltBGgoIFuApQoY4pUZKWFauYBJMrZBFLd7QSZap4DBX19pJaoFimxSFqQ37q44R4aNpR3at8x751vPYPiCl67ffJjoeX2kmklk5bbYL2tlllqla0O2Wycsc06wyN4mA/KddJeR7ne8uvwdXy6ZTbbYpUN1rc+feTvlZa2x+WtRE4YZmemREIkZZKQb5fUAAAA");
 
 export default ClockDesk;

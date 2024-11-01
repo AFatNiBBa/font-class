@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bolt-auto` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-auto?s=regular bolt-auto}
  * @preview ![bolt-auto](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bolt-auto.svg)
  */
-const BoltAuto: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M317.4 36.6C322.6 18.3 308.8 0 289.7 0c-6.8 0-13.5 2.4-18.7 6.9L11.8 228.6C4.3 235 0 244.4 0 254.3C0 272.9 15.1 288 33.7 288l86.4 0L66.6 475.4C61.4 493.7 75.2 512 94.3 512c6.8 0 13.4-2.4 18.6-6.8L371.7 285.6c7.8-6.6 12.3-16.4 12.3-26.6c0-19.3-15.6-34.9-34.9-34.9l-85.2 0L317.4 36.6zM72.4 240L253.6 85 208.9 241.4c-2.1 7.2-.6 15 3.9 21s11.6 9.5 19.2 9.5l81.5 0L130.3 427.5l44.8-156.9c2.1-7.2 .6-15-3.9-21s-11.6-9.5-19.2-9.5l-79.6 0zM464 288c-9.1 0-17.4 5.1-21.5 13.3l-88 176c-5.9 11.9-1.1 26.3 10.7 32.2s26.3 1.1 32.2-10.7L410.8 472l106.3 0 13.4 26.7c5.9 11.9 20.3 16.7 32.2 10.7s16.7-20.3 10.7-32.2l-88-176c-4.1-8.1-12.4-13.3-21.5-13.3zm0 77.7L493.2 424l-58.3 0L464 365.7z" />
-    </Icon>
-);
+const BoltAuto = createIcon("bolt-auto", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdQAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCBgsGAAE2AiQDCAQgBYMtBzAbBgXIjsQ4hvKdtmgRD8/n9XXuS75SbaRNjoHV7OA1xG1l7e7+1KnnsU2h8J9HOGhj4dKNC3yunlegwGPT8mquXivWKordnW1pjjXNJQmyJMe34/WAPD6Ja9WQbkvv4Zr0ofGL9i4kqckARDMATFuzYpE3vowvI96tIt61AAExDZQCGTJ0EmCiTKCTXIlcLvgyqlX6DywJIGopnMyfoxbbcAIgB0me571bt62r1DTOV1dqij23tIm4uc3lrbbGjc5tfVOlEivjRjzV+oq2O+KWOK/NzUURa1Yyu+J38hphcfZtN7ZaGbf2eqhjx6hE+7itzyMdVsfNhWHDhxUxovvjzR7/rdt7u98z8fbJp3PZR5WT02dea9r01suarjbydYEj+sdeb9b0ttuarvL+fcft+cLAOwzYu6/Rcq/cYeCd7cqllwz56MCaZ5zYcfZ9H9vvY/fN6XDi4BxssvhtpcZ721OB4Iclw07c0nTif/WVBL5+/Y//lZdVS7PS46iXQJANrA60MU2lepolAAApTtbd+CaBZJ2cvmsjNwsQCgRIahUCZDpqJkCuMECAGl2MEqBWYYVM5A1CK5saSBo5BjKjnQVyrbwAakz0pl+rVWS+xnsK/9NLmd1Ds1aVwwYPLceX21gV3IflxQnlsdr35FjrByftdsRhJ9plp31O7MjjFkUnOWS2RczyQ6VhBhuqNF55nT0fXm2X406wzxGHZZkJyvdmXyfb3f3ASJRxuPVJIlLD9iMHTxzk3AA=");
 
 export default BoltAuto;

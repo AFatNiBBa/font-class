@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-1-9` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-1-9?s=sharp-thin arrow-down-1-9}
  * @preview ![arrow-down-1-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-down-1-9.svg)
  */
-const ArrowDown_1_9: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 475.3l5.7-5.7 112-112 5.7-5.7L272 340.7l-5.7 5.7L168 444.7 168 40l0-8-16 0 0 8 0 404.7L53.7 346.3 48 340.7 36.7 352l5.7 5.7 112 112 5.7 5.7zM368 32l0 16 8 0 48 0 0 160-48 0-8 0 0 16 8 0 56 0 56 0 8 0 0-16-8 0-48 0 0-168 0-8-8 0-56 0-8 0zm60 240c36.9 0 67 29.4 68 66.1c-.2 9.2-1.8 18.3-4.7 26.9c-10 25.2-34.5 43-63.2 43c-37.6 0-68-30.4-68-68s30.4-68 68-68zm0 152c9.2 0 18-1.5 26.3-4.2L405.7 480l20.6 0 62-76.7c7.9-9.8 14-20.9 18-32.6c3.7-9.5 5.8-19.8 5.8-30.6c0-.6 0-1.3 0-1.9c0-.7 0-1.4 0-2.1l-.1 0c-2.1-44.5-38.9-80-83.9-80c-46.4 0-84 37.6-84 84s37.6 84 84 84z" />
-    </Icon>
-);
+const ArrowDown_1_9 = createIcon("arrow-down-1-9", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABfgAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCKQsGAAE2AiQDCAQgBYMtBzUbLgXIhof/t+v7fW5V9wNU0yP1G0FfYMZIUgauXIgY/Yjzf02+a7sG/EaHFoWRi8ICz3w+gQFuVNw60GiwmU7AtjtbK5JoLok1WZLjs+OzgTy+crwS6c70GW7JHxq/6nM9SZYBiFYArNy/e6sPvo/vIz79/1XiU5sRECtBIZAhw6AAS2QCg3IFcrng+/j/f/cfWBBAlNEZJZCjjAtxDSAHSZ7nY3u6RhpKTfm+hlL93p7Onv3RE93RGXsii4j6ECn2ieVdsTe6DhMaGkR9vUAorAik9zw6+cgn+67uvKPzkfrHpjzVf/fUpye6oWdFNMT+uH3g9rimhBH3zU8775VJTwzeO/nJuZWnWp/6fcxnJ37m/v49e/acdZa1nrLHMce6Va1WtW4dZu/xlLXOOsueL99qpTm11QdUa1vVXhzI6hP3qzb784UxzGpo3nLu3w3dH1QqjY2Vygd3NL/8t05Lt3hvx5GtERG0XXhCUT3pwiy76MQqEAjeerLpl6NalvxV25DAj2/9+Wv9GVX+/z5JT6FWAkE27f9pDk8rVKxIBAAgxYUqaYXxAsmZcnStjW4TINQjQFJWL0BmQKsAuXpTBSgZNleAsnq7ZSKvEzod0UHS6ByQmecKkOv0MihZ4sN8WWdkxqeYjvL3y1zHkbXTitEZ1WJRsSxrqj1JcXxxsW1NutC3TYaVTnSWM53vBMc7xflMONfW0gXOsE6j1vqiwqgZqgqLFMe15eJ9TnCu85ziLGemSRYr7icnuVDvPRnchERnWZMkIjUfc+65Z100/Unmpo9OXwgAAA==");
 
 export default ArrowDown_1_9;

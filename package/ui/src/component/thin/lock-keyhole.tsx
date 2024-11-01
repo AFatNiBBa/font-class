@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lock-keyhole` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-keyhole?s=thin lock-keyhole}
  * @preview ![lock-keyhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/lock-keyhole.svg)
  */
-const LockKeyhole: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 16c61.9 0 112 50.1 112 112l0 64-224 0 0-64c0-61.9 50.1-112 112-112zM96 128l0 64-32 0c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-192c0-35.3-28.7-64-64-64l-32 0 0-64C352 57.3 294.7 0 224 0S96 57.3 96 128zM64 208l32 0 16 0 224 0 16 0 32 0c26.5 0 48 21.5 48 48l0 192c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-192c0-26.5 21.5-48 48-48zM240 320l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16zm-48 0l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-    </Icon>
-);
+const LockKeyhole = createIcon("lock-keyhole", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiQAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCOAsGAAE2AiQDCAQgBYMtBzMbOwXInoexG2KRQn/RvHrCKB4e7Hr/3MFLMvuMCeSJ9IkOgovuuxXaLGPANQiNg8n5XghfIfrzf7nn9/zoAL/RoY1pc+OYeLRW63kCifXySLPAAjmCBCyX3jY8OqrwNEQkSEIaT4j4PSGLux0iJ7kz+QbX9zeNX/W5hESaAohWAKzpnjt88FP8FPFN/VXiG9sQEGtBKZAixaAAK6QCgzIlMpngp6jX8TewJIBowP/KBGQYhfNxGSADiTzL2qb0N3fX8qZsn1peHPjq1Ignh0QREfdPf3rxXkIRj0x5olfcOfXJiU3x+PSnByLumvbUpCIiHlr13saveKfcq1Y0Pdp1a5+4o/OWCY3xWPdt/RF399w+eW/hls7buiNu77m1qxAu6Lq1dnXP7RFxYfdtxVWdtxj3VOtTv/vmsG/8+PzY2VL5SaVlp7/OP76qqtIDbW3FB4q2tgcq3adUyRes2223dQvykV3Lsprz3bfpB9Jvv5tTUe75eKn5p5+aK4ObY4wrrmiuSkX2AwLBp0+0aS0r/h9dS8Avb4nfovoH8UHyFEZLQJDOqM9wUD6A+EAAAJI4zbj4AIHE6XL8qo1uEyAUCJBoUAiQGtAqQKYwXYDcsIUCNCjsKRXZGKHTwQoSjU4EqUXOBZlOL4PcCp+HDTojTUIihYgvYOxGC224Vc6dNadcVi5rQuYVVi6Xl9v8lNNoNhUeOszxjnOKQx3iSKcY5CQ7klMda6MHb/BBpblmmaO0TBnunu/v41AnOdmRjndcu2a58rw9xWn+9lSQEow6TyWREEnj5QhmHn3omW8BAAAA");
 
 export default LockKeyhole;

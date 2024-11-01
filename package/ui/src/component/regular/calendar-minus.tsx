@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-minus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-minus?s=regular calendar-minus}
  * @preview ![calendar-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/calendar-minus.svg)
  */
-const CalendarMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 0c13.3 0 24 10.7 24 24l0 40 144 0 0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40 40 0c35.3 0 64 28.7 64 64l0 16 0 48 0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192l0-48 0-16C0 92.7 28.7 64 64 64l40 0 0-40c0-13.3 10.7-24 24-24zM400 192L48 192l0 256c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-256zM296 352l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24z" />
-    </Icon>
-);
+const CalendarMinus = createIcon("calendar-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABcAAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBZwsGAAE2AiQDCAQgBYMtBzUb7ATIjtRG+UVWEg/fr/me+3bz55d5y4wOyAOhrOO4ohGZ2k5la1O17/N/Ob53z48O8Bsd2lgLZIGO2ZgCPQ/wtGzRBkmzwDJNwHrbECFHEJ6GhFSJROPleJ3OkMfduKREup1+4WL50PijjQskpQxANAbA5JVL5ytXohLxs4r4aS4CYjIoBDJkaC/AOJlAe7kCuVxQiWo1/QcWBBA1+JUJ5ChhFTYAcpBkeT68QcN6pQb5inqlumuftxH1IuJuT/Ge936N+0WKW71edasfL/q8aZtFmGHftz1dB22u36B+iustGsTNVtmyuvXqvmh7d3zB8za3unV50/jN386/dvxy+sviFr1c0kuLxTLcy6MmTeo2Ngh1xXg0SUPgxkIvl9voyyYepGFlkkpDOx9eYnVxi5F+SX0eCASbZuy/vLHRuH+19RL4/f5/+hmplqOc3qBWAkHWr9rPuihDlAUAIMUJXaKMQLJIBt+1vhsChLoIkNSoK0CmncYC5OrqK0BJR8MFqFHXUpnI6wjNrW8gqe8wyIxwEuSaewdKxvka12geWWyRkUE+7eJmaHj6tmLwgEHFmGJZEipc8Lw+tnBrvU7QWG/YaYeDDjhmu212O6bQI+Znx+03w0Km+6LCYAMMUhij2G7uuRXoHXGU8Dm1v4mxivNRLyfs2b3BTBhziFySiNTw6kn9v6TnjwI=");
 
 export default CalendarMinus;

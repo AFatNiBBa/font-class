@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `address-book` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/address-book?s=solid address-book}
  * @preview ![address-book](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/address-book.svg)
  */
-const AddressBook: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 0C60.7 0 32 28.7 32 64l0 384c0 35.3 28.7 64 64 64l288 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L96 0zM208 288l64 0c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM512 80c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64zM496 192c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64c0-8.8-7.2-16-16-16zm16 144c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64z" />
-    </Icon>
-);
+const AddressBook = createIcon("address-book", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABgAAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCCQsGAAE2AiQDCAQgBYMtBzMbDAXIHoex46UkG8nSvZN4+H4t+3Nfd6ayYexlRgefPBBKYofGTMV+YD1FyFwh+PN/uef3/OgAP9AJHsoatLZvX6u1nieQaD6tRLLAMk3AWtx2FUQ0NBYaF8jjq4wq0vMpHg0fGr/q9gjJsAxANAFg+d6dm31fjnLEL5VPiF9sREAsB4VAhgx9AiySCfTJFcjlgnJUKuI/sCCAKElel0COapzBVUAOklKe97TU1/Ggtqo+36Mfrjn41riI97pSPD/+/dH18e7ED3uzeGHCB2Pq9tfW1H6ykOl/qq0mnul4dVGeu4cQE+ulce/tSQMnI77aEk+3P9sZu1ri1OLuxQdGfND0we+e6eh3rzXTXPOAmubm1wojTlhXB5clFzad3hMN5e+VG2LP6abBo9nQ338PZSVq69WGcrlhGbPxakfgw8ZHl58HAsGpLw40H21c9H91bQJDX/7Z/4yKyvdJ+gDVEgiySZVJDiUKEgEASHHHiEQhkBxRkrxrnWcECDUIkJTUCJDp1SRArsZEAaoMmC1ASY2dMpEPE9oc7kFS5zrIzHEX5Np8BKos8kNU0hYZsNGgQv/rJawZQ6tPFdOnTCsWFJudloEf0h4uLE7L4+7IhfH4rDOuuuKW004579YIuWFzettla/bg1b6oMN0U0xQWKG6Pz609Tpeym2Ninbt/zELF+/44d/bXj8dakmDOUEsSkeq+SnEyNAIA");
 
 export default AddressBook;

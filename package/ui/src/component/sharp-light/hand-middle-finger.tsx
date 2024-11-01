@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-middle-finger` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-middle-finger?s=sharp-light hand-middle-finger}
  * @preview ![hand-middle-finger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hand-middle-finger.svg)
  */
-const HandMiddleFinger: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M208 0L192 0l0 16 0 176-64 0-16 0 0 16 0 36L38.4 299.2 32 304l0 8 0 51.5c0 53 29.1 101.7 75.7 126.8l8.3 4.5c21 11.3 44.4 17.2 68.3 17.2L320 512c61.9 0 112-50.1 112-112l0-96 0-48 0-16-16 0-48 0 0-16 0-16-16 0-48 0 0-192 0-16L288 0 208 0zm80 240l48 0 0 16 0 16 16 0 48 0 0 32 0 96c0 44.2-35.8 80-80 80l-135.7 0c-18.5 0-36.8-4.6-53.1-13.4l-7.6 14.1 7.6-14.1-8.3-4.5C86.6 442.6 64 404.7 64 363.5L64 320l48-36 0 60 0 16 32 0 0-16 0-80 0-4 0-8 0-4 0-24 64 0 16 0 0-16 0-176 48 0 0 192 0 16 16 0z" />
-    </Icon>
-);
+const HandMiddleFinger = createIcon("hand-middle-finger", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABeQAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCOQsGAAE2AiQDCAQgBYMtBzkbQgXIjsK22TNiDEkSI4fLwHhwRTz9Wtlv9h/NXBgtAAoJqFMeWCG5sCVygMKsEVdxhDbrF/u1t2e6Z76nimhVT2LSaNqiV+Y3Iinhifm/pt89jwb5QOeWzXcriwTKfD6BPW9K3Dzx+MBmE8VZO90vBpFNQsqHpJ0fNrlDyS2aSUt1Q9UGV1yi8kXAFZXSApChAGDd1qkRKAMZSNqdF9I2BAJZD5iK0MJHJiKwklowkcZUUBRhIJ0O9H+gQIB087FVoKDgOM4ACqhUpSzZYNYOKlsabb2zNtciNbBNcV+Xo+UnHaPogbnJi+KjWLBY1+Bq6kakufF27n5znfOZkTQmo3M3eJOSNeGGQkHTEBtxePpDfvgRb2+0vX9gZHBvLT6QMrAY0wwWys2tN87wnbrDz6//9iU1jOeygpTwZ62Wf1KwhLbs4jtMvLhv35nXT/+xEv7QjQk2TqNXMXZD7t5c448DBOHOiEXzi/bufwZzBT6+/voJ8UlHyXPVQ9CrAqE1s1MyF4XgPEcAAFUOSDBfRKgcoeKT2u+qgKgRUOlWC2iZgBEoajMQ6DJZCwLdahuppfSJkeYTqPTbDVoWuwTFSE+gy0pv+W4j0xJCUYTEN2Babwn3rJJ6pSad0myIklzxZrFLur3chR7I4yw2HDpwZt2abWcFdWKkdG5fL4f0+CFRV1EjOsl0+/r4rHUnTm07dGCX6SLrw5wLfnwe61EB5h9fXUWq4TJrlq+7Vf5xBAAA");
 
 export default HandMiddleFinger;

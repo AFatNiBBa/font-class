@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `party-horn` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/party-horn?s=sharp-solid party-horn}
  * @preview ![party-horn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/party-horn.svg)
  */
-const PartyHorn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 32a32 32 0 1 1 64 0A32 32 0 1 1 32 32zM448 160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32 256a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM150.1 136l17-17 8.3-8.3c16.7-16.7 27.2-38.6 29.8-62.1l3-27.4 47.7 5.3-3 27.4c-3.8 34.3-19.2 66.3-43.6 90.7L201 153l-17 17L150.1 136zM359 311l8.2-8.3c24.4-24.4 56.4-39.8 90.7-43.6l27.4-3 5.3 47.7-27.4 3c-23.5 2.6-45.4 13.1-62.1 29.8L393 345l-17 17L342.1 328l17-17zM503.5 42.3l-10 8.5c-14.8 12.5-33.7 19.1-53 18.6c-16.6-.4-30.6 12.4-31.6 29l-1.8 30c-2.5 42.5-38.3 75.3-80.8 74.2c-7.6-.2-15 2.4-20.7 7.3l-10 8.5-18.3 15.5-31-36.6 18.3-15.5 10-8.5c14.8-12.5 33.7-19.1 53-18.6c16.6 .4 30.6-12.4 31.6-29l1.8-30c2.5-42.5 38.3-75.3 80.8-74.2c7.6 .2 15-2.4 20.7-7.3l10-8.5 31 36.6zM32 512L0 480l38.5-98.9 92.4 92.4L32 512zm131.5-51.1L51.1 348.5l23.2-59.6L223.1 437.7l-59.6 23.2zM255.7 425L87 256.3 112 192 320 400l-64.3 25z" />
-    </Icon>
-);
+const PartyHorn = createIcon("party-horn", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABrQAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDNAsGAAE2AiQDCAQgBYMtBzEbtQXIhuBB77+fk+TJeXt3nZVUwaz2A2DLjpW6e3BN/v9VUIGc0aMsErOwgSJSJzDgKIsokYENRzoBGwRt7h6YuIVmIW0OWbyanqeC5ObkM1zpv2n8rpPzSNSkAKIZADNXLVvqrZ/ip4hPy88Tn1qMgJgJCoEUKboKMEUq0FWmQCYT/BTlsv4fWBBAVAppibUz1OFZfALIQKImy9pCfnv70BpXXUVDtjL9jtp1Z5cibqy7tP16Z+XX1V7S4YbY0lesaFVFGIJZgX6LnYMHDC7Foz26xNjoGHdNyWNATFtRyktvzu8f3aJPPDegb4zB67SR+UP9LsmvyzvGbQMeqr0hz8VlhkX/KMWjfS8t3VjqEncOfrTu+lIphm4fNHDQqlgRy1etXLFydEleMEavR5of+bPnZzs/0+POxou4qNGM0hvceeYQp0d5/IUlnHLz6MH+McjyFafQ8tUTp/wOK+beY5NnjL4ZF1fV38RhR99quOjCum6K5dt73nXhjYb7zTA32fpV/YUXTSFPOX/98fsybftttW69rX3PHXX4kBa4z3XXeWBd74d42ZW+/NL/QCA47d33NzVN+ae6LgG/vPL3n4pfUfmtRPIIqiUgSIeUh1ifgIQAACRxUq8EAolH1cBf7wZxpb8WYdoq1eJPddHcQKbWYKjQ3VjRxt7LpCKrEXIbgES9I5Aa5zRkcs9ChSk+9FTKI72FJTeg5Acy5bwuNrdVMXLYiGJSMRtVSe9KkVM9udisGnDSyBrISDsdctBxO2y3x/EO56il/hMOmLfEnuuDCiMNM0JhkuJw4uHglXY46pg9DjnoNTNZcb1tgJPLhQeiTYS4owQkEiKp/TA8Q3cfOnoQ");
 
 export default PartyHorn;

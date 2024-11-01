@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-chimney-blank` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-blank?s=thin house-chimney-blank}
  * @preview ![house-chimney-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/house-chimney-blank.svg)
  */
-const HouseChimneyBlank: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M293.3 2c-3-2.7-7.6-2.7-10.6 0L2.7 250c-3.3 2.9-3.6 8-.7 11.3s8 3.6 11.3 .7L64 217.1 64 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-230.9L562.7 262c3.3 2.9 8.4 2.6 11.3-.7s2.6-8.4-.7-11.3L512 195.7 512 56c0-13.3-10.7-24-24-24l-80 0c-13.3 0-24 10.7-24 24l0 26.3L293.3 2zM384 103.7l0 .3 .3 0L496 202.9 496 448c0 26.5-21.5 48-48 48l-320 0c-26.5 0-48-21.5-48-48l0-245.1L288 18.7l96 85zm16-7.2L400 56c0-4.4 3.6-8 8-8l80 0c4.4 0 8 3.6 8 8l0 125.5-96-85z" />
-    </Icon>
-);
+const HouseChimneyBlank = createIcon("house-chimney-blank", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcAAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBcAsGAAE2AiQDCAQgBYMtBzob+gTIHge5afRGumis74AIKptVVs9IcSc4xDlmfrYAwCIygTB8Rmv/TRUQc/uH6AOf/2vqxfOjA/xGhxKNpQcSxRWLft5gE9s7XxWOC2w2UZy67UsGuayJyFE8IoZ2DM015PGlvUqk+1LcUj4q/tTZlSRZBiBaAWDWhjXLvPldfBfxaeM54lNLEBCzQSGQoaabAFNlgl1DrkAuF3wXjYb+BxYEEGV88gRylLAZ+wA5SLI8H9q5Xi3V8/XVUuXA3e12xp3t7+q4IsR9g57sV4/HhzzdNWJZ3NXxng6rI+L+/pV4pJNYvy6ExIPFve3u7FuLxzrc3SViQ6zrGOKejtW4q71Y3/upVk/93f31fW3OnI7/mztu7pqhflVp3fqBmR4QX+VXQ62Z3fc9N2q/aqVV7bvYvGLzPnBitybZZ1+NZORXn2VNvnjBjrX/DaK/vHOlneUrzPVAIPj4uk/saDm1qVk1gR9e/vf1wIbG0uz0FJpJIMiGNobammY6kEUBjRTn9cY3CSSrZfCpNXcLECoIkJRVBMh01UqAXMUQAUp6GCdAWcUamcibC+1s6yCpOQUy410Ocu08A0qm+sAoaxdZgLHhwX7vkuZbdN6yYtTwkcXkYplqXMzQeXRKsS0PPJ9aBqHWficcd9Y+ex1y1uCnLbPPOWa+h83zQ4VRhhupMFlxXDyuXm+f08445ITjOs4UxX19oPN+90HQEhKOFkgSkdoGX3DYnoOHjh3fd/GwRwcA");
 
 export default HouseChimneyBlank;

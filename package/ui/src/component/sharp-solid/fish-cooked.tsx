@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fish-cooked` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fish-cooked?s=sharp-solid fish-cooked}
  * @preview ![fish-cooked](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/fish-cooked.svg)
  */
-const FishCooked: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 64c176 0 256 192 256 192s-80 192-256 192c-80.3 0-167.8-57.4-216.9-114.5L0 416l0-48L32 256 0 144 0 96l108.7 76.1C158.7 117.2 242.7 64 320 64zm6.6 96L304 137.4l-11.3 11.3-64 64L217.4 224 240 246.6l11.3-11.3 64-64L326.6 160zm112 16L416 153.4l-11.3 11.3-160 160L233.4 336 256 358.6l11.3-11.3 160-160L438.6 176zm16 112L432 265.4l-11.3 11.3-64 64L345.4 352 368 374.6l11.3-11.3 64-64L454.6 288z" />
-    </Icon>
-);
+const FishCooked = createIcon("fish-cooked", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdgAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCDQsGAAE2AiQDCAQgBYMtBzIbDwXIhof/9+/fn2uf824AnaQy0UG1VGWkVSVXVPXhSqiiqVPPMy0UwDcK2pi2NL5BQntwBCKWC48OLVdrxVqBKsbdne0wRbSkkFhZkuNcjscBeXyV7VdGOp2e4WB80/hVA/tJKmQAojoABs2YMs797+P7iKdfrhBPjUFADAKFQIYMjQXoKxNoLFcglwu+jy9f8D+wIIAoocMJ5ChhObYBbpLkgLepYVYqq5JPz8+tuOJ9r4jH7SIuNog4bXf9U20vjLw+9cH4F/2nRsSMmB4R0+LemKcjprVu1bp2TIza0SrqxZSoNyFT4Rlh8dEtzlU/93vzZ8ufGbBrUHyg8s/88oHfIv368edfKn0c5PXhs3OWT9JRsw1pZ0drx5h98MDZ0oLly5ef98VNyxVtQzWmnTlj2DpZbcPG74BA0GrU31MXVOv7f/lKCfx488/f3Z1pYDqH8hIIsrZf2pqbBgJOBHJSbNdC+KBAMl+OXrWyEwKEigiQlFQUINNIdQFyFbURoExT3QQoqWiKTOQVhNrmdZBUtglkutsBcrVdAmX6emiX1I5M3VhlYX97ScNHaNhS0al9x6J3sQw0ToNoP+xTbCstt9tCK9i03AbrbbXMUqtsHcjNxnnbrDNcIob5okIn7XVU6K04jufr0y2z2RarbLA+zOmjuG+0tF2ubwV6QpSd+ZJEpEoPR2738NVlSwEAAA==");
 
 export default FishCooked;

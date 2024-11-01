@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ufo-beam` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ufo-beam?s=solid ufo-beam}
  * @preview ![ufo-beam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ufo-beam.svg)
  */
-const UfoBeam: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M184 152s24 40 104 40s104-40 104-40c0-48-33.3-104-104-104s-104 56-104 104zm-42.6-40.4C159.1 47.2 218.1 0 288 0s128.9 47.2 146.6 111.6C519.2 131.1 576 167 576 208c0 61.9-128.9 112-288 112S0 269.9 0 208c0-41 56.8-76.9 141.4-96.4zM120 208a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm360 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM312 256a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM74.3 325.7l4.2-8.9c14.3 5.6 29.7 10.6 46 15l-6.8 14.5-72 152c-5.7 12-20 17.1-32 11.4s-17.1-20-11.4-32l72-152zm384 20.6l-6.8-14.5c16.3-4.4 31.7-9.4 46-15l4.2 8.9 72 152c5.7 12 .6 26.3-11.4 32s-26.3 .6-32-11.4l-72-152z" />
-    </Icon>
-);
+const UfoBeam = createIcon("ufo-beam", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABjAAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCLAsGAAE2AiQDCAQgBYMtBy8bKwXIHoVxs3MER6WJyl22ohCPiefpj37nvr+utlS200q7pis3YdTkUZ5t2AT2RRNp0q78e/c+GONisxPRQSjl6VOqysv99935v6ZelB0VyAfwi7RYNEgkUCbvTWDP1zavBGyw2URx1uY4cFKUl6goOY56QhqW+GFtBdU8kyuhRvkkXQN4bR+VfxBVSdGqAECGAADOb/08YP8jHwhdESvkB9yAQM4BsAahAmeOeI6sGsxRrAFVVeEXEUT9D8QgQOpgty+gihaegBdAFRSNKoVfmslkcnOzqZyUwLwvK6xTBaE5hzO1BaEy1XnHY+VZOPk2Q2jL6cRkQybtItprvO5/w6oPvDPdFBsw23Ly71ecFOlTmBGPScqpy935CwsITykIIH/UqzgtHhQjJCg0oySIAlCf/KRYoOw8z/yXzHXiNaytk6IB7r7GYqJJii0jNjYjLYoznxkAz2fWxRmf/8HBXFwhydZc3fH2Xq3kEBY0+38aJejjI7hQScLK8M4Iq//LwdlmOVVngNM7LA/V4jZ/CX8EgoVBxsLfbxsuXg4gCMsLM+kobvNvBpsE8Lf5374ngag4kOaBpgJCZYdQF16sHUgfQCxaUgiy+CYIigd0+NSuNwHRRkBR1xZQMcMDgaq2bQjUrDCAQF3bJbJUmRBTEQMUXY+g4lARqJpaAjVHzqJ105DDTwke5ecv05FRh2FYR1Mbm+LbnEONKKn0muHHtnKh1KhgKSTKkilfgngp8onJ5ZEokMHRox38EKZDkzbMFJ4urmYgRXPlSbnW5wcxg9+PKCv0m6tgNCTA7oeDyqIURkFilkZsQkwGAAAA");
 
 export default UfoBeam;

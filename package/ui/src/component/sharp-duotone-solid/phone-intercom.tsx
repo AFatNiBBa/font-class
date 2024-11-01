@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-intercom` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-intercom?s=sharp-duotone-solid phone-intercom}
  * @preview ![phone-intercom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/phone-intercom.svg)
  */
-const PhoneIntercom: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M160 32l0 448 352 0 0-448L160 32zm64 64l224 0 0 160-224 0 0-160zm96 272a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm32-48l16 0 64 0 16 0 0 32-16 0-64 0-16 0 0-32zm0 64l16 0 64 0 16 0 0 32-16 0-64 0-16 0 0-32z" />
-        <path d="M128 32L0 32 0 480l128 0 0-448zM368 320l-16 0 0 32 16 0 64 0 16 0 0-32-16 0-64 0zm0 64l-16 0 0 32 16 0 64 0 16 0 0-32-16 0-64 0z" />
-    </Icon>
-);
+const PhoneIntercom = createIcon("phone-intercom", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABfAAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBcAsIAAE2AiQDCgQgBYMtB1gbGgXIHgfOaS+OOotGDqm/MB7+f+7f9rk370NShrQKEBQC+joCXVtX9V07oEaot0aymrFJZmCITxcilQxRCFXpKr49v9ZPXFM/zp8KpPDFHylroZngmec7Hw6wU2TEM52B7XLbTBGT0H4hcryhiN/ycy3SmwQvov8BjD8N95ykOwOIfgBYuWvbBj3taKf4tXnEr9YjIFaBWiAjY5QAS2SBUQo1CoWgnZqGdjRNTQDRIfl8Bh0osRuHAQVIslZRdFdVd3fv7u6q1bvYWbXKfWVVpqgi77GAqSqi3Czn7Es59Y4cvbZMiUqUZ/a8lrbl8qNDocNloPPHf8H7xzn5q0efMmHtsZ5/xxar9dus25ou6tOnE+ZhPQ437fWftX0+BOXFe/culiV/ED7srIj3A4Hg/2U+Hr615L+uKoHfv/37B/M7atpJ+oIuCQR5SjPF/gQSAQBIcdP4BJ8FsplakrO9vBQglOjJpENJZiP1IwulyWTLGHOFk2e2yaLoFgY5AJNJL1fIbJ4HZGGQr2TLEt/zHQZFhjAJPqTvu/R1Y3jtrHrmtBn1onqzrJWBRrDji+vTvgk3ZdtEfNBJl1x03QnHnXF9hF61oXTDBev2kLW+qDbTNDPUFqlv157v3umEq64545KLfpLF6vdDE9zc7z0RB5OEc5YVWSZS5CFh0Jn6e0Lq2KULU6G127AlNWQC");
 
 export default PhoneIntercom;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-security` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-security?s=thin camera-security}
  * @preview ![camera-security](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/camera-security.svg)
  */
-const CameraSecurity: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 16c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-50 0-18.8 0-182.5 0L114 400l-50 0c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l320 0zM343.9 416l40.1 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l40.1 0L67.6 475.4c-4.6 7.4-4.8 16.7-.5 24.3s12.3 12.3 21 12.3l272 0c8.7 0 16.7-4.7 21-12.3s4-16.9-.5-24.3L343.9 416zm-18.8 0l41.7 67.8c1.5 2.5 1.6 5.6 .2 8.1s-4.1 4.1-7 4.1L88 496c-2.9 0-5.6-1.6-7-4.1s-1.3-5.6 .2-8.1L122.9 416l202.2 0zM352 208A128 128 0 1 0 96 208a128 128 0 1 0 256 0zM224 96a112 112 0 1 1 0 224 112 112 0 1 1 0-224z" />
-    </Icon>
-);
+const CameraSecurity = createIcon("camera-security", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABmgAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCYgsGAAE2AiQDCAQgBYMtBzYbaAXIngm8Ces6gDMRnn4igkj3r7Mn6dvWk5FlIqoIw9wBVSbALtXvAtyH29Spn2/b/kHcit6N8au/AcUQLa0aTM/a9wxJ15869TznoQXyHIKg7KlTk67zPXEKFDBaG5sqVCvWCuxVqbWz88Wg9DJIn8QnGbYvw+QMeZzFCwrSaf8jDqY3jf/09hUkWQYgOgFg0eb167T+HX9H/NiM+NEaBMRiUAtkyNBPgLkygX5yNXK54O9oNv1/YE0A0YJ/lgRytMERcB5ADpIiz/uM6ty3b6Non29qFOXL10PE8ZzilBxrZXVDT5QszsaTs/2WRtm4ee7WLM7sO6OKa3YrpTi9bvdGLIxj4Ti3j73xpC4uN27aeFyOURV79ETcHI3Nn++IO/sO7bFbdgufrdvrNu89d89dt2lvj7ieT+OzdKpdoz3jRjnjPq9n500efOe68/vxpR99+vD5nZ+yWvbT7xMnd5j4u0QLRxw0lF66O5e1khYuvSTLzPb6jtc7dNIhJttXdx21JEtdOS46KRwle/i+zy9DKqrffh08+NffqmpIqEPWp28PuAAXvgYMKPgFAwaIeB4IBOdk7ujdHef+37aRwL9ff31cszVa0x3QVgJBNrY51o5oBU8MIE3xkcHKBwWSPSjwq1ZOIEAoESBpUQqQ6auTALnSGAEKA0wToEVpvUzk7YRudgpIKu+CzHQfg1w3T0Fhrm+SFt0is0zOrrh/YfLyHlq2rZ40fmI9u17WNd7YmDg/p962R34U+kZhp5e87S0feNELXvVBh7xnXf5Db1quwct8UW2S8SaqzVYftx7lTZS8532vzsXzTeao7/sjfaSPHgUvYdLJypJEpI5vyxhnsAAA");
 
 export default CameraSecurity;

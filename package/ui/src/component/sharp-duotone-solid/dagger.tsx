@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dagger` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dagger?s=sharp-duotone-solid dagger}
  * @preview ![dagger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/dagger.svg)
  */
-const Dagger: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M128 192l64 0 64 0 0 240-64 80-64-80 0-240z" />
-        <path d="M224 32l0-32L160 0l0 32 0 96-80 0-32 0L0 128l0 48c0 26.5 21.5 48 48 48c20.9 0 38.7-13.4 45.3-32l98.7 0 98.7 0c6.6 18.6 24.4 32 45.3 32c26.5 0 48-21.5 48-48l0-48-48 0-32 0-80 0 0-96z" />
-    </Icon>
-);
+const Dagger = createIcon("dagger", true, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABYQAAAHbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBIgsIAAE2AiQDCgQgBYMtB0gbvATIhoePOfH9JO1t6Rgy4o5REYEC9FOoJskSu7FwY0Ws+8fN18Z5FOADkeY4D2SBz3meQOeBTAt8YaKZfgP7bxsuR+KNMJGSkH6EjdkBWRxKTymRXEhe4jT/D2B81dopEnVTANEIABMXzZvh8ft4n8TL2nXipekIiEmgEEiRop0AY6QC7WQKZDLB+6RW433UagUBRBk/loIyMgzBGEAGEiGyrFOlUqqfLayU8mUh8kBIPneh+Zlut9pWKheGXmp5rm3YF8SiSl4R82NhROerja5+7/Ry40vvLhZFMUFhtdmzq9JXr6vxYN26B1F9/Sqtqu5e7WhtwoRjv4yfxSf8AgLB+44jP61qOOZ/nUoCPt79+aX+kNQex7HkKupIQJD2rfW1PI5BHBMAgCQO6hzHcEwg1UmC9uo5K0DIEUiU5ZBqqxFkcn2gpIOh+2W5eVKR1RWaWSGQqGcPpIY5DJlmrkHJGE/ssmaRpg5z8czHLXGaxqeOFQP7V4tRxdTX2GygSn90sWz2PIi5XjBro1122m+D9bbYr8i9ZngH7DDNI6b6UGGg/qoKoxThaCsuVPZe+2wZ8/EhoxX7rZ4O+tW9YJoEMOjQ91IiibTB+jWbNm3Y2y8F1UY9/9QAAAAA");
 
 export default Dagger;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `meter-bolt` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-bolt?s=thin meter-bolt}
  * @preview ![meter-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/meter-bolt.svg)
  */
-const MeterBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 496c71.1 0 134.9-30.9 178.9-80l15.4 0-7.5 15c-46.7 49.8-113.1 81-186.8 81C114.6 512 0 397.4 0 256S114.6 0 256 0C393 0 504.8 107.5 511.7 242.8L496 255.3C495.6 123.1 388.3 16 256 16C123.5 16 16 123.5 16 256s107.5 240 240 240zM176 160c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32zm-48 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32zm144 32l0-32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16zm-16-64c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32zm112 32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32zm-48 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32zM539.6 344.8L592 240 432 368l70.1 0c5.5 0 10.7 2.9 13.6 7.6s3.2 10.6 .7 15.6L464 496 624 368l-70.1 0c-5.5 0-10.7-2.9-13.6-7.6s-3.2-10.6-.7-15.6zm66.7-97.7L561.9 336l-8 16 17.9 0 52.2 0c6.8 0 12.9 4.3 15.1 10.7s.2 13.5-5.1 17.8l-160 128c-5.9 4.7-14.2 4.7-20.1-.1s-7.6-12.9-4.3-19.6L494.1 400l8-16-17.9 0L432 384c-6.8 0-12.8-4.3-15.1-10.7s-.2-13.5 5.1-17.8l160-128c5.9-4.7 14.2-4.7 20.1 .1s7.6 12.9 4.2 19.6z" />
-    </Icon>
-);
+const MeterBolt = createIcon("meter-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAAByAAAAK/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCEFAsGAAE2AiQDCAQgBYMtBzEbFQbIjsQ4RvGAJjQPwfO83te5Lxnlj5ExsHIFsdqtp12xc0m0rOAQkLffgAcjmPiwu0CoAquk7nYldYEEWCOnclNruYBXrF6U9/cfPj/v2+LDAU5H36cFmc1KUiHf4LxRBxSaQvob6PKHKXagTquHwEH3o/KRANtAoWkAAIg7AABQ3nU2c/udvBN5aF0AeUgjEACpAMAkgAZoQDABoIiGAMF0TKCjI/BOLIv9B5ogACD2BEhxSwdswBvAguFFUDjperazr6uft9Q3wmbnovfY7IzuvYUi10pt4i3X8y4bT1qOiqXnqVxbz967fi+fu5M8yZga7vdcdVva0PU4fbRO6e5P+B7zRo77nPQTY7OfyEnbXp/jIJu8jxl7fE+IdAuyQolY2BThihxg2ILdZ3h6u6Ko2GSM7N0lvWKI5scUbwrbjmvHnEf8piHjhFdOIosj5t3nP4e3mYaVmvMYHuluLJX9fsurZfPhAH9q1eaAw5trqXJwY0y0VvUHKr5vo6MVVMii374h9b9b01pd371zNUHENNddsMtV22XNXdXJwTDTNDcYFpFmpeqwZWGn5F5ezpyLys9spIZTbU5u7YbmyscT+1DFRjzL2fz4daOZEyd3NvRMKLAWOPk5AAggsMW1bNmoW9E3R5sC4MPVr78L52JdV1vUPOCIAkBAS7KSGIqbwPqvtiAAIa9kLRELtiOA4glOEL4XnDmBACAYgACgsMdAANAI4k4A0DFIJADYESqbAGCPQScN0Z0QvA03qMKZFahGjvWojrdzqB1F7uTt8Q7aLS/csMIPZ2pNF6w+Z6anpJkF5mxbJd7FnF4vNDd749bysXh4lRnLLLXatCkLrO4gKzWX1liiZolaba8pXYo0pgLm4d7DaI/pLLfKAtPS8WMKmdcn46xdnh0PA4pAm6FGoUCU8dnnkyeWLV4NAAAA");
 
 export default MeterBolt;

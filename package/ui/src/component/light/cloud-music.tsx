@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-music` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-music?s=light cloud-music}
  * @preview ![cloud-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cloud-music.svg)
  */
-const CloudMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M389.8 125.2C363.7 88.1 320.7 64 272 64c-77.4 0-140.5 61-143.9 137.5c-.6 13-9 24.4-21.3 28.8C63.2 245.7 32 287.2 32 336c0 61.9 50.1 112 112 112l368 0c53 0 96-43 96-96c0-36.8-20.7-68.8-51.2-84.9c-13.4-7.1-20-22.5-15.8-37.1c2-6.9 3-14.3 3-22c0-44.2-35.8-80-80-80c-12.3 0-23.9 2.8-34.3 7.7c-14.1 6.7-30.9 2.3-39.9-10.5zM272 32c59.5 0 112.1 29.5 144 74.8C430.5 99.9 446.8 96 464 96c61.9 0 112 50.1 112 112c0 10.7-1.5 21-4.3 30.8C612.3 260.2 640 302.9 640 352c0 70.7-57.3 128-128 128l-368 0C64.5 480 0 415.5 0 336c0-62.8 40.2-116.1 96.2-135.9C100.3 106.6 177.4 32 272 32zM409.1 186.8c4.3 3 6.9 7.9 6.9 13.2l0 128c0 .5 0 1-.1 1.5c0 .8 .1 1.6 .1 2.5c0 24.3-21.5 44-48 44s-48-19.7-48-44s21.5-44 48-44c5.6 0 11 .9 16 2.5l0-67.4-96 36L288 360c0 .5 0 1-.1 1.5c0 .8 .1 1.6 .1 2.5c0 24.3-21.5 44-48 44s-48-19.7-48-44s21.5-44 48-44c5.6 0 11 .9 16 2.5l0-74.5c0-6.7 4.1-12.6 10.4-15l128-48c4.9-1.8 10.4-1.2 14.7 1.8zM384 332c0-4.1-4.5-12-16-12s-16 7.9-16 12s4.5 12 16 12s16-7.9 16-12zM256 364c0-4.1-4.5-12-16-12s-16 7.9-16 12s4.5 12 16 12s16-7.9 16-12z" />
-    </Icon>
-);
+const CloudMusic = createIcon("cloud-music", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABqAAAAKnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDEQsGAAE2AiQDCAQgBYMtBzIbkwXIrgZjcLtxiEKHRrPdqE+WX9YjiNbCquf2AoCkCB0wyLACVnEELmzhn/VZvdy77yuALpIqWJ1cE+zdp8pkeqUJQE6/B+AhLHj/fICr+59rPr/nRwf4+QgOLZraDqRAolb9fAJ7Po9I0cTZdIK23dmmpohWHpLEWnKcOz6fNWTxUyt80pn0Aofym8ZP1TWTZDkARDkA0H9qRDjOvsW3iKfCHeKFkSAgBgDqYcghh1oY6IUrUAtPPZDJBN+iUKD/wHoQQBQB31cCGYriKu4AMpDkM55pY0+R4mJ8CV50ybxozjUsFko86/WY+vS2jObUh43n7SVit+WiVoPqgMGMWi+72GLBoVN+SjV63yz2W8+K3Wk+r1EvPw1n4HKvI79ScdPnqc6o5arj89jXUyd3J7aIP/B0pS7RvVV6VAeVesX2VWYRGetZDVVj4lTlyFOmFLr0ZxXrm+gsSC981X+x5IUdA3r+yZvGl1vX96hoKDaqZ1b2n9Rfu1as1sePS0cFGpeK6MXSFT83/vss84EwcXW86l8q1+e7dmt9fqeB40pxvuu1yh47djsbWqZMUOw+u6jYZgI96fFTpUofz1PoSrHVg5DSUNZm2EiIHdvUVvki5cPCiSNcjLq67XaAQPBo+7n1c6V6/b+SHMCPh/53hyt8S5vTNRSTQJBrVWglMW0Gwgdgp6imI3xQILkij81STp66oQQdkiJKQE5N0pApoSXk1WFPKoWJqnBkIgiVJCEkpayCnC5qIFPJJuT1cmsVUSlyBkubG/1eTAgYEf9O1N7Cilxom2iMDZKx1ZXUcrNqX2IMA5GtRLFKWTLlqRywcuFulSIBEurvi4g1C1aICzrOPveOlqVchTwlilM7rui+aaRarm4MGgcTdhBKEpHEfi6UzG0ZAAAA");
 
 export default CloudMusic;

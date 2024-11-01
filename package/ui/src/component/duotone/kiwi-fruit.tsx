@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kiwi-fruit` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kiwi-fruit?s=duotone kiwi-fruit}
  * @preview ![kiwi-fruit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/kiwi-fruit.svg)
  */
-const KiwiFruit: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 176C0 96.5 100.3 32 224 32s224 64.5 224 144s-100.3 144-224 144S0 255.5 0 176zm64 0c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm52.7-83.3c-6.2 6.2-6.2 16.4 0 22.6l16 16c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-16-16c-6.2-6.2-16.4-6.2-22.6 0zm0 144c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l16-16c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-16 16zM168 176c0 13.3 25.1 24 56 24s56-10.7 56-24s-25.1-24-56-24s-56 10.7-56 24zm40-96l0 24c0 8.8 7.2 16 16 16s16-7.2 16-16l0-24c0-8.8-7.2-16-16-16s-16 7.2-16 16zm0 168l0 24c0 8.8 7.2 16 16 16s16-7.2 16-16l0-24c0-8.8-7.2-16-16-16s-16 7.2-16 16zm84.7-139.3c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l16-16c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-16 16zm0 112c-6.2 6.2-6.2 16.4 0 22.6l16 16c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-16-16c-6.2-6.2-16.4-6.2-22.6 0zM320 176c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M224 64c-8.8 0-16 7.2-16 16l0 24c0 8.8 7.2 16 16 16s16-7.2 16-16l0-24c0-8.8-7.2-16-16-16zM64 176c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm256 0c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm-96 56c-8.8 0-16 7.2-16 16l0 24c0 8.8 7.2 16 16 16s16-7.2 16-16l0-24c0-8.8-7.2-16-16-16zM116.7 92.7c-6.2 6.2-6.2 16.4 0 22.6l16 16c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-16-16c-6.2-6.2-16.4-6.2-22.6 0zm192 0l-16 16c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l16-16c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0zm-153.4 128c-6.2-6.2-16.4-6.2-22.6 0l-16 16c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l16-16c6.2-6.2 6.2-16.4 0-22.6zm137.4 0c-6.2 6.2-6.2 16.4 0 22.6l16 16c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-16-16c-6.2-6.2-16.4-6.2-22.6 0zM224 480c123.7 0 224-100.3 224-224l0-80c0 79.5-100.3 144-224 144S0 255.5 0 176l0 80C0 379.7 100.3 480 224 480z" />
-    </Icon>
-);
+const KiwiFruit = createIcon("kiwi-fruit", true, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAACBwAAALLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhjyFDgsIAAE2AiQDCgQgBYMtB1AbsAbIHoPjbolh0i6fLFiPeokS8fA11t7fXcQkqiQ8X8NCJ0EqkDQxxCv1MhqSVTpzDf//19p9M4vYwDEfFhGN5pbEkmpyTaRtiCXIkyCJ158YQFA+/THPlxgJ8sU3HkpEWFqDVb6tsQQGWKVta7ABbQIz863ToYWJ2+/5t4MSW/wgGkgP3B2uzf8BjF8jBklaMgCiGwBwcJYaD4VEUqK7/3PiWQUExCGAaYSMjHEEtvEC42SmQVEEXxxjfBFj0xBANMK+WQaNGIAYB2IZAAUkLVqLTMvWCZRpoRfS1BMETSWkoaQly4BV6rkz+qAbg3kjojnDNEOkQfNGNnWqA60cpPUJZMwYGGCR0byhYUhfQ99IXxHNGhmRDHRpikefADSGvCzrMpbodj3ozIZoOe4u7TnhQY6evE6ir8P5tUSix7On+HvremhbGzIXqcBaE/RTZw2IZjWGjQYF59SH9IUP5JCygiQqM8cBlgOPjXaQ7+rsvlk/V9zhs0cSjCF8BbbHRrBNy1QEoHUUBvRKOB9aWmKqVWJTMFuWyMDBBJ7FHqLA2b0uEMZJE7BQgw8hCeb11wIqoNf6+BA+aq4TErqrHhAZXdAhOnxT5quYWHUkW2h54Y//F7VEBSyHQmPVgRUBbhfa04ZGwsWCsL/a7wACwUxlJqVQO/RPVYMD/Fx8/ERn/0ukSLugWQJBXmAL8kIB0B3YsRQdkHd8k0B2pRV+13a3AoRWBEgatQqQjdFBoGg1j0CDSX4INGp1hBdFDaFffkaSdpck29JFin5npMG2y0ij/uBvGNXprvpdTR9RpIQPE73cPcVgsTUjUd8DCq09RBxsd+wQFU54LSo0atCmXJlqbQV+i/h4u3oRXeLhnxV5cedJFEycnL+6PEO5Fq2qNWowBgkhLu911NFd2wm7OLbUNduyTCTidWurO6vdPhNmt1uvUr+sfcgAAAAA");
 
 export default KiwiFruit;

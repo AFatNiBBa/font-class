@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-ruler` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-ruler?s=sharp-thin pen-ruler}
  * @preview ![pen-ruler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pen-ruler.svg)
  */
-const PenRuler: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M139.3 11.3L128 0 116.7 11.3 11.3 116.7 0 128l11.3 11.3 98.1 98.1 11.3-11.3L22.6 128 128 22.6l47 47-44.7 44.7-5.7 5.7L136 131.3l5.7-5.7L186.3 81l39.7 39.7 11.3-11.3L139.3 11.3zM372.7 500.7L384 512l11.3-11.3L500.7 395.3 512 384l-11.3-11.3-98.1-98.1-11.3 11.3L431 325.7l-44.7 44.7-5.7 5.7L392 387.3l5.7-5.7L442.3 337l47 47L384 489.4l-98.1-98.1-11.3 11.3 98.1 98.1zM4.4 494.4L0 512l17.6-4.4L160 472 500.7 131.3 512 120l-11.3-11.3L403.3 11.3 392 0 380.7 11.3 40 352 4.4 494.4zM22 490L54.4 360.2 313.7 101 411 198.3 151.8 457.6 22 490zM489.4 120l-67 67L325 89.7l67-67L489.4 120z" />
-    </Icon>
-);
+const PenRuler = createIcon("pen-ruler", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgwAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCUAsGAAE2AiQDCAQgBYMtBzAbUAXIHgPuyryKak60FoN5hHChmy+iatWyeobv88/vUOhf+M9yDoxASAKNQyMkCo8xG1g0eiCe39835+kvgLuQE5hgJiipbglvo9zYtrR1MwsI2fz7U89zHgrgFowGZcz3k3RungPnPK9AgcfyegV6tYLVSlwB69G8pwYotAt1d+i5NcxEvRd4C2+aP8H2oOgNANkEgJuHpkaepkzJ+zhHftRDQG4A+wQaNNgmwDmdwDaDgs4gmDKG+A9UCCDzpOcpoMMCvMAHgA4UsxtxJ4Guzq6mu9Hqarp0BfgH+Emz+MU/LRKYVmmTspRORQEVQlqaHcemfw1tPQTs8vlZzcuKlsGg0KCEE86YhABZPizNCW3NbXPU0ptjDDV/faMl2vayf6OMYv/MThkmnik5NgMzbr59/Ik/7yrZNLtjzQkDs8/Pc5NrJ+DvgWQRNDJvZaVmX45iaL6NUg1MsjGvvpHbWbse/Y9oDRz/WHiSvFgC/HEgEGx9q/V5lv47uWqA36//b/JXNJ6ifcIiDQja6UjVXYBCAAAqq0QXECgrTOlVVx0jQLhAgGJxIUATyosAnYsUAsyJkEeAeS6a6KQ7I/z0DKTGzQKpy7dOGvyckqZSz1mLX3SAVMFJ/R0MqqZY5S6VlZ6pitVuR6fBmGw3S9Rlb+KqnEjCNxk1Z9ayEcMmLE+IRY2FFTOqjvBKH6RkSZdJKaYe919ebjVi0ZIJc2b9NiXU98lEq8fzk3BAkwTP7C0aUs7zI7NpYI4WAQAA");
 
 export default PenRuler;

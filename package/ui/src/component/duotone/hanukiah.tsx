@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hanukiah` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hanukiah?s=duotone hanukiah}
  * @preview ![hanukiah](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hanukiah.svg)
  */
-const Hanukiah: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M8 104c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7C36.6 49.2 34.4 48 32 48s-4.6 1.2-5.8 3.3C21.1 60.1 8 84.6 8 104zm80 0c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C101.1 60.1 88 84.6 88 104zm64 0c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C165.1 60.1 152 84.6 152 104zm64 0c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C229.1 60.1 216 84.6 216 104zm80-48c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7C324.6 1.2 322.4 0 320 0s-4.6 1.2-5.8 3.3C309.1 12.1 296 36.6 296 56zm80 48c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C389.1 60.1 376 84.6 376 104zm64 0c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C453.1 60.1 440 84.6 440 104zm64 0c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C517.1 60.1 504 84.6 504 104zm80 0c0 13.3 10.7 24 24 24s24-10.7 24-24c0-19.4-13.1-43.9-18.2-52.7c-1.2-2.1-3.4-3.3-5.8-3.3s-4.6 1.2-5.8 3.3C597.1 60.1 584 84.6 584 104z" />
-        <path d="M352 144c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 176L96 320c-17.7 0-32-14.3-32-32l0-96c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96c0 53 43 96 96 96l192 0 0 64-128 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-128 0 0-64 192 0c53 0 96-43 96-96l0-96c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96c0 17.7-14.3 32-32 32l-192 0 0-176zM128 176c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96 0 16 32 0 0-16 0-96zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96 0 16 32 0 0-16 0-96zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96 0 16 32 0 0-16 0-96zm160 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96 0 16 32 0 0-16 0-96zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96 0 16 32 0 0-16 0-96zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96 0 16 32 0 0-16 0-96z" />
-    </Icon>
-);
+const Hanukiah = createIcon("hanukiah", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAACGAAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhwSFYwsIAAE2AiQDCgQgBYMtB0wbAQfIjpQuH7Tx8LxdX+e+qg+4BmYEeyVnVtTZMsgH6cJxp0XJ18Q1zz/A/jz5QZse6RfVWEVP69IJ7Hwgswod8M4LaDQz38O5XZsaYyahnVB+gDyNye5TQXo5/YIn+/8BjF/1uI+kJgMQzQBYtn3zWqXLcTnFL+UviF+sQUAsB4VAhgz9AiyUCfTLFcjlgsupXOZylMsFAUSl/n4ZqEQrsZbYBshBUqUmz3c0jnBLvK6iId+2blh7/G4RL9Q+0v4cURuPdL4QEVjTlrw+7t1ZdSGVYOyujufrxuCjXS9qn6iNiLr4esL7Q9aBu9qfk8q2vOC5dqFUmLQfxHe/3Nt9SJoUeaRixHUc6/Zxbw14w/D3mt/7fdgvx36xf0rjQzzU2PjQQ42fKDmMB1pVV1793nt3lSx1F/a89VaRf5elSu7SdlRbq0pZySeXhhovX36vtFmh2YGlYDRvWX2lqu0dGzd2NO47N6c1z1vnnNvXuGEQtnTO+imohRHqJ/0dEAhuOnHrQzct/L+6LoGr3/3573F1uZTuSu+hWgJBNrE80Z50F7TUAFIpbjBc81HVApkP1Bgftd4LAoRaBEgq1QqQ6dMsQK7WBAEqDJolQKVam2UirxHa7X3IpN5FMjPb7WSu3edkhYW+T1Zqj4y0VISh+rNNvxoCq5YV0yZPLeYXyopLTS0K7eSCwto+9gbUMa5Y65jzzrnOUUecdB1ArrE2c72zVuvoq95bmGayqQrzFd71sX4bQK9xrZPWc/6LLFDED491g77/uMKVjKLTHZPJiBRZ84mD564/ffLgiUk0am3ltF8jAA==");
 
 export default Hanukiah;

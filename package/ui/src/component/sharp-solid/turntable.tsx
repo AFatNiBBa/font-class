@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turntable` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turntable?s=sharp-solid turntable}
  * @preview ![turntable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/turntable.svg)
  */
-const Turntable: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 32l576 0 0 448L0 480 0 32zM384 256A160 160 0 1 0 64 256a160 160 0 1 0 320 0zM512 112l0-16-32 0 0 16 0 164.2-22.3 44.6-14.3-7.2-24 48-14.3 28.6 57.2 28.6 14.3-28.6 24-48-14.3-7.2 24-48 1.7-3.4 0-3.8 0-168zM224 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Turntable = createIcon("turntable", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcQAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBeAsGAAE2AiQDCAQgBYMtBzAb+ATIjtRG+UVWEsHzdlH1fvfMAurdCHYEK4OYAbxz5iAzwounat+nTj3PeSiAb5nCQRvL1gZZIKEx231egQLWeuFugrHAIorVbWKCHWF41BEhQRLR8e14O0Ie32QHlEhX09c4XX80/tHMAZJqGYCoC4ARM6dO8emP8WPEVxXEVyYhIEaAQiBDhpYCDJYJtJQrkMsFP0alIv+BBQFEmb1BAjnKWIQVgBwkeZ5Xa9G2QY1SrXxGjVL1rE7tOilqR7Z4b9eIJwPfr36s/7vOj+zp8njAezWOD/qg29OYGaJ6CNE5GjO1aUyIFtEtGqtNgq5ddLxRxEV7Gl6ofqzxpdjb5HKNdg/qPviv7dcrvnZtuA1+arhPd//QaTTTxkzr2LEpozu5nDi7T9flQwp13TLP73b7xgn/2k2768vda7Ox9hGO1O45QQNx2fH22xYsrDP4/6o1Evj5/f/Rmys/puHpAapKIMg6Vzqbl4ZDIgYQpdihXTCyQDJLDnyvNV0SIFRHgKSsugCZFuoKkKuukwAlrfURoKy6qTKRVxMamj9BUtNmkOlrJ8g19BKUDPZZVNYwMpBxEOG+eMljPTRmW9Gja/diYLHNDR43TFkfVByr7XfkXgcatMJGG2yz3DKrbXPIFlPS7dYbG8FjjKjQQ1fdFQYqrqvX/TMst8VWq220QTcZpHgftrcjnt2BjMRoe8okiUjVcM0iEAAA");
 
 export default Turntable;

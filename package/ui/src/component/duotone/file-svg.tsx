@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-svg` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-svg?s=duotone file-svg}
  * @preview ![file-svg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-svg.svg)
  */
-const FileSvg: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 144-208 0c-35.3 0-64 28.7-64 64l0 144-48 0c-35.3 0-64-28.7-64-64L0 64z" />
-        <path d="M384 160L224 0l0 128c0 17.7 14.3 32 32 32l128 0zM205.7 352c-25.2 0-45.7 20.4-45.7 45.7c0 17.3 9.8 33.1 25.2 40.8l31.2 15.6c4.6 2.3 7.6 7 7.6 12.2c0 7.5-6.1 13.7-13.7 13.7L176 480c-8.8 0-16 7.2-16 16s7.2 16 16 16l34.3 0c25.2 0 45.7-20.4 45.7-45.7c0-17.3-9.8-33.1-25.2-40.8l-31.2-15.6c-4.6-2.3-7.6-7-7.6-12.2c0-7.5 6.1-13.7 13.7-13.7l26.3 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-26.3 0zM456 352c-22.1 0-40 17.9-40 40l0 80c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-24c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l0 8c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 8c0 8.8 7.2 16 16 16s16-7.2 16-16l0-8c0-22.1-17.9-40-40-40l-16 0zm-152 0c-8.8 0-16 7.2-16 16l0 31.6c0 34.7 10.3 68.7 29.6 97.6l5.1 7.7c3 4.5 8 7.1 13.3 7.1s10.3-2.7 13.3-7.1l5.1-7.7c19.3-28.9 29.6-62.9 29.6-97.6l0-31.6c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 31.6c0 23-5.5 45.6-16 66c-10.5-20.3-16-42.9-16-66l0-31.6c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const FileSvg = createIcon("file-svg", true, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABsQAAAKoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDMgsIAAE2AiQDCgQgBYMtB0wb0AXIjsN0Yy//GOIihihDPPxXV/19EVk1NZndHiEH1Je1AoAt6/wtVwLo4IbXwMoossAos7zP/zWff7yiA/x+4kO5Lp2NIikin09gwNHYYANK4JnOwDa6DTxdHbN1C4kTFPFlPluDdEP6GJfB/wGMHwx3NsnADCB6ALBu5+239Ho72ik+/v9p4mNbICDWA7VARsYoAVbKAqMUahQKQTv9b7TjfycCiCb4CRk0MQAv4i1AAZJCFEU1ffm48VWjs9ipapQH77TjTuL0wddU1Q4XDoq42g2TJsU1rh5UxtWDrhlcxUVDr4sbJ0+Oa+O6oVURunZIWc3i1/CjTkQfN1tRKmWgxVwW0Iw2SRFnDLm2hHR/kjh91uBYQzd0h/ZYwaXesBtdab5pRsRDU6rYOEeUcffU+4epI+6d/uCIPP7Bngd/qo9nOW3sbfjW03Wdf37X6U+8NuhjfDyoPOVnjm91vD5eu6urPV4P0yAn/wJGbB3xVzzEi73b6H3xod4eAd1Ehulq94xQWpr79NinySul1Us3emuefL05VFv0VbNRq7XRxr5aVI+k1Sb89xPACqeXvfTefrsrZbrc527v7S0VmHuP04FA8OzNt63cu3vlr6oS+P7FX476Hf3/epIeREsCQZ75/0z2SCARAIAUJxmfuB2B7HIF/KgdrhUglAiQNJUCZCP1CFAozRCgYYxFAjSVtpdFMVAYZE8Hkw7HwmyxU2BhkKdgw0rvhZsGRb6F+RuQ/4FM2SgEG86q582eWy+vByuMcFeyo5Mr6tnO1JPajmn5Dgc52lFOcKADHKrogDzOlrETHWmjMWJDX1SbZ7a5asvVq+unyk5l+DjHO7RfWj/NCvX+walOGu8/LfcTHHC+OVkmUuSezyU26/iTDp71Llh9kfTQAwAA");
 
 export default FileSvg;

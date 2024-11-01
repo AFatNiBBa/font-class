@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-arrow-up-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-up-right?s=sharp-regular comment-arrow-up-right}
  * @preview ![comment-arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/comment-arrow-up-right.svg)
  */
-const CommentArrowUpRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M101.9 387.7l10.8-28.9L90.9 336.9C63 308.9 48 275.1 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-26.8 0-52.3-3.9-75.7-11l-13.9-4.2-13.9 4.2L94.9 406.2l7-18.5zM16 480l57.8-17.3 92.6-27.8c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L37.2 423.5 16 480zM200 152l-24 0 0 48 24 0 54.1 0-87 87-17 17L184 337.9l17-17 87-87 0 54.1 0 24 48 0 0-24 0-112 0-24-24 0-112 0z" />
-    </Icon>
-);
+const CommentArrowUpRight = createIcon("comment-arrow-up-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABegAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCBwsGAAE2AiQDCAQgBYMtBz0bFAXIHgVuywOnUEov561oodWzK57/597Pfe4r06qVpjNUGw9OTygrQFmxiMQaaEAaaET+ikbg2fdjbd+54x8xT+aSxNKly6g3hiSmJRHJVMj7/F/u+dmmA/xGhzYWLtvDR3s+TyDAi4YHHlB2YJkmYO3ObYUQ7SQtRZLjM8flBW0OYtFR3+sRfM4dzX9WpqB0DQAyDwC4fc7LwOkoo+Rh2Cd/pYFAbgFsIjRosIrABa5gFc8maLXCKMNg/wMZBEgPhkvHW3R4Dz4CaEFpWp6dg4OUL+cVSvmSIhuTjRcdb69kvRR9ZTw5LqY/5pvDDKSjZLLJT0tOK6L9qZ+7h/gT5+W449T7ws/k25hD9pUTQAFlEqkEmZLmkwfFkjcVESJTBA8kTtuq7V+PjY9oON+FagGm+fLRkUqO0UdG5bXVI+oDFyx491hmofYyG8wGJME8Y28vFvtwxpwEUaW0xhAk/Uwy0e0AmI4KCwELoLhhTPq36WZiAgjC8Klpo0oZ8zc+xQH8+7PwKxpGpX5gXIHQ7P77KC9AEQBAZRBOBQTlLS7+1GlfEBCTCCi9SQGNFSoEWpN2EOisC0WgN+keV1oxYllFA2XaB9A4Mgxay/ZA58JN1lsOV9dYTWG/ekmJEkq4xgL9AlgUG45VTn3oeB7NlmWPQbfmiU/RqEunfg3qtegXZK+MckCHxBmR4IuYQH4CMFHY9uz+fqEGvfq06NKZLonGzpseBue7PVHjYMo9A6VIGW53v29Nb2/XkO9A94MFAA==");
 
 export default CommentArrowUpRight;

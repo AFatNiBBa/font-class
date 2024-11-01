@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-check` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-check?s=solid box-check}
  * @preview ![box-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/box-check.svg)
  */
-const BoxCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M93.7 32L208 32l0 128L0 160 50.7 58.5C58.9 42.3 75.5 32 93.7 32zM240 32l114.3 0c18.2 0 34.8 10.3 42.9 26.5L448 160l-208 0 0-128zM0 192l448 0 0 224c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 192zm337 89c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L337 281z" />
-    </Icon>
-);
+const BoxCheck = createIcon("box-check", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYgAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBQAsGAAE2AiQDCAQgBYMtBzAbwATIjsO44TuyxVL+4+GfOb/uS9Ke+YVBzAAweOBlcECqbgHtuJ61qMg1mQmxpk49z3kogG8UlLFxTZBsDK7VdV6BAo7tG6jX81rBaloB69uGSQpF4Q2RIIloPBuzM2TxUroCyQsJ3O0fGr/r5A6JphRAtATAzPWrl6rVox7xQ+Mz4geLERAzQS6QIkVXAaZIBbrK5Mhkgno0GvQfmBNAFMmLE5ChiFlYAshAIsuySrlV63Khmq0rF0qby6WyKMX6eKl/WY13Oq3le2JNtVIVzwa836cS7w76sHPsfKnzu33WxLTAh591Whnv9F/f68OWH/7Z0z62vnbq1KkbfjVqj+e1B0WoPafYr278/VpNknWlVq1en+F1XF6qr+jXX6vVY8f8JWPIN9JTrl8HAsH8TdWPt7eY8k+zcgJ++/rv//GvqFGPWvIhmklAkA5pDLElahA1AQBI4pxeUUMgMUlG3rXiiQChhACJopIAqS5aCpApGSxAQXdjBSgqWS0VWZPQ1lYFiYqTIDXOVZBp6xNQMMU3blHbSAOJCgPqGxc/z0JzF+Ujh43IJ+XL1KBjg6izk/NtYcA5bg2Ek/Y57pgz9trjoDMGOWVpcNZR8zx4ri/KjTTMCLlJ8uPi+fA6e51y2kHHHWvzTJbfdwY45w8PBDkhqKNsTCRE0rTr+IWh7xEA");
 
 export default BoxCheck;

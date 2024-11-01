@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paint-roller` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paint-roller?s=sharp-regular paint-roller}
  * @preview ![paint-roller](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/paint-roller.svg)
  */
-const PaintRoller: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M368 48L48 48l0 96 320 0 0-96zM48 0L368 0l48 0 0 48 0 24 0 48 0 24 0 48-48 0L48 192 0 192l0-48L0 48 0 0 48 0zM248 320l40 0 0 192-128 0 0-192 40 0 0-64 0-24 24 0 240 0 0-112-16 0 0-48 40 0 24 0 0 24 0 160 0 24-24 0-240 0 0 40z" />
-    </Icon>
-);
+const PaintRoller = createIcon("paint-roller", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXgAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBTQsGAAE2AiQDCAQgBYMtBzMb0ATILgYcZx6iQyVDxByd3C3xNKKWVudTBPVrnz2zbw+YFSogeYqSGB0dI84FhP1CRsWhMb9iCfT69Wv6NkD/MonLxe1EAbMiLLMDUqLCV7LDZkaB/Fq1xRXyPv+X43v3/Gj7Nzq0PXTxbb7dHM8TSGxwgRdIFlimCVirc0NyO6KQzYXBB5R4javJNwk8hg+Nr6yeSHUFgBgCAJfPuh18taMd8d8gPmuBgLgEsIRQocIcAieUAnNUlkBRBO1oGvEfyBBAdCC9MEFBjRtwC6CAVBWV3rIqaqNqIGrDttQvIfqJ1khgRFiqRyKqiLHoEYieyHU8QUoXi64ZsNIaan1nC44f86m8gryVc1+Rnvghi7I/QiuR/32udP8X7rxjlyeTf50w87NPyXhuP8MOEAg2Xzyc6eS/TigAX94u/4qar5QtdEkQVHvNnlmCJAAAGVewJQTSNaX0rn1eChB6ECB16BGgMsuMQNFjF4HagggCHXrcU4qiRxgzr0Hq8xxUjl2DYswLqJ34jjuMRQVOHDBwd3PJVQpXznHA6+ckTw5KHkIYe5zi1bb9Si458E1sOXbkwqYNuy5a6JlOdulQdQ6p+CIW4OXHknj35P7lgU1nzu06duRPSeHzfbur+c0O7Ckk2n29lERKf8tVPNeEs3kGAAA=");
 
 export default PaintRoller;

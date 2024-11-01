@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `floppy-disk` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk?s=sharp-regular floppy-disk}
  * @preview ![floppy-disk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/floppy-disk.svg)
  */
-const FloppyDisk: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 480L0 480l0-48L0 80 0 32l48 0 288 0L448 144l0 288 0 48-48 0L48 480zm352-48l0-268.1-80-80L320 184l0 24-24 0-192 0-24 0 0-24L80 80 48 80l0 352 352 0zM128 80l0 80 144 0 0-80L128 80zm32 240a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const FloppyDisk = createIcon("floppy-disk", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABYQAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBRQsGAAE2AiQDCAQgBYMtBzIbxwTIhof/Xyu771d1n6Q6DJUoZnbxGRVAS5LY0bLbdXPGLrDu+b/m83t+dICf78QPLcqqQa4Boxb1fAIDjrRIGnjZwKYTtFk7u+H9IPpFEZ/ySYbxMyyOkMftaFAh3Uzf4mr+0PhVV1dIKhmAaAOA6WtXLvaxMRojvqk/I76xEAExHZQCGTL0EGCSTKCHXIlcLmiMej38B5YEEFXy4AnkqGIOFgNykOR53r5j85a1Sst8Ta1SjC9qRUQWEbWWqyOFKCJL2ZoQoigiIopI0XKPUBt2X31/4OP+D3ve6fdgwKNefR+1efR7n2/3fKs+DNNsM8yw8uhRZRWGtUBi6VK7dCHMz13sU9pmtN66DPMbLNPQ+8+s6e+/m7JyPxAIPvz0S8PW1pP+b1ZLoOn1n3/y7eqN8TE9QjMJBNmg+iCb4iMAHcBPSnFG3/iIQDJFTt61hWsChAIBkqpCgEx3bQTIFQYKUNHLaAGqCitlIm8udLC5g6SF4yAzxmWQ6+AJqJjkk1fVITJXohyB+snFz9HQ7Enl8CHDygnlMtVo7yDi6MRyW+x3hlv6Y6M9jjrilN122e+UQk5YHJ522BwLnu2LSsMNMUxpgvK4eF69xm4nnLTfUUfSOBOV991+ztjd+0NJBHeEbUkiUm3PoaPHjp0f/AgBAAAA");
 
 export default FloppyDisk;

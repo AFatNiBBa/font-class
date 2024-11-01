@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gavel` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gavel?s=thin gavel}
  * @preview ![gavel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/gavel.svg)
  */
-const Gavel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M301.7 2.3c3.1 3.1 3.1 8.2 0 11.3L291.3 24 488 220.7l10.3-10.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3l-16 16-112 112-16 16c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L364.7 344 168 147.3l-10.3 10.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l16-16 112-112 16-16c3.1-3.1 8.2-3.1 11.3 0zM179.3 136L376 332.7 476.7 232 280 35.3 179.3 136zm-24 172.7c-6.2-6.2-16.4-6.2-22.6 0l-112 112c-6.2 6.2-6.2 16.4 0 22.6l48 48c6.2 6.2 16.4 6.2 22.6 0l112-112c6.2-6.2 6.2-16.4 0-22.6l-48-48zm-33.9-11.3c12.5-12.5 32.8-12.5 45.3 0L185 315.7l53.1-53.1 11.3 11.3L196.3 327l18.3 18.3c12.5 12.5 12.5 32.8 0 45.3l-112 112c-12.5 12.5-32.8 12.5-45.3 0l-48-48c-12.5-12.5-12.5-32.8 0-45.3l112-112z" />
-    </Icon>
-);
+const Gavel = createIcon("gavel", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABegAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCHgsGAAE2AiQDCAQgBYMtBywbGgXIHge5aelufqinX8TD/89V3feTqgGgTKsBQhaO3DhaYiP6rCWwm3x7qK0Q/Ylrnv/503sF6aNkrNqbizLPJzDgKIu0TWQ2sJlOwGZtjh98UUFuCMLqqesJadi+YewCeby3SYX0PP2Eu/1D4xftXCLJMgDRFADjly6c7bPaqI34qZz4yUwExARQCGTI0FGAUTKBjnIFcrmgNspS/wMLAogqvDiBHFXswjlADpI8z7vXa1rToNIoX1IX1t/6uGXLWBxt4mmr4V0UtfhR6ydt2sQSsZY6mUWLlyxeStKLFj1puYjCrUbH4zaHPG09ZsjTBhE3W3WPhdEq5kV39Tvneuvf4I/FkzjfZmnNq6avfvPTlp/0/jh48EtffeWFhQs3VsleZWOSOHH5K0Q3bbLo0qY2b16+3MuLF6VycIdnjWj0rLlJXpmkq+uNGl3fyxWvbnl4HgSCvn+3frC2Uf/VbZDAz+/+aI2WnyX8gF6hrgSCrFfZy6qE8v+UBAAgxRE1CQLJJjm8a0NPBAj1ESCpqi9ApoOmAuTq6ylARWeDBaiqb6FM5PWEllbvRNLQfiIzxGki19JbomKUb7NVLSOLOzlq5L++jCkWmDyv6N+nXzGiuK0aSiiJbXpk8djX7Uju6i57bbHXHodstsl2hwx0wOzCYbtN8cDJvqjQXx/9FEYophufjSUme8BB27lrfpaRivdT3RzxB3eXYALOASqSRKTKV23uAgAAAA==");
 
 export default Gavel;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-expressionless` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-expressionless?s=light face-expressionless}
  * @preview ![face-expressionless](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-expressionless.svg)
  */
-const FaceExpressionless: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm160 80l192 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zM128 208c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16zm176-16l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const FaceExpressionless = createIcon("face-expressionless", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABgQAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCDAsGAAE2AiQDCAQgBYMtBzobFgXIhofn7ao/91X1oLqXrjX1lUERFSmUHA7Sr0hZT516nvNQAB8sYkEbC9cEGRNDa3acV6BivXiXVWgssJpWwLo7246taNrjECKSHN92nPaQx1sxToX0SPoad6UPjd/1cQtJngGIzgBYvHPreu+3RmvE1/VXiK+tRUAsAaVAhgz9BZgnE+gvVyKXC1qjXqf/wJIAooE+agI5GnESVwBykFTyvF+/jh06Visd8h3VSnH0iSkRL675srh11eeTni8fn/zC6i+qt639aupLQ2u/LY34aON31dvWf7P4g+0/L3p/3dfFrRu+XfLhju3VovpAj/u7F/Fgz4d67WClGm1/5/yMIU92fvLPwV+f+FrLe7UP+XHB+rlz1y/48cNayNB8q+XN9Hnpg6VLP3ipT7PlkkXt0Y3va6K1Y8fW92XUoOs7ti7S2lF7rtMiIBscLwcCwdP/x8MHO837p6maQPubf//DPyP195P0JJokEGTj6uPsSyARAIAU1xiSIJAcVKHXWvOgAKFAgKRBIUCmn84C5ApjBagYaLoADQpbZSJvFrrbX0FScxlkZrgW5Lp7CVTM85nToHtk5kYaC/nZi1vRQ8u3lZMnTCrnlMtMoSwIj+tzy2N+1DXcGQ2zTrjogqscd8xpV3XIFdb7VztvxQ5e7otKk00wSWmO8rp83L3DcVe40mkXXZBN5irf26Ncsx8fDVKimFOkkkSkbr7cGe+suDMDAAAA");
 
 export default FaceExpressionless;

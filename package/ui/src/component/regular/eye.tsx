@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye?s=regular eye}
  * @preview ![eye](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/eye.svg)
  */
-const Eye: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
-    </Icon>
-);
+const Eye = createIcon("eye", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABlwAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCUAsGAAE2AiQDCAQgBYMtByobSgXIjtRWd6O5iocHO6n3J5MsoFlJlegKQOVSPKoUWlaX7i4Gu+zUWyKZx/n8xbX19/xfUy+eHxXI9xM/tCgsqmX4sIMnMMBhRIoc2GxgE9MNugvS4Or18WoPafwQp+RJLidf4GTiqvhDPYdJ5HMAoioAhk6bNNE7v8avEZ+XHhOfG4+AGAoygZyuNQRQDKAFd34qQyoV/BqlUv0fmBFAFGRvTkCKAo7hDCAFiTRNm7du0qBCvlI6Ncgsv+yDPhHP2iSPqhvbZlrfa+TH/V+2r1SDpV0Z1e8eNfltf8TL0R/ixw78OvZ6tmbo0Aa8fc4RH7lvH/R3GvVdnbXzHKyetkc8aHK0K71MHCh/3qU2qYWpreOA621zTxxti7jXafavpJU/MrMWB1b5nQrN7lctfzX9YukXmqyzkQ1/fTagw+3bHehnf23YyEZws3eyrkWK77xTLHbNFi58OX78y4ULUcmBHsAPbnnn56pLmBqYuqRqEHXKlq9W7VbZDUHo475p/g7vNKrUrFmlRu+80xzIcp4HAsHU7vu/nVeF/lu2QgJ+f/FPsb2w9H/p12R4UlBWAoJch1IHsxPJgP7rK7YnEFs10z9JIHFYKnNrRRcECOURIFFQXoCcBqoKkCqvvQB5jfUUoKC8SXIiLSfUNGcEiYo2gJxe9oBUTQ9B3gAfJwpqRu6G5G8n/nEwZRSIjhyWde3UJeuXUbN64R5jw+7+mbDaZqtb1VafaKl11tpsicVW2AzgG01Mb7HGKBY20hdluuqki0w/mXJhVJkKJDbaZAVZUh+kv2x5p42t7MZtdSORMXYTSST+S2wu2bEE");
 
 export default Eye;

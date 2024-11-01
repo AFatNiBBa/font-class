@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lacrosse-stick-ball` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lacrosse-stick-ball?s=regular lacrosse-stick-ball}
  * @preview ![lacrosse-stick-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/lacrosse-stick-ball.svg)
  */
-const LacrosseStickBall: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M344 48s0 0 0 0l.3 0c22.9 0 53 15.2 78.8 40.9s40.9 55.9 40.9 78.8l0 .3s0 0 0 0c0 37.4-24 70.7-59.5 82.5l-19.7 6.6c-18.9 6.3-36.5 16-51.9 28.6l-42 34.4c-12.6 10.3-28.3 15.9-44.5 15.9c-38.8 0-70.3-31.5-70.3-70.3c0-16.2 5.6-32 15.9-44.5l34.4-42c12.6-15.4 22.3-33 28.6-51.9l6.6-19.7C273.3 72 306.6 48 344 48zm0-48s0 0 0 0C285.9 0 234.3 37.2 215.9 92.3L209.4 112c-4.5 13.4-11.3 25.8-20.2 36.7l-34.4 42c-17.3 21.1-26.7 47.6-26.7 74.9c0 24 7.1 46.3 19.4 65L7 471c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0L181.4 364.6c18.6 12.3 41 19.4 65 19.4c27.3 0 53.8-9.4 74.9-26.7l42-34.4c10.9-8.9 23.3-15.8 36.7-20.2l19.7-6.6c55.1-18.4 92.3-70 92.3-128.1c0 0 0 0 0 0l0-.3c0-40.8-24.8-82.5-55-112.7S385.1 0 344.3 0L344 0zM464 432a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm112 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const LacrosseStickBall = createIcon("lacrosse-stick-ball", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABkAAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCVwsGAAE2AiQDCAQgBYMtBzobYQXIjsN0+yIj6uRQFzMj/MTD8/f7fu1zz0SFNSU1VwpH6aMZezYNPl+8gbLw2/P7o5+zEO/CbJtgNdBJ4Ed3td/8X/P5pR0d4Dc6tEgriraFRQZPYGK7edLeeB6Fs4nizE3j8Bs+MglBRDBK6dotZFi6hRxPqAP8pHuee1BuHxp/0KMGkooCANEMAFg5DAzA8Ut6SXTHbUC8xCoIiBXAMEKBAv0IzOMV6MdnGGRZ8JE4Lv4HMgggKkEXSiCjEmVwAyCDJGc+M2dZcVF+cb6QOn6R1FIQuWDD7UCdcyuUBnR1adzQFVuITBrPqlSqetCcqioNm0yJ0mHUuuO2mhINKLnSNEbHgjhXecIglGZEm01K8ZSBAW1ZLGlWhqghlSHjWf1JfQovdRH1i08l34uK9h6RJoU+Eh1z3nXcVht12nHZ09SelZp9p3Wfcu+wDMDW1SU/MPD/244ebhI6efQc21iLK39Rpv+UgKatWHVLAF6MKL1KROC7HixN8Ko1N3v8WFy8n+dU1+R3J8Rn7TFWOhYFaPz3NyXl0fuXuHhubACuG31NTM2rTz0rThXD6QCB4LvV+H2spOs3IVEewOfdD9/TkdwvbiN5pllAtQSCYpIzFZU8BRwWom8Ko4Q2viiQXOFD11rvBoFQiwBJpVoBCn2kEMhqTSBQYZAdApVq7eIVWRihXfQASb0jUJhTCrJ2a6DCvKtYpfbg1UlWo9hfwiT/GfJbxazMLZkz29Ywp2Z0nnVh14phSeoxwkakyJWjSLIk6YomskBAslg2f4nw80OMFXOWGGfscfN1fYhkBQqly5VTl3HB3rcNlcjDjaDzIMoppUkikmyWoRrJZoVmJ5uZGgAA");
 
 export default LacrosseStickBall;

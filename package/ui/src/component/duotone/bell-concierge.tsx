@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-concierge` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-concierge?s=duotone bell-concierge}
  * @preview ![bell-concierge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bell-concierge.svg)
  */
-const BellConcierge: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 424c0 13.3 10.7 24 24 24l464 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0L32 400l-8 0c-13.3 0-24 10.7-24 24zM192 88c0 13.3 10.7 24 24 24l16 0 0 33.3c7.9-.8 15.9-1.3 24-1.3c2 0 4 0 6.1 .1s4 .1 6 .2c4 .2 8 .5 11.9 1l0-33.3 16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0-40 0c-13.3 0-24 10.7-24 24z" />
-        <path d="M480 368c0-123.7-100.3-224-224-224S32 244.3 32 368v32H480V368z" />
-    </Icon>
-);
+const BellConcierge = createIcon("bell-concierge", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABcwAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBSQsIAAE2AiQDCgQgBYMtB1gb8wTIhiBa6/3qmb0LAG2Y0cXFoWIJqFARfSJhAvYD6zf/59JF2WiA32hoUZY6kKKBZD6fwAFH6z0/wEjwAzrxE7F72/DkkMLTiJJCiWi8pHF6HaGIX/IpFdKV9B3OpzeOX7VxiqROBhCNATB55dL5Xn2Mjym+q3lMfGceAmIKKAUyMtoLME4WaK9QolAIPqaaGj5G+PMrCSCq8JlmUEUFs7AAUIAkpKJo2aBDvUqDYkW9St2t14ZEPJwT8c2Md7O+GnS/FA0i4kr3BnG73dUedevfaL22CdYLcaneaVIugBX1FKju6brca3zv987f7fjOh4UNf+ZNPzp8/Nih35ufG5ZeKbVusfgni1tkqvZX2suFeLixzu7XzzlFikXVzhobVK9e3wMCwarH1xdsbDTu/9r1Evj85M9/4VeUpHuoLYEg96vpZ10CiQAApDihS6JEIOsj4Uet76IAoS4CJFV1BcjaaSxAoa6+AlR0NFyAqrqWyqKoIzS3voKkvsMgG+EkKDT3CFSM86VT1TyyNwm+IDzmUmdIdPqscvCAQeWYUg0V0UE4Go8tp/VeJ7DUG3ba4aADjtlum92OCeaI+f5x+82w6Ok+qDTYAIOUxiiXk/vNK2x3xFG7HXQgThmr3G/3csJu7g1WwqxDzMkykSK3vEzhfyqE/xvtndv7e2Zd65F8DAEAAA==");
 
 export default BellConcierge;

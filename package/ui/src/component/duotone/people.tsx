@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people?s=duotone people}
  * @preview ![people](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/people.svg)
  */
-const People: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M112 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm320 0a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M59.4 304.5L88 256.9 88 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 16 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-223.1 28.6 47.5c9.1 15.1 28.8 20 43.9 10.9c9.8-5.9 15.3-16.3 15.5-26.9c.2 10.7 5.7 21 15.5 26.9c15.1 9.1 34.8 4.2 43.9-10.9l33.9-56.3L375 362.9c-3.5 10.4 4.3 21.1 15.2 21.1l17.8 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96 16 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96 17.8 0c10.9 0 18.6-10.7 15.2-21.1L546.7 248.1l33.9 56.3c9.1 15.1 28.8 20 43.9 10.9s20-28.8 10.9-43.9l-53.6-89.2c-20.2-33.7-56.7-54.3-96-54.3l-11.6 0c-39.3 0-75.7 20.6-96 54.3l-53.6 89.2c-3 5-4.5 10.5-4.6 15.9c-.1-5.4-1.6-10.9-4.6-15.9l-58.3-97c-17.4-28.9-48.6-46.6-82.3-46.6l-29.7 0c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9z" />
-    </Icon>
-);
+const People = createIcon("people", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABrgAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDFwsIAAE2AiQDCgQgBYMtB0gbsQXIHomxrYh95YwI/eLhebuvzn1VvwHWSIogr8AYjMCISnejQbZE1v0fAC64gP3/55p6YU0F8gH8lklto0ju1BLY89QLXIXJaCOaCc/aHLcYFomLRPiH2CtPw5Q/bO0hTyOyW5VIT6Wv8ED6H8D4SadbSSozANEAgEWb16/z3rl46quB14mvrEVALAaFQIYMPQLMlQn0yBXI5YJzCc4FBQFEmURkfqwMJbyCtwE5SELK87tra6tLtfmm6lLV5gljJ4gbWx+rvqf9iYioDgqMi8eCFPzdT5Wc9iWxIR7t19Brku6KtW2KRSZD/eTTw5+rqoq7hz7TsSEedVPjbJ3K3f7UsGdHPN8ddXtXrdg9+KWGl34Z9NWhr8y+/9ucd1bdnXfWRfFGDcz00lnfOP7qB29+zw/PffDq8XbDLtY+bXlFkz0D03s0IK9JxfJp7UMGm/xzY8Yen7rF//ff11ej7777/xfyKyoqVsza46Md2zv7dK3Z8ZHQPj52zHNvfvDqcacfqDp1zTWnqkrXQjwPBIL7P/lu/O76uf9UVCdw4d3f/jovdEBaegkVEgiysQNj7Ug3KshpIedJcbnBeC9nBDJ3S6BZ43EBQhUqJGWqINOtAXJVxkBJn2n6SY31MpFXCi12AiQ1LoLMdNdBrsVrUDLXp/EyLZE5rdHljP+M2ZYzvmxZMWn8xGJ28Vhxm/xQf0zOKaZ9Iy/fOkZB1iGnnXKpgw446lLiLrYudZmTlmvsMl9UmGS8iQqzFeb6rW0TxS92iaN9i32ROYr3oyNdrvcfhdUkwOTPXZARKbK6he4a5/yuBmlZ5QA=");
 
 export default People;

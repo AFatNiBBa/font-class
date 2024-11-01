@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `podcast` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/podcast?s=sharp-duotone-solid podcast}
  * @preview ![podcast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/podcast.svg)
  */
-const Podcast: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 224c0 94.1 58 174.6 140.2 207.8L132 374c-50.4-31-84-86.6-84-150c0-97.2 78.8-176 176-176s176 78.8 176 176c0 63.5-33.6 119.1-84 150l-8.3 57.8C390 398.6 448 318.1 448 224C448 100.3 347.7 0 224 0S0 100.3 0 224zm80 0c0 43 18.8 81.5 48.7 107.9L135 324l23.7-29.6C139.8 276.9 128 251.8 128 224c0-53 43-96 96-96s96 43 96 96c0 27.8-11.8 52.9-30.7 70.4L313 324l6.3 7.9C349.2 305.5 368 267 368 224c0-79.5-64.5-144-144-144S80 144.5 80 224z" />
-        <path d="M224 168a56 56 0 1 1 0 112 56 56 0 1 1 0-112zM184 512L160 344l32-40 64 0 32 40L264 512l-80 0z" />
-    </Icon>
-);
+const Podcast = createIcon("podcast", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkAAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCIgsIAAE2AiQDCgQgBYMtB0obPgXIHgnl9sgcYSl95nj4J6+v+5J8tZmWVWnQIy1nZ7jO7IhlNQKgqr4+gdffN/391B/W9AEfCPys88YeYOb5BHa+tlmSRoHNdAa23dlWSMtyKWkJSY5H4/hcIIvb0wtVkVyZvINL+X8A42dtXUiiLgUQTQAwpVi2wAvlKCfxTuUR4h3zERBTQS6QIkUHAcZLBTrI5MhkgnJSqVCOSiUngKjGWMqsxlP241xABhK7KcsaNuzXpX5Vw6zkP7femlvbXtnmiu63tbuq/dW9VpZWlAZF/RgQy6NefDol4sU5XeOpgfd1+nzZx8WnSz5ccU3/e0bn8fa0l4ubhj40962Zr8x+Y/ADef1PJ7SOfnFXp+v73T3q0T53drymd59oGc8XN018buYr45/Ju97V5K5fu7yz/R3ft/7jTxNTtL4dK/432f/CQRYrm1Wi9OMpxfZS45jbhFhUI4WNS9uLBvTlPZrV6MOX+ncslzv2f+nDRotjyo+Fs3xVr/auu7So99VZCj/GlA4nL3nxxUtOdgACwcjJa7ZvaDz+X+on4Ienfv8J/Y4qL8QLyV2olYAg7V/pb228APGCAAAkcVzXeMENCKTmS8RrbeAyAUI9BEhUqydAqr0mAmTq6SdAlU5GCFCtnmVSkdUJLawrINHAIZAa6SyQaeFhUGW815NqLSJVPUFxhI9f6kyJzpiXDxk4OB+bd6uyqE0cTY/Lp93ex11XH9hruwP2O2qbrXY5KpjDFuTH7DNzRM/wRbkhBhosN1a+3LhWSyI57IhdbXl9lnHy/V5vx8eD+8BiEsDQQ9uVEkmkjQ8e2PpQzAFX2Goq5bsKAA==");
 
 export default Podcast;

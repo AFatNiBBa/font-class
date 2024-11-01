@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-dollar` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-dollar?s=sharp-solid message-dollar}
  * @preview ![message-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/message-dollar.svg)
  */
-const MessageDollar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 0L512 0l0 416-208 0L160 512l0-96L0 416 0 0zM276 112l0-20-40 0 0 20 0 6c-5.6 1.2-11 2.9-16 5.1c-15 6.8-27.9 19.4-31.1 37.7c-1.8 10.2-.8 20 3.4 29c4.2 8.8 10.7 15 17.3 19.5c11.6 7.9 26.9 12.5 38.6 16l2.2 .7c13.9 4.2 23.4 7.4 29.3 11.7c2.5 1.8 3.4 3.2 3.7 4c.3 .8 .9 2.6 .2 6.7c-.6 3.5-2.5 6.4-8 8.8c-6.1 2.6-16 3.9-28.8 1.9c-6-1-16.7-4.6-26.2-7.9c0 0 0 0 0 0c-2.2-.8-4.4-1.5-6.4-2.1l-19-6.3-12.6 38 19 6.3c1.2 .4 2.7 .9 4.4 1.5c0 0 0 0 0 0c7.9 2.7 20.3 7 29.9 9.1l0 6.4 0 20 40 0 0-20 0-5.5c5.4-1 10.6-2.5 15.4-4.6c15.7-6.7 28.4-19.7 31.6-38.7c1.8-10.4 1-20.3-3-29.4c-3.9-9-10.2-15.6-16.9-20.5c-12.2-8.8-28.3-13.7-40.4-17.4c0 0 0 0 0 0s0 0 0 0l-.8-.2c-14.2-4.3-23.8-7.3-29.9-11.4c-2.6-1.8-3.4-3-3.6-3.5c-.2-.3-.7-1.6-.1-5c.3-1.9 1.9-5.2 8.2-8.1c6.4-2.9 16.4-4.5 28.6-2.6c4.3 .7 17.9 3.3 21.7 4.3l19.3 5.1 10.3-38.7-19.3-5.1c-4.4-1.2-14.5-3.2-21.1-4.4l0-6.3z" />
-    </Icon>
-);
+const MessageDollar = createIcon("message-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgwAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCOQsGAAE2AiQDCAQgBYMtBzUbPgXIjsM4hvwSSxniGA//b/df+9yq98UWqiVFlAbOhIzK5JU7mtXhxK+Y3+f/cs/PNh3gNzq0vRsbx6Qx5vMEAs0unyRZYJkmYLGkboqU6tEnX5ERZAsiO86y49kV8vgku6ZEei59j0fyTeM/HV0jqc4ARBMAZqxcusSXf8QfEd+V3yO+swgBMQMUAhkydBFgskygi1yBXC74I8rl/htYEEBUAJxouXVfwU3gEJKU5417a0v1+Yo4W5M1NjSmqIllEZ7NNgcPF+LJNi93eLLtU21f6dM2XvGIpywNT/Z9ut3luBxW1Te6RJ8QNEl3s06I2kDVM+1f6/xMO5l7te/liEhNvEr0jLR/ps9Ow1O1faJ79A31ZPR8s+nNhz3s4Es872ePbLTJ855vPdgGf0N/bVQ4fOT03qHr970yqFeTOdd7JKXSlid7vvAvDC/6eE8fCgi//12hjf7aKDm85fa+oevXvTZpNBDmXB8RStmxJ3sM37Q57+NpvV1+uwIIBDPmvDVtY+Pk/6tqE/jr4w/zW1T+MklvokoCQTa4PNi6BBIBAEhxQs8EgeSMBK9a52kBQg0CJBVqBMh01iRArsYgAUq6GSNAhRpLZSKvFtpYf4GkzmGQGes8yLXxDiiZ7Kt8hTaRFSFbQuw/YNJchuacKkYMHV5MLB4HJldXdBxOKrat/ifGwoB20Q4HHXDMdtvsdozII5aUjttvriLm+KDCCEMNV5ioOB6/SisscsRRpu+F82MmKd5P9ndCrx/Q3ASUI3UliUgNpakO+RgBAA==");
 
 export default MessageDollar;

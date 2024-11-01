@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gingerbread-man` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gingerbread-man?s=thin gingerbread-man}
  * @preview ![gingerbread-man](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/gingerbread-man.svg)
  */
-const GingerbreadMan: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M136 104c0-48.6 39.4-88 88-88s88 39.4 88 88c0 22.5-8.5 43.1-22.4 58.7c-2.1 2.4-2.6 5.7-1.3 8.6s4.1 4.7 7.3 4.7l64.4 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-8.3 0c-26.2 0-40.1 30.9-22.8 50.6l57 64.3c20.5 23.1 18.4 58.5-4.8 79s-58.5 18.4-79.1-4.8l-55.3-62.4c-12.1-13.7-33.4-13.7-45.5 0l-55.3 62.4c-20.5 23.1-55.9 25.3-79.1 4.8s-25.3-55.9-4.8-79l57-64.3c17.4-19.6 3.5-50.6-22.8-50.6L88 288c-30.9 0-56-25.1-56-56s25.1-56 56-56l64.4 0c3.2 0 6-1.9 7.3-4.7s.8-6.2-1.3-8.6C144.5 147.1 136 126.5 136 104zM224 0C166.6 0 120 46.6 120 104c0 20.6 6 39.8 16.4 56L88 160c-39.8 0-72 32.2-72 72s32.2 72 72 72l8.3 0c12.4 0 19 14.7 10.8 23.9l-57 64.3C23.7 422 26.5 467.5 56.3 493.9s75.3 23.6 101.6-6.1l55.3-62.4c5.7-6.5 15.8-6.5 21.6 0l55.3 62.4c26.4 29.8 71.9 32.5 101.6 6.1s32.5-71.9 6.1-101.6l-57-64.3c-8.2-9.3-1.6-23.9 10.8-23.9l8.3 0c39.8 0 72-32.2 72-72s-32.2-72-72-72l-48.4 0C322 143.8 328 124.6 328 104C328 46.6 281.4 0 224 0zM192 112a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm32 128a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM272 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM224 368a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16-80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const GingerbreadMan = createIcon("gingerbread-man", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABzAAAALrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGyDYQsGAAE2AiQDCAQgBYMtBzYb5wVRVA3KZB+HTVnzMdZIyijhEW6Ko/GHr/Hw/LH33Pver0XbT98oaQ2aYkU0K8RIjtIJzP+wq94fqMfotZnhSEbnIFNv5UfP/+Wen007wC9+fiirsTZt/9hczxMI4zEWBdi2rIgS0kza9rcXRD3EhUaDLdTYrZOQvMnngIvwTeMPFksglQKAmAEA7B5XFOEBFxzR8/9XIR5QAAJiDzBCKCjoIbCBL9AjMAJVFXzT///mP3AEAUQTMZoWVXTwCngDpm1I12KBoCJPiiAjVAiq8+VkDfsDiE7HXPU76djju8WwlWHoqB5i2aHf4imjI+YdhjLaKbp7HvE+Zi2nbbJV+lIaBHfZKmg7hnjL6Jhxm3W3absPQ6vFKcZTzporvkQn7AssMjrie8K80++kF0NbDVvP6U9YyO5zPAA2QxktwUcDTtt2+5fTNt9mYgjsAN7lf8pbRrtpXwVFV243bTNu0Z/TVHmqGsP2i9dOrsf9lPrUW7fn3c+xvEawAliRmrpiReXlROg8hakY/fde3Hr/b1SC1NbW++vNC5suZ2nrxyHsUih2DeFDW6nTJRLOr8f9LWuq5OjlUyH01EXk8Gp6LrwEXjDDH6HgIiKUyogITmKDT3TNesTY7JUTFx9mDePEiRNkPbw4UWm3xaxHjXfMBokZE4ofLubFywsu7xFOqeQyi2uuMYWsNyxZQlRTUlVyPkAgOO3lK1umE7+2GR7g99b7X/QjZv7vxYU8BdoSBGXpf6DGeAA1dVxA4nDGNPeNb0JItxDDq064RCCMIUBqGhOg6FIjUI1ZRKBhIAqBpjH7+KJKERY0dSBNOAfFuhlQLbgMGjY8CjctBJ+xRWwpeq9Mnj1EspqxYcGhbDy7GteIeZX36hPYw3rf6UmeH0ai24hhk7p06jM5oMYVxaYMyd6iZ32WFSZYKFY89nLqqbx6EB43oW9Z43ojCdjn3b6mt0v7wcQTMy5rnZJIVc9nTvLG/3ogEDTUNgwAAAA=");
 
 export default GingerbreadMan;

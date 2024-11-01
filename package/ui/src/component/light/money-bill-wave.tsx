@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-bill-wave` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-wave?s=light money-bill-wave}
  * @preview ![money-bill-wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/money-bill-wave.svg)
  */
-const MoneyBillWave: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 184c35.3 0 64-28.7 64-64l0-.5c-18.5-1.4-37.1-4.4-55.8-9.5c-2.2-.6-4.9-.2-6.9 1.2c-.9 .6-1.2 1.1-1.3 1.2c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 .1L32 184zm0 192l0 46.3c0 6.8 3.7 10.4 6.2 11.3C57.3 440.8 76.5 445 96 446.8l0-6.8c0-35.3-28.7-64-64-64zm0-32c53 0 96 43 96 96l0 8c44.7-1 91.1-11.7 141.3-24.5c4.3-1.1 8.6-2.2 13-3.3c51.8-13.3 108-27.6 165.7-28.6c.2-52.8 43.1-95.6 96-95.6l0-128c-53 0-96-43-96-96l0-8c-44.7 1-91.1 11.7-141.3 24.5c-4.3 1.1-8.6 2.2-13 3.3c-51.8 13.3-108 27.6-165.7 28.6c-.2 52.8-43.1 95.6-96 95.6l0 128zm503.8 58c2.2 .6 4.9 .2 6.9-1.2c.9-.6 1.2-1.1 1.3-1.2c0 0 0 0 0 0l0-.1 0-71.5c-35.3 0-64 28.7-64 64l0 .5c18.5 1.4 37.1 4.4 55.8 9.5zM480 72c0 35.3 28.7 64 64 64l0-46.3c0-6.8-3.7-10.4-6.2-11.3C518.7 71.2 499.5 67 480 65.2l0 6.8zM0 422.3L0 112.5C0 88.6 25.6 72.8 48.7 79.1c79.8 21.8 159.6 1.5 239.3-18.9c87-22.2 174-44.4 261-11.9c16.9 6.3 27 23.2 27 41.3l0 309.9c0 23.9-25.6 39.7-48.7 33.4c-79.8-21.8-159.6-1.5-239.3 18.9c-87 22.2-174 44.4-261 11.9c-16.9-6.3-27-23.2-27-41.3zM224 256c0 47 31.3 80 64 80s64-33 64-80s-31.3-80-64-80s-64 33-64 80zm64-112c55.6 0 96 53 96 112s-40.4 112-96 112s-96-53-96-112s40.4-112 96-112z" />
-    </Icon>
-);
+const MoneyBillWave = createIcon("money-bill-wave", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABvgAAALTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDcQsGAAE2AiQDCAQgBYMtBzYb9wUjEaZTUCL7IyEnc2lvRCyEWKkUlq4dDV1zfBLP8+33v31m5osoEuFVSHhlkUxD9kaj06wRunnzRhNNln++/7fW/uxxJnuiyOCueQlNxOcwaapJGyHxiMz/NZ/f82vAzyd629AiLRsr4vkEBhjtTdEgs+HsQCdmW9x2tSqohDQeCmto+ZKePsqd8hE3wofmvyXXKVoFkEkA7D9++JDXP/Mz+dgdk48OIpADYLOgomJVwC5VsKrZjKYJP9N14j8QEyD90gsKaBjGJ/wBNFAMttaynWSbRrJVoRD2iU3yDPOC4nVnFKMBZc1uTDmC+tWeAIBgVLVqizLlROzQA0eUTTNAX/njmlN/5DvvbPRHOZmONUd5zxlRHvng9BmHDR+oHNWMn+cmnxWHDS1KlBdNHr6qLcqYes0OalgUa1ozbnsbf5/8lf+Vu6qjMqEcsbuLuUl4z3nPW9Pnz+6NW3c2Wsw5ETtiN80/dn0/ZsZhy+fEjZiLX7Lrb0Vk5Nfype4FLLh3aQBaAPZPsSckJOHC7RT8/Y9XXBDQ9AJmCCA8HkRRicrKzMaJ8QUeIQwDcwJBU1X0/AdeGoIgHhbopyb4JwpoAHrBDaz2p9Q3Daf+flufbZzuRdCR3AgepZoW+wEa4xHcyKE/q9UWwIZhbGxZmS+G7m0fWADzYvH8wgDm4+OhQBAWX731n58I2RgUFvD76d8GOlz3uewrBIMKCLXX9ZwpESCoAZwlV21d+aKg+GBQetdRNwXEMAKKfsMCqhWTApph2wX0WbdDQL9hh1VpQ2LW2QqKURdAtdM10My6B/rs8sbR73Q2FcD54Mn/v0wS14diB2FPNw8chBdzsgBmubY3GO+WOfTJGke8Euq0a9OjVo1GPT2yS6q7V6u4NTgWgzBPbjxgQfDp4uPFeWp16daoXZvvJxi+3+Sgb725I1ZSEkcvSZQCKtLmIHVtb1LXLw8AAAA=");
 
 export default MoneyBillWave;

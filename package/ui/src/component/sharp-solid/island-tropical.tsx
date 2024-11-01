@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `island-tropical` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/island-tropical?s=sharp-solid island-tropical}
  * @preview ![island-tropical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/island-tropical.svg)
  */
-const IslandTropical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 96L62.2 96c0-36 38.4-96 128-96c58.4 0 95 25.5 113.5 53.2C323.6 40.6 350.2 32 384 32c89.6 0 128 60 128 96l-64 0L416 96l-32 32-82.5 0c28 79.9 21.2 170.2 9.9 226.1C370.9 365.1 416 417.3 416 480l0 32L32 512l0-32c0-70.7 57.3-128 128-128l64 0c29.7-79.3 29.4-150.9 22.8-194l-98.9 98.9c-25.5-25.5-40.7-95 22.6-158.4c1.3-1.3 2.7-2.7 4.1-3.9L144 64 112 96z" />
-    </Icon>
-);
+const IslandTropical = createIcon("island-tropical", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZQAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBQAsGAAE2AiQDCAQgBYMtBzYbxgTIhof/1nq7r7rnn6TnB7nCjA6W/DpkUGhRrZ6pm+edRwG+UWhj4dJAFsgY4zyBAN+6PNKxwDJNwFK3feUGUd5E5AieI4a2UF2gjNeLG9RIt6YvcGN/aPylmxtIWhYAoi0A5m5ev9I7v8fvEZ83XiQ+txwBMRdkgQIFegowQyHQUymjVAp+j0ZD/4GZAKKJnSaBEgUWYgWgBEmU5cx6rVW5qV6rtlf16trhj29+ceCD3R5f/OPQR1UxLIZEFc/ma3q+OPLJXqI5Iu6f/fbiejzf//7eG+Kx3nfNv7lLAt7vsbaP/dP3i0NfOL17HGC9//1tXnrmrbd/eD+P3f33a+85GhrWmdE887Zf3nu3TXaNrDZh/po5tvfrO2ffPgvq9W9S/lcDCAQv3rP6lt1tZvzfop7An6/99498RrnxTpIeQwsJBMWIxgg7EplEAABSXNIvkQWSmRKstdlNAoQKAZImlQCFHtoKUKoMF6Cmt4kCNKmsV4iypdDRzgWSZmdBYZLLoNTR86Bmho/VJh2jIBJFA+obF7/IIwvH8thRY/K0fPRNmhtE7U/PaWHIpZIbilmHnHbKBQcdcNQFh52z0rjopEURutCLsrFGGSObJl9H79ObHHTOeUeddqoNmS6/V4a4FFcPhZwY7ji2JBGpDdXNIy+cO33m6P69JwA=");
 
 export default IslandTropical;

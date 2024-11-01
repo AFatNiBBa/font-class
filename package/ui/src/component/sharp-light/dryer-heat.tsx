@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dryer-heat` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dryer-heat?s=sharp-light dryer-heat}
  * @preview ![dryer-heat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/dryer-heat.svg)
  */
-const DryerHeat: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 32l0 448 384 0 0-448L32 32zM0 0L32 0 416 0l32 0 0 32 0 448 0 32-32 0L32 512 0 512l0-32L0 32 0 0zM104 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM336 304a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zM80 304a144 144 0 1 1 288 0A144 144 0 1 1 80 304zm107.3-83.3L200 233.4c10.2 10.2 16 24.1 16 38.6s-5.8 28.4-16 38.6l-9.4 9.4c-4.2 4.2-6.6 10-6.6 16s2.4 11.8 6.6 16l12.7 12.7-22.6 22.6L168 374.6c-10.2-10.2-16-24.1-16-38.6s5.8-28.4 16-38.6l9.4-9.4c4.2-4.2 6.6-10 6.6-16s-2.4-11.8-6.6-16l-12.7-12.7 22.6-22.6zM280 233.4c10.2 10.2 16 24.1 16 38.6s-5.8 28.4-16 38.6l-9.4 9.4c-4.2 4.2-6.6 10-6.6 16s2.4 11.8 6.6 16l12.7 12.7-22.6 22.6L248 374.6c-10.2-10.2-16-24.1-16-38.6s5.8-28.4 16-38.6l9.4-9.4c4.2-4.2 6.6-10 6.6-16s-2.4-11.8-6.6-16l-12.7-12.7 22.6-22.6L280 233.4z" />
-    </Icon>
-);
+const DryerHeat = createIcon("dryer-heat", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABpgAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDFAsGAAE2AiQDCAQgBYMtBzEblQXIhof/15nd96Uh2Ql7JuEfAlwgJnULVLRztiOsPf+Xe37Pjw7wGx3KWBtkTKD2wgQCDJcGHkhZIL1MT8CytukVRQxee1SOMZ8hC+1hIe0BZTwSs3WQHkrf4Q770PjVSNeSlAWAGAyADQfss5u6P/ojvmu/R3xnFwTERpAFChQYI8BqhcAYpYxSKeiPdjv/B2YCiE585QRKVHgF7wBKkHSXZc+Qnp7RoyfkRseAcv9GR3VIKtKAKKI5s1ENEClE1YwoIvZ7buSDk58f9ci0HY9Mm639fleNinh46vPVzZOfHfGgK0c+NOW5xi3TXhj9SDSvmhfxxqpPGres+GjOa66c/eryD6ubV3489/U4oNXbus+Vw4fHva5stWJ69Mb9cVVfXzwQV/X2xqz9nEvRmvjy4Jd/n/Dd8d8Z/0TN+1eqXdnOuc5qWX7SGids26vV2qtLF1QM5974cdzP/Pz44+PGJe/nn8dJx7pkWiYPGzp16tBhOU9DB7yT9/6WX7f7+to3Or6n5/hP7edbetihjR2FJwCB4OwZV/1+xKDV/3c3Evjp4z//Zm1Ru446vYxuCQTF7PZsh0YNUQsAQIrzTYwageQZ3fiuTfcLECoESDpVAhRGGyxAqTJLgA7jLBGgU2UfhSh7hOEOWyBpOgsUlroMlIZ7B3RY7cuk0/AoQpYKOOqHMX6rQltO5QVz5+eVedsx6Cgk2uaq/Fiffn6ZmIGrjneG053rOMc6ybmCnG23/Dyn2erBW/xQtsBc82Ur5eP+V35/Sc52jpPu2fNjVsnvx9Od78+fASsh6kI3kkSk6tizLzru7DkfFwAA");
 
 export default DryerHeat;

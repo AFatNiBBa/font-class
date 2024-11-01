@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `beer-mug` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/beer-mug?s=light beer-mug}
  * @preview ![beer-mug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/beer-mug.svg)
  */
-const BeerMug: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 0c-26.3 0-50.2 10.6-67.6 27.8c0 0 0 0 0 0s0 0 0 0c0 0-.1 .1-.2 .1c-.2 .1-.4 .2-.8 .2c-.7 .1-1.3-.1-1.6-.3C125.7 20.3 111.3 16 96 16C51.8 16 16 51.8 16 96s35.8 80 80 80c15.3 0 29.7-4.3 41.9-11.8c.3-.2 .8-.4 1.6-.3c.3 0 .6 .1 .8 .2c.1 0 .1 .1 .2 .1c0 0 0 0 0 0s0 0 0 0C157.8 181.4 181.7 192 208 192s50.2-10.6 67.6-27.8c0 0 0 0 0 0s0 0 0 0l.1 0 .1 0c.2-.1 .4-.2 .8-.2c.7-.1 1.3 .1 1.6 .3c12.2 7.5 26.6 11.8 41.9 11.8c44.2 0 80-35.8 80-80s-35.8-80-80-80c-15.3 0-29.7 4.3-41.9 11.8c-.3 .2-.8 .4-1.6 .3c-.3 0-.6-.1-.8-.2c-.1 0-.1-.1-.2-.1c0 0 0 0 0 0s0 0 0 0C258.2 10.6 234.3 0 208 0zM163 50.5C174.5 39.1 190.4 32 208 32s33.5 7.1 45 18.5c11.3 11.2 29 12.4 41.8 4.5c7.3-4.5 15.9-7.1 25.1-7.1c26.5 0 48 21.5 48 48s-21.5 48-48 48c-9.2 0-17.8-2.6-25.1-7.1c-12.8-7.9-30.5-6.7-41.8 4.5c-11.6 11.5-27.5 18.5-45 18.5s-33.5-7.1-45-18.5c-11.3-11.2-29-12.4-41.8-4.5c-7.3 4.5-15.9 7.1-25.1 7.1c-26.5 0-48-21.5-48-48s21.5-48 48-48c9.2 0 17.8 2.6 25.1 7.1c12.8 7.9 30.5 6.7 41.8-4.5zM32 187.9L32 448c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-13.5 80.1-35c29.1-12.7 47.9-41.5 47.9-73.3l0-54.1c0-44.2-35.8-80-80-80l-48 0 0-4.1c-9.7 6.7-20.4 12-32 15.4l0 220.3c0 .2 0 .5 0 .7l0 23.6c0 17.7-14.3 32-32 32L96 480c-17.7 0-32-14.3-32-32l0-244.6c-11.6-3.4-22.3-8.7-32-15.4zM208 224c-8.8 0-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16s16-7.2 16-16l0-160c0-8.8-7.2-16-16-16zm224 0c26.5 0 48 21.5 48 48l0 54.1c0 19.1-11.3 36.3-28.8 44L384 399.5 384 224l48 0zM160 240c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16s16-7.2 16-16l0-160zm128 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16s16-7.2 16-16l0-160z" />
-    </Icon>
-);
+const BeerMug = createIcon("beer-mug", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABxAAAALfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSELAsGAAE2AiQDCAQgBYMtBy8bKwbIHoexm2WIhYZOXH7Ew/f7/W/tc+8Xw1XTgySeGZJ6c03i1ULBG57+EJ8B4/LuqcloazAaUSW2OfQPZVE7cU39XIY3PeFQIhOboijzfAIDjrI17nFAs4GNdDgB29uUFszDGj4eI8RZiI1/4PHuCnk8sRcx6azgLQ5fbxq/NDdMkmcAiHoAYPzShbO9f42vEb9F4q2ZICAmANohMmRohWAUoUArIu1ALhd8jWLx/A9sBwFEKejOBHJU4D8BGg9JWS7K6z6spl51tVKsFmVXlSgKHnUbICYU+3hF0Vbs2654HYRNeQwoDTUDlDfnnU/lBClQ7udlZdWRw6r3Yfika1DrksvjE2923fHa8ZhT7jebsZo3nXadNN913Xfd9eaqacUV81nrJQv7mB2fzJQJFrwO3JSx53Nkw8jpLJslKjdiFUFOuyIudpmG/JWchOcwuGuedaIReNJszoIxa668bMaYsQLPuGZGUFl6qsmst2p8MR1u6A7/279d99aHF5sfAyACPZvWKyyJyC7Ua9qTAATAjc1OStY6CuMh8Hjz6/rn1usnrLxSp9Gnd1n297FfnSsFYzWl30fyp0Zl/XZP5LlIoUe7ESzXV9Zgbgd5b940G2Inth+RH/mn3GY0e8brfOWNtfIfdzsa65xDna8c7/eRY+cQmqfJrZ3rV7fus5zhfgS4QSCYW6j4sbbuqNryKgHg++N/tfAzqld8maQboFwCQdar2Ethoh4kAgCQoptzoh4i+acMvWq1UwKESgRISlUKkGlJhyBXqSeCEm2EIShVaSGhyOUIjRQNaVJtizQzRI8018iVtMQoH6lSjSJLf3Xyqn8+M0yR8ORF7fr36dduRLtpza3JaCXOjmzndnTbCT3dy0HVWjTrVKVSnU7Bb5eR7dIkfcVM80GOgvgL5CiaY7i5NmRXORs6utLWxueJ4fh+xFP3erhXcQuQzAFM6RMsSbLyQmFr7w071gMAAAA=");
 
 export default BeerMug;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilets-portable` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilets-portable?s=solid toilets-portable}
  * @preview ![toilets-portable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/toilets-portable.svg)
  */
-const ToiletsPortable: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 0L224 0c17.7 0 32 14.3 32 32l0 32L0 64 0 32C0 14.3 14.3 0 32 0zM0 96l24 0 208 0 24 0 0 24 0 368c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-8L48 480l0 8c0 13.3-10.7 24-24 24s-24-10.7-24-24L0 120 0 96zM192 224c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64c0-8.8-7.2-16-16-16zM352 0L544 0c17.7 0 32 14.3 32 32l0 32L320 64l0-32c0-17.7 14.3-32 32-32zM320 96l24 0 208 0 24 0 0 24 0 368c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-8-160 0 0 8c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-368 0-24zM512 224c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const ToiletsPortable = createIcon("toilets-portable", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABggAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCLQsGAAE2AiQDCAQgBYMtBzcbNAXInge2rWatCBjjNUqybdcoCIj8hBCtZWZvv8QOyLYKFQsNaAygfV1i1SoUpkZUSCBbI+r3zOm/AuG1HSErIHBEStdurOKGwi/C9E2RSwE4IBNuBWCng2FTp57nPBTA50Q8aHtYLr7B0zlsTNCer21jU68CtYJVFLs7m2KHpj2OJSkL+T3jeFwgx1txjhLpRvYJjtKXxh+vc5LqAkA0AQCmf7Abgkhi0Ov/HfGqEwTENKAHoUCBDgTGyAU6KPSALAu+SZLCfyBDAFGB35ZARhV2QRmQQVKRc4vXiK6+VJ/n8aCalVpd7Z7zAqIuIsruK/1Qg60XKa6T7n12TRCu8Ni5cwe6cF65B3HpWliZ3Re3PCcin/OfwhN4gen6OgN6yBnhCY8HHpuc1+/U4E6VrNqEZ0fiOqbv3Jjbr7nXAQJBeeJlwlz1o9En8Pv8/U/P+xdkdSkOqiQQFANSltHWAQ5NQJBiW1QZYSBZdZafWudSgFCDAEmFGgEK7SwIZDX6ESjpUoxAhRoz5CJXC23GCkjqrIHCqAOQtbkBJWNe/AptkZsfZTzU7y++pYaah3F+Th5XcDcmtEURsb6Sh/W0fcxLh72Yt2HdrjmzluxWyLbuaM+aFg1u9kMsX448rAIvp263j5izbceSDevUTSXe76TZ10ungyXDuIMWJYlITbsbSw9Vyb6BAAA=");
 
 export default ToiletsPortable;

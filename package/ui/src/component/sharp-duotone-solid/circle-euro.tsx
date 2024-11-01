@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-euro` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-euro?s=sharp-duotone-solid circle-euro}
  * @preview ![circle-euro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/circle-euro.svg)
  */
-const CircleEuro: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm112-48l40.7 0c19.2-46.9 65.4-80 119.2-80l41.1 0 24 0 0 48-24 0-41.1 0c-26.3 0-49.6 12.6-64.4 32l96.5 0 0 32-111.1 0c-1.1 5.4-1.7 11-1.7 16.8c0 5.2 .5 10.3 1.4 15.2L304 272l0 32-97.6 0c14.7 20.3 38.5 33.5 65.5 33.5l41.1 0 24 0 0 48-24 0-41.1 0c-54.4 0-101-33.8-119.8-81.5L112 304l0-32 32 0c-.6-5-.9-10.1-.9-15.2c0-5.7 .4-11.3 1.1-16.8L112 240l0-32z" />
-        <path d="M144.2 240c-.7 5.5-1.1 11.1-1.1 16.8c0 5.2 .3 10.2 .9 15.2l-32 0 0 32 40.1 0c18.8 47.7 65.4 81.5 119.8 81.5l41.1 0 24 0 0-48-24 0-41.1 0c-27 0-50.8-13.2-65.5-33.5l97.6 0 0-32-111.4 0c-.9-4.9-1.4-10-1.4-15.2c0-5.7 .6-11.4 1.7-16.8L304 240l0-32-96.5 0c14.7-19.4 38.1-32 64.4-32l41.1 0 24 0 0-48-24 0-41.1 0c-53.9 0-100 33.1-119.2 80L112 208l0 32 32.2 0z" />
-    </Icon>
-);
+const CircleEuro = createIcon("circle-euro", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABmAAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCZQsIAAE2AiQDCgQgBYMtB1IbiQXIFkrLw/N2fZ37qrp/d9UYNRN1D6QIxAoZFNnpINx1BCAG0fN/Tb14fhRl9z6IXOW6KNK7nk9gzwdyPmqQ4SY00xnYdqflZPJJkkZrST8r/Up3BJfDM+TxTna1Gunu9BpuDP8DGN8Y7GqSZgYgegFg8ZYNqzz1YXyY4rXOw8RrViIgloBKIEOGYQLMkwkMk6uQywUfpk6HD6PTqQgg6sI7ZqCOGm7DA4AcJCHl+ayhs8ta93xzWSu23Oby/kWIMu5vn5xelhFF8eiYMiKKuCOuGIih0zPJ0sOtE8OYF7+/OOLpVa+X1655c+mzWz5Y8szqN4prVr626KmNW8qifHAsG+Uv40askFDwqPipEUVoCRUvGX2q16nvRr12+DU3vtnVbNQrlZZPfv/spvagSQa1b75sv8o5BjSaA89R2evsy8m2y3/97JM2rvdTljcZ/NDTS5c+/dDgpuX2V7FzJrZj5pPPfpUEz947jRnYbAzg9rvsZv6mz37/pFXo6mp2padBIPhn/Guz9vSc91ujTODjJ3/42vyQdJ5K0ik0JBBk4zrj7EwgEQCAFBcbnTgXgcxGif3Ubu4QIBQIkNQVAmSG6iVArjBWgJoRpgtQV9ggE3lT6GdXAUk354HMDJeAXD8PgZp5XizX9YtMNyXNkp6G6StElx+rJk+YVM2pun1ZVjfB7c+t2P7WxZtrg6fDznG2Cx1y0DEXgp9vVe0iZ1kxwpb7ospkE0xSmaMSj271zZTPd4FjtCo/ZK5qfrrl4vHqNpwmAabsakdGpMj6/uExxl8R9vhjvtC/VU80AAAA");
 
 export default CircleEuro;

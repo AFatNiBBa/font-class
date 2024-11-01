@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `memo-circle-info` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memo-circle-info?s=sharp-light memo-circle-info}
  * @preview ![memo-circle-info](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/memo-circle-info.svg)
  */
-const MemoCircleInfo: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M352 32L32 32l0 448 264.2 0c10 12.1 21.7 22.9 34.6 32L32 512 0 512l0-32L0 32 0 0 32 0 352 0l32 0 0 32 0 166.6c-11.2 3.2-21.9 7.4-32 12.6L352 32zM64 128l16 0 224 0 16 0 0 32-16 0L80 160l-16 0 0-32zm16 96l192 0 16 0 0 32-16 0L80 256l-16 0 0-32 16 0zm0 96l128 0 16 0 0 32-16 0L80 352l-16 0 0-32 16 0zm464 48a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160-80l0 32-32 0 0-32 32 0zM400 448l0-32 16 0 0-48-16 0 0-32 16 0 16 0 16 0 0 16 0 64s0 0 0 0l16 0 0 32-16 0s0 0 0 0l-32 0s0 0 0 0l-16 0z" />
-    </Icon>
-);
+const MemoCircleInfo = createIcon("memo-circle-info", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABlgAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDDwsGAAE2AiQDCAQgBYMtBzcblgXIhof/t+v7fW7VU1W/NTXyHQlfYAZF35Hgzj6YQ4h74nL64/xpgYxVEYQ25raFYy2cAgGG5ZtKy7MwSxQ7mvfgQIZ0C4lHKOPTmK2LdEv6ANc7Hxq/GulKkrIAEA0ANhy03x7aX8VXER90XiA+sAsBsRFkgQIFxgiwWiEwRimjVAq+ik5H/AdmAohu3gMTKFHhYTwDKEHSW5aj++p6tMGYVnf1lwfeWp3U6m+l6I9bprSqiCIi6n4h7h8SR9dVEamqOEDA9ULU8CuPuWxUxK1TH6yumnz/iJtdOvKWKQ/UV097aPRt0bpsXsRTq16rr17xypwnXDr78eUvV1etfHXuk3GQUJ1Qsn+IOiLsglqIy+KyFkDmqOLnTHy0efT3CR+c+IGj7lq/fn1br6/XzMpZW5aPzh5S/Pjc+KOaRtb8lQcc1W5/gmUW9+hLL70ha3Z9PG/cz/x8553jxiHi55/HjVPb+0zL5MGDpk4dNDjnabIOe+/aK3tMWZ53V4435jujLDfWA80AWd4PAsGGNy+/6agBq//vrRP45tU//5be3Gmn9elR9EogKGZ3Zjs8rQchGUAyxYUmjnxRILlbL+9dW24UIFQIkHSrBCiM1ghQqswSoMs4SwToVtlPIco+YYgjSjJpOYcsLHURWRriObLLam8nug2JAl4V0Ka4XUy7tQ5v2ZYXzJ2fV+bBulwJgjJzflWebZ1+oeybgQ860VnOdL4THO8U59fQc+2RvsAZto4hW/xQtsBc82Ur5dWt29oDqfdc50lZv2r9Jqvk/YPTXTg+egZ2JJ7UhaqSRKTmR7nGOW/26OZcCwAA");
 
 export default MemoCircleInfo;

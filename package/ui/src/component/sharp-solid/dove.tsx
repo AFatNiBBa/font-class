@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dove` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dove?s=sharp-solid dove}
  * @preview ![dove](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dove.svg)
  */
-const Dove: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M210.3 138.7c-18-11-34.6-24.4-48.4-40.9c22.8-50.1 59.9-82 75-95c1.2-1.1 2.3-2 3.2-2.8c-3.6 55.7 17.7 103.1 48 140.7l0 29.6c-24-5.8-51.9-15.8-77.7-31.6zM320 174.5l0-30.5c0-44.2 35.8-80 80-80l112 0-32 56 0 168c0 88.4-71.6 160-160 160l-83.2 0L160 512 80 496 0 432l153.8-51.3C117.2 360.4 32 296.6 32 176C32 111.5 69.6 65.1 87.9 42.4c3.5-4.4 6.3-7.8 8.1-10.4c25.6 128 160 170.7 224 176l0-32.1s0 0 0 0l0-1.4s0 0 0 0zM400 160a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Dove = createIcon("dove", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdAAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCBQsGAAE2AiQDCAQgBYMtBysbAAXIhofn7ao/91X1LKCaWRsZnAqfcL5IvxT29Df/vPMowGeRhTY2LQ1kTKA5zxMINOryRTT+AvumX8D+24ZINSTxRYQUiUT8huO1Qh5vZqeUSNfTVzjLHxo/a+EUSY0MQNQHwNjF82d672bcjPiy/DLxpekIiLGgEMiQobUAI2QCreUK5HLBzSiX839gQQBRQd4pgRwlbMAeQA6SLM+bjKpRq1QnX1SrVHP5E92e7f5ks+NxtdnVuKvN3V3FK8MWhri3+5ODa0WfED+NeGtBzVgQi2JRLI5Huj3R65mqe3s/28o/0ez+kW8PfX1gxHEikV28eLQrTS81vtyk6on6T/xa+dWmr3w/4L7JTRYv+hxo8cEPO9qYfGZn+3bt2sWijfX3+N9jYvxXX42P+WaMNrue2aNd72fo669tXVqrXWXlH4IBDW+cOn3zVoMCBJhd92ZdxhMaiGPjb0z6cnW9Ef9Wr5XA7Td+/1X7FZXfS9ITqC6BIOtR7mFFAokAAKQ4pCpBIFkhw2et7YoAoSYCJBVqCpBppb4AuZq6C1DS1kABKtQ0XybyGkJjKwdIatsLMoMcBrnGXgQlI3yqVWgcWaiRgUL+9OImaWjiWNG3V59iWLH1dSp6cOoPL9xil0Ml1xUWbbLbLgdstMFWBxSyz0zzoJ0mWfBEX1Toq5c+CsMUx9Hz/CIb7bPfVrvtqkOGK+6rXRyyq7uCkghmP0J6Ak/KN+w+tBEAAA==");
 
 export default Dove;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-peace` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-peace?s=sharp-solid hand-peace}
  * @preview ![hand-peace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-peace.svg)
  */
-const HandPeace: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0l0 240-64 0L192 0l64 0zm96 160l0 128-64 0 0-128 64 0zm32 32l64 0 0 128-64 0 0-128zM101.5 69.8L175.9 240l-69.9 0L42.8 95.4 30 66.1 88.6 40.5l12.8 29.3zM64 363l0-91 56.1 0 69.9 0 66.1 0 0 48 0 32-96 0-16 0 0 32 16 0 112 0 16 0 0-16 0-48 64 0 0 32 96 0c0 88.4-71.6 160-160 160l-61.7 0c-42.4 0-83.1-16.9-113.1-46.9l-11.6-11.6C77.5 429.5 64 396.9 64 363z" />
-    </Icon>
-);
+const HandPeace = createIcon("hand-peace", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABaAAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBbQsGAAE2AiQDCAQgBYMtBzEb7gTIjsM4hjzFl4MoLR6+t9Xv3Nc9Kz3fpb+YCRJZRAobQoZnOiFFvEVqElKTQF+1E9c8//OnByz8F360aCptjNKnqEWdT2CAs6IEj7LZcDZRnLUzJQbhyiD0KU8yjDdsTpDHZ9ljFdL7qYa30ofGL3p6TNKcAYgOAFiwbdMaX7dGa8QP9YkfrEJALAClQIYMfQSYLRPoI1cilwtao153/4ElAUQDvDSBHI3YisOAHCSVPG9ubm47tFppm2+tVopdQhER1S05NaJaVIU//OCWrVuK2Bq9YlX03B6iWhWiKKwUe0oou/84+/PNRfw0t1t8OXBgS4eW3wbUjtbUv/oTOP5k3wf3sdw3v065r7s9b6z4KCxfau7baj70+eDBu7B9+vPxSvs7lDrc72C8+YIgFtVqi2Lumf5vsSQHAsHHY16/qv3s/5qqCfz86R+/1fv1q38dX6cWNEkgyEbXR9ud6Gd+fC0AACmuGqh8USBZqwLv2sY7AoQCAZIGhQCZ3joIkCuMEqCinykCNChskom8Wehiz4CTNi7AmanuwLkuPoErZvvGa9AlMnox5GB+d4lLJbBkUTlh7PhyZrnMNZYxVJidVR4rw6/6nhFmo6POOeuyIw474bKALloTXnHGUg1c4odKE4w1Xmmm8rp6Xr3VERddcsI5Z+M8s5TvjeGu6sNHGD0B6USZJBGpYKM8hqwAAA==");
 
 export default HandPeace;

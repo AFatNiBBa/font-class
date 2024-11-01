@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shoe-prints` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shoe-prints?s=regular shoe-prints}
  * @preview ![shoe-prints](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/shoe-prints.svg)
  */
-const ShoePrints: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M323.7 62.6C355.1 54.7 390.3 48 416 48c41.2 0 89.8 10.6 126.5 28.9C582 96.7 592 116.3 592 128c0 9.4-5.1 21.5-35.9 33.1c-29.4 11.1-67 14.9-92.1 14.9c-34.7 0-53.5-10.4-80.2-25.7l-.7-.4c-20.6-11.8-45.1-25.8-79.1-33l0-49.1c6-1.7 12.7-3.4 19.7-5.2zM256 160c48 0 76 16 104 32s56 32 104 32c56.4 0 176-16 176-96S512 0 416 0C352.3 0 256 32 256 32l0 80 0 48s0 0 0 0zM128 96c0 35.3 28.7 64 64 64l32 0 0-128-32 0c-35.3 0-64 28.7-64 64zm67.7 353.4c-7-1.8-13.7-3.5-19.7-5.2l0-49.1c34-7.3 58.5-21.3 79.1-33l.7-.4C282.5 346.4 301.3 336 336 336c25.2 0 62.7 3.7 92.1 14.9C458.9 362.5 464 374.6 464 384c0 11.7-10 31.3-49.5 51.1C377.8 453.4 329.2 464 288 464c-25.7 0-60.9-6.7-92.3-14.6zM128 352s0 0 0 0l0 48 0 80s96.3 32 160 32c96 0 224-48 224-128s-119.6-96-176-96c-48 0-76 16-104 32s-56 32-104 32zM0 416c0 35.3 28.7 64 64 64l32 0 0-128-32 0c-35.3 0-64 28.7-64 64z" />
-    </Icon>
-);
+const ShoePrints = createIcon("shoe-prints", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABsQAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDPQsGAAE2AiQDCAQgBYMtBzIbvwXIjtFjRxg+Rq5EBiMeXjzP/1p635+ZLSJZIKNzqqqSVAGgri4rJmHQVVev//9rrPvAZzBNfMTEq4gnMSkJKodmu/N/Tb53WAH4+U78UKK2WaYWeObzCex5tTdtIlFgE5mQb3DeqCcAlSF9C3X+0xkN5Wr5CE67D80/qroomgoAGQgANh2IDMblT/qZvLT3yAeBIJBNACYiVKgwFoG1BAVjCZkIarXwM+02+w9kECAthIsXUKMnnoJ3AGpQtGoh7WmyutqyfCMpFKPWcrmrupTVPseX7WkvKw4rCHJIa2ktd2z6ig6Xje2U0RGD/N6OOGV5GpQGrVlxYLipNuNw7HPf+97SXe5TACGo+1f2j+tT1qfxIeJoaeaaSvwAFxoZTnmY0059aHXGKn982vIWiNWuJaZDGGqPyMWN1nvWg74Pa07UZgw2bPa5eydReM29Cx+nsSGz8an+mvPKs6u6Cjg4dKJo6+3z1HbPVl5u9ACdHUNUlZQMyYux5ig/LBDPNHYEDq1Z21evOb6n9++7sujaOaYu5vDZMTpiJzNA54beg2DQHYY2E80NkuW2pFGBwx3mJH5AzBmupKpQ0ZmbB8aL9Ny+8flNpAcbWllV7Y8HYKEwuHR5hw/M15saOomO+PPR2zOe1fU7Otk6mvB8IAjT3hzepkqv/d+zjwDg95Ov7/h07cvSVe6ipwJCNbdtJKl0AeMHSJbUQKOnj0HxyDW51r4uCYjeCChaeguojCGDQK23OQg0xrNGoKW3PQSlFkcMlZyDoq8OUFmuGdSG2gGNtR4SLUNTvcbaS6j9RWb1KcPevdgiEzPmwDozUv3NVHSnIxttn1nDK/TheuQoVaJKtiz5qpS4CsHpasV8+ghvX8SYM2GGccBm56+vjpGtQqV8pUpsN47Y+mE9Nf319aFLQBBdbHZRSOEr80qzjb8BWyUAAA==");
 
 export default ShoePrints;

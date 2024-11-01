@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `horse` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/horse?s=regular horse}
  * @preview ![horse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/horse.svg)
  */
-const Horse: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M432 0c-1.8 0-3.5 .2-5.2 .6c-64.2 5.5-117 51-133.5 111.4L232 112l-33.1 0-22.6 0c-38.1 0-71.8 19-92.1 48.1C37.3 162.1 0 200.7 0 248l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64c0-13.2 6.4-25 16.3-32.2c-.2 2.8-.3 5.6-.3 8.5c0 14.3 2.7 28.4 8 41.7l21.9 54.6-8.2 21.7c-11.3 30.1-12.7 63.1-4.1 94.1l11.2 40.5c5.8 20.8 24.7 35.2 46.2 35.2l49.8 0c31.7 0 54.7-30.3 46.2-60.8l-14.8-53.3c-.5-1.6-.4-3.4 .2-5l12.1-32.3c1.4-3.7 2.6-7.4 3.6-11.2L288 364.5l0 99.5c0 26.5 21.5 48 48 48l48 0c26.5 0 48-21.5 48-48l0-136.2c19.8-22.6 32-52.3 32-85.5l0-1.6 0-.7 0-7.8c17.7 6 37.5 5.8 55.8-1.5c34.4-13.8 55-49.3 49.7-86l-9.9-69.2c-1.6-11.3-5.3-21.9-10.7-31.3C555.6 40 560 32.5 560 24c0-13.3-10.7-24-24-24L480 0l0 .3c-2.5-.2-5-.3-7.5-.3L472 0 440 0l-8 0zM416 240.5c0 .6 0 1.2 0 1.7c0 23.5-9.6 44.1-24.7 58.8c-4.6 4.5-7.3 10.7-7.3 17.2L384 464l-48 0 0-117.8c0-11.3-7.9-21.1-19-23.5c-2.1-.4-4.2-1-6.3-1.6l-88-25.7c-7.3-2.1-15.3-.7-21.3 4s-9.6 11.9-9.4 19.5c0 .4 0 .9 0 1.3c0 8-1.4 16-4.3 23.5L175.6 376c-4.2 11.1-4.7 23.2-1.5 34.6L188.9 464l-49.8 0-11.2-40.5c-5.9-21.2-4.9-43.7 2.8-64.4l8.2-21.7c4.2-11.2 4.1-23.6-.4-34.7l-21.9-54.6c-3-7.6-4.6-15.7-4.6-23.9c0-35.5 28.8-64.2 64.2-64.2l22.6 0 33.1 0 81 0c12.1 0 22.3-9 23.8-21c6.1-49.1 46.6-87.7 96.6-90.8c.7 0 1.3-.1 2-.2l4.6 0 32 0 .5 0c19.9 0 36.8 14.6 39.6 34.3l9.9 69.2c2.1 14.8-6.2 29.1-20 34.7c-13.3 5.3-28.4 1.3-37.3-9.8l-5.9-7.3c-6.4-8-17.1-11-26.7-7.7s-16.1 12.5-16.1 22.6l0 55c0 .5 0 1 0 1.5zM480 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const Horse = createIcon("horse", false, "data:font/woff2;base64,d09GMgABAAAAAANYAAoAAAAABtQAAAMOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDYgsGAAE2AiQDCAQgBYMtBywb3gXILgpsIsMd6jKiq0gJyaccveRzpPkn+P/PP/x97swLwEmqb7mDKsGrtyuhkur4/4x77/uSZqelOe2sLTTVJSUyAmpQJSpcR4C7rhYkKQRWUssg4IQje80/gc3/C6R24prnf/70gFFkjxKNlduwPSLPJzDAaC/iApvpQGiq21vZp1FKSZJMrcz0+I17vO4CvF5RKyKwHYwTgHXpTfUVeiuAETkAAJQGAAC0nn27c+WBHoju/4fuoxAIQK0BEAhwgAOKCIBmHAKKeALweATv6X/3HwgCAMWQH80A8EAEvAB4AwDgATCc9xMq44VRsh8gZCdMbFHdSF4zJQhupC/5jpvQDvcxo2iXdgmW6GtLpylzsbrUW4RCHTPuMpSrW1uoHm17gnaot7iZEu02o+icU6Af8QoSA6hf4/J2ehJIWikonqBfwyhaQoO+zUAMw+dv1QygbtVmLIk4VZ569WX5JRo2FmrAUAeZlhc85U0UHjPuw2TSKmEDzc3SKvUWdX/qcx025OhWqNBSLKWKbo1ntj/MNm35SdnJV/tJ9YnZXabMZzR/mJF8QBwzqd5lI7sXZWfDf2GxcuaWM0/KozG0/A5lscx6r+IF2WOoUyZjuYc30dHU+k+ZTfjIIEQcxw/7z/eC/AKE3S1S904GmJnU8Bcg3ILqhHbUsoCyQhiox8XuRhGR1PQyRtXPYh3Dkt0a9GoD6FIE6en7tXNiYtuP9RYTQRQg7Y5Z4vORtyo+DJz6TpoEgpZH8vAgqVQAoPte9o2eVUnT/2ehAfBx4/1P/xZVYGTYBCAOA0DgqlWEDIvZAGfNEQAAAGBagPKYDRBgPACTFCWxVZsTCTBhI4YE2FEoDfYkUBWOKFGfE+7vyyEfj8gyHGAjidmwo4GFsCfLJTiimdvpGLIC07IFuxT+K1M7UKD9shBTo1ZoEo51QzRWLsw3DWLNtwD7KsMZJphphnnGG2dyZwg0R/fcfNN1uIHtfVBQWw21BE0EdetVHUC8OeYix0v6RZoK76NKFtxHVwbTyLR1lBgGsuiLBw==");
 
 export default Horse;

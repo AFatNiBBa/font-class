@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-military-to-person` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-military-to-person?s=thin person-military-to-person}
  * @preview ![person-military-to-person](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-military-to-person.svg)
  */
-const PersonMilitaryToPerson: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M69.9 34.6C66.5 35 64 37.9 64 41.2C64 45 67 48 70.7 48L192 48l0-29.7L69.9 34.6zM48 41.2c0-11.4 8.4-21 19.7-22.5L189.9 2.4C199.5 1.1 208 8.6 208 18.3L208 48c0 8.8-7.2 16-16 16L70.7 64C58.2 64 48 53.8 48 41.2zM432 96a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM304 256l0 32c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16l0-32c0-26.5-21.5-48-48-48l-64 0c-26.5 0-48 21.5-48 48zM384 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM352 192l64 0c35.3 0 64 28.7 64 64l0 32c0 17.7-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-32c0-35.3 28.7-64 64-64zM64 96c0-5.5 .7-10.9 2-16l16.7 0C81 85 80 90.4 80 96c0 26.5 21.5 48 48 48s48-21.5 48-48c0-5.6-1-11-2.7-16L190 80c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64s-64-28.7-64-64zM48 256l0 32c0 8.8 7.2 16 16 16l128 0c.7 0 1.3 0 2-.1L69.5 216C56.5 224.6 48 239.3 48 256zm48-48c-3.1 0-6 .3-8.9 .8l120 84.7c.6-1.7 1-3.6 1-5.5l0-32c0-26.5-21.5-48-48-48l-64 0zM32 256c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 32c0 17.7-14.3 32-32 32L64 320c-17.7 0-32-14.3-32-32l0-32zM138 362.7c2.9-3.3 8-3.6 11.3-.7l72 64c1.7 1.5 2.7 3.7 2.7 6s-1 4.5-2.7 6l-72 64c-3.3 2.9-8.4 2.6-11.3-.7s-2.6-8.4 .7-11.3L195 440 8 440c-4.4 0-8-3.6-8-8s3.6-8 8-8l187 0-56.3-50c-3.3-2.9-3.6-8-.7-11.3zm224.7-.7c3.3-2.9 8.4-2.6 11.3 .7s2.6 8.4-.7 11.3L317 424l187 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-187 0 56.3 50c3.3 2.9 3.6 8 .7 11.3s-8 3.6-11.3 .7l-72-64c-1.7-1.5-2.7-3.7-2.7-6s1-4.5 2.7-6l72-64z" />
-    </Icon>
-);
+const PersonMilitaryToPerson = createIcon("person-military-to-person", false, "data:font/woff2;base64,d09GMgABAAAAAAN0AAoAAAAAB3AAAAMoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSSEPAsGAAE2AiQDCAQgBYMtB0AbTAbIngV208clTC2acllp4WfqywhjUJQt7dk70Z4Y1sAcMYAAIDRhZg5iQWqKXA4forh079N6006dKlnsY0EOcAArSCaAT0Tt9ngzEl1BaFJQsignVaia0EhF0QAuQMz+uHfnf1Ue4BPPQ1tz4hiTEwhwTBvbpmgWagLW4LwJB50V0k/A1xu2EAamRHkA960P1U8iroDB8wAAUDwAADBt+eK5fPzKV+S7doK+swQEoOkAOAI8wAOyCYCJPARk83HAx0fQIdrP/gPTIABQOA7FsM0HYoH/oADqG8EQ7fs2LiY1ZsiJ7eyY7KCJ8ZfRN9rV+RQEgkhLepaVlut2AOX7bRqjG0uLjfn6cEmhodQUW4KG3FwUUkqDhUWben9+ePmzSku5uf+82lprGy0JbNBQtkXQhWab1apbyCaiMmUrbboYmrU5n5JAQaEpVBS7GAxSQDEh5Rsl0VWn3rbtVR+ecsu/VEVKcHED3jpTpvDhQdbULS0KjJEVUNMtUT6bHFosq8JgUSjIIjHe8g5bgX+BlLwgcA1dFgrr8oPLGmVy5bt3b3W3/ua3WZTvDGELTpLrZPxS9QhOIX7MJbbjwrTk86Ptfvr0Pkt956vSzuGTVTqcabwfz3YMfW7dtr1tXt7goVCXVzV25lV7EuxE7I2bU4W6NLaWXJ1aH5mWQJ92GoMlmPskkNa2MsZK+pV3kU4vZ25UqFmOL8F4juQXygqNkQEfPmbdaTt3zVw8ZwrdSukWbVw8c9TMg7xhQ3j4hjccpNiqo14w+n4ABAgGHabz+riJ/8w2A0DX/f8R/4pCl4JpBSIxAAi8gaE6awwABgQAAAAYHaN7BRBg+IsdxxxN4dywsJCDIRwLHlniwccyAMLINYoxcvliPORHIZKthWCI5iB4jHYWfJI9gTAm+hQIJzn1a8C6iVk/ofFnl5FZ49ywwUPdeNeZl7LvbIbun+BGy/se43X94Ga2sZ99HGErW9jJEUrUQ8wNH2Uvs/toZ33XGWawoZzx3OzSddkysO4QhzmjXcL8USZw65v7Otbfuh9UGRy6w6UZDMhkvDWSQd+Ia9CR/YOqAAA=");
 
 export default PersonMilitaryToPerson;

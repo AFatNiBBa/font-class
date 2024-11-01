@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-w` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-w?s=sharp-duotone-solid circle-w}
  * @preview ![circle-w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/circle-w.svg)
  */
-const CircleW: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM102.5 152l50 0 40.7 141.5 39.9-124.8 5.3-16.7 35 0 5.3 16.7 39.9 124.8L359.5 152l50 0L343.1 382.6l-5 17.4-35.6 0-5.3-16.7L256 254.7 214.9 383.3 209.5 400l-35.6 0-5-17.4L102.5 152z" />
-        <path d="M359.5 152l50 0L343.1 382.6l-5 17.4-35.6 0-5.3-16.7L256 254.7 214.9 383.3 209.5 400l-35.6 0-5-17.4L102.5 152l50 0 40.7 141.5 39.9-124.8 5.3-16.7 35 0 5.3 16.7 39.9 124.8L359.5 152z" />
-    </Icon>
-);
+const CircleW = createIcon("circle-w", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABgQAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCLwsIAAE2AiQDCgQgBYMtB0wbTQXIHge5afRGuij0j8MIorWqyOqepT6GPmBUCKjYkbAE6hQ9siaWr6eYnzND+f3k0vjHnx7wQODnsg0yVvy7N1ag8W5by4tQoII1XgOruS1mMYiypiKnqIyxkP4X2sM/IY9vsisqpHsJbpX/AYx/tHeFpD4DEM0AMG354rle/xg/pvis+pL4zBwExHRQCmTI0EmAiTKBTnIlcrngx1St8mNUqyUBRI3ydRmoQQUHcQ2QgySkPO/TsU9RaZwvKyoN24uGYkm0i4boEMsip4tYGsujYxDb04e/nxbxZu7nxbX5Z7xb/sP0t/O+aLg6x9TXS5YXDYUMD+XM1ne/3+z+f91s+8z2PsN52/TfTdXDAn3Px5NT9TTVtN8N1+eGPmcOeLup7w2vzaqn/Ys3M2a8eaHeLCwEY9v24VxGMdFw9q+DQFD96Unrm078v65I4OdX/63+jqqvk3QfdRIIsoHVgdYkkAgAQIpjuie2I5CZLuFTjdwWIDQwIKnRAJmOmkGuwQCo6GIULjxhsUzk9UIrawmSRg5CZrSzkGvlBVRM9KFXo1VkDki5D/X9Fz8bkVmzymGDh5bjy2NBp32KSIMTSrHe91hs6Ec7bbPfPkdstcVORwA7ZG541F6zb+gsb1QaZrChSuOV6vIrvwy8Qw7buWf100xQ2rt9Hbu370fzSYDhjy6TESmyZj/quIOOD/JktcXEvrM=");
 
 export default CircleW;

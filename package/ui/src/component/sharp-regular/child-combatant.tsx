@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `child-combatant` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child-combatant?s=sharp-regular child-combatant}
  * @preview ![child-combatant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/child-combatant.svg)
  */
-const ChildCombatant: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 64a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80 0A64 64 0 1 0 112 64a64 64 0 1 0 128 0zM134.5 160l-14.1 0-6.9 12.3L51 284.3l-11.7 21 41.9 23.4 11.7-21 19-34.1L112 488l0 24 48 0 0-24 0-104 32 0 0 104 0 24 48 0 0-24 0-214.4 19 34.1 11.7 21 41.9-23.4-11.7-21-62.5-112L231.6 160l-14.1 0-83 0zM192 336l-32 0 0-128 32 0 0 128zM416 0L400 0l0 32 16 0 0 96-16 0 0 16 0 32 0 16-48 0 0 48 0 96 0 48 16 0 32 0 16 0 0 48 0 32 0 48 46.5 0 1.5 0 48 0-12-48-16-64 60 0 0-48-64 0 0-26.7L544 304l0-112-48 0 0 72-16 5.3 0-93.3 0-48-16 0L464 0 448 0 416 0zm16 336l-16 0-16 0 0-96 32 0 0 96z" />
-    </Icon>
-);
+const ChildCombatant = createIcon("child-combatant", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjQAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCDCgsGAAE2AiQDCAQgBYMtBzYbkAXIjsJxr0QoGIY2DFGIz4oIWiur5/YegAIKQbFmtAg2QiYK2BHoCBshgSyBvqMxd78t+df5zVQQ1yYWIqxBnkQgs4bmlYr+z+X4btNoPV+3LPHQ2v9Fa4KsMZ4ncMBnxYEnElimE9wb1Ss0UPmdf75Blbe5qk65WT5xRX/QfDXqmqJeA5AeAGDd7oEKdD+RT8mbxhN5Yz0QyDqA6QhqqGECASsxBRNYpgOVSviURoP9ByIIkCbmTyygQgse4BWgAkVTVbV2Lm1NtbbXO6td7fW2/deHbwdvBhpDnPs57VnNibvZrbmdaYNt7W0DGcxIAhHHFoi0J0naE/X5ESYUUYYzFHZ7Rx3sD1GKaYsgTHt7fCrKRiTmZH2SHggpRNr2THN15pOe9nfF5/Kn+5f5nz7xndottS+/f3+p8diRwwK9bb/oaY+uI/kMPSPs3Cp0JemeGU2tq0+bwB99OR1bnZvu/GONqiBQsygqArsCs5ymi2hUblv8rGFlJI8T+7cLeYZM3Z0619Nd66E4C80CCMLxI40VM90r/7e0F/Dl9dcXeBHObHTL9NJGiwJCbV7DbLKspYQFEQBAySXKEqdDUNwz580drkk+2kj4okkbXzOO8pU2c/m6KR57R9jeSZOqNT1gCvFFh7N8zQonfGXAA1+30kumyUCYW6tzW3M+KwbZLJZRQofVjkGsHYlcG6BdOQ1hZ7/+mK8Y4EVYtmPboSWL1hxmDPsq+SNbsk1sxhMhBys7FISDpxdhGBv3HViLbBt+TghOn9Y7bt5ugCEG0+YSXUUhpfvoWLf82sI3d0IR");
 
 export default ChildCombatant;

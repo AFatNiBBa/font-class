@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `space-station-moon` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/space-station-moon?s=sharp-duotone-solid space-station-moon}
  * @preview ![space-station-moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/space-station-moon.svg)
  */
-const SpaceStationMoon: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256c0 7.8 .3 15.5 1 23.1C73.2 304.7 160.8 320 256 320s182.8-15.3 255-40.9c.7-7.6 1-15.3 1-23.1C512 114.6 397.4 0 256 0S0 114.6 0 256zm6.8 58.8C33.4 427.9 134.9 512 256 512s222.6-84.1 249.2-197.2C432.6 338.4 347.3 352 256 352s-176.6-13.6-249.2-37.2zM272 160a80 80 0 1 1 -160 0 80 80 0 1 1 160 0z" />
-        <path d="M224 160a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-112 0a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zM6.8 314.8C4.1 303.2 2.1 291.3 1 279.1C73.2 304.7 160.8 320 256 320s182.8-15.3 255-40.9c-1.1 12.2-3 24.1-5.8 35.8C432.6 338.4 347.3 352 256 352s-176.6-13.6-249.2-37.2z" />
-    </Icon>
-);
+const SpaceStationMoon = createIcon("space-station-moon", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABkgAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCJQsIAAE2AiQDCgQgBYMtB2AbVwXIhof/1vK7r6ozJz+M/RFhGR0w+NgFJoeS1eqZuOb5nz+9t7/4o0TUUqMsMdsnMMCiWXrRQCY00xnYFNx2ccQ8NEZI3KCI7/LNakhPpC9wX/g/gPGXXjeTjMoAogUAqw/u3e6d3+K3FF9UXyC+sA0BsQaUAhkZAwIskwUGFEoUCsFvqVrlt6hWSwKIivANGVRQi7NxB6AASZaLor2xsbO5sb6msTgQvr7u6A1dEY/W3dnxsOs7H6m/q/uxqHtu6euLXx18etErS14b2vdk34/7fz74eM8P+346ENd39uj17T+teW/HVwd+2PbFqnf2jTZuhEdrlupnXOGvnzBmpGXkn9FfnP2FX4ebbuf2pqJJVV7acM5VV53TQBvOfXJ260UT75fQlNQ6+6Kxd7pTxjsNdQuNdQ029vQ+cMNGD3bDA709287v2L92AWvmHwtOc7qjh+Kpldonb74fCAS/XH/mnpPNy/6vrU/gj9f++7P6Iam+k6QR1EogyNOq0xxLIBEAgBRXG5MIBLLZsvhTGzwqQKhDgKSiToCsX4sAhTpTBagxZL4AFXX2yqIYJXQ43hFJg8uIbIFriEKH54kay3xcqOiIjD0eOfyvX8qGIbB+Uzl7xqxySbna1AhwYr3lpeVhZ9LVemgyPepsl7jYlc5ypvNcOYAut718lYts2ALX+6LSbDPMUlqivNx5qhwYFC53hfOWpevrLFU+n57k6u3Jk6mfxJRzHMgykSL3odSY/pXEp190SS4gedLAvPTiAg==");
 
 export default SpaceStationMoon;

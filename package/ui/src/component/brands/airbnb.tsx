@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `airbnb` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/airbnb?s=brands airbnb}
  * @preview ![airbnb](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/airbnb.svg)
  */
-const Airbnb: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 373.12c-25.24-31.67-40.08-59.43-45-83.18-22.55-88 112.61-88 90.06 0-5.45 24.25-20.29 52-45 83.18zm138.15 73.23c-42.06 18.31-83.67-10.88-119.3-50.47 103.9-130.07 46.11-200-18.85-200-54.92 0-85.16 46.51-73.28 100.5 6.93 29.19 25.23 62.39 54.43 99.5-32.53 36.05-60.55 52.69-85.15 54.92-50 7.43-89.11-41.06-71.3-91.09 15.1-39.16 111.72-231.18 115.87-241.56 15.75-30.07 25.56-57.4 59.38-57.4 32.34 0 43.4 25.94 60.37 59.87 36 70.62 89.35 177.48 114.84 239.09 13.17 33.07-1.37 71.29-37.01 86.64zm47-136.12C280.27 35.93 273.13 32 224 32c-45.52 0-64.87 31.67-84.66 72.79C33.18 317.1 22.89 347.19 22 349.81-3.22 419.14 48.74 480 111.63 480c21.71 0 60.61-6.06 112.37-62.4 58.68 63.78 101.26 62.4 112.37 62.4 62.89.05 114.85-60.86 89.61-130.19.02-3.89-16.82-38.9-16.82-39.58z" />
-    </Icon>
-);
+const Airbnb = createIcon("airbnb", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABigAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCJgsGAAE2AiQDCAQgBYMtBy0bIwXIBp5HHev9JC0iFuDMxCfbsOnc+/c3tXEeBfhApDZ2vniBRHOeJ9D5xNLuE3QeZokFJjH0NhGfPIJ1RYg0rKTjCY83BIxslGU4oNarR8DScFF5QxyzQOFoAAAkFAAAqN62ZWOuZUmWyCPvNMgjGgICIDUAsAigAQ0kIgBUQiNAIgYLGAwCWeJ57h9oQQBAXNL5FAAGcIDRwDQAwACg0MYElC4c4ASZNgGOf9sryVvy7s29O3FTpda78ojsKfAiZWuBA/6n8u1L2lz9WqlTtJqyNmFj0aMJR2PWxmyMxwIWRq2OWx11vPWz4utj1+Vq+7yEyIkjOde6Efu02LHOphwrfLj26rx7q17OvTtmutw9NEpMj16Tv0/SDoQeeJf6qM8jMht06Tlxy+HDWyaObDK/3t9MyDxSvFqnhn36pC2rVGnexrNfq/fs2PFM4w8fckd5U8tGRqw8fDk6+sqTvUrdsTVtjWLr1q09WGRuldlv4HcSJHYnPT2zZL+Zs4Z1x9w+FfbxwcW+l+7dXw5hp24bXb98uTICAAIIJDx7ObhrSKVvvgEKgJwLH/6Ul3C8DLmoDgC+KAAEdCGvEJ3kGg6OXERIppIxpAl3QgDFYDSgBrJG6wj+QKBw8QdNAqFg8KcgOCRTGsHFn5ZoxPghRNIZAkUgw0FThslgiOQkOFTirukSKdr2OMvhfn7JdThZe8gWL1LMVrBTT+XNifHdinZbyTcGM/lhlz4MZQij6E0v+jOK0SNo7IxmMHUkqjYPYilOEYphqYBVh7dyG2aOYCT9x5weo09F7H01H2Pk8vwwhgIASrwag25Rbvf+I3oM6QEAAAA=");
 
 export default Airbnb;

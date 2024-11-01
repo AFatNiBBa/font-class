@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-crosshairs` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-crosshairs?s=solid location-crosshairs}
  * @preview ![location-crosshairs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/location-crosshairs.svg)
  */
-const LocationCrosshairs: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c17.7 0 32 14.3 32 32l0 34.7C368.4 80.1 431.9 143.6 445.3 224l34.7 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-34.7 0C431.9 368.4 368.4 431.9 288 445.3l0 34.7c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-34.7C143.6 431.9 80.1 368.4 66.7 288L32 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l34.7 0C80.1 143.6 143.6 80.1 224 66.7L224 32c0-17.7 14.3-32 32-32zM128 256a128 128 0 1 0 256 0 128 128 0 1 0 -256 0zm128-80a80 80 0 1 1 0 160 80 80 0 1 1 0-160z" />
-    </Icon>
-);
+const LocationCrosshairs = createIcon("location-crosshairs", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhAAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCHQsGAAE2AiQDCAQgBYMtBzobJwXIjsM4RnzlQIk1Hv5fZ3bflzwnkR1kxRMCrAh4gbAi5KKbsy1W26475Ikc39Sp5zkPLZCPSVDWoqUBWWB7nkcggB2b6y0WpFawmlbA+rapgo0obDQaEiQRjSmN0x3y+DC7XoX0SPoJd9UPjT/1cD1J6wxAtAfA3HWrVvqsJVoifmy8TfxoOQJiLigFMmToLcAMmUBvuRK5XNASjYb8B5YEEE301QnkqOAULgBykGR5Pr9Xm2qlTb62Wik23dYl4gHi65kf96+GufGAqzvfXxTx2IyPFgjZeWvXByPim1mf1IuAfdd0e6hajSdnf7o4YOPqq4dGPD/0+eptw19seFwz7AW8uHXIc0+z7u2RL494acI7o14Z/erk+gvtX/ibn/b+pPFp25u5uW2zH55/9KVmRJHW9uZCeOnR538o4F28qtFco/b7b/X6b7/Xas0cY99VfnZ23bqzn/XHgUDwf7+1bGs3479W1QT++ODf089I47MkvYBWEgiyEY0RNieQCABAirPqCQLJIRl915oHBQgFAiRNCgEyvbQXIFcYLkBFXxMFaFJYJRN5a6GzLQySmhMgM8kVINfZm6Bihm/tJp0jCzsuaLhfX/IiCy1cK8eOGlNOK5exwUcSk+fTy21tyNlUG4pX7XXMUaftsdsBpw1y0krvjCMWefBCX1Qaa5QxStOUx9nz+bX2OOmUA445WpZMV963hjjrdw9FM1HScUJJIlKneFVHvhzm8SmnAAAA");
 
 export default LocationCrosshairs;

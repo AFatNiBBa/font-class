@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `store-lock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/store-lock?s=regular store-lock}
  * @preview ![store-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/store-lock.svg)
  */
-const StoreLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M507.1 129.5s0 0 0 0c5.8 9.2 6.4 20.5 2.3 30.1c-.3 .7-.6 1.5-1 2.2c6.4-1.1 13-1.7 19.7-1.7c10.4 0 20.5 1.4 30.1 4.1c4.4-19.8 1.5-41.5-10.4-60.3L490.3 13.1C485.2 5 476.1 0 466.4 0L109.6 0C99.9 0 90.8 5 85.7 13.1L28.3 103.8c-29.6 46.8-3.4 111.9 51.9 119.4c4 .5 8.1 .8 12.1 .8c0 0 0 0 0 0c19.6 0 37.5-6.4 51.9-17c4.8-3.5 9.2-7.6 13.2-11.9c4 4.4 8.4 8.4 13.2 11.9c14.5 10.6 32.4 17 52 17c19.6 0 37.5-6.4 52-17c4.8-3.5 9.2-7.6 13.2-12c4 4.4 8.4 8.4 13.2 11.9c14.5 10.6 32.4 17 52 17c19.8 0 37.8-6.5 52.3-17.3c4.7-3.5 9-7.4 12.9-11.7c3.9 4.3 8.3 8.3 13 11.8c1.2 .9 2.5 1.8 3.8 2.7c9.7-14.3 22.6-26.3 37.7-34.9c-7.4-2.1-13.9-6.2-19-11.8c-9.1-10-22-15.7-35.6-15.7s-26.5 5.8-35.5 15.8c-7.3 8.1-17.7 13.2-29.6 13.2c-11.8 0-22.3-5.1-29.6-13.2c-9.1-10.1-22-15.8-35.6-15.8s-26.5 5.7-35.6 15.8c-7.3 8.1-17.7 13.2-29.6 13.2c-11.8 0-22.3-5.1-29.6-13.2c-9.1-10.1-22-15.8-35.6-15.8s-26.5 5.7-35.6 15.8c-7.3 8.1-17.7 13.2-29.6 13.2c-1.8 0-3.8-.1-5.8-.4c-8.9-1.2-16-6.8-19.9-16c-4.1-9.6-3.5-20.9 2.3-30.1c0 0 0 0 0 0s0 0 0 0L120.4 48l335.2 0 51.5 81.5zM112 336l0-81.6c-6.4 1.1-12.9 1.6-19.6 1.6c-5.5 0-11-.4-16.3-1.1l-.1 0c-4.1-.6-8.1-1.3-12-2.3L64 336l0 48 0 64c0 35.3 28.7 64 64 64l264.6 0c-5.4-9.4-8.6-20.3-8.6-32l0-16-256 0c-8.8 0-16-7.2-16-16l0-64 272 0 0-32c0-5.5 .7-10.9 2-16l-274 0zm416-96c17.7 0 32 14.3 32 32l0 48-64 0 0-48c0-17.7 14.3-32 32-32zm-80 32l0 48c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80z" />
-    </Icon>
-);
+const StoreLock = createIcon("store-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABtAAAALJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDXQsGAAE2AiQDCAQgBYMtBzEb3gXIjsK22TOSEBJyYEQyInnHw//vj2+f+/BnfQBpAGeIid2NDn1CmpCkCDcm4ef18r2Dkiv5C3MTPIGTkEuN8dqpnuBh8wptnP9r6sXza8DPR3Aot0jK1Gjt5r0JDDDaojXq+Ww4m9kEdIvbrtpwC2UQChvI4xsHFaTr6QJnw5vGBx26SIoMAKIeAJi7Ki4CDl/j64jz/9vEXfOAgJgL0A+RIUM3BDNwBbrx9AO5XPA6/v+L/0ACAogS0o+TQI4Sj/AMkIMkz3mlQxtMqULKS6wqJEVHA7E9mOZ2bGtmqZ6WSevEuFJJY3dzfNzomXZjqPZYHcxqMurLZkTOrMMtZBq8aDdqukLU3ZJRm2Y75h5JUYMJm1FciqZWDKEBJK7rQ9fNnFsWiHTfgiF9xtA2etvJFgyGqGwvwlLx0InmURBHWhiKwh4iHH1Kq0yCODNsw33Lck3PeENp43ngovACfs0EcHovCOcrlZ5W0lPXaqrfTulAsUTo+y82uuTRpvzExPqsm8MqBuXz7VkFCQkFSvVP5fJdX9TVb3eiaueWRL5uKpHN21ayBDc72p3VBzBuiehgOnF/aTrtUKWoGixeHAeOAkkaGubEcLpRCcDr2jmUEKK2xtms2mMcq53mI1/zwhTVNyYJjaaNapkT7+kIV+5Qqi9YiUAg2DbvZzqrbsZXEcUBeHvz9Zs/Xvj/MB1JGxgkgSAb8d9WejqiAsIOwJuikfHMBwWSW3LpVatdESBUIkBSqhQg00UJglyl4RAUerlBUKq0DFfkYgjNMmqQVNsPMpM0g1wzOSjMcOwpNUcG1mKgFP9Vpghvo2HdyFh7R+JNJlNKCaQKbasPWa0e0ihLrPBcKFSlUr0C+UrUt5haEf4GFcLnsDBfRDix54jwRnZn709PVKBWnRJVKn0nPsj5dkuN89WtsI4jcY4TlSQiST4Tpd0rBwA=");
 
 export default StoreLock;

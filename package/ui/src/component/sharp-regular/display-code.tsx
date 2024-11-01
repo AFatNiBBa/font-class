@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `display-code` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-code?s=sharp-regular display-code}
  * @preview ![display-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/display-code.svg)
  */
-const DisplayCode: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M528 48L48 48l0 320 480 0 0-320zM48 416L0 416l0-48L0 48 0 0 48 0 528 0l48 0 0 48 0 320 0 48-48 0-163.7 0 8 48 51.7 0 24 0 0 48-24 0-72 0-128 0-72 0-24 0 0-48 24 0 51.7 0 8-48L48 416zm212.3 0l-8 48 71.3 0-8-48-55.3 0zM249 177l-31 31 31 31 17 17L232 289.9l-17-17-48-48-17-17 17-17 48-48 17-17L265.9 160l-17 17zM361 143l48 48 17 17-17 17-48 48-17 17L310.1 256l17-17 31-31-31-31-17-17L344 126.1l17 17z" />
-    </Icon>
-);
+const DisplayCode = createIcon("display-code", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABeAAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCGAsGAAE2AiQDCAQgBYMtBzMbGwXIjsO44TuyxbM2RDz8/1x5309mIZnFEqVEpAgcIPpWka9a11NXVceyDsiiqp5krv2auKZ+nH97hb3wo1TY/yo8CqTrfAITTJwPeD6wmU7AptvEjjwk2icRUhQSHZ8dZ0/I41M8VCM9TfBAPzR+GeA+SS0DEJ0AWL5jy2avvsf3iPeNifc2IiCWg0ogQ4bBAiySCQyWq5DLBd+j0cj/gRUBRBO8bQI5mnEKFwE5SGp53jqydcCAstaWby9rxbl6Wz1FW2T7i7KIyCKi7BApRFEMibIURT0SMOxSOXjY4DKGRrF93MRx40Nqi2JCLGFsYiztXhzjdixesngWjmNwHDDRXIATLowf0dPZ82e4gx90PPgOzTLfLft2apqhgmmmddLPbpnVP+4/rnbNuuXZx1tQr3PLvOLvA3ShARomf2p4g4ZL1V+e10EguLz4+f86Fv1vKRP4+fLfP/orarxKy1IPWiQQZJMak+xNyyAtEwCAFBeNSMsQSA6pwcO6RwKEAl1ImhRCZpBOIVeYKNQMNdtyPtgiE3mr0Ns+JCR1Z4TMHDeEXG8vhJpFXteb9I4s6JyQcb58hWssvPpcNX3KtGpBtRxqbhxZcrywcsfjLvLSeLrgoFNOOu+A/Y6oaaizNrcuOGHNDlntiyrTTTFNZYHqePIYbjf0WeccqTrp/JSFqvuVcS7uN4+ndALdGXqSRKT6s4wmP0YA");
 
 export default DisplayCode;

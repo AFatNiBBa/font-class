@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-point-right` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-right?s=solid hand-point-right}
  * @preview ![hand-point-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-point-right.svg)
  */
-const HandPointRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 96c17.7 0 32 14.3 32 32s-14.3 32-32 32l-208 0 0-64 208 0zM320 288c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm64-64c0 17.7-14.3 32-32 32l-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l48 0c17.7 0 32 14.3 32 32zM288 384c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm-88-96l.6 0c-5.4 9.4-8.6 20.3-8.6 32c0 13.2 4 25.4 10.8 35.6C177.9 364.3 160 388.1 160 416c0 11.7 3.1 22.6 8.6 32l-8.6 0C71.6 448 0 376.4 0 288l0-61.7c0-42.4 16.9-83.1 46.9-113.1l11.6-11.6C82.5 77.5 115.1 64 149 64l27 0c35.3 0 64 28.7 64 64l0 88c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-56c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 56c0 39.8 32.2 72 72 72z" />
-    </Icon>
-);
+const HandPointRight = createIcon("hand-point-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABkgAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCYwsGAAE2AiQDCAQgBYMtBzcbagXIjtRG94xd4uH5uT7Pfcl8SJYhS0SKgEvMruyAVeuWbElVT4bU4s//NZ+fNR3gNzq0Dj2Q8qBahg4wAaN1b88nMhvYgUwPJ8IzPUsNNUC6GERKKBHDeD9M/4Q8vshuVyM9k37GQ/lD4y9d3U7SnAGINgCYs3blCt9ejasRP9UjfrIMATEHVAIZMvQQYLpMoIdchVwuuBr1Ov8HVgQQDQROfitHIx7DC4AcJLU8b9Opc6fJZa1lvqasFXvv6xjxhJs7PF4UEVGu0jvu7fRk3NL5qbJcqacj/BJxX8cnbB5YUxbl427u+HqX8mARf8z8ek3En7M6xzeLynhjyDtdxT7N8YgnOz3eQTwz+dKAvu+2efcfP+/52ZWtre7m7lat7r671e9m+/2lbzprtsBWtT4xRg+sm7/1pcNXrt0aEQ+06/DRgI+/6djugWbz4uefY95M5lz+3PzZ3b3ctm2xTtvP34vJ9z5vO1mrq1dbcS3GjbsKBILVr71yfmvr6f83lQlc//y/qZZJehdNEgiy4fXhNiWQCMRPcUZfo2KB5D41oHdt4UkBQoEASYNCgEx3bQTIFYYJUNPLBAEaFFbKRN4sdLC5gaSF4yAz0Q0g18FnoGa67/wGHSJDJosr9scwaaGGFmyrxowcXU2tlpnKgY0Ok9OqY2vwGd8xhO7a46gjTtltl/1OKfKEFdFphy20iAUqVBljpNEqU1XX5eP1NXY74aT9jjqSFpmmeu8NdsbuP4TcRCjHSiWJSG2ArIxALfttAwA=");
 
 export default HandPointRight;

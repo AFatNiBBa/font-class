@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-code` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-code?s=solid file-code}
  * @preview ![file-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-code.svg)
  */
-const FileCode: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM153 289l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L71 337c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM265 255l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z" />
-    </Icon>
-);
+const FileCode = createIcon("file-code", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbwAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBYwsGAAE2AiQDCAQgBYMtBzAb4wTIjsO48VqJS/kxiYf/n6u67ydNqWHIEJFCQodqeEkSO2Ah+6xFtbo6BJAZ38Q1z//8qTCa+FEqqBrkf6mjzPMJTHSeNqECn+kEbNbOLsUg+kUSl5Bk2PywOUMeZ7NrakhP0y94GJ8q/tLRNZKGDEC0AMCMlUuX+K4xGiN+rn5M/GwRAmIGKAUy2F0IxeSzBbrIlcjlgsaoVsN/YEkAUUs+LIEctViOdYAcJHmed6tr06ZS0zRfUakp1r7uH/FuhxRPB7zXp2m8M+iDzlkUcafdo4goKkIlVqzqP6j/gHja4XXfqfGs87R4p8/TDiunTJ0CZ3L0ok0HxcCRaO/o+X6L9/+hHZn27fOWtCwuKVq2fA6hLYsS1uzWrWaX3O8UnosXd5T/dvnjj6ZNqwmtato0OUgVehP8a/Y4EAg+PnK/2cbmk/+vryTw5xf/nX9Gqt/FpfQ+6iUQZIOrg62LSxCXBAAgxQk94xICyRI586xNPBIgFAiQ1CoEyHTWQoBcYZAANboZI0CtwlKZyBuENtZXOmniMJ0Z6zyda+NDusZk31e12kSmWapeqB+7rLkMzDlWjhg6vJxYTvuKpiyy359Ubrv9T7i5AThph4MOOGa7bXY7RtARS5rH7Td3Bc7xRaURhhquNFF5PLq3VpjkiKNsG+vnh0xS3i/7O7FePQBBIoIj9SSJSA2v2B6icAAAAA==");
 
 export default FileCode;

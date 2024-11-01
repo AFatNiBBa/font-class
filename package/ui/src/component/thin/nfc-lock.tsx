@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc-lock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-lock?s=thin nfc-lock}
  * @preview ![nfc-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/nfc-lock.svg)
  */
-const NfcLock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M384 48L64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l256 0 0 16L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 65.3c-5.5 .9-10.9 2.3-16 4.1L432 96c0-26.5-21.5-48-48-48zM368 256l0 34c-5.7 1.5-11 3.7-16 6.5L352 136c0-4.4-3.6-8-8-8l-104 0c-4.4 0-8 3.6-8 8l0 80.8c18.3 3.7 32 19.8 32 39.2c0 22.1-17.9 40-40 40s-40-17.9-40-40c0-19.4 13.7-35.5 32-39.2l0-80.8c0-13.3 10.7-24 24-24l104 0c13.3 0 24 10.7 24 24l0 120zM320 400l-216 0c-13.3 0-24-10.7-24-24l0-240c0-13.3 10.7-24 24-24l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-4.4 0-8 3.6-8 8l0 240c0 4.4 3.6 8 8 8l216 0 0 16zM224 232a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm240-24c-26.5 0-48 21.5-48 48l0 64 96 0 0-64c0-26.5-21.5-48-48-48zm-64 48c0-35.3 28.7-64 64-64s64 28.7 64 64l0 64 16 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l16 0 0-64zm-16 80c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16l0-128c0-8.8-7.2-16-16-16l-16 0-16 0-96 0-16 0-16 0z" />
-    </Icon>
-);
+const NfcLock = createIcon("nfc-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABswAAALQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDTgsGAAE2AiQDCAQgBYMtBy8bzQVRlO5BiuwjITex+tDiK6HFxjQ5jiCY6/3ZJI9yVwRUROAIQdZV1REo/GxRyMI/Ma7eX57ACjlCIQoRzue6/YTpCoWhkf4/904bx6MAl0UQyq39sDUmzSnQ8YCjn2/LAhoLs0SxKXfZL5Zv1zC1hSx+0E0JyWXDGTgJPjT+xp99kEhTAFEVAIa1Nlbz4k530rv/LYh3VEJADAeaEkiRoiEBBpIKNCTTFDKZ4A/9/0f/gWEIIEo1L5KADBV4BT4DyECiLMs6n49uUOEeV7VgrpRNK5jz5UXn4j2vc3UTXfY+36qSqBgPEp7UT3U18WmbSrof/7genfMKXfG50HqKQGwXfHKxmu7776p5Lp9W+mI5NnoqCMWacsf8QUASPO99rqYdEJjttNzzu9zqYYMrraff8wqd86NC7Fo85mpi6GnsUXWFOOp9HlHrHSIWU+z2vVgwx5R9DBd9r3CmCFvVJ/+Gv+s9Y/xkXl5e2tW5MU/6/ioNVcEt92p5nnxk3ZKTRL6NG4tN1iqXEQ3z7iWbWBasYEFpvS8h1Z4/rZmfPndv/KWeWvUrmFhroMvC1waAHljqOgPz5CMYgOhX3NoeShHJ+7z/fbv+AqcaFzi5+KeDO1TbCAur4nJo0mViHNwgeW7kVan9I3T+sQG4hBsgIPDL8MlSm2vWq51jAvy1f/8FOPnnqSEvsamDcgkI0o7/Scwx5IFIMoBEEttobviiQOIFVs21Fl1AIOQIkCiVC5BqQFUCZHIdCFCiMb0IUCo3mVRkFUJN5hJBomijINWb7YJMTZ4JSgzkZbxUTRnvZ+XdqPybjEpYbvGqsPSUtLCMMG0DUt2i8nwxM2y2Lq4vHoh3N7CM9axjC0tZwkoAhr+JsamtrGW0iTeKH9KUbnSmK03pT9PV7UWa5mOkzaxcrVq/DANour+rLdvM49u5xkQjtTtrEwmRlK/r7Ur+0gAAAA==");
 
 export default NfcLock;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-fire` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-fire?s=duotone truck-fire}
  * @preview ![truck-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/truck-fire.svg)
  */
-const TruckFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 24C0 37.3 10.7 48 24 48l8 0 0 50.7C37 97 42.4 96 48 96l32 0 0-48 56 0 0 48 48 0 0-48 48 0 0 48 48 0 0-48 56 0 0 48 48 0 0-48 232 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 0C10.7 0 0 10.7 0 24zM80 432a80 80 0 1 0 160 0A80 80 0 1 0 80 432zm320 0a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M496 96c0-17.7 14.3-32 32-32s32 14.3 32 32l16 0c35.3 0 64 28.7 64 64l0 96 0 112c0 26.5-21.5 48-48 48l-1.1 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96l-98.3 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96L48 416c-26.5 0-48-21.5-48-48L0 256l400 0 16 0 0-16 0-144 32 0 48 0zM384 96l0 128L0 224l0-80c0-26.5 21.5-48 48-48l336 0zM576 256l0-96-96 0 0 96 96 0z" />
-    </Icon>
-);
+const TruckFire = createIcon("truck-fire", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABpQAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDAwsIAAE2AiQDCgQgBYMtB1AbpQXIhofv7fr/tc/pmZrbPXMf1Q9mJH9ImeRUzsBIjuR4Ji53/udPD7hsiz3KnjpK13k253kCgUdvjUkJBTYWRZgBNzhv0iGFNoTyLRRpcr5Mg3R3+gA3xv8DGL8a5jKSngwg+gJg7b5dW7z1fXyf4oPuc8QHNiMg1oFaICNjpAArZIGRCjUKheD71O3yfXS7NQFEU/yzMmiihUfxDKAASZaLYkWnZ3anUzU6xd6qUR5/8ZCIO6trB92uisenPj1MiLsG3jahjAemPbPouSlPjYwqnxh8x/CIThUQW5VCO9a9d8idkzt7QpQhqnz3xCrEndUJATXBvvTkiHsm9cZjQw/cv/Tl5a+OeWDZK0teGtlJlhj3TN9nfh/7wXEf+PPw3qu4qtdw7PC+HurXrzzCGfKHX88JJ37xy0MP/fLFiUd12WHO1x/mM9zUt6+b1GsuikPbz+a3v/ngEdBAX3pq0I6W+c5q1eZYYg5Qp7mf7Bh0Rd9eMbbd2T7+3HOPb/esGZ0PBIJPPp5THt5nxf+tKoEfX/nz3+h03efTRekZtCQQ5BndGQ5JFwHCB1BKcZ5xB9ckkO2UpZfadocAoUSApKkUIBuhrwCF0nQBGkZbKEBTaZcsih5hoEMHOGk7E84WOR8uDPQs3LDC24WmgZGdquTQpD/F9E1TYOO8eu6sOfWyereqk12foKeX15f9Kefxrqkw03FOd5pzHOsYJzpnAp1lS/lcp9p0BG70QbW5Zpmjtkz9uPFS3zspnOVsJ26rz2dZrv4+nuK848FTYZSkrPMsyDKRIvcPjMZMi2/PdPTdA+eq/QYAAAA=");
 
 export default TruckFire;

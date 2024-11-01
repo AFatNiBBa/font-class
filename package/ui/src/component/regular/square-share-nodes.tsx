@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-share-nodes` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-share-nodes?s=regular square-share-nodes}
  * @preview ![square-share-nodes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-share-nodes.svg)
  */
-const SquareShareNodes: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm352 80c0 26.5-21.5 48-48 48c-9.8 0-18.9-2.9-26.5-7.9L197.7 256l79.9 39.9c7.6-5 16.7-7.9 26.5-7.9c26.5 0 48 21.5 48 48s-21.5 48-48 48c-25.5 0-46.4-20-47.9-45.1l-85.6-42.8c-7.6 5-16.7 7.9-26.5 7.9c-26.5 0-48-21.5-48-48s21.5-48 48-48c9.8 0 18.9 2.9 26.5 7.9l85.6-42.8C257.6 148 278.5 128 304 128c26.5 0 48 21.5 48 48z" />
-    </Icon>
-);
+const SquareShareNodes = createIcon("square-share-nodes", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfgAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCBAsGAAE2AiQDCAQgBYMtBzkbDQXIngV240shNo0aDtrQBBZrC4cvYjx8raHv722AQBMq1pGoMlGxpBRidYWsqm+ELNzUVlef1e+nt0Ee/yYKCIVkEPK7QEEh67As2bqycI1B2zz4hloyKQlvsHlI6q0vxcWyulJ9nzr1POehBfKciAdpbFu6cSxLuvd5BQpaa31ThcYCiyjW7+Y75RoiJ5LkSZ2kYbvvD9Nf/gFyPFJnEJKe6F9cpB+Nfwbso6SmIIBoRwC2DmY9viXKiJ/qBcUP2yAgtgDjgAIFhgGs4gsMExhHsiwoo6r4P9BFAUQtyaclkFGDY3ACIIOkyALNoFcuVAqKTUJZ7babh2tdiVuTjxtDkXuZBDaJErNsZfNwly5DBeb52uF3HruBq/DAyEchbtmZfo1pN2ZvnGJcMXNHejRvk0O9FKx2nG1cS+uf9zv8xMZpKWwSyk20q2rUoo4vBT4dWlkKiLz9aET++DmnXowSyrlFm+vn1mDYDgX9/68uP0FvHv/jF3+q+o093eevgW4HAkH5KGu1xf7XszyCv9/+6/WqEt/TV5B6CQTFVDWlHu/AxAD8FBxfKVkgOURA7rXZPYDQiABJrUYBCkM0ALJGkwBqjPIDqNVoBxFZSqFbo4Ok2TkorBiBrNsTqLHqw6/VHXxT4wyF+9BL7hBqN7luh4tF2LKl8dbDxNUo21ZNXBgx015sXF28rK3svQB56KO3s06DWyVyuTm4MBHsuPsoL8F/eNrPxfN1oth904TTp5vJoAnlgpokEUn3tPL/D6AL89opTwAA");
 
 export default SquareShareNodes;

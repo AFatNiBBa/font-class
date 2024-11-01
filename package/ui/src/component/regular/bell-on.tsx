@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-on` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-on?s=regular bell-on}
  * @preview ![bell-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bell-on.svg)
  */
-const BellOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 0c-17.7 0-32 14.3-32 32l0 17.9C215.5 61.4 160 124.2 160 200l0 33.4c0 45.4-15.5 89.5-43.8 124.9L101.3 377c-5.8 7.2-6.9 17.1-2.9 25.4s12.4 13.6 21.6 13.6l400 0c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C495.5 322.9 480 278.8 480 233.4l0-33.4c0-75.8-55.5-138.6-128-150.1L352 32c0-17.7-14.3-32-32-32zm0 96l8 0c57.4 0 104 46.6 104 104l0 33.4c0 47.9 13.9 94.6 39.7 134.6l-303.4 0c25.8-40 39.7-86.7 39.7-134.6l0-33.4c0-57.4 46.6-104 104-104l8 0zm64 352l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3zM0 200c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0c-13.3 0-24 10.7-24 24zm536-24c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0zM597.5 21.3c-5.9-11.9-20.3-16.7-32.2-10.7l-64 32c-11.9 5.9-16.7 20.3-10.7 32.2s20.3 16.7 32.2 10.7l64-32c11.9-5.9 16.7-20.3 10.7-32.2zM53.3 53.5l64 32c11.9 5.9 26.3 1.1 32.2-10.7s1.1-26.3-10.7-32.2l-64-32C62.9 4.6 48.5 9.4 42.5 21.3s-1.1 26.3 10.7 32.2z" />
-    </Icon>
-);
+const BellOn = createIcon("bell-on", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABlQAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCWQsGAAE2AiQDCAQgBYMtBy4bVwXIhofn8+o79yWtpI3UBzCwsZvZjbdcwTX/13x+z48O8PMRHFqUJV1jpNY6nk9ggpu3zaaVOJso7nLbXNJQCfGPUFhAHv/EVRpIN6fPcGX40PjRkPNIGjIA0QmAtXfcdnNvfRffRXxaf5741KYIiLVBJZAhw6gAq8kERuUq5HLBd1Gvi//AigCiUdpdAjlacBluAuQgacrzuQOtbTzWXja05TvoAysOvKQ34jrivdVeq8QXaw3GdX3X97XFjQM39g/HOztE3LPGGxtEnN1/Q6EsyudnPjwmvly7Nd6NiDtnP7q83Lkoi7NmPlxeOpgV+9w8tYwHR26ZVsR9g0c6xls73jJlo6k1dPP0TdULDR+28SYb3z9y67RN4oHBm6ZOeqTzkZ9rnx3wmTXfbL+Ii9q7nTxjRUuN9R/4wambHfbdVb47bLNTf/CA9WtaVsw4uVv7RRe179Xc3PzUV5+XNTY+bIHTNqkpP//qqeY191xrrbOGJ00arrkz/+jbeitb90l+YAAzNLn6LU9vWDd83D3Enn1cVdXTXjd4er/hug3vPm4ECARbdTxsz47VfmsuE/jhlV9/57euv5XOSo+gWQJBNqc+x27pLCDoALwUJ5i080WB5DxN0rW2ukGAUCBA0qgQIDOiU4BcYbYADcYtFaBRYVuZyFuEXrv3IGl1NMgsczrI9XoWNFjNh26j3siAkgQp8p8wboMxtP60auG8BdUq1WZZo+AMt+OrVqeFGSfItpl4rgMc6QjH2d9+DnbcCDnG5sHxDrfBHry+H6osNM8ClVVUt2vPuR2oe4xjHbzO3J9kVdX7+gwn7PeeieUkYS6SShKRmj5JZe6RRwAAAAA=");
 
 export default BellOn;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swap-arrows` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swap-arrows?s=sharp-thin swap-arrows}
  * @preview ![swap-arrows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/swap-arrows.svg)
  */
-const SwapArrows: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112 4.7l5.7 5.7 88 88 5.7 5.7L200 115.3l-5.7-5.7L120 35.3 120 464l192 0 0-424 0-8 8 0 208 0 8 0 0 8 0 436.7 74.3-74.3 5.7-5.7L627.3 408l-5.7 5.7-88 88-5.7 5.7-5.7-5.7-88-88-5.7-5.7L440 396.7l5.7 5.7L520 476.7 520 48 328 48l0 424 0 8-8 0-208 0-8 0 0-8 0-436.7L29.7 109.7 24 115.3 12.7 104l5.7-5.7 88-88L112 4.7z" />
-    </Icon>
-);
+const SwapArrows = createIcon("swap-arrows", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABZAAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBZQsGAAE2AiQDCAQgBYMtBzIb5wTIngNuc3xcIjWi040kPqST0+kynv9+v9e1z72h9wKouLWNKim2pABVxxMY1zpSgn1VhKn8Uxtdhf7/j6v7B0B7Z5JZwQRjG9SC07ZN0zaZVfETov196tTznIcC+BiioO2hAVngc54n4AGeHVxfWuzVirWKYnWb+NghhVcQYVFDouPL4+sCPb9N8KkPBbwpH5pDZm9QWgOQZQBw8Va5hNskk+Tg/0fIgQII5CJgD0NDwxYGzuAKtvDsga4Lk/z/z/+BBAEyTV+rQEfDDXAfQAclvV8d+Qv95sgf7m0Y9NXoo4shtXAypiUZR6ncinEpVYBgsFwVcgNAyzAkjTc6H3b0Ux0xY/+tUqnU60j5VJG7hB8370Rmf8z6OMxWfEqp30JFpY6s+nNdDQjCg9eh+8rkL9FY4Oe3D+V58v/f61l9glkFQtv/v69TT+QW6hkGAKi8ZAFfFJSrOPRd573FQAwIKNMGAc0mFQa6wTEMTNkRwsC0wTVc6XNiXbeDMu8JaE67B926XzDljH972nq4oUUGBvmzi0tbKDVFPreX4rT1NSpacOknyK1Z71LORicxs7dzMTWxdDHIScm72kojOOWHiI+bF4mj4+j5cM3UydnS3i4PSaD7ltUdrraRyaGYx50rRWp89mp4cA2fPn4AAAA=");
 
 export default SwapArrows;

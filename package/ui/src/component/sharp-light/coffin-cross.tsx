@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coffin-cross` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffin-cross?s=sharp-light coffin-cross}
  * @preview ![coffin-cross](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/coffin-cross.svg)
  */
-const CoffinCross: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M35.2 150.9L127.7 32l128.7 0 92.5 118.9L255.8 480l-127.6 0-93-329.1zM104 512l176 0L384 144 272 0 112 0 0 144 104 512zM208 112l0-16-32 0 0 16 0 64-64 0-16 0 0 32 16 0 64 0 0 128 0 16 32 0 0-16 0-128 64 0 16 0 0-32-16 0-64 0 0-64z" />
-    </Icon>
-);
+const CoffinCross = createIcon("coffin-cross", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABXQAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBRwsGAAE2AiQDCAQgBYMtBzMbygTIrgpscEcPjAdNPdRCdsPYl6J+ryaN8Tz/a//b5879Nu+bIpbELaqE6JUJ7TekkQmRRYiU8BaVRSSP/zDO3p8c4t8SiLYkNAjHfqkqlGsuVeaWMDt7k7XA7xUSP3FN/Th/SkyjR4m26vNfFHeeT2BixQOflw1sphOwWTu7iOHz3YqkSDKMn2ExuUHNOXuJKd9KrOuH5q81zxS1AUBmAcClh8UCPocZJv898tsdEMhlwDaEBg02IXCWULCJyDZQVWGYvg//gdsgQEbBxyugYgRXwF0AFRRNFanV+sGIWlQZjCiaD0tVZcp5lJYaj5WtspkHaamUx09JWgIABTlQIgQREaC8rlCQ4cesf9qOna2PYt1DgdZN3PsoO3hla2O+7juEEvVfZtnK0ElKKnWxMwugtHe4CEAQfr3m00vt2f/jAwHgz8/jZ6QvXYFxBYRmb79XKx2kEwBAyY4hHYLiDCG+66TPAqJFQDGqFdDYSIdA1dqDwIgtfAiMat0llCpHLGpXrpj0hmscd+WqRR/ciLO+SqMW09iSYgnKUy4z7+DcMT5kd3KYh31ZNQ9J9iO8bO/cxTkTLqJnbmajq2No06ArherWVH6G5HwRc7FzYmG8Pbo/XdG1sjY0N0uHRPD53Gg3X22CJ0Dew9qKQorq8710OLPdBgAAAA==");
 
 export default CoffinCross;

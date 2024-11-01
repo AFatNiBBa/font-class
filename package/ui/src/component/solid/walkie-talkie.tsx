@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `walkie-talkie` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/walkie-talkie?s=solid walkie-talkie}
  * @preview ![walkie-talkie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/walkie-talkie.svg)
  */
-const WalkieTalkie: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M112 24c0-13.3-10.7-24-24-24S64 10.7 64 24l0 72L48 96C21.5 96 0 117.5 0 144L0 300.1c0 12.7 5.1 24.9 14.1 33.9l3.9 3.9c9 9 14.1 21.2 14.1 33.9L32 464c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-92.1c0-12.7 5.1-24.9 14.1-33.9l3.9-3.9c9-9 14.1-21.2 14.1-33.9L384 144c0-26.5-21.5-48-48-48l-16 0c0-17.7-14.3-32-32-32s-32 14.3-32 32l-32 0c0-17.7-14.3-32-32-32s-32 14.3-32 32l-48 0 0-72zm0 136l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const WalkieTalkie = createIcon("walkie-talkie", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABgwAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCJgsGAAE2AiQDCAQgBYMtBzQbKgXIjpQuZyQRFDqxPUn2JHIYFCCEB8AWqEr3XHTh9oFrVwj+1KnnuXAogM8hCNpYtGn5GpTdOc+LPa9Yr75pAtcKFqSCc3dnU0gLK1FLUpbk+Ha8HkfI4kR6UYnkleRn3ElfGr9q7iKJmimAqAeAcUsWzHLvcTyO+Kn6BfGTGQiIcaAQSJGilQAjpQKtZApkMsHjqFbdf2BBAFFGPyQBGco4ipOADCSyLJtcp06dSql2trhSyle82vn9ZiKP9xs930ycbdw4XiBeafxCp0p81PSllhHnmjaNlyLi1SYvds7jXJMX8+uNnsfpUMkrLzR+vpHd+sUmLzUN72r/ab1Pf/fz5p/t+ajxvHmNp6qn7/1f0tc1ejDAg0Yrpb/c7/t4hldCryfqqXP1ap0iFGz1NfXq24l7nLXHb6vzjsX7gUAw6J/2N9fUHfl/jUoCnn7753i76r04m3yKGhIQpD2rPa2Ms2CwAThJHNZeaFggsVcG9Km1vChAyBEgUZYLkGqpngCZXA8BStoYJEBZboFUZDWFRlZ1kKhlH0gNdgpkGvkMlIz0nVPWKFLdozSHevnFTx6hSbuKfr37FsOLZRvT6kTg+ohiW+p62I91g4M222O3gzbZaJuDA7rfLP+QXSZLyCQNKvTTW1+F4Yrj3vP+xTbZ74Bt9tgdNxmhuG92dVie3Q3UBOH2V0kkRFL7v0B9U6+DDQA=");
 
 export default WalkieTalkie;

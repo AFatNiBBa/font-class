@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `card-club` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-club?s=thin card-club}
  * @preview ![card-club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/card-club.svg)
  */
-const CardClub: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 16c26.5 0 48 21.5 48 48l0 384c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l256 0zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zM200 326.6c10.2 6 22.1 9.4 34.9 9.4c38.2 0 69.1-30.9 69.1-69.1c0-29-17.8-53.8-43.1-64c.2-1.9 .2-3.8 .2-5.8c0-38.2-30.9-69.1-69.1-69.1s-69.1 30.9-69.1 69.1c0 1.9 .1 3.9 .2 5.8C97.8 213.1 80 237.9 80 266.9c0 38.2 30.9 69.1 69.1 69.1c12.7 0 24.7-3.4 34.9-9.5l0 41.5-24 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l64 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-24 0 0-41.4zM138.9 197.1c0-29.3 23.8-53.1 53.1-53.1s53.1 23.8 53.1 53.1c0 3.3-.3 6.6-.9 9.7c-.7 4 1.7 8 5.6 9.1c22.1 6.5 38.1 26.8 38.1 51c0 29.3-23.8 53.1-53.1 53.1c-14.5 0-27.7-5.8-37.3-15.3c-3.1-3.1-8.1-3.1-11.2 0c-9.6 9.5-22.7 15.3-37.3 15.3C119.8 320 96 296.2 96 266.9c0-24.1 16.1-44.5 38.1-51c3.9-1.2 6.4-5.1 5.6-9.1c-.6-3.1-.9-6.4-.9-9.7z" />
-    </Icon>
-);
+const CardClub = createIcon("card-club", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABnQAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCZwsGAAE2AiQDCAQgBYMtBzAbZwXIjtMlMiXmTQSVrTKrp2cPgOaZxIB7IkRP1nni8IHdJ0uAmw+1wBPnOt/5aN5GQ6mw0oFE0m4U9VHnLzDwb4sEe6AGnSi+tTluOQf9cHki5JB6RKJhSRqWzpDjWqcpSU+mr3D/9lSx3ohbSIoCQHQDYOcjD93fzM/xc8RXjYiv7IuA2AVUAgWUcYGxHSXSGbIKWRb8HI2G/wdWBBA19WcSyKjhcTwHyCDJOY+Orl7UVnbkI9rK1jNfHYh4dCTFE/2PzG2P1wYfGy3i6aHHF3Qc8crCiDeGUzy56M15HfH6krfHinhq8Vvz249+tE3s6dGn5k931BDFSN0rw0+wrXcPidZ4pP/RgbZ4fOixwQbHEdNDkVzw6sCj6v31gZ15iibn0mhE8c7H47GY/Vb3WxtnfXXGV3Z8f+X3fF3UFV9/vxIRubXhhR56Wutae3peACKOuH2PP/tmVs9pH/zggwVF0T5n9QyoIi0wZVAW9f25yLCTarWTdvK9hy3abnpwE5tOOmnTpsEyNx2cn32nryyxg0764bDDNh50EB9Z9r77bD6klksgEHxzw3XjJ9rut+a2BH79ZPPfeHfjqKe30CyBoFjaWOq4qIO3CqCV4gqzg44FkvtlwLO2e0yA0IoASU2rAIUx3QJkrZYIUJq0ToCaVocqRG4R+h3fiKTdxURhC9cTWb+PidJ2PrVq+qNYm9zK4n4Nk/dQYPe2atXyldU21WXq4Jcbk2e3rYbVhVeknkXY6QwXusBlTneas10m0CX2dy93vj0icHcdqqyy3EqVbVTTxb18hFAuXWrMuTg/z7aq+82FroiHL4KRVNLVEkkiUstnoCx76QEAAA==");
 
 export default CardClub;

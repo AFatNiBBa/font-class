@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tent-arrows-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrows-down?s=sharp-light tent-arrows-down}
  * @preview ![tent-arrows-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tent-arrows-down.svg)
  */
-const TentArrowsDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M214.6 129.2l-21.4-23.8-11.9 10.7-53.3 48L128 16l0-16L96 0l0 16 0 148.1-53.3-48L30.8 105.4 9.4 129.2l11.9 10.7 80 72 10.7 9.6 10.7-9.6 80-72 11.9-10.7zM64 512l32.3 0 383.4 0 32.3 0-4.6-32L480 288 288 160 96 288 68.6 480 64 512zm240-32l0-102.2L365.3 480 304 480zm-32 0l-171.1 0 24.8-173.3L272 209.1l0 110.6c0 .2 0 .4 0 .6L272 480zm32-270.9l146.3 97.6L475.1 480l-72.4 0-4.9-8.2L304 315.6l0-106.4zm250.7-69.2l11.9-10.7-21.4-23.8-11.9 10.7-53.3 48L480 16l0-16L448 0l0 16 0 148.1-53.3-48-11.9-10.7-21.4 23.8 11.9 10.7 80 72 10.7 9.6 10.7-9.6 80-72z" />
-    </Icon>
-);
+const TentArrowsDown = createIcon("tent-arrows-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfgAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCTAsGAAE2AiQDCAQgBYMtBzcbUwXILgZyMuxVYogpd+vkxaZF/6VFPHzt93ruvg0QyuSrFIFUq6pIKGTl0vFfV2dqGQ/W3N1ELN3ELIomEcOk0QhxpTAi7dMaGhrpoMraAT664IqoduJy/Pfnv/13RRzS2DYnjok9NcYGnudt6r1lJZIFlig2bBtZD8z89lheIcd/lHBJD1IZ19yXxms9XklyAQDRDAAs2dVswHmmIv7+J8rWAQGxFGAYokCBfgjmYwv04xgGsiyY4v9/9h84DAKISghvTyCjGldwH5BBUpk51ia+XGqt40o5HSUUDcfcHg3WA4qJEEJsjM5whTbaEtZHN313Xa3UFB0GbA917wrd+lrsEou63iWu4rB9OzrtDhJ10YnFuzR6D655fPTU3NuR8smyl+4KmYxNjpqRlD3ahLEruGkVvDGlP8/cvTRM501MkyYva4UNbno/dDJI5dbyw++XunfjiBuA50O8Uitajq1WMn7k3C/hkXbZ5WWAQBBLanYdks//Wl3HAnjV+4/x+Zr/L9KsdEK1BIKi9L9klBYTqhmYA+FoimcWuMVActGh/dR6dwUItQiQVKoVoNBHAUFWaxyCCoPiEFSqtQ1bZCGEduOCS+qd5wozvXBZuw+uwnyfkUrtwb4d1TeT+mcwQ7EKFjZROBCiDPVmZZo7TKm7szTZ5HrmVW4oChs3rj1aW9l7rBD3GvEnV4pDUMEPkbCAEJJBiws3DR0cvfdg361ZvoAssr3P5Xm4sRtaWYLcCYIkEUnxFrr98wvfi9H/mAIAAAA=");
 
 export default TentArrowsDown;

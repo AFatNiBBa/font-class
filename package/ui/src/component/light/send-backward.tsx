@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `send-backward` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/send-backward?s=light send-backward}
  * @preview ![send-backward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/send-backward.svg)
  */
-const SendBackward: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 32l224 0c17.7 0 32 14.3 32 32l0 64 32 0 0-64c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 288c0 35.3 28.7 64 64 64l64 0 0-32-64 0c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32zM288 96c0-17.7-14.3-32-32-32L96 64C78.3 64 64 78.3 64 96l0 160c0 17.7 14.3 32 32 32l32 0 0-32-32 0L96 96l160 0 0 32 32 0 0-32zm-64 96l224 0c17.7 0 32 14.3 32 32l0 224c0 17.7-14.3 32-32 32l-224 0c-17.7 0-32-14.3-32-32l0-224c0-17.7 14.3-32 32-32zm-64 32l0 224c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64l-224 0c-35.3 0-64 28.7-64 64z" />
-    </Icon>
-);
+const SendBackward = createIcon("send-backward", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABiAAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCUAsGAAE2AiQDCAQgBYMtBzQbVAURVZpHyH4kxm6QK6KwIZ/XmegUR+Lh/9f+t8+d+976zCDqDdL/WPJkGrI3FWl480xlFpVFJL82w6t9BwG3REoX+bEimfb1Q9pj6Jr6Ufb0gGf0aF349KviUQc32ECH87SBlw1sphOwLW67GWIeyiA0TpDjXUzWIF1KP3HC/9D4a4C9JLkAEN0BMHv54kU+11FH/GxF/LQAATEHDBcoUGCwAO0KgcGy4ciyoI5WS/wHQgDRFD5aAhlNHMVpQAZJznnqyIEDq0aXvKxqlKursjrS5xxRRcTliY/HlnF3/MP+4tKER2OG2TIO9z1PD+3qd6FauqtvxPnSVPQ+S+zcZVTzcUQV++0lVyk7SV95LDFXuG7nwaQng565eeTj7o//jfjJTzNv1HXd9eDBrrMMN0vZo8fN2s0MKrlGmOCW9JpSv2c6SOomCXvDRfBNZHg4c/1lC2tEbU3WXy439wOBYPavl67v1v6/rUrgz9v/Fz8jrc9Jeow2CQTF5NZkaxJIBAAgxVYjEwSSvbLwXTs7L0AoESBpKgUoDNJdgKw0SYCGoaYJ0FRarBC5k9DbWgKSzjaAwnTbQNbbG9DQ7kuuqXcUACmAk/A7mOpDF/X7KLMCy2xNJcIYZ2cdm139yx6Dj4reYffqtCZvh7nVxc8mLNHeF6GUKcDicPOh2tDc7TFNy8eXcbg+0v7l4QYHSshaqVISMnX5GLT0NeWgGw==");
 
 export default SendBackward;

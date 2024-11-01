@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-microphone-lines` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-microphone-lines?s=light circle-microphone-lines}
  * @preview ![circle-microphone-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-microphone-lines.svg)
  */
-const CircleMicrophoneLines: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-416c-35.3 0-64 28.7-64 64l0 96c0 35.3 28.7 64 64 64s64-28.7 64-64l0-16 0-64 0-16c0-35.3-28.7-64-64-64zm32 64l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 32-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32s32 14.3 32 32zM160 240c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 16c0 65.3 48.9 119.1 112 127l0 17c0 8.8 7.2 16 16 16s16-7.2 16-16l0-17c63.1-7.9 112-61.7 112-127l0-16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 16c0 53-43 96-96 96s-96-43-96-96l0-16z" />
-    </Icon>
-);
+const CircleMicrophoneLines = createIcon("circle-microphone-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABqAAAAKzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDCgsGAAE2AiQDCAQgBYMtBz4bmAXIjsK25XOJEgYYPibcyjSC5/Pqv85NRulB+ol5oj6snbQzuB0sv7BtHngu9y+MLgyzsXlMnKCRDS2BgAujNZ+HC7i0+b/m83t+dICfLlLsUKIXrVEUZRH5fAIDrODSge/NBjbTCdisW5mNTVKiSI+VWjn3+O25x+vuCnm8HllNpFvTHVfnD41fxF1GkmcAogTAmv333uGdZ3RHfNF4kfhCBwGxFlQCGTKMEGC5TGCEXIVcLugOGg3+D6wIIJqVxxLI0YKH8QxzHklTng9H9sTJtaaOfL/2OsXBhy0Rn85ZuGj2M5vP6z/a+tncZUzmPb/ttin9vCvi63Xvx8Vrtzu/2u+H7V+sfsd4zWbHl/tmD0yOeGSIuHXKoxMenvb48MAVt019bOKcolbcMODGgbUQRYzciwbcUEwH3aSuunjwzbXZwBvtc9OgkCfunfHkAsE7bh4c8fKsp8dFrJ5xx+RH5r809bFRMfax8rHfEvfjvvCfr7PM+PywrPxD34zsO6KOz3dvcA3XLhuxrj2ifO01G6R6WnvPPXXq0SMU9ToJnCitVhKlUYZld2dnd6xSQqTzqqs6q3OIC6NBZ3d3Zyl6//7FeHTd/3+/o8wutT722EUXEbc1BOKxM4Y1Hod3Lf+vtZZA7+qPr/4raqyT9BhaJRBk0xtZhySQCABAivOMjUAguVuT/K7tbhIgFAiQNCsEyAxXCpArTBOgySgLBGhW2Fsm8jZhgEMdSNqdCTILnQ9yAzwPmiz3cbzZgCCzVsXWlG/FzI0S2rCsKs2cXS2ttnVDNUApzi+rjt3J83zfFJx1nNOd5hzHOsaJzhHIWXakznWqjRq8wRdV5phptspS1eXW8/H9HOssZzvR6U5LiyxT3e+f7Dx99BT4ksI7V0WSiDT4px7rjDddfqitM8wcAAAA");
 
 export default CircleMicrophoneLines;

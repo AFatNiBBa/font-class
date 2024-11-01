@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signal-bars-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-bars-slash?s=sharp-regular signal-bars-slash}
  * @preview ![signal-bars-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/signal-bars-slash.svg)
  */
-const SignalBarsSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M624 512s0 0 0 0l-48 0-32 0s0 0 0 0l80 0zm0-50.3L639.9 474l-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1l19 14.7L336 238.1l0-62.1 0-48 48 0 32 0 48 0 0 48 0 161.5 32 24.8L496 48l0-48 48 0 32 0 48 0 0 48 0 413.7zm-80-62.1l32 24.8L576 48l-32 0 0 351.6zM416 300.2L416 176l-32 0 0 99.4 32 24.8zm-32 98.3l0 65.5 32 0 0-40.2 48 37.8 0 2.4 0 48-48 0-32 0-48 0 0-48 0-103.3 48 37.8zM203.1 256L304 335.5 304 464l0 48-48 0-32 0-48 0 0-48 0-160 0-48 27.1 0zM224 304l0 160 32 0 0-160-32 0zM96 432l-32 0 0 32 32 0 0-32zM64 384l32 0 48 0 0 48 0 32 0 48-48 0-32 0-48 0 0-48 0-32 0-48 48 0z" />
-    </Icon>
-);
+const SignalBarsSlash = createIcon("signal-bars-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiAAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCeQsGAAE2AiQDCAQgBYMtBzgbgQXIHomxLYr9Co3ho8fD19p/ntszn2aWoZf4LTKqAFlmlfo2hI6FRpuKI3gV8l54xT9/Ob67lkUBPv8Jh7bn0CUQaDhtWhx4mCWKLZtDNcHVQhwh/Qpl/BOPaSE9n77Fo+VD42cDPUTSUgCIHgBYvnfnZp//ED9EfNN8h/jGRgTEcpAFChQYIsAihcAQpYxSKfghmk3xH5gJIFqltydQosYLeBNQgqSjLLuN6+jo27Ojo3fd0rXcU7dUl++PiPujqu7He+ro26/v5BgbN0TatBgTx4PU1rUQE6IYStKeCRMnFFEpd4hqO7RLqDVtcYRFVQVV7tmdm6Ivop5yAal2VXUlauHUsloL88zIzh6dv/j2zLeuLgUaGbbN+CeVN9Wij0xVLw7/zhINjW0Nb/jDAu18ZeviPwhCduzek3ch2Ul/Dj+xPDcb7zfpSvpZv7798KmtVnbfPPk1DYO3vpaYstfke+/NIsTUzPkAy/JGeR0IBIvveuXW0e6LfmuvE/jpw8vzmp+n+1In2iUQFJObkx1K9wFZFVKaFHeMxN8kkDyhQ7rUxTMChIoBklYVFAbrAaXKJGgxzGz2RdHOS7VRdgh9HCaQdHEdCnPcDaU+3oIWi3wRbtUnCiDlghj3HzHRmimxeleePrWRF+Tdpo4Hd2y7vDBfVo2/I4cm4IPOuOqKW0475bxbE8YNm2O3XbbmiL7aD2XTTdWQLZAfd16K9tDwDTed35Z7vs1C+XvbeHeOJ0/A2iSxnKEqSUTq2f7EU9p22pSbl47fPAcAAA==");
 
 export default SignalBarsSlash;

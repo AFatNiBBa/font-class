@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alarm-plus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-plus?s=sharp-regular alarm-plus}
  * @preview ![alarm-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/alarm-plus.svg)
  */
-const AlarmPlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 25.4C143 9.6 120.2 0 95.2 0C42.6 0 0 42.6 0 95.2c0 18.8 5.5 36.3 14.9 51.1L160 25.4zM256 112a176 176 0 1 1 0 352 176 176 0 1 1 0-352zm0 400c53.2 0 102.1-18.6 140.5-49.5L423 489l17 17L473.9 472l-17-17-26.5-26.5c31-38.4 49.5-87.3 49.5-140.5C480 164.3 379.7 64 256 64S32 164.3 32 288c0 53.2 18.6 102.1 49.5 140.5L55 455l-17 17L72 505.9l17-17 26.5-26.5c38.4 31 87.3 49.5 140.5 49.5zM497.1 146.4C506.5 131.6 512 114 512 95.2C512 42.6 469.4 0 416.8 0C391.8 0 369 9.6 352 25.4L497.1 146.4zM280 176l-48 0 0 24 0 64-64 0-24 0 0 48 24 0 64 0 0 64 0 24 48 0 0-24 0-64 64 0 24 0 0-48-24 0-64 0 0-64 0-24z" />
-    </Icon>
-);
+const AlarmPlus = createIcon("alarm-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiAAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCQgsGAAE2AiQDCAQgBYMtBzEbQwXIjsK2eXPEYcqQIUumvOMhuB/1Zn5sRGpRUgOncKTtglQB7iXBiTQdH6X/5F/+uYnfi0pokmrXExtV3EH6MMvtfqWeU6ee5zw0z98oSGPi0oCMCTTneQQCGkysw1vQaQWr0RKwWjt9Fwa9fpM+CUmG7Q2jI5Rxg6ZRkS9aLwFX+UnjJyyMQKoKAEQnANjYTY7FXQ1piF78v0R8QjQIiA0AkwgFCowisExbYJSOSVAqBZ/p///wH8gggKghl5+gRAMuwCWAEqSq1BGspgT7Fl1jnTRRV8jed7so2bUesEhPHfMkuqY8wrni0OOqMOp1XXVMg+oT7xui1pd4KUnDP2R+1wfp607nUc/DHkY85afsU6CEJOEbchd8lZq9QMuyawupKYIoIEQziBYRIREolag/HxE5vDHb/27/suwlVrZnChr29/Vtfkx35KfxduD4tFOl6uxoa+cc0jc7nUC350AXeMXvSDB5d19ho9HYKO6/M6GE33voAm/wMYF+1f6w0d/fbyiYme74asM5N0eAgEEO8/UAmOP4dIBAcJe39S3f1OeXgagF+Hr958/yM8L/u4l8AxolCIrZ/wo5CUgCAJDRBocEAumMLnnUVo8IEJoRINWaBSiMMEOg1GwGgco4VwRqzTZpi9IQoVcuQGq1BwpLekGp1wVQWfbEqPWGtiWydsT+A5PCAIXOMUcVZ15sGqqccdFp7M22ZUlbLElpFWXq1WlRqkSllgZpEmu3qhW2gkO9EONIhWO8sOPkXkqD0aRZ5Vg4n+KN3dcl2tbNUtK0COmcjZRECoU1hU21yocM");
 
 export default AlarmPlus;

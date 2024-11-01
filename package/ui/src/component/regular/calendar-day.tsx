@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-day` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-day?s=regular calendar-day}
  * @preview ![calendar-day](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/calendar-day.svg)
  */
-const CalendarDay: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 0c13.3 0 24 10.7 24 24l0 40 144 0 0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40 40 0c35.3 0 64 28.7 64 64l0 16 0 48 0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192l0-48 0-16C0 92.7 28.7 64 64 64l40 0 0-40c0-13.3 10.7-24 24-24zM400 192L48 192l0 256c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-256zM112 256l96 0c8.8 0 16 7.2 16 16l0 96c0 8.8-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const CalendarDay = createIcon("calendar-day", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcQAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbwsGAAE2AiQDCAQgBYMtBzMb8gTIjtRG+UVWEg/fr/V57uueXwsAvQAMHgjlOh4XNGIqNhVJULXv0987/vfPP33AZ/RR1qK5cZ3v5jxPIMBsYZcHkmaBZZqAtTutFQe0TyOUteT47Pg8II97cVmJdCf9iEvlQ+NnzV0kKWUAoh4Axi1ZMEu5EpWIH/5H/GAGAmIcKAQyZGglwEiZQCu5ArlcUIn///f/gQUBRBV6ZQI5SliJ9YAcJFmeD6rdoGapdr64ZqnGihfNRc2IuNeF7Rfd3uBtkeJ219cda8XL7m9bZBGi1+NdF9XldbVq10pxo3HtuNU0W1uzRs1WFtcb1YibTWK+s/3bem9/affj5h+d+TqvcVeXddV4Hp/u6nH9+jXq6YsaTn08tkDgelJX1dW6X9euXUudyliVOtqOSXgV1qK2FjwPBIKJp/b9vabuyF+r1Uzgpw9/cz8j/5ejnN6imgSCrOf/Pa2MMkRZAABSHNY+yggkC2XoXWu5KUCogQBJlRoCZFqqJ0Cuhh4ClLQxSIAqNSyQiby60MiqDpJa9oHMYKdArpH3oGSkb9IqjSKzL9o66O9dwmSEJx0r+vXuWwwvtn3MmAwZ90cUarnr4TDXDa7abI/dDtpko20ODuh+s4pDdpksIZN8UaGf3voqDFccj17PL7bJfgdss8fufMgIxX2/q8Py6m6gJYTZXydJRKr1/JJeG9cdAwAA");
 
 export default CalendarDay;

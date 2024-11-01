@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-quran` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-quran?s=solid book-quran}
  * @preview ![book-quran](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/book-quran.svg)
  */
-const BookQuran: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M352 0c53 0 96 43 96 96l0 320c0 53-43 96-96 96L64 512l-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l0-64c-17.7 0-32-14.3-32-32L0 32C0 14.3 14.3 0 32 0L64 0 352 0zm0 384L96 384l0 64 256 0c17.7 0 32-14.3 32-32s-14.3-32-32-32zM274.1 150.2l-8.9 21.4-23.1 1.9c-5.7 .5-8 7.5-3.7 11.2L256 199.8l-5.4 22.6c-1.3 5.5 4.7 9.9 9.6 6.9L280 217.2l19.8 12.1c4.9 3 10.9-1.4 9.6-6.9L304 199.8l17.6-15.1c4.3-3.7 2-10.8-3.7-11.2l-23.1-1.9-8.9-21.4c-2.2-5.3-9.6-5.3-11.8 0zM96 192c0 70.7 57.3 128 128 128c25.6 0 49.5-7.5 69.5-20.5c3.2-2.1 4.5-6.2 3.1-9.7s-5.2-5.6-9-4.8c-6.1 1.2-12.5 1.9-19 1.9c-52.4 0-94.9-42.5-94.9-94.9s42.5-94.9 94.9-94.9c6.5 0 12.8 .7 19 1.9c3.8 .8 7.5-1.3 9-4.8s.2-7.6-3.1-9.7C273.5 71.5 249.6 64 224 64C153.3 64 96 121.3 96 192z" />
-    </Icon>
-);
+const BookQuran = createIcon("book-quran", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABiwAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCNwsGAAE2AiQDCAQgBYMtBzEbOAXIHoVx41OC0kQc4reslu3YyRURtd9bzz4IoWOfKFRAwgAZHRUJZONI2C9kcqTkr7OnTz//+XHvud8Y+CYzQWhEIttHGhNZ2hIz5B3/f675/J5Hg3w+gkOpolsFSCSOMgX2fIBH5Us9wCXIbKI4cxsxDlnQMDAMkX+IGOJC8wh1drhTaCifnE/wqv75x9oUFEMVBDIJwh1cleThtp9+8tGdk46XAwI5ALCMUEE88whs4wrm8SyDWi3003VA/4EMAqQF7qiAGi1uwQuAGhR1zXOdZC5SvpxXLuVLms+9iIz2HNr1NITKJAsW6zRuuSElKg6XPaSNMrkMGaPFIHbiLFxSbmVr5UqrejeyypilBym3RjbBNyzcvdd1pUdxRFdpiz4bFghZlVx4mxwOfMwRi/o1yyEWU/hj7CVzNqlM/z6bPlH9e8wEPVEiRD3TGGOKuTlF3kkE+7ClUcA+MHJ539Py+TWYzHBAGslDDGJMSNLgIOOhFtO4ujr24ofC0bHHV4rerXBJPLZtEgpN22PipUI3ffJXTWFKKB8gCHeKEa9qZex/kZQD+PvVervuNn9KDwwqIFSrna+K3ALgE1AtGYIzvigobvDgVUe9ISCGEVC0hgVU5qgQqA1bQaCxKAyB1rAzXKnFiFmVFYpR11DZMgy1WafQ2PZSac2G64OqB6lfwKz0Fkk7xIL8A1k02/YUza3kuBvDjl3PIZ7xokg06dZlQKMGrQYauk9efVCndAtN80NMEH+BmGjsevholaPap1/rWrvfRwz2vuxpyF7uRSkOEVzTVRRSJA7a4dc72FfbBQAAAA==");
 
 export default BookQuran;

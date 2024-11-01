@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-stars` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-stars?s=duotone face-grin-stars}
  * @preview ![face-grin-stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-grin-stars.svg)
  */
-const FaceGrinStars: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm91.5-86.2c1-2.9 3.5-5.1 6.6-5.5l38.1-5 16.6-34.7c1.3-2.8 4.1-4.6 7.2-4.6s5.9 1.8 7.2 4.6l16.6 34.7 38.1 5c3.1 .4 5.6 2.5 6.6 5.5s.1 6.2-2.1 8.3l-27.9 26.5 7 37.8c.6 3-.7 6.1-3.2 7.9s-5.8 2-8.5 .6L160 232.5l-33.8 18.3c-2.7 1.5-6 1.3-8.5-.6s-3.7-4.9-3.2-7.9l7-37.8L93.6 178c-2.2-2.1-3.1-5.3-2.1-8.3zm13.6 161.7c-5-11.8 7-22.5 19.3-18.7c39.7 12.2 84.5 19 131.8 19s92.1-6.8 131.8-19c12.3-3.8 24.3 6.9 19.3 18.7C382.4 390.6 324.2 432 256.3 432s-126.2-41.4-151.1-100.5zM283.5 169.8c1-2.9 3.5-5.1 6.6-5.5l38.1-5 16.6-34.7c1.3-2.8 4.1-4.6 7.2-4.6s5.9 1.8 7.2 4.6l16.6 34.7 38.1 5c3.1 .4 5.6 2.5 6.6 5.5c.3 .8 .4 1.6 .4 2.5c0 2.2-.9 4.3-2.5 5.8l-27.9 26.5 7 37.8c.6 3-.7 6.1-3.2 7.9s-5.8 2-8.5 .6L352 232.5l-33.8 18.3c-2.7 1.5-6 1.3-8.5-.6s-3.7-4.9-3.2-7.9l7-37.8L285.6 178c-2.2-2.1-3.1-5.3-2.1-8.3z" />
-        <path d="M167.2 124.6c-1.3-2.8-4.1-4.6-7.2-4.6s-5.9 1.8-7.2 4.6l-16.6 34.7-38.1 5c-3.1 .4-5.6 2.5-6.6 5.5s-.1 6.2 2.1 8.3l27.9 26.5-7 37.8c-.6 3 .7 6.1 3.2 7.9s5.8 2 8.5 .6L160 232.5l33.8 18.3c2.7 1.5 6 1.3 8.5-.6s3.7-4.9 3.2-7.9l-7-37.8L226.4 178c2.2-2.1 3.1-5.3 2.1-8.3s-3.5-5.1-6.6-5.5l-38.1-5-16.6-34.7zm192 0c-1.3-2.8-4.1-4.6-7.2-4.6s-5.9 1.8-7.2 4.6l-16.6 34.7-38.1 5c-3.1 .4-5.6 2.5-6.6 5.5s-.1 6.2 2.1 8.3l27.9 26.5-7 37.8c-.6 3 .7 6.1 3.2 7.9s5.8 2 8.5 .6L352 232.5l33.8 18.3c2.7 1.5 6 1.3 8.5-.6s3.7-4.9 3.2-7.9l-7-37.8L418.4 178c2.2-2.1 3.1-5.3 2.1-8.3s-3.5-5.1-6.6-5.5l-38.1-5-16.6-34.7z" />
-    </Icon>
-);
+const FaceGrinStars = createIcon("face-grin-stars", true, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAAB1QAAAKbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiEAAsIAAE2AiQDCgQgBYMtB1obLAbIBp4n//LPnTcbcZH4JZXoT6IEXAHqvjuh3vm/pl4A5/Mfgld2aLEMa44GyeS9wz0fD6MsfXo2gdmMZ2CzbYmfhAIJIiJCRmty2+Mn+HjtCbS8MJZhAbVbPQI2yv8AyleCWQYKdwMAAPEDAABKu9sbufZBPih55DwP8ogGQACkDAATAQzAAMIQAAowECAMjQloNAIflNMJH8TpNEEAQFwQGwwAXAA34B3wDQDQACgUWuuYmNBYR7ynxVt3yRUefXd4rLEmSIZss26zxUqYdGy7I19y5Ys7JULiZad9hz1LkjwtKhbZKK9LRa43PvZc2/y0/Gb3m7IbTU881jQ8KrnW0b3TkS3JstNzrS1RMmW7bbs1RsJlkXWbPU9yhLAdjkiJk2znDofkKtv9zrf1O9PGx3MuV9zJu5qEWlnEIn5L9FG/o9+jHo14xMEyq8ViFToo0da0qwxDp6Wl+uNPalqaZRhHSdPWkg7kmkWw6rSjKiw3cI1Kdwg+d728/Pq5YHcqdWNK9O3UTzp9i9DE1autXntiO2H4kutVVHNmS+fw3IQ5c1LMtrTg7B58BREdxa8DgAACXypu2wf6Fvx381QAfLr68+/4IeG8plBHATcUAAJGgjOBfgoABQIAAAAomUG0gj6AAAYr0NSUFzvgouABCyhc8AAGofgBjQfxwEIEmbrxcDsGot0RrPQnoPBiMjDIYj7QWDkHLBRwN+eCVQxPN/3U/M/MU6XpynVmalKKmWfeNkyH8+plMd80R2Jm8EAsXWQEE5nANIYzjNFMU8wUGovTGU/VSVz5WZNUkkjBJA8Tbn/1dKncFKYyeu/CreRjfp+KYcZ5fCzFFVUzjS0GBogSwxFHdYkjp4yekBifgcSoGRm8c4UIAAAA");
 
 export default FaceGrinStars;

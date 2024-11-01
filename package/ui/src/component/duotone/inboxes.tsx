@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inboxes` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inboxes?s=duotone inboxes}
  * @preview ![inboxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/inboxes.svg)
  */
-const Inboxes: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 400l0 64c0 26.5 21.5 48 48 48l416 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-76.2 0c-12.1 0-23.2 6.8-28.6 17.7l-14.3 28.6c-5.4 10.8-16.5 17.7-28.6 17.7l-120.4 0c-12.1 0-23.2-6.8-28.6-17.7l-14.3-28.6c-5.4-10.8-16.5-17.7-28.6-17.7L48 352c-26.5 0-48 21.5-48 48zM79.3 160l45 0c12.1 0 23.2 6.8 28.6 17.7c4.8 9.5 9.5 19.1 14.3 28.6c5.4 10.8 16.5 17.7 28.6 17.7l120.4 0c12.1 0 23.2-6.8 28.6-17.7l14.3-28.6c5.4-10.8 16.5-17.7 28.6-17.7l45 0L394.3 64 117.7 64c-12.8 32-25.6 64-38.4 96z" />
-        <path d="M79.3 160l38.4-96 276.7 0 38.4 96-45 0c-12.1 0-23.2 6.8-28.6 17.7l-14.3 28.6c-5.4 10.8-16.5 17.7-28.6 17.7l-120.4 0c-12.1 0-23.2-6.8-28.6-17.7l-14.3-28.6c-5.4-10.8-16.5-17.7-28.6-17.7l-45 0zm33-160c-22.9 0-43.5 13.9-52 35.2L4 175.8c-2.6 6.6-4 13.7-4 20.8L0 264c0 30.9 25.1 56 56 56l400 0c30.9 0 56-25.1 56-56l0-67.4c0-7.1-1.4-14.2-4-20.8L451.7 35.2C443.2 13.9 422.6 0 399.8 0L112.2 0z" />
-    </Icon>
-);
+const Inboxes = createIcon("inboxes", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABlwAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCTAsIAAE2AiQDCgQgBYMtB0obaAXIjtRWd6RJHiKI1/U6+6Q725IZZOL7RuQgl0BUJq5SuQtBC9QSV75mZgJlPHHN87emBywAzLao8Row83w0oJ1H0cYNNKAJzagMbIPzRiacCIWh/QR5fJndrUZ6MsH97n8A4ye93E3SJgMQHQEwf+vG1a58H9+n+Lh5mfjYKgTEAlAJZMjQV4BZMoG+chVyueD71GzyfTSbFQFEnQMzZh29uXvwMCAHSZLyvFffUf3LWrt8S1krdm7dtLVdbI4iXunZM54YUsRrvXvHU8OKrZf7bopHiCe7PTq0Xbze4/E+EXd03xLPTWkbwtDsp7o/Nmwz097Q9ZGeW8uifLXXozbT7cmhJaf36RNPDy+Dgc4TPeORQW91fOuXgY6wZsCwvcDpiu82VuP2r9zeuF71QLpjbPX8/O+nzvRyoVa/XT33gHNXf2u1UDl9oOz3lkpjXtiZffJ14xpff5LNU/fqAH3VuLfmt7GBcc6UYZq14vRDxxq2V1eP3/f440AguPX/2W/v7TDrn9ZlAj+++9tf6YekeSVJb6G1BIJsTHOMXQkkAgCQ4lqDEhDILJOEZ23rMQFCgQBJXSFApo+OAuQKowWo6W+yAHWFjTKRtxG62l0TSVvnicwUtxC5rt4hamZ5L1vXNbLnUXiahL/B1CVtYPG8qmVco5pRTVYU8RHj9OTMarU74lreMRIecMRZZ1xy2CHHE9PCL1hduMZpS+awxV6o0mKchsoM1e76fWeLVvaCi46Py/unmak6Px7h2vn+I+FiEmDCldyTESmyDsfPfKvm2Pfa6tSWX2AAAAA=");
 
 export default Inboxes;

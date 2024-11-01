@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bug` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bug?s=sharp-solid bug}
  * @preview ![bug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bug.svg)
  */
-const Bug: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-53 0-96 43-96 96l0 32 192 0 0-32c0-53-43-96-96-96zM86.6 105.4L64 82.7 18.7 128l22.6 22.6L96 205.3 96 256l-64 0L0 256l0 64 32 0 64 0c0 24.2 5.4 47.2 15 67.7L57.4 441.4 34.7 464 80 509.3l22.6-22.6 47.1-47.1c24.5 21.8 55.8 36.2 90.3 39.6L240 240l0-16 32 0 0 16 0 239.2c34.5-3.4 65.8-17.8 90.3-39.6l47.1 47.1L432 509.3 477.3 464l-22.6-22.6L401 387.7c9.6-20.6 15-43.5 15-67.7l64 0 32 0 0-64-32 0-64 0 0-50.7 54.6-54.6L493.3 128 448 82.7l-22.6 22.6L370.7 160l-229.5 0L86.6 105.4z" />
-    </Icon>
-);
+const Bug = createIcon("bug", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbQAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCAQsGAAE2AiQDCAQgBYMtByob+wTIjpSuxmQ8D6/3/619kqfkG/kAR2DeEB3UTwfWfwB0vE0xRDX1rd/hv795/s8/fcBnFNpYuGjpWOBznieQWJcHHlAWWKaBYGqp2ziHG0RZFTmC54ghLjSLB9T5pHrcCOWZMsAT/ab5y0KPU0xUADIDAMdcdN4Zvvw+3yffDd8j3zkNgRwDOkGFCksEHK4SLFHrUKuF7zMc2j+wI0BG4QMVUKPGJG4B1KAodT3zjHZkan1hO9Jc9u765NASaZO8uPHlvedv3LDx8GzIOZGmkbZ9eOHZWZ8jsilH5bMTkqSNyFdHHZENOSobc26eS9smTZOcl005Mutzdpqcu/LlGS//s2IwOTD08Mu8PN75Umf85ZcfPnRj3/cDF+rtcnR3tO7oNf+e70IDvX8dfcJ/ZujM8J8Tjv5Xb+BC5/t3TY7s0p91oV9dCATh9Ufv+vqq6Yf/P94W8OPH//1D36LhoryMcQWEavNws8sLKAQAUHK/lQWC4koFrjrFkwKiQUAxqhFQWWyGgFpjk4ARy+wRMKpxnkrqCTHHFROKKe6Cyl4PQG2Od2DE4b7yR81JRTSWJuw7L+lEj05Y63Zs3d4d7LaxwXGHrvPDurS8/v5S2yC7Jt3hdvfqXe8m9zpytzOi+9zmxAif4EGdHbbarnNQd5y9bl+od7d73OQOt7clh+nuW+vdH3dvEK0A5U52Ufw3rF973w0=");
 
 export default Bug;

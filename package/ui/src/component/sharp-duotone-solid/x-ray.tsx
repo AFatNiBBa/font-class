@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `x-ray` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/x-ray?s=sharp-duotone-solid x-ray}
  * @preview ![x-ray](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/x-ray.svg)
  */
-const XRay: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 96l0 320 448 0 0-320L32 96zm80 128l16 0 112 0 0-32-80 0-16 0 0-32 16 0 80 0 0-16 0-16 32 0 0 16 0 16 80 0 16 0 0 32-16 0-80 0 0 32 112 0 16 0 0 32-16 0-112 0 0 54.6L330.7 288l53.3 0 0 41.6L341.3 384l-170.7 0L128 329.6l0-41.6 53.3 0L240 310.6l0-54.6-112 0-16 0 0-32zm80 112a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm96 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0z" />
-        <path d="M0 32l32 0 448 0 32 0 0 64-32 0L32 96 0 96 0 32zM0 416l32 0 448 0 32 0 0 64-32 0L32 480 0 480l0-64z" />
-    </Icon>
-);
+const XRay = createIcon("x-ray", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABgQAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCIQsIAAE2AiQDCgQgBYMtB0YbOQXIjsJxr5RTLGWJQcRlRVCtkT2z90BoQ6DCCgCFBFbsCVz0CxmhT0Woq0hW0ed/zO1tQBXL/COJShNPot5I1StcX+N/rqkXZUcF8v3EDyUXVVYBlPl8AgUyirK96cBGMqKZ8MwzpUepUmV7ZCYii6j992gevz2hiu/lJQH5JWu8Gv8DGL/MuEHqKQBiGADsv1BIgWuYJqNufxC1oyAgDgCWMSgomMeAXXgC8/iWQaUSNNm20ETbEgQQncanC+hEN+6AxwAqkFJVVT09Pbt7evo6BqrzfR29pa93SPT2R/YDV7LkQJToP6eYvsj1RvRBrWIIvj66pTiOWKV90RsH/MChiB8590Hxaerj5PvxPn5p9TO89mel7tW+Li8jjJrwU5ZQ3giHw5w8d+KJWGzVyQ4TxGcMYg1hSAXY4sItFx4ctO4+7qXo8OCymzJzYdMID/dNfh8IBAe3lWt10a7/3X0Jfnz79xM/pG1SroFuCYKyvtWrJEgCAJDxgCo/8f4X8QGP+n3EgNDLDalTLxRzxFDptQ46LHKowQfO4ImqRxhXJUj9bkOx0xUq477QYZd/sdN4lMwz8sb48cuWlHhiE1mMZvLSY8tlSiatr/oo7FPv1IiGLqJnbmajq2NoI7iVVGVrKumxCV9ELIzMiBctd9e2Moora0Pbsr6OD72fUtv50zUUZE3ZrR4WhcgoA482rJpHww52ioRlpwIAAA==");
 
 export default XRay;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud?s=sharp-light cloud}
  * @preview ![cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cloud.svg)
  */
-const Cloud: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M544 259.6l16 9.2c28.8 16.6 48 47.7 48 83.2l0 96-96 0-368 0L32 448l0-112c0-48.7 31.1-90.2 74.7-105.6l21.3-7.5 0-22.6 0-8.2c0-70.7 57.3-128 128-128c45.1 0 84.8 23.3 107.6 58.7l14.2 22 24.3-9.5c11.7-4.6 24.4-7.1 37.9-7.1c57.4 0 104 46.6 104 104l0 9.1 0 18.5zM96 200.2C40.1 220 0 273.3 0 336L0 448l0 32 32 0 112 0 368 0 96 0 32 0 0-32 0-96c0-47.4-25.7-88.7-64-110.9l0-9.1c0-75.1-60.9-136-136-136c-17.5 0-34.2 3.3-49.5 9.3C362 61.2 312.4 32 256 32C167.6 32 96 103.6 96 192l0 8.2z" />
-    </Icon>
-);
+const Cloud = createIcon("cloud", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbwAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbQsGAAE2AiQDCAQgBYMtBywb6QTIhofn7fo691X1H0A1gBFBu44kdrgbOjXn/5rPz5oO8PMRHFqHHkgBXq/q+QQmtjeNEmuLtInirJ29zxtEt0n6lE8yjD9sNkvI4+/opkS6NZVxpV5pfK2JcyR5BiBqA2D0wrnTvf5FfBFR/v8ZomwqAmIMKAQyZGguwDCZQHO5Arlc8EX8/7/8BxYEEBUAJ3rOWy7FGkAOkpTn3TtUK9XIF8T5qu5s0LDBPU1uJapWj7it60MDO0bYm7tGvjbxQvt7OjeJjnFftWc6P9BCWPN0t4iHmwtRrVZExOkuD3aJuHPEqxPOt3t0yItVPx728jxtHqz94LetyxvKWr30Bx5y2dvvNFtl1Re75EOHNp+gkcpKfcfNavPaa00/cVjD+o9/Wq5WRb3Xhj52PdfX2qVQrCqs0q559derqLJ+wdWmm2a1bdt1bJTLMbYyEAgee3nB1ZW1hv1auVoCX734/Y/azv9/kU6lB1FZAkHW7f9ulqVTINQAwhQHtDG+KJDMlfClVneTAKEqAiQVqgqQaaa2ALmqugpQ0lJ/ASpUNVcm8ipCfcsHSKrbDTIDHAe5+p4CJcO8F1SoH5l7cc7Bve6SJ2ho/KSid49exZBimeu8xzB5dGixbXc6kFo600wb7LTDPuuts9k+Re4xPd5vuwkWMd4PFXrroZfCEMVx9Tx9gfX22GuznXaUcYYq7vudHLC7dyYvAW0fiSQRqfTPIAA=");
 
 export default Cloud;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `line-columns` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/line-columns?s=solid line-columns}
  * @preview ![line-columns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/line-columns.svg)
  */
-const LineColumns: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 64c0-17.7-14.3-32-32-32L32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l160 0c17.7 0 32-14.3 32-32zm0 128c0-17.7-14.3-32-32-32L32 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0c17.7 0 32-14.3 32-32zM0 320c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 288c-17.7 0-32 14.3-32 32zM224 448c0-17.7-14.3-32-32-32L32 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0c17.7 0 32-14.3 32-32zM288 64c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L320 32c-17.7 0-32 14.3-32 32zM512 192c0-17.7-14.3-32-32-32l-160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0c17.7 0 32-14.3 32-32zM288 320c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0c-17.7 0-32 14.3-32 32zM512 448c0-17.7-14.3-32-32-32l-160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0c17.7 0 32-14.3 32-32z" />
-    </Icon>
-);
+const LineColumns = createIcon("line-columns", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABqAAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDQAsGAAE2AiQDCAQgBYMtBzMbwwXIngXO6YtGvIiI4UYSztNk3qV4iN/v25l599uKCJVNWPJMNA3Zq5g08g8J8cgS+kolk59Pv7m/GjNBfUeaU83QSI6kbY9mMzZDsdmSyexw3yG17/j+53LnZ5sO8JPdbZSxcdv5Bl+tRVECaUC9bOq9SAJLI0zA2p3bYSuifUIikhzfHv0eTyjxpbqlQb7Pv3ga3jT+mfYmdSoAMYQAOHBs2JHveqxHrNYSqw4iAuIAgiUUFSrMoWA3LjBHWEIURbAedU3/gUACiCbB0uCCHvzEH0ABqV3KJGRSo78ctd+j59R1I+JNT088GHtFro2/lnrj4eRbqucezkkEq2ObVjiyyN8p/g5ftaWrd/9Ysna1e9wb+CCqpJOZVrjW2+PaVcNmn/BryOtAIFj+bX5O2/2/LSXY/NzxZ6ReT9lFW4KgWqlXTBMkAQDIuMJKCKSP2mRInzcChB4ESE09BSqzdCh6bIWGBcUTTT0O4aJ0hDEzAKnPeajs8oJizAcadvsVTWNRKbKphuYzMq+t0eYYkjBGH8NGsnRTd7sDLPv2k2ccvEiWTo7uFuY27hVz1dUPB+2MbnwQJEIx6MN2f3t+YuHqZuPk6A8ZwPnU9pwvdzBiRHGbEymJ7PvawrolAAAAAA==");
 
 export default LineColumns;

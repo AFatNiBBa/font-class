@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-bus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-bus?s=solid car-bus}
  * @preview ![car-bus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/car-bus.svg)
  */
-const CarBus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 416l16 0 0 32c0 17.7 14.3 32 32 32l16 0c17.7 0 32-14.3 32-32l0-32 64 0 0-64c0-32.8 16.5-61.8 41.6-79.1L249.9 224 208 224l0-128 88 0c13.3 0 24 10.7 24 24l0 16.4c13.2-5.4 27.7-8.4 42.6-8.4l21.4 0 0-53.5c0-16.2-9.2-31-23.7-38.3C312.8 12.4 260.3 0 207.1 0L176.9 0C123.7 0 71.2 12.4 23.7 36.2C9.2 43.4 0 58.2 0 74.5L0 384c0 17.7 14.3 32 32 32zM88 96l88 0 0 128-88 0c-13.3 0-24-10.7-24-24l0-80c0-13.3 10.7-24 24-24zm8 200a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm266.6-72l138.8 0c6.9 0 13 4.4 15.2 10.9L534.3 288l-204.5 0 17.7-53.1c2.2-6.5 8.3-10.9 15.2-10.9zm-75.9-9.3l-26.6 79.7C238.8 304.7 224 326.6 224 352l0 96s0 0 0 0l0 32c0 17.7 14.3 32 32 32l16 0c17.7 0 32-14.3 32-32l0-32 256 0 0 32c0 17.7 14.3 32 32 32l16 0c17.7 0 32-14.3 32-32l0-32 0-96c0-25.4-14.8-47.3-36.1-57.6l-26.6-79.7C566.4 182 535.8 160 501.4 160l-138.8 0c-34.4 0-65 22-75.9 54.7zM304 344a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm232 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const CarBus = createIcon("car-bus", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABogAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDKgsGAAE2AiQDCAQgBYMtBy4bqAXIhofn9aI/9yWjZI2szE+ogl2J9a9BzMQ19eP86QGT3jV63ZrUmHk+gWk2N01gNxvOJoo72/amiGlnFypnyOOf7EI10o3pfVwTfGh8o68LSVoZgOgCgCW7bNvg5Q/jw4j32s8S71mHgFgCKoEMGQYIMF8mMECuQi4XfBjttvgPrAgg6qJXSyBHC0/jVUAOkkaez+3U6jS31SprHfOdZa0YVxalOLfntWUZV/S+PiLKiLh73rAoWuq9fcX9ZbnuppEfFEVcvv2ePmmvdo9T2UXc1y/i5lE7NpluGN4wQj1gyn1tzyly+bS4vvfO7btsf2GAOC8u8ESjjv1wxG1zdzroPmC4fJmyQwvNwqEPdXnouyHvH/y+dpcosdLp0ks7dcndlcX2rm5n/Gisc+1qS88uZvXuaabmkauGbRlkC/Ye2ZqxzzVr0a6RsCFrs55bGm9t6Uk54SpWXR6deGJO7n09zLljXbPfRj60a+99wVuF+6F99e66b7dTNy7sf7n+Czee2uXcO21f9C4Z+jwQCLInSvt0nv9bs0zg45d++BM/rv1yOjc9hKYEgmx8e7w907kg6AFEU5xs6MoXBZKHNUTv2sF1AoQCAZK6QoBMf10EyBXGCVAzyAwB6grbZCJvCT3s1WJJB8dhmZnOwnI9PI3VzPdWpK5HZNArwJ7w75i6sg+vGFRNmTi5mlst5tQiQHK2d1612zz6ZFkzBh91sGMc7UQHOdBhTuyhx9sQP8lRVq4hK/xQZYqJJqvMVZ0uPlZ3UtfxTpDcvHy+n3mq+/2jnbzefAyeRAJM/e6cXBGpccB+x0/Y/6QTAAAA");
 
 export default CarBus;

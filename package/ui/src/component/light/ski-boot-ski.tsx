@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ski-boot-ski` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ski-boot-ski?s=light ski-boot-ski}
  * @preview ![ski-boot-ski](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ski-boot-ski.svg)
  */
-const SkiBootSki: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M415.6 19.4c1.9-8.6-3.7-17.1-12.3-19s-17.1 3.7-19 12.3L380.2 32 168 32c-7.6 0-14.2 5.3-15.7 12.8L88.2 358.4c-6.1 29.8 16.7 57.6 47 57.6L432 416c26.5 0 48-21.5 48-48l0-52.2c0-18.2-10.3-34.8-26.5-42.9l-83.2-41.6L415.6 19.4zM279.2 64l94.2 0-20.6 96c-.3 0-.5 0-.8 0l-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l41.9 0-6.9 32L288 224c-8.8 0-16 7.2-16 16s7.2 16 16 16l60.2 0 90.9 45.5c5.4 2.7 8.8 8.3 8.8 14.3l0 52.2c0 8.8-7.2 16-16 16l-296.8 0c-10.1 0-17.7-9.3-15.7-19.2l25.2-123.3c43.6-20 107.6-67.2 134.4-177.5zm-33 0c-20.3 76-60 115.7-93 136.6L181.1 64l65.1 0zM640 416c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 35.3-28.7 64-64 64L16 480c-8.8 0-16 7.2-16 16s7.2 16 16 16l528 0c53 0 96-43 96-96z" />
-    </Icon>
-);
+const SkiBootSki = createIcon("ski-boot-ski", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABgQAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCJgsGAAE2AiQDCAQgBYMtBzMbKQXIHgd2Y9dMeBEZDYdFxcP3Oj/PfZI9f2UvspYBQ4wVEHQA6EmbSUmQLAvvZfE1dep5zkMBfA5B0PbQbdmgq2udV6DAY3E3b+/VirWKYndnU7YD2ru0yEiObzk+O8jj76BCui29h2vqh8bPOruQJM8ARCsAzNqwZpk3GtGIeO//Z4n3LEFAzAalQIYM3QSYKhPoJlcilwsa8f//+B9YEkBU8csmkKOKE3AeIAdJnuc9hhfta5Xm+fpapThwi5vbdYoibmy3MW5tf1u/5nF/x1u6Rtzef31sWFsramvjvOK8aXZT+1p0kmBd3AStr8d9XTfE8zNe31DcOzTigb7Rre272VC9dWAQWiw+p2U8P+Thnr0favXQL73e2/+eex5p/tlHy0b7zBNTZkw04cePdg4y8rv3s7HqV60ZZNinl9rOW7TdQTBSo0WLxmDHGCOXnWrzMBcUY/X4aJDQ+QzdDh5sv6rX79dyzT1dLzXrsi0ajRZF69b3ttp+WCvnPvRQExAIPv5q+69bTv21qQR+eulf5bP/fyOdmx5CkwSCbOj/bE3nAqIDiFKcrLfxRYHkCDl+17qbBQgFAiRVhQCZrloJkCsMEaCih3ECVBXWyETeTGhnWwNJ3XEgM95ZINfO06BiqjfDqnaR+R7pOeTPL26+huZNKkcNH1lOLqc5odwJT6NTym1t4MnUMgg22u8YRzvRPnsdcqJCjrcsOclR5lvwPD9UGmW4kUqTlcfV/er19jneCQ45xtFlnCnK+9ZAJ9vdB4GZMOZoU5NEpPoJRxwa9t79YScccQgAAAA=");
 
 export default SkiBootSki;

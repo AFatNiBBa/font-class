@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bed` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed?s=thin bed}
  * @preview ![bed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bed.svg)
  */
-const Bed: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 40c0-4.4-3.6-8-8-8s-8 3.6-8 8L0 328l0 80 0 64c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 608 0 0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-64 0-80 0-96c0-57.4-46.6-104-104-104l-224 0c-22.1 0-40 17.9-40 40l0 152L16 320 16 40zM624 400L16 400l0-64 264 0 344 0 0 64zm0-168l0 88-336 0 0-152c0-13.3 10.7-24 24-24l224 0c48.6 0 88 39.4 88 88zM80 208a64 64 0 1 1 128 0A64 64 0 1 1 80 208zm144 0A80 80 0 1 0 64 208a80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const Bed = createIcon("bed", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABegAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCCwsGAAE2AiQDCAQgBYMtByobBQXIhofn7fo691V1D6AamxnABVOA2TrI1PvTtSauef7nTw9USfBoUVixaRR45vkEJrabRVOBR+Fsojh1G0PwQTwvhiNH8IoY4kOzuIY8/rZJiXR/+gTX+UPjay2cIckyAFEfAOOXLpztvUpUIj75/2XiEzMREBNAIZAhQ2sBRskEWssVyOWCSvz/f/4PLAggyuQuEshRDduxF5CDpJTnfWrUr1OnVqlOvqRWqebKe5reaZxCiLtN7m0WUU9FnPWRHk8MqRmXGt8hake2v269uhF16gihdkQ82LVWvNz98TZ7Hu35JAcPdXts+SJtaz0y4o1hr7V+ePjrI99s1+GJ+k982/6TLZ+od2953bpyYZ5xEjzMOsPmHmeedWp9+tlzFQ2efKPBfWi+dus6IY5Tfdm4x5atNc99msyvGHfhQt6uWVb1449VWWPeqL318OGttY8HAsFXT+4dsrbeqF+r10qg6o3v/6LD/V9JJ9ITqC6BIOv1fy+r0gkAP4B8iiM6OF8USNYrkWut7R4BQk0ESMpqCpBppb4AuZp6ClDS1mABympaKBN5DaGx1R1NatuPZoY4iuYaexEtGeX9XFnjyKJNjhX5sZcxxQKTJxX9+/QrRhTTElUCSCyjI4tts9sRaumOmbbYa49DNttku0MGOmB28bDdpnjgZD9U6K+PfgojFMfVx+lLbHbAQdvttaeOM1JxP9nNEb97dziJCA6QSpJPh6MNmzcBAA==");
 
 export default Bed;

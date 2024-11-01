@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `voicemail` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/voicemail?s=thin voicemail}
  * @preview ![voicemail](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/voicemail.svg)
  */
-const Voicemail: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 368a128 128 0 1 0 0-256 128 128 0 1 0 0 256zM288 240c0 55.7-31.7 104.1-78 128L430 368c-46.3-23.9-78-72.3-78-128c0-79.5 64.5-144 144-144s144 64.5 144 144s-64.5 144-144 144l-352 0C64.5 384 0 319.5 0 240S64.5 96 144 96s144 64.5 144 144zM496 368a128 128 0 1 0 0-256 128 128 0 1 0 0 256zM144 304a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm0-144a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm416 80a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-144 0a80 80 0 1 1 160 0 80 80 0 1 1 -160 0z" />
-    </Icon>
-);
+const Voicemail = createIcon("voicemail", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABpAAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SCbwsGAAE2AiQDCAQgBYMtBzAbbwXILgpMN0f6RiTsypBs3Gr+cXx+zvkeRlC/X9nz/jsiCqljG4nCxQOpy7oAsFGxWz4gTNhGod6jsXmodH1IopZI4tbEEomSpdFIMPFUF8rWT2R47yZu1qA2yFhYpnEXUiBj7v9tL/AJkPL0/9+74//4pwVy7Y8lFsof09r2vAk0xgbseIBh6VziYRZQYpw6HdmRDRTpIYhombOU4vFZPB63kOOfCKSn2B/cXt40fumzJykKAIhWAGDnRCQM9398j/ipTMR7h4GA2AUYhUGBAoMwYB1OYBDeKJBlwXewUuF/4CgIIKpBXpdARh2e4i0gg6Qm4zkzHIbEaAQGPr4upiauyyB4lhWYjTRvNPUgTmkold1NS7xQQPBixsCbsuYHrnvou3EJXfvpx+Nt8ybqulTD/vK7K5V+40j1tNQATopKXupnZa1qTPqrkUo/14JqPk2AOrbDsvFM82rd+eKJnf8Kfyffu71UpswQ4jiDKZcnVBHXNFbIDtgZ+2xsZ4cyePHy83E5eosWVR1TfroUz9K2VpUCgVI9M4/3+YnE/K54Dfzz9++fBfMOvXFu1qD/DggEe117dzRq/X8thgX4uf9XTkwl7AmolUBQLFYWZVMJAH4AyRRzIuODAsldNQQ1ehRNh3oOSKrVQ2EAG7J6C1BlmEF3ekdcdGQKoE65AkmjU1A4ZAFZpytUWfeeqNYZcH6a2WX+HuYFNRaYh9aUamRFt0W7lXL6NGxD7sDsvDZJsBLqBvqmaqpapooYC6dneoIWHvBFiIaSGmKFwpV7L66SYxOtsRWfhQ16HonN7c4ShLHE5z4ZSSIS5Y3XvyAAAA==");
 
 export default Voicemail;

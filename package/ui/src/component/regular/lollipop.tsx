@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lollipop` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lollipop?s=regular lollipop}
  * @preview ![lollipop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/lollipop.svg)
  */
-const Lollipop: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M210.8 334.8C265.3 314.2 304 261.6 304 200l0-8c0-61.9-50.1-112-112-112S80 130.1 80 192c0 39.8 32.2 72 72 72s72-32.2 72-72l0-8c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 8c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-35.3 28.7-64 64-64s64 28.7 64 64l0 8c0 53-43 96-96 96l-8 0C94.6 296 48 249.4 48 192c0-79.5 64.5-144 144-144s144 64.5 144 144c0 73.2-54.6 133.6-125.2 142.8zM0 192C0 298 86 384 192 384c44.4 0 85.2-15 117.7-40.3L471 505c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9L343.7 309.7C369 277.2 384 236.4 384 192C384 86 298 0 192 0S0 86 0 192z" />
-    </Icon>
-);
+const Lollipop = createIcon("lollipop", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABfwAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCDwsGAAE2AiQDCAQgBYMtBy8bDgXIngm2rYL1K4RpaanPjIfvdf+/tU/yRDxfxTGTzl1bhhJKbr7jBST8g3/l5k/d1MZ5FOAD+GhjOH2Dz3meQOdRluddAllgmQaAsbU3jWwmZc+OZLKSdFzZ8bVDHi/HFcpIN6ZPcHm9afyty0UkZRmAaATAoh1b1nnjj/gj4uPSs8TH1iAgFoFCIEOGXgHmygR65QrkcsEfUSrhP7AggCgn351AjhyH4VRADpKU58t6asrq8u01ZdU7np8Q8fhAxG2jH5r+zMgHem8c9eCw+8c83BNx0/B7OsUNQ+/rvnnMwyPuHfVgl7hl5ANTq+O50Q/1373g9RXvznt10B1zX1m6/dtNEV9u+37Dtrh3xM3d2+PtHd9t/mr7Nxu/2Dr4ocaH/hn0ySGf+Oq4y6/mwvpKDf/D1U+Z8scfU6bUV2rbtKkN7OqmpjvuwHOrK1U+9NB5lZ745dOa3tMuffPNS++tGD5ix1eXtWkb2zbFEu133KGu7osvWNvfEg8hBKgwHQcCwX6L4sN9G+b+W1mTwF8v+Y9fIyWpIj2ESgkE2djSWHsllKYKAQBIcYrBCQLJfhK5aq3rBAjVCJCUqxYg06NRgFy1MQKU6TdNgHLVtshEXiW02ruDpNbxIDPd2SDX6mlQZq733XKtkcUbHy38dy9luaWXzRWTxk8sZhfTUBNCCOfxnGJbHXkKlUbBpkMc6xgnOdhBDneSYU+wLjjZ0ZavmGUeVJhkvIkKsxXHyaOy3UBVTizI588JU+Yo7lsjnbJuHgVLJMDkl8K0FqnyqGOPOurw4449Dg==");
 
 export default Lollipop;

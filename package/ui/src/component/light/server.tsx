@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `server` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/server?s=light server}
  * @preview ![server](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/server.svg)
  */
-const Server: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 64c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64L64 224c-35.3 0-64-28.7-64-64L0 96zM64 320c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L64 320zM0 352c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64l0-64zm304 32a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm24-280a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 280a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm24-280a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Server = createIcon("server", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABmwAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCZwsGAAE2AiQDCAQgBYMtBy0bZAXIjtRG+UVWEg//P/dv+9zkUxlTZnSEIOtgwLHwBTtrZPWr2vehy/GvTQ94Ro8yNv6X5mvwWIMSSGDb2JRQFljkUQLW4rarIKKhsdA4Qx6fo7sy0r30L67Ubxr/aeokSZ4BiDoAGLNo3gy/f4tvEf+WEP+ahoAYCwqBDBlaCDBcJtBCrkAuF3yLUkn8BxYEEOUSOnk4RzXcxCNADpLKPG+GoKpg9bKa+ULzpa627HyDiJvE0Ya3qteMC43vRMSxRrer1Zj8oFvEh04141WXd03F3c5v29eI113fN4sF55esedDpVdO77V83W+blYesleq+27+u8/7/Nvxv/NepIrbOcrTVaLQvoqNVvK1WrS92nRz2tW7faaNLCsx719UJar9YN58xpmJONG+tkzKDG8+eBQFDr169HVtUe/rOyegI/Pv1Z/4yUviXpPSolEGTdS90tTyARAIAUB7VNEEguqpS8ag23BQjVECApV02ATHN1BMhV002AMq0MEKBcNfNkIq8SGlhBQVLDHpAZ6BDINfARlBnuj3C5BpHBpg5Z+q9hzsQxMmFR0adn72JosVnQGuCm2sFhxWm380HZ0AXvsNEuO+23wXpbankk7jUjdsAOE/eECT6o0EdPvRWGKm6XnzsLaXivfbasW/fnGaZ4P9DZwf32XbA/SST7ykgSkco/YwAAAA==");
 
 export default Server;

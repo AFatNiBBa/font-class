@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `z` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/z?s=light z}
  * @preview ![z](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/z.svg)
  */
-const Z: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M0 48c0-8.8 7.2-16 16-16l352 0c6.2 0 11.9 3.6 14.5 9.3s1.7 12.3-2.3 17.1L50.5 448 368 448c8.8 0 16 7.2 16 16s-7.2 16-16 16L16 480c-6.2 0-11.9-3.6-14.5-9.3s-1.7-12.3 2.3-17.1L333.5 64 16 64C7.2 64 0 56.8 0 48z" />
-    </Icon>
-);
+const Z = createIcon("z", false, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABTgAAAHJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQR+CwYAATYCJAMIBCAFgy0HKBt2BMgehXHjU8qJiENziCwG/lsiHtrvf3N294sIKkk1WdQIoapHtdhf6Eglk+/PX+699tTXUXvbnR01qGwPywpsCJxmUbYFPkiYXmLVvs//NfXi+VGBfJIDPbMoPI3EKDy7XgVPYGJ780ofzwY2UZy1sytRBGUSn/JJJmX4DKsdtDzKbmrKT8UX78OX5p8lB1C0CiCTAMDpqzUR7iy/k14XSM8FIJAzAOshKipWIThGKVilsh5omvAbu07/BxIIkH7plQU0VGwBdgLQQJHW1oz0jbUr9m3D9bvXnNfus6uTsXx1n1ymvPJcvP2M5puHk2zSz/ft9XwYZ9cZzu5onj2qYJaWOnS4eQ6uPg4Eof5655r12P9BYwF/b//jmZ3csbxUSAAGFRDq7m63Vp4zkLwU8Bgvd3HICYo1mRmfOuobBDGMgKLfsIBqhQ2CZtguCPqslYGg37CLlNKGxKx2BcWoG6A6YA+aWVfQ55iH32829Z3wUuZ/aSkCRfl1lIjGqUjDQhFEz7r5Ek2r/p3pC2Ar9MzNbHR1DG0IviJGW1MCh/F+iCRExZEiWq7vNzd1rawNzc38KiW03/Tb8aMDEC9IvycLRVFayUMAAA==");
 
 export default Z;

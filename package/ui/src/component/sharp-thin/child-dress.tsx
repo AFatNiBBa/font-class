@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `child-dress` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child-dress?s=sharp-thin child-dress}
  * @preview ![child-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/child-dress.svg)
  */
-const ChildDress: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M160 112a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM160 0a64 64 0 1 1 0 128A64 64 0 1 1 160 0zm59.8 245.4l3.4 7.2 64 136 5.4 11.4L280 400l-40 0 0 104 0 8-8 0-48 0-8 0 0-8 0-104-32 0 0 104 0 8-8 0-48 0-8 0 0-8 0-104-40 0-12.6 0 5.4-11.4 64-136 3.4-7.2 14.5 6.8-3.4 7.2L52.6 384 88 384l48 0 48 0 48 0 35.4 0L208.8 259.4l-3.4-7.2 14.5-6.8zM128 400l-32 0 0 96 32 0 0-96zm64 0l0 96 32 0 0-96-32 0zM108.9 160l102.2 0 4.6 0 2.3 3.9 84.9 144 4.1 6.9L293.2 323l-4.1-6.9L206.5 176l-93 0L30.9 316.1 26.8 323 13 314.8l4.1-6.9 84.9-144 2.3-3.9 4.6 0z" />
-    </Icon>
-);
+const ChildDress = createIcon("child-dress", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABhQAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCUwsGAAE2AiQDCAQgBYMtBzIbVQXIngem242cJxQ6E4m6EIbdHur2ozOep/Zjf+6+Ra1p86QWkkpqTBeLDCExnRIphfn1l4DPN+b+3/xuQ/UQ82TqzSQ0KmSqWKLp61SSWp7/3oiZcNSrVSX4s8npqgJP/pJZ02zimud//g0YRfZo0cv0Kuw+n8BAR7v5GmScNrCZTsC2uO3miHiIg1DYQ02rPnoonwV4Dx+a/zxtUGgbAJB+AMD+RW05Lu55H97+MflRCgJkHzCJoAENGEXAFi2CUToKVDqEX9ps4j9QQQDSiviOC6CCdvCAD0AFFIaqs1pTzMZfaquuoUsvWr+8l9cM3R7dc4RInrnhJ/lHIuqlkaubaz1daQUIQySH2SWEO2vcNYGeJVI2xI2pTkgBdpESJA+UN3QJ6UrirkgRFaxr5JP7uMB9B7wHCHYP9h5OTh72Cv5UfKy/f2x8KOsvLD4lbxvXrNNDMDGtmcQQpUsK72lWN015QKqMewR95wWpHlpXMb0LStdel1uh3ff4c6BRZ9S9Y8UdUlU/407NsxbnbjJEDxAQqGcjTZ322f8mqQHw7/zztfoZWf8umKQB2mkAgWbeFq0tC6ysSQIBAJQsCExmRVCsaBW/a7cdAYQAARQGAgENbw4IqIQoBLTwk4KAVkItLVYzyEV7R2hYTBNaqRYJHRcHhF62y5SBSxREyvAk/xBmFAyB/HUqITZeZarVpkYBMtEuZ6nD7vAFORSBd2LApAlz+vUZNjfAZ5Rn540r2ALzfZGSIFY8JZO63Hm6vUG/GbOGTZrwq2RRz8fDLWxPjsA+jVhwQUWhgRT5BVgxbzgAAA==");
 
 export default ChildDress;

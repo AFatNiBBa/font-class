@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-cough` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-cough?s=duotone head-side-cough}
  * @preview ![head-side-cough](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/head-side-cough.svg)
  */
-const HeadSideCough: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 224.2C0 100.6 100.2 0 224 0l24 0c95.2 0 181.2 69.3 197.3 160.2c2.3 13 6.8 25.7 15.1 36l42 52.6c6.2 7.8 9.6 17.4 9.6 27.4c0 24.2-19.6 43.8-43.8 43.8c-6.7 0-13.4 0-20.2 0l0 32L339.2 365.6c-11 1.4-19.2 10.7-19.2 21.8c0 11.6 9 21.2 20.6 21.9L448 416l0 16c0 26.5-21.5 48-48 48l-80 0 0 8c0 13.3-10.7 24-24 24c-13.3 0-26.7 0-40 0L96 512c-17.7 0-32-14.3-32-32l0-72.7c0-16.7-6.9-32.5-17.1-45.8C16.6 322.4 0 274.1 0 224.2zM320 192a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M592 288a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm-40 24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm-64 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm128 0a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM592 480a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm-40-72a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const HeadSideCough = createIcon("head-side-cough", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABqgAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCbQsIAAE2AiQDCgQgBYMtB1obmQXIHolxTMU2eBQjqGyVWT1zG3ezzzDPzJYQwAIijzbkKmR9yN6qOMkJ2/f/uebzCz06oHvfLggOJXtlB7IGzHw+gQFHUrQVjXg6Q9vgvImH0B3a00+QpwHZ1RpID6TvcJvzP4Dxr86uJmnKAEQrAMzasGaZj2pRS/Fd/W3iO0sRELNBKZAhQzcBpsoEusmVyOWCWqrXqUW9XhJAVDhvy0AFBe7GE4AcJBUpz5u84jltqw3N8/XRvOLEQ5/pfH/fZ7tM5ELVW2rxqrd2HF//wHhqTMRbSyK+XVCN35d9v+4Bs+Iel7e7u7ixEGvj6U4P9FsX4v5WrG+Rhn1v7BXsjjd2uDciHuzyyfo9l4u4p3pTx/viig5hQJi0Xe8XW734X6/v9n9nxWNWrWofOhekAL26xS9PdbwwITVgAf2cWvNf+HgY3WudLHT0aPO5fT6820Mt2377nqIoHW2uTbTtdbiilez7P0au1Kj9qsJb97gW11/fYpHGi39YOqNnJYALcQmjA3HdD6/1w46WU/9vrCbwzztfZO+uf5QuTy+iUQJBNrQ+1NZ0OSBuAD8xxXm90+XxEwKZ9Q421cy9IhcKSkgqCsh01QpyhSHQoIdxJ1QU1shE3iS0sw2ApJlTkBnvEsi18xY0mOrLdEW7yN5P5e1SPg8z59eReZPKUcNHlpPLwZJcfeUkPTqlnB0OPM9bBsGN9jvhuLP22euQszXytGW5c46ZP0bM80WlUYYbqTRZubp621xfS592xqF+ff04U5T7RwOdH+8+CCYSj3e0KZmMSJF1fIutYc+w8n+/6MDBYQ97x859+pMNAAAA");
 
 export default HeadSideCough;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock?s=sharp-regular clock}
  * @preview ![clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/clock.svg)
  */
-const Clock: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120l0 136 0 12.8 10.7 7.1 96 64 20 13.3 26.6-39.9-20-13.3L280 243.2 280 120l0-24-48 0 0 24z" />
-    </Icon>
-);
+const Clock = createIcon("clock", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbAAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBagsGAAE2AiQDCAQgBYMtBywb5gTIjtRW+YOVEA/P20l/7pvJIsnSs4D5wUpFI3cgK6r6dYqldv6v+fyeHx3gt0vhQ4vCSpACil7F8wkMdLR3viKJApvpBGzmLdtjSZb7JZlokh6/0ePVAfJ4Pu5WIt2fPsBd9UPjL21cIyllAKIxACavXDrfK9/H9xHv1xLvm4uAmAwKgQwZ2gswTibQXq5ALhd8H7Wa/AcWBBB14GUTyFHCSmwB5CDJ8rxduzaVUoN8RaVU3npJxGOz3infOue9AU/E5YFPzn2/ctvsd/s/rvrl5IhX539YuW3hx1NfX/nVlNcWfFS+dd4Hk15ZtlIQLWJ5dI+B0SNWBC4rhy6PNH7kn84f7PjAxy+PfoknqpWRIyvVJ14abSrS/4np9Wnz7KtTp776bJv6pmuV7d9uuhk7GnjAxonGuTdTlo1yVmuDUCDO+u27J6ZsbDTu/3qVBH587r//2s9I7ZUkPYJ6EgiyfjXWJZAIAECKE7okCCQLZXCtVfcIEMoIkNRRFiDTTmMBcmV9BSjpaLgAdZQtlYm8vtDc+gGSqsMgM8J5kGvuWVAyztthHc0jiy4uNri/XfIMC03fVgweMKgYUywrnQ8YpqyPLbaVXifSWG/qtcNBBxyz3Ta7HTPIEfOT4/ab4cHTfVFhsAEGKYxRHLfP+1fY7oijdjvogG4yVnE/6OWEP7s36Qloh0gliUillwgAAA==");
 
 export default Clock;

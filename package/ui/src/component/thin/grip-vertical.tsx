@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grip-vertical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grip-vertical?s=thin grip-vertical}
  * @preview ![grip-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/grip-vertical.svg)
  */
-const GripVertical: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M16 440l0-48c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zm24 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40l0 48c0 22.1 17.9 40 40 40zm168-40l0-48c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zm24 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40l0 48c0 22.1 17.9 40 40 40zM16 232c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24l0-48zM0 280c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40l0 48zm208 0l0-48c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zm24 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40l0 48c0 22.1 17.9 40 40 40zM16 72c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24l0-48zM0 120c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40L40 32C17.9 32 0 49.9 0 72l0 48zm208 0l0-48c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24zm24 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40l0 48c0 22.1 17.9 40 40 40z" />
-    </Icon>
-);
+const GripVertical = createIcon("grip-vertical", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAAB1gAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiEWAsGAAE2AiQDCAQgBYMtBzQbXAbIHoexe+SMYiOGVx8rEQ8fc/92bpJS8oqcMrMCUsi6LOvKDtjV/lm7s3Kn8iVM7XuF6I+cGq/VC3jF6kX7R+vfm1L/7qEJTOjR9wnNRhv5gCZSUN7bRDxKoSA/iRBpMY4vOr7ukMUaW9UieZB8xzV50fhXaxdIpCmAaASASSuWzPOxJmoivlcjvpuDgJgMSoEUKdoJMFYq0E6mRCYT1ES16v8DSwKI2hhMnMrQgKgQTbBJEpUsa9ImqI3QK2rVz5a7L1feMsSjHkU8bi3ud83jSZt+RV5cankvIs62uJvncbHZbeJM8zvFirk+y+nN0e5M84g7RRGp3cXBOzu/aPTiP9+3f/eXgc0Xsaj5QCKeMOnGL183Hqjx65eRL+t62mNwzp+/hB9Ybfyal8Wp5b93Pg4Egrd39h3e0HDs/3WLBPzz+vIzUq2JickL1JWAIO1b7WttHIeYKAAASRzXOSYikESmgp+14q4AIUeARG25AKm2GgmQyfURoJYOhglQW26JVGT1hGbWFThRcQhODXcSzjTzCq5lrE9Bbc0ifRTMlWa+pInTNTBtWzmo/8BydNnMZPaeU2F6TDlt9jyOXb3gqO0O2O+obbba5aiCDpsXH7PP9B5x2mdLg/Q3UGm0crncistVcNgRu+r8+iZjlOfdno73B/cCJ8Gkg+1OJERSf8fhXQf7PTM=");
 
 export default GripVertical;

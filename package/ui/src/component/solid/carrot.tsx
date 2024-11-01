@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `carrot` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/carrot?s=solid carrot}
  * @preview ![carrot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/carrot.svg)
  */
-const Carrot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M346.7 6C337.6 17 320 42.3 320 72c0 40 15.3 55.3 40 80s40 40 80 40c29.7 0 55-17.6 66-26.7c4-3.3 6-8.2 6-13.3s-2-10-6-13.2c-11.4-9.1-38.3-26.8-74-26.8c-32 0-40 8-40 8s8-8 8-40c0-35.7-17.7-62.6-26.8-74C370 2 365.1 0 360 0s-10 2-13.3 6zM244.6 136c-40 0-77.1 18.1-101.7 48.2l60.5 60.5c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-55.3-55.3 0 .1L2.2 477.9C-2 487-.1 497.8 7 505s17.9 9 27.1 4.8l134.7-62.4-52.1-52.1c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L199.7 433l100.2-46.4c46.4-21.5 76.2-68 76.2-119.2C376 194.8 317.2 136 244.6 136z" />
-    </Icon>
-);
+const Carrot = createIcon("carrot", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdAAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBcAsGAAE2AiQDCAQgBYMtBy0b7QTIjsM4hvwSS3kTwfN2fV/ndr9ZQL0gGH0hhBDkjhgpm47iZeY3/f08/1X0AZ/RR+lFBMgaI/K8wSa2m6c2yG42nE0U97YhYY4svBFSKBGN51hBe8jjveycCtLj9D1utg+N3zVxjqRKBiBqA2D0wrnTffxj/BjxXfkN4jtTERCjQSGQIUNzAYbJBJrLFcjlgh+jXM7/gQUBRImQiTVPZy7DOkAOkpTn3TtWq6iRL8BLVN14r3HEo8anmjzufDpebv98tRc7vtjoYZxu+KDDCx2eq38v7qvAk6ZPKLPqlfrzPh8GiovshnMiYlHca2A4FsYwPLADDWYHv+57XV+NZ0Z8OKHNK7Vf+bN1G7LknUOnOFVq8dStglSlaotVlStfnFe58ryLnTo9terMXjoNbFz1zJlD4ytXHr/+9E/b9eTJyy9vwNEqVrz67m8XRug7P/k7a7srRs7sWBo/bxUQCH54ZsvBlbWG/VO5WgI/v/v3/3xm+bJJegWVJRBk3crdLEscnHWBxFMc0Aa+KJDMk8C7VvdAgFAVAZKSqgJkmqktQK6qrgJUaKm/ACVVzZWJvIpQ3/IBkup2g8wAx0GuvtdAhWG+ipXUjyzA1PBQv3cZJ2ho/Kaid49exZDCrOpazMhlemix7ex0gLo6w04b7LTDPuuts9k+xe8xPbnfdhM8brwfKvTWQy+FIYrjxvP2BdbbY6/NdtpRZxmquB/t5IA/uDN4EhHsoyBJRCo9sbl27gMAAA==");
 
 export default Carrot;

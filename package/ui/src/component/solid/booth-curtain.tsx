@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `booth-curtain` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/booth-curtain?s=solid booth-curtain}
  * @preview ![booth-curtain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/booth-curtain.svg)
  */
-const BoothCurtain: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 480c0 17.7 14.3 32 32 32s32-14.3 32-32L64 64l64 0 0-64L64 0zM512 64c0-35.3-28.7-64-64-64L352 0 256 0 192 0c-17.7 0-32 14.3-32 32l0 368c0 26.5 21.5 48 48 48s48-21.5 48-48c0 26.5 21.5 48 48 48s48-21.5 48-48c0 26.5 21.5 48 48 48s48-21.5 48-48l0 80c0 17.7 14.3 32 32 32s32-14.3 32-32l0-416z" />
-    </Icon>
-);
+const BoothCurtain = createIcon("booth-curtain", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABbQAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBWQsGAAE2AiQDCAQgBYMtBzQb3QTIHgfVbS/GY4IRNMX+BE/iIX4OfXf5KaTtkBWiKtoRSiCPwteNQCE4Ir9WuLGdns7/v5+79/8/kyb6JuJ5a0uiCjSxBCHRFjlUojcP0UKiQ8Te8U3dPO+8DfhGoY2FixbIAnlqrvMEEuvSLk8oi9LMugSs3dl2zCFaOSQtsliOczkeO5S4ry7U5M38wvl80fhntgtSdwUAMQkAGDmYzcDL7/gd8dm+Ir7ZCgTECMAiiAoV5kHQjxaYh7EIKIrgd7Qt/QMXgQCiA/jlJigo2AMcBKCAlIWRrxfUIqbQU/Or95dG3MzKOJl+VXA18zrSKEBEfvvW8ojbxU1zOe0KZFxPv2p+JLuuwhLLZsNT6dN/xk6OGfqymwwmN7dNGB2dUMydYTK/DDVT4nbr9o0r9Pj3tWu/x6ta3nV0HASC/pd/HpL0/+/qoQD+vm/wFbVfUz5FlwRBtbJdqZYgCQBAxgFDQiBtQeGz9romQGgQIHVoBKjMJYWgaKyAoLZAGIIOjb1oUXgQpql3kHqdApXNDkExzR2o9Xt1O0yLyql4l+D/dClpiaTmyDqPjyTIMtQEP2HjOEm21aUHoWSHVRhYWtjT1zO2J+iNTLBvLq2hKQ8i/Dx8iARiTh6XC/o2tsaWFmlKErnv2BzozXYwKMy4HpSSSNEzhkfuY+c2e+3xAgAA");
 
 export default BoothCurtain;

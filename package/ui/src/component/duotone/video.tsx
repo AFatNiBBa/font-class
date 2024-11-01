@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `video` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video?s=duotone video}
  * @preview ![video](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/video.svg)
  */
-const Video: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 128C0 92.7 28.7 64 64 64l256 0c35.3 0 64 28.7 64 64l0 68.2 0 119.6 0 68.2c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z" />
-        <path d="M576 128c0-11.8-6.5-22.6-16.9-28.2s-23-5-32.9 1.6L384 196.2V315.8l142.2 94.8c9.8 6.5 22.4 7.2 32.9 1.6s16.9-16.4 16.9-28.2V128z" />
-    </Icon>
-);
+const Video = createIcon("video", true, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABZQAAAHiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBJQsIAAE2AiQDCgQgBYMtB0YbvQTIHoex82RJN5oQnw7j4fv9/rf2Ofc9ROwirgmSqVeGJCIREonmJfyhMiTTYE4vi/e/v3neeRTgMwptDw1kgc95nkDgUR7pAk8D+WCSS9ZNL2qI3Jqc1MtrmPoftnYo4k8+o0K6nHCu3Tg+auMMSZ0MIBoDYPL82bO8rImaFO//Pyfem4mAmAJKgYyM9gKMkwXaK5QoFIKa9P8/NZF/fiUBRBV8UAZVFBiB8YACJCGKonHHepUGxbx6lbq7r/Sg+ZwQc+N8z4vtcr7aN+JpzwZxv/fjNkKIS70edasfD/o8aZu7PGn85FPndSZOTD9q/zzLAWeX+VHrR2JS3SY0ucWtJk3qTnPANHWbMAKAQFAcf255o3Ffa9dL4MOLPyck06T0BLUlEOR+//tZkiZBmiTAS6XYp0uaFCcQyDpKcNT6LggQ6iJAUlVXgKydxgIU6uorQEVHwwWoqmu2LIo6QnNLByT17YRshKNQaO4ZVIzzyqtqHjl2mJdnvm6JMxibvlQOHjCoHFNuI50NB6pOx5bHZq99pdJbNq2z3TZ7rLXGRnuI2GVWuNdWMzR8ugeVBhtgkNIYpTl9FueRt8tuG9e8fc5Y5X23l316e29xEpAOsZJlIkVu4E9qfx9UGhHvaw==");
 
 export default Video;

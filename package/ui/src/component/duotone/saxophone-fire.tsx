@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `saxophone-fire` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/saxophone-fire?s=duotone saxophone-fire}
  * @preview ![saxophone-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/saxophone-fire.svg)
  */
-const SaxophoneFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 232c0 9.5 5.5 17.7 13.5 21.6L2.7 313C.9 323 0 333.1 0 343.2l0 7C0 439.6 72.4 512 161.8 512c49.4 0 96.1-22.6 126.8-61.4L534.4 140.1c6.1-7.7 15.3-12.1 25.1-12.1l64.2 0c9 0 16.3-7.3 16.3-16.3c0-4.9-2.2-9.5-5.9-12.6L609.8 78.8c-11.5-9.6-26-14.8-41-14.8l-30.3 0c-17 0-33.3 6.7-45.3 18.7C478.5 97.5 463.7 112.3 449 127L415 161c-4.7 4.7-9.4 9.4-14.1 14.1L367 209c-4.7 4.7-9.4 9.4-14.1 14.1L319 257c-34.8 34.8-69.6 69.6-104.4 104.4c-4.2 4.2-10 6.6-16 6.6c-12.5 0-22.6-10.1-22.6-22.6l0-1.9c0-4.8 1.4-9.6 4.1-13.6L229.3 256l2.7 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 208c-13.3 0-24 10.7-24 24zM112 368a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm32-88a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M256 153.6c0 7.6-.7 15.1-2 22.4l-77.6 0c-7.7-23.3-29.5-44.6-41-54.6c-4.3-3.7-10.5-3.7-14.8 0c-11.6 10-33.4 31.3-41 54.6L2 176c-1.3-7.3-2-14.8-2-22.4C0 92.3 50 37.9 85.8 10.1c4-3.1 8.7-4.6 13.4-4.7c6.4-.1 12.8 2.5 17.6 7.4l36.8 36.8 9.1-9.1c9.4-9.4 24.4-10.1 33.8-.8C243.6 86.4 256 128.1 256 153.6zM353 223L319 257l-8-8c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l8 8zm48-48L367 209l-8-8c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l8 8zm48-48L415 161l-8-8c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l8 8zM120 256a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM88 344a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const SaxophoneFire = createIcon("saxophone-fire", true, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABxwAAALDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDPQsIAAE2AiQDCgQgBYMtB1gb5wXILgpsY+rQRRiEQAM6PIfIOB5/KEME0VpZPbO3j2EmoQDtu0gCFcVCsiZ0YUug9+fH5XsH8Q+C691YraQkxMWFspDXZrS9zDzgIpVv445dKf+BS4y6VL80kAf6WX7Q96D1ag1boWBvGoGMh1rBTjnyGIYAMzhv8gGH4lB+gyLZ5Wk10uX0BCfd/viqm2mShgwO0Rb4G6B5W7JS4OFT/CZ8rySeWAkExHyAvhAZGT0hmIkq0BNNX6BQCD6lf3yKf31BAFGCTziDEk24g4eAAiSlXNBsmrhcNjuBJ7h0Pi2Xl3OKWjpycL3zspBkJquqemk5row5cVpRLslDUBk7g27Va6qcmXOCFbjeg8+Xh4k95Ve7rVpvazbsshk5NHciaCLezionU26ciuJiUxOudJlQOOJ2YyMuDt21D0ZTx8Ds4t9rzzWuu4440SUvmnCnx7otBze75hwV3VLn5b/dcl+0/9dvnqhq0qyW8fT+RXvl/tetBk2T4erlNuzlHF8I81q3kjw9ly8UtxP3+X7Rit9X8ZKl4+vYKSMK99miSPtp/XjL6DZMiIVP3y2MQW2Ew/8m22gb7rc1K/swGLoYQNs/Z5OY1wRLS0tF28V2fW3DvI4B9ZPGJqA6xPYCefef4MZDw33y7OcAAkGnBxcVZv6vb6IAfLn98y96X3UaT7dQL4Egj6xGKk4twNQBZFL0spxYpUC2w0lRml0Q2dBIhaTUiKwHEQqNRqCmNx/9wisbUEXBhtBRCYik2UFkk42g0NEFamZ6SpU6BvU5Nj6Fxt/IbLFNNmYZGefqTgLJaEVhejT1ejKILPYN7eUdDvAk1GrTqluNag26G3KnlGyPFrFT2pjvEh5cuSMCkc31u4dz1ejUpUGbVrtIEHJ8xF7vdH8HGKTwdY53IctEQqri8L7+tpvd7vJeuFy+iV6qPssLAAAAAA==");
 
 export default SaxophoneFire;

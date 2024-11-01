@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microphone-lines` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-lines?s=solid microphone-lines}
  * @preview ![microphone-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/microphone-lines.svg)
  */
-const MicrophoneLines: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M96 96l0 160c0 53 43 96 96 96s96-43 96-96l-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-32-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-32-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0c0-53-43-96-96-96S96 43 96 96zM320 240l0 16c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 89.1 66.2 162.7 152 174.4l0 33.6-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-33.6c85.8-11.7 152-85.3 152-174.4l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 24z" />
-    </Icon>
-);
+const MicrophoneLines = createIcon("microphone-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfgAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCEwsGAAE2AiQDCAQgBYMtBzcbGgXIjpQuZyTx8M9cn/clmQ+4CFkAZrmOuUyqbHsqF2xJVU+F4E9/786/bfqAz7/j3Daam7rvzXWeQOfTurwN8oGyrCzBhDDrVhKlR5lPspKlsdLjdbfu8bkTZHEsPa9Acj35HZfbi8ZfmjpPojwFEHUAMGbRvBl+eB2vI34rfkr8ZhoCYgzIBVKkaCHAcKlAC5kcmUzwOorF9B+YE0CUAJwwshjcgYNonv2CJMt6D6gsVGcLKwsVy4TbXZ4P+Lzby9YVcaXR1caVESH33+n6YuAnnZ+1WCDcG/7N+B9Hftc24kbHR03EHyO+XcBEV8r1DpWVT5vf6BiI+HPU94vo/rYv6rz4x+8bf7dq1T0Uy168OH26vKNsttc1Na9ny4nI3VeX6+DhQv9xs2eP61/orOGcOQ07M+79u2PK2+ptTsOGcyZP7sne2tLZu+8bZwihCRAIZr04emlV7fD/yyoT8Par/44w6xR/iN3JC5RJQJB2L3a3PE6ro07sFgDKSRzUlnySQGKDBJ61yhUBQgUCJEpUCJBqro4AmQrdBChoZYAAJSrMk4qsXGhgxQSJKntAaqATINPAx6BguJ/KJRpE6nG8v/A/fCkTV2jCqrxPz9750HzbIIITsXRxWG52Oh/MA13CURvtstN+G6y3xf6F3GtG7YAdJjJigi/K9dFTb7mh8uP2+vBCG+y1zxa77KzLDJPfj3V2kI/vEtaTAPo+q7qESOp8qpxXaj3eUwA=");
 
 export default MicrophoneLines;

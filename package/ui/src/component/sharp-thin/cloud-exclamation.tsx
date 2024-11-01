@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-exclamation?s=sharp-thin cloud-exclamation}
  * @preview ![cloud-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cloud-exclamation.svg)
  */
-const CloudExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M528 228l0-36c0-44.2-35.8-80-80-80c-16.5 0-31.7 5-44.4 13.5L389.4 135l-8.5-14.8C355.9 77 309.3 48 256 48c-79.5 0-144 64.5-144 144l0 8.2 0 11.3-10.7 3.8C51.6 232.9 16 280.3 16 336l0 128 128 0 368 0 112 0 0-112c0-52.2-35.7-96-84-108.5l-12-3.1 0-12.4zM0 336c0-62.7 40.1-116 96-135.8l0-8.2c0-88.4 71.6-160 160-160c53.6 0 101 26.3 130 66.7c3.1 4.3 6 8.8 8.7 13.4c3.5-2.4 7.2-4.5 11-6.4C418.5 99.5 432.8 96 448 96c53 0 96 43 96 96l0 36c55.2 14.2 96 64.3 96 124l0 112 0 16-16 0-112 0-368 0L16 480 0 480l0-16L0 336zM328 160l0 8 0 160 0 8-16 0 0-8 0-160 0-8 16 0zM304 368l32 0 0 32-32 0 0-32z" />
-    </Icon>
-);
+const CloudExclamation = createIcon("cloud-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgQAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCLQsGAAE2AiQDCAQgBYMtBzgbNQXIhuB5vaefc5MnrZiF+GGqlCqoEub/cs/v+dEBfj6CQxtrgSzA2631PIEAs16+aQL2osIsUWx3NmUOTfsklrIkxznH5dsO8vjbrkqkq9K7uKB8aPxgsFNJsgxAdAGw0habrOfFr+KriHf+f4x4xzoIiJVAIZAhwzABlsoEhskVyOWCr+L///E/sCCAKOMnTSBHGUfhZEAOkjzPp03u1RqlVr55o1Q/IMT1k++ef/bYfjEg7l/8dP3Vpc8WQvSLRyfeO0w0WqE+fkDEvjfMiHhgQcSHK7ywxTmLnpp0Wf8rBt7ReGzSXcPFY9PuGy5EvR0RuwiDGJw0Nm3UG7R+9N3du38a9e7u7+p8OhbeITbfrTt42reOV6Rs4ktnHDmsqulm2x2wY+1EJ351oMq++671iGZnn84lXPJAVazy7rurxKTobb/a/JU3njTwxLvvro519U0Xtg7U1T2w68Q1HqhWqzeq6qqq3sAPCuDFy0EgOLz/72vv0Fn6a7WRwDdP//KDcPb/X6UT092oSiDIpv4/1bbpREB0AEmKw41WviiQHCTHr9p0uQChjgBJWV2AzFBdAXJ1UwQoGWGeAGV1m8hEXhP62a6DpOkgkJnvOJDr5xFQstQbcVm/yMyPNB7y9xe3uoRWW1XMmj6zWFwsK42yKDwvLim2tYmHp4FJsNXuDrC/Q+1mV3s5VCAHWy87zH5W1+DV/FBhlulmKixWHLfPmze3m4MdYi8H2J+WWaK4H010uD5+EpgJY86WSxKRen4IB6f5tTB22u9FAQ==");
 
 export default CloudExclamation;

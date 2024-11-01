@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pepper` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pepper?s=sharp-regular pepper}
  * @preview ![pepper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pepper.svg)
  */
-const Pepper: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M277.8 102.3c-4.5-26.6-15.2-49-25.5-65.4c-6.8-10.8-13.6-19.4-18.7-25.4c-2.6-3-4.8-5.3-6.4-7c-.8-.8-1.5-1.5-2-2l-.6-.6-.2-.2-.1-.1c0 0 0 0 0 0s0 0 0 0L208 19.2c-16.4 17.5-16.4 17.5-16.4 17.5s0 0 0 0s0 0 0 0s0 0 0 0l.2 .2c.2 .2 .6 .6 1.1 1.1c1 1 2.6 2.7 4.5 4.9c3.9 4.5 9.1 11.1 14.3 19.4c6.6 10.6 12.9 23.4 16.7 37.9c-16.2-5-34-5.8-51.6-1.4c0 0 0 0 0 0s0 0 0 0c-10.5 2.6-20.1 6.9-28.7 12.4C126.5 97.5 99.5 92.2 72.7 98.9C21.3 111.7-10 163.8 2.9 215.3l56 224c12.9 51.4 65 82.7 116.4 69.9c10.5-2.6 20.1-6.9 28.7-12.4c5.7 3.6 11.8 6.7 18.3 9.2c10.6 4 22 6.1 33.7 6.1c0 0 0 0 0 0l0-24 0 24s0 0 0 0c11.7 0 23.1-2.1 33.7-6.1c6.5-2.4 12.6-5.5 18.3-9.2c8.6 5.5 18.3 9.8 28.7 12.4c51.4 12.9 103.6-18.4 116.4-69.8l56-224c12.9-51.4-18.4-103.6-69.9-116.4c-26.8-6.7-53.8-1.4-75.3 12.4c-8.6-5.6-18.3-9.8-28.7-12.4c-19.8-5-39.7-3.4-57.4 3.4zM84.4 145.4c10.5-2.6 21.1-1.6 30.4 2.4c-10.4 20-13.8 43.8-7.9 67.5l33.6 134.4 5.8 23.3 46.6-11.6L187 338.1 153.4 203.6c-6.2-25 8.3-50.3 32.7-57.6c.7-.2 1.5-.4 2.2-.6c18.7-4.7 37.6 2.3 49 16.4l18.7 23 18.7-23c11.4-14.1 30.3-21.1 49-16.4c9.2 2.3 17 7 23 13.3L364 176.9l17.3-18.1c11.6-12.1 29-17.7 46.3-13.4c25.7 6.4 41.4 32.5 34.9 58.2l-56 224c-6.4 25.7-32.5 41.4-58.2 34.9c-9.2-2.3-17-7-23-13.3L308 431.1l-17.3 18.1c-.2 .2-.5 .5-.7 .7c0 0 0 0 0 0c-4.7 4.7-10.5 8.5-17.1 11c0 0 0 0 0 0c-5.3 2-11 3.1-16.8 3.1c0 0 0 0 0 0c-5.8 0-11.5-1.1-16.8-3.1c0 0 0 0 0 0c-6.6-2.4-12.3-6.2-17-10.9c0 0 0 0 0 0c-.2-.2-.5-.5-.7-.8L204 431.1l-17.3 18.1c-6 6.3-13.9 11-23 13.3c-25.7 6.4-51.8-9.2-58.2-34.9l-56-224c-6.4-25.7 9.2-51.8 34.9-58.2z" />
-    </Icon>
-);
+const Pepper = createIcon("pepper", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABtAAAALuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSEBwsGAAE2AiQDCAQgBYMtBy0bBAbILgZyMj51WC2uxTU9Jeo5xUQJ9SPi4ffHN+e+9xdSAtHIZiUxCaFu3ejGvNVOC8/D5d5vjqETPMoCGcvjyyDBaIqFx2fVmvUE8InV3hOBCgmVvCVSRKyIFbuUf9YE6pqCMNVf6uvWTlxOf9gcvPDxQR40ki7aw+t8LFo0J3cJBBj+Y2OKZw+WKLa4DdV0l0hbaNygzl3pxki5pbsFXEAOzTc4cgoUDRWAtAGAGStUeXh0T/dEz/lAniMHgcwA9CGoUKEHAZOpBD2o9YFaLbwmXpv+AxkESCMPUqTqvvUj4A+gWlCUuj6UrxS3rJfvDc02TXoPhhapVWpsekqzJMfdOEh/oN9eIzLleHCgGF0sqF63zcFgq7Gc1NDEdH88FHYEwlmKfFu4P2u7fpjW0VRrc7QzGQwtFtRDtsNbu6NEiJNoadTjdLlN2mSp6kU+slY8guiBheBIRE3DgfnSYMibPKWVioEja6tRoFBisM3XiDveH/hRTEuj8aGy86pn9c/dGp6wXTfJps4hVoQ8ovDIbxxZcQRj+m2rpzTli7D6d0HzlSU0je+wJBBu5t+w7tsHdKEL0E6t8+Lz/ClYsjc0BrKqZpv27V/n3h8v77hGVr5Bq++NvqK4EZIX7u54HfY1thCi36M4dU+JuEPyf3noq4UQCbDxCmBvU2i6F7hiAKQtcd4YIv+fRdwh5eKUG0AQFj80j9qYx6oyZQFvD15fAfQmj18gKbdBEwWEarDmi7UFDsAe8ZRKDqJf2wFC8fJ2jW9t4ToERDMEFI00E1DpThsCas0MIqBBL8YQ0EgzS1RSNxUdWMe0ooU9WmUsh7VaB+5oDSbzuNRIBxHCehBSg7+axdJFOO0YC/IPZNHM2kNC4Ovfd2NYcM6zTJnxam2x0S477bfBelvsF/i95lUP2GGui5zjh/owgqEMpw8T6ZM8XI0t78t77bPFHE4/ZBJ9yhf6c9C9fEAb/kDzkc1QlKGrNNqtLyjQFwE=");
 
 export default Pepper;

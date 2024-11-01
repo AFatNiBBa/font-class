@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bag-shopping` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bag-shopping?s=sharp-duotone-solid bag-shopping}
  * @preview ![bag-shopping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bag-shopping.svg)
  */
-const BagShopping: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 160L0 512l448 0 0-352-112 0 0 72 0 24-48 0 0-24 0-72-128 0 0 72 0 24-48 0 0-24 0-72L0 160z" />
-        <path d="M224 48c-35.3 0-64 28.7-64 64l0 120 0 24-48 0 0-24 0-120C112 50.1 162.1 0 224 0s112 50.1 112 112l0 120 0 24-48 0 0-24 0-120c0-35.3-28.7-64-64-64z" />
-    </Icon>
-);
+const BagShopping = createIcon("bag-shopping", true, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABbgAAAHkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBVwsIAAE2AiQDCgQgBYMtB1Qb/QTIjtOlNiZg8UQQzJWzSf65yCkAg69jlkDqXFF4kqxqe/kA739x6nnOQwF8EMkcOEHmsNm1cAr0vDy557UY1LQG1rcNdTQE6UWEWEVIY5Xj9YYsHqbnlJBcTj7jvPwPYPzUxDkSFSmAqA2A0QvnTlf4Gl+T+Fx8Tnw2DQExBuQCKVI0F2CYVKC5TI5MJviaFIt8jWIxJ4AoJR9OQSkyzMJ8QAYSIbKsY+uqkhrZAnlRufRep4hHjYWoDKjf7Pp04IvOj1swkStdnnRIE9ZrRArMqKMN0uZJ7Se/W3/e8NmX87fqUKfykMZ6aeyQWv//1t9hRWWdOrfkq3K+YJVdJnX3JzlFQ+wCAkGff0cvrTTsX3lVAr6//ftD+R0VC1FInqBcAoK0W7GbZVGAKAgAQBIHtImCXQikOkqQXe2C2w+VECRKVUKqmdqQqdQVSrTUH9+szJWKrALa9S1HSFTbDakBjkOmvmdQYph3Tqn6kQYVGRLkny5ugkbGX8p79+iVD8mnjUrFCc67Q/NtrdOBNNMZntpgpx32WW+dzfYpbI/p/n7bTVih431RrrceeskNkbv7LbeAnD322jxm/OcMlZ+3OzmwXt4ZrpMA+lzHzZRIIq2/ZvXG7s9Q6h6f8w07zFsEAAA=");
 
 export default BagShopping;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mobile-retro` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mobile-retro?s=regular mobile-retro}
  * @preview ![mobile-retro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mobile-retro.svg)
  */
-const MobileRetro: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M256 48c8.8 0 16 7.2 16 16l0 384c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16l192 0zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zM80 160l0 64c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32 14.3-32 32zM96 352a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm24 56a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm40-56a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm24 56a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm40-56a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm24 56a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM128 64c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0z" />
-    </Icon>
-);
+const MobileRetro = createIcon("mobile-retro", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABnQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCXAsGAAE2AiQDCAQgBYMtBzMbXwXIjtRG+UVWMpSWh+/X6j33dS/1LEN/Bg6BIgQZF3ZsxFRsKjKxky+17/9zuef3/OgAv9GhjLVBRm3d63kCCZaftkHDwDJNwJqa9+IghObrS6tDp4Q8TsSL6khvpb/wgvOh8Y8Bj5LUZQCiHQDrjhzY5ZdqVCP+rEX8aQcCYh0oBTJkGBZgpUxgWK5ELhdUo1Zj/4ElAUQ973UJ5GjG83gdkIOkyPP2wcEmr665UteSH47erTjxWk+KV7uLeL03izf6Koc/nRrxZX+Kt6Z9NakSX8z4ZiiLt6d/Pbk4JDzY81qlEs/0vRERD/W+XhTxdPerDn0x9PbkT/vfmjSPE9VNN8iLj7/a/VpPJd7oe723GP91+9f/jvvr8l9qL1RbH9Ra/UV68mcfdtBRPKjo6PjwFzWeBW0frPWaWp98svWseG8t1NT2876enn1GuVcScON7W+1Hqq2t1bXs7SAQLLhv/bgzbSv/a6wk8Pd3/4//imq/xNr0NRolEGQzazOdjHsg1goAQIp7jI+1CCSPK3iXNHtdgFAgQFKvKCEzpB1yhRlQZ9SiEvUKB2QibxK6nQIgaXY7ZBa7D3LdvoU6K/2a1euO7LBkDirmozBx88imY+W82XPL5eVgX84eaZTeX1HONqfeY24aPOuyW93iLpdcdM1dYXfYVbnbzTaPoZt8UWme2eYqLVeuHt0WD5fd4U7X+vn1h6xQ7p9Odc/46mnQSTzc+TqSRKTmtyf7+wPpVgAAAA==");
 
 export default MobileRetro;

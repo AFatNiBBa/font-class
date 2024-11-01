@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `compact-disc` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compact-disc?s=regular compact-disc}
  * @preview ![compact-disc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/compact-disc.svg)
  */
-const CompactDisc: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-160a96 96 0 1 0 0-192 96 96 0 1 0 0 192zm0-120a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM241.8 128.8c8.8-1 15.1-8.9 14.1-17.7s-8.9-15.1-17.7-14.1C164.1 105.2 105.2 164.1 97 238.2c-1 8.8 5.4 16.7 14.1 17.7s16.7-5.4 17.7-14.1c6.6-59.3 53.7-106.4 113-113z" />
-    </Icon>
-);
+const CompactDisc = createIcon("compact-disc", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhwAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCIgsGAAE2AiQDCAQgBYMtBzMbJQXIhiDSWVWP5AN7D1kHAPiAERNnGBKmnjr1PLYpgG8UtDFtaUAW4F7nEQhoaPgEC1CtYDWtgJWl5q1G1iPN0SszUZIev5H82yGPF+MyJdL16SNcKm8av2jlfJJSBiAaAmDi8sVzvfZD/BDxYfVp4kOzERATQSGQIUNbAcbIBNrKFcjlgh+iWuXfwIIAohbAye0ctXEYpwNykJTyvA3+j7qNKqV6+bJKqbz6wpERzw983NkDHhvxXPmCUS8MeiLOGfzk6Bcr6dv5EZ9OfjPOmfTGvE+WfTXnowmvOXvi63M/XhoXdo+4t82NcU7rG7rdU76gy10tr3N2q+u73l2Ju1td1+We1jd2X3ZtXFN+a8xLxdnNLmxxa+8Hh3d6oOEDv3X8aNtHqpeO/IWfX3ts+PDHXvv5l5Ejf9Htz6a6jMtHt508ue3oyy+bygZ57bbWa1jz9jutWr3z9po1rUNAzRMLmzVbWOfqbfuiQd8Gx7Zt295AHlr723dfA4Hg75nLlq9vMOa/OpUEfnrhj//Fb1H1tSQ9gDoSCLI+1T7WJJAIAECKYzolCCS7leBVa1wjQCgjQFJLWYBMGw0FyJX1FqCkvaEC1FK2WCbyukJTaxUkNQ6CzDBngFxTT4KSMd41a2kameexfsP++5KmWWjqVDGw34BiVDEMNM6Z6DwcXSwrPY6lQk/atM1++xyx1RY7HTHkIXOdo/aaNiOm+qDCQP0MUBil2I7vl5fZ6pDDdtpvXxkzWnHe6OHYvL4n6QkoB3EliUg1T5Xc9+IDAA==");
 
 export default CompactDisc;

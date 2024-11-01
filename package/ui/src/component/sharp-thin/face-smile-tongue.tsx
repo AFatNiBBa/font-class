@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-tongue` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-tongue?s=sharp-thin face-smile-tongue}
  * @preview ![face-smile-tongue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/face-smile-tongue.svg)
  */
-const FaceSmileTongue: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 256C16 123.5 123.5 16 256 16s240 107.5 240 240c0 10.5-.7 20.8-2 31l15.9 2c1.4-10.8 2.1-21.8 2.1-33C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512c48.3 0 93.6-13.4 132.1-36.7l-8.3-13.7C343.7 483.4 301.3 496 256 496C123.5 496 16 388.5 16 256zm404.1 25.1l-9.1-5.3-2.7 10.2C389.4 356.7 328.1 408 256 408s-133.4-51.3-152.3-122.1l-15.5 4.1C108.8 367.1 175.9 424 256 424c31.3 0 60.6-8.7 85.9-23.8l56.4 34.3c33.8 20.6 78 9.3 97.8-25c19.7-34.1 8.6-78.4-25.5-98.5l-50.5-29.7zM406.6 420.7l-50.1-30.4c29.5-22.1 52.2-53.6 64.2-90.2l41.7 24.5c26.4 15.6 35.2 50 19.8 76.7c-15.3 26.5-49.4 35.3-75.6 19.4zm-255.7-235c7.6-11.6 16.1-17.7 24.9-17.7s17.3 6.1 24.9 17.7c7.4 11.4 12.7 26.3 15.2 39.8l15.7-2.9c-2.8-15-8.7-32-17.6-45.6c-8.7-13.3-21.5-25-38.3-25s-29.6 11.7-38.3 25c-8.8 13.5-14.8 30.6-17.6 45.6l15.7 2.9c2.5-13.5 7.8-28.4 15.2-39.8zm144.8 39.8c2.5-13.5 7.8-28.4 15.2-39.8c7.6-11.6 16.1-17.7 24.9-17.7s17.3 6.1 24.9 17.7c7.4 11.4 12.7 26.3 15.2 39.8l15.7-2.9c-2.8-15-8.7-32-17.6-45.6c-8.7-13.3-21.5-25-38.3-25s-29.6 11.7-38.3 25c-8.8 13.5-14.8 30.6-17.6 45.6l15.7 2.9z" />
-    </Icon>
-);
+const FaceSmileTongue = createIcon("face-smile-tongue", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABpQAAAKsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CCdwsGAAE2AiQDCAQgBYMtBzgbfwURlZo9yX4m2HSeFfpOyYhKFbbT9JhFSV5Kxl+CeN7u3zl39wNE0gNyFVeuiOoFAATcEild5MeKZNrXD2mPYlGfOvU856EAvlHQxsI1fQ9K5zivQEXrE6xWqxUsYgGyMtfa2S8MSpeSpMf7JMP4hskV6HKBQYxArVMPgSXxS+UjbswEhaYBACC2AABAXktDFVdfy2uRB4ZTyAMqAAGQPAB8EUADNMATASATDQE80fEFdHQEXovB4P4DQQBAjMEPVADogAmwBjgEAOgAKIx0PcnP1snRwshKb7YwMm95niByokLkQcvTsntxx5qmOjrJGnmWf736cfOTyoe5Vxuf5l2retT0vMZZHjY+K78ff7y5z9nJ2VG2Zl4svJ192d9RjmVdKjqTUSW7QvZ4bHBfH1zeWF5WfiUhTXa5rXNdG7gzuHmDxQK3dW4usl5hdvYxVyfZ4NGUxs/e5L/fdv9nv4dDH2Jzhfzf8LuHnnzy6en5/Tvf1vs7PnaUuLotm1ZCCdOWublSwqul7JhIb+GmusJ1Jp4O48O0qb29U6d9+Gl+8+bV10OHc3j36f+XCUuiLBd4YyCvhcwlo6nx5ImmwnTDbdZWx7Yl/aDk1q3py2/dSnlL0rGlIUnbpFf8AAABBDxmXXzVY5P529RCAfD2/NePlGEwXFWo/YApCgABLdKgUwGgQICrZDT+Ss8IoFiCEQA+1ZLVCACCOSAAKIwxRwDQ8MAWAUDHnAgEACO8SUIAMMacBjREN0NwpKsBhSXDgEYyk4COIyeAEZnccY1xFM1GCQsjvoixMnDIn6PMCizLTiXNDgvHjm1O/37J0EXRH/vbtdPLkLsOvi1osO+RMiuwHE8e2Ya59zPJ9PkpjvuW/vXNhkQFUKuWQoFUdi/ATp9tWnPqPfbh6wAAAA==");
 
 export default FaceSmileTongue;

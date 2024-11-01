@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pancakes` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pancakes?s=duotone pancakes}
  * @preview ![pancakes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/pancakes.svg)
  */
-const Pancakes: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 160c0 20.3 24.2 38.8 64 52.9l0-48.1c0-.1-.1-.2-.2-.4c-.4-.5-1.2-1.3-2.4-1.8c-14.7-5.9-28.7-13.4-39.6-22.9c-2.3-2-4.6-4.3-6.8-6.8C5.3 141.4 0 150.5 0 160zm0 80c0 21 25.8 40 68 54.3c-2.6-6.9-4-14.5-4-22.3l0-25.3c-21.5-6.8-41.1-15.2-56.8-25.6C2.5 227.2 0 233.5 0 240zm0 80c0 44.2 114.6 80 256 80s256-35.8 256-80c0-6.5-2.5-12.8-7.2-18.9c-16.1 10.6-36.2 19.1-58.3 26C396.4 342.8 329 352 256 352s-140.4-9.2-190.6-24.9c-22-6.9-42.2-15.4-58.3-26C2.5 307.2 0 313.5 0 320zm0 80c0 44.2 114.6 80 256 80s256-35.8 256-80c0-6.5-2.5-12.8-7.2-18.9c-16.1 10.6-36.2 19.1-58.3 26C396.4 422.8 329 432 256 432s-140.4-9.2-190.6-24.9c-22-6.9-42.2-15.4-58.3-26C2.5 387.2 0 393.5 0 400zm174.6-84.1c25.6 2.7 52.9 4.1 81.4 4.1c141.4 0 256-35.8 256-80c0-6.5-2.5-12.8-7.2-18.9c-16.1 10.6-36.2 19.1-58.3 26c-47.8 14.9-111.2 24-180.2 24.8c-11.3 10-26.1 16.1-42.4 16.1c-11.8 0-22.9-3.2-32.4-8.8c-1.6 14.1-7.8 26.9-17 36.7zm111.5-76.4C413.3 234.8 512 201 512 160c0-9.5-5.3-18.6-14.9-27c-4 4.5-8.5 8.4-12.7 11.5c-13.4 10-30.9 17.8-49.8 24C396.6 181 345.5 189 289.3 191.3c-.5 0-.9 .2-1.2 .5c-.1 10.8-.1 21.5-.1 32.2c0 5.3-.7 10.5-1.9 15.5z" />
-        <path d="M288 159.4c-17.7 .7-32 15-32 32.6l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-52.3c0-8.1-6.5-14.9-14.5-15.7c-9.4-1-17.5 6.3-17.5 15.7L160 272c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-107.2c0-14.2-9.5-26.5-22.7-31.8C47.3 122.6 32 109.8 32 96c0-35.3 100.3-64 224-64s224 28.7 224 64c0 32.2-83.4 58.9-192 63.4zM208 64c-8.8 0-16 7.2-16 16s7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0z" />
-    </Icon>
-);
+const Pancakes = createIcon("pancakes", true, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABvwAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDUQsIAAE2AiQDCgQgBYMtB0wb7wXIrgbsBnkvjoCd1p0x1OHMEW0L4dIHRATRHDl7yRMVFEaWiR0gWrRlWYXgWbXC1+d/P3ff+xO3uMVF0+TJUc2whkvjLJHxRNSoyboTAJe7X7pWGzgOZA4tspBSSzjIxf0s6jwKMYWAoIhm0M0rW+N+ZRsogYWBxwHLmFz+g7P8zzWf3/OjA/xGhxJNrQuMtGlkAg4w2quFJjAdSRnYBudNPuBQHMpXkMfnaJGQrtlvccb9D2D8NThIUpEBiHoAMKQ8bYLrD3Kh3v5PiLd2gIAYCqAQyJChuQD9ZQLN5QrkcsF3avhOrAkgSrk3k4FSVOIZvgPIQZKU5nk3X+5pVeOmVeyafKYwqVy1RUIuQuzllntc7lgRl+UCm3e43p7lh9P982l9O+z1N7fSRW4LIbmidqSAuTaQYJ82X3Zvt9C2Bdfuy1/t43YLbt1J8O3+8nyZt2Wneyw8P/pqnqde26NTL8g91i1bErwZQ3mLbMebQpuz+NSO+/HxVjz0PJgvPs7B0bRA7dGEYt7dUfM8ty5vnrYOnNkz+ej6Kqr4/C89+Dw1Havf0/z+ArqbbfbND4Q0W7ys/knGGmqC1XpU7OmrPNkTLYxSDxkCRDXIXtm36kzUjhoFLJe/Otr7nfPt+h9irKY/SPemr+63kcyS/Mcfi+Tr0TXg9qhEqc/LtQCBYFzl6VKrW33hJfDz6vch+xX+n5Lug3IJBFn7P/MpSAQAIMVOOEIoEMhsxek5qdplAQiVCJCUqlRBppl6yFVqByVa6kEtnD4NjMgrhCYWQEiqbYFMT7sg18QDKNHfC1upJgHzRDPPI/NDmTiyiYzoVwQ6di76FqM+BfuQUjq3X7FY8e3kMW3gUj0YxQim0I0u9GOqgU0g55zGMOJTaAxPhE0XHXVW6KvYHLwrlhq2CUyif5jf3ko/xfGG1nZOJ28DdcrH7WqdTEakyOrX98ZlS9at2Nbh05AatfiXAA==");
 
 export default Pancakes;

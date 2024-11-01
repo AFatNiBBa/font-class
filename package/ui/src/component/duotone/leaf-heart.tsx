@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `leaf-heart` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leaf-heart?s=duotone leaf-heart}
  * @preview ![leaf-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/leaf-heart.svg)
  */
-const LeafHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 440l0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16c0-48.6 20.7-92.5 53.8-123.2C121.6 392.3 190.3 448 272 448l1 0c132.1-.7 239-130.9 239-291.4c0-42.6-7.5-83.1-21.1-119.6c-2.6-6.9-12.7-6.6-16.2-.1C455.9 72.1 418.7 96 376 96c-34.7 0-69.3 0-104 0c-93.2 0-169.5 72.5-175.6 164.1C38.3 298.8 0 364.9 0 440zM190 237.3c.2-1.8 .5-3.6 .8-5.3c.7-3.5 1.8-6.8 3.1-10c2.7-6.4 6.6-12.2 11.5-17c9.7-9.7 23.1-15.7 37.8-15.7c.5 0 1 0 1.5 0c14.3 0 28.1 5.6 38.4 15.6c1.6 1.6 3.3 3.2 4.9 4.8c1.6-1.6 3.3-3.2 4.9-4.8c10.3-10 24-15.6 38.4-15.6c.5 0 1 0 1.5 0c29.5 0 53.5 23.9 53.5 53.5c0 14.4-5.8 28.3-16.2 38.4c-23.6 23-47.3 46-70.9 69c-3.1 3-7.1 4.5-11.2 4.5s-8-1.5-11.2-4.5c-23.6-23-47.3-46-70.9-69c-5.2-5-9.2-11-12-17.5c-1.4-3.3-2.4-6.7-3.1-10.1c-.4-1.7-.6-3.5-.8-5.3c-.1-.9-.2-1.8-.2-2.7s-.1-1.8-.1-2.7c0-1.9 0-2.3 .1-2.8c0-.9 .1-1.8 .2-2.7z" />
-        <path d="M243.2 189.3c-29.5 0-53.5 23.9-53.5 53.5c0 14.4 5.8 28.3 16.2 38.4l70.9 69c6.2 6 16.1 6 22.3 0l70.9-69c10.4-10.1 16.2-23.9 16.2-38.4c0-29.5-23.9-53.5-53.5-53.5l-1.5 0c-14.3 0-28.1 5.6-38.4 15.6l-4.9 4.8-4.9-4.8c-10.3-10-24-15.6-38.4-15.6l-1.5 0z" />
-    </Icon>
-);
+const LeafHeart = createIcon("leaf-heart", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABowAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCbAsIAAE2AiQDCgQgBYMtB1AbjgXIHoVx21LyCh+1LWh24uF5vafOfS8/A2XkjMEVOqiG2G637ly5/bulmbNtu0rGI7EzWr4K9YVqFsVDMyuE6alTz3MeCuCfRzhIe2l8bAuO1bHOK1DAalpaIMu7hWpaA+vgvFFPVkhDSD9CER/n27VID6cFd7r/AYxvDHQ7SacMICoArNi3a4t32tBO8VFTER/ZjIBYCWqBjIwhAiyWBYYo1CgUgnZqGtrRNDUBRMk9WwYlWrgfzwEKkIRUFPXUZV1a3Yq9XVqdDz3XB+I+N/c14/7+VjwY2I+NFeK5PmL0C9srPDwmGQzxxTZvybymC1q/7/v34UzW2e7jjg4ZXmWexcvubnJZLxn9OUSNcwK7RH1pcey4uU86HnLkeLpfPjGeyPpBOHB345Uq/27Ecnbxczr+Pd/3l5u1q730ktzQ9Ov//f/bk+3/r7Zaq3Wswkn67tjRtxIbl/31AVbau3fYiuHLbV+xtk/ZGv31k0/WerjCuvivW7nmzcfv6Dh/kFLRZ8HZ/7cHsf1/VRCVsXH8+++4Ct6yWl2Wq0f07OH6BX2KlCMiRBYJCAQPfrnUPdZj8W+6JPDVaz/8ov4dNe0kvYKOEgjy5GaywwkkAgCQ4nojE28hkF0mCZ/a1QMChM4IkJQ6C5ANVglQ6GySAC3DzBGg1NkuWRSdhD6O9CDp6iqQzXUDKPTxKmhZ7F2v1Cdy/KRiF/V3GL92DK1ZVc+YOr1eWG/mWjrKEXpxUX1aH389H5gAe511hctd64zTLrh2hFxtS3idy6zdg9f4otoMU01XW6i+XT3n9468q13jwjp7f5lF6vft8a7fHz8BWknAnGlblokUudelZ06cnVJK5CkxfbDPlE3TAAA=");
 
 export default LeafHeart;

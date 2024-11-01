@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bezier-curve` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bezier-curve?s=light bezier-curve}
  * @preview ![bezier-curve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bezier-curve.svg)
  */
-const BezierCurve: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 64c8.8 0 16 7.2 16 16l0 21.2 0 10.8 0 22 0 10c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-10 0-22 0-10.8L272 80c0-8.8 7.2-16 16-16l64 0zm83.4 64l78.6 0c7.1 27.6 32.2 48 62 48c35.3 0 64-28.7 64-64s-28.7-64-64-64c-29.8 0-54.9 20.4-62 48L400 96l0-16c0-26.5-21.5-48-48-48l-64 0c-26.5 0-48 21.5-48 48l0 16L126 96c-7.1-27.6-32.2-48-62-48C28.7 48 0 76.7 0 112s28.7 64 64 64c29.8 0 54.9-20.4 62-48l78.6 0C139.5 167.2 96 238.5 96 320l-16 0c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-16 0c0-77.5 45.9-144.3 112-174.6c.7 25.9 21.9 46.6 48 46.6l64 0c26 0 47.2-20.7 48-46.6c66.1 30.3 112 97.1 112 174.6l-16 0c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-16 0c0-81.5-43.5-152.8-108.6-192zM544 352l16 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16l16 0 32 0zm-416 0l16 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16l16 0 32 0zM32 112a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm512 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const BezierCurve = createIcon("bezier-curve", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAAB0QAAAKeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQSEJwsGAAE2AiQDCAQgBYMtBzMbKgbIBp7/5nrvm+TTZBlSQEAFBKqrSvuFo5xaVAQT19SFzRIo+3zK/027URVl4rBKh8MobcykjWA2sAnqzK2xCavAh49ghJxiY0hg32CPXxdgym+pTwGoMyoPHNIPlQ/E2Q4K0wAAQHwAAECXUcMG8NIRRyT//zFInn6AAEhXAGwEMAADSCEAtMdAgBQmNmBiIuDI///yH2iDAIAUUiiKfSZQDHwD/kK/ABSFppnaGSS3VeA2R55xetaJMLKrHQ9pORkRecepqDXC0taZ8GXrar2bybN1b9TcW/14TIvI2cjJmlouhYCK6Juu6Eu1r8XO1LleY1+tU0lLXje+Z1tpZ8InalhyNTpCZpwXG93tlwkWcV+LbxrcruJzXWj6oO8L9CfCqwFLFXC1xpFbohpm7QufYDOPoPdGToqXH6h6w3fjU5X8zDyTNjmeMBYRNB6nMyCsiWARNgztNKikD//jjp7z+7U+fvVc1P1n+FJ8GKVljTvTuKzU8LEUM3YQ6VzO7RNtZx9S5/jQ5Z+iRr48hIRQm0b0U7nmcHcul55f6StWx9N5OUAb+Da3aZ2+eHbDbk/OkELw6wAIIDByYbraJG/7r8WWAuD9iy9f0af/O2qzugEUowAQMOr/r894tRkgyQoA+JSspKoxRgEUn/mQLBcnkYCgoXIUhWiOQRIfx0RTj1NAhhaAEx/moopZYg0xgTkKF0s4Bi3ZwDEJ8ZBTQHteeQsJiRH7UORCv57hPZHco5/dpGFju619m3HB4QyY1e1st672yi2rDi1lJotYyHJmMJ05LAfmUgYEVrCAnpZmj+/aNKEhjbFpiz1dkB4fCcalLENgjMw30w77eWttVtqF69B4FADQNGoIapUo19QZa+fMWNpg2oqlK2cA");
 
 export default BezierCurve;

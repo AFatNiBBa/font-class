@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paw-claws` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paw-claws?s=solid paw-claws}
  * @preview ![paw-claws](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/paw-claws.svg)
  */
-const PawClaws: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M178.1 15.3C183 9.9 192 13.4 192 20.7l0 50.5c18.3 9.8 34.3 28.9 42.5 53.6c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5c-4-11.9-5.7-23.9-5.5-35.2c0 0 0 0 0 0c0-25.7 9.6-50.6 26.9-69.6l39.2-43.1zm132 206.3c-32.3-10.6-46.9-53.9-32.6-96.8c8.2-24.7 24.2-43.8 42.5-53.6l0-50.5c0-7.3 9-10.8 13.9-5.4l39.2 43.1c17.3 19 26.9 43.9 26.9 69.6c0 0 0 0 0 0c.2 11.3-1.5 23.2-5.5 35.1c-14.3 42.9-52.1 69.1-84.4 58.5zm-209.7 8.9c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3C3.7 267.8-.1 253.3 0 240c0 0 0 0 0 0l0-3.2c0-13.5 4.3-26.7 12.2-37.6l37.3-51.3c4.6-6.3 14.5-3 14.5 4.7l0 44.2c13.9 6.1 27.1 17.8 36.4 33.7zM69.2 433.2C121.6 291.9 214.7 256 256 256s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5l0 1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 512 64 491.1 64 465.3l0-1.6c0-10.4 1.6-20.7 5.2-30.5zM421.8 314.7c-24.5-14-29.1-51.7-10.2-84.1c9.3-15.9 22.4-27.6 36.4-33.7l0-44.2c0-7.7 9.9-11 14.5-4.7l37.3 51.3c8 10.9 12.2 24.1 12.2 37.6l0 3.2s0 0 0 0c.1 13.3-3.7 27.8-11.6 41.4c-18.9 32.4-54 47.3-78.5 33.3z" />
-    </Icon>
-);
+const PawClaws = createIcon("paw-claws", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABnQAAALfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDDwsGAAE2AiQDCAQgBYMtBzAbjwXILgbsxuUDyzie7BEiMd9GnHw2dljUTiII9KBmkxzgHMxOQkXjO7AEUNQPz8Mxe3+RFBU0Gq49iqNpYE0DmU5nJbS+syM9CNv9BrzBYHdJ3iUaSMhRpDFFcZO3htPp8/lo0wiKsjic1Q/Wr11k2acvQVCTuxdJKHBNokTawsj+j/t5/jkS6N8z+kgVVLHGAs88n8BAI3W3891EGmymE7DttmLFF2XBIjLkGzpDGxfKXSCLV8odapITihfYlz80/iFshkSRFECUBoDe3eEDvffy0scuiI8ZEBC9gVwgRYrqAnSTClSXyZHJBD/KNv+BBQFEQXjtBGQohOvgMYAMJApkWfWs1bRGMXWJbFQ4t+j4gy3kCMQV35nKx+tdbnK15slYu2OZniOvukNOBs41DNng4JS6x4nhqpXzdL3rDUaccIZsMw2uVhU2Ik/fsNKlm7lGfJEXeZcLeRa71v5J9zcjG4j11sP1djYYFUt0RMyGvf1oiFrTX6CeU1zvGEAUftQ6N0vf/E+9oo1ztr3prTF8vntNrl4k94sINLozr/i4CXYe17NTsHex7dydJJTpfX8Zb/2FF2jYtPHYMX/eHFIV7g8D9XoPLagZ8+e/42oH1K9JqSG1Urx2oKcGlRbKf7s1U9q1MXNU7igtY59+JpQeNGVl0ziVvrympuDQYr2G+7YUKjz+I/AbAwLB0P9jISzlPZ0xAT/3/fG/ov9HSW6CwhIQpM1+MkEBICEAAEmsok4CAonzqGGtuKOIZK0owmULKgq1VDWlG2SKagoF1NReZO4eTiqyIkJ5EwESxS2FVAdrIFPeIyigm/fLBZUPpb7K2ib/LmYMoEj/ZXm2Rau8Sz6tq4oKinG+a862k6tsX2M4aRaLWcQKZjKDuawg7DIG1laykAErvD9fJNdaC63kusiPW/eHRzGTZSxnLotZlBbpKpfPNrJqPboxeAnkbWN9IiGSIkt6q5sPPgQAAAA=");
 
 export default PawClaws;

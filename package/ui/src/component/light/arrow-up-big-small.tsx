@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-big-small` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-big-small?s=light arrow-up-big-small}
  * @preview ![arrow-up-big-small](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-up-big-small.svg)
  */
-const ArrowUpBigSmall: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M148.7 36.7c6.2-6.2 16.4-6.2 22.6 0l96 96c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L176 86.6 176 464c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-377.4L75.3 155.3c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l96-96zM352 432c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16l0 64zm-32 0l0-64c0-26.5 21.5-48 48-48l64 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-64 0c-26.5 0-48-21.5-48-48zM352 80l0 128c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16l0-128c0-8.8-7.2-16-16-16L368 64c-8.8 0-16 7.2-16 16zm-32 0c0-26.5 21.5-48 48-48l128 0c26.5 0 48 21.5 48 48l0 128c0 26.5-21.5 48-48 48l-128 0c-26.5 0-48-21.5-48-48l0-128z" />
-    </Icon>
-);
+const ArrowUpBigSmall = createIcon("arrow-up-big-small", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABiAAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCLQsGAAE2AiQDCAQgBYMtBzkbNgXIHgfOqT3exU7SJG7x8P9rlff9qqHuZagdtcCoCFkBz7BetJhExYWFwj6x0au7ib5S5anbxtPjw7ahWbD0JF6cyrmchwL4RkEZ29YGWR5cu+15BSoycXlJpte0VHCtbTnk4x2KuKmjQr4ykYbRYesKefwZY9WQ2ut3POOdxv8GekCSZwCiBwAWbV6/zo+VqET8Xv1M/G4NAmIxKAQyZBgiwFyZwBC5ArlcUIlqtf8HFgQQtfDDJJCjDldwD5CDpCbPB/UY1GtQuaZrvqlcU9reqo3RzCZvihRNbHEWG6LJLdm8tVnlaE1Ei0vRRKUQnWm95Xit5iXa2HRK8cYte7vwUil1HqXLKdH4YT68Eb8f+l1TR7lbx5Zmiau6VSrdJqqRlhzJS/nXh6u8kBoLUS4W4q3sj78mLjTxrz+yhU57+O47IAPIHf0OKBaOjKJ35DswmX4zCASfmj5v97nfupzAfz/8b/waNVYrqUgfQL0EgmxsdawdaaFGRSoEACDFJY1poTECyRk1EHTRkk1CiQZJrRJkBusBuZIxUGOYaXRw+3qZyBuEPnYKJF2chcx0NyHXx0eoMddPYa0+kZUfWzzs31/Scosu21RMGj+xmF08Znauouh5dU4RVkZe0s4oOeKQ00654KADjpI0+DnrkotOWu5hy3xQYZLxJirMVqTLR3kTE55z3tF7Ib/OHMX3wUiX/PFRoicgnOyyJBGp195z505fHnfxzLh9Rw+Pq00A");
 
 export default ArrowUpBigSmall;

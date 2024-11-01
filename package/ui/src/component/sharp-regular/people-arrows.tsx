@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-arrows` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-arrows?s=sharp-regular people-arrows}
  * @preview ![people-arrows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/people-arrows.svg)
  */
-const PeopleArrows: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 64a64 64 0 1 1 128 0A64 64 0 1 1 64 64zM78 208l-4 96 30.8 0 39.6 39.6L192 391.2l0 96.8 0 24-48 0 0-24 0-136-32 0 0 136 0 24-48 0 0-24 0-136-40 0 2-48 6-144 192 0 1 23.8-16.6 16.6-29.5 29.5L178 208 78 208zM448 488l0-96.8 47.6-47.6L535.2 304l30.8 0-4-96L462 208l-.9 21.9-29.5-29.5L415 183.8l1-23.8 192 0 6 144 2 48-40 0 0 136 0 24-48 0 0-24 0-136-32 0 0 136 0 24-48 0 0-24zm0-424a64 64 0 1 1 128 0A64 64 0 1 1 448 64zM265 257l-23 23 156.1 0-23-23-17-17L392 206.1l17 17 64 64 17 17-17 17-64 64-17 17L358.1 368l17-17 23-23-156.1 0 23 23 17 17L248 401.9l-17-17-64-64-17-17 17-17 64-64 17-17L281.9 240l-17 17z" />
-    </Icon>
-);
+const PeopleArrows = createIcon("people-arrows", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABmwAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDMgsGAAE2AiQDCAQgBYMtBzQbtgXIjtFj8+TKkSvHICMjefE8/OHv3Pdea3mb27yFwiwPKMDPaRRoUbRFNkWTn/+93Xvu4mM/Qr14EaMS3UldUqVSq8q1XPSZ1JqeE5fjvz8fG2SRP9pY+N8cNqbvyV1gGzTMxrS48yzMAiwxa3DeiAMOSSH9BC3ftE6EclGewcC9aL64WYRCrAAgswDg6LisAOcv9Bp66qeQZ3kgQI4ALCNQQQXzCLCLR2CegIFGQPCS/87+AxkEIMMIkAIPb2AEXIM7AA1QiE2wRG5bYidEi1BpEqW6He1A2fPalHfVfe+K8qpyE6VSAMg4UadUh31SRbN8twREjnusg0AHyGOiSp3rGjVB8WAzK8gr0gEd/FV0uazJHjWq8igpiRE5xZ60aAyRSDFSZoxShGgpOy018uq+7f6H73Pns/Rz/u37+63yqGWtNuFNPujyp4WrCISsYkq9I5kPceCcno0XovYzlxb3HX+6+OBP0E70wobeOXHAh2z1kI6rK91nt53oB22iE8yBDjrmwKnRu0FA4PPy8r3JJuXfYOIAvN18feW3u/bz0s3tg1EcIFDXeoj6MsuV68wEEJwomYQffCMCxSERfNZJGwgQEgig0JEQoPJgiwCNREOAId5iEWCYpAyPmhHEUUPNcMxGGF6cKUbg6JgRpbiL6ziGv4Pl+0/+f8zIbIMZ61hkWARLYpNlpXJTino8ma025UnepsCt6DRk0LgO7XqMt4hRBakJAzLnoAwfxEQKE4FJwnbX7huVOD5qTM+4tn+aZOz8gGxyvrcC7ZxAcEdewUGK5Zn3hraMfmM=");
 
 export default PeopleArrows;

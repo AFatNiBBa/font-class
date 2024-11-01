@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `conveyor-belt-boxes` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/conveyor-belt-boxes?s=sharp-duotone-solid conveyor-belt-boxes}
  * @preview ![conveyor-belt-boxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/conveyor-belt-boxes.svg)
  */
-const ConveyorBeltBoxes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 416c0 53 43 96 96 96l448 0c53 0 96-43 96-96s-43-96-96-96L96 320c-53 0-96 43-96 96zm160 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm192 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm192 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M320 0L64 0l0 256 256 0L320 0zM576 64L384 64l0 192 192 0 0-192z" />
-    </Icon>
-);
+const ConveyorBeltBoxes = createIcon("conveyor-belt-boxes", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABiwAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCEAsIAAE2AiQDCgQgBYMtB2IbRAXIhofv1z4793UHgDvAqJhRDsiEFx2wkFMrWa3+83+55/f8NuDnIzi0PfR8A43mfp5AGI7tm0qk53GacCbS7myHOdRaUZJGSHJ84/jkBHnqnp1XjfQk/Yxb9D+A8ZdWzpPUygBEQwBMXDRvhm+roirFz6W3xM+mIyAmgUIgQ4a2AoyRCbSVK5DLBVWpVKIqSqWCAKI6emYGqqMmtmI3IAdJkud5rVotmnBQp1q9fGH4LdTeVLde3RT1IltQu05tUSciXvSMKB9aLz70ruzwslfFsLrxtkdZ2zqnm0bcr321+cM40+JRnWvNHii3d6poWPFPx583/mz8Nxgtjf9WYRYXNSuoOP2t0xUVNbOA817Xv8zl+vUv++G/LR8HAsGJ37tsX9VgzP816yTwx+f//oz3K32bTqcK1JRAkPUp9bE8nQakBvClUhzUKZ02AYHMbDl+1boeChBqI0BSXW0BMm00FCBXW28BqmlvqADV1TZPJvJaQlMrMkjq2gMyw5wAuabegGrG+C6qrmlkGsfpC/feS54moamzioH9BhSjim5F4pWIcZOji2m7x0Hb0ROO2miXnfbbYL0t9gtyrxnpATtMG8FTfVBhoH4GKIxSLNev5YUi2mufLW1xfZrRiv1+DwfH/XuClzDtIG9mMiJF1ubXdvbIrr19127Yvr/vndT7nt++7dricQU=");
 
 export default ConveyorBeltBoxes;

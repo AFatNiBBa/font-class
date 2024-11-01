@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pie` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pie?s=sharp-light pie}
  * @preview ![pie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pie.svg)
  */
-const Pie: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 80C187.6 80 101.5 141.7 65.7 229.3l-2.4 6-5.9 2.6-1.7 .8L52.6 240l-3.4 0L48 240l-16 0 0 32 16 0 8 0 3.4 0 3.1-1.4 59.7-26.5 6.2-2.7 6.3 2.5 67.5 27 5.9 2.4 5.9-2.4 68.1-27.2 5.9-2.4 5.9 2.4 68.1 27.2 5.9 2.4 5.9-2.4 67.5-27 6.3-2.5 6.2 2.7 59.7 26.5 3.1 1.4 3.4 0 8 0 16 0 0-32-16 0-1.2 0-3.4 0-3.1-1.4-1.7-.8-5.9-2.6-2.4-6C474.5 141.7 388.4 80 288 80zM40.1 208C82.7 113.7 177.7 48 288 48s205.3 65.7 247.9 160l24.1 0 16 0 0 16 0 64 0 16-16 0-32 0-8 0-6.8 0-3.4 0-3.1-1.4-6.2-2.8L447 276.1l-61.2 24.5-11.9 4.8-5.9 2.4-5.9-2.4-11.9-4.8L288 275.7l-62.2 24.9-11.9 4.8-5.9 2.4-5.9-2.4-11.9-4.8L129 276.1 75.5 299.9s0 0 0 0l-6.2 2.8L66.2 304l-3.4 0L56 304l-8 0-32 0L0 304l0-16 0-64 0-16 16 0 24.1 0zm35.4 91.9l13 29.2-6.2 2.8L73 336l-10.2 0-4.1 0L96 448l384 0 37.3-112-4.1 0L503 336l-9.3-4.1-6.2-2.8-1.4-.6L456.9 416l-337.9 0L89.9 328.5l-1.4 .6-13-29.2zM206.3 151.2l-16 32-7.2 14.3-28.6-14.3 7.2-14.3 16-32 7.2-14.3 28.6 14.3-7.2 14.3zm192-14.3l16 32 7.2 14.3-28.6 14.3-7.2-14.3-16-32-7.2-14.3 28.6-14.3 7.2 14.3zM304 144l0 32 0 16-32 0 0-16 0-32 0-16 32 0 0 16z" />
-    </Icon>
-);
+const Pie = createIcon("pie", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABtAAAAK3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiEKwsGAAE2AiQDCAQgBYMtByobJQbIHomxLYr9iihvF/Hw/Vqf53b3TP30LMx+wrfM6BL2cSQUoQs7QFCplanIKcr3DKmNn/6Yr4vzCqxnIxtKZFKVRSTvJrDziDzf+QAHNvqC/Lf0CjiF8rq9GDa/oIifYpIK2ZPZx3g0+NL4V5dHyBQ5gKgDYPnenZu9+3v8HvFxI+JjGxEQK0ASyJGjV4BFcoFehYRCIfg9Gg3jf2AigKiK3peBAk24S5SAAmSqRbFxzfBhkadWGVzsyVaUZ7/eFPHxrtawZpSlqNU6YmOYqLbY3b8j9gJ0PRMhCqS2PeLYb7d8umfXd3sjTOU3u2VSrSZ4s5YNsY5xURA9qHKFSiIK1HZ3dXf1grtjcOwljy5jVwyKPeU93Xs7ezpbY0x0RE90xOho3Ys2tcUohKg7TR8bbbsEweyzUQsjnq0/e9fHZz42cHWjp3mqZ8VoO5AUw5J6bZpn7XDCim7bbbey2w47rOxAVkBPRD1rmrwTSaok7hutZ8VTT2/0//1p7fIJLJu4086cCcwusrNeZ6JI6jOSf6/3vcYt/JrvfQ9n3rcWnJDkS9HGhQc/juad8LCyGHXVA7KFRfmwHTK9e+yQIsLHD2rI+65422UNl33i3ncGD8j3+tQV6L3Oy4erSXbXJTY9EH/y2eoXRx0duui/ploG/nz9JSlblj37SpMMBPmkxiSHsmULfQTVn8UdI+QRBjL/2JTnBnlMgFACIFNVglyPOiiUJoKKfrPPV5V2ykVxj9DqMIDMINdBbo57QaHVa6Bikfd8Va2Rn/3cc5d78ZloTRe+eliaPmVaWpBmc2reCc12excmtGrcHbNmvLzXGVddcctpp5x3q4O7YXPwtsvWLCFW+6FkuimmSRZI1MWH2/c47Yabzrvqij/IQom/bZw7y83Hy9pMxHAGVybzE2TztfOnAQAAAA==");
 
 export default Pie;

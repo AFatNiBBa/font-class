@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gas-pump` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gas-pump?s=light gas-pump}
  * @preview ![gas-pump](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/gas-pump.svg)
  */
-const GasPump: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32c17.7 0 32 14.3 32 32l0 128L64 192 64 64c0-17.7 14.3-32 32-32l160 0zm32 192l0 256L64 480l0-256 224 0zM32 64l0 416-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 32 0 224 0 32 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-192 16 0c26.5 0 48 21.5 48 48l0 48c0 35.3 28.7 64 64 64s64-28.7 64-64l0-226.9c0-17.9-7.5-35.1-20.8-47.2L410.8 36.2c-6.5-6-16.6-5.5-22.6 1s-5.5 16.6 1 22.6L416 84.4l0 75.6c0 35.3 28.7 64 64 64l0 160c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-48c0-44.2-35.8-80-80-80l-16 0 0-192c0-35.3-28.7-64-64-64L96 0C60.7 0 32 28.7 32 64zM480 192c-17.7 0-32-14.3-32-32l0-46.3 21.6 19.8c6.6 6.1 10.4 14.6 10.4 23.6l0 34.9z" />
-    </Icon>
-);
+const GasPump = createIcon("gas-pump", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABiAAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCRAsGAAE2AiQDCAQgBYMtBy8bQwXIhofn7fo691V9VY9RYzMDF2YoZ+sg00e4iibui1M14zwUwDcKylq0NL6GZnft8woUeA3sea3n1YLVtALWwXkjDrgr1D8gj69ipBrS8+lXPJp/aPytu9skeQYg2gFg3pYNq3zfGI0Rv1Y/IX61AgExH5QCGTL0EmCmTKCXXIlcLmiMapX9B5YEELWC90ogRy3u4GFADpI8zzs0bGxTqWmdb67UFDse7BzxNFFExI2uz1Yqm1KWisiistlvearT050rrZ/t+kyX2YuVeLvz093F88PeH/TuiA97ri8O3xzPdHqq87AYuSqud3qqeKDLMxHxyvAPJlv5hRwZ7Lw19L1u+waNCP7UYfE0/T9o98G//X49/Kvqq23u47421zW6rs1997V5re93aEQjl18Lcu00tmnT2G5sesb32hn7+2/ZWEX79og294oWveavWebz9x984V0rh7hDWJQZKzYfareFH2MXW99du+51o23wXJsBQCD4dEX50562M+/WVxJo/vL/u/JfUfX7JH2AegkE2cjqSDsTSAQAIMVl/RMEkitywd1WnhEgFKghqVVApqd2kCuMgBp9TGJX3tkgE3mD0MkuEJJWzkFmsiuQ6+QjqDHTD16tTpF9ivyHxP8Ipixu44s2leNGjy2nl5ONUvi6WL06o1ytD73MR4bBiw4747SLDjnomIst8rxV4SWnLJ4jFvmi0jijjVWartzdvX96s0POu+CYM07bdWYoz7eHujw/fRi0koByPC3dgi2p/si+C6POXjp1FgAA");
 
 export default GasPump;

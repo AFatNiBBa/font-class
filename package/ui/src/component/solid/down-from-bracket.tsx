@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-from-bracket` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-from-bracket?s=solid down-from-bracket}
  * @preview ![down-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/down-from-bracket.svg)
  */
-const DownFromBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 160l0-64c0-17.7 14.3-32 32-32l256 0c17.7 0 32 14.3 32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64c0-53-43-96-96-96L96 0C43 0 0 43 0 96l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32zm9.9 217.9L196.7 500.7c7.2 7.2 17.1 11.3 27.3 11.3s20.1-4.1 27.3-11.3L374.1 377.9c6.4-6.4 9.9-15 9.9-24c0-18.7-15.2-33.9-33.9-33.9L288 320l0-128c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 128-62.1 0C79.2 320 64 335.2 64 353.9c0 9 3.6 17.6 9.9 24z" />
-    </Icon>
-);
+const DownFromBracket = createIcon("down-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABcgAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBdQsGAAE2AiQDCAQgBYMtBzgb/QTIjsQ4JvGLKEwi+H5Z6/dn7jIxT6FCziqnpKm1kNU6ojC4KyyFRG+GvONPf+/O//mnD/jsA8Aa9D+PRXMWzYmdd95550VjggaSBZZpAtbubDvmIO3T0tIIOS52fG6Qx4vsoirSs/QLd/KHxl+dXCSpywBESwBMXrJgvnJTNEX8rLwnfpqLgJgMCoEMGboKME4m0FWuQC4XNEWlQv+BBQFENX55AjlyrMYWQA6SlOcDejVUNcsXN1TVrwhxrsOThmZxo90j4iyIDTf0kYh43ac0ojHe9XrTlWEtWrR4kYhLIhTPtX9cXx+RUNfbPiT2nW3Xs9Sy9M+vzb9M7DGJU82vXm1OgiZREq8tlc5yFkZqDbnu93E2Si1bltD2rHnzZ7Q+wdlF66wJDAzRQDz3b+G7w2tajPtf25DAny+t/Ioq5SinEmolEGT9Kv2sjDJEWQAAUhzWM8oIJIsl/K6NHgsQ6hEgqVYvQKaLlgLk6vUVoEp3wwWoVm+BTOR1QlurKkga7QOZEU6BXFtvQZVxvrrV2kbmYpSDUD+8+Bkamr6tGDxgUDGm6LYI7TVEXB1bTEu9DoeR3nDQZnvsdtAmG21zUCH7zQ8O2WXGCJ7uiwqDDTBIYYxiu3vLL1ap/Q7Yxqb3NzFWcV7t5fB4em/YTQIMuZxUIlKrVyf0f4xN/dfvX7dhx6aDAAA=");
 
 export default DownFromBracket;

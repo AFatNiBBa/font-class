@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mattress-pillow` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mattress-pillow?s=light mattress-pillow}
  * @preview ![mattress-pillow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mattress-pillow.svg)
  */
-const MattressPillow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 96l0 320L64 416c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l192 0zm32 0l288 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-288 0 0-320zM64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l512 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm112 96c8.8 0 16 7.2 16 16l0 160c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-160c0-8.8 7.2-16 16-16l64 0zm-64-32c-26.5 0-48 21.5-48 48l0 160c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-160c0-26.5-21.5-48-48-48l-64 0z" />
-    </Icon>
-);
+const MattressPillow = createIcon("mattress-pillow", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgAAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCFQsGAAE2AiQDCAQgBYMtBzYbGwXILgbsxuUiUKi6bAuU2uDKzyy4OBlZiIevsfb+7p5KQzskTXioGq8R8ekXaSaxQ8hW8Z+/V8/JoK0J3YTG3rQosbE7JtVK8MFrpVgn4BQpP/9lW++jvk5NnlinkqFCxTOclnLrtHri5jY6F11R2Adm5Q0pGFqxat+nTj3PeSiAzyEI2li4NCALJDTneQQCPJZltyWoFWsFKhiXseYtN1mPyH5JTWqSHs+RfweUePPCSPqgDXCXXzT+4fBIUjIAog8A2DsZDXH64x+5KcQn+iAg9gEsIjIyZhFs0gvMMlgERRH8UCn+DxQggKhCfmwCBTWcgRsABSSVwtm20+40GXUuUCtKymRGodr6xFLlA6uqrumNdkhRSps1YoNlEg/BcFrHbnJ/zo3lvE/DmHQKPovC3oiDq71FiG2AH9p1lXsfGnG2fijuUzl91+fqk5pUKpUT6+2zAvxFYOqX+Kh8L2gVGDShObA1CAz3nE/+uhq6PxWUKRX5Ar70GvLXV6QCMtHXAIGg2fVuE3PzWmcG8Pf8nx5MUzqBugSCvPy/mKUpwOgA1BQF3MYbBZJTRvKsba8ChCYCJFVNAbIZdgRF0xKCinlJBFVNB/SiyAhj8waStkuQbXgAxdgTqNj0olSNQ+9ypMOQP764loaadRINRSQnS1OlvAhP5bxs8567GPJiFivnztxYWti6UciVoX7rqGXBTR8kokIiRI4cO4/cVClXrm3nzHmVPLkve9zZyV5IOoK5oilJRDLz7OZBMVwHL7aHw/k9AAAA");
 
 export default MattressPillow;

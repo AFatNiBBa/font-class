@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bring-forward` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bring-forward?s=thin bring-forward}
  * @preview ![bring-forward](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bring-forward.svg)
  */
-const BringForward: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 496l224 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48l-64 0 0-16 64 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64l-224 0c-35.3 0-64-28.7-64-64l0-64 16 0 0 64c0 26.5 21.5 48 48 48zm64-160c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48L64 16C37.5 16 16 37.5 16 64l0 224c0 26.5 21.5 48 48 48l224 0zm0 16L64 352c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L288 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64zm-16-96l0-160c0-8.8-7.2-16-16-16L96 80c-8.8 0-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16zm16 0c0 17.7-14.3 32-32 32L96 288c-17.7 0-32-14.3-32-32L64 96c0-17.7 14.3-32 32-32l160 0c17.7 0 32 14.3 32 32l0 160z" />
-    </Icon>
-);
+const BringForward = createIcon("bring-forward", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABkwAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCZQsGAAE2AiQDCAQgBYMtBzQbaQVRlO5BiuzHQW7GunAKXZGKPxaL/ZJzE7xFUK3927N3j/Z+CFCFbSRKIB/hEgeMSr4vXGArFhWB3zO3f3PwEO+R3PLWlpAEzaXRiM28uRuMsd3EuNb8X05vPD86wO8nfmhj7LKo7Xs/32ABpvm0Al4WWKYJWObWHIIHBnGfiBhitmT0+LUer45Qx8UBMul66uPs+qHxwQRrkqoCQAwHAJt3FU08S5SI//8d0bcVBMQWwHSEChUmI7COKDCZZDqo1YIS//+X/0CGAKINPmgCNTq4gluAGiStWgovTJw4cmLTGlLvbFp5R5Obp7k6KeKGr8zNEdHE43k+QVzrZ7NzPNkXE/ticV2X5+y6NxeB1CNeGn+abeQm162b93Ke/6qdIa44xyWKy2riapojjLhUOU5gT0QczdWmiZPpbsx8MfzFpxn9Q33vIqWU5a8Hq6IafL18k+E2uTdiRC7yBt2jlBlQlrHx7pwH5gpXUIYXNq2MBsN232OZs9xTnPewE4cPPQbHht5D03IzCASvRs+9tNu17mu3SeD9+csv+Rm58v+ZpBfoSiCoFv9/1QQSAQBIseRJEEjOaOG7DrgiQMgIkLRlASqTuBGoZYsQaJkqhUBbto0oagvCaDUFyYDDoLLWCtRG24CWdV7pttFRhSYTWMyfYaLRovoujoWjnOfLuoONNmqZL/C06V2izycH0TQyNNdQ1zFv8CkztzBgWJjui1hMWBTLY3frXqzkYGoGasz7Fyng55NeS3u0TxwBSVcqSRKRHF+UGnqTAQAAAA==");
 
 export default BringForward;

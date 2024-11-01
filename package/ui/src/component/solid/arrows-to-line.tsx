@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-to-line` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-line?s=solid arrows-to-line}
  * @preview ![arrows-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrows-to-line.svg)
  */
-const ArrowsToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M256 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32-32 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l64 64c12.5 12.5 32.8 12.5 45.3 0l64-64c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8l-32 0 0-32zM201.4 329.4l-64 64c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l32 0 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 32 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-64-64c-12.5-12.5-32.8-12.5-45.3 0zM32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 224z" />
-    </Icon>
-);
+const ArrowsToLine = createIcon("arrows-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdgAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBewsGAAE2AiQDCAQgBYMtBzUbAAXILgbsNuXgCJGDAuxMt1jhiPEWK7SIp9Y++83M/hCCYo0kT50LlgcFpFBF53xQrY8wkb9iU5HRe8/+ambltHneTwu5QTqxERWq53qhXHPsm9+YX10lx/wuQwzx5/9cz/d8NMBvNLQoS20s8ExMgQHP5vMBxaUd2JmegN3eIjM2ieybTJeVHr+mx6cNWh7qoY7ysfzjTfrQ/LXCIcWMCgCZDwCcvpFPwucYx8nf8IX8cgYI5DTAeoiKitUQHMMWrMaxHmiaMM4wpf/A9SBARiAPX0BDhwlgEoAGito4zEaluJNySrM6Uf3xUsz1zPPFl2QmPi6/XZLN21kXy/J5v/J+qyhYuZjPXK642yIO5NGStnYTRGW9rHpYmltjSsHAXBoIUmRub2nrCAkzNf/9n0YZPs095elc2enTuYSEnkwYPEd6O3DfEKGjqukwFIYlyNY5/Tx5gNuFFO0HQXj1O5If+z99Fgvgz89Hv6Khx75MYboCQt097NZID+kFAFCyiUmPoLiNTd51tncCYiYCipGZAqpVFBA0M+2CoLOWHYKRma5gSxNCLNZEUMx2D1RHbYFmsQ/QOebLHFmc6mWEjxCfvNiEhuJzdMBgIg8NXZl0HCy2vWTmt29ySg2rMLJk0bqhgRnrClmVdDYsSMzguC8iZgYmxIO2g2u2pKxVa2b61P4ULzovq2zOi9UgsQjqQQtFIUXWvf8IDP3DO/qbCAA=");
 
 export default ArrowsToLine;

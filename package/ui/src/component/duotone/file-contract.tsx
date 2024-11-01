@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-contract` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-contract?s=duotone file-contract}
  * @preview ![file-contract](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-contract.svg)
  */
-const FileContract: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM64 80c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 64c-8.8 0-16 7.2-16 16zm0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zm0 256c0 8.8 7.2 16 16 16l8.2 0c21.2 0 39.9-13.9 46-34.2L144 349l16.7 55.6c1.9 6.3 7.4 10.8 13.9 11.3s12.8-2.9 15.7-8.8l8.8-17.7c1.7-3.4 5.1-5.5 8.8-5.5s7.2 2.1 8.8 5.5l8.8 17.7c2.7 5.4 8.3 8.8 14.3 8.8l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-54.1 0-4.4-8.8C238.4 361 223.9 352 208 352c-10 0-19.4 3.5-26.8 9.7l-11.6-38.6C166.2 311.7 155.8 304 144 304s-22.2 7.7-25.6 19.1l-14.9 49.5c-2 6.8-8.3 11.4-15.3 11.4L80 384c-8.8 0-16 7.2-16 16z" />
-        <path d="M384 160L224 0l0 128c0 17.7 14.3 32 32 32l128 0zM134.2 381.8L144 349l16.7 55.6c1.9 6.3 7.4 10.8 13.9 11.3s12.8-2.9 15.7-8.8l8.8-17.7c1.7-3.4 5.1-5.5 8.8-5.5s7.2 2.1 8.8 5.5l8.8 17.7c2.7 5.4 8.3 8.8 14.3 8.8l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-54.1 0-4.4-8.8C238.4 361 223.9 352 208 352c-10 0-19.4 3.5-26.8 9.7l-11.6-38.6C166.2 311.7 155.8 304 144 304s-22.2 7.7-25.6 19.1l-14.9 49.5c-2 6.8-8.3 11.4-15.3 11.4L80 384c-8.8 0-16 7.2-16 16s7.2 16 16 16l8.2 0c21.2 0 39.9-13.9 46-34.2z" />
-    </Icon>
-);
+const FileContract = createIcon("file-contract", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABuAAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDKwsIAAE2AiQDCgQgBYMtB1Yb0wXIjtRO9VSx4uE/nW/3zciOI30GJVkCrICpImWRuCMoOp9tESpX9///XO75PT86wA92Yocy1gapDTYntQUCXLQpD6jnAWeagbW47aKIaihsIfGEIi7KV2iR7k1f4ebgfwDjR9OuIFmaAcQQAHY8aL99fdKNboqvem8QX9kHAbETqAUyMuYE2EYWmFOoUSgE3dRLN3prAoi24BMyaKODt/AxoABJUhRFtdlCf/+mVau/OLBqlScdeMCBohm/s6r2X5xb3DDuHL9+cjburq4fn447qyrunrxrooyJuG+168YWvOonpuq4Y6zk9+4cr+Lt2Xz/2hHPr17FDY8jxT1rPLNKXzy11nMzedc7x83KHWM6ajo6t8V47vTy54ae+3nZVyd+5dLFh6M9jYFrrhlo/ndL9NYl1nyk3GOlVdrtVVbaotzB9/ML321mD282g+8+5Zi6PuZ7W77S0R0Y6HYse1lTDjP8yCPuCNVGpAp5JMeXTW+gu4PuQN8Ogers3G7x3utAIJj78NcHjhrc5u9OlcAP7/36Z/lD0vskmvQcOhII8jq9dRweDUQjAAApLrQ8GjsgkJ2hEN3rc5cAoaSFpK2EbNYQFEprQ8uCTe+3lfaTRbFUGHMEgaTPOZBt5mIojHkdWrbxaa5tLDL4ssDH/j0m7dZHdt1Vb7jeBvVW9WJNzUEk7c5uXe+21rhQ96xJzzrRWc50vhMc7xTn97Bz7Vu8wBl2W0N39UW1Da1nA7Wt1Kebj6UDee5c5zllXji/zdbq+7M1XLg+fE3qJhHhRo5kmUiRx3FFXxd/tHVRYcDkjPDZAw==");
 
 export default FileContract;

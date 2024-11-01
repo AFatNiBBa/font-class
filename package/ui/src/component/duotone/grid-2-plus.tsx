@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grid-2-plus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-2-plus?s=duotone grid-2-plus}
  * @preview ![grid-2-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/grid-2-plus.svg)
  */
-const Grid_2Plus: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 80c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96zm0 256c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96zM288 80c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96z" />
-        <path d="M408 296c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 64-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0 0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0 0-64z" />
-    </Icon>
-);
+const Grid_2Plus = createIcon("grid-2-plus", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABkAAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCJwsIAAE2AiQDCgQgBYMtB1IbSwXIHoexe2TJLCbl8IkaSsvD037fzp15+3cX14e4JjNLNLppxSskEs0s49Uk/wJjjv+Jy/Hf26YHXARvj7InLW+C74kJBNhFZWNagFFCgWZm7c5G27Na+yRJI8nvMMelDp0rFPE2n1RDupLilPwPYHzV3kmS+gwgmgFg2vLFcz38FJ9SPK/eJ56bg4CYDkqBjIxOAkyUBToplCgUgk+pyqeolgQQFQJlTiU8cwwnAAVIQi6KsgMUGtY0Lpbxlgabr/a+3k40CGRc6dUwBONWx4iGwZu88dNi9bW2EZf6NIwbrS+0F5dbne/ZIG62udghErBbflT3u83ufu92W5cutV64sPVUU0U+i9Sw3tt1f37Bu6EMffcib0AajcZcrYqvA4Hg+Nbx5fqmE//XNUzgy4Off9N7y+rr+JXuok4CQR5YHWhNotQsfgkAQIpjuifR7JSBeS3ppzZyUYDQAAGSigYCZB01E6DQwAABanQxSoCKBhbLoqgXWllbyKSRg2Q22gmy0Mo9ssZEj0oVrSI7n+w68t8vY/bgrE3lsMFDy/FltyYr/iTy7IRyOuh7TE8/OGib/fY5YqstdjoSccjc6lF7zR7hs3xRaZjBhiqNVy43b41llQ45bKetra8zQbk/7+vYeHg/iBPlHG5HlokUueUjSwYNH+S9zqB73Ne61a4s");
 
 export default Grid_2Plus;

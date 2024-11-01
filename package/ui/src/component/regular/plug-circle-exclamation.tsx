@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-exclamation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-exclamation?s=regular plug-circle-exclamation}
  * @preview ![plug-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/plug-circle-exclamation.svg)
  */
-const PlugCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 24c0-13.3-10.7-24-24-24S80 10.7 80 24l0 88 48 0 0-88zm176 0c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 88 48 0 0-88zM24 144c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 64c0 80.2 59 146.6 136 158.2l0 73.8c0 13.3 10.7 24 24 24s24-10.7 24-24l0-73.8c15.2-2.3 29.7-6.7 43.1-12.9c-2.1-10.8-3.1-21.9-3.1-33.3c0-7.1 .4-14.1 1.2-20.9C238.9 360.2 216.3 368 192 368c-61.9 0-112-50.1-112-112l0-64 224 0 0 55.2c13.8-14.6 30-26.8 48-36l0-19.2 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0-48 0L80 144l-48 0-8 0zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm0-96a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0-144c8.8 0 16 7.2 16 16l0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const PlugCircleExclamation = createIcon("plug-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjQAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCOAsGAAE2AiQDCAQgBYMtBz4bRgXIjtRG90U2mSKobFZZrZEOgGaPGS0gfguQPDY8VLxLZL7iferU80wLBfA5BEHZUwOSttZNc55XoOelsXRtwFCEKood1asmX3Cdf1B+nyCLb+OGIulh+gbXw0TFz1o4Q1IsAIj6ABi3ZMEsn5WjHPF15W3iazMQEONALlCAi1sLMFJB1E+QyZHJBOWoVIL/wJwAoiSOOYEM1XEcZwEZSEpZVrNm/1Y16tQq1skW1yrWXPGo81PNRa2IWrmy1sQfdioSj4/6eJIIDni2VcSzXe7FyWbPDXyn+wttIyjei10Q4zMyxTWXXR4R8WGfV6nx9n5l+Ac1Lw19r+dLTvR6edj7teLpFg86PtPysS5xt4m40/he04j7zdq/UP+FX6u+2fyN4882mTevyVJ9LX0td5odIUy0oLqxaq9Y/vx0nU9Mt35Ynwa1arw59o//641VNsSklxupjm/nnD1dEqlfVefOVf1S6lKrMLW1VC7LvlGuO1fdsvU9EAimNPp4/pp6I/+tXiuBnz74z7pf5bM0Nr2A6hIICj0rPa1MYwFSA0ilOKw9ZY6B5IgRmtTa7gkQaiJAUlJTgIJW6guQqamHAEVtDRKgpKYFCiKrITS2qgRJbftAwWBHQaaxN0HRSJ9HJY2jsBAKi5BwCZg6uQ5NmpX36903H54PVuTicsVRJ0fk3G7Xw1ZHN7jXZnvsdtAmG21zsEbuNytzyC6TacQkP5Trp7e+csPl0vXb2xfbZL8DttljdzDNCLn+sKvD9P7dYJDEtP2VJYlIzU4OZq+ndTp7/eDCX7drzwIAAAA=");
 
 export default PlugCircleExclamation;

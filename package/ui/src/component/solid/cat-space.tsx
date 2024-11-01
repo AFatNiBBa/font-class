@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cat-space` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cat-space?s=solid cat-space}
  * @preview ![cat-space](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cat-space.svg)
  */
-const CatSpace: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M576 160c0 70.7-57.3 128-128 128s-128-57.3-128-128c0-32.5 12.1-62.1 32-84.7l0 84.7c0 53 43 96 96 96s96-43 96-96l0-84.7c19.9 22.6 32 52.2 32 84.7zM411.2 89.6L381.8 50.4C401.1 38.7 423.8 32 448 32s46.9 6.7 66.2 18.4L484.8 89.6c-3 4-7.8 6.4-12.8 6.4l-48 0c-5 0-9.8-2.4-12.8-6.4zM480 316.8C553 302 608 237.4 608 160C608 71.6 536.4 0 448 0S288 71.6 288 160c0 11.7 1.3 23.1 3.6 34.1c-54.9 8.1-102.2 39.5-131.6 83.8l0-85.3c0-48.4-36.1-89.3-84.1-95.3l-7.9-1C50.4 94.1 34.4 106.5 32.2 124s10.2 33.5 27.8 35.7l7.9 1c16 2 28 15.6 28 31.8L96 416c0 53 43 96 96 96l144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-56 0L416 339.2 416 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-163.2zM400 160a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM231.5 12.3c-2.6-7-12.4-7-15 0L205.8 41.1c-.8 2.2-2.5 3.9-4.7 4.7L172.3 56.5c-7 2.6-7 12.4 0 15l28.8 10.7c2.2 .8 3.9 2.5 4.7 4.7l10.7 28.8c2.6 7 12.4 7 15 0l10.7-28.8c.8-2.2 2.5-3.9 4.7-4.7l28.8-10.7c7-2.6 7-12.4 0-15L246.9 45.8c-2.2-.8-3.9-2.5-4.7-4.7L231.5 12.3z" />
-    </Icon>
-);
+const CatSpace = createIcon("cat-space", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABrwAAALPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDMAsGAAE2AiQDCAQgBYMtBzAbsAVRlM3JBtnDw0Nd1vuFjlSdgSoZgQuD1+C6OgnT38/znznA5xMfSgWlFmZb5vkE/vlsbZFgybMPNlHc2xQ7fCoRgiAqhMSq45rHuzNk8Xd6rpzkpuRTXEEqjR8Mci6JuhRAtAJg+Q7bbObN3uiN+OT/54hPbERALAelQIoUQwVYJBUYKlMikwl64///8T+wJICoYDKh/gy1eAHvATKQqJSybEjrurq6CQ15U7Z9Q15/zJ2LIl5d9f6S17vvmSpuG//Q7BcmPjIi4rGu7adMnvJIwyXjJ8W19fVxced2HyyNeGPk90te3/7bRa9ue2b12XkvToq4fcLDczrj+uLa4trqddVq3DfoRmVDXDLghjir8/rN8A4hzlScDSIU298wwBK/tri+c4eqH7W3v74+4uJiYNhHkZ0pa3RcVx0UVteQQM/YeOEaE3T34O6HWx/+qcu/T/f/1NIR+SxWbrnlyll59G+n9uGHzzyzlNVupz/uXf0Bf/Kt0aPf+sDq2mlqV6/qP2UCC+pj5aefroyV8emnsbJ96fVFdavt5AcdtPpIX95ww9Cmk05660jXDu65lHWl5gsvbA4l81xwqMvG7Hu2uLW5t7cZ8C1azLT/7+eMysmLR7V3fWx5nq/4yLT0UQW6R90q+Y+sIJZ//IBbgUBw+5Y77bhHy6JfaxsS0P/yL3+k+0b8/2ayZ/IwaiUgSCf9P8muyZkKrlQUwNEkjtcN8xRIPOFjfGuj6wUI9QiQqKgXIDVEqwCZehMFyA03W4CKettIRVYnFHbrINHoKJCa4zSQKTwDcot8EK0oInVgs/uZfx9zrJmh1Url9CnTygXlsqpZfNIYpxeWZve440XXeNhpf0c43LH2s6+DHDtpjrZZ4jiHWaNxq/1QaboppiktUB43lpu3t5+jHeMgRzg8z7JQ+d4/zvH64PHgS7DOGRYmEiKp22evYyf7OgAAAA==");
 
 export default CatSpace;

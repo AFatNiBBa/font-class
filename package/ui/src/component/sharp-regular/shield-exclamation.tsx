@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-exclamation?s=sharp-regular shield-exclamation}
  * @preview ![shield-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/shield-exclamation.svg)
  */
-const ShieldExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64.1 126L256 51.5 448 126c1 43.5-6.9 106.9-33.8 168.8C385.9 359.7 337.1 422.4 256 459.6c-81.1-37.1-129.9-99.9-158.1-164.8C71 232.9 63.1 169.5 64.1 126zm431.4-13l-1.2-20.5L475.1 85 267.6 4.5 256 0 244.4 4.5 36.9 85 17.8 92.5 16.6 113c-2.9 49.9 4.9 126.3 37.3 200.9c32.7 75.2 91 150 189.4 192.6L256 512l12.7-5.5c98.4-42.6 156.7-117.3 189.4-192.6c32.4-74.7 40.2-151 37.3-200.9zM280 128l-48 0 0 24 0 112 0 24 48 0 0-24 0-112 0-24zM232 320l0 48 48 0 0-48-48 0z" />
-    </Icon>
-);
+const ShieldExclamation = createIcon("shield-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdQAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBfQsGAAE2AiQDCAQgBYMtBzkbBgXIjsQ4JvGLKEwiqGxlWT2zJwAaARB58iWL2EN6IHQv3iWwt0Le/7if5//80wd8Rh8tkjI3XHv3+QQmVu07H+CGUaI4c9M430GUTMpDEAwiHcbQYenUE+TxepxRIl1IX+B0udH4VTOnSEoZgKgLgLGL58/0TmVURnxefkZ8bjoCYiwoBDJkaCnACJlAS7kCuVxQGeVy+A8sCCAq0PUmkKMCq7ATkIMkz/PGnepVq1GqlS+qUaq+fPGCxQvjSsvLPR6OeGPKZ6Pe6ne/9dU265s3a94pFkXjaBgLokM0jcttb/R9NPbdhY2iSfw8/v3+T9rfar2geo3qQogaQdEFwlhVvd3turd/98WmL4we+/bUtBM7jo8as3zbG29sWz5m1PYTHtRsYDI6+2q2pyDq7M4yHQ8cOHLku++nFB/4gBO//45lHDjQ8afafSirqT2a6qNZvd/uA4E/GwSCd//5f+7qOiP+r1ojgV9e21yudvmd+CfdRlUJBFmPcg8rErXVjn8EACDFIe2EOwoki+TsyprOChCqY0JSoTpkWqgLueq6Q0lrA4nDFfNlIq8mNLQSIKlpL2QGOQm5hp5AyQgfxyo0jEzNKCWhvvLiJ3Fk4qSib68+xbBiW9JpzSHS6PDiWOpyKLZ0xVyb7LbLARttsNUBhu0zM3nQTpMkdKIfKvTVSx+FYYrr6uv0RTbaZ7+tdtuVxxmueN7r4pDcvSvUhHD7eTdJRKq/f8vWjTs29PyBhbJ255sDAAA=");
 
 export default ShieldExclamation;

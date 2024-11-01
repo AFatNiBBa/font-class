@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-nib-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-nib-slash?s=sharp-duotone-solid pen-nib-slash}
  * @preview ![pen-nib-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/pen-nib-slash.svg)
  */
-const PenNibSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 448l20.7 20.7 144-144c-3-6.3-4.7-13.3-4.7-20.7c0-9.4 2.7-18.2 7.4-25.7l-87.8-69.2L64 448zm43.3 43.3L128 512l281.1-93.7L306.4 337.4c-8.7 9-20.9 14.6-34.4 14.6c-7.4 0-14.4-1.7-20.7-4.7l-144 144zM212.8 142.4L446.7 324 480 224l.7-.7-128-128L352 96 212.8 142.4zM375.3 72.7l128 128L576 128 448 0 375.3 72.7z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const PenNibSlash = createIcon("pen-nib-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdwAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBYgsIAAE2AiQDCgQgBYMtB1YbCgXIjsO44TsihljKfwT1a589b/cCgBtmdEAK0cWeDQALfxUXVtG/mRdUA8//5Z7f86PzzUdwSHvpDNs4xnyeQICL/ks3lUhgWabY3spa9IgsilKTNSf3+K3H57gL5KlTdlIZ6WaC8+l/AOOXpk6SVM0ARB0AjFk0b4aXFVGR4mvpLvHVdATEWFAIZMjQQoDhMoEWcgVyuaAilUpURKlUEEBUkt6XgUqojClYD8hBEvI8r1uTyqpWL6uZLyyAass6dOywJzpE9+gYez2oV/UuXbssimuxxgtj/ojJWRet8kr7U43mL1uwcIGINo6F0UBf5Nj9ybbldcr/tLGRFi++/zQ90dM7PaEzejwdPn/elOq1ti0cb9bfcr6nyQobZ/s2uitiZsvyH/fyuWIdjhzBqR63xx9Bd/LkRVVfB4Hg8K2jA1fVHv6/Sgl8f/zvp/B06WU6mo4qEgiy7qXulqejAPQAcikOaqt81WiBTG85+tQargkQqiFAUkk1ATLN1REgV003Acq0MkCASqqZJxN5VaGBFYNKathDZQY6ROUauEOVGe5DtpIGkZmWYBjCj13qRA5N2FX06dm7GFpsO7poLVzcHFY8djsfDBNdAGijXXbab4P1ttjPkL1mFA7YYaIGT/BDhT566q0wVHHcf1UXYnavfbbI8vk2wxTvh50d1Od3gSAhxr6uzmREiqzh7g07e+zcsrbHvu1r9m3ucUtnNBbkGwkA");
 
 export default PenNibSlash;

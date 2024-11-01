@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lines-leaning` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lines-leaning?s=thin lines-leaning}
  * @preview ![lines-leaning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/lines-leaning.svg)
  */
-const LinesLeaning: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M376 32c-4.4 0-8 3.6-8 8l0 432c0 4.4 3.6 8 8 8s8-3.6 8-8l0-432c0-4.4-3.6-8-8-8zm-94 .3c-4.3-1.1-8.6 1.5-9.8 5.7l-112 432c-1.1 4.3 1.5 8.6 5.7 9.8s8.6-1.5 9.8-5.7l112-432c1.1-4.3-1.5-8.6-5.7-9.8zM175.5 42.8c1.5-4.1-.6-8.7-4.7-10.3s-8.7 .6-10.3 4.7L.5 469.2c-1.5 4.1 .6 8.7 4.7 10.3s8.7-.6 10.3-4.7l160-432z" />
-    </Icon>
-);
+const LinesLeaning = createIcon("lines-leaning", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABWgAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBFgsGAAE2AiQDCAQgBYMtBzQbmgTIjtRG+UVWEg/P24V/7pvZDaAJYPRkD3ep0rlNrRYlP6v2ferU85yHAvhGQRsLlwbHBNr7PAIBDeXik3IVqRVrFcXuTjs2ZWGvWIokx6Mdr8sOeRy2Rol0Pb3H2fSh8VUjZ0iyDEDUBMDI+bOnevkpPkW8/x/x3mQExChQCGTI0FSAITKBpnIFcrngU/z/P/0HFgQQZfLaBHKU0A39ATlIsjyvVq1qlVK1fF64VXn9pbopLte72iCLK/UrX6m7IC7Vu9xgcVytP4fodkerezXvfW/5ft17+++uKD9RXpE9y1a02/5YeRUub6xcnrWy7d3H6s9e0dc9BoHgxoeX35bXGPKjYpUEvrz4FzL/y52PcSLdQ0UJBFmX/7tYEicG88QJARxIsU8r/qJA0k4G3rWqKwKEygiQlFUWINNETQFylXUWoKS5vgKUVTZbJvJKQl1LK0iq2gky/RwFubqeg5IhXhlldSOzGeLGiRdb7DgNjZ0renbrUQwqhqFCmgHG48HFMtdhny91hE3rbLfNHmutsdEehewy1d5rq3EzeKwfKvTUTQ+FQYrt5H59nrV22W2j7bbFKYMV56UO9s2bO4KYCGovjiQRqZqNyV23rF35jwQAAA==");
 
 export default LinesLeaning;

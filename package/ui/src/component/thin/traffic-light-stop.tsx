@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `traffic-light-stop` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-light-stop?s=thin traffic-light-stop}
  * @preview ![traffic-light-stop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/traffic-light-stop.svg)
  */
-const TrafficLightStop: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M256 16c26.5 0 48 21.5 48 48l0 288c0 79.5-64.5 144-144 144S16 431.5 16 352L16 64c0-26.5 21.5-48 48-48l192 0zM64 0C28.7 0 0 28.7 0 64L0 352c0 88.4 71.6 160 160 160s160-71.6 160-160l0-288c0-35.3-28.7-64-64-64L64 0zm96 432a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm0-96a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm40-80a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zm-96 0a56 56 0 1 0 112 0 56 56 0 1 0 -112 0zm56-96a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm0-96a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0 40a16 16 0 1 0 0 32 16 16 0 1 0 0-32z" />
-    </Icon>
-);
+const TrafficLightStop = createIcon("traffic-light-stop", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABpAAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iCYQsGAAE2AiQDCAQgBYMtBzkbagXIhocHvf86N8kHnBG9AjtDmXLF1noT1zz/tEWCZIkNJetLH2QNElE4gRLK8hYY2ERxg/MmHVJoQyg/QRY720cZydVJgQvjL41vdDmNRJoCiEYALNp+yzovfRlfRhSlx4nCGgTEYpALpEjRK8BcqUCvTI5MJvgySiX2H5gTQJRL75aADDW4ENcCMpCoyrLOzro0qaqmrC7brrypeufb2yIu70riprnPLX1j/guD07i248oRNdvdNnILvatT6715z2/7wYIXt9/pmtH3DK/e8Y7ua3quHXF719WdVw2N26C5xYbdOTOvYMO3V9htww/MDLtzGHRXb2C3j+Bm6L5jZbjO7a9/0mWtl7dd2XFF++B7Gu/5blCxX6H04MRP2Zrmek848+WXzzyhN5du/XTiSy823NREU3UulhTFkpIZRbEuV93UdNNLuz+4xyOXXvrIHlTpx7//+efvH41GbCgfM2vWmHLlPRoefPHFBxuGm7H7g/DIL+vrvzTKQFx33mOLXt29Ye5vlTUJ+PqZH/7WfKz0UixM7kGlBATp2NJYu8RxEAsFACCJ4wxGMghmP1MVoHW1rhAgVDOIEuWqRakejaJMtTGiMv2mWS9iW1wSRlaFbrUrEiVqHSlKTXeqKNPqUVGZud4Ml2uN1GHanZX9vzDP8imwbFw+afzEfHa+m9U53JpVd8/JL+Mjj+NVo+Bc+zncYY6xr30c6JgJ7yjrYsc61PIjxjI/lJtkvIlys+WPCy+x7eDwUY524Lbr+Shz5N/TIx133HgUpBKpyclSEgmRNFt13zj36h0XPAA=");
 
 export default TrafficLightStop;

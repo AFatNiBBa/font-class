@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-gantt` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-gantt?s=thin chart-gantt}
  * @preview ![chart-gantt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chart-gantt.svg)
  */
-const ChartGantt: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 40c0-4.4-3.6-8-8-8s-8 3.6-8 8L0 408c0 39.8 32.2 72 72 72l432 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L72 464c-30.9 0-56-25.1-56-56L16 40zM144 144c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16zm64 96c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16zm128 96c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16zM160 112c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0zm64 96c-17.7 0-32 14.3-32 32s14.3 32 32 32l128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-128 0zm128 96c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0z" />
-    </Icon>
-);
+const ChartGantt = createIcon("chart-gantt", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABkAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCUQsGAAE2AiQDCAQgBYMtBzIbUwXIjsPGDQ25SLLKvxFBtN/r7L0XAlApqLKtZNJlmx9XRGEIdCvsVwUdsCVFYMTcphbi35IqkLe2hCRoLo1GbBydRqn7n2vqZdABfqOhRFtqYQVFtA/3fCJdNpKBzUc0AZu1OW95QUF+EZE46rNHGsanYekKebx2GEu6l4q40t40PujwJskyAFGPALB+27AlfguxEFH8/yWKNiIExAYE+pHIkKEbCVahBbox+hFyuWAh/v+X/0AgAohSyiXP56jAOdwA5CApy/P2moS0+uSSmnxrWVq563brzeYU9yYejdTEnTZKqo77rbc7sy3irYpbLfaElXG7tX5bW883R9xUaLlVVRUX2u7EXOvtysotxtGDj+sffxooHi2qu1O6fz93jLZsWfdSU9O2l479+1J2bHalLezX1Xbr2n1AC3qMzO6zk17M157lbC3UYtsP+ql5brqiC3JhttT5OgICweKy92/21a36Wi4nsPTqy6/xM/J/IUmPUS6BIJv+P22aQCIAACnOMBMEkjlldGu12wKEShyQlKqETBcDcpWmoESvXOucvQkt8gqh2QyQVDsOmZVekGv2gRKr/AOlmiMLSH046f8HszSM19MQBxH6uC2ahhjT1uEB3DbrmZtsrCSWTo7uFuY27qRcteGHg2Yl1z4IYoEI9GG78tkyocDVzcY27Y8zgPddlue6sw0nRVXOyEgSkao+xQR/deB4vwMAAA==");
 
 export default ChartGantt;

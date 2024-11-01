@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-arrow-up-right` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-up-right?s=sharp-light comment-arrow-up-right}
  * @preview ![comment-arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/comment-arrow-up-right.svg)
  */
-const CommentArrowUpRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M86.9 382l7.2-19.3L79.6 348.2C49.1 317.6 32 279.9 32 240c0-91.3 93.8-176 224-176s224 84.7 224 176s-93.8 176-224 176c-28.4 0-55.5-4.2-80.3-11.7l-9.2-2.8-9.3 2.8L68.6 430.8 86.9 382zM16 480l38.5-11.6 111.9-33.6c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L30.1 442.4 16 480zM192 152l-16 0 0 32 16 0 89.4 0L172.7 292.7 161.4 304 184 326.6l11.3-11.3L304 206.6l0 89.4 0 16 32 0 0-16 0-128 0-16-16 0-128 0z" />
-    </Icon>
-);
+const CommentArrowUpRight = createIcon("comment-arrow-up-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABegAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCDAsGAAE2AiQDCAQgBYMtBz0bGQXIhofn9f77tU/y4IycAYAvVEb1S8kdW6G+/3Mz7vU8CvCDJRbaWLg0HBNsz+cJHGB2Ezd5YGd6AnbmLvchydpPay1Fksdv8ni5Qx4vxxBVpHvTJ7iZdhq/6uRakjwDEAUAZq5fvdQbP8VPEZ9UniU+sRgBMQuUAhkydBVgikygq1yJXC74KSqV+B9YEkBU49cSyFGF3bhAvxOSLM+79ejRUNWUr2uoql/fpWOX9vFar+9Xf73+25Vfrv1mxRdrrhvXPtrGmhi9ZvyY8evj2YbvF388/fXeD057bdFH675Z8MGUV8pvV66JrpvrG+pFQ8OaaBsDo0OsDyEaAifqez1UPPR7z0/2fWLdzF3hxA/+aIx5b329K3bF128Jo9uDF1/lVus7K+btPMzbx0oPjJjvuvu7d6+ry/r9181nPo/F+zrP8+3j84uiKBUbDx/xkn0eduSwjQolkCsJBRCv7Rt2+9HtLVP+r21I4JeX/vxb+xVVfkrSQ6iVQJANqQyxJYFEAABSnNMrQSDZLEM3G90lQKiHQlKtHjJdFJCrNxiqdDeWWryxWibyOqGtrQBJo5OQGecyyLX1NFSZ4n2nWtvI3I1xFuazlzjPonMPlSOHjSgnlcOEsB5EleXkclkacC41BuKsfY475oy99jjojMFPWeqfddS8GTbXF5VGGmaE0iTldn5/fJ29TjntoOOO1TWTlee1Ac7N+wdCTZh0lFCSiNT+fgeH7jx16vj5oWdPPFkAAA==");
 
 export default CommentArrowUpRight;

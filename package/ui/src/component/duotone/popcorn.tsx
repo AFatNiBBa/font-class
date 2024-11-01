@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `popcorn` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/popcorn?s=duotone popcorn}
  * @preview ![popcorn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/popcorn.svg)
  */
-const Popcorn: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 156c0-20.9 14.5-38.3 34-42.9c-1.3-4.2-2-8.6-2-13.1c0-24.3 19.7-44 44-44c1.9 0 3.7 .1 5.6 .3C118.7 37.7 135.7 24 156 24c8.5 0 16.5 2.4 23.2 6.6C186.2 12.7 203.6 0 224 0s37.8 12.7 44.8 30.6c6.7-4.2 14.7-6.6 23.2-6.6c20.3 0 37.3 13.7 42.4 32.3c1.8-.2 3.7-.3 5.6-.3c24.3 0 44 19.7 44 44c0 4.6-.7 9-2 13.1c19.5 4.5 34 22 34 42.9c0 1.8-.1 3.5-.3 5.2c-1.6-.4-3.3-.7-5-.9c-.9-.1-1.7-.2-2.6-.2s-1.7-.1-2.6-.1l-77.3 0-208.4 0-77.3 0c-3.5 0-6.9 .4-10.2 1.2c-.2-1.7-.3-3.5-.3-5.2z" />
-        <path d="M1.4 213.3L70.6 476.2C76.1 497.3 95.2 512 117 512l214 0c21.8 0 40.9-14.7 46.4-35.8l69.2-262.9c.9-3.5 1.4-7.2 1.4-10.8c0-23.5-19-42.5-42.5-42.5l-363 0C19 160 0 179 0 202.5c0 3.7 .5 7.3 1.4 10.8zm126.4 8.4l32 224c1.2 8.7-4.8 16.9-13.6 18.1s-16.9-4.8-18.1-13.6l-32-224c-1.2-8.7 4.8-16.9 13.6-18.1s16.9 4.8 18.1 13.6zm224 4.5l-32 224c-1.2 8.7-9.4 14.8-18.1 13.6s-14.8-9.4-13.6-18.1l32-224c1.3-8.7 9.4-14.8 18.1-13.6s14.8 9.4 13.6 18.1zM240 224l0 224c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-224c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const Popcorn = createIcon("popcorn", true, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABnAAAAKKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCXAsIAAE2AiQDCgQgBYMtB0obeAXIhofn7eo7t161MP7f9ddWJvYs1N3rzKmcUekoWyHu+b+mXjw/yuefj+DQOjS3USRQ5vPhng/whtMoggadKW53ZSstEfOURqxL1/9qHs87QR4vpbuUyJ7KvsTD+X8A41fL3UWmlgBEFwD7nnz8kT6ej/ksvhy9TnzpCATEfqAQSEhYJcAeksAquQK5XDCfjUbMx2hUEECU8bcnUEYF9+N5QA4yucjzNe12e9dGqZWf1CjVTz71tFP7U/1GI2ZnhjOnxzBunx7Um9GbfMJtUyeeeNKJ/cknpk+Kwcxw6sQTTj7hifpg5uQYTvWdJDwxOZiOGM70p06/fSY6g8DMYWO28czOs1PPbPzC8kK9sXy2Uey7bbKf6vSmb6/3KhQH1Zu9ydtjvVe7r/6+7suLvuSXA8suY+/P3hn72dg7n+2NO+Sliffem7jcODaV8luqa+cwaS3NbwUKX/h2r7k00nu2l1r1e337Q/vqmGetTZrw2tau332G3tJUZeKL9ydSejBagy///vvLQSseTGni/S8mKlNLvWe6KUtdERHCUavL+2QJCARbPb/m67M7e/xfbWRg8d0//0V3jz6Oj7NXUZWBIG0x2sIZ8TEAM4BiFjdZT5G//0aHyPGjNg0ECHUEyJTVBUhW6gqQq9tcgJI1dhSgrO54SeQ1YdKZHWSargXJTm4GuUmvgZI9fFIsm4xkl4JVCX+FqQdJ9MBtxbZbbVPsVmxbmmhqXFzdvXjsbnITjWwKe13kale5wYUucKkbBH6dIys3utJBGnagHypsayvbKOymOO4+qyeJ4nWud+laPl9nd8X74SZu0qdvCkGGWbdzRpKILFLnmquvOf/q667a8n5bY1K+yA==");
 
 export default Popcorn;

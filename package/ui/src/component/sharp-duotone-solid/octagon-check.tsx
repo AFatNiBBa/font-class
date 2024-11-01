@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-check` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-check?s=sharp-duotone-solid octagon-check}
  * @preview ![octagon-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/octagon-check.svg)
  */
-const OctagonCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 160L160 0 352 0 512 160l0 192L352 512l-192 0L0 352 0 160zm126.1 96c.3 .3 .6 .6 1 1c5.3 5.3 10.7 10.7 16 16c21.3 21.3 42.7 42.7 64 64l17 17 17-17c42.7-42.7 85.3-85.3 128-128c5.3-5.3 10.7-10.7 16-16c.3-.3 .6-.6 1-1L352 158.1l-1 1c-5.3 5.3-10.7 10.7-16 16c-37 37-74 74-111 111c-15.7-15.7-31.4-31.3-47-47c-5.3-5.3-10.7-10.7-16-16c-.3-.3-.6-.6-1-1L126.1 256z" />
-        <path d="M385 193L241 337l-17 17-17-17-80-80L161 223l63 63L351 159 385 193z" />
-    </Icon>
-);
+const OctagonCheck = createIcon("octagon-check", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABgAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCBAsIAAE2AiQDCgQgBYMtB1YbLAXIhof/X/vfPnfmva+oDy/hKkmsmySqRUh48wSh/EX0RGUmrqmfQQ9YAJx1/iAFXqs6n8DOU3fDH2B5Cc10BrbduVmi1PJKSyzJ8Wg7ThfI42t2VYX0IH3BNf4fwPipm6skDRmAaAuA6WtXLvauJVpSfCmfE18sQkDMAIVAhgw9BZgkE+gpVyCXC1pSWdISZVkQQFTxc2egigq24TggB0lIed6u3ZimSqt8TVOlceeqtav6xYBYE1NjeayNydnaVWubYnWIVdEYayJWX2qKuBh3OsUjj/v3j4HxbeW9LgBcUsaU6Bi3OxKP+jF3O3e4FHdjUu1J2ye/+37Z88XF/9ewAyxdqp0/zp/XTvEQ4ndoVL76ua2CMGt1u9qTB6tnQVnu2QO0w6yRI2svn754efbsn7LWTn1EOyAQXNzwZtfWNpP+1Tcl8P3F3x/C76h8l6QnqJdAkA0qB9mUQCIAACnOqCUuIJCZK6mf2uyuAKERAZKqRgEyPbQVINdooAAVvY0WoKrRSpnIG4SONncxaXZczIxxTsx19EysmOR9VtUxMlvTLUX/6eXMkfDsTcXwIcOKCcWy0gzzUcvqxGI76XcmjfTHk/Y46ohTdttlv1NCOGFxedphczR+ti8qDDfEMIUJiuP20VlD2Qkn7Z9b5+tMVNxP+zmjT++P20mAEa90NiNSZJ2O7jy1fe/RI4O9NhjsthO6TCwXBQAAAA==");
 
 export default OctagonCheck;

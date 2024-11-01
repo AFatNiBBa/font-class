@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cable-car` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cable-car?s=solid cable-car}
  * @preview ![cable-car](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cable-car.svg)
  */
-const CableCar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM160 56a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM32 288c0-35.3 28.7-64 64-64l136 0 0-66.5-203.1 42c-13 2.7-25.7-5.7-28.4-18.6s5.7-25.7 18.6-28.4l232-48 232-48c13-2.7 25.7 5.7 28.4 18.6s-5.7 25.7-18.6 28.4L280 147.5l0 76.5 136 0c35.3 0 64 28.7 64 64l0 160c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64l0-160zm64 0c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-64 0zm112 16l0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-64 0z" />
-    </Icon>
-);
+const CableCar = createIcon("cable-car", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABkAAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCYAsGAAE2AiQDCAQgBYMtBzAbYAXIHomxLZrtiyjcbRFUtsqsnjmafYZ5IN4nRo9RAGjKE3tsKnxiU/Z2SO07vgL2n7ic/jh/+vNp9Chj29SNC+i/vTWBzvMum1MkCyyTBLzBeZMOKUOhfQd5fJJdU0d6Pn2Ph/aHxj86u0bSlAGIVgCYuX71Ul/+GD9GfFeT+M5iBMRMUApkyNBNgKkygW5yJXK54Meo1dh/YEkAUc99eQI5GvEILwFykNTnedu2I1u1aVWpa56vU6sV+++2j3japXZPFXc6PBOXOz5bWQO0CM60FrGfuObFIREfDqhExJp4q8sLA9bH+ni38/N914SoxNuD3u8snhv4Xt9m8c7gD7pE5al24un2lXi2Y8QzHYq1QlmJvnbr5Qq9P2j1wX98v+97Pb9ocYtbLaIiNunihOZ6fxStaf3aLbN8O8jKPe3n/jGC2nHVmn7zfhhiiVtea926eE3RuvVr1SK3+mOLqhY/ViXY8ZbVarVJ17iHLYcfBwJBx6/OlNtbTv2/sZLAzx83OrO2JqX0ARolEGRDa0NtSQaAY8V+BXFObzhPgeSWk/yuzTwjQCgQIKlXCJDpqpUAucIQAer0ME6AeoXVMpE3Ce1sLaikmZNUZrzzVK6dj6g6U30V1msX2YMpPFbCb2HqvCo8d1Y5avjIcnLZW5SJzxqnh6eUk/WB53jTILjUPscdc8Zeexx0poKesjQ566h5Q8hcX1QaZbiRSpOViys3F6+z1ymnHXTcMWuaKcrt7YHODXceBK3EpR0tlSQiNX22wbDdO08B");
 
 export default CableCar;

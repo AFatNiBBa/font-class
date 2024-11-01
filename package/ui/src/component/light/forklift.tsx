@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `forklift` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forklift?s=light forklift}
  * @preview ![forklift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/forklift.svg)
  */
-const Forklift: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 0c-17.7 0-32 14.3-32 32l0 128-48 0c-44.2 0-80 35.8-80 80L0 384l0 32c0 53 43 96 96 96s96-43 96-96l64 0c0 53 43 96 96 96s96-43 96-96c0-28.4-12.4-54-32-71.6l0-56.4 0-28.5c0-4.7-1-9.3-3-13.5L306.8 18.5C301.6 7.2 290.2 0 277.8 0L160 0zM128 192l19.5 0 94.8 87.5C248.2 285 256 288 264 288l120 0 0 37.5c-10-3.5-20.8-5.5-32-5.5c-41.8 0-77.4 26.7-90.5 64l-74.9 0c-13.2-37.3-48.7-64-90.5-64c-24.6 0-47 9.2-64 24.4L32 240c0-26.5 21.5-48 48-48l48 0zm136 64L160 160l0-128 117.8 0L382.3 256 264 256zm88 224a64 64 0 1 1 0-128 64 64 0 1 1 0 128zM96 480a64 64 0 1 1 0-128 64 64 0 1 1 0 128zM512 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 416c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-112 0 0-400z" />
-    </Icon>
-);
+const Forklift = createIcon("forklift", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABlwAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCZgsGAAE2AiQDCAQgBYMtBy8bZQXIFkpL8L3O9/dcyR5HCoNC7LwQ8GcCp/yEHWDRAFeM83/N5/f8qEA+H8GhRVnUoniNH5fpE9jzUQW2RQFFgU0UtzvbwcoiJceilEH61XJ8MnDoLCCPv2OcGunO9C6uD18aX+vjEpI8AxCdAbBw++a1Xv80Po149/9niHetRkAsApVAhgz9BZgjE+gvVyGXCz6N//+3/4EVAURdfLQEcjRwEx4A5CCp53nb4LJDh65lrUO+rawVu6/qHnELUcTTo57oL8S9o5+c+tzYfYNKdt43Jmx6Yc9tcdeIYktZlFvj1rIMcVvxyKgnehdx15jWiFU44u5et48st24jJcLFb41i67NjWhiY/szoJ0eaprSv4MNv63lL9xS39iDl9l5uR0VkQ1qdW98Ofvewd93/WscruKLjBZo6H7otblBptFoXXJDsxgIeX349Q3+N4Ud+7sLmaYNe6x4OsHe729ufYYSvuvxwwol3r7bvxBN+2HDbEbL3Pmw2L59/+P5m7gVOc/gnTtv+SXPCoEETmrlIBd3/QcdPP+34ACAv8GnH65zgBiAQtG0e++f+neb82igT+PzF73+FW///erogtdCQQJCN+3+cPekCQA0glOI0Q4QOBpKr3POttnebAKFAgKSuECDTT2cBcoWxAtQMNFWAusJmmcjbCd3tLSBp70SQmeZckOvuKVAzxxvBuu6R6SanWdzPMHnZkaXtqkkTmtWsqpvAvLox1Di7mlZHnVbBaJjoMMc7zikOdYgjnTLsJGsjpzrWMgld6ocqk0zQVJml2k7fjt7mUCc52ZGOd5xvZbbqvHeU0+Tyo8FIIm2brkkiUuOw4086+v0C");
 
 export default Forklift;

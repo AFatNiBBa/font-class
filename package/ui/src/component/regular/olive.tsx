@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `olive` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/olive?s=regular olive}
  * @preview ![olive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/olive.svg)
  */
-const Olive: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 432C98.1 432 48 381.9 48 320c0-79.2 37-138.4 85.9-179.1C184.3 99 243.7 80 280 80c13.6 0 31.8 7.5 50.4 19.9c8.5 5.7 15.7 11.4 20.8 15.8c2.5 2.1 4.4 3.9 5.6 5c.6 .6 1 1 1.2 1.2l.1 .1 .1 .1c.2 .2 .6 .6 1.2 1.2c1.1 1.2 2.9 3.1 5 5.6c4.3 5 10.1 12.2 15.8 20.8C392.5 168.2 400 186.4 400 200c0 36.3-19 95.7-60.9 146.1C298.4 395 239.2 432 160 432zM0 320c0 88.4 71.6 160 160 160c192 0 288-181.9 288-280c0-56-56-112-56-112s-56-56-112-56C181.9 32 0 128 0 320zM271.1 208.9c30.3 30.3 69.6 40.1 87.8 21.9s8.4-57.5-21.9-87.8s-69.6-40.1-87.8-21.9s-8.4 57.5 21.9 87.8z" />
-    </Icon>
-);
+const Olive = createIcon("olive", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABfgAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCEwsGAAE2AiQDCAQgBYMtBywbDwXIngd2w8crXEoaXnyiTFg8POj1/blJ5i2grKSK5Jcw1ac7AN0iGYX/8/3zP2lC7Of/XLp4Psrn32hoUZY6kAIZZT6fwMTCdkFHZwcUBXamJ2C3O82BCPskrS2SHJ8dnyNkcWOcVSC5PnkHZ8qHxq/qOEiikAKIygAYPGXCeMWv4quIt688TbxtLAJiMMgFUqSoL0A/qUB9mRyZTPBVXNn9B+YEECXwvAnIUMAKbAFkIJFmWedG1coVKmST46ayU55pE/FAwzs7Ptr3xZ7Plru79dU1ArSPjqsj1BMqy066v87e+je1e6jXc8Mmf9o/4uVJn094f8qTcUPdG2peY5db3NPi+KhPBn0wccH9zSPurnWtqLZ5QHjQ6lfVub51kwcqP/B77yx+x62V/sLlSmV3rpy1evXu+oN6Y3PjKgBEUKXqEu2y+j/+8MOnr71+W2ti6Du8MzTmxF83GrTyX7zx/pdcuuhU0ZVBja5UijkVV28+xKbf3ps6ZcnmTYfaZaZMXQIEgk2P3lJ+TqV+/5cul4BvXjDzK7ryVRSTB1BaAoK03ZV2ZkYRoigAAEls1iSKCCQWSOG1lneNAKEsAiRKlBUgVU9lATJltRWgoKHuApQoa4JUZGWE6mYNkChvHUj1sAtkqnsSFPTzul2ieqQax+sL/+FLGUHR4VN55w6d8j75NNAFJWLTsG++rbXa7AutYdVia6y20SILLbOR4OuN9zZZZcQKG+6Lcp110Emuj/w4ns9Ptsh6Gyyzxuo8pq/8vtXK5nV9azATyNiFP5EQSWHNgwQAAA==");
 
 export default Olive;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `map-location-dot` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/map-location-dot?s=solid map-location-dot}
  * @preview ![map-location-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/map-location-dot.svg)
  */
-const MapLocationDot: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M408 120c0 54.6-73.1 151.9-105.2 192c-7.7 9.6-22 9.6-29.6 0C241.1 271.9 168 174.6 168 120C168 53.7 221.7 0 288 0s120 53.7 120 120zm8 80.4c3.5-6.9 6.7-13.8 9.6-20.6c.5-1.2 1-2.5 1.5-3.7l116-46.4C558.9 123.4 576 135 576 152l0 270.8c0 9.8-6 18.6-15.1 22.3L416 503l0-302.6zM137.6 138.3c2.4 14.1 7.2 28.3 12.8 41.5c2.9 6.8 6.1 13.7 9.6 20.6l0 251.4L32.9 502.7C17.1 509 0 497.4 0 480.4L0 209.6c0-9.8 6-18.6 15.1-22.3l122.6-49zM327.8 332c13.9-17.4 35.7-45.7 56.2-77l0 249.3L192 449.4 192 255c20.5 31.3 42.3 59.6 56.2 77c20.5 25.6 59.1 25.6 79.6 0zM288 152a40 40 0 1 0 0-80 40 40 0 1 0 0 80z" />
-    </Icon>
-);
+const MapLocationDot = createIcon("map-location-dot", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgAAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCDgsGAAE2AiQDCAQgBYMtBzcbFQXIhiBej/+fPckFnEfqEywFt3LLSpj/az6/50cH+PkIDi3KUhsj6TBjez6BCZU3bYBtw9lEceYts2yUsm9mokl6/O7xbQd5fJFdoIR0a/oQV48PjR90uICkIgMQ9QCYt2XDKq9+G99GfPD/U8QHViAg5oFCIEOGbgFmygS65QrkcsG38f//8h9YEECUsmsnkKMMB+MEQA6SkjzvaW6sq6kqqck312jlwbeMjHiwxIbeUHlZ6/2jH5aTO++Y88qSt2a91G/TzW3nxs2xJW5uubElxQ3NGyPb79YO54Xc0A2tN7VmcXPblk0PLBCbI+K1YfdVXT5i8z1dt3feNvjO9ls6bh3U//76+3/q9+FBH7p5SdVABp7HsfnmiorN+bHnDRxYlRoaioJfJJWtWbYsQhw/ypsX3VRdp+6ja6YZ0zJr0vHLlv3jrPHeuOjGmlp1H5829qXXDvenVyZ7ncNTW1sa8sTex6+//vG9ejkQCHrvOCH21M38tbwqge+f/+UPPd//b6W56X6USyDIRv4/0s40FwgdgJ3iJP2TLwoke5Swd612kwChEgGSUpUCZLrUC5CrNEKAEr0mCVCq0gaZyCuEZrscJNWOBZnJzgS5Zk+AEjO9Y5VqjgxvJFrI317c4ggtWlaMGz22mF5sE5OCEN7mZxTHwtCTtDGMtjrI0Y5yggMd4FAnBOQ4q9wTHWlxBi/yQ4VxRhurMF1xnb+u3+xAxzneoY52VF9khuK9MtRJef8wkhPDHG9lkohUf+S+Y0ZB1Rx1wNEnAAAAAA==");
 
 export default MapLocationDot;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-to-portal` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-to-portal?s=light person-to-portal}
  * @preview ![person-to-portal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-to-portal.svg)
  */
-const PersonToPortal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 224 56a56 56 0 1 0 112 0zM179.4 116.4c-12.7-3.2-26.1-3.2-38.8 0l-1.5 .4c-12.3 3.1-23.7 9-33.3 17.4L53.5 180c-6.7 5.8-7.3 15.9-1.5 22.6s15.9 7.3 22.6 1.5l52.4-45.8c5.7-5 12.6-8.6 20-10.4l1.5-.4c7.6-1.9 15.6-1.9 23.3 0l16.9 4.2L153.2 257.9c-7.3 21.8 2 45.7 22 57l93.3 52.5L224.9 490.7c-2.9 8.3 1.4 17.5 9.8 20.4s17.5-1.4 20.4-9.8L298.6 378c5.2-14.7-.9-30.9-14.5-38.5l-37.5-21.1c.2-.4 .4-.9 .5-1.3l37.2-111.6L298 253.2c5.9 20.6 24.7 34.8 46.2 34.8l55.9 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-55.9 0c-7.1 0-13.4-4.7-15.4-11.6l-20.3-71c-4.7-16.5-17.9-29.2-34.5-33.4l-94.5-23.6zm83 53.7L218.3 302.4 190.9 287c-6.7-3.8-9.8-11.7-7.3-19l36.2-108.6 42.7 10.7zM130 314.1L101.3 384 16 384c-8.8 0-16 7.2-16 16s7.2 16 16 16l85.3 0c13 0 24.7-7.8 29.6-19.8l23.3-56.6c-10-6.7-18.2-15.5-24.1-25.4zM458.5 444.2C445.6 480 433.6 480 432 480c0 0 0 0 0 0s0 0 0 0c-1.6 0-13.6 0-26.4-35.8c-9.4-26.3-16.8-66.4-19.9-124.2l-32 0c7.3 140.7 39.7 192 78.4 192c44.2 0 80-66.6 80-256S476.2 0 432 0c-41.6 0-75.8 59-79.6 224l32 0c1.8-75.3 10.1-125.3 21.2-156.2C418.4 32 430.4 32 432 32c0 0 0 0 0 0s0 0 0 0c1.6 0 13.6 0 26.4 35.8C471.1 102.9 480 162.5 480 256s-8.9 153.1-21.5 188.2z" />
-    </Icon>
-);
+const PersonToPortal = createIcon("person-to-portal", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABtAAAAL9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDVgsGAAE2AiQDCAQgBYMtBzcb3QXIngemm4v0D1fcuE4lDFe/dRtF8LAOvnm7+6kESE1ygnFqcgnn/7Puu+8TSzPN2QSndftxZYcybZEdwTy5wPKPILt1ohDyLCoIOEtSSjDq5NL4x58e8IweZS363T1trBmvQEHH1KZE1RkvSAkqYB2cN+IAQ2JIv0IW98gDOUgO8ljAdveg8R9MrYFElgKIwgCgfR3Y2+NHeiR6zx0B8R7pCIgOgHICKVKUEqCVVKCUTDlkMsHPxM3+AzMBRE7B/SQgQ248BfwMgAwkcmZZngId5HqJ+YQFsiFyYd6RE85nTQ84nDPLN+50zuGMyUHHs87nzQedcygeiwa9YtBwr3HfGDHOR/sNK0cBjRruNRwcBWMFQ2PCqUXoCPstaSpwNma8zygvxWuHxLjTkMGDhg6qQsNeCSyofHlpj8EuYt5+3rwh840/YBCdqFHQypBwX9pndqxIRt95bjnf8L9W/OC3H3DO53KBnH7wnjDeb7iKMBfuNb1SeOdjd0lz6d2WLWPBHcP+/UvEmTmFdm5udtT8xibDK1YsrNKPxKXNa6eR1p3i4dRVPipO7drYvxl/1Fxav1vGvdWw0pmoVOdHzJZv5meV6ucQnGhRrIuN+xjj3Mbuq83GbSy3rDjLpTU9Fp2BPHjRuxai3S7Hv90purEGWAQALBoH3wSFNsgxNaPnZ23VCJt1jKgq8pWXn7bYIJ1jMVZaD4DCffHGWGzUVh8IBH84LfFL1BH/Egn49fzzP/8R4v/LQ3IJkFsCgrQWl1EBSAgAQBJLUCGAQOKu6+POb9/ezJAXwRU5WwyDVEmFIZNXTcihjMbUyv0DpSLLIxQ3GkIiv/mQamIpZIq7Bjm08iqRU/HEv6eZO5L5o0zs0kY6ryrnW6deuRblJhtK9jal9GLLcqsVlyV8oDo8a4q55lhkskmmW9TCFuidXmy2LnNoZx9UTn111FNOC+V2t+8fH2KyBRaabq45dpmWyp3vrmbJ/PjqUE8EuA1UJBIiKfwKhGrXz639DQEA");
 
 export default PersonToPortal;

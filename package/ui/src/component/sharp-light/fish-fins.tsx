@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fish-fins` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fish-fins?s=sharp-light fish-fins}
  * @preview ![fish-fins](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/fish-fins.svg)
  */
-const FishFins: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272 32l73.4 64.2C499.1 102.2 576 256 576 256s-76.9 153.8-230.6 159.8L272 480l-48-32 7.1-56.9c-30.6-15.3-56-35.8-76.3-56.2L32 384 0 352l48-96L0 160l32-32 118.7 53.4c20.8-21.8 47.7-44.1 80.4-60.5L224 64l48-32zM534.9 249.5c-8.8-13.2-21.9-31-39.4-48.8c-35.2-35.9-85.6-70-151.4-72.6l-11.3-.4-8.5-7.4L269.4 72.2l-11.2 7.4 4.7 37.3 2.8 22.5-20.3 10.1c-28.7 14.3-52.6 34.1-71.6 54l-15.6 16.3-20.6-9.3L39 166.2l-.1 .1 37.7 75.4L83.8 256l-7.2 14.3L38.9 345.7l.8 .8L143 305.1l19.7-7.9 14.9 15.1c18.4 18.6 41 36.7 67.8 50.1l20.3 10.1L262.9 395l-4.7 37.3 11.2 7.4 54.9-48.1 8.5-7.4 11.3-.4c65.8-2.6 116.2-36.7 151.4-72.6c17.5-17.8 30.6-35.5 39.4-48.8c1.5-2.3 2.9-4.5 4.2-6.5c-1.2-2-2.6-4.1-4.2-6.5zm12.5 20.8s0 0 0 0c0 0 0 0 0 0zM416 232a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const FishFins = createIcon("fish-fins", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABjQAAAKbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCagsGAAE2AiQDCAQgBYMtBzAbagXIjsN02ymvZK3BSIzESzw8byf9uW8mWUBZEPqsIHXfpdyyKANBrLXdN8e6qEa1+ENjyAzdGqHRPZNMIqHzoWL5pk49z3kogG/JFgzK2Lg0IAskNOd5BCKWtDiWFuu1Yq2gUvbuzfasmDJJJDOapOObjq8T5PGz7RRID0Nfw/XypvE3jTiDJM8ARE0AGLk9e6pPS1HSr4O3iK+ZDAExCigRyJChKQGGkAk0JVeCXC74w6CM/4ElAogivi6BHEXcgqehfwNJnued59OVqhSq5fPShcrrN+fN/XbqN11fctIT7S9O+ZwzJwbZ2vdb59jJ+c6zs3N9Zb7WwTtnnZ4f9P64VNR3mnVtZiPb+G5zXds5z4i51rOuc6znfNtbz+dG2trQptZzug2sEp+NfdD5hSb3GxDjXv1GhxFx8tB5540etHm68aPtW93UfP7fmq/Xfa3GkzNTYWMh2nbw5E6Y7M7JYFvBqT2UbeD7r0M9KOterI8v29fPn8ldysUfPx59YWMjVXGe7TzDGNoyiaeeAwNY1Q5t59nK1v4k1rXQn/94cX9OW8bwDNs5TxVpzsajL3xIqF1xC8CphplVVasJDYirHj3dGy7mh/xXrJLAX3f/f9P9yn+k6dDzUFECQdYl6GJJaARAYgBein20Mj4okFwix69a1T0ChMoIkBRVFiDThJoEyFXWmQAFzelLgKLKZpOJvJJQl6UTJFXtBJl+HAW5urwBCobwmVtU18w7Jd+S/obp4yQ0dqnU09ldPVq9jAzZ4QSajlVvG80HsdICO61jO9vYw1rWsJE9AtnF1GAvWxlnwWP5IiV60o0elBhE6Thdr89jLbvYzUa2sy3PGUzpvtOBfXZ7R7ATZu1FKElEqvTOtK7N3LYbAAAA");
 
 export default FishFins;

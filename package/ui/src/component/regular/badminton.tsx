@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `badminton` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badminton?s=regular badminton}
  * @preview ![badminton](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/badminton.svg)
  */
-const Badminton: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M228.9 100.9C193.7 136.1 176 180.4 176 221c0 31.9 10.9 61.1 32.4 82.6c48.2 48.2 138.8 43.5 202.7-20.5C446.3 247.9 464 203.6 464 163c0-31.9-10.9-61.1-32.4-82.6S380.8 48 349 48c-40.6 0-84.9 17.7-120.1 52.9zM194.9 66.9C238.5 23.4 294.8 0 349 0c42.8 0 84.9 14.8 116.6 46.5S512 120.2 512 163c0 54.2-23.4 110.5-66.9 154c-56.3 56.3-137 80.2-204.8 59.8c-27.3-8.2-58.7-7.8-80.5 9.7c11.3 12.6 10.9 31.9-1.2 44l-72 72c-12.5 12.5-32.8 12.5-45.3 0l-32-32c-12.5-12.5-12.5-32.8 0-45.3l72-72c12.1-12.1 31.4-12.5 44-1.2c17.5-21.8 18.1-53.3 9.9-80.6c-4.9-16.3-7.3-33.4-7.3-50.6c0-54.2 23.4-110.5 66.9-154zM104 398.6L54.6 448l9.4 9.4L113.4 408l-9.4-9.4zM512 352c26.5 0 48 21.5 48 48l0 32-96 0 0-32c0-26.5 21.5-48 48-48zm-50.3 96l33.4 0-15.8 52.6c-2.5 8.5-11.5 13.3-19.9 10.7s-13.3-11.5-10.7-19.9l13-43.4zm34.3 0l32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48zm32.9 0l33.4 0 13 43.4c2.5 8.5-2.3 17.4-10.7 19.9s-17.4-2.3-19.9-10.7L528.9 448z" />
-    </Icon>
-);
+const Badminton = createIcon("badminton", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABkwAAAKLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCVgsGAAE2AiQDCAQgBYMtBzAbVgXIBp7n8/LPfUmVmXrQOgX9AWBLcict/8z/NfXi+VH79zvhQ4u00uJc4ChTS2DAUbrG2YDSZxPFWTu7hUGvH5TgE59k2L4MkyPQ5aUsww3UenULWBofSj4TzCxQuGkAAIgfAABQ1bZlY869k3ciN12HQW7SEBAAqQLARAAN88MQAErREHkEOiagoyPwTlwu+g80QQBA3OEjFQA64AUsBNYA4w4AhYeu+xd4+VsQuHnrbdKnGR3vMS3tdN2rTR/K9PQTxoJm5WdLRE5anjY+32pa6q7SU7Uu1dkSuyl2NdNsrWSVscCRLGtkurOtrLUstG8M3RiyQaZn7K1o16xlM7u0FEfPzXaR1cGIISIbnWsTWlkMiymrHGuckZYKwdjWOCQIl9W22X7R0Tv8dnyNutXnFp861K3M+tlz1szIeMvIrMpR/gyDYUnVRL6jOsnDgx1Dh5bXqaqyjvO2zq9bl3Xe3utczHdiV2i1rj1ns/fqG7J1bYeGwDxg3tr0zFdwWzPphol2+1VmVtcoZv+h0YdL6TeiTU4mPu/e+WRG3e8G6Zc+NPoDAAIIfL4Yvq+rb+lfT4sC4MOJ7//I17nOqGq1A/BEASCgpbpS6aQqUaD/owich5IxROObEEAxEw/wqFbWIAAIBiAAKNwxEAA0QvFDANAxSEEAcCOCPAQAdwxaoiG6F4KNzg0orAwHGvlMBjo2DgI3SrkaumMTzSYli5J+hOl1JFp7lpmVnmkWm8uiIpuZEIZLzG0zcYxvSsJO+jCUIYyiN73ozyiBj6BxMprB1NGw2vwQkyzSycSkGPO48ri5Db0ZwUj6M5QhNE0J5n03kTF65yQ4CubNZq5CgSivHt17DX5NxhAAAAA=");
 
 export default Badminton;

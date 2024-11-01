@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dolly` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dolly?s=sharp-light dolly}
  * @preview ![dolly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/dolly.svg)
  */
-const Dolly: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M24 0L8 0 8 32l16 0 76.5 0L211.6 365.4C190.1 379.8 176 404.2 176 432c0 44.2 35.8 80 80 80c43 0 78-33.9 79.9-76.4L565.5 351l15-5.5-11.1-30-15 5.5L330.7 403.4C319.2 373.3 290.1 352 256 352c-5 0-9.9 .5-14.7 1.3L127.2 10.9C125 4.4 118.9 0 112 0L24 0zM256 384a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm96.8-201.1l5.5 15L388.3 187l-5.5-15-19.2-52.6 60.1-21.9 54.7 150.4L328.2 302.5 273.5 152.2l60.1-21.9 19.2 52.6zM232.5 133.1l10.9 30.1 54.7 150.4 10.9 30.1 30.1-10.9 150.4-54.7 30.1-10.9-10.9-30.1L453.9 86.5 442.9 56.5 412.9 67.4 262.5 122.1l-30.1 10.9z" />
-    </Icon>
-);
+const Dolly = createIcon("dolly", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABegAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCHAsGAAE2AiQDCAQgBYMtBywbGAXIHgPuCmRrLYNsLQqvqkJ0uxFE+/1m793HvHm1pAmvqhWaWYMQSdpIjVB+aOCVEvD/fxzeN4h/gNR2FhrAJLctVIiJiaDIPP391B/nFefP6KP93iwb6zyieQID3Gg3i/YCSp9NFGft7H75QbjBIkn5JKPth9ViBznewhDcpGeOwV16qPgjrxlIcgEgmgAA05sRQdg+pdOg8v8CRFkACIgZAD0IBS7RgcAYToEOXHpAlgXf9P+v/4EMAogKJBKfn1GBA3ADIIMk59wrLC0vyF2fNwS5a3YFBGtEbe02LSv16k1aLRlMK8aQLCmQFEVSl/aYQFLx1CYjEDcq3ynXoTmm0KXYrRMjLSOtQzJkTgEURZEUTQFkFi2vIB9F8qRDMUIoUDSuSZGz1afEpp7Uzi6TfRVDCoPYfHEgZM25WWKI3Fe9inSJDdn1OEyLk5MCb2lZFOxeYm9uX66Xlq4H1J26u8BV9wXTNA+re7Raw+oBC9C8NutlqnUbZrGPNusizML63rw3v8M9AIFgdiHeOkXU8UttAr+rL2/5PP/byYtjClAlgaAY+DeUmFwN6Hss6NbRuII6vkkg2cOFj1rnAQRCDQIkFWoEKLQTQyCr0Y9ASRcrBCrUWMUpcrXQJqmBpM4pKIxqAlmbOVAyZidWoS043U5xGuXRl8m7R72mMTNjU2bPpkVV9SQpDDuwZYtutTbpYSmylShWKUumPJUdUy4oWaWIt4V5+SHGjDFTjD22XXlcHC1LuQp5ShTHSRyw8wFd1XZnPdg5UHRQTpKIVPojwFwH");
 
 export default Dolly;

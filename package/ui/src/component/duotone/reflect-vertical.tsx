@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reflect-vertical` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-vertical?s=duotone reflect-vertical}
  * @preview ![reflect-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/reflect-vertical.svg)
  */
-const ReflectVertical: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M98.4 19.8c-5 12-2.2 25.7 6.9 34.9l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c6.1-6.1 9.4-14.3 9.4-22.6c0-4.1-.8-8.3-2.4-12.2C408.6 7.8 396.9 0 384 0L128 0c-12.9 0-24.6 7.8-29.6 19.8zm0 472.5c5 12 16.6 19.8 29.6 19.8l256 0c12.9 0 24.6-7.8 29.6-19.8c1.6-4 2.4-8.1 2.4-12.2c0-8.3-3.3-16.5-9.4-22.6l-128-128c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9z" />
-        <path d="M0 256c0-13.3 10.7-24 24-24l464 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 280c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const ReflectVertical = createIcon("reflect-vertical", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcAAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBOgsIAAE2AiQDCgQgBYMtB1wb6ATIrgpsY9rQFUFK2hDFYZk2/2qPY40P0IShtARPc5/zdpMcAGpCdVwAMqpCsUIStlX2C18iXZ2rNd29/zDImygmnbg4YHBxLBzZFG1dVR2rCtNa7Wgv7CRoni19NbDGkwAtlBCVS8FkyCNY/IDvCjFQbB3y9T5v6uZ551GAbxTaWLg0boPPeZ5AoGN6mOdLKNMMLHWbz4fzYhBB9UeOoc1gMpmdQ2GDIn7zfZSk96YBnsp/AOMf2pC0ZACIbgBg78qFU97+fU7xU49oOEBA7ANMQ2RkjEOwiREYx5oGCoXgM6lrPmNdT4MAogI5cwYVSuwARwEoQBJSwUo0A6JSwqbaSiFehyTueKriuM/5kvRaH8a0t3InXLo4bom8b5J4KM2elDf2gU94RcOze/400vA0594dyK2ofvTTrVtOHR2nho4dlebuBrt3TzLcjqN1iL8agEDws3s7uzb/NysB+Pra/CGpL0kfQLMEgjxXzykkkAgAQIoVQ4IbENkMQp/a7o0AoRUBkkqrANkYOQSFVrMQlCb5IKi0uoARhQBCv2IFSbubINuwBoV+L6C06V2r9EeGEQEC4hMXe1joUNP0sjtpmJqWQiID42qELnNzdcREq1rGRhaaGroWIDNxc2ko5sFRL6Jc7JyoMBp279kU2sxcd07H60TQ/ZLRyk83kUgo6oqRLBMJGf01kjj/wCQxmTw6pA8gAAAA");
 
 export default ReflectVertical;

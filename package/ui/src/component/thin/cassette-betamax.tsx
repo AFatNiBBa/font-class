@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cassette-betamax` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-betamax?s=thin cassette-betamax}
  * @preview ![cassette-betamax](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cassette-betamax.svg)
  */
-const CassetteBetamax: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 144l0 272c0 26.5 21.5 48 48 48l448 0c26.5 0 48-21.5 48-48l0-272L16 144zm0-16l544 0 0-32c0-26.5-21.5-48-48-48L64 48C37.5 48 16 69.5 16 96l0 32zM576 96l0 32 0 8 0 8 0 272c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 144l0-8 0-8L0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64zM240 304A80 80 0 1 0 80 304a80 80 0 1 0 160 0zM64 304a96 96 0 1 1 192 0A96 96 0 1 1 64 304zm96-16a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm32 16a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm160-80c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16l0-128c0-8.8-7.2-16-16-16l-128 0zm-32 16c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-128z" />
-    </Icon>
-);
+const CassetteBetamax = createIcon("cassette-betamax", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABtAAAAKsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDOwsGAAE2AiQDCAQgBYMtBzcbwgURlZoxyX4kxs6QJeqNGQp7tMKRoKfXWfX7kl0emYdQCwwYAVLlqNoUI6A7D55bWAlOfQrRFgUS5wfA1KnnAd7+nADGYxId0yYtkDF5dS6BnhewmHgn9SpQC9Yqij3b9uaIeIg3QmFcgK03DMUHZpd5AWwIPdUnslgKBssCAEAxAACgUY8u7bjjyZNeJC6iF7QBBKDGALgIsAALyEUA1MVCQC42LmBjI/CUSIj/QBcBgPzEPTMA2EAQuAU8AgBsAAxJth2PFw/nJKXEsoO+sN096HP6GMvsStPFuE5k2BysiKKRqLQ73RRnOpqqMsEEBEJGO0uOokzHS69srPiJPWV2Ca5jpWaW3F/71Ty5udat8xWQRTnL7y/Rg2uK1SzPwkxXtDiri7fsoB5bU3WazTDpYmEq1FZndbrRogwbXJOmQTqQ1KmkDiV1UnRWh5JmUFJHuwnlOGpR4dOx9aXQi+EviFaIxV3Wy7cV71Dx7Usrhhtz4wXGmFuhwD0fIEAMJx4/eIeDhePEMHS31OF1aMS0aSNCuO1M9g8P+47Nyhrb9+HD7MGAKAyIepGIl7ElIithZSSyknKggxdZSMSTKmmboytXFq8DIEBQYcrypwOidb8HggaAj9e+/aFPJzzT0JwGAhgABFbZRNm+piEAJgsAQqPpFN74IgGGSyQRf2qI7QgA4QACwODHQQBY5BBDANg4lEEA+MinGgLAj0MXLGQnIVLp1wFDiEnAojrzgE0q54GPujwO/KTKgmIRBsWPyDTWfAg1O+VWKl/Rre2uDjQSYPL2sI572Cg5XS6Uwp0MnzB+6rCho6YO4Mnt4mnjmm/Rmv3QrVS+olvbvTx+qnen4eQpo5al68fUcZ/3S07fXl8K24aYsXLZYEAmNuSPG2fqsHLvtzNu0EwAAA==");
 
 export default CassetteBetamax;

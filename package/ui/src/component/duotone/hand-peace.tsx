@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-peace` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-peace?s=duotone hand-peace}
  * @preview ![hand-peace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hand-peace.svg)
  */
-const HandPeace: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M34.7 76.8L106.1 240l69.9 0L93.3 51.2C86.2 35 67.4 27.6 51.2 34.7S27.6 60.6 34.7 76.8zM64 336l0 27c0 33.9 13.5 66.5 37.5 90.5l11.6 11.6c30 30 70.7 46.9 113.1 46.9l61.7 0c88.4 0 160-71.6 160-160l0-8.6c-9.4 5.4-20.3 8.6-32 8.6c-27.9 0-51.7-17.9-60.4-42.8C345.4 316 333.2 320 320 320c-11.7 0-22.6-3.1-32-8.6l0 .6c0 39.8-32.2 72-72 72l-56 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l56 0c22.1 0 40-17.9 40-40s-17.9-40-40-40l-26.1 0-69.9 0 .2 .5C88.6 276.3 64 303.3 64 336zM192 32l0 208 64 0 0-208c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-        <path d="M320 160c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64c0-17.7-14.3-32-32-32zm96 32c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64c0-17.7-14.3-32-32-32z" />
-    </Icon>
-);
+const HandPeace = createIcon("hand-peace", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABnAAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCZQsIAAE2AiQDCgQgBYMtB1AbhwXIHomxLYr9CPXtIh6e969/1z7nzjxA9wuO4A5iJ5U/VdzR5SStNRlhRJy0IfNTp57nPBTANwrKnjp1LAtmd8zzChR4LJveq0CFahoDq7k15mNCgayHDJFVJmPY49U9fr2giI/zdSqkh9O7uLP8D2B8Y8h1JE0ZQHQCYNPhB+/r9VrUUrxbR7xrHwTEZlAKZGSMCrBWFhhVKFEoBLVUr1OLer0kgKgqg0IGVTTgLjwCKECS5KIYGOhc3dlSaSsOa6k0n35Lb8R9xFV997fcOvBgRFzd/0DzoXfFow897NCWOCwe6Fd67+u9r+9I4dF1ffHK5n+x4bXD/UHzLf1PDde8eGjmM1Obff6DAy0RJxmTY+KJwYcGjxZaFt58S+99Jj/X+dx3vXvauzZMtN/ETe0bKcYYM22e40ehyRdtf+y45KCX7Xlh7/as2Wc0jciHim3P+W6T9bbEu+/GliZfdvf903LQ373dX4b2JUtqK9Xa2+stXc+/qOvF5w1vDxf9+FXjlQs+JHejD995HwgEjY9e0/Eda39rbEng6xd/WAek8frr8Xp6Do0SCPLc+lzHJMZtjNcFACDFZSYnURoXyI6SpW9t9YAAoRkBkqpmAbIRnQIUms0RoGLcMgGqmh0si6JJ6HVsB0mrC0G23OWg0GsvqFjrjaCqNzI2KWRRv4bx2y20bVu5aP7CcnX5WGo03Ih9fU3p1mdelsdm0RWnOd95LnGqU5ypmEEusm98qXNtn8Hb/FBpkfkWKq1Whpuv/GEmuMjFzhyz8U3WKNfbM102nz2LrERQF9uRZSJF7sayOA/q8jyUj/ee2Q8a");
 
 export default HandPeace;

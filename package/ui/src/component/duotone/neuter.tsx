@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `neuter` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/neuter?s=duotone neuter}
  * @preview ![neuter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/neuter.svg)
  */
-const Neuter: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M112 176a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M80 176a112 112 0 1 1 224 0A112 112 0 1 1 80 176zM224 349.1c81.9-15 144-86.8 144-173.1C368 78.8 289.2 0 192 0S16 78.8 16 176c0 86.3 62.1 158.1 144 173.1L160 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-130.9z" />
-    </Icon>
-);
+const Neuter = createIcon("neuter", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdwAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBXAsIAAE2AiQDCgQgBYMtB0gb9gTIjtMlNuIhNvHwsVb2fnfPAgahw4yKyQGWT8XFhR3Rgd46R6jn2dEiCQL09kH03BYffBennuc8FMAHgcx1HpAFPud5BCZ2Tqv3vIQllbJ3bxppkU1XZCWapOPJOs7oBVkcSc8okNxOPuA6/w9g/Kq5MyTKUwBRDwDjliyY5VVd1CXxobiJD2YiIMaDXCBFilYCjJQKtJLJkckEdUmxSF0UizkBRAn+SVJQggJmYwUgA4lEZFnLNtWVhepscWWhYsXJlhB3u6zKy52quTnRTDtmxaXO3cJj0esxES+X/Dj/2+Lv535Z+MOo55PEicZcebmpRKy4P+yO+G1j+Bt6WtHDevN7uw+bP5hT2+Znfn7woA0+ePDzz23a/Cwbrz/69TjHjIvp9Qh3fORdxh07/utpNRcu1IQDp+2prdpy6NCWKnwfCATjixtnTe3I/8sqE/DTkz//xc/VK76KvclDlElAkPYs9rQyTqinXuwVAIAkDmuvUH6m1DCJ9KzKDQFCBQKJEhWQaqkeZCr0gII2BuGTTyyQiqxcaGQVQKLKPkgNdhQyjTyGgpFemyUaRWpXlFVQr7r4yS0yqS/v17tvPjwfugptKkRsj8in9a6HMdUNrtpsj90O2mSjbQ422H6znEN2mayhk3xRrp/e+soNly8H9+cX22S/A7bZYzd1GSHfb3R1WC/uBotIAP1PhEAnkkhr/s03Nu3vZZ9yvZq9hwA=");
 
 export default Neuter;

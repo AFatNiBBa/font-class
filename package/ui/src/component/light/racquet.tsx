@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `racquet` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/racquet?s=light racquet}
  * @preview ![racquet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/racquet.svg)
  */
-const Racquet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M349 32c35.5 0 69 12.2 93.9 37.1S480 127.5 480 163c0 45.1-19.6 93.4-57.6 131.4c-68.1 68.1-168.9 76.9-225.3 20.5C172.2 290 160 256.5 160 221c0-45.1 19.6-93.4 57.6-131.4S303.9 32 349 32zm0-32c-54.2 0-110.5 23.4-154 66.9s-67 99.8-66.9 154c0 28.2 6.4 56 19.7 80.7c7.8 14.4 7.2 32.8-4.4 44.4l-12 12-4.7-4.7c-12.5-12.5-32.8-12.5-45.3 0l-72 72c-12.5 12.5-12.5 32.8 0 45.3l32 32c12.5 12.5 32.8 12.5 45.3 0l72-72c12.5-12.5 12.5-32.8 0-45.3l-4.7-4.7 11.9-11.9c11.6-11.6 30-12.2 44.4-4.3c72.5 39.4 169.9 17.5 234.7-47.4c43.6-43.6 67-99.8 66.9-154c0-42.8-14.8-84.9-46.5-116.6S391.8 0 349 0zM104 376l32 32L64 480 32 448l72-72z" />
-    </Icon>
-);
+const Racquet = createIcon("racquet", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABeAAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAgsGAAE2AiQDCAQgBYMtBy4bAAXIjtRe8cU0Wjz8v91/7XOrGnC1pMjgIAfdDLLfk86aTHhV/n5x6nnOQwF8oyCNiUsDsnyM7REIcLp9WkkKVtMCYNn6NhGfMqZHj4QEWUTH5/EGXSGPD6OLcqQ76T4ulTeNnzVynCTPAERNAIycNW2qz8qiLOJ+6W3ivskIiFGgEMiQoakAQ2QCTeUK5HJBWZRK7j+wIIAoj35hAjnKYRk2AnKQZHneYHClKuWq5TOrlKu86tzQjx1u+kyHx2O+GvZJHGnxfOcX+79bJc4OiHhvyEddXnK4650OdaN+3Kx8tu70uO5wvY5xo8q5BrPiVhypXz8axIttv5/17bRPu78aR0Y9nD67Y6eO06NTzGr1Qs0Xfml5f+V985/vv3xc/1ZPn9wf/avv+dn7zZq3KjpuZjMVKnTs3Pfd7EN93K5W7fb48c7g7Eypbo32oR779o+o+l/NVcvop9VH+XVXiYgklrSXQSC49efkTotqDPmtYpUEfvrgb+FrpPRZkl5ARQkEWZdSF/MTSAQAIMVOrRIEknkyZFZ1U9w0KyNQLa8ymJkmanbIVdYZymmuL7l5eJpM5JWEuhYAJFVtgUw/ByBX15tQzhDfauXVjczSaDuh33kJ4yQydq3o2a1HMaiYRpgxHjJOBxfbYoedvtIRLlppk422W2G5NbYLbKup5g4bjNPQsT6o0FM3PRQGKY7Tx9MzrbDVNmtssjEvGay4r3awU2/vCEpCuL34k0SkClu/yZdWbAcAAAA=");
 
 export default Racquet;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-winter` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-winter?s=light hat-winter}
  * @preview ![hat-winter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hat-winter.svg)
  */
-const HatWinter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32c7.2 11.3 20.8 16.9 33.9 14c0 0 0 0 0 0c0 0 0 0 0 0C287 59.2 292.6 72.8 304 80c0 0 0 0 0 0c0 0 0 0 0 0c-11.3 7.2-16.9 20.8-14 33.9c0 0 0 0 0 0c0 0 0 0 0 0c-13.1-2.9-26.7 2.7-33.9 14c0 0 0 0 0 0c0 0 0 0 0 0c-7.2-11.3-20.8-16.9-33.9-14c0 0 0 0 0 0c0 0 0 0 0 0c2.9-13.1-2.7-26.7-14-33.9c0 0 0 0 0 0c0 0 0 0 0 0c11.3-7.2 16.9-20.8 14-33.9c0 0 0 0 0 0c0 0 0 0 0 0c13.1 2.9 26.7-2.7 33.9-14c0 0 0 0 0 0c0 0 0 0 0 0zm56.5-8.6c-8-8-19.3-10.9-29.6-8.6C277.3 5.9 267.3 0 256 0s-21.3 5.9-27 14.8c-10.3-2.3-21.5 .6-29.6 8.6s-10.9 19.3-8.6 29.6C181.9 58.7 176 68.7 176 80s5.9 21.3 14.8 27c-2.3 10.3 .6 21.5 8.6 29.6s19.3 10.9 29.6 8.6c5.7 8.9 15.7 14.8 27 14.8s21.3-5.9 27-14.8c10.3 2.3 21.5-.6 29.6-8.6s10.9-19.3 8.6-29.6c8.9-5.7 14.8-15.7 14.8-27s-5.9-21.3-14.8-27c2.3-10.3-.6-21.5-8.6-29.6zM32 456c0-13.3 10.7-24 24-24l400 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L56 480c-13.3 0-24-10.7-24-24zM0 456c0 30.9 25.1 56 56 56l400 0c30.9 0 56-25.1 56-56s-25.1-56-56-56L56 400c-30.9 0-56 25.1-56 56zM162.5 134.6C64.3 188.2 39.4 321.8 33.6 368l32.3 0c.8-5.8 1.9-12.8 3.3-20.6c.5-2.9 1.1-5.9 1.8-9l8.2-4.1L127.8 310c4.8-2.4 10.4-2.2 15.1 .4l26.3 15c13.9 8 30.9 8.4 45.3 1.3l34.4-17.2c4.5-2.3 9.8-2.3 14.3 0l34.4 17.2c14.4 7.2 31.3 6.7 45.3-1.3l26.3-15c4.6-2.7 10.3-2.8 15.1-.4l48.7 24.3 8.2 4.1c.6 3.1 1.2 6.1 1.8 9c1.5 7.9 2.5 14.8 3.3 20.6l32.3 0c-5.8-46.2-30.7-179.8-128.8-233.4c-2.5 9-7.3 17.5-14.4 24.6c-.9 .9-1.8 1.8-2.8 2.6c40.1 21.1 66.4 58.5 84.3 99.1c5.4 12.2 9.9 24.5 13.6 36.4l-31.9-15.9c-14.4-7.2-31.3-6.7-45.3 1.3l-26.3 15c-4.6 2.7-10.3 2.8-15.1 .4l-34.4-17.2c-13.5-6.8-29.4-6.8-42.9 0L200.2 298c-4.8 2.4-10.4 2.2-15.1-.4l-26.3-15c-13.9-8-30.9-8.4-45.3-1.3L81.6 297.3c3.7-11.9 8.2-24.2 13.6-36.4c17.9-40.6 44.3-78 84.3-99.1c-1-.8-1.9-1.7-2.8-2.6c-7.1-7.1-11.9-15.6-14.4-24.6z" />
-    </Icon>
-);
+const HatWinter = createIcon("hat-winter", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABzAAAAMHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHCEMwsGAAE2AiQDCAQgBYMtBzEbNAbIngPuzkW0HFIiEohhnC2tyzJGAOlRs0kOfCoPAR1VUeW7gmqhZfUl4Pln3HvfBwd9SHF02tnpUJ5LU3KTQoHaHIpDWfrnp4mAdn5JAgUJhKFk0F1geaANJj6D5XstzPT3jt99W8tXkziUsa1ti9cYAp0HOLZ3/i3OAwss0DQBS52OPHUojMqQMkYQLKXsOKfH4x2ScFeSZBAdVzyCvfVFw3dsdiCSxABCUQDoOnr4QI8+5VPk5f8IL+lFgNANSAXEiFFRAB3EAipKpEgkAl/k/5f/wIoAhEwqdwQSZOEvhBiQgEhGkgz0FZcZMaoLklF7Tu74tchWKf7VUMe3bfCu1b8eZP9GGPieHd9xpHQuVx0Jn21yVR2yHbIeNx0yHY4cDl2wHLYctR91nDAfNc/YiBSEc7Zjwfxw3p7rOkMQZ0GA0dGnyPxwtsQ6/jYp4aqz8qeseeFo2FJG+puWqaaci7QHbUHtlL5iksOmU++XnHCfSV+vOVSFW+dil2zHbbXkfLCGHDK3M9DGzFtOOk4mrkSOmLdK+yrVDssuf/kexx/53zetAFpmABUbgO6PgVv9AFoU/zOG3wKw5yU/y4rO57+nNyJvGi8elFxjvWkausTQUtd2r/Y3/JtYLPknDas8y2aT8QRXz3HXmpJdQZksJ8v05WcYv7YY06ZVZe74MyyfnsVySVxBV5U69/j44rsf4XN19/Nk33/G/DPheFHG9k1Tj/5N89LX3d2fy4TLdUBA4MP0vnqgtK6gM0bg26mC/Yz4/yqILkO2CATiBv9JJkRARAAARGEV1SIERP6gpvF8Rwgz47kIJZApF/FYBUWHMpGrvjJDZS2NwdPDxUKSIyhpIpSRfEuVsVY2KhMl3VFm6OBJJFPJEH8B5vVr/gHN0YuhnpvSXDrrrfE+tnTLojYeq7XesCs6t43EcNMsiy2ywkwzzLWCuGUGxldaqJdH9PRGqaYaaSLVTprufneMIn6Z5eb6Lcqvo710fqCOVf70uvBGVGczRyMRIcqdM7Si4asEAAAA");
 
 export default HatWinter;

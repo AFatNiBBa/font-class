@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hard-drive` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hard-drive?s=sharp-duotone-solid hard-drive}
  * @preview ![hard-drive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hard-drive.svg)
  */
-const HardDrive: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 32l512 0 0 256L0 288 0 32zM352 384a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M0 288l512 0 0 192L0 480 0 288zm352 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const HardDrive = createIcon("hard-drive", true, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABeAAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBYQsIAAE2AiQDCgQgBYMtB1AbAwXIjtMF8yVDxj8e/n+/b/vc++aPGCoPkrgncWti2shTIZGmoYmQ/iJ6Iv/6Yp7/y+mN50cL5Bud4InsqecbfO3qeQIBZ/nERBIKJIIMLL+dz+IGJYskHc6dZNj+G7Z/hSK+5+vqSG/SNzxK/wMYv/R1naQxA4guAJi/Yc1qndWopvhWe098swoBsQCUAhkZAwSYJQsMUChRKATVVKtRjVqtJICoSC/MoIJ6rMEmQAGSLBVFY/fuFDfXtRbr6cmmaG9rF20Ru670injZdLfHc5d7vmi+1/tVLHduBLHLUtCyFU5U3ne5B/SclVmNtbFWVn7K0I4uHX+G3N9bdKJzh7bb3G4rpbBQGwUzI/geEAgWLZxxVPus/w3NCfz48O9n/R3VqknqQIMEgjyqNsrWBBIBAEhx3tAEBLKxsvyuLV4KEJoQIKloEiDrr4sAhSYjBagzyGQBKpqskUXRKPSwrYOkxSmQTXEBFHp4B+rM8jGt6BEZWSIuxB+7tCUcXXyqHD9mXDmj3JaaBBY+Hs4sj71h52k03F+03wnHnbXPXoecZfhpq4tzjlmiYYt9UGm8McYpzVBeN8/aepaedsYhWbk/ZqbyfTTMeX15uA+TTDvBmSwTKXI35BqjwWqNxui4x6h8jgA=");
 
 export default HardDrive;

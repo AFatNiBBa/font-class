@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-wizard` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-wizard?s=duotone hat-wizard}
  * @preview ![hat-wizard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hat-wizard.svg)
  */
-const HatWizard: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 480c0 17.7 14.3 32 32 32l448 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0L48 448l-16 0c-17.7 0-32 14.3-32 32zM232 176c0 3.4 2.2 6.5 5.5 7.6l20.2 6.7 6.7 20.2c1.1 3.3 4.1 5.5 7.6 5.5s6.5-2.2 7.6-5.5l6.7-20.2 20.2-6.7c3.3-1.1 5.5-4.1 5.5-7.6s-2.2-6.5-5.5-7.6l-20.2-6.7-6.7-20.2c-1.1-3.3-4.1-5.5-7.6-5.5s-6.5 2.2-7.6 5.5l-6.7 20.2-20.2 6.7c-3.3 1.1-5.5 4.1-5.5 7.6z" />
-        <path d="M168.5 180.1L48 448l416 0L355.5 207.7c-2.3-5.1-3.5-10.6-3.5-16.1c0-5 1-9.9 2.8-14.6L414.6 27.6c1-2.4 1.4-4.9 1.4-7.5l0-1.6C416 8.3 407.7 0 397.4 0c-3.5 0-7 1-10 2.9L240.1 97.2c-31.4 20.1-56.3 48.9-71.6 82.9zm70.6 86.8l13.5 40.4 40.4 13.5c6.5 2.2 10.9 8.3 10.9 15.2s-4.4 13-10.9 15.2l-40.4 13.5-13.5 40.4C237 411.6 230.9 416 224 416s-13-4.4-15.2-10.9l-13.5-40.4-40.4-13.5C148.4 349 144 342.9 144 336s4.4-13 10.9-15.2l40.4-13.5 13.5-40.4c2.2-6.5 8.3-10.9 15.2-10.9s13 4.4 15.2 10.9zM272 136c3.4 0 6.5 2.2 7.6 5.5l6.7 20.2 20.2 6.7c3.3 1.1 5.5 4.1 5.5 7.6s-2.2 6.5-5.5 7.6l-20.2 6.7-6.7 20.2c-1.1 3.3-4.1 5.5-7.6 5.5s-6.5-2.2-7.6-5.5l-6.7-20.2-20.2-6.7c-3.3-1.1-5.5-4.1-5.5-7.6s2.2-6.5 5.5-7.6l20.2-6.7 6.7-20.2c1.1-3.3 4.1-5.5 7.6-5.5z" />
-    </Icon>
-);
+const HatWizard = createIcon("hat-wizard", true, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABpQAAAKIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCfQsIAAE2AiQDCgQgBYMtB1AbnwXIjtFjRyRBLDIS5GAYB0c8/LtfeV+SyQKBJVLLspZAqKoKB+jqCPRWmJ4KPUbMqUUhv30/1t6emP5zXJInVWuiITEknX4NTR4i06XCyKnxxksFfORFOR/vx3b7IPfGB/YFOzsXawOayGY6A5u6KXnqIZZ6FZFusyLO41uPb1co8ZKfUYv0nvOMvOb/AYzfzNZIejIBxDARgPObpfkU7KCT4rm5JdrykIC4IMIyICNjHsARrsA8nmWkKIJOaho60TTLKICoxPlnUNGFz/gOKCDJUuFZ3C6jS8qX8yrYlNRW1VzkUYE3WDZW4i2AM//OeBl+xJTbHfZEHOoPxhNgQ8YcTTqQBMzxVDKcIIYVlbt6M3w+hh6Ne2Gqk+wYLPC/YwZgxfFSejQBHErl2DUex7LhqFci29EduPtk+WBOBGIrAiihHxZ4BF1ighcHtHo5fPHX1e5oO++bqk99owf/JXeL/OkHcgENBz9zr95fa07Fp3xk3n6vZH/ep9Rv31I/yWazlaovpRwZtWbkUBmdGroyZJTSV1oe3CKvBoNAEEWy6hKrv7ZqceIydexFiYorEAhmrvwcNSqPfkVSDsGvn/+/6e+oCSbpkuiWQJDX/yPUJZAIAECKCXInso0Esvu45F37vREg9CJAUvUKkM1RASh6rQFoWZQIoOp1FVcUMYVx9R1O+j2Es0PzcDHuBm45cpdU48GNUybKmN/ExFwL5OxjsVExLI25DY0NPSovprNlKWQiDYTiAHUYNGBMuzbdShhoRH5xXL/cGZjji5hYUWIwadh2+7tYYZIRo7rH/P4y6dh5L8TEfHwoVA7B3XVblokErqareSxysnumeaQtMuIHdVf+4wYAAA==");
 
 export default HatWizard;

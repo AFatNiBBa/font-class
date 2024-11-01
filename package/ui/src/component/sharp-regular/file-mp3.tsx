@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-mp3` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-mp3?s=sharp-regular file-mp3}
  * @preview ![file-mp3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-mp3.svg)
  */
-const FileMp3: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 464l32 0 0 48-32 0L0 512l0-48L0 48 0 0 48 0 256 0 384 128l0 176-48 0 0-144-112 0 0-112L48 48l0 416zm208-96l0 128 0 16-32 0 0-16 0-74.2-17.9 33.7-13.9 26.2-14.3-26L160 423l0 73 0 16-32 0 0-16 0-128 0-16 16 0 4 0 9.5 0 4.6 8.3 29.7 54 28.5-53.8 4.5-8.5 9.6 0 5.6 0 16 0 0 16zm48-16l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32 0 16-32 0 0-16 0-48 0-80 0-16 16 0zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48c0 12.3-4.6 23.5-12.2 32c7.6 8.5 12.2 19.7 12.2 32c0 26.5-21.5 48-48 48l-32 0-16 0 0-32 16 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0-16 0 0-32 16 0 24 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0-16 0 0-32 16 0z" />
-    </Icon>
-);
+const FileMp3 = createIcon("file-mp3", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjgAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyDAgsGAAE2AiQDCAQgBYMtBy8bgQXIjsN0OysfCRMmKHOKh+fz/v21T/KUFKl8KufV+KJm0Fz0DNJUmPYSM+4vsikNE8CmTuUk56EAvkc8aHtotiWdOsY4LxWoYmt7KxIrWE0rYN2dLdkOTXuXUJDmuFaOyxPKeDmu0EW6Mb2Hy/OHxq/GuIykqwAQDQA2/t67euOn+Cni3c6zxLt2RkBsBFmgQIHxAqxRCIxXyiiVgp+i08H/wEwA0U3Sk0CJHtyDhwElSLrKctL8CdXsumtguV/dVS2tq1pUVUQREXW9b4gqImTS/kKDj5gXo2NsLFAjksvFI6I/FscovWB5XdX3jrh2zA3Dr5lWrTCE2/f+cTfNqIKyP0QXDb8Wi5XFqutHXTdS3zvloeah3++9497TyTm3ctu6Q6v96MILPaF1hTOc4Ql3fNiL5IlG1tjJEF/7WmNH3f6LNJpBy33uGTvoG9kYVZyxbT09f247Ywzlu1p7aDSTdt9zxIg9G63m8N1v3vnd+8WwV14ZVrz/XZubrMk/DRr002iFR8P5dSAQrPn4r1M7eM3/vXUCv7y04c9I540kPYReCQTFvM48hwQkAgCQ4jxTEgSSW3SRtA5wnQChQoCkWyVAYZxGgFJlrgBdJloqQLfK3gpR9gnDHVpAMsCZoLDM+aA03NOgyxpvxt2GR+GptJ/R/8SE7Wpk67rcv6DNq/KwQRnnI9Pi6rxtzDqPBmbDTsc53WnOcaxjnOicCjvLrtlznWq7GbrVF2X9Fmhlq+Tj9v3m/RzrLGc70elO42VWy/bOLOfNx88GOxHCRUqSRKTeRxHOP/WMxQA=");
 
 export default FileMp3;

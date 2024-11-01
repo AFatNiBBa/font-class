@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-caret-up` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-caret-up?s=light circle-caret-up}
  * @preview ![circle-caret-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-caret-up.svg)
  */
-const CircleCaretUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-352c-9.6 0-18.7 4-25.2 11L135.3 273.8c-4.7 5.1-7.3 11.8-7.3 18.7c0 15.2 12.3 27.5 27.5 27.5l201 0c15.2 0 27.5-12.3 27.5-27.5c0-6.9-2.6-13.6-7.3-18.7L281.2 171c-6.5-7-15.6-11-25.2-11zm-1.7 32.7c.4-.5 1.1-.7 1.7-.7s1.3 .3 1.7 .7L346.2 288l-180.3 0 88.4-95.3z" />
-    </Icon>
-);
+const CircleCaretUp = createIcon("circle-caret-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABeQAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBfAsGAAE2AiQDCAQgBYMtBzYbAgXIjsQ4JvGLGFDj4fu13s593TOVTIehE8VICkghCvlVeAFJLcutldGTn8Dv83+55/f86AC/0aGNaXPjAtyj5wkEnH3PE8oCyzQBiyVrZ7+8UPxi0HeJTzJsP6w8II+3op8K6WH6GtfLm8Z/OrpIkmcAogUAJq9cOt/7f8VfEV/XXxBfm4uAmAJKgQwZuggwTibQRa5ELhf8FfU6/waWBBBV8hclkKOKjdgLyEGS53nnzu1rRaVpvqKo1NZ+Mjvii8FPnB30eNbn0z6d8+WQp3Fu6LO5X81Mvy2M+G7qR3FuyocLvl3x87yvJ73v7OQP5n+zPLvUZlnccbbt3aKIy+3vx7l2K+Jercv94nLb5VGLlT0bWjT83+PrHV+re78f/f/9eezYn//t3+/99/sp/K/pbnBzbJepU7uMvXljOqwyZFPzRxt32FkUJ082+UIzi2JnvfeoeQsRVm7wPD0PAsHO3wd9v7H5uFeNigT+efNX4reoXpIa0EgCQdav3s+6BBIBAEhxQs8EgWSlnLxqE/cECDUESKpqAmQ6ayFArqavABXdDBegqmapTOSNhTbWK0iaOAwyI5wCuTaegYpxPour2kTmZpSTUI+8+BmITL9VDh4wqBxTLiud9hwiX44tt8VeJ8KkN0HtcNABx2y3zW7HADtifnbcfjMsdLoPKg02wCClMcrj9pFfAfERR+2es+fXjFXed3s5Ya/3JiUR3CFySSJS8984Qn8njo71P34I");
 
 export default CircleCaretUp;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-rotary` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-rotary?s=sharp-light phone-rotary}
  * @preview ![phone-rotary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/phone-rotary.svg)
  */
-const PhoneRotary: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 224l54.6 0 18.3-32L32 192l0-48.4c1.9-1.4 3.9-2.9 6.2-4.5c11.8-8.3 29.1-19.5 50.6-30.8C132.1 85.8 190.9 64 256 64s123.9 21.8 167.2 44.4c21.5 11.2 38.8 22.4 50.6 30.8c2.3 1.6 4.4 3.1 6.2 4.5l0 48.4-72.9 0 18.3 32 54.6 0 32 0 0-32 0-64s-112-96-256-96S0 128 0 128l0 64 0 32 32 0zm0 256l32 0 384 0 32 0 0-32 0-64L352 160l-32 0 0-32 0-16-32 0 0 16 0 32-64 0 0-32 0-16-32 0 0 16 0 32-32 0L32 384l0 64 0 32zM192 192l32 0 64 0 32 0 13.4 0L448 392.5l0 55.5L64 448l0-55.5L178.6 192l13.4 0zM304 320a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm-48-80a80 80 0 1 0 0 160 80 80 0 1 0 0-160z" />
-    </Icon>
-);
+const PhoneRotary = createIcon("phone-rotary", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjgAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCZgsGAAE2AiQDCAQgBYMtBzMbaQXInocxuE07xC11WyM/Ck8iiNbK6jnIZzcMF0BUTB6AHQGrsAaS8WSjo+9orc2+mM6bWVLMvJEKlVCu0RL5RgucIe/xF6dqxnkogA8WsaCNaUsDMqbO3cG9ClSsF+vyEgygmlbAujdt0kaa0ZVJlErHt46zBxTjQ/TGJF1OP3BS3jT+aemDpFgAEA0AgAkLhwOgfsfviB/VV8QPU4GAmAhQQVBAAW0QMBpdoA2GClBUFPyOajX+B1ZAAFGmL5lAEbVwFrcARZCUisURPcR16+alusUFeSlbmGd5r8gi4mJcbP4w9yH1pvVxyKvMO8d5JZJFj8jziIgLI993vy34OenL8LcKROQpz+pGRCzYlAMPCXbJvBCW5lk+P0SdiFgY4dMudb7nfKC76nrouK9dUO9ngeeJN6GXwRfJjj+SJ/9+LPuh/a9hw1Jm6AgDDTsYiGvPeHZNtOloCUOHWaqCUEbKzS58TYpJceBCs3KMhxBWqIqy518qkKQMy6jgABm/ctNcwe+zL4Z5MYwk667fz1u3+/6Ix5R+M9+2cHpFPQ8EglX3p29eFo/+X5Mn8Pd9089I9XeSnqBGAkGhd7W3hQQSAQBIsY01QSA5qkTdOi6Im26GYLMsA7egNYlBUaYXlLSTeKAsMxddFGsLTSwySOrYCAVDPUJRE79QMtqfVdYkCr7JeRb3M0xutnjjFA4IhjGLw0Ll3Y1J+zlcVrtf0cADq7Dl2JELmzbsumjIMwP30qHmjGj4IhQRFIay8Li+Pz+x6cy5XceO8jE5eN90u5rPe8CgUdqBYkkiUp3HGw1scrF6dgsAAAA=");
 
 export default PhoneRotary;

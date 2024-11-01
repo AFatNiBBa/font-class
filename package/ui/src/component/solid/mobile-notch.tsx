@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mobile-notch` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mobile-notch?s=solid mobile-notch}
  * @preview ![mobile-notch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mobile-notch.svg)
  */
-const MobileNotch: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M128 64l0 16c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16l0-16 32 0c8.8 0 16 7.2 16 16l0 352c0 8.8-7.2 16-16 16L96 448c-8.8 0-16-7.2-16-16L80 80c0-8.8 7.2-16 16-16l32 0zM96 0C51.8 0 16 35.8 16 80l0 352c0 44.2 35.8 80 80 80l192 0c44.2 0 80-35.8 80-80l0-352c0-44.2-35.8-80-80-80L96 0zm32 400c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const MobileNotch = createIcon("mobile-notch", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABaQAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBTgsGAAE2AiQDCAQgBYMtBzMb0QTIrgbsxmKLQhw11TCqLtlzYAgR0YNzsVci+Fr77Dc7ewBsSaEClMBBsohCItoIRyr+YsSv2Pj1a7ovoPDr4E4Uo01cFDA5bOtUbDv+XI09YSqrTw8HbSuqqlU1aJnnJ/PjP+Lg9sJA+CJch3S/45s69TznoQA+cASCMjYuDcjyMeZ5BAIYy8WDaauLa8VaRbFvGyLkiMLTEJEgsWg8T/wOyPFwv5SkDwmJZ/1D4z+lL5LaAkC0EAFYPloqklSJDBwqnzikRgJiGWEEUKDAAIA5aoEBGiNIlgWVUC7/gSMogKjCd04go8Q6soNABkmR86DZoCsb85HT1p0EbzqJd92K+hC74XUH8LbLp1OM/LgU3wcMX0Y3TvwYfw7H17FLoBHHIwKi6/UW94crf81TwXaj3Cc3CeJh9hkrEln4lqIjoSgcqZBEleE2aLydQCD4dtGTZ025/xom8O934+ta/k/280aNBIJiQpnQjqcWInsAAKS4w+l8EZCsUeN3bfBWgFCHAEmVOgEK/QSArM44gNKQOIAqdfaoRa4VOnQUJA2ug8KsG8g6fIPSnF+tSkfU+URnA/2bSyhYKL/E4UCIM7yMCJMiZJ1mOSy6rlRxwy5N7WydTYwtnA1yVDQvNgoenPdDLCwghGXwcfq8XTVxdLKws21zsvi+6nL1292gqDDmJF+SiNTw7Gnbq+fRHAAAAA==");
 
 export default MobileNotch;

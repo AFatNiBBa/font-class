@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `page-caret-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/page-caret-down?s=thin page-caret-down}
  * @preview ![page-caret-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/page-caret-down.svg)
  */
-const PageCaretDown: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 496L64 496c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l181.5 0c12.7 0 24.9 5.1 33.9 14.1l74.5 74.5c9 9 14.1 21.2 14.1 33.9L368 448c0 26.5-21.5 48-48 48zM64 512l256 0c35.3 0 64-28.7 64-64l0-309.5c0-17-6.7-33.3-18.7-45.3L290.7 18.7C278.7 6.7 262.5 0 245.5 0L64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64zM267.7 253.4L192 336l-75.7-82.6c-4.7-5.1-1.1-13.4 5.9-13.4l139.6 0c7 0 10.6 8.3 5.9 13.4zm-87.5 93.4c3 3.3 7.3 5.2 11.8 5.2s8.8-1.9 11.8-5.2l75.7-82.6c14.1-15.4 3.2-40.2-17.7-40.2l-139.6 0c-20.9 0-31.8 24.8-17.7 40.2l75.7 82.6z" />
-    </Icon>
-);
+const PageCaretDown = createIcon("page-caret-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeQAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBfQsGAAE2AiQDCAQgBYMtBzYbAwXIHge5Oeou0pQp9PmN4Hm7x59zdwN4Y7OD+nRCnRKs0sW11Mqfz4c/13/L4tGEh+3roxOp4mmU3jXpaoFx/i/3/J4fHeD3G4KHNqbNqQvkaK6eJxBo1MvzhLLAMg3AYsza2f/gB+hNEp8iybC5YfOAPI5WKUM6mRYcTW8a7zVwhCTLCEBUB8DwuTMnu/0m3kQspavEQxMRECNAIZAhQ2MBBskEGssVyOWCN1Equf/AggCiLNEfmkCOsliCzYAcJHnO2I0rW5VYlckqsdK6sqq86nYNacz1+rYy6jopWimG2k2rRFXUd8d/Ixr3Dhl+FSU82n3qUxjbf1uvkrmz5kRXT0ZbO2nV9XL0dbu6EpraTZ3UuVj997H5wzUPDe2Kbi8eZQdkj150u6bWywkTvKzdu0eXquFCDbMioVGL8bEWDa9ZNxU5u/AgTZyRr5t/qUvz5y4eVY73ODq9eNEXib8sWnw6PA8CweMNFayluvuzPIrAu1uf/1a+RaXbcSD9UF4CQdap1MmiuEEcEACAFBst4oZAMkdOX7WyYwKEigiQlFVRgEwj1QXIVdRRgDKa6i1AWRXNlIlcJKG2xQ0klW0HmT72glxtl0EZg9xJyqodNMwYkDC/vMQxFhp9qejepVsxoJiWKoscyp8OLLbldntk1J7uWmOrLXZZbZX1dhlkh8n5bpuNWcGjfVChuy66KQxQHDePt+dYbYed1ttqSzxnoOK+386e9XJ70hIl7aGQJCLpT1HqjGFlV2f4AQAAAA==");
 
 export default PageCaretDown;

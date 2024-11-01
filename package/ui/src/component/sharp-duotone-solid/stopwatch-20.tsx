@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stopwatch-20` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stopwatch-20?s=sharp-duotone-solid stopwatch-20}
  * @preview ![stopwatch-20](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/stopwatch-20.svg)
  */
-const Stopwatch_20: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M16 304c0 114.9 93.1 208 208 208s208-93.1 208-208c0-41.8-12.3-80.7-33.5-113.2l24.1-24.1L445.3 144 400 98.7l-22.6 22.6L355.7 143c-28.1-23-62.2-38.8-99.7-44.6L256 64l48 0 0-64L144 0l0 64 48 0 0 34.4C92.3 113.8 16 200 16 304zm86.1-56.9l6.4-12.9c9.3-18.5 28.2-30.2 48.8-30.2c30.3 0 54.6 24.7 54.6 54.7c0 13.4-4.9 26.4-13.8 36.4c-13 14.6-26 29.3-39 43.9c-6.2 7-10 15.7-10.9 24.9l43.8 0 20 0 0 40-20 0-64 0-20 0 0-20 0-15.7c0-20.6 7.5-40.4 21.2-55.8l39-43.9c2.4-2.7 3.7-6.2 3.7-9.9c0-8.2-6.6-14.7-14.6-14.7c-5.5 0-10.6 3.1-13.1 8.1c-2.1 4.3-4.3 8.6-6.4 12.9l-35.8-17.9zM236 256c0-28.7 23.3-52 52-52s52 23.3 52 52l0 96c0 28.7-23.3 52-52 52s-52-23.3-52-52l0-96zm40 0l0 96c0 6.6 5.4 12 12 12s12-5.4 12-12l0-96c0-6.6-5.4-12-12-12s-12 5.4-12 12z" />
-        <path d="M144.3 252.1c2.5-4.9 7.5-8.1 13.1-8.1c8 0 14.6 6.6 14.6 14.7c0 3.6-1.3 7.2-3.7 9.9l-39 43.9c-13.7 15.4-21.2 35.2-21.2 55.8l0 15.7 0 20 20 0 64 0 20 0 0-40-20 0-43.8 0c.9-9.2 4.7-17.9 10.9-24.9l39-43.9c8.9-10 13.8-23.1 13.8-36.4c0-30.1-24.4-54.7-54.6-54.7c-20.7 0-39.6 11.7-48.8 30.2l-6.4 12.9 35.8 17.9 6.4-12.9zM288 204c-28.7 0-52 23.3-52 52l0 96c0 28.7 23.3 52 52 52s52-23.3 52-52l0-96c0-28.7-23.3-52-52-52zm-12 52c0-6.6 5.4-12 12-12s12 5.4 12 12l0 96c0 6.6-5.4 12-12 12s-12-5.4-12-12l0-96z" />
-    </Icon>
-);
+const Stopwatch_20 = createIcon("stopwatch-20", true, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAABxQAAAMGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDXAsIAAE2AiQDCgQgBYMtB1QbAgbILgfsltkPDs60NNRVRxyiPbbEf5TL+Bo2+IfsqverasBV74F9MDTpXnTOIKVCPESyu4fNAi7CxFKMJeKMmNtvmGsoLGFSVUvFr4snSqVV5hjX+sDLIHKrjzi4BZklHkiAENv7y2z1XYYcqfv0p54HZAM+D2A8KGPbtNzHJF2LSnOeV6CgrZW3VQNeLFGMuG86VHDHQPZExBi1RKQRv9hxdQdO5xirUWAOkPcA2+R/APUVndVgiFgAAJQJAAC0OLUCbnwiPhndSx/dIw8EoJYA+ARYwAJFCIDGLAKKcPjA4RB8MunwSeksCAAURL7MAhAEIsBdwBsAgAPAYHHOlc0fr1QpXzIWSLi+sUC03z7BHtVyZWOdB6FYTIpG92maaR9xUL3XfVHrqYHy9/sopd1adEC1x3VOs88g5R1/n2aPCu1W7lWr3/Me0uM+L3s97XcyXkmVaary565RhGKSooJuQc+6P+rdT6PMfyhzRrVHt1y5G0SxGIpGpWBFYG28V71x1tewz1kj7fPYaLS/zXlWvVev0sYe1T6NROG8S6akKdrzHqdf4UeJQO1JaDeleLzzwpuiG2f46PXPH2u+TaaGwTfSnQYfAsMJfPhe7hb35vGPPzicLZ+MbUS/FKRaRD+lvuiX8av6usdAGyc3obrmjmOrrqROIxRStz7ZeSvWn/X/yfY+1jZbV/bK450SmfydonYnHkXqmewcU2MNN/ABLNbJK9/GgRd8DgACBOF5z64hafyfKwPAl0u/F1Saz1UyBYQxAAhs5fQYnBtIWV1FwDaM5lJSiYcyGZaF3Bgkcfa66yIKHYYgUVgKy4QjSiUEKKaOZmzvxSIXQeIZgjDEmQFLXUvg8OQhQGM3K0G8snFtRKXxV5lLjVTulDVWtbrf0L8dOMxQ1ephI9/se+eWhQpwFWNNM9VsY4w2wexBmKlLfY4p2mrSNr/11VBVdb6GfPf4s9uXKjPNMmFu+49pxH+elDdXX18BIkOTremCxYKMrJdXejYkoXj1KimyrL6wvwY=");
 
 export default Stopwatch_20;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `question` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/question?s=duotone question}
  * @preview ![question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/question.svg)
  */
-const Question: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M120 440a40 40 0 1 0 80 0 40 40 0 1 0 -80 0z" />
-        <path d="M144 96c-35.3 0-64 28.7-64 64c0 17.7-14.3 32-32 32s-32-14.3-32-32C16 89.3 73.3 32 144 32l32 0c70.7 0 128 57.3 128 128l0 3.6c0 43.6-22.1 84.1-58.8 107.7L203 298.4c-6.9 4.4-11 12-11 20.2l0 1.4c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-1.4c0-29.9 15.2-57.8 40.4-74l42.2-27.1c18.3-11.8 29.4-32.1 29.4-53.8l0-3.6c0-35.3-28.7-64-64-64l-32 0z" />
-    </Icon>
-);
+const Question = createIcon("question", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABeAAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBWgsIAAE2AiQDCgQgBYMtB0wb+ATIHoexs+XK2ISW5lPEw4eu9H1JuwYgnQERAlg6FUNT3KRlTObe2PzfZpk69TzTQgF8EMkc5wFZoHvoEsh5QOJJW6vXW5FqDa3WTu+HH+SzSohPMiw6w+iELKamxxVI7iRf4pL+D2B8rZ7jJMqlAKIqAIbMmjbBu6VRmsSX/79GfGk8AmIoyAVSpGgoQH+pQEOZHJlMUJr8j9L4X04AUaQfmoIiMkzBLEAGEiGyrH+lCoVK2cwKhfLznmsd8VLdwzWvlz9b+2Y8O+idURXiowGXiMN1b7fuHdcJ4wURj/r1i1ebRNxt+0rL8rPutHi+1YsN7rZ8oflzdZu+UvWVb0us5NKix9WoVr7y6dOV+cZC92GTc5OHdS9kSv7+urterBTodKiy5hVPI1O+WrXHuV1liu369GlXjM8DgeDZv4pnF1Xp/2vZCgn46vXvf5bHqv5/dE1eQVkJCNL2/2d+7PS4qlMh/SpJ7NQ0Bqtqt0Cqv4R714puChDKI0CiqLwAqQaqCpApr50ABY31EKCovGlSkZUTalpQQKKiLSDV0wGQqekpKOjvE7uoZqSwYkDBfOoSR9bQiK28S8fOed98GsosUqgw7pcvm613SqkNHVppk422W2G5NbZX5FYTvB02GGkRI3xRrouOOsv1lW8n9+JMtrfaZs2Y31/TT37eam2n3dyG9kkAXS/ElxJJpFWBp3bAp1694R8i");
 
 export default Question;

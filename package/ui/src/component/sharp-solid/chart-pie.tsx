@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-pie` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-pie?s=sharp-solid chart-pie}
  * @preview ![chart-pie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chart-pie.svg)
  */
-const ChartPie: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M304 240L304 .6c5.3-.4 10.6-.6 16-.6C443.7 0 544 100.3 544 224c0 5.4-.2 10.7-.6 16L304 240zM32 272C32 144.8 130.9 40.8 256 32.5L256 288 425 457c-41.5 34.4-94.8 55-153 55C139.5 512 32 404.6 32 272zm288 16l255.5 0C571 355.9 538.3 416.1 489 457L320 288z" />
-    </Icon>
-);
+const ChartPie = createIcon("chart-pie", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABWwAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBJgsGAAE2AiQDCAQgBYMtBzAbpgTIhofn7R47980E8CSViQ7q07FKaVQQdt3K3Z//az6/50cH+PkIDi0KSxsLqHPPJzCxvVm0TWQWaRPFmbeMWZTqvslEk/T4ZHr82kIeX2X7lSEdSc9woFxp/KSB/SQVMgBRHQCDZkwZ59b38X3E09IV4qkxCIhBoBDIkKGxAH1lAo3lCuRywfdRKsl/YEEAURbOm0COMuiCwYAcJFmeV6tVoVKZKvn0uFzFJSEOVbo/6nGnC81316648OOMCH5UMS1eTf0w+knni9MXValc5Vjb0z2ntzhZ/eQvzZ8tf6bDy99++21j+e+btL3zumr5cr9VaxaL+g+i/+AF5UqOH/f3zBhswYJ//jG4WTV0XrN6/PHjQCB46ej/C6r1/ad8pQR+vPnbL/X0onQrDUwnUV4CQda21NbcNFCBoAOwUmzXwviiQNJGBpda2UEBQkUESMqqKECmkeoC5CpqI0AZTXUToKyKpshEXkGobV4HSWWbQKa7HSBX2yVQRl8PzbJqR+Y75M2TP7e44RoaNqvo1L5j0buYRhrlDnia7FMs8y23h0orWmi5DdbbapmlVtmqkM3GOdusM9yCh/mhQiftdVTordhOH+dPt8xmW6yywfo8TR/Febml7XZ7K5ISYHbmShKRKrwao93GVcsAAA==");
 
 export default ChartPie;

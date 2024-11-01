@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-eight-thirty` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-eight-thirty?s=duotone clock-eight-thirty}
  * @preview ![clock-eight-thirty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clock-eight-thirty.svg)
  */
-const ClockEightThirty: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm140 77.3c-7.4-11-4.4-25.9 6.7-33.3l96-64c7.4-4.9 16.8-5.4 24.6-1.2S280 247.1 280 256l0 136c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-91.2L173.3 340c-11 7.4-25.9 4.4-33.3-6.7z" />
-        <path d="M256 416c-13.3 0-24-10.7-24-24l0-91.2L173.3 340c-11 7.4-25.9 4.4-33.3-6.7s-4.4-25.9 6.7-33.3l96-64c7.4-4.9 16.8-5.4 24.6-1.2S280 247.1 280 256l0 136c0 13.3-10.7 24-24 24z" />
-    </Icon>
-);
+const ClockEightThirty = createIcon("clock-eight-thirty", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABewAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBWQsIAAE2AiQDCgQgBYMtB2AbCwXIjsQ4JvJIF4WLobQE39v9//faM+c+QPNgRgQjRw7BFIqEL8S3firEp5mVEJ///a3GG48CfCDScVLjH6QD6DgOT6Dx9PQ8jjjTY3fJec1d7a2WnyTBrMvjxfhLHTo75PF9dlqJdC3BRf4fwPhVM6dJqmUAoi4Axs6bNcXLyqhM8WX5EfGlyQiIcaAQyJChpQAjZAIt5QrkckFlKpepjHK5IICowL8gAxUoYQoWAHKQhJTnjVo0qlGqlc+tUao+707ziMlxq/n1zvPiSqNLjcTVDvHT2IhXU76qcXbax7+Z9/O411O/rn5msjEvZ8/RsNgZ7R7UffB7W2u/VG4zo9Eid3T77karZaM9efyk1jSa4aWJ1Wj28NX48a8eNqtm4u6se3byKIsfBwLBzm+Ht6zOiP+r1kjglxd//htuJOWXSXqAqhIIsh7lHhYnkAgAQIq92iVOIJDpI/GopsuwHqqTIKlQHTIt1IVcdd2hpLWBpHJ6lkzk1YSGlhAkNe2AzCBHINfQQygZ4YNSoWFkVkXbBP2pS5g0NnGo6NurTzGs6LoiYyikaw8v1HKXvVJdadNa22y12xqrbbA7Yqcp+h5bTJLwiS5U6KuXPgrDFHBwKcxN2WmXDW0O7zNcMR91sVcu7krjJEC/9TBkRIqs+RmUel4Aqec7Fdp9oKeNFrWsc1sSAA==");
 
 export default ClockEightThirty;

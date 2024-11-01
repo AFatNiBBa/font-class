@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-exclamation?s=thin calendar-exclamation}
  * @preview ![calendar-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/calendar-exclamation.svg)
  */
-const CalendarExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M120 0c4.4 0 8 3.6 8 8l0 56 192 0 0-56c0-4.4 3.6-8 8-8s8 3.6 8 8l0 56 48 0c35.3 0 64 28.7 64 64l0 48 0 16 0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192l0-16 0-48C0 92.7 28.7 64 64 64l48 0 0-56c0-4.4 3.6-8 8-8zM432 192L16 192l0 256c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-256zM112 120l0-40L64 80c-26.5 0-48 21.5-48 48l0 48 416 0 0-48c0-26.5-21.5-48-48-48l-48 0 0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-40L128 80l0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8zm96 296a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm24-168l0 112c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-112c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const CalendarExclamation = createIcon("calendar-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABkQAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCUQsGAAE2AiQDCAQgBYMtBzsbXAXIjsQ4JvKLKOwiHv5/7V/3uTPvJfmME+IJEClgVFGJSwFB1vFzZeHKtquy+nVI7bu+qVM5l/NQAN8oaGPTmhYa83yt7vMKFLA2NFevlaq1gtW0AtbBeQc04qEplKffIY/XnVEhvZp+wdPdh8a/+j0iyTIA0QaAdft371L7K/6K+KUu8YsdCIj1oBDIkGFIgJUygSG5Arlc8FfU69l/YEEAUTW8NoEcY/AYzwNykFTyfFH7lHEtjZXmfF9jpeHwi92iMSJe7gULP5z+ab8QKV6Z9smkpvhoxmcDWYTe6zM/n2r07JNNzU0pXu1+cXJzfNz78mB2KkRDfND1Qp9ojojXel6a0hDiha6XeiIAf/B8vPL2C3ycWTjhs7bP/uOXc7+4/92J6lI1S1VPgPOld9rbG0ptaADyO2tJCFwKpZGx5Lt3hqtkv/5WrlX+9mtmzZZpg1CioPSOUmyXpvl0p6mB3PGpLX/91TIbvR/fGHBauMF9HAgEa4b+uHq8deX/YxsT+OfL3n9G6rWopc8wVgJBNqs+y5GoQdQEACDFPROihkDyUMXwrk1eEiA0IEBS1SBAZlCbALkGMwWoGLFIgKoGu2UiHyd0OYpA0uQmyCz2AOS6fAEqVvrer+qK7IYkbyfyezBuMwlvOlXMm1MWywtpBVD3GF4friiMxWn38sn08KZzrrvmjrPOuOgOgd6yK7rrqs0qZJMvKswzR6mwXOHczl7e56xbbrvoumvtMSsU57vT3FOvnx4qyYA5XyFJROq6Xqez/3Uhn7z6kgEAAAA=");
 
 export default CalendarExclamation;

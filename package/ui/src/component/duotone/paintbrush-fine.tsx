@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paintbrush-fine` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paintbrush-fine?s=duotone paintbrush-fine}
  * @preview ![paintbrush-fine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/paintbrush-fine.svg)
  */
-const PaintbrushFine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 480c0 17.7 14.3 32 32 32l144 0c61.9 0 112-50.1 112-112c0-10-1.3-19.7-3.8-29c-26.4-26.5-52.7-52.8-79.2-79.2c-9.3-2.4-19-3.8-29-3.8c-61.9 0-112 50.1-112 112c0 3.9 .2 7.8 .6 11.6C66.4 429.1 54.4 448 36.8 448L32 448c-17.7 0-32 14.3-32 32z" />
-        <path d="M559.6 95.6c21.9-21.9 21.9-57.3 0-79.2s-57.3-21.9-79.2 0L205.1 291.7l79.2 79.2L559.6 95.6z" />
-    </Icon>
-);
+const PaintbrushFine = createIcon("paintbrush-fine", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbQAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBMAsIAAE2AiQDCgQgBYMtB1ob3ATIjsO44ftiKkMcaGXHw/c2X899u9LY0jfyGhgrJk567hC6cEX1n7QEnSEfmN+nTj3PeSiAz3Gd+zznY1Ns7vMI5Dwg8U6qUIVaUKqwdne2VnPI8klaYkl+CcfncIE8nmbnlUhP0ne4xf8DGL9q5TxJ3QxANATAxEXzZviiNmpTfPfiHeI70xEQk0AhkCFDWwHGyATayhXI5YLa9OIFtfHiRUEAUcY/KgNl5BiNyYAcJCHyvGHnaqlevrBaqux7OSLOtH6lcrXL+lgQm5xuFvGgWo33e7/Z4Uzzz8Y9rLzT47W2p5s9aHq/aSWuNr2v0xsN3/i9YxvTf9XfzWn+d4fmzTs0bmLmTE0aK+pf5nL92/76uQZjNx38oYGLlUs1R49+UaJg9DoQCN6a8MnPq4z5v041gV8++t/wvBdfpAnpDdSRQJD1edHH8jQBCB2AmeKgTvhF3yOQ6Szx71rjoQChggBJWUWATBsNBchV9BagpL2hApRVzJOJvK7Q1IoEkhp7QGaYEyDX1NugZIwvrbKmke0gav2p91v8NAlN3SsG9htQjCqqqUhvCsKuRxfNeo+DptUTTm20y077bbDeFvsFstcM94AdpmnwVB9UGKifAQqjFN3FOb8Qrb322VJm+7eMVow3ejioD/eEYxJg0NwnMiJF1uKD3MjavQf2be57f+S+p7G3VYk9egAA");
 
 export default PaintbrushFine;

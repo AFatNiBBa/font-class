@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mandolin` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mandolin?s=regular mandolin}
  * @preview ![mandolin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mandolin.svg)
  */
-const Mandolin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M435.3 3.6C444.8-2.3 457.1-.9 465 7l40 40c7.9 7.9 9.3 20.2 3.4 29.7l-40 64c-3.2 5.1-8.2 8.8-14 10.4l-81.8 22.3-50.6 50.6C324.6 305.1 317.5 512 176 512C78.8 512 0 433.2 0 336C0 194.5 206.9 187.4 287.9 190.1l50.6-50.6 22.3-81.9c1.6-5.8 5.3-10.8 10.4-14l64-40zm-246.8 286l51.5-51.5c-22.3 .8-47.1 2.8-71.6 7.1c-36.9 6.5-68.6 17.3-90.1 32.8C58.9 292.1 48 309.4 48 336c0 70.7 57.3 128 128 128c26.6 0 43.9-10.9 57.9-30.2c15.6-21.5 26.4-53.2 32.8-90.1c4.3-24.5 6.3-49.3 7.1-71.6l-51.5 51.5c1.1 4 1.6 8.1 1.6 12.4c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48c4.3 0 8.5 .6 12.4 1.6z" />
-    </Icon>
-);
+const Mandolin = createIcon("mandolin", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdgAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBaQsGAAE2AiQDCAQgBYMtBy8b6ATIjtRW94yCJYIo7+mrJ8kCzNr4xA2ArtbLEHH76W/+eedRgA9EamPngSzwOc8T6Hxtn2AFMj74N/0C9tVtX5AHudhEZAgeEUOSh+YCeTwSZypIF6VXcUa5VXyjuZNJigxA1APAuCULZnnyy/gy4pXKfcQrZiAgxoFSIMNMKwFGygReIFcilwu+jErF/gNLAogq6vUJ5MixFOsAOUhSnnfvXLOonS+uWdTYckHjUXFeo7FxbqOFMTcuanVpqux668T357+9+JoRtwx5QD6o04JYEhc0nbN0wdwF9w58duiNra4a9dikB3rc0eGKtnPjPBc2Orfj9U3OjxOaXtDllMbtb65383de3fyqux/585PDPHbGcaacMLex9ur27vP5F1+8OXZ6RL2Yntf+77/vfu5HGs/T7OAftx6Ag/UWHdHkmaIYOGHu3JHrLlgUAzSukr32ad++n37WqNFn7Ywq84BAUO/My9qtqTvyt2o1E/j64R+Wn5HKk6lIN6OaBIKsZ6WnlQmVf1IhAAApDtU+QSCZK8FdazlfgFADAZIqagiQaameALkaeghQaGOQAFXUsEAm8upCI6sGSGrZBzKDHQNyjdwDCiO9wFfRKLLgwkMD/9vFTGZoUlrZr3ffcni5lHUiXtAcH1Fus10PVVs3zNpsj90O2mSjbQ4Sst8s6RC7TPbgSb6o1E9vfZWGK4+15/HFNtnvgG322G1JRijvc10d6nt3QxYJ0P9ZUG2KVG3Xut0b9+zcths=");
 
 export default Mandolin;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `image-landscape` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image-landscape?s=light image-landscape}
  * @preview ![image-landscape](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/image-landscape.svg)
  */
-const ImageLandscape: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 96c17.7 0 32 14.3 32 32l0 256c0 6.1-1.7 11.8-4.6 16.6L377 197.6c-12.8-16-37.2-16-50 0L244.4 300.9l-27.3-37.5c-12.3-17-37.4-17.7-50.6-1.4L45.3 410C37.3 404.2 32 394.7 32 384l0-256c0-17.7 14.3-32 32-32l448 0zm-1.3 320l-317.4 0 63-78.8L352 217.6 510.7 416zM160.1 448L512 448c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l95.9 0 .3 0zm-7.8-32l-70.5 0L191.3 282.2l32.4 44.6L152.3 416zM144 160a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 64a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const ImageLandscape = createIcon("image-landscape", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhQAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCJQsGAAE2AiQDCAQgBYMtBzYbKwXIhuB5u76vc7ufZrxiL6lvMIQiMcjMaOOZ/3M93/PRAD+PYGiRlDqvOuvGFLjn1RplJ5LAB3RifNbOLsOH6BeD9CmfZDd4w+QIeXwd47WRHk5f4c78UPG3vq4jyTMA0QDAkl3bNnjvh/gh4qvWG8RX1iEgloJCIMP8AQLMlwl5hFyBXC74IVqt9B9YEEC047snkKMTZ+MqQA6S9jwf3jWwq6tabqvmO8PepRNv7RlxvxRX9dgZD5Ru6bE9JsYDvfy2B/plcXXvB8vV3ZVqZVdkYcdhfFj1xXGv9s/ikbGvjKzEc6Nf6pPi4TEvjyhH9CuVS7tiQWzfeX/P+3o80OvB3l7s/2i/R0Y+1+ehvg+PGPpK45V/h3x1wldah2o3cVONrlVPf+HRev3RrSd43qM/1B+9+F5vo3bTTbX3LFoYpmx06AJPfHxw8GH2PtVsliiVtqfe07TDXLmS5592vYpVuztaP9RqP/jIxU/99tZbvz3lfgcEgsm7B71+qD7/aGc5gZ/e/f8o3ZgWp1fQKYEgG98ab39aDEAHYKa4wFBliIHkZOf4qBUPCBBKCJC0KwmQ6a8hQK5knABtBpkhQLuSbTKRdwk9HGggqTgbZGa6HOR6eA20me9To12PyEyPNBzy5xe3UkIrBhVTJk4u5hbDlEpZEx5b5xXT4ugLqGQMdjrBmc5wnuMd52TnCeQcG+zznW6lBq/wRYUpJpqsMFexnL3fvNPxznGuk53pjNTPPMV+dbQL9OpjoCSMOVVUkohUv6n8hIvKn/saAQ==");
 
 export default ImageLandscape;

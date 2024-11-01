@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-right-and-arrow-down-left-from-center` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-right-and-arrow-down-left-from-center?s=thin arrow-up-right-and-arrow-down-left-from-center}
  * @preview ![arrow-up-right-and-arrow-down-left-from-center](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-right-and-arrow-down-left-from-center.svg)
  */
-const ArrowUpRightAndArrowDownLeftFromCenter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M290.3 210.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L496 27.3 496 168c0 4.4 3.6 8 8 8s8-3.6 8-8L512 8c0-4.4-3.6-8-8-8L344 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l140.7 0L290.3 210.3zm-68.7 91.3c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L16 484.7 16 344c0-4.4-3.6-8-8-8s-8 3.6-8 8L0 504c0 4.4 3.6 8 8 8l160 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L27.3 496 221.7 301.7z" />
-    </Icon>
-);
+const ArrowUpRightAndArrowDownLeftFromCenter = createIcon("arrow-up-right-and-arrow-down-left-from-center", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABaAAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBMQsGAAE2AiQDCAQgBYMtB1Ub1gTIngNu0zyOq2SIE9EmHY/peHi6UTzU7/c7u+9i/r+jGZIm8UTUCiGSAkPSRiZlSmCIFsnPorE1h3kmLSS3DI0krolGpVklU2nwaiV8qf/NXLNVvmrf/+eaz+/5Ufs3OpROPZACj9z6+QQSvLFp4OOBzXQCtrcNj41QPI0IC5KIxiprnC5Q4qqGT74mPPCHxo+uNaSqAkBMA4DD62gED7/xGfFTg/hwBgLiCMAyhgoV5jGwgyswj2cZFEXwyeoa/wMJAohByNslKCjYAacACkhZeOqedEDOS0gHJNVtc9dOMvHYPLRZ7FuS2DZ2TWnEYofWvhFjLb1tgLEmj88ktafp059GA1b+3EWjj0/uCW5KgrdEHpUGt7rx9Hg8fh0IBN+d/xWVO/8iKQfwdflPPyP1Q8p3MCxBUK3Va3IJkgAAZCygTQikTRxydtwTBsIoCqRBo1DpU0ExahUGLHLzg2fOcUURIzTkAaRxd1DZtoKi4QwDdrzHgxpROZC4/eL/LS2skdAysltsFKBuLks+wcf5IA17ukXo6eEgGoYGZupq2mYKm4hkc31hCw35ImJnYUMCaLq63Z1QNzHVNjSgRYJofaSzsEfrIeQQxnVnUxJpuZ1MhkvzfHQDU3N5UDPXvH8Jz0w3nzzTfKYBAA==");
 
 export default ArrowUpRightAndArrowDownLeftFromCenter;

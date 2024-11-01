@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard?s=duotone clipboard}
  * @preview ![clipboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clipboard.svg)
  */
-const Clipboard: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 128L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64l-49.6 0c.2 .8 .3 1.6 .4 2.3C290.1 72.6 304 90.7 304 112l0 24c0 13.3-10.7 24-24 24l-88 0-88 0c-13.3 0-24-10.7-24-24l0-24c0-21.3 13.9-39.4 33.2-45.7c.1-.8 .3-1.6 .4-2.3L64 64C28.7 64 0 92.7 0 128z" />
-        <path d="M192 0c-39.5 0-72.4 28.7-78.8 66.3C93.9 72.6 80 90.7 80 112l0 24c0 13.3 10.7 24 24 24l88 0 88 0c13.3 0 24-10.7 24-24l0-24c0-21.3-13.9-39.4-33.2-45.7C264.4 28.7 231.5 0 192 0zm0 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Clipboard = createIcon("clipboard", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfwAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBcAsIAAE2AiQDCgQgBYMtB04bEAXIjtMV8UybBxUP36/Ve+57PVN/ez5Df2BURKAAPXKAZaLCDljIrditqFT05P+73vxf8/k9PzrAz+eepeWRfFS5eD6BvXHqvGk+b9DN1LY7WyuUSDkkSSwtx6PN8dlDEVfyHTXS8/Q77sb/AYw2fdwhackAojMAFm/ZsMqPrdGa4vfmV8TvViIgloBKICOjvwDzZIH+ChUKhaA1NdEaTRUBRF38iAzqqGEn9gEKkCRRFH1apjRqHYrNjVq548NREZ/2/rC/eD680fikX8SbES/GfD7CR32eDfu478uROeX0fPRnwzvEJ2O/6JdjsaWMx27GRwMErZSlvVXE25E342mU8eGoT3sP+bzz5/8O/v3w73744e91LN7Z1qW3Huu2bl3Xo7cubTsXr/t71roePdZl1SIXLbt0ece7oJWLtAWmEDBcwRT6eiAQPNjbjD2d5v3frpHAP1//X7lc88e4kT5HOwkEeVxznJ1xAww6ACvFZUPwl6xFIJsiSffa3hMBQokASV0pQNZPZwEKpbEC1Aw0XYC60gZZFC1Cd7saSNo7B7IZroJCd1+Cmnl+cuq6R5YwQj6I/13sih5aPq+aPGFSNadaJiopNJifnlttq6Mu28Zo2OmwM0676JCDjrnYIeet8i85ZQUFL/dFlckmmKQyR8XOH9nN6Jx3wbE5zZ9lruq8Ocplun80LCcBptxNLBMpcpf3jeufOF5VG90GWikBAAAA");
 
 export default Clipboard;

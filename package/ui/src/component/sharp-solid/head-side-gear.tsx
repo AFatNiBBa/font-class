@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-gear` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-gear?s=sharp-solid head-side-gear}
  * @preview ![head-side-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/head-side-gear.svg)
  */
-const HeadSideGear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 224.3C0 100.4 100.4 0 224.3 0L256 0C358.1 0 441.6 79.7 447.7 180.3L505 252l7 8.8 0 11.2 0 16 0 32-32 0-32 0 0 96 0 32-32 0-96 0 0 32 0 32-32 0L96 512l-32 0 0-32 0-98.8C23 339.3 0 283 0 224.3zM256 96l-64 0 0 37.5c-11.2 4-21.5 10-30.4 17.6l-32.5-18.7-32 55.4 32.5 18.7c-1.1 5.7-1.6 11.6-1.6 17.6s.5 11.9 1.6 17.5L97.1 260.3l32 55.4L161.6 297c8.9 7.6 19.2 13.6 30.4 17.6l0 37.5 64 0 0-37.5c11.2-4 21.5-10 30.4-17.6l32.5 18.7 32-55.4-32.5-18.7c1.1-5.7 1.6-11.6 1.6-17.5s-.5-11.9-1.6-17.6l32.5-18.7-32-55.4L286.4 151c-8.9-7.6-19.1-13.6-30.4-17.6L256 96zM184 224a40 40 0 1 1 80 0 40 40 0 1 1 -80 0z" />
-    </Icon>
-);
+const HeadSideGear = createIcon("head-side-gear", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfwAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCLwsGAAE2AiQDCAQgBYMtBzUbNAXIhucpndX7LWlAXobeA0DOCUNiyF2XYnQ1oef/mnrhUYDf6NAirfRAyrMW9XwCA57tTecTigKbUQnY9qY1GkX2TiZrko6v6Xg6QJv3mjt0lIfL97izPWn+stgdFJMNgMwCwK5HH36gj4cZJt+N3iDf2R+B7AqqoEGDZQJ20AiWaVW0WmGY0Sj/B1YCZAy/lwJadLgetwNaUDRtu+mW0wfd9PaoQdfnsc2T1/ZPvtt7kD8O/eXIIzM/ItL3oAWu8tkVL+boftDL4/O2yybZNve5Zf422TTb5/41ZZDkqYXbZvNslwdz64Lts1m2yQNr5YhH135qzScWP7TG42s9uWS1Z2c9+8+q78/63nD6r/yynA1/rg7MobuNHbDN3s4xMEtV6ymqotcEDcOn+29qfMPRzbvwvrV03xZTioWTk4siW77r1rSLNXXfmUQswhaW1N43j62/7bbrj+HxQBCmPn123ZNn7vD/xKCAP9/97x/6GRl9XJRnMaGA0Gww2sAJBRQCACi5ymoFguJyDT7VaR4QED0CijG9gMZSswS0eusL6KywpYAxvcM10k6KeU7soJjmUtDYyo2gNc9roLODr9wx89LEnxg94vcvbS+N7rmpbrrRJnW7Oi2JFFJ8Xd2+LhvrXEUj68JOZ7nYRa5wpjOc6wrFXubA4EoX2svD9/RC1aY2solqO3W7edSOQvcylzvXFvch62yvnnfWcZU/fV2wC+bcTKwopMwIUn3DK6pv+OoBAA==");
 
 export default HeadSideGear;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coffee-beans` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-beans?s=sharp-duotone-solid coffee-beans}
  * @preview ![coffee-beans](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/coffee-beans.svg)
  */
-const CoffeeBeans: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 352c0 82.5 50 150.4 114.1 159.1l21.2-63.7c-15.6-62.5-31.2-125-46.9-187.5c-.4-1.5-.8-3-1.1-4.5c.5-1.5 1-2.9 1.5-4.4c6.3-19 12.7-38 19-57C46.7 206.1 0 272.2 0 352zm120.7-95.4l46.9 187.5 1.1 4.5-1.5 4.4-19 57C209.3 497.9 256 431.8 256 352c0-82.5-50-150.4-114.1-159.1c-7.1 21.2-14.2 42.5-21.2 63.7zM243.4 46.4c-35.3 51.7-21.8 132.2 34.6 189c58.7 59 142.8 71.3 193.8 30.3c-9.4-18.8-18.8-37.7-28.3-56.5c-55.2-33.1-110.5-66.3-165.7-99.4c-1.3-.8-2.7-1.6-4-2.4c-.7-1.4-1.4-2.8-2.1-4.2c-9.5-18.9-18.9-37.9-28.4-56.8zm23.5-24.6c10.5 21 21 41.9 31.4 62.9c55.2 33.1 110.5 66.3 165.7 99.4c1.3 .8 2.7 1.6 4 2.4c.7 1.4 1.4 2.8 2.1 4.2c8.2 16.4 16.4 32.8 24.6 49.2c32.5-51.8 18.4-130-36.8-185.6c-57.6-58-139.8-70.9-191-32.5z" />
-        <path d="M271.8 103.2L243.4 46.4c3.5-5.2 7.6-10.1 12.1-14.7c3.6-3.6 7.4-6.9 11.4-9.9l31.4 62.9 165.7 99.4 4 2.4 2.1 4.2L494.8 240c-4.1 6.5-8.8 12.5-14.3 18c-2.7 2.8-5.6 5.3-8.6 7.7l-28.3-56.5L277.9 109.8l-4-2.4-2.1-4.2zM88.8 250.9l19-57c6.6-1.3 13.3-2 20.2-2c4.7 0 9.3 .3 13.9 .9l-21.2 63.7 46.9 187.5 1.1 4.5-1.5 4.4-19 57c-6.6 1.3-13.3 2-20.2 2c-4.7 0-9.3-.3-13.9-.9l21.2-63.7L88.5 259.9l-1.1-4.5 1.5-4.4z" />
-    </Icon>
-);
+const CoffeeBeans = createIcon("coffee-beans", true, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABtAAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDFwsIAAE2AiQDCgQgBYMtB1QbvQUR1ZohyT4S022c8lzOxZIlS75EENn9/1fP7pWfjYj+jGhEZGYfhc0hoZMXuWiEDO31VcSmjqmL8+43Gkq0VYNUxPkEBhgVQAObwExnYFM3JY8qYq1XERGHUtyOb91x7QJ5vJmdqoh0aXoDZ9P/AMY3mjuVpCwDELUAGL904WzPfB6fp3ij8ADxhlkIiAmgnUCGDK0EGCUTaCXXDrlc8HkqFIjPo1AAAUQxekMGilGKm/EYIAdJkud569bNG7VuWVFUlS8h7/KtA/oPuLhpYPWPxdGY2D8uaMQcEEuiSeKigf0GXlxxeuN+C2Sj6EcpP63JwBOaxrW9I+6cPDDeXXJSk4vjpKZ3JD3Q6452SxcvWaxc8HDfuzte1+euKZc0W3pH+4jRo5+c/OLIi5pc1sIrLyoX1UVRIU0G97ywccSlzV+dfmv3Cys6H3wcdneH68Y8NeWlYR1uq73tu/ZvbHlDzbJX+KolWyYv/N6NGwzQ4ETLD0wc+EgxPnR+N2w6t7xk3Vx9HpNr0A0gvaGNXl1X/Q//lMzVZFXT1SmJMHv0nNlfffRh5cE1fR5L4gPhxNfx3YffffWhNy85hfMv/3jp0mNDutx4wYL+C/oJhDi2fdu2A0OH8tDNY8Z88aUg4uFXDpx33umvTZt2FAgE8y//+XhRM+q30ooEvnzsh6/lh6TwTCpJt6FUAkHWq9DLqoTCX6lEAABS7NchsRSBzGY53ljpIgFCOTpIipWDTEu1IFeuJyjSxmChcsNCmcjLhEZWA0gq7QKZIY6BXCP3gyKjvGwvBhoFN1qxyYn/GVPYEW76IQljKCyzmsQOhalbQ62Sv69ysIT0DrtXpzUJf8DdMtdnY3cI44sgEYqBguPC8/xc5/aYHPbci4bnbdK/b+xAyzDP1AQug6bIGn3moUHdVfsT2H+tuJC96wA=");
 
 export default CoffeeBeans;

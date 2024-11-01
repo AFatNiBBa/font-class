@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `utensils` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utensils?s=solid utensils}
  * @preview ![utensils](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/utensils.svg)
  */
-const Utensils: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 0C400 0 288 32 288 176l0 112c0 35.3 28.7 64 64 64l32 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 0-112 0-208c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7L80 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-224.4c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16l0 134.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8L64 16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z" />
-    </Icon>
-);
+const Utensils = createIcon("utensils", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABegAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCHAsGAAE2AiQDCAQgBYMtBy8bGwXIjpQuJ6Tx8P92/bfPreoHsL6kyBqaGeQg7DUpI2WdDpDe8385vfH8aPs3OpQ1aOPi9fyuPZ8nkFgdNYE2SFlgmSZg7U2L1pEyImamLEnHt+OtM+TxWHa9EumR9CPuqh8av+t1PUltBiBaALBi59YtPi1HOeKHylvEDzYhIFaAQiBDhgEBFssEBuQK5HJBOSoV/A8sCCCq0GslkKOEs3EZIAdJlufj5tfWlxrzHfWlupMeHB3x/OSI17eJRya8MqY+xNWdD9Tf1v1Q0JZruh6sO/Rg160d2+J+T9gjc5B6Z9Jrw+aOgOj+DtGMBwXqQrd5sf38Qka+2vLqnyN+PPGjpz5p/nyBt2Pt2epaW58uXK3p5psFjpmz/WrnweaGz5sWD96kpy7tPLm9bOfK2k/emep65uWLmz5vuFHN1Wd3199k8NdfB/vzu8++uubGaQ+BEEAg+OT4zWMONi/+p6Y+gd/e//t/8VdU+TQ+Ta+iRgJBNrky2b74FOJTAQBIcaGR8SkCycky9K4NHhQg1CFAUqVOgEy/FgFydSYJUDJkjgBV6myVibxW6LBfQNLgHJCZ6wqQ6/AGKFnsm7hKR2RuJzmN9OhLX6vRNeuKGVOnFwsLs4llTxLy8qJi2xp/YRqaAKVOOMuZznfcMac4X+Hn2pJd4AxrV9gaX1SYYarpCgsVx53HzTscd67znOIsZ5ZVFinu++NduJ48AdyEWGeqTxKRai74zGGffh4=");
 
 export default Utensils;

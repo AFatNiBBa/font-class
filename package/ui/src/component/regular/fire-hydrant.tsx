@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fire-hydrant` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-hydrant?s=regular fire-hydrant}
  * @preview ![fire-hydrant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/fire-hydrant.svg)
  */
-const FireHydrant: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 0c-17.7 0-32 14.3-32 32l0 4c-45 11.6-80.4 47-92 92l-12 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l272 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-12 0c-11.6-45-47-80.4-92-92l0-4c0-17.7-14.3-32-32-32zM56 464c-13.3 0-24 10.7-24 24s10.7 24 24 24l272 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-80 16 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-16 0 0-48-48 0 0 256-160 0 0-256-48 0 0 48-16 0c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l16 0 0 80-8 0zM248 320a56 56 0 1 0 -112 0 56 56 0 1 0 112 0z" />
-    </Icon>
-);
+const FireHydrant = createIcon("fire-hydrant", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfgAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCIwsGAAE2AiQDCAQgBYMtBzMbJgURlZpXyD4SY8fTLS03hqiQLE/i4WPNfH93k9xxgVmxZhSOGRygsDe1qFobi839PqWLE4+QoZEm3X3+L8d3244O8Bsdylq09ECWr9kazxMIvO3ZfB5nYZZRAtzubDvmEK3kkBYs4fjs+Jwhi5WxT47kePIFe+Obxk+NbSKRSwFELQAMm5wZelcTNRGfi4+Jz4YjIIaBVgIpUjQTYKBUoJlMK2QyQU0Ui/QfCAKIPP5RCciQwxKsAmQgkWZZ+4GV5bnKbFJ5rmz6jnoRh4hHna41K4tLjY63r4yrTU90KIszXW4MiFjf4EjZlF4mojx2NjwafV6yCUqgFGLtqHfKW1f/cHk5qpPXrSvtdsnLHS9tc6PWjd+tv/RfvH1btY1tVZlGW5etrzC2fv2xtXKkwvplWxtlNJaWtn4f+SXGqEXG0Lypll564RylPt5qjJK3e6vvvn17txofBwJBo+bHms6uHvivpDwBP178/e+eV6v4LuYlN1AiAUHardjNjFinlloxTwAAkliijfJBgcQcKX7VCkcECGUIkMgrEyDVVC0BMmW6CpDTQn8B8sqMl4qsVKhnZgWJCvNBaoDVIFPPQ5Az0Hsvr16klifajfjxS9NaImodkjCGwLRSJGPi/bLEsmn/bsiBk9Q77F6d1uQV9M2En43WKOWLIBGKgYDt9vZwqXN7TA57WEXCfdf265MdcJiYMZVgSojFFW84EYzL27vaXwAA");
 
 export default FireHydrant;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-plus?s=solid plug-circle-plus}
  * @preview ![plug-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plug-circle-plus.svg)
  */
-const PlugCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M96 0C78.3 0 64 14.3 64 32l0 96 64 0 0-96c0-17.7-14.3-32-32-32zM288 0c-17.7 0-32 14.3-32 32l0 96 64 0 0-96c0-17.7-14.3-32-32-32zM32 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l0 32c0 77.4 55 142 128 156.8l0 67.2c0 17.7 14.3 32 32 32s32-14.3 32-32l0-67.2c12.3-2.5 24.1-6.4 35.1-11.5c-2.1-10.8-3.1-21.9-3.1-33.3c0-80.3 53.8-148 127.3-169.2c.5-2.2 .7-4.5 .7-6.8c0-17.7-14.3-32-32-32L32 160zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-208l0 48 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l48 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const PlugCirclePlus = createIcon("plug-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABkgAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCYAsGAAE2AiQDCAQgBYMtBzcbZwXIjsM4hvxiKkO8RATv66rqfXvIXgbPLAFHgHxMkAEqx9ampwsp62SufZ+43PmvRQ+47F/8UWZjLN/eRXOeJxDw2LopoSzMAgswEc3aJgpqkJcvBnlO0VfGQvuF0cdOkMev2fUaSI+kH3FXedH4S2/Xk7RkAKITABZsXLvG17WoRfxQj/jBKgTEAlAJZMjQT4DZMoF+chVyuaAW9Xr8D6wIIBoxnvzYHE24D48CcpA05HnnzqP7tpUN7fMNZUOx9dZuEfcTZURc0+PBouzAdQuv7v5AKZ6Z88USIcdu6/lQRLzU88F4bt5Xqx7aK2+3/7ZZEZ+Ne4tuHfvmzE+LW6d/PPp1V495Y8Yn5UahjAe639+tCFFFD/aIKEL0UM8yItTpd7a92unVv1sdYOdXHW7m5g67zLdLh5tv7vB1F64/FXSRVYqZIy9bxMSFiwz6b1zndmNGn8oy3D3/rp3DEmlC69ChrRNSGharJNHxl/GcVevQoVbR8dBahzr4OBAInjvffNXOjrP/aS4TOP/p/9P96l+n+elVNEsgyEbXR9uW5oOXBlBIcaE25Y0CyW0a8LO286AAoUCApFEhQKavTgLkCqMEaDDAFAEaFdbKRN4idLNduKSd01xmqiu4XDfvcQ1m+ybfqFtkhmmalflZmGMpAkvmVRPGjq9mVsuqZrE1PU/Pqo4Dwy9MXSPcXgecdMI5++1z2Dlgz1hTusBxSzVmiQ+qTDDWeJWZqsuNx+0b7HfGWYeddIJmmaW6PzPchfrgES6csOJEFUkiUqcXhmfMHzzOMY82AA==");
 
 export default PlugCirclePlus;

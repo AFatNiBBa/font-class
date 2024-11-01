@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `khanda` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/khanda?s=sharp-regular khanda}
  * @preview ![khanda](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/khanda.svg)
  */
-const Khanda: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 48L256 0l64 48s-6.6 10.6-14.5 27.5C342.5 93.8 368 131.9 368 176s-25.5 82.2-62.5 100.5C313.4 293.4 320 304 320 304l-48 36 0 22.6 34.5-23.7 .1-.1C363.8 299.5 416 256 416 180.6c0-23-3.5-48.8-9-72.2c-5.9-24.9-14.1-47.1-23-60.4c0 0 28.4 12.1 58.4 37.6C476.2 114.2 512 159.8 512 224c0 96-112 192-112 192l-83.4-45.3L284.2 393l46.1 31.7c1.8-.4 3.7-.7 5.7-.7c13.3 0 24 10.7 24 24s-10.7 24-24 24c-12.2 0-22.3-9.1-23.8-21L272 423.4l0 28.9c9.6 5.5 16 15.9 16 27.7c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-11.8 6.4-22.2 16-27.7l0-28.9L199.8 451c-1.5 11.8-11.6 21-23.8 21c-13.3 0-24-10.7-24-24s10.7-24 24-24c2 0 3.9 .2 5.7 .7L227.8 393l-32.4-22.3L112 416s-112-96-112-192C0 159.8 35.8 114.2 69.6 85.6C99.6 60.1 128 48 128 48c-8.9 13.4-17.1 35.6-23 60.4c-5.5 23.4-9 49.1-9 72.2c0 75.4 52.2 118.9 109.4 158.2l.1 .1L240 362.6l0-22.6-48-36s6.6-10.6 14.5-27.5C169.5 258.2 144 220.1 144 176s25.5-82.2 62.5-100.5C198.6 58.6 192 48 192 48zm0 128c0 23.5 12.7 44.1 31.6 55.2c4.9-17.3 8.4-36.2 8.4-55.2s-3.5-37.9-8.4-55.2C204.7 131.9 192 152.5 192 176zm88 0c0 18.9 3.5 37.9 8.4 55.2C307.3 220.1 320 199.5 320 176s-12.7-44.1-31.6-55.2c-4.9 17.3-8.4 36.2-8.4 55.2zM40 224c0 34.1 20.8 73 47.6 107.4c11 14.1 22 26.2 31 35.5l32.8-17.8C103.1 311.8 56 261 56 180.6c0-6.2 .2-12.5 .6-18.9C46.5 179.5 40 200.2 40 224zm432 0c0-23.8-6.5-44.5-16.6-62.3c.4 6.4 .6 12.7 .6 18.9c0 80.4-47.1 131.2-95.4 168.5l32.8 17.8c9-9.3 20-21.4 31-35.5C451.2 297 472 258.1 472 224z" />
-    </Icon>
-);
+const Khanda = createIcon("khanda", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABvgAAALtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyDUgsGAAE2AiQDCAQgBYMtBy0bzwVRVE5SZB8J5ZhL+4YTMezwQFWFqBMRxOdFX/2SzALKGvwgcKJPc7W22/jiBlVLZGgZMlXMOrHj0596nmmhAD6joI1pSz9Idq0X6lznFahoymtyrVugphWwDs6bfEihKKQvII/H4mwF6ZL0Os5yJfGjVo4fiBUZPqIhntPE5Yvnevrr+DriteoDxGtmIyAmglIgQ4a2AoyRCbSVK5HLBV9HtZr8B7oEEBX+jSaQowZex3uAHCRFnp9Zq1aTRnWKevmyOkXt1fPnzJ8bg/PVc3ZHR/e4hXOpEyjaAfFY/RsM7I0+jIYz1dvala+prcUejIhmTIkbtFl40VuBYqz1xRF+qjyByxRg8lBmmQyldsDLdOHC/FH7+Nv6t3gmV+IYuNhcoWv6vpsEjAyIcTE1LpMOHAP5hXx5V/RcGgv9ZhJz7els8pna7WsAl2R3qYhf7eMPlJlJbfQxurrPq5HFdEuhsYROt7KPv/f6ttc9dVbVL+PVJ7BanTrJKxp68hV/aqE7Hv/rr0qX40/4IGrW2nT9xEkNGt562223NlzUR+ErZbawWbOFAwcdpp3vUv2TT64Pcum7dg4zaOBwSVZ+pTBX3XJYg0kTr99Uq2bwwQnHd6n89dfjoIUW/uSTN6+d98anOLrpOzvr1t35TtMVsVz7lF/7t/6MV2cWX/xu1sMv165d8//s7uz/mrVrv/zwrN99Ucx89bPWQCC4+/dPV69vMObvmnUS+PbRX3/l/YqqTyfpVtSUQJD1qZbWJJAIAECKA3VKEEieV/BJXRdujUNtKiQVtZFpoyFytfVGob2h8sLSxTKR1+qQptYiJHXtg8wwRyDX1H0ojPFSUNE0sjtavR/V/8msaU1q6qxyYL8B5ahytKLQblJZT44uFzs9DuQdPWGhbfayp/1ttcVO+zfEfc2ND7CHaVPCVF9UGqifAUqjlJvrd61ljWBf+9k5bGyfZrTyeNLDgdP9e0I/8SUHySeJSJXdPgB7IwA=");
 
 export default Khanda;

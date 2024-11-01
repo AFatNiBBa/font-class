@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-arrow-up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-arrow-up?s=sharp-regular message-arrow-up}
  * @preview ![message-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/message-arrow-up.svg)
  */
-const MessageArrowUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 512l48-32 96-64 160 0 48 0 0-48 0-320 0-48L464 0 48 0 0 0 0 48 0 368l0 48 48 0 64 0 48 0 0 38.3 0 9.7 0 48zM277.4 376.1L208 422.3l0-6.3 0-48-48 0L48 368 48 48l416 0 0 320-160 0-14.5 0-12.1 8.1zM280 296l0-110.1 31 31 17 17L361.9 200l-17-17-72-72-17-17-17 17-72 72-17 17L184 233.9l17-17 31-31L232 296l0 24 48 0 0-24z" />
-    </Icon>
-);
+const MessageArrowUp = createIcon("message-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABaQAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBcwsGAAE2AiQDCAQgBYMtBzcb+gTIHgfVbfTGI23K1J/gSQTfr5X9/sxeAGhCvGEiR+RIJfpsCB2wjLyKJRe9zfx1DDnfv0P+55p8755Hg3yjQ4umqEVStEbE8wlMqHx6PJ4PbKYTsO3ONmXHwj5JQyTJce34PCGPlzEl0r0Et+KHxm9tnCcpZQCiMQAmrVgyz7uaqIn4XHlMfDYHATEJFAIZMrQXYKxMoL1cgVwuqIlKxf8HFgQQVeQ9EshRwhrsAOQgyfK8Q7Ou9UoN8uX1SnWXjRk5ZkXUqxeRRUTd+iIF3SqEFUvZjFFb3SwaRMptzVeE6I3lCdEnlhPRK5YmxkVfQMStF9GlunH132zn/oRKpbJhggflsonKyj8cf7CHusWjl6b2B6uqLUz0QCg1fFqwX67+QxPMmEES9Sv/2a+1stZAILj28zM1Gvu/dr0Efr0A/4oq75JUjdoSCLJ+lX7WJpAIAECK47okCCRLZCROfbcFCHURIKlSt0KmncaQq6svlHQ0TNwUH/RHXkdobh1CUt8hyAx3DnLNPYSSsd5XqjSPzMJk+5A/eBnTNTrtUjFoQLkYXUxHimI0Ip+OKbbtXsdppTc8tN0B+x21zVa7HFXMYfPqx+wzfYVN80WFQQYoK4xWHE/vby+3zWFH7HLA/nDOGMX9TC/H19t7g5eI4GB9SSJSY7vr7L/p8OEDJ/ofOwgAAA==");
 
 export default MessageArrowUp;

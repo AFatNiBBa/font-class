@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-thermometer` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-thermometer?s=light face-thermometer}
  * @preview ![face-thermometer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-thermometer.svg)
  */
-const FaceThermometer: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 32C164.3 32 64 132.3 64 256s100.3 224 224 224c95.3 0 176.7-59.5 209.1-143.4c3.2-8.2 12.4-12.4 20.7-9.2s12.4 12.4 9.2 20.7C490 444 396.9 512 288 512C146.6 512 32 397.4 32 256S146.6 0 288 0c83.8 0 158.1 40.2 204.8 102.4c5.3 7.1 3.9 17.1-3.2 22.4s-17.1 3.9-22.4-3.2C426.3 67.2 361.3 32 288 32zM402.5 396.1c-6.7 5.8-16.8 5.1-22.6-1.6C362 373.8 331.4 352 288 352s-74 21.8-91.9 42.5c-5.8 6.7-15.9 7.4-22.6 1.6s-7.4-15.9-1.6-22.6c22.2-25.7 61-53.5 116.1-53.5c13.5 0 26 1.7 37.5 4.6L477 179.4c19.6-18.8 50.6-18.4 69.8 .7c19.8 19.8 19.4 52.1-.9 71.4L408 382.9c.3 4.8-1.5 9.8-5.5 13.2zm-43.9-58.9c11.3 5.9 21.1 13 29.6 20.3l8.4-8-5.1-5.1c-4.7-4.7-4.7-12.3 0-17s12.3-4.7 17 0L414 333l15.4-14.7-5.8-5.8c-4.7-4.7-4.7-12.3 0-17s12.3-4.7 17 0l6.3 6.3 15.4-14.7-6.6-6.6c-4.7-4.7-4.7-12.3 0-17s12.3-4.7 17 0l7 7 15.4-14.7-7.4-7.4c-4.7-4.7-4.7-12.3 0-17s12.3-4.7 17 0l7.8 7.8 11.5-11c7.3-6.9 7.4-18.5 .3-25.6c-6.9-6.9-18-7-25-.3L358.5 337.2zM208.4 184a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm136 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const FaceThermometer = createIcon("face-thermometer", false, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAABrAAAAL1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDDAsGAAE2AiQDCAQgBYMtBzcbkwXIrgp4Mmrcg1QpvZzYRhUdpTZqtRga+VkNC+LJ7qteT688s2AvrAOQrREdxegyOYPyv/ERfOzX9v0zRZN4w0M0CZ3mjdKYrokOoRHNG1evYyF+COJw3wJb29IuHXP65i4emzdQkSxsA0dRlgecF2LNjNH2ES7uQXSKE4+wLj3ZMSmpuiR3OWpNlGRTp55nWiiAbxS0sWlpQLIxF5qr59V6xDpoTKsWpFasFVTK3tFtV0FEQ7N1xhno+B4TcIM6TxbscW8q31Q2ougMAADSBAAA1Bfnz+RFm9oR79JA3kQBAcg8AAwBFrBANAFQxSIgmmaApgn+RHr2H2gQAEie4DwFQAMPcBEe0WfnnsUtq4utwKvk4+anF1Hi3b5QCF7NRNwdOpd/b+rF30p+Wk+dQ/a3zbfcV+LDc1NoeW/hhuJ9+Nl+bB8MvV3x3DtZ6HjK5ZKHSRfD5V6Hw26kXindkbxYsB7f4RwKX2svELhgw9IJk16aWOmI4wjadNp72F5QuBRxNOly5InUhRGrf0jC9cDrLtPb9huGiz86ZN3gc73++cb7/6xq6+7pvR+zb8r/J2My6xoRzmQmK1X71k3mz/p6TWf7cvd5Txy2n177VDuA7tqnw/76dv2fJbUP7+N3ptv1L9171Ke42P+vE5YY741tbmaCj476+JaFTCjQ3ujbbbjU8c5xrrua568X48NH58pkc2N8EsbaxwFAgODIXXVLtitSAfDv+vvL73PayRxfgicFQGBNvLNC6JrB+c9CAIGtYgwJ8IMEKCflBK/q67AAILyBAFDceRMAliiBBIDmLZMAcBOrmABw520+Fsl6IWwra6D4GgSWEquAZnsA3FR5abmzI3O5shcb+7OYNKkNNc8ZS06eqTCTsZK7Amm9WGlWq+YxXkuHW2mjnz5GaKWFTkZa5BAz3VF6mTRHNPNFjHw58hgVzO7s/vpFtDLEMJ3002eXqWTON9OMzXenQ0MJKAtEFAVJAt8FJftzmd7b/+ACAA==");
 
 export default FaceThermometer;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-skiing` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-skiing?s=thin person-skiing}
  * @preview ![person-skiing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-skiing.svg)
  */
-const PersonSkiing: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M290.1 280.8c5.4 5.4 6.2 13.8 2 20.2l-49.4 74.2c-4.9 7.4-2.9 17.3 4.4 22.2s17.3 2.9 22.2-4.4L326 307.8c8.5-12.7 6.8-29.6-4-40.4l-53.8-53.8c-2-2-3.4-4.4-4.1-7L301 223.7l32.4 32.4c16.2 16.2 18.7 41.5 6 60.6l-56.7 85.1c-4.1 6.2-10 10.5-16.6 12.6l151.1 74.5c15.1 7.4 32.4 8.6 48.4 3.4l36-11.9c4.2-1.4 8.7 .9 10.1 5.1s-.9 8.7-5.1 10.1l-36 11.9c-19.9 6.6-41.6 5.1-60.5-4.2L4.5 303.2c-4-2-5.6-6.8-3.6-10.7s6.8-5.6 10.7-3.6L225.8 394.5c-3.2-9.1-2.2-19.6 3.6-28.3l49.4-74.2-75.1-75.1c-13.3-13.3-19.3-30.4-18.7-47.2l16.3 7.6c1.2 10.2 5.6 20.2 13.8 28.3l75.1 75.1zm15.8-107.7L337.6 159c4.1-1.8 8.8-1.8 13 0s7.3 5.3 8.7 9.6l7.4 22.2c2.2 6.7 6.6 12.5 12.4 16.4l4.7 2.2c.9 .4 1.7 1 2.3 1.6l54.7 27.4c7.9 4 17.5 .7 21.5-7.2s.7-17.5-7.2-21.5L403 183.6c-3.8-1.9-6.7-5.2-8-9.3l-17.1-51.2c-8.7-26.2-37.7-39.6-63.4-29.4l-83.4 33.4c-4 1.6-7.7 3.7-10.9 6.1l85.7 39.9zm19.3 9L351 194l-1.7-5.2-5.1-15.2-14.7 6.5-4.3 1.9zm46.2 39.1L140.1 113.6l-13 25.9c-2 4-6.8 5.6-10.7 3.6s-5.6-6.8-3.6-10.7l12.8-25.5-25-11.6c-4-1.9-5.7-6.6-3.9-10.6s6.6-5.7 10.6-3.9l25.4 11.8 12.1-24.1c2-4 6.8-5.6 10.7-3.6s5.6 6.8 3.6 10.7L147.3 99.3l56.9 26.5c5.8-5.6 12.8-10.3 20.9-13.5l83.4-33.4c34.2-13.7 72.8 4.2 84.5 39.2l17.1 51.2 52.1 26.1c15.8 7.9 22.2 27.1 14.3 42.9s-27.1 22.2-42.9 14.3l-58.1-29c-1.5-.7-2.9-1.5-4.3-2.4zM428.7 80a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm-48-32a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const PersonSkiing = createIcon("person-skiing", false, "data:font/woff2;base64,d09GMgABAAAAAANoAAoAAAAABwgAAAMdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEiDZQsGAAE2AiQDCAQgBYMtBzQb6QXIPgXYBgzV6l+MSUPN7JWRlUjM4cU8187ltWb5fh+JOhFUa2TP3j5wCFl+JLACVkTs2AJrQJe4sIwjmfqjMXc3Mf2p4uKNSNy84tWyaCoWEkSQCbeIOvOFpAZgNjPfARDg/3RuH1HmZgCYWBVDNFuboRYb4csNUOIcvzdAiKK+ZpGiqtX/Cv67Jy6nXxskwB+CeSg/JjYnrjG4S6DzKAvnAtxACWOD8yYfcCgO5WvI8QyL0EmX6B1OOET80tqxLykKPigagZdl8qyOJnj4FoV3G+KdqUBATAHoBFGgQDsIxqEKtEPTCciy4FsM8x94IIAoBV8pgYxyfMBPQAZJac6TunOzm/K5JTV5ZlVJ5cJzzTrjrEa9J65Ee5y3PHRFVJMDSdIVN3YOxicQkomnOc56xXUlyT0xM+4OOUatc5bD6hhVqlrhLUNdnJshtfpIC2Mqz+ceQd1tdpsCA0CWNL57RrcKI2bMWrTvZrahdn+DCuuyFO+JW+ushyruXJeNBMQxzp4jLXEEzYNj5bBEsNO4eMyVvehhE/M0z8N83a6/7Z3ON9/cYJ3F2y/S6e53zEWpf9V5/XSaPX2+3v6BsTDag9E+Fn4+n42F3bPHPy7XvC1Up74eMit+9TkyCFf+9+/jtyu2uPZdYIXXrfPfR2tvQYGFLVU5HZ2gfUqXw5n2ZzSDZp8Gf/qKYJHXhi+YZv9wxIIe9vErHhnRvM89Djt4f1onSG7enEpGux9b0LDy5t79qzo1zjupB+FgTYIyoJZfG91QWw6WOfB6IBA87/+3deP+wQn8ePr8QN8o0l1QLoGg6NeAwWQCMELw3SnWM8NpCpIXztO3VjsvQKhEgKRUpQCFtkQQZJX6QlCigywISlWahipyhdDMUAUm1VaBhRGOwKyZG7DEOO/uUs2C+miTDyb5ZxlX3RRUTSIhf5Dkk9GignpacT1cQBYrndu8yQXnwrQVyzZNmTRnsyFb1+TbsqR6Sr7qt0SIXxCRj2yu3OW6G+51G+aGye2AcQqQ461O29OdXVBD4SscIitJRKr5EsJ9Gyvn5pZnAAA=");
 
 export default PersonSkiing;

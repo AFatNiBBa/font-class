@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-gear` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-gear?s=sharp-thin users-gear}
  * @preview ![users-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/users-gear.svg)
  */
-const UsersGear: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 144a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM400 224a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zm-176 0a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM149.5 496l242.4 0 9.2 16-256.4 0L128 512l4.8-16L176 352l171.3 0-5.9 7.4 14.9 8.6-168.4 0L149.5 496zM614.2 251.1l-14 8.1L580.9 208 447 208c-.7-5.4-1.7-10.8-3-16l148 0 22.2 59.1zM48 192l148 0c-1.3 5.2-2.4 10.6-3 16L59.1 208l-36 96L6 304 48 192zm464-48a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM480 256l8 0 48 0 8 0 0 8 0 29.6c11 4.4 20.9 10.2 30.3 17.5l25.6-14.8 6.9-4 4 6.9 24 41.6 4 6.9-6.9 4-25.6 14.8c.9 5.6 1.6 11.5 1.6 17.5s-.7 11.9-1.6 17.5l25.6 14.8 6.9 4-4 6.9-24 41.6-4 6.9-6.9-4-25.6-14.8c-9.3 7.3-19.2 13.1-30.3 17.5l0 29.6 0 8-8 0-48 0-8 0 0-8 0-29.6c-11-4.4-20.9-10.2-30.3-17.5l-25.6 14.8-6.9 4-4-6.9-24-41.6-4-6.9 6.9-4 25.6-14.8c-.9-5.6-1.6-11.5-1.6-17.5s.7-11.9 1.6-17.5l-25.6-14.8-6.9-4 4-6.9 24-41.6 4-6.9 6.9 4 25.6 14.8c9.3-7.3 19.2-13.1 30.3-17.5l0-29.6 0-8zm16 16l0 27.1 0 5.7-5.3 1.9c-13.1 4.6-24.3 11.1-34.9 20.2l-4.3 3.7-4.9-2.8L423 314.1l-16 27.7 23.5 13.6 4.9 2.8-1 5.6c-1.3 7.1-2.4 13.7-2.4 20.2s1 13.1 2.4 20.2l1 5.6-4.9 2.8L407 426.1l16 27.7 23.5-13.6 4.9-2.8 4.3 3.7c10.6 9.1 21.8 15.6 35 20.2l5.3 1.9 0 5.7 0 27.1 32 0 0-27.1 0-5.7 5.3-1.9c13.2-4.6 24.3-11.1 35-20.2l4.3-3.7 4.9 2.8L601 453.9l16-27.7-23.5-13.6-4.9-2.8 1-5.6c1.3-7.1 2.4-13.7 2.4-20.2s-1-13.1-2.4-20.2l-1-5.6 4.9-2.8L617 341.9l-16-27.7-23.5 13.6-4.9 2.8-4.3-3.7c-10.6-9.1-21.8-15.6-34.9-20.2l-5.3-1.9 0-5.7 0-27.1-32 0zm16 136a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-64a40 40 0 1 1 0 80 40 40 0 1 1 0-80z" />
-    </Icon>
-);
+const UsersGear = createIcon("users-gear", false, "data:font/woff2;base64,d09GMgABAAAAAAO0AAoAAAAACFAAAANqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhxCGIAsGAAE2AiQDCAQgBYMtBzEbIQfIjtMd8WeiCdTgH6rz+3MrmLxKMuwOBz2guJK0lFZfXCkNIFBzdWxNdQEo/lxl4+ur6iwQqb4qMM6IypEHBMXGTM+oyRmlZzld+JpdTR6o+LCRDkvvgV//GCIAZqd5DqxPD9ePJFkCBp8PcJSTL6XhO7fl9hd9kZ5lLkDPaA0EoIYAeAjwQdq8jAZ1tPJofjyeHz/QF2Uy9f9ADwIABQHNwFV+IAdoNGgWqHlgiPr9UUFLu9G4vkOzouFArOpWfRPb+1LpY6WOVjtf4nDJI1V1oeyJMserXCx3svyp6l331bpa43LevTWv1L5WwC5MS7uLHwqvLnoguZMFiR1F9ttVxQ6mdqlH2IZdRWxc3RWWI1dWXQY7caeSrLbFwqo4btW8xZlZnKy6D35M3WXLzghtdYsrLldlS5ejIpzHAqcozVGZu8RUTFuKIGStJG2LFZlRlyNXXMUpoIXxYqO2/A07FtX24pJcBD5xv2NL6DpoCwvcJ2xJPYndWlRNTgtLUFyH4lfY0roS2q6FsWdsKT2L3VZMgq+zXQ+ldxXbn9hZVAeSOxM7ihxM7UrvLl7oaM6jPxd8Puw568tXKFegQLkKNf+G29O6d592WyDzOTJ86tThkeNOpx7Agz5jkskxfR48SLE619Uyxx+45nrkak+p9Ryjm+84TNH5r/56jW0LsYxs8S30Wq0tMMWzsXUs3J9clBz/6tVfLpAJhRqEyM/f7/YxWDVmqsZg+4hnZSX2Kmt4GshPiFCNndS9JETE95kyabwsSENVf65MI3P9wxyVCJC0NhmgEnMINnenxn6u2pAgabxSthvWGDaWM0YjWiNjxMZqlJRjeUfX7SjSGww4u3nz2QHe6wFAgKDQjetb++eo83cobAD4dvXXH70/GszcNvPNUSCEAUDgK5Mpo08LCCIzH4E0jKZRaEXK5hpMFDo3wjYEgLBADAxBLPCRJifwYykNAuSnqmSnuvMumvxZfoe+BAwRJgIf1ZgL/DicAwHq8CgYxJHP4MmMjey3N3Uzjmi6mlexXAWvlrdY18vNkiRaWNvbbS4xzesrKU5kmPHGmWKoIUaawliTtI1MNVazNeGmP+tRkXJUwKMW3unWqrobc00y2ZPOy8/PQ228+/0lmLY+uqSwGSCyEiUGAzLWHGvKfuwA");
 
 export default UsersGear;

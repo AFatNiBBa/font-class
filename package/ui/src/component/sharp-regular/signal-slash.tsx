@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signal-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-slash?s=sharp-regular signal-slash}
  * @preview ![signal-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/signal-slash.svg)
  */
-const SignalSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M552 512l48 0s0 0 0 0l-48 0s0 0 0 0zm0-106.2L552 24l0-24 48 0 0 24 0 419 20.9 16.2 19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1l19 14.7L296 207l0-15 48 0 0 24 0 28.3 80 62.1L424 120l0-24 48 0 0 24 0 223.7 80 62.1zm-80 62.1l0 20.1 0 24-48 0 0-24 0-57.9 48 37.8zM344 367l0 121 0 24-48 0 0-24 0-158.8L344 367zM216 288l0 24 0 176 0 24-48 0 0-24 0-176 0-24 48 0zM88 384l0 24 0 80 0 24-48 0 0-24 0-80 0-24 48 0z" />
-    </Icon>
-);
+const SignalSlash = createIcon("signal-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABeAAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCSgsGAAE2AiQDCAQgBYMtBzMbTQXIjsQ4JvILjV3Ew/drX577uv+vWeZeACZNoNCNWnDIKR85FZuKJMj32pCJy+nPQQFOiiC0PXSMoWMsjQLqfGO+Kc+zwBLFRrddNR3VdTwkLpDH33FZiXQn/YBL7kvjZ81cICllAKIuAMYunj/Tm6qoivj+/8R30xEQY0EhkCFDSwFGyARayhXI5YKq+P9/9h9YEECUhfcmkKMCF3EFkIOknOe1+9eqVa9ejVKtfFGNUvWdNarXOBtno3rA05GlLKJGiBQddbxHdIp9XN+7dC2MXiOjLYsXCKJ6c8nIRVrD10bUWMCPt6usW/lLP2z6QefRfQKI6oPYdsrXVB9S+qHZevnoGvE8S/r9tTr9QMvQSM9MAqp0I6OuYVBVc4b59fSGo1ClwLu2WU2h6xGrTPbTqy06RwVfB4Fg5+ofl6+uM+LXihoJ/PQM4On/36QzqRIVEgiyHv/3sCKdASYbQDLFIe1GthhITjqyn1rTTQFCdQRIyqoLkGmhrgC56roLUNLaQAHKqpsvE3k1oaGVpTCpaa8wM8hJYa6hp8KSET4nyhpGdjeq7iXVv2D6SXV44qaib68+xbBisCZX32AKPTu8mG3vcoj3dIVnbbLbLgdstMFWB2qCfWamD9pp0hg/0Q8V+uqlj8Iwxermbf2iWmKf/bb2a9evMlyxv7uLQ+PDu0JXEuT2U5IkItX8zgp67t+xdv8WAAAA");
 
 export default SignalSlash;

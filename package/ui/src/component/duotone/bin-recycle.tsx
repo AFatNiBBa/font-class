@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bin-recycle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-recycle?s=duotone bin-recycle}
  * @preview ![bin-recycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bin-recycle.svg)
  */
-const BinRecycle: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 46.3 14.3 32 32 32l512 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64zm32 64l512 0L517.3 421.8c-3 33-30.6 58.2-63.7 58.2l-331.1 0c-33.1 0-60.7-25.2-63.7-58.2L32 128zM136 361.6c0 30.1 24.4 54.4 54.4 54.4l49.6 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-49.6 0c-3.5 0-6.4-2.9-6.4-6.4c0-1.3 .4-2.6 1.2-3.7l21.5-30.7c7.9-11.3 4.7-26.8-6.9-34.1c-10.8-6.8-25.1-3.9-32.4 6.6l-21.5 30.7c-6.4 9.1-9.8 20-9.8 31.2zm86.4-140.6c-7.9 11.3-4.7 26.8 6.9 34.1c10.8 6.8 25.1 3.9 32.4-6.6l20.7-29.6c1.3-1.8 3.3-2.9 5.5-2.9s4.3 1.1 5.5 2.9l20.7 29.6c7.3 10.5 21.6 13.4 32.4 6.6c11.7-7.3 14.8-22.9 6.9-34.1l-20.7-29.6c-10.2-14.6-27-23.3-44.8-23.3s-34.6 8.7-44.8 23.3l-20.7 29.6zM312 392c0 13.3 10.7 24 24 24l49.6 0c30.1 0 54.4-24.4 54.4-54.4c0-11.2-3.4-22.1-9.8-31.2l-21.5-30.7c-7.3-10.5-21.6-13.4-32.4-6.6c-11.7 7.3-14.8 22.9-6.9 34.1l21.5 30.7c.8 1.1 1.2 2.4 1.2 3.7c0 3.5-2.9 6.4-6.4 6.4L336 368c-13.3 0-24 10.7-24 24z" />
-        <path d="M282.5 218.9c1.3-1.8 3.3-2.9 5.5-2.9s4.3 1.1 5.5 2.9l20.7 29.6c7.3 10.5 21.6 13.4 32.4 6.6c11.7-7.3 14.8-22.9 6.9-34.1l-20.7-29.6c-10.2-14.6-27-23.3-44.8-23.3s-34.6 8.7-44.8 23.3l-20.7 29.6c-7.9 11.3-4.7 26.8 6.9 34.1c10.8 6.8 25.1 3.9 32.4-6.6l20.7-29.6zM206.6 327.2c7.9-11.3 4.7-26.8-6.9-34.1c-10.8-6.8-25.1-3.9-32.4 6.6l-21.5 30.7c-6.4 9.1-9.8 20-9.8 31.2c0 30.1 24.4 54.4 54.4 54.4l49.6 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-49.6 0c-3.5 0-6.4-2.9-6.4-6.4c0-1.3 .4-2.6 1.2-3.7l21.5-30.7zM336 368c-13.3 0-24 10.7-24 24s10.7 24 24 24l49.6 0c30.1 0 54.4-24.4 54.4-54.4c0-11.2-3.4-22.1-9.8-31.2l-21.5-30.7c-7.3-10.5-21.6-13.4-32.4-6.6c-11.7 7.3-14.8 22.9-6.9 34.1l21.5 30.7c.8 1.1 1.2 2.4 1.2 3.7c0 3.5-2.9 6.4-6.4 6.4L336 368z" />
-    </Icon>
-);
+const BinRecycle = createIcon("bin-recycle", true, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABzAAAAKvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDXAsIAAE2AiQDCgQgBYMtB1IbAAbIjtEnY46JGRwjhggi4njx8N9+/9tnZu794o5YwrN5JTRIxBfBm1gopF8h5Lc6UZs18r3/MXc3Mf0Md2lqcQ4ksTpep4mHtox45eLU82A4gM8BjQdlT835mBqaXeM8Ar0KLe0GKUipWi1QzbSD80610UdXSD9Bif+8oiK9TW28XP4HMH6bskLSlQEgBgGAc7cri+HyG35Lcd9cEG0XgIA4D7AIkZExC8FJVIFZNItAUQTfUtOAb9E0BAQQNSzvlUGNbrTxFVBAklWFpprWKMV6lZZL59NqeipO5+uep2P+aNk40QTg+fqhnx/a146UgVW768cqPzR7O2bx5uLJjNOHg9bxRWVg9eGkQ3hswqZdVASgc/VQ7Y8WrVEOdXEC0dYzgNtjzY+ZOf24NW7FwwMCYV28WT304uHx+rGmodoxhpjQwKPU23tPxzPNU73jK+DhpOlcdP7h0e65N/1LkmmSU+DemjsoRt/fp5/imvN3FxcOHsz5PxfD/jDj819bhPKxsfIIaSVhS2uTktqkBcbwx2LPYbtbYKKXHbHQ/4hH/QCqoRoB7W4wvQZ+A8ZWkYUFoV+/Ve9L/Y+4hh3t6h1UcieTFKrk4sVQV3Kvi3fP931K+RiAQNB/6fOL1oGT/1lcCsCPL19/wN3Nt3Q2fUKnBIK82wRpSmcBDR6BIMUMk+qLNhDIHqLb/F6vgpPQDYGk1g3ZDBEU3XagMi/6hFq366iisCGMakYg6XUfshNmoRjlgspJV2FtNKj3NXdXcn+VyTkskr2JHA4JIwlEW0H8rcqM64nE2d6cEcb88z3QY9SIKd269AOKwSYUJ9OG5ZiI2Z8lwoUIQyQgwe2iXFOGEyb1q8XwPolIet/PjHm2f+5RbKRHHM0ykZAqvdc/Evyg+4PSg7+QCbkofgwAAAA=");
 
 export default BinRecycle;

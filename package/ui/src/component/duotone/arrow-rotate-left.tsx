@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-rotate-left` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-rotate-left?s=duotone arrow-rotate-left}
  * @preview ![arrow-rotate-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-rotate-left.svg)
  */
-const ArrowRotateLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M80 115.2L80 160c15.2 0 30.5 0 45.7 0l17.1-17.1c62.5-62.5 163.8-62.5 226.3 0s62.5 163.8 0 226.3s-163.8 62.5-226.3 0c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3C141.3 458.1 198.7 480 256 480s114.7-21.9 158.4-65.6S480 313.3 480 256s-21.9-114.7-65.6-158.4S313.3 32 256 32S141.3 53.9 97.6 97.6L80 115.2z" />
-        <path d="M16 192c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0 0-96c0-17.7-14.3-32-32-32S16 46.3 16 64l0 128z" />
-    </Icon>
-);
+const ArrowRotateLeft = createIcon("arrow-rotate-left", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABggAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBcgsIAAE2AiQDCgQgBYMtB14bIgUR1ZpNyH4m8GTojQxvnTavE4vBwcRBiYhf4uGftX73zczuN8NkILlackkaKodGI9HMQtpDNW8bAJ9uWrMJrRpRFySM2f5m/gqOPf39PP/W9AEfgP9siqJYFGDm+QR2njpL8OQJzXQGtsF5o9p2qkMh/QZZfEjPK5DcT17hlvsfwPikvfMkqlIA0QiAicsXz/WkFKUkXpVTvDIHATEJ5AIpUnQSYIxUoJNMjkwmKCXlslKUy7kAosjBqXcXkWEtNgMykAiRZV2G1xTqsmU1herlp1tD3K6piWttNc60kerqCHjoaitmtXCtRru9461pmPvTE7Rq83qoWe6OLNUw/Mb//mYbusS4N6rNyUNmDHZ/0OhfutmmoVx/mcv1p0WKMSzZYENROG3+nL7OqqmljdRPmFBfwkopFu7V1V2+Dw/ebzh9qzfdOk3lf5j+r6R6h0YgEDzctFk1jPlTWZOAj4+//YJOY3nf/YQeoFICgrRPuc+ahEZ5lAQAIIljuic0WiCQGi4RPrXWHQFCNQIkiqoFSHXUKECmWm8BCroYKkBRtcVSkVUJrawtQKLWQZAa5gTItPIIFIzxtFTUKtJbjLtBuB+8ZDKtCk1dlw/sNyAflfc2Zfxdw+jl0flku8cxPtQTHrVt/74jW7fsPFIhD82tHt07bYiY+sV8YL8B+ah8cedm47Kthw5XmW5x+Sqj8+2jHseGJ/eEm0kAg07OVSmRRNp+46FD+4/3PbT/yMYjWz9Ave/zOqFjp/h0AgAAAA==");
 
 export default ArrowRotateLeft;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link?s=thin link}
  * @preview ![link](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/link.svg)
  */
-const Link: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M580.2 244.7c50-50 50-131 0-181s-131-50-181 0l-17 17c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l17-17c43.7-43.7 114.7-43.7 158.4 0s43.7 114.7 0 158.4L433.1 369.1c-43.7 43.7-114.7 43.7-158.4 0s-43.7-114.7 0-158.4l39.6-39.6c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-39.6 39.6c-50 50-50 131 0 181s131 50 181 0L580.2 244.7zM59.8 267.3c-50 50-50 131 0 181s131 50 181 0l17-17c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-17 17c-43.7 43.7-114.7 43.7-158.4 0s-43.7-114.7 0-158.4L206.9 142.9c43.7-43.7 114.7-43.7 158.4 0s43.7 114.7 0 158.4l-39.6 39.6c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l39.6-39.6c50-50 50-131 0-181s-131-50-181 0L59.8 267.3z" />
-    </Icon>
-);
+const Link = createIcon("link", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABfwAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCIQsGAAE2AiQDCAQgBYMtBysbHAXIjsQ4JvGLmCji4f/XaPf9mVVFbCCJexK3JqahbqXhzUvYQ+WQTJulVvvd/F9Ob9imA/xGh7aHHsgCOVqz8TzwDjDr5dN6CWSHWaLY7mwPh2jlEGuJNdrx2fG5Qh6/bVJCepje43pZaXzUyRmSLAMQ9QCYsnThAi/boz3i/X+J9+YhIKaCQiBDhq4CjJcJdJUrkMsF7fH/f/gPLAggSuGKEsiR4xCOAnKQpDwfObKqpCZfUlVSufdFRJyc+Lzy0vjecaflbod+8aLq8oRnToxfFE8rL018HicnTYr7rfeax8dTJyY8q7o8aemupyJI77e2e+vspbf6eCtokmj9vkW92urbPvV8v+W9aW+XDmPYks3Dhh1m+IhFi6gf0L+IAQPi/PmBDag/vdWM6dMXHTFr2LCZh+sxNp8/V9Zy9DoQCEbN/Fy1tm781/KqBD48/ld7vvV/aUdqQ7kEgqz/f6xKJ7RqFRYFYJTiiF7wTQLJLgl+arV7AoRKBEhKVQqQ6aJegFylfgKU6G6EAKUqLZSJvEJotppAUm0/yIx0FOSaPQIlxnsVlWqOzPEEtxH+fakzOTpjqRgycHAxttjmuuhLXNofV6jd3kdirw9ctMVeexyy2SbbHWLMAQvSw3abKdEz/FBhiIEGK4xVXFfP55fY7ICDtttrTz5knMI+7O2IPN0HggRZh8okiUj5+wYAAA==");
 
 export default Link;

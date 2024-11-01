@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-from-dotted-line` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-from-dotted-line?s=duotone arrow-down-from-dotted-line}
  * @preview ![arrow-down-from-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-down-from-dotted-line.svg)
  */
-const ArrowDownFromDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 64A32 32 0 1 1 0 64a32 32 0 1 1 64 0zm96 0A32 32 0 1 1 96 64a32 32 0 1 1 64 0zm96 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm96 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm96 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M201.4 470.6c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 370.7l0-66.7 0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 112 0 66.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128z" />
-    </Icon>
-);
+const ArrowDownFromDottedLine = createIcon("arrow-down-from-dotted-line", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABpQAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCagsIAAE2AiQDCgQgBYMtB3IbrgUR1ZoFyH4kZG6itVcxM5PzxkA9VfwSD9/P9Z77kuwHAgt1rUJWxEKWHRCqSrJAal3RiJ1aAp0AWDa3QSpXj5Chvb6LyPxfju/d86MD/HxT7FDGtqnTth/O1ngeSBZwVjQ2LfCE0hQCxYA9c9MIAd0koCDykl6LdNiSYezUA+TxKDutID1In3Et/Q9gfDXgNElDBiDaAbBo8/p1qrWopfhcPhefrUVALAbjAhkyDAswVyYwLDeOXC6opbKEWpSlIoCoSM/LQAX1uIOHgBwkocjzWV0SNhUt+aayU+PGO00Rl/o2x7040Xu38WL3hiCx024TYlPkj/ds3H68O+J2ZMGPEif67jVd6rmjad188mn70+8Tn7vP3vfeb6Hl/rFjLrS0XBjYsGzlKkvs1Xr+fGsO9lqCeZWH3C19wTHNBsj5W/astwOB4MWGj5d3t839X9+UwJe3P//W68taVNNT1EsgyKbL6R1RhYAN4EOlOGwyqhYikNmtIK/a7K4AoREBkopGATJD2gXINZoSoDBqtgAVjdbLRN4gdNvZQdJsH8jMcQTkuj0DhbnexRXdAah5isYlfhymyRkWi5Q0ShSmXBaaZHE8nObKY8P5YpdLK6Hbt6dtxmdCrzx7V4kQ8UYljRKFKcf1u1ZwfN2jrpzPwpX3HefDg12yCWHM1lIUYEKql9e1/6HT6mHXoHXuedom/HmF5PBDm6z4OAAAAA==");
 
 export default ArrowDownFromDottedLine;

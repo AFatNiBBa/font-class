@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-split-up-and-left` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-split-up-and-left?s=sharp-regular arrows-split-up-and-left}
  * @preview ![arrows-split-up-and-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrows-split-up-and-left.svg)
  */
-const ArrowsSplitUpAndLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M241 148.2l-17 17-33.9-33.9 17-17 89-89 0-1.3 1.3 0 5.8-5.8 17-17 17 17 5.8 5.8 1.3 0 0 1.3 89 89 17 17L416 165.1l-17-17-55-55L344 264l0 24 0 96 0 24 0 56 144 0 24 0 0 48-24 0-168 0-24 0 0-24 0-80 0-24 0-72L93.1 312l55 55 17 17-33.9 33.9-17-17-89-89L24 312l0-1.3L18.2 305l-17-17 17-17 5.8-5.8 0-1.3 1.3 0 89-89 17-17L165.1 192l-17 17-55 55L296 264l0-170.9-55 55z" />
-    </Icon>
-);
+const ArrowsSplitUpAndLeft = createIcon("arrows-split-up-and-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABcQAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiCFQsGAAE2AiQDCAQgBYMtBz8bJAXIjsQ4JvKLKOwi4umXpf3+zF5Ju8phSijnzMQllJD5GZo5s0zAlWkKePO9NmTq1POcZ3PowSIWtLFpac4nBWTO8wgUeCwv1gs0Fli1pBWgvm040hGFLySkSEIa0xqnI9T5Im+1KB/Lz3hT3zS/Gus1RasCkCEAWHfkwC7f9qUv+ak7+ckOBLIONIIKFSYIWKkSTFBrUKuFvnS7+B/YECA9+BYLqFHhDp4AalCkrq90WgPrw51W+8TUGVNXZ0aOJOlkdGZkWkamEzmUaVmZ6dkfidbpSLud2O3ss43DmSijBJ2R0WgnR5xVmZq99GtP9k7pHdL7ez9f/tlfMzAUR4+KOAQOiTh6FENx2afGOGuMpd6OmWvMt2PsNcZWP7nsVX6iM1wGgrDgkzcvzgxe+X+/TgG/fE47Pd1vi9KLfgoI1czuTCcLASn4SiWPTSlEUFxR8KUO8E5AtBFQ9GgLqIw3RECtbYaAlkkWCejRdkAldX8xwqkOigHugcpir0BthM9Ay0rfuT1GpAo5PmD4H1/KZg1tWtTMmz23Wd4sIyJEEZunK5ptfepjqkyDgy6747aHLrnomoeKvG9X8Mgtmy14kw9qzDPbXI3lGnf6uPuwS+574Jo7bpc5KzTn7ake2+3TwCqYcb4lRSFlzLn7L0KbdR3Csx7dnXXu9sU3CQAA");
 
 export default ArrowsSplitUpAndLeft;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cupcake` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cupcake?s=sharp-light cupcake}
  * @preview ![cupcake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cupcake.svg)
  */
-const Cupcake: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M216 0L186.1 0l16.6 24.9 10.8 16.3c1.6 2.4 2.5 5.3 2.5 8.2c0 8.1-6.6 14.7-14.7 14.7L144 64c-40.5 0-74 30.1-79.3 69.2C27.1 146.2 0 181.9 0 224l0 48 0 16 16 0 416 0 16 0 0-16 0-48c0-42-26.9-77.6-64.4-90.7C378.2 58.8 315.9 0 240 0L216 0zm32 49.3c0-5.9-1.1-11.8-3.3-17.2C304.4 34.6 352 83.7 352 144c0 .4 0 .8 0 1.2l-.3 13.4 13.1 2.7C394 167.2 416 193.1 416 224l0 32L32 256l0-32c0-30.9 22-56.8 51.2-62.7l13.1-2.7L96 145.2c0-.4 0-.8 0-1.2c0-26.5 21.5-48 48-48l57.3 0C227.1 96 248 75.1 248 49.3zM96 512l87.8 0 .3 0 79.7 0 .3 0 87.8 0 26.5-192-32.3 0L324.1 480l-42.7 0 13.3-160-32.1 0L249.3 480l-50.6 0L185.4 320l-32.1 0 13.3 160-42.7 0L101.8 320l-32.3 0L96 512z" />
-    </Icon>
-);
+const Cupcake = createIcon("cupcake", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABggAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCUAsGAAE2AiQDCAQgBYMtBy4bTgXIhod/8vq6L8lX0kbawoA7GtWrAVRntsK6Ji7Hv5dvEPhd1HW+uM3RnOcJdN62tMsXRtsCyzQBy7xljkbN7DtJKkmPT/b4doAsbouh6khuST7AVfqh8avOzieRpQCiFQBmbVizTKUa1YgPai8QH1iCgJgNSoEUKboJMFUq0E2mRCYTVKNWS/+BJQFEPSMTV81Qh0twIyADiTTLBo0YVNQ1z9YXdfmWvMgHRfu4wfXt8rh/4MOdcHkhiuYREbcOfrT/vdPfnJ+POqfDC4Me6X6Oc0K0jwc630I0i4hzut42oCNsKb2t400DirhMymNjkRcRRUDdEHmsDQGsR9et7/1oq0d/7/XB/g98/VYPvb1GT2mbNf9kkurq1dPe7dTQcqRWWj3dykgtGzq+uvHU067u9FfTgM9++rm5oIVj1n5S7VQ6W6lT9ZO1x7RASD/8YeQk7ZBud9NHG2lPVmKjzm8ptb/LEM3vUubYaBeGaO/MjweB4Kd9L43f0XLq/41FAn559c+/ya+oVolK8igaJSBIh9aG2hoViIoAACRxut5RQSBxjpS9azM3ChByBEjUywVIddVKgExuiAB1ehgnQL3cGqnImoR2tlUr0cxJVmq8M6xMO89ZdaZ6O1OvXaQB6YWT9x0sOr+F5s0qRw0fWU4upxXux5hTJqeU2/GBp3PHINppvxMc71T77HXIqY1ysmX50xxn/oqb54tKoww3Ummy8rh+H12PzMlOcWgcnk8zRXk/MdDp6/6DaB4JYPRTOrwlkoY9p524Z9eRfQ==");
 
 export default Cupcake;

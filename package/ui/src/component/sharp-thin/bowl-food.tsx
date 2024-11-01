@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowl-food` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-food?s=sharp-thin bowl-food}
  * @preview ![bowl-food](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bowl-food.svg)
  */
-const BowlFood: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M194.3 86.8C205.9 63.7 229.3 48 256 48s50.1 15.7 61.7 38.8l3.9 7.8 7.4-4.6C339.4 83.7 351.5 80 364.5 80c33.4 0 61.6 24.5 68.1 57.6l1.3 6.6 6.8-.2c.4 0 .9 0 1.3 0c29.6 0 54 24.8 54 56c0 7.5-1.4 14.6-4 21.1l-2.9 7.4 14.9 5.8 2.9-7.4c3.3-8.3 5.1-17.4 5.1-26.9c0-37.9-28.6-69.3-65.2-71.8C436.8 91.3 403.9 64 364.5 64c-13.1 0-25.5 3-36.6 8.4C312.8 48.2 286.3 32 256 32s-56.8 16.2-71.9 40.4C173 67 160.6 64 147.5 64c-39.4 0-72.3 27.3-82.3 64.2C28.6 130.7 0 162.1 0 200c0 9.5 1.8 18.6 5.1 26.9L8 234.4l14.9-5.8L20 221.1c-2.5-6.5-4-13.6-4-21.1c0-31.2 24.4-56 54-56c.4 0 .9 0 1.3 0l6.8 .2 1.3-6.6c6.5-33 34.7-57.6 68.1-57.6c13 0 25.1 3.7 35.5 10.1l7.4 4.6 3.9-7.8zM112 431.8l0-10.1-9.1-4.3C51.5 393 16 340.6 16 280l0-8 480 0 0 8c0 60.6-35.5 113-86.9 137.4l-9.1 4.3 0 10.1 0 32.2-288 0 0-32.2zM512 256l-16 0L16 256 0 256l0 16 0 8c0 67 39.2 124.9 96 151.8L96 464l0 16 16 0 288 0 16 0 0-16 0-32.2c56.8-27 96-84.8 96-151.8l0-8 0-16z" />
-    </Icon>
-);
+const BowlFood = createIcon("bowl-food", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABlgAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCbwsGAAE2AiQDCAQgBYMtBzAbbwXIhofn7fo691X17/bUyDUCFoQiOAhHGaNV1Bennuc8FMA3CtqYtibI8lxozvMIBDjp9JD1KlTTgngVau6ylyTsJ+nSLC2P5/L4OCGPr5ysQnoi/Yb76lvFdoPdTJJlAKIAwKrDDtrH95tiU8Sv3U+IX+2FgFgFSoGM9ocJsFQm8IRciVwu2BTdbvkPLAkgevBrJZCjgqfxIiAHSZbnRw4f3qy080OblcZR7y34ZFr/GBiPNe8a98rg/tGMG5qv9H9k8PX9+oXkxZOT3xzfdu8c++78j6e+2nh54uuDgnR9fy0yIB6NpwY+NsFg3hBN9J6a8NqEu0Tz8JB+tS+nvzsioh3i6alvL+wXQrQiTmo0O0K8MO2dRUI02xERX814b0xEjH6zeHPnqN9O/c0Pp8994IG5C5zs/36DZ4w8oqJKHL9rd7W5aIJtxtu70+rb98OrDtj/r37VWzZvvqXad9P+B1z1Yd++rc7e420zwaJmdfeu4wVVFUeMnH5/3/9PtuCAwxuNxs1OvOikds0mNe2TLjrxZg2lUnnfe0WhUJMee+zlUqGYWSi9/NhjqaYAAkHt6wXPHtdr6d+1ZgJbvty9Xf8WdTcl6U3UJBBkU7tTHZ1AIgAAKS41OkEgeViG3ZZHrWFoMCHp0YDMUAXkGqZAxQjziMPrB8lEXhf6OYYgabkAMvNdA7l+PoKKpX70evSLzD8p76K+h/HrEVm3Vc6aPrNcXG4Tg3Y5Ii+XlMfixEtjYxI9darznOtipzjZGS4G7EL7hJc4x3oNXeeDSrNMN1NpsdKcv/KHgnehi5whs/Y1S5T33Yku1fsnkZIw7myxJBGp/t6FaY4OAA==");
 
 export default BowlFood;

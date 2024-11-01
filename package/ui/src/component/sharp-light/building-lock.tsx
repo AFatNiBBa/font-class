@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-lock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-lock?s=sharp-light building-lock}
  * @preview ![building-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/building-lock.svg)
  */
-const BuildingLock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 32l320 0 0 240c0-30.5 12.2-58.2 32-78.4L384 32l0-32L352 0 32 0 0 0 0 32 0 480l0 32 32 0 96 0 32 0 64 0 32 0 64 0 0-32-64 0 0-80 0-32-32 0-64 0-32 0 0 32 0 80-96 0L32 32zM320 240l0-16-16 0-64 0-16 0 0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-16 0-48zM160 480l0-80 64 0 0 80-64 0zM64 96l0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0L80 96 64 96zm32 32l32 0 0 32-32 0 0-32zM240 96l-16 0 0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0-64 0zm16 64l0-32 32 0 0 32-32 0zM64 224l0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0-64 0-16 0zm32 32l32 0 0 32-32 0 0-32zm160 32l0-32 32 0 0 32-32 0zm208-64c26.5 0 48 21.5 48 48l0 48-96 0 0-48c0-26.5 21.5-48 48-48zm-80 48l0 48-32 0 0 32 0 128 0 32 32 0 160 0 32 0 0-32 0-128 0-32-32 0 0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80zm0 80l160 0 0 128-160 0 0-128z" />
-    </Icon>
-);
+const BuildingLock = createIcon("building-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABqgAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iEAwsGAAE2AiQDCAQgBYMtBzQbBwbIhofn7fo691V9VX/UyG/kGrkGKzKD8onWDsXOFsrEUIp74nL6/51HAa4hkoUyxrAxBo21cHIUYJrPDZgFliZoDdtG1murxkTHcQllfBMr9JHuSx9jv/vQ+NU0d5KUBYCoAbD7pOOO0P0xfoz4uPcy8bHDEBB7QBYoUGCmANsVAjOVMkql4Mfo9dh/YCaA6BfumECJMXyPXwAlSEbKcvGEoXFDmEYMeajTN+GdaA+pThsZHhGPLI+IqIZFCtEZiagCAhVftRbnBGoWnc6y4HjDsJOnCktYUW3uVJ0pESdVneO6qFpO2fGSE9bDT3pqUsRd02Zc8cCUexZjsMq4wlhOfnjZ8xtfWvLsTOdfNO/5+vnf53584cfmPNK27V9G/3hcls/OurKcs9bRk4ijna0757M6hB5da9ViQK155M+jIeOIoT3rlhqyFtmb8l4O2LK8f05dh5X+3t11RfPInHz6Z7uab/mkaJytUXzybXPU6qZpsuxWWe6y+Rpx4gV1fcGJcfSjwXCrR0kCEJu9sKG74qyx7f8PdhL4+Y0//4Z27nVTm57HoASCYkVvhdNTC4w8gJ+U4kbzUotA8rkR4V2H3S1AqBAg6VcJUJihFqBUWS5An9k2CNCvcpxClEPCRGdUZDLsGmRho5uQpYleRPbZ7j1Xv4lR9HRWP2X9aMY/cAg7YFZes6rJW/NqWmZ3XoZu35YPy5fcyMuWwoUudJUrXe8C57vE9QPEtY7w3uAKB27BD/BF2RqrNLKt8uXcU/6J2HWt61yyLHF9kG3y89olbtyuvRSqkkB1raQkEWnkXRCs/AwBAAA=");
 
 export default BuildingLock;

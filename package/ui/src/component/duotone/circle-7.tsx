@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-7` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-7?s=duotone circle-7}
  * @preview ![circle-7](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-7.svg)
  */
-const Circle_7: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM160 152c0-13.3 10.7-24 24-24l144 0c8.4 0 16.3 4.4 20.6 11.7s4.5 16.2 .5 23.7c-37.3 69.3-74.7 138.7-112 208c-6.3 11.7-20.8 16-32.5 9.8s-16-20.8-9.8-32.5l93-172.6L184 176c-13.3 0-24-10.7-24-24z" />
-        <path d="M160 152c0-13.3 10.7-24 24-24l144 0c8.4 0 16.3 4.4 20.6 11.7s4.5 16.2 .5 23.7l-112 208c-6.3 11.7-20.8 16-32.5 9.8s-16-20.8-9.8-32.5l93-172.6L184 176c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const Circle_7 = createIcon("circle-7", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABdgAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBXAsIAAE2AiQDCgQgBYMtB0wb+gTIjtRgrTKLQ2l5+H6//6197n0fEbuIa1JvIp4giUjCE59EEpH8h8qQGPLLjK/3///mH+94FOAlD3ksGsseSANwr+MJdDydnseJBJLpN7Bv7eznr49JEkLfZVh0hpE6dC7I41t2SIl0KX3ACfsfwPijhUMkNTIAUR8A4xfMmeZJVVSl+FB+RHwwFQExARQCGTK0FmCUTKC1XIFcLqhK5TJVUS4XBBAV7A0ZqEAJ07AUkIMkpDxv0qpJrVKdfH6tUs0lV7rWiiNNzjWeGxe73Gq1IGrGrZbxc3zE02kfax2Z8Xni8wW/Jjyb/qnm4akfxj2Zu8BL+jH3kQ736t/72/7Dyg9udG0y66Q6+xYv2fTZw2E9Dy59YLVZTTwxuQYtKp9OnPi0Ug2TD1fmjVWIPHRVjOh9EAjqbfxytHqj/levlcDvx/+TfkflJ0m6h+oSCLJe5V6WJpAIAECKnTokbiKQ6ScJqLbzsBtqUiCpUBMyrdSHXE09oaStwZRzfY5M5DWExpYJJLVtgcwQByDXWCWUjPLaqtA4Ml4xrGBedYlTxibPFf379CtGFNNQZqlC6Xhk4Va67VTqLqdW2mSj7VZYbo3tEVtNc3fYYMoKn+xDhf766KcwQgEn9+L8rK22WTPm8SkjFftRNzvXzd1lmQQYcCKejEiR1f9/g3oP7U1QqWHD30QAAAA=");
 
 export default Circle_7;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-clapping` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-clapping?s=light hands-clapping}
  * @preview ![hands-clapping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hands-clapping.svg)
  */
-const HandsClapping: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M336 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64zM215.1 18.7c-7.4 4.9-9.3 14.8-4.4 22.2l32 48c4.9 7.4 14.8 9.3 22.2 4.4s9.3-14.8 4.4-22.2l-32-48c-4.9-7.4-14.8-9.3-22.2-4.4zm209.8 0c-7.4-4.9-17.3-2.9-22.2 4.4l-32 48c-4.9 7.4-2.9 17.3 4.4 22.2s17.3 2.9 22.2-4.4l32-48c4.9-7.4 2.9-17.3-4.4-22.2zM153.9 152c4.8 0 9.3 1.9 12.7 5.3L292.7 283.3c2.9 2.9 6.9 4.7 11.3 4.7c8.8 0 16-7.2 16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 129.6C352 416.2 288.2 480 209.6 480c-37.8 0-74-15-100.7-41.7L75.3 404.7l-16-16s0 0 0 0l-22-22c-3.4-3.4-5.3-7.9-5.3-12.7C32 344 40 336 49.9 336c4.8 0 9.3 1.9 12.7 5.2c0 0 0 0 0 0l38.1 38.1c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L85.3 318.6s0 0 0 0l-48-48c-3.4-3.4-5.3-7.9-5.3-12.7C32 248 40 240 49.9 240c4.8 0 9.3 1.9 12.7 5.3l86.1 86.1c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L85.3 222.6s0 0 0 0l-24-24c-3.4-3.4-5.3-7.9-5.3-12.7C56 176 64 168 73.9 168c4.8 0 9.3 1.9 12.7 5.3l32 32s0 0 0 0l78.1 78.1c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-78.1-78.1s0 0 0 0c-3.4-3.4-5.2-7.9-5.2-12.7c0-9.9 8-17.9 17.9-17.9zM31.1 211.7C12.9 219.1 0 237 0 257.9c0 13.2 5.3 25.9 14.6 35.3l15 15C12.2 316.1 0 333.6 0 353.9c0 13.2 5.3 25.9 14.6 35.3l22 22s0 0 0 0l16 16s0 0 0 0l33.6 33.6C119 493.6 163.4 512 209.6 512C305.9 512 384 433.9 384 337.6L384 208c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 25.4-98.7-98.7c-9.4-9.4-22.1-14.6-35.3-14.6c-20.4 0-37.9 12.2-45.7 29.7C99 140.9 86.7 136 73.9 136C46.4 136 24 158.4 24 185.9c0 9.1 2.5 18 7.1 25.7zM360.8 478.1c-11.7 12.6-25 23.7-39.5 33.1c5.4 .5 10.9 .8 16.4 .8C433.9 512 512 433.9 512 337.6L512 208c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 25.4 0 45.3 4.7 4.7c2.9 2.9 6.9 4.7 11.3 4.7c8.8 0 16-7.2 16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 129.6c0 70.7-51.6 129.4-119.2 140.5z" />
-    </Icon>
-);
+const HandsClapping = createIcon("hands-clapping", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABzwAAALaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHiENQsGAAE2AiQDCAQgBYMtBzUbOgbIHoVxM31EEVQajemtIoLIv/++ei7XcgRHAEIyovJ19KJdfzkVw2PFfr+9LyLNDFFNXxIi3sQa9XnGG0P0ZhIKQyiETNV2z//l+BYfHeC3wxM7lD3K7gWyaKytCygKMM0maC+gscASDDQBa3De4IOuDuVHyMd15FCSLqY3HDffNH7WyAFJPgeAqAkARi1I9eLhh/gh4i1DvDIFBMRoQEuEHHJoisBQcoGmFFqCvLzgh8gy9h/YEgKIIuynTyCPMv4nKgPIg6SYVxiMxslBnaoojYpslYJu8lx9xgE6W493U/pMvdxgG/CuvODq6rm6OcHUY935wdcfOlwvE2er8A2I+AasE3R56E1LxfDh4Yrd2I1EcME3OHRmeu1kva4Jq9Mz1e7sMChehTiWmb7edMfpjKOGgR5XTCbMt+X3vM/nfFwQIdXnIkcOxgOaH+cqD2E8rsAMXDp+uy2rb58t6h33gNZ3LRd/rV6temXGo+q/P1QfKaBsl91enTlUQf5QcSiz+nZp9YNSes8mSko9T3dQk23bLi9fqIl/ME9rqcWfpbnAPOd3Ll2aB8iazHlCoNi2uAzTpjWyoQ/0NTuHvKpZ97ffPGuhpAW+DoReE3QGMemg3Otvevb85nWukZGl+Kn359frjvz223z12Una2gvXa/tM52k++pkKBVUFQCCY2fKBd7DG0H/LVWSAnx7//q/oN5i9TNJdlCUQ5LpmXfUlkAgAQIoNgQQEkt+dz0ut6pwAoTICJEWVBchpwoJAXmVdEChorhSBosrmkIu8FqGu/gwkVW0AOf1tgry6rkDBUI/horoh/wSEB1j4A01tKyKtq3y9uvdsObhla0UiPtWcNjmk5WC341be0QluxIRFC9aMGzNtrUCs6I2tm9fWhbf6IJ9CeQr4VPFNrl9VswUm8FdNN0vTF6nmWz4Us9HdPw6DMjZtb3lJIpLpG83NXb56eGlpemES");
 
 export default HandsClapping;

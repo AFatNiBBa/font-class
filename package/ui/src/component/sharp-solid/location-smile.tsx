@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-smile` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-smile?s=sharp-solid location-smile}
  * @preview ![location-smile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/location-smile.svg)
  */
-const LocationSmile: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 512s192-208 192-320C384 86 298 0 192 0S0 86 0 192C0 304 192 512 192 512zM128 128a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm96 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM95.4 267.1l33.3-22.2c6.2 9.4 29.1 31.1 63.4 31.1s57.1-21.7 63.4-31.1l33.3 22.2C277.1 284.4 243.1 316 192 316s-85.1-31.6-96.6-48.9z" />
-    </Icon>
-);
+const LocationSmile = createIcon("location-smile", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABewAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCAwsGAAE2AiQDCAQgBYMtBzUbCAXIjsQ4JvKLmEWPhw9d6fuSdsfeM4MMxBxsCbG+SZtxGeCCfJ869Tzn2YDPIQjK2La2b9Cke2gFKjZ8W7BWqhWsWkHr7rTDFqK5JC0iyXEux+MMWRxITyqQ3Jt8gSvpQ+MX9Z0kUTEFENUAMGzOjEneKY/yiM//f5H43AQExDCQC6RI0UiAgVKBRjI5MpmgPP7/H/8DcwKIIm44ARmKWIHNgAwksixrWrNmnbJC5Wy2f0pp1p0uEU+PiHi/R8TzTX+a/t3sH6Z+M/PBbs8Oe7fTk7XnX6gdccvRWjdL5+vcjmN175TNMloEMcMWTGYO6DvglvRaPVw3N9cvbrZ8pOdL7R+q0/yxao/dbfbF6i+8PaTaM7wznOkv8mEpps2aNc0hMWvW0QYvfjh8+jPvGHKkylnOVrEtuGVJ0947ur52esmYv/7ir9KYgstXjk6devTKZSAQLNy2ccCSqgN/rVCWgJ9fe1d5+P934mjyGCpIQJB2/L+jhXEUkBrAT0pit+ZxFIHEAhl+10puCxBKCJAoKgmQaqiaAJmSDgIUNNFLgKKSGVKRVRRqWdRAopJtINXbIZCp5XlQMNDHWVGtSDVN0BPho5c6WkKj9uXdOnfN++fTlioqDxdWB+TbetvdNNIOTlpti812WmWldXYKcrtJ5S6bjF7Bo3xRrpvOusr1lx937w/Ptsp2O6yzxea4ywD5/bit3evp7cBKMG13lURCJFVU1Oi046EDAAA=");
 
 export default LocationSmile;

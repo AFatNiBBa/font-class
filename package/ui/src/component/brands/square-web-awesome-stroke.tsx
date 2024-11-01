@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-web-awesome-stroke` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-web-awesome-stroke?s=brands square-web-awesome-stroke}
  * @preview ![square-web-awesome-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-web-awesome-stroke.svg)
  */
-const SquareWebAwesomeStroke: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm235 81.6L288 224l52.2-10.4c-2.6-3.9-4.2-8.5-4.2-13.6c0-13.3 10.7-24 24-24s24 10.7 24 24c0 13-10.3 23.6-23.2 24L304.5 349.1c-5.2 11.5-16.6 18.9-29.2 18.9l-102.6 0c-12.6 0-24-7.4-29.2-18.9L87.2 224C74.3 223.6 64 213 64 200c0-13.3 10.7-24 24-24s24 10.7 24 24c0 5-1.5 9.7-4.2 13.6L160 224l53.1-46.4c-8.9-4.1-15-13.1-15-23.6c0-14.4 11.6-26 26-26s26 11.6 26 26c0 10.5-6.2 19.5-15.1 23.6z" />
-    </Icon>
-);
+const SquareWebAwesomeStroke = createIcon("square-web-awesome-stroke", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCCAsGAAE2AiQDCAQgBYMtB0AbGAXIHgl27MhWxHD7Yzz8/1rlfb+q58wO4BLUMqMCgjDJuKh2QYV6TiTJ6K7a9wzx2p+45vmfP/15FPmjRfTmkeed5xOY6CzBBxQFNtMJ2PamGTuK2RFJZmqSjm8dZ3SGPN6Jp0qkt9IveMIfGv/o4iZJKQMQTQCYvXHtcuW2aIv4pYL4xVIExBxQCGTI0F2AaTKB7nIFcrmgLSoV+g8sCCCqyEMmkKOEQzgJyEGS5XnXrsNqS/X5htpSzdb77SNeSnG1w6va+njQ6Y3I4lrH1zV1i94ZGvHNwPr4bPBXXVK8OejLfnXx+ZCvu2brl69YvjBexzsDP+vyZr91gXBNfN51A2NyV9vPj5UO0HW/9n2+bvr6P78c+MXMKw13udswS+1GtZWaZpo/VJQPm5trZhEp+nv1cjlksvHVHVav7tB+zsSLno06YNQzdua0txevHj/Zcn/qdPp0J38CgWDFh7+2s3Ha/9W1Cfz13aVfUaUtyulrVEsgyIZVhtkWZYiyAACkuKBPlBFIdsnItdZ5LUCoQYCkSo0AmW6aBMjVGCpASU/jBahSY61M5O2E9rZ3PKlzGs9McAnPtfctXjLN94Uq7SMLNi5UuKde8gINzN9WjB4xqphSTNsaHz9MXp9aLNuDLpixwbDTASedcM5++xx2TkFnLC+fd9wCD5zviwqjjTBKYYpiu7eVN2DhjLMOj8X9TaYqzmcHueDPHgxeIrRj1CWJSF3uK/+lvjV8d2Fi2Rj+Z65zdD8=");
 
 export default SquareWebAwesomeStroke;

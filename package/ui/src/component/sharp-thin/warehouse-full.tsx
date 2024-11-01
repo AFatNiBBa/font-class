@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `warehouse-full` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/warehouse-full?s=sharp-thin warehouse-full}
  * @preview ![warehouse-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/warehouse-full.svg)
  */
-const WarehouseFull: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 7.4l2.9 1.1 312 120 5.1 2 0 5.5 0 368 0 8-16 0 0-8 0-362.5L320 24.6 16 141.5 16 504l0 8L0 512l0-8L0 136l0-5.5 5.1-2 312-120L320 7.4zM96 192l8 0 432 0 8 0 0 8 0 304 0 8-16 0 0-8 0-296-416 0 0 296 0 8-16 0 0-8 0-304 0-8zM336 384l16 0 112 0 16 0 0 16 0 96 0 16-16 0-288 0-16 0 0-16 0-96 0-16 0-80 0-16 16 0 144 0 16 0 0 16 0 64 0 16zm-16 0l0-16 0-64-144 0 0 80 144 0zm0 16l-144 0 0 96 144 0 0-96zm16 96l128 0 0-96-128 0 0 96z" />
-    </Icon>
-);
+const WarehouseFull = createIcon("warehouse-full", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCTwsGAAE2AiQDCAQgBYMtBzUbVAXIhiBaq4qs7pkF6iPuPcVIisgRuNMET+CehSaL6hVOXFM/zr8By1LwUXqZNI8Gyzzf+XCA0RpFE5oNbDqCCfj8dn4SBuEtknSdDsmw/Ru2f4Y8/rZDhfQofY8b+U3jV11cJskyAFEAYOrq5Qt9+VP8FPHd/+8R35mPgJgKSoEMGboLMEEm0F2uRC4X/BT//+//A0sCiCr80ARy1OI67gBykFTzvG+PHg11dQ2VpnxVQ6V+d4eOHbZGhxApRH1EZLEttpBkRKfYXqZXNNQ3mXU0yo6VAtAAiTcGPA0cqw96TTWob6h35rZh5/d+Ujz5vfX7Xd+b/GErjhl92lQVR9Qq1Npn8Ing3UdLjqiYaoPT+uOHtbVfgkPkhVp9PNbH4Ov//KIobha2KBRDmmvJAB4DU3QIp7hpiZvFTcEWN21p2Xxe7cD554FAsPXFbz9sbpnwV21DAr98/Oev9nH/f5nOpyeolUCQDfh/gA3pPHh+AF8pxSm903kEkvOq8KqN7gsQ6hEgqaoXINNNIUCuXn8BKnoaKUBVveUykdcJ7W0cdNLoKJ0Z5Qyda+8tXTHBV+mq9pHpo6lN5u9gzlkUnjmrHDpoSDmuFMu6pWJ6HB9fHgf7nAptfc1Buxx2yAk77bDXCUIdszB30kGzVshMH1QaapAhSuOU17X57lV2Oua4vQ47lCYZr3yf6OPUundfE0mgOMzKJBGp+fTWYzu11TXwywUA");
 
 export default WarehouseFull;

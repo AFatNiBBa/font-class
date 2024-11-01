@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trowel-bricks` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trowel-bricks?s=solid trowel-bricks}
  * @preview ![trowel-bricks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trowel-bricks.svg)
  */
-const TrowelBricks: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240.8 4.8C250.3 10.6 256 20.9 256 32l0 72 89 0c3.6-13.8 16.1-24 31-24l88 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-88 0c-14.9 0-27.4-10.2-31-24l-89 0 0 72c0 11.1-5.7 21.4-15.2 27.2s-21.2 6.4-31.1 1.4l-192-96C6.8 151.2 0 140.1 0 128s6.8-23.2 17.7-28.6l192-96c9.9-5 21.7-4.4 31.1 1.4zM288 256c0-17.7 14.3-32 32-32l160 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-64zM32 384l96 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zm192 0l256 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-256 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const TrowelBricks = createIcon("trowel-bricks", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABhAAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCOAsGAAE2AiQDCAQgBYMtBzQbPAXIjsN0WyePDGKIXBbP8fC037dzZ2bFLC3myTNRo1jH40La3zAL7XdMuoSGJ9X2fn5cvn8A2j8ZA53WLm0hSqEsus0prnL+r6kXdE0H+I0O7IiqqNKXPszEFJhYcdreBGYDm+kEbIPzRiVeDk0h/QIlbnNHA+la+sAZ96HxyYgOSUsGgOgGALbsalXg6U28iXivbhJPbQUCYgvANISMjHEIrEcUGEcyDRRF8Caqiv0HToMAohECnjxe0Ig5YB5QQFIKyTAKSswGNqlbPcYYuES0oYPZtrgauCS/Krqobo3r0daAONVgkp3CdMOuuDKw4/RQRKNtDbRvw4zBMPHe4OUR/nZbK9NAa0W2wmax4TBr8vXKOq/+NfNx6Jnv99735vWZOtwL9hfPc/58saLX2sE+yBO8f//38W70RKDHI9/vl/131qh1nuqsETiuN3E1tyc0TSyNQqtP8Fb4PAgEN9bNV3dz1/9pbiMAvLv37b/0K6qeJKmOZgkEeUm1xGACiQAApNimTBBITiIJ79rusgChFQGSRq0CZGN4EChaLYZAg0keCDRqtQ1RFDqEfkMIJO0Og2ydXVD0uwEN1nuuNOqPfBMqt5DyC5iZ7aKZfdhhteMgnm0q6n0l6eUQ3uzot/mQAZ6EaSuWbZoyac5mh11XqW9Zkl1iMr4Ic7Cyw4Lw4c7Dw92mrNswZ8Wy3SUEX1/obS9PNkCfIHCucjZJRGJvHlnZmVq0jH8Q1gY=");
 
 export default TrowelBricks;

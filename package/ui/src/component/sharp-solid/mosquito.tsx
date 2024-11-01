@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mosquito` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mosquito?s=sharp-solid mosquito}
  * @preview ![mosquito](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/mosquito.svg)
  */
-const Mosquito: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M154.6 387.8L288 266l0 .2-67 87-5 6.5 0 8.2 0 53.5-40.4 37.9-17.5 16.4 32.9 35 17.5-16.4 48-45.1 7.6-7.1 0-10.4 0-55.7 24-31.2 0 62.9 0 32 64 0 0-32 0-62.9L376 376l0 55.7 0 10.4 7.6 7.1 48 45.1 17.5 16.4 32.9-35-17.5-16.4L424 421.4l0-53.5 0-8.2-5-6.5-67-87 0-.2L485.4 387.8C542.4 447.6 640 405.2 640 320.6c0-47.9-34-88.3-79.4-94.2l-153-23.9L449 161.1l13-13-9.1-15.9L429.5 91.4l36.3-40.1 16.1-17.8L446.3 1.3 430.2 19.1l-48 53L370.5 85l8.6 15.1 22.9 40L352 190.3l0-38.2 0-32-24 0 0-48.2 0-8-16 0 0 8 0 48.2-24 0 0 32 0 38.1-50.1-50.1 22.9-40L269.5 85 257.8 72.1l-48-53L193.7 1.3 158.1 33.5l16.1 17.8 36.3 40.1-23.3 40.8-9.1 15.9 13 13 41.3 41.4-153 23.9C34 232.3 0 272.7 0 320.6c0 84.6 97.6 127 154.6 67.1z" />
-    </Icon>
-);
+const Mosquito = createIcon("mosquito", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABkQAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiDHwsGAAE2AiQDCAQgBYMtBy8bngXILgpsIsOCHVfR8aPyaLOR6HE8uejH1YQRfL/fb899DzGJYlJpYqFQyTTxRJWQGCJRQ4ES/lApAXt+f9+c998XVr4LO9FoYGaTm0PcUKG22wEA9f87hDmhfdYGv1+cyrmchwL4HNc1LDhBFtDcHecV6HltDRqLSlCsFRyq0L1Fm2h0qVeSRDPp8coerzpDHn/ZJSGkx/QT9+lN468245BIMwAQtQHA+n5aAu4KCuL5IL7bBAHEOqAXgQxkoBMBlggQ6MRjIMcjKMT/7X9gLwRAFCO/MgFykIFX8AUgBySU83sVRUo+0z0jy9pPzyJKD10gtMRBKGfhDCDZbBCqINRRauIQR91JGJ2iLzOIMmJ39tR532Lbac8vc1PV51YlE8FxQxGhS4+r5CAikgUcRN8Kd/G8qDAWwkgoFyDNE+lx1LdjuuW463vsbLWn2XvTUZ4Wx3vKbwEbe4gj4auDBkfjXyWZAIPCMRGYcIMCyHT6Bwlc8SURJ2oPcHnidczO2vKcQ70Hfcx4ca+av08evvw6MKiKFjuMIQ8SGhIeDDF2tFRZdOXXFw+f4nVb8uLOajP0Dg956dozj1cgQMBG+4i8qCZkpRUcgN+3Hz78XzpNL6AUBwjIhj4kPw0DlkgAdopOVswHBUj2cPKxSssIEGTQIRGRQcaEBnIyzlDEnO/xYjJpBCiXgugqAOAotICAnwHg6ToEoRD3lohuCPSW1Tr225gUN6Kx09i4mwcLYstY41SR9uPBTKz0dVLNEbeiUpNG7SqUq9E+4K0S3A4N4jgs1hcxntx4YIKw7ex5faYKrdrUaNIYJwnGzpsOOvluR5wNB2Dixr0cRJI0HLe9o8lNAAAA");
 
 export default Mosquito;

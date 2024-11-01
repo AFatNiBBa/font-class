@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bus-simple` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bus-simple?s=sharp-light bus-simple}
  * @preview ![bus-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bus-simple.svg)
  */
-const BusSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 96l0-4.5c6.2-8.3 21.4-22 49.6-34.3C113.1 43.5 159.5 32 224 32c131.4 0 179.1 40.8 192 59.4l0 4.6L32 96zm0 32l384 0 0 128L32 256l0-128zM416 288l0 128-112.8 0L32 416l0-128 384 0zM224 0C155.8 0 104.8 12.1 68.8 27.9C33.3 43.4 11 63 2 79L0 82.6l0 4.2L0 432l0 16 16 0 16 0 0 48 0 16 32 0 0-16 0-48 239.2 0 80.8 0 0 48 0 16 32 0 0-16 0-48 16 0 16 0 0-16 0-345.2 0-4.2L446 79C428.8 48.3 369.6 0 224 0zM96 376a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm280-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const BusSimple = createIcon("bus-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABewAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCHAsGAAE2AiQDCAQgBYMtBzEbHQXIjtROd+RMJB7+86//9qlb3Q/6xP2mh8ohpWJnw9DZW5MKcSeLK/P/XPP5pR0d4Dc6lApKPZACz3w+gQlEUhQd8HxgM52AzdpVO7Uk0bwgpE667vHbx/eukOPpoEJ6Mo3784fGr/q6jyQXAKILAJbs2rZBrTM6I76tv0t8ax0CYikoBQoUGCDAfIXAAFmJLAs6o153/4ElAUQV3y6BjEZcxC2ADJJqzh1NTdOamloqbXlnS6V5X4jH53286/s5H/YUrdpa20RrxBGhGYfb9n63+ss+PUKkEC0toAfigytaoSd7xVNrv965+/X+T418pc+TI44JO7849K0ub/0+5NuT3xp8KOd8x8M/HIrD8crbd1bcVd5FjZp3Pt/MKx067/PBJ2LN6p+7y/bookuXyboodTHZn1u8oQvPsEfW3QdjxpyLO2/c0rPnlkD27i1iPhAIXmxr0aGO+f83tiTwy0d//l1/Ruq1qKW30CiBoBhfZ3/UIGoCAJDiBkOjhkByUhVPtnpMgNAMQFLVDIX+ukDWbBxUDDKDvzyxTSFyk9DDAQJJqytQmOl2yHp4Gyrm+8Kr6hGF2YlGI/70pa1ckRXLyikTJ5dzy8dIlyyJj9N55bU5+gZfGSN7nXTJRdc54bgzrlvoqzaE17tg5Yla4YtKU0w0WWmu8nX6vn2nE6665oxLLqZF5im/d0e74dw+RpyEjFOtTBKRmo9ef22C4QI=");
 
 export default BusSimple;

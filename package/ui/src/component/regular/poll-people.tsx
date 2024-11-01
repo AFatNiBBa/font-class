@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `poll-people` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poll-people?s=regular poll-people}
  * @preview ![poll-people](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/poll-people.svg)
  */
-const PollPeople: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 48A48 48 0 1 0 32 48a48 48 0 1 0 96 0zM592 80l0 64-112 0 0-64 112 0zM272 32c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48L272 32zM592 368l0 64-240 0 0-64 240 0zM272 320c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-320 0zM64 128c-35.3 0-64 28.7-64 64c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32c0-35.3-28.7-64-64-64l-32 0zm64 208a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM64 416c-35.3 0-64 28.7-64 64c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32c0-35.3-28.7-64-64-64l-32 0z" />
-    </Icon>
-);
+const PollPeople = createIcon("poll-people", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABmwAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCaQsGAAE2AiQDCAQgBYMtBzIbawXIjtFLz3DCKZMUhFE6Huqn7e3+JJP5HHTXPaiqutDVaIxvXSEFc8LRLUbc8ePeuw/NeoPgOiehyg0MhRHQ/F+O793zowXy+UTODmWM0QZZfi/aSwPJSrBobCqRLMwiToTaXcUySWkfSVpiJB6/dY/PnaCJb7yBlnyl7APX6U3jn4QmUlsAIKYAAByeBXrD5jmeB+6N5oh3nkBAHAJgBaKgYAGCHVSBBTQrQKMR/OD/P/4HEhBAdEBPS9Cg4gFvgAakvqHxsCVdTJRHlIvOQwsJPyAnckBlXGlUvF95THVCKh5QDUSuhFFhxC5xwFeRbmUenBDrlUIcEO1R4U6ex0JG1RAnxetGBBcXdjK4pDGtwgl+0j8ITlCY5p++ld9P2Yfaa05OZWUOJyePlu1otzywk7evq3cMMKTaAXX4oWcHTEbX1ncBeqD6sOVoY1AAYLrytrXxxkFexxEQGCS2R6/m2/raxwEgENSwuIjls3rtxygAf8v3b+V+o82so0wDvQRBWfvXEpV1ACAHUMgoAQXhgwLpQo9edeBJgFARIHWqAMU8fgga1SoErSXGEHSqI1TRsCHMiW4gDZyDYls1aMyZAa0dW/nOXFCVU1At4d8w1YXDzquIvo4esSDTiirqGxcnLcm2q1biO9TNRkiRK0eRZEnSFTG0gHepWDYXCXH2RYQ+HXoIC+S4fq+GQL5AofSxfL6IJXI/p6ZE7q9uAgqiXVeWkkiuz9jQ1mg=");
 
 export default PollPeople;

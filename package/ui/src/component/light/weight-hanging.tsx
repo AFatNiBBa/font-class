@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `weight-hanging` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/weight-hanging?s=light weight-hanging}
  * @preview ![weight-hanging](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/weight-hanging.svg)
  */
-const WeightHanging: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 80a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm112 48c10-13.4 16-30 16-48c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 18 6 34.6 16 48l-72 0c-22 0-41.2 15-46.6 36.4l-72 288c-3.6 14.3-.4 29.5 8.7 41.2S33.2 512 48 512l416 0c14.8 0 28.7-6.8 37.8-18.5s12.3-26.8 8.7-41.2l-72-288C433.2 143 414 128 392 128l-72 0zm-64 32l136 0c7.3 0 13.7 5 15.5 12.1l72 288c1.2 4.8 .1 9.8-2.9 13.7s-7.7 6.2-12.6 6.2L48 480c-4.9 0-9.6-2.3-12.6-6.2s-4.1-8.9-2.9-13.7l72-288c1.8-7.1 8.2-12.1 15.5-12.1l136 0z" />
-    </Icon>
-);
+const WeightHanging = createIcon("weight-hanging", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcgAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBXgsGAAE2AiQDCAQgBYMtBzUb4wTIHoVNmXs0kji55GRIZIy3L4Kn/Vjz9i9i0iGJeBPvVE2BZqVRITSxu5C03dH++pk77zv674dQCTaoAqhIbi6BFcyvgPnn/3J64/nRfP6NDm0sXLr4Ns9Rm3sJJNbLN0hgB5YFqrGlbmPJcK5rInoUj4ihPVSvkOMMvYBPeuA8Ajd5VvEfOoyQ5AIAoh4AwOJhZjJc/8InxEf2lHiHbSAglgDQD1FA7WZozFwb6MbTD2RZ8CtYVv8DKQggSoE/JYGMEuwApwBkkBSZJ3XRM3wpL4fhk8Jl133nXeOC047Lnil7Gdc8jkJO3A4si0aCU5oZTR4uGBcZKU6bl00FOKebIySOIcysNh9nNTNEglO6OX0hzusZhyPF0bv949mjr3PSMjjYQvB6q++fGXOqFYrqHCRvcaB8eUqNtYOYn7/1G9D2+2fMEE99ulPGsRNUH6fEEY5Gi9Z0+Wqw/i0ejxNAILj+/a+0VB71L2I4AH+eP//ri2xW4nGOgHIJBMUg66UoQYEegEA3RQ844JMAkWzhwlyr3QoQKhEgKVUpQKGLAoKs0gAEJXoFQ1Cq0i6uyGIIzYo7SKpdgsKYYZA1OwYlZty4pZqDG1d8VPC/upQYi0afov4+fjSCbitNCBVW9iPpserWkybuuAg1WrXoUq1KvS6Dd0gOujWL8bBoX0T58+GHikCv2+fzOap16FSvVYseE4m+N930+KvdYXCQcUgmSUSSRWLCu668pba+pRYA");
 
 export default WeightHanging;

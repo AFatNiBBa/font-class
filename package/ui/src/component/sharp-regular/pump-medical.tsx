@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pump-medical` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pump-medical?s=sharp-regular pump-medical}
  * @preview ![pump-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pump-medical.svg)
  */
-const PumpMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M136 0L248 0l24 0 0 24 0 16 64 0 9.9 0 7 7 56 56 17 17L392 153.9l-17-17-49-49L272 88l0 40-48 0 0-80-64 0 0 80-48 0 0-104 0-24 24 0zM80.1 512L32 512l3.3-48L56 160l272 0 20.7 304 3.3 48-48.1 0L80.1 512zm220.5-48L283.2 208l-182.3 0L83.4 464l217.2 0zM216 296l0 16 16 0 24 0 0 48-24 0-16 0 0 16 0 24-48 0 0-24 0-16-16 0-24 0 0-48 24 0 16 0 0-16 0-24 48 0 0 24z" />
-    </Icon>
-);
+const PumpMedical = createIcon("pump-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbwAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCEgsGAAE2AiQDCAQgBYMtBzMbFQXIHgflxjPNfm2UJX4EJ/HwsZa+v7t3k+wmKdKW+IrMqo7IsaqNLaFDYzK1ncrqy3ftkGaGVD09/9fUi+dHB/iNDi3KMrHBoxYlsOcTSZ+fbxyFs4nidmdzWIJ2KbHEQo5vOT4nyOJ5pELyNIGH6UPjrx6ukaikAKI9AOZt2bDKt7Zoi/hdf038tgIBMQ+UAilS9BZgplSgt0yJTCZoi3rd/geWBBBVdGcJyFDFcVwGZCCRZdnwdo39i0pztrmo5DuKvBCiKLrEuhgeM2NErI88RB5hoohia740tF/siObYFn0i77t50+Y8NkaxWSgKkeeckGelKHbOHwa0tm/9l8Pc/Hr27K3u2pubH3YFHcBkw9SsNddaNUd1131KvVarjdV5rPZBHKuRO9ST+AbG3rj2FHav6R4t3SGkzIcDgeDp3SEv9rSb+b+hSMCfD8Dlyvq3aE2OBgkI0lH1UXbGN6Wu0SoAAElcNkD4okBivwxda5NHAoQcARJVuQCpXtoLkMmNFKCir0kCVOU2SEXWKHS2q4JEk3MgNdlVkOnsJaiY6XtS1TlSjaP1hf7vJSzm6KJN5bgxtXJ6OS0URolIvzqjXJaGXcaR4XDUYWecdtEhBx1zkeHnrcovOWWxhC3yQ6VxxqgpTVce1/fCZmaddwHJMXO+jhnK+94wl+Xpw0FNEOF42xMJkTSdvXTq7Oj3Bw==");
 
 export default PumpMedical;

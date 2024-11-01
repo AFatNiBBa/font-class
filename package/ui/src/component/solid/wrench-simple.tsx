@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wrench-simple` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wrench-simple?s=solid wrench-simple}
  * @preview ![wrench-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/wrench-simple.svg)
  */
-const WrenchSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M132.7 164.7l48 48c6.2 6.2 16.4 6.2 22.6 0l48-48c3-3 4.7-7.1 4.7-11.3l0-135.8c0-11 10.9-18.7 20.8-13.8C340.3 35 384 100.4 384 176c0 71.1-38.6 133.1-96 166.3L288 464c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-121.7C38.6 309.1 0 247.1 0 176C0 100.4 43.7 35 107.2 3.7C117.1-1.2 128 6.5 128 17.6l0 135.8c0 4.2 1.7 8.3 4.7 11.3z" />
-    </Icon>
-);
+const WrenchSimple = createIcon("wrench-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYQAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBLwsGAAE2AiQDCAQgBYMtBzQbswTIjsM4JvwSjZOY4uFDD+r9JAs4K6kCpBOq7Q6c/tyyUpcCY/77m+f//NMHfPzda2PngSzwOc8T6DzcvgmywNJAPYV0m7hDDyl6IyRIIuKP8vhaIIsd6UElSK4lX+NMvmn8ro6DJMqkAKIyAAZPmTDem1/il4ivig+Ir4xFQAwGuUCKFPUF6CcVqC+TI5MJfomi4H9gTgBRUvkKCciQYgCGADKQiCzrUa5EhWxyuRJlZ/Qf0P9SrYFxJSL21bpS45P2rxrfbfeyl7ha/WKzsvG45uW6EZ92eN3kQce3+l6pcYnYW6PJ88rP/2x8cQfrFkXx9GlhWKkjyiyYuOG/35QucfzGx9ul3/zQiU4/fJNu9/GN4yVKf/P1fxsmLihzRKlhQCA4//2rpXMq9fundLkE/Pbp3//D6eJN7E2eo7QEBGm7op2ZsRdAB/BKSWzWJPYikOghgauWd1mAUBYBEiWVFSBVT2UBMmW1FaCEhroLUFJZE6QiKyNUN6tBorx1kOphF2Sqew9K6OczraTqkcYPd/vc9y15hEXDm/LOHTrlffKhpfIhwWi1bz6ttNoskdY0a7E1VttokYWW2WjIeuPNTVYZ4eHhHpTrrINOcn3ky+79+GSLrLfBMmusTnX6yverrWz201tTOwmgy8l3J0RSYcv6RasXLG3/BgE=");
 
 export default WrenchSimple;

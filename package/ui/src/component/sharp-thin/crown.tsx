@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crown` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crown?s=sharp-thin crown}
  * @preview ![crown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/crown.svg)
  */
-const Crown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M264 72a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm29.9 39.6l75.8 151.6 8.9 17.7L394 268.5l122.2-97.7c1.1 .6 2.3 1.2 3.5 1.8L466.6 464l-357.3 0-53-291.5c1.2-.5 2.3-1.1 3.5-1.8L182 268.5l15.5 12.4 8.9-17.7 75.8-151.6c1.9 .3 3.9 .4 5.9 .4s4-.1 5.9-.4zM504 160L396.8 245.8 384 256l-7.3-14.6L309 106c11.4-7 19-19.7 19-34c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 14.4 7.6 27 19 34L199.3 241.4 192 256l-12.8-10.2L72 160c5-6.7 8-15 8-24c0-22.1-17.9-40-40-40S0 113.9 0 136s17.9 40 40 40l.7 0L96 480l384 0 55.3-304c.2 0 .5 0 .7 0c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 9 3 17.3 8 24zM40 112a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm472 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Crown = createIcon("crown", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABjwAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCXAsGAAE2AiQDCAQgBYMtBywbWAXIjtRG+UVWEg//P/e9+9wkbwAoHxHKwLJuVKsIFJGdVVmFVfs+/9d8fkl3dICfj+BQsrdRBUV61/MJTKwskiY0O5yNJsg7mvfgQIZyoY4XyONHpytIz6TP8ZDj0xjR43aSLAMQzQBYdWDPNh/8Fr9FfPY/4jNbEBCrQCmQIUO/AEtlAv1yJXK54Lf4/3/xH1gSQFR4fkwgRxXuwcuAHCRFnteU62tq6oqGfH9dUXvWcxPe6Hl67Ju90/bt39cTXXEgnug4GPVxOJ7q2hcd0RcH4r66++r27T2wtz06Y3+81XdL55O197Y/7plxe6NNPBU/uLnjibq6OBQNcSRuqbsl7uvqN089KP7chFPOPDj63eZ3/xz1+Zmfq7qqY9eujjD87ZYnxZ5bjLjmFM3Nc0c7k2Zzrpr82yX6PZmX/mbGufv4MZ+40Jo79RUtw++1tLw33FLppckLfYLGXdPYw9s1Yf4MN0dZARFJuvGar2YczYf4t11i+ToQCD6c3tZ+omnpX9V1CfwxfCR93v+/pZXpXVRLIMim/j/V0bQSBD2AfIorjR75oEByi4L3rvWeFCDUIkBSUStApk+zALlaUwQoDJonQEWtPTKR1wjtjpUgqXcJyMx3A8i1ex8UlvooV9EeGViKQCVeFKatr0PrNpWzps8sF5eDLbkEaby5uqSc7U28Uo5Mwnud6SIXutwZTneOy2vUpbYVr3CB9WPkOl9UmmW6mUqLlau7t7fvd4ZLXeYcF7nQXmeJcv/YRFeOT5+EQ4nHOFtdkohU/OIRAAA=");
 
 export default Crown;

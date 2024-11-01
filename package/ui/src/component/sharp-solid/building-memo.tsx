@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-memo` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-memo?s=sharp-solid building-memo}
  * @preview ![building-memo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/building-memo.svg)
  */
-const BuildingMemo: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 0L0 0 0 512l144 0 0-128 96 0 0 128 48 0 0-224-32 0 0-64 32 0 0-64-32 0 0-64 32 0 0-32 96 0 0-64zM64 224l64 0 0 64-64 0 0-64zm160 0l0 64-64 0 0-64 64 0zM128 96l0 64-64 0 0-64 64 0zm32 0l64 0 0 64-64 0 0-64zm480 0L320 96l0 416 320 0 0-416zM400 184a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM376 304a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm24 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm64-184l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32zm16 96l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0zm-16 96l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32z" />
-    </Icon>
-);
+const BuildingMemo = createIcon("building-memo", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABjAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCagsGAAE2AiQDCAQgBYMtBzQbbgXIjsPGGcW4WtR4pRIP/7+W3vdnlgZSAlCsq8oyUa0tW1aAKCSBS4zYU8mqCs/G9L6tB7SXKkBSRKBgZASgQou2bij8Nv/X5Lu2owP8fARHJ3bAWStbU7RF1PMJDHBYmjah2XA2UdzRvJcGKbRbiLpCHr+zYxqka2kAZ4oPja/GOCHpZABiMACwfns8CPtudCP6/78S/TYAAbEeYDKCDBnGI2AVqsB4NJOBXC7oxv//4j8QQQDRFF6dQI4enMdtMGwnqfJ8RgdrJU806nybThQ7q3oyGWWEMRWcIkLA2b6yKPXSpTDlbCudMvDqKjqWoo5sy6Mxp9Pvxl7MSnCpdpIDK70yVsTWMhblFnp46vPBT9+n/O4YcPDtobCSsw7p0/yL/ZvMWYMqnGv/1mEduHO3jPTuuDMZQ13otvr25/aNXG40IUetpSDCDwwvrX0fzDiYDIxdk+m9fZWJ84BBlInXASAQfPl0eWV50Kpf7TKBzy9+fi+e8X+fDqXnaEsgyOb/n6/gJcExA8ikOECAv4pAclwlfNfKZQFCgQBJUyFAZhwGAnKFeQhomEiHgKbCZlSRd4Thig1IKrtBZqUNyA33DBpW+cg2DY8MOiXYkp4N0/1dxLcPVXIlmnG2q5IBTrDbFtzsC1eDKRE+CS1jIwtNDV2LDj0TLCwN+Zconx9CKnJKyAwPDx7qKZqdmetOO47vYoHXR4VWy4tFOEQRsi7VliQi1bevI/s1LgA=");
 
 export default BuildingMemo;

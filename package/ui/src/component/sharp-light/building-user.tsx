@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-user` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-user?s=sharp-light building-user}
  * @preview ![building-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/building-user.svg)
  */
-const BuildingUser: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 32l320 0 0 400.2L384 359l0-327 0-32L352 0 32 0 0 0 0 32 0 480l0 32 32 0 96 0 32 0 64 0 32 0 61.1 0 14-32L256 480l0-80 0-32-32 0-64 0-32 0 0 32 0 80-96 0L32 32zM160 480l0-80 64 0 0 80-64 0zM64 96l0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0L80 96 64 96zm32 32l32 0 0 32-32 0 0-32zM240 96l-16 0 0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0-64 0zm16 64l0-32 32 0 0 32-32 0zM64 224l0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0-64 0-16 0zm32 32l32 0 0 32-32 0 0-32zm144-32l-16 0 0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0-64 0zm16 64l0-32 32 0 0 32-32 0zm152 96l-8.4 19.2-28 64L366 480l-14 32 34.9 0 14 0 190.1 0 14 0 34.9 0-14-32-5.6-12.8-28-64L584 384l-20.9 0L496 384l-67.1 0L408 384zm183.1 96l-34.9 0-120.3 0-34.9 0 14-32 14-32 134.1 0 14 32 14 32zM576 272a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zm-128 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const BuildingUser = createIcon("building-user", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABsgAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiECQsGAAE2AiQDCAQgBYMtBzQbDQbIhofn7b4691W1Pnpq5DeEV3A6G5mpnIHpZo104Uh/4lief9q3dwI3UmRTtEWktcAL/ntso+Thg80milOnI4r06BMPKTLGtlUpHmf1eLxBGf/EbG2kx9M3OG1PFT8a6QGSsgAQFQA2HDu0x2e90RvxTett4hu7EBAbQRYo8C1jBFitEBijlFEqBb3RapH/gZkAoh2/MYESFXrxM6AESXdZTusa2DV4sQ9tIlVva5ZH9XLtVLPRTHEsioioNUTBinpztDGYrtUEOIsTPWjInBSoux5ucnm9Vt/sccz2a2JsXR8Q/eHqIyNGj5gfQ2IEykfFsFgYozqKy/bRscPrMfLnjz6z8oPl7415esX7qz4cX3ty2qtTXh752OSXpr4yauIb1Rs/T/jmom+Mf3b9+vUPG7/dNlk+J/tMlsf22GV/U7HfOT67+9P95Fpvv/Vn313VrVep9lfM0cqgleXT46sFTLbw6bqI/9Gzr+ObPnWGHpP+63GGT11n6OizJ036pEePhxxC3d83Lr7xxosbzPfUrrr99qtq7wcCwSUjfhp39oDVf3fWE+j/4Nff5e1an6V70hvolEBQzG7Ndka6B7AfMJviJhOdXxRIftANz9rwiAChhgBJu5oAhdEqAUo1swRoM84SAdrVHFKIsksY4sxCShquJRWWupNUGuJNUpvVPs+0GxJFsqtTVf2vmWFrDdhyLi+YOz+vzNOOU5O/St1clW87pt8kEzNw1UWudpUbXOgCl7qhwlxnT/5GV9rqwbb4Q9kCc82XrZTD/Vv7UWvmOte7dGwVP2WV/Hxkupv8+TPgTih3oZYkEan5OhjnfCUAAAA=");
 
 export default BuildingUser;

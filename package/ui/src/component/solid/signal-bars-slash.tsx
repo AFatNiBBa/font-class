@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signal-bars-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-bars-slash?s=solid signal-bars-slash}
  * @preview ![signal-bars-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/signal-bars-slash.svg)
  */
-const SignalBarsSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L608 451.2 608 48c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 328-64-50.2L448 176c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 74.6L38.8 5.1zM288 322.9l-74.7-58.8C200.5 272.7 192 287.4 192 304l0 160c0 26.5 21.5 48 48 48s48-21.5 48-48l0-141.1zM448 464l0-15-96-75.6 0 90.7c0 26.5 21.5 48 48 48s48-21.5 48-48zM80 384c-26.5 0-48 21.5-48 48l0 32c0 26.5 21.5 48 48 48s48-21.5 48-48l0-32c0-26.5-21.5-48-48-48z" />
-    </Icon>
-);
+const SignalBarsSlash = createIcon("signal-bars-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABgAAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCDwsGAAE2AiQDCAQgBYMtBzgbFwXIHomxLYr9GEUMHxE8vwZr3t9FxBd3bWYeoZFocB7KeTJPWOKHIGR+bu3QNfWDnp4K5IwerVeljZEW0VYCE4tokdlwNlHc4rabIiaNuofEDvJ4mx1QgnQ1fY7T0YfGr+o4QFImAxCVATB45tTxXn0f30d89jHiM2MREINBIZAhQ30B+skE6ssVyOWC7+PjR/EfWBBAlJS8OIEcJbEK2wE5SPI8b1Wlcq1yJSrkM8xzZec+qn6lxuZ4WOt6zTaRxbWal1o8qH6hdoopEaMQsWT2jOkzHjTTrta42Pxxrcv1YnqIGRFj5Y7LlhzqiLiwy13dpMmzys9+//MVn2vxsu2fzz9M/Eq1fLHzsi++7tTp6y+yUf52aRQ2Vq//9R/TJ7X2L3NnzXby9olKiX3hWHOn9DfVq3+j2zhxUYfUFgf49nEgEHy40POnhZX6/V+5BH58+Sdx5kcfT4fTM5SWQJC1+9jOvLRnB9JWfK8jdmiCv0kgWSSXvGt5lwQIZREgKamsAJl6KguQK6utACU01F2AksqaKhN5GaG6+T1IytsMMj3sBLnqXoAS+nntLKl6ZPDGQwv/u5d8xBgdPqjo3KFT0afYTGoFEGJtc9/itL7VDlnUGo+1wkYbbLPcMqttGxFbjPdst96IPXy4Hyp01kEnhT6K25nnw2dYboutVttog++nr+J9cys79iu3xqYkYewiKklEqhKUFO2DaVD7resWb10F");
 
 export default SignalBarsSlash;

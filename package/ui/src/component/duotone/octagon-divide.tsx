@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-divide` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-divide?s=duotone octagon-divide}
  * @preview ![octagon-divide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/octagon-divide.svg)
  */
-const OctagonDivide: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M.1 191.5l0 129c0 19.1 7.6 37.4 21.1 50.9L140.6 490.8c13.5 13.5 31.8 21.1 50.9 21.1l129 0c19.1 0 37.4-7.6 50.9-21.1L490.8 371.4c13.5-13.5 21.1-31.8 21.1-50.9l0-129c0-19.1-7.6-37.4-21.1-50.9L371.4 21.2C357.9 7.7 339.6 .1 320.5 .1l-129 0c-19.1 0-37.4 7.6-50.9 21.1L21.2 140.6C7.7 154.1 .1 172.4 .1 191.5zM144 256c0-13.3 10.7-24 24-24c58.7 0 117.3 0 176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24c-58.7 0-117.3 0-176 0c-13.3 0-24-10.7-24-24zm80-96c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .8 .1 1.6 .1 1.6l0 1.7c0 .5 0 1.1 0 1.6s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zm0 192c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1.1 0 1.8c0 .5 0 1 0 1.6s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32z" />
-        <path d="M224 160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm-80 96c0-13.3 10.7-24 24-24l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24zm112 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const OctagonDivide = createIcon("octagon-divide", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABuQAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDSAsIAAE2AiQDCgQgBYMtB1gb8gXIhof/96+vfe59Vau//RpmBGGoCERKRhMZQdJIB45r4Jy6SBoNMImHko8oO0V5ROkFDnosnP8iF2rCNLAvbjsms4RbKJeQ0KGIX/IdKqRn03d4GP8HMH7V5w6SugwgWgGwes+OTT46G2dTfFf7gPjORgTEGlAKZGQMCrBMFhhUKFEoBGdTrcbZqNVKAogqfmUZVFGHT/AjoABJVhRFR1PHmLbJUxsqTcXuhkr9gVt7Ip5uuL/rSbd0PlF/X/dTsfP5iQ3xYt8z4+rjpf5d93dFLEsHpfhUWXh28q54dXxDvDx1T7w+EPHclN3x2oT6eGHSznild9fzE+9vEOW6+756TwLXng8kHyC4JcStiLjF23nrw4ZkoF1aQN6qETxlzGutr/0++rvT3zkz0nwP9zQ33wMlW450bXvHtq5kyRUrN8Pcypsa591wg7U/3eqjtTUxr9HWNAE+gn8qanp4Zde2aazco1XBLUfg4LzxUUghEQJI5jRu3v0DP9qlCSEGgeOBQPDRgmeuPNKy7P9RDQmc//DPf6sfktpHSXoNoyQQ5Gm1aQ4mkAgAQIrrjUk8gkB2twKfa6OnBAj1CJBU1QuQDWgVoFBvqgAVw+YLUFVvhyyKOqHToY5JGl3FZAvcyBQ6vc9ULPNlqqozsm7W9KL2L5llwxBev66cPWNWuaRcrWkMGlQpZpeWhz2Trk96JntbnHaFy13rlJMuqqQBfbVN2etcZsMWtd4FlWabYZbSEuXl5lPL7iB1tWtctGy6vspS5fOJSa7fHj7Z8ycsOoeOLBMpcvcVJ649dsEVl093Wo7pNmNQ75zJFQAA");
 
 export default OctagonDivide;

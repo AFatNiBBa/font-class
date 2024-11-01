@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reddit` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reddit?s=brands reddit}
  * @preview ![reddit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/reddit.svg)
  */
-const Reddit: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256C0 114.6 114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256L37.1 512c-13.7 0-20.5-16.5-10.9-26.2L75 437C28.7 390.7 0 326.7 0 256zM349.6 153.6c23.6 0 42.7-19.1 42.7-42.7s-19.1-42.7-42.7-42.7c-20.6 0-37.8 14.6-41.8 34c-34.5 3.7-61.4 33-61.4 68.4l0 .2c-37.5 1.6-71.8 12.3-99 29.1c-10.1-7.8-22.8-12.5-36.5-12.5c-33 0-59.8 26.8-59.8 59.8c0 24 14.1 44.6 34.4 54.1c2 69.4 77.6 125.2 170.6 125.2s168.7-55.9 170.6-125.3c20.2-9.6 34.1-30.2 34.1-54c0-33-26.8-59.8-59.8-59.8c-13.7 0-26.3 4.6-36.4 12.4c-27.4-17-62.1-27.7-100-29.1l0-.2c0-25.4 18.9-46.5 43.4-49.9l0 0c4.4 18.8 21.3 32.8 41.5 32.8zM177.1 246.9c16.7 0 29.5 17.6 28.5 39.3s-13.5 29.6-30.3 29.6s-31.4-8.8-30.4-30.5s15.4-38.3 32.1-38.3zm190.1 38.3c1 21.7-13.7 30.5-30.4 30.5s-29.3-7.9-30.3-29.6c-1-21.7 11.8-39.3 28.5-39.3s31.2 16.6 32.1 38.3zm-48.1 56.7c-10.3 24.6-34.6 41.9-63 41.9s-52.7-17.3-63-41.9c-1.2-2.9 .8-6.2 3.9-6.5c18.4-1.9 38.3-2.9 59.1-2.9s40.7 1 59.1 2.9c3.1 .3 5.1 3.6 3.9 6.5z" />
-    </Icon>
-);
+const Reddit = createIcon("reddit", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABoQAAAK4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iCewsGAAE2AiQDCAQgBYMtBy0beAVRlM3JMtnDw/Pv2f/aJ+kgvR0yl3gS+Wt17LR446UCnlFR1qKljU9vSnPGK1DQ0sD+b7DnZSv+pi9gvzvbsxVhj0Ow2pL0O3Z8dpDHI3GmCumi9CrOyE8a3+h3LEklAxBtAFhqg3VW8+SX8WXEq/X7iFetgoBYGpQCGTIMCbCoTGBIrkQuF3wZ9Tr+B5YEEA14twRyNOIy3IKkrauq5Pn4xdrbO6uVWr5+tVLEB8tEPLNGxBsbvLfaa0s9VV7v3SWfXPXVdYs4v+f83nXi8Vm3xzY39EZcEEf1nD/p3K5zu66dcmNfxLMLnj+pzV0231WLPbbeB0s8Mf6G0Yun3SxXdD28fMRRvRdMjjiv+7zquqd0B4cLJ53cc35cUMaq653XFXFuce3AxQOm6Of1L3nhhMUx4fqe6wfO772BuInqueNubrv5u7Gvbv+qJ63QR/9ZHLWCFRx1Vn+fFSKGOF7iE2cusOAOjFts8fk2267tER7p6HjkkbYfH7xx1jUepahy9EXfLHkkTd2tE3/+eflYIerHTax3N3Hkkt/cdDRdjz06jsVuvLHt1s1qB3NI2+JX1o4/oK315JNrj01sPYHja1fOcvDBtdrJJ/lz74K/11zz72LvfKm7RkfvWioHAsHTP9ee2aJ10d+aqgl8/fAP/6BfUf3JJN2MJgkE2Yz6DJsmkAgAQIr9jUsQSM5TwY86xvkChAIBkgaFAJlBbQLkCtMFqBgxnwANCuvIRN4sdNmsg2SMvUBmfoeBXJd7QMWiXjAadEXmpZSPUZ/E+OVnaLmhcq5Zc8qFS9XTaMcjYneRcluasj9lpsKi7e1hd/vazrZ2su+E7G01ez+7Wd6Cl/NFpbnMMkdpYeVxuJxe33b2to+d7GH31GcR5X1tiv3t8qmgJow6NzE9gSs17L3dttvutC8AAA==");
 
 export default Reddit;

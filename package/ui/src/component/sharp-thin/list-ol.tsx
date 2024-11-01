@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-ol` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-ol?s=sharp-thin list-ol}
  * @preview ![list-ol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/list-ol.svg)
  */
-const ListOl: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M40 40l0 16 8 0 24 0 0 152-40 0-8 0 0 16 8 0 96 0 8 0 0-16-8 0-40 0L88 48l0-8-8 0L48 40l-8 0zM200 88l0 16 8 0 288 0 8 0 0-16-8 0L208 88l-8 0zm0 160l0 16 8 0 288 0 8 0 0-16-8 0-288 0-8 0zm0 160l0 16 8 0 288 0 8 0 0-16-8 0-288 0-8 0zM80 288c-30.9 0-56 25.1-56 56l16 0c0-22.1 17.9-40 40-40l2.1 0c20.9 0 37.9 17 37.9 37.9c0 9.6-3.6 18.8-10.2 25.9L18.2 466 16 468.3l0 3.2 0 .6 0 8 8 0 112 0 8 0 0-16-8 0-94.1 0 79.6-85.3c9.3-10 14.5-23.1 14.5-36.8c0-29.8-24.1-53.9-53.9-53.9L80 288z" />
-    </Icon>
-);
+const ListOl = createIcon("list-ol", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcQAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCDQsGAAE2AiQDCAQgBYMtBy4bCwXIhof/t/uvfW7Vg1bXb7Ga8AjKAEdvQsBB3khHkaJ583/N55d2dIDfT/zQIi0bYyCjLp3ARJsGMtzzKLCZTsD2PFdHDkZvs0bMcHw6PifI4xMXqJCeT7/i0fyh8ZthHiDJMgBRAGDt4f07fXkyTkb80nuP+MV2BMRaUApkyDBSgBUygZFyJXK54GT0evQfWBJAVPHlE8hRwyW4DpCDpJLnQxqNxqxWpZMfalWax4VWSzSbotUKVCNQOdjDOzH4nOKc99ZApDw1tBX3Dnm2deTBQU+7Z+CBGBgi4sAZDsez8cLgZyY1x3WL7h9jf73oV5OfLYqiPvQ5U+qF+iUJn/Japn7zbEueopdMflXu8NWbr/mfv2qFvo/f7kuKbrfo98Lxc/XJUVe/pVA/a/cBJwZV//zznAQEgm8f+eXns/ut+LveSuD0x3/9Rj+joncy/ktd1CUQZDN6M5yRKNTjPwEASHGTcYlCIDlHBV9r2zMChCYCJFVNATIjFALkmqYLUDHaQgGqmvbLRN4QBjqzgqTtWpBZ5E6QG+gdULHCD3nVwMjcjXMW7reXvElDG9eVc2fNKZeVwxrhPYiJs8vLZXXKTaFnKmx0katd5QYXusClblDkdXZWbnSlTTNioy8qzTXLHKVlyu3mrXxI5de53qW2uL/KcuX9cIqb5sOngpEw7TxVSSJS7bl6M6++AgAAAA==");
 
 export default ListOl;

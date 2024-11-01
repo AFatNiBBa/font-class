@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `candle-holder` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candle-holder?s=solid candle-holder}
  * @preview ![candle-holder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/candle-holder.svg)
  */
-const CandleHolder: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 192c-44.2 0-80-35.8-80-80c0-39.6 49.1-90.1 66.2-106.6C149.9 1.9 154.8 0 160 0s10.1 1.9 13.8 5.4C190.9 21.9 240 72.4 240 112c0 44.2-35.8 80-80 80zm-32 32l0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 64 0c17.7 0 32 14.3 32 32l0 208 52.1 0c-2.7-7.5-4.1-15.6-4.1-24c0-39.8 32.2-72 72-72s72 32.2 72 72s-32.2 72-72 72L24 512c-13.3 0-24-10.7-24-24s10.7-24 24-24l40 0 0-208c0-17.7 14.3-32 32-32l32 0zM400 440a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const CandleHolder = createIcon("candle-holder", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcwAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBaAsGAAE2AiQDCAQgBYMtBzQb7ATIjsQ4JvGLKEzi4WOt8v3unj0A6mNGx6AAQAKpcXecuNip2NTK6MmQd/z5v6ZePD86wG9X4odSYZU0W3v38wkMBzqL0oGmDWymE7DtztaKQ7FySIxYWo5vx+tygizupKcUSG4lv3A1fmj8p5lTJKqlAKIuAMYunj9TsRSliJ/l98RP0xEQY0EukCJFSwFGSAVayuTIZIJSlMvuPzAngKhA95iADAUsxSpABhJpljXpW61GoVa2qEah+uIP3SJet77T/U2TGzUuNrrW9VWzu11eDugiXGt0o0lEjViYoHk9DszOz0ToJrNDzXje/E7nGqEfV92mxtrbnZ42vdXxRYt2r+u+rvRr0y8PynU3sih6HTlSuaBq1QWVWN4rFm2sW+5Du9UulWr3MUbtc+dq/22AYbVq9+8/c8mojZVrzG3UaG4Xf0tBXuefjhuETATiute9dn1YXWfE/1VrJODfL638isrFKCavUVUCgrRHuYcVUYQoCgBAEoe0iyICiblS9K41XRcgVEeARIXqAqRaqCtAprruAhS0NlCACtXNl4qsmtDQygYSNe0FqUEOg0xDb0HBCF+zFRpGalySaUhPu/RJHJ24Lu/bq08+LN82VdlehLA8PD82uxzyQ11hq0122+WAjTbY6gDD95lZOGinSRI20Rfl+uqlj9wwubrzrC/C7D77bV2r+lWGy++nXRySJ3cFJ0Gs/WxIJERS6+/MzI6NPbeYNgAAAA==");
 
 export default CandleHolder;

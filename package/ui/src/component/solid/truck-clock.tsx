@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-clock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-clock?s=solid truck-clock}
  * @preview ![truck-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/truck-clock.svg)
  */
-const TruckClock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 48C0 21.5 21.5 0 48 0L368 0c26.5 0 48 21.5 48 48l0 48 50.7 0c17 0 33.3 6.7 45.3 18.7L589.3 192c12 12 18.7 28.3 18.7 45.3l0 18.7 0 32 0 64c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c0 53-43 96-96 96s-96-43-96-96l-128 0c0 53-43 96-96 96s-96-43-96-96l-16 0c-26.5 0-48-21.5-48-48L0 48zM416 256l128 0 0-18.7L466.7 160 416 160l0 96zM160 464a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm368-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM320 176A112 112 0 1 0 96 176a112 112 0 1 0 224 0zM208 96c8.8 0 16 7.2 16 16l0 48 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const TruckClock = createIcon("truck-clock", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABnQAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCdAsGAAE2AiQDCAQgBYMtBzIbdgXIhqDSVWW1NBNz0jLoAPkBmF0g67wHMhwmC3gmrnn+59+AZS32KP/rpMT0iDyfwM6rvWk+nw1sSAPnDbqbEIg7H1dnyOOf7Co10v3pPdxqfWj8aNBVJBMyANEBgI377rmzLZ/FZxHvNl8m3rUjAmIjqAQyZBgRYI1MYESuQi4XfBbNJvsPrAgg6pwfkECOBh7E04AcJPU831C2tg53l7XWfJ+yVmQP9kfcO701nu69e1CUcePMveN5Qogbe+92Wc9dRREPzXhuySuzXhhL73ym756h7PCyKCP2iSLs9ezwg0MPTHtq4L7B+6ceSRzPTOEydDw9vSm6z+VDERVncQOP3OeyQeQsb+SxB2Ofu3t3lMMX3dVTxD19Eff2T3qh44WfJ753zHtuy97nowUbLPjo/WyBxYYm7bSTSUPdKhu0XXddG6NXGi+8cNll/sZlqbljeHjDox9e5ji7mdsWO6z54WPfvPrqN4+FolPnF6dceOEpxbIPfx37nu8feWRsjDm+/x62fJ+nnLrrZ20LdIBw22eVYwP+PBAIrtt95IxD29f81igT+OKNX/8Ej2tuSZelF9CQQJDNac5xULoMIDOAeIpzTOqZYiC50+F+1xb3CBAKBEjqCgEywzoEyBVmC1AzZqkAdYU9ZSKfIPQ4OCeSFqcTmWUuJnI9XiRq1ngzVtcT2S2qucE0P4gZtykDW0+qFs5bUK2qOktS7V2n0qOrq9HOGefwlpnwpGOc6hRnOdpRjndWCT/DzsmznWybPnBrX1RZaJ4FKqtUs6vXD+/jaGc40/FOdYo5zmrV+oEZzunvPhN6EkdykawkEal8B81zv2g=");
 
 export default TruckClock;

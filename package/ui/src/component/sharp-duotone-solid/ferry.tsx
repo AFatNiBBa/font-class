@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ferry` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ferry?s=sharp-duotone-solid ferry}
  * @preview ![ferry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/ferry.svg)
  */
-const Ferry: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 448l0 64c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.6 18.9 80.4 18.9l0-64c-19.3 0-38.6-6.1-54-13.1c-15.6-7.1-28.2-16.3-42-26.2c-13.9 9.9-26.4 19.1-42 26.2c-15.4 7-34.6 13.1-54 13.1s-38.6-6.1-54-13.1c-15.6-7.1-28.2-16.3-42-26.2c-13.9 9.9-26.4 19.1-42 26.2c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-15.6-7.1-28.2-16.3-42-26.2c-13.9 9.9-26.4 19.1-42 26.2C38.6 441.9 19.3 448 0 448z" />
-        <path d="M192 0l0 32-48 0L96 32l0 32 12 16 12 16 336 0 12-16 12-16 0-32-48 0-48 0 0-32L352 0 224 0 192 0zM512 128L64 128l0 176 60.2 84.3c9.7 6.9 17.7 12.1 27.1 16.4c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5c0 0 0 0 0 0l1.1-.8L288 368l19.7 14.2s0 0 0 0s0 0 0 0c13.9 10 23.6 17 35.5 22.5c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c9.4-4.3 17.4-9.5 27.1-16.4L512 304l0-176zm-64 64l0 96-320 0 0-96 320 0z" />
-    </Icon>
-);
+const Ferry = createIcon("ferry", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABoQAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCcgsIAAE2AiQDCgQgBYMtB0YbigXIhof//Ov7farue2vene4hayD3QPqwc0gRo+9ISOHQEdwTlzt/Wwtw2b/4I+3G2Lo8nPM8gTgL56QyL8zQWjaH+UU8tBHiL1DFv/kmHaR704e4OfwPYPxosJtIujKA6AWAlft3b/XWt/Ftig/bLxMf2oKAWAWKQEbGMAGWygLDVAoqleDb1G7zbbTbhQCiUwpmrk7yhvvxOKACSRZVNXhG16ruHc1qH19QHxbqWvRXRDMG5iLqmhywt9FsiL1xZ/8nxz094e4J1wcWD4wJMS6udz65fcTA/RE7hEZENEN4Z6k86bm2yUY8NT4T3FXf0e+JsQ0NZ49+rtdzP4/68JQPvflmKWXmzOJNb9pR+Ytptjx87Vtp2fOW7PbZ2xv86Rv+mA5MtQwA0//Y9r392Zno8+3jUknLcVq05ky/3njiiTf+mpovavn0ykPDhV7DN1756fA6EAi+OvzoScf2XPpbt+4JfP/Krz/g57XfSq30HLpJIMhT21MdSS0Q4gB+VIpLjE4tLQSynbJ0W8NdAoQayiadajYbqhdbqU1hO4wwT7m4xW5ZVF1CP0cxmzScz2bzXc1W+nmJ7bDUO/lO/SKDqA5g+g9itnVTYO2sMmv6zLK47FZ0BtSpdnJJueybeInsmISXOsW5znGRk53kdBdNmAtsLV3sbOuOsLU+qJhlupmKxcrj+kvbPpq/wIVO37Y8n2aJ8n1qokuO+0/CwSSVnW1rlokUuXnKyRdccPm0mO7sObHEaAA=");
 
 export default Ferry;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `card-club` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-club?s=sharp-thin card-club}
  * @preview ![card-club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/card-club.svg)
  */
-const CardClub: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M368 16l0 480L16 496 16 16l352 0zM16 0L0 0 0 16 0 496l0 16 16 0 352 0 16 0 0-16 0-480 0-16L368 0 16 0zM200 326.6c10.2 6 22.1 9.4 34.9 9.4c38.2 0 69.1-30.9 69.1-69.1c0-29-17.8-53.8-43.1-64c.2-1.9 .2-3.8 .2-5.8c0-38.2-30.9-69.1-69.1-69.1s-69.1 30.9-69.1 69.1c0 1.9 .1 3.9 .2 5.8C97.8 213.1 80 237.9 80 266.9c0 38.2 30.9 69.1 69.1 69.1c12.7 0 24.7-3.4 34.9-9.5l0 41.5-24 0-8 0 0 16 8 0 24 0 16 0 24 0 8 0 0-16-8 0-24 0 0-41.4zM138.9 197.1c0-29.3 23.8-53.1 53.1-53.1s53.1 23.8 53.1 53.1c0 3.3-.3 6.6-.9 9.7l-1.3 7.1 6.9 2c22.1 6.5 38.1 26.8 38.1 51c0 29.3-23.8 53.1-53.1 53.1c-14.5 0-27.7-5.8-37.3-15.3l-5.6-5.5-5.6 5.5c-9.6 9.5-22.7 15.3-37.3 15.3C119.8 320 96 296.2 96 266.9c0-24.1 16.1-44.5 38.1-51l6.9-2-1.3-7.1c-.6-3.1-.9-6.4-.9-9.7z" />
-    </Icon>
-);
+const CardClub = createIcon("card-club", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiAAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCOwsGAAE2AiQDCAQgBYMtBzAbOwXIhof/X7O679evnHQlg1xDCMtEDgBUu0UjBmSTWnCZOvU856EF8ucRDsoatDbIAgmN3X1egQKPpb2QdgHXtAJWa2eX8oOeX6VL+STD5ofNBDnucamS9Fb6Gy/Uh4oe4zxKUhQAYigAtp5xykHdR+NoxF+dH4i/7EdAbAW1QIH9EwXYoBA8QVYjy4Kj0enof2BNANFgn5pARgMP4UlABknOuWvEosWtclA+vVVWV6QitaOIQRdXrUqkEK1BEUVEVGe+1vpo/mcTHhr/9qyH4u15n856f87HYx/0/tg3vTX3k5nPjBFVJVqtUDxOf2jM3jdmfzDqNQ+OHBmjQva8OfLVGR+OHh0jA+rr430qU43ia6/HtE+Hfto39e/L/3bDV0eNcKGjLrxgyFCqZ4YaemO+46Nd/4/oXja9Pfrrr2cXRXv6sm5yi2K2KKPx+iP+n2tsc6jmnqGaY+dueGh0P/0XXtjfP7rMDRfJ730+ouzvP3Jh306n6TtypL+/HP7Fe/kiDbkEAsGJs27/+YIhG/5pthI4/utAj/Qr6nTHg+lTNCUQFAs6C5wbD0I8KAAAKW43LR5EILlLZo/a9roAoUKApKESoDDBUAGyynwBSpOtFKChcopC5C5hpPMGSNpuAoVV7gPZSN+B0ga/xQ0jo4hCLoa4T2DyLoZ27qqXLlpSr6uXhc4HFlM219fb2pzbZTAXN13uBte71WUudZVbCbnZwew219nlwTt9UW2pRZaorVMf18+XT3eZm93iKje4XrdZr74fzXG7P38uzMRIl8kliUhdAa8sfN4AAAA=");
 
 export default CardClub;

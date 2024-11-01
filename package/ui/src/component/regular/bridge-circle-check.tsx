@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge-circle-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-circle-check?s=regular bridge-circle-check}
  * @preview ![bridge-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bridge-circle-check.svg)
  */
-const BridgeCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M56 32C42.7 32 32 42.7 32 56s10.7 24 24 24l48 0 0 64-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 128 0 240 0 88 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-64 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L56 32zM339.1 288.1c8-15.7 18.3-30 30.4-42.5C359 241.9 347.8 240 336 240l-32 0c-57.4 0-104 46.6-104 104l0 88-48 0 0-96c0-53-43-96-96-96c-13.3 0-24 10.7-24 24s10.7 24 24 24c26.5 0 48 21.5 48 48l0 104c0 22.1 17.9 40 40 40l64 0c22.1 0 40-17.9 40-40l0-96c0-30.9 25.1-56 56-56l32 0c1.1 0 2.1 0 3.1 .1zM488 80l0 64-80 0 0-64 80 0zM360 80l0 64-80 0 0-64 80 0zM232 80l0 64-80 0 0-64 80 0zM640 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-99.3-43.3c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L480 385.4l60.7-60.7z" />
-    </Icon>
-);
+const BridgeCircleCheck = createIcon("bridge-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABnwAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDBAsGAAE2AiQDCAQgBYMtBzobjgXIhocnvf//tSe5Sp4xj8anK6gi0IE9XLKCz/xf8/k9PzrAT1cEh5K5tKZIjEiBPd+b0G4YZbPk2XA2UdzZtjdFTEI7CI2xhzL+iWs1kW5LH+Oa4EPjR71dRtJUAIhOAFi0Y8s6734b30Z81HiJ+MgaBMQikAUKFOgnwFyFQD+ljFIp+DYaDfEfmAkgmkWvTqBEGx7Ak4ASJC1lmae0tbX17VI3tS+3103Vngd73TasDlFFHWv/SN/bh8toRB14Q4dDd4y5uarixZGP9hNz0btHPz59V+5D3W/qLS7K5RrnXtHzloi4Aysj2mS9Qzg9vAqudszF4yOenv16dfnMV8c+6aJxT816rb5izhsTnontt3S/qdvWuLHH/Li5Z7v9qNgy+PFOj/886ONjPzbjnk3du2+aaKGJhH/l+31opENrn8Yrg37rkj375Sf1zg2og1off/wi2p9RHK/z6090XqjzE693Pqjl1/9Pz1Lc+NnCaOWNFtp4UbX2loEjMrlrl+HDu3TNeUSvTuQfHv3YY7ffvmKFwj4PpdVNPvIREAiu+PyHtw90nPtba53A96//+ru8PDfeTRelx9EqgaAY2xhrb7pIBpMDSKY41+CVLwokd2gRvWs7NwsQKgRImlUCFPrqJECpMkaAJgNME6BZZYtClG1CN/takLRzBihMdz4odfMCaDLXe4lm3aIAVR7Q+A/FlOV9aNmyPGn8xDw7L9bVAvSxdn5O3u0aea7sG4UdHes0pzrbMY46wdk95Ezr0uc4xfI1eJkfyiYZb6Jstny69VjZ3kue6SwnzAvnFzFHvj8w0rnro0dhbxJRTlaWJCJ1fX2McT/1aOMeew==");
 
 export default BridgeCircleCheck;

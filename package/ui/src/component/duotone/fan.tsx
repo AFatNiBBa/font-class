@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fan` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fan?s=duotone fan}
  * @preview ![fan](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/fan.svg)
  */
-const Fan: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 253.4c0 1.7 .1 3.4 .5 5.1C17 344 102.3 396.4 189.3 381.5c17-2.9 32.9-8.4 47.4-15.9L224 480l0 2.6c0 16.2 13.2 29.4 29.4 29.4c1.7 0 3.4-.1 5.1-.5C344 495 396.4 409.7 381.5 322.7c-2.9-17-8.4-32.9-15.9-47.4L480 288l2.6 0c16.2 0 29.4-13.2 29.4-29.4c0-1.7-.1-3.4-.5-5.1C495 168 409.7 115.6 322.7 130.5c-17 2.9-32.9 8.4-47.4 15.9L288 32l0-2.6C288 13.2 274.8 0 258.6 0c-1.7 0-3.4 .1-5.1 .5C168 17 115.6 102.3 130.5 189.3c2.9 17 8.4 32.9 15.9 47.4L32 224l-2.6 0C13.2 224 0 237.2 0 253.4zM288 256a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M256 224a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
-    </Icon>
-);
+const Fan = createIcon("fan", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhgAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCIwsIAAE2AiQDCgQgBYMtB0IbNwXIngd2w8cRIkYoecLXvsTD92t9nvtez9T+nmXoBUAIAOqwTVQUgzALNhUZPQ8Pi2gqHeO0dDXwEYc7xfCVIe/zE9fUj7LcAD8IF2UcadlY4JnnExhgJ7XABGc6A9vubA+HrD2S1pCRdnx2fK5QxD/5STXSe6nxCv4PYPyrhydJWjKAaA+A+Vs3rvbVg3iQ4rfmF8RvViEgFoBKICOjtwCzZIHeChUKheBBajZ5EM1mRQBRhx+YQR01nMVjgAIkIRVFp/mdGrU2xZZGrdz6fGeMN93rko3otsK6Von3utzVv+vHQynEdFLjL/xW3u/J0YiNCfHW/EEfDNKI7aHe+cz7it/rIVEGJ6f99+xEpXetsGMb0SUN+Kz9/k8f+Q2a99s+y7NtS064Hb7Nqc28+esXtLy5w3lZ62euyXle285dWhYs//C8nrj2TCC1nX8gW75BtZ/fRqdcMB0YRczfB4Fg0FNv3dhu1v+tGgk8+rLV31HzqyR9hlYSCPKo5ii7EkgEACDFFQMSDxDINkloV2tvCxBKmEvqSi7rpT1XKI3kavqavLuutFEWRYvQ2W7mktbOc9kUt7lCZ59zNbP8mKrrHNn1jI5j/PllWyLhxYOq8WPGVTOqZU4zeZM+9c6sjh3DrsSa4bDSEWedcclhhxx3SUgvWJ297LQlGrnYF1XGG2OcygzVdfFx8RaHXXDRcWedyf3MVNlHhrmiNx8O7oSUTrAjy0SK3Diy/8zoF2xvw5aHCg==");
 
 export default Fan;

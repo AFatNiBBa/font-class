@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fan` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fan?s=sharp-thin fan}
  * @preview ![fan](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/fan.svg)
  */
-const Fan: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M257.3 146.7l-3 30.1 26.6-14.5c21.5-11.7 46-18.3 71.2-18.4c74.4-.3 134.5 53.2 142.9 126.3l-129.6-13-30.1-3 14.4 26.6c11.7 21.5 18.3 46 18.4 71.2c.3 74.4-53.2 134.5-126.3 142.9l13-129.7 3-30.1-26.6 14.5c-21.5 11.7-46 18.3-71.2 18.4C85.5 368.3 25.5 314.8 17 241.7l129.6 13 30.1 3-14.4-26.6c-11.7-21.5-18.3-46-18.4-71.2C143.7 85.5 197.1 25.5 270.2 17l-13 129.7zM512 288c0-5.5-.3-10.9-.8-16.2C503.4 189 435.8 127.7 352 128c-21.5 .1-42.6 4.4-61.9 12.3c-5.8 2.4-11.4 5-16.9 8l1.9-18.9L286.4 16 288 0c-5.5 0-10.9 .3-16.2 .8C189 8.6 127.6 76.2 128 160c.1 21.5 4.4 42.5 12.3 61.9c2.4 5.8 5 11.4 8 16.9l-18.9-1.9L16 225.6 0 224c0 5.5 .3 10.9 .8 16.2C8.6 323 76.2 384.3 160 384c21.5-.1 42.6-4.4 61.9-12.3c5.8-2.4 11.4-5 16.9-8l-1.9 18.9L225.6 496 224 512c5.5 0 10.9-.3 16.2-.8C323 503.4 384.4 435.8 384 352c-.1-21.5-4.4-42.5-12.3-61.9c-2.4-5.8-5-11.4-8-16.9l18.9 1.9L496 286.4l16 1.6zM240 256a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const Fan = createIcon("fan", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABlwAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCagsGAAE2AiQDCAQgBYMtByobZAVRVE3qZF8kOO7XNsE6gsYdha+fpXI+Hp63+3/XPjMf8LwvoaJYEZ0QoXOVOi7FMndw3nTHiXcp0rJNfMlQXrsxcVqFCnVAVrPm+zpgAUhsB2AsnJw69TznoQC+hSgxCY+Fi5auCTTneQQiGk9bolrBKlywgmDVqtvEp45AhI6IGGIS0vF5vEEX5PGeZcqRrqUvcZFfNH7WyDGSLAMQNQEwYubUKT7+Pr6P+KL0BvGFSQiIEaAQyJChqQCDZQJN5QrkcsH3USqV/8BEAFGePJZAjvK4hAfo34Eklud5j1WiBdXyGcsqr8x2c/OuH7Q0JrEO3F2WZ2ZYhaH+tg87EqNED9t9/6dNPyyabfvODMBSjCTZs7yfuNa8Qgmc1+v6np2tjGCMkv/+US+MESWC/4rUHJgRoRCOc7mWDMAhrhslLcxsPKz58NeyL1d8SecuXbo8FW0PLdm88nBVX/lJzbYV29bfWfWwLkysxTs/sv/PVayw8c23/ij74ujW2ipv0kLFTf+t3Vuj7P3+/cpsquxPbqpGrP7999U7UffqpzhVvfopNBCPdbz99baFNQb/W7FJ4Md3f//Z+BaVPk7SQ1SUQJB1LnU2L4FEAABS7NAyQSA5L8fPWtVlAUJlBEjKqyxApomaAuQq6yRAOc31EaC8yqbKRF5JqGv+AklVm0Gmr/0gV9crUM5gn7jl1Y0sO+ncot+GCWMRGnNU9OjavRhYbDOTSTiybQcVx2L7HbXTgU6tsNEG2yy3zGrbANliSrDdemM9eIw3KvTQVXeFgYpwuRZmgLvFVqttLr5nkOK+0d4Of7wDKYng9mQmySfF6orFGwA=");
 
 export default Fan;

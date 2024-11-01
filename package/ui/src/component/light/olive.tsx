@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `olive` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/olive?s=light olive}
  * @preview ![olive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/olive.svg)
  */
-const Olive: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 448C89.3 448 32 390.7 32 320c0-84.8 39.8-148.3 91.7-191.4C176.5 84.7 239.5 64 280 64c18.4 0 39.8 9.7 59.3 22.6c9.2 6.1 16.9 12.3 22.3 16.9c2.7 2.3 4.8 4.2 6.1 5.4c.7 .6 1.2 1.1 1.5 1.4l.3 .3 .3 .3c.3 .3 .7 .8 1.4 1.5c1.3 1.3 3.1 3.4 5.4 6.1c4.6 5.4 10.8 13.1 16.9 22.3C406.3 160.2 416 181.6 416 200c0 40.5-20.7 103.5-64.6 156.3C308.3 408.2 244.8 448 160 448zM0 320c0 88.4 71.6 160 160 160c192 0 288-181.9 288-280c0-56-56-112-56-112s-56-56-112-56C181.9 32 0 128 0 320zM260.4 132.4c3.6-3.6 11.2-6.2 24.2-3c12.6 3.2 27.6 11.5 41 24.9s21.8 28.4 24.9 41c3.2 13 .6 20.6-3 24.2s-11.2 6.2-24.2 3c-12.6-3.2-27.6-11.5-41-24.9s-21.8-28.4-24.9-41c-3.2-13-.6-20.6 3-24.2zm87.8-.7c-16.9-16.9-36.7-28.6-55.9-33.4c-18.8-4.7-39.9-3.2-54.5 11.4s-16.1 35.8-11.4 54.5c4.8 19.1 16.5 39 33.4 55.9s36.7 28.6 55.9 33.4c18.8 4.7 39.9 3.2 54.5-11.4s16.1-35.8 11.4-54.5c-4.8-19.1-16.5-39-33.4-55.9z" />
-    </Icon>
-);
+const Olive = createIcon("olive", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABigAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCLQsGAAE2AiQDCAQgBYMtBywbKQXInoWxY+3IsLnUhlzpR+g3Hh70ot5PMrOAsoBUsUIn1HCnu6uMbtGekWmXxVGgcSBQGo9pY/2iZX/v3x9/jcDzgBF9/q/5/KzpAL/RoUVZNUiUHt2t+vkEJlQ+at7zKLCZTsBm7fxXUEq/STpCkmHzw2YLWVwOqkRyMflxNn1ofKOR4ySyFEDUBMDI+bOneuNFvIh4vziJ901GQIwCuUCKFE0FGCIVaCqTI5MJXkRRuP/AnACiTODEhTOUcQDHABlIZFnWvUWtWlVK1bJ5VUqVq7w5LOK1Vqn7Mfjtf1cpHVU9WwgeIKoYVQXuNBqxpnHIOuAZM++LoRHP5n41+6P5j8I39vW1WdOuthMTPh/x8ZzV59uWjpu2qytbudOc2Q3QzSB36I3ccSS588LP1YncrDm/a/n+uvfdmDGaPqUaZ6634/o93+dfn+qFIQSo1Wf96alNW/z9lz/++sfrxej3eX90LI8fCyOKPlW/fvuj5/z3b3ufYoSiBlyePhnbq8/oPqNbzZnXunde1nrOgotffbW7/9GjF+l8IBC8+94nh5bXGPJbxSoJePX4h9/oZ6R4Ad9IbqKiBARpl6KLJfEGxBsCAJDEPq3iDQQSO2TkWqs6J0CojACJssoCpJqoKUCmss4ClDTXV4CyymZLRVZJqGtpBYmqdoJUP0dBpq5HoGSIt8KyupGqH6s87O8vaRxCYxflPbv1yAfl00rhNIqOs4PzbaXDPt/TkTdaZ7tt9lhrjY32ALnL1GSvrcatiLG+KNdTNz3kBsmPm/fyPGDvshvpsXA+z2D5/aCDfevhHVlPCGUv5URCJKXtrxMAAA==");
 
 export default Olive;

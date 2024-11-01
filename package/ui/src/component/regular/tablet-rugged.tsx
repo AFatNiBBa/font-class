@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tablet-rugged` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tablet-rugged?s=regular tablet-rugged}
  * @preview ![tablet-rugged](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tablet-rugged.svg)
  */
-const TabletRugged: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M352 48c8.8 0 16 7.2 16 16l0 384c0 8.8-7.2 16-16 16L96 464c-8.8 0-16-7.2-16-16L80 64c0-8.8 7.2-16 16-16l256 0zM96 0C66.6 0 41.8 19.8 34.3 46.8L8.8 59.6C3.4 62.3 0 67.8 0 73.9l0 76.2c0 6.1 3.4 11.6 8.8 14.3L32 176l0 16L8.8 203.6C3.4 206.3 0 211.8 0 217.9l0 76.2c0 6.1 3.4 11.6 8.8 14.3L32 320l0 16L8.8 347.6C3.4 350.3 0 355.8 0 361.9l0 76.2c0 6.1 3.4 11.6 8.8 14.3l25.5 12.7C41.8 492.2 66.6 512 96 512l256 0c29.4 0 54.2-19.8 61.7-46.8l25.5-12.7c5.4-2.7 8.8-8.2 8.8-14.3l0-76.2c0-6.1-3.4-11.6-8.8-14.3L416 336l0-16 23.2-11.6c5.4-2.7 8.8-8.3 8.8-14.3l0-76.2c0-6.1-3.4-11.6-8.8-14.3L416 192l0-16 23.2-11.6c5.4-2.7 8.8-8.3 8.8-14.3l0-76.2c0-6.1-3.4-11.6-8.8-14.3L413.7 46.8C406.2 19.8 381.4 0 352 0L96 0z" />
-    </Icon>
-);
+const TabletRugged = createIcon("tablet-rugged", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABegAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCGQsGAAE2AiQDCAQgBYMtBzQbHQXIhof/X7O671c1pwexhogUMCoghWyBJJCKGzQiZy2qXZvp7935t00f8CF+8rnPP8iisWi2xnkCnafTpyWQBhYWYIAJWOYtM61Hyn7JTDRJj1fu8esEeTyNW2pIj9Nv3GxPGn/q7DJJTQYgWgFg1urly5QrUYn4Vf1A/LIEATELFAIZMnQTYKpMoJtcgVwuqES1Kv+BBQFELYUTI+cbj+E0IAdJyvNW65pqmvNV6Sto3H2/fYp77UrxoEMWDzs2r7rSN+JZp75xjzjfvl8I+xCP+z1vao6rA152HRAPI+JCh/4RYec/6f+isdT7Tas3f/f6veu3zTcrLc5rUaG/V3VEhxKlFddcalyq8dJ+reyn3DUrSqUObNJC/arL94NAsOzj28+bW079r74pgT++/vs//hVVy1FOb1AvgSAbWh1qQ5QhygIAkOKU3lFGINkn0ccoeSBAaESApFajAJmuWgmQazREgBo9jBPA25fLRN4gtLPRQFJyFGTGOwNy7bwDNab65tVqFxnoeMjwf76U+R6at64YNXxkMblYVoaAI7YsTym2nYGn8tAgOmqXww45Yacd9jrhyGOWhScdND8i5nmhwijDjVSYrDhun/evstMxx+112KG6yhTFfXegU/HkQbSZBBj9XJFEpGY8lk4MO3Zy9+6dOwAAAA==");
 
 export default TabletRugged;

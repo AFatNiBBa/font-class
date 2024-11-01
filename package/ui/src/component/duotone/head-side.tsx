@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side?s=duotone head-side}
  * @preview ![head-side](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/head-side.svg)
  */
-const HeadSide: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 224.2C0 100.6 100.2 0 224 0l24 0c95.2 0 181.2 69.3 197.3 160.2c2.3 13 6.8 25.7 15.1 36l42 52.6c6.2 7.8 9.6 17.4 9.6 27.4c0 24.2-19.6 43.8-43.8 43.8L448 320l0 64c0 35.3-28.7 64-64 64l-64 0 0 32c0 17.7-14.3 32-32 32L96 512c-17.7 0-32-14.3-32-32l0-72.7c0-16.7-6.9-32.5-17.1-45.8C16.6 322.4 0 274.1 0 224.2zM320 192a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M320 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const HeadSide = createIcon("head-side", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABgQAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCBgsIAAE2AiQDCgQgBYMtB04bJgXIhof/t+v7fW5V93pTPUaNpAhWJnzQ6fwIUqZePxXinv7mn3ceBfhApDnOA1kg0ZznCeTlw6Yv4BLK9BvY351tBweTxyEtgnA82o7TDnl8k11WIT2YPsPt4X8A41ddXCZplgGI1gCYvWbFcm/Vo57is8bLxGeWISDmgFIgQ4buAkyTCXSXK5HLBfXUaFCPRqMkgKgKD85AFRXswmFADpKQ8rzdxHa1Sot8da1S7LjQKeL+2s0d7nW+/T3FTR3vi3h6bMT1pRGfLqzF98s/X/Vgh9nRsxQhHhj0Qj/EOTY9Hg91fWf1jvMdIu6t3dzp/rjQkIub/Bx9Xmr90u+9P9v9mZmNljdwQ8tkMzeqt/iGt4fTo97ZIgcPtpjX9817PNyq3aevtWtvlqJNmydmKS1yb2G3xZr+/cGymb1OHQeBYEFlSs8trab931RL4JdX/vwX/Y4abyXpJTRJIMiGNYbZmEAiAAApTuuTxCwEMksk8a3N3SdAKBAgqSoEyHTTWoBcYagAFT2NF6CqsEIm8mZCe5sKSJo7BjITnAG59q6Dimk+1KraRyZsuKjgX72YBRya31aOHjGqnFJ2bZmQH9TVp5bLyqDTNjYYJu12xGEn7bLTPicZctxy85RDFozg+T5UGm2EUUpTlNve9fBquxx3wj5HHKYmU5X31UFOj7MHQz8JMOaZLBmRImsjkuxwfRSGa22sXUXpJwAAAA==");
 
 export default HeadSide;

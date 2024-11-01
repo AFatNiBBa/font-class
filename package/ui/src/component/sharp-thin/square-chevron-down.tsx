@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-chevron-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-chevron-down?s=sharp-thin square-chevron-down}
  * @preview ![square-chevron-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-chevron-down.svg)
  */
-const SquareChevronDown: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 464L16 48l416 0 0 416L16 464zM0 480l16 0 416 0 16 0 0-16 0-416 0-16-16 0L16 32 0 32 0 48 0 464l0 16zM229.7 341.7l120-120 5.7-5.7L344 204.7l-5.7 5.7L224 324.7 109.7 210.3l-5.7-5.7L92.7 216l5.7 5.7 120 120 5.7 5.7 5.7-5.7z" />
-    </Icon>
-);
+const SquareChevronDown = createIcon("square-chevron-down", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABXQAAAHqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBMQsGAAE2AiQDCAQgBYMtBzobuwTILgpsdzQQDqaiEQ6iaC5+fM9FB9HPRfz3e3F77nsprdpE0YtCVqPpRqLoEmEwPhjRVSSD/vd/6l26l94r7ak/FurYtCe1VILw11rpW0VD1mSu/WoIs8T2dfc+dmn8408PePwv/mhj05ogC2TOzngFClpq6huo8aZWsGoFrbuzbdkOYa+0FEmOix2fM/R8MWWgPhW8zR+aUxveoLQGIPMAwO2nTQWEFi14Mgxy4gEQyG2AfYiGhm0IrtEJtuntA10XfuB/4P9AAgEySl+1QMcIrgL3AeigtN4nFjZshpn+ZMowudKkNpPK9PKUdSZpSSanpeLp01Y3hMH400oHrUDa5XDokOM/+B6DiryAHcwLVG7xGzl/B2MMuJbTc3lyC8c83kBLC0AQ3n3998rV+D9uK/Dr+xQ+PGgRxYFxBUI7Ho6NIoDRAX5S5bVwBIJylg6967T3EMQkAsqoSQHNFjcE3aQjCEbsKkIwatJDOukTYtm4gTLtGWgueIJu2QeMuObnj1qOzoGo66f+b/Gyhdg+yqYyVKNhqdI+QcTtOi1LkbuMonAS5g72rmamVq4GOVOimx15BjNfRLJSMkgNbTf3xztmzi5WDvZplzo670Xc54ujoEoU94xUKVJLjzCenCxn9/Nhn3Qt");
 
 export default SquareChevronDown;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-wink` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-wink?s=regular face-grin-wink}
  * @preview ![face-grin-wink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-grin-wink.svg)
  */
-const FaceGrinWink: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm349.5 52.4c18.7-4.4 35.9 12 25.5 28.1C350.4 374.6 306.3 400 255.9 400s-94.5-25.4-119.1-63.5c-10.4-16.1 6.8-32.5 25.5-28.1c28.9 6.8 60.5 10.5 93.6 10.5s64.7-3.7 93.6-10.5zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm165.8 21.7c-7.6 8.1-20.2 8.5-28.3 .9s-8.5-20.2-.9-28.3c14.5-15.5 35.2-22.3 54.6-22.3s40.1 6.8 54.6 22.3c7.6 8.1 7.1 20.7-.9 28.3s-20.7 7.1-28.3-.9c-5.5-5.8-14.8-9.7-25.4-9.7s-19.9 3.8-25.4 9.7z" />
-    </Icon>
-);
+const FaceGrinWink = createIcon("face-grin-wink", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABjAAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCMAsGAAE2AiQDCAQgBYMtBzUbNQVRVC6KZF8d8IbURzfEFix4BixiLKuwizc6p6jYF4b9qkMvr+Lh//fHt899930MhTTTuDqABichVEANrmBlmvz+/3H+fTPrO0tWptPWjLbmrlD1wQonNYb8PeBiOLPkihETwCGn+HmLA8bMWhSTm9cChj/hdHI7HlJKOAiIqvhb0tRNbZxHAb5RKGPj0kAWSDTneQIBZ+9tkSihTAOQmLN29oY36PVl0A9HSDJsbxjNkONBHFWSzqXXOJJvFb+0NyYpCwDRDACYvigZhrvv8T3iVXWLeGUOEBDTAbpBKAjSCQKTEAWcgaQbkGXB96gq+Qd2AwFEDf22BDJqsRPYB8ggKXPu2FEq5DPLxnlhw7LB4t2J6J0EXjbI93zQRdjlY/+LhoKvhl5B+yXEY66h8Jvps+Cn9Vw1KPJ2xi7MM61RrERb+ZaRcq9cSzfiayZb5kxbFBsm8Qp2aclIspakT7ZZSw9MipXI6HaPSHaet//v/nqZtMbfgMsYGw0bndyMBx/DP5m0v3E/05/daE83W/xwJkZ+OMShDfzxvU+f7z8Grjm048f9Ecb7b4ttZPHm8yaFBpovefHfx0eXt3btuvTyo4+fNA43a74AAsGBr2/dppP+1zVM4Of9f1PfoupJOo86CQTFoGqQbAKJAACk2EaWIJBsRKZ3beS0AKEBAiQ1GghQ6IgHgayBgRAodWGBQI0G5iGKXC+0kgsgaWQjKIwxAlkrl6A0yatVo1UUDsi7D//9S/Eg7h7Dw7V67MRTnwk+xaa+C2+r/YYxpyAoFLU09RXkVfSB7Aq7Aw2eFeH2IMxASw9zwsfRvZIBq6unMubPEUNc8H1TbriuVpBBoJQjeJJEpCave0KzfFOlqdm+slkDAA==");
 
 export default FaceGrinWink;

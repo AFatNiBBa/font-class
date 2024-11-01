@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-from-bracket` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-from-bracket?s=light arrow-up-from-bracket}
  * @preview ![arrow-up-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-up-from-bracket.svg)
  */
-const ArrowUpFromBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M235.3 4.7c-6.2-6.2-16.4-6.2-22.6 0l-128 128c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L208 54.6 208 336c0 8.8 7.2 16 16 16s16-7.2 16-16l0-281.4L340.7 155.3c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-128-128zM32 336c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 44.2 35.8 80 80 80l288 0c44.2 0 80-35.8 80-80l0-96c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 26.5-21.5 48-48 48L80 480c-26.5 0-48-21.5-48-48l0-96z" />
-    </Icon>
-);
+const ArrowUpFromBracket = createIcon("arrow-up-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABaQAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBRQsGAAE2AiQDCAQgBYMtBzwb0QTIjsO44TuyxeJXqQiitbDq2Q0Ab5hZASkmyxJInQsLF5ZPoK9YmP/nms/PmgrkA/hl+4EUyNHdqp9PYM+bGtNacGAznYBtd7Y0j7b2Ca2JJMfFjs8R8rgdVCDdTHGePzR+1cRJkjwDELUBMHrh3OlK3+N7xMfyM+KjqQiIMaAQyJChuQDDZALN5QrkcsH3KJfjf2BBAFGRoImThysnYCYgB0nK86btqlWokS/AN1ddeq3+vLjS4GqjhZHiaoPrjbKYH1cbXW+4YNG1hlfqi7udH/avES+6Pm4VYa68Uf9Ku+pxr+G1ptHmUe1Hv7e+oV9eP3x45Ihbt2jVurWaqPn9e80mKq95y3fD91P4wCqxYH3tQu31C2IV5LJPn3txvT5/ym4HgWDD4lP/raw17P/K1RL4+frP/+VfUbkUpfQIlSUQZN3KLIsSREkAAFIc0CZKCCQjJHKwumsChKpokFRUFTLN1IZcVV2hgpb6i4sH5spEXkWobzmApLrdkBngEOTqewIVDPMmrqh+ZK4kO4L8k8uYoJHxk4rePXoVQ4phoSjeIabRocVy0OmAaekMW2yw0w77rLfO5swreo/p2X7bTZhR431RobceeikMUWxXt+sXWG+PvTbbaQeNM1RxPurkwLx7Z5hOAvS5hF2JSA1W79mz82D3/bu6P7tc9zV7Vq/dun4fAAA=");
 
 export default ArrowUpFromBracket;

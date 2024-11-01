@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signal-stream` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-stream?s=duotone signal-stream}
  * @preview ![signal-stream](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/signal-stream.svg)
  */
-const SignalStream: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 256c0 68.1 23.7 130.7 63.2 180c11.1 13.8 31.2 16 45 5s16-31.2 5-45C82.4 357.6 64 309 64 256s18.4-101.6 49.1-140c11.1-13.8 8.8-33.9-5-45s-33.9-8.8-45 5C23.7 125.3 0 187.9 0 256zm112 0c0 45.1 17 86.2 44.8 117.3c11.8 13.2 32 14.3 45.2 2.5s14.3-32 2.5-45.2c-17.8-19.8-28.5-46-28.5-74.7s10.8-54.8 28.5-74.7c11.8-13.2 10.7-33.4-2.5-45.2s-33.4-10.7-45.2 2.5C129 169.8 112 210.9 112 256zm259.5-74.7c17.8 19.8 28.5 46 28.5 74.7s-10.8 54.8-28.5 74.7c-11.8 13.2-10.7 33.4 2.5 45.2s33.4 10.7 45.2-2.5C447 342.2 464 301.1 464 256s-17-86.2-44.8-117.3c-11.8-13.2-32-14.3-45.2-2.5s-14.3 32-2.5 45.2zM462.9 116c30.7 38.4 49.1 87 49.1 140s-18.4 101.6-49.1 140c-11.1 13.8-8.8 33.9 5 45s33.9 8.8 45-5C552.3 386.7 576 324.1 576 256s-23.7-130.7-63.2-180c-11.1-13.8-31.2-16-45-5s-16 31.2-5 45z" />
-        <path d="M232 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0z" />
-    </Icon>
-);
+const SignalStream = createIcon("signal-stream", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABoQAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCPgsIAAE2AiQDCgQgBYMtB1YbZgXIHoVxw12C0kQMMVnK9WN8PNTvx/7s3otK8w5JEx6SWCiWiZQEyVLFp1PCGypZ9P8jnbtPgn6DaigirtkRtVllbMswmq7E//xfTm8OOsDP1xILZU/N1ny+p5dAAtvGpl4WSEJlag3Om3DIIQ0h/Qw1/skeaCGviQfgLPofwHilrIfUUQAg+gGAtf3oUDhpUJPx8P+QeBYCBMQ6ACYhFBSMQmARKTCKMglUVdDkf5r4PwkCiFaIXldAK9pwCpwDKkihVopWThJYiKbiij3F4yf0V3SXlEd1FvWWVRB/d0h+SHFEKCicxT16jygMF8kNyvFiMH9pUaNTYV1jxngEFZ/EZK+pTxoMwkbkOF7gBjU75ONPY3keg/LQIxanm53BXZda/9B6yHuAp0fJnePjHcnyPfAUxy7B7OnuyirmNL2iDRTx2sTBqyu7p6xLMMqvQD477MnJ6BimG48wPmqkOaOjQeHALPIhg7Ypt81S7E7VsRlsksczNZ88DwCBoHxb2KRLuryJYgLg5ebrr37c//Qg1oF2CYIy/d9ESnoAwOQISGbUAXfth56BQHGAknxqtwsBQicCpFadAhQjpCBQdZqCQItxthBo1WkbKaoYhGGpPUjdTkCxoBVUww5Ai0XXqVbDQRpEkzEy/QZm9xujvosYSzMLxonZrGrNZsugp52Z036DOt5lCHdCnnJlauTKUahmJFUJzdYq5bcn+voihiUzFhhOmNuN5/a4UapKtcJ16/15nDHvhw3U7Q82hCFConXGkqIQiUh5P+YyNdtuUzvdR3HFan8BAA==");
 
 export default SignalStream;

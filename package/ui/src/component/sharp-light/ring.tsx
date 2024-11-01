@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ring` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ring?s=sharp-light ring}
  * @preview ![ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ring.svg)
  */
-const Ring: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 170.9L32 195c1.8 2.5 4.7 6.1 8.6 10.6c7.6 8.5 19.3 19.8 35.7 31.4c40.5-24 99.1-45 179.6-45s139.1 21 179.6 45c16.4-11.6 28.1-22.9 35.7-31.4c4-4.4 6.8-8.1 8.6-10.6l0-24.1C457.6 145.8 387.9 96 256 96S54.4 145.8 32 170.9zM403.8 256c-35-17.6-83.3-32-147.8-32s-112.7 14.4-147.8 32c35 17.6 83.4 32 147.8 32s112.7-14.4 147.8-32zM60.9 265.2c-11.4-7.8-21-15.7-28.9-22.9l0 98.8C54.4 366.2 124.1 416 256 416s201.6-49.8 224-74.9l0-98.8c-7.9 7.3-17.5 15.1-28.9 22.9C410.6 292.9 347.4 320 256 320s-154.6-27.1-195.1-54.8zM512 160l0 192c-21.3 32-102.4 96-256 96S21.3 384 0 352L0 160c21.3-32 102.4-96 256-96s234.7 64 256 96z" />
-    </Icon>
-);
+const Ring = createIcon("ring", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABegAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCAwsGAAE2AiQDCAQgBYMtBysb/gTILgbs5pNDWsIVQ9idoDHWzgy7tOX47RIjqN8P3bv/AgQaFKqwTRyRTiTWWELhOnV1rbAoHNlqguPHvfc+khvsJmNtbSkzqcktQYjKFQcAA34yUHuzMFf/uzrtNiDRcLpGMB2wAoY4E9Ba/6mUpj8B+YtTz3MeCuB7xIO2h8Y3SGiNzvOeBws8Jo2JJShYgSpeAau1Mx0U4RdJkvJJhvENkyuUeAXAk48xcTO9aXwx4IBUKgDRDgCs7mZi8PCLjxGv/7fEa+tAQKwBjEOoUGEYAguwAsNwxoGiCD7C/+1/IB8EELXoxQkKanECXAJQQCqljDYM9BJqWsqO39l4CLnf4yliWx9YW1ocoPk0iCfSIf8K7uiWXrTPfSPmYS9Cj8V83JEFcY8OzKt+/N2EA3m0cTJPxC9MiKf6tfCOnRnkKTX6EJzuBGPddDpWlH9+Pl6fzgqvx1WyQxHwv7WQwZ3t363bSHmh9Hfqm146zG7HVVP/cQ8Pyv+eTmdwf93+AkPv4/tfM/17CASCFx/2rg184WsICT5P/z/1N5TyGaJegqCa+o9qgiQAABk3CBMCaQcOnGYPTqPQCCDVaoTKECoUjSahxijLFbUabcKK0iB0q+mQmp1DZd4+FN0uocaCd79Wd1SSRssJ/dFL8I+Ibx5f0Or5Tv4y0RjhIcO0i79t8HuuoVB7oW9hbquna2Q7YGuxaGfGz6E+H8RnoKXH58Q/zp+35/WsbYwszOMsLvz7jtweP1ihbAwinBZLSWR5Jw==");
 
 export default Ring;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ferris-wheel` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ferris-wheel?s=sharp-duotone-solid ferris-wheel}
  * @preview ![ferris-wheel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/ferris-wheel.svg)
  */
-const FerrisWheel: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M128 480c5.3-10 10.7-20 16-30c10-18.8 20.1-37.7 30.1-56.5c17.6-33.1 35.3-66.1 52.9-99.2c-5.1-3.9-9.4-8.7-12.6-14.3c-4.1-7.1-6.4-15.3-6.4-24c0-23.2 16.5-42.5 38.3-47c3-.6 6.2-1 9.7-1c1.6 0 3.2 .1 4.7 .2c11.3 1.2 21.3 6.1 29 13.6c.2 .2 .3 .3 .5 .5c2.1 2.2 4.1 4.5 5.8 7s3.2 5.2 4.4 8.1c1.2 2.9 2.1 5.9 2.8 9c.3 1.6 .6 3.1 .7 4.8c.1 .8 .1 1.6 .2 2.4s.1 1.6 .1 2.5c0 8.7-2.3 16.9-6.4 24c-3.2 5.6-7.5 10.4-12.6 14.3c17.6 33.1 35.3 66.1 52.9 99.2L368 450c5.3 10 10.7 20 16 30l0 32-256 0 0-32z" />
-        <path d="M304 0L208 0l0 37.2c-24.2 5.3-46.9 14.5-67.4 26.8L64 64l0 48 0 28.6C51.6 161.1 42.4 183.8 37.2 208L0 208l0 48c0 22.7 15.7 41.7 36.9 46.7c5.2 24.7 14.5 47.8 27.1 68.7L64 400c0 26.5 21.5 48 48 48c7.5 0 14.6-1.7 20.9-4.8c3.6 2.4 7.3 4.7 11 6.8l30.1-56.5c-4.9-2.9-9.6-6.1-14.1-9.5l0-32-32 0c-15.5-20.7-26.2-45.3-30.2-72l116.6 0c-4.1-7.1-6.4-15.3-6.4-24c0-23.2 16.5-42.5 38.3-47c3-.6 6.2-1 9.4-1l.3 0c26.5 0 48 21.5 48 48c0 8.7-2.3 16.9-6.4 24l116.6 0c-4 26.7-14.7 51.3-30.2 72l-32 0 0 32c-4.5 3.4-9.2 6.6-14.1 9.5L368 450c3.8-2.2 7.4-4.4 11-6.8c6.3 3.1 13.4 4.8 20.9 4.8c26.5 0 48-21.5 48-48l0-28.6c12.6-20.9 21.9-44.1 27.1-68.7c21.1-5 36.9-24 36.9-46.7l0-48-37.2 0c-5.3-24.2-14.5-46.9-26.8-67.4L448 64l-76.6 0C350.9 51.6 328.2 42.4 304 37.2L304 0zM161.1 127.2c20.5-15.1 44.6-25.4 70.9-29.4l0 100.3-70.9-70.9zM280 97.8c26.3 4 50.4 14.3 70.9 29.4L280 198.1l0-100.3zm104.8 63.3c15.1 20.5 25.4 44.6 29.4 70.9l-100.3 0 70.9-70.9zM198.1 232L97.8 232c4-26.3 14.3-50.4 29.4-70.9L198.1 232z" />
-    </Icon>
-);
+const FerrisWheel = createIcon("ferris-wheel", true, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABwQAAALpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDXAsIAAE2AiQDCgQgBYMtB1QbAgbIBp7/rznv+3+Swgx4BHwQkZp4Ss0Cu9Z3or4z35nKrudk4pr6q6ZZ5IdOeGiViaPM8wlMNAsfeKIznYFtcN6EQw5pCOl3YMhtPR8HqHXqKrAk+h9A+UIs80ERrAEAkAgAAKB5356dOf9SXiq5GjgMcpVOgABICwBsBNCABhIQABqhESABAxswMBB4qQIBeCmBgA0CAOIkQk8D4ASCgKvAYwDAAEDhQAxjrBNU12thOUKNPtF2c7RpmcjhbFMQZG8CQsx2r3JvygHWeTMWePuqMlntEVn17k+ygiqZ412TtYYgZZd7Vexsl2HjvexKV4msOSew9njXxHsPJK+pAUmYsjn31luV0utAFdKn75GcXiK99yWa0reXaZlb8nr3FjrR9g3xqWO153HAS15gWecIpK5yS82WVcyW2QhcK13rYg0lq2cgISKp+yP2f0u5WnOVonPD1EdlUPW6M8UkUjg9g2IiD2784y9MRF97WmytbNnjAT6fjc3Mfn4GhEYd3KCbOaD46TUdOsBPv5k2Nj7fA3q0XGmtvJ9Iof/PxoORxWQwvbAznXldlbF45vtaH23a1CXUvi/r8I1pMqnv2HuyjQ/b+k6Kq2YlV1ZB3PDly86d/7/Wtv2GfOAPKkrLKYC01DTt0oIoQUQkdEA7/+PPR48+oKoyiNsA4gDy2r2uFxKGhjf6F2QpAF6f/PGZ+ncUOK9Q+4EgFAACOj+QzyAFgAIBAAAAlNSRqgBmI4BmLg6iUAirb5cEE3pQ4cQENfFEgAYmeaCDJCrucGLSE40YwQguBtODihCmgppKZoAGLg6BDhpxIe/EJdpcK02l8q8yXZsxrvU6u6Sw2G5gbza1KqMq18sN7dO27Do+lAM3UsNkJuFnFD7G4h+xp9G5VMtE2uyxWvNFbEoopBibBti3O891fUb5aUxn7Lrm/ioNsd8PZVO3PzkHOhWJzFJ2azSIEu2qGTVt2tjpBe7fVOBERj0LGt8AAA==");
 
 export default FerrisWheel;

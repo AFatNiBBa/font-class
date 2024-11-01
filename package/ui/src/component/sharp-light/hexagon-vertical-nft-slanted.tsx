@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-vertical-nft-slanted` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-vertical-nft-slanted?s=sharp-light hexagon-vertical-nft-slanted}
  * @preview ![hexagon-vertical-nft-slanted](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hexagon-vertical-nft-slanted.svg)
  */
-const HexagonVerticalNftSlanted: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 365.4l0-218.9L224 36.9 32 146.6l0 218.9L224 475.1 416 365.4zM0 128L224 0 448 128l0 256L224 512 0 384 0 128zM192 92l31.8-18.2L272 101.4l0 36.9-48-27.5L224 240l32 0 16 0 0 32-16 0-32 0 0 160 0 6.3L192 420l0-164 0-164zM320 383.4l0-217.7L296 152l0-36.9 47.9 27.4s0 0 0 0L384 165.4l0 36.8L352 184l0 181.1-32 18.3zM160 384l0 17.7L127.2 383 96 266.1 96 360l0 5.1L64 346.9l0-181.7 33.1-18.9L128 261.9l0-133.3 32-18.3 0 1.7 0 269.9 0 2.1z" />
-    </Icon>
-);
+const HexagonVerticalNftSlanted = createIcon("hexagon-vertical-nft-slanted", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABeAAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCKQsGAAE2AiQDCAQgBYMtB0MbPAXIjoTcROtHtnghOp6Ht+vr3FfVA7CG1MKINyOin66YOUjg1OpiYZ7/az6/50cH+PkIDiUaO0aRNst8PoEBns6ihUZRQJtO0KbRthdF1xCRfpXEFuo8ElqUh0rcl7xpvjHUPRR1BSB9ALDm0L4d3v4yXyYftl8gH9qGQNaCRlChwggBy1WCEWoNarXwZdpt8x/YECCd4AELqNEZV+JeQA2KVl337Dl88MjurZ71we6tbmdHDmZ/5EAOnXVo/6EDKdmfg6kOTZs8bUlkaaR7d+nWTWRqkhyJTEyyJHdqXJB9FTJ5v1i6jl1yxLIcSDItUmJsR5+O78Y870NP7P0Y5luXsuEn3rokSz3x7Re3ByY8KYy3xv2ExL9N8Lc7NX0aNvFJnfzkWc/ePvYjLHmrCf4B15rgJy/46Qn9cNZi1DVOavnJi4pRV7vXz4peChCEpc+0PznVe/lvXboX8PWrP/yUna79dt4uHeiigFBNb3M8b4NBB/hJJdcZm7cRFBdqwaX2cL+A6IaAopNuAirD9RFQ62aagJZRFgjopJt9Kqm7igFOVKDo4UpQWehWUBvgOdCy3DvpTgakIj6adOh/v4SNTWjDvGbOzNnN0ma0qmDoiQynlzWLxcnX2a4pfKHzXO4y1zjXOS50TQO5yo7ctS61cQre4Isac8w0W2OpZnPjrnBQmle52pLD7PZZlmmOdye7bnrwFK4UwJzro0UhZcQF595w5vzLL5vxWVp+2XnXzLj6kjOvBwA=");
 
 export default HexagonVerticalNftSlanted;

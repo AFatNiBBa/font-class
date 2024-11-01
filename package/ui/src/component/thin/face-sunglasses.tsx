@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-sunglasses` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sunglasses?s=thin face-sunglasses}
  * @preview ![face-sunglasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-sunglasses.svg)
  */
-const FaceSunglasses: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM139.4 337.4c-3.6 2.5-4.5 7.5-2 11.1c22.4 32 61.9 67.4 118.6 67.4s96.1-35.4 118.6-67.4c2.5-3.6 1.7-8.6-2-11.1s-8.6-1.7-11.1 2C340.6 369.2 305.4 400 256 400s-84.6-30.8-105.4-60.6c-2.5-3.6-7.5-4.5-11.1-2zM265.2 176c-.8 5.5-.8 11.3 .2 17.2l8 48c4.5 27 27.9 46.8 55.2 46.8l78.7 0c27.4 0 50.7-19.8 55.2-46.8l8-48c5.7-34.1-20.6-65.2-55.2-65.2l-94.7 0C298 128 279 141.3 270 160L242 160c-8.9-18.7-28-32-50.6-32l-94.7 0c-34.6 0-60.9 31.1-55.2 65.2l8 48c4.5 27 27.9 46.8 55.2 46.8l78.7 0c27.4 0 50.7-19.8 55.2-46.8l8-48c1-5.9 1-11.7 .2-17.2l18.4 0zm16 14.6c-4.1-24.4 14.7-46.6 39.5-46.6l60 0-50.3 50.3c-2.3 2.3-3 5.7-1.7 8.7s4.2 4.9 7.4 4.9l44.7 0-62.6 62.6c-14.7-4-26.3-16.3-28.9-32l-8-48zM339.3 272l66.3-66.3c2.3-2.3 3-5.7 1.7-8.7s-4.2-4.9-7.4-4.9l-44.7 0 48-48 12 0c24.7 0 43.5 22.2 39.5 46.6l-8 48c-3.2 19.3-19.9 33.4-39.5 33.4l-68 0zM96.7 144l60 0-50.3 50.3c-2.3 2.3-3 5.7-1.7 8.7s4.2 4.9 7.4 4.9l44.7 0L94.1 270.6c-14.7-4-26.3-16.3-28.9-32l-8-48C53.1 166.2 71.9 144 96.7 144zm85 61.7c2.3-2.3 3-5.7 1.7-8.7s-4.2-4.9-7.4-4.9l-44.7 0 48-48 12 0c24.7 0 43.5 22.2 39.5 46.6l-8 48c-3.2 19.3-19.9 33.4-39.5 33.4l-68 0 66.3-66.3z" />
-    </Icon>
-);
+const FaceSunglasses = createIcon("face-sunglasses", false, "data:font/woff2;base64,d09GMgABAAAAAAOMAAoAAAAAB0gAAAM/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQSEGwsGAAE2AiQDCAQgBYMtBzYbIQZRlA3Ga7KfBTkZNX9orRdRyFx5XDx4KCVKlNuibrbIeTNNKHJqmewrHv5/f3z73Pc+MYlvTQLRyGYksIGqM80NjFNnTQIjBA/9mHt/4HNDRZpoFK0blWbXIeLdJFLpNBGFgL+f9z4VYNQI1iANOBzgQCto2JiFIw2qWHf75efEEztw7gEWUFvS6iVvCZ0y4tTzUOIBfJAAxYM2Fq4JknRxac7zCizgaWtQrecF6hW1Ala2mlvjUOZDHPoQiVhBa4wez/V49ewIedyljxLSSckJ2M+L4xNmdkGSZRiiHq/KiPSUcR6diTMhXvwPIV5QDQExEigIZMjQigCDyQRakSsglwveiv8/8zcwAAFEKVDJ/yNHJd6DvwBykJTneUvdnGIwG0zSkpp8urSkcs5pJcTTwoI7YVMxWl7VLKpiKnlfvdrxTT3E6+IupooO607brdGChrvwoHa3piP6TmQndRzdi64Zqrp6RDtlFNW1VHXpeb0pTuorUmnsNtastjhtaYapccekxqk0Na6Y6mat8LhBa9E0isUM12KiOKKvSAuvWazW9qkzuKDq7x/DBKlX6W2TIY7oyv7+06WVVSZPnDI6uyfbjTEjaFnVvXWPA8p/YqOAlRjyefjzf1B2cDhZSpu/RzkAM9m2UcWtsg/mS0EpHrV+vSTM1w4LrWPzDSvp6f2eZwoKDi6eS2zTBR920fvmR19Hi7lFiosOT3+hgx63Nk6JHVyAFqlRP07++H3lPpq/sAbbATlcfLrmksiZTPvWAQ1FI4Z43OKPjIDtgcZFl6W2Uh5zOb387vwa1xbSAhK5+TmMDAKBYNV6erVTOfgqSxN4t3l5sb5F/zcS0i1QLoEg6/yPYa4EEgEASLGRdhIEkrf4SnG1Y95sqGRHUqoSmZbUI1epE0q0oQ9vXDyFTOQVQjPzgKTaGmT6shm5Zm6jxGAeJ6WaRRb1YsyKH51pYyUxZlKRGJcQkBVwWbJJgczX0ewAsx4xWVoisdFCVrGS9SxgPktYL+i1jMtuYAVjNfaYzxb0oCvdKRhI4a5+Xj2dBaxlHUtYxco2ziCK5+P2bNS7d4CVdM6eFCWJSHXv1IQuYxMrFy3/2wMAAAA=");
 
 export default FaceSunglasses;

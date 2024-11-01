@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-user` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-user?s=sharp-regular square-user}
  * @preview ![square-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-user.svg)
  */
-const SquareUser: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 80l0 352-26.7 0L336 320l-224 0L74.7 432 48 432 48 80l352 0zM322.7 432l-197.5 0 21.3-64 154.8 0 21.3 64zM48 32L0 32 0 80 0 432l0 48 48 0 352 0 48 0 0-48 0-352 0-48-48 0L48 32zM224 240a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm-88-40a88 88 0 1 0 176 0 88 88 0 1 0 -176 0z" />
-    </Icon>
-);
+const SquareUser = createIcon("square-user", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABawAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBWwsGAAE2AiQDCAQgBYMtBzIb3QTIhofv13o793XPT9IThg4zurh4QsWwRApY2Km1qFbP1KnnOQ8F8M8zxII2pi0NyMKx1nkFKtar1+u1aQWraQWs6jZebhD9gkXkCB4RQ3OheYE87sYlFdLt9Csu1g+Nv3RygaSSAYiWAJi5fvVS39WiFvFL/WPiF4sREDNBKZAhQ1cBpsgEusqVyOWCWtTr+h9YEkA0wH0lkKMRlmMjIAdJJc9bNWnTrFm10ixfV60U+1OWilgXRayJIrJotqGoFqOjGiP32Y1FClFtFpFFRLHmcec7Xe72f9Tpdsdbfdbdm/j55C9735/0xYTPyl7PWz7/p+ev+3518fiOHTu66HNcrfm62GHHku3fA7XdHdtbXxzhtMMIIy5Z7M0fO95fvfp+hxLW9291+9NPb7e6HggEVycuLLa3mPJ/42oCf37x33/yM1KvxXfpORpLIMiG1IfYEt9BfCcAACnO6RXfIZDMV4F3beqGAKFAgKRBIUCmi5YC5AqDBajobqwADQqrZSJvIrS1dYCkqZMgM855kGvrA6iY4gejQdvIWMVwgvnUJc7z0Nxj5chhI8pJ5TLXWaJQeT+53JYHnEu9gXLWPscdc8Zeexx0xiGnLLXPOmpeBM/1RaWRhhmhNEl5XD2fXmevU0476Lhj5ZDJyvv6AOfi6YGiJSAdJZYkIlVfpjSUjQAAAA==");
 
 export default SquareUser;

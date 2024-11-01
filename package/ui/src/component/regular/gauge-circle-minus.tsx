@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-circle-minus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-circle-minus?s=regular gauge-circle-minus}
  * @preview ![gauge-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/gauge-circle-minus.svg)
  */
-const GaugeCircleMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 464c29.4 0 57.3-6.1 82.6-17.1c7.4 14.7 16.7 28.2 27.7 40.1C333 503 295.5 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0C375.4 0 475.6 81.7 504 192.2c-2.6-.1-5.3-.2-8-.2c-14 0-27.5 1.6-40.6 4.7C429.9 110.7 350.3 48 256 48C141.1 48 48 141.1 48 256s93.1 208 208 208zm0-56c-30.9 0-56-25.1-56-56c0-22.3 13.1-41.6 32-50.6L232 120c0-13.3 10.7-24 24-24s24 10.7 24 24l0 181.4c18.9 9 32 28.3 32 50.6c0 30.9-25.1 56-56 56zM128 160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm-16 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm208-64a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32 208a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm224 0c0-8.8-7.2-16-16-16l-128 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16z" />
-    </Icon>
-);
+const GaugeCircleMinus = createIcon("gauge-circle-minus", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABqQAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDGAsGAAE2AiQDCAQgBYMtBzkboQXIBp7n9erPfckqs0ZWxIfZwahklOrs+ftTz3OeDfg4BEFZq3vamIAfu4ZWoGJ7WAB7XqwVpGLeo3kvDkJoF+pwAbr8kcXYgFqjbgGLgjeVN/gxHRQ2GgAA4goAAJR2aNPIuefyXOSm9TDITeoBAZBSAEwE0AANCEQAKEBDgEB0TEBHR+C5WK3iP9AEAQCxJXJMAaADDsBW4BQAoAOgsNP1aB+PqDHAyWLjpLfPDjTazctf43fNeNJ0p+xC+6flF5vvdnjcTuXnGnMjxo62f9Ryr+3jVvfbyRZvkZX+m6JF1kVv9kM2B632XB7RfoqPyCrLPK8VTO42GHO9V4ophkSwsCiIDh12EO2mJMf25p+ceInc44m7mZywK+eYMTfvRNIesaz0NmS55wovi6zyCdvhuuNd6K3+t7C6JPTc/Mm3oJopS/x8qaba12/JlGo6S1lGvNi7ja57ZXiU1nSspoPs2CHa6MAFvChn5H/4YOf+7DBerVp54QXP3O0+/B856YfzbJjtjBDRwTqccLeYLwy5G22C6eEeFeXuYZrRPUQUnjs/n0ym8N8BgAACrwJvlvdwKfhmb1EAvDzx4bt82npOTVY7AHsUAAJagjWBrmoyAOYKAJSVjCds5YMEUGzCjmibIysRAAQDWlDYYoBGAK6gYxAPNgSTud0WgzZoiO6A4Ek3BApHRoFGFhNAx5ODYEMBV0u2eIoGtArIKY+MmVV9rHKWmZqUYuaZi0itwqFkh/PN3f6Y8bIpFi+lPyMYzlj60ZdBjO2xo2msjmMYVWt4JV/EJJUkUjDJwzzdkfH89vRjNGMYxAiG+2nyMe9PxzB+vXMsDiki3jS2KBSIch/Qa9yAfomv97gT/3ZvjQEA");
 
 export default GaugeCircleMinus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hard-drive` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hard-drive?s=sharp-thin hard-drive}
  * @preview ![hard-drive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hard-drive.svg)
  */
-const HardDrive: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 48l0 240 480 0 0-240L16 48zm0 256l0 160 480 0 0-160L16 304zM0 288L0 48 0 32l16 0 480 0 16 0 0 16 0 240 0 16 0 160 0 16-16 0L16 480 0 480l0-16L0 304l0-16zm320 80a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm32 16a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm48 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64z" />
-    </Icon>
-);
+const HardDrive = createIcon("hard-drive", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABegAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCEAsGAAE2AiQDCAQgBYMtBzEbEQXIhof/n3u/fW5SAM5npCEHhK66dggdG5E1lkC/iWuef9pTnhf5mzxWLkujQJ6WdT6BAUb7MAkGNtMJ2MytcYgTDWOPoEJE1hjR43ePbzfI4wsXVZHeTz/j1f1D41d9niLJMgDRCoB1Rw7s8m0ZZcRPlY+In+xAQKwDhUCGDIMCrJQJDMoVyOWCMioV+Q8sCCCq6RsTyFGHG7gLyEFSk+d1dX11HbncUNWUH66n6k8ITRHRmK5Md5BiQ5NIdH1jxH3n3up8u+vdnne6Jz3WGfFW/Qvd78TjPe82vNj1tgZTcq0+YymiSCFJNo8fax37fdzPl3/W8upfyi/9pTQqHxllZcm0am3oX+Kjhn9U65o9ZXNzCbFK83M819z8nDfXlNCpvw4Egqo/Z3x1pmXl/7UNCfzy+Z+/nj8jlTJJY6iVQJDNrMx0MoFEAABSPGR8gkByQQ29q9E7AoR6BEiq1RtMZkArk6s3g6kybJESPH5AJvI6odMpMEmje0xmsYeZXKcPmCorfVet1hkZ4TS6aL972ZtnYNO6Yt7sucXy4rHp1jmkbMsrinBk6kNlaBquuuyO2x5wyUXXPDDh99nVeNAtmz1sky8qzDPbXIXlited1/OHXXKf+11zx+2+ygrF94WpHvInT0M8UcH5fEkiUj2f3VkUBgAAAA==");
 
 export default HardDrive;

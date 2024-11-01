@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `panel-fire` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panel-fire?s=regular panel-fire}
  * @preview ![panel-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/panel-fire.svg)
  */
-const PanelFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 80L64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l242.1 0c8.1 17.5 18.8 33.7 31.5 48L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 32.2c-12.6-1.2-25.5 2.7-35.5 11.7c-4.2 3.8-8.4 7.6-12.5 11.5L400 96c0-8.8-7.2-16-16-16zM293.8 311.3c-1.8 .5-3.8 .7-5.8 .7c-13.3 0-24-10.7-24-24s10.7-24 24-24c8.2 0 15.5 4.1 19.8 10.4c-5.8 12.1-10.6 24.5-14 36.9zM96 160c0-17.7 14.3-32 32-32l192 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-192 0c-17.7 0-32-14.3-32-32l0-32zm32 104a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm321.7-79.9L518 194.3c5.4-6.1 13.3-8.8 20.9-8.9c7.2 0 14.3 2.6 19.9 7.8c19.7 18.3 39.8 43.2 55 70.6C629 291.1 640 322 640 352c0 88.7-71.3 159.8-160 159.8c-89.6 0-160-71.3-160-159.8c0-37.3 16-73.4 36.8-104.5c20.9-31.3 47.5-59 70.9-80.2c5.7-5.2 13.1-7.7 20.3-7.5c14.1 .3 23.8 11.4 32.7 21.6c0 0 0 0 0 0c2 2.3 4 4.6 6 6.7l19 19.9zM544 400c0-36.5-37-73-54.8-88.4c-5.4-4.7-13.1-4.7-18.5 0C453 327 416 363.5 416 400c0 35.3 28.7 64 64 64s64-28.7 64-64z" />
-    </Icon>
-);
+const PanelFire = createIcon("panel-fire", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABpQAAALKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDAAsGAAE2AiQDCAQgBYMtBzEbgQVRVA3qZD8OcjJXc0RdiCiao4jij0PExM4ynKHZXtY9RfC09jpvb5OUEVUVSkAF7OoQVYUiUv90NbPCe/Zzd/tL6oZYguTWVKqIJ17fGqFQKvN/zYto+niRGv38CM/udANLGuA8bc9HWDbd/F9TL54fHeDnIziUCsvi2wbU/XwCEwtvKhpIFM4mihucN/mQQlFIX0GO3/BGFelkeuKo+9D4oLUtkqoCQDQCACavXDpf8yn8NKLy/0xUzAUCYjJAJ4gCBdpBMA4h0A5ZJyDLgqfx/8/+AwEIIKr5qyWQURvncZ0uN/UqanJes9RtU7u2ujm1ik7uqVtFGa5Xn3akkeJYp8a5R4sX/0NCxGXwaaTHs/cuhrimHfEwToyuQ50X59J4yD8T9axbYpyyVDzUj0Hs0Y4oFDwwThC7r7Y+082RypIrk36zmVBTbOG7/Vv+N+5W15MJd3ouT2wkuxS66Doe6+buYx+MD+OEd2R6E52b3/Wv1k+p5oP18d+5XFfaPU2aNOlpg5bw9Lv7cA5caMymTMIk0B1T7dzJ4E9rl43U4Onq152Kxc2bt/Mb901+fKzBHuRIgyZLIVglIq3j8AwmUhbJQGfyeNs/95F61N3Xrl3tY2pZDjEtyluR7dWBuehQXc99unbR6htSI+j54dChDz17Si9n2OGyQCA4/R6trBHLXxSbwPMb31+2v/8PZE86oZYEgqLf/1BvWgEjBpBJsZ1m4osCyXE1/Gut55gAoQ4CJNXqCFBoiwVBVkdfCKp04IegWh1LESLXFprpq0BSzyZQGGEZZM38gCrj/KbVmkVxo3K3GfebmDyjiU6f1SmLU5CD0YqCv/cYPVmAxao78w4PLjFk2pQFgwaMZlQDn1PPLZpUmMLyfkjFzcFFJUK1uX53fo9Bc+aNmjZlp4lSHR+aLE33N0ODxCcdIi9JRKrzNSn9H3o=");
 
 export default PanelFire;

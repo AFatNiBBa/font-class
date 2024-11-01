@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `less-than-equal` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/less-than-equal?s=regular less-than-equal}
  * @preview ![less-than-equal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/less-than-equal.svg)
  */
-const LessThanEqual: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M401 78.2c12.3-5 18.2-19 13.2-31.3s-19-18.2-31.3-13.2L47 169.8c-9.1 3.7-15 12.5-15 22.2s5.9 18.6 15 22.2l336 136c12.3 5 26.3-1 31.3-13.2s-1-26.3-13.2-31.3L120 192 401 78.2zM24 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l400 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 432z" />
-    </Icon>
-);
+const LessThanEqual = createIcon("less-than-equal", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVwAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBCQsGAAE2AiQDCAQgBYMtBzYbjwTIjsO44TuyxVKG+BLx8P9r/9vnznw1RAcRs2ZRpeGVRvoNy/S/qCwi1NfMkLXv5/9mz3seBfg5gtDGpqWBtHmM8TyBxHp53aA7vednB5Yonm2TuCXpxTVCgiSiYTKHrQPyeBkpIz1PcLf9aPzR1U2SsgxANAJgzqZ1K7R3REfEz9KIn5YhIOaAQiBDhh4CTJcJ9JArkMsFHVEqhf/AggCiHL81gRw5BmMMIAdJyvPW2pqyunxj+lj1offdXvTfHY9aH7ftibfdXw7cG/v2v+nyfEBdvO/+YmBt30+Nn/72cZB7Z6bsf7hw1R2/Ghp+kXPhw/1TupxRfJf3rGlrW3NPfB0Egl61r7fuapj+r7Imgd9f/h89XeqI9vQJlRIIsuGl4bZHOwAdgJbior7KxQJJIQF/a60nAoRqBEjKVQuQ6a5RgFy1YQKU6WWCAOWqrZOJvEpotWOApNYZkJnoBsi1+gzKTPdVK9cambOQpib/anELJbRgrRgzcnQxtVjGOmV/PM+nFdvi4ItUG4JdB51y0nkH7HfEeYGctcK84ISFGrzAhQpjjDRaYariOHve3uiAs8454pSTdck0xX11sIt69xAoCWOO5UoSkRp8kB/he8KIVw0AAAA=");
 
 export default LessThanEqual;

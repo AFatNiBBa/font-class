@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `3` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/3?s=thin 3}
  * @preview ![3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/3.svg)
  */
-const $3: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M0 40c0-4.4 3.6-8 8-8l280 0c3.3 0 6.3 2.1 7.5 5.2s.3 6.6-2.2 8.8L93 224l99 0c70.7 0 128 57.3 128 128s-57.3 128-128 128L90 480c-38.4 0-73.1-22.9-88.2-58.2L.6 419.2c-1.7-4.1 .1-8.8 4.2-10.5s8.8 .1 10.5 4.2l1.1 2.7C29.1 444.9 58 464 90 464l102 0c61.9 0 112-50.1 112-112s-50.1-112-112-112L72 240c-3.3 0-6.3-2.1-7.5-5.2s-.3-6.6 2.2-8.8L267 48 8 48c-4.4 0-8-3.6-8-8z" />
-    </Icon>
-);
+const $3 = createIcon("3", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABYgAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBPgsGAAE2AiQDCAQgBYMtBygbtgTIjpQuZyTx8LxdX+e+quoBVAMYkaNZM4IUxOtMSH9XiP7UqeeZFgrgg0iyMbYGjgU2dvf5But5vRfvAqpPsFpFsbpN1uMRhl9ESJhFdDzh8XaCPNbapiDdn77FnfJR8as2rpFkGYBoDIDJK5fO9+EP8UPEt9XXiG/NRUBMAaVAhoH2AoyTCfoEuRK5XPBDVKv8H1gSQFTIoyeQI8N0zAHkIIk8H1+vaJCvqFfUze5t1SButLjbfFnUi8/Gv9f5sXHvTqsb13s807Zl3NPq3hYt4v7uT9erF2/0fbHTI31eGGELLS15ZdTnJ2jZ5YXGL/zu2x3fuq+yqbWiWz70i5dstWjqsKIYNnXRDh0uHng76bFlS4/k7rhxrXf468+aRo1q/vzrlKJ589X7ZDZVgECw45fZ321sNO7/2vUS+OntP9cbqzXVH2JSegG1JRBk/ar9rIsTCWdXIOkUJ3SJSfiiQDJegk+t7x4BQl0ESCrqCpBpp7EAubr6ClDoaLgAFXUtlYm8jtDc+g6S+g6DzAjnQa65V0BhnC+8iuaRxRETBcwvLnGGhqbvKwcPGFSOKaeZxoYGlRfHlttSrxPU6Y1BOxx0wDHbbbPbMUUeMT88br8ZHjHdD5UGG2CQ0hjlcfl4fIXtjjhqt4MO8DJjlfeNXk7443vjEAkw5AUociPFUAAAAA==");
 
 export default $3;

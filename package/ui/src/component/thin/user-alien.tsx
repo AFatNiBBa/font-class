@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-alien` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-alien?s=thin user-alien}
  * @preview ![user-alien](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-alien.svg)
  */
-const UserAlien: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M80 167C80 83 145.1 16 224 16s144 67 144 151c0 45-23.9 87.6-53.6 123c-29.5 35.1-63.1 61-78.9 72.3c-3.1 2.2-7.1 3.5-11.5 3.5s-8.4-1.3-11.5-3.5c-15.8-11.3-49.4-37.2-78.9-72.3C103.9 254.6 80 212 80 167zM224 0C135.6 0 64 74.8 64 167c0 101 106.6 185 139.2 208.3c6.1 4.3 13.4 6.5 20.8 6.5s14.7-2.1 20.8-6.5C277.4 352 384 268.1 384 167C384 74.8 312.4 0 224 0zM0 486.4C0 500.5 11.5 512 25.6 512l396.8 0c14.1 0 25.6-11.5 25.6-25.6c0-71.4-55.7-129.8-126.1-134.1c-5.8 5.6-11.4 10.9-16.9 15.7l8.6 0C379 368 432 421 432 486.4c0 5.3-4.3 9.6-9.6 9.6L25.6 496c-5.3 0-9.6-4.3-9.6-9.6C16 421 69 368 134.4 368l8.6 0c-5.5-4.9-11.1-10.1-16.9-15.7C55.7 356.6 0 415 0 486.4zM208 238.9c0-34.7-28.1-62.9-62.9-62.9l-16 0c-9.5 0-17.1 7.7-17.1 17.1c0 34.7 28.1 62.9 62.9 62.9l16 0c9.5 0 17.1-7.7 17.1-17.1zM145.1 192c25.9 0 46.9 21 46.9 46.9c0 .6-.5 1.1-1.1 1.1l-16 0C149 240 128 219 128 193.1c0-.6 .5-1.1 1.1-1.1l16 0zm157.7-16c-34.7 0-62.9 28.1-62.9 62.9c0 9.5 7.7 17.1 17.1 17.1l16 0c34.7 0 62.9-28.1 62.9-62.9c0-9.5-7.7-17.1-17.1-17.1l-16 0zM256 238.9c0-25.9 21-46.9 46.9-46.9l16 0c.6 0 1.1 .5 1.1 1.1c0 25.9-21 46.9-46.9 46.9l-16 0c-.6 0-1.1-.5-1.1-1.1z" />
-    </Icon>
-);
+const UserAlien = createIcon("user-alien", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABsAAAALlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDJQsGAAE2AiQDCAQgBYMtBzEbpgVRlA1GnuxHQuamj2aJe0S2XlnUDlFeHULxm/IUD9/v1859/y0i3tmEJbwSNRRC8VJNQ4JGxadvJu9QyeT/96f+6QF8F9qLEwstSmzsjmW1ohWkVnuSe3uTeDfYyO4kdT+doCoHsjyX5P9c8/lZ0wF+vjvhQ4uy1PNc0t4o8/kEBjgrjKKK5wU+naBtd7URU6J90SJIHr/b43cLyPFoDyfdpzs4zU8Vf4Z9SIoCQHRBANZ2ywL96qhH1MojomYDEhDrEKZgFHiOMRgsogJjmClIlgX1KEv6D5yCAogGjCZ3zmjGC74AGSSNOd8yMbDSUFfX4LLKMqlclmU9DwHOx1wNOpsypztlu+VYmmOsR3vCfmdP+jPGaU8CgTPJy077fttW47xXZ9PhtMuhxbPgc6np01bK2DRYqZnRY5ocV4POmgWuEia0V0POx/BPvBJ4xjRtxh7YsWYY05y227bimNSJXdcCxvUkjGFDe0K/k/O0NVtgS3dci2PTYddgQpuFzuoAkzYcvTSlOWbJ0APzHbHz3uxO6R2K00VoB+m+eLG7A6H48KEyIzHxeIS8vMd1MDIq5UMxuBGBe0T3EK2+s6P032CC8wmD/207O+qIvncvAi/e6TT0UYOOrJdlclerIgkIKEj6SKIAM6MitXYlW3rJ3v/BQCSWBH1WYTDDP6l+cL1DdEcaEEQimvOqw6kEpvpJ0BKpMZOX4oP0hucqJCEcVrK7A4Hg59z3Y57q4r8CT+D39eMf2F75je/0jCYJBEW1rGrjGzwzgJ+U4oQY3wgkTxqx2+bmNhZaaJA0aIHCKAGyFtNQMcFfoEGLTVTkZqFPByBpsw+FBW/I+nyhYtE/aNAXhepKiif9OabnEskGgZthQQLTnCJroxB7Uzg2bV9UI+NENDo7eRj0Fg9B3xSxp0O+ojJfBGwGC0jAdfF+dGNwc7c4O6V+UvDelbzWzWV0COadkZUkIrV872l6QfUynAAA");
 
 export default UserAlien;

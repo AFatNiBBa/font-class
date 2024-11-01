@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dryer` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dryer?s=thin dryer}
  * @preview ![dryer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dryer.svg)
  */
-const Dryer: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 16c26.5 0 48 21.5 48 48l0 384c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l320 0zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zM96 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm80-32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm0 336c-68 0-123.6-53-127.8-120l87.8 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-87.8 0C100.4 229 156 176 224 176c70.7 0 128 57.3 128 128s-57.3 128-128 128zm0 16a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
-    </Icon>
-);
+const Dryer = createIcon("dryer", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABqAAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDEQsGAAE2AiQDCAQgBYMtBywbjQXIjsN0eyOPcUhTpmi+Ivh+v9c9990AkQZAIXl8hEmEioyLQgvUsvGNMAWy1dXf/96/6tyPAfi6B4JCAAs6CBkkW5vBY6fFGy8V8LiuY+PSgoxJTWnOeAUab7zvm74CPxa+vSi+tTlu8A8HRWiQkKfsEGmY4oetLeRYxxGRdMO9A+f1Q+MffeMkRQGAaAQAmwdpCXj0mT4HvStdh/giDgTEFmAQoUCBXgRW8AK9BIMgy4Lf9P+//QcyIIAoR1svgYxqvMFnQAZJZRYMuuU1k73HUFFUFjLzRSpUPWgTLepztKK1YK5ERzpLBjyt6y5bKZfeWxOd6HG0anNqoUzHdmcNeVqzPWOplHGhvaC1pLOsi7kOomUa0VlSmNVawGnbomLWla7gFCcDImJLmHm5F2tED6SKpDF1Hwq0H/Qw6nnAfcmO/71wzC0T3XW6SCOOF3zvKMx637I/h9PR8z63FaVv1M58kbyrfIehj87vgVd+GMXrd+dgOH8fi0GqO+pAU/UwqpuadoJBFi7TpM8qKp8P+4TKNJzVMwA5aeAeQ1xZMXnCBRjaykZxuUzxIUKHXJyTw9xF0X07Wc2KgzQ5ZGkpceE4Kxew8wECwcDX+W9Fqv7/5RQ5wN87X3/101F6RI/SGVApgaAYKdkjPx4BhiZAS9FJKr4okNyq1K611qUAoRoBknLVAhR6qCGQVRtGoEw/DwTKVdvBiyyP0KpggKTWMSjMGQBZq6ugzIqXarnW4AOWCjfqfzE+0kMRU8zF0Zn5ssfASccgIYd+bFmw7mTBBhtQqUmjdhXK1XTMIa0SjA4NIhUc4YcYF46cMb7YdvyVz3RqqzY1c3Z/jB/2vmKtU9fbYA4OMPWpCfoiieUnPRWtAA==");
 
 export default Dryer;

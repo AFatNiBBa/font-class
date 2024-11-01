@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-camera` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-camera?s=light circle-camera}
  * @preview ![circle-camera](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-camera.svg)
  */
-const CircleCamera: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM199.2 142.5L191.7 160l-7.7 0c-30.9 0-56 25.1-56 56l0 80c0 30.9 25.1 56 56 56l144 0c30.9 0 56-25.1 56-56l0-80c0-30.9-25.1-56-56-56l-7.7 0-7.5-17.5c-3.8-8.8-12.5-14.5-22.1-14.5l-69.4 0c-9.6 0-18.3 5.7-22.1 14.5zM226.6 160l58.9 0 9.6 22.3c2.5 5.9 8.3 9.7 14.7 9.7l18.3 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24l0-80c0-13.3 10.7-24 24-24l18.3 0c6.4 0 12.2-3.8 14.7-9.7l9.6-22.3zM256 288a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const CircleCamera = createIcon("circle-camera", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABmAAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCZQsGAAE2AiQDCAQgBYMtBzQbaQXILgbsxuWDJrK1EaIsaM3lQ+Q/HJ8dKyse/n+t8r7fNVS9DLXM6IAwpMKKJBDaObGoYnd4oD/1ZVHOcyEOdy2R2gL8Jap4aS3t+SL4CqxrO/KlUFwh5W9dWjxNqtXzaPdjbMeHWp3ZJlzT5XstyPxf8/k9PzrAb0d2aFEFUoC1jOcTGGC0F9EsfaYTsLlsb1pjHWn2JTPRJB3ndDzRCbJ4B3sVpCcs4hbfafyldh6SrAQgGgFg0or9Eh9+8BPJt3UT3xogICaDQqCEEtoJMFZJoJ1MgUwmqE1ipN/ACCAqyR8jgQxVuA9eAJCBpCLL2rbt3r5pWa6fLS8r8jWXacRXg16h8sbM++Dz2de1L8L29pzXOP2xIOKHKZ9wsx9X359+XXzb+RChe1h+d1yd8K1yvijutxJP5INuZb6iH7UNPqMeds/ZJv4q533Rq2yUW8eP83jJisd5zpdd8NmqzGu67bJLFXyEQT3MH3FfiD4op683ev2fJM6/Rdzue9Dv/yb69T/0H+57Pf653IY79XZT+hm6c7vFVskduT7j+5qDT6lTVf89XT9xoWajfbUjtYs3Gth+QS9vYlHzG81nz7Y4gPKoB+1OOZfBZYcqhAYQ17Wv/xtvcMf+r5UJ/LnzS9+iur0gvQ5USyAo9a3rrU0gEQCAFMd1ToFAch0FvtV6HiIBIUeApFIuQElbjQTI5PoIUKGDYQJUyi1RElmN0Mw6BUk9h0DJcCdAppm3QYWxvogrNUvE0CQDi3wZxo0sNJxXWPoPLEYX00qnog0v02OKZa0+nrt6wVFsd8B+R22z1S5HDXLYvOyYfaZ78DQfVBikv4EKoxXbjcf9y21z2BG7HLC/zjJGcT7q6bg/uBeYiWAOlksSker/4BGLFwwAAA==");
 
 export default CircleCamera;

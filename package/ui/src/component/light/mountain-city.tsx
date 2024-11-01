@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mountain-city` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain-city?s=light mountain-city}
  * @preview ![mountain-city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mountain-city.svg)
  */
-const MountainCity: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 48c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16l0 160c0 8.8 7.2 16 16 16l64 0 32 0c8.8 0 16 7.2 16 16l0 256c0 8.8 7.2 16 16 16s16-7.2 16-16l0-256c0-26.5-21.5-48-48-48l-16 0 0-80c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 80-32 0 0-144c0-26.5-21.5-48-48-48L336 0c-26.5 0-48 21.5-48 48l0 92.1 32 53L320 48zM226 161.2L302.5 288 223 288c-5 0-9.8 2.4-12.8 6.4l-34.7 46.2-33-47.7L222 161.2c.5-.9 1.3-1.2 2-1.2s1.5 .3 2 1.2zM32.5 475.4l92-152.4 37.4 54.1c2.9 4.2 7.7 6.8 12.9 6.9s10-2.3 13.1-6.4L231 320l90.8 0 93.8 155.4c.6 1 .6 2.2 .1 3.3c-.5 1-1.4 1.3-2.1 1.3L34.5 480c-.7 0-1.5-.4-2.1-1.3c-.6-1-.5-2.3 .1-3.3zM253.4 144.7C247.1 134.3 236 128 224 128s-23.1 6.3-29.4 16.7L5.1 458.9c-6.5 10.8-6.7 24.3-.7 35.3S22 512 34.5 512l379.1 0c12.5 0 24-6.8 30.1-17.8s5.8-24.5-.7-35.3L253.4 144.7zM352 96l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32zm64 0l0 32-32 0 0-32 32 0zm-32 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32c0-17.7-14.3-32-32-32l-32 0zm96 96l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32zm64 0l0 32-32 0 0-32 32 0zm-32 96c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0zm0 32l32 0 0 32-32 0 0-32z" />
-    </Icon>
-);
+const MountainCity = createIcon("mountain-city", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABzgAAALaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHiERAsGAAE2AiQDCAQgBYMtBzQbSAbIngNuWzw9lycSOoSJ4Ing+BHs4nk+3f9vn0meJd9lviqiIi0d3uFFpRdaFpVUCjW3AyMVnjlDJRhKtAr/tnuz0YD/bJpK4BlF2nkRR1H5XwswcTltbF8gL56H8qNtc+FaNObWOu+iAOupuUSyaAhbg/M2X3BSSN9Cm79tDFGe82/xiP+m+c1sd1K0DYBMAsBuxxxxkM8HNki+/X/kWwcgkN1BFTRoME/AjhrBPK2KVisM8j/2HygEyDCDVsxuMR5/X8OcFhR92247ZY7MGps2Z8zSD41vjxYDu3OemdnnqUIofU8pAXOoTZ7X08u7JE/ryWkScuET3swnZ8mm5Mijjj6qy/25Y3bOMXkmHqhjjznymN3yFFyi90ifo3IrT3bjcr9um3lCL5Cdf2ye3c8tG593zgtzjj9G3Dr9qb7PA/1Mktv0dDeSz5N6MVVof+ST056a3sdieLWVHtUFTE2dPIm00eg7BpGlFr8/6f3f89u+2eWRCYNbGUx4FZ+yqyjAzL/57oc7yaEp+6GqR3Not9r4w1kn+pN/0qUH3myCFeijey1gooPvIPH5dic8A8172Xu08CnvOcFJzytFblCUfL/frPWVT7bz6G2vbrxBffW2RxOfPH2jap1w75tQuZJdqyFCQxeeMogJg6quhlfd8SmndBo54V5ATOXR+4Eg/HL7uPWUiTv+5VHArx/e5x/pW36rvw+jCgjN2v+HE8utNZQYQhj2kqsthj9kKP4gwFcd52kB0SGgGNYJaMw1SUCrs0bAkAW2EjCsc4RG2jExzUkxUIxzGdDY2k1Aa5oPgCE7+sI2bFqaV4F7I3N/RBPtncbvNam29Rvr9rUyLuTd3bBcv0NtLamrc3mr4AJnu8TFrnSWM53ngyn65Q5yXuUie9ex7/XdapP1Nqq2V3unzouOTtkvd4Xzynn9x7GDOr5hpavrS6+C8sLguFlUUUgZ/0qJ130l");
 
 export default MountainCity;

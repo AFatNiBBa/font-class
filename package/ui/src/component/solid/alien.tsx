@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alien` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alien?s=solid alien}
  * @preview ![alien](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/alien.svg)
  */
-const Alien: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 0C100.3 0 0 100.3 0 224C0 359.3 148.8 471.7 194.7 503.2c8.6 5.9 18.9 8.8 29.3 8.8s20.7-2.9 29.3-8.8C299.2 471.7 448 359.3 448 224C448 100.3 347.7 0 224 0zm32 306.3c0-45.4 36.8-82.3 82.3-82.3l32 0c7.6 0 13.7 6.1 13.7 13.7c0 45.4-36.8 82.3-82.3 82.3l-32 0c-7.6 0-13.7-6.1-13.7-13.7zM109.7 224c45.4 0 82.3 36.8 82.3 82.3c0 7.6-6.1 13.7-13.7 13.7l-32 0C100.8 320 64 283.2 64 237.7c0-7.6 6.1-13.7 13.7-13.7l32 0z" />
-    </Icon>
-);
+const Alien = createIcon("alien", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABawAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBVQsGAAE2AiQDCAQgBYMtBywb0QTIjtRGecqDRPC01lu9ntkfAOowo4uLIzpEkgF7pMht1E7dPP/zpwdcAPzfxHSBLJBozvMEOs+7PE8oCyzTADC2rJ2O8oPIKn1fPskw6YbNAWXcVZxSId2Rvsb5dtP4XRunSOoUAKIxACavXDrf+zfiRsRXVeIrcxEQk0EWKFCgvQDjFALtlTJKpeBGVKv5H5gJIGr0D06gRAULsAJQgqQoy87NmtarNChX1KvUXfvxrIjPB0U8n3+Z/MH4d7pfrXe61WMT35v60coHh7w458sZq+/rG/HUyHpxtcXdvR4fVjeutVzRO+KJDlea141X+zzZ8bZW9bo82fjJPzt/veNr19+70YF+H/JDw5i6etVvn933eePGn9/32W+rVsfUhj982K/DjU6D0w525Oz9+mlHNC8uzpZJ9d/PssB5EAie+PP8jxsbjfundr0Ebr359//CW1R9P95PT6K2BIKiX7WfdfE+xPsCAJDihC7xPgLJDIV01fquCRDqIkBSo64AhXYaC1Cqq68AFR0NF6BGXUsVoqwjNLd+4qS+w7gwwklcau4lXDHOZ26N5lFQSiKE9KNLn6HB9KU8eMCgPCYvI0NmCS/TsXnb6HVCKr2xa4eDDjhmu212O6bQEfOD4/ab4cHpHpQNNsAg2Rj5ON1ur7DdEUftdtCBOmesfN/p5YTf3htrJMCQx+ASilTZvG/39gMAAAA=");
 
 export default Alien;

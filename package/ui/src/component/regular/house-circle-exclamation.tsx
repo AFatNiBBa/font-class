@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-circle-exclamation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-circle-exclamation?s=regular house-circle-exclamation}
  * @preview ![house-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/house-circle-exclamation.svg)
  */
-const HouseCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M303.5 5.7c-9-7.6-22.1-7.6-31.1 0l-264 224c-10.1 8.6-11.3 23.7-2.8 33.8s23.7 11.3 33.8 2.8L64 245.5 64 432c0 44.2 35.8 80 80 80l250.8 0c-18.3-12.9-34.1-29.2-46.3-48L336 464s0 0 0 0l-96 0 0-144 86.6 0c4.8-17.1 12.2-33.2 21.7-47.8c-1.4-.2-2.9-.2-4.3-.2l-112 0c-22.1 0-40 17.9-40 40l0 152-48 0c-17.7 0-32-14.3-32-32l0-227.2L288 55.5 454.7 196.9c13.3-3.2 27.1-4.9 41.3-4.9c10.3 0 20.3 .9 30.1 2.6L303.5 5.7zM496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm0-96a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0-144c8.8 0 16 7.2 16 16l0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const HouseCircleExclamation = createIcon("house-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABhQAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCLQsGAAE2AiQDCAQgBYMtBz8bPAXIhofn7ao/93WNqteoWZsfZigo/aERwT116nmmhQL4RkHbQwOyLJbdtblXgQKPhWNRryIBqxVUyl7fW++dlrKMDslMNEmH4/zD5fP5V8jin7hGFenW9CGurrWKH7V1AUlVCUA0AcDklUvne/Wz+Czig8pTxAfmIiAmg0KghNUdBBinJOwVMgUymeCzqFT4P7AggKgmb04gQzVOxXmADCRZlk1qX9ewXNUwW5FPz3fe1GJT3ND2xp59Q9zZ+77h5bi/Tx7nphV5RJTj9vaX5epf1uIG+o9rdVNErIzlcU/58pYrVl8+NuKFgY/EuQMeHvN8ftmoZ/s96Jz+D41+rhx3tb2l293tbu8ZN7YUN7S4qVXEza273N/k/p/rP9zxoYHP/fNPzad+ef2XDud7XqzY3uQfT7RvCDa5xkq7P0qJQ5o+8HzTWwzS6JJLGn3pkRvcfYVhLRt/8fGLr/zVM5EG1/foUT84pZ5cUn/T4pYtF7f4NZ81WqTRZ/Q6EAh+3Ljw242Nx/1WW07gi+d//Z2erPxVeTWdk+5HrQSCUr9KP+vSOQ7OHEH8FCd0wScJJIdlUNcGbhIg5AiQVMsFKGmviQCZXF8BqnQyXIBquaVKIqsTWlivIGngMCgZ4UyQaeEJUGWcd/xqLaIUfmzwsG9/STMsNH1ZMXjAoGJMsSwNLqLoMju22LZ6naCe3jhqh4MOOGa7bXY7Zsgj5kfH7TfDI6b7osJgAwxSGKM4bj7vX2G7I47a7aADvMhYxX2vlxP+8N5wE6EcIpEkIrUJTa3/hzq9/f9t4Wze/1ABAAAA");
 
 export default HouseCircleExclamation;

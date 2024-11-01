@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `font` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/font?s=thin font}
  * @preview ![font](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/font.svg)
  */
-const Font: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M231.4 37c-1.2-3-4.2-5-7.4-5s-6.2 2-7.4 5L42.6 464 8 464c-4.4 0-8 3.6-8 8s3.6 8 8 8l96 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-44.1 0L112 336 336 336l52.1 128L344 464c-4.4 0-8 3.6-8 8s3.6 8 8 8l96 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-34.6 0L231.4 37zm98 283l-210.9 0L224 61.2 329.4 320z" />
-    </Icon>
-);
+const Font = createIcon("font", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABWgAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBLQsGAAE2AiQDCAQgBYMtBysbqATIHoVxMz3SRXNsb/+IIFrr/erZvUuyF4YNESlgckCe0AKruKjngipCEXxSX18zC9QqrhD9qVPPcx4K4HMIgjaWzcljYmh3bIGeV7S+llCtYDGrgHZ3tqbtUNonaS1G8njl+Bwgj3u2q5DuJLiUvjT+0slFkiwDEC0BMHPVsqUaPsWniA/1Ex8sRkDMAqVAhgxdBZgiE+gqVyKXCz5FvU7/gSUBRJX8TgnkyDERcwA5SFKeD2pUqzTLV9YqxbqbxdqujiKut73Rrha3OtxsX8SqqMUK669dU9Qm74o1vZ62fPoPO/lxt22l0vbFU71trlY3b8bCEKPP+BQmhzT43kb0LZ0/irE7/D4IBPe3PH65qcWU/xvXEvjy6r/y1fVP0ZCeorEEgmxIfYj10QCEDiBIcVIvZ2CBZKQE8qlN3RQgFAiQVBUCZLpoKUCuMFiAiu7GClBVWCYTeROhrQ0VJE0dAZlxToFcWy9BxRSvg6q2kT0f8vLJ31vcPA3N3VWOHDainFR2K4V6EXjcnFxOCwNO8sRA2GunQw46boft9jiukKOWxiccMM+D5xpQaaRhRihNUi63W24lGkcdY7xNrW9jsnK/M8BJf/5AkBPBHKWUJCLlZwIAAAA=");
 
 export default Font;

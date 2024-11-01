@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `helicopter-symbol` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helicopter-symbol?s=sharp-duotone-solid helicopter-symbol}
  * @preview ![helicopter-symbol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/helicopter-symbol.svg)
  */
-const HelicopterSymbol: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M2 224l64.7 0C80.1 143.6 143.6 80.1 224 66.7L224 2C108.2 16.4 16.4 108.2 2 224zm0 64C16.4 403.8 108.2 495.6 224 510l0-64.7C143.6 431.9 80.1 368.4 66.7 288L2 288zM288 2l0 64.7C368.4 80.1 431.9 143.6 445.3 224l64.7 0C495.6 108.2 403.8 16.4 288 2zm0 443.4l0 64.7c115.8-14.4 207.6-106.2 222-222l-64.7 0C431.9 368.4 368.4 431.9 288 445.3z" />
-        <path d="M208 128l0 32 0 64 96 0 0-64 0-32 64 0 0 32 0 192 0 32-64 0 0-32 0-64-96 0 0 64 0 32-64 0 0-32 0-192 0-32 64 0z" />
-    </Icon>
-);
+const HelicopterSymbol = createIcon("helicopter-symbol", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgwAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCFgsIAAE2AiQDCgQgBYMtB14bRgXIHomxLaL9BmLxWgTPz/3bnJt8SsqQflVmdPWtIkeKXKsIFlkW5IJc21ea7yX8P/29O//nfwM+/+IfaazpGySa8zyBRPNNXcBdQplmYL1NxKM6AhEKJELCJh2fHWdnyOPX7LI60s30Pa7g/wDGP7q6TNKUAYg2AJi2ZsUirz7EhxTf1x4T31uIgJgOKoEMGXoIMFEm0EOuQi4XfEi1fIjaigCiHr4uA/VowD6cBeQgCXme92tFZVnXMl+de4sNgigDsjI4tIiwisrplDVlUd6d8nLOW/y+9OeV/lgW8cuqiC8nv2gu9ghfTHrep4w/l/+6Ogl/rfhtTRG3Jj6b2Xy/zf3/+ny/+3s/TamqaqqtpqqS8YpHtHG8n0YPPnTv22nWls++K9dOLdd+x7O15TTf3vNwWs+eXa4oVMYrTyU/506z9TwQCPbueL91S+uJ/zeWCXx68m/+IaWa+Jzuo1ECQTawNtDGRJLiswAApDitOXFVEsiMlaNPbeGaAKFAgKReIUCmuzYC5AoDBKjTyygB6hVWyETeJHSwqYKkhWMgM9olkOvgEagz0Vd1vQ6RGR1vMvyXL2W2hGYdq4YNHlqNr7p9RbAjNu5PqJadvqfDXD84abcjDjtpl532OSnI4xZ1pxwyewTP8kWVYQYbqjJedTy6VVaL+rgT9unS+SETVPeLvk6PV/cDPyHa4c7LZESKrOveXQf37Thy9OSu44Os2xj0gld0V6X3CgA=");
 
 export default HelicopterSymbol;

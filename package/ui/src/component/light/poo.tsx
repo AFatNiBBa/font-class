@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `poo` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poo?s=light poo}
  * @preview ![poo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/poo.svg)
  */
-const Poo: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 0c-6.5 0-12.3 3.9-14.8 9.9s-1.1 12.9 3.5 17.4l5.8 5.8c8.7 8.7 13.5 20.4 13.5 32.7l0 8.9c0 20.6-16.7 37.3-37.3 37.3l-17.8 0-.9 0c-48.6 0-88 39.4-88 88c0 7.2 .9 14.3 2.5 21.1C56.4 233.2 32 265.7 32 304c0 16 4.3 31 11.7 43.9C17.6 363.2 0 391.5 0 424c0 48.6 39.4 88 88 88l336 0c48.6 0 88-39.4 88-88c0-32.5-17.6-60.8-43.7-76.1C475.7 335 480 320 480 304c0-38.3-24.4-70.8-58.5-82.9c1.7-6.8 2.5-13.8 2.5-21.1c0-35-20.4-65.1-49.9-79.3C363 52.2 303.6 0 232 0l-8 0zm40 65.8c0-10.7-2.2-21.2-6.3-30.8c46.1 10.8 81.3 50.2 85.8 98.4c.6 6.3 4.8 11.6 10.7 13.6c22 7.6 37.8 28.4 37.8 53c0 9.1-2.2 17.7-6 25.2c-2.4 4.7-2.3 10.2 .2 14.8s7.1 7.7 12.3 8.3c27.9 3.2 49.5 26.9 49.5 55.6c0 15.3-6.2 29.2-16.2 39.4c-4 4-5.5 9.9-4.1 15.4s5.7 9.8 11.2 11.3c23.7 6.5 41 28.3 41 54c0 30.9-25.1 56-56 56L88 480c-30.9 0-56-25.1-56-56c0-25.7 17.4-47.4 41-54c5.5-1.5 9.7-5.8 11.2-11.3s-.1-11.3-4.1-15.4C70.2 333.2 64 319.3 64 304c0-28.7 21.7-52.4 49.5-55.6c5.2-.6 9.8-3.7 12.3-8.3s2.6-10.1 .2-14.8c-3.8-7.6-6-16.1-6-25.2c0-30.9 25.1-56 56-56l.9 0 17.8 0C233 144 264 113 264 74.7l0-8.9zM192 296a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm152-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM172.3 352c-15.6 0-28.3 12.7-28.3 28.3c0 5.5 1.6 11.5 5.6 16.6C159 408.8 194.4 448 256 448s97-39.2 106.4-51.1c4-5.1 5.6-11.1 5.6-16.6c0-15.6-12.7-28.3-28.3-28.3l-167.4 0zM256 416c-38.2 0-63.3-19.8-75.1-32l150.3 0c-11.8 12.2-36.9 32-75.1 32z" />
-    </Icon>
-);
+const Poo = createIcon("poo", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABvwAAALsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhESDRwsGAAE2AiQDCAQgBYMtByobwQVRlA1Gn+zHQU7Ga0q8LLL1elmttINDKVqI+Mr/eOh/b+7O/JfSis+qNFWbTDeqNGPjAgiLkE3iFoTeg0Wj///crOkB/hftxWXRorI9LOsdyoGc3dDavMP/H1FJU9FEmyRg82guUayPtDhI1M2oS8e/09MDLsHzo5SaVqhpaxasdTwCAYy1Dh4/DWBMI2CxdnYLClIGCX359BkW9cNm8YIS36OBJL9kE+/pVPwz5SWVChkxCEGq3Zs4Qn6taEU062Oi6RwiIPYgWISiQoVZKNiAC8wiLEIURdCKuib8By5CAoh2+IwEBZ34hT+AAlJ7KRvfkhFESMOINEI+RkRL+rlDPB4cBgDauEMoih4Z16Q23pJwDNhEZ8pp07ofDZ5aNhULwZPQLp7Qj6JxIfwmHs2z84+5etkwb5k3DIR+XpONbdRS4Qp/RGwXjBpGSwsEOHkaw1YtmxKYuyqZ0C8Jx3UFTh3JzO3nQjgEbLxh07rfqWVTMArt/BEUzVvRQ7jCx+CQdkmr3mBu/Kqe65+B8xZNMtXngd8cBDDXJ5hsGNnbS8BM6x6PTHg4xib09kZmAppjjx0KZZbscREm+Xpq7qysqqQYopjlxqZ2H6SDOL3NoRcH+Pvbop3ffJI7XyhwcHeuueR/lzUTPPy5ydzrHa5DIMx3kfnfzmyrv39AMZ3s+rcG+85bQ0USfrJ4vKzCjwrMftNmBrUFaKEiBc0DCx8fCwPNBQhRzfvXciLuRIC5bwT0iU13YoBAcHf0+axgbPynYAn+fnN71N9gfZfyKzolCKpG3ZAnSAIAkPGGTgikny4m3etDWg7ddKR23ajMoFB0W0Kbeaa+eeICLkqXMKoApF6PqKx7UIz6os2Gf6HdaFS6bGqi+ZTME85UsA68JAU8WDY1Sz11v+zDdsR42yEWe5DaYnaqlLqqTtIuKl8mIScGvgioJArgAXFnuj1T2R06izmu4oPzacbNT2YRx2TFZZmUvjROPNwvAAA=");
 
 export default Poo;

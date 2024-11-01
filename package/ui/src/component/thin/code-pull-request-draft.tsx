@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-pull-request-draft` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-pull-request-draft?s=thin code-pull-request-draft}
  * @preview ![code-pull-request-draft](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/code-pull-request-draft.svg)
  */
-const CodePullRequestDraft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 64a48 48 0 1 1 96 0A48 48 0 1 1 32 64zm56 63.5c31.6-3.9 56-30.9 56-63.5c0-35.3-28.7-64-64-64S16 28.7 16 64c0 32.6 24.4 59.6 56 63.5l0 257c-31.6 3.9-56 30.9-56 63.5c0 35.3 28.7 64 64 64s64-28.7 64-64c0-32.6-24.4-59.6-56-63.5l0-257zM32 448a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm0-456a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 64a40 40 0 1 0 0-80 40 40 0 1 0 0 80zM344 240a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm64 0a40 40 0 1 0 -80 0 40 40 0 1 0 80 0z" />
-    </Icon>
-);
+const CodePullRequestDraft = createIcon("code-pull-request-draft", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABqAAAAKAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SCWgsGAAE2AiQDCAQgBYMtBz4baAXIPgxwQwYO9GWIAUgqaqmqZdPTqvYUe3w3XJfhtyjx8N9+7b6ZQUw6JE14JXrzUFhOpxEhaUiEvIRMCQsVD+n//Dh7f2bcH8zmE1kaFaG2dizlQnO+ZFateG6oEinNWBybobkZM5DBW3Xw5nA4u/p+zzjwMMFhFziFWRnwwJ9wt+8dAnqrr1iA//7U80wLBfBbyILysofGkw4LdW/QdV6tRevfe16uFWslqgh3cN6kQwptCOkYSmy5QCY9J7iL3zQ+jdkkyRkAohcAwNZhRRbKDY2I9+oTb3aAgNgGgFkIGRmTEFhFFJhEMgsURdCIqmL/gbMggGiGFDeBgg7c4h6WVUjaComtYUOLTnMmmU2qlr/BaDj0lE5ZmBqMXniMrQl1R5lZRKjIFMejTMRuOf3lylTB0XmztaEQDjBUvhaG+2N4xi4ProYzbMpMYubZuvTEtDNwLpRVqVsmLsIhOMDQ9RFGvkTnR2fmun14XxhmVJUr2yfvre18/v7LbjNaP/6uQO0PH9V4o9c78nm/VxcLFYtMZrHVnilxEZc3W69a+1aY4pkVQOVYs9HvN1LQ40AgqP+Xjwv9QSQAfLw+f15vVT2NVgkEef6fxijrRY1HAQBIMQ0UBx+EkNxok75qpwcBQjsCJM3aBcgm8CBQtJuDQJNpbgg0a7eLKAodwqCmASWdLlG2YgkVg65Rk1VPtWaDkW2laqfUf8KszJRIX8N2iw0H8O5Ap1k0+fAwiC9Humm+oId3oduIYZO6dOozOeHHZZtThmSOuLQvwuwsbLAA/Hj80qrGtXET+rY9zy8RhL/PdKaP1+thSpCKLmhJEpGkLtU2ezjPbHsdcwAFAAA=");
 
 export default CodePullRequestDraft;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-phone-hangup` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-phone-hangup?s=regular circle-phone-hangup}
  * @preview ![circle-phone-hangup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-phone-hangup.svg)
  */
-const CirclePhoneHangup: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM391.4 294l21.7-35.2c4.8-7.8 3.4-17.5-3.4-23.8c-84.9-78.6-222.6-78.6-307.5 0c-6.8 6.3-8.2 16.1-3.4 23.8L120.6 294c5.3 8.6 16.8 12.3 26.7 8.5l46.2-17.6c8.7-3.3 14.1-11.6 13.1-20.3L203.7 238c33.8-10.8 70.8-10.8 104.6 0l-2.9 26.7c-.9 8.7 4.4 16.9 13.1 20.3l46.2 17.6c9.9 3.8 21.4 .2 26.7-8.5z" />
-    </Icon>
-);
+const CirclePhoneHangup = createIcon("circle-phone-hangup", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABewAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBegsGAAE2AiQDCAQgBYMtBzobBAXIhofn7b4691X9HkA1HY3lDGQ4q0hw1ruhmP6xS+Mff5rxM3q0sWlNkAW4V/wFKta8V7xUK1hNK2BlqbqNlRtEeRM5R/CIGNpC1eAD8ngpLimRbqePcbG+afyihWMkpQxA1AfAyPmzp3q9KqoiPio/Q3xkMgJiJCgEMmRoLcAQmUBruQK5XFAV5bL8BhYEEBX0L0ogRwkrsBGQgyTL81atKmuV6uTzapVqLj47MOKFnk841OPxAc/XPDPoxV5PxuHeTw1+qVb6bnrEZ6PfisOj3pz26byvp3w84nWHRr4x9ZO587t36X6z6avj3h3z9pBrTbrG9WaD42a0jPfGNo9DTQbGg2aVj9V/7Lf2H6/7WPniwF/4+fXH+/d//PWffxk48Be7/nysS1we3Hr06NaDL18ayxfFPvHDLCW23Hl2y/OevbNllvv//uidup0MH95J3W++kJ8HAkGbp4fmy+sN+a96rQR+evGP/7VvUfn1JD2G6hIIsi7lLpYkkAgAQIp9KhMEkgUyeNXabggQaiJAUqGmAJlW6guQq6mzACVt9RWgQk2zZSKvITS21EBS206Q6Wc/yDX2FCgZ4r2wQuPIWMZwhLnjJY7z0NhbRc9uPYpBxbTQWeJQ+Ti4WFY67EuDjri0znbb7LHWGhvtccguU5O9thoXwWN9UKGnbnooDFJs14/351lrl9022m5bOTNYcT7oYF883xF6oqS9pJJEpEaPceSuVDS6bvhEQNoB");
 
 export default CirclePhoneHangup;

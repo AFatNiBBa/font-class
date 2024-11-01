@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-left-from-arc` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-from-arc?s=sharp-thin arrow-left-from-arc}
  * @preview ![arrow-left-from-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrow-left-from-arc.svg)
  */
-const ArrowLeftFromArc: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M492.4 256c0-132.5-107.5-240-240-240l-8 0 0-16 8 0c141.4 0 256 114.6 256 256s-114.6 256-256 256l-8 0 0-16 8 0c132.5 0 240-107.5 240-240zM159.3 121.9l6.1-5.2L175.7 129l-6.1 5.2L34.3 248l306.1 0 8 0 0 16-8 0L34.3 264 169.6 377.9l6.1 5.2-10.3 12.2-6.1-5.2-152-128L0 256l7.3-6.1 152-128z" />
-    </Icon>
-);
+const ArrowLeftFromArc = createIcon("arrow-left-from-arc", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABaQAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBXQsGAAE2AiQDCAQgBYMtBzob5wTIHoVxM300KpXtYxZFxPPfj7HOff+j0rxD0mQaxRJDiAwp0SwUWqEUZuvmzesT+6v3FkBS2oOVYCYhb7rQ4Qalc1PdvnPxt0UO1b5Pf+/O//mnD/iMPtqYNjeOCTRb4zyBAMfWLo8CKwss0wQsa2c/sEBXFtJ3RZJh8xkWd+i5xRAp9SX6BLzlD81fOO0CpTUAZBoAcPTY2ICnAAPkRzQgP6gDgRwBWEU0NCwi2CUWLJJYBV0XfhmN+v9ANxAgg8BLFejouAJPADoo1SUxLrVUK2lRS1WDW6nkVS353qIiqeZPw1fJMzaLn+o/m+jmv7qPtGsO2C12Ky1solaNjGqaqXQbW8pz7Wz1HhmO/j2fI58IPhKAf73AyzEUpilc8G85fdXVPueWv4o3HJt9FgT1e03YfowmB/NIHTZAsVGFJlQ63MCw4fgwIAjfpRffvfp8QaEWAf7cHHQ/I/x/Ykh0BBhWILT1aDy6CugJgQCAygq8BQTlkgjeddw7CGIUAWXQqIBmgQFBN2oNwYBlGQgGjbollq5EzOvuoIx7Bc2ONdDNuwYDdr2Eg+YjNivCKIhfXWylhirWuVMSk9257mGlkZaCheU89zLvW6GhGLmKEbNmLBk2ZNySQhY0JMumVc7gCl/kliJRMrdc7u12Pt9i2IJF42bNpFXyuM/bPivzyTEiiQB1w/5SpMz9Cwuzqw+OS7iDQUL/wiAAAA==");
 
 export default ArrowLeftFromArc;

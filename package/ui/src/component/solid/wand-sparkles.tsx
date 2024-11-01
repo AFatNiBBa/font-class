@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wand-sparkles` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wand-sparkles?s=solid wand-sparkles}
  * @preview ![wand-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/wand-sparkles.svg)
  */
-const WandSparkles: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 6.1c9.5-8.5 24-8.1 33 .9l8 8c9 9 9.4 23.5 .9 33l-85.8 95.9c-2.6 2.9-4.1 6.7-4.1 10.7l0 21.4c0 8.8-7.2 16-16 16l-15.8 0c-4.6 0-8.9 1.9-11.9 5.3L100.7 500.9C94.3 508 85.3 512 75.8 512c-8.8 0-17.3-3.5-23.5-9.8L9.7 459.7C3.5 453.4 0 445 0 436.2c0-9.5 4-18.5 11.1-24.8l111.6-99.8c3.4-3 5.3-7.4 5.3-11.9l0-27.6c0-8.8 7.2-16 16-16l34.6 0c3.9 0 7.7-1.5 10.7-4.1L464 6.1zM432 288c3.6 0 6.7 2.4 7.7 5.8l14.8 51.7 51.7 14.8c3.4 1 5.8 4.1 5.8 7.7s-2.4 6.7-5.8 7.7l-51.7 14.8-14.8 51.7c-1 3.4-4.1 5.8-7.7 5.8s-6.7-2.4-7.7-5.8l-14.8-51.7-51.7-14.8c-3.4-1-5.8-4.1-5.8-7.7s2.4-6.7 5.8-7.7l51.7-14.8 14.8-51.7c1-3.4 4.1-5.8 7.7-5.8zM87.7 69.8l14.8 51.7 51.7 14.8c3.4 1 5.8 4.1 5.8 7.7s-2.4 6.7-5.8 7.7l-51.7 14.8L87.7 218.2c-1 3.4-4.1 5.8-7.7 5.8s-6.7-2.4-7.7-5.8L57.5 166.5 5.8 151.7c-3.4-1-5.8-4.1-5.8-7.7s2.4-6.7 5.8-7.7l51.7-14.8L72.3 69.8c1-3.4 4.1-5.8 7.7-5.8s6.7 2.4 7.7 5.8zM208 0c3.7 0 6.9 2.5 7.8 6.1l6.8 27.3 27.3 6.8c3.6 .9 6.1 4.1 6.1 7.8s-2.5 6.9-6.1 7.8l-27.3 6.8-6.8 27.3c-.9 3.6-4.1 6.1-7.8 6.1s-6.9-2.5-7.8-6.1l-6.8-27.3-27.3-6.8c-3.6-.9-6.1-4.1-6.1-7.8s2.5-6.9 6.1-7.8l27.3-6.8 6.8-27.3c.9-3.6 4.1-6.1 7.8-6.1z" />
-    </Icon>
-);
+const WandSparkles = createIcon("wand-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABlAAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCbQsGAAE2AiQDCAQgBYMtBzQbcQXIhofn7fo691V19ZcGru4hvWQERWQKpXImRhuNwlUE9/xf8/k9vwb8RocWhZUgRQeSsT0fYIoVzwfaNMCZTsBm7ewYftDzWSR9yicZxjdMLpDHu9ndKqSn0xd4ML9V/GiQu0maMwDRBYDle3du9tHZOBvxeeN14nMbERDLQSmQ4cxQARbJBI3mSjSXJ5yNRgP/B5YEEAX5pARyFHgKzwJykOR5PqlWr7VW2vM9rZWWi1/s1y8eH7grHiMe62uJe/pOxWMt9/RfEk/EHQP2xpMR8eSA1rh3wMl99/arxep43O19q6LccOuxhqy1MRJrt56o1WuWdW+/vdUdFKMLPioG4oNjDDo2htxW/ZWuV36ufXHRF75+u+2/m535aPdRM6v9dJztUl3VMdUznR1PP+3pjs6Xrz5hVXWo9nMjFTN7fhsxqOh3wWTbi2L7FOf1KzT+nSXoYt9be3+4ICWXdEjevLrod5kXCvqCy3JxPRAILrrjmWuOdi76rak1gfPv/Ppn+xlpfJSq6RU0SSDIJjUmOZTQ+CtVBQAgxU3qCQLJQ3Lyrm2eECC0IEBSaBEgM0SXALkWEwWoGG62AIUWO2Uibxb6HB4gaXMtyMxxC8j1eRVULPJxUOiLzD1Z52J/h0lrIrR6Xzl9yrRyQblMdc7j6LS8sNyWx91ErfE46SJXu8oNTjvlUjco8jqb4xtdaY0Fr/ZFpemmmKa0QHlcPB/e47TrXO9SV7uKV1movO+Pc5M9PB5aIpQznEkSkdpvPn7VqcnXPwHnitPXAw==");
 
 export default WandSparkles;

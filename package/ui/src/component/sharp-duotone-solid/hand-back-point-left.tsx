@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-back-point-left` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-point-left?s=sharp-duotone-solid hand-back-point-left}
  * @preview ![hand-back-point-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hand-back-point-left.svg)
  */
-const HandBackPointLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 208l0-80 224 0 13.3 0 2.7 0 80 0 16 0 0-32-16 0-56 0 40-48 68 0c38 0 74 16.9 98.3 46.1l4.5 5.4c24 28.8 37.1 65 37.1 102.4L512 320c0 70.7-57.3 128-128 128l-16 0-48 0-80 0 0-80-32 0 0-80-32 0 0-80L0 208z" />
-    </Icon>
-);
+const HandBackPointLeft = createIcon("hand-back-point-left", true, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABXgAAAHRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBEgsIAAE2AiQDCgQgBYMtB2QbyATIjtRGecaLxMP3a+Wf+7pnKtsThg4wKiJwQD6OXPSqgGNQEWoqkuh/uUH7x80/7zwK8IElFtoeGsgCn/M8gQC7LA9LcIF/+uRfxP7ubBSH0j5pLdmSHI82x2eHPD5ml1VIN9IHXKkvji+6uEzSkAGI1gCYvWbFIk/qUU/xoYn4YCECYg4oBTJk6C7ANJlAd7kSuVxQT01N1CP9+ZUEEFXwchmoIsNIjAHkICHyfGCt0iJfXasUEaJWiyiKmVGLl9M7xMPe4ua0B/OKIqKIuNinsXXjt94fdn/wcykcqh8ttZ50zjw3D843teG0yri5S1ufX6oEuFtAfKX+/4Qtrab9a1ZL4NO9H5/bryhJjWgmgSAb1jTMxgQSAQBIcVqfBAQyAyXhTHNXBQgFAiRVBUGmm9aQKwyFip7G76gqrJCJvEFobxOCpLljkJngDOTauwsV07x2q9pHZjL0hdMftoQFHJk/V44eMaqcUoqhzlgBWcZTy2Vj0OlcGgybdjvisJN22Wmfkww7blFwyiELNHS+DyqNNsIopSnK7eRRWM3c407YN+f2p0xVnncGOa03DwY7QcIxVjIZkSLrbmLicE+ShnsU9aSU4RbY3FPgHA4A");
 
 export default HandBackPointLeft;

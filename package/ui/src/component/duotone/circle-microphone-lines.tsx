@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-microphone-lines` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-microphone-lines?s=duotone circle-microphone-lines}
  * @preview ![circle-microphone-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-microphone-lines.svg)
  */
-const CircleMicrophoneLines: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16c0 53 43 96 96 96s96-43 96-96l0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16c0 65.3-48.9 119.1-112 127l0 17c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-17c-63.1-7.9-112-61.7-112-127l0-16zm80-96c0-26.5 21.5-48 48-48s48 21.5 48 48l-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 0 32-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 0 16c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-112z" />
-        <path d="M208 144c0-26.5 21.5-48 48-48s48 21.5 48 48l-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 0 32-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 0 16c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-112zm-64 80c8.8 0 16 7.2 16 16l0 16c0 53 43 96 96 96s96-43 96-96l0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16c0 65.3-48.9 119.1-112 127l0 17c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-17c-63.1-7.9-112-61.7-112-127l0-16c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const CircleMicrophoneLines = createIcon("circle-microphone-lines", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAAByQAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDSQsIAAE2AiQDCgQgBYMtB2obBQbIHoVx21I7ST3FxELyRfC8f33Vufd1D6A3MCMJGRRhjfinu46kgaPFMFohbZC58QiEXoHQYFOd1UQA/J+45vmfPz1gEj9aRC3Oo3iUSaMJDLDComgTmtBM0sA2qldM4F/lH45QxM18XoX0SrqMp5z/AYxfdHCepEEGEM0BMH3Fknk+uRf3UlyuvUtcNhcBMQOUAhkZnQWYJAt0VihRKAT3Um3uRe2SAKLKeR0ZVFEPX+A6oABJkouiX/9O/fo1qjQpljeqNFzzWjvipb7dJjtYPN8623gIe8zLraPXtK2OLK1vkXij/xr9B55uxEvt6rG3B91RMi+n2hLvD3k9+q7izvSIT+ddaXRxwbWZn6+4O+Oz+VcbXph7edonS1eMVL5DN1bc5+Yedc33b90vb7/s2tB8hR+GDfvhSi7da9r0XqmU681hWvEPTl0gZzdXv66uQl9zNllPxIO//29R4lv4/+8HNN/BJ2Y3oMM7n86c+ek7HdRsmK/op5qNV77PIBZsuNf9QCB478bj/RuaTfqPJ/Dg4z/+SX9Iap8kqQ71JRDkQbVB1iaQCABAiuN6JE4jkO2ReY/a2IsChIYIkFQ1FCDrpLkAhYYGClDR1WgBqhpaIouigdDauhJOGjsEZ2OcgAutvQNXTPJ1vKp1ZNpM00X6YTJhTh2YPaocPmRYOaEczMsZCkqa/RPL2Ua/42pdf7jRdgfsd9Q2W+1ytAYdNi91zD5zxsDZnqg03BDDlCYoV5duC8tr/mFH6mQ/t36Yicr9o/0cH2/dH9qJRzjCgiwTKXK3v36kwWIBReylwfxAGcw82uo+xrEH");
 
 export default CircleMicrophoneLines;

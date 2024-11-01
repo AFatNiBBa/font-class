@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `utility-pole-double` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utility-pole-double?s=sharp-duotone-solid utility-pole-double}
  * @preview ![utility-pole-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/utility-pole-double.svg)
  */
-const UtilityPoleDouble: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 32l48 0 0 24 0 8L0 64l0-8L0 32zM0 224l48 0 0 24 0 8L0 256l0-8 0-24zM80 32l48 0 0 24 0 8L80 64l0-8 0-24zm0 192l48 0 0 24 0 8-48 0 0-8 0-24zm3.2-96l57.7 0L224 183.4l0 38.5L83.2 128zm0 192l57.7 0L224 375.4l0 38.5L83.2 320zM288 183.4L371.2 128l57.7 0L288 221.9l0-38.5zm0 192L371.2 320l57.7 0L288 413.9l0-38.5zM384 32l48 0 0 24 0 8-48 0 0-8 0-24zm0 192l48 0 0 24 0 8-48 0 0-8 0-24zM464 32l48 0 0 24 0 8-48 0 0-8 0-24zm0 192l48 0 0 24 0 8-48 0 0-8 0-24z" />
-        <path d="M288 0V64H512v64H288V256H512v64H288V512H224V320H0V256H224V128H0V64H224V0h64z" />
-    </Icon>
-);
+const UtilityPoleDouble = createIcon("utility-pole-double", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABpgAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDTQsIAAE2AiQDCgQgBYMtB2IbAQbIjsO44TuyxVKG+BIRfL9W9vszt0cUggkwKiJwDI5c9Nk4XhdUiTBbkSSjN5lp36e/d/zun3/6gIv8o4zdHjomlY05BbooHNvzLoEF2mWaiGWxOcTmt+Qa0kMou0IeP7JbakgvEzzN3zj+6O0WSX0GINoAsGjz+pXKlaik+F6N+G4FAmIxKAQyZOgnwFyZQD+5ArlcUEnVKpUwf34FAUQJ3C8DJbTiPX4CcpCEpjwf1QxQz1S+xprmfJMjNhwWGsPTEIJTMRTljTymMWtsaLTSEXr1b87BRssmtW3z5g0zkdgQgTd7+5PrB3e1df0b5BADPy5EXMVCFddUS5QtVDYFCz94NXHixF7qTFSnV7nX3+qP87a0ezZWrJtuhEc7y63u+z3DlPLsYsKIsh767k1f3A4Egu2HRk7e3Tr3f11jAr/e/Lv6IamWk9SFOgkE2djqWDsSSAQAIMUlgxMQyDzSBI/a5JkAoQEBkpIGATJ9tQmQazBGgBoDTBOgpMF6mcjrhW52dmjS5Cyame4ymuvmNVpjrk+Bkm6R0TNHjdzvZPLyIbRsUTFp/MRidrGa1vAkyiTtc4rD+pGXbNkoftEhp51ywUEHHHVhgJyzMnzRScu34GW+qDDJeBMVZisu556e3uSgc8476rRT2TxzFM+7R7q0XXsUNyUgnexAJiNSZH1DcdS4M6dPHBwXCNTjvEfN/suibwAA");
 
 export default UtilityPoleDouble;

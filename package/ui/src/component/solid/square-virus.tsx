@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-virus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-virus?s=solid square-virus}
  * @preview ![square-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-virus.svg)
  */
-const SquareVirus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM223.8 93.7c13.3 0 24 10.7 24 24c0 29.3 35.4 43.9 56.1 23.2c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9c-20.7 20.7-6 56.1 23.2 56.1c13.3 0 24 10.7 24 24s-10.7 24-24 24c-29.3 0-43.9 35.4-23.2 56.1c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0c-20.7-20.7-56.1-6-56.1 23.2c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-29.3-35.4-43.9-56.1-23.2c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9c20.7-20.7 6-56.1-23.2-56.1c-13.3 0-24-10.7-24-24s10.7-24 24-24c29.3 0 43.9-35.4 23.2-56.1c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0c20.7 20.7 56.1 6 56.1-23.2c0-13.3 10.7-24 24-24zM192 256a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm88 32a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const SquareVirus = createIcon("square-virus", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABkwAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCNwsGAAE2AiQDCAQgBYMtBzMbOgVRlM3BPNlHQm6y9LFW4gcXNoRJPPz/mv/uc2eSB0DzGbBEiogtkHquKExdVi0qchk8t9AC3p6mxbi1Rpnsf675/Kwpv180waHcLZLaBlIekc8nMMHNokXLBnaiON0mPnYE4RMhMYQkpONLOp4ukMfr2QNKpFfTL3i6/Wj8rs8DJHUZgGgFwJpD+3YYrUQl4ufql8TPtiEg1oBCIEOGQQGWywQG5QrkckElqlX+DywIIMrkVRPIUcbdeAiQgyTP8/41HXUNpab8YEOp/tgHd8QnvSkifkqfQKNOmwM4wtQxkRz4sM9PyJPqBN/rFPrc+AS9aWKB8aU/wMQwEKE/TqowUCfkwyb9j/fAsHFvt6l/rFO5p0s3HNjhUq+f8ID8rHX8KX65+ItVb7/TBrTVr1bf1vbOahDmnW+veLpKkyY1N9G1KjefOUOyrj2nz95ccYyMXZNKXXuy3d0eevNucs9N0R4oG3m3+REeae5tnDw0EvGR3igQ9+3+deWzp/jyf2obEvjtu7//N56uVmI0fYZaCQTZ9Op0x2MU2BpAPsXtxjoeCyR3yEG+tdFLAoR6BEjK6gXIDGgVIFdvmgAlwxYIUFZvn0zkdUKnE1NIGt0kZBa6U8h1+lwoWe77fFlnZDkYyKDAF7DoRkQ2bCvmzJxdLC2WbRpMK19dX1ZsJybfXsam0F4X3eB6t7rgvCtuBfpmO0q3uc5Gj9rAQ4U5ZpqtsFQR7m2jB0F2s1tckb1efJNlivO5yW73Z0+hdCK2c9UliUiN9zg+43UDAA==");
 
 export default SquareVirus;

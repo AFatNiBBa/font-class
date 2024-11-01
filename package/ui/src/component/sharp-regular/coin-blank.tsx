@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coin-blank` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coin-blank?s=sharp-regular coin-blank}
  * @preview ![coin-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/coin-blank.svg)
  */
-const CoinBlank: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 304c64 0 119.6-14.7 157.5-36c39.4-22.2 50.5-45.3 50.5-60s-11.1-37.8-50.5-60C375.6 126.7 320 112 256 112s-119.6 14.7-157.5 36C59.1 170.2 48 193.3 48 208s11.1 37.8 50.5 60c37.9 21.3 93.5 36 157.5 36zM0 208C0 128.5 114.6 64 256 64s256 64.5 256 144l0 48 0 64c0 70.7-114.6 128-256 128S0 390.7 0 320l0-64 0-48zM256 352c-13.6 0-27-.6-40-1.7l0 48c12.9 1.1 26.3 1.7 40 1.7s27.1-.6 40-1.7l0-48c-13 1.1-26.4 1.7-40 1.7zM120 330l0 47.7c18.7 7 40.3 12.7 64 16.6l0-48.1c-22.8-3.8-44.3-9.2-64-16.2zM88 316.7C73 309.3 59.6 301 48 292l0 28c0 6.8 6.2 24.2 40 43.1l0-46.5zm240 29.6l0 48.1c23.7-3.9 45.3-9.6 64-16.6l0-47.7c-19.7 7-41.2 12.5-64 16.2zM464 320l0-28c-11.6 9.1-25 17.4-40 24.7l0 46.5c33.8-18.9 40-36.3 40-43.1z" />
-    </Icon>
-);
+const CoinBlank = createIcon("coin-blank", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABhgAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCMgsGAAE2AiQDCAQgBYMtBzEbMwXIjpNlfj5EIqhsWVk9I1o4xJGOaHTAsHv0gOQxe4DoMVmKd9F67yO2WB7n/5rPL+3oAL/RoURbalP7YS/6+QQGGO2JG+75bGAndEK8wXmjDig0hfQr5PFe3KmN9FD6Ene4H40/jXQtSVsGIAYAYE1z3w4f90VfxBetN4gvbENArAGFQIYMYwRYLhMYI1cglwv6otVi/4EFAUS78PoEcnThQtwCyEHSkecjR9UrlUqt2lbPGypTaf6y67nhDwwTa+6f/nXjx+1PD7l3KPjgfdO+OtB4rBnxS/OnAz91C/Hw/h/3/9z4uSciDtw8WTxRvWVKxOOVhvDEgog3J09+crI4Jk+a9YW3hDu/GfyzE8VTwx8Y1vPsgGf/7v7y1C+1nhCvfPzSS5XKSy99/EpDc/ORbzv4t4+sax1n01Q2TTk7IjqjmzMzS6tN2jRx04SznQ3S5n2TVitbh/SWuocO7S71DrlhaFmW7ywoDfn9/zPrY+RXXXXb7H/HjOAL3pF/X1JHjglB/czZbhvtQA4EgivfHPvUcf2X/9dZTeCPd//9t+hkkp5FpwSCbGaLowkkghCluFTPQssCyZk6AH5rzf0ChAoCJO0qAmRGGyBArmKGAG3GWSBAu4p9MpF3CUMc04Ck5gKQWegakBviNdBmuU+idkMiuwP5+4f//0vZ2IU2rCp6Z5fF0mI2Vwk3FasXlxWbtamX8oFp8IJTnedcFzvFyc4o6A55oR3pJc6xcYnYoEWFXrOVCksVh6uHpxtOcaGLnOE859pllimut6a6dHn8NGgmgXKu3UkiUuWk8844d9YHCQ==");
 
 export default CoinBlank;

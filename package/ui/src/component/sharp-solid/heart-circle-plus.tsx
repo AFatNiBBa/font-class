@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-plus?s=sharp-solid heart-circle-plus}
  * @preview ![heart-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/heart-circle-plus.svg)
  */
-const HeartCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 288L39.8 263.8C14.3 238.3 0 203.8 0 167.8C0 92.8 60.8 32 135.8 32c36 0 70.5 14.3 96 39.8L256 96l24.2-24.2c25.5-25.5 60-39.8 96-39.8C451.2 32 512 92.8 512 167.8c0 13.8-2.1 27.4-6.2 40.4C483.4 197.8 458.4 192 432 192c-97.2 0-176 78.8-176 176c0 32.2 8.6 62.3 23.7 88.3L256 480 64 288zm368-64a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm16 80l0-16-32 0 0 16 0 48-48 0-16 0 0 32 16 0 48 0 0 48 0 16 32 0 0-16 0-48 48 0 16 0 0-32-16 0-48 0 0-48z" />
-    </Icon>
-);
+const HeartCirclePlus = createIcon("heart-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABeAAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCCAsGAAE2AiQDCAQgBYMtBzgbEAXIHoex82RJFZpQfhy8NOLh/9fK7vtVQ9VhqA4zKiCHoOJjo4CWUBggu2fk6ra87Vv7j+FbpyrNNIPEjBnrFwSF+D7/19SL50f5/PMRHErWKkEiNSJ8AhMLbyqcH9hsJBPxqdvYgwa5vInIETwihrZQ9Qh5/JbdVEd6kYB71VPxn65ukjRlAKINAGZvXLvc57/j74ifao34yVIExGxQCmQwejga044N9JArkcsFf0etpv+BJQFEPXt7AjnqcBCnADlIsjzv271aqWuZb6jUFRuHDB7ysU+YeRZ+M11iaOjrd9V06cVf9db54Rwb9t6aTPFmeHZ1WJo0CjdljihhR9apq6IhiiBQQVcqwgjhhh7znujzqk1sruIAzHx5UX7iYEPT/g33T1246KILp+5v2N/UcU3vQUsi2sQSBy769OnkzIGJNLo6YEB1dEoDByaJtV7ZBpWlNkYZ1aBR6234+4FA0PzrYztbT/u/sZLAv28343a1m2alV2iUQJANqw2zLc2CxAwgm+KCPsEHBZKdMubVFp4KEAoESOoVAmS6ayNArjBUgDq9jBegXmGtTORNQgfbB0haOA0yE1wCuQ5egzrTfJep1yEysklUkZ566Qs8On9bOXrEqHJKuWzpMn+Esjq13PYPupBHBuOgA0464Zz99jnsnMPPWJ4/77gFETbfF5VGG2GU0hTlcfd59wb7nXHWYSed0E2mKu+nB7kQTx+MUGKsY1QliUht+W4P/5ZjDOcrAA==");
 
 export default HeartCirclePlus;

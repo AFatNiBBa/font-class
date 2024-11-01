@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trees` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trees?s=regular trees}
  * @preview ![trees](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/trees.svg)
  */
-const Trees: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M177.4 15.1c16-19 45.2-19 61.2 0L354.4 152.5c6 7.1 7.3 17.1 3.4 25.6s-12.4 13.9-21.8 13.9l-14.1 0 64.8 81c5.8 7.2 6.9 17.1 2.9 25.4s-12.4 13.6-21.6 13.6l-25.7 0 62.1 88 3.6 0 0-184c0-13.3 10.7-24 24-24s24 10.7 24 24l0 184 113.7 0-69.3-98.2c-5.2-7.3-5.8-16.9-1.7-24.9s12.3-13 21.3-13l22.1 0-64.8-81c-5.8-7.2-6.9-17.1-2.9-25.4s12.4-13.6 21.6-13.6l12.4 0L432 53.3l-59.9 71.1L339.9 88.1l61.5-73c16-19 45.2-19 61.2 0L578.4 152.5c6 7.1 7.3 17.1 3.4 25.6s-12.4 13.9-21.8 13.9l-14.1 0 64.8 81c5.8 7.2 6.9 17.1 2.9 25.4s-12.4 13.6-21.6 13.6l-25.7 0 69.3 98.2c5.2 7.3 5.8 16.9 1.7 24.9s-12.3 13-21.3 13l-160 0 0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-40-16 0-24 0-112 0-24 0 0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-40-40 0L24 448c-9 0-17.2-5-21.3-13s-3.5-17.6 1.7-24.9L73.7 312 48 312c-9.2 0-17.6-5.3-21.6-13.6s-2.9-18.2 2.9-25.4l64.8-81L80 192c-9.3 0-17.8-5.4-21.8-13.9s-2.6-18.4 3.4-25.6L177.4 15.1zM256 400l89.7 0-69.3-98.2c-5.2-7.3-5.8-16.9-1.7-24.9s12.3-13 21.3-13l22.1 0-64.8-81c-5.8-7.2-6.9-17.1-2.9-25.4s12.4-13.6 21.6-13.6l12.4 0L208 53.3 131.6 144l12.4 0c9.2 0 17.6 5.3 21.6 13.6s2.9 18.2-2.9 25.4L97.9 264l22.1 0c9 0 17.2 5 21.3 13s3.5 17.6-1.7 24.9L70.3 400l73.7 0 40 0 0-184c0-13.3 10.7-24 24-24s24 10.7 24 24l0 184 24 0z" />
-    </Icon>
-);
+const Trees = createIcon("trees", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABowAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDQwsGAAE2AiQDCAQgBYMtBywbvwXIjtRG+UVmRPC9TnLfl3xgHYMOADhEXCF2wFVqT9pMKiJn/zvw/F9Ob9imA/wGx2c2VnvQHDbG5F4WyCXUyzdIlGaBnUhC3rBtZD2wY5z8XiCPf+IuFdLD6Wvc6b40ftLRdSSVDEC0AMCMdauW+LQWtYiv6m8RX1mEgJgBSoEMGboIMFkm0EWuRC4X1KJeZ/+BJQFEAwFLrDn+uY/wAyAHScrza0YVlab52qJS3fRgEXFr2zVxf5v72lQD1xYR8Wi/5zviR9bGA+0fLGDZ6hga68IOWsQjqFolHur9QqcIaZelb2n3QPt1iBUPHNxQVIvVdYu4v+39baC9OM07e77S4pWfe3y992uvvvpNK1p9c/Jmj2w5XGtm+nK3bj5c62TKOrl3tV2xou27Tpqzw6HNh5u16zX2SPMmFm00aa5fTJ7vm1aLpfHhp/TfINlfi6eyiv7nmx3efKi3opPa4cWXsNYslW955OTNS6/aGHp2Ii4t5qXWZIRz860tsXa+P7TUt7D/+V7QAQgED3w6rdW25pN/a1Qk8OP7/x6frKuXrk2voJEEgmxwfbDN6aoByA4hZFOc1RPWCCRveW58ahMPCBCqCJA0UBUg01kLAXJVgwSo6GaMAA1UrZKJvLHQxpYCJE2cAJmxLge5Nt4AFZN9lm2gTWRXsngdij+SaXOr6By9csTQ4eXEsrcrky5OXm9PKic7+5/lUwPgWXsdc9Rpe+x2wOkKc9KSwhlHzB2i5zBQaYShhitNVC4e3Dy91h4nnXLAMUftPpOU20f7Ozu8eAAMJwLXSBqSRKTKpwEA");
 
 export default Trees;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dryer` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dryer?s=sharp-solid dryer}
  * @preview ![dryer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dryer.svg)
  */
-const Dryer: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 0L448 0l0 512L0 512 0 0zM368 304A144 144 0 1 0 80 304a144 144 0 1 0 288 0zM88 112a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM208 88a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM336 304c0 61.9-50.1 112-112 112c-56.4 0-103.1-41.7-110.9-96l62.9 0 16 0 0-32-16 0-62.9 0c7.8-54.3 54.4-96 110.9-96c61.9 0 112 50.1 112 112z" />
-    </Icon>
-);
+const Dryer = createIcon("dryer", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABcwAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBaAsGAAE2AiQDCAQgBYMtBywb5ATILgZyMj5VShMOtSx78srx/RK0TM8VD/+/9vt97lzELJslz6aNUFmkRLNQCQ3SdEKivUWV/70yGo1prkD4HQDq1g0B1CYUATlWiuqHue84r7PVO/zUqeeZFgrgA3jGxJwHZEwMzXkegZzHc7HRghSo2wpW0wpY96bt2GjK6Eg00SQdT3a8nSHHAncafNIj5xu35UPjw5BpIGkqABCdAGDnMisFrzWqRXxVVxCvdkFA7ACYRChQYBSBdVyBUTyTIMuCWlQV/QcyCCDqoS+fQEYDLsEVgAySuswTW5uazC11cl6utE7ClcvkPJIRv2YijOI46V4yk3Abcojx0KPEO+ls8kP4CVXuWOf9Nk1zvnlCjRfJMYBiN+Y6aN8hbSGSSFaCD+KvAvfsXvuq/f+ptVHiNii5nvdnwGSPxs9Po2XMPwXIY3zJ0OszKo6Rg6uOpfzm56/Vn7cGKgbVVsM/q30rgUDw3JKzWKZc/y9q4QDeX3yh/Yqq1yjTE6BRAkExU4UojhKiFACAFL3wihKB5BCfvmurOxAIzQiQ1GsWoDBChUDWbBqBOuNiEajX7BRXZDFCrxIESasbUFgzArJeF6DOujetXm8UwcWFBve1S/ZYyD3FIsMiWBJbBjofL4wMk9m2EtDLhUBYRa02rbrVqNag25CdUsweLTwe4fZFTKQwEZgk7Dh+Xs5Vo1OXBm1a85hk7L4aoNevD4Q5OIClZ2HYF4lf3TlQ0wkAAAA=");
 
 export default Dryer;

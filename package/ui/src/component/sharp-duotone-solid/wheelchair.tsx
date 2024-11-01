@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wheelchair` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheelchair?s=sharp-duotone-solid wheelchair}
  * @preview ![wheelchair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/wheelchair.svg)
  */
-const Wheelchair: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 352c0 88.4 71.6 160 160 160s160-71.6 160-160l-48 0c0 61.9-50.1 112-112 112S48 413.9 48 352s50.1-112 112-112c5.3 0 10.5 .4 15.6 1.1c-3.3-16.3-6.5-32.6-9.8-49c-1.9-.1-3.8-.1-5.8-.1C71.6 192 0 263.6 0 352z" />
-        <path d="M144 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm9 80l39 0 32 0 26.2 0 5.1 25.7 4.5 22.3 76.2 0 32 0 0 64-32 0-63.4 0 9.6 48L384 288l22.2 0 7.8 20.8 37.1 99 10.7-3.6 30.3-10.2 20.5 60.6-30.3 10.2-40 13.5-29.3 9.9-10.9-29L361.8 352l-105.2 0c-.4 0-.8 0-1.3 0L224 352l-26.2 0-5.1-25.7-32-160L153 128z" />
-    </Icon>
-);
+const Wheelchair = createIcon("wheelchair", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhgAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCHAsIAAE2AiQDCgQgBYMtB1AbPgXIHgm2zZrti3jRlLEWD9/rej33SbvzrTWDzAhhqMIVAHTEHapKuPvjLkStN94L+H/stHjjpQIeiHSOeEEW0N7xCjS+sf7LHngKvekb2L9tmMMhSKcRYlER0ThhNFYnyOPr7E410iOpwv3yP4Dxq17uJGmTAYiOAFi4ffNan7ZGa4qq+SZRWYOAWARKgQwZ+gowRybQV65ELhe0pmZao7kkgKiTB8tAHTWcxY2AHCRJ5Hm7yUMbtXb5tkat2P3Y8JeGvtDr4SHPD3ux99ZG0egVvaLREEXRD/Z7xdboEcNjYgyJKbjRO7ZFEXfFbUVA9cb+8d3ciI+2/jD/k+1FPD7i5Slvj3q1/1OjX5t+d7cHu/PJdxXfzvlwy6BXO776+8DqWOX++4tzN9xwrkjP17J++PCDKy21plygnH+/Y92vNOSQ5/xkjZ/d6AuvG37KSUEM6L3SgKdc5UAsrqgWx+Koqlg8QYdLf/11qQPZWi6MGdu7d5a17wcCwcPL/r64v8Oc/1saCVx8/xf4IWlKkV5FiwSCbExzjD0JzSkEACDF1QYlHkAgs0ASP7WtBwUIBQIkdYUAmT46CpArjBagpr+pAtQVNstE3kboaq+CpK3LQGaam0CuqzdAzRyfaXVdI/M73GvwX1/MMgstHSsnjptQziq7vky4Esr92eW0MuJqyo2EQ8ecd86VjjripCsNcrm15lXOWjaCl/qi0kTjTFCapVyOrpltqF3uCifb1PqQ2cr96ghXj6tHwjQJMOnELBmRIuv8NrEXLYz14HzXkrqrAAAA");
 
 export default Wheelchair;

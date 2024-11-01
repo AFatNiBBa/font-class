@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-doctor` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-doctor?s=light user-doctor}
  * @preview ![user-doctor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-doctor.svg)
  */
-const UserDoctor: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 32a96 96 0 1 1 0 192 96 96 0 1 1 0-192zM96 128a128 128 0 1 0 256 0A128 128 0 1 0 96 128zm48 288a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm32-45.3l0-34.7 1.2 0 93.6 0c5.8 0 11.5 .3 17.2 1l0 33.3c-23.1 6.9-40 28.3-40 53.7l0 24c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l0-8c0-13.3 10.7-24 24-24s24 10.7 24 24l0 8c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-24c0-25.4-16.9-46.8-40-53.7l0-25.8c55.6 20 95.5 73 96 135.5L32 480c.5-68.2 48.2-125.3 112-140.2l0 30.9c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48s48-21.5 48-48c0-20.9-13.4-38.7-32-45.3zm1.2-66.7C79.3 304 0 383.3 0 481.2c0 17 13.8 30.8 30.8 30.8l386.4 0c17 0 30.8-13.8 30.8-30.8C448 383.3 368.7 304 270.8 304l-93.6 0z" />
-    </Icon>
-);
+const UserDoctor = createIcon("user-doctor", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABpAAAALUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDCAsGAAE2AiQDCAQgBYMtBzIbigXIrgLsJj1WyvZi9HFRI2SX882WYXi0fERQrf3bs3fvA2AAWaWeDKHQ7Bgco2L/VQg0gYqwZHm7J5UndZoqJGwCtvdy1NUCHp5r/iscZlOBRxTIhO+Gt+cDT7GNuoTGW29/+9zHZ4Ssal3qdNG60iXrkpAYz/28+9+iF1Vi41Gk6Z5HFclwossAjfepU89zHlogzyEI2h66OO2mv9Kc5xWoYFreNpZuK9YqirU2x6F6gyAP0hAhz/uENGwfDVMLyOMcwxRIZ4QVnOgfGr9Z2QuSPAMQdQAwv9Mo8T6/Rrz6fyFeKQABsQCAfgQyZOgiwCwygS5y/SCXC77i/3/9D2QEECXkdhPIUYobwD0AcpAU8rzTXr4wcaE6X8aFitUjybjhnUH1TBNHSU+dfXNq/kX6Ijd7lnEne5OH+UchqeXupKRnrknojdwj59AxdpVDVC5hJ+K6YwjCiOQ45SbEOJc+eRE+p3bG2OUapxiPi6+gEtfKnyp0PTBzjpIX98S/TtV/VYx3S3qOZEMc4ca8LHptM2Bs3P/u2798Vx1gzWLp9T5ZdKqtl9XE1vdbqt6/i8Xe7ZWqgShDUay35utXbUh/rPkDYx3tjKJ59g4eNV/rQKhMc61mJIlTB2+jcf6KXhcP06mQfv2Se/ngxdcfK5WPa7HuSTwv1KNeKMrBgQxwXE8oqha5DgCBoDc0fs56fdaPOIHv+w+3/n/0pbtAmQSCbNQ/zBqhD4AqAKkUW8E7XxRILkAh71rlJAQQKhAgKVEhQKaTOgLkKowkQEEPkwlQosJirMjLhSbWXiCpsgFkprAN5Jp4CApm8TQu0SRkwcqFGvermJyekdQ0Txkzrt+Mfsuyk48/po3P7HfbzlvZNhwzaSwmSqXQ0QkTUuYwiB4a+CHMeMYwjn7MoN92bS3lFCFsMra4P8lM+j3vD2Or33s4PENoJ1CSJCJVvuBa5CsDAAA=");
 
 export default UserDoctor;

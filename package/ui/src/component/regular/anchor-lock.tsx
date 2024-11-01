@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `anchor-lock` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-lock?s=regular anchor-lock}
  * @preview ![anchor-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/anchor-lock.svg)
  */
-const AnchorLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 80a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM288 0c-44.2 0-80 35.8-80 80c0 35.9 23.7 66.3 56.3 76.4c-.2 1.2-.3 2.4-.3 3.6l0 32-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0 0 224-24 0c-73.7 0-133.7-58.6-135.9-131.8l16.3 14c10.1 8.6 25.2 7.5 33.8-2.6s7.5-25.2-2.6-33.8l-56-48c-9-7.7-22.3-7.7-31.2 0l-56 48c-10.1 8.6-11.2 23.8-2.6 33.8s23.8 11.2 33.8 2.6L56 332.1C58.2 431.8 139.8 512 240 512l48 0 48 0c18.3 0 36.1-2.7 52.8-7.7c-3.1-7.5-4.8-15.7-4.8-24.3l0-24.7c-14.9 5.6-31.1 8.7-48 8.7l-24 0 0-224 48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-32c0-1.2-.1-2.4-.3-3.6C344.3 146.3 368 115.9 368 80c0-44.2-35.8-80-80-80zM528 240c17.7 0 32 14.3 32 32l0 48-64 0 0-48c0-17.7 14.3-32 32-32zm-80 32l0 48c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80z" />
-    </Icon>
-);
+const AnchorLock = createIcon("anchor-lock", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABnAAAAKNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDCQsGAAE2AiQDCAQgBYMtBzIbiwURlZrVyD4SclOW/9FEZUc0x0jwfOVa73d6piAZ1IN5YNXltkVYEzuJ+x05rssEwP9ck6+aDvAbHVqtKHU0i+RO3pvAxLI5edY4myhudW5EB2KhmgnzDdDyR1bjAbVFPQJWhR8qb4hjPig8BgAAEgoAADTr06MT1yqkQuSh/zTykA6AAEgzAGwEMAADSEQAaIiBAIlobECjEagQv1/8B9oIAIiX+FYVABrwAoeAYwCABkChtY7oE5ZheYJ0b8tjjnEjRdabS6M3SnnMJmtZ1AZ6n8oROZzoxm3JdEFM2R/bsJYc+U7jK2lRciBmW3Rn2RjZUdbHbciOkdfdnveyrGXZG0Vkv2mKiCWHErZmNUj5qG2yM+9o7V7LokQ2gMyp3wzuibA0cj2IG7XBsmRZqC56ozeasnvBUzmHE9OOhh59l/po9COaTAleDIuDizRxHyldQkdBb0n4Wr1IKRuHblFR3RwqiMXt2Sv7H4n/r38o48+fsg/X/yf+w+iYWtpRHCdxUfugOPrGx1JxYYKNUouqvyZI71GhHz58FOPQFAdh75JCbE7tdFFtu4mcDvuvEzqqtwCAAAIn1t5qPySk4bcASwFQdeHD9+pA/y//NeWqo0AACgABo8BfMFC5GzR0QIj9SmaThr9IAMUuNHiij40IAIIJdKDwYoJBAqGgMckHD8nUUg9O6IGB6ECESAaBQeFjGhjUZg5oIjkJHhpy1+clUgxg1UFN/1fMyloPsVa97JIix65vr6Y1Bvyptr2BfdiRM1uW5eKhjJ4yeeaokeNmDuTpnYKzJrXeklr90C4pcuz69uXc0/69R02fMW7K5KCbBvbznpzZ27VzsVsRK5bGKRSIsryRrdAjAQA=");
 
 export default AnchorLock;

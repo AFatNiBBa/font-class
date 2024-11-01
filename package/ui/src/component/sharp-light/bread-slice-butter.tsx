@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bread-slice-butter` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bread-slice-butter?s=sharp-light bread-slice-butter}
  * @preview ![bread-slice-butter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bread-slice-butter.svg)
  */
-const BreadSliceButter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 256l0-32-32 0c-17.7 0-32-14.3-32-32c0-44.3 32.4-76.2 84.6-98.6C167.9 71.4 227.5 64 256 64s88.1 7.4 139.4 29.4C447.6 115.8 480 147.7 480 192c0 17.7-14.3 32-32 32l-32 0 0 32 0 192L96 448l0-192zM448 480l0-32 0-160 0-32c35.3 0 64-28.7 64-64C512 64 320 32 256 32S0 64 0 192c0 35.3 28.7 64 64 64l0 32 0 160 0 32 32 0 320 0 32 0zM267.3 188.7L256 177.4l-11.3 11.3-88 88L145.4 288l11.3 11.3 88 88L256 398.6l11.3-11.3 88-88L366.6 288l-11.3-11.3-88-88zM256 353.4L190.6 288 256 222.6 321.4 288 256 353.4z" />
-    </Icon>
-);
+const BreadSliceButter = createIcon("bread-slice-butter", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfwAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCJwsGAAE2AiQDCAQgBYMtBzkbMAXIngfZifVEqbtj8SLx8P1+lee+/kN/ZpHfMqNDCpEjksSK26YiF2wqMrrTrOo9iZudKyR+/i/3/J7fBvxGh7InjaVX27I5nycQBth5yxb4CWWagGXVNsRseURDvCEU0QsU8X2MUEd6K1XxglOp+Fc3t0iKCoBoC4C5m9ev9MuTeBJRrX1JVC1HQMwDWaDCaz0BZcalgZ4KGYVC8CRqNfs/MBNA1PNenECBepzBbUABkqIo+vfv1tRc16rYZHys3ByijAedX49/Nn89+evmhxO/nPh31zq+WpYhREvE3hD82z4a/lmPd1e96NcJXy2woprfGvrJQCFE8/bOnTp3jA3RMTrFRh3tEpt7OsemDZs2btpcL9nQ79O2n/6nqmr3z1k4r/W9e63T3LX5tI1dumx0OqeBZR/Lsl/M8cvuxznnt2Vvt2tXjkrpxx9zDrOURpUYvJ215vnTfp953TZv9p3vkv3PQFy+N0fQqc+DQLD2u3ntbjPj/8bmBJ59d+mvqPYkSZ+iUQJBZURthB0JJAIAkOKSfgkCyREFoaotXhcglAiQ1CsFqOihrQCF0nAB6vQ2UYB6pfUqomgSOtpZgqTFWVAxyWVQ6OhzUGeG34p6HaNCezzl8Lt+KYsQWngsjx01Jk/LnX25QE6suT89j3aGXFLnhvKlDjntlAsOOuCoC0Ces7Jx0UmL+uCFvigba5Qxsmny7NGssgmKc8472i7NP2S6vH48xKX+1UN5P/EoxzmRJCK1/ysBbeQ2Lt201z14DgA=");
 
 export default BreadSliceButter;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-left-long` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-long?s=thin arrow-left-long}
  * @preview ![arrow-left-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-left-long.svg)
  */
-const ArrowLeftLong: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M2.3 250.3c-3.1 3.1-3.1 8.2 0 11.3l152 152c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L27.3 264 504 264c4.4 0 8-3.6 8-8s-3.6-8-8-8L27.3 248 165.7 109.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-152 152z" />
-    </Icon>
-);
+const ArrowLeftLong = createIcon("arrow-left-long", false, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABUAAAAHMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfHsLBgABNgIkAwgEIAWDLQc2G4EEyJ4D7uwQ+35unsViMYZDhr4sRDR+IgjH0PskBUIJCtFWokVh2FgCYStkq+sqLGyzu/+53Z8kTPKxhEve2hKSxCzR8NdZ6FRCodES0aSZa2rf5z94wNSp5zkPBfCNgrKGLQ3FFvgeHIGAZ3twas9rxVpFsbuzPRTRPqE1WZLHu5bjsUOJDydY0msCXOcPjf/QY0GSM4BoBgCwsR8X4fSnSV//EV+wBQTEJsAwgoyMfgQsowX6MYaBogj+BO4/EEEAUQmfTKAgYxQYA6CAJErplVU0lL3wytr9B0OSPHZJxhRpiOeuvVEe+/HcudcnuIP6cDGpEp+BJMn2diCw2/p2UFl58K1hFOP48DIIBCvzM31OtXytliXw7/2vctCPJL2hWgJBnvhPSCdCq7hFiyscfFEg6UXBd633JECoRYCkUq0AWR81Aopa4wioMCiAgEq1ttGi1AjtMh0k9U5BNmsOinZHUGHZWa/UHtlKKB1Tn7R4gUJ8H3qcbozi1FZpxROxHsNl0Tz1MQtsQlVP11hFWcOYIEOiNdEhSDDvh5CHkxuKwm1vvpxSMTTS0NNNXWLwvGo2lbMtoFAQddJwkojUdHg27M3ej+AwJg==");
 
 export default ArrowLeftLong;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `amp-guitar` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/amp-guitar?s=solid amp-guitar}
  * @preview ![amp-guitar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/amp-guitar.svg)
  */
-const AmpGuitar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-48.9 0-92.5 28.8-121.6 53.8c-15 12.9-27.3 25.7-35.8 35.3c-2.3 2.6-4.3 4.9-6 6.9L64 96C28.7 96 0 124.7 0 160L0 448c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64l-28.5 0c-1.7-2.1-3.8-4.4-6-6.9c-8.5-9.6-20.8-22.4-35.8-35.3C348.5 28.8 304.9 0 256 0zm96.9 96L159.1 96c2.1-1.9 4.3-3.8 6.5-5.8C192.5 67.2 224.9 48 256 48s63.5 19.2 90.4 42.2c2.2 1.9 4.4 3.9 6.5 5.8zM96 152a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm72 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm152-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm72 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 448l0-192 384 0 0 192L64 448zm64-128a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48-64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm16-32a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm16-32a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48-64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM256 416a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48-64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm16-32a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm16-32a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48-64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM384 416a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const AmpGuitar = createIcon("amp-guitar", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAAB8wAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhgyEPgsGAAE2AiQDCAQgBYMtBzEbPwbIjsM4Rryz8RYVQbwe/z97kqtcK4/ytzuoA1lCKkq2rNQlwP/nms/v2g/wi987PbRaRHH7MCoFBhxFFTSS2YEOaEK6qXkvD3Bovr4r5PFedosa0sPpe9zpPjR+1+8WkoYMQLQBYM2hfTt8/Ev8EvFd9QbxnW0IiDWgFMiQYUiA5TKBIbkSuVzwS1QV+w8sCSBq+XRyKEcv/iVq6CpA0p3ns7oa/HBjTXN+MF5cHHt9csRzk1/quq+rkC/0pXh4yssTmuPFaa8OZvHI1FcmFvFAzwPxAH/6lYUHisbiwd4He1+d9GLjrROen3J/961x2vP9D41/YeDRSQdCSVc+1Nl5VojmEE2HHux9oOe+ri0muWEdCz3YO4i5D6inm7h/w7NjX2l75c8x35/zveqj1fx95r4f53UMe6q9vSgVSetTN1S7hrSPFT/t21etPu3Up35yW7S1z7nwwr4+uWjO2LHBoj3d3XsAualXQl0e7O16NrV+7C+6wcduWHX9Ly0tv2DTaXmgasGminVu3UXVM4baeumW94FAsPPj42NOtS7/p74xgd/e/fv/7EeoPk7SK6iXQJBNr6Y7nkAi+F8pxTXGJggkf+nmB5s8sDURCipIahWQGdQGucI0qDFiwRW1CvtkIm8QupwAIGlyOWQWuhZyXV6DGst9Fa3VFdl9IJ3F0l9o2o1NZMO8cs7M2eXScjSlkE9tQbcuKxdbJ1/DS6bAvc5xqUtc5WxnOd9VDeYKOxJXu9jGKfYGZUtzzDRbaalyc/au9iCOXuFK5w+rt8+yTHl8cLJrpqtPgY7E551rZZKIVJx+8WUzPhQA");
 
 export default AmpGuitar;

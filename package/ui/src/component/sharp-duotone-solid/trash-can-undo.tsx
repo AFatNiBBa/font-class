@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-undo` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-undo?s=sharp-duotone-solid trash-can-undo}
  * @preview ![trash-can-undo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/trash-can-undo.svg)
  */
-const TrashCanUndo: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 96l384 0 0 416L32 512 32 96zM94.1 256l17 17 64 64 17 17L225.9 320l-17-17-23-23 54.1 0c22.1 0 40 17.9 40 40l0 40 0 24 48 0 0-24 0-40c0-48.6-39.4-88-88-88l-54.1 0 23-23 17-17L192 158.1l-17 17-64 64-17 17z" />
-        <path d="M144 0L128 32 0 32 0 96l448 0 0-64L320 32 304 0 144 0zm65 209l17-17L192 158.1l-17 17-64 64-17 17 17 17 64 64 17 17L225.9 320l-17-17-23-23 54.1 0c22.1 0 40 17.9 40 40l0 40 0 24 48 0 0-24 0-40c0-48.6-39.4-88-88-88l-54.1 0 23-23z" />
-    </Icon>
-);
+const TrashCanUndo = createIcon("trash-can-undo", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABjQAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCPAsIAAE2AiQDCgQgBYMtB1gbZgUR1ZpzyH4m2HTOF/gOjkYzriNQbECblfBLPHzMle8nOVo4JlViVdZA4Nl1BkkROZSt4nUl9jeVJKsTAPX+b7RNRugc8SPorpChWe17T3/vzr+tBfhA4M+FE2SdfxuteZ5A59O6dCxKKKE4sjKghm0j64FZ4xBjeoYs7qXHVJFcSz7govsfwPijyzESdSmAaATAvNXLF6qMxEgSH/In4oMFCIj5YFAgRYpeAWZKBXplBpHJBCNJnpHIDwogqjk4ZVejYw7hFCADCduVZU0T6yYWq8rZKvlIYX1nT2chRDkiCtEdhZVjR42dHaNiCaJGx9JgToxB5WKcbbtE6AT10W6PeTijEGPXl0vlJEqRrhw9ZvRFHsvf/q6HHzY+/Df0of/g4qt8fmiuirkOyd2d+wVNyEGOJuwyQ9Ojp02jdJqk0yjZqVNzZ9hlYPOhQ4fuOuTurDun6/5ZBILtPyed2Nww839tMQG/nvotfo/ySlSSh6iVgCAdl4/bEBWIigAAJHHAcFQwKJCaKxFeteSyAKGAAIlqBQFSPRoFyBSMFaBKv+kCVCtYLhVZndBq4wASJbtBaoaDINPqMagy0+u0WmvYtB5KtUj6C0z3U8gtQ55kMNitdHLVEvS8xWVf/bxPw4OkP/a3a6d3wt1F8W3+iHBvRJ5kMHjcerm/7O5nOna7iMX3ifqPR2u4GgaYkoOXpkRCuXjv6hnjptrjb2+PuE4Pk2tq+wUAAA==");
 
 export default TrashCanUndo;

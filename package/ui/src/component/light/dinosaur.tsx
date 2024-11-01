@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dinosaur` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dinosaur?s=light dinosaur}
  * @preview ![dinosaur](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dinosaur.svg)
  */
-const Dinosaur: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M417.6 19.2C426.7 7.1 440.9 0 456 0l13 0C563.5 0 640 76.5 640 170.9l0 50.9c0 76.5-39.4 147.6-104.3 188.2L512 424.9l0 39.1c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-11c-3.5 .9-7.5 1.8-11.7 2.6c-14.2 3-32.3 6-52.4 7.5c-.5-11.2-3.4-21.9-8.2-31.5c20.5-1.1 39.4-4.1 54-7.2c9.1-1.9 16.5-3.8 21.6-5.3c2.5-.7 4.5-1.3 5.8-1.7c.6-.2 1.1-.4 1.4-.5l.3-.1c0 0 0 0 .1 0c0 0 0 0 0 0c4.9-1.6 10.2-.8 14.4 2.2s6.6 7.8 6.6 13l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-47.7c0-2.8 .6-5.6 2-8s3.4-4.5 5.8-6l31-19.4c55.5-34.7 89.2-95.6 89.2-161l0-50.9C608 94.2 545.8 32 469.1 32l-13 0c-5.1 0-9.8 2.4-12.8 6.4l-6.8 9.1c-6.7 8.9-15.8 15.9-26.1 20c-11 4.4-18.2 15.1-18.2 26.9l0 1.8c0 17.5 14.2 31.7 31.7 31.7l74.5 0c34.1 0 61.8 27.7 61.8 61.8l0 23c0 32.7-26.5 59.1-59.1 59.1c-27.3 0-53.9-8.5-76.2-24.4l-26-18.6c-33.7-24.1-74-37-115.4-37c-49.6 0-97.3 18.5-133.9 51.9L61.1 324.4C42.6 341.4 32 365.4 32 390.5c0 49.4 40.1 89.5 89.5 89.5l121 0c7.5 0 13.5-6.1 13.5-13.5c0-6.4-4.4-11.9-10.7-13.2l-97.6-21.1C117.5 425.6 96 398.9 96 368c0-8.8 7.2-16 16-16s16 7.2 16 16c0 15.8 11 29.5 26.5 32.8L252.1 422C273 426.5 288 445 288 466.5c0 25.1-20.4 45.5-45.5 45.5l-121 0C54.4 512 0 457.6 0 390.5c0-34.1 14.4-66.7 39.6-89.7l88.2-80.5c42.5-38.8 97.9-60.3 155.5-60.3c48.1 0 94.9 15 134 43l26 18.6c16.8 12 36.9 18.4 57.6 18.4c15 0 27.1-12.1 27.1-27.1l0-23c0-16.5-13.4-29.8-29.8-29.8l-74.5 0c-35.2 0-63.7-28.5-63.7-63.7l0-1.8c0-24.9 15.2-47.4 38.3-56.6c4.9-2 9.2-5.3 12.4-9.5l6.8-9.1zM448 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const Dinosaur = createIcon("dinosaur", false, "data:font/woff2;base64,d09GMgABAAAAAAN0AAoAAAAABvgAAAMoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyDcwsGAAE2AiQDCAQgBYMtBy8b8gXILgbc3QOOCF2HV6gkUIc2HTt+o6TgH5Qj309ygHN2AXKztk6dqAmaPHWk///7+/b50P3gQI6zJlpNUoKZvLpUXykz9eUm0j8Pn7f3Bzjd3QgmE9ldnKQaaDyxvLsWUB3yBVfvfy6nN2zTAX67AX5qc1R+lI1F6ZzPEwhwDW6DBR5mAVuqqZtSlPqJ4CEiIjWUMPbt6/HtDJx+kw8CwBwVPAF21zfVdyxtAAzOAgCgaAAAQNutf09uL+JEj/5fgx4RAwSgdgDwBFjAAukEQAsWAekcHjgcgo/Br/+BDhAAKJBGGAKXKt8AX+B8PRiMcw9CWECEG8TEoZMX3Rm9bnk3EFoTcNbFhaAjxqk8BZ0xm0klOmDcyltI3C2cTZpNGlMPMdF1waxpGuigiZGJkIJOe+vG/1SkE2H3nRS0zWgk3WT85HQY02nPfaA1Hlt5o8289BL61SdVezbLxfv1dPlMYjrtWC3MzHTCfH6a/2G6jVOhCt1pdZ+z2TqDfgePxXnSPhsznxVprdmMnT7jdZD6rl1YUubV3C80FT+T6HQh+uAnT4VPWD96T4UuwU8Fo9l1XN2JQvbx2wAHqp5nIaPN3v4zKr6Cj5wArQACAGDemBDsgMiPHs9qAC5OX/MZCyUtNcGkHkXHVAjumMWlf4nAELFkWB2NY9CWJFJErfGy2EtI74F1mQnckoq3DGe3cI0p9mUbMeHmLNTcR7Xl4BgjfqEzPHoytKAqZxvx+Iw+tG2Z6DYnMO7AmprCzBGxuVkVjWM6XSgRd16R1IYP+cGqnQ8AdFuXdfWqCf2TMQPA5/lvPPz/UdAtOAAIxgAgsGW8jxGpGwCVEgBkjRYhB3yQAMNLAlocziE2L0JhgSGQULCkiQZHKKUQQKZ61bm9P4tcCCLeSAFDOHPB0mAlOOLdhABauJsJJD6EEa7Hp/6DmdNpxzvO84EVVb6Zv1ZNI2hVON3cu5Mei0pXsRxlktlmWWCiCaZasHHz9MwvNFMnxHb0RV61ClW8Zjzd+HQGpew88021TX6W5vzzcZFFeHCxmB8oX1MOYDB5hQmeUDJr9vyxC+cBAAA=");
 
 export default Dinosaur;

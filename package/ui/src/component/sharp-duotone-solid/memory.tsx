@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `memory` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memory?s=sharp-duotone-solid memory}
  * @preview ![memory](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/memory.svg)
  */
-const Memory: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 64l0 82.7c18.6 6.6 32 24.4 32 45.3s-13.4 38.7-32 45.3L0 320l576 0 0-82.7c-18.6-6.6-32-24.4-32-45.3s13.4-38.7 32-45.3L576 64 0 64zm128 64l64 0 0 32 0 64 0 32-64 0 0-32 0-64 0-32zm128 0l64 0 0 32 0 64 0 32-64 0 0-32 0-64 0-32zm128 0l64 0 0 32 0 64 0 32-64 0 0-32 0-64 0-32z" />
-        <path d="M192 160l0 64 0 32-64 0 0-32 0-64 0-32 64 0 0 32zm128 0l0 64 0 32-64 0 0-32 0-64 0-32 64 0 0 32zm128 0l0 64 0 32-64 0 0-32 0-64 0-32 64 0 0 32zM0 320l576 0 0 128-80 0 0-32 0-16-32 0 0 16 0 32-96 0 0-32 0-16-32 0 0 16 0 32-96 0 0-32 0-16-32 0 0 16 0 32-96 0 0-32 0-16-32 0 0 16 0 32L0 448 0 320z" />
-    </Icon>
-);
+const Memory = createIcon("memory", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABmQAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyDNwsIAAE2AiQDCgQgBYMtB0gb0QXIhiBa+7fq2f20LwwbYFRE4IB8HLBimygG4YAk3J06RxOXO//z376NHm0PfZD2+ViD0uIEti9NZIEHUuKJWIPzBh9UKEMoP0Ee/2SnVJHOpw84Hb5w/NLaKZK6DEA0AsCkxfNnevItvqX48P9d4oMZCIjJoBTIkKGdAGNlAu3kSuRywbf0//98C/bnVxJAVBPfLAPVKPAAzwE5SHJ5njeOvVHNc6JSVT9flF0sF0QRcLlKqIzYNQ0bNLSaIkT3wUy41v5SV9EwIq53uNojosHCSlFxcLaooGs63250+49OHzZ98LjjxIkTSxNlvR2D3uOrFD5mjtUI9bqmy5jjmGPzwy0fGzX6ON9E8/lzPjrh++8BgaDdlD8brG449u/aSgI/7v310/8VpYnpNmolEGR9/+9rRZoIaaIAAKQ4pHOaCAKZHXL4Xus5I0AoECCpVgiQaauRALlCHwGqdDBMgGqF+TKR1wnNrOzYpJ69bGa4w2yumTtslbFex6o1i8wQi0ZQ/IdMmz4Epq0rB/UfWI4uV4sayVzy3vCY8rDX8xBv6gWP2mS3XQ7YaIOtDgzwfWYmD9pp+hY4zRuVBulvoNJo5eXK0/2LbLTPflvttitYZIzy+ainQ9ude8EwiTkH25DJiBRZA6tj9XMMVqO+ousBAAAA");
 
 export default Memory;

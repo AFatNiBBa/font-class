@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bookmark-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bookmark-slash?s=sharp-light bookmark-slash}
  * @preview ![bookmark-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bookmark-slash.svg)
  */
-const BookmarkSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M512 32l0-32L480 0 160 0 128 0l0 22.9 32 25.3L160 32l320 0 0 268.8L512 326l0-294zM160 456.3l0-245.1L128 186l0 289 0 37 32-18.7L320 400l160 93.3L512 512l0-22.9-68.7-54.3L336.1 372.4 320 363l-16.1 9.4L160 456.3zM32.5 10L19.9 .1 .1 25.3l12.6 9.9L607.8 502.2l12.6 9.9 19.8-25.2-12.6-9.9L32.5 10z" />
-    </Icon>
-);
+const BookmarkSlash = createIcon("bookmark-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZAAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBUAsGAAE2AiQDCAQgBYMtBzUb1QTIjsN04yuPpFFG8RgP/7/2v33uzBfcB3dtYp1mCZpV8+aJkP6iur1UBWCe/2v63fOjA/x8BIcWhaUHkkHRi3o+gQFHWTRtIrPhbKI4a1dtZEM0fiTIpusev73H886Qx5/ooYx0Po3T+UPjjWZOkeQZgKgLgLGL58/0uCqqIl6WbhAvTUdAjAOFQIYMLQUYIRNoKVcglwuqolRy/4EFAUQ5vDaBHGWYikWAHCRZnjdoVa9GWa18UdhZfXOI6jVF14ioFck4sg0hunmv6B6LY+GeX1R2NI6GsWBZ40aNu0Sj2Mt893nHvnZX63rX9k0rXSiwfU0TP9U1Ri0/dVp96Rvm/NRWR59dWMH7fNbEhIG2jfLTT6fnH3nwjOJDembeK3dU6M7zIBD8vWjl6jojvlXWSOD13Q+f2IdLj9OxBJUSCLIepR5WpGPgsAFoKQ5pJ3xRIBkrg3et6YwAoToCJOWqC5Bpoa4Aueq6C1CmtYEClKtuvkzk1YSGVnaQ1LQXZAY5DHINXQNlRniilmsYmUJR6kD9zsVPGuGJs4q+vfoUw4pjptE6QsTJ4cW10OUQd3SlnTbZbZcDNtpgqwMDus9M46CdJknIRD9U6KuXPgrDFI/L182LbLTPflvttitNM1zxvtLFIbl/V5IT4PaTSBKRan+Srp77d6zdvwU=");
 
 export default BookmarkSlash;

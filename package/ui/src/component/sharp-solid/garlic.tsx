@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `garlic` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/garlic?s=sharp-solid garlic}
  * @preview ![garlic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/garlic.svg)
  */
-const Garlic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M46.6 202.7l73.9-59.1c-.6 2-1.2 4-1.8 5.9c-5.4 17.1-12.7 30.1-20.5 43.3c-.8 1.4-1.6 2.8-2.5 4.2c-7.1 11.9-14.8 24.8-20.7 40.5c-6.7 17.8-11 38.8-11 66.5c0 54.8 26.8 96 65.3 120l-5.1 0C55.6 424 0 368.4 0 299.7c0-37.8 17.2-73.5 46.6-97zM387.7 424l-85.1 0c38.6-24 65.3-65.2 65.3-120c0-52.8-20.4-80.5-39.4-106.3c0 0 0 0 0 0s0 0 0 0c-1.2-1.7-2.4-3.3-3.6-4.9c-9.8-13.4-18.8-26.6-25.5-43.8c-6.7-17-11.4-38.7-11.4-69l0-80 64 0 0 112 113.4 90.7c29.5 23.6 46.6 59.3 46.6 97C512 368.4 456.4 424 387.7 424zM160 0l96 0 0 80c0 33.8 5.3 59.5 13.6 80.7c8.3 21.1 19.3 37 29.5 50.9c1.1 1.6 2.3 3.1 3.4 4.6c0 0 0 0 0 .1c0 0 0 0 0 0C321 241.5 336 261.9 336 304c0 69.3-54.9 112-120 112s-120-42.7-120-112c0-24.2 3.7-41.3 9-55.2c4.9-12.8 11.1-23.3 18.3-35.5l2.5-4.2c8.2-13.8 16.9-29.3 23.5-49.9c4.2-13.2 7.4-28.2 9.2-46L160 112l0-32 0-80zM136 448l48 0 0 40 0 24-48 0 0-24 0-40zm64 0l48 0 0 40 0 24-48 0 0-24 0-40zm64 0l48 0 0 40 0 24-48 0 0-24 0-40zm64 0l48 0 0 40 0 24-48 0 0-24 0-40z" />
-    </Icon>
-);
+const Garlic = createIcon("garlic", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABnQAAALAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDJgsGAAE2AiQDCAQgBYMtBy0bowXIrgZsN2mTs2lufjRgRPw21/bM2QJx/GBhIYJC9697kj7pmUEGxo6AOwKogAIM03vcJilT++9vvkHyLyugsG3ppL2B8yjDKLCEI1jeB10ZRJJahBMZPDzX/FdtRWU5oIG11fMRDbjAjkdroAYrHvB4nry9P7CdT6I0HXQJ1MVzSjCwTMpDmNyXps0TwuYBRt78X+75TTs6wE96E2kvusq396I5nyeQ2OK1BbLAIo8SsKbmPTVA1xXqNpDFR9KcJLkmXuCMe9P4R+QgSFSlAKIWAEaNpk3wvMwrwk//J37SAQTEKIBCIEWKZgIMlQo0kymQyQQv4//sP7AJIMqF5yUgQxXeAj4FIAOJiixr1r5f9ZAtlVXPZqbl+axz+qyLdbUR8fcFP+mqkx92yoVv13PrByOWmFb+uHzc8naT6032hfEXfnXz9RYhlELMyCm9O/TjsVHJLIl70bXGl+qfqL8voL4eLPfU98e+fd/6TtMbTfdFEBl+o6kQrNk7EpG3KCitaf2o1qP/0ststb7t0SFFPLIRBF6cTd6pRfMvFEZmU2b9vd8RHvRFc/Xy97ZPgDr1VXNbQxoz89SXy61bj/xecfg6TIa/Pq8EAP44cMVp3axWrWbdUnHbuEcbX91KFQqTg7tnz54dNdJTIx03fD8QCP5takaLvPb/nQl49eH/K35GvJ4geQSVEhCkXV+P+SKQEACAJHaSCggkHkMJr1rNZQgQcgRIlMsFSDVVS4BMrosAZVroJ0C53DRYZFVCPQsakKhmC0j1twtk6nkLlBnqu3y5epG+XfnLk/8cM8Z3oXHziqV7z2JwMVtVKZ+jqKeHFJuDeSfv6gRXKpkY2SnIadg75IpbOhhwlgibDyL00l1PhcGKw42Hiz0KVjYaJkY7yxDF9ZmOdi4P7gRjEnh7s5JbUJGUrxpb169ZBgAA");
 
 export default Garlic;

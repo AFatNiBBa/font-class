@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `door-closed` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/door-closed?s=regular door-closed}
  * @preview ![door-closed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/door-closed.svg)
  */
-const DoorClosed: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M416 48c8.8 0 16 7.2 16 16l0 400-288 0 0-400c0-8.8 7.2-16 16-16l256 0zm64 416l0-400c0-35.3-28.7-64-64-64L160 0C124.7 0 96 28.7 96 64l0 400-72 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 48 0 288 0 48 0 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-72 0zM368 224a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
-    </Icon>
-);
+const DoorClosed = createIcon("door-closed", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZgAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBPwsGAAE2AiQDCAQgBYMtBzIbwQTIhiDSSc6e5AfZj6wHYA4gt0DVd8EqLVDJVdJ6/m/5vOdRgN+6xEO7Dw3kAonO83kCifXy2kEwG84GimOcuo093CCXV5EjeEQMcRiKJ+TxQzymQno+fYdH25vGnzq4RVLJAERzAExfu3Kxe7/GrxHf1j8mvrUQATEdlAIZMnQWYJJMoLNciVwu+DXqdf0PLAkgGvCflkCOCmZhASAHSZbntS6tqpUm+Zpqpdj7dJsUtcji2XZN1mcpe2HAB31q8Va/99qnKOKt9s/3rjZ5t9MLfYo1D7SOeMq1Nk9XH2z3bFxv+0zR44PmH/zd/bs933n10V+bPqb0mKa/mvrqY489VrRo8RqvtWhRPGae5W3aLJ/3FUhH/216H/c1TSgaiLu+Pzfhj63NJv3XqJrA71/8+789r34vTUsfoJEEgmxQfZBNaRoIMYAgxRk9kg8KJJNk/FVrnhEgFAiQNFAIkOmkuQC5wkABKroaLUADhZUykTcWWts8QFJzHGTGuAxyrX0IKib50m+gdWQ8YlnAfuOS5kRo9lY5fMiwckK5THSOGnRdTiy3rX5nSqM/Du1x1BGn7LbLfqcCcsLi6LTD5mTwbF9UGm6IYUoTlMf58/4au51w0n5HHbE1E5X3vX7O5P394SZOOUIsSUSqPjd1MG8BAAAA");
 
 export default DoorClosed;

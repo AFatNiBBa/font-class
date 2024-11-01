@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `island-tropical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/island-tropical?s=solid island-tropical}
  * @preview ![island-tropical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/island-tropical.svg)
  */
-const IslandTropical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M114.3 93.7c-1.5 1.5-3.5 2.3-5.7 2.3L78.2 96c-8.8 0-16.1-7.2-13.8-15.8C73.6 44.8 112.8 0 190.2 0c58.4 0 95 25.5 113.5 53.2C323.6 40.6 350.2 32 384 32c77.4 0 116.6 44.8 125.8 80.2c2.2 8.6-5 15.8-13.8 15.8l-44.7 0c-2.1 0-4.2-.8-5.7-2.3l-24-24c-3.1-3.1-8.2-3.1-11.3 0l-24 24c-1.5 1.5-3.5 2.3-5.7 2.3l-79.2 0c28 79.9 21.2 170.2 9.9 226.1C370.9 365.1 416 417.3 416 480c0 17.7-14.3 32-32 32L64 512c-17.7 0-32-14.3-32-32c0-70.7 57.3-128 128-128l64 0c29.7-79.3 29.4-150.9 22.8-194l-87.6 87.6c-6.2 6.2-16.5 6.2-21-1.4c-18.5-31.6-22.5-90.9 32.3-145.7c1.4-1.4 2.8-2.7 4.1-4c-.3-.3-.7-.5-1-.8l-24-24c-3.1-3.1-8.2-3.1-11.3 0l-24 24z" />
-    </Icon>
-);
+const IslandTropical = createIcon("island-tropical", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdgAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBcAsGAAE2AiQDCAQgBYMtBzYb9gTIjtMdMRP5m3j4f7u+3+dWPfW8oWsA8JsMGfb6ERQp61yoLZ469TznoQA+iCQbcx6QZaHQnOcRyPkcHBwd2KvWClZRrLWzN1A+shikT1z6DIs+w2aHPN7JLlVFuit9ixvyl8bv2rqUpC4DEE0AMGXVsgU+LEc54ptKxDfmISCmgEIgQ4YOAoyXCXSQK5DLBeWoVPx/YEEAUa08L4EcGTZiGyAHSeT5ygZVDeNiad2tpVLc3vqefs/Mqsdjbd3mfZ5qe1uLUlzdqm/c3qJ3oIaXXNjhtQHPdbywhWDqp823xyOTPpglXun2SKflsL/V3Z0fmHRH6zsa3B4XheLFXZ9u8vSfXb7d+a0jW5pmnZUb7fvlp5tefP+D7z4pbvrpl32NygNkTU9ZvvyUptli4ydMuPunjz9q3OjKKxtNVo9UDZ+2eLJ1XbtMXrXKm1f/MnLkmSCAbwaB4NMdr3y7qfH4f2ol8PPbf/+f3ldUPoxKehq1Egiy/pX+1icKERUBAEhxUldQFJKVkvKp9W4XIJQQIKlWEiDTXhMBciX9BKjSyQgBqpUsk4m8TmhhQwdJvSMgM9J5INfCK6DKeF/w1VpEZmC4eeDfu5iZEpqRVwwZOLgYWyxVjbAZlNPjim2298ng6kOrdjrkoON22G6P4wI5aoF0wgEzETzDDxWGGGiwwliF2nhkVgr+qGP2zCl9lnGK81xvJ3FwHyomAYZejSwRqfETUA44fvTQ4T3btuwH");
 
 export default IslandTropical;

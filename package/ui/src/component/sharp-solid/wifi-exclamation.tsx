@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wifi-exclamation` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi-exclamation?s=sharp-solid wifi-exclamation}
  * @preview ![wifi-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/wifi-exclamation.svg)
  */
-const WifiExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M296 320l48 0L368 32l-96 0 24 288zm24.2 32l-.3 0c-35.3 .1-63.8 28.7-63.8 64c0 35.3 28.7 64 64 64s64-28.7 64-64c0-35.3-28.6-63.9-63.8-64zm66-152.4l-5.4 64.7c32.8 9.2 62.5 25.7 87.4 47.7l42.4-48c-34.9-30.8-77.4-53.3-124.4-64.4zM259.3 264.3l-5.4-64.7c-46.9 11-89.4 33.5-124.4 64.4l42.4 48c24.9-21.9 54.6-38.4 87.4-47.7zm326.6-61.4l44.3-46.2C567.8 96.9 488.2 54.9 399.5 39l-5.3 64.1c73.6 14.4 139.6 49.8 191.7 99.7zm-340-99.7L240.5 39C151.8 54.9 72.2 96.9 9.8 156.7l44.3 46.2c52-49.9 118.1-85.4 191.7-99.7z" />
-    </Icon>
-);
+const WifiExclamation = createIcon("wifi-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABcQAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBYgsGAAE2AiQDCAQgBYMtBzcb6QTIngPuriLv59dhNJZhYYwlMpg0IR7+f79v+5x3x0SSpkEtiSaYkPDonabS6YQ6lPAXlUzSH/aX792/dG7gO5hJSOcZTShxy6vLQltSyLS6tYIZc028KClFVgSaRqpKJRSc/DV+Mv+8T3/v9I/zTwvkGX2UMWbLt/9szvMEOt9WnndpcTY9UWxq3ouDcN2hLe0MJX5XT2jyZQJPnSeNn9gxpKYKQHQCAAcuNstwV4taxO7/D2JXAgLiAMAkRIUKoxBsYwRGsU0CRRHU4v9/9h84CQKIet7VEhQ04gxwDYACUn0pTb3NXrGlrq1ciJLmnZbiZleD4vISYnxZPJJpuYZte/JlFWMlHT0nwrcL57Qa7XtpD94e20nFU5+dSfw4f70NtY59XZy+FMm/M/2dv+/GRbEahnB6D8CHLsvhEOvCTTLPM64XlK9oR0W7qZJJUpVzlPa4fe0dbFdPucNKf7XUnOh2zrhBXSOfvhwAAsHre7Pfg47wy7Qk+PHtP70f/a/l3RTQKEFQrf5f1c2BNOddCADIuEs7ssZAOuIoPWqrZxQIzQiQ6jULUBkhgqBotgJBnXEBCOo1O4sRpUno1StBanUDVLbsgKLXFaiz7bVcrzeYO0u4L4TvutRiHS2sIo/TTVEabMjFm4XTizGa7Zq3+YAFnoRpK5ZtmjJpzmYNX1eubVlSHMMKfoh4OLmRKFrdvq12cHndhrl+y/plYmj/gtn2+HgLDFg82jXfpySy897c9JzjjxX+aOldAQAAAA==");
 
 export default WifiExclamation;

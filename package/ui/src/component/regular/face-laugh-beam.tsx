@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-laugh-beam` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-beam?s=regular face-laugh-beam}
  * @preview ![face-laugh-beam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-laugh-beam.svg)
  */
-const FaceLaughBeam: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm130.7 57.9c-4.2-13.6 7.1-25.9 21.3-25.9l212.5 0c14.2 0 25.5 12.4 21.3 25.9C369 368.4 318.2 408 258.2 408s-110.8-39.6-127.5-94.1zm86.9-85.1s0 0 0 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0zm160 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0s0 0 0 0z" />
-    </Icon>
-);
+const FaceLaughBeam = createIcon("face-laugh-beam", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABswAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDfwsGAAE2AiQDCAQgBYMtBzYbBQbIjtFjRxhCcuTyjCOfF8///37/m2vfc78hYlFMsmhkkMiExiB6s0YWbz46WduDxviZfI8f9959b28Q3KBGV0JxFZ7/yz2/o00H+MlvIK1BSw9kgRzN1fM8DXgsnyRRgWXaS0DanbbaHKJ9kpYQcpxzXC7QsowN0FNPKCfAg/SmmSaqitJ3AJC5AMDxK/6esDHCUXI8zJJv3IFAjgNgLUSHDishOIQqWIlmLdA0YZRh4P9AGRAgYyBIee2GcfwBpgFooPSNJr5C0NmZ9Jy0INKzx5drYcbcjthvuxxojMDNzaOuh+SO+7H2OHLcn8RsnzkndzxPbTcDb2w2PE7Yb3ud2W0FBbYJY9oJwWrBVoEekwWDObMlqeByRCwnkx3tNiFAWgR4rUMniVpL/zB2i3cr94p2ipYJtAi51ZFyxH0JHpB7xjP0JnuSdALnX03XwKuZxHgvmTm2ZqoSfP4CHCdZ9n7T3n5zWpTN6ZjEX69bpmpBANdnfEeuJKk9ioheXIiKHAYFAABEkHk7A18uLl4C9XkRCQDAhmO+jBm/r7m5r7+EYesjDwA83aedtSV9bWAudCez/l1jv8p96D+LUAD+fvj4z18jw0apZ8CEAqHbNGiIKFAEAFApArmCoPxGJ88600MBMYWAMmZKQGcFHgiaKRsh6K1mCMGYKRdQpbFBLBRZQZnpBujsUQyahaZB75B9f8zCdHYuWan0zUx30pDjOhldLR0ZM5lhosimK4RFc5llS6XIN1ThLCTJlqVAogSpChSVxzMqlMlpRjr6IBm6tOiQYUbmOL89HiRRnnypsmXFZczJ3PdUFM37VcGlEM4dYqVIcb+iTZoZsYXJKZpxibGZ");
 
 export default FaceLaughBeam;

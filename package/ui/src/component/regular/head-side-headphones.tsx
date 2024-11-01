@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-headphones` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-headphones?s=regular head-side-headphones}
  * @preview ![head-side-headphones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/head-side-headphones.svg)
  */
-const HeadSideHeadphones: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M184 52.6C106.1 70.7 48 140.5 48 224c0 42.2 14.8 80.8 39.5 111.1c13.6 16.6 24.5 38.5 24.5 63.4l0 89.4c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-89.4c0-10.7-4.8-22.2-13.7-33.1C18.9 326.9 0 277.6 0 224C0 100.3 100.3 0 224 0l24 0c78.8 0 151.4 47.6 183.2 116.2c4.2 9.1 8.2 18.4 12 27.3l1.5 3.5c4.3 10.1 8.5 19.7 13 29c9 18.6 18.7 34.5 31.4 47.1l4.4 4.4c11.9 11.9 18.6 28.1 18.6 45c0 35.1-28.5 63.6-63.6 63.6l-.4 0 0 48c0 35.3-28.7 64-64 64l-64 0 0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-64c0-13.3 10.7-24 24-24l88 0c8.8 0 16-7.2 16-16l0-72c0-13.3 10.7-24 24-24l24.4 0c8.6 0 15.6-7 15.6-15.6c0-4.1-1.6-8.1-4.6-11L455 257c-18.1-18.1-30.6-39.4-40.6-60.1c-5-10.4-9.6-21-13.9-31.1l-1.5-3.5c-3.8-9-7.5-17.6-11.4-25.9C363.7 84.7 308.1 48 248 48l-16 0 0 50.6c50.3 11 88 55.8 88 109.4c0 61.9-50.1 112-112 112s-112-50.1-112-112c0-53.6 37.7-98.4 88-109.4l0-46zM272 208a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-96 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const HeadSideHeadphones = createIcon("head-side-headphones", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABogAAAKvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CCdwsGAAE2AiQDCAQgBYMtBzsbggXIjsJx76TExtCCMChlR/C9Lqvfl2bKKzNpCemIOUOGIHNdyggP/anvR+e0UDQeD8fabbImV2sFLNhYgL2AdHMnrsl/f/70gFFkj1JB/8uiDsoU2PkAp/PiAo0Cm+kEbOa2OMMMglgMQw5RnfKh/fhQfgt5vBwrFdKN6YTL84fG17q5CEklAxBNALB81x03e+MeQxEf//8s8bGNCIjloCSQIUMfARaRCfSRKyGXC4bE///Lf2BJAFFVXiWBHBXcAfcB5CDJ8vy0+la5Up/vUlsp9nwnj3ilvHPxg/3ihlH39USc3/PWLpuZT288FnK8u36fXdveHte23zi+PR50Q/rAqAgRgEI0l908tjau70Tu+R0d8VDPdcJK5LEFL82xRJ8d/2D/Lfa1s56b8NDA7RMfnhs736YsG323jlhyDxbnHx7v+tpp+7XOc64pJh3XRbJteujb4Z8ccuL5yatbsHdj4zG7t+9Oe1nWszbf/hLbG758a1L/UJcnNP3Cvdst9jn6Y2sVzXHRJJ5gGkWzeccyxu1ryxCrGdLWRSC4bHXVTDc/ju202mvTmF2LLwwzOeyss2sa/3v88Hz8p9ecfdZhU3ZdZ9WPryoDfr+Gy7hMaxA6IA77fNA7sNu46FdTm8BXu8dvhF/R/28k6SHUSCDIJv0n2SuBRAAAUpxihASB5AYy+VrrXEeAUCBAUlUIkOmliQC5wkQCVAwwmwBVhR1lIh8mtLF3Q5I6xyOZOZyN5Np4GqlYxPvxqjaR+ajoYeIvYtoaBlevKqdPmVYuKKcNKrkdnxYXlmZz3ClxYDw2OsSxjnGSgx3kcCcRfILNqZMdbc0KWu2LSqYzhWmULKC8bt9ruxBbtROZH0v3y7CQ8nn/OE5Zjx8PW1IYZ1CXJCK1ObI++TXWJ6v4vQMAAAA=");
 
 export default HeadSideHeadphones;

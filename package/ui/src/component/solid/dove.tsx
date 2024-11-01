@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dove` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dove?s=solid dove}
  * @preview ![dove](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dove.svg)
  */
-const Dove: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160.8 96.5c14 17 31 30.9 49.5 42.2c25.9 15.8 53.7 25.9 77.7 31.6l0-31.5C265.8 108.5 250 71.5 248.6 28c-.4-11.3-7.5-21.5-18.4-24.4c-7.6-2-15.8-.2-21 5.8c-13.3 15.4-32.7 44.6-48.4 87.2zM320 144l0 30.6s0 0 0 0l0 1.3s0 0 0 0l0 32.1c-60.8-5.1-185-43.8-219.3-157.2C97.4 40 87.9 32 76.6 32c-7.9 0-15.3 3.9-18.8 11C46.8 65.9 32 112.1 32 176c0 116.9 80.1 180.5 118.4 202.8L11.8 416.6C6.7 418 2.6 421.8 .9 426.8s-.8 10.6 2.3 14.8C21.7 466.2 77.3 512 160 512c3.6 0 7.2-1.2 10-3.5L245.6 448l74.4 0c88.4 0 160-71.6 160-160l0-160 29.9-44.9c1.3-2 2.1-4.4 2.1-6.8c0-6.8-5.5-12.3-12.3-12.3L400 64c-44.2 0-80 35.8-80 80zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Dove = createIcon("dove", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABeAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCCAsGAAE2AiQDCAQgBYMtBysbAwXIhof/r/O/fW5V8gHVp9Xw86hpzABm9VQedeb/ms8v7egAvx3ZoUVT6YFEAlUueG8CE9ubV+K4wGYTxZm7Oh+haT+JJZakv9rjaw15vJidpUS6Pr2DS/NHxY96OIukRQYg2gNg/taNq71WiUrE29WnibetREDMB4VABrW3OI9ZMoHecgVyuaAS1Sr9BxYEEGV83wRylHAEagA5SLI8b7ekRatSm3xLPKPlzvuHPz854pUtNwy5pvN94zYLp8fpIVzoninPzHllwvwRF3S+rvdNvW8f/fDw+wdviqs6X9Xl+unPL76w29ZoFZ/PfXVrxNi4Nq7p2jKeGnZf761Xd7mqc7f3td0GPND+gZ/7v3PEO27bs+yxc5b2Mzqb16H0xLlbb71lTD9+KghQ+P3V92pquq1v32bHaTU17VosX/bc/TPOH6xm6NAlH5/b9GF5wspZVlgY77wTC2/zjY55y9sOaX94S6xtV2nbthKoQGxVuaXThXvbzfq7easEfnjh1//KntX/q68l6QE0l0CQjaqOsitRcGYI7KRoNABfFEj2yOBTW7tGgNASAZKylgJkemkvQK6lkQKU9DVZgLKWNspE3kLobHcDSWs1IDPFySDX2ZOgZJbX7bLOkRkbZyrcVy95iYQWLyrGjxlXzCiWicrbD5OmZxbb2rBG3xiOlY5wohPUO+yQo9ULstZqr8HxlmjEYj9UGG+McQozFMf54/ItDqtV52gnOoHmmam4bw3TqPcPh5kw7QRqeoJYyg+d2HgYAAA=");
 
 export default Dove;

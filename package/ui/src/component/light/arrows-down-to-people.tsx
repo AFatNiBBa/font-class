@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-down-to-people` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-down-to-people?s=light arrows-down-to-people}
  * @preview ![arrows-down-to-people](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrows-down-to-people.svg)
  */
-const ArrowsDownToPeople: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 129.4 36.7-36.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-64 64c-6.2 6.2-16.4 6.2-22.6 0l-64-64c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L128 145.4 128 16zm292.7 92.7c6.2-6.2 16.4-6.2 22.6 0L480 145.4 480 16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 129.4 36.7-36.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-64 64c-6.2 6.2-16.4 6.2-22.6 0l-64-64c-6.2-6.2-6.2-16.4 0-22.6zM336 192a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-64 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm24 208l48 0 0-110.5c-3.8-1-7.7-1.5-11.8-1.5l-24.5 0c-4 0-8 .5-11.8 1.5L296 400zm122.4-15.6L376 315.5l0 84.5c0 17.7-14.3 32-32 32l-48 0c-17.7 0-32-14.3-32-32l0-84.5-42.4 68.9c-.2 .3-.3 .5-.5 .8c1.1 1.6 2.2 3.2 3.3 4.9l45.3 73.5c4.6 7.5 2.3 17.4-5.2 22s-17.4 2.3-22-5.2L200 411.5l0 68.5c0 17.7-14.3 32-32 32l-48 0c-17.7 0-32-14.3-32-32l0-68.5L45.6 480.4c-4.6 7.5-14.5 9.9-22 5.2s-9.9-14.5-5.2-22l45.3-73.5C78.2 366.4 104 352 131.8 352l24.5 0c14.6 0 28.7 4 40.8 11.2l42.5-69.1C254.2 270.4 280 256 307.8 256l24.5 0c27.8 0 53.6 14.4 68.1 38.1l42.6 69.1c12.2-7.2 26.2-11.2 40.8-11.2l24.5 0c27.8 0 53.6 14.4 68.1 38.1l45.3 73.5c4.6 7.5 2.3 17.4-5.2 22s-17.4 2.3-22-5.2L552 411.5l0 68.5c0 17.7-14.3 32-32 32l-48 0c-17.7 0-32-14.3-32-32l0-68.5-42.4 68.9c-4.6 7.5-14.5 9.9-22 5.2s-9.9-14.5-5.2-22l45.3-73.5c1-1.7 2.1-3.3 3.3-4.9c-.2-.3-.4-.5-.5-.8zM144 304a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-64a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM120 385.5l0 94.5 48 0 0-94.5c-3.8-1-7.7-1.5-11.8-1.5l-24.5 0c-4 0-8 .5-11.8 1.5zM512 288a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-64 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm24 192l48 0 0-94.5c-3.8-1-7.7-1.5-11.8-1.5l-24.5 0c-4 0-8 .5-11.8 1.5l0 94.5z" />
-    </Icon>
-);
+const ArrowsDownToPeople = createIcon("arrows-down-to-people", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAAB7QAAALYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWyFBgsGAAE2AiQDCAQgBYMtBzwbkgbIBiKyqbOnN71k5DcRBxgUBwCoSo9UpSJNHDNepBdI887nAx1BdWJEAu58gNHUQPUP8mAPsntB/dW5AR2Y7VLhfgea/JFE7EBtVs+Ale5u+YY/80ChmXAx4sbPpKxz+yZuvZbXIs9s50Ge0QAIgJQDYCCACTABQQgAhZgQIAgNA9DQEHgtNpv9P9AAAQCxByMVpzTABcQfJAO6i0Fh0bSAQCdn53GR0MUImO2ctU7iTL37Rt/13kiJbPRe79VG1vm0kw2+lbtIpK/VUaYe2mGDzzqv9d4bffWtMQej9vtvitwXfSCgo1k3i2zQdVniRedOHTshs7zW1f+2zwYR6SDrZLas9+4o673W+XQSm5FR+naWkzlmWRpFdj6poxw017A8caPvbJnt08/k3Om47Pff7Lcp8kDAlsCtMR0QGBf32P/Wl4cfcTvyI+zZoGfMPOny+rXLbCo4fHjLFluisCEZOFzB7MgevCOjqg7tBlhRZqk+aurUUbo0+L5MdVePoq29H/ZtR012javg6R1wWbTIJZUoOtD8IAAeklRHj0OvpsZXUDkKrHQuvX+phyC2nvLDNyCelSNOWZHxPqxNdF66vzQuSzwA3Fuex4gyS3d9vHjx4y5p8F3dy7Wm0uuJUyzs+w3ATUivb+gFAAII9B/xI7u3a+FvR7MC4O2VX7+z3RbbLWVVRwBH1IZPmhJtifRQs7BgUVYE8NNQ0kr4hFgaM7ljwbda2LA1KuhQ4RT26DgTgbjhNHQScHaEkMVaKGy/CCuaE1YvehKcwsJYnIlspuM0vDiLs6OQhyF7vMQEKxydzvlTTVjdBFXNM9KSU418Y7So4Gp/ljVcYCxWxrbKpjh8lEGMZhRWBjKAoVgbqHE0RScwkuop6qrfNUgjmVQM8jE2d6Qr7NQIj2M8Q4e522ehAON4ayyt053jsEbh00xnhUKBKO++40BZlARBniTr6CQoAwAA");
 
 export default ArrowsDownToPeople;

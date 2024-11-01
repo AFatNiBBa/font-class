@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clover` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clover?s=sharp-regular clover}
  * @preview ![clover](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/clover.svg)
  */
-const Clover: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M277.2 32L256 32l-9.9 0-7 7-15 15L209 39l-7-7L192 32l-21.2 0C129.5 32 96 65.5 96 106.8c0 8.8 1.6 17.5 4.6 25.7c-8.2-3-16.9-4.6-25.7-4.6C33.5 128 0 161.5 0 202.8L0 224l0 9.9 7 7 15 15L7 271l-7 7L0 288l0 21.2C0 350.5 33.5 384 74.8 384c8.8 0 17.5-1.6 25.7-4.6c-3 8.2-4.6 16.9-4.6 25.7c0 41.3 33.5 74.8 74.8 74.8l21.2 0 9.9 0 7-7 15-15 15 15 7 7 9.9 0 21.2 0c41.3 0 74.8-33.5 74.8-74.8c0-8.8-1.6-17.5-4.6-25.7c8.2 3 16.9 4.6 25.7 4.6c41.3 0 74.8-33.5 74.8-74.8l0-21.2 0-9.9-7-7-15-15 15-15 7-7 0-9.9 0-21.2c0-41.3-33.5-74.8-74.8-74.8c-8.8 0-17.5 1.6-25.7 4.6c3-8.2 4.6-16.9 4.6-25.7C352 65.5 318.5 32 277.2 32zM241 105l25-25 11.2 0C292 80 304 92 304 106.8c0 4.6-1.2 9-3.4 13L267 180.3l-13.8 24.9 21.6 21.6L299.7 213l60.5-33.6c4-2.2 8.5-3.4 13-3.4c14.8 0 26.8 12 26.8 26.8l0 11.2-25 25-17 17 17 17 25 25 0 11.2c0 14.8-12 26.8-26.8 26.8c-4.6 0-9-1.2-13-3.4L299.7 299l-24.9-13.8-21.6 21.6L267 331.7l33.6 60.5c2.2 4 3.4 8.5 3.4 13c0 14.8-12 26.8-26.8 26.8l-11.2 0-25-25-17-17-17 17-25 25-11.2 0C156 432 144 420 144 405.2c0-4.6 1.2-9 3.4-13L181 331.7l13.8-24.9-21.6-21.6L148.3 299 87.9 332.6c-4 2.2-8.5 3.4-13 3.4C60 336 48 324 48 309.2l0-11.2 25-25 17-17L73 239l-25-25 0-11.2C48 188 60 176 74.8 176c4.6 0 9 1.2 13 3.4L148.3 213l24.9 13.8 21.6-21.6L181 180.3l-33.6-60.5c-2.2-4-3.4-8.5-3.4-13C144 92 156 80 170.8 80l11.2 0 25 25 17 17 17-17z" />
-    </Icon>
-);
+const Clover = createIcon("clover", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABxAAAAKbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSEJwsGAAE2AiQDCAQgBYMtBy0bJAZRlO1BkOxjMbZVw5YliojFWbuJLyL4uDf3vV8urVn3hCp14DoeoC4a62ABPIqfyJ9oqBaj5N7fTXwX6MGRXUHoYHyhYi9On6bRwDl50Q9Kaz74lbIt0iotImh0gYPO/mMUFfjtYBPFq9ORFqYwhO4qIiPMIqOv3/B4PEMZN9yBJXll9h+c+Y/GA40FIFUFgBgCAJt7VSX43LCJ6Px/AqKjCATEJoAZRIECEwhWmAtMsDADSqWgif//8h/oDgQQNSOTq1TgE/gz8w5SluVoz7K0tLeorQyiU0jhRjcq91ohnvm/Us8ojtwLAlAAbgCqTgNe+6yrDoC4lCoCUGiPypdBb3WzykMJkUzRB3qrPAt847vmdqxHVwf5B0muKw4x45ZONQPoxzIeSwqA/g0I8IJB6YFYU5bSV+IaZhB6BAQDG+DvFZTSI86qsqiTuDeLidQLLRmk+tjGsT4xUEIfUmiZySOHzP5AkOcbpze3Hv87/sPtWqEwdeAOd+iAUDxkZzvaF3+394QCAsM4FHDk9IP992J7oVkhnvu98lfsKAm7zgk7ax8dblCDTbxDpTUxSKwAAFYQ4hOdksp32JTeQAcfLdrRc56mWXV53ioIBNlpxzQ6Jr/ayAT37ft7+MP/De/yFtAlQVDM/QejLj4DRZ1AOuMUngHLAukRZmDf2uccBKEHAVKtR4DCOCcEpR6zCCpTYhDUemwxF2W3MKb+UqU+B6rCsklVacwHVWXFr3RtLMzXvnHlGn89s+X2UM4294jQcPdE99u207Sc9XU9yf2xz3+CxgKwFx0GDRjTrk23sU4woiQ3rl9uxM/BIncRQoVzl8h9ujfbajUwYnTTj83zmyRxz4/4m4hnB8D8gprnD0BKIuv9vu8CAAAA");
 
 export default Clover;

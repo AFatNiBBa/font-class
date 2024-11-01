@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `galaxy` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/galaxy?s=sharp-duotone-solid galaxy}
  * @preview ![galaxy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/galaxy.svg)
  */
-const Galaxy: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M28.4 156.4l0 28.4c0 72.1 44.7 133.7 107.8 158.7c15 5.9 31.1 9.8 47.8 11.3c1.5 .4 3.2 .7 4.9 .7c.8 0 1.7-.1 2.5-.2c2.6 .1 5.1 .2 7.7 .2c18 0 34.4-2.8 49-8c-1.8 19.2-6.9 37.8-14.8 55c-13.9 30.1-36.4 56.1-65.6 74l-11.2 6.9 28.4 0c72.1 0 133.7-44.7 158.7-107.8c5.9-15 9.8-31.1 11.3-47.8c.4-1.6 .7-3.2 .7-4.9c0-.8-.1-1.7-.2-2.5c.1-2.6 .2-5.1 .2-7.7c0-18-2.8-34.4-8-49c19.2 1.8 37.8 6.9 55 14.8c30.1 13.9 56.1 36.4 74 65.6l6.9 11.2 0-28.4c0-72.1-44.7-133.7-107.8-158.7c-15-5.9-31.1-9.8-47.8-11.3c-1.3-.4-2.7-.6-4.1-.6c-1.6 0-2.5 0-3.3 .2c-2.6-.1-5.1-.2-7.7-.2c-18 0-34.4 2.8-49 8c1.8-19.2 6.9-37.8 14.8-55c13.9-30.1 36.4-56.1 65.6-74l11.2-6.9-28.4 0c-72.1 0-133.7 44.7-158.7 107.8c-5.9 15-9.8 31.1-11.3 47.8c-.1 .4-.2 .8-.3 1.2s-.1 .8-.2 1.2c-.1 .4-.1 .8-.1 1.2s0 .8 0 1.2c0 .5 0 .9 0 1.2c0 .4 .1 .8 .1 1.2c-.1 1.3-.1 2.6-.1 3.9c0 1.3 0 2.5 0 3.8c0 1.2 0 2.3 0 3.3c0 1.1 .1 2.2 .1 3.3c.1 2.2 .2 4.4 .4 6.5c.3 4.3 .9 8.5 1.5 12.6c1.3 8.2 3.3 15.9 5.9 23.2c-19.2-1.8-37.8-6.9-55-14.8c-30.1-13.9-56.1-36.4-74-65.6l-6.9-11.2zm192 99.6L256 220.4 291.6 256 256 291.6 220.4 256z" />
-        <path d="M145.4 44.8c-51 51-63 126.1-36 188.5c17.2 7.9 35.8 13 55 14.8c-5.2-14.6-8-31-8-49c0-2.6 .1-5.2 .2-7.7c-.1-.8-.2-1.7-.2-2.5c0-1.7 .2-3.3 .7-4.9c1.5-16.7 5.3-32.8 11.3-47.8c-11.5-31.1-13.9-65.4-6-98.7l3.1-12.8L145.4 44.8zm-9.1 298.8c-31.1 11.5-65.4 13.9-98.7 6l-12.8-3.1 20.1 20.1c51 51 126.1 63 188.5 36c7.9-17.2 13-35.8 14.8-55c-14.6 5.2-31 8-49 8c-2.6 0-5.2-.1-7.7-.2c-.8 .1-1.7 .2-2.5 .2c-1.7 0-3.3-.2-4.9-.7c-16.7-1.5-32.8-5.3-47.8-11.3zm207.4 32.1c11.5 31.1 13.9 65.4 6 98.7l-3.1 12.8 20.1-20.1c51-51 63-126.1 36-188.5c-17.2-7.9-35.8-13-55-14.8c5.2 14.6 8 31 8 49c0 2.6-.1 5.1-.2 7.7c.1 .8 .2 1.7 .2 2.5c0 1.7-.2 3.3-.7 4.9c-1.5 16.7-5.3 32.8-11.3 47.8zm32.1-207.4c31.1-11.5 65.4-13.9 98.7-6l12.8 3.1-20.1-20.1c-51-51-126.1-63-188.5-36c-7.9 17.2-13 35.8-14.8 55c14.6-5.2 31-8 49-8c2.6 0 5.2 .1 7.7 .2c.8-.1 1.7-.2 2.5-.2c1.7 0 3.3 .2 4.9 .7c16.7 1.5 32.8 5.3 47.8 11.3z" />
-    </Icon>
-);
+const Galaxy = createIcon("galaxy", true, "data:font/woff2;base64,d09GMgABAAAAAANgAAoAAAAAB1gAAAMTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQCEIgsIAAE2AiQDCgQgBYMtB0gbPAZRVE4aZD8OcjJdU4tWXHNTy8I799D5HzyR3derrv6zxszu9sGM7kcHAKGgzI5o0Nx2Q7xNQ0NCtZLwVv6Iv4qYVBUQcbORFHvesxtgQWh8nsvx3dW2sbj3xfOIArvbrUVtXuBzPk/gAE+bw3qBXcAlbmm07YaovYeGhMQVWLmr0wiBWW2uAwuzHfKBLKaBIUohgSQC6qVey6ZhTj+Vp0au/98Pcp0mgABIfQAcAiigQIAAUBNFgACLAywWgafm/3/hqSR/fhUIAIgH+HQFwAMigW/AbwDAAmCwGGszc6Ft0gl5Iu5cyBMsXytguM/6dsKwDsNOum9NRP/jZxDj9v7uTjpVGVR95fmQ3VUaEjzaybE4tiVCqDURXjPKX16dOPfvbyi7cB1LyZ/1ZQVG+85m9CrQ2AXwE4uRdcLWaAjBuS9nJ23AgLSBhH3MadcB8Nhf86GuUolEoMN1h9tEEF9z3JoRhQioImVrNg1LQoMQAzWV+TV/PpwPI5t5MikkSTey9iTu+ZTveo/rLFrSYgpMrrP2bPdoq4hK5oz4LTVpEFn8afFzVKR70cwfR7aWvnWJoomTe93KuyqXpAIyrGca7ocFcnm3vhbfS4XMbKWMXyCneL/35MqPnhXjEEHLbmpR8kj42AFyqLJ+XZ0ZmcaIgKo//OyaB8faEFAlKfdiokEAWKzf0rODgE45hNQtAmaEzsJSGJFVqHqeX/3s2vvH+5zqWoFCuC8DIIBAtdQCtTsm1PwVGTIAPD/65X3/bNb/J7wxe4BIDAACWvJ/SdoZyIJfeYNA1cgI8jN+J0AAZQ4WUI1lBYK6EA0zDB7RUHwSYYmmBELkUmm3RzRNUcRGIaTSnmCIZTCUyoyHJZV9CFGTSxWPVNFbn79x+R/Pgo3XVCM5V650WVfdXTaMwt3MMhdrOOFk0RH+QDGspAcDGcAwutON3gxb2YcQrg+nP41Z3o2+6yhHacriqI5Tbr8PtFgFaANDU/ZcUl+mBs58oSgj2OOLIWMofJZnt6IgRjS+Z+d+nUeNLvUKRROX0qcCAAAA");
 
 export default Galaxy;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-clock-flip` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-clock-flip?s=sharp-regular chess-clock-flip}
  * @preview ![chess-clock-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chess-clock-flip.svg)
  */
-const ChessClockFlip: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 32l160 0 0 48-56 0 0 32 104 0 48 0 0 48 0 272 0 48-48 0L48 480 0 480l0-48L0 160l0-48 48 0 48 0 0-32 160 0 0 32 184 0 0-32-56 0 0-48zM48 160l0 272 544 0 0-272L48 160zm392 32a104 104 0 1 1 0 208 104 104 0 1 1 0-208zm16 48l0-16-32 0 0 16 0 48 0 16 32 0 0-16 0-48zM126.5 222.5A104 104 0 1 1 273.5 369.5 104 104 0 1 1 126.5 222.5zm135.8 33.9l-22.6-22.6-11.3 11.3L194.3 279 183 290.3 205.7 313 217 301.7l33.9-33.9 11.3-11.3z" />
-    </Icon>
-);
+const ChessClockFlip = createIcon("chess-clock-flip", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjwAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCYAsGAAE2AiQDCAQgBYMtBzcbZwXIjsQ4JvGLKEzi4Xubr+e+XWm+V4Y18TMiBxmVEqhKx71d/kmbSZmKVCHvE9c8f3qKxsa/JxhKp2Z6RJ5PYOdpqU2byGxgE8VNuXsxCLfnYeoCZfwTz2mQXk+/41nnS+NPQz1E0igARA2ANYf27fBjd3RH/Nb5mvjNNgTEGpAFChQYIcByhcAIpYxSKeiOTof9B2YCiCbv4gRKdOEFvAHau0iaZTmlx/C+Otlq9CoPyieqS1tVS1QhWi2RQlS9I4qIukqBAY6oUqdTkfp00r3PPDnh4o+Hvu6+Ia+N/6h6YuInw96I+4e/OenT1sjYxmbJrjj7xaSITyd8POXzuUrmnPwZVELn1DZUwvxpB6ZOmToglkfITInBsWr32Hbd/svvl/zu3nff8/JmWyy7bHYqqc02e/fbZmfvyb6TLTZ71711XWe1/OjoEXdz9/kLw4dfOH/33SNqdczWmRCZrYYPba7Hf8qn33wzb96VV95xB3N8ioNrH8kHvNIf9NV2iTZ+HQSCgwdvbZ3qs/zvrlYCf/ww8HSnO92X2uiSQFBM70x3PN0HWB5AJsUtxo6sMJA84SB/ak+vCBAqBEiaKgEKw9UClCrTBGgYZYEATZV9ClH2EAY4UYpJT9eLhYXuFksDfCk2LPdTumlAFDem9rbS/hZm2lgHNizLc2bOzkvzYF2uu9fUen5Znu2afAvvmwKPusS1rnGTi13kcjfViBvsyN3sahvHoA1+KJtjptmypfLq1u39B13sBje63LWusYssk/f3TXbL+Ogp0Jt4Cuc6kyQi1ecuu/jGG2d8x+kZl1x1+XUAAAA=");
 
 export default ChessClockFlip;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-xmark?s=thin file-xmark}
  * @preview ![file-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-xmark.svg)
  */
-const FileXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 496c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l140.1 0c1.3 0 2.6 .1 3.9 .2L208 136c0 22.1 17.9 40 40 40l119.8 0c.2 1.3 .2 2.6 .2 3.9L368 448c0 26.5-21.5 48-48 48L64 496zM358.6 157.3c.9 .9 1.7 1.8 2.4 2.7L248 160c-13.3 0-24-10.7-24-24l0-113.1c1 .8 1.9 1.6 2.7 2.4L358.6 157.3zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-268.1c0-12.7-5.1-24.9-14.1-33.9L238.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zm50.3 242.3c-3.1 3.1-3.1 8.2 0 11.3L180.7 320l-66.3 66.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L192 331.3l66.3 66.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L203.3 320l66.3-66.3c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L192 308.7l-66.3-66.3c-3.1-3.1-8.2-3.1-11.3 0z" />
-    </Icon>
-);
+const FileXmark = createIcon("file-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABggAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCLAsGAAE2AiQDCAQgBYMtBzEbLQXIjsQ4hvIZWxkiHv5fJ3rfl+yTyA6yAkDY4FRAGrtlKuGwlVeCsccdUhutb+Ka53/+VCBJ/CjRmMW/DWSUeT6BBx3OIi1B2gb2ori3DQ1sBCEdiZAwiWg8G7Md5HHZHhXS0+lrPFh/NH7RyW2SLAMQLQEwc/3qpd7/MX6M+Loh8bXFCIhZoBTIkKGrAFNkAl3lSuRywY/RaNB/YEkAUcUPnkCOKs7iDiAHSZ7nfepde9YqzfJ1tUqx9I32EU90zuLZDk/2r8W9tRshrrd7vFaL61I81faxPvX9j7cr4o3OEYiu3fXagNXf6pji6YFv920Wbw5+t0sWN9qviyeKYu1jnhtrIpEe77A+1ob6pMV0BklPtF0T6+Juvd5p+c5vfL3va40R3/JNdl32zbcj7pMSF7S6+26rC1KqG6fqtyqctLLdSVreutXvuZda0aq4rmjV6iUUQ2ld2+/MRb5re9/Iv8aOnTVTo44du3r1zFkYaTqfDwSCj//v9PYWU/5rUkvg57t/DKdrvB/X0ztoIoEgG9IYYktcB8oVwFmKc3o5BQskR+UA31r3hAChQICkqhAg00VLAXKFwQJUdDdWgKrCapnImwptbR1YUncSy4xzFcu19R5WMcVnWVXbyMJPCB7h85c6TwNz88qRw0aUk8plTRcjiiuzk8ttbcC53DMQltjnuGPO2GuPg8Io6JSllbOOmueBcxWoNNIwI5QmKY+bz+o6lZ1y2kFbPp9nsvJ+NMA5f/hAMBOmHaUqSUQqXro+9EKkAgAA");
 
 export default FileXmark;

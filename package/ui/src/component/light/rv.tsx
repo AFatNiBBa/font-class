@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rv` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rv?s=light rv}
  * @preview ![rv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/rv.svg)
  */
-const Rv: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 24c0-13.3 10.7-24 24-24L360 0c13.3 0 24 10.7 24 24l0 8 112 0c61.9 0 112 50.1 112 112l0 8c0 22.1-17.9 40-40 40l-18.4 0L628 254.7c7.6 6.1 12 15.3 12 25L640 384c0 17.7-14.3 32-32 32l-33.6 0c1 5.2 1.6 10.5 1.6 16c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-5.5 .6-10.8 1.6-16L400 416l-145.6 0c1 5.2 1.6 10.5 1.6 16c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-7.7 1.1-15.2 3.1-22.2L18.7 329.4C6.7 317.4 0 301.1 0 284.1L0 96C0 60.7 28.7 32 64 32l160 0 0-8zM64 64C46.3 64 32 78.3 32 96l0 188.1c0 8.5 3.4 16.6 9.4 22.6l73.6 73.6C129.6 363 151.5 352 176 352c26.2 0 49.4 12.6 64 32l144 0 0-208c0-8.8 7.2-16 16-16l168 0c4.4 0 8-3.6 8-8l0-8c0-44.2-35.8-80-80-80L384 64l-32 0 0-32-96 0 0 32-32 0L64 64zM176 384a48 48 0 1 0 0 96 48 48 0 1 0 0-96zm320 0a48 48 0 1 0 0 96 48 48 0 1 0 0-96zm-64 0c14.6-19.4 37.8-32 64-32s49.4 12.6 64 32l48 0 0-96-192 0 0 96 16 0zM416 192l0 64 162.4 0-80-64L416 192zM128 224l160 0 0-64-160 0 0 64zM96 152c0-13.3 10.7-24 24-24l176 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24l0-80z" />
-    </Icon>
-);
+const Rv = createIcon("rv", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABsAAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDTwsGAAE2AiQDCAQgBYMtBykbyAXIBp6PvOr9JD2VScbIiN7tBXHbKpInue4ATvyfy+mN50cH+PnOeS5rT/A5nyfQ84lzU5ZQmEWRJeCtzo3ogBRf4X4CmvyWRGygrFPuAEv8F5UP+DMTFDQVAABxAwAAyrp0NHH1qTwVufP/FMgdGgABkHIALARQARUIQgAoREWAIDQsQEND4Kn8/y/+Ay0QABAHwtMUADTAAK4Bj2HILz1Z17T6eGdnF0dHN9PmrNlNm9FjQ4wpu/wRU07F7QtGpnqtNAzpLKtopq5iY+zezNPx+0Om+eq8zp122S8iGxIOxJgineZ7iawEmerdWQ7knIobBmWNr5k4RDZv/Vq2YYgYghhdd/qt9V8XtSdwQ8D6aOeWYRxhtiRMOwJB7OG+pmEODftHf8LaSEN2B0j4frf9n8LuDL7Dkz3ebWNp89YZy9cv/1x13M8fcPegqZhzrkNxmTvXJRxfXeyD3NwG2UX39Vje2cEprqWVsMCLGO7uW7eib4nZaoE89CLO8+pqGd46dfRSHuDydC99HXT2rB5rWfTFwkop2fr6zJnXW7P60tbM0VOnjk6lL1fpi5vrldKQvp2WEtpDQ7duKmUrpaE13m1HafNupXgcAAEEVg4MMPu4Fv7STQWA5+e//ALd/f+qMlXZD+goAAioif8T6alMBaBUAYC0IpMJX3gjARQuo0NXOrEaAUAwgAYUHDBAJRA30DBIABshZDEbV3SgIpojghe9wKDgxDhQyWYKaHhxAmwUcj3lgJeo8MxBI/c7mVzdxasGWWnJqVa+NZtT8SDK2N4Ca7MdO1nWxOG5DGYMo5nIIAYyjIkdcjxN2UmMonqJqOKDWKSRTCoW+ViHiw9lO02NZwLDpg2O91OAdb03lsnLzePwMBQAIB0SGJkSRRk/GQA=");
 
 export default Rv;

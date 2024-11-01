@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-dot` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-dot?s=sharp-thin location-dot}
  * @preview ![location-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/location-dot.svg)
  */
-const LocationDot: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M368 192c0-97.2-78.8-176-176-176S16 94.8 16 192c0 24.1 10.6 55.3 28.2 90c17.5 34.2 40.9 70 64.7 102.6c23.7 32.6 47.4 61.8 65.3 82.8c7 8.2 13 15.2 17.8 20.6c4.8-5.4 10.8-12.4 17.8-20.6c17.8-21 41.6-50.2 65.3-82.8c23.7-32.6 47.2-68.4 64.7-102.6c17.7-34.7 28.2-65.9 28.2-90zm16 0c0 95.9-140.8 262.2-181.3 308c-6.8 7.7-10.7 12-10.7 12s-4-4.3-10.7-12C140.8 454.2 0 287.9 0 192C0 86 86 0 192 0S384 86 384 192zM192 112a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm64 80a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const LocationDot = createIcon("location-dot", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeQAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBdAsGAAE2AiQDCAQgBYMtBzMb9wQRlZpxyD4SYzfcD4MzPWITLfHwj91X91XVAK7paAAph7kw0j6dLpzuD4CJa57/+bc3t9ijRWFp48Ij8nwCA5zt5k1FA5kNZxPFmbu6xYRoX2kpS/L47fF1gCx2WqQUydnkCxzuHxq/qOcQiTQFEFUB0H/qxNHeKY7iiM8LL4rPjURA9Ae5QIoUDQXoJRVoKJMjkwmKo1Dg/8BcAFGa3DkBGUpjBpYBMpDIsqxBo0qVKpSqlE0pTyi/8KcJEd9N+WHcN5Mutn/a/93mJ2udrnN/4PsdnzepcKVfxDuhpNmJ2F/73oD3+CVFP0/8fuqP47+dPOXF1g9bPej0UptHbR93nXypxb1mdxpebH635f0mRfeq3vut6RdLvrC2ECOqIiJGRFTdlt14oX//tx8sXfrg7XzZCzeyqtV60+ckN6fd5/60myf79K4W4ydPHg8oJk+ueXvsO1umTt3yTpT1HZuW/PVXSXo7EAj+f2Ppj3Or9PqvbIUElLz2xy90vcI7sS+5h7ISEKStCq1mxT4AN4B8ElsUGV8USEyQkXet6JQAoTwCJEorL0CqgaoCZMprKUApjXUWoLTyJkpFVk6oafZkExWtZ1Nd7GYzNT1nS+nl41xpNSN1Md1B9A9ejhyigcGb8vZt2uU98m3LMLxGras982O32ZY00hx7LVm7ZtPiRcs3KXzD6OLm1UMscPAP8/Zt2uU98uvu6+4pizdsXL52TVunZ/4+bLbFnt4cQUIUOzQkEiKp6JtZ60VrNwEAAA==");
 
 export default LocationDot;

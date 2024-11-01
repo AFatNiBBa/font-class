@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-group-simple` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-group-simple?s=regular user-group-simple}
  * @preview ![user-group-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-group-simple.svg)
  */
-const UserGroupSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M104 136a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm160 0A104 104 0 1 0 56 136a104 104 0 1 0 208 0zm216 88a96 96 0 1 0 0-192 96 96 0 1 0 0 192zM128 336l64 0c44.2 0 80 35.8 80 80l0 16L48 432l0-16c0-44.2 35.8-80 80-80zm0-48C57.3 288 0 345.3 0 416l0 16c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-16c0-70.7-57.3-128-128-128l-64 0zM448 480l64 0c70.7 0 128-57.3 128-128l0-16c0-26.5-21.5-48-48-48l-224 0c-21.8 0-40.3 14.6-46.1 34.6C340.8 348.9 352 381.1 352 416l0 16c0 1.5 0 3-.1 4.5C375.3 463.2 409.7 480 448 480z" />
-    </Icon>
-);
+const UserGroupSimple = createIcon("user-group-simple", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABmwAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCZQsGAAE2AiQDCAQgBYMtBzgbbQXIhof/z4u67yfVSDXSctrijHfQitYarDNbroT5v+bzs6YD/HwEhxJRS5ACGWU+n8Ce7/nNojEKZDawieLUTQlCPATtIyJSxuxE9u+wx7cd5PF3XKFGujF9gsvzl8YPuriQpJYBiBIAszeuXe6NRjQiPv7/WeJjSxEQs0ElkCFDdwGmyQS6y1XI5YJG/P8//wMrAogmBE7enqMZrsUtgBwkTfK8Zbdubbv2rNda5hvqtWLrzQPv739vlxv63TPgvq7187pG3FRWKi7qd0/nG5zb5cb+99YvHnh/t5tjPb0IMPO6vOyuelF/dvCDPUQREbcPfXhivDMt4pVK3Njh2v71uL/T9d0i7prx2oJi99pd35/5et+ImzpeN6CIi9pf0/7R3uJc53p1fp+Hyod+6v3JgU8cnNj68ddff7x1Tbqj+2d8dtal3bpdetZnn3VXVUz8bGPXbWx7970uXd57d9u2rqhCaudJs+SC5f4NUWooxYb95ahVcxlXK2Wffj2qYdTXn2al2ri5q2bNfP0hY1Tx5W1efGHl+3kpItKiO4FA8NZj19y0s/W0X5vVE/j+pV9+087+v5HOTQ+hmQSCbNj/w2xL5wKpARRTnKlPWGAgudR3/tQWrhMgFAiQNFEIkOmmFCBXGCpATU/jBWiisFYm8uZCe9sHSFo4BWQmOAvk2nsa1EzzfqGJ9pG5puBYwp9h6gINzZ9XjR4xqppSTau66G1cmp5aLbuDzoxdg7HUASc54XT77XPY6Yo81fLyGY5bYBHz/VBltBFGqUxRbTe+qhtU4VSnOXwv788yVfV+fpAz7cGDESRCO0ZFkojU5jzrwz3XGH7AAQAAAA==");
 
 export default UserGroupSimple;

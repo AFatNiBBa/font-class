@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sim-card` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sim-card?s=duotone sim-card}
  * @preview ![sim-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sim-card.svg)
  */
-const SimCard: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-306.7c0-17-6.7-33.3-18.7-45.3L288 18.7C276 6.7 259.7 0 242.7 0L64 0C28.7 0 0 28.7 0 64zM64 224c0-17.7 14.3-32 32-32l32 0 32 0 64 0 32 0 32 0c17.7 0 32 14.3 32 32l0 32 0 32 0 64 0 32 0 32c0 17.7-14.3 32-32 32l-32 0-32 0-64 0-32 0-32 0c-17.7 0-32-14.3-32-32l0-32 0-32 0-64 0-32 0-32z" />
-        <path d="M128 192l-32 0c-17.7 0-32 14.3-32 32l0 32 64 0 0-64zM64 288l0 64 80 0 96 0 80 0 0-64-80 0-96 0-80 0zm256-32l0-32c0-17.7-14.3-32-32-32l-32 0 0 64 64 0zm-96-64l-64 0 0 64 64 0 0-64zm96 192l-64 0 0 64 32 0c17.7 0 32-14.3 32-32l0-32zm-96 64l0-64-64 0 0 64 64 0zm-96 0l0-64-64 0 0 32c0 17.7 14.3 32 32 32l32 0z" />
-    </Icon>
-);
+const SimCard = createIcon("sim-card", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABmgAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCfwsIAAE2AiQDCgQgBYMtB0wbnQXIjtMF9SVLlrwkHr5spe93z610M2JoAfEKwcAY0Z4JMTNnnARXTl2OXI4nmWnfJ655/k1Pz09J/GjZq+I1YOb5BAY+2qw8CmxC04G8EW9w3qRDCm0I5Weo4o58nz7Sy+kvPBn/D2D8Y7L7SPozgBgFgJ1nnHLUL4MxmOKvNuIvRxAQu0ARyMiYJsBWWWCaSkGlEgymtmUw2rYQQHSkj8uggwav42NABZIhUlUN76fN0xY3fcOr0+Uh9Rl1Uz8y7jmiiThVaDBan8GJgQkv1LXfnL4v7tmntelHJ754LRsC2TV6e2/8802TU04vL/p43vD4cMmnU3MMLD49PqnreG/hR5NOG5gY8WLTNI+Of57ISr1xz9Up+ciEFyISsz8Z9cm/s1zO3W0pZcRDD40ouro7Luh2uye+6jpxfOYWdsEOs9sBP4fFdgsau5D4emlzPXr0W7xVbavXmDL7yBGzp3w79na8ecKHW2+d9ItbIu+yvBwEgvaCDQcuGLn1/6FNAn9/93+aiLa/RC99gqESCPLSdqlzowfRE6Q/KsXtZkdPF4HsuCHSTx3mBQFCjQBJRy1ANtUoASq1JQL0mWGdAB21U2RR9QvjnDdQyTA3Udl6d1KVcb6l+mz1a7ljXGSHKjkz6T8xfd8U2LuprFq+smwuuy2d7PYEvbqlXPYX3s5HFsGdLneD693qMpe6yq0T4mZHa7e5zr4jfK8vKlZZbqVis/K469J3Oi7f7BZXbavP19mifJ9f6Pbj6YtgLEl5V9uTZSJFHnXLVdctCxb2MhfvjpmpdhsAAA==");
 
 export default SimCard;

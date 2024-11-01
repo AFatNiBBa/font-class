@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bluetooth` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bluetooth?s=duotone bluetooth}
  * @preview ![bluetooth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bluetooth.svg)
  */
-const Bluetooth: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M178.8 2.9c11.4-5.2 24.8-3.2 34.3 5.1l128 112C348 126 352 134.8 352 144s-4 18-10.9 24.1L240.6 256l100.5 87.9C348 350 352 358.8 352 368s-4 18-10.9 24.1l-128 112c-9.4 8.3-22.9 10.2-34.3 5.1S160 492.6 160 480l0-153.5L85.1 392.1c-13.3 11.6-33.5 10.3-45.2-3s-10.3-33.5 3-45.2L143.4 256 42.9 168.1c-13.3-11.6-14.6-31.9-3-45.2s31.9-14.6 45.2-3L160 185.5 160 32c0-12.6 7.3-24 18.8-29.1zM224 326.5l0 83L271.4 368 224 326.5zm0-141L271.4 144 224 102.5l0 83z" />
-    </Icon>
-);
+const Bluetooth = createIcon("bluetooth", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcQAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBVgsIAAE2AiQDCgQgBYMtB04b9gTIjtRWd+WKiqBa6/us6dk9AJpjRgVIHiWoY8dGvDj1CR3lP3jAxDXP//zpKYP4UaIt9UHK/j1XcT6BAVZR+SYyoZnOwGbualY+2uWhJLGyJI/fPJ6ekMfBdFKJ7F72FVfwP4DxoyZOkqmSAERtAIxeOHe69xVx1tf/XxBfTUNAjAGFQEJCcwGGSQLN5QrkckFFBhVBQQBRhncnUEYJU7EIkIMMKc/7V6pUrVQjX4CDVZc+ajA/bjlaf14E0c0OD5tGuA1vI9/oTqOFsSDEubN3KuJBx8XCyBgRI4eNLLdr87T2059bf93w1bPXjf45stOTmjWfrF0oqqxM1/9p1DjdM2WUu+/fnztXvfpdQ4bMMslq1d0po92XGncbOzcT3/vu0vfwd+Z6JRA8vTdnyMpaw/6uXC0D317++mf9IbX6/1Wsyp6isgwEqdv/3SyLoyhilQAAZHFAmziKVgLJWAl9anW3BQhVESBTVlWApJnaAuSq6ipASUv9BSiraq4k8ipCfcs7m6luN5sMcIjN1fecLRnmQ1xWP5JT6S6hf+lyJozA+GVF7x69iiHFstQMP1HT/NBi2+t0QPV1prM22GmHfdZbZ7N9A7TH9Gy/7SZY4HhfVOith14KQxTHzfr4AuvtsddmO+2QRYYq7kedHLBHd6YwkyX72JAkIotUx2ML+3bu3Lep++vsq6esdwgAAA==");
 
 export default Bluetooth;

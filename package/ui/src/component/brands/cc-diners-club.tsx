@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cc-diners-club` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cc-diners-club?s=brands cc-diners-club}
  * @preview ![cc-diners-club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/cc-diners-club.svg)
  */
-const CcDinersClub: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M239.7 79.9c-96.9 0-175.8 78.6-175.8 175.8 0 96.9 78.9 175.8 175.8 175.8 97.2 0 175.8-78.9 175.8-175.8 0-97.2-78.6-175.8-175.8-175.8zm-39.9 279.6c-41.7-15.9-71.4-56.4-71.4-103.8s29.7-87.9 71.4-104.1v207.9zm79.8.3V151.6c41.7 16.2 71.4 56.7 71.4 104.1s-29.7 87.9-71.4 104.1zM528 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM329.7 448h-90.3c-106.2 0-193.8-85.5-193.8-190.2C45.6 143.2 133.2 64 239.4 64h90.3c105 0 200.7 79.2 200.7 193.8 0 104.7-95.7 190.2-200.7 190.2z" />
-    </Icon>
-);
+const CcDinersClub = createIcon("cc-diners-club", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgQAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCEgsGAAE2AiQDCAQgBYMtBzUbFwXIhof/t+u/fW5Vf4D1ASOHh3ozGRSB6jUpI+F/rsn37vk14OcjOLQorBpIgWc+n8AAoy1aaF5hE8XpNvGxI4pdRYgEiUjH5/FGG8jjq7ioRLolvY0L/UrjB02dJyllAKIOAMYsmjfD8+UoR7z9/5PE26YhIMaCQiBDhhYCDJcJtJArkMsF5fj/f/4PLAggKsE5J5CjMjbgKCAHSSnP69eo0axJ9VLNfGH1UrVlH8+OeH/+J3M+WPDZvI8WfTr3w4WLH+waUdHqrm6PdlI9xANdHml5e+eH2y+rUbPG/Q2uNklxS8NrHWrGQ41vNM/i1kbXOy6uVr1aiA8b1ePO4qe7Pzb4mfFtK+pU/NTm7Y1v+2XX1KhDxAinRF1G6uJT69aZ1anxP8PommXdhv39/uz30euHYd2yrOuwH3+fVMZTvb9+J1ste+fr3mXivXLXMjrp7NiwIWbFonXrZ1tmtqv3xaIBzz33+eujgUDw3d47P1tVe/ivVaon8P1zv/xtHv1/OY1OFagigSDr/n93y9NoYHYAiRQHtTW+KJCsUIJYDdejqVANgaSSapBprg7kqukGJa0M4J3j58lEXlVoYAVBUsMeyAx0AnINPA4lw70Wr6RBZBkn5ov43kubqNEJ3Yo+PXsXQ4tj2pKSiK/twwq33vlgKetCc220y077bbDeFvsVs9eM1AE7TLSwCX6o0EdPvRWGKsK59+kLbbDXPlvssrN1MkxxP9bZQbt2F7IScPY1KklEqrVuXY+vXca+HskMAAA=");
 
 export default CcDinersClub;

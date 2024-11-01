@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trillium` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trillium?s=sharp-duotone-solid trillium}
  * @preview ![trillium](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/trillium.svg)
  */
-const Trillium: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M-4 120.5s46-28.7 135 14.3c-1 4.2-1.7 8.4-2.2 12.6c-.3 2.1-.4 4.2-.6 6.3c-.1 1.1-.1 2.1-.1 3.2c0 1 0 2 0 3.2l0 .5c0 .5 0 1.4 0 2.2c0 .9 .1 1.8 .1 2.7c.1 1.8 .2 3.6 .4 5.3c.4 3.5 1 7 1.7 10.3c.8 3.4 1.7 6.7 2.8 10c.5 1.6 1.1 3.2 1.8 4.8c.3 .8 .6 1.5 1 2.3s.7 1.5 1.1 2.4c-13.1 1.3-26.1 5.4-38.2 12.4c-8.2 4.8-15.8 10.7-22.7 17.4C-2.3 177.1-4 125.2-4 120.5zM169.1 389.9c4.5-1.3 8.9-2.8 13.2-4.6c2.1-.9 4.2-1.8 6.3-2.9c1-.5 2.1-1 3.1-1.6s2-1.1 3.1-1.7c11.8-6.8 21.7-15.8 29.3-26.1c7.6 10.3 17.4 19.3 29.3 26.1c8 4.6 16.6 8.1 25.7 10.7C271.2 486.9 224 512 224 512s-47.2-25.1-54.9-122.1zm142-189.4c5.7-12.3 8.9-26 8.9-40.5c0-8.1-1-16.3-2.8-24.3C407.4 91.4 454 120.5 454 120.8c0 4.5-1.7 56.9-81.2 110.3c-3.6-3.5-7.3-6.9-11.2-9.9c-2-1.5-4-3-6-4.4s-4.1-2.7-6.3-3.9c-12.1-7-25.1-11.1-38.2-12.4z" />
-        <path d="M128 160C128 80 224 0 224 0s96 80 96 160c0 14.5-3.2 28.2-8.9 40.5c13.1 1.3 26.1 5.4 38.2 12.4c69.3 40 90.6 163.1 90.6 163.1s-117.3 43.1-186.6 3.1c-11.8-6.8-21.7-15.8-29.3-26.1c-7.6 10.3-17.4 19.3-29.3 26.1C125.4 419.1 8.2 376 8.2 376s21.3-123.1 90.6-163.1c12.1-7 25.1-11.1 38.2-12.4c-5.7-12.3-8.9-26-8.9-40.5zm96 120a40 40 0 1 0 0-80 40 40 0 1 0 0 80z" />
-    </Icon>
-);
+const Trillium = createIcon("trillium", true, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABuQAAALaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDIAsIAAE2AiQDCgQgBYMtB0wbvgXInge2raW8sHVU+qHxSEFkOmz27ABbrxA4iPSMFTn6lpgq5Db6iksCxoBrxEEHspMK773/AxAn+jzn0gWNRgXyfeJDi6LtQhd84cPLen4CBxhtmXh0JEeINzhv1CMZ0hDasQe6HNKWYwNqi3oErHLz5RM+loPCQcNBDOBvgBR3ttZze7RRJY/+nwd5RB0gAFICgEkADdAAfwJAHg0B/OmYQEdHYFT9B6PynwkCAGILeL8GgC1gB5wCrgMAOgAKhabrmS7Jfl5ONi56h1vXsXdXosipWJFjXhuij8SfCFjmfSD8Chrms4X1YfvTzucc9ATi5YyLEUsssfy2JZ7KPRS5VdoPyXV8t0bs997ssyW8x8oUudS+3n1ZRSCxZBmIBbGM8CA3KCi02B+2bj05Enp1b/LCoiWbnO61nA55bQjf4PEq6rDn+pijHZ3bxPJ8m36BDd6b6zZ6gk8cjAg5ahz9Evxo4iOWBnmPg3ETYaJhTJw4bpy350iSb3h6+Kolynj//U9xuHXKJwVHvr83QC1ZNTs93DdpxHNw0dDZdevODplr0Cp0d/CYv42NJiKiQJSAovN+ZaPr7koEAUn2ubOlp0933Hm4xUwGI4iIz6lbDhdf2ldUd5tmdzX+4orrI57OsaUBHmG6+9OnV2ZgCK5vEgAIINB7bHBk0C3vq72TAuDd1T+CC/1yS+6po4A9CgABLe5/HH1ye4X4wSBmiABKFhICXey5HkPkuJKC58zG01nBEVoobHGEhh8DOo7EwoZA6cpOu3WXKLoDnrt+BIUzc6CRYTF03J2DDXnupmxxj5ZytXSnPTdmV/Tp8kFmckKSmWMu5tR6YlR0b665Oxa1kNdEw5VMZBYzmc8ExjOF+T1uLvXZBcygYo0t54eYkiVIYsphni4+tjtwai7zmDJvnu8nl3m/F2XhevNomFQE2RRzNTQQJZoxf+5veb0FM+KLgDNmYOZ1");
 
 export default Trillium;

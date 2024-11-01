@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `road-bridge` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-bridge?s=duotone road-bridge}
  * @preview ![road-bridge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/road-bridge.svg)
  */
-const RoadBridge: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 128c0 17.7 14.3 32 32 32l40 0 0 64L0 224l0 96c53 0 96 43 96 96l0 64c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-64c0-53 43-96 96-96l0-96-40 0 0-64 40 0 0-64L32 96C14.3 96 0 110.3 0 128zm120 32l80 0 0 64-80 0 0-64z" />
-        <path d="M608 0L352 0c-17.7 0-32 14.3-32 32l0 448c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-448c0-17.7-14.3-32-32-32zM504 224l0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-64c0-13.3 10.7-24 24-24s24 10.7 24 24zM480 360c13.3 0 24 10.7 24 24l0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-64c0-13.3 10.7-24 24-24zM504 64l0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-64c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const RoadBridge = createIcon("road-bridge", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABlwAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCUQsIAAE2AiQDCgQgBYMtB1IbdQXIngU5GW8qQSsi4hJKW1bL39O+K57n28+8b+Ynu1tAVshCAhrFGpBUWRMIE1+5YHsqq7OxpkkBwKXENAVEikD52u38u2H+vwt3yFfrvPm/3PN7fnSAn4/g0MZaIGMFNLcnEHBHcRso3UJphtbbFDvyGEgQMaKJMwmJHU91XDtAUxbXFy3K4/IP3KT/AcxfRi8UfRVAxgAAO/ZPesAMZKCk0/0kHV0gkJ0AcyAqKmZAsBlbMAPHHKDRCAOlCwyki0CAtNGdV9BGLy7jDqABRaM0zbRR0lFr+sStkc2+4dxhx0ZIR1yZcE/JqYn3h0tzdfLDsHN60oNhU+jRgtfTgk8Xv5q6B234HD38zlaXGsR6cWRY5OPSdzNNgsRVzMvlH9ZF95LhWR+Rr+K9w0XDyb3mvR/z/h+d7X9Y+Y1Rly7JmNLS3J3+YmrQjkbaIgRb/15xWNU7OioUh1Ww3qmoadXD+7mgOEGg4hYJhP+wysKzAIp7M3tINyrCUBFAEC78KeXZ/73iAoa+/X29LlNOlTl6FRDqiq7XYnmAiA7wo0pOMpeHFIGg2oUjfOoIDwTEMAQUbcMEVNMpIGgMsxyCllliELQNsxtbmj4xwVIDxQhHQLXWLWhM8AFaNvuK2yaEvSPJ/UT+EMbVOVTbRCF/kNLUbarUJsOv5QwNa85rHHLBTth24tilLZv2XDLkXC+7cqRuwTVfREL8gkgauTtLboG55y4Q1xn/Ohk0P3K6tie7wGRJmCttqSopqeNPhug7KZJvcY9oJbOOAQAAAA==");
 
 export default RoadBridge;

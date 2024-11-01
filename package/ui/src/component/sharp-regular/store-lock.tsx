@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `store-lock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/store-lock?s=sharp-regular store-lock}
  * @preview ![store-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/store-lock.svg)
  */
-const StoreLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M579.6 103.8c14.4 22.8 15.6 49.9 6.7 72.6c-13.5-8.3-29-13.8-45.5-15.6c.2-.4 .3-.8 .5-1.2c4.1-9.5 3.6-20.7-2.1-29.9L486 48 154 48l-53.2 81.7c-5.7 9.1-6.2 20.3-2.1 29.9c3.9 9.3 11 14.8 19.9 16c2 .3 4 .4 5.8 .4c11.8 0 22.3-5.1 29.6-13.2l35.6-39.4 35.6 39.4c7.3 8.1 17.8 13.2 29.6 13.2c11.8 0 22.3-5.1 29.6-13.2l35.6-39.4 35.6 39.4c7.3 8.1 17.8 13.2 29.6 13.2c11.9 0 22.3-5.1 29.6-13.2l35.5-39.3 35.6 39.2c1.3 1.4 2.6 2.7 4.1 3.9c-21.7 7.8-40.2 22.2-53.3 40.7c-14.4 10.4-32.1 16.7-51.5 16.7c-19.6 0-37.5-6.4-52-17c-4.8-3.5-9.2-7.5-13.2-11.9c-4 4.4-8.4 8.4-13.2 12c-14.4 10.6-32.4 17-52 17c-19.6 0-37.5-6.4-52-17c-4.8-3.5-9.2-7.5-13.2-11.9c-4 4.4-8.4 8.4-13.2 11.9c-14.4 10.6-32.4 17-52 17c0 0 0 0 0 0c-4 0-8.1-.3-12.1-.8c-55.3-7.4-81.5-72.6-51.9-119.4L128 0 512 0l67.6 103.8zM144 336l240 0 0 48-240 0 0 80 240 0 0 48-240 0-48 0 0-48 0-80 0-48 0-83.4c3.9 1 7.9 1.7 12 2.3l.1 0c5.3 .7 10.7 1.1 16.3 1.1c6.7 0 13.3-.6 19.6-1.6l0 81.6zm384-96c-17.7 0-32 14.3-32 32l0 48 64 0 0-48c0-17.7-14.3-32-32-32zm-80 32c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48 32 0 0 192-224 0 0-192 32 0 0-48z" />
-    </Icon>
-);
+const StoreLock = createIcon("store-lock", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABlwAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDBQsGAAE2AiQDCAQgBYMtBzEbhgXIhqDSVWW1NBN70jHoCOjxgNl7ZPAIDYfZwv+5pl7Q0S3y+edNfCgVVukV+XwCA46yauCBDGczm4BO3dT2qKBoc/gMkbGVTnac3XHtAHn8HZerkW5I7+Ky/qbxgw7OJqllAKI5AKYvX3yi1z+NTyPe+f8Z4h3HIyCmg0ogQ4bOAkySCXSWq5DLBZ/G///Lf2BFAFGHnyuBHHXcjccAOUjyPF/UvUX7stYkX1bWisOPdL63zxlxRlzXdlk0jiVxdZtr2lxU3tduakyOa3qzs83T/e7u5c26tu3Vre8vLhxA4s2nLmz7bNdbhy6PJrF0Q1mUoghRhiiKgLCIdFJ5UTubL2wdcTWLP+KMttcWS24bGPPQ2Gf6P9DlARJIeU2PB5s/+FP3d7e9a+bykZ9MPFOw/5JRC51gBF+yf+1HWao0RF8vNW+ulLEeIl7qu7ZFi3Li+g8/XL9l2bItC7p2XZCQI6ugvuC6L/+cNXO707H5qW9+Rcowv1rgV8wdNsyCzRdbsIADDcUVi05b3/R8zm86zDTDTKG88ORusYytzZtvXRbDVF73qddVhgGB4P0xJ1+2vtmkvxrKBD5/8Zdf+Poe/7+eTk8PokECQTbo/0HWpNP1QHgDcKU4psfVR/UVSG6WwzONXStAKBAgqSsIMp00h1xhINR0NVrsnL9YJvJGQmtrJySNHYTMGKdArrWnoGaSN9x1rSMLVWmgSf8UU81Z8dnjquFDhlUTqtuiQxZ94jo8sXJr+h3LTf1prW322+eIrbbY6cjCPORE31F7zbHI2b6oMtwQw1QmqLYrn5cvs9Uhh+203742ykTV+45+jtmd+5M+gcARMpJEpCL01YM/IwAA");
 
 export default StoreLock;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-walking` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking?s=sharp-thin person-walking}
  * @preview ![person-walking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-walking.svg)
  */
-const PersonWalking: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M172 52a36 36 0 1 1 72 0 36 36 0 1 1 -72 0zm88 0A52 52 0 1 0 156 52a52 52 0 1 0 104 0zM224.2 263.9l3.2 6.4 4.8 9.5 9.5 4.8 33.7 16.8 14.3 7.2 7.2-14.3 14.3-28.6 7.2-14.3L304 244.2l-24.1-12.1-35.2-70.5-7-14-15.3-3.1-80-16-10-2-9.3 4.1-72 32-12.9 5.7-4.5 13.4-16 48-5.1 15.2L7.5 260.2l15.2 5.1 30.4 10.1 15.2 5.1 5.1-15.2 5.1-15.2 11.5-34.6 17.9-7.9 18.8-8.3-5.3 19.9-11.7 43.7c-5.6 21.1-.1 43.6 14.7 59.7l70.9 77.4 22 80.5 4.2 15.4 4.2 15.4 15.4-4.2 30.9-8.4 15.4-4.2L283.1 479l-4.2-15.4-24-88-2-7.5-5.2-5.7-52.3-57 11.7-39.9 6.6-22.5 10.5 21zM238.4 376l1 3.7 24 88 4.2 15.4-30.9 8.4-4.2-15.4-22-80.5-1-3.7-2.6-2.9-70.9-77.4c-11.1-12.1-15.2-29-11-44.8l17-63.6 8.6-32.3-30.6 13.6L83.4 200.9l-6.4 2.9-2.2 6.7L63.2 245.1l-5.1 15.2L27.8 250.1l5.1-15.2 16-48 2.2-6.7 6.4-2.9 72-32 4.6-2.1 5 1 80 16 7.7 1.5 3.5 7 35.2 70.5 2.4 4.8 4.8 2.4 24.1 12.1-14.3 28.6-33.7-16.8-4.8-2.4-2.4-4.8L228 235.8l-18.2-36.4-11.5 39L180 300.8l-2.5 8.7 6.1 6.7 52.3 57 2.6 2.9zM93.7 335.6L68.7 398 25.4 441.4 14.1 452.7 2.7 464l11.3 11.3 22.6 22.6L48 509.3l11.3-11.3 11.3-11.3 48-48 4.6-4.6 2.4-6.1 15.7-39.3-12-13.1-18.6 46.4-1.2 3-2.3 2.3-48 48L48 486.6 25.4 464l11.3-11.3L80 409.3l2.3-2.3 1.2-3 21.8-54.6-4.8-5.2c-2.5-2.7-4.8-5.6-7-8.6z" />
-    </Icon>
-);
+const PersonWalking = createIcon("person-walking", false, "data:font/woff2;base64,d09GMgABAAAAAANgAAoAAAAAB1gAAAMWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRSFAgsGAAE2AiQDCAQgBYMtBzUbhwYjEbZiTsqR/SMxJjL1xcoSEEEZmiKKXHm4pxvKEsvm67OYcjeu/CQensZ9f+7MLORIfClZIbsUI5UNdeMPRcpM7y+79+2HE+9eZN6PxC5tOnj63FWBULskpz8I4GadFshYy0p0EMalpevf18Q19ZOf/jzpCR8tY1XnVdh5PoGJzvJ8Po4Cm+lAYOqbmvdknNV9fUcocUEZIekl7wK47940ftE1AJKcAUQrALD7zIlDdt7zPmKzsghiUzwQELsBRiFkZAxCYBu+wCCBUaAogvdR4dh/oAkIIKqFUydQUEMMg5gHoICkqpSOptILa1nlQhVBhjqrLHejQKPyA1/Cqn2KO7mRJqx+/kd+B9/or42YYIwwnmAo9KEgWJEBgSBCmzS0YYMYxnJIksIY66jpNLGnbCeUDjasp6JESxlQqo/uhAluNSxqRZNk9DukX3E8ZjasZuRNNhMKbERDWaKDX0QPp4GGyz6A5Ozs4u4ScCjU1go+Wozg0Mh3OXYGdN96hHhuxqgzn2MXFRfY2y0zAK9a1F7NtCQiq8xqvD/99n4jC5u/sww/RKwhar5pcKfBpV5m+9X7p2zx0IDoEQcCcWi0BzceKdFmUWykYjWfO3AQPioI7d6ze8GCUGdQIsVYUmGoqTHn3HMG7UUwfATfuKiD+Gdb3PdJKQU2h3aDxiFKRI9wFULZ4ior5vtpC9XnjrpQ2m5pW2JERzofZg+sB0NyA4uJRgW+lTUcD5aebDDEM4bDqrCGpUFTFA/uEwAQCP7vWJ+/orbtd608gY8b37/414hf2WVHYgDUSiDIUxUHeXELX4odEAAgxS1mEYIvkKKbULjURs8gEOoRIKlWL0A2QB0CRb1JCFQZ5gmBavVO4ItSJ3TKz5ik0VUmW9HPFJ1m55kq2xynqnUG/04Rz3PxPzUtqghHrjNxLWu7t1ubEunk5/XyYA/22Cx8KIEboUKjBm3KlanWVsBbJGbb1YvqwiJ9kAlXTlyY8GMyuXNVy8BEi1bVTsP0VfyZLJ+w0dE92Rb6eQKnmyqeBEqqN5bl+IED");
 
 export default PersonWalking;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spell-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spell-check?s=sharp-solid spell-check}
  * @preview ![spell-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/spell-check.svg)
  */
-const SpellCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M106.7 0L98.5 19.7 5.1 243.7 0 256l69.3 0 13.3-32 90.7 0 13.3 32 69.3 0-5.1-12.3-93.3-224L149.3 0 106.7 0zm2.7 160L128 115.2 146.7 160l-37.3 0zM288 0L256 0l0 32 0 96 0 96 0 32 32 0 80 0c44.2 0 80-35.8 80-80c0-23.1-9.8-43.8-25.4-58.4c6-11.2 9.4-24 9.4-37.6c0-44.2-35.8-80-80-80L288 0zm80 80c0 8.8-7.2 16-16 16l-32 0 0-32 32 0c8.8 0 16 7.2 16 16zM320 192l0-32 32 0 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0zM550.6 294.6L573.3 272 528 226.7l-22.6 22.6L336 418.7l-73.4-73.4L240 322.7 194.7 368l22.6 22.6 96 96L336 509.3l22.6-22.6 192-192z" />
-    </Icon>
-);
+const SpellCheck = createIcon("spell-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfAAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCJwsGAAE2AiQDCAQgBYMtBzIbKQXIHgl2DLIVhJ3yxAiet/uvOrf7q3uMHlnvD+QMyr1wOshWzhxkRrjxq+H3cjCbuKZ+nD/9efqLP0rl1rrzpKjWEth5tUYJjWYDmyjO3JYX1CQMDENEBh4idoML7dNfIY9vstsaSC+kr3FHvzT+0dNtkpYMQHQAwILWTWt8+mP8GPFV/S3iK6sQEAtAJZAhQx8BZssE+shVyOWCH6NeT/+BFQFEI7kugRzNOI8bWIm91JjnPZt6l2XPsqFtXisbih09evfYHF2ijN4V7HlVt6hFryi2jBs9bkwUrUVZiLSkLN8Z9bT/qyNfCtifTKWbHnYpIqKMZ7puJqxyJm7LqOGj5sbwiIm1GBmzY0RsqUdHRevAJx2e/Dfg6187/skFObHrB6ss8YPtfrCkJ+78wS0j47XRwAx9/bXKYW8EqrPWdzhUi+zS9a5RO9Rh/rp17X6sBO+P7cadqUDv8KN2P47/fe2dXzvk0WPLVzjkazV79jjkkE8+AQLB8Y7/2tN+9v/NZQI/v/8/+nRdmpOeoFkCQTa6PtrONB8ZGRQkRIrLBmKKgeS4i/zUNp4VIBQIkDQqBMj01kGAXGGUAA36mSJAo8ImmchbhC52dSpp4xyVmeoKleviDarBbJ/5GnWJzPdEzxE//dKWjvCSSdWEseOrmdU0r0nuxNP+WdWyY/jlXDcCJx12xmkXHXLQMRcH9Lw1wUtOWcqQJX6oMsFY41VmqrZL28M1h5x3wTFnnC7jzFKd9wx3mbceAXcijBNlJIlI5Z8LjTGPGAAAAA==");
 
 export default SpellCheck;

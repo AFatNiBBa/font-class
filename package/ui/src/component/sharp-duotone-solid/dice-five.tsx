@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice-five` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-five?s=sharp-duotone-solid dice-five}
  * @preview ![dice-five](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/dice-five.svg)
  */
-const DiceFive: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l448 0 0-448L0 32zM160 160a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm0 192a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm96-96a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm96-96a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm0 192a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M96 160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm0 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM224 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm64-64a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32 160a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const DiceFive = createIcon("dice-five", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABwwAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDYwsIAAE2AiQDCgQgBYMtB04bAwbIjtMN9cUU5RoP/79fv33efTNfHNPHT4h5giRuTUwTNKuQSNMQy7RZRE/kKeb9+b/m87OjBvzil3QoWav0SMBum8CAZ/N5gQ9oIEU6A9vgvImHGBL7z5DH83ReiexJ9hm3nP8BjF96O0+mIQGIdgDMWbFksUo1qll8rr0hPluEgJgLCoGEhH4CTJcE+skVyOWCalarUY1arSCAKHPulkAZLfiG74AcZErKed7Vgxu6FppKLfny6Dsa15zpGfGo6Vr3B053u994tcfD0ERWXOveVBUHRTZhyQyWZaGU+Q0tkaJ5mUpG9ClLJmjyX8HiJZ2v2l/9GWQ7Gwa2XuZya+vlcEIFbjh1ik6owQ0Dn8K0ZxXPQnd/euqc3TdswB2XXQ4EgrOPd25om/6/vikDP97++5n+kNSqUcleoV4GgjS8NtzaqEBUBAAgi+M6o2IjAslOZd6jNnsoQGhEgExZowBJX+0C5BoNE6BkgAkClDVaIom8QehmXQkyzQ6BZKITINfNa1Ay3btSWbdIl7Z6Yap/llkL69CCQ8WYkaOLqcVgU65drbJenlbMDg8+zoeGwJO2O2C/o7bZapejNfKwxdVj9lk4Rl3w3MIYI41WmKpYPVHbWo5Lhx2xq99Yv880xf75wY6PTx4CYxlPcKwjSSKySB0fL3vEU+SNuEmGuraM2wEAAA==");
 
 export default DiceFive;

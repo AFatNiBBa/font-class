@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swords` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swords?s=sharp-thin swords}
  * @preview ![swords](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/swords.svg)
  */
-const Swords: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M282.1 378.1L8 104 1.2 16.1 0 0 16.1 1.2 104 8 256.1 160.1l11.3 11.3 73.4 73.4 11.3 11.3 26 26-11.3 11.3L96.9 23.5 17.4 17.4l6.1 79.5L293.4 366.7l-11.3 11.3zM440 276.7l5.7 5.7 32 32 3.9 3.9-2.2 5-29.8 67 56.9 56.9 5.7 5.7-5.7 5.7-48 48-5.7 5.7-5.7-5.7-56.9-56.9-67 29.8-5 2.2-3.9-3.9-32-32-5.7-5.7 5.7-5.7 152-152 5.7-5.7zm22.5 45.1L440 299.3 299.3 440l22.5 22.5 67-29.8 5-2.2 3.9 3.9 55.1 55.1 36.7-36.7-55.1-55.1-3.9-3.9 2.2-5 29.8-67zM105.8 310.3l31.7-31.7L148.7 290l-31.7 31.7L190.5 395l31.7-31.7 11.3 11.3-31.7 31.7 28 28 5.7 5.7-5.7 5.7-32 32-3.9 3.9-5-2.2-67-29.8L65 506.5l-5.7 5.7-5.7-5.7-48-48L0 452.8l5.7-5.7 56.9-56.9-29.8-67-2.2-5 3.9-3.9 32-32 5.7-5.7 5.7 5.7 28 28zM504.1 104L374.7 233.4l-11.3-11.3L488.6 96.9l6.1-79.5-79.5 6.1L290 148.7l-11.3-11.3L408.1 8 496 1.2 512.1 0l-1.2 16.1L504.1 104zM49.7 321.8l29.8 67 2.2 5-3.9 3.9L22.6 452.8l36.7 36.7 55.1-55.1 3.9-3.9 5 2.2 67 29.8L212.8 440 72.1 299.3 49.7 321.8z" />
-    </Icon>
-);
+const Swords = createIcon("swords", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABsQAAAK+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiECwsGAAE2AiQDCAQgBYMtBy0bCAbIjsPGGR0JNTbxHzz/b1fd9wsjdQ9YM8uBvEJhxVoisjIoSHpDSKGyOZsK6RbR5K5AQv8tcPs/7qcuziv5GQ3t/ShaB0Vq9/kEBlqhOx/YWmimE7CBoJvpeOcKsyAMF6DLbZZggDqrCpwsPkq+kGUfKDQNAABJBgAAur3pE3kwJEMir4OrIK8ZDwiAdANgEUBDyO0ooE0QI1/HArpSJDAkQYD+H2iBAICYhFdXAOhANPAeRAAAHQCFqeuFxVnNWVlxRoLu2ktjF/tLfVfSJSyOKYSN/GIJiS9uc3aphLxwerhYwhISW6YWXBvJdJkmNlwJ7gzxksLykuISW4pti4TX+Ttl2vjKRaWjS8MyWhwplYK8SBh90OfKFISOdb7p4iIqxTfkL7Y9O128SGyTFZ/xiugCx3W05BRpl+nb8FqRu74okhz5Vli/ZH1K+FymRxI/8UxOnybC2LFEOEuEhHgmm5iTiU8gcnGJbdsBtYbLDYfop58AG5tD9OTRTa2AfvqPu+3VPvFjx/AnD9dYRh9bGSYkL0vi/nM0QsDYMfzgNv+5jaPhtYYeenIVNn0KB8eUF0JFfdjcPv52V3jwFtu3YUxmssm2bVxigG9f8ZMkTO/pp7xEuOc2PnWWUaObnjx8jh3DBQABBBKfb7z5SW3/ouMUAJ9v/fhC8SsKHihUBIhGASCglQVlzFEAKBAAAABAyVaKFkAAxTtMwnQ8p5Ar07GAmAGTWNIaOZIb0ImlFAzy1eNGbvomhegxgZC5DSji2QAaDbaDTshlMGjzPGESGk22k3KV/NmMG+hK+xdZ1RVVVos1W1NREhid2VZrs2X0VqOnmKP4rGMtm1nKElawuaPZyMT0FtYwsCTr54tYqlWoYmlhHW4+5FwlsZFNrJgmj4vM08q6PjDa1uXhxdgVodkaxQoFosxNXwU=");
 
 export default Swords;

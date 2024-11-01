@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-hand-yawn` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-hand-yawn?s=sharp-light face-hand-yawn}
  * @preview ![face-hand-yawn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-hand-yawn.svg)
  */
-const FaceHandYawn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256C32 132.3 132.3 32 256 32s224 100.3 224 224c0 57.4-21.6 109.7-57 149.3l23.8 21.3C487.3 381.4 512 321.6 512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 57.6 19.1 110.8 51.2 153.6l25.6-19.2C48.7 353 32 306.5 32 256zm296 1.4l9.4 9.4 3.9 3.9 9.4 9.4-11.3 11.3-4.7 4.7-6.6 6.6-4.7 4.7-33.4 33.4-22.6 22.6 9.4 9.4 22.6-22.6L321.4 328l11.3-11.3L344 305.4l13.3 13.3 9.4 9.4-9.4 9.4-1.9 1.9L344 350.6l-9.4 9.4-11.3 11.3-1.4 1.4-22.6 22.6 9.4 9.4L321.4 392l9.9-9.9 1.4-1.4L344 369.4l13.3 13.3 9.4 9.4-11.3 11.3L344 414.6l-12.7 12.7-22.6 22.6-2.2 2.2C288.7 470 264.4 480 239.2 480c-52.6 0-95.2-42.6-95.2-95.2l0-12.8 0-20 0-17.6 0-12 0-20 8 0 21.7 0 2.3 0 8 0 0 20 0 12 0 3 6.1-6.1 8.9-8.9 13.7-13.7 3.3-3.3L257.4 264l11.3-11.3L280 241.4l9.4 9.4L302.6 264l-11.3 11.3L280 286.6l-22.1 22.1-22.6 22.6 9.4 9.4 22.6-22.6 33.4-33.4 4.7-4.7 6.6-6.6 4.7-4.7L328 257.4zm0-45.3l-16 16-9.4-9.4L280 196.1l-22.6 22.6-11.3 11.3-40.3 40.3-21.7 0-40 0-32 0 0 32 0 20 0 29.6 0 20 0 12.8C112 455.1 168.9 512 239.2 512c33.7 0 66.1-13.4 89.9-37.3l48.8-48.8 11.3-11.3L411.9 392l-22.6-22.6-9.4-9.4 9.4-9.4L411.9 328l-22.6-22.6-9.4-9.4 16-16-22.6-22.6-22.6-22.6L328 212.1zm-97.5-89.6l-20-25-12.5 10-80 64-12.5 10 20 25 12.5-10 80-64 12.5-10zm63.5 10l80 64 12.5 10 20-25-12.5-10-80-64-12.5-10-20 25 12.5 10z" />
-    </Icon>
-);
+const FaceHandYawn = createIcon("face-hand-yawn", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAAB0gAAAL8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQSEbwsGAAE2AiQDCAQgBYMtBzUbdAbIngV2w3VRDJAhF4vxYcDRMkbw/X6+e25ePmGRUQEpYlnVOgLZqWpcgWF8pg5ldX5+nL038qNNSTqBzUpivLaFpniAs1M/veFxuQ7xPo7rk3KopRQ6pPY93sTl9Cfg+1gllmcZrjlsjH2eQKBhnk1aIFkBZZqAtbgNlZGuCoQkoXCALO6HEpMuJuA4etP4o611kGQ5ANEAAExdvXyh62IUIz6UBPHBfCAgpgF0gcghhw4QTCAU6ECkC5DJBMUolbr/wC4ggCgDH5FAhnKiGURfADKQ5LOs79GxjXqluDZbVZ2vWn15eOD1+RHvZ+fcGnq1648lHJ+rf1os6lW7AFN8xa2UuF1lLVtRijRIy58V9qDhArnU2FaKV1E8OGgvjY641a/QKaC0uloIgZO54Tr7DYZcVw1pTRg6w359XFEljl2XJj6c+Xry8mgdrmqcIbWzKlvVr6+TYFP0uCN4tIZnrly1Mq+TRUspvuL53eINhX982AqdH9cNzwaAjsVixwG3X+ti9bb9cmbGZqVt2u4ema3Uysm2baA0Vg+Zetqxqt524FbDhZ1K0qcQ2iKiRbNTCR8uCNNL2HZqZs5F6MRu1VsgYD16/a5CoZy0YKDSgqxLC1DJWWnbn+62O9UOEyNd8w063Y3OxMASHHtMnz5x89icLggTQi0/fHjdlOmg4PBt20bgf1GzvvVrx0DFi8VTnEgbk7WTvfxqxUPorTGM6OTrAQLBlQstj6yrn/C/ojqBn/ca+hWVniSpAFRIIMgNKKmuBBIBAEhxgC0BAimq5cGr1jgHQahCgKRMlQA57ekgyFTpD0FeJ8kQlKmynFBklUIL3YxJauxmckZZYDIt7DF5Ezyly7QI4fchfbqlv6epZonwzG1dhnr9lgyLtY3IHnnxvJ5pCTb1mevHHOVefcaNmdGrx6AZAZtSnZs1qsQlUPxFFgFefhYZLMm9VVVLnZ4ybdCsSN8kk+V8n92ce7ajtAqA0GGqkkSkurdPPfCNSg88vOHgDgAA");
 
 export default FaceHandYawn;

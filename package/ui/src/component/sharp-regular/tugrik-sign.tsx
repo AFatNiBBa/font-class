@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tugrik-sign` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tugrik-sign?s=sharp-regular tugrik-sign}
  * @preview ![tugrik-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tugrik-sign.svg)
  */
-const TugrikSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M24 32L0 32 0 80l24 0 144 0 0 125.3L58.2 232.7l-23.3 5.8 11.6 46.6 23.3-5.8L168 254.7l0 46.5L58.2 328.7l-23.3 5.8 11.6 46.6 23.3-5.8L168 350.7 168 456l0 24 48 0 0-24 0-117.3 109.8-27.5 23.3-5.8-11.6-46.6-23.3 5.8L216 289.3l0-46.5 109.8-27.5 23.3-5.8-11.6-46.6-23.3 5.8L216 193.3 216 80l144 0 24 0 0-48-24 0L192 32 24 32z" />
-    </Icon>
-);
+const TugrikSign = createIcon("tugrik-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABXwAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBWQsGAAE2AiQDCAQgBYMtBzIb2wTIngNuWwzPnaMLsQtdwzdttJQhnqdfvjv37ds/yb4USmuqqq56tTC+NuGIoijQKBtjMlg0ev3/39x9QIf444MEzpmhkRxprNFozmbqHuNqtuQhmVUxMkAXfOTUeOOl75e8RAU8Dxu/+sDvjVeg8dLZ8/mEZgOb0ACfgE3dxssfRHkTOUdwiBiSLDSvUPM+C3rKzwJf24Pmn/WOFH0HIMsAwNl7JRffLSWL45MsugQCOQvYhtChwyYETpAFmyi2gaoKS8ZR/wMZAmTC32EBFR2ugUcAKihS67nWz9a7rR8eDW2Q1uR2dmVz9uZeBFNaknDbmy3Zlduv2loy7Pij/dcNWPtLJGIQCx7mG9H38kR7LSLmjAmYrT2+dl93MyAIj3/fFk31xP+pVsDffL//jIz7UsaUAkJ3aDykli+QLwIAKHnFyBcExTkSv9cZ3wTEgIBiYhDQ2UhDoBocRKC3RRqBicEtstRpsUo9iGLGU6JznEdUqzyI3gk/d2JVOlKJlBD/dGlOBuw5jkdiXOBlaEg84cu4yNu6ebCSJRcxsLSw09cztkvQhhvszTkItD0Ri4uIYQV8nDyfrurb2BpbWtQpRXzfMB1wsyXLSIDDz7FeSGkvXg4342mYkAAA");
 
 export default TugrikSign;

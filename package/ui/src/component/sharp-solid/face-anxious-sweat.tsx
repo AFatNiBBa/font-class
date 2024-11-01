@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-anxious-sweat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-anxious-sweat?s=sharp-solid face-anxious-sweat}
  * @preview ![face-anxious-sweat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-anxious-sweat.svg)
  */
-const FaceAnxiousSweat: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 512c141.4 0 256-114.6 256-256S429.4 0 288 0S32 114.6 32 256l16-21.3 25.6 34.1L112 320c10.4 13.8 16 30.7 16 48c0 24.6-11.1 46.5-28.5 61.2C146.3 480.1 213.4 512 288 512zM79.3 404.4C89.5 395.6 96 382.5 96 368c0-10.4-3.4-20.5-9.6-28.8L68 314.7 48 288 36.4 303.5 9.6 339.2C3.4 347.5 0 357.6 0 368c0 26.5 21.5 48 48 48c12 0 22.9-4.4 31.3-11.6zM288 320c44.2 0 80 35.8 80 80l0 16-160 0 0-16c0-44.2 35.8-80 80-80zm79.6-80a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-128 32a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM227.3 171.3l-7.4 7.4c-23.6 23.6-53.9 39.2-86.8 44.7l-2.5 .4-15.8 2.6-5.3-31.6 15.8-2.6 2.5-.4c26.3-4.4 50.6-16.9 69.5-35.7l7.4-7.4L216 137.4 238.6 160l-11.3 11.3zM337.4 160L360 137.4l11.3 11.3 7.4 7.4c18.9 18.9 43.2 31.4 69.5 35.7l2.5 .4 15.8 2.6-5.3 31.6-15.8-2.6-2.5-.4c-32.9-5.5-63.3-21.1-86.8-44.7l-7.4-7.4L337.4 160z" />
-    </Icon>
-);
+const FaceAnxiousSweat = createIcon("face-anxious-sweat", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABpgAAAL7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDGwsGAAE2AiQDCAQgBYMtBzkbpAXIvgxvjCj1lQyT0aJpyjbuso9s/F7SbCJMcJV/GfzzyuHfl6SAU/kDmABihHh2cuJcCGRt9+K4JFFrZiESIpV9Y4RG7KQK6OAG9kNikRdZJFEGOcY12fnGI426+WTzD3Z7/8Bva8tSOZcQg8iS4lIihTkLABCgJnfxC+RUQaZtqWbZ8v7LuzyEAD3qxt1oNx7JPODEo5Q0H+b/mnrx/OgA//MTPpRozOICOYpVPp/AiawsGmgDmQ1nQxm4z9wWY3DFsjZE9dAh8iHuQ/rwJ+D0yoYAMLvEH7DB31S/iLIUDCEWAABFAwCA5qtLO249YcLTqkJP2QABqDkAHgEWsEA6AqARFgHpODzgcAje88d/ICEAUCB2mgHAASHAGeAqMB/9piDn8mdMXFxKSlhAhOsuJXTQHyi8bEnhbo+7XPt9P9uZ9zVUXnP7srfo+uCxvFkUKlFJ8ZW1lV0J2zJrwj1+0qkkCpV0oHSm12MtbQtuDWw1P6Htgh3eYV1HUk8VCvt0j6T4a+uA4kstqTBdLCX5luLiVxaVJiihU50wEJJLLLEHTe4+TntO/3sO6VlbFsGmFEimrbZbyiY7YQo0nvx2dPZvdzz7X//uz3OGacBNNrM32j5/Xff0Lj4MuudxkGjUPaI7dMQbVkYoBciFmP5yFpRZ246hZTu3TIrmt/IREtOvJ84w3JVx5sPiM5huerzyEXu/mcLWCK4AgADBlq9sgMbflgHgYz3Hb65q4TgNBGMAENiyX/qOOeCDRgLQ1Gg6OfJBAgxHCEJeNZztCAARCggAQyChCABLGtEIAEcopQiAADKpjQAIJJQuLHIhiHj6NWAIZxKw1GEecMRzFgTQiIdJIPGCzVou57iPxuQ2I9q6yVevqOYb+G2p8onIlPmG/lgpmk59xbKF4SYYb6phhhrl1IBP1i6fZpw2EdbaF3mqU0E1PA3w161Z7q7pZFOMWgv3izTEPx8UMT0eXSy6wUhrUDAYkIl9J5aUD5qZoyZMm1I+5Tf3AAAA");
 
 export default FaceAnxiousSweat;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-xmark?s=solid trash-can-xmark}
  * @preview ![trash-can-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-can-xmark.svg)
  */
-const TrashCanXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M163.8 0L284.2 0c12.1 0 23.2 6.8 28.6 17.7L320 32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64S14.3 32 32 32l96 0 7.2-14.3C140.6 6.8 151.7 0 163.8 0zM32 128l384 0 0 320c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64l0-320zM143 239c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
-    </Icon>
-);
+const TrashCanXmark = createIcon("trash-can-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdAAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBbwsGAAE2AiQDCAQgBYMtBzYb9QTIjsPGMS1FGsWdr3j++/1+a593UWneIWnykMUToVEazaSRIp1SGCqZ/P3n95vnIvb5M0sPZuJJRauIVPMmHiKhjNW1TdzsvGlRgIs8tLFoayDLwznPEwiwy9IuT6jfYG/6AvbmLteKJNrHY2kpS/L42ePngJYV4SjE1IfgHdy1D80fc6NAGeoAkEkAcHCakoxHDWlCb70zIN8SQSAHAJYROnSYR2CbUDBPZBk0Tfih///4H8iAAOkHP1CBhj5cgWsADZSuidRTKk7Mi9I5sSKHU3B75sbE0YzxHAaNZhVKmjaZpyHTBY4j06zYpvJKXkCLdodWStp3OLYQpi2aB1NQQNuzDaXg0FYsQig0tH2rIArJsvpY7/hH9V7+jp2HTqy4DdahkM7tpE5WByVYiDqDbiMDgxwMg2JqahP47AuKsPr6728ttAgoz6NaxOrzAEF4sFoKKdAN+pdxAsDv9e9f/Rmh90iPdQwYVCB0qz0n5OYRyBcCAFTaoc4jCMoRIbrqqFcQiGEElH7DAjpz9BBohq0g0GeRNwL9hh0SSpMjZuUNooy6ITpb+ohm1gnRZ9uT0282Qv/ivYP/3qXEEBA9x9xd3FgAW4ZEcBm2jAPZtm7Xnkr22ES5BvValSlVpVXhzZL9NnViLCzaFzHuXLhhArDj5FlJJ1qzFlXU+vMpgdh920673WwPS4AZ1+wpRUq3tbmopdK5pKjeufM1AgA=");
 
 export default TrashCanXmark;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `water-arrow-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/water-arrow-down?s=regular water-arrow-down}
  * @preview ![water-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/water-arrow-down.svg)
  */
-const WaterArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M312 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 137.7-47.9-43.5c-9.8-8.9-25-8.2-33.9 1.6s-8.2 25 1.6 33.9l88 80c9.2 8.3 23.1 8.3 32.3 0l88-80c9.8-8.9 10.5-24.1 1.6-33.9s-24.1-10.5-33.9-1.6L312 161.7 312 24zM80 302.1C62.8 317 41 328.8 18.8 333.8C5.9 336.7-2.3 349.5 .6 362.5s15.7 21.1 28.7 18.2C58 374.2 81.6 360.2 96 350.2c28.1 19.5 61.4 33.8 96 33.8s67.9-14.3 96-33.8c28.1 19.5 61.4 33.8 96 33.8s67.9-14.3 96-33.8c14.4 10 38 24 66.7 30.4c12.9 2.9 25.8-5.2 28.7-18.2s-5.2-25.8-18.2-28.7c-22-4.9-44.3-16.7-61.3-31.8c-9.1-8.1-22.8-8.1-31.9 0c-21.5 18.6-51.2 33.9-80 33.9s-58.5-15.3-80-33.9c-9.1-8.1-22.8-8.1-31.9 0c-21.5 18.7-51.2 33.9-80 33.9s-58.5-15.3-80-33.9c-9.1-8.1-22.8-8.1-31.9 0zm0 128C62.8 445 41 456.8 18.8 461.8C5.9 464.7-2.3 477.5 .6 490.5s15.7 21.1 28.7 18.2C58 502.2 81.6 488.2 96 478.2c28.1 19.5 61.4 33.8 96 33.8s67.9-14.3 96-33.8c28.1 19.5 61.4 33.8 96 33.8s67.9-14.3 96-33.8c14.4 10 38 24 66.7 30.4c12.9 2.9 25.8-5.2 28.7-18.2s-5.2-25.8-18.2-28.7c-22-4.9-44.3-16.7-61.3-31.8c-9.1-8.1-22.8-8.1-31.9 0c-21.5 18.6-51.2 33.9-80 33.9s-58.5-15.3-80-33.9c-9.1-8.1-22.8-8.1-31.9 0c-21.5 18.6-51.2 33.9-80 33.9s-58.5-15.3-80-33.9c-9.1-8.1-22.8-8.1-31.9 0z" />
-    </Icon>
-);
+const WaterArrowDown = createIcon("water-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABlwAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCOAsGAAE2AiQDCAQgBYMtBzcbPwXILgdscK9DsR1xbYyxVpc8V9TTGKgfhLIlHr7fj3Xu++8jJhmSamOI3ohk3420FU06XVInxBVtnsTtv1t/3q51Ag52H6QlupZllGZRlmgicSdret9qJtDII+GngSyRIlQztsJMqGbJnGqaD0/MDfB/HjCBEfzn/5p6UXZ0gN/o0KKwtDEXGlE8gYntTTPBZ8PZRHFvExGjYOIrIUEW0d1jx9kGcjzbXSXpYYI79UPjg247SVkAiCYRAKu7pQx8v/F6cdEDcWEDCIhVgCFAgQJ9ABYogT7aEJFlwWv8z/8H8kkAUYEem0BGiXNcAWSQFDn35LlV1ued+LKag0fSEzpgCY/bDhgVZLezhhz3nIndiL2n5hPGoexJ9RL5dbk9tpyyjqWPyj3yjvhEfCY9ozIkHSLMHic88Fd/wzrD9BNKoUDZht/6/lnuBqvfuNrybqj77frbo0cl5eJ7/T4QuMcd6u+FsiRCP1v9/rsez+fjiX+kHJghnuPtQCD48fX9zz73V20Cb68v3/KRnbSWrlAlgaAY/dWW5Fegp0Lu4McZIXyTQHIZGr1rnXsChBoESCrUCFDo5QPIaowAKA1oAVSosQktcrXQZm0gqXMIClM2kLU5QWnBE1Roi8IIBRMSvoCpUYlG5vENWcGJwzIW7YpL4zOXNbkJbSEshY6piXVtLX3rglnIxBvGohod8UN8pUyBJtyu3S+ualtY0zc1KbPMeN4KGL13CCYKsY7JSRKRmmw0W1NfLKZbmscJ");
 
 export default WaterArrowDown;

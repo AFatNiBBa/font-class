@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `window-frame` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/window-frame?s=duotone window-frame}
  * @preview ![window-frame](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/window-frame.svg)
  */
-const WindowFrame: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M96 64l0 160 136 0 0-160L96 64zm0 224l0 160 136 0 0-160L96 288zM280 64l0 160 136 0 0-160L280 64zm0 224l0 160 136 0 0-160-136 0z" />
-        <path d="M32 256L32 64C32 28.7 60.7 0 96 0L416 0c35.3 0 64 28.7 64 64l0 192 0 192c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0L96 512l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l0-192zm384 32l-136 0 0 160 136 0 0-160zm-184 0L96 288l0 160 136 0 0-160zm48-64l136 0 0-160L280 64l0 160zM232 64L96 64l0 160 136 0 0-160z" />
-    </Icon>
-);
+const WindowFrame = createIcon("window-frame", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABhgAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCLAsIAAE2AiQDCgQgBYMtB1QbUgXIhof/t+v7fW5V95pXPUaNpAhWRn9IIeDoRz8bpB+O+3+u+fwCowC/0aFVry0tkpI6eAIDjPbz0c1kpjOwKbjtJohpaCNEfMjj5+y8Cumx9BPuif4HMH7VwXmShgxANAfA9BVLFvvsdtxO8VP9LeInixAQM0ApkCFDZwEmyQQ6y5XI5YLbqV7ndtTrJQFEVRRcBqqo4RhOAnKQVOR53rshydUqTfLlxceLFSGeGPhG3ybxUv/XOghxrc1DTrd+sCgaX237cJxp90gtNhW1QtQiikafKcRhKiy32TWCTEWhwVfgjvd4vfnrv3f/aftPun36WVJbtGjx7DTPRu3FZz7T9PLlpiox7XRLfXaqW/3lZ1327HsNXk8MfYZmbDj1bCI2xOXbu9+9NX0fCAR3vv78lw3NJv3fqJbA3Q/+/Nf9kNQ/S9LraCSBIBtUH2RtAokAAKQ4rkeCjQKZ+SqSoBp7WIBQIEBSVQiQ6aR5D7nCQKjoarSPqsISmcgbhNbWIZA0dggyY5yAXGtvQsUk3xaqWkeGPxk98t9fxpwxMvtQOXzIsHJCudnRKpAS/ebE8nS433E90Z++tN0B+x21zVa7HB3xhy0uH7PPnD1yti8qDTfEMKUJytv958ZyXjjsiF3r2v19JirfT/ZzfH9+fxpLEsERrmQyIkXWGrfWYPQ7g6E83XZB+2oBAAAA");
 
 export default WindowFrame;

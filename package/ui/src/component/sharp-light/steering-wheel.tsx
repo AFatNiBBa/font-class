@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `steering-wheel` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/steering-wheel?s=sharp-light steering-wheel}
  * @preview ![steering-wheel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/steering-wheel.svg)
  */
-const SteeringWheel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 390.6l0 88.8C134.4 472 49.1 391.4 34.3 288l103.1 0L240 390.6zm32 0L374.6 288l103.1 0C462.9 391.4 377.6 472 272 479.4l0-88.8zM377.9 256l-27.6-55.2-4.4-8.8-9.9 0-160 0-9.9 0-4.4 8.8L134.1 256 32 256C32 132.3 132.3 32 256 32s224 100.3 224 224l-102.1 0zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM163.5 268.8L185.9 224l140.2 0 22.4 44.8L256 361.4l-92.5-92.5z" />
-    </Icon>
-);
+const SteeringWheel = createIcon("steering-wheel", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABeQAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCBgsGAAE2AiQDCAQgBYMtBzUbCwXIFkpLUK/rredJa5DMIDtihiOIiOPLfnYAbIJ061KCeOf/cs/v+dEBfqNDG3PwmHrXHgI9TzTPewlkgWUagMXY7mw7tkNpn0TB0nJ8i36pQ+cOeXwcQ9RIr6fLeDa+afyqu8dJ8gxAtAPAzPWrl/qiHvWIy413icsWIyBmgUogQ4ZeAkyRCfSSq5DLBfVoNOg/sCKAaEZ+YgI5mmM7zgBykNTyvCx79izLWut8XVkr1gt3V91cV8bacv2a9WXcXnF9TawfNXJUlyiKTjEiinhj9NuLf57/7cIfR77Zr1hzb3nEtdlfxyOzvlp2dd3tJZdnfOHhmV8uvbJ23fAhw8sYGmtiXf+mdk2/97u877I/J2zYsGFFs9NnWi3bb9++ap8o+9XKmdO9ZMPBJ9/D501QNE3wnn3a3PhqSO96vfeQr2602XexMddzPD+51+zZvSY//9xcj5Oz+Z8t2HrKFps38+MgENz8+lbv7W2n/N+iTOCXj/78W/oWNb5IUhNaSCDIhjSG2JJAIgAAKc7pnyCQrFeDr9rKKwKEAgGSZgoBMj21EyBXGCxATR9jBWimsFom8pZCJ1sLSFo5CTLjPABynbwNaqb4Pm2mU2S+RngK8dOLnTc091o1ctiIalI1Hcuk+2DhfHK1rA44Z20g3LTPccecsdceB50JOWVpcdZR8zR4rg+qjDTMCJVJKvPsll1XcsppjI1J+yUmq/aHA5zTdw8EIxHUUTpJIlKbJz/sqvBDzyQAAAA=");
 
 export default SteeringWheel;

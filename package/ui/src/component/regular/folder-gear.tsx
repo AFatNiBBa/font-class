@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-gear` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-gear?s=regular folder-gear}
  * @preview ![folder-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/folder-gear.svg)
  */
-const FolderGear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L289.9 96 247 53.1C233.5 39.6 215.2 32 196.1 32L64 32zM48 96c0-8.8 7.2-16 16-16l132.1 0c6.4 0 12.5 2.5 17 7l45.3 45.3c7.5 7.5 17.7 11.7 28.3 11.7L448 144c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96zM353.2 264.2c6.3-3.6 9.5-11.2 6.8-17.9c-1.7-4.3-3.7-8.4-5.9-12.4l-2-3.5c-2.4-4-5.1-7.9-7.9-11.5c-4.5-5.7-12.6-6.8-18.9-3.1l-1.2 .7c-8 4.6-17.9 3.5-25.9-1.2s-14.1-12.7-14.1-21.9l0-1.4c0-7.3-4.9-13.8-12.2-14.8c-5.2-.7-10.5-1.1-15.8-1.1s-10.7 .4-15.8 1.1c-7.2 1-12.2 7.5-12.2 14.8l0 1.4c0 9.3-6.1 17.3-14.1 21.9s-17.9 5.8-25.9 1.2l-1.2-.7c-6.3-3.6-14.4-2.6-18.9 3.1c-2.9 3.7-5.5 7.5-8 11.5l-2 3.4c-2.2 4-4.2 8.2-5.9 12.5c-2.7 6.8 .4 14.3 6.8 17.9l1.2 .7c8 4.6 12 13.8 12 23.1s-4 18.4-12 23.1l-1.2 .7c-6.3 3.6-9.5 11.2-6.8 17.9c1.7 4.3 3.7 8.4 5.9 12.4l2.1 3.6c2.4 4 5 7.8 7.9 11.5c4.5 5.7 12.6 6.8 18.9 3.1l1.2-.7c8-4.6 17.9-3.5 25.9 1.2s14.1 12.7 14.1 21.9l0 1.4c0 7.3 4.9 13.8 12.2 14.8c5.2 .7 10.5 1.1 15.8 1.1s10.7-.4 15.8-1.1c7.2-1 12.2-7.5 12.2-14.8l0-1.4c0-9.3 6.1-17.3 14.1-21.9s17.9-5.8 25.9-1.2l1.2 .7c6.3 3.6 14.4 2.6 18.9-3.1c2.9-3.6 5.5-7.5 7.9-11.4l2.1-3.6c2.2-4 4.2-8.1 5.9-12.4c2.7-6.8-.4-14.3-6.8-17.9l-1.2-.7c-8-4.6-12-13.8-12-23.1s4-18.5 12-23.1l1.2-.7zM221 288a35 35 0 1 1 70 0 35 35 0 1 1 -70 0z" />
-    </Icon>
-);
+const FolderGear = createIcon("folder-gear", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABsAAAAKIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDLgsGAAE2AiQDCAQgBYMtBzIbsAXIhof/11ne9yX7zEozbNhlLSAGuCLkisB2GEoAbgqftFglrf/nmv6PrqlA7pZkw5lcNK30ni/KIvL5BCY6iyRJ4JHs+QRs6nRkx3ZIxx6RIUFqGMXjK4j8niCPz+JRNdLT6Xc80u8q/jTDfSS1DECMA2D/icce4+t+9CN+G3xA/OYoBMR+UAlkcGYTj10nC8yWq5DLBf0YDOw/sCKAqBvvlkCOOj7DN4AcJHmeV9MvmiprI/kJZa049bVlEW9NT/H08rcXj8SbK9+dlcUzK95ZUsSeeKcoql67jAeau6NTltFppniyMRzdVnZ2r9VttWay22jEkw2iqLi/8WSDdp705QINv2YzOu7Cmh2fZqddRg8UlA+0e+1gvt1rljKgrUQjcTdix93tS9pphm9+sri/1Y0F74y/8/f83y/43d4XX5pgotinmJh46S4kVcTOL3jHwXPvG4z271Nc8LvPJl7WH8Xsu45v2bfuzc7KxYunbN500+v88NOPo6F85aqhoateKcPojz/9wOs3bdo8ZfHilR0+Ghv7iPUw4Uf0x3AOlm5z5+soubc99jRPj+0tNRiI6/795aWfzxzb9d9QmcAfn/77P/sVDfpJegdDEgiyVYNVTksgEQCAFDdYkCCQvCfX73VYV4BQIEBSVwiQmWVcgFxhpQA1c20WoK5wrEzk04SG008hGXa1kNnidiHX8J5Qs8tPqbpGZPmrZZ/295h9KCOHbKrWr1lX7ahuW6aeksq2urNaji67oY0sx1YXuNIVrnO+81zsOmKucUz2epc7VNGH+KDKemusU9mhCne/2idQ6hrXuthX4mCdnarn3WVu0NOXI5GMkBtUJ4lI5QVvjrP6mwEAAA==");
 
 export default FolderGear;

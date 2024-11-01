@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grapes` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grapes?s=duotone grapes}
  * @preview ![grapes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/grapes.svg)
  */
-const Grapes: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M320 72c0-29.7 17.6-55 26.7-66c3.3-4 8.2-6 13.3-6s10 2 13.2 6C382.3 17.4 400 44.3 400 80c0 32-8 40-8 40s8-8 40-8c35.7 0 62.6 17.7 74 26.8c4 3.2 6 8.1 6 13.2s-2 10-6 13.3C495 174.4 469.7 192 440 192c-40 0-55.3-15.3-80-40s-40-40-40-80z" />
-        <path d="M248 208a56 56 0 1 0 0-112 56 56 0 1 0 0 112zm-80-32A56 56 0 1 0 56 176a56 56 0 1 0 112 0zM88 368a56 56 0 1 0 0-112 56 56 0 1 0 0 112zM56 512a56 56 0 1 0 0-112 56 56 0 1 0 0 112zm144-32a56 56 0 1 0 0-112 56 56 0 1 0 0 112zm192-80a56 56 0 1 0 -112 0 56 56 0 1 0 112 0zM224 344a56 56 0 1 0 0-112 56 56 0 1 0 0 112zm192-80a56 56 0 1 0 -112 0 56 56 0 1 0 112 0z" />
-    </Icon>
-);
+const Grapes = createIcon("grapes", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABtwAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDAAsIAAE2AiQDCgQgBYMtB0gbmgXIhgfK7v873TPv1nx7PswIkFaKjGiD6NWm1v37U88zLbRAHlhAgrmgzNGpH6QbcE+sQABLy8fUghaoVlOsKnNpD8zC7ULSCdLwVXJQCfFa/BJn/P8BDN+o4yBRmQRAqAyAwVMmjPJuaSiN4cvia4QvjUSAMATkAhIkqC+AfhIB9aVypFKB0lgsUhqKxZwAhAL/bQkooBxu4RlACqJMSNMKYU37ciUV0snpobJTntS7Ufd6i4e1r9a51nxymX7czFCRftRybGCi1diSTmnYPt5kbl1yo14IN2pdKXeixiWjps7e6hdr7uukWz5yVM/DV5s9bHa8xeM2+8Izda+HJs9Ufua7xl8u/tIfP/z49z///P1jJhrTqNKL77zzYqWFMe9MLzQ6Q9mZRgvvjDmy5pOe/DgDtxT2snfr8CwbvnX//rK1e7Ziw/65d1u1OjIxyyYeybK5DcqWieRn7zYAAgIfHvj26pxK/X7LykXw9es//FLcWPyz+G4Un0EmgkDSrtjOzMijSRQgLMSwWRN8VxgkILFUBqi8y4fLQVkaiArKQqKeypAqqy2UaKi7vtGbsEkIaRmoulmEqLx1kOhhF6SqexVK9PNJoaB6SCTVlDPzOTFvRBcbnpR37tAp75PP1lWW8OnOfN98c6bVZqOvNY5abI3VNlpkoWU2dtj1RpU3WWXEEjPcD+U666CTXB/54dZDb3KnsN4Gy6ad45v0lV+PWtm8PLo18lGo2MWOREKIIan4y1y0aEN7iY8qt507Gw==");
 
 export default Grapes;

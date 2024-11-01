@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `window-restore` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/window-restore?s=duotone window-restore}
  * @preview ![window-restore](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/window-restore.svg)
  */
-const WindowRestore: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M128 80l0 16 64 0 0-16c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16l0 224c0 8.8-7.2 16-16 16l-16 0 0 64 16 0c44.2 0 80-35.8 80-80l0-224c0-44.2-35.8-80-80-80L208 0c-44.2 0-80 35.8-80 80z" />
-        <path d="M64 128c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 128zm32 64l192 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L96 256c-17.7 0-32-14.3-32-32s14.3-32 32-32z" />
-    </Icon>
-);
+const WindowRestore = createIcon("window-restore", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABggAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBeQsIAAE2AiQDCgQgBYMtB1gbIwXIjsQ4JvGLGFDj4f91ovd9yT6JFLBDqADjlEzAtHEJaAKeshWnjp1Uoqmnswv4ffp7d/7PP33ABwJ/T9u4fM7a5wl0nkV5nlBCmQbgCUPmNmIrMoRhsIgMP0QMSc+QfEIe32e3a5CeSd/hIf0fwPjbQLeTdM0ARAsAK7ZsWO9WHXWK7zofEd9Zh4BYCSqBDBmGCLBYJjBErkIuF9Sp06GOTqcigGjSH5mBJhrYi8OAHCRJ5PmgfuPLRvd8c9kodrw+PuLtASmemfDOmO7x1qT3Bmfx7MR3x3abURblfX2fcL3P40UR9/Z7Mm70f6rcIZQR8VT/Mp7oKx7vU4Qo49NJ7w2PeHHiu3OL+Gj820NGvtt6998R3x3+zrJlL7dpFxTt9su83M5KBwU97r67h1i3JM+1My1OL9fSo67VERWtxd5rHdoctdh8qFXn14FA8Nu493/Y03Px/13KBH764n/8RdKRpHfRRQJBNrkz2c4EEgEASHHZyATXBTLTJeFdu3lSgFAgQNJUCJAZrCVArjBJgIZh5gjQVNggE3lXoY9dDJJuzoHMXFdAro8PQcNiX4ZNfSJDGYER4pMXu9ZCa65VM6ZOrxZW3VYigYP580XVtDr+sltNoIcOO+O0iw456JiLBjlvfXLJKWtH8BofVJlhqukqC1XLwyW72YTnXXCsTa9fski13x7v8nj3BLpNAsw8n1JGpMj6oVOc8mTEKYjdNqBGX08AAA==");
 
 export default WindowRestore;

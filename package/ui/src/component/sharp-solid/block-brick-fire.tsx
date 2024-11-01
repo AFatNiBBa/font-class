@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `block-brick-fire` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/block-brick-fire?s=sharp-solid block-brick-fire}
  * @preview ![block-brick-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/block-brick-fire.svg)
  */
-const BlockBrickFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 32l0 80 256 0 0-80L128 32zM96 112l0-80L32 32l0 80 64 0zM32 144l0 96 208 0 0-96L32 144zm0 224l64 0 0-96-64 0 0 96zm0 32l0 80 208 0 0-80L32 400zm240 0l0 80 65 0c-20.2-22.5-35.1-49.8-42.9-80L272 400zM480 144l-2.6 0 2.6 2.6 0-2.6zm-208 0l0 96 51.2 0c6.2-9.8 12.9-19.1 19.7-27.7c23-28.8 49.5-52.3 71.4-68.3L272 144zM128 272l0 96 160.7 0c-.4-5.3-.7-10.7-.7-16.2c0-28.7 7.1-55.5 18-79.8l-178 0zM480 112l0-80-64 0 0 80 64 0zm-32 48c-42.7 26.7-128 102.4-128 192c0 88.4 71.6 160 160 160s160-71.6 160-160c0-26.7-19.2-96-96-160l-32 32-64-64zm96 240.2c0 35.3-28.7 64-64 64s-64-28.7-64-64c0-48 64-96 64-96s64 48 64 96z" />
-    </Icon>
-);
+const BlockBrickFire = createIcon("block-brick-fire", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABlAAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCcQsGAAE2AiQDCAQgBYMtBzcbeAXIHolxTMnGwF+JePh/Pf7b5yZPyTeyXvUtzXRGBaIbd5BaoVKyvTwkB2rLJy6nP85/+3+bPLQxJ601OIEAw/K2SJSFWaLY4rabI+KVxELjDHn842INpJvTW7gufGj8qKeLSVoyANEBADPXr17qle/iu4g364g3LUZAzASVQIYMfQSYIhPoI1chlwu+i7oW/4EVAUSj+OwEcrTD9bgHTGtI2uR5Cz7UVJYtvbqXDW3zdfnzxWahbUS0WROiCFEuEMqIKJRFGURHqMs6/ES/Yn2xDHYVq5wbu788uVgji26IO4cXux95ash9AyIeGhLxWJ+Pp7649tPpL6+/ddgTqwbEqrU3mTuLKwc90uvW3rd2v7H79V2v73lzz9ZHOjzyc2/te8t5d66IjUhj/+UNOMMxo94RC75nh/e+myG4www7qhUZ71nhvd9M2Uzfv9jt3VpMt8re21E52h23TRpw7XXnRa13a2ou8me233nTsaNv8uVa9rWJ2W+9NTtH4623Xt4wecmJWr3916IjnXr37tSxaPp7//Kv/24CAsF3l01cvb39lL+bywR+eO5X+rGqfiVdkB5BswSCbEg9xJZ0/gZQbxUvGIqzteJvEkiu0Ub8rm3cIEAoECBpVAiQ6a2DALnCYAEa9DNWgEaF1TKRtwhdbO24SRsnuZlxzuHmuniW22CKV6ONukQGoBLwkvwfppw3hOfuq0YOG1FNqlbbGinMiez65OqwccDZcmwgPmmf4445Y689DjozoE5ZmjjLUfO2kLl+qDLSMCNUJqku954q19HoKacdXNa5vstk1fPeAc7enj0QW5JY6Cg1SSJSB1gODt116mAh+uABAA==");
 
 export default BlockBrickFire;

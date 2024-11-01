@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-laugh` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh?s=light face-laugh}
  * @preview ![face-laugh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-laugh.svg)
  */
-const FaceLaugh: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM256 400c52 0 97.1-32.8 115.7-80l-231.4 0c18.6 47.2 63.7 80 115.7 80zM126.5 288l259.1 0c14.2 0 25.4 12.3 21.8 26c-18.1 68-79 118-151.3 118s-133.2-50-151.3-118c-3.6-13.7 7.6-26 21.8-26zm25.9-96a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm184-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const FaceLaugh = createIcon("face-laugh", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABiQAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCIgsGAAE2AiQDCAQgBYMtBzEbIwXIHoVxM300CBGNnfm1ePhvP9Z98wcx6ZA0iWfRSCZyOqF4s1CplEryKrq7efP34cfluxukP5sNakykqpEW//9zzeeXdnSA3+hQorH0QCLxqHrb8wlMJD2thA9sphOw7U1r2ShLdCRKlCR/rOPsAjmWKCroSNfUY3AeFhr/CCkDklwAIJoBwMKutyvW7ymvEcflDBB3nEFALAIYRkGBAv0oYBqNQD9awyDLgldKSf+BBAggKhFfnkBGNQ7AIYAMkspMK9LH1l5Tw0LHRuvnFsAc3alFiUmnQ+Yjh32NcdKhOeF4wHLsfKQ9Jc36skShbK2esRy7nlhu+F5brLscMx+5nVpt+vnOKVNiSII5WhQHdP3YWNnK+Wp4203mbXaNVqVqBepY/Jvke4TqZXqF/ZmtH5Aa5Bz8kTyOO8bdGusm3Ju5Ghu7ml1ustoMnX9lWwM9txvW1htTQkxWJGs+V1ZnXANfT+94ernOKEqnoaFh8Y9TuiqqjoioLrpSiotnEdzj8/TkS+ScgIjPAxAI9n8XbsI5TP4zslAB74t///lHiHKdKt0AqiUQFKOlCkISIBEAgBR5kEoQSPbdol3vYtcPtSAklWqh0IcTslojUGGQLr+4fxONyEwI7UIBknoHUJiSD1m7Kagwbc+p1B6F5ol6I/770uxaxHYX0VTTIEZkmCmSMvF+05gs6wp53FGEs4iTLk2OWDES5TR0Flc/Vyq7GWXriwhNajQQRsh2eX/cT6ws2RKlS5NtjJHztoK8+bgiWFSRcUwqSURiftYJ1ZTI3PgE");
 
 export default FaceLaugh;

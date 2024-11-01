@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `feather` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/feather?s=light feather}
  * @preview ![feather](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/feather.svg)
  */
-const Feather: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M325.6 163.8L96 393.4 96 330c0-59.4 23.6-116.4 65.6-158.4L265.4 67.9c23-23 54.1-35.9 86.6-35.9s63.7 12.9 86.6 35.9l5.5 5.5c23 23 35.9 54.1 35.9 86.6c0 22.8-6.3 44.9-18 64l-151.3 0 37.6-37.6c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0zm-47 92.2l156.1 0-64 64-156.1 0 64-64zm60.1 96c-41.8 41-98.1 64-156.8 64l-63.3 0 64-64 156.1 0zM64 330l0 95.3L4.7 484.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L86.6 448l95.3 0c67.9 0 133-27 181-75L466.7 269.3c29-29 45.3-68.3 45.3-109.3s-16.3-80.3-45.3-109.3l-5.5-5.5C432.3 16.3 393 0 352 0s-80.3 16.3-109.3 45.3L139 149C91 197 64 262.1 64 330z" />
-    </Icon>
-);
+const Feather = createIcon("feather", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABdAAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBfQsGAAE2AiQDCAQgBYMtBy4b+wQRlZpzyH4k2DGRv4IGi2xWY4ObICqd1bOSXT75HlnHTJ8BZcgRESQBRwQRuc0OpskHwPxf8/mlHR3gNzq0KKx8nuDXi+S9CQw00tcCUWCzieLMXd1L0jQvLZaykMdzj4/sgC43xR8LqD3qFbApf5R8ZB5rQaFrAADIVAAAIKWqrIB7r+W1yCvHZZBX5AECIKkAmAigYctCBIB4NAS9AzomoKMj8FocDvoPNEEAQKzwoysAdMAKNAH9AIAOgELX9cVOzu52yyS90m4xusqrykVWBZ31q5K7WY8TZsltl5XehiTJrtk7Z5bbDXuxGFJWcSxc5JohU8XeilAs22ftmBMDWRd3M2nvMrcDibPlTuaj+HK55X8K1xNTT3x2eeUVGQs+vJyYRIDN9l8XqVPN0HTcxW3hLjLYu/fYscC6/bzNsR9HXNP/FbDSP4nemj6rCdJJ89rHj9+gibC3S+vq4taUKbcqePnt28uuLsICE8MAQACBoxFr25umxP+22RUAb298/V1PdPxx3FSoE4ANBYCA5u/wp15h4DACgSMlS3HFFwmgqEIHn+rMTgQAwQAEAIUVAwFAYwFTEQB0DPwQACwsJgIBwIpBGRqiOyHMpKEBhTMjQCOSZUBnJheBhXiehlZmiuZmrJOwv7wkmKmhjElmSGCwGWtOU8J5Dp2G48xl2XtpaPLBVjqHBsc72nvGFTlakEwMZFpExg/NkMBgM9Y8Lh7XV3aMjvUMDdI4ceZ933up3dkHmoIpQ+cpFIhKR8szFwA=");
 
 export default Feather;

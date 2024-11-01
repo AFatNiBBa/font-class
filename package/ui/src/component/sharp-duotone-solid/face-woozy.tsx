@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-woozy` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-woozy?s=sharp-duotone-solid face-woozy}
  * @preview ![face-woozy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-woozy.svg)
  */
-const FaceWoozy: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM89.8 356.4l17.8-26.6 13.3 8.9 11.5 7.7c18.5 12.3 41.8 14.7 62.4 6.5c29.4-11.8 62.7-8.8 89.6 8l14.2 8.9c6.5 4.1 14.1 6.2 21.8 6.2c10.9 0 21.3-4.3 29-12l39.3-39.3L400 313.4 422.6 336l-11.3 11.3L372 386.6c-13.7 13.7-32.3 21.4-51.7 21.4c-13.7 0-27.1-3.8-38.7-11.1L267.4 388c-18.2-11.4-40.8-13.4-60.7-5.4c-30.4 12.2-64.8 8.6-92-9.6l-11.5-7.7-13.3-8.9zm1.9-190.6c5.1-1.7 10.1-3.4 15.2-5.1c13.4-4.5 48.5-22.9 71.7-57.7c3-4.4 5.9-8.9 8.9-13.3l26.6 17.8c-3 4.4-5.9 8.9-8.9 13.3c-28 42-69.6 64.1-88.3 70.3c-5.1 1.7-10.1 3.4-15.2 5.1c-3.4-10.1-6.7-20.2-10.1-30.4zm32.8 62.5c5.2-1.3 10.3-2.6 15.5-3.9c21.3-5.3 42.7-10.7 64-16c5.2-1.3 10.3-2.6 15.5-3.9c2.6 10.3 5.2 20.7 7.8 31l-15.5 3.9c-21.3 5.3-42.7 10.7-64 16c-5.2 1.3-10.3 2.6-15.5 3.9c-2.6-10.3-5.2-20.7-7.8-31zm179.6-26.9c.1-2.1 .3-4.3 .5-6.3c.4-4.2 1.1-8.2 1.9-12c1.6-7.7 4-14.6 6.9-20.3c5.8-11.6 13.8-18.7 22.6-18.7c17.7 0 32 28.7 32 64s-14.3 64-32 64c-8.8 0-16.8-7.2-22.6-18.7c-2.9-5.8-5.2-12.7-6.9-20.3c-.8-3.8-1.4-7.8-1.9-12c-.2-2.1-.4-4.2-.5-6.4c-.1-1.1-.1-2.2-.1-3.2c0-1.1 0-2.2 0-3.3s0-2.2 0-3.3c0-1.1 .1-2.2 .1-3.2z" />
-        <path d="M205.3 120.9l8.9-13.3L187.6 89.8l-8.9 13.3c-23.2 34.8-58.4 53.2-71.7 57.7l-15.2 5.1 10.1 30.4 15.2-5.1c18.6-6.2 60.3-28.3 88.3-70.3zm22.1 114.8l-7.8-31-15.5 3.9-64 16-15.5 3.9 7.8 31 15.5-3.9 64-16 15.5-3.9zM336 272c17.7 0 32-28.7 32-64s-14.3-64-32-64s-32 28.7-32 64s14.3 64 32 64z" />
-    </Icon>
-);
+const FaceWoozy = createIcon("face-woozy", true, "data:font/woff2;base64,d09GMgABAAAAAANoAAoAAAAAB4QAAAMeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSSEJAsIAAE2AiQDCgQgBYMtB1AbRgZRVC8SZB+HccNX4iJiKMuNEy2Iorkx+VBix0PfGvpndu8CgD5RqMI6Dqg1hoWqryNhSZgKXRYKHarKvrvPv6pqycZH0jMr9ayB8yI6kBnMl0vRjJwab6n0/XsBWy5S/875+PDhvfEJDPDc+Oxq4xvQUGdgG9UrOND5i+PaFWp8Lo805PN8i8fl/wDGT3OWSH0FQIwCAEeXFUVw90t8yXjbXSTeOgEC4hhgFaKgYBGCXZYCi6ysAlUVfMmu40t03SoIIFrBexbQoh9/8R9QQSqaWqfHPPUAg8HPsRmqFwNN/60/TnggEjztfZwQVJHjrqBzQVWaqhHMxJEtB1tbtUtH3Ifz2l62XdkNa+b2UPyUhnGv6JXjupI3GQ9qPqffL37tsLbwZerdyqog/yCKFM/E3IijuGN1I09BjgFIMBFP80u+DM96P41nyGp2cUSU3+V3KojbOPZtJ3HhtP9pUvp2MuhKW7Sd4gqCHXdQO/Ejx70xWTPP53njPr5D3QNrZndP2DVuw1g8v9l41u3sf8PL7pfwMnt9dOsWWC+gqPjoNzjgG3zdsqaZjg8PD5t1vsKwcuOg19t5gPkFfX7+LdfgRbgLWX2oF+5lZNy7oNr3bHgzjF13qJFVT+Gk947vzvyCHQPuN6bhnG7X9ahcpg6/4O5fPHcFnuItaQBSHisqCvDw9DBuhuySh1fzmi1fpUlIf39KnTkfSGlpNn+V26xsGFe+wIf73p7YJskZbntes7SwoXrM1+RyS4xODWyyZIoIEqCXAkG++/GwxXX3X69jgm9v/v4Bf0fd3ZQv0CtBUNa7dY0JkgAAZDxkTG4DgeK1BvzUQU8ECP0IkFr9AhQL3CCo+q1B0FgWBUGr3ylLUfuESU0tlwbd4YodK7lq0gWusetJsTUZRe1rKlf788ye3Qey1glTqBTxYrGp1pWz4i4niN1+/2k+FAAvQLcRwyZ16dRXyj1iXFFlypDsNWHWdwWTUJIQT5zuPLZX49i4Ca7Mm+dXSSDuT/ubXp8cAEMWIskNO4pCZJRxm1UdMjMysmwuxBQNk6FpXwA=");
 
 export default FaceWoozy;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `umbrella` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/umbrella?s=sharp-regular umbrella}
  * @preview ![umbrella](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/umbrella.svg)
  */
-const Umbrella: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M312 0l0 24 0 24.9C436.7 58.6 539.7 143.3 568.2 256c.4 1.4 .7 2.8 1 4.2c.8 3.3 1.5 6.7 2.2 10.1c.5 2.7 1 5.5 1.5 8.3c.4 2.4 .7 4.9 1.1 7.4l2.3 18.1L558 304l-6.5 0-7.2 0-4.8-5.3c-2.3-2.6-4.8-5.1-7.5-7.3c-2.2-1.9-4.4-3.6-6.7-5.2C512.5 277.2 496.9 272 480 272c-30.1 0-56.3 16.6-70 41.2c-6.4 11.5-10 24.7-10 38.8l-16 0-16 0c0-14.1-3.6-27.3-10-38.8c-13.7-24.6-39.9-41.2-70-41.2s-56.3 16.6-70 41.2c-6.4 11.5-10 24.7-10 38.8l-16 0-16 0c0-14.1-3.6-27.3-10-38.8C152.3 288.6 126.1 272 96 272c-16.9 0-32.5 5.2-45.4 14.1c-2.3 1.6-4.6 3.4-6.7 5.2c-2.6 2.3-5.1 4.7-7.5 7.3L31.6 304l-7.2 0L18 304-.2 304l2.3-18.1c.3-2.5 .7-4.9 1.1-7.4c.4-2.8 .9-5.5 1.5-8.3c.7-3.4 1.4-6.7 2.2-10.1c.3-1.4 .7-2.8 1-4.2C36.3 143.3 139.3 58.6 264 48.9L264 24l0-24 48 0zm72 267.3c23.5-26.6 57.8-43.3 96-43.3c9.1 0 18 1 26.5 2.8C469 150.3 386.2 96 288 96s-181 54.3-218.5 130.8C78 224.9 86.9 224 96 224c38.2 0 72.5 16.8 96 43.3c23.5-26.6 57.8-43.3 96-43.3s72.5 16.8 96 43.3zM288 304c8.7 0 16.9 2.3 24 6.4l0 128.1c0 40.6-32.9 73.4-73.4 73.4c-27.8 0-53.2-15.7-65.7-40.6l-2.3-4.7-10.7-21.5 42.9-21.5 10.7 21.5 2.3 4.7c4.3 8.6 13.1 14.1 22.8 14.1c14.1 0 25.4-11.4 25.4-25.4l0-128.1c7.1-4.1 15.3-6.4 24-6.4z" />
-    </Icon>
-);
+const Umbrella = createIcon("umbrella", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABlQAAAKPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCawsGAAE2AiQDCAQgBYMtBy8bagXIjlMsGI7i4f/t+n6fW7ff6ql+Rr0B9ClkM44+EUqOiFSIm2hy9yCZJBBZINqaOvU856F5/hyCoIyNa7bFsS3Yuc4nYIFjtbEtYKWA1SpSIa+5NU4wo1gOesSIQ2qI+Hju0b8r5Pg2rlMj3Z4+xrVHquJXQ7aS1AoA0QmAnY44ZD+v/xQ/RXzUfIb4yD4IiJ1AJVAgflSAbRWCr5BVyLLgp2g25T+wIoBoockmkFHDzbgHkEFS5HxM31ij1pYP36LlGYL4/LC14Wab4ua+QrjZxshQyrI/bulH3b3l0/NvQzubhh9dabkrpt/Um5TejvxI3BqbRB5IjDjx5RFQQo9oHPXaHlf2Pbn/p4d/tu/Hi29tvLMd01U+tCYlbpt9//RnF/bHcGwTQ9EXN/fdNxJxa2Pqg50P/j758X5s1Q1q3ZDj67uuyj/Tf1gkciZSFClJXbpruWU9uXTB8M97fV9nZ9/1p/9sueEFSyeds5arD3ZJmVzkHCH6D5v1zPH1IYMWT7nnHe1vfrN5y972tmXzh0+237FnQ59vP2F62z2btO+y/Kffvcc97na3Xuf+dVL/Jve0AYHgn6H+M07o2Pb/eiOBX17880/Xy83X047pQdQlEBTzm/Mdm3aEhRxAKcXlpjofFEiuVtC0trpFgFAiQNKiFKAwolOArDRPgJpxKwRoUTpEIfIUoddxN0haXQQKK60DWa+nQM223iu26E0RnXxs8T+HKbsztNu+asnCxdXa6rXJhIBj9+Vtqm519uVlaA4OOt0Fznep05zqLJcScrH9Kpc5z+4evJsvqiyx0GKVtarhzq1yOBUvdomznqXxVbZRzQ9nu9yfPAdGopRLxSaJSPXLzjv54i8QAAAA");
 
 export default Umbrella;

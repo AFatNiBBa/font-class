@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-music` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-music?s=duotone message-music}
  * @preview ![message-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/message-music.svg)
  */
-const MessageMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L448 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-138.7 0L185.6 508.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3l0-80-96 0c-35.3 0-64-28.7-64-64L0 64zM128 288c0 17.7 21.5 32 48 32s48-14.3 48-32l0-100.9 96-36 0 74.7c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-128 0-32c0-5.2-2.6-10.2-6.9-13.2s-9.8-3.7-14.7-1.8l-128 48c-6.2 2.3-10.4 8.3-10.4 15l0 32 0 81.8c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32z" />
-        <path d="M345.1 82.8c4.3 3 6.9 7.9 6.9 13.2l0 32 0 128c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-74.7-96 36L224 288c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-81.8 0-32c0-6.7 4.1-12.6 10.4-15l128-48c4.9-1.8 10.4-1.2 14.7 1.8z" />
-    </Icon>
-);
+const MessageMusic = createIcon("message-music", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABoAAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCZgsIAAE2AiQDCgQgBYMtB1YbjgXIHgl27MhWxHCrY4qH/18Lve/P7J7NbMILCU8YsYgKkGWrquqCqiqObE9l9eb/u2+G+MxPf+/O//nfgM+/4xzV+Zw21jxPIO7C7WsJJZRhGVjqpqpQD0H8yhhFazfF4xnxOLeHPP7JXlUhfZru4O3yP4Dxr35eJemSAYieAFi6e/tGf9+P+ynudP4k7tiAgFgGSoEMGQYKsEAmMFCuRC4X3E8d3I+OkgCiqnxRGaiigg/wNSAHSUh5Pn3EzHqlW76rXilOf0iIDxofFK+1Pmp93P64/nozYkd7UcRL7d3xcTP7fHzE76O7xY9jf+2X4pMxv4woHu/6oPVRRBTx07jf+mc7P3TyhzNI++M2TRnio+K1xgcNRSRKxEutjxo7wsK4YthvPX/7z51Td+y5cKJWelG3G3cbjbs3uvFctavrHR7uZOecbUr191+Y7NoJLxa96PXNi77p1asoCZqWvu7pAx595ZViiyO9hBfudbvBvHpyW2C9qzViWXkxuGsnTlxL8VeK0rbR60Ag2Pza7Q73WPB/rZ7Aw7+ef0g6Jek31CQQZBM6ExxIIBEAgBSPG5Z4EYHMXkl9164+EiAUCJBUFQJkBugpQK4wXoCKwWYKUFXYLhN5F6Hh4A2Srq6CzCzPgVzDH6BigeuRqkZk4OShxf8apqyS0MpZ5dRJU8p55bDiEvDG5sn55WvbmMdTx1i/0ymXXfKok04461FBXrMx/piLVlnwSh9UmmqSKUrzlMv1W2VXjFzziLO6tD7NfOV++xiP2/3H+sUkwLTPWpQRKbImZrWJyDUmnvMebUU60wAAAA==");
 
 export default MessageMusic;

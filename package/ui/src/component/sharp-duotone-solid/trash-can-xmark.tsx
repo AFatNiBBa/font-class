@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-xmark` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-xmark?s=sharp-duotone-solid trash-can-xmark}
  * @preview ![trash-can-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/trash-can-xmark.svg)
  */
-const TrashCanXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 96l0 416 384 0 0-416L32 96zm94.1 128L160 190.1l17 17 47 47 47-47 17-17L321.9 224l-17 17-47 47 47 47 17 17L288 385.9l-17-17-47-47-47 47-17 17L126.1 352l17-17 47-47-47-47-17-17z" />
-        <path d="M144 0L304 0l16 32 128 0 0 64L0 96 0 32l128 0L144 0zM321.9 224l-17 17-47 47 47 47 17 17L288 385.9l-17-17-47-47-47 47-17 17L126.1 352l17-17 47-47-47-47-17-17L160 190.1l17 17 47 47 47-47 17-17L321.9 224z" />
-    </Icon>
-);
+const TrashCanXmark = createIcon("trash-can-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABhwAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCJAsIAAE2AiQDCgQgBYMtB1obUAXIhofn1/qd+2b+fnV0IIlKgmTqnWaNZs2Sb0NDt+iJPGOX6g9bC/BA5OeIP8jyx7G744+NNz6teW3qrUiFygWviXd3NguHkk+SNGLpp+04PSCPh9ktNaT76Qtux/8BjF/63SKpzwBEGwAWrl25QvVbfEvxpXxBfLEcAbEIFAIZMgwSYI5MYJBcgVwu+JbKkm9RlgUBREXEMm7FvOAULgFykCQpz9tH1o9srGnO19iZho2NDY390RiiKQKvDVw9YvSIOTE3RoZjR8U8eAQ7OubDo9iRMRcafXtjylJzZNG0ev6c+cS0GBHM68OftD35M+zLni9uv3uQvk/pmgWqFrimfPoVf/1FewmHbt3MXfPAtc1X2037neeBQPB+Vnzb2jrnf11jAj9e/vuZf1lZjWp6gjoJBNmYcoxNUYWoCgBAijOGR/WO95olwXdtckeA0IAASUWDAJmB2gTINRgtQI0hpgpQ0WClTOT1QpfNFSRNjoPMNJdBrstzUGOO93FFV2Syp0iO8vPLXNaiSw8VE8dNKGYVw0JRxUkKu7OL5XDEGT8YCbP2OOqIU3bbZb9TjXjCiuy0w5bN6KU+qDDROBMUZinY9b25BuMTTtpP6/wpsxXnoxHOzJePhOMkwKRXuycjUmS9p05sP7lv7M7tR8ae01R3rB4v7Kd0pQU=");
 
 export default TrashCanXmark;

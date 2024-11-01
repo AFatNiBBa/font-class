@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blanket-fire` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blanket-fire?s=regular blanket-fire}
  * @preview ![blanket-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/blanket-fire.svg)
  */
-const BlanketFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 112c0-35.3 28.7-64 64-64l224 0c35.3 0 64 28.7 64 64l0 39.4c4.1-3.9 8.2-7.7 12.5-11.5c10-8.9 23-12.8 35.5-11.7l0-16.2C448 50.1 397.9 0 336 0L112 0C50.1 0 0 50.1 0 112L0 336c0 61.9 50.1 112 112 112l202.4 0c-8.7-14.9-15.4-31-19.9-48L112 400c-35.3 0-64-28.7-64-64s28.7-64 64-64l197 0c4.9-10 10.3-19.8 16.2-29.3c3.8-6.2 7.9-12.5 12.3-18.7L112 224c-23.8 0-45.9 7.4-64 20.1L48 112zM288 350.1c0-12.4 2-25.2 5.6-38.1L120 312c-13.3 0-24 10.7-24 24s10.7 24 24 24l168.3 0c-.2-3.3-.3-6.6-.3-9.9zM505.7 208.3l-19-19.9c-2-2.1-4-4.4-6-6.7c0 0 0 0 0 0c-9-10.2-18.6-21.3-32.7-21.6c-7.3-.2-14.6 2.3-20.3 7.5c-23.4 21.1-50 48.9-70.9 80.2C336 278.8 320 314.8 320 352.2C320 440.7 390.4 512 480 512c88.7 0 160-71.2 160-159.8c0-30-11-60.9-26.2-88.1c-15.2-27.4-35.3-52.3-55-70.6c-5.6-5.2-12.8-7.8-19.9-7.8c-7.6 0-15.5 2.8-20.9 8.9l-12.3 13.8zM544 400.2c0 35.3-28.7 64-64 64s-64-28.7-64-64c0-36.5 37-73 54.8-88.4c5.4-4.7 13.1-4.7 18.5 0C507 327.1 544 363.6 544 400.2z" />
-    </Icon>
-);
+const BlanketFire = createIcon("blanket-fire", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABlgAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCWwsGAAE2AiQDCAQgBYMtBzMbXgXIHoVxw11CYcNiiOPHokU8fKzR3l8786S4J9FukkhWidfA00lCPIpYh+3UHapZvPX/8w+7L/H8GBOInehO7gnU7HLSZtVvB9QCv5s69TwUCgXwOQRBG9MWLZBsn6P7vAIV69XGBuyVx8JaRbHWzn5hopNBkr5cnwybz7DYQhb/mUBOckGkBOP5Q+MLTe0k8hQA0QkANuyJCcNlFVXESy3xUQgIiA2AKQgpUgwgsJqowAAxU0AmE1RR1+E/cAoEEAWwZQIyFBjHRWiKcRnO69s2u0/IZcXiW3KWcmk+xYqZEHMWS5qgc+oDJhTjlsuuLHbNF3VAVyyWXIQY1mIxb7msNWJlIwyCOluKdh3rZzGrMWQiRAvtmTfXsl+twC20FLto2qty6H3KX9e8jfu07n3C1UXrhGParxJ3fg7FYqcOXUB9QLXPYknTcFlh+ffU8mDJbktzF3Rd/zLZpchmiz3wa0kn5Cf/Wfn3ZEeVrA/u9j2nXHM9bvJO+ei+w9/sH7X/+Naz/Z5tfX1RN+T55+h03LsCdQEithyFMxkdQ3No05tyc2yKsoxNgyMjP2daWrtPZ16wLuju11ZSZP2zzX5On/4ye7Y2AIHg7PiNhv0dq/81togAPr/68V87uS45KnILNEpAkC6oF0hNjgIBG4CVRD1D8kWBxBkZXGurswKEZgRIFJoFSPVTQCDTbD4CuSEuCBSa7SAqMmmEXmkDJFodAalVGkCm1w7IrfZgFnoj9UrKp6hPYbz/DPnN4ktt7bknX6Y67WgEnfTiZnFOfWxZyELkq1CuVp5cRWontFqYU6eMP0P8/BDnwJY9zhPfLtbz4+WpVqNIhfI0jRd+3jBXz/tbiCICuMsEEgmRyDxRNa/W5o4DAAA=");
 
 export default BlanketFire;

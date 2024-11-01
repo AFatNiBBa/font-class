@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-up-down-left-right` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-up-down-left-right?s=light arrows-up-down-left-right}
  * @preview ![arrows-up-down-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrows-up-down-left-right.svg)
  */
-const ArrowsUpDownLeftRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M267.3 4.7c-6.2-6.2-16.4-6.2-22.6 0l-72 72c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L240 54.6 240 240 54.6 240l44.7-44.7c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-72 72c-6.2 6.2-6.2 16.4 0 22.6l72 72c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L54.6 272 240 272l0 185.4-44.7-44.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l72 72c6.2 6.2 16.4 6.2 22.6 0l72-72c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L272 457.4 272 272l185.4 0-44.7 44.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l72-72c6.2-6.2 6.2-16.4 0-22.6l-72-72c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L457.4 240 272 240l0-185.4 44.7 44.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-72-72z" />
-    </Icon>
-);
+const ArrowsUpDownLeftRight = createIcon("arrows-up-down-left-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABdgAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBewsGAAE2AiQDCAQgBYMtB0AbCwXIrgZs9woFRSh0sIwtFoa9OO3AfLV/8Tzf2ut9MxPan5TJtgoVsgJGI+tQyAoH5Buhqv6prY5e/+Fy/93gMfXjzd2ismgNwc6yAEug0wQyqplZfAt26hHv8qp9r939+b+c3nh+dIDf6PBMxtiNhW3N9uAEAs7yNYDSLLBEscF5Ew6xPQ6h/AAt3xCZ8lGAt9GX5r+lnhStAsgcBGD3mc2afg8xTKZ7ZNpRBLIHrAFUVKwAsI0oWEGyBmmaMEzfs/9ARgEyKnl/AQ0VV/EQ0ECR1s4O5Kl2eiB3d94t2OZlvZ0FpMvOvLdn1i6c6uvmGERKCnFMPezFU2RN3naCw+oexzN0WN6OaXzXulEd/2vdpvv60UH69In74ovvPavpgoqpUF2o/ulp2NezL4Mg/H3z81eU6cz4oIB/X8/UV/Z7ZeUzMa6AUDf0uRbaga6VryzktXWwAVCczcnxqZPeCYgOAcWoTkC1nAqg6awHMGKVCsCozglV2oRY4NaDYtIzUG31AM0CXzBim19x1IJUW8bZEe4nL3k1RpfbOItT7nmzqeUtDqOXJ3zadgc+5MG9dNsTj710y033vBzhzx2vvPLIgT1svx9aIxNLsR7f7jyXT+P4uRecXufuQzaZ4PfTrmF/sge9IiHcaEdRSFl67bknKET3p5HpYx0h51cBAAAA");
 
 export default ArrowsUpDownLeftRight;

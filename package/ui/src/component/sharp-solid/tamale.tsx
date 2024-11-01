@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tamale` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tamale?s=sharp-solid tamale}
  * @preview ![tamale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tamale.svg)
  */
-const Tamale: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M0 48S48 0 160 0S320 48 320 48L295.4 208l-59.2 0L248 72.7l.7-8-15.9-1.4-.7 8L220.1 208 168 208l0-144 0-8-16 0 0 8 0 144-52.1 0L88 71.3l-.7-8L71.3 64.7l.7 8L83.8 208l-59.2 0L0 48zM256 304l39.4 0L320 464s-48 48-160 48S0 464 0 464L24.6 304 64 304 44.8 329.6l34.5 25.9L72 439.3l-.7 8 15.9 1.4 .7-8 6.4-73.9 27.2 20.4 28.8-38.4 1.6-2.1L152 448l0 8 16 0 0-8 0-101.3 1.6 2.1 28.8 38.4 27.2-20.4 6.4 73.9 .7 8 15.9-1.4-.7-8-7.3-83.8 34.5-25.9L256 304zM24 240l136 0 136 0 16 0 0 32-16 0-104 0 28.8 38.4 9.6 12.8-25.6 19.2-9.6-12.8L160 282.7l-35.2 46.9-9.6 12.8L89.6 323.2l9.6-12.8L128 272 24 272 8 272l0-32 16 0z" />
-    </Icon>
-);
+const Tamale = createIcon("tamale", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABiwAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCDBgsGAAE2AiQDCAQgBYMtBy0bgwXIhuB5Xem8L+36LJlBZsbODiDW1wYA26Rmrnfimvz3Vlt7G01oYl9By9BIi8jzCQw4yhs0baOBTRRnbo0huMDPvRoxJOeW2uMnPX4dII8d2Y1qpMfS57hHvjR+1d2NJC0zANEOAPO2bFjl7a/iq4jPGi8Qn1mBgJgHKoEMGXoJMFMm0EuuQi4XfBWNRv4PrAgg6gAlt89Rw7N4AZCDJMvziQv6lbXW+eayVmQPz4h4bcsX017ptDGK2BJdo0t0CiWAJbkgbja8nWOThjeVRXlkPTT15Y1fTn+1a1xTxtCYRnYzu8aWGBZjxCOYBCKdY1SMGBM7L96zOWbE8M1l0VoUxagGMNQzO2aOAsP5MeWVEWX/5nbNv/f7/PDn7k0HObg+bUgbD6Zuz5ihvFkLf2uhvNVE92rSTpN7TVTeaoZvNkPQ3WgMAXaGpYMbR33r00EuGWKY7urrY2tqyzznBe0dWsIfUs8LnmtSLhH7kO6G/Tjn1lurSrujH7jT9Z4w2mhPuN6dPnC0XaUdEAje3/pR9z1tZ/7fVCbwzat//i5cA1e9HfNSM5okEGQjGyPtjMsNmMU8wU0yw/rHXCbJmDwqa4B3beVhAUKBAEldIUCmp3YC5AojBKjpY5IAdYUNMpG3FDrZpcaklXPGzGRXjLlOnjPWzPRRtK5TZHuV2mnUn2L84hpcNK8aN3psNb3qVl309iPK9IzqsWXoZe4aRnsddsZpFx1y0DEXK/V5qxKXnLLYky7yQ5VxRhurMl013fjOb06e8y4wYTPzs8xQvR8Y6rI/eBjZE5gcb0GSiFS/uO8jBQ==");
 
 export default Tamale;

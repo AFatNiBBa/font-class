@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `timeline` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/timeline?s=light timeline}
  * @preview ![timeline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/timeline.svg)
  */
-const Timeline: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 48a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm16 94c27.6-7.1 48-32.2 48-62c0-35.3-28.7-64-64-64s-64 28.7-64 64c0 29.8 20.4 54.9 48 62l0 114L16 256c-8.8 0-16 7.2-16 16s7.2 16 16 16l304 0 0 82c-27.6 7.1-48 32.2-48 62c0 35.3 28.7 64 64 64s64-28.7 64-64c0-29.8-20.4-54.9-48-62l0-82 272 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-112 0 0-114c27.6-7.1 48-32.2 48-62c0-35.3-28.7-64-64-64s-64 28.7-64 64c0 29.8 20.4 54.9 48 62l0 114-320 0 0-114zM336 464a32 32 0 1 1 0-64 32 32 0 1 1 0 64zM496 48a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Timeline = createIcon("timeline", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABkwAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCWwsGAAE2AiQDCAQgBYMtBy8bWgXIjtMlNOabMB6+X/vy3Nf9f80OYy8SOeIht0EiFQcsJLpU5KpQfb1PXPP8z7+9+Qne3jAKSx+kQL6XrRMokLfdvGlCs+GsjQeue5uYjx1RCB0RIUIS83jy+NpBHn/HFCXS4+l73JtuNP7U4SaSPAMQ9QBYuX/3Vl/+Er9EfP//x8T3NiMgVoFCIEOGbgGWyAS65QrkcsEv8f//+B9YEECU0e+bQI4y7sdjgBwkeZ437WhqqirV5PuqSpWH72yJeNh1zQ9V3tH6SFzf9mjV3lfbIp6MJya9Me6lCa+1X9fx8FhRGQ81P9xSE+Kl5sc8PvH1sa9OfrPr+s5HxkXUxKNtj7RWRsSrbTOJ6oiDd7RGrLXvbDlT8+JXRr1R/8ZfI78/8b177629jdtqa2/L5XVH1/7Ez22VDQ3PPedKKtt+/mltv0t+UYhfZtilCqK71Atf0r9OvxX63115YMazz8rLgUDwR8fHR9UtuVpRlcBvX7xazvf/z+m69AYqJBBkU/6f4ki6DpAbgJ9i2CjljgLJ7XJ0rdUeESBUIkBSVilApku9ALlKkwUo6TVXgLJKu2UiHyE0O9rYpNplNjPPFTbX7EO2ZImvvLLmyKxStin5U5ixjgNrFxUzp80oFhXdQlUMTQzji4thc8Kwb5sIW51w0QWDjjvmtEGG99saDjlvnQau9UCFmaaZobBIMV1bbt7nuH4DTrvoQpxnsWK/O8Gw3nsiOAnxzhJJEpEq7FR8tgAAAA==");
 
 export default Timeline;

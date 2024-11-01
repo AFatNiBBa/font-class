@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-to-arc` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-to-arc?s=sharp-regular arrow-up-to-arc}
  * @preview ![arrow-up-to-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-up-to-arc.svg)
  */
-const ArrowUpToArc: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48C141.1 48 48 141.1 48 256l0 24L0 280l0-24C0 114.6 114.6 0 256 0S512 114.6 512 256l-48 0c0-114.9-93.1-208-208-208zM134.4 279.7l104-112L256 148.7l17.6 18.9 104 112 16.3 17.6-35.2 32.7-16.3-17.6L280 245.1 280 488l0 24-48 0 0-24 0-242.9-62.4 67.2-16.3 17.6-35.2-32.7 16.3-17.6z" />
-    </Icon>
-);
+const ArrowUpToArc = createIcon("arrow-up-to-arc", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZQAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBVwsGAAE2AiQDCAQgBYMtBzYb3QTIjtRG+YaVxMP/2z3+PncmgCeA0QtF+7qsdNYHW7t+Vbs//9d8flV0gN/oUDr1QAp8Wc8nMIE1J1jrbGAznYBtd7aEQ9YeSSxlraXfseNzgDzuxgUVSDfTO5zHD41fNXGOpEIGIGoDYPTCudM9+iq+inhbRrw1FQExGhQCGTI0F2CYTKC5XIFcLvgqyuX0H1gQQFREZOLl4cIpWA7IQZLyvFXbahVq5AviS6ou/WxWxEfzRNWI+HLs05kfLvx8+vvRj+dXjS/mfLJg3sJ5C7tG55gfTWJYdIkFIXSPjpgXnWJENGtTql36vfW7De+Uzy+MEqVY2FgvjZnYuMnF0xNNdPpik8Ym9hILS6WFcfjHjTsRr0tsS/2lEIaP8S+L/e9yrVD4CwgE/9y6Y2WtYf9XrpbAN3f+/FP/FZUfJamEyhIIsm7lbpYlkAgAQIoD2iQIJGMk9K7VXRMgVEWApKKqAmSaqS1ArqquAlTQUn8BKqpqrkzkVYT6lk+QVLcbZAY4DnL13QYVDPMyr6h+ZD6leoT6pcuawKHxi4rePXoVQ4pjzdDcRC6zQwt11OlA7ukMO22w0w77rLfOZvsYv8f0ar/tJkjceF9U6K2HXgpDFObm++YF1ttjr8122lHnGaq4n3VyQB7eGdKEBPtw0hPsT7VW79mz82D3/bu679vZffWetQ==");
 
 export default ArrowUpToArc;

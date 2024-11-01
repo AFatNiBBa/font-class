@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-slash?s=light file-slash}
  * @preview ![file-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-slash.svg)
  */
-const FileSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M512 163.9c0-12.7-5.1-24.9-14.1-33.9L382.1 14.1c-9-9-21.2-14.1-33.9-14.1L192 0c-23 0-43.2 12.2-54.5 30.4L163 50.5C168.1 39.6 179.2 32 192 32l128 0 0 112c0 26.5 21.5 48 48 48l112 0 0 108.8L512 326l0-162.2zM160 448l0-236.8L128 186l0 262c0 35.3 28.7 64 64 64l256 0c23 0 43.2-12.2 54.5-30.4L477 461.5c-5.1 10.9-16.2 18.5-29 18.5l-256 0c-17.7 0-32-14.3-32-32zM479.5 160L368 160c-8.8 0-16-7.2-16-16l0-111.5c2.8 .7 5.4 2.1 7.4 4.2L475.3 152.6c2.1 2.1 3.5 4.6 4.2 7.4zM25.9 3.4C19-2 8.9-.8 3.4 6.1S-.8 23.1 6.1 28.6l608 480c6.9 5.5 17 4.3 22.5-2.6s4.3-17-2.6-22.5L25.9 3.4z" />
-    </Icon>
-);
+const FileSlash = createIcon("file-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABcwAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBcQsGAAE2AiQDCAQgBYMtBzEb8gTIHqnN/gjhRVDZyrJ65jakuRPyiBEPPIkfGF0gC9l/dtEC3nbA2ktVu/vzfzNtPI8C/EahjYVLAxkTozm5l0Bivawby+7s6CywsxPF022yPCLD8I2QIIno+PL4OkMe/8QwNaT70ie4pe0qftTFFZI8AxCtATB749rl3vguvov4pPoS8YmlCIg5oBTIsNJdgGkywZ4hVyKXC76LalX+A0sCiAp9cgI5KtiC/YAcJHme9+zasq62pkW+gY8uDl7suCHuLop4cdDgeGBgbYj7OtzVv7xscMS+EEMixX2Dn+vfIl4ZOiTu7VcX13e8Ow4WtcXdHSPu6rCe37fn7vZ3djgdd3W6p+OZPs+3fv7n3p8c+ES1W/uv6+t93f5Bo7tdcXHUBadkn3416pTj/vT4zm4/0/Y/VRRt2jzK6KF3uDCKltdey8xep/ST37U8aVSf+np92r374Mv3/M5vvfJ8z+38DggEzzzmlztbTfutWW0CP7z+62/0YHVVuio9j2YSCLJh1WG2pQsOdERIWoomffBNAskaOey1zt0ChAIBkopCgEw3rQXIFYYKUKOn8QJUFNbKRN5caG/7AEmd0yAzwVmQa+8FUGOa97WK9pEFGB0e9P8uYYFF58+Vo0eMKqeUy0BnYoasw6nltjioKRcGY9UBJ53QYL99Dmsw+BnLzUbHLfCw+X6oNNoIo5SmKI/j5+UN9juj3mEnnZApU5X31UGa/PrBUBIlHMOXJCIVj9kzvP7Y7vpDAAA=");
 
 export default FileSlash;

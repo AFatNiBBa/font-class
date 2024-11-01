@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-pull-request` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-pull-request?s=sharp-solid code-pull-request}
  * @preview ![code-pull-request](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/code-pull-request.svg)
  */
-const CodePullRequest: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M56 56l48 0 0 48-48 0 0-48zM0 0L0 56l0 48 0 56 48 0 0 192L0 352l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-48 0 0-192 48 0 0-56 0-48 0-56L104 0 56 0 0 0zM56 408l48 0 0 48-48 0 0-48zm400 0l0 48-48 0 0-48 48 0zM400 192l0 160-48 0 0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-48 0 0-160c0-70.7-57.3-128-128-128l-16 0 0-64L288 0 192 96l96 96 32 0 0-64 16 0c35.3 0 64 28.7 64 64z" />
-    </Icon>
-);
+const CodePullRequest = createIcon("code-pull-request", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABdQAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCMwsGAAE2AiQDCAQgBYMtBzgbOwXIHoex22RJF81QPq5EPPz/2v/2uTPvywwuA0ns4WbNIiRrJpWGN12d+heVRSS/ZCa0qtr3icvxr01vT7/JH+13e4EskDHGeRZIomULvPMuCyzTBCy/nXyXoki97UiSf4bNZVg8II8P2WqkRwnu8ofGX73dJGnNAEQnAMzZtG6Fr23RFvGrgfhlGQJiDqgEMmToJ8B0mUA/uQq5XNAWjYb+D6wIIJrgBRPI0YzruAnIQVLL89ahra31stY+31jWim1lUYoiYq0gRBmiCCFEWQbwIugyssXmaaC9VT26UXDi05mfFxbVWB8bwl5Txouhb3oPftvp7b9BDjLpTh06dfVLk9vqJqv7ioXJJh8eLLOjH4xH74X8pN+PMWLhwmO18fNWdzJbZdcu/8zKbJ087ty5AALBz03t3dVx+v+WMoE/7//jn5HG1yS9RYsEgmxEY4TtCSQCAJDiosEJAsl5NXjXdu4LEAoESJoUAmT66iRArjBcgJoBJgjQpLBOJvJWoZsdSUnaOaNkJrqh5Lp5p9RM963apFtkEmjLj/0BLLAwhxacqsaMqldTq2ZfdITKdPvTqunEkItmbiidddApJ513wH5HnM/4s1Y0LjhhYY9b4IsqY4xSV5mq2h5dBjaq6lnnHKlH7R8yTXW+MsTF/uqhlE5gOFZTkojU+VoGRz6uyEhJBQ==");
 
 export default CodePullRequest;

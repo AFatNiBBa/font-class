@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `futbol` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/futbol?s=sharp-thin futbol}
  * @preview ![futbol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/futbol.svg)
  */
-const Futbol: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M307.6 490.4l31.8-106.1-31.6-43.5-2.5-3.4-98.5 0-2.5 3.4-31.6 43.5 31.8 106.1c16.6 3.6 33.9 5.6 51.6 5.6s35-1.9 51.6-5.6zm18.1-4.7c52.1-15.8 96.7-48.8 127.2-92.5L354 391l-28.4 94.8zM463 377.5c17.2-29.3 28.4-62.6 31.9-98.1l-91.1-63L352.6 233l-4 1.3L318.2 328l2.5 3.4 31.6 43.5L463 377.5zM496 260.7c0-1.6 0-3.1 0-4.7c0-54.4-18.1-104.6-48.6-144.8l-32.7 93.3L496 260.7zm-60.5-164C412.6 70.9 384.2 50 352.1 36L264 103.2l0 53.8 0 4.2 79.7 57.9 4-1.3 51.2-16.6L435.5 96.7zM334.7 29.2C310 20.6 283.6 16 256 16s-54 4.6-78.7 13.2l78.7 60 78.7-60zM159.9 36C127.8 50 99.4 70.9 76.5 96.7l36.7 104.5 51.2 16.6 4 1.3L248 161.2l0-4.2 0-53.8L159.9 36zM64.6 111.2C34.1 151.4 16 201.6 16 256c0 1.6 0 3.1 0 4.7l81.3-56.2L64.6 111.2zM17.1 279.4c3.4 35.5 14.6 68.8 31.8 98.1l110.7-2.6 31.6-43.5 2.5-3.4-30.4-93.7-4-1.3-51.2-16.6-91.1 63zm42 113.9c30.5 43.6 75.1 76.7 127.2 92.5L157.9 391l-98.8 2.3zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm208.5 65.4l95.1 0L332.9 231 256 175.1 179.1 231l29.4 90.4z" />
-    </Icon>
-);
+const Futbol = createIcon("futbol", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABowAAALIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDSAsGAAE2AiQDCAQgBYMtBy0bxQXIBnp6nbnvS/bcyT5khZAFAeKOoUPk9iYlVykzvjj1POehAL5R0MZa5xMktGbHeQUq1qsHPCIFqxaUqlqWWjf9UDek3Ja8F70ke/ywtgNbtxhPBMwO8xrY0l5UPylgJRgsCwAApQMAAB3CQX24X65y6VXiCugVvQABqAMALgIswAKKEQCtsRBQjI0L2NgIypVI5N9AFwQAisJvygBgA6nAaeA7AGADYIjbdnY0PZ6elO6kR4tisUiKHcQizpjQC+sqV46yVVu+jsQ2VKv2LQzkhecqBequbHnKUR354TJJy/S1oyc/uNvTE0K+8tRLYXDVWd/YV+g9b+2rh3IUSpIC7763lKWECrwDdULVU54C5aqnPP+LH8gLvnWSHvV7F9vQ502HB/7n9vd7v3bW933b8WHgx5xYqECe/Ion00/+rvB64msa1SidkpIfVGIstB/o38yqoqJVWf0K6nYcK4pGrp222x/aFpf6lI6gIj+Zadz5MiAx8H/ZCPo3a3WoaiTsSFNs+rWgPi6VJ43v1Ltmzd59W9G31dloJLfSJFzq068FNk0JO47s+Z+BklH/ZpSNqHfM3z3T8JOKlI6gPi5D29aYU69j34KikYxVy7V0SYaCSw86dXpwqSCZLnRJhve+/SimxUPo3QyHlAwBAAGCB3dG1xiV1vpfUswA8P3m35/0AxP3DeYkkIQBQGDVTtRmuAHAgACAH8loIRUNgADDYeIwjrP1tBAOKBiiOGBRRDrYONSCCKU02RHFYRAWspMR2YxAwRBnDlg0ZRHYZHMJIrTmWRolW1YwU6FIfSXju1qkyz23Qd36bkt3WRl0fBLlupW7rVdfiEkNecpEZjGT+UxgPFOYb7C59CkWMIOuHtqFN+LSgLrUx6Ul7nH7/DhgAnOZxxRmMbPe0gr3flydhf56DbEMxG2IaJ6gZKITF8wfO2s6AAA=");
 
 export default Futbol;

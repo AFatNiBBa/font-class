@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-hair-mullet` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair-mullet?s=duotone user-hair-mullet}
  * @preview ![user-hair-mullet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-hair-mullet.svg)
  */
-const UserHairMullet: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M104 128c0 11.7 1.4 23.1 3.9 33.9c11.5 48.1 47.5 84.9 96.6 92.6c6.3 1 12.8 1.5 19.5 1.5c7.1 0 14-.6 20.6-1.7c48.5-8.1 84-44.7 95.4-92.4c2.6-10.8 3.9-22.2 3.9-33.9c0-5.4-.3-10.8-.9-16c-10.4 0-20.8 0-31.1 0c-2.7 0-5.3 0-8 0c-33.4 0-62.8-17-80-42.9C206.8 95 177.4 112 144 112c-2.7 0-5.3 0-8 0c-10.4 0-20.8 0-31.1 0c-.6 5.2-.9 10.6-.9 16z" />
-        <path d="M144 112s0 0 0 0c33.4 0 62.8-17 80-42.9C241.2 95 270.6 112 304 112c0 0 0 0 0 0l8 0 32 0c8.8 0 16-7.2 16-16l0-1.2c0-9.1-5.1-17.4-13.3-21.5l-9.2-4.6C316.1 27.9 273.3 0 224 0c-48.4 0-90.5 26.8-112.2 66.4l-11.7 6.7C92.6 77.4 88 85.3 88 93.9L88 96c0 8.8 7.2 16 16 16l32 0 8 0zm196.1 49.9c-11.4 47.7-46.9 84.3-95.4 92.4L283 287.2c4.2 3.6 9.7 5.3 15.2 4.7s10.5-3.5 13.8-7.9l14-18.6 17.1 8.5c8.8 4.4 19.4 1.8 25.2-6.2s4.9-18.9-2.1-25.8c-13.9-13.9-19.7-24.7-22.7-37.4c-2.6-11-3.3-23.9-3.4-42.5zM204.5 254.5c-49.1-7.7-85-44.5-96.6-92.6c-.2 18.6-.8 31.5-3.4 42.5c-3 12.7-8.8 23.6-22.7 37.4c-6.9 6.9-7.8 17.9-2.1 25.8s16.4 10.6 25.2 6.2l17.1-8.5L136 284c3.3 4.4 8.2 7.2 13.6 7.9s10.9-1 15.1-4.5l39.8-32.9zM161.3 320C72.2 320 0 392.2 0 481.3c0 17 13.8 30.7 30.7 30.7l386.6 0c17 0 30.7-13.8 30.7-30.7C448 392.2 375.8 320 286.7 320l-125.4 0z" />
-    </Icon>
-);
+const UserHairMullet = createIcon("user-hair-mullet", true, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABqQAAALnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCfgsIAAE2AiQDCgQgBYMtB1wbrAXILgbshvpBU4AB5WKbKyMYI3kG659x8fCPHl/3JRnAGZid4A50+1UOjHpZ7dmiHh7ox9z72xDXps0kqXWaaDVJcB1C2nUsjes0oqY20MH9HMSBQmwJBBbF08ntBreD2E2fxS2vRAiZ/59rPr/nR+fNR3AoFVZ0q89rjMjnExjwbJgl0jybKW5w3qDD6kNIX0EWBdE9UkguRj7guP8/gPGfCntIlEsBRFUBMHR14mhP/sN/Ej78buKDKQTEMJALpEjRUIABUoGGMjkymeCPSBL+CEnqCSBK82+fgtIog2soAWQgkYksa1d1a7esUKpSNsVPKj/zPERgeN25RnKe4xUqnC+LnUprR3FncflD7YVtasYZ4mxJhclP7RGFvQMbvWzZaxAt0fy1i+ufi0nPnRHFtTtqXmhzptbZOq2jns+C1P6TvvoRD5Z2NFChUhxemRy/Bs2U8ptduNq2qOeQZ3C7fUkTD3aWHiofwatOGZHJ8IPPaIxXLf6/3xoPs0DX1ztdoWy+uUGVV7uV++1bC59+5Dx7zk1U/iO/Lh/gQN84i/d2TH6T7t/HLmmeD26wb9aUA+y/atCpa/OSo5f/5ZvJs73F29sPj8U3H8NYzt1dpV0g3xz4+T3mE0uHCgfv2X9gyo7MCif7DhzYPbh62TJVM8s+YSShXrYtONcDgeDQ/e0Lc6v0v0jAX+93sb/fGxJJHGUlIEg7ILNCAhg7AJEktmi28FXLBFLrZcJ7reicAEJ5BEiUVl6AVANVBciU116AUhrrKUBp5U2UiqycUNPshklUtJ5J9bKVydR0nSllgNfh0mqGVKLK0kz+TcwY1UVGTsq7OnXJ++WzJZUi90RntH++2WrfwlvawpmWWGuNTRZbZLlNHWyD0bHNVhu1hI70Q7muOuki109+uPoQplgs8zZaPq0dH6e//PpAG1uWu7eFbiLk7GZKKiWSSOuqbrOjUc3ruH28atXiTR1lfef6o5oSBwAAAA==");
 
 export default UserHairMullet;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-arrow-right` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-arrow-right?s=sharp-duotone-solid magnifying-glass-arrow-right}
  * @preview ![magnifying-glass-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/magnifying-glass-arrow-right.svg)
  */
-const MagnifyingGlassArrowRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 208a208 208 0 1 0 416 0A208 208 0 1 0 0 208zm96-24c8 0 16 0 24 0c39.4 0 78.7 0 118.1 0c-10.3-10.3-20.7-20.7-31-31c-5.7-5.7-11.3-11.3-17-17c11.3-11.3 22.6-22.6 33.9-33.9c5.7 5.7 11.3 11.3 17 17c24 24 48 48 72 72c5.7 5.7 11.3 11.3 17 17c-5.7 5.7-11.3 11.3-17 17c-24 24-48 48-72 72c-5.7 5.7-11.3 11.3-17 17c-11.3-11.3-22.6-22.6-33.9-33.9c5.7-5.7 11.3-11.3 17-17c10.3-10.3 20.7-20.7 31-31c-39.4 0-78.7 0-118.1 0c-8 0-16 0-24 0l0-48z" />
-        <path d="M241 119l-17-17L190.1 136l17 17 31 31L120 184l-24 0 0 48 24 0 118.1 0-31 31-17 17L224 313.9l17-17 72-72 17-17-17-17-72-72zM441.4 486.6L464 509.3 509.3 464l-22.6-22.6L376 330.7C363.3 348 348 363.3 330.7 376L441.4 486.6z" />
-    </Icon>
-);
+const MagnifyingGlassArrowRight = createIcon("magnifying-glass-arrow-right", true, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABqwAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCYQsIAAE2AiQDCgQgBYMtB3QbpwXIjtRQLTxbPHy/1tu5r3umkukf5A4RKQRehPKEatkF1Qr1ayWRTE0N//9xP89/9EYDfD7HDo8ozz6fwM6rvdp4pjOwDc47pMF/SAzFe8jjp+y6Cumt9BQvJP8DGL/q5DpJ0wxAtATAzFXLlvqxMRpTPK1/RTy1BAExC5QCGTJ0FWCKTKCrXIlcLmhM9TRGfUkAUZXQGX3V+OhLeBeQgyRJed6jWZdZRaVZvrKo1NYNGjhoSgx0hGo1URQDIjg1Bscq3TEoVq5hWAZO794S7w1YEZeHRny88FFxb/GT4Z/GlWGfLHpcu7vg4ZCPrLpXRBgSh329PflGB/K1duT7AyWt6dW2OvneAIlu+WAQQ2Kwd2uPRa8PWn7we8+nO5/6awFa4Q8nO47Q8eQfoHv+fJqzHxzasWPHUysdPGDgywcO+mvi93zSUIwfXzR88v1EIMdJ2NShWqU0de/mTJkz54O3Vszp1evWaS14aietLAkoMTWtDFEfWMHyuYDzrffnzuE2d6+azAgvBYLYOfn7TS2m/N+kSODnr//8Rfs7qotn6QM0kUCQDakPsT5BFs8EACDFSb0SmxHIbJDojzR4XYBQQ4CkqjZCpouWkKsZDBXdjZUIrl4mE3lToa0NOiQNjkBmnAuQa+tLqJjiQaiqbWR7pmy/kl0Ypp4HInMHlSOHjSgnldScXr6zScLeyaWwecBJt2agvtNOhxx03A7b7XEcEBy1NHrCAfNY/Lm+qDTSMCOUJimVi6OmlYDQUcfsISvV+5msXN46wEl284H6cBJg1DrNyogUWZ9f66btPLPn4K6hZ2PG0C1Hjx46dYjrh+7srffjUG7g");
 
 export default MagnifyingGlassArrowRight;

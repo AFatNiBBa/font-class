@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands?s=sharp-regular hands}
  * @preview ![hands](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hands.svg)
  */
-const Hands: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M576 261.5l0-177.9-130.6 0L395.5 0 340.1 32 321.6 0l-97 56 15.5 25.7L316 117.4 290.1 73.6l13.9-8 37.7 64 2 .9c26.3 12.4 49.3 29.8 67.8 50.9l12.3-7.1L364.1 73.6l13.9-8 85.8 145.7 32.3-9.2 0-70.5 32 0 0 129.9c0 38.5-22.5 73.4-57.5 89.2l-1.1 .5-5.7 3.3c-1.1 21.3-5.5 41.7-12.7 60.7c7.7-3 15.2-6.6 22.5-10.9l17.9-10.4C542.9 370 576 318.4 576 261.5zM223.1 109.1L201.3 98.8l-10.2 21.7-34.1 72.4L150 208l-62 0-32 0-24 0 0 24 0 40-8 0L0 272l0 24 0 64 0 24 24 0 8 0 0 40 0 24 24 0 8 0 0 40 0 24 24 0 32 0 144 0c92.8 0 168-75.2 168-168l0-24 0-8c0-3.5-.3-6.9-.9-10.2c-6.3-61.4-44.3-115.7-101-142.3l-70.9-33.3-36.2-17zm2.1 89.4l-14.5-6.8 13.6-29 14.5 6.8 70.9 33.3c41.6 19.6 69.4 59.6 73.7 104.7l.1 1.4 .3 1.3c.1 .5 .2 1.1 .2 1.7l0 8 0 24c0 66.3-53.7 120-120 120l-144 0-8 0 0-16 72 0 24 0 0-48-24 0-72 0-24 0-8 0 0-16 104 0 24 0 0-48-24 0L72 336l-24 0 0-16 8 0 24 0 104 0 24 0 0-48-24 0L80 272l0-16 8 0 152.1 0 19.9 0 9.2-36.8-18.9-8.9-25.1-11.8z" />
-    </Icon>
-);
+const Hands = createIcon("hands", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABmwAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDOQsGAAE2AiQDCAQgBYMtBywbtQURVZqlyX4k2G6j7mAhRSJFtgYa3dgYPInn+df7/59rJ7kjL+cJedInXYEdrQ7sAFeq/gkAv9/mcSXwiD86dgQrNKsh7RGS8385vfH86AA/H8EBHelYOKfeFdDezxMIMM3WAEm3lWWRJmJZO7u+GJTeIIlPfJJh/AyLDdT5LJdTQ7mB38Vl8UXzm+nOpmgqABkPgI333HV7r3+dr5N3hs/IO7ZFIBuDeYIKFWYJWE8lmKU2D7Va+DrDofsPhAAZwe9dQI0GL+NdQA2Kqq43WHPDQTOm3mPQdMdEuuyRrbJMdsv07J4VMi0bZ0pe8Kdlj0zL7lkyySByurp+UZfJuV5dN23JvJQ+lkOWWLxEn90yOV0nQJHB4Df4aMPX9kySM+StKzy6zh5ZZ/epU6bOzJTsnnv8B2ZPiZxOIreXL2/WdclgkJA1N0uk2QseHP/gH/Pf7d614QtP0gWcZaVdnWaug9b0i20XuNFHDjTewR88a91DfWT3y/23hXnONPvfH28uNjX3oafuHeX4XQ5Z9qDr9+b9rzF/S0fbYK3eUtq+t5Fe3y4lL/z4Fvn/r2zRazX1Dlffc/cW86yUvT9E/K4fdaf+ue4yC4ik1SsTJsy7vB1vq34l/VHjHVWg87X2enm+9uHfUi4EgvDar68td+C49f5uBwV8++Jff8HRw9fLRuVBolVAqJYbLrdf2QgcMUBacrIFygcFxdMq/KyjXSsgOgQUIzoBlZnGC6h1lhXQmGN1ASM6u6qkHiUm27+BYrTjQGUNp4DaZE+BxnreSEZMTmXErAmyf8gk7iRqpyFPMmgsyypnl3QYN9iWvc+3+ZhL3b49bTM+Ar+q7Ls6DbNfRJ5k0DiuPUo1Jdc9zoXzSQzu+96n9/ahMSYtclhBlOaVAQA=");
 
 export default Hands;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-right-from-bracket` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-from-bracket?s=light arrow-right-from-bracket}
  * @preview ![arrow-right-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-right-from-bracket.svg)
  */
-const ArrowRightFromBracket: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M507.3 267.3c6.2-6.2 6.2-16.4 0-22.6l-128-128c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L457.4 240 176 240c-8.8 0-16 7.2-16 16s7.2 16 16 16l281.4 0L356.7 372.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l128-128zM176 64c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 32C35.8 32 0 67.8 0 112L0 400c0 44.2 35.8 80 80 80l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-26.5 0-48-21.5-48-48l0-288c0-26.5 21.5-48 48-48l96 0z" />
-    </Icon>
-);
+const ArrowRightFromBracket = createIcon("arrow-right-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABagAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBRQsGAAE2AiQDCAQgBYMtBz8b1ATIrgbsxhlDxEjyVKiltIpW6+yfjcGUiAtmtXio3+/17L77A8QuUagILKDl8VEqKZCwVboVrmyrKzvPf35/dd7IEekO4Awmee20bUOEK6vcXMK3vP0xXfD/Y5KCRlCSUkzoXSgagIX5HejgJqeEEgsp9jzRwBOJ6jGyP01GnHqe89ACeaOgrGFLA7JAQnOeV6ACY+K0ikSsphWw6jbxzsSriJBFItFxSsfTHUq8QELykwl5llvxV7SDVCqgiB6wTrvXlTI+OfyK+K/viC82CIg9wAyGChUmMLCBLzBBYAYURfCL1TX/BxIIIJqgq05QUHAEjgEUkLII9AtypxTU2xuysQ9SZ+/DLtdYB9sNe6xENd7ynjZGD3RfZLhtl5mHs3615IA3z2U/8XGiB1VePvvr52V+f+Gq2gmEDqfq4kYZewDzyC/twq/cuEHzWGcz2NWj5gBY/7exLP/rt/E5IBD8D9vcQL3xr8V4gD/Pn/4rqjcbvGuiRYKgWqqlm6g/hQAAZGwyJiGQtvDozQ7vCRDaMJGatKEyToOizSIapkTE4I1zfFGkCAN6CKnDEyrrtlEMuEHDhi+/yUDYVJITQf7JZWQskd5G0+unJG0TQ8kOsSxTFLbaJjQcdBaTlixaN2HcjHVDrSpHGxZkPDLti0iAlx9JouN8PF43YdWaGUsW6yYpdN+z2/T7HeTyKOey3SmJ1N6uri5tvUTTk3cxz10dGZubWAcAAA==");
 
 export default ArrowRightFromBracket;

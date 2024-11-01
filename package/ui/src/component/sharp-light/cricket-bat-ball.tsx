@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cricket-bat-ball` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cricket-bat-ball?s=sharp-light cricket-bat-ball}
  * @preview ![cricket-bat-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cricket-bat-ball.svg)
  */
-const CricketBatBall: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M356.3 178.3l151-151L484.7 4.7l-151 151-47-47L264 86.1l-22.6 22.6L.2 349.8C-.2 367.1 .6 384 3.8 401c4 21.4 13.1 51.4 35.2 71.9c20.6 22.1 50.6 31.2 71.9 35.2c17 3.2 34 4 51.2 3.6L403.3 270.6 425.9 248l-22.6-22.6-47-47zM62.4 451.2l-.8-.8-.8-.8c-14.5-13.5-21.9-35-25.5-54.4c-1.9-10.3-2.9-20.9-3.1-32L192 203.3 192 304l0 16 16 0 100.7 0L148.9 479.8c-11.1-.2-21.7-1.1-32-3.1c-19.4-3.7-41-11.1-54.4-25.5zM224 288l0-116.7 40-40L380.7 248l-40 40L224 288zM384 432a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm128 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const CricketBatBall = createIcon("cricket-bat-ball", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfgAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCEwsGAAE2AiQDCAQgBYMtBzcbGgXIhof/t+v7fW5XDxpD1gBG5A84lTMnwVuTfjiui1PPcx5aIG8hC9pYNrcmXSB7nVegYpsGb+qVC1arKNbc1fFYEu1JWmJJHs9Jf2fI4ssYrEx6Pv2Ch/mj4lcd3SbJSgCiBQBmrFu1xHcN0RDxS/Ex8YtFCIiZIBco4SldBJisJNBFJkcmEzREUaD/wJwAohF+dQIZGmM/zgMykJSzrFeHar1eLdeztdVyZd+61esGxuqYGgOjv3ee6/h8JNs+3efttN+6GDQ4furuEJX4oNMzsS6EqFZXx5127wwUT54Wa2JyVNa82O/dPm93fK73W33f6VR9ZeIX4z/r8vKEzyd92b3nBy0++L3HL3t/sav+DCtrhJP9Ya+9/vpL0/n5yVNFMa5fuv3YX3/59I8+LcJtMXfZ0JavvmqPFlrsKZUtH/23+/U3zuDgOadPO+fMqw8rRy9dOlrJ1Ou1fWfO7KtdDgSCtp3+e35b88n/N6km8OiLP/8mqXDv+jhJH6CJBILS4GKwzUlRkAgAQIqzeipfFEi2K8PBmmcECBU0SBqpQElnLSBTMQjKuhnDLB5YpSSypkIbWwCSmhNQMtYVyLTxIZRN9n3WSJsoWRxnL9yHL3muROasykcMHZ5PzKcNlTciJi5OypfV/mdpYAC22uuYo07bY7cDTgvspCXFM46Yq6Fz/FBuhKGGy02Ub7fv16+1x0mnHHDM0bTMJPn5sL+z+vgBMBKmHakqSURq8UA5Q3buCMw9AgA=");
 
 export default CricketBatBall;

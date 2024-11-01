@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-video` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-video?s=duotone circle-video}
  * @preview ![circle-video](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-video.svg)
  */
-const CircleVideo: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128-64c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-128zm224 32l44.9-29.9c2-1.3 4.4-2.1 6.8-2.1c6.8 0 12.3 5.5 12.3 12.3l0 103.4c0 6.8-5.5 12.3-12.3 12.3c-2.4 0-4.8-.7-6.8-2.1L352 288l0-64z" />
-        <path d="M160 160c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-128 0zM352 288l44.9 29.9c2 1.3 4.4 2.1 6.8 2.1c6.8 0 12.3-5.5 12.3-12.3l0-103.4c0-6.8-5.5-12.3-12.3-12.3c-2.4 0-4.8 .7-6.8 2.1L352 224l0 64z" />
-    </Icon>
-);
+const CircleVideo = createIcon("circle-video", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABkAAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCMwsIAAE2AiQDCgQgBYMtB1QbWQXIjsQ4JvGLWNCG0vLw/dqX577XQ/2XoWcVAEAAWGX12IkCQrtgU1Gp6N8ZnO//5v+aevH86AC/n/AdWtfWHgnYiRMYYLRF0yYyoZnOwGZuI1a2IMiaiPB8TEPzQhOsQ+cCRfyeH9dAeif9iJf8/wDGP/p6nKQlA4guAJi3ZcMqn96Leyl+rL9H/GglAmI+qAQyMgYIMFMWGKBQoVAI7qX63Iv6FQFEI31jBo1owjU8AShAkuSi6Ne1v8RqDR2LzfJouePZHhGvEw/3fKNWi+d6vxURj/R6syw3TZs+Lc95q3fEm70mnp4a4q95EZ+t+qn23JpfFnyx5e/5n6/+uXx25Y9zP9245RHyW1ZCzzeIh3u8PiOe7fVmxKYZU2dUc97oKV7vkUHTDxrS1qXt39YfD//o3cGdnubpTg8LxTjwyUM/6bOtxZ3yqPJO0fqTuT61qIW+7Z8tWPBZOy0Wnc/jPTRnE/ndwa+DQHD3JZfv6Tzz/+ZaAg/e7z/hd1T/NEltaJZAkEfWR9qZQCIAACkuG5J4GIFssUw/tYM3BQglAiSNSgGy/roIUCiNEKDBIJMEaFTaIIuiRehhVwJJB+dANtktUOihHTSY6ZtEox6RIcgCiH0BJi0eXTStGjd6bDW96uZFDlW0659RLVtDL6sbRnsddsZpFx1y0DEXw89blb7klMUjbJEvqowz2liV6Spz6VLaXOC8C0K3BfskM1Tno0NdHrceRm6ilOOtyTKRIvf4qqOMQqY2Cs2NvSrCzQUAAAA=");
 
 export default CircleVideo;

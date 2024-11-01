@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pi` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pi?s=sharp-regular pi}
  * @preview ![pi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pi.svg)
  */
-const Pi: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M24 64L0 64l0 48 24 0 88 0 0 249.4L75.4 422.9l41.2 24.6 40-67.2 3.4-5.7 0-6.6 0-256 144 0 0 312 0 24 24 0 72 0 15.5 0 6.4-14.2 14.4-32 9.8-21.9-43.8-19.7-9.8 21.9-8 17.8L352 400l0-288 72 0 24 0 0-48-24 0L24 64z" />
-    </Icon>
-);
+const Pi = createIcon("pi", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABVAAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBKgsGAAE2AiQDCAQgBYMtBykbowTIHoexe2TJLCal352Ih/+fK+/7yczsJlvklIgUgWNwgJpQuK3qWVc1rmQEWVSoJpkhv6rW/I+bf955G/CBSGNZ54Es8DnPE+g8X7ZIpgUWUOJfwP7ubMSKyCdpiZH80o7XBnm8jNVIzxPcjQ+Nbwa5TVLLAERPAKzctW2r5uf4HPGxhfhoMwJiJagEMmQYKsASmcBQuQq5XPA5Wi37H1gRQNSlvSWQI8NirADkIIk8n13WuuU7y1qxrygLUZZiRSyMXTEgIrIoI4UoywExxOCLYqBS9IbLiGJUZ8/OHyMdZsC1gWr2DAN3/7fVM+NXG6OBexYY6KYP+OSxLnecM1Jlw+R3QCB4/erKeiz53VYm8PXNr1/5NxTN1Ik2CQTZlNYU+6MJ0RQAgBSXjYomAslsib5rhycChAIBkrpCgMwQPQXIFSYLUDPcXAHqCttkIm8X+jpQIelwDjLzXIFcX11Qs8Rbva5vZNLDvT33d0teR5G1bdXMaTOqRdXQVniBYHx9cbWsTriMsYkw6rAzTrvokIOOuUjo87Zal5yyjkPXelFlpmlmqCxSbXu3/Tsdct4Fx5xxOjRZrDqvTXCZz54IXSTArHtnUI+Uzh4DAAAA");
 
 export default Pi;

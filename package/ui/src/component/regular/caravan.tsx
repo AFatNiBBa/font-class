@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `caravan` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caravan?s=regular caravan}
  * @preview ![caravan](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/caravan.svg)
  */
-const Caravan: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M416 80c61.9 0 112 50.1 112 112l0 176-48 0 0-200c0-22.1-17.9-40-40-40l-80 0c-22.1 0-40 17.9-40 40l0 200-44.8 0c-16.6-28.7-47.6-48-83.2-48s-66.6 19.3-83.2 48L80 368c-17.7 0-32-14.3-32-32l0-224c0-17.7 14.3-32 32-32l336 0zM80 416l16 0c0 53 43 96 96 96s96-43 96-96l64 0 96 0 80 0 48 0 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0 0-176c0-88.4-71.6-160-160-160L80 32C35.8 32 0 67.8 0 112L0 336c0 44.2 35.8 80 80 80zM432 224l-16 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0 0 96-64 0 0-192 64 0 0 48zM128 128c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-128 0zm64 240a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const Caravan = createIcon("caravan", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABlQAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCbQsGAAE2AiQDCAQgBYMtBy4bawUjEWZT0Cb7IyE3TXlUrohC41usMCAaM/H8Pye77/+/bRB0fNDxAJMBUFqaaSJ5EE92X/UGi+5P7+zZykzFF58z43+u+fyeHx3g5wvRQ4um0qoVWOfzCQw4SqNo4AU2myjO3EZcGiLKyoKICM4/tIVm8AST37ICG/U2noBn3Jw/ceag2A1DruBFnV07tubGM3km8vj/WeRLSxCQE7gh0NBwIMADk8CBxQHDIvjJ///If6CDALKCJy5gYIMXfAAGKPZY7ZYrEky4te22umhbDT1bXORgGlEiMjOyTilZFFoDomRTkX1qUaE9MSWLIuuUA6PrtXuQVnpr8YOVz5c8nKfd+5ObikwtfFrnWheXnCl2IIXAHai0QrixsJatFC0MWBQSKZ8RXqu1LI6uv/YCnffGN8Y2FNqX2JTcXLTAId+ht/lPhjxh+9gP7/HPe4JyPMB/6bC/Hf7Dl/wPKM3dVr2SyV6t7qbxLFjgeSZuu7ZtfZzmHDo0Y4a7N6deTvtwuH0xTiANnzxpKO3wDe4iz5Aug319r3cxraN89KMeN6hHubJ9PQtggafeGXWG8Lmo7vsdb86ff7MDjwOAAAJ1Gr0u0ddb62uONgB4cen9N7rf/xvGDOMQD+wMIOj7/1J6GTMA4AWQq0xRQPmiQFnBxp96sY4AoSBAyaII0JL4EGAoJRFgkaEyAqyUjphkchEhemcwuIwHUxWmgiXEabDV4n42S0hM8+SMi3sdJh82KZHG85zyZco5NZxmVeItjvHTNZ1hrdgU6iqOvQwx1hiTDDbIcJMKbILWhclGa6Khjf2Qo7wyynHU4Cw3rrd3MdgEEw031pgwS03OeauYKfrg4jANmLaCTQYGiJE9sP+E34QB");
 
 export default Caravan;

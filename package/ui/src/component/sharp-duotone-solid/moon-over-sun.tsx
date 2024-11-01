@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `moon-over-sun` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moon-over-sun?s=sharp-duotone-solid moon-over-sun}
  * @preview ![moon-over-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/moon-over-sun.svg)
  */
-const MoonOverSun: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 150L73.1 256 0 362l126.7 23.3L150 512l106-73.1L362 512l23.3-126.7L512 362 438.9 256 512 150 385.3 126.7 362 0 256 73.1 150 0 126.7 126.7 0 150zM400 256a144 144 0 1 1 -288 0 144 144 0 1 1 288 0z" />
-        <path d="M348.9 318.6c-7.6 2-15.6 3.1-23.9 3.1c-50.5 0-91.4-40.5-91.4-90.5c0-36.9 22.3-68.6 54.2-82.7c-10.1-3-20.8-4.6-31.8-4.6c-61.9 0-112 50.1-112 112s50.1 112 112 112c38.7 0 72.8-19.6 92.9-49.4z" />
-    </Icon>
-);
+const MoonOverSun = createIcon("moon-over-sun", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABggAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCBQsIAAE2AiQDCgQgBYMtB1YbLQXILg54E+txxH/ECBU2rNO8PlI8fL/W27mve6aS+T/IHSJSwOSAUNhUFKCKYxWhiHbl2p3PRkPISdYVk7/NXf2SGd6/3xHI1eZ/tdnUqec5zwZ8AM8aFNsgCyQ053kEcp7zxEdbagVaoZrWwDo4b1Q7HdIUyg/I42N2Uol0L33AFfc/gPFXKydJ6mYAoiEAJi6aN9erT/EpxYfqY+KDOQiISaAQyJChrQBjZAJt5QrkcsGnVMWnqCoIIMrcqzNQRgkrcACQgySkPG/VsU1NqV6+0D1eWXez8rRXt+c21l0rj3tkW+9ZQ6V7tKEFCxfMjwVCXcTxRbEQXxjz32L+mqN9IB6MOJXzo16/Fcf679G/5sLI23d0ut+w/+0olh99WLv63tly2++fe6PcoMH/anfo4ne9ZmyBYYeba37YlhmUapkxvZIqN69s6V5QNGncrVvjJkXRfRJhzwOBYN7Hs1vVYMx/1STw5aU/zQ9J9RVK91FHAkHWp9rH8gQSAQBIcVCnxFUEMmMk4VNr3RYgVBAgKasIkGmjoQC5it4ClLQ3VICyinkykdcVmlqBQFJrD8gMcwjkmnoESsZ47ZY1jSyvcTmF+9VLnjaFpi4VA/sNKEYVu5GOzz6Mno4uLms9DvJKT7hro1122m+D9bbYPyH3mhscsMO0I3iqLyoM1M8AhVGKx+lLeeHE3WufLdvi8zmjFd87PRw8bu8J10mAQbEUyogUWbPKqvRNinrffQdaPt02tNgQ0yg=");
 
 export default MoonOverSun;

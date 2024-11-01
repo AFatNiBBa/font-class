@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-line-down` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-line-down?s=duotone chart-line-down}
  * @preview ![chart-line-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chart-line-down.svg)
  */
-const ChartLineDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64L0 400c0 44.2 35.8 80 80 80l400 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 416c-8.8 0-16-7.2-16-16L64 64c0-17.7-14.3-32-32-32S0 46.3 0 64z" />
-        <path d="M326.6 121.4c-12.5-12.5-32.8-12.5-45.3 0L208 194.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l80 80c12.5 12.5 32.8 12.5 45.3 0L304 189.3l57.4 57.4L329 279c-15.1 15.1-4.4 41 17 41L456 320c13.3 0 24-10.7 24-24l0-110.1c0-21.4-25.9-32.1-41-17l-32.4 32.4-80-80z" />
-    </Icon>
-);
+const ChartLineDown = createIcon("chart-line-down", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfQAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBawsIAAE2AiQDCgQgBYMtB1obFwXIHge5KfNWojnKx4I2lJaH7/f717XPuf9NAOCGGR0gapSJiorDKvJvajtVnepXr8z1/j916nnOQwH88wgHbQ8NyAad8zwCAV4dNr0RqVBNa2Ddnc2nZe2TpLUJOT7L8fjUofOCIn7Pl9WRXqTfcI/+BzD+0d5lkvoZQDQDwLQ1Kxb5Wo1qit9qn4nfLERATAelQEZGJwEmygKdFEoUCkE11VKN2pIAooIOzqCCAmuxDVCAJERRDC0b1jUuVtOFBnueNoi42WplLI+nDcKRj51vvSqeNLzVdk0si77xuPWTXg3jbceIl22etuobq3PK6U2/96Mah732LC60edqgUTxtkxM+e2v3D80+/Nvt7mbPft6Yxs/nznMDoho/v9G48Y0lSyh5a83HTYsctqz1Yf7860tLlji/lBdi9a5m9zW5fr1JDO6rNlnavA8Egq8ntNvSdOL/9Rom8PcX/+Ufklo1SR9QTwJBHlgbaGMCiQAApDite2IrAtlQCX9qI08FCA0QIKloIEDWUTMBCg0MEKBOF6MEqGhghSyK+kIrmypIGjkGstHOgEIrn0Cdib7ZFa0iuxfpHOTrLm720Ky5ctjgoeX40gwVymNwHE8oh7W+p5X6wVW7HXHYSbvstM/JkOMWeaccMrsHz/JFpWEGG6o0XrmcLLnV2cedsE9n1qdMUO63+jrdb+4HZsKYw61kmUiR296syqBPJ3C/kwad1dr2GnMwAQAAAA==");
 
 export default ChartLineDown;

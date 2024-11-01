@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `olive-branch` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/olive-branch?s=sharp-duotone-solid olive-branch}
  * @preview ![olive-branch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/olive-branch.svg)
  */
-const OliveBranch: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M192 320c0 106 64.5 192 144 192s144-86 144-192s-64.5-192-144-192s-144 86-144 192zM427.2 128.1c13.6 10.4 25.7 22.9 36.2 36.9C494 205.8 512 260.7 512 320c0 57.8-17.1 111.4-46.3 151.8c52.9 16.5 105.5 8.4 139.6-27c56.2-58.3 41-168.6-33.9-246.4c-42.9-44.5-96.1-68.7-144.2-70.3z" />
-        <path d="M128 0C48 0 0 64 0 64s31.2 36.4 85.2 50.5C34.5 141.4 0 194.6 0 256l0 16 0 16 16 0 16 0c86.6 0 157.1-68.7 159.9-154.6L373.4 48 616 48l24 0 0-48L616 0 368 0c-3.5 0-7 .8-10.2 2.3L247.4 54.2C230.3 36.3 188.2 0 128 0z" />
-    </Icon>
-);
+const OliveBranch = createIcon("olive-branch", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgQAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBfAsIAAE2AiQDCgQgBYMtB1QbIgXIjpSuzlQ8PK8X/bkvmVlAWZgVwQ+wktWyMif+5/9mz3seBfiNQttDA1ngcz5PIOAsT3zsAz7TM7B72zChRiDeCKmSkMZTGqsZ8tQ5O61Euia9hYvofwDjG82cJqmWAYi6ABg7b9YUz30Wn6V4q/IQ8ZbJCIhxoBDIkKGlACNkAi3lCuRywWepwmdRKQggymhzGSijhEXYCshBElKe92zQoEapVj63Rqn6ooc6RNzUMOJyx7vePvCxHne1FKJGjU9HPztvHnx2RPXq5zacHVd2u2PQvI/HRjw/8dXxL877ZNwLk14a89zseTc3e37OR2MeHvxo92fnfjLznmFPDGp3R907vmv71tq3HHt2+7s88z8/RJox4/xZq1fXrquuunXHxRNvZmMfmu2Xpn00/bM0dmt/73zw+fOePRYz9nDG88+fsSdmdDIv9/Wz076qWGj+O4cmDrrmxqoTqk08/8cZY8cAgaDLyhOPLasz4reqNRL44okfvk4/JJXn0lnpDlSVQJD1qPSwOB2n8lc6SwAAUuzVLh3HcwKZnhK+ak1XChCqI0BSVl2ATAt1BchV112AktYGClBW3SyZyKsJDS1BkNS0A2QGOQJyDT0ISkZ41SprGJmfEV5C/PJiJ0lo4lDRt1efYlix9TTSdbDaHV4cq132lkxXmLTWNlvttsZqG+wWyE5T3D22mKTBE31Roa9e+igMU5jDR3YuWjvtsmFN2/sMV9w3u9irl3cFI2HUfsYyGZEia7gtDIWe70rs6bL5xhM6OgEA");
 
 export default OliveBranch;

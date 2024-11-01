@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-up-down-left-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-up-down-left-right?s=sharp-regular arrows-up-down-left-right}
  * @preview ![arrows-up-down-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrows-up-down-left-right.svg)
  */
-const ArrowsUpDownLeftRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M311 124.2l17 17 33.9-33.9-17-17-72-72-17-17-17 17-72 72-17 17L184 141.1l17-17 31-31L232 232 93.1 232l31-31 17-17-33.9-33.9-17 17-72 72-17 17 17 17 72 72 17 17L141.1 328l-17-17-31-31L232 280l0 138.9-31-31-17-17-33.9 33.9 17 17 72 72 17 17 17-17 72-72 17-17L328 370.9l-17 17-31 31L280 280l138.9 0-31 31-17 17 33.9 33.9 17-17 72-72 17-17-17-17-72-72-17-17L370.9 184l17 17 31 31L280 232l0-138.9 31 31z" />
-    </Icon>
-);
+const ArrowsUpDownLeftRight = createIcon("arrows-up-down-left-right", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABeQAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCLQsGAAE2AiQDCAQgBYMtB0AbPQXIngVOmRUf8aUZ4kQ0bdvRZH42h/E8/2v/2+fOnS9mzZKR1KJmElk0atJmqUIi/1Leolojj///c7tvf0mQEO8hiVja2hLizaXRaOlXQqHRzF+1kCvkffr7ef7PfwM+EPkZGI0F8ilqUecT2HnjfBzn09nAJio1OG/EkxXSFMovUPMj01K+FfjkXjS/LfpQtA2ATACAc3e7Pn699JLj7uTYDRDIOQAbBA0arBBwkhKsMG2Aqgq9dB37DyQESJ/qngVUNHgB3gIqKFLrA7sdrXfUiaH7sXisI/EMCBpNz2olwRxkqFHbG1YsfUxdSuOxA6tN7CUyRFY0ckBhtYWpT5lLV8ZiJdne0hP6LytOXABMgitXgPrTnQT/vPPOv4MbEYTDl28fhU7+H7AL+PV9/bh0P9MVjQEFhGavS5oVIukEAFDyFBG4LRQPGKpnHfFZQAwhoOgzJKCxLExANWSXgNaaEgF9htykpA6KGfMBFCMegMYJb1DN+ILWSf+kz0xU8mMSD/P3l+hNIXcTc+ks69wtdWyKovRqg5fN6IuPxOBZrJydPCwtbD0m5I2fPx15R7DrjSgnLYvq+Lh5KQ5wenO33Vb5fJ0Gfu9FvY6nx+B2DMB+wBUKKYv3bqUjTj0vqWhJ506mEAMA");
 
 export default ArrowsUpDownLeftRight;

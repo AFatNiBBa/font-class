@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `weight-scale` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/weight-scale?s=sharp-light weight-scale}
  * @preview ![weight-scale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/weight-scale.svg)
  */
-const WeightScale: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 176a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm320 0c0-28.8-6.9-56-19.2-80L480 96l0 384L32 480 32 96l67.2 0C86.9 120 80 147.2 80 176c0 97.2 78.8 176 176 176s176-78.8 176-176zM391.8 64C359.5 24.9 310.7 0 256 0S152.5 24.9 120.2 64L32 64 0 64 0 96 0 480l0 32 32 0 448 0 32 0 0-32 0-384 0-32-32 0-88.2 0zM320 224c0-20.6-9.7-39-24.9-50.7l23.6-55 6.3-14.7L295.6 91l-6.3 14.7-23.6 55c-3.2-.5-6.4-.7-9.7-.7c-35.3 0-64 28.7-64 64s28.7 64 64 64s64-28.7 64-64zm-64-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const WeightScale = createIcon("weight-scale", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABigAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCRQsGAAE2AiQDCAQgBYMtBzMbSAXIjtEn42EQx1yeOCJCJZ5/fu1/a5+580U8fUc04ZGGl0wnaoJmCfIPkZAp4UElk8d/ft137sdiZo23khKsBiU1iY0siRPXPP/zpweMInukaCsqkCrLZZxPYGK7WRTRbGAznYDNZXvTJuuYzYhIEqXScU7H0w1aTsiamPouuAef9U3zj6YOKK0DQBYAwMNXsTG4HNEouR/2IL9FgUAeAThA6NBhB4E7hIIdIgegacIow0C/gQwCZAz2RyjQMI634BOABkrfRNrrOtrKfC8rSuB7LrXVjrLhdcJ3eRzZrKHlfNX9kOv0PLZdJ9lWWz4CkiEh8bSKjycv8V+xb4kJy56UY67T/dCcm0KKkGlZIiERcXHDlk60nsOs5Gq+cLPmixpDFksmC1Yr2pFdqpQ+tKz0cp1q/dSqPsAbXigsfxvcF9yjcv7oADhYVjI1VVJmzMyM1RP8rY2C0OJSiyBG5/RYQZigJFtmlT07mBMLxnqSymjBsBGf9mNCvqYB6e5VKODf/1RU5KaSOgnJYe4j8HGOOkgFyHNf/mjEZsrf+S/FCwB/f/3+w2/RcFnqAjChQOjOh3NpBYoAACoNMCwIyhti+qozviAQUwgoY6YEdLYpINBMOUOgt8cFgTFTnhFKk0asSK9wmfEa7tzWCDcrduDeHVfemJV0rsg7Ev8TTAltgZB9zMHWnnmyYacI3sXythdb1swb4pQFHEWBShXq5MtTrK6BasSE9cqFzsAQH8Q4sGWP8cSOB/eHE+SrUatYpQrZxQu775prmC+2AFPAaK+rlCIl47z8awIAAAA=");
 
 export default WeightScale;

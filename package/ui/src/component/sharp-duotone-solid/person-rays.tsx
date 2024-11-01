@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-rays` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-rays?s=sharp-duotone-solid person-rays}
  * @preview ![person-rays](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/person-rays.svg)
  */
-const PersonRays: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M96.2 270.8l53.9 34.4 33.8-53L184 480l0 32 64 0 0-32 0-128 16 0 0 128 0 32 64 0 0-32 0-227.8 33.8 53 53.9-34.4L334 142.8 324.6 128l-17.5 0-102.2 0-17.5 0L178 142.8l-81.7 128zM208 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M40 6.1L57 23l64 64 17 17L104 137.9 87 121 23 57 6.1 40 40 6.1zM505.9 40L489 57l-64 64-17 17L374.1 104l17-17 64-64 17-17L505.9 40zm-368 368l-17 17L57 489l-17 17L6.1 472l17-17 64-64 17-17L137.9 408zM408 374.1l17 17 64 64 17 17L472 505.9l-17-17-64-64-17-17L408 374.1z" />
-    </Icon>
-);
+const PersonRays = createIcon("person-rays", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABkgAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCRgsIAAE2AiQDCgQgBYMtB1IbagXIjsO44TuyxVL+4+H/7b5+n1vVtXoehqyBGRGMezLG+IiEaLIvxGDkCH7BPP/XfH7PrwG/yR1aFJYWV1ktmycwgfZ5FNiEZjoD2+6kFBJNKWmxMpLjm+N0hjw+y25rIj1IuJP+BzB+1M1tklYZgGgLgLnrVi3x9Ov4OsUHjVeIDyxGQMwDpUCGDD0FmCET6ClXIpcLvk6NBl9Ho1ESQBTSzTJQoBk30QLIQZJLed4OokPr1aZ6vracqGwaOmzoihgaM2JYrDQnZu8YMnzI8hgSs2J4rFIrZ+4eRu5aj69bsnTJ/JDRasRgFd88N5bF2ugclUrHWL3uwcDHg5/p8XDQkwGPuvZ7vu3zP/fda/CbaKBdXflpX0J57NjoOm/b9sIKiHf0vdIcj1zXlscT3+tohRXXtGh/vsUVjn1ZOXrp0tGKuxwIBOt7fn5/W5sZvzVXE/j2rV9/sD+kovE0/k7Po1kCQTaiMcLmRKGIvwUAIMVZ/RKF7QKZBXLwqTV3BQgVBEgKFQEyPbQVIFcxXIAmvU0UoFCxSibyVkJHWxAkNSdAZpIrINfRy6DJDG87hY6RCSMnStxXMHlRDy3cVI4dNaacVk4bGi9fTFicXm4rQ87agaH6pL2OOeq0PXY74HRHnrTEP+OIRRy80BeVxhpljNI05XF7enitPU465YBjjsZ1pivvG0Oc5ccP1XoCtONsyWREiqyD8OZGntxx4dTIZz3UiYovGA==");
 
 export default PersonRays;

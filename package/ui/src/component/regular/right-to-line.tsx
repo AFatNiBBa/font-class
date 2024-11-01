@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `right-to-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-to-line?s=regular right-to-line}
  * @preview ![right-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/right-to-line.svg)
  */
-const RightToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M192 146.2L302 256 192 365.8l0-53.8c0-13.3-10.7-24-24-24L48 288l0-64 120 0c13.3 0 24-10.7 24-24l0-53.8zM352 256c0-11.5-4.6-22.5-12.7-30.6L223.2 109.6c-8.7-8.7-20.5-13.6-32.8-13.6c-25.6 0-46.4 20.8-46.4 46.4l0 33.6-96 0c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l96 0 0 33.6c0 25.6 20.8 46.4 46.4 46.4c12.3 0 24.1-4.9 32.8-13.6L339.3 286.6c8.1-8.1 12.7-19.1 12.7-30.6zM400 88l0 336c0 13.3 10.7 24 24 24s24-10.7 24-24l0-336c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-    </Icon>
-);
+const RightToLine = createIcon("right-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABawAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBXQsGAAE2AiQDCAQgBYMtBzQb4QTIjtRG+UVWEg//b6t236/qle51qRVxyUQMPCXDM+0JMjzlEEI6+VX77vNc8/k9PzrAT1cEhxaFReW9Asp8PoHhcLa2Bjyf2LTFeLpNRodHFD4eIRIoEh2nx9fTEfJ4EXeVSM9SFXfmgfhHW9dJShmMaIL7NGXVsgW+/zP+jPilNuIX8xAQU0AhkCFDBwHGywQ6yBXI5YI/o7ZW/gMLAog6kGcCOUpYjPWAHCRZnjfv1ahSapivrJTK61asXLE8Ip73LOOoSnzSPlZcabUyHpc/bPGwjSgH0Z61fNSjEssrN1qviiexKmXpWY+skZ0d+rBN18+bfP5vl+rOqu8GHOA8jNRyyWmTnbak5cg3B5pVjx1V06KoVlNXmw3+tSabLKv5dfBmXaVqTfPmv7lhtdmgTxajouWSJS0Xk98BgeC30s83NR7/X71KAn9/+f90Y3yfPkc9CQRZ/9r+1sf3AH4ATynFSV3jewSS2TLtUAOPBQhlFEkdZWTaa4JcWT+UdDLicB1ly2Qiry+0sEGRNHAEmZEuINfCFygZ74e4jhaRlZVcFPKrLmOmJWbMK4YMHFyMLdyqpVSK2KfHFWmz90nq6oONdjrkoON22G6P44Y6akF2wgEzI3KGByoMMdBghbGK48b76pV2OOqYPQ45OGYZp7gf9HYyHtwHTsKCQy1IEpEa/tDrHj80oPIA");
 
 export default RightToLine;

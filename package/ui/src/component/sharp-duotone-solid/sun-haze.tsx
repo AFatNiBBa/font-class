@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sun-haze` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-haze?s=sharp-duotone-solid sun-haze}
  * @preview ![sun-haze](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sun-haze.svg)
  */
-const SunHaze: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 150l73.1 106c18.3 0 36.6 0 54.9 0c0-70.7 57.3-128 128-128s128 57.3 128 128c18.3 0 36.6 0 54.9 0c24.4-35.4 48.7-70.7 73.1-106L449.3 126.7 426 0 320 73.1 214 0 190.7 126.7 64 150zM224 256c64 0 128 0 192 0c0-53-43-96-96-96s-96 43-96 96z" />
-        <path d="M640 288l-24 0-112 0-24 0 0 48 24 0 112 0 24 0 0-48zm-208 0l-24 0L88 288l-24 0 0 48 24 0 320 0 24 0 0-48zm144 88l-24 0L24 376 0 376l0 48 24 0 528 0 24 0 0-48zM88 464l-24 0 0 48 24 0 112 0 24 0 0-48-24 0L88 464zm208 0l-24 0 0 48 24 0 320 0 24 0 0-48-24 0-320 0z" />
-    </Icon>
-);
+const SunHaze = createIcon("sun-haze", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABhAAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCHwsIAAE2AiQDCgQgBYMtB0wbPQXIjsK2tXOEScokRQhPEWTDNrt3X4ujyqqqogvbJR5FPGgcrimkACM+WIzAf97u7dzB1wuMiY2OZTpyQRZluoWqrWficvrj/Ldv3mKPsmZtnNzmaM7zBAIszDdBAWWZYovbroKIhsZC4wo1XflFiOQn9xHwGv4HMP5gbhFSpwAgxgCA89uCLDy9jEuOPso3IX6QCQLiAsA6QkHBMgJHeIFlgnVQVcGCk2UWJMvrEEA0ET6wgCY6eABPACpIDVkFtVrNmKMuE7WFYiZqejRMg+gx0miYFqKnTUUapoPo6VLtMkBOB2p3VRQVFy2xtGc35knKq6hH9rZr3fSKbzHhuFCGhXtZIvzchsdJ8E23IyuHE72TP/Yfmz9i5svMbEuC2Yv0tQF7a3fSWgkHY7EN6VtstlGC2b0F7+piNlPb0rM6Oto6YmBCbm5CoIhP6SxP3L0zbQKTZ1Azsxpj2LXZJklATqtOTmZnNSqAeGzz+5ZWjW7kfxXjAL/3//1Uv/z/NGe5E0BbgqDsyF4qcxZAiAloZAzDYeerzhCKXaLkXfveEAhdBEhNXQGKJXoIVF3bCDSsCkKgqesSL6oaYa6qF1Lfo1AcmhKquRtCw5E39aZ58IDngI3z31eYPIaTjtn5+Uh24Xabfa0LS5bdj7A7nXMblnPu+CKa9eg2qEmjNoMjql9Wa0iX5D0kyQ/Z8eNDYiec3e3R87CY1vsNaFv37x8Swe79spvh/dXuuMhJdHfdUhQiidcbGOr2bq0bb/KG4IzBxP9WAQAA");
 
 export default SunHaze;

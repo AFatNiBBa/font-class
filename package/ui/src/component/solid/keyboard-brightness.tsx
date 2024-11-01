@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `keyboard-brightness` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard-brightness?s=solid keyboard-brightness}
  * @preview ![keyboard-brightness](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/keyboard-brightness.svg)
  */
-const KeyboardBrightness: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M134.6 153.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l64 64c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-64-64zM288 192c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96zm153.4 25.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-64 64zM0 384c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32zm224-32c-17.7 0-32 14.3-32 32s14.3 32 32 32l192 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-192 0zm320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0z" />
-    </Icon>
-);
+const KeyboardBrightness = createIcon("keyboard-brightness", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABjwAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCVgsGAAE2AiQDCAQgBYMtBzobYAXIjsM4hvwSS/nHw/dzfZ37ku4BoAwgkDBoaUF9t+i2PFlUwJ3MD9Dzf83nV3h0gJ+P4FCiKZIayw+jFiWw53s+G82iCc4GNqCJ8dTpyI7mmuxQZIyitZQ5fqHH6w3y+Ce7pER6nr7G3e1D40ctXCKpkQGI+gAYv3ThbFXfxXcRX1XeE1+ZiYAYDwqBDBlaCzBKJtBarkAuF3wXlYr8BxYEEGVtXAnkqI7beAzIQVLO86ZNmzZr2rRWqU6+pFap5sonNSNuNH7kXJP58bjWzWZP43zTBYvPNQmlBGmfFc3iqkWQhbEwwFrWvHUxo1aQhVEzIC/djYg3q/fz6xgnd3hT/83P7W3hSpdndajz7HqdOtcrhiCFZ13qXuNa3YMWbR0IXXvW3NEgG9EqKHTr4xdBdVzhy8a37RZgVW7VOKMa/hkIBHu/WfLaRv1WvVYCP3z665/nm+lceoPqEgiyXpVeVqVzIOQA0hRHdHD2GEgu+75jre2JAKEmAiRlNQXItFJfgFxNPQUoaWuwAGU1LZSJvIbQ2OoBktr2g8wQp0GusbegZJTPkrLGkeUkn1H8H2HKFA1N3lX079OvGFE8lrqQZqy7ObII692OcKI7jtpirz0O2WyT7Q4p4oDZ+WG7TfHwyb6o0F8f/RRGKKabr8oSlR5w0HZbmN/GSMV6r5sj/vzusJJGOcChJBGp0c7NxxPW7L0hXeM9mw8eBA==");
 
 export default KeyboardBrightness;

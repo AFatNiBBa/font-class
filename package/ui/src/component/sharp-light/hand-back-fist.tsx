@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-back-fist` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-fist?s=sharp-light hand-back-fist}
  * @preview ![hand-back-fist](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hand-back-fist.svg)
  */
-const HandBackFist: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M36.7 164.7L96 105.4 96 64l0-16 0-32L96 0l16 0 96 0 16 0 0 16 0 16 48 0 16 0 0 16 0 16 48 0 16 0 0 16 0 16 48 0 16 0 0 16 0 64 0 16 0 16 0 48c0 49.9-25.4 93.9-64 119.8L352 496l0 16-32 0 0-16 0-129.1 0-9.2 8-4.6c33.5-19.4 56-55.6 56-97l0-48 0-16 0-16 0-48-48 0-16 0 0-16 0-16-48 0-16 0 0-16 0-16-32 0-16 0-16 0 0-16 0-16-64 0 0 16 0 16 0 48 0 96 0 16-32 0 0-16 0-57.4-32 32L64 256l0 16c0 48.3 35.8 88.4 82.3 95l13.7 2 0 13.9L160 496l0 16-32 0 0-16 0-100c-55.2-14.2-96-64.3-96-124l0-16 0-80 0-6.6 4.7-4.7z" />
-    </Icon>
-);
+const HandBackFist = createIcon("hand-back-fist", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABfwAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCYQsGAAE2AiQDCAQgBYMtBzUbZgXIhof/t/v6faqqNeYdwIinJ5IifSKig6zXj8js/c81n1/T0QF+PQCIpthwmOkduDeQqOdRlDbwNdhwNlGcbUvqoUQR9xshMZyI9HhtPn67QBG3o7cyspvZF6ieHxo/aekymSIHEA0AMGHZojneqYmaiC9KrxFfmIWAmAiSQI4cbQQYLRdoo5BQKAQ1USrRf2AigCiHd2SgQI7ruA0oQCaKorp2Wd1iae2yWqsWzV8UGFa7tlAF2nW+++PuQtSKAKt5PGp9OzrXqlWlkOzXu0v/3R5PhjTVnK/3fb7dufUdnzZ4+kuHL7Z+oXOrZ+DtoYHUqAb7u+jfgK3xVpKu7eq9f9y184Iqh135//vUH6UHyJRktls/zo9QMkMDxY4dXb5VzwHtypvdeni1bgPzVZgEBIJePxztta7+6H8qa2fgu7d/++N6Xiq9Ew+yp6iUgSDvXeptdbwjSfFAAACyOKqj8UWBTLUMztVxTYBQC4FMuVqQa60BFGrpBWXaGXK+XC2L5KKoEppYI5Cp4wDkhjoDhSZegTKjfewr1yTyxBTSSvgvTJ26I1NmpQF9+6eR6TFlibnG9dZRyW10P8olPcpeW+2z12FbbLbD4Y05aE7wiD2mWvQUP5QM0Fd/yUgpnPW+w1JbHHTIDl2K9zJKOu/o7qhdvUeZTwYY+EpjMiKrl8dan+/V12frjkOHAQAAAA==");
 
 export default HandBackFist;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-kanban` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-kanban?s=duotone square-kanban}
  * @preview ![square-kanban](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-kanban.svg)
  */
-const SquareKanban: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm96 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 128c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-128zm96 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64zm96 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 192c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-192z" />
-        <path d="M288 352c0 17.7 14.3 32 32 32s32-14.3 32-32l0-192c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 192zM96 288c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 128zm128-32c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32z" />
-    </Icon>
-);
+const SquareKanban = createIcon("square-kanban", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABqwAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDDQsIAAE2AiQDCgQgBYMtB1YbtQXIjsM4hvwSSxniGA/f23w9d99K47/6Rl4DY2VXwNQBccUhrlhdsCk0aTOpMqnVzA8/74euqf+N0SDnL/4o/4sKjwTM9gmMBtSW1EITmuFmYFM3xccegvYRKVK3zIkI42+PbxfI48N0WYXsRfYX7uX/AYx/9HSZTEsCEB0AsGDNiuXqjWhk8VfzO+IvyxAQC0EpkJDQR4DZkkAfuRK5XNDImk0a0WyWBBBV/F0nUEULPsSXgBxkkjzPu3Xr3qtbt261Stt8da1S7DjfNeJJ7Vb3ZxFxodvT4maXx6wGtjV6NoJssaLFq1KWshcjPh7SNj4c9WnvFC9HfjK0Nd4N/6jHqguvFbVbXZ8Q55eruNntaUQNHDDwkw6f/DvAbvpvaXed6+2qfL1dnVmmftkdeZ4/f66/d/5okpit87my6Njx1XyvKlRU9SG2HPFsBbVl8NaPvA4Egp8bz2xp9v9tahn4+/v/135Imo2oZ5+gjQwEaXRztI1Rh6gLAEAWpw2Muq0IJBvl+F1bPRUgFAiQqSoESHrrIECuMEqAin6mCFBVWCGJvEXoYlMHmVbHQDLVGZDr4ltQMduvuaoukfzV5G2m38XsSzW6ZFE5Yez4cmb5WCVmFzSk6Vnlsn/4aeoaEfba7YjDTtplp31OKuG45cVTDlk6o5b4oNIEY41Xmqncbny1r1a5407Yh63788xSnk8Pd3o+eEQIZVh1ohVJIrJIXY0+M+bAtsPbyT3G9vt0B1Y7Bw==");
 
 export default SquareKanban;

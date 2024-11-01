@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `draw-square` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-square?s=sharp-thin draw-square}
  * @preview ![draw-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/draw-square.svg)
  */
-const DrawSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 112a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm8 15.3l0 257.3C76.1 388 92 403.9 95.3 424l257.3 0c3.4-20.1 19.2-36 39.3-39.3l0-257.3c-20.1-3.4-36-19.2-39.3-39.3L95.3 88C92 108.1 76.1 124 56 127.3zM95.3 440c-3.8 22.7-23.6 40-47.3 40c-26.5 0-48-21.5-48-48c0-23.8 17.3-43.5 40-47.3l0-257.3C17.3 123.5 0 103.8 0 80C0 53.5 21.5 32 48 32c23.8 0 43.5 17.3 47.3 40l257.3 0c3.8-22.7 23.6-40 47.3-40c26.5 0 48 21.5 48 48c0 23.8-17.3 43.5-40 47.3l0 257.3c22.7 3.8 40 23.6 40 47.3c0 26.5-21.5 48-48 48c-23.8 0-43.5-17.3-47.3-40L95.3 440zM80 432a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm352 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm0-352a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const DrawSquare = createIcon("draw-square", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABoQAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SCeQsGAAE2AiQDCAQgBYMtBzIbewXIhofn7fo691V1f0A1hBdwJiqTs3GQrRHtpD1xzfOvogeJohd4fJRfhw6kQCLifGB9Pt/NmzaezwbWgr7d2Z45pFaOtTRkCb9nOR47yONpZymRnkzHcD8/aPylxy0kWQYgmgGwbM+OTb76Pr6POFp5nzhqAwJiGSgEMmToF2ChTKBfrkAuF3wflQr+BxYEEGV0vQRyVOMFvArIQVLO87bW+W10y7pSQ767rlR74O6uiMfjxs7Hau9qf8QNHY/WdaQsvdrTEE+PyeK13vp4YuS+J9ojHql9rfOx3hu7Hu+ZgsXT3N0dj/Y0YHWvqm5of2RkCswTnrsmV9R33tgZsXfK3V2PR0Otk/1k+FvNb/0z7Ng5x0zZ0ngHdzQ23pHD1yXKO3FpcumJhE8ePbc4ypHWqV8fz1rf+Swl6bN3WrPjX09tPXK0SAwH4p+9Q77zGXr0SI/fTg9+Wn05EAiajm1qPLVp4f/VdQn8+Ml/f/H5Kt/HV+ktVEsgyCZWJjopvgLUBpBKcY3hxhoDyRNu/F7rPSZAqEWApKxWgEyfZgFytSYIUDJolgBltXbIRF4jtDu5iEm9y8XMbNeKuXbviiULHUyWtUfmpHYXs/8R86zWwKpVxbTJU4v5xbBMHH5njeMLiunI2GtC2zjY6hyXusRVznaW812l2CtsylztYqstZpUnKkwz2VSF+Yrl2u3m3c52hSud71KXpEkWKM4nxrrG7j0O4gkZTpeVJCLVPT//JFcHAA==");
 
 export default DrawSquare;

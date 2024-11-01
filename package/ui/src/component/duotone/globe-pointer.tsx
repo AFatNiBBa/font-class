@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `globe-pointer` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/globe-pointer?s=duotone globe-pointer}
  * @preview ![globe-pointer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/globe-pointer.svg)
  */
-const GlobePointer: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256c0-22.1 2.8-43.5 8.1-64l123.1 0c-1.9 18.4-2.9 37.4-3.1 57L20.4 280.6c-7.1 2.1-13.1 5.5-18.1 9.9C.8 279.2 0 267.7 0 256zm18.6-96C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160L18.6 160zm141.6 79.5c.4-16.3 1.5-32.2 3.1-47.5l185.3 0c2.2 20.4 3.3 41.8 3.3 64s-1.2 43.6-3.3 64l-66.8 0 12.6-42.8c10.7-36.4-23.1-70.3-59.6-59.6l-74.6 21.9zm7.5-79.5c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7l-176.6 0zm61 338.6c1-2.2 1.9-4.6 2.7-7.1L272.4 352l71.9 0c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512c-7.2 0-16.3-3.1-27.3-13.4zM321.4 8.4c78.3 20.7 142 77.5 171.9 151.6l-116.7 0c-10-63.9-29.8-117.4-55.3-151.6zm0 495.1c25.5-34.2 45.2-87.7 55.3-151.6l116.7 0c-30 74.1-93.6 130.9-171.9 151.6zM380.8 192l123.1 0c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64l-123.1 0c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64z" />
-        <path d="M243.9 248.3L39 308.5c-13.9 4.1-15.6 23.2-2.6 29.7l57.3 28.7c1.3 .7 2.6 1.5 3.7 2.5l-88 88c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l88-88c1 1.1 1.9 2.3 2.5 3.7l28.7 57.3c6.5 13 25.6 11.3 29.7-2.6l60.2-204.8c3.6-12.1-7.7-23.4-19.9-19.9z" />
-    </Icon>
-);
+const GlobePointer = createIcon("globe-pointer", true, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABqgAAAK2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CCfAsIAAE2AiQDCgQgBYMtB1YbpAVRVA6KZD8SY1sH2xEUtiyK4+iiWFHtLPyPh/rDfLv7Uxt1z1EapYNW0NNU0VgDbSDR6FGAbqLh8PlP/r2dm3gmxns/MiaEl2C9TQHX2/8B4IQvTj3PeSiAbxS0vTAgy4NznkcgoOlY2KsXeArVtAbW3SZjwSCIJlEZOkXGDGkW+9Nv0OKnZoh8zR54DP8DGH/MzZHGCkDMAoCTq7wMPO/3rDe4TfSkg4A4BWwgFAorCOxTFlihYgM0TdBP6AcbEEAMC49WYBgTeMInoIEURlv7dNRmBjq6XFOHq2qrFHJVJvJF/m7sNk6hPcb5tBtTxnv4qqkgnA8KpmVtn8leI5q25LQf03NGB0nciiJ6lvY8nxUcGr3BAUyZMbKlQ64X7fPFKa9jTueM9zmcsb4is+J9poI4HXc/bH/aZLdJ6YcIoic+jL7EKr0SnK6HP04u5YyLrzhE0xaKi3oXf8ifGz7j37vP4enkSaY5fxh6EALL2trL+x2/v34o6AOKtlho2GeYFdZP47k8MQo361Zb7AzoGRhUNt4D3l7v163uW8vSMHkIT1n2jMNDtCoUd1ON1bMWTP/q6hw/rqP713TheniuspLzKpLBXPpf+vX6W+BeYx90q/t/K4TQeO/t9bCg0WhMyGcIrfuNAAgEt9/dlUrd8H8NnuD369e//EMyeJbyDaMSBNUZdJQlIAkAQMYDRQKB0qUBnUlP4iCM0yANG4eyTA+acZswZE0Asbn/jLJoY8KicoA06RrKnnFoFt2CIfveucMWo+yUsjLqKzE+kSIJS5KPp7cUKk0jhTY9wk/DpG3decBVXOAsGnTq0KdenWZ9BOuREfRrl7hCE3yRxIcnb5JQkji95wvR7dGrmWflc8JI+o6zgXW7C1hKIu6WPaWIjFr6N4Jd7/FYyB5XvsGUYa83");
 
 export default GlobePointer;

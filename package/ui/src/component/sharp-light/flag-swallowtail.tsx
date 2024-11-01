@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flag-swallowtail` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flag-swallowtail?s=sharp-light flag-swallowtail}
  * @preview ![flag-swallowtail](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/flag-swallowtail.svg)
  */
-const FlagSwallowtail: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 16L32 0 0 0 0 16 0 32 0 64 0 320l0 32L0 496l0 16 32 0 0-16 0-144 378.7 0 37.3 0-19.2-32L352 192 428.8 64 448 32l-37.3 0L32 32l0-16zm0 48l359.5 0L324.6 175.5 314.7 192l9.9 16.5L391.5 320 32 320 32 64z" />
-    </Icon>
-);
+const FlagSwallowtail = createIcon("flag-swallowtail", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABWgAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBNAsGAAE2AiQDCAQgBYMtBzcbuwTIngV2c8dT2UiKjTCxwk7TePh+rfxzX/cCd4g7RKQI2ZIC9sAualzQiK3YX19GT7EwZ+17f4XEz/81n9/za8DPR3BoUVgWhde87ucTGHCUt82SZwObTtCm28RHIyn8QkKCJKLj2/G2hzyeBzWkpyke9A+N//RwlyTPAEQBgPkb1qxWaY/2iD9VxB8rERALQCmQIUNvAWbJBHrLlcjlgvaoVvk/sCSAqGVXTSBHjjlYAshBkvJ8aFtTTUu+vuY1bgnRGAqeAtoU8bKWphGxPjbEyGhsDi3NLWujc/SIddEc2YA3xZv/3V+/j0VRlAqFEqWHPqfw0JXBY626odmxBl8pxh3kWy844bWHFhx3ECAQzLr37x1ts/7VNyXw91uNi6uVqKQ3qJdAkI2qsjUqwNQAflKK8wZEBYFkisTetdkjAUIjAiS1GgXI9FIIkGs0UoAafU0WoFajNTKRNwidbZsgaXYKZKa4BnKdfQU1Zvke1OocGYQ4AHAfuOQlEVo8qxw/Zlw5o9xWOI8KRidnlsfKsPPSMZx22u+E487aZ69DzgbytNXxOccsyeDFvqg03hjjlGYor+uvm9fb57QzDjnheJtmpvK9Ncz5vP9w0hOjnSAnSUQqgGqMPnMB4/7ZXYeOAgA=");
 
 export default FlagSwallowtail;

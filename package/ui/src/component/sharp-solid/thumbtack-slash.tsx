@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `thumbtack-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thumbtack-slash?s=sharp-solid thumbtack-slash}
  * @preview ![thumbtack-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/thumbtack-slash.svg)
  */
-const ThumbtackSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M482.7 352l29.3 0 0-32c0-22.5-23.7-76.5-82.1-106.7L418.5 64 448 64l32 0 0-64L448 0 192 0 160 0l0 64 32 0 29.5 0-6.2 80.4L48.4 14.8 29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7L482.7 352zm-157.8 0L175.8 234.5C142.2 263 128 299.1 128 320l0 32 196.9 0zM288 480l0 32 64 0 0-32 0-96-64 0 0 96z" />
-    </Icon>
-);
+const ThumbtackSlash = createIcon("thumbtack-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYgAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBUAsGAAE2AiQDCAQgBYMtBzYb1gTIngfZ2eSUzKI7H1siHr6fe+zcl/w/bVKGlJhSQHCEqg5Qol3HYAS6ncpV2H+UqswSg9K2at//55rP7/nRAX67IDi0KCyK0vJa1/MJDLDaWnA+nE0U53uLN2Pxf7dkEk3S4bbDtSvk8Xd2S4P0JI0H9UPjT93dImmZAYh2AJi3ecMqn/8Sv0T89D/iJysQEPNAJZAhQy8BZsoEeslVyOWCX+L//+U/sCKAaML7JZCjgWWoATlIsjwfVrYuG63zumwU+8uijLg+/N30OsoyomglynJj1DE4RsagOMvyGJ1XF/Wm+o3HhBEIZWBvEfq/a/fufb8P/ey33b2RrHQcPedNoWHMVbVLfZprvLpmtG+MNvOjGNw/9rILecXtX7erfDOQ6tC3x1zGgXjsj3HWu9vO/KtFmcBvH36vv/z/5+laCi0kEGQj/x9pR7oGQg0gSHFJf+ObBJJ5MrjUykMBQoFC0lRApqd2kCuMgIY+Jl1uKmyQibyl0MlOhaSVs5CZ7DLkOvkAGmb6LmjqFJlDce7AfeeSF8/IolnVuNFjq+nVtmLwPsKkyRnVsTL0UugYRgcdctopFxx0wFEXJuycVfFFJy220EV+qDLOaGNVpquu66+7awedc95Rp50q08xQvbeHumT3H0Z6AtrxckkiUltvX3Jh7/7jo86f2Hv+CAAA");
 
 export default ThumbtackSlash;

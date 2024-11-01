@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-doc` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-doc?s=light file-doc}
  * @preview ![file-doc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-doc.svg)
  */
-const FileDoc: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 480l48 0 0 32-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L220.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 129.9c9 9 14.1 21.2 14.1 33.9L384 304l-32 0 0-112-112 0c-26.5 0-48-21.5-48-48l0-112L64 32C46.3 32 32 46.3 32 64l0 384c0 17.7 14.3 32 32 32zM351.5 160c-.7-2.8-2.1-5.4-4.2-7.4L231.4 36.7c-2.1-2.1-4.6-3.5-7.4-4.2L224 144c0 8.8 7.2 16 16 16l111.5 0zM176 352l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm16 128l16 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96zM456 352l16 0c22.1 0 40 17.9 40 40l0 8c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-8c0-4.4-3.6-8-8-8l-16 0c-4.4 0-8 3.6-8 8l0 80c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-8c0-8.8 7.2-16 16-16s16 7.2 16 16l0 8c0 22.1-17.9 40-40 40l-16 0c-22.1 0-40-17.9-40-40l0-80c0-22.1 17.9-40 40-40zM288 392c0-22.1 17.9-40 40-40l16 0c22.1 0 40 17.9 40 40l0 80c0 22.1-17.9 40-40 40l-16 0c-22.1 0-40-17.9-40-40l0-80zm40-8c-4.4 0-8 3.6-8 8l0 80c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-80c0-4.4-3.6-8-8-8l-16 0z" />
-    </Icon>
-);
+const FileDoc = createIcon("file-doc", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABsAAAAKbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDVQsGAAE2AiQDCAQgBYMtBy8b1AXIjpMlBh65JB6+dJXvt7QkLUMf8RygkShCgIwpdEZTTl0OLx6E4a2QAuTAk4g78H2ey+mN50fz+V1FHMpvzGljW0fN6QkEnOXTAomWBZZpAtawbWQaEWPiWB6hjE9jpTbSk+k33F9/aPxnwi0kZQEg+gGw2zFHHOSrZjQjfmsN8ZsDEBC7gyxQoMC0ADsqBKaVMkqloBmtVvkfmAkg2oVHTKBEF37FH4ASJB1luaF7tGfTZH/d1lMeXbdV+9VVLap4bflbk0U8veLtJXXcPXJUPEpUEavx0ccm8TV3DT8ixQ0jj9bnPDZ6dDw2Kh4dqY+sq/rVecuEeGL4kYWVLEQ8PnYUQWmLUa4KZxDr3dsE7yPDE+MCWsNN3TH9UeCouOEqUUXvGn2MasaNY4/XR96ICtvGa+1bns3W+Pr95r/V/9b/8347+zetRqORNbwwMFDdoBoYeOEZw++KK/w1fI/sUpdq3O/FpW7Qe8cdvWVubpeh+dt759clepuXvv9lzpkrd1X8/mcja/Jss+/6/oCO3DXf79QOWRh4+5OBTo4VsVP7qaH2Q2szbBrYtwf6nXEc2ntfX1JuMjcjzzU3TfXtIBD8/mEfdUrfjts76wT+/eRvV/+KWl8l6S10SiAoVrZWOjGBRAAAUlxtfkIg+VaH8K7dHhMgVAiQtKsEKEzpF6BUWSFAm1kbBWhXOUIhyi5h2Em9lHS7TCpscq1UGvax1GZHPxbbDUeRpI0J0vhHmW3vMb3Xrrx2dSNvy5ttrSmV6vX6Dvm0b+nVfGwZPOBsl7jYlc5ypvNqjNjLHVS5ykX23mP28kXZWqs1ZNvk273ntqMxStsVVr9uvr/NDvL7qaWu3p+9DAaToHUdRZKI1Pn55FedeckZAAAA");
 
 export default FileDoc;

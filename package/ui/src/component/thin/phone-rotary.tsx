@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-rotary` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-rotary?s=thin phone-rotary}
  * @preview ![phone-rotary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/phone-rotary.svg)
  */
-const PhoneRotary: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48c124.8 0 209 60.9 235.8 83.4l7.9-9.4-7.9 9.4c2.5 2.1 4.2 5.5 4.2 9.8l0 50.7c0 8.8-7.2 16-16 16l-42.3 0c-6.5 0-12.4-4-14.9-10.1l-19.4-48.6c-4.3-10.8-12.8-20.5-25-25c-20-7.5-62.8-20.3-122.4-20.3s-102.4 12.8-122.4 20.3c-12.1 4.6-20.6 14.2-25 25L89.2 197.9C86.8 204 80.9 208 74.3 208L32 208c-8.8 0-16-7.2-16-16l0-50.7c0-4.3 1.7-7.8 4.2-9.8C47 108.9 131.2 48 256 48zM0 192c0 17.7 14.3 32 32 32l42.3 0c13.1 0 24.9-8 29.7-20.1l19.4-48.6c2.9-7.3 8.4-13.2 15.7-16c18.6-7 59.5-19.3 116.8-19.3s98.2 12.3 116.8 19.3c7.3 2.8 12.8 8.7 15.7 16L408 203.9c4.9 12.1 16.6 20.1 29.7 20.1l42.3 0c17.7 0 32-14.3 32-32l0-50.7c0-8.5-3.4-16.6-9.9-22.1C473.8 95.4 386.1 32 256 32S38.2 95.4 9.9 119.2C3.4 124.6 0 132.8 0 141.3L0 192zM48 401c0-8.4 2.2-16.6 6.3-23.8l101.1-177c8.5-15 24.5-24.2 41.7-24.2l117.7 0c17.2 0 33.1 9.2 41.7 24.2l101.1 177c4.1 7.3 6.3 15.5 6.3 23.8l0 31c0 17.7-14.3 32-32 32L80 464c-17.7 0-32-14.3-32-32l0-31zm-16 0l0 31c0 26.5 21.5 48 48 48l352 0c26.5 0 48-21.5 48-48l0-31c0-11.1-2.9-22.1-8.4-31.8l-101.1-177C359 172.3 337.8 160 314.9 160l-117.7 0c-23 0-44.2 12.3-55.6 32.2L40.4 369.2C34.9 378.9 32 389.9 32 401zm224-33a56 56 0 1 1 0-112 56 56 0 1 1 0 112zm-72-56a72 72 0 1 0 144 0 72 72 0 1 0 -144 0z" />
-    </Icon>
-);
+const PhoneRotary = createIcon("phone-rotary", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABtQAAAL+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDRgsGAAE2AiQDCAQgBYMtBzMbyQURFZuDyX4m2M12tog1ZIphvpp/cSUe/r+u6r4fUXlqUq0SouXEwOKK2AFeZwA0QkiXvj6C1983daon56EAPljEgrIWrVWQMWmMeV6BAhY/1uVjg0SophWwLm67CiIa2giRE+Txgj11ka5L7+CSEKv41aAzSbIMQEwEwGrbbLGRV7+KryLe6TxFvGMDBMTqoBDI8CNGBFhRJjAiVyCXC76KTkf+BxYCiJJwWgI5uvEaPmTO70FKed5ujYzVapWuWr51cbPyDp+uF/Hm3P7oiauIK3vKcXVfK66fdfWsu8vnz7iz586BRlxZXrlMxGn9D2zw9jZbntobcVWlEvcMt+Oa/mtm37PMUzPv6r2qtxnXzUTSBTM5jm3vu3/9t7b+ZN035lzJVpdKt4kbZlfirsGt+O7EqT1Xlqtxft/VEWXhut6rZtbiHowMw7eO+5cux5NztowrbXP30PXDmBKfvG7g2hlb37Tccyu8MH7z8s8v++zItPsn3v+77+z9js4lO6V3eWmNYx2rXWqrfzXPrcs2bDr7+x9+WLgw3+n72Zs2LFeZ56t6W6m15kvvlhysfi7n1udZ9fTC+nd+GrRbby1K7ly+4fRV59mhRGlb7dot//hzt5Tu8+cfW15bay/+oLb9no/64daj3fpDE2xfGz+k7hrc8YnjSUT27meNXTU+ezcbN+nk/VNWbhytsWivR5086cvirz8JgWW6Z7TbM7rPBwLBlJW2WWuXCSv+TyWBb57/c/kz6nyVpPvRLYEgW9BZsGMCiQAApDjatASB5DklSVyrrhYglBEgKSkLkBk2UYBc2XwBuoxZSoCSsi1kIl9CEHrs1IOk6jCQWdpJINfjCdBlRa8nS3oig2UOErk/yeS1x+ham4rmokaxfLHZ0vLgydjVFYrT2pyj5chcHGnvQw4+cq899ztyhB++Ueaog9bew9b6YqFpkYbC8orb3efy1qPk4Ufsty7eX2cFxfuJOY7enz4Xm0lC2lKVJCJVP/bihYcfcuRuhx8H");
 
 export default PhoneRotary;

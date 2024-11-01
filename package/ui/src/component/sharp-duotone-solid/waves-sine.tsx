@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `waves-sine` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waves-sine?s=sharp-duotone-solid waves-sine}
  * @preview ![waves-sine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/waves-sine.svg)
  */
-const WavesSine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 416l0 64 32 0c56.7 0 93.7-34.4 118.6-75.4c9.5-15.7 17.9-33.3 25.4-51.7c-11.3-27.6-20.8-57-29.7-84.8l-.7-2.3c-1.1-3.3-2.1-6.6-3.2-9.8c-14.6 45.1-28.3 85.4-46.5 115.4C77 402.4 57.4 416 32 416L0 416zM176 159.1c11.3 27.6 20.8 57 29.7 84.8l.7 2.3c1.1 3.3 2.1 6.6 3.2 9.8c14.6-45.1 28.3-85.4 46.5-115.4C275 109.6 294.6 96 320 96s45 13.6 63.8 44.6c18.2 30 31.9 70.3 46.5 115.4c1 3.2 2.1 6.5 3.2 9.8l.7 2.3c8.9 27.8 18.4 57.2 29.7 84.8c7.5 18.4 15.9 36 25.4 51.7c24.9 41 61.8 75.4 118.6 75.4l32 0 0-64-32 0c-25.4 0-45-13.6-63.8-44.6c-18.2-30-31.9-70.3-46.5-115.4c-1-3.2-2.1-6.5-3.2-9.8l-.7-2.3c-8.9-27.8-18.4-57.2-29.7-84.8c-7.5-18.4-15.9-36-25.4-51.7C413.7 66.4 376.7 32 320 32s-93.7 34.4-118.6 75.4c-9.5 15.7-17.9 33.3-25.4 51.7z" />
-        <path d="M320 480c-56.7 0-93.7-34.4-118.6-75.4c-23.8-39.2-40.3-90.2-55.2-136.5c0 0 0 0 0 0l-.7-2.3c-15.8-49.1-30.2-93.1-49.7-125.2C77 109.6 57.4 96 32 96L0 96 0 32l32 0c56.7 0 93.7 34.4 118.6 75.4c23.8 39.2 40.3 90.2 55.2 136.5l.7 2.3c15.8 49.1 30.2 93.1 49.7 125.2C275 402.4 294.6 416 320 416s45-13.6 63.8-44.6c18.2-30 31.9-70.3 46.5-115.4c1 3.2 2.1 6.5 3.2 9.8l.7 2.3c8.9 27.8 18.4 57.2 29.7 84.8c-7.5 18.4-15.9 36-25.4 51.7C413.7 445.6 376.7 480 320 480zM497.6 256c-1-3.2-2.1-6.5-3.2-9.8l-.7-2.3c-8.9-27.8-18.4-57.2-29.7-84.8c7.5-18.4 15.9-36 25.4-51.7C514.3 66.4 551.3 32 608 32l32 0 0 64-32 0c-25.4 0-45 13.6-63.8 44.6c-18.2 30-31.9 70.3-46.5 115.4z" />
-    </Icon>
-);
+const WavesSine = createIcon("waves-sine", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABtgAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDIwsIAAE2AiQDCgQgBYMtB1AbxQXIBuJ5u6re755ZaRbulRQdjAzKrWhhZadwER6ji8fnOdfzWdMAP2/iQ6mLKi4s6nh+AgdYwddAIz+QmfktbkN3RNNVCc1C4Q50FaXdxwTqlVoFHmz/Ayi/8OU+KOw0AADEFQAAKNmxpYHJdVlXsmrtBVmlHhAAKQXAQAAN0IAABIB8NAQIQMcAdHQE1pXVCutitRogACBmDlLDbW707wQmAAAdAIVC6XqOv2+eg8lJ3+5gsj/UHyvSHNsc9D7ojoh8T21PtxcRB+mLaYKvA98Fesq3lLasvqSOHc887zgg7xJe+jRGN6bveO4lEi56n/jGvyWuJesSYi/98a1bBcFBBnRbnDXXHiQSJSPbV1ttpv2etkDkmedZ9yOpI2MgoW1buZuvfJtimjIcRMReehPbt1+rx/vE137Nsc2ZvdGN0S99Qptdm/+ErB5fpSj44SzMJTp9mfkMCq+6j23FBsUYGE2QEDzBiOK2dx7lFh1RLNu1/Eicm33YtWaxAAymLC0shlF8mC7Y8KPFblkhopTJ964NljuQO19qusJkHLKAqZBxACCAQGpDyd8DLvn/bR0UAJvD/37ij63r6rZqBmxRAAho8dZ49qrbACAUACgquU6oRwNobEV1ONKOPM8uCfbAoTBjDw1/XKFjTxxMBJGhRh7fgobodggW9tVQOHIJGpncgI6FHpjIZyFvxiLao2t68Ex/jtkrZaJinZGSmGzkGs4man4a1Xk5z4j2R19HQzH1VY5zgfNc5RhHOcVVib9MQ+ka56j0cRX8EIMUEknGIBcju7Nu3y7lL3OFU3Zr/ip5GNeno7nunxxThxSHZCo7NDQQJZr751R+JeHKqfPHEj6CYYtqvd8BAAA=");
 
 export default WavesSine;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-robot` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-robot?s=duotone user-robot}
  * @preview ![user-robot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-robot.svg)
  */
-const UserRobot: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 160l0 64c0 17.7 14.3 32 32 32l16 0 0-128-16 0c-17.7 0-32 14.3-32 32zM144 464l0 48 32 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16zM208 16l0 48 32 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16zm0 448l0 48 32 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16zm64 0l0 48 32 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16zm96-336l0 128 16 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-16 0z" />
-        <path d="M80 128c0-35.3 28.7-64 64-64l160 0c35.3 0 64 28.7 64 64l0 128c0 35.3-28.7 64-64 64l-160 0c-35.3 0-64-28.7-64-64l0-128zm112 32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm96 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM144 256a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm80-16a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm48 16a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zM0 448c0-53 43-96 96-96l256 0c53 0 96 43 96 96l0 32c0 17.7-14.3 32-32 32l-64 0 0-64c0-17.7-14.3-32-32-32l-192 0c-17.7 0-32 14.3-32 32l0 64-64 0c-17.7 0-32-14.3-32-32l0-32z" />
-    </Icon>
-);
+const UserRobot = createIcon("user-robot", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAAB0AAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCECwsIAAE2AiQDCgQgBYMtB1AbLQbIhocPu/47t7ufep7RH2YEeqFsqwTPhuJkyySY2lSIZ/4vpzeW1gb5HOj3UNYeQHM+D3t+gL2seNOdSL6MscF5gw+6OpRfIIt307vUkTyf/IxHzf8BjF8NuItEUwog2gGwbv/urSrVqCbxc+0j4mdbEBDrQSGQIsWwACulAsMyBTKZoJrUalSjVisIIOqZfKagHm2o4g9ABhIN6rNssKuryRZM72xu6SjVtWT7fH7zwy/OiPhgSinenvb+gHhu6nsT83hnenkw9t7eG/FM/kD3U27rebr0YN+zZRV0RXBVbRc7sOfpnmf7nul9qnu/q0sdiyqeE6/OK1/SEh8jI/Lbup/KrTHRkwd3i0hVqEYcFjPlShFRnzkoIM0S04d1OJlf6tYcTz87p/Hl9vLv434+97Pta/IOOl57zWsdHflt8g78xrVjrfdxX2vrfd6i49WOR9e0VqutkNnepsOOWvls27eNZcq3cVu53FjoHV1rbTRbKZQKY2NrbY3Z0e427Ujo2jlz7UxhrmW213ybm64QeG3o+PbbsL19Ud1M3EEgeOjz083H21b+31hKwC9f/Pmv6OlaJSpJGY0SEKQzazMdiQowxQDYk7jF+Kic173u1sB+1WbPCBByBEjUywVIDWkXIJObIUCdUYsEqJfbLRVZk9DtaAYSza4HqcVuBZluH4I6K31Xqdcd6eOue1h1f5uZNxfxTWzFvNlzi+VFa1eif4I12vaKYrB76i18aho86ZxrXeMmZ51x0U0FyQ221m921eYueNNvC/PMNldhuWLy4Kp5H67c4EYXm43Td1mhWD4+1S3di6dBX8JWOt+RVEokkXa+JNZZX6191ocz3V02viMA");
 
 export default UserRobot;

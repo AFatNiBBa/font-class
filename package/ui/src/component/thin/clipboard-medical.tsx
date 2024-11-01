@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard-medical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-medical?s=thin clipboard-medical}
  * @preview ![clipboard-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/clipboard-medical.svg)
  */
-const ClipboardMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 0c-37.1 0-67.6 28-71.6 64L112 64C91.1 64 73.3 77.4 66.7 96L64 96C28.7 96 0 124.7 0 160L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64l-2.7 0c-6.6-18.6-24.4-32-45.3-32l-8.4 0c-4-36-34.5-64-71.6-64zM16 160c0-26.5 21.5-48 48-48l0 16c0 17.7 14.3 32 32 32l192 0c17.7 0 32-14.3 32-32l0-16c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-288zM136 72c0-30.9 25.1-56 56-56s56 25.1 56 56c0 4.4 3.6 8 8 8l16 0c17.7 0 32 14.3 32 32l0 16c0 8.8-7.2 16-16 16L96 144c-8.8 0-16-7.2-16-16l0-16c0-17.7 14.3-32 32-32l16 0c4.4 0 8-3.6 8-8zm56 24a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM168 232c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 56c0 4.4 3.6 8 8 8l56 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-56 0c-4.4 0-8 3.6-8 8l0 56c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-56c0-4.4-3.6-8-8-8l-56 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8l56 0c4.4 0 8-3.6 8-8l0-56zm8-24c-13.3 0-24 10.7-24 24l0 48-48 0c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l48 0 0 48c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-48 48 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-48 0 0-48c0-13.3-10.7-24-24-24l-32 0z" />
-    </Icon>
-);
+const ClipboardMedical = createIcon("clipboard-medical", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABwwAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEiDfQsGAAE2AiQDCAQgBYMtBzgbBQbIHoex2+RcFFHe+BCr4Pm0me9LMq2PQUe8DjBxF54euAKq0sYF914h+gZcTr/FUdTrpAhCucZcOBY/tRcmkOhcFgceZolig/NGHGCI7L8CI/MZgQfUXvUK2Jx/qPwklRWg0BoAAIkBAACa9u7ekSef5bPIq/BNkFe0BwRAmgFgEUADGshAAGiARoAMDBYwGAQ+SzjM/gMtCACIl+C9CgAD+IEvwDcAwACg8BpTUVgQcIuDnkjTK+hx+p8oFjmT4sgNjBrsUiV7S84WRMrpsvPpWvaVnit0ZF8tBxzZY3+yyO4iZEnizmBQ1ifvFpGTcFuqkj0JO/Ij5FTSrjTde4V6zLUzESJfAbIjwZFdSSJLk3fvCu5ObhuhiYHgzsQeDm1kJoQ6164CKlsNqM3Va4B4kn4iBXGEk3sLgkKeTheR7yt05NncczHnfns16hWPH18JgVvfjzzUHImNdSwOGD9Cfbnmofip74auXD6sX8N7N4aoNWuinkDAEvf9a20ZBbNSb5nd2/cX/vO/zztkIRFT+PyEz1E2OMQ7m6CrjtPJq71DrHHWIRfUkdh56jBWOrtroouL4VoSu7q4My391wEQQKDV1YQ6g6Mb/PMHFQBf7w1+IvxElqhzgB8FgIAuD5czAKcAsKIAQFrJLHLhV4EAijd4CbZGsAsBQHCAmlJ4cShNOjGUwaGM8pBFTfXKLd3RiAkgJDAQSCkimEpparGQMiRwnfLQgKcZLwmiL3PtRar9y8zUqi1qucyGKl1bz06WlborV63H69vVruJZvK0ErmAUk5nEDEYygrE5WrJpdMzPZCKt5qQt+SGWEJW4WOphd9fum3rh4DSmc/W4Yf8i9bHnx4qZNd+7BHoVgdJq8BQKRMV+YzQ3ga3ivgcAAA==");
 
 export default ClipboardMedical;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folders` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folders?s=duotone folders}
  * @preview ![folders](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/folders.svg)
  */
-const Folders: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 120L0 344c0 75.1 60.9 136 136 136l320 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-320 0c-48.6 0-88-39.4-88-88l0-224c0-13.3-10.7-24-24-24S0 106.7 0 120z" />
-        <path d="M160 384H512c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H394.5c-17 0-33.3-6.7-45.3-18.7L322.7 50.7c-12-12-28.3-18.7-45.3-18.7H160c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64z" />
-    </Icon>
-);
+const Folders = createIcon("folders", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABbwAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBPwsIAAE2AiQDCgQgBYMtB0ob2wTIFkpL8P1aVb5fNVQ7s4i1zOjWESqgI+iTxI6N6DhL4C6ip7935//80wd8/F3H2iCr8r3PE+g8isrGpsJAEkoztN429BrSaUiIlIQ0Vjpe2TkYzpDH/9kVdaQn6Sfc5/8BjF90c4WkKQMQbQEwd/P6lb6pRjXFT7UPiJ+sQEDMA6VAhgw9BZghE+gpVyKXC6qpVqMatVpJAFGPX5yBeuRYgKWAHCQh8rxf91Z1Lfkmfl+xuaW55e3h7/WIeDqsMqiIW8OGRaUo4o0h73QVT4a+OzATXp355cKWeLvH00HN8dGwSu8I2fZG136VtpXf+v506Ccvz96Dpa+0a1e8ohibXrmoR78n+vW4yEJVz5Iq7tF0cNODOdZ26rR2jjk3buRVgqnngUDQu+fef3e3mfFfY6sEfv7sj3/a42rVNCdV0CiBIBtRG2FHmgOhA/hRKS7pl+bYg0Cmn6R/arOHAoQCAZJ6hQCZHtoKkCsMF6BObxMFqFdYLxN5k9DRzgmSZmdBZpLLINfR+6DODN8m9TpGVkhUGVD/uPhFQgtXlWNHjSmnldsGoWuDoMXp5bE+5NIDQ2GnQ0475YKDDjjqAsg5K/OLTlrkwQt9UWmsUcYoTVOG21t+E8k55x1ds/Flpivvx0Nc8scPhfUkwLgnKM+IFFmbQ0lsnx+ZkUo7zaYe");
 
 export default Folders;

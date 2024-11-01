@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tie-hair-long` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie-hair-long?s=sharp-regular user-tie-hair-long}
  * @preview ![user-tie-hair-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-tie-hair-long.svg)
  */
-const UserTieHairLong: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M304 144c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-16c0-5.5 .6-10.8 1.6-16l62.4 0 32-32 16 16 41.3 0c4.3 9.8 6.7 20.6 6.7 32l0 16zM224 0C153.3 0 96 57.3 96 128l0 16 0 48L48 240l0 32 176 0 176 0 0-32-48-48 0-48 0-16C352 57.3 294.7 0 224 0zM209.1 359.2l-15.9 59.2L144 320l-80 0L16 464 0 512l50.6 0L168 512l18.3 0 75.3 0 18.3 0 117.4 0 50.6 0-16-48L384 320l-80 0-49.2 98.4-15.9-59.2L272 304l-48 0-48 0 33.1 55.2zM381.4 464l-95.7 0 48-96 15.7 0 32 96zM114.3 368l48 96-95.7 0 32-96 15.7 0z" />
-    </Icon>
-);
+const UserTieHairLong = createIcon("user-tie-hair-long", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABegAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCIQsGAAE2AiQDCAQgBYMtBzkbKgXIHoVxTGykU6mPQm6PiNBV9ggOpAc9sR7JwLBvIM6AUtdFNkeOgClJrpy6HAIrmSEDKuR9+pt/3nkU4OMIQhvTlgayzovmPE8gwPWnjQ30dVtgieK/neQuMby3SXrKJRk2Z5icoMozWU3xVAFTcaL5xRKPUKhLAOkAcOSes0/1+XSmk5+Gd8hPTkYgR4JeUKLEcgGHKAXLVXpUKmE6w2D+A3sCZAxNtwAVxnELHgBUoFBX1dIVKyYn23pmNWrr5tpnNyXP7/PulhdXJg8uarM1C9LmMUZfH1I+7kUOibRtcliS5LnDPj3uvH5tP0qTc7I87cyVqbusydFpmiPPbdpmT9qce8W5I8VFP8maF7sXf+Uadu7MiKu77upROhOLDjMYbHbLnO70qTOOZp+6s8ug9/rrvcEunXqfo8+Ydc3fOLzrcmfYOWWw96ODF87Qd/xtzK5dYy9ddymadl5qtlWXNog77tL0ELOBIFwwd9N/l84+5LeJtgA/f7h89/B5nxcvYkIBQrlt2OaifA4GHUAtco81zMyCwjVqoF+d4XEB0SCgMKYRUFqmE1BpbBVQW2lfAWMaZyulmhTzXVxBYYbbQWk/94LKfG+B2iG+U8fMTyl4pNiQ/76441ro2LZ+945d/UH91FYoWcJd/eB+Wdh0j41thq2ucatb3OVqV7neXQ1yh1ONu93sOA4+1ox6u+2wS+8g/bb3uH7kane40/VudUtocrD+vLLJPXz2ZpALhLkXS6Egxdzbqm6/6/qrtz8+fvsNBQAA");
 
 export default UserTieHairLong;

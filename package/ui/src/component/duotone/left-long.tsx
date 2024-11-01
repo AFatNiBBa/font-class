@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left-long` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-long?s=duotone left-long}
  * @preview ![left-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/left-long.svg)
  */
-const LeftLong: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M192 192c42.7 0 85.3 0 128 0l160 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32c-96 0-192 0-288 0l0-128z" />
-        <path d="M151.5 102.6c7-6.6 17.2-8.4 26-4.6s14.5 12.5 14.5 22l0 72 0 128 0 72c0 9.6-5.7 18.2-14.5 22s-19 2-26-4.6l-144-136C2.7 268.9 0 262.6 0 256s2.7-12.9 7.5-17.4l144-136z" />
-    </Icon>
-);
+const LeftLong = createIcon("left-long", true, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABYwAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBJgsIAAE2AiQDCgQgBYMtB04bxgTIjpSqq2PFw//v12+f+96fBfNxeZhZMmkuTUwblV8h4cknEZInk8rU1//8X05v4KQD/EaHMjZtPZCxQeao5wkEnOUTSyChgBLPwNqdrR1TsniUtMSSHI/sOB0ukMfb7Jga0u1UwUX+H8D4oq1jJPUzANEEAFOWLlzg2bt4l6JSvU9UzEdATAWFQIYMHQQYLxPoIFcglwvepWreRXVBAFHCT85ACTlGYiIgB0mIPG/VpramYb6EHyqvvNnyekshxLUW11otiRtxuPXSpWdrIxCqZRWIeqhrls+kF0TXuiZ137pU1lXcXFb3+Xmj2Q6ZrdHzT3cvnrSvXN6XE0+rRYHL39Ho1KlGk0mbzdgh3wgEfXtU/ms8/l+92gQ+PPjxJ/yKklSHehIIsv7V/lYlkAgAQIp9uiZ4JpBpI4F3beCGAKGMAElJWYBMe00EyJX1E6BGJyMEKClbKBN5faGF1RUkDewEmZH2g1wL90CN8V54JS0iuzzi0YtPt7SZEp1xrBgycHAxthgWinQfeL8/rpg2e++jQR84a53tttljrTU22iPoXRaEe201U6Nm+KDCEAMNVhirWK5vtSXo7bLbxr6yfsg4xX63t336fB9wksg41IlMRqTImhqUPuDbXMkKB80bxd4AAAAA");
 
 export default LeftLong;

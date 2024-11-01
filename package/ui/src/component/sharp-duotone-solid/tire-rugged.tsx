@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tire-rugged` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tire-rugged?s=sharp-duotone-solid tire-rugged}
  * @preview ![tire-rugged](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tire-rugged.svg)
  */
-const TireRugged: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M128 256a128 128 0 1 0 256 0 128 128 0 1 0 -256 0zm82.3-14.8a24 24 0 1 1 -45.7-14.8 24 24 0 1 1 45.7 14.8zm22.7 87.2a24 24 0 1 1 -38.8-28.2 24 24 0 1 1 38.8 28.2zM280 184a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm37.7 116.1a24 24 0 1 1 -38.8 28.2 24 24 0 1 1 38.8-28.2zm29.6-73.8a24 24 0 1 1 -45.7 14.8 24 24 0 1 1 45.7-14.8z" />
-        <path d="M192 0L320 0l0 41.3c14.9 4.4 29.1 10.4 42.6 17.6l29.2-29.2 90.5 90.5-29.2 29.2c7.3 13.4 13.2 27.7 17.6 42.6l41.3 0 0 128-41.3 0c-4.4 14.9-10.4 29.1-17.6 42.6l29.2 29.2-90.5 90.5-29.2-29.2c-13.4 7.3-27.7 13.2-42.6 17.6l0 41.3-128 0 0-41.3c-14.9-4.4-29.1-10.4-42.6-17.6l-29.2 29.2L29.7 391.8l29.2-29.2c-7.3-13.4-13.2-27.7-17.6-42.6L0 320 0 192l41.3 0c4.4-14.9 10.4-29.1 17.6-42.6L29.7 120.2l90.5-90.5 29.2 29.2c13.4-7.3 27.7-13.2 42.6-17.6L192 0zM384 256a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z" />
-    </Icon>
-);
+const TireRugged = createIcon("tire-rugged", true, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABugAAAKhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDMAsIAAE2AiQDCgQgBYMtB1Ib1AVRlO5BlezHQU7Ga0rcLLLWLo9CXNar8crTtNJTfImH+v1ez+69ASKdKFRhHQdYEJo1+joStjqqujKq0/F/Kon0u8c/vSvEX8BrAG4gp5JrUIx9e7oJj42x5ThEAS+KdfZ1bCauqR/WVCBF/ijRWPre/m/LOn+BAe6efuO1rQ1mOgPb4LzhRBoV0hXS91DjY3mhjXybX3i5/A9gfDUlQ+oqAGIQANg/E7LhpYWtjJvmmrhxCATEAcAiREHBLARbSgVmlVkEqipoZRO0oolFEEC0W25aQDu6cY0PgApSaq91f6a3eqy+jmrL68sk/fU1ytqaWojcmEExTuKN1CJEDV7zFIpwGrMm1CLm5yRKcAZvVZDdors+jVKMCo7iZF/Ax/OYdtf9zkJi6oHFvfskO4HECPKyl9U0gPR65vvdyLH4vF7ubLuiC7sYCpbXO8+JmNnnu2pS2tdKbyyrt16Q4cf8+Je+dF9QLCYSiSmQML5ALocvWe2GBEzRZiWEIenH2ViMkTpQ9/83PPz3X1c3srQ0FSFetGzmN7iFm2S3aJPUIQnXu5TsUOjvT8UKzR8Rn99+lsbcIZbq/y/cysaPhvro5E2hm7QpctsGgEDwa/5T3h3Y+t+JCT6///ll/hlqXlK+Q6cEQVlpHlWCJAAAGY8NJzwRKG65Gq/q9UqA0I0AqV23AMWMJsZV3Za5NvPW9mjX7UipqF3CKDXGpV73uGJTlKtGPXNttrwm7Uaj3MH6/af/P+ZQRJi8jliaXyS2CWsLMW5K1bm6QwS7k752ZApuBR07Gw8tDSOPQLmwcy8riosk+yLCknmLCNuI5K5qDQktFzej2UqvsoMoH07yuadPwaDEJrnqwKIQGWXkodGlnXN59XqtZu5bGGtXrcceAA==");
 
 export default TireRugged;

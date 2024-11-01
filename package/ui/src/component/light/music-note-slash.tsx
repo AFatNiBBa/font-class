@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `music-note-slash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-note-slash?s=light music-note-slash}
  * @preview ![music-note-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/music-note-slash.svg)
  */
-const MusicNoteSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 189.1l147.9-37.6c7.1-1.8 12.1-8.2 12.1-15.5l0-112.9C512 10.3 501.7 0 488.9 0c-2 0-4 .3-5.9 .8L331.9 40.5c-7 1.8-11.9 8.2-11.9 15.5l0 118.5 32 25.3 0-10.6zM320 337.5l0 38.5c-20.3-14.8-48.7-24-80-24c-61.9 0-112 35.8-112 80s50.1 80 112 80s112-35.8 112-80l0-69.2-32-25.3zm0 94.5c0 9.1-5.1 20.3-19.4 30.5C286.3 472.7 265 480 240 480s-46.3-7.3-60.6-17.5C165.1 452.3 160 441.1 160 432s5.1-20.3 19.4-30.5C193.7 391.3 215 384 240 384s46.3 7.3 60.6 17.5C314.9 411.7 320 422.9 320 432zM480 123.6L352 156.1l0-87.8L480 34.6l0 88.9zM25.9 3.4C19-2 8.9-.8 3.4 6.1S-.8 23.1 6.1 28.6l608 480c6.9 5.5 17 4.3 22.5-2.6s4.3-17-2.6-22.5L25.9 3.4z" />
-    </Icon>
-);
+const MusicNoteSlash = createIcon("music-note-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABeAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBdAsGAAE2AiQDCAQgBYMtBzcb+wTIrgZjcK9RQtGTOSmhqCu7a+r1LNNfRM/v95s976LSPGrShDeaaKYRSYlmIfITpdAI3SpWL/fufTrwC+SKdguwZJvOVZtJJXTAP7ju+trrAIRyeLW7P//X1IvnRwf4jQ4t0koPJJIyFvm8wQY4C2+R2Ww4G6iNddZO98Ig+k2SlA8ZtjeMztDyjQv41BvnCfCU3zT/MDJOaR0AMgkAOL5NS8DNnTz9X5IvxIFATgDLCB06zCOwhyuYx7MMmib8KP8fyCBA+sE/p0DDAO7AA4AGSl/j6empxTIpX87LHOFLqm7Ts5YMiFbtZnXpNK8DrRKlI73dC4dj0w3HE99r5zMLIicsrOz7XNmdGizan/lfOh7o8tKz0omygvtn3bxeCy0YLOm3Wp2qTp8tnyqfUFRzNi6wJ22hO+aynX3YHenyAenSvB3F37439FY5FuGjUO7RlJzc5CGXhxcbf3G4fMt7yMI+KRtDy8j57L462Sv6xnXve9EPAEF4Ov3YMBHyqpQD+NvLKx7sv5rgnIJBBUK38e8iv4YF6DYC6ZVOVvgkEMoZPn7VUc8CYhgBpd+wgM4cFQLNsHUE+izyRaDfsEtcaWLErIIGyqhH0Nk1AJpZ56DPnlu932y4KkYrCP3BS4js0YhdzNPNgwWxaaEyWkPG+WC2LDl0hj5HnESlJo3aVShXo73DWyVYHRpESliEL2I8ufHABGHH9ePhTBVatanRpDEtEozd1xx0yqMdoXIw4aZYKVIq1RNd36zPta2+pK0aAAA=");
 
 export default MusicNoteSlash;

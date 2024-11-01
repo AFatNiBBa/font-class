@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-clip-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-clip-slash?s=sharp-duotone-solid pen-clip-slash}
  * @preview ![pen-clip-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/pen-clip-slash.svg)
  */
-const PenClipSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 512l160-32L340.1 363.9 196.9 251.1 96 352 64 512zM191.9 126.2c12.7 9.9 25.5 19.8 38.2 29.7L288 97.9l31 31-54 54c48 37.3 96.1 74.6 144.1 111.9L447 257l33-33 1-1L305 47l-17-17L271 47l-79.2 79.2zM375.6 72.4l128 128L576 128 448 0 375.6 72.4z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const PenClipSlash = createIcon("pen-clip-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdgAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBYgsIAAE2AiQDCgQgBYMtB1gbDAXIhof/1sq/r6p3AkAdZnQELlGoEsvwkYzY8yUrcjN16nnOQwF8DkHQxsK5cGPSMeZ5BQq4KOVNE7hgtZpiL7dNtW2ohPYQCscRitQ7X1JDupN+wfXwP4Dxu3YukdTLAKIpAKauXr7QF7VRm+KX6iviFwsQENNAKZCR0VGACbJAR4UShUJQm6pVaqNaLQkgKkI6gwp5wHxsBxQgCbkomjXoXK9BTaNiFc+pv75nr55Ho2cMiF5xDG8YvHT1itWrY1WsEP76G60i8Mbl0TeWxPux9/tODsy1mff6RZ/YYa5ctVLv7fag6YM/u/6y6xcdP//+U/PRIN8apBjVu11y8fHjrh2xY4f4lrPnr1zl5q07/rLSmTP//78SPH0KFi16O/Js0mbPRjnqfhAI7o16t2Rzkwn/1G2QwK8f/v6NvLn6RTqXHqCuBII8oDrAhnQOMDqAKMUp3Va+aopANkyWPrWhmwKE+giQVNQXIOugqQCF+voLUKOzkQJU1LdcFkU9oaWNLUgaOgqyUU6DQksvQY0Jvg8rWkYGLRIwyB+7uFl9aOa6cuigIeW4crGpUtCC2+Xx5W6+zyk51Bfn2uWwQ07YaYe9TvSQYxYmJx00aw2e6YdKQw0yRGmc8nTnMbeKhscct3eeOb/KeOX9dh+n1if3xVKSMIc5kGUiRW59ZOehga92euDxA1uP7xkIpuPaTjGPJAA=");
 
 export default PenClipSlash;

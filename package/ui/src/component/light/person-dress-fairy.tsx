@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-dress-fairy` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dress-fairy?s=light person-dress-fairy}
  * @preview ![person-dress-fairy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-dress-fairy.svg)
  */
-const PersonDressFairy: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-96a64 64 0 1 1 0 128A64 64 0 1 1 320 0zM304.3 192c-14.3 0-26.8 9.5-30.8 23.2L234.4 352l171.2 0L366.5 215.2C362.6 201.5 350 192 335.7 192l-31.5 0zm0-32l31.5 0c28.6 0 53.7 18.9 61.5 46.4l39.1 136.8c5.8 20.4-9.5 40.8-30.8 40.8L384 384l0 112c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-112-64 0 0 112c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-112-21.6 0c-21.3 0-36.6-20.3-30.8-40.8l39.1-136.8c7.8-27.5 33-46.4 61.5-46.4zM32 32c91.1 0 172.4 42.3 225.1 108.4c-9.3 5.3-17.8 12.1-24.9 20.1C185.4 101.7 113.1 64 32 64l0 48c0 76.5 35.7 144.6 91.5 188.6l12.1 9.5c6.8 5.3 8.1 15 3 22l-9.1 12.4C108.5 373.6 96 409.3 96 448l16 0c39.2 0 75.4-12.8 104.7-34.5c2.4 .7 4.8 1.2 7.3 1.6l0 32.1C191.7 468 153.2 480 112 480l-16 0c-17.7 0-32-14.3-32-32c0-45.7 14.7-88 39.7-122.3C40.6 275.9 0 198.7 0 112L0 64C0 46.3 14.3 32 32 32zM407.7 160.5c-7.1-8.1-15.5-14.9-24.9-20.1C435.6 74.3 516.9 32 608 32c17.7 0 32 14.3 32 32l0 48c0 86.7-40.6 163.9-103.7 213.7C561.3 360 576 402.3 576 448c0 17.7-14.3 32-32 32l-16 0c-41.2 0-79.7-12-112-32.7l0-32.1c2.5-.4 5-1 7.3-1.6C452.6 435.2 488.8 448 528 448l16 0c0-38.7-12.5-74.4-33.6-103.5l-9.1-12.4c-5.1-7-3.7-16.7 3-22l12.1-9.5C572.3 256.6 608 188.5 608 112l0-48c-81.1 0-153.4 37.7-200.3 96.5z" />
-    </Icon>
-);
+const PersonDressFairy = createIcon("person-dress-fairy", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABvQAAAL5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDYQsGAAE2AiQDCAQgBYMtBzkb6gUjEbZqLiqQ/ZGQk7myf4hC49GxIvZEc4wEz/N5b+e+nyppnebP+FVOqRFWNH5H9kpLbYUVA+B/rvn8nh8d4OcjOJQq6kVr2az7+QkMOKJ0IKMCH9LAeVPuHkmbX7y9vHcEhvyWdPxAbVJPgVXdU8kHajMfheEBAEDCAQCA6k7t2nLzrbwVefr/HPKU1oAASCMAjQAe2L8eAkAZHoQ8AgMNGBgIvJX//9v/QI0AgPgz/CoFgAEEAs+BNwCAAYDC3zCiQoJ7zizMt/xCjI6WnzlomVekRuY4PnOpvZ7Z0RssOZdyKPlg3vnUw2lHCtvvrdVeLOkomxNNsUxrWfS+2h1kg73eNgVZb/sckZlEN/m8nWRLUo3V92VLkUfV6+3rrR43Q2ZnnCqPtvoUW65qSx5UbrCQh01MWer45HXj6zmnO4rM8dZYfXzOndZPOi2L3gDywj1ZdqvDbHu9acr9ViLLvNeaWrK7whGf1ys3ck+IyN0WD8tiD4cf/hTzdOBTKnuFLobFoTAri+/tZjZsmOnCeWE3eg9IWsxREhczobfuQs4fqz2xqXLZsq8Oowl9+zZ0NFWz0+GrUKqU3re99ccJm9WELbB1zOuj6cVFN11KVo3edZFNw5ZjmeGcvKkNTdjbcKIm0rTfr/P7qXaJhEmzj74es3VLk6SPC9X7z//q1xQ+PJy3YRpD3zwZjmktZ9imi+wavarE5WZRMUk6AAggMNa5uaFXWNmvQEsB8P7yl1/jzf9vqtnqMBCIAkDAk/4/vbuaDZDhBQAiSibGKmQhbHKfveQLxucaE0xYQeGPCR7qEg4GJmngRwPyacPR7fAgRhCCTQ8IimDGgIcCZoCBzRnwo4wHYX9s8VzY7GXJ/lcmTTQjkaa9dHamq0u0NGvmrlW67i7VxmryxLwqBc5k4KiR4wf0HzKewMa2jU0Y0UyFNv2izs50dYl2LsxKHYnw2HFDxIK7nVId3pc8Ud04BRqKgTAnSaFAVORzoGR8KOSMO1aeAgA=");
 
 export default PersonDressFairy;

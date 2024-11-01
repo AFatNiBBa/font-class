@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-vomit` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-vomit?s=solid face-vomit}
  * @preview ![face-vomit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-vomit.svg)
  */
-const FaceVomit: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 256c0 72.5-30.1 137.9-78.5 184.5l-16.7-5.6c-11.9-4-21.5-12.3-27.2-22.9c16.7-12.6 26.4-27.7 26.4-44c0-44.2-71.6-80-160-80s-160 35.8-160 80c0 16.3 9.7 31.4 26.4 44c-5.7 10.6-15.2 19-27.2 22.9l-16.7 5.6C62.1 393.9 32 328.5 32 256C32 114.6 146.6 0 288 0S544 114.6 544 256zM148 141.1c0 2.8 1 5.5 2.8 7.6l36 43.2-36 43.2c-1.8 2.1-2.8 4.8-2.8 7.6c0 9 9.6 14.7 17.5 10.5l89.9-47.9c10.7-5.7 10.7-21.1 0-26.8l-89.9-47.9c-7.9-4.2-17.5 1.5-17.5 10.5zm262.5-10.5l-89.9 47.9c-10.7 5.7-10.7 21.1 0 26.8l89.9 47.9c7.9 4.2 17.5-1.5 17.5-10.5c0-2.8-1-5.5-2.8-7.6l-36-43.2 36-43.2c1.8-2.1 2.8-4.8 2.8-7.6c0-9-9.6-14.7-17.5-10.5zM32 448a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm480 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM192 396.1l0-57.4c23.6-11.1 57.3-18.7 96-18.7s72.4 7.6 96 18.7l0 57.4c0 31 19.8 58.5 49.2 68.3l34.1 11.4c7.6 2.5 12.7 9.6 12.7 17.6c0 10.3-8.3 18.6-18.6 18.6l-346.8 0c-10.3 0-18.6-8.3-18.6-18.6c0-8 5.1-15.1 12.7-17.6l34.1-11.4c29.4-9.8 49.2-37.3 49.2-68.3zM304 384a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm-48 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const FaceVomit = createIcon("face-vomit", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABuQAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDRwsGAAE2AiQDCAQgBYMtBzEbyAVRlA5GhuxHgmOs9CynoCYIXJLQCC4PSfaXPomH5++H597/FhW+UVLzMIUbaD4rgmiQ4TBKJ/D9/9/ce3xOX410Ic2pZmgkR9K2R7MZm6HQ9P8Z9973qclKgKsTmAAmkEmqP5SdJabN/+X43tHR0QF+u0FwKHvX9jWod9RcAj1PsHxbL7BpYZYotrjtKohoiCMk9lDivTrFJq/yBmfhQ+PfiC+klgpAdCMAG3vjjvof+ol4ra8hXm0iAbGBMI1RocI4BsuEwDjZNFIUwU/UtfgPBAogGiWnJShoxQt4Y/7opOZSZkYMXccFPl/IFrOShGxBcb0t0aKvOU2rL+hMeO8nvXju6g5b9Zma0rH9Mr2HXETfJ79G3gadJebVq/mRL/WhXq1fI5kGqUE9iQZU+5CfkJwgnUSSHE77U8AOI7YUtKoR9aNetU/Qoj7AmOgIxYVDJJnFFnGNPAIdRFx5geq1hs3cqF9tyFRE09qDGh40ozNKyX2qU2aQGFD3zYTu/oznZfMf5k3RDQxOPKKAKBc21DsbefLrqxCE4OpazmusM2fDJSrKAxGaWt0NEYhAQ7eWJiJay1gm3vCGMZsbF5yX4oAKHr+8iuQFx3E5/FSHNFfO51WkTqE4j218EDFhNcdV+kqagCZJ2SKmKGkiwMUruUHQ1FSQFzQfz5N0sCGSURpIJtrQQdL5o2axUCmRKInxrxmMBwCATitbdf/Llvp+8YSyEvw9fP6yF9d9ruc8aJYgqGbrWfMMRAgqA8WME9bOFwXSDZ7kXdudIxBaESA1ahWgMkbBoGg1g0GDSQUGjVptEaK0CP0WPUjt9kFlyQcU/X6gwbJ/oVF/CFgWIFH4lUxtx3CzCUkYY4jNllYET86ujnDatd9yxME7ae3i7Gllaec5wu668stJu4c2fggSoRgM4Xb3uTqjxbuH3bp4fx0jeD9re+9Pd3AgSWjnRFIS2fqlNATvy2n3BA==");
 
 export default FaceVomit;

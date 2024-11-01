@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `apartment` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apartment?s=regular apartment}
  * @preview ![apartment](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/apartment.svg)
  */
-const Apartment: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M176 96l0-32c0-8.8 7.2-16 16-16l192 0c8.8 0 16 7.2 16 16l0 128c0 26.5 21.5 48 48 48l64 0c8.8 0 16 7.2 16 16l0 192c0 8.8-7.2 16-16 16l-128 0-32 0-32 0 0-48c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 48-64 0L64 464c-8.8 0-16-7.2-16-16l0-288c0-8.8 7.2-16 16-16l64 0c26.5 0 48-21.5 48-48zm16 416l64 0 64 0 32 0 32 0 128 0c35.3 0 64-28.7 64-64l0-192c0-35.3-28.7-64-64-64l-16 0-48 0 0-48 0-80c0-35.3-28.7-64-64-64L192 0c-35.3 0-64 28.7-64 64l0 32L80 96 64 96C28.7 96 0 124.7 0 160L0 448c0 35.3 28.7 64 64 64l128 0zM352 336c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0zm144 80l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16zM128 336c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0zm16 80l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16zm112-80c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0zM368 96c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32zM256 80l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16zM368 224l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16zM480 336c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0zM144 224l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16zm112 16c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0z" />
-    </Icon>
-);
+const Apartment = createIcon("apartment", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAAB7AAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXSFEQsGAAE2AiQDCAQgBYMtBzAbkQbIBv4pnfn+SvbcrY5hLwRAlbtwC6xJi1XS+n8u9/zs/J6vL36TDmWs1rSyaGyL9gK9570oDeekSLKEEuNGt10VEQmRsQ5X4Ouz9hABc9S8AXa7D9VP8tkAhogHAIDSAACAtoP79yQWKpRexx+CXtMdEIDaAuAQ4AEeUIQAaIGHgCJ8HODjIwgVj7P/QAcCAEUJqOGQD6SCyoPqw3gZGJJ9v0HNtAwtUUX6gsjINkhtt8OFDucGOpiNjmYfrFhfdiDLWmltziG7LesAyNpDOd6eMy7nHi4cGtjky9WvF0rHql2rxPU6rgtVruTtVMwPjI5WvVoxGHw4VzqUY3UgCx3MDgaKrk1L/Y2TbIM7DIYZDbKBxeq2KufZBvY3bvWlctfSrv0uezPpDbdHO+dSwhhhyhq8t1/qtKl9MUZFa9rUIWXLlpT0mDq0WROmOFLCNtT58tZLPd0mZJ9JT7cxrC04k1anDn3qQIyZmKNOmlFMZM3p2+fCDoTv7u2ca2Fu0uze60JTJ8z+K+Zws1Odc3rK7N13sM2e0ns2Zkt9HwAECE6+G7lkdGqLfwmBAeDHs7//y9eJx0wbcw1IwAAg8GrEazDCtAFgE0RIGC2i3IpTPUuFJBO2JnEIASAsYMAQxYJHIWngY6kOEUpoqOzc0h8P+YmILEYCwZDEXPBoxErwyeI+RGjB83iULHkvjPa4a/+r2Tv1kY6zXN1adVwzt1hS6++Aokebu93+Kot4S1W4kknMZhYLmMgEprKgh82jZ2ohM+m0Ru/4XUddalEHRzPc6epj+yCcmMd8ps7r563QHHd/tAqL1rtXhSFDEK3HAoMBmcTvjwAA");
 
 export default Apartment;

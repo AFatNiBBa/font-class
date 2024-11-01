@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eclipse` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eclipse?s=light eclipse}
  * @preview ![eclipse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/eclipse.svg)
  */
-const Eclipse: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M371.1 13.1c-1-5.3-4.6-9.8-9.6-11.9s-10.7-1.5-15.2 1.6L256 65.1 165.7 2.8c-4.5-3.1-10.2-3.7-15.2-1.6s-8.6 6.6-9.6 11.9L121 121 13.1 140.8c-5.3 1-9.8 4.6-11.9 9.6s-1.5 10.7 1.6 15.2L65.1 256 2.8 346.3c-3.1 4.5-3.7 10.2-1.6 15.2s6.6 8.6 11.9 9.6L121 391l19.8 107.9c1 5.3 4.6 9.8 9.6 11.9s10.7 1.5 15.2-1.6L256 446.9l90.3 62.3c4.5 3.1 10.2 3.7 15.2 1.6s8.6-6.6 9.6-11.9l9.6-52.2c-10.3-4.5-20.2-9.9-29.6-15.9l-7 38-79.1-54.5c-5.5-3.8-12.7-3.8-18.2 0l-79.1 54.5-17.4-94.5c-1.2-6.5-6.3-11.6-12.8-12.8L43.2 344.1l54.5-79.1c3.8-5.5 3.8-12.7 0-18.2L43.2 167.8l94.5-17.4c6.5-1.2 11.6-6.3 12.8-12.8l17.4-94.5 79.1 54.5c5.5 3.8 12.7 3.8 18.2 0l79.1-54.5 7 38.1c9.4-6.1 19.3-11.4 29.6-15.9l-9.6-52.2zM256 128c-70.7 0-128 57.3-128 128s57.3 128 128 128c13.7 0 27-2.2 39.4-6.2c-6.5-9-12.3-18.4-17.3-28.4c-7.1 1.7-14.5 2.6-22.1 2.6c-53 0-96-43-96-96s43-96 96-96c7.6 0 15 .9 22.1 2.6c5-9.9 10.8-19.4 17.3-28.4c-12.4-4-25.7-6.2-39.4-6.2zm64 128a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm320 0a176 176 0 1 0 -352 0 176 176 0 1 0 352 0z" />
-    </Icon>
-);
+const Eclipse = createIcon("eclipse", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABrAAAAK1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDMgsGAAE2AiQDCAQgBYMtBy4bsAXIBqKypT379wLAEzKY6C3LERBGhJArVDnFCPiNunT8v6d0wDMKyn5KpYad0oF650wEAphQ/jDplAk+yIPFIooxctseTTNBLTS/zg1o8kdiMYI6oN4B25iu5CPerAaFZgAAQJwAAICijpY6Hk3KpMg783WQd9QAAiDFAOgIYEDUr2GF3JsRwA8NHdDQEJgUs5n+B+ogACAWCFmhiQZYAFeB9wCABoBC07T2QF9fW6O91m5rtJm212OvW6u0C8K7c2ur7Jbd2yT3PdY22SN7dhQ993mGyMKwX+ZbjApZqkP2Wf80EPavVIJbn+WK3NMP590v2xSx5OBumxvRZwIOxpzN2OSef+KETduKBJGLOXdtN2XdjjvP8thzmbdsNmbfib8g9iviRS6UqKONPvRjDOOYg3lnJlyU4DNOZz4HvZv6DtMVzxHTWFceij42vNDTdRazXFmQHlGR1wXJV0SkL2gpfZ1LKKYRz118n5hCfTqrV5vjzv147+h3Jr2eykqilIUdUU79U9pMYeL7LpOpsQRSjcbUkkZ39y1Lj9guP3PGyurMmeW2R5ZucXcvWBahg+7qEh7u4qrrEbwjUytMXAzT1u2Lj9+3btriRHTgfQAQQOBs/OjEgGPuNytbBcCHO1+/+RfN/80P1HJ1BrBCASBgiDXH0quWT4iwBUFUlIwTjC8SQHEWDejVjr0IAIINIAAoLLBBADDgixMCgIYNMQgARgJIQwCwwIYWDIhmjeBGX0UUdiwgBtJZQjTcuEqM5PKybIGbGM5g3/nn+38sXN5kyvbpSfGJerY+2lH4T0rP5GaOvjgWOZ5PRIHKVOYxlzGmMMoMxhouE3W1RcyhfMpSxg/RSSKeRHSy0Tf3755uZwomFjKDecylu+SgH5+OZHx6fhSSCuE2mXqFAlGWUz4HkSkA");
 
 export default Eclipse;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-j` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-j?s=regular circle-j}
  * @preview ![circle-j](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-j.svg)
  */
-const CircleJ: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm80-360c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 136c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-8c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 8c0 53 43 96 96 96s96-43 96-96l0-136z" />
-    </Icon>
-);
+const CircleJ = createIcon("circle-j", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABeAAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBdgsGAAE2AiQDCAQgBYMtBy8b9QTIjpQuZyTx8LxdX+e+qv4DqMZmBmDBjEToaONOe/WQqZvnnUcBPlhioY2FSwNpg+x1nkBi3WtTE8kCyzQBS7fJPOyIROiICAmSiI7P460N8ngxriiRbk0f4bI8NP7SxAmSUgYgagNg9MK50732W/wW8WH5aeJDUxEQo0EhkCFDcwGGyQSayxXI5YLfolzmf2BBAFFBn5pAjhJWYCMgB0mW582aFdVKNfIF1UpVl54fHPF878cd6fXYoOeqnhvyQp8n4mjfJ4e+WC19OzPi07FvxtExb8z4ZMFX0z4a9Zojo1+f/vH8pbd1uKuxuKX+De3uaXhT0wh7xZ2d7+//bNcHW0WbB2o/8E8fbfhI+fLgv/jztccGDnzstf8azAGGfzbeFa4ObT52bPOhV6+MR0FaMHNjg9mzG5yRffxTr14/fZxVBmdllR944MiRiq98Bohzxz7Sd2WtYf9XrpbAHy/8R/uKyq8l6QFUlkCQdSt3syyBRAAAUhzQJkEgWSAjd63uJgFCVQRIKlQVINNMbQFyVXUVoKSl/gJUqGquTORVhPqWD5BUtxtkBjgIcvU9CUqGeVerUD+yGKMjhH7hJUywyPiponePXsWQYhnoTNiQeTi02BY7HUiFzoDaYKcd9llvnc32GWyP6eZ+203w0PFeVOith14KQxTH8fP8AuvtsddmO+0oY4Yq7qudHPDrO0NJlLAPV5KIVPkrjtR9CwA=");
 
 export default CircleJ;

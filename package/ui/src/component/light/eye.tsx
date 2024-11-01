@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye?s=light eye}
  * @preview ![eye](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/eye.svg)
  */
-const Eye: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M117.2 136C160.3 96 217.6 64 288 64s127.7 32 170.8 72c43.1 40 71.9 88 85.2 120c-13.3 32-42.1 80-85.2 120c-43.1 40-100.4 72-170.8 72s-127.7-32-170.8-72C74.1 336 45.3 288 32 256c13.3-32 42.1-80 85.2-120zM288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM192 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z" />
-    </Icon>
-);
+const Eye = createIcon("eye", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABlQAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCSAsGAAE2AiQDCAQgBYMtByobQgXIHge5qemeKBaXVkwRRLSWVc9OAHhCRIoemWTcRT4QayCLKuv+9uzYDoSeJUqrNLIdHp5U/c819ZKPDvAbHVoUFlWuwTt4AhO5eL5osYHNJopzm26TedgRhl9ESJBEdPd4vEEHoOWT5OEB6oJ6AxwrbyW/iGE3KLQFAIAEAwAAzeMG+nnwXb6LvHGugryhFxAAaQHAIICFsngEgDosBOwBaAyg0Qh8F8eR30ADAgDiif4fKAA04AnsB44CABoAhdY6NTMuzs8jQA/7efhOul0LcrvzafXN6pAdYniWz+pVve1Zza2amBNjVW7KRU+qRG7U7bwcjSNEfqk/1aP9ee3txlfY4likLKgNt2Z2DO6IA7mU6fwOpZsYwfZonqZ9D2bYWCl+O3JAXDnR92CWz/Jszw7Zwe9QbspNkuIKjn+S38x9w+rKwFMw0tQ0cgr3tM6fb5qbU1T2vAc22MVm5szR3t5Rqppi2/4jx8ht8nbptG+xT+Hp5MUxMYsnP30aa9q47HuqP/h//JCS8uGjv38q2vA6AAggsKm8zp5m3Zi3nwLg561/Y/VKx+18V63KBXijABCw8pw8JqsmB/m/FblLKGtJwSchgGI7GnX8ObvbEnyhg8ITX7CIIxg0vuSCB4mUs4vZA1iI9kEIZwpA4c8KsKhgC2jCuQwe1PG87km4WMHIhxL/FEzpsHj7PlNcUGRqzLStCfHF5vVas6xmrU1j2ShnLstYymrmMJsFrMbQK+lvrWEJHR7VzhcxFFNAEYYazHbvsXiYOaxkFQtYxlLZpRZz3slirT87G4ZCGUtIFYo/ic05G+YAAAAA");
 
 export default Eye;

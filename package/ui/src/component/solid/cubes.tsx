@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cubes` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cubes?s=solid cubes}
  * @preview ![cubes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cubes.svg)
  */
-const Cubes: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M290.8 48.6l78.4 29.7L288 109.5 206.8 78.3l78.4-29.7c1.8-.7 3.8-.7 5.7 0zM136 92.5l0 112.2c-1.3 .4-2.6 .8-3.9 1.3l-96 36.4C14.4 250.6 0 271.5 0 294.7L0 413.9c0 22.2 13.1 42.3 33.5 51.3l96 42.2c14.4 6.3 30.7 6.3 45.1 0L288 457.5l113.5 49.9c14.4 6.3 30.7 6.3 45.1 0l96-42.2c20.3-8.9 33.5-29.1 33.5-51.3l0-119.1c0-23.3-14.4-44.1-36.1-52.4l-96-36.4c-1.3-.5-2.6-.9-3.9-1.3l0-112.2c0-23.3-14.4-44.1-36.1-52.4l-96-36.4c-12.8-4.8-26.9-4.8-39.7 0l-96 36.4C150.4 48.4 136 69.3 136 92.5zM392 210.6l-82.4 31.2 0-89.2L392 121l0 89.6zM154.8 250.9l78.4 29.7L152 311.7 70.8 280.6l78.4-29.7c1.8-.7 3.8-.7 5.7 0zm18.8 204.4l0-100.5L256 323.2l0 95.9-82.4 36.2zM421.2 250.9c1.8-.7 3.8-.7 5.7 0l78.4 29.7L424 311.7l-81.2-31.1 78.4-29.7zM523.2 421.2l-77.6 34.1 0-100.5L528 323.2l0 90.7c0 3.2-1.9 6-4.8 7.3z" />
-    </Icon>
-);
+const Cubes = createIcon("cubes", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABggAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCVQsGAAE2AiQDCAQgBYMtBywbUQXIjpPlZjJLPDzt7/lfe855gOcBRnIDmys/1BwaVJngmyEc+NPfz/Of9ukDPv6uGSuKxijbjTLPJ7DzUaRl2YBmw9lEcdfmYCoJ9ZB2H9q2UMaXxSVVSHfSF7hBPjR+1MIlkhoFgKgPgPFLF8720XfxXcTnlVfE52YiIMaDLFCgQGsBRikEWitllErBd1GpTP+BmQCiquf5CZSogRN4DChBUq0saw+oUbtGzdq1qtQpl2zX19y6eMniRbEklsatJouEy40XxcvW4sHgxfGo69Loxj5pF/FwyJK4WfN8MPvjTil0nnPpohi7LapBX7gIiUVLBeeQUpbHucYdntd//rMvtnyhw/XZvc557Yw0SZLz3Z77jtVS/bUdtW1yVKq3trvl2/f1s78fZqSU/4ujmrT1Resn9h2OoUNjQ5XD89u+Q5ab386Kn7rObvM657U10iRJzg0/33Qw7rR15nf8/fOcR9MY2vxslte2yfmalaqMBwJBtwv/HFhbb9Rv1Wsl8MM7v05OV3k3jUvPUV0CQdGr0suqNA4magCRFEd0CHxRIDmgmudda7spQKiJAElVNQUotFJfgFJNPQWooq3BAlRV00KFKGsIja0WIKltPygMcRqUGnsBqhjl43BVjaMASR6g+D/ClCkqNLlf7t+nXx6RvVlMgDJ27x6Zk23djsxV3fECW+y1xyGbbbKd0Ap5wOzYYbtNCRGT/VDWXx/9ZCPk4oLmEEtsdsBB291SeS8j5fbebo6EG3fHg0mAAR+TmTMiVdl4eMPmgwAAAA==");
 
 export default Cubes;

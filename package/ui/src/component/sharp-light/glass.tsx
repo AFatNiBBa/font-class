@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `glass` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass?s=sharp-light glass}
  * @preview ![glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/glass.svg)
  */
-const Glass: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M42.1 128l299.8 0L314.4 480 69.6 480 42.1 128zM39.6 96l-5-64 314.8 0-5 64L39.6 96zM40 512l304 0L381.5 32 384 0 351.9 0 32.1 0 0 0 2.5 32 40 512z" />
-    </Icon>
-);
+const Glass = createIcon("glass", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABUQAAAHLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBBwsGAAE2AiQDCAQgBYMtBywbgwTIHoPjbokIdXX1ek5ez0MAQyk7gmi/3+y9w1QTXokaP6GSknoMhG6VEvCD/eY7zCt+iMikQpuKtLRkkmjT0EcoE8u/VJknznW+89EAyzbxoUVhJUgBZXyfv8CLhTfQc9qDTRRft4kdekSxLyJESCI6Lqnj6gQ5tigMKekxxXn90fjT5ZgkFwCIRgDA7klTDUrlKAe9/l8Rn/ZBQOwBGEQoUKAXgQ1igV4SgyDLgm8SBP4PZAggyoFnSCCjDBNgAUAGSZElSqVWLdVKWtVSVZdWo20nFXWanA6nlpg0ImN2kVkOa4zU4TwxeHccbWo7nIjmPn/MpYE6bCXqxD/ij/W8YQCfLsD9BRAIRl9Pb0r66n+FWgT4vf/81u7+L8V+gkoJBMWsENYd+8D4APwUq3A6EwskA8SAb611J0CoRoCkXLUAhR4GBLJqMwiU6ZdBoFy1A2KRlQitegac1DqDC+t24KzVBVxmw4NfrjXEd4WJNPNVSyxqoLCLE9E4V/K00NnwU3mzipcl/6oMAnQUo+bMWjZi2IRlBS2qiVbMKHpgwYRYQlQcq8Tb9XZ/qxGLlkyYM1u2qcLnPb9Vf36AVBGQLosliUjSlwEAAAA=");
 
 export default Glass;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `seal-exclamation` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seal-exclamation?s=duotone seal-exclamation}
  * @preview ![seal-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/seal-exclamation.svg)
  */
-const SealExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M4.4 256c0 12.3 4.7 24.6 14.1 33.9L64 335.5 64 400c0 26.5 21.5 48 48 48l64.5 0 45.6 45.6c18.7 18.7 49.1 18.7 67.9 0L335.5 448l64.5 0c26.5 0 48-21.5 48-48l0-64.5 45.6-45.6c18.7-18.7 18.7-49.1 0-67.9L448 176.5l0-64.5c0-26.5-21.5-48-48-48l-64.5 0L289.9 18.4c-18.7-18.7-49.1-18.7-67.9 0L176.5 64 112 64c-26.5 0-48 21.5-48 48l0 64.5L18.4 222.1C9 231.4 4.4 243.7 4.4 256zM288 352a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM232 152c0-13.3 10.7-24 24-24s24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-112z" />
-        <path d="M280 152c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112zM256 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const SealExclamation = createIcon("seal-exclamation", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABmgAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCTAsIAAE2AiQDCgQgBYMtB1wbegXIjpSuzlQ8PNnx77kz+wDvh1lBjtSBaKEyqeJObAF3H0X8P3G58z//DbjwxR9lr8aktQH30gQCzvJsi0QBZpqBNThv4EGGMoT09AsU8Um+QQXp0fQe7g7+BzB+1eMGkpoMIJoBsGz75rXe+Cq+SvHe2ReJ96xBQCwHpUBGRr8AC2WBfoUShULwVTqbr+LskgCiUvB5GVSiCjfjHkABkiQXRX3bsrb6uoqGYltdRe3xx0Y/0S0eHfV0X2y5vSvi4bi286Ha29ofcE3Hg3Xbr+lYFOLRjgdH1cWieLDu9q4lURdPdz3cF7FkY3lxRDy2PTG6NmrhkLcwIO2J9ge6RdsDDl7THoKb4ha5bdwB7uj1HQ/a9viYJ3vEIyOf6o3hzzU/9/uw9469p2tMx8aNHRfJGV0/Nt7CLY0d7AXy621/vG+p/P5nU5d53+9tbb9/bqmpn72fl/rcF/3cF59ZtiZAAaLvWwYv89mevv1Xbs55883ngUDw6fOXfbS/aeH/1XUJfPPSn/+WP6TirDiVnkO1BII88exEexKFIk4JAECKKwxPfKUQyA7Ionet95AAoRYBkkq1AmR9mgUo1JogQIVBswSoVGuzLIoaod3elkjqXUxks11JFNq9QFRY6M1qpfbI6lFSTdLXYPrqPrDqWDlt8tRyfrnYUctKTHA3F5S7/bFX8Ilx8KxjLnSByxx1xEmX9fBLrG1c7nyr18BVvqg0zWRTleYrT/cf69t61Utc6uS8ev6QBcr7s2NdsT5/HIwkEet0J7JMpMjdNn9y0o8uwoPnGzF7kuKe3Tup6mQA");
 
 export default SealExclamation;

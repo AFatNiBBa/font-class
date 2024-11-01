@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-xmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-xmark?s=light calendar-xmark}
  * @preview ![calendar-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/calendar-xmark.svg)
  */
-const CalendarXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48L64 64C28.7 64 0 92.7 0 128l0 32 0 32L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-32 0-32c0-35.3-28.7-64-64-64l-32 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48L128 64l0-48zM32 192l384 0 0 256c0 17.7-14.3 32-32 32L64 480c-17.7 0-32-14.3-32-32l0-256zM64 96l320 0c17.7 0 32 14.3 32 32l0 32L32 160l0-32c0-17.7 14.3-32 32-32zM299.3 283.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L224 313.4l-52.7-52.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L201.4 336l-52.7 52.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L224 358.6l52.7 52.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L246.6 336l52.7-52.7z" />
-    </Icon>
-);
+const CalendarXmark = createIcon("calendar-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABiAAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCNwsGAAE2AiQDCAQgBYMtBzUbPAXIjsM4hvwSSzmLeHjar9dz573QZ5wgUhnRRa0rGrGtZBW9yfxbO3FN/vvzpwds0keJxtKodVDH+WhAEx0WRQPPBjbTCdjMTSOT8JLlhiCnWAnSYWuGrQco482YYQTp9fQ7nu0fGn/r9RBJWQCIFgCsPbx/p0o1qhG/1yJ+tx0BsQ5kgQIFBgRYoRAYUMoolYJq1Gr4D8wEECPpnRMoMRL34hFACZKyLBe0tuX6EY3loXx03fFXul7qEHXx0ZTPeoRI8frUzyc2xqfTv+wvQnBvTPtiUl2Irm3iQGNDY4r7Ol6qa4gnul6J4vCEe7LzZaIq4v7uV+sPvrqLduyJfQHcS517Y0/gXu7eH3uDbi/aF/vHfdHyxb9jXcK93zZVq01zZO+1ttZlGXWtre+tYQCYg2wOV1bFnNPf3qeFND32WNMaOIZPrxHWSNl9sqq/zr3xxuefr1do0LZygQX4dhAI/lj3naebV5wfXZ/An+f+P6/+imqVqKQvMFoCQTGjNsOJqEBUBAAgxS3GRQWB5FYlfdcGrwgQ6hAgGalOgEK/FgFKdaYLMMKQhQKMVGe/QpRjhA4nB5I0uB4pLHI3UurwIzLCCj/FR+qIIgb5COJ/AVM2MbhxXZ47a05elh8bTAgrtiwuz251yi1pYKpsdIlrXeMmF7vI5W4i+AY7Uze72qYTtNEXZXPNMke2TL5uvyqHiIZyY2P34v0yy+X3zSluOY+fKkailPPUJIlITZ+oNvO2gAUAAAA=");
 
 export default CalendarXmark;

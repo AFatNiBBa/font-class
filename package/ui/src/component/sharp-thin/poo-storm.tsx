@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `poo-storm` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poo-storm?s=sharp-thin poo-storm}
  * @preview ![poo-storm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/poo-storm.svg)
  */
-const PooStorm: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M167.6 0l11.2 0c41.8 0 79.3 11.2 107.3 32.3C312.9 52.7 330.7 82 335 118.2c28.8 12.1 49 40.6 49 73.8l0 13.5c37.3 13.2 64 48.7 64 90.5l0 96 0 8-8 0-82.7 0 10.7-8.3 0-7.7 64 0 0-88c0-36.6-24.6-67.5-58.2-77l-5.8-1.6 0-6.1 0-19.3c0-28-18-51.8-43.1-60.5l-4.9-1.7-.4-5.2c-2.8-34-18.6-60.9-43.1-79.5c-22.2-16.8-51.9-26.9-86.1-28.8C194.5 28.3 200 46 200 63.4c0 34.5-24.7 54.1-41.9 63.6l-1.8 1-2.1 0L144 128c-35.3 0-64 28.7-64 64l0 19.3 0 6.1L74.2 219C40.6 228.5 16 259.4 16 296l0 88 64 0 0 16L8 400l-8 0 0-8 0-96c0-41.8 26.7-77.4 64-90.5L64 192c0-44.2 35.8-80 80-80l8.2 0c15.1-8.7 31.8-23.9 31.8-48.6c0-17.5-6.7-36.1-11-47.8c0 0 0 0 0-.1c0 0 0 0 0 0s0 0 0 0c-.7-1.8-1.3-3.5-1.8-5L167.6 0zm-1.3 486.9L188 400l4-16-16.5 0L128 384l-16 0 0-16 0-8L267.6 239.8 288 224l-6.3 25.1L260 336l-4 16 16.5 0 47.5 0 16 0 0 16 0 8L180.4 496.2 160 512l6.3-25.1zM192 368l20.5 0-5 19.9-20.8 83.3L320 368.1l0-.1-64 0-20.5 0 5-19.9 20.8-83.3L128 367.9l0 .1 64 0z" />
-    </Icon>
-);
+const PooStorm = createIcon("poo-storm", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABnAAAAKxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDNwsGAAE2AiQDCAQgBYMtBzAbtwVRlM3JDtnHYeOMvkXFwoirclcVYTN+4uH/7aLu+1XdA6jORKYiITMyRfLuZlQoh4jbirF1C36HSjKZbolESGKleyJTVV88i5f486HpxDX1c5G08+QRDC0yONK7znc+HGC0V4GXpU8HSGPd7mwmlNJcWhJBy3HuuJhDHtesUiJdSZ/gVLrT+EczR0myDEDUBcDwuTMne+/H+DHi48pT4mMTERDDQSGQIUNLAQbJBFrKFcjlgh+jUnH/gQUBRBmdawI5SniNjwE5SLKmStULuEVtVJVFzQ1hGWTvAyfeGcFJ4sJLIDC7AQiAvu8y6gKY6Jrvus89FGbNpo6hwwHmY/zcQyA4cPScE4gQhGeRuoohsHknLZi4J/65r48cM3a5qpVixb2pqcD28qAIB0QIxNFh+CvCMpBWpnRmPyoAfkjw0nL5G/hkzSfOXkUkf3eyWfv42lub7t0mVqmzTFVVZ95R1TDztPwvOzFdWQON3n0QHaZk5sR2PXc2r/b599/VlarfrlevegNl0534N285zzB1jata1TJ1qjR5WVvMWV23qqfXBooWhwEgRYf4vdGcPG2ousPqquraXkPNY9oMVW9osDTb04i6jtRwhqNrMKxhxTQ4HQgE5y58fS41D/q/ao0Efn71/102V3kP76X7qCqBIOtU6WRRvAeOM4CvlGKPtvEeAsljGbzVmi4KEKojQFJWXYBMC3UFyFXXUYCS1noLUFbdTJnIqwkNLUZ2UtN2dqaPfexcQ4/ZJYO87y1rGJkOCzRQ8IVMOqaFR3cqunfpVgwopkksVEtebB5YHGvb7fFF7WGmNbbaYpfVVllvV0PbYXJgt83GrKijfVChuy66KQxQiDP30jlI32Gn9eot8lYGKu4729mzrtweDAlx7WFgkohUbdvWrZ1fxWSbAQA=");
 
 export default PooStorm;

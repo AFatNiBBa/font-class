@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-minus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-minus?s=sharp-light cloud-minus}
  * @preview ![cloud-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cloud-minus.svg)
  */
-const CloudMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M544 241.1l0-9.1c0-57.4-46.6-104-104-104c-13.4 0-26.2 2.5-37.9 7.1l-24.3 9.5-14.2-22C340.8 87.3 301.1 64 256 64c-70.7 0-128 57.3-128 128l0 8.2 0 22.6-21.3 7.5C63.1 245.8 32 287.3 32 336l0 112 112 0 368 0 96 0 0-96c0-35.5-19.2-66.5-48-83.2l-16-9.2 0-18.5zM0 336c0-62.7 40.1-116 96-135.8l0-8.2c0-88.4 71.6-160 160-160c56.4 0 106 29.2 134.5 73.3c15.3-6 32-9.3 49.5-9.3c75.1 0 136 60.9 136 136l0 9.1c38.3 22.1 64 63.5 64 110.9l0 96 0 32-32 0-96 0-368 0L32 480 0 480l0-32L0 336zm224-64l192 0 16 0 0 32-16 0-192 0-16 0 0-32 16 0z" />
-    </Icon>
-);
+const CloudMinus = createIcon("cloud-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdgAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCBQsGAAE2AiQDCAQgBYMtBzIbBwXIhof/z6v/fW5SvbqSZ+TR+CBG9ozi1Jw69TznoQC+ZRAEbQ8NyALc6zwCEcvFOwlqxVqBraq1bnrHN6TcmrzoJQ3jD1tDdIE8/o7BaqTL0ys4t75pfK2j00nyDEC0AMCMdauWeOKL+CLilf/vJV6xCAExE1QCGTJ0EWCyTKCLXIVcLvgi/v9f/wMrAogG/NUSyFHDnjgQkIMky/Mhfcuy1jRfW9aKg0JcM/CmsWf07h2d4qa+1xXPTH6kEqJ33NP/hi6ibBpxSqcr+raL2P/aYRG3j4t4f9rj686c8OCQ68tnpzzaQ9w44EZCFM0iYl1ZlKIoIsqeN7W46dser+z5iu6v1ev18tVP7mjT7hjv6vT44z2Xzxpda9TeXF0mTcoPdvAb23V+9pnNf2jdfWvzC7nw9kYx65VXZsWgXr2W793pvLV71OueaNKl93aVanvl4M+nPfHEG5UWQANx30uj7jpwW/PJvzaWCXz10Pc/wtP/f5FOTjehUQJBNvj/wTankwHEAPwUR+rpfFAg2SrDV23iEgFCgQBJg0KATGctBMgVBglQ080YARoUVslEXhfa2NJB0sQhIDPWCSDXxt2gZrLnvQZtIgs1JlCYm17iXAvN2atGDB1eTaymqcZGD5XXk6pls/+RqTVATu3pIAc63B5228fhBjnUkvAIB5jrwXN8UWWEoYarTFRtF4/Ha+3hUIfZx0EOLFsmqc67/R3pDw8QJyHpSJEkEan8c1Ad8kC9dBgAAAA=");
 
 export default CloudMinus;

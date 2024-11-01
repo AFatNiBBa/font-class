@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-xls` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-xls?s=regular file-xls}
  * @preview ![file-xls](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-xls.svg)
  */
-const FileXls: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 464l80 0 0 48-80 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zm160-96c0 7.3 2.2 14.4 6.2 20.4l9.8 14.7 9.8-14.7c4-6.1 6.2-13.2 6.2-20.4c0-8.8 7.2-16 16-16s16 7.2 16 16c0 13.6-4 26.9-11.6 38.2L259.2 432l17.2 25.8C284 469.1 288 482.4 288 496c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-7.3-2.2-14.4-6.2-20.4L240 460.8l-9.8 14.7c-4 6.1-6.2 13.2-6.2 20.4c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-13.6 4-26.9 11.6-38.2L220.8 432l-17.2-25.8C196 394.9 192 381.6 192 368c0-8.8 7.2-16 16-16s16 7.2 16 16zm96 128l0-128c0-8.8 7.2-16 16-16s16 7.2 16 16l0 112 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16zm88-98.3c0-25.2 20.4-45.7 45.7-45.7l26.3 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-26.3 0c-7.5 0-13.7 6.1-13.7 13.7c0 5.2 2.9 9.9 7.6 12.2l31.2 15.6c15.5 7.7 25.2 23.5 25.2 40.8c0 25.2-20.4 45.7-45.7 45.7L432 512c-8.8 0-16-7.2-16-16s7.2-16 16-16l26.3 0c7.5 0 13.7-6.1 13.7-13.7c0-5.2-2.9-9.9-7.6-12.2l-31.2-15.6C417.8 430.8 408 415 408 397.7z" />
-    </Icon>
-);
+const FileXls = createIcon("file-xls", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABnQAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDCQsGAAE2AiQDCAQgBYMtBy8biAXIjtEno2LUHHMJIxwuL4Jk2Wb3Sr5VRfWtqS50lwiLcThcc0hQvPFgBMGi0W/0cvm7B8V6AVwD1Hcpd26Ky/SZdH/S3dSp5znPBnyjAIVsrs6Ni2pjjPMKFDBXi3X5BusFqFjTClgXt10FEQ1xhMQFyvjMTcjJV8k/wGPwVPzBxiykqgBADADA+U1OGn5oqSX/6t5CfCEFBMQ5gFVEgV+xiOCIVGCRzCoolYIf6ubyP1BAAFEjedMEJWq8g08AJUhlKQvaMffVkxvI8vUqTZxeSw/R4lOfl7ZSnvi+8tTjinceP4BokdRw2XKfvmjXXMI9i4JJCwtaxQEPrPYsJq296B1H2J3sW05ZWtI8dvsqO1/6xPF+Mo9IDmxTMDs+DWWuYMqKytKb7N01n7Rw5xObSfNdjWeOqnrHD5iy9OBTW5eXxi/vnf/V/6PLTJyCkOlyaKKZhKaMXT615V5UBJeFPQTZlMnwYbEnEVpDR8Ofiwq923OcK2z3zKzGYqZG02zaS2u07t2dQaxiYjLhmlwnhBI11AbVF1SZ/wO+zW1nH7HFD31Vz4PR1uRbXg8Egubd3H2F0dG/Sk8C+P308L/+GZn/4GO+BDQkCIr1uZ/ShEY8CgBARj9cEgikNzKJVzueEIQWAqRaS4DCAmMEpZY1BJVl4QhqLRekolQjTJT1IHXcg8KhMVCaeA0qR34Wa5OQAqsAasK/Ymr8GIrbJYIDgkSM2OxoRfjj7GasOO336pcT3tgV9Tq061WnVpPeEdktrdKnTfweHOeLhGABgggxxO3+czWfxrv1SG5dur9NLPF+2kv//nxvHJJIKHfVpCRS9WEU/AdbewAAAA==");
 
 export default FileXls;

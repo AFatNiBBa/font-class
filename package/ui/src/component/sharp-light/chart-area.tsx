@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-area` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-area?s=sharp-light chart-area}
  * @preview ![chart-area](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chart-area.svg)
  */
-const ChartArea: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 48l0-16L0 32 0 48 0 464l0 16 16 0 480 0 16 0 0-32-16 0L32 448 32 48zm214.6 70.6L224 96l-22.6 22.6L96 224l0 128 0 32 32 0 320 0 32 0 0-32 0-112-75.1-87.6L384 128l-22.7 22.7-18.7 18.7L320 192l-22.6-22.6-50.7-50.7zm96 96l39.6-39.6L448 251.8 448 352l-320 0 0-114.7 96-96 73.4 73.4L320 237.3l22.6-22.6z" />
-    </Icon>
-);
+const ChartArea = createIcon("chart-area", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYwAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBVgsGAAE2AiQDCAQgBYMtBzEb1wTIngXu3iVkRMLQ7JqdGpsWD/+/Zt73Z5KzTbbIU2Z0hGpdwVWvrSs7YCH31BLoNIsZJLOEGGvPWuv3qVPPcx4K4BsFZQ1b83xSdvc+r0BBS71oN1iBXqimFbCq21gynMOKHJErKCKGdg3NO+TxJFAiPUijwaCKrzq7TpJnAKIVAGZtWLPMy6ZoinhfQ7y3BAExGxQCGRq6CTBVJvg75ArkckFT1Gr6H1gQQJQRqgRylLAMGwE5SLI8b9uzbbXUPF9fLVW2hKiESCGqzSMq9dm6wYMGD4y1oU1HrI/BMVAIe3/1uhlTZ6wLUR8RG2JdDIohvRs13mvXswHPFFp5qJVWvzT4XPPF1Q4edFmh2Fk4afEGC+zX2v5s7dhxANVZS+010xnucxYuss8+IBBMHHCnHS2n/q+rJvDl8b/Zr6jWlKRG1EkgyIbWsDWBRAAAUpzXO0EgmSdDWOvdFSBUECApqwiQ6aqVALmKIQKU9DBOgLKKNTKRNxPa2VZBUu8UyIx3AeTaeQRKpnoVlrWLLKaYiGB+dInzPTLvVDFq+MhicjEcKGyYUHI4pViWB55PC4PQaL8Tjjtrn70OOeuw05Yl5xwzf4bO80WFUYYbqTBZsT2+v7zePqedccgJx/WYKYrz/kDn5+sHQUuIO1pbkohUeU3SsMsHAA==");
 
 export default ChartArea;

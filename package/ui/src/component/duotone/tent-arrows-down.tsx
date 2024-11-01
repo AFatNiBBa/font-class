@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tent-arrows-down` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrows-down?s=duotone tent-arrows-down}
  * @preview ![tent-arrows-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tent-arrows-down.svg)
  */
-const TentArrowsDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64.4 475.3c-1.4 9.2 1.3 18.6 7.4 25.6S86.7 512 96 512l144 0 16 0c17.7 0 32-14.3 32-32l0-118.1c0-5.5 4.4-9.9 9.9-9.9c3.7 0 7.2 2.1 8.8 5.5l68.4 136.8c5.4 10.8 16.5 17.7 28.6 17.7l60.2 0 16 0c9.3 0 18.2-4.1 24.2-11.1s8.8-16.4 7.4-25.6l-24-160c-1.2-8.2-5.6-15.7-12.3-20.7l-168-128c-5.7-4.4-12.6-6.5-19.4-6.5s-13.7 2.2-19.4 6.5l-168 128c-6.6 5-11 12.5-12.3 20.7l-24 160z" />
-        <path d="M208.1 145.8c9.9-8.9 10.7-24 1.8-33.9s-24-10.7-33.9-1.8l-39.9 36L136 24c0-13.3-10.7-24-24-24S88 10.7 88 24l0 122.1-39.9-36c-9.9-8.9-25-8.1-33.9 1.8s-8.1 25 1.8 33.9l80 72c9.1 8.2 23 8.2 32.1 0l80-72zm352 0c9.9-8.9 10.7-24 1.8-33.9s-24-10.7-33.9-1.8l-39.9 36L488 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 122.1-39.9-36c-9.9-8.9-25-8.1-33.9 1.8s-8.1 25 1.8 33.9l80 72c9.1 8.2 23 8.2 32.1 0l80-72z" />
-    </Icon>
-);
+const TentArrowsDown = createIcon("tent-arrows-down", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABiQAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCDQsIAAE2AiQDCgQgBYMtB1wbOwXIHgd2DPkXTIyNccIhHr639e3c1z2zItYrKoZaChHRboRYkP4ipYjMJt+Zj9Lh4W/icud//rRAlr/LXvS7og0SzXmeQOcbszGtRALLMs3A2p1NyaGklJKGWZLjYhyPC+Txb3ZJifQ8fYu77n8A4yctXCKpkQGI+gAYv3ThbC+qoirFt5XPiG/NQkBMAIVAhgytBRglE2gtVyCXC6pSpUJVVCoFAUSZ+61loIwStuAQIAdJEnnesmWPWqU6+ZJapZorn7Z80mlURLzS5b3mYkx80PhZk8XxuNnSOmR++qMmj2sBerPZ0/CfNrtJeM8741zTJfEkkGreaLwoHr2mwyf1P/m5/Vv2Q28v/2990AlN5s9vcsJBrf9/aW7++UePuo4+2N9tX7nRvfp1r11zRPVz5c4TrzrXb1RBt3Zr9qaeTz/clZq1rkTnaSv1NAgEn7SM39c26rfqtRL48XO/2Mej8iKNTZ+gugSCrFell1VpnBAMRQBUSHFEh48aI5AZJPHvWtsTAUJNBEjKagqQaaW+ALmaegpQ0tZgAcpqWigTeQ2hsdUZS2rbj2WGOI3lGvsUKxnli2JZ48jkjZcW/ruXMgUDkxcV/fv0K0YU3ZokiBBrZ0cWw063I6anO+y1xV57HLLZJtsdQtABsyuH7TaFAyf7okJ/ffRTGKGYbl4rS1DxgIO209L8PCMV6+NujvDDu8NyEmDATlVlRIqs+TsLeq8/cCXU3ifR6C28g1s2paMKAA==");
 
 export default TentArrowsDown;

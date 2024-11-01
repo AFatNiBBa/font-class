@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reflect-both` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-both?s=light reflect-both}
  * @preview ![reflect-both](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/reflect-both.svg)
  */
-const ReflectBoth: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 32l256 0L256 160 128 32zM384 0L128 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9S396.9 0 384 0zM32 128L160 256 32 384l0-256zM19.8 98.4C7.8 103.4 0 115.1 0 128L0 384c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9zM480 128l0 256L352 256 480 128zm12.2-29.6c-12-5-25.7-2.2-34.9 6.9l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-256c0-12.9-7.8-24.6-19.8-29.6zM384 480l-256 0L256 352 384 480zm29.6 12.2c5-12 2.2-25.7-6.9-34.9l-128-128c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l256 0c12.9 0 24.6-7.8 29.6-19.8z" />
-    </Icon>
-);
+const ReflectBoth = createIcon("reflect-both", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhwAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCMgsGAAE2AiQDCAQgBYMtBzMbNQXIjtRG+UVWEg/fzz127ksKwCkRKWBynZSAbV3Z0a5wQHZnZWXnV+37xDX578+/AYv80TKWge0ReT6BCf4sPQpsNrCZTsA2Ne+phlEh+fpOkMe76KUK6Vb6FRfch8Z/WjhKkmcAoj4Axi+YM9vnv+PviF8riF/NREBMAIVAhgytBRglE2gtVyCXC/6OSoX9BxYEEFWF2yWQoyZ24QwgB0n1PK/WuFojmqlVpU4+X5bWXFKndp25MX8B3q320+Y3m8yLa7XONFsQN1re7rJy3vx53U7WUuRS3Or8jLnHoabz43qnVSlL82NBq+eNx6JXHVyR6fqiVRYsvbB2ndpz0Hmd73hrnsZKi3VOnTCv7fC6/uv/2/+6/lflA5Slsqy0w7jDq/8qSzfr1LlZlv5afXjcijK48aFbTt6ty8+ydGoYOFX82fWX1laPf+g0ukwMbjkwNP7bttHdu8cddT4QCI5smXFlRb1RP6rXSuDft3/En5HK5yS9RnUJBFmvSi9LE0gEACDFfh0SBJJNqgvvWtt1AUJNBEiqqilAppX6AuRq6ilAFW0NFqCqmubIRF5DaGxZSSa17SIzQxwgc429IasY5UuuqsaRnYHC+SP8/6VOqYOTNxX9+/QrRhSDLVk8qTi9OrKY7em2n490h1utt8N2e62z1iZ7a8Rus4v7bDNlDJrsiwr99dFPYYRidfe2Oh8zdttjk+B269cZqdg/0c3+8endoT8JrAPUJYlItT9AWu9TFg==");
 
 export default ReflectBoth;

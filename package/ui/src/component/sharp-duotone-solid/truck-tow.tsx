@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-tow` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-tow?s=sharp-duotone-solid truck-tow}
  * @preview ![truck-tow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/truck-tow.svg)
  */
-const TruckTow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 144l0 16 0 16c0 26.5 21.5 48 48 48l16 0 0-2.7c18.6-6.6 32-24.4 32-45.3L96 64l96 192 192 0L160 0 64 0l0 16 0 16 0 144c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16 0-16L0 144zM96 432a80 80 0 1 0 160 0A80 80 0 1 0 96 432zm320 0a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M416 96l-32 0 0 32 0 128L0 256 0 416l65.1 0c7.8-54.3 54.4-96 110.9-96s103.1 41.7 110.9 96l97.1 0 1.1 0c7.8-54.3 54.4-96 110.9-96s103.1 41.7 110.9 96l33.1 0 0-128 0-32 0-32 0-13.3-9.4-9.4-96-96L525.3 96 512 96l-96 0zM576 256l-128 0 0-96 50.7 0L576 237.3l0 18.7z" />
-    </Icon>
-);
+const TruckTow = createIcon("truck-tow", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABlAAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCTgsIAAE2AiQDCgQgBYMtB04bbgXIhofvbb6e+95KtnclWyZeA2P1XQEFDEBViCrkDkviLjx9WJOSq9Sa/2s+v7RrwM9HcEi3qAApsM7nExhoNGUJ7Q0kyhRnbY77RVT+fQcHKRH6JBq2t2FrCUWake/XID2fvsej8j+A8ZfR7icZkAFEBwCb9u7c4ctudFN833uX+F4fAmIzqAUyMsYJsFYWGKdQo1AIuqnXoxu9Xk0A0SQ3lUET/fAQngAUIElyUSyqZrXbVaNd7Kka5cmyKoVohaji1Tlvr3hv1pvjq4oNAfeI2BPN5e7bkyOq2B2yIJ4f/vS0Bfz1idTuqLxlqK6nhj1DYvqk3P/yqo/WfDLxldUfr/xwXPvUfvJbnbf+mfT9ie+9erDGOu52t9dscvrHP1977c8fTx8OmW6Su9VqbY84eNBz2htevRvtDlmir89QCzu6v/zDLws7sp87lxz8wpd+7zmko+MxA7vdgRRZH5zYOnn9+slWK9pYLgcCwS/fPdk8OGjt//2rBP74+L8/eXe999Ld6S30l0CQ5/bmujXdDcQPIJTihsnGPQlkW2R6rS3PCBBKBEiaSgGysToCFEpzBGiYYJkATaWdsigGCMPcdoCk5TLIlrsDFIZ5BzSs9VWgaVhkh5S5k+x3MPX2EdrWql40f2G9ur5M6HIfk+TGNfWyeeaNUDALY51w0QXXHHfMadcG7ood4evO224R2/xQbZH5FqqtVj9OPw/f47grrjrtogvczBr1+/6ZbtjlZ8GWqOBiXbJMpMiDP7nwvGsXb87b2QVDJ+UeBg==");
 
 export default TruckTow;

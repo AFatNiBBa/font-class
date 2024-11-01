@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-tear` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-tear?s=light face-smile-tear}
  * @preview ![face-smile-tear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-smile-tear.svg)
  */
-const FaceSmileTear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM141.5 323.9c-6.7 5.8-7.4 15.9-1.6 22.6c22.2 25.7 61 53.5 116.1 53.5c8.8 0 16-7.2 16-16s-7.2-16-16-16c-43.4 0-74-21.8-91.9-42.5c-5.8-6.7-15.9-7.4-22.6-1.6zm194.3-1.5c5.1-7.7 10.7-15.1 16.2-22c5.5 6.9 11 14.3 16.2 22c11.4 17.1 15.8 29 15.8 34.9c0 12.2-11.7 26.7-32 26.7s-32-14.5-32-26.7c0-5.9 4.4-17.8 15.8-34.9zm7.7-62.3c-1.6 2-3.3 4.1-5.2 6.3c-18.9 23-50.3 61.2-50.3 90.8c0 32.5 28.7 58.7 64 58.7s64-26.2 64-58.7c0-29.2-30.8-66.9-49.6-90c0 0 0 0 0 0s0 0 0 0c-2.1-2.6-4.1-5-5.8-7.2c-4.3-5.5-12.8-5.5-17.1 0zM200.4 208a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm136 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const FaceSmileTear = createIcon("face-smile-tear", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABpAAAAKaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yCbwsGAAE2AiQDCAQgBYMtBzYbdQVRlM3JDNnHYmyr4H3GUAZxIx7+3+779rlVDbi+zCEdSSnMsBWOor8mfAZeI9+Qw3QHvubojxL6/7nc89t0dIDf6FDGtqmbNsjRaM3nCSRWh7UtD2iCZZqAtTsbNS3RKAlJkeT47PgcIY93Y7oy0hPpO9znPzT+0uVmkjwDEI0AWHPYvh0+GoqhiO9KrxPf2YaAWAsKgQwZegVYLhPolSuQywVDUSrhf2BBAFGOHzqBHFV4DM8CcpAEKvK8p6epaUJVVU1ZXX6wpqz6qM+3RHw953T97GPzV+u/2PrN3Csw79727ab0566IH9d9Glj7yc4fDv62/bvVH7l+zcc7vj9wULW1CWmB7TDt38TcblpF3abbWqtsVa2m3YSZRvFIhJtcO/2UNKFMGj1hauhGNSJQpj1u5WFinHJo9LAo1SvIK439nzH/qd/ZofTkR9OZMfrbsmW/jc6Y/hFVsH1og/t5YFnvunW9yx64fwNXVbtd8O4rd2U//nj9UH39kLOOHnzlpY/jSr5XVWX1ZbcNDd12WXVl1TVjxzJcWVle2Tjw1FMDjZVllf8PRwDQHLdddt+8tj172oi8rUNqtwOBoO+l4347rmH5ocqaBEbe+e9Q/hkpfZSkV1ApgSCbXpru6AQSAQBIcamxCQLJfSqwW+vR0yJUoyEpVw2ZHo2QqzYNyvRbcES5avtkIq8SWh2jQVLrAsgsdA3kWr0KZZb7Mi3XGpl8StIlfQ/TN/bIhnXFnJmzi6XFtFJkkRPs8rJi25x8qRmaAq1OdZ5zXewUJzvDxR1zoR3FJc6xcUVv8EWFOWaarbBUcdx53HzQKS50kTOc51y3yjLFfXeyS9eTp4CTMOtcpSQRqeH1xzMuOueMs1N08SknXAg=");
 
 export default FaceSmileTear;

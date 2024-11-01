@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lights-holiday` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lights-holiday?s=sharp-duotone-solid lights-holiday}
  * @preview ![lights-holiday](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/lights-holiday.svg)
  */
-const LightsHoliday: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M32.1 307.7c0-11.3 1.5-22.3 5.3-32.6c11.2-30.8 39.4-50.6 70.2-52.5c10.7-.7 21.7 .8 32.3 4.7s20 9.8 27.8 17.2c22.3 21.3 31.2 54.5 20 85.3c-21.9 60.1-119 92.9-119 92.9s-36.7-60.2-36.7-115.1zM240 336c0-32.8 19.7-61 48-73.3c9.8-4.3 20.6-6.7 32-6.7s22.2 2.4 32 6.7c28.3 12.3 48 40.5 48 73.3c0 64-80 128-80 128s-80-64-80-128zm212.2-6.1c-11.2-30.8-2.3-64.1 20-85.3c7.7-7.4 17.1-13.3 27.8-17.2s21.7-5.4 32.3-4.7c30.8 1.9 59 21.7 70.2 52.5c21.9 60.1-31.4 147.6-31.4 147.6s-97.1-32.8-119-92.9z" />
-        <path d="M16 96C.1 123.8 .1 123.8 .1 123.8s0 0 0 0c0 0 0 0 .1 0l.1 .1 .4 .2c.3 .2 .8 .4 1.3 .7c1.1 .6 2.6 1.4 4.6 2.4c3.9 2 9.5 4.7 16.8 8c14.6 6.5 35.8 14.9 63.1 23.3c12.2 3.8 25.7 7.5 40.3 11.1l-19.3 53c10.7-.7 21.7 .8 32.3 4.7s20 9.8 27.8 17.2l22.7-62.4c29.5 4.6 62.1 7.9 97.6 9.2l0 71.2c9.8-4.3 20.6-6.7 32-6.7s22.2 2.4 32 6.7l0-71.2c35.5-1.3 68.1-4.6 97.6-9.2l22.7 62.4c7.7-7.4 17.1-13.3 27.8-17.2s21.7-5.4 32.3-4.7l-19.3-53c14.6-3.6 28.1-7.3 40.3-11.1c27.3-8.4 48.5-16.9 63.1-23.3c7.3-3.2 12.9-6 16.8-8c2-1 3.5-1.8 4.6-2.4c.5-.3 1-.5 1.3-.7l.4-.2 .1-.1c0 0 0 0 .1 0c0 0 0 0 0 0L624 96c-15.9-27.8-15.9-27.8-15.9-27.8c0 0 0 0 0 0l-.6 .4c-.6 .3-1.7 .9-3.2 1.7c-3 1.5-7.6 3.8-13.8 6.5c-12.4 5.5-31.2 13.1-55.9 20.7C485.2 112.6 412.4 128 320 128s-165.2-15.4-214.6-30.6C80.7 89.8 61.9 82.3 49.5 76.8c-6.2-2.8-10.8-5-13.8-6.5c-1.5-.8-2.5-1.3-3.2-1.7l-.6-.4c0 0-.1 0-.1 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0L16 96z" />
-    </Icon>
-);
+const LightsHoliday = createIcon("lights-holiday", true, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABygAAAL6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhECEAgsIAAE2AiQDCgQgBYMtB1gbLAbInoWxe6LEFiYG5Wy/0CKCYK6cTXJXACBXD6yAc0VUQBbQEbvqB9d3BYX2sL+a93cTgKPUJEQwnauZLl3o2w6q2XennHgcAOSQpdK3N3FN/egVFUbaXnxAI+u2DSQSI+J8AgNfW7RN5G8CExnoRHij224OzXX9FhIXyJJu6T4USC4yH3HcMSqqtDBKokYKIOoDgAnLslJwWxZlSXz8b+Kj2SAgJgLaI6RweWsERmOJ4WFs7UEmE5Ql//9TFvbPrz0EEEVKKuUp4hdUogqQgURIsyxXa/XcQp1sKS2vueqCjOIM7RbqEbViN50F5LlbPls27nS+EXvRgxg0bklO8WbYALpyUe5Jt+xO7PQQGDJfscC8lnFJsQCsJnLZNGf3Gdmm92H0y5p57OuhD20XFNNQl5rG7sLmy3YrV+127BY/PUS9rFqy37Xe5JwzbBhydmspLs9S3BKBK3okki047kcNeZcsoVx02HC/bu1KlmyIcttt+Gs0lvui/fcOH9d/VG/dNSugcQAQoH77yOsFV2U5nX39XNZ6njAd5gYNzNNFvF7r4teOchofLbie2b4+/H747VonGUEIEQzca5+0Mr8gJqYgvyhRddqTBAAraFcSpx1wcWn87MR6U5d0vN63M6cO37/jS6sW97xY/vnbLX/xvIXg3hYewIAOzsF4K2xbAkyt9+z/qz59xuc3bDg5QeTd9w4/AYFgbo+vy9cJR/+qXisBFU9/Uz39v8ku5i6oLgFB2vt/b8XJLoBpBhBPYivLDZuXgnlLJVNrOydAqIkAiaKaAqRaESGQqakXAgVt+SBQVNMiLJHVEBor6RSJ2jYoUkP1KTKNHSgKRnuJFzWONKibA6r5RzNH7BCOWWQa4OpuCjSt1jSW0GvUs0Gmw4Hu7bzHAe5FuQb1WpUpVaV1wG+WkmpTJ3aLF+ODTDy4cmcSyHS5+dSRixPNWlQtW6/PE8T0fMxe+/ZwBxhmlFoHWpJKiSTSpsE/0uKS+zwuyWaQas6WRQA=");
 
 export default LightsHoliday;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-png` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-png?s=sharp-duotone-solid file-png}
  * @preview ![file-png](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-png.svg)
  */
-const FilePng: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 144-272 0 0 208L0 512 0 0z" />
-        <path d="M384 160L224 0l0 160 160 0zM176 352l-16 0 0 16 0 80 0 48 0 16 32 0 0-16 0-32 16 0c30.9 0 56-25.1 56-56s-25.1-56-56-56l-32 0zm32 80l-16 0 0-48 16 0c13.3 0 24 10.7 24 24s-10.7 24-24 24zm96-80l-16 0 0 16 0 128 0 16 32 0 0-16 0-58.9 27.7 65.1 4.1 9.7 10.6 0 5.6 0 16 0 0-16 0-128 0-16-32 0 0 16 0 62.6-29.3-68.9-4.1-9.7L308 352l-4 0zm112 40l0 80c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-24 0-16-16 0-16 0-16 0 0 32 16 0 0 8c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 16 32 0 0-16c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40z" />
-    </Icon>
-);
+const FilePng = createIcon("file-png", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABmwAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCDFAsIAAE2AiQDCgQgBYMtB0wbsgXIjsM4FjzShcLKQzz8/1zVfT+p6p5kIDWEGWBURKAWSAGyBFLtluB4tKjWToETboQFJLEeZESfuBz//fnTn49J/Ghj0dw8AhljnCcQaFmXvsYBLes800SsYdvIemDWeMRY1pDHL9l9GqTnknjEvXH8ZZD7SLplAKICwMpd2zbo+j1+T/Fd+yPiO+sREKtALZAhw1ABlsgEhsrVyOWC31O7jd+D/fMFAUQT4kMy0EQn3sUngBwkDZHnHcO6j1/QKhs98p1lozi1c8dOUW4vykIIIcqIiCjjnQHPDHm+/9Pjih1FWUSU8dagZ8fsOiUwf0f0s0JvRbHl74z+CtgR3NXvKRs/MOAZWa8QZYgn+xbxdP+IZwaU8VS/N/y7+z9tm+P+vk/KyqJc0kT3EFcao96v3v+nntSdI14JjFe9+uNVHTaboVLLU5dv/dfR8d+ty/WITTucKLb067fl0Cip3HWid7EhKyxU9J8jlhu6Ji/Pjd8cbmt98UGr0vrgi9ZAlaquVTo1D1cONzdH4U7fJV/X7+Her3rVoyo/uQwQCH4duNsO9Vryf2eZwJ9f/Pfw76jdlaT30SmBIJvSnsL+BBIBAEhx06jEqwhkHtEAH7W7pwUIBQIkTYUAmSEqAXKFyQI0DDdXgKbCNpnIuwl9HRiIpLsrRGae24lcXx8SDUt8WTT1jSzPCjlO+GNMXTcF1x6rZ06bUS+qd/s6MRtyen9xfdmYcJPPTYQXnXTJRdedcNwZ1yfwVRsaN1yw7gha64tqM00zQ22R+vHopboTF1ddc2Zbfn7IYvX3yQQ3j1dPhHYSWGc5k8mIFFnVPhpTL188NTXza71ncikHAA==");
 
 export default FilePng;

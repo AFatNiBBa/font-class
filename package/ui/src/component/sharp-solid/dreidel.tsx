@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dreidel` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dreidel?s=sharp-solid dreidel}
  * @preview ![dreidel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dreidel.svg)
  */
-const Dreidel: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M422.6 102.6L445.3 80 400 34.7 377.4 57.4 288 146.7 214.6 73.4 192 50.7 169.4 73.4l-68.7 68.7L337.9 379.3l68.7-68.7L429.3 288l-22.6-22.6L333.3 192l89.4-89.4zM315.3 401.9L78.1 164.7 9.4 233.4 0 242.7 0 256 0 448l0 32 32 0 192 0 13.3 0 9.4-9.4 68.7-68.7z" />
-    </Icon>
-);
+const Dreidel = createIcon("dreidel", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABWAAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBMQsGAAE2AiQDCAQgBYMtBy4brwQRlZoRyH4kxsbKG4/JHVemXQLRg2/i4fu113PfbgB4G1VgVGk2v6zKil0dqzr2aOvKrix8pjIgq7/OzWaptALNSjZwNzaFDTX9at+nTj3PeSiA7wGO2pgY3jyWhuY8j0CAs9tqvfVyrWA1rYB1d7a2KCIuSbOC5PXI8blDHi+zu2pIz9MfPPYfGrMG3CVpyABEOwB2TU0c8206piN+VyN+O4KA2AUKgQwZhgXYKhMYliuQywXTUa2q/0AigKgVnppAjhwbcQiQgyTl+UhXU01LXpobjReXLFyyPRbG8ShjMaInYyqWxOIotUo5WVZid4ivamrqi6nxd+3v5hf8ufDHq4qW5R/nVU44eMh55+3Za27O3j1KpUMHnahcXTxHuJx7pMU3heLvs6HHQSCYeWCea9v6v74pgX8fnpd+RdXp+JzeoV4CQba0utTp+IYsPgsAQIrbxuMbAslKCb5rsycChEYESGo1CpAZ0i5ArtESAWqMWidArUYTMpE3CN3OFJA0uwYy690BuW7vQY2tvuu1uiN7QNT1U/+3eCoc4ilatXxlsbloBjL9Jgg73FJMCwtv68IiuNiWFB4w7jGkDOs7pAezLyKrLLdSYbNiOV4eKyiXS+HGbFHslxe63a9fBMwBsVd7IUnkT90KbtgAAAA=");
 
 export default Dreidel;

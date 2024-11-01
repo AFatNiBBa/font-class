@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-tongue` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-tongue?s=sharp-regular face-smile-tongue}
  * @preview ![face-smile-tongue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-smile-tongue.svg)
  */
-const FaceSmileTongue: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M419.5 453c-44.3 36.9-101.3 59-163.5 59C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256c0 27.2-4.2 53.4-12.1 77.9c9.1 23.9 7.8 51.5-6 75.4c-16 27.6-44.7 43.2-74.4 43.6zm-56.2-18.8l-44.2-27.4c-19.5 8-40.8 12.4-63.1 12.4c-70.4 0-130.1-43.8-157.5-105.5l-9.7-21.9 43.9-19.4 9.7 21.9c20.4 46.1 64.1 76.9 113.6 76.9c56.5 0 105.6-40.3 120.8-97.4L385 243l27.3 16.5 49 29.5c1.7-10.7 2.6-21.7 2.6-33c0-114.9-93.1-208-208-208S48 141.1 48 256s93.1 208 208 208c39.3 0 76-10.9 107.3-29.8zM120 232c0-40 28-80 56-80s56 40 56 80c0 0-28-32-56-32s-56 32-56 32zM398.5 399.6c18.8 11 42.9 4.7 53.8-14.2c11-19.1 4.5-43.6-14.6-54.6l-.4-.2s0 0 0 0l-24.7-14.9c-11.2 24.5-27.5 46.1-47.6 63.2l33.5 20.8zM336 152c28 0 56 40 56 80c0 0-28-32-56-32s-56 32-56 32c0-40 28-80 56-80z" />
-    </Icon>
-);
+const FaceSmileTongue = createIcon("face-smile-tongue", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABmwAAAKXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCYgsGAAE2AiQDCAQgBYMtBzgbagXIHoPjbomhiRii/LkFgwkrHr5fez337dsAsAVAHcdGR5i4LxMuOx5fIytUXaa2juUeP+69+9CsN5sNijLTHBlVpbQ9OQTWWA8k/b35v+bze34N+I0OJRpLCyvo3lGsElNgorNI2oRmA5vpBGwsu53kBqco3UCSLvkzbGcYnSHHDjZCSXpDucCtf9P4aVANSVkAQHQAAIcXgd5weIfPEefVGvHNERAQhwCYgChQYASCHVSBETQTQJYFz1hV+BtIQABRB/Q/JZBRj2u8B2SQlJkmNSckKsRF56GFcNE58ZdB5+MOFPKO7Buh6232GAzSfVqzRh4W5hajnKOtbR1JtAyJ6FOf4tqw3JGTQvVwxw68Pu6Q8cug9a9gsQzp0UTsUR1T75JoFx1XGRUeFY5vE0PsEOsQbRflYCVWokrMqpmHjKkjTtA7ND6sMM0//Sx/kaLwITuZxaArVN5LiIMr1wGJpkpXvDC5emU0dV+1TfefK9j11MbU4KuaX5eXKoNsznaZQS3mOzF0ejo0IDg9zZd9Fp8+TnnrwX8/P+YvL/7x+Pvb/VH0y80j+F1WZmNzi+CK8Hfa7sICE2h6i8bnASAQfHl3+B/LZ/WXxUUB+LH9+poc1WGiL9A00CCBoJiptEQloPpPFAgAQIoSUEiAQFJTUq/a4qUAoQkBkjpNAhSG8UOQNZmGoDTGGII6TU5QRWZD6BFdQNLiEhTWlIKsxwoo7Tj26/QEVTJ5ueL/hSkuHHLeRvR19IgF6VayIGysm7cky6paielThx2QIleOIsmSpCeakQW8o2LZXEawsw8i9OnQQ1ggx61rJYT5BQqlt6XzTSyR+6aakvFodTAoiHJJKUlEEnj2rnZhdnpWzBXl5qQWJwMAAAA=");
 
 export default FaceSmileTongue;

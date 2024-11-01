@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-surprise` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-surprise?s=sharp-duotone-solid face-surprise}
  * @preview ![face-surprise](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-surprise.svg)
  */
-const FaceSurprise: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm144.4-48c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1 0 1.8c0 .5 0 1 0 1.5s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zM320 352a64 64 0 1 1 -128 0 64 64 0 1 1 128 0zm48.4-144a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M176.4 240a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceSurprise = createIcon("face-surprise", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABpAAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCbgsIAAE2AiQDCgQgBYMtB1YblgXIjsQ4JvGLWNDi4T//+m+fqtv9Ad0PM5KQmUNFYjQRgPitF44Qd2fovf+b/2vqBR1dA346wkPJXgVIJHc+n8AAi2bpE5rQDDcD29sUnwqCqCNiDFsuRMLjUXZce0IR3+eLKqRH05e4U/4HMH7VyUWSRhlAtATAzFXLFni3LupSfFl7m/jSfATELFAKZGR0FWCKLNBVoUShENSl2tRF7ZIAoqp8DxlU0RAP4TlAAZKkKIo2bboMbdamSaVZsbJJpfGqGx0iHo5z7R9qfL3tA20fbPdgkyYzET/NTL234Kv1gUXfzP5g1c+z3l/4dWyc/+WMd5evepgpLMN2DzbuWWfjXJzFzhEGJHygLTzb+Hr7h9qveGLA84Ne7P704JcGvtBt1dm2EVT04Q7ia/R6seWLv/f8cueXXvum+VWuNu9CgJohzRY8M9/gXXMb0emt92bPfu8tGpmbukPmzvBmfKjZuTF9I0cKRMNEsxQipT5jjjW9difX//13fe7R4Xe0dB1J83UgEHT48Fk3tZjyf8MmCdS/0y/jh6T2bpJeREMJBHlIbYj1CSQCAJDipF6JuwhkuxXquzb1kAChMQIkVY0FyLpoKUChscECVHQ3VoCqxpbJomgktLXhBklTR0A2zilQaOstUDHFJ4WqtpENVDEv5fcwcx5G5+4rRw4bUU4qX7su1eakvD25ZIcDTsapgXDRToccdNwO2+1xHLFHLSifcMC8HT7XB5VGGmaE0iSlePDTXIkKRx2zh9blu0xWns8PcHK/eCDEkso7yoksEylyO/cvDD124ujhT84d6utzOhC6XwMAAAA=");
 
 export default FaceSurprise;

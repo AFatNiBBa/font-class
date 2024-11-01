@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `igloo` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/igloo?s=sharp-thin igloo}
  * @preview ![igloo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/igloo.svg)
  */
-const Igloo: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M560 336l-96 0 0-144 64.1 0c20.4 38.1 31.9 81.7 31.9 128l0 16zm-112 0l-69.5 0c-13.2-37.3-48.7-64-90.5-64s-77.4 26.7-90.5 64L128 336l0-144 192 0 16 0 112 0 0 144zm-65.3 16l65.3 0 16 0 96 0 0 112-176 0 0-96c0-5.5-.5-10.8-1.3-16zM128 352l65.3 0c-.9 5.2-1.3 10.5-1.3 16l0 96L16 464l0-112 96 0 16 0zm-16-16l-96 0 0-16c0-46.3 11.6-89.9 32-128.1l0 .1 64 0 0 144zM518.8 176L336 176l0-123.8C413 65.9 478.8 112.1 518.8 176zM288 48c10.8 0 21.5 .6 32 1.9L320 176 57.2 176C105.3 99.1 190.7 48 288 48zM16 480l176 0 192 0 176 0 16 0 0-16 0-144C576 160.9 447.1 32 288 32S0 160.9 0 320L0 464l0 16 16 0zM288 288c44.2 0 80 35.8 80 80l0 96-160 0 0-96c0-44.2 35.8-80 80-80z" />
-    </Icon>
-);
+const Igloo = createIcon("igloo", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABiQAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCZQsGAAE2AiQDCAQgBYMtBywbYQXIHge5afRGujh6EzUeHvKq3k/SShoZOSMvkVqIY58WukHCuaqXuUPA1/dNXFM/g/43kLI5R2I2RmFEnU9g52n7eePjaDQb2IvizE0jqIkgyq1+BBr6DVPJsPUKWXxqjhaSi5M4s/1o/GqQU0ikKYAoAdA4eP89PfVVfBXxavN+4lW7IyAaoBJIkWKoAFtJBYbKVMhkgq+i2eT/wIoAohWoxFszFDgV1wIykOjIsqJPZ1dXXgzqVbR0ZQcVLfnyvMgjirj7QPmouGTSLeOum3DTQK0XReGAwi1q6MT+efSeR8gi0hEfbpg9ZgfJ5zc39aBT+4nOeHbvNw+eo109AfcHByXqvQMIUVfMvn9ixM3DHpG+cvKtm466pbzld857zfTlM3DiLLWf7Viu2BEy3rpyxV9/rVh56U7O8tQJZ9U9jcbdK9xlhva2ZqPRaGuf4S4rzCgvqUt2LFU764IrHyQZjnHJn/75w/Hl38dps+s9d++q58677lqvdBZ7j63H1VI2dm97qxcjA/XnzlIqe54s53JQzHCVGeKguSUQCC56+huO7tnq//YiAd888mfyy02TOrkF7RIQpFOaUxyR1MCGAWSSWGeUobBA4mQdgG/tdIEAIUeARKtcgNQQpQCZ3GQBWgy3sQCtcvtLRdYh9HXk1CQ6rdSkNnGsJtPXvZoWW3kx06pvpK5pcSzLn2HOnXZ4x23V+tPWq7aoDtu61dtMZX3L6rRrwjoZm0gXzbPcMmvMNcdCazZhlT3zay21k8XvSEGV9U2znsoWqtu99fmDzLXKagstt6xusqXq/dgE6+zZE2kXCWCDj2qSqkhaFs5fsnw5AAAA");
 
 export default Igloo;

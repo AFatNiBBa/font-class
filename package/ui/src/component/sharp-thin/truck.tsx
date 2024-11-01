@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck?s=sharp-thin truck}
  * @preview ![truck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/truck.svg)
  */
-const Truck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 16l0 384 51.3 0c10.4-36.9 44.4-64 84.7-64s74.2 27.1 84.7 64L400 400l0-384L16 16zM64.4 416L16 416 0 416l0-16L0 16 0 0 16 0 400 0l16 0 0 16 0 80 72 0 3.3 0 2.3 2.3 112 112 2.3 2.3 0 3.3 0 184 24 0 8 0 0 16-8 0-56.4 0c.2 2.6 .4 5.3 .4 8c0 48.6-39.4 88-88 88s-88-39.4-88-88c0-2.7 .1-5.4 .4-8l-.4 0-160.4 0c.2 2.6 .4 5.3 .4 8c0 48.6-39.4 88-88 88s-88-39.4-88-88c0-2.7 .1-5.4 .4-8zM416 216l172.7 0-104-104L416 112l0 104zm0 16l0 141.4c15.9-22.6 42.2-37.4 72-37.4c40.3 0 74.2 27.1 84.7 64l19.3 0 0-168-176 0zM224 424A72 72 0 1 0 80 424a72 72 0 1 0 144 0zm264 72a72 72 0 1 0 0-144 72 72 0 1 0 0 144z" />
-    </Icon>
-);
+const Truck = createIcon("truck", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABjQAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCVAsGAAE2AiQDCAQgBYMtBywbUAXIhqDSVWW1ekla0BHrAOGRWI8IHoHhTbyL1lt4cep5zkMBfM4ECQdtLFzzfNVqe59XoPXi9k0VmeAVxZq33GuPNJE9MhNNMv+YHr9OkONvx+oiPZi+w+28OX41zjUkRYGBqD0rtjpgn9180YlOxLf/v0t8axcExFagEShQYKIAGxQCE2UNsizoxP//y39gQwDRDU+eQEYvbsa9gAyS7pxHbOobGhiougby/lVXeUgqUhUPz3959rNzXxxXRRH9B5VVGVFERDUgRFWNiv1iVOhhUZb3emTOCyvem/fS5CsjLCuSY6qy2n8uRnh9deCXRJT7PrbuozUfTHx07YfrP55y1PuLX1/02qp3Fryy8NWV016qX/p96nfHf2fo9bZtl7t5ryM7nSP3uvlprXbx7UuWbKm1avUdtT3tWEx1xhmGK3xgbG+td22R8w03bNnSV+WceZL1jvjyVSaccILtnFjfatz1c+jmEV7wxuef985YvnxGrzB6dmi3Xr586/ZxIBCMumTMM0cMbfirt0rgl4/+/JXu9/8XqU0voVcCQbHg/wUOTS0AH0CW4nzTnDUGkqtd76v2u0+AUCJA0q0UoDBBLUBWmi9Al8lWCtCttI9C5D5hpMMUkn5nQWGVyyAb6W3ossGXabeRUaSkmFDihzBte4tst6xZumhJs65Z1g0py/gyv77Z1uecT31zcdTxznC6cx3nWCc512Bn261wntNs76Hb+aHGUoss0VinOW4979/fcc52jpOc4fS6yHpNfDzH+f7oubCSxrlMSZKI1PXmAAAA");
 
 export default Truck;

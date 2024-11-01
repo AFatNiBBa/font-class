@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-between-lines` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-between-lines?s=light users-between-lines}
  * @preview ![users-between-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/users-between-lines.svg)
  */
-const UsersBetweenLines: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 16C0 7.2 7.2 0 16 0L624 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L16 32C7.2 32 0 24.8 0 16zM0 496c0-8.8 7.2-16 16-16l608 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L16 512c-8.8 0-16-7.2-16-16zM147.2 192a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-96a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm352 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-96a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM369.6 320l-96 0c-35.3 0-64 28.7-64 64l224 0c0-35.3-28.7-64-64-64zm-192 64c0-53 43-96 96-96l96 0c53 0 96 43 96 96c0 17.7-14.3 32-32 32l-224 0c-17.7 0-32-14.3-32-32zm144-160a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0-128a80 80 0 1 1 0 160 80 80 0 1 1 0-160zM64 320l0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16c0-35.3 28.7-64 64-64l88 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-88 0c-17.7 0-32 14.3-32 32zm480-32l-88 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l88 0c35.3 0 64 28.7 64 64l0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16c0-17.7-14.3-32-32-32z" />
-    </Icon>
-);
+const UsersBetweenLines = createIcon("users-between-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABzAAAAK+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiDbgsGAAE2AiQDCAQgBYMtBzob+AVRVE2KZD8TbGNYj63Fn4xSlEtrO4l5ju58Ew/fr3127useoD8/xF1RwKyAyRE5ApXRCS+xQ7LTtRZV1NLguU278Nmi9MFtYkm1QczmKVJHNbtKgloY+5/L6Q07P8DPN4DyUMbcNiaOMZ+neaDR3NbztICiBBKjVucGdGDyTYX7GfL4O2Y1pAfpK1zz18VverhIkmcIIap4TTNXLVvqkzLKiK/+34ivLEZAzAKFQIYMvQWYIhPoLVcglwvK+P9/9z+wIICoRYlkV44KfkY7wykkzXne0hISHF1FKRJ1XQ2FOeYbHG09E7WtDB2NQ1q/Jyw9HC0sXIOAqUxtawxvw7N/3Pv4mt5fvhSwcPjF8QEx6ITWWic4RoTzT6mVqRAOA9dA957HNLSX0MW+gd9cvvPn3tff9v8yKFSmcXCM07sj3nQmHsBUIII3rvVEXIdnhCIQfGG9+RKv3zDx1c6vvKiUm5WVrKVsJd0cXrnK1QrlKaQFa0nePGJaa+u0ESOG0XGGjdi0adZ2tn1zmPiiQ4depUa2rO3j6fWPeHR2s8OP3qvfaCgdS7/2sO2XTz/9pe0FY784+8nJ+fNPfvKd77tor4bhSllWqoeVq1+mXH3A1t5vdShqy9rGXY1VawT0cSAQfPw07d3UOuVVPU7g1/f+elXc4/9P0tn0CPUSCLIh/8/W+35wqQEEU5zUnyppSL7WXCF812Z3BQiNCJDUahQg00tVgFyjwQLU6GusALUaLZOJvEHobEMDSbMjkBnnFOQ6ex1qTPFpqFbnyOBbBJ2iv8vk87r43EnFyGEjiknFbFElBlmBMzy52KwfcFI3DaQL7XTIQcftsN0exzvkUUujJxwwb4lz7mcLIw0zQmGS4nDl4eyVdjjqmD0OOeiNMllxvXuAk8udB1JTEnIdJSNJROqELuqhmKUcihY=");
 
 export default UsersBetweenLines;

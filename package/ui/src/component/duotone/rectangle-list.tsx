@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-list` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-list?s=duotone rectangle-list}
  * @preview ![rectangle-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/rectangle-list.svg)
  */
-const RectangleList: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm96 64a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm0 96a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm0 96a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zM200 160c0 13.3 10.7 24 24 24l224 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-224 0c-13.3 0-24 10.7-24 24zm0 96c0 13.3 10.7 24 24 24l224 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-224 0c-13.3 0-24 10.7-24 24zm0 96c0 13.3 10.7 24 24 24l224 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-224 0c-13.3 0-24 10.7-24 24z" />
-        <path d="M200 160c0-13.3 10.7-24 24-24l224 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-224 0c-13.3 0-24-10.7-24-24zm0 192c0-13.3 10.7-24 24-24l224 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-224 0c-13.3 0-24-10.7-24-24zm24-120l224 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-224 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const RectangleList = createIcon("rectangle-list", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABswAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDFgsIAAE2AiQDCgQgBYMtB1gbwAUjEWZj7kj2x0J1G+WaNE3RFIcm+I55JR7et/V67nvz1/asGcbAWBFRiKGDKtyx+pSjtARdpA2A+T+XLp6PBrbPIxhKp06jfFhX6SdwYqFRdCdyAiV6RnSL226CqISyExpHKOL/fJc20vPpRzwa/A9g/KLfXZIOGUB0BcDSbZvW+LqOOsWPrU/Ej1YjIJaBKpCRMTDAgiwwsFBRKAR1arXU0WpVAoiG4KEZNNARH/ARUIAka1cUoZ06de7fI4I6xc22TsXW7JVy14ujm/F2v+dGlPFOf51wW7NsMnrux88vjo/4cHSneHvs+/1SPDfmvREd451xH/TPW27rFfF088E+z8btvZ8pH+j5FMMv2/b8yGa8O+CFUWW81Rc9YtgHXT/4beiPR3/0zZBeG2obeuVDX2Oiz7W6rlm81f6ym26vfe21bt3KJawkSvsWd76P+zqTiph+/3Dp2FevTba/cz8I8d/0qz/t67Lgv/ZNbgI/f/rHP+XtrTotSR+gvQSCPKE1YXdaAoIcQJLiqmFzX/QtAtkN2ometaNnAoQSAZKGUoBsQNcAhdL4AG0GzwzQUNoki6KD0HNPC5KOLoBs1s2gcKCnj0GbBb5JG3pGBloe5PhfxpRVfXTlumrqpCnVvGqxUgtwyNrF+dVuZ8xVOTAW73T03NnLRw6fuNzDL64prpxZtYat/GBlqkmmqMxTnW4fb9565OKlE+fO+qvMV90fjHF1ffxY7CcR5TR7ZZlIkXtfPHLo8oGzx04fmejyjYkfwKi+U5JjBwAAAA==");
 
 export default RectangleList;

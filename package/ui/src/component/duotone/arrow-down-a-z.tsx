@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-a-z` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-a-z?s=duotone arrow-down-a-z}
  * @preview ![arrow-down-a-z](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-down-a-z.svg)
  */
-const ArrowDownAZ: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M304 224c0 11.7 6.5 23 17.7 28.6c15.8 7.9 35 1.5 42.9-14.3l7.2-14.3 88.4 0 7.2 14.3c7.9 15.8 27.1 22.2 42.9 14.3C521.5 247 528 235.7 528 224c0-4.8-1.1-9.7-3.4-14.3l-16-32-64-128C439.2 38.8 428.1 32 416 32s-23.2 6.8-28.6 17.7l-64 128-16 32c-2.3 4.6-3.4 9.5-3.4 14.3zm16 96c0 17.7 14.3 32 32 32l50.7 0-73.4 73.4c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-50.7 0 73.4-73.4c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8l-128 0c-17.7 0-32 14.3-32 32zm75.8-144L416 135.6 436.2 176l-40.4 0z" />
-        <path d="M160 480c9 0 17.5-3.8 23.6-10.4l88-96c11.9-13 11.1-33.3-2-45.2s-33.3-11.1-45.2 2L192 365.7 192 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 301.7L95.6 330.4c-11.9-13-32.2-13.9-45.2-2s-13.9 32.2-2 45.2l88 96C142.5 476.2 151 480 160 480z" />
-    </Icon>
-);
+const ArrowDownAZ = createIcon("arrow-down-a-z", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABlwAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCRgsIAAE2AiQDCgQgBYMtB1gbcAXIhocvW+n73XN70uwJeYTMRuRIFDm6zBjkgtTAmatm/q/5/KwK8BsdWsYyeI2Hy3o+gRNbUKQV+ITOFLdsDvOLeGgjxF+hiP/zY1pIb6ef8WL4H8D4RT+PkXTMAKIrAJbu3r5R+6W4lOLn+gLxsw0IiGWgEsjIGCjAAllgoEKFQiG4lOqaS1HXFQFEQ4Azu0He8AheAhQgCbkoxg4f3dps6VTs4v5y57N9dsebvd9Qvp6v9ZwQOR7uvPIZWZNiUmwc8VqvnfF68/hDI1/v82afPtGMXonWi+hfnjuhf+yKd0Z91ndH9I3X7HyoVzCvGbT8Wr+3Rxrt2dPiVy1l7I43+5NoGZ9+bffkCZMnRjnsm67f/Db051M/+3BI57d3H/ZMs+3pr860v/WPSTo/9VTn4vlJ/vFW+5mvnm5rPrP7sLc7m3yxR78L589fe709rndtt+dCvx6to2qLH/RSVb2kWmqjWrscfught0y3do2Lxx5Z8tB73eaZ9S/OThljvBII1r76y6XDXRb816GZwJVv//ineX5YfSl1Td+ggwSCPKGe4EBaYpgpBwECSIsUdxiGwzc6pghkW2Xgn9XmDQFCiQBJQylANkBXAQql8QK0GGymAA2l7bIoOgo9HRxA0uZmkM1yPyj0dB60WOC7SkPPyMAogZL0K5i+agqtDKqmTppSzat22zoZvgS7Pr+6HBlzhxwbi/c65UY3uM1JJ1zttgl3i431211v1RGxUogqU00yRWWe6nHvpb6LVm5xq6u31eebzFd9XxjjjuPZY3E8SXmnOZhlIkXuffSWW268c2IUrU88OvGeiYA9re+aGokBAAA=");
 
 export default ArrowDownAZ;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-lines` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-lines?s=regular message-lines}
  * @preview ![message-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/message-lines.svg)
  */
-const MessageLines: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 416c0-26.5-21.5-48-48-48l-96 0c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16l384 0c8.8 0 16 7.2 16 16l0 288c0 8.8-7.2 16-16 16l-138.7 0c-10.4 0-20.5 3.4-28.8 9.6L208 432l0-16zm-.2 76.2l.2-.2 101.3-76L448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l48 0 48 0 0 48 0 4 0 .3 0 6.4 0 21.3c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L202.7 496l5.1-3.8zM152 144c-13.3 0-24 10.7-24 24s10.7 24 24 24l208 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-208 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0z" />
-    </Icon>
-);
+const MessageLines = createIcon("message-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABewAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCFwsGAAE2AiQDCAQgBYMtBzQbGwXIhofn7fo691V9VffQNTYzYuVICuUMTuGU0W7aF6d6oosC+EZBG5uWBmQB7nUegYjlYlNzJSlYTStgZaluExXyiMI3RIJEouPc8XVDHu/HA+pIT6avcP980/hTJ9dI6jIA0RIAM9evXuqT3+K3iC9rbxJfWoyAmAlKgQwZugowRSbQVa5ELhf8FrVa+w0sCSDq2X+ZQI56HMc5QA6SPM+7j6xWK3XN8nWVumL9U+0jHutXxGPts3i8Q7N4tF2KR9oWcaftmggRsT4q8dLg17pk8dSgV/tV4/kBL3dM8eTAV/pWKkJECHGp3aMd+keHTc93fLJvJV7q8lS/gj/p9WrLV//u+dW+r3zbI/uan0bs8FvzUvPfLsnuu1q+u2CslkuwZ7G7nm7VqigVMn36Eksj7LIcDdoprl49UzV7/OaV7dqt/A4jO7ATXgaB4Ob3v7fc3mLKf42VBP5479//9Wuk9lGSXkWjBIJsSG2ILQkkAgCQ4pxeCQLJfjl+UvWYAKFAgKRe4ZDpoiXkCoOhTndjmaK8uuSPvEloaytDUnUSMuOch1xbr0OdKT6167WNDHMcYrgvX/K8iM5dKkcOG1FOKo+RxcOI6dPJZVkbcE4rA2nTPscdc8Zeexx0JlCnLPXOOmpeRs71QaWRhhmhNEl5nb6vr7PXKacddNyxMWey8r01wLm8fSCZidGO4ksSkZohUR2KUwAA");
 
 export default MessageLines;

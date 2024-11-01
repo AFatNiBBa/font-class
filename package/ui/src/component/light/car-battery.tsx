@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-battery` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-battery?s=light car-battery}
  * @preview ![car-battery](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/car-battery.svg)
  */
-const CarBattery: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 80c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 96c-8.8 0-16-7.2-16-16zm256 0c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16zM64 160c-17.7 0-32 14.3-32 32l0 192c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-192c0-17.7-14.3-32-32-32L64 160zM0 192c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 192c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 192zm368 16c8.8 0 16 7.2 16 16l0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l32 0 0-32c0-8.8 7.2-16 16-16zM96 256l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const CarBattery = createIcon("car-battery", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABjQAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCRQsGAAE2AiQDCAQgBYMtBzIbRwXIjsK2bRNRk+V8CcsUTjzU78f+7L6LmHRImvBK1BIZprs0a2RSpgT73/3/39+3z4feFyfdgVBFN6ICinJzCayzJk1+839NvnfPjwrkGx1KtGWtKBqkgycwwGg/4dlsYAMa4HwCtrcpGfSE4ReRIiSVY8cljH8JlLghL4jJF8E7eGgvGv8xYARIpQJAtAMAVrYzk/H4QR9E7/wZxDvWQECsAhhHqFBhGIF5QoFhIuOgKIIP4vnyHzgOAUQt6PsSFNTjDHALgAJSbRGpVHZ29mpOrBLlcGJF4byFo1nTjFFBc2YVe1zWlJFoBohD0yynomnLPBENmucUyrhlT6JjVxXtuh/aQM9uB05K2vM4sqPyWRPoXEHkzJyZyIlxVYggV8YpOIPRCRyOtEe/9u8175Z21B9l+FDDCNgOPlU9AVyqH4EUQAPirOYbdUDHqyY2dDoFhSI0tmo+1AzMgelr1R/S0fiWEcO5Vz4HEAh+/4xWlWqi/us5AeDr+u+//4ZSvgHqJQiqSd5LUQKSAABk9MAhgUDaI5GftdkjCIRGBEi1GgWoDNEiUDSaQKDGqGAEajVaJxRFjtCteILUbBdU5vSCotsJqDHvKV+rO4ShyAUS9yeYHCPh6G3M38ePRbBl0+Cji6nLkWxbdetRQ+7pLmq0atGlWpV6XQLtkFzq1izGQqK9EePPhx8mArvurK/nqNahU71WLbhJJPZ86KbHnuyeDAEinXI2JZFcZXmH96cf");
 
 export default CarBattery;

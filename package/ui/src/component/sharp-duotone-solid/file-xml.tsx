@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-xml` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-xml?s=sharp-duotone-solid file-xml}
  * @preview ![file-xml](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-xml.svg)
  */
-const FileXml: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 144-272 0 0 208L0 512 0 0z" />
-        <path d="M384 160L224 0l0 160 160 0zm32 192l-16 0-5.6 0-9.6 0-4.5 8.5-28.5 53.8-29.7-54-4.6-8.3-9.5 0-4 0-16 0 0 16 0 128 0 16 32 0 0-16 0-73 18 32.7 14.3 26 13.9-26.2L384 421.8l0 74.2 0 16 32 0 0-16 0-128 0-16zm-224 0l-32 0 0 16c0 13.6 4 26.9 11.6 38.2L188.8 432l-17.2 25.8C164 469.1 160 482.4 160 496l0 16 32 0 0-16c0-7.3 2.2-14.4 6.2-20.4l9.8-14.7 9.8 14.7c4 6.1 6.2 13.2 6.2 20.4l0 16 32 0 0-16c0-13.6-4-26.9-11.6-38.2L227.2 432l17.2-25.8C252 394.9 256 381.6 256 368l0-16-32 0 0 16c0 7.3-2.2 14.4-6.2 20.4L208 403.2l-9.8-14.7c-4-6.1-6.2-13.2-6.2-20.4l0-16zM448 512l16 0 32 0 16 0 0-32-16 0-16 0 0-112 0-16-32 0 0 16 0 128 0 16z" />
-    </Icon>
-);
+const FileXml = createIcon("file-xml", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABkAAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCcQsIAAE2AiQDCgQgBYMtB0wbjwXIjsJxr4QopjKUQURxYsXz/K/9b59759kM7lXEQsVDIuNVOyTz9tPPhPwS0mcRIZPnnv3c3cT03pK4QbJkoqGadCrr+41KXQk8pr+f+uP8N+Az+ki1qMKKOp/AgKN1oLsBTWgmaWBTncseOAjLPmJM2YBM9Picx+UVmvyoz4wob8oceM7/A5h/jO4oZhVAVgAAF68PDQLTpy+ZD10yNwAEcglgB0RFxRYIzmALtuDYATQaoS/DAPoMA4EAGeOXXsEYE7zBN0ADikaaZrL3pFop5i5trnWj9ta1kVHA7mrbtWsSTDi6iFoR6ZIke2OMOQHFTRVdrni00YXOPLFyH6/Xozb3kLLJjZ68+hRJa9doUJeH5GrXdlc1MQOi9rw/KEuiXhjtWlB8/e2cL8xdbv+UW332eXtPobA3oeu3BuGaFXBlBaLQotDXp9Rm6ErfE21RgHZRaGZxrVUmvvHRRzc6aDfGP7gZHD5XKIpqYcXWTXZML/f+DJ+9sMKvLQAE4eGenmZSfub/tCvgz/f/v9rvaGCKsoCpAkLdM3iNFVAIAKDkAUcBnxFUjzToUZd4KSBaBBRjrYBqMwUEjdZuCEa2iUEw1rqMLc1MrDF+gmKJ26A65hw01vgGI2f8hMbWhB2hYnyJP4gp6ojWVlHIH6Q0TRsOSdDxZTFDboPzIA+46CQs2LRhz7w5y/aA2TEY3beuvsJqnoiE+AWRNNpurxWjENqxa3ks218mg573OB2sx7vIzCKsh6ypKimpKz6HqO9ofc0X6jpVJ3upAQ==");
 
 export default FileXml;

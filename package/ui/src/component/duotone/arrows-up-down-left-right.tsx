@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-up-down-left-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-up-down-left-right?s=duotone arrows-up-down-left-right}
  * @preview ![arrows-up-down-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrows-up-down-left-right.svg)
  */
-const ArrowsUpDownLeftRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M169.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l9.4-9.4L224 224l32 0 32 0 0-114.7 9.4 9.4c12.5 12.5 32.8 12.5 45.3 0c6.2-6.2 9.4-14.4 9.4-22.6s-3.1-16.4-9.4-22.6l-64-64C272.4 3.1 264.2 0 256 0s-16.4 3.1-22.6 9.4l-64 64zm0 320c-12.5 12.5-12.5 32.8 0 45.3l64 64c6.2 6.2 14.4 9.4 22.6 9.4s16.4-3.1 22.6-9.4l64-64c6.2-6.2 9.4-14.4 9.4-22.6s-3.1-16.4-9.4-22.6c-12.5-12.5-32.8-12.5-45.3 0l-9.4 9.4L288 288l-32 0-32 0 0 114.7-9.4-9.4c-12.5-12.5-32.8-12.5-45.3 0z" />
-        <path d="M118.6 169.4c12.5 12.5 12.5 32.8 0 45.3l-9.4 9.4L256 224l146.7 0-9.4-9.4c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l64 64c12.5 12.5 12.5 32.8 0 45.3l-64 64c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l9.4-9.4L256 288l-146.7 0 9.4 9.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-64-64c-12.5-12.5-12.5-32.8 0-45.3l64-64c12.5-12.5 32.8-12.5 45.3 0z" />
-    </Icon>
-);
+const ArrowsUpDownLeftRight = createIcon("arrows-up-down-left-right", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABnwAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCWQsIAAE2AiQDCgQgBYMtB24bmQXIhuB7W2m/P7Nb0qzEeyegETNmAGDMHLoutSNHyoyRg+jKKUE8U6dqhm0KBXMPAtnTkg5cQHufV6DnpVh9U8GXUE1rYB22zaxH9lih43iCPH7OHqiRPk8/4fX1P4Dxqz4ekHTMAEQ3ACzeuXW9D+3RnuKn6mviJ+sQEEtAKZAhQ38B5skE+suVyOWC9lRVtEdVlQQQddczZqCOGt7gE0AOkpDyfOGw4Y1a53xHo1bs/VjEnWYzGo3W+CTu9vq08bxlc3zsTnNTfFQ8axW5XlEULcIUbIk22BpOwd6PfL2WjzFvURSNxo21hPbpIVjVimfNTWkPNsccbA2lMDU2I6IoRKvDHUPaurX9PvinEz+50fq0M52ffub9+8887YzYzp0/q4LKLLRDGlJf3vAW7NpcVZZXPfUqP6l8bg0tSpgF34HX40AguDfr7YSDXef936GRwC/f/Pkv+CGpPiSpDR0kEGTjqnH2JZAIAECKG4Yk+EIgs1ryfGonnwgQCgRI6goBMv10EyBXGCtAzUDTBagrbJWJvKPQtJ+ApJPLIDPDTZBr+grUzPNtpa4ZWa2U6pT0U5i+gkWX7ysnT5hUzim1XUiuaMK+Pbd09kfdmKdGt0edcNEF1xx3zGnXGOaK9fXrzlthopf7otJkE0xSmqMMHijm2OG4K646rVbDd5mrTJ+OcsO8eHR7mASYkp85GZEiG3z4yldTHn/90vjiKr610sdtjy/nSw41qiUbAAAA");
 
 export default ArrowsUpDownLeftRight;

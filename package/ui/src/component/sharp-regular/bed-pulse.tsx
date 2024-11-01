@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bed-pulse` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-pulse?s=sharp-regular bed-pulse}
  * @preview ![bed-pulse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bed-pulse.svg)
  */
-const BedPulse: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M472 0l16 0 14.8 0 6.6 13.3L534.8 64 616 64l24 0 0 48-24 0-96 0-14.8 0-6.6-13.3L480.4 62.5 429.7 170.2 423.2 184 408 184l-16 0-15.6 0-6.3-14.3L344.4 112 216 112l-24 0 0-48 24 0 144 0 15.6 0 6.3 14.3 18.5 41.5 49.9-106L456.8 0 472 0zM312 160l18.7 0 10.1 22.7L352.1 208 336 208l0 160 256 0 0-88c0-39.8-32.2-72-72-72l-72.7 0 11.4-24.2L469.9 160l50.1 0c66.3 0 120 53.7 120 120l0 112 0 96 0 24-48 0 0-24 0-72-280 0L48 416l0 72 0 24L0 512l0-24 0-96L0 88 0 64l48 0 0 24 0 280 240 0 0-184 0-24 24 0zM208 248a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zM80 248a88 88 0 1 1 176 0A88 88 0 1 1 80 248z" />
-    </Icon>
-);
+const BedPulse = createIcon("bed-pulse", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiQAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCZgsGAAE2AiQDCAQgBYMtBzAbZgXIhof/t/uvfW7Ve+t3VRvVNjMoBsdIAeeT/jWpEHH6+6k/LAPk2W/HRdFmDVLnEXU+gZ2PorxpN54V2GyiOHW6ZUfHGBn1HKUoVhGPR3q8HiCPv+OmGumh9C1uzI+KH3RyjaSWAYiWAJi5fvVSHzZGY8Q3/79GfGMxAmImqAQy7OsqwBSZwNtzFXJ5qjH+/x//AysCiDrFkofnqOM+HgfkIMnzfPDCZs3KWrN8XVkr9pdF2S5GRlmKomgfw2JNtF3+UTUSUQZZQ2N9dIhyzbVgp9j2FSGaRcTDg17uV0SXYivjs6nv9RRsETHRtKn5M/pL+hMDYc+w5uF+z/d5tuNDfZ/r/0KX4pnJ70x8q+eTE96c9HavXi+3fPmnnt/u+9Z3H7Rs2WOL21Z2HKHj8S16G3nIUS2qrR5y6UB5cqtOyMHwE0+00Xvc96KWnsQGzUePblzoDS8YpWrVKp2wQ0cjOrQAanBZYocRkuzoV29Kwf719cETJw6ui/pSq4feeOOhVrcDgaAcvPPS9hZT/mooE/j+7V9+wfX+/zBdSi+jQQJBNuT/IbakSwBjAKkU5/QKviiQXJfTT23qvgChQICkrhAg00VLAXKFwQLUdDdWgLrCapnImwhtbTWQNHUSZMY5D3JtvQJqpvgiWdc2stx0ZZbrzzD/PI/OnVWNHDaimlSdVix3ujnG5OTqdmjAudYxEHvtc9wxZ+y1x0FnnHjK0sxZR82L6Ll+qDLSMCNUJqke199vX2evU0476LhjnGay6v3EAOfi/gMxnwQY9VWhtDBSk1179ww9cfbI6b0A");
 
 export default BedPulse;

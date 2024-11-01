@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-front` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-front?s=thin truck-front}
  * @preview ![truck-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/truck-front.svg)
  */
-const TruckFront: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 16C60.7 16 32 44.7 32 80l0 181.4c10.2-14.4 24.5-25.6 41.3-31.9l-.8-.3 36.3-96.9C117 110.5 137.9 96 161.3 96l189.5 0c23.3 0 44.2 14.5 52.4 36.3l36.3 96.9-.8 .3c16.8 6.2 31.2 17.5 41.3 31.9L480 80c0-35.3-28.7-64-64-64L96 16zM32 312l0 72c0 26.5 21.5 48 48 48l48 0 16 0 224 0 16 0 48 0c26.5 0 48-21.5 48-48l0-72c0-39.8-32.2-72-72-72l-304 0c-39.8 0-72 32.2-72 72zm-16 0L16 80C16 35.8 51.8 0 96 0L416 0c44.2 0 80 35.8 80 80l0 232 0 72c0 23.7-12.9 44.4-32 55.4l0 8.6 0 32c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-32-224 0 0 32c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-32 0-8.6C28.9 428.4 16 407.7 16 384l0-72zM80 448l-16 0 0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32-48 0zm304 0l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32-16 0-48 0zM91.2 224.9c4.2-.6 8.5-.9 12.8-.9l304 0c4.3 0 8.6 .3 12.8 .9l-32.6-87c-5.9-15.6-20.8-26-37.5-26l-189.5 0c-16.7 0-31.6 10.3-37.5 26l-32.6 87zM112 320a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm32 16a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm240 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64z" />
-    </Icon>
-);
+const TruckFront = createIcon("truck-front", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABxAAAAL8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCEBgsGAAE2AiQDCAQgBYMtBzIbCAbIPgzwZHvw6iRjpBGbkKLtaEc22+BdfEVReAf9YRxBoSvrkWTSGfaqNjLKRBQBU0aEnxJnBOHz+iPi+IYud69rLBoblz+WWJwlGsMECeL7096mtIZ9PEQN8aNE+Q7+/93dt7W9aYrTnSNqAZUabKrqA4dcFLalFigdKILwdhttMpsPcGaTOOQwsIgCSxJI+wrRL4faYgG+ulS/2KdRHT+jmAT3L6V0715KHY9AAGP5o5ROoVD4wWIBi5hmdNvVENGQPkLjDFm8KcvVIrmmfQI440QVv5IcJJGmAKIEgJFr2lTvVVRJ8UlEfOJAQIwChUAKCU0FGCIVhmfIFMhkgkrUhP0PHAggagtcYleG+ngO+B2YCpHIs6xV45YIS/Vyna4yG2Qz5evzeQ8X8bQhbixiVtw5zcvjHuJRK67v4ddXuNab5/BJ/SgzVs4AKy6IO8dfD+yHtk8jxM2VEHuLG87jeNWhiHxIjnhh0pVX5eJSaa7U61QDD7fP0ituECfKI67PhYfNNuPiuAysvPPznRUXvTu8++odwJINVGFQ1mlhSXD82uOtXiDj7/u5Xm9RnX/yv0LrxZ6PhJFvLRCOfiWvrn4uc7AGbfrps2583XmChr17/6YqLoonP8GrNXNFaVFaMTN+sip/WRUaHlWB4yrDonq+LG/4gwy8tVW2eBvt0cMMpt4+StO/v9xD7cXF6eqJ7h61t3xZhC2c6QtKHG0Njzr/QgA72eeBQDD/3ziJIf8XJ+DHN36r9yU1+SuFUFcCgrRLDeZnSkrxBwBAEju1sh8USHwFFsRa32UBQo4AidpyAVJNlATI5DoLUEtzfQWoLTdNKrJ6QtmCDiXq24JS/exCmbIXUS1DvJ+trRx6XDfGVOOfZrZxQ3bsuqLKS7MzV5saU/TFerk3D/vCGx+KIMFKm2y03QrLralgoNxqamGHDcZtKcb6okJP3fRQGKS43Hm6faYVttpmjU022lUGK55PdbBze3JHGEwEnb1UJBIiqfqYHV0/EAAA");
 
 export default TruckFront;

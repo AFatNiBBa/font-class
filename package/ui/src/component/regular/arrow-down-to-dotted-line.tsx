@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-to-dotted-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-to-dotted-line?s=regular arrow-down-to-dotted-line}
  * @preview ![arrow-down-to-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-down-to-dotted-line.svg)
  */
-const ArrowDownToDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 416a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm96 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm128 32a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm64-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm128 32a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM241.5 360.4c-4.5 4.8-10.9 7.6-17.5 7.6s-12.9-2.7-17.5-7.6l-128-136c-9.1-9.7-8.6-24.8 1-33.9s24.8-8.6 33.9 1L200 283.5l0-83.5 0-128c0-13.3 10.7-24 24-24s24 10.7 24 24l0 128 0 83.5 86.5-91.9c9.1-9.7 24.3-10.1 33.9-1s10.1 24.3 1 33.9l-128 136z" />
-    </Icon>
-);
+const ArrowDownToDottedLine = createIcon("arrow-down-to-dotted-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABjgAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCTAsGAAE2AiQDCAQgBYMtB0AbXAXIjtFLJ0nKEBTgTOmI6ve2nn3vAilIskahs5CnvpEkI8BRyKw0HoVwFBYjzv//Ob0vSelnDH9AYAEVMCpA0GyBVNwAhawwO1WbbOb/cs/P1gL8Roc0ts3W0DZHe2mBJ7Z4LaEssDCQBBKw3iZmMBgEfhITrIiOz46zLfSc0CY0UC/CB3iiF80/V7NQNA0AZB0AcDUUFkAxxhh6n99CvuWBALkCcIBAAw3sIMApEYEdEg46CcEvqar9D+QQgIyBcDm7gyl4AM8AOqBou2SvCrissZRKwmewsBVHoj1Mbu+yZad9mnI+kOWeLJ500GqBnX8PeRtmiS4qybHzuWNx8AtOgk5dQWigg4A9l6KjK5urX5+Plg+q1SLwuGq16LvU9VMmvM0A1JWTPodRxlonFvBjWjGXVKLIJMfZzHESReqk2dL0wzwOCAjcf8Y61K6l/01lAcDfk+kf/Yrmxih1BZgSAIF2rIarigLkCwEAqIzANwoIKBO08FmX7SNAMBBA0WII0LizQYCOCUOAES8JCDDGFBJRN4A4qC5AYKEfiBKNAYmDa6CR7jml5RBRHGVhkj+DGZktlLGIx0RG81TOlmRFwsQ4msa3reAR1xICa9GiV48hzZq0G2q4AQXZYd0yZ0SGN+JiRIrGpeLH1cflJZoNGNSuV0+aJQ2/Hw02Mu8eAq4AeU9sKAKkXOvvBnpHI95oMGLomlJDQ81NEXILAAA=");
 
 export default ArrowDownToDottedLine;

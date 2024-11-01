@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-down-left-right` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-down-left-right?s=solid up-down-left-right}
  * @preview ![up-down-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/up-down-left-right.svg)
  */
-const UpDownLeftRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M278.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-64 64c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l32 0 0 96-96 0 0-32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-64 64c-12.5 12.5-12.5 32.8 0 45.3l64 64c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-32 96 0 0 96-32 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l64 64c12.5 12.5 32.8 12.5 45.3 0l64-64c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8l-32 0 0-96 96 0 0 32c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l64-64c12.5-12.5 12.5-32.8 0-45.3l-64-64c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 32-96 0 0-96 32 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-64-64z" />
-    </Icon>
-);
+const UpDownLeftRight = createIcon("up-down-left-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABdwAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCBwsGAAE2AiQDCAQgBYMtBzkbEAXIjsQ4JvGLKEzi4fu5x859SQE4ZUYHCLZsiR3rVpLtrFzZ+Rnyjj916nnOQwvkPeIJwhq2aIFkA855HoEAx+LxWs+XFaymFbCau5orHkr7SZJGa3k8x+PjgjxeZ0eUId1M33C+fGj81cARkgoZgKgOgOFzZ0724Vf8ivhaekp8NREBMRwUAhkyNBZgkEygsVyBXC74FaVS/A8sCCDK4gdJIEeGDdgCyEESeb6iUpkq+ZxKZSquvVYx4lTtaXGlwc3WlUJUjIhbbe5NRAfqTI+rbe834kXrTv0blKx0ut7MuN5QQRMP2qTeDck4WHdGXGulMAVoyLdx9xaPqj/6z7c139R9dqMKVW6U/FxxaFhhmWUKedu2/0pOVqlysuRfm3a5hA87tOInrc6PVNu1uR0Egu9/ftRaWm3Q/+UrJfDnVau/otKHJD1CeQkEWadSJ4sSSAQAIMUeLRIEkhUSftfKrgkQKiJAUlZFATKNVBcgV1FHAcpoqrcAZVU0UybyCkJtiztIKtsOMn3sBbnaHoMyBvnolVU7Ml/jPYX/6qWMGaHRe0X3Lt2KAcUy1QT3YfN6YKHW2u1JrfZ0ao2ttthltVXW2zUgO0wOd9tszA4e7YsK3XXRTWGAwlw8K3Pg7bDTelmybxmoOO+2s2c/3J7MhEl7OEoSkWru3tbZ/7hnyF9XAA==");
 
 export default UpDownLeftRight;

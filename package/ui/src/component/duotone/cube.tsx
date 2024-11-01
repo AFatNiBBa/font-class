@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cube` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cube?s=duotone cube}
  * @preview ![cube](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cube.svg)
  */
-const Cube: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M64 189.4c53.3 19 106.7 38.1 160 57.1l0 188L64 377.4l0-188zm224 57.1l160-57.1 0 188L288 434.6l0-188z" />
-        <path d="M234.5 5.7c13.9-5 29.1-5 43.1 0l192 68.6C495 83.4 512 107.5 512 134.6l0 242.9c0 27-17 51.2-42.5 60.3l-192 68.6c-13.9 5-29.1 5-43.1 0l-192-68.6C17 428.6 0 404.5 0 377.4L0 134.6c0-27 17-51.2 42.5-60.3l192-68.6zM256 66L82.3 128 256 190l173.7-62L256 66zM64 377.4l160 57.1 0-188L64 189.4l0 188zm224 57.1l160-57.1 0-188L288 246.6l0 188z" />
-    </Icon>
-);
+const Cube = createIcon("cube", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABeQAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCBgsIAAE2AiQDCgQgBYMtB0QbHAXIhiDeLvrqN7N7gOYkRaLzixhB/sgc/RAMpXgnLsf/254ecJE/2h74G78Cn/N8g+UBTduUeKCZZmC9bTjCEYitCJXKiGg8G7Mr5PFVdlqJdDF9iTP0P4Dxq2ZOk1TLAERdAIydN2umj3+MH1N8WXlOfGkGAmIcKAQyZGgpwAiZQEu5Arlc8GOqVPgxKpWCAKKMPjoDZVTFfOwH5CDJpTwvqlWrVrNajVKtfG6NUvVFtzrOiRuNzhLHG17oMDuud5obN5ufi4gTTc53ntd39rzZc2JezJ0/Z+6ciLlhzrzZ8yJmh0WfTY240VHMjRgAXop2d+ve/b3tl2u/9MubyfM+Gq/zo48a/avhR5c7KX0e4Z0us/7R6KNHg6PpD0YWQyo+GnRpKLjv4Zb3Pww1+xud6tXj66+d90EgOPO0NGNZnRH/V62RwM9v//xX/R1VPkzSXVSVQJD1qPSwOIFEAABS7NUuwRiBzHA5vlTTOQFCdYRKyqpTmRbqUrnqulMlrQ28XFbdLJnIqwkNLREqqWkHlRnkCJVr6BlVMsInZVnDyIJNDBXxq5c2yUITdxV9e/UphhVuXZPih8/zw4ttr8te7OsKB621zVa7rbHaBrsNudPM2h5bTFoRE31Roa9e+igMUxy37rW5ptxplw1z5XyR4Yr7cRd716O7QpgwZz+XMhmRIqu5as/KNT1j1qitlKcJAAA=");
 
 export default Cube;

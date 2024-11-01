@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `music` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music?s=sharp-thin music}
  * @preview ![music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/music.svg)
  */
-const Music: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 5.2L512 16l0 112 0 240s0 0 0 0c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c33.4 0 62.8 14.2 80 35.8L496 139 192 237.8 192 432s0 0 0 0c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c33.4 0 62.8 14.2 80 35.8L176 232l0-120 0-6 5.7-1.7 320-96L512 5.2zM496 368c0-32.7-33-64-80-64s-80 31.3-80 64s33 64 80 64s80-31.3 80-64c0 0 0 0 0 0zM96 368c-47 0-80 31.3-80 64s33 64 80 64s80-31.3 80-64c0 0 0 0 0 0c0-32.7-33-64-80-64zm96-147l304-98.8 0-95.4L192 118l0 103z" />
-    </Icon>
-);
+const Music = createIcon("music", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABhAAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCNgsGAAE2AiQDCAQgBYMtBywbMgXIhofn7cI/983sBtAkFUB2ZBVXyQdYlN+tUO/ENc///OkBi/xRKixyHR4VPIF5W1GezwY0G9hmOAHb0bwnkyaHdqHuDnm8Y7US6Vb6FhfKm8avmjlNkmUAoi4ARsybNcWHP8VPEd9UXiO+MQkBMQIUAhkytBRgsEygpVyBXC74KSoV8R9YEECUpQcnkKOMwzgPyEGS5/mQJk2q1SjVyucabPV1ghBPqO+52/5J79c7Pmv9oNPzfp91iVi+RWGrSaySGfNvd4x41vfVI0zTWx2e9nlDanFVqDmbESGJU4QIzlu1fNWLu9s9q/vs97bfrv1W5e0a6eR2f4F49PD48YePoizV48Vbuq308erZd+1XNsOwZS7X2Vh1JDO7d585sqpnSgwu8hnMqRhYdrnbyvy0ZbottA4IBKcWLvtuWZ3B/1etkcAvb//5q/IrqnyYpGeoKoEg61zpbHECiQAApNirXYJAslsuvWpN1wUI1REgKasuQKaFugLkquskQElrfQQoq26WTOTVhIaWUDipaQec6esInGvoFbhksC8SZQ0jg0EGgpg/wMSxU2DMoqJH1+7FwGK3orFgRdnJQcVluf1e2dEBH7XWNlvttsZqG+yeQDtNSe+xxdgjcIwPKvTQVXeFgYrH9Zf751pjp1022Garn2eQ4nt3e3uP+3fAWpJwe8pLEpFKsAk=");
 
 export default Music;

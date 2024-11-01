@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-bolt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-bolt?s=sharp-regular square-bolt}
  * @preview ![square-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-bolt.svg)
  */
-const SquareBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 80l0 352 352 0 0-352L48 80zM0 32l48 0 352 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32zM200 272l-88 0 0-24L288 112 248 240l88 0 0 24L160 400l40-128z" />
-    </Icon>
-);
+const SquareBolt = createIcon("square-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVQAAAHTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBIAsGAAE2AiQDCAQgBYMtBzIbogTIjsQ4RvKLKFhFxcP/r6X3/Zndk8ymyFMiUsDkCGSiisIhqnVFI3Jqeyqrt99hzELO/zWf3/OjA/x8J35o0VQJUmAZy+cTmFB504DTBjadoM3c1a3MQ9N+kpayJI+PeDwdII8n0aZCepR+ozV/aPzVx22SSgYgOgNg8ZYN69Xboz3iV+MD8ctaBMRiUApkyNBfgHkygf5yJXK5oD0aDf4PLAkgqvReE8hRwVTMA+QgyfK8uUuXWqVDvrlWKXakLHWILFoW1IoOIoUoWiKyiE1FrYjYEhujFrBny5CnnZ/+2+//NvHMXvACttGkevaaJLYV85uttKG3V/eMvGYruR0Egvmt+fE9neb9b6ol8Ocr6OpGe9TTUzRJIMjGNcbZGXVgdAA/KcVlQ6KOQDJWRt+1xX0BQoEASVUhQKafzgLkCmMFqBhougBVhQ0ykTcL3e1qIGlxDmRmuAJy3b0DFfN886u6R3ZxqGOnvm3xKyy0fF05ecKkck45zFX6LhBpeW45LY26HHujsddhZ5x20SEHHXPRIOetjy45ZYUHL/dFpckmmKQ0R7lc3W/f7JDzLjjmjNOyylzlfm+Uy/7k0VATxZ0iliQi1d6eP37/mZMXAQAAAA==");
 
 export default SquareBolt;

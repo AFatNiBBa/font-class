@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cactus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cactus?s=light cactus}
  * @preview ![cactus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cactus.svg)
  */
-const Cactus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M320 464c0 8.8-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16l0-144 0-32 0-32 0-32 0-128c0-35.3 28.7-64 64-64s64 28.7 64 64l0 256 0 32 0 32 0 32 0 16zm32-112l0-256c0-53-43-96-96-96s-96 43-96 96l0 128-48 0c-8.8 0-16-7.2-16-16l0-64c0-26.5-21.5-48-48-48S0 117.5 0 144l0 64c0 61.9 50.1 112 112 112l48 0 0 144c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-16 48 0c61.9 0 112-50.1 112-112l0-64c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 64c0 8.8-7.2 16-16 16l-48 0zm0 32l48 0c26.5 0 48-21.5 48-48l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 64c0 44.2-35.8 80-80 80l-48 0 0-32zM112 288c-44.2 0-80-35.8-80-80l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 64c0 26.5 21.5 48 48 48l48 0 0 32-48 0zM256 144a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm16 240a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Cactus = createIcon("cactus", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABpwAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDIAsGAAE2AiQDCAQgBYMtBy0bnQVRlMzFDNnPBN4k68QIh7wiQLUes6lawsm4+BIPfGvpn9kNAG+rgDYFAgVMDsgnquCiI1tXdmXh6F4tgc1ZdG3nKkQePfjRKyhKq2rfbW1YyrNOT9NAMI6Ja55/09MDFvmjfC8ssTiDOs4bbDqrtGqCgc10ArajeS8NUki7UIc9pOFxmKCEeD++w0DxoeGrDreJ0gRAqAfA4i0b1ntRCIUQ3hUR3lmLAGEJyAQkSNAtgHkSAd1SGVKpQCEUi+I/MCMAoVT49ghSlOMBHgFSEAWUEMlKUWu9jCIz8a4o4VAz8LQh77Xu0xiIb8l55HNc//GjElYO67meC0olTAJ73tZRNQrGLk0Bev68+4bgEo6883NHNVIRYfTjOiD7ArjahHRGFMHlNZcYcESdaqneLbn811/fR707/M7CutrCXoXaQVnkfV1lQ8PQkDRVGgyr7zuD8uHh69fxDeXX5Qq1iyTvP+T5h/fJInUjf+UGsX4vOaBe7teRug222kKe1Sop7N8WNh+qz2U/99QfYnMYk7f7yeQDAz0hQet+Ss3rQEDg3sqD0/fUzftvfARfHv1f/AgVX0RxGOUiCCQTisfOCCIBABDDZaMjBETDbsLWancEEFSCkFGpSjLRpZ5MVRpPlug1Xdi4ZYNESCsEzXbBZFTtHJmY4QqZavaQLDHPS3up5pAArgR20mNjmhVdYHm/rH9Sns3JZhMqGRYF2zg326wbc1kWjMUrHXbGaRcdctAxFzvEeetdl5yyYglf7osy/SbJZebIDqcfLt7skPMuOOaM014zc2XXm8e4vFx+LDZGIesUsVEkxNIDP8XVXgAAAA==");
 
 export default Cactus;

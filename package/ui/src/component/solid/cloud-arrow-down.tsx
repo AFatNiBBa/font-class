@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-arrow-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-arrow-down?s=solid cloud-arrow-down}
  * @preview ![cloud-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-arrow-down.svg)
  */
-const CloudArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128l-368 0zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39L344 184c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 134.1-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
-    </Icon>
-);
+const CloudArrowDown = createIcon("cloud-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBTwsGAAE2AiQDCAQgBYMtBzcb1gTIhof/t/u+fW7V6w+oPmCH0sjMJu01KSNh/i/3/GzTAX4+gkMZa1QgY/pezxMIMOvlmxKKCrNEsd3ZyHaI9klaK0tyfHZ8PmfI4+/sjBLpVvoSF+qHxg8aOUNSKQMQNQEwcv7sqd4tj/KIL/5/ifjCZATESFAIZMjQVIAhMoGmcgVyuaA8/v8f/wMLAogyDCdmHu+chLmAHCQpz9s1rVKqls9L71t57sfDIt5udU/3Z/qfjO+GvzP/pYGvdX2kyksdH2t2ouFLXZ9qdu+QN8dUnT933tyH2s+POxo/3GZIRNxu92BDMSwebnOzUavHaz7+U8sv133pQov3znOgaY0rV57J8xj95Zej490+fWdvb37i8ccr1p7x6vvPVS/1GT1jx7SHpwenWjVIfPstHVznnHozZ9Y7Zx3BqOeBQFCa3Wj28hpDfq1YJYHvX//lj/a4/8vTifQ4KkogyLr838WSdAKQGkApxT6tjC8KJKMk/KpVXRcgVEaApExlATJN1BQgV1lnAUqa6ytAmcpmy0ReSahr6QBJVTtBpp+jIFfXC6BkiE+KZepG5k+CNwjPudRxEhq7r+jZrUcxqJh2ddFFuLw9uFh2O+yjqY5w0jrbbbPHWmtstEeQu0yt7LXVOIsY64cKPXXTQ2GQYnuwPj7PWrvsttF228ougxXnCx3ssxd3hCBh2l5akkSkmh8LNndduWvX9v1dLxoAAA==");
 
 export default CloudArrowDown;

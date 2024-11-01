@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-dots` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-dots?s=sharp-regular comment-dots}
  * @preview ![comment-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/comment-dots.svg)
  */
-const CommentDots: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M101.9 387.7l10.8-28.9L90.9 336.9C63 308.9 48 275.1 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-26.8 0-52.3-3.9-75.7-11l-13.9-4.2-13.9 4.2L94.9 406.2l7-18.5zM16 480l57.8-17.3 92.6-27.8c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L37.2 423.5 16 480zM144 272a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm144-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm80 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const CommentDots = createIcon("comment-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCPQsGAAE2AiQDCAQgBYMtBzMbQAXIjsQ4JvGLKEzi4Xu7/2/t090fYH+bGYAhsleTwUxfTSrEt0Lep049z3kogE8UDMrYuCwXHNPX6hxagQK+9erxgm7r+TKtgNXc1R62JLqfxFqR5PGzx08HebwetxWkh9MXuFWeNH7V2nmSIgMQjQAwacWSed6pjuqIzysvEp+bg4CYBEqBDBnaCTBWJtBOrkQuF1RHpcL/gSUBRA3onECOmjiBG8BCSIo8b9+xKZ1t3aJ+vrxuUWdF21Zte8dbnZ9d8PWKH+d92empuV8svTq8RTSLmdF26ZyZc1bEi3V/nvP5hLe7PDP+rdmfLf9h5idj3yh/XDQwBq641jLiwTjT4oE6V5vd53Tz++uuGFYihJySPGXZBrxzVaOq332x/QvbxjyH6DKPFPVPnVyfgn7yVP0G7Tn6e++7bdOyNbcBX9PWYwNnuPpohw61a0fz0aszqJdizvahZpz6usFlLjdocJm23Opo8RacDgSCv5/3+4aGY/+vVTeBX167/oxUqpNUhVoSCLK+lb7WJpAIAECK4zonCCTHFPCo9TwgQKiDAEkNdQTItNVIgFwdfQQodDBMgBrqWCITeW2hmXUdJPUcApnhToBcM8+DwlgfezU0i8wNWSdif4FJ0zUybV85qP/AcnQ5rTTOs+i0Oqbclnsel5FedNR2B+x31DZb7XJUYYfNC4/ZZ/oKneaLSoP0N1BptPK43R5ebpvDjtjlgP15lzHK+0ZPx9fTe5GWgHCwXJKIVO/he/22Hjh6BAAAAA==");
 
 export default CommentDots;

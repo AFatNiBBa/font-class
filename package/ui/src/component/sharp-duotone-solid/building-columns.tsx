@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-columns` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-columns?s=sharp-duotone-solid building-columns}
  * @preview ![building-columns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/building-columns.svg)
  */
-const BuildingColumns: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 464l0 48 512 0 0-48-64-48 0-224-64 0 0 224-40 0 0-224-64 0 0 224-48 0 0-224-64 0 0 224-40 0 0-224-64 0 0 224L0 464z" />
-        <path d="M0 144l0 48 512 0 0-48L256 0 0 144zM256 80a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const BuildingColumns = createIcon("building-columns", true, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABcAAAAHZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBWAsIAAE2AiQDCgQgBYMtB1wbBgXIjtRhLTIW4+H/1/63z73z3jfBbCCJSlJvLk1MQ/2LBolE80RIbxEtkqe+3qdOPQ+FsgEfRLKXBWT5ml3jvAI931gveIEiVNMaWK2dfVc+KdkkCT7JsOhlmLyhiJ/5hhrpbfqBx/5/AOOPIW6QtGQA0Q2AZds3r/WpEY0UP6oPxA9rEBDLQSmQkTFcgIWywHCFEoVC0EhVRSOqqiSAqPPTy6COGtZjG6AASRJF0dZvXFuto9jWVmvNQldEbIst2+8PiHjpSv8XrfcGvoqrg163EaR1QFvDGDxdM6avu+/f6B8HfpgKE4arx6lqSecd7nTalvF1ixUNSzWMjeumlp+ogECw6sL1d7oW/m9uS+DXx7/R76j6lKQ+NEsgyBOrifYkkAgAQIoLxiQgkI2ThKm2eyVAaEWApK5VgGyYbgEKrSYIUDPSLAHqWm2WRdEi9Lc3g6TdaZDNdhEU+nsPahb6HNb1j6xVrE6wf7qk1YBWnSunTZ5azi+HrcQpCu2OF5TT1tgLvDSOXjrgpBPO2W+fw84V1Blrk/OOWy0hq3xRaZrJpirNVy4P19I2hGecdbgvrJ+yQLk/GOuCvHkcXSYBpp9HLRMp8uB7p016tdokFV0/tCncRwA=");
 
 export default BuildingColumns;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `seat-airline` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seat-airline?s=sharp-regular seat-airline}
  * @preview ![seat-airline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/seat-airline.svg)
  */
-const SeatAirline: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 24L48 0 0 0 0 24 0 160l0 5.1 2.1 4.7 104 232 6.4 14.2 15.5 0 88 0 0 48-96 0-24 0 0 48 24 0 240 0 24 0 0-48-24 0-96 0 0-48 104 0 16 0 6.2-14.8 40-96L444 272l-36 0-307.5 0L86.2 240 328 240l24 0 0-48-24 0L64.6 192 48 154.9 48 24zm95.5 344L122 320l250 0-20 48-208.5 0z" />
-    </Icon>
-);
+const SeatAirline = createIcon("seat-airline", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXgAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBRwsGAAE2AiQDCAQgBYMtBzMbygTIjsO44TuyxVL+I4jWqiKre6lnD7mPGd0pdudYsyV2DygkICWzKuTUqZpBoVAAH0Qyx3lAxgSa8zwCOY93cIHGOq8VrKYVsFo3naeG9KIhea+UpGHKa1g6QR7XIlWkKwku8IfG19o4TVKVAYjGAJi8cul8rz6IDyLe+v8+8Za5CIjJoBTIkKG9AONkAu3lSuRywQfx///uP7AkgKiWXpxAjhyzsBCQgyTl+ci6SlWDfEWlqlgbogghRItYTsFKRRQFwhoEFIFKq1gZnQSrbysEggMiVg/oPwBn6hdFlzuN73zb2Q4G3mzduvUgrZ1Xpbmdn9uv0apBNnWE2gxtOrKr8QY9N3pft6Hf+6kbrMmd2rhyIz/qLxO9DwSC62PP9NzYaNyvtZUEPnry/ffKr+j/V/EsjVoJBFm///tZF6+QxzMBAEhxQpd4hUAySYJ3rXdRgFAgQFKtECDTTmMBcoW+AlTpaLgA1QpLZSKvE5pbLyCpdxhkRjgJcs3dBVXGec2q1jwyW6Itgf7KJczQ6PS1cvCAQeWYchirjHmQYT62XDZ6nfC13jhoh4MOOGa7bXY7pogj5rvH7Tdjhk/3RaXBBhikNEa5nd3uXmG7I47a7aADcclY5XmzlxPz7t7YJgGG3EIkEan+ASj9XzAAAAA=");
 
 export default SeatAirline;

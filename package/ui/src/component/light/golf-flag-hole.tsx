@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `golf-flag-hole` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/golf-flag-hole?s=light golf-flag-hole}
  * @preview ![golf-flag-hole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/golf-flag-hole.svg)
  */
-const GolfFlagHole: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M135.6 2.4c4.7-2.9 10.6-3.2 15.6-.7l224 112c5.4 2.7 8.8 8.3 8.8 14.3s-3.4 11.6-8.8 14.3L160 249.9l0 61.7c29.6-4.9 62.1-7.6 96-7.6c141.4 0 256 46.6 256 104s-114.6 104-256 104S0 465.4 0 408c0-32.8 37.5-62.1 96-81.2l0 33.8c-3.1 1.1-6.1 2.3-9 3.5c-20.9 8.5-35.7 17.8-44.7 26.5C33.3 399.2 32 405.1 32 408s1.3 8.8 10.3 17.4c9.1 8.7 23.8 18 44.7 26.5C128.7 468.8 188.4 480 256 480s127.3-11.2 169-28.1c20.9-8.5 35.7-17.8 44.7-26.5c9-8.6 10.3-14.5 10.3-17.4s-1.3-8.8-10.3-17.4c-9.1-8.7-23.8-18-44.7-26.5C383.3 347.2 323.6 336 256 336c-34.5 0-67 2.9-96 8l0 28.2c17-7.6 39.4-12.2 64-12.2c53 0 96 21.5 96 48s-43 48-96 48s-96-21.5-96-48l0-57.1 0-32.9 0-77.9 0-224c0-5.5 2.9-10.7 7.6-13.6zM160 214.1L332.2 128 160 41.9l0 172.2zM288.4 405.4s0 0-.1 .1c0-.1 0-.1 .1-.1zm-10.8-2.7c-12.1-6-31-10.7-53.6-10.7s-41.5 4.7-53.6 10.7c-4.3 2.1-6.9 4-8.5 5.3c1.6 1.4 4.2 3.2 8.5 5.3c12.1 6 31 10.7 53.6 10.7s41.5-4.7 53.6-10.7c4.3-2.1 6.9-4 8.5-5.3c-1.6-1.4-4.2-3.2-8.5-5.3zm10.8 7.9s0 0-.1-.1l0 .1c0 0 0 0 0 0z" />
-    </Icon>
-);
+const GolfFlagHole = createIcon("golf-flag-hole", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABkAAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCVAsGAAE2AiQDCAQgBYMtBzUbWQXIhofn7ao/93X1AKyV0TP7aUYLRl/MyMgpo4374tTznIcC+EZBG5OmBmSBhOY8j0AAY7NjnndrzwtW0wpYd6cpHJrmcEhLWZLjG6XfCbJ4LyYrkl5IX+Kx9KHxt253k2QFANEEgBXDu7b4+I/4I+LL8hvElzYhIFaCXKCAAvoEWKwg0CeTI5MJ/ohy2f8H5gQQFeh9E8hQibvwKiADSTHLSpXF5uraYn02VFusOem59lI84/a23SHeqv2p9FP/y7t/3P3z0M8DL006Mk883ba37el21/PMmJ9Kvwwf6Hyuw4jPjpXOeXC2OFD7xph93c+P3jv7zbH7e8Je5o7O0vDu4aFQusMd0bF/7uujn257pn3fnLfGPdf5bEf7HSHusA8cebjp8L8jvjz3S/d9cNZVv1/mrpqau36+yFKfzLrYur51/ZMmretf13cxtmPV3U9/MNLyGf/8+n5r6/u//rO85zznKS6cmf1Wn5fG3n70WKFw7OjtuGKBEbb6Q/VVnd8fKeXNjt72oQhPTMjzCTubm3fCK58TAYBAcODrS646rXHx8araBP569//jzK+o/HGSDqNKAkFhcnmykxNIBAAgxbVGJggkNymilXWeFSDUoEFSoQYKejVBpsYkKBowh5hcsUtBZNVCm1MAJHWugIK5boFMm9egaLFP9AptUVBJSqGoD2H8Wo6s6cpnTJ2eL8yHjkprGRGbi/Jpafy1ITEBJp3rMpe62jnOdoGrGXalLdY1LrFWQtf4otwMU02XWyhf9u+Hh5zjSle5wGUuxTaL5Pu18a6V8yeAmhDuTLYkEanhogtTjr4w5WkA");
 
 export default GolfFlagHole;

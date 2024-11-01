@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `layer-group` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-group?s=solid layer-group}
  * @preview ![layer-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/layer-group.svg)
  */
-const LayerGroup: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z" />
-    </Icon>
-);
+const LayerGroup = createIcon("layer-group", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbwAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBYwsGAAE2AiQDCAQgBYMtBzIb5QTIPhRQOexowm80xWALJ43UOI44Lh/543i3LN4WMR7+f79v+5x734h4Gk8mWPoRsdXxSKTTaaLVQpxQCcWkksn/78fm+6gn0juSuTeXRiNEC4VE5daXPKTdYAdMz7jmdoENuAhzGAyzwSGn3yIJksA5hxqgpKhYQ1BctKuv9w4xq8U3/5fTG8+PDvAbHdrYtCbIbV2NMTCBxHp53vM4C7NNnIC2O1uJY9EOJa2xLMnx2fE5QY3/8lhDvsjIk3Kj8U+ckboLAMQQAHDhZiUH77/jd8RvO+KTAgFxAWAJQUHBHAJOUAXm0CwBVRX8jvbjf6AggOgA+hkSVDS4CNwCoIJUKk02Lec2fFq9l84ZvbPGdfxilcdyndvEvcZT6dSYy1CLt/3GcGOK6F9XPHlOhk8fPPobHwMDH19vw9ZrUVst2+KewsUqPztAbdOC9fkAEAg+9/x6a9D7H1EA/p6+Xc720vyILgmCstmObgYhzCUEAJBxpDDuiCC1UNG19nlKgNCDAKlDjwDFLBECqh4bCGgssCGgQ4+rqKKyIYzpMUh9HoJizwlUY16gceIz6DAWxbNov6A/dglxicb2YfVGdOOyqTPOQuKyB7dlH9OQCo7C0MrS3kDfxF7gW7n4YCFuYTEPhEz0jJAbHneeD9cNbO1MrCzzLh5431c62pNVoFEQ4ZZSSiK5LivpXh4A");
 
 export default LayerGroup;

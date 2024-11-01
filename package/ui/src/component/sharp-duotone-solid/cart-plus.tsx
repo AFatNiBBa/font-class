@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-plus` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-plus?s=sharp-duotone-solid cart-plus}
  * @preview ![cart-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cart-plus.svg)
  */
-const CartPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M122 32c16.3 85.3 32.5 170.6 48.8 256L496 288 576 32 122 32zM256 140l60 0c0-20 0-40 0-60l40 0c0 20 0 40 0 60l60 0c0 13.3 0 26.7 0 40l-60 0 0 60-40 0c0-20 0-40 0-60l-60 0c0-13.3 0-26.7 0-40z" />
-        <path d="M24 0L0 0 0 48l24 0 52.1 0 60.3 316.5 3.7 19.5 19.9 0 328 0 24 0 0-48-24 0-308.1 0L119.6 19.5 115.9 0 96 0 24 0zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM316 80l0 60-60 0 0 40 60 0 0 60 40 0 0-60 60 0 0-40-60 0 0-60-40 0z" />
-    </Icon>
-);
+const CartPlus = createIcon("cart-plus", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABjwAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCSQsIAAE2AiQDCgQgBYMtB04baQXIhofvdX6e+yR7/kr2ImqROUDcAlELwG16pCpdZjT/1/S759Egny/FDq0WESAF1P18QKMBFs2iaaANNpspztomf0GDKA8G0fE494osNH8h7QB5/J/dokF6MH2D29P/AMaf+rmFpFMGILoCYOnu7Rt98F18l+Kb+hXiGxsQEMtAJZAhw0ABFsgEBspVyOWC71Jd813UdUUA0cR3nIEmOnAT7gTkIMmlPO/TbvdrjSgb7XxX2Sj2F2UhynJv9IuyHVG09kX/KPY+P+Dh/g+NeqbvA/0eHHk8sM+NeKav59nRd7n7hCJEmeGAig32f7sz4smh7dgdrZ1lUd4Yji3jBnqMFmFKHeiYP+ylri/9PfSbU9/o835fXjVF3xnzF5im55GGzjc9b3P9xC+vv/7LE5Btnlycd/XV5xXRj69fgKnGWIC2uPLx9qrWSl58YaXNtc9uPXvJ2gW+MRBdoCB9rkzeDgSC+bctP3S4y4L/OsoEfnjr3z/K9eq30pL0EjokEGQT6gkOpCXguAGkU1xmmPJVVwlk1snxp7bcJ0AoECBpKgTIDNBVgFxhvAANg80UoKmwXSbyTkJPBy+QtFwIMrNcC3I9vQwaFvg81dQzMmvUbUn/Gcy6SsIrZ1VTJ02p5lWPZdUwMDWMz6+WvWMu821jaa1TzneeS5x0wpkuEdRFNmYvda5VGrLSD1WmmmSKyjzVdu3eukukLnKxM8fm/Unmq95PjnGZ3nssBRJWnGZJJiNSZN2+aNtEa3ZOPNdtPTrzCQY=");
 
 export default CartPlus;

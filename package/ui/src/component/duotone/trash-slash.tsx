@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-slash?s=duotone trash-slash}
  * @preview ![trash-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/trash-slash.svg)
  */
-const TrashSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M98.4 51.8C103.2 40.2 114.6 32 128 32l96 0 7.2-14.3C236.6 6.8 247.7 0 259.8 0L380.2 0c12.1 0 23.2 6.8 28.6 17.7L416 32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L154.8 96C136 81.3 117.2 66.5 98.4 51.8zm34.1 148.6L488 480.5C481.2 499 463.5 512 442.9 512l-245.8 0c-25.3 0-46.3-19.7-47.9-45L132.5 200.4zM195.6 128L512 128 497.2 364.4C396.7 285.6 296.1 206.8 195.6 128z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const TrashSlash = createIcon("trash-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABegAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBXQsIAAE2AiQDCgQgBYMtB1IbAQXIHomxrYh95YwI/eLheT2+zn3J15gZyFjXLomOqtat2f8B4CIrN3/+r6kX1lQg3+jQMlY4kPLNMp832ACjNUNkQjPF+e383kWUXBYkSbkk+x/csP0D5KlddloJ6Z70Jq7x/wDG1xo6TVKRAYgaABgxb9YUL38RT735/+PEmyYjIEaCQiBDhiYCDJYJNJErkMsFXyT4IigIIEoxlnFK6QOTsBSQgyRkeV61edVKlUuq5nPtbpUW3dVmR9zR4HbbnXFn40X3tasc9cPy9zesGxMv1b3D8Tq3K1WJO+tx6pw1a9fc3btSXOwTGi2cV7VK1dnx8Vwc0/KRGo982+LNtW/Kn/y+07R3/Pdo2dWKSyeHL7fF8e77dT++xXLVzp+v5mes8dprX/+9Wysb0OTn4ze1P3mzVvVKQ8cNNmnVvjZx4KSBE/E6EAjuGf7h1GXVB/9aXjmBr579/ud6pf9L59IjKJdAkHX+v7PF6bgAHRVQLMVeLRGx8gMifQuhb63iTgFCJQRISlUSINNYDQFylXQSoEQzfQQoVcksmcgrhDqWdJBUsQNk+joCcnU8BkoM9kqsVJ3I9ErWCvm3LmPsiI4ZV/To2r0YWCwzmqIqYugcVGwH2u91FR2w1VrbbLXbGqttsHtgdpqS3GOLsRI9xg8Veuiqu8JAxXH+ef1ca+y0ywbbbI3dDFLcj7a3V67fAeEkCfa0QyYjUmS1d+9csWt9l12bs/JEq+rO2msEAAAA");
 
 export default TrashSlash;

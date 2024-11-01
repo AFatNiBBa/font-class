@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `school-flag` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school-flag?s=sharp-duotone-solid school-flag}
  * @preview ![school-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/school-flag.svg)
  */
-const SchoolFlag: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 160l0 32L0 480l0 32 32 0 208 0 0-112c0-26.5 21.5-48 48-48s48 21.5 48 48l0 112 208 0 32 0 0-32 0-288 0-32-32 0-133.7 0L320.7 96l-.7 0c-21.3 0-42.7 0-64 0l-.7 0-89.6 64L32 160 0 160zm64 64c21.3 0 42.7 0 64 0l0 96c-21.3 0-42.7 0-64 0l0-96zm0 128l64 0 0 96-64 0 0-96zM336 240a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm112-16c21.3 0 42.7 0 64 0l0 96c-21.3 0-42.7 0-64 0l0-96zm0 128l64 0 0 96-64 0 0-96z" />
-        <path d="M320 96l-64 0 0-32 0-32 0-32 64 0 96 0 0 96-96 0zM64 224l64 0 0 96-64 0 0-96zm384 0l64 0 0 96-64 0 0-96zM128 352l0 96-64 0 0-96 64 0zm320 0l64 0 0 96-64 0 0-96z" />
-    </Icon>
-);
+const SchoolFlag = createIcon("school-flag", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABngAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDDAsIAAE2AiQDCgQgBYMtB1IbsAXIjsK2nXNGQEFRGB9NiOBrP3Tf3Q+BAyId1vGJS1R0PELRtroOx1doHF+Wra4+//u137n79ttdXB5i/r39hIp0vOIVptPEpxMqQyhMXI7/t/23fBuFtqctXGtiAgnM6V0CCZVhBtbgvEmHFNoQ0h9Qxb+4VgPpZfqI5/H/AMY/XbZITBkARDsA2NypdOHxV/xK8V4eiI+2QQCxBRhEIIMMehFghUCgl0qCiorgVyqFX1HKIARA1CJ+XQbUghbwCu8BFSDR0Veqpyl1pLU2uHOnpnNXa3gE9zZqTChN00CNVU0c2YjcubsN4T3pAhCkElikEZ13HCdc+h8GTy4WRMRcE0wHjY8aG6kqOOuxFlQoIUvg+Rd0vhi9iL8KOU+4jrsMrj3eHf3a6+536OPBR+t7G2azlIWa99vQVlancW0waztvdetnq8w2M9pIpIFM5aAHvh4Sn74tLv58yoe+l6nkbd064oX0pMd3ig7gyrZ50adZbaONI0eLI1xNMdp24XmAAAGdu9dvW9tK/xubFAB/Pvz9jX5IymPaSHeopwAC8mxJ1ZTMQNpAAABSzIhOG8wgQNZHL33XZkcCEBgEINFjBMhCeSFAhaUgQI0IeQhQi1USqDKB+GkeeAo34zwh3zJP5eeep1Pqya3nF9m+imyb6G8xuXMKOebJpfRMWSx3izqxFRTo4RJ5WT85w5uS4Fb0GDViSrcu/aYmjAku37RhziPC4YOkLOkyScXk48pLec3EPWFS/7b0+Swl5PfWRDPHnZOgSZHyXbYgExCJhK9dV6SFDHWay2/xX0odOQAA");
 
 export default SchoolFlag;

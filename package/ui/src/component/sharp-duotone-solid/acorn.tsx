@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `acorn` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/acorn?s=sharp-duotone-solid acorn}
  * @preview ![acorn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/acorn.svg)
  */
-const Acorn: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M48 192l0 32c0 80 32 208 176 256c144-48 176-176 176-256l0-32c-117.4 0-234.7 0-352 0z" />
-        <path d="M259.7 48.4l13.7-19.7L233.9 1.4 220.3 21.1c-9 12.9-15.1 27.6-18.1 42.9L96 64C43 64 0 107 0 160l0 32 448 0 0-32c0-53-43-96-96-96L251.8 64c1.9-5.5 4.6-10.7 8-15.6z" />
-    </Icon>
-);
+const Acorn = createIcon("acorn", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABaAAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBMgsIAAE2AiQDCgQgBYMtB0YbygTIhocHu7D3ZyaAJ5IqWB1UubO2TSrI7SZlTtXVe3Hqec5DAXyO+1znUxf4nOcRyHk6dNqmBkteraFVt4keFQS+ETKiJKS/w46zK2RxPd2vDMnJ5B2Oyv8Axl8a2E+iQgogqgNg+Iwpkz0qRjGJd6XbxDuTEBAjQC6QIkVjAQZJBRrL5MhkgmJSKlGMUikngChLVk5BWWQYhFGADCRCZFnTupXKVMmmyycqrmhUv9GAqB8n6leM2+1uNBZVIuJch0KfinG83gzhTPOLg+9P+zn0YcvLTSMOVCz7WxSqF/5p/m75O+nRJ7zWGl89HbPa7kKhfO6RXPlCYfdSbcfqWsrzvPyvz3PXjqlPztq5n3+Z/ExGvBUIDp8+8WZBtUH/l6+UgN93/vujvVwqxqOkgPISEKSdSp3MjUeQ8AH8qCS2axGP0FUg1VSCL1V2TIBQEYVEWRUh1Uh1yFTUEcpoqvflsiqaIhVZBaG2eQqJyjZBqo8dkKntFpQxyEu3rNqRhhAVANQHLn4MIqPn8u5duuUD8mWo01FB1PHAfFtvtz2X2tNBy22w3lbLLLXKVsA2mxxss84YCx3ti3LdddFNboDcnTzy08HdbItVc9Y/ZaD8vNHOdru5PS2TAHpc/oWUSCKtsmjJhs3rO79EqRqwLw4=");
 
 export default Acorn;

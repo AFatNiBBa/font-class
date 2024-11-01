@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `road-lock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-lock?s=sharp-solid road-lock}
  * @preview ![road-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/road-lock.svg)
  */
-const RoadLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M288 32L160 32 32 480l256 0 0-64 0-32 64 0 0 32 0 64 32 0 0-192 32 0 0-16c0-58.1 44.2-105.8 100.7-111.4L480 32 352 32l0 64 0 32-64 0 0-32 0-64zm64 192l0 64 0 32-64 0 0-32 0-64 0-32 64 0 0 32zm176 16c17.7 0 32 14.3 32 32l0 48-64 0 0-48c0-17.7 14.3-32 32-32zm-80 32l0 48-32 0 0 192 224 0 0-192-32 0 0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80z" />
-    </Icon>
-);
+const RoadLock = createIcon("road-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbwAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCFQsGAAE2AiQDCAQgBYMtBzAbFQXIjtRgrTKL8fD9Wp/nvu6Z2t+zDL1I5BgcgyKwiAk7NuJXbGplFNbX+9SpnMt5KIDPIQjKWrTmeReNtc8rULG0NjboplqxVlGswuZQWYWbh2ahfA95/J2dUSHdSb/jevrQ+FM7Z0jqMgDRFABTVy9f6Mf6qI/47f8PxG/mIyCmglIgQ4aOAkyQCXSUK5HLBfXx///qP7AkgKjC9RLIUcVuHAHkIMnzvH+zZm1rlUb5qlql2FrUijXRKBCphcDkUMmP+j8bvSqKIVQkYqVQmZVpKy+3irjByk+2uVVbIRT7Kbrew35PR73v87hjt6dNn37p+vuW33V5dAJVx3/AFKWFfgxrquF337/vccIJ4/bkH6aAaVi+5FWTxhe40HiIKYaghLIXdxmC15R+VO9HpSFi1eamTTevCiAQXFv300NNJvzVoJbAH1//Ei4v//8xnUhP0UACQTbg/wE2pBNKFDaAWIojui18USDZLId3beimAKFAgKSqECDTQVMBcoX+AlR0NlKAqsJymcjrhJY2NiBpaD/IjHIU5Fp6Byom+Cla1TKyR455YJg/vsRZXXjmonLooCHluHK2prBPEeVnx5eblT5HdE9futIWe+1xyGabbHeogx6wMHHYbrOWkJl+qDTUIEOUxikPNx+Gr7LZAQdtt9eeOM945fVBH0eWh/elegLcYQqSRKS6O18a+DUAAA==");
 
 export default RoadLock;

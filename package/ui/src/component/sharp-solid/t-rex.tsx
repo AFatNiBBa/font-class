@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `t-rex` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/t-rex?s=sharp-solid t-rex}
  * @preview ![t-rex](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/t-rex.svg)
  */
-const TRex: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112 288l-32 0L48 192l-16 0-6.3 9.4C9 226.6 0 256.1 0 286.4C0 358 58 416 129.6 416l54.4 0 72 96 128 0 0-16c0-26.5-21.5-48-48-48l-18.6-49.6 41.9-37.7L368 352l0-32c0-35.3-28.7-64-64-64l-16 0-16 0 0-32 16 0 16 0c34.8 0 65.3 18.5 82.1 46.3L432 300.8l0 19.2 0 24 48 0 0-24 0-32 0-12.8L469.3 268l-44.4-29.6L464 208l112 0 21.3-32L552 176l-3.3 0-2.3-2.3L516.7 144 488 144l-8 0 0-16 8 0 32 0 3.3 0 2.3 2.3L555.3 160l52.7 0 24 0 8 0 0-48c0-44.2-35.8-80-80-80l-16 0L528 0 440.3 0 440 0s0 0 0 0c-33.5 .1-63.2 21.6-73.8 53.4L352 96l-32 32-41 0c-70.7 0-132.9 46.3-153.3 114L112 288zM480 56a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const TRex = createIcon("t-rex", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABgwAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCUwsGAAE2AiQDCAQgBYMtBywbTwXIHgdubDUHZTMZZP6cwT+lS99f6W7slUEm3gATVEkHgCVgi1UqOgTZ7U/CAKMw0zC2EoqpDsFlPjf/13x+z48O8NsFwaFFYZZGTUeZzycwsb156wArcDZR3NuGx4gyjGiISJBENKbjtQa+/ngriYDZZ54BW9qH6hs5VoIh3gMAQCEAANBs9ejErc/6LD2NPdBTOgABqBkAjgAP8IB8AqAhDwH5fBzw8RF8ViyG/4EOBACKwidnAPABH9gM7AIAfAAMxvcXxQeRRL93ELF9bGB7yypdFznW6HqrQL0USNqfubt0dTVRlq5X/nxpa6Ug2FDqVE49IRQIokzVVwMKK8haVcvrxMpQuWlKh6+i2la5ypKW9cr1JU9m56usfb17dXX5I/Zk7crYmb47s/j58PyPYo2OKdc5VzSEUF+7K0dbthxamzabpYS85++rwk7W4tiUlKNh6Ahb7sAO9z6SJltV2ZxETnOdSabqolIpxnMKakhcCTlerV4V9R4VhsToCwByZ6M1b4lRTtez6X+YctLnz0kDDQDarfN4c2lIcsPfcYEB4OuVXz+oB8dumaXmPBCHAUDgVYxVZGAuBUCiACAxmk1x54sEGFZj4GtNYDcCQFhAABiiWASAR56QAPCxVCAAIhSqRQBEsfTgIT8ekW6QAkMC04BHbYuAT7rLIEJDD+Mo6eFFJBNPzIcwsbWFWi1y1SpXdfXdtkbYIKPKbAN3LJWdnXrKwUpGm2KymUYZaZyZBpmuUzbLJK09uJUfcqqprCqnPnfdfF3e2yjTzTDOFJNpngbce6+s2f7wcqAamLQ6yeBVyURmVpo+ai4AAA==");
 
 export default TRex;

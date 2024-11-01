@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `award-simple` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/award-simple?s=sharp-duotone-solid award-simple}
  * @preview ![award-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/award-simple.svg)
  */
-const AwardSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M64 512l128-32 128 32L284.5 358.2c-16.1-.4-32.2-.8-48.3-1.1c-14.7 9-29.5 18-44.2 26.9c-14.7-9-29.5-18-44.2-26.9c-13.1 .3-26.2 .6-39.2 .9c-3 .1-6 .1-9 .2L64 512z" />
-        <path d="M236.2 26.9L192 0 147.8 26.9 96 25.7 71.2 71.2 25.7 96l1.2 51.8L0 192l26.9 44.2L25.7 288l45.4 24.8L96 358.3l51.8-1.2L192 384l44.2-26.9 51.8 1.2 24.8-45.4L358.3 288l-1.2-51.8L384 192l-26.9-44.2L358.3 96 312.8 71.2 288 25.7l-51.8 1.2zM192 112a80 80 0 1 1 0 160 80 80 0 1 1 0-160z" />
-    </Icon>
-);
+const AwardSimple = createIcon("award-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABfAAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBdQsIAAE2AiQDCgQgBYMtB1QbGwXIngNuY63oipanZx6bF1Fdr87SU8RDY9/m7e6JYW6ZZtqg4sm6NwuVK+UiVoJ7/hdj8x+xhOdHTKIl1ebSaCSOEmUuibZSF8pu/R8ADrivImmZjV3Kl48/fXzyv/Nc8bW6gPaOV6Dxqe9dWCtQhVqrIdbaVizrE8TFYhCRFxFD0rmQ7gIt1+pWF+VxeYn78j+A+WqqLUVfBZAxAMDeI7kEnH/z0stO5KX9QCD7AOZAVFTMgGAHpmAGljlA04RXDHiFzAEB0k2eXUE3unACOAdAA0WR1tYOyQbYQ+2wnOs/sS0Q9GMs5migQC2hBEAcDSUaG1Ci1qgSfCRy8G3lnfnW/W69tz34MkfypQIWs1t0UJ+MLbhlCg7OuxZe/8397L4evtWvW2PvKVTDhlVP4Y41vvUaludHrlJan2Osc3M200D5GKaeP1V/oV3CZJQy/zGAIHxM++vM6PD/3oEC3nz/f+Ef6Iy08gS9Cgh1RWeFOgfA1AClkquU9EXsgah2YQjvOuiBgOhHQNGtX0A1nRCCpt9yCLrM4oGgW78DmNL6xASNTBaDLpDVJhuymeCF7LLDT7nbhDAxxiGE+8VLjpVQdBc5rHYK0rAj8bBh3GaIlm392k4YqBDaJsaWWpp6lgUyl6itjMRmcNQHEQcrOxJE2/1rucjluYVeX9zfJoTOO3rr+XwD7YcBWHc7dZWU1AkflWbBqW6B67S8IT5NAAA=");
 
 export default AwardSimple;

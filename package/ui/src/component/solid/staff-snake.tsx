@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `staff-snake` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff-snake?s=solid staff-snake}
  * @preview ![staff-snake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/staff-snake.svg)
  */
-const StaffSnake: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M222.6 43.2l-.1 4.8L288 48c53 0 96 43 96 96s-43 96-96 96l-40 0 0-80 40 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-40 0-28 0-4.5 144 40.5 0c53 0 96 43 96 96s-43 96-96 96l-16 0 0-80 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-43 0-3.1 99.5L208.5 495l0 1c-.3 8.9-7.6 16-16.5 16s-16.2-7.1-16.5-16l0-1-1-31L136 464c-22.1 0-40-17.9-40-40s17.9-40 40-40l36 0-1-32-19 0c-53 0-96-43-96-96c0-47.6 34.6-87.1 80-94.7l0 94.7c0 8.8 7.2 16 16 16l16.5 0L164 128l-28 0-13.4 0c-9 18.9-28.3 32-50.6 32l-16 0c-30.9 0-56-25.1-56-56S25.1 48 56 48l8 0 8 0 89.5 0-.1-4.8L161 32c0-.7 0-1.3 0-1.9c.5-16.6 14.1-30 31-30s30.5 13.4 31 30c0 .6 0 1.3 0 1.9l-.4 11.2zM64 112a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const StaffSnake = createIcon("staff-snake", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkQAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCZAsGAAE2AiQDCAQgBYMtBzIbZgXIHomxjYr9Bv0lawSR7l9nT/okfQaZGMNAnbFMuHIXLGpTG6pSxq8asDPkC3/imvoZ9N72APK9aB9INEjm+QR2npYaBTafDWyE0wnYhm0jc4FZ4/RYHiGPx7Ln1ZE+SX/gLfem8acBz5M0ZQCiHQDrLjqwy6mzcTbi99q3xO92ICDWgUogQ4ZhAVbKBIblKuRywdmo1dh/YEUAUS9QSTjH3/1DfAnIQZLy/IWmsq4lP1zWFZcJZXw77fjI51OPLSwiooyP+j7sLYqDMQREwXCI97urQxGDUcSrvR/GM30flSVf+930E6NfzTi5RHzQ0wEOx4uPN/qOTBODn/mmUGNFPJ6J/o9c7LWe6djTgRIOHhp7vxuvH3+i/cTf/rjxD6ffrwuF6zx94kRjoxSfnmqvDWdbW89OHc7eMrUXbIfbH54hXacQRs+ebQ2tpug4+VNHx08nOyZq0zX/Kdkll0y+SuvZDvlbhlv+1+7uC/82NPx74e7Ga3OlIJofelnLyw81h1B+uXFnE+uBuOimzZ+ubeV/jWUC53/69/QzUjsVT6cTaJRAkM2szXR5PA3xtAAApHjQ+HgageRNiXvVZh8KEAoESOoVAmSGtAuQK8wQoM6oRQLUKxyQibxJ6HZFpSXN7tEyiz2h5bp9rdVZ6edUve7Ibk37xrJ/DPNvbsKbZlXzZs+tllejFYVzt5l6ckW1OD71Qd4xDe50o7vc6X43uN4t7m8I99qVfcAdNk/xm3xQZZ7Z5qosV22u3/Ufxql73eeWYXs7YJoVquOTUz043X8anE8CzD+pZYlI5RdVMuu+O6+57QY=");
 
 export default StaffSnake;

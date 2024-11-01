@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `club` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/club?s=thin club}
  * @preview ![club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/club.svg)
  */
-const Club: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M372.5 164.7c-1.1 4.5-.2 9.3 2.5 13.1s7 6.2 11.6 6.6C447.9 189.9 496 241.3 496 304c0 66.3-53.7 120-120 120c-45.8 0-85.7-25.7-105.9-63.5c-2.8-5.2-8.2-8.5-14.1-8.5s-11.3 3.2-14.1 8.5C221.7 398.3 181.8 424 136 424C69.7 424 16 370.3 16 304c0-62.7 48.1-114.1 109.3-119.5c4.7-.4 8.9-2.8 11.6-6.6s3.6-8.6 2.5-13.1c-2.3-9.2-3.5-18.8-3.5-28.7c0-66.3 53.7-120 120-120s120 53.7 120 120c0 9.9-1.2 19.5-3.5 28.7zm31.4 6.2c-5.2-1.1-10.5-1.9-15.9-2.4c1.3-5.2 2.2-10.4 2.9-15.8c.7-5.5 1-11.1 1-16.7C392 60.9 331.1 0 256 0S120 60.9 120 136c0 5.7 .3 11.2 1 16.7c.7 5.4 1.6 10.6 2.9 15.8c-5.4 .5-10.7 1.3-15.9 2.4C46.3 183.8 0 238.5 0 304c0 75.1 60.9 136 136 136c45.5 0 85.7-22.3 110.4-56.6c.5-.8 1.1-1.5 1.6-2.3L248 496l-80 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l176 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-80 0 0-114.8c.5 .8 1.1 1.5 1.6 2.3C290.3 417.7 330.5 440 376 440c75.1 0 136-60.9 136-136c0-65.5-46.3-120.2-108-133.1z" />
-    </Icon>
-);
+const Club = createIcon("club", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjgAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCNAsGAAE2AiQDCAQgBYMtBysbLwXIjsJx70S0MjjZHCKCyI7/qmf3Ad4PyKdcyC7+0SE7Z2KQUJEweLN4Il3GEh437tg5x/77/dPijZcK+IyKNpZNrW+QMUa8AhWZXvDGPx3wmZ6AnelZymCA3CIiUkL1Pz9sHdZ/II+XHFRCejo9eLDsxw86PECSZQCiHlSZt2XDKq9/Gp9GvPt/TbxrBQJiPigEMmToFmCmTKBbrkAuF3wa//8v/QcWBBCl8AkJ5MhxDx4A5CBJeT5uSVVJTb65qqTyyGMtYlU9Ku7RZjYLheFBp1QpNCtDvcptdtdfHZNOkdvkVinMOf2SdVbbDzazT1TOUhgnafFyLxXwqdCSjGpkVOj+ahEa4o5AgQKLyniseSuB8JLUOlCIuKcKtviD7Kp9Tj/AGJ1Mpu7WBz/1e/h3XexsnTSp/KsPP61LDQ3FgOee+XtpRcXSv7XnBhANDanu0w+/PDtpUusogV4uZ/16rrytrLy84tDmhx7azFV0T1lb+bnvP/kkyOz//R04/Bestbe0dO+zVVqLeyJC+wdff70Qyje+BwLB0J3jYk/dzF/LQQKfv/jLX9qv6P/Xk3QX5RIIspH/j7QzgUQAAFJc1j9BILkqARrVnhAgVCJAUqpSgEyXegFylUYIUKLXJAFuf4NM5BVCs10DkmrnIDPZLcg1ewFKzPSGVao5MhNkDIj5AUxczLFFW8W40WOL6cUx0VmrouJyRqGWh14OjWF067AzTrvokIOOuciI81a5l5yyWMIX+aLCOKONVZiueJ2/nm92yHkXHHPG6bxmhuJ7fajLcv8w0hKQjudJEpFywwYAAA==");
 
 export default Club;

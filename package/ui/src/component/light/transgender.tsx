@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transgender` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transgender?s=light transgender}
  * @preview ![transgender](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/transgender.svg)
  */
-const Transgender: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M144 32c8.8 0 16-7.2 16-16s-7.2-16-16-16L32 0C23.2 0 16 7.2 16 16l0 112c0 8.8 7.2 16 16 16s16-7.2 16-16l0-73.4L89.4 96l-4.7 4.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l4.7-4.7 13.2 13.2C106.8 157.9 96 189.7 96 224c0 83 63.1 151.2 144 159.2l0 32.8-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0-32.8c80.9-8 144-76.2 144-159.2c0-34.3-10.8-66.1-29.2-92.2L464 54.6l0 73.4c0 8.8 7.2 16 16 16s16-7.2 16-16l0-112c0-8.8-7.2-16-16-16L368 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l73.4 0-75.6 75.6C337.1 80.6 298.5 64 256 64s-81.1 16.6-109.8 43.6L134.6 96l4.7-4.7c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L112 73.4 70.6 32 144 32zM256 96a128 128 0 1 1 0 256 128 128 0 1 1 0-256z" />
-    </Icon>
-);
+const Transgender = createIcon("transgender", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABkAAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCVwsGAAE2AiQDCAQgBYMtBzIbWQXIjsN0WyePJCaTyXsE3+/323PuRUyiJk14Y37ESmQIjUZ8CfESqUynBIYKoeM/v988F7EPU33ATDSpaJ23LWkzbx6tEsrEMtPfu/N//mmBPP+OY22QRU2b+zyBzrMomx74Eso0Acu2HP7gD1H8DxI/HGUi9sMUNix1hxrn5AYh+ch7As32UfGLKZOkWgAQgwCAw4uMdNxoSEP0pD2E+EILBMQRgEWEQsos4OxQAnGBRXhV1fgmrRbyH8iAAKId7SkTVFQ0eABUkLIKGi05oUKQzQllBSumyyYyWjQC3RqvmBKFkxEtGi+ZmpIx7bGN8Mt4kEWyz5FNDjbQSXQbea3e9MhRSYX3ETPpKvs5zIRMzzJZNjKiCOKyFpyJtp23cb201XHZvMsOTmOuu+dwqh29nXflU/UTmneNjo6mFUIyuZLl6mTM2rT+tL0diyd8FN2FgVclGEfC4MWGFx5Veh1Y0OUfp6Uh+dxtxU0ktyUjpYX7KOrB/e60c2YdX0aqb+DTWqFSKaxvbtTQxY8DEAj+hG/PJbph/xKOB/g5+/zff0Z6/zf0xdsBnRIEZU3rhsKEQXrxBQIAZHRDlTCIkG6k9qm97gQI3QiQ2nULUMzQQ6DqtopAm3n+CLTrdoIvqhRhVFEBqdcVKLYNgWrUPmiz4zZvNxr8nGQziv0lTEpAKH4f8/bwYiHssmtwaUYv26HMbTl11ylnOolqLZp1qlKpTicg7dKrLk0SLDjeFzHePHhhQrDw4KOUDaQkHep0Pr5LKDY/c9JtL3amw/AA60+zJonk3nWl5vOX3A4=");
 
 export default Transgender;

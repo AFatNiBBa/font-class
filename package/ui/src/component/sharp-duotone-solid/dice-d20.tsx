@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice-d20` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-d20?s=sharp-duotone-solid dice-d20}
  * @preview ![dice-d20](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/dice-d20.svg)
  */
-const DiceD20: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M27.8 113.2L220.9 1.8 117.3 166.9 27.8 113.2zM149.4 176L256 6.1 362.6 176l-213.2 0zM291.1 1.8L484.2 113.2l-89.5 53.7L291.1 1.8z" />
-        <path d="M240 512L17.9 416.8 240 446l0 66zm254.1-95.2L272 512l0-66 222.1-29.2zM496 143.5l0 184.9L411.7 194 496 143.5zM16 328.4l0-184.9L100.3 194 16 328.4zM155.6 208l200.9 0L256 383.8 155.6 208zM276 413.2L388.2 216.8 493.5 384.6 276 413.2zM18.5 384.6L123.8 216.8 236 413.2 18.5 384.6z" />
-    </Icon>
-);
+const DiceD20 = createIcon("dice-d20", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABegAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCCgsIAAE2AiQDCgQgBYMtB0wbKAXIhod/7Pq6r6o+PETNRCAiwhEz5QAi7bqjpUIp3NPzf7nnR0dHC+SD3DuxQxljtG0OjOZ8nkDA0dI8nBxYlik2OG/EAYbGUH6FLD5KjyshuZgUcNb9D2D8ornjJCpSAFEPACNnTZvg5Q/xQxKF4iOiYDwCYhTIBVKkaCXAEKlAK5kcmUzwQ1Is8kMUizkBRCl3txSUohoTcRSQgUSZNMvKgmJVSU02M0lUzpgpiDBr+pGIWfOEmTFrcYgBhsWrKqskM8UytqUvzeCZ8+QBt3LWThZfaH+j3o3f2hVWFvwx/NuFYbaVUf+X8YWjoHjUexa0TzthWs/vnyKnJxk/uet91Ln8rmV3dxU2vaHkNVd92VLL1VeZpusLnJz4ciOirrpkdt/dw9Zez/rs9O1BRqj8zSAQ9L7ybfWiuiH/lVcl4KcXf/ycv69e8WX8mdxAuQQEaZdiF/MT6qkXfwoAQBI7tbdf1Uog1VOZ4FOrnRMgVCJAolSlAKmW6gmQqdRZgBJt9BWgVKVpUpFVCI0sqEGi2haQ6ucAyDTyEJQY4t1yqUaRXm7CxSL87KWOa0Nj9+U9u/XIB+WTXaV4BXF6e3C+2u2wk091hCettMlG262w3BrbW+hWE2o7bDBuDhnrh3I9ddNDbpB89+C+OhOXt9pmzbi8f5fB8vMzHeycX9wRBomAtpcDqZRIIq33Qal1Xd6rR9fr1m7QkW9QAA==");
 
 export default DiceD20;

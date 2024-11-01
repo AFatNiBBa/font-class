@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `display-chart-up-circle-currency` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-chart-up-circle-currency?s=duotone display-chart-up-circle-currency}
  * @preview ![display-chart-up-circle-currency](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/display-chart-up-circle-currency.svg)
  */
-const DisplayChartUpCircleCurrency: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 64L0 352c0 35.3 28.7 64 64 64l176 0-10.7 32L160 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l234.8 0C349.5 480.1 320 427.5 320 368c0-5.4 .2-10.7 .7-16L64 352 64 64l448 0 0 128.7c22.9 2.1 44.5 8.5 64 18.5L576 64c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64zM103 279c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l87-87 63 63c4.5 4.5 10.6 7 17 7s12.5-2.5 17-7l111-111 0 22.1c0 1.3 .1 2.6 .3 3.9c15-5.8 31-9.7 47.7-11.2l0-72.7c0-13.3-10.7-24-24-24l-80 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l22.1 0L304 238.1l-63-63c-9.4-9.4-24.6-9.4-33.9 0L103 279z" />
-        <path d="M496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm25.4-169.4a35.9 35.9 0 1 0 -50.7 50.7 35.9 35.9 0 1 0 50.7-50.7zM460.7 426l-17.3 17.3c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L438 403.3c-13.2-21.6-13.2-49.1 0-70.7l-17.3-17.3c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L460.7 310c21.6-13.2 49.1-13.2 70.7 0l17.3-17.3c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L554 332.7c13.2 21.6 13.2 49.1 0 70.7l17.3 17.3c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L531.3 426c-21.6 13.2-49.1 13.2-70.7 0z" />
-    </Icon>
-);
+const DisplayChartUpCircleCurrency = createIcon("display-chart-up-circle-currency", true, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABxAAAAMJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDLQsIAAE2AiQDCgQgBYMtB3wb+wVRVE5qZF8c2ESWPmRvTOM42miKJtuCl1EXLuDjikg5Y0n1v3j4z7//2qfq/te/7dswIwmZkTHSSIrEFE5njS0vSSJK80Qq4vxFBrrdbDIf2Xzo5vcu6xKZk3xppGnpWDr2/zqAj+xDbe7PKuZgbUZhcbCel9obcep/YnPTXB1bc17CCgeoiiUp9cr5+1PPAxzAx/mA8aCM3T1wrfM9zytQwDVobMCeLy9oz0PiHd12E8Q0tEsojBMUqZt4QlWk68HA5Whx/IKWTpDUzBIQDeB/gExYOHe6137kF/hoe4r4CNMQEBNBKZCR0UaA0bJAG4UShULwY7L5MeySAKIi+aAMKqiBZ/AGoABJloqitdrz2L12Vd1iQS251urzQLw4vVmMr/tPKq+f/ga85/aVs5fPQe821RZPXlz3Mmuv9R08MtlASOdaePHmAGkcEw/3Fui9XWw8d+dTTtebo6DRgrXi3IoJ2H+ITOOF8cXCFyNH3cBbIG60ZynGXfUeJO9wqTIGQ678jERgGcJUCkw1wVDQmEcy8zh9wDi/HdgG5o9xBoFkia5LEUndKtJnBLuhvwyp5b/SNWqOkYy9f68ruYEDw40bCDF06tTA/feXmLscKdGWWg3NmwePmqLemdXkQX90GzK4T3WNUHrNUR0/uU64Hm6Gt9fa8PlnH7UWLPC7DbVkw44dmklp09HWdPbT7KYg3aPly/1OqWHjRiAQfPNv+9Erdf9X107g5xf++IV3//9amjhFtQSC3HvrbVmCgIgB/KgUB3RMR8gRyJbJkmet44oAoRYCJBW1BMhaayBAoZZeAlRpZ4gAFbXMlUVRU2hieQ9JHbshG+ogFJp4EqqM9m60oklk+8vbPv7zMWXqGJsyqrS+/cuR5WZBK1hJVg+OKk+b9QBv6AE32mCnHfZZb53N9o3wPaYn9ttu6h55yndLA/TVX2mk8nb5ubJg5NpjL2fXpfvDjFK+7+/uwH77HtCWJJQDLcgykSJ3N+PaPt430KdffX74MfRxMvo+nqK7nockpwAA");
 
 export default DisplayChartUpCircleCurrency;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bus?s=duotone bus}
  * @preview ![bus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bus.svg)
  */
-const Bus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M96 448l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32-96 0zm32.2-291.3c-.1 .5-.1 1.1-.1 1.6s0 1.1 0 1.6c0 32 0 64 0 96c0 .6 0 1.1 0 1.7s.1 1.1 .1 1.6c.1 1.1 .3 2.1 .5 3.2c.4 2.1 1.1 4.1 1.9 6c1.6 3.8 4 7.3 6.9 10.2c5.8 5.8 13.8 9.4 22.6 9.4l112 0 0-160-112 0c-8.8 0-16.8 3.6-22.6 9.4c-2.9 2.9-5.2 6.3-6.9 10.2c-.8 1.9-1.4 3.9-1.9 6c-.2 1-.4 2.1-.5 3.2zM304 128l0 160 112 0c17.7 0 32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-112 0zm80 320l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32-96 0z" />
-        <path d="M288 0C422.4 0 512 35.2 512 80l0 16 0 32c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l0 160c0 17.7-14.3 32-32 32L96 448c-17.7 0-32-14.3-32-32l0-160c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32c0 0 0 0 0 0l0-32s0 0 0 0l0-16C64 35.2 153.6 0 288 0zM128 160l0 96c0 17.7 14.3 32 32 32l112 0 0-160-112 0c-17.7 0-32 14.3-32 32zM304 288l112 0c17.7 0 32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-112 0 0 160zM144 400a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm288 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM384 80c0-8.8-7.2-16-16-16L208 64c-8.8 0-16 7.2-16 16s7.2 16 16 16l160 0c8.8 0 16-7.2 16-16z" />
-    </Icon>
-);
+const Bus = createIcon("bus", true, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABzQAAAKaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCEOgsIAAE2AiQDCgQgBYMtB0IbTgbIjlMsHUwiqLfl2/N2Rbu6+0ivFH1kNFAGhJEUmzkyp86vnGJEUCHz/3NNvQAMz48Dnw8lOqg92ip4Age4YZXl82n6Jm4zbBuifu+wbiFxhDL+Ke7SRno+fYtHkw+OH4xwF0lXASD6A2DFvl1bfNaKVopv/3+L+NZmBMRKkAUKFBgtwGKFwGiljFIpaKX//6cVzj9fJoBoh/dgBWhHN/4kOgAlSNqVZblk4IBBgxoDJg0YULc1yr11W3Xuuw0RX40R4sEhTxO3DX6q0kW744Ghz0TQtw97tr6djIjc3k3f7Nst3MaRU9cRUcUDTp49dVU/OOxZHbk9UVVh94yIeFaO5JRtGkvvwWeGRvRTg58eUnuG1RKVUuLVodud6LxNLuu1YdhuD1x3rsyVuoL7hDrclgcEndTzQv8XfvLt2W+N+/SMt/k8+sua993XXF7jfY23jfjyrSCD/uLzt8/o7T2eyXfT1+hzDfa+eus1mbxzHbeZ03t18z7uayY1Tpu8LJm2rNnq02oaXsdzpqAyMqYeH9cjIGJ4tjSCkFAOGDL7uYbySY3nZg8ZUEqvju7TB69xhZHblsm6HQgEQ655/li/xb921gl8/8Ev2/vl/z9LOb2ATgkExeT/JzuclstyygIAkOImPeCnjgsUntQuW9XtGQFCxQhJuwoKo/SHUmUStBlrjoxyhV0KUXYJgx3RIel2LRTmuhlKg70JbRb7ItVucBSvgfImVv6Epls7x9cI5RlTp+eF+bCmV93Zcji4KFPbxt/kNkzQZzrrale5wRmnXXDDjLrOluyNrliLxNd8N5thqumyhTJ3W2vd3hl9netd8LiKf5xFsvzQeDfh9hN0Z5JJnGlFoSBSFPXJG6+f8jHpG6PmmwE=");
 
 export default Bus;

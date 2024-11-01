@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wave` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wave?s=sharp-solid wave}
  * @preview ![wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/wave.svg)
  */
-const Wave: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 336l0-32 32 0c35.3 0 64-28.7 64-64C96 125.1 189.1 32 304 32c84.7 0 157.6 50.7 190 123.2l-38.6 27.1C441 168.5 421.5 160 400 160c-44.2 0-80 35.8-80 80c0 35.3 28.7 64 64 64c0 0 0 0 0 0c19.3 0 38.6-6.1 54-13.1c14.9-6.8 26.9-15.4 40-24.7l2.1-1.5 2.1 1.5c13.1 9.3 25.1 18 40 24.7c15.4 7 34.7 13.1 54 13.1l0 32 0 32 0 10.6c-28.7 0-55.1-8.9-73.8-17.4c-5.5-2.5-10.3-5-14.5-7.2l-7.6-4.1-7.6 4.1c-4.2 2.3-9.1 4.8-14.5 7.2c-18.7 8.5-45.1 17.4-73.8 17.4s-55.1-8.9-73.8-17.4c-5.5-2.5-10.3-5-14.5-7.2l-7.6-4.1-7.6 4.1c-4.2 2.3-9.1 4.8-14.5 7.2c-18.7 8.5-45.1 17.4-73.8 17.4s-55.1-8.9-73.8-17.4c-5.5-2.5-10.3-5-14.5-7.2L96 349.8l-7.6 4.1c-4.2 2.3-9.1 4.8-14.5 7.2C55.1 369.7 28.7 378.6 0 378.6L0 368l0-32zm0 74.6c35 0 66.1-10.8 87.1-20.3c3.2-1.4 6.1-2.9 8.9-4.3c2.8 1.4 5.8 2.8 8.9 4.3c20.9 9.5 52 20.3 87.1 20.3s66.1-10.8 87.1-20.3c3.2-1.4 6.1-2.9 8.9-4.3c2.8 1.4 5.8 2.8 8.9 4.3c20.9 9.5 52 20.3 87.1 20.3s66.1-10.8 87.1-20.3c3.2-1.4 6.1-2.9 8.9-4.3c2.8 1.4 5.8 2.8 8.9 4.3c21 9.5 52 20.3 87.1 20.3l0 5.4 0 32 0 32c-31.9 0-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9s-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7c-19.8 9-48.5 18.9-80.4 18.9s-60.6-9.9-80.4-18.9c-5.8-2.7-11.1-5.3-15.6-7.7c-4.5 2.4-9.7 5.1-15.6 7.7C60.6 470.1 31.9 480 0 480l0-32 0-32 0-5.4z" />
-    </Icon>
-);
+const Wave = createIcon("wave", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABsAAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDLwsGAAE2AiQDCAQgBYMtBysbqgXIhocnu74/t7rnLaBaU99KhWyF7IvOxHDm/3J8a9MBfj6CQ5ur0sWLF835PAoowI4q30ABZeFRIQdOmbc2MZFyvyQzmqTHc3p8OkMZXxY3qZDuT2/h1vam8bM2biKpUwCIxgCYvHLpfM99F99FvFl9mHjTXATEZJAFChRoL8A4hUB7pYxSKfguqlX5D8wEEDVAJ36Z6p/GC9hkklSWG1fUqzQoy/11I0S9ON33fLtPl3648uX5bw8eFedGPNTrTPv7e5/tfn1k8nTPPfdGq2gRd9c72Z1okapHetzTsmU0j7uanxg2SxHh7GjE6Vb3trq+3t0t7q53d/eT3c0Aot2GXtl6V/MT07oTSOxyrvG5Xzu/teMthzJ+D440aVI3Vp47tzL+yE1u2WOZxttXRN0mTY7Ae1fO7kBjjYkOo698L8vqeeCbC5dcaKutF7zzwgPv3LhkqwstveGdB15458ItF7rQkgu/eaCePPe27Sz/f9DgiNxZ+n/58iNHlusPVmRZ+v3GrVtv/D2lZ2VZBQgEP736z6UbG437t3a9BH544vdf0cPV79KkdA61JRAU/ar9rEuTQKQBVFJcoouTokDysASvWt89AoS6CJDUqCtAoZ3GApTq6itARUfDBahR11KFKOsIza2fIKnvMCiMcDUoNfcgqBjn1XKN5lHErxZ92vcxe4ZGpu/KgwcMymPysm3oIamU9bF5O+51iRnrzSftcNABF9lum90uUuIF5tcutt8MT5jui7LBBhgkGyMf97aHV9juAhfa7aADdZOx8v18L5f4s3tzLoHsEC1JIlL5pAAAAA==");
 
 export default Wave;

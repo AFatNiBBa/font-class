@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-circle-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-circle-plus?s=sharp-light gauge-circle-plus}
  * @preview ![gauge-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/gauge-circle-plus.svg)
  */
-const GaugeCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 480c32.2 0 62.8-6.8 90.5-19c5.8 9.3 12.5 18.1 19.8 26.1C333 503 295.5 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0C375.4 0 475.6 81.7 504 192.2c-2.6-.1-5.3-.2-8-.2c-8.4 0-16.7 .6-24.8 1.7C444.3 100.3 358.1 32 256 32C132.3 32 32 132.3 32 256s100.3 224 224 224zm0-96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0 32c-35.3 0-64-28.7-64-64c0-29.8 20.4-54.9 48-62l0-194 0-16 32 0 0 16 0 194c27.6 7.1 48 32.2 48 62c0 35.3-28.7 64-64 64zM144 120a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM72 256a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM344 144a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM608 368a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160-64l0 48 48 0 16 0 0 32-16 0-48 0 0 48 0 16-32 0 0-16 0-48-48 0-16 0 0-32 16 0 48 0 0-48 0-16 32 0 0 16z" />
-    </Icon>
-);
+const GaugeCirclePlus = createIcon("gauge-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABwwAAAL3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEiDdAsGAAE2AiQDCAQgBYMtBzgb/AXIjsN02yMPAytBDIdknB6Cfz7/3t9n7kRzY0ySb7qTOgP9W7+CVk94+N/P3TcxA5J5g+QeRSOhfpp4E9FMdI9Qd0iaZ8Dl9HeBLJATz0MZc+sC34MTCDCcm36ABVzC1tm2N0PMQ7kRGtyAFb9VhSgwk+YGWO3v0RdeloHByiGELMBqWjb17sqdT/EpxIvIRchupwwQgHIB8AgIoNLkIwCaECAgH4sHLBZBRET+A/4P9CAAkIrwNgOABULgI/AZhuYl4eIUtrK9IE4bl+cvDpUJtp9e6foOZm/MeJL/VnmXe9T4nndcdd/02hDlB3QD6eTcxpPii7QDv7fm2Y6XBWIwS2KzejM3zQi7Acm5MeRQgsSx3MV5m8tLSKEQWs3YykTckTKDVr1byhzK3V6+T2yqPaPFB4zs9UlsK3fIDZQ5kL0Fybu17MFwsPzhvO0yLK4ucbrx9XCw4dWqJ5GSTjS44gYaXat2Sk2IUI90Dim1JBFONzTfLFDJVvKxHzE3XTdEimqum7/tPtOexePebNrT3uNdu7iIQSI3K3rV1VuhSDib3n56poJIMOneo8n09igpGGkx9cEqE60QUkQvpECKzv1wX3CEBU8y9yi4f3DrrNY902NrnM6eSF600tREzD1imfojFIYvc7tChUQdDodCVrKK8tHg7anlyqWmeV9eVuD47uY1wlyyJzkzPzajBl3+AAgQ5MrGHjSbc/5jQwPAp8Nf3xRv/79jJLMFxGIAEARJkSoMkUkAdIYgLBoxj5KFHxJgeImWcF88mxAACAcNDNE4BOSRDIujMqIopO7+aBy9CZAiDpHO0AaGeGYioB7zYUnnPKJowuNCNOlCDuImADV9YGZv16XbLvLp1Wr4Rn62ojJDrcFONvab/XHzZEdFvJZxTGcacxjLGCYyp6OYRdfyXKbSbkmz7Xc9NalGDTyN8IfrD+39aGEWs5k4bT0+T2P89ekKzFvuXxGHDKHWWuwxGJAspbt17vixVX8GclR9SwAAAAA=");
 
 export default GaugeCirclePlus;

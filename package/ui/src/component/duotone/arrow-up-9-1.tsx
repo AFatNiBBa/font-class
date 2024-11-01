@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-9-1` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-9-1?s=duotone arrow-up-9-1}
  * @preview ![arrow-up-9-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-up-9-1.svg)
  */
-const ArrowUp_9_1: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M344 120c0 39.2 25.6 72.4 61.1 83.8l-6.8 9.2c-10.5 14.2-7.5 34.2 6.7 44.8s34.2 7.5 44.8-6.7l48.8-65.8c14-18.9 21.5-41.7 21.5-65.2c0-48.6-39.4-88-88-88s-88 39.4-88 88zm8 328c0 17.7 14.3 32 32 32l48 0 48 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-96c0-10.3-4.9-19.9-13.3-26s-19.1-7.7-28.8-4.4l-48 16c-16.8 5.6-25.8 23.7-20.2 40.5s23.7 25.8 40.5 20.2l5.9-2 0 51.6-16 0c-17.7 0-32 14.3-32 32zM464 120a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M160 32c9 0 17.5 3.8 23.6 10.4l88 96c11.9 13 11.1 33.3-2 45.2s-33.3 11.1-45.2-2L192 146.3 192 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-301.7L95.6 181.6c-11.9 13-32.2 13.9-45.2 2s-13.9-32.2-2-45.2l88-96C142.5 35.8 151 32 160 32z" />
-    </Icon>
-);
+const ArrowUp_9_1 = createIcon("arrow-up-9-1", true, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABnwAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCWwsIAAE2AiQDCgQgBYMtB1QbgQVRlM3FDNmPwrjhLiFKERFLWfL5UsZPi9gMcRBX2j2e///9/jfXPufdL4Y18WaWVKpKiB7yT9A0k34mUUlWgjYyjTHuT+Peex/iTVKS+VGlOLmRqS6to7Df501c7vxt0wNO4kfZUx9ktSma8zyBQLNPF48FVEKZZmAtbrs5YhISC40j9PxvWybUu/qFvAr/A5i/5LYoMw1AVkEATt2orECPP/Kj8n38SL4rhwRyGsIWgIaGDQAcRRRsQLIF0nXhR40j8iPjiKEAGQSwsQfyBi/xDtBBidZ7OWRjhJA5YZNqmGRGo1FcDWaRSWSSWCSRULAmMjEMEgsQITwLBRZpLViZvWshkIMAEWOIzWKz1Fp8BJ7Qw8Tr4H1V/ZoYYmbGmnG2CdYlFgYDoPJF8del3ZVSEAYYBg2ocU0EeUFb38vt51ZugHxXeId/Pr89v7xejr32AQOTpd8/f7T9i8TR6TjZ1kj/bI/n+3oW07D+UjsH3SjaRGbY77OgUu7vPV0YfEefQuU7SLrl7GydjkS9sKhjeTF63/m9edrwvvhn9PnO5fT0mw8viMcT7NGDkpD8+QgE4f1Fxe0Dbvo/GrPAr09d/ZB8xx81XSuYViC0XeMuTZXNV3LRBABQecG3sgWlDqC5hyj+1HmvBcQsAspgVkCzHg+AbtZOACY2SQBgMOsKovQZsU5zR5R5j4nmiGWiW+eKmDjqIxmsCxEsJaCS/grTC4dAwSYcExmNU/FqSyNDmmBX0/BhP3hGjoTgHajHqBFTunXpr7gBPqEinzascAsr8EVYjEjRsFT4cvepXjNIJkzqX1avr5MGPx8Hm9meHoIjgpj1gFObRipt3aOJidHZiOmxiJSImAgIH5fMqF8z");
 
 export default ArrowUp_9_1;

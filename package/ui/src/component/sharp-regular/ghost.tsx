@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ghost` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ghost?s=sharp-regular ghost}
  * @preview ![ghost](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ghost.svg)
  */
-const Ghost: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M384 426.3l0 53.7-48-24-16-8-24.4 27.9L264 512l-35.9-31.9L192 448l-36.1 32.1L120 512 88.4 475.9 64 448l-16 8L0 480l0-53.7L0 192C0 86 86 0 192 0S384 86 384 192l0 234.3zm-48-24L336 192c0-79.5-64.5-144-144-144S48 112.5 48 192l0 210.3 27.7-13.8 24.4 27.9L124.3 444l35.8-31.9L192 383.8l31.9 28.3L259.7 444l24.1-27.6 24.4-27.9L336 402.3zM96 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm160-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Ghost = createIcon("ghost", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfQAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCLAsGAAE2AiQDCAQgBYMtBywbKAXIhod/7Kq/r6q6F1AtCEUKJ/2w0jk/tEdO5abx/vg1Ksr59t4Wv76U9o9OYICzpbZzaRWZDayiOHMzUTE2ym0iBcEg8sOWYf0bZLE/riiQ3E3exeXyo/G1ek6QKKQAoioAhs6ePtGLpVEa8c7/jxHvGI+AGApygRQpGgowQCrQUCZHJhOUxv//039gTgBRhJwTkKGIPTgGyEAiy7K2TWvUqFColM2KGeWXC/2idrSJDtHPA30qnaJd1Kwi3vhi+iezP5v60Uz9Qjwc9PyoVwc8m4vW0VZH/aO9RvpG+9NazjpaJ+J2hfO1bjpS80b5c7VvxexpJcLxR54ONyupWvJt03dXvetwrV4wf2fZ/X42mPzZfr839/KVmDpz5tQAx8yZ4Ve/f4x8Gu45/dJLp/c0/Niz9tlvsL/9bbD99nn2+48qn+FM5dRCW+412T8HAkGl65PeXVxlwK9lKyTgy6e//7697/8X40hSgrISEKQd/u9gQRwBsxqQQhK7NGMKFkhskQG+taJbAoTyCJAoKi9AqoGqAmTKay9AQWM9BSgqb7pUZOWEmhYONlHRVjbVy0E2U9MjbMEAb1SLakYqfrLwyD9/GaNWcOS+vGunLnm//NjSFYkS02r//Npqs8uNtFWZVtlskx1WWmGtHQuxzcTGThuN4qCRCpTrqpMucv3kz93347OstM12a222Ke/SX/59uY1d/PS2yk2As5t0IiGSwmqZBgAAAA==");
 
 export default Ghost;

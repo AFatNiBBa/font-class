@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `route` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/route?s=thin route}
  * @preview ![route](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/route.svg)
  */
-const Route: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M465.7 172.6c-17 27.2-37.1 52.3-49.7 67.1c-12.6-14.8-32.7-39.8-49.7-67.1C348.4 144 336 116.2 336 96c0-44.2 35.8-80 80-80s80 35.8 80 80c0 20.2-12.4 48-30.3 76.6zM427.4 251C452.9 221.1 512 146.2 512 96c0-53-43-96-96-96s-96 43-96 96c0 44.9 47.2 109.4 75.4 144L328 240c-39.8 0-72 32.2-72 72s32.2 72 72 72l112 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-280 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l280 0c39.8 0 72-32.2 72-72s-32.2-72-72-72l-112 0c-30.9 0-56-25.1-56-56s25.1-56 56-56l84.9 0c5.1 1.1 10.7-.6 14.5-5zM145.6 426c-17.1 25.8-37.2 49.1-49.6 62.7C83.6 475.1 63.5 451.8 46.4 426C28.5 398.9 16 372.1 16 352c0-44.2 35.8-80 80-80s80 35.8 80 80c0 20.1-12.5 46.9-30.4 74zM107 500.4c25.2-27.4 85-97.9 85-148.4c0-53-43-96-96-96s-96 43-96 96c0 50.5 59.8 121 85 148.4c6 6.5 16 6.5 21.9 0zM416 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM80 352a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const Route = createIcon("route", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABxAAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiDVwsGAAE2AiQDCAQgBYMtBywb0wVRVA3iZF8U2A3HhrhUqAEnECYCnMpCUSG8AFtVmNbt32t7Y970+lM81K+hb/d+gMAnClXYAreV5fGs69GxUDweXCqBNdnq6jNobvMobYu3Jcc0/7clJEFzaTRaIZNoa4i3PjZ181/XbtoaWK9YYhHneVaCnVe+D+kbMTce106ooxTzbFLSaDvyhsssYRYKIcN1++N+nn9r+p7vZjCTYbRVewN1n09ggBFp0wmkT3hAm4DNd1vPCyoik4FBROTLkIU4LpTbQ4m3LhHJx/kB9/ONxj8jDqSqAhDdGAAbZ2oBE/6O3xEf6pP4YAsjIDYxmMaiQoVxLFjGC4wTTGMURfA76tr/BwITQDRiNK0qaMUH/GRuT2ou5dLltYxpbMmrUxjkqXgFbelRBLRMI+kkYjLsuWXbrvPWkGj2AJcC3XTQsfOmWWX9UWi1mDV91D5/OKUOc8vELUMXetCGsQYsey7tdGylxcI1kq5v1jowPs037KRqb8ft9VmW8SXG0qbhml5yWwOasOYaqG5ocMvpcXqjJK0ODUCQir61JnSzgv2ND70n89V68uPqPn38Tt5NIXVZdBdScOpSBV9luj+/ppk9SJJl1VZqrwZeYt5oJIj3glljTU3/eNWdkxrTw/RKA2zN6PVD6H3WZY6V91kShYhviuYThfA8PvNMX7nzXSSlOilgl42UOfxrLUU6ulwICASv7sf+WWX5fzNO8PeN689IHaZ8jmYJgmq2HrQSJAEAyLjJTAik95pxqN0DoelppUNq1AqVMSoUrWagwaS8XDj4CC9Ki9CvDUjtrkBlyR6KfidosOzib9QflU0rLVL5S5mOjghphXQihQqOCU1lpvLUWIXYYO1CgY2JTM/czEZXx9BmoFeC0NYUvVHEG0FaQgpU4Dn9PLqpa2VtaG5GzVRB32PZ3cvbMHNY7JywlEQ2fGYAAA==");
 
 export default Route;

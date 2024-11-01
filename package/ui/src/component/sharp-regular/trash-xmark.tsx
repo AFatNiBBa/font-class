@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-xmark` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-xmark?s=sharp-regular trash-xmark}
  * @preview ![trash-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/trash-xmark.svg)
  */
-const TrashXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 0L147.2 0 140 10.7 93.8 80 80.1 80 32 80 0 80l0 48 35.6 0L64 512l320 0 28.4-384 35.6 0 0-48-32 0-48.1 0-13.7 0L308 10.7 300.8 0 288 0 160 0zM296.5 80l-145 0 21.3-32 102.3 0 21.3 32zM108.6 464L83.7 128l280.6 0L339.4 464l-230.8 0zM316.3 224L288 195.7l-14.1 14.1L224 259.7l-49.9-49.9L160 195.7 131.7 224l14.1 14.1L195.7 288l-49.9 49.9L131.7 352 160 380.3l14.1-14.1L224 316.3l49.9 49.9L288 380.3 316.3 352l-14.1-14.1L252.3 288l49.9-49.9L316.3 224z" />
-    </Icon>
-);
+const TrashXmark = createIcon("trash-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcAAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCBQsGAAE2AiQDCAQgBYMtBzIbBwXIjsO44TuyxVKeRTx8zFW9n6S7ZtLLkAVg8Ih+7Lplx3fCMajTncy1kBPXPP/zpwdMeoJHi8LS92iu3vp8AhMri6QBpw3fJorbnbayHaIdniWRJTk+Oz5HyOJRpETyIIFr5UvjL61dJVFKAUQjAExasWSed9/H9xGfqxOfzUFATAKFQIoU7QQYKxVoJ1Mgkwm+j2qV/gMLAogyebwEZChjMw4BMpDIsqxjbW2vSql+trxSytfklbxZLI08F5VYFfVjTVQiIs+XR4vIl6127ROV6LVy9arV9WNl5Ct69+rdLBbG4mD0jOaxqOGbRa9oGUvwzaNPtIjFa1p2rmtU908n23n2tj5u263fVA0WDtRV2wsm1kBXAxXjZ77d6tcsuIHhBbZb8OJCqwVRwLpfv/7vJfb4G4019o2X9H4QCPZ+c+X+hoZj/6+pJODHF//9h26uvot3SR1qJCBI+1b7WhvvgIgBmEkc19nok0BitYx8aj13BQg5AiTKcgFSbTUSIJPrI0BJB8MEKMstkYqsVmhmXYMT9RyCU8OdgzPNPIdLxnpvljWL1NUYR2F+eonTe2DasmJQ/4HF6GKZUdZ7qDQ/ptiWeh7nTi/YaLsD9jtqm612OdpBh81zjtlnugVO80OFQfobqDBacVw+rl5um8OO2OWA/XmRMYr7Wk/H7dG9QE0I6WDbEgmRVI4e3nRkZ7+TzxI=");
 
 export default TrashXmark;

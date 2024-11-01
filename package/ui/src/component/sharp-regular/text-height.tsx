@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `text-height` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/text-height?s=sharp-regular text-height}
  * @preview ![text-height](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/text-height.svg)
  */
-const TextHeight: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M24 32L0 32 0 56l0 72 0 24 48 0 0-24 0-48 88 0 0 352-48 0-24 0 0 48 24 0 144 0 24 0 0-48-24 0-48 0 0-352 88 0 0 48 0 24 48 0 0-24 0-72 0-24-24 0L24 32zM497 50.2l-17-17-17 17L402.2 111l-17 17 33.9 33.9 17-17L456 125.1l0 261.7L436.2 367l-17-17L385.3 384l17 17L463 461.8l17 17 17-17L557.8 401l17-17-33.9-33.9-17 17L504 386.9l0-261.7L523.8 145l17 17L574.7 128l-17-17L497 50.2z" />
-    </Icon>
-);
+const TextHeight = createIcon("text-height", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABbgAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiCDQsGAAE2AiQDCAQgBYMtBzIbDwXIhof/n9bu+8nM2U3oJayit+5weFBNYTljoSvcVuGgy67QM//X1Iuka8BvdEiReL18Hml7o8znJ7Dnjecrm89nA5soTt3UUNBPAh4iIlLDkB1nj2/sCnl8jIdqpKepBw/ql8Yvw90nqWUAoh8AVuzbtcWHb/Etorv5iui2CQGxAlQCGTKMEmCxTGCUXIVcLvgWzWb+D6wIIOr4zgRy5LiMG4AcJCnPp80pa73zvWWtOFSUhRCiDF4qI0VRiLIMg7JuX9na9kycMHF8bI+WXRKTMpdiYmlxTIgd4CbFruzSGA8uiwnOMpGys63Rr/FnXM/ZHkOfDWPGeoZOb9nvuOnDJvScGjad3g+i6yuHdfQHPeiPWepmQfIe3NcEgkX/rvw81nfx/5YygR/v//3Tn25+S8tSAy0SCLLJzckOp+UIcaUAAKS4qy3tC8lpCT+1l0cChAIBkrpCgMxI/QTIFSYJUDPGHAHqCrtkIm8VBjkyQdLLDZCZ6x7IDfIC1CzWXq4bFFm46cGif+3lrF3RNbuqGVOnVwurY9cwIkiV24uqx+74u2VqAlKddc1Vt51x2gW3F+mmLbU7rlirmDV+qDLDVNNVFqquB+/OXivfdMsF37pPskj1fnG8u3rxBAQJZWfqSBKRykC0/ggFAA==");
 
 export default TextHeight;

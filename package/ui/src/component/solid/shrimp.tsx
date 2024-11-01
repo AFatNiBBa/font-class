@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shrimp` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shrimp?s=solid shrimp}
  * @preview ![shrimp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shrimp.svg)
  */
-const Shrimp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96s28.7 64 64 64l1 0c3.7 88.9 77 160 167 160l56 0 0-192-24 0L88.8 128 64 128c-17.7 0-32-14.3-32-32s14.3-32 32-32l400 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L64 32zM224 456c0 13.3 10.7 24 24 24l72 0 0-72.2-64.1-22.4c-12.5-4.4-26.2 2.2-30.6 14.7s2.2 26.2 14.7 30.6l4.5 1.6C233 433.9 224 443.9 224 456zm128 23.3c36.4-3.3 69.5-17.6 96.1-39.6l-86.5-34.6c-3 1.8-6.2 3.2-9.6 4.3l0 69.9zM472.6 415c24.6-30.3 39.4-68.9 39.4-111c0-12.3-1.3-24.3-3.7-35.9L382.8 355.1c.8 3.4 1.2 7 1.2 10.6c0 4.6-.7 9-1.9 13.1L472.6 415zM336 128l-16 0 0 192 18.3 0c9.9 0 19.1 3.2 26.6 8.5l133.5-92.4C471.8 172.6 409.1 128 336 128zM168 192a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Shrimp = createIcon("shrimp", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABfgAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCGwsGAAE2AiQDCAQgBYMtBy0bGAXIhof/12nd9yV7EjkMGmBeQKBusN3eZ1usqPPUqec5DwXwLWRBG5vWBFkgoTnPIxDBxEe1wMsKVtMKWM1drSseiv0kLc1C+nvs8XNAHt9nd6iQnk178XD+0PjdoDtImjMA0QGAjUcffqBf6lGP2NP4kthjfwTERlAKZMgwIsAamcCIXIlcLqhHoxH+A0sCiCp+6ARyNOECXA/IQVLN82mdTS0dzbVKa35UrVIc/8aMiHcGnp357tRa/Lr2xyNrEVEU9/U9Fbf2P11rjaf7n+prOfbZqdqj7xdvDTwztTfeGDhyx/qj4okeR/88+dahI+JJt/QceVxRK0Qt7u89Oj5a9d22I56f/ubgM1PeGpr0Xsd7f07ce9Ze619+pZPOoujsfCVkm//4Y0us8IuBnW333NNWjEfU693rj7z8du+h+9jHv7Y8vmXlAt3dN/edceuRk2zasO2a9Se1dy284Sh5dULvcZPvGevA1i+6tH9zxwnWf/jBJW+v35QO7QUaiNt2rf1h5snta/5pqiXw23d//w+/okY9Se+hSQJBNqcxxwkJJAIAkOIqkxIEkjNU4V1bPCVAKBAgqSoEyAzrECBXmC1AxZilAlQVDpeJvFnocWIHSYtLQWaZG0Gux+egYo0dXlVPZF5H+gz56YvbJqGta+XCeQvKVeU01ihHwtN8dbkszrgq1mbSrrNc7CJXONMZznWFQC5zYHilC22z4K2+qLTQPAuUVimPs0fuKHiXudy5OnO+ZLXyvjvDVXb3TFISxlxESE8QSdXLz7ns3AsvAQAA");
 
 export default Shrimp;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `award-simple` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/award-simple?s=duotone award-simple}
  * @preview ![award-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/award-simple.svg)
  */
-const AwardSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M64.4 492.4c-1.3 5.5 .5 11.3 4.6 15.2s10 5.3 15.4 3.8L192 480.6l107.6 30.7c5.4 1.6 11.3 .1 15.4-3.8c3.2-3.1 5-7.3 5-11.6c0-1.2-.1-2.4-.4-3.6l-31-134.5c-5.8 3.5-12.5 5.3-19.4 5.1l-20.9-.5c-6.9-.2-13.7 1.7-19.6 5.2c-6 3.6-11.9 7.3-17.9 10.9c-5.8 3.5-12.3 5.3-18.7 5.3s-13-1.8-18.7-5.3c-6-3.6-11.9-7.3-17.9-10.9c-5.9-3.6-12.7-5.4-19.6-5.2l-20.9 .5c-.9 0-1.7 0-2.6 0s-1.7-.1-2.6-.2c-1.7-.2-3.4-.5-5-1c-3.3-.9-6.4-2.2-9.3-3.9l-31 134.5z" />
-        <path d="M210.7 5.3c-11.5-7-26-7-37.5 0L155.4 16.1c-5.9 3.6-12.7 5.4-19.6 5.2l-20.9-.5c-13.5-.3-26 6.9-32.5 18.7L72.4 58c-3.3 6.1-8.3 11-14.3 14.3l-18.4 10c-11.8 6.5-19.1 19-18.7 32.5l.5 20.9c.2 6.9-1.7 13.7-5.2 19.6L5.3 173.3c-7 11.5-7 26 0 37.5l10.9 17.9c3.6 5.9 5.4 12.7 5.2 19.6l-.5 20.9c-.3 13.5 6.9 26 18.7 32.5l18.4 10c6.1 3.3 11 8.3 14.3 14.3l10 18.4c6.5 11.8 19 19.1 32.5 18.7l20.9-.5c6.9-.2 13.7 1.7 19.6 5.2l17.9 10.9c11.5 7 26 7 37.5 0l17.9-10.9c5.9-3.6 12.7-5.4 19.6-5.2l20.9 .5c13.5 .3 26-6.9 32.5-18.7l10-18.4c3.3-6.1 8.3-11 14.3-14.3l18.4-10c11.8-6.5 19.1-19 18.7-32.5l-.5-20.9c-.2-6.9 1.7-13.7 5.2-19.6l10.9-17.9c7-11.5 7-26 0-37.5l-10.9-17.9c-3.6-5.9-5.4-12.7-5.2-19.6l.5-20.9c.3-13.5-6.9-26-18.7-32.5L326 72.4c-6.1-3.3-11-8.3-14.3-14.3l-10-18.4c-6.5-11.8-19-19.1-32.5-18.7l-20.9 .5c-6.9 .2-13.7-1.7-19.6-5.2L210.7 5.3zM192 112a80 80 0 1 1 0 160 80 80 0 1 1 0-160z" />
-    </Icon>
-);
+const AwardSimple = createIcon("award-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABrQAAAKrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDDwsIAAE2AiQDCgQgBYMtB1QbtQXILgbsluUopWo6xo6JLJXmiv1Fjx7L/4ioNbJn9x4AAoAqrNCxMC8DqFkTOUAd90JHpTxaVFHoP8npf4kvUBvwCnPLVBgTqNWYs5XT2v4HAA/oGJdvtsErjzLQaCdCyPzENfXjvIq+N/OZZGOC1HlEnU/gz0dR3iKz9NkIZ4IbnDfpkEIaQvoBmozVOWqhPBL84Ub8P4D5asIcRUclgPQjALuPFbnJ82kv+/v/lrxzEAlkD8J8QEXFNIBthIJpIvORRiN8KuhTmB8FSCvFb1JBK1rwBm8BDSiKNKL6nvgusUpU2iVmVS8X+2PPyLBiNmPPyx9nNJEpLzOOLBbsexEuBQRg39uCY4UCh94BOA8KgoICqzab2zQYXQI4MEVPrVYoANOBgW4jvOyE+WfFGFj8vuY+/C7+I/Ih6jHJvTeybypDScziQ0yjNHssMCteexnPVowH1jtmCDDzkXkwT39Lse+N9ua/v9Z5P7sixErzN0fI+HTb3msTFDoqos7jT9y+/cTxDm/GlRaa2xtPR71p6/okXTXtTXI0m1iRvtNz0WWjnirXb5oZ7HKQWDQ4ky8VCJzX6VrXpZwc5sbOMTZX3yRmn2WDBCDzS84G5zyBIHy4/HhhnSb9FwgIvsz+nF7punnBDdGugFBX/w+vOlMHwHUpkKZKRvnCzyoLUJ0gAO+1230B0YmAolWngGqKFkCj0yoALeZKANCq0yFCaeQUw2oGteh2Rq22Glcbw17VFtt8ploNR+hh7d7N/r+Yp3AKF+jxmMhonsp3qzqHH7Tq6TR+ORI8yrtC4F5q1afXsBbNOgxPqEHu7IgehUdIgS/iYkSKxqXijxsvt5dqMWhIhz690Sxp+PfJYKPHg0PgfASAjVZdUEmB0CuE+iM8fSDC7/caV1zuHAAAAA==");
 
 export default AwardSimple;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-bible` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-bible?s=regular book-bible}
  * @preview ![book-bible](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/book-bible.svg)
  */
-const BookBible: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 88C0 39.4 39.4 0 88 0L392 0c30.9 0 56 25.1 56 56l0 288c0 22.3-13.1 41.6-32 50.6l0 69.4 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L80 512c-44.2 0-80-35.8-80-80c0-2.7 .1-5.4 .4-8L0 424 0 88zM48 432c0 17.7 14.3 32 32 32l288 0 0-64L80 400c-17.7 0-32 14.3-32 32zm0-73.3c9.8-4.3 20.6-6.7 32-6.7l312 0c4.4 0 8-3.6 8-8l0-288c0-4.4-3.6-8-8-8L88 48C65.9 48 48 65.9 48 88l0 270.7zM208 96c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 96c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-96-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" />
-    </Icon>
-);
+const BookBible = createIcon("book-bible", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfwAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCJQsGAAE2AiQDCAQgBYMtBzEbJgXIjtRG90U2mSKIbJbVsyMdAM0T64ENwBCZQ0JlxiBHCO3QivepU89zHopF3ygoe2pA1qDufV6BivXqG2j5WGA1rYB1d7ZnSNOeHRqUJTnO5XisIcfz8Yga6dn0LR4uHxp/mXAHSa0CEP0A2PXoww/U/D6+j/im9S7xjf0RELuCIlChwrQAO6gEpmUFWRZ8H60W/gcWAog6fpoEMuq4GjcAMkhyzgsHBpd21XryUV21zurlFRFvbe6JV0aenEjxwkLRFa9MPLOwO95b/ubsrRFRHXvLSMSTXT0R0R33DT8hnm5yT49V8dTooKfjY64rnhwRgj4x3BnoU6MRpHmBmP9m/5v/zPv2rG+dk+/hnl0aLvm/rRj8bk/tDh0ZOfQY/WceFTlzyJqje1O8t9hFoTgetu+vA1ucUi/qpzQMvPXRQN/L9d7vi+97GxpSUvR+33CKGT7FUTSAQDD7yca3T+7b4d/2rgR+/Og/9CtqNaOZ3kS7BIJqZWulE6IJ0RQAgBRXmR9NBJKLZXyt3Z4SIHQiQFLXKUBlSr8AWacVAtTM2ihAXafDVSJ3CMNOVJB0uxRUNrkRZMPeBjU7+MKtG47K9WjHoX9+CXv10J6LytrVjbKtLGsq401knt1eto2lV4WeZbDSWS52kSuc6QznuqJDLnNgcKUL7WXBe/qiYq3VGoptynHzeflRznSZy53rYhfRPNuV+85SV9nDl4GdMOY6BUkiUqdfSqveKAA=");
 
 export default BookBible;

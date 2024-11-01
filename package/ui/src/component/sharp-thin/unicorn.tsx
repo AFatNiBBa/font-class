@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `unicorn` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/unicorn?s=sharp-thin unicorn}
  * @preview ![unicorn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/unicorn.svg)
  */
-const Unicorn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 16l8 0 16 0 43.7 0 33.8 50.8 10 104.5-67.9 34-28.4-56.8-2.2-4.4-4.9 0-16 0-8 0 0 8 0 87.5 0 .2 0 .3c-.2 25.4-11.6 47.6-29.2 62.5l-2.8 2.4 0 3.7L400 496l-72 0 0-170.3 0-6.4-6.3-1.4-120-26.3-9.7-2.1 0 9.9 0 4.7 0 40 0 8.2-3.2 7.5-17.4 40.5-1.1 2.6 .8 2.7L196.2 496l-83 0L89.5 410.7l-3.8-13.5 5.5-12.9 20.1-46.9 .6-1.5 0-1.6 0-19.8 0-1.7-.7-1.6L77.9 237.7c-3.9-8.6-5.9-18-5.9-27.4c0-36.6 29.7-66.3 66.3-66.3l53.5 0 56.2 0 72 0 8 0 0-8c0-66.3 53.7-120 120-120zm97.6 16L534.9 16 552 16l8 0 0-16-8 0L524.3 0 520 0 472 0 456 0l-8 0C375.6 0 316.4 56.6 312.2 128L248 128l-56.2 0-53.5 0c-26.5 0-50.1 12.5-65.1 32L72 160l-8 0c-35.3 0-64 28.7-64 64l0 88 0 8 16 0 0-8 0-88c0-26.3 21.2-47.7 47.5-48c-4.8 10.4-7.5 22.1-7.5 34.3c0 11.7 2.5 23.4 7.4 34.1L96 316.1l0 16.4L76.5 377.9l-6.6 15.5L68.8 396l.8 2.7L74 415l25.3 91.2L101 512l6.1 0 99.6 0 10.5 0-2.8-10.1L187.2 404l16.2-37.9 3.9-9.1 .6-1.5 0-1.6 0-9.9 0-34.7 104 22.8L312 504l0 8 8 0 88 0 8 0 0-8 0-191.9c17.3-15.8 29.1-37.9 31.5-63l.5 .1 0-9.1 0-.5 0-79.5 3.1 0 29.8 59.6 3.6 7.2 7.2-3.6 80-40 4.9-2.5-.5-5.5-8.6-89.8 67.8-30.1 4.8-2.1 0-5.2 0-8 0-8-8 0-86.4 0zm10.7 16l56 0L565.8 68.7l-.5-5.4-.2-2L564 59.6 556.3 48zM496 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Unicorn = createIcon("unicorn", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABuQAAALsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiEQwsGAAE2AiQDCAQgBYMtBy4bQQZRlM3NItlHQm4q81oMOkpeVuLh+Tbtz32QlEBFScfpfBHXnbrvxJa+Ek8GLDD9//fz+D8eDfLsbyMY2l1EH4/y7uMTGHgURglH42yiuNFtN0XMQ/kIhcYW8vjHvlqka9L7uCj/0PjRNOeSZBmAGAbAWjtss5mXv41vI97rPUG8ZxMExFqgEciQYaYAq8oEZso1yOWCb6PXY/+BDQFEW3CGCeRoo0eMAnKQ5Hm+9xkDnao1kHe2r1UeUFmtZTvbWlqtLCEi4voFxwPKVrS2vZpD6Bu3KI9O2E455utaAlpi1RpXxnWL3LdAVUXctsZLG2xXT9R1Slm+vurzTWp9fEGcfvuCd09CtX7cdd2rFrjcmRPbhVOBAxcmVBWxvTkaDvN2cDzivjkRhKtYygQK7KB7O+TKIK3ctrJaUf2sh6+/qntlffn4FRNz7x2+9+ep9/d/30sPGaIo1h3VOcA6U94yrjVZ2BG0n5qSe86G7tVnSydMc4mOlgUVFtCVJJM72Ua9rdVsanUkY5LQbGjXoWp06uHlLyykkZFmr6GH4OKRYlhx4JHrbLP+moefeXoUNw+Gyx0VxHnbUfbB+2ueMTp6RLOBEYs6XJKsYXJnE9qHL2T6Xn6zIpLSPA6o3a9Q7Fl42V3r08GWMl9Y3j62WMBaWvp2tPbsUl+E3k2GVgxWfK4l4ZSXvh0c/FaKgTjso+um/7DH0Kq/FSXw/bO//ig/ufdyOjPdi0ICQbZob1G7pjOByQYQTXG8uTNfFEj+kAuutd+VAoQSAZK2UoDMDMMC5EqLCNAy23ICtJW2kYm8I4zbrUZJv6NQZnmnody4x1DLqt6KtI1H9iYo3bHyQzTd+m1svVHNUosv2azcTBaUKscNenCVZrVtweN5w0Jwqf0d4XDH2s++DnJsiz3aZvHjHGb9OXw9P9RYyuKW1FhZs7t8X7c99h7tGA7jmv3DrKI5P7Sg4+fbLwSdSSB3aZOSRKS+4w4/6Pd7AAA=");
 
 export default Unicorn;

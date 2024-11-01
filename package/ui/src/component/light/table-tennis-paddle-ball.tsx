@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-tennis-paddle-ball` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-tennis-paddle-ball?s=light table-tennis-paddle-ball}
  * @preview ![table-tennis-paddle-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/table-tennis-paddle-ball.svg)
  */
-const TableTennisPaddleBall: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M423.8 88.2c56.7 56.7 70.5 139.9 41.5 209.6c10 4.2 19.4 9.6 27.9 16.1c35.9-82 20.3-181.2-46.8-248.3c-87.5-87.5-229.3-87.5-316.8 0L69.5 125.7c-24 24-37.5 56.6-37.5 90.5l0 2.7c0 33.9 13.5 66.5 37.5 90.5l9.8 9.8c13.1 13.1 12.4 34.6-1.7 46.8L11 423.8C4.3 429.6 .3 438 0 446.9s3.1 17.5 9.4 23.8l32 32c6.3 6.3 14.9 9.7 23.8 9.4s17.2-4.3 23-11l57.7-66.6c12.2-14 33.7-14.8 46.8-1.7l9.8 9.8c24 24 56.6 37.5 90.5 37.5l2.7 0c3.1 0 6.1-.1 9.2-.3c-5.6-9.8-10-20.4-12.9-31.7c-25.1-.3-49.1-10.3-66.9-28.1l-9.8-9.8c-26.3-26.3-69.3-24.7-93.6 3.3L64 480 32 448l66.6-57.7c28.1-24.3 29.6-67.4 3.3-93.6l-9.8-9.8C74.1 268.9 64 244.4 64 219l0-2.7c0-18.2 5.2-35.8 14.6-51L293.2 379.8c3.3-11.1 8-21.6 14-31.3L99.5 140.9l52.7-52.7c75-75 196.5-75 271.5 0zM352 416a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm160 0a96 96 0 1 0 -192 0 96 96 0 1 0 192 0z" />
-    </Icon>
-);
+const TableTennisPaddleBall = createIcon("table-tennis-paddle-ball", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABmwAAAKfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCZAsGAAE2AiQDCAQgBYMtBz8bcwXIBp6nvOr9qoySMTKQltANUu8s4TPAW/9x787/+acP+Iw+0pi4pm+gNRvrPIG08+nRBu08sEwDwNgyb5mxHin7JTmpZHr8Ro9XdAaGnJYMXEA51B1gYX5T+UQY00BhaAAAxBcAAKjZvnVTLjyX5yJ3nEdB7tAYEACpBYCNABrQQCQCQAUaASIxsAEDA4Hn4nTKf6ANAgDiir6iAsAAXIClwAYAwABAoQ2jt1eE5eJltLNczP5nY0U25iwPOtzuWatz9a7VuVLRQs7YyMbKIFnOssA2wsakoNTmWStD2gtdNjcoSM7WtWSutSL8WFqw7DK3pLSRNGkvuyOq8FdHi0yOaCtVIe2ktTy25rbssD59d+rOqDUpO9J2RVuTw0VWJ20z5yRsCV3FpDBH4lZrbvL2iCqJ2+W760vsnX532N6/ajusbPvm5j6rllkr7vSC+fMXnD5NXa0x6sxmtZeno1Ypq7y8ZztZ5f1gdmktHBe8djqoXUNjuCzI6XHKQa3wDQmltXBSq5RappnvYLebJuLd02fUmH/vPgVsb9p0e/36+uWPHy91OrYh/Cpc7TIkLGxIl6tXw6EkzwOAAALDpp9P7u5T8cfdUgC8PPXtT/ka4byg3NUuwB0FgIDOcGbQRQHO/8odAQAAAJSMI04BCKCYi0ZdT1ZYY8EEBoUrJmgi8AUDk3RwIZpCcnN3azRieCAE0pVA4clI0BQxHgwCOQwuVHA9cCVQtGvSjkU/DBPqIVJ3k52blWOX2dNSZbyNjKvl9raYMi6MpNJJ+jGcYYyhL30YyBjARtE0HstQ6q3QunwQm1yyyMGmDNvc3AvtwBjFaCTHnH2dcuzzbgrj1tNTSVEobh4JhQJRoV67NXNM32HDBo7O/MGCAPLOAQAAAA==");
 
 export default TableTennisPaddleBall;

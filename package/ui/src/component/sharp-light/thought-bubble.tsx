@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `thought-bubble` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thought-bubble?s=sharp-light thought-bubble}
  * @preview ![thought-bubble](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/thought-bubble.svg)
  */
-const ThoughtBubble: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M145.1 96l18.5 0 9.2-16c16.6-28.8 47.7-48 83.2-48s66.5 19.2 83.2 48l9.2 16 18.5 0 1.1 0c61.9 0 112 50.1 112 112s-50.1 112-112 112l-33.6 0-13.1 0-9.3 9.1c-14.5 14.2-34.2 22.9-56 22.9s-41.5-8.7-56-22.9l-9.3-9.1-13.1 0L144 320C82.1 320 32 269.9 32 208S82.1 96 144 96l1.1 0zM256 0c-47.4 0-88.7 25.7-110.9 64L144 64C64.5 64 0 128.5 0 208s64.5 144 144 144l33.6 0c20.2 19.8 47.9 32 78.4 32s58.2-12.2 78.4-32l33.6 0c79.5 0 144-64.5 144-144s-64.5-144-144-144l-1.1 0C344.7 25.7 303.4 0 256 0zM160 448l-32 0 0-32 32 0 0 32zm-32-64l-32 0 0 32 0 32 0 32 32 0 32 0 32 0 0-32 0-32 0-32-32 0-32 0zM0 512l64 0 0-64L0 448l0 64z" />
-    </Icon>
-);
+const ThoughtBubble = createIcon("thought-bubble", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABiQAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCQAsGAAE2AiQDCAQgBYMtBzUbRQXIjpTujtR4+H+7vt/nVvXDrTFqJEWAP4zIDgEnQa+fCul0vE9c8/zPn9qiyB8tct0aaRF1PoGJhc9/NG4b2EwnYNudbYNDmI+0FEmOb+W4nKGMj2KyBunx9DMeSh8avxrodpKyABA9ALBi59YtPm9GM+Ln1jvEzzYhIFaCWqBAgSECLFYIDFGqUSoFzWi13H9gTQDRhm8ugRLtuA33AkqQNMpy2rjO3p1Vo2u5o2rkvVWu+seT416t7hvz8sC+UVXvTHh96FPjX5udc58A3rsT+0XOl3xj2LOT3pxX7bx3fMRr43N8vfjj+vkln6yp4vU5702q4rtln416Yemna3O8sZfOu3KViajCTK8oeFVFZPK2KsejOYx8o8cbv4/4+cTPHj7Ym6/wkG827xs8eN/mbx7SO/463737+b9Gdr3bcY7frevI0UJceHD0F3zeJXxx19VDhlx91xcj/dFs/jFS1oYun38x+uBnNRqss1UT6uUm8uxNy8lE1kEgKE7s+Pdg98X/d1QJ/PLhn3/DX1Hr8yS9gQ4JBMXk1mT7EkgEACDFlUYmCCTXacB37eIRAUJGgKRNFqAwWA8BStkkARqGmSNAm2yrQpSdQh/7O5N0cQlTmOsGptTHW0zDYt9l2/SJQhFlNZK/gRlrJbBmXz1j6vR6YT3taopuiWF7Ub3tGX+ln5oAJ51wkQtd7rhjTrtcQJfaUrjCBdauwDW+qDbDVNPVFqqPB4+HdzjuUpc57SIXxl0Wqe8nxrtyvXgC+BMWnKklSUTq9vaqpxy54siRc8cB");
 
 export default ThoughtBubble;

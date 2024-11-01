@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-poll-vertical` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-poll-vertical?s=sharp-regular square-poll-vertical}
  * @preview ![square-poll-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-poll-vertical.svg)
  */
-const SquarePollVertical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 80l0 352 352 0 0-352L48 80zM0 32l48 0 352 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32zM152 224l0 160-48 0 0-160 48 0zm48-96l48 0 0 256-48 0 0-256zM344 288l0 96-48 0 0-96 48 0z" />
-    </Icon>
-);
+const SquarePollVertical = createIcon("square-poll-vertical", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABXQAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBNAsGAAE2AiQDCAQgBYMtBzsbvwTIjsQ4JvKLKOwiHv5/Lb3vz2yanU2R50QBTQoECphcHbpUEejYurJjI3JqeyqrN99rQ6ZOPc95KIDPefGgjbVAFljSuc8rUNBSr76pQmNhraLYtw2FbEThiwgRkojGUxqrHeTxIh6pkZ6l3xhsHxp/TXWXpJYBiDEAWL1nx3Zfh2M44ldz4petCIjVoBTIkGGGAMtkAjPkSuRywXA0m/QfWBJAtOA7TyDHCCzHOkAOklqe18fW6/VGbWS+u1ErDqQsjYws2lY0ipEihSjaIrKIXUIREY09jaKRoohMrW8fGjP0r9+nf+u/chQECW5W1dfKUZX0qPtPvrxFqPJW1X+kgqgYfHOUMi4HAsGyh8sWHhm97H9rI4E/78HzNYfjaxpCqwSCrKfZ42B8BcIHkKW4rR2/KJDMV8PX2uaxAKFAgKRFIUBmujEC5ArdAtTMMl+AFoUdMpHXhQkOTZC0uQYyC9wBuQnegZplvqUtJkTmQrQD0B+4hA0SWb+qHOiryiXlsmEwXkGWxaXlttFxOw90wlanXXHZTaecdM5NgV23vbjlkg0Wut4PlQb0qZSWKI/b6827nXLdDedccbkus1R5P+lw2x7fCXbChHOUkkSkCVEo9r43tTcuAQAA");
 
 export default SquarePollVertical;

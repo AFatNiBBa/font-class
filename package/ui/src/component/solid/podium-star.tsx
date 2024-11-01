@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `podium-star` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/podium-star?s=solid podium-star}
  * @preview ![podium-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/podium-star.svg)
  */
-const PodiumStar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M168 72c-22.1 0-40 17.9-40 40l0 32 296 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 192c-13.3 0-24-10.7-24-24s10.7-24 24-24l56 0 0-32c0-48.6 39.4-88 88-88l14.4 0C190.7 9.7 206.2 0 224 0l64 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-64 0c-17.8 0-33.3-9.7-41.6-24L168 72zM73.7 455.1L48 224l352 0L374.3 455.1c-3.6 32.4-31 56.9-63.6 56.9l-173.4 0c-32.6 0-60-24.5-63.6-56.9zM231.3 276.8c-2.9-6.4-11.7-6.4-14.5 0l-20.2 45.5c-1.2 2.6-3.6 4.4-6.3 4.8l-47.9 5.9c-6.8 .8-9.5 9.5-4.5 14.3l35.4 34c2 2 3 4.9 2.4 7.7l-9.4 49.1c-1.3 6.9 5.8 12.3 11.8 8.9l42.1-24.4c2.4-1.4 5.4-1.4 7.8 0L270 446.9c6 3.5 13.1-1.9 11.8-8.9L272.3 389c-.5-2.8 .4-5.8 2.4-7.7l35.4-34c5-4.8 2.3-13.5-4.5-14.3L257.8 327c-2.8-.3-5.2-2.1-6.3-4.8l-20.2-45.5z" />
-    </Icon>
-);
+const PodiumStar = createIcon("podium-star", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgQAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCHwsGAAE2AiQDCAQgBYMtBzIbIQXIhiDQmc1K8gWAFCDmB+TK3XOb6hkq6jxxzfNPe3rAsid4tEiKXJRF2zDzfAIDjvIosRaYTtBmbho3ZfAh4iASorxIx46hw9I9ZPFgekqB5P7kM1yNLxW/a+AUiQopgKgOgOFzZ05W/Ca+ifi09DbxqYkIiOEgF0gxv7EAg6RC7yGTI5MJvolSKfwH5gQQZfjeEpChgB04BMhAIs2ybjXbVSpUyeZUKlRceKF2xC2iSjzd4L5WleOZhg+2rRQRj3Z8sW+lEP/pOreHidq3WlWkZMV5c2bP2UNnhfZUo7Shsrl3aneKW7V7ZVqdwXFbXlJvYNyt078kW8TxekPl9rp94k7dLi1eqP7Cn80/W/OZZ/fWeJEPauTamV6nzvRr/tp+ctm5c8OquvfaMN2++DxNP/+i2zCv3au6+EiDn5K+DD5Uu2ZVj73iWNVm7R56ff36QWoN+8eT65trmV1T6Ym7une/64lK1xRaNLf+yX8MqzUICATNV7y0Zmm1Qf+Ur5SA7z74+390cakYxeQFlJeAIO1U6mRRFAHMAH5SEnu0iCICiQ1S/KqV3REgVESARJmKAqQaqS5ApqKOAhQ01VuAMhXNlIqsglDbYiESlW0nUn0cJjK1vUkUDPJhukztSO1OsBrhty91jAZGz8q7d+mWD8inFVU0Jc5NDsyPjXZ7qKM9dlpjqy12WW2V9XYpfIfJud02G7PCRvuiXHdddJMbIL+u32+eY7Uddlpvqy1hmoHy5yPt7Fn3bw87waw9zEkkRFJp29b30jp/Gw==");
 
 export default PodiumStar;

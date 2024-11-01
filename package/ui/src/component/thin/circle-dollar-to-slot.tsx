@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-dollar-to-slot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-dollar-to-slot?s=thin circle-dollar-to-slot}
  * @preview ![circle-dollar-to-slot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-dollar-to-slot.svg)
  */
-const CircleDollarToSlot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 208A192 192 0 1 0 64 208a192 192 0 1 0 384 0zM48 208a208 208 0 1 1 416 0A208 208 0 1 1 48 208zm0 160l29.1 0c5 5.6 10.2 10.9 15.7 16L48 384c-17.7 0-32 14.3-32 32l0 48c0 17.7 14.3 32 32 32l416 0c17.7 0 32-14.3 32-32l0-48c0-17.7-14.3-32-32-32l-44.8 0c5.5-5.1 10.7-10.4 15.7-16l29.1 0c26.5 0 48 21.5 48 48l0 48c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48l0-48c0-26.5 21.5-48 48-48zM256.9 93.3c4.4 0 8 3.6 8 8l0 19.3c2.3 .2 4.5 .5 6.8 .9c5.3 .8 21.5 4 27.2 5.5c4.3 1.1 6.8 5.5 5.7 9.8s-5.5 6.8-9.8 5.7c-4.9-1.3-20.5-4.3-25.6-5.1c-15.8-2.5-29.7-.6-39.9 4c-10.1 4.6-15.9 11.5-17.3 19.5c-1.1 6.2-.3 10.7 1.3 14.1c1.7 3.5 4.6 6.7 8.9 9.6c8.9 6.1 21.9 10 36.7 14.4l.4 .1c14.2 4.3 30.1 9.1 41.6 17.5c5.9 4.3 11 9.8 14.1 16.9c3.1 7.2 3.9 15.4 2.3 24.6c-2.7 15.6-12.9 26.5-26.7 32.4c-7.6 3.3-16.4 5.1-25.8 5.5l0 18.8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-19.2c-2.3-.2-4.5-.5-6.8-.9c0 0 0 0 0 0c-9.5-1.5-25-6.8-35.4-10.4c0 0 0 0 0 0s0 0 0 0c-2.1-.7-4-1.4-5.6-1.9c-4.2-1.4-6.5-5.9-5.1-10.1s5.9-6.5 10.1-5.1c1.9 .6 4.1 1.4 6.3 2.1c0 0 0 0 0 0c10.6 3.6 24.1 8.2 32.1 9.5c16 2.5 29.9 1.2 39.8-3.1c9.7-4.2 15.6-11 17.3-20.4c1.2-6.7 .4-11.7-1.2-15.5c-1.7-3.9-4.6-7.2-8.8-10.3c-8.9-6.4-21.9-10.6-36.8-15.1l-1.8-.5c-13.6-4.1-28.7-8.6-39.6-16.1c-5.9-4-11.1-9.2-14.4-16c-3.3-6.9-4.2-14.8-2.6-23.7c2.5-14.5 12.9-25.2 26.4-31.4c7.7-3.5 16.5-5.6 26.1-6.3l0-19.1c0-4.4 3.6-8 8-8zM64 440l384 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L64 456c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const CircleDollarToSlot = createIcon("circle-dollar-to-slot", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAAB1gAAAMGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRCEJwsGAAE2AiQDCAQgBYMtBzwbMwZRlM1Jmezngd3wcUZ8l1MN2xAJ4kSe9z+C5/X4fs5NXhZQVlIFszJ+JaETWAn+vk2oUPnwNN8oq+oZymrJbdOSriUM7q3Y8pUhltgEuKsG1WF/RMDENc8/MRKkBN8fZZFNDdQtsPMJ/ix9QlE21AHImPemwwl6FGGMHTtETNbYcQr1B50gj8esVEG6JL2I88ebxg+aOEKSZQCiNgBGz5kx3dOfxqcRL/7/APGiqQiIMaAUyJChuQDDZALN5UrkcsGn8f//9B9YEkAU5LQEclTC7/gXa4x+zmZdVcasfxnrubqO9fCmgcf6iTs+bSPb9/OrfP3nyRNNPL8XlJ/n+k62bfez4t7nx8EwDqNicCYEFqozcgRGJPcyYIgxQTeIJmnK7ndcI9SXAhgMhZq4P7FsotPWfDfGKbuemKwHdo938HhhTy7VQKhziY8AVT1mNCFpTdGtyZeBZEzbI7FWq4IU93maFWITasxuF8tvrX3rT61fXP2ip37pdxmnn3uub98aOX1ZP9VCahcMfpI7q1cbOLBa9TufHAwt4Lm6hVTv2dNdzRMnavZqo1cXT3e+pIVeH76UcdlLH/Zqged+te7Sor6sV37w4KjlRYelo7duG7X9t29M5frtZr6zClZ1PTplcveJk+57tZ5i6dKinl4ZWUOAJFnesP1SqXaAKF4/9NXXLZq0a7DymdWJGN/k6OQpzcfPveHTeiptfXr+gQMHlhbF0gPwfCAQfN3K+0tqDfu1sibw+aO//MVfI/8/naRbUVkCQdbt/2ZhAokAAKTYrU2CQPKLCnKp1V0oQKiKAEmhqgCZZmoLkKuqqwAVWuovQKGqGTKRVxHqW4R8Ut02PjPAXj5X3318hWGeKRbqR5b7hsw1fHpmnaCB8ZvK3j16lUPKy5ZuTGfdtjq0HPZ22s0jnWGr1bbYbKdVVlpnp6K3m17ZZZMJkXz8Z0u99dBLaYhyuru1zkZNs+7QOt84v46hyvXJTnbH0ztDIBHFPuqSRKQGvwg5uj8Dct13bun+TgA=");
 
 export default CircleDollarToSlot;

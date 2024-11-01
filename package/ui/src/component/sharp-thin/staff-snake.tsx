@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `staff-snake` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff-snake?s=sharp-thin staff-snake}
  * @preview ![staff-snake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/staff-snake.svg)
  */
-const StaffSnake: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M151.5 0L143 0l.5 8.5L146.1 48 64 48C28.7 48 0 76.7 0 112l0 40 0 8 8 0 55.5 0c26.3 0 51.2-11.8 67.9-32l19.8 0 2.1 32c-49.7 .9-89.8 41.5-89.8 91.5l0 4.5c0 53 43 96 96 96l6.2 0 0 .5 2 31.5-64.2 0-8 0 0 8 0 48 0 8 8 0 68.4 0 3.6 56.4 .5 7.5 7.5 0 16 0 7.5 0 .5-7.5 9.8-151.9 0-.5 54.2 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-24.2 0-1 16 25.2 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-112 0c-44.2 0-80-35.8-80-80l0-4.5c0-41.5 33.4-75.1 74.8-75.5l2.1 32.1c-25.1 1.6-44.9 22.4-44.9 47.9c0 26.5 21.5 48 48 48l112 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-27.3 0-1 16 28.3 0c44.2 0 80-35.8 80-80s-35.8-80-80-80l-112 0c-17.7 0-32-14.3-32-32c0-17 13.2-30.9 29.9-31.9l2.1 31.9 16 0 0-.5L167.3 128l48.5 0-8.2 127.5 0 .5 16 0 7.2-112 1-16 55.7 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-25.7 0-1 16 26.8 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L217 112l-.2 0s0 0 0 0l-50.5 0s0 0 0 0l-.2 0-38.5 0-4 0-2.4 3.2C107.5 133.3 86.2 144 63.5 144L16 144l0-32c0-26.5 21.5-48 48-48l90.6 0 73.8 0 59.1 0c44.2 0 80 35.8 80 80s-35.8 80-80 80l-29.9 0-1 16 30.9 0c53 0 96-43 96-96s-43-96-96-96l-50.6 0 2.5-39.5L240 0l-8.5 0-80 0zm49.8 352L192 495.9l-1 0L181.7 352l19.6 0zm-30.5 80l-59.3 0 0-32 57.3 0 2.1 32zM220.9 48l-58.8 0L160 16 223 16l-2.1 32zM47.5 96a16 16 0 1 0 32 0 16 16 0 1 0 -32 0z" />
-    </Icon>
-);
+const StaffSnake = createIcon("staff-snake", false, "data:font/woff2;base64,d09GMgABAAAAAANsAAoAAAAAB1wAAAMiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRyEfQsGAAE2AiQDCAQgBYMtBzIbfwbIjsK25TMnZaZqfICIU008z/+9n/vc/6YVK52GSulgrQEGcAa/xUoDmTWAAcsKWLqGw89AnXZnO4kihUFlp31gpg14WGh/njhmumhqwKSBzodSHRSR58OdD3g2Wn83FdC/sP2Ru6wHwwXvGJb2UGWpcRxQ3hsfwOvsR+WfpHVAYTYAQPoBwMFF3+549YO/k/f1fchXXUGAHAAmETRMyaiCYVtCfweLBhUL4TfrGvofOAkBSCsKVLGqAm2QMcgMtLMpHJX1v8MMKofXGtCcSA7tVDKabCTP2ZcSIHaph1WKydxTAaD+XLhcXxFeKUFIUoQ+MJ6BIRX3R/dFJCNR3Bo/GD8QOyAlH1ReIbm66mpFkuci+7Aqur9M8XzhcvKQfal0ovAhoMyfmCJsYAm3TFdx9bLUJBXJAQjTL5xmYOJbm8jVpUSiHFLKSC7V6xEeBbMrlLpfuJw9ZrdqHbEgn3jkoNOB/WTARGolY3Hy/qJUrkyc+uzVP8G+SPGVwJXfRR8mfHDwpdvtFojp41QwKG2CWH86EUFe7+bhCgvi+coqJyinVbtALYI4XkOIgbat3oAa+pLLfUnCL8Xb3OT1dp1Fn00otqBP2v3LK/ryIRL5+qHVrPWF0sw4lYFfVgC+L3LCWWAWfM1NPu+i5q2aCID2R7W5HkE/5yt+jSxgCp6+ckcASwCmqmJDJ2tBM799rzV0/crb5+CXN+v5SiJx5cqsJcQIYvxB7CyVhB9EeKxn0yJVo7H8wkqGzqOl+6Wm78eOz/LDBxAQuHkpsUf6m/0XygDw98nfn0hOXb/Kk3EF0M4ABBrT9bRhWQXg0RIgUrJAMfCHAkqiHIqf2u0ACAgJAiicJAIa0gIIqEhVCGiRUx8BraS+TKzcoIjhgmjwmE00NbCcaIm4S3Ro5nXYKRLzM+E+5Ny/1EQdVHD7ebp2jVq6iR6sYLwnnx1PNtWTVfYCv6NgLsUEM80wz3jjTDZPIczRPTbfdB0g+va/q9VWQy1aE3px/bZpgPFINFdl9/OWz6Ipvb3NtgDuXzC1hoLhorzCgBT1eqdVnztj9NTx");
 
 export default StaffSnake;

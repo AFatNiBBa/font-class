@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-smile` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-smile?s=solid message-smile}
  * @preview ![message-smile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/message-smile.svg)
  */
-const MessageSmile: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L448 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-138.7 0L185.6 508.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3l0-80-96 0c-35.3 0-64-28.7-64-64L0 64zM192 176a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm128 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM150.5 238.1c-9.9 8.8-10.7 24-1.9 33.9c26.3 29.4 64.7 48 107.3 48s81-18.6 107.3-48c8.8-9.9 8-25-1.9-33.9s-25-8-33.9 1.9c-17.6 19.7-43.1 32-71.6 32s-53.9-12.3-71.6-32c-8.8-9.9-24-10.7-33.9-1.9z" />
-    </Icon>
-);
+const MessageSmile = createIcon("message-smile", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCAAsGAAE2AiQDCAQgBYMtBzQbBAXIjsQ4JvGLKEzi4Xudn+c+yZ5deRm0AAhBpIr7tH/SYpU27pCgd3xTp57nPBTANwrK2Lg0IMvHmOcRiMD2nAcsVCtYTWsFx1o7++UNol8k6Z98kmG7MkwuyOOr7GYV0hPpN9yX3zT+1NHNJI0zANECADPWrVri+4ZoiPi1/gnxq0UIiBmgFMiQoYsAk2UCXeRK5HJBQ9Tr/B9YEkBUye+QQI4qduEQIAdJnue9W7duWas0zdfWKkX21KCIt/o1jVcGvNExxeP9X+9dxOp4uN2jEVHEqwPf7JStuat9xGNxQ7tHizvbPOx620dqNXvj6oc7frPm92lPtXu19+ujPx34aO+eb7Z4829+2/ub60VLWj5/3fMtWxYlhfHiXS5udvqmm4rlts9M3x1rdju3Nyshbrhun3l9yr8/3GPMiHt+qEmzd99//9v/uwCB4NSWHau3NZ/8X6NaAn982fVrpP5tkt5EIwkE2eD6YJsTSAQAIMVZPRMEkk1y8qpNPCpAKBAgqSoEyHTWQoBcYZAAFd2MEaCqsEom8sZCG1s6SJo4ATJjXQG5Nj4CFZP9qFa1iQxoFEyob178XA3NmStHDB1eTiyXoUZjh4jjSeW20P9sKA2gU3sdc9Rpe+x2wGmFnLTEOOOIuR48xweVRhhquNJE5XHyuL/WHiedcsAxR9OUScr7Sn9n/eYBJCeCOpInSURqCj9xyKlnDgAAAA==");
 
 export default MessageSmile;

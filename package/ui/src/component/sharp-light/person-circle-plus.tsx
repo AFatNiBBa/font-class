@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-circle-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-plus?s=sharp-light person-circle-plus}
  * @preview ![person-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-circle-plus.svg)
  */
-const PersonCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 80a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112A56 56 0 1 1 160 0zM99.3 128l9.6 0 102.2 0 9.6 0 4.5 8.5 66.7 124.9c-7.5 9.8-14 20.5-19.3 31.8l-48.6-91L224 496l0 16-32 0 0-16 0-144-64 0 0 144 0 16-32 0 0-16 0-293.9L46.1 295.5l-7.5 14.1L10.3 294.6l7.5-14.1 76.9-144 4.5-8.5zM128 320l64 0 0-160-64 0 0 160zm416 48a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160-64l0 48 48 0 16 0 0 32-16 0-48 0 0 48 0 16-32 0 0-16 0-48-48 0-16 0 0-32 16 0 48 0 0-48 0-16 32 0 0 16z" />
-    </Icon>
-);
+const PersonCirclePlus = createIcon("person-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABngAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDFwsGAAE2AiQDCAQgBYMtBzkboAVRlM3JDNmPg9xccQVemvtEu7JdCeXgH7T7/txMVpk18gGjItBBPdyJ9UMY3go0DVI7negS2C+37SseJxVJkLVEjpwnFfFsMVse83+55/d8bJBvdChrNzcvC8cYnECA4RWNTQllZVkkiXhn294MMQ+FC41xAlavVZEoMDvNM2C9/6L6So6VYLABAABKBgAAmp0enXjwQR+kZ5GroGd0AAJQcwA8AQEQAPkEQEMBAvJZPLBYBB8UiYj/QA8CAEUTvoMBwAJxwGngOgBgATBkYqyNS6gUl5dXLIxKsL3DKDfgeJ4MGywCOJojMPc7KpmKqtCFGeqlLdm1jJCTJDnRrAvUU+kqrSz1CfReK8WZ3xu2LBe0q3RnrCrZYI42RwStubpMzxTEL6sCOt/gMlfXO+IVbcUl3Y1V9c9kgz6IMETO8Qif+8JQc247xU95013MiGejn7F/SreMjG6suOsv/f/6k3uVS5ybX5fmj3NTq/antGQeIxtoKjc7lFbtMskLFun4qdv3m4aOB2jqwP4qhZ/h8759hYWE+fy5sFBtnCgz4Cu1dOnUNO/LyBoc3d+kaphJ9iRn8vkLquo+DIAAwUt3ddyQpIb/Y0MDwKdbP38X97vIA9PUnAJiMQAIgoqRigzMpjigC0SYM5pN8YUPEmA4TAz4WePZhgAQDhAAhmgcAiAgTzIBYHFUIACiKFSLAIjG0UOAbBwi3aAGGOKZBgJqWwQs6S6DKBp6mI0mPQKYlSBO+mRMb92FWq3y1SpX9fX9bE0lg6FgZxv4zd6ys2VPObyR0aaYbKZRRhpnZoecrlNhlklaL8GtfJFXTWVVefX5w82Heu9OdroZxk2rx5dpwF+fLGv28vByOGAIWasrMRiQSQVxu9LvPUal9x4AAA==");
 
 export default PersonCirclePlus;

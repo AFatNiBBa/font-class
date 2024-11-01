@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `standard-definition` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/standard-definition?s=duotone standard-definition}
  * @preview ![standard-definition](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/standard-definition.svg)
  */
-const StandardDefinition: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm304 88c0-13.3 10.7-24 24-24l56 0c53 0 96 43 96 96s-43 96-96 96l-56 0c-13.3 0-24-10.7-24-24c0-48 0-96 0-144zm48 24l0 96 32 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-32 0z" />
-        <path d="M328 160c-13.3 0-24 10.7-24 24l0 144c0 13.3 10.7 24 24 24l56 0c53 0 96-43 96-96s-43-96-96-96l-56 0zm24 144l0-96 32 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-32 0zM167.1 208.1c7.4-2.4 19.5-2.9 36.2-.7c5.1 .7 21.1 3.4 25.7 4.4c12.1 2.8 24.1-4.8 26.8-16.9s-4.8-24.1-16.9-26.8c-6.5-1.5-23.9-4.4-29.7-5.1c-18.9-2.5-38.9-3.1-56 2.5c-18.8 6.1-33.9 19.7-38.5 42.3c-.1 .4-.1 .8-.2 1.2c-1.7 11.4-.2 22.4 5 32.3c5.1 9.6 12.9 16.1 20.5 20.7c13.7 8.2 31.5 12.3 45.1 15.5l1.7 .4c16 3.7 27.1 6.5 34.1 10.7c3 1.8 3.8 3 3.9 3.3c0 0 0 0 0 0c.1 .1 .7 1.2 .2 4.7c-.4 2.7-1.2 3.8-1.7 4.3c-.7 .7-2.3 2-5.8 3.1c-7.7 2.4-20.1 2.9-36.9 .6c-7.4-1-20.3-4.8-31.4-8c-2.5-.7-5-1.4-7.2-2.1c-11.9-3.4-24.3 3.5-27.7 15.4s3.5 24.3 15.4 27.7c1.5 .4 3.3 1 5.3 1.6c0 0 0 0 0 0s0 0 0 0c10.8 3.2 28.4 8.3 39.4 9.9c0 0 0 0 0 0l.1 0c18.9 2.5 39.2 3.1 56.4-2.3c8.9-2.8 17.8-7.5 24.9-15.2c7.3-7.8 11.8-17.6 13.4-28.5c1.7-11.4 .2-22.4-5-32.3c-5.1-9.6-12.9-16.1-20.5-20.7c-13.7-8.2-31.5-12.3-45.1-15.5c0 0 0 0 0 0l-1.7-.4c-16-3.7-27.1-6.5-34.1-10.7c-3-1.8-3.8-3-3.9-3.3c0 0 0 0 0 0c-.1-.1-.6-1.1-.3-4.1c.9-4 2.8-6.2 8.3-8z" />
-    </Icon>
-);
+const StandardDefinition = createIcon("standard-definition", true, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAAB0AAAALiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDcgsIAAE2AiQDCgQgBYMtB2IbJgbInge2bWnrxzYr3MkJYRoP//kXdV/V7x5AfyD3yMygaCWfjeQgAdMNpV44NS2+dwWf3o24QEUcyo5u3rAfnHhoEZ72ugbV7tXp63fzf83nR4cJ+PlAzw8lahFpFUDZlgITKoumncgaBzpD2+C8QYfVh5C+hyL+5atQId2NfoEb/f8BjJ91cpWkUQYQLQEwY92qJd75IX5I8UX9NeILixEQM0EpkJHRVYApskBXhRKFQvBDqtf5Ier1kgCiyn+zDKpoiK/wE6AASZaLonWLU53FFk0qzYq1TSqN9z2mQNwd6ngz/+2ZfZNaE6JJPC4GNQs+UGvvDIMYxFNvUZSidAWHIchF5K6hN3SwyQ2XIkLgtrbMBle0Yx0Wm5S85BId3ggRdwFXsJtz4iQnvV2ki6Zd7eOJDl8pco0sMqec7k7f0MaT+a9z3JN9kYnHkkfZ7o11vD5uMntgGtQOWBPFJgpN4kk56VWKker1DPP9e36x9wuY12Nr90K7FRPg4jPPNGyYRC5OWG78is8oYcQ3X+b85Tcjyrc+jz6145eadVfbcPmlt/bB3QlCef7cG/uqiOT07S2CSmLGo88rbTEYUY4+2TuOlhEAlx955DiED57wGVoeXnsX0NLp2zqEyNUTttdgZuNWrR76eSgbalzTDA5f99EwrGgX4CZ/fPd6IBC8uKj7vK3FlN8aNkngp7f/pbhc/QeqpWeAhhII8pD6EJtTDRg5gB+V4qxeqeYYAtltMnyrTd0hQGiMAElVYwGyLloKUGhssAAV3Y0VoKqxVbIoGgltbWlA0tQJkI1zDhTaehVUTPFxrKptZCkuSFDhBzP13C40Z1bZDhtRTipn8ypR1nJO/+Ryszk5y+sGwpX2Ouao0/bY7YDTHeKkJckzjpi7RJ3z3dJIw4xQmqQ8XHpoWgu7TjrV5abl49NMVl7vH+DscuuB0JaEtKPMyTKRIndR93VD9YR+qIFp2W1aNh8=");
 
 export default StandardDefinition;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-copy` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-copy?s=sharp-thin book-copy}
  * @preview ![book-copy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book-copy.svg)
  */
-const BookCopy: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M208 56c0-22.1 17.9-40 40-40l312 0 0 288-24 0-288 0c-15.7 0-29.8 6.4-40 16.8L208 56zM192 359.6l0 .1 0 .3c0 30.9 25.1 56 56 56l288 0 32 0 8 0 0-16-8 0-24 0 0-80 24 0 8 0 0-8L576 8l0-8-8 0L248 0c-30.9 0-56 25.1-56 56l0 303.6zM528 320l0 80-280 0c-22.1 0-40-17.9-40-40s17.9-40 40-40l280 0zM352 496l0-48-16 0 0 48L56 496c-22.1 0-40-17.9-40-40s17.9-40 40-40l124.1 0c-4.1-4.9-7.6-10.3-10.5-16L56 400c-15.7 0-29.8 6.4-40 16.8L16 152c0-22.1 17.9-40 40-40l104 0 0-16L56 96C25.1 96 0 121.1 0 152L0 455.6l0 .1 0 .3c0 30.9 25.1 56 56 56l288 0 32 0 8 0 0-16-8 0-24 0z" />
-    </Icon>
-);
+const BookCopy = createIcon("book-copy", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgAAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCOwsGAAE2AiQDCAQgBYMtBzAbOwXIHgfOaS+OusWlzxHFw//b/dc+t+oDrgagAZFPBGc/6myglUMpo0n7JXNtQyRMfz/Pf8VogI9HMJTI5KIoysRIwAFGe9N0N58NZxPF2TarIBuquC3i8YMkxGGUH5Y/QR4/Oa6M9G6Cl8eHxl+6PEGSZQCiEQBLdm3b4O7v8XvEt6WJb61DQCwBhUCGDL0CzJcJ9MoVyOWC36NUov/AggCiHMjktTnK8SieAeQgyfO8cUjDnJqyunxnTVn1vkc7It6uKVJU177Xmu2OsPzdtjdH1NVEVFdH1CR3FnFa/EZnOibUxnPtb4VKSI7tIfeEeAsa/la74E6bMaEKijymTx/6fuP7/wxxkh+fbhrkg6bZCp3F5VLDJFDx373LxehGlZ2bdVZWmqxS5eLL9/6rmLxp1GakdGr6YLCpaTAFOj/5ZDJmGk22r3jAztlXXS5hUac1Ok2Xx/ZxIBAM76jvPdQw///KmgT+HPzvr3m/0t20OL2PSgkE2fjSePvTYiDeAEIpbhoqfFEguSOHd631lgChGgGSctUCZHo0CpCrNk6AMv1mCFCu2jaZyKuEVgcekNS6AjIzPQhyrb4AZeb7MliuNTIvlPiQ5Ccw5UoOrZhXTJk4uZhbHLOW1LFEtXtecW0cfbNUjYlHnXTJRdedcNwZ1xn3qg2RGy5YKXFW+KHCFBNNVpirUBfe9+90wlXXnHHJxT7KPIW9d7SbcuMx0ZKA71QZSSJSlYuqJnwFAAAA");
 
 export default BookCopy;

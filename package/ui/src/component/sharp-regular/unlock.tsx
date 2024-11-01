@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `unlock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/unlock?s=sharp-regular unlock}
  * @preview ![unlock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/unlock.svg)
  */
-const Unlock: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M144 128c0-44.2 35.8-80 80-80c35.6 0 65.8 23.2 76.1 55.4l45.7-14.8C329.2 37.2 281 0 224 0C153.3 0 96 57.3 96 128l0 64-48 0L0 192l0 48L0 464l0 48 48 0 352 0 48 0 0-48 0-224 0-48-48 0-256 0 0-64zM48 464l0-224 352 0 0 224L48 464z" />
-    </Icon>
-);
+const Unlock = createIcon("unlock", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABWgAAAHiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBKwsGAAE2AiQDCAQgBYMtBy0bqATIjsQ4JvGLKEzi4f/XQu/7MxsAnDCziotjxawAoCRs0PZUVm++p4VMnXqe81AA3zLcx8KcL9y4ac7zCOQ8nouPtlbwXq1g1QparZ3O1xtENkmf8knahWFzQB7n4oQS6Uz6B8fjh8a/GjtEUsoARC0AjFowZ5p3P+NnxN/lx8TfpiAgRoFCIEOGZgIMlQk0kyuQywU/o1zm/8CCAKKC5Ewgp1cYgpGAHCQpzztXrlqqns+vWqqy5FKXiHsDDre70XhAXBz8ov+noa8KUaWKEKJq9cCzq1SLhSGqh6jW+m6tu//1z/p/HB8R81lXq+mM4Qe++Vqx4uWZY/qWRuppnH7qqeeJrBm5YsZPqCv9RCgQt237fv8VNYf+X6lqAr9fwD5cfhfv0l1UkkCQdS13tTTeARMD+Ekp9msd7xBI+kjoXas5KUCoggBJBVUEyDRVS4BcFV0EKGmhnwAVVDFHJvLKQj3LKkiq2QUy/R0EuXoegpKhvhoV1Ivs9dBnT3/eEsZLaNxS0at7z2Jw0Y0U5kGQfjqkGBY77neVTti13g7b7bXOWpvsFchu0+x9thmvweN8UaGX7noqDFZMp7fb862z2x6b7LA9zBmiWC91tF9v74R1EqD3vocSkSrs236vAQ==");
 
 export default Unlock;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `card-heart` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-heart?s=regular card-heart}
  * @preview ![card-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/card-heart.svg)
  */
-const CardHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16l0-384c0-8.8-7.2-16-16-16L64 48zM0 64C0 28.7 28.7 0 64 0L320 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM80 221.3c0-33.8 27.4-61.3 61.3-61.3c16.2 0 31.8 6.5 43.3 17.9l7.4 7.4 7.4-7.4c11.5-11.5 27.1-17.9 43.3-17.9c33.8 0 61.3 27.4 61.3 61.3c0 16.2-6.5 31.8-17.9 43.3l-82.7 82.7c-6.2 6.2-16.4 6.2-22.6 0L97.9 264.6C86.5 253.1 80 237.5 80 221.3z" />
-    </Icon>
-);
+const CardHeart = createIcon("card-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABbAAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBVgsGAAE2AiQDCAQgBYMtBzEb1wQRVZoRyH4kxs6QPfJN3h2lE47Ew/+vld33q3oCQDUBYFBAtCSBVNyiEX3WosraDoDiHL449TznoQC+UdDGpqXxDRKa8zwCEZm+OrkgxYLVtAJW3SZDsCMIj54OCRORjs+Osw3yOBW3lEiP0x+4OT40/tLKZZJSBiAaAmDCskVzfCxHOeL3yrfid7MQEBNAIZAhQ1sBRssE2soVyOWCclQq/B9YCCCqyDsnkKOEeVgKyEGS5XnD1u3qlOrlS+uUaq+61zTF/Wb14mGLLB40rzv5aa+Ir7rVi/c9vmiV4lH3zzvXjQ89v2ydLTH1qz2aRQsS6nhPnu++OO41XxpfRscvG375T/UfW/8w7ma5/nn1y2CpUrsRjV7xqlGj2ucplq+ZpxbcalW91VbVrW5Rq1XjhQt88cV8SeNWQCC4Mu+ndQ1Gf6pZJ4E/f/rvf/QrqnyM8+lL1JRAkPWu9F4d5yHOCwBAiqM6xnkEkmky8kxdDwQItREgqVKbINNGQ8jV1gtK2htCBMcXyUReS2hqDSCp6wBkhjoDuaa+hpLRfjarNI2spqiKoH508X6qRqYMFQP69i9GFkfPosuE6N1RRVjqfrRlemDV1n17D2/ZvOOwwg7OcY7smeqhU75YDOjbvxhZpMN3fimZBw/tsNl8n1HFfa37Ub+8B9REcAe6kkSk2uUr9nnYAAA=");
 
 export default CardHeart;

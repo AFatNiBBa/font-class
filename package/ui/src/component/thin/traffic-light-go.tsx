@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `traffic-light-go` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-light-go?s=thin traffic-light-go}
  * @preview ![traffic-light-go](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/traffic-light-go.svg)
  */
-const TrafficLightGo: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M256 16c26.5 0 48 21.5 48 48l0 288c0 79.5-64.5 144-144 144S16 431.5 16 352L16 64c0-26.5 21.5-48 48-48l192 0zM64 0C28.7 0 0 28.7 0 64L0 352c0 88.4 71.6 160 160 160s160-71.6 160-160l0-288c0-35.3-28.7-64-64-64L64 0zm96 432a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm0-96a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm40-80a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zm-96 0a56 56 0 1 0 112 0 56 56 0 1 0 -112 0zm56-96a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm0-96a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0 312a16 16 0 1 0 0 32 16 16 0 1 0 0-32z" />
-    </Icon>
-);
+const TrafficLightGo = createIcon("traffic-light-go", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABpAAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yCYQsGAAE2AiQDCAQgBYMtBzcbaAXIhofn9f77tU/yAGdgf5mdSoqZ8lOVdSeuef6xWTRIlthQsr5oAbIGiSicQAlleQsMbKK4xW1XQURDY6Fxgjx2d4Aq0hWpxHnhS+Mbfc4iyTIA0QqAVTtvv6XnP4vPIsrKI0RpcwTEalAIZMgwKMBSmcCgXIFcLvgsKhXxH1gQQFRL7pZAjgach6sAOUjq8ry3tylJqmuoasp3Km6q3/2WrohL+lJcv/Tpta8uf3Z0Flf1XDahYaebJ66Rb+9VenvZMzu+u+K5nXe6cvKd4+t3vbX/yoGrJtzSd0Xv5WPjZqxvkHG3TfQLyPidDXLz+B29QG4bh+31K8gtE6Qe229dGK535/OfTBd3XtJ1Wc+l3aPvbL3zu1HlQaXKfTM/YmNWGDzl3BdeOPeUwUK28aOZzz/Xcn0bbfWFWFOWawpqlOW6Qn1b2/XP733fPg9edNGD+3CpH//+55+/f9SasHX1lEWLplRL79Ny33PP3dcy3IK9b4QXftbc/JmTBuK6r2113d4tS3+rbUjgiyd/+Fv9scrzsTLdiVoJBNnUylR7xEkQKwUAIMVJRhMRBLOfqw7IukaXChDq6XlJtXpeZkArL1dvCq/KsHnGk8j2TnEjrxPqtCfhJY2O5WXmO5OX6/QQr8pSr4WrdUYGmGawMv8X5lg/BtaNK2ZNn1ksLjazWgusGW33kuI0OvEkWTUJz3WQox3lBAc6wKFOGLGOs2XsREdav0dZ54cKs0w3U2Gx4nbhObITGj7O8Q5dt90fZYni/dBEJ+03noSJJNE5W0qSiNT6qbumwat/2sFHAwAA");
 
 export default TrafficLightGo;

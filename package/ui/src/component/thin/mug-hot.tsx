@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mug-hot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-hot?s=thin mug-hot}
  * @preview ![mug-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mug-hot.svg)
  */
-const MugHot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M80 8c0-4.4-3.6-8-8-8s-8 3.6-8 8c0 27.3 5.1 45.2 13.6 57.9C86 78.4 97.1 85 106.7 90.6l.4 .3c9.9 5.9 18.2 10.9 24.4 20.1c6.2 9.2 10.9 23.5 10.9 49c0 4.4 3.6 8 8 8s8-3.6 8-8c0-27.3-5.1-45.2-13.6-57.9c-8.4-12.5-19.5-19.1-29.1-24.7l-.4-.3C105.4 71.2 97.1 66.2 90.9 57C84.7 47.8 80 33.5 80 8zM209.6 8c0-4.4-3.6-8-8-8s-8 3.6-8 8c0 27.3 5.1 45.2 13.6 57.9c8.4 12.5 19.5 19.1 29.1 24.7l.4 .3c9.9 5.9 18.2 10.9 24.4 20.1c6.2 9.2 10.9 23.5 10.9 49c0 4.4 3.6 8 8 8s8-3.6 8-8c0-27.3-5.1-45.2-13.6-57.9C266 89.6 254.9 83 245.3 77.4l-.4-.3C235 71.2 226.7 66.2 220.5 57c-6.2-9.2-10.9-23.5-10.9-49zM344 208l24 0 0 208c0 44.2-35.8 80-80 80L96 496c-44.2 0-80-35.8-80-80l0-192c0-8.8 7.2-16 16-16l312 0zm40 176l0-176 24 0c48.6 0 88 39.4 88 88s-39.4 88-88 88l-24 0zm0 32l0-16 24 0c57.4 0 104-46.6 104-104s-46.6-104-104-104l-24 0-16 0-24 0L32 192c-17.7 0-32 14.3-32 32L0 416c0 53 43 96 96 96l192 0c53 0 96-43 96-96z" />
-    </Icon>
-);
+const MugHot = createIcon("mug-hot", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjwAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCRQsGAAE2AiQDCAQgBYMtBy4bQwXIjtRgrTKLETxv1391bvfwWf0FroQMRgpoNhJyOhR6cxX33cQ19aPs6QGL/NEql1oYibtR5vloQAOMtkiwcdrAZjoBm7lpZPBDlFscRINPlFL2Dhm2HiGPlxypRLojvYvr8ofGTwZcTJJlAKIdAOv22WMnjc/j84h3/3+GeNcOCIj1oBDIkGFYgJUygWG5Arlc8Hn8/7/9DywIIMpwdwnkqOBSXA3IQVLK85GRnraiqdSS791Uqh9wa+/N3ecP3NETcUvPLW7puS0uGLyztx639t462rSBQE3gCNQHxTaxV1O9Sdw99f6F9Xh2+oOjEWZWy14hmuKZaQ+MTE195LkZD43dK45ZXG++svtm4h5vLVpcMf7B9gd/Gffu0e/a5bnyoYeWp37U+J1v72YS455amfr6h9/FkKvJLzT5ZxlXO+mSN/qx1Ydi76PaG9qP2jsaWj9fOuWxx5HZb+3ll+d5CK/tL9opu9/jH7/X1PTex1Pi0NbM1obqgw+eX4Dzb1EFAsGH93X7IW0rf602JfDli//F/Yr+byTpQVQlEGQz/5/pwAQSAQBIcbbxCQLJuUrwrs1uFSDUESApqwuQGdIuQK5uhgAloxYJUFa3h0zkNaHbQY1Omp1GZxY7h851e4ouWemNWFl3ZKooKZL0J5i+mcObRhXzZs8tlhfbvCprlxD7VxTXnqlnu7pptNHRTnGyMx3lSMc5k1Gn2yl5lpNslshNvqgwz2xzFZYrHpceV+/tKKc7w3FOcXIaZIXi/cBUZ8utp5E/Ae98ZvoEualy0lnHzDr2lDMBAAA=");
 
 export default MugHot;

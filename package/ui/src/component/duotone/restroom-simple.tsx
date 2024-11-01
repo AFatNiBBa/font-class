@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `restroom-simple` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/restroom-simple?s=duotone restroom-simple}
  * @preview ![restroom-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/restroom-simple.svg)
  */
-const RestroomSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M21.8 282.7c-.2 1.8-.2 3.6-.2 5.4c0 27.5 17.6 51.3 42.4 60.2L64 464c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-115.7c26.5-9.5 44.7-35.8 42.2-65.6l-4.1-49.3C226.7 191.9 192 160 150.4 160l-44.8 0c-41.6 0-76.3 31.9-79.7 73.4l-4.1 49.3zM64 64a64 64 0 1 0 128 0A64 64 0 1 0 64 64zM395.7 343.2c-5.8 20.4 9.5 40.8 30.8 40.8l21.6 0 0 80c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-80 21.6 0c21.3 0 36.6-20.3 30.8-40.8L589.3 206.4c-7.8-27.5-33-46.4-61.5-46.4l-31.4 0c-28.6 0-53.7 18.9-61.5 46.4L395.7 343.2zM448 64a64 64 0 1 0 128 0A64 64 0 1 0 448 64z" />
-        <path d="M320 0c13.3 0 24 10.7 24 24l0 464c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-464c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const RestroomSimple = createIcon("restroom-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABnQAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCPgsIAAE2AiQDCgQgBYMtB1obagXIFkrLw/d2/9/a5/Qj+n6oP6GhFZHROINjMBWyqboT19SP82/AIn+iB+uaDiQSKNsnMOAoS2/QCc10BjZzG7msjrUhD+KPoe1CNDuHwhWKND5fp4H0cPoMd/L/AMYvBrmOpCUDiG4ArNy/e6sPfowfU3xWf5P4zBYExCpQCWRkDBVgiSwwVKFCoRD8mOp1fox6vSKAaMT3z6ARTbgStwAKkISiKDrGdUzqaGvoKPbxya0nPjUoxUNjnh6c49Hx+69yVXn/WPFw3LZ4ZsCDQ+LoIY8OHhWPTHp+XGs8OeHZgdX+xyc+N/mFEU80YlUx9Pj7yojF6gMgRAUeDGv7IjrugVaBW8Y8OXDPoVeMer77+d9GfnbCZ5a/v7P8SrkzvF35ZMrl+6+MO0/+/NsZlRnffp7PM++118qZpu059s8p/jx2z7SZE7/OP//118/Z7dpcW34rtyrtoGO/69+h5s9bb10+7iZ72v6vVcr2tj3FzOza2e1AILj9xQfGHdm15L/mtgR+fuuPf/SHVKt/kC5Kz6NZAkGeUp/isHSVmuZ0kQAApLjAqHRVTFATyE5RkE9t94AAoRUBkkatAmRDdAtQaDVZgAbDzRWgUavdsihahH6HZzppdzadzXM5Xej3Bt1giQ8zjfojG6JqRuo3MGud8NpF1cxpM6pF1bAqabYl++nF1XY04YK7JtJBJzjTGc5zvOOc7Dyoc2zNn+9062bIWl9UmWmaGSqLVNeNW2sfmXOc6+S+cT/PYtX79AQXzAdPpFQivLMsyTKRIg/Avox2dyqavamg7juoZyAYAAAA");
 
 export default RestroomSimple;

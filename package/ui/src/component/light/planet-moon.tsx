@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `planet-moon` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/planet-moon?s=light planet-moon}
  * @preview ![planet-moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/planet-moon.svg)
  */
-const PlanetMoon: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 96A64 64 0 1 0 512 0a64 64 0 1 0 0 128zM224 480C118 480 32 394 32 288c0-8.1 .5-16.1 1.5-24l58.6 0c8.5 0 16.6 3.4 22.6 9.4L152 310.6l0 31.5c0 17 9.6 32.6 24.8 40.2c4.4 2.2 7.2 6.7 7.2 11.6l0 15.3C184 435 205 456 230.8 456c16.2 0 31.3-8.4 39.9-22.3l45.5-73.9c7.8-12.6 11.9-27.1 11.9-41.9l0-21.9c0-26.5-21.5-48-48-48l-61.5 0c-5.2 0-10-3-12.4-7.7c-2.2-4.4-1.9-9.7 .9-13.9L249.3 163c9.8-14.7 14.4-32.1 13.3-49.7l-.9-13.6C349.6 117.2 416 194.8 416 288c0 106-86 192-192 192zM40.3 232C64.3 153.3 137.4 96 224 96c1.8 0 3.5 0 5.3 .1l1.3 19.3c.7 10.5-2.1 21-8 29.8l-42.3 63.5c-9.1 13.7-10.2 31.2-2.9 45.9c7.8 15.5 23.6 25.3 41 25.3l61.5 0c8.8 0 16 7.2 16 16l0 21.9c0 8.9-2.5 17.6-7.1 25.2L243.4 417c-2.7 4.4-7.5 7-12.6 7c-8.2 0-14.8-6.6-14.8-14.8l0-15.3c0-17-9.6-32.6-24.8-40.2c-4.4-2.2-7.2-6.7-7.2-11.6l0-38.1 0-6.6-4.7-4.7-41.9-41.9c-12-12-28.3-18.7-45.3-18.7l-51.8 0zM227.2 64c-1.1 0-2.1 0-3.2 0C100.3 64 0 164.3 0 288S100.3 512 224 512s224-100.3 224-224c0-111.7-81.7-204.2-188.6-221.2c0 0 0 0 0 0c-10.5-1.7-21.3-2.6-32.3-2.8c0 0 0 0 0 0z" />
-    </Icon>
-);
+const PlanetMoon = createIcon("planet-moon", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABrQAAAL+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDPQsGAAE2AiQDCAQgBYMtBzIbvwXIPgzwYEjDe8I44KmqFq0K8NlSdIWy/WiHa7zUnsXz9Pv9b+1z7xdTJJHEvQRC1SgW4WUaITK/IhppKpkhPojnx1HzFuJfm004VAEJZr2Qz9zWrcssoqEKDpkYskE0iOiHUj/WT+17ASSpVlas/H9jGeMaxnS+7S6LYiBT+ly/dwgLaL38BL6fONf5zkcDLPKhRGPpQMpm3ecv8CJplf7ABfamL2C/O+0ZpbRHQktI4zgn/fZQ54sIbZRGeQr3wofmLxOWodCqAJB+ANh1oaKIm5/oE3r6f/KaIxCQ3YB5AhVUME2ArTQJTNOioKZF8Cn/+B8oAkgr9MwFqKENlsBbQA0U2rWWZU/Cah9DbWOtakNtg56NIyKbXXObDDaMbpGFsa2GXE0n/U9EX/I95nc8qvPdBnldLWOGsnEkSZDGis1IY2Sz11HHmuyMyMLoFm8DEZ5tm5GdkzbyLs3urT508UTkRY122Wf7cGq2TbitDGXzCHJtuDKbOreMiuxYuUWIKNjknOg0qNlwrWzovJsbek7tDzuf96L5yHrR4z3uI1nIls64hvsjsxP/eMqFpt51XGcTQntraHZ1DQ6Ft3FtOSVVcC5lRo6bMX6wjyuDSx16pmi+fqrzf81zIdhg9f41Cf0NK6P38KPTkN5z4KH9KauqKpOr/wP1LjSLBW6/ntwv/Oz1jC8GddHtL43txnu96cqwHYuTkTeOBiQ/nQNvD/Or2+L8sz6eqhLmKWPgywAABIKlnHO+xTTxXzsagC+PP/2MNCtd4wTaaQBBtaopGksqNC8hAAAl07iXVBAoLqEFad22SK0wQIULHQZwxZEZXDMQALdwEUUtzq6gSWp9hJUmgDUYGYM1RZuBtVi5CGtL9EDXYRVNNWaUkPlFJmZzIGuaKsGhKl4NQ5nVTMqPE9SyFKdtyQ9W0m3EsEldOvWZZNC4ImvKkOwZmOWLlDDBQinxlDi5FauZPm5CX5+XT5JAndd8Tc+b/UDVQLirOQoNpBheOXky6CkA");
 
 export default PlanetMoon;

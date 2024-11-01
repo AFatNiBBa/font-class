@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `superscript` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/superscript?s=thin superscript}
  * @preview ![superscript](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/superscript.svg)
  */
-const Superscript: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 8c0-2.7-1.3-5.1-3.5-6.6s-5-1.8-7.5-.8l-40 16c-4.1 1.6-6.1 6.3-4.5 10.4s6.3 6.1 10.4 4.5l29-11.6L448 144l-32 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l40 0 40 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-32 0L464 8zM8 64c-4.4 0-8 3.6-8 8s3.6 8 8 8l28 0L166.1 256 36 432 8 432c-4.4 0-8 3.6-8 8s3.6 8 8 8l32 0c2.5 0 4.9-1.2 6.4-3.2L176 269.5 305.6 444.8c1.5 2 3.9 3.2 6.4 3.2l32 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-28 0L185.9 256 316 80l28 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-32 0c-2.5 0-4.9 1.2-6.4 3.2L176 242.5 46.4 67.2c-1.5-2-3.9-3.2-6.4-3.2L8 64z" />
-    </Icon>
-);
+const Superscript = createIcon("superscript", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABcQAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBeQsGAAE2AiQDCAQgBYMtBzIb+wTIjpQuV0Tx8P92fb/Prepeb6rHqJEUwYogB6k/lYFB+tYPHQllxjl1tfEbPzrABZH7nrcokPcVuPHGA8kDCrTJAgso8QQs/3fWG5BEFkl6wU+6Ybr+sF13hzzet1mF9Dh9hZvpTeMH7ZwjyTIA0RQAU5ctWuiT+qiP+Or/N4mvzEdATAOlQIYMHQWYIBPoKFcilwvq4///7X9gSQBRlZ8sgRw51mIXIAdJyvPOY2qVRvnSWqXYdrr1g5Yj4l6r+216hyjiXsv7rWq1h20etC4i1lMZS2LxMomrbZZF+v6eDyMvDSa7c6XlYjzmQVF0e9L0yU9dv/KVb9/Ouw0detLGXr02fOmY0vpqdX2fPqUtXfp0tE87Ov0y6R3Nmrz56RfQo3leknBG8TUQCEZ9v/O6JhN+rasl8N17v/xVf0PxR3qCOgkE2YD/B1idoC7+EACAFEd1SxBIlkryqzb0QIBQIEBSVQiQ6aCpALlCfwEqOhspQFVhkUzkDYSW1nSQNHQAZEY5DnItvQ4qJvi0rWoZmZLhKoJ/48XMYmjmpXLooCHluHI71gi9QcP5+PJY6XPUrfXFTVvts9dhW2y2w2FCDlo4PGKPWRI80weVhhpkiNI45fXskVlK7UGH7FiT932MVz4f9HFU3t0X10mAYa9nJBGppsnEPzwAAAA=");
 
 export default Superscript;

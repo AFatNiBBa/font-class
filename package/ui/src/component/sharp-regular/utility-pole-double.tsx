@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `utility-pole-double` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utility-pole-double?s=sharp-regular utility-pole-double}
  * @preview ![utility-pole-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/utility-pole-double.svg)
  */
-const UtilityPoleDouble: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M280 24l0-24L232 0l0 24 0 56L128 80l0-24 0-24L80 32l0 24 0 24L48 80l0-24 0-24L0 32 0 56l0 48 0 24 24 0 56 0 3.2 0L232 227.2l0 44.8-104 0 0-24 0-24-48 0 0 24 0 24-32 0 0-24 0-24L0 224l0 24 0 48 0 24 24 0 56 0 3.2 0L232 419.2l0 68.8 0 24 48 0 0-24 0-68.8L428.8 320l3.2 0 56 0 24 0 0-24 0-48 0-24-48 0 0 24 0 24-32 0 0-24 0-24-48 0 0 24 0 24-104 0 0-44.8L428.8 128l3.2 0 56 0 24 0 0-24 0-48 0-24-48 0 0 24 0 24-32 0 0-24 0-24-48 0 0 24 0 24L280 80l0-56zm91.2 104L280 188.8l0-60.8 91.2 0zM232 188.8L140.8 128l91.2 0 0 60.8zM371.2 320L280 380.8l0-60.8 91.2 0zM232 380.8L140.8 320l91.2 0 0 60.8z" />
-    </Icon>
-);
+const UtilityPoleDouble = createIcon("utility-pole-double", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABjQAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyDNQsGAAE2AiQDCAQgBYMtBzobvwXIngVOmT0a0VHJECeisZHm02Q+5WXEf7/22efOmyV2QHZXLQdQRRIYF2PZoTBhycKmIvyv2Ojo8f9/XN035p/2ziQ7gklaAA0KRSVt3ejGlLcgmSvk/Y97d/5pTcBn9NH20O9Ny/Y+D2yL5psSygLpMk3A2l3kKIqseV5LLMnjuTw+ztDyEnrqTQUv4E3zj8stpe8AkAUAcOVeu4XPUUbJ3/CV/NYAgVwBsIXQocMaAudJBWtktkDThFGGwf0HMgTIGBArjzeM4yv+AGig9E12N65yWrle1gtVmjWSKYKRsUvbVaa1XY6V6RJRn6ah680+zYfdTr9D0XZ63Z42IA9h56Pp6d/VnO+EEBEIGesEwQGBqWmnc4+LgkuvFKOSDpVe77a5k7AuaAuZh2ujQi4VMX5cqBvHKD6+njwPEIRrb4dX54zn/09oJYC/v4afEYbPUh8xoUDo9oY9kwJFAACVU7gLgvJFD191xksBMYWAMmZKQGeVCYFmyi4CvQ1JBMZMuUUqTY1YMW1QZjyCzrEzaFY8Q++8r8KYlXQirAqg+oPMKlOkdIyjoQjneNlSNKmU42qetyPPqR/x6pNYtWfXsRXLNhwT8VCrfGJHmaNLvohFhUSwHD7uPlb3rDh0ZGOun6+Tx/czj1N+ulenEii5r64UKeu7rQju722vBMUe");
 
 export default UtilityPoleDouble;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-hair` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair?s=sharp-regular user-hair}
  * @preview ![user-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-hair.svg)
  */
-const UserHair: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M304 144l0-16c0-11.4-2.4-22.2-6.7-32L256 96 240 80l-32 32-62.4 0c-1 5.2-1.6 10.5-1.6 16l0 16c0 44.2 35.8 80 80 80s80-35.8 80-80zM224 0c70.7 0 128 57.3 128 128l0 16c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-16C96 57.3 153.3 0 224 0zM66.6 464l314.8 0-32-96L98.6 368l-32 96zM64 320l320 0 48 144 16 48-50.6 0L50.6 512 0 512l16-48L64 320z" />
-    </Icon>
-);
+const UserHair = createIcon("user-hair", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABagAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBWwsGAAE2AiQDCAQgBYMtBzAb2wTIHgl27MQ25DxoJR7+3+7r97lVr/Gwpkau6WgkvgH4mUEpgOj3DwEnQa8fOYSroJ7zXSdk6tTznIcC+ByCoI1pa/o+T2jttucVqFivvqlakLHAqhW07s7WNEnY4SAtRZLjM8dlC3k8FferkZ5I3+G++KHxs+HuJqllAKIAwIq9u7b4qC/6Ir6tXie+tQkBsQKUAhkyjBJgsUxglFyJXC7oi6qi/8CSAKIDP1UCOTqwDQcAOUjyPB8xtLvVqLXydqNWPxvijiH1GBLjox4PE89MeHnOm5NeGdv+fEnE++PE84vfW/3F0g96Il5a9uG6fa1mqx312N1OF90To6PeHBt7e3qL3l/77sx3pk0riqL/lQkqlaWGdhWifbooTrdj231WMbtWqM1etd3RpD99dMce9besp/uWQ3zafSqz7qmU80Eg+GHLF8XRfot/62ok8P07MCdXH8VHqRddEgiyydVkh+IjIHQAPynFzXriIwSSdXJ4rU2PChDqCJB0qAuQGakQIFc3SYCaMeYI0KFul0zk3cIghxtImq4DmbluAblBXgU1i33pdxgUmVaROkF+6uLWSmjNqnLG1OnlwnKYqpSi4H5xUbksjL/ZtibARmdcdcWNTjvlvBsFcr0t0U0uWzuD1/ii0gxTTVdaqNwu7te3nXa9G5x31ZWwzCLleWe8m+fDE0BOGHOmRJKI1H0V+SnvCgA=");
 
 export default UserHair;

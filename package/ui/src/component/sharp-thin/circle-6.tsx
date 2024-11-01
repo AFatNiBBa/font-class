@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-6` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-6?s=sharp-thin circle-6}
  * @preview ![circle-6](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/circle-6.svg)
  */
-const Circle_6: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm37-384L192.8 215.6c-8.6 7.6-15.7 16.5-21.1 26.3c-7.5 13.7-11.7 29.3-11.7 46c0 0 0 0 0 0c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-4.3 0-8.6 .3-12.8 .8L317.3 128 293 128zM256.1 368A80 80 0 1 1 256 208a80 80 0 1 1 .1 160z" />
-    </Icon>
-);
+const Circle_6 = createIcon("circle-6", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgAAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCFAsGAAE2AiQDCAQgBYMtBy8bEwXIjpPlNk5qPDyv99S5LxnAGcCo6N3tRbSu5O7Hz8Wp5zkPBfCNgjamLd24APc6j0AAY6Mt1luCgtV0gnt1m+xRKAq7IkKCRKLj83jrCnk8b5UypFvpA1yoDxo/aeAUSZYBiOoAGD535mSvfBPfRLxfepJ430QExHBQCGTI0FiAQTKBxnIFcrngmyiV6D+wIIAoS+6cQI6yWIcDgBwkeZ43atSkSqUyVfI56edXXPjl+Ih3hz/qWLdXxr0z66sJ7414LI73fH3i+3PT11MjPh75ehwf8dqUj+Z8MemDYa84NvzVyR/OXjhr7qyrtW86Hsfj7vb39n664/3N7ulwX5/TtedGxVlPdXmo68N9n+z8YKcHerW4r/p9vzT/YM0HSg8Ps4Wt5f7/v9zWLcMMs0Ud/z7aRS4NbDxyZOOBly6OxlFYrY6unNvW3zvyRAMof999x46xUL5fKLts/DD1W/32yp65c/e8QrcDgWDaj2erLa026J/ylRL47rnffsLLSOmVJN2H8hIIsk6lThYlkAgAQIo9WiQIJMvk5GJl1wUIFTEhKasiZBqpDrmKOkIZTfUmnBdmykReQahtMUBS2XbI9HEYcrU9DmUM8rZdVu3IQo4KGOrBFz9GI6OXiu5duhUDim1k0FFE5OnAwi2228OV9ji0xlZb7LLaKuvtUtgOk73dNhtjoaM9UaG7LropDFAcp6/bc6y2w07rbbWlzBmouK+2s8dubw8lEdwefEkiUvmfOVLnPgA=");
 
 export default Circle_6;

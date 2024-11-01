@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-check` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-check?s=sharp-thin toilet-paper-check}
  * @preview ![toilet-paper-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/toilet-paper-check.svg)
  */
-const ToiletPaperCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M14.7 496l11.8-28.2C60.1 382.6 64 281.9 64 192C64 86 107 0 160 0L492.2 0l0 .1c1.3-.1 2.5-.1 3.8-.1c35.1 0 63.4 25.9 81.9 59.9C596.8 94.5 608 141.2 608 192s-11.2 97.5-30.1 132.1c-18.6 34-46.8 59.9-81.9 59.9c-28.5 0-52.6-17.1-70.5-41.8c.9-8.7 1.7-17.4 2.4-26.1C445.3 348.1 469.4 368 496 368c53 0 96-78.8 96-176s-43-176-96-176c-5.4 0-10.7 .8-15.9 2.4C434.7 32.3 400 104.7 400 192c0 97.5-4.4 208.3-42.4 300.3L349.3 512l-324 0L8 512l6.7-16zM160 16c-17.2 0-37 14.3-53.6 47.4C90.4 95.5 80 140.9 80 192c0 89.8-3.8 193.4-38.7 281.7l-.1 .3s0 0 0 0L32 496l306.7 0 4.1-9.9s0 0 0 0C379.4 397.5 384 289.9 384 192.5l0-.5c0-50.8 11.2-97.5 30.1-132.1c9.6-17.6 21.9-33.1 36.3-43.9L160 16zM516.6 255c-4.9 4.8-11.9 9-20.6 9s-15.7-4.2-20.6-9c-4.8-4.8-8.4-10.8-11.1-17.1c-5.4-12.6-8.3-28.8-8.3-45.9s2.9-33.3 8.3-45.9c2.7-6.3 6.3-12.3 11.1-17.1c4.9-4.8 11.9-9 20.6-9s15.7 4.2 20.6 9c4.8 4.8 8.4 10.8 11.1 17.1c5.4 12.6 8.3 28.8 8.3 45.9s-2.9 33.3-8.3 45.9c-2.7 6.3-6.3 12.3-11.1 17.1zM496 248c13.3 0 24-25.1 24-56s-10.7-56-24-56s-24 25.1-24 56s10.7 56 24 56zM301.7 173.7l-80 80-5.7 5.7-5.7-5.7-48-48-5.7-5.7L168 188.7l5.7 5.7L216 236.7l74.3-74.3 5.7-5.7L307.3 168l-5.7 5.7z" />
-    </Icon>
-);
+const ToiletPaperCheck = createIcon("toilet-paper-check", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABqgAAALMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDKQsGAAE2AiQDCAQgBYMtBzkbsgXIHgd2bLFaTMP2uDoGz/P+lee+4dp/JUw2+Au6ClRRldCmM0pXKl2l0kxeu3GITnhCMx6PozTyo0W+Xt8nLnf+054ecJE/yprtob+8bE6OOw9wLZ1inRdmIQXOmdviONBgGRiG+ONfh4ghDkP5CzDKH4YxgTqlXgEH9E3lGwHsAoXBAACAuAMAAOVtm2zc+ySfRF7aH5CXNAICIOUAaAhgAAxAMAJAEQYECMaIBhgxIvBJ7Pb0H6iBAICYkddTABgBC3ANeAUAGAFQmIzGwogArwAnk4ux1cnkGBLkH/Su7V3ru8wrF4vIHqeL0S3gaHmdZuNi1Jti/I7sL/Nqe5tx5gjvO2nqb/TXur84O/p1XUraTUpke7H8xUX8lD8UFMklIRENHPXWvqR52R5k/FDlU3Rs8x+o5GEBOSHbJyxSkm2f5Uxv073FV0oqS8dHiqVNF3tHXHPvP8L/0Vf8uik/z4+aa8y1VLLh4sXtTYBSB5vLPjzGhu3xh7Lmg2cvOzuf3b797BkaaDhzdrt1IbGvlwrqLTaLLbB6J1Uecwc/nrGddVSa68z1ARUAsJtM8oGACkujpYk6Advjr2URwz/X7t1bG81fCgxcyh/ti2oOzsKcv//c7MEkMnO/vpnP0tGxU801dE5T34DONaoBQACBi6F8rs+t6LcVKgC+3PgNj1vt91S/ugZYUQAIGJLsSXSrbVjRnCkI4ihZJQIfJIDiHCbgOHMcgSc4QicUZhwJA0G4E0YcSSRMhJLNL27fhAExOiB40wNC4cwCYSCHzYQRb64TJop4apvxFkPwiqEn/jum1Vigep6WnpKmFWjTiibFI18mC7XlUNxq7ojHUUaZY5ZlRhhmgmWDL2LzVpihxsOq+SIa6aSQhkYB2nb9t9ZKZ5ElJsbS/iwUop3PxbHq949HVCGMGZxTKBDluTw3MT2ynHxLjOSLAAAA");
 
 export default ToiletPaperCheck;

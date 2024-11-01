@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `earth-americas` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-americas?s=light earth-americas}
  * @preview ![earth-americas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/earth-americas.svg)
  */
-const EarthAmericas: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 480C132.3 480 32 379.7 32 256c0-11.8 .9-23.3 2.7-34.6l3 6.7c9.3 21 27.3 37 49.2 43.9l63 19.7c15.5 4.9 26.1 19.2 26.1 35.5l0 15c0 17 9.6 32.6 24.8 40.2c4.4 2.2 7.2 6.7 7.2 11.6l0 22.7c0 26.2 21.2 47.4 47.4 47.4c21.8 0 40.7-14.8 46-35.9l4.4-17.6c2.6-10.2 9.2-19 18.3-24.2l11.6-6.6c19.9-11.4 32.2-32.6 32.2-55.6l0-8.3c0-17-6.7-33.3-18.7-45.3l-3.9-3.9c-12-12-28.3-18.7-45.3-18.7l-48.8 0c-5 0-9.9-1.2-14.3-3.4l-45.9-22.9c-2.1-1-3.8-2.7-4.8-4.8l-.7-1.4c-2.3-4.6-.4-10.2 4.2-12.5c2.2-1.1 4.8-1.3 7.1-.5l24.2 8.1c15 5 31.5-.7 40.3-13.8c8.6-12.9 7.7-30-2.2-41.9l-17.9-21.5c-2.5-3-2.5-7.4 .1-10.3l20.1-23.5c13.2-15.4 15.3-37.4 5.2-55.1L259.6 32C337.1 33.2 405 73.8 444.3 134.6l-38.2 15.3c-23.6 9.4-35.7 35.6-27.7 59.7l16.9 50.7c5.2 15.6 18 27.4 33.9 31.4L475 303.2C453.3 404.3 363.5 480 256 480zM48 172.7C77.3 99.7 143.8 45.7 224 34.3l14.9 26.1c3.4 5.9 2.7 13.2-1.7 18.4l-20.1 23.5c-12.7 14.8-12.9 36.6-.4 51.6l17.9 21.5c.9 1.1 1 2.6 .2 3.7c-.8 1.2-2.2 1.7-3.6 1.2L207 172.1c-10.4-3.5-21.7-2.7-31.5 2.2c-20.4 10.2-28.7 35-18.5 55.4l.7 1.4c4.1 8.3 10.9 15 19.2 19.2l45.9 22.9c8.9 4.4 18.7 6.8 28.6 6.8l48.8 0c8.5 0 16.6 3.4 22.6 9.4l3.9 3.9c6 6 9.4 14.1 9.4 22.6l0 8.3c0 11.5-6.2 22.1-16.1 27.8l-11.6 6.6c-16.7 9.6-28.8 25.5-33.5 44.2l-4.4 17.6c-1.7 6.9-7.9 11.7-15 11.7c-8.5 0-15.4-6.9-15.4-15.4l0-22.7c0-17-9.6-32.6-24.8-40.2c-4.4-2.2-7.2-6.7-7.2-11.6l0-15c0-30.3-19.7-57-48.6-66.1l-63-19.7c-13.2-4.1-23.9-13.7-29.5-26.3L48 172.7zM480 256c0 5.2-.2 10.3-.5 15.4l-42.6-10.6c-5.3-1.3-9.6-5.3-11.3-10.5l-16.9-50.7c-2.7-8 1.4-16.8 9.2-19.9l41.8-16.7c13 28.3 20.2 59.9 20.2 93.1zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-    </Icon>
-);
+const EarthAmericas = createIcon("earth-americas", false, "data:font/woff2;base64,d09GMgABAAAAAAOQAAoAAAAABzAAAANFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGyEDQsGAAE2AiQDCAQgBYMtBzUbEgbIrgds9xoUKIpibQmEKljPKItNddga6Dk7EQ/P2/F27psJ4AnM7ldBRaqokkol6JXb9AvxMO5r3pJMgkPaCDs68egKp0ubfwP8/L5fOrRcaa0k1zU3FqkFWwtskxawIA/8bnBhQ0jT6vMguCyW3EVRtdrKC78+gP+4n+f//DfgM/poUZYUibHAiDyfwEAjfb77gguwmQ7Epri9acY6soyOJBNlUuRfx9UN8rgqfChFOqN4CQ6lN43/sLQdJHkGIKoCwNCi0SVufZWfiGeKEM9Ig4AYBhQCGTI0FGCATKChXIFcLvhZ/p/+A70IIEqTR04gR2n8Bb4D5CDJ83xWZhVrbdVK+Tht1fJjH6eKPAkSuexfOShWSjPZsUGcCR2AOEMHzZA8SUfMSRlHHiFb4hyHaq3Yy/WYZSEn5YlCseO42eMt00Qc2TkeRV6mirGNZ1suFkKl+Jj9Mr/0SkJuTixlBqMxjUuKUdGewzGLjO2JVKrlSKMd+3ALEKcRY9tqtbEnSs6Gj0Jii738QHPZtaen9AmLWc7HrGzECeR/yRJ5mXwnq/5t5uvCj+kvE67pq5uMVwVOh8b7n+PLxpcofLVFhzvwWs/s0MrPVj/oD33l19eVNSd79srE8PFlXQZ/OvVdRal+s+6a1e+qzNTPOFYPei93DFzFjnv0w5QePXrp+62dI/aizqbqYcHuGcOS9Slvgpo+wttn/0hp7sU+6Z1DiKhmsIrvv2dmLWL8o8881s9R6XQB9khD/HNmtBO0u/jVlddkq6/O7ZvGH4Rui30WGurnodddGHh/XFS3nxQ4DI6kc3hyw+gja9CtdD8QCKq/qftfpR/zQE0Cv179Ab9G/q8E6QKgrASCrIMiyXglIBEAgBQraZZAIPkJFeJWdHI1F8rTICmtPGQaqAq58tpDKY31ZI3HR5OJvJxQ0wSApKIlkOllA+RqugKlDPAwLq1mKLs776z8bzNllEZGbioCO3Up+hXDlip4MBtX+xdmzWNlGGkLV81kEQtZzgymM4flil5KSW4FCxg1Q0fyQQpdddJFoZ9iuXt/fhwzWMoy5rCIhbxOf8V+t42V8+ltwUyEsZuqJBGp8huyOtZ0vHd9yjIA");
 
 export default EarthAmericas;

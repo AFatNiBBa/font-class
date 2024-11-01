@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `note-sticky` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/note-sticky?s=regular note-sticky}
  * @preview ![note-sticky](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/note-sticky.svg)
  */
-const NoteSticky: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l224 0 0-80c0-17.7 14.3-32 32-32l80 0 0-224c0-8.8-7.2-16-16-16L64 80zM288 480L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 224 0 5.5c0 17-6.7 33.3-18.7 45.3l-90.5 90.5c-12 12-28.3 18.7-45.3 18.7l-5.5 0z" />
-    </Icon>
-);
+const NoteSticky = createIcon("note-sticky", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABXgAAAHsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBMAsGAAE2AiQDCAQgBYMtBzIbsgTIjsN0a3FXzieWIvHw/zrR+75kn0QOgwKAUKAJCEegyVtxGXS64tSuThbm7/+5mTaeRwF+o9DGtKWL2xzN+TyBxHp54Av4wM70BOx2Z5vi0LTHobWUpeV4hONzQh5vxnNqpNfT73i2fGj8qbfHSWoZgOgEgEU7tqzTrKKK+K31DfGbNQiIRaAUyJChnwBzZQL95ErkckEVrVb8DywJIOr45QRy5JiHJYAcJCnPewxs1Nrn2xu1Ys9L3VK83L0REY/0fLWBT7/So92uolF8MvqLPlm8OebLEe3j41Gf9xbi4cit8VlRDP6i0xd/D+p4FlyoOizUoaps1OHppztsVCl74c9WGH2vc+dioaIi79FybaWuz+BduwzuUwcCwTP/HHeg49z/2jQS+OPHf/+nn5FWFc30BdpIIMjGttgbTYimAACkuG5wNBFIpknYaOcVrx8KAiR1BWT66gS5whioGWDaibrCFpnI2wrd7COQtHMJMtPdg1w3X0HNXD85dd0iO0Ds9rPft6TlGl+2VU4aP7GcXQ4TjTsTdF7OKaeVkddTYxQcOu6C86465qhTrirysnX+Necst4hlvqg0yXgTlWYr3fn9/nbHXHbFKRecpzVzlOuNka7b/aNAT5hysliSiNS4juq4Ky9EvgUAAA==");
 
 export default NoteSticky;

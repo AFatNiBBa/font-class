@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-bubbles` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-bubbles?s=sharp-thin hands-bubbles}
  * @preview ![hands-bubbles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hands-bubbles.svg)
  */
-const HandsBubbles: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M392 64a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-64a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM0 96l8 0 64 0 8 0 0 8 0 32 0 25.7L160.4 22.4l4-6.9 6.9 4 48.3 27.9 12.4-21 4.1-6.9 6.9 4.1L298.1 56l6.9 4.1L301 67 289 87.3l.2 .1 48.5 28 6.9 4-4 6.9-.2 .4-16.3 6.8-8.1 3.4 6.8-11.8-41.6-24-38.5 66.8c-10.6 4.9-20.6 10.6-29.9 17.1L283.1 65.7 241.8 41.3l-8.2 14 .2 .1-4 6.9-64 110.9-4 6.9-13.9-8 4-6.9 60-103.9-41.6-24L78.9 195.5 64 221.4l0-29.9L64 136l0-24-48 0 0 24 0 90.5C16 283 45.9 335.3 94.6 364l1.4 .8c-5.1 2.9-9.8 6.3-14.3 10.1C31 342.8 0 286.8 0 226.5L0 136l0-32 0-8zM325 512c-34.1 0-65.7-10.3-92-28c2.1-5.2 3.7-10.5 4.9-16.1C262.4 485.6 292.5 496 325 496l147 0 24 0 0-48-120 0-8 0 0-16 8 0 120 0 8 0 24 0 0-48-152 0-8 0 0-16 8 0 152 0 8 0 24 0 0-48-16 0-8 0-160 0-8 0 0-16 8 0 152 0 0-48-24 0-183.5 0-8.5 0-3-11.9 8.3-3.5 44-18.5 22.1-9.3-18.6-44.2-22.1 9.3-75.5 31.8C211.9 232.9 176 287 176 347c0 3.6 .1 7.1 .4 10.6c-5.2-1.9-10.7-3.3-16.3-4.2c-.1-2.1-.1-4.2-.1-6.3c0-66.4 39.8-126.3 101-152.1l75.5-31.8L366 150.7l7.4-3.1 3.1 7.4 24.8 59 3.1 7.4-7.4 3.1-29.5 12.4-7.4 3.1L504 240l32 0 8 0 0 8 0 56 24 0 8 0 0 8 0 64 0 8-8 0-24 0 0 56 0 8-8 0-24 0 0 56 0 8-8 0-32 0-147 0zM128.9 328.2l-.5-.2 .6-1-.1 1.2zM192 448a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM80 448a64 64 0 1 1 128 0A64 64 0 1 1 80 448zM528 144a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-80 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const HandsBubbles = createIcon("hands-bubbles", false, "data:font/woff2;base64,d09GMgABAAAAAAPAAAoAAAAAB7AAAAN1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXCFPAsGAAE2AiQDCAQgBYMtBzQbwAbIPgxwQwYOrjWQRrUGIfQylTWe3al2fJvxN/BVgn9wv9dzk3zKK0OKMCZyQKRYjuUceyIjakfwMO5r3tpNrmTaBIeyjTokdjhevQancyjXpMT8D65592+x7OJoGiZo4gNuTTzSpVzt++DNzfZtINOb2TQq8KjAz8X3uPLLjrnBJmWnZYj6erOIx/+7ulS/2HsA19IA4wF5wlLTCuZBUihP6V3gxwN6sVotIB00mvEX8xzNe3iw+oW2A3Dx3UoM5grxA5zLFugXhcMYNhl8GirwocPmZ0zizXt8H/ExEXqjBQTQMIBAwAILygjAQJZAGScAxxH+RGLs/8AqCABKw6eMdQ5EUA80ge79wUiluFT6ppVEenpubhRLd7OzY37NbVVvneSdBd5XdPLWvCh71WCLs32EiOajMPJjXJRmTJTKi6KQI9iowugfM+OyOET/hksUn+kqGPLMkdGi8FFeiE557oRcGPu9D/2FVc97Lsm+SnYkeS9l3EHbD4iGaI/amBmv3Zc6h4tlBd58byoQ7mFkN1dtlIoiRNIpy09cnhX5wmDWVeti/vKNZtuqIvdcp2PXjPbNeWjT01Koq9RFXMKp0oq+yhqkbs1gZgUV7WxmxWyl+vKPv7fJjicn8yWDSDu09ClryP3OTDOSUzMISky5AO1W8J5L1xaS3tsziJxPhy5scE39iK5343HcMehtyIrePosasOyapZvwnUZfRToVWaB5bHQU7JhdO3p221CQHLvlzxplzQJWHsHejCzJy35wnWD3oll3mqiiZ9p2Ty0opdMnVMKFrc30WHz5aZI0D99bxn200Nt+9Zb7ZON8E6KvoowkQyUlK7qchTt3EQUa2M3afHhgs0fmW5P//c5ku6c+cRwczyshbf2FxgGAgHDyU2uZA/9n0AaAfw8+u/r/3aR80hNAkgEg2LYEFiYNBVBbASBhYrfqCY8aurpL8dU0V7dqxQPJkDgVBFilssDxWiCmQi9u4YIZLKWkkDyLYDDSbAOrt0Pg5HkGMQO9jcflhQUjAQiEn9hco5vkqHEh4PXrk/rRkkKEDM4aTekXh+wH2eLAU1lti812WmWldXY2TNtNSu2yyegpx1HfDbpp1ynoL2yu3nXNpkzi2uFww+J2PQYIx6uNdk93b8JRw3faXZZhoKR0OM9oW2wvX75x1Q4A");
 
 export default HandsBubbles;

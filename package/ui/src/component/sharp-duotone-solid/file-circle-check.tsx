@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-check` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-check?s=sharp-duotone-solid file-circle-check}
  * @preview ![file-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-circle-check.svg)
  */
-const FileCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 38.6C310.1 219.5 256 287.4 256 368c0 59.5 29.6 112.1 74.8 144L0 512 0 0z" />
-        <path d="M384 160l-160 0L224 0 384 160zM288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm222.6-32L488 313.4l-11.3 11.3L416 385.4l-28.7-28.7L376 345.4 353.4 368l11.3 11.3 40 40L416 430.6l11.3-11.3 72-72L510.6 336z" />
-    </Icon>
-);
+const FileCircleCheck = createIcon("file-circle-check", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfgAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBbQsIAAE2AiQDCgQgBYMtB14bHQXIHgdurDZnxclyxcPza72eO292A0ATZlZAih2pfB0AblnokC2pukD+Pz9kiKT69Pfz/FsV4ON/X/ijVa76PAow83wCA9zNvi1SaC20mdp2V2ZBKflJWhppefy2x++6A+TxNZ1UIruc/Ynz9X8A4y9NnCRTJQGI2gAYvXDudK8/xacs/vxxn/jTNATEGFAIJCQ0F2CYJNBcrkAuF3zKfuBT/FAQQJRVOHHL/mEXYTUgB5kk8rxSsyYNqpVq5AuqlapurFqtasT8ecd6Rtwa+qza6cFPut9wtNv1QY+rnhrytMfNWNilc5f6MSu6RMPoFA1iuCMbxUIjiVZWE9VCvB/2vDia/QdXj1Kbq7Wv/uPPDX860qoCN3Hlyso7FhT16nboULdeUXQkdTH5odUGn7rmjyC8ZoOnDrpWO3Gip15/gltUqNDRkeHdanTv17/jVIBAcOpd51Y27P/K1TLw5el/61f/eJ2Nyq6isgwEqduPbpZloyDyA8hncUAb7oc+IZAMleCnVndBgFAVATJlVQVImqktQK6qrgKUtNRfgLKq5koiryLUt3yCTHW7QTLAIZCr7x4oGeaXQln9SPalWIfyeZc5gULjlxW9e/QqhhTbuqGajFTmhxbXoU4HUl9n8LXBTjvss946m+0j3B7Ty/ttN+FEjPdFhd566KUwRCFuvZoLsLDHXpt5Xb7IUMX7XCcHzqM7QzTTRPtYkyQii9REmd3uv+LY3ZXV7a6tI5qxum4CAA==");
 
 export default FileCircleCheck;

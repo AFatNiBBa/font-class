@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-music` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-music?s=sharp-solid comment-music}
  * @preview ![comment-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/comment-music.svg)
  */
-const CommentMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 240c0 114.9-114.6 208-256 208c-31.5 0-61.7-4.6-89.6-13.1L16 480 56.9 370.8C21.3 335.1 0 289.6 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208zM352 128l0-23.1L330.4 113l-128 48L192 164.9l0 11.1 0 32 0 81.8c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-100.9 96-36 0 74.7c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-128 0-32z" />
-    </Icon>
-);
+const CommentMusic = createIcon("comment-music", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcQAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBdQsGAAE2AiQDCAQgBYMtBzQb+QTIjsQ4FvGJMFHEw/+v/es+dyYAPGFGB6QA2P0VFxd2wC1LYtfqlyy17+Pf+nnzKMBnFMp10aUXX4D3NU+gJdLS1jwLKAssw76Afd0mI9CjCl8JMYqIji+PrwPyeJIdU450Lb3HmfbQ+Fsjx0gqZQCiJgBGzp891csf4oeId6WIdyYjIEaCQiBDhqYCDJEJNJUrkMsFP0SpRP9/BQFEeeKRQJ68S7AR7PciSXneom+VctXyeVXKVV59d0jE0wkRr+cc7zcn5seX8x4MfzH53fxvJr4Z+qzlvBBtYk7UDSHE5crH616se6nepSonGlxpEDHfnxGtymqW/dvy/br3Sp8qNaf5DY6P1/3hJTpssS4mMwaczPGO31Cz0p3tDWTvfAe7u6CKwiw7K9b9/nW1aq+/r1sWrbW8tcmDaw4pgEBwYM3v/y2vMeT/ilUS+Onx/8KvqPRDkspQUQJB1qXEkgQSAQBIsU+rBIFkjkTuWtVlAUJlBEjKqyxApomaAuQq6yxAOc31FaC8ymbLRF5JqGtpB0lVO0Gmn/0gV9cjUM4Qr6zy6kYWYlSAUD+8+HEWGjtX9OzWoxhUTENKRw2Rx4OLbanDPi51xKZ1tttmj7XW2GiPQXaZ6u611bgVPNaLCj1100NhkOI42a/Ps9Yuu2203bY6ZbDivtbBvnVzR6iJoPbiSRKRqj1qsWv4AQAAAA==");
 
 export default CommentMusic;

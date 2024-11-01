@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crutch` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crutch?s=sharp-regular crutch}
  * @preview ![crutch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/crutch.svg)
  */
-const Crutch: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M340.2 18.2L493.8 171.8l17 17-33.9 33.9-17-17L306.2 52.2l-17-17L323.2 1.3l17 17zM151 215L287.4 78.6l33.9 33.9L249.9 184 328 262.1l71.4-71.4 33.9 33.9L297 361l-4.9 4.9-6.8 1.5L148 397.9 52.2 493.8l-17 17L1.3 476.8l17-17L114.1 364l30.5-137.2 1.5-6.8L151 215zm143 81L216 217.9 189.9 244 167.6 344.4 268 322.1 294.1 296z" />
-    </Icon>
-);
+const Crutch = createIcon("crutch", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYwAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBXQsGAAE2AiQDCAQgBYMtBy0b2gTIHoex22RJF81QPgon8fDPWr/7Zmb3uyGDuzaaJmgWqiURLeUfKocGeZMZ8iHfD0MmrqkfZU8PmMSPEm2p7/+LtIg4n8DOm1J3PmudDWyiON/TXqiUn74t6kujqvNNGba7QBavYgWSuwnclC+NPzpcJlFIAUQ9AOZsWrfC++7ojvhVekL8sgwBMQfkAilS9BBgulSgh0yOTCbojlKJ/wNzAogiXDcBGQpYgn2ADCTSLGsYUFVVqMk2hp2VhzZs3DAkpsfQ2OjCWTFk/SYumBHrY0NsCrGaCVzPHxwzY1hsAtqIDRvFyVrPZ4b1vVd/728Osu7hXeTQAMnXwOvPU26DhQutWJHsBv1J8+12vZddu9BAKe51XdH8G6tX4IZ3teyzr8VdIBD8+1X5bVfT/5dXJeD3S8L7ovQhSsk9lEtAkA4vDbc9IUSUBAAgiYv6KstCYo4UPrXaLQFCJQIkiioFSHWpFyBTaZgABb1MEKCo0jqpyCqEZjsanah2hk5NdInONHtEF0z3LVbUHKlZqUah/tVlLRzhBYvyMSNH51PzbU3VLEWOs9PyY2fwRd8zhI466JSTzjtgvyPOD9RZK5IXnLBQIxf4odwYI42Wmyq/br7u3+iAs8454pSTeZ5p8vfBYBf14UPIT0BwLDfx2QVJcd/ZC+f3HQYAAAA=");
 
 export default Crutch;

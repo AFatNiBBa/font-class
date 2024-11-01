@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-simple-max` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-simple-max?s=light gauge-simple-max}
  * @preview ![gauge-simple-max](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/gauge-simple-max.svg)
  */
-const GaugeSimpleMax: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 480a224 224 0 1 0 0-448 224 224 0 1 0 0 448zM256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zm0 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0 32c-35.3 0-64-28.7-64-64s28.7-64 64-64c17.5 0 33.4 7 44.9 18.4l106.9-64.1c7.6-4.5 17.4-2.1 22 5.5s2.1 17.4-5.5 22L317.4 333.8c1.7 5.8 2.6 11.9 2.6 18.2c0 35.3-28.7 64-64 64z" />
-    </Icon>
-);
+const GaugeSimpleMax = createIcon("gauge-simple-max", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABggAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCFAsGAAE2AiQDCAQgBYMtBzcbGwXIhofn7R47980E8ASC13AdVOsq9b849TznoQC+UdDGtKUByQac8zwCERur01uCgtV0gnvfNjxGSeFphIiQRDSe49bpCnm8G52UId2dvsON7UHjbw2cIskzAFEdAMPnzpzso0txKeK70uvEdyYiIEaAQiBDhsYCDJIJNJYrkMsFl6JUwv/AggCiLL5zAjnKYhP2AHKQ5HneqFGtRpXKVMnnlN9XcfaXEyO+7flqHO/xyoRvxnw27qtuLznW/eXxX4/Ofp8c8f3wjx0b9tGk72b9MeWHEZ/E8ZGfTv1xbrpYL+LOOF73jooXat/mWJ3bK3miQ8QzDe/t+Gzbx9vPjTvr3F57VtzurnZPtWrxTPVn/m3+3ZrvlJp91InOV38bOPC3q507ffRRJ5m+NNpN3Dyw8ciRjQfefNNo2o3OY1XPca5qd+FJxUM1qFGxYo0aDz1UfcNQn19c9FaW2lUwtwOB4OFb/hy/tNqga+UrJXDlnf+v0ctI6aMkPYPyEgiyTqVOFiWQCABAij1aJAgkq+R4tbI7BAgVIZCUVREyjVSHXEUdoYymehOLKzNlIq8g1LYYQFLZdsj0cRhytb0KZQzypVZW7chCjgoY6sIXP0Yjo/uK7l26FQOKqWvQUURQe2CxLLbbk1LtYdIaW22xy2qrrLdLYTtMNnfbbIyHjvZEhe666KYwQLEdbIfnWG2HndbbakvtMlBxXm1nj1/cHpSEcXtYSRKRqq9dvnvt6s6vVqivHoV9AAA=");
 
 export default GaugeSimpleMax;

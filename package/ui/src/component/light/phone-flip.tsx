@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-flip` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-flip?s=light phone-flip}
  * @preview ![phone-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/phone-flip.svg)
  */
-const PhoneFlip: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M136.2 275.2c16.4-7 35.4-2.4 46.7 11.4l33.2 40.6c46-26.7 84.4-65.1 111.1-111.1L286.7 183c-13.8-11.3-18.5-30.3-11.4-46.7l48-112C330.8 6.7 349.7-3.1 368.4 .9l112 24C498.8 28.8 512 45.1 512 64c0 0 0 0 0 0c0 236.7-183.5 430.5-416 446.9c-4.5 .3-9.1 .6-13.7 .8c0 0 0 0 0 0c0 0-.1 0-.1 0c-6.1 .2-12.1 .4-18.3 .4c0 0 0 0 0 0c-18.9 0-35.2-13.2-39.1-31.6l-24-112c-4-18.7 5.8-37.6 23.4-45.1l112-48zM64.3 480C293.9 479.8 480 293.7 480 64c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c0-3.8-2.6-7-6.3-7.8l-112-24c-3.7-.8-7.5 1.2-9 4.7l-48 112c-1.4 3.3-.5 7.1 2.3 9.3l40.6 33.2c12.2 9.9 15.3 27.2 7.4 40.8c-29.5 50.9-71.9 93.3-122.7 122.7c-13.6 7.9-30.9 4.7-40.8-7.4l-33.2-40.6c-2.3-2.8-6.1-3.7-9.3-2.3l-112 48c-3.5 1.5-5.5 5.3-4.7 9l24 112c.8 3.7 4.1 6.3 7.8 6.3c.1 0 .2 0 .3 0z" />
-    </Icon>
-);
+const PhoneFlip = createIcon("phone-flip", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABjwAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyDYwsGAAE2AiQDCAQgBYMtBzEb5AXIjtRgrTKL8fD8Wq/nvpkA8IQJJ2EFBG01oAPAlQX7W8UytlvS7/N/uee3Fp2dfhC5OVrDN9De3EsgsV7eBgqkKCvLJUCPJPOWkypSRo8kE82kx689fu0hj49igFqk51MFd+uTxj/auUSSZwCiKQCmrl6+0Oc1URNRqb5DVMxHQEwDhUCGDB0FmCAT6ChXIJcLaqJaDb+BBQFEbUQmTu7O/Al/AnKQpDwfc7NBrUb5Kn9V/dWv9J0Yv62eFK93WB1P2zxttTJeanc+zsfPK5Jwo+X5CN2on3Mvt18VTxSJNqtX6CMR7ZvPRzig9ap40nJFPGo1MV5r+/OKF/tN4jdaGY8bnI9urzd9/b+ulV0VV998bWQdM/v0mXnY8hcGlzZ8866yjd86g1OjtozaunEC/p6P16uzBaBePfj9dJvSwPUHvikHz64cs3E0G0eN2sjojY6hR6m9tGxjSc/BpZbDz2n28oCFCwfsi7aGTy0HW1q7TalVbYBAsPO5V97b3GTCs7oNEvjjw8/6mdX/q58n6XXUlUCQDagOsCERcFYIVExxUje8USD5SoJ7beiJAKE+AiS11Rcg00FTAXL19Regls5GClBbfctlIq8ntLRxgqShIyAzymmQa+ktUMsE3xVqaxmZZct2KX8sM2ZxaOamYuigIcW4Yts0FGMV8/L4Qh30ORmH+mKnXUqHHLfTDnsdZ/xRC8snHDRL4mb6oMJQgwxRGKc47rxuX2Wno47Zq3SorDNecT/bx0l5cl+8MAGGoYokEan+2y8M3HVg72E=");
 
 export default PhoneFlip;

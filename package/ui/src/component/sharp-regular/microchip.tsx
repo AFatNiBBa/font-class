@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microchip` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microchip?s=sharp-regular microchip}
  * @preview ![microchip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/microchip.svg)
  */
-const Microchip: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M184 24l0-24L136 0l0 24 0 40-24 0L64 64l0 48 0 24-40 0L0 136l0 48 24 0 40 0 0 48-40 0L0 232l0 48 24 0 40 0 0 48-40 0L0 328l0 48 24 0 40 0 0 24 0 48 48 0 24 0 0 40 0 24 48 0 0-24 0-40 48 0 0 40 0 24 48 0 0-24 0-40 48 0 0 40 0 24 48 0 0-24 0-40 24 0 48 0 0-48 0-24 40 0 24 0 0-48-24 0-40 0 0-48 40 0 24 0 0-48-24 0-40 0 0-48 40 0 24 0 0-48-24 0-40 0 0-24 0-48-48 0-24 0 0-40 0-24L328 0l0 24 0 40-48 0 0-40 0-24L232 0l0 24 0 40-48 0 0-40zm216 88l0 288-288 0 0-288 288 0zm-96 96l0 96-96 0 0-96 96 0zm-96-48l-48 0 0 48 0 96 0 48 48 0 96 0 48 0 0-48 0-96 0-48-48 0-96 0z" />
-    </Icon>
-);
+const Microchip = createIcon("microchip", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABiQAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiDJQsGAAE2AiQDCAQgBYMtBzAbpQXIHoVx41PiIBzCVru0ZTVb9uAS0fdr//acvfuZghKAdSTKL3SUShQJBeQAhUr52FexqUhU6/eMzX+4x3sksUM8QyOJycTamrelvujN89095H8upzeeH83n3+jIDmit9sY1bIypCQScxeWBZVlgmSZggTgdoWw79vQrUobMItXjLB6PD2h5yZOeelL/uG8fmp823VD6DgBZAADX79aq+BzRKPkb3pJvboBArgP2InTosBOBS5SCnVT2gqYJowxD/w9kCJAx6GsLNIzhHb4CGiitqR4n9c7p3qxqTveGXmSKEJkycGLaKDosEdE47jJywmAQHZYQg3K9UZ3CREoy15F9k7E5NW3Aw0q7nwz+FwsvfvW//Pf+qW/DJ/AJ8B0zXhsC3z6p8UHIRoxDDPXZ5qPfW6wmWnR7NMYE0e24IBgQ8uB5gCD8P/vFyHrp98S0AvDjE/YzMnyWeoEJBUJ3aDikX6AIAKByxV8QlDcafdcZDwXEFALKmCkBnR1sCDRTDiLQ2y2DwJgpNyml6RErBg5lxj3onHENzYpn6F3ylR+zkq50lcJT/hwzKytevsSJmHCRL/sOtRqluV/i297A1ZgLchNLx45cWJjbuFjIM9XSpYNKRJR9EUuIEayI06PPZlPyZ85t9nr+nBJ+PxlwFa8OElBQzhNaSpHSf/O52XpzAgAAAA==");
 
 export default Microchip;

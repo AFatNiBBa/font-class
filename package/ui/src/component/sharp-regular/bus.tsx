@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bus?s=sharp-regular bus}
  * @preview ![bus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bus.svg)
  */
-const Bus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 272l352 0 0 128-32 0-67.8 0L144 400l-32 0 0-128zm0-48l0-80 152 0 0 80-152 0zm352 0l-152 0 0-80 152 0 0 80zM368 96l0-16L208 80l0 16-92.5 0c6.9-6.7 19.2-15.8 39-24.5C183.5 58.8 227 48 288 48c111.7 0 157.4 31 173.1 48L368 96zM88 448l8 0 0 40 0 24 48 0 0-24 0-40 220.2 0 67.8 0 0 40 0 24 48 0 0-24 0-40 8 0 24 0 0-24 0-168 32 0 0-128-32 0 0-35.9 0-6.3-3.1-5.5C490.3 47 429.6 0 288 0C221.4 0 171.2 11.9 135.3 27.5C100.2 42.9 76.9 62.7 67.1 80.4L64 85.8l0 6.3L64 128l-32 0 0 128 32 0 0 168 0 24 24 0zm88-80a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm224 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Bus = createIcon("bus", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjQAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyDAgsGAAE2AiQDCAQgBYMtByobfAXIjtRW+YViEg//P/ef+9zkfUiG4Q4jFhwQq9YBoBuUrQKysyqrsEO0Kt/N/zWf3/NrwB944ocWTUWltwbPfD6BAUZb6r09Hw4kbUgD55nbYkWDKFeGyJiiQ9TQFurDX6CMH+NJDdJL6TqeKOvjhp7uJWkUAEQH7pUF2zat8d1v8VvEtf8/Jq5ZhYBYALJAgQJ9BJitEOijlFEqBb/F///j/8BMANEEvzeBEq14FW8BSpA0l2Vra2vnJZ0714225da6UW1r26atqNpEhKhDVG2ruoqow9YQVYgqXhj25bYfZnzctTpcV7UQdURE1MJGhF3p9d3i5ZVXt36//HKPLuFKUAc+YNsj3SNeiLu6PV893OVZd3Z9jmr0swe+0eGNP7l+9Lpz7+4Hfqc8/87x6/EXrffi/hcF671o/b47Ohz0ig52e/injI3On3t7T/d9LXhouB7G62G4nxZL+pYePbwmu1M2WJMhrg6fcTwOxo5lN4ZoMng++zU99Ni2rt2DPNiOy0KP3/rrgUBwftTfb+xrP/uvljqBP774erv8/3cppzfQIoGgGP3/aLvTfFlOWQAAUtxqoPFBgeQlzZCmjecFCBUCJE0qAYXeOoBSZRRo6GeKtLl+k0KUrUIXewQkbVwAhaluA6UuPgQNs13KN+kShacqfqZ8J2Yu1cSSaXnC2PF5Zl6WNdX5pDQ+K287w2+NbSNor6POOetmRxx2ws2Kv2hN6RZnLLXIJb4om2Cs8bKZ8nHtcftWR1x0kxPOOZsnmSW/j4e71e49gvwEohMlSfLD4uDgLTcBAAA=");
 
 export default Bus;

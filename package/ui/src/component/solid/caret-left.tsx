@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `caret-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caret-left?s=solid caret-left}
  * @preview ![caret-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/caret-left.svg)
  */
-const CaretLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z" />
-    </Icon>
-);
+const CaretLeft = createIcon("caret-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABSgAAAG9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaG0LBgABNgIkAwgEIAWDLQcxG24EyC4G7MblIlwQaQsoMgk1DDJ+Zf7UMh8P3+/Xzn3/YSJJLRO1ZK8McdM2JCRopLBL6AyVIZKxf069n+EBvBeaXZsTC3Vs28NqIezWgtSqlA4A1/3ffwi17zPkC//vb57/8yjAZxTa2LQ0kMWL5jxPILEujzQLLNMNzpm7ulbzEO0rLWVJnl4jj48VcuwWkRrSa6qinHcaPwZEJA0FgGgHAMeX9RC/FCr/IypOQEAcA8YJChQYJmCPKjBMMw6yLPjy8z+QEEDUEmcCeYufBJMAMkgi5+4mvSVfNNU0Xj6JeOxry/PMfUCRl+lbb8v8tH9+VSdV9e+lFlpKDxDPWhrk+dkYAAJB+ePts7a9v5oS+N6nUyxW0gf1EgiK5f9lg7gHR7FCAAAp7pkBBJJuCrba7EmA0IgASa1GAQpDDAKyRksE1BhVIKBWo1OqyA1Ct2GFpNkVFDZcIev2hRp7/kat7lCvB+1c+neWEGjkTzGTTLPKbqAwHifjsMZh2bqEgo1FTGxtnIyNzJ0UfhDaZ2uBhfkORBlJaVTF6fh2vmXs4Ghua5PG1HC9brnY9TY0hRCu8CWJSI0nTzo9HAAAAA==");
 
 export default CaretLeft;

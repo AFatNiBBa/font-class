@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microblog` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microblog?s=brands microblog}
  * @preview ![microblog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/microblog.svg)
  */
-const Microblog: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M399.36,362.23c29.49-34.69,47.1-78.34,47.1-125.79C446.46,123.49,346.86,32,224,32S1.54,123.49,1.54,236.44,101.14,440.87,224,440.87a239.28,239.28,0,0,0,79.44-13.44,7.18,7.18,0,0,1,8.12,2.56c18.58,25.09,47.61,42.74,79.89,49.92a4.42,4.42,0,0,0,5.22-3.43,4.37,4.37,0,0,0-.85-3.62,87,87,0,0,1,3.69-110.69ZM329.52,212.4l-57.3,43.49L293,324.75a6.5,6.5,0,0,1-9.94,7.22L224,290.92,164.94,332a6.51,6.51,0,0,1-9.95-7.22l20.79-68.86-57.3-43.49a6.5,6.5,0,0,1,3.8-11.68l71.88-1.51,23.66-67.92a6.5,6.5,0,0,1,12.28,0l23.66,67.92,71.88,1.51a6.5,6.5,0,0,1,3.88,11.68Z" />
-    </Icon>
-);
+const Microblog = createIcon("microblog", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBYAsGAAE2AiQDCAQgBYMtBzAb4ATIjtRG+UVWEg//rb11X3X9DAB1ooaJHZBjlrSr1gGSy1mHkqBq36dOPc95KICLPChr2NKALKC9zyMQsfStCzzaacVaRbHWzn5h8DgLSSifZNg+w+YKOe7ERRXSrfQhLoQPjZ+0c5qkUgCIpgAYt2TBLK/WRm3Eh/8jPjQDATEelAIFCnQUYKRCoKOsRJYFtfH//+Y/sCSAqIIbTiAjYw7WATJIUs6dujeoNMqLG1Tqb3hjydfzP1/85dxPF34177NFZ4bcaPXspDNtTrR+0uFOj8Uz58xcFNdaXm09O2YGEa63WRKzg3CjwZJYEoQzrRbFoqDE42qeNH3yS/WHmz90ftGXpsaiH75bHUn97gdWFrfD3VaNHfBWh9wi6dq48ZRJ1+4A1HKioqZfv0ce6devpojAO6pzizwltJmgqOQWmWZ63KEaCAQP//qmXNNk5K91GyTw/fP/Lnum/2vj5fQEdSUQFD3/72llvCpJ8bIAYKU4rEb4JoFkigTv2tB1AUJ9BEiq1Beg0EFTAbL6eghQ0dkgAarUt0Ahcj2hpVUNTRrahxYGO4JmLT2HVoz0jlWlZRSKxakF961LntxDk9bKfr37lsPLZazyusK4+YhyW+162Na6EdBme+x20CYbbXOwQ/ab5R6yy2QJnuSHSv301ldpuPI4e95ebJP9Dthmj91+yQjlfbOrw3J3NzISkPbnSRKR6r1IRhkBAA==");
 
 export default Microblog;

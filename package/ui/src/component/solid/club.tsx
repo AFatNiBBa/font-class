@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `club` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/club?s=solid club}
  * @preview ![club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/club.svg)
  */
-const Club: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M380 160.1c2.6-10.2 4-21 4-32.1C384 57.3 326.7 0 256 0S128 57.3 128 128c0 11.1 1.4 21.8 4 32.1c-1.3 0-2.7-.1-4-.1C57.3 160 0 217.3 0 288s57.3 128 128 128c38.2 0 72.5-16.8 96-43.3l0 75.3-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32 0 0-75.3c23.5 26.6 57.8 43.3 96 43.3c70.7 0 128-57.3 128-128s-57.3-128-128-128c-1.4 0-2.7 0-4 .1z" />
-    </Icon>
-);
+const Club = createIcon("club", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABZAAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBQQsGAAE2AiQDCAQgBYMtBysbvAQRVZoTyH4k2LaK1zvY0EZbtsUwHBgWxZMIKltlVs/sxf/sM8wDMQnMkwnsMTjGhVyFTNkbAB1S+45v6uZ551GAbxTaWLQ1kKWT5jxPIOBocBTI8iywTBOwdJtYUEcRQpfECJOQjtPja4U8vspuq5DeTX/j2Xho/Kuj25LGGYBoAYAZ61Yt8X1DNET8VVP8ZRECYgYoBTJk6CLAZJlAF7kSuVzQELVa+QeWAog6fG0COTLMwyJADpLI82nVStN8bbVS7Hs73pv67dyfJ39dXm/7sEgT9VO+mfPbNFHEwzavKYtvqtV41P7tuNHuraKICEP8rpdj08Oi5/st3v+Pv/f+7VL3qS0ro2ctXz5rdKXl1JQyhiP18xcpNbt/v9nkrouptMj8+otdUgICQYtJnzzY1nzy/42qCfzzZfevqPZ9kt5HIwkE2eDa4M0JJAIAkOKsngkCyTQJ37WJtwKEAgGSOoUAmc5aCJArDBKgopsxAtQprJKJvLHQxpYFkiZOgMxYV0CujS9AxWS/qXXaRBZIRBgQ/7hYPhehOUPliKHDy4nl0SNkbGCtO6m8FvqfrZkBNGvvsaOn9+w+cBqQk0uMM0fmWvCcF8sRQ4eXE0t3+M6uBfXkqQM67e8zqXyv9D9rlw8gOWHUka4kESkPTwA=");
 
 export default Club;

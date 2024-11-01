@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-e` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-e?s=light circle-e}
  * @preview ![circle-e](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-e.svg)
  */
-const CircleE: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM192 128c-17.7 0-32 14.3-32 32l0 96 0 96c0 17.7 14.3 32 32 32l144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-144 0 0-80 112 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-112 0 0-80 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-144 0z" />
-    </Icon>
-);
+const CircleE = createIcon("circle-e", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABegAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCCgsGAAE2AiQDCAQgBYMtBy8bCQXIjtRG85iVCJ5fK6v3u2cDQJ0oRnBAKOyqgGM8IBuQRyp68rMWeOpUzuU8FMA3CsrYuDQgC3Cv8wgEcGzvsgrVClbTUsG1uk3mYUcYvhIiJBEdn8dbF8jjQXRWIt1KH3FhvGn8rZmjJHkGIOoCYMS8WVM8/RJfIj6WIz6ahIAYCQqBDBlaCjBYJtBSrkAuF3yJcpn/AwsCiAr66yeQo4T12AHIQZLleYsWHWuUauVza5SqL3o1IeJdjzsOdr89/u3o1xPf97wbh3rdm/RhXPprWsRPo17EoZHPp36e+/vkj8OfOjji2ZRPcxaebhhxlRAHG12rUSNuNLneuHpE2APtKutW/tv249qPyp52psv33wcN+v17l85PnYvPv4xxkUuDWo4a1XLQpYtjiJsGhx2ofZKTtZdbznCeu+hL7dpfLppuO6DtbHweBII9A9Zmy+oM/lG1RgLf7v//A32LyiepElUlEGSdy50tTiARAIAUe7VLEEiWy+ir1nRdgFAdAZIK1QXItFBXgFx1nQQoaa2PABWqmyUTeTWhoSUTJDXtAJm+9oFcQ/dAyWBvtAoNI6s2ulbot17CWA+P6St6dO1eDCyWLmMKiOztQcW22H5vS3XAqbW22Wq3NVbbYLdDd5pi7rHF2AwZ44MKPXTVXWGg4jg47s+1xk67bLDNVukySHFfbW9vXtwBSqKYPVmSRKSqn3KkLmsA");
 
 export default CircleE;

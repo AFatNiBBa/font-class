@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `desktop` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/desktop?s=light desktop}
  * @preview ![desktop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/desktop.svg)
  */
-const Desktop: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 32L64 32C46.3 32 32 46.3 32 64l0 192 512 0 0-192c0-17.7-14.3-32-32-32zm64 224l0 32 0 64c0 35.3-28.7 64-64 64l-149.1 0 10.7 64 58.4 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-72 0-144 0-72 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l58.4 0 10.7-64L64 416c-35.3 0-64-28.7-64-64l0-64 0-32L0 64C0 28.7 28.7 0 64 0L512 0c35.3 0 64 28.7 64 64l0 192zM32 288l0 64c0 17.7 14.3 32 32 32l167.7 0c.2 0 .4 0 .6 0l111.5 0c.2 0 .4 0 .6 0L512 384c17.7 0 32-14.3 32-32l0-64L32 288zM234.9 480l106.2 0-10.7-64-84.9 0-10.7 64z" />
-    </Icon>
-);
+const Desktop = createIcon("desktop", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABegAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCIwsGAAE2AiQDCAQgBYMtBy4bIQXIjsN0OyvTNGUuJD9BkbasR6u7s7Vm0BNRZIgegCNk2uyxcoIUI8fHOGDxpnlMnXqe81AAn0MQtLFp6eKxea6O8woUONbamEAFKrVgEcVaO/sXBqXbJH3iQ4bND5srsPqslsTAHDbvgZ35R/WbYuvAYAMAAJQFAAD0e9Uooh/6Ib1P3ge9ZwQQgPoD4AkIgAAoIwB6ChBQxuKBxSL4oWQy/Ad6CAAUB19jALBAHFgClgEAC4DBWpvTqTw1jKXb2jDmpqWlp23J2wfKlLS64ICrQaBDTS81dKqnUPvz9+U5d6DgYGGoBnK60PxKiXDi0RZXm6TrfLPLxcwmVuXvD0Ot9rR7bmvhQUkZNaEL68vJ17+SdeVvvfdT30uejHgmY9OmjAiIqOf2+e6974vLzj61n5t09yMj48fQD+zvzk32c2oYcX3xIl2IpBFVVvYFvnvkEgDzAVyi8/WFty9n8ptuqnESAAQIlm7m9HGZPetSQgPAryf/68rrkpHpa64AKRgABEHLZEuj2xcgoAUAptFS6isLI8AwhwXAp6ZxAAEgHCAADHEcAiCgVBYBYHG0IABiVOhEAMRxVAmQTUXkGdOAIY0FIKCz5cCS5y6I0dMrM05eAssj7Yb8+MUNltCgfb5d67a+u59mKmVMeNru4ZfFpktjpxkdZKp55lpsislmWCyQhUY5S8wxWIMHWZDXTmtted354/J+ptYUCy0yw5g+36UHf19taqk+3owUAzDbixkMyCReNgA=");
 
 export default Desktop;

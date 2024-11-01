@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-xmark?s=duotone circle-xmark}
  * @preview ![circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-xmark.svg)
  */
-const CircleXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm168.1 61.7c.1-.7 .2-1.5 .3-2.3c.3-1.5 .7-3 1.3-4.4c1.2-2.9 2.9-5.6 5.3-7.9c15.7-15.7 31.4-31.4 47-47c-15.7-15.7-31.3-31.3-47-47c-9.4-9.4-9.4-24.6 0-33.9c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7c15.7 15.7 31.4 31.4 47 47c15.7-15.7 31.4-31.4 47-47c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7c9.4 9.4 9.4 24.6 0 33.9c-15.7 15.7-31.3 31.3-47 47c15.7 15.7 31.4 31.4 47 47c4.7 4.7 7 10.8 7 17s-2.3 12.3-7 17s-10.8 7-17 7s-12.3-2.3-17-7l-47-47c-15.7 15.7-31.3 31.3-47 47c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7c-2.3-2.3-4.1-5.1-5.3-7.9c-.6-1.4-1-2.9-1.3-4.4c-.2-1.1-.4-2.3-.3-2.2c-.1-1.2-.1-1.2-.1-2.4c0-1.5 .1-1.9 .1-2.3z" />
-        <path d="M209 175c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47z" />
-    </Icon>
-);
+const CircleXmark = createIcon("circle-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABngAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCTQsIAAE2AiQDCgQgBYMtB1QbcwXIjtNlNiI2rnj4f7v/2udWvbf6t1kNM6I8RAinf6KORmg4VTpwXM8NR4PYX86Ejviym+LENfUzqEAKAJdNkRwFlnk+gZ2n/qiCZgOa0ExnYFNw2++Iakiw0JAz5HEvu6hCejfdwMve/wDGr9q4SFKTAYjGAJi8ZMEsXz6JJylulF8QN8xEQEwBhUCGDO0FGCcTaC9XIJcLnqSy5EmUZUEAUeW9OgNVVHAVrwFykISU50W76fUqDfLF3pa6Kz7uNtpIjAupOz0txodut9WYGKbREEd578PJEV/Nulnv+Tm3p36z5NGUr2ffqvvczBuTvly46FxExKG3W6kdv2/1yZarXa/3fIvXu2fhVbP17dVasKyzzWNDtKVG25K7kzMe+3T5vHH93vnG5hvuNG7Q4M6dP/zhAncsrGHb+EvTa2hT+9XUqV/VtiHT27XqyU/GQ4KIbOjhLdOmNely587munU3H9lc/nHkSCnfubPlcOSPUls48QcLfXOX5hFJigiAQNDq8cnraxqN+x/rJfDs+p//yn9H5ZdJ+hx1JBBk/cp+ViaQCABAisO6JN5DILNWEnxqfW8JEOoiQFJVV4BMO40FyNXVV4CKjoYLUFXXApnIa4TmVjElqW+fkhnhlJJrrlapGOeHXFXzyPBoQ5PtcTD3jDY8fVExeMCgYkwxWVPaIWaxZ8cWq8O9Duue3tTQZnvsdtAmG21zsCXsN6t4yC4z5vjpvqgw2ACDFMYodjfvuxfz6H4HtGXcuX+esYrzU70cnh/emy4jAYZcSYsuRoqs+X87kf5HwevvD+3+lgPO2xgAAA==");
 
 export default CircleXmark;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pan-food` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pan-food?s=thin pan-food}
  * @preview ![pan-food](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pan-food.svg)
  */
-const PanFood: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M560 256A240 240 0 1 0 80 256a240 240 0 1 0 480 0zm-2.6 96c-38 93.8-130 160-237.4 160s-199.4-66.2-237.4-160L40 352c-22.1 0-40-17.9-40-40L0 200c0-22.1 17.9-40 40-40l42.6 0C120.6 66.2 212.6 0 320 0S519.4 66.2 557.4 160l42.6 0c22.1 0 40 17.9 40 40l0 112c0 22.1-17.9 40-40 40l-42.6 0zm5.9-16l36.7 0c13.3 0 24-10.7 24-24l0-112c0-13.3-10.7-24-24-24l-36.7 0c8.3 25.2 12.7 52.1 12.7 80s-4.5 54.8-12.7 80zM76.7 176L40 176c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24l36.7 0C68.5 310.8 64 283.9 64 256s4.5-54.8 12.7-80zM417.6 320l2.1 0c10.5 0 20.8-2.7 29.9-7.9c18.8-10.7 30.4-30.7 30.4-52.3l0-2.4c0-15.6-5.8-30.8-16.1-42.6l-89.2 89.2c11.8 10.4 27.1 16.1 42.9 16.1zM496 257.3l0 2.4c0 27.4-14.7 52.6-38.4 66.2c-11.5 6.6-24.6 10-37.8 10l-2.1 0c-21.5 0-42.2-8.6-57.4-23.8c-4.5-4.5-4.5-11.9 0-16.4l95.6-95.6c4.5-4.5 11.9-4.5 16.5 .1C487.4 215.4 496 236 496 257.3zM197.7 197.7l-32 32c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l32-32c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3zM304 224a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM416 368a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM229.7 293.7c-5.7 5.7-5.7 15 0 20.7l2.3 2.3c2.1 2.1 5 3.3 8 3.3l48 0c35.3 0 64 28.7 64 64s-28.7 64-64 64s-64-28.7-64-64l0-48c0-3-1.2-5.9-3.3-8l-2.3-2.3c-5.7-5.7-15-5.7-20.7 0c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l16-16 16-16c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3zM336 384c0-26.5-21.5-48-48-48l-32 0c-8.8 0-16 7.2-16 16l0 32c0 26.5 21.5 48 48 48s48-21.5 48-48zM320 80c-35.3 0-64 28.7-64 64l128 0c0-35.3-28.7-64-64-64zm-80 64c0-44.2 35.8-80 80-80s80 35.8 80 80c0 8.8-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const PanFood = createIcon("pan-food", false, "data:font/woff2;base64,d09GMgABAAAAAAOYAAoAAAAAB7QAAANLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXiEegsGAAE2AiQDCAQgBYMtBy8beQbIBnrova+v08kddI+yI2Vt/pF6JPPHvTv/O+8CehxoHspYG2RMGmMK/PMAxxoYSAJZoBxbtuW4Bh0ScamIx38++aRhe2qYOgNf/zCGGJjd5llgo07XN+SyDAyeh7GUxnxa9u/dlQc/1IfSs9F1kJfSGRCAWgEQIsADPKAAAdAED/kz8AkBHx/Bh4oi/AeGIABQHMYw7PKBVFAAqgZtHzAk+35+tTT0yUhJTKyYmRy4mPzOfi5mp79eS7rS7Wm7psOzNS71ea3m5a5PubWdX6h9tX+fV7tIz/Z5vdvz/azWZO2QtDh7p3N6o/sL/V/r+lxfp7WZ20GLMrZZm+2sO5kv7SlntZ9FBaOss8dy0O6yTge0uHiks25t9tliaXFeHx13/RH7GhyzVjcq7cjur52ZpwtHVahcYVvWjuzK2pm5PaPvzuztmdsydmT13Xn6XL9tmZna7pyOVzydu6vCqTInKp3JkxZnZWlHxi1XtrLZtidLta2cldrQbplX9mT2zvxBxypIp3Kc9kjfcn0OVpbO1r9e8XRh/LDVjqxSZ9LOfFfy2XHPUv0BWnwOv8/Y2Lz5xhm/f04Ln01zzPCC9l/DNz3pyTdf04LKBGfvBDMI7pwNKtMvgnTDy9qXembOILNnWR6rVOmxzw5Wtj4bDeamvfGQPHJ+GjCA4tyuzTx7yrbLzTCkzevff/hw5s0bT8VGURT17l23bsQWMTE35cMPU4icvlFU5t3uuHp1CUrFanAoCKyF4tCRVINYqZLs2pUTc/RA7zl4t0YIdCGFR0tqvPucl1r9UACBXcTylu7N1Q/GpqWN7aeUDxfxYQoACBDEDjVMHp7a5LcEZwD4+M4PfyMPRw+aReYMkIABQOBViaowxCwCIHYBgNdoHqUCpRytRJIxdxI7sn5hoYAhDgse+aSBj6UyxCiirmBwcm885CciMhgKMCQxEzzqMR98MrgKMZrwhCeODHlviWiOi/5Rk7fzSNteYc1qNcJG4WXWKZ74grW7cTisrzCPqypiIeOYzjTmMJYxTGSOY86iq38uU2kXcbb9bEhNqlGDkEaE6cKtvJ+zzWI2K+iL83RoTPi8uwLz4sYVYTIY11oMNRiQSZgxclrVrw0AAAA=");
 
 export default PanFood;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-one` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-one?s=sharp-thin clock-one}
  * @preview ![clock-one](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/clock-one.svg)
  */
-const ClockOne: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM264 104l0 125.6 49.3-74 4.4-6.7 13.3 8.9-4.4 6.7-64 96-14.7 22 0-26.4 0-152 0-8 16 0 0 8z" />
-    </Icon>
-);
+const ClockOne = createIcon("clock-one", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbwAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBbgsGAAE2AiQDCAQgBYMtBzAb7gTIhofn1/73a58ZRHwguUqDRPJmob6EiVSTb1Lv1KnnOQ8F8I2CNhbOjQtors7zClSsF+8UKtUCVtMKWK2bbvmGlNuSnOglDdvTMHWFPC5ZrhzpWHqMQ3Wl8YtG9pBkGYCoCYAhs6ZNcP19vI94VDpDPDIOATEEFAIZMjQVoL9MoKlcgVwueB+lkv0HFgQQ5XGlCeQoh1lYCchBkuV5kyaNqpSrls+sUq7ysrddI05OfFh57+jHnY9Pf9PlxIQHVfaNe9bt1Kyq74ZF3Jr0rMq+CU+G3JjxevD18Y8r7534dOjNmcuEWdEg6kXdmB4Ng69WCa3Kapb91vLxysf+uGbwV/7ffGjQoEOb//9qsJZt+U8jKtHo1I1hw26calTJCJShVjiym+/rPMZI9/U0aJEvmjiqopoqAoFg3ZQ+nxfV6P9fxSoJfLz4xy/ar6h0PUllqCiBIGtfam9+AokAAKTYqVWCQDJJBp9a1WEBQmUESMqrLECmiZoC5CprJ0A5zfUQoLzKpslEXkmoa8EASVVbQKanXSBX1ylQTn/3gvLqRhZfRHQQv7vYkQqNOFd06di56FssS50MGSwf9yu2udY706gNFq20yUbbrbDcGtsF2WpCvMMGIz14hC8qdNFRZ4W+iuPm+fJMK2y1zRqbbCyn9FPct1rb6W9uAzEhaleJJBGp0lv0O2zauAIA");
 
 export default ClockOne;

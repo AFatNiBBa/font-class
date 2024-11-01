@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-slash?s=sharp-duotone-solid lightbulb-slash}
  * @preview ![lightbulb-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/lightbulb-slash.svg)
  */
-const LightbulbSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M152.4 229.8c5.4 16.8 13.2 32.4 23 46.6c5 7.2 10.2 14.3 15.4 21.4c19.8 27.1 39.7 54.4 49.2 86.2l108.1 0L152.4 229.8zm8-128l52.7 40.9C227.3 97.1 269.8 64 320 64l0 32c-40.2 0-73.4 29.6-79.1 68.2L436.2 315.9c4.3-6.1 8.7-12.1 13.1-18.1c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C496 78.8 417.2 0 320 0C249.3 0 188.4 41.7 160.4 101.7zM240 416l0 96 160 0 0-87.1L388.7 416 240 416z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const LightbulbSlash = createIcon("lightbulb-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABewAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBXgsIAAE2AiQDCgQgBYMtB1obCgXIhof//Ou/faru6w/ofgAcMaMcgVGvCR3NpD3/13x+1nSAn4/g0Dr0vP2wF/18AgNfe6UNaGCzmeJ2Z9vCIcuHJLEkxzfHo+ygSH3z1epId6VvcQP/D2D8qYOrSRpkANEcANPXrlzsw2pUU3xbe5X41iIExAxQCmRkdBZgkizQWaFEoRBUU61GNWq1kgCiguFMr+ALlmAToABJyEXRonHXRo3qmhRrzJaGG3v36X08eseg6BMn4NSha+/qcFubK+K5wY1izdrFSxY/MPCZseLRfk+2Xx13tLPXv9DzpxXfrfl03JuD1guNIqJtNOzxdPOn/+7+7Z5vdf7gBSh4xxCfgS5vvuPX63+4cIH/mx7yyV31LpvHmx7+7NNlpeqMFYs+vsO+dULwW/1Y0DxkYtnd92xeOn4bvu1Baz3pNiAQDOh/y66tzSb9V79RAr+//e8f6Xy1D9Pl6WnUl0CQB9UG2ZQuB0sNIE5xRg/hq+4UyEbL6FMbu12A0BABkoqGAmSdNBeg0NBAAep0NVqAioZWyqJoILS2uYKkseMgG+MSUGjtFVBnki+iitaRFYtTC+5blzynhWbPKocPGVZOKKe5wusK4ycnlst2vzOuoz9stcdRR5yy2y77nWrIExanpx02RyJm+6HScEMMU5qg3K7u5TUUnXDS/rG4P81E5Xm/nzNy//7gJZF2hDlZJlLkdsq2bMfpQzsGnzy0/eS+wZe0Z4eReCMBAA==");
 
 export default LightbulbSlash;

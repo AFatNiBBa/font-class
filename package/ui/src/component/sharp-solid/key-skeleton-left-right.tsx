@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `key-skeleton-left-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/key-skeleton-left-right?s=sharp-solid key-skeleton-left-right}
  * @preview ![key-skeleton-left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/key-skeleton-left-right.svg)
  */
-const KeySkeletonLeftRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 128a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm-60 32c14.2 55.2 64.3 96 124 96c70.7 0 128-57.3 128-128S582.7 0 512 0C452.4 0 402.2 40.8 388 96L192 96l-32 0 0 32 0 64 0 32 64 0 0-32 0-32 32 0 0 32 0 32 64 0 0-32 0-32 68 0zM192 384A64 64 0 1 1 64 384a64 64 0 1 1 128 0zm60-32c-14.2-55.2-64.3-96-124-96C57.3 256 0 313.3 0 384s57.3 128 128 128c59.6 0 109.8-40.8 124-96l196 0 32 0 0-32 0-64 0-32-64 0 0 32 0 32-32 0 0-32 0-32-64 0 0 32 0 32-68 0z" />
-    </Icon>
-);
+const KeySkeletonLeftRight = createIcon("key-skeleton-left-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABhgAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCMwsGAAE2AiQDCAQgBYMtBz4bQQXIjsK2tXNMY5SjTDjwQsXz1H6v5+7ue5MfoCJYIsUaQVV1qlny+DpS1RWSQLJwAVsVXbr/MXd/5tlvJoJpgibibSXiaRIR01T2SGTm/3LPzzYd4OcjOLQ99HyDr9F8vkADzHpxmxZ4FmaJYruzHSaJdpC0pCzkOMfxOELL71rUUZ6VDzyKH5pfVihSDCqATAIAOHyhowluZjObfPl/SL44AgRyGGA9goqK1QjYhypYjWY90DRhNv//438gggDpEVxc39DjDvAQ0EDRWhvbagJuN9bOu1cOX31urhrLsg1DyVSRFzaDJC/3PMev1Xuxq9xB4ETKGRaRkVBvhLWzC9zygQ1bIZJXex8iF7gbvcweh88V3JEANNwb5iM2VkSVmvJj4MP7g9T5hYX5mg9//0IMMPh5Mu2hd7vTrT+DleUHREhADkVeU+bzzN79AIJwZfjS/GXhvr8hbgHzr35r5Xb/b8q9UsGQAkLd/G/RU+4BUgPEJbephC8Kitto6F1HPRYQwwgoesMCqlVECGiGbUJAZy0vAnrDzqBKG4jFehkUo66Baq910Cy2Dzr7PEe9xakayOkP9wFMzrVQdhM6bQ4M4TBTeaVi/HwYp23Dgu0YYS8MmDRhTr8+w+YackZTOm9cTiKyfgg52TigENwu73d36zdj1rBJE2GRMDzvGyzIo43gURDtTtuLQsqy0f5l62yKx/rnJifuJ/eMAQ==");
 
 export default KeySkeletonLeftRight;

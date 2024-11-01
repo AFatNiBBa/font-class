@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-quote` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-quote?s=sharp-light square-quote}
  * @preview ![square-quote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-quote.svg)
  */
-const SquareQuote: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 64l0 384L32 448 32 64l384 0zM32 32L0 32 0 64 0 448l0 32 32 0 384 0 32 0 0-32 0-384 0-32-32 0L32 32zM208 288l0-16 0-32 0-24 0-24 0-32-32 0-48 0-32 0 0 32 0 48 0 32 32 0 48 0 0 16c0 17.7-14.3 32-32 32l-16 0-16 0 0 32 16 0 16 0c35.3 0 64-28.7 64-64zm-32-48l-48 0 0-48 48 0 0 24 0 24zm176 32l0-32 0-24 0-24 0-32-32 0-48 0-32 0 0 32 0 48 0 32 32 0 48 0 0 16c0 17.7-14.3 32-32 32l-16 0-16 0 0 32 16 0 16 0c35.3 0 64-28.7 64-64l0-16zm-32-56l0 24-48 0 0-48 48 0 0 24z" />
-    </Icon>
-);
+const SquareQuote = createIcon("square-quote", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABfgAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCRQsGAAE2AiQDCAQgBYMtBzMbSAXIjsO44TuyxeJXqQi+11n1+5Jds9KAl1hL7CWGQ8yAKWOKJjvCyqcuJQydzCz2E5fz//PfgJOe4FHWot0+X4PGWOdpHmiYb0qoKLA0Qctv53cpksHbLukSHBk21x+Wf4Y8norUSE8kuI8/NH422M0keQYgGgBYuX/3Vt090RPxZes94kubERCrQCWQIcMwAZbIBIbJVcjlgp5otfx/YEUAUYd3TCBHG27B3YAcJPU879V3fDmuLGsd+b6yVpyTstQeWXScKspCpBBlR0QWEcWeEDCLAaC0FNf3e7ggqaZfmPLK0OlbSES5n71htTpmCUXE46Nfbrz86yhn89x114PtetdfN7ISmFSpno9+02pQpjLIIJHeUWni8mZD5+23d3ZrNRrP9+5dtJpwNTXWGxdG0kYb/w+C35SfBoHgx30fPN615N+2MoGfPv79T35cqye608tok0CQTW3lSHSD5wbwk1JcbXR0I5Bcow6v2u5RAUKBAEldIUBmqIYAucIUAWpGmCtAXWG3TOS9hH6OVjJpdxmZmecaMtfPO2TNEp9k6vpFZoqKISl/gpnrJLj2UDVzerNaVA27impdUtpeXKmdiVeHqUl00tkucbErneWM81wpiMttzV/lIutm0FpfVJlpuqbKItXx4Nbc5zKXu8J5ff18l8Wq+6mJrp4vnkR+At5ZmpJEpPbnbE/7UAAAAA==");
 
 export default SquareQuote;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-column` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-column?s=solid chart-column}
  * @preview ![chart-column](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chart-column.svg)
  */
-const ChartColumn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 32c17.7 0 32 14.3 32 32l0 336c0 8.8 7.2 16 16 16l400 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L80 480c-44.2 0-80-35.8-80-80L0 64C0 46.3 14.3 32 32 32zM160 224c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zm128-64l0 160c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-160c0-17.7 14.3-32 32-32s32 14.3 32 32zm64 32c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32zM480 96l0 224c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-224c0-17.7 14.3-32 32-32s32 14.3 32 32z" />
-    </Icon>
-);
+const ChartColumn = createIcon("chart-column", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABhwAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCQAsGAAE2AiQDCAQgBYMtBzMbQwXIHolxrMQ2yFeJh/+f+7d9blIATquAkBXYb0voYFjIrLGoRr+qKK0Q/Pm/3PNbeHR69o0ObYxZ+fYx5vMooESmH7XB08AyTcC63DaXNFRC+yM0EsjjQ3ZeNdKT9AtuhQ+Nv7RynqRWBiAaAmDMonkzfC2jjPi58or42TQExBhQCGTI0FaA4TKBtnIFcrmgjEpF/AcWBBDVpZclkKMGzuEqIAdJtTzv2KI5z9apVi9fqMtrL7sm4oHEwmb1ok/ywOmm92vXjdddq9pncabFozoLNm2xWLja/GGE2LJImNEXlzbl4EWdqhpW/eOXjb/o8LT+ZS7Xn61+eVv9y5fr16rbGm5YGLP17qkvu8boHbaFp0Y9S/zUf4aolZPYang1uaosS6x8HggEf0x/flWD4f/XrJPAn+//635GKmWSqlBTAkHWvdLd8gQSAQBIcVCnBIHkmGrSe9T1UIBQGwGS6moLkGmjoQC52roJUE17AwSQ/fNkIq8lNLWiB0lde0BmoBMg19QLUM1w3/LVNY0MEFkwYn8DkyaOoQm7ij49exdDi822xsEWbdeHFaetzgflWBd81ka77LTfButtsX9E7DWjdMAOE/fwCb6o0EdPvRWGKm73nh9faIO99tlil51+k2GK9zOdHdyf3QW7SaLsqyZJRKr7Cao94BUAAAA=");
 
 export default ChartColumn;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `candy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candy?s=sharp-solid candy}
  * @preview ![candy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/candy.svg)
  */
-const Candy: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M318.1 64c-24.5 .2-47.9 5.1-69.4 13.7L419.9 420c20.3-12.4 38.1-28.5 52.6-47.3L318.1 64zM492.3 340.8c4.6-9.3 8.4-19 11.5-29.1l101 53.5L633 327l-35.6-35.6L640 279l0-46-42.6-12.5L633 185l-28.2-38.2-101 53.5c-20.5-67.8-77.6-119.8-148.3-133L492.3 340.8zm-101 93.5L220.1 92c-20.3 12.4-38.2 28.5-52.6 47.3L321.9 448c24.5-.2 47.9-5.1 69.4-13.7zM284.5 444.7L147.7 171.2c-4.6 9.3-8.4 19-11.5 29.1l-101-53.5L7 185l35.6 35.6L0 233l0 46 42.6 12.5L7 327l28.2 38.2 101-53.5c20.5 67.8 77.6 119.8 148.3 133z" />
-    </Icon>
-);
+const Candy = createIcon("candy", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbAAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBZwsGAAE2AiQDCAQgBYMtBywb4wTIjsM4FrwSXIWBFg/fr/V27uueCQB1mNEROSKXKFbELix86tvQ7lpEHNynRSKJxJ869TznoVyAnkMQtLFw6aYNEprzPAIRy8VHW+sVcFmxVqEKcd82PApG4gsJCRKJxpTGaYM8/s5OKJGupy84K28a3zVxgqRKBiBqB4DRC+dO9+6bC5//f0x8NhUBMRoUAhkyNBdgmEyguVyBXC74Fi3+BxYEEGV65QRylDEL6wE5SPI8r9x0mm+pRr6Ab1t146N2i+Ne1yWLrzaaHz2NMFDEACP1MC9ujXgzYfG8JYuX3O60OJ52tHu7VH9BdDNcP6K/YbpbGDeHvx7f5m7tuz9bf9nwxfDDo/65O1/F0hv9HtTfPmNdP4/1dU8P9/T12Lp+/tq7ZsrpOuuW3Z0vVsXU6/3kzc1Vz9SBKKP39fmBJUAg+DP72nRlrWFfuVoCFS9+/xwXpiPpLipLIMi6tZtl6QggNgA3xQFtgg8KJJPk9FWruyJAqIoASVlVATLN1BYgV1VXAUpa6i9AWVVzZSKvItS3fIKkut0gM8BBkKvvISgZ5r1TVj+y2qIqg/raxU/w0Pi5onePXsWQYhsyulyINh5apIVOB6jUGVZtsNMO+6y3zmb7HLLHdH+/7SZE8HhfVOith14KQxTHyevyAuvtsddmO+3oU4Yq7iudHIibO4OcKG4fwSQRqbT2/QEAAA==");
 
 export default Candy;

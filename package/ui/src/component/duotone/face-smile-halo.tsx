@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-halo` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-halo?s=duotone face-smile-halo}
  * @preview ![face-smile-halo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-smile-halo.svg)
  */
-const FaceSmileHalo: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M16 272c0 132.5 107.5 240 240 240s240-107.5 240-240c0-41.9-10.7-81.3-29.6-115.5C413.9 178.3 339 192 256 192s-157.9-13.7-210.4-35.5C26.7 190.7 16 230.1 16 272zM139.9 378.5c-5.8-6.7-5.1-16.8 1.6-22.6s16.8-5.1 22.6 1.6C182 378.2 212.6 400 256 400s74-21.8 91.9-42.5c5.8-6.7 15.9-7.4 22.6-1.6s7.4 15.9 1.6 22.6C349.8 404.1 311.1 432 256 432s-93.8-27.9-116.1-53.5zM280 296c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6c-.8 .3-1.7 .4-2.5 .4c-2.5 0-4.9-1.1-6.4-3.2l-.2-.3c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .3c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6z" />
-        <path d="M512 80c0 44.2-114.6 80-256 80S0 124.2 0 80S114.6 0 256 0S512 35.8 512 80zm-64 0c0-17.7-86-32-192-32S64 62.3 64 80s86 32 192 32s192-14.3 192-32zM217.6 300.8s0 0 0 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0zm160 0s0 0 0 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0z" />
-    </Icon>
-);
+const FaceSmileHalo = createIcon("face-smile-halo", true, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAAB6gAAAMKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTyFCgsIAAE2AiQDCgQgBYMtB1obtgbIPgzwYMiHXh8ERS1MS4dVVVEOGVhiW+y/ObrozZ8aD/+s47tvZj61ANWgxqa2WTjd7Osk5CXI2zGypEvRPiRTFJtSEnt+zN2bmJSyVTFt4ohl8bR1Eom4TCKKSinkP3HNj161VRRIk4yffxoRFClQgAPaLRcM0DKEa74YvvKfnKXegOf/cs/P1gL84ocLZS26Kw1kYT4nTrznAd7LwuWLAonGRO0FHKk36C5IE9LP42kDWbzibqGSnOY8Acez/wGMLzA7RKIgBRDlAGDomT7RjT/649ATdiGeIIWAGAZoIpAiRQMBBkgFGsg0QSYTvOMwvCNmEEDkys4gBbkoIBpC9AKQgUQmzbIqbSHasK6FhZZks6T8wtU7JaI3pZdZL40mldfZzzOfG1LtCNE9yTB0VN3KHReNoqe1i+sExn7Xp6ywbTDhplgFXRAKLadJjgMH1oFhpegpaDFgmT/A0kFWnrse5Eqc6GH5dfxl93Nl13HJHhUOIye9DsrStrEjaelWvrthMz4g3mqX3pt+ba7oicRQjGFzbcMl1WP+/ufZu8IYbWB034ANrTK7TcFCLy5pnwNz9rQ5cxqOhvc9+fkLAAiBqHCWvl7cfZWdFSBABABoPvO50r8vLHz6q6G55gBndAiWn5jqO6KyS4jPvywOwyx+/75oB3O1uYMH12qbb5UtTh4eb/ffplh/35599Bvw53aNroe4o8KpInEoqzyEtvH2AIHgp/fqSte/SAI+7P/vP0j+5yA5C/IlIEg7sCzIgIQAACSxC80ygHKB1HVFcarFTkggFCJAIlehAKn6ygXIFGovQI5GegqQq9B0qcgKhGoLZ5AothWketkNMtWugRwD3E/nqk7w42Jc7MbPau4oEBo5q0lXu1MZVlILRvMJ0OLBiFI4aFP3G0zmQqtstskOK62w1g6A22ZibqeNRrH4I9/bRFeddNFEP02Uy6PuLCC9zXZrybb6NP01WT/Vxi52+7ZmMlHIdjMnlRJJpLVfxrDj9o9VXsc1zQ2bO756LeuS7PcM");
 
 export default FaceSmileHalo;

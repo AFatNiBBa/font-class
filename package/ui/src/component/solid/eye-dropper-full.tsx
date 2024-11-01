@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye-dropper-full` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-dropper-full?s=solid eye-dropper-full}
  * @preview ![eye-dropper-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/eye-dropper-full.svg)
  */
-const EyeDropperFull: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M341.6 29.2L240.1 130.8l-9.4-9.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-9.4-9.4L482.8 170.4c39-39 39-102.2 0-141.1s-102.2-39-141.1 0zM55.4 323.3c-15 15-23.4 35.4-23.4 56.6l0 42.4L5.4 462.2c-8.5 12.7-6.8 29.6 4 40.4s27.7 12.5 40.4 4L89.7 480l42.4 0c21.2 0 41.6-8.4 56.6-23.4L309.4 335.9 176.1 202.6 55.4 323.3z" />
-    </Icon>
-);
+const EyeDropperFull = createIcon("eye-dropper-full", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYwAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBQQsGAAE2AiQDCAQgBYMtBzcbyATIhofn7ao/91WNGkvWLOle8cOMxFDOoBxOiainTj3PtFAA3yhoY+HSXDwbcM7zdIEVcGyfQrVSi7WKYq2d3UKS71b0KZ9k2PywyQXyeDO7TgPp4fQJ7pQPjR91dx1JSwYg2gFg7ub1K733XXwX8XH9ZeJjyxEQc0EhkCFDLwFmyAR6yRXI5YLvol4P/4EFAUQjvmkCOXLMw2pADpKU5wO6lBuq+aZyQ+nQhs0busQDpVs63eeqzhvj/vKtXR+Mq7t0ic3xQlw97PnSLUMOPEuMiIe6PzV4epTj1uGbY1Ns6Pd8u+d/bv3k4Cc2Pl6j/2YPVasP3ZyMmx95pK14SK3m0yFDPvsJT/2qz8BDrcM84+U/Rm+/xDCtF1x4keuuc9GFQCAoXfr5pbvbzvi7uZzAD2/8+p88WP+//nqSnkezBIJsRH2EHYmBsyigleIC/fBFgWSaBK9a8YAAoYQASaOSAJme2gmQKxkuQIM+JgrQqGS9TOQtQic7O0gqzoDMJJeDXCcvggYzvG826hSZI7FuwL7jkhZpaOGyYuyoMcW0YhqonG/QeTi9WJaHXBALQ3HWQaecdJ6aA444T5FnrXTOd8Iii1johwpjjTJGYZpiO348vknNWeccccrJMma64rw+xAV2/VBoCSnH2ZskIrWrXVwb+ZlFOTvyzgE=");
 
 export default EyeDropperFull;

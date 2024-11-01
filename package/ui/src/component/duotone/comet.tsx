@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comet` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comet?s=duotone comet}
  * @preview ![comet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/comet.svg)
  */
-const Comet: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 309C0 421.1 90.9 512 203 512c72.4 0 139.4-38.6 175.7-101.3L480.8 234.3c6.5-11.1-2.2-25-15.1-24l-29.3 2.3L511.1 18.3c.6-1.5 .9-3.2 .9-4.8C512 6 506 0 498.5 0c-1.7 0-3.3 .3-4.8 .9L299.4 75.6l2.3-29.3c1-12.8-12.8-21.5-24-15.1L101.3 133.4C38.6 169.7 0 236.6 0 309zm69.7-18.1c.1-.8 .3-1.6 .6-2.5c1.9-5.8 6.9-10 12.9-10.9c21.8-3.2 43.5-6.3 65.3-9.5c9.7-19.7 19.5-39.4 29.2-59.2c2.7-5.5 8.3-8.9 14.3-8.9s11.7 3.5 14.3 8.9c9.7 19.7 19.5 39.4 29.2 59.2l65.3 9.5c6 .9 11 5.1 12.9 10.9s.3 12.2-4 16.4c-15.7 15.3-31.5 30.7-47.2 46c3.7 21.7 7.4 43.3 11.2 65c1 6-1.4 12.1-6.4 15.7s-11.5 4.1-16.8 1.2c-19.5-10.2-38.9-20.5-58.4-30.7c-19.5 10.2-38.9 20.5-58.4 30.7c-5.4 2.8-11.9 2.4-16.8-1.2s-7.4-9.6-6.4-15.7l11.2-65-47.2-46c-1.6-1.5-2.8-3.3-3.6-5.3c-.4-1-.7-2-.9-3c-.2-.8-.3-1.6-.2-1.6c-.1-.8-.1-.8-.1-1.6c0-.8 0-1 0-1.2c0-.4 .1-.8 .1-1.2z" />
-        <path d="M206.3 208.9c-2.7-5.5-8.3-8.9-14.3-8.9s-11.7 3.5-14.3 8.9l-29.2 59.2-65.3 9.5c-6 .9-11 5.1-12.9 10.9s-.3 12.2 4 16.4l47.2 46-11.2 65c-1 6 1.4 12.1 6.4 15.7s11.5 4.1 16.8 1.2L192 402.1l58.4 30.7c5.4 2.8 11.9 2.4 16.8-1.2s7.4-9.6 6.4-15.7l-11.2-65 47.2-46c4.4-4.3 5.9-10.6 4-16.4s-6.9-10-12.9-10.9l-65.3-9.5-29.2-59.2z" />
-    </Icon>
-);
+const Comet = createIcon("comet", true, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABpQAAALbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCfQsIAAE2AiQDCgQgBYMtB0YblQXILgdsYxbYL0iM0MudenG0uOAbLeM7DCx/McbDx9r/zt3d74K/IYl7MmkuTay5RTONJIZKJjLwwP/h7773x6KxcIwN+m00QDoBfZBO1MnDDOKIEmnd/b+drtcvkrSFhZB2L5WHwQbcmw+CM0w4WT7/9+7dT2NMWm1c1NZP/2QJFUeet2kKlmafCiwPOHtWnfKpdMgQ5/mJy50/8AMuwVcccxRuXjTneQKdt+298yygDZppBpa5NW6D+RBH0GOEjGESUo9PSo9PF8jiR6JSJMdiAnv0fwDjD7OdRFEKICoBMPR50kTPPnj0p/8L8UlHQAwDOYEUKZoLMEAq0Fwmh0wm+EUBvwBNAoh8eu0U5CMPJ3EFkIFESLKsTdsxl1eWTdWs4mlfxbvSBSMcrBw0BhIuqEPWeIwNqCPmVAwO4TDOd4t/CfH98bP/w/a0GLAlwIc2PoiL3yxWIOzYvekl8vwWt3423XE5fsI7wkX1kHHMmYJDZOgHYRwLEJpnkoqj/rA1DYPi1LYwBp/pF+QLX/n66/26In0+qDmbT43lX2GIonX3bafx7f2+KioZ4p+nxmkzZHwgEeYHRx/R++ffMwfH/Zz9of3AtORaQl+cdVS85mXbtZA/u3KkEqjP5u1UjJ+1ecsjwiwSVArHJuX1IeddFK7PNV+rqtc73b4YUUhEBAIQCHb0LiyWFQP+0lwCfl+//ZD8H6XkAgolIEg7/I/ZESQEACCJ9VpHMAKB1FKJ7V5LHRZAKEaARL5iAVLNVAqQKdZegDwt9RQgX7FJUpEVCbXmVChRahWU6mUDlKl1E8ozwNtSvtrA65ReZfRvYsIoD4zclFu1OnE/Pm05mKVH5tVBfNkYrtNIjgzzrbDcWvPMtchwB642sbrOMqN6mJFflNNVJ13k9JMb7h6FqVxabY1FbW58nf5y9ydtrO9Pb4vtJIBub7gpJZJIy74PZ23H+S5XOG5eAwAAAA==");
 
 export default Comet;

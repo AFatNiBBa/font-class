@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `road-lock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-lock?s=solid road-lock}
  * @preview ![road-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/road-lock.svg)
  */
-const RoadLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M288 32l-74.8 0c-27.1 0-51.3 17.1-60.3 42.6L35.1 407.2c-2.1 5.9-3.1 12-3.1 18.2C32 455.5 56.5 480 86.6 480L288 480l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64 32 0 0-128c0-23.7 12.9-44.4 32-55.4l0-24.6c0-58.3 44.6-106.2 101.5-111.5L487.1 74.6C478 49.1 453.9 32 426.8 32L352 32l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64zm64 192l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32zm176 16c17.7 0 32 14.3 32 32l0 48-64 0 0-48c0-17.7 14.3-32 32-32zm-80 32l0 48c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80z" />
-    </Icon>
-);
+const RoadLock = createIcon("road-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABjQAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCWwsGAAE2AiQDCAQgBYMtBzAbWwXIHoWNGxmyIxk2kji8u8RD//uld+a/AIFuokqKdWRJAlogu3UAJHxl2QIKt6eW8fj93N229N9cbiKOqCa3JpagTirRtEPzVAmJDpmtxTf/l9Mbz28Dfj6CQ5mzOXCDRHM+TyDBsrGB8mVhFiXILW475otXDXEQCgco8bs61UBeyl+cuN80XhtxSmqpAEQ3ALByXX8nvNejHvH4f8Rjc0BArASYhqhQYRyCJfgC4wSmgaII6vH///wfOA0CiEZwbwkKGnESlwAFpFLK0kGZgzV0lLVtDa3bW9taD/cXtCNx1qWBopNFxIGhMjsfKIJQgjdmntU36aG4PFjiuBC1/gJ3duKIazyTloOvOTJQPUe0WgoD0OE7D6LmyzMWR0zRyWdA3GbX512nXj2XRtu19PqPJ9uemLrRDrup/n9t3mkHT0vTu3c7HlpBfPBg5/ajGuRQ/8sRwnvPnBw09ev3wJw3vvytBjRFc/kPXZfPUo6oEXHEu6ciINLgoXXuwnPLCFy7VSqdWYtAIPi8/+Hm+q4lX5tZgle33n9dP/3/QdbyGs0SBNXs/1kTWTMNenYA5Yx9bIEPQqSDCnjVducFCK0IkBq1ClAZI4WgaDUDQYNJSQgatVqFL0qL0G9SgNRuJ6gstgeKfi+gwRIfpUb9UWGljFPyT2FGk4o2LqNoKEI58tYxBdHEYz5PyQHP7tLn7dbCrDWrts2YtmBbYTZ1VnesaAphjb6IRIVEkBwqbm0aQ0pp05YFt1a+SB61z3jshkd7uzAPcM5Xk5LIlpfDDH4wAAAA");
 
 export default RoadLock;

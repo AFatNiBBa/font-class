@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shish-kebab` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shish-kebab?s=sharp-light shish-kebab}
  * @preview ![shish-kebab](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shish-kebab.svg)
  */
-const ShishKebab: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M416 32c-35.3 0-64 28.7-64 64c0 17.7 7.1 33.7 18.7 45.3l11.3 11.3-11.3 11.3-31.4 31.4 62.1 62.1L424 280l-22.6 22.6L320 384l-1.4 1.4-21.3 21.3L296 408l-81.4 81.4L192 512l-22.6-22.6-62.1-62.1-80 80L4.7 484.7l80-80L22.6 342.6 0 320l22.6-22.6L104 216l1.4-1.4 21.3-21.3L128 192l81.4-81.4L232 88l22.6 22.6 62.1 62.1 21.1-21.1C326.6 135.9 320 116.7 320 96c0-53 43-96 96-96s96 43 96 96c0 21.6-7.2 41.6-19.2 57.6l-25.6-19.2c8-10.7 12.8-24 12.8-38.4c0-35.3-28.7-64-64-64zM297.4 361.4L378.7 280 232 133.3l-81.4 81.4L297.4 361.4zM126.6 238.6L45.3 320 192 466.7l81.4-81.4L126.6 238.6z" />
-    </Icon>
-);
+const ShishKebab = createIcon("shish-kebab", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfAAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCKwsGAAE2AiQDCAQgBYMtBzIbLQXIhuB5u6h6v3sB90JQRB80G56YgUHkVEhv5v9yz+/5bcBvdGhj05ogY0WHzfU8oCjAbNlYVtrzE8o0AettQ4MEQ/E0IiRIIhrT8bpCHu9HNxVI99JXuKK1il80cY4kzwBEbQCMXjh3uk9+jB8jviq/SXxlKgJiDCgEMlCaO5RhShCaK9BcnvgxyuX+H1gQQFRkaOJdOSpgNy4DcpBkeb6wSpVqFWrkC/iUqhtf7BTxauN7nRtE/egUs6MzKvMmWj/muV1ijqBdYiHaJbpKjRBtFAvRzjH7yVLTJ12fDXyz82stHnbqEnfifpdSh0UL5y1cEPNi/gL4wLz5sTAWtCnVLv3W+qsNX3ny5Gkd6lStWueZkv99Z4MNZs3CfMyaxVd8Z+ZM82l3UXWcSrUql0qnTvGxyhrf8G3DqnXqPD0wafas6ly/Tta4du21w/51IBB8M+GXbStrDfuvcrUEfn7vj7/kZ6T8SZJKqCyBIOtW7mZZAokAAKQ4oE2CQLJZxupa3W0BQlUESCqqKkCmmdoC5KrqKkAFLfUXoKKq5spEXkWob/kESXW7QWaA4yBX3+uggmE+jSqqH1n2sbnDfv6SJhRo/Kaid49exZBi2zS4hKLb8tDiWO10gIY6w0Eb7LTDPuuts9k+R+4xPd1vuwkRPN4XFXrroZfCEMV153X3AuvtsddmO+2QVYYq3oedHIgndwYjMco+tiWJSNX2btpMDd23rl+zeg0AAAA=");
 
 export default ShishKebab;

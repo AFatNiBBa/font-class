@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rugby-ball` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rugby-ball?s=duotone rugby-ball}
  * @preview ![rugby-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/rugby-ball.svg)
  */
-const RugbyBall: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M16 336C16 159.3 159.3 16 336 16l32 0c30.1 0 57.7 10.4 79.5 27.7c-8.5-4.2-18.8-6.3-30.4-6.3c-59.1 0-153.9 52.9-240.4 139.4C73.4 280.2 17.9 395.7 43.7 447.5C26.4 425.7 16 398.1 16 368l0-32zM64.4 468.3c51.9 25.8 167.3-29.7 270.7-133.1S494.1 116.4 468.3 64.5C485.6 86.3 496 113.9 496 144l0 32c0 176.7-143.3 320-320 320l-32 0c-30.1 0-57.7-10.4-79.6-27.7z" />
-        <path d="M64.4 468.3c-7.7-6.1-14.6-13.1-20.7-20.7C17.9 395.7 73.4 280.2 176.8 176.8S395.7 17.9 447.5 43.7c7.7 6.1 14.6 13.1 20.7 20.7c25.8 51.9-29.7 167.3-133.1 270.7S116.3 494.1 64.4 468.3z" />
-    </Icon>
-);
+const RugbyBall = createIcon("rugby-ball", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABfAAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBfwsIAAE2AiQDCgQgBYMtB1AbIQXIhof/Xyu771f1BIAqAEQqUUguccirViHbOWsJdE9c8/zPn94rAKxLH6RWRZnnE9j5tDltMx/YhGdgG5w3Mp0OaQjpV8jju+y0Eul2+gIX3f8Axq+aOU1SLQMQdQEwdvH8mT6sjMoUX5RfEV+YgYAYBwqBDBlaCjBCJtBSrkAuF1SmcpnKKJcLAogK7t0ZqEAJ83AMkIMkpDxv1LJZjVKtfJErrT71RuMni38WrKHXGz1e8IM2bBxG2NYa8XrojeqvZnyxWtbzSetY+J5wkd3rcSvxw4JvrR5vhrV7UPfB722/2PSFf++d6dphavtps2bPnjWt/dQOV6ZPq7Pbkm6T6TplSlcmd1ui8E3zj+p/89+/Y8fOmn2uscPUrndrFb1PXZFFTGs/e9YKPLXDtC53dPd4JrPXgUAwfNSsH1bXGfF/1RoJ/PLBn/82P6S65W/ir/QAVSUQZD3KPaxI1FU3/hIAgBSHtEs0U1cgM1ASWDXdELJQnYFIKlQnMi3UJXLVdSdKWhvIX9w/XybyakJDKyGR1LSXyAxyksg19JIoGeHjuELDyAqaWEzE/7y0SVNg4raib68+xbBit62Tyg6v14cXl70uh/hYV3jWJrvtcsBGG2x1YALtMzM7aKdJR+BEH1Toq5c+CsMUj3svtUWTeJ/9tm4rzzcZrvg+6uLQ8eyucDcJ0C+JLmREiqz+voOb1x3tWXmsnkV2vOFcyZ0=");
 
 export default RugbyBall;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `watermelon-slice` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watermelon-slice?s=sharp-thin watermelon-slice}
  * @preview ![watermelon-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/watermelon-slice.svg)
  */
-const WatermelonSlice: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 496c159.1 0 288-128.9 288-288c0-69.7-24.7-133.6-66-183.4L391 63.7c35.5 40.8 57 94 57 152.3c0 128.1-103.9 232-232 232c-58.3 0-111.6-21.5-152.3-57L24.6 430c49.8 41.2 113.7 66 183.4 66zM75 379.6c37.8 32.6 87.1 52.4 141 52.4c119.3 0 216-96.7 216-216c0-53.9-19.7-103.2-52.4-141L75 379.6zM13.2 441.4c-4.1-3.4-8.1-7-12-10.6l11.3-11.3 407-407L430.8 1.2c3.6 3.9 7.2 7.9 10.6 12C485.5 66 512 133.9 512 208c0 167.9-136.1 304-304 304c-74.1 0-142-26.5-194.8-70.6zM336 164.7l5.7 5.7 24 24 5.7 5.7L360 211.3l-5.7-5.7-24-24-5.7-5.7L336 164.7zm-80 80l5.7 5.7 24 24 5.7 5.7L280 291.3l-5.7-5.7-24-24-5.7-5.7L256 244.7zm88 8l5.7 5.7 24 24 5.7 5.7L368 299.3l-5.7-5.7-24-24-5.7-5.7L344 252.7zm-168 72l5.7 5.7 24 24 5.7 5.7L200 371.3l-5.7-5.7-24-24-5.7-5.7L176 324.7zm88 8l5.7 5.7 24 24 5.7 5.7L288 379.3l-5.7-5.7-24-24-5.7-5.7L264 332.7z" />
-    </Icon>
-);
+const WatermelonSlice = createIcon("watermelon-slice", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABnQAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDEAsGAAE2AiQDCAQgBYMtBzcblwXIjtRG+UVWEg/P24V/7psJ4InoVSBX6dILRSV2yWcloPz1Vu37/1zu+T0/Oj76JncoY9uYtXHT2MMSCDQaflibAg8sTdCamvfyAIfm63Mhjxd2akC6md7Fefeh8Y8uzpFkGYBoDYDZ1bXLvfZj/BjxTh3xjqUIiNmgEMiQobsA02QC3eUK5HLBj1Gvs//AggCiIf95CeRoipt4HZCDpHGe92jaoY0fadagRV6J05qWv6hGkCOfV6bFR+VPRz1e9Gbp8zWV81m5IsNfrP2kyvJ2rrrWsVPsCaxc7dCnfVoy1Nz9ezp07DA4OkT76BhD8NJOpdaUy5Pv7nO39d3/er+7+10fjFxpVn9mDRgwi/6zrIz9M5fudjhqZv3yy4wZs9Ti992Wztwf505cXBMb4t1349ev6TJq1Lel0nPXrrln/vx5q+Oo0qC5A+fNGzh3UMnRWD1vTrtSqXTGfHeVyKUrV3YIq402vLVw+nYgELj78YYtrab937hZAj8//w86P+qvJekuGksgyIbVh9mYCBgOPynFaX0SIZBc1Jh/VnPXBAhNESBpqKkKMt20hlxTQ6GBnsa7aKiptTKRNxHa26SCpLljkJngLOTaewYNTPNGrKH2kZ2w3OnG/S4mL2gi83cVo0eMKqYUo3UFfw4yen5qsVgddJr3DYYn7XbEYSftstM+JxvYccuTpxyyYAqd74sKo40wSmGKYnPr7uGKXY47YZ8jDtttpiqODwxyenr0YGgkPukYJUkiUuvzOeXQroNHDg//NAAA");
 
 export default WatermelonSlice;

@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `waveform` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waveform?s=duotone waveform}
  * @preview ![waveform](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/waveform.svg)
  */
-const Waveform: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M320 0c12 0 22.1 8.8 23.8 20.7l42 304.4L424.3 84.2c1.9-11.7 12-20.3 23.9-20.2s21.9 8.9 23.6 20.6l28.2 197.3 20.5-102.6c2.2-10.8 11.3-18.7 22.3-19.3s20.9 6.4 24.2 16.9L593.7 264l22.3 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-40 0c-10.5 0-19.8-6.9-22.9-16.9l-4.1-13.4-29.4 147c-2.3 11.5-12.5 19.6-24.2 19.3s-21.4-9-23.1-20.6L446.7 248.3l-39 243.5c-1.9 11.7-12.1 20.3-24 20.2s-21.9-8.9-23.5-20.7L320 199.6 279.8 491.3c-1.6 11.8-11.6 20.6-23.5 20.7s-22.1-8.5-24-20.2l-39-243.5L167.8 427.4c-1.7 11.6-11.4 20.3-23.1 20.6s-21.9-7.8-24.2-19.3l-29.4-147-4.1 13.4C83.8 305.1 74.5 312 64 312l-40 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l22.3 0 26.8-87.1c3.2-10.5 13.2-17.5 24.2-16.9s20.2 8.5 22.3 19.3l20.5 102.6L168.2 84.6c1.7-11.7 11.7-20.5 23.6-20.6s22 8.5 23.9 20.2l38.5 240.9 42-304.4C297.9 8.8 308 0 320 0z" />
-    </Icon>
-);
+const Waveform = createIcon("waveform", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABggAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCGQsIAAE2AiQDCgQgBYMtB0wbNwXIjtRW8Q6TVATf2/3X5858rTkLM5KQQRkZO0RkJMGvTYX45X859cWpnMt5KIDPcZ4Tx8a0BSnNeV6Bns+l22pTtFZT7OC8wYcc0hTKj5CnLtkxZaSr6TNOx/8DGF81d4ykKgMQ9QAwbv7sqZ5XR3WKz6UHxGdTEBDjQSGQIUMrAUbKBFrJFcjlgupUQnWUFAQQ5eL7ZqAcGTbiICAHCZHnK2uW1c7nxVNqrL/RfGHMj+tdEDoXOW7UjMmUKx1rxM0mTWJORN7NFvNQsCgWTBloN4oLl+IW17vUfKrV/ILCyOLPtr9b7+73dp/XfTbmWd8B3fro9Mv4ol//lq81Wqdv/QYzWszTxMzGjWd2ZflIrc4Z17dd/2b3dP6LrS7t5VH/fsX4Gbm2sH+7Ylzrc0ZaruuTA020mGdGg/pjG67T8vWlB3b6pVsfA/oCgeB/58vrjvxfWTOBLw9//tXcXHqeDqW7qJRAkPUs9bQkHQJGDCCdYp/2B98kkFkpSb1aLj3OhBoMkJSrAZmW6kGuhh5Qpo1B1MXVs2UirxIaWQohqWUnZAbbD7lG7kOZkd4l5RpFZusYO8P89CVOnqKTBhX9evcthhe7OR1rkaigd0Rx2ey6j9d0gzuts902e6y1xkZ7JvguUzN7bTX5CJvkhwr99NZXYbjicfGlOA8nu+y2cZt/3s8IxfdeV/uOm3eDw0mA/vqVlREpsno+gTKVai/rqzeY8QYVAA==");
 
 export default Waveform;

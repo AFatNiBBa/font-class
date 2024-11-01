@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-image` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-image?s=sharp-regular file-image}
  * @preview ![file-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-image.svg)
  */
-const FileImage: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 48l176 0 0 112 112 0 0 304L48 464 48 48zM256 0L48 0 0 0 0 48 0 464l0 48 48 0 288 0 48 0 0-48 0-336L256 0zM80 432l48 0 64 0 112 0 0-32L216 288l-57.7 73.5L136 336 80 400l0 32zm48-144a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FileImage = createIcon("file-image", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYgAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBTAsGAAE2AiQDCAQgBYMtBzEbzQTIHoVx41NC+SiHOGXZMK9pFc9Tc+T7m81BcmWUhIpd65jGMzhARcKeqvEs5E1tp7I6V2NrD5hOY2g7JLFDPItoc2liXSyTTV4T7euHSL6/hPz9zfPOowCfRRbaWLg0kAUSzXmeQGLd94Z+0JYFlmkClnXTLb3kc2vyopc0bN8wphlqHuaDlvKlfAfe14fmL64pRdsAyEwAYN+JgAte70wl34YP8o0DCGQfwEoEDRosRcBOTMFSLCuBqgpTZBjSPxBBgIzg7gqoGMF+4DAAFRS11mmzZszp22n1eN92Z/qulz4lE2lOdP2ElEg/LWly/KSDMzmeo1mTg3HiNYfkU57P33av5q49m7fpV0/O3P/re/Y72fuvQNfVUWj369//qF3GQA9S8Bo8vVwofaPIVdAfgJgB3Dib/oIX08UHOpBtV1aoDxdm7Pw/1hfw5xf6FQ2vPCuTGFNAaNYN6yTzDPJMAAAld/DyDEGxFwvvOuGjgOgQUIzoBDSWYCOg6qxFQGs5NQJGdI5gSh0Xc6U6FBOuQ2OHHlRzPaC10581Ym6acOKDgX/MpZgtYRpDuZSiAae+JkQIW/pGXFb5XckJgISsmqq2jLSCtqGaXG5HhdkjTV6E5KQoZIDb0eN0WEZTS0FNVYcY4XmTr+tXC2AwkHELT1FI6W6u8BkHAAA=");
 
 export default FileImage;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `keynote` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keynote?s=sharp-thin keynote}
  * @preview ![keynote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/keynote.svg)
  */
-const Keynote: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M312 16c13.3 0 24 10.7 24 24s-10.7 24-24 24L208 64l0-48 104 0zM208 0L192 0l0 16 0 16-8 0c-39.8 0-72 32.2-72 72l0 40-48 0L0 272l0 24 0 56 0 16 16 0 480 0 16 0 0-16 0-56 0-24L448 144l-320 0 0-40c0-30.9 25.1-56 56-56l8 0 0 16 0 16 16 0 104 0c22.1 0 40-17.9 40-40s-17.9-40-40-40L208 0zM16 352l0-48 480 0 0 48L16 352zm0-64l0-12.2L73.9 160l38.1 0 16 0 310.1 0L496 275.8l0 12.2L16 288zM128 496l0 16 8 0 120 0 120 0 8 0 0-16-8 0-112 0 0-96-16 0 0 96-112 0-8 0z" />
-    </Icon>
-);
+const Keynote = createIcon("keynote", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdwAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCKgsGAAE2AiQDCAQgBYMtBy4bKAXIjtRG+YSdRFCvq7fnSXsgHeg+oT4DGAgyzDhFyswZYOZ4yylx5K2I2olrnn/aU4EU+aNFUvX5CjzzfAIDjMaiiaxtYDOdgG13th2khZVLM0KS49vxOkMeHzivQXomfY0n0ofGj4Z6mCTLAEQFgDWH9u3waTOaEV+1El/ZhoBYA2qBDBlGCLBcJjBCrkYuFzSj1XL/gTUBRBt+3gRytONWPADIQdLI82JFZ3df2ejOD5aN4tILQ58eX0REebAoCyGKeH7yy0NEEftDCFF2B1MHoyuKzw1+alI5M8tHZHE8MOjJojgcojssI3Ho2DjQzDkglGVEURQ0HDz21erVn8d8ffFri97aM3Dgnstmu3ypt+LLVDo0583rmWy2VfcZYrFK9VtlsSHdotUma//1/+s7VDT7ct9r7+t7/zWXPzk1G7lNszVXd+WW3GTixnytLs3rvquqquO/Ssf1p1VOux4IBO8s/Pj7U73L/+4oE/jh/V9/FH5FrU+T9Co6JBBk01vTHU8gEQCAFLcamyCQXKsB37XLkwKEAgGSNoUAmeEqAXKFaQI0jLJAgDaFfTKRdwoDnBA66XIDnVnoHjo3wHt0w3Kf5dsMiMz6JNuR/n7pGzWwYVo9Z+bsemm9LKuyQQk0vqw+tibf6tumwF4XXedaN7vgvCvcrPAb7Sjd4hobd9gGX1SbY6bZakvV17XH7QddcKObXOE618ZJlqnfZ5Pduu89BdyEeedalCQitV914Q5rBg==");
 
 export default Keynote;

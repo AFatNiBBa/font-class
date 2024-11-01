@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `manhole` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/manhole?s=thin manhole}
  * @preview ![manhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/manhole.svg)
  */
-const Manhole: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM80 256c0 75.9 48 140.5 115.3 165.2c15.9 5.9 30-3.1 37.2-10.9C238.3 404 246.7 400 256 400s17.7 4 23.6 10.4c7.2 7.8 21.2 16.7 37.2 10.9C384 396.5 432 331.9 432 256s-48-140.5-115.3-165.2c-15.9-5.9-30 3.1-37.2 10.9C273.7 108 265.3 112 256 112s-17.7-4-23.6-10.4c-7.2-7.8-21.2-16.7-37.2-10.9C128 115.5 80 180.1 80 256zM200.8 105.8c7.1-2.6 14.7 1.1 19.9 6.7C229.4 122 242 128 256 128s26.6-6 35.3-15.5c5.1-5.6 12.7-9.3 19.9-6.7C372.4 128.3 416 187 416 256s-43.6 127.7-104.8 150.2c-7.1 2.6-14.7-1.1-19.9-6.7C282.6 390 270 384 256 384s-26.6 6-35.3 15.5c-5.1 5.6-12.7 9.3-19.9 6.7C139.6 383.7 96 325 96 256s43.6-127.7 104.8-150.2zM176 192a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm0 64a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 48a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm48-112a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 48a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm-16 80a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm80-144a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm-16 80a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 48a16 16 0 1 0 0 32 16 16 0 1 0 0-32z" />
-    </Icon>
-);
+const Manhole = createIcon("manhole", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAAB3AAAAKzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTSEBAsGAAE2AiQDCAQgBYMtBy4bAgbIHoVx41MiQhPbNX/ec8XD/6+x7vsziEk3S2LRNBQ6h0aEkExCJWUaUazK7nY1yK6qnoPUO2cjg5jBfjLd/BlCDbBR/+9/Lvf81qK7AvnivWih7KnnjQ20BycQ4Ni0BqUJZKEmYCm4jSFmF4PQNBQukMcpdvGRbplnOB4+ND61aIEkywAQ1QDA7E5kMK645C3i2f99iHsLICDmAHQjyJChHQETeATa8eoGuVzwRv7v/wdSIIAoREkn+3JU4RH8AHItSUXOq6IhRwgBET7CEdO+XzjxvT8hj2e3cWh25fco6kPAE48d0mh5G/g0lvm4QsjL+Vty5HET8iLmXdAztyscul8HP4+OmTYmZN1/VGE8VIp0y41OVXhquqk5Y7IRMCY7YimFu+THpso+MlqjseNyo9qLCkn02HidM7XLthuRH9OZk4XjRDLAzmpkOUaNyo0rJIbEh9GhFlnc1rEEHqUutlD8FLsiufKF8yznGf5vuqEE9op+uLr+ECgtccO20N/93RsDcOqo6ump6jg44A0UYvvmf6FP/GZ3h4djOsXFJ32G6C77+5MQw+xr+kwedjA60/k8LOx55wz34SEv7+FD7kzHi63woiNPMVqc+ybe+GZGx3/bko0eKN3zVSsjV/rJQpnXgUDQ9evJs1QJpwRFGMDHybdfw88I/68Y6Q4USyDIejdCUgIkAgCQogZsAgLJAyqUqXJXiDNTpYhQLlSKVKaN5AK5Uj1QoJO1SXH1Bh6RCyHUSwYk5fYhM64WcvV2ocCEh/FC9cFzqVsuVMuPZk6fLeI9iZqbmFEHyi2YrFevKRl0pMpBvRqiQR87kaNUiSrZsuSr2ogVglPVivmIVL2/S5kzYYZyQI3Lk46YTZ4KlfLZdvNxHNHzZT014vb6iDBKvcPmJYlIAsXpJd8bAAAA");
 
 export default Manhole;

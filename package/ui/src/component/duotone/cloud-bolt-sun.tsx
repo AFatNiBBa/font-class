@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-bolt-sun` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-bolt-sun?s=duotone cloud-bolt-sun}
  * @preview ![cloud-bolt-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cloud-bolt-sun.svg)
  */
-const CloudBoltSun: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 128c0 3.2 1 6.4 2.9 9.2L52.5 208 2.9 278.8c-3.2 4.5-3.8 10.3-1.6 15.4s6.7 8.7 12.1 9.6l84.7 14.1 14.1 84.7c.9 5.4 4.5 10 9.6 12.1s10.9 1.5 15.4-1.6l56-39.2c-19.9-22-32.3-50.9-33.1-82.7c-28.7-16.6-48-47.6-48-83.2c0-53 43-96 96-96c18.4 0 35.6 5.2 50.2 14.1c13.2-21.9 32.7-39.5 56-50.3L303.8 13.4c-.9-5.4-4.5-10-9.6-12.1c-2-.8-4.1-1.2-6.2-1.2c-3.2 0-6.4 1-9.2 2.9L208 52.5 137.2 2.9c-4.5-3.2-10.3-3.8-15.4-1.6s-8.7 6.7-9.6 12.1L98.1 98.1 13.4 112.2c-5.4 .9-10 4.5-12.1 9.6c-.8 2-1.2 4.1-1.2 6.2zm144 80c0 18.5 7.8 35.1 20.3 46.8c10.6-39.7 39.9-71.8 77.8-86.4c.8-4.3 1.8-8.4 3-12.6C234.7 148.4 221.8 144 208 144c-35.3 0-64 28.7-64 64zM288.9 373.3c2.2 6.4 8.3 10.7 15.1 10.7l70.1 0L321.7 488.8c-3.4 6.7-1.6 14.9 4.3 19.6s14.2 4.7 20.1 .1l160-128c3.9-3.1 6-7.7 6-12.5c0-1.8-.3-3.6-.9-5.3c-2.2-6.4-8.3-10.7-15.1-10.7l-70.1 0 52.4-104.8c3.4-6.7 1.6-14.9-4.3-19.6s-14.2-4.7-20.1-.1l-160 128c-5.3 4.2-7.4 11.4-5.1 17.8z" />
-        <path d="M639.9 303.9c0 44.2-35.8 80-80 80l-18.6 0c3.5-10.1 3.7-21.3 0-31.8C534.5 332.9 516.4 320 496 320l-18.3 0 29.3-58.5c10.1-20.2 4.8-44.6-12.8-58.8s-42.6-14.2-60.2-.2l-160 128c-14.5 11.6-20.9 30.5-16.8 48.4c-37.9-12.8-65.2-48.7-65.2-90.9c0-47.6 34.6-87 80-94.6l0-1.3c0-53 43-96 96-96c34.9 0 65.4 18.6 82.2 46.4c13-9.1 28.8-14.4 45.8-14.4c44.2 0 80 35.8 80 80c0 5.9-.6 11.7-1.9 17.2c37.4 6.7 65.8 39.4 65.8 78.7z" />
-    </Icon>
-);
+const CloudBoltSun = createIcon("cloud-bolt-sun", true, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABuAAAALWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDIAsIAAE2AiQDCgQgBYMtB1gbygVRlA1Gl+zjMG74SgzEMJTlWfHKhaODxMP/X+Z97/+dlFI9S6mNYxU4GPB4rIFHYI9HYE40AuN/b/d1bmPQ33pjM5u1HESbbeVgpD/uJ/9cNeAzGkqndp53nU/gAy6aE2hgzbMJjYR3NO/BgQjtttB8gJoB5U2P/M4PeHdWx78VK0gjBQ6IafgfIDfPNWV40kab8aG7Qfy6AwFxC9hGKChYR+AcL7BOsA2qKmiz66CNrmMQQDTwmIW5ocjPhQNABSmUKqScnVK5ZKJCqOe7pYkDgURnYiXabdwXL1FMqtvl7JfW6WvpjOVU8Dnr4ZDzCUTW9PV+Jy2nZTeDzjqW6E+iWRZ+iaGOammHYSfh19HOAlMFXfI+Zd03NXI5xZs2itfTLv0Owq+lHQehbm/Q/pDzAbtNu6QTgWfMdTsNMmeWqYF201LjLqNEtowY9D3v4n1Ofe6z14f+D1i8mfqAJ7UOHR0PSYu3mIjIePdOo/54eLHq0rdmdxXf1ORP8Dh3bom1teRlulXdX0eeppd6gwKZok9UPqLykR+QMFWrgKIWppnp3nl8Ure+eGmbH7e3ZbJDOJ/xYnR+FAJ/7/SMaZJ86s9MJXD85opxr43xce9Fwx/DEY1G2nIi6Ui+mEEUr9618/BitR48ta6zBPNBAAQggLGSN6UdqtTfHjIOwN+9rz/TC7v/3cNcwp1TgmEJgtLv+lpzyQgdSgFePGOed59+MPZBgeIFj9zquA8BwigCpMaoAMUaNQLVqB0EejbFIdAYdY8X1RNhXlsJadwrFIcWoJp3HXrOvU405qNArgruVNeN6fPrWB4ViwqPZMlssCxXA6PCHE9hs+2B87ItCO9EvwnjZvXpNWS2JplWlp4zJn+Ml+eLmCjhIjHJ2OrabX09TUybMdSvXT9JCra/O9D8eO8g7OJ4UnetKAqRxBv/YbgirHtidDZsZm487CzoZu7SHvE=");
 
 export default CloudBoltSun;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `router` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/router?s=regular router}
  * @preview ![router](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/router.svg)
  */
-const Router: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M198.6 105.9c-9.9 8.8-25.1 7.8-33.9-2.1s-7.8-25.1 2.1-33.9C216.2 26.4 281.1 0 352 0s135.8 26.4 185.1 69.9c9.9 8.8 10.9 23.9 2.1 33.9s-23.9 10.9-33.9 2.1C464.5 69.8 410.8 48 352 48s-112.5 21.8-153.4 57.9zM64 352c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16l448 0c8.8 0 16-7.2 16-16l0-80c0-8.8-7.2-16-16-16L64 352zM0 368c0-35.3 28.7-64 64-64l264 0 0-56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 56 136 0c35.3 0 64 28.7 64 64l0 80c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64l0-80zm104 16a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM352 160c-28.6 0-54.9 10-75.5 26.7c-10.3 8.3-25.4 6.8-33.8-3.5s-6.8-25.4 3.5-33.8C275.2 126 312 112 352 112s76.8 14 105.7 37.4c10.3 8.3 11.9 23.5 3.5 33.8s-23.5 11.9-33.8 3.5C406.9 170 380.6 160 352 160z" />
-    </Icon>
-);
+const Router = createIcon("router", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABiQAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCJQsGAAE2AiQDCAQgBYMtBy0bIgXIrgZsJz0wWVSVmaTiGuGNqGg/XR/u8fD8/v5b+1x8gPEPktHEOFGuU+FEdiGJJbyZNk4/v3vu3d0fY0RjbU7LS/RbNgXT0p4PymgN65793N1c2rxkUasuJTuaRSVC4tHwRFxo/KzhOO+oO9p0uRJif3HqeWxTAJ8T8aDsabmAdCzd+7wCPa9O3+fheq9gFcXuzvZMGtonlpQl/J7leFwhj/cYQEG6RHzD2fSl8VufOUmRAUC0AgCLN0d8cF/Bn8Dn6hPiq+VAQCwGGIXIkGEQgnlIgUGUUSCXCypBVPE/cBQEECUwmnx8jlocAg4DkIOkzCnS1jhfJ2wouJR4A5WVudu95N71rsSTnYvB1JskX+Nvo+ikE/CczY15F2PO4Sy7MgljK8UNxOXUig/YgCuZDR/wYno9zonV7GYIN97rW4ivhpZTrrFYk0Rjm6Ph+60ZbzY1O23z0rf8C3zYKPu//m/8ffL8vmh2+u8UpuLvyHilOYhXeQX5HFHfBtpucmax1yJF9trNNqGwBiveHKVmKz/UZY+DrefhHYff/f1/IN6+un+aHfz3cx8IBK8bT7ZbWrTjtQ0kgB8v/0+vq75KxrQJ1EogyCZXJ5skIwCZCORT9GmUPQaSXe4xq0bnBQj1CJCU6gXIDNAEcvUmQWFYQ5w8vB5Z5EwInaYASaP9kJlhBrlOeyjMc86VOiMzPdlw5J9fhr1FbLtUlWI53A0PO4piTSJt9sLTQTpwExm4CHkNdV05WSXdhm7zFXtq7Bpl80MqFUVlYV3h5f796bicto6Shnrcpid8Pk0L9PkZiEmYc4q6JBGJ9hrMNgAAAA==");
 
 export default Router;

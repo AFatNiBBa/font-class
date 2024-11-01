@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-circle-check` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-circle-check?s=sharp-thin house-circle-check}
  * @preview ![house-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/house-circle-check.svg)
  */
-const HouseCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M293.2 9.9L288 5.5l-5.2 4.5-280 240 10.4 12.1L64 218.5 64 504l0 8 8 0 322.8 0c-6.9-4.9-13.5-10.2-19.6-16l-7.2 0s0 0 0 0l-16 0s0 0 0 0l-128 0 0-176 32 0 70.6 0c1.5-5.4 3.3-10.8 5.4-16l-116 0-8 0 0 8 0 184L80 496l0-291.2L288 26.5l193.7 166c4.7-.4 9.5-.6 14.3-.6c3.3 0 6.7 .1 10 .3L293.2 9.9zM496 240a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 272a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm75.3-184L560 316.7l-5.7 5.7L480 396.7l-42.3-42.3-5.7-5.7L420.7 360l5.7 5.7 48 48 5.7 5.7 5.7-5.7 80-80 5.7-5.7z" />
-    </Icon>
-);
+const HouseCircleCheck = createIcon("house-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABjwAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCYgsGAAE2AiQDCAQgBYMtBzkbawXIjsK2nfN2luTDEBQ5QiXn4f/t+m+fW/UA16cwJDNHVE8kr9yREKkhRoeXlpC0X8f8X/P5PY8G+Xx3wod2t6jitXc/n8BAIy1aaG3D2URx5q6mzPfKY0kLlsTjtceXWuD2kMc/HK2C9ED6CLfJh8aPelxNkmUAohkAy/bs2KT0dXwd8WH5RcSHNiAgloFCIEOGfgEWygT65QrkcsHXUS7zf2BBAFEJd5NAjkrciUcBOUjyPF/Q19dTV9GQ766rqD2us6OzPQ6PjtgSKURdw72dGldERVBFy6u7r0trhXWz2BO74r66m+p277ppnMRT48LlYz0wtTeOTyaumFChunTTgj739Sknrpi88//EuXdiu3zSzHt1e64l7YzF0Rni7ohFGemKPaOHP92cPw/76NiPGPniCtyQrl89ZLwB1apXPH59FWgGl3tGsaZrzNnV1V5xuRE+fdY7jzm8qqLiqxc/+GFEidJAw/DhDQOl0giVx8uaxyTStGGjRw+bltIYyiPX+pefxtV2sm69B+30tFXK7LTTli12AYHgpPP//OawpoV/V1sC3772649yeVYupcvT06iWQJBNLE90MF0ug9kBRFKca7jxRYHkRjm8a717BQi1CJBUqhUg06dZgFytCQJUGDRLgEq1dshEXiO0O6SCpN4ZIDPbJSDX7nlQYaF3w5XaI5sp8yvZuzD1ag2tGlZMmzy1mF9M84rc2UT9C4pl89hzU904WulYpznV2Y5xtBOcrcgzbYqd4xSrLXiVHypMM9lUhfmK7dKtereKnOksJ4wV+4MsUJz3j3Wu3Xoc2RIITpeSJCK1eq1+0h8e7SQvBwA=");
 
 export default HouseCircleCheck;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mug-hot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-hot?s=sharp-regular mug-hot}
  * @preview ![mug-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mug-hot.svg)
  */
-const MugHot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 0l0 24c0 16.1 7.5 23.7 23.8 37.9l1.1 1C152.6 76.6 176 97.1 176 136l0 24-48 0 0-24c0-16.1-7.5-23.7-23.8-37.9l-1.1-1C87.4 83.4 64 62.9 64 24L64 0l48 0zM48 240l0 224 288 0 0-224L48 240zM0 192l48 0 288 0 16 0 32 0 16 0c61.9 0 112 50.1 112 112s-50.1 112-112 112l-16 0 0 48 0 48-48 0L48 512 0 512l0-48L0 240l0-48zM384 368l16 0c35.3 0 64-28.7 64-64s-28.7-64-64-64l-16 0 0 128zM224 24c0 16.1 7.5 23.7 23.8 37.9l1.1 1C264.6 76.6 288 97.1 288 136l0 24-48 0 0-24c0-16.1-7.5-23.7-23.8-37.9l-1.1-1C199.4 83.4 176 62.9 176 24l0-24 48 0 0 24z" />
-    </Icon>
-);
+const MugHot = createIcon("mug-hot", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABggAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCMgsGAAE2AiQDCAQgBYMtBy4bMAURFZtjyH4kxsbaGs8ItamHky6IRqr6JB7+sfO7bzL5mOSLC7hzDamFKrCnO8CtmiJnW6ncBIBPv03M4r/+Im4VGpVGE5t4W00rYVOnnuc8FMA/j3DQxqY1fXsuNLvGeQGn2NBewQs0Fo5lWgGruas9kET3k7TIEuuv9vjaQBov4rA8yZnkIw6VK43POhwkkc8BiHoATFk4d7q3pShFfCg/Eh9MRUBMAT0FcsihqwDj5QS6SvVEKhWUolz2/4EggKiA80tAikrsxAFAChL5NO1V3VHXu5CvSRcU8tlSYW/LiZaWONFxpkNkEbGv9WRra5zsPNsZUZgn1EREcWIhq3k06Fq38wOvjs1CiKwYYFdP0YUrQ250OTv4ev9xl+xtibi2LPS+Xn/9a6+PGz5ufNOOt4sLFz7j3d23xXYjtePGpO8lWqunkp7lkSMP//j+v67u//cf9SNdctZIJSP33Kkn73JDQ5bFG71cb++lhdpC9LaiHQgEKyZM+LeybvzfqkICPj3//l39FZXfJpLrqJKAIDe0PNSyBCQEACCJHXonEEhsk4ddLTopQMgQIFEhEyCni3oBUpkhAuR1N06ACpm5ciKtFgxi6IChuQNW6gs4xA/wav9AQIK1QNJ+yP9fXMuhZh4C10eJZaZRRoWn4Qrbov4JTQatpObr5TWN24shjy5+n1sJbr4IAZcPSjguHxf30+O5XS95lAr0Xd1H7myQwgBmSGCeIJ2I5/firBtf");
 
 export default MugHot;

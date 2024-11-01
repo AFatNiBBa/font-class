@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sandwich` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sandwich?s=sharp-thin sandwich}
  * @preview ![sandwich](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sandwich.svg)
  */
-const Sandwich: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 80l0 96L16 176l0-96 480 0zM16 64L0 64 0 80l0 96 0 16 16 0 480 0 16 0 0-16 0-96 0-16-16 0L16 64zM0 320l0 8L0 440l0 8 8 0 496 0 8 0 0-8 0-112 0-8-8 0-112 0-2.4 0-2 1.3-67.6 45-67.6-45-2-1.3-2.4 0L8 320l-8 0zm16 16l229.6 0 70 46.7 4.4 3 4.4-3 70-46.7L496 336l0 96L16 432l0-96zM130.8 224.5l-3-1.1-3 1.3-112 48-7.4 3.2 6.3 14.7 7.4-3.2 109-46.7 125 46.9 2.8 1.1 2.8-1.1 125-46.9 109 46.7 7.4 3.2 6.3-14.7-7.4-3.2-112-48-3-1.3-3 1.1L256 271.5 130.8 224.5z" />
-    </Icon>
-);
+const Sandwich = createIcon("sandwich", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABeQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCPQsGAAE2AiQDCAQgBYMtBy8bPAXIrgZsIpMzCs6HeiG7JVoLLQj33Y4/fBSa8dCz37c782RFvKkkzxsVs1BYIiVsQ+z0nyqlqEb8YH/1Zq08f5PZ1DaBPqhdbBfdWMomM5gLhHS70x9sVJBFnnHumfSUZcUrs/9CqJ3+3p3/808f8J1/4Y80xmpMW2OdB5IFmHVpFyXaZYEFlHgClropVVREhFwWcbphGcXjLDue3aGMVw9IyecJLvlN4ycjnklFAYDoBgAOz0tFfE2n/nfiLUcgIA4BphEKFBhHYIdYYJzENCiVgnf2+B84DQFEDTxNghJNeAwuASVIVSlRmjezU11pJdWQqmaQ9iDSDodahRCiTUs4VvUhy+MqiydWtdlaDpW6otUhz1UTop2otgzYJNnytFhhcVBDas/vjWq8M/D3HKiLOy53ViX6DAz/vPc3atmj0PwflLwo2cWaZyD6mg9iR0IBb8L0QII7F1sBt2C34mhrZL3kcRljh1+SI13DnV8grHj+GiAQXH/zrbcz8wsR4MP19yf/hlI20CxBUCz2onYCkgAAZFxjTwikR6Twqu2eCBBaESDVWgUojDEgUGq1gEBlUhSBWqtjYlEqEfp1BkjtHoLCtidQ6vcCKju+k7X+KMyQMiLqLzC+MEP5U7zmC3CKt32dtiyi7Kf5tT57neacdBVTO1tnE2ML5wk5KmaubBQkOO+DWJBPAEth9ej75aqJo5OFnW09JI3Phxyu5dVOskSAua4pJZGKjz5+sxjNAQAAAA==");
 
 export default Sandwich;

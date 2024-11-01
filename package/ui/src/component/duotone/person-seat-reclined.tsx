@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-seat-reclined` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-seat-reclined?s=duotone person-seat-reclined}
  * @preview ![person-seat-reclined](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/person-seat-reclined.svg)
  */
-const PersonSeatReclined: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32.5 165.9L65.9 343.6C77.2 404.1 130.1 448 191.7 448l80.3 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-80.3 0c-30.8 0-57.2-21.9-62.9-52.2L95.5 154.1C92.6 138.7 79.1 128 64 128c-2 0-3.9 .2-5.9 .6c-17.4 3.3-28.8 20-25.6 37.3z" />
-        <path d="M128 80a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM257 256l8 32 53.8 0c33.3 0 63.2 20.7 74.9 51.9l25.5 68 18.7-6.2c16.8-5.6 34.9 3.5 40.5 20.2s-3.5 34.9-20.2 40.5l-48 16c-16.3 5.4-34-3-40.1-19.1l-36.3-96.9c-2.3-6.2-8.3-10.4-15-10.4l-78.1 0c-.5 0-.9 0-1.4 0l-6.3 0c-29.4 0-55-20-62.1-48.5L149.8 219c-7.5-30 15.2-59 46.1-59c20.4 0 38.4 13 44.9 32l79.2 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-63 0z" />
-    </Icon>
-);
+const PersonSeatReclined = createIcon("person-seat-reclined", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlgAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCLQsIAAE2AiQDCgQgBYMtB2QbYwXIhof3c76d++xE7Wd0iWEACbUvbQd4OcrENc/fmh6wWB+sgiIXiZHceT6BnTfOE6x8QtMZ2gbnTTqkkIaQfoY8fs4uVSLdlb7FDfH/AMYvOl1KMjADEA0AWLTHlnU+3BE7UnxbeZX41loExGJQCGTI0CPAXJlAj1yBXC7YkSoVdkSlUhBAlMVg5uVllHA6LgXkIEkiz2sXDK4u1ea7V5eq9rlnxBPDHuu8c+ijwx/v2q2zq7M6rpmW7hYj4o7W2/Shlltbpsatbbe37R68rCqujouquNp2jZ0ad3c/01+7yl4wXMiPVFXts9vuu903661pc6P9Ds3e4CNguDH86l2Wn9M6+OmGp38b9O3h37rghKrjzznn+KoquPCFC9L3Tdc5b94dHUsM88mjr82du3qfTypeefXRtUMONPPB9YIoa/+/ZmvLVss/+vHEeG+DuiuvrJMVCxSdxUuseN2Ynj83btE26qirXf5AR16YFR8dffZYIBCcOn9vB9TP/W9AdQK73v7jn+bevsq22JWexgAJBNnYylj7JvoQY+wS/KgUpxucuFCfQGathHxqjdsFCFUIkJRVCZDp1iBArsoYAUr6TBOgrMoWmcgHCi32G4ikxklEZrrziFyLV4iSub7IlLVE5v9E3yP+/qUtnwLL1hWTxk8sZhe7TZ3kpXi9PKe4bI48nQ+Ngicd7gTHO9VhDnWUUyf4ydblT3Oc5UfYMl9UmGS8iQqzFY87L43dTYKTncL5beX5KnMU38dGOv148ii4mQSYbHNVGZEi6/Gv+riQkx538mGHeFP30HHeeXLfjuJ8AQ==");
 
 export default PersonSeatReclined;

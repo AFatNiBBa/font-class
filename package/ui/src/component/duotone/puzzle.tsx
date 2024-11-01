@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `puzzle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/puzzle?s=duotone puzzle}
  * @preview ![puzzle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/puzzle.svg)
  */
-const Puzzle: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 288L0 448c0 35.3 28.7 64 64 64l160 0 0-64c0-8.8-7.2-16-16-16l-16 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l16 0c8.8 0 16-7.2 16-16l0-64-64 0c-8.8 0-16-7.2-16-16l0-16c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 16c0 8.8-7.2 16-16 16L0 288zM304 16l0 48c0 8.8 7.2 16 16 16l16 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-16 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l36 0c6.6 0 12 5.4 12 12l0 4c0 17.7 14.3 32 32 32s32-14.3 32-32l0-4c0-6.6 5.4-12 12-12l52 0c8.8 0 16-7.2 16-16l0-128c0-35.3-28.7-64-64-64L320 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M0 288l64 0c8.8 0 16-7.2 16-16l0-16c0-17.7 14.3-32 32-32s32 14.3 32 32l0 16c0 8.8 7.2 16 16 16l64 0 0-68c0-6.6 5.4-12 12-12l4 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-4 0c-6.6 0-12-5.4-12-12l0-52c0-8.8-7.2-16-16-16L64 64C28.7 64 0 92.7 0 128L0 288zm224 0l0 64c0 8.8-7.2 16-16 16l-16 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l16 0c8.8 0 16 7.2 16 16l0 64 160 0c35.3 0 64-28.7 64-64l0-144c0-8.8-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16l0 16c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-16c0-8.8-7.2-16-16-16l-64 0z" />
-    </Icon>
-);
+const Puzzle = createIcon("puzzle", true, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABvwAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDZwsIAAE2AiQDCgQgBYMtB0gbAQbIjpPlZjJLPHy/9ui5b/cH3oZhA4wqUUBQIlIhkC2ruKIi3qlFVf0z5Hz+/7+fx5cN+AyG9v79uUiqwAKJaFyDDXBa5QMe8HCmM7AN22YGlVaPg47jE8r4unhMi/R2+govNv8DGH8Z6DGSzgWA6AGAFVs2rHe9iSbFV+33iK+sQ0CsBLVAgQJDBFisEBiiVKNUCprUbtNEu10TQHQApAVbh+DNfsCvgBIkSSrLWbNmzK9aXcvNVStHlas3+0c83P/N6tm+rxOv960i4s3+VTzb/814uN8bOccb/cK7Ocf58ZcHqITX+uR4ps9rHur7elUtzxJVXJp0bfASPKMWDyXzM/3eiF6O8PaEK2OqDAbhNmzDvdTZcAscZ7I1no8Ij4DnwCnUedCDe+BGeBg8kdoee2fi1bHzW0de7XH1H18d/srp5SCt6dZDt6ee6pYTsqBZbrV8uuzvLJ3Os3VrXnK6Z898ullu1K0RN90spydMLy2ZMN1hptOAy3OYTLHcvg7LV3umdZ8Oyq4y1eHaaKfzs8T5NK7dDznZ9JB8HQgEHx9s+Z7ui//vVCXw5yf/nfyQtK8n6So6SSAoJrcn25lAIgAAKe4wMgGBwjEJONXFGwKEjEZJBxkVBuuBStkk1DLMHGLlCRsUouws9LHLR0kXN6PCXPejUh/vopbFPo130CcKx005TerfMtNam7dmUz1j6vR6YT1ZJGn3CrPDi+rVrvF39Jom+DsddqMb3OaQg465zTLcYn3qdqesnVOt8UW1GaaarrZQvbty37Q5jN/iVsfG2f2zLFKfHxzvjvnOE/wPJsBM4HShIFIU3W66/Z57Th6a8pHYepjs2wAAAAA=");
 
 export default Puzzle;

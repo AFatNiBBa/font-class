@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `avocado` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/avocado?s=solid avocado}
  * @preview ![avocado](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/avocado.svg)
  */
-const Avocado: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M459.4 255.3c-18.5 15.2-33.5 35.6-38.1 59.1c-10.2 51.9-34 104.5-66.3 136.7c-81.2 81.2-212.9 81.2-294.2 0s-81.2-212.9 0-294.2c32.3-32.3 84.9-56.1 136.7-66.3c23.5-4.6 43.9-19.6 59.1-38.1C283.1 20.5 323.2 0 368 0c79.5 0 144 64.5 144 144c0 44.8-20.5 84.9-52.6 111.3zM283.2 347.2c41.7-41.7 49.1-102.1 16.4-134.8s-93-25.3-134.8 16.4s-49.1 102.1-16.4 134.8s93 25.3 134.8-16.4z" />
-    </Icon>
-);
+const Avocado = createIcon("avocado", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYAAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBJwsGAAE2AiQDCAQgBYMtBy4bpQTIjtFjRz6SNa5EBiM8XjzU7/d6du8NEOikAKjqWHcqFKCsAnSkWFVIINsY86eWQL//2Z9/797SfLrulqyKtCXxwwrlJ58usVRF/t/N5/f86AC/0aGtBi4NZIHP+TyBMLBenpdIdmCZJmCZtzajKOW+yUST9Hhlj1+vTqjxpgxpIx/nHe5XReOrKUOkrgIgBgGA/adCQThqYStipVknVhwBAmI/ABYhCgpmIdiFEZjFtghUVdCKpgn/QAIBRDvcmqCiYhuwF4AKUtY6N8Jt66snkzrdZ6bEk9o55RPn1tGXuHZs1rPr2NScxs5378vfAuFFGcaTpRnrmnNOPKmadmx6FDOimXf5Xcmdzx8vB1qZcuU/FPp/DIUer5uMJc7uYS9+ut4mxkOqxdSXDRy+OhIOCX/Z5DoQCHqfvhzNCXf97+Qm+PL685s+I81RylfolCAoqxqtdIIkAAAZl0CREEjrsOCpvR4IELoRILXrFqCYIYKg6rYMQZt5NgjadTuGEbVLGJXpkHqdhWKLbqhGrUKbXS79dqNRfEfcvHi6Zfo18q2RSW8kN01jTboDy3MPLVvKllhT8SGUqFWjSbEi5ZoUaRCMmlXzW9jnRcREz4i40Xb2uB9VrEGjcrVqyhIPOu8ptdjdKnZZQN1gKyWRHaf/oLSLagEAAA==");
 
 export default Avocado;

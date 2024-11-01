@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-9` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-9?s=sharp-regular circle-9}
  * @preview ![circle-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/circle-9.svg)
  */
-const Circle_9: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256-80a48 48 0 1 0 0 96 48 48 0 1 0 0-96zm96 48c0 31.7-11.9 62.3-33.3 85.7L250.6 384l-65.1 0 14.9-16.2 44.4-48.4C197 313.8 160 273.2 160 224c0-53 43-96 96-96s96 43 96 96z" />
-    </Icon>
-);
+const Circle_9 = createIcon("circle-9", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABewAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCAQsGAAE2AiQDCAQgBYMtBy8bAAXIhofn86Q/9yXtAMoA0vfK8hLAulM3zzuPAnywxEIbC5cGssD2PE8gse6tNlEWWKYJWCzpNvFZRyg+HSEiJBEdp8cXtEEez8SFSqSr0ru4QG4av2rmLJJSBiDqAmDs4vkzvfhVfBXxTuUx4h3TERBjQSGQIUNLAUbIBFrKFcjlgq+iUsE3sCCAKNNzCeQoYx12Ev8DSZ7nLVrUalKjVCtfVKNUff3pvSLun/Z29bOnvNnjXqf1vG/qWzXOmf5O7wei5hfjI16Z/UGNc2a+N/alhZ+OeXHGu9XPnvX+uJcXLb616ZXNrup4R4trml/daeGNPRZE9WgS4+Pxbne3vqH7PYMf63pXq3Z3173797bvbnrXBy8MfZ77a9YYPLhGzfufHzr0eYN/aGI1mj3y0vjxLz3SrJqJ3gtLZfaNPzzxxA83jomre/tv/FRjfelFE45uLVW9++7TTgOuKhDnXl+w9rLVdUb8X7VGAt88/eef+C2qvJiku1FVAkHWo9LDigQSAQBIcUi7BIFkmZxctabLBQjVESApqy5ApoW6AuSq6y5ASWsDBSirbr5M5NWEhlYaSGraCzKDnAS5hh4BJSO8oZU1jKzQ6DKh33kJkzwycajo26tPMaxYeiZTO2TvDi+2xS6HWqYrQW2y2y4HbLTBVgccts9M86CdJmXoRA8q9NVLH4VhiuPwOL7IRvvst9Vuu7jPcMV9tYtDeXlXUhIl7MeWJCJV/Y8j9RwKAAAA");
 
 export default Circle_9;

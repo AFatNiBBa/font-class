@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-bullet` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-bullet?s=thin chart-bullet}
  * @preview ![chart-bullet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chart-bullet.svg)
  */
-const ChartBullet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M280 32c4.4 0 8 3.6 8 8l0 24 176 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-176 0 0 24c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-24L48 224c-26.5 0-48-21.5-48-48l0-64C0 85.5 21.5 64 48 64l224 0 0-24c0-4.4 3.6-8 8-8zM160 80l0 128 112 0 0-128L160 80zm128 0l0 128 176 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L288 80zM144 80L48 80c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l96 0 0-128zM376 256c4.4 0 8 3.6 8 8l0 24 80 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-80 0 0 24c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-24L48 448c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48l320 0 0-24c0-4.4 3.6-8 8-8zM224 304l0 128 144 0 0-128-144 0zm160 0l0 128 80 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-80 0zm-176 0L48 304c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l160 0 0-128z" />
-    </Icon>
-);
+const ChartBullet = createIcon("chart-bullet", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABogAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDLQsGAAE2AiQDCAQgBYMtBzMbsAUjEaZrSyL7Y6HcHrErMrCX/4uH/9dZ3vel8ZmVl0HLzBVQkKALd0mHXKZ21r7r/8/l9Abd8wOcYp9uIo3ZGMM2hXs/TyDRPF+YZ4GVYQKWuWkEv0GQW0Tk4aWEDGPosJReII/37FBHuid9iZvSm8Y/2rlMkmUAoikApq5evtDHP8aPEV/WEF+aj4CYBkqBDBk6CjBBJtBRrkQuF/wYtZr/DywJICrwuARyFHgbHwFykNTnecbABs2amUq1rlG+yj2h2H1HK1GNJ1rd0U7c3fL2HkWI21ve2TqiiCdb39k+4r42d/WuRsRdbVYINVpUrXPdUvXlC63vLPCV1eLalrcT51vdUa1GrJSEDXlt9IBuzzZ99r+uX+76UpuHtlTaetmQb7/Kpsi++nbIy9qqbNnAH/EfU6cHnwfniPOOnG99WeOrr248JadevnkLBvraFuf/eIkPlwSXiMIp+BTsLvRm4uaH4ZLUkpcfxgAhD18PBIJLg7/+ZnOTCf/XV10T+PndLj8jtR+T9CzqJRBkA2oDbEggEQCAFKd0SxBIXlYPr9rQnQKEAgGSikKATAdNBcgV+gtQp7ORAlQUlstE3kC4bWljo5KGjlKZUc5QuZZeo+pM8EmtomVk6mson/H1mDtrxGeeKocOGlKOK48D1dRILR6OLx+H+5wKC33prF0OO+SEnXbY68RAHrOwedJBs25g5geVhhpkiNI4JXv87K4ytWOO27sP4B8zXimf7+PUfX1fiiVQHKYtSURq+OIGBv4xCQA=");
 
 export default ChartBullet;

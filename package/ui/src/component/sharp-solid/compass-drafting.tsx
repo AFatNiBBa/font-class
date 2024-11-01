@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `compass-drafting` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compass-drafting?s=sharp-solid compass-drafting}
  * @preview ![compass-drafting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/compass-drafting.svg)
  */
-const CompassDrafting: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 96c0 14.1-3.1 27.6-8.6 39.7l53.9 90.3c-23.9 26-54.9 45.4-89.8 55.1L256 192 188 309.5c21.5 6.8 44.3 10.5 68 10.5c82.9 0 155.3-45 194.1-112l55.4 32C455.7 326 362.6 384 256 384c-35.4 0-69.4-6.4-100.7-18.1L91.4 476.2 0 512l0-94.2L64 310.7C41.3 290.4 21.9 266.5 6.6 240l55.4-32c9.8 17 21.9 32.6 35.7 46.4l70.9-118.7c-5.5-12.1-8.5-25.5-8.5-39.7c0-53 43-96 96-96s96 43 96 96zm20.9 297.9c33.8-13.3 64.7-32.1 91.7-55.3L512 417.8l0 94.2-91.4-35.8-47.6-82.2zM256 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const CompassDrafting = createIcon("compass-drafting", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABcgAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBdQsGAAE2AiQDCAQgBYMtBzcb/ATIjtRW94RR6eD5f7t/97kzH/B8U1EHo4pLuXOVldYdWb1G+AFU9cf9PP9pnwrk2Sf7aFFYVCAFHr0+n8B052lRuhtNIH2mE7BZO7uFj/6zSZLyJMP4hkmOQJfb2gbMQB1Vz4Dd8qDyES82gMJKAwBAHAEAgML25loevJE3Ik9NV0GeUg0IgBQCYCCABmiALwJADhoC+KJjADo6Am/EZHL/gQYIAIg56boKAB0wAzqAGQBAB0Ch6XqytYuNmZ3eFra0Hl/j2Sp3StqkRc7YPKx+mlwpL1qI25bVItuLtMutuGo5Gtkux+R09KX0q5EX/Dqf5s+TyP3aurZ7iByWte6HrLe5HmCN20GboIuOFz8HPht7Rn+/27rUTtLrkjsoXs7/kDexfs9XE1ZQEIYbNpD63Vm6gukjfwr/8XneF5ctZ52b5cWL9bhGBq+Lq6NP/yi+cZmV/RbYYm+/hfkAIJeVxzi87HfI+Y2NAuDdra+fyb8i0wOFughYogAQ0GJMMfQoABQIAAAAoGQFQQpAAEUDGpLYcgg5mVgDQoE51kg0fHCsoGNNNJjhT6q4uLgZDdGtEFzpBShsWQSNNFaCjiuXwYwcHobmuIpmYrKByC+8jLIWKZ1lJMYlGFnGMFUUqxHjZLaxbEas8K1IbGSMeeZYxigjTLKsoZdQmyxnljKNKuWLGCQSRwIGWRjbxf3qNkZZwlImmWeOp8nGOB9EsELvHwlHkQSTmKtQIMrx77e3dGnsTXMn58YBAAAA");
 
 export default CompassDrafting;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vector-polygon` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vector-polygon?s=sharp-solid vector-polygon}
  * @preview ![vector-polygon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/vector-polygon.svg)
  */
-const VectorPolygon: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32l128 0 0 32 192 0 0-32 128 0 0 128-63.7 0-4.5 7.9L352 216.5l0 79 27.8 48.6 4.5 7.9 63.7 0 0 128-128 0 0-32-192 0 0 32L0 480 0 352l32 0 0-192L0 160 0 32zM320 368.5L292.3 320 224 320l0-128 68.3 0L320 143.5l0-15.5-192 0 0 32-32 0 0 192 32 0 0 32 192 0 0-15.5zM48 80l0 32 32 0 0-32L48 80zm320 0l0 32 32 0 0-32-32 0zM80 400l-32 0 0 32 32 0 0-32zm288 0l0 32 32 0 0-32-32 0zM304 240l-32 0 0 32 32 0 0-32z" />
-    </Icon>
-);
+const VectorPolygon = createIcon("vector-polygon", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABegAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCQgsGAAE2AiQDCAQgBYMtBzUbRwXIHoVxs/Oki+bIYlHmv4iHj7ny/SRH2Sty5lSBAByBPlVwvK5kzE5tdfU2M2Ht+2wPgZj/a/KlXgN+ELnKVVIFeObzCex5Bs8TeDawmU7AZm2uh9BBiBuKfOr4fBFpWOKHtStk8SJNDcmzBB5tHxr/dHGdREMKIFoDYMqqZQuUK1GJ+FMd8cc8BMQUUAikSNFdgPFSge4yBTKZoBLVavoPLAggauFpCcjQgGu4C8hAoi7LhvRoQLZU0yJbua/J01JeEqWIdb/Io30MDjEgOrAWIp50KSK5Y+iQoXdnkAPRuYmdwojdoia256X8WTH4ytc0NddsO3l7+fLlQlnhsssmG+WdRb4bZfIiF0VDkxa/gzadC9N919o6xRFp1aoAT/bkGug1SZV2YNIbuR0IBDvntLizqdX4//WlBPz9dOlnpFqJctKMegkI0v7V/tZHGaIsAABJnNQUZQQS59TBuzZ6LEDIESBRKxcg1U1rATK5fgLU6GmEALVyy6QiaxDa23CBRKMjIDXSBZBp7yOoMd6PfK32kUaiGEfif2DaTEZmTCuGDBxcjC3cMpWCiy/j44phd++Tua2PnLXTIQcdt8N2exwn7qgFpRMOmNkjZviiwhADDVYYq5iubbWVlD/qmD1tZX6ScYr3472d7PfuI7NIAEO/IZ8vR9Ly5I5txw8dHXD40P4zuw4dBAAA");
 
 export default VectorPolygon;

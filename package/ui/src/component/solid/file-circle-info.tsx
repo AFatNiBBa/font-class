@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-info` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-info?s=solid file-circle-info}
  * @preview ![file-circle-info](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-circle-info.svg)
  */
-const FileCircleInfo: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 38.6C310.1 219.5 256 287.4 256 368c0 59.1 29.1 111.3 73.7 143.3c-3.2 .5-6.4 .7-9.7 .7L64 512c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zm48 96a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 96a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm-32 48c0 8.8 7.2 16 16 16c0 0 0 0 0 0l0 48s0 0 0 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l0-64c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const FileCircleInfo = createIcon("file-circle-info", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgwAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCJQsGAAE2AiQDCAQgBYMtBzcbLAXIjtRgrTKL8fD/Osv7vuQBaRk0i4hBrhY8YeCiA2pzUlLnep+fOlUzzkMBfA5B0PbQgCzPhdbsOK9AxYaNTb1qcVmxVlHs24YOG2UILQkJkojGy/GiPeTxU3alGum+9CNuqR8af+nrSpLWDEB0AcDinVvX+/T3+D3ih8ZbxA/WIiAWg0ogQ4YBAsyTCQyQq5DLBb9Ho0H/gRUBRBO5fwI5mnEZjgFykNTyfFhz/9bBZa1jvqOsFdkDYyNeGFmGqPe8q8TH+HLeh1V9/Euz7yw6xNNjnu+XHS7KImL79htmR7w3/iX1cS/Oere4fs77E16O9omvzP2g9Ez/+0c82ee+4ePu6tke7SHQuLOHiZTlPb3v7hVRxIJvP+T5Ls//3fbjaT+qF13p+uij6jpde22nupFOzh/Xcfy0ab0X1Xi0a9eifnJhXdZx8uTEgyMTaXLbiBFtk1MaaRLkHdrcs+fmtqzR6XeYBH7vhFaXLmwuopDrgUDw+K93Pdh53j8tZQJ/vu9/ulzj07QoPY8WCQTZuMY4+9IiQGIAforLDHG+KJCcp0betYO7BQgFAiRNCgEy/XURIFcYK0DNINMFaFLYKhN5q9DD/g6SDi4EmRmOg1wPb4Caeb7xmvSILPSYwGFefokrLLp8XjV5wqRqTjVNKBtNVJ6eWy2boy5LjdGw0mnOd55LnOoUZ7rE4BdZH17qXCs8bLkfqkw2wSSVOart/HHxDqe6yMXOdL7zeJa5qvPuKJf5/aPBSYR0iliSiNTlmqvjP+lI4681AA==");
 
 export default FileCircleInfo;

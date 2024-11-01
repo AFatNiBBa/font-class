@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shower` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shower?s=light shower}
  * @preview ![shower](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shower.svg)
  */
-const Shower: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 115.9C32 87.2 55.2 64 83.9 64c13.8 0 27 5.5 36.7 15.2l28.1 28.1c.5 .5 1.1 1 1.7 1.5c-33 43.9-29.5 106.5 10.4 146.4l4.7 4.7-16.8 16.8c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l192-192c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-16.8 16.8-4.7-4.7C279.3 56.9 216.7 53.4 172.8 86.4c-.4-.6-.9-1.2-1.5-1.7L143.2 56.6C127.5 40.8 106.1 32 83.9 32C37.6 32 0 69.6 0 115.9L0 464c0 8.8 7.2 16 16 16s16-7.2 16-16l0-348.1zm151.4 3.5c31.2-31.2 81.9-31.2 113.1 0l4.7 4.7L188.1 237.3l-4.7-4.7c-31.2-31.2-31.2-81.9 0-113.1zM416 200a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm-88 88a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm-40 40a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm72 56a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm-64 64a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM424 320a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm88-88a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const Shower = createIcon("shower", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABngAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCYwsGAAE2AiQDCAQgBYMtBy0bYAXIHoexY/qZjq09CnIEz6+Jzfu7SQnTtLxFIsekANHx3Tlix0KX1KGsveTXe3w+pP7O/+We36Q7OsBvdGh72vkGm83xPIEA0zxfy7PAMk3A2p3tQZGWlNCIkRznjk/ZQR7fRj8l0oP0B675D41/tHGaJM8ARFMATF65dL6f3sbbiD9qnxN/mIuAmAIKgQwZ2gswTibQXq5ALhe8jVpN/QcWBBBleLEEcjTAdTwG5CCpl+ejmtXDqEGpUb4iPrv+2kfViHs9L1V6x/HKJx2e9K5Er7hduVNdGfda3W3ZLVrFRyO+GHW3fp/4qP5nvV62T3Gncq+aLf+4QcSlTWUZuzlO9F3+sMfT1g+6v2i3LHDFGNehy41FDlsp8Gfq8lHTj/7r/MemP3SaW3rNf4sq/38r7K32ej0NDx/Wuxcw1X/7TlTFt853GbT5ULZO47dvG6+7m84WFGeH2bPHVFuKYvOfCyuLF1cMvnIlV43DLTFzpFHzwbFjEKxcubI/EAj2fnp0xn2o2yCB99/0If2M1N4m6SPUlUCQ9av1sy6BRAAAUhzSJUEgOa8efNeG7goQ6iNAUlZfgEw7TQXI1ddXgJKOhgtQVt9SmcjrCS2tryBpaC/IjHAE5Fr6FJSM83NS1jIyyeTkinsYJs+g0PR1xeABg4oxxbSReWFj7PLYYtvudUgP9YatNtltlwM22mCrA4TaZ35+0E4zOHK6LyoMNsAghTGK4869vIIk++y3dWw4X2Ws4n7YyyF+cm/wEqQdopAkIpW/7ij7AAAAAA==");
 
 export default Shower;

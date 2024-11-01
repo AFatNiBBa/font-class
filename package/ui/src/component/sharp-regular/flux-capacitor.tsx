@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flux-capacitor` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flux-capacitor?s=sharp-regular flux-capacitor}
  * @preview ![flux-capacitor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/flux-capacitor.svg)
  */
-const FluxCapacitor: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 80l0 352L48 432 48 80l352 0zM48 32L0 32 0 80 0 432l0 48 48 0 352 0 48 0 0-48 0-352 0-48-48 0L48 32zM283.3 253.3c6.6 1.8 13.6 2.7 20.7 2.7c44.2 0 80-35.8 80-80s-35.8-80-80-80s-80 35.8-80 80c0-44.2-35.8-80-80-80s-80 35.8-80 80s35.8 80 80 80c7.2 0 14.1-.9 20.7-2.7l-49-49L87.4 176 144 119.4l28.3 28.3L224 199.4l51.7-51.7L304 119.4 360.6 176l-28.3 28.3-49 49zM180.4 268.9c-21.9 14.3-36.4 39-36.4 67.1c0 44.2 35.8 80 80 80s80-35.8 80-80c0-28.1-14.5-52.8-36.4-67.1l-3.6 3.6 0 63.4 0 40-80 0 0-40 0-63.4-3.6-3.6zM155.3 164.7L144 153.4 121.4 176l11.3 11.3L208 262.6l0 73.4 0 16 32 0 0-16 0-73.4 75.3-75.3L326.6 176 304 153.4l-11.3 11.3L224 233.4l-68.7-68.7z" />
-    </Icon>
-);
+const FluxCapacitor = createIcon("flux-capacitor", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABjgAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCWQsGAAE2AiQDCAQgBYMtBzUbXgXIhufh53o79yXz2yZlSKsIYYFZAZEuyCV0LOSyRbV6Jq7Jf3/+9IBJ/CjRWFpcIE+Z5y8w0ApqndBGo+lMJ2A7mvfy1gD1C224Qp2384Ie5c3yE54Pb5q/TPIIRa8CkJEA2HLOsQO++T2/Jz/2PyQ/2odAtoBOUKHCVAHrVYKpah1qtfB7+n3xH9gRIAPi1y6gxiA8izcBNSh6dT1kzOLJM9resPpk22uuKVUZmirDLm/aRkqkHZZUSZrjr7Yfzzs74725Z1Z+MPvUVLLv3TmnVzw94Wjm5ljm5AgB5rmzc/j4J93s9ODasRFpEh8df3L8uPGzMy4nItK2nHxOJmRuxuZ4Ts46M/LMPzN/uvonz99yKSa61KWXLFpMJYjFFr/w0Tt/fqkdedXJ5ORVI9H97Uv86AlfWGqpLzzhR64eMX7KiHlTxi+zyWyHzcb2sonXnKUHr/aZvfvsMVJnpD2lwGeudtb2bf5hEISHf32vf8mI9f8Pbgv487P//qM/I/3f8005g8EKCNX8/nwX5hvINwIAKLnbrHyDoHhUD33WoV4TEA0CigGNgMoUIwXUGvME9Ey3QsCAxjGV1EPEWBcVSDHUbUhlpYeQ2ljvIz3rfesMGJsKKDmQ4p4Jk3dWwR2zuiULF3dru95QxsMZY8frusnK7LtlaQ7e62q3uNmdrnKl69xZgW93wL/LTXYOQTt8UWeJhRbrrNUtTm5uP+kqt7vDdW5xs5+yTre9Mdvdw81zsF7EpEttLgopw6++8a57F/zhwNwV");
 
 export default FluxCapacitor;

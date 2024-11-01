@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-snow` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-snow?s=solid temperature-snow}
  * @preview ![temperature-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/temperature-snow.svg)
  */
-const TemperatureSnow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M384 112c0-26.5 21.5-48 48-48s48 21.5 48 48l0 164.5c0 17.3 7.1 31.9 15.3 42.5C505.8 332.6 512 349.5 512 368c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-18.5 6.2-35.4 16.7-48.9c8.2-10.6 15.3-25.2 15.3-42.5L384 112zM432 0C370.1 0 320 50.1 320 112l0 164.4c0 .1-.1 .3-.2 .6c-.2 .6-.8 1.6-1.7 2.8c-18.9 24.4-30.1 55-30.1 88.1c0 79.5 64.5 144 144 144s144-64.5 144-144c0-33.2-11.3-63.8-30.1-88.1c-.9-1.2-1.5-2.2-1.7-2.8c-.1-.3-.2-.5-.2-.6L544 112C544 50.1 493.9 0 432 0zm0 416c26.5 0 48-21.5 48-48c0-20.9-13.4-38.7-32-45.3l0-50.7c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 50.7c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48zM288 131.6l-88 50.8 0-55.8 35.3-35.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L200 81.4 200 56c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 25.4L139.3 68.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L152 126.6l0 55.8-48.3-27.9L90.7 106.3C88.5 97.7 79.7 92.7 71.2 95s-13.6 11.1-11.3 19.6l4.6 17.3-22-12.7C31 112.6 16.3 116.5 9.7 128s-2.7 26.2 8.8 32.8l22 12.7-17.3 4.6c-8.5 2.3-13.6 11.1-11.3 19.6s11.1 13.6 19.6 11.3l48.2-12.9L128 224 79.7 251.9 31.4 239c-8.5-2.3-17.3 2.8-19.6 11.3s2.8 17.3 11.3 19.6l17.3 4.6-22 12.7C7 293.8 3.1 308.5 9.7 320s21.3 15.4 32.8 8.8l22-12.7-4.6 17.3c-2.3 8.5 2.8 17.3 11.3 19.6s17.3-2.8 19.6-11.3l12.9-48.2L152 265.6l0 55.8-35.3 35.3c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L152 366.6l0 25.4c0 13.3 10.7 24 24 24s24-10.7 24-24l0-25.4 12.7 12.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L200 321.4l0-55.8 67.7 39.1c5.2-13.5 12-26.2 20.3-37.9l0-5.8-64-37 64-37 0-55.4z" />
-    </Icon>
-);
+const TemperatureSnow = createIcon("temperature-snow", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABxgAAAL+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSEAgsGAAE2AiQDCAQgBYMtBzcbCQZRlM1Jh+znYWzMavwsXpA6IZaOpvnjG0ZtjQ5YvI/geTuweX83gDeAVLFMZ1a4qyB0gcqz/Pf32z2M9A1RSUw8QTRdh5Jf6IhYphEj+V6LlwEXf1eXjv/40/PTGj1KK9b0vSSho5RSxiNQKpZuFVvzYEAjirEtx/2QQxQKQYSImTz1wyZB7O0hj3vZQSVIJ9NHOLra8bU6IlRSJoOBqGwYBs+cOt5rj0MOjw//n/jQWATEYFAIZOgu9QXoJxOoL1cglwsex///o//AggCiJN4vgRwl8Qzf4oVsaJ7ny/ZA8yVEeXf7GG582gDMA1fd1ESWuidtgo/EN/yys8jcgt7zQeBhJYwYJtqP81j4ld8tveo5xWd6BgZgF34lZfcHbMvOD5xdYKIlF+tSN/UN2zOnRZQw18+0WsDKfzESPUzwRFdAsnDrUBM/bsaFz8cLBE8NKRmkUYlZj15My0CAEahHDiSvQw3I0ne3ADqQ/1xfBHTiNH1fNSZGuF/K19/10egjumZf9jH3O3W6/3F2VZ1P8/oxY3nlystnRP38UZmrHTf+gP8qXQjEW6n+riOvv36k+umtQLii0n9+uNDpPh9nle91VfHx44pd3aucfXy/01HLzM6yVk9NnTp18+aH6qgxeXKNOj7UaLd2Uz395TXjn37VYZB5Rt05UH+eamCPe/KPv2Ud5X0+rsNXubnKH7gzap5B0OEn417zl3HvHdrCttsl/eIXPYFA0GrjjpsLK/X7tTSfwNMX/LEfHv+/lgalWygtgSBr93/UvDRIMJHgSbFDk4ilDiX35Pig8o4JEMoiQFJSWQqZeipDrqy2UEJD3dnO2VNlIi8jVDcfkJS3GTI97Idcdc9BCf2865ZUPbJK5+uU/89MGWGx4Y2Kzh06FX2Ky5hDKF52ru1bdGutdlBOa6y0wkYbbLPcMqttM8QW433brTciw4f7oUJnHXRS6KO4ndwvnmG5LbZabaMNSz19FeOtVnbkxVvDTJiyi4FJIlLll0Bt/xUB");
 
 export default TemperatureSnow;

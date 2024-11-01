@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `i-cursor` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/i-cursor?s=duotone i-cursor}
  * @preview ![i-cursor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/i-cursor.svg)
  */
-const ICursor: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path class={generic.secondary} d="M32 256c0 17.7 14.3 32 32 32l32 0c0-21.3 0-42.7 0-64l-32 0c-17.7 0-32 14.3-32 32zm128-32l0 64 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32 0z" />
-        <path d="M29.3 63.9C11.7 62.4-1.4 47 .1 29.3S17-1.4 34.7 .1l8 .7C76.8 3.6 106.8 19.7 128 43.7c21.2-24 51.2-40 85.4-42.9l8-.7c17.6-1.5 33.1 11.6 34.5 29.2s-11.6 33.1-29.2 34.5l-8 .7C185.5 67.3 160 95 160 128.3l0 255.3c0 33.3 25.5 61 58.7 63.8l8 .7c17.6 1.5 30.7 16.9 29.2 34.5s-16.9 30.7-34.5 29.2l-8-.7c-34.1-2.8-64.2-18.9-85.4-42.9c-21.2 24-51.2 40-85.4 42.9l-8 .7C17 513.4 1.6 500.3 .1 482.7s11.6-33.1 29.2-34.5l8-.7C70.5 444.7 96 417 96 383.7l0-255.3c0-33.3-25.5-61-58.7-63.8l-8-.7z" />
-    </Icon>
-);
+const ICursor = createIcon("i-cursor", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABkQAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCKgsIAAE2AiQDCgQgBYMtB0wbSAXIjtRO9ZWw4uF5u/937TNzH8D5liKxjdukAlBUbIX6xv/fn6oZOCmADywCwRi+/q5tG6QbP3Yu7hV73vONc1qIqzXFTrl7OcC3c9jqDnmMyu5QIj2bvsbD7n8A41fd7iCpzgBEEwCW7Nq2wfs/xU8pvi6/QXxtPQJiKSgEMmToE2C+TKBPrkAuF/yUyvwU5YIAooIzOwMVKOEa3AzIQRJSnm9sbawt1ec7HV2z76mOiKc6nw7o9vb4ZMF7qzqjcD0J97c90dYWL3Q905Xi2e5nR7RHd8UTHR3x6cK3l7cFwk2EnVUbL/c+35vFcz3PjezYdUt7xJO12H1rEKmJ+5ZSdgm1cf8ixIjMr6kZ+lrTa78P+frk1/pu/uAa7q3vu+fp7y8xvVSafonvn7m7r/7eaz64xKN//11FVRJ59BJLLEy4+xldPsNY5bF1g+813MM9DYUmHzE2kEVuHlyMbSXxNAUQT5176IeeQ43z/6+qTeCXN//817nwJ+/F1PQaqiQQZOPL4+2PqyaY8ggBFqa4ytAAnad5oo0StLfOUwKEGlSQVKiBTK8myNUYByUDZpCFe7bJRF4ttDkAQlLnUsjMdCPk2rwOJfN9lqrQFtnjZ3t4bD9/uVc2+RXTiikTJxdzi9Giwv5EET08r1gcHn0VbxoDNzrpYhe5wgnHnXFFQ73MhuyVLlg5pazwQ4UpJpqsMFexuXLXvROnLnO5M8PO7ePMUxyfHO2q6c5j4GwSYOqF+1JGpMiazkz4JMU/4TkOtrScLywA");
 
 export default ICursor;

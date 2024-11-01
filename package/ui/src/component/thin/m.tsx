@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `m` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/m?s=thin m}
  * @preview ![m](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/m.svg)
  */
-const M: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M5.6 32.4c3.3-1.1 6.9 .1 9 3L224 330.2 433.5 35.4c2-2.8 5.6-4 9-3s5.6 4.1 5.6 7.6l0 424c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-398.9L230.5 348.6c-1.5 2.1-3.9 3.4-6.5 3.4s-5-1.3-6.5-3.4L16 65.1 16 472c0 4.4-3.6 8-8 8s-8-3.6-8-8L0 40c0-3.5 2.3-6.6 5.6-7.6z" />
-    </Icon>
-);
+const M = createIcon("m", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABUwAAAHLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBEQsGAAE2AiQDCAQgBYMtBygbiQTIjsQ4JvKLKOwigu/Xer/PndkNAE2Y0QEpZpt6KuCi1gVYuK3YVOSvL7dDat/1TX/zzzuPAnwgUhs73zg5nPM8gc6ndXnnY4kEFih/pm/eso2OUvomE02Sf7LHrwXyeGaXEulJ+oZb5aXxVwdXSLIMQDQHwPS1KxerVKMa8a0m8c1CBMQMUAhkyNBZgEkygc5yBXK5oBq1WvgPLAggyuqaCeTIMBijATlIIs97Nyo1yddEU8ONj9qsj43BYw+kuN/6Ydss1sFoeLXthtDHXmzXo6553T++7fmm9GrayF99/O6j57Lp5dfK27aVb/nUSY88b/m5k0d46I3yciAQ/J9//bK12aT/6jdK4M+Hxj+6Vo1KqkN9CQTZoNogm6ICUREAgBRn9IgKAklvCQAAQGMPBQgNESApayhAppPmAuQaGihASVejBShraKVM5A2E1jZ3kDR2HGTGOAtyrb0HJZN8VMpaR+Yw+HPj/7WYOQLNbiqGDxlWTCimlkb4AJqqE4tltt8ZRPrTrD2OOuKU3XbZ75RCTlisn3bYHAue7UOF4YYYpjBBse0+Tq+x2wkn7XfUkVxnouI8188ZO70/tZEAI64ahRwpDgMAAAA=");
 
 export default M;

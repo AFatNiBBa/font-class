@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `watch-apple` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-apple?s=sharp-light watch-apple}
  * @preview ![watch-apple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/watch-apple.svg)
  */
-const WatchApple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M80 0L64 0l0 16 0 48L32 64 0 64 0 96 0 416l0 32 32 0 32 0 0 48 0 16 16 0 224 0 16 0 0-16 0-48 32 0 32 0 0-32 0-320 0-32-32 0-32 0 0-48 0-16L304 0 80 0zM96 480l0-32 192 0 0 32L96 480zM288 64L96 64l0-32 192 0 0 32zM32 96l320 0 0 320L32 416 32 96zM192 280a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm64 48a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM152 352a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM256 184a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM152 208a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm-8 48a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm120 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const WatchApple = createIcon("watch-apple", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABlAAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCXwsGAAE2AiQDCAQgBYMtBzIbYQXIHoPjbgnWjZclr+dlizK1iufh517PfXmlpGPS/WqkxsISuk0zSkJVOeFZGBKSLIHO0Zi7n0e1m5q1DdVEoxTIeNX6jZZIZlWbicud/7cHyJqgaShjbV+DxlqaQKBPXb7phbKsLFFscdvVkqES4giJC9ScywCb8rQAboc3zVcK9xS1AZDpAMDmncM20E/kU/K2/yZvNYFAtgAsR9CgwWIErMMULMayHKiq8Cl9L/4DEQTIsIQt4FdMwU08BVRQdLVOjKFkNzSl7jAQ7d62a0VaIloiXYeWRLhJ0rax7lqMRc5b012ybcr4lJLxNNufqR4tT/IHczurh86RVj5FqpFjaMMH/+N/xdtDdN/wExt88HOQg3C5D/j4v7znw0dVQSH6ZpImBURhv2yTBXjZ5G9fIulLa6+1OLg7b7rn8Ct3XsKoW/gAgrDkLquD09b953UFfHn+83d5Xk9zuYxRBYRm0A+schmEbIBMyUmGnS8Kihs66VXHPRIQLQKKYa2AxiJ8BFStCQQMWSqMgGGtrZhSx8Rs655TjDvCaax1x6lm++QMWecvPWx2GrjUQ5X+tzBLZQyUj6Hf48MEbnY0A6hp7WYST3tsN3LCjs/CjlMnrmxt7LsaMS60c9eOVfZIZT+E/Dx8UALe7j8/PbF14dK+Uyf+kCR8P2Fzsz/fjv0MSeVKdUUhpQNlm/t7AAAAAA==");
 
 export default WatchApple;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-from-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-from-line?s=thin down-from-line}
  * @preview ![down-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/down-from-line.svg)
  */
-const DownFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M184 460.7c2.1 2.1 5 3.3 8 3.3s5.9-1.2 8-3.3L331.8 328.6c2.7-2.7 4.2-6.4 4.2-10.2c0-8-6.5-14.4-14.4-14.4L248 304c-4.4 0-8-3.6-8-8l0-136c0-8.8-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16l0 136c0 4.4-3.6 8-8 8l-73.6 0c-8 0-14.4 6.5-14.4 14.4c0 3.8 1.5 7.5 4.2 10.2L184 460.7zm8 19.3c-7.2 0-14.2-2.9-19.3-8L40.9 339.9c-5.7-5.7-8.9-13.4-8.9-21.5C32 301.6 45.6 288 62.4 288l65.6 0 0-128c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 128 65.6 0c16.8 0 30.4 13.6 30.4 30.4c0 8.1-3.2 15.8-8.9 21.5L211.3 472c-5.1 5.1-12.1 8-19.3 8zM8 32l368 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 48c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const DownFromLine = createIcon("down-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcwAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBeAsGAAE2AiQDCAQgBYMtBzUb/QTIjsQ4JvGLKEwi+ND1uk/SaewjI8lEVDFA0f7WmHDHTXGTNpMy9WXIu/7/XI7v3fOje76+3SA4tLlaw9fAaM7nCQSYTtuUFnhgaYKWbjMZ5CGIb0gERkTHp8fZGbK4ZLcSyYfkbzzTD41/dXObRJoCiLYAmLtu1Uq/NqIR8XfzM/G35QiIeaAQSJGipwAzpAI9ZQpkMkEjms3+H1gQQOTsrQnIUMI27AdkIJFmWb/B9Uqplq2tlMpr3lQedVkX7+Jt5zKQIMrxuiMRp693WtPtYee18TZudHlXqUQ0xqNOb4jXX++4Ol6XN9aqtTedXnesxtvO77r0a2nb8p+/9/7ta7VfqdTv1i0T8uqvy2zP76s35mjU78u3L/NrNZ8QJE5Wzuk292u1e+dr81xH6fv1OVJ73Ty18/fUuB/mzlW+/nLcGrbn+fbj8DwQCMZdnXVvW5sZ/7eqJOCf75sf12zE9aQFrSQgSEc0R9gc14H4AfykJM7qF9cRSKyTwqmqtwKEMg6JXBlSPbSFTNlwKOlt4ulc2SqpyFoLHW1xSFSdgNQkVyDT0UcomeG3Qq5jpEkmp4j8xctYNKMLNxVjR40pphVhy1DyRpTV6cVxMOQsjwylnfY65qjT9tjtgNMTftLK8hlHLNphC31RYaxRxihMU1x3X421IE465YB39H6d6Yr32SHO7qcPpUjCBMdpSiREUi87c2Q1miPrEA==");
 
 export default DownFromLine;

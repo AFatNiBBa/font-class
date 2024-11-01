@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comments-dollar` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comments-dollar?s=sharp-thin comments-dollar}
  * @preview ![comments-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comments-dollar.svg)
  */
-const CommentsDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M56.5 274.7l-4.7 9.3L28.9 329.9l76-15.2 5.1-1 4.7 2.2C142.3 328.7 174.1 336 208 336c108.6 0 192-74 192-160s-83.4-160-192-160S16 90 16 176c0 33.4 12.3 64.7 33.9 90.7l6.7 8zM19.9 348L0 352l9.1-18.1 28.5-57C13.9 248.3 0 213.5 0 176C0 78.8 93.1 0 208 0S416 78.8 416 176s-93.1 176-208 176c-36.2 0-70.3-7.8-99.9-21.6L19.9 348zm211.6 35c5.5-.5 10.9-1.1 16.3-1.9C271 446.3 343 496 432 496c33.9 0 65.7-7.3 93.2-20.1l4.7-2.2 5.1 1 76 15.2-22.9-45.8-4.7-9.3 6.7-8c21.5-26 33.9-57.2 33.9-90.7c0-81.7-75.3-152.6-176-159.5l0-.5c0-5.2-.2-10.4-.6-15.5C555.1 167.1 640 243.2 640 336c0 37.5-13.9 72.3-37.6 100.9l28.5 57L640 512l-19.9-4-88.2-17.6C502.3 504.2 468.2 512 432 512c-95.6 0-176.2-54.6-200.5-129zM215.1 90.7l0 14.8c1.7 .2 3.3 .4 5 .6c4.3 .7 17.5 3.2 22.1 4.4l-3.6 13.8c-4-1-16.6-3.5-20.7-4.1c-12.7-2-23.9-.5-32 3.1c-8.1 3.6-12.5 9-13.6 15.1c-.8 4.8-.2 8.2 1 10.8c1.3 2.7 3.5 5.1 7 7.4c7.2 4.8 17.6 7.9 29.6 11.5l.2 .1c11.4 3.4 24.4 7.3 33.8 14.1c4.9 3.5 9.1 8 11.7 13.8c2.6 5.9 3.3 12.6 1.9 20.1c-2.2 12.8-10.7 21.6-22.1 26.4c-6.1 2.6-13 4-20.5 4.4l0 14.3 0 7.1-14.2 0 0-7.1 0-14.7c-1.7-.2-3.3-.4-5-.6c0 0 0 0 0 0c-7.7-1.2-20.3-5.5-28.8-8.3c0 0 0 0 0 0c-1.7-.6-3.2-1.1-4.5-1.5l-6.8-2.2 4.4-13.5 6.8 2.2c1.6 .5 3.3 1.1 5.1 1.7c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c8.6 2.9 19.5 6.6 25.9 7.6c4.4 .7 8.5 1 12.4 1l.2 0c7.6 0 14.1-1.2 19.4-3.4c7.7-3.3 12.3-8.6 13.6-15.8c.9-5.3 .3-9.1-.9-12c-1.3-2.9-3.6-5.6-6.9-8c-7.1-5.1-17.5-8.4-29.6-12l-1.5-.4c-11-3.3-23.3-6.9-32.2-12.9c-4.9-3.3-9.2-7.5-11.9-13.1c-2.7-5.7-3.5-12.2-2.2-19.4c2.1-11.9 10.7-20.7 21.8-25.6c6.1-2.7 13.2-4.4 20.7-5l0-14.6 0-7.1 14.2 0 0 7.1z" />
-    </Icon>
-);
+const CommentsDollar = createIcon("comments-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAOMAAoAAAAABzAAAANBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGyEOgsGAAE2AiQDCAQgBYMtBzYbQAbIrgd4wwX1CxOc6dmMpcT2ldDyqDiLp77YEfzT6/qd+5Ks2U92wYO7dmZemVjL0EMpTpAN2+w9vdoHiaJb9LemqZogFAiNwrUqFEKBb7Y6hMF9AyAwkCGw3R54NBzTApOM4qy7GkkLjtm0ywtk0eKElgcWeom0jerHom8QqNp3yQL8/8e98/9/A8fU9RcFmoc21vI1zvc4T6ALKOoetjZ1HqclbBmaV0y4DnD+zn97YMdvc2BO0jNY56zWn1mLMawMwDUSANOs1aMTtz7jM+JpO8L95YAA2gDAJ2DhryhEABqyCBRi84HNJnyK9vQ/EAgA6gKnGQA2CIBv0FhQ/xgw7A67cNVYEnXidu+oE+nj5tyK6qMcz+X+j6W99RW35pOf9Wy9nvNlShZUDTeyH2t3662cjad81IPq2dhGT7d7aUSdk6eXKsvKuTl3sPGLJtCCqVFrJlNN+ZXWW5f6PhS3RcmqfsHeMilxtXWKc9TdbPbKJaUWSDqShtztJet0RH1SYmvfyr4FITKlUa3ZIy60anJVdEEIs5kFUWnV9DbKzm51l862WI6modyuMpZZAKOi+H3q5Jd+b1p/bAt4Eh2GaKqZTUvdY1AnNZNdnQalOrXABMeUbLsEcAHPcj1qvz/76KMDp0zH3qDObpG32fbTyWQLahw301SHISZpa4xgKvLKOyLU1d3p2lWtQx0eObKkzyj319CjWjZVIoklMlLVtVm1IuGd5arVzp1ngbxscSUB3P+pW6D59ML9kCBl01RIcOc1AsAf6aahYdTUF/6sfs/sgtjBYZErYTc/KlNA3seOq1OgWm7RqfWkAJyO0Ptm/IMaXvsNAJ+fPuKL/5cO00kIMQAEa+EzMM0HFOUAQNrEbIr3/JCA8VUHxGO2zs1KBDluBERwS0Ep3BZRAXcUUUsz0txjlEQdYeKuQQw3Yqbhltrm4DbXWdzR0MNUgBvWXaA7h3X/oJlbl9FW8/xqlav69f3OqlR/YmvM6Qb+aHfZ2WpXOQoz2hSTzTTKSOPMVBJO1yk7yySt+1RbfddXTWVV+erzZzeum3vz0HQzVE27cf4sDfjrx8ua3T+4HPUZUFtdmWGglLxFbJW+BgA=");
 
 export default CommentsDollar;

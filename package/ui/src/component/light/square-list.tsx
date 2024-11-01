@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-list` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-list?s=light square-list}
  * @preview ![square-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-list.svg)
  */
-const SquareList: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm104 64a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm88 0c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16zm0 96c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16zm0 96c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16zm-64-72a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm-24 72a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const SquareList = createIcon("square-list", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABjgAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCOQsGAAE2AiQDCAQgBYMtBzIbOwUjEbZaDiqR/SMxNlb2eIJQEV2dLo/a6Tg4dssldjyqZCQjWT6Jh/+fK+/7yQKCa22rkBWxq2ZHCBJIjSsakVOLavU0C5AZMwPmNTQm1VuS4pa3BlfoiYnLnf/50wMue4JHGWPYg4xZuOd5AolmY1OJZIG9aQLW7kyrOTwrxxJLzMjx2fG5QB63AxWkm2mc5y+N33ocIckzANEMgNlrVixXKqKI+Fl+R/y0FAExBwwLZMjQL8A0mUC/3DByuaCIchn/A0EAUYnel0COWuzDUUAOkuo8T+ntrWmg31xNTV1FQ766rqJ2wykx4gpBxQHpal1DnFauRxYH5Wu19YtuWxGvtYZ4arzsSXFDfzFeH8/MV73Zqtva054b4896664rdXFVutJeG9dkjbjaxJr1lVsHjb5qfvVXPQ+buV84wYlGcS/Ml5kWWh4IzIOWFkYClrbN7Kiqjly/VigOKBphsa2NO3PhKgm+snDvdSAQfBl6/xyapk1U1yXw6/P/CX5euYhSeoVqCQTZ5DI2RgkQH0CYYo9RpWKBZI9qoE+td02AUIsASaVaATJ9mgXI1ZokQIVBUwSoVGuFTOQ1QrtNFU7qbYczU+2Fc+3ewBWm+RJWGmkP2glZF2L/gEmpBJJdCFwfEaYdhfMrOm3GMFv6P04YYS+xe7j72qxOvgJ6y5Kfm1QDExWCgMsHERz376UewreP01g43yaG+4Hur883gkshwlADJUGmuocsO34MAAAA");
 
 export default SquareList;

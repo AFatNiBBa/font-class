@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-mirrors` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-mirrors?s=duotone car-mirrors}
  * @preview ![car-mirrors](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/car-mirrors.svg)
  */
-const CarMirrors: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 400l0 48c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-48-96 0zM141.1 192l293.8 0-26.1-74.6C404.3 104.6 392.2 96 378.6 96L197.4 96c-13.6 0-25.7 8.6-30.2 21.4c-8.7 24.9-17.4 49.7-26.1 74.6zM448 400l0 48c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-48-96 0z" />
-        <path d="M167.2 117.4c4.5-12.8 16.6-21.4 30.2-21.4l181.2 0c13.6 0 25.7 8.6 30.2 21.4L434.9 192l-293.8 0 26.1-74.6zM32 224l8.6 0c-5.4 9.4-8.6 20.3-8.6 32l0 144 512 0 0-144c0-11.7-3.1-22.6-8.6-32l8.6 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-52.5 0L469.2 96.3C455.7 57.8 419.4 32 378.6 32L197.4 32c-40.8 0-77.1 25.8-90.6 64.3L84.5 160 32 160c-17.7 0-32 14.3-32 32s14.3 32 32 32zm64 64a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm352-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const CarMirrors = createIcon("car-mirrors", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABpAAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCfwsIAAE2AiQDCgQgBYMtB1IbowXIjsM4hvwSSxniGMGLrs95tnd1ax+Dj5H23/3uOABcAUCVDrBoV2mjVFG6SC7m94nLnf/50wNOWqKPMratDVLbwr007LxLqGgNCngKZYqNm0PtyW0dCe0nyOL/9D41kpeT3/Ck+x/A+Fs/95FopACiKwCW7t6+0Q+taCXxW/Ul8ZsNCIhloBRIkWKgAAukAgNlSmQyQSupKlpRVSUBRJ17zhTU0cAbeB+QgUQmzbKO03r06Na1W1HrlO0qavn+V0cX8Va/ndExdu8o8uI5oktE3OldxKN9XoTUF/I8psUr497HPTLm3b5TYl3P59zu9Xyx9U6fiBeLR6Xu9lTPHzmox/HBWARnN1kWTRYnxddKIvLdnTp22kWLRuXxZt+Xqq5HN3cd9n7X9/8Z6hRvr2vb8rUtbf3WGcX7D5xrhILHuz8FSev+eEPnhx7qvH2Gy167fXXI14Zcvf3aYTNXM1Xnh+hkNOPwkLmvmuJ4Z5ZYwRRHLvw5KsT91vl8xW3Hth2d9uf+40Ag+Lj50qzDXRb816FIwF/f/7e+X9VKliTvo4MEBOmEaoIDyRJgxADSSbQbtiPHyEInZMK3dvSCACFHgERdLkBqgK4CZHLjBagZbKYAdbntUpE1hJ4O9nCio6twapYbcKanL+CaBX5M1fWMtKCKxUz8T0xbNQZWLiunTppSzis3y1qp7PF6fH552hjTztvGwo1OueySa0464axrI6hpY/a6i1btgSv9UGmqSaYozVPerj3Xdxmlm9qcXZfvzzNf+X4yRvt+77HQTgTGac5MpUQSaY/jR5sTL55tNi832ybm+Y5ecyV7AwAAAA==");
 
 export default CarMirrors;

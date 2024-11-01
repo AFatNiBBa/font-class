@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `martini-glass-citrus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/martini-glass-citrus?s=thin martini-glass-citrus}
  * @preview ![martini-glass-citrus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/martini-glass-citrus.svg)
  */
-const MartiniGlassCitrus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M432 272c-27.6 0-53.2-8.8-74.1-23.6l-11.5 11.5C370.3 277.5 399.9 288 432 288c79.5 0 144-64.5 144-144S511.5 0 432 0C367.8 0 313.4 42 294.8 100l16.9 0c17.9-49 65-84 120.2-84c70.7 0 128 57.3 128 128s-57.3 128-128 128zM8 128c-3.2 0-6.2 1.9-7.4 4.9s-.6 6.4 1.7 8.7L200 339.3 200 496l-96 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l104 0 104 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-96 0 0-156.7L413.7 141.7c2.3-2.3 3-5.7 1.7-8.7s-4.2-4.9-7.4-4.9L8 128zm380.7 16L208 324.7 27.3 144l361.4 0z" />
-    </Icon>
-);
+const MartiniGlassCitrus = createIcon("martini-glass-citrus", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcQAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBXQsGAAE2AiQDCAQgBYMtBzsb6ATIhuB5ndm8L8lJ7A0rwNog8QFRx4DldUDdcQXs+b/c83t+G/ADn8ChjYXLbusC2/N5Aon18kmJZWEWqMWatbP7gQH6TZLIJxnGZ5cL5PG5gxWkm9KnuCK+afyol3NJsgxAdALAgm2b1njzm/gm4tPmc8SnViEgFoJKIEOGvgLMlgn0lauQywXfRLNp/gMrAoga/tUJ5CiwHrsBOUiyPG+t2jSK9vnWRlE/6PmRZby05IN5bwy6e+7rS9+d/mLfRtwx6pFp7815rfXO2a8uPvDi8tpuW0LU49ryum6Nxg09ru9ej4htcUP36+stB2zetnlrtB/4cKeHf2799NBPPfHElb+/YqW3Lji9b9/TL3jLylk/dvbZ779fuX7S4qJYPGn9A1cUZTnovXfdZr/9tdr+ww+Ht99tOolBZVlceXbHZwl3pGcCwfdbbvxvX8fZv7VtJPDdy7/+naQmHn0zzU8Po60Egmx0c7TdaX6ziacIIEhxqoHCBwWS5TL0qi2uFyDUESCpqQuQ6aOTALm6UQIU+psiQE3dJpnI2wmlPQUkLU4AmanOAbnSM6Aw2wd+TRmZWnFKwf3qkpfW0JJj1YSx46uZ1TCXeU1h3H5WNa0MP9X2RuCsQx3nWCc7xMGOcHJFnmhNdIpjLJXgJb6oMsFY41Vmqpar29NbHeJEJznCcY4Nh8xS7beGO1WeHgE9YdqJYkkiUnkPtSPGHCRjzEFHvHMB");
 
 export default MartiniGlassCitrus;

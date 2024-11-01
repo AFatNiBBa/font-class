@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-mp3` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-mp3?s=regular file-mp3}
  * @preview ![file-mp3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-mp3.svg)
  */
-const FileMp3: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 464l16 0 0 48-16 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zm75.7-111.4c6.9-1.9 14.3 1 18 7.2L192 416.9l34.3-57.1c3.7-6.2 11.1-9.1 18-7.2s11.7 8.2 11.7 15.4l0 128c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-70.2-18.3 30.5c-2.9 4.8-8.1 7.8-13.7 7.8s-10.8-3-13.7-7.8L160 425.8l0 70.2c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-128c0-7.2 4.8-13.5 11.7-15.4zM288 368c0-8.8 7.2-16 16-16l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80zm32 64l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48zm144 80l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0c-8.8 0-16-7.2-16-16c0-.6 0-1.1 .1-1.6c.8-8.1 7.6-14.4 15.9-14.4l24 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l32 0c26.5 0 48 21.5 48 48c0 12.3-4.6 23.5-12.2 32c7.6 8.5 12.2 19.7 12.2 32c0 26.5-21.5 48-48 48z" />
-    </Icon>
-);
+const FileMp3 = createIcon("file-mp3", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABowAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDGgsGAAE2AiQDCAQgBYMtBy8bmQXIhuB7XWW/Ly1Jy6Aj1h6QkSBDpgy4cppyipEd3vz9qZpxHlog3ygoL2NZdtfAqYvm9goEcFG9QPu8VytYTStgHZw3+ZBCUUg/Qx6fxJ1aSA+l73GH+9D405hrSVoyANELgB0OO2gfXzaiEfFd8z3iO3shIHYAlUCGDJMCbC0TmJSrkMsFjWg2k//AigCilf+qCeRow5v4AJCDpCXP6wWjZV22dOWHli3FLmVRiiKeX/ryeBaPLHtlURm3LDkkXiKKiCji5uH7Ufi9gynuGzrsgaEdYqdA4Bna5v3D/djiVnHz8NJw6QdGDgnTZTw33jb24OC984ve7pgti/KFiYcXts1Digq0uAQi7v7hIg6uioa6uXrl4H0OCJ37cu/Lf8/5/tTvNXv9sFqvJ/v6iisVyUWffN743COOMHfiPrU77a/7xhu79/ekRveVuht7nfv0GaNGnfH002UTBpJ2NWW3jo7dpuwKAZbLp+/pLpIr52/5t63t3y3n96oGs7X9r0o+YGjogF71HftVVdWYJSb4aEDE5M+juk+v1L/8kA18+ulA9sMvNRAIrr718TuO69n6v/YygT8+/vd/9lfU/DJJL6NdAkG2vLnc0QkkAgCQ4lJzEwSSF7Xw37XT/QKEAgGSVoUAmQm9AuQKywRoMW2dAK0KB8lE3iEMOqZCSacLUGa9y1Bu0Duoxda+qrUajOyule85+Z8xY9cmuUtQNbuyrjZXo32FciOKen+rarG1+FI+twSedKrznOtipzjZGS5u0Bfap3mJc+w6Re3iiyqzVqpVNqs2j+4ahzYgMS6y4rC6/ZitVMcXFrt0evUS6CY+72o9SSJS+wdSXXHO+WsAAAAA");
 
 export default FileMp3;

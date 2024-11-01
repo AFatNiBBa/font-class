@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `waves-sine` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waves-sine?s=thin waves-sine}
  * @preview ![waves-sine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/waves-sine.svg)
  */
-const WavesSine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M530.2 103.4C554.8 62 586.7 32 632 32c4.4 0 8 3.6 8 8s-3.6 8-8 8c-36.8 0-64.5 24-88.1 63.6c-16 26.9-29.6 60.1-42.4 95.6c-2.7-7.8-5.5-15.6-8.4-23.4c11.1-29.4 23.2-57 37.1-80.4zM421.8 408.6C397.2 450 365.3 480 320 480s-77.2-30-101.8-71.4c-24.5-41.2-43.2-95.9-61.5-149.4l-.2-.6c-18.6-54.2-36.8-107.4-60.4-147C72.5 72 44.8 48 8 48c-4.4 0-8-3.6-8-8s3.6-8 8-8c45.3 0 77.2 30 101.8 71.4c24.5 41.2 43.2 95.9 61.5 149.4l.2 .6c18.6 54.2 36.8 107.4 60.4 147C255.5 440 283.2 464 320 464s64.5-24 88.1-63.6c16-26.9 29.6-60.1 42.4-95.6c2.7 7.8 5.5 15.6 8.4 23.4c-11.1 29.4-23.2 57-37.1 80.4zm-189.9-297c-16 26.9-29.6 60.1-42.4 95.6c-2.7-7.8-5.5-15.6-8.4-23.4c11.1-29.4 23.2-57 37.1-80.4C242.8 62 274.7 32 320 32s77.2 30 101.8 71.4c24.5 41.2 43.2 95.9 61.5 149.4c0 0 0 0 0 0s0 0 0 0l.2 .6c18.6 54.2 36.8 107.4 60.4 147C567.5 440 595.2 464 632 464c4.4 0 8 3.6 8 8s-3.6 8-8 8c-45.3 0-77.2-30-101.8-71.4c-24.5-41.2-43.2-95.9-61.5-149.4l-.2-.6c-18.6-54.2-36.8-107.4-60.4-147C384.5 72 356.8 48 320 48s-64.5 24-88.1 63.6zm-122.1 297C85.2 450 53.3 480 8 480c-4.4 0-8-3.6-8-8s3.6-8 8-8c36.8 0 64.5-24 88.1-63.6c16-26.9 29.6-60.1 42.4-95.6c2.7 7.8 5.5 15.6 8.4 23.4c-11.1 29.4-23.2 57-37.1 80.4z" />
-    </Icon>
-);
+const WavesSine = createIcon("waves-sine", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABqQAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDDQsGAAE2AiQDCAQgBYMtBzEbjgXIHgVuywOnkNkUxZhrwsP59Yro+/0+e867i+CW9a4CCpCw7BJhWf9EmDiyUaRiIxRKlL9iUQLa92Nt/4npO1FHPUET1RYsMkRrpASNSOb/nb3PnWCXUi+KNPDaqHw3bX5d5Ls49TwUCuUC9ByCoIyNExeOdlMu1Dl9AlZg6xwitWKtotjVuSG5nTG+uTDfQctv8/jU/frA7fCh+cTsntJ1ADINADh5fnIYn/30k9f/X8lrgyCQUwBWMXTosIiBI7iCRTyroGlCP///i/9AggAZlF5coGEQj/EU0EBprc1VWlrpwEQ7Z04cvfocgTzZi/qg25ptsjAMCfMQhDzcnsK1CjuywzPInUQ3h5eeKa80jqGKhO3J7hlKL2R2Cs3dZ2fIRH0btbsnmkhTWMLTvKXsTUWPNrfmvewd4nk36ydV/bv2evGD+oLjDm5NO8HgpXH7sX6gIttaS/U34rd3DvH98xzgw9s3S0vja8QxgAizD/WVjbfgfloUFAZri55BoO8k+Br+xOcBCMLNof/7ReWRv2FpgY/Pvv3K5+N/v3pVY1iB0G38R81WDwQ5QKxyA+6ZLwrKA01613F3BMQoAsqgUQGdBSoMNKPWMTBgWQ4Dg0adxpU2IubN1VDGXYbOrgto5r3AgCO+gkHz6cCVBzb+bzGlp410T6NUPEllmswpBQhkbW+FVqvBQ1kTwmuxaMumfQvmrdhv4buGEwc29Mxh3X6IpMQlkTLaXbwfnbFg156VcWn/IBV0vhV0ON88hA2ORLkpUorU6BeUtRfbW9lcAAAA");
 
 export default WavesSine;

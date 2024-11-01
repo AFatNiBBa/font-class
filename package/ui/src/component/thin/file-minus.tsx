@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-minus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-minus?s=thin file-minus}
  * @preview ![file-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-minus.svg)
  */
-const FileMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 496c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l140.1 0c1.3 0 2.6 .1 3.9 .2L208 136c0 22.1 17.9 40 40 40l119.8 0c.2 1.3 .2 2.6 .2 3.9L368 448c0 26.5-21.5 48-48 48L64 496zM358.6 157.3c.9 .9 1.7 1.8 2.4 2.7L248 160c-13.3 0-24-10.7-24-24l0-113.1c1 .8 1.9 1.6 2.7 2.4L358.6 157.3zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-268.1c0-12.7-5.1-24.9-14.1-33.9L238.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zM96 304c-4.4 0-8 3.6-8 8s3.6 8 8 8l192 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L96 304z" />
-    </Icon>
-);
+const FileMinus = createIcon("file-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdQAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBegsGAAE2AiQDCAQgBYMtBzEb+wTIjsQ4JvKLKOwiHr63+Xru25XGXsnIawBieZwOEMt0rn4XkosuQF0mZWp1SO27vvm/5vN7flQg3+hQOrW4QI4it34+gQm0pw20bWAznYBN3cYNfxDkxSAy5B4RQ7shCh4gj7uOqZDeTk28WD40/tXHMyRZBiA6A2Dxzq3rtf0Rf0Q0WxJNaxEQS0ApkCFDfwHmyQT6y5XI5YI/otXi/8CSAKJKbzyBHFUcwilADpI8z4fV+9drlQ75jlqlWP9Fz4g3+mbxbq83R9bi2dqjEI0er9dq0ZDire6vDauffL1HEV/0jUj49iOfjXqmr3qneHv018M7xJdjv+2XxaOeO+KNotj9WvfXe9TizV5v9CyGfNP5m/9onmhqTfqFp1lD9vSXSc9JiVu6PPm2yy0p1Y1LjdgSLtvc4zKdHz8e8d5HXehSNBRdunwEkBzWdf/VXOnX7s8NmnioWj3Upl4PAkHzh3/2Huw07/92tQT+etLkV9Rqi0b6Bu0kEGTjWuPsiwZEQwAAUtwwJBoIJLvk9F3r3hAgFAiQVBUCZPrpLECuMFaAioGmC1BV2CoTeXuhu/0dJHWXQWaG+yDX3XegYp7vo6rukUUZGyPsGy9pBULLl5WTJ0wq55TTXOMCh87zc8tla9QN6Y2mvU646IJrjjvmtGuAXLE+ve68FR683BeVJptgktIc5Xb1KO2A6IqrTtvC/iJzlee9UW74o0eTmyjhFJkkEam40Nr4r+nlqwAA");
 
 export default FileMinus;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-2` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-2?s=duotone square-2}
  * @preview ![square-2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-2.svg)
  */
-const Square_2: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm128.2 85.3c.1-.9 .3-1.8 .5-2.7c.4-1.8 1-3.5 1.8-5.1c1.6-3.3 4-6.3 7.1-8.6c8.1-6.1 16.1-12.3 24.2-18.4c15.8-12 35.2-18.4 55.1-18.1c1.1 0 2.3 0 3.4 .1c46.5 .7 83.8 38.6 83.8 85.1c0 23.5-9.7 46-26.9 62.1c-21.5 20.1-42.9 40.3-64.4 60.4c27.8 0 55.5 0 83.3 0c13.3 0 24 10.7 24 24s-10.7 24-24 24c-48 0-96 0-144 0c-9.8 0-18.7-6-22.3-15.2s-1.3-19.6 5.9-26.3c36.2-34 72.5-67.9 108.7-101.9c7.5-7 11.7-16.8 11.7-27.1c0-20.3-16.3-36.8-36.6-37.1l-3.4-.1c-9.1-.1-18 2.8-25.3 8.3c-8.1 6.1-16.1 12.3-24.2 18.4c-10.5 8-25.6 6-33.6-4.6c-1.7-2.2-2.9-4.5-3.7-7c-.4-1.2-.7-2.5-.9-3.7c-.1-.9-.2-1.9-.2-1.8c-.1-1-.1-1-.1-2c0-.9 0-1.1 0-1.4c0-.4 .1-.9 .1-1.3z" />
-        <path d="M216 176.3c-9.1-.1-18 2.8-25.3 8.3l-24.2 18.4c-10.5 8-25.6 6-33.6-4.5s-6-25.6 4.5-33.6l24.2-18.4c15.8-12 35.2-18.4 55.1-18.1l3.4 .1c46.5 .7 83.8 38.6 83.8 85.1c0 23.5-9.7 46-26.9 62.1L212.7 336l83.3 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-9.8 0-18.7-6-22.3-15.2s-1.3-19.6 5.9-26.3L244.3 240.6c7.5-7 11.7-16.8 11.7-27.1c0-20.3-16.3-36.8-36.6-37.1l-3.4-.1z" />
-    </Icon>
-);
+const Square_2 = createIcon("square-2", true, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABpgAAAKUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCdAsIAAE2AiQDCgQgBYMtB0wbkgVRlM+pL9lHYdvseUskIw8Z4y9ZbmOJ5ZZhrV88z/9+3/a5974/M4hY5Scs4RWaSWYRTdt0mlgTizTSb2iH+BZVE/kd2eXMbbf3xsaHV1KKnYQyuTYgO7is41IT19QPa3rPAn61WFOcry3KO88nsPPRKLiBNpDRAKcztA3Om3RIoQwh/gwtr+qsjvKofMO9+H8A88tqsxQzFUAWAeDAiaIcmPTpS74Nt+SbwwjkINgkqKhYJ2C3Klin2YSmCX0ZBvoMwyYCZCRGqo8eocMzPAc0UERpbbwmj+/mt+NzuxCtmjQJeGzZtMp4xZvxTrxwbwv5yOOJfT2S4qpl1VqGa6hYVi2UcITbEC+i1HgmXzkJbkqX0So8Fs5tJYoVUUHFukazV/yU+RPVhHAuTPGxSQq9KPeScCXzGmrBSdMyoo8dqxbFhq8Mv9RdvoZ9a/3mu1ZzPgDyv+t/xeBGBqHzY4Rs/ECRguXmgnn4OJd72dUCzzrd5cYHUb+fVFO9fj8V9iuAtg0HxosRAFVvTi8uwicGvRyErreRyIu/P1F6KRKpvCjj9cbF0eqLTR0Dzfk5h+6RQX04SSIqwHMIEIR3h36c1y3c/X+aL+Dnh/dv/OGhz6S8xbQCQh0PY2czAWgN8KNKrtmSiZsIqguK9F3nuS8g5iCgGJkjoFprkYBmjq0COhvsFDAyxxFV2oxY5twgFPNcFKpd7grNMu+Fzm4f8yNTU4gf9fsw/x9ikewpnLWNxQZCLJ7ttnUBb+fp9QR2OS6M8jERHoVWfXoNa9Gsw/CEGpRTGtEj+4jM8kVMrIAQJh573HsZKcX5QUM6tkPPN0nAvk8IRo9ni3A3HADYZrt1BCAcEl04T/jj/J49apiFQjUAAA==");
 
 export default Square_2;

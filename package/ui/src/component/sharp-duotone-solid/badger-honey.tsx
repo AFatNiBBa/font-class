@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `badger-honey` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badger-honey?s=sharp-duotone-solid badger-honey}
  * @preview ![badger-honey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/badger-honey.svg)
  */
-const BadgerHoney: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M83.5 171.7C95.8 220.2 139.7 256 192 256l80 0c53.3-32 106.7-64 160-96l41.4 0 45.3 0 51.3 0-86.4-48-40.2 0c-18 9-35.9 18-53.9 26.9c-3.4 1.7-6.8 3.4-10.1 5.1L368 144l-224 0c-24.2 0-45.9 10.7-60.5 27.7zm453.6 79.6L560 288l29.5-47.2c-18.1 1.6-35.6 5.3-52.4 10.6z" />
-        <path d="M180.6 352L160 400l24 80-96 0L64 400l20.7-72.5C70.3 317 58.1 303.5 49.1 288L0 288l0-32 0-32C0 153.3 57.3 96 128 96l32 0 32 0 176 0 64-32 64 0 144 80 0 64-32 32c-94 0-177.2 62.9-215 102.1L416 480l-96 0L298.7 352l-118.1 0zM368 144l-224 0c-24.2 0-45.9 10.7-60.5 27.7C95.8 220.2 139.7 256 192 256l80 0 160-96 41.4 0c-.9 2.5-1.4 5.2-1.4 8c0 13.3 10.7 24 24 24s24-10.7 24-24c0-2.8-.5-5.5-1.4-8l51.3 0-86.4-48-40.2 0-53.9 26.9L379.3 144 368 144z" />
-    </Icon>
-);
+const BadgerHoney = createIcon("badger-honey", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABkAAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCRAsIAAE2AiQDCgQgBYMtB1QbagXIhocPneX7kryzJ13YtwFS2D4AhCpA0FEFxN1RGaxSe/6v+fys6QA/H8GhdS5So3iU+XwCA5x+XwIVNdhspjhza8yB86MoCCIxSo8aPX7r8WwLWXJXelyF5NHkW9xd/gcw/nKt4yRapQDicgAMmTVtgg/Px/kkvm28RXxrPAJiKCgFUqS4QYD+UoEbZEpkMsH5pNHgfDQaJQFEk4KmzKZwm0O4F5CBRCLJsk633dhcVC7JZhaVfFb7Tu1nRB4zY1a8dF0etNXzgz4YVRTjoogZIWrx6/hvaxiSz8qL/K3ak/VXexQxKzU+4NE7Xr7+SEuxqY/RUY18HvAixHmnX/OKYpV/oPrC7VnNTXVLOnTs0CnU5ltfu/y1f275duW33lo0qRaunmSxfo/VURb90UWpVOk+bHL5Y8Ngd08yWMOo5PCRH1rOWKx6yM63fzh//vzgtcd//3zzZE8vUpdmbaZMaZOl3czspGauBxSmXQU9RN3FkPqSGZ3UTV3Wp8+UocXT+KcTl9OZznr9FBAIVnasDV10Wf//m4sEXHz7vz+Nkxvnk8PJa2iWgCBt32hvfnIYIjOAUhI73Qq+arpAaqoEf2prDwkQcgRINMkFSF3vcgEyuXYCVNykhwBNctOkImslVC04QKK1LSDV0wGQqXoTVPT3RbFJNVJfFDxJ+BNMHamREevKLh07l33LbdMU3YuDy/3K225tpwzVCWqlTTbaboXl1tiu6K0mVHbYYCSiRvihUhcddVbqqzR3PqszOb7VNlGtZfsq/ZTvZ2p24sl1ChKVtatdUymRRFpdumT5qhVbO6zetHHFng5uPdpyIX/BAAA=");
 
 export default BadgerHoney;

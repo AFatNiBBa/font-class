@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sandwich` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sandwich?s=thin sandwich}
  * @preview ![sandwich](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sandwich.svg)
  */
-const Sandwich: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 80c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16L32 176c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16l448 0zM32 64C14.3 64 0 78.3 0 96l0 64c0 17.7 14.3 32 32 32l448 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L32 64zm0 272l213.6 0 70 46.7c2.7 1.8 6.2 1.8 8.9 0l70-46.7 85.6 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16L32 432c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zM0 352l0 64c0 17.7 14.3 32 32 32l448 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-88 0c-1.6 0-3.1 .5-4.4 1.3l-67.6 45-67.6-45c-1.3-.9-2.9-1.3-4.4-1.3L32 320c-17.7 0-32 14.3-32 32zm8-64c10.1 0 20.2-3.6 29.7-8.3c8.5-4.2 17.3-9.6 25.9-14.9l3.3-2c20-12.2 38.8-22.8 56.8-22.8c22.1 0 40 10.6 60.4 22.7l.3 .2C204.5 274.8 226.9 288 256 288s51.5-13.2 71.6-25.1l.3-.2c20.5-12.1 38.3-22.7 60.4-22.7c18 0 36.8 10.6 56.8 22.8l3.3 2c8.6 5.3 17.4 10.7 25.9 14.9c9.6 4.7 19.7 8.3 29.7 8.3c4.4 0 8-3.6 8-8s-3.6-8-8-8c-6.4 0-13.9-2.4-22.7-6.7c-7.8-3.8-15.9-8.8-24.6-14.1l-3.3-2c-19.2-11.8-41.8-25.2-65.1-25.2c-26.6 0-47.8 12.6-67.2 24.1l-1.7 1C299.1 261.2 280.2 272 256 272s-43.1-10.8-63.4-22.9l-1.7-1c-19.4-11.5-40.6-24.1-67.2-24.1c-23.3 0-45.9 13.4-65.1 25.2l-3.3 2c-8.7 5.3-16.8 10.3-24.6 14.1C21.9 269.6 14.4 272 8 272c-4.4 0-8 3.6-8 8s3.6 8 8 8z" />
-    </Icon>
-);
+const Sandwich = createIcon("sandwich", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABsgAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDSgsGAAE2AiQDCAQgBYMtBy8byQXIhofv+/P7tU/0Elf3fUm3bxr6lkYAgvpDYQh7Ro6E+b+c3nh+dIDf6FDGtmlj0aiNY0yOAprPL4y7I2lYYAEFmohmm41j0KMcGAxk1JByJj1+Pnp8SqAYjzlciXRTeh3XypvGD6a7iKRQABAdAGyy1247ePrT+DTi9f8fIF63HQJiU5ALFFDALAHWVxCYpShHUVHwafz///IfmBNAlHG6BIqo4CW8jWat+FKx2JkxY8Fe9VKzuGf7FbWjhpNikDVi1I0Y95qHXpFFDIjzJof1ZlzZG0fE+d1RrZHqtfoeMeztFfV4sHOBMFtTiyuy3WPP6MHA/HFvv6UX9y6+fWnEcOHt9SsX39mLOF9Bk+IkSMsbda/o1rjoxmjRqHbFgkGG0izuWv3BZV0XSZfvqF2R3ZZlcV5tkA0K6U81757OPT/1Xz/ydZ+c9GlrY61PnyblT7Vbl3HZSbyM4KeFVe58yOEWK1plk7ZhDxH5/42543Tp3lJns+VVo5M+Vvd47qdfv/hS3/s3f/Y83/Yq3W6l9y3iuc9ufr/vpRe//vTgcvng2ou3PRSxio8rv0+ZWvntWzru7/fv7+Db3ypTp/xe+XgVEQ/d9mLN+z0gEHy62Y4fHNRe/9eJegKfP/rLX5I4SfdgQgJBYfn/l7c/7U8EuEaKM81L6FySp5TgVRtGAoQaAiRlNQEKZuoIUFSznAAlc6whQFnNbgqiWBUyBxwgaTgFFKzpbFCUuQ+UrO+lqCyLQjazucj+SyZtOaJb7MtXWXHlfN38tqVzCUpvq+vlbmXJmWpkKa440klOdLojHO4YIQf8VDvkznCCLS1sCx+UW8WKVpZbVx7urqU9S3Sq0xxzLcS3WU/+vrXEmfb0pdATJlxVRZKINPHt8M865rCjAQA=");
 
 export default Sandwich;

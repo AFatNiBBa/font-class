@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `basketball-hoop` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/basketball-hoop?s=sharp-light basketball-hoop}
  * @preview ![basketball-hoop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/basketball-hoop.svg)
  */
-const BasketballHoop: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 201.1c17.8-39.2 44.8-74.5 75.9-104.2C126.4 48.5 206 0 320 0S513.6 48.5 564.1 96.9c31 29.7 58 64.9 75.9 104.2l0 171.7L505 431.5l4.9-37 98-42.6 0-143.6c-15.8-32.5-39-62.4-66-88.2C496 76 424 32 320 32S144 76 98 120c-27 25.8-50.2 55.7-66 88.2l0 143.6 98 42.6 4.9 37L0 372.8 0 201.1zM146 272l-18 0-16 0 0-32 16 0 16 0 15.8 0c.2 0 .3 0 .5 0l31.7 0 47.9 0 .2 0 31.8 0 .2 0 95.8 0 .2 0 31.8 0 .2 0 47.9 0 31.7 0c.2 0 .3 0 .5 0l15.8 0 16 0 16 0 0 32-16 0-18 0L463.9 498.1 462 512l-21.3 0-4.8-5.5-48.3-55.7-56.3 56.5-4.7 4.7-13.3 0-4.7-4.7-56.3-56.5-48.3 55.7-4.8 5.5L178 512l-1.9-13.9L146 272zm32.3 0l7.3 54.7 48.6-53.1-1.4-1.7-54.4 0zM279 272l-2.1 2.2 43 49.6 43-49.6L361 272 279 272zm128.3 0l-1.4 1.7 48.6 53.1 7.3-54.7-54.4 0zM320 473.3l46.6-46.8L320 372.7l-46.6 53.8L320 473.3zm-69.3-69.5l48.1-55.5L255.2 298l-52.6 57.5 48.1 48.3zm-21 24.2l-35.3-35.5 8.8 66.1 26.5-30.6zm159.6-24.2l48.1-48.3L384.8 298l-43.6 50.3 48.1 55.5zm21 24.2l26.5 30.6 8.8-66.1-35.3 35.5zM160 128l16 0 288 0 16 0 0 16 0 64-32 0 0-48-256 0 0 48-32 0 0-64 0-16z" />
-    </Icon>
-);
+const BasketballHoop = createIcon("basketball-hoop", false, "data:font/woff2;base64,d09GMgABAAAAAANgAAoAAAAABsAAAAMWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDdQsGAAE2AiQDCAQgBYMtBzYb+wXIThhujFEqlHbvM3M4zIJCDFw7vUrrPBuUhV2B+eoj+uf1SiG6h8CJh/+3+3efefM174MBb2B2gjuhTCqVaYXVp3OZ1aNSK4HUbnssoKDzREqyAC2jJIyz4NT77AmaWIJjdkzboGOBllJtQWpck2SgKnMHAIL/qwUWosldYBhrwK0Yv+14e5k1hIwrL4Ll/UWRVggBBRMbbMAFPIAMIBM96p6yyV0ScmLEv6reGwAkx0yGUMWnQGxtAxzpApv/y+mN50cH+IfdFz+kMWmsto9NvWzO5wmEgU7blka9PMwSxRa3Xa0ppiGOkDhBHr+pCrIbMVwOHxqfFechk5cARCMAZuySeZ4eK15nxGsLATETSAIllNBFgMlKAl3kEnK54K0v/gMlgKiUHpuBHHV4Az4AyEGmnOeD58jlmpqaKl7VVubr8uX6aUU8Hr/e8ZepSsVSu8fRiEf9Vj3cwqWJWGbXOBjLUrmIKJfPiErVDmesHBNFsdTWUKJdjFxY+Y3Taw65R88es1i9Um5t3zqDZHwR9cK5paOcNvNcdsry8fRZmFrY0H/qlKnLaNCKRXrxeTNaPHDACpq8Wi3qhCgiota8f/S8Zc3gh9/dsNRX6wUXc7NtalzB6d7uyzzz7H5N/euDTYXZLmbufGdyeiaNCdJwEjYiYXhCvD1pbO76jqrNbN95Y7R6o13CdybadMUdSfgXyLhtNnkTN9Fk8QeR227c8v9AXC5v8jseE/xXvLrj3i8Mnof4btLsdSN/Do3TLUyXDMdwyXSNQCCYfU/khslfUwbe78t3/58RVMtAUBr8v7VxGghhAIUsjtNz54sCmddk6VitqwgQCjrIVCpASWeNIFcYBCp0M0Y6ecQSJZHXCK3WYZCpdQiUjHUC5Fo9BhUme5av1BosiKsAqv5hZs0ds3PWpXTo8DQxbTZVDWpluzwpnXaj43JoAN5quwP2O2qbrXY5OuIPm1c6Zp+5e9wcP5SMMNRwyUTpdue5tZzmDzti17pxf5VJ0vuZ/o7vTx6Ag0wSHWlDJiOyhm8xP+T0PHAQ");
 
 export default BasketballHoop;

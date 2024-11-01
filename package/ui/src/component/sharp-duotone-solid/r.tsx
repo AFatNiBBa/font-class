@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `r` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/r?s=sharp-duotone-solid r}
  * @preview ![r](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/r.svg)
  */
-const R: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M32 32L0 32 0 64 0 288 0 448l0 32 64 0 0-32 0-128 93.2 0L246 480l73.2 0-4.2-7.5L225.5 311.3C280.7 291.1 320 238.1 320 176c0-79.5-64.5-144-144-144L32 32zM176 256L64 256 64 96l112 0c44.2 0 80 35.8 80 80s-35.8 80-80 80z" />
-    </Icon>
-);
+const R = createIcon("r", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXwAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBMwsIAAE2AiQDCgQgBYMtBz4bwwTIHgdu7BqQ3sk14+GftX73zczuF0NlEHGPkCx9qFSxBMlL2EP0pGnd4MgD5SiqJJlPh8nvsdPijXcDHoi0G4sTZIHPGa9A49WJK15rf+gLvekb2O9OS3LI8mlpkZH0q+34HJDF0vS6AsmD5DNu4/8AxjdtXSdRlQKIJgCYsmrZAm9KUUric/mIz+YjIKaCXCBFig4CjJcKdJDJkckEpaRcphTlck4AUYTvSkERGSZgOiADCZIs69GkplCXrawpVK+rrqkWAa2JkGtihV9oFSvjxaB11sSfWb1igRque9YnHdnbw/G4SX90+bzzs86NeTlHyUO5yXKXbbC60RwjrX6k8Vo6nL719s7tD7uLHzqsyY6VESt3NAECwab/0y9vahj/u7ImAV9e//qq/o7KpZicPEalBARp/3J/6+MkxGQBAEjipK4xGQRSIyTgU2vdFSBUI0CiqFqAVHtNBMhU6ydAQScjBCiqtkwqsiqhhQ0NJGodAamRLoBMC09AwXjvjKIWkZoQYwDMDy5xJodmdOVDBg7Ox+ZTB7FWQaXmuHxb6n0yJvrAop0OOei4Hbbb4zgjj1pgn3DATAme4YtyQww0WG6s/Ni/n15ph6OO2eOQg7nNOPl9vbeTcn4f6CcBDH38gZRIIq06OkARhRri1Q0=");
 
 export default R;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `synagogue` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/synagogue?s=sharp-light synagogue}
  * @preview ![synagogue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/synagogue.svg)
  */
-const Synagogue: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 288l0 192 64 0 0-96c0-35.3 28.7-64 64-64s64 28.7 64 64l0 96 64 0 0-192 0-144.6L320 41 192 143.4 192 288zm-32-32l0-128L320 0 480 128l0 128 41.4-41.4L544 192l22.6 22.6L640 288l0 192 0 32-32 0-128 0-32 0-64 0-32 0-64 0-32 0-64 0-32 0L32 512 0 512l0-32L0 288l73.4-73.4L96 192l22.6 22.6L160 256zm0 45.3l-64-64-64 64L32 480l128 0 0-178.7zm320 0L480 480l128 0 0-178.7-64-64-64 64zM288 480l64 0 0-96c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96zm60.5-335.5l25.8-.2 32.1-.3-16.8 27.4L377 192l12.7 20.6L406.4 240l-32.1-.3-25.8-.2-12.7 21.7L320 288l-15.8-26.9-12.7-21.7-25.8 .2-32.1 .3 16.8-27.4L263 192l-12.7-20.6L233.6 144l32.1 .3 25.8 .2 12.7-21.7L320 96l15.8 26.9 12.7 21.7zm9.1 27.1l-8.8 .1-15.7 .1-8-13.6-5-8.6-5 8.6-8 13.6-15.7-.1-8.8-.1 3.8 6.1 8.7 14.2-8.7 14.2-3.8 6.1 8.8-.1 15.7-.1 8 13.6 5 8.6 5-8.6 8-13.6 15.7 .1 8.8 .1-3.8-6.1L345.1 192l8.7-14.2 3.8-6.1z" />
-    </Icon>
-);
+const Synagogue = createIcon("synagogue", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABoQAAAKQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDSwsGAAE2AiQDCAQgBYMtBzAbywXIhof/z/v6ffJSumkjbeCTnoEazGr9qZWJa/Lf2/+qMJrCMdsiqcMyzyfw56vUNdjOdw82myjONhvHBmMsQz+FlEhJrB5PH79ukMc/MVwd2R3Zp7huRVV8o6uLyeQ1ANEGAHM2rVvhzeZojvi0eo741DIExFxQCtSwuYcA09WEvUGuRC4XNEdV0X9gSQBRjz8+Azma8B6+AuQg05DnPfsVRetRQ4q6lvnGoi5tEoqIuGvYU4MeGfJEV1FERMTGWB+GhtgUG0LMimExRMMitQoYNrnsGdauWbs6Jkwt30lbG6vXF0nPXtDp1nRlh5vZNqj/oCK6CNDVnhJ03cDsHym6K4hUxAB5mNI1FalTCNCBkVLHkCtUFMTO0VkWyLG675Ntnvyuz6cHP/XGfW9y6Wy7pbZt77+/b0q7zfamG5x3oErdUJ1//vn3neei813uoIMWL/amUrm79OZJ7h2Xj6hYwjPO98zsZ2Rbqkr1xtOzkbFbq8svb9X9u6evPB/ppb+9612Cyq6If3vO9S5srndyKnvvyqamrudYJKLnaNM4wDXBARrbeLhpwjsmAIFg0ylvvb+r9fTfGosMfP3yDz/ZX6jezM7PnkSjDAS14dVw20sAFvEAwlmcqi++ikDmNQ0YrS3cKkBICJCplwSo6a6NALlkmAB1epkgQL1knZrIm4QOdhy8TAsn8GomOoeX6+AZXp3pPojU6xC1bFbmovJnMt1CCy5AKseMHF1OLW8rVJWg8jE5rXxsG3xq6xiCsw46zrFOdsB+RzjZUE+0In6KYyyM8Av8UGmMkUYrTVVO1/fHNzrgRCc5wnGOpWmmKb/3DHZq3H8IZpEBxuaBvG2MrOmkM47dc+i4Q6ccAAAA");
 
 export default Synagogue;

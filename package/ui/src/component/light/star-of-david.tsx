@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-of-david` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-of-david?s=light star-of-david}
  * @preview ![star-of-david](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/star-of-david.svg)
  */
-const StarOfDavid: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M418.3 286.6l-50 81.4 90.2 0c3 0 5.4-2.4 5.4-5.4c0-1-.3-2-.8-2.8l-44.9-73.1zM399.5 256L330.8 144l-149.6 0L112.5 256l68.7 112 149.6 0 68.7-112zm37.5 0l53.4 87c3.6 5.9 5.5 12.7 5.5 19.6c0 20.7-16.8 37.4-37.4 37.4l-109.8 0-56.2 91.5C284.8 504.3 270.9 512 256 512s-28.8-7.7-36.6-20.5L163.3 400 53.4 400C32.8 400 16 383.2 16 362.6c0-6.9 1.9-13.7 5.5-19.6l53.4-87L21.5 169c-3.6-5.9-5.5-12.7-5.5-19.6C16 128.8 32.8 112 53.4 112l109.8 0 56.2-91.5C227.2 7.7 241.1 0 256 0s28.8 7.7 36.6 20.5L348.7 112l109.8 0c20.7 0 37.4 16.8 37.4 37.4c0 6.9-1.9 13.7-5.5 19.6l-53.4 87zM368.4 144l50 81.4 44.9-73.1c.5-.9 .8-1.8 .8-2.8c0-3-2.4-5.4-5.4-5.4l-90.2 0zm-57.2-32L265.3 37.2c-2-3.2-5.5-5.2-9.3-5.2s-7.3 2-9.3 5.2L200.8 112l110.4 0zM143.6 144l-90.2 0c-3 0-5.4 2.4-5.4 5.4c0 1 .3 2 .8 2.8l44.9 73.1 50-81.4zm-50 142.6L48.8 359.7c-.5 .9-.8 1.8-.8 2.8c0 3 2.4 5.4 5.4 5.4l90.2 0-50-81.4zM200.8 400l45.9 74.8c2 3.2 5.5 5.2 9.3 5.2s7.3-2 9.3-5.2L311.2 400l-110.4 0z" />
-    </Icon>
-);
+const StarOfDavid = createIcon("star-of-david", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABkwAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyDBAsGAAE2AiQDCAQgBYMtBzQbiAXInoWxe6JMNBETI32Rk7d7JeKhfr/f2X0XteSdn7CEJ7poCQyl0SBZI2kJDNMp4Q/VJD//+f19v/Z7vmeMM6IvBnKDEhOAOg3+UAk/FGXt+3+GMNX/zzX14vk14Dc6tN63RaXvbNk8gQFH6b15Ap7gTCdgG5w3RPpyKArpdyjxQMG05JXqFzjlp+OVo0VIpYIE0Q9OZW23qgSvv6kZ8asGxLMiEBDrAKYQKlQYQ2CRWmCMxhQoiqBJ9XD/gRwIIFoBP5egoBNn4BFAAam9aJhpQpd8n9ZUIzOt0CYqIqNl+zk7OVCWZIFEkoiRwiRZ2sD68LrQtrHtfekkk0BLdps0Z6+QTMGzxWZVac/vwnG+Zdl2A7PDorzKotAWzdkJhSW8KSx1y8REgfEmzI5IpIiixnWWZSRLJ9hiy/YKCZ4PFrd//Or8hZPriHK1rw6aokJjwy17SGU3kXWk3ZtK1CdaVreqmfnOrfkg4g7xPjz87tODzB86ZVYdLUMjpuhb9gAf+IFboD976IJ9wflAlvTao5BClfbW6bxdGYM37nXSq9VejZhDrClKEVjX3NA7vPBxgEDw8JRVk3nyv4GpAC/3HX5GFvUrfaluAe0SBFWjDkZ9Qj+L+A8CAGRMwjOhHyGdMJDO6HaOQOhEgNSqU4DKKAsEik7TCLSYEIMAnd6kFsWIMKyhQOp2DJUFU1AMu4MWi75WWw2H+lbVbjTtRzHMbdI5u3hEaDhP5KMtSb/7FLKaxBd7/Cc7IwHwJjoNGTSuQ7se4w1pVEljwoDcKSbHF3ERQoXjEvHN3buXZR1GjekxZJBtk4Qfn/A3OT09APpVpOwMTJUVafop5UKGOkNeYwAA");
 
 export default StarOfDavid;

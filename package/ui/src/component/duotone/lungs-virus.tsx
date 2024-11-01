@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lungs-virus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lungs-virus?s=duotone lungs-virus}
  * @preview ![lungs-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/lungs-virus.svg)
  */
-const LungsVirus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M.2 412c-.2 1.3-.2 2.6-.2 4l0 7c0 49.1 39.8 89 89 89c7.3 0 14.5-.9 21.6-2.7l72.7-18.2c20.9-5.2 38.7-17.1 51.5-32.9c-14 1.5-28.5-3-39.2-13.8c-18.7-18.7-18.7-49.1 0-67.9c1.5-1.5 1.9-3.4 1.1-5.5s-2.5-3.1-4.6-3.1c-26.5 0-48-21.5-48-48s21.5-48 48-48c2.2 0 3.8-1.1 4.6-3.1s.5-3.9-1.1-5.5c-18.7-18.7-18.7-49.1 0-67.9c16.4-16.4 41.8-18.5 60.5-6.1l0-24.1C256 127 225 96 186.7 96c-21.7 0-42.8 10.2-55.8 28.8c-15.4 22.1-44.3 65.4-71 116.9C33.4 292.6 7.5 354.2 .2 412zM288 32l0 124.2c8.5-7.6 19.7-12.2 32-12.2s23.5 4.6 32 12.2L352 32c0-17.7-14.3-32-32-32s-32 14.3-32 32zm96 133.3l0 24.1c18.6-12.4 44-10.3 60.5 6.1c18.7 18.7 18.7 49.1 0 67.9c-1.5 1.5-1.9 3.4-1.1 5.5s2.5 3.1 4.6 3.1c26.5 0 48 21.5 48 48s-21.5 48-48 48c-2.2 0-3.8 1.1-4.6 3.1s-.5 3.9 1.1 5.5c18.7 18.7 18.7 49.1 0 67.9c-10.7 10.7-25.3 15.3-39.2 13.8c12.8 15.9 30.6 27.7 51.5 32.9l72.7 18.2c7.1 1.8 14.3 2.7 21.6 2.7c49.1 0 89-39.8 89-89l0-7c0-1.3-.1-2.7-.2-4c-7.2-57.9-33.1-119.4-59.6-170.3c-26.8-51.5-55.6-94.8-71-116.9c-13-18.6-34-28.8-55.8-28.8C415 96 384 127 384 165.3z" />
-        <path d="M336 192c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 33-39.9 49.5-63.2 26.2c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6C241.5 264.1 225 304 192 304c-8.8 0-16 7.2-16 16s7.2 16 16 16c33 0 49.5 39.9 26.2 63.2c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0C264.1 398.5 304 415 304 448c0 8.8 7.2 16 16 16s16-7.2 16-16c0-33 39.9-49.5 63.2-26.2c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6C398.5 375.9 415 336 448 336c8.8 0 16-7.2 16-16s-7.2-16-16-16c-33 0-49.5-39.9-26.2-63.2c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0C375.9 241.5 336 225 336 192zM272 296a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 40a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const LungsVirus = createIcon("lungs-virus", true, "data:font/woff2;base64,d09GMgABAAAAAANgAAoAAAAAB6wAAAMVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUiEGQsIAAE2AiQDCgQgBYMtB1IbPQbIHoVxTKyx3viYRaEET2RX/6p6dvcA9IfBiMx4CoX0GzN4c3xP/2GJXNUIA0wlW263VE3BktwZoqlrBYaugoOf53z3zhtbF8gfFmhcKPevMQeOCTL38wQCHmNZmCUQaGSWQ3SWqk2UUZPjsvy7AEcrmfV4QI9oGoBd6Wx5Q8B6UPwNKV/C+BsgbQb168GzYilWSXNvgaRxAAIgbQGwCGAAAyQhADTHIEASDhZwcBAoVteFYnFdCwIA4sVgGd7sBfyAtwB+AAAOAIrBOE4bf/82ES0DPcHOwEBPwLiDlrTWNoomk/4FCMfGg7sPsZsNAHDN9W4MoWYRAQAn9g2fKSQ6Wqi2X4EHWqtqLxPpetB2YFmNyBpBTlTJ9XK7XKpmo4g6trsJXryYwv6yoG0EdXE3TJGjVdGevfYxf3ERPhBaiTr1mt7RrVEEBkhaBTcMVhO4qdGLEai6rpdqmrXZVKmL3K02s3VNJ2sWL/pHhNisD79c5fjLpE1M43ZDiotD4jp3tpe/bVt1/fo1BCS0Zv16heveZVtniGsTc+/lbN2W1WpSdJ8+0RdLr0r1EK+hVgXw4dm8uXfg2U7h/Gjcl4KoyIIIjTC189ONSSe1sQk9uPAhkh1HULm6z8p1v7asDTv8QcNSly3PR7yOjHy9nJDNm0MurlHrPXKzhbSCyKiCsnMw82uTyn4+tW/jH53D2RvYe/Pj8aE6LPBPh4Y1W1zbw7LqlgsCAAEEnk3P2zsqtPk3v0AFoPTBhy88nnaf6Wq9CvihAAiY6u7McF0N4AoLAPwolYWU1dVcAwQw7MFgJYI4iMzqD4APongJQAyJhCEOAVRDPKTQAPac3g+DOP4IUYwAogQxBzE0ZAXiEMVNxENznke9RInZ6mXbrOxPZ+qOTO4wzNapWds2tY15L/mGDKP+Zra3ufJCqauCpUxkFjOZzwTGM4X5xJ1Lj8QCZtCxTbTDdy11qEltLE2xo0ureiC55jKPYb1y/CDNsPP7K7OwvXUV2JRcYl3WGgyIiomcvmDmpHk1Tij6GjtQQ7Qq9xUA");
 
 export default LungsVirus;

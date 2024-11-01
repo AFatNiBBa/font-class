@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-on` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-on?s=regular car-on}
  * @preview ![car-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/car-on.svg)
  */
-const CarOn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M280 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 80c0 13.3 10.7 24 24 24s24-10.7 24-24l0-80zM185.8 208l140.3 0c10.1 0 19.2 6.4 22.6 15.9L365.9 272l-219.9 0 17.2-48.1c3.4-9.6 12.5-15.9 22.6-15.9zM89.4 287.9c-.2 .5-.3 .9-.5 1.4C64.2 306.7 48 335.5 48 368l0 32 0 16 0 32 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 320 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 0-32 0-16 0-32c0-32.5-16.2-61.3-40.9-78.7c-.1-.5-.3-.9-.5-1.4L394 207.8c-10.2-28.7-37.4-47.8-67.8-47.8l-140.3 0c-30.4 0-57.6 19.1-67.8 47.8L89.4 287.9zM416 368l0 32L96 400l0-32c0-26.5 21.5-48 48-48l224 0c26.5 0 48 21.5 48 48zM160 384a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm216-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM39 39c-9.4 9.4-9.4 24.6 0 33.9l48 48c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9L73 39c-9.4-9.4-24.6-9.4-33.9 0zm400 0L391 87c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l48-48c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0z" />
-    </Icon>
-);
+const CarOn = createIcon("car-on", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABmgAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCeAsGAAE2AiQDCAQgBYMtBy0bdQXIhqDQZfVI2i174ewj1jFj9s8RcnZA6RNmwBkgpZr/az6/tKMD/AB+3YvyAomI5xPY8/lulhYFfjawmU7AdrbtTRHTzi5UzpDFC3GPEsmjydu4O/jQ+EVHt5IopQCiGQAz1q1a4tUv48uIt4qniLcsQkDMALlAihRdBJgsFegikyOTCb6MohD/gTkBRFkU8QRkqOBxXAZkINGQZbUWE1s1NtZbVEv1bG21VNn3WN8LHcSjfS53jtXVSvXBtkOiEsPi4X6rbxJxUzybCyHWY1Gvucg6N5FQ8g1r47G+lyqVuK33hQ6rdwi1iHi8/cP9qnGx7YMdV1/u/AYltHUF1Q3f+0jHKXGx3+Odpsal3vXJ0yZzSljTAlP4hJ7Xmq/91uPtvW9rf7ntihVtl8vjW565I7rkz6NNPtVkq+3LBBxqlWuW678j19/0mpvbp9UhQZdlznQZ3P4O7Qd3ORPG5y7Lo9Dpcuk7nw7/0vBP30mLpv1O2xUh/kF7rq1aPv399wv1urfuKSKqpoRToI8DgeD8L4MbtzVN/q+hmoCvn//jf/wz6li8Gj8k19AgAUE6uBhsc0JHHeMHAQBI4qyeCR0FEvdrEEW15iEBQgUBEmUVAVKdNQuQqRgkQEk3YwQoq1glFVmj0MaWFiRqToDUWNeBTBtPgJLJXsuXtYkUSDkQ434Rk+f2oTnr8hFDh+cT88Wmmoc7xi5Pynfb/c/KoQF4p72OOeq0PXY74HSPPGlJ6Ywj5q4Rc3xRboShhstNlJ/uPN6+1h4nnXLAMUf9KpPk92f6O7s+eQDeRAIY+XkZWR5JedeOk0OOHQUA");
 
 export default CarOn;

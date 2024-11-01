@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-chimney-heart` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-heart?s=sharp-thin house-chimney-heart}
  * @preview ![house-chimney-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/house-chimney-heart.svg)
  */
-const HouseChimneyHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 5.5l5.2 4.5L384 87.7 384 40l0-8 8 0 112 0 8 0 0 8 0 157.5 61.2 52.5-10.4 12.1L512 218.5 512 504l0 8-8 0L72 512l-8 0 0-8 0-285.5L13.2 262.1 2.8 249.9l280-240L288 5.5zM496 183.7L496 48l-96 0 0 53.5 96 82.3zM80 204.8L80 496l416 0 0-291.2L288 26.5 80 204.8zm200.3 36.4l7.7 7.4 7.7-7.4c11.5-11 26.8-17.2 42.7-17.2l2.4 0c32.7 0 59.2 26.5 59.2 59.2c0 16.1-6.6 31.5-18.2 42.7l-82.8 79.6L288 416.1l-11.1-10.7-82.8-79.6c-11.6-11.2-18.2-26.6-18.2-42.7c0-32.7 26.5-59.2 59.2-59.2l2.4 0c15.9 0 31.2 6.2 42.7 17.2zm-3.4 18.9l-7.7-7.4c-8.5-8.2-19.8-12.7-31.6-12.7l-2.4 0c-23.9 0-43.2 19.3-43.2 43.2c0 11.7 4.8 23 13.2 31.1L288 393.9l82.8-79.6c8.5-8.1 13.2-19.4 13.2-31.1c0-23.9-19.3-43.2-43.2-43.2l-2.4 0c-11.8 0-23.1 4.6-31.6 12.7l-7.7 7.4L288 270.8l-11.1-10.7z" />
-    </Icon>
-);
+const HouseChimneyHeart = createIcon("house-chimney-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiQAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCTwsGAAE2AiQDCAQgBYMtBzobWQXIhof/6uq7LyKrkdVGfmlAoWYF4ePsB14J65q4nP44/w047cUfacxoTm7rGOs8gQfMunQt7jrPwixRzNochyCCGbdKPBcdFg3j07C0hyK+coQa6d60FDfvHxq/GnUFSc4AogcAm+69+47e+z6+j/iy+TLxpe0REJuCSiAjY0KADWSBCYUKhULwfTSb9T+wIoBowf0SKNCKq3AXqrkta0Uxr70+c0a91lnsVa+VRw8ODe4ZfEG9LsSuMRA7RQpRdkTk2CGG4vAY3jNEGWLPQ1JOnZFjr9hjz3vB4XiuFcWTc+4dvWT+HrCGTh9txP3jT8+rx/ULRoYGh+4qy7hu4A6XDO4Ze8fdcak4BhZXz2z0NH6fsfSopaZf35xb7bejVbRpO6fNQz50v4UmI/AaNmlh4fCfNl/x/DUQHmItB+/68MCs5CNmUWmEPp11Ns/XM5Jd0v1X22jvbjt7VsNuO+kdbfur+5JktGfmWXQu7bO8vre+7OtbKhVz6XR/+ZY+a+lZGhpAILjol+NHDu7e4P+2egI/vvHnr9v5ufle2jA10CaBIC9uLnZA2kSWja0AplKcZSa+SSC5SA3etcNdAoQSAZIWpQDZuB4BCqVFAtRMWVOAFqXdZVG0CwMOPOikw6l0tpYL6cKAF+maDXyaajEQOR/VbFJ/B7O2ivCWdtWqK61SrVddNkwtxeS+uH617Jp/lgwswEZHOdlJznCkIxzrjECdZsfsmU60lUO29EOVVa1kFZX1VI/b6/q9HOk0pzvWyU4ay6yvej8231l+/AJ4E4qupixJROrP1fIlhx9z7IknHXnuki8DAAAA");
 
 export default HouseChimneyHeart;

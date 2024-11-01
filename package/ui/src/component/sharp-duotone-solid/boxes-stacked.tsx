@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `boxes-stacked` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxes-stacked?s=sharp-duotone-solid boxes-stacked}
  * @preview ![boxes-stacked](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/boxes-stacked.svg)
  */
-const BoxesStacked: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M104 256l80 0 0 96-80 0 0-96zM248 0l80 0 0 96-80 0 0-96zM392 256l80 0 0 96-80 0 0-96z" />
-        <path d="M248 0L160 0l0 224 256 0L416 0 328 0l0 96-80 0 0-96zM104 256L0 256 0 512l288 0 0-256-104 0 0 96-80 0 0-96zM576 512l0-256-104 0 0 96-80 0 0-96-72 0 0 256 256 0z" />
-    </Icon>
-);
+const BoxesStacked = createIcon("boxes-stacked", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABdAAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBbAsIAAE2AiQDCgQgBYMtB1YbFAXIjsPGMR1poyzB5whJOnn4fq38c9/rndrtCUMnihFcXCQ5EnZtosKOfexUJEn+0MX8PnFN/Uh6em9+gkfKBUalTbvOJzDAaG/aRAY2mymuIYEE5eK2q0XDNLSd0LhAEf/mW9pIjxLcC/8DGF8NdIukIwOIHgBYvHPreq9b0UrxsX5CfLQOAbEEVAIZGUMEmCcLDFGoUCgErVTXtKKuKwKIhvC2DBpoxw4cAhQgyXJR9AR0ZJttXYsdP1PuLZul6BoRZWC22DYBE5ZTh3PKVSHKcmJns2wyc8a2rx7Z2aPz+wgn+PVql2gLY3Y5ZJP3Xn2qciqcms19qhtpVZaTrzYxjrYorwOB4HafGw8Pdp/3o72ZwOenv4jn1a/TotSJdgkEeVw9zr60CIQ0gEKKG0bufNUpgWyqLH1qF/cFCCUCJA2lANlgPQQolMYK0GaY6QI0lLbKougQ+tjfxKSLy2I2w02x0Mdjsc08b/INfSLDlw4d+t9d1hVjePmyavKESdWcarOuGCCj2vm51WnbqBuybzQ+64SLLrjmuGNOuzair1hfuu68FXvUcj9UmWyCSSpzVLdbz4/vcNwVV5120QW/yFzV+6FRbuyPHo2dSZKdYkuWiRS576dXOf7qtcNHzx4/Nr6rDum/Yu6WAA==");
 
 export default BoxesStacked;

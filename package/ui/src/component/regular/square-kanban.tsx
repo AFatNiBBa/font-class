@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-kanban` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-kanban?s=regular square-kanban}
  * @preview ![square-kanban](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-kanban.svg)
  */
-const SquareKanban: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l320 0c8.8 0 16 7.2 16 16l0 320c0 8.8-7.2 16-16 16L64 432zM0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416zM128 288c13.3 0 24-10.7 24-24l0-112c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24zm168 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-176c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 176zm-72-72c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 80c0 13.3 10.7 24 24 24z" />
-    </Icon>
-);
+const SquareKanban = createIcon("square-kanban", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdAAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBaQsGAAE2AiQDCAQgBYMtBzQb7QTILgbspuMIFaKmEE1TCo+lVT16/obFiL4fur2X1m36+KhoqpAoUEjVdBzOgxEZLBr9/e/3a+d+m2HVgYe7NrEQRa2RtmGlEAqVSjJD9idC7XuAT516nvNQAJ+DEQjaWLg0IGPynucRiFguPtpShWrrPKJYa2e3+OGffpMQ+STD5ofNDt3sUuhBXTjgM71p/litQhE7ACBLAPD4XFUC5w/9hL5b5FsRCJBHAEcEOqADtghwg0dgS8BAl4DgSv8t/AcyCED60J8qQBcMwAt4BdAFFLEraNZKhVIuKoVauSjL2zDxtGlW0rqRozWDInc7gOjaR0mXQbd2nnYCb3wVdOZ/ZeHqLu1EO75nFtDFp2bbp63VTo943mhufj30/vhXpUN1fZDtTbaC1VfFHGm1snTIVp6FhQrjOIxPIl76ifQE2PLyKozlYArPAxAQeFOuTZ38T84B+H37jx7XyFk3YIgDBDqnFqw5TgBoAlArs/A0LhZQyomAvOrUBgIIGQigSGQI0GGnQYAumSAE6HETgwB9MlV41HUBMWipgKMwAXix5oDA4BWIkr2rEkN456Jcg/rbxef2UM4SiwgNZ4lsGSm0vxA8TWLbgv8sVQKwiV5jRk3r0W3AdIdMKjFmjMi14BwXYiKECsckYsfp43qtHpOmDBgzGuckYfcVf7N2ewBkjuKeeQoHKeUDdYcMdYx2dowCAAA=");
 
 export default SquareKanban;

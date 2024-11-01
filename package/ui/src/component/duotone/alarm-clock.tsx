@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alarm-clock` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-clock?s=duotone alarm-clock}
  * @preview ![alarm-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/alarm-clock.svg)
  */
-const AlarmClock: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 288c0 50.3 16.6 96.8 44.6 134.2L41.4 457.4C35.1 463.6 32 471.8 32 480s3.1 16.4 9.4 22.6c12.5 12.5 32.8 12.5 45.3 0l35.2-35.2c37.4 28 83.8 44.6 134.1 44.6s96.8-16.6 134.2-44.6l35.2 35.2c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-35.2-35.2c28-37.4 44.6-83.8 44.6-134.2C480 164.3 379.7 64 256 64S32 164.3 32 288zM232 184c0-13.3 10.7-24 24-24s24 10.7 24 24l0 94.1 41 41c9.4 9.4 9.4 24.6 0 33.9c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7l-48-48c-4.5-4.5-7-10.6-7-17l0-104z" />
-        <path d="M14.9 146.4L160 25.4C143 9.6 120.2 0 95.2 0C42.6 0 0 42.6 0 95.2c0 18.8 5.5 36.3 14.9 51.1zM256 160c-13.3 0-24 10.7-24 24l0 104c0 6.4 2.5 12.5 7 17l48 48c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-41-41 0-94.1c0-13.3-10.7-24-24-24zM352 25.4L497.1 146.4C506.5 131.6 512 114 512 95.2C512 42.6 469.4 0 416.8 0C391.8 0 369 9.6 352 25.4z" />
-    </Icon>
-);
+const AlarmClock = createIcon("alarm-clock", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkwAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCMAsIAAE2AiQDCgQgBYMtB1IbVAXIjpSuzlQQz9tV9X73LMBemWd6ooMjQOnqIiGe+P+fa/K9e34N+I0OpVPveawAM59PYIBVGunziY5oJrzd2UrboeBwSEssoV9NjssJ6PJOW40J1AH1Atjm/gdQvuLLalDYagAAiAsAAFDSr62BO13SpeSF5SrIC+oBAZBSAAwE0AANCEAAyEdDgAB0DEBHR6BLWaBLLAYIAIgV7pM1AKwAa2A2sA4A0AFQaChdd3B3SPCwNznqnfYmu0H92vuZM69Gnw9Y7ttx2gdZ7lkgZ6IO+RWKyMHIfh2dHYfkaGy/tN/HknzZDS7cY7/Ju0hednxuKpByyz5Z4VUo9/udTL1c+6zyQfWT5ItGv0NRZ3wRSA747LbbiIf3ioSaXczfQ16MfYFTwvb58cV9w6ebzdaBX345tniOx26sBUfHN2/WMxTPlmFrZfxLoPXM6cP3EXyM+pupbDDehv1+0f4wNtVTz6YwmNB4NJTz1Du9vRcf2NUVGH/vrdPjcZ4tLZ5DWc+bN2PtVnPpHeMBQACB7BnlkcOc8//b2CsAem7//Av9juWOQpkBGxQAAlq8JZ7BCgAFAgAAACiZS6g6aaSkrvCSA3sRAAQ7QABQWGFHAQ1/XEDHjjgwEUSGMLi+DQ3RbRE8GAKgcGAGaGSyBHQ8uAIm8nmcWuEhmgZK+iP9/9IrOVoxzUhJTDZyjW5ZlpVKsON5xrAfPZfaYmAvY5nGVGYzhtFMYDZjZtKQn8MUKiWsgi9ikEIiyRjkYkzXrvVOls5kFhPa6vwkeRj742jmyr1jIFIE1lSOamggSjT3EZNHzJyS8GLthLvc4Vmr1xYAAA==");
 
 export default AlarmClock;

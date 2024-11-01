@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `h6` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/h6?s=regular h6}
  * @preview ![h6](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/h6.svg)
  */
-const H6: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 88c0-13.3-10.7-24-24-24S0 74.7 0 88L0 248 0 424c0 13.3 10.7 24 24 24s24-10.7 24-24l0-152 224 0 0 152c0 13.3 10.7 24 24 24s24-10.7 24-24l0-176 0-160c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 136L48 224 48 88zM519 69.3c-10.3-8.3-25.5-6.6-33.7 3.7l-98 122.5C364.4 224 352 259.5 352 296l.2 0c-.1 2.6-.2 5.3-.2 8c0 79.5 64.5 144 144 144s144-64.5 144-144s-64.5-144-144-144c-6.8 0-13.4 .5-20 1.4L522.7 103c8.3-10.4 6.6-25.5-3.8-33.7zM496 208a96 96 0 1 1 0 192 96 96 0 1 1 0-192z" />
-    </Icon>
-);
+const H6 = createIcon("h6", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCAAsGAAE2AiQDCAQgBYMtBykb+QTIhof/t+v7fW5VvzXTPUYNQH8pMiOI8Y+pCO6pU89zHgrgc9zHwmW5gCzwOc8jkPOAxNYQWW2tWCtQxbhvWzp0FOGVkDCJaJxw3EbI45+4SYl0W/oEN/Y3jR+1dBlJKQMQDQAwYdmiOd74LD6L+Lj6LPGxWQiICaAQyJChjQCjZQJt5ArkcsFnUa3Sf2BBAFFDDk8gRwmbsQuQgyTL885tW1dKdfOllVJ51e1dH2whxG1dHmkdUVExwr1bOWLTw00WxysizrtvzKtT3h/3eqf7x7429Zomk+KOZouv7RLxUMvbnG9xa+cHy9d0fbjV7XGh9R3dHql0fLzB4z93+GTrJ/pta7pgQdN7PaGpt/rMrSg94V7YcZXPXPVpo9bVDSf1Gk6etzl+5ZtvXnm8TWlZvul7T1abXdNqNavffa9ly/feXb26lTHQ74BAMGRF36/X1R/9W61KAl+89OvvuDGdT4+jlgSCrHe1t9XpPBA6ADXFUR2DDwokq2XkVeu4WYBQRoCkRlmATGsNBMiV9RKgpJ0hAtQoWyQTeW2hiTUDJHUcAJmhzoBcE0+DktHeV2o0iSzRiDQhvnmxUy00paoY0Ld/MbJYGpTMHawWRxXbXPejHOgBjbbaZ6/Dtthsh8MGOWiOfsQeUyN4ii8qDNBXf4WRimP7mV1q1IMO2eFT52VGKe7L3R2N43tAHQkw8IkwViKl7UMB");
 
 export default H6;

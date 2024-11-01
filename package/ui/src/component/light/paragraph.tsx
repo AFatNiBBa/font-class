@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paragraph` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paragraph?s=light paragraph}
  * @preview ![paragraph](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/paragraph.svg)
  */
-const Paragraph: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 192c0-88.4 71.6-160 160-160l64 0 176 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0 0 400c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-400-64 0 0 400c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-112-64 0c-88.4 0-160-71.6-160-160zM256 320l0-256-64 0C121.3 64 64 121.3 64 192s57.3 128 128 128l64 0z" />
-    </Icon>
-);
+const Paragraph = createIcon("paragraph", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABXwAAAHrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBNQsGAAE2AiQDCAQgBYMtBzAbtQTIHge5afRmRvrHlYiH/1/7133uzPsBoAkzOiBPqGK/Cjjk0a0L2a7KVPbVQlXVvk+dyrmchwL4HvGgjI1Lo2OBhOY8j0DEcvGcB2dbqhVrFcWq21j5gyirR47gETHEYyiCK+RxPwaokO6mEpfbh8Y/2rlEkmcAoikApq5evtDrn/EzoqwiSvMRENNAIZAhQ0cBJsgEOsoVyOWCn1Gtyn9gQQBRg7snkCPHJMwG5CBJed67SYNKo3xVg0r91X9Pjni1WoObrW60rB8poN9qnYVBgflr0stVs5Rt9X7C8+LBxBczdattWvtv13JXqUs1ppeU02PKw5+NG/8c4goQQK+YAh151fQoy5j+4yymWDJ9RKUyYvqSKUAg+P5fx/83N5nwp64Efj/9R64rqj/jdapFXQkE2YDqABvitYJ4LQAAKU7pFnxRIBkl4bs2dEuAUB8Bkhr1Bch00FSAXH39BajobKQANepbLhN5PaGljR0kDR0FmVFOg1xLT0DFBJ/sGi0jSyEmAZgXXOIsD8+cKoYOGlKMK6YBY7OCKsPxxbLU55QW+mLRLocdcsJOO+x1wqHHLPROOmhWhMz0Q4WhBhmiME6xHT/Or7LTMcftddihOma84rzWx6m4vi/UhLjD+JJEpHq3kfvMAAAAAA==");
 
 export default Paragraph;

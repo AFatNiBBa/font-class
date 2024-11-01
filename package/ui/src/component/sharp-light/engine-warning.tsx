@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `engine-warning` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/engine-warning?s=sharp-light engine-warning}
  * @preview ![engine-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/engine-warning.svg)
  */
-const EngineWarning: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M416 96l-16 0-80 0 0 32 16 0 80 0 96 64 0 224 0 32-32 0-256 0-51.2-64L128 384l-32 0 0-32 0-80-8 0-56 0 0 80 0 16L0 368l0-16L0 160l0-16 32 0 0 16 0 80 56 0 8 0 0-80 0-32 32 0 32 0 128 0 0-32-80 0-16 0 0-32 16 0 192 0 16 0 0 32zM304 160l-144 0-32 0 0 192 44.8 0 15.4 0 9.6 12 41.6 52L480 416l0-206.9L406.3 160 336 160l-32 0zm304 64l-32 0 0 192 32 0 0-192zm-32-32l32 0 32 0 0 32 0 192 0 32-32 0-32 0-32 0 0-32 0-192 0-32 32 0zm-256 0l0 16 0 80 0 16-32 0 0-16 0-80 0-16 32 0zM280 328l48 0 0 48-48 0 0-48z" />
-    </Icon>
-);
+const EngineWarning = createIcon("engine-warning", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfgAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCWQsGAAE2AiQDCAQgBYMtBzUbXgXIjsQ4FvJIFRoP8fDfWp/3VffMmV+90EtcS0wBJEfgklUBtokiUOMCKOQ/sYzJrPo2/2fjvT0fjcafN/GhHdflN1j39TyBnue9/AaKsrLAAkqMszbHH6iDKL+JiAYd1be3fA1LJ6jj71ikQ3o6weP1Q+NrEzxEUlcAogXA9rNPHtYfjMGIT/9/i/jUQQTEDlAEKlSYLMAmlcBktYJaLRiM//+P/4GFAKJLXzGBGj08hicBNUi6db151MCoEQNNZ2h9VtPJV+cmi6Y5HULkISci54iInIXIoVkTArAmIqyck+vUSeKY2B5NRJylXLoGEQvgNAzVbAAN6c7yKf6EHDHjlfZvp7uKFy9u20uK9tjFWw0qiqUWl+KY3rpjWkWr34pj1vWOifgSe3RbtF+Wtp4582rf4uHPetCPvrB/mT3Dt5ZS+or+/6VsK/oKGFrlTGmEcx9dBkn4GQgEJ256+c+Lh2/6tdck8NX73/+IO9N9afQkEFSL/l/kgnQfRHwAZYq7zCB7DCSPeMLvOsQTAoSMAElXFqAySStALVsoQMdUqwXoyk6qRD0gjHbhAMkQt4LKGneD2mhvgI5NPii6RkfllIxLMf+EiXtmePeusnzJsrKh7HZ01s+ovLmxHDbn3ZUm5stRV7nZTe5wpStc644Jvc3h+k432sOQ3b6oWG6JZYoNyuX+28NnudJtbnetm91Uttmo3J/OcxefP1+cRElXaEgSkYZ9FeriVwE=");
 
 export default EngineWarning;

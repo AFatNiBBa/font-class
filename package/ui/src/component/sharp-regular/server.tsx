@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `server` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/server?s=sharp-regular server}
  * @preview ![server](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/server.svg)
  */
-const Server: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 80l0 96 416 0 0-96L48 80zM0 32l48 0 416 0 48 0 0 48 0 96 0 48-48 0L48 224 0 224l0-48L0 80 0 32zM48 336l0 96 416 0 0-96L48 336zM0 288l48 0 416 0 48 0 0 48 0 96 0 48-48 0L48 480 0 480l0-48 0-96 0-48zm392 96a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm24-280a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM328 384a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm24-280a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Server = createIcon("server", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABdgAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBfwsGAAE2AiQDCAQgBYMtBy0b/ATIHoVxMz3SRXOUj8L+EQ//v/a/fe7Me18U88FdG80izbXS8CYe4l9UFpH8krkWskLe5/+aelF2lM+/0aFUUen5ojkicQITWHPT3gRmA5vpBGyL266CiIbGQuMMebyJlEg3ElwJHxp/dXKBpJQBiGYAzFy/eqmPLdES8a0y8c1iBMRMUAhkyNBVgCkyga5yBXK5oCUqFfEfWBBAlCWvSiBHLXbgICAHSXWe17TiUE2srtSQr9MnazcLDRFRP62utklgobY+YriNqxt23ur/pNP1Pk87b66kYf8N+qFeL5tf/mMfw4/v2LHjvh3uV0aMMMIOpftbLjd8+HLB5e3tVq5sl1MdOmj9gvUd5s8DgWDllrMvtjdN+V9dl8Cf19c/I5WWJL1EtQSCbEhliC0JJAIAkOKcXgkCyQbVknetd1WAUIsASVmtAJkumgXI1RosQEl3YwUoq7VaJvIaoa2tFCT1ToLMOOdBrq1XoGSKT4mytpHBmQYl2m9e9rwxOnddMXLYiGJSsVnV6qCj2OnJxWlvwDnZNRAftc9xx5yx1x4HnRkxpyxNn3XUvD16ri8qjDTMCIVJituN5/vX2euU0w467phfZbLi/WiAc/uDB+IwSURHKUoSkcqfJAAA");
 
 export default Server;

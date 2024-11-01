@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelopes-bulk` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelopes-bulk?s=sharp-solid envelopes-bulk}
  * @preview ![envelopes-bulk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/envelopes-bulk.svg)
  */
-const EnvelopesBulk: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 0l0 128-256 0-32 0 0 32 0 64-96 0L96 0 480 0zM224 192l0-32 32 0 352 0 0 256-224 0 0-160 0-32-32 0-128 0 0-32zm128 64l0 32 0 18.1L192 420.3 32 306.1 32 256l288 0 32 0zm192-32l-64 0 0 64 64 0 0-64zM352 345.4L352 512 32 512l0-166.6L182.7 453l9.3 6.6 9.3-6.6L352 345.4z" />
-    </Icon>
-);
+const EnvelopesBulk = createIcon("envelopes-bulk", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZAAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBWQsGAAE2AiQDCAQgBYMtBzUb3gTIHoex22RJF81QPq5EPPy31tt91T0fBoJYiQJmRUw2jhSRjYMFh0YEbE7kKppkfgNKwNr3iWue//nTAxb5o0RjaWMUWMZ2PoEBR1L6zoe7B5tNFGft7AYZ9LpJiad8kmH8DIsnlPFPcVuF9CjBvTyr+K632yTtBYDoBIC561at9OuX+BLxVzPiL8sREHNBFihwpp8AMxSCfkIpo1QKvkSzKf+BmQCiBT8mgRKtWIkNgBIklbLs2LnR3rFWaZRra5XqPqFeFaIaEY3VIWqN1F2IqFZjjSBWx1rDWletVSM2YrVQJ3BNdI+esW7wu07vfgyyl8+/4Bk5m2O7L643f8k8s50vnsjy9Xxt9mB38fiExMbJnwdGrDnm/HL+9YY5Xrt/yF13y8sgEHzv/8ttHWf83VZL4NuHf4T35eavaXt6hzYJBMWI5gib03VZTtsFACDFWYONLwokC1VwrnX3BQhVBEhaVAUo9NVJgFLVcAEqBpgoQIuqVQpRtgvdbGlwUncCLkxyBS518x6umOE3p0W3KJyKcQnmT5e4SAML1+Wxo8bkaXmZqKyfUGl5et6WhpyNjaE4a69jjjptj90OOK2gk1b6ZxyxyAIX+qFsrFHGyKbJx/nz8bX2OOmUA445KqtMl+9rQ5y1+4dCTYg7zh1JIlKHPUfP7jl87PieUyMfOAAAAA==");
 
 export default EnvelopesBulk;

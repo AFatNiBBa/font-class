@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `map-pin` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/map-pin?s=thin map-pin}
  * @preview ![map-pin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/map-pin.svg)
  */
-const MapPin: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M160 272a128 128 0 1 0 0-256 128 128 0 1 0 0 256zM304 144c0 76.8-60.2 139.6-136 143.8L168 504c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-216.2C76.2 283.6 16 220.8 16 144C16 64.5 80.5 0 160 0s144 64.5 144 144zM80 136c0 4.4-3.6 8-8 8s-8-3.6-8-8c0-48.6 39.4-88 88-88c4.4 0 8 3.6 8 8s-3.6 8-8 8c-39.8 0-72 32.2-72 72z" />
-    </Icon>
-);
+const MapPin = createIcon("map-pin", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbgAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBVQsGAAE2AiQDCAQgBYMtBy4b0wTIjsK2vfEUSTkrzFTEU2O/fXeHSvMOSZNpE62ESshMN2mN6ZTAUCnh2/dy7+8JxBtJFa1W8vTp8oom8yth+vt5/s8/FcgD8B+J3yK5wDPPJ7Dzal/TbECzgc10Ara3ifhoTHw6JEwoIjqu8Pg6QUss0vBSvrjewEP90PxT1AYUtQIgowCAnZvQEFxxiBN66+xDfgSBQHYBzCNUVEwjsI5bMI3HPGia8Ev/O/gfyCBAusHPLaChCyfgCkADRW08ysqSwryiPBFxsVBkrxHRqtEqNRuuBFyoR38JR5PB8mPCkVPORGfeoFeZCTmih80LzVm3S797l3ONiFGYPJDtxmVFmMu3KGiuSKx8arxlvGFyU+sK+FYV1dQUVb260lIBfHCwUSgTuHl9B99tEt+7schMIZWqzuvrziqVD35r83R1uTdCXsOxshIDCMLx/ZxQorjzVwFhLsDfyZdf+DOS6FyRJdcKoFcBoS7+NxaXCkiQiCUIAFBSAc24QwKhOMKN33XQOwhEPwKKbv0CqikSCDT9FhDoMssGgW79LnBLE0RMiu+gGHQHqjX1oJm0C7qse3S6TYbbpRiHYH50ib4a8hnHLEzNmSObBoT1EioNndi2pF9BBQM4igyFCpRJlyZbmUJKhPjl8vmuYB9fxFgwZY5xxI7j7f4I6UqUylaooIzihN039FWs6w1gElyApcegaEUKf35ykUlRdgEAAA==");
 
 export default MapPin;

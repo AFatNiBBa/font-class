@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spray-can-sparkles` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spray-can-sparkles?s=thin spray-can-sparkles}
  * @preview ![spray-can-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/spray-can-sparkles.svg)
  */
-const SprayCanSparkles: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M136 0l48 0c22.1 0 40 17.9 40 40l0 80 0 8-16 0 0-8 0-80c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24l0 80 0 8-16 0 0-8 0-80c0-22.1 17.9-40 40-40zM96 176c-44.2 0-80 35.8-80 80l0 192c0 26.5 21.5 48 48 48l192 0c26.5 0 48-21.5 48-48l0-192c0-44.2-35.8-80-80-80L96 176zM0 256c0-53 43-96 96-96l128 0c53 0 96 43 96 96l0 192c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 256zm160 8a72 72 0 1 0 0 144 72 72 0 1 0 0-144zm88 72A88 88 0 1 1 72 336a88 88 0 1 1 176 0zM336 0c4.4 0 8 3.6 8 8l0 32 32 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-32 0 0 32c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-32-32 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l32 0 0-32c0-4.4 3.6-8 8-8zM472 8l0 32 32 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-32 0 0 32c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-32-32 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l32 0 0-32c0-4.4 3.6-8 8-8s8 3.6 8 8zm-8 184c4.4 0 8 3.6 8 8l0 32 32 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-32 0 0 32c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-32-32 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l32 0 0-32c0-4.4 3.6-8 8-8zm-56-88l0 32 32 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-32 0 0 32c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-32-32 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l32 0 0-32c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const SprayCanSparkles = createIcon("spray-can-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAAB1wAAAKzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRSERwsGAAE2AiQDCAQgBYMtBzkbUAbInge2rWK9CAM2ZWyxiPDx4GlDPM+3X3rfzN8tI2nWJMy6yCpUSe3qqPLxiXBlW03gP8rZ+62T9sgc4I0boe1WiZun1Qn8xZwHte8T19SPnA/wA1fnTbuhRGFRefO02zabtUCmDzeQKBvqBGx7i5pRMrJPkkxquh7P9Ph0hCZ3bpBTnpQB3A8fmi+mGaWoFQAZCwD2XUmJw/PHfEw+/0cGnACB7AfMRaiomInATlLBTDJzQaMRPub/f/sfOBcCpA3mFJsajCAFMhrqKRTDGpnzdAvtKLv55OYtrSzdz2M5I4bzsUkTEBlOGDS7mGV9qnwAGpoyxS/2L6VszwQ9mTThxLM1ZcqSsrh8N5hd7F1B2dvCc7Fsxxr0eOm2I8vm8l0LutS/ct/rIOjK58j7MDitb+t1+K39WsRd2I1dzoNJoBE0MWnciAWJrEkTCiPWlCkPUctpiNbUhHHqvGLp57Df1dv9mvet9bz29fXV37vVT6QylspZxufWImkSXoT+sz19lyO9MricN+rg27WsfTtY38jlm3qDBWdUXbqdQXS6u6o3ho8bt4xA3xD2pldn/4aAyI4RuXJEf+bqakafJ+NMoWIugWgXEkJEaN8zZO5c0TVAXUOuNqi2JeN0IAhPn/3vaMzOr0NHSACfn/0r/Yz8V5Quhiog1JX/V8otoBAAQEk7+wJB8cswfK0jPRQQwxFQtA0XUM2gh0BjuBUItMwWhEDbcBdIpVEjJsorVDHSHararI9qTHRGtez04m2bmPoWtDdZ+xXNFCvhmEHCz9tXhItuSNZdbzWVRohhs2u7S3GDmSjXoF6rMqWqtApus7hAmzqxmnjMdwU/3nwJ4cRy9NqUjt5mLarahvVGIojzLlftenY3sEmw0vX2KQopBvduNxd1eZVcrfdqeXH22rIWAAAA");
 
 export default SprayCanSparkles;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `database` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/database?s=sharp-regular database}
  * @preview ![database](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/database.svg)
  */
-const Database: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 206l0 50 0 21.4L141.8 336l164.5 0L400 277.4l0-21.4 0-50-80 50-192 0L48 206zM0 176l0-48L0 80 128 0 320 0 448 80l0 48 0 48 0 80 0 48 0 128L320 512l-192 0L0 432 0 304l0-48 0-80zm400-48l0-21.4L306.2 48 141.8 48 48 106.6 48 128l0 21.4L141.8 208l164.5 0L400 149.4l0-21.4zM48 405.4L141.8 464l164.5 0L400 405.4l0-71.4-80 50-192 0L48 334l0 71.4z" />
-    </Icon>
-);
+const Database = createIcon("database", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABagAAAH0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyCEgsGAAE2AiQDCAQgBYMtBy8bEQXIHoexe2TJLCalPu4+4uFrrXy/p3cDQHOnwsQK0KFjG7WRcVHjQsZcxRLI1CZzLWS9VM//2Xjb89EAv2/CQzquk7au8/l9PE8g4Kg8L5EssEwTsBa3XQURDW2EyANyvIzUSM8TPA4fGl8McI+kVgCI7gBYsG3TGlVbtEV8ak58sgoBsQCUAgUKDBZgtkJgsKxElgVt0WyK/8CSAKIueXECGXUcxjVABknOuU9Lnx6dal3yVnO94zZBbIlOsS0wfnN0jK0zQ0TbotOizrJeiUQ6NIS2VjaHuJkf3rJ1S8OduqG10b3xrcVRxv2amPT1sWemVwWhj4nWTVBZ/8fjupvrVHh4vPHWG+/WDL4VPtYnES6uesTc15vSKTPSlz1Itc+DQLDu/tf7us3+175TAp/f/vhB/IqaVVSpgfYSCIrRzdF2RwVRCQBAiqtao0Ig2S1L3rWzJwKEjgiQ1HUUoDBIdwGyjkYJUDPUFAHqOtqkELmD0NueHiSdXQCFqa6DrLc3oGa2d/W63lFAHAsv7P9e0tIxsuRSOWHs+HJmuTnSckBE29NZ5Wlr+FW5MgLfddQ5Z112xGEnXB5hF61pXXHG0j10iS8qTTDWeKWZytvT59JWWr/okhPrwv1zZinfz4a7ur99BHaThHSigSQRqf2HCgAA");
 
 export default Database;

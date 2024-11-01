@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trophy` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trophy?s=sharp-thin trophy}
  * @preview ![trophy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/trophy.svg)
  */
-const Trophy: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M270.6 380.7c3.6 1.1 6.8 1.9 9.4 2.3l0 113-112 0-8 0 0 16 8 0 120 0 120 0 8 0 0-16-8 0-112 0 0-113c2.6-.5 5.8-1.2 9.4-2.3c0 0 0 0 0 0c33.2-5.8 100.5-31.4 159.6-80.9C524.3 250 576 175.5 576 72l0-8-8 0L446.4 64c.8-15.3 1.3-31.2 1.5-48c.1-5.3 .1-10.6 .1-16L432 0 144 0 128 0c0 5.4 0 10.7 .1 16c.2 16.8 .7 32.7 1.5 48L8 64 0 64l0 8C0 175.5 51.7 250 111 299.8c59.1 49.6 126.4 75.1 159.6 80.9c0 0 0 0 0 0zm3.8-15.6c-1.7-.6-3.5-1.2-5.5-2c-12.6-5-30.4-15.5-48.7-37.4c-35.6-42.7-74-130.4-76.2-309.8l287.8 0c-2.2 179.4-40.6 267.1-76.2 309.8c-18.2 21.9-36 32.3-48.7 37.4c-1.9 .8-3.8 1.4-5.5 2l-6.8 1.2 .1 .6c-1 .2-1.9 .4-2.7 .5c-1.7 .3-2.9 .4-3.7 .5l-.5 0-.5 0c-.7-.1-2-.2-3.7-.5c-.8-.1-1.7-.3-2.7-.5l.1-.6-6.8-1.2zm83.7-18.2c37.1-37.7 77-113.7 87.3-266.9l114.5 0c-2.6 93.4-49.9 161.2-105.2 207.5c-32.3 27.1-67 46.6-96.6 59.4zm-140.3 0c-29.6-12.8-64.3-32.4-96.6-59.4C66.1 241.2 18.7 173.4 16.1 80l114.4 0c10.3 153.2 50.3 229.2 87.3 266.9z" />
-    </Icon>
-);
+const Trophy = createIcon("trophy", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABjQAAAKcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCaQsGAAE2AiQDCAQgBYMtBy0bZgXIjsO4sZuVFgcjT/E8vN5/v/ZJnjJWBtanXNEd3BGdeH8FtawEHvqdP+0kwzCjjHpBQuEGckDjTZ2qGeehAD7HdWxLbGwcm3KhpGufV6DnBQl2TKq1IAGrVRR7tu1VENGQ2IXGGep84ThdlPvK+7gldCo/GOM6iqoCkMEA2Hzgvrt789t8m7z3/3PkPbsikM2gFVS4ZbyAdSoxPkOtRa0Wvs3///v/wJYA6Za8uIAa3bgDDwNqUNR1vXbZoAH9ugbUB5inm2PvGiFNI/36JU2T3DPq6lydx9a+svGNpc8cOJceGBea/le5asyZ0ueL3/WvrX5pOiHt801y98hH5zx5wH/AgHT268y60+4cfn0zPHJ9rm/ubHblJlS9fuT1+TNJRh741NLkmQMjnUXPuvd7fXmPXPL0AfHiobOnPDn4yZ8mf/N9A7dsWnS2s3oH6/0D33XW2RYNePjBZzqdP/6wW6/eS0aO6e0dvAipY0Zewu9ktz/+6HSeefBhFgqD2/IPc8ROI3cq17UwGcleff3D5SufSfYSkQyOEBJJxFH7Dnl3c3PP2ecq2z/97PaZn65PZ57PPrXyucx7br75XSAIc/KfK48ctO7X3ijg+5d/+UF9x/9vlk3lSfQqIFTz/p/nsOiBIwbwSy4wBX8VQXGDWtLV/u4WEA0Cim6NgMo4gwXUGnMFdJlouYBujX1VUveJ4Q7vQdHf2aCywuWgNtwzoMs6bwXdhpcKOFnQYv8Nk3YYo9t3tYsXLGrXtJu1loM32m6ubU8rsy6QE7NxqxOc6QznOd5xTnbeCD/H7vH5TrfDHrbdD7UWW2CR1hrt7f5z6QCqnuPcMb0u3N9mrfZ9a5YL9ufPxvspgCWfFSrVlO7zzjnzrJMuBgAA");
 
 export default Trophy;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nutritionix` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nutritionix?s=brands nutritionix}
  * @preview ![nutritionix](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/nutritionix.svg)
  */
-const Nutritionix: typeof Icon = x => (
-    <Icon viewBox="0 0 400 512" {...x}>
-        <path d="M88 8.1S221.4-.1 209 112.5c0 0 19.1-74.9 103-40.6 0 0-17.7 74-88 56 0 0 14.6-54.6 66.1-56.6 0 0-39.9-10.3-82.1 48.8 0 0-19.8-94.5-93.6-99.7 0 0 75.2 19.4 77.6 107.5 0 .1-106.4 7-104-119.8zm312 315.6c0 48.5-9.7 95.3-32 132.3-42.2 30.9-105 48-168 48-62.9 0-125.8-17.1-168-48C9.7 419 0 372.2 0 323.7 0 275.3 17.7 229 40 192c42.2-30.9 97.1-48.6 160-48.6 63 0 117.8 17.6 160 48.6 22.3 37 40 83.3 40 131.7zM120 428c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zm0-66.2c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zm0-66.2c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zM192 428c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zm0-66.2c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zm0-66.2c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zM264 428c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zm0-66.2c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zm0-66.2c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zM336 428c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zm0-66.2c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zm0-66.2c0-15.5-12.5-28-28-28s-28 12.5-28 28 12.5 28 28 28 28-12.5 28-28zm24-39.6c-4.8-22.3-7.4-36.9-16-56-38.8-19.9-90.5-32-144-32S94.8 180.1 56 200c-8.8 19.5-11.2 33.9-16 56 42.2-7.9 98.7-14.8 160-14.8s117.8 6.9 160 14.8z" />
-    </Icon>
-);
+const Nutritionix = createIcon("nutritionix", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAACDwAAAKbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhnyFZgsGAAE2AiQDCAQgBYMtBzIb6AbIjpQuZyRBPG9X1fvdC7hXUuSDNHOiIxmpFN5kiNT+3596HkpoLF7PAxgPStJu2hrv9I+di3vFnhdwbJqLvFfgkhe4iHWttTlOiR8i+SgHiUvwsadhfRqWdkCXGbIUK1Dr1B1gSZkun/FjJiisNIogrqCUtjU1cuGDLHfLHctRkDvUAwIgZQAYCKBlbyCJAAUBQXZAxwB0dAQ+iMVS/wMNEAAQa5RQLNMBN5B6kK7QPwEKF11P9/NAxMHKSW89T7LvtCZSZFesyD5jWsCa6D2ZU33XRuzMmuazxoc8qxtaMM1/fdz+rAWRdmRf0Mqo3duKYX2eluzNOGI/P+tY3KW2aSFb4u+3PW0cvKlNdJ/mLbLafr7nSqZ6rXJY4LNG5I57rfmSLY/I5NXykdb732p9UrPWd6Xn87anLWH7Xfd/dafvHdqOG5/g11V4mq2GL+nYcYt0H56YGCWdu7z5Ok1Gj7JTJlNVdoXy9Yn2jnedsWLuPKfsfGrt/p05nZJy+sw/O2ojD2xz+N9NumFx2HYg0qefoxnMjo7mo46y9GuazAcOmE2O1TNcfcxKg9o192JX31udo2mljl3EqI8DgAAC/uc2VXRzKfhr66AA+HTq++Kx6LQbskztB2xRDlRLsCTQWZZa4LEYbRAQU2IiDCGEuirHhWQ5stqbFOzhAoU19qARgCvo2BMPVgSTaZuc3ISG6HYInnQBKBwZARpZTAIdTw6DFQVcj1njKVpsOSLD8Webt4qxyl5GalKKkWcMU5ozXGxra74xHYgxSUksFtKXYQxlNH3ozQBGEzeSxuQYhlBlaStfa5BKEikY5GG4s/fe1iyOZBQDfEP9neRjvG/FYLKrxyKsUN00RioUiHIYOmb0yM9WcMBYAAAA");
 
 export default Nutritionix;

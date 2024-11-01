@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `elephant` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/elephant?s=sharp-regular elephant}
  * @preview ![elephant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/elephant.svg)
  */
-const Elephant: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 0l24 0 79.7 0c31.4 0 60.1 12.1 81.6 32l6.7 0c88.4 0 160 71.6 160 160l0 116.9c-11.2 6.2-24.6 9.9-39.3 9.9c-3 0-5.9-.2-8.7-.4L496 192c0-53-36.8-97.3-86.2-109c2.8 8.6 4.6 17.7 5.4 27l.7 8-47.8 4-.7-8c-3.1-37.3-34.3-66-71.8-66L240 48l0 64c0 35.3 28.7 64 64 64l8 0 24 0 0 48-24 0-8 0c-61.9 0-112-50.1-112-112l0-22.4C126.8 112.6 80 174.9 80 248l0 40 0 4.6-1.7 4.3-32 80L1.7 359.1 32 283.4 32 248C32 148.1 99.9 64 192 39.3L192 24l0-24zM528 381l0 18.7c0 17.8 14.5 32.3 32.3 32.3c15.8 0 29.3-11.4 31.9-27l.2-1 47.3 7.9-.2 1c-6.5 38.7-40 67.1-79.2 67.1C516 480 480 444 480 399.7l0-18.8c-23.9-3.8-45.9-13.1-64-27L416 488l0 24-24 0-96 0-24 0 0-24 0-76.3c-21.2 2.8-42.8 2.8-64 0l0 76.3 0 24-24 0-96 0-24 0 0-24 0-80 0-24 48 0 0 24 0 56 48 0 0-80 0-27.7 27.4 3.9 24.3 3.5c18.8 2.7 37.8 2.7 56.6 0l24.3-3.5 27.4-3.9 0 27.7 0 80 48 0 0-136 0-24 48 0 0 4.6c18.6 25.7 50.9 42.2 88.7 42.2c30.1 0 57.1-11.4 76.3-29.6l22 23.3c-19.9 18.9-46 31.9-75 36.5zM432 192a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Elephant = createIcon("elephant", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABpAAAALAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDQQsGAAE2AiQDCAQgBYMtBy8bwAURlZpXyX4kGDeNP1DStZ5lUdxE9iYoIM//2aBI2gfmA+IJAm4AEIa3LNOEg0xjyOA3txGY0sWtjFk1a7Ma0gOGB97/udzzez62rm83XMf8dMMP5CqKsjmfJ9DzKCvezw+8hVmi2NuGCTaEEBoREkFm0ZiO1wlY+q1p2GDMNy4BU8uH6jVJjAID2wQAQFEAAECZRvVqcOyZnkkX/++GLlINEIDKAJCaABMwgeQEQHEmApKzSA0sLATP9P8//QcCAgD5kNc2ALAAGzgBXAEALAAMTMuq0zro2mGroWs7zVzH3V3E1e0ShxugVc6EBGlJ1g0FZ8fHK78StCDrhoyO0Pws6zO4LnKcPVk3pJTOZd+UGqE41VdRNZJ0t9xJPqkDYlj8bHdtMqmA0LzM69Lv25ijY5SsrcqotOSyyMUMLK3OlEnBHFgPurnC3mxZtC5/w9nxs+LmJMxNTLshasPbNJc6XuLoUc/r/CHCTzlduqRyAwgm2LmH4B/cvUnxsJ/P+MleebYVpjROdPSygJcbLz+8/xeZQPR/6c+MTaxUw3ZSNOlQbd/ZCrGReDMoVqoJj58Xnt5YfEc0r1vnWlTDDoqlwI3B461HdT5/rq5ybTy56cJytya3kpHs3DmyNSdXm9zG4VGbu8uvPWrE672tDj2LiHhW9QCgq4q/IylaRRb/GnANAF4ceP8+3W/8P2YMMzYAAQwABGb2/9k1N4ZhAFkFADVDA0lrfJEAgwOYSFUh5iAAhAMIAAMfDgLAJJkoBQuHbGCTUgHXifVctKxgEaeFgkGIPmBS0GCwiLMTbIo7W/qICzOQ/TD0/5EhrDgSFbaltqJwWLb1IDZdXvdwZ/TzGMNBmmW6qqK7A7+lxjNEiwx+CCyhwMF17xkzytvRk3m/iYf3Bfn2bIZdGACQNwSQvE9GoEP3Dr07t+nZHwAA");
 
 export default Elephant;

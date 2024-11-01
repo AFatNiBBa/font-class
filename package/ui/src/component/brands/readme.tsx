@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `readme` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/readme?s=brands readme}
  * @preview ![readme](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/readme.svg)
  */
-const Readme: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M528.3 46.5H388.5c-48.1 0-89.9 33.3-100.4 80.3-10.6-47-52.3-80.3-100.4-80.3H48c-26.5 0-48 21.5-48 48v245.8c0 26.5 21.5 48 48 48h89.7c102.2 0 132.7 24.4 147.3 75 .7 2.8 5.2 2.8 6 0 14.7-50.6 45.2-75 147.3-75H528c26.5 0 48-21.5 48-48V94.6c0-26.4-21.3-47.9-47.7-48.1zM242 311.9c0 1.9-1.5 3.5-3.5 3.5H78.2c-1.9 0-3.5-1.5-3.5-3.5V289c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5v22.9zm0-60.9c0 1.9-1.5 3.5-3.5 3.5H78.2c-1.9 0-3.5-1.5-3.5-3.5v-22.9c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5V251zm0-60.9c0 1.9-1.5 3.5-3.5 3.5H78.2c-1.9 0-3.5-1.5-3.5-3.5v-22.9c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5v22.9zm259.3 121.7c0 1.9-1.5 3.5-3.5 3.5H337.5c-1.9 0-3.5-1.5-3.5-3.5v-22.9c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5v22.9zm0-60.9c0 1.9-1.5 3.5-3.5 3.5H337.5c-1.9 0-3.5-1.5-3.5-3.5V228c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5v22.9zm0-60.9c0 1.9-1.5 3.5-3.5 3.5H337.5c-1.9 0-3.5-1.5-3.5-3.5v-22.8c0-1.9 1.5-3.5 3.5-3.5h160.4c1.9 0 3.5 1.5 3.5 3.5V190z" />
-    </Icon>
-);
+const Readme = createIcon("readme", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABjQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCawsGAAE2AiQDCAQgBYMtBy0baAXIrg5sZ+QtcXUdgjqxhGfuIh7+s/v/9qnqp77f6PUj2BHlAZhONtFkcA6lQnx1cFjkA8PwWenjmlnLrGOXfA2Wqtj3Ctmf/2vqhR1Fgnw+0LRDuzW1NlXgKPP5BAYY7Rngs+Fsojh1U4qohyD5RCSodlJ2fOvxbQNFfBuPNJCeS1/gYf3Q+FV310gaMoBoB4AZK5cu8dFP8VPEF/UnvrAIATETVAIZGb0EmCwL9FKoUCgEP0W9nv4DKwKIRsCS8wu04Fm8DChA0lQUw9vhlbWG1sWKWkN5tKyVd/p3rxy4ZRl3Omk3iuc6W60WdwdMb+tag25M6ho9OZ7v4uW2S09CEXF5FSYudWKVT9s330Jd4acqsY7u9367/Z3T9tFd3M+/VY/o9L3if8UX33fKol/+vg5c//uXRe3mftl5zTm/JueuGj4lV21WnJ1O5/yqIvLDX1XZpwhUIBmqRMPvBwLBD988ybaT/2+uJfDLh4fj1X9L09P7aJZAkAfXB1uXpkMSBhBLcUI/5YsCySNN8K6tPC1AKBEgaVQKkPXUToBCaZAADfoYI0Cj0lJZFC1CJ+sHSFo5DLKxzoNCJx+ABpN9HG3UKbJ3Gn3L+HOYbS6jc4ZVI4YOryZWx7xucji99E+qrp39T+S6AbLWDgcdcMx22+x2jJgjliSO22+uJprzQ5URhhquMlFlLj3bVlD0iKN27412yCCTVO97+zuhtx4gngSaI+UkiUiNX7Vr/3YA");
 
 export default Readme;

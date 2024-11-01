@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-rays` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-rays?s=thin person-rays}
  * @preview ![person-rays](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-rays.svg)
  */
-const PersonRays: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M2.3 2.3c-3.1 3.1-3.1 8.2 0 11.3l104 104c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L13.7 2.3C10.5-.8 5.5-.8 2.3 2.3zm507.3 0c-3.1-3.1-8.2-3.1-11.3 0l-104 104c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l104-104c3.1-3.1 3.1-8.2 0-11.3zM13.7 509.7l104-104c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-104 104c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0zm496 0c3.1-3.1 3.1-8.2 0-11.3l-104-104c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l104 104c3.1 3.1 8.2 3.1 11.3 0zM216 56a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm96 0A56 56 0 1 0 200 56a56 56 0 1 0 112 0zM186.7 175.7c9.3-19.4 28.9-31.7 50.4-31.7l37.8 0c21.5 0 41.1 12.3 50.4 31.7l67.5 139.8c1.9 4 6.7 5.6 10.7 3.7s5.6-6.7 3.7-10.7L339.7 168.7c-12-24.9-37.2-40.7-64.8-40.7l-37.8 0c-27.6 0-52.8 15.8-64.8 40.7L104.8 308.5c-1.9 4-.3 8.8 3.7 10.7s8.8 .3 10.7-3.7l67.5-139.8zM192 240c-4.4 0-8 3.6-8 8l0 232c0 17.7 14.3 32 32 32s32-14.3 32-32l0-120c0-4.4 3.6-8 8-8s8 3.6 8 8l0 120c0 17.7 14.3 32 32 32s32-14.3 32-32l0-232c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 232c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-120c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 120c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-232c0-4.4-3.6-8-8-8z" />
-    </Icon>
-);
+const PersonRays = createIcon("person-rays", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABrwAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDIwsGAAE2AiQDCAQgBYMtBzIbpQXIjlQ1fzz8f53f73OrXhpQtZE2/AFPBU4GWX8EIOXr//OX08ayaIF8SxMK5bX2LW3iGpMTKLEL5xLJwixRbNg2Mo2I62M8d5DHa7aqId2TPsdN9YfGN9q4nCTLAERjAExasWSetytRifi8+gLxuTkIiMmgEMiQob0AY2UC7eUK5HJBJapV9h9YEECUhNclkKMuHsc7gBwktfO8QYOGDUJk+1H1ahrkywu6umtub7Es7mh1V8vlcWfzBgxbGhNg2IqA7q0rlq4oddrSYFdzkm77fT0f6v5Am7u73d/jwbb17i2gwVrfM4GFknZL7xtRL15o81zSk8PrxvP9aETn25uLiy1W77r1ZRFxV6s7WoyJO1vuQQ419OjeHve3BmifLo82fvS7zp9v/1y8US7v2GHJEin375IlO3YolwU//KMK+gmgHj8eLuj+QanvqFF9S0p2Y6On3nrrqUZrnz3xf+MeGv8/5TrlzUu6T77O9Gd6eGa6dHffsri8lLtgY+lLDa++umGOnXQTxvyT7C+Ve3ilsi5tsWhRC1WvWnscCAQfHFq3f0Ojsb/VrpfAF6/+8Hd9ZnVVSulR1JZAkPWr9rM22WGcKb7cG8d1gd8kkNyvtvCu9d0pQKiLAElJXQEy7TQWIFdXXwFqdFQWoKSuJTKR1xGaW9ejpL5DKDPcOZRr7jlUY6yPfCXNI0u5mnSn+XHMOH3MnraoGDxgUDG62KxotYlRpSfHFKfxXsd5R2+4wnYH7HfUNlvtqmEkOmxe8Jh9pu8Jp/mhwmADDFIYrbhdf44tN/IddsSudf39ecYo3nf0cny/f29IJUHhEAVJIlK9hO7rf3jTqSMAAA==");
 
 export default PersonRays;

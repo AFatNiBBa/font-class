@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `browsers` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/browsers?s=sharp-thin browsers}
  * @preview ![browsers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/browsers.svg)
  */
-const Browsers: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M560 16l0 80L200 96l0-48 0-32 360 0zM112 16l72 0 0 32 0 48-72 0 0-80zm0 384l0-288 80 0 368 0 0 288-448 0zM112 0L96 0l0 16 0 384 0 16 16 0 448 0 16 0 0-16 0-384 0-16L560 0 112 0zM16 104l0-8L0 96l0 8L0 504l0 8 8 0 464 0 8 0 0-16-8 0L16 496l0-392z" />
-    </Icon>
-);
+const Browsers = createIcon("browsers", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABYgAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBUgsGAAE2AiQDCAQgBYMtBy8b0QTIHoPjbgmF3Lg86nk/L0Ms0xIP/7/ft33Ou2/M23hTSeJxEC2Z0Ig0JiEZkidPRNFI/IuqifwsWcvZQ1TvNq+YNFGJHIMDkq7CnCsJWaFbX8wTlzv/86f3self/NH20Af5Csda5wkEmOabx/IszBLFdJtIoEcU+yJCCiWk4/N420KJP7tk8n4Gt/uHxi8x76SqAkAMAICD60sTRK1oRfw2L4hPRiAgDgBTCBUqjCGwTRQYI5kCRRG0omn4P5AhgGgDXpagoB2n4BKAAlJdJNPUw2GztqXV7tq4QXoC57Mt0zARootIEAXRtAWyRMM0EEmIbptIJCLj1G44aEZbH3/kPfqfvh/553NwD1HADt/1uaygb36TmfNLFp0NZOPZAO/7gCcPtA6tSHOmQ8cPucv7W0AgeLj9YIu7/V/rFgA/3/77hU5uotzPR+iQIKgWmgXbuQ8wm4BUxr2480WBdEKGd+1xR4DQhQCpTZcAlVEeAkWXeQRqE6oItOlymSiKjjBiZxGpxw2isuWBKEZ8ELVtn0mbkagySsoH6T+X3tVAZxWv5grcYrNhykki1MU2X/sz9zKQpI3Yd+HcrT27jtwq6Nokc+dM1wM7fogV5RSwFg6337XVwnDtxpF7Hl+mjd/HCff++CRFAvCuqUpJpJZxxg0A");
 
 export default Browsers;

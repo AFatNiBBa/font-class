@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `balloon` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/balloon?s=regular balloon}
  * @preview ![balloon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/balloon.svg)
  */
-const Balloon: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 192c0-79.5 64.5-144 144-144s144 64.5 144 144c0 35.8-18.4 74.2-46.5 110.7c-27.5 35.7-60.2 64.2-79 79.3c-7.6 6.1-13.8 13.5-18.4 21.8c-4.6-8.3-10.9-15.8-18.4-21.8c-18.9-15.1-51.5-43.6-79-79.3C66.4 266.2 48 227.8 48 192zM150.7 450.5L144 464l-.1 .1-3 6-11.6 23.2c-.9 1.8-1.4 3.8-1.4 5.8c0 7.1 5.8 12.9 12.9 12.9l25.9 0 6.7 0 .1 0 36.7 0 .1 0 6.7 0 25.9 0c7.1 0 12.9-5.8 12.9-12.9c0-2-.5-4-1.4-5.8l-11.6-23.2-3-6-.1-.1-6.7-13.5c-5.3-10.6-2.1-23.6 7.1-31C281.2 386.9 384 294.6 384 192C384 86 298 0 192 0S0 86 0 192C0 294.6 102.8 386.9 143.6 419.5c9.3 7.4 12.5 20.4 7.1 31zM128 184c0-30.9 25.1-56 56-56c13.3 0 24-10.7 24-24s-10.7-24-24-24C126.6 80 80 126.6 80 184c0 13.3 10.7 24 24 24s24-10.7 24-24z" />
-    </Icon>
-);
+const Balloon = createIcon("balloon", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABgwAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCHwsGAAE2AiQDCAQgBYMtBy4bHQXIjsK2bROHmEy+8FaJh+fvh+fe9/6qqYo2SmrgBI/k+XCUyANd68D3/Sf/3s4NNAHfTzz5AazWWko9q902Rtw87zwK8DmC0MbCpYEswL3OE0isyzd5YIFDCuk2cUcdUeyNkCAR6TiF+NugRg9NoiFfJZ6Ah/HQ+KNjFFJTABBDAID9k5Q43PhBP4Iet2eJNzEgIPYBzCIUFEwisEVSYJKUWVBVwTfttuUfyIEAogP86AkqGtyCOwAVpFKl9Hw1mLSSVDqTVsjYCSC6HnHX76rxZuABywOas5rzwrz1Ietb4ixNkSaRJmnTLB61GCNiRMTYgmhI0CWBiARaFh0OuO5w3ORd8qv0N4kvUrfsjvpdtZrTzl4RES1Y7NdbNj9jeUB/yWy/nviQ6qHfxk/Kn8ChnewE7m/enOjUF85nh6R8vlBbe+BnSkj0faFcora2FlhyDlnYCV0ZWAKd4yeYpPo+LIFzRe+JanR0VYOS0tKSKInS0ihJY/UoqSV+KRIUZP/Cf2OSllbSiS9PmVZSkhYAgeDH5XtjgYrvPzkmAfi99Pc/7mtv0KDEIdAlQVBWdleQG4MA6AFYGe0QGy8LpFOSQLPPU9QNPSykDj0oJqii6rGMxjQ31qkcuLxR5RHG5AGpzw2KTX2oxpxGY8t9q8NYSOYdnzX8ty8lXBNhc9zJ3pF782NoCqnEtrEPd6uW7bVkJaso16BeqzKlqrQqqlmc26ZOuEWGeRHnxJ4jzhsPJ+/L6co0a1GlQX2f4oPfNy21281WYkgg4ypPSiJlH1E=");
 
 export default Balloon;

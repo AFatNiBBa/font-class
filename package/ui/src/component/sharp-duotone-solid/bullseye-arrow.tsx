@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bullseye-arrow` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bullseye-arrow?s=sharp-duotone-solid bullseye-arrow}
  * @preview ![bullseye-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bullseye-arrow.svg)
  */
-const BullseyeArrow: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256C0 397.4 114.6 512 256 512s256-114.6 256-256c0-29.6-5-58-14.3-84.5l-43.1 43.1-9.3 9.3c1.8 10.4 2.7 21.1 2.7 32.1c0 106-86 192-192 192S64 362 64 256S150 64 256 64c10.9 0 21.6 .9 32.1 2.7l9.3-9.3 43.1-43.1C314 5 285.6 0 256 0C114.6 0 0 114.6 0 256zm112 0c0 79.5 64.5 144 144 144s144-64.5 144-144c0-13.1-1.7-25.7-5-37.7l-28.6-4.8-31.2 31.2c.5 3.7 .8 7.5 .8 11.3c0 44.2-35.8 80-80 80s-80-35.8-80-80s35.8-80 80-80c3.8 0 7.6 .3 11.3 .8l31.2-31.2L293.7 117c-12-3.3-24.7-5-37.7-5c-79.5 0-144 64.5-144 144z" />
-        <path d="M331.2 146.9L320 80 400 0l32 80 80 32-80 80-66.9-11.2L265 281 231 247 331.2 146.9z" />
-    </Icon>
-);
+const BullseyeArrow = createIcon("bullseye-arrow", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABlAAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCQAsIAAE2AiQDCgQgBYMtB1gbagXIhofn68Q/980kBTSVkaTwN7QEWGH7zXVOLo1//DfgAfiPiY8TZMX36ohXoPHq9FK3cEFrWgOr3873JkpdBoUQXJcMy+/+MP7hXyCPfdmVSqT70g7cQv8DGL/q5EqSRhmAaAmAmbXVS733VXyVYkf9JWKHJQiIWaAQyJChqwBTZAJd5QrkcsFXqV7nq6jXCwKIMnp3Bsoo4TzcCchBElKetxk9uEmpWV6lQONjqpVqLSpOXxNV+2nTohYHZ0a8vzRiZ+Xw8t2zP6xd1n1KtI27HFixZ82hVfuqh1fvr93QrkNMj1caH1iyY8Z7a5o8NjXi7bmfTn+392Wd+8WAuMuDA54d88qg57s/MviF8Te0Gxyd4+nGH015q+j1fMvnf++54+gdFg1pPAvB5cv1WG55D5lpHUccoVV8w3vmd6TTbVw233yX3dapo/lDDz3vXsNbxspKZaXBolIRKNXyn+u84aKhomtO7Xou17z//jXndm0780N/yMtRPaply6OqkULlGX+Yom1b7nUgEGxZsq/5lhZT/m/YJIFv3vjzF/yQ1N9L0vNoKIEgG1IfYmMCiQAApDhbr8SPCGQ2S4Lf1N3iqt8Y4eyyxvAzXbSskGtsMJR0N5YT7l8tE3kjoa1NgKSp0yAzzkWQa+tFKJniU6esbWSaKOiR8B2YOq9H5m4rRg4bUUwqtrkiKhfn1ycXYm3A2bY3EGcd7RQnO9NRjnScMzv6dEv9s5xkHofO9UWFkYYZoTBJcVw9hquOcrozHLeWzzeZrLhvD3A2Pz0Qu0mAUc8wlREpsvZ/vt13xlHnHTV02+mnn3LOUK0e6ziT32AAAAA=");
 
 export default BullseyeArrow;

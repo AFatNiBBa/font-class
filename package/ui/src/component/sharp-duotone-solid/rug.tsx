@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rug` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rug?s=sharp-duotone-solid rug}
  * @preview ![rug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/rug.svg)
  */
-const Rug: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M80 64l0 24 0 64 0 48 0 32 0 48 0 32 0 48 0 64 0 24 80 0 0-384L80 64zm112 0l0 384 256 0 0-384L192 64zm288 0l0 384 80 0 0-24 0-64 0-48 0-32 0-48 0-32 0-48 0-64 0-24-80 0z" />
-        <path d="M24 64L0 64l0 48 24 0 8 0 0 40-8 0L0 152l0 48 24 0 8 0 0 32-8 0L0 232l0 48 24 0 8 0 0 32-8 0L0 312l0 48 24 0 8 0 0 40-8 0L0 400l0 48 24 0 32 0 24 0 0-24 0-64 0-48 0-32 0-48 0-32 0-48 0-64 0-24L56 64 24 64zm592 0l-32 0-24 0 0 24 0 64 0 48 0 32 0 48 0 32 0 48 0 64 0 24 24 0 32 0 24 0 0-48-24 0-8 0 0-40 8 0 24 0 0-48-24 0-8 0 0-32 8 0 24 0 0-48-24 0-8 0 0-32 8 0 24 0 0-48-24 0-8 0 0-40 8 0 24 0 0-48-24 0zM160 64l0 384 32 0 0-384-32 0zm320 0l-32 0 0 384 32 0 0-384z" />
-    </Icon>
-);
+const Rug = createIcon("rug", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABoQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDUwsIAAE2AiQDCgQgBYMtB0Ib5wXIrgd4w4n0i3EwYXuhlXe89juV3spicvEfMtpSGg9fY+393T0TpHmHpBqKaKkQEkQazVIlJPHQbqgM/r/76X3JLwVOK1P3ijQmR8AOyKnZCTPHzk6vAS4ymPYCDx+gZlalfZ8B4P9YyjVH9OA8EBlswImG7bLwYPzE5fiHPy0cU/j10eZo6MKxMdtLo4ASa1OdJ9h5llDgiVirc0NyZ47vhPoDSsrIFxXSY3BbvHD8mReSRgZA9AEAu+eTw3gfKL8/4t1BQOwBmEbIyBhHYIMUGOeZBkURDNIzCPHPNwggqkA9NYMqGnjDD6CApMjFa28PhaIsp33Wm9FvrxYVCtHSiKYeTymhwvvaWAUDNAMVhBFSNEpSVmklSO9eBDlHWbT1OsAmjN3eId2r4q/9+4/SFc5V4epZBAsphrPkikMPn2O2hzMmyzzrylnR85J42oPpHeMPamf/E21Pqhvz4OBiJSBmutxwgH7BGEAgyJe21bB/dQTg9+kvfkXpulCXQJBn/2ctpSFdCwBAihvE0wMOELIbRbrVdidAaNJwSVWTy8ZEuKJphquY1Hi7qumYFCWEMGq54ZK2Sy5bcssVo964ig0fharRkCCtAaT2R5k91IUG93GtXOU2nm2qdChV7HI7b45lb+RQDp/EjlMnrmzbsu+qg14YLl87NrSEDPogVlNWxdrw4c7DwzO2Xbi079SJ36YdX5/KulmenMNJIcnOuZFlIpHUF9e7pZzh2MbMAAAAAA==");
 
 export default Rug;

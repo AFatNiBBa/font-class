@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star?s=duotone star}
  * @preview ![star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/star.svg)
  */
-const Star: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
-    </Icon>
-);
+const Star = createIcon("star", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABXQAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBHwsIAAE2AiQDCgQgBYMtB0QbtQTIjsM4FrxylzotHp63+/fXPjPvBtAEZiWhg3qpkqukiru4KN0KH8x/8ICJy53/+dMDLvJHGXPyyMM5zxMIeCzPS5cGlmWK7c52jdbWPgkpIzkudnyukMc/2X5lpFPpBQ7I/wDGBw3sJ6mQAYjqABg+Y8o4j9526sX/t4kXxiIgRoBCIEOGxgIMkgk0liuQywVvE7wNCgKIErlvBkrI0A1DADlIiDxvV6msSj5dmiquON3mQv2pEQgKT9aZhgQUx9rOCMZcrHei4fQggDAfOT2mt7hW/dqn5i+WvzDo5u5uxcGh+xyoo8Wkya9WLFf/kJof/qq/a6TdI5X/6+8W9Q5ZsdzLEYtaRGLudiAQrCvX88yCaoN+la+UwPs7X36k99X+/27qlK6hvASCrNP/ncxNw1A7dRIAgBTbtTC+SSDTTqKfWtlxAUJFBEhKKgqQaaS6ALmKOgpQpqneApRUNEUm8gpCbfMKnFS2Cc70sQPO1XYLLjPI47KkdmSOw1w7829LHNMCozcV3bt0KwYUw5bM+gJFqwOLZbPddhxpDxcst8F6Wy2z1KpENNBm4xrbrDPGAkf7oUJ3XXRTGKDY7t6fnm6ZzbZYZYP1vM5Axfm0ne329PbgJIrbw5ZMRqTIKj9ttbP/yVUr/p0BAA==");
 
 export default Star;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shovel` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shovel?s=sharp-thin shovel}
  * @preview ![shovel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shovel.svg)
  */
-const Shovel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M412.8-.1l5.7 5.7 88 88 5.7 5.7-5.7 5.7-34.6 34.6c-13.2 13.2-31 20.6-49.7 20.6c-16.5 0-31.7-5.7-43.7-15.2L221.7 301.7l71 71L304 384l-11.3 11.3L176 512 16 512 0 512l0-16L0 336 116.7 219.3 128 208l11.3 11.3 71 71L367.2 133.5c-9.5-12-15.2-27.2-15.2-43.7c0-18.6 7.4-36.5 20.6-49.7L407.1 5.5l5.7-5.7zm0 22.6L383.9 51.4C373.7 61.6 368 75.4 368 89.8c0 29.9 24.3 54.2 54.2 54.2c14.4 0 28.2-5.7 38.3-15.9l28.9-28.9L412.8 22.5zM16 342.6L16 496l153.4 0 112-112L128 230.6 16 342.6z" />
-    </Icon>
-);
+const Shovel = createIcon("shovel", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABaQAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBZwsGAAE2AiQDCAQgBYMtBy0b5ATIHoex22RJ/2iGYxEP/7/m+/vcmWS1SRmmRKSAydURgK0rOzTmrVr66utkoCJzX3TUMps69TznoQC+UVDWsDVBFtBe7XkFCljrvQe8522EaloBq7Wzsxj0uk3SRSQZxh8WOSCP9zYpkW6ncTGfKn5r6xhJlgGIJgCYsnThAl/qoi7iZy3ip3kIiCmgEMgA6SDAeJmgB+QK5HJBXdRq9h9YEECU8QMSyFHCQmwE5CDJ8nxI42q11DBfUi1VtrZs1XJxtIwWMT5eVeq5KIQodqUStJdGaxUXhze8E/pNitZ69+t9ze2W13ucbd0vlmwSqrE0lsSirm+avPnb5S2793nx4sVLl5puhq6mdWw78O49M2d6441Dhzxq0sQjhw6BHD28d9evtk5vanHrn4TVKP/7t47aB/PmnZt0m6+0d69bt+zdCwSCZ49OLF/bePz/9aoJ/Hr332/lV1T7kqQ3qCeBIOtf629VAokAAKQ4omuCQDJPBmdt4IYAoYIASVlFgEx7TQTIVfQToKSTEQKUVSyUiby+0MLqBpIG9oPMSEdBroW3oGS8r0FZi8h8i/EM5muXOFORGfeKIQMHF2OLaamy7kKl63HFttz7SBz1AdQWe+1xyGabbHdIsAMWxIftNnOFzvBFhSEGGqwwVnHc3D9fYrMDDtpurz12yzjFfb+3I+vlPtAS4g6VTBKRygefu6RdAAA=");
 
 export default Shovel;

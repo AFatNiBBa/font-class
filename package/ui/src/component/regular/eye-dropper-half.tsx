@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye-dropper-half` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-dropper-half?s=regular eye-dropper-half}
  * @preview ![eye-dropper-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/eye-dropper-half.svg)
  */
-const EyeDropperHalf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M233 202.9L199 169l-8-8s0 0 0 0c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l8 8 33.9-33.9 71.3-71.3c19.1-19.1 45-29.8 72-29.8C466.4 0 512 45.6 512 101.8c0 27-10.7 52.9-29.8 72l-71.3 71.3L377 279l8 8c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-8-8L309.1 279 233 202.9zM343 245.1L448.2 139.9c10.1-10.1 15.8-23.8 15.8-38.1C464 72.1 439.9 48 410.2 48c-14.3 0-28 5.7-38.1 15.8L266.9 169 343 245.1zM183.4 198.6l33.9 33.9L129.9 320l124.1 0 25.4-25.4 33.9 33.9L183 458.9c-13.5 13.5-31.8 21.1-50.9 21.1l-52.9 0-42 28c-9.5 6.3-22.2 5.1-30.3-3s-9.3-20.8-3-30.3l28-42 0-52.9c0-19.1 7.6-37.4 21.1-50.9L183.4 198.6z" />
-    </Icon>
-);
+const EyeDropperHalf = createIcon("eye-dropper-half", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdQAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCBAsGAAE2AiQDCAQgBYMtBzcbCwXIjsPGGUXFymZcCT/x0Lcf+zuzuw/T5h2SJrWIR0KEVGgWKqnioXF+/RbvHzl7EN9JqgCwFJJ0cO8SwJ//az6/tKMD/EaHFImVIOV3tizem8BE0itFZpE2UdzubK0Q0j4tCZbk+OY4ZQ41LmgE/OQrzz3AY7rS+A9lHUBqBQAxCgDYuQ4Pw40X9ILoLncE8Y4QEBA7AOYRCgqmEVjHKzCNzzyoquCPOM78BzIIIDrQeRNUNNyBBwAVpFL5TCQ1RfnF+aJ8RiTa3c1dgVrdY8+pbuvJkwdF077DkdGu+oJhBLmSPM0qbegrkDtFRUZHRE/TnMKUfp9cBEVGubm7RZAomZAbRdCOiAg50oTClKIFEbWaRGvvSe2907qXdc/Lr9LS0tUAfh6Ji1dDmv8hnoys3LsnInzf3x/SqodRyFmhUQ6mOIXu/fsUBY7pjr1sJk0bRUWhQQ+ktbbCd9YO8/j5+Gr4DHY09uPRgEDwe3SenCzp+k1IlAfw7/zD97wm94e7SOQboFeCoCxyphISAg59BIwyqqANXxRIt3jBpQ56AoHQjwCp0y9AMUUKgarfAgLNLDsEOv3O8YoqjDApsYA06B4UaxpBNekANOtuhp3J4FU1TlG4h16yfw35DWNW5pbMmU1zmNceJvS6sGXFsMrWGMFMZClWpEKmDLkqKrJMWFKpkL9E+Pkhxoo5S4wztl28laMwKlMudyzsD+KCnQ8MVcnNjUDnQZRLRqYkUiqzNtPst4taZnaPAQAA");
 
 export default EyeDropperHalf;

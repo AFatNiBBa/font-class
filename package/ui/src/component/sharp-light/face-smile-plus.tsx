@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-plus?s=sharp-light face-smile-plus}
  * @preview ![face-smile-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-smile-plus.svg)
  */
-const FaceSmilePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M560 16l0 64 64 0 16 0 0 32-16 0-64 0 0 64 0 16-32 0 0-16 0-64-64 0-16 0 0-32 16 0 64 0 0-64 0-16 32 0 0 16zM416 288A192 192 0 1 0 32 288a192 192 0 1 0 384 0zM0 288a224 224 0 1 1 448 0A224 224 0 1 1 0 288zm144.4-72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm136 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM97.1 341.9l29.7-11.9c4.5 11.2 15.1 29.1 31.8 44C175.1 388.7 196.8 400 224 400s48.9-11.3 65.3-25.9c16.7-14.9 27.3-32.8 31.8-44l29.7 11.9c-6.2 15.4-19.5 37.5-40.2 56C289.8 416.6 260.8 432 224 432s-65.8-15.4-86.7-34.1c-20.7-18.5-34-40.6-40.2-56z" />
-    </Icon>
-);
+const FaceSmilePlus = createIcon("face-smile-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABkQAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCSgsGAAE2AiQDCAQgBYMtBzYbUAXIjtRGecSPxMPzdn2d+6q+qnvo+mMzAhfMHAKKxGjSXadCNHpziKkKxqa4HAcrpvHZyrgT19SPsm/Asid4lF5ZFkfiKPN8AjtPDG7bbDaaDWyiuKl5Lw3SdSiUnSCP6zFQDenR9A0etL80ftXBFZI8AxDNATBtzYpFPvgpfor45vYivrEAATEdlAIZMnQWYKJMoLNciVwu+Clu32b/gSUBRC334QnkqMedeBCQg6Q2zxs7dWpoaFupaZKvVseLE0KlIopCiCKgu7C0puHIKmHtxcGvfHn8K+4ZewY2Fwb1cbdy74Q/ZET1iREQbyz4unLvvC+HvdZoQ+fcL4p75n81/PXu+lQH3zN2DH3Et/QzuE/PPo/2y6P2gNqJ4pG+aeZn/Z/viM83L783frP7G0NemWoyzUvNbVpzgMbqrgebjXyce7/8csSIIHLv4yNNHdtn1Y+4NnnRhAmLJl/7qArrYNWDc5a1abMsIO5sZ8HI27u+td+x/a4zFy+euWv7t+7+/db27bd+vxsIBK3v6+i2NJv4f30lgV/e//Pv5H63P0gX0vOol0CQDbw90MZ0AZgygFyK07oPrDCQnLdnP7XqIQFCgQBJrUKATCfNBcgVBghQo6tRAtQqrJCJvEFobVMhJFXHhMxoZ4Vca28INSb6PFurdWRXo3UtWf+CuWdX4VnLymGDh5bjy966zL7ADD0/oZzs7Xua9/WDB+12xGEn7bLTPicr/HGLCqccMnuInOWHSsMMNlRpvHJx66Z7dSVy3Imq0W0tBywyQbl9sq/Tw6P7wUDiqg5XkyQiNbvVfYNOfAo8g65nAAAA");
 
 export default FaceSmilePlus;

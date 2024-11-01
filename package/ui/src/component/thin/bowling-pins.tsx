@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowling-pins` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowling-pins?s=thin bowling-pins}
  * @preview ![bowling-pins](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bowling-pins.svg)
  */
-const BowlingPins: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M88 64c0-26.5 21.5-48 48-48s48 21.5 48 48l0 .9c0 14.4-2.3 28.8-6.9 42.5l-7.2 21.7c-3.3 10-5.3 20.4-6 30.9l-55.8 0c-.6-10.5-2.6-20.9-6-30.9l-7.2-21.7C90.3 93.7 88 79.3 88 64.9l0-.9zm20 112l56 0c.4 5 1 9.9 2 14.9c1.5 7.6 3.8 15.1 6.7 22.3l38.5 93.6c8.4 20.4 12.7 42.2 12.7 64.2c0 28.2-7.1 56-20.6 80.8L179.3 496l-86.5 0L68.6 451.7C55.1 426.9 48 399.2 48 371c0-22 4.3-43.8 12.7-64.2l38.5-93.6c3-7.2 5.2-14.6 6.7-22.3c1-4.9 1.7-9.9 2-14.9zM136 0C100.7 0 72 28.7 72 64l0 .9c0 16.2 2.6 32.2 7.7 47.5L87 134.2c5.8 17.3 6.9 35.7 3.3 53.6C89 194.3 87 200.8 84.5 207L45.9 300.6C36.7 322.9 32 346.8 32 371c0 30.9 7.8 61.3 22.5 88.4l24.2 44.3c2.8 5.1 8.2 8.3 14 8.3l86.5 0c5.9 0 11.2-3.2 14-8.3l24.2-44.3C232.2 432.3 240 401.8 240 371c0-24.1-4.7-48-13.9-70.3L187.5 207c-2.6-6.2-4.5-12.7-5.8-19.3c-3.6-17.8-2.4-36.3 3.3-53.6l7.2-21.7c5.1-15.3 7.7-31.4 7.7-47.5l0-.9c0-35.3-28.7-64-64-64zM328 64c0-26.5 21.5-48 48-48s48 21.5 48 48l0 .9c0 14.4-2.3 28.8-6.9 42.5l-7.2 21.7c-3.3 10-5.3 20.4-6 30.9l-55.8 0c-.6-10.5-2.6-20.9-6-30.9l-7.2-21.7c-4.6-13.7-6.9-28-6.9-42.5l0-.9zm20 112l56 0c.4 5 1 9.9 2 14.9c1.5 7.6 3.8 15.1 6.7 22.3l38.5 93.6c8.4 20.4 12.7 42.2 12.7 64.2c0 28.2-7.1 56-20.6 80.8L419.3 496l-86.5 0-24.2-44.3C295.1 426.9 288 399.2 288 371c0-22 4.3-43.8 12.7-64.2l38.5-93.6c3-7.2 5.2-14.6 6.7-22.3c1-4.9 1.7-9.9 2-14.9zM376 0c-35.3 0-64 28.7-64 64l0 .9c0 16.2 2.6 32.2 7.7 47.5l7.2 21.7c5.8 17.3 6.9 35.7 3.3 53.6c-1.3 6.6-3.3 13.1-5.8 19.3l-38.5 93.6C276.7 322.9 272 346.8 272 371c0 30.9 7.8 61.3 22.5 88.4l24.2 44.3c2.8 5.1 8.2 8.3 14 8.3l86.5 0c5.9 0 11.2-3.2 14-8.3l24.2-44.3C472.2 432.3 480 401.8 480 371c0-24.1-4.7-48-13.9-70.3L427.5 207c-2.6-6.2-4.5-12.7-5.8-19.3c-3.6-17.8-2.4-36.3 3.3-53.6l7.2-21.7c5.1-15.3 7.7-31.4 7.7-47.5l0-.9c0-35.3-28.7-64-64-64z" />
-    </Icon>
-);
+const BowlingPins = createIcon("bowling-pins", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABxQAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSEEQsGAAE2AiQDCAQgBYMtBzMbFAYRlZoHyT4SY/fQHWuKFtdi4k3QQ3n19ToZbGaN/gJxE+7WSQiA+b/Z8ywP8HuAecKJjIVL8w0+5/MEAizqRdtLJL+BegJ2Rgdi97bhcoTiiwgxkojqB47X6gCuLtATH5h15jawhG+lD6QwEwyOAwCAogEAgGptWjTi6lM9lW7/P4Vu0wAQgKoDYBHgwEQ6AqAiDkIfwMUCLi6Cp/r/n74DLQIA+RHYMOcCQeA18B07AAa/66ZnliIt5ItwW+MFXocNSdKaPLsSVqWgqcnJWhnvaXViqtZLrUJeaFUTndBK65hasKB6CuuwpqW10Zok/hFqszOvtDcZTU1J0brklfEttZGphQppVSikBUlFdETTMltrdeL6tDRtkLQ+//7crXb9AZJ9f/T+T9lu977dZopzBx4WLfrwjiMSe/SicVRZohr3okei4oaULVvWH0itn6sTd7MVqDWB1kygVoFsd3N1on6qP5B2ZGsMxHgieXQv5rdPyZu7E/dzFek7kTJea7wyE+lbJOeDXJ0om9J+fi9GJwsvJmbrlSoHic/rkFI213kAECCYe2dGly5RFb8GQwaA5+e//MofQvv/qp6a/UAQA4DAKfi/YEcDFqunCAAAADAaTXYDFgGGx9zeXcNZjQAQHiAADH48BIBDGtEIABePAggAH5mUQgD48WiBg9wwRDydKjCEMww4lGYScInnBPBRkWuGn3g5AU+HK/3eTLC1NVSryxYrXNSWt11HYWKYTM0KdljMOxoT+WCS3kMGj+zVs99IhQxvZI8aVNvD1nqvLVa4qC1vp/3teOtew0f0GzKY2lSw69W8o/38fKAYBLf4IwYDMuHdh4z5NNMoNLTf4BEA");
 
 export default BowlingPins;

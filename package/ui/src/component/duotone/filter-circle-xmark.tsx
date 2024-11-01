@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `filter-circle-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filter-circle-xmark?s=duotone filter-circle-xmark}
  * @preview ![filter-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/filter-circle-xmark.svg)
  */
-const FilterCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M3.9 22.9C-2.8 36.8-.7 53.4 9 65.3L192 288.9l0 79.1c0 10.1 4.7 19.6 12.8 25.6l64 48c1.5 1.1 3 2.1 4.7 2.9C262.3 421.4 256 395.4 256 368c0-85 60.2-155.9 140.4-172.4L503 65.3c9.8-12 11.8-28.5 5.2-42.5S487.5 0 472 0L40 0C24.5 0 10.5 8.9 3.9 22.9z" />
-        <path d="M288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm203.3-59.3c-6.2-6.2-16.4-6.2-22.6 0L432 345.4l-36.7-36.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L409.4 368l-36.7 36.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L432 390.6l36.7 36.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L454.6 368l36.7-36.7c6.2-6.2 6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const FilterCircleXmark = createIcon("filter-circle-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABiQAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCBfwsIAAE2AiQDCgQgBYMtB2IbMwXIjtRG9VViDaUleN4uqt7vnllAvYAR8aQUYsbJL1ykZ0z8T1zu/Kc9PeAC4Dn9ffuarcFdAp0Hkk98DKSAskyxtw2FOpF0IyRMQhorHS+qQ+cKefybXVEiPZYquIf+BzC+0coVkloZgGgIgInLF8/16e24naJSfZOomIOAmAQKgQwZ2gowRibQVq5ALhfcTlVuR7UggCijsTNQRgkbsRuQgySJPG/TsV2dUr18GY1Re/PF/hGvjP6gzrWR7/V9yYU+L454t/bVUe/3ezmWP9x0TIyLRHuw2dgYE7SHWoyPsUF7pPm4GB+vWv1oq6UhLjSbGw81ezm+Hv/J9OXxROvHu9WNJ1t2er7h8991rGyr6DC/e0HRpHG3bo2bFEV31siJL0c999xkkyHt8ceHGKKTf4Ls2Yfvvn3LfA2/qGrYsUlPE/btq+y65O7DT1141YWngEDw/5FYsL7BmN9q1kng7vs//FKf/Lv6aZqQnkdNCQRZn2ofa9IEBeWA0LwUx3QCOwpfFMiMkeC71vWwAKE2AiRltQXItNFQgFxtvQUoaW+oAGW1LZaJvJbQ1NpBJHUdJDLDnCVyTb1BlIzxWVDWNLJA48KEe+clTxuYeqoY2G9AMapYNjofO0zZH11s2z2OmesJF22z3z5HbLXFTkfCD5kbH7XXNA2b6ocKA/UzQGGUwtw/y8sKDjlspyzajxmtOO/2cExf3RPOkwCDrqiQESmyNiGo9/2U4/Q94Zl6X79d2U4W3RQ=");
 
 export default FilterCircleXmark;

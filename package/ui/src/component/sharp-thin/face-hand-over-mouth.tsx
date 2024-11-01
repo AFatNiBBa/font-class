@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-hand-over-mouth` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-hand-over-mouth?s=sharp-thin face-hand-over-mouth}
  * @preview ![face-hand-over-mouth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/face-hand-over-mouth.svg)
  */
-const FaceHandOverMouth: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 256C16 123.5 123.5 16 256 16s240 107.5 240 240c0 99.6-60.7 185-147.1 221.4l6.2 14.8C447.3 453.4 512 362.3 512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 86 42.4 162 107.3 208.4l9.3-13C55.7 407.9 16 336.6 16 256zm160.4-32a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm176-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM256 345.4l44.7-44.7L312 289.4l4.7-4.7 6.6-6.6 4.7-4.7 11.3 11.3L350.6 296l-4.7 4.7-6.6 6.6-4.7 4.7-11.3 11.3L278.6 368l-11.3 11.3 9.4 9.4L288 377.4l44.7-44.7L344 321.4l1.9 1.9 9.4 9.4L366.6 344l-11.3 11.3-9.4 9.4L334.6 376l-11.3 11.3L310.6 400l-11.3 11.3 9.4 9.4L320 409.4l12.7-12.7L344 385.4l1.9 1.9 9.4 9.4L366.6 408l-11.3 11.3-48.8 48.8C288.7 486 264.4 496 239.2 496c-52.6 0-95.2-42.6-95.2-95.2l0-12.8 0-20 0-29.6 0-4 0-16 16 0 8 0 16 0 0 12.3 0 3.7 0 4 0 15 15-15 1-1 68.7-68.7L280 257.4l11.3 11.3 9.4 9.4 1.9 1.9-11.3 11.3L246.6 336l-11.3 11.3 9.4 9.4L256 345.4zm35.3-99.3L280 234.7l-11.3 11.3-11.3 11.3L200 314.7l0-12.3-16 0-40 0-16 0 0 16 0 20 0 29.6 0 20 0 12.8C128 462.2 177.8 512 239.2 512c29.5 0 57.8-11.7 78.6-32.6l48.8-48.8 11.3-11.3L389.3 408l-11.3-11.3L357.3 376l9.4-9.4 11.3-11.3L389.3 344l-11.3-11.3L357.3 312l4.7-4.7L373.3 296l-11.3-11.3-22.6-22.6L328 250.7l-11.3 11.3-4.7 4.7-20.7-20.7z" />
-    </Icon>
-);
+const FaceHandOverMouth = createIcon("face-hand-over-mouth", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAAB0AAAAMFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHiEUwsGAAE2AiQDCAQgBYMtBzsbXgbIPgzwZJi/KuGIMkLDkkrxtulwOe0T4WsNC3pqv7LfzBzx7B7Q1CmGMLEiUPH/V9S5sAN2sVvxgDIVAmhMvU8BQRGAItfM2Ak3Swie2NaPVOzSDZmfzHKBBfz/br4TWGpjekAZDPA+NnUO6uLSwew1BULWC+G9QWqB/83/NflKzw7wi58fStcibVQWlc8nMNHCwuE4bWATHeAEbKN6FQb5+Ir8OwAXHlsvDeZoZLgaval+KXMehk0AAEC5AABgzNa8GbzYCTshvI0LvbUMBNAkgEDAAguqCMBwlkAVJwDHEVIhPvsPBAKAkklu1ABwIANKAlUAAAfASEt0HWlZRyZzkvLcwoyk7EU/u4OGlkN4uxUW9867C75NdOs4fJ4et76pYe3ZfFeumRxW988oCc+6ijp/mGbJxKcJX9HDLDM+MqpUKZTAvDKcK4m5OmqtlWOeXNo4OlzpaRqhBiWJnBxEoRJr0Tnp1dKt4qKklw+zNZ6dXUknG/Oedhi/Ek6GRi60EtOS3z9pY31UCF971yXntbEx/kaxaoqxVkX/xkyZtvvomMptE6puPTTbpNKy62fmTXJmbxljktEPZyekzu7LrOaXnfpUXf3pHEiPQ9E9Z/LNXDfOQuPFHhlvg26PPPHIfbG3rityxSOPXBGtXvOHN7viCFLAq+EUKizNw3IKfIPx08Ri9xS5HK6PriXck6k8hQOF187z8uT//6ecHGKRyHj3Wm08szaOLgdAQHhwKc1ozkgMA8CXZ/8Gf0X/w1wDmQwAwbbEszwCwEAAAADAhIPqIgACxj9JklfNdYcASDYQACNdNgGwKhUSACdbEwFIU6OHAKTLNo+lxCzEW9EDI9ceYPU6ARxvCKQZ7mUynQ/WRfDmmf8hTZk4RiasC52t7WEwbDa1giFn9fKwcNppOMiHGuBGNtplp/02WG+L/SNirxmZA3aYuEea8EFBh1btgkHhdue5snCU3GufLevS/VWGCe/H6x3cn9wAfUZC2anMMFDE2ze1xQ6pLS5Ga/EJAAA=");
 
 export default FaceHandOverMouth;

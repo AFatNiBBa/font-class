@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `messages-dollar` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/messages-dollar?s=sharp-light messages-dollar}
  * @preview ![messages-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/messages-dollar.svg)
  */
-const MessagesDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 368L96 384l0-32 0-3.8L96 320l-32 0-32 0L0 320l0-32L0 32 0 0 32 0 384 0l32 0 0 32 0 256 0 32-32 0-160 0-96 48zm0-35.8l81.7-40.8 6.8-3.4 7.6 0 160 0 0-256L32 32l0 256 64 0 32 0 0 32 0 12.2zM256 416l0-64 32 0 0 64 128 0 7.6 0 6.8 3.4L512 460.2l0-12.2 0-32 32 0 64 0 0-256-160 0 0-32 160 0 32 0 0 32 0 256 0 32-32 0-32 0-32 0 0 28.2 0 3.8 0 32-32-16-96-48-128 0-32 0 0-32zM222.2 85.3l0 5.9c5.1 .9 14.3 2.6 18.1 3.6l13.8 3.6L247 126l-13.8-3.6c-3.2-.8-14.1-2.9-17.6-3.4l1.3-8.8-1.3 8.8c-10.1-1.5-18.5-.3-24.1 2.2c-5.5 2.4-7.1 5.4-7.5 7.3c-.5 2.8 0 4 .2 4.5c.3 .7 1.1 1.8 3.4 3.3c5.2 3.4 13.2 5.9 24.5 9.1l.5 .2c9.8 2.9 22.4 6.6 31.9 13.3c5.1 3.6 10 8.6 13 15.3c3.1 6.9 3.7 14.4 2.3 22.3c-2.6 14.4-12.4 24.1-24.4 29.1c-4.2 1.7-8.6 2.9-13.3 3.7l0 5.3 0 14.2-28.4 0 0-14.2 0-6c-7.6-1.5-18.2-5.1-24.9-7.3c-1.4-.5-2.6-.9-3.6-1.2l-13.5-4.4 8.8-27.1 13.5 4.4c1.6 .5 3.2 1.1 5 1.6c0 0 0 0 0 0s0 0 0 0s0 0 0 0c7.6 2.5 16.4 5.4 21.4 6.2c10.5 1.6 18.9 .6 24.2-1.6c4.9-2.1 6.8-4.8 7.3-7.8c.6-3.3 .1-4.9-.3-5.8c-.4-.9-1.3-2.2-3.5-3.7c-5-3.5-12.9-6.1-24-9.4l-1.7-.5c-9.4-2.8-21.4-6.3-30.4-12.2c-5.1-3.4-10.1-8-13.3-14.6c-3.3-6.7-4-14.2-2.6-21.9c2.5-13.8 12.5-23.3 24-28.3c4.2-1.9 8.9-3.2 13.7-4.1l0-5.7 0-14.2 28.4 0 0 14.2z" />
-    </Icon>
-);
+const MessagesDollar = createIcon("messages-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABrwAAALaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDfgsGAAE2AiQDCAQgBYMtBzYbBAbIvgxvjKD/QUYyFWs+sHlDtnJuU9Hd4hlC+X8SBf+QXfV+VU3vbPcsXWc7giLAGZxdJGYO7YgUk7u3AKF5me1+vwXWdpdQBIkVRmlSEACVXyHxtcDCYHDNttHCE84LzXY/JDHHq5z3GkxPkNr/6e/d+T//G/AN+1/8o6zmsu6DNJaNsc4TCDSbm7o40C7KEsXU6dgy5iGMeBWRIq6UIshf9Lg8AaffJQZmD+8Bm8ab6oNiDQzOAgCgdAAAoN2QAb249LSnoXsfuqcBAlB7ADwBFrBAMQHQkkVAMYcHDofgqf7f/wNBAKAAvsgA4IAAeAr4CABwABiccyVZ9ZZEsRQ3OIqFQypWqShiYShZJUcpyAg9Z6CGDBySpyiySsjIFMQgoUgMT45aUNLMHsIUSUcIVdZgPEvDETtycpSvXK2NnWGesrUzb+d4rfAdlXK0Unb4hmfvrrg9G9GhRO+MtaJcFSlH65xcKYPbm7erRnbGzsq5IiOct6/KrrznzBLlN/34p6qcPv+5Fkcxnx7wfCNlxtSK/apih/EkHYaxQFvvSSwf0JZzPG1ZEe9Pv6ok8EEaDocPew+aLsZ97n/qsML7ct2DINiyvsl9tG0/GyfON8OsQPUmWoDvn+5FHZv0GxuQSrFUAs4fC5N+1eY+gtIBAADg6rz15KRyE2068OLN2q2oQ5X+c8OPAyBAcGrGPbT8NQwAzy+e3P3/uILHgTgGAIGt+b+RZgVAFwYAYaPFlDe+SIDhCQbXJdhJAIgQDmAICIGlSDpwhNQAMUo1Up3WAS5aLlnPNqoCQ4J5wNLYUuDIdgHEaOlmKCA7bJ4bstTwl5m1syY6TfL1atf1zf20ZDemrrqOtvBub9XFS0u1MpfJzGE2C5nERKaxUPHz6RVdxCw6W2QnfohXT211ec35cPWzdTDC81nAtGtTfJwW/P16VYvt7tVKwEDJ+goMBmTSXjBHre8d");
 
 export default MessagesDollar;

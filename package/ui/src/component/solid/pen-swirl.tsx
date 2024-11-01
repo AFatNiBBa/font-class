@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-swirl` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-swirl?s=solid pen-swirl}
  * @preview ![pen-swirl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pen-swirl.svg)
  */
-const PenSwirl: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M347.8 17C319.3 6 288.4 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c17.7 0 32-14.3 32-32s-14.3-32-32-32C150 448 64 362 64 256S150 64 256 64c14.1 0 27.8 1.5 41 4.4L347.8 17zM310.6 349.4c-5.4 5.3-11.4 9.8-17.8 13.6c-1.7 2.7-3 5.7-3.8 9c-4.4 17.1 5.9 34.6 23 39c12.8 3.3 26.2 5 40 5c88.4 0 160-71.6 160-160c0-32.2-5.9-63-16.8-91.3l-51.4 51.4c2.7 12.9 4.2 26.2 4.2 39.9c0 53-43 96-96 96c-8.3 0-16.4-1.1-24-3c-5.9-1.5-11.9-1.3-17.4 .4zM473.9 16c-18.8-18.8-49.2-18.7-67.9 0L366.4 55.7l89.3 89.3 39.8-38.9c19.1-18.7 19.2-49.4 .4-68.2L473.9 16zM200.5 221.8c-7 7-12.3 15.6-15.4 25l-23.8 71.3c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l71.5-23.9c9.2-3.1 17.6-8.2 24.5-15L432.8 167.5 343.7 78.4 200.5 221.8z" />
-    </Icon>
-);
+const PenSwirl = createIcon("pen-swirl", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABgQAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCHwsGAAE2AiQDCAQgBYMtBzAbHwUjEWZTTif7R4JjrHxsQXCJZT3kKEYtp5N+kRUbSc9E8P1+vz3nXVSaWJUIyUOmikWSN7FOs1CpRG9eAkMlk7/Vj/32vhni7eGS1LyaSlOpZo0hlD9UGgHwx707/+d/+3xGH20PHRVt8DnPEwh4LJvnJRB3nmkClm0zboiyMISmCAkKi9h/cNj+ASUeuBfgk7ecb8Blfav4g54LIDVVAKITAAsJMWG4/qEfoq//A8QXQgABsQAMC1Sw+xXG9MMC/YphFEXwQ/81/g9kAoh68uQEBfXYApwBoIBUShkd6KyuLuXLefH5RZKCU8l76L3ndeyH103YQ1yPzgQ1aY9LPqNf479i3hJ6jGMSRzXTRVpjWmvSL4+rhCabSJrCrNmmU7cl0EyhDUTdmq4URx50FlhkchhLsaiTQBPt4niKNdhW3Vbq3+ffI2V/0T4ATUN6uiAmQFdvqKmk6OxUoBxFcXEUsKi4uM/TcjQwCuloM+RZJRffGWn50P19+NiLDeCgJdrebpQvN1Uthyo1AA1lA5ISUY9vDY3vONWH7TAdf7hNb7356+B9a7APiUl09A8AAsHEx4vVasf0f6M0we/p7x/9imqvibwDNEoQVOM1qyUOSAIAkHFgkBBIm+CRRqsr0MtGMyKl9ZrRqPTpHFA0G4M6gyYl4/5FcEVpEnotA1KrbahMOYSi1z3UmfZWrdcbld8pXqP89mVe+mvEbx2zt7FjzmzZ1FVXksqyCzOHZvVxyBxnkV9RXpuXW1Sr6OqwRl2Z/w71+yKzt7Fjzuy683w8Pq+6pqiinFdxYe9Ts/r9ZHMkHCLqYHM+waYUV+aVW9c0FFWXAgAA");
 
 export default PenSwirl;

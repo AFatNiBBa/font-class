@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-arrow-right` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-arrow-right?s=sharp-light circle-arrow-right}
  * @preview ![circle-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/circle-arrow-right.svg)
  */
-const CircleArrowRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 1 32 256a224 224 0 1 1 448 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm379.3 11.3L390.6 256l-11.3-11.3-96-96L272 137.4 249.4 160l11.3 11.3L329.4 240 144 240l-16 0 0 32 16 0 185.4 0-68.7 68.7L249.4 352 272 374.6l11.3-11.3 96-96z" />
-    </Icon>
-);
+const CircleArrowRight = createIcon("circle-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdgAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBeAsGAAE2AiQDCAQgBYMtBzkbAQVRlMvJDtnH6tRXM9fFw/+v+f4+dyZZfZMUefpUmdHV15EjB/SBybEl0CnFxalTz3MeCuCfRzhoY+GaIMv27j6vQMV68XqFagWraQWsLDV3tc8U0T1pLbIkj9/K48UD8ng5BqqQbqRPcKW8afyqq8skeQYg2gBg2poVi7zxU/wU8UnjWeITCxAQ00EpkCFDDwEmygR6yJXI5YKfotHg38CSAKIK/08COSrYhP2AHCRZmOfdu/euVVrmq2uVYsfNoRGP535QmP/R8Kea74x4esHHtfM+HPakT/3baRFvLvq0dsnnM95e8930txZ/Vlj4ydQ3Vm7r3KFzp1gdnaJvdIxVURSiVlsZHaJfdI41zXfb3P29zycW7P7Ej6/X3+KryYsmTFg0+au36vW3ZPsns5ro+vSbM2a8+XTXJrN0k/XzxUtI2LLFPbtV9IyZXmxTavOi85Ld7o2fB4FgW7X391taT/y/RS2BX17682/xW9R4I0l30UICQTawMdDGBBIBAEhxWnOCQLJKBq9ad1WAUCBAUlUIkOmujQC5wgABKnoZJUBVYYVM5E1CB5sEJHXHQGa0SyDXwdOgYqL3naoOkTkZ6SLkEy9utoZm3SqHDR5aji+njUb5DZ4uJ5TLfN/TYdGPNu12xGEn7bLTPicVctwi/5RDZlvwLB9UGmawoUrjldv9/f3VdjnuhH2OOJyvmaA8b/d12t7fj6QEmMOVkkSkdn9xAoO2HT9+5Mw1BQAA");
 
 export default CircleArrowRight;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-circle-exclamation` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-exclamation?s=sharp-solid cart-circle-exclamation}
  * @preview ![cart-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cart-circle-exclamation.svg)
  */
-const CartCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M24 0L0 0 0 48l24 0 52.1 0 60.3 316.5 3.7 19.5 19.9 0 160.7 0c-.5-5.3-.7-10.6-.7-16c0-10.9 1-21.6 2.9-32l-143 0-9.1-48 168.5 0c29.1-57 88.4-96 156.8-96c10 0 19.7 .8 29.2 2.4L576 32 122 32l-2.4-12.5L115.9 0 96 0 24 0zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm320 0a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-64l-32 0 0-32 32 0 0 32zm0-176l0 16 0 80 0 16-32 0 0-16 0-80 0-16 32 0z" />
-    </Icon>
-);
+const CartCircleExclamation = createIcon("cart-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCHAsGAAE2AiQDCAQgBYMtBz4bKgXIhofn9fr/tU8yF8kz8ix9kJ2ESio6qvqVZuJy53/+9IDLnuDR9tAHWSBjt9Z5Aon1+aY1vCzMEsWsm3/iG1LakrzoJQ3b0zAlWkIe/2RXqJFuT5/i5vSh8ZuuriBpzgBEGwDM2bRuhfe+jq8jPqm/THxiGQJiDqgEMmToIcB0mUAPuQq5XPB11Ov8H1gRQDTIz00gRyNOxTmAHCS1PB/Usntz27LWMt9Y1optRVmIstwSXfGSt8SlnYvoFWU8O+3NRdd33BQtolN0i2LLo93v7HbHwIe63Nb19gEtr58W8eaoZ+PSkc9MfaO4bvJrw59yyYinp7xe9ivKIqIMIQhRBGrKvk+0eeKPPp8e/FTnd7vQZUfrMn7adGN1uL+xqc2om93sMUevvXZ066/G3u993Y3TYVX9vh9fffXH+1A3e1AijekzcGCfMSkNEjk26pXDqFTPtYmt1kaljbI/CAS1b556YVfr6X83lQl8+8Zff6Cd6++lS9ITaJJAkA2vD7c9XQKMD8BLcZa+yhcFkiNq3Lu2cIsAoUCApEEhQKa7NgLkCsMEqOllggANCutkIm8WOtjR4KSFU+HMRBfCuQ5ehGum+8Bt0CEys6ONhr70JSyUwIJZ1ZiRo6up1TBXGUsiw+S0atoYfJbvGIKFDjrZSc5wwH5HnCGg06wIznTCQg1c4IcqY4w0WmWqarm6n7/RAac53REnOylOM0213xnsLL3/ENhJJhwrlCQidT64yoj3OZ0jvrSw9pw4SwAAAA==");
 
 export default CartCircleExclamation;

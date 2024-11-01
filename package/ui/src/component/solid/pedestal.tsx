@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pedestal` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pedestal?s=solid pedestal}
  * @preview ![pedestal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pedestal.svg)
  */
-const Pedestal: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 0C60.7 0 32 28.7 32 64l0 352 384 0 0-352c0-35.3-28.7-64-64-64L96 0zm24 64a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM304 88a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM32 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 448z" />
-    </Icon>
-);
+const Pedestal = createIcon("pedestal", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZQAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBPAsGAAE2AiQDCAQgBYMtBy8buwTIHge5afROWT4Ku4jg+bmweT8pAKfM6IjY1uGtOzSCWJ7efFG87ZDad3zzf83nl3ZUIN/o0CKt9EDKDzOfn8ABx8rTNp7PBjbTCdh0m/gsyAzfCgmSiI7PJ/7OkMf97IQKpLvpB1yuHxr/aOIESZUMQNQGwOiFc6cr/Rg/RnxflvjeVATEaFAIZMjQXIBhMoHmcgVyueDHKJfxH1gQQFSkT04gR0WMwSRADpI8z+tWqdKwWoUa+YJ8X9WlLzpFvGmcokZkca/Luw7Ve79scqfdq6b3O86H0F+2rvoRNxxpcLNajTjf6HYcbXiravU272q/+48fNvxg5VdP6lCn6ipHrFK1Tp0nDs9u0GA24zcSOFBrY80znKkpzJmaR0jlcRAIGs/3x8paw/6vXC2Bnz80/IrKpSild6gsgSDrVu5mWZQgSgIAkOKANlFCIBkip+9a3S0BQlUESCqqKkCmmdoC5KrqKkAFLfUXoKKq5spEXkWob/kASXW7QWaAgyBX33tQwTBfOxXVjyyMhCAQPnGpEyw0fq7o3aNXMaRYhpoYGRyPhxbbeqcDqdSZTtpgpx32WW+dzfYZco/p/n7bTfCI8b6o0FsPvRSGKI6T58MLrLfHXpvttEOmDFXctzs54Dd3JitR1j6WkkSkyrvWr3sWtG0A");
 
 export default Pedestal;

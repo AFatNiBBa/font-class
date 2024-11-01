@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `disc-drive` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/disc-drive?s=light disc-drive}
  * @preview ![disc-drive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/disc-drive.svg)
  */
-const DiscDrive: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 64l320 0c17.7 0 32 14.3 32 32l0 352L64 448 64 96c0-17.7 14.3-32 32-32zM480 448l0-352c0-35.3-28.7-64-64-64L96 32C60.7 32 32 60.7 32 96l0 352-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 416 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0zM256 384a128 128 0 1 1 0-256 128 128 0 1 1 0 256zM96 256a160 160 0 1 0 320 0A160 160 0 1 0 96 256zm160 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const DiscDrive = createIcon("disc-drive", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABjAAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCOwsGAAE2AiQDCAQgBYMtBzEbPAXIFkrLw/N2fZ37qr5aQ9VIimAv7c6WQT5IV9HEPf/XfH5pRwXy7cgOJWuVIGvcG2UK7PlAd7RZFFEU2EwnYLNtEgrdEoWLg0S8RDSMQuxlh3I4Qh4/xChNpOfSX3gkf2j8rYc7SfIMQLQHwPwNa1arX47LEX81viL+shIBsQAUAhky9BZglkygt1yBXC64HI0G/gMLAohm8lgJ5GjBrbgXkIOkKc879unVq1O5qZqvLzeVtlQr1Qe6PCVFJbK4rdsz5X1Zyp4f8f6QSrw57N3uKUrxZOenupSrz3R7umtp/f0jIt4f8X7cNvKDwJQfGP4e49Zh7/J9/NbRiY+mf9fZduYPYz+J28Z8POP70v3Tvh31oXUPdIt4BoGuT2Orzk+6tctT5QHvt3//3/5/7f/LjlvmiU/t3ntrO91qJ0vccstOqix16PDqPK+qX2mn9i7XapeLuq5vf2nuwDr1PtUBA6p96vWBVR1WvXLLyEWsXbx2xIgDi0ZyHVe90q92L/fWtA5sIC77asTsSzvazbrWWk7g6vf/X5N+RY3LSXofrRIIslGNUbYmkAgAQIrzBiQIJBc1kWuteFqAUEKApFlJgEwv7QXIlYwUoElfkwVoVrJGJvI2obNtBSQVp0BmiptArrMvQJNZfs016xyZF8o+JH8CM5YILV5WjB8zrphRTOtMcSwxzs8stoPDztc3nDba74Tjztpnr0POQp62unjOMUtWxGJfVBhvjHEKMxTHrdvEevs06IziWDlfxEzF/eww59ejh1MkEc4JapJEpNILYI32awAAAA==");
 
 export default DiscDrive;

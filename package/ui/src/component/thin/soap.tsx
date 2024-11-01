@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `soap` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/soap?s=thin soap}
  * @preview ![soap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/soap.svg)
  */
-const Soap: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 48a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-80 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM96 192l129.3 0c.9 5.5 2.3 10.9 4.1 16L96 208c-44.2 0-80 35.8-80 80l0 128c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80l0-128c0-44.2-35.8-80-80-80l-5.5 0c1.8-5.1 3.2-10.5 4.1-16l1.3 0c53 0 96 43 96 96l0 128c0 53-43 96-96 96L96 512c-53 0-96-43-96-96L0 288c0-53 43-96 96-96zM80 352c0-44.2 35.8-80 80-80l160 0 32 0c44.2 0 80 35.8 80 80s-35.8 80-80 80l-192 0c-44.2 0-80-35.8-80-80zm16 0c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64s-28.7-64-64-64l-192 0c-35.3 0-64 28.7-64 64zM384 48a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-48a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM368 176a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-112 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const Soap = createIcon("soap", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABvAAAAKuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDSwsGAAE2AiQDCAQgBYMtBysbxgVRlO1BlezHgd3wdSYMw6A5SltsA63lRWITY2mz5Cce/n+/fvvc9/5HxC5mlsSt0eg0a5MRbXgSDXnWVNwsmNsO/B+TDCXiIZrlQSMUvA1Rr3Z07s5+ka2lNpAKk2ff1aXjb50+CcgX8qD9d9vUwq2M1+4RCOBpqHsf7+DNNAIWFeeW7gQoUbhvoYw7tqsjXUgvcMZ6qnitk9MkRQEgWgJg5qplSz2sohrx4v+XeGExAmIWyAIFztFVgCkKga5KGaVSUI3//+X/wEwAUc/Bk0UlmuARXlFHkzQqy0mr3uO0GLowPSv1iiQrKdcwgRnb0idw2qdc25ojrat7cXUW+aW8uXEmnhqET/3wBWyb56DHv3tHwK59jYS5xfiaiEDApn70OvxYPAT2vTDFAwBkJ3OXJGGE4GUDPAvGvR+8VSVeEi50Zrswt2bmRJ8aaBvAFE7bhG2ZM2xYcy6+Km/5xV4W1+ru0b57L7Zc+wrdVH79rhf5F973DRKAZAjLpNIwFUvLzMIf7F/Oq5bzA1lMYh0wKcqhHJRCuwiF+osSG3nRswwg7XvBJ7KzksdKkvOhFN2ycStaVR6qtGrVWNZQ0GN4tXnzqt9jxHkmWlwTSw8XtY8fa0W4OxAIHvYtzm2SpnwlnEDt9vtf8s/I/4dJuoiGEgiKIf+HWJ9AIgAAKU7qlSCQ3NeIE2nq7NzS0Bghg/qSKnGFLlpypcYGc3W6GyuNhGVG2aJsJNLWBuKSpo5whXFOcaW2bnF1pnicqNc2iq9Z+RaVn8nMeWVs7qw8ctiIPCl3lqXqByrp45PzaMeAk3LbQMy10yEHHbfDdnscL7FHLU2fcMC8PmauL8pGGmaEbJI8u3YdVirFjzpGltq1+dNMltePDHCyv/dAuBPH7ijO5BIUpPLYoS2HAQ==");
 
 export default Soap;

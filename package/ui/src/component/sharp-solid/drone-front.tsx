@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `drone-front` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drone-front?s=sharp-solid drone-front}
  * @preview ![drone-front](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/drone-front.svg)
  */
-const DroneFront: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 112l0-16L96 96l0 16-72 0L0 112l0 48 24 0 72 0 0 16 0 16 0 64 0 20.8 19 8.4 56.5 25.1-21.9 26.3-5.6 6.7 0 8.7 0 40 0 24 48 0 0-24 0-31.3 25.1-30.1L259 349.2l6.2 2.8 6.8 0 96 0 6.8 0 6.2-2.8 41.9-18.6L448 360.7l0 31.3 0 24 48 0 0-24 0-40 0-8.7-5.6-6.7-21.9-26.3L525 285.2l19-8.4 0-20.8 0-64 0-16 0-16 72 0 24 0 0-48-24 0-72 0 0-16-64 0 0 16-104 0-24 0 0 48 24 0 104 0 0 16 0 16 0 43.2-17.8 7.9-40.6-23.7C390.7 201.5 355.7 192 320 192s-70.7 9.5-101.6 27.5l-40.6 23.7L160 235.2l0-43.2 0-16 0-16 104 0 24 0 0-48-24 0-104 0z" />
-    </Icon>
-);
+const DroneFront = createIcon("drone-front", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeAAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCSQsGAAE2AiQDCAQgBYMtBzIbSwXILgbsxulwQs3FLThDvYtYH4nTUs5RhJCiYcvs3ZcGyNYdCt0dDomQYCS+aqRGWLoFnqf9vp37v89bl1kxU/BKCTQSTWNjm7lAVTGR7P7UAuR5ktHAoiRZQoS0T3/zvc6jAB9oDmNa54Es8Dm5S6DzLNq0CZ79sewDfTH+5i0ntsdIvySTNcker+zxa4Get3aNFfVmErzWC81/Al2jOBsAshIAXN12tfCzNf9mI+9pgoBcAXYJNGiwSYBTZgKbLDR0FoIfM/QfqBFAhjSYCujQ4BFeATpQpFuujFwtvYZVDQkyFWSqkJmBEEKONEg8HyXNBHOSpIAvw/BXJIFFguAnUZPEEQwpV0oinzlU6Ida/pLYIygiS51Zvt3w8CjHQ/1qOgHXHngo5yvOvUE9nOIFSBcg3IsPOtnvOvngRbjVEc+pR6N9cXyFGJlU4jwJ90a3JP72/M/NfdvFXxKind8BAsHHX4occy9+DsME+Dv3fq4eTAdjJiBox5NsuM4BShBNrewSiQ8KlCsmgHXuKwFCQYBiowjQBPMgQKckEWAgTA4BhpQuZtKdCB8jE5i42ABmuU6AhY/vwKrYL8XGJ+ZkpFOJ/gsm1Gq0pk5npKbrQr01DCa/SCkW6WMpfpcDCehk1ppV22ZMW7Ct8E0t+o4VtR5W44u0DKnSaYX0tf0q9BZl05YFm7xHVCmi4+V4u358ApoxAZw8Y6sJKWN6c211JiWDAQAAAA==");
 
 export default DroneFront;

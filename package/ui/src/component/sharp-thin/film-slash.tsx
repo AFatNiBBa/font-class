@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `film-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/film-slash?s=sharp-thin film-slash}
  * @preview ![film-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/film-slash.svg)
  */
-const FilmSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5zM576 312l0-8 0-8 0-80 0-8 0-8 0-80 0-8 0-8 0-56 0-16-16 0-96 0-8 0-8 0L192 32l-8 0-8 0-23.5 0 20.3 16 3.3 0 0 2.6 16 12.6L192 48l256 0 0 64 0 96 0 57.3L464 278l0-62 96 0 0 80-73.1 0 20.3 16 52.9 0 0 41.7 16 12.6 0-54.4zm-384-8l0-57.3L176 234l0 62-96 0 0-80 73.1 0-20.3-16L80 200l0-41.7L64 145.6 64 200l0 8 0 8 0 80 0 8 0 8 0 80 0 8 0 8 0 56 0 16 16 0 96 0 8 0 8 0 256 0 8 0 8 0 23.5 0-20.3-16-3.3 0 0-2.6-16-12.6 0 15.2-256 0 0-64 0-96zM464 48l96 0 0 56-96 0 0-56zm96 72l0 80-96 0 0-80 96 0zM176 464l-96 0 0-56 96 0 0 56zM80 392l0-80 96 0 0 80-96 0z" />
-    </Icon>
-);
+const FilmSlash = createIcon("film-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABkgAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiDLwsGAAE2AiQDCAQgBYMtBzEbsAXIhof/nyO77ydDSRlSZnRAvq4sFKLqEhgxZxWQWlUauhz/5rFAjgvwuVDWsDE3RnvhJxDgsHzTEMjCLFHM3BoD0YcoJwgZMmSNGvZ4tcevE+TxwW41pFvpV1yrHxp/6egqSZYBiBYAmLFu1RLvG6Mx4pcvL4lfLEJAzACVQIYMXQSYLBPoIlchlwsa48uX+B9YEUDUwusSyNGA1/gGkIOkLs9bTpnSgExZ0zRf2/cUm9q1bdcm2saJkGkf7eLkWCOQLZr0iVKE2habhjA9ZShEmHcGqB1SQH0twds2lSZqam0SiO8qi/JZfI1gJncXpVCGtbp3dve81+LePz1+3fur5u9W48Bdqx343Wp3RvSPYSPrqWS5evXJ47XQ4sY0mcwHzTHddhN8NNV2yy0wzRgDfTD2Qt0EaidJqbdPwc1lnuZftkNuvO3Gb5u3XGOX2H5h3fo4EAjKr9aO29Z88v/1ZQK/vfvvr+N+X96ni+ke6iUQZIO/DLY5XYQoG0A+xVk9lS8KJI/Vwbs2cV2AUCBAUqsQINNZCwFyhUEC1OhmjAC1CqtkIm8Q2tgyQdLECZAZ6xzItfEc1Jjsh1ytNpH5r877dL+PmedyZM62asTQ4dXE6rLh1LukJi9Oqm5b+59NAwPoqL2OOeq0PXY74DRjT1pSPOOIuZpozg9VRhhquMpElbn9al7LciedckA22jeZpNof7O+sPn4AORIoHakuSUQqvv6aIacO7zi1HwAA");
 
 export default FilmSlash;

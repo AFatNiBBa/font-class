@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pizza-slice` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pizza-slice?s=solid pizza-slice}
  * @preview ![pizza-slice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pizza-slice.svg)
  */
-const PizzaSlice: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M169.7 .9c-22.8-1.6-41.9 14-47.5 34.7L110.4 80c.5 0 1.1 0 1.6 0c176.7 0 320 143.3 320 320c0 .5 0 1.1 0 1.6l44.4-11.8c20.8-5.5 36.3-24.7 34.7-47.5C498.5 159.5 352.5 13.5 169.7 .9zM399.8 410.2c.1-3.4 .2-6.8 .2-10.2c0-159.1-128.9-288-288-288c-3.4 0-6.8 .1-10.2 .2L.5 491.9c-1.5 5.5 .1 11.4 4.1 15.4s9.9 5.6 15.4 4.1L399.8 410.2zM176 208a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm64 128a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM96 384a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const PizzaSlice = createIcon("pizza-slice", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhAAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCPwsGAAE2AiQDCAQgBYMtBzIbQQXIhofn1+J37pvZ/SI2X1QMyFrNm1eoeDJP7Pxf8/lV0QF+kBM9lKjNqqkCvEsnMNBRatLeQNOGsxb0nW17c0S80m6EwhryeCe7oER6mj7H7XCn8aNmLpBUywBEXQCMXTx/pg+/jq8jPqu8RnxmOgJiLCgEMmRoKcAImUBLuQK5XPB1VCriP7AggCiLj5ZAjio4ggeAHCSlPG/fsEGcrFGqlS/Kp1Vf/nzDiAcNW8Z1RX6xED9LMDgeN3nc/MtFoaVno973WvWzsSQeNHrYZP2i640iHjrT8EH1a40fxdkmj2ssJLYIKc3miRYLxifR7uW6L//c9vNNn3vp/bqf8Nbsd4SwxORuU7p2ndJtsiVCvOOvZ5+L8vKe03pNndprWs/l5R+elEpmdxzTaUzq7zjb4Cc2HNdl48Kzxzd89UntK1ypXfuKHTH69FTkdu/DgUDw28WfuqyuM+LvqjUS+PbtX/+r9qz8X/kgSS+jqgSCrEelhxXJBs5Q8R6ROKQdfqBAskdJfKs1PRIgVEeApKy6AJkW6gqQq667ACWtDRSgrLr5MpFXExpa2YGkpr0gM8hJkGvoFVAywkfpsoaRwaEGRdpvYNZJQ2jipKJvrz7FsGI1r9FBS7H9w4vD9i6HZF1XvNAmu+1ywEYbbHVgwO8zM3fQTpO2uImeqNBXL30Uhikul57OXmSjffbbarddfpzhiufDXRzabt0Vu5JYtJ8VSSJSjT1bjx1b2/N7BwAA");
 
 export default PizzaSlice;

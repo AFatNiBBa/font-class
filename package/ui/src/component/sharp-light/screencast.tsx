@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `screencast` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/screencast?s=sharp-light screencast}
  * @preview ![screencast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/screencast.svg)
  */
-const Screencast: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 64L32 64l0 129.8C21.5 192.6 10.8 192 0 192L0 64 0 32l32 0 512 0 32 0 0 32 0 384 0 32-32 0-256 0c0-10.8-.6-21.5-1.8-32L544 448l0-384zM0 256l0-32c141.4 0 256 114.6 256 256l-32 0C224 356.3 123.7 256 0 256zM32 416a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm96 64c0-70.7-57.3-128-128-128l0-32c88.4 0 160 71.6 160 160l-32 0z" />
-    </Icon>
-);
+const Screencast = createIcon("screencast", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbgAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBaQsGAAE2AiQDCAQgBYMtBzEb6gTIhof/1sq/r7pnTtK7Qa5EMeIHJEVy5QcGBWQJ9Eydep7zUACfE/GgjYVLA7LOx1jnEYhYLrY6rVagUou1imLfJmKCwcQ3woIkouPLjqsTlPFtDFUjPZI+xl3lQ+NXPVxPUhYAoj0AZm1Ys8zrP8VPER83niE+tgQBMRtkgQIFegswVSHQWymjVAp+ikaD/gMzAUQdPziBEnWsxy5ACZKyLHt17NS2qdamXB/eqDrTtl1b8WAVEdHUTqQQVfM1XdtEcTTEN8s+mfXGuiqeGP3k4g/nr7utS8QDru58f3Vr1wfjmm4PNa17YnrEq/Mjvpn2yrpqQEv7lt/7f7z/Y/2uwrX+bn+1LOcMTdr3S67u91q3eoFr7unR3YKs7RdvDu3zU79H297MzW1TgLA7ZtTGMmdlflp8/HHMyUAg6HvZ6Dk72k39v1VTAr+8+Off8O7GT2lmakErCQTF0MZQW9NMcOgAtBTnDVC+KJAsV+JXbfagAKFCgKSuEqDQS3sBSpUhAtT0NU6AusoahShbC51tayBpdgoUxrsClDp7CtRM9Z5a1zkK46JMg/rbxc+X0LypPGr4yDw5TwOVthciDqfkZWHgeV8YBIv2O+G4s/bZ65CzAjltmXHOMfM1eJ4fykYZbqRssrwdP86vt89pZxxywvE8Zop8XhnovF4/COSEcUdzJIlI1cUj3gIA");
 
 export default Screencast;

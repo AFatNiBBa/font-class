@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `right-from-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-from-line?s=thin right-from-line}
  * @preview ![right-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/right-from-line.svg)
  */
-const RightFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M428.7 248c2.1 2.1 3.3 5 3.3 8s-1.2 5.9-3.3 8L296.6 395.8c-2.7 2.7-6.4 4.2-10.2 4.2c-8 0-14.4-6.5-14.4-14.4l0-73.6c0-4.4-3.6-8-8-8l-136 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16l136 0c4.4 0 8-3.6 8-8l0-73.6c0-8 6.5-14.4 14.4-14.4c3.8 0 7.5 1.5 10.2 4.2L428.7 248zm19.3 8c0-7.2-2.9-14.2-8-19.3L307.9 104.9c-5.7-5.7-13.4-8.9-21.5-8.9c-16.8 0-30.4 13.6-30.4 30.4l0 65.6-128 0c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l128 0 0 65.6c0 16.8 13.6 30.4 30.4 30.4c8.1 0 15.8-3.2 21.5-8.9L440 275.3c5.1-5.1 8-12.1 8-19.3zM0 72L0 440c0 4.4 3.6 8 8 8s8-3.6 8-8L16 72c0-4.4-3.6-8-8-8s-8 3.6-8 8z" />
-    </Icon>
-);
+const RightFromLine = createIcon("right-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdAAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBeAsGAAE2AiQDCAQgBYMtBzYb/gTIhofv/fuvtc9FdT+3fFtSBHIEBNmvyeTMSfBqUkbC1Kmcy3ko59NCFqSxbWl8DaC5el6BYLXUq79AeVnBAlQxrrWz9+UH6FZJyicZthtWBUAebzqpIL2evsOz9UvjB0M8RJJlAKIDgNV7dmz3RTe6Ed/9/y7xna0IiDWgEsiQYbgAy2QCw+Uq5HJBN/7/P/4HVgQQJTw2gRwFjuAsIAdJludjJrbqRTPfXS9qJ152X/+d8VLtlYERCtWwiFcH1aEAeHLArvH3D9wdr9Se6P8SUQul3Tfg5Xo9nvTJQXvi1TiesvTygFcHZfHKwJf6j+np9Pw0+rvT33nryzFFMebBB60tv2hsUR59TLe1Sqv7mKPlFo0vyrUPPjixfuuDD3qs2bzt0eYa92k99pjP5iv3WaP56G3N5mPVubX++ftXkSmPHi2vCr8DAsH7xeT/jrSX/dqrnsD3H/3ylznxReoBkF4SCLJp/09zML5wdgXAS3GLMXKwQLJHBvjUhlcECDUESEo1ATLDdATI1UwVoDDSfAFKNTtkIu8t9HeoU0nDNSqzwN1Urr+3qcIyX3ql/pGRTKCI8MRL3TDC6/eq2TNmVUuqZa6JvOHS6dJqW590i/Umy12nXXHZTU456ZybBvS67eHNLtngIesdqDLbDLNUlqiOq+fbu51y3Q3nXHG5nLNUdd+e5BZ/erJYCRjnuJAkIrX/6+XoqE0nIg==");
 
 export default RightFromLine;

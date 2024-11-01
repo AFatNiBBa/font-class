@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `door-open` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/door-open?s=light door-open}
  * @preview ![door-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/door-open.svg)
  */
-const DoorOpen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 480L96 480 96 86.2c0-7.5 5.1-13.9 12.4-15.6l166-38.3c.8-.2 1.7-.3 2.5-.3C283 32 288 37 288 43.1L288 480zm32 0l0-436.9C320 19.3 300.7 0 276.9 0c-3.3 0-6.5 .4-9.7 1.1l-166 38.3C79.4 44.4 64 63.8 64 86.2L64 480l-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0 16 0 192 0 32 0 0-32zM232 288c13.2 0 24-14.4 24-32s-10.8-32-24-32s-24 14.4-24 32s10.7 32 24 32zM464 64L352 64l0 32 112 0c8.8 0 16 7.2 16 16l0 384c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-368c0-26.5-21.5-48-48-48z" />
-    </Icon>
-);
+const DoorOpen = createIcon("door-open", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdAAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBfAsGAAE2AiQDCAQgBYMtBzAb/ATIhof/t+v7fW5V95pXNUaNpAhWBkXwhyI4lDMoSCDEPf/XfH7Pjw7w8xEcSkQsWqN0lPl8AgOM9vbitOFsojh1my9/EtaOiCgOFUM7huYW8vg0hqmRHkwf4aZ/aPyqi8skeQYgWgNg9poVy73zVXwV8VHjReIjSxEQc0AlkCFDdwGmyQS6y1XI5YKvotHQ/8CKAKIO95hAjjq2YR8gB0me5626tete1lrkq8tasa0oiyzu77Qmrpb3dkhllrILHe8rrrRfGfe0v0eKwvHhnLJFrL7aKeL+ILn3ON/h3nLNZkyUsSUEHxP3d7qvYxFZPJTWDOjzbOtnf+/90e6P9Or1DtZcUT76xAApbjW9WL2IM7X98I22tVlP9Pffc4+0uWKUr1q2/GqUas3bxV72tmy5d29R7HXvj18eha9ylOvnmTJr7WZHZR9/NgoIBJ90eqffllbT/m9WJvDNa3/+z09uvJNmpWfRTAJBNqwxzMY0CxQdQCLFaX3IFwWSdXJ41+buEyAUCJDUFQJkumktQK4wVICansYLUFdYIRN5k9DepgqS5o6BzARnQK6950HNNO/G69pHFmZ0kNCfvIQFLTR/VDV6xKhqSjUtKEzkkHRwarVsDDptDYNlo92OOOykXXba52SDHLc8dcohCxg83w9VRhthlMoU1XH5fvVquxx3wj5HHM7DTFXdDw1ymrcfLHYCzDHykkSkptcoDg9AAAA=");
 
 export default DoorOpen;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scarf` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scarf?s=thin scarf}
  * @preview ![scarf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/scarf.svg)
  */
-const Scarf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M214.5 16c-20.7 0-39.8 11.5-49.5 29.8l-42.9 81.1c-6.6 12.5-10.1 26.5-10.1 40.7c0 23.6 9.6 46.3 26.6 62.7L327.9 412.8l42.4-42.4L412.7 328l-66.3-66.3L208 123.3C197.9 113.2 205.1 96 219.3 96L296 96c4.4 0 8 3.6 8 8s-3.6 8-8 8l-76.7 0L352.4 245.1 371.2 229c18.3-15.6 28.8-38.5 28.8-62.5c0-13.4-3.3-26.7-9.6-38.5L347 45.8C337.3 27.5 318.2 16 297.5 16l-82.9 0zM450.3 461.7L376 387.3 339.3 424l74.3 74.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-79.9-79.9L127.5 241.8C107.4 222.4 96 195.6 96 167.6c0-16.8 4.1-33.4 12-48.2l42.9-81.1C163.4 14.7 187.9 0 214.5 0l82.9 0c26.7 0 51.2 14.7 63.6 38.3l43.5 82.1c7.5 14.2 11.4 30 11.4 46c0 28.7-12.5 56-34.3 74.7l-17.9 15.3 65.9 65.9 5.7 5.7 74.3 74.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L424 339.3 387.3 376l74.3 74.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0zM2.3 402.3L120.4 284.3l11.3 11.3L13.7 413.7c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3zm48 48L168.4 332.3l11.3 11.3L61.7 461.7c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3zm48 48L216.4 380.3l11.3 11.3L109.7 509.7c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3z" />
-    </Icon>
-);
+const Scarf = createIcon("scarf", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABkwAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCdwsGAAE2AiQDCAQgBYMtBywbcwXIjlQ1fzz8v87svi/ZSTwOssKMHdAiUcU1dXO25ArY5es//9fUi+dHB1gAGE3/jqPobuFBHXwD3/PGeSWlz4azieIs5gZG1vHGGjVsLiGP9+xUIt2TvsJN3ofGj9q7TJJlAKIZAKatWbHIx/VRH/FV7Q3iKwsQENNBIZAhQycBJsoEOskVyOWC+qjVtP/AggCiLLhaAjka4Ga8DshBUsrzgWOrQVBXapyvTuZXNrzed2Xc7YF+q2KKAa+eeWfbu9rWxR2tb29ViRFan3iu64UOafeOrqxbvWr1RMO/o9XtbYRmPtvlQsc18dKYunhjEAvvcf/YngC0hhItZfualWtax8ooo9zZdpL++u7PNnv2525f7f7K1y+p9l/q1jbZPe+/6V7PmD7NNdfaM7bvw4tsLZe3LnL5siHezlvf0n+Zf6344YN580NtJvM2Ro1asWLJEp+855dKhzf7LzXz4eUenjlgmSfaVRt3MW2aWRRGHFCNjyacCoL3nDqlOcioUTX1fCAQTP1u9NwtTSf+1rAuge/f/fXvfMfampTSs2gogSAbWBtoYwKgfcU++nFad/5NAsnVSoJ3rbpTgFBBgKSsIkCmo2YC5CoGCFDSxSgByipWyETeSGhlU00kVceIzGhniFwrrxElE30aK2sV2TcqfGHCL2Lq7DY6a1gxbPDQYnwxmVWKnx0HuycUZL3vab2qH19otyMOO2mXnfY52cKPW5Q85ZDZCJvlhwrDDDZUYbxiceG+urpFO+6EfcDh5VEmKLa3+jqNG/fjo0mA4U8XShmRSid2bDu+GwA=");
 
 export default Scarf;

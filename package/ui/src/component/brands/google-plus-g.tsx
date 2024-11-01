@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `google-plus-g` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/google-plus-g?s=brands google-plus-g}
  * @preview ![google-plus-g](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/google-plus-g.svg)
  */
-const GooglePlusG: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z" />
-    </Icon>
-);
+const GooglePlusG = createIcon("google-plus-g", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABZAAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBTgsGAAE2AiQDCAQgBYMtBzQb0gTIvgxvTBFfhaAKRWoMG+HDNzi75eIoUGbka9Tymovnv19j576/u5g2T3jShDeylsyQAkljh8Z0hkoJ+B9j831UE/4huSdr4gkSU29iIVsUr7tFa57q4pIO3tzsPB7wQAZ+65Nnqcaj3tU64B/8ay+wQNZqEJSYMy2xysssARYZ0+z4vQFScLdNnXr+59mAbxS0MW1pcEywPdrzCkSsV99UoVixVlGsuatN5iHaT9JSluTxuzx+rtDlW3rqo2bAc/3Q/FH2UPoGgMwCAC4f2lU8/R4f/5NPFgRyBVhHaGhYRuCEULBMZB10OuEHlvwHAgEyQHddoEOHa3AHoAOlOpHbpOzVot6EWDF88Z3t1VuczVde7eMz2t+4UKST+LhwX05rUYRI2Q0yHsAEoCcUrhvdzadzM+gPgHYZ25rp3lFEm3fd16pxRHCk28o0J2x6Wl+8jVlFdw2GLaSlOCdvA4Lw1aVxMv+FEAB+h7/b85x6qhuMKhDa3r/6tWXKlLOJgP3KGhd9k6BcEtC9TnolIMYRUAbjApolOgQ643YR6K1KIDAYd0MonRyxaDBgmfQIm2PrsLPoFvZOPPuDxTQ8cWjgfnPJFQvKW1wwzFle5joPESYf53hbdS31PHQRY+bNWTFqxKQVQy2pRqtmVTyk7IdYRFAYy+Lj6vl8z6glyybNmyun5PB9023Nn/aQIaC0+2KlSKnfjRLAoxYYAA==");
 
 export default GooglePlusG;

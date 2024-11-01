@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kit-medical` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kit-medical?s=light kit-medical}
  * @preview ![kit-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/kit-medical.svg)
  */
-const KitMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 448l320 0 0-384L128 64l0 384zm-32 0L96 64 64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l32 0zM64 32l32 0 16 0 16 0 320 0 16 0 16 0 32 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64l-32 0-16 0-16 0-320 0-16 0-16 0-32 0c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32zM480 448l32 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32l-32 0 0 384zM272 144l32 0c17.7 0 32 14.3 32 32l0 32 32 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-32 0 0 32c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-32-32 0c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32l32 0 0-32c0-17.7 14.3-32 32-32zm0 32l0 48c0 4.2-1.7 8.3-4.7 11.3s-7.1 4.7-11.3 4.7l-48 0 0 32 48 0c8.8 0 16 7.2 16 16l0 48 32 0 0-48c0-8.8 7.2-16 16-16l48 0 0-32-48 0c-8.8 0-16-7.2-16-16l0-48-32 0z" />
-    </Icon>
-);
+const KitMedical = createIcon("kit-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABmwAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDDgsGAAE2AiQDCAQgBYMtBzIbkAXIHoVx41PiIIg4lMs2BSKrvVbx8P3a79y3gohnsyQWiRrJREL7NBrNKhFPwULdoZLJe99+bWb3Y7NfI6RBXNslxJtLE0tHE/Eolq6hoYl1HrY47B54gTaApIlrnv/5U3vRP8GjRONv00waSLalwM6rvWlCUWATxe1OezhQ+5Y0ZJb0q5Xjsoc83mKOF+kBr7ihL40/I2ZI8gwAohsA2Dsrd4HnG6uI1/qK+HQIBMQ+wDREhgzjEGySAuM000AuF1RY1/4/kEEAUQK+bwI5mvGED0AOkjLX/JxRJytYFYZW1VaQMnRDoo6CpJCEbi5AigktKlXX1moczqm/iJU+CaH2oz0LkLF+5+HNqlXNZhklTnqJCEVdw+tjINqQGA0uECHD7SVEJCazrFQABJ2nDReVcMTlYIRLnhr0ZJ/9zby2vGrsIn3CronpiUQG8/rNApjOU9vMnh3HoV3k2nZ4pxrb42Je85v4WezsjEN+mL6ES30O1nyWsATfJrWYFb8eIBBcvc/9nlub/81KAPze//+Di+sKu+mpaJZAkM3VcxrSLsCzEYimGBEkDDGQPLr7W213K0BoRYCk1CpAZowNQa7VLASFSakQlFodkSL3g9CvsRJJu0sis2GUyPW7IAqbHiKl/sjsVbY2+beYUcaB0kGcGJfAWTxNKooJirE5m9VmxEgoioSd0KJXjyHNmrQbYtAAV3xYtzIJLPVDLFGcBCwLb2fuN1dpNmBQu149uZ9sfN4eYUSuHAk2ATlXrEwSkVTnxVDs4wUA");
 
 export default KitMedical;

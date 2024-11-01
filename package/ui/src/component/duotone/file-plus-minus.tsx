@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-plus-minus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-plus-minus?s=duotone file-plus-minus}
  * @preview ![file-plus-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-plus-minus.svg)
  */
-const FilePlusMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM112 272c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16zm0 128c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M384 160L224 0l0 128c0 17.7 14.3 32 32 32l128 0zM208 208c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48zM128 384c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0z" />
-    </Icon>
-);
+const FilePlusMinus = createIcon("file-plus-minus", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABnQAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCVwsIAAE2AiQDCgQgBYMtB1obgwXIjpOlZl4qHr7X+Xaunuz5kX+QFWCsiKAiJVkgqhirdItN4dmWsHT+Pz9MXO78z58ecJE/yphbvwLc6zwLJOCxPE+khN40A0vdFC3oIUifHrIF6WRWj8/uuPaCPK6mu9TIns9+xKP1fwDjZ33dRaZDAhBdALBk68bV7jSjmcWPrU+JH61CQCwFpUBCwgAB5ksCA+RK5HJBM2uhGS0lAUQdf34CdbThQTwDyEEmSXneKNsHDenYqHXMtzRqxdEtm7eIqufTjcamZ3o91UMU8VSPp3s2Qjzd89neEY14tvczvYqITRoN2PTiuIh3RrG2uiOL50a/Obw9Xh/7dr+02ToTu3VLyNv5oW93efvXIT8e+dGNwa/y40qn++7rVH0wqVOz2WmyyYRoZFoErbUfFKci7VXRla6vvWY2UOoIDHiNDhfV2ed7o16tIel9IBD8/9V9d+1t/r9tjQz89PXvf+cfktadqLK30SYDQRrfGm9XVBCVAABkccXQqJxDIFkl4W9t94wAoUCATF0hQNJfFwFyhXEC1AwyQ4C6wkZJ5B2EHnZfcKbdeTiZ6Rqc6+ETuGa+b6q6HpGcknEp5p8wcSUCK46VUyZOLueWjz2N9TOq7M4rX5ujr+SZMeGpI84645LDDjnuEkAXrG5ddtrKEbhCjUpTTDRZaa7SPLwXt1B1wUXHdd6+zzzl/nS0K+PlY4KTYdypTiSJyCL1/gKkCU5dTjh9/IywJ3xhX40/zgAA");
 
 export default FilePlusMinus;

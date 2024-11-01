@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eraser` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eraser?s=sharp-solid eraser}
  * @preview ![eraser](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/eraser.svg)
  */
-const Eraser: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M293.5 416l-5.5 0s0 0 0 0l-101.5 0-80-80L229.3 213.3 362.7 346.7 293.5 416zm90.5 0L514.7 285.3 560 240l-45.3-45.3L381.3 61.3 336 16 290.7 61.3 61.3 290.7 16 336l45.3 45.3L160 480l160 0s0 0 0 0l192 0 32 0 0-64-32 0-128 0z" />
-    </Icon>
-);
+const Eraser = createIcon("eraser", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABVQAAAHdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBMgsGAAE2AiQDCAQgBYMtBy0brwTIjtRG+UVWEg//P+33+9xkZkFCL6GU3iWuOSzP4lC4Llwr6i/k11O171OnngfXAHwQSTYmuEAWSGjO8wjkPJ6rTfBJ04q1imJ3Z2uxQ7RLSYuM5Jd2vI6Qx+fsvhrpefqEx+lD4z9d3SdpngGINgCYs2ndCm9+xI+Ijw3ER8sQEHNAJZAhQw8BpssEeshVyOWCH9Fo+P/AigCiju8ngRw5pmIxIAdJyvO2fcpay3xjWSv2FWVxJ+5EERtjU2yI9eWm9ZtmxczYiOT0WK/O6OllTGxRlhFF36Y2Tf/6fDr4yYDedTwEDli1ypWrHjwwf/7Wu2x88klyGf7799R793oB3lSzVUAg+FA+ermr9fT/m5UJ/Hr9n7tdm8aPNDo1oZkEgmx4Y7jtabY22qTRAgCQ4qK+yhcFkrESftcWnggQCgRI6goBMt21ESBXGCZATS8TBKgrrJOJvLnQwY4KkhbOgMxEN0Cug1egZrq3Tl2HyCxIeH/h/5a6UEIL5qoxI0dXU6thqIhGwYXxtGpZG3yRSkNgo4NOOem8A/Y74rxgz1rhX3DCQg1f4IcqY4w0WmWqaju5Xd/ogLPOOeKUk3HKNNV5e7CLevMQWCIBxt49R8FI9QNn95w7cBYA");
 
 export default Eraser;

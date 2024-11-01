@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `light-switch-off` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-switch-off?s=light light-switch-off}
  * @preview ![light-switch-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/light-switch-off.svg)
  */
-const LightSwitchOff: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M176 464l0 16L64 480c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l112 0 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16 112 0c17.7 0 32 14.3 32 32l0 384c0 17.7-14.3 32-32 32l-112 0 0-16c0-8.8-7.2-16-16-16s-16 7.2-16 16zM0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 448zM176 344l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16zm-48 24l0-96 128 0 0 96c0 8.8-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16zm0-224c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16l0 96-128 0 0-96zM96 368c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48l-96 0c-26.5 0-48 21.5-48 48l0 224z" />
-    </Icon>
-);
+const LightSwitchOff = createIcon("light-switch-off", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkwAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCXwsGAAE2AiQDCAQgBYMtBzcbZgXIngXlGPpaTVYOI0fcVq3ke8shImzJZu+PWlz3oKqiC1stwiIcsnaHRmksjm6JR+LTT9177f7ZFvWvir1s66pYa3UpsEk6NGyJQ9WxhSbKAQ/9zdfHsWvzWGSxZBaFHHVRXId81f/7n8s9v+dHC+T7iR/KXq1Na+jezxNI8PJ8igaWaQASc7bNsMCGIFwiIq6oXuSH7R22v0LNGWsJUh7FD5yXN82vRg6K2gAg/QDA2k5fEmWPXvjzfyEvdhDIOoBJRIMGowgW+QWjAiZBVYUv/s//gRIESCvk5xRQ0Y4r8AiggqK1BupbXVcrVFALDCpBMQDqzHXpZn6mq7xSiNwW+YpUeFM4lKRyWwqSbmnng8WZfOo1PqwvnZ+l5XlQeTs91r4hRSj5yi0F7dwpOol0EUMVlhjzVSadAiyyv1gwvLBX+FDlO7JUuoPgbW7XiD3754efxR9Ow/TmNvSDQ09VyjZM+teXPnHDPA0QFhh4wpNliRQgc+xcktLm6bo3ier8TVMuxa6u7qLhFXcac+DEn/8Xb43TaHz79XtgiG8HgvA69Xxr9H4R5QP8vL2hfYv+y0yJZ2hXQGim/43xpED2CQCg5BCxpCAojtBK0t3urLXoJELRqhMaI0yoOk1Bi3FtnFLdUJGpUaSHTQQouu1BY8EFVMNeocWi93Kr4fj9UvAq4bcwNYFI/Jxsqm+U3fI41EVX4/Jxj1S7lYdpqYouYtGWTfsWzFuxD9iuZO3AhsQNjfsgqUm9RlI3aZ68qoMQ27WH3F62n9JDvp+udHjfXEUhH6Gd0VEUUkxXNeq+3ULd1uIiAAA=");
 
 export default LightSwitchOff;

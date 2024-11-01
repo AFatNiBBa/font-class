@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scalpel-line-dashed` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scalpel-line-dashed?s=regular scalpel-line-dashed}
  * @preview ![scalpel-line-dashed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/scalpel-line-dashed.svg)
  */
-const ScalpelLineDashed: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M493.8 122.6C505.5 109.4 512 92.3 512 74.7c0-37-28.1-68-64.9-71.7c-23.7-2.4-47 7.1-62.4 25.3L206.1 240l-.4 .5-5.6 6.7-12.2 14.5c-4 4.8-4.9 11.4-2.3 17.1s8.3 9.3 14.5 9.3l19 0 8.8 0 .7 0 96.8 0c13.7 0 26.8-5.9 35.9-16.1L493.8 122.6zM268.9 240L421.4 59.2c5.1-6.1 13-9.2 20.9-8.5C454.6 52 464 62.4 464 74.7c0 5.9-2.2 11.6-6.1 16L325.1 240l-56.3 0zm-99.5 80l-4.7 4.7-160 160c-4.6 4.6-5.9 11.5-3.5 17.4s8.3 9.9 14.8 9.9c18.1 0 84.1-8.4 145.9-33.1C222.5 454.6 288 410.9 288 336l0-16-16 0-96 0-6.6 0zM248 464c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0zm128 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0zm128 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0z" />
-    </Icon>
-);
+const ScalpelLineDashed = createIcon("scalpel-line-dashed", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABgQAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCEgsGAAE2AiQDCAQgBYMtBzobHAXIhofn/fO/tU9u8qTkg/ebHHS0OndTQq1UTub/ms8v7egAv9EhReJCuzWiuMH2vGnv+6rBD2w2UZxR62bT6SFGKDRoB1l8HTcrku5JX+ImRVPxs64uJykWAEQrAOZsWrfCxz/EDxFfVN8gvrAMATEH5AIFQHoIMF1BiO8gkyOTCX6IalX+D8wJIEq01yWQoRaHcT4gA0kpy7o1VRo1b0OxKdtoweoPPRf3Dn124JuD14coU+vtlTsaNNt1nTetx8a7Kk90vbi8PurXlzs7bP6GynWT3pr23qyP+kXG1zze5Z4BDfFU93sH1jeEn+z7bOuzv/b58uCXfp1f7t7Y0fHq3Ote/UrY4EObJk+u7zja6fvLb//h3Lte16OufnlsuW5j3GvyvlXj+RUPPeTgkMU3t9x51Z9/rl3TuVVr55vWVCprRrObuTh8HAgEH28bMX9Xy/R/axsS+Ond3/+TT6z+X/04zU7PolYCQWF4dbjtaXYJSV8xwI44X1/MMZDstvS02uhOAUI9AiQl9QIUdNcqQKbeMAGKepkgQEm9dQoiqxPKdoQgaXQGFEx0AciUvQaKpvvEX1KOwh4n7C/C9V7qwjiyYFY+ZuTofGpemOWLOxEnuqfltXWDzydVQwB10CknneuA/Y44N0aftSJ0nhMWllEL/FBujJFGy02Vty6c3r7RAWed44hTTsqDTJP3bxrs/PLGQ2BMNMaxEpJEpI6jXVOnDxwf8R+KuP17zjl8YD8AAA==");
 
 export default ScalpelLineDashed;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-burst` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-burst?s=regular car-burst}
  * @preview ![car-burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/car-burst.svg)
  */
-const CarBurst: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M197.2 20.7l30.1 56.7 63.1-11.8c1-.2 2.1-.3 3.1-.4c-3.6 4.1-7 8.4-10.2 13l-29.3 43-35.2 6.6c-10.3 1.9-20.7-3.1-25.6-12.3L176 83.2l-17.2 32.4c-4.9 9.3-15.3 14.3-25.6 12.3l-36-6.7 14.6 33.6c4.2 9.6 1.6 20.9-6.3 27.7l-27.7 24 35.4 9.6c10.1 2.7 17.3 11.7 17.7 22.2l1.4 36.6 29.5-21.7c1.9-1.4 3.9-2.4 6-3.2l-19.5 72.7-24 17.7c-7.2 5.3-16.6 6.1-24.6 2.3s-13.2-11.8-13.6-20.7l-2.5-64.2L21.6 241c-8.6-2.3-15.2-9.2-17.1-17.8s1-17.7 7.7-23.5l48.6-42L35.1 98.8c-3.5-8.1-2.3-17.6 3.3-24.5s14.5-10.3 23.2-8.6l63.1 11.8 30.1-56.7C159 12.9 167.1 8 176 8s17 4.9 21.2 12.7zM536.5 148.5l-137-36.7c-16.4-4.4-33.8 2.1-43.4 16.1l-31 45.5c1.3 .3 2.5 .6 3.8 .9l237.6 63.7c1.3 .3 2.5 .7 3.7 1.1L566 184.1c-1.3-17-13.1-31.2-29.5-35.6zm77.4 32.1l7.2 96.4c15 22.2 20.7 50.6 13.2 78.6l-12.3 46-6.9 25.7-5.5 20.7-12.4 46.3c-2.9 11-14.2 17.5-25.1 14.5s-17.4-14.2-14.5-25.1l12.4-46.3-6.7-1.8L232.9 346.9l-6.7-1.8-12.4 46.3c-2.9 11-14.2 17.5-25.1 14.5s-17.5-14.2-14.5-25.1l12.4-46.3 12.4-46.4 12.3-46c7.5-28 26.6-49.7 50.7-61.5l54.5-79.9c21.1-30.9 59.4-45.1 95.5-35.4l137 36.7c36.1 9.7 62.2 41.1 65 78.4zM554 284.3L316.4 220.6c-25.6-6.9-51.9 8.3-58.8 33.9l-12.3 46 330.3 88.5 12.3-46c6.9-25.6-8.3-51.9-33.9-58.8zm14.3 53.3a27.4 27.4 0 1 1 -52.9-14.2 27.4 27.4 0 1 1 52.9 14.2zM310.9 240.3a27.4 27.4 0 1 1 -14.2 52.9 27.4 27.4 0 1 1 14.2-52.9z" />
-    </Icon>
-);
+const CarBurst = createIcon("car-burst", false, "data:font/woff2;base64,d09GMgABAAAAAANYAAoAAAAABuQAAAMLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDVwsGAAE2AiQDCAQgBYMtBzAb1wXIngPuziKgpf+44BCLxwhFiGHYMIiHf9b63Tczu9+0gSd3y0SXTohukUPCm7v///v79vniEPe9AVRlNGl1wGkypDqhy57fac97Rv5DJRKiGnR9ZyUQu6ObRw8YhXvgP+BTIFO4bGngk8sC26ADmzpVMygUCuCDQMayhEI5H9OCc5V7Feh5tzXWsaxcXEIFhjJ0d1o7JGiPQywxkuNROz5HyOJ37FFyJEe1DexOHxWvmeonkUsBRCUA6Ds5JQ5Hz+JZxL3/M3FPDAiIvoCGCCkM1EWgB6HA9xFpCDKZ4Fn8/0/8D2wIAUQe/dAEZCjETfAYQAYS+SwbVuvpqdUlubJsUolZPL2t4xURu1/4beFKvrECZ3KNEe5PljFaOJJfjNaW5BLjlBoyRjAGnqJjwxglRB9jNF6GxRDjflMWTUpLX5NcadRv/DDWkqcpnjYxPW2XtSCTMAmLmOBrrTUZRXGAUX5ofsyIW6yztHi6zTr1hodbqSyoaCxNI/i4kWIEYzSOWjlaFB90ZIthbDW/lWz9jbZsg7Mzj+iZXtEJxMRBN2CPdsXAzgh8K7jXaeKnMsNDXEP9SI3Wr98sa+DJa0t9woVjRmyfvF/7UlserRjfNczhfqvmDxHxtjdQZSc4H54boALzqHXbKywR6l5SY8RdVOaImoIi++ZWM9w9HLjg7tiA+j9SLSWH9VqRS/eKt9jsysnk/R9A9GTs638699/x95w9Q+LzfY8RFL2keHrfz7j31vcCBIK/D1hQUDF9LSxJwKry/lu8Tft/WduhjQqFEhCkLf5rcpNFgH6PUQLpSWzCwywFEhc90KeWOiRAKEaARF6xAKk6dBDIFGuOQE59fgjkFRtPKLIioVZeBYlSa0Gqkw6QqbUHcnq41PNqQ6jTjEYyX8rEcI6GTWO2uycLZtNAYdWU8qMhbFuW2m3BCbaiXIN6rcqUqtLKiGZxVps64RIe5osYL+48McHYcXwvpqPerEXVmDmHTBKC3Vcdtcv1TjALAaCdNlB2YyRF8+c2u0Ubm1taAQAAAA==");
 
 export default CarBurst;

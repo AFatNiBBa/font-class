@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paw-simple` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paw-simple?s=regular paw-simple}
  * @preview ![paw-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/paw-simple.svg)
  */
-const PawSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M192 80A48 48 0 1 0 96 80a48 48 0 1 0 96 0zm-.7 146.1c7.1-11.3 19.4-18.1 32.7-18.1s25.7 6.9 32.7 18.1l49.2 78.6c8.7 14 20.9 22.8 32.2 28.1c17.8 8.4 30 26.4 30 47.1c0 28.7-23.3 52-52 52c-11.1 0-21.2-3.4-29.6-9.2c-19.6-13.6-43.8-17.6-62.4-17.6s-42.8 4-62.4 17.6c-8.4 5.8-18.5 9.2-29.6 9.2c-28.7 0-52-23.3-52-52c0-20.8 12.2-38.8 30-47.1c11.2-5.3 23.4-14.1 32.2-28.1l49.2-78.6zm-89.9 53.2c-2.8 4.5-7.1 7.8-11.8 10.1C55.6 305.4 32 339.9 32 380c0 55.2 44.8 100 100 100c21.2 0 40.8-6.6 56.9-17.8c17.4-12 52.8-12 70.1 0C275.2 473.4 294.8 480 316 480c55.2 0 100-44.8 100-100c0-40.1-23.6-74.6-57.6-90.6c-4.8-2.2-9-5.6-11.8-10.1l-49.1-78.6C281.6 175.4 253.9 160 224 160s-57.6 15.4-73.4 40.7l-49.2 78.6zM304 128a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm144 64a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 240a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const PawSimple = createIcon("paw-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABmAAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCQQsGAAE2AiQDCAQgBYMtBzEbQgXIHoPjbolhKEsUTS4vlDLEjKAcy70kBQJPpFhXotF1lRUGURke/8KXbI34n9/fez494Q5C3RqhRKDR8YUyOs2Bfv7nms8v7egAPx7RIUViafQavIMbbM+HjVG0N4ETmyjOonU76fiQGxTa36FEa1SpId2nA5yau+PfgGKQ1GSwgWiHtGJz38kGtn5wWOD2q/NExRYQEJsAGIdDRsYwHFhBEBhGNA4URfAT///BfyACAUQt4HsJFNTjCDgGoICkthBZSJFFWQaJRXSVl9G9WpQHFPvEmpX6VQYlnVtV+sVdcLkLpPOF6hRLREYUB1Tr6AO9DRKdbZ6bc51Qv7eb4Flt2KhUo5FR2jOstKgxKlsg0aLcIOKKm1ie03R241prkcOaeLOSy8Id/o13yI9wR27lDkIPfMY1xmZlxdKDFML51BtTurZw3rfOFbm7tectPWEnTzs8+9svEndd9FzP1tPQOLDt/V2GtlapQgU3wsI3+Q9V+2s0mff3tsBlXRsYxLBGPZu9my6Li7poorINJipnmj8HEAjOHgd1/DiWr9QmPMDfy/1b9Ob/VxWLrTSCegkEefJfk3dsGSRTxY6EkQry2GIgOXRW72l2AwFCI4I9szRmDNkQLhSNJqDGKKM7ajXaRhCFBqGbD4Kk2QFky3Kg6DYLNVZs52t1B+FDFD8j8T8wzbqIWG1Cetq6yBy1liXSt8WrcQs0WFdNZW1qOAuh4sRKFiJYhOQCncimlCKGdRdl5YcQPdp0IebQ5NrV465CJEoSIU6sMYsFtLytKrW7txosPJt13s4kEYkeH5Cm9SkDAA==");
 
 export default PawSimple;

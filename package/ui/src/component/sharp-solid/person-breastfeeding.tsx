@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-breastfeeding` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-breastfeeding?s=sharp-solid person-breastfeeding}
  * @preview ![person-breastfeeding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-breastfeeding.svg)
  */
-const PersonBreastfeeding: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M144 80a80 80 0 1 1 160 0A80 80 0 1 1 144 80zM269.2 443.8l23-32.9-52.8-8.8L192 354.7l0-66.7-24 0-40 0 0 53.3 0 26.7c0 .7 0 1.4 .1 2.1l69.2 34.3 43 21.3-42.6 86-43-21.3L26.7 427 0 413.8 0 384l0-16 0-16 9.6-12.8 96-128L120 192l24 0 176 0 26.2 0 14.2 22 72 112 17.4 27.1-18.5 26.4-56 80-27.5 39.3-78.6-55zM276 376a44 44 0 1 0 0-88 44 44 0 1 0 0 88z" />
-    </Icon>
-);
+const PersonBreastfeeding = createIcon("person-breastfeeding", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcQAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBdAsGAAE2AiQDCAQgBYMtBzsb/wTInge245USoo6JRfMcxcPHXPl+kt0DLHHKjArQ1wErIAekiFyFuqlFVdstQmYnHJKnFls7OBrQK7PqqVM14zwUwDcK2li4JsgC2/M8AgGs1otLJLWC1bQCVvOWGd0jsk+PZLIm6fFb9Ph0gyyupRRIriRxoXxo/NTKeRIVKYCoB8DE5Yvnet0QDRHfSk+Jb2YjICaCXCBFirYCjJEKtJXJkckEDVEqpf/AnACiSM6cgAwFrMYOQAYSaZbVjKypKtRky6oKlatvjf6R2y5HzKhrz/59+k+LcRFRWSnEaUtjZCyJUbEsuoVcaBHLo01UVbUK2+wZPQD1uXf53TbR2rtVS7WyrnhQ37871oX91duPHt1eXY3juzfwKWb4Y7KWPYZqI2JKR7f1XOq2U+M80l69etetP+W7ll+bvl9rvQyf7455w4qTT79/+vT9aXodCAQzVxx5uL5uzL/yqgT8ePX3N35GSq/jbfIA5RIQpH1KfayJ15T+x1sBAEjimE7xGoHEYil512oXBQiVCJAoqhQg1Ua9AJlKvQUoaG+oAEWVFktFViE0tbaDRLWDIDXMCZBp6jEoGOOTV9Q00hCjA4T+4CVM0+jUo3xgvwH5qHyaaUzUkHk7Ol8WexxDpyddtc1++xyx1RY7HVH4IXPDo/aa5mFTfVFuoH4GyI2Sb5ePwjI2DjkM0qb3IXtGy8+7PRzzx3uSkhDCQSKJhEiaRqTVd9Oh68q8tg==");
 
 export default PersonBreastfeeding;

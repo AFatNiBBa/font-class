@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `landmark-dome` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/landmark-dome?s=light landmark-dome}
  * @preview ![landmark-dome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/landmark-dome.svg)
  */
-const LandmarkDome: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c8.8 0 16 7.2 16 16l0 16.7c87.9 7.2 159 73.7 173.3 159.3l18.7 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0-32 0L96 224l-32 0-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l18.7 0C81 106.3 152.1 39.9 240 32.7L240 16c0-8.8 7.2-16 16-16zM99.2 192l313.6 0C398 119 333.4 64 256 64s-142 55-156.8 128zM64 352l0-96 32 0 0 96 80 0 0-96 32 0 0 96 96 0 0-96 32 0 0 96 80 0 0-96 32 0 0 96c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 384c-8.8 0-16-7.2-16-16s7.2-16 16-16zM24 432c0-8.8 7.2-16 16-16l432 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L40 448c-8.8 0-16-7.2-16-16zM0 496c0-8.8 7.2-16 16-16l480 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L16 512c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const LandmarkDome = createIcon("landmark-dome", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABggAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCLAsGAAE2AiQDCAQgBYMtBzQbMAXIjsK2nTNOE8JinDDwQsXD/6/9b58zd76IN0/fEa1E0RJEo4VCMo8kMlTiryzqLCIvk+f/31/dN2a989MYjQ3Ewm3bng5FtqkrNqfGtPN/Ob53tukAv5/4oezZmjZBojmfJxBguKangWSBZZqAdTTvpUEK7RaiHlDiZxgxyTf5ief+h0bHrA1SqQDECABw7momBs9NNBFH7QVx5AIQEOcBVhBUqLCAgJPoAgsYVoCiCJpoW/EfiCCA6BK+NkFBNx4BzwAFpLqU5YGNwcH+erBc6a/7br5QAvl96iHXH9XGXQVv4OXUgZoff848FSLQ/uzgwODX04/RXyfvMRuiPxgfjj+KCELNakfYHrKKi6mpZPqj+ex/ap8a0ahg3en0nx0HVhxqRjYzFtP45/51zjNHxd8/+cN1VyenR0enJ1fUYTMsITQlNYS8aOryB40nWWk1MdR8r0SsPuZQI+LngUDw6eCr3BCf/N/Tn+Dvj79/+TPSPqf8hh4JgmqrNaomSAIAkPEQlRBItzCF7zrgpQChDwFSlz4BKvMkCCj6bCKgtsSFgC59LqKL0itMqDUgDbgDKvvWQTHhDNROeil3mYgK/ETgER/+0qJdOLIKbWYr+nG2oZIgireLAdzsadfkgA5vhb55c1b0dI2sdKglsdqqWdElMuKLkI2ZFfLDw+2HWr5TXrJsNG07vkwAXp/RWlser8MhTci4rS4lkYM3Kg+otumHtgAAAA==");
 
 export default LandmarkDome;

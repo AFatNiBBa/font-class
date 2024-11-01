@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `child-combatant` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child-combatant?s=thin child-combatant}
  * @preview ![child-combatant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/child-combatant.svg)
  */
-const ChildCombatant: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 64a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM112 64a64 64 0 1 1 128 0A64 64 0 1 1 112 64zM96.9 222.5L47.1 315.8c-2.1 3.9-6.9 5.4-10.8 3.3s-5.4-6.9-3.3-10.8L82.7 215c18.1-33.9 53.3-55 91.7-55l3 0c38.4 0 73.6 21.1 91.7 55l49.8 93.2c2.1 3.9 .6 8.7-3.3 10.8s-8.7 .6-10.8-3.3l-49.8-93.2C239.8 193.9 210 176 177.5 176l-3 0c-32.5 0-62.3 17.9-77.6 46.5zM104 280c4.4 0 8 3.6 8 8l0 188c0 11 9 20 20 20s20-9 20-20l0-84c0-13.3 10.7-24 24-24s24 10.7 24 24l0 84c0 11 9 20 20 20s20-9 20-20l0-188c0-4.4 3.6-8 8-8s8 3.6 8 8l0 188c0 19.9-16.1 36-36 36s-36-16.1-36-36l0-84c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 84c0 19.9-16.1 36-36 36s-36-16.1-36-36l0-188c0-4.4 3.6-8 8-8zM456 146.1c-4.9-2.9-8-8.1-8-13.8L448 16l-8 0-8 0 0 116.3c0 5.7-3 11-8 13.8c-4.8 2.8-8 8-8 13.9l0 32 0 192 54 0 2 0 56 0 0-16-48 0c-8.8 0-16-7.2-16-16l0-26.7 0-56 0-13.3 0-96c0-5.9-3.2-11.1-8-13.9zM416 496l72.9 0L455 405.6c-.7-1.8-1-3.7-1-5.6l-38 0 0 96zm56-96l-2 0 6 16 27.9 74.4c3.9 10.5-3.8 21.6-15 21.6L416 512c-8.8 0-16-7.2-16-16l0-80 0-16-16 0c-17.7 0-32-14.3-32-32l0-144c0-17.7 14.3-32 32-32l16 0 0-16 0-16c0-11.8 6.4-22.2 16-27.7L416 32l0-16-8 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l8 0 24 0 8 0c8.8 0 16 7.2 16 16l0 116.3c9.6 5.5 16 15.9 16 27.7l0 48 0 44.5 0 3.5 0 8 0 5.3 16-5.3 0-56c0-8.8 7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 84.5c0 6.9-4.4 13-10.9 15.2L480 325.3l0 10.7 0 16 16 0 32 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-40.9 0L472 400zm8-91.5l48-16 0-84.5-16 0 0 56c0 6.9-4.4 13-10.9 15.2l-16 5.3c-1.7 .6-3.4 .8-5.1 .8l0 23.1zM384 208c-8.8 0-16 7.2-16 16l0 144c0 8.8 7.2 16 16 16l16 0 0-176-16 0z" />
-    </Icon>
-);
+const ChildCombatant = createIcon("child-combatant", false, "data:font/woff2;base64,d09GMgABAAAAAAPIAAoAAAAAB6wAAAN7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWiFIwsGAAE2AiQDCAQgBYMtBzYbqQbIrgdsMKZB9gcsA3BD2dqWcdnL2H1jFuE7/EUWRKUre3YllbQ6kJ9wzcjymQDyd8QZZpw5Mqs+MkQYHzjhRmHrIHL//7d5HzAxa6tiIWpULZnTSROTvNJ+6CNm3F+aUMITtvl247f6VgQ2zpH8c3JdqBXk4raS6AGtSz2jwOpa8fh/xQL8+8vpGcsShCH5DiPwSHP3mJ9jjSH3jkcSj7DsVq2hu2V9XY2W9V9tO1P4h/hLqfgwkWbH74EjnxjigrquGODs6pfKL1wcgkJrAAAkAgAABk6fPJYXR4nIuzyQd+QBAZBBAFgE0IAGqhAA+qARoAoHCzg4CCTO3/wPDEIAQDyIp7jKAUKQtiD9gf1hoAgcJ51u1rNx2Gug1bhpZ1romtk3xqPd4rrf5zOrj62/+11263U+tThl+pRLurCK3Gz+FI2cbHpPJblcNNOyGAShlhNGidDlALEkGkwqhFBxNV0t5V21r2gGqWTBJFdKZh4IMvXgYDbmTjEhSBgiqaQlKtxfUg1NOI0hOeVMN6EpltA6KFiM+HHtL13aCUXkZinIQkvTaKLHLpdDFhCQPBrxLxVlLGEIKXW5e7y7GQwFVpEMph0x1MDpfUyju+7zx57hP+p1O3euM3vRDbr+d2Yoc6djcwl07U9ulm/jQ4vVPGr27P5wE2w2eVHX8dLHVyjjUT6m9+92vScclU+heOLE4uI19ISygFdp3Q0NN+osInsKyF4+//BTxfh+TBDHgeWFkr0iOpBQSQ/SLOA5mrdG0us0rKF0MxZ07yil5lM5khZDu6myJEwgIiJz7FhHe8qI36G+L0GEzwLPW+DbpDHfowNt0fi4/JMmk0RImIq5OAAhEZEGjjiBlvJ6npIlET34hf9xunT+4oo6p/wp9wwABBCY+L4vzs/2+V9VANTv//HZ/vxY9QF8FAACuk2eOWoANZSbgwgApZXkaDRTAms1JYC8Ka7YZgUDV6TwMEhTSYQcDK2RSw1dQfP4ZDTiBAhFzM2RIsVGpOnGbuRQxEPk0oeXKY8i4VOO7HEve+EaHob0oZtspF0H28sKm87yxADjcm+rbQzn2qGW+aUsYz3riFnKElYSg2ATY7NbWMswmfjQv7V0pB0dsPTCWndm8TQg9ngzAl9hv0pvrH9vC3LyyS1zi4IkdqJCoUBUNqWOtv2bDWrhk5sAAAA=");
 
 export default ChildCombatant;

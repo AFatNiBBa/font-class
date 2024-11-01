@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pan-frying` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pan-frying?s=duotone pan-frying}
  * @preview ![pan-frying](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/pan-frying.svg)
  */
-const PanFrying: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M176 224a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M427.6 317.6C440.7 289.1 448 257.4 448 224C448 100.3 347.7 0 224 0S0 100.3 0 224S100.3 448 224 448c53.3 0 102.3-18.6 140.8-49.7L472.7 498.5c11 8.8 24.1 13.5 39.3 13.5c35.3 0 64-28.7 64-64c0-20.9-9.3-38.8-24.7-50.5L427.6 317.6zM254.1 115.6c15.2 15.8 44.5 32.9 65.8 38.4c13.7 3.5 26.4 11.6 35.5 23.9c21 28.4 15.1 68.5-13.3 89.5c-8.9 6.6-18.9 10.5-29.2 12c-18.6 2.6-42.2 16.3-51.6 32.6c-22.1 38.3-71 51.4-109.3 29.3s-51.4-71-29.3-109.3c12.4-21.4 19.4-53 21.5-77.6c1.3-14.9 7.8-29.4 19.4-40.5c25.5-24.5 66-23.7 90.5 1.8zM512 432a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const PanFrying = createIcon("pan-frying", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjwAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCCQsIAAE2AiQDCgQgBYMtB1AbKwXIjtRW946FiuDJjvp63bN7gOYA8TMWEEEOAWSH/NfH/p9rPj9rOsDPR3AonTqQ9fPO5xMYaKRX8gnPZorbnaY0JWvlkiBryfHZ8TlAEafzxSpI16d3cSn9D2D8qpmLSaplAFEXAGMXz5/pxa/iqxTvnnuKeNcMBMQ4UApkZLQUYIQs0FKhRKEQfJXO4as4pySAqERoZlf6D2zEHkABkiyKol3HarVqVNQqFoUYqq9/NO7o98S0tye9OuXNPo+Vt/d9fOpbE7+YvTCurnFv9wdb3NBt0aKrO0bc3fHuZtc3va7DVQ3jnPs63NXtgeY3dL+xheMUeTXu7rrx6karvGsaX9tk8fWqvM73trih0z3yI03bPVD3gd/bvrvpXQ9eMLxf7Y9e7tHqq69a9Xj5o9ot1jnxwvYNTje5rV696nX2Hpv98FvPdKNZMeHj/4d0Xf3W39/00/GaP/704YunLql1/oQFqXHdvs0uaxfDv6pd+6tS6NEvq+86fnxXdXwfCARrzn786joj/q9aI4Fvnv7zX7zeuRfTmPQAqkogyD3O9bAijQFgBpBKcUg74aseE8jmyPihmq4RIFRHgKRSdQ2yFupCobruUKG1gYJy/XxZFNWEhlYCJDXthWyQk1Bo6EmoMMIbyUoNI1ubZCvSZy99Uo9MnFX27dWnHFZuK6psQEKaHF6q/S6HsKMr7LXJbrscsNEGWx3o6H1mZg7aaZJETfRDpb566aM0THlcf96+yEb77LfVbrvyNMOV9xNdHJL7d4UoYdZ+jssykSLX37N2V89N+45u3bW5p912NhzVJwoAAA==");
 
 export default PanFrying;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-up-across-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-up-across-line?s=thin arrow-down-up-across-line}
  * @preview ![arrow-down-up-across-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-down-up-across-line.svg)
  */
-const ArrowDownUpAcrossLine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M154.3 509.7c3.1 3.1 8.2 3.1 11.3 0l96-96c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L168 484.7 168 264l400 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-144 0 0-220.7 82.3 82.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-96-96c-3.1-3.1-8.2-3.1-11.3 0l-96 96c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L408 27.3 408 248 8 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l144 0 0 220.7L69.7 402.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l96 96zM152 192l16 0 0-152c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 152zM424 320l-16 0 0 152c0 4.4 3.6 8 8 8s8-3.6 8-8l0-152z" />
-    </Icon>
-);
+const ArrowDownUpAcrossLine = createIcon("arrow-down-up-across-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcwAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBcwsGAAE2AiQDCAQgBYMtB0AbAwXIrgrsZscvwSNMMlKhE+a7aiciHv5/v3773PdmFszg8tZPmPgXMUwSjW6Sab/SSDQPTaySyZPMf0D15ekOFstjVK2zZK3ve4Xoj10a//jTjB8/waOsQWvb0/LH1bXijRcrtnhTU9BlxVpFsbbNMMimwi2kIuyIaNjyh+kPkMc3A0qk1w0Py4fGPws9IMkyADEDAAeb6896/7t+R3ytIb46jYA4BAqBDBmWCLBHJrBErkAuF/yOWo3/AwsCiDJ5tARylNCGEUAOkizP91Sr1dLUvKlaqjQ+n98cL/2CDRExNV7mhSsR0RjP89JNYRnPhD0xRQk+V5UNNJcb26qVasQLR02vehUB7vIyUTdxE88Qr/fW13d327q1vv7iJT880lMu9zwipqdn2mIW3UEv9s4Q7RWMlZ7yq73dDhAI3nS9a/qe/1NN4O+71+vVSqUJMEkCQbamtkZHOgBMDiBLcVcd+KJAcklG3nWKFwKECgIkZRUBMovNECBXsVqAkmW2ClBWUS8T+WRhjs4GkilugMw290FujregZI8PadmcyDyM9w/+By/l2AgdXVdsXLeh2FUsKyo4DQsXdxfb+oq7aWAl7TTkmqtuGzRg1O0BuelscccVxxB81A8VNlpng8IuxXH7vLnJoJtuGXXN1bzMbsX9eIW7ePxKshKh3GRPkoi0sPfmzWv31r67ZO2d62u/PnWtKwI=");
 
 export default ArrowDownUpAcrossLine;

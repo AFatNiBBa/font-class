@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shirt` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt?s=duotone shirt}
  * @preview ![shirt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/shirt.svg)
  */
-const Shirt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M.1 149.5c-.7 8.6 2.1 17.1 7.8 23.6l56 64c11.4 13.1 31.2 14.6 44.6 3.5L160 197.7 160 448c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-250.3 51.5 42.9c13.3 11.1 33.1 9.6 44.6-3.5l56-64c5.7-6.5 8.5-15 7.8-23.6s-4.8-16.6-11.4-22.1L502.3 22.3C485 7.9 463.3 0 440.8 0L432 0c0 61.9-50.1 112-112 112S208 61.9 208 0l-8.8 0C176.7 0 155 7.9 137.7 22.3L11.5 127.4C4.9 132.9 .8 140.9 .1 149.5z" />
-        <path d="M208 0c0 61.9 50.1 112 112 112s112-50.1 112-112L400 0c0 44.2-35.8 80-80 80s-80-35.8-80-80L208 0z" />
-    </Icon>
-);
+const Shirt = createIcon("shirt", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfAAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBawsIAAE2AiQDCgQgBYMtB0YbAwXIhof/t+v7fW7VU2PIGpiRhGz8KWVwEL71U6v/55p6UXZ0gB9ELuN5zSIBM3lvAns+jLa2o70Jps0Up9tkV0cgPRERFiYiHVd5fB0hTwOyS9SR7kyf4Xr6H8D4RmeXkDRlAKIVAGatXr7QB83RnOKz2ivEZxYgIGaDQiBDhm4CTJUJdJMrkMsFzalWozlqtYIAoh7FnIF65FiLLYAcJCHyvMOUcl01X0VxltbfOyjiyXGvD3m6ZynuGfjE2NcGP9WjlN3Sfmnc2v7WjotD3DnoyX7leFxNdo1YGOvTt3dcHrd3uK3DqniqZH9sXDVwRdzSrvdTrZ76rtdnuz7z5fst/+eHH3/84f+WhVi1s1WrnauiMLhy5VlXvvDB44P9rdS69QMfeKAWlf422e0CL8+tVJ84vcejvZu0/N+baNL70fkeT1SBQNBp0/+nNrec+ltjOYGv3/rhl6bWyi0fpPPpKTRKIMiG1obakM4pSG2MgGSKU3qD8dU3CWSmSHCo4jYBQokBSb0SZLpqBbmSIVCnh3G8cfFymcibhHY2ApKKo5AZ7zTk2nkZ6kz1Ybpeu8jCSwwO8XeXNp/j86YVo4aPLCYX25IuRQyfR6cUZm/gqdQyCBvtctghJ+y0w14nGHfMwtxJB83X2Hl+qDDKcCMVJivc1VdtFUsfc9xeWfFPMkVx3h/olN59EGaTAKMv5kBGpMiqx/fsPXZi2DM1WzLlOQIA");
 
 export default Shirt;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `prescription` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/prescription?s=thin prescription}
  * @preview ![prescription](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/prescription.svg)
  */
-const Prescription: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M24 0C10.7 0 0 10.7 0 24L0 216l0 96c0 4.4 3.6 8 8 8s8-3.6 8-8l0-88 132.7 0 128 128L130.3 498.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L288 363.3 434.3 509.7c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L299.3 352 445.7 205.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L288 340.7 171.3 224l4.7 0c61.9 0 112-50.1 112-112S237.9 0 176 0L24 0zM152 208s0 0 0 0L16 208 16 24c0-4.4 3.6-8 8-8l152 0c53 0 96 43 96 96s-43 96-96 96l-24 0z" />
-    </Icon>
-);
+const Prescription = createIcon("prescription", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABawAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBaQsGAAE2AiQDCAQgBYMtBzMb7ATIHgl2DLIVSMcu2nj4/zWr+35VMgBUw4yOyCGpmYWsBEJh+6wlsJ0aeq8Q/ZFT47VPBXwAeH+88Qv43vbjE2h88dX3QBc/D6yiuL2VGSVj+iVZqcn0eGU9Xve6I+Tx2A4l0sP0A67zj8av2rlEkmUAoikApq5evtAnNVET8UP1TeIH8xEQ00AhkCFDRwEmyAQ6yhXI5YKaqFbDf2BBAFGWwcTMMbkK20EeIEl5Pqptg1KjfBVdUX/987ZC3G11v01Eg1gZK+JOq7ttVkdliHa/9apYHf69litilTL+dv/XujzrVxlVf+X5iDgf9YGx3KBBvNn31U5P+rwyon63StPK737Y9YM2Hy9t9Yktylu2lNe47OxZt24aOXL58pu3MFOYxnT59DwnTij5a22TJrX/enD2Z+Cad5S3PHCuUqlbt1I51xYIBD0/uW9zkwn/122QwC/vDa+ufhSfpQrqSiDIBlQH2BCfUK1VhgTgIMUp3WBigWSRBPleG7onQKiPAElZfQEyHTQVIFdffwFKOhspQFl9y2Uirye0tLERSUNHicwop4lcS68TJRN8HZS1jMy5BNcQvu1SZ0lg5lAxdNCQYlyxzFXRXzjaHl9su31OxV5fGLXLYYecsNMOe50Q+DEL45MOmqVhM02oMNQgQxTGKczVo7oKg2OO2zuX7buMV5z3+jilL+4L+0mAYdeSTERqeOTYzl/3ca8aAA==");
 
 export default Prescription;

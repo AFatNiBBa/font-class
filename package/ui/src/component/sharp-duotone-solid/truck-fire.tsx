@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-fire` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-fire?s=sharp-duotone-solid truck-fire}
  * @preview ![truck-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/truck-fire.svg)
  */
-const TruckFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 0L0 48l32 0 0 48 48 0 0-48 56 0 0 48 48 0 0-48 48 0 0 48 48 0 0-48 56 0 0 48 48 0 0-48 256 0 0-48L0 0zM80 432a80 80 0 1 0 160 0A80 80 0 1 0 80 432zm320 0a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M496 96c0-17.7 14.3-32 32-32s32 14.3 32 32l48 0 32 0 0 32 0 128 0 160-49.1 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96l-98.3 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96L0 416 0 256l400 0 16 0 0-16 0-144 32 0 48 0zM384 96l0 128L0 224 0 96l384 0zM576 256l0-96-96 0 0 96 96 0z" />
-    </Icon>
-);
+const TruckFire = createIcon("truck-fire", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABlQAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCWwsIAAE2AiQDCgQgBYMtB1AbfQXIngV2w3Ux1ABEHYZ66tlwlhUP/d+bd968rcVSPaFKpXolClhwbS3FKCAR2BMNh7/V76d7AcJX4vcLqBPVqAKDA1SEKkllJ7aEjoWpq2Zkwq2YEjswP/9fPSauyX9/HgVWQfAovw5NjeTO8xcY+GgWTRMaWJTRDHiD8yYdUmhDKN9BLSm5DCnlS/QO1vH/AMYfp2UoegmAmAKAm6sI4fGTNiXem1MgfpSDgLgFsI+QSGwjcE4ssE1iH1RVsBE1YEMNBgFEG/EPStBGF2vwDqCCImWV5PaUaSOtWqqVVKtbqp4FO9GhetW6D/UAIUSfIumxwtPUY0+kQUSrpiK1CmE4dlVdsyMBxM5Bq4uIiEObvKOrC5dcld34I6XXxZceLV0hPmaI/ca9d7/jv0W3AlbjSmPH8H2GeUcEff91dPT10dfe5Qs4sjU1wAS2+ZSLefPf0VYnqPCRc87AyWK8fgqgdP5hTc/UVI+m6ruOLwcCQbPSUYv+/F+hFgF+r/+/ovPRnInmRTFAVwFBHjaZGvsGUCkJSJeYRvzBLQmke2LptQ69IxD6CFC09QVIWwwIVH0HCLTsKkCgre+FWFQlwlLTQBVDr1Q6M0NVSydUy7mnZNsyYmdpdlTmv8IcwSkYmMeEbM5K2W5NZ3FpRj1bxi4HUqd5Txpcim4jhk3q0qnP5IQYF8pMGRI8ggK+iBFk45hS7HHzpaN6khw3oW/b9lxPGfZ9JNX08fA0GBZJVY8sSEkUEpsCnjPLknuyHHivZW6zywA=");
 
 export default TruckFire;

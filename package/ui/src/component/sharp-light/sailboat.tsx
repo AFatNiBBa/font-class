@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sailboat` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sailboat?s=sharp-light sailboat}
  * @preview ![sailboat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sailboat.svg)
  */
-const Sailboat: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 352l-32 0 0-32 0-267.7L256 0l32 41.4L503.3 320 528 352l-40.4 0L288 352zm174.8-32L288 93.7 288 320l174.8 0zM40 384l496 0 40 0-24 32-72 96L96 512 24 416 0 384l40 0zm24 32l48 64 352 0 48-64L64 416zm160-64l-32 0L85.5 352 48 352l19.6-32L192 116.4 224 64l0 61.4L224 320l0 32zM192 177.7L105.1 320l86.9 0 0-142.3z" />
-    </Icon>
-);
+const Sailboat = createIcon("sailboat", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABZgAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBYQsGAAE2AiQDCAQgBYMtBy8b4ATIhofn7f79tc9MAE9SSb43ktrkdQE74rMSa7GVuzv9uT/f+WiAj0cwtCgsnTd45vkEdj6K5N8gHygK7Ivi35s2WpKyL8lEM+nvWcfVDvL4KrqrRrqcPkFV/dL4SStnSfIMQDQEwJjyvBne+D6+j/ik8hLxiWkIiLGgEMiQoa0Aw2UCbeUK5HLB91Gp0H9gQQBRHb9EAjlqYiZWAHKQVM/zRjUa1GpQo061enmpTrXaa2rXqR2RRUSPWBRdonbX0oKSqLOyXt0GnWN+1I1SdI06XcaMHVMvxkXdsvXcblGOfiGE0vzy/DoRne41vPdLx0/Wf6LDigI21dXf/z5trkrnqkc/hI0fPb416vffW54waYWTSTmh84kKXrBSxRs3RxXFk1GOfOwvI7yt6PCwdA6vU3YeCARXb7784YoGw/+pWSeBH1//7Q/t7MobaXS6h5oSCLLule6WptFA6AD0FPt1UloMJBPd0q3WdUGAUBsBkupqC5Bpo6EAudq6CVBNewMEqK62eTKR1xKaWjZAUtcukBnoGMg19RxUM9z7WnVNI3Ms0i3If13cRAlNaCr69OxdDC2Wlk75Cp6rwwoz33l/jHSBVevtsN1e66y1yV6B7DbD3GebiRo8wQ8V+uipt8JQxbb7PF+yzm57bLLD9lJnmOK83Nl+Pb0LSAlj9tWZJCLV3LNq09ZnDwAA");
 
 export default Sailboat;

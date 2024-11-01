@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-simple` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-simple?s=solid people-simple}
  * @preview ![people-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/people-simple.svg)
  */
-const PeopleSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 128A64 64 0 1 0 128 0a64 64 0 1 0 0 128zm-22.4 32c-41.6 0-76.3 31.9-79.7 73.4l-4.1 49.3c-2.5 29.8 15.7 56.1 42.2 65.6L64 464c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-115.7c26.5-9.5 44.7-35.8 42.2-65.6l-4.1-49.3C226.7 191.9 192 160 150.4 160l-44.8 0zM384 128A64 64 0 1 0 384 0a64 64 0 1 0 0 128zm-15.7 32c-28.6 0-53.7 18.9-61.5 46.4L267.7 343.2c-5.8 20.4 9.5 40.8 30.8 40.8l21.6 0 0 80c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-80 21.6 0c21.3 0 36.6-20.3 30.8-40.8L461.3 206.4c-7.9-27.5-33-46.4-61.5-46.4l-31.4 0z" />
-    </Icon>
-);
+const PeopleSimple = createIcon("people-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhAAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCHQsGAAE2AiQDCAQgBYMtBzQbIQXIhuB5u6h6v3tmAfVC4kmREFHZOcjOqTVTp2rGeTbgGwVlTw1I9nnSuc8rULFeaYMXqFawCEWw4Nzd2RwcbO1b0hIjOT47Pi/I443sghLpgfQxbqMvjW80c4GkWgYg6gJg7OL5M737ZXwZ8VHlJeIj0xEQY0EhkCFDSwFGyARayhXI5YIvo1KJ/4EFAUQZ/4YEcpSxD0cBOUjyPK/VqVa3GqVa+aIaperLX+n+bLdnBr3Y5amuTw/s8liXiKeaFnF/swc6igca3dOxRjzZ5L4WEU+2eKh5u3iw2zOdqq9fx5tea5g+1nRB3L04iFBwAt3nNV6EL3a6t3r1ds/Ufea7th9v+tjp0X16tWnTq0/pzOof17OgV1+Nnntu0AHZJ5/2KfT59JPsgEHPPdeor14L1v/Yo1Ebul5p/C81FnS6YvT16xqZE6qfNZyjsR8Hb+zd+YoFNf5tXACBYOSChz9dXWfEb1VrJPD16z/8KV1tWHk3/kzPoKoEgqxHpYcViYaqxp8CTlIc0s5oWSDZJgf+1JruFSBUR4CkrLoAmRbqCpCrrrsAJa0NFKCsuvkykVcTGlrZQFLTXpAZ5CTINfQCKBnhvaSsYWRuJzmN9OtLn6TRiaeKvr36FMOK6UCVPUnIh8OLbb/LobTQFS7aZLddDthog60OKGafmflBO02ysIlaVOirlz4KwxTH4/vzi2y0z35b7bYLjxmuuB93cche3xWihFn7qSWJSLVeqtXz6QIAAA==");
 
 export default PeopleSimple;

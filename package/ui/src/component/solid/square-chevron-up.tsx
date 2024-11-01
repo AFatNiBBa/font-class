@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-chevron-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-chevron-up?s=solid square-chevron-up}
  * @preview ![square-chevron-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-chevron-up.svg)
  */
-const SquareChevronUp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM241 167L345 271c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-87-87-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L207 167c9.4-9.4 24.6-9.4 33.9 0z" />
-    </Icon>
-);
+const SquareChevronUp = createIcon("square-chevron-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABXgAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBJwsGAAE2AiQDCAQgBYMtBzgbrwTIngemmztpIx5KHk202UjycfTFx3ieb7//7TN3vrhhljwTNUSIUAqVZsksQSW9job4FpVs7Ro0p/dJSmT5C4yuCnAA7OZmBJOcMHPAyiyZawnL7H3q1POchwL4RkEZG5flAjKW73kegQCvDq83VqBawWpaAevubFZWRLssraVIclw4Pg+oOWrSQ3lS4EH+0Py2YI9ioAFAxgHAlVuNOl666Saf7eSLqyCQK4B1BA0aLCPgPFawjLMOqip007b+P3AdAqQXfGoBFRXnwBUAFRSlcuppSY+Ma4ezxINX+yT380wODh6sstwdftKwOTz0aJPeuNFuHcxf29q5HveCQ00nb3dMj8rH/w249PR8ApgYvEw8MXFecD6hysf7t9H993NkpH0ThAmGmMXL8wBB+PRhY3907Pyf/iEG8Ovz//gz0nbTKR/Qr4DQHGmPGEoH0hEAQMkOUzoIimMY/K7DHgqIQQQUvQYFNJYoEVANOoyAHquiCOg16BpWqggxbVhBMeweaJyzC6ppz6DHea9ar+k0b4c6eerrFl+zUHWJBn0BmqLdSKWfAxGnaTotOHao4oQ7mLFqxZZpU+YFM8iGurltWW0EV30RFeQTQKXQ5fT2etu0DZvmrVpJc9LoftVhZ9zuBJnBqKd4ikKK6v6teSfvTO9srK54t+8CAAA=");
 
 export default SquareChevronUp;

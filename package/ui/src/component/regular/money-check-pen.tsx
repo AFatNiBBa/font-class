@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-check-pen` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-check-pen?s=regular money-check-pen}
  * @preview ![money-check-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/money-check-pen.svg)
  */
-const MoneyCheckPen: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 112l448 0c8.8 0 16 7.2 16 16l0 91.6 6.6-6.6c11.6-11.6 26.3-18.5 41.4-20.5l0-64.6c0-35.3-28.7-64-64-64L64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l266.5 0 6-23.9c2.2-8.8 6.2-17 11.8-24.1L64 400c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16zm56 160c-13.3 0-24 10.7-24 24s10.7 24 24 24l208 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-208 0zM96 200c0 13.3 10.7 24 24 24l304 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-304 0c-13.3 0-24 10.7-24 24zm517.8 35.7c-15.6-15.6-40.9-15.6-56.6 0l-29.4 29.4 71 71 29.4-29.4c15.6-15.6 15.6-40.9 0-56.6l-14.4-14.4zM375.9 417c-4.1 4.1-7 9.2-8.4 14.9l-15 60.1c-1.4 5.5 .2 11.2 4.2 15.2s9.7 5.6 15.2 4.2l60.1-15c5.6-1.4 10.8-4.3 14.9-8.4L576.1 358.7l-71-71L375.9 417z" />
-    </Icon>
-);
+const MoneyCheckPen = createIcon("money-check-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgwAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCIQsGAAE2AiQDCAQgBYMtBzYbJwXIhofn9f77tU+SwcUjM7K/jVLu4KJxy0qY/3P59nw0wM8jGFKXbhdYHpHPT+AAoy2aCizt8OxE8XZnW7JDtMfBEhnJ8dnx2UIef8dtCtL96VPcmj40ftDtKpIiAxBNAFixb9cW738b30Z88v8rxCc2ISBWgFIgQ4Y+ARbLBPrkSuRywbfx///+P7AkgBiC7zmBHENxOi4G5CAp8nxyrd7SUi3q+d5qUTmwXqvf3S4648VxEQ9MfGFsLZ4a/1xXivsnPD+mHr1xb2ct7unIsP+ep7ruH1ONZ3sfGFvZS1CdXD2t6+R7KhE3tI2PPTEp7o3LOzp239VWxl3td3euO1liX+yN3SNfaHrhpxGfHvOpZdve5/nfNhzkGE1HrFBpbn7sfY9lq0IiqvaZfEEfdSQN3857dEd7+44vod65zknTK4k3KUZ90kjTJ59au9an3m5qeuurn17e0/WDrj17Ln/X5Xsuu2xMwPkgEHy6euQ1hzYu/nVYNYHv3/zlN3Ty/++ly9ILGCaBIJv8/2QHpcsAsAEEU5xjpPJFgeR4BX7XmnsECBUESIaoCJDp1SRArmKSAIUBcwQYomKXTOTDhTYHC0hqTgeZuS4GuTYvgcJiHwSGaIvM8Gizof99CWtbeE2vcsbU6eXCcppRGFsiQ+eictsYfw5VTICFjnGqU5zlaEc53lkNeoYt4bOdbK2GrPFDpRmmmq60UHmcv5+919HOcKbjneqU2M0i5X1nvHP0+hPAThh3prgkEanRTKUpL9g/5bSjTwEA");
 
 export default MoneyCheckPen;

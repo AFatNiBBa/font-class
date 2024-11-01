@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-persevering` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-persevering?s=duotone face-persevering}
  * @preview ![face-persevering](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-persevering.svg)
  */
-const FacePersevering: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm96-96c0-7.7 5.5-14.5 13.4-15.8l2.5-.4c26.3-4.4 50.6-16.9 69.5-35.7l7.4-7.4c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6c-2.5 2.5-4.9 4.9-7.4 7.4c-23.6 23.6-53.9 39.2-86.8 44.7l-2.5 .4c-8.7 1.5-17-4.4-18.4-13.2c-.1-.9-.2-1.8-.2-2.6zm20 61.2c0-9 9.6-14.7 17.5-10.5c30 16 59.9 32 89.9 47.9c10.7 5.7 10.7 21.1 0 26.8c-30 16-59.9 32-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6l36-43.2c-12-14.4-24-28.8-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6zm56.1 168.2C188.2 371.4 216.3 352 256 352s67.8 19.4 83.9 37.3c5.9 6.6 5.4 16.7-1.2 22.6s-16.7 5.4-22.6-1.2c-11.7-13-31.6-26.7-60.1-26.7s-48.4 13.7-60.1 26.7c-5.9 6.6-16 7.1-22.6 1.2s-7.1-16-1.2-22.6zM288.6 258.6l89.9-47.9c7.9-4.2 17.5 1.5 17.5 10.5c0 2.8-1 5.5-2.8 7.6l-36 43.2 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5c-30-16-59.9-32-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8zm12-157.9c6.2-6.2 16.4-6.2 22.6 0l7.4 7.4c18.9 18.9 43.2 31.4 69.5 35.7l2.5 .4c8.7 1.5 14.6 9.7 13.2 18.4s-9.7 14.6-18.4 13.2c-.8-.1-1.7-.3-2.5-.4c-32.9-5.5-63.3-21.1-86.8-44.7c-2.5-2.5-4.9-4.9-7.4-7.4c-6.2-6.2-6.2-16.4 0-22.6z" />
-        <path d="M211.3 123.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-7.4 7.4c-18.9 18.9-43.2 31.4-69.5 35.7l-2.5 .4c-8.7 1.5-14.6 9.7-13.2 18.4s9.7 14.6 18.4 13.2l2.5-.4c32.9-5.5 63.3-21.1 86.8-44.7l7.4-7.4zm89.4 0l7.4 7.4c23.6 23.6 53.9 39.2 86.8 44.7l2.5 .4c8.7 1.5 17-4.4 18.4-13.2s-4.4-17-13.2-18.4l-2.5-.4c-26.3-4.4-50.6-16.9-69.5-35.7l-7.4-7.4c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6zM133.5 210.7c-7.9-4.2-17.5 1.5-17.5 10.5c0 2.8 1 5.5 2.8 7.6l36 43.2-36 43.2c-1.8 2.1-2.8 4.8-2.8 7.6c0 9 9.6 14.7 17.5 10.5l89.9-47.9c10.7-5.7 10.7-21.1 0-26.8l-89.9-47.9zM396 221.1c0-9-9.6-14.7-17.5-10.5l-89.9 47.9c-10.7 5.7-10.7 21.1 0 26.8l89.9 47.9c7.9 4.2 17.5-1.5 17.5-10.5c0-2.8-1-5.5-2.8-7.6l-36-43.2 36-43.2c1.8-2.1 2.8-4.8 2.8-7.6z" />
-    </Icon>
-);
+const FacePersevering = createIcon("face-persevering", true, "data:font/woff2;base64,d09GMgABAAAAAAOgAAoAAAAAB9QAAANVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWiEXAsIAAE2AiQDCgQgBYMtB1wbigZRlA5GluzngW1MfagIWwhxUOrDhcHFB2hCTo+yONoAiwFNGeRPBOEaOZvk7gFY/6uSQlQsATULReQIFMrWVeiyUES6+qyacz+JztQB3lQBgntVUEDggFSdrTBR7fj6fGttPvgu+EhHXV8/6Rt5V336GVXcMg1PwPf5///eHf+WTaDOE89Dee+11v2/OXBMCuf2CRhwVjYWrgEahpqBNThvvKDKkLyBEp/yWRXpTrrFDeV/AOOfMS+StgwgegHAmr0VDuUzPqd406wSb2wHAbEWMIshI2MSA8uJApMks6Aogs+pafgcTTMLAURN4WWfU6OTqIlJAAUkRV3K4LBOr1eb9Yb3QvUP9RvoqJTRW9xKKTx5CszMIgQuMiMq42yvnoVF2LiC9RQOKzWzvpsUMBND5SiDuCh7MG7hzgcOaDyh+r4c6A+WQlcFKkvexN5yiCN+p17pfKg9GXyvOe64Vy633VYd9g3ahIqNVAEbs1Az3a2jYeYafJqAksa2ii1EJmwWMWAFWViJ5RQrarcSAXeiM97ZAmPMgvJ2KZspBvf2DdpYg3AZyuHSMm67pCHJzGDw5qtoAJqiu77pm9LhMcsRy/9zb47ekk9FKb1eI3lz8vWXV3z0EuuOjSwKx60VveQj1f0iOr0xkufPpXQNztQQO1qqmBJSIqYK7Fk7M5RJ19amc6AKjkZYu2OYZVv1CJcoqy0nthAFG9pg7NXRutqjlbFgUornMhP7JkNeDhKOzc1NHDg1oSywByXsXAOjmieuDb0uz8IGY/wL3XstxNYPj1tb9kxy07v09Wto6PP3peeb0qTXhjP1/h1rZ2vrWeunr+PBkh8qgMTc3FgpdQCB4PG2bfZ2+PL/rWoCX18391fYHCbpBVolEOSFZkEjgUQAAFKcYUnsA4HskXUs6XRT8EM7E/Gk1h6ibIIKFe3mUWVaiNaEnWrxo7T5BjURSjodR9kyZ1QM+qDKcr9IbTDycaHYqhVXpWnLcaY0jXxuL8WpMMdXbupU7E1QbdZ6YmtscA5G1lYOhgamLo6Jd3j8aKlcJl36LvFx8yJx1Lp4Gupirp09S/LV7QdJoP59Vqfy5jZoFWgyF5mRZSJFHj3ral3/5uROw3Pb6DrIGusy1WcUAA==");
 
 export default FacePersevering;

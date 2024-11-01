@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scarecrow` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scarecrow?s=sharp-duotone-solid scarecrow}
  * @preview ![scarecrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/scarecrow.svg)
  */
-const Scarecrow: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M128 96c0 11.2 1.9 22 5.5 32c13.2 37.3 48.7 64 90.5 64s77.4-26.7 90.5-64c3.5-10 5.5-20.8 5.5-32c0-53-43-96-96-96s-96 43-96 96zm80-16a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zM192 400l0 80 0 32 64 0 0-32 0-80-32 16-32-16zM272 96a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-        <path d="M133.5 128L16 128l16 32L0 192l32 32L16 256l112 0L96 416l64-32 64 32 64-32 64 32L320 256l112 0-16-32 32-32-32-32 16-32-117.5 0c-13.2 37.3-48.7 64-90.5 64s-77.4-26.7-90.5-64z" />
-    </Icon>
-);
+const Scarecrow = createIcon("scarecrow", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABiQAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCGAsIAAE2AiQDCgQgBYMtB04bOAXIjpTuJkRiBB9z4e9LUgBOmVkBakSHoKrOFY24qST44FIIgBPX9P/zpwesIHi0ylVjpA8zzycwwEpb0yYyoekMbYvbboqYhLaHSOICWdxNT6pAcjX5iNPR/wDGF02cJFElBRC1ATB64dzpSuUoJ/GxeEV8NA0BMQbkAilSNBdgmFSguUyOTCYoJ0VBOYoiJ4CoKHp/CiqiErbhICADiZBlWY8GVWpVqVahRrYgOqvq0qrVqjaJTtE5Gke1mBdTYzLVF4webhpdo0s0i6pxpdO9dne6PGi69GiDq53vt7/b9WGzy3FLuwe8WtzXfOGF+pcaXm50scEiwR0hSbWLDkvXZrd5UPvBt9YfN3x0auQB7C/w5C6tbndA4dolT+73cPeunz937b7uyMo6K66jkocz6lR+8OCcbGatmuVyzXCtkbOSzblRcrMUipk9V18HAkGPJ///u7LWsH9US8Cn1z8+188rSlFKHqCyBARpt6KbZVECwQ3gRyVxQJso4ahAaoAM/dTqLgkQqiJAoqKqAqSaqS1ApqquAlTQUn8BKqpqrlRkVYT6lvdIorrdSGqAQ0imvpdIBcO8yVVUP1Kok2BG+uZLnzAGx0/Le/folQ/JN8taGZAEOz40P+3pdEC2dcZ7bbDTDvust85m+0bwHtOL+203YQ8a74tyvfXQS26I/Hbtub6A5vbYa/O6en+SofL3E50c2O/dGfsTCW8fi1IpkURaZy9Eyz9xsLsH37Z6MzWgAg==");
 
 export default Scarecrow;

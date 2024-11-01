@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-bill-trend-up` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-trend-up?s=sharp-duotone-solid money-bill-trend-up}
  * @preview ![money-bill-trend-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/money-bill-trend-up.svg)
  */
-const MoneyBillTrendUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256L0 512l512 0 0-256L0 256zm48 48l48 0c0 26.5-21.5 48-48 48l0-48zm0 112c26.5 0 48 21.5 48 48l-48 0 0-48zm272-32a64 64 0 1 1 -128 0 64 64 0 1 1 128 0zm96-80l48 0 0 48c-26.5 0-48-21.5-48-48zm0 160c0-26.5 21.5-48 48-48l0 48-48 0z" />
-        <path d="M352 0L320 0l0 64 32 0 18.7 0-84.4 84.4L196.8 71.7 176 53.9 155.2 71.7l-112 96 41.7 48.6L176 138.1l91.2 78.1 22.5 19.3 21-21L416 109.3l0 18.7 0 32 64 0 0-32 0-96 0-32L448 0 352 0z" />
-    </Icon>
-);
+const MoneyBillTrendUp = createIcon("money-bill-trend-up", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiwAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCJAsIAAE2AiQDCgQgBYMtB2IbWAXIhqCyhfbs3n/p78SwIj4RkIEoU6bcQBTakTkjis0hUfxTp57nPBTANwrKGrYmjmk5z+6Y5xUoeKlekNIcQjWtgXV3tlaWRD5JEiPpV+P4PDZQxTf5nA7p0fQZ7nb/Axi/GuccSS8DiKEA2HLq2AEf/Bg/pvis/ybxmf0IiK2gCGRkTBRgvSwwUaWgUgl+TP0+P0a/XwggutzjZdBFD7fgLKACSehW1fxerx5U101nUHWy6dRX100tmuZ4nIx5MSeOx4Y4FSdibsyHnBBNwDbrSDkNiRyDNzR188jIB2aEF0dFPDiujrj8iTmvzHtt8tPzX5/76qRT3FHES6MfGu/xMREPzxb1tNeGvvb71M+u+szF75dSNisjjh9zep8ttrj5Yk8774A93+W2u+ZaIxSbFZcoig8A+m3b5s+/bdtb2m/5PLfaIVPyz3///XPW5sWHWuQwmOKe6RKhnWiBQPDNNc/MunjI+v8HNAn8/Nafvwi/wv4HSXoNAyQQ5AX9BS5IIBEAgBR3mZaYj0C2wT5+6kAPCRBqBEi6agGyCYYKUKnNF6BjshUCdNWOyaLqCSNdmEAy0K0gW+ksqIz0BuhY78O4a2Rk2aMkh3r5xe/MoR3LypJFbVlbmoVIixNh5teVYXHOXdQ3F9a6ys1ucocrXeFad2TIbQ5kd7rRTg7e4YuKJRZpFWuV6fqSP4nxbW53bZ2dX2Sdst6d4y5+9FxQEo+61IosEynyBFEVFt4FZeEdX9d5C++8ZeFJHjmpzh5cAAA=");
 
 export default MoneyBillTrendUp;

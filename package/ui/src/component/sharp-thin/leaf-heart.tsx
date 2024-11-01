@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `leaf-heart` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leaf-heart?s=sharp-thin leaf-heart}
  * @preview ![leaf-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/leaf-heart.svg)
  */
-const LeafHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 96c-90.6 0-165.2 68.5-174.9 156.5C38.9 287.5 0 351.2 0 424l0 48 0 8 16 0 0-8 0-48c0-63 31.7-118.6 80-151.8C96.1 369.3 174.9 448 272 448l1 0c132.1-.7 239-130.9 239-291.4c0-41.9-7.3-81.7-20.4-117.6c-2.7-7.3-5.6-14.5-8.7-21.5c-2.2 7.2-5.2 14-8.8 20.5C455.1 72.5 418.3 96 376 96l-88 0-16 0s0 0 0 0zm16 16l88 0c43.5 0 81.8-21.7 105-54.7c9.7 30.8 15 64.2 15 99.3C496 311.3 393.5 431.4 272.9 432l-.9 0s0 0 0 0c-88.4 0-160-71.6-160-160s71.6-160 160-160l16 0s0 0 0 0zM189.7 241.1c0 14.3 5.9 28 16.4 37.8l70.9 66.4L288 355.5l10.9-10.2 70.9-66.4c10.5-9.8 16.4-23.5 16.4-37.8c0-28.6-23.2-51.8-51.8-51.8l-3.5 0c-14 0-27.5 5.3-37.8 14.9l-5.2 4.8-5.2-4.8c-10.3-9.6-23.8-14.9-37.8-14.9l-3.5 0c-28.6 0-51.8 23.2-51.8 51.8zm87.4-20.4L288 231l10.9-10.2 5.2-4.8c7.3-6.8 16.9-10.6 26.9-10.6l3.5 0c19.8 0 35.8 16 35.8 35.8c0 9.9-4.1 19.4-11.3 26.1L288 333.6l-70.9-66.4c-7.2-6.8-11.3-16.2-11.3-26.1c0-19.8 16-35.8 35.8-35.8l3.5 0c10 0 19.6 3.8 26.9 10.6l5.2 4.8z" />
-    </Icon>
-);
+const LeafHeart = createIcon("leaf-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABmgAAALPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDDwsGAAE2AiQDCAQgBYMtBzEbkAXILgoyN7HZi0KHxpDJvz3dloUaD//Yfd43fxaZjTEbWx3UGRVZQR3rnLQ56dWTh4818/3NHlJAHVIJUAEZnQhVycIASaDxXVlQB7ZEspOnt5a0EmmeSBJISCkk1taiGz4zP9+LaH7+r6kXz68Bv9GhRWElyC29+/kEBlj0bQVe1EIznYDN3JZLC6JcEETkGDpEDHEf0p8gjRcuKyK5mWQ4Vj8qvig5SKKQAxDtABhyetoEbxdjMeJTtYm39iMgtoJcoCCQhgL0VxD4BKkcqVTwNaq//AcqAUQtnJaAFMW4iudY2VuZpmmPofLysppK6cx2QLbq3QGIlyeeTt3LhWgK3GDf7MN+n4/eSYkvh/f0O13LztY+XfN882tZY7YvKtHT1Fh2aPRmuyveLXkyPtvBsSj9sOn1zI+b38xqotNPlHtmRE8U4nRcj0r+bMssrnXXjHyMotNO9+RrOUhhZaEszvScUe6eHqdSHJWCuadaTe9UvfO9P7s62s7tiEZ+129/dudO7RKlqirVWedTu8bEvg5jIww181Tjrb1bTN7SY92Y8bOfrtU3ux3+n8HO5Y8eFH+sNGFubrDrbYBhkWXRyO1ZBm8HS8r5/+HuuEf3/5/P//h2BE3+z3B/j6Qmz33Pn+q6C6gdni2mvt7U1n535Dbq32lro7P9zPl1FxAIxv2Z56ps+EdNCfj2/C/6r+j/YiK5h1IJCApTVTM/AQkBAEhip6YJBBKXpPCpFZ0VIGQIkCiWCVDQQFUBUpl2AhRprIcAxTLTFERaQahpwQSJiraAgp52gVRNT0GR/t6lxWpGLl6laJN+F9NHMj5iWb60Y+e8b76tG3IICnm+X35sjO3UvjYCtdImG223wnJrbCduqwm5HTYY6REjfFGui446y/WVX7e2+kzyt9qmwlq9X6Sf/H3S2k5/dBuxE+DtansiIZJs/ZUlKzt8NQAAAA==");
 
 export default LeafHeart;

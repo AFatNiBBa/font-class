@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-skull` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-skull?s=light book-skull}
  * @preview ![book-skull](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/book-skull.svg)
  */
-const BookSkull: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L400 0c26.5 0 48 21.5 48 48l0 320c0 20.9-13.4 38.7-32 45.3l0 66.7 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 512c-35.3 0-64-28.7-64-64c0 0 0 0 0 0L0 64zM64 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l320 0 0-64L64 416zM32 392.6c9.4-5.4 20.3-8.6 32-8.6l336 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 32C46.3 32 32 46.3 32 64l0 328.6zM240 96c-38.9 0-64 24.6-64 48c0 14.1 8.4 28 24.2 37.5c4.8 2.9 7.8 8.1 7.8 13.7l0 12.8 64 0 0-12.8c0-5.6 2.9-10.8 7.8-13.7C295.6 172 304 158.1 304 144c0-23.4-25.1-48-64-48zm-96 48c0-47.3 46.5-80 96-80s96 32.7 96 80c0 24.6-13 45.6-32 59.7l0 12.3c0 13.3-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24l0-12.3c-19-14.1-32-35.1-32-59.7zm56 0a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM129.2 249.8c3.4-8.2 12.8-12 20.9-8.6L240 278.7l89.8-37.4c8.2-3.4 17.5 .5 20.9 8.6s-.5 17.5-8.6 20.9L281.6 296l60.6 25.2c8.2 3.4 12 12.8 8.6 20.9s-12.8 12-20.9 8.6L240 313.3l-89.8 37.4c-8.2 3.4-17.5-.5-20.9-8.6s.5-17.5 8.6-20.9L198.4 296l-60.6-25.2c-8.2-3.4-12-12.8-8.6-20.9z" />
-    </Icon>
-);
+const BookSkull = createIcon("book-skull", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABqgAAAKrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDJwsGAAE2AiQDCAQgBYMtBzEbqAXIhof/r6u670eUUkVF2wMZS4lxZstVzzZHTo03XirgsxIU5V9s9/BcWkb3xicw0en7uszPs+F0grajeU8ljA7pQtsM8rg75msh3Zk+xfXhTeMvwy4hyTMA0QWADXffeVtvllFGfNp8jvjU1giIjUAhkCHDmADryATG5ArkckEZzab4DywIIFqlR0ogRwXP4HVADpL2PJ/e1TM83NExpdpSz3ertlSyu+dFPD2rHo/23zqc4p7pohq39t/SV4vH5j41cmFcGNmeV/VF3OKC/lur9Yiozb2d5Nw+mMVtA7VYJsVGae9Hpkc84oIZtxLViLhw8PG4cOZjM3e5/+4JVz0358nxe2aLO6ZX4rGRiKcmqrcPfuDdNrB5Jvvpu9zev2vsHgZza98WsWVgbhnYLXYJzG2DW8dWcaKpT3U99c+UTw/71AWVbrof2MHiXz/LNtD1y8a6lI1GeYIHursrcMH6+zeu4IoGIoW1AZHx/489Oyi7SKPcwcIZt/xi9pd1Gj0D55/cUbeBuo6Tzx/oadS/3H9R9hzv7rDDu89l/d/V9O+4gx37a77rX6NRlg2qNjWJMy8785hv9pyBfeCbY9Z9/0Uven/dyfFAIDj069l379+5zur2agJ/vvzf6rK+5pvxZnoK7RIIsvnN+faJN0HgA/hJKU4zNd5EIHlau3SpNbcJECoIkLSqCJAZ1SVArmKeAC0mrBCgVcXOMpF3CH327eCk5kQ4s9K5cK7PM3CLdXwQbdUXGeyykMf+OiZtNgQ2HVUsWbi4WKtYLWg4cKTt4NrFYWv2abJhDh7jMMc7zikOdYgjCzmATrJt4lTH2mwL3NQXFZZYaLHCWorL5afSbjR6kpMduSxcH2ZtxfP+bKdtt5+D3SQRLpWXJCJVADtrwclHn3rMMQAAAA==");
 
 export default BookSkull;

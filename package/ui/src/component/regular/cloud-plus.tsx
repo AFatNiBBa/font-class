@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-plus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-plus?s=regular cloud-plus}
  * @preview ![cloud-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cloud-plus.svg)
  */
-const CloudPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M354.9 121.7c13.8 16 36.5 21.1 55.9 12.5c8.9-3.9 18.7-6.2 29.2-6.2c39.8 0 72 32.2 72 72c0 4-.3 7.9-.9 11.7c-3.5 21.6 8.1 42.9 28.1 51.7C570.4 276.9 592 308 592 344c0 46.8-36.6 85.2-82.8 87.8c-.6 0-1.3 .1-1.9 .2l-3.3 0-360 0c-53 0-96-43-96-96c0-41.7 26.6-77.3 64-90.5c19.2-6.8 32-24.9 32-45.3l0-.2s0 0 0 0s0 0 0 0c0-66.3 53.7-120 120-120c36.3 0 68.8 16.1 90.9 41.7zM512 480l0-.2c71.4-4.1 128-63.3 128-135.8c0-55.7-33.5-103.7-81.5-124.7c1-6.3 1.5-12.8 1.5-19.3c0-66.3-53.7-120-120-120c-17.4 0-33.8 3.7-48.7 10.3C360.4 54.6 314.9 32 264 32C171.2 32 96 107.2 96 200l0 .2C40.1 220 0 273.3 0 336c0 79.5 64.5 144 144 144l320 0 40 0 8 0zM296 376c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0 0-64c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 64-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0 0 64z" />
-    </Icon>
-);
+const CloudPlus = createIcon("cloud-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjQAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCQQsGAAE2AiQDCAQgBYMtBzEbQgXIjtRW8cXQFBkPz+v992uf5Cl3jIzNT6Iiyyk/WQodoAv+buJm551HAS6LIJQ1bGkgC3Cv8wQCTPNN/8DLHt9eFP9tQywbQXglJEwiGi/H67VCHn9ztSrSLekjXNU+NH7S2vkkVRmAaASASSuWzPNa8XnEh/+/QHxoDgJiEigFMmRoJ8BYmUA7uRK5XPA5//9P/4ElAUQ1ftsEclThfFwOyEGS5fmwHmWlqn6+vFJV7Hikx02VB3o90vrsZtc3v6H5A61vcXvPh4deWhT1Xuz9aIdz+jzW46GOEefkufsmvDrj7XGrIuJduV+XO/s/OfqmuHf8K9Mv7fro8BeLE2NfWhrxfN/H290z7uVp9Zff0u2hthGVQMyt3YuIwNzfShRBmqTxcDo/2ujRXzp9tP0jm6ed9PfbjT4fMqRBdVXHfWd8e+qJb9pmO3YOjsh2nv3oo7Vly5r3P24EQGrcuDzU4/Zt2Dp0WE3dwoUDa4t0vs2u3Q0adp8e/x3Teeq66xq2O/mi1yc+tKP5okXNJ5oISaEpUt8OAsED7/zz3YaGY3+trSTwpf8GLv9fOjs9iloJBFnf//tam84GwgdgpTius/NFgeR0GX7Xem4UIBQIkFQrBMi01UiAXKGPAFU6GCZAtcISmcjrhGbWdTip5xCcGe4MONfMc3CVsd41qzWLLBDZMGLfgUnTNTBtqhzUf2A5upwGhIstug7HlMtKz+Ol0AsWbXfAfkdts9UuRxV02DznmH2me+A0P1QapL+BSqOV2/GjtBzNw47YZQv7Y8Yozxs9Hffre4GeMOFgriQRqfiRUO53kQE=");
 
 export default CloudPlus;

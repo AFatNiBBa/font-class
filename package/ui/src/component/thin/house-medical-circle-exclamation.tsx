@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-medical-circle-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical-circle-exclamation?s=thin house-medical-circle-exclamation}
  * @preview ![house-medical-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/house-medical-circle-exclamation.svg)
  */
-const HouseMedicalCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M282.7 2c3-2.7 7.6-2.7 10.6 0l215 190.4c-4.1-.3-8.2-.4-12.3-.4c-4 0-8 .1-11.9 .4L288 18.7 80 202.9 80 448c0 26.5 21.5 48 48 48l247.2 0c6.1 5.8 12.7 11.1 19.6 16L128 512c-35.3 0-64-28.7-64-64l0-230.9L13.3 262c-3.3 2.9-8.4 2.6-11.3-.7S-.6 252.9 2.7 250L282.7 2zm84.6 246c-4.7 5.1-9.1 10.4-13.3 16l-34 0c-4.4 0-8-3.6-8-8l0-56c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8l0 56c0 4.4-3.6 8-8 8l-56 0c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l56 0c4.4 0 8 3.6 8 8l0 56c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l8.2 0c.2 5.5 .7 10.9 1.5 16.3C317.3 397 311 400 304 400l-32 0c-13.3 0-24-10.7-24-24l0-48-48 0c-13.3 0-24-10.7-24-24l0-32c0-13.3 10.7-24 24-24l48 0 0-48c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 48 39.3 0zM624 368a128 128 0 1 0 -256 0 128 128 0 1 0 256 0zm-272 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0-136c4.4 0 8 3.6 8 8l0 96c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-96c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const HouseMedicalCircleExclamation = createIcon("house-medical-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABtgAAALBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDQwsGAAE2AiQDCAQgBYMtB0cb2gVRVA5yZB+HccNXIqKEiFhCGeJFcWNxYipbOUYUrf1bPbefKazCClVYkUSjWUfGxZESLFG9CE+kge/K389d8LsH/v4HX8Sks8rMKjWPmFQp2kwqhi7zf02+u5WNOomHFJWeiZm8N4EJfl2l7XnacDZR3OK2O+IS2qCR8DW0/JFDnrpbH3HT/NB8taad0nUAMgsAHLsQHQpPX+VVMujvkYHTQCDHAbZAdOiwAYKDZAUbyNkCNE14lb4X/4EEAmSYff8FGkbxBC8BDZTh1rae0NdXfpni8ipycVye5U+JsdjLelkcxiDgjDhhwTMhCtm03dXDhOC4ZFKaHTuuzTIpQcphGdcGJbVPiAOV2D4lzbzjjE2TCWVAn7PiAW/oAvLMFlvMru0u67XedsjQbLND5n12e+UotDhhjvwe5E/wuXE4gGb7fe9r1ut763iIsRPiuPakZEq6jjzVobGA6a767l+Tj3kD0HsUEPD7EQX7ti/2fblyR/bTH+d73ZscljU02Eewh+hAj0Dp/Zm7/HhTyFDwppBBEeSNUEUTQAkUFfM5iRSdwRl0SQIx0hmclVWwFdSbCUD49tXU9Os3QTArVAjQrBUBkJampaWmFpEVrsBZQ06+r6anX3nhGxnDGZhSuR5AEF5csbdKV/P/NsoLvHn877e0Z/+/f1rXaxejCoRud28vpZo7cGCKsGOVa0zxFyHKY8Pwu066JSDGEVCGjQvorKcOQTNuFwRDNvGAYNi4M2SljYlFqZmgTLoo6BzQIGgWnQmGHPQmOmwxHSQr4VB5IpkuuIgEzSMXR2fypdaKRAWccm3SjwbbrOukDhsMhjzlytTIlaNQjQKhSmiiVqngLnyQHyIuHDkjvmhy/aoujkarVCts1kyfxQ8tH7JW193fBjtl2FL3yC1F6ijX5LBhmxye++l0+FWGI7N0HwUA");
 
 export default HouseMedicalCircleExclamation;

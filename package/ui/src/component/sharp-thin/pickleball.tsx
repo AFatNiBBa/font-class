@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pickleball` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pickleball?s=sharp-thin pickleball}
  * @preview ![pickleball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pickleball.svg)
  */
-const Pickleball: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M122 364.6l-6.7 6.7L38.6 448 80 489.4l76.7-76.7 6.7-6.7 9.1 2.7L282.4 441c2.5 6.6 5.5 13.1 8.9 19.3L168 424 91.3 500.7 80 512 68.7 500.7 27.3 459.3 16 448l11.3-11.3L104 360 64 224 276.7 11.3 288 0l11.3 11.3L516.7 228.7 528 240l-9.5 9.5c-4.6-3-9.4-5.7-14.4-8.2l1.2-1.2L288 22.6 82 228.6l37.3 126.9 2.7 9.1zm158.4-32c-2 5.8-3.6 11.7-4.9 17.7L138.6 213.9l-5.7-5.6 11.3-11.3 5.7 5.6L280.4 332.6zM431.9 496.1a112 112 0 1 0 0-224 112 112 0 1 0 0 224zm0-240a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm-64 128a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm64 64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm0-48a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm80 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-64-64a16 16 0 1 1 0-32 16 16 0 1 1 0 32z" />
-    </Icon>
-);
+const Pickleball = createIcon("pickleball", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABrAAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDMAsGAAE2AiQDCAQgBYMtBzEbsQXIhofn7fo691V9wDWCFpCnNgOjztYZkZFRz/81n1/oUfm9b3QoUYtoqsBR5vMJDPB0Fk3RILPhbKK4wXmjDig0hfQ15PG5o9SQ7k/v4Vb3ofGjAVeRZBmAaAfAun333Fnlm/gm4t3qy8S7dkRArAOFQIYMwwKslAkMyxXI5YJvolpl/4EFAUStcMEEcjThBbwJyEHSkOcrmoeGGkK8qaYl3yc9qHHf7r7uvWJV7Bt90RN7x909+8Re0R29sZpo+6bM+0xre2Dsnt6+WOQ6nn3v6sZw76n2vnFKxLNDD8blgw9MfqbxholP9d/nsoH7Jz3dFDdOi9g+bbvLpj4XUY03TC+puHzG82pNe93Te2/f3T13de9OxdoUA7QJ3UN9fNle/jzuvWPec/4eR4fDdtzJdXba0T7ucNKYZVsvmGCnnZRK98u0WvSUa33wwWs+/VTpekedySefeP99Ey8x9eGxKfXXXWtvpb1dfvm9T4w+wi3/fz868sP/tzwyOmbm/v6HkdHvv3/klrHfJlSojLSMH98yUqlM0GWsaM2l37S2foMMVclC09wBuhtaPR4IBB8/efPrh7at/Lu+KYHv3vj1x+JK7dVKmptK1EsgyGZWZzoordWuPc0VAiqZ4hzjF75JICk1gO/a7B4BQiMCJLUaBcgMaRcg12iGADVGLRKgVqM9ZSJvELod3ICk2ekgs9jFINftRVBjpTeTtboju4HF20/8fUy7uQttmlbMmz23WF7MllXSPcnr8RXFZuvUcwZt0+BMxzjVKc5ytKMc76wOfoadM2c72eYlbJMfKswz21yF5YrDtYfafTrJM5zp+GmT45OsUFwfnOqc5d7ToCMJjPOVJIlIjV+l7aSjP0kA");
 
 export default Pickleball;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cable-car` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cable-car?s=light cable-car}
  * @preview ![cable-car](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cable-car.svg)
  */
-const CableCar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 48a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm-72 8a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM320 256l0 96-128 0 0-96 48 0 32 0 48 0zm32 0l64 0c17.7 0 32 14.3 32 32l0 64-96 0 0-96zm96 128l0 64c0 17.7-14.3 32-32 32L96 480c-17.7 0-32-14.3-32-32l0-64 112 0 160 0 112 0zM64 352l0-64c0-17.7 14.3-32 32-32l64 0 0 96-96 0zM416 224l-144 0 0-82.9L499.1 95.7c8.7-1.7 14.3-10.2 12.6-18.8s-10.2-14.3-18.8-12.6l-240 48-240 48C4.2 162-1.4 170.5 .3 179.1s10.2 14.3 18.8 12.6L240 147.5l0 76.5L96 224c-35.3 0-64 28.7-64 64l0 160c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-160c0-35.3-28.7-64-64-64z" />
-    </Icon>
-);
+const CableCar = createIcon("cable-car", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhgAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCPgsGAAE2AiQDCAQgBYMtBzAbPgXIhofn7fo691V9VY9RYzOjVoykUM7kcJ0KcU9cTn8siwJc5Ikl9GNic9pYOtaiLoFAo3pvbU6zwBLF1Onosx1dNSIeQ4NoUPH4isfnBvJ4KwaqIT2SPsVdw5fGr9q7TJJnAKIZAKatWbHI+z/FTxGfVl8hPrUAATEdlAIZMnQSYKJMoJNciVwu+Cmq1fIfWBJA1MKbE8jRgLO4BchBUpfnDQ0NjZs3HlqpaZyvrtQUe57t+Gjvp9o90mulk9ukVUIRACopReVW6wcIow/Sz7e6v2gUN9s8KGRXh7jQ9qFKJUSxo6ho+5p4qNlbrYxJvP+O2JboeNFTfZ9rJx7p93yvxvHsgBc7Rjza/4Xe3V9o9sLv3T7d/amudy1r3XrZTMypY1f7ng+2Qvu8rYYenRpqcv16k6nu27rlHLHLjKNHuirxbixd4ZeBvm286Ms/h6h0X/PdAAvd7bHmzYvHFOPwY1PjdiAQNF/1X98tTSf+X19J4Jc3//w/xCqOej9FegH1EgiygdWBNiZV6EkhhFOc1l0YBQGmqoNPbeRBAUKBAEmtQoBMR80EyBUGCFCji1EC1CqskIm8QWhlU1MljRxTZUY7o8q18pKqxkQfhGu1iiwP2Sxi/wKTZjM8a1E5bPDQcnx5WtS51KJ9eEJ52dD3dG3qZ7J2O+Kwk3bZaZ+TpDxuUeyUQ2YrxSw/VBpmsKFK45WPK+9Xr7bLcSfsc8ThmGeC8n1PX6d1535mTqBzuIwkEanhKw0O2rHtOAAAAA==");
 
 export default CableCar;

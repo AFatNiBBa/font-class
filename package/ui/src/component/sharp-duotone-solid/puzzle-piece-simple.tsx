@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `puzzle-piece-simple` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/puzzle-piece-simple?s=sharp-duotone-solid puzzle-piece-simple}
  * @preview ![puzzle-piece-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/puzzle-piece-simple.svg)
  */
-const PuzzlePieceSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M256 144c0-17.8 12.9-33.3 32-41.6L288 64 128 64l0 160-38.4 0c-8.3-19.1-23.8-32-41.6-32c-26.5 0-48 28.7-48 64s21.5 64 48 64c17.8 0 33.3-12.9 41.6-32l38.4 0 0 160 160 0 0-38.4c-19.1-8.3-32-23.8-32-41.6c0-26.5 28.7-48 64-48s64 21.5 64 48c0 17.8-12.9 33.3-32 41.6l0 38.4 160 0 0-160 38.4 0c8.3 19.1 23.8 32 41.6 32c26.5 0 48-28.7 48-64s-21.5-64-48-64c-17.8 0-33.3 12.9-41.6 32L512 224l0-160L352 64l0 38.4c19.1 8.3 32 23.8 32 41.6c0 26.5-28.7 48-64 48s-64-21.5-64-48z" />
-    </Icon>
-);
+const PuzzlePieceSimple = createIcon("puzzle-piece-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABfAAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBZwsIAAE2AiQDCgQgBYMtB2IbGwXIHoVxm5P8KYJzO23qYrEeD9/PfZ77Xn5mN3+LnAKiRha+7IB8HYFCR6quimA8SyKdoXNd2BIo2k5ws1Fp1lcQLfRb6B/w3eB0HOv0D1QHkOf/cs/v+dEBfgC/vXTjen42Rz1P4IDSqeEUCagskDLjdJvMzkj8IiKkRKLj0+PrDEUan09rkS6kFzjD/wMYXw1ymqQzA4ieAFi5zXXA92N8TPGieUC8sBoQEKsA1AIZGUMFWCILDFWoUSgEH1PT8DGapiaAKPFjMyiRsQOwBwAFSIii2NBudSu2crLadckwqlAuvjjuhhETp3mKDtGOiBuDFz99nzvHVihwy180l9ek4hIn99aPpe+pd/LzI18ULzTTh7wzXXfdOO/uzvj/qurR2xl39bYMycOGXr+hQvb8DggEv1796kJ+yf9oJ/D54c8v/YJ0PN1BhwSCPKWZYnc6biwKkCjFYSreSSDbAMGzdjkrQKgQIClVAmRD9BSgUJksQMtwcwUoVTbBougU+tozQdJlH8jmOQIKfd0HLUs8Dkp9IycXmRrk3y7OXiFrSZ45bUa9qD6mBpUveF1fXLu1CYdVayIOgsLKYC+Xqe0XZMuJD3q2BVs+SDbTNDPUFqmvi/XuQG5rp7YytE0Wq99bExy2hyfihQgwi5zOMpEiD9l7uF67nGS2SIJUIrE6KOyZ0AQAAAA=");
 
 export default PuzzlePieceSimple;

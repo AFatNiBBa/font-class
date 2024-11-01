@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/slash?s=duotone slash}
  * @preview ![slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/slash.svg)
  */
-const Slash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const Slash = createIcon("slash", true, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABTgAAAHTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKYGELCAABNgIkAwoEIAWDLQdGG3kEyD4NT4Zk+OokSGPD6VcUXRUJNg4p98EwzfxLhukdRKMbQTWW9cxugMCxQhUWFlBYAmPjkn9lUOgYcfUW1esY/5s7+HSotHuksR0zQ5LkSGONZiNES6Iais3azICHZ6LJHbYl0jwBSSn+5gGstNTMT6qH+x8APGCixHw1hMlYuy4xk6WVISvz/3MuXZSNBvh9ITi0Dh1IgV/W8xM40bRKg7MzxdNtIh0egfiGjCgJ6bi04+sANedKpon8nMCL/A9g/KLLSG0FQPQCgL2Tdopvw3PvHxPvWiAg9gGzJBQUTJLAJiEwSTELqipoJNAICAFEM/lsAc0oGAITACpIRK1dHU1d9Vieb79446LRt1dPGDn5iPLlX+0fvw4Egs2X5vhfneDnj79dKS6XR6sEQVn+WP3UQSIRAB8ynhkM3xQUXZLu6/QqQGjHIDVrh2KCBlW7JWgyrby/WbsDQtQ2YdDAIHW6g2LDC6pBH2iy6Vc0GwzxMrS8ah+z7ATxeBXzQza4bRh6spW+2ORx7MkDFq3F0snR3cLcxh24q7R+OEg8NvZDFPGFqIHh9rPdg+LqZrM248s08X5uevrjLcpkKrtib1GIjNL1cDm5rb0K81QwKwkA");
 
 export default Slash;

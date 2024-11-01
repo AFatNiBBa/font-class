@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-atlas` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-atlas?s=sharp-thin book-atlas}
  * @preview ![book-atlas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book-atlas.svg)
  */
-const BookAtlas: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 56C0 25.1 25.1 0 56 0L440 0l8 0 0 8 0 400 0 8-8 0-24 0 0 80 24 0 8 0 0 16-8 0L56 512c-30.9 0-56-25.1-56-56L0 56zM56 416c-22.1 0-40 17.9-40 40s17.9 40 40 40l344 0 0-80L56 416zm-40 .8C26.2 406.4 40.3 400 56 400l376 0 0-384L56 16C33.9 16 16 33.9 16 56l0 360.8zm200.2-91.2c-17.4-18.2-38.3-51.8-40-109.6l-55.9 0c3.6 54.5 43.6 99.1 95.9 109.6zm4.5-19.3c7 9 13.8 14.9 18.8 18.5l.6 .4 .6-.4c5-3.6 11.8-9.6 18.8-18.5c13-16.8 27-45 28.5-90.4l-95.7 0c1.5 45.4 15.5 73.6 28.5 90.4zM192.1 200l95.7 0c-1.5-45.4-15.5-73.6-28.5-90.4c-7-9-13.8-14.9-18.8-18.5l-.6-.4-.6 .4c-5 3.6-11.8 9.6-18.8 18.5c-13 16.8-27 45-28.5 90.4zm71.7 125.6c52.3-10.5 92.3-55.1 95.9-109.6l-55.9 0c-1.8 57.8-22.6 91.5-40 109.6zm40-125.6l55.9 0c-3.6-54.5-43.6-99.1-95.9-109.6c17.4 18.2 38.3 51.8 40 109.6zm-183.6 0l55.9 0c1.8-57.8 22.6-91.5 40-109.6c-52.3 10.5-92.3 55.1-95.9 109.6zM240 72a136 136 0 1 1 0 272 136 136 0 1 1 0-272z" />
-    </Icon>
-);
+const BookAtlas = createIcon("book-atlas", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABrgAAALmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDMQsGAAE2AiQDCAQgBYMtBzEbsgVRVA7iZF8U2MbUoYuwgfBqGIQ+fhnWv77o8SAWLU3INwYGlC42I4L4td6q38yn2Q0TqrBGdgDkCGSyKjlQOWGD9oBtdmFsbqhohkY0u4lX8Y7E3xPtmuphA444WnVAGHTg8suvtgMQ6CD//annoVAoIItDEJSXPXRp0hakNOd5BSr4tWNRhcbCWkWxg/NOptEhLrRzB3ncsQWZdCv94cL2ofGrdvZJsgxANAUApq1ZsUj3iy8RH6oTHywAAmIaQFeIDBk6QjARUaAjkq5ALhd8iWq1+w/UgQCi1vEkCeQo4w3eA3KQFHneuWnjRi1aNiqXO5RqGuWrSzVFdnqnDcaNPuwSKSgKSiWK8sPWlwriutOWGFcdb3XBbBQR5ZFOfmS1Hiro/LTGuC7G7c6MuNevFVZeE2OU4kabK+Wddjuv3Y04x2SU7re/lVxKMIq42vJcdq3Kvg7AeDZRd9tei/J5/3bkwhJXM/QHfijpk62pyp/1w3jSrwXHKeh9xmk99DmeGNA5H4rZ/Smv/c8v2+Zk3Z98n96ur3f1arsU2tY3VX98+3epHzPEfwYqzfiVTrMCLLV2e3V62XH7NXv20Wzkc/3fUmkfM+7uw/4ZL3YT9uLOnj3NNkCzPQd3Oo40DhE2ydFzNvbf4+64mPaV9485EjtE3+Lj20r7NyJKQAsdcmmr11e+erv07NllyNevZqahu9wUQCD4p/6sycT/YybwreKv4HzVrnfpKeolEGQDqwNV4h103AAqKfYyGL4okLxWOK617LoAoUCApFYhQKYDHgS5wgAIanQWhqBWYQWiyBuElqqETcp2sJnRNthcS49sjYk+y1otI8vAcvaTrx8zZrPYrFVdhw0e2nV8V20DUvKkOC9O6Ooc9N3bD/Qr0QZNmTRvQL8R8xhyVqa2YELaRKT8kI6fh49Ogi64vajnmNysuV5Uu8KXSdKlT2wWzePtZUxw8A5XlyQiFbnbHfQPX3MX");
 
 export default BookAtlas;

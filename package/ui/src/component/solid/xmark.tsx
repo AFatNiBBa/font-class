@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xmark?s=solid xmark}
  * @preview ![xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/xmark.svg)
  */
-const Xmark: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
-    </Icon>
-);
+const Xmark = createIcon("xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABWQAAAHLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBLwsGAAE2AiQDCAQgBYMtBywbqwTIHgfO+SleldUJBV3j4WON9v7unojBDklMPdSr4InmJdxQGSL5MuDrvULwp049z3kogA8Sp7ExOEHGBJrzPAI5jy9eLbVerhVrFcXuztZqCtPySRJL0i8cnx2yOJdeV0DyJvmNR+FD468W10mUpACiGgBTVi1b4GuXrohf3e+JX+YhIKaAXCBFinYBxksF2mVyZDJBV3R3039gTgBRSJ6ZgAwpxmImIAOJyLKhZQUV2Uq7WbrrlYgrjS9L79YvtzIQ9dzlhhWWB+pF2b2mVVYENoQRpt6xqldndec/v3f+trL3nQoq7ryuqHi9e49IJKzGSNyzG2IYs/0wCAT9lv6hqvH/i8sS8OfL/etyYnPSiWIJCNL+3f2tj8tyeWwWAIAkTurFXxRIDJWQdy33UoBQigCJQqUCpNpUC5Ap1U+AAj2MEKBQqWVSkZUI9TZkkCh3BKRGugAy9d6CAuN90wrVR/p+qNOnvm/xM0toxlg+ZODgfGze9SX6SRCuPy4fFnqfNLk+sGqnQw46boft9jheIEctME84YKYGz/BDuSEGGiw3Vj4dXc+vtMNRx+xxyEEeMk6+Xu3tpF7dB6ZJAEN33psQScHpiwYAAAA=");
 
 export default Xmark;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vent-damper` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vent-damper?s=solid vent-damper}
  * @preview ![vent-damper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/vent-damper.svg)
  */
-const VentDamper: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 128c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 32 32 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-32 0 0 32c0 35.3-28.7 64-64 64l-384 0c-35.3 0-64-28.7-64-64l0-32-32 0c-17.7 0-32-14.3-32-32L0 192c0-17.7 14.3-32 32-32l32 0 0-32zm120 16c-13.3 0-24 10.7-24 24s10.7 24 24 24l272 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-272 0zm0 88c-13.3 0-24 10.7-24 24s10.7 24 24 24l272 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-272 0zm0 88c-13.3 0-24 10.7-24 24s10.7 24 24 24l272 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-272 0z" />
-    </Icon>
-);
+const VentDamper = createIcon("vent-damper", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABeQAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAwsGAAE2AiQDCAQgBYMtBzIbBQXIjsM4hvwSSzmLePh+rc9zX/dM7fbMIvcyswKCMMi4qDg24lcsKoJk5q2dOvU856EAPocgKGPj0oCMqXufRyBiufpYwrVirUAlL7hVt4kGdoThGyJBI6Lj9LjqCHn8nV1VIb2cvsOD/qLxgw6ukjTOAERzAExfu3KxLxqiIeLb/yO+tRABMR2UAhkydBZgkkygs1yJXC5oiP//l//AkgCiyn42CeSoYg8OAnKQ5Hk+oV6v1ypN8jW1SrHx1YERn/ZtEu/3/7iDqMWdNs+Ii62fFkWIl/p91KseHwz4pGNEEbfbPo+IS+1e1GoRq99r/3LvJvFhp1f61PnjPT5p/slP3e1h6tSiBS3euuitFi2KUqnpzZtNLzKpOCgmvrPNlrdps7y5MmSdfw8IBD93/tjWZpN+bVRL4PvPf/lDb0wX0ydoJIEgG/T/IJvSRWB0AHqKM3qANwokW+TsWeueCxAKBEiqCgEynTQXIFcYKEBFV6MFqCqslIm8sdDaZgdJ3XGQGeMcyLX2GaiY5EutqnVkmUbnCf3RS5gTodlb5fAhw8oJ5TIxmOQh23JiuS32O1Mb/emgPY464pTddtnvVEBOWGyedtgcBM/2QaXhhhimNEF5nD/vr7HbCSftd9QRXTNReV/t5wzu709KYpgj+JJEpNqroHfwru2Hj+0+AQAA");
 
 export default VentDamper;

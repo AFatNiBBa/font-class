@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-from-dotted-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-from-dotted-line?s=regular arrow-down-from-dotted-line}
  * @preview ![arrow-down-from-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-down-from-dotted-line.svg)
  */
-const ArrowDownFromDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M241.5 472.4c-4.5 4.8-10.9 7.6-17.5 7.6s-12.9-2.7-17.5-7.6l-128-136c-9.1-9.7-8.6-24.8 1-33.9s24.8-8.6 33.9 1L200 395.5l0-83.5 0-128c0-13.3 10.7-24 24-24s24 10.7 24 24l0 128 0 83.5 86.5-91.9c9.1-9.7 24.3-10.1 33.9-1s10.1 24.3 1 33.9l-128 136zM32 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm96 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM256 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm64-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM448 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-    </Icon>
-);
+const ArrowDownFromDottedLine = createIcon("arrow-down-from-dotted-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABkAAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCTQsGAAE2AiQDCAQgBYMtB0IbXwXIhod/5nq7L8nM+WVOmVkBgmYLpMaVFoUryCWQnfm/Jt87qwL8RocUaamFsQ28SzfwEijcG0UJzNJnOgHb4LzJB9wd2neQxb24rEByJ/kOl9yDxi8aOU6ikAKImgAYOX/2VKVP8SniY/k58dFkBMRIkAukSNFUgCFSgaYyOTKZ4FOUy+w/MCeAKPKRxP4ZKnAKVwEZSBSzLK8D4iqFatk8taHy3OuVz9afF3cbPKw3N+DW99rfbyTE/LjV9kbDOYvO1Yu44XDdJYvcjCMNblWp0qbmHq6r18XRyW+YvOBGrZ7UfPJby+/WfeevBvsrV15/6JSf/qj2bd5icxxWb+bMeofNgaJv1f74eeSDn15VP83p6tVPRy1WtEccakG7UJ5zORAIvs5ecHR5jSH/VVRJwJc3f/yf/QiVP0UpeYIKCQjSLuUulkQJoiQAAEns0ypKCCQOObf3WtVNAUJlBEgUVRYg1URNATKVdRagoLm+AhRVNlsqskpCXUsrkKhqJ0j1cwBk6noKCoZ4mxbVjfRzVD4m5W8wc1wTHjst79mtRz4oH80r1C9M0v2D88V2h328riNca53tttljrTU22tPgd5ma22urcVPkWF+U66mbHnKD5JtLd5fPs9Yuu2203TY7zmD58X4H+6Zbd4RewhfsZUMiIZImK3ft2r6/60tqdV1XQFvTPXvWrun64QIAAA==");
 
 export default ArrowDownFromDottedLine;

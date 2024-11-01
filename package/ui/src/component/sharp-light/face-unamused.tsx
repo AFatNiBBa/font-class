@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-unamused` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-unamused?s=sharp-light face-unamused}
  * @preview ![face-unamused](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-unamused.svg)
  */
-const FaceUnamused: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM316.1 394.7c-11.7-13-31.6-26.7-60.1-26.7s-48.4 13.7-60.1 26.7l-10.7 11.9-23.8-21.4 10.7-11.9C188.2 355.4 216.3 336 256 336s67.8 19.4 83.9 37.3l10.7 11.9-23.8 21.4-10.7-11.9zM112 192l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32l-32 0-16 0 0-32 16 0zm176 0l16 0 64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32l-32 0-16 0 0-32z" />
-    </Icon>
-);
+const FaceUnamused = createIcon("face-unamused", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABjgAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCRQsGAAE2AiQDCAQgBYMtBzQbSQXIjtFLz4TxJkxSEM45VDw87Pfu3PtkItq3ZI6IlKzNNEGzUJeQTEiQCMU0k//x/uld4v+CEq8yJ0hTN2jVTGDNVniYOnXqec5D8W0UtLFpTR0LJJTdMc8rUC5Q37usQhGqaQWsjLV29j8w6L8vg6SLSDJsftjcoIx1tMQlX7Iu8FRnFf+MaCSVBQBENwCw+2JCFOzIUBZ40VgkPjgKBMQeAExDFAQYh2ADW8AbcEwDpVLwGf8b8htIQQBRg/01EpRown08AZQgVSVHc0xHWZFwxZxkUjHZffaIc+FnTHvoie0M7bWbDTslHRHnDvMGoue9GPsnr0lH1KXfbtKD707kBdMefeW/l5zZrYLYzbQrdSopoXmoRo/JsMmg0aCyMpqGygXSSjqUu+B2fyfTrtKNDINIyOAF/R25sS+9i7wL+LQt2uOjd5SHR5T33Z4IGgEss7+Fkbe7AQG78+pC2C9Nvrre3vYKfikrv7y2jcM1GX13JPzmRt0k9/2Zr8aSx60SvpR2U5B7JScXO3gfIBCs3K1/TZdu/BcQFsDXtZ8/5VvU2EnIHaBZgqCYbVhKSZAEACCjDvQTEEjXcdlc2z0TILQiQKq1ClAYIwdBqdUMBJVJThDUWp3FFqUQQr/URqV2l6jCkgaq1G+eqmw4zmv9wXZFzpG4n2ByMEJB56idtS11p9NG5b2LSccedFszrYtLZgSEPOXK1MiVo1ANIFWiqlqlgldwkA+i7FizRbmjx/29nAxolWqFjrLzUzzQ+5GpuvVmMzJZjHZOLSWR4oeeW9WWZZa+Xg==");
 
 export default FaceUnamused;

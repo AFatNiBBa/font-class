@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-plus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-plus?s=sharp-thin user-plus}
  * @preview ![user-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-plus.svg)
  */
-const UserPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 16a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 240A128 128 0 1 0 224 0a128 128 0 1 0 0 256zM75.8 320l296.4 0 54.2 176L21.7 496 75.8 320zM384 304L64 304 4.9 496 0 512l16.7 0 414.5 0 16.7 0-4.9-16L384 304zM536 112l-16 0 0 8 0 80-80 0-8 0 0 16 8 0 80 0 0 80 0 8 16 0 0-8 0-80 80 0 8 0 0-16-8 0-80 0 0-80 0-8z" />
-    </Icon>
-);
+const UserPlus = createIcon("user-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfQAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCKAsGAAE2AiQDCAQgBYMtBzAbKAXIhofn7fo691X1R2PIGpsZFGHJCFJnyyBXJkacOvU8FArN8zcK0ti2pm/PhWbXOK9AAYOtTS/otoLVtAJW61bGqKXIUo+SpHJyj9/e43kXyONve5VID6UvcUf60PhBZ9dJsgxAtALArA1rlql/HV9HfPH/m8QXliAgZoFCIEOGbgJMlQl0kyuQywVfx///+//AggCigd5uAjkacQ6XATlISnnetWtzrVelVMvXV0rlLTf7RTzZ+SGXOz3Y94nyjf5PdXk4rnR9ZMDTFTeHRDw/5Pm4Mvg5R5RvDHyGcHnQs32VtbVqbV1UY8MeHlNdG+2iUusQ6zeUK2UhyiQrFSEH6S7HTIfDej/X6rmfen25/0tfvdzjcR7/7rsePTLx+OM9eojc9WufOvXutd69a93r9T5SgXPPjIEajXvZvYozpuVMFCd/bIXWL69QnQc+boWeJiutbGqlaWWAm9TH60EgeOzdVWd3tJz6V1MlgW/f++UH+BX9X08n03NokkCQDf1/qK3pMlqlkwIAkOK83ukyAskxJXzXqvsFCGUESBqUBch01UqAXNkQAUp6GCdAg7I1MpE3C+1s6yCpOgUy410AuXZeByVTfZI0aBeZ8XGmw/36Jc8nNG9bMWr4yGJysa003p6YuD6leKwOPC9jg7DXficcd9Y+ex1ydkBPW5afc8z8EzLPFxVGGW6kwmTFdfssr6dz2hlh1uL9JlMU74cDnT/PHgQjUcrRSkkiUvMHqwyzXQ==");
 
 export default UserPlus;

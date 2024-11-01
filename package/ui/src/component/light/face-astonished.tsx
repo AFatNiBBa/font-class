@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-astonished` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-astonished?s=light face-astonished}
  * @preview ![face-astonished](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-astonished.svg)
  */
-const FaceAstonished: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm288 96c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32zm-96 0c0-35.3 28.7-64 64-64s64 28.7 64 64l0 32c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-32zM152.4 224a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm184-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM192 128c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8c-6.5 6-16.6 5.7-22.6-.8s-5.7-16.6 .8-22.6c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1c8.8 0 16 7.2 16 16s-7.2 16-16 16zm141 .9c-4.3-.6-8.6-.9-13-.9c-8.8 0-16-7.2-16-16s7.2-16 16-16c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2c6.5 6 6.8 16.2 .8 22.6s-16.2 6.8-22.6 .8c-15.5-14.5-34.8-24-56.1-26.8z" />
-    </Icon>
-);
+const FaceAstonished = createIcon("face-astonished", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABqAAAAK3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yCfwsGAAE2AiQDCAQgBYMtBzYbhQVRlA5GgexHYdxwl2CLGMqyOdPKi/78Ak2xUCjLMR7+f79v+5x3R0zaYMk9ikZIZDxksSTeB1bXRlKrf1FN8v9rv/YWfP+Zp8Vdm1hyk+k3HRoNUAT1ferU80wLBfCNgjI2Lg3ImJQLzXlegQLWeq+9gDcgsYLVtAJWc2veEAfKZCAigiNIIno81+NTB5R4FAvIk9fyBXCxXiq+EmsklQpAdAMAG/aHBcCFNGoRL+q7xAt+QEBsBJiGUAEyDoHVZAV7gJxpoCiCGqrX5T+QgACikZ6QoKAVt3EXUEBqLmVsbJNAoNzC7qEa6HKR+bNw2tRCFFu+z/AZ7yfGG2TSZNPnKXXW77nZthrt8yYU19vfqbMBL10uI36cL/xf8JnAV65XkSl1gyj68BleD4hafi91VtiPAg/roVjWmtVZFEMMaC+oz+kuSdC+4ZlZ8YD6nCSK2fXUyKb+Ge0eQZ9w2aqfusTv4UX0tV4W9Aub+bs6vbwewZKm6hJr6U/lJfMFft7+mHeOAXarAhzfXbXHXILX1MLI9qWb2+X2iLIkT6mpA4xT4BSjs0mfBnE+Poh76JmYYLPxNJaQmKnh7wzhN/KeUKQX27c17fivOJhtHvqdPdxS6+yUnrOm8daWw7Pfhs4uHlT8cwEEgtlDkfpJzNX/m6kEX45+/hd+RfWLlHfQLEFQLagvEJ8gCQBAxkmqCYF0WTO9arvLAoRWBEiNWgWojGFBoGg1HwINJllAoFGr3WRFaRH6JRBI7Y6AylJVoOi3DRqsdu806o/KT0UvE38T0zwt4nGPmBgaE1tympuS6/Flb0cu69qV3NMBFDIVKVQuQ7oc5YYuFeBXKOC5ozx8EWHCkDHCFrldfXweKUOpMjmKFMotdsjztrbK/bQOLBnKuFAmJZFdb4FpkPLVzMkpy85IBwAAAA==");
 
 export default FaceAstonished;

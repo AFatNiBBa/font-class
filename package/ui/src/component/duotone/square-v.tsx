@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-v` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-v?s=duotone square-v}
  * @preview ![square-v](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-v.svg)
  */
-const SquareV: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm98.5 82.7c-5.9-11.9-1.1-26.3 10.7-32.2s26.3-1.1 32.2 10.7c27.5 55 55 110.1 82.5 165.1c27.5-55 55-110 82.5-165.1c5.9-11.9 20.3-16.7 32.2-10.7c8.4 4.2 13.3 12.7 13.3 21.5c0 3.6-.8 7.3-2.5 10.7c-34.7 69.3-69.3 138.7-104 208c-4.1 8.1-12.4 13.3-21.5 13.3s-17.4-5.1-21.5-13.3c-34.7-69.3-69.3-138.7-104-208z" />
-        <path d="M109.3 146.5c11.9-5.9 26.3-1.1 32.2 10.7L224 322.3l82.5-165.1c5.9-11.9 20.3-16.7 32.2-10.7s16.7 20.3 10.7 32.2l-104 208c-4.1 8.1-12.4 13.3-21.5 13.3s-17.4-5.1-21.5-13.3l-104-208c-5.9-11.9-1.1-26.3 10.7-32.2z" />
-    </Icon>
-);
+const SquareV = createIcon("square-v", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfQAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBZwsIAAE2AiQDCgQgBYMtB0wbBQXIhof//Ou/fapu9wd0v80MyuGBEE30sqHSXpMKcf/9qZpxHgrg47iPRfk5/56xeK7u8wr0vCD1NbHk1RpaF7fdFDEJiS809lDEK/mGCumx9AVuRv8DGL/q4gZJkwwgWgNg9sa1yzXUopbii/qHxBeWISDmgFIgI6O7ANNkge4KJQqFoJbqdWpRr5cEEFXRuzOoooI12AMoQBJSUXTo2q1ZpUWxIfpE062vdFkfG+OJ/i91Xhf32j/ouCEeH5hTTo8Nfq1/i3hl6Bvdcjw+5PUBzePFQa92Xv/4wMPoreER+nmjj9x3pf0P694cduXynzb0eb3167/3/uLAF44NW/je6hetedHzC7udO/i1o9/UjlbmuaF2zUrCTdu0eXaWZw3RtNBfsWfNua4Ln5u4cMniQasHrXl/4cctq/16zSpnDZhwE409mL4OBIITb5w6t7PVtP8bN0vgl4/+/Le+XL0WDel1NJZAkIfVh9kWDSC4AfyoFBf0iQZbEMjGSxLc3IPbXmhKD0lVU8i6aQ2FpoZCRU/j96hqaq0siiZCe9v1kDR3GrIJLkKhvQ+gYpqP7ar2kYFLBA3x3y5twZiev6kcPWJUOaXcLLQSvPB2dWp52hh0QQ4G450OOOmEc/bb57BzI/aM5d55xy3YY+b7otJoI4xSmqK8XT/XNozsM846vK7cX2eq8n08yIX96YPxdhJgzGdJZCJFbh1C8fALw6FUbztRwiMAAA==");
 
 export default SquareV;

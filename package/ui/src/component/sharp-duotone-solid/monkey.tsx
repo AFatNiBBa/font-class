@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `monkey` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/monkey?s=sharp-duotone-solid monkey}
  * @preview ![monkey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/monkey.svg)
  */
-const Monkey: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M336 112c0 23.8 17.3 43.5 40 47.3l0 48.7 80 0 0-48.7c22.7-3.8 40-23.6 40-47.3c0-26.5-21.5-48-48-48l-64 0c-26.5 0-48 21.5-48 48zm64 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm64 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-        <path d="M160 416c0-80.6 49.6-149.6 120-178l0 18 0 32 32 0 135.9 0L566.1 400.9l9.9 9.5 0 13.7 0 56 0 32-64 0 0-32 0-42.3-96-91.6L416 448l32 0 32 0 0 64-32 0-32 0-256 0C71.6 512 0 440.4 0 352L0 32 0 0 32 0 192 0l32 0 0 32 0 128 0 32-32 0-64 0-32 0 0-64 32 0 32 0 0-64L64 64l0 288c0 53 43 96 96 96l0-32zm96-288c0-35.3 28.6-64 64-64c15.7-37.6 52.8-64 96-64s80.4 26.4 96 64c35.3 0 64 28.7 64 64c0 32.6-24.4 59.6-56 63.5l0 64.5-104 0-72 0-32 0 0-27.8 0-36.7c-31.6-3.9-56-30.9-56-63.5zM384 64c-26.5 0-48 21.5-48 48c0 23.8 17.3 43.5 40 47.3l0 48.7 80 0 0-48.7c22.7-3.8 40-23.6 40-47.3c0-26.5-21.5-48-48-48l-64 0z" />
-    </Icon>
-);
+const Monkey = createIcon("monkey", true, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABrwAAALiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDNgsIAAE2AiQDCgQgBYMtB0gb0AXIvgzYxiwp/xtTEB5PWXAEchzErHw05pY8bUC//AZtPHzZ0t7vGW1JszJymxkzwNg+QM6OI6D0ouOUKzdAsa1mEUHLmw2GIhiiRZvJePSL5Wo9Hj5vbzfbgDbZx+ESTyDABILECiKoYxY1mYETbpkHjAlc5bxtRxtPBlsfPxLHJRRZ4iHsAoo0N7gqAA7Ipo0e6GEDLsJyGRxOBAH9/JqLnjr1POehAP55hIMy1mqtNCbInlqBgpdqY1O5toViip2a9/IAh+brO0IZd/LFkp5I45b7H8D4S3MDSVMBIFoDwOyN9/Dl6PcUP9wvxA92BMQckAUKFOguwDSFQHeljFIp+F335XfeNwggatwnFqCGRnwMXwEoQVIoynJR396tydcbWpQb6g3VxpdG6L2lQtTr66NDCCGqiIjYMEA0UM0/zbgrRzBTYmW2iKgixTOD3+jxPNVCbw1M/LfIphFfManHw+N50fURr3Z9Mm38JPRw5yv6SBH1iHit02NYx0dr9XbnhzivpTirrH/tH3WP+Uc0f2CfN/nN39s8ozlyL0WW733yuGCSbJZsiJ1bOSDHLDnmph9+0FxaJv/CFSweQ881yy5Z45tvXsk7R8lo89rtq717Xz2fPt+mTeX++L/JoUNVP2f/X5dnrp/xo9vOEqwyWvr07bbF//OYVq5kCwCIL8ZZelbL338PEZffDwSC7/7Faa8m8Gffye3uX7PSm9AogaAYZm1Ls4DNCX46xQV9JmKPVQKFmwzAX232KIFQIUBSUwlQ6Ka1AKXKUAEa9DRegJrKWoUom4T2tlcgaXYaFCa4CErtfQQaTPN1uqZ9MicxfQrSv5AJuwmtVW0bMSpPyaNVBXNeknp6al5szAu8azDcyAEnnXDOfvscdq6BnLE8d95xC6bg+WKUjTbCKNkUeXPjrrABp8846/Awt32ZqfLxyUEuTA8eDO3ExxxjXaEgUhQtj38TlH4zKKnOXfQ=");
 
 export default Monkey;

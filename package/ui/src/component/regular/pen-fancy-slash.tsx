@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-fancy-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-fancy-slash?s=regular pen-fancy-slash}
  * @preview ![pen-fancy-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/pen-fancy-slash.svg)
  */
-const PenFancySlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L398.9 287.3 548.8 147.8C566.2 131.6 576 109 576 85.3C576 38.2 537.8 0 490.7 0C467 0 444.4 9.8 428.2 27.2L275.8 190.9 38.8 5.1zM313.7 220.6L463.4 59.9c7.1-7.6 17-11.9 27.3-11.9C511.3 48 528 64.7 528 85.3c0 10.4-4.3 20.2-11.9 27.3L360.6 257.4l-46.9-36.8zm19.9 144.6l-40.4-31.8-20.7 67.3c-2.3 7.6-8.3 13.5-15.9 15.9L149 449.7 198.7 400c.4 0 .9 0 1.3 0c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24c0 .4 0 .9 0 1.3L126.3 427l33.1-107.7c2.3-7.6 8.3-13.5 15.9-15.9l57.5-17.7L187 249.7l-25.8 7.9c-22.8 7-40.6 24.9-47.6 47.6L65.9 460.1c-9.4 30.7 19.3 59.4 50 50l154.8-47.6c22.8-7 40.6-24.9 47.6-47.6l15.3-49.6z" />
-    </Icon>
-);
+const PenFancySlash = createIcon("pen-fancy-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABegAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCDQsGAAE2AiQDCAQgBYMtBzYbEwXIngfZWeOsM1b6Isj9x8Pzev/92ie5bwBlIOlD7IjOHVtQWftsHv+Vm/8/19SL50cH+I0OLQpLm6K22ayDJzChsmjQKrDZRHHWzm76AXoLIYlPsll/2GQNefwdVymRbk5v4Uo/Pr7WwCmSUoYhquM9DZ87c7JXPogPIt78H/GmiQiI4aAQyJChsQCDZAKN5QrkcsEH8b/9DywIIMrg4RPIUcIq7APkIMnyvGG1npVKVfI5lUoVFz5Q+6Y62+P+erfWnRNz49Fmd3R4pM8T7WbFnOVzZ829sdLFOtc7VntWDJk9oP+AWXFdOerMOB4X48FGt7S5r/5xx2NazI0b602MIdEqnmg8K26qc33bufF0s5YtHqn+yLfN31rzljbPdfz+sf+mJi77OddfcHOe7d3bbdjNN97rm2drvn/dXcF9vnr1Wx6m9OdvudLHta7kOWqNNPDxjYUaCNPr1JmOLEENxcbhla7ytht1fKzrLeb+v/uWLjo99iMQCAb/9NVLqw36tXylBD567vvf0oH/l86mR1BeAkHW6f9OFqVjAnKguK4Te7TANwkki2T4Uyu7QYBQEQGSMhUFyDRSXYBcRR0FKGmqtwBlKpopE3kFobbFFZLKtkOmj8OQq+1xKBnkVb9M7cjUjVUW9rWXNKbFR48qunfpVgwopjmZ0yDa9A4sluV2e6imPWZaY6stdlltlfV2NeQOk6PdNhsjEaP9UKG7LropDFBsF+8nz7HaDjutt9UWN8xAxXm9nT1y8/bQEqbsYWySiFRt2+otnf9oZHTeuWn5znUAAA==");
 
 export default PenFancySlash;

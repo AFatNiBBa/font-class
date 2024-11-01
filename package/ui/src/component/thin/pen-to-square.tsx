@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-to-square` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-to-square?s=thin pen-to-square}
  * @preview ![pen-to-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pen-to-square.svg)
  */
-const PenToSquare: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M460.3 39.6l12.1 12.1c15.6 15.6 15.6 40.9 0 56.6L440 140.7 371.3 72l32.4-32.4c15.6-15.6 40.9-15.6 56.6 0zM175.4 267.9L360 83.3 428.7 152 244.1 336.6c-5.3 5.3-12 9-19.3 10.7l-78.1 18 18-78.1c1.7-7.3 5.4-14 10.7-19.3zm217-239.6L164.1 256.6c-7.4 7.4-12.6 16.8-15 27l-20.9 90.6c-.6 2.7 .2 5.5 2.1 7.5s4.8 2.8 7.5 2.1l90.6-20.9c10.2-2.4 19.6-7.5 27-15L483.7 119.6c21.9-21.9 21.9-57.3 0-79.2L471.6 28.3c-21.9-21.9-57.3-21.9-79.2 0zM72 64C32.2 64 0 96.2 0 136L0 440c0 39.8 32.2 72 72 72l304 0c39.8 0 72-32.2 72-72l0-144c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 144c0 30.9-25.1 56-56 56L72 496c-30.9 0-56-25.1-56-56l0-304c0-30.9 25.1-56 56-56l144 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L72 64z" />
-    </Icon>
-);
+const PenToSquare = createIcon("pen-to-square", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABhwAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCNwsGAAE2AiQDCAQgBYMtBzQbOwXIHqc7eqRTbxIP/2/3X/vcqi/Xfw1VS4rsgZC2HA0cyplXDrWygdN+Hai4yKxC9Ccupz/OfwMu8kdZw5b9Pcjyx7Wr8wQCXgMD78I8sEwTsI7mPTVAIV5oe0AeH9qvhnQhjWPhQ+NXvTxLkmUAoh0ACzetW+uzy3E54pvq28Q3ViMgFoFSIEOGvgLMkQn0lSuRywWXo1oV/4ElAUSt9I4J5KjFgzgCyEGS53lne99JTTUt+cammsZD3ZXuM54sxsTGmB3nmurevWn9pg2xPk4X62NTnOsxttYr9HT3Gcm+Ki4FvSvxcqNDdr84IuLVnikujHxtaEu8MvqNPhFnK6cLcb44PaQ5Xq6c7Z3FpR7nhjfdEzYvNA56vf31331zcF+f+zBtaW//8C9LlmjT+32vvZfEmVBe88Bzazt0rNX7gW//vHZdnXl9frFFNnjQgi2Ff18nKX9XKn9/aEB1bsD8wZcnM7l1gtbJky8j4DK39bja3btrd9X9eePOCe688WfdhOF5x+2urd19HAgEY5t/+GRX25z/65sSuPrBn/lfUfWz+C+9jnoJBNmY6hjbEzTHfwIAkOJ+gxIEkjvl0t1mZwUIjSB0UquRzvTRTucajaZr9DdVunhnnUzkDUJhB0wnze6iM9M8RucKb9I15vg8rFVEBoMKBCm/gJnLpvDSTeXEcRPKWeVuplPBSrKrs8vL9oj7ZWckvuigO9zuXgfsd5N7J9Td1ib3uc2yI2SpLypNNM4EpVnKx+XL0xsdcLd73OQOt/t1Ziu/D0a4/3h8JPaSxDvJvSQRqeXOA7ePvfeOsaAMAAA=");
 
 export default PenToSquare;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `light-ceiling` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/light-ceiling?s=sharp-thin light-ceiling}
  * @preview ![light-ceiling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/light-ceiling.svg)
  */
-const LightCeiling: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16.5 400l479 0C487.2 274.9 383.2 176 256 176S24.8 274.9 16.5 400zM248 160.1L248 0l16 0 0 160.1C396.3 164.2 503.4 268.7 511.5 400c.3 5.3 .5 10.6 .5 16l-16 0L16 416 0 416c0-5.4 .2-10.7 .5-16C8.6 268.7 115.7 164.2 248 160.1zM256 512c-35.3 0-64-28.7-64-64l16 0c0 26.5 21.5 48 48 48s48-21.5 48-48l16 0c0 35.3-28.7 64-64 64z" />
-    </Icon>
-);
+const LightCeiling = createIcon("light-ceiling", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABZAAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBSAsGAAE2AiQDCAQgBYMtBzQbzATIjtRW8VIJE0G0VhVZ3QvAfUSkgMkB+VPoVt2Dfffsnh0wukmEqNqpU88zLRTA94gHZWybGh8Tx+pc5xOwYr3aPA9YqVawmlbAau3sFy963aJP+hRJhu2H1eQJeTznkDLSo/Qm7pYPjZ90uUOSZQCiEQBLtm7c4OXP4/OIN0oTb1iHgFgCCoEMGXoFmC8T6JUrkMsFn0epFP4DCwKIcmg3gRxlWIItgBwkWZ7XtnfUlNXlW1KyelJdbd27WyL+9iZ3a4ga1t7ZTJQbqmtvdry3tY3tj8dGPN1dE4/a7o14ouNBT008HP3k8KFPNz79y5A3j7yp4TOkKvcuXbhk4f4gpjLNqdj77W+DuKrRoMP5sqXLl1Yeqqxs/F1FxSFhLDMy01cNNtFU3Sh76+PJkz9+K2tU3dQ0CASCl/6vd2/D/H/UJPDls7/9pD8jpZeT9DQqJRBk40vj7UogEQCAFFcMTRBI5sjgXWvdFyBUI0BSrlqATI9GAXLVxglQpt8MAcpV2ygTeZXQancHSa3zIDPTVZBr9QwoM98rXrnWyJxJcAXhKZe60kIrThVTJk4u5hbTjib6B5c35xXb+ugrPDGGLjjirDMuOeyQ48oY8oIN4WWnrVwRK3xRYYqJJivMVRz3H89vcdgFFx131hnZZp7ivj3alfX8MWQloJ2qkCQi1fnX0YSDh49/SQkA");
 
 export default LightCeiling;

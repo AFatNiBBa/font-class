@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-music` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-music?s=sharp-duotone-solid file-music}
  * @preview ![file-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-music.svg)
  */
-const FileMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 352L0 512 0 0zM64 416c0 17.7 21.5 32 48 32s48-14.3 48-32l0-100.9 96-36 0 74.7c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-128 0-32 0-23.1L266.4 209l-128 48L128 260.9l0 11.1 0 32 0 81.8c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32z" />
-        <path d="M384 160L224 0l0 160 160 0zm-96 64l0-23.1L266.4 209l-128 48L128 260.9l0 11.1 0 32 0 81.8c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-100.9 96-36 0 74.7c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-128 0-32z" />
-    </Icon>
-);
+const FileMusic = createIcon("file-music", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABkgAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCUgsIAAE2AiQDCgQgBYMtB1AbdAXIFkrLw/+vVd73q7oHanqxFriWmaKAWO3osYmKGhfq41f2iQur6J643PnbpgdcADzX+YP85qc1a2MCXZy1tcsTSqjLqAyst4loZyB9EkE2GfSHHmd16DwgjxezN9VI36UmPqH/AYy/jPImSVcGIAYBYOPxw3v1t6KVotn+gWjag4DYBCqBDBnGCrBGJjBWrkIuF7RSu00r2u2KAKKOwIxex+/qXXwNyEGSpDzvWNpYXtQa+bGi1n392NFjojgSYkociTKEEF93v19+WX417KvigxHfjIg4Lq9FVnQXoogUPVE7WVw/YnRVxP7Dk/oG9f0zsXmt6ZUJzwKtV+/59SPuPe6V+b5QqBzysLN8/nOj8fPzkne66vxkuwuxV1X6W/gpvXpd8CrrnzV+ZnrVCDeeBwLB5D+ap84PXPN/Z5HA7z/+9yf/kLT749XUh04JBNmc9hxn4lWIVwUAIMULJsWrNiCQ2SJxr9rjawFCNwIkdd0CZMYYJECu22wBasZbKkBdt8MykXcJpbOJSHo8JDLLvETkSt8TNWv85NaVkakkp1DchzB528DWbdXCeQuqVVUzFXktY/z86mranvGC1ky46Zr77nniqituehL+yN7gqbu29bCt3qiy0DwLVFaplotl8pirHnnsZl1c32S16rwzwwv94ZmwnwRY9JiJjEiRDTF/da616nOVu13mohkDAA==");
 
 export default FileMusic;

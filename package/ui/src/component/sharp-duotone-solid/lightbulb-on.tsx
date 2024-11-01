@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-on` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-on?s=sharp-duotone-solid lightbulb-on}
  * @preview ![lightbulb-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/lightbulb-on.svg)
  */
-const LightbulbOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M144 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4c19.8 27.1 39.7 54.4 49.2 86.2l160 0c9.6-31.9 29.5-59.1 49.2-86.2c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C496 78.8 417.2 0 320 0S144 78.8 144 176zm64 0c0-61.9 50.1-112 112-112l0 32c-44.2 0-80 35.8-80 80l-32 0z" />
-        <path d="M87.3 16l6 4 24 16 20 13.3L110.7 89.3 90.7 76l-24-16-6-4-20-13.3L67.3 2.7 87.3 16zM579.3 56l-6 4-24 16-20 13.3L502.7 49.3l20-13.3 24-16 6-4 20-13.3 26.6 39.9L579.3 56zM24 160l50 0 24 0 0 48-24 0-50 0L0 208l0-48 24 0zm542 0l50 0 24 0 0 48-24 0-50 0-24 0 0-48 24 0zM117.3 332l-24 16-6 4-20 13.3L40.7 325.3l20-13.3 6-4 24-16 20-13.3 26.6 39.9-20 13.3zm432-39.9l24 16 6 4 20 13.3-26.6 39.9-20-13.3-6-4-24-16-20-13.3 26.6-39.9 20 13.3zM240 512l0-128 160 0 0 128-160 0z" />
-    </Icon>
-);
+const LightbulbOn = createIcon("lightbulb-on", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABpwAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDDAsIAAE2AiQDCgQgBYMtB1QbsgXInoWx8yI08sypVCrxdq9FkA3b7N1967iui6qKLmwViniCRXhQzSJMVyjiMeKD7Q6J/zXW3j+xPcdsEXHpJIYozXQ6zTVkhgQR+j8AHHCFqM//NZ/f82iQz0dwSJF4t2iPxKjSCQx87W2zgWxgUaY4BbfdBDENbYTIFkpyFi5ATLoRXAHOo/8BjA+YWYCkkQEQfQDAzlF+Jk7GdEFX/8dAvCEDBMQugDmEjIwpBNYJBaaIzIGiCMYJYBxwIICoIjpnBlW0cAseABSQ1KQiMjJijCXIzdRMrBIVyXhFuZGxkSMZ1IOcdGOW6E2OtYYmhg5EUS9y1k3oO57k0MEUDNFUEDFNF6lxcHYwPMYriUbqHZ0cjR7klUSvqIYQLUI0y9c8l4x2PBntec/Sssme/UveQ9FTzl0BW3En2goGPbusWyrsNrWbX66arlB0l5+fP40IyyJMy2/HfjivpMw3+/ml+cA0b5jpnK9b05G87ZPvytg75xXnyudMsmYVM1Yt9mQfY2O/6pZR/QH+D1lp2pAXOlUXj9H8AT+/HNrjIuIABIKzLNis1kT8yJgA8P7yHfLk/xPBBJuAugSCvPjvgYo0A6DYBIRSDMFu564uELJTUsmttl0iEJoIkFQ1BcgmaREomhYQqJgRiEBV0x6hKHKECZU9SNpOQLZmEhQTjkDFutNg1UQI8SqhTfpbTE8aQ4nTuK+XDw/jmwWtDEHBD4bz04bLkG5wpRvRpFuXAY0atBoYkX0yI4M6Je3BiX6I8+XFBxeG3y4/14t4sE+/1nX1/iTh+Ps+F0P77V2pVSDhXDIjy0QioSGGs+oGO+o8u7s8od9svKB+5QAAAA==");
 
 export default LightbulbOn;

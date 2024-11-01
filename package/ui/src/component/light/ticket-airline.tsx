@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ticket-airline` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ticket-airline?s=light ticket-airline}
  * @preview ![ticket-airline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ticket-airline.svg)
  */
-const TicketAirline: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l512 0c17.7 0 32-14.3 32-32l0-49.6c-36.5-7.4-64-39.7-64-78.4s27.5-71 64-78.4l0-49.6c0-17.7-14.3-32-32-32L64 96zM0 128C0 92.7 28.7 64 64 64l512 0c35.3 0 64 28.7 64 64l0 66.4c0 8-8 13.6-16 13.6c-26.5 0-48 21.5-48 48s21.5 48 48 48c8 0 16 5.6 16 13.6l0 66.4c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128zm464 16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 64a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-16 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm16 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM217.8 218.9c1.6 4.9 .8 10.2-2.2 14.4s-7.8 6.6-13 6.6L160 240c-5 0-9.8-2.4-12.8-6.4L128 208l-3.5 0 10.1 40.2c1.3 5.1 1.3 10.4 0 15.5L124.5 304l3.5 0 19.2-25.6c3-4 7.8-6.4 12.8-6.4l42.7 0c5.1 0 10 2.5 13 6.6s3.8 9.5 2.2 14.4L198.2 352l20 0c2.8 0 5.5-1.5 6.9-4l39.7-68.1c2.9-4.9 8.1-7.9 13.8-7.9l40.3 0c11.8 0 23.1-4.7 31.5-13c1.6-1.6 1.6-4.3 0-5.9c-8.4-8.4-19.7-13-31.5-13l-40.3 0c-5.7 0-11-3-13.8-7.9L225.1 164c-1.4-2.5-4.1-4-6.9-4l-20 0 19.6 58.9zM187.1 128l31.1 0c14.2 0 27.4 7.6 34.6 19.8L287.9 208l31.1 0c20.3 0 39.8 8.1 54.1 22.4c14.1 14.1 14.1 37 0 51.2c-14.4 14.4-33.8 22.4-54.1 22.4l-31.1 0-35.1 60.2c-7.2 12.3-20.3 19.8-34.6 19.8l-31.1 0c-16.4 0-27.9-16-22.8-31.6L180.5 304 168 304l-14.4 19.2c-6 8.1-15.5 12.8-25.6 12.8l-13.8 0c-15.6 0-27.1-14.7-23.3-29.8L103.5 256 91 205.8c-3.8-15.1 7.7-29.8 23.3-29.8l13.8 0c10.1 0 19.6 4.7 25.6 12.8L168 208l12.5 0-16.1-48.4c-5.2-15.5 6.4-31.6 22.8-31.6z" />
-    </Icon>
-);
+const TicketAirline = createIcon("ticket-airline", false, "data:font/woff2;base64,d09GMgABAAAAAANYAAoAAAAAB1AAAAMMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQyELAsGAAE2AiQDCAQgBYMtBzUbMQbIjsM4hjwQJURRHrzi4UHvv85N8gFnbHYza7+3Rqd+tpLqdatOgOf7/dq5f9WerAmqjQqN5D6d6USLHrJqoy+hEwpDIjNxOe6yPB9TMA9l/Vi1ce15nkCAY9MalkiWFUlCnGHbdoj4iyGhaShwhiz+lg4lJI85ddzXv2n8qMPNkMhSAFEPgHlTY6Nc+5bvIj7+/xniYysgIOYDuUCKFN0CzJQKdMvkyGSC7+T/f+8/sIwAolRBSezKUInfIMBOIVGeZQOHViB45vyQpybb3DypcseBingYJ67Xj4RicZctisTLba9nn2h/ozniBlMIRpfOigh/U1281PpaRjysXlQPpx8zndP4iBaPtrzaUOsr0n1k/MOqYIrWgGwMAUfWw2zafKIeDgbjTjM8KqMniKTuqIoRUQy1irs0SGO1d9ktvsUWTcFMtVn6tHGbQ8GqlzLz5CGtj7CrXuUY58p5A3gKpmDHhKY9dhYSxgHRP1pgT7TDw0YT+9n+r8df/6l8vFlnzp7oHtweRQ95i/q8o7Kamqz5nT7Bff8HEzQ8C88mGirn0/15z1dfrvSTr3o+z89HDHnhPot9V1v7XS2bOyjq1gCYZf/Te/66YwcX+9uVL2olVcS2FXEBtoh9YPGgna5ZSdOQBSwJtGj8uNr/4+RQFUuCpKaSZtN7t5eKyXsf2vXJN11Go29sRDQjvLm877Xp7Y6YGl/yZLxW9dHt9k/eZUTvDEfVPymg1agz8gfuAALBbYdzR0uxoV/9oQT88PH7h72T650LUC4BQTry/w52poBiLAKFO4nL9Mc3CSR+oRxetVoBAaESARKlKgVIdakXIFNphAAlek0SoFSlDaQiqxCa7ZrZiWrn2KnJrrAzzd5il5jpPXep5khPf+DkBT4+Q0dI8vC4cu/osfn0XFo0gme0OB6ekRsrWy77TcOwlcOc4TQXOcRBjnGRoJ5nle8Sp1is4l/02dw4o42Vmy7fXJlFNxPu81zgmFjG9lFmyI/XDXVZ3XkYNIlC4Hg5iYRIan8Fkna+dQAAAA==");
 
 export default TicketAirline;

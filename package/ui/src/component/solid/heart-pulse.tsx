@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-pulse` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-pulse?s=solid heart-pulse}
  * @preview ![heart-pulse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/heart-pulse.svg)
  */
-const HeartPulse: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M228.3 469.1L47.6 300.4c-4.2-3.9-8.2-8.1-11.9-12.4l87 0c22.6 0 43-13.6 51.7-34.5l10.5-25.2 49.3 109.5c3.8 8.5 12.1 14 21.4 14.1s17.8-5 22-13.3L320 253.7l1.7 3.4c9.5 19 28.9 31 50.1 31l104.5 0c-3.7 4.3-7.7 8.5-11.9 12.4L283.7 469.1c-7.5 7-17.4 10.9-27.7 10.9s-20.2-3.9-27.7-10.9zM503.7 240l-132 0c-3 0-5.8-1.7-7.2-4.4l-23.2-46.3c-4.1-8.1-12.4-13.3-21.5-13.3s-17.4 5.1-21.5 13.3l-41.4 82.8L205.9 158.2c-3.9-8.7-12.7-14.3-22.2-14.1s-18.1 5.9-21.8 14.8l-31.8 76.3c-1.2 3-4.2 4.9-7.4 4.9L16 240c-2.6 0-5 .4-7.3 1.1C3 225.2 0 208.2 0 190.9l0-5.8c0-69.9 50.5-129.5 119.4-141C165 36.5 211.4 51.4 244 84l12 12 12-12c32.6-32.6 79-47.5 124.6-39.9C461.5 55.6 512 115.2 512 185.1l0 5.8c0 16.9-2.8 33.5-8.3 49.1z" />
-    </Icon>
-);
+const HeartPulse = createIcon("heart-pulse", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdgAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCAgsGAAE2AiQDCAQgBYMtBzIbBAXIhuD5vP+qc5N85LWRNjDq9sDagkvIi2VrN9b8X+75PT86wG90aHvogYypazbW8wQS62Vj20UBZYFlmoCl20ShnhDskggZJREdn8fbGfJ4NbtWQXoofYY77EPjax1dS9KYAYgWAJixbtUSb52IExGf/v888alFCIgZoBLIkKGLAJNlAl3kKuRywYn4///6H1gRQNTR4RPIkWMnDgFykKQ87zm+VjTN19aKcs3a8vj97WrxYufOsSbua3tL+3XRNh4aU4t726yOe8ub2+0qa6wMjQMMmLUmlMs9y7i5zcMR8ci0N+e9OOaxAW2jfTzTT458f8rrPcSVHXo+3eLpb3t8tvczp9s8+2QfZPfcdUZ8/5Th5zn3RLNLB6zWyr8t9pu759knvNKixSutz1yrzy9aX+6cr06c03+lkYed1/yHLd0XaVOcI69u6FSnKOom9G7888ZXverGPxt7T6iD1+h4ARAInrg//bGt+eRfG2oJnHrl+z/Yr+j/E0l6Gg0SCLLB/w+2OYFEAABSnK9ngkCyUcLv2sT9AoQSAZI6pQCZzloIkCsNEqDQzRgB6pRWyUTeKLSxZYKkicMgM9ZlINfGs6Aw2YdWnTaRZRqRJ8Q/L3auh+ZsqkYMHV5NrLaFQSYP1lYnVcdq//NhZADttNdBBxyzx25nOeaQI5a4x51nbgTP8UWVEYYarjJRdV2P29fa44ijznLQAVlnkuq92d/58fQBZCSKOlIsSUSqJXtkyKHj5x7dAwA=");
 
 export default HeartPulse;

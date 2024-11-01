@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shovel-snow` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shovel-snow?s=sharp-duotone-solid shovel-snow}
  * @preview ![shovel-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/shovel-snow.svg)
  */
-const ShovelSnow: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M97.4 328L120 350.6l11.3-11.3 72-72L214.6 256c-7.5-7.5-15.1-15.1-22.6-22.6c-3.8 3.8-7.5 7.5-11.3 11.3c-24 24-48 48-72 72c-3.8 3.8-7.5 7.5-11.3 11.3zm64 64L184 414.6l11.3-11.3 72-72L278.6 320c-7.5-7.5-15.1-15.1-22.6-22.6c-3.8 3.8-7.5 7.5-11.3 11.3c-24 24-48 48-72 72c-3.8 3.8-7.5 7.5-11.3 11.3zM255 223c11.3 11.3 22.6 22.6 33.9 33.9l89.8-89.8c10.9 5.7 23.3 8.8 36.4 8.8c21 0 41.1-8.3 56-23.2l6.9-6.9L512 112 478.1 78.1 433.9 33.9 400 0 366.1 33.9l-6.9 6.9c-14.9 14.9-23.2 35-23.2 56c0 13.1 3.2 25.5 8.8 36.4L255 223zM384 96.8c0-8.3 3.3-16.2 9.1-22.1l6.9-6.9L444.1 112l-6.9 6.9c-5.9 5.9-13.8 9.1-22.1 9.1C398 128 384 114 384 96.8z" />
-        <path d="M0 304L192 160 352 320 208 512 0 304zm203.3-36.7L214.6 256 192 233.4l-11.3 11.3-72 72L97.4 328 120 350.6l11.3-11.3 72-72zm64 64L278.6 320 256 297.4l-11.3 11.3-72 72L161.4 392 184 414.6l11.3-11.3 72-72z" />
-    </Icon>
-);
+const ShovelSnow = createIcon("shovel-snow", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABnAAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCYQsIAAE2AiQDCgQgBYMtB1IbhQXIhof/t6O671e1XD1gdY/ghWrFWiqCGM2Gg3DFTAqiPhsSWc3/5fTG86MD/HZHdChzNLe2fe/nCcTR2D6WRYEEkmaagTW67SaIaWiXzjhCHt9n92shvZK+xFPR/wDGTya6n6QjAxD9ANhWnXrIx2MxluLL5nXiSwcRENtBKZAhwxQBNsoEpsiVyOWCsdQ0jEXTlAQQraJXZKAVHXgUrwJykGTyPO8YGCiKsq+rpSc/IzrcGdVp1elxWpxRjS/Gz4+im7GIeTE+qpMnsWre/HkVg7JeHPd88f7GiGbdT55nPxrVC8MRCKpyut5aMD62xGb0nI1RxBF3D59W3TN+fGyKIp7vfHTcizF6rP/YLyNf1l96+qOngPfwYWGWb775fOa7Kr923J493hX3aKYkF95e1/Un3z1++q4VK0YGR5c3/IHTdoXzjhx7j52nn3WW/wuX1QYMeK/MqtUjxVOLc+++o+fh2ntqD/e0dE4E4rKdt/yx/IK+jf+0dyXww7u//Sj4HTUfJ+kY2iUQZAubhc5NIBEAgBS3GU1wkUCmkovetduLAoROBEhadQqQmaxfgFynBQK0mGaVAK06nSoTeYdQOK8HSbcbQWa1O0Cu8BposdEn8VZFZDaTt1f8j2HK7jG6a1q5bPHScn25WdYKlo3V4xvK07a5t/G2efCg2vWuc4vLXOpKt4zwmxxK3epau/ewXb6otMxiS5XWK2/Xnu8+w2VucrMrXe+6cJINyvdDc92233sedCYJ5XKrMhmRIhu6+WuZ/ZpFnt5YZMg7hueSeQYA");
 
 export default ShovelSnow;

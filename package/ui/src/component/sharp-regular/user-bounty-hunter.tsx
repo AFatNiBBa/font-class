@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-bounty-hunter` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-bounty-hunter?s=sharp-regular user-bounty-hunter}
  * @preview ![user-bounty-hunter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-bounty-hunter.svg)
  */
-const UserBountyHunter: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M323 120C309.4 78 270 48 224 48s-85.4 30-99 72L323 120zm5.5 36.4L248 171.5l0 95.9 9.9-1.7c8.4-48.3 43-79.4 71.5-95.4l-.9-13.8zm-209 0l-.9 13.8c28.5 16 63.1 47.1 71.5 95.4l9.9 1.7 0-95.9-80.5-15.1zM96 70C123.1 27.7 170.5 0 224 0c80.1 0 146.5 62.2 151.7 142.2l8.3 128.2 1.4 21.4-21.2 3.7-136 24c-2.8 .5-5.6 .5-8.3 0l-136-24-21.2-3.7L64 271.2 64 256 64 16 64 0 80 0 96 0l16 0 0 32L96 32l0 38zM64.5 464l95.5 0 64-48 64 48 95.5 0-19.2-64L83.7 400 64.5 464zM48 352l352 0 33.6 112L448 512l-50.1 0L50.1 512 0 512l14.4-48L48 352z" />
-    </Icon>
-);
+const UserBountyHunter = createIcon("user-bounty-hunter", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABfwAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCKAsGAAE2AiQDCAQgBYMtBzkbMQXIhuB5ndm8L9nZCLIOsQJEB8xQVIHqCGtPnXqe81AAn0MQtLFpaSi2zhOa8zwCERuW3ZZ61XotYNUKWnfnVkwS7SQtRZLjm/TLDnncHTdoke5M3+D6dNH41XCXkLQyANEBwIa777ytD9bEmoivu68SX9saAbEhaAQyZBglwEqZwCi5BrlcsCa6XfoPbAgg2viSCeTowUm4CJCDpJ3nVV1P7a3LVp3vVraKw++aHvHU4lemPjGsHL3L7ruIoXH/jKenRDFo6KBHpz05enBE7Lbb0ysi3i4/XfXuuF1jeEyMXeKqYreYHCMD3luWogh7lEW5fWwbZcyPKubuVlf1rjE6imps7D7+qc5Tv4/75rBvbLT58zfzUNM8dPPzn+28Q6999f5ucPDmm+/d78e6rvfefLNDbnCA7fsN3XX7RJr2w+2379PnfC0bu3yoPPezNpbr9ZeOTtPomDzmyv15pKvrAOsbZk7n+APAPu54q82/brX8PAgEs3964vP9e1f+31MmsO6tP/9kHu5+EB+kp9AjgSCb2Z1pn/gACB3AT0pxmvHxAQLJUdr4Uyu3CRAKBEjaCgEyI3UEyBVmCNAyxiIB2go7y0TeVxhk3wqSyokgs9i5IDfIy6Blpc/1tkGRKR+pOuTXL24zCW3a18ybPbdZ3nRdhdInPLRXNNPi1NNcahpOOszxjnOKQx3iSKcI5CTbWqc61mYjeFNf1JhntrkayzXLwe3wbg51kpMd6XjHxS4rNPvVqU4bF09DJWHM+RxJItKAAyvMev3STjlz1hGXGQAA");
 
 export default UserBountyHunter;

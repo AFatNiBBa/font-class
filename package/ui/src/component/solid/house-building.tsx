@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-building` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-building?s=solid house-building}
  * @preview ![house-building](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-building.svg)
  */
-const HouseBuilding: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M368 0c-26.5 0-48 21.5-48 48l0 105.9 64 58.7 0-4.6c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-18.8 0c1.9 6.8 2.8 13.9 2.8 21.1l0 10.9 16 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-16 0 0 112c0 18-6 34.6-16 48l192 0c26.5 0 48-21.5 48-48l0-416c0-26.5-21.5-48-48-48L368 0zM512 208c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm16 80l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM400 96l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm112 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM0 277.1L0 464c0 26.5 21.5 48 48 48l288 0c26.5 0 48-21.5 48-48l0-186.9c0-13.5-5.6-26.3-15.6-35.4l-144-132c-18.4-16.8-46.5-16.8-64.9 0l-144 132C5.6 250.8 0 263.7 0 277.1zM144 296c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24l0-48z" />
-    </Icon>
-);
+const HouseBuilding = createIcon("house-building", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABpAAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDIQsGAAE2AiQDCAQgBYMtBzUbpgXIjpQuL5Tx8P92/bfPrXqqfsb9AkdCBkUgIzIbB5l6TYpM6Hp+n7jm+ac9lf5v84kPJTK5PCp4Ag+6KG8aDXAWaTOZgG9x29WSoRIaC401lPFPcbMm0sPpa9wZLjR+MuJmkrYCQHQDYNsxRxzk03rUI75qvEV85QAExDaQBQoUGBdgo0JgXCmjVArq0WiI/8BMANEs/Z4ESrThVXwIKEHSUpZru3t7u8e7a00d5dG1puqc5/oj7hsWh0XEg0O1uH9A3Ndfxf3EiBLXDz/14tCDY0U8MvjA7Oqoc2wPDMZRtapmxc80PjoWPJ98qvDwwP2zOh4VYv4bBo+OB6pb+o8MOurROefQ50fQh2ae9IXRmP5K9yu/TPv67K9d8snSb/mmON/fmnTWs3pn1lnvM69W0z2K6XapsV8/hYUi+ynFN98urd9JSwvddUjOucba4Os+mQ66pOuKs/HcB0n8mia/POoDA//deZNve3u/zXP/G7izd+CwpQ4bWIofDwLB/p8vm3dK18bfWmsJ/Pj+P6GDG5+m69MraJVAUCxsLHRiuh7EgJDCKa42feeDAslLWuBzbfeAAKFCgKRZJUBhTLcApcoCAZpMWiVAs8oRClG2Cf1O6nlJu8t4hdWu4ZX6vcFrstFnoWb9UQCuFOyk/42pdo+BXWx52eKleX3ezGkyWBTb3g35tGnu1bJmHl7pbJe42JXOcqbzXDnCL3dQ9CoX2b2H7fJF2TKLLZWtl28Xn6uOHoUud4Xz1vXuD7NBft8319X7zedha5IELpeUJCJ1ArV+0dcNAA==");
 
 export default HouseBuilding;

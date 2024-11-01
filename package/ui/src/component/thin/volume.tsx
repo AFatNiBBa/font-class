@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volume` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume?s=thin volume}
  * @preview ![volume](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/volume.svg)
  */
-const Volume: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M322.2 48c-3.4 0-6.6 1.2-9.2 3.5L175.2 174c-1.5 1.3-3.4 2-5.3 2L88 176c-22.1 0-40 17.9-40 40l0 80c0 22.1 17.9 40 40 40l81.9 0c2 0 3.9 .7 5.3 2L313 460.5c2.5 2.2 5.8 3.5 9.2 3.5c7.6 0 13.8-6.2 13.8-13.8l0-388.4c0-7.6-6.2-13.8-13.8-13.8zm-19.8-8.5c5.5-4.8 12.5-7.5 19.8-7.5C338.7 32 352 45.3 352 61.8l0 388.4c0 16.5-13.3 29.8-29.8 29.8c-7.3 0-14.3-2.7-19.8-7.5L166.9 352 88 352c-30.9 0-56-25.1-56-56l0-80c0-30.9 25.1-56 56-56l78.9 0L302.4 39.5zM430.5 180.8c2.7-3.5 7.7-4.2 11.2-1.6C464.9 196.8 480 224.6 480 256s-15.1 59.2-38.3 76.7c-3.5 2.7-8.5 1.9-11.2-1.6s-1.9-8.5 1.6-11.2c19.4-14.6 31.9-37.8 31.9-64s-12.5-49.4-31.9-64c-3.5-2.7-4.2-7.7-1.6-11.2zm70.4-77.2C546.5 138.7 576 193.9 576 256s-29.5 117.3-75.1 152.3c-3.5 2.7-8.5 2-11.2-1.5s-2-8.5 1.5-11.2C533 363.5 560 312.9 560 256s-27-107.5-68.9-139.7c-3.5-2.7-4.2-7.7-1.5-11.2s7.7-4.2 11.2-1.5z" />
-    </Icon>
-);
+const Volume = createIcon("volume", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABhAAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCJgsGAAE2AiQDCAQgBYMtBy0bIwXIhuB5u/+qc7sfNGQPrSUcmdHPlkFmRsL/XPP5PT86wM9HcCjRWHoebVWrej6BiTU20AZaOJsobneRKaNE+7oiI3n85vF0hDw+cFiJdG96HzfHD40f9HQFSZYBiA4AWLBt0xptn8anEe///wrxvlUIiIWgEMiQoY8As2UCfeQK5HLBp/H///gfWBBAlNEDE8hRxpm4GJCDJM/zAUXH3o1SK9/aKNWPvq7L5rijXg+94Q7ikq53NhpxfdctoaJ3d8/irm5D727Uxp1SXDK9qn5dt61Rj0e73dUr4v7udw9rxLYtd3d9Y8Aj0+/oD3d/qv9DI+/qvu2NMRHPuGT00yY07rm4dOyzQ3LpiQc+2eHJnwa8f9T7FtxcmnTtuTpmG3V86s2O63V886mOG2Udrz3PxFJb8wrNtmlXN1rnXN26Quvqc1qNq6862zqn/PdLZb3KL/+dss5VZ19yw5JNszp0mLVpyZTFX1erXy+esmT1iGlMHTdu6rQRmxZPWfxH50GjRg3q/Ee+wyYgEOy84ubX9rWf/Wu1kcDnb/7yl7u9+P/TND89iaoEgmz0/6PtTvMVID4AO8VZBjJfFEhOlKODTXcJEOookJTVIdNbB8jVjYKSfqbQmwc2yUReE7rYAyBpOhUyU10IuS5egpLZ3rLKukQme6zksD+/pKUtsmRVMWHs+GJmMa0kTpxovzir2JaHn2UHRsBWRznZSc5wxGHHOqPBTrPGPdOJlnLoEj9UmGCs8QozFcft/fqtjjjN6Y51spPCMrMU9/XhzuLHjwAtIcKJMkkiUvlZAwA=");
 
 export default Volume;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `train-tunnel` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-tunnel?s=thin train-tunnel}
  * @preview ![train-tunnel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/train-tunnel.svg)
  */
-const TrainTunnel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16C123.5 16 16 123.5 16 256l0 248c0 4.4-3.6 8-8 8s-8-3.6-8-8L0 256C0 114.6 114.6 0 256 0S512 114.6 512 256l0 248c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-248C496 123.5 388.5 16 256 16zM192 144c-35.3 0-64 28.7-64 64l0 160c0 35.3 28.7 64 64 64l128 0c35.3 0 64-28.7 64-64l0-160c0-35.3-28.7-64-64-64l-128 0zm0-16l128 0c44.2 0 80 35.8 80 80l0 160c0 38.2-26.8 70.2-62.6 78.1l52.2 52.2c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L316.7 448l-121.4 0-61.7 61.7c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l52.2-52.2C138.8 438.2 112 406.2 112 368l0-160c0-44.2 35.8-80 80-80zm80 248a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM192 208c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-128 0zm-32 16c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-64z" />
-    </Icon>
-);
+const TrainTunnel = createIcon("train-tunnel", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABsgAAALKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDQgsGAAE2AiQDCAQgBYMtBzMbxQVRlA5GgOzHYew2GfLzN19MRfkoFrrA4FxQxTYe/v/ez33OvVMLTffWaDpoFS5dZKyBDkhPAvJXgP+KRuBdbO4fdiPEP9JeGRppJWjgXM1mbIZi0/j2S2cS3g0AsLH55wIKGBVBEe0J01cV/J/LPb/nRwf4jc7kcKxRgYypez9PIJFp08sCuRLJNAHL99bbqHeIjCTJpCbpcBv/cPp3qPGtA0++Zgs85t3xn60PpFIIiGGQUA7O2gZ+bbYjWs0JREs+EBCHAHMQBQVTEGxjBaZw5oCqCtrRNPU/cA4EEJ3kExNU9OAP+AuggtRV6+KEIY99MrGT2oZaVVJb1P/KId+FkPsV4LDFqBX5N/22+Gv178LPqdeV83P+hB3mfaiqWPYh123ACd8NT8k1/y17ctJv00tQCnkSEucIjvuse5RyxGLYqoyCJRy2GrUu56rfph05578VXTlqNWwxYjlmLVTW5JjstxyBYjEs+qxGWTVsAY5YSo5Zk6NWwmNvS8IGYQvi9XTbNNn85/qp6xOavTQ0A80PwIO0Z+i0tOg8Q7aN7YAqG9lQDdjaIHt1btrDQ3NzGpK7500BUzEPYWo6r0AJMTRRlHJeZxXnYaClfZKOyMjy8s94wGeN5CvScaKtZTAPVnWaFD8ZqdVGTBRi1AP0GBn17HBeUxulwEitYLWxbQXRTgHx43EAAAGEy8+nv5qNEx70pMoE/77+v2q/ouZ3yjfQLUFQFpoFY4IkAAAZN9SEQHqnS9613xOC0IsAqVOvAMUkBYKq1zwEHWbEEHTqdYQVtUcYNzGkfudQbHlDNe4LHbb9s53Go3gy64fsf2RSrZFqG/mORwVt2zrnnHRaL+nY0l4Y0+kkrJydPCxmWw+F3TSFp6PaQitfRHwODynQde9ZGlR4cwe9Fu43KdH7jOZlz9bJZQjumpqURPZ/sNX24/p0Wg4=");
 
 export default TrainTunnel;

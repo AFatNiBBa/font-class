@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cc-jcb` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cc-jcb?s=brands cc-jcb}
  * @preview ![cc-jcb](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/cc-jcb.svg)
  */
-const CcJcb: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M431.5 244.3V212c41.2 0 38.5.2 38.5.2 7.3 1.3 13.3 7.3 13.3 16 0 8.8-6 14.5-13.3 15.8-1.2.4-3.3.3-38.5.3zm42.8 20.2c-2.8-.7-3.3-.5-42.8-.5v35c39.6 0 40 .2 42.8-.5 7.5-1.5 13.5-8 13.5-17 0-8.7-6-15.5-13.5-17zM576 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48zM182 192.3h-57c0 67.1 10.7 109.7-35.8 109.7-19.5 0-38.8-5.7-57.2-14.8v28c30 8.3 68 8.3 68 8.3 97.9 0 82-47.7 82-131.2zm178.5 4.5c-63.4-16-165-14.9-165 59.3 0 77.1 108.2 73.6 165 59.2V287C312.9 311.7 253 309 253 256s59.8-55.6 107.5-31.2v-28zM544 286.5c0-18.5-16.5-30.5-38-32v-.8c19.5-2.7 30.3-15.5 30.3-30.2 0-19-15.7-30-37-31 0 0 6.3-.3-120.3-.3v127.5h122.7c24.3.1 42.3-12.9 42.3-33.2z" />
-    </Icon>
-);
+const CcJcb = createIcon("cc-jcb", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABlgAAALMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCcAsGAAE2AiQDCAQgBYMtBy0bbQXIrgu4IdsLUPyQhYmYRV5R2ljTx9F4UQdfft5zJB7+savvvqoatT7VH2YmOIMiUAsrk9M9G2488Pi3/qAQFLMiIkQhSc3r4oUbPLekyFdStDbIzc9HOxHe7mHdJkWTlaYaHvqd/0qSPMEARzjT2Qx7g/nAB0dWL9TiMvOAUyFk+pdrQpwECdmf/t6d/7XoAz7+7nPZqEAWZdGc5wl0Pq3LN1jZtumJYruzKVsReSRpKUuSm3a81pDFr3ETSa64bwCn4pPGv2JHkKhIAURdAIy9Myf7ICMjvqkV4hsPAmIcKAukSNFSgBFSgZYyZWQywV+xN/4HQgBRKZGJE2eoxlW4C5CBRGWWNWySJFnIejGbk6/IrQxxLB9LB+WCnm94MHfU5g29mIs4SuJANOd4yS42nuvS5HI936GQh+1i8zTX7FLnYh7ohWbLUj53QG80vZx7uMSD+SB/UD5vkXYXY/ZrK3J0RO73Gx0fDD7WOfLGfq31rcGvD3X41e0/kmxdOngUkY9jdinaPVX3qf/qmvm/piqnPXipUHyRkBWrcufxZCWqC+3xRaUsjY+K/aPVvfRV+u1vc9b/23pq4fU2+Cgj58zT8oN3afeZHnzwLRXHS1n1NDq9eD6t+O49Nz+2xIzZKAh88lu+Nn9sB30/WGvamje7P7/6640CBILn7nzl0jLi/0YC/nl+OZzaLEfyFKiWgCDtUTuyqIwBFAaQSWKPdsIEA4mzLvtRCy4SEHIIkKiUEyDVQl0BMjndBajQ2kABKuXMlIqsRmhocQOJgu0gNchekGnoZVBhhM/TlRpGVVBZveTvYcYkDk0cV+47r9VeDYuqonOiHz6q6aDLS00drLTGVlvsstoq6+1i/A6Tc7ttNkniJvqhsr566aNsmPJy5X75HKvtsNN6W20JowxX3p/qYo/cuStMIgH0e1qRCiOpXLmy54a7AgAA");
 
 export default CcJcb;

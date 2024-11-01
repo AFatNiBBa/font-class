@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gif` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gif?s=regular gif}
  * @preview ![gif](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/gif.svg)
  */
-const Gif: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 80c8.8 0 16 7.2 16 16l0 320c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l448 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM296 160c-13.3 0-24 10.7-24 24l0 144c0 13.3 10.7 24 24 24s24-10.7 24-24l0-144c0-13.3-10.7-24-24-24zm56 24l0 80 0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0 0-32 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-88 0c-13.3 0-24 10.7-24 24zM128 256c0-26.5 21.5-48 48-48c8 0 15.4 1.9 22 5.3c11.8 6.1 26.3 1.5 32.3-10.3s1.5-26.3-10.3-32.3c-13.2-6.8-28.2-10.7-44-10.7c-53 0-96 43-96 96s43 96 96 96c19.6 0 37.5-6.1 52.8-15.8c7-4.4 11.2-12.1 11.2-20.3l0-51.9c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 13.1c-5.3 1.9-10.6 2.9-16 2.9c-26.5 0-48-21.5-48-48z" />
-    </Icon>
-);
+const Gif = createIcon("gif", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABkwAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCVgsGAAE2AiQDCAQgBYMtByobUAXIhofn7f7ftc/MAzyfROxK4k0pd3BvVkl7L049z3koQLnnEARlT0onjQW2p0DPC95ta3NFeqVaRbG6qVjBHn18isgIZRVXdnwe72AHyOPLuE0F6f70CW61N40/9biKpCIDEM0AWLZnxybvfRffRXxcfpn42AYExDJQCGTI0C/AQplAv1yBXC74Lspl+Q8sCCAq6WclkKMKt+BuQA6Sijxv7m0optRVNOS76ypqT7q7I8Vd7fVxT2cW93Y1HPvU2IjnulPcP+75UQ3x7IQX+rJ4YHxpdP2up7rF/aOe7Yt4YPQ6Aay6aNQyUhtOpR7b+WBXxL1jbux4uu/B0c/UvjT2uf6Hxz0/69kx90bEnnr4ZF2Iu2qf6bynd3ipufT3sE9O/ET5rO8al2r87j228t0pj7XQUrtUbUvLY+8BUXJ+vXRbx206tk3roq2qLuXoWGM1yvGxCkvlvbTZt2uyT/lqav1da5+4avz87stKpepqmXLZF2c+0zBTx7Yi9dJqDc6tnvrVpxkQCI5/c+RDR5oW/lddl8APb/z7P7u6/F1amkqolkCQTSxPdDAtBSYGkE5xoeHBFwWSa1TQZ+rdI0CoRYCkUu0FmT7NkKs1ASoMmsUk5++QibxGaHeIIKl3DmRmuxhy7V6ECgu9n6rUHllNchXFfREmr0Zk1aRi2uSpxfxiW+J8mTFjdEGRtsde2FvG0RonOsuZzneC451iFGDn2pS9wBlWR+gqP1SYZrKpCvMVx9VXeTdTUz4PmXv+fBwLFO+Hxrow7j6OvERJp4slya+J/ZNOOREAAAA=");
 
 export default Gif;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `meter-droplet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-droplet?s=solid meter-droplet}
  * @preview ![meter-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/meter-droplet.svg)
  */
-const MeterDroplet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 512c53.7 0 103.5-16.5 144.6-44.7C390 447.2 384 424.3 384 400c0-23.6 5.8-46.9 16.9-67.8l75.3-141.2c4.9-9.2 12.1-16.7 20.6-22.1C461.2 70.4 366.8 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512zM192 160l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32s32 14.3 32 32zm96 0l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32s32 14.3 32 32zm96 0l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32s32 14.3 32 32zm120.5 46.1L429.2 347.3C420.5 363.5 416 381.6 416 400c0 61.9 50.1 112 112 112s112-50.1 112-112c0-18.4-4.5-36.5-13.2-52.7L551.5 206.1c-4.6-8.7-13.7-14.1-23.5-14.1s-18.9 5.4-23.5 14.1z" />
-    </Icon>
-);
+const MeterDroplet = createIcon("meter-droplet", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABigAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCPAsGAAE2AiQDCAQgBYMtBzQbQAXIHgm2zYP1iziTPEU7Hr5f+/Lc1/0XAHuBmMM+EwmkJmrZBexU7FYk8M93toGEf/CfuNz526b3zU/waGPaHBUuoL3PE0hs+AbqOs/CLPJEpN3ZHEOiedRIYkmOb+W4nCCPf7qsRHo/vcG99KbxTkuXSWpmAKIBACYsWzRHZVVURbwuf0m8NgsBMQEUAhkytBFgtEygjVyBXC6oinIZ/wMLAohqCEzuz1Edp3AXkIOklOetm9EPq3apbr60dqnWkp/nVcSFXsviWfOf5v609IfZb8ZXLv5xwvdz3i5ZKZxv8rjWzWZPI+JC82e1bzV9ovbkmUsWL1v8no97fDrk616ftb/Qamk8bfa4SceKBhW/dniz9Y3yuAXe1e3Suf7M2848bz3zv/F9F5nmwoOWLQoxrUXLBxeCcesKU6p3/Xo97xV4VesnpeN9Zt3OB1+0qf8/XJsXM287XR8wEAi2f/Jlsa7+6N9q1E7gl+/86e5XrkznUwVqSCDIepd7W53OA3IDqKQ4qqPwQYHkkBJ61TqeChBqIUBSTS0BMq01ECBXSy8BStoZIkA1tSySibym0MSaxiZ1HGAzQ51hc018zpaM9rxcTZPI1FBSIukTmD61B6bsKgb07V+MLJYdLGuWEDZHFdtm96N2ogcctdU+ex22xWY7HO7wg+bUjthjqoRN8UWFAfrqrzBScdx/3L/UFgcdssM+e+M2oxT30+6OyvN7gJMQ70B1SSJS3ado9HkF0e4thwEAAAA=");
 
 export default MeterDroplet;

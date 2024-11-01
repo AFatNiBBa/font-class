@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `earth-asia` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-asia?s=sharp-solid earth-asia}
  * @preview ![earth-asia](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/earth-asia.svg)
  */
-const EarthAsia: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M50.4 288l77.6 0 32 32 64 0 0-96 48 0 0-80 32-32 0-58.4c-15.4-3.6-31.5-5.6-48-5.6C141.1 48 48 141.1 48 256c0 10.9 .8 21.6 2.4 32zM454 320l-38 0 0-32-64 0-64 64 0 64 64 0 15.6 15.6C408 405.8 439 366.5 454 320zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm128 96l0 32 64 0 0-32-64 0zm160-96l-32 0 0 64 32 0 0-64zm32-128l0 64 32 0 0-64-32 0z" />
-    </Icon>
-);
+const EarthAsia = createIcon("earth-asia", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdgAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCGAsGAAE2AiQDCAQgBYMtBzEbGQXIFiFJJ8H3Oqt+X7JrLC2DlpEPKUKKNjtKgTmcupQg9v9cju/d86MD/EaHNtZo4uIx9vMEAsx64ViWF2hgmSZgBWR3Wqs5RHskailiOb7JcblAHq9ld6iRnkif4770ofGrnu4gaWQAogMAFmzbtMbbrdEa8VnzBeIzqxAQC0AlkCFDHwFmywT6yFXI5YLWaDbpP7AigKjjtyaQowUncR0gB0k9z3t16t1oNMpa23xrWSu2lUU5IsoIREa97sni+/Vfb76l64GiLCKKWB+ijK7x1baDPy2KeG/dV+Vda75Y8M6W7+e/vfrz4s61Xy58d+sWYdsotikM0dRt3e6Bz3Z49vcBnx/93ITLax9pmm+/8dZrmulIz23x7LOxrUP/h/oPzVbmG5L5uJ+7L/1gniUNej73zqJF7zzXs2GJbCf/5n1VyXyV+Zer3//m+UYlPg8Egm/+KX7d1372/y1lAr+8+ufv5Wek+XaSnkWLBIJsdHO03QkkAgCQ4ioDEwSSg+o40caj2mIoQEjqCsj01gFyhVFQ08+UC+oKm2Qibwhd7OEgaeMCZKa6EXJdPAc1s32Uq+sSmdHRJkN/+RKWSnTJtmrC2PHVzGrYVhk7IsP6rGrZGH6VHxsBBx11zllXOOKwE64Q+EVrilc6Y+kMW+KLKhOMNV5lpkrdu9+/1REXXXLCOWfjJrNU5xPDXTWfPQLshAknqkkSkYqLLI55tgA=");
 
 export default EarthAsia;

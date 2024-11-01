@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-laugh-wink` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-wink?s=sharp-duotone-solid face-laugh-wink}
  * @preview ![face-laugh-wink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-laugh-wink.svg)
  */
-const FaceLaughWink: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm96.8 32l318.4 0c-8 80.9-76.2 144-159.2 144s-151.2-63.1-159.2-144zm47.6-96c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1 0 1.8c0 .5 0 1 0 1.5s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zm122.8 10.4c34.4-45.9 103.2-45.9 137.6 0l-25.6 19.2c-21.6-28.8-64.8-28.8-86.4 0c-8.5-6.4-17.1-12.8-25.6-19.2z" />
-        <path d="M176.4 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm116.4-2.4c21.6-28.8 64.8-28.8 86.4 0l25.6-19.2c-34.4-45.9-103.2-45.9-137.6 0l25.6 19.2z" />
-    </Icon>
-);
+const FaceLaughWink = createIcon("face-laugh-wink", true, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABnwAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCXwsIAAE2AiQDCgQgBYMtB1obiwXIhofn7fo691X1B1gDM7KXciwxHYQrxD3/59IFjUYF8mmEQ4m27TI0kjufn8ABR1k0nVCDnukZ2JlbYwz0MZR9RCRWmJQcPT7b49cB8vg+u0qJdH/6ErfW/wGMX3W7iqQ6AxBNAFiydeNq7x6Mgym+LL9IfGkVAmIpKAQyZOgTYL5MoE+uQC4XHEzlMgejXC4IICrUT89ABapwCx4E5CBJ8jxvbeitm9BcW6rPt9SWarbe2Blxb1zecU/NDW13td3dfnft1idqI24cMy6errlh/Jj4aUnEe6u/qr1x7TfLPtj689L313xdc8OqLxe/u2lzfV39Y/PfXP7xwreHbr0XEa69sf1uYV7msrg8LsMuxzHEvKuNuHeRjns6Nj8DpyeMjsfN0fecNhj6eNPjvw/58pgvPXOg4Tqua2hcguqR+uvPilIPPaU7PTdmzHN3eteKarpfeG/Zsvde6K62whYn177BhTrp5Fde/euvV185eeLeehRUP236iMgiBUIwkS2FSGn49I8yLqh+bgx4o9RTjE1H8e1AIDjRVS17G+f/X1WbwOHX//yl/5CU303S46iSQJCNL4+3K4FEAABSnGNo4jYEMkfL6b3WuUeAUIMASYUaATK9mgTI1RgnQMmAGQJUqLFRJvJqoc3uAyR1TgeZmS4GuTYvgJL5PolUaIssMKWwkv4L01dadMW4YsrEycXc4rZoyLEmyPC84rE5+pzcNIbWOsapTnGWox3leGcZ4gyr42c72coVvsIXFaaYaLLCXMV2xatpC0fOcKbj5+r+KPMUeP9o56w7jyFboqxTTchkRIqs0+/nTjhp/9nHHjfh3ONPOXGCl7ftnqkuDQA=");
 
 export default FaceLaughWink;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-arrow-up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-arrow-up?s=sharp-regular book-arrow-up}
  * @preview ![book-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/book-arrow-up.svg)
  */
-const BookArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M88 0C39.4 0 0 39.4 0 88L0 424l.4 0c-.3 2.6-.4 5.3-.4 8c0 44.2 35.8 80 80 80l96 0 0-48-96 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l96 0 0-48-96 0c-11.4 0-22.2 2.4-32 6.7L48 88c0-22.1 17.9-40 40-40l312 0 0 304-96 0 0 48 64 0 0 64-64 0 0 48 120 0 24 0 0-48-24 0-8 0 0-64 8 0 24 0 0-24 0-352 0-24L424 0 88 0zm55 215l-17 17L160 265.9l17-17 39-39L216 512l48 0 0-302.1 39 39 17 17L353.9 232l-17-17-80-80-17-17-17 17-80 80z" />
-    </Icon>
-);
+const BookArrowUp = createIcon("book-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdQAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCIQsGAAE2AiQDCAQgBYMtBzQbJQXIjsQ4JvGLKEzi4fu13s593fMDQF1RQIAKyJMkHJcs6FXIcvVUyPv/XI5v78o/UIKhrGFrctvrqLmeJ5BY2/ISyQLLNAFrb1GzjsdlRGRWlKTHc49fD8jjXtxQIt1JX+N6+dD4RwtnSEoZgKgPgJHzZ09V/jF+jPiq8pz4ymQExEhQCGTI0FqAITKB1nIFcrngx6hU/H9gQQBRhd4sgRw59uIIIAdJyvNp7WqV6uTzapVqLn7WIeJh6xQRJzzo+KhvrYioGZea3oyTzW7VElzjTKkTqSVqBaRrBVcz4tlR94oOnTsMjc4x3MZqjV5GOhY6xbz6ig4xp/3j+o//8/W6r83/OOICF/IZyPOYt7b+Cj0YV90LF+oGs3uD3+tp8OZJgwGlHkYkL9IHmtPNq3dUb97cCs21+9+gAdbppodu1snq9OnAkwSC9e0Gfbu83pD/q9dK4Oc3c7+iSjnK6TGqSyDIulS6WBJliLIAAKTYp32UEUi2SuhebTcFCDVhSKrUhEwr9SFXU2coaavv/So1zZaJvIbQ2FKGpLadkOnnKOQaewolQ3xqVGkcmeIF1Sb47ys2TmJjDxU9u/UoBhXLnh7SJX/cHVwcJzrsCzMd4ax1tttmj7XW2GiPMHaZ2t5rq3E7aawvKvTUTQ+FQYrr4fPxedbaZbeNttuW9xmseF/pYN9+eUdIJ+SxF1uSiFRHK+1dV+7atX1/1707AAA=");
 
 export default BookArrowUp;

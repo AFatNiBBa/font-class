@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-successor` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-successor?s=solid diagram-successor}
  * @preview ![diagram-successor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/diagram-successor.svg)
  */
-const DiagramSuccessor: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 416l0-64c0-35.3-28.7-64-64-64L64 288c-35.3 0-64 28.7-64 64l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64zM64 160l0-64 144 0 16 0 0 64L64 160zm224 0l0-64 80 0c8.8 0 16 7.2 16 16l0 16-38.1 0c-21.4 0-32.1 25.9-17 41L399 239c9.4 9.4 24.6 9.4 33.9 0L503 169c15.1-15.1 4.4-41-17-41L448 128l0-16c0-44.2-35.8-80-80-80L224 32l-16 0L64 32C28.7 32 0 60.7 0 96l0 64c0 35.3 28.7 64 64 64l160 0c35.3 0 64-28.7 64-64z" />
-    </Icon>
-);
+const DiagramSuccessor = createIcon("diagram-successor", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdQAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBdgsGAAE2AiQDCAQgBYMtBzgb/gTIHoVxMz3SRXOUj8Iu4uH/18ru+1U9J1MdhgozOiAPhDIuWXJoDLFcu53MhF8dUvuOb+y0+MVLBTyjoo1FWwsyVnyveAUKWGvq7y/0NnGZTnD/3dkeDpkdHq1FFsvxraTfDvL4lK1CupvgMh5p/K2dSyT1GYBoCoCpq5cv9NUP8UPE9zWJ781HQEwFpUCGDB0FmCAT6ChXIpcLfohaLfwHlgQQdehXJZCjgs3YBchBkuV5+/oR1UqjfFW1UmwPca/fu14N40WfN23F3b5vezaK1/3fd9gWoloVRTVENW62EkW8aHmj1cp42Xt13G59q1cREY/6vRtVFJugutztXdN3/2IXtS5T4KqiWbMn5zxp1qyYgsUva2PXlaZTPPkBt5f4oXFTvVi48f3MmRo1qje837hQL03Fqp1Nrzyxgif7A4Fg/+zfx9Vkwn8Nqgn89LHLy0jth5TSOzSQQJANqA2wIaH2f0oCAJDilG4JAslqGTrUhm4JEAoESOoUAmQ6aCpArtBfgIrORgpQp7BcJvJ6oaWNDJOGjsLMKKdhrqUPsGKCr7U6LSPzMdJDyB9e3CwJZs6VQwcNKceV01Cj3AZP4/HlstjnVCz1hU27HHbICTvtsNcJgR6z0DzpoFkaMtMTlYYaZIjSOKU5uV9fZadjjtvrsEN5ynjlebWPU3pzX1ASwhzGkyQiNXsP+IH3Ag==");
 
 export default DiagramSuccessor;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-slash?s=duotone file-slash}
  * @preview ![file-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-slash.svg)
  */
-const FileSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M128 64l0 11C256 175.4 384 275.7 512 376l0-216-128 0c-17.7 0-32-14.3-32-32L352 0 192 0c-35.3 0-64 28.7-64 64zm0 132.8L128 448c0 35.3 28.7 64 64 64l256 0c20.1 0 38.1-9.3 49.8-23.8L128 196.8zM384 0l0 128 128 0L384 0z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const FileSlash = createIcon("file-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcAAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBRQsIAAE2AiQDCgQgBYMtB1Ab5wTIPg1PhgRb/SQIjiOlg6K0uEHQodANZNK8wfsOnoWX+jeCaqzs2d0nAIXqWRLGaNTALo7cGxUSOjb+KhZVFPrPj3vP/XZ8H0IFkwaiQUlt+3lwXShrYF1ra8BDVeYNoFBipv8DwJn3gsPXu3yKY04AFuIMWZlPBFnays2f/2vqhTUd4Dc6pIwlphY2ZT5vsIFuNsuwApnQTHF+O793J5KSTRLikux/cMP2d1CSMz9WRXqTjhfxfwDjqz6HJHUZANEKAHZuNOp4qfTU1/+JTw5AQOwCRhEyMgYRWMcVGMQzCooiqCRQCUYhgKhGxDKrmj62A04AFJCEXHhyU1ONlC/ntRv4kr5XrdB579n0KnUG+kA+X9qcSEJH3Z3gZ97MPvQC4c3c45Q87hcmu0Aaoj3+1Pr03U95+zO//mXC3LsnTZGhvaGqX6Xy577m58/l2nWbWvLkN1TznAsq01n+B277cQACwcnd01PmfoED+PLx6Uz/S6WhVgJBXvyf/rQrQKcFHE2xyQI/Hw1eLIu+tdFLAUI9AiTV6gXIBqgQKOotIFBlWByBavXOcUURI3QaqCBpdBNka7ZA0ekZVFn3Gq3WGVmXRE0Qf+XSCi2an8XCgRDLsGVekdSDD/1Ztu12bbo6N5Zi0pJF6yaMm7HeMKvqiQ0LChKd90NMWEAIk8GOS49am6Or1szMlfNBstj9gMum3NoNH0diXbIgy0QirubhJvvX5kfWpv1aWa/rlQcI");
 
 export default FileSlash;

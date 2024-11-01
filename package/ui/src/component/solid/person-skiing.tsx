@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-skiing` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-skiing?s=solid person-skiing}
  * @preview ![person-skiing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-skiing.svg)
  */
-const PersonSkiing: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M380.7 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM2.7 268.9c6.1-11.8 20.6-16.3 32.4-10.2L232.7 361.3l46.2-69.2-75.1-75.1c-14.6-14.6-20.4-33.9-18.4-52.1l108.8 52 39.3 39.3c16.2 16.2 18.7 41.5 6 60.6L289.8 391l128.7 66.8c13.6 7.1 29.8 7.2 43.6 .3l15.2-7.6c11.9-5.9 26.3-1.1 32.2 10.7s1.1 26.3-10.7 32.2l-15.2 7.6c-27.5 13.7-59.9 13.5-87.2-.7L12.9 301.3C1.2 295.2-3.4 280.7 2.7 268.9zM118.9 65.6L137 74.2l8.7-17.4c4-7.9 13.6-11.1 21.5-7.2s11.1 13.6 7.2 21.5l-8.5 16.9 54.7 26.2c1.5-.7 3.1-1.4 4.7-2.1l83.4-33.4c34.2-13.7 72.8 4.2 84.5 39.2l17.1 51.2 52.1 26.1c15.8 7.9 22.2 27.1 14.3 42.9s-27.1 22.2-42.9 14.3l-58.1-29c-11.4-5.7-20-15.7-24.1-27.8l-5.8-17.3-27.3 12.1-6.8 3-6.7-3.2L151.5 116.7l-9.2 18.4c-4 7.9-13.6 11.1-21.5 7.2s-11.1-13.6-7.2-21.5l9-18-17.6-8.4c-8-3.8-11.3-13.4-7.5-21.3s13.4-11.3 21.3-7.5z" />
-    </Icon>
-);
+const PersonSkiing = createIcon("person-skiing", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABiQAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCNAsGAAE2AiQDCAQgBYMtBzQbOAXInoWxe6K00kQM2g5yLmLlRQTt9zp77wXBEah8FWQVByh0VCJbWVV2bFSNqKqwZVtdF/Cptd/buy9iwGJmydRDMYtiTUwi02kkhgrBT1v9/f+5pl48PzrAb3Qo0VjaGMm5TJ7ARNIbZM+nG84mirN2dgsD9AaDpC/f+8yWH1ZnqHPJToNL+ch8gbf1Q/OP0TRQtFUASC8A2L3IysTdD/mdfD4eQ75JB4HsAsYRVKgwjIANrGAYxzio1cJv8vgY/gMpBEgz6LwCajThCXgOcEF6yarmSJ23xFwpJ7eDK6r77LztuGlcdthw2jKVf3bMSV5ys2fOSWQWtCua7ORk01lPto0rDhpyFlaZLXPejJOjmSxpFzQGkpolfV7OFd+pLHB5vh3XpWXLZCIO0USX3BiSU4t6M3FKpw1n2O0p9v581X5h+K2o9elQqwjvMPD9IOS5Bp4H0g6R22ieR68rueKNb6rxOKRe/SLpS7XpF0fHoy9wf9b1odfrxzH89aWkHQ0UvVnjWBkcXGWw6iQ8PP368PB4HYajI+yjUqXlFMwonQkY4BlN3wAE4e7j10WZPOJ/q5gB/L34Hx987FHhMnuAVgWEqvHYUFwgIK9FXuCllx2+SVDcYpHZ6Z01inYmFM3aoTJEAbV2s9BkVCCr3H2ClVqIGFQCKDrdQGXJCNQGHUKTDa9+s8GwLsg7EP8BTEla8cRt1NfLh4bRbWMIXsWm5XCqVl1645ArTqJWm1bdalRr0L2QnTKjHi2SJCLRD1G+vPigwlBzZ344V41OXRq0aS2bhKP3TRe98mRXGAyinFMoCilSj817dl03NLTWAQ==");
 
 export default PersonSkiing;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mobile-retro` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mobile-retro?s=sharp-light mobile-retro}
  * @preview ![mobile-retro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mobile-retro.svg)
  */
-const MobileRetro: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M288 32l0 448L32 480 32 32l256 0zM32 0L0 0 0 32 0 480l0 32 32 0 256 0 32 0 0-32 0-448 0-32L288 0 32 0zM224 160l0 64L96 224l0-64 128 0zM96 128l-32 0 0 32 0 64 0 32 32 0 128 0 32 0 0-32 0-64 0-32-32 0L96 128zm8 176l-48 0 0 48 48 0 0-48zM56 384l0 48 48 0 0-48-48 0zm128-80l-48 0 0 48 48 0 0-48zm-48 80l0 48 48 0 0-48-48 0zm128-80l-48 0 0 48 48 0 0-48zm-48 80l0 48 48 0 0-48-48 0zM128 64l-16 0 0 32 16 0 64 0 16 0 0-32-16 0-64 0z" />
-    </Icon>
-);
+const MobileRetro = createIcon("mobile-retro", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABfgAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCSQsGAAE2AiQDCAQgBYMtBzMbTAXInoWx22JJF+PkhiLK219E8LX81m92Lu2Sw9QpUo4uxOjPERToszjUd0RJ+SsshUT/Zv6qfZ8PP68VEj//19QrajrAb5cCR4dUiyqt0K7nE5jg5u0DnQ1sphOw7c62Qnj2LWnEkhznSr/LBXKcjFk6SB8S9PGHxl/jvSHJFYAYBoD1Rw/u1hqIgYhf7RG/7ERAbABFoEKFSQKsUglMkhVkWTAQ7bb/DywEEJ0IT57PGIyX6ANkkDQ594x0Bry4aToG5yNNR30+VWlQVDH4SN3UIoVoBkdUEVEfEuqIaMYIqEHDaDVRPCQ0SelR7ISGJ+re/mH9/zjH1I8tktGiPbXUtBQcX/txHbS9sM6L5wqyzvMJE/efhw4uOndvQZ5P2sePNowKxbB9kQvEXeX394lZ9b+7SeDPl+efkXYr1qV+dEsgqGa1ZzkV9yDWCQBAint6Yx0CyUMNfNdB3goQagRIOtUCVCYaJkBWmylAhykWC9CpdlAlco8wyukKkkFugsoST0E2ymfQYZWvxU6jojJG05TMt2COLRLdfKzMnzOvrCjTvmKxLz3vryzLgWn3wtx0OOuc666546wzLroj2Ft2V+66aovGbPZFxXxzzFOsULZH944jonjLbRfH5j7kkJXK+cw09/TV0yGckOoCHUki0qBL0/LrgfM6AAA=");
 
 export default MobileRetro;

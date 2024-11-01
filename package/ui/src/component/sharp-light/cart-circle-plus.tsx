@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-circle-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-plus?s=sharp-light cart-circle-plus}
  * @preview ![cart-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cart-circle-plus.svg)
  */
-const CartCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 0L0 0 0 32l16 0 51.2 0 77.2 339.5 2.8 12.5 12.8 0 160.7 0c-.5-5.3-.7-10.6-.7-16s.2-10.7 .7-16l-147.9 0-14.5-64 181 0c5.9-11.4 12.9-22.2 21-32L151 256 107.3 64l425.2 0-40 128c1.2 0 2.4 0 3.5 0c10 0 19.7 .8 29.2 2.4L566 64l10-32-33.5 0L100 32 95.6 12.5 92.8 0 80 0 16 0zM184 432a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 80a56 56 0 1 0 0-112 56 56 0 1 0 0 112zM384 368a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm256 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM512 304l0-16-32 0 0 16 0 48-48 0-16 0 0 32 16 0 48 0 0 48 0 16 32 0 0-16 0-48 48 0 16 0 0-32-16 0-48 0 0-48z" />
-    </Icon>
-);
+const CartCirclePlus = createIcon("cart-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABnQAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDDwsGAAE2AiQDCAQgBYMtBzcblgXIjtRG9ZNkR1DpqrJ6tCQt6Ih1DPgEHjJ5BIa38R6hhX0Mr79v6Jr6Ufa9DeSMhtahjZnUwS8wwM02r9RpCU0UN+XuxTAB2PIwdW0gi79jlDrSXelz3OB8Vfygh0tJshqAKAEwf+vG1T5sj/aIz/9/jfjcSgTEAlAJ1KCpd0aBWRsL9JapkMkE7fH///Y/sCKAqOc9OYEMjXgSrwAykNRn2cSmll69+hd1LdmWoi7fmRe5KIrt0QUuuz0u6pbHgCjiHl68JVpiU1xUXOM/qsvW6BV5c8/oGvn2x3rcOejxnvcM9USve3rePeTR7nf2uGvw1ot6RRSLnyiuGfxYj7tcSJMGPZpfPeTx2uJouWhMxPMz3k6fNe3NUc+6cPRz098qrpn5ztgXYkuIPITI18AIpvAMhUNF/jIDni6f/qn/50c+1/ZBWZaVcuKqjUZqeaihsbHhVr94zYXvf2PkB5429AIiou2bYRd5QP93Jhil5egL67t0We9mr/u1T76IG/p+x3f339+3L1R8913fvvpklaEVVaeOQ4Z07FRVQ3kF9FwwdwMh44wLoHEzStn7QSC47N85Xfa2zfqrsUjg27d/+Q08+v8P04XpaTRKIKiN+n+UXelCYDOCF0lxrgENpshI9KCd/63Nbhcg5AiQ1MsFqOmlFCCTGylAnb4mC1Avt1FNZE1CZ7sTkDQ7A9RMcR7IdPYKqDPLR+F6naP2vGqeNs3nYsYlWXTxvGr8mHHVjKq2ItI+gio9ObPq7Bx2Lu8YDtc64jSnOtthhxx3dkY80+rYOU6xpIle7Icq440xTmWGanD9onFLJnymsxyv1g+XMlM1vXeYc5v7D4eexFM6QVmSiFS+8tbRf/aYRt/y");
 
 export default CartCirclePlus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-three` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-three?s=solid clock-three}
  * @preview ![clock-three](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/clock-three.svg)
  */
-const ClockThree: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120l0 136c0 13.3 10.7 24 24 24l104 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0 0-112c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-    </Icon>
-);
+const ClockThree = createIcon("clock-three", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABXQAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBJwsGAAE2AiQDCAQgBYMtBzIbqQTIjpQuZyQRxNs9Vf1mFvCs7UjKpHidmneO5JTRxT9DkPHn/5rP7/lRgXyjQ6miSpBrr2U+n8BE500DbRvYTCdg020iAzuC8JWQKAnpuKqOqz3k8TQ7qgzpSvoCp8qHxl8aOEpSIQMQ1QEwfO7MyV79Hr9HfF66T3xuIgJiOCgEMmRoLMAgmUBjuQK5XPB7lEr8H1gQQJQlN5xAjhx9MQyQgyTleaPalcpUyedUKlNx4TeTI74c/trBYa8mfTHr2ylfjXgTh0a+nfr13FnCldaV4majq20qRgRdeK1+izvV7/zjizVfKL0c7TRnBjYeObLxwDOnR7Pt7NTbexKFOtPXmV4H+DTbkHo9EAh+Ov1XS6sN+r98pQT+fPLf/DNSepWkOygvgSDrVOpkUQKJAACk2KNFgkDSVYJ3reyiAKEiAiRlVRQg00h1AXIVdRSgjKZ6C1BWRTNlIq8g1La4gqSy7SDTxz6Qq+0uKGOQj1FZtSO7O+zOs1+3pDEWGr2t6N6lWzGgGLYpdx3ovD6wmFbb7Ulj7WmnNbbaYpfVVllvl0F2mJzuttkYDx7tiwrdddFNYYAi3LuV5iDaYaf1fSG+yUDF+rCdPf7s9mQkQthDKUlEqvTQlM6HEgAA");
 
 export default ClockThree;

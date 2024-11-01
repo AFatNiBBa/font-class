@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flux-capacitor` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flux-capacitor?s=sharp-thin flux-capacitor}
  * @preview ![flux-capacitor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/flux-capacitor.svg)
  */
-const FluxCapacitor: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 48l0 416L16 464 16 48l416 0zM16 32L0 32 0 48 0 464l0 16 16 0 416 0 16 0 0-16 0-416 0-16-16 0L16 32zM312 96c39.8 0 72 32.2 72 72s-32.2 72-72 72l-8 0 0 16 8 0c48.6 0 88-39.4 88-88s-39.4-88-88-88c-32.6 0-61 17.7-76.2 44l-4 6.9 13.8 8 4-6.9c12.5-21.5 35.7-36 62.4-36zM172.6 293.6l5.6-5.7-11.4-11.2-5.6 5.7C145.6 298.3 136 320 136 344c0 48.6 39.4 88 88 88s88-39.4 88-88c0-24-9.6-45.7-25.2-61.6l-5.6-5.7-11.4 11.2 5.6 5.7c12.7 13 20.6 30.8 20.6 50.4c0 39.8-32.2 72-72 72s-72-32.2-72-72c0-19.6 7.8-37.4 20.6-50.4zM128 148.7L116.7 160l5.7 5.7L216 259.3l0 92.7 0 8 16 0 0-8 0-92.7 93.7-93.7 5.7-5.7L320 148.7l-5.7 5.7L224 244.7l-90.3-90.3-5.7-5.7zM198.5 132l4 6.9 13.8-8-4-6.9c-15.2-26.3-43.6-44-76.2-44c-48.6 0-88 39.4-88 88s39.4 88 88 88l8 0 0-16-8 0c-39.8 0-72-32.2-72-72s32.2-72 72-72c26.6 0 49.9 14.5 62.4 36z" />
-    </Icon>
-);
+const FluxCapacitor = createIcon("flux-capacitor", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABpgAAAKCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDHQsGAAE2AiQDCAQgBYMtBzUbogXIhofvdfqd+yR78uUwKPkEXMESQMeA/baebQlqT1zT/8+f3qOJH6VqFc2Z5xOYUPnABzR7sJlOwDboLmJwxr/jCy/I40EnqJDuTz/hVm7T+NWAq0iyDEC0A2Djwfv2+qwe9YgfG28TP9qNgNgISoEMGYYFWCMTGJYrkcsF9Wg0vP/AkgCiCtg+gRxNeAUfAnKQVPN8UtfkaWMTtUpLflCtUpycstQcWbQcV9QKkULUWiKyiCj2Pz0z4vmB+2Y8N6UIUYt3Z7849sisF5Z9Nac7eqIvXl2+v6+7rze647nhh2c+v3RIrDp7lujPTKwMPjj7oO4x9Z44EDYQgXHwQnFKZH8cxHMH9/T2lAuvbHtrxiriiEARM5+/OP3tuRMvtL/w+/hPJ/3k1VsfA2yPeezRtnaek9q1v/bw4vX1xSxubV28uN6kXY5suO66PGduGL9+mZ9VFt5+w9dbQf0F+13SKvV2XLLfC7bOAlr0Ou5obVk857YXwOBWRx7hSOuYR5Z8W83zHXoYyuzf1r4MjHxrmevHj5DHifPFdd5y+0YgEPw1/fHNR7et+b+plsAvH/z5K/4ratTjs/QCmiQQZHMacxwRn0F8JgAAKS4yEZ8hkDyjCnxqs3sECAUCJFWFAJkh7QLkCrMFqBi1VICqwj6ZyCcJ3Y4syKTZuWRmmSvJXLc3yYo1vq1VdUembWVNJz81ZmyrgluvlQvnLShXlb1jUtGJYny+upzsnXGRvzbTfOokZzvLBU50glNdUIHPs7d5oTNtG4K2+qLSQvMsUFqlXDy7ef8gJzrP+U51trPSS1Yrt0/OcNHw7plmIAGci9xOEpFaTzrjwkvm/gMh3hU=");
 
 export default FluxCapacitor;

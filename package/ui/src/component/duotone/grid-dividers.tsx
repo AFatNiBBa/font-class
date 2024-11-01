@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grid-dividers` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-dividers?s=duotone grid-dividers}
  * @preview ![grid-dividers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/grid-dividers.svg)
  */
-const GridDividers: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 128l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L64 96c-17.7 0-32 14.3-32 32zm0 288l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32zM192 128l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32zm0 288l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32zM352 128l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32zm0 288l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48l464 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 0zm0 288c-13.3 0-24 10.7-24 24s10.7 24 24 24l464 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 288z" />
-    </Icon>
-);
+const GridDividers = createIcon("grid-dividers", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABuAAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDOAsIAAE2AiQDCgQgBYMtB1Yb4AXIjsK2eXNkEJLIsWQ4JA+sobQE9WufPfP27wGBvVOoODoO0KgIB+iIZdQXMsAyRhDJVPSejLW7F7F0L65NHFFpYglKILIO698wKZ0x/5d7fudHB/iNDm0PPd/gexQmEHAWl0/gQKIFGkiCAUbI7c7Nq5ZH0g7NGjkuw3GpQ2cPVfyWS1rkw3zHdfofwPhryjWpqwBADAIABye6dRh+wk8Z780j8dFhICAOASxCFBTMQrCNKTCLZRGoVIJP2TTgUzQNgQCiBrpgATW68QIfABVIqa5YIpEBbGFLzBrQnYKJp7qH1r64n3lk601+Z2egc2N3hUK8nbiPiBfj9wQCvBm9Ayl+hX2H5bas/bf0vvxu4nVbrW5/y9Ai7JYLe4VCQXLtmqQA2lH4ibuFgcMBBIKfpw86M9Lt/51CBsCXZ///ygdphinb6JQgKKuNx2SCJAAAGcdMuVtLPrEj19rrngChGwFSrVuAYoYMgkq3FQha5kUhqHU7gikqPoRRUwxSr7Og2HICKqMeQMu2J7c2GsWLSR8k/5BxtaHqOgr6ApSibqhSjonHcZrMmuNYyYlbYdmObYeWLFpzGLqvHhzZUtOQqhciQT4BJIWmk1tukLvvwJrMzK+SRusth2O92YkmQ8Jcs6EoRCJT/VhF742y9g+8D6JGKzCHHw==");
 
 export default GridDividers;

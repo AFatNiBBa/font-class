@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-next` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-next?s=solid diagram-next}
  * @preview ![diagram-next](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/diagram-next.svg)
  */
-const DiagramNext: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 160c0 35.3-28.7 64-64 64l-168 0 0 64 46.1 0c21.4 0 32.1 25.9 17 41L273 399c-9.4 9.4-24.6 9.4-33.9 0L169 329c-15.1-15.1-4.4-41 17-41l46.1 0 0-64L64 224c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 64zM448 416l0-64-82.7 0 .4-.4c18.4-18.4 20.4-43.7 11-63.6l71.3 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l71.3 0c-9.4 19.9-7.4 45.2 11 63.6l.4 .4L64 352l0 64 146.7 0 5.7 5.7c21.9 21.9 57.3 21.9 79.2 0l5.7-5.7L448 416z" />
-    </Icon>
-);
+const DiagramNext = createIcon("diagram-next", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfgAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCIQsGAAE2AiQDCAQgBYMtBzMbJAXIHgl27MhWxHD7Yzz8/9q/7nNnQjNhmADDS1gROAYF6ABRxoUdt0L/VdtVWf3yq/Y9Q4LxTy6Nf/zpAc/o0ca0NUEW2B5tvALvjTf1Co6JBatpBay7s01xiPZJGmUWjnOl3wny+Jid1Yh0J/3Bpfyh8a8uzpI0ywBEawDMXr18mW8N0RDxux7x2xIExGxQCWTI0F2AaTKB7nIVcrmgIep1//9XEUA0RjEJ5C5+GEeBvx1JyvMxU8tGLfJVZaNi6+1BEa/7FSHKeNHhRvsV8XzAqrjZ6dbAMiKKeDnkbdeIe0PfDWwRLwa/6WJFiCLKuNXtXseyX43bg173a74WKeN6lzsdyjjJdQjnLs8N7BRln7et3/7nz5Y/6r2KNrR5/NosI1i28V2tpkWLWs27jcuMMMtrj9u0KWYp2rR5fLIZM+uzaJ/lwt9V6z0LJBJvtsCe1tXfYblZrqnp1bFjr5prQCB4+Vc3tJr2f9MygX8+fPkZqTck6S2aSiDIhtWH2ZBAIgAAKY7okyCQ7JaQ29zN3TAUOEgaKyDTTWvIFYZCIz2NJ5T8clU88mZCexsRkub2Q2aCY5Br7z00Ms13r7H2kRkeZTbUvy9+Pkdqa9XoEaOqKdU0U2lbIuL21EotDjoSOoPhqC322uOQzTbZ7hDDDlgWHrbbfAmt+aLKaCOMUpmi2i4fD6+y2QEHbbfXnrTLVNV9d5Aj8vhgUBLCHSOWJCI1fyWE4YYKAAA=");
 
 export default DiagramNext;

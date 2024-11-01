@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chevrons-up` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chevrons-up?s=duotone chevrons-up}
  * @preview ![chevrons-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chevrons-up.svg)
  */
-const ChevronsUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 448c0 8.2 3.1 16.4 9.4 22.6c12.5 12.5 32.8 12.5 45.3 0L256 301.3 425.4 470.6c12.5 12.5 32.8 12.5 45.3 0c6.2-6.2 9.4-14.4 9.4-22.6s-3.1-16.4-9.4-22.6l-192-192c-6.2-6.2-14.4-9.4-22.6-9.4s-16.4 3.1-22.6 9.4l-192 192C35.1 431.6 32 439.8 32 448z" />
-        <path d="M233.4 41.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 109.3 86.6 278.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" />
-    </Icon>
-);
+const ChevronsUp = createIcon("chevrons-up", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABbgAAAHsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBRQsIAAE2AiQDCgQgBYMtB1Ib6QTIhod/1vrdNzNfDdGBJCrJTJqYhga/QsKbJ0LaQzLPO/3NP++8DfhAoLGwPJAFPud5Ap1PTceiOk8/2Ldvil/dVMXDq4iPiJTowijjH7PHtxWy+JCeVEJyL3mPK/I/gPFVeydJVKQAoh4AExfNm+FlIQpJvC8+It6bjoCYBHKBFCk6CTBGKtBJJkcmExSSYpFCFIs5AUQpeTgFpcgwGbMBGUiEyLIunatKarKFMrNy2Z2qiAstC+KWo803K8+3WRjzI43djmNtF1UdbblVdSFgsSDEO0gx8TaRmvl13VvrW793e7/xvU+379ZQc/fFC+dqas7dram5e/+BRg8aqGWWPFOFtdwHAsHtz+2urqob87+8KgEfH//825W8+JLeaEW5BARpn2IfyxNyeRQEACCJg7qTbxJIdZGon1rttgChEgESpSoFSHVUL0CmUm8BSnQxVIBSleZJRVYhNFsxQaLaHpAa5hDINHsISozxSivVHKkvsZ7A/solTdPQ1KZ8YL8B+aj80jI496BpdXR+W+5xECI946SNdtlpvw3W22K/IveaYR6wwzQGT/VDuYH6GSA3Sm52R2mh0vbaZ8tesNcZLX9e7eEgT+8Z20kAg77CppRIIm1at3nDwb27du7re2B332MZa0HhBAIAAA==");
 
 export default ChevronsUp;

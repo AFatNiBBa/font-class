@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bug-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bug-slash?s=sharp-duotone-solid bug-slash}
  * @preview ![bug-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bug-slash.svg)
  */
-const BugSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 256l0 64 32 0 64 0c0 24.2 5.4 47.2 15 67.7l-53.6 53.6L98.7 464 144 509.3l22.6-22.6 47.1-47.1c24.5 21.8 55.8 36.2 90.3 39.6l0-143.7L160 222.1l0 33.9-64 0-32 0zM224 96l0 32 192 0 0-32c0-53-43-96-96-96s-96 43-96 96zm11.4 64L477.6 348c1.6-9.1 2.4-18.4 2.4-28l64 0 32 0 0-64-32 0-64 0 0-50.7 54.6-54.6L557.3 128 512 82.7l-22.6 22.6L434.7 160l-199.3 0zM336 360.7l0 118.5c36.6-3.6 69.7-19.6 94.8-43.8L336 360.7z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const BugSlash = createIcon("bug-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgAAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCDAsIAAE2AiQDCgQgBYMtB04bLAXIjsQ4JvIJoyi0eHjerr5zX9Woej5dH6A3n2zBVIzoToI1404EwP+pU89zHgpQ7jkEQRsL56bZATjneQUqGuxegBVqTa1vExGhiED8KmINOj47zlaQp8HZA+pIj6QqWuh/AONX3TxA0pQBiLYAmLt5/UrvfRVfpajWXieqViAg5oFSIEOGngLMkAn0lCuRywVfpdp8FbVLAoh6dPsM1KMBB3AekIMk5Hnerkfbbg2Vulb5Jsoptg8cNPBsDIwRMSjO4VGjNwuVyp1ua2JIzIzhMTveXhixKURRnyMinhz27KTXhzzds+/GTRsfikoeF0XE+kl+1sYb1kSxUfh09qZ+z7Z99ve+1UNVPd8dNWrUjDeN8rFRvD773Tl8o3LOwD822KTqoD/MWdii5ax+5tx+qizL95Qan322TOilf95UQq/W8xyDjHewbJPPDnx2idGLB3ctdVUg+P7qyObdbWb8r5LAN2/8+Qu3d+29dCc9i0YJBNmI2gg70h1Q2ACiFJf0w1/CHIHMcjn81GYPChAKBEjqFQJkemgrQK4wXIA6vU0UoF5hvUzkTUJHOyNImp0FmUluglxHr4E6M3ya1OsYmbxR0kL99uIXpdDCWeXYUWPKaWW3ItAiRNjJ6eWyMOSS7hgKuQ457ZQLDjrgqAsJcs7KwkUnLRrBC31RaaxRxihNUx7XL/lNmJxz3tE2ez7NdOV9Z4hL4/5DQU4Yd5y1MhmRImu37+LhkedP7D1/ZOTD7ehQsE8UAAAA");
 
 export default BugSlash;

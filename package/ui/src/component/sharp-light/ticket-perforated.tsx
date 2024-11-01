@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ticket-perforated` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ticket-perforated?s=sharp-light ticket-perforated}
  * @preview ![ticket-perforated](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ticket-perforated.svg)
  */
-const TicketPerforated: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 64L0 96 0 416l0 32 32 0 576 0 32 0 0-32 0-80 0-32-16 0c-26.5 0-48-21.5-48-48s21.5-48 48-48l16 0 0-32 0-80 0-32-32 0L32 64 0 64zM608 416L32 416 32 96l576 0 0 81.6c-36.5 7.4-64 39.7-64 78.4s27.5 71 64 78.4l0 81.6zM480 160a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm0 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-16 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const TicketPerforated = createIcon("ticket-perforated", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABegAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBfQsGAAE2AiQDCAQgBYMtBzgbBQXIhiDyD/zZey+ALzY7qBfbuIWqdHHRxWX8VXHicud//vSAi/xR9rS/pzELcG9OoPN0aheOCZoFFlBi3OC84TCbFIqPUMbf0U0F0uX0GielD42vmjhBUhYAojYARi+cO93Tj/Ex4vX/94nXpiIgxoAsUKBAcwGGKQSaK2WUSsHH+P9/6j8wE0BUpNwtgRKVsQYbASVIKpZl23pVlKRahRrlAgNbtRBSuNVqBVxbNW40vND0aqOLHatF7LJUs1bNImqFuNbpVuPLnW+3t+BCw3P1zze42IgjzGMZQmuBX9TmTu0731u/3vDakZzzKFlelc2S1dbr7ZuiePO2V22ASBVHKQcZZY779csaNcr69+cc/r/mx481WW2U49SaSRCIT/8dEAg2T/8yZmWtYX9VrpbA5yc/f0MnpCPpDipLICi6/d/NsnREnCs6048D2sAVBpIlptm7VndBgFAVAZKKqgpQaKa2AKWqugpQQUv9BaioqrkKUVYR6lvuw0l1u+HCAAfhUn134QqGeZZVVD+K3YzZSZirvMQJYWD8sty7R688JGdWueyeQ/HTQ3Nps9MBuqsz3GuDnXbYZ711NtsXgvaYXtxvuwl54HhflPXWQy/ZELl247i4AGd77LU5na+/yFC5fa+TA/mDO0MnUXD7KEkSkeq8ctOn+08x6NMPAAAA");
 
 export default TicketPerforated;

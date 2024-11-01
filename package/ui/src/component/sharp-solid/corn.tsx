@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `corn` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/corn?s=sharp-solid corn}
  * @preview ![corn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/corn.svg)
  */
-const Corn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 40c0 15-8.3 28.1-20.5 34.9C499.2 82.2 504 92.6 504 104c0 18-11.8 33.2-28.2 38.2c2.7 5.4 4.2 11.4 4.2 17.8c0 18-11.8 33.2-28.2 38.2c2.7 5.4 4.2 11.4 4.2 17.8c0 22.1-17.9 40-40 40c-1.1 0-2.3 0-3.4-.1c2.2 4.9 3.4 10.4 3.4 16.1c0 13.6-6.8 25.7-17.3 32.9c-47.7-29.7-103.6-41.1-157.5-34.2c6.9-53.9-4.5-109.8-34.2-157.5C214.3 102.8 226.4 96 240 96c5.7 0 11.2 1.2 16.1 3.4c-.1-1.1-.1-2.2-.1-3.4c0-22.1 17.9-40 40-40c6.4 0 12.4 1.5 17.8 4.2C318.8 43.8 334 32 352 32c6.4 0 12.4 1.5 17.8 4.2C374.8 19.8 390 8 408 8c11.4 0 21.8 4.8 29.1 12.5C443.9 8.3 457 0 472 0c22.1 0 40 17.9 40 40zM139.9 82.5l10.4 10.4c50.2 50.2 69.4 119.6 57.5 184.6c-38.7 10.7-75.2 31.2-105.5 61.6L28.7 412.7 0 384l0-64L112 208 139.9 82.5zM51.3 435.3l73.6-73.6c28.6-28.6 63.5-47.1 100.1-55.6c67.6-15.6 141.4 3 194 55.6l10.4 10.4L304 400 192 512l-64 0L51.3 435.3z" />
-    </Icon>
-);
+const Corn = createIcon("corn", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeQAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCCgsGAAE2AiQDCAQgBYMtBysbBQXIHgduTNrzSE6TS/Hw/dqX577uoZ5l6CUihYQhVHGzcXFAbKdiUUXRL5baen3//UvjFz86wGd0aGPh0o1r0tgdO16BAtaG/ly8BSpIwWpaAavfTd7LV4nbTk7ykTRsN6xNzZDHG9k1VaTn05d4yB8av+noGkldBiBaAGDGyqVLvNsYjRFfVBJfWISAmAFKgQwZuggwWSbQRa5ELhc0RqXi/wNLAohq9NwEclRhK04AcpBkeT6mdev6qqb5ilQodj7X+2k2dqnNU8WdQu61+XnZLyue7Xe37eW43P7Zej55sZ95wdM2tW3X9q0eL5cfTl4WAyNiZaxctXLZynfmfTLnoyltY5lHLWJFz4YWDX/0+HLHlyrP1gx8vVWX58YVQG75+qOWKfrW5f8ssLQolg5e8M70ui2RRnZx9PZ7uNbq1VcOtXz0esujA58nxOXf/nXZ7/MX+NJ0Bw/qfG7VxgXz3TtePzdpyJCTzzvX2cGDplu8GAgEP/7W4Y2NzSf/XVufwK+v/4N/RirvJqkBtRIIssEV1iWQCABAihN6Jggka2WM38Qz4qZfIKJWrYCf6ayFQK4wCKp0M2ZGtcJSmcjrhDbWE0iaOAyZsc5Dro3XoMpknzjV2kSmbYyuMG+9xLktNudSOWLo8HJiOW1VVoGofDqp3Jb6nwgrA/DQDgcdcMx22+x2rCGOWOIft9/cFT7HF5VGGGq40kTl8XB/e4Xtjjhqt4MOlHMmKe9r/Z1Ybx8ANSHSkUpJIlL+wR0AAA==");
 
 export default Corn;

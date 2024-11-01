@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-flag` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-flag?s=duotone house-flag}
  * @preview ![house-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/house-flag.svg)
  */
-const HouseFlag: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M2 267.1C6.6 279.7 18.6 288 32 288l32 0 0 192c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-96c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 96c0 17.7 14.3 32 32 32l64.7 0-.8 0 0-353L276.8 39.7c-6-5.1-13.4-7.7-20.8-7.7s-14.8 2.6-20.8 7.7l-224 192C1 240.4-2.7 254.5 2 267.1z" />
-        <path d="M512 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 160 0 320 64 0 0-320 112 0c8.8 0 16-7.2 16-16l0-128c0-8.8-7.2-16-16-16L512 32z" />
-    </Icon>
-);
+const HouseFlag = createIcon("house-flag", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdQAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBaAsIAAE2AiQDCgQgBYMtB1AbCgXIjtRG9VVixcP/79frPve+mZXMC8MLMCoicAwFVK3+tlFlVxY66AqsaOJ/6tTzTAsF8D1DMCh7Wi4gC3x1rfMKFLxUG1OotrlWU6y1s+/rDSKLQR/i02fYzjA6QpGG5RtqpPfT93ic/wcwftTTDZLWGUB0AMCCjWuX+/JZPEvxffMJ8b1lCIiFoBLIyOgjwGxZoI9ChUIheJaaPItmRQBRlz8hgzoKbMROQAGSEEXRZ1JZa1tsKGuNg1e7RbzTuNflLSJFGTnKeLd7xDvdGhvfH1KGuNL17bKM+93fjYir3d9VfnKt8kbk2ODecl281XNgS4eWnwd8f+B7zQ/a3eFOu8pL8qH5sscpz9pd0e7ZKfHk7KrKlwxrPo/epbdYIOx274J3y/Ldp1/4bx8QCFb90PJqZ/vZf7cqE3jx8a9/piv/aX6ZrqQWtJJAkEc3R9uWrjAOSwBUSHHBwCC+DF8UyCZJyr228Y4AoYEASV1DgKy3DgIUGkYJUNPPFAHqGtbKomgtdLFdQdLGaZBNdREUuvgI1Mz2VVbXJTK6ZGzIf7uMpT20ZFU1Yez4ama1rTQFMGJcnFUdB8MvhIERtNEBJ51wzn77HHauI89YXp533FKLWOKHKhOMNV5lpsrdPhsbODvjrMNrzb/MLNX9dLgL9vgRFCeFc6I1WSZS5E7QM8fg2BmD08Euo/YiAQAAAA==");
 
 export default HouseFlag;

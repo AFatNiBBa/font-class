@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `utility-pole-double` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utility-pole-double?s=sharp-solid utility-pole-double}
  * @preview ![utility-pole-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/utility-pole-double.svg)
  */
-const UtilityPoleDouble: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 0l0 32 0 32 96 0 0-8 0-24 48 0 0 24 0 8 32 0 0-8 0-24 48 0 0 24 0 8 0 32 0 24 0 8-32 0-51.2 0L288 221.9l0 34.1 96 0 0-8 0-24 48 0 0 24 0 8 32 0 0-8 0-24 48 0 0 24 0 8 0 32 0 24 0 8-32 0-51.2 0L288 413.9l0 66.1 0 32-64 0 0-32 0-66.1L83.2 320 32 320 0 320l0-8 0-24 0-32 0-8 0-24 48 0 0 24 0 8 32 0 0-8 0-24 48 0 0 24 0 8 96 0 0-34.1L83.2 128 32 128 0 128l0-8L0 96 0 64l0-8L0 32l48 0 0 24 0 8 32 0 0-8 0-24 48 0 0 24 0 8 96 0 0-32 0-32 64 0zM140.8 128L224 183.4l0-55.4-83.2 0zM288 183.4L371.2 128 288 128l0 55.4zM140.8 320L224 375.4l0-55.4-83.2 0zM288 375.4L371.2 320 288 320l0 55.4z" />
-    </Icon>
-);
+const UtilityPoleDouble = createIcon("utility-pole-double", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABkwAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSDVQsGAAE2AiQDCAQgBYMtBzob3wXInoNx41zinmOxqMVK9pEVHE6t4nlo7X/nzs5+mf2OSuUnLHmmqTSyl2oSqS9ENOEheyWT9/7ndodYWiQePyHmbQlxaTTR1nj0NVrao5kfEgmnzR/39Pfz/FsV4DP6aFGz0qa2UUScd4J+2s2bJjQbSJhOwLY6N+IDsJDNhPkJat5001NeFrgfXjT/bHKmmO0AZAkAOH4ux4PwO7+T7+OXfHcCCOQ4wE6IDh22QnCIVLCVzE6gqsLvjKP4DyQQIFNSuLi/Yhof8QNQQdHX+moaeYd+vp41ke0GJEPSwSEyyHYKrZ3OMSUtmJxNa3O5Xu9A5OEDp88UC5h25ly+pAlpvHvCTUSdITs+UPoGtKlsZKelsnOQqo33vRvYCYMkEkeSRhbXTlMLPej4OkZN9JnnUSe9WdAHuUf6lTnwPbpvPA4gCF8v/VaH/quGAv6+/ovhZ2QUijLBjAJCtzquqhdQCACg5B5WICje6aXPOueZgGgIKKY0AZ0tOAiqZg8Eve08EExpTpFKnRVrNQZQzLkJOgedQLXWB/QO+fmnrE0H0hJASn+U6dkplNlHDqudgrSb0slQKtjWEF0264+yxICPwtDK0t5A38R+wm3xoYOF7BGR8UXEwcqOBNHj7MvDRQNbOxMrS99OCH1v1zseVzdgm0TKu1dcUUhZE4/DLOvVfGCJBg==");
 
 export default UtilityPoleDouble;

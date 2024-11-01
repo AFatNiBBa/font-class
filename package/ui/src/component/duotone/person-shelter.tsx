@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-shelter` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-shelter?s=duotone person-shelter}
  * @preview ![person-shelter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/person-shelter.svg)
  */
-const PersonShelter: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M130.9 340.6c-6.3 11.7-1.9 26.2 9.8 32.5s26.2 1.9 32.5-9.8L200 313.5 200 488c0 13.3 10.7 24 24 24s24-10.7 24-24l0-88 16 0 0 88c0 13.3 10.7 24 24 24s24-10.7 24-24l0-174.5 26.9 49.9c6.3 11.7 20.8 16 32.5 9.8c8.1-4.3 12.6-12.6 12.6-21.2c0-3.8-.9-7.7-2.9-11.4l-37.9-70.3c-15.3-28.5-45.1-46.3-77.5-46.3l-19.5 0c-32.4 0-62.1 17.8-77.5 46.3l-37.9 70.3zM216 168a40 40 0 1 0 80 0 40 40 0 1 0 -80 0z" />
-        <path d="M240.1 4.2c9.8-5.6 21.9-5.6 31.8 0l224 128c10 5.7 16.1 16.3 16.1 27.8l0 320c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-301.4L256 68.9 64 178.6 64 480c0 17.7-14.3 32-32 32s-32-14.3-32-32L0 160c0-11.5 6.2-22.1 16.1-27.8l224-128z" />
-    </Icon>
-);
+const PersonShelter = createIcon("person-shelter", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCEgsIAAE2AiQDCgQgBYMtB1gbPAXIjoTcROtfxFEUK4JKF9mz0l09AOiBEAwMkTkyRw6Sh8xE8eX9+//8X/P5PT86wG90SJHU2lhgnc8nMIG2KJzQhGZUBja/m7xcnEQiDSenvzRsr2HsAnn8lJ1XIj2RfsSt8D+A8aumzpNUzQBEHQCMWTRvhq/uxt0UP1Y+Jn40HQExFhQCGTK0EGC4TKCFXIFcLribKnM3KhcEEGXhfWSgjBK24CAgB0lIed6xZ83qpZr5wuqlassea7ggHmma4nSDh6tdbfRoZLEw5oe+56nGixY93uGV5v1CPNHhteYR1YXtQ4d0eizONFoYT3Z8tVq1uNr+5SbzF/WFVzoxVmHq9LZv1nnz9zY/bvzRn59y55SfY7Raly/XSlYPX+6wfA8yR4ufF845u/Vct8EfPu9dDefMabhYHYvl0Hc978PBX9cqt+8w0cfDpzVpoMm04R873/y3y92GDOlWzo8DgeCvGe06r6o9/P8q1RO4/0n/8g9J5askvYkqEgiy7pXulieQCABAioPaJjgqkBkmic9aw6MChGoIkJRVEyDTXB0BctV0E6CklQEClFUzTybyqkIDKwpIatgDMgOdALkGPgIlw31jlzWIDHIkYMgPX9xEDU1YVvTp2bsYWgxjQqEI9/NhxbbY+SDXupi9Ntplp/02WG+L/QrZa4Z3wA4TZ/AEL1Too6feCkMVx9k1t5DsvfbZ0mfOFxmmuK92dnDe3cUoSUTta0UmI1JkjSAa7LFv84bt+zfs7QHftiYt5qkCAA==");
 
 export default PersonShelter;

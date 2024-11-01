@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pompebled` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pompebled?s=solid pompebled}
  * @preview ![pompebled](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pompebled.svg)
  */
-const Pompebled: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M460.3 172c-46.2-33.2-117-14.1-165.1 44.3c-5.9 8.6-17.2 10.6-25.6 4.5s-10.3-17.6-4.4-26.2c36.9-66.9 29-141.3-17.7-173.5C188.6-20.6 103.1 1.5 56.9 70.4c-85.5 126.3-77.6 313.4 44.2 400.4c121.4 87 296.3 27.7 381.8-98.6c46.2-68.4 36.4-158.5-22.6-200.2z" />
-    </Icon>
-);
+const Pompebled = createIcon("pompebled", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABVwAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBEgsGAAE2AiQDCAQgBYMtBzAbkgTIrgt4Mt54ZQhFhBmrosBiEblW73tDj/YTD//t1+6bGcQ8Lkktb0S80gldG81SJdSlhD1UMvn79Gvt/XNtJto2nSAqjUaIDJHplpbk1kxCIwOO/PJGlLlpnoixJUjte4Yo46dv/v7UqZqxLBTAR4rZWJjzjes8NmfLFeh5aSzfFipYrWAVxVo73YIIyiR9yieZLNIPqyuUOMyPWkhf6Qdv8Uvjz4R1ko4MgOgHAMcXdQpnTc2IxyqioQ4C4hjAPIKMjGkE7GEKTGOZB0URNKOq9H8gCCBakedMoCCjBrYAFJBEYZm7WsSslntOMHYAif29Dc2mltZtpQ4qFV4aL81X6rnt3c5fvjSVM23Ltv99/4TGkG8aN3s3rcm/O6rsKnTW+XVtZbT68xVR1LHlTaeq9sszgEDw8crR17f3397FAPx+f3qxqpJaGNtol0CQl6tl3QkDvRRxoBOrMCEEkqXCjk/t9i5A6ESApFWnANkUGQKKTjUEtJgVRUCrTieYovARhvU0kHR7ANmGNVAMo0GLPbduq+HIEiO8t/BfS61RtLrOEPQFDCnDMFJFIeD8NG2Y1hyrpuLERYyaM2vZiGETlgmziApWzKhxdNUPGQT5BBikGJbT+9MtIxYtmTBnNqySZtivO6zy7U5shgFYuWsobY3En5+bmR8ZnB4ZBgAA");
 
 export default Pompebled;

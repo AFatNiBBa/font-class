@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paintbrush-fine` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paintbrush-fine?s=sharp-light paintbrush-fine}
  * @preview ![paintbrush-fine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/paintbrush-fine.svg)
  */
-const PaintbrushFine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M575.3 91.2L552.7 68.6 507.4 23.3 484.8 .7 462.2 23.3 439.6 45.9 195.7 289.7c-6.4-1.1-13-1.7-19.7-1.7c-61.9 0-112 50.1-112 112l0 48 0 32-32 0s0 0 0 0l-16 0L0 480l0 32 16 0 16 0 32 0 32 0 80 0s0 0 0 0c61.9 0 112-50.1 112-112c0-6.8-.6-13.4-1.7-19.8L530 136.5l22.6-22.6 22.6-22.6zM274.5 346.7l-4.6 4.6L224.6 306l40.7-40.7s0 0 0 0L302 228.7l45.3 45.3-72.8 72.8s0 0 0 0zm-21 33.5c1.6 6.3 2.5 13 2.5 19.9c0 44.2-35.8 80-80 80c0 0 0 0 0 0l-80 0 0-80c0-44.2 35.8-80 80-80c6.9 0 13.5 .9 19.9 2.5l57.7 57.7zM507.4 113.8L369.9 251.3 324.7 206 462.2 68.6l22.6-22.6 45.2 45.3-22.6 22.6z" />
-    </Icon>
-);
+const PaintbrushFine = createIcon("paintbrush-fine", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABegAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCJwsGAAE2AiQDCAQgBYMtBzYbLQURlZqxyH4m2MbMHnoHS6M5Lcc01As0urEx+CSC5+co5/1kKXvMChEUMUqSLatzpQjXsiVwBwFQX+8QtDkgpY8Tj5Chre6668Q1z//8Kc+jyB6tYmstzrDs8wnsvNpLS6ezgU0U57utd8UvymsiIqJDhiEOQ7lwZ8jj2+iugnQ/lbhavjR+1dIpkjwDEA0AMGbRvBle/xQ/RZTvPxKlaQiIsaCDQIYMbQQYLhNoI9cBuVzwU7x/b/8DEUBUwp0TyFGJXTgOyEGS53m/Zs3q1lbUzRfGFcXOrl26joyu0dmfmh93ig87P28jRBHHTUpRiNraVvhJt1ftjzdbFN0ofXWT5k1GxqgtY1SMiPkR7H7bI5nZXxCMiKenawZdbDpn2fxF80dGOjoiOnd62eDl7x3Lvhy5fgGe8/0CGyz077/Xi7++q99bBx1AgwYdNHgGq2VFy3//2Whht/fj6KXlPjBOadJkMLplEQs3NIDZZosFGxsUN+69qTkHZylgNio5IG4bVJ3/o/7w/6trE/jl83+rb3v/Oo1KL1EtgSDr/r778jQakUYJAECKPTox00KySQ6fWscdAUKBAEmlQoBMaw0EyBW6CVChnQECVCrMk4m8RmhiRceTOrbjmYEO47kmPsArDPdFqFKTyHRP0hzp0y/duhGwk8iTDM22pMnqJKRRw7HL+12LTydFf+xv107vAN1l9NscB9ofkicZGnH1+XDV3c907Hkcw32f9/PdffIq4C2KlIRM9X+tm1Lf3zPGDw8AAAA=");
 
 export default PaintbrushFine;

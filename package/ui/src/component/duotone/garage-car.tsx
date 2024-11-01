@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `garage-car` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/garage-car?s=duotone garage-car}
  * @preview ![garage-car](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/garage-car.svg)
  */
-const GarageCar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M160 384l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-16 192 0 0 16c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-21.1-11.7-39.5-28.9-49L431 277.5C423.2 255.1 402 240 378.2 240l-116.3 0c-23.8 0-45 15.1-52.9 37.5L188.9 335c-17.2 9.5-28.9 27.9-28.9 49zm104 16a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm-21.8-72l12.1-34.6c1.1-3.2 4.2-5.4 7.6-5.4l116.3 0c3.4 0 6.4 2.2 7.6 5.4L397.8 328l-155.6 0zM424 400a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M0 171.3V488c0 13.3 10.7 24 24 24H72c13.3 0 24-10.7 24-24V224c0-17.7 14.3-32 32-32H512c17.7 0 32 14.3 32 32V488c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V171.3c0-26.2-15.9-49.7-40.2-59.4L331.9 4.8c-7.6-3.1-16.1-3.1-23.8 0L40.2 111.9C15.9 121.6 0 145.2 0 171.3z" />
-    </Icon>
-);
+const GarageCar = createIcon("garage-car", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlwAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCRQsIAAE2AiQDCgQgBYMtB1AbZwXIjsQ4JvKLKGy0ePj/Nav7/q+kiSoDWIMAC4QOiVW7BZbj+qxDuTod8j7/b+rU85yHFshzCII2lk2dtj24dtvzChRwbB9LuFeB9jxmXnU68m4684iIxFJLGR6fPT7PUKRp+XY10jPpZzw0/gcw/jHS7SRtGUD0AmDDsUN7DA7FUIqfm58TP9uNgNgIKoGMjDECrJYFxihUKBSCodScoWheEUDUjY/KoI4W3IYHAAVIQlEUc+e2dbV11LqKox219pxyemZKR7w1Osctw5/q6Ir7Gk9IYcca9uTUs+PJ8sx4vXzcMeHmxhMd9w1/KiI6Qojz4tSF8WzSam+Pe1PSiPnrrWOOPD35zVHPTXtj5NHxY8Y/1dER9zXGRruzdOK7ve/+x8/n/6yxhpsbB+Y70GjVfffd3TfvWiu7ao3yow+Hd1zs889bZPiHH5VeWncmqZja8F6DOHnhTL0fLXfgxF/91+r/68SB5T7qvaCnceBAA9K2T7mvrF+rXn7q+S+2eeMBgeCPk7d9ekbP6v9bOxL481s77mgOppvTu2iVQJBnN2c7FTYsxADcFNebiB/iZYFsjwLftdOTAoR2BEjq2gXIRusVoNBulgA14ywRoK7dIVkUbULptAskna4C2VI3gELpM1Cz2ndeXRm5FplKYn4FE7cqtGVRtWDu/Gpl9Rg72fKi+uyqKi1Pv97UZuCk813hctc6z7kucq0gV9sTXucyWyN4iy+qLDDXfJWVqulsKx4V72rXuMjn5+dZpXpfn+76uHsGtISkC12WZSJF7r/grKvPuuC8OeecdfWcqq6Xd/4DBg==");
 
 export default GarageCar;

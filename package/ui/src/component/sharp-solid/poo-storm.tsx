@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `poo-storm` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poo-storm?s=sharp-solid poo-storm}
  * @preview ![poo-storm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/poo-storm.svg)
  */
-const PooStorm: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M208 0c64 0 112 43 112 96c0 11.2-1.9 22-5.5 32l5.5 0c35.3 0 64 28.7 64 64c0 12.7-3.7 24.6-10.1 34.5c42.5 9.9 74.1 48 74.1 93.5l0 64-96 0 0-64-76.5 0 40-128-51 0L64 344.3 64 384 0 384l0-64c0-45.5 31.6-83.6 74.1-93.5C67.7 216.6 64 204.7 64 192c0-35.3 28.7-64 64-64l32 0C272 96 208 0 208 0zM184 384l-88 0 0-24L272 224 232 352l88 0 0 24L144 512l40-128z" />
-    </Icon>
-);
+const PooStorm = createIcon("poo-storm", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABaAAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBYwsGAAE2AiQDCAQgBYMtBzAb4wTIjtRG91AmiYfv18o/93Uv9YShw4yOQKXiwp/ZMQu79SWxnKrVnv9r8r2zpgP8RocS0QuQKLDM5xMYaKSnTWijgc10Ara3DZWMiMIrIUES0ZiOVRfI40F2VQ3pXvoWt/qHxs86ukrSkAGIFgCYsW7VEh82RmPEN1XENxYhIGaAUiBDhi4CTJYJdJErkcsFjVGt8n9gSQBRS5DEzOnB1dgGyEGS8nxSy0pN03xtOlls+mxAxAtdL7apxDMDXuhYWK7rKooIgtYFq8PUPzbopX634wGur8Q3nR90ut9ufVEpwmc4rQR823U9X2zx4q89vt37rR8+8BM/1bdcWuPxli2L1o/9P398mm676Rbrd8EoX97R33TTpfHz/3+sddGy5eOl5eduPn+3RfsL69ev7+C1G/pdsJ4+DwLB3z8fvK355H/rKwn8+Pbvv+JfUfXD+DC9iHoJBNng6mCb40OIDwUAIMVZPeNDBJLFEnnVJm4LEAoESGoVAmQ6ayFArjBIgBrdjBGgVmGVTOQNQhtbBkiaOAEyY50DuTbeAjUm+6JQq01kkSXEhfCxS51r4TmryhFDh5cTy2WDisHC1cVJ5bbb/2weGABn7XXMUaftsdsBpw110pLyGUfM9cg5vqg0wlDDlSYqj9vPx9fa46RTDjjmaFtmkvJ+vr+z/vgBECRCO9LWJBGp4fixY0PeqrQjAA==");
 
 export default PooStorm;

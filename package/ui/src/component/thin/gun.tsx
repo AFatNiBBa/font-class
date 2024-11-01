@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gun` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun?s=thin gun}
  * @preview ![gun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/gun.svg)
  */
-const Gun: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M504 32c4.4 0 8 3.6 8 8l0 24 24 0c22.1 0 40 17.9 40 40l0 64c0 22.1-17.9 40-40 40l-49.4 0c-2.1 0-4.2 .8-5.7 2.3L458.3 233c-4.5 4.5-10.6 7-17 7l-59.6 0-22.9 68.6C353.4 325 338.2 336 320.9 336l-84 0L207 455.8C203.5 470 190.7 480 176 480L64 480c-9.9 0-19.2-4.5-25.2-12.3s-8.2-17.9-5.8-27.5L73.1 279.8c5-20.2-10.2-39.8-31-39.8l-2 0c-22.1 0-40-17.9-40-40l0-96C0 81.9 17.9 64 40 64l456 0 0-24c0-4.4 3.6-8 8-8zM320.9 320c10.3 0 19.5-6.6 22.8-16.4L364.9 240 261 240l-20 80 80 0zM77.8 240c10.1 11.3 14.9 27.3 10.8 43.6L48.5 444.1c-1.2 4.8-.1 9.8 2.9 13.7s7.7 6.2 12.6 6.2l112 0c7.3 0 13.7-5 15.5-12.1l53-211.9L77.8 240zM40 80c-13.3 0-24 10.7-24 24l0 96c0 13.3 10.7 24 24 24l401.4 0c2.1 0 4.2-.8 5.7-2.3L469.7 199c4.5-4.5 10.6-7 17-7l49.4 0c13.3 0 24-10.7 24-24l0-64c0-13.3-10.7-24-24-24l-32 0L40 80zm32 48l432 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L72 144c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const Gun = createIcon("gun", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABjAAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCVwsGAAE2AiQDCAQgBYMtByobUQXIHolxrMQWIF8lguft/qvObcyf7jF6YC6gARDtOhIZbQYpFcPnTmyOu2RzeFAh+hPn4t3ORwMsG8GQumhN+wqgzPMXeLHASHrwsse3F8V/29QgRxSeRoQEWURjOl6nI+TxtXUK0i3xDq4qHxo/6+sSkiwDEF0AsOSUE47y2g/xQ8Q7rReIdxyBgFgKGoEMGQYIMF8mMECuQS4X/BCtVvwPbAggSvI4CeRoh8twCyAHSZHny6oufTrVRcf85LqoNt4gUcdluoG4gNdXVVzK0UHpiXHzEv7SvLH3KXGT0qvv0S/iQt9Ud4yIm3zqQ54WS0l98i1F2et1Q11nanVDdfL9JW65jnGZxwU8dx0PdcStX63q2KHjDbq+R4e4MW/qPfTRLo/+6p0N7/j/rlVlH310fezVrot1ffWxrlPkXTfYUM3Ta7lbnj7RwIM27Nqly2WXTxx1l0mXXfpH0vWxR62CHd/QR7nqxXH2MTbpfoxj/zrmz8PCab1nrGjb5em50z/20Ii7juu5Ss/jrrlrTqGBxUnz1KSnpW5VWa56GvV+IBBs/uy9Ped0nv9vW53AT6/+nm/X+iEtTo+CNgkE2fjWeGemxYDEAAopDhhqfFEguVhB3rWDGwUIFQIkpUqATH9dBMhVxglQGGSGAKXKCTKRtxd6OKsjSQe7kcxM5yK5Hp5DCvO9ni/1iMwnWY9in4RJKzW4YlUzZeLkZm4zbWicm9FpcV6zbY0+wANjcKsNdtphn/XW2Wyfgvc4qrTfdistaIUfakwx0WSNuZrj9uP6k623x16b7bQjLzNPcz8c7YA9fgy6iZBOlSbJ18Texv07AAA=");
 
 export default Gun;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-d` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-d?s=sharp-regular square-d}
  * @preview ![square-d](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-d.svg)
  */
-const SquareD: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 80l0 352 352 0 0-352L48 80zM0 32l48 0 352 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32zm152 96l72 0c70.7 0 128 57.3 128 128s-57.3 128-128 128l-72 0-24 0 0-24 0-208 0-24 24 0zm24 208l48 0c44.2 0 80-35.8 80-80s-35.8-80-80-80l-48 0 0 160z" />
-    </Icon>
-);
+const SquareD = createIcon("square-d", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYgAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBRAsGAAE2AiQDCAQgBYMtBy8bwwTIjsQ4JvGLKEzi4fu13s593TP10xOGThRQBxldHKtEEegfSbhIdt2vtVsrV0++f4XM/zWf3/OjA/x8J35o0VQJUmAVi3w+gYntDSOFo8GmE7SZu7qVeYj2k7TIkjx+83jaQh4P47Ya6X76DbfKh8a/+rhCUssARGcAzN28fqWv2qIt4tfmK+JXyxEQc0EpkCFDfwFmyAT6y5XI5YK2aDb5P7AkgKiTM04gRx2LsAKQgyTP83ZdenRq1Drkmxq1YnvKUofIov2sRtFBpBBF+4gsYmOjaHw/89PgZzM+LiiKEKExWfnNiOeDngxvnVSEIa2dW//rt0O/GXN6D3gB26yqryp7VOLtat7dvYTuYc38CbXahPlrlvTu7S+99e71Z1VVnQ9uith0sHPlGRAI1jT+vnmnGf+3NBL45z1wcrMtvkqtaJFAkI1sjrQjvgJGB/CTUlwyJL5CIJklR9fa3h0BQoEASV0hQKafzgLkCiMEqBloogB1hfUykbcTutvZQdLeWZCZ5DLIdfcC1Mzwo1/XPTJXohyB+sjFL9LQwnnl2NFVOa1c5hrtHUSanl5uS0Mvxa5hWOqQ00654KADjrqgkHNWRhedtMiCF/qi0lijVUrTlMfV4+JNDjrnvKNOO5Vnma687w11yR48DGoiuOPEkkSkltcojzoAAAA=");
 
 export default SquareD;

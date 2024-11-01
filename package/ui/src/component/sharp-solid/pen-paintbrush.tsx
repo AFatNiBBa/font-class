@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-paintbrush` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-paintbrush?s=sharp-solid pen-paintbrush}
  * @preview ![pen-paintbrush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pen-paintbrush.svg)
  */
-const PenPaintbrush: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M118.8 39.6L79.2 0 0 79.2l39.6 39.6L146.3 225.5l79.2-79.2L118.8 39.6zM399.2 511.2l176 0 0-64-64 0 0-48c0-53.6-37.7-98.5-88.1-109.4L289.8 423.1c11 50.4 55.8 88.1 109.4 88.1zM64 352L32 512l160-32L452.7 219.3l-128-128L64 352zM544 128L416 0 347.3 68.7l128 128L544 128z" />
-    </Icon>
-);
+const PenPaintbrush = createIcon("pen-paintbrush", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABYgAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBRQsGAAE2AiQDCAQgBYMtBzUbygTIHoex22RJF82weRcigufX0nl/9y5JGbdVRHwpIcg6AtvYuqo69IQWVfUFc5rB1s7/NfnePT86wG90KNFYCRIF1ot+PoE9T7tN1zahKLCJ4t42RUwiCm+EBElEYzpeowPk8Sm7okS6k3CjfWn80tEVkroMQLQAwOT6pfM9/x7fI95UJ96Yi4CYDAqBDBm6CDBOJtBFrkAuF3yPajX9BxYEEGX6BgnkKGM8KoAcJHmeN23TuK5xqWleaVxqtHrC+AnLYnwsj/qobG3cqHFEo4h42KdhxLJ40PvJ8E3L6pfVx/aoxJbNleWVZVvreza0aPjTg2O3juPGBQsct3OXhQvt2tn+bbDbJJMMUnv2zI4rV1x79+LCgofdHzHOKXnu/Plsf/t2noxp0yDkehAIpt1/fH1983H/axsn8PPZvz/k4urzNDE1oFYCQdav2s+aNAnhHCgAACmO6QnzQjJcjm61iZsChEYIkJQ1EiDTWQsBco30FaCkm+EClDWyVCbyOqGNtQMkTRwEmRHOglwbT0HJOC+8sjaRhRIdCPRLLmGGhafPKgYPGFSMKZaZzkQHWSbHFttir2PS0Ru32ma/fY7Yaoudjhj0kPnhUXvN8JDpfqgw2ACDFMYojsvn5oqtDjlsp/321WnGKu67vRzz+/dGJVHMIRqTRKRmB7bu6/9Xrrfp0NHDOwA=");
 
 export default PenPaintbrush;

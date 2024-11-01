@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `binary` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary?s=solid binary}
  * @preview ![binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/binary.svg)
  */
-const Binary: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M336 32l0 128 16 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-48 0-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l16 0 0-83.6-5.9 2c-16.8 5.6-34.9-3.5-40.5-20.2s3.5-34.9 20.2-40.5l48-16C303.6-1.6 314.4 0 322.7 6s13.3 15.7 13.3 26zM112 320l0 128 16 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-48 0-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l16 0 0-83.6-5.9 2c-16.8 5.6-34.9-3.5-40.5-20.2s3.5-34.9 20.2-40.5l48-16c9.8-3.3 20.5-1.6 28.8 4.4s13.3 15.7 13.3 26zM0 64C0 28.7 28.7 0 64 0l64 0c35.3 0 64 28.7 64 64l0 96c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64L0 64zm128 0L64 64l0 96 64 0 0-96zM256 288l64 0c35.3 0 64 28.7 64 64l0 96c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-96c0-35.3 28.7-64 64-64zm0 64l0 96 64 0 0-96-64 0z" />
-    </Icon>
-);
+const Binary = createIcon("binary", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABnQAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDBwsGAAE2AiQDCAQgBYMtBy0bhAXIjtRWuflgEg8fusz3JXnHlo5BB8AUYqoIp0930IaqtNkMIcef/2s+v7SjA/wAfpF2bevEUQdPYM+rPbXBZgObT1Dme/vMKEnZXyYTvdLd7znOPv7uAFmcSa+qIXky+R331w+NP7V2lURdCiAaAWDSiiXzfH0jbkT8Vv2U+M0cBMQkUAqkSNFOgLFSgXYyJTKZ4EZUq+E/sCSAqJDzEpChFq/hXcZZJCpZ1rdvm7ocLGrqZ8vTxfkOoYi7mz/qYrNH8jy/q8Vjcanl40UREc3iEYO3eMzVckQ8Dtu0cu86zZc/3Sfi7R5FvNrrzdbiiZ5vdM3jtd5vtYkiL3JRRCzT/ECKEyq4CRfuyDu/1eitv/2+/XcLnr8oaY00uOOOBskaOFB/nEaWWuS7Vz4dO3b2mu+q+uOXRtc7Lp71ZcMD1bwxjV+Y6IXGjfON8sZFuThRUjeaaOOF65x/xrG0kWn4ChOBQPD++eNNNzQc+19tkYBbX/17W139v/p1XEzeQq06K0j7VvtaGxcBTl/xrJ44rjONMJB4zot/13oeEyDkCJCoyAVItdVIgEyujwA1OhgmQEVuiVRkdUIz6zpI1HMIpIY7BzLNfAxqjPVTuKJZpL7KeRr3q5g83ULThpWD+g8sR5fTLOXdj4HdY8pttefxWNWL9trugP2O2marXY4a8rB5sWP2mY6Iab6oNEh/A5VGK48Lj9uX2+awI3Y5YH8ZZIzyfltPx3HjXjSaBDD4K9MoM5LK5l37Nx0+BQAAAA==");
 
 export default Binary;

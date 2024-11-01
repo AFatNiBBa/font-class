@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-sleeping` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sleeping?s=duotone face-sleeping}
  * @preview ![face-sleeping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-sleeping.svg)
  */
-const FaceSleeping: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256C0 397.4 114.6 512 256 512s256-114.6 256-256c0-46.6-12.5-90.3-34.2-128L432 128c-19.4 0-36.9-11.7-44.3-29.6c-7.1-17.1-3.7-36.7 8.6-50.4c-2.9-3.2-5.4-6.9-7.3-10.8C350.2 13.6 304.7 0 256 0C114.6 0 0 114.6 0 256zm99.2 1.6c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0zM296 384a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zM256.3 76.8c.2-1 .5-2 .9-3c.8-1.9 2-3.6 3.4-5.1c2.9-2.9 6.9-4.7 11.3-4.7l64 0c6.5 0 12.3 3.9 14.8 9.9s1.1 12.9-3.5 17.4c-12.2 12.2-24.5 24.5-36.7 36.7l25.4 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-6.5 0-12.3-3.9-14.8-9.9s-1.1-12.9 3.5-17.4c12.2-12.2 24.5-24.5 36.7-36.7L272 96c-4.4 0-8.4-1.8-11.3-4.7c-1.4-1.4-2.6-3.2-3.4-5.1c-.4-1-.7-2-.9-3c-.1-.5-.2-1.1-.2-1.6s-.1-1.1-.1-1.8c0-.4 0-1 .1-1.5s.1-1.1 .2-1.6zm34.9 180.8c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0z" />
-        <path d="M416 16c0 8.8 7.2 16 16 16l25.4 0L420.7 68.7c-4.6 4.6-5.9 11.5-3.5 17.4s8.3 9.9 14.8 9.9l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-25.4 0 36.7-36.7c4.6-4.6 5.9-11.5 3.5-17.4S502.5 0 496 0L432 0c-8.8 0-16 7.2-16 16zM256 80c0 8.8 7.2 16 16 16l25.4 0-36.7 36.7c-4.6 4.6-5.9 11.5-3.5 17.4s8.3 9.9 14.8 9.9l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-25.4 0 36.7-36.7c4.6-4.6 5.9-11.5 3.5-17.4s-8.3-9.9-14.8-9.9l-64 0c-8.8 0-16 7.2-16 16zM387.2 238.4c-17.6 23.5-52.8 23.5-70.4 0c-5.3-7.1-15.3-8.5-22.4-3.2s-8.5 15.3-3.2 22.4c30.4 40.5 91.2 40.5 121.6 0c5.3-7.1 3.9-17.1-3.2-22.4s-17.1-3.9-22.4 3.2zm-262.4 0c-5.3-7.1-15.3-8.5-22.4-3.2s-8.5 15.3-3.2 22.4c30.4 40.5 91.2 40.5 121.6 0c5.3-7.1 3.9-17.1-3.2-22.4s-17.1-3.9-22.4 3.2c-17.6 23.5-52.8 23.5-70.4 0z" />
-    </Icon>
-);
+const FaceSleeping = createIcon("face-sleeping", true, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAAB5AAAALTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiELgsIAAE2AiQDCgQgBYMtB1YbVgbIBiLSpbN3+rct2fwECgBDRQRVKiITdNgGuI3muZ/5onyAPwTnQ6lMjEqcwN4AozVxVqID2kUR6ak41wwPiMKhMN8DQwr1blygTqts4KC3WL4QZDcokjQegKTD/wFCj3GjhvCiUiqVZDvPQLIZDAiA9ATARgANaCCCANAZjQARDGzAwECgUjkOVIrj2CAAIG7o8RoAN2ABv0AMAMAAQGHgMoxoNCujVkZKhwzLlWKMtVzmvONeSzrLMS/gJ/0nfKZ0Q/hGPuYZPRE95pQpsid0wqOtt629jYZ6PMkNCqOoy0lJD5GXQ0RyxpQNy+v1elxpT1NuhM40OuHLHVs8OLv7i9FjTvhPek+vh4VPeo97bkU0HHOq9rW682vO1rtZ53pw4g6/yA45SVbLkr2KeyyklJLjXmU1ZY9vHzWklxLfDpBI/iP/QM076Xe+1ciem83Fh6mVQVozt0H/Q92pTG0NfbHbzGt2ni/wgrfgzPvTi/fXrr1/8+13p90Wxaaoa/CCfgEIHoYd/ejHjsPBAP3om9iUyuw7dVvXuTpgRDFTdtCOI9zenPRmi7tRhw6N3OlZ9VoKgKgarRO6Yw5oMHfd+tO3Q+THYvltnNVhR/n3lrWCJLTOyBQRwkkFhJrPTv05ABBAYOSenD3T0jr/S7QUANXPf/zJNc4LFfyZO0AiCgAB3dhpzGQFOP+VQqAPSslaaiqYDAig2YsLCiZzAmFGE2pA4cYENGHSAQOTRoCLGG1oKxePQiNGEoKHKQAUyawANG3ZAhh4eAq46Mx7nxuP6AeAcfkyfj/j9m0j+4yzWzRtbne0J7NK5jVNs7s72aul9dfqqgbYyFyWsZTVzGE2C1jdIq5kSHANS+g7R9rnuTYtaEpzbDpi7y7c545tUVLrKhYwzt4/Sifs8431WTvfuAEUioBsS6ZoNIgS7X29+E2+OM4FS+c1eZfq+EfY7w0AAAA=");
 
 export default FaceSleeping;

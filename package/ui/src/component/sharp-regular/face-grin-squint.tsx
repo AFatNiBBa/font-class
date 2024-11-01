@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-squint` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-squint?s=sharp-regular face-grin-squint}
  * @preview ![face-grin-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-grin-squint.svg)
  */
-const FaceGrinSquint: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm255.9 62.8c50.3 0 97.2-8.6 136.5-23.5C378.6 355.2 322.7 400 255.9 400s-122.7-44.8-136.5-104.6c39.3 14.9 86.2 23.5 136.5 23.5zM112 144l118.9 64L112 272l45.7-64L112 144zm169.1 64L400 144l-45.7 64L400 272 281.1 208z" />
-    </Icon>
-);
+const FaceGrinSquint = createIcon("face-grin-squint", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABegAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAgsGAAE2AiQDCAQgBYMtBzcbCQXIhof/t3v8fe7MC8BJKhMdVMVVvHpYXyjVsvr1m/9rPr+0owP8RofUpQdSINfLeD6BAUb7fBOJApvpBGzmLWNdjyyjV2aiJD1+6/HsBHk8iZNKpLPpK5yoHxp/aewQSSkDELUAMHT29Ile/h6/R3wp3yO+GI+AGAoKgQwZmgkwQCbQTK5ALhf8HuUy/gMLAogK9EkTyFERC7ENkIOklOdNm1avXLlqqXo+q2qpyvL9nSKuj/tc5fCYjx2u2tfx2thPVY+M/9L5RlT7dXjEm8nfVj0y8euhr2b+NOTlhK+qHJ70zbDXs2b+Ov5Cn4cj3vd73OLTzFnpYjNieAybOXvG7CExNGa1vlzr8j+tvlr1lW9f9H3O9WpVe/euWu36876uguPfGVmZxndeDR/+6k7jykZK1S0oDxrv/rUJE4qiZZ7dn+DE9V2DgftNv2g0S/h8IBCs2nHg1eKaA/6vVDWBPx//9x9+Rsovk3QZlSQQZB3KHSxIIBEAgBS7tE4QSGYq0Wut5pQAoQoCJBVUESDTVC0BclW0F6CkhZ4CVFDFdJnIKwv1LDSQVLMVZHrZDXL13AElA3wIKqgXWaRxccL985JHeWjkvKJrpy5Fv2Ja6XzwMGW6f7Ftt9mVu9rSUatstskOK62w1g5HbjMx3mmjUStipC8qdNVJF4V+iuPG4/5ZVtpmu7U22ySz9Ffc99vYtR7clrxEKbtJJIlItZ7xyo6rt63d1HH71p1rN+0A");
 
 export default FaceGrinSquint;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swatchbook` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swatchbook?s=sharp-thin swatchbook}
  * @preview ![swatchbook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/swatchbook.svg)
  */
-const Swatchbook: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 416c0 53 43 96 96 96s96-43 96-96L192 8l0-8-8 0L8 0 0 0 0 8 0 416zm96 80c-44.2 0-80-35.8-80-80L16 16l160 0 0 400c0 44.2-35.8 80-80 80zm408 16l8 0 0-8 0-176 0-8-8 0-146.1 0-16 16L496 336l0 160-300.1 0c-4.6 5.8-9.7 11.1-15.3 16L504 512zM223.8 423.3L453 194.1l5.7-5.7-5.7-5.7L328.5 58.3l-5.7-5.7-5.7 5.7L224 151.5l0 22.6 98.8-98.8L436 188.5l-212 212 0 15.6c0 2.4-.1 4.9-.2 7.3zM64 48L48 48l0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0L64 48zm0 16l16 0 32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16zM48 176l0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0-64 0-16 0zm32 16l32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16 16 0zm32 224a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zM96 384a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
-    </Icon>
-);
+const Swatchbook = createIcon("swatchbook", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABpAAAAKkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDUQsGAAE2AiQDCAQgBYMtBzEb0gXIrgZsYzjmL2kfd7RGQ2pTZGPxnRh7eXKj8fC9rtdzn7R/1lozaFwBQsdMpR1A7jKpqU1TfMvbEX3wASZ5FVFpglrVaF1qJjVr3+H9dm/876ocApEAEw1kEGi8RABUTQez/4lrnj8mPWCU0OvTkz3XqnUgFXHeYBNLbcG0gc10AjZ1UwKieCgBjyIiBcM2dpzdce0IeXxujQrpYfoDuN4/NP4nOUOSZQCiKQCMnz97qm8sS78nxO9MBMR4UApkyNBRgFEygY5yJXK54B/l/B8oEEDU4WUJ5GiIH4C/gH8OkiLPW842HVs0a9aiQYuqNMrn1SpFPO0e8Wrwx+31nEVEUYg096Ma8VrnLGqR4km3l2NlFbWIUMaWbadoGHdaNlo1f878NtFa80Z+S80JMT/mGuWERUWtCAlRu+eYVPNqAotidY4geQfdX9Tm3nH3wv1417e/5CLuONHqLl1uc1+dbH3PdN382i+3i1Rf47UTvQeqqp9UPVi+mq7FvLjhhRti3tqm922VLu/g0K16eKGXDfsmtlnwcPPCHIePmGOOJUu1tmqVHTv9ebHy7Pk+ZrJxmmo6w2LrmccNZTX3g7PJdl0jiUX65Wja5W92G1KxudC48QUuEJfd7najLe+jPkrgv/PDfkX1R5NeQ1UCQdYrHUsSSAQAIMU+XRMEki8U+K4N3RMgFAiQ1CkEyHTQVIBcoacAFZ0NFqBOYbZM5A2ElpYuPGloJ54Z4iiea+l9vGKUn311WkYW0Go4qv+TGafswOR1Zf8+/coR5bFiajEqy8mR5WVnt32lozt2Wme7bfZYa42N9mzYLlODe201RaGTfVGpvz76KY1QPq7vN8+z1i67bbTdtjbNSOX73m726f7d4UkoOEB+kohU7P4I5IAHAAA=");
 
 export default Swatchbook;

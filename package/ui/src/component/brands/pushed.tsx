@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pushed` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pushed?s=brands pushed}
  * @preview ![pushed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/pushed.svg)
  */
-const Pushed: typeof Icon = x => (
-    <Icon viewBox="0 0 432 512" {...x}>
-        <path d="M407 111.9l-98.5-9 14-33.4c10.4-23.5-10.8-40.4-28.7-37L22.5 76.9c-15.1 2.7-26 18.3-21.4 36.6l105.1 348.3c6.5 21.3 36.7 24.2 47.7 7l35.3-80.8 235.2-231.3c16.4-16.8 4.3-42.9-17.4-44.8zM297.6 53.6c5.1-.7 7.5 2.5 5.2 7.4L286 100.9 108.6 84.6l189-31zM22.7 107.9c-3.1-5.1 1-10 6.1-9.1l248.7 22.7-96.9 230.7L22.7 107.9zM136 456.4c-2.6 4-7.9 3.1-9.4-1.2L43.5 179.7l127.7 197.6c-7 15-35.2 79.1-35.2 79.1zm272.8-314.5L210.1 337.3l89.7-213.7 106.4 9.7c4 1.1 5.7 5.3 2.6 8.6z" />
-    </Icon>
-);
+const Pushed = createIcon("pushed", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbwAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBbAsGAAE2AiQDCAQgBYMtBy0b6QTIhocHu6r3q6tHrJ2FakEf2b2QszvnKwfJRAcrhNFTp2rGeSiAbxS0sXBpQBbgXucbLGK9aLtBet59XqsoVt32BTHIZU1EjuARMbSHKu4hjSNxUJHkVPIKDtSnim90dzuJYgFAtABgXvnayz3xYXwY8UrlXuIVlyIg5oNcoICVXgLMVBDsHlI5Uqngw6hU9D8wJ4Cowg9MQIpqXInNgBQkimnap6amua6+2JiW6ot1G0rXl/rGmY7j2co4mh3tsiiOdTnWtRzlONFxfHDpRDYySlFeebz++rguSouOdiyO6+Not5PZ0eyW2HBdOW0T18exrH9nS+d3/V5Z/4rjV66qkVt6wzWnOt9qGuHOTYtGb1xixU8/ne1/la8/9+iy5bF12s4h1e5o9kiftklDa//ssPIz537ZueT6wde0ufEZU3ft3rEDLdOee0qut+gdm2qsngQEgiFL3r1hRfPM32rqE/DxQz/80y6s/F95P+5JOlEjAUFhZGWkpXGHA/07F1BLYr/++CaBxIWK8KwNjgsQ6hAgUaVOgIKeWgRI1RkhQFEfkwSoUudaBZHWCpllAyQa7AIFk90AUpm7QdFMz2tVsiiEFx0c9OMu4QKLnr+Ujxs9Np+eL12diRiytGfk2+LQ/Tk1DKvW22G7vdZZa5O9Bt/tcnOfbS7wsPP9UG6c0cbKTZcfB8+bS9bZbY9NdtiuXWbI76tD7feLh0FJkHA8SyIhkqpfWg==");
 
 export default Pushed;

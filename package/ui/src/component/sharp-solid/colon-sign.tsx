@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `colon-sign` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/colon-sign?s=sharp-solid colon-sign}
  * @preview ![colon-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/colon-sign.svg)
  */
-const ColonSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M255.2 23.3l-9.8 41.9c9.9 1.1 19.6 3 29 5.5l14.5-62 62.3 14.5L333.6 98.4c16.8 11.7 31.7 26 43.9 42.4l-51.2 38.4c-2.8-3.8-5.9-7.4-9.1-10.8L268.9 375.9c23.1-8.6 43-23.7 57.5-43.1l51.2 38.4c-29.6 39.4-74 67-125 74.7l-13.4 57.4-62.3-14.5 10.3-44.3c-9.8-1.9-19.3-4.5-28.4-7.9l-15.6 66.7L80.8 488.7l19.9-85.5C58.7 368 32 315.1 32 256C32 165.6 94.5 89.7 178.7 69.4L192.8 8.7l62.3 14.5zM201.7 382.1l58.1-249c-9.3-2.7-19.1-4.4-29.1-4.9L173.4 373.6c9 3.9 18.4 6.7 28.3 8.5zM96 256c0 26.8 8.2 51.6 22.3 72.2l42.9-183.7C122.3 166.4 96 208.1 96 256z" />
-    </Icon>
-);
+const ColonSign = createIcon("colon-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbAAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBXwsGAAE2AiQDCAQgBYMtBzEb4ATIhuBBL/p5SXYPUA4w+qvsT1QwWnPq1POchwL4RkFZw5ZuXOBznkcgGgz1atM2b6oVaxXF7s52QET7lrSUNXJ8dnw+O8hid3pEgeRU8gqO1g+Nr9VyhESpFEBUBMDA6ZPHeuKL+CLi5f8fIl42GgExEOQCKVLUFaCPVKCuTI5MJvgi/v/f/wfmBBBFeNkEZChgHBYAMpBIs6xz6VJlCuWyaWnv0rPrNqh7rFrjGBpT4lbLMXG8+pR4pPXYeGJKHsOiAcdoZnrcbnd3vD/46ekqa8b0KdMjtrLitHMtp8fVFjc1ul3x9rcNX1n2iv9unsIrfvn2tz5VcZSDLbrqMrT969rO6eqbseU+8KmzvnymwkCfqjLVX1WbtjXk0MYBFT/2aZdlPf9wr3j7i56/euerlXtLjmv1sNfr1W0CBILLP93cPr9Cn19LlknAV49//y3dLv//xdiV3EZJCQjSNv+3MScOyBVjlwAAJLFNI+GLAolhUviuZR0XIJRGgERRaQFSdVQUIFNaawEK6usqQFFpk6UiKyVUNbeDRFkbQaqbvSBT1QOgoI/n7aKqkdoVZRXUsy5+GIeGjuUd23XIe+VTX6NNhcj93rlabLEt5FrCUsust84WSy2x0haGbDLW22qtYRI81A/lOmqng1wv+Xb0uHiapTbZbKX11pUhveXn1Ra2ydUtQUkgaicTiYRISn97IbS9kwAA");
 
 export default ColonSign;

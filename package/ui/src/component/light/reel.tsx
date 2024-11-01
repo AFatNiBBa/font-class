@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reel` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reel?s=light reel}
  * @preview ![reel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/reel.svg)
  */
-const Reel: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 16C0 7.2 7.2 0 16 0L80 0 368 0l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0 0 64c0 8.8-7.2 16-16 16L80 112c-8.8 0-16-7.2-16-16l0-64L16 32C7.2 32 0 24.8 0 16zM96 32l0 48 256 0 0-48L96 32zM64 160c0-8.8 7.2-16 16-16l288 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 176c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l352 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 240c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l288 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 304c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l288 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 368c-8.8 0-16-7.2-16-16zM16 512c-8.8 0-16-7.2-16-16s7.2-16 16-16l48 0 0-64c0-8.8 7.2-16 16-16l288 0c8.8 0 16 7.2 16 16l0 64 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0L80 512l-64 0zm80-80l0 48 256 0 0-48L96 432z" />
-    </Icon>
-);
+const Reel = createIcon("reel", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABiQAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCOwsGAAE2AiQDCAQgBYMtBysbNgXIrg5MvL4pjIiI5OSGOXft9ccjf6J4+Bpr7+/uGSJWzRJeiVoyHq9RSXjIFiLTKYGhUgLwRPfmm2sdcO6olJpqpVNpxWIBjMe/xkJrEV2R498ALMzg+gHskFlCULSnXu37xDX1o+ypQFL0laIxt7ZRxXmXTmDniT9/3018YDOdgO1s26sgoiGxC40ESryG+EnPKbgLHxp/DPtCUjKA6AIAe6dbKxgrVuTbDfHNAQTEPmCKICNjjIBNXoExPlNQFMGPuK74D1QIIKqStyVQ0IIm3AIUkNRLGQ7Hk+ahcLTSXk6KmJb8OBiN3/d/FxFRSmPyMCDS8mAH0R4RbUe7RFyM9Q0wcLa1QkpRiVjII60mFTl5MH7G4ZzuYj4TT7WJkq0yJVVsYko1c5isJt2whMnmmrmTT9ijAXIEq6werfw8WE/8TFnTrwOB4M3RIcNZKJrA79+z+mfEvxHjcVCXQJDnXNkLA+KLAACkuCYTBgLJjZCk1uaBIMUWei6pauGyUSmuaDHLVUxoJahqccgrSkPosw9xSZszLtvwyRV9frmKTf/lqr7wQqEBQ8ZPYO7yGF46p7VyVfu62dOagKXZ3YGe9rIfciaHn3Lh0YM3585cextRL1Zq7+4t75FLvkjVlFWpPr09fO7sjiRevLpOPbh/yoC+X8z62F+ew5fxAFa+H5DaI5Xz8/M7AAAA");
 
 export default Reel;

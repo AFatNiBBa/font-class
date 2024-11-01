@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-graduate` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-graduate?s=solid user-graduate}
  * @preview ![user-graduate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-graduate.svg)
  */
-const UserGraduate: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9l0 57.1c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-57.1L48 93.3l0 65.1 15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9l-32 0c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4l0-71.8C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7L30.7 512C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z" />
-    </Icon>
-);
+const UserGraduate = createIcon("user-graduate", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABbwAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBZgsGAAE2AiQDCAQgBYMtBzQb6gTIjtRW+YOBUPHwvd1/v/bpvncA9djM7E+w8qkfURGjVxX/838zL9sU4DcKaS8NZCwsmrfG8xMIODufQOt5YGcnimft7NJnEP1gkS7xSYbtDaML5HFHdkKJdFv6EpfLpOI3TZwgqZIBiNoAGL1w7nTvfh1fR3xR8RLxhakIiNGgEMgw3lyAYTLBF8gVyOWCr6Ni/g8sCCDKFEmMPDw4H6sBOUhSnvdqUa1UI18gH6m69Bbz46Emt7abF+LeYW+O+3jE220iBoSYHzfVv7Fq1TjX8OZGCyPi5qZ3dFy46BEzhou3tP+o+1Otj5hQ9Q/GAz2fmdjm8dqP/9H6yw1f+urtUaM+6aheSvWn1TRYqd/YWbPG9isN9r/Ras1QHt+/cqHS+PHlkpvoB6nebnnLhPzNCVO99lodfTNvdf3nco0zZ2ocI88p/3y9FRAIXvx+5X8raw37u3K1BL59/a//olwfeTfeTY+jsgSCrFtFN8vi3cUw8a6AClIc0CZ9k0AyXYKpVnezAKEqAiRlVQXINFNbgFxVXQUoaam/AGVVzZWJvIpQ3/IOkup2g8wAB0GuvhdAyTCfhGX1I/Mt3jP4n13KBIbHDxW9e/QqhhTLWhPchU3HQ4ttp9OBuNQZZ22w0w77rLfOZvuI2mN6st92EyxyvB8q9NZDL4UhiuPuUVlA4R57bZ6bzk8ZqrgfdHLA3twZfqK0fVSSRKQa79Hs/uoBAAAA");
 
 export default UserGraduate;

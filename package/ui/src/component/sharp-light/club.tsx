@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `club` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/club?s=sharp-light club}
  * @preview ![club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/club.svg)
  */
-const Club: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M359.7 143.6c.2-2.5 .3-5.1 .3-7.6c0-57.4-46.6-104-104-104s-104 46.6-104 104c0 2.6 .1 5.1 .3 7.6l2.1 29.1-28.8 4.8C72.5 186.3 32 232.4 32 288c0 61.9 50.1 112 112 112c35.2 0 66.5-16.2 87.1-41.6L256 327.6l24.9 30.7c20.6 25.4 52 41.6 87.1 41.6c61.9 0 112-50.1 112-112c0-55.6-40.5-101.7-93.6-110.5l-28.8-4.8 2.1-29.1zM368 432c-33.7 0-64.6-11.5-89.1-30.9c-2.3-1.9-4.6-3.8-6.9-5.8l0 84.7 64 0 16 0 0 32-16 0-64 0-32 0-64 0-16 0 0-32 16 0 64 0 0-84.7c-2.2 2-4.5 3.9-6.9 5.8C208.6 420.5 177.7 432 144 432C64.5 432 0 367.5 0 288c0-71.5 52.1-130.8 120.4-142.1c-.2-3.3-.4-6.6-.4-9.9C120 60.9 180.9 0 256 0s136 60.9 136 136c0 3.3-.1 6.7-.4 9.9C459.9 157.2 512 216.5 512 288c0 79.5-64.5 144-144 144z" />
-    </Icon>
-);
+const Club = createIcon("club", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABewAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCAwsGAAE2AiQDCAQgBYMtBysb/gTIhocnu74/t7r6oWeJh14RX3ZEMkjAVMx2pm6e/3kU4CYNbSxc+iANkGjO8wQSW/wg0QIOLNMErLcNCUyowisiQhLhmI4Xghyvx2Ql6db0Ba7eD42fDXUpSS4ARB8ArNhjly3e+SF+iPii+SLxhU0IiJWgFihQoEOAxQqBDlmNLAt+iGYT/4E1AUQLvj2BjIwjcCwggyTlPHlWo+yZd2+U1REXxV0TH5v7wvhHOi40NEaHbN454dE5H0+bFBPizTUvT3q8O1wfG8P3+mjhTYNEoyGqKuZmxA0DXln90dK3Rt6/7O11FwWyPlzy5ogLnXPP4jdWj3ysz2O/jvji8C8cMS3nxpffPPPMN182cu7wgsvvvLPqveP3Pw76/0pXat3pj9939K78/lc8r6O1u95v5sjdLO9T6/NMrc/y3YycuV/97hVndrQMaplflu2H7X7NNbsf1l6W8+mgjjOveBcIBLtf+tW0A3ov/retkcBPr/3+p/YVNd9J0mNok0BQTG5Otm8CiQAApDjdyASB5AAJez3cJDK9CkGwRQVeYbg+SmSVSUSpyxyEFpVdFCK3CwPsR4mkh5OIwlznEdkAzxOlxT62WwyIotLEOhE/emlrLVgzVc+YOr1eWB8DIhUPP4aL6mt9/Om9MAFWHe4ExzvVYQ51lFMNfrIt3mmOszbC1nhRbYappqstVD/H+/ndHeZkpzjKCY5fYxap8+F4p8f1E8BKmHMmX5KIlOsXAAAA");
 
 export default Club;

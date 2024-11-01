@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `files-medical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/files-medical?s=solid files-medical}
  * @preview ![files-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/files-medical.svg)
  */
-const FilesMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 0L320 0l0 96c0 17.7 14.3 32 32 32l96 0 0 224c0 35.3-28.7 64-64 64l-224 0c-35.3 0-64-28.7-64-64L96 64c0-35.3 28.7-64 64-64zM416 64l32 32-45.3 0L384 96l-32 0 0-32 0-18.7L352 0l32 32 32 32zM24 96c13.3 0 24 10.7 24 24l0 256c0 48.6 39.4 88 88 88l192 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-192 0C60.9 512 0 451.1 0 376L0 120c0-13.3 10.7-24 24-24zm216 80l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const FilesMedical = createIcon("files-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABgQAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCKQsGAAE2AiQDCAQgBYMtBzQbLQXIjtRG+UVWEg/f6/w890n27JeWQcsIAYAOCMt07Crcp/Vsm0kJrKp9n7ic/jh/GksX+aOs0dwgbR9jagIBflY2PYEuCyzTBCxzW2rQIMiVIUMO8ceQD3Ef0j8gj1eyhzVIL6Wf8MT40PjFAA+TdGQAojsAlu/duVmrHe2IH2vEjzYiIJaDSiBDhsECLJIJDJarkMsF7ajr+h9YEUA04UUTyNHE7bgPkIMkz/Oh3QZMKBtd8j1lozhYFqW4v89zZRnixXEfjiri/QkfD8zilYmfjN09fsL4ogicGB/jj703IMVr4z+aXYbaL7rIb5Z8NUKqSYHqnu0tnutThjAv9Iugnu9bhGK6j/i4+8e/Dv/pzE/e+PpNVB3T9fHHuxZBW9Gjx5vAm5GiWsl6aY0LJs+s9DJZrX5s2PY+5M7kshZ16bO95ck9pztIqZ+3TsMR7a6Vru1ppold0Y5p9ueBQPD53z9dP9pt0W+dygSuf/bP+TNSt6KVPkYnCQTZpHqSQ9GCaAkAQIpbjYgWAsk1ObxrZ88LEAoESJoKATKDdBcgV5goQMNQswVoKuyUibxD6O3wYpPObmAzc9zD5nr7lG1Y5Nt8U+/Igk8LHe3fL3sNw6sPVdOnTKsWVI9tqseT0tcXVu7QuFvb2Ph81hlXXXGz004572ZCb7S5dIvL1ljIal9UmW6KaSoLVNe999Qep8W+iZWzr7rfZ6Hq/dw4t9qzx+doAtEZapJEpC4R75v8LQIAAA==");
 
 export default FilesMedical;

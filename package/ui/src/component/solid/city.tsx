@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `city` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/city?s=solid city}
  * @preview ![city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/city.svg)
  */
-const City: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 48c0-26.5-21.5-48-48-48L336 0c-26.5 0-48 21.5-48 48l0 48-64 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-64 0 0-72c0-13.3-10.7-24-24-24S64 10.7 64 24l0 72L48 96C21.5 96 0 117.5 0 144l0 96L0 464c0 26.5 21.5 48 48 48l256 0 32 0 96 0 160 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48l-112 0 0-144zm96 320l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16zM240 416l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16zM128 400c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32zM560 256c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0zM256 176l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16zM112 160c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0zM256 304c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32zM112 320l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16zm304-48l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16zM400 64c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0zm16 112l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16z" />
-    </Icon>
-);
+const City = createIcon("city", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAAB1wAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSSEUQsGAAE2AiQDCAQgBYMtBysbTAbIHomxLYr9CPXtIoKntUfn7V3oc4g3zOi49SHQRXBVcQUSpmxRVWF+he5mSC3+1aX6xd4f8MSf/1FaT9eGpXmo9sWfCAQ0sVopQrFYMp6ARcjzNp0ItoGRX0REKwmRHVd0PDtCGX8XL2tDepa+wp38pPGrnl4m6VAAiBYAFmzbtMaLn+KniC//j/jSKgTEApAFChToI8BshUAfpYxSKfgp/v+f/gMzAURbQiWbSjSIkuhMP5WkVpbzO3VqtSLWKV5tUy+3hm9Xjj3vFvF4aCVe6fKwh6hExPOhrxR1PFE86/poSL3+evcnvS+zm+FTsUN42KUSj7tFPOlejUdd91eqlcYnlBZbn5BDb9rd+qC91Va11RZuvdm/y0PYEv7iwLdab/3uq6Nf+fFO8TXfjd9v/HdfF+PNt1zXDRu6Li9Waxzb7ydrPFGyXJeed3ffvJxz46fsp0aWc+vG5ZyTBMC55twlv3+H3PO4dR7QnWaC7txhnkt/Ao8b58HW/BZunov3A4Hg4dPWnP1X+2oCv3zy5/l2/79IN9NbaC+BoBj9/2i7000gIEgqxVUDlTcKJP+ogUeteSxAqCBA0lZFgEJvLQFKFaMEaKOfKQK0VbFJIcoOQhd7KkpqLqDCVNdQqYuPURuzfZpsq0sUB0LezvL/aMbSllwyLk8YOz7PzNOCouxxUR2clZf9w6+GhhEw01HnnHXZEYedcLmhL1qTueKMpRpzyWuzCcYaL5spm8v3xlZMXnTJibFmH2WW7B8e7qrefgSEEuGcKC9JRCrPCQA=");
 
 export default City;

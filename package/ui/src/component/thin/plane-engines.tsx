@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-engines` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-engines?s=thin plane-engines}
  * @preview ![plane-engines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/plane-engines.svg)
  */
-const PlaneEngines: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M542.7 209.7C559.8 220.2 576 236.2 576 256c0 20.2-16.2 36.3-33.3 46.7c-17.6 10.7-39.3 17.3-55.8 17.3L368 320l-1.3 0-35.4 64.2C343 385.8 352 395.8 352 408l0 16c0 13.3-10.7 24-24 24l-32 0-23.9 43.3c-7 12.8-20.5 20.7-35 20.7L189 512c-15.9 0-27.4-15.1-23.1-30.4L210.5 320 192 320l-76 0L75.2 374.4c-4.5 6-11.6 9.6-19.2 9.6l-34.1 0C9.8 384 0 374.2 0 362.1c0-2.2 .3-4.4 1-6.4l21.3-69.2C9.3 282.4 0 270.3 0 256s9.3-26.4 22.2-30.5L1 156.4c-.6-2.1-1-4.3-1-6.4C0 137.8 9.8 128 21.9 128L56 128c7.6 0 14.7 3.6 19.2 9.6L116 192l76 0 18.5 0L165.9 30.4C161.7 15.1 173.2 0 189 0l48.1 0c14.6 0 28 7.9 35 20.7L296 64l32 0c13.3 0 24 10.7 24 24l0 16c0 12.2-9 22.2-20.8 23.8L366.7 192l1.3 0 118.8 0c16.6 0 38.3 7 55.9 17.7zM27 271.2L31.6 256 27 240.8c-6.4 2.1-11 8.1-11 15.2s4.6 13.1 11 15.2zM304.9 432l23.1 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8l-5.5 0-17.7 32zm17.7-320l5.5 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8l-23.1 0 17.7 32zM368 208l-6.1 0-141 0-29 0-80 0c-2.5 0-4.9-1.2-6.4-3.2L62.4 147.2c-1.5-2-3.9-3.2-6.4-3.2l-34.1 0c-3.3 0-5.9 2.6-5.9 5.9c0 .6 .1 1.2 .3 1.7L8.6 154l7.6-2.4 31.4 102c.5 1.5 .5 3.2 0 4.7l-31.4 102L8.6 358l7.6 2.4c-.2 .6-.3 1.1-.3 1.7c0 3.3 2.6 5.9 5.9 5.9L56 368c2.5 0 4.9-1.2 6.4-3.2l43.2-57.6c1.5-2 3.9-3.2 6.4-3.2l80 0 29 0 140.9 0s0 0 0 0l6.1 0 118.8 0c13 0 31.9-5.6 47.5-15c16-9.7 25.6-21.6 25.6-33c0-10.9-9.6-22.8-25.7-32.7c-15.7-9.6-34.5-15.3-47.5-15.3L368 208zm-19.6-16L258.1 28.4c-4.2-7.7-12.3-12.4-21-12.4L189 16c-5.3 0-9.1 5-7.7 10.1L227.1 192l121.3 0zM227.1 320L181.3 485.9c-1.4 5.1 2.4 10.1 7.7 10.1l48.1 0c8.7 0 16.8-4.8 21-12.4L348.4 320l-121.3 0z" />
-    </Icon>
-);
+const PlaneEngines = createIcon("plane-engines", false, "data:font/woff2;base64,d09GMgABAAAAAANMAAoAAAAABvQAAAMAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSECAsGAAE2AiQDCAQgBYMtBzQbDAbIjpQuZyTB86RrvT/JBpiAr4AHMzsRs1asojutTVutrt4eCHnWN/2901+dt8/Hsp54SGNOW4PGmAKdB/jL8jUtoLEwCyQxb9DdwGD8+W8GTPnEDFygzqo3wGHjTeUXMewAhWEAACDhAABA8+jh/Qx8l+8ib/wPQd7QCwiAtADgIIABGEA8AkAdBgLEY+IAJiYC38XvZ/+BDggAiIV1QgWACQQBX4H/AIAJgCLANCfrkJBq7rVdIeYovo1efNIjcpIt7hPuG2laN8nNGORMmpY8HLfPe8o3WurUJ3QOcyt2Kwcxnc8cJackyZb9nmaxbYjxnbYxN2PyBaO5dT+8mb3A5/Z55YT7pGeqre3TPpFTXi1Z4zNA9khtB+/ztkA6ah9bcIuuHikhaYR4xQNusW3Z72uV02Z7q6DJ+zNvx53LuKV1xqiRowYknvCMFHvEiNEjIk4v7l4fL+Ve+L0/vpn1hsQ/z8/B+bCw8+efd2W1NJIaFY5nqMM67k8pInjOnNy8q0T17WRucArFUYZyt9FpWR3udpQRVZxC8Nyd9EXlXSV3zpzgIqbcX4fDUE84UamNyOorA9QNsgCOa33cc8UHO8UKx5riIimi0WXxc5APJm+yZWGm3CXSE2OME5nKVJJmohTkqhuKWFYKZuRTIs0h98Ba7T10SDh8ybO6cex1A3Z+aBFbAvNvsnbNZp8LowK3FBE6v/YsrAUAAQR2hr6eMjms7n+grQD4+ezfhCv4B1STugcEogAQMPL8eUzQPAAaqwCAT8kqUuBHgQCKtwRgXWowpxAABA0IAAoLjQBgEEc4AoCJJhcBwEUi5QgAFprhGIgZhOBmYkpTBLOUZlDBRpqJm/s0F3U891u4xTjY+Ycq/1czSUce1T7KKS4ocmqcxoJYcPxy1cFap7cmaxVvyIZTmcViFrGCmcxgLityxGX0h1aykI42dDtfxKGYAopwqMEZXb6cPoqZLGM5c+sF44ehFmd+Rxar2ttnQ73CYltCmkKBqJD7UpH/rQAAAA==");
 
 export default PlaneEngines;

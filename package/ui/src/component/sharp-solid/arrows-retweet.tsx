@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-retweet` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-retweet?s=sharp-solid arrows-retweet}
  * @preview ![arrows-retweet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrows-retweet.svg)
  */
-const ArrowsRetweet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M150.6 73.4L128 50.7 105.4 73.4l-80 80L2.7 176 48 221.3l22.6-22.6L96 173.3 96 384l0 32 32 0 176 0 32 0 0-64-32 0-144 0 0-178.7 25.4 25.4L208 221.3 253.3 176l-22.6-22.6-80-80zM336 96l-32 0 0 64 32 0 144 0 0 178.7-25.4-25.4L432 290.7 386.7 336l22.6 22.6 80 80L512 461.3l22.6-22.6 80-80L637.3 336 592 290.7l-22.6 22.6L544 338.7 544 128l0-32-32 0L336 96z" />
-    </Icon>
-);
+const ArrowsRetweet = createIcon("arrows-retweet", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABZQAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBYQsGAAE2AiQDCAQgBYMtBzUb5gTIhof/X/vXfe5MaF4YbpBhgqgIVaJI2G9DbVUdoTB/1RIonP/L8b2ztQD/8xM+tDkbG2SBHDWXl8AB1/ZpCWVhllhCmv3O7whKdJskkRf6w/iG7V+gjL+Le1qQXqbP8aS8afygl3skbQoA0REAC7dvXuvD5miO+Oz/N8RnViMgFoIsUKBAXwHmKAT6KmWUSkFz/P+//w/MBBAtEUnc0j64BXsBJUhSWQ4d3mjRrtzmzlS7R40cNSK2xIiYG6MjRNhoRFRVxMj4/BgV27ZWjWpVEKNgzoG5NdOjY3thXowwUJypBjV1bPpp4OdHP/fsas1faf1623yu9th3svz1AvnpK4/VPrfN+vXvdc85L1ao3T0PBIL60xev9neY81frRgLff/DLT/Xx4v8/0vXUhNYSCIox/4+xJ91SKIREAaymuGoQPkkgWSPhq7b1TIBQIUDSUiVAoY+OApQqowVoob+pArRU2awQZRuhq70dJG1dAIVproNSV69AC3N8VG2paxSKpaiF8l+XuWyElyblieMm5Fl529RUXZHS8ux8HI64GoZG4qyjzjnrstoRJ1we+IvWNq44Y5lELvVF2UTjTJDNkp87z8e3qV10yQnnnM3rzJa/r4xwVZ48EumEopNsSBKR2h+8qPexsRfry9fq+jI=");
 
 export default ArrowsRetweet;

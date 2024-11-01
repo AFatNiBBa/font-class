@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wrench` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wrench?s=sharp-duotone-solid wrench}
  * @preview ![wrench](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/wrench.svg)
  */
-const Wrench: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 416l96 96L297.5 310.5c-44.5-16.1-79.9-51.5-96-96L0 416zm70.1-8L104 374.1 137.9 408 104 441.9 70.1 408z" />
-        <path d="M352 320c88.4 0 160-71.6 160-160c0-23.5-5.1-45.8-14.1-65.9L400 192l-80 0 0-80 97.9-97.9C397.8 5.1 375.5 0 352 0C263.6 0 192 71.6 192 160s71.6 160 160 160z" />
-    </Icon>
-);
+const Wrench = createIcon("wrench", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZgAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBNAsIAAE2AiQDCgQgBYMtB0gbzgTIHgduLM1SzUdiBNFaWPXs3gWANsysiFTiSBi0xA5XJfl/xZLk6ysq1cSCff+fyz2/50cH+I0ObawFchtwjebzBBKdlhd4gplmYFk7u0EG+WzS+8QnGbYzjJ6Qx7fssgrpbipxU/4HMP7RzmWSehmAaAqAqauXL/Thj/gjRVl7QpQWICCmgUIgQ4aOAkyQCXSUK5DLBX+kWo0/olYrCCCq5N0ZqKKC0ZgHyEESUp53aFCvQaVRvko+v/72XyZHvF99ob2oHxGr4179HxPerPhp4tuVsXLVytXxrN/OVk+eMHliTIhJ3R41/V/Xcldp87npUVLG9B6/bt1qiSW2bvVf9+lRljE9ppfl9FBsRvXzJx2vXy/7M+s0gyC8DgLBrp9u2Nxkwv91GyTw16v/Vn8otQ9JeoS6EgiyAbUBNiSQCABAilO6JT4gkOkggUcN3RIg1EchqaoPmQ6aQq6+/lDR2cjHVfUtl4m8ntDSRoWkoaOQGeUM5Fp6DBUTfEyqWkbGIYoB1A8ufpZFZp4rhg4aUowrlrVG04JIx+OLbb3PqTjri4t2OeyQE3baYa8TBjtmYX7SQbM8dKYvKgw1yBCFcYrj7pFfZZJjjts7Z89PGa+4H/dxyt/cF1ZScId5nMmIFFnj08d2Htq+ZyAX5aY9++YA");
 
 export default Wrench;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `poo-storm` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poo-storm?s=light poo-storm}
  * @preview ![poo-storm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/poo-storm.svg)
  */
-const PooStorm: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M173.8 6.7c3-4.2 7.9-6.7 13-6.7C257.3 0 326.2 46 335 119.6c28.9 13.3 49 42.5 49 76.4c0 3.5-.2 7-.6 10.4C421.1 220.7 448 257.2 448 300c0 55.2-44.8 100-100 100l-8.9 0 12.1-11.5c6.7-6.3 11.5-14.2 14.3-22.8C394.6 358 416 331.5 416 300c0-33-23.5-60.5-54.6-66.7c-4.5-.9-8.4-3.7-10.7-7.7s-2.8-8.8-1.3-13.1c1.7-5.2 2.7-10.7 2.7-16.5c0-23.4-15.5-43.2-36.8-49.7c-6.5-2-11-7.9-11.3-14.7c-2-50.8-42.9-88.8-94.2-97.6c.4 1.4 .8 2.7 1.3 4.1c2.3 7.8 5 17.8 5 25.4c0 34.8-17.7 55.5-35.3 66.9c-8.5 5.5-17 8.8-23.2 10.7c-3 .9-5.6 1.6-7.5 2c-1.5 .6-3.2 1-4.9 1.1C117.7 145.6 96 168.3 96 196c0 5.8 .9 11.4 2.7 16.5c1.5 4.4 1 9.1-1.3 13.1s-6.2 6.8-10.7 7.7C55.5 239.5 32 267 32 300c0 32 22.2 58.9 52 66.1c-2.6 6.4-4 13.3-4 20.3c0 4.1 .5 8 1.3 11.9C35 389.5 0 348.8 0 300c0-42.8 26.9-79.3 64.6-93.6c-.4-3.4-.6-6.9-.6-10.4c0-43.7 33.4-79.6 76.1-83.6c.5-.1 1.1-.2 1.6-.3l.2 0c.2 0 .6-.1 1.2-.2c1.1-.2 2.8-.7 5-1.3c4.3-1.3 9.8-3.5 15.3-7c10.4-6.7 20.7-18.2 20.7-40c0-2.2-1.2-7.8-3.7-16.2c-2.3-7.6-5.1-15.6-7.1-21.5l-.1-.2s0 0 0 0c0 0 0 0 0 0c-.6-1.6-1.1-3.1-1.5-4.3c-1.7-4.9-.9-10.3 2.1-14.5zM159.7 376l48.3 0c5.5 0 10.5 2.8 13.5 7.4s3.3 10.4 1 15.3l-19.4 41.9L288.3 360 240 360c-5.5 0-10.5-2.8-13.5-7.4s-3.3-10.4-1-15.3l19.4-41.9L159.7 376zm20.5 130.5c-3.7 3.5-8.7 5.5-13.8 5.5c-14.7 0-24.4-15.2-18.2-28.5L183 408l-49.4 0c-11.9 0-21.6-9.7-21.6-21.6c0-5.9 2.4-11.6 6.7-15.7L267.8 229.5c3.7-3.5 8.7-5.5 13.8-5.5c14.7 0 24.4 15.2 18.2 28.5L265 328l49.4 0c11.9 0 21.6 9.7 21.6 21.6c0 5.9-2.4 11.6-6.7 15.7L180.2 506.5z" />
-    </Icon>
-);
+const PooStorm = createIcon("poo-storm", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABtwAAALpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDUQsGAAE2AiQDCAQgBYMtBzAb0QXIjtMVcZKkTBP84vmPo9+5729L60pRtK+cfQ4pDjjQgMrjJk0gg/zLn3k47IuxkVQdAn0AVeLqi6oAVe7B+iauef7nUWBJ/+KPFE3/q+ZIHGUK7Hzga43yPh/YbMAwhlmb4xRq6KlvkBB5jnpEpGH6Yao9NLMzqdCh3uop4HWfnT8EGweK1oBykWlg7e3E1oabX/iFfOq6DLI/WkCA3AHYRtCQr7GOgAsqgnUaCZo0hB+6XPgPlBCAtKH7FaAJWuAT8A2w6r1QbWqrF6Shu2tOQxfdW417RdejDgdvx7Df4aTj4bsSj+UKBnLr0tHQnRxZ3RG/JWBL4FaOLG6pM/ckn8gf9t/sPxy0ye+0xaHVBImt5FDQNgwHb48T40pPYcTelJMJW1jYBSPGyICEsnJJmpoYCdgSICKrYm1J65c6DGGsXNjsl8p2Cq5YpKIM2h2bxOsSgkdWR67g1sFmP99Og4dXhvE7ok94nfge9XTaU5y+Vm+ZsOfs8s47b0J07UmQGdaPr3VW3MD2VufLV0HBv78tmRCX759g9dm1W9vQDzi+fZrCUrfgfXs/fBitlF5q1cdP/tYE//y4CUu+/Q4O+vpqapEwa/GzujSYl59oOuvrVRBBINvgy5LECK00MZGE8quAnSf3BZkbrfUFCUWwPyOT9aihIOnYznfUbtk3aSyKbkGWrDnr1E2r4CCiOLr5EasBCAh030/C+j1L/1sMBcDvjZ//kS/+v8mbygnQpQACjV1Xqp7cBFi4BEhVliHa+aCAchsqfdehLSAgBAigmAgENITyQkCTkIKAlgh5CGgTbFRsWkF+ehupcLOQVOUbIDV+LpK6Ug+SJn5RA1oJR+V/MrPeAnXTZFZ6piyWj2VVjVFpGy+R3U7iMmpLwkZMM988S0w1xUxLDL5IW2apueo9sM4XSVnSZZKKyeHaHHSaWszFVrpXxydRQs6PJlrm906CR6GCe2YWBVLWBfPnp30is+YCAA==");
 
 export default PooStorm;

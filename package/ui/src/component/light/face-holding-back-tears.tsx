@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-holding-back-tears` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-holding-back-tears?s=light face-holding-back-tears}
  * @preview ![face-holding-back-tears](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-holding-back-tears.svg)
  */
-const FaceHoldingBackTears: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM320.6 116.4c-2.4-8.5 2.5-17.4 11-19.8s17.4 2.5 19.8 11l1.5 5.2c7 24.7 28.1 42.7 53.6 45.9l11.5 1.4c8.8 1.1 15 9.1 13.9 17.9c-1 8.1-7.9 14-15.9 14c10 13.4 16 30 16 48s-6 34.6-16 48l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-6.7c-9.8 4.3-20.6 6.7-32 6.7c-44.2 0-80-35.8-80-80c0-41.5 31.5-75.6 72-79.6c-10-10.8-17.6-24.1-21.9-38.8l-1.5-5.2zM180.4 96.6c8.5 2.4 13.4 11.3 11 19.8l-1.5 5.2c-4.2 14.8-11.8 28-21.9 38.8c40.4 4 72 38.1 72 79.6l0 32 0 16 0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16c-13.4 10-30 16-48 16c-11.4 0-22.2-2.4-32-6.7l0 6.7c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c-10-13.4-16-30-16-48s6-34.6 16-48c-8 0-14.9-5.9-15.9-14c-1.1-8.8 5.1-16.8 13.9-17.9l11.5-1.4c25.5-3.2 46.6-21.3 53.6-45.9l1.5-5.2c2.4-8.5 11.3-13.4 19.8-11zM208 240a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm144 48a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM160 208c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32c17.7 0 32-14.3 32-32zm160 32c17.7 0 32-14.3 32-32c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32zm1.9 129.5c5.8-6.7 15.9-7.4 22.6-1.6s7.4 15.9 1.6 22.6C328.9 410.3 298.8 432 256 432s-72.9-21.7-90.1-41.5c-5.8-6.7-5.1-16.8 1.6-22.6s16.8-5.1 22.6 1.6C203 384.4 224.9 400 256 400s53-15.6 65.9-30.5z" />
-    </Icon>
-);
+const FaceHoldingBackTears = createIcon("face-holding-back-tears", false, "data:font/woff2;base64,d09GMgABAAAAAAOQAAoAAAAAB4AAAANGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTSEJgsGAAE2AiQDCAQgBYMtBz4bNAbIrgZsYxj6SHu0OcYWTSsPr6Ee0q9dfEMWwff7/fZc1JLYdJI18aSRSkkmkWZSiSRrpJ9IpBcKUk3yg3jar83bE7ONuNWj/YQk8SoijYqHSIRIMi/Fo/7P/t57N395kJKZ3ksDeDrpRNW5SW29AFb7L7k04QsB5H+u+fyAC+T71fPzQ4letBZV26hLJzDQ0d7Zqp7PBnI21AnYBudNOqTQhpB+guI4Q0MWpHOxA+w2No1XzbZAYi4CQNQDwOh8m8HmDd4EPuURD6aAADEG0EWgCIqgjQADTATamGkoZiZ4wv/Zf2AEIEpJT0tAMVTBF3KwVI/s7yg2p1oLKj30UFPCJekxd1ZJOgcvzBFPvPYoxR47ppOqXWZTnrvUEu99ixkN2vU44uXcMbXE99Bxi7hw2PQ5oBT7HTltk+F7wgY+X9qs+FIHR7wm2BaBHPHqBYg7lHn9YeUWgxGdenlBZx2PJ428Pr0hORByHO+lFAsuxo7kWxSanbOEQllQEUoDn2jW7tfsFTVp9ekMKBC5r0V+JjBfoxzcQJbwEXdhm1d7t7geS4QNSJQ+RC6s1jAfcToSWJFmr2a/dn9kCsnt/D6tAZ0Gofoxa/hZ7SDqAB43aNtkdr7W1obd2TYN1DDrG5MVQPPtlrPz+YycLOSjWvSGkW2jizNfHtzkd0LGNCx8tbb+5316YkjzwWYNk8Ks7X99jZQs5VwYScLw5z2t8Kny85/I+LeyP6S7F1S9UShvBUPm2RUs3vPAyBTKKUlriyPOilVh0vm0sPDUSdrwZxSCHUYNW9Khsvworg8vNpccBcR/H++lZHhwuPmPC/a/gIDA3TB5FMy0+YcCvCy/fmt+RflmAnUJlFNAoKg7N9SVACQEAECKGeoJICD5ggppuNre01xwYoDEyglFUvxQzKkYSmTVShfNtkuEFDsIh3UjUNzGwaTOMpiFnYJFi9u0VTjE7b5ic5U/z8zWKZJfp83KKnST3q3pVOss6dlmfdmvO8N7CqEFUZIlyRApQmwjTNA0vrlMidyOuK7fVVWpTAWtiX7cfLmdFClNuljJkqJVmunvwwVmjocXwpCYlLdHVaIQKRaw3KV+yVEaKspKMyL7JyYB");
 
 export default FaceHoldingBackTears;

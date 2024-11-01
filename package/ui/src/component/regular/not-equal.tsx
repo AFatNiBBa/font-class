@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `not-equal` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/not-equal?s=regular not-equal}
  * @preview ![not-equal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/not-equal.svg)
  */
-const NotEqual: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M373.5 36.2c11 7.5 13.8 22.4 6.3 33.3L329.2 144l78.8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-111.5 0-87 128L408 320c13.3 0 24 10.7 24 24s-10.7 24-24 24l-231.1 0-69 101.5c-7.5 11-22.4 13.8-33.3 6.3s-13.8-22.4-6.4-33.3L118.8 368 40 368c-13.3 0-24-10.7-24-24s10.7-24 24-24l111.5 0 87-128L40 192c-13.3 0-24-10.7-24-24s10.7-24 24-24l231.1 0 69-101.5c7.5-11 22.4-13.8 33.3-6.4z" />
-    </Icon>
-);
+const NotEqual = createIcon("not-equal", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABXAAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBMwsGAAE2AiQDCAQgBYMtBzAbswTIjsK2tTOHQ5qgKeBJxfP09+3c917bMr6OR/FOKQYYh5xIk8bxh+f/x1H3DcQ/EKKMBmepgUlIk4Q6bdqkPdu27sip2q+lAj7Wgp6HjRfkgd8br0DjtX6vNX42ng1nI5oI723DYQ1JvBISKBHxoxyvHVq2ZJ4eykvjDZ78pvmxN0OhXQGQJQDcSguzuf+Rn8hrd0neMkFAboAdgQoVVgQ40iSwokVBo0Xwkf9d+Q9UCCB95JcK0KDCCe4AGlBI04qaaBtrlRhqG7Tu2RWJoezZr3saiDLWvfcdS4Vl32HLx1CObnm5H5sd/3F7a3kzvGW8E55OLvnW1vm9lIzzgFO/kpr58jdeDM9woD7sEWg6wQ8gEDzOt+dqTRP/eoYagO/d33/8PLPuW040jmFIAwjqvgtUJffMmOWEAACUjOBOHyRQRNEgrzq1KkAYQIBChwEBKkdmBGgMBBCgx0UUAfoMFKJJmj7CSnUnNRjpJzVFGyW1WDkntSV6NHRYRTODhPsXPnCpKRZO7lJhwaEqXrkOFZOCo2aCmtZ8R2rCDzZpoZcehmimiXaGDDFAtj1MNykRnswXUcIEC6XEU8v+43IJzQwwSDu99LQ2CdR+3ddInO8H/WgAHM5+QAMp+j29Q0HvHAA=");
 
 export default NotEqual;

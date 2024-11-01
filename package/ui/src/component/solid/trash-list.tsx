@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-list` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-list?s=solid trash-list}
  * @preview ![trash-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-list.svg)
  */
-const TrashList: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M147.8 0L268.2 0c12.1 0 23.2 6.8 28.6 17.7L304 32l80 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64S14.3 32 32 32l80 0 7.2-14.3C124.6 6.8 135.7 0 147.8 0zM32 128l352 0L362.8 467c-1.6 25.3-22.6 45-47.9 45l-213.8 0c-25.3 0-46.3-19.7-47.9-45L32 128zm448 0l128 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32zm0 128l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32s14.3-32 32-32zM448 416c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const TrashList = createIcon("trash-list", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABhgAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCNwsGAAE2AiQDCAQgBYMtBzEbOAXIjsQ4JvKLKOwiHv5/LvK+n8xCZhmyQMRFUGzrym7RFcH2VFZhh9S+45s61TMxFMDnEARpTJoDZHlwdo3zChQwF2t5U4GnFSyiWHVT6lERQXPsKUNcV0V6fOvx7QR5/J1dViG9nJ7gXvvR+ENLl0lqZwCiAQAmLFs0x+e/xq8Rj/+XeGwWAmICKAUyZGgjwGiZQBu5Erlc8Gv8/z//B5YEEDXgmRPIURNncRWQg6SS5x0bNmvWvFqpmy+tVopV1aL6VsumUY1bTZ93vslzRZ242eyFuND8xWo1mser3RbXrVN3ebykQoXfamXddXERLxZT5MWXEeFS89zd8f0G7//Jk61PPPvZcfT0P7/HfPWuX69X1PVSnG+P8/0PnVuP7iYLNXryY+OvNf7xSaOufX6exA33PGF6g4PW/s2kwWo58fI4EAg23P/im3X1R/9Vq5rA7x92ut//n6fz6X3UkkCQ9f6/t9XpPDA1gCTFUR2NgQWSoyqAb63jBQFCgQBJDYUAmdYaCJAr9BKgop0hAtRQWCQTeW2hiTU3SOo4ADJDnQG5Jj4AFaPdT2poElkM8hHE/wKmTB3hKfvKAX37lyPL15IIYcXW7VHltt79aJ7qQQdttc9eh22x2Q6HB/KgOfkRe0y1iCkGVBqgr/5KI5XHzXPPUlscdMgOuni+yyilf9zdUXtxD7IS0A50JElEKg4f3HBoe5/PGAAAAA==");
 
 export default TrashList;

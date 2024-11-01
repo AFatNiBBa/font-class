@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gear-complex` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gear-complex?s=sharp-regular gear-complex}
  * @preview ![gear-complex](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/gear-complex.svg)
  */
-const GearComplex: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M216 0L197.1 0l-4.4 18.4L180 71l-1.1 .4L132.8 43.2l-16.1-9.9L103.3 46.7 46.7 103.3 33.3 116.6l9.9 16.1 28.2 46.2L71 180 18.4 192.7 0 197.1 0 216l0 80 0 18.9 18.4 4.4L71 332l.4 1.1L43.2 379.3l-9.9 16.1 13.4 13.4 56.6 56.6 13.4 13.4 16.1-9.9 46.2-28.2 1.1 .4 12.7 52.6 4.4 18.4 18.9 0 80 0 18.9 0 4.4-18.4L332 441l1.1-.4 46.2 28.2 16.1 9.9 13.4-13.4 56.6-56.6 13.4-13.4-9.9-16.1-28.2-46.2 .4-1.1 52.6-12.7 18.4-4.4 0-18.9 0-80 0-18.9-18.4-4.4L441 180l-.4-1.1 28.2-46.2 9.9-16.1-13.4-13.4L408.7 46.7 395.4 33.3l-16.1 9.9L333.1 71.4 332 71 319.3 18.4 314.9 0 296 0 216 0zm7.6 94.6L234.9 48l42.2 0 11.3 46.6 3.1 12.9 12.6 4.2c6.8 2.3 13.5 5 19.9 8.2l11.9 6 11.4-6.9 40.9-25L418 123.8l-25 40.9L386 176.1l6 11.9c3.2 6.4 6 13 8.2 19.9l4.2 12.6 12.9 3.1L464 234.9l0 42.2-46.6 11.3-12.9 3.1-4.2 12.6c-2.3 6.8-5 13.5-8.2 19.9l-6 11.9 6.9 11.4 25 40.9L388.2 418l-40.9-25L335.9 386 324 392c-6.4 3.2-13 6-19.9 8.2l-12.6 4.2-3.1 12.9L277.1 464l-42.2 0-11.3-46.6-3.1-12.9-12.6-4.2c-6.8-2.3-13.5-5-19.9-8.2l-11.9-6L164.8 393l-40.9 25L94 388.2l25-40.9 6.9-11.4L120 324c-3.2-6.4-6-13-8.2-19.9l-4.2-12.6-12.9-3.1L48 277.1l0-42.2 46.6-11.3 12.9-3.1 4.2-12.6c2.3-6.8 5-13.5 8.2-19.9l6-11.9L119 164.8 94 123.8 123.8 94l40.9 25 11.4 6.9 11.9-6c6.4-3.2 13-6 19.9-8.2l12.6-4.2 3.1-12.9zM208 256a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm144 0a96 96 0 1 0 -192 0 96 96 0 1 0 192 0z" />
-    </Icon>
-);
+const GearComplex = createIcon("gear-complex", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAAB2QAAALVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSSFEAsGAAE2AiQDCAQgBYMtBzMbkwbIHoVxmxMaydnKTqUJhAdaBA/3+2/OufGjk5J+b6RF2wItUQXoAlbRAkbpCjz/yb/8cxPPW2OyAdga+oIquv9u4ToUw/vjXAOh3Meb/2s+v+er1P/vjnh4JosoTKoIgT0fcJSlr4EmONMJ2M708leAD5bZOSy9QBl3aTscyRd278C9dHP8p7cAqSqQg+gO3unoWn4mHv2hPxFvG3cgvkkHAXEEYBqhAM04RmH30sA4B9OgVAr+RKOR/AdyCCBq5B+doERNrIfYCKAEqSwdxmfFxnEUOxQJjqycCUyHYxRHQyWHVNQCIU6SB4QQCxIJsc5V5WbZWvEEcqNv2IKRu4ViOap8cGkEyfnJ5I3tJYk0wVxN3uZHxGBkY8AKrCarQGbqwrpHvabOdw8xjleLhNjyqexWnUnnc0Yx4FVMGFl8Gns16+r89hEDXiMKUbRPa5/2XDr/c4rhIO0e8j7neUa/3+O011mDMGsgOtgb2VoYpduPmZEDbKOwLny28RDZTnbxr9u7pnfev1cqlaF4hny36athXx1zH7lISSmnSc1A3joWUjZ9Jn8ROqk7y5xnqq7m7/XDVQlu2fn4Ds5a8dWKNuVSVxLwxC9+frklne+5crTBwrPu2P3wFhJctZTI3zNGPJ4SPZEgjIsDuo6zrvHxLtbs2m54Dny93aHXd1Q8/2rAqtzrAQgEl859O6qWJrxmwQ7w79X//93PCI1HKV8CmiUIivUfoCIBSQAAMoZgSyCQ4ZGDHN/uKSIUWgGQaq2gMEYGSq3WQGVSpFhTdUmLEqWrr18lAKndXVDYMQlK/W6Byq6X/lp/2D8w0std+ruaKglHEufx0KAQHseFVYPsGRBH0/Fc2+Qz5HX5or1o0q3LgEYNWg1gjD6ZoUGdkmSkRF/EhQoSgovDFzemVUWYs08/LubrLJ9FPL69z8cQ+WBfZLWTC9yQl5JI0RdKF/hcAwA=");
 
 export default GearComplex;

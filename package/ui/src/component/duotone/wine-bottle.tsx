@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wine-bottle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wine-bottle?s=duotone wine-bottle}
  * @preview ![wine-bottle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/wine-bottle.svg)
  */
-const WineBottle: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M54.7 278.7c41.8-41.8 83.7-83.7 125.5-125.5c.8-.8 1.7-1.7 2.5-2.5c27.5 27.5 55.1 55.1 82.6 82.6c12.5 12.5 12.5 32.8 0 45.3c-27.6 27.6-55.2 55.2-82.7 82.7c-6.2 6.2-14.4 9.4-22.6 9.4c-4.1 0-8.2-.8-12-2.3c-1.9-.8-3.8-1.8-5.6-2.9c-.9-.6-1.7-1.2-2.6-1.9s-1.6-1.4-2.4-2.2c-27.5-27.5-55.1-55.1-82.6-82.6zM350.1 94.1c10.7-10.7 21.3-21.3 32-32l9.5-9.5c-10.6-12.6-10-31.4 1.9-43.2C399.6 3.1 407.8 0 416 0s16.4 3.1 22.6 9.4l64 64c6.2 6.2 9.4 14.4 9.4 22.6s-3.1 16.4-9.4 22.6c-11.8 11.8-30.7 12.5-43.2 1.9l-9.5 9.5c-10.7 10.7-21.3 21.3-32 32c-22.6-22.6-45.3-45.3-67.9-67.9z" />
-        <path d="M350.1 94.1l67.9 67.9-16.8 16.8c-9.2 9.2-11.5 22.9-8.6 35.6c9.4 40.9-1.9 85.6-33.8 117.5L197.3 493.3c-25 25-65.5 25-90.5 0l-88-88c-25-25-25-65.5 0-90.5l36-36 82.6 82.6c12.5 12.5 32.8 12.5 45.3 0l82.7-82.7c12.5-12.5 12.5-32.8 0-45.3l-82.6-82.6c31.7-30 75.1-40.4 115-31.3c12.6 2.9 26.4 .5 35.5-8.6l16.8-16.8z" />
-    </Icon>
-);
+const WineBottle = createIcon("wine-bottle", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABlwAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCPAsIAAE2AiQDCgQgBYMtB1IbYAXIHomxLYr9iihsr8XD83bxnvtmdj+g+TArC0k6kB3ZymXqzZD3+fifOvU856EAPoBnTPvYBhkTQ3OeRyDn8Wm5eitSKmBNa2AdnDfxEEJxSE9/QB5fZ6eVSPelT3HN+R/A+Eczp0mqZQCiLgDGzps1xfs/xo8pPq28THxqMgJiHCgEMmRoKcAImUBLuQK5XPBjqvBjVAoCiDLnUzNQRglHcBmQgySkPO/dtmONUq18bo1S9XVz5s7pEreb3df03i6z4/HqF7vNjSfjRPfRMSfu1LjUZF7cEycaz42nOj/W8ZEm3ee9Nzriqe73NHln5B3HG7494nb1i43vUngikPTuqFXdMCLEqXCXBu6pcanRjJgEbzdkcsO4neLo6slu7Z6s++R/Pl37qSUrxnvnfD5+29Uj+x+4X7vmzfrNm5dstO9vxgz31ap1X3LP3h++/73/vwx6/L4LTJig7vnz3aR6dXlmUaAec+a0a9fp9f79eeutex2oWePC+Vq17q24UKvWhXuer3n3vP4TnoT8W3OeBwLB6rcvTF1WZ8T/VWsk8PObnf6QVN5P0pOoKoEg61HpYXECiQAApNirXYLBAplJEu9da7orQKiOAElZdQEyLdQVIFdddwFKWhsoQFl1s2QiryY0tKQESU07QGaQIyDX0EugZIQPjLKGkV2H9FVEfwUmTKojE5eKvr36FMOKwUjOXFqkng4vZotd9vJKV3horW222m2N1TbYXcN2mmLvscWkMXSiLyr01UsfhWGK1ent7bnW2GmXDbbZaucMV+yvd7F3vL0rXCcB+h3BUEakyBq8+MyPHPnNCXNH1xq1uZsXAAA=");
 
 export default WineBottle;

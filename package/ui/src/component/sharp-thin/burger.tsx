@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `burger` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger?s=sharp-thin burger}
  * @preview ![burger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/burger.svg)
  */
-const Burger: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 224l-16 0 0-16 0-16s16-160 224-160s224 160 224 160l0 16 0 16-16 0L48 224zm416-16l0-15-.1-.5c-.1-.9-.4-2.4-.7-4.3c-.7-3.8-2-9.5-4.2-16.3c-4.3-13.7-12.1-32-25.8-50.2C406.4 85.8 355.2 48 256 48s-150.4 37.8-177.2 73.6C65.1 139.8 57.3 158.1 53 171.8c-2.2 6.8-3.5 12.5-4.2 16.3c-.4 1.9-.6 3.4-.7 4.3L48 193l0 15 416 0zM47.9 193.6s0 0 0 0c0 0 0 0 0 0zM480 272L32 272l0 64 448 0 0-64zM16 256l16 0 448 0 16 0 0 16 0 64 0 16-16 0L32 352l-16 0 0-16 0-64 0-16zM464 400L48 400l0 64 416 0 0-64zM32 384l16 0 416 0 16 0 0 16 0 64 0 16-16 0L48 480l-16 0 0-16 0-64 0-16zM144 112a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm208 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM256 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Burger = createIcon("burger", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABmgAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDCAsGAAE2AiQDCAQgBYMtBy0bhQXIjtRGecSPxMP/r/n+PncmWW2gmRJPq4BZAZMD8lWo+nT5IzhEWbAfWMeWF3GiCRfTX10FsjWebPN/uec37egAv9870UMZa1S+BtCczxMIsLAXlg+Os8AyTcBSNyWIPiLmKzqkdGWU/Tt6vLtBHu/Zq0K6m77EDfnQ+FVf10myDEAUAJi/Yc1qHz+P5xFftC/xhZUIiPmgFMiQYYAAs2QCA+RK5HLB82i3239gSQBRxScmkKOBDjwF5CCp5fnAIfXOXSuLcr3SzNfPjtqGWr0WeNmt/j3yzPwbfpr+zvDdN3tQiFqEiLgSt+JWrxoxM976H6e9PWz1QQ8Qorn7isf3S7sazYZoRuyu15oi6jWCo5pHttzsiR7eK3rrELdt6jTfL+b3IV/u/9LYZwVVlerAhu3bP/llFdovn2zfvuGAwi1aeDCRRGX4upkjb91cbrmbt0bKuuGVFKGl414TgCerP+YV83xs3jetonhemKdQfCvpRzc60DFPh3lPbORj6GnXidbzLl2eT/yblnjFO8bq+4FAsHbPrzt2tGb936mewMt3//xVfkZF+3n8le6jkwSCbFR7lK2JQhF/CQBAivOGJgqB5I4avmvDLQFCDQGSqpoAmf4KAXI1IwWoGGSyAFU1a2Qi7yz0sK2ApOEUyExxAeR6eA1UzPJJtapHZMkqppr4q5i25IQWHyrHjxlXzihve5aUf3zfnVk+9oadVzPDcdZ+Jxx31j57HXL2IE9b3TjnmCUesdgXlcYbY5zSDGV4uNbWl+ppZxyybfF9ZirfLw1z3l8+HGFCxgnyJH3p7uruc6cP7DsNAAAA");
 
 export default Burger;

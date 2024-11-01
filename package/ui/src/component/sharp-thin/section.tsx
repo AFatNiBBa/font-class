@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `section` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/section?s=sharp-thin section}
  * @preview ![section](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/section.svg)
  */
-const Section: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M16.6 78.8C21 54.3 37 36.8 61.5 26.5c24.8-10.4 58.2-13.3 95.6-7.5c11.6 1.8 47.2 8.6 58.8 11.6l4-15.5c-12.4-3.2-48.5-10.1-60.4-11.9c-39.3-6-75.8-3.3-104.2 8.6C26.7 23.7 6.3 45.3 .8 76.2c0 0 0 0 0 0l-.1 .4c-2.2 18.5 .5 34.2 7.3 47.5c6.8 13.2 17.4 23.5 29.9 31.8c7.3 4.8 15.4 9.1 24 12.9c-2 .7-4 1.4-5.9 2.2C27.7 182.4 7.2 202.9 1.7 232.4c0 .1-.1 .3-.1 .4c-2.2 17.7 .5 32.7 7.4 45.4c6.8 12.6 17.4 22.4 29.9 30.2c23.8 15 56.3 24.1 87.2 32.7l2.9 .8c32.6 9.1 63.1 17.9 84.1 32.3c10.3 7.1 17.9 15.2 22.4 25c4.4 9.7 6 21.8 3.1 37.2c-4.3 23-20 39.6-44.6 49.4c-24.8 9.9-58.1 12.6-95.4 7.1c-18.9-2.9-50.7-13-74.5-20.5c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-5-1.6-9.6-3.1-13.7-4.3L5.6 483.6c3.8 1.2 8.2 2.6 13 4.1c0 0 0 0 0 0s0 0 0 0c23.6 7.5 57.2 18.2 77.5 21.3c0 0 0 0 0 0c39.1 5.7 75.5 3.1 103.7-8.1c28.4-11.4 48.9-31.8 54.4-61.4c3.4-18.1 1.7-33.6-4.3-46.8c-6-13.1-15.9-23.4-27.9-31.6c-3.7-2.6-7.7-4.9-11.9-7.2c23-12.6 39.3-32.3 44.1-59.5c3.3-19 1.7-35.1-4.3-48.9c-5.9-13.8-15.8-24.5-27.9-33.2c-23.7-17.1-57.2-27.1-89.2-36.5l-1.6-.5c-32.2-9.5-62.7-18.4-84.6-33c-10.9-7.3-19.3-15.7-24.5-25.8c-5.1-10-7.5-22.3-5.7-38.1zM191.3 345.3c-18.2-7.4-38.4-13.1-58-18.5l-1.5-.4c-32-9-62.6-17.5-84.4-31.2c-10.9-6.9-19.2-14.8-24.3-24.3c-5.1-9.4-7.4-20.9-5.6-35.6c4.3-22.8 20.1-39.4 44.6-49.2c7.7-3.1 16.3-5.5 25.6-7.1c12.4 4.3 25.3 8 37.9 11.7l2.9 .9c32.7 9.6 63.3 18.9 84.4 34.1c10.3 7.4 18 16.1 22.5 26.5c4.5 10.4 6.1 23.3 3.2 39.8c-4.4 25.1-21.3 43.3-47.2 53.5z" />
-    </Icon>
-);
+const Section = createIcon("section", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABogAAAKZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDDQsGAAE2AiQDCAQgBYMtBy4biwXIjsK22TNi5BKCm1jksh7xPP1+tHPff+uCiWWSSYKQREMhu0c8Eek7ncpQrWlao/x790K/9xNfIFcyKqICXIEuukx6l57/y+kN23SAH0RuDl0gq7VoD04gnM/LNyaQhVnAnkrqptRCPXz0KqKluCCynXtGj29nqNkmGS/lfrkBV/VN852cOiiaBkD6AcCeI0E+OHgiTyETk6uQCV4gkD0AZiNo0GA6ArbjFkzHYzaoqvCV/P/LfyAFAqRVxQqjcvlr8AH8EYpS65VZwrw99XB5QueJEet1ly7NKYZDuhdOs2c2G4rVpDrIvSl9ml1Mp4yFwErGpguT0y2c1SU7aLHiuulqtbAitsyWzu5RGdKK+hjvTS2YMhWn27ZVBuT7tSCvynST2VTTebZ1mu1WiJjgFrh7w4h1D6dLs5V56PdQm5eYf5lzk3pD4nRybFxj21r1dmeMq5m3XXxYfAyx9ObEsunT2XRhQNjyYnxpiBCl33zl5Fqeio1tfF5vyRAAQLIvwBnpXx0AAIwccvkEPi28f7i3pmNaUKDZZa/auuUK6WWlEpDuoY6KCs5boc0vkHQN/i8v1zzpu/L4e7hIzIbCyFdspfWFCgCC0Pfx8684cYffAsIFfNt6+64P/v/9bxGzMo92BYRm+aQBolMKoN+lyOtm5CLUAvokEBSvUNRX7XYHAdGJgKJVp4DGNBIIqDotQ0CLmSwR0KrTAdxSO8SwmAGKbmdAY6NyUA1bBi22Ow9bDYc7XPlg4/8WU1wt6rKOrjEyoXb0sq4LEciWeXu67SwuzX26dBKp8uQqliJZhmLDFPJJSuRwRbSLL6JMGTFB2aHHrb0SymGhIhlr/hyyij16f6CjFI/WpcNwAdZ+6KJCSlvgAwA=");
 
 export default Section;

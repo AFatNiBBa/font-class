@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `restroom` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/restroom?s=duotone restroom}
  * @preview ![restroom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/restroom.svg)
  */
-const Restroom: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 304c0 13.6 8.8 26.3 22.5 30.5c12.4 3.9 25.4-.2 33.5-9.4L56 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 16 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-154.8c8.1 9.2 21.1 13.2 33.5 9.4c16.9-5.3 26.3-23.2 21-40.1l-30.9-99.1C211.1 155.3 174 128 132 128l-8 0c-42 0-79.1 27.3-91.6 67.4L1.5 294.5C.5 297.6 0 300.9 0 304zM80 48a48 48 0 1 0 96 0A48 48 0 1 0 80 48zM385.5 294.5c-5.3 16.9 4.1 34.8 21 40.1c3.2 1 6.4 1.5 9.5 1.5l-9 26.9c-3.5 10.4 4.3 21.1 15.2 21.1l17.8 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96 16 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96 17.8 0c10.9 0 18.6-10.7 15.2-21.1L608 336c3.2 0 6.4-.5 9.5-1.5c16.9-5.3 26.3-23.2 21-40.1l-29.7-95.2C595.6 156.9 556.4 128 512 128s-83.6 28.9-96.8 71.2l-29.7 95.2zM464 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M320 0c13.3 0 24 10.7 24 24l0 464c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-464c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const Restroom = createIcon("restroom", true, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABrgAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDEQsIAAE2AiQDCgQgBYMtB0wbrwXIjpQuZyTx8Lzef7/2SfKQO0YGZgX7k64AFBVbVvPLnwwhn5//az6/59Eg3+iQqpYFUuBRKTDQnQ3X2KATGtAEy8C2uO2miElo7CGxgzwNy65RkB5M3+P26H8A4089XUPSmgGIDgBYsHHtch//Fr+l+L5+h/jeMgTEQlAJZMjQR4DZMoE+chVyueC3VNf8FnVdEUA0id5SBprQjBfwDiAHScjzvO2UtovbNoq2+YZGUR58tmeKBwY/1yuLh4fFg0Oe7S6u6Hpv4+bu90dEI0bBe4fdT9botiEeGvlSWcZNw1/osS7usfHC0mHP935o6HODn+mx+56uZ7go1CPuKftsxEtoI27We2HlRUFkqh0GvtThpb99f+B78z5a3fVnXVdTS3cUmwb/8rB2N9zQTjBX6EAe3eFhv0x+Z8uW0f32evTKq6oW1VVXPtp3r87Fyro8cfHFJ0pyzIT/Zm9hy+fji5t0n7K0pZNd9yd36UBe00nL0indb1LMf2fL1tF9d3j9rrsHDrz7rtf77Fh+5sHTgUBw/189tbP97DMtjQT+ePff6x+S+uN0VXoJLRIIstH1aNvSFdT/p6sEACDFeQamK2I4Apm75ZJHbeM+AUKJAEmTUoBMbx0EyJVGCVDoZ4oATUprZSJvFbrY3oOkjdMgM9WlINfF26Aw21fxJl0ig1gR3sQfxrSlY2jJomrC2PHVzGozrZWAkLfts6rTruHnybIReKUDTjrhHPvtc9g5I/Isy1PnOm7pHrzEE1UmGGu8ykzV7dxzbcMofpazHV5X7s8zS/V+bLjz9muPwN4kYZ3IIpMRKbIOoYQPF7YxoO/oNFE+cgAA");
 
 export default Restroom;

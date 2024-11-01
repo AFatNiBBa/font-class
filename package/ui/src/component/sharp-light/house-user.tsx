@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-user` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-user?s=sharp-light house-user}
  * @preview ![house-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/house-user.svg)
  */
-const HouseUser: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 2.7L298.6 12l272 240-21.2 24L512 243l0 253 0 16-16 0L80 512l-16 0 0-16 0-253L26.6 276 5.4 252l272-240L288 2.7zM96 214.7L96 480l384 0 0-265.3L288 45.3 96 214.7zM288 256a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-96a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM231.1 352l-21.3 64L176 416l32-96 160 0 32 96-33.7 0-21.3-64-113.9 0z" />
-    </Icon>
-);
+const HouseUser = createIcon("house-user", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcwAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBfgsGAAE2AiQDCAQgBYMtBzEb/wTIhuD7uf/qc5N8yBuGzFfDxA5xCdxKAHTsVgJZAjn15v9yz+/50QF+o0Mb09YE2au5nyeQWC8P/ICyMAuUYk63yTqUisQ3QoIkouOz4+wJeXwbgxWkp9PXeFDeNH7V3VWSPAMQ7QAwY92qJT79KX6K+Lr+FvG1RQiImaASyJChlwCTZQK95CrkcsFPUa/Tf2BFANFAf3oCORqxDYcBOUiKPO9Z69i6fa1ona+tFeW+zl0674j+MTWEKFtFREyOgbEruq5OWWodWayN1WvudI14Mi51eaK83ekxFzs/Xou3BjzX/9nRbw98ftAL41YPHzW8jHVRizVRxsgoW55v9/zv/b7e+7W+Hz777LNt/7TOdPe10+7Vdu6bbp22f3r2k2+am5svavbJc1z5pH+bm9xskyYou3340L59hw6HNv6TZZJo0XebZ8pALZY5CQSC/uMubNjWdvL/TbUEfnn/z7/zkEX90zQpPY8mCQTZ4Ppgm9N0hSJNEgCcFGe1OJ8kkKxT0Fdt5QkBQokASYNSgExP7QTIlQYJUOhjjAANSqtkIm8WOtkyQNLKCZAZ6xzIdfIGKEz2mdOgU2RxRkQJ8cuLnWuhObeqEUOHVxOr5UQnQwerl5Oqbb7/Wd4YgIf2Ouao0/bY7YDTBjlpiX/GEXM9eI4vqoww1HCViarj+fP9tfY46ZQDjjnarpmkum/3d9bfPwBSoqgjtZJEpDIGuSHPEwAA");
 
 export default HouseUser;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cup-straw` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cup-straw?s=solid cup-straw}
  * @preview ![cup-straw](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cup-straw.svg)
  */
-const CupStraw: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M249.3 0L280 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-30.7 0c-3.7 0-6.9 2.6-7.8 6.2L224.2 128 352 128c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 192c-17.7 0-32-14.3-32-32s14.3-32 32-32l142.9 0 20-84.8C200.8 17.9 223.4 0 249.3 0zM60.3 468L40 224l304 0L323.7 468c-2.1 24.9-22.9 44-47.8 44l-167.7 0c-25 0-45.8-19.1-47.8-44z" />
-    </Icon>
-);
+const CupStraw = createIcon("cup-straw", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYgAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBQwsGAAE2AiQDCAQgBYMtBzAbwwTIjtRG+YWZRFDpqrJamolbzTHogIAe0Wb3vWePvTcZLPamat+nv/le51GAj3Of6zyQdZ7NeZ5A59H8gzfQ52kfLFH8u7NNTYJ8WlrKkhyXdnwOJ8jjYnZLhfR8+hSPlh+N33Vwi6QhAxDNATB97crF3v8mvon4pI74xEIExHRQCmTI0FmASTKBznIlcrngm6jX6T+wJICoqk+aQI4cs7AUkIMk5fmAlrVKk3xNrVJsrBW1lzo816uIB1qvilo82OZp11o/VTSOB9o+E9fbPVurxdp4EZ3r1qxe0yRWxXMKVOzp2OP15q//2f3TPZ/6/71ueHx5mzbLu6lWWsx3TdN795oGZRqPP6rVKjN+/7z125+1+iupw+Bjtfz801avavXp5y2BQPByzz9/2tps0j+Nagl89+b/tbvr78e19DoaSSDIBtUH2RTXgLABGCnO6KFsLJBMksB9a2PPCBAKBEiqCgEynTQXIFcYKEBFV6MFqCqslIm8QWhtcwdJY8dBZozLINfaG6Bikg+MqtaRWRJpB+RDLm6OhGf3lcOHDCsnlFMXU8aBx/bEclnrd8an+sNBexx1xCm77bLfKYGesNg+7bA5GjLbhkrDDTFMaYJyO3jcvcZuJ5y031FHcpeJyvN6P2f04v4wTAKMuIOVRKSGnaePDf6ylj8LAAA=");
 
 export default CupStraw;

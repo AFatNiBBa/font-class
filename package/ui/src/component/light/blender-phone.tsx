@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blender-phone` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blender-phone?s=light blender-phone}
  * @preview ![blender-phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/blender-phone.svg)
  */
-const BlenderPhone: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M226.8 32L535 32 519 96 368 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l143 0-16 64-127 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l119 0L455 352l-201.6 0L226.8 32zM487.1 355.4L566.1 39.8C571.1 19.6 555.8 0 535 0L226.8 0c-18.7 0-33.4 16-31.9 34.7l26.6 319.5c-35.3 8.3-61.5 40-61.5 77.9l0 32c0 26.5 21.5 48 48 48l288 0c26.5 0 48-21.5 48-48l0-32c0-36.1-24-66.7-56.9-76.6zM240 384l224 0c26.5 0 48 21.5 48 48l0 32c0 8.8-7.2 16-16 16l-288 0c-8.8 0-16-7.2-16-16l0-32c0-26.5 21.5-48 48-48zm136 48a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM120.1 116.7L95 114.2c-15.5-1.5-29.9 8.4-34 23.5c-9.6 35.5-9.6 73 0 108.6c4.1 15.1 18.5 25 34 23.5l25.1-2.5 21.8 53.5L96.3 350C10.6 261.5 10.6 122.5 96.3 34l45.6 29.2-21.8 53.5zm45-76.6L108.4 3.8C99-2.2 86-.9 78.1 6.8C-26 109.1-26 274.9 78.1 377.2c7.9 7.8 20.9 9.1 30.3 3.1l56.7-36.4c9.6-6.1 13.4-17.9 9.2-28.3l-26.9-66.1c-3.9-9.7-13.9-15.6-24.5-14.6l-31.1 3c-8.2-30-8.2-61.8 0-91.8l31 3c10.6 1 20.5-4.9 24.5-14.6l26.9-66.1c4.2-10.4 .4-22.2-9.2-28.3z" />
-    </Icon>
-);
+const BlenderPhone = createIcon("blender-phone", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABpgAAALZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDEQsGAAE2AiQDCAQgBYMtBzQblQXIjsK25XNRYjDhFi/xFA//2PV1X1UN4BqYEQCtUzlbZ/ujUZ8frpw1xMN+7t6fmbclrRvqJdJpkEUkdEIneSNaJG/+r8l3bUcH+I0OJdpqkSCROMp83mB7PorWxAPa2gY2kIn5BudNPuDu0L6HLJ5GJ8qQ3FK+gwvuQ+MnAUdJZCmAqA4Aw+emjPNFIQoR3xXfJb7Th4AYAXKBFCkaCzBIKtBYJkcmExSiWGT/gXECiLL8/RKQoTye4CO60tSvymZZk2zdCr5kJU2VbHqlMhXnVKlcJRdjXHXveExSQFNtnb1szsw5N7y7XrOcdm97FuIV/72fuOXZMVWJM769kMih4GF2ulLFSq8iI8A63SwLPSJ3hvXcjGDn3tBB5i602CbT5rT/PHGQy0VDmvISh+b6S31u/Ljx193PU3+YVjLpmm8sbgRn43o6HaexTNz45uKON/mW/fGv+XfLv/P1oJc/u+iGQtWqhQuKDhTTd2h2wDcCQ9Pe+AHaptqZrd97qXZqs2rDlvf+zsw56ffPa+dqP/8+zWn0998n/m1c8M1uz+opVQu5QtXxtGfdTtQ8kybViTzDAYf9tQ3XS0p2XtwwjWfao2fOhAnPzJQHR2Di/097Vh9Ro0vZ5II9P/8/4seJDbs2UOrp01KsD/ZM/AYEgrEhs3+t2qD/8qYElH702z/8zOJ/xS+U/sojlJeAIO007GSuMmyCVG6UwA8nsV0LOMFA4o6z/66VXRcgVESARFkVBUg1Ul2ATEUdBSijqd4ClFXRFFKRVRBqm1eBRGWbQKqPfSBT29ugjEG+DJVVO1QfrPi5if+LaWOayOhxeaNLt3xAPppRSN8grzsH5ouN/HZe0R5utJwNrGcry1jKKrY26M2Mi25jHWOmqNF8kVx3XXSTGyDfnL+7ejrL2MwWVrGB9babgfLjg+1sn67fHjoSPmMPOxMJkVRZvHbZ+qXLNnd+rQEA");
 
 export default BlenderPhone;

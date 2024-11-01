@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-left-to-line` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-to-line?s=duotone arrow-left-to-line}
  * @preview ![arrow-left-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-left-to-line.svg)
  */
-const ArrowLeftToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 17.7 14.3 32 32 32s32-14.3 32-32L64 96c0-17.7-14.3-32-32-32S0 78.3 0 96z" />
-        <path d="M137.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L237.3 224 416 224c17.7 0 32 14.3 32 32s-14.3 32-32 32l-178.7 0 73.4 73.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-128-128z" />
-    </Icon>
-);
+const ArrowLeftToLine = createIcon("arrow-left-to-line", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABcwAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBSwsIAAE2AiQDCgQgBYMtB2Ab/QTIjsQ4JvGLKEwi+H6/1z33vv/DRXxTxUgKCIVBm6qquKKuztR2KquTIe/zU6ee5zwUwLcM17Et2wKyPBeaq+cbrOe1Un2LT/DqFuTuNtEwgyAD01Bxc4oYkh8P5e1bKOJ9vqFCept+4XG64/irpxskdRlAdADArA1rlmlpjdYUv9o+E78sRUDMBqVARkYfAabKAn0UShQKQWtqa6M14M+vJICogmeSQRUFFmIVoABJiKIY3K2h0lSsb6jUb3gVEVe7b4jXDfe7vnSly9poCEK9qK+PdeG71219TjldYckZX/fXkeNqt1cM6Y8w4FOHT//82v/LnQ93m2i6e/myN01NbyoSgosWatbuzp12WWlW0wKtUBPyzpnIy+ZM9DsgELxrPPl7R/up/2sbEvjzpeHEaEmfUCuBIA9tG2prtAAQA3hSKc4bEC2uIJANluClNnolQKhHgKSqXoCstw4CFOoNEaCin3ECVNVbI4uiTuhiWwFJo1MgG+8iKHTRDCqm+mpXdYlsTqwxsF9zSfNbaN6yctTwkeXkchgizkLoODqlXFYGng+lQW6j/U447qx99jrkbIOctsw755j5GjzPA5VGGW6k0mTldnIfXG+f0844JAv740xRnrcGOq83D3KrSYDRF7E+Eylyr12nT5+48KYtDDt7YtiPJjjjbOrDC88i");
 
 export default ArrowLeftToLine;

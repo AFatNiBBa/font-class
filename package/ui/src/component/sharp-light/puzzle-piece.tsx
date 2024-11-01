@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `puzzle-piece` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/puzzle-piece?s=sharp-light puzzle-piece}
  * @preview ![puzzle-piece](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/puzzle-piece.svg)
  */
-const PuzzlePiece: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M169.1 17.3C183.8 6.3 203.2 0 224 0s40.2 6.3 54.9 17.3S304 44.6 304 64c0 22.4-13.7 40.4-32 51.3l0 12.7 96 0 16 0 0 16 0 96 12.7 0c10.9-18.3 28.9-32 51.3-32c19.4 0 35.8 10.5 46.7 25.1s17.3 34.1 17.3 54.9s-6.3 40.2-17.3 54.9s-27.3 25.1-46.7 25.1c-22.4 0-40.4-13.7-51.3-32L384 336l0 160 0 16-16 0-112 0-16 0 0-16 0-38.4 0-10.5 9.6-4.2C265 436.2 272 425.4 272 416c0-7.1-3.8-14.7-12.3-21.1s-21.1-10.9-35.7-10.9s-27.1 4.4-35.7 10.9s-12.3 14.1-12.3 21.1c0 9.4 7 20.2 22.4 26.9l9.6 4.2 0 10.5 0 38.4 0 16-16 0L16 512 0 512l0-16L0 320l0-16 16 0 38.4 0 10.5 0 4.2 9.6C75.8 329 86.6 336 96 336c7.1 0 14.7-3.8 21.1-12.3s10.9-21.1 10.9-35.7s-4.4-27.1-10.9-35.7S103.1 240 96 240c-9.4 0-20.2 7-26.9 22.4L64.9 272l-10.5 0L16 272 0 272l0-16L0 144l0-16 16 0 160 0 0-12.7c-18.3-10.9-32-28.9-32-51.3c0-19.4 10.5-35.8 25.1-46.7zm19.2 25.6C179.8 49.3 176 56.9 176 64c0 9.4 7 20.2 22.4 26.9l9.6 4.2 0 10.5 0 38.4 0 16-16 0L32 160l0 80 12.7 0c10.9-18.3 28.9-32 51.3-32c19.4 0 35.8 10.5 46.7 25.1s17.3 34.1 17.3 54.9s-6.3 40.2-17.3 54.9S115.4 368 96 368c-22.4 0-40.4-13.7-51.3-32L32 336l0 144 144 0 0-12.7c-18.3-10.9-32-28.9-32-51.3c0-19.4 10.5-35.8 25.1-46.7s34.1-17.3 54.9-17.3s40.2 6.3 54.9 17.3s25.1 27.3 25.1 46.7c0 22.4-13.7 40.4-32 51.3l0 12.7 80 0 0-160 0-16 16 0 38.4 0 10.5 0 4.2 9.6C427.8 329 438.6 336 448 336c7.1 0 14.7-3.8 21.1-12.3s10.9-21.1 10.9-35.7s-4.4-27.1-10.9-35.7s-14.1-12.3-21.1-12.3c-9.4 0-20.2 7-26.9 22.4l-4.2 9.6-10.5 0L368 272l-16 0 0-16 0-96-96 0-16 0 0-16 0-38.4 0-10.5 9.6-4.2C265 84.2 272 73.4 272 64c0-7.1-3.8-14.7-12.3-21.1S238.5 32 224 32s-27.1 4.4-35.7 10.9z" />
-    </Icon>
-);
+const PuzzlePiece = createIcon("puzzle-piece", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABsQAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDaAsGAAE2AiQDCAQgBYMtBzMb6wXIrgrsxjcLYwA/oQOc0LdGvDGEfS0e/n+/b/vcJyNvvsURFUQrq4s2Sv5UvE6bBt4hzepoFa1k8vP/f63dNzvYzJqiHzGp0Ey1cbqpNrNGCfRCAdj7SgErkNoOgWKON3XqeWxTAB9EMrfGQtkWTToXdwP1KjK13vNyrVbq1XSDc/cWmeiTsl+STK3b/KfHryPkcUMrzCAdcu/xOFxp/DNogITPAEC0AcCFy6nxePwdvyPe68R7l0AAcRHABAIZyMAIApwmQWAEj4Ecj+B31LX9DwQBECUQTtTcZL/iJ/R8JFzO15eLhYzPEAshd6e677llmvUAVSIIVbQTvua5he7Cpsu5lxAg1C8Q3m+Ip3RXP+62qh1Fd1ZHGEMUSfpQvG+YsJnm54V7Rm11HaJt+xlvz5myl5yK+vKSKt5cTtbvdtpWbv/z/k6evZmJonad74aidhtFZGSdL2XJJszLn06jgUVtyq4SbkQjrreqqz/9e6uVO6LiRkl53HaoTbkZibNWNTNXMTejdRYJca+NJkrKI5nvzmiRmdFHSZe8QU/05SSNl2Rx89IiRW1ZpwMBAhYOghS3Faf/9+IA/H3349NIfZxwL0AvDhCQrdQr8hIgQQAASNEBpwQESH4leKkDxgUgCCAAiTkBATI2lAiQE3gjQMFeKAKUBKkkKLcC0crPgCPVDCTC9AOe1gkwE+PJN6eNTLkZ1WS+lolxJRS7im36BbAo1swlVl8pNxjNhs2FDtLgCTtRoVGDNuXKVGsryBbxUbt6cRwR64GYQH4CMFHYcnm6OUO5Fq2qNWrw40Rj510PHXx7T7ghB2ALHko4iCRtau/pqSv3fVgAAA==");
 
 export default PuzzlePiece;

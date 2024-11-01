@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `champagne-glasses` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/champagne-glasses?s=regular champagne-glasses}
  * @preview ![champagne-glasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/champagne-glasses.svg)
  */
-const ChampagneGlasses: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M159.2 12.6c5.7-10.5 18.1-15.2 29.3-11.1L320 49.3 451.5 1.5c11.2-4.1 23.7 .7 29.3 11.1l81.6 151c32.4 60.1 10.6 133.3-45.6 167L552.6 429l55.2-20.1c12.5-4.5 26.2 1.9 30.8 14.3s-1.9 26.2-14.3 30.8l-77.8 28.3-77.8 28.3c-12.5 4.5-26.2-1.9-30.8-14.3s1.9-26.2 14.3-30.8l55.2-20.1-35.8-98.5c-61.2 9.4-121.7-29.6-136.3-92.5L320 188.6l-15.3 65.8c-14.6 62.9-75.1 101.9-136.3 92.5l-35.8 98.5 55.2 20.1c12.5 4.5 18.9 18.3 14.3 30.8s-18.3 18.9-30.8 14.3L93.6 482.3 15.8 454C3.3 449.4-3.1 435.7 1.5 423.2s18.3-18.9 30.8-14.3L87.4 429l35.8-98.4c-56.2-33.7-78.1-106.9-45.6-167l81.6-151zm32.4 41L156.8 118 277 161.7l16.5-71L191.6 53.6zM119.8 186.4c-22.4 41.5-2.8 93.3 41.6 109.4c41.3 15 86.5-9.4 96.5-52.3l8.1-34.7L133.7 160.7l-13.9 25.7zM448.4 53.6L346.5 90.7l16.5 71L483.2 118 448.4 53.6zm71.7 132.7l-13.9-25.7L374 208.8l8.1 34.7c10 42.9 55.2 67.3 96.5 52.3c44.3-16.1 64-67.9 41.6-109.4z" />
-    </Icon>
-);
+const ChampagneGlasses = createIcon("champagne-glasses", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABjwAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCVgsGAAE2AiQDCAQgBYMtBzgbXgXIjlQ1fzz8v13f73OregDWAEYufxgZmE741k+tLl7++b+mXjw/KpBvdCjRWLG0CjpcFu9N4HR2Z5s3SD2fDWcTxR3Ne2igQrtQBx0hj3/iohLpVvocF+wPjW80dZ6klAGIOgAYs2jeDB9WREXEZ+XXiM9MQ0CMAYVAhgwtBBguE2ghVyCXCyqiXBb/gQUBRCXukQnkqIyzeAjNWEhKeT65ah2jUL1UM1+oxVRbdqfDglgUTzTl1HMt7g5WpxW5W+3nB8092ux2J6t5Ybw69O1WCyUzsPfNgfNjSjzW5GbHhbEwHm++DJ7C4Nb7ey0aMXrc6FWSF86/2zTi1oDXOj3RuvWIUpN18xfNbw2NXdCsabP50VLLdXhs0BvzXtuq7dN1nv6uzecbP3f/yw92ONvTuZ4aPjj7uhNffvl0uzXWmXBl/JDpzc1oYf65+UPWabvGb4uXfFVrND//1ZLFv9W89Qb3JE5vYUZzgxecm7AODT395ZcnZl+v0su94lA3dSba0H7SuR8/4P2aVZ9///Qe53q519DXtze82hONUHqVlXsu23XPvS68/3zVmu9/8CMQCKr8dr3eqtrDf6tSPYGv3/7h9+TG8rJ0Pj2NKhIIsu7l7pan0wPQDQItpTioLf4mgeSoEvyuNVwXIFRDgKSSagJkmqsjQK6abgKUtDJAgEqqmScTeVWhgRUFSGrYAzIDnQC5Bl4BJcN9VKqkQWQwKUCUsEeYOrGKTogq+vTsXQwtetsyEcw4Y31YMVnrfFCOdcEHbbTLTvttsN4W+yv4XjOqB+wwcQib4IcKffTUW2GoYnHvprqQlvbaZ0u3vHybYYrt050dHJ7dBZuJS9vXjiQRqe4zLqLWbNq5ocem7f9iAA==");
 
 export default ChampagneGlasses;

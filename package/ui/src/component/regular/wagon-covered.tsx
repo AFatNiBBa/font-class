@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wagon-covered` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wagon-covered?s=regular wagon-covered}
  * @preview ![wagon-covered](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/wagon-covered.svg)
  */
-const WagonCovered: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M569.8 4.1c45.9-3.1 79.9 41.8 64.6 85.2L567.8 278c5 4.4 8.2 10.9 8.2 18c0 12.9-10.2 23.5-23 24c0 0 0 0 0 0l-10.6 0c20.7 20.3 33.6 48.7 33.6 80c0 61.9-50.1 112-112 112c-56.4 0-103.1-41.7-110.9-96l-66.3 0c-7.8 54.3-54.4 96-110.9 96c-61.9 0-112-50.1-112-112c0-31.3 12.9-59.7 33.6-80L87 320s0 0 0 0c-12.8-.5-23-11.1-23-24c0-7.2 3.2-13.6 8.2-18L5.6 89.3C-9.7 45.9 24.3 1 70.2 4.1l119.7 8c21.6 1.4 41 10.6 55.5 24.7C258.4 23.9 276.3 16 296 16l48 0c19.7 0 37.6 7.9 50.6 20.8c14.5-14.1 33.9-23.3 55.5-24.7l119.7-8zM519 272L589.2 73.3C593 62.4 584.5 51.2 573 52L453.3 60c-21 1.4-37.3 18.9-37.3 39.9L416 272l103 0zM186.7 60L67 52c-11.5-.8-20 10.5-16.2 21.3L121 272l103 0 0-172.1c0-21.1-16.3-38.5-37.3-39.9zM368 272l0-184c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24l0 11.9L272 272l96 0zM160 416l-46 0c5.8 22.5 23.5 40.2 46 46l0-46zm0-32l0-46c-22.5 5.8-40.2 23.5-46 46l46 0zm32 78c22.5-5.8 40.2-23.5 46-46l-46 0 0 46zm0-124l0 46 46 0c-5.8-22.5-23.5-40.2-46-46zM448 462l0-46-46 0c5.8 22.5 23.5 40.2 46 46zm-46-78l46 0 0-46c-22.5 5.8-40.2 23.5-46 46zm124 32l-46 0 0 46c22.5-5.8 40.2-23.5 46-46zm0-32c-5.8-22.5-23.5-40.2-46-46l0 46 46 0z" />
-    </Icon>
-);
+const WagonCovered = createIcon("wagon-covered", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABrQAAALKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDRgsGAAE2AiQDCAQgBYMtBzQbygXIBp7/16n3fSkkhUEhUpDKZKeM6GYq8UQ8dcvpyGifuJ/6/yppGPXOJzykSIuitkgbZvJuAgMcRgTu/APPJoqDSDdzLWNP4T4IxxHo8kc24gFql3oIbIhWyBuiWAoKDw0SSCBAVZrWd+/IrUZpFHngPg/ygPaAAEhTACwE0AANiEUAqEZDgFh0LEBHR6BR3G4o/wMtEAAQTzhSAaAD/sAV4Dkwnw2g8NX1VkHBAV5ent5keZoefrqzeNuYcjFT5FRsD9nGzpRFskgMuRy3N+Nk8YUsV7whbfRAtiE72xyPXhThlP3Zp0sccj7zdLopx8qty+p71veo3xG+3eghW0O3gpiDnQ7n6o4T5giLyKJlW7injexOM+RoJLlmD8M09pX42yPnYk3HxQRDEART9pc6BDHEjjlNwxTT7jjnQLb1y5RGzCRXoOtd4sPhD6m4alVAxaGm15huhjYDMAkICPj/4ePB1y9HNWPUy9cHP374HxDgNgBoFmpOb3qNQxUV1gwvlKP503yeNneoGV6FZsvbaSS9VUsf8j/ucQU2MKL9C8Ogwj4tW6WHExlBA4GuPR/PvbjkTQnrmk/XMF8aGPhkg50otlTYlh2r2GIndCwi2HNtUmypcM9p+LkdpRVb5iTYrQufwAYAAQS6nFv9ekBA9TdvUwHw6sqH796N7j/uW2qZcgHeKAAEtBx3Dn3Vwh3izxCEJK5kOkl8EwIozuALq3zZjgAgGNBD4YkBjRgCoWOQDQ/iKdGfXEF3NET3QQilH1D4MgkapcyDTihn4UE1d+KehIomyyZJNP1JZm81prccZxXY+ValtVnQmsXT4A9WWaedGdPthkxmMpwJjGcqwxjKKKaOJJPpmJrGOFrtiVvyQywKsMnHohLrdvm53TlSTGYKo/yMvz9KFdb7gQym77fPxKNIdBayQqFAlN+MQSMmjM/9lAA=");
 
 export default WagonCovered;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `abacus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/abacus?s=sharp-solid abacus}
  * @preview ![abacus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/abacus.svg)
  */
-const Abacus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 96l0 112-64 0 0-32 8 0 24 0 0-48-24 0-8 0 0-32 64 0zm-96 32l-8 0-24 0 0 48 24 0 8 0 0 32-128 0 0-32 8 0 24 0 0-48-24 0-8 0 0-32 128 0 0 32zm-160 0l-8 0-24 0 0 48 24 0 8 0 0 32-96 0 0-32 8 0 24 0 0-48-24 0-8 0 0-32 96 0 0 32zm-128 0l-8 0-24 0 0 48 24 0 8 0 0 32-64 0L64 96l64 0 0 32zM64 416l0-176 64 0 0 24-8 0-24 0 0 48 24 0 8 0 0 24-8 0-24 0 0 48 24 0 8 0 0 32-64 0zm96-32l8 0 24 0 0-48-24 0-8 0 0-24 8 0 24 0 0-48-24 0-8 0 0-24 96 0 0 24-8 0-24 0 0 48 24 0 8 0 0 24-8 0-24 0 0 48 24 0 8 0 0 32-96 0 0-32zm128-72l8 0 24 0 0-48-24 0-8 0 0-24 128 0 0 96-8 0-24 0 0 48 24 0 8 0 0 32-128 0 0-32 8 0 24 0 0-48-24 0-8 0 0-24zm160 72l8 0 24 0 0-48-24 0-8 0 0-96 64 0 0 176-64 0 0-32zM64 32L0 32 0 96 0 416l0 64 64 0 448 0 64 0 0-64 0-320 0-64-64 0L64 32z" />
-    </Icon>
-);
+const Abacus = createIcon("abacus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABowAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CEBwsGAAE2AiQDCAQgBYMtBy0bBAbIjsN0Gy+PbFmy5Evi4fu1z8593UPdYXiJAqAOkQImB+TjSCV6VMBFEQkJi3Jr5OrfzA+176dOPc8ECYeeAxrlvTrW+VjWK82pG7jn03r1Ta1IrWABqhj32hxqDeZ2/UPbBcr4WTzQRnqa4GH+0vjPcA9IugoA0Q8AK3Zu3eLtX/FXxI/WiB82ISBWgCxQoMAoAZYoBEYpZZRKwV/Raon/wEwA0S69LYESNf5FD6AESVdZ9h8+XJZPHNd/YN3Wu9whf1qdFKqIqOuIqoqot1V1JepajK0jVDIddgUWiooIObWzrvbwuPGa6QiJhwZP9tk+G4848QI8BV73tYuYOT6+u193zzgnaB28lC5oZJ3DZhjWmTUHx3Z25sa4M8Vh87mlHyIPyXeONC5p5OVjX6RkY9iKQcMurpoedGhL4ZB8e52cuePQF4SNxrPF0kMaLzTb7YNN6oO/DgLBi487O9h3yf+ddQL/vHmP/HTrr9SkbnRKICimtKbYlxoQ1ADSKW4YvxCwQPJTF6RP7eWRAKFCgKRdJUBhpH4ClCqTBWgzxlwB2lW2KkTZJQyyvwFJL5dBYZ6boDTIa9BmiS/pdoOigHUOUrlfzeS1XWjNpjxz2oy8KM9WVTz4MnZ6cd5sT7ghuybis0646IJrjjvmtGsd4ootuevOW7tEWxOgbKZpZsgWyYcbD0/vcNwVV5120QW/zGL5+uQEN5YHT8TbSIBZUMLIykjth48cPnr9KgAA");
 
 export default Abacus;

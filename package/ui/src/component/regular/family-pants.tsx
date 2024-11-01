@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `family-pants` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/family-pants?s=regular family-pants}
  * @preview ![family-pants](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/family-pants.svg)
  */
-const FamilyPants: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 64a64 64 0 1 1 128 0A64 64 0 1 1 64 64zm41.6 144c-16.6 0-30.5 12.8-31.9 29.3l-4.1 49.3C68.8 296 76.2 304 85.6 304l2.4 0 60.6 0c-3 10.1-4.6 20.9-4.6 32l0 16-32 0 0 136c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-139.7c-26.5-9.5-44.7-35.8-42.2-65.6l4.1-49.3C29.3 191.9 64 160 105.6 160l44.8 0c9.2 0 18.1 1.6 26.4 4.5c-.5 3.8-.8 7.6-.8 11.5c0 11.4 2.4 22.2 6.7 32l-32.3 0L128 208l-22.4 0zM336 176c0-3.9-.3-7.8-.8-11.5c8.3-2.9 17.2-4.5 26.4-4.5l44.8 0c41.6 0 76.3 31.9 79.7 73.4l4.1 49.3c2.5 29.8-15.7 56.1-42.2 65.6L448 488c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-136-32 0 0-16c0-11.1-1.6-21.9-4.6-32l60.6 0 2.4 0c9.4 0 16.7-8 15.9-17.3l-4.1-49.3C436.9 220.8 423 208 406.4 208L384 208l-22.4 0-32.3 0c4.3-9.8 6.7-20.6 6.7-32zM320 64a64 64 0 1 1 128 0A64 64 0 1 1 320 64zm-64 64a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm32 208c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 16c0 8.8 7.2 16 16 16l16 0 16 0c8.8 0 16-7.2 16-16l0-16zm48 16c0 24-13.2 44.9-32.7 55.8c.5 2.7 .7 5.4 .7 8.2l0 64c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-64c0-2.8 .2-5.5 .7-8.2C189.2 396.9 176 376 176 352l0-16c0-44.2 35.8-80 80-80s80 35.8 80 80l0 16z" />
-    </Icon>
-);
+const FamilyPants = createIcon("family-pants", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABswAAALMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDPQsGAAE2AiQDCAQgBYMtBzMbwAURVZqfyX4k2LaO1hlsYGKgQTVYPD6Jh3/yvrovSSkppM7JbwlrDKAluBMaxmogL7bVNRB+AEDALitO4PDHxuKy1wfaY/p7d/7PP33A51/8o4wxa+Ma8zyBQMM87DyLsi6QKPIErKN5Dw5kSBfaeIUsno/1Gkh2JB9gnfOi8Y3eHiTRkAKIEgCLLzx3mVe6oivi/fqTxPuWICAWg0ECKVL0E2CeVKCfzCBkMkFX1OviPxACiEbe2ycgQwtewTuADCSasqxtwvi2tmpI0dCWXVA05JfuG3tq9In+u0cdH3NywPkrq4jN1aC4t1YUm4k8xPZhR/tEHO2zs+/Q2DX21MgiVtU2u7eWX3hfj21FEUdGn+g9OHb02j5sXjyPiH6cNWyLIbG1x9ac4vnSBWcEzzrSey65n79r5PnTzkZszVdWm4kttSV+z5juJLYQ97ZL8jxW9ti6Gd9zzW0R+8aemvnk6BP9DTlZnvxu8Ac3fLDwnrT7p5+60/jOo9e1PcLyYrKOn5L5Z3SWBlmudvbZtdVmPPpobbIJ513747j2N7LGzhsHPzuwMXujfZwfrz1vwmS1QWvG6olfW26QUucZ85OfOiYrlj/S1mPmjZ0dNx1TWd//+dNPf76fogZ+3L6c5e24KCy1d5Vll11ar51Os0Xa0iD6gEWy9HStFBdcX5bXXxAlEAiqv/9vuLJj3m/NRQK6n/vhd/IzquqvxLfJSTRLQJCOq49zWUKlim8FACCJOw1JqAQSz2jiPWurrQKEHAESjXIBUn2VAmRyYwVoMMB0ARrlzpWKrEWoXF6CRKtbQGqGu0Cm8jhoMM/bqUZVpGBMAyF9FZngfR1yp5icFRgGB3IGMknz0DLbGPW3FkJ8UfTH/nbt9NaQu85+mx+D3QcpswLD6vFtoaF4HHymfnX9MZb9I8E/vj7EtuJhVh1Kgkw0tKvpD4bFBwAA");
 
 export default FamilyPants;

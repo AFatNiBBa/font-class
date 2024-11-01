@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-export` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-export?s=sharp-light file-export}
  * @preview ![file-export](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-export.svg)
  */
-const FileExport: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M352 192l0 64 32 0 0-104L232 0 32 0 0 0 0 32 0 480l0 32 32 0 320 0 32 0 0-32 0-112-32 0 0 112L32 480 32 32l160 0 0 144 0 16 16 0 144 0zm-5.3-32L224 160l0-122.7L346.7 160zm120.6 52.7L456 201.4 433.4 224l11.3 11.3L513.4 304 208 304l-16 0 0 32 16 0 305.4 0-68.7 68.7L433.4 416 456 438.6l11.3-11.3 96-96L574.6 320l-11.3-11.3-96-96z" />
-    </Icon>
-);
+const FileExport = createIcon("file-export", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZQAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBZwsGAAE2AiQDCAQgBYMtBzIb6QTIHoVx41Mu4XQoobRlo7yILOJ5cL/Xc/NSStoOHRApQDtVkiOhgIVkR9J/4Ta25Kaf/7HW3j/JJun+XRL3JIqoNqbTiJD3Im3TNrQEQiVryd9HTo03Xirg0woX7R8tyIu39M5ufAKLf9qq+zah88AmirN2usEbhB9Jn/JJhs0Pmxyg5nOOUlI+lQl4l780v1k8QVEHAFkPAK6u9bqQ/vIjmYwgE20QyDXAToQBA7YicIFcsJXCTlBV4QeNI/0HMgTINH6jAiqmsALuAKigGGo9MGPtyoW62qfaPaQnWU1rUiJ9IUlaZD5DekT6WustWVkxGowOMmSQ+bYUXs7mOGPKqGw1ZrhbWC/8tf1u/WJ5LPBujB0vH/DJDAmMbzNOoKNAwptnauqXO+6Bwd2L68h8/RZR+QaC6xnqUxUn2jK3fEsU6XpAEB7+e21ZdeH/bC/gl/g/f/EolctFALMKCMPR8aiFcgVEORABAEqesLtZobhJjm913nsEoiGgmNYEDLZQI1A1RxCYsl0UgWnNErnUObHZYoeLeffhwXmPcLXZOzzlgg932ubIbYu2DPppl1CTQHUaB30BTvE01hhzIeN4mpcNx1WoOdGJLceOXNi0YdeFgM50g0uHahpY9UMsyCeApfB29rh5aNOZc7uOHaVJ0vi843Cl93bClmHC0yJFIaXfY8X7dwY=");
 
 export default FileExport;

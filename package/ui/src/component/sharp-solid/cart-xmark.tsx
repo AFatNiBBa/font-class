@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-xmark?s=sharp-solid cart-xmark}
  * @preview ![cart-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cart-xmark.svg)
  */
-const CartXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 0L24 0 96 0l19.9 0 3.7 19.5L122 32l454 0L496 288l-325.3 0 9.1 48L488 336l24 0 0 48-24 0-328 0-19.9 0-3.7-19.5L76.1 48 24 48 0 48 0 0zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM378.4 89.3L336 131.7 293.6 89.3l-28.3 28.3L307.7 160l-42.4 42.4 28.3 28.3L336 188.3l42.4 42.4 28.3-28.3L364.3 160l42.4-42.4L378.4 89.3z" />
-    </Icon>
-);
+const CartXmark = createIcon("cart-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcQAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBagsGAAE2AiQDCAQgBYMtBzEb6wTIhqDShfWsdFe2zgwyAEPuDPiBU6DI0QNWzhh9fXjzf83n9/wa8POl2KFE2y2L1iAR8XwCE9s7X1IBtQ1nE8XtLTJpo3O/JClN0uM3erzaQB5fZjdVSPfSp7iVPjT+1N5NkoYZgGgGgGlrVizy9Lv4LuKT+pvEJxYgIKaBUiBDhk4CTJQJdJIrkcsF30W9jv+BJQFEFd90AjmqWIutgBwkeZ53bty4fa3SOF9dqxRZrai1j9bROFZGo+gcjWuiaNQh1kdRxLoHfV7u9WL7uz1f6P1Shx3ZvteORLDvd5w5rZ84ZeLk6BuTYmL0iykOHRCTr9S/+2vNXvu726e7P/W0XbuTI3T0viV1s9wyst1Q7TYON2GiqbjyRXH4woXDReAtGfLML2+//cszoVWz73PKp1616U/d104HAsH/fTr32dJ04n8Nagn88N6/f5fj1d9LU9NraCCBIBtYH2hjmgpIDSCf4rTuwhcFkqVy/K6N3BYgFAiQVBUCZDpqJkCuMECAii5GCVBVWCETeUOhlU0NJI0cA5nRLoFcK6+Diok+yFW1iky7VN1Q/3ZZs3to1qpy2OCh5fhy2VA1hZH94oRy29X3NA30A0e7HXHYSbvstM/JjjxuUfGUQ2ZL8Cw/VBpmsKFK45XH7cf1q+1y3An7HHE4LjNBeT/W12l5fD/wJiw4XEmSiFS8T/egs4oIAA==");
 
 export default CartXmark;

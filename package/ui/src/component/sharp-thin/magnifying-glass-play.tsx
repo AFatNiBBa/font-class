@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-play` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-play?s=sharp-thin magnifying-glass-play}
  * @preview ![magnifying-glass-play](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/magnifying-glass-play.svg)
  */
-const MagnifyingGlassPlay: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 16a192 192 0 1 1 0 384 192 192 0 1 1 0-384zm0 400c54.6 0 104.2-21 141.3-55.4L499.9 511.3l11.3-11.3L360.6 349.3C395 312.2 416 262.6 416 208C416 93.1 322.9 0 208 0S0 93.1 0 208S93.1 416 208 416zM145.8 134.7l0 146.6 0 18.5 16-9.3 126.2-73.3 15.9-9.3-15.9-9.3L161.8 125.5l-16-9.3 0 18.5zm16 137.3l0-128L272 208 161.8 272z" />
-    </Icon>
-);
+const MagnifyingGlassPlay = createIcon("magnifying-glass-play", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcAAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBbgsGAAE2AiQDCAQgBYMtBzwb+gTIhiCye/rq2T3AexdBZhCJH47IUCkjRm/imud//u1t9GiRVrXgoqg+n8DEwtI33flsYDOdgO1q3UkPKbSdD013yOMtS5Uh3Uqf4YL/ofGbBo6SZBmAqA6AQTOmjPP+z/FzxKell8SnxiAgBoFCIEOGxgL0lQk0liuQywU/R6kk/gMLAoiywicnkKMspmIlIAdJnueN6tUqV6lMlXy6eWnFOWd6RbzR7qGDbR/0fL3i6d5vtn8Uhzo87vNWpfTjlGlRL6bHtzN+mPzN9O8mfjX1+0lfT5stiHoxg8F1YzphWogzp7a4V/3eH80/W/6ZLx93fYPX797t0gX5r7/RtdMljlycEkevX3PPtetGBk/PuHdvRgrFvXsi8fvVvxzW1fKffaP8l1eN9L9a1U4exMG6AeTjIBBMf+en3guq9f27fKUEfn3zr98Uv6LSB1FK91BeAkHWttTW3AQRJQEASLFdiwSBZKxc+K6VXRcgVESApKyKAmQaqS5ArqI2ApTRVDcByqpoikzkFYTa5jVsUtkmNtPdPjZX23O2jL4+zJRVOzL4EqFDfLpLG94Fhu0rOrXvWPQuZrsqCWR4u92n2Gy03C6nWuGTlttgva2WWWqVrR18s3H5bdYZvgQO80WFTtrrqNBbcXjw8PB0y2y2xSobrPd26aO4PtHS9uXFrbCdhJyddSSJSHX+j1uwfNeq9Sva3VJ6OygE");
 
 export default MagnifyingGlassPlay;

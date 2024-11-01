@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `raindrops` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/raindrops?s=regular raindrops}
  * @preview ![raindrops](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/raindrops.svg)
  */
-const Raindrops: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M105.9 106.6l41.9-67.8C150.4 34.6 155 32 160 32s9.6 2.6 12.2 6.8l41.9 67.8c6.5 10.5 9.9 22.6 9.9 34.9l0 2.5c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-2.5c0-12.3 3.4-24.4 9.9-34.9zm-96 192l41.9-67.8C54.4 226.6 59 224 64 224s9.6 2.6 12.2 6.8l41.9 67.8c6.5 10.5 9.9 22.6 9.9 34.9l0 2.5c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-2.5c0-12.3 3.4-24.4 9.9-34.9zm242.6 11.5c-8.2 12.7-12.5 27.6-12.5 42.7c0 43.4 35.9 79.2 80 79.2s80-35.8 80-79.2c0-15.1-4.3-30-12.5-42.7L320 204.6 252.5 310.1zm-40.4-25.9l95.6-149.5c2.7-4.2 7.3-6.7 12.3-6.7s9.6 2.5 12.3 6.7l95.6 149.5C441 304.7 448 328.5 448 352.8C448 423 390.3 480 320 480s-128-57-128-127.2c0-24.3 7-48.1 20.1-68.6z" />
-    </Icon>
-);
+const Raindrops = createIcon("raindrops", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABegAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCCgsGAAE2AiQDCAQgBYMtBzAbCgXIjpQuJ6QjJOnk4f/t+n6fW9UDsMZmBiv6sJPgrZ9KaUf+1KnnOQ8F8DkEQVnDli5eIKE5zyMw2vNar7QWSIFqBYtpBaxlqOzOlrJDNKe0ZLPk+MbxuUAeD+KqEule+glXypfGL5o6SVLKAEQdAIxZNG+GzyqiIuLH8tvEj6YhIMaAQiBDhhYCDJcJtJArkMsFFVEux//AggCiEvqpJZCjEtbiICAHSZ7nzZrVaVS9VDNfWL1Ubdmi+YvuVL/QcEHcIu52fq79M11faBZxrPH86f4Fdz3q8vyAd7u92PpYs4Uxf6jphec9Hf7R+G9GftL2WLe2L9R54bc2P238yZb5XcZVc2CVKgNv8KR+Uq1u3adPrb9aUv/Jqk+lE/+u9mVjCzfUqbNhocZvjtts7OZzq24Gchn/ZqM6lMb1mz2737hSh1FAIHj/tWdW1R7+X5XqCfz8wR//4/PKFfFZegFVJBBk3cvdLY/PANABWCkOaqssLJAslQN9ag23BQjVECCppJoAmebqCJCrppsAJa0MEKCSaubJRF5VaGBFB0kNe0BmoEMg18CboGS4b61KGkTmbbSv0H+9hIkcmjBW9OnZuxhaiL7GOBCZ+sMKs9T5IOa6wE4b7bLTfhust8V+huw1wz1gh4kaPMGCCn301FthqGI7ety+0AZ77bPFLjvzkGGK81pnB/XqLqAmhNmXJ0lEqvoeyLsu7gMAAA==");
 
 export default Raindrops;

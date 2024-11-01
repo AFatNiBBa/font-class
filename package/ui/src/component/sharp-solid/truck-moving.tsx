@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-moving` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-moving?s=sharp-solid truck-moving}
  * @preview ![truck-moving](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/truck-moving.svg)
  */
-const TruckMoving: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 32L0 32 0 304l0 80 0 16c0 44.2 35.8 80 80 80c26.2 0 49.4-12.6 64-32c14.6 19.4 37.8 32 64 32c44.2 0 80-35.8 80-80c0-5.5-.6-10.8-1.6-16L416 384l33.6 0c-1 5.2-1.6 10.5-1.6 16c0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16l33.6 0 0-96 0-32 0-9.9-7-7-72-72-7-7-9.9 0-64 0 0-128zM582.1 256L480 256l0-48 54.1 0 48 48zM528 368a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM176 400a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM80 368a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const TruckMoving = createIcon("truck-moving", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABhwAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCPgsGAAE2AiQDCAQgBYMtBzMbQQXIhuD5tcp6v3sWeo6hb9UBAMweUJh0NhJIxbHwBzakomjm/3LP7/nRAX4+gkMZa4MsoPakKIEAz3rZ2FQiWZglilm3krRJynySZG1ayT1+e/f43Rny+Ce7q0J6L/2KV+qHxm96u0vSnAGITgCYs2ndCt8/jacRv9S/JH6xDAExB5QCGTL0E2C6TKCfXIlcLnga9Tr9B5YEEA3wsgRyNKIVjwE5SCp5Pqm5K46uVtrnG6uV4lC79u1SCPHRkE8nfD0sVXw2sLVHtfomQTM5EPSIjf7uoogNRbWIqMaM9S90j3hLrdubxeMeb0drz3equ4MeEfFlE03YeFDe0tap7Y9Bvx781ZNPnuLoTlbrJDYe6FQ7ebLW6cDGaOp5u6Vnk6DZfi12KxUOWrTIQcXs2oEnB1E+2kT1Cac6PORhh9ZEK9g1UD4PBIJl1zp8sqvj9L+bqgk8/+6vP/rj6k9TLbWhSQJBNrw+3PZUA48OIEtxUYvyRYHkigq8aztvCxAKBEgaFAJk+uokQK4wTICKASYI0KCwTibyZqGbHRMk7ZwBmYlugFw3n4OK6X5IG3SLzA5pK6L/AhMWcmjBpnLMyNHl1HLbNBjTIvPytPLYGHwxDg1xOx10yknnHbDfEecZctaK4oITFmrwAj9UGmOk0UpTlded5faNDjjrnCNOOVnWmaZ8Phnsoj55iLMTYI5VkSQitfvQ5BHvMwAAAA==");
 
 export default TruckMoving;

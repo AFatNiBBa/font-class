@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vials` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vials?s=regular vials}
  * @preview ![vials](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/vials.svg)
  */
-const Vials: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 56C0 42.7 10.7 32 24 32l32 0 112 0 32 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-8 0 0 320c0 44.2-35.8 80-80 80s-80-35.8-80-80L32 80l-8 0C10.7 80 0 69.3 0 56zM80 80l0 176 64 0 0-176L80 80zM288 56c0-13.3 10.7-24 24-24l32 0 112 0 32 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-8 0 0 320c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-320-8 0c-13.3 0-24-10.7-24-24zm80 24l0 176 64 0 0-176-64 0z" />
-    </Icon>
-);
+const Vials = createIcon("vials", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABaAAAAHjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBWAsGAAE2AiQDCAQgBYMtBywb1ATIngU5GTUvQZF5rJb1rKxcMFl80BcRFPv99u4JIp75CUtfoBHFQtJISjQLlVQ1VIZKhvr858e9536I71tjFt3WGBdZncjGlLdmfqiF3AG64O+mTj3PeSiAbxS0sWlpfA2gOc8jsIFz8XgiUitYhQtWAat10w+V5HNbkhedJHv8sHZBGc80VOQLB3iobxq/zNZJVQGAGAcAB5dNNfiI74jf5sSbKhAQB4B1hAIFlhFo4wos41kHpVLwTdPE/8B1CCBq4KkEJWocgQsAJUhlybMOBHWIL+e15i9Vwj0ISIeOzLteSXDoMHiavQufO7ghoWNLCzIURJI2/pj7VXX+t2GU7ZmG9Z2GGX1Dv310caVSjVzQPpHjmbq5C+y978L+15zeBwgEc3MF/321//qHOIAf/28/I00pX0G/BEHRalq6EyQBAMhY5U4IpEM8eNVhjwKEQQRItUEBCktUCJQGbSJQWZVDoDboFFeUYoRpPQOkYfegsGcNlKZdg0rbp16bjsKpCJcgvnSxpRYqmWKpeJIVsWWgk36ClWEx2xaCq6kQklOMmjNr2YhhE5YNsqjGWjGjlMElPohJiUtiirDj+Pm41YhFSybMmdUxxdh9JWiV14dE5gDqFj6fwJ/81buB6SUAAAA=");
 
 export default Vials;

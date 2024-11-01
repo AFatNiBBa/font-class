@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `photo-film-music` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/photo-film-music?s=duotone photo-film-music}
  * @preview ![photo-film-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/photo-film-music.svg)
  */
-const PhotoFilmMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 160L0 384c0 35.3 28.7 64 64 64l225.9 0c4.4-18.2 15.9-33.1 29.6-43.4c6.8-5.1 14.5-9.4 22.6-12.6L192 392c-17.7 0-32-14.3-32-32l0-264L64 96C28.7 96 0 124.7 0 160zm56 8c0-8.8 7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16zm0 96c0-8.8 7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16zm0 96c0-8.8 7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16zM289.6 247c2.7 5.5 8.3 9 14.4 9l64 0 0-7.9c0-24.1 15.4-45.5 38.3-53.1l93.1-31-37.8-60.5c-2.9-4.7-8.1-7.5-13.6-7.5s-10.6 2.8-13.6 7.5L388 177.9l-15.3-19.7c-3-3.9-7.7-6.2-12.6-6.2s-9.6 2.3-12.6 6.2l-56 72c-3.8 4.8-4.4 11.4-1.7 16.9zM320 464c0 26.5 28.7 48 64 48s64-21.5 64-48l0-150.7 144-48 0 88.2c-5.1-1-10.5-1.5-16-1.5c-35.3 0-64 21.5-64 48s28.7 48 64 48s64-21.5 64-48c0-1.5-.1-3-.3-4.4c.2-1.2 .3-2.4 .3-3.6l0-160 0-48c0-7.7-3.7-15-10-19.5s-14.3-5.7-21.6-3.3l-192 64c-9.8 3.3-16.4 12.4-16.4 22.8l0 48 0 121.5c-5.1-1-10.5-1.5-16-1.5c-35.3 0-64 21.5-64 48z" />
-        <path d="M192 64c0-35.3 28.7-64 64-64L576 0c35.3 0 64 28.7 64 64l0 69.6c-12.9-6.1-27.9-7.1-41.7-2.5l-98.9 33-37.8-60.5c-2.9-4.7-8.1-7.5-13.6-7.5s-10.6 2.8-13.6 7.5L388 177.9l-15.3-19.7c-3-3.9-7.7-6.2-12.6-6.2s-9.6 2.3-12.6 6.2l-56 72c-3.8 4.8-4.4 11.4-1.7 16.9s8.3 9 14.4 9l64 0 0 64-112 0c-35.3 0-64-28.7-64-64l0-192zM320 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const PhotoFilmMusic = createIcon("photo-film-music", true, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAAB2gAAALAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHyEKgsIAAE2AiQDCgQgBYMtB1wbWAbIBp7/r7Pu+7+Sk6400nI1zPGKRjKQVuOdz36WIPLHveN/AU2g7nEB5qGMOXX6GPM8zReOOajzzwEVgTVsG7TR9amxvAJDpekl2EBtV/eB9cEOeUMkS0DhoyECcQFo09C9cyduPpSHSu57L4HcpyMgANIIgIUAGtBADAJANRrpYw0srIHxN5CHyuuFh+L1WiAAIHbgJ2oA7IAJfAIRAMAAQKGwG0ZhcIzL5YqvcNr8jG5Om9l7Z5bIyTQ/OZxxPBI5ktxFGsVtrgrpIlHlJVtCtzqdgphyJPNElHRdGCaz2C0seH51uEc0wvaM4ylO2ZnmCTdlVZhbtJhyKP1YRMuAwilbQ5EtIfW4wwQi7P5QeyILwz1p3b8xvOv2FJHDKUfTjkaLLCLYDyUfiphhM/lCiRExLgxzb9VFsIpi4gnXiXcJ94fd58Z8MxAC99WzLzDQbKWi2yCLDrTx8WmT044ntDgcJWVt6F5ebtZTz4Qt3jfnx/uvgBX+eRTTYz2M+OaK/77HzO7nueSGmBwM2B063f+hi4f+LspSBvSVrya81bGDoDO7bX3iPnNe7AMdCzH79sXEag/r8+jJREeHPsVmAhXt3Ec+vm73hRt1PCOfWcvvA4AAAs9qHv3uH1D9zeFUADy+/OFL+Trem2qBOgE4UAAI6GxvNn3UAgBGLgDgUDKNxLmfvAkIoDmEUJJ8cSMewYQWFHZM0ETjAgOTLLARRwlz5+zOaMTwQQihLwSFLxNBU8pcMAjhItio5pbTToho6c+WvOyfzwStfUxLI6sgN9+qtBajao6MZrrVVdZuRfo0npUBVzKM8YxjCkMZwkim9IiT6OSZylha16hbvmtRQC75WFRinU48FnTrOScxmZHzvPO1VGHdb0ln2nrhDKhWRDQLmaDRIEp0hMkT5pgfUY7hkOTopfxRkzyDAwAA");
 
 export default PhotoFilmMusic;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `minimize` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/minimize?s=light minimize}
  * @preview ![minimize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/minimize.svg)
  */
-const Minimize: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M507.3 27.3l-108 108 47.1 47.1c6 6 8.4 14.6 6.3 22.8l-.2 .6c-2.7 10.7-12.3 18.2-23.3 18.2L312 224c-13.3 0-24-10.7-24-24l0-117.3c0-11 7.5-20.6 18.2-23.3l.6-.2c8.2-2 16.8 .4 22.8 6.3l47.1 47.1 108-108c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6zM4.7 27.3c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0l108 108 47.1-47.1c6-6 14.6-8.4 22.8-6.3l.6 .2C216.5 62.1 224 71.7 224 82.7L224 200c0 13.3-10.7 24-24 24L82.7 224c-11 0-20.6-7.5-23.3-18.2l-.2-.6c-2-8.2 .4-16.8 6.3-22.8l47.1-47.1L4.7 27.3zm502.6 480c-6.2 6.2-16.4 6.2-22.6 0l-108-108-47.1 47.1c-6 6-14.6 8.4-22.8 6.3l-.6-.2c-10.7-2.7-18.2-12.3-18.2-23.3L288 312c0-13.3 10.7-24 24-24l117.3 0c11 0 20.6 7.5 23.3 18.2l.2 .6c2 8.2-.4 16.8-6.3 22.8l-47.1 47.1 108 108c6.2 6.2 6.2 16.4 0 22.6zM4.7 484.7l108-108L65.6 329.6c-6-6-8.4-14.6-6.3-22.8l.2-.6C62.1 295.5 71.7 288 82.7 288L200 288c13.3 0 24 10.7 24 24l0 117.3c0 11-7.5 20.6-18.2 23.3l-.6 .2c-8.2 2-16.8-.4-22.8-6.3l-47.1-47.1-108 108c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6zM410.7 192L320 101.3l0 90.7 90.7 0zM192 101.3L101.3 192l90.7 0 0-90.7zM410.7 320L320 320l0 90.7L410.7 320zM192 410.7l0-90.7-90.7 0L192 410.7z" />
-    </Icon>
-);
+const Minimize = createIcon("minimize", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABngAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDFgsGAAE2AiQDCAQgBYMtBy8blQXInoexY2JIVpImnJ1rXjw8b1f9ua9qVD1L18rqXlBfmSMxglPAQQRG3xncycxSUO7vtbv/P5fT5qB8G4Xyb1a0l7X1XrSnwJjgUb62QBZmiWKD7iImJL/Q8bWFPF6JNZDuT3Br9qHxkx6uJ8kzANEeAPNrG1d785v4JuLT+nPEp1YiIBaAUiBDht4CzJIJ9JYrkcsF30S9Tv8DSwKIRuCFCeQo8BDeAOQgac7zsm+/sgkcXWlok1crDcXhTbVNs+Puzp3jvkFFPN4z4sGhlbi3S91Qs6HN1XpPt9i9OeYW0l3isR6GgA11SvXgXV2rMSuoses0tB+mQB0yoNF9tU21OaOM3VrRmTAS6oZNFNqoh6ubq6JS3TSGWonYXFQKoUIhCn/9gKfbP/1Lf4f4+9Hj4Mhf3T+Kee0vWt/lomgIb9/P8eOeeuqBB373gYE2GCB/mzx4Xdbz2q9jjhrqt6+7+Lf8P5sHHvityxaS+3rvHrQNjGy3/bNtyvzZdqAXQ53I7gcCwff11rt3t5v1W3Mlge9e/ptzYn1dKj2NZgkE2aj6diQ9tH3FLkfikgHmNwkk92sG3rXVPQKEAgGSRoUAmV7aC5ArjBSgQV+TBWhU2CgTeYvQ2U6tSVqd1WSmuE6T6+wZTYNZPog16hzZM4s/cfgfY4YlZebiVeX4MePKGWVnliQeQzTunlmONg+75FcNNzc65LRTLjjogKMulGTnrE5edNKSPuliP1Qab4xxSjOUswvXDVXbfc55H20n5s9gptL6/mEu9TcebtoSoHWCjCQRqfkjh9By9UE=");
 
 export default Minimize;

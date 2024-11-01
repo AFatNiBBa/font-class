@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `handshake-simple-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake-simple-slash?s=sharp-regular handshake-simple-slash}
  * @preview ![handshake-simple-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/handshake-simple-slash.svg)
  */
-const HandshakeSimpleSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48.4 14.8L29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7L503.3 368l80.7 0 24 0 0-48-24 0-128 0-14.5 0L341.1 242.1l35.1-32.4 17.6-16.3-32.6-35.3-17.6 16.3-41 37.9-39.3-30.5L337.5 112l77.4 0 65.2 57.9 6.8 6.1 9.1 0 88 0 24 0 0-48-24 0-78.9 0L439.9 70.1 433.1 64 424 64l-96 0-9.5 0-6.9 6.5L225 151.9l-31.8-24.7L209.5 112l15.3 0 48-48L200 64l-9.5 0-6.9 6.5-28.7 27L48.4 14.8zm336 384.1l-38-29.9-37 37-21-21-17-17-17 17-23.3 23.3-21.3-21.3-17-17-7-7-52-52-7-7-9.9 0L56 304l-24 0 0 48 24 0 51 0 45 45 7 7 17 17 38.2 38.2 17 17 17-17 23.3-23.3 21 21 17 17 17-17 58-58zM101.5 176L40.6 128 32 128l0 48 24 0 45.5 0z" />
-    </Icon>
-);
+const HandshakeSimpleSlash = createIcon("handshake-simple-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABigAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCYQsGAAE2AiQDCAQgBYMtBz0bbgXIHoexM/pI1jRswkNd4+H/56ru+0n1mUoNQwaZGobIMS+rFRaQhO2zFi1QM6tyeGcMuBPT3eenTj3PeSiAzyEIyp42FiadOMY6r0BFa2NTrtjzWrFWUezZtldBREO8EQpnyONvj1RILyR4WH9o/KybaySVDEC0DQBzN69f6aPmaI749v/XiW8tR0DMBaVAhgw9BZghE+gpVyKXC5rj///Ff2BJAFEneV0COSp4jBcBOUiyPF85vlqrtMo31SrF9kEDB42IgU7S7KMNsilqtYii2BTTDTfLADNMszlqsTE6rQudaXlHG2KYwU6aPaoYYtPBaVOnzVgQhhlpSO10tu6g4FrJTJ0MVeJCGC6kofW+6/etWrmqCFHr17b92lc9o18alVR/bpQZ7xrFPuXsNmu7jtH1wYGVRmsraeO685YttNKcqQ6qntiSV/v9m+ptWuMPrbXxv6XVet84tG71xZ20doEFoL6uqDdevWLjtf3Hf6ceG8E5C8AL3f9jYlTtZQcCQfOind/dZsZa1BL46Z3ff6eP+/+jdCmFFhIIshEfYUe6BAIdQJrinH47XxRIbssk79rSswKEAgGSOoUAmR7aCpArDBegoreJAtQprJeJvCp0tLMHSUsnQWaS8yDX0augYoYvkzodIwNMGqzo/8KERWNo4bZy7Kgx5bRys61lYI2069PL08aQc3JsKN6h3nHHnHHQAU01PkJOWZk/66hFe/BCP1Qaa5QxStOUt3vPhU00OeW0pnXu/ibTle97Q5zbnz0U20mCOU5NkojU+cvBC/fwwZHQjcv4yN7TjQAA");
 
 export default HandshakeSimpleSlash;

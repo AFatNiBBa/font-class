@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transporter-4` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-4?s=sharp-thin transporter-4}
  * @preview ![transporter-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/transporter-4.svg)
  */
-const Transporter_4: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 0l8 0 48 0 8 0 0 16-8 0-48 0-8 0 0-16zM472 128l0 8 0 32 32 0 8 0 0 16-8 0-32 0 0 32 0 8-16 0 0-8 0-32-32 0-8 0 0-16 8 0 32 0 0-32 0-8 16 0zM56 352l0 8 0 32 32 0 8 0 0 16-8 0-32 0 0 32 0 8-16 0 0-8 0-32L8 408l-8 0 0-16 8 0 32 0 0-32 0-8 16 0zm40 96l8 0 304 0 8 0 0 8 0 48 0 8-16 0 0-8 0-40-288 0 0 40 0 8-16 0 0-8 0-48 0-8zm72-64l176 0 8 0 0 16-8 0-176 0-8 0 0-16 8 0zm-8-64l8 0 176 0 8 0 0 16-8 0-176 0-8 0 0-16zm-56-64l304 0 8 0 0 16-8 0-304 0-8 0 0-16 8 0zm24-64l8 0 240 0 8 0 0 16-8 0-240 0-8 0 0-16zm72-64l112 0 8 0 0 16-8 0-112 0-8 0 0-16 8 0zm24-64l64 0 8 0 0 16-8 0-64 0-8 0 0-16 8 0z" />
-    </Icon>
-);
+const Transporter_4 = createIcon("transporter-4", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABjwAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyDHQsGAAE2AiQDCAQgBYMtBzQboQXIhof/X6u871fNnGpaxFoApCSeQMUBgWNhohZsSJHr/7mcXm0bG+RbUziUG9Maaz7P9rYEwkDaujjxwBIKPAHL2hw36KBggkPE93z6PhIO0w/t3SCPrxzUQno5/Yony5vG77p7giTLAEQ7AMzbsmGV7x/Eg4hfmp8Qv1iBgJgHSoEMGXoJMFMm0EuuRC4XPIhmM/4HlgQQreorE8hRx7v4DJCDpJrnlX79etcqAUW8pZFvPq5Xd9SqNVGtxiZB1G4OkfUREY5qSEcExto71G+qVRs1z7118saWHdGo9U9V6xv1hqjWJTKB32AsJJj5r32z3Zt/9vv18K/uf1cUc9spprb7705RFKWyaKcoS4V2CnytV+6r0iF7MnMLY/vIUI+hZDVWsWTO++9/jrfUnaL4PqXujB07dTcheez/t5tSnD17lX9VMXfuUrwZAvHcb5fPPren7cx/iloCj778+3fnr6j5fZLeRCGBIBvZHGlnAokAAKS4rH+CQPKqqnK17gUBQhVkKGlVBZme2kGuagS06GMSbty/QSbyitDJLkBSdw4yk92CXCcfQYuZfii26hSZ25JOR/41xi3mgkXbynGjx5bTy2HNRXkinmdnlGbH0MuiZxjOOuyM0y465KBjLjLNeasql5yyWJMt8kGlcUYbqzRdudxccptZ8bwLjvWZ9U1mKN+PDHVZHz4M7qTaHG9HkojU+NIEz4+aCA==");
 
 export default Transporter_4;

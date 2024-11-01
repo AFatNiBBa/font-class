@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bells` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bells?s=sharp-solid bells}
  * @preview ![bells](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bells.svg)
  */
-const Bells: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M293.1 41.2c-71.1 42-104.5 130-75.2 210.4l35.3 97.1-11.3 44.4L0 305l12.9-35.6 67.2-48 36.4-100c25.7-70.5 103.6-106.8 174-81.2c.9 .3 1.7 .6 2.5 1zM97.5 374.6l117.9 42.9c-11.3 18.3-31.5 30.4-54.5 30.4c-35.4 0-64.1-28.7-64.1-64c0-3.2 .2-6.3 .7-9.3zm181.3 94.5l-13.7-37.6L286.7 347 248 240.6c-27-74.2 11.2-156.2 85.4-183.2s156.3 11.3 183.3 85.5l38.7 106.4 70.9 50.9L640 337.7 278.8 469.1zm150-16.3L545 410.6c.1 1.8 .2 3.6 .2 5.4c0 35.4-28.7 64-64.1 64c-21.6 0-40.8-10.7-52.4-27.1z" />
-    </Icon>
-);
+const Bells = createIcon("bells", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbQAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBbAsGAAE2AiQDCAQgBYMtBywb6ATIhqB+7aus1/3/AlDPLDM4IE/gVjEqoCN55yfOEiic/5s973kU4OcIQlnDlgayQKI5nycQYJq3KVueHZ6dKN7uNMeI0j5JS7OWHN9yfEbI4+/slBLpavoGp9uHxg9aOEVSIwMQ9QEwdvH8md5URVXE1/8/I742HQExFhQCGTK0FmCETKC1XIFcLqiK///H/8CCAKKMDk4gRxnzsAWQgyTP8xa1m9WtVaqTLyrDNTd/0yfiYd+F0ToWRbtYnHc9mf711Iu1lixctPDmgOvdbsfxWNi2TdvFsSge95eFL414fLZNrFm8eMHi43HMsS43OzzvVnm7/u2fKr7Z9I0Ol+ZMZerMyjXu+G2x98b11mG9CeXyWvFu5oFuoa9V32sNKlqV8mcrv6VdTRbotFXX/fsOnRvceUvHrSb1850tJy7W298VTiVlrSoaXKvfAggEO2ec+m91vRF/Va+VwPevf/lJ3/x/VTqWbqO6BIKsx/89rEjHANEBGCkOqVS+KJBMk6O31nZJgFATAZKymgJkWqkvQK6m7gKUtDVQgLKa5stEXkNobOUESW17QWaQwyDX2BNQMsJnvaxxZO5FOwf9uUuYxKGJXUXfXn2KYcXWMRiPIWtzeGGWuhxKia4waJPddjlgow22OsCQfWZaB+00SYMn+qFCX730URimOPZfhUVM32e/rTJ33ma44r7WxSE9vyuoCWH2Y0sSkUqPS9wPAAA=");
 
 export default Bells;

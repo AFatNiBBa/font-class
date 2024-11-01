@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-board` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-board?s=thin chess-board}
  * @preview ![chess-board](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chess-board.svg)
  */
-const ChessBoard: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm80-8l48 0 64 0 64 0 64 0 48 0c13.3 0 24 10.7 24 24l0 48 0 64 0 64 0 64 0 48c0 13.3-10.7 24-24 24l-48 0-64 0-64 0-64 0-48 0c-13.3 0-24-10.7-24-24l0-48 0-64 0-64 0-64 0-48c0-13.3 10.7-24 24-24zm-8 24l0 40 48 0 0-48-40 0c-4.4 0-8 3.6-8 8zm64 40l48 0 0-48-48 0 0 48zm64 0l48 0 0-48-48 0 0 48zm64 0l48 0 0-48-48 0 0 48zm64 0l48 0 0-40c0-4.4-3.6-8-8-8l-40 0 0 48zm0 16l0 48 48 0 0-48-48 0zm0 64l0 48 48 0 0-48-48 0zm0 64l0 48 48 0 0-48-48 0zm0 64l0 48 40 0c4.4 0 8-3.6 8-8l0-40-48 0zm-16 0l-48 0 0 48 48 0 0-48zm-64 0l-48 0 0 48 48 0 0-48zm-64 0l-48 0 0 48 48 0 0-48zm-64 0l-48 0 0 40c0 4.4 3.6 8 8 8l40 0 0-48zm0-16l0-48-48 0 0 48 48 0zm0-64l0-48-48 0 0 48 48 0zm0-64l0-48-48 0 0 48 48 0zm16 0l48 0 0-48-48 0 0 48zm64 0l48 0 0-48-48 0 0 48zm64 0l48 0 0-48-48 0 0 48zm0 16l0 48 48 0 0-48-48 0zm0 64l0 48 48 0 0-48-48 0zm-16 0l-48 0 0 48 48 0 0-48zm-64 0l-48 0 0 48 48 0 0-48zm0-16l0-48-48 0 0 48 48 0zm16 0l48 0 0-48-48 0 0 48z" />
-    </Icon>
-);
+const ChessBoard = createIcon("chess-board", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAAB5wAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVyFXwsGAAE2AiQDCAQgBYMtBzIb4QbIHgm2zYb1gxtd4XiJEsbD83NfnvuSoZdlyI7a5Swyq7p6IJR1VePKsq5smf5yw5FEYcemjh+UXGQt8vvENc/f3h+wLIrfX/DFomyl8wzuxAns5qNRJj3YbDZrUd/itqum4xIaC4UDlPEUnNJGeiJ+hPvCg8Y3hruXpCgARD8ALN+7c7OeL8OXER+1EB/ZiIBYAWqBAgVGCbBIITBKqUapFHwZrZb4D6wJINolMFlXYgyxjtjM+FeSUWU5YkR3r66urirqyVO19S732Nvmgy9jxMMlxRP0SOsdr8ljtYgn+dHea9NTJ+Kt0TteWW9oisfn694rXt1vWrG3yr1fUaE4j3vOr1pE9FNjmFDVlBwP4+YqV/2oWMqjnIPdeeHIxyQi54ztQuZV2R8haYvAIjlEldf7OUTul3LcYan7zfzmH/fRmY8sve99ysfFMsXHn75lmk/byFbuT//nJeb5/v3zMjqesLWjaertgxvL8giNwdubH/u2u+OT2dRR4x1r/6PBJl57WTWm8dqPjdf02wEeay/hPYVPFz7SsXUgEDz0yfMd7bvot1Ql8PU7/12u1/oyetKbQKcEgmJy6zoUPSDwAfhT3NG98kKBFMuMku61l0cFCBkBknZZgMJI/QQoZZMEaDPGbAHaZTsVouwSBjncwkkv1+HCHPfApUHehtss8q6v3aAo4EqBCuW3NnNNH1g9rJ4+takX1ItptQoqkm1fWO+2j78jyybgqc646opbTjvlvFs96IbNwdsuW7PGX/3c2nRTNWoL1Kdzj809Pd8NN52f188PslB9v3u8O+u1J2BXkgRnmJMkIlUnz52+eXPKZwc=");
 
 export default ChessBoard;

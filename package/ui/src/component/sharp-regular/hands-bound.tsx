@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-bound` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-bound?s=sharp-regular hands-bound}
  * @preview ![hands-bound](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hands-bound.svg)
  */
-const HandsBound: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 0L136 0 40 0 16 0l0 24 0 232 0 9.9 7 7 79 79L96 352l0 48 24 0 400 0 24 0 0-48-6.1 0 79-79 7-7 0-9.9 0-232 0-24L600 0 504 0 480 0l0 24 0 118.1-31-31-17-17-17 17-95 95-95-95-17-17-17 17-31 31L160 24l0-24zM344 249.9l88-88L458.1 188l-51 51-17 17L424 289.9l17-17 80-80 7-7 0-9.9 0-128 48 0 0 198.1L474.2 347.8l-4.2 4.2L344 352l0-8 0-94.1zM296 352l-126.1 0-12.2-12.2L64 246.1 64 48l48 0 0 128 0 9.9 7 7 80 80 17 17L249.9 256l-17-17-51-51L208 161.9l88 88 0 94.1 0 8zM96 424l0 48 24 0 8 0 0 16 0 24 48 0 0-24 0-16 120 0 0 16 0 24 48 0 0-24 0-16 120 0 0 16 0 24 48 0 0-24 0-16 8 0 24 0 0-48-24 0-400 0-24 0z" />
-    </Icon>
-);
+const HandsBound = createIcon("hands-bound", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjgAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniDMQsGAAE2AiQDCAQgBYMtBzIbswXIHoex22RJF81QPgon8fC9zrdzn2SP8xRwWGEFERcYWoJqWwCsuGn+bLXcERQMc4W8T1xTP86f/jyNHqVilOFV1H0+gRdbphXwZsPZRCdksy3n/fANEklDEvYUaTw/jPLD0gHK+Dse1iI9k+IhfdP40TD3k7QKANEFwNrD+3f6rCd6Ir75/23iG9sREGtBI1CgwEgBVigERio1KJWCnvj///of2BBAtMlzJVCijXfwFaAESVmWy8ePn1m1+pSHqlY+nqsshBgcByOHqPpE5DgcQ4MM2VOncXBKHIhDygCI+IOHDxyeGnsu/pUxPeysQsQ1KHJJP5CrPCQOPQnjmTi2OqbFPsbWCAeEqhKi6q0M9nhIHvdC94WfvbBnP63rh2vfyS60a5e2Oern5mjzjhfKvlOrb67d6Bdw6tTuxJZ0o/rdPw/LTZ4xDv2xe7cLZXeb43MXXGC+O3Wcmn3BnTTjQydP+twcd8sujP0C9Mc4zzh82CmdLzabM6fudNXmqHXdzIydWq8HAsGERx6883S/Fb92qgS+/WC6vPv/Z+nq9AI6EgiKGf/PcCLdravr6AqQYIobjcMHBZJXlPCqvT0pQMgIkLRlAQojdAUoZdMFaBltoQBt2X6FKHsJg5w0KuntGqqwyB1UaZA3qZYVvgi0DYoigYX0E/4fUze18Ea9Zu6sOc2y5rXoFHOS4+HlzWfjlBuXpqmY6kJXudL1LnC+S1zfoNfaGb7BFTZ5yEZf1JhrljkayzTdle/jD7nAta5ziatcuY6yXDPeO8WNfuepsCRCO09GkohUzTDDzCkE");
 
 export default HandsBound;

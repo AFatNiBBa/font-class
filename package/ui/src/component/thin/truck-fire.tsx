@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-fire` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-fire?s=thin truck-fire}
  * @preview ![truck-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/truck-fire.svg)
  */
-const TruckFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8l72 0 0 80L48 96C21.5 96 0 117.5 0 144L0 368c0 26.5 21.5 48 48 48l16.4 0c-.2 2.6-.4 5.3-.4 8c0 48.6 39.4 88 88 88s88-39.4 88-88c0-2.7-.1-5.4-.4-8l160.7 0c-.2 2.6-.4 5.3-.4 8c0 48.6 39.4 88 88 88s88-39.4 88-88c0-2.7-.1-5.4-.4-8l16.4 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48l-32 0 0-8c0-22.1-17.9-40-40-40s-40 17.9-40 40l0 8-96 0 0-80 248 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L8 0zM368 16l0 80-80 0 0-80 80 0zm-96 0l0 80-80 0 0-80 80 0zm-96 0l0 80L96 96l0-80 80 0zM544 96l-48 0 0-8c0-13.3 10.7-24 24-24s24 10.7 24 24l0 8zm0 16l16 0 32 0c17.7 0 32 14.3 32 32l0 224c0 17.7-14.3 32-32 32l-19.3 0c-10.4-36.9-44.4-64-84.7-64s-74.2 27.1-84.7 64l-166.6 0c-10.4-36.9-44.4-64-84.7-64s-74.2 27.1-84.7 64L48 400c-17.7 0-32-14.3-32-32l0-96 384 0c17.7 0 32-14.3 32-32l0-128 48 0 16 0 48 0zm-128 0l0 128c0 8.8-7.2 16-16 16L16 256l0-112c0-17.7 14.3-32 32-32l368 0zm152 48c4.4 0 8 3.6 8 8l0 80c0 4.4-3.6 8-8 8l-80 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8l80 0zm-80-16c-13.3 0-24 10.7-24 24l0 80c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24l-80 0zM152 352a72 72 0 1 1 0 144 72 72 0 1 1 0-144zm264 72a72 72 0 1 1 144 0 72 72 0 1 1 -144 0z" />
-    </Icon>
-);
+const TruckFire = createIcon("truck-fire", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAAB1wAAALtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRyEQwsGAAE2AiQDCAQgBYMtBzEbRAbIjpQuI1bB831e37kvaSUfygfzIQ/RPWLG3E1VRvBS3oGLjbpmy5UweG6zaNAxbYQDzwdWWU9cUz/sfR5pfT4fSmRbBUWkwM4HHEUVNN35BrSBTHQiusttU/mG+/VBKByBLr+ZigfUQfUc2B4WywdSWAMKTQMIEgM8J11HDh3Iw7CERZ7/vwbynP6AAEg3AGwE0AANSEcAaENDgHR0bEBHRyAs//+7/0AbBADEC0YUm3QgEgQQA7rJoDB1fUQA/0CzNjomJjLS9ETqI0yPMXZPQrSoIIacSQjJQA5aMZ+Ky9Hiuf4uXbO8NKaeT8ppUA4lpgIimcbYtAmAR6hM2Z+UEsUkOby9kWsmGZpa5HBhnwIwv7LZiiBuQjAMOVSyFHRFU7JYtCkxiUikbE7Ke1j3JDApWdlCm5HD91qc5iQi+xKh7E+iI848nitk5x/HEY91rpXvZVvdVXFUno3ueOvf/Ga0TU/Ll2kuxSyfsp9Pf47vgeP1On0IYlP1+oUWRnvxuioGHcg3bOjSZcMGvfVEozlmyV42frh0OVZfvh2LcAjyg6O8C2dEB0EKb+/klgWDq4DKjxUKWf6YxKqoDRuiwoRl8WwOOeGwE9p8rpDHD9odXOdzqeriAmep3WWhnrdwf6X1BvE6QeicwdEhK4gVCoKyBr9yu9XWdnMFk6+3P6+2Ns9/PwAIILD3dbE1Mbrtq99UALy//eUXvp3/D5WrLgF+FAACWtn/MsYpFwBTCgAElSwnZ+KDBFD8wAReNYJ9CACCAQgACi8GAoBGGjEIADoGpQgAHjKpRwDwYjAUDdEDCAmMrwiKCBYRNBpYQdBJ4ArBQxuPAl4SRPsSBOlY8COatFcT7jnOrq6oslvs0aJCmLh5drjVXqwtWi6bivFaprOA+SxlGlOZxdIGajEDw8uYR68p1p7vtammgipsWrA3V+5KR9DgYpYwa1i4fRRasY93FrF8unMxNiiAbQ0ZCgWijE9dVv5aAQA=");
 
 export default TruckFire;

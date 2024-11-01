@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-check` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-check?s=duotone location-check}
  * @preview ![location-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/location-check.svg)
  */
-const LocationCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 192c0 87.4 117 243 168.3 307.2c6.1 7.7 14.9 11.5 23.7 11.5s17.6-3.8 23.7-11.5C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192zm88 0c0-6.1 2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0c12.1 12.1 24.2 24.2 36.4 36.4c29.9-29.9 59.8-59.8 89.7-89.7c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7s7 10.8 7 17s-2.3 12.3-7 17c-35.6 35.6-71.1 71.1-106.7 106.7c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7L95 209c-4.7-4.7-7-10.8-7-17z" />
-        <path d="M289 121.7c9.4 9.4 9.4 24.6 0 33.9L182.3 262.3c-9.4 9.4-24.6 9.4-33.9 0L95 209c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l36.4 36.4L255 121.7c9.4-9.4 24.6-9.4 33.9 0z" />
-    </Icon>
-);
+const LocationCheck = createIcon("location-check", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgAAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBaAsIAAE2AiQDCgQgBYMtB1gbEgXIhocPu74/t7tnal/PGr0wIwmR+WFEIKNXP5Timf7enf/zvwEff9e5z6eNVSB7nCfQeSDZ2NQTSSjMEPPd1jPGXBCnVUS+iBiKvAvxrpDFofSUEsltySe4av8DGL9q5RSJmhRANATAxEXzZnijNmqT+KT6IvGJ6QiISaAQSJGirQBjpAJtZQpkMkFtUq1SG9VqQQBRZrBTUEYJC7AakIFESLKsSbt2lVK9bKEdkW+6reX8eLDb3Li9zSNdx8aiECjpXQMjnpsY8WbfmyoXWzwz+e3BL3T4bu5XC7+Z/cX8yvEWj3S9qZklr4+/pXIxQHCs6Rezb8wvNJ8bN0enxxs+/nvHTzZ+opj6xRdbt6hXbwphORliyRLyDG1/4peNbLr3jvr177h308ZffmobcxYsmOOwWLCgaXG+sV69cyn6+JONeWFjXLNpynzFDk7xPhAIbrj3Wr6qwZj/61QS8PNLf/6rr6u+GceSx1FHAoK0T7WP5XEMiBnA7ydxUKc4Zg4CqVES4E+t62YBQo4AibJcgFQbDQXI5HoLUNLeUAHKcvOkIqsRmlpRQKKuPSA1zGGQaeoFUDLG+1lZ00jRJWJD/LdLm1YjU3cVA/sNKEYV044sAYb3m6OLba/HQZ3oSQdttMtO+22w3hb7K3qvGeUBO0xboVN9UWGgfgYojFIc92+1hZzttc+WsXK+zWjFfb+Hg+v5PWk/CWDQu7SkRBJpc1wafYFq9UXqrJY95asE");
 
 export default LocationCheck;

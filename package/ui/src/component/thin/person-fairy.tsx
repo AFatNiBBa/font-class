@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-fairy` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-fairy?s=thin person-fairy}
  * @preview ![person-fairy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-fairy.svg)
  */
-const PersonFairy: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 112a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM320 0a64 64 0 1 1 0 128A64 64 0 1 1 320 0zM297.6 176c-33.3 0-61 25.5-63.8 58.7L229.7 284c-2.3 28 19.8 52 47.8 52l26.4 0 32 0 26.4 0c28.1 0 50.2-24 47.8-52l-4.1-49.3c-2.8-33.2-30.5-58.7-63.8-58.7l-44.8 0zM312 352l0 128c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-135.2c-22.1-11.5-36.4-35.4-34.2-62.1l4.1-49.3c3.5-41.5 38.1-73.4 79.7-73.4l44.8 0c41.6 0 76.3 31.9 79.7 73.4l4.1 49.3c2.2 26.7-12.2 50.6-34.2 62.1L392 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-128-16 0zm64 128l0-129.4c-4.4 .9-8.9 1.4-13.6 1.4L344 352l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16zM296 352l-18.4 0c-4.7 0-9.2-.5-13.6-1.4L264 480c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128zM112 464c38.3 0 74-11.2 104-30.6l0 18.7C185.4 469.9 149.9 480 112 480l-16 0c-17.7 0-32-14.3-32-32c0-45.7 14.7-88 39.7-122.3C40.6 275.9 0 198.7 0 112L0 64C0 46.3 14.3 32 32 32c89.4 0 169.4 40.8 222.2 104.7c-5.1 2.1-10 4.6-14.6 7.5C189.7 85.4 115.2 48 32 48c-8.8 0-16 7.2-16 16l0 48c0 81.6 38.1 154.2 97.6 201.2l6 4.8c3.4 2.7 4 7.5 1.5 11l-4.5 6.2C93.6 366.8 80 405.8 80 448c0 8.8 7.2 16 16 16l16 0zm312-11.8l0-18.7c30 19.4 65.7 30.6 104 30.6l16 0c8.8 0 16-7.2 16-16c0-42.2-13.6-81.2-36.7-112.9l-4.5-6.2c-2.5-3.5-1.9-8.3 1.5-11l6-4.8C585.9 266.2 624 193.6 624 112l0-48c0-8.8-7.2-16-16-16c-83.2 0-157.7 37.4-207.6 96.2c-4.7-2.8-9.5-5.3-14.6-7.5C438.6 72.8 518.6 32 608 32c17.7 0 32 14.3 32 32l0 48c0 86.7-40.6 163.9-103.7 213.7C561.3 360 576 402.3 576 448c0 17.7-14.3 32-32 32l-16 0c-37.9 0-73.4-10.1-104-27.8z" />
-    </Icon>
-);
+const PersonFairy = createIcon("person-fairy", false, "data:font/woff2;base64,d09GMgABAAAAAAOUAAoAAAAAB2gAAANJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiELgsGAAE2AiQDCAQgBYMtBzMbMQZRlO7Ff7IfCaabe6Q4VnjqpQ+tJGEoXeE4Iq6jL+E/8Tw2dO/fXdeIn/FV1d1CmKoWkAhFcCA8RhAsFg88z7+XnTtQaqTym66ldAH5C/CC2wZXVdv568Q1zx/4AStA3x8laptl4xoj8nwCA4y2aKD5g24KA/cNzpt0UF0h/Qotv7XGivKCXgTcbFR+0Y1MFOaKC8kcdMulXq0qHH2apyIX/+8iX3xBQK6ADYEKFRYE2DMTWLDQobEQfMv//4j+A3UEkC7udQVoMIQ/pEFTGfoljmbx9AzL8vLMm1+zelrqalZXuzXmAmN+slKbq8+LZVe+Lls77S7WlxuWtVdGIis1XebKs2JNW6POMWJlfrI6cdVBGAEzifHKbERkvxsnC8oNqSar8nV6jMyT5kYI4Me6BGGLXILc5TlqXZfWKhcZUvvMFvm4OeI4/d4pdXjY/hPJUeeQtyqcO8+UDn/OP2ZKyGu/bR8os6QAOarPkrVWgnzeNZmjLr8EyWw1WI6MO0KR2crJ19ndbOXE98J/gjwLpHxTbS18rM41rnTJ6YKx633Wv4252PYix2pLn+3Z82xpRO6uMqOjM9WTgVumRgOborBeflQ9rGD1R5etihTv6KkZXlsMN+I1dqyXvHsModNNZu1WH9J9aFU7043/EsMxhqE0A67YsBx3fnO7gAHz9KlXtWF+rtfePKe0wtjTbeojf14ZPpPzubf6uns1Z6UXlGL8hO4tWzVqUH7SUQrPEdNv1KZ0njwob6+nPvk0Pzf0cKoP3ShvlYc8paM3po/wVFvml2/QqFXL7hPGl2JLFJxX7/7aijLgPT4Yr4QBCATvry+9NfMu/BXTTICf/e9/Ja/zf9RkoOuBPhMQ1O3/SmOTAWDMAGIlfYkd+KJA8QaMmxibTbb0u1BAhY0LqsL5QI1LGtQRJY84cXMtzKQ5EQGaQMjEQw/ILK8hkEWAHZBVYWeiNgEx3//y3Sv/fWYsWwXKzNLdmUovqPdWZMotLerJQvpkc3Jf3pECD9KWbnSlN21oTQd6V8CeVEn0oQtlh9hlPqtzy6ToCtIX128a61aiPelFh25t+TSF6Nv7k/Ud7p8CbSYu505BYUKKx+tiyvioTQMAAA==");
 
 export default PersonFairy;

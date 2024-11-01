@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `globe-snow` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/globe-snow?s=thin globe-snow}
  * @preview ![globe-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/globe-snow.svg)
  */
-const GlobeSnow: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 224c0 55.9-22 106.6-57.9 144l21.5 0c32.7-38.9 52.4-89.2 52.4-144C448 100.3 347.7 0 224 0S0 100.3 0 224c0 54.8 19.7 105.1 52.4 144l21.5 0C38 330.6 16 279.9 16 224C16 109.1 109.1 16 224 16s208 93.1 208 208zM240 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm-10.3 66.3c-3.1-3.1-8.2-3.1-11.3 0l-72 72c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L216 187.3l0 41.4-77.7 77.7c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L216 251.3 216 368l16 0 0-116.7 66.3 66.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L232 228.7l0-41.4 58.3 58.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-72-72zM352 176a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM80 256a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM73.3 403.6L28.4 470.9c-2.9 4.3-4.4 9.4-4.4 14.7C24 500.2 35.8 512 50.4 512l347.2 0c14.6 0 26.4-11.8 26.4-26.4c0-5.2-1.5-10.3-4.4-14.7l-44.9-67.4c-1.5-2.2-4-3.6-6.7-3.6L80 400c-2.7 0-5.2 1.3-6.7 3.6zM84.3 416l279.4 0 42.5 63.8c1.1 1.7 1.8 3.7 1.8 5.8c0 5.8-4.7 10.4-10.4 10.4L50.4 496c-5.8 0-10.4-4.7-10.4-10.4c0-2.1 .6-4.1 1.8-5.8L84.3 416z" />
-    </Icon>
-);
+const GlobeSnow = createIcon("globe-snow", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABoAAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CCfgsGAAE2AiQDCAQgBYMtBzEbfwXIjsK2nTOKpJwfpDEGFRE1dHv/n1Bak6CqomtcNRql4ijGYjRGMNhqcfGft/s890N8K3K0iKAqLc0yUzQphYnL8Q//7aPiCEIZe+Aa4zyBAD/q8m1vAWWBpQlaU/NeHITQfH1pF2jZhjHUlFfFc0DP+dB8wW8NUNQKgEwCAC4fuA7clkkmev7/AuQdbSCQKwCbCBUVqwicUApWqWyCpgkf9L/P/gMZBEgX3sUFNAzhGfAGoM0/xUBTxejT9XqP3ag2q0Sj2jD6fbeR3kl7c8+2Pm283/w4+zT70GOkt+Injkvzi98I4ibvRs961wY3v9HF03r3Bi9HSA5IOSNEJFDp2+QRIdxjFKZLl1lGyKO8xK/HlgQzHQqunMa10WCitS632WSuwTTWu0zE+0pvXexR29EvMc/HPcepzyQs9CAYzvLmbnpYlsPpd99YiAt6sDACSUePShFKR48W3FouWywyqdXXcFxTEwqOZNFWpOq4LuprajGXzVxM6kpbsq5Aqq2FdKJzoXmZNHRbu7aIa9al1xqOQp135hDMXNAVlrWIawyqnWM+79W7YG+6FUOwQqey7wIgCBv/61YOt5Z/1RkVgM+rf7+kT/dv57biKGBQAaHu/U83JLcBmDgBP6lkHmJzGxAUPWh57zrqCQRiGAFF17CAaoUNgWbYLgId6woQ6Bp2QylNj5g1tBQVox5F1bGlombWOVHHiUeJrtkoj1PlUab8SkzXWIcaDrGczGxWygZ7ctWhJ9e7ZWy2LXken0mBZzDOdNPMMdYYE1NpjZqlIz3XVI1jSIMvYnJkysaUYquHt0+Lxppltommm2b3KcP2DyWbN748BToVPIn72opCiuHXCPaxGS8AAAA=");
 
 export default GlobeSnow;

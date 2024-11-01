@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-hangup` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-hangup?s=sharp-regular phone-hangup}
  * @preview ![phone-hangup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/phone-hangup.svg)
  */
-const PhoneHangup: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M416 272l0 96 160 32 64-160C602.7 192 486.4 96 320 96S37.3 192 0 240L64 400l160-32 0-96c62.3-20.8 129.7-20.8 192 0zM176 328.6L93.7 345.1 55.6 249.9C99.2 207.1 193.2 144 320 144s220.8 63.1 264.4 105.9l-38.1 95.2L464 328.6l0-56.6 0-34.6-32.8-10.9c-72.2-24.1-150.2-24.1-222.4 0L176 237.4l0 34.6 0 56.6z" />
-    </Icon>
-);
+const PhoneHangup = createIcon("phone-hangup", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABYgAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBVQsGAAE2AiQDCAQgBYMtBzMb2ATIngPuziJQFNGcD7VojZT/y+HEFUH9fuje++8HmBWyjUPHPinrCtcqkjqVAdupra5Cv37O3v4S2rpNgeAQyAEZ3+q4I4eOlb1JB4Dr/idm3CdEebLb/F/u+dmm7Z+P4FDWaE9ePsZ8nkCAYdnYBFmYJZQQ9zYtJDuC0MNDwq0mI3Z88/h27QI5fvuIkvRV/IEP/U3jJ4c7krIAEE0AYO9suBcfKdz/fybudYOA2AMwhFCgQB8Cm1QCfdSGQJYF3/34H8gQQFQgOHFlePAAXAPIIEk59w2ayvp8Wk6ruQE5iXGS697GnsYeRh7KL357IsXzyfHI+MgYvY8/jz+OPlZGaIzgwOV4Ol4kYWR2+V/6W/uG6i3Qruog6ouprzV0NTqGwKKIGqvd+yfSPLtgfoA5JT9o2+I5hziQmqR5kUQR1RIHcVGKNS4Gt2NsGeAHCgCB4LBu6njeVv5VVZvAjykKPpneCxlUSSAo5v6HzaQrAPkB5FO8g9P5oECyQaBXrfNJgFCDAEmFGgEKvewIZDVmESgNyCBQocYRlcjVQpvZAZI6L0Fh2TnI2jyC0qbPXIW2FCGlBoT6RZfVZqHWTZyIxrnIly2qRYncVkt82+c/qyOBvBdr9u05sWrFphNDHuktntrV5hGtvoglRMWxIt7ufrbGQBTr2EprY3+dEn4+5XfmTw/koECC86qSRKS6ly4U2fhdgH0A");
 
 export default PhoneHangup;

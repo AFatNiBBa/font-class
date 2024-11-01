@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-middle-finger` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-middle-finger?s=sharp-solid hand-middle-finger}
  * @preview ![hand-middle-finger](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-middle-finger.svg)
  */
-const HandMiddleFinger: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M272 0L192 0l0 192-80 0 0 32 0 13.3 0 2.7 0 80 0 16-32 0 0-16 0-56L32 304l0 57.5c0 44.7 19.8 87 54.1 115.6c27 22.5 61.1 34.9 96.3 34.9L304 512c70.7 0 128-57.3 128-128l0-16 0-48 0-80-80 0 0-32-80 0L272 0z" />
-    </Icon>
-);
+const HandMiddleFinger = createIcon("hand-middle-finger", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABWAAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBKgsGAAE2AiQDCAQgBYMtBzkbswTIjsK22ZNhWJJDvgYrJ1c8j+79ndv2rxHPikdhx7ZfYxVBIywKvePR+BcsGl2/b03/7F5orwxTILAEW1SA7CJMgYWLKsqAK6AyeZUduzT+8d+AByI/R/xBxgSaM16BxutTG6+Xx8JaRbFT855qGNEd4m4naLmVToygPIlP8Og+NH9iOaFwVACQLQC4vu/tgG+gIfnoz+RbGwiQawBHCFRQwR4CnJEI7DEwaAwEQ3pn/4EMAcgY4ZwF0EAFp+AKQAMU1IyyhSXQGFBb1IwyFWhOEOic6Fh9QD87d4NJL5feNEKKknef+hzi8qd8Tn8K/tJa+2gskKSFYCGq/auFu92x3oe+LbeEKKZpTPsFCAg8hFjNkeD6f7spAPy+/vnj5bj76EW4wJQABOpxzzcYHxaSOwQAQMk2Uke+iEBRRsDXunSBAEKBAAorhQBVvBAEaJQ8BBhJUoEAY0oviZoDJMJQCYQAa0CqdAQMER6BRb0X2yoi8ulhrj3z7ZbYWIca1nFJYTHX8mAisw8EpZd1PNvM3uaNHLgX01Ys2zRl0pzNGrmuw9uypHEMbvBDrEShYqwWr85vbx8wZd2GOSuW7Sp1eH8r2/Z4fw7cjABwctxjAlLCHjal4DVVC/4UAgAAAA==");
 
 export default HandMiddleFinger;

@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `barcode` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/barcode?s=duotone barcode}
  * @preview ![barcode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/barcode.svg)
  */
-const Barcode: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M24 32C10.7 32 0 42.7 0 56L0 456c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24L64 56c0-13.3-10.7-24-24-24L24 32zm88 0c-8.8 0-16 7.2-16 16l0 416c0 8.8 7.2 16 16 16s16-7.2 16-16l0-416c0-8.8-7.2-16-16-16zm72 0c-13.3 0-24 10.7-24 24l0 400c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-400c0-13.3-10.7-24-24-24l-16 0zm96 0c-13.3 0-24 10.7-24 24l0 400c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-400c0-13.3-10.7-24-24-24l-16 0zM448 56l0 400c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24l0-400c0-13.3-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24zm-64-8l0 416c0 8.8 7.2 16 16 16s16-7.2 16-16l0-416c0-8.8-7.2-16-16-16s-16 7.2-16 16z" />
-    </Icon>
-);
+const Barcode = createIcon("barcode", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABgwAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCBQsIAAE2AiQDCgQgBYMtB0obIQXIjsO44TuyxVL+4+H/94v9Pve+GUTs4a4NEl3MKiQSzRMhzfrVNE4wT3/zzzuPAnyZhLaHBrKs8znPJ2DAWV6cUEKZdd/AvrUzvRgUFkm65MVn2PywOaGIH/miCulOwqX4P4Dxs04ukjTKAKIlAGauX73Ux1rUUnyvvye+W4KAmAVKgYyMrgJMkQW6KpQoFIJaqtepRb1eEkBUxS+WQRUNsReHAAVIqBZFy2YtW7Zu3qTSrFjXpNJ48/OOKe70bRKvuuS4269xk+ttU9xod6tDjpvtmzCRuF6bcrJscNy8RAsvXm/b623Lt7/23KfDo5XtLmu3sqXq31Br/ljzmqtawFTtQPRVh8uXL5Ok/v84k6d4uQ8EghkXDi/Z3mLKvw2bJPDTh9//ph+Sei1Jb9FQAkEeUh9iSwKJAACkOKdXAgLZVlX01KZuChAaI0BS1ViArIuWAhQaGyxARXdjBahqbLUsikZCW1s7SJo6CbJxzoNCW+9AxRSf7Kq2kXWN1BTyqxc3D6G5W+XIYSPKSSUbaJT64GE4udzWBpzzhYHm0D7HHXPGXnscdAaQU5Z6Zx01bwXP9aLSSMOMUJqkFMeP3DqyTznt4JyRj5msvG8NcG5dP9CYScYcZT/LRIrcYtfOUyooDX20citkXicAAAA=");
 
 export default Barcode;

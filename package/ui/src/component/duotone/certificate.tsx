@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `certificate` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/certificate?s=duotone certificate}
  * @preview ![certificate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/certificate.svg)
  */
-const Certificate: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M211 7.3C205 1 196-1.4 187.6 .8s-14.9 8.9-17.1 17.3L154.7 80.6l-62-17.5c-8.4-2.4-17.4 0-23.5 6.1s-8.5 15.1-6.1 23.5l17.5 62L18.1 170.6c-8.4 2.1-15 8.7-17.3 17.1S1 205 7.3 211l46.2 45L7.3 301C1 307-1.4 316 .8 324.4s8.9 14.9 17.3 17.1l62.5 15.8-17.5 62c-2.4 8.4 0 17.4 6.1 23.5s15.1 8.5 23.5 6.1l62-17.5 15.8 62.5c2.1 8.4 8.7 15 17.1 17.3s17.3-.2 23.4-6.4l45-46.2 45 46.2c6.1 6.2 15 8.7 23.4 6.4s14.9-8.9 17.1-17.3l15.8-62.5 62 17.5c8.4 2.4 17.4 0 23.5-6.1s8.5-15.1 6.1-23.5l-17.5-62 62.5-15.8c8.4-2.1 15-8.7 17.3-17.1s-.2-17.4-6.4-23.4l-46.2-45 46.2-45c6.2-6.1 8.7-15 6.4-23.4s-8.9-14.9-17.3-17.1l-62.5-15.8 17.5-62c2.4-8.4 0-17.4-6.1-23.5s-15.1-8.5-23.5-6.1l-62 17.5L341.4 18.1c-2.1-8.4-8.7-15-17.1-17.3S307 1 301 7.3L256 53.5 211 7.3z" />
-    </Icon>
-);
+const Certificate = createIcon("certificate", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhAAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBQsIAAE2AiQDCgQgBYMtB1IbKQXIngV240tRbrUsFhYxjuyzoB9vIR7+G/t138yg0vAMSRMeqnlUCZ1kEiohcTZksVD+2bpx/Y+x+T6STCJ3HzNLlqCJTbyteUdCp27XxVoDq+bc/1gA0B/lInUUtBUuThVtWeN4UrV/HcDyFX36+6k/zn8DviT8iJHr8w+yOJ9lagkMo2k3bxuV+GymON0m8+kIpTdChESi40qPrxOU+K30EJPe+R5wK/8DGP8QeQCSugwgWgEAs8vdDj4q8eLsK71DfEULAmIOQD9CRkY3AhOEAt1E+kFRBJVEBJUgYgggqsljM6hGxi44BFBAQpSyIxE3lSXZU7++ddcuU5OI8AJUprWYoTTlbbwKPxG0GNhGzFGGCnaBiRqEH6Qa7cQs5Sh/61eFCLfOyLafTlO23pv7z8B+unf9nLZ/hqS7vi0aPY62k+L17W0hMt8HGc/NdP1F6s/X28FBVJj4Sgc7+eam93V8ytERIBA8qVU3Rfpf25DA3y+//7iTJC0TTx+AWgkEeYiEYYLDyGFh5EtxDWMC/iZAtkMAVKMXkFyoZ4GkWj3IuihBUW8QVOkVMYL+fEiKUhd2GhFIGp2BbNw9KDq9gSoT/tPVOkNYa1alWF+9/KrmK9M44PVzkrcF0y4fow+mOJyy37UGB45i6tyZGxNjCzdKu9LJ3TpV9YSKH2IBXn4siY/L28MDE1euLZw740lS+H5od+e3d2A1AsDwK83MRIrcUf0xT9o26ayboQAA");
 
 export default Certificate;

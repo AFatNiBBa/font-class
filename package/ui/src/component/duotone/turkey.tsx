@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turkey` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turkey?s=duotone turkey}
  * @preview ![turkey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/turkey.svg)
  */
-const Turkey: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 384C0 512 160 512 288 512s288 0 288-128c0-63-27.3-121.1-67.3-168.3c-.2 .1-.4 .2-.5 .3c-9.9 7-19.4 13.7-28.8 20.3c-8.3 5.9-15.1 15-21.2 28.3c-6.1 13.4-10.4 28.5-15.4 45.8l-.3 1.2c-7.9 27.5-24 53-47.9 72.3c-26.7 21.6-58.7 32.1-90.5 32.1c-42 0-83.6-18.3-112-53.4c-13.9-17.2-23.2-36.6-28.1-56.7c-2.3-9.4 5.3-17.9 15-17.9c8.1 0 14.8 6 17 13.8c4 14.4 10.9 28.3 20.9 40.7c.6 .7 1.2 1.5 1.8 2.2c.6 .7 1.3 1.5 1.9 2.2c1.3 1.4 2.6 2.8 3.9 4.2c2.7 2.7 5.4 5.2 8.3 7.6c5.7 4.7 11.9 8.8 18.3 12.2c12.8 6.9 26.8 11.1 41.1 12.6c24.1 2.5 49-2.7 70.6-16.1c4-2.5 7.9-5.2 11.6-8.2c18.6-15.1 31.1-34.8 37.2-56.2l.7-2.5-.1 .5c9.6-33.7 20.1-70.5 48.7-90.6c8.6-6.1 17.2-12.1 25.8-18.2l2.5-1.8c18.3-12.9 43.3-10.4 67.4-8c9.4 .9 18.6 1.8 27.3 1.8c30.9 0 56-25.1 56-56s-25.1-56-56-56c-1.1 0-2-1.1-1.7-2.2c1.1-4.4 1.7-9 1.7-13.8c0-30.9-25.1-56-56-56s-56 25.1-56 56c0 22.1-1.2 49.3-19.3 62l-31.6 22.3C375.9 112.2 327.9 96 288 96C176 96 0 224 0 384z" />
-        <path d="M486.7 192l-25.8 18.2c-28.6 20.2-39 56.9-48.7 90.6l-.6 2c-6.1 21.4-18.6 41.2-37.2 56.2c-48.1 38.9-118.6 31.5-157.5-16.6c-10-12.4-17-26.2-20.9-40.7c-2.1-7.8-8.9-13.8-17-13.8c-9.7 0-17.3 8.5-15 17.9c4.9 20.1 14.2 39.5 28.1 56.7c50 61.8 140.7 71.4 202.5 21.4c23.9-19.3 40-44.8 47.9-72.3l.3-1c5-17.4 9.3-32.6 15.4-46c6.1-13.3 12.9-22.5 21.2-28.3l28.3-20c.3-.2 .6-.4 1-.6c-7-8.2-14.3-16.2-22-23.7z" />
-    </Icon>
-);
+const Turkey = createIcon("turkey", true, "data:font/woff2;base64,d09GMgABAAAAAANYAAoAAAAABuQAAAMOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDMQsIAAE2AiQDCgQgBYMtB0gbywXIrgZsYxjuh4eVvnWMHq1Gi4jnhtn4McYL/vn373Ofe+8AfgMpUAdXELpBAKD8K13KFE2GB/j74Z93l0GdIJGBs9KBz2dt0RaJXwfyrYpan8//vXv3f2uuARjQBvreAGzbosDyrfN4Jx0UBw45/RZqqG0BYGjlQSRt/v+yXJx6nvNQAJ8Tx7ltn6+CjDHOK9Dzbgt3+6YWC96aWgfnjWq8GBJD+Q64kE8PSBLMHvUeNrn/AdRPhZZjBCUAAKBcAgAAPZeH9ufxu+hdiN7Ho1cTQAD1AfAIWGBBKgFoYQmkcjzgOIIvxPBFsQoIAErGfZAF4A8cuAWvAcABMESJrqzL9gtzIzL8gic0FDvWit2KJYQOHbdjN317VTtl26V7nA+q++l75cIS7FPvkxejy94p0yIp3KlBP5bphX61v5iX+C76lmAttku2K3YrOoEOE7dZa0ubop3yHdI9yiVSgOzYdMJ6I71Lfk4v6EDRXklESMCEfcq6BPYO9rp2tnqvbKdtLXYhph2XbFd0KnZLCvAYer7wHa3OOis4+658XX3vSxx53vTkbIMosPl+Ynfzer/Y8vhXTsbaVmwltm6Boqmbyx7foOuNnrK7xNseP+iZ1BMUk+o7vH3WlbtUF+Tv28f+ZkcYdzoPBXvdxmZF/JsXnwBAVF44zAxbe5VihlRubgdg2s75dH0Y3DaK3/kyAV+yCr4x/19j4uPr5nZ95BkN5/8Gm33bRWsva1nB3wODACAgrKkdO1/ht/yQAeDP8/cPOF/XoZM6SxDIABBsyz8jQycBDB8BIDTRYlljP3QEAtYSQbhYqJ0iABIMBMDwF0wArBSRIDjBisFPutod/AUbylJiEBJrlApGqHlg1WkDJ9Y18NPiVeQvNqKfYPb5Y38gk/q1kb7TvEpfwJAyTJZl7qGk9XjasNoqYHibE6Yy2RyzLTTJRNMsbGHz9c8sMku/ObSvL/JUKlPB08TbXbsvjWhF8y0wbVzYP0kz7/ygwOL53oVwNgYAVF37PAsF2fCvVyv9ErTIpnDLAw==");
 
 export default Turkey;

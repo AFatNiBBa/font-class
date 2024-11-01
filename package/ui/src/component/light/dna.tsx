@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dna` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dna?s=light dna}
  * @preview ![dna](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dna.svg)
  */
-const Dna: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 0c8.8 0 16 7.2 16 16c0 120.2-94.2 188.6-179.7 250.9l-2.8 2.1c-37.8 27.5-73.9 54-102.9 83.1l187 0c-19.8-19.8-42.8-38.4-67.5-57c3.2-2.3 6.4-4.6 9.7-6.9c5.9-4.2 11.7-8.4 17.6-12.7C349.4 330.4 416 394.9 416 496c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-5.5-.2-10.8-.7-16L64.7 480c-.4 5.2-.7 10.5-.7 16c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-113.2 83.6-180.5 164.8-240C115.6 196.5 32 129.2 32 16C32 7.2 39.2 0 48 0s16 7.2 16 16c0 5.5 .2 10.8 .7 16l318.7 0c.4-5.2 .7-10.5 .7-16c0-8.8 7.2-16 16-16zM377.6 64L70.4 64c6.5 23.4 17.6 44.5 32.2 64l242.9 0c14.6-19.5 25.7-40.6 32.2-64zm-60.1 96l-187 0c26.6 26.7 59.1 51.1 93.5 76.2c34.4-25.1 66.9-49.5 93.5-76.2zM70.4 448l307.3 0c-6.5-23.5-17.6-44.5-32.2-64.1c-.5 0-.9 .1-1.4 .1l-240 0c-.5 0-.9 0-1.4-.1C88 403.5 76.8 424.5 70.4 448z" />
-    </Icon>
-);
+const Dna = createIcon("dna", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfAAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCBQsGAAE2AiQDCAQgBYMtByob/wTIjsK22TNiWJJDfgaHSNYVD//t1+6bP7uLWfMOSRMeqiYizVMyacSgp4tFk/x/fly+d+eZf0umEqwmsl4oS9D8X/P5PT8qkO8nfijRlnRN1SvMfD6Bic4Hfr6w4WyiON0mItgRxF4JEZOIjtPj6+kOOQZQDZ10RrkGdsaHxitJlSDJBQBEGwAwu+zrDvscfIy4LleIC65AQMwBYACiQIEeCCZQBXrQDABZFjxiWcp/IAEBRBXwoAlkVLEKbACQQZIzzbyBxcdN56UFcNO5ErtER9WmzbaNyrhE4nqCGydNesR7xG+sD/w7RbrFysR4sBN05M33yfPW5zEgprYrpaK82IP6eFo8vDxDytw4Je/Hxc21435nGcTLwzusUsbFhfU4LqM4KTD5rnCdcA0texy+xoHpivJZiHZjm1twG2pjW5VfWJGHLnycR746pgVmnSrJV/D//zrmWOTL3UTqgdie9iFs3zRyq1VgZ1f9I++7A/wCtLYPIBC8JHkcRvKb/ddxUwCeNz+/uEtS7sc5ZRKok0BQDJVqwmIfQWIUAkCSogAUk2+CSFbQ4F2bHEOA0IAASVWDAIVuAhBkDQYhqOijD0FVg3lUkdkQuoRPkDTZBoVxRSDrsgQqJpwlVV1BLTWuULiXXrKDheyvEW0NLWJClmPKVw/Tz03JtqpU0NaU6SYkyJQhT7w4yfIMksM9z5fOIYPt/RChTYMWwgQ5nu3lAE5y5EqOxfNLTJH7jpKCfLcyGRQgHRYkyY/DZlxGNA==");
 
 export default Dna;

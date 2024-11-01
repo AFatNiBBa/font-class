@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-users` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-users?s=duotone calendar-users}
  * @preview ![calendar-users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/calendar-users.svg)
  */
-const CalendarUsers: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 112l0 48 32 0 384 0 32 0 0-48c0-26.5-21.5-48-48-48l-48 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32L256 64l0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32-48 0c-26.5 0-48 21.5-48 48zm32 80l0 1.1c54.3 7.8 96 54.4 96 110.9c0 33.3-14.5 63.2-37.6 83.7C226.6 399.2 256 436.2 256 480c0 11.7-3.1 22.6-8.6 32l145.1 0c-5.4-9.4-8.6-20.3-8.6-32c0-43.8 29.4-80.8 69.6-92.3c-23-20.5-37.6-50.4-37.6-83.7c0-56.4 41.7-103.1 96-110.9l0-1.1-384 0z" />
-        <path d="M32 304a80 80 0 1 1 160 0A80 80 0 1 1 32 304zM0 480c0-35.3 28.7-64 64-64l96 0c35.3 0 64 28.7 64 64c0 17.7-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32zM448 304a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zM416 480c0-35.3 28.7-64 64-64l96 0c35.3 0 64 28.7 64 64c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const CalendarUsers = createIcon("calendar-users", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABrQAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yCfgsIAAE2AiQDCgQgBYMtB1gbqAXIhocnu/47t6qfeubT/WFGAhYZrWwdZOtIjmf+L/f8nh8d4OcjOLQ9dPEsDMeaAgGOrWNZIr1AsoQzoqzNvYOKizw0fCFH2SHSsP0PY2co0vB8uSbSPelL3NT/BzB+1cvlJG0ZQHQEwMJN61b4+Pv4PsWXjdeJLy1HQCwClUBGRl8B5sgCfRUqFArB96nR4PtoNCoCiGb9eRk0oxUP4RlAAZJCKop2PXL8uIG1pnbFxvajlpsemv3ezHf63T/j7Vnv9l9/3+iI54bX4omRz/S6uOvtZRnXdr8z9vHEbUKtXcS9I25YGRGXmFpeS8YSwD5uC3tuEN4Y+Uy/h+c8UeZf3LUWd8Ylo58b/uGgh+TM6RH1Qc92fPb3gV8e/NKAm+qHzjvvUF2OGvBS2YlOD+/2cKdOZfurr27/MOn5o5cWXLtWTdD46uEJ8ldfn4Zqgh+jlYvhjSaY8PVXecCqiLjzgRfLtOCnESN0vuFWN3QeOGPETwtS+eIDd4aLgUBwXRz8fleHOf+31hL48d0//2UPNz5OF6dn0SqBII9pjLE9XQwFHYCf4nyDyEftFshWKeir1t0pQCgRIGlWCpD10VGAQmm0AE36mypAs9I6WRRtQlc7BkjqzoBsmgtAoavXQJM5PvGadY3sqKSbkb+JccsQWjqrmjhuQjWrek26KN/DafPsalkbcX4tGpkOOuiUk851wH5HnAvIWSvC85ywjMFLfVFlonEmqMxSbWe+cxvBO+scR+bM/jSzVd9bI5zPK49MZqKYk2zJMpEid49jYWzwS2OdvlzPJybAAQA=");
 
 export default CalendarUsers;

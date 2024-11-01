@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bimobject` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bimobject?s=brands bimobject}
  * @preview ![bimobject](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/bimobject.svg)
  */
-const Bimobject: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 32H32C14.4 32 0 46.4 0 64v384c0 17.6 14.4 32 32 32h384c17.6 0 32-14.4 32-32V64c0-17.6-14.4-32-32-32zm-64 257.4c0 49.4-11.4 82.6-103.8 82.6h-16.9c-44.1 0-62.4-14.9-70.4-38.8h-.9V368H96V136h64v74.7h1.1c4.6-30.5 39.7-38.8 69.7-38.8h17.3c92.4 0 103.8 33.1 103.8 82.5v35zm-64-28.9v22.9c0 21.7-3.4 33.8-38.4 33.8h-45.3c-28.9 0-44.1-6.5-44.1-35.7v-19c0-29.3 15.2-35.7 44.1-35.7h45.3c35-.2 38.4 12 38.4 33.7z" />
-    </Icon>
-);
+const Bimobject = createIcon("bimobject", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcgAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBewsGAAE2AiQDCAQgBYMtBzAb+wTIjsM4hvxiKkMc4+H/dWb3fclzEjlh2wFSiKgCpo55AaAFqqZbbIo5W3FJUMzvUzfPO48CfI4gtLFwaSALfM7zBLqAt2+CbJ0HarFm7ez68oPoVukjn2TY/LCZII8X4qEK6bn0LR7Uk8ZPurlKUskARAcAzF23aqXmlmiJ+Pb/j4hvLUdAzAOlQIYMPQWYIRPoKVcilwta4v//0z+wJIBowi9IIEcFO7EfkIMky/Pug7pXK23ztdVKsa9N2za3a09KcbH+VLVt3OnyTGRxqfF0sf6lIRHvri7iduPt7kWIIiKqIarxwuB3BlbjztD3elomPFd7sijizcbTEXGpyzPzwfpTtX7vd3j/l7728sorF1Gz3c2b7S6SJ8xWH8jEeToq/yzmhv7m+N4cy4VFk5cc72j+pIG1/n83Gg379ncbZc4nbzc6q7/9yZxRuu3b3x4IBPXuT769rf2MX1tVE/ju83/rfv+3RHN6H60kEGQj/h9hczQD0AEoKc7q57wskGyUAY/axtMChAIBkiaFAJkeOgiQKwwXoKK3iQI0KaySiby1ULOlg6SNEyAzyTmQq/kAVMzwhdKkFlmUkTFCfvLiFlloYVU5dtSYclq5NDQqcPBcnF5u80POamAoRu11zFGn7bHbAacNctJK/YwjFnnwQi8qjTXKGKVpymP7sX+tPU465YBjjpYy05X35SHO+vFDISXEHKcpSURqvfPAkdcMAAAA");
 
 export default Bimobject;

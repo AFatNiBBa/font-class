@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shirt-long-sleeve` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt-long-sleeve?s=sharp-light shirt-long-sleeve}
  * @preview ![shirt-long-sleeve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shirt-long-sleeve.svg)
  */
-const ShirtLongSleeve: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M123.6 0l-9.5 0-4.6 8.3L95.9 33.2l-88 160L2 204l-2 3.6 0 4.1L0 224 0 400l0 16 16 0 96 0 16 0 0-16 0-159.6 32-58.2L160 496l0 16 16 0 288 0 16 0 0-16 0-313.7 32 58.2L512 400l0 16 16 0 96 0 16 0 0-16 0-176 0-12.3 0-4.1-2-3.6-5.9-10.8-88-160L530.4 8.3 525.8 0l-9.5 0L488 0 464 0 444 0 400 0l-.4 0L381.9 0 258.1 0 240.4 0 240 0 196 0 176 0 152 0 123.6 0zM256.5 32l127 0c-3.9 31.6-30.9 56-63.5 56s-59.6-24.4-63.5-56zM124 48.6L133.1 32 152 32l24 0 20 0 28.3 0c4.1 49.3 45.3 88 95.7 88s91.6-38.7 95.7-88L444 32l20 0 24 0 18.9 0L516 48.6l88 160 4 7.2 0 8.2 0 160-64 0 0-147.7 0-4.1-2-3.6L478 112.3 448 120l0 360-256 0 0-360-30-7.7L98 228.6l-2 3.6 0 4.1L96 384l-64 0 0-160 0-8.2 4-7.2 88-160z" />
-    </Icon>
-);
+const ShirtLongSleeve = createIcon("shirt-long-sleeve", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABigAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCeAsGAAE2AiQDCAQgBYMtBzgbgAXIhof/t/v6fW7d16unaowaSRGEb8cyMjrs9VPT57mc3ph0dFcgnyMIbaztN0COmut5AgH2oqI1aFnggSWKHc17cKBCupDmE+T4O0ZpkG5I7+Iy50vjaz1cQpILANEeAPM3rFnt9ZZoiXj3/2eId61EQCwAtUCBAr0FmKUQ6C2rkWVBS/z/v/gPrAkgmnifTCCjgVvxACCDpMh5Zeu5VaNNXl81yi1lVXaO7rE2OnOWtaoiChMjlUSbahHj+1yevyvNr4+ecaksQ9ywvCqr6wfdPejeIff2XNure6+qumX4A5OfG/lQv1zrEeuiy3KxDOdC86BI0TqKGHJwbf+bu8WGAQ+2f/Db/u/uf9fZr5VlOdWXNtxms06y1h7XXvsT2rvdn2aUxDhyRvj2PvPjWss62bxg3ZemKk+h46WM+uB8b9nUdn0vuKBvu6GXtL/AW91p2eT7rt+58/r7Jveee8HUd07R7HbzXC3raO4pvnAQB31h7ik6yq42z+2aTUGPg0Dw/adjf9vRbtavzVUCX734/Y/Su/9/PV2QHkSzBIJi1P+jbE0XgLANQE1xmgEjzl4k1yqaeP7WhA4jlJRImpQo9NIeWWkkGvqafEKT0hqFyK2EzrYpkbR2IgpTnIuss6fQMMsbapPOUQCpC8Rcj4j5l9TpxYvq8WPG1TPqwZrcDXcOc3ZmPTs+7DTZMxxvtN/xjnOKffY65JSafJLVxqmOWTImLfZDtfHGGKc2Q726edu/nqonOdmhftd6wjwz1fuXhzltfPhwnEo8uxNsSRKROpx88NBJp4z+Pa/zvGDitH0AAA==");
 
 export default ShirtLongSleeve;

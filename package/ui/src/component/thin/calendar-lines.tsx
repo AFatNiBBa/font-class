@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-lines` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-lines?s=thin calendar-lines}
  * @preview ![calendar-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/calendar-lines.svg)
  */
-const CalendarLines: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M120 0c4.4 0 8 3.6 8 8l0 56 192 0 0-56c0-4.4 3.6-8 8-8s8 3.6 8 8l0 56 48 0c35.3 0 64 28.7 64 64l0 48 0 16 0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192l0-16 0-48C0 92.7 28.7 64 64 64l48 0 0-56c0-4.4 3.6-8 8-8zM432 192L16 192l0 256c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-256zM112 120l0-40L64 80c-26.5 0-48 21.5-48 48l0 48 416 0 0-48c0-26.5-21.5-48-48-48l-48 0 0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-40L128 80l0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8zM96 392c0-4.4 3.6-8 8-8l144 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-144 0c-4.4 0-8-3.6-8-8zm8-104l240 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-240 0c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const CalendarLines = createIcon("calendar-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABkgAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCWQsGAAE2AiQDCAQgBYMtBzUbXgURVZq9yD4SY7dRFWt2hEFV3IlmeBLB83b/Ved2fz0M2SP3QIpgRpMpHK8Zii9bB9k6NQNg/i/H9+750QF+o0MZc7YW6B7PEwgwLL2XZ1GaBZZpApZtOWzI4SFuaThMwh6xhu0dtu6Qx/32aiLdmz7CteND42s9XSLJMgDRAQDzN6xZrfFFfBHx0f8viY+sREAsAIVAhgx9BJglE+gjVyCXC76I///f/wMLAUQzvDaBHC24hrsBOUia8nxyx6H1dtWmer6+2lTZcqerqEbE3d1Z8MkRz/YUIsU9w58ZXIunRj7XKwtU7x/1/LDUs3fV6rUU93a9M6QeT3e/u3e2O0Qlnuhyu4eoR8R93e4aWglxu8td3SLIbyzl1bjTdeiV0PqGaqVqeFRw4HMdnvt2wEf7P7rwzs7maRqmad7Jy6VHOnaslDqgQuuReR4Cl1KZ8qe+8wiuyj7+pJyn/OTjzNylwyGV1ik9ooyj0vA3k+Ea1Nu3P/XrlBa/5cAPIC/mD9vjQCDYsf7BD3e0n/VrazWBr17//i/9Gf3fiEZ6Dq0SCLLR/4/eGg2IhgAApDhvYDQQSK5qgnetuUuAUEGApFlFgExvHQTIVYwSoEk/kwVoVrFGJvI2oYttBpKaUyAzxUWQ6+IF0GSWd9vNukTWlHRL0f+ECXqJhxefK8aPLYsZxeMQmT4jx/HMIm0MP69LI+Sm/SeOn92399BZh55e3Tt3bMkMWfzFYvzYsphRlCffhfXOP31GyZirnzKz+D4Zfn6+eYTYCTAn9CWJSO3WrDRmJQMA");
 
 export default CalendarLines;

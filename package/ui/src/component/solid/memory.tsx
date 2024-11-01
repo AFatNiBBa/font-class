@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `memory` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memory?s=solid memory}
  * @preview ![memory](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/memory.svg)
  */
-const Memory: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 64C28.7 64 0 92.7 0 128l0 7.4c0 6.8 4.4 12.6 10.1 16.3C23.3 160.3 32 175.1 32 192s-8.7 31.7-21.9 40.3C4.4 236 0 241.8 0 248.6L0 320l576 0 0-71.4c0-6.8-4.4-12.6-10.1-16.3C552.7 223.7 544 208.9 544 192s8.7-31.7 21.9-40.3c5.7-3.7 10.1-9.5 10.1-16.3l0-7.4c0-35.3-28.7-64-64-64L64 64zM576 352L0 352l0 64c0 17.7 14.3 32 32 32l48 0 0-32c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 96 0 0-32c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 96 0 0-32c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 96 0 0-32c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 48 0c17.7 0 32-14.3 32-32l0-64zM192 160l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32zm128 0l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32zm128 0l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32z" />
-    </Icon>
-);
+const Memory = createIcon("memory", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABnQAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDCwsGAAE2AiQDCAQgBYMtBy0biAXIjtRW94yNiofn7b4691W16vfQNZIiWJm9BIMMShlt3PmPHzL/l/O750cH+I0Oaazps+V7Pk/gKPBseolkgV0gCSRCqZvSRxFVcvgUyYYrUnac3XHtDnn8lJ1VRbov/Ygb403jL+2cJanLAERTAExdtmihT3+P3yN+aHiL+MF8BMRUUApkyNBRgAkygY5yJXK54PdokP4DSwKIanhaAjlq8BxeAeQgqcrzXmNbI6lUNcqXzl+qWPVkn4hn24q7Wj3V7t4ed7YUTSLi7tZPt3+g9z1tIu7v93yv+i2NmzQWJ1vdValExD1t7mol9Kwrbe6J2CicbHlncbn13RFx6npUlSut7lIpj3d7vunz//Tj1h9NPvFoM5oVNYpzC+vqFp4rZptiNuG9tVmzRz/VZQo+XuOLFxsPUWr8+++NS+tVHHLoTTnxiQeaQpJCt3Vy8z0gEBz64vv71jWZ8H9tJYE/3//vdnaakp5HrQSCbEDDAKs7ZZQKQJbiqG5SsUDymCrAq9a7W4BQIEBSrRAg00FTAXKF/gJU6WykANUKi2QirxNaWrNAUu8AyIxyDORaegNUmeCbrFrLyKKVijXqZzF+FsMzy8qhg4aU48rHPqUDkKj748tjvc/RPNdXTtpqn70O22KzHQ4TetDC2hF7zLKQmSpUGmqQIUrjlO7Rd34pZQcdsmOv8B8yXvl+3MdRe3VfsRJgDtOWJCJVfyIAAAA=");
 
 export default Memory;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-signature` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-signature?s=sharp-thin file-signature}
  * @preview ![file-signature](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-signature.svg)
  */
-const FileSignature: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M368 496L16 496 16 16l192 0 0 152 0 8 8 0 152 0 0 37.5 16-16 0-37.5L224 0 16 0 0 0 0 16 0 496l0 16 16 0 352 0 16 0 0-16 0-62.7-16 2.5 0 60.2zm-6.6-336L224 160l0-137.4L361.4 160zM120 312l-6.1 0-1.6 5.9L89.9 400 64 400l-8 0 0 16 8 0 32 0 6.1 0 1.6-5.9L126.1 328l3.8 0 22.4 82.1 1.6 5.9 6.1 0 8 0 4.6 0 2.3-4 29.7-52 14.7 0 29.7 52 2.3 4 4.6 0 24 0 8 0 .2-.2 16.4-2.6 74.7-11.6L564.7 216.3 576 204.9l-11.3-11.3-54.5-54.5-11.3-11.3L302.2 324.6l-11.6 74.7-.1 .7-2.5 0-8 0-19.4 0-29.7-52-2.3-4-4.6 0-24 0-4.6 0-2.3 4-27.8 48.7-21.5-78.8-1.6-5.9-6.1 0-16 0zm187.2 84.7l10-64.5L455 194.4l54.5 54.5L371.7 386.6l-64.5 10zM520.8 237.5L466.4 183l32.5-32.5 54.5 54.5-32.5 32.5z" />
-    </Icon>
-);
+const FileSignature = createIcon("file-signature", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiQAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCeQsGAAE2AiQDCAQgBYMtBzUbfgXIjsO44TuyxVLCp4iH5+d6O/clM52flCFlRlfHqq7dZUesuopZAVkCPc0MUdv+fy7Hd9uODvCurMRDGfNjY04rmvN5AoG3ffPkaWGWKLa47eaIeGiMkNhAHt86pEZ6MMGd8KHxqx6ukWQZgGgPgPlbN672+k/xU8RHzREfWYmAmA8qgQwZegswSybQW65CLhf8FM2m+A+sCCDq4vtPIEcr3MOLgBwktTwf2mp12VLW2uRbylqxv3Wb1lmUIURZim4RsSWKQqQQZZuIiM5hR1EWEZs3WVvn2LQFDkoFbL3k2BxdOmQiNj4WMTS2JtKprWts8LApAcdhQict4p1jXGxp8jdv3bR1a6xfi23dsH7DTLti1IBneub9HeHs2H3xip+87gENjQeGaNLijz/u8/b5Cd3+XMFc/5hVX3s7FnLr1l/36tO66LJez0Z7jSEU8vy0uqi36eQrbX2lk1pFsrxw/75nPOOIZ7z9tmK5kPXazO/TyUs6rznlf2ZTy7wkdvu2I6i0tX7z2JH4Ru1s9hcQCJ549Jvbe9vN+r9RJvDLa3/+Go7XfD3NS8+gIYEgG9UcZVeaB0I0gESKKwZsfFEguaOGvmtrdwUIBQIkdYUAmV7aC5ArjBSgpq/JAtQVNspE3iJ0trvjktbOc5kprnK5zl7lamZ5L17XOTIgVYKY8h8xWDLEFk+qxo8ZV82oVksaFdzJ7ejM6rBu2BXZMhyvdcRZZ1xy2CHHXRqwF6xOXXbaki1msR+qjDfGOJUZqsvVp7CFxi+46Piy5vo4M1XPu4a5st19ODYmscQJipJEpLYfRHD0xeNHX24A");
 
 export default FileSignature;

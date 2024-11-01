@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `books` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/books?s=regular books}
  * @preview ![books](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/books.svg)
  */
-const Books: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 416l0 48 64 0 0-48-64 0zm88 89.6c-7.1 4.1-15.3 6.4-24 6.4l-64 0c-26.5 0-48-21.5-48-48l0-48 0-24 0-24L0 144l0-24L0 96 0 48C0 21.5 21.5 0 48 0l64 0c8.7 0 16.9 2.3 24 6.4C143.1 2.3 151.3 0 160 0l64 0c20.6 0 38.1 12.9 45 31.1c5.6-6.1 12.9-10.7 21.4-13L349.9 1.6c24.7-6.8 50.1 8.3 56.7 33.8l18 69.2 6 23.2 61.8 238.3 6 23.2 11.9 46c6.6 25.5-8 51.7-32.7 58.5l-59.6 16.5c-24.7 6.8-50.1-8.3-56.7-33.8l-18-69.2-6-23.2L275.6 145.9 272 132.2l0 11.8 0 224 0 24 0 24 0 48c0 26.5-21.5 48-48 48l-64 0c-8.7 0-16.9-2.3-24-6.4zM160 464l64 0 0-48-64 0 0 48zM112 48L48 48l0 48 64 0 0-48zm0 96l-64 0 0 224 64 0 0-224zm48-48l64 0 0-48-64 0 0 48zm64 272l0-224-64 0 0 224 64 0zm216.1-12.3l-55.8-215-56.5 15.6 55.8 215 56.5-15.6zm-44.4 62.1l11.9 45.7L464 447.9c0-.1 0-.2 0-.3l0-.1-11.7-45.2-56.5 15.6zm-79.9-308l56.5-15.6L360.4 48.5 304 64.1c0 .1 0 .2 0 .4l11.7 45.2z" />
-    </Icon>
-);
+const Books = createIcon("books", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABoAAAAKPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDRAsGAAE2AiQDCAQgBYMtBywbwAVRlMzJANlHYhyTeC6KuOQkgu9zZv2+5KmMFAaFWCF2EJY8y8hX4hvQEdi1160cF9AdEDH9fvr7eb4OsB/kQ8l6f1kWRVHBuwkMcDosigae0Gg64QnYjuY9NUChXajbQx7vxJ0apIfS57gjvFT8aoRrSRoZgOgPgLU9++30YTvaEZ91XiM+sx0BsRZUAhl+ymgBVsoERstVyOWCdnQ65H9gRQDRJT0tgRy98T6+BOQgyRZ53n1Id0rv16ds9Mlb5UeLFUIZEcUB9xZFPD/0/pGBD3hk2ANTy7hlyANlGa+NeGDYZi8MuW/EAUaEzh8TDw2/d9IGzz4BLVpMoKEhgAcHb68o4uahc8uijOjYDi4wIY2Ucc26+6DgNoiyp3VAa0McEJubY8aO2eyqLD9ibGw4ePOGzVg6e5IxE17u//Le8Z8f/7lBOnVdN9WaPQc916ep/uGLrDbccG0TqWVf/LCL9XlOfYN498ZXPjDpz7/2baOWlXu1vGf9lU8M2Zi/Su+n4KJmArVOWM99gnxkM6Otqd1ZONf0ayesKYa/Lpd8ZcHlpMvl7yX6FVDvuWL3gity3nU5RINzDYLfjtrqI/qt/K1XmcAvb/936FfUeS9l6WX0kkCQzerMcmhC57+UCQBAivNNSBBIXlfAr9rb/QKEAgGSLoUAmVH6C5ArzBSgYaxFAnQp7CcTebcw2GEDlPR2FpRZ7DIoN9grUMNKH0W7DI4MlOWAKP+RTLNpitu4rJo3p66WV7s1nQI6pXZ2RXUZm3a+7JmO1zreGU53ruMc6yTnTgRn25k4z2k2HbE2eqPKPHPUKstVj5svQQuNnu0cJ20bPV9khep73zTnHw+fjq1JEjlfUZKI1IBwAAAA");
 
 export default Books;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-santa` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-santa?s=sharp-light hat-santa}
  * @preview ![hat-santa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hat-santa.svg)
  */
-const HatSanta: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M422.7 202.6L384 192l14.9 37.2L435.2 320l-34.5 0L354.3 203.9l-13.2-33 18.7-18.7 32.6 8.9 70.8 19.3 2 14.7 2.6 19.4-.2 .3-44.9-12.3zm11.7-111l57.2 67.6-30.8 3.4 1.6 11.5L410 112.3C384.1 81.7 346 64 305.9 64c-55.7 0-105.9 33.9-126.5 85.7L111.3 320l-34.5 0 72.9-182.2C175.2 73.9 237.1 32 305.9 32c49.5 0 96.5 21.8 128.5 59.6zM480 384L32 384l0 64 448 0 0-64zM32 352l448 0 32 0 0 32 0 64 0 32-32 0L32 480 0 480l0-32 0-64 0-32 32 0zM575.2 180.6l1 .8 1.3-.2 31.7-4.3 3.5 31.8 .1 1.3 1 .8 25.5 19.4-20 25-.8 1 .2 1.3 4.3 31.7-31.8 3.5-1.3 .1-.8 1-19.4 25.5-25-20-1-.8-1.3 .2-31.7 4.3-3.5-31.8-.1-1.3-1-.8-25.5-19.4 20-25 .8-1-.2-1.3-4.3-31.7 31.8-3.5 1.3-.1 .8-1 19.4-25.5 25 20zm5.3 32.5L566.9 215l-10.7-8.6-.4-.3-.3 .4-8.3 10.9-13.6 1.5-.5 .1 .1 .5 1.8 13.6-8.6 10.7-.3 .4 .4 .3 10.9 8.3 1.5 13.6 .1 .5 .5-.1 13.6-1.8 10.7 8.6 .4 .3 .3-.4 8.3-10.9 13.6-1.5 .5-.1-.1-.5L585 246.9l8.6-10.7 .3-.4-.4-.3-10.9-8.3-1.5-13.6-.1-.5-.5 .1z" />
-    </Icon>
-);
+const HatSanta = createIcon("hat-santa", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABpwAAAKcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDegsGAAE2AiQDCAQgBYMtBzAb+gXIhufh7f79tc+dp5nEF4nnA0blTqii9oMqGXXfmv9r8t1/fq217Yp4OqMOLa2gWSbvTSCfF82rhAp8ohOyXW6batpQC4kPjWMLVf7O2oYo95b3cGd4qnxtupspqg6ATALADocdtI+XFmdx8t7/j5P37IVAdgStoIPXzxKwtY4MsUqLVaq4xfn/f/8f2BIgw9KHFlBhFJ/ha0AFiuGqmjlnbOo2OzRD46tDm6H6pE032XR2DkmdQzMna2WVHJJepkc2PeyQQw9ZOb0cmBd2fWzzp9Y+OHUOy6NbPbvbrZs8vsYR48aPk/HJiX7NeBGpxwXnNOc1dbPaDfm9rJHVIwbcyqnTDa+ZuhbcjCT9yFpJgrnV0mSQs8b07qDbn7F0s6UuUA9LGqwX0ABEPkiTpI8lNdxfvOKiSYu+XeG9U98z75cz05nLrXSkFa17kZes6A+7TjHHiuK9+pwtdiTHLlPbxh2LH+kNj+y00Ip2f9z699+6/SpzJ1y9zkov4fTtvWT7F+dW9+KW0VrtLzpnUdJZZjvBjTYXxbZ+FqzuJikb7uM+pmcvALd4WTDbLYh7zBLxMq9JXPk4CMKtx74y77iJW/862hSw9Jnvf0SP/n9xua4swqgCQmft/9d2dLkeoUMEjZdcakU8TxSfemPcOHcJR9QgiWJY3fEdM03iK7W1+CFzbKI9aDnoEJZqLNB1DOGLcS7gOzZ1DV/pepQfsrU3o8O66UC5Hkb1/5hZdh2CXca1G6y7frtlu1rQGABXawe3ag97Vr9UNqyBNzrVec51sVOc7AwXD6gL7ZO4xDl23UJ28UWtDaxrfa0ttZfLTy2HUu5CFznDde71UbbSPh9Y3aXb7dfA/iKp3dDaopAydvoJF6/zydN6AgAA");
 
 export default HatSanta;

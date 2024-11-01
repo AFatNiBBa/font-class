@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-hand` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-hand?s=thin hand-holding-hand}
  * @preview ![hand-holding-hand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hand-holding-hand.svg)
  */
-const HandHoldingHand: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M54.2 203.3c-10.7 7.9-25.7 5.6-33.6-5.1s-5.6-25.7 5.1-33.6L152.4 71.4C173 56.2 197.9 48 223.5 48L568 48c4.4 0 8-3.6 8-8s-3.6-8-8-8L223.5 32c-29 0-57.3 9.3-80.7 26.5L16.3 151.8c-17.8 13.1-21.6 38.1-8.5 55.9s38.1 21.6 55.9 8.5l117.6-86.6c1.4-1 3-1.6 4.7-1.6L308 128c6.6 0 12 5.4 12 12s-5.4 12-12 12l-80 0c-19.9 0-36 16.1-36 36s16.1 36 36 36l154.3 0c29.1 0 57.3-9.9 80-28L505 161.8c1.4-1.1 3.2-1.8 5-1.8l58 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-58 0c-5.4 0-10.7 1.9-15 5.3l-42.7 34.2c-19.9 15.9-44.5 24.5-70 24.5L228 208c-11 0-20-9-20-20s9-20 20-20l80 0c15.5 0 28-12.5 28-28s-12.5-28-28-28l-121.9 0c-5.1 0-10.1 1.6-14.2 4.7L54.2 203.3zM521.8 308.7c10.7-7.9 25.7-5.6 33.6 5.1s5.6 25.7-5.1 33.6L423.6 440.6C403 455.8 378.1 464 352.5 464L8 464c-4.4 0-8 3.6-8 8s3.6 8 8 8l344.5 0c29 0 57.3-9.3 80.7-26.5l126.6-93.3c17.8-13.1 21.6-38.1 8.5-55.9s-38.1-21.6-55.9-8.5L394.7 382.4c-1.4 1-3 1.6-4.7 1.6L268 384c-6.6 0-12-5.4-12-12s5.4-12 12-12l80 0c19.9 0 36-16.1 36-36s-16.1-36-36-36l-154.3 0c-29.1 0-57.3 9.9-80 28L71 350.2c-1.4 1.1-3.2 1.8-5 1.8L8 352c-4.4 0-8 3.6-8 8s3.6 8 8 8l58 0c5.4 0 10.7-1.9 15-5.3l42.7-34.2c19.9-15.9 44.5-24.5 70-24.5L348 304c11 0 20 9 20 20s-9 20-20 20l-80 0c-15.5 0-28 12.5-28 28s12.5 28 28 28l121.9 0c5.1 0 10.1-1.6 14.2-4.7l117.6-86.6z" />
-    </Icon>
-);
+const HandHoldingHand = createIcon("hand-holding-hand", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABrwAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDPQsGAAE2AiQDCAQgBYMtBzgbxQXIngfZmensiJjUTuHFw/N2fZ37qr6qe+gaWytHoDMwmmwhpFLaNjdKGr7Y2LAEtouWbsmAX2haIfoF7j94OO0eCnBIJRyvc5++c/g8sECz8nc4kCywRLHRbVdrikpIH6FwgDy+sUcd6Z70Lm6KXxq/6OQakiwDEC0BMHP96qXO/Rg/Rrxbe4l412IExCxQCmTI0FWAKTKBrnIlcrngx6jV2H9gSQBRL5ASRY5Tz+E9xjtIUp5v2VIJzfJ1+pJi/eOdT3/ErzSLuzp4+xLXTpDQttrOhLoDkLlSiQz75hTXIoIrONB23WSe4+7lQjfF00X0PNn59p+P7jDjyvZeoEjZ+VSn3UdsZDVub2vt6ikE4CpkEMIVTegOmGG/8oRuAs1x93Khm+O5Slx/otPq8/rbO6DXsy3fb97d966x/w7+8Plml271/4ANdtTHHRsMnXTZFm8N7/HA/X//9dWZtVplF3m4KB5eocW9z7Ro8cy9ymPo4EewbNLubZM07nnUFwPu1SpErVA9//yqLBoa15xd+8nBy8n9N7LpRkMmXraVlUd8+ToQCJ7e/mz73oL+a8wJ/Pz6H+OVtTVpVnpolECQDakNsSW1FcQJQvCmOE8v+GOB5FUJ4KdW3SlAKBAgqVcIkOmipQC5wmAB6nQ3VoB6hdUykTcJbW2tIKk6CTLjXApybb0A6kzxhrde28iaMb8R8v8ik8zro+duKkcOG1FOKhfLsqBlcvX45HK3ZsB5vG0g3GOf4445Y689DkbYY5yyNHDWUfPW6HP9UGmkYUYoTVKerj2WrMPeU047OC86P8tk5f2OAc5b7z0Q6pLA1ChZSSJSq1avGPpZSId2AAA=");
 
 export default HandHoldingHand;

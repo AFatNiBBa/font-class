@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-blank-under` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-blank-under?s=duotone toilet-paper-blank-under}
  * @preview ![toilet-paper-blank-under](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/toilet-paper-blank-under.svg)
  */
-const ToiletPaperBlankUnder: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 192C0 86 43 0 96 0L416 0c-53 0-96 86-96 192c0 1.3 0 2.6 0 3.9c1 104.2 43.6 188.1 96 188.1l-256 0-32 0-32 0C43 384 0 298 0 192z" />
-        <path d="M416 384c-52.4 0-94.9-83.8-96-188.1c0-1.3 0-2.6 0-3.9C320 86 363 0 416 0s96 86 96 192l0 272c0 26.5-21.5 48-48 48l-256 0c-26.5 0-48-21.5-48-48l0-80 256 0zm0-128c17.7 0 32-28.7 32-64s-14.3-64-32-64s-32 28.7-32 64s14.3 64 32 64z" />
-    </Icon>
-);
+const ToiletPaperBlankUnder = createIcon("toilet-paper-blank-under", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABhAAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBbwsIAAE2AiQDCgQgBYMtB2wbLQXIhofv7aI/972eWUC9MCMJmbpqc/iTkRBt9iGkQjxXt8Zv/OgAF0Su9+NAPgrkfccTaDyQJs0TSijTADBhy9rZ++EH9dkkfUKSYeIMk8UJRXySL6mR7knv4bL+BzB+1c0lkmYZQLQFwNx1q5a4+1P8lOK9xkvEexYjIOaBUiAjo6cAM2SBngolCoXgp9Ro8FM0GiUBRJ1+fQZ11LAeuwEFSJIoin4derSotSrWtqg13/XKuIgX1lZRxZfjX5z88tjn16S40/HGgJbxZOdb3SNaxe0eEfdF1f3ezje63nGx2z2d8pfjI16c3CpeGvPc6osu+nzs8xNbNn9l3Atr+z3b9tnf+7639z0PzT7xOI/HsogIK554oqqeeMKKtvL7341hzHfv5+Vc/Kii6tGjqj76qCKLQRNx5hA5QmTZ44+fMMdeBwLBXwOab9zWZsb/TVsk8Msbf/4bXySNu0l6Fk0lEOQRjRE2J5AIAECKs/olHkYgmyhxd23plgChOQIkdc0FyHpoK0ChueEC1PQ2UYC65lbJomgmdLQlQ9LSCcgmOQeFjl6Emhne9Oo6RgYYCw/2fZe0iNHCtXLsqDHltLIZSxxmqJ9PL4etIWelNpR27XXMUaftsdsBpw05aUl4xhGLenihB5XGGmWM0jTldHYprWXvpFMO1IX5JdOV690hzva7h9I2CTBua44ykSKXp48dOLzn9EgoKyNvnTISqdrIH+vyNYUzCg==");
 
 export default ToiletPaperBlankUnder;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-exclamation` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-exclamation?s=solid hexagon-exclamation}
  * @preview ![hexagon-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hexagon-exclamation.svg)
  */
-const HexagonExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M17.1 292c-12.9-22.3-12.9-49.7 0-72L105.4 67.1c12.9-22.3 36.6-36 62.4-36l176.6 0c25.7 0 49.5 13.7 62.4 36L494.9 220c12.9 22.3 12.9 49.7 0 72L406.6 444.9c-12.9 22.3-36.6 36-62.4 36l-176.6 0c-25.7 0-49.5-13.7-62.4-36L17.1 292zM256 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const HexagonExclamation = createIcon("hexagon-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABYwAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBOwsGAAE2AiQDCAQgBYMtBzobxQTIrgZjItNwr8TUTIRxuZzzypVFzYeoF6H8i3j6/V733HeDpIBsopBsXFiojI9wQC07ljWuwrZG/Kmtq6r7Pz/O3p8dIeWtLUloCxGHfK5yoyFruxfxaIrZupXOiNSMx0ZI0Mh0LXP5v476Yn5X3/7zf029eH50gN+uxA8tCksPpMCytz1vsIntzZtgNowSxTFN3cYMN8hlVeQIHhFDvCHZ3EHNK/WIDspX8jf4WK80fwW2FD0NAGQYAODoKhSEr1ZayX8b8ssBCOQIgDkIDRpMQWAXVjAFZw6oqtBKe/kNnAMB0gn8Awuo6MAhcAxABUVTcSJlTOqg46ISQ4k9+liec2ru20juTTi3CSUPXfTqzAf0Nb2MUE6zyJ2LchDf2DvcTuylt94RsXDRbz7zHqN/j2WxLzi9fbk9vTqG8X1/MHHGP0mM2bf6Cl4NxoQI5KB/fVuZm1+3hAH48/P/eubbSsHcgG4FhGbpvyRd4EBXIdAumUKKWxIUm7Bwqf0+CYheBBSdegU0JrEgUPVahECHGQ4IdOp1BiuVDDEu00HR7wY01m1ANe4WdNj1bXcaTxNFQgwIj7jUgEX968RDo1nsFU9jTQwMrkz6xMtaMc01DbZCVU/XWEVZw9jgQ0FvoiPgYX5fJGZhZCbmJd7OHjdHVQyNNPR0dRof8XlLbep3a2BikHXZy0UhhXu6nhdqva7hfwqj0LkZ");
 
 export default HexagonExclamation;

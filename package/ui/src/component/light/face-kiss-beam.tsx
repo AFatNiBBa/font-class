@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-kiss-beam` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-kiss-beam?s=light face-kiss-beam}
  * @preview ![face-kiss-beam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-kiss-beam.svg)
  */
-const FaceKissBeam: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm276.7 48.5c-10.8-5.3-25.3-9.2-38.6-11c-7.4-1-12.6-7.9-11.6-15.4s7.9-12.6 15.4-11.6c15.2 2.1 32.7 6.6 46.8 13.6c7 3.4 13.9 7.8 19.2 13.4c5.4 5.6 9.8 13.2 9.8 22.5s-4.4 16.9-9.8 22.5c-5.3 5.5-12.2 9.9-19.2 13.4l-.2 .1 .2 .1c7 3.4 13.9 7.8 19.2 13.4c5.4 5.6 9.8 13.2 9.8 22.5s-4.4 16.9-9.8 22.5c-5.3 5.5-12.2 9.9-19.2 13.4c-14.1 6.9-31.6 11.4-46.8 13.6c-7.4 1-14.3-4.1-15.4-11.6s4.1-14.3 11.6-15.4c13.3-1.9 27.8-5.8 38.6-11c5.4-2.7 9.2-5.3 11.5-7.7c2.7-2.9 2.7-4.7 0-7.6c-2.3-2.4-6.1-5.1-11.5-7.7c-10.7-5.3-25.1-9.1-38.3-11c-6.7-.8-12-6.7-12-13.5c0-6.8 5.3-12.7 12-13.5c13.2-1.9 27.6-5.8 38.3-11c5.4-2.7 9.2-5.3 11.5-7.7c2.7-2.9 2.7-4.7 0-7.6c-2.3-2.4-6.1-5.1-11.5-7.7zm-120.2-110c-6.2 7.2-10.8 16.8-12.9 25.4c-2.1 8.6-10.8 13.8-19.4 11.6s-13.8-10.8-11.6-19.4c3.2-12.7 9.8-27.1 19.9-38.6C142.4 161.9 157.2 152 176 152s33.6 9.9 43.7 21.5c10 11.5 16.7 25.9 19.9 38.6c2.1 8.6-3.1 17.3-11.6 19.4s-17.3-3.1-19.4-11.6c-2.1-8.6-6.7-18.2-12.9-25.4c-6.2-7.1-12.8-10.5-19.5-10.5s-13.4 3.4-19.5 10.5zm147.1 25.4c-2.1 8.6-10.8 13.8-19.4 11.6s-13.8-10.8-11.6-19.4c3.2-12.7 9.8-27.1 19.9-38.6C302.4 161.9 317.2 152 336 152s33.6 9.9 43.7 21.5c10 11.5 16.7 25.9 19.9 38.6c2.1 8.6-3.1 17.3-11.6 19.4s-17.3-3.1-19.4-11.6c-2.1-8.6-6.7-18.2-12.9-25.4c-6.2-7.1-12.8-10.5-19.5-10.5s-13.4 3.4-19.5 10.5c-6.2 7.2-10.8 16.8-12.9 25.4z" />
-    </Icon>
-);
+const FaceKissBeam = createIcon("face-kiss-beam", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABswAAAKUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDEAsGAAE2AiQDCAQgBYMtBzUblQXIjtEnYwhTnrk8OGKKmHh4uN977n2xiPSNkqI5Ung2sVnhcLMUG7WGTuD/5J++S/yRpPJV5iT5d4MneNIGYecMzp069Ty6KIBvFJSxcU2Q5bnQ2N0COS/wW7DdVqFUpGAVroBV3ZT2sIeovZQhwblSZMdX2HHtCmWsIxPgkjesC+CiLir+KWknlQUARDcAgI3T6FDYeUJPgS4aL8SrYCAgNgEwDaEg+DgElrEFXoFjGiiVgh/03yj/gRgEEDXonQlKNOEOz1jfnVSVHBUVRyUlsqI5cWRFpE1aoVgJOiOYgBOLJTxhuRx4SvYGn1uvalPfWyj2d6/J3tBLz93YB4+dkAuCCbvy2otLmdUbUhiWm9EdlBuUG5AdkCWCRDM7rcPItyjM6Q+brvyQvMuWHwYlrtEdojCuMq4/ozSqNMi0TCAY2di7pwZktRYli2+aF5kX8LhN7YE3t1Bn51C3uz2KC2n+iW8LI0+73t67q0pCO1jkO/stFD1XKJWd0pzp6i6a7q6aRhD41JwyeoZ+8JYv17K21ipX8JogiEkvhTL6Eu2yqvwx09DnBzPrr9fl5Z9fb/WHZ1dXZowgmD7FHXobSntfB4BA8HQu/5okXv4TkCyAv7WPv/Ez0thJyHugWYKgmP03EZ8gCQBARiVoJQTSrYoutd2lAKEVAVKtVYDCGAkESq1mIFCZZAuBWqtDbFEKIfRLmCC1OwOFJQ2g1G8VVJYdR7X+KAKWDzf+dzHFDxHfY9jSzAI74cfCJcQgmw+dsVs1qJSBIc1CpiKFymVIl6McyFKhaYUCfhbh64MwS2YsYE7wcf2qxIFbqkzYvXA+hTP8fmig0l5vSAaLUs7JpSRS9DVATPNyyspMUzNSCgAAAA==");
 
 export default FaceKissBeam;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mars-stroke` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-stroke?s=sharp-regular mars-stroke}
  * @preview ![mars-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mars-stroke.svg)
  */
-const MarsStroke: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 0l24 0L488 0l24 0 0 24 0 112 0 24-48 0 0-24 0-54.1L409.9 136l31 31 17 17L424 217.9l-17-17-31-31-27.7 27.7C370.7 227.2 384 264.1 384 304c0 97.2-78.8 176-176 176s-176-78.8-176-176s78.8-176 176-176c39.9 0 76.8 13.3 106.3 35.7L342.1 136l-31-31-17-17L328 54.1l17 17 31 31L430.1 48 376 48l-24 0 0-48zM208 432a128 128 0 1 0 0-256 128 128 0 1 0 0 256z" />
-    </Icon>
-);
+const MarsStroke = createIcon("mars-stroke", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcwAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBfwsGAAE2AiQDCAQgBYMtBzIbAQXIjpMldpklgvr9er/n7A0tBPGGGR2QCitykUQu/Jntq9gPrLdq8//nms/PMkC+0SFFLxukQDswBQY82izSNoKBzXQCtrcpGtoRhFfRIVEisuP0+PZ0hSxexFW1SDfTl7jSPzR+1co5kloFANEQABOXL57rbU3URHxRRXxhNgJiIsgFCiigrQBjFATayuTIZIKaqFb5PzAngKhN0CSQlSc3YS8gA0nKsvFtSrUq2TLaXdxeKpaEEMXAzILoScyY6HVJj3jV8ccF3y75edH3y35Z/MPyj8b2PvnG2/sXR7EYKy70jrjX+16c7nUX5eL5Hrdlp3reeXep092Gd3/v+OW2L61/07LlrZYOaGmAloZZ6g80wh9e6FOOWQ1JBV8MjRffvv/CPm6pYS0HXHnU+S1v21U6daq0e/u2s6rj14FA8PfO79Y3GPN/3VIC757/+ef8GeXVmiTdRV0JBIU+1T7WJHISAQBIcUynRC6QrJJIoexatBKKFEhqK0JBGw0hU9QbamlvqOZ0F7uYyOoVmlqLkJQdhIJhjkOmqWdQyxifFGtrGoU8M7LE+M3LnaaRqdvygf0G5KPya90yU0dr86Nzd6THsdrXEw7aZr99jthqi52OKOGQuZWj9ppmUVN9UW6gfgbIjZKHW+/uMlU85LCd56D4JqPl3xd6OGaP7gnxRBQHqUoSkUpP8gb7vpMb3b0VAAA=");
 
 export default MarsStroke;

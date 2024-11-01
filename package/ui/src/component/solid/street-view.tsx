@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `street-view` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/street-view?s=solid street-view}
  * @preview ![street-view](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/street-view.svg)
  */
-const StreetView: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M320 64A64 64 0 1 0 192 64a64 64 0 1 0 128 0zm-96 96c-35.3 0-64 28.7-64 64l0 48c0 17.7 14.3 32 32 32l1.8 0 11.1 99.5c1.8 16.2 15.5 28.5 31.8 28.5l38.7 0c16.3 0 30-12.3 31.8-28.5L318.2 304l1.8 0c17.7 0 32-14.3 32-32l0-48c0-35.3-28.7-64-64-64l-64 0zM132.3 394.2c13-2.4 21.7-14.9 19.3-27.9s-14.9-21.7-27.9-19.3c-32.4 5.9-60.9 14.2-82 24.8c-10.5 5.3-20.3 11.7-27.8 19.6C6.4 399.5 0 410.5 0 424c0 21.4 15.5 36.1 29.1 45c14.7 9.6 34.3 17.3 56.4 23.4C130.2 504.7 190.4 512 256 512s125.8-7.3 170.4-19.6c22.1-6.1 41.8-13.8 56.4-23.4c13.7-8.9 29.1-23.6 29.1-45c0-13.5-6.4-24.5-14-32.6c-7.5-7.9-17.3-14.3-27.8-19.6c-21-10.6-49.5-18.9-82-24.8c-13-2.4-25.5 6.3-27.9 19.3s6.3 25.5 19.3 27.9c30.2 5.5 53.7 12.8 69 20.5c3.2 1.6 5.8 3.1 7.9 4.5c3.6 2.4 3.6 7.2 0 9.6c-8.8 5.7-23.1 11.8-43 17.3C374.3 457 318.5 464 256 464s-118.3-7-157.7-17.9c-19.9-5.5-34.2-11.6-43-17.3c-3.6-2.4-3.6-7.2 0-9.6c2.1-1.4 4.8-2.9 7.9-4.5c15.3-7.7 38.8-14.9 69-20.5z" />
-    </Icon>
-);
+const StreetView = createIcon("street-view", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiQAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCJwsGAAE2AiQDCAQgBYMtBzIbKQXIjsJxr4QitFhMFgylxBFBsd/r3j0IoWMPADIax0cReVJxcWkraytkha0xnW+rUP8ju5y5/fBjbACpg1pAJcw2bVwm3c//NfXi+dEBfqNDqaJKkOvn63o+gQFutDeMIokCm+kEbNZO/0IS/WKQJD7JMN6wOUAZm6QRKvILcwW8lw+NX2Q1ktoKAIheAGDvJCwA9t7wLfCyuUz84AcExB4AxiEKFBiGYBMRGMYyDpRKwU/kcPx/IAUIIGqQh0tQosIj8AooQSpKlqDmGptLkBXJrvizhnXntWcVhnTm9BaUwye1EWdlAJ8lu9hsjMAvGmyckY/CDuyQ7kHEft15Tf7wGbl+9SP1TolOmS5Jt2TK4jniNWpVq0farOyX6paa9pyW6dVY1liTakH9LPzFd3pB8UEzVqrzIvPfKleZV+D0RBq/fzdI3T4paVQUoK/dmNBbqxAD7afg81UTxvajwsyQ8UV9faPOce8eXIchMpy/jSsiXNs+XSDjLpYO6diRKZge70GYXH3/48iEhEtGnNWZqISHn73uJUGSu9czd3cTk7ozAAgEZ9NpIknCm/952QxAY+P3X/4VNfcS8hvQKkFQTDb1IT5BEgCAjEpQTUAgXSLkWjt9CBDaESDV2gUoDBGBoNRuAoLKKAsIau0OEFHyQRiU0EHqdAcKyxpAadAiqGw6jWqDQbDHIof9+iV5WtRjETUxNKa2dFvTODjRadaOHqvalaFHhzZCpiKFymVIl6N8wEsFpBUKeGqYhy+iTBgyRtmi183n9ZEylCqTo0hhnscOfR9qq9SH65DBEMJ5JSmJZGNZNkAoAAAA");
 
 export default StreetView;

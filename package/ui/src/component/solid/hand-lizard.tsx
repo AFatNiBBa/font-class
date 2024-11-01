@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-lizard` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-lizard?s=solid hand-lizard}
  * @preview ![hand-lizard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-lizard.svg)
  */
-const HandLizard: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 112C0 85.5 21.5 64 48 64l112 0 80 0 46.5 0c36.8 0 71.2 18 92.1 48.2l113.5 164c13 18.7 19.9 41 19.9 63.8l0 12 0 16 0 48c0 17.7-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32l0-13.8L273.9 352 240 352l-80 0-48 0c-26.5 0-48-21.5-48-48s21.5-48 48-48l48 0 80 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-80 0L48 160c-26.5 0-48-21.5-48-48z" />
-    </Icon>
-);
+const HandLizard = createIcon("hand-lizard", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYwAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBPgsGAAE2AiQDCAQgBYMtBzIbwATIHgl27MhWxHD7Yzz8v670vi/NHluzRpaJZ41MHSCUDrfpmIou3OakTL1ZG/yeIWz4U6eexzYF8I2CtocGZIGE5jyPQETTRQUr2LKCFajiFbDqNtHDjiB8JYaUSHR8Hm9HV8jj4+yKCull+gX3x5vGvzq5QtI0AxAtATB97crFvvgr/or4uRHxs4UIiOmgFMiQoasAk2QCXeVK5HLBX9HYKP+BJQFEHb3fBHJkmI0FgBwkkeeTq5Vm+Zpqpched4h43r9a/Xby6nifEOJC2ydFEbfaP4uINVEU77R/1vl1h4T4LptdXoHaz9+m1wctP/jPL3t+sSz7ld9qx85fGHbsjUm967VU0/zGjebb+HJzixv0ulD77dcs+/W3Wm2ZwcuOfQ8IBH9dr60tJv3fpJrAPx+9/IaS9AGaSCDIhjQOsSmBRAAAUpzRK0EgmSzRV633TIBQIEBSpxAg00VLAXKFwQJUdDdagDqFlTKRNxXa2jxBUu84yIxxFuTa+hBUTPK9X6dtZHXEVgH7ikuag9DsrbJhWK2cUG4TxpUG3ZcTy7Q14ExrDKRdexx1xCm77bLfKSBPWByddticiJjtg0oNhqkpTVAe53tpDfgnnLR/rTtfM1F53xvgTNw/kNxEKUeIJYlI1bLTh/55a5/YBQA=");
 
 export default HandLizard;

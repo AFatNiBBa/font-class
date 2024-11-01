@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wheat-awn-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheat-awn-slash?s=solid wheat-awn-slash}
  * @preview ![wheat-awn-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/wheat-awn-slash.svg)
  */
-const WheatAwnSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L362.5 258.8l28.7-28.7 12.2 12.2c37.5 37.5 98.3 37.5 135.8 0L550.5 231c6.2-6.2 6.2-16.4 0-22.6L539.2 197c-5.2-5.2-10.6-9.8-16.4-13.9L569 137c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-59.4 59.4c-20.6-4.4-42-3.7-62.3 2.1c6.1-21.3 6.6-43.8 1.4-65.3L473 41c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L393.1 52.9c-3.7-5-7.8-9.8-12.4-14.3L369.5 27.3c-6.2-6.2-16.4-6.2-22.6 0L335.5 38.6c-37.5 37.5-37.5 98.3 0 135.8l10.4 10.4-30.5 30.5c-3.4-27.3-15.5-53.8-36.5-74.8l-11.3-11.3c-6.2-6.2-16.4-6.2-22.6 0l-11.3 11.3c-3.3 3.3-6.3 6.8-9 10.4L38.8 5.1zm255 322.4l-50.6-39.9-29.5 29.5c-3.4-27.3-15.5-53.8-36.5-74.8L165.8 231c-6.2-6.2-16.4-6.2-22.6 0l-11.3 11.3c-37.5 37.5-37.5 98.3 0 135.8l10.4 10.4L73.4 457.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l68.9-68.9 12.2 12.2c37.5 37.5 98.3 37.5 135.8 0l11.3-11.3c6.2-6.2 6.2-16.4 0-22.6l-11.3-11.3c-21.8-21.8-49.6-34.1-78.1-36.9l36.3-36.3zM569 41c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L447 95c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l88-88z" />
-    </Icon>
-);
+const WheatAwnSlash = createIcon("wheat-awn-slash", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABlwAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCXAsGAAE2AiQDCAQgBYMtBzYbYgXIHgPuxvmtFCxoou9pYl4gDaXl4WuM9v7unqkmB0LTkJiuIYtYPrJZKHTyDdUN8u9tNhA3tiuJ73eRO6HWXQl1cAME1P8/uKZ+lD21n9Gj1QKLIrG4qIMnMJ1GYTbodDibKG53tmMexa6Vlhhp3J7l+GTnMNpAid+5CSfpSboBt9KHxi+ymiCpyQCIZgCwfzosAGdvydvI9bchvvMDAbEPYBhBRkY/ArawC/TjMAyKIjgk/x/+AykEEJWgN06goAK3wHMABSS5cPgbCdRxCnJE8nPyxa20j3WUkOWuyc5UoldHr+o656TJo04p8rDTiTzrXRkPJivjs4Nh4rInD9Xx7RLkQN2MJJnu5WIdf789MiYwIBCNoeVEd6C6juG6zq6ozfK3TaesE8LJWM/yVJQq08z8UbnJvIHmp7mvG/+C7sFn8z86cuhJU+v6AB3XDlB18QUPD4KCLN/e9RWPy3IvvM6w7B2wcKOleTOBz/A5ZExk4L6xf+efqxZZbjLyn1n78JrjSa2jp3A/ivYGwfbHgoJjx9xx6FpL84lB51UGIq/XxJQOeqOiwDcDAsHA0NKPJGH78fCzAX4efP2BR/7n91NrYkC1BII8f33xqW6Qn12RW4WiEqrwTUJyCTvy1ntojYVaBJJKtZD1EYGi1hxUGGSxQaVax7GLwovQLoFAUu8sZJuqoWi3CRW2nIcrtUd2S92p9E9hVk9xj37UxNCY2tJhWjE8TY3tdnTZpl1ZmQ4sRKYihcplSJejHK5UQKxCAc8Z6+GHKBOGjFG2qDl3a40kXKpMjq7bEb3Yoee92irntXXAyYYUV6UmiUjCVc9niEFKVaFBWX5KWTYAAAA=");
 
 export default WheatAwnSlash;

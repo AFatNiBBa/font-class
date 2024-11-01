@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice-d8` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-d8?s=sharp-regular dice-d8}
  * @preview ![dice-d8](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/dice-d8.svg)
  */
-const DiceD8: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M232 488l24 24 24-24 9.9-9.9L473.3 294.7l4.7-4.7L512 256l-18.9-18.9-15.1-15.1L289.9 33.9 280 24 256 0 232 24l-9.9 9.9L33.9 222.1 18.9 237.1 0 256l33.9 33.9 4.7 4.7L222.1 478.1 232 488zm0-67.9l-89.9-89.9L232 361.1l0 59zM69.4 254.5L232 91.9l0 218.5L69.4 254.5zM280 91.9L442.6 254.5 280 310.4l0-218.5zm0 269.2l89.9-30.9L280 420.1l0-59z" />
-    </Icon>
-);
+const DiceD8 = createIcon("dice-d8", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZgAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBZwsGAAE2AiQDCAQgBYMtBy4b5QTIHoNtszknQRLJY98B4zAGV0TVqmX1zD0vhH/Do9B/ePThcOAkGotcZXEIdYFFowcear/29p8rvphZMmluicZ0ktUbQhPxkEg0khdO1sTlzv/86QHHJHqkMW3SWLYG/T0113kCgT51aRdIFFAWWKYJWH47+dRvEL1B9E1OkmG8we4BPadZp0F91ht8+A/NnyBrUDQNADkFgKdDWytXHzkmr2Mf+dYMAXkCXBHQoMEZAdxSEXBGTUKnJnAUY+j/QIkAMgfPKqDDAp7hHaADRdPViQvEJo1F3RkGjB2JSYnJwpcuiS9PUrzpxCclIe604xNSGk86tM4O3RE6D+1dCMc2UbuIotg4HDXZp6/It+E3PuNXcB/bHBxQwyHKN6enbLNiwpb2N1Ecakh3uyZI4RR/7QRo7wTyfgJhnncLwdvXpBgQCF7ebv5fbbf/epMC+D35+ZF+ReOqKBMsKUDQrkeK/gIKAQCoLBNVQKDU0sC7bm0ggDBCgKJlJIAmhJ0AOqNkApgJl0sAc0ZtVEQ3ILgNVFhhNger5FmF1dx2YY0Sj6mWOyreEjhD+Nql1vVA7SWZmZYhiyQ5kkV24expsdzWE5bNSqK4ybAZ0xYNGTRmsYPmtRZLptStwFpfJGVKk0EqIo+nj9c7DZm3YMyMaXdOMXnfS7C83p4oLAUYb/SKgpTu8bBTBwE=");
 
 export default DiceD8;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge-suspension` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-suspension?s=regular bridge-suspension}
  * @preview ![bridge-suspension](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bridge-suspension.svg)
  */
-const BridgeSuspension: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M149.1 12.5C145 5 137.1 0 128 0c-8.8 0-16.5 4.7-20.7 11.8C94.3 33 80.7 53.9 65.3 71.5c-15.5 17.7-31.7 30.6-49.4 36.9C3.4 113-3.1 126.7 1.4 139.2s18.2 18.9 30.7 14.4c28.2-10.2 50.8-29.4 69.2-50.4c.9-1 1.8-2 2.6-3L104 240l-80 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l592 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0 0-139.8c.9 1 1.7 2 2.6 3c18.4 21 41.1 40.3 69.2 50.4c12.5 4.5 26.2-2 30.7-14.4s-2-26.2-14.4-30.7c-17.7-6.4-33.9-19.3-49.4-36.9c-15.4-17.6-29-38.6-42-59.8C528.5 4.7 520.8 0 512 0c-9.1 0-17 5-21.1 12.5C455.8 73.6 390.3 112 320 112s-135.8-38.4-170.9-99.5zM200 240l-48 0 0-147.2c14.5 13.7 30.7 25.6 48 35.4L200 240zm96 0l-48 0 0-91c15.5 4.8 31.6 8.1 48 9.8l0 81.2zm96 0l-48 0 0-81.2c16.4-1.6 32.5-4.9 48-9.8l0 91zm96 0l-48 0 0-111.7c17.3-9.8 33.5-21.7 48-35.4L488 240zM0 360c0 13.3 10.7 24 24 24l16 0c30.9 0 56 25.1 56 56l0 24c0 26.5 21.5 48 48 48l49.4 0c25.7 0 46.6-20.9 46.6-46.6l0-1.4c0-44.2 35.8-80 80-80s80 35.8 80 80l0 1.4c0 25.7 20.9 46.6 46.6 46.6l49.4 0c26.5 0 48-21.5 48-48l0-24c0-30.9 25.1-56 56-56l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0c-57.4 0-104 46.6-104 104l0 24-48 0c0-70.7-57.3-128-128-128s-128 57.3-128 128l-48 0 0-24c0-57.4-46.6-104-104-104l-16 0c-13.3 0-24 10.7-24 24z" />
-    </Icon>
-);
+const BridgeSuspension = createIcon("bridge-suspension", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABtAAAALQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDNgsGAAE2AiQDCAQgBYMtBzgbvgXIjtMd80BiaHSC5//z3t/nJk9JkcqpnNdPawSNDKy5NYJDgN3u9/j84lGLIAuKgt7kt4TbWkBBGDSP8EeOqc+gg5TRkSKp094aUfxd4PNqyqb024F+UfyUu4cSsGnYupZAlz+yEA+oVeousED/UPlIgllQeDQAAMQCAADqdGrXgovPwjORO+4xkDs0AwRA6gBgE0ADNCCZAFCdhgDJdGygoyPwTFyX/QfaIAAgXkyUYpIO+IHz4CoU3UHh1fUaAejSwfSE6h3dFxjdlscujd6ZtzNra8Kq3DOlK+IQQ7bGr8oOlx1Jq3MMEVnGnLyvyrakNTnbC3YXdG23t/JJY3bV0yUdDLPWvCsbM4Rtw+3IHVFI71XZpmyLWZaArBI04ws74lYkiWwo3FPpWP6ulAruGiTNNWc1Hc3bmbwSj801zzd8qp+1mWl9we6Ka7tJxm5r9+f0uwPvsvQa9j3cSocNXVml/pL6dZMlc2lNm5iYNp7bXIiwqdbtNKweUkqHPnxY9t263Ve8fesoe+E4zhLarR+9GMRuDJzRhtiGGet0tdGsG/e3k2LaWIz+/9UXj3bvURfEee9GQToOsKwBHUXQsvSKLv+9GI/v6//R1rwKi4MFQJrD4Slfr3XreuU9DvHMe4/OpvMBQACBkPln6s/h1b/5TQXAi9Nfvwc7us291Sy1G/CjABDQitwiuqtpKqCVQTAtSiaSAWuJAIrjrgcxhOXkzRAMQABQeDEQADSSWAQAHYNCAoCHVBUIAF4M2qEhegAhWo+EoghhDEWjoskUnWhHKB6qu2HxEh20e5h5BzK/IOM1zIIbVLODJY5d1a4NiVi3JV0prWZ3FuZNLKTkw7EMZBQjGc8A+jOE8RnCWFrYJzCChk34BvwQW1AJh60qe3D0Iq9jxjKWcQyp5gyvpBp7em2eic3Z86FEYVIt46NQICriveIX/25BPw8AAA==");
 
 export default BridgeSuspension;

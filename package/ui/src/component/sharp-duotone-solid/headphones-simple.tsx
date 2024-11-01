@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `headphones-simple` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/headphones-simple?s=sharp-duotone-solid headphones-simple}
  * @preview ![headphones-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/headphones-simple.svg)
  */
-const HeadphonesSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 288L0 392l0 24 48 0 0-24 0-104C48 173.1 141.1 80 256 80s208 93.1 208 208l0 104 0 24 48 0 0-24 0-104C512 146.6 397.4 32 256 32S0 146.6 0 288z" />
-        <path d="M192 288L80 288l0 192 112 0 0-192zm128 0l0 192 112 0 0-192-112 0z" />
-    </Icon>
-);
+const HeadphonesSimple = createIcon("headphones-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABbwAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBSAsIAAE2AiQDCgQgBYMtB14b+ATIhof/XxO7788kBaBpFSM4IE+gWh3bKiDYXZuzkkhn5NR44/3x87DiRfvXCtJdwHvjExjg+XZ9vPiEZjoD29uGI4IicXQiREwiGk8bryfk8TU7q0S6kd7jHP4PYPyqnbMk9TIA0RQAE5YtmuNxNaop3tfuEO/NRkBMBIVAhgwdBRgtE+goVyCXC6qpVqMatVpBAFGG785AGSVMxgJADpIk8rxevZ4NSo3ypQ1K9ZfVb1BfNIhoIJQtUT8E0SDgyE+Lvi37YcGXJUJc/+PEp3M/Lv0++/34x4u7VZpWfu/6fut7j27uB/5j+z0++Viw32P73dq+vq3+2toullUqyzoUlUq2nVJvWtt2F05Na4RTF9q1fR0Egl339v+3rsno/+s2SODnu3/+Iv2OatUkVVBXAkHWu9bb6gQSAQBIcVS3xHwEMj0l9KkNXRUg1EeApKy+AJkOmgqQq6+XACWdDRGgrL5FMpHXE1paM5mkoQNMZqhjTK6l20zJaK+KspaReZPiC8pfLnMqB6asKgb07V+MLJYNQ3UQqS6OKrbD7kfzQA+4aKt99jpsi812OMzwg+ZUjthjqgVO8UWFAfrqrzBScdxemktZcdAhO3T9fJlRivt5d0ft8T0gSUh0oC2ZjEiRtfM55VU6fWLS7ROaYzqoeiAC");
 
 export default HeadphonesSimple;

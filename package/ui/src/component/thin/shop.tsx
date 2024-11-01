@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shop` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shop?s=thin shop}
  * @preview ![shop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/shop.svg)
  */
-const Shop: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 185.8c0-6.4 1.6-12.7 4.7-18.3L82.4 25C90.8 9.6 106.9 0 124.5 0l391 0c17.6 0 33.7 9.6 42.1 25l77.7 142.4c3.1 5.6 4.7 11.9 4.7 18.3c0 21.1-17.1 38.2-38.2 38.2L576 224l0 264c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-232c0-4.4 3.6-8 8-8s8 3.6 8 8l0 232c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-264L80 224l0 240c0 17.7 14.3 32 32 32l224 0c17.7 0 32-14.3 32-32l0-208c0-4.4 3.6-8 8-8s8 3.6 8 8l0 208c0 26.5-21.5 48-48 48l-224 0c-26.5 0-48-21.5-48-48l0-240-25.8 0C17.1 224 0 206.9 0 185.8zM72 208l496 0 33.8 0c12.3 0 22.2-10 22.2-22.2c0-3.7-.9-7.4-2.7-10.7L543.6 32.7C538 22.4 527.2 16 515.5 16l-391 0c-11.7 0-22.5 6.4-28.1 16.7L18.7 175.1c-1.8 3.3-2.7 6.9-2.7 10.7C16 198 26 208 38.2 208L72 208zm64 40c4.4 0 8 3.6 8 8l0 104c0 4.4 3.6 8 8 8l144 0c4.4 0 8-3.6 8-8l0-104c0-4.4 3.6-8 8-8s8 3.6 8 8l0 104c0 13.3-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24l0-104c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const Shop = createIcon("shop", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjgAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCWwsGAAE2AiQDCAQgBYMtBysbVgXIhof/15nd9yXrTGTPsDMJK0S4BNARoasFrtIt4OmBaf6vqRfWdICfj+BQOnUgBTLKfD6BgY+amgosbThrQZ9tS0zIX/mJiJCxHSKxx8s9XltAHn87XI10W3od17Q7ja8NdiFJlgGILgCs2mu3bXZ8EB9EvP7/M8TrtiAgVoNKIEOGYQIslQkMk6uQywUfxP//1//AigCioCebQI4arsNtgBwkWZ7v0T+8XmvP96zXyuy8/r3ijgnt8dDgPeIm5/bd2FdGilvHlvHwkIhb+m9qipua9TU3i0aIc5s31etxRf8tAfRb/aIzGHiz8BO6/HexR3uj85Gh5w3cM24e34gH+3aPG902rr7tjBbT3jj26FZX69tRrx/5uqLcsPVqnz9+iXs/33qVjWVX67EfhmjT3KWyS/MLxcEHF8OvyLA2H/hBx6WXdnxA1tvgQG/L3nhn5gdmvvNG9oMhulqtrg3NH37omdVbjN16lXu6LlHd06eMLXpnjf794OJoxcHXYpH95i4G26W5OxAIfjuoPu+gzqW/ttUT+OjF7/8q2/t/Rzo3tdAmgSCb+v9U+6dzobADSKU402jwQIHkMhm91YabBQglAiSFUoDMUF0C5EpTBKgZYZ4AhdJuMpEPEPocsEHScArIzHcWyPV5CtQs9VKy0BdZVso5Jf8UZqy36LpB1azpM6vF1WPOUhJNhL1LKncw8UypmUQjHekkJzrdEQ53jNMNc6ptmTOcYD2i13miyizTzVRZrAoXvxp7cvJUpznmXov3s0R1PjHRmbj5JIoT5ZwtK0lEyj8DAAA=");
 
 export default Shop;

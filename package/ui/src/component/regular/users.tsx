@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users?s=regular users}
  * @preview ![users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/users.svg)
  */
-const Users: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 160A80 80 0 1 0 144 0a80 80 0 1 0 0 160zm368 0A80 80 0 1 0 512 0a80 80 0 1 0 0 160zM0 298.7C0 310.4 9.6 320 21.3 320l213.3 0c.2 0 .4 0 .7 0c-26.6-23.5-43.3-57.8-43.3-96c0-7.6 .7-15 1.9-22.3c-13.6-6.3-28.7-9.7-44.6-9.7l-42.7 0C47.8 192 0 239.8 0 298.7zM405.3 320l213.3 0c11.8 0 21.3-9.6 21.3-21.3C640 239.8 592.2 192 533.3 192l-42.7 0c-15.9 0-31 3.5-44.6 9.7c1.3 7.2 1.9 14.7 1.9 22.3c0 38.2-16.8 72.5-43.3 96c.2 0 .4 0 .7 0zM320 176a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 144a96 96 0 1 0 0-192 96 96 0 1 0 0 192zm-58.7 80l117.3 0c39.8 0 73.2 27.2 82.6 64l-282.6 0c9.5-36.8 42.9-64 82.6-64zm0-48C187.7 352 128 411.7 128 485.3c0 14.7 11.9 26.7 26.7 26.7l330.7 0c14.7 0 26.7-11.9 26.7-26.7C512 411.7 452.3 352 378.7 352l-117.3 0z" />
-    </Icon>
-);
+const Users = createIcon("users", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABmwAAAKNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCaAsGAAE2AiQDCAQgBYMtBywbZAXIHge5ifVKKCaTSb3TePh+v3bu+7KIWPOkySNZJZEJTSuzCZNWyITKUCkB///9e9sn8Xsx7v+B0JGqJA+gKt2gaGZNJZSG+f9c8/lZ0wF+PoJDi7JeBUZaRArs+QTaKng+GthsRBPh2WZDhO2xFfeRiJS2WUiPn49vJ8jjNw2hID2JvAJU98XxB03dJEUGANGCXbC6HRWCe5/oE9HL/+cgpyMIBMQqgBGEDD9jAIEFogIDxIyAXC74of//6T+QAQFECaDJb+Wowx3eADlIanIxWVlVNVltOSVeXFYslhfnki5tDq0PnM8s96z2nWRVRvq0EU8d7cE7wg71DY6jM9MtnQye4ze1F8x3nDnqMRzH54K7Q+y65rTGlOGG1oz2rAl6R4mqa5Y6tMt4g9uUtbGGi2XYaJ2PDmavm21rytCsxS6nPfIkusWGquzTU1e87/hywh2Fnc+CV7mvMDh8rzYurvae9JSr3f/3KAmuANz08VoBGuZ49/697JjKFVwCJdkeeWcOjbXp4m5go7r08vKSbBqSDBx8PdHUfPI4OVnLVBWXe1gtXvwuPKNIC0Wn4e9sy2OAzYpGRyA6eiRjYsprAQgEZ9+N99LkPb9K8SKA3xtfvuG4+/+eSLvIDqiRQJBN/bdEcmoHCjOAWIpaCJ0PCiS3auBdG9wLEOoQICnVCZDpp4BArs4kAoUhTgiU6qwTFbk0QoeUC5IG55CZ1wK5DqdQWPA0WuoI0eQUUkv4NUz1tYjPPGZnbcvc2bLqFPONa9Me7LVuWlu7zGgrcpUpVS1HtgLVhq4UkqhRwtejfHwRY8eaLcYdCze+q7Ecq1SlYC7GZ+GBfe83VesPNiNLBFinFSSJSOK5DgA=");
 
 export default Users;

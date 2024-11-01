@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `boxes-stacked` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxes-stacked?s=solid boxes-stacked}
  * @preview ![boxes-stacked](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/boxes-stacked.svg)
  */
-const BoxesStacked: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M248 0L208 0c-26.5 0-48 21.5-48 48l0 112c0 35.3 28.7 64 64 64l128 0c35.3 0 64-28.7 64-64l0-112c0-26.5-21.5-48-48-48L328 0l0 80c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-80zM64 256c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l160 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64l-40 0 0 80c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-80-40 0zM352 512l160 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64l-40 0 0 80c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-80-40 0c-15 0-28.8 5.1-39.7 13.8c4.9 10.4 7.7 22 7.7 34.2l0 160c0 12.2-2.8 23.8-7.7 34.2C323.2 506.9 337 512 352 512z" />
-    </Icon>
-);
+const BoxesStacked = createIcon("boxes-stacked", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABggAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCKQsGAAE2AiQDCAQgBYMtBzQbLQXIhofv13o793XPr6QnDB0ABpVFUCGQS+iWhQKyqMjN9Pfz/J9/+oCPv0gUWhSWFhdI1vp8Aikyb6Cd72bD2cwmoNNt4mOHEH4RImUjouOUjqcT5PF9dl2F9Eb6Fs/VN43ftXWdpH4GIJoAYMqqZQt8/kv8EvFN7R3iG/MQEFNAKZAhQwcBxssEOsiVyOWCX6JW4//AkgCijv6yCeSo4AwuAXKQZHneo2fPaqVhvrJaKdYV1eJui5fbiDf6POpRjQf9nrSPeLPVqz2LEC+3KOLVVrH8bu+Ih5jW9/FBothSLarzp4gb3V8hLre4V+36uMnjP7t8u/Nb/33Wu3fvwT98lx1WNG1687KbTZsWh2Xf/TC4t8Ua/TLYL40Wv1e72ZSmxWWBbgpWJFfvzrUYy83Hat3wUrObml1q2BoIBC88nD1xU+Px/9SrJvDbh3//r91d+zxNTo9RTwJB1r/W3/o0GRgdgJ/ipK7ggwLJERl91QZeFSAUCJDUKQTItNdEgFyhnwAVnYwQoE5hmUzk9YUWNhhIGjgCMiNdALkW3gIV433h1WkRWfIJqSP8/VJnemjGpnLIwMHl2HJZ6GI+cbI6rtzWep8sgz501E6HHHTcDtvtcdwhRy0ITzhgJoJn+KLSEAMNVhqrPK4f1ZXOP+qYPbF0vs445X2rt5N4eh8yE2UdKpYkIjV8lpEBx45v2bZvx3Y=");
 
 export default BoxesStacked;

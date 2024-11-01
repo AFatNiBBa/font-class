@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-from-portal` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-from-portal?s=sharp-thin person-from-portal}
  * @preview ![person-from-portal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-from-portal.svg)
  */
-const PersonFromPortal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M121.5 449.6l.6-1.6 16.9 0c-14.6 45.4-35.6 64-59 64C35.8 512 0 445.4 0 256S35.8 0 80 0c34.8 0 64.4 41.3 75.4 151.3l46-46 9.4-9.4L224 96l64 0 6.2 0 5.7 2.3 80 32 11.3 4.5 5.4 10.9L435.8 224l44.2 0 16 0 16 0 0 16 0 32 0 16-16 0-16 0-64 0-19.8 0-8.8-17.7-15.1-30.1-9.7-19.3L354.8 241l-22.2 57.1L401 340.9l20.4 12.8-6.6 23.2-32 112L376.1 512l-49.9 0-16.6 0 4.6-16 7.1-24.8 25.4-88.8-86.2-53.9c-25.1-15.7-36.1-46.5-26.8-74.5l26-78 5.3-16-16.9 0-10.8 0-38.6 38.6-11.3 11.3L176 221.3l-11.3-11.3-5.7-5.7c.6 16.1 1 33.3 1 51.7c0 36.4-1.3 68.3-3.8 96l-16.1 0c2.5-27.4 3.8-59.2 3.8-96c0-94.1-8.9-155.9-22.5-193.6C107.8 24.3 91.8 16 80 16s-27.8 8.3-41.5 46.4C24.9 100.1 16 161.9 16 256s8.9 155.9 22.5 193.6C52.2 487.7 68.2 496 80 496s27.8-8.3 41.5-46.4zm36.3-269.2L176 198.6l11.3-11.3 38.6-38.6 4.7-4.7 6.6 0 27.7 0 22.2 0-7 21.1-31.3 94c-7 21 1.3 44.1 20.1 55.9l86.2 53.9 10.2 6.4L362 386.8l-25.4 88.8L330.8 496l33.3 0 3.3-11.6 32-112 3.3-11.6-10.2-6.4-68.3-42.7-11.2-7 4.8-12.3 30.1-77.3 13.1-33.6L377 213.7l24.7 49.4 4.4 8.8 9.9 0 64 0 16 0 0-32-16 0-44.2 0-9.9 0-4.4-8.8-39.2-78.3-2.7-5.4-5.6-2.3-80-32-2.9-1.1-3.1 0-64 0-6.6 0-4.7 4.7-48 48-7.5 7.5c.2 2.7 .4 5.5 .6 8.2zM400 48a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM368 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM193.6 352l13.7-37.2c2.9 6.2 6.4 12.1 10.6 17.6l-9.2 25.2L204.8 368l-11.2 0L112 368l0 32 115.2 0 16.3-44.4s0 0 0 0l13.9 8.7-19 51.7L112 416l-16 0 0-16 0-32 0-16 16 0 81.6 0z" />
-    </Icon>
-);
+const PersonFromPortal = createIcon("person-from-portal", false, "data:font/woff2;base64,d09GMgABAAAAAAOYAAoAAAAAB3gAAANMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTCFDgsGAAE2AiQDCAQgBYMtBzkblwZR1Mk9SUX2sfryvqTYZAQPtenPWyBplwox35obyRdzOYr6mQ4Bbb01/b3j2iDb33lgeShjT1pjnCcQ4MeyucCXZaEG4DGkoF4zwMXEW8e1NeTjGbsqkFyVvIsLvDeNX7U4lUQuByBKAFjQvWmNF7+KryLeqTxGvGMVAmIByARyyKFdgNlyAu3yMuTlBV9FpaL9B2YEEFWCO0xAHtVEFzEbkAeJQj5//JHlur6DioW++XKxkG4JUYz3pj468eHyh5MemXLHmPu2zIumKBYbYks0BOi1QQjJadoahuYY3yIYkhs2RzMgm6ItuqMct7de3QZBE2eYHfUhrHHKVU5sT+OG+GDi1Y2X1xOIS5sf3Pz+hKsaLmsiOVe0bTNi5Iim2Iu5Ev/SNmHDjqL6VbHFYK4laHRFjXV4V7TEhGgY6Y5I0zZ2SqeU9bHjkSe6TPdJjRGXp2fXX+rEhsuK5zRdEWNva7mq+crBp6O8ZlhPV3vXZQ3N6WkqijEuTgoNDTGeFkXwY4oD7y7d/Tvv7v6uoyJJkhqNCybU7L21c5yz9d41N06cVL3+c1fqu3SDdV1utbWha4zOSjIlpV1P8ruTHaLHopFmK+s6wO4mlubZU0uPLZPN3mWX3VrWWKemWPa0u91ti+r2adNLpk9zdvmaO+868cS77rym7GyU/Z5BfWvxKPfYzWJVE3fVuZ1167b/aMsUlxmluccmA4zSdYCZbrdohNut1rHaiypONF26PlOaOt2wNRqces5MbtlkFYdLkkj+PqXfmZzZLy3RYiv+8D8IfTu86m28vPssMxQ3Zg5RlANvGOT40sVFcFMg2LLVM3ft0H/2/72KCfjm6T9/lX+LKs8nkrvRSwKC3OjKaNsmICEAAEkcbmACgSSaFOBV+7hcgJAiQKJKKkBOm5IAealRAhR0miJAldQmOZHvLdTbrgaJPg4COVMdB/LqPQIKZnvDU6U+cu8L+25n/60mCC+lEUsmZRPGjs9mZp0lJecVYNqjs7LRiuGH6y0jMNPuDrC/Q+1mV3s5lMIdbI3/MPtZ2ke95LOZCcYaLzNTNrs6byjbLRUcQjPbufPHmSVb3zLc4f3dR0CdCGhOlJNIiKT29RKO+bLEYz5QAAA=");
 
 export default PersonFromPortal;

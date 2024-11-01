@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `buildings` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/buildings?s=sharp-thin buildings}
  * @preview ![buildings](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/buildings.svg)
  */
-const Buildings: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 16l0 480 288 0 0-480L208 16zM192 0l16 0L496 0l16 0 0 16 0 480 0 16-16 0-288 0-16 0 0-16 0-480 0-16zM160 144L16 144l0 352 144 0 0 16L8 512l-8 0 0-8L0 136l0-8 8 0 152 0 0 16zM64 320l8 0 64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8zm16 16l0 48 48 0 0-48-48 0zM72 192l64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8 8 0zm8 64l48 0 0-48-48 0 0 48zM368 400l0-8 0-64 0-8 8 0 64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0zm16-16l48 0 0-48-48 0 0 48zm-8-112l-8 0 0-8 0-64 0-8 8 0 64 0 8 0 0 8 0 64 0 8-8 0-64 0zm8-64l0 48 48 0 0-48-48 0zM256 400l0-8 0-64 0-8 8 0 64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0zm16-16l48 0 0-48-48 0 0 48zM264 72l64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8 8 0zm8 64l48 0 0-48-48 0 0 48zM256 272l0-8 0-64 0-8 8 0 64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0zm16-16l48 0 0-48-48 0 0 48zM376 72l64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8 8 0zm8 64l48 0 0-48-48 0 0 48z" />
-    </Icon>
-);
+const Buildings = createIcon("buildings", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABvwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhECEbAsGAAE2AiQDCAQgBYMtBzAbbAbIjtIcNNI5VNPi4f/nqu77SVHSkCHOjGKCBUcge9SCsADgAIWtsxbV6koEZvqJm2mDoijAqQFnhVS/xgTeGx9kLMDXv6dlU+jtwRJKiN/aHKd8T7T89kSY2RGPOCzisHWHPL5yWYP0RgpD/qPxl3FeJMkyAFEBYMOxQ3t8341uxC+9T4hf7EJAbAC1QIYMEwVYLROYKFcjlwu60ett/4E1AUSTySqBHKOIQWIiIAfJiDzvDBs1rDOikzNloz8/KpcWp1KW+iOLvtFl0S9SiKIvbow4XJRFihIuMlGWDu/JUhAgIqMEDkTXo01alFPLoiyEC6FSUdPWtOJoURahpoPd+jsc6PfkmDrB9tjxaW9Wb/4z9der+eO9rp2vddW9qlpf6apU890zZegRHjzvkcrrbe5ra79enXuP/W3rtbW3w9qbDy1Zbg2tX7/9OaT9jG4wZaitDaR1r64Iz2e+63fZKH6Dr8x77TN8DgSCY1vf/dzg6v+VCfz55X9/uVz1vk/Sm2hLIMhm92Y7nUAisFyKJ00jEgukaBkB+NY+rwoQCgRImgoBMhNUAuQKswRomGyJAE2FQzKRd4SRzlx40ucBnlnqKTw30kd4w2o/5JpGRrY8FJNb8XOadmsJbzlUL5g7v15Zv5adyhkvHOOr6s/W6U9q2wycdNU9dz3uistueLzAHtpTfMIdWxm6hYRqC8w1X22lOly71h7NuYcec6NtEl9klbp/cLonee8ZcCTGuVBJkojUWYQ=");
 
 export default Buildings;

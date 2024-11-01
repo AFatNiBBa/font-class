@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-security` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-security?s=sharp-light camera-security}
  * @preview ![camera-security](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/camera-security.svg)
  */
-const CameraSecurity: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 32l0 352-87.1 0-209.8 0L32 384 32 32l384 0zM32 416l69.3 0L65.8 480 48 512l36.6 0 278.8 0 36.6 0-17.8-32-35.6-64 69.3 0 32 0 0-32 0-352 0-32L416 0 32 0 0 0 0 32 0 384l0 32 32 0zm70.4 64l35.6-64 172.1 0 35.6 64-243.2 0zM320 208a96 96 0 1 1 -192 0 96 96 0 1 1 192 0zM224 80a128 128 0 1 0 0 256 128 128 0 1 0 0-256z" />
-    </Icon>
-);
+const CameraSecurity = createIcon("camera-security", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfwAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCGQsGAAE2AiQDCAQgBYMtBzYbHwXIHge5afSq2Ligf0wiHv5/7nv3uclQ8hnyiUgBowJS7ABbiap1VSmBEbNqEdRzgzE4Z6q3MWux16dOPc95aIG8Rzxoe2hAFtie5xWoYGqbK1QrWE0LAGWvuo0J3mB5O4YheuQY4g3JO+TxMsZrIj1P3+OxvWn8qK+7JHkGILoAYMnWjRvU7dEe8X0DxPfWISCWgkogQ4YBAsyXCQyQq5DLBe3RaMh/YEUA0Ux/SAI5WnAWVwE5SJryvG1wW//+ZVPHfEvZVBxNWSo6ZNHxUFmUi2N0lB3HxtIoy4gsIooOIoUoNy9bvKyMJVHsvNmH8Wx4FvdGdj+PW/1j1JT3R1Rfs+XeaMY7o9fNMVfx8v64x+PWWO0UQ9/rop+HfH/ke2+9tQ+ErWP2uXnjxoqHJhlsxLzBJllRVfapVG+buWIRzvvAIn/Wud8XfLHrVN++p3Z98UU/ysju3hvDauqBHYcO7Tiwrochg+eBQPD/H7bv7Tz/79YygR8+/vV3+xqhUUed3kOrBIJsfGO8XVFD1AIAkOKKoVEjkBzVRF+1gycChAIBkmaFAJn+ugiQK4wToMkgMwRoVtgoE3mb0MPuApIOzoPMTNdAroePQJP5vvKa9Ygs6ZiUYf58iSsZWnGsmjJxcjW32mYGm0dU386rjs3RV1pnDE464qwzLjnskOMuEXLBhvCy01Z68AofVJlioskqc1Xh8lncQt4FFx1fa+KHzFPdd0e74o+PgZMo6VSRJBGp87vRJuQiAAAA");
 
 export default CameraSecurity;

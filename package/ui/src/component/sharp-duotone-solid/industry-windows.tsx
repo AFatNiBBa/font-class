@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `industry-windows` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/industry-windows?s=sharp-duotone-solid industry-windows}
  * @preview ![industry-windows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/industry-windows.svg)
  */
-const IndustryWindows: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 32l128 0 0 178.1 0 13.9 0 41.4c64-36.6 128-73.1 192-109.7l0 54.4 0 13.9 0 41.4c64-36.6 128-73.1 192-109.7l0 68.4 0 256L32 480l0-96 0-160L32 32zm88 280l0 80 80 0 0-80c-26.7 0-53.3 0-80 0zm128 0l0 80 80 0 0-80c-26.7 0-53.3 0-80 0zm128 0l0 80 80 0 0-80c-26.7 0-53.3 0-80 0z" />
-        <path d="M160 265.4L363.9 148.8l-23.8-41.7L160 210.1l0 55.3zm192 0L555.9 148.8l-23.8-41.7L352 210.1l0 55.3zM200 392l0-80-80 0 0 80 80 0zm128-80l-80 0 0 80 80 0 0-80zm48 0l0 80 80 0 0-80-80 0z" />
-    </Icon>
-);
+const IndustryWindows = createIcon("industry-windows", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABigAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCQgsIAAE2AiQDCgQgBYMtB1wbcAXIrgZsYzJ6MKJ2zZdzlxu+G0phjBfvdRibxcN/Y9/um5kV0ySKuEeoRIuiyZulTWgk4p0t4R+iRfK3YMzdT0x/Il6lzRFtopooidAXCs1jGjSAme172ICDZAAYhOKd7gAW8H/JnHcxcc3zT/sGTOJHilUkeAfuhjvfBJrTCnxCM8VNzXt5gK87tF2gxD8P1JBepRU8c/8DGH8MeCFpyACIdgCw68Kog/cKJX6rI1YcBQGxGzCOkJExjMBWQoFhIuOgKIJKeirx4xBA1MJ9LINaNOEGeAIoIKlRikgO0EBzQSlWi2bcPsXshanZdDQ05bIsRCMhWsHGJkUqIlIiBEixCGWsBOjnLXVFOpGGlHV+Gfna+LB5dWbyQ7v/JsTyfl4Lto1xKj908MWtk8oI5LvdK2xLJMG7fAcf+qjVtMn/JmW0uwm45M2PC801mtAoD9XzAASC8Zevr1/Ubv2fJgHg16f/zh4fr5ZMol4CQZ6raintxEwTSxBcTHHGD+0Xp3ytA8TQtzZ7LkBoRICkVqMA2RAdAkWjWQRqjCohUKvRGUJR5Ajdlis2aXaFzda7ZYtuY7bGVh+lWt3Bo6h5kDQ/ghnbTaC1iVels1zn0ZpC+3QperbBi51TZ7wnBk9izb49J1at2HTSYI50qqd2taewlh9iOWlZrI43N+8aZ3DpyLHNYf32VRr4+GjU2fTwGPQI+JKr7ckykUhoe0utqa/NmnquFzou9+pfYgA=");
 
 export default IndustryWindows;

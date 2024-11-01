@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `squirrel` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/squirrel?s=sharp-regular squirrel}
  * @preview ![squirrel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/squirrel.svg)
  */
-const Squirrel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M147.7 48C92.7 48 48 92.7 48 147.7s44.7 99.7 99.7 99.7l12.8 0 24 0 0 24 0 30.9 0 10.1-7.2 7.1c-15.6 15.3-25.3 36.6-25.3 60.2l0 84.3 64.8 0c-15.6-20.4-24.8-46-24.8-73.7c0-25 7.7-49.3 22-69.8L304 192l0-48 0-16 0-32 0-32c20.4 0 38.2 10.9 48 27.1C361.8 74.9 379.6 64 400 64l0 32 32 0 6.6 0 5.7 3.4 56 33.4 11.7 7 0 13.6 0 46.6 0 8.7-5.6 6.7-40 48-7.2 8.6L448 272l-16 0 0 54c24.3 19 40 48.7 40 82c0 20.6-6 39.8-16.3 56l33.4 0 24 0 0 48-24 0L368 512l-16 0-38.3 0-77.4 0L128 512l-24 0 0-24 0-108.3c0-32.3 11.6-61.9 30.8-84.8C59.3 288.3 0 225 0 147.7C0 66.1 66.1 0 147.7 0C207.3 0 258.6 35.3 282 86L238.4 106c-15.8-34.3-50.5-58-90.6-58zM352 464l16 0c30.9 0 56-25.1 56-56s-25.1-56-56-56c-5.9 0-11.5 .9-16.8 2.6l-14.4-45.8c9.9-3.1 20.4-4.8 31.2-4.8c5.4 0 10.8 .4 16 1.2l0-57.2 0-24 24 0 28.8 0L464 191.3l0-24.3-38.6-23L400 144l-48 0 0 48 0 15.1-8.7 12.4-90 128.6c-8.7 12.4-13.3 27.1-13.3 42.2c0 40.7 33 73.7 73.7 73.7l38.3 0zm32-288a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const Squirrel = createIcon("squirrel", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABmgAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDDwsGAAE2AiQDCAQgBYMtBy8bjgXIjsN06yPLWAUL4RRfwT+13+u5u/v+JG/DsAVmFVVgFwbVsgJkCYCuni3Lqgaej7X2/p6JoR4K00UbmdCsmUznOtms35aAdVUjTj3PeSiAbwGgsTDnAVkUkDnPI5Dzsbt4cQtcsZoWgMpac5fLYwnLT9JStLTHS3v8XIHTA20QgTlqVGA3H9YPQmwFQ2RhKAN4T+YMLa7g6ZVcST707oE+MAgIQHMACAiwgAVKEADTsQgowREAh0PwVf7/y39gEgQASoDHDAAOiIDrwA1YnwQG61zdGJOPUt0yH8WrbxalKyUnh1yd4D1CKEceQF7XyjYNWy5t8mLh8UHI+1ypUBJU8nRciGN0r8/GAu9RnFJfdn7U64HzvudnPVm0131vxGQdG3gpHvGxv5x/uPhY3qGB23LKdNgv5war96NEmmrAmP38JTrC0dLVAX714cDB3AM5h/L6Xsu49iulTqtsr1dP4IHZ9OBB1RYMUk5MD93aJcxhvXng5MhGRpNBIPD38/MhSTDMpY3bpDKKZJaygVp8RgdrPYl/qeBoCuYLaEQfDw4Px2WLR64v8x15N7g3O1tW23FmZLT+3RsMf/7PmNo/cec0tk6hgILYGQqoprBpNOnsYOUszwOOeeMf8onytK9f7ZEOAHps0cJubcox/dVoMQB8P76/p3+Lei8VMdeAJAwAAjv8v441CtD7rwgCAAAAjLrpqwAIMJzHwmYKh5ClGsOEIUEMSzEZcMQMQ0QZExjl/mIscsmIHNYChhTaYJnIOjhyuIGI6bzREuSI9VfO27jvYvJCSSxoC80jR4epYWsbvAsyuT4tqJViN8WG4CzVtNBMJ1VUUkenoNqpMLtoYuGJXMAHCYxhJKMJTCVce6/Hl1FFOx3U0UJzbTKNYK8OpvucPQRdGABg7EsztCST1NHWVdfeXtUIAAA=");
 
 export default Squirrel;

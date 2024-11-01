@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-plus?s=sharp-light heart-circle-plus}
  * @preview ![heart-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/heart-circle-plus.svg)
  */
-const HeartCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 141.3l-22.6-22.6L209.1 94.4C189.7 74.9 163.3 64 135.8 64C78.5 64 32 110.5 32 167.8c0 27.5 10.9 53.9 30.4 73.4l24.2 24.2L256 434.8l9.5-9.5c3.7 10.9 8.5 21.3 14.2 31.1l-1.1 1.1L256 480l-22.6-22.6L64 288 39.8 263.8C14.3 238.3 0 203.8 0 167.8C0 92.8 60.8 32 135.8 32c36 0 70.5 14.3 96 39.8l1.6 1.6L256 96l22.6-22.6 1.6-1.6c25.5-25.5 60-39.8 96-39.8C451.2 32 512 92.8 512 167.8c0 13.8-2.1 27.4-6.2 40.4c-9.6-4.5-19.7-8.1-30.2-10.7c2.9-9.5 4.3-19.5 4.3-29.7C480 110.5 433.5 64 376.2 64c-27.5 0-53.9 10.9-73.4 30.4l-24.2 24.2L256 141.3zM544 368a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160-64l0 48 48 0 16 0 0 32-16 0-48 0 0 48 0 16-32 0 0-16 0-48-48 0-16 0 0-32 16 0 48 0 0-48 0-16 32 0 0 16z" />
-    </Icon>
-);
+const HeartCirclePlus = createIcon("heart-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABngAAAKwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDAgsGAAE2AiQDCAQgBYMtBzgbigXIngWOc54dEtKXLaIjET39HhSpq3pkeetWPgbdAxFHQJw9Z89BBJQRxktAO7+ouzDvIinSqMQzjUY0gcGmzt2DvzX+IgFoQlFURZXEIxkC7FxJGJcEknEB5VFiF/8JbtdPXFM/zp/+PPkJHqVinVxA3ecTGHCUVwI22GyiOHNbHIYFUa8YZAzBIWJow9D+V8DqtWoRgjlkXgJ760fpKwU2wWADAACUDgAAtJ8De/P4Q/ggvUxM0Et6AgGoAwCegACjiwmAVgJkV2DxwGIRfFDiL/+BHAIAxeDzGwAsEAPOgqsAwAJgsNZ2LkLlUZhih0ShG1lDqlFDl5uM1aripLqkwcrToRyoaqqhIaqhhxXStk/Xt+eoumoqTzriQbmT7+Z6Ol7j5EZC1cafCnS4SuF2VMryfdaVoHIe7axaFkVKXl8X6EbLox3efKvds653zVa3o8VeZ9BQRBQh5xByIpswKYp095GocNOb7+Uv9ydhrzV5GW9O3nzzKrtXW7n4cEi7KzDZFBdvlpqa4pOH7NsHppgClux9Y8VzBvzfSItevXn2fVtmcvvqZ3w+fryUNuvnz1L3WRdRtYEvmVWqZGZ5X1Xy4DvR1mQ03ZPefaQTQBF7PQACBG+G/u/Mrf6nbAD4dPfnb9g78cZ25jKQhAFAENRKqEbFdgCJLgCIGy2hgvNFAgxHWfipyewnAIQDBIAhhkMABBRJJwAsjpoEQEipxgRADMdAAbJxRLbRShmSmU8FNLGasmS7Q4W08iQWIzsEkSrGmfidmNbFwp2HeatOPd/CL/OGFHx87m/pt21iidRVx1KmmGuORSabZLpFBl2gd3Kx2bp4SGc/5NVXRz1eC/649Dx/iMkWWGi6ueaUQVry90PVLPFbV4fTQMYGUgwGZDIei6n2Pz167WAHAAA=");
 
 export default HeartCirclePlus;

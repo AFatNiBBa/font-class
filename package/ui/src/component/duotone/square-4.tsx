@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-4` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-4?s=duotone square-4}
  * @preview ![square-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-4.svg)
  */
-const Square_4: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM112.3 292.2c-.1 .6-.2 1.3-.2 1.9s-.1 1.3-.1 1.9c0 .9 0 .9 .1 1.9c0 0 .1 .9 .2 1.8c.2 1.2 .5 2.4 .9 3.6c.8 2.4 1.9 4.6 3.4 6.7c4.5 6.3 11.8 10 19.5 10c34.7 0 69.3 0 104 0c0 13.3 0 26.7 0 40c0 1.2 0 1.2 .1 2.5c0 0 .1 1.2 .4 2.4c.3 1.6 .8 3.1 1.4 4.5c1.2 2.9 3 5.5 5.1 7.6c4.3 4.3 10.3 7 17 7c13.3 0 24-10.7 24-24l0-40c2.7 0 5.3 0 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24c-2.7 0-5.3 0-8 0c0-18.7 0-37.3 0-56c0-13.3-10.7-24-24-24c-6.6 0-12.6 2.7-17 7c-2.2 2.2-3.9 4.8-5.1 7.6c-.6 1.4-1.1 2.9-1.4 4.5c-.2 .8-.3 1.6-.4 2.4s-.1 1.6-.1 2.5l0 56c-23.6 0-47.1 0-70.7 0c12.5-37.5 25-74.9 37.5-112.4c4.2-12.6-2.6-26.2-15.2-30.4s-26.2 2.6-30.4 15.2c-16 48-32 96-48 144c-.4 1.2-.7 2.5-.9 3.8z" />
-        <path d="M206.8 159.6c4.2-12.6-2.6-26.2-15.2-30.4s-26.2 2.6-30.4 15.2l-48 144c-2.4 7.3-1.2 15.4 3.3 21.6s11.8 10 19.5 10l104 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-56c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 56-70.7 0 37.5-112.4z" />
-    </Icon>
-);
+const Square_4 = createIcon("square-4", true, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABpAAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCfQsIAAE2AiQDCgQgBYMtB0wbmwXIhocvm+X73SPV3mgZ5ojQBJARQniOHCEEscopQazp76f+KKs4fzyCIUXleSRY5vkEJtAWTRNK4OkMbcvmEL+odxbaj1DEe/luNdIL6Uc85v8PYPxqxN0k0zKA6AbA9lNOOOzTZjRT/Nj6mPjRIQTEDlAJZGSMC7BJFhhXqFAoBM3UatGMVqsigKjzPzeDOmp4Ax8ACpCEVBTzRk9p1DqKkxu18oyX5rw7fGI8PfBMoxHihdnvjUU04r2xF+eUEfHinLeHRRmn5JcWRnw0tyPemf/BSIrn570/qz3eXfDhaD7pdrdHpLjDM+rAM42HdEMbwQ3cPqC/Tj+h97wPlpHvjii8/U9jiG5DPMSE96Uxov+I9+VxfP3t/TM+7P7w9+k/Xvyjn6d2rzvxrqWPWXjZZe2XmmfguOMGMqoNNXCcY113y3X2mn2Nc8seel7f5vWennIbYRFl13wRESImpHSecVn7KIPLaCQyE/0zLi7PtCWi9/QFNT6+Z3nxjP5IUgTr9Pb09r740EMvf8Z2lPIp3BUIbrvvzovP6dr0f1sjgV8++fNf5OZWMz5NH6JNAkFe1FrkzPgUhGYAPyrFzWbEp65GILtOQh613bMChBIBkrpSgGxMtwCF0kIBaiatFqCudIIsimlCv7MakLS7DmRr3AIK/Y6Cmk2+ydT1R4ZTI5QZfxOz7emiu2dVy5csqzZUsxWVCfT0zuTGarNv3s2yYz7e6GLXuNqNLnKhy9zYEa93OH+Tq+xZonf7ospySyxT2aA6XH9oO7mTud4NLpu2HJ9mo+r61Dw3L/efj4NJqHWFOVkmUuRuy55avGoxwHt6exarDQAA");
 
 export default Square_4;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `power-off` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/power-off?s=thin power-off}
  * @preview ![power-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/power-off.svg)
  */
-const PowerOff: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M264 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8L264 8zM157 71.1c3.9-2 5.5-6.9 3.4-10.8s-6.9-5.5-10.8-3.4C75 95.5 24 173.3 24 263.1c0 128.1 103.9 232 232 232s232-103.9 232-232c0-89.8-51-167.7-125.6-206.2c-3.9-2-8.8-.5-10.8 3.4s-.5 8.8 3.4 10.8c69.5 35.9 117 108.4 117 192c0 119.3-96.7 216-216 216s-216-96.7-216-216c0-83.6 47.5-156.1 117-192z" />
-    </Icon>
-);
+const PowerOff = createIcon("power-off", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABaAAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBQQsGAAE2AiQDCAQgBYMtBzAbwQTIrgZsYxj6Ie2Q2h6LRx8uTOVhbGWGp/+KIForq2fngcADkGVKVKLZCFaoFAp7RgQk//2Ye29WxeOfmjVBpdGoNLtOW10oiMh1svLwcLjeby/fIHkgaZa2ySMJw4zCtH233eA0ikNPoABhoUHm2yd2llmDsNRGmzr1POehAL5RUMbGpRsX0N7nEYhgYqMFD1CpBYsoVrfJEOwQwldCwiSk4/T4ekOOrxbopA+Jwev5o/FLl22SogAQjQDAxlk1D0fnOEeU/iNKtoCA2AQYhChQoBeCZVSBXjSDQJYF3+L/n/8DAQFEOf3iBDIyNoB9ADJIUs61I8V0XT6tKau+/7azywN80z4Q4uxdZ593tX5Uezebvq5/Zm+tNT8iJ5n91i7/ekLx2/5T7aPy0jgcT7KSMWv83f3eHVR8zPQu4z8c2U2qI3tl3+ZDVOjn14QQwYCZbl002Nqp2BXV6f8yrkp3cySMMLqn/sfVAALBs+ofw1x+opjAj9N98Z36Py6JAyolEBTD/+olOoniIgC1UjwlSR6GSBZQAJ9a660AoRoBknLVAhR6sCDIqg1BUKafHYJy1Y5QRa4SWvUXSGo9AIVZWyBrNQFlll1a5Voj2UhUG1D/uPiEh+JrxGwwEQ85xozuDULmXnItqDZHTY1dGFmyaN3QwIx1h6zKuxsWJDI47kGEmYEJ4UHK2TvfIGvVmpmYrS/xIu8Vlc28Ww2ZQlEneZJEpKpOM/VLqxE=");
 
 export default PowerOff;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `music-note` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-note?s=thin music-note}
  * @preview ![music-note](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/music-note.svg)
  */
-const MusicNote: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M230 52.6L368 16.3l0 115.3c0 3.7-2.5 6.9-6 7.8L224 174.4l0-114.1c0-3.6 2.4-6.8 6-7.7zM224 432l0-241.3c.7 0 1.3-.1 2-.2l139.9-35.6c10.6-2.7 18.1-12.3 18.1-23.3l0-116.5C384 6.8 377.2 0 368.9 0c-1.3 0-2.6 .2-3.8 .5L225.9 37.1C215.3 39.9 208 49.4 208 60.3l0 330.4c-19.6-23.2-55.3-38.8-96-38.8C50.1 352 0 387.8 0 432s50.1 80 112 80s112-35.8 112-80zm-16 0c0 15.6-8.8 31.2-26.1 43.5C164.6 487.9 140 496 112 496s-52.6-8.1-69.9-20.5C24.8 463.2 16 447.6 16 432s8.8-31.2 26.1-43.5C59.4 376.1 84 368 112 368s52.6 8.1 69.9 20.5c17.3 12.3 26.1 28 26.1 43.5z" />
-    </Icon>
-);
+const MusicNote = createIcon("music-note", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbAAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBWgsGAAE2AiQDCAQgBYMtBzEb2wTIjpQuZyTx8P92Uff9qu4zAGoge40QiiZbMAgdSWlXiP7ENc///OkBy57g0SKpGqTOc9nnExjgrCgaaJw2sOkEbW8T9bEgEnuCSQwiOj47zg6QxzHrlUhPpi9xiz80ftHUeZIsAxB1ADBm0bwZHn8X30V8WXmP+NI0BMRYUAhkyNBCgOEygRZyBXK54LuoVOg/sCCAKJN7SyBHCbOwFJCDJMvzWp3rVi/VzBdWL1Vbtmj+InG6wfyIONN4cYhr1c/Eoni9ecTDRldHG77SJMVTHV+r9m7nN1o82+XNAR90e7t1tdMVpv/7Xd+KM9Kg93idtm/Vees3X2780s9Xr7QPif3Ks6+0tTdapaN/ydoIrrVTckDNb1Odq3nNNN9fudr6z5//j/j/5z/t3DpN7r30wgsv3WvS5O7LcJOX7zYBAsGAxsv7rao9/L8q1RP44eM/wvUqj+N0egtVJBBk3SvdLY/TQPgAflKKg9rGaQSSSTLyrjU8FCBUQ4CkrJoAmebqCJCrppsAJa0MEKCsmnkykVcVGlhR4KSGPXBmoBNwroF34JLhPgnKGkSmVbRO0H+6hIktMGFW0adn72JoMa1IjKKQbnJYsS13Pmg6uuBKG+2y034brLfF/gbaa0Z8wA4TV+AEX1Too6feCkMVx/X7xQttsNc+W+yy008zTHHf7+zgun8X1BIh7CuTJCJV0zaxxzMFAAAA");
 
 export default MusicNote;

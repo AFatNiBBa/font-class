@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `at` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/at?s=duotone at}
  * @preview ![at](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/at.svg)
  */
-const At: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256l0 32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32l0 80 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const At = createIcon("at", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgwAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCDwsIAAE2AiQDCgQgBYMtB0AbIQXIjpQuZyTB86XT3t+VA4CaVERoJwfEFRH6SmBsPWmPoFWGwM6fXBr/+NP7PAD/MXHp6xrxOTrjFWi8OrWp1wtY0JrWwLo7m2dJlpIDLaG1HBc7Pk9gyDu9AhuoveoFsJn+B1C+EMkKUHhqAAAkAAAAqOrraeOOS1xKXlgXQF7QCgiAVANgIoAGNBCDAFCKRoAYDEzAwEDApSwLXGJZJggAiBv0URoAN8AAxgMLAAADAAUow+jy9bb5Gg5vm9eQD50ib3o/dr21rw/dyZKQHV6f2l9V33N8rrnf8brvY9vLqrt25EDimdxL6TdqH5XfSjhecbvhYtJub6mLIEsc098SvltEPnW/c9gPJTsTz8QcTDqbci4+wRng/ObF+BdYi7vEDnbpki67vUv81qzxy+kGlm6NjMDjDRGRW5dK/EETD6dzyZ0yzc6aXJstt6bzyP8FvmK7ExOlaXIoU3FbD/z6NaDL6wAggMD8Gt/WEf6l/zy8FQAD136MPySsOwrlBDxQAAjoVCuVoQoABQIAAAAomU+CAgABNMNRpMiHXYjM8oIOCje8QBNNABh4kQI24sjj4vkeNGJ4IoQwDEDhwyzQ5LMQDEI4DzZKeey7ESLa4ARzEf57qfUcqTtmZqVnmsXmslJFG+LCfokp1hLn4yQJ7jKeGUxnLuMYyyTmMmw2bdE8plG/Q+v4IiZZpJOJSTGmun1UHcyfzRwmzWX9ISWY561E5u9XJ8FpFACQfVXnNIgS7TVqbprZqj5Nfp0AAA==");
 
 export default At;

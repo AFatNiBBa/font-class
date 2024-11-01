@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-exclamation-check` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-exclamation-check?s=sharp-regular circle-exclamation-check}
  * @preview ![circle-exclamation-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/circle-exclamation-check.svg)
  */
-const CircleExclamationCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 256C48 141.1 141.1 48 256 48c84.1 0 156.7 50 189.4 121.9l43.7-19.9C448.8 61.6 359.6 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c72.9 0 138.8-30.5 185.4-79.4l-34.8-33.1C368.7 439.2 315.3 464 256 464C141.1 464 48 370.9 48 256zM280 152l0-24-48 0 0 24 0 112 0 24 48 0 0-24 0-112zm0 216l0-48-48 0 0 48 48 0zM633.9 192L600 158.1l-17 17-111 111-47-47-17-17L374.1 256l17 17 64 64 17 17 17-17L617 209l17-17z" />
-    </Icon>
-);
+const CircleExclamationCheck = createIcon("circle-exclamation-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABeQAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCEAsGAAE2AiQDCAQgBYMtBz8bHwXIjsQ4JvGLKEzi4Xn//H7tEwyVN7wDgV8uOpGlXSkV8j5xzfM//wYs8keLptIHKXrOWmgJTGw3jBJb42w2UZy1s5sMwm2SnvJJhu0zbCwOkI9/4moF0i3pTVwV3yp+VOEMSSEHIGoDYOT82VM9+1l8FvFG+SHiDZMRECNBJpCD1lRADDlYoKm8DHl5wWdRLof/wIwAoogflkAeRazDAUAeJPl8vnOdKhXVCjXy86oVqs7/ZHbEB/NfmvpWz8Hx8bS353045c0Rz875aORzU9+ae9ngJ4YPi1sHPFr141nvz5sfomoIIapFRGi2qLZ62NBhHWJODItOMSQ6xswEdY75z9Xq9tq3/+zNdW/q/kzMv53b58dvtWufe0DzUZ++Os14J6+pKBlvfKnimpPj9f/rqza1vbViRtf5cfvtMf/b9aVSqYeSHUqy/mkP0vXQY+U9da7Gtm1+QR2UwfHjAIHgwlWnb1hea8jflasl8MXj43LlZ9OhdDsqSyDIdSl3sSSdQFGZFRiQYp9W+KJAskwe3rW6GwUIVREgKaoqQE4TtQXIq6qzAAXN9RWgqKrZciJfRahvaSWS6nYSOf0cJfLqe4AoGOIVp6h+5AyONxf+upcyTgJjV2U9u/XIBmXDRBFsiPXTg7NpvcM+1+iIjdbZbps91lpjoz0C32Wqv9dW4zRwrB/K9NRND5lBsuX8fv08a+2y20bbbQvLDJbttzvYp/d3hJWQsZdQkohUepfT7PqThbly6xnSutov");
 
 export default CircleExclamationCheck;

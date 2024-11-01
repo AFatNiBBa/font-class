@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diamonds-4` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamonds-4?s=regular diamonds-4}
  * @preview ![diamonds-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/diamonds-4.svg)
  */
-const Diamonds_4: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M367.5 104.9c-.8-7-3.8-13.7-9.2-19.1L284.3 11.7c-15.6-15.6-40.9-15.6-56.6 0L153.7 85.8c-5.3 5.3-8.4 12.1-9.2 19.1c-1 9.3 2 19 9.2 26.2l79.7 79.7c5.3 5.3 12.1 8.4 19.1 9.2c2.4 .3 4.7 .3 7.1 0c7-.8 13.7-3.8 19.1-9.2L358.3 131c7.2-7.2 10.2-16.8 9.2-26.2zM219.9 252.5c-.8-7-3.8-13.7-9.2-19.1L131 153.7c-7.2-7.2-16.8-10.2-26.2-9.2c-7 .8-13.7 3.8-19.1 9.2L11.7 227.7c-15.6 15.6-15.6 40.9 0 56.6l74.1 74.1c5.3 5.3 12.1 8.4 19.1 9.2c9.3 1 19-2 26.2-9.2l79.7-79.7c5.3-5.3 8.4-12.1 9.2-19.1c.3-2.4 .3-4.7 0-7.1zm32.5 39.6c-7 .8-13.7 3.8-19.1 9.2L153.7 381c-7.2 7.2-10.2 16.8-9.2 26.2c.8 7 3.8 13.7 9.2 19.1l74.1 74.1c15.6 15.6 40.9 15.6 56.6 0l74.1-74.1c5.3-5.3 8.4-12.1 9.2-19.1c1-9.3-2-19-9.2-26.2l-79.7-79.7c-5.3-5.3-12.1-8.4-19.1-9.2c-2.4-.3-4.7-.3-7.1 0zm39.6-32.5c.8 7 3.8 13.7 9.2 19.1L381 358.3c7.2 7.2 16.8 10.2 26.2 9.2c7-.8 13.7-3.8 19.1-9.2l74.1-74.1c15.6-15.6 15.6-40.9 0-56.6l-74.1-74.1c-5.3-5.3-12.1-8.4-19.1-9.2c-9.3-1-19 2-26.2 9.2l-79.7 79.7c-5.3 5.3-8.4 12.1-9.2 19.1c-.3 2.4-.3 4.7 0 7.1zM256 51.3l57.1 57.1L256 165.5l-57.1-57.1L256 51.3zM51.3 256l57.1-57.1L165.5 256l-57.1 57.1L51.3 256zM256 460.7l-57.1-57.1L256 346.5l57.1 57.1L256 460.7zM460.7 256l-57.1 57.1L346.5 256l57.1-57.1L460.7 256z" />
-    </Icon>
-);
+const Diamonds_4 = createIcon("diamonds-4", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABngAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCfwsGAAE2AiQDCAQgBYMtBzEbgAXILgpsY9joIb4UKV5jHTb8GDMXXjVHR0jSycPz+6nnvv+Stn8AJAFAE8rJSWDZOgC2cZMgZEnYbHZ6nczF3KYW4t+SKpChUUnQRLxpyqtEbzy9CksOVcgFT/HzsxyPB7nTDUo1GYol6vag45CiVfs+/9fUC2s6wLQvfnSmuaJKyvJOn8DE9s5XKT6wmU7AVhDK7rRnjkV7R7KgcZwr/XaQ4xf2Q4U0QUvoyx8af+1xJqkUAGIzBMDdV7n41aMesdhALLoHERB3ITgMRYEC+6HgBlxgP8JhiCwL6tFo4H8gQAKIKsaSszNKjOM7IIOkOed9DLPpdZUN+eXryjej/pKj3KnPOazD9oIj1iVj8Ypj/lzHdBiHVvsIxqINTyqYjeDSZR9bjHknXwcsxnBsc4weNm+Fl0/c4tN49jxKs4heuB2KXiky33M0H7V/ZKm95O3LsanCc/PmZyY25cHabNzmi9y/EMg3Du3y26O38nt+Jbjwakp+25KLNfIdLEdQgZ294lQ3NvPuty1Gur5QVVgvnB8AlYFjq3dAhw7tS0vt0XHjImvX/jwQCDpe3v+v5Rv/miWBPz+v4c9I40dSDWiWQFCcaJxQTyARAIAUX6gJAkm/Zhxdb9RaCCWVTapKtrCPwmal42zFQfEOVaVncJFbhO0aApus954tXHJis+0ebMUN/2zV9ij8VPMy7ZuY7bTo3jR9x4MiDJtEdz2Flkuw7dTWcUgHU7RNjC21NPUsG2auWlgZqczosi8CPocHFIG5c7+9pmVuoWdinNYpgftRzXo+WQcPhiXPqUkSkcqnIfRXBA==");
 
 export default Diamonds_4;

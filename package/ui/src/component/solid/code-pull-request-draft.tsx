@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-pull-request-draft` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-pull-request-draft?s=solid code-pull-request-draft}
  * @preview ![code-pull-request-draft](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/code-pull-request-draft.svg)
  */
-const CodePullRequestDraft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M56 80a24 24 0 1 1 48 0A24 24 0 1 1 56 80zm56 73.3c28.3-12.3 48-40.5 48-73.3c0-44.2-35.8-80-80-80S0 35.8 0 80c0 32.8 19.7 61 48 73.3l0 205.3C19.7 371 0 399.2 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3l0-205.3zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm312-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 104a80 80 0 1 0 0-160 80 80 0 1 0 0 160zM416 80a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM368 288a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const CodePullRequestDraft = createIcon("code-pull-request-draft", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABkAAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCHgsGAAE2AiQDCAQgBYMtBz4bLAXIngU52WkKpzBtsyLEKMr3NELE83z7/W+fufNVMMkiloneSJbMK52mkjx5svgt1LeoZPI9GlczZ9Y9wNl6JdAlHPLTVbo8fQ5F1+gYS6RgVI1RrFdqh4De4ps69TznoQA+WMSCMsai+JoU6lznFajYouktFaxWsJpWwDo4b9IhhTaE9DvUdJo7uigPyzTuxh+afxY5AEVfAwAZBQAOHi9n4aWTTvLffiZTDgGBHARYCdGgwVII9qAKlqJZCVRV6KRt2X/gShAg3ZA+sYCKPlwAbgJQQdFTaWx9Xx8/Dbh0Pq1Wvp7T8zg9JM3oiFaPGaaTZ6vOlofshO+QVgz4ZmETnuan83N5rnZpO8ETZ+X+CB8X4Lm9bq6uF6qL+nLu2dePIo3fCw7TY1bJhc51fKw3CT+pPsNnL9Onp20/L7+L8uLMNdF45/eiHDslwoM1JL//nJiV9GLe9vmneSWmh+bIy7Xj9aWXCLX+Ezp3e32Kg2rnXoSe4OMAgnC4M3XspPD63ztAAfj745v/jLQ+U+UtehUQmjVtpTee9s+UAABKlqjzE0FxFlP6roPuQUD0I6Do1i+gsYQIgqrfagi6LOeDoFu/w6hS2RCT+jAoBl0EjW02QTXpHnTZ4zvqNpnG3tG2hv7rS4hNoegu0tudJEx2OzrGKpF6M0IuG9kSnzDBozBk2pQFgwaMWpggc7LpokmxIzjqiwgXOycijDzuv9xfM2jOvFHTpqJtIsj3vtHS8XwTtClSzE1aRSFF6RZFm5dSbPZTsgVB");
 
 export default CodePullRequestDraft;

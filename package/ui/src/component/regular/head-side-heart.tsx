@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-heart` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-heart?s=regular head-side-heart}
  * @preview ![head-side-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/head-side-heart.svg)
  */
-const HeadSideHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 224c0-97.2 78.8-176 176-176l24 0c60.1 0 115.7 36.7 139.6 88.3c3.9 8.4 7.5 17 11.4 25.9l1.5 3.5c4.3 10.1 8.9 20.7 13.9 31.1c10.1 20.8 22.5 42 40.6 60.1l4.4 4.4c2.9 2.9 4.6 6.9 4.6 11c0 8.6-7 15.6-15.6 15.6L424 288c-13.3 0-24 10.7-24 24l0 72c0 8.8-7.2 16-16 16l-88 0c-13.3 0-24 10.7-24 24l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 64 0c35.3 0 64-28.7 64-64l0-48 .4 0c35.1 0 63.6-28.5 63.6-63.6c0-16.9-6.7-33-18.6-45L489 223c-12.7-12.7-22.4-28.5-31.4-47.1c-4.5-9.3-8.7-18.9-13-29l-1.5-3.5c-3.8-8.9-7.8-18.2-12-27.3C399.4 47.6 326.8 0 248 0L224 0C100.3 0 0 100.3 0 224c0 53.6 18.9 102.9 50.3 141.5c8.9 11 13.7 22.4 13.7 33.1L64 488c0 13.3 10.7 24 24 24s24-10.7 24-24l0-89.4c0-24.9-10.9-46.8-24.5-63.4C62.8 304.8 48 266.2 48 224zm64-34.7c0 16.2 6.5 31.8 17.9 43.3l82.7 82.7c6.2 6.2 16.4 6.2 22.6 0l82.7-82.7c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3c-16.2 0-31.8 6.5-43.3 17.9l-7.4 7.4-7.4-7.4c-11.5-11.5-27.1-17.9-43.3-17.9c-33.8 0-61.3 27.4-61.3 61.3z" />
-    </Icon>
-);
+const HeadSideHeart = createIcon("head-side-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkQAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCTQsGAAE2AiQDCAQgBYMtBzYbUwXIhofv/aWe+3alkVcW8g+bibuEKyYuDW2Y5v9yfO9s0wF+uil+KHO1NJDlY8znCQTYUW3KtkgWWKYJWMO2kfXArPGIcbxAPp6LixWRrknv4yL3ofG1JueQFOUARCUAxi6eP9PLR+JIxHv/P0G8ZzoCYizIBHLIoVWAEXICrfIy5OUFR+L//9l/YEYAUSwgiZ/HNefiMiy3kKR8fnNLaVFZfpHeWlj81fyIzxaXxhNDn+l5RZ2I1QWOX9OV17q8thC3Nwoedc1Jd7VElMZd3e8DcBSc2a0+7m2+sh5K+Oyj096dVIjXp7zd5+Hsi7FXuLz+xm4vHj/7jK4L44qGxUEF13a79+Rzu9TGK+4t3N7lbsffW3nvt8e9v+l9vQ/HtEpiWjT6ePLik4d0qQnbrdr9/XX9TSguP9Jobt0UEVoiGKNu7ty6Lug3V1UV+nBl8/H9Vb+3c1WNFSvPrih/uNGRth6vflIec/8+XLUUySZq6a6Kn5qq5811zz3kJamkExc3V21ySFXTxSqbgUAwY0jFiNVs868lpQkce/b73/zPyP8vJ+lelEggyPX4v4cVCSQCAJDikOMTBJKzJOFdO7tSgFBAgKRYQYCcFpUC5BV0F6BIu4ECFCuYLyfynYRaKweQdLYX5AxyKsir9RgoMsJbmWK1kSuOWmHS/gazJ03hiauyvr36ZMOy3YZOL2GKXhyeXY53OcQHusKdNtltlwM22mCrAxNqn5n5g3aadERO9EWZvnrpIzNM9rj9cvMiG+2z31a77bLLDJd9n+7i0PH4rjCVBNF+SpJEpIoy6/TMsW7PZgEAAAA=");
 
 export default HeadSideHeart;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `socks` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/socks?s=regular socks}
  * @preview ![socks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/socks.svg)
  */
-const Socks: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 48c0-17 5.3-32.8 14.4-45.8C297.9 .8 293 0 288 0L176 0c-26.5 0-48 21.5-48 48l0 186.3c0 21.7-9.8 42.2-26.6 55.9l-66.5 54C12.8 362.2 0 389.1 0 417.5C0 469.7 42.3 512 94.5 512l6.9 0c22.6 0 44.6-7.6 62.5-21.5l12.9-10.1c-8.4-14.6-13.9-31-15.9-48.5l-26.6 20.8c-9.4 7.3-21 11.3-32.9 11.3l-6.9 0C68.8 464 48 443.2 48 417.5c0-14 6.3-27.2 17.2-36.1l66.5-54c28-22.8 44.3-57 44.3-93.1l0-90.3 112 0 0-48L176 96l0-48 112 0zM368 0c-26.5 0-48 21.5-48 48l0 186.3c0 21.7-9.8 42.2-26.6 55.9l-66.5 54c-22.1 17.9-34.9 44.9-34.9 73.3c0 52.2 42.3 94.5 94.5 94.5l6.3 0c23.1 0 45.5-7.9 63.4-22.5l111.3-90.1c28.1-22.8 44.5-57.1 44.5-93.3L512 48c0-26.5-21.5-48-48-48L368 0zm0 48l96 0 0 48-96 0 0-48zm0 96l96 0 0 162.2c0 21.7-9.8 42.3-26.7 56L326 452.2c-9.4 7.6-21.1 11.8-33.2 11.8l-6.3 0c-25.7 0-46.5-20.8-46.5-46.5c0-14 6.3-27.2 17.2-36.1l66.5-54c28-22.8 44.3-57 44.3-93.1l0-90.3z" />
-    </Icon>
-);
+const Socks = createIcon("socks", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhgAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCSQsGAAE2AiQDCAQgBYMtBywbRQXIhofndb6e+yQ7P3IYFGbqRsQrIa04tavn/3LP7/nRAX6jQxlzh2MC7aUJJNbL80DSbHOmWeDY7myPHbImB5IUBv2OHZ8T5PFiXKdCuj19hGvpRuNPHV1EUskARAsAzFi3aonXfovfIj6sP018aBECYgYoBTJk6CLAZJlAF7kSuVzwW9Tr5j+wJICo4p8jgRxVXILrATlI8jyf2LNxx1qlab62Vin2nd/5lqKIh9rc1EHc1X91PNfl7gGPj6nFlYPaxx2d+sdNRRFXtLslzu+3Ll7tFVGLiCIiauseahOxQQi8LO4QN/ct1IqaSSJRkk6XLt/ziRZP/N3jo70f6X5tpy9XNBw3/KePsxfEzTPG6NKk0eN3nFfV66kPvD3gIT+0bqT1xz+1btds5hgPNmx03PCgLRu2sgX0nz62ccpLMtKGb/cYF4bbLr63/QFx89EN/mxV1ebc+SAQXPj1F09saz75v4ZaAn+88O//4FtUfy1JT6BBAkE2uD7Y5gQSAQBIcZaeCQLJOXJ8rU3cIkAoECCpKgTIdNZCgFxhkAAV3YwRoKqwSibyxkIbWwpImjgBMmOdDXJtPAkqJnu3WNUmMmWkVIn6C8bPraE5+8oRQ4eXE8tuS6b1i7Crk0qx3v8sHBkAR+11zFGn7bHbAacr5KQllTOOmDuC5/ig0ghDDVeaqNzu3h5ea4+TTjngmKNul0nK+3F/Z42nDwArYdSRxPQEzaly6tiuQ6cAAAAA");
 
 export default Socks;

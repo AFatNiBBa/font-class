@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fill-drip` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fill-drip?s=solid fill-drip}
  * @preview ![fill-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/fill-drip.svg)
  */
-const FillDrip: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M41.4 9.4C53.9-3.1 74.1-3.1 86.6 9.4L168 90.7l53.1-53.1c28.1-28.1 73.7-28.1 101.8 0L474.3 189.1c28.1 28.1 28.1 73.7 0 101.8L283.9 481.4c-37.5 37.5-98.3 37.5-135.8 0L30.6 363.9c-37.5-37.5-37.5-98.3 0-135.8L122.7 136 41.4 54.6c-12.5-12.5-12.5-32.8 0-45.3zm176 221.3L168 181.3 75.9 273.4c-4.2 4.2-7 9.3-8.4 14.6l319.2 0 42.3-42.3c3.1-3.1 3.1-8.2 0-11.3L277.7 82.9c-3.1-3.1-8.2-3.1-11.3 0L213.3 136l49.4 49.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0zM512 512c-35.3 0-64-28.7-64-64c0-25.2 32.6-79.6 51.2-108.7c6-9.4 19.5-9.4 25.5 0C543.4 368.4 576 422.8 576 448c0 35.3-28.7 64-64 64z" />
-    </Icon>
-);
+const FillDrip = createIcon("fill-drip", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABeAAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCCwsGAAE2AiQDCAQgBYMtBzAbCwURlZqzyD4SctOU/3FmRzSxEjz/b1fd96t6zkz1GDUiF0YGsLGOIGTrIDIjIQD+/ub5P//0AR9HENpYuDSQBRLNeZ5AYl2+haIszALFGNNt4qOHFH4RIYIjouOUjqcZ6PJAW4oFlFPdAzb0m8oHQlgKCjcNAADxBgAAqvv1aufGU3kqcvf/WeQurYAASDUAJgJogAaEIwCUoSFAODomoKMj8FT+/+d/oIkAgLhg8xQAOmABxgKzIfLo4zVdT44Mslo89L5WizHIbhVZE9BHeslh65rkPnKQhUm95YCxOqWvHJJFqf2kr9hkUVCfnu6e3rLV30MqxR7YV2z+XdIt21jov9VYHThmX4rIodAdqYfD7NY1Ac7kgyGOpANxMYe8D32Kvjf2HknnHB7g4ejqpo7eERG9bTbqIyLqr17lYULCw9mzuZ+QcH/QILq7WOXhser4IxEZNIi+QZU4qa+32ejduw7vRHLoiY6E4L0+4GPoUV5vGlxdG954RemGj89eABBAYPCfzbeGeZV9dbUqAJ5f+vJjHFf/b6gqdQhwRQEgoKX9TxusqlDAVAEAS8lcYsCDBFAMRcOu6o4NAUAwAAFA4YKBAKARhjcCgI5BKgKAhUjyEQBcMOiFhuhuCP4MWaBwZwZoFDAPdPw5DRbKuGm64C9atXG1wn32kmmDR/VDZnZGlllipp7JFxCj3VJzW0maK5lkmmTstKmzx4yeMNuRme3OnCkNCNe/aGZnZJkl5nF4HO87ZuasCdOmtj6l5n0jaS4uTyZdYbQ5LoUCUW5vxUwfPXPCdA==");
 
 export default FillDrip;

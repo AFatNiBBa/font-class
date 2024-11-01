@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dyalog` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dyalog?s=brands dyalog}
  * @preview ![dyalog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/dyalog.svg)
  */
-const Dyalog: typeof Icon = x => (
-    <Icon viewBox="0 0 416 512" {...x}>
-        <path d="M0 32v119.2h64V96h107.2C284.6 96 352 176.2 352 255.9 352 332 293.4 416 171.2 416H0v64h171.2C331.9 480 416 367.3 416 255.9c0-58.7-22.1-113.4-62.3-154.3C308.9 56 245.7 32 171.2 32H0z" />
-    </Icon>
-);
+const Dyalog = createIcon("dyalog", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABUQAAAHRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQiBDgsGAAE2AiQDCAQgBYMtBy0biwTIjtRG94xd4uH/18ru+1XdAaAKAINjRW5igV3YAapk7Zy1qFZ3htTuT3/zzzuPAnyc+1jYeSALJJrzPIHO8y7fYmuCpV/Qvm5Td+gRRW+EBElEf4THWw15XI1bSqR76RtulpfGX1q5QlLKAERDAExcvniuD9VRHfGtEvHNbATEJFAIZMjQVoAxMoG2cgVyuaA6KhX5DywIIMrquBPIkaE3hgBykESed65Tqpcvq1OqnQl1IqJO/Br7tuOFMR+W1A5RJ/6Y/XPwy/i96Pey2p0eNHzwj2/bvqk6TkeZYLjdlqZ//6s35uez1emhCR5aYP2G+y9GWvVjypSDHgKBYOLk9HZ9gzH/16yTwJ+v/hsGV6qjKj1ATQkEWZ9KH2uiCoAO4CelOKZTVCGQdJZgq3XdFiDURoCkrLYAmTYaCpCrrbcAJe0NFaCstsUykdcSmlrbQVLXQZAZ5izINfUSlIzxUShrGlm8EK9N/NZip1loal4xsN+AYlQxVTUyBLCUHl0scz2OqasnV9pmv32O2GqLnY4Y5JC58lF7TfPgqT5UGKifAQqjFNvGY/kyWx1y2E777ctZRivO8z0c84N7chEJMOimMVVGKm85uXHP/u0A");
 
 export default Dyalog;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-medical?s=sharp-light truck-medical}
  * @preview ![truck-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck-medical.svg)
  */
-const TruckMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 32l0 352-133.5 0c-13.2-37.3-48.7-64-90.5-64s-77.4 26.7-90.5 64L32 384 32 32l352 0zM32 416l32 0c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0 16 0 16 0 0-32-16 0-16 0 0-160 0-5.9-3.9-4.5-96-112L503.4 96 496 96l-80 0 0-64 0-32L384 0 32 0 0 0 0 32 0 384l0 32 32 0zM416 128l72.6 0 82.3 96L416 224l0-96zm0 216.4l0-88.4 160 0 0 128-5.5 0c-13.2-37.3-48.7-64-90.5-64c-24.6 0-47 9.2-64 24.4zM160 352a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm256 64a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM176 64l-16 0 0 16 0 48-48 0-16 0 0 16 0 64 0 16 16 0 48 0 0 48 0 16 16 0 64 0 16 0 0-16 0-48 48 0 16 0 0-16 0-64 0-16-16 0-48 0 0-48 0-16-16 0-64 0zm16 80l0-48 32 0 0 48 0 16 16 0 48 0 0 32-48 0-16 0 0 16 0 48-32 0 0-48 0-16-16 0-48 0 0-32 48 0 16 0 0-16z" />
-    </Icon>
-);
+const TruckMedical = createIcon("truck-medical", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABrgAAAKQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDYAsGAAE2AiQDCAQgBYMtBzQb5AXIngV2+0SoWHHijGp9PTkenrf76txX1aoa1Mhv3O2RtAAzMN5MiHtDKJpsoVRIrd8IgKrM9GQyvVLkLApHNQpOfOKYne98FFliQ4lsq9Du8wkMMFrjo4Wi8O1F8QfnTT6kUBTSL1DGP9GvjfR4Gg+7HxrfmOJBkrIAEA0ANp88ut/5L+PLiHdbLxHv2ouA2AKyQIEC0wVYpxCYrpRRKgVfRqvF/gdmAoh2/jtNoESFD/AJoARJZ1mOW97VjBzZN7tuG1meqNuqq1KRqniitxdkNyZzFDHy8rqqn+6p5d83sySKaB1RVR42YmKcUNgl1QiRQtRXrcg7HlUE6w+x44Lt1pd6qhvLTkX7ZqU9q8QWOiO6kTfTq7qySJYgRV2DIsIYF2iPCdUM+WxjNSq1i+cMN/3d7HevfNc9z17sP/Mhz9/ixx/d8uQCutjFF92Tc+4cHtZChaTndE3znHZLXXST7ToObZLlezNdbNz3zNrtcx2+yJMu/vBU4jn3att1w6FHWh2LBmfNGlyUCLU2Fl//9NPC88NFjR+xyCJIv0mjWbRo0KGue+jgIt+WVdJMtqVO8+UgEPx92tiLRq/7jTqBr1//4Sfozq3z6d4UOiUQFP2tfufSvcA4A0ikuNOciV8USN7QyX+tIzwiQKgQIGlXCVCYphGgVOkToM1MywVoVzmqEGWXMN4FFSkZ4RZSYYW7SKXxXiC1WeeNeLvxUdzY8ttS/luZZkcTsH1eXjy4KK/Jo1WF4l6V6um1ebGl+07e1QOPutJNbnS7K1zuGrc3QLfan7rDDXZMAbf7Q9ligxbJ1sibG3f3n3CFW93mGje50c6yVj4+0O3O6cE90J74IpcoSBKRRr65hoHPHAAA");
 
 export default TruckMedical;

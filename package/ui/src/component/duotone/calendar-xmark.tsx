@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-xmark?s=duotone calendar-xmark}
  * @preview ![calendar-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/calendar-xmark.svg)
  */
-const CalendarXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 192l448 0 0 272c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 192zm143 79c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7l47-47 47 47c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
-        <path d="M128 0C110.3 0 96 14.3 96 32l0 32L48 64C21.5 64 0 85.5 0 112l0 80 448 0 0-80c0-26.5-21.5-48-48-48l-48 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 32L160 64l0-32c0-17.7-14.3-32-32-32zM305 305c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47z" />
-    </Icon>
-);
+const CalendarXmark = createIcon("calendar-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABnQAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCVQsIAAE2AiQDCgQgBYMtB1gbfwXIhqCyVWZNz208AMwT7zNajOSSJAstXk+A4YtdAnsnLnf+tukBFwDu4RuXP63WPk+g86lp20okoUwzsJbNcTHBLKSz0H6FPF6l82rInmRf4lb/P4Dxq9bOk6mdAEQjAExcNG+Gyk/xUxZfVt8lvjQdATEJFAIJCe0EGCMJtJMrkMsFP2XVKj9FtVoQQJT0YGKW4nNu4D4gB1l+LM8HFI271a2pny+snq2z7GqziPtEnXje7H4rUT8inrZ42L1ORJyplDoyLpew8pJnbV52HRPjYqM9bj02xgTtRY/xMTYY7n3jYnyqX69+Fo+b3e9aL162eNgmLVBJHtS91rLgDr4bCTdv6/xGozd+7/Tlxi+d+rjBZS43KJSVv/sqzVYxW/rqu3JZgc/k3OIXTmNH3ix/+239+n/4Q8dcXN4Rd1RGvZG1vtpb0OjmTKVkY506Gwvu6Gj4OhAI7rbd99+qhmP+r1U3A7+89+e/0Q9JtRKV7A3UkoEg9a32tTwqEBUBAMjioM5RAYFklsz4qfU8FCDUQYBMSR0BkrYaCZCro48ANToYKkBJHfMkkdcWmlnxEJl69hDJMCeIXDPvEDXG+CQtaRYJJgWIEn4JU6fhwNRNxcD+5WJUIWxcIphxzeroQtvtebAY6RWdtNEuO+23wXpb7MfwvWYUB+wwTYZN9UWFgforK4xSWHen1YVYutc+W/iy/TqjFf79ng7Kp/eKtpMBBn3NSiKySC3CrNfvMASb/eB7UiuWHJgBAAAA");
 
 export default CalendarXmark;

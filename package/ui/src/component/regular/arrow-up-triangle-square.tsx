@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-triangle-square` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-triangle-square?s=regular arrow-up-triangle-square}
  * @preview ![arrow-up-triangle-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-up-triangle-square.svg)
  */
-const ArrowUpTriangleSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M416 32c9.9 0 19.1 5.2 24.2 13.7L524.4 186c2.3 3.9 3.6 8.4 3.6 12.9c0 13.8-11.2 25.1-25.1 25.1l-173.9 0c-13.8 0-25.1-11.2-25.1-25.1c0-4.5 1.2-9 3.6-12.9L391.8 45.7C396.9 37.2 406.1 32 416 32zM368 432l96 0 0-96-96 0 0 96zM416 98.6L369.6 176l92.8 0L416 98.6zM320 432l0-96c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48zM143 39c9.4-9.4 24.6-9.4 33.9 0l96 96c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-55-55L184 456c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-342.1L81 169c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l96-96z" />
-    </Icon>
-);
+const ArrowUpTriangleSquare = createIcon("arrow-up-triangle-square", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABegAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCAQsGAAE2AiQDCAQgBYMtBz8bEAXIBp7n7T7PfTMLeNZy4opylQ7uoZZV0v4/7uf5P/8N+Iw+SrSl/vP0Yeb5BAYYbVnnA6uwieJ2ZyvsEO0irUXWkuOz4zMDunyU3ZiBOqLeALvqlcpPvFgPCjMNAABxBAAACtuba3n2Tb6JvDY9AHlNNSAAUgiAgQAaoAG+CAA5aAjgi44B6OgIfBOTKf0HGiAAIObQ2SgAdMAC6AfmAQAdAIWZrrtYWXh725jZ6W02Ztbj29xa5QCHQ6zlovcaj3Y5ZNNhY20jYi10t7S32EhbhyDHPA6F28gFtwNeyGHX/caR3Q96d10KbZUjnufDmkTJ4ZCL3po0iFjzqE970FXHq78D34y94dQpxxXN20i1cB+8yaC7RWpwVzjG7xogjUjG18TqPaDRX7N4Snv7KWGAhE9vtQE48vZmO7v+fj58aA3HaMOtsdGtjTEEO3GrowEQQMB4v3VNv0POP0sbBcCPp3//99MFmr4pR3UVsEQBIKDFmGLoUQUEkqAcEQAAAEDJMoKULxJA0Y4ZtJMtBxEABGtAAFCYYw2Dhg+OoGNNNJjhTypv7N6MhuhWCK70AihsWQgaaawAHVfugRk5PPfMcRXN0UQ3Ef95aWUSKa1nJMYlGFnGNmpIvsPn6mzDbEQsw6xIGMoY88yxhFFGmGSJoBdRGy5lljINLeWHGCQSRwIGWRjHief+bYyyiMVMMs9cqSUb474TwTK9cCTYCmJMYgeFAlGeg4sWzS+PXbogdsmiycG58ZnR2FcL");
 
 export default ArrowUpTriangleSquare;

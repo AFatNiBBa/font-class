@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-sms` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-sms?s=sharp-duotone-solid message-sms}
  * @preview ![message-sms](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/message-sms.svg)
  */
-const MessageSms: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 0L512 0l0 416-208 0L160 512l0-96L0 416 0 0zM96 180.8c0 12.3 6.2 23.8 16.4 30.7l29.4 19.6c1.3 .9 2.2 2.4 2.2 4c0 2.7-2.2 4.8-4.8 4.8L112 240l-16 0 0 32 16 0 27.2 0c20.3 0 36.8-16.5 36.8-36.8c0-12.3-6.2-23.8-16.4-30.7c-9.8-6.5-19.6-13.1-29.4-19.6c-1.3-.9-2.2-2.4-2.2-4c0-2.7 2.2-4.8 4.8-4.8l19.2 0 16 0 0-32c-2.7 0-5.3 0-8 0s-5.3 0-8 0l-19.2 0C112.5 144 96 160.5 96 180.8zM192 144l0 16 0 96 0 16 32 0 0-16 0-48 19.2 25.6L256 250.7c4.3-5.7 8.5-11.4 12.8-17.1L288 208l0 48 0 16 32 0 0-16 0-96 0-16-24 0-4.8 6.4L256 197.3l-35.2-46.9L216 144l-24 0zm144 36.8c0 12.3 6.2 23.8 16.4 30.7l29.4 19.6c1.3 .9 2.2 2.4 2.2 4c0 2.7-2.2 4.8-4.8 4.8L352 240l-16 0 0 32 16 0 27.2 0c20.3 0 36.8-16.5 36.8-36.8c0-12.3-6.2-23.8-16.4-30.7c-9.8-6.5-19.6-13.1-29.4-19.6c-1.3-.9-2.2-2.4-2.2-4c0-2.7 2.2-4.8 4.8-4.8l19.2 0 16 0 0-32-16 0-8 0c-3.8 0-7.6 0-11.3 0c-20.3 .1-36.7 16.6-36.7 36.8z" />
-        <path d="M160 144l-8 0-19.2 0C112.5 144 96 160.5 96 180.8c0 12.3 6.2 23.8 16.4 30.7l29.4 19.6c1.3 .9 2.2 2.4 2.2 4c0 2.7-2.2 4.8-4.8 4.8L112 240l-16 0 0 32 16 0 27.2 0c20.3 0 36.8-16.5 36.8-36.8c0-12.3-6.2-23.8-16.4-30.7l-29.4-19.6c-1.3-.9-2.2-2.4-2.2-4c0-2.7 2.2-4.8 4.8-4.8l19.2 0 16 0 0-32-8 0s0 0 0 0zm32 0l0 16 0 96 0 16 32 0 0-16 0-48 19.2 25.6L256 250.7l12.8-17.1L288 208l0 48 0 16 32 0 0-16 0-96 0-16-24 0-4.8 6.4L256 197.3l-35.2-46.9L216 144l-24 0zm180.7 0c-20.3 .1-36.7 16.6-36.7 36.8c0 12.3 6.2 23.8 16.4 30.7l29.4 19.6c1.3 .9 2.2 2.4 2.2 4c0 2.7-2.2 4.8-4.8 4.8L352 240l-16 0 0 32 16 0 27.2 0c20.3 0 36.8-16.5 36.8-36.8c0-12.3-6.2-23.8-16.4-30.7l-29.4-19.6c-1.3-.9-2.2-2.4-2.2-4c0-2.7 2.2-4.8 4.8-4.8l19.2 0 16 0 0-32-16 0-8 0s0 0 0 0l-11.3 0z" />
-    </Icon>
-);
+const MessageSms = createIcon("message-sms", true, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAAB2gAAAKHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQSEegsIAAE2AiQDCgQgBYMtB1IbngbIhof/1nq7r6pnzvzqQIe4A4wqUYBLQAoAbL7dZTVuiYT5ZyWRnv+5pl7g8QF+8fNDi6TU0yjwXqVGPh/42ocbD3SWfEATnYjtbYo7MhiFu8YYIi5MhPijjmtnqOLH/JgO6bX0NZ6pdxy/muYxkqEMIBoA7D159Ij+SIyk+HrwPvG1wwiIfaAVyMiYKcAOWWCmSotKJRhJgwEjkf75WgKILvKjZtDFEDGLWASoQJJVVbVs5Yqxy1cvrTujqxN1p5wtdXl84otem7Q0XvJQKUXU9RNTXonXJy+Ll+Phuq4jSjwctSBEHRERS2NazIjlQTCGkk2MHbErJkepH58YEYiUjQ9HyWPHjE1R4lj/0Hy8Q3n54ov6eAG9xMCNT46jvjLlyFeKhaJFfjFdPG+4Gf597tdXfO2d1b3ejOb1c0369UfjUqczo2k1gvjlJ3TCNT20TdNcpNFqrLFUX99SawSjlmqqg1ZZ5aCpHzSvE/iFTQ9qfbzre89c6CLvevfC9z327bddehnKFekTaIMvXDDSagvmr5+PQ59ZUGduu+yy2/Bm3c5fr51rgEBw922XHr5w7I7/e3UCP3/65y/u39Ggn6Rh9CQQ5BWDFc5LIBEAgBR3mJe4CIHseRWKRnlZhEYFka2uAlE2Q/NCpVgOHbNtZIy7j8qiGhImOh8gGeVmyDa5HyoTvQcdO3zmd02MvEy4Sc79pCYf4vjBde3aVWvabe1n7OFnPnP2bm/N2pI7sGYpnHSFG93gNpe7zNVuY+QtjkS3u96hFvXgZ1trrbJGa5vWnS3lE8y/xa2u1kX/KNu18dYSd7SbLwUzIdp1dmSZSJEnrJ5o5a3X37pyw9VNkuLeAgAAAA==");
 
 export default MessageSms;

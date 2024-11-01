@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clouds` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clouds?s=sharp-regular clouds}
  * @preview ![clouds](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/clouds.svg)
  */
-const Clouds: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M390.4 188.8c4.6 3.5 9 7.2 13.1 11.1c12.2-4.5 25.3-7.2 39-7.8c3.6-10 5.5-20.9 5.5-32.1c0-53-43-96-96-96l-42.8 0C291.2 26.2 252.7 0 208 0C151.6 0 104.9 41.7 97.1 96L96 96C43 96 0 139 0 192l0 48 0 48 48 0 48 0 64.9 0c1.9-17.1 6.8-33.3 14.1-48l-79 0-48 0 0-48c0-26.5 21.4-47.9 47.9-48l1 0 41.9 .2 5.9-41.5C149.1 71.8 175.8 48 208 48c25.5 0 47.5 14.9 57.9 36.6l13 27.4 30.3 0 42.8 0c26.5 0 48 21.5 48 48c0 10.8-3.6 20.8-9.6 28.8zM496 320l0 48 48 0c26.5 0 48 21.5 48 48l0 48-48 0-320 0-48 0 0-48c0-20.8 13.3-38.7 32-45.3l32-11.3 0-33.9 0-21.5c0-35.3 28.7-64 64-64c21.6 0 40.7 10.7 52.4 27.2l26.7 37.9 38.8-25.3c7.5-4.9 16.4-7.7 26.2-7.7c26.5 0 48 21.5 48 48zM128 512l48 0 48 0 320 0 48 0 48 0 0-48 0-48c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C375.3 210.8 341.9 192 304 192c-61.9 0-112 50.1-112 112l0 21.5c-37.3 13.2-64 48.7-64 90.5l0 48 0 48z" />
-    </Icon>
-);
+const Clouds = createIcon("clouds", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABkgAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCVwsGAAE2AiQDCAQgBYMtBy0bVAXIjsN0OyvTPJsgOUUQ6cqqR9r1WWsGmXgMRA9AoA+Js+cgAgqJIlO/h2SHnv9r8r2zKsDPR3Bod2vLxkjvej6BAUd5FFiVDWcTxe3O5uDQtHJII7GW5Lh2fD4LKGNH3KNFejR9hbvTh8avhrqBpFUAiD4AWH3w/tt98mP8GPHlnjeJL21FQKwGtUCBAiMEWKYQGKFUo1QKfow9e/x/YE0A0UZIcvgSLdyDhwAlSIqyXDl5TKfVszyo06pOfnDgy5MejqemNguqeGxqU70x+ZURVcBMITqdx4dXVcTjgx+exJrRqJmktL85Y+hs4IsDHxx6zYADhU7wAFH1iHh60qQg2+PTXtMkTZkRS+PhEHRMp+o9k25IOXDb+I82ICVegIY83timT/N7X530lRvTCScOWrVX366muWaab+/Z2Gd++anhmqbpyrJ87pQX985Z8fW3OaYeYmGvXtec2+8Lo6blb78u+j5+6nU556zZP8vnZH2+2SGDVH37PtNn6ItO8XLv/O13A87+OJ/ScVK+wsizez77l929B3l3cLfeWQYCQd+9/rr86N7L/u/qJPDze5Tt7fkkXZMadEkgKKbvme6IdA14YQChFBcZK3xRILlFgd61h4cECBUCJG2VAIXh+ghQqkwToGWU+QK0VfZXiLK7MMCRDJIezgWFBa4EpQFeBy3LfBpsGxCFTSosSvEkTLuhh9f3q2fPzPWSeplVlWYmxe6ltVo/+aJQNQXmOsnZznKBE53gVBd0/Hm2Ry50pg0Sud4P1WabKastUW8XHqcf5ETnOd+pznYW9rJUfd492UVy4ylgSkh0jpQkEan9OaHufAA=");
 
 export default Clouds;

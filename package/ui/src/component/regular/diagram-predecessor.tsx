@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-predecessor` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-predecessor?s=regular diagram-predecessor}
  * @preview ![diagram-predecessor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/diagram-predecessor.svg)
  */
-const DiagramPredecessor: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 416l0-64c0-8.8-7.2-16-16-16L64 336c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16zm-16 64L64 480c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64zM288 160c0 35.3-28.7 64-64 64L64 224c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l144 0 16 0 144 0c39.8 0 72 32.2 72 72l0 38.1 23-23c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-64 64c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l23 23 0-38.1c0-13.3-10.7-24-24-24l-82 0c1.3 5.1 2 10.5 2 16l0 64z" />
-    </Icon>
-);
+const DiagramPredecessor = createIcon("diagram-predecessor", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABfgAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCCgsGAAE2AiQDCAQgBYMtBzobFAXIjtRG+YOhxMP/r1Xe96t6zuww1jKjA/K7AWAZF1YEQvaJRZXYrtruqVPPo4sWyBsFbSxbGyT7POncOAUq1sa6zmMFqhWsphWw+u3kPYMrv267dEmRZNhu0e4JeXweT5RIL6Wf8bh+aPyp2yOSUgYgmgCwdPf2jb4pRznipwriJ+sREEtBIZAhQ58AC2QCfXIFcrmgHJVK+A8sCCCqcLMJ5CjhHC4DcpBked7SM6u2VJ/vig3XHA/xfEddPNsmnmuvjxc6i7r6uvfHfdwT8cr4T0bXx3tjP+oWL475cMQ+p0TQRk3M4NraC+Pjg5EvdW2Jd0dti5d71RkbIdeMqonnGPZx08d/D/351M9+G1zCpYbyPeWGJaBU7qH4ZnNzzRI1eevNe1R5YzEUaPLNse7Jm+Xp0xtGOaW+/vffK56q+P135RS8rn3rNp3VS4BAsP/Rbw83LvivujaBPz7793/yK6qUk/QxqiUQZBMqExxIIBEAgBS3DEsQSI7J8LvWeV6AUIMASZUaATK9mgTI1RgvQMmAmQJUqbFdJvIhQpuDCpI6V0Fmltsg1+ZTULLAd1GVtsisjbMV7q+XvKqHVp4qpk6aUswrph2NNyAmbc4vttUxt2hiLGqdctklN5x0wlk3OvyajelNF61aYSt9UWGqSaYozFMc9x/P73LSNdedddmlcsx8xf1wjFvr+WNhJEw7TSVJRGp9GSYnmjMAAAA=");
 
 export default DiagramPredecessor;

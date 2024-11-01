@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `glass-citrus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-citrus?s=sharp-light glass-citrus}
  * @preview ![glass-citrus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/glass-citrus.svg)
  */
-const GlassCitrus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 144c0-61.9-50.1-112-112-112c-44.7 0-83.2 26.2-101.2 64l-34.6 0C252 40.1 305.3 0 368 0c79.5 0 144 64.5 144 144s-64.5 144-144 144l-.5 0 3.3-32C431.4 254.5 480 204.9 480 144zM68.8 480l214.3 0 20-192L48.8 288l20 192zM306.5 256l10-96-281 0 10 96 261 0zM312 512L40 512 3.3 160 0 128l32.2 0 287.7 0 32.2 0-3.3 32L312 512z" />
-    </Icon>
-);
+const GlassCitrus = createIcon("glass-citrus", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABaQAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBUQsGAAE2AiQDCAQgBYMtBzMb1ATIHgVuLM+pvxDVGRxBxMPzdn2d+6q6B1D9PwCcjZeRlA3ChZEO0jU6WZi5M1gFYeJy53/+9ICT+NHGsmlj0Qba+zyBxLo8TygLLNMAIPasnX3klegGA+lTJBnG1y4PyOOFoES6P4W70pvGN1o5Q5JnAKIhAMYvXTjbqzfiRsSHlaeID81EQEwAhUCGDG0FGCUTaCtXIJcLbkSl4v4DCwKIMvy8BHKUMQ1LATlI8jyvqlWrXp1SvXxJnVLtrY8ccXXIpW6XW9aOR0e+MPSt0S9VPTbqxUkRbeKZntc6bKpTu87SqB2Lly5dtLRuLI56i+vWq7siWkedei1jWfXVhle/q/pwS673bfA/P/xY/fjdd/T38OE/On+sbdtj59HXZz98X/+BuV/Da/KK/2X3u+u11nqxFfaU8kpDw3cquL6KcX09DwJB+ee79q5tMOq36iRw6/kffmK/RZVXk3QVNSUQZL0qrEogEQCAFEdUJwgk4+TwqnXdI0CojQBJWW0BMm00FCBXW08BStobLEBZbQtlIq8lNLW6wUld++HMEKfhXFNPwCWjvBOUNY1MoWh1oP9zCVMkMPla0b9Pv2JEMSxVRkfIcB5ZLEvdjvCoO921xV57HLLZJtsdEtABs+PDdpsyAyf7oEJ/ffRTGKHYbu5vL7HZAQdtt9eeeMlIxXmjmyPz5e6kJiAcIJEkItW9PlrvjdtftwAA");
 
 export default GlassCitrus;

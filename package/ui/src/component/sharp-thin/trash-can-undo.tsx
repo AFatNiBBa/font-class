@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-undo` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-undo?s=sharp-thin trash-can-undo}
  * @preview ![trash-can-undo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/trash-can-undo.svg)
  */
-const TrashCanUndo: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 0L288 0l4.4 0 2.4 3.8L332.4 64 448 64l0 16L0 80 0 64l115.6 0L153.2 3.8 155.6 0 160 0zM313.6 64l-30-48L164.4 16l-30 48 179.1 0zM32 504l0-392 16 0 0 384 352 0 0-384 16 0 0 392 0 8-8 0L40 512l-8 0 0-8zM219.3 192.5l-5.9 5.4L140.7 264 248 264c39.8 0 72 32.2 72 72l0 40 0 8-16 0 0-8 0-40c0-30.9-25.1-56-56-56l-107.3 0 72.7 66.1 5.9 5.4-10.8 11.8-5.9-5.4-88-80-6.5-5.9 6.5-5.9 88-80 5.9-5.4 10.8 11.8z" />
-    </Icon>
-);
+const TrashCanUndo = createIcon("trash-can-undo", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABdQAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCFQsGAAE2AiQDCAQgBYMtBzUbGgXIjsO48RpwiS/FJh4e5v713CSfkjKkRKSI2dUxbZLwuaHwBTtSs3uowqUANDwAfezS+Md/A56/85j28QdZ4HPGX+DjY3bSpFKtabxWsJpWwHq27dWSoRISu9C4QRb3bVFDcjf5AzfDh8af2rtCIk0BRDMATLvFi1Tex/uI36tfEL9bgICYBkqBFCk6CTBRKtBJpkQmE7yPalX8B5YEELXSyxOQoRZ7cByQgUSWZW0bWg8pahpny4qafHWRF61jWhQhGkWQO2ZE2yiWDh40OI+BUWxJk7SIJBpHGmhC5I1idau2rZYMtZf93rY3lYMeutfmVu88lkbraBVtYplG28byB7Xu/kmzT/7u9se2Pzz+6cKFKz0scEQzFc0csUAP2d0p7zDlhHc+b//VjZOauWCDC5q5oV79ifpvRy9B58+ZZrf3I0Y06ateM/X6qvv3/wO7Lc4u9YmZls9WW/NzZvoUCAQr/8Dz9U0n/ldfJODjt//+if+KqpWoJJ+gXgKCdGB1oDVVICoCAJDEMd2rIJDYIkPftZFbAoQcARK1cgFSHTUTIJMbIECNLkYJUCu3WCqyBqGVtT1INHIQpEY7CzKtfAZqTPSzVqtVKcixAMP+8SXNHkOzmsphg4eW48tNS+OgiLbVCeVppe8xGemHD9pmv32O2GqLnY6MyEMWmUftNXsPnuWLSsMMNlRpvPK2+3z3MlsdcthO++3zdSYo31f7Oraf3g+3kQCGfyxaHo+kyZFDGw/vGLR5475BR/dt2Q8AAAA=");
 
 export default TrashCanUndo;

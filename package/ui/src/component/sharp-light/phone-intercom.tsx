@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-intercom` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-intercom?s=sharp-light phone-intercom}
  * @preview ![phone-intercom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/phone-intercom.svg)
  */
-const PhoneIntercom: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 64l0 384-64 0L32 64l64 0zM32 32L0 32 0 64 0 448l0 32 32 0 64 0 32 0 0-32 0-384 0-32L96 32 32 32zM480 64l0 384-288 0 0-384 288 0zM192 32l-32 0 0 32 0 384 0 32 32 0 288 0 32 0 0-32 0-384 0-32-32 0L192 32zm64 320a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm32-48l0 32 16 0 64 0 16 0 0-32-16 0-64 0-16 0zm0 64l0 32 16 0 64 0 16 0 0-32-16 0-64 0-16 0zM256 128l160 0 0 96-160 0 0-96zM224 96l0 32 0 96 0 32 32 0 160 0 32 0 0-32 0-96 0-32-32 0L256 96l-32 0z" />
-    </Icon>
-);
+const PhoneIntercom = createIcon("phone-intercom", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhgAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCRQsGAAE2AiQDCAQgBYMtBzUbSgXInoONmxiy0Lnku+380EcGLDbdd4mHvrXyV00f9e4hR4UVKiBJKLNCBSygRcVCsmKV5094stHR43+Mq/eXnL5/NlkZ9EFM4UK/6OZiYZ66+fiNOawLKOCAspC2rcE+J67Jn4uiAX6RLdCiimYVcT6BAU7TqkgGNtMJ2MxtYVCDwQPDlDHEiS8L7Rfa8wco8RKIyfcZr+hD4595j6TSACDGAMCJ67UCPjdiI+K//U6sOQ0C4iRgG0KDBksIHCYUWCKyDRRFsBFtm/4DGQKIfoCZri/o4imeAQpItYjkxmgaliNO3+lTi5r1SkUvG4GChKTM1o4CkYToKImERKSYrAGVgHqKqG9ov5VqoeIbEfuwffMXuQ/WaNcSkKcORb3vaXaqElGJbAhjkFabP9LX7ayV3Xh0C+pxt463nIlb23CPzI9WFSnPrZoKcjxpPRvZ2Bhp6cfrzXsX24osscjWlbcB3fljw/XtHRDsedJT6GMB/muj9wECwanX+WIxevg/VAoAW3/en35G2o2UHzEoQdDsbeknSAIAkHHMnBBIdylgX9cbAUKFsdSvYo1FOqyo9mB9VgT396suE4oiR5gyYCx13cEah1xhxZRnrM9hX8F+U9G4osyRZF+CqZMSSizj1OXhGKt1Q+5dkjIf52NzfJz7rGEtlnZsO7Qwt+ZQ8PcVIke2JHe8hC9iXi4eLIavW8/qpgjuO7C2NrhfJI7t/RbH+9HWYBOA2H1KUhKpeVkNzv8YPLOdLQA=");
 
 export default PhoneIntercom;

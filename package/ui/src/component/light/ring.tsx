@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ring` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ring?s=light ring}
  * @preview ![ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ring.svg)
  */
-const Ring: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M93.1 127.3C133.9 108.2 191.5 96 256 96s122.1 12.2 162.9 31.3C461.1 147 480 171 480 192c0 14.3-8.7 30-27.6 44.8c-6.3-3.7-13-7.2-19.9-10.4C386.5 204.8 324.1 192 256 192s-130.5 12.8-176.5 34.3c-6.9 3.2-13.6 6.7-19.9 10.4C40.7 222 32 206.3 32 192c0-21 18.9-45 61.1-64.7zM480 255.3l0 64.7c0 21-18.9 45-61.1 64.7C378.1 403.8 320.5 416 256 416s-122.1-12.2-162.9-31.3C50.9 365 32 341 32 320l0-64.7c13.2 11.8 29.5 22 47.5 30.4C125.5 307.2 187.9 320 256 320s130.5-12.8 176.5-34.3c18-8.4 34.4-18.6 47.5-30.4zM0 192L0 320c0 40.8 34.8 72.8 79.5 93.7C125.5 435.2 187.9 448 256 448s130.5-12.8 176.5-34.3C477.2 392.8 512 360.8 512 320l0-128c0-40.8-34.8-72.8-79.5-93.7C386.5 76.8 324.1 64 256 64S125.5 76.8 79.5 98.3C34.8 119.2 0 151.2 0 192zm93.1 64.7l-1.5-.7 1.5-.7C133.9 236.2 191.5 224 256 224s122.1 12.2 162.9 31.3l1.5 .7-1.5 .7C378.1 275.8 320.5 288 256 288s-122.1-12.2-162.9-31.3z" />
-    </Icon>
-);
+const Ring = createIcon("ring", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABfQAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCFwsGAAE2AiQDCAQgBYMtBysbEgXIhofv7b7Ofd0zswB6JUWwMjCmIjCTM4cKlTLacOtPnXqe81CAcm8UtD1tjo5FpTnPK1DgWL3n4XqtYAWqeAWsbxtCGFSEV8IiI8QxbawekMfT6KqMdC59wJH+pvFTY4dI8gxA1ALAqNnTp3n1Lb5FfCjdJz6YgoAYDQqBDBmaCTBUJtBMrkAuF3yLUgn/AwsCiHLUcAI5yrEcBwA5SPI8r9+gRZ2qZdXzWeUpVea/n/1p0ttm+zqebvB51scZJ+vdistTlgqXJr6Z8Xnyu5YRN9t9mvll9vUuy4RznW72EzUPu9xuGnG+863+hpp7HW80mtmgfoOG4RTWj3pha671rVq3frf6sOqDBSP/L7PM/68aPDh8ckKxxhrjiyuHHzTw9cDeUWT7qqKj9Ho2vndCcafX1+H7IK0xa3aPua/l7Fk19klySweuB4wuGAnaNH8JgSBtK21fXHPov0pVE/jx5O8//A0l6RYqSSDIupa6WpBAIgAAKXZpnSCQzJejV63mtAChCgIk5aoIkGmqlgC5KroIUKaFfgKUq2K6TOSVhXoWDpBUsxVk+tsNcvXcBWWGel2WqxdZzJERQ3754sZLaNytolf3nsXgQp1gKozwejmkuNY67sobneCuVTbbZIeVVlhrh0C2mdbeaaPxJ3icDyr00l1PhcEK8/yVmyXKbbZbu5fZrxmi8Hc62nXe3wnMhDB7G0sSkfIXAw==");
 
 export default Ring;

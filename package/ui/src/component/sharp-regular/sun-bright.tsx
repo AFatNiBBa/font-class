@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sun-bright` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-bright?s=sharp-regular sun-bright}
  * @preview ![sun-bright](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/sun-bright.svg)
  */
-const SunBright: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M280 24l0 64 0 24-48 0 0-24 0-64 0-24 48 0 0 24zm157 84.9l-45.3 45.3-17 17-33.9-33.9 17-17L403.1 75l17-17L454 92l-17 17zM108.9 75l45.3 45.3 17 17-33.9 33.9-17-17L75 108.9 58 92 92 58l17 17zM24 232l64 0 24 0 0 48-24 0-64 0L0 280l0-48 24 0zm400 0l64 0 24 0 0 48-24 0-64 0-24 0 0-48 24 0zM154.2 391.8L108.9 437 92 454 58 420l17-17 45.3-45.3 17-17 33.9 33.9-17 17zm237.6-33.9L437 403.1l17 17L420 454l-17-17-45.3-45.3-17-17 33.9-33.9 17 17zM280 424l0 64 0 24-48 0 0-24 0-64 0-24 48 0 0 24zm40-168a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-176 0a112 112 0 1 1 224 0 112 112 0 1 1 -224 0z" />
-    </Icon>
-);
+const SunBright = createIcon("sun-bright", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABngAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDGwsGAAE2AiQDCAQgBYMtBzEbnAXIjtReMZvCSTz8v13f73OrRtVj1EiKYGVQNI4AfTpzErz1si/FnQs9+hOX0x/nTw+4hF8fbSxb+3yCjd1anECAi97zLo6zwDJNwFrcdnPEJCQWGnfI4/O4og7pRvoJl6sPjV+1c5akTgYgmgJg6rJFC31TEzURP1Y/JH40HwExFZQCGTJ0FGCCTKCjXIlcLqiJalX8B5YEEHXFT0wgR0O8xseAHCRFnjdr1qxSMeRGHSp1GuVL88U2QRQRj1TCkgmTJ/SJSdE/JuuLE6PPxiZN7BsTot8M2C/qu1hR2Q8UO5VG7cL1V6iXtb7z6mV3+73s87zjnb4v+r/qUpzqEHGr97PK+Z5P2t1wsu31Ho+Lc72etr8Z3V42ffl715+2/qTNsylTprQ1RFtTVM7txT/FF2iGn4APzu46URbfPiEvZ0w2c6U92OjersW/nzu4b+prud7Pstq//67NijPvdP6Zn+/e7dxZKD//jGd+7h4HAkHvzf++rsmE/+tLoPazP/+sfkaq3yTpJepLIMgGVAdYnUAiAAApjuqWIJA8VojftaGrAoQCAZK6CgEyHTQVIFfoL0AdnY0UoK7CIpnIGwgtrSFY0tABLDPKMSzX0vtYHRN8G9fVMjKo5WCO+2lMnjWEZ54qhw4aUo4rV2sND4iM3R1fHlb7HJUzffGorfbZ67AtNtvh8AA9aGF2xB6ztpCZvqg01CBDlMYpL3dP5aWD+KBDdiyL148Zr3w+7OPo9vK+2Ehi2mFuJ4lIxaEjewdu/JwBAAAA");
 
 export default SunBright;

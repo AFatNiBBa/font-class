@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `oven` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oven?s=sharp-light oven}
  * @preview ![oven](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/oven.svg)
  */
-const Oven: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 32l0 128 384 0 0-128L32 32zm0 160l0 288 384 0 0-288L32 192zM0 0L32 0 416 0l32 0 0 32 0 448 0 32-32 0L32 512 0 512l0-32L0 32 0 0zM104 80a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM264 80a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM96 256l0 160 256 0 0-160L96 256zM64 224l32 0 256 0 32 0 0 32 0 160 0 32-32 0L96 448l-32 0 0-32 0-160 0-32zm64 64l16 0 160 0 16 0 0 32-16 0-160 0-16 0 0-32z" />
-    </Icon>
-);
+const Oven = createIcon("oven", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABfwAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCJAsGAAE2AiQDCAQgBYMtBysbHwXIhofn7eo791WNano++T4ArJBvZkZUZ8sgVyqk2xPX1I+ypwcse9dclbVXaETxBHbetrdFagPNBjadoO1s26sgoqGwC5U9lPFUjNdEeiJ9j0fCh8Yv+nqYpCwARBcALNm1bYP6j/FjxPeN94nvrUNALAVZoECBAQLMVwgMUMoolYIfo9EQ/4GZAKJZcr0EStRwFXcCSpBUZdnW1rUNCdjf3tRR7mQrqn1CR0TUpCI1QCGsrF91iBSiqkUUETte6fv48Ff7PTVqTaZ0zXfNrNufMI29iQJCv2UCtKtWVQx9s8ubvw35/uT3Bj93f8Jxv/ufz8775YYY/GVqPavL8vMs6dSmLT17bsnNt7SAh5/qPXX+8NjzYQnP08h5cW6ITGavbHTpUs+6vJWBQPDJ//06H+o8/7/W9gR+/uSPv6CLG/WopzfRKoGgGN8Yb3/UQfAD+EkpbhoadQSSsyrJu9Y8KkCoECBpVglQ6K+LAKXKOAGaDDJDgGaVbQpRtgk9HOjppOYKXZjpHrrUw7t0k/m+CjbrEQXoKYCj/PhlWDmGV4zLUyZOznPzZl6rgSbJ9s/Lpx2jb8q6MVjVSZdcdN0Jx51xfURdtSFywwUr98gVviibYqLJsrny7dLzJTudcNU1Z6xb3R9lnvy+b7Sb+63H4MkkwNSPBqTkSOWlmycuAgAAAA==");
 
 export default Oven;

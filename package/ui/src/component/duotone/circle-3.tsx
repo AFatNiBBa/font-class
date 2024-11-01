@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-3` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-3?s=duotone circle-3}
  * @preview ![circle-3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-3.svg)
  */
-const Circle_3: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM160 152c0-13.3 10.7-24 24-24l128 0c9.9 0 18.8 6.1 22.4 15.3s1.1 19.7-6.2 26.4l-50.8 46.5c41.9 4.8 74.6 40.4 74.6 83.6c0 46.5-37.7 84.2-84.2 84.2L240 384c-30.1 0-58.1-15.6-73.9-41.2c-.9-1.4-1.7-2.8-2.6-4.2c-7-11.3-3.5-26.1 7.8-33s26.1-3.5 33 7.8l2.6 4.2c7.1 11.5 19.6 18.4 33 18.4l27.8 0c10 0 19-4 25.6-10.6c3.3-3.3 5.9-7.2 7.7-11.5c.9-2.2 1.6-4.4 2.1-6.8c.2-1.2 .4-2.4 .5-3.6c.1-.6 .1-1.2 .1-1.8s0-1.2 0-2c0-.6 0-1.2 0-1.8s-.1-1.2-.1-1.8c-.1-1.2-.3-2.4-.6-3.6c-.5-2.4-1.2-4.6-2.1-6.8c-1.8-4.3-4.5-8.2-7.8-11.5c-6.6-6.5-15.7-10.6-25.7-10.5l-51.5 .3c-9.9 .1-18.9-6-22.5-15.2s-1.2-19.8 6.1-26.5L250.3 176 184 176c-13.3 0-24-10.7-24-24z" />
-        <path d="M160 152c0-13.3 10.7-24 24-24l128 0c9.9 0 18.8 6.1 22.4 15.3s1.1 19.7-6.2 26.4l-50.8 46.5c41.9 4.8 74.6 40.4 74.6 83.6c0 46.5-37.7 84.2-84.2 84.2L240 384c-30.1 0-58.1-15.6-73.9-41.2l-2.6-4.2c-7-11.3-3.5-26.1 7.8-33s26.1-3.5 33 7.8l2.6 4.2c7.1 11.5 19.6 18.4 33 18.4l27.8 0c20 0 36.2-16.2 36.2-36.2c0-20.1-16.3-36.3-36.4-36.2l-51.5 .3c-9.9 .1-18.9-6-22.5-15.2s-1.2-19.8 6.1-26.5L250.3 176 184 176c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const Circle_3 = createIcon("circle-3", true, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABrQAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDCwsIAAE2AiQDCgQgBYMtB0wbqQXIHoexgzvAs2NXhise/t+u7/e5t7rXvOoxamBGEL+YARww+6Lit34qxI1MuHWQxOAAUDl5zf819cKOGvCLn2ok3bvnB1KAGYuiKLA9H0X5fMApNNPhyG3Wzt7ygxKTpCMkfdr5YVOuUMT3+UY10vH0Je5x/wMYv+rlRpKWDCA6AmDhpnUrvNsarSm+bL5IfGk5AmIRqAQyMvoKMEcW6KtQoVAIWlNztEZzFQFEncOyX0cdNTyC5wAFSEIqiul9VjRq7YqNjVq57eTwRjzU7aGuy+OlkY/1OzXi0SllvDyue5wY/kivbnF8aCPu6HE0rut+pCzjSPcjPVZFGQ/3jp8WRry34qvGHau+WfzBpp8Xvb/y6/L25V8ueHf9JrExR+IIcwG6jhXQEbh7dMddDnq84+O/D/zy4JfODu+25lp/7fDEWMW0ZfKVhyb09dfRLh5oO/PdIZ5d0FeHE4+142PHO8VfO77RzyJrunnX0hZ6/XuLF7/3Qq8WSzEMI5w9JLkiBG9bMjTlFILwOHEsp2FLjnec7K8LbLodBIIfv5h7664Oc/5v00jgl9f//Ff8HjXfTdLjaCOBII9pjrE9gUQAAFJcadBxAoHssMS8a1tHBAglAiR1pQBZHx0FKJRGC1DT31QB6krrZFG0CF3tyCBp6xKQTXMVKHT1AqiZ4xOrrmuyuorKJr4W05YhunRdNXHchGpW1Q0lSQN52zu7mjZGXMmlkXTRQRe50OUO2O8clwNzqRXuFS6wbMRe+qHKRONMUJmlspxcaxvButRlzmkr69PMVsmbI1w5bh5Jm0mASQftyUSK3PFbjzl28li91zsXyg0HAAAA");
 
 export default Circle_3;

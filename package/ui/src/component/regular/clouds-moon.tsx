@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clouds-moon` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clouds-moon?s=regular clouds-moon}
  * @preview ![clouds-moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/clouds-moon.svg)
  */
-const CloudsMoon: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 160c0 11.5 1.2 22.7 3.5 33.4c53.7 8.2 96.5 49.8 106.4 103c14.2 5.5 27.2 13.4 38.5 23.2c3.7 .3 7.4 .4 11.2 .4c43.2 0 82.5-17.3 111.2-45.3c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-6.5 1.1-13.2 1.7-20 1.7c-64.3 0-116.5-52.3-116.5-116.9c0-43.7 23.9-81.8 59.3-101.9c6.1-3.5 9.2-10.5 7.7-17.3S532 1.2 525.1 .6c-4.5-.4-9-.6-13.5-.6C423.4 0 352 71.7 352 160zM335.8 272c26.5 0 48 21.5 48 48c0 .8 0 1.7 .1 2.5l2 23.8c1.1 13.2 12.7 23 25.9 21.9c1.3-.1 2.6-.2 4-.2c26.5 0 48 21.5 48 48s-21.5 48-48 48c-.6 0-1.3 0-1.9 0c-.3 0-.6 0-.9 0l-266.9 0c-.3 0-.6 0-1 0c-.4 0-.9 0-1.3 0c-17.7 0-32-14.3-32-32s14.3-32 32-32c1.6 0 3.1 .1 4.6 .3c6.9 1 13.9-1.1 19.1-5.6s8.3-11.2 8.3-18.1l0-30.2c0-.3 0-.6 0-.9c0-.5 0-1 0-1.5s0-1 0-1.5c0-.3 0-.6 0-.9l0-1.1c.1-.6 .2-1.1 .3-1.7c2.5-19.6 19.3-34.8 39.7-34.8c12.6 0 23.8 5.8 31.1 14.9c5.8 7.1 15.1 10.4 24.1 8.3s15.9-9.1 18-18c4.9-21.3 24-37.2 46.8-37.2zm96 46.8c-.6-52.5-43.4-94.8-96-94.8c-33 0-62 16.6-79.3 41.9c-12.2-6.3-26-9.9-40.6-9.9c-43 0-78.8 30.9-86.5 71.7c-1 2.6-1.5 5.4-1.5 8.3l0 5.3c0 .9 0 1.8 0 2.7s0 1.8 0 2.7l0 6.9c-36.5 7.4-64 39.7-64 78.4c0 44.2 35.8 80 80 80c.9 0 1.8 0 2.7 0l266 0c1.1 0 2.1 .1 3.2 .1c53 0 96-43 96-96c0-47.5-34.5-86.9-79.8-94.6l-.2-2.5zM320 192.1s0 0 0 0c0-35.3-28.6-64-64-64c-7.4 0-14.6 1.3-21.2 3.6c-11.5-30.1-40.6-51.6-74.8-51.6c-38.9 0-71.3 27.8-78.5 64.6c-3.1-.4-6.3-.6-9.5-.6c-39.8 0-72 32.2-72 72s32.2 72 72 72c0 0 0 0 0 0l34.8 0c9.4-19.9 24.6-36.6 43.4-48l-76.4 0c-.6 0-1.2 0-1.7 0c-13.2 0-24-10.7-24-24s10.7-24 24-24c1.1 0 2.2 .1 3.2 .2c25.1 3.3 48.5-13.5 53.4-38.4c2.9-14.7 15.9-25.8 31.4-25.8c13.6 0 25.3 8.5 29.9 20.6c9.2 24.3 36.2 36.9 60.8 28.2c1.6-.6 3.4-.9 5.3-.9c8.8 0 16 7.2 16 16l0 .9c-.1 6.6-1.6 12.9-4.1 18.6c15.5-9.7 33.2-16.3 52.1-18.7l0-.9z" />
-    </Icon>
-);
+const CloudsMoon = createIcon("clouds-moon", false, "data:font/woff2;base64,d09GMgABAAAAAAOEAAoAAAAAB1gAAAM5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiESAsGAAE2AiQDCAQgBYMtBzIbSgZRlAxKnuyBHsItf94mcNfNuaQi5tA61Fy+qvzPuZ6PNh/gF58PJervrKhAoiwinx8d0AAv0qI9Mer5hPEu9fpfgEkKD5Nv9wa4+lsbCIDZaZ4B1lvj9TXZLANDwMEClAQnhaa9u3fkgQ/0gfT0/1dBT9MeEICaAuAjwMGTkIcAaICDgDxcfMDFRfCB/v9f/g/0QQCgIEgZolwgCEJXErBSE7pO+L7SPeu08wLxbq/gKDs6lH617Mn8oyWj3uuNt2dsS9tiH6t0r9j+3N2lCU5e0EbsKw3u9OhxNF3amh0iWzu9qAechDvaRZSI2IjiFA4xAlxsztxejVvDbpLCrsRo2xvJo+kCHur13FdOOlXrkQrH7JUyJ7K2gEKECSkEOoKLsLfsyZpRRb14hb2od7386cLOnGRTr7FwVx5aKpK2q9SxUt3sWdtsiDs7m0rOEuppd3mriNvjWM7u0lHvaOb23PhOj2bvLHm09HZvazoKpR0vrWKnkk59W/SZUc8wuDC58aynn57dJiEYbKqn5rTte3CDTfqBZP768/zynHIHfNdxmuuZZ9Q8cXKVd+BZRyaDmhnGEJy0gvPsO1Uk4YFEwqpVCf5YYw6umG0L7QOQcGoBGEAUnDyZ5N/d9dLLDRs/eStlcKWsk3BqStXjZTOYPmyy4waQuBvGcDUtrUC9RiYJyYKk0KlTsU7fvqXM5EUAYJOTD3ibVzRsuOGFpl3bNwl8UL16QgL82AcAxXn3wQ4I0TU9vatR1S+/qtY73GX61JiYkknOBwnC1ll0WQAgQHDi4Kc/DE5s8GusZwD46Nb3vxEf/P8DZrY5BcRiABA4Ff6vwAATAoo06CIAdBvNohgYjwDDf7iA87HEsQ0BICwgAAxBLALAIZckBICLpTwCIEABNREAQSzdcZBbBJHGwBwMcUwFh1osBJc0LkOABjzuDpImZ2OQFmXpUjStFUm01POrVqri1/Nr01J5+Rb09vp+Z3OZWXJZWZjDKCYziRmMZARjY46gp9HRN5OJtGpitjTWpyqVqIJPPfzBuVnsRSAhTieFanV4J/Xxp3eVYVZz7bJgMzis1UgwGJDx/opomV7xfAIA");
 
 export default CloudsMoon;

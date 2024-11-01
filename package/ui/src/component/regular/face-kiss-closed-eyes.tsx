@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-kiss-closed-eyes` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-kiss-closed-eyes?s=regular face-kiss-closed-eyes}
  * @preview ![face-kiss-closed-eyes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-kiss-closed-eyes.svg)
  */
-const FaceKissClosedEyes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm304.7 41.7c4.3 5.1 7.3 11.4 7.3 18.3s-3.1 13.2-7.3 18.3c-4.3 5.2-10.1 9.7-16.7 13.4c-2.7 1.5-5.7 3-8.7 4.3c3.1 1.3 6 2.7 8.7 4.3c6.6 3.7 12.5 8.2 16.7 13.4c4.3 5.1 7.3 11.4 7.3 18.3s-3.1 13.2-7.3 18.3c-4.3 5.2-10.1 9.7-16.7 13.4C274.7 427.1 257.4 432 240 432c-3.6 0-6.8-2.5-7.7-6s.6-7.2 3.8-9c0 0 0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2-.1c.2-.1 .5-.3 .9-.5c.8-.5 2-1.2 3.4-2.1c2.8-1.9 6.5-4.5 10.2-7.6c3.7-3.1 7.2-6.6 9.6-10.1c2.5-3.5 3.5-6.4 3.5-8.6s-1-5-3.5-8.6c-2.5-3.5-5.9-6.9-9.6-10.1c-3.7-3.1-7.4-5.7-10.2-7.6c-1.4-.9-2.6-1.6-3.4-2.1c-.4-.2-.7-.4-.9-.5l-.2-.1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.5-1.4-4.1-4.1-4.1-7s1.6-5.6 4.1-7c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2-.1c.2-.1 .5-.3 .9-.5c.8-.5 2-1.2 3.4-2.1c2.8-1.9 6.5-4.5 10.2-7.6c3.7-3.1 7.2-6.6 9.6-10.1c2.5-3.5 3.5-6.4 3.5-8.6s-1-5-3.5-8.6c-2.5-3.5-5.9-6.9-9.6-10.1c-3.7-3.1-7.4-5.7-10.2-7.6c-1.4-.9-2.6-1.6-3.4-2.1c-.4-.2-.7-.4-.9-.5l-.2-.1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-3.2-1.8-4.7-5.5-3.8-9s4.1-6 7.7-6c17.4 0 34.7 4.9 47.9 12.3c6.6 3.7 12.5 8.2 16.7 13.4zM175.6 220c-10.6 0-19.9 3.8-25.4 9.7c-7.6 8.1-20.2 8.5-28.3 .9s-8.5-20.2-.9-28.3c14.5-15.5 35.2-22.3 54.6-22.3s40.1 6.8 54.6 22.3c7.6 8.1 7.1 20.7-.9 28.3s-20.7 7.1-28.3-.9c-5.5-5.8-14.8-9.7-25.4-9.7zm134.6 9.7c-7.6 8.1-20.2 8.5-28.3 .9s-8.5-20.2-.9-28.3c14.5-15.5 35.2-22.3 54.6-22.3s40.1 6.8 54.6 22.3c7.6 8.1 7.1 20.7-.9 28.3s-20.7 7.1-28.3-.9c-5.5-5.8-14.8-9.7-25.4-9.7s-19.9 3.8-25.4 9.7z" />
-    </Icon>
-);
+const FaceKissClosedEyes = createIcon("face-kiss-closed-eyes", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAAByAAAAKfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiEQAsGAAE2AiQDCAQgBYMtBzwbTAbIjsK25RMVplzmC4f4xvP/7cdvn/tmvoh3USCJZ9GSSYlmjWhWIqWwqIRE+kbazJWB9Ax6ZuwA6PwtYgihaDKpktY+/OX0xrKjo+NndChr2F3pUbYsivbgBJZFWX1vWUIbNLATTsBSpyODqSCVfCI1CCtSPL6xHZdHaLlG5iGk3vKeg5fHXeUffcNA6QMAMgcAuPU8Iwm3f5PfIc8uLkB+SwCB3AKwh2AAYQsBV/GFHkFgDzRN+EMUCvsPZBAgI+BnFWgYJYFMAWig9CYwNFxTV6ddWZBNu6xiwJnkOP6pbDL2seMh+p2O4p7QqYRnLidE6dMdknv3X9GppBdhd7Leh95OfC6bTH4Zfje7jMOyVpU4bdu32LSc1JHrDhD4BBTNTZEVXahkQEeeH5ANkMmgGr4cdrZjeT3aQbesOO3sSa1lnVv+gE7ZcdscWZbprSvM99X2/5g9r36OV7f8bgJflaiPD506vuknVQv5NaLGWf91JyLizjl9qXtWXQ6c2NXIJrJrOLewMDeupkjjOZvEr4q0hbfBNEQCc2cZmZZe/MHLMjPDXQ1IEMRp727oSD4Vt/uy6F08V9OfpD7x7euN4y5T06rjG1+/TaiNSFWPbgcgCO/Zr7Mlqlf/SSgP8Pfq3//nz8jF7UJ9BIwpEIYDhaPCAkUAAJVumBcE5b+OyZRX2VJM4CgjJjDYpIZmwj66HV5HjJjwGF+aFLGkiKNMeYHBFT1olpxDd9Wj/IilDAPB7sb2b2hBtLJRy5ibsyvzZ82qy+nb5j4dwF5Htt1rlx2IqNaiWacqlep0itIuqdSlSXQkR/kixo0zV4w/lm783J+tSrsOdVo02yIB2PeJre54sB2yPNQ8U1GKlPYsK3NqqOvocJp6odPQBgAAAA==");
 
 export default FaceKissClosedEyes;

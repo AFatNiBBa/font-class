@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-tree` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-tree?s=solid list-tree}
  * @preview ![list-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/list-tree.svg)
  */
-const ListTree: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M24 48C10.7 48 0 58.7 0 72l0 48c0 13.3 10.7 24 24 24l0 112 0 128c0 30.9 25.1 56 56 56l48 0c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24l-48 0c-4.4 0-8-3.6-8-8l0-104 56 0c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24l-56 0 0-88c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L24 48zM160 96c0 17.7 14.3 32 32 32l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 64c-17.7 0-32 14.3-32 32zM288 256c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0c-17.7 0-32 14.3-32 32zm0 160c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const ListTree = createIcon("list-tree", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABiQAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCUgsGAAE2AiQDCAQgBYMtBzAbUgXIjpQuZyTx8P92/7XPrWrA1TYzySkHypwEf00qpPMqBH/6e3f+16IF8og+fpS121q8vYvmPM+yKMDCfC2hLLBME7DMTTMOEV6yicghUUQ6bGmHrXvI4/PsmHKk2+knXKwfGr9o5BhJpQxA1ATAyPmzp/qmLMoifiy9J340GQExEhQCGTI0FWCITKCpXIFcLiiLUon/AwsCiPKETM7PUR7ncRWQgyTP8xENXL5KuWr5vLil8uJnDcXttsJL9a63raJx1csmEXfaVQ5dpSU36kcosYBD5x6qF3G9SrU42+BmHK5/o3LVOFP3moRVgSrLu0arNzXf/OandT9pcHFmvR7qzdzhkAp//L8jZ3qoZlu1ovwGA0pugAWw4WT36qc4Vb3gVdbZ7JmDDzXskUljPIqvA4Fgz4ktrZbXGPJfxSoJ/PzZH/PPSOnPJL1BRQkEWZdSF0sSSAQAIMU+rRIEkuNy8q5V3RAgVEaApLzKAmSaqClArrLOApTTXF8ByqtstkzklYS6lg6QVLUTZPrZD3J1vQXlDPFtsby6kVmkaU/m/2DeOITGrit6dutRDCqWdd0yMj3NDy6Okx32hb6OtNM6222zx1prbLQH+F2mVvbaatyOG+uLCj1100NhkOK69ezNg+Iuu23UY+4XGax4PtvBvv3ojpRJRLGXmiQRqdIL7Xf9VgEAAAA=");
 
 export default ListTree;

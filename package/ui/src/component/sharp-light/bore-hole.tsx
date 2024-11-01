@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bore-hole` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bore-hole?s=sharp-light bore-hole}
  * @preview ![bore-hole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bore-hole.svg)
  */
-const BoreHole: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 16l0 242c27.6 7.1 48 32.2 48 62c0 35.3-28.7 64-64 64s-64-28.7-64-64c0-29.8 20.4-54.9 48-62l0-242 0-16 32 0 0 16zM224 320a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zM480 160l-96 0 0 160c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-160-96 0 0 320 448 0 0-320zM128 128l32 0 0 32 0 160c0 53 43 96 96 96s96-43 96-96l0-160 0-32 32 0 96 0 32 0 0 32 0 320 0 32-32 0L32 512 0 512l0-32L0 160l0-32 32 0 96 0z" />
-    </Icon>
-);
+const BoreHole = createIcon("bore-hole", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfAAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCHQsGAAE2AiQDCAQgBYMtBzAbHQXIjpTuJkRiPHyv8+3cJ9mTSGFQGGmZuCIoyj/bEtQuBMCJa57/PT89YJE/WqRVgpQ/ZmznExhgtKVP6IVmOgAb48xdu32WRPtJWoqQx3N5fLwgj49juBrpwfQ9bs+zil91dQ1JngGINgCYs2ndCl80RVPE9413ie8tQ0DMBZVAht09BJguE/YFuQq5XNAUjUb6D6wIIOr0RySQo46zcCEgB0me593bdx5Q1lrmG8tacUh4tuODHhj8Qv/nhr7U7cru9w+KiCjD5is6Rtxb3tz5/riy033FTR3usakoC/HE9E/mfznzs74RRaRoGdnesiiFeHTIixPeH/Zy7+2dpUghihYRmd3c96U2L/3e5/uD32v9+j8cX/DTz52Ltm2feCLcVHT++acF/2ij0mbUqFY3cEMrScBsPL5b73xCbfy81avnja89YbfZvjB7V++KYp7Q7KWXBt4TKtUV4uwCNr0PBII3hm96Z1fr6f8rE/jloz//pq+RxhdJegnNJBBkwxvDbU8gEQCAFOfpmyCQHJXjubZwnwChQICkrhAg010bAXKFYQLU9DJBgLrCOpnImwsd7GhI0sIZJDPRpUiug7eRmum+8us6ROZ2tNPQv76EhRZYsK4aM3J0NbUaJirjSWRcnlYtS4PPk8YQXHXQKSed44D9jjjHwGdZEZ3rhIUzaIEPqowx0miVqarj/P78Rgec5WxHnHIyrTJNdd8b7Lx5/xCoiRKOtTtJRGq+99RZB0Y8fg==");
 
 export default BoreHole;

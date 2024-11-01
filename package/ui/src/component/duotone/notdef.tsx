@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `notdef` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/notdef?s=duotone notdef}
  * @preview ![notdef](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/notdef.svg)
  */
-const Notdef: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M64 64l38.5 0L192 198.3 281.5 64 320 64l0 57.7L230.5 256 320 390.3l0 57.7-38.5 0L192 313.7 102.5 448 64 448l0-57.7L153.5 256 64 121.7c0-19.2 0-38.5 0-57.7z" />
-        <path d="M64 64l0 384 256 0 0-384L64 64zM0 48C0 21.5 21.5 0 48 0L336 0c26.5 0 48 21.5 48 48l0 416c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 48z" />
-    </Icon>
-);
+const Notdef = createIcon("notdef", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcAAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBXwsIAAE2AiQDCgQgBYMtB0gb+QTIjsM4RrxzEsUpHr7f71/XPue+HwC6YUYFrIHIJiqKCiRk2XaqOtUvm83e/7if5//893k9EPhZ58UFHrWo8wkMcFrlEx4PZzoD2+6itoki8pNYOpPHzx4/TyjiZL6oQrqbfsHl8D+A8Y82LpLUyQCiMQAmr1w636c/488Uv1Q/EL+Yh4CYAkqBjIz2AoyTBdorlCgUgj9TtcqfUa2WBBA1whtlUIMKFmI9oABJEkVRp223epUGxYp6lbprU04NIkf9GfdbRdzu2SBetrjZJsWd5je61Y9XLW+1zWvr1a23PFZGvRDLYnmIurHCM3UjYqVxzm3v8q7xu387/9IvJp45i1dxlmrGr4NKg36Vn2CaFhb0npSsumS1SXoYI4tgjPHWasR7GiOi36iheh0IBLu++TJnY6Nx/9eul8DfH/8v/ZBUP8XZ9A61JRDkftV+1sVZiLMCAJDihC5xFpMEsm4Se6q+WwKEuhRIatSFrJ3GUKirL1R0NFzYPGGpLIo6QnPrAZL6DkM2wikoNPceKsb5Pq3RPLJgyWIh/+syZnBk+qZy8IBB5ZhyWMqKrIhudWy5HfQ6YUZ6w047HHTAMdtts9sxRh8xvzhuvxkzdLovKg02wCClMcrj5tZYQekRR+3ua+frjFXeD3s5MZ/eGz6YAEPE01kmUuSGBw4e27Z9R38BdRrX2ksEAAAA");
 
 export default Notdef;

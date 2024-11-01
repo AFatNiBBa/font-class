@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane?s=sharp-duotone-solid plane}
  * @preview ![plane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/plane.svg)
  */
-const Plane: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M160 0l54.9 192 150.9 0L256 0 160 0zm0 512l96 0L365.7 320l-150.9 0L160 512z" />
-        <path d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64L112 320 64 384 0 384 32 256 0 128l64 0 48 64 370.3 0z" />
-    </Icon>
-);
+const Plane = createIcon("plane", true, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABYgAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBKQsIAAE2AiQDCgQgBYMtB0YbwQTIjtMlNuM1YQT1tn49b/eu+Hu4LGJ+aASRuGViOZlFZilEeOZJcJ/QIoqMqq3p95FT442XCvjIi/KvFuQB/R+vwMBH8/mEPuhMZ2DbnQ21Qy2fpBFLy3HZjs8V8vifXVcj3UnfcYP+BzB+6ec6SVsGILoCYMmGNat9bEUrxffqFfHdKgTEUlAKZMgwUIAFMoGBciVyuaCVqopWVFVJAFFHH52BOmqYgaWAHCQh5Xn/trZGrVO+vlEr9jweG/G83+0xz0Z0jGYUsSHWRyOWRKct69ava8T6KPJG0dgQRawd9qLriz9Dv+//rr362E77uPHtrY+nVZqGXMJoU+W0ux9mJcwtxz7YSQSyGrcMtwOB4O9M9R1dFvzr0Ejgx+s/4Yek+pia6QU6SCDIJlQTbE1NSE0BAEhx3rDUxD2BTH9JvNeObgoQCgRI6goBMgN0FSBXGC9AzWAzBagrrJGJvE3oaVuHk45OwZlZLsC5nl7CNQt88up6RuY9zNszn7fElRxYcaqcOmlKOa/c5hrrEFTezy+PzTHnsTcWLtrvhOPO2mevQ84y6LTV4TnHrJTAFb6oNNUkU5TmKdXVs7ieeaedcWjN64/MV953xzgvT48FJym405zJZESKrJOpqxOtUOnCeGsDAAAA");
 
 export default Plane;

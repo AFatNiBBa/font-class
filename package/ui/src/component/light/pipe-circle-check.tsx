@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pipe-circle-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-circle-check?s=light pipe-circle-check}
  * @preview ![pipe-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pipe-circle-check.svg)
  */
-const PipeCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 96c8.8 0 16 7.2 16 16l0 16 224 0 192 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 0 48.7c-11 1-21.7 3-32 5.9l0-38.6-192 0L32 160l0 192 288.7 0c-.5 5.3-.7 10.6-.7 16s.2 10.7 .7 16L32 384l0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32L0 144l0-32c0-8.8 7.2-16 16-16zM496 480a112 112 0 1 0 0-224 112 112 0 1 0 0 224zm0-256a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm67.3 100.7c6.2 6.2 6.2 16.4 0 22.6l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L480 385.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0z" />
-    </Icon>
-);
+const PipeCircleCheck = createIcon("pipe-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABiQAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCOQsGAAE2AiQDCAQgBYMtBzgbQQXIhofn7fo693V9wNVjYUVFEDMHORlNtJr/sz0fjUYXyOdNfCj3qbttK++NOq/nCQQ4LL+pOP9gWaLYlLsXgzBs3rsukMXfMUIJ6cH0JW53oIrfdLiGJCsAiHoAzN28fqWPv46vI778/w3iS8sREPNALlCAZneNYgYzODOTI5M1+Dr+/5/4PzAngCjlfTSBDKW4AtcDMpBkWTa6q6upqqQm21RVUrn93hZRVRVxf1vOEI83R1RW9tbEPa5oqQ6sbL6vNRA3/r6DNw+OeKrr4biy86FBT1beNODx9gdc0fHgwCeqCjdPjXhn5AuuGPH8lLe7s2nvjnrRhWL0S9Pfq9p4b/OGuKd1VtzXdn/L0Fgf97f0e7b+2T+KXx76Ut3ur2vrff1xvdqvv67NjeX7wT7++mNFZeXlZUWKw6i87avLex/jsV9+6e0Nqcce6+1Vy1MGJ9LY4qBBxbEpDeZ9sG3egYceWrzYM8+cT3CC+sIXXgcCwWvP3L9md92MU+VVCXz77l+n+PP+/zhdkZ5FuQSCwoj/R9iRrgBID6BOcZ5+I18USC6Q8WCtdp8AoRIBklKVAhR0qRcgU2m4ACV6TRSgVKX1CiKrEJrtLEFS7UxQMMmlINPsNVBihk+qUs1ROAmlU0j6BkxfVEcWHsvHjhqTT8sH+3L5vBL0/vR8tj/kPD43FJ51yOlOc46DDjjqnBp+lpXdc520aAxb6IdyY40yRm6afPXotr4JV2c529F+df0h0+X7x0OcN756KIwSj3WcRpKI1PBKsEf+rmOOPKABAAAA");
 
 export default PipeCircleCheck;

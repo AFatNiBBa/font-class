@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hourglass-clock` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-clock?s=sharp-thin hourglass-clock}
  * @preview ![hourglass-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hourglass-clock.svg)
  */
-const HourglassClock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M8 0L0 0 0 16l8 0 24 0 0 128 0 4 3.3 2.4L178.5 256 35.3 361.6 32 364l0 4 0 128L8 496l-8 0 0 16 8 0 322.8 0c-6.9-4.9-13.5-10.2-19.6-16L48 496l0-124L192 265.9l71.1 52.4c1.6-5.4 3.4-10.7 5.5-15.8L205.5 256 348.7 150.4 352 148l0-4 0-128 24 0 8 0 0-16-8 0L8 0zM336 16l0 124L192 246.1 48 140 48 16l288 0zm96 224a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 272a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm8-224l-16 0 0 8 0 72 0 8 8 0 56 0 8 0 0-16-8 0-48 0 0-64 0-8z" />
-    </Icon>
-);
+const HourglassClock = createIcon("hourglass-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjQAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCagsGAAE2AiQDCAQgBYMtBzYbcAXIHgd2jPgTrFJyMsTD83N+nfuSwiTDkP4hYAVMClCxQrtAdh3XLQoHZFGtrh4M6XIWSmZePZmCWDtxzfNPyxVIlfjQIoMjcZQpsPPpeG0VYmnD2URx5tY4wYkEcfSJiFE6RKTHZ7DHqwPk8ZPjaqS36Ue82D80/jLEI5IsAxC9AbBy17at2r/H7xE/dCbxg80IiJWgEsiQYbgAS2QCw+Uq5HLB79HpyH9gRQBRx/tOIEcDL/EOIAdJLc8XlsOG9StrPfKdZa3YV5SFKEshBsSO2B79Q4iiEGWPVwMlInbFjng9SJNjUOCisowo5gjbY2dE9NjxBMfHE929CZZZxeNJYMX9yREr05PF77KfT5+4P60X/dQFOyXdm1oLr9z1aUhYdWsREV2f9MY/rR9P/qjxdbPZ7K05+J5cy4szR35L7p7BLYHVH9Rwa+K62QbN+9fznu3uLarGN7mlOvTb6DbtET26unqMaLdHqyJZ1Xt8Is1sjRvXmpnSeBTB1/itN2NNG1S8uaI3OmOFKBDn9ev1yelDvZb83ywT+POz//5yXt1ppxXpEzQlEGRTOlPsTytApANIpLipy/iiQPJMDd+1u1cChAIBkrpCgMwwvQXIFSYLUDPSXAHqCttkIu8m9HfgZifdXWFn5rnNzvX3KbtmiW/idf0j806Vb6n+DdOv08DacdXMaTOqRVW36FI7nGIbXlwN2yfcLE0TsdZJl1x03QnHnXFd0a/amrrhgnUWttYPVWaaZobKItV05ad+p0pcdc2Ztnp+FItV68MT3LQ7T4QrodxZCpJEpF6xpwxG49RwBg==");
 
 export default HourglassClock;

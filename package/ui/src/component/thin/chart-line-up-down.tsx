@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-line-up-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-line-up-down?s=thin chart-line-up-down}
  * @preview ![chart-line-up-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chart-line-up-down.svg)
  */
-const ChartLineUpDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M8 32c4.4 0 8 3.6 8 8l0 368c0 30.9 25.1 56 56 56l432 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L72 480c-39.8 0-72-32.2-72-72L0 40c0-4.4 3.6-8 8-8zM352 72c0-4.4 3.6-8 8-8l112 0c4.4 0 8 3.6 8 8l0 112c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-92.7L293.7 261.7c-3.1 3.1-8.2 3.1-11.3 0L208 187.3l-98.3 98.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l104-104c3.1-3.1 8.2-3.1 11.3 0L288 244.7 452.7 80 360 80c-4.4 0-8-3.6-8-8zm8 312c-4.4 0-8-3.6-8-8s3.6-8 8-8l92.7 0-90.3-90.3 11.3-11.3L464 356.7l0-92.7c0-4.4 3.6-8 8-8s8 3.6 8 8l0 112c0 4.4-3.6 8-8 8l-112 0z" />
-    </Icon>
-);
+const ChartLineUpDown = createIcon("chart-line-up-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeAAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBfwsGAAE2AiQDCAQgBYMtBzkbCAXIngV27JhSs5gc625/jIf/36/fPve9mW+K+MPMkrg1Gt0kmVUa3ryEWVRNRJhkrp2pB9gK0f/7U89zHgrg94gH5WUsm7RsTZ6dU6DnBa21XvDytILVtALWwXkjDjA0hfL2K+Tx2l4l0p0El/IPjR96uEiSZQCiFQDzN6xZ7UMlKhHfqhPfrERALACFQIYMvQWYJRPoLVcglwsqUa2y/8CCAKIsuK8EcpSwE8cBOUiyPO8xtHtDqSlf31Cq33KjS4o7XW4MboobXa53NsaTES96ZnGr265b3Rq6iuDhza4Ra3O963pGutltQ9zqsi6U+hiVNklmERilW3Tl2MMtP1s/4EXri1/sp+buzvLJNPzz/2SlUt4JS5WJNZ8ElQ1DDRhmBiCwk9s8f2HNmuUr7NoN3cmTDxxoVh89ss3Ocs3UnVCSNm/y2qbNAHLsFieBQPC0f+9/O8z6W9uQwPdXf8p/RdVKkl6gVgJBNqo6ytYEEgEASHHegASBZKNM8K6NbgoQ6hEgKasXINNLqwC5eiMFKOlrsgBl9dbIRF4ndNpWo6TRKZSZ4gLKdXqJSmb5GJd1RnafcXcJ95mXvKSNLT5WjB8zrphRTPaV/K3D6P2ZxWp12Hk+NxxesN8Jx521z16HcmgRp63OzjlmyRy+2BcVxhtjnMIMxe7RfXk9hlQ+Y5lxfv8hZirOd4Y5P796ODSSgHKCWpKI1P6GLYz++YR57uToKxAAAA==");
 
 export default ChartLineUpDown;

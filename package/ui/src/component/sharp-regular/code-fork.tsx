@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-fork` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-fork?s=sharp-regular code-fork}
  * @preview ![code-fork](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/code-fork.svg)
  */
-const CodeFork: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M112 48l0 64-64 0 0-64 64 0zM48 0L0 0 0 48l0 64 0 48 48 0 8 0 0 32c0 48.6 39.4 88 88 88l56 0 0 72-8 0-48 0 0 48 0 64 0 48 48 0 64 0 48 0 0-48 0-64 0-48-48 0-8 0 0-72 56 0c48.6 0 88-39.4 88-88l0-32 8 0 48 0 0-48 0-64 0-48L400 0 336 0 288 0l0 48 0 64 0 48 48 0 8 0 0 32c0 22.1-17.9 40-40 40l-160 0c-22.1 0-40-17.9-40-40l0-32 8 0 48 0 0-48 0-64 0-48L112 0 48 0zM400 48l0 64-64 0 0-64 64 0zM192 400l64 0 0 64-64 0 0-64z" />
-    </Icon>
-);
+const CodeFork = createIcon("code-fork", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABdgAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCNAsGAAE2AiQDCAQgBYMtBzAbNAXIHoex22RJF81QPgoXHw8fOsv3Jdmzlo5BcxUjdMDU3m554cpdgIp2J20mZWonMyRIhbxPXO78z58ecBI/2ljLvwUS7aUTMNAw79KE1vJME7DMXV0JJdoXrcWSeLzm8bSDLN7FKiRvEnhUHjT+1dN1EpUUQHQAwKwNa5apt0ZrxO+Nb4nfLUFAzAKlQIoUfQSYKhXoI1Mikwlao9Hw/4ERQFTR+SUgQxUXcR2QgUSWZbUttVpRaZutLyr5FiGPiGJ5XuRCiKIQHwZ9GVeEyKUU+DTPI4r4fkhL/wCrZ8TlLs/d6t1uLyOqu87zG11QiLZ5QHOH5v/Yz4lHMwlnppmNkXuYaaSRTaXs9u2ZEy3UJNWT43ShiWaGaVn4uNTxp5aOn3Vs+aljdvuPuOD+vaMeDgSCkfP3vN7Rfur/TUUC/vlp/zPSqEc9aUaTBATp0MZQW6MOURcAgCTOGxB1BBLnZehY23gpQMgRIFGVC5DqrYMAmdwQASr6GSdAVW6NVGQ1oYttHU60cQpOjXcBznTxFa6Y6udsVZdITZA2IPoDmDCfA/PWlaOGjywnl9OSylgVmUanlMvGwPOhZRC22u+E487aZ69DzjLotGWFc46Zr4HzfFFplOFGKk1WbleXwnqWPe2MQ2PV/ixTlOeTgc7r3QfBThDhaEWJhEhqzzI7bP+J00cAAAA=");
 
 export default CodeFork;

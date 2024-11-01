@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `subscript` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/subscript?s=sharp-solid subscript}
  * @preview ![subscript](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/subscript.svg)
  */
-const Subscript: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 64l32 0 32 0 16.7 0 9.6 13.6L176 200.2 261.8 77.6 271.3 64 288 64l32 0 32 0 0 64-32 0-15.3 0L215.1 256l89.6 128 15.3 0 32 0 0 64-32 0-32 0-16.7 0-9.6-13.6L176 311.8 90.2 434.4 80.7 448 64 448l-32 0L0 448l0-64 32 0 15.3 0 89.6-128L47.3 128 32 128 0 128 0 64zM384 288l32 0 32 0 32 0 0 32 0 128 32 0 0 64-32 0-64 0-32 0 0-64 32 0 0-96-32 0 0-64z" />
-    </Icon>
-);
+const Subscript = createIcon("subscript", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXwAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBXAsGAAE2AiQDCAQgBYMtBzAb3ATIngU5GTUvoYh5zFOtlpPFmfM1LeL5/9/vf3PtK98NORHz5I1oWgqRRIg0C/WlhJXwx69k8vX/f8zdPxFp7yyZKaLaxOpaouFNMxkc4wAHwG2iUffzyc/2EIiRU+ONlwr4SYt0Lr4L8qzxe+MVqNY6WqZLfUKzgc10ArbFbVdBRENbqHBBn6fOBupHDXwJH5p/zO4pCx0Asg4AHr0etPD+n+PkZwr5owECeQRoGDp0OIWBu7iCU3ga6PXCMZsm8R/YIEBGJG9RoEePJ+ADgB6U6nm+PSlfzhtfGiRcqUSqz1heZy9SKbIoGeZlizdkPC+yLbGZNDGiWmnpcBKRJYZFmzFWPWGZNfNfzXVrvZGXn7JbIxsPs6C1qc9AsrL1466vn1/9tbZIrjVZLYVVi/R1QBBOfm/+JO7+n1/iAE4eT/0rmlpqhnkFQndpumS2QBEAQOWcpYCgPMaREJZ9FXEsQuAyWoQ7R1Rwb9FFeHBG6MJo0XNc6cWIbXMQXJZ9hDt3XMC9bQ/w4K6PYLQdLlixQMF+1CWVx0Bpj667vRSnzVTLQQpt1wk6LZ87ly0bfoh1B/adWrNqy+kIOtaKz+wp74ElX0R83LxIHN0unt8ft+bYiS0H9v2WBHrftzrfH7ZhjSMhveGgFCnxvwgAAAA=");
 
 export default Subscript;

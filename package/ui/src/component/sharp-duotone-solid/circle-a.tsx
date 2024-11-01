@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-a` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-a?s=sharp-duotone-solid circle-a}
  * @preview ![circle-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/circle-a.svg)
  */
-const CircleA: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM120.6 368c37.9-80.7 75.8-161.5 113.6-242.2c2.2-4.6 4.3-9.2 6.5-13.8l30.5 0c2.2 4.6 4.3 9.2 6.5 13.8c37.9 80.7 75.8 161.4 113.6 242.2l-53 0-22.5-48-119.7 0-22.5 48-53 0zm98.1-96l74.6 0c-12.4-26.5-24.9-53-37.3-79.5c-12.4 26.5-24.9 53-37.3 79.5z" />
-        <path d="M271.2 112l-30.5 0-6.5 13.8L120.6 368l53 0 22.5-48 119.7 0 22.5 48 53 0L277.7 125.8 271.2 112zm22.1 160l-74.6 0L256 192.5 293.3 272z" />
-    </Icon>
-);
+const CircleA = createIcon("circle-a", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABggAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCDwsIAAE2AiQDCgQgBYMtB0wbLQXIHgflpjNL2gjyncbD01rZ+1U9EwDqABCpRLGCO/Zr9xQBSiI9yfzw3ABfgpPm/5p6UXZUIN/oUKIpelG6Bsx8PoEBVvB80z2f0ExnYNttxbawoMiKQXS+iBiaC+3gHlDEx/m6CunhBHfD/wDGrzq5TtIoA4iWAJi5fvVSL/4YP6Z4t/YU8a4lCIhZoBTIyOgqwBRZoKtCiUIh+DHVavwYtVpJAFEV3p1BFQ2wG+cBBUiSXBTtGnTp2LRJpVmxrkml8f7GTRq3jTXRJIYjPLS0Ltqv7bxifayNz2ZGvLT0vSY3lz/7lfWfz3p52fuNbywx48U1a79Y/6CD55vEvXbmZ7tJDAuChjStb9K4ySOdkXqo4/ZedS3rfu9p37uaL+8ud4468bextrtgu7FF8Wi7JxdBqs8yfPtFcxvRqf6l2bNfqu/UyFzdqrZeOD7+woQLbVrn1t1FJ7XxIhl3kp3bF0nTtWvX8XlAINj17d1nbcr/DZsk8PPTf/7CPyS1F5NUh4YSCPKQ2hBbEkgEACDFOb0SFxHIpsvwU5u6L0BojABJVWMBsi5aClBobLAAFd2NFaCqsdWyKBoJbW3NIGnqJMjGuQoKbdWDiineKFe1jWxwqrmo33tZ8zQ6d1M5ctiIclI5bUmaDcludXK57Q44xyMD4aZ9jjvmjL32OOiMYk5ZWjvrqHkreq4vKo00zAilScrj7q21jpJTTrM8Ns7Xmay8nxvg3Hr6QAgSERzlRJaJFLnljzm5oTuHWq7dujLeKAA=");
 
 export default CircleA;

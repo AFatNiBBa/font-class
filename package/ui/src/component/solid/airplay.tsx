@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `airplay` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/airplay?s=solid airplay}
  * @preview ![airplay](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/airplay.svg)
  */
-const Airplay: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M480 96L96 96c-17.7 0-32 14.3-32 32l0 192c0 17.7 14.3 32 32 32l69.5 0-50.7 50.7c-4 4-7.4 8.5-10.2 13.3L96 416c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l384 0c53 0 96 43 96 96l0 192c0 53-43 96-96 96l-8.6 0c-2.8-4.8-6.2-9.2-10.2-13.3L410.5 352l69.5 0c17.7 0 32-14.3 32-32l0-192c0-17.7-14.3-32-32-32zM265.4 297.4c12.5-12.5 32.8-12.5 45.3 0l128 128c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8l-256 0c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l128-128z" />
-    </Icon>
-);
+const Airplay = createIcon("airplay", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbwAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBawsGAAE2AiQDCAQgBYMtBy4b6QTIjpQuZyTx8Pzcl+e+ZAA4y4gFBwxuUbasxhU1oUVV/SsEf/6v+fys6QA/H8GhdeiBFPj1Ip9PYDiOwkiaUBTOJop72xLJhhS+CJEgkWhMx2sHefyUPayM9Eb6Bs+ND42/dHmYpCoDEI0AWLJr2waDv8fvEV+XPiS+tg4BsQQUAhky9AowXybQK1cglwt+j1KJ/gMLAohyAid6jifuxRFADpKU5wtba8rq8p31ZapP1dbVPtn6MnF/2ys1NbE5Xm6tjo/G3uqPeG/c7Vl18eGYm33i7dE3plfHq+1boyae6ngtIh5of7V6+2s1EU+17YhXOl8fXhvXut/s2DX0VuOtf3xz8hu/Hbr//vvrH3+8fhAuW2moHTOr3H/rVuWgytJ///06osrMHc1WiK737Rev11H3+n33+e3og4tZ/ODR3/hyEAg2LX37k0MN8/+vrEngz8/+a55d+j0tTrdQKYEgG18ab39aDEQNIExxt6HOFwWSrRK51lqvChCqESApVy1ApkejALlq4wQo02+GAOWqbZOJvEpodUBBUusKyMx0D8i1eh+Ume/zoFxrZNnF5Qb3uUteaaEVw4opEycXc4tjYvEJw3D/vCJsj7671Y2BlU665KI7nXDcGXca8qoN8V0uWOkRK/xQYYqJJivMVVzn74t3OuGqO5xxycU+yDzFe3+0u/3WY8BLhHaqcUkiUsWRM1eTDwAA");
 
 export default Airplay;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelope-circle-check` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-circle-check?s=sharp-light envelope-circle-check}
  * @preview ![envelope-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/envelope-circle-check.svg)
  */
-const EnvelopeCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 159.2l224 154L339.2 256c-8 15.6-13.7 32.5-16.7 50.3L256 352 32 198l0 218 307.2 0c5.9 11.4 12.9 22.2 21 32L32 448 0 448l0-32L0 176 0 96 0 64l32 0 448 0 32 0 0 32 0 64.7c-5.3-.5-10.6-.7-16-.7c-6.3 0-12.5 .3-18.6 1l2.6-1.8L480 96 32 96l0 63.2zM496 448a112 112 0 1 0 0-224 112 112 0 1 0 0 224zm0-256a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm78.6 112l-11.3 11.3-72 72L480 398.6l-11.3-11.3-40-40L417.4 336 440 313.4l11.3 11.3L480 353.4l60.7-60.7L552 281.4 574.6 304z" />
-    </Icon>
-);
+const EnvelopeCircleCheck = createIcon("envelope-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABigAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCRwsGAAE2AiQDCAQgBYMtBzwbUwVRlKzFJNnHatUXM6yLhyf/qj+3+o0ayxFqCX3BmRVBzMAcUsRWDByoasSp5zkPBfA5F+GgjU1rdujyYOc6r0DFum3bWFzwWkWxfqe+Jz7+3hYRJ+RUddh6w1bdQRF/x3h1pJvT27iyb4kfdLiEpChBxAAstmTXtg1e/TQ+jXj7/6eoe1uHgFgKskDJPaJbgPlKAt0KGYVC8Gn8/z/+AzMBRD1eOIEC9bgEVwMKkBRFkZrQ1dVRqasVO/Oe5b137NyxK25q3x47Q9Ti5pZqOfCBlZoQN5Q1t0VENRx66aiIe7pujTpvGXl32fA7229yQcfNI+6q7NI5Ec9NeMgF4x+c/WzZ3OcnPhxNemTeC5U3tzVvj+ZojYUpPS5aYkxsi7a4Yqj3+wfc/9OQtw97W1/+5Oaa2jrbM3OWTjAv633TXPDy6pz9arMsf5otcUJj01VDLPKqRe/l3ju447vvenudf8cdvaIiLDIqkaYMGTlyyJSURqEC/sbjn2d+1SoPeObpnneYB7z1ngccBgSCYV99/fz+/ef/1VhJ4PPnf/nNOPv/T9MF6X40SiAojf9/vH3SBRDoARRTnGao8kWB5BwFbqu6QYBQZiGpV0ZJlwEolI1DnV4zttcr26Ykiiah2b4LSdWJKJnpXBSaPYE6871WqNccJVsULEn4FExdKYkVs/KUiZPz3HysmKJ5cWVyXr5sjD4tdozBUoc53nFOcahDHOkUQZ1kQ/lUx1qpkSv8UDbFRJNlc+Xb9ff5Ox3qJCc70vGOa9PMk59PRjtN7z8GdkLWqbYniUgthx532qHHHH/CoRP+29EnvNkA");
 
 export default EnvelopeCircleCheck;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-vector` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-vector?s=sharp-thin file-vector}
  * @preview ![file-vector](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-vector.svg)
  */
-const FileVector: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 496L16 16l192 0 0 152 0 8 8 0 152 0 0 320L16 496zM224 22.6L361.4 160 224 160l0-137.4zM224 0L16 0 0 0 0 16 0 496l0 16 16 0 352 0 16 0 0-16 0-336L224 0zM96 240l32 0 0 8 0 16 0 8-8 0-16 0-8 0 0-32zm8 48l0 96-8 0-16 0 0 16 0 32 0 16 16 0 32 0 16 0 0-16 0-8 96 0 0 8 0 16 16 0 32 0 16 0 0-16 0-32 0-16-16 0-8 0 0-96 8 0 16 0 0-16 0-32 0-16-16 0-32 0-16 0 0 16 0 8-96 0 0-8 0-16-16 0-32 0-16 0 0 16 0 32 0 16 16 0 8 0zm160 0l0 96-8 0-16 0 0 16 0 8-96 0 0-8 0-16-16 0-8 0 0-96 8 0 16 0 0-16 0-8 96 0 0 8 0 16 16 0 8 0zm-8 144l0-8 0-16 0-8 8 0 16 0 8 0 0 32-32 0zm-128-8l0 8-32 0 0-32 8 0 16 0 8 0 0 8 0 16zM288 272l-8 0-16 0-8 0 0-8 0-16 0-8 32 0 0 32z" />
-    </Icon>
-);
+const FileVector = createIcon("file-vector", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABlwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDTAsGAAE2AiQDCAQgBYMtBzIbzgXIhof/1r68r7r/bE/1Qi9x7SoiDDGpRJEamzM2QCgj/4lFFf3/53LP7/ltn9/oRE54rkoDmZPm1CUQYDot70SywDJNwLItxy/98BC3RdihJWZF7ELD1BPqeMS1eqQ30s94ef7Q+MtMz5JUFYDoALD7grPHfd6PfsRPg3eInxxFQOwGRaBChTkCbFMJzFErqNWCfgwG039gIYAYglgTqNHiG/wOqEEyXNcTxkwct3vBOLxD2xtXn9/28twqVW0I0bYpxl5y3vnn5YjIbRYpRDsuoorzz7W5FULkHHOFnCWswHQr0oicQxAiG/E9gjknLiEEJVSXzxfypt4Fuc0R4+zC0W70nwU/X/+zQR83Pve6RvP6Llf+9seLiOclL03//fd+p6/T3dk5ZWTkif9KKY1Oo5lRnrgSmabrFNdaZWRcqSGaPr65kue9edowd5srMfZK06gPmbo1hvCiMI1u5DXtHbJ+HQSCNX9/ef0VE7b937QJ/Pnhf39ZfkWDz+PJNIpGAkG1bLDMpfEkxJMCAJDifgvjSQSSTwzDo7FeFSBkBJIhGSqzdVDLlkLPPOsfD8nOqkQ9LExxmUAy1l1Q2eAxqE3xFvRs811myJSoylktRvVnMusAI/tPldUrVpUt5bBr1SpUHttbSzhadH+fWtwuut4dbnev61zrJvcSfbfj+fvc5oCH7vdFxWorrFJsUdKDtXU+Ze52j5v2jfwxW5X704vc7y9e3FIJRNfoSBKR2i+ncvn9111z7x13AwAAAA==");
 
 export default FileVector;

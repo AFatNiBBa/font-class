@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `guitar-electric` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/guitar-electric?s=thin guitar-electric}
  * @preview ![guitar-electric](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/guitar-electric.svg)
  */
-const GuitarElectric: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M458.1 16c6.8 0 13.2 2.7 18 7.5l2.8 2.8c12 12 12 31.5 0 43.5c-8.2 8.2-21.6 8.2-29.8 0l-3.4-3.4c-3.1-3.1-8.2-3.1-11.3 0L384 116.7l0-43.6c0-8 4-15.5 10.7-20L444 20.3c4.2-2.8 9.1-4.3 14.1-4.3zM368 132.7L258.7 242l-1.7-1.7c-31.9-32.2-20.7-64.5-10-82c4.8-7.9 4.8-18.7-1.7-25.3s-17.1-6.6-23.6 0l-29.9 30.2c-9.1 9.2-14.7 21.5-20.2 33.5c-1.2 2.6-2.3 5.1-3.5 7.6c-3.5 7.3-8.9 15.7-17.1 24c-24.7 25-64.7 40.2-89.6 47.7c-14.5 4.4-28.1 11.7-38.7 22.4c-30 30.4-30 79.6 0 110l79.9 80.8c30 30.4 78.7 30.4 108.8 0c10.7-10.8 17.9-24.5 22.2-39.1c7.5-25.2 22.5-65.6 47.2-90.6c10-10.1 20-16 28.3-19.3l1.1-.5c11.3-4.6 23-9.4 31.6-18l21.6-21.8c6.5-6.6 6.5-17.3 0-23.8s-17.3-6.6-25.8-3c-14.4 6.1-38.6 8.6-67.3-19.7L381.7 141.7l58.4-58.4c14.6 12.3 36.4 11.6 50.1-2.1c18.3-18.3 18.3-47.9 0-66.2l-2.8-2.8C479.7 4.4 469.1 0 458.1 0c-8.2 0-16.2 2.4-23 7L385.8 39.8C374.7 47.3 368 59.8 368 73.1l0 59.6zM218 445.5c-3.8 12.7-9.8 23.9-18.2 32.5c-23.8 24-62.2 24-86 0L33.9 397.2c-23.9-24.1-23.9-63.3 0-87.5c8.4-8.5 19.5-14.6 32-18.4c25.2-7.6 68.6-23.7 96.4-51.8c9.6-9.7 16-19.6 20.2-28.4c1.5-3.1 2.8-6 4.1-8.8c5.4-11.8 9.6-20.9 16.6-28L233 144.2c.1-.1 .2-.1 .2-.2c.1 0 .1 0 .2 0s.1 0 .2 0c0 0 .1 .1 .2 .2c.1 .1 .5 .5 .5 1.7c.1 1.3-.3 2.8-1.1 4.1c-6.1 10.1-13 25.4-13.2 43.6c-.2 18.8 6.8 38.9 25.6 57.9l11.8 11.9c16.4 16.6 32.6 25.3 48 28.3s28.5 .1 38.1-3.9c2.1-.9 4.4-1.3 6.1-1.1c1.6 .1 2.1 .6 2.1 .6c.2 .2 .3 .4 .3 .7s-.1 .5-.3 .7l-21.6 21.8c-6.1 6.2-15 9.9-27.4 14.9c-10 4.1-21.9 11.1-33.6 22.9c-27.7 28-43.6 71.9-51.2 97.3zM157.7 306.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l48 48c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-48-48zm-48 48c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l48 48c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-48-48z" />
-    </Icon>
-);
+const GuitarElectric = createIcon("guitar-electric", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABxwAAAL6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiDfgsGAAE2AiQDCAQgBYMtBzYbBAbIHge5SetKHIIDphY1maeJFg//v5be92c2RWJVGXZlB3R8ZMuqbBEcAVtUwHv8fu5uItLehpg0F22bV8SseahUGjRrHxxyhDdokRYA5f38NfXKrwG/0aG8/UU0SCRFJKbAAE/n8wQrG9hMB2Bj3Khe4YH+nX9HyOPGPEzS1vSODeabxkdtTJNkGQBEYwBgSmVWCjy+i3cR78URt8wEAmIqQGeIDBnaQzAeXaA9hs5ALhe8i2KR/Qd2BgFECdj3n0COWniLT4AcJIWcoa1ME9TnM4WM3HoFXt2aFko0qmluUKnQ1DwdAydapeHmetlledmq2G5nV5tVJoUrGlqPo6E55TYdVwGpQE2fHNxbb6mfuRsQoEI1HzdaeeDAYoPzunselsbGaYA9OLGoSt3F5sm4ozXkb5kEmatvLnLFBHK5bDgaiKHZbjgmoL1ehI9UpLG4KXGrx1q3W7nEiPEivcPQ3eC62RjS5JqURxm1yqoqOjK7lX5bsv3V5daCW64frlfXxUJ9wcLHj91klcp4Eu6itHb1imb7LFJ1LVqsDG/fe/y1O7MDKZJOdrUvjsihSqe6tHSoDX9GLRVd7u36fSm0eDmDffuexzubYvbiVrA5fu7e3tfNmn10ddNEsE69PHJjaOZtF41Gl5YOsjYa2XuP4bu7pW8WpgQxa/VrAAKQEh604+/ts3Luss8unWlAEOXmWvw09s2N6ePWZJUGjaAQusg4HQSCYxMGq8vE47/VrkcD+HDi62/8W1R8/Ez7UFsCQda/2F9xgtrxLwAAKXrpEyCQPFVgv2p9mwQIdREgKVFXgEw7EghydfWDoKCjIAhK1FWKLnIuhOZKMpTUtxRlRhpBueZOUMF4T4kSzYN+nuvOUt1fZubYIh2zjwzx9iXhpLUp0Z+6WFuOIIPdvXv5kBs8CLXatOpWo1qD7oLcKSXdo0VsFxvjgwg/3nwR4cjkzlVzLg516uK42WH6LhHI8nFXvd2T3aCPxlYcqipJRBJ/Bhxe9yc=");
 
 export default GuitarElectric;

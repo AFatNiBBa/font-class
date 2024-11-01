@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice-four` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-four?s=regular dice-four}
  * @preview ![dice-four](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/dice-four.svg)
  */
-const DiceFour: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm96 64a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm0 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM320 128a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM288 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const DiceFour = createIcon("dice-four", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABiAAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCNwsGAAE2AiQDCAQgBYMtBzAbNwXIHodxTLGaBTwml0c8fL/W57mve6b+9jL1EpECJkdESWRcFKHwCzYVmdhxgzH0co0xu2rfL26edx4F+MCdh6GsYUvzMbGLwrU0gcS6vLhLIAsswjQBa3e2w3agdqilQZHk9+zw2yCPx3IDFdJD/RvX5abxj7bOkFQyANEEAFOWLlzg+0/xKeKvGuIv8xAQU0ApkCFDBwHGywQ6yJXI5YJPUavhP7AkgKji0xLIUYdjOAvIQVLN8ybtmrNVv9IwX5Leplh5x1Lc9YZxP7O4Fw2mP76Ib6phvJ2v2qZ40B+6N4h3+3W7bPHJjLjPy37XiRZ3iktxL7TS0qITQdSQwpJFC7u6ft3k63+7/L3lb5P2fmo0WaNPk0m0VjSl6QvFvWjatJisaBpbO6nRBbjQKKSw5Pt25ONHR9T5OBAIHn7If17bePx/dUzgy3f/l49Q7VN8n74GdRIIsv61tyq+h/heAABSHNE1vkcgOeJCr9rAPQFCgQBJVSFApr0mAuQK/QSo6GSEAFWFhTKR1xNaWK2QNLAfMiMdhVwL30LFeL85VS0is0HOgrgvYPLMGpkxVw4ZOLgcWw5TmTcrxnfHlctq7yOU6QMrtthrj0M222S7UBV2wAL/sN1mztAZHlQaYqDBSmOV26X65SU2O+Cg7fbaE6eMU543ezsyL+8DRsKkQyWSRKR6j4wywMQB");
 
 export default DiceFour;

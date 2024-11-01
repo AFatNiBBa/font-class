@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hourglass-clock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-clock?s=sharp-solid hourglass-clock}
  * @preview ![hourglass-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hourglass-clock.svg)
  */
-const HourglassClock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 0L0 0 0 64l32 0 0 64 0 13.3 9.4 9.4L146.7 256 41.4 361.4 32 370.7 32 384l0 64L0 448l0 64 32 0 298.8 0c-23.3-16.4-42.5-38.4-55.6-64L96 448l0-50.7 96-96 64 64c.4-26.2 6.5-51.1 17.2-73.3l-36-36L342.6 150.6l9.4-9.4 0-13.3 0-64 32 0 0-64L352 0 32 0zM288 64l0 50.7-96 96-96-96L96 64l192 0zM576 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM448 288l0 16 0 48 32 0 16 0 0 32-16 0-48 0-16 0 0-16 0-64 0-16 32 0z" />
-    </Icon>
-);
+const HourglassClock = createIcon("hourglass-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABewAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCMgsGAAE2AiQDCAQgBYMtBzYbOAXIhof/t4u671d1n5mqQY/8x9RCzBTt2RRA5iCDUiHu+b/m80s7OsDPR3AonYuyUYEcLev5BCa2N6vg4rQB7URx1s4Y3iC6LBKf8iHD9vXDZAtlfFvcp0F6Nn2DJ/OXxq/6uY+kYwEgWgBYunv7Rp/9FD9FfN1+m/jaegTEUpAFChQYKMAChcBApYxSKfgp2m36D8wEEE146ARKNHELHgCUICnLcm49oEfd6FzuqhvV/qquRB1C9IqdsSN6hhBViLrzB5OqiNgdW+O5IYu81yeA1xGqtgg7Ytd4sZN3T4p4Zd4H1SNz3pvwkrsmvjz3/frR+R9OfjV2CaKuRVXF4TnDXmi98PvQb059Y8inOeclsiU6e9jZMyX/sM7mn+Xxc2a9abrDh7U1/54uOO3pYDLnl5nusyGTR2dyj+6jRnXvkfNoVkHJOze3cPcpcitrLWlZoiUDgeDJNc9/dLjrgv871An88sGfv9fTtT9LS9IL6CCBoJjQnuBAWgJEDaCQ4gbDhIgFkmuUgE/t5CkBQoUASVMlQGGAlgClyngBGgabKUBTZbtClB2Fng52kHRyFRRmuR2UenoTNCzweaGpZxQaKOiP8P9LXcWhlbPy1ElT8ry8rGiiUnFxcn7edsfcEDrGuoVOueyS65x0wlnXMfIaG8vXu2iVRKwUoWyqSabI5snX9ef5u5x0jWudddmlNM18+X1ujBvk/mNdkIB2mlCSiNTVvniD0yeaLAA=");
 
 export default HourglassClock;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-back-fist` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-fist?s=light hand-back-fist}
  * @preview ![hand-back-fist](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hand-back-fist.svg)
  */
-const HandBackFist: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 64c0-35.3 28.7-64 64-64c23.9 0 44.8 13.1 55.7 32.5c2.7-.4 5.5-.5 8.3-.5c23.9 0 44.8 13.1 55.7 32.5c2.7-.4 5.5-.5 8.3-.5c23.9 0 44.8 13.1 55.7 32.5c2.7-.4 5.5-.5 8.3-.5c35.3 0 64 28.7 64 64l0 80c0 49.6-25.1 93.3-63.2 119.2c-.4 .3-.6 .6-.7 .7c0 .1 0 .1-.1 .1c0 0 0 0 0 0L352 496c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-135.9c0-11.6 6.3-21.5 14.8-27.4C364.5 312.6 384 278.6 384 240l0-80c0-17.7-14.3-32-32-32c-4.2 0-8.2 .8-11.8 2.2c-4.2 1.7-9 1.5-13.1-.6s-7.1-5.7-8.3-10.1C315.2 106 302.7 96 288 96c-4.2 0-8.2 .8-11.8 2.2c-4.2 1.7-9 1.5-13.1-.6s-7.1-5.7-8.3-10.1C251.2 74 238.7 64 224 64c-4.2 0-8.2 .8-11.8 2.2c-4.2 1.7-9 1.5-13.1-.6s-7.1-5.7-8.3-10.1C187.2 42 174.7 32 160 32c-17.7 0-32 14.3-32 32l0 48 0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-57.4L78.1 168.6c-9 9-14.1 21.2-14.1 33.9L64 256c0 44.2 29.9 81.5 70.6 92.6c13.5 3.7 25.4 15.8 25.4 32.1L160 496c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-115.3s0 0 0 0c0 0-.1-.1-.2-.3c-.3-.4-.8-.8-1.6-1C71.9 364.7 32 315 32 256l0-53.5c0-21.2 8.4-41.6 23.4-56.6L96 105.4 96 64z" />
-    </Icon>
-);
+const HandBackFist = createIcon("hand-back-fist", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABjwAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCTwsGAAE2AiQDCAQgBYMtBzUbVAXIhocHvb4/N8nqmVnPrOH/O8qV2EstK3Uzcc3zP396wALgSHv6Bok8z1X6JrDzWTY3Js2Gs4nidmdrmiJSLkmLteS42PHZQxb3xTA9SO5JvsJN+UPjd60uJ5GlAKIGALM3rl3uvV/il4ivSm8QX1mKgJgDcoEUKToEmCYV6JDJkckEv0SpRP+BOQFET+WUCciQ4kbcCshAIrLsyvIeldmGMLRs631DI54b/EbxrnLX+4niM63i4sLThdvjElpX3N5wZ1PEfc1Ptd8XEZc03Vl2bcPtqVXTvYO8iJotQJh4oPjMwCdaOXkOc23TmyNe7DrkkqEzI/o9W/Psn32/OvCVnReV1VL78OquUVm98sO1tWWrDKqs+hDgalW//FJ1tfhm59efdq5SdfXVVT1Xr9mztmnfaQQb9+NzdZRd6lmT1fqxYbwoFP5fXzzLX3QWiHDtLTdXjNf34NWKQCDQvuWWndXT/uldnoDf3v37H7xdXnovHk6eRW8JCNJhpWG2xXtyeTwsAABJnK+f8EWBxJUS5V0r3ClAKEOARE9lAqTa1QiQKTNUgB66jBegpzJrpSLrIzTY3uFEhdNwaoIL4EyD1+AepvnU6KkhUnskrYn8DsYtGIH5nfLRI0blU/JlrFEmhsfmqblaKJzvi4ow0QEnnXDOfvscdm6Azlhun+e4BRI43w/lRhthlNwU+XZmPnqD/c4467CTTqR2psrP6wXny5WL0J0EMOYmAwmRVJkvP/yZGsMPHD57DgAA");
 
 export default HandBackFist;

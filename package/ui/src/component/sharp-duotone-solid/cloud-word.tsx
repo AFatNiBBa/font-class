@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-word` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-word?s=sharp-duotone-solid cloud-word}
  * @preview ![cloud-word](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-word.svg)
  */
-const CloudWord: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336L0 480l144 0 368 0 128 0 0-128c0-59.6-40.8-109.8-96-124l0-36c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192l0 8.2C40.1 220 0 273.3 0 336zm128-48l16 0 192 0 16 0 0 32-16 0-192 0-16 0 0-32zm0 64l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32zm160 0l16 0 192 0 16 0 0 32-16 0-192 0-16 0 0-32zm96-64l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32z" />
-        <path d="M128 288l16 0 192 0 16 0 0 32-16 0-192 0-16 0 0-32zm112 64l16 0 0 32-16 0-96 0-16 0 0-32 16 0 96 0zm256 0l16 0 0 32-16 0-192 0-16 0 0-32 16 0 192 0zm-96-64l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0z" />
-    </Icon>
-);
+const CloudWord = createIcon("cloud-word", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABiQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCNAsIAAE2AiQDCgQgBYMtB1AbVgXIhqDe5lvP25U+rH9ZJl4TUUREZ4oOAFKC6Dgjrlx1IVGsoWvyJ9gDHj/o+6NVLhOjwTIxBSaSli0woekMbQbNew90aLcQvYM8Dc3uqJCeSl/hAfd/AONXPdwhackARA0A8zesWe2TetRTfNV4l/jKKgTEAlAKZMjQW4BZMoHeciVyuaCeGg3q0WiUBBBV7nszUEWBi7gNyEGSq+R5S1EUA1r8SFFpy9fHs1o3FK2FaG2NdXlfFG0aZUM4hP6siOfHvD4lOWbEy1PuHvT6jPem/DTrg7Xi3VGv9p5p8PBC5CsOeLn28u/9v9r/lbteqNXqpdp35Ym5FlRLnCzVdkrou+SOuTt3nuzzOPmg//hfN7Q9+NLTgzS//PKNvifWTJ70ycL46qtY2OyNRx5pf9fYw6R5ArlhvNhx7pgrnwcCwYpLV+bsaD/r/+YigZ/f+/OX7HyNerqRXkazBIJsVGOUrekGKHIAPyrFeQPSDTcQyCxR4X9qO48LEFoRIKlqFSDTS02AXKuRAlT0NVmAqlZrZCJvETrbVoGknVMgM8U1kOvsHVAxy6exqs6RYZBDEHcFmLykiSyeVI4fM66cUY7mFDysGKt3ZrnYMuy8VjOcLrXfCcedtc9eh5xtEKetTp5zzJIpyuIvKo03xjilGcrNxbvz19vntDMOOeG4M85M5fGBYc5PNx9O7YlPO8GUTEakyDr+jVAZDVR9NJprO7fF8xYA");
 
 export default CloudWord;

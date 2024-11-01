@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `monkey` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/monkey?s=sharp-solid monkey}
  * @preview ![monkey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/monkey.svg)
  */
-const Monkey: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 416c0-80.6 49.6-149.6 120-178l0 18 0 32 32 0 135.9 0L566.1 400.9l9.9 9.5 0 13.7 0 56 0 32-64 0 0-32 0-42.3-96-91.6L416 448l32 0 32 0 0 64-32 0-32 0-256 0C71.6 512 0 440.4 0 352L0 32 0 0 32 0 192 0l32 0 0 32 0 128 0 32-32 0-64 0-32 0 0-64 32 0 32 0 0-64L64 64l0 288c0 53 43 96 96 96l0-32zm96-288c0-35.3 28.6-64 64-64c15.7-37.6 52.8-64 96-64s80.4 26.4 96 64c35.3 0 64 28.7 64 64c0 32.6-24.4 59.6-56 63.5l0 64.5-104 0-72 0-32 0 0-27.8 0-36.7c-31.6-3.9-56-30.9-56-63.5zM384 64c-26.5 0-48 21.5-48 48c0 23.8 17.3 43.5 40 47.3l0 48.7 80 0 0-48.7c22.7-3.8 40-23.6 40-47.3c0-26.5-21.5-48-48-48l-64 0zm0 32a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const Monkey = createIcon("monkey", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABlQAAALDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCewsGAAE2AiQDCAQgBYMtBy0beAXIrgbsxofjMYQApcm/pW9M2IqaxbpFXDsTQTRHVZ1kKbt37HCOGR2QR1QIFh39vyWWLNQv/Oe292G3AWwyg8VENGo3ULohNEswpDNbtbzdf5VoGhMKIdGVIkWyIhPYlCpEPBD7ufe3KCrX1zdMknniiB46kRA1cYSosZhO7i3QxAo8QEmTKJK2ROJgA07jkEIfkJ469TznoQA+5yIcpLFtTQstoLU65nkFKlobm1rwXq1YK6iVtdbOUAjpFwO6xCcZxjdMjlDED/kpRnY19MHp/KbxJ+0UMjU5gGgMAMbubKx7v/RrxBf1CfGFjIAYC0gCOXK0FGCEXKClQkKhEPxK9W//AzsCiEr0dBkoUIXb8ACgAJmKopji1ppcW9GgWCSsXHw99GxViNrahbQQIUQZERGLJgRg6r4e9WyHFQwnlmmLiDKyuDl6MI5raejRoJiPIh2l0p3kXyle6W49MOJu+Vp58YuELhSP5S72RG1E3CtcDmb+Ur/kYu5C9lL+cmFgoNsva/cw+fCn5WduN+oa/29Jku5uL1wxGSIZI+lm9YFNUnOM1Bwf+Jc0PknSd5NjunQ6kZpjrJFUP3ytZnWjzNDk4X002/b4/TuySZl++2/Zcl6lg/3/52jcf4SvuGm8c8AcfWWv31T+/uhH8483/NXw9ZrW9wOB4I8p30k7j5qB3+vvx9+O+g5j+IZqGQjyHm+sCA3AogMIsziEdswHBTKXGXrVOpcIhBIBMpVKAXItNBagUOouQIXWBgpQqTRfLooaobmVHWTq7AW5QQ6DQnOvQIURPgSVmgdRSmkZoz+JCQsIza9rHr36pGFpWaqM4JFxeXjalrZDbqir2miT3XY5YKMNtjoAyD4z44N2msTBE31R0lcvfSTDpOPmUVgEwT77bZ1z56sMl+57XRziJ3dVaoZw+0lmMiKr3PnoAQAAAA==");
 
 export default Monkey;

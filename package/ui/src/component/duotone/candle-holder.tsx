@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `candle-holder` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candle-holder?s=duotone candle-holder}
  * @preview ![candle-holder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/candle-holder.svg)
  */
-const CandleHolder: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 488c0 13.3 10.7 24 24 24l352 0c39.8 0 72-32.2 72-72s-32.2-72-72-72s-72 32.2-72 72c0 8.4 1.4 16.5 4.1 24L256 464 64 464l-40 0c-13.3 0-24 10.7-24 24zM80 112c0 44.2 35.8 80 80 80s80-35.8 80-80c0-39.6-49.1-90.1-66.2-106.6C170.1 1.9 165.2 0 160 0s-10.1 1.9-13.8 5.4C129.1 21.9 80 72.4 80 112zM400 440a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M128 224l0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 64 0c17.7 0 32 14.3 32 32l0 208L64 464l0-208c0-17.7 14.3-32 32-32l32 0z" />
-    </Icon>
-);
+const CandleHolder = createIcon("candle-holder", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABggAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBbwsIAAE2AiQDCgQgBYMtB1YbFwXIjsO44StBGcpSjhA+xPPUGOv93UUt4RmSaqhiTadTGo2ksRO61ZtLN5c5WmszL+LA4u5JpYo3sSiWriEa4kXwRL75v+bzs6YD/HZBcGgdeh5rsMznExjgNJMggTdT2+60rTho9kqCJTk+Oz4naDlgT0MH5Z31BDzx/wDmD6NpUPRUAMgwAIDD8/xMoGikCz79npEPGUAgRwBzEBUVUxDsYAumcMwBTRO+WAzDFzLMHAiQTmC4sjrxA66AawAaKKI2jlmvF4q5Uk5RH1dUDD1r1/SIYlzSroD0IuKEfk0shndHKR64n5g33Y6ddl0ODeNakWjXUL7jingUeOl+YjMs0a2KFjXLix0b1x32TVvOe0a7Y8Xxz/xT0xOMffrQchn9JfOBGLLHedkbCt7KTAIuE7k1QPv7y2RZp9Mt0rCA91xt9jAWgfthRWMReo2O/hQIBAV/XewVnazNVXikAkCu+t9YcFctj/gX9LEAfm7+/uH9fimkyjHQrYBQFxkPFaEAno1AUjLEjn4oBgiqdWzyqP1eICB6EVB06hVQTVJA0PRagKDDjEAIOvU6xpYmhBhXWUHR7wFUa0ZAM+4UdNhxm3YaD9vARPMQ/3dpSS2UOI34evmQMLIsK5LN8HE8nGx7LkOhzRXmQpNuXQY0atBqoCH7ZOYGdUrSiERfRPjy4oMIQ45r91oRpX36tc6V80nCkfuRiyG9tyuELMK55IiqkoJsbX1tV0NHo2eLfVuej7WLfqI8TAA=");
 
 export default CandleHolder;

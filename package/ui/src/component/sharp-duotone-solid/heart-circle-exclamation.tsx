@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-exclamation` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-exclamation?s=sharp-duotone-solid heart-circle-exclamation}
  * @preview ![heart-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/heart-circle-exclamation.svg)
  */
-const HeartCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 167.8c0 36 14.3 70.5 39.8 96L64 288 256 480l23.7-23.7c-15.1-26-23.7-56.1-23.7-88.3c0-97.2 78.8-176 176-176c26.4 0 51.4 5.8 73.8 16.2c4-13 6.2-26.6 6.2-40.4C512 92.8 451.2 32 376.2 32c-36 0-70.5 14.3-96 39.8L256 96 231.8 71.8c-25.5-25.5-60-39.8-96-39.8C60.8 32 0 92.8 0 167.8z" />
-        <path d="M288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160 48l-32 0 0 32 32 0 0-32zm0-128l0-16-32 0 0 16 0 80 0 16 32 0 0-16 0-80z" />
-    </Icon>
-);
+const HeartCircleExclamation = createIcon("heart-circle-exclamation", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhQAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBfQsIAAE2AiQDCgQgBYMtB2wbOwXIhof//Ou/fW7d7g+oPkAMonEkZrAypm9N6Ajuicudv216wGVP8GhjLW8C7X2eQKJ5W/wvgTK1BucNPuTQ1J58hTL+TTeqUNxTfInbzf8BjB91cCOFBglANAfA9LUrF3u3LuqK+LL2IvGlRQiIGSALJCR0FmCSJNBZKaNUCuqKWo26qNUyAUSVCSZmFVVxG/YDSlBIoiw7NWjRs1GlSbmmUaXhzuuGRjwz8Y1GN49/bfBTrg16ctyrDW+a8PqQp2N1w0YNRaOICNEwhMi/lx6Z3D9Wx8B4usd3K79ae/Po++LRKW/P+XBSvxgQ+Kk3c4/Hmz/+c/cv93yp29K+mdyqZZ8+LVvl3FcNsfShodmmyfK15l1Zc8s0hz+lfb29Z73zjrP2iAXNY0H067aiTYPda+44duass84cu2PN7gZAIKj8+Vh1a7NJv9VvVIDvX//1B/C62rvFtOJx1FeAIA2qDbKpmAaMGUCtiDN6NP1SZASS0RJc1cbuFCA0RIBCVUMBkk6aC1BqaKAAFV2NFqCqoZWSKBsIrW3OiEJjx4lkjMtEqbUXiIpJPmlUtY60nQlbiXCZlzqnCMw+l4cPGZYn5NahRNx0OO14Yh7s9jvDl/rDi/Y46ohTdttlv1MF/ITF7dMOm9OFzfZF2XBDDJNNkCdPrqprcOOEk/Y3y9NPmSgvX/ZzpntzfxgUbNYROpNEFJHOdc3Br+Qkg3efC/zthw8fc/CP66ZrlVdVAAAA");
 
 export default HeartCircleExclamation;

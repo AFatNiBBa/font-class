@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell?s=sharp-solid bell}
  * @preview ![bell](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bell.svg)
  */
-const Bell: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M256 0L192 0l0 51.2C119 66 64 130.6 64 208l0 88L0 368l0 48 448 0 0-48-64-72 0-88c0-77.4-55-142-128-156.8L256 0zm32 448l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
-    </Icon>
-);
+const Bell = createIcon("bell", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABVAAAAHSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBGQsGAAE2AiQDCAQgBYMtBysblATIjtRG+UVWEg/fr72e+/aF9qfI26gCoyJwgOjQsatrKusYjMjUdiJb+/Or9n36m3/eeRTgs8hCGwuXBrLOi+Y8TyCxRWMJT/tg3/QL2Ld2dguDfF8GpE/9JxkmfYbFCjmeFDc1kB6l37hHHxp/DXCTpKUAEN0BsHDTurXed0RHxK96xC+rERALQSVQoMBgAeYoBAbLKmRZ0BH1evgPrAggGvG5EsjImIgZgAySlPOQ1lpDl7yx1lBuK2ul+DzndSXWh+gSERsj4um8t8tiizLu6shntVujn0dbe/f2zuG/d/9Wf7cAg5NdGDWr3Gz+chO8N6EZNitnjboweZilXB3Y1jawoIE4tunk/ye6zfnXXEvgz8s71V9R/X28T+1olkBQjKmPsT3eQ7wXAIAUp7XFewSSkRJ6a6v7AoQSAZJGpQCFQboLkJVGC9BgqKkCNCqtU4jcIvS2Y4Ck1TFQmOYSyHp7ARrM8U1p1DsKpyGvnPyzxS2T0NKmauK4CdWsSrV0yg/wVJ1dLfMjTsfISPTa7YjDTtplp31OCuS4tfophyyz4KW+qDLROBNUZqm23ef2jXY57oR9jjic68xWnZdHOG2nj4SUMOYkpiQRKT8Z");
 
 export default Bell;

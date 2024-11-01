@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eject` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eject?s=sharp-thin eject}
  * @preview ![eject](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/eject.svg)
  */
-const Eject: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 336l416 0 0-25.7L224 87.4 16 310.3 16 336zM0 336l0-32L213.1 75.7 224 64l10.9 11.7L448 304l0 32 0 16-16 0L16 352 0 352l0-16zm8 96l432 0 8 0 0 16-8 0L8 448l-8 0 0-16 8 0z" />
-    </Icon>
-);
+const Eject = createIcon("eject", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABUgAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBHAsGAAE2AiQDCAQgBYMtBywbmATInoexG2JILzpFjs9tiXh4mPvfudu+iI+fENckbo1Gp5lG8UZawzR7JJNfMDeEBm77BKp9nzr1POehAL4FgMbC2Bo4lobmPI9AzuOjXJJpBSuVvALWvWmLFlO6UjLRJP3JjrcrZHHdHmUkVxNcTG8a/3S5QCJNAUQjAOatX71K8St+RbwrRbyzAgExD+QCKVL0CjBTKtArkyOTCX5FqeT/A3MCiHL51hKQoQzjMB2QgUSaZTUtNTVlddm6mrLq9XW1dRHrYk2oDrE+OqIt1oYQ1bWxVsHrUdQM3nf/Q/ZpOH4HzXz6QXx3Yw7h73898EC5lGvU+FTF9qdPR2VAA/GVs8U92xtm/q+sScCfl//j31AUyX1USkCQjiyNtCUKiEIAAJI4ZzAKBBLDpNyr1rokQKhGgES5agFSPRoFyFQbIUCZfpMEKFdttVRkVUKrrR0kap0EqcnOg0yrF6DMTK+scq2Rmg3x6MSnLXaxhBat5eNGj82n59NYIy0B4/mMfJkbeo5qw+DUPscdc8Zeexx0RiCnrHLPOmqxBi/yQblxRhsrN12+nT3ur7PXKacddNyxuGSG/Lwy1Dm9exhskQDGXzhGkUjK9h7au/sMAAAA");
 
 export default Eject;

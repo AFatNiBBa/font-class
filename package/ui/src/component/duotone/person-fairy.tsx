@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-fairy` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-fairy?s=duotone person-fairy}
  * @preview ![person-fairy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/person-fairy.svg)
  */
-const PersonFairy: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 64l0 48c0 86.7 40.6 163.9 103.7 213.7C78.7 360 64 402.3 64 448c0 17.7 14.3 32 32 32l16 0c55.9 0 106.6-22 144-57.9l0-73.8c-26.5-9.5-44.7-35.8-42.2-65.6l4.1-49.3c.1-1 .2-2.1 .3-3.1s.3-2 .4-3.1c.3-2 .7-4 1.2-6c.9-3.9 2.2-7.8 3.7-11.4c3-7.4 7.1-14.2 12-20.2c9.9-12.1 23.2-21.2 38.3-26C222.5 84.4 133.4 32 32 32C14.3 32 0 46.3 0 64zm366.1 99.6c30.4 9.4 53.2 36.5 56 69.8l4.1 49.3c2.5 29.8-15.7 56.1-42.2 65.6l0 73.8C421.4 458 472.1 480 528 480l16 0c17.7 0 32-14.3 32-32c0-45.7-14.7-88-39.7-122.3C599.4 275.9 640 198.7 640 112l0-48c0-17.7-14.3-32-32-32C506.6 32 417.5 84.4 366.1 163.6z" />
-        <path d="M256 64a64 64 0 1 1 128 0A64 64 0 1 1 256 64zM217.9 233.4c3.5-41.5 38.1-73.4 79.7-73.4l44.8 0c41.6 0 76.3 31.9 79.7 73.4l4.1 49.3c2.5 29.8-15.7 56.1-42.2 65.6L384 464c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-115.7c-26.5-9.5-44.7-35.8-42.2-65.6l4.1-49.3z" />
-    </Icon>
-);
+const PersonFairy = createIcon("person-fairy", true, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABpgAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCawsIAAE2AiQDCgQgBYMtB1QbkQXIFkrLw1Od359b1XkDqEdOBuQHgJXI3n15mT/u5/m3pn9ej797LAvnFXk+gZ1PU6M8mmgztZnbYlZBNIiIqHMyZSH934f03TEcQrdQpJH5DDXSteltXBz+BzB+1scZJG0ygOgMgIVbb17r+e/j+xRvNx8m3rYGAbEIlAIZGf0FmCML9FcoUSgE36dmk++j2SwJIFoENDO0uLtegdsBBUiSVBQdRkwa2a7WodiqXa3t9jePvX/0vQNuGHXPmPsGbnH92Ij7R7aLO8eL9hkc1/a+Zpi4pvsVw9rGXT2v6htxV9/r+g3NwieNB+Y+v8UpPa5s1y4+28za4tTEXB2n9ro69PqRL657d6vzTpPtemefiGvNXB9s2S7OF88Rny56bvJDW0ec2vOqth+veXvBkPs63/fr4Lf3elvz5Fz9+WeV84eH3zNhC3b/Y5w/dt9iQkOPBx6YdoT8ztf1Uv3rd/IRpj3wQI+GU+r1uoV3Pfrv7pZ2POecjp1tGVevEtYTEULkVBs265hqrwOqag1FzoG771XxZ2/LqFWu3jI6s9mW7v7vo3dZWO9utUZVHQAEgi9//P+4nTvN+bd1uwSqJ3//Wzm5+Xw6Jd2H1hII8rjmODukUyBhAO4URxnyfuhjBLJtJfFS7V0lQGiLAEmLtgJk/XQmKLQ1FmoGmioqZ2+WRdFG6G7HBkl7h0I2zYlQ6O4hqJnjNU+L7pHhKYNL/jtMs0xk6aSyMaFezirFkqpAnOhHZ5dqy6ij1jKaVtrLwQ5yhD3tYV9HQB9mrf9IB1q2o5b6olLDBHWlWcrr6rNmKzyHOdy+a9X9OLOV9s5Rjtp3H03TSYBJDzYnEylydzhrx391jmPHI729J6N6qwEA");
 
 export default PersonFairy;

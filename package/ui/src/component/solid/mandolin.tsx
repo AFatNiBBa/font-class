@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mandolin` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mandolin?s=solid mandolin}
  * @preview ![mandolin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mandolin.svg)
  */
-const Mandolin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M435.3 3.6C444.8-2.3 457.1-.9 465 7l40 40c7.9 7.9 9.3 20.2 3.4 29.7l-40 64c-3.2 5.1-8.2 8.8-14 10.4L388 169.2l-65.9 65.9C323.7 322.4 311.5 512 176 512C78.8 512 0 433.2 0 336C0 200.5 189.6 188.3 276.9 189.8L342.8 124l18.1-66.3c1.6-5.8 5.3-10.8 10.4-14l64-40zM208 352a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const Mandolin = createIcon("mandolin", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABYQAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBNQsGAAE2AiQDCAQgBYMtBy8btAQRlZoLyH4k2G6mVkIFA2o4E7U0bvgmguftHn/O3Q2FF5kV1EOqki93BAMAmnGkjyVd0019U6dqhm0K4INI5jgPyAKf8zwCOQ+126dVqBawiGKtm86rG1J+TV70kuwNP2w9II8Hs72KkE6kZ7CvbTS+VsNekhIZgCgPgMLUiaM99kF8EPH0/3eLp41EQBRAfYEMGWoL0FsmUFuuPnK54IP4///8H4gAoijFEiOXD3thBCAHScrzpmVKFSmTT0lbLbn0WJU+caRy/zhceVJMijOTzre/Nem1CS9NeX3k00Nf7zI1psaxamOnXat1qubJpperH69xoknDm+VvftvgmSXPuOPBP97e6uF9OwzdVahQKKhTvP++Hz8YkEZElI8RaUDZen/0L/5ioaBCQfVNv3808/xn99772Xn5HggE1Ra9O3Fuud6/Fi+VwEcPfP8HP/z/sVQk3URxCQRZ6/9bz0o40N+LAtRLsUVD7CyQdJIAv1raUQFCSQRIiiopQKaW8gLkSmolQBF1dRGgqJImykReQqhs9gBJaetBpqttIFfZnaCI3h73iqocWQjxAcD/4FL0EIsOXqo/Kcsy0oWoYMv02Hb0rBh3LVm7ZtPiRcs3GWbD6HDz6iEePXjH+pOyHKfP16cs3rBx+do1dc5x39X77cYaCej4+CwPRSq+ev6aRWtXLV8DAAA=");
 
 export default Mandolin;

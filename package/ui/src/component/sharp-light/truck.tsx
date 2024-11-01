@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck?s=sharp-light truck}
  * @preview ![truck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck.svg)
  */
-const Truck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 32l0 352 37.5 0c13.2-37.3 48.7-64 90.5-64s77.4 26.7 90.5 64L384 384l0-352L32 32zM64 416l-32 0L0 416l0-32L0 32 0 0 32 0 384 0l32 0 0 32 0 64 80 0 7.4 0 4.8 5.6 96 112 3.9 4.5 0 5.9 0 160 16 0 16 0 0 32-16 0-16 0-32 0c0 53-43 96-96 96s-96-43-96-96l-128 0c0 53-43 96-96 96s-96-43-96-96zM416 224l154.9 0-82.3-96L416 128l0 96zm0 32l0 88.4c17-15.2 39.4-24.4 64-24.4c41.8 0 77.4 26.7 90.5 64l5.5 0 0-128-160 0zM224 416A64 64 0 1 0 96 416a64 64 0 1 0 128 0zm256 64a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const Truck = createIcon("truck", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiAAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCQAsGAAE2AiQDCAQgBYMtBywbPAXIhof/15nd9yU7jhSGHwRaYAxWSx2Tp1zCjptizrQLXJF9nms+v+dHB/j5UuxQoq0W6Q3U/XwCez6soKaBjU5sojjfW+9dGqXsUIdkYpPMPeYfbv8GZfwTszVIz6Qf8EQ7Ez8a6SxJWcAQAwgoG44d2uOr7uiO+KHzPvGDXQiIjSALFCgwRoDVCoExShmlUtAdnc74D8wEEE0IeAIlWjiFRwAlSJplOXhx7/59+9aNvuXRulGdn4pUx3Ozuqa9MeOdkXUU0edEVVcRRUTUfYWo66FxJIbGuiKq6vnpby/+YGZ7XBXp3OV1VR+NKhC6lvlkIqrDLyqS7ox5QWZmdY0/8mGXsrP0PZKwZ8nE9oD2zxN+uOoH41+6hL871XO33vLbb7fc2nXOJS4Z/3DO67NLZPlktt7+XltcfLNFml42YEA2YH6r3T55st1unTRjF3/5HBgHLrbDJfm49+R+r/UNJ7385UtFz++/9xRD0Fk3f+748XPnfw4EgkkLnum+uP/qv1t1Aj2f/Po7va/zVTqZ2mhJIChmd2a7IJ0E0APIp7jLRGOFgeRej3q2jycFCBUWkqYKhdEGoFSZhYZxliiHZw4pRNlbGOJCQNLHrSgs9SBKQ7yLhtW+zjUNiSIQtTDSfgOzt0piy7K8YO78vDKrdVOPLaXMr8rH7vS7qG8GDrrKzW5yhytd4Vp3COo2e4p3utFWi9zih7IF5povWylft953H3Wl29zuWje7qS6ySvZPT3eXPXoGQgmLLlSSJCI1vjQ=");
 
 export default Truck;

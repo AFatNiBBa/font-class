@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `infinity` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/infinity?s=duotone infinity}
  * @preview ![infinity](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/infinity.svg)
  */
-const Infinity: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 241.1C0 161 65 96 145.1 96c38.5 0 75.4 15.3 102.6 42.5L320 210.7l72.2-72.2C419.5 111.3 456.4 96 494.9 96C575 96 640 161 640 241.1l0 29.7C640 351 575 416 494.9 416c-38.5 0-75.4-15.3-102.6-42.5L320 301.3l-72.2 72.2C220.5 400.7 183.6 416 145.1 416C65 416 0 351 0 270.9l0-29.7zM274.7 256l-72.2-72.2c-15.2-15.2-35.9-23.8-57.4-23.8C100.3 160 64 196.3 64 241.1l0 29.7c0 44.8 36.3 81.1 81.1 81.1c21.5 0 42.2-8.5 57.4-23.8L274.7 256zm90.5 0l72.2 72.2c15.2 15.2 35.9 23.8 57.4 23.8c44.8 0 81.1-36.3 81.1-81.1l0-29.7c0-44.8-36.3-81.1-81.1-81.1c-21.5 0-42.2 8.5-57.4 23.8L365.3 256z" />
-    </Icon>
-);
+const Infinity = createIcon("infinity", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeQAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBawsIAAE2AiQDCgQgBYMtB0wbCQXIjtRW+YZgEg8futL3Je0agGQA5tIdIAcAi+4mLVaZlJd4IfNTp57nPBvwTRKUvSmX87FaKs55XoEA11qa5/FyhFqQCnL9dr7XDdKVbpEkxCUZNveH6b8gS1qnJxRILiQ/4UzsVPypnhMkyqUAoioAhs6ePtFnJVGSxE+lr4mfTEBADAO5QIq2GgowQCrQUCZHJhOUJKWllIT/88sJIIrIm1NQRAEzsAKQgQRplrWqUaNCoVI2q0KhfNwaHPHp6K8HzozZdOXjpuL6gI9GfDNoVswId/MnzWLprJmzHvZ63eZ+Q3Gl7YOe79rPrjBzdB5U4L5HTSKutlu0MKPZw6oP/+6nVT/5tdFp9vz+/MHo0UaP9uD57043amzCEnJ/9BhijPtR9cqjZXBX1aqrVkVjkZii7CJjXqDY3ex3QCCY9P9HFlcZ8F/ZCgn444N/zzcnR5KHKCsBQdqhtIMFLCiNAiRJYpdm+CIIpCZIoasVnRUglEeARFF5AVINVBUgU157AQoa6ylAUXnTpSIrJ9S0sIJERVtBqpeDIFPTK1AwwLdpUc1IzUswDuHvLnVUC41syrt26pL3y5dDRbQYjo/759tum11+qS0uWmWzTXZYaYW1djTkNhOLnTYapcEjfVCuq066yPWTH08e1VmUbrPd2rl8fkp/+f24jV365rYIEkLbzflUSiSRVl27adUHEu7taKd29U5+kQAAAA==");
 
 export default Infinity;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alarm-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-exclamation?s=sharp-regular alarm-exclamation}
  * @preview ![alarm-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/alarm-exclamation.svg)
  */
-const AlarmExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 25.4C143 9.6 120.2 0 95.2 0C42.6 0 0 42.6 0 95.2c0 18.8 5.5 36.3 14.9 51.1L160 25.4zM256 112a176 176 0 1 1 0 352 176 176 0 1 1 0-352zm0 400c53.2 0 102.1-18.6 140.5-49.5L423 489l17 17L473.9 472l-17-17-26.5-26.5c31-38.4 49.5-87.3 49.5-140.5C480 164.3 379.7 64 256 64S32 164.3 32 288c0 53.2 18.6 102.1 49.5 140.5L55 455l-17 17L72 505.9l17-17 26.5-26.5c38.4 31 87.3 49.5 140.5 49.5zM497.1 146.4C506.5 131.6 512 114 512 95.2C512 42.6 469.4 0 416.8 0C391.8 0 369 9.6 352 25.4L497.1 146.4zM280 160l-48 0 0 24 0 112 0 24 48 0 0-24 0-112 0-24zM232 408l48 0 0-48-48 0 0 48z" />
-    </Icon>
-);
+const AlarmExclamation = createIcon("alarm-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABhwAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCNgsGAAE2AiQDCAQgBYMtBzgbPgXIhofn68o/9zUyqY5RyWrGFdif0MqqL3HplTn9/Tz/558+4DP6SNFWCRIJFLn1+QQmthuWb+DR52U6AZu106t/g+g2SZ8iybB9GSaLLVTj8bhIjXRZegMX5ieNrw11GkmtAiD6AGDelg2rPPNpfBrx+v8PEq9bgYCYB3KBCioYIcBMFYERqnJUVQWfxv//y39gTgBRhxtIoIomHIOzAFWQ1KvVbHhL1rd7o9azurlRy7YtJz/QfOuIk4Zu2XTutIhHO+50UvsdUx/Jzpn+WOddcXLX3TMeb6SP17RES8yJVl71+S3Xj79v+WuLX1j6SnFP/uG85miOWdHm0m9u2vaKuLr1WHrTxqyRCZIaAXajxur+sjC27FN+O+aNPd5wzc2X7HRQWXYb+dVFR+24uTiSI446urPz6KOOOLJQGTmQi9bGU5ehL27zd6zt9e5z7SM//XRk+3Pv9oq1f9+GvijdvTZ+2P+rkd3K8qCdLrnoqE96FkUxxEGGKBSj6/cCPN4dBIK7n51wwY69Z/7a1Ejg88e+/57/Ff3/TJJKNEkgqLT/3267BBIBAEhxhLEJAskh6nCqPVwsQMgQIKnLBKgYro8AVZk2AWpGmSRAXWaDiqh2FwbYvoGkh4NBxWTHg6oB7gc1M73s1g2Iig2SFkS+AOMWa2jRvHxcZ5FPz4eZSpkVHqdn5MtC8xGh00JL7eFABzjM7nazt8MUcohVweH2t3gGL/JFuXE6FXLT5dvl/eLNdneIQ+3tQAekWWbIzzvNjpgPbiE5Aep4LyaJSH133m/nQ/bv+NxC2nn/WwUA");
 
 export default AlarmExclamation;

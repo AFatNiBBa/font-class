@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-lines-pen` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-lines-pen?s=sharp-duotone-solid calendar-lines-pen}
  * @preview ![calendar-lines-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/calendar-lines-pen.svg)
  */
-const CalendarLinesPen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 64l0 96 448 0 0-96-96 0 0-64L288 0l0 64L160 64l0-64L96 0l0 64L0 64zM0 192L0 512l253.4 0L267 417.4l181-181 0-44.4L0 192zm96 80l192 0 0 48L96 320l0-48zm0 96l128 0 0 48L96 416l0-48z" />
-        <path d="M576 294.8l-71-71-41.3 41.3 71 71L576 294.8zm-63.9 63.9l-71-71L299.9 429 288 511.9 370.9 500 512.1 358.7z" />
-    </Icon>
-);
+const CalendarLinesPen = createIcon("calendar-lines-pen", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdgAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBcQsIAAE2AiQDCgQgBYMtB2AbIwXIjtRe8cUkYjx8v1b+ue/1zELvBrETBQiKCByDI2FXhVTUuKARW5Ek4/6vKYT3iWvqx/nTA5al4KNkrgqkziPqfAIDX3vTeOcTms7QtjubYseifSOJLMnxbcfnAkX8l++qkd6kH3hR/gcwfhvsLklbBhC9ALB026Y1Gt3RneJH8yPxw2oExDJQCWRkDBNggSwwTKFCoRB0p2aT7mg2KwKIuvLuDOpoxWYcAxQgSYqiaCsHd7a1lbXOYmtZaz+3dcvWBbElFq+nYHMQsK06C50R0Y4jJC/lVKqVEdGxpWwvoaduH93Vq+vvqB9Hf1j8ehVzHlq1ysPmqvKnT5UbbSxBcHM/pBr2R3iJe1OS+28uCSf+17nXx48maOxb12DyFA1T9t8UKnDzdSAQ/Hzr6b6eC/4pE/j56S95XrORlqQutEogyBOaE+xOSyBRA/hRKa4anZZEhUA2R4E/tcNLAUI7AiR17QJkQ/USoNBuvAA1I8wUoK7dJlkUbUI/ezqWdLiAZbNcwwr9fMBqFvicr+sX2cMU/1A+eJmrRnjlpmrqpCnVvGrb0lSnkWh1fnUcGnMVR8bCWUedc9ZlRxx2wuUBvWhN6YozVmnISl9UmWqSKSrzVNfd5+NbHXHRJSecczavM1/1PjfGVX36WIgmzDvNgSwTKfIQC7Qn2mVp4vkjZyf667Rha908AQAA");
 
 export default CalendarLinesPen;

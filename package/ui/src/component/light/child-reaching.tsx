@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `child-reaching` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child-reaching?s=light child-reaching}
  * @preview ![child-reaching](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/child-reaching.svg)
  */
-const ChildReaching: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M224 64a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-96 0a64 64 0 1 1 128 0A64 64 0 1 1 128 64zM112 188c-27.8-14.9-51.4-37.4-67.5-65.8L34.1 103.9c-4.4-7.7-1.7-17.5 6-21.8s17.5-1.7 21.8 6l10.4 18.3c24.4 43 70.1 69.6 119.5 69.6c48.9 0 94.1-26 118.7-68.2l11.6-19.9c4.5-7.6 14.2-10.2 21.9-5.8s10.2 14.2 5.8 21.9l-11.6 19.9c-16 27.5-39.1 49.4-66.2 63.9L272 496c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-112-96 0 0 112c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-308zm32 13.1L144 352l96 0 0-151c-15.4 4.6-31.6 7-48.1 7c-16.4 0-32.5-2.4-47.9-6.9z" />
-    </Icon>
-);
+const ChildReaching = createIcon("child-reaching", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeQAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBewsGAAE2AiQDCAQgBYMtBzUbAAXIhof/t+v7fW5V95qpfkPXSIokfckRFInpjx/SD2eDqVPPcx4K4BsFbSxcE2RZbM+eVyBivfr0CVRqsVZRrLWzM7wBuvXTp3ySYfx25QB5XIhhKqSn0s94oH9o/KqLW0nyDEC0BsDsNSuW+7whGiJ+vv4h8bOlCIg5oBTIkKG7ANNkAt3lSuRyQUNcvy7/gSUBRBXfN4EcVWzHHkAOkjzP27UYUVertMhX1yrFhps6Rjxe3N3+UTd2eKx2T6cnonhh6DuD3+rx7KA3h7zdc+VnI7rG452e6NAl3hv8Vu2eoe8M7RZPdHisfed4d1KKR9s/3jGiCHpp1l+oRcSrxd0D+rzd+u3fe/+8+2f1N7S8kztbppT4t2ZNf//dlOF6rS68fv4lmz7+5cJDyr+bBvRv/HvkK+755pON77vrtnFaNjS0PGqro6qOu/IEn7fVE3Z36bIbCAT3nPx+/pZW0/5vVkug6bM//6+Xd7/+eexMb6OZBIJs2PVhNsaNuuvurAqgneK0PvgmgWS9HF61zuMChAIBkqpCgEw3rQXIFYYKUNHTeAGqCitkIm8utLdpgKTOMZCZ4BLItfc+qJjmO7uqfWRRRsQI8cmLXWCh+Wvl6BGjyinlMqVk4GBlc2q5zQ06nVuDsdduRxx20i477XPSIMct9045ZIEHz/dDpdFGGKU0RXlcPO9ebZfjTtjniMNtm6nK+9Ygp/3hwRAToo4RSBKRWkZ1//DHKgA=");
 
 export default ChildReaching;

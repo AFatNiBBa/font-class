@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-dashed-circle-plus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-dashed-circle-plus?s=duotone square-dashed-circle-plus}
  * @preview ![square-dashed-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-dashed-circle-plus.svg)
  */
-const SquareDashedCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 128l0 32 64 0 0-32c0-17.7 14.3-32 32-32l32 0 0-64L96 32C43 32 0 75 0 128zm0 64L0 320l64 0 0-128L0 192zM0 352l0 32c0 53 43 96 96 96l32 0 0-64-32 0c-17.7 0-32-14.3-32-32l0-32L0 352zM160 32l0 64 128 0 0-64L160 32zm0 384l0 64 128 0 0-10.8c-11.3-16-19.9-33.9-25.4-53.2L160 416zM320 32l0 64 32 0c17.7 0 32 14.3 32 32l0 70.6c15.3-4.3 31.4-6.6 48-6.6c5.4 0 10.7 .2 16 .7l0-64.7c0-53-43-96-96-96l-32 0z" />
-        <path d="M288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-80c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const SquareDashedCirclePlus = createIcon("square-dashed-circle-plus", true, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABqwAAAKHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDBgsIAAE2AiQDCgQgBYMtB24bxgXIjsM4hnygxVKGeLDi4Xtdr+c+adf7JTM8A7HMGECokLHjpthJm0mVSWdgMLgedIZ9QJ58wCeuef5pTw9Y+OKPssi2SItITIEJtEXaQFtopjOwLW67CWIa2hYiHKGMI8UdWqRn0194OPofwPjHCHeQ9BQAoj8A1p1wYJdfutFN8dfxL4i/7ERArAdZoECB0QKsUgiMVsoolYJuOv504/hnAoi26H4L0EaF1/E+oARJ0i7LUeOH9gzpqYfVrT7l4bpVnXPr3IiPV35f37/829kfumXWB8u+qe5b8d2cj+KEJwaLKgLak0PqELSnh0XUQXtqaBUR/kKoW9+tw56uOWeF+GLaO6NlVoQXp7+7eNl239CnmOqUWJm88b2R84T7hzxJvF3z6yNemvHekmrCe/3f+3f8nr/G9dRMroFTpgwclPPUUYFKeHhPt+8885Ro3y46T8nx9pqccyPre889fbNGdst773WaWxJ64xbNK1nS8cO3ZAeYL69tmuYWDX4TX+t1wwUv32wF2xlbnD+ic+U6l24HgWDutGed0W/V/506gb+/u//Uv6Pjv6QmvYeOBIJi1vFZTk0NpEYAAFJcb0I2kREonKEt+dTenhIgVAiQtFUCFEbpL0CpMlOAlrEWC9BWOaAQZY8w2Gk9kfR2FVFY4kaiNNjnRMsqvwbaBkcBrAJQE3wqJt08BjbNyvPnzMsr8mZBK4Q/nh9cmU9rp12vG6bTjc53hctd6zznusi1I/xqu8LXuczmPWyTL8rmm2OebIV8u/xcepgHrnaNi9bF96dZKb/vnOb6/fbTqSFJWBeYUyiIFMV4hM+afe5Z11x43rmz/+2RzQZ65Wzs73DirhjfAQAAAA==");
 
 export default SquareDashedCirclePlus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `object-intersect` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-intersect?s=regular object-intersect}
  * @preview ![object-intersect](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/object-intersect.svg)
  */
-const ObjectIntersect: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 48L64 48c-8.8 0-16 7.2-16 16l0 32L0 96 0 64C0 28.7 28.7 0 64 0L96 0l0 48zm32 0l0-48 96 0 0 48-96 0zM0 128l48 0 0 96L0 224l0-96zm352 32l0 48 0 48 0 32c0 35.3-28.7 64-64 64l-64 0-16 0-48 0 0-48 0-48 0-32c0-35.3 28.7-64 64-64l64 0 16 0 48 0zM160 416l48 0 0 32c0 8.8 7.2 16 16 16l32 0 0 48-32 0c-35.3 0-64-28.7-64-64l0-32zM352 64l0 32-48 0 0-32c0-8.8-7.2-16-16-16l-32 0 0-48 32 0c35.3 0 64 28.7 64 64zm64 144l0-48 32 0c35.3 0 64 28.7 64 64l0 32-48 0 0-32c0-8.8-7.2-16-16-16l-32 0zM96 304l0 48-32 0c-35.3 0-64-28.7-64-64l0-32 48 0 0 32c0 8.8 7.2 16 16 16l32 0zM288 464l96 0 0 48-96 0 0-48zm160 48l-32 0 0-48 32 0c8.8 0 16-7.2 16-16l0-32 48 0 0 32c0 35.3-28.7 64-64 64zm64-128l-48 0 0-96 48 0 0 96zM304 208l-80 0c-8.8 0-16 7.2-16 16l0 80 80 0c8.8 0 16-7.2 16-16l0-80z" />
-    </Icon>
-);
+const ObjectIntersect = createIcon("object-intersect", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABqQAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDVAsGAAE2AiQDCAQgBYMtBzcb2wXILgtsY9jYH+KkNYssZt2QysV4fo90jIevuer9TmehcwyRR6xYA4CQbFfIQ1IEClgilJ86u0bMxZj7n5j+zH+uDRNtNDohskzlOjRKJRQieckMuZY/v8wF9Z4OWmYZAmw//5fTG3R0dIDf6FDGGO2N2RhLE4jDLM+zwLJeIJkmYJ3pPVRY+6XDpjvkeBOrSVcSnLLfNAZN9EpSVwBiBACANTsXpuC7E52Ir91nxFdrgYBYA9BCVKgwBYLlhAJTiLRAlgWd6Haj/8AWBBA93E9LIGMYPuAfIINkSM6j5fKJRpPRKDfJ1U09NO9o6rK3NOX8GFgi4trsh5EGNSGaEGVbUxpRIg5DQlyecS9YFBExkht0L4y1rsSdWQ8csQEZzsVxUXsTt2fet28PmQ+7C7vQZFpnlxtLe2W3l6Z0OJfGR9ye+s6mZ8dpub7n+T90D/48B0+1Lf1qgRHFSP2YcMvMu9juwEyGHfQK/aXOambZAxMjT6DpzIfGlyjoa6dtiaHDbr9hvleHniN2muHeD7nNbBffyqzRd7WgPSDCP59yqfbsJrOixwECwaLB2tEu/+9rEvj/+uSvqFuSHqBPAkE1ZzLHZgKJAACkOMmfAIHkvSHcVx3iogChIEDSowhQmUwHQVbMhqA2TRGCHsVWQpH7hTG2CpAMcQRUlnkB2RifoLbcT7XHmBCCNAeQ3ANl8qiKDs/RwjRTjXp7Mh5KGWO3TpPtGc9yJoZvwrEb1x4dOXTmsULcm2o8uTIawoe+iGSlMVJDi4c3w8uOoqwHZ92G5afU0faJqOfh5THsCbiki7QkiUgjbhwj9T6E8H9eAA==");
 
 export default ObjectIntersect;

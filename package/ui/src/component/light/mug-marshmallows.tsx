@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mug-marshmallows` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-marshmallows?s=light mug-marshmallows}
  * @preview ![mug-marshmallows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mug-marshmallows.svg)
  */
-const MugMarshmallows: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M357.7 103c6.6 6.6 10.3 15.6 10.3 25l-32 0c0-.9-.3-1.7-1-2.3L277.2 67.8c-2.4-2.4-5.7-3.8-9.2-3.8s-6.7 1.4-9.2 3.8L201 125.7c-.6 .6-1 1.5-1 2.3l-32 0c0-9.4 3.7-18.3 10.3-25l57.9-57.9C244.6 36.7 256.1 32 268 32s23.4 4.7 31.8 13.2L357.7 103zM64 80l0 48-32 0 0-48c0-26.5 21.5-48 48-48l124.1 0-32 32L80 64c-8.8 0-16 7.2-16 16zM32 384c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-192-16 0-208 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-64 0 0 192zm0-224l80 0 224 0 16 0 48 0c61.9 0 112 50.1 112 112s-50.1 112-112 112l-16 0c0 53-43 96-96 96L96 480c-53 0-96-43-96-96L0 192c0-17.7 14.3-32 32-32zM384 352l16 0c44.2 0 80-35.8 80-80s-35.8-80-80-80l-16 0 0 160z" />
-    </Icon>
-);
+const MugMarshmallows = createIcon("mug-marshmallows", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABiQAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCPAsGAAE2AiQDCAQgBYMtBzcbQwVRVE2aZD8WY1sF7CUUk8kU9ZE3nzglnv//e3Of+19qse4JVUoHrcLBYGws1qzSEKcBzopGID78/r7OeRjcO8YdwwsnMO3WkRrjio1vQ2MoYJ0f7/9zTb2wpgP8RofWoQcSBXbLeD6BCbQPZFSc4DOdgO1ty04jDI9DQoyiovGExqoTtDxLIkzqqSxwV3bnj7/blNaBILOAx3Ry1dGE19/4LbT+H0A+NIBATgGsIzp0WEawTxcsM6yDpgkD2mz8H6iAABkGEOWuDSO4RQ/QQOmahhHkFRTiKk1no1uaYmYJgjd82rks7ni1clGd2beDK/Kud9s4CEFyw3clRjKWgotevWtx5EGU5F7CUSApBBr+so8g3CyF84O4g+DN2P1MQT70MP4whLzhuyLHpJCPFrzQbfOB2YIIP3Q7/B5mTVuY6l1zVSDWkGGaGWsAFVzX1mB5elprUT6pqakKqdA/fkq9LAM2DPrmEpoi3IG559fYnXMXr7n9tMJlMHBpRanX31pbz/w6dnU9/uUGh37/+mtcj4hD3aXXcxl55UaVqW6yewovgl0gCPPvb+pGXAv/O0gN8Pv0P8Kv6P+bhupjVIHQbdoSMViAIgCAyiWEFxCUGyZ41kn3AmIcAWXYuIDOEjcEzbgNBENWZSEYNu6MLs0RsWioQpl0DZ09V6BZdA+G7HuTDFuM7oaSE0mPwPRqjVetU2nJqSpfdRsie5aQlwvUtB97KQ3FwVFMO+2UC6ZMmnNBcec05RedVD1iq3yRkiZZKiWf2u5s93ebcs55c047hasUUOfjWJfGk+Mg0hDvlp2lSLmdvDiT9GfDOnklAA==");
 
 export default MugMarshmallows;

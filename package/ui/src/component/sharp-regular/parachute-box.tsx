@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `parachute-box` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/parachute-box?s=sharp-regular parachute-box}
  * @preview ![parachute-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/parachute-box.svg)
  */
-const ParachuteBox: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M383.5 192c.3-5.3 .5-10.6 .5-16c0-51-15.9-96-40.2-127.6C319.5 16.9 288.2 0 256 0s-63.5 16.9-87.8 48.4C143.9 80 128 125 128 176c0 5.4 .2 10.7 .5 16L232 192l0 128-24 0-10.4 0L96.3 188.9c-.2-4.3-.3-8.6-.3-12.9c0-64 22.2-121.2 57.1-159.3C50.3 53.5 8.3 142.1 0 192l38 0L160 349.8l0 18.2 0 96 0 48 48 0 96 0 48 0 0-48 0-96 0-18.2L474 192l38 0c-8.3-49.9-50.3-138.5-153.1-175.3C393.8 54.8 416 112.1 416 176c0 4.3-.1 8.6-.3 12.9L314.4 320 304 320l-24 0 0-128 103.5 0zM208 368l96 0 0 96-96 0 0-96z" />
-    </Icon>
-);
+const ParachuteBox = createIcon("parachute-box", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABaQAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBawsGAAE2AiQDCAQgBYMtBzQb7wTIngV2TJteu8mXFB7RLIuH/5/7z31u8ikZhgwAg59RQK0mcGXHsqz+qmJJ7gVCdggT53ttyB83/7zzKMBnFNqYtjQfG4vmPE8gsS7PA18WWKZfwL61sx+eQXSbpKc8yTB+2tkhj4/ioTrS0/QtHqSXxp+6uk9SlwGINgCYs2ndCp83R3PEN7WJbyxDQMwBlUCGDD0EmC4T6CFXIZcLmqNWc/+BFQFEPVw5gRw5NmE/IAdJyvOFTWVdy3xjWVfsuxM/zP104dM/X3+7YxmiKDbGnbjT+9Vh383+vEcZG0IIUZaBk2+KMl6Z28bXer502/ooiohyfVmUoojo+3qb1//u24PfulWLFWt2tmmzc02saGw45LYuxYG7GupH//b/i2XGjV800JWX2tlttNEPR9utXaMNtGj8OM334v/fRtc3TAeKLrcdfued3RDwcRAIjiz85eSu1tP/KRP49UPkX1Ht8yS9jkYJBNnw2nDbE0gEACDFRX0TBJJVEjy1hUcChAIBknqFAJnu2giQKwwToE4vEwSoV1gnE3mT0MGOCkkLZyAz0Q3IdfAB1JnuC6Neh8isi7IN6nMXv1AiC5aqMSNHV1OrYaTQBkOE6bRqWRx80VeG0KaDTjnpvAP2O+K8wM5aYV9wwkINXeBDlTFGGq0yVbWd3q9vdMBZ5xxxysk4Z5rqvDrYRb19CCkJcMcKJYlILS+que/whfMH3vQAAAA=");
 
 export default ParachuteBox;

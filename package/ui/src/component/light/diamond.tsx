@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diamond` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamond?s=light diamond}
  * @preview ![diamond](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/diamond.svg)
  */
-const Diamond: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M250.3 34.3c3.1-3.1 8.2-3.1 11.3 0l216 216c3.1 3.1 3.1 8.2 0 11.3l-216 216c-3.1 3.1-8.2 3.1-11.3 0l-216-216c-3.1-3.1-3.1-8.2 0-11.3l216-216zm33.9-22.6c-15.6-15.6-40.9-15.6-56.6 0l-216 216c-15.6 15.6-15.6 40.9 0 56.6l216 216c15.6 15.6 40.9 15.6 56.6 0l216-216c15.6-15.6 15.6-40.9 0-56.6l-216-216z" />
-    </Icon>
-);
+const Diamond = createIcon("diamond", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABVwAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBIAsGAAE2AiQDCAQgBYMtBy4bngTIngV2i3OIFxHDIluTd/GYj23mWDx8v/Z67t0XILLJVyEVtpGAtsKwbi2SsBWKhF0j/tR2KlGt//+n3pdBs4DvhLoHJxbq2MNqBa5AtCCxAv6cMqnIztr3qVM14zwUwDcK2lg2dXE2yF7nEYhYLp62WPBlBatpBaxvG4LZiMIrIVIS0TghNFYnlPgeLSr5KWu8aB8aP834kEoFIIYBwOFF3UPQjnZE3UTUjkFAHAGWESpUmEdghywwT7EMiiJoR9PQfyBDANGJHyNBQcE62ANQQMpShme1joFy3tfRe/OhJr0bb9DbyRa9n2rXvr0Rj7Xs4VDse2JN+hCPnBttf9j/tVKvavyHELa2hCDBie/DwPB3hOTR/SAQtG99eWzt/O7WEvz49m/pV9QEKT+jW4KgajUtgwRJAAAyHrATAmmVhN+133sBQi8CpE69AlTmhBAoeq0h0GFRAYFOvU7IovQI44YdpH63QWXbGxTjfqDDjr/VaTyqwKGvnf62JbgadbY4k0xzlacJYWKBLMsaL0vhV25E4BArZycPSwtbD4XfeO7Tkethji9iGUlprIq38+1+y9LN3dbZqa6p4fNa2Mvvj4AqYcJ1oZREdj1VAAAA");
 
 export default Diamond;

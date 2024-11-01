@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-right?s=duotone up-right}
  * @preview ![up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/up-right.svg)
  */
-const UpRight: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 368c0 10.2 4.1 20.1 11.3 27.3l41.4 41.4C59.9 443.9 69.8 448 80 448s20.1-4.1 27.3-11.3L241.4 302.6c-32-32-64-64-96-96L11.3 340.7C4.1 347.9 0 357.8 0 368z" />
-        <path d="M336 80H96c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l240 240c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V112c0-17.7-14.3-32-32-32z" />
-    </Icon>
-);
+const UpRight = createIcon("up-right", true, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABYQAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBGAsIAAE2AiQDCgQgBYMtB0wbtgTIhocPm78/d3eTgQSXRVwrN+89LVRUVHhNay3+rfvzxk6LN14q4AF454xPXeBzxivQePGnTYIxwR/oxV/Efne2tlArvzRiSX5pclxOkMWh9JQCyf3kA67GN45vmjpFonoKIOoAYMzcmZO9/Byfk/hQ9Zz4YBICYizIBVKkaCHAcKlAC5kcmUzwOamq4nO4f76cAKKIcIYpKCJDLwwCZCARIssa1C8XamZzyoXS2lK59KDJvYaz43anx80jjje6U4pjDUfE7fLFxnOj0pU2z4pb2lbqVH60+bDmg6lbf9Puo0+s+PTrl/87ds5+q3XuXC3T6lTuq9RB+/RpewFlTHwPCAQf27z6b2nt4f9WKyfg64tff/OvKLYlFVSTgCDtXtXdojiGOrFNAACS2KNtHDMMgVQDCXzUGu4IEEoIkCgqCZBqro4AmZJuAhS0MkCAopKZUpFVFxpYnEGihu0gNdBhkGngGSgY7rVT1CBSqyHPnPyzxU2U0ISpvE/P3vnQvBtIlCHgPByWD2ud9/hCF9hqja222GW1VdbbJZAdJvu7bTZRgyf4oFwfPfWWGyqfjq+5OejssNP6NjM/Zph8vd7ZHr2+C8yTAPru94KUSCKts3vbm5N6mJ9Sr2DuGQAAAA==");
 
 export default UpRight;

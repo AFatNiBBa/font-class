@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smirking` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smirking?s=sharp-light face-smirking}
  * @preview ![face-smirking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-smirking.svg)
  */
-const FaceSmirking: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm375.8 82.6l-.2 1.2c-5.8 34.7-35.8 60.2-71 60.2L192 400l-16 0 0-32 16 0 112.6 0c19.6 0 36.2-14.1 39.5-33.4l.2-1.2 2.6-15.8 31.6 5.3-2.6 15.8zM112 192l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32l-32 0-16 0 0-32 16 0zm176 0l16 0 64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32l-32 0-16 0 0-32z" />
-    </Icon>
-);
+const FaceSmirking = createIcon("face-smirking", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABigAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCOwsGAAE2AiQDCAQgBYMtBzQbPwXIjtEnYwRTnrk8OKbix8P3+9HOvf/9NbW0DmTRkjdthAjJJFSSlUryylApYY8f9959wNveZCYIbQ2qqkKC2fdDGZQ4dfO88yjANwptTFuajgUSzXkeBZRY996yhLLAMg0AY+ttw2NEGL6IkESJaDwdrwVKrKMd0MkPlAvgWb9p/KfWSioVAEQXAICzh6nxsKNHfeDF1SLxTSwQEOcAmIKoUGEMgkNUgTE0U0BRBH/x/x//gQQEEA3A35OgoBGPgKeAAlJdaFqtWi7l1nxaBrfmFAy7YMzFnHG6o06cZsiQ82z0Kbcn9tx13pT35xrG/s1rbk/8ZfBu+kPQTtwFpzvhKmQvIw/Q+6VRM04LIpfboxxQYihxHvvyuS3cHnkfPO7r5XQr+tGMUA6YTIumn4wvii/gcZu3B74HxPv6xgfc7fGED+F64c0Mf90NDd2dV7PdIL84dpmCgdFOjoN1IgKiC+H7KXuKDZ8cG18GsSZ40imoAnFHP4lEScp5gEDwpeU7IUd4+MXiUgD+rb28GW/R1U5CfgSaJAiqtX87mQmSAABkNINJQiBdouOrtnkrQGhBgNSgRYDKKBEERYtVCGoT3CFo0OIuqihsCH2yFkhtLkDlQAso+syD2qFjq0FfVFlI5RD1CYyPkEj4FHF2cCI+xPRNOrGI1vclx6JVc8lZAxSK1ajWqEihMo0CqxfvNqkS4aHhHkQ4c+CE8EGuo/f5DEXqNShTo5qG+CLvVSvNfrU1KBSMu8OTkkh+jFv2DVVl9RENAAAA");
 
 export default FaceSmirking;

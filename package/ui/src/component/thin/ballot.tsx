@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ballot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ballot?s=thin ballot}
  * @preview ![ballot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ballot.svg)
  */
-const Ballot: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 16c26.5 0 48 21.5 48 48l0 384c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l320 0zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zM192 128c0 4.4 3.6 8 8 8l176 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-176 0c-4.4 0-8 3.6-8 8zm0 128c0 4.4 3.6 8 8 8l176 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-176 0c-4.4 0-8 3.6-8 8zm0 128c0 4.4 3.6 8 8 8l176 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-176 0c-4.4 0-8 3.6-8 8zm-88-40l-16 0c-17.7 0-32 14.3-32 32l0 16c0 17.7 14.3 32 32 32l16 0c17.7 0 32-14.3 32-32l0-16c0-17.7-14.3-32-32-32zM72 376c0-8.8 7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16zM88 216c-17.7 0-32 14.3-32 32l0 16c0 17.7 14.3 32 32 32l16 0c17.7 0 32-14.3 32-32l0-16c0-17.7-14.3-32-32-32l-16 0zm0 16l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16c0-8.8 7.2-16 16-16zM104 88L88 88c-17.7 0-32 14.3-32 32l0 16c0 17.7 14.3 32 32 32l16 0c17.7 0 32-14.3 32-32l0-16c0-17.7-14.3-32-32-32zM72 120c0-8.8 7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16z" />
-    </Icon>
-);
+const Ballot = createIcon("ballot", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABxQAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiECAsGAAE2AiQDCAQgBYMtBy0bBQbIjsQ4JvKLKOwiHv5/ruq+n3SdmaQhPYQZIlLA5HgJya1qtywUoAS5ujqk9l3f/F/u+dmmA/x8BCdywmPa0oV3jcVjDYrjBRIWrUEJZVEvyzQBS92UILaIKH08xlZkFpEeX493106Qx0uOaCG9kH7EY/1F4x/93U2SZQCiAsCy7Zs36foj/oj4sSnxow0IiOWgFsiQYZAAC2UCg+Rq5HLBH9Fs0n9gTQDRIHCyLUcb/sa/zCtIyjwfMKAN7oBqQI/ilS1t+bb8CyuOv9M74pn+KZ7v9fTI1ni3z7MDsnip73Nj2g69PTbi/X4pXhj3wai2eG/CRwOzeHH8h6Nbtz7Tu4zn+j7bp4ine3ncsq0oiwd7PU3c6v1MWcZDfZ+LiNt9ni3Grv0ynumNY4p4tk9s54ERzCyURTmdeK7vdscbhn9YffgfPx770c3Ppv7CT9kt2U+/TF1KSbR2ScfrnXQWtxSdna8vBQlJN282DnzuQGM0d6u+c/uYqqra77+/vYKEZvsflT/AtyU7Xmu/ny21EglcGk/HY56PA4Hg1dcGXN/fsfD/bmUCf33duF+zK7rSh+gmgSCb2JxoT3QBUQMIprhmuPFBgeRnJXnWVs8KEAoESBoKATIDVQLkChMEaDHELAEaCptlIu8u9LL3BkmriyAz23WQ6+Ur0GKhbwINvSILdj5U+U/NlNUaWjWrnjZ5aj2/XmZdQvyytXtBva2NvcZV47DRMeedc8VRR5x0RZGXbApfddZqi1jli2rTTDZVbb76uPCsbFOBSy47+S6dT7JA7W+Ndc1uPA5mIrTTpSSJSI0fN6pXAAAA");
 
 export default Ballot;

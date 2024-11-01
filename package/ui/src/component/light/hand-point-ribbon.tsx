@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-point-ribbon` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-point-ribbon?s=light hand-point-ribbon}
  * @preview ![hand-point-ribbon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hand-point-ribbon.svg)
  */
-const HandPointRibbon: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 8-48 0 0-8zM96 64L32 64c-6.2 0-11.8 3.5-14.4 9.1s-1.9 12.1 1.9 16.9l24 30-24 30c-3.8 4.8-4.6 11.4-1.9 16.9s8.3 9.1 14.4 9.1l64 0 0 80c-19.4 14.6-32 37.8-32 64l0 32c0 88.4 71.6 160 160 160l64 0c88.4 0 160-71.6 160-160l0-48 0-32 0-24c0-30.9-25.1-56-56-56c-12.1 0-23.3 3.8-32.5 10.4C349.6 186.5 332 176 312 176c-9.7 0-18.8 2.5-26.7 6.8C278 160.3 256.9 144 232 144c-8.6 0-16.7 1.9-24 5.4L208 80l0-24c0-30.9-25.1-56-56-56S96 25.1 96 56l0 8zm80 32l0 48L65.3 144l11.2-14c4.7-5.8 4.7-14.1 0-20L65.3 96 176 96zm0 80l0 24 0 40-32 0c-5.5 0-10.8 .6-16 1.6l0-65.6 48 0zm0 96s0 0 0 0l32 0s0 0 0 0l24 0c13.2 0 24 10.7 24 24c0 0 0 0 0 0c0 13.3-10.7 24-24 24l-56 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l56 0c15.7 0 29.8-6.4 40-16.8c10.2 10.4 24.3 16.8 40 16.8c13.8 0 26.4-5 36.1-13.2C358.4 351.7 374.2 360 392 360c8.6 0 16.7-1.9 24-5.4C414.6 424.1 357.8 480 288 480l-64 0c-70.7 0-128-57.3-128-128l0-32c0-26.5 21.5-48 48-48l32 0zm32-32l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 31.9c0 0 0 0 0 .1l0 13.4c-7.3-3.5-15.4-5.4-24-5.4l-24 0zm80 32l0-40c0-13.2 10.8-24 24-24c13.3 0 24 10.7 24 24l0 16 0 48c0 13.3-10.7 24-24 24s-24-10.7-24-24c0 0 0 0 0 0l0-24zm128 0l0 32c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-8 0-48c0-13.3 10.7-24 24-24s24 10.7 24 24l0 24z" />
-    </Icon>
-);
+const HandPointRibbon = createIcon("hand-point-ribbon", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABvAAAALoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyECAsGAAE2AiQDCAQgBYMtBzgbEAbIHgd2w9c7LDkS20XwD69T/1xJTtWnhKUAvrJTJtqIeCWe2B0BPwBudcNJgMCO9/m/pl7y0QF+PoJDqaLC2oaZlPl8AhNJqwCZlw1nE8VZOlfA4bkx+0+F2wF4OqLaxMA55CSAHdmH6mcKWAsOngsAgDIBAIAOwwb14eEX+kJKJK+BEvQCBKCOAFgEuIALFCMAWuMioBgPC3h4CL5QMmn+AwcCAKWAwxwAPMAA3wC/wVBYegB8zzNd0tJa5kRZQSzNGxrEzKgjNc4VICNVNYHZHO6NyhXX3mhfEAhdLEYv29wbEuh1uwfDJKQezt1ffXN42bMVZKThDWfDvfkMQRjl6UBurgIQyGg5KWCVJAkFvDXPFdj1B6sa7Q33RYEu5O2rtiXvkDjsZOu7nY0etb1fWTqSd6BGUEvog9z6ArTfmCH9NHSw6vnC0bACRMuRNLNp5cuZl3+tlJiaYMWGaMCAyKc+/v/tUWyaNx+2jGUMK1ab9vTnO9+iTolEJ7UnZ/jx6lQfSz4Vfv+kt/4XGdfb//QuJ+1sl2GRTxX8fmX18ZDzuMeMGfeY1z8/Pz+OxV/QkfrjAcACkM+ACCAa0Jwv0tO/aM78ZFL0y99POxs2bNS/Pf07NY5Z3Bcf6ttkPB5/53wLQBpn0/L7lQ1DmdSnKAfIX2mtjXH/DvkAIEAwYsjjcFxG63/9wAHgq9v/8uvTkw/10LkM+DgACNzaydqM1kPSwVAFABFHS6m88EUCHD7gg3dNZT8CQBhAADikYBAALkVkIgA8DLUQADFKaYIASMEwCBd5FREhYxrgkMoC4NKUZcAj5AqI0ZrH4RRCucQukKrwq5natYt2mWUb1K1vW9rZikqkXy6ebGU3G/GltqOcr2Uq85jLYqYwmRks7pAL6RNbwhy6LhFd+CGWBtSlPpaW2MP1h+pQGVnIImZMS8enaYW93o2zdLl/ObcdQNuQMgcH5GSFDb1OQEivs3DGxInz5gIAAA==");
 
 export default HandPointRibbon;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trophy` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trophy?s=solid trophy}
  * @preview ![trophy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trophy.svg)
  */
-const Trophy: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M400 0L176 0c-26.5 0-48.1 21.8-47.1 48.2c.2 5.3 .4 10.6 .7 15.8L24 64C10.7 64 0 74.7 0 88c0 92.6 33.5 157 78.5 200.7c44.3 43.1 98.3 64.8 138.1 75.8c23.4 6.5 39.4 26 39.4 45.6c0 20.9-17 37.9-37.9 37.9L192 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l192 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-26.1 0C337 448 320 431 320 410.1c0-19.6 15.9-39.2 39.4-45.6c39.9-11 93.9-32.7 138.2-75.8C542.5 245 576 180.6 576 88c0-13.3-10.7-24-24-24L446.4 64c.3-5.2 .5-10.4 .7-15.8C448.1 21.8 426.5 0 400 0zM48.9 112l84.4 0c9.1 90.1 29.2 150.3 51.9 190.6c-24.9-11-50.8-26.5-73.2-48.3c-32-31.1-58-76-63-142.3zM464.1 254.3c-22.4 21.8-48.3 37.3-73.2 48.3c22.7-40.3 42.8-100.5 51.9-190.6l84.4 0c-5.1 66.3-31.1 111.2-63 142.3z" />
-    </Icon>
-);
+const Trophy = createIcon("trophy", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABgwAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCHQsGAAE2AiQDCAQgBYMtBy0bGgXIjsQ4JvGLKEwieF6XOe9LJukYdEgQJlo7gFReFeQy9WbIO/7UqZpxHgrgc1zHplzOA7JAQnOeRyDnobF8dFCt571asVZRrHnLjEhkv0zmrEl6vLLHrx3y+Ca7VAPprvQVbugfGv/o7VKSlgxAdALAoh1b1nnvx/gx4sv6y8SX1iAgFoFKIEOGfgLMlQn0k6uQywU/Rr1e/gMrAohG8noJ5GjASTgHkIMky/P1HdqXDe3z7WVDcURRFo92u9WF3Yt4tNe+Sc/Pe33W68Me636bC7vdWhRxtd93W1nGNT3viIt63I4kk0qa4RFPzHlzzrtTXtxx9/Ai/McNP7Asyn397xv1yvza+GcGH/TW1NaBD+wo48GxbSMH1zrV/vPV4V+54d0f5f6J337drbnpaJu6W7poY9Vx0aI/8ta2jp1qtU59dLjyyg5Vfk9JpN0rOra15n8sWjSw08ZFlnbfdLSm5m5ffztx/xO2ymrj4u+/b39AdXqXNPH+66oD2hsSnrbVxJQuBwLBSws+nnZAx7n/N5cJ/PxGGzfX30sLUw3NEgiysfWx9qaFUIgB6ClONzj4okBylIy8azu3CxAKBEgaFQJk+uokQK4wRoAGA0wToFFhi0zkLUI3+02QtHMSyEx3Hsh18yJoMNenWqNukaUdmzTsry9puUWXtVWTxk+sZldLm3KZRLf6nGpbGXk6xEbRhsOd4HinOsyhjhqkwU+2zjzNcZZH2DI/VJlkvIkqs1XH3ihtZ+1kpzjKF86bzFHdV0c6Pc4eRd0kwOQHg5I1UuOpJ59w4pFnAQA=");
 
 export default Trophy;

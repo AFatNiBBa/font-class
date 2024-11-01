@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-rainbow` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-rainbow?s=sharp-light cloud-rainbow}
  * @preview ![cloud-rainbow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cloud-rainbow.svg)
  */
-const CloudRainbow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M284.8 196.9C337.4 98.8 440.9 32 560 32l16 0 0-32L560 0C427.8 0 313.1 74.5 255.5 183.9c7.2 4.8 13.9 10.1 20.1 16c3-1.1 6.1-2.1 9.3-3zm160.4 96.2c1.8 .5 3.6 1.1 5.4 1.6C469.3 253.1 511.3 224 560 224l16 0 0-32-16 0c-53 0-99.6 27.1-126.8 68.2c5.4 10.2 9.5 21.3 12 33zm-56.3-81C428.4 161 490.4 128 560 128l16 0 0-32-16 0c-82.5 0-155.5 40.2-200.6 102.2c10.5 3.4 20.4 8.1 29.5 13.9zM384 320l0 32 32 0c35.3 0 64 28.7 64 64l0 64-64 0L96 480l-64 0 0-64c0-27.8 17.8-51.6 42.7-60.4L96 348.1l0-22.6L96 304c0-44.2 35.8-80 80-80c27 0 50.9 13.4 65.5 34l17.8 25.2 25.9-16.9c10-6.5 22-10.3 34.9-10.3c35.3 0 64 28.7 64 64zM0 512l32 0 64 0 320 0 64 0 32 0 0-32 0-64c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C247.3 210.8 213.9 192 176 192c-61.9 0-112 50.1-112 112l0 21.5C26.7 338.6 0 374.2 0 416l0 64 0 32z" />
-    </Icon>
-);
+const CloudRainbow = createIcon("cloud-rainbow", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABkgAAAKCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCZwsGAAE2AiQDCAQgBYMtBzQbawXIhoenvL4/t5J+6B6jBnKG/jBW0AoAdwD+55rP7/lRgXw+gkOLtKLYmiIpIp9PYICVFAk0G8jAThRnbY5DeCf1wCEizOj4omF8Gpa2rlDGhzFajXR+egmn1h+Nr/V0PElZAIgOAJi/+cbVHvssPot46f+7iZesREAsAFmgQIE+AsxWCPRRyiiVgs/i///tPzATQDThpxIo0YwzcAWgBEmtLLt27zxyQKPWttysUavv/O7mESmtERH1eGsTSz+767ndNz2xawSCF466cdrh6hOm3zf87J6b3Tor4sHG3vvUsudm+87cRGjE1SOu7ynqbSKO6X7usGFB+dKLWXePGBGj4tyGIndo1NunRFwy8oapfdYJgx9Zctfw6/qIq/JrPYSBN3S44dsBL+32kj5/DVuxdBTLRm+pgwzvztZOsCtGbTjnvAnVpdsnRIdPn3iiEieGp1hz1Php6965m3umzJmvzZw59pf3yr0z33dZx471SnV0peujjw5dqptuYrNdO5x+VIvTfNlFLT7q0ZxllZYbbji6faHv/m0v/+H7/9p3c3/35vaVDASCj39ctWT79rN/bWkk8MUD3/+4vO7/x1KVbkCLBIJi9P+jbZMqMGoAoRSHGSgcFkhOUAOebOMcAUIdGyRN6lDorQOU6kZBTT9TGOeJjQpRtgpdbAuQtHEgFKY6Akpd3Ak1sz0batIlitjkIov7NExeMiKLp+UJY8fnmfm0bOXDjZHjs7JbHX5YbhuBvXazv/0cYle72NMhA3aQ1dFD7WuJQhdzUDbBWONlM+Xbteftm9nVQQ62p/3tVyaZJT/vGu4w3XsEjIS0ExUkiUhtf1KojHmBzJ32Pxw=");
 
 export default CloudRainbow;

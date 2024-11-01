@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-plus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-plus?s=thin file-circle-plus}
  * @preview ![file-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-circle-plus.svg)
  */
-const FileCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 496l247.2 0c5.8 5.5 12 10.6 18.5 15.3c-3.2 .5-6.4 .7-9.7 .7L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L204.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 145.9c9 9 14.1 21.2 14.1 33.9l0 18.7c-5.4 1.5-10.8 3.3-16 5.4l0-24.1c0-1.3-.1-2.6-.2-3.9L248 176c-22.1 0-40-17.9-40-40l0-119.8c-1.3-.2-2.6-.2-3.9-.2L64 16C37.5 16 16 37.5 16 64l0 384c0 26.5 21.5 48 48 48zM361.1 160c-.8-1-1.6-1.9-2.4-2.7L226.7 25.4c-.9-.9-1.8-1.7-2.7-2.4L224 136c0 13.3 10.7 24 24 24l113.1 0zM560 368a128 128 0 1 0 -256 0 128 128 0 1 0 256 0zm-272 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm152-72l0 64 64 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-64 0 0 64c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-64-64 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l64 0 0-64c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const FileCirclePlus = createIcon("file-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABoQAAALPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDBwsGAAE2AiQDCAQgBYMtBzcbjgXIrgZsFzdbRjCJKHUxKUdLLZZ3vSlPlsbD92t9nvu6P/XM8swC9gKzAlYEqIgDBG5VFJEGsqnI6G95u//fp/9s02CKJERdqUKLNq0r4B+43PvNidlRSyDQNoZx0Zh86Q3Q29wAPcCCDbgM1wVstfB+GLR8BxtwKClPMoy04PDENc8/LRqkbARDiWpv340yzycwwMefVwlF4WwmE/D57fyOYhC9xSAucUkyLP/+MP3+AvL41aaB9GxKwZ30pvGvyDUkWQYg2gNg7nrVEl/8RX9FfN9aiO8tCIh5oCSQIUNPAswgE+hJroRcLvgrWu/+AxMCiEa4vwRyNOEt+AggB0lDnk+r9nr0q+Tb5GsrDcWSSlF5VLeKWrw1LOie1fPDw8FV3agv9Yh4WJMuRyWud3ZCcb2oxBs1q2tGz9btgVsnrGTViWcHVpeXu/TesKAwh3iOd2ng85Xn8LA0apdHSx9P/7a7TX2PjF0aR1NehTntMyqJtVCJR3WrVtEdwuksXZa5XaqK0A0VjffaB//lVAdfKKeJ8kq7XTwU5me8cpPa3/J7rePIvispndIhfNo+kNJNY36TS7Iffhv9ZcTVq7TnMPXp7stba6j+8nMxfr5X+/evVrX2g0vKbsdBgzp2KsvBvoLiTxZPZGwqNG7K6Bx0RUc1+PlAIHj93Nww4/+SJfDP01/cHq3jOek9NEsgyEa0wrrMHDCaAeRTnNBP+KBA8hINcKlVjwkQCgRIGhUCZHrQngC5wnACNOjNRAI0KqwiE3mLUGN9FZKqw0JmEueFXI3PhQYz+CrXqKasrpo0zfSpmH0RBxbOKjtqTDmtnFYUs/oZwuT0ctmfE75jKM21g4Mc4Bjb2cZujjHmCEuKx9nPIglbyBcpGcsoxlAyjXK7fm9fy3JHOMrusXV/mumU59NDOCH3H0qhBFrHUZYkIrV/L9wj/+pxjHzcAQAAAA==");
 
 export default FileCirclePlus;

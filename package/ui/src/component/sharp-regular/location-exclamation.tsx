@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-exclamation?s=sharp-regular location-exclamation}
  * @preview ![location-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/location-exclamation.svg)
  */
-const LocationExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M336 192c0-79.5-64.5-144-144-144S48 112.5 48 192c0 16.3 7.7 42 24.7 75.4c16.4 32.2 38.8 66.4 62.1 98.3c20.3 27.9 40.7 53.3 57.2 73.1c16.5-19.8 36.9-45.2 57.2-73.1c23.2-31.9 45.6-66.2 62.1-98.3C328.3 234 336 208.3 336 192zm48 0c0 83.1-105.6 219-160.2 283.6C204.8 498.1 192 512 192 512s-12.8-13.9-31.8-36.4C105.6 411 0 275.1 0 192C0 86 86 0 192 0S384 86 384 192zM216 96l0 24 0 112 0 24-48 0 0-24 0-112 0-24 48 0zM168 336l0-48 48 0 0 48-48 0z" />
-    </Icon>
-);
+const LocationExclamation = createIcon("location-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcQAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBbAsGAAE2AiQDCAQgBYMtBzsb9wTIhoePnOn7kuxJ7DAoxN4wcZn5utNb+dSz5/9yz+/5bcDPR3BoY9pcvIB2czxPILFevikNJDuwNEFrdzbLHMIOj9YokhzfjtflAlmciusVSO5IvsZ1uafxl9YuJlFIAUQjAExYtmiO92ujNuKr6ivEV2YhICaAXCBFinYCjJYKtJPJkckEtVGt0n9gTgBRxP1LQIYilmMjIAOJLMtadmxct1yony0tF0qbHhwb8e7Uj0e/nZ+veWHCM72eGvDRoJeifHcl4vnxEe/3fbrZBXFr/2cnfjjwxQ6/Lfpp2S8LfliyVBCiFJyUF4fKdG/u/GSjJ//p9PXWr82rtjvOZR98cNnxdq0vuKHyx733/lG54YLWldLLvDKBCR/80JhGP34wYcIrL5diwZIlCwCJJUucx9a1wtJ+rVS0UtwB/1VA4V8HgWB386u6rWs4+v865QT8/uZ//3FPV9+P88mTqCMBQdq32tfqOA9EDeAnJXFU5ziPQGK+DH5qPbcKEEoIkCgqCZBqq5EAmZI+AhR0MESAopJFUpHVFZpZIyBRzwGQGuoMyDTzEigY7bO0qFmk5sUZB/e4S56qoSnH8pr+lXxkPu003mKYuD8q31Z7Hg1zveCsrfbZ67AtNtvhsCIPmlMcscfUFTzFF+Vq9FeRGyk/Hj2eXmqLgw7ZYZ+96ZBR8vthT0fXq3uBkWDagRqJhEia2eV8v48r9A17BA==");
 
 export default LocationExclamation;

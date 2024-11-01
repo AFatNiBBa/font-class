@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bulldozer` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bulldozer?s=duotone bulldozer}
  * @preview ![bulldozer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bulldozer.svg)
  */
-const Bulldozer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 400c0-30.5 12.2-58.2 32-78.4C52.4 300.9 80.7 288 112 288l256 0c44.7 0 83.2 26.2 101.2 64c6.9 14.5 10.8 30.8 10.8 48c0 61.9-50.1 112-112 112l-256 0C50.1 512 0 461.9 0 400zm64 0c0 26.5 21.5 48 48 48l256 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-256 0c-26.5 0-48 21.5-48 48z" />
-        <path d="M96 96l0 96 124.2 0-48-96L96 96zM229.5 67.4L291.8 192l28.2 0 0-64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64 32 0c17.7 0 32 14.3 32 32l0 64 64 0 0-41.6c0-21.8 7.4-42.9 21-60L583 124c11-13.8 31.2-16 45-5s16 31.2 5 45l-50 62.5c-4.5 5.7-7 12.7-7 20l0 73.6 0 69.5c0 8.5 3.4 16.6 9.4 22.6l45.3 45.3c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-45.3-45.3c-18-18-28.1-42.4-28.1-67.9l0-37.5-42.8 0c-18-37.8-56.5-64-101.2-64l-256 0c-31.3 0-59.6 12.9-80 33.6c0-.5 0-1 0-1.6l0-64 0-32L32 80c0-26.5 21.5-48 48-48l92.2 0c24.2 0 46.4 13.7 57.2 35.4zM96 400a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm264-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM256 400a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm-56-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Bulldozer = createIcon("bulldozer", true, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABwQAAALJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDSwsIAAE2AiQDCgQgBYMtB04b6wXIHoPjbolBi1baELEoDPV8PB6+38889/1sFriE5BDkyjpkslVkcXzZEtjm+HHv3Yf4BsLVyGtzaAtVIa2A///nms8v7egAv9GhVKzCoiiTMp9PYMAVmFY08pnOwDY4b8IhhsKQeIZcssq2KiKdSi9wwPofwPiiqXGS0gwAogYAGDs3LQGePsbHFB+Fe+KFSUBAjANoA5EhQwsIRqAKtEDTBsjJCT6mQj5GYRsQQOTBemEG8ijDc7wB5ECSl3I0dnEpSFU2Li/i0zKtuzh5UHlkRlnW7MwMbiCONN7i7mm4AaIkYb7F3z0tTrSS8o1nyZLjKCE2NgyIYzY2WOfsbhQYt1thcHC326knL+57jKCLhLo345QVNx56Zp+xOlBvmx9qyiK2aE6v4bGfxAvdr7z4Mdf1RL0DZ7scu/PisdupgXuqIcZGR34cNd7S7io2LXmx32BdZXpbdPrd9qPyQ11dsbOgH5zqxG/TBaylFS0EE+zcWcXDYxDx/cFsmUxoaebRkxsnm/NWt1JVMV4k/s53dlZWzpyE79t+4W6+EztfBy/WAPz8CxBjEMuyl2/75Cuu3Rovnz5dDsjixmLunqesm1cQP+eq71Pvpd2l5bfXmgn///7x8/e/Ojh7yds+AH3efmZYZo8DgeDAWp/5dcIR/1hcCsDnxz/+sJ+hgrQp3UaJBIKsR8FeftpIYRoRAIAUnUzTRm2AQGafbXOywnEBQhkwJHllkGlOBDllukORVjz4kSdmooocG0IDBSAkFRZBZpAByGngDoqM8BzJaxDZ6SyejOLdZFpkGYmYR/r26tNmWJvOqlQ6Q3k9PbzNaFuX5byrK9wLlZo0alehXI32Et0qId6hQWQfFeGLCBeOnBG+yOzGdS0TR1q1qWlX5s/ih6zvsdbZP9gGOikcxn42ZDIiIVX8/9y88qbeilaHC6NLWlMuAQA=");
 
 export default Bulldozer;

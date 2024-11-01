@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `venus-double` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/venus-double?s=light venus-double}
  * @preview ![venus-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/venus-double.svg)
  */
-const VenusDouble: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 320a144 144 0 1 0 0-288 144 144 0 1 0 0 288zM368 176c0 91.8-70.3 167.2-160 175.3l0 64.7 64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l64 0 0-64.7C86.3 343.2 16 267.8 16 176C16 78.8 94.8 0 192 0s176 78.8 176 176zM344 318c7.3-7.8 14-16.2 20-25c23.6 17 52.6 27 84 27c79.5 0 144-64.5 144-144s-64.5-144-144-144c-31.3 0-60.3 10-84 27c-6-8.9-12.7-17.2-20-25C373.1 12.6 409.1 0 448 0c97.2 0 176 78.8 176 176c0 91.8-70.3 167.2-160 175.3l0 64.7 64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l64 0 0-64.7c-32.7-3-62.9-14.9-88-33.3z" />
-    </Icon>
-);
+const VenusDouble = createIcon("venus-double", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABkQAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCWQsGAAE2AiQDCAQgBYMtBzMbXAXIjsK2tXOMQ1ImKdK846F+rL3d/+8Os+bdLOGhipZESBq1iafKdEpgqJTA9f69vxuI5wUy20xKye2dPmCF/yeuef5pTw9Y5I8UaakP8g2Yy8LZzl90GWDTtuFsojhrcxyIDoI8gorIVfaUOGz9sHWAGj+oBozkM90ZgPv0ofEHoupItQBA9AEA2DrwdYctCinEs//zxDe4AgGxDYAJiIKCEQhW0QuMYDABVFXwg///+/9AAgKIJsiNJ6ho4BrvgApSqQzimsbsjJwMAeyMbIGtpoirmpNYrTFhssLWYrSkNgbn0+PGy+yBd1aIW36Andgv2CfAhhCgDQghsuEmg8LsiPhgsxPw6HsbeO997e93nLmsf2i5KTtsseEwZzQgtOl4NcKd1fuLDkxkRnhGnmlnCWeweaZIB3KepqBA06ajU6SY32CyE+2nwJcdkzVYobi4qIJqQSkuiTVrSnRrCu3RhSezTsV6kHD7aJvx23ZjkYREUeP2m3Hb6NbQdBy0n9p0DYETAAgEn/VpOpLb7JuFnQ7gd+X1u13G87+VWXQjQJsEQZn6ryYsqxQUTyEgiJNRADL4Joh0pcC7dnkQIHQgQGrqEKAYxgNB1WESgoYx+hA0ddhBLyorhCHhg0hdToliRTlRDZklGlYdOk1DQW+UgkkJ/4SpDgzYFxFtDS1iQm5jXbQzLnabkse6UkGoUsZUSJApQ554cZLlEZ7D3c+XzkHD7P0QoU2DFsIEWc4+qwHk5MiVPJfWJ2GK7LeVFOiNlWHREcYFC1ISyVEQn5Gfq/4VAwAAAA==");
 
 export default VenusDouble;

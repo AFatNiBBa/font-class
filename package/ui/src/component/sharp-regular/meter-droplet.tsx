@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `meter-droplet` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-droplet?s=sharp-regular meter-droplet}
  * @preview ![meter-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/meter-droplet.svg)
  */
-const MeterDroplet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 464c48.8 0 93.8-16.8 129.2-45c2.3 17.2 7.6 33.5 15.4 48.3C359.5 495.5 309.7 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0C369.8 0 466.3 74.3 499.6 177l-36.8 56.5C451.6 129.2 363.3 48 256 48C141.1 48 48 141.1 48 256s93.1 208 208 208zM192 152l0 48 0 24-48 0 0-24 0-48 0-24 48 0 0 24zm88 0l0 48 0 24-48 0 0-24 0-48 0-24 48 0 0 24zm88 0l0 48 0 24-48 0 0-24 0-48 0-24 48 0 0 24zm160 40l93.5 143.6c12.1 18.5 18.5 40.2 18.5 62.3l0 2.1c0 61.9-50.1 112-112 112s-112-50.1-112-112l0-2.1c0-22.1 6.4-43.7 18.5-62.3L528 192z" />
-    </Icon>
-);
+const MeterDroplet = createIcon("meter-droplet", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfwAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCNwsGAAE2AiQDCAQgBYMtBzQbOwXILg5sOnXBe0UouSuHYcAnUhqc8fD/a//b5868r7gM7trEumqFV8ETzTPUv6gsIsnek8MYE44t09J29/IRSaTfA6JC9gMwvL+Jy52/reWbn+DRGsvGXL73eZon1r01JgYUZWGWKOb/TZK4XN6Qkhz0JQ3jb5g6Qx5/uqpEupe+4kr80PipvcskpQxANAPAtDUrFnnfEA0RXyoviS8WICCmgUIgQ4ZOAkyUCXSSK5DLBQ1Rqaj/wIIAogrA5P4c1TiFK4AcJKU879UcFa3rS43z1WnPulXfl3D7rytvsU+X1T9Dl8SaXWXOxPi2vFfP0ly5y2oVCaIusFl9qB+evWrV6lXPiId9n4581b/cJeLCgDWVm5V/zXabCvNtGPfy52GOC9fat8vsnHbtr12IrDZ1qFTpsGi1S69fWtaaKJctvqZc9kwZMxTpdoay860dYk/6bOJf0rF70vS/Mkn3ARsBgWDqvtFpS9OJv2vqE/jxDuXhiul8KqNGAkE2sDLQxnQelDyAfIrTuhNfFEgOKcG7NnJbgFCHAEmVOgEyHTUTIFdngAAlXYwSoEqdFTKR1wqtbGpS0sgxKTPaGSnXynOpZKIPuSqtIuNBHQfpvoCZZ/fArG3FsMFDi/HFsqXq2UrjVicU29a+p/VIP6FqtyMOO2mXnfY52THHLSqecshsCpvlhwrDDDZUYbziuPu8e7VdjjthnyMOh3UmKO4H+zpNT+8nHAkUh6tKEpEaP0TLoDfgO7jrJAA=");
 
 export default MeterDroplet;

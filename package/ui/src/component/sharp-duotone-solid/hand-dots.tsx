@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-dots` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-dots?s=sharp-duotone-solid hand-dots}
  * @preview ![hand-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hand-dots.svg)
  */
-const HandDots: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M.3 329.4l29 27.6 95.5 91c43.1 41.1 100.4 64 160 64l19.2 0c97.2 0 176-78.8 176-176l0-208 0-32-64 0 0 32 0 128-32 0 0-192 0-32-64 0 0 32 0 192-32 0 0-224 0-32L224 0l0 32 0 224-32 0 0-192 0-32-64 0 0 32 0 272c0 1.5 0 3.1 .1 4.6L84.5 299.1l-29-27.6L.3 329.4zM208 400a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm64-64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm0 96a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm64-64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm32 64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm32-96a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-        <path d="M304 368a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm32 64a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM192 384a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const HandDots = createIcon("hand-dots", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABqAAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CCfwsIAAE2AiQDCgQgBYMtB04bnwXIhof/1r68r6rnLwD1rgIg9MBhvaNCKmpckGyfSFbR/T/XfH6hRwf4jQ4lIuyOG+eZzycw4EgrXZNNZzoD27I5zC7mobDQfoEifsoPNZHeSt/gUfg/gPGXPh6StMkAojMA5m3ZsEpLFVWKb+pPiW+sREDMB6VARkZ/AWbKAv0VShQKQZXqmirquiSAaAjfmkED7fEu3gAKkGStiqJNmzYL2sRJu6YOxeZ8U9sDr3q96PG8+8ue42p9s6D7x8aw4cM2xa+b2sXvG37eEhHRNgTTUrgixV2zY3is3fRI/KLHhrC/CT4O33JwSHPn5n8Gf3P4G2PWdKyqjplZE//RGJZ0rFz5Or5qz3bzZ+/UzfKIzrH8B6W5SneVWjpoUaq6q6VPd5byG1+5+v3iD/rvneB1OGgPvx8IBNdPfbB0T6eZ/7dul8Afn/33Z/VDUrdElZrRWgJBHlmPtDNBGZUAAKS4bEjiQwSya1qJr2nvpQChLQIkDW07yPrpDIW2RkCTgSZd0NDWBlkUbYTudukgae8cZJPdgkJ3n0CTmT7PGrpHBlQezPj/xJTFQ2TRvHLc6LHl9HK1qhFgj7XTM8rDztDLk65heK/DzjjtokMOOubigDxvVXnJKYu3iEW+qDTOaGOVpisvN54qmwfZeRccW5auzzJD+Xw01OXtwcOwn8SU4y3IMpEidwHsilEHz1y8MMrLd3WbSJ4b");
 
 export default HandDots;

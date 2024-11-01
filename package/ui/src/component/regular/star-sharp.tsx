@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-sharp` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-sharp?s=regular star-sharp}
  * @preview ![star-sharp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/star-sharp.svg)
  */
-const StarSharp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 0c10.5 0 19.7 6.8 22.9 16.7L361.5 176 520 176c10.3 0 19.4 6.5 22.7 16.2s.1 20.4-8 26.7L403.9 320.7l50.9 160.1c3.2 10-.5 21-9.1 27s-20.2 5.7-28.5-.7L288 406.4 158.7 506.9c-8.3 6.5-19.8 6.8-28.5 .7s-12.3-16.9-9.1-27l50.9-160.1L41.3 218.9c-8.1-6.3-11.3-17-8-26.7S45.7 176 56 176l158.5 0L265.1 16.7C268.3 6.8 277.5 0 288 0zm0 103.2L254.9 207.3c-3.2 10-12.4 16.7-22.9 16.7l-106.1 0 88.8 69.1c7.9 6.2 11.2 16.6 8.1 26.2L190.3 421.6l82.9-64.5c8.7-6.7 20.8-6.7 29.5 0l82.9 64.5L353.1 319.3c-3-9.6 .2-20 8.1-26.2L450.1 224 344 224c-10.5 0-19.7-6.8-22.9-16.7L288 103.2z" />
-    </Icon>
-);
+const StarSharp = createIcon("star-sharp", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABawAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBZgsGAAE2AiQDCAQgBYMtBzEb5wTIjsO44TuyxVL+4+F5u77OfVWj/mPU2MygnIycygsHEYBoN+1mHgmVOXG587dND7jIH2VPfZBFu2jO8wRerHtuahRQFmaJYn47+S6/DHTZPom8JMN2DJsL5PFlnFKJdDnByfih8acmTpBUygBEbQCMXjh3urffxXcRn5UfEZ+ZioAYDQqBDBmaCzBMJtBcrkAuF3wX5bL9DywIICpjMLFy9eAsbADkIEl53rlVRaUa+QLTKG281WB+VISina8/L+YH7VzDBTEvaBcaLYwFQbvYsSIWRt68hfPOtSthfV7H7gjomQujFLcbLmhzv/b9v1vbQKs3Vva54QYrRj4/tl6fm0Z++tvnR9ZJ537+26cjd9Ox9Z6PXOGm3jestLHQ3SttsWic5yOKDeaM8vvvniveiOeDV21hZbERCAQ/vT/zK2sN+69qRQI/PP/3//h4i/KLVLqPqhIIsm7lbpalUVpoAVoFcJzigDb0TQLJJAm/a3UXBAglBEgqKwmQaaa2ALmSrgJU0lJ/ASormSsTeTWhvuWVSKrbTWQGOEjk6ntAVDLMR3Fl9SOTLVEyxJ9d2oQWGN9W9O7RqxhSTAeyJC48PBxaLHudDriFztRpg5122Ge9dTbb1+B7TM/2224Cwsb7oUJvPfRSGKLYHt+fXmC9PfbabKcd4ZihivNRJwfw+s4UJszYR1+SiFS6+0b35wcAAAA=");
 
 export default StarSharp;

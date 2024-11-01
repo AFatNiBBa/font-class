@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-ruler` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-ruler?s=solid pen-ruler}
  * @preview ![pen-ruler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pen-ruler.svg)
  */
-const PenRuler: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M469.3 19.3l23.4 23.4c25 25 25 65.5 0 90.5l-56.4 56.4L322.3 75.7l56.4-56.4c25-25 65.5-25 90.5 0zM44.9 353.2L299.7 98.3 413.7 212.3 158.8 467.1c-6.7 6.7-15.1 11.6-24.2 14.2l-104 29.7c-8.4 2.4-17.4 .1-23.6-6.1s-8.5-15.2-6.1-23.6l29.7-104c2.6-9.2 7.5-17.5 14.2-24.2zM249.4 103.4L103.4 249.4 16 161.9c-18.7-18.7-18.7-49.1 0-67.9L94.1 16c18.7-18.7 49.1-18.7 67.9 0l19.8 19.8c-.3 .3-.7 .6-1 .9l-64 64c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l64-64c.3-.3 .6-.7 .9-1l45.1 45.1zM408.6 262.6l45.1 45.1c-.3 .3-.7 .6-1 .9l-64 64c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l64-64c.3-.3 .6-.7 .9-1L496 350.1c18.7 18.7 18.7 49.1 0 67.9L417.9 496c-18.7 18.7-49.1 18.7-67.9 0l-87.4-87.4L408.6 262.6z" />
-    </Icon>
-);
+const PenRuler = createIcon("pen-ruler", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfwAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCMQsGAAE2AiQDCAQgBYMtBzAbMQXIhod/9J66L8mYyh8QFYzSndas9mzNlhWciWuefxU9YOGLP8r3wkpHG60BO6wExlkWbaOBvdBEcYvbroKIVtpC4wZZvJEeUYbkZvIlzgdbxY8aOEKiQgogqgNgRGnWFO9+F99FfFG8IL4wCQExAjQXSPHqxgIMlorxDTLNkckE30VR+P/A5gQQZSUfTkCGstiJ04AMJLIsq1m7VatKZapkuXmv4poOHTs8cqD99MhjVjypdLrDytLs0pyYHVdqM1Hda/VKcd05W4TzuBYHR8q+pE6HOFjxoOlJda7WmxWn8QgxZM6QoUNOxUK4Q1x14IlTKp6qm0ep5ePqj39u8eXqL339dE+ysGbDBrVO2LbNCS26YI8HU/7H6kQprvDogzVNfHXjZJcmawy5+cVfF5NFee6bWrW+mTLFz/7Un3sRonDr1qNHhSC+vH//S+wPK/jDh12h14Uv5bmLF4FA8Hz/o51Lqg3+rXylBPzw+q9/1i8W/xdvR5E8RnkJCNLORWcLEzuo6Cg+IBS7tcSTQmKjTGLXyq4JECoiQKKsigKkGqkuQKaiTgKU0VQfAcqqaJZUZBWE2hb1XKKybVyqr71cprZnXBmDfRIuq3akAGiAj/H/l2vsGBgzrHmPrt2bD2y+mdKaMKXZ1kHNT3va75YlHfBRq22x2U6rrLTOzhG73ZTYLpuM3WPG+KHmeuiqu+YGan47+3x/bpXtdlhni81+kEGavx9ob/d+9Q7Yn0hke1qZSIikwtZVm7uAtXs7AA==");
 
 export default PenRuler;

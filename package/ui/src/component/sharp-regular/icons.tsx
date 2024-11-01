@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `icons` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/icons?s=sharp-regular icons}
  * @preview ![icons](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/icons.svg)
  */
-const Icons: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M125.5 21.5C111.7 7.7 92.8 0 73.3 0C33.2 0 0 32.5 0 72.6c0 20.1 8.3 39.2 22.9 52.9L128 224l105.1-98.5C247.7 111.8 256 92.6 256 72.6C256 32.5 222.8 0 182.7 0c-19.5 0-38.5 7.7-52.3 21.5L128 24l-2.5-2.5zM128 158.2L55.8 90.5c-5-4.6-7.8-11.1-7.8-17.9C48 59.6 59.1 48 73.3 48c7 0 13.7 2.8 18.3 7.5l33.7-33.7L91.6 55.5l2.5 2.5L128 91.9l33.9-33.9 2.5-2.5c4.6-4.6 11.4-7.5 18.3-7.5C196.9 48 208 59.6 208 72.6c0 6.8-2.8 13.3-7.8 17.9L128 158.2zM224 288l-16-32L80 256 64 288l-16 0L0 288l0 48L0 464l0 48 48 0 192 0 48 0 0-48 0-128 0-48-48 0-16 0zm16 48l0 128L48 464l0-128 16 0 29.7 0 13.3-26.5 2.7-5.5 68.7 0 2.7 5.5L194.3 336l29.7 0 16 0zm-48 56a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM457.1 256L320 400l72.2 10.5L374.9 512 512 368l-72.2-10.5L457.1 256zM288 256c35.3 0 64-21.5 64-48l0-124.3L464 61.3l0 68.2c-5.1-1-10.5-1.5-16-1.5c-35.3 0-64 21.5-64 48s28.7 48 64 48s64-21.5 64-48l0-144 0-29.3L483.3 8.5l-160 32L304 44.3 304 64l0 97.5c-5.1-1-10.5-1.5-16-1.5c-35.3 0-64 21.5-64 48s28.7 48 64 48z" />
-    </Icon>
-);
+const Icons = createIcon("icons", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABpgAAAKqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDPAsGAAE2AiQDCAQgBYMtBywbuAXIjsK22TMiGRdcGPGRr8TD9/ul577l/8OoUmJFND4kC6hIs6xLFaOqBBVfFm4ntkRyrfDv3fsAwhdJFeXKLjOp6KrNxOXO/56f5vQXf5RvLNoL21g2py6BNM2yMS2hqM6XaQLW0byXBim0C3U6QjFu45IS6Vp6C+b8J43PjCZISgUARBsA2DabnoanOtUjfhs3xBspICC2AcYQCihgCIGN2AJDOMZAUVFQj0ZD/AeOQQBRRvjQCRRRw0t8AFAESaXIMQwbtVKpT86VcrJyrij/efZw0blhwykzsuNqcNP50n7OUUO66ZnMrNW4MTGvjaDQ0EZYRIQ+1vJH/SOajGmTfhMRGUIkQgiRiyksE0HIgnoB09BTjLRhvNbzuv2p7bFhw+7E4cy0fCo7I5MyIjuyIjs7myAKbNTJIi5nDzc47c4kT0RkO20bmN7V+lJx+T/+9sifwWfTo/W1O1tkmcdKEVszq7Wxa+uj0+2UMb1nu1F0i7QH8u4A2F7UnZd1Z900UDzaCEsuaGhb5YmCXsXzh2PVCD563oi2kW92Ytn5ZvE/O366v0nkUoLpi3O2aE+GtkPolvbU0Hb42d0hYLgwoLlHnNZqWxMptvnQPnlxxbB3e6OwplE2cztAIPj0amFob2vo32rOAiy8/v4d/4zQmE/Sc1QlEBSWNZYpSIBEAABSdLFOQCB5oSK81yaXBQgZAiRlmQAFgxQIFGWWIlAywg+BsswktigKEboUNnLS5JRcsMGgXNTlWi7Z6DNd1hVsMDYCofEmMlt8F4hbxqx292SCmdmKygSZejsZwmx2LuqSHU54I6o0a9KhUoVaHR24TVquU6P4JSjOFzG8uPPECMYcrj+0ZVG+Tbtae9PxRUIw10cddS33d8IellB1jdVJIhK39o8X");
 
 export default Icons;

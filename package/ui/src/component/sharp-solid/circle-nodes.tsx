@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-nodes` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-nodes?s=sharp-solid circle-nodes}
  * @preview ![circle-nodes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/circle-nodes.svg)
  */
-const CircleNodes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M418.4 157.9c35.3-8.3 61.6-40 61.6-77.9c0-44.2-35.8-80-80-80c-43.4 0-78.7 34.5-80 77.5L136.2 151.1C121.7 136.8 101.9 128 80 128c-44.2 0-80 35.8-80 80s35.8 80 80 80c12.2 0 23.8-2.7 34.1-7.6L259.7 407.8c-2.4 7.6-3.7 15.8-3.7 24.2c0 44.2 35.8 80 80 80s80-35.8 80-80c0-27.7-14-52.1-35.4-66.4l37.8-207.7zM156.3 232.2c2.2-6.9 3.5-14.2 3.7-21.7l183.8-73.5c3.6 3.5 7.4 6.7 11.6 9.5L317.6 354.1c-5.5 1.3-10.8 3.1-15.8 5.5L156.3 232.2z" />
-    </Icon>
-);
+const CircleNodes = createIcon("circle-nodes", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZQAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBOwsGAAE2AiQDCAQgBYMtBzMbvgTIhqB+Ld6et3v3AWg/ESlgckAOECVBEgco7FUsqlTkTZ16nvNQAN8oaGPa0oCMaWOs8wgEON1er/eqtYLVtALWtw0bOcTwRYQFSkRj2lhBd8jjc3ZSiXQj/YJz5UPjT62cJKmVAYiGAJi4aN5c31WiEvFz9S3xs9kIiImgEMiQoa0AY2QCbeUK5HJBJarV/B9YEECUycsTyJFjAmYDcpCkPO9Tt06pXr6wTqn2pme9I161udvr5bA3PZ63nR9p507PF0NPtVgQl+GT3vd+1eHuqEWrr8WiuNJsflxuurDTy4Yv/+74y8ZfPOj4NCevGws3NLRhfsP3My1o2HDDwhicjf+/cMSoeoSxq3W5y++lmSPr+PYp87v85tg663EQCL4unHRgVYMx/9Wsk8Afn/79W/0VVb+LSnqJmhIIsj7VPpYnKKIiAAApDuqUIJCMkMi71nVVgFAbAZKy2gJk2mgoQK623gKUtDdUgLLa5slEXktoakUHSV17QGaYQyDX1GtQMsb3SlnTyKKIiAHiERc7TUNTt4qB/QYUowoz0cjAwGg5uljmexzERk+4aaNddtpvg/W22K+QvebqB+wwzYOn+qLCQP0MUBil2M6fLy+0wV77bLHLTl4zWnFe7uGg398TpERQBwkliUh1P9twfe8Ttw8A");
 
 export default CircleNodes;

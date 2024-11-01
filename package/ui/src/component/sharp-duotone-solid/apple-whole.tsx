@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `apple-whole` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apple-whole?s=sharp-duotone-solid apple-whole}
  * @preview ![apple-whole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/apple-whole.svg)
  */
-const AppleWhole: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M208 80l0 16 0 16 16 0 16 0c44.2 0 80-35.8 80-80l0-16 0-16L304 0 288 0c-44.2 0-80 35.8-80 80z" />
-        <path d="M112 128C35.7 128 0 211.7 0 288C0 416 80 512 160 512l64-16 64 16c80 0 160-96 160-224c0-76.3-35.7-160-112-160L224 160 112 128z" />
-    </Icon>
-);
+const AppleWhole = createIcon("apple-whole", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABaQAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBLAsIAAE2AiQDCgQgBYMtB1Ib0ATIjsQ4JvKLqCy0eHhYq70/M7tnuAwkcU/i1sQ6zRrNXNpBtEizev+f/n6e/7RPH/Dxd8/CBEmvWNX5BHY+382bJlTg0xna3jZMqBH6JURIIvoROmYnyOJQuluB5EDyHHv4fwDjh4Z2kyhLAUQNAAyeMmG825VRmcTz/+eJ58YhIIaAXCBFiiYC9JMKNJHJkckElcn/VMb/OQFEEX92CorI0AtDABlIhMiyRvUqClWzyRWF8hn320Wc9mHwneEjY3g8Gnpvyo4uJ0dMjMkzBFFRcantseYREeXl51sdbtLyaI2jv1o8X/zcmoE7b3GwXzLv1983/fcV0jGv38FbO9c0R/arNTUKrkayaHLUII8DgeDLs+l/5lTv97u0IgHfrvqO9/t/O24nR1EqAUHa7n87M+M2VGoAPyqJzVrGbbwWSDWSwGetYq8AoRwBEkXlAqQaqyFAplxbAQqa6S5AUbkJUpGVCXXMGiBRxTqQ6mELyNRxDhT08ygoqhNp/LCvz/7ekkZoaPiuvHOHTnmffNoQLiTovtk3X7ZabW4TreGoxdZYbaNFFlpmoyLXGx9vssoIjxjui3KdddBJro98u98enmyR9TZYZo3VtE1f+Xm/lc3+/NawnwTQ5eZzKZFEWjtplfY5rLXPxKm6Vkg6AAA=");
 
 export default AppleWhole;

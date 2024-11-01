@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cash-register` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cash-register?s=duotone cash-register}
  * @preview ![cash-register](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cash-register.svg)
  */
-const CashRegister: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 32l0 64c0 17.7 14.3 32 32 32l80 0 0 32 64 0 0-32 80 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L64 0C46.3 0 32 14.3 32 32zM80 64c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L96 80c-8.8 0-16-7.2-16-16zm8 176a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm48 80a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm48-80a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm48 80a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm48-80a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm48 80a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm48-80a24 24 0 1 0 48 0 24 24 0 1 0 -48 0z" />
-        <path d="M0 448l0-69.6c0-4.8 .4-9.6 1.1-14.4L23.8 214.4C28.5 183.1 55.4 160 87 160L425 160c31.6 0 58.5 23.1 63.3 54.4l22.7 149.6c.7 4.8 1.1 9.6 1.1 14.4l0 69.6c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64zm64-16c0 8.8 7.2 16 16 16l352 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 416c-8.8 0-16 7.2-16 16zm48-216a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm72 24a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm-24 56a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm120-56a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm-24 56a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm120-56a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm-24 56a24 24 0 1 0 0 48 24 24 0 1 0 0-48z" />
-    </Icon>
-);
+const CashRegister = createIcon("cash-register", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAAB6QAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTyEHAsIAAE2AiQDCgQgBYMtB1YbRAbIjpSuzlQ8PG/X17mv6qs1+kKNjAUdEYo2mmwZOa1FJqVdDv9Tp3KyQQL4Fsz5plzMd+eyhWsAzWkFyXkB/2Ip1zdWC1SjmnAH5008pFAcyi+Qx1fZTVpIj6cvca/zP4Dxiz43kXRkAGI0ANYfdXC3w2WUKb5sfkR8aRcCYgMoBDJkGBRglUxgUK5ALheUqZkymgsCiFbeCzPQik78jP8BOUg6dOT5hHqHF8yq1ZZ6fmT0xkqEuL7nqHhy6qvVetw5+eW+I+Jh4rFpr02qxSsz3ujf+nBXPR7teaS7Fg91HvVS7+OTXx14YsoRXK8m5kmlR0GPE67rerhaDREicd2dPY9GxPXdj1QqcUfnQ5Y/2lONh7se6qzEI90HBLOdHdWCTnhj9Bu/jf/yzC/Z4vm1tXY/bGljuPeA3uHG0gqstW2Lypgxz13nuZhTaSpPVjb65n6/v6trP6O39thl4qqm5quWVow8u84707jttsY+hXUK+9Si62KsZDeVzykbhbZ31x9p7t78eiAQ7Fl9wQsnjVr1X3s1gR8//uMf9kOah5P0BtolEGSzmrMcn0AiAAAprjQhnV9XF+rgfWrNIwKECgIkrSoCZAaMFiBXMVOAFsMWC9Cq4qBM5B1CpxNKkNRcAjJLXA1ynT4ELVb5pN6qM7Lr3r5q7b/Owlvq2OZTxfw584oVxeBA7lzKpj5cWcxOT7uSL0yHvs50kQtd7gynO8flNeZSu1tXuMCWMf7m7xbmm2OewgrF6vFtjyOd4VKXOUe/s96NlYr9i9NcOb5+OswlnuoCHpmMSJF1fU0Ss5+P+OxXaEVPT/B1AQAAAA==");
 
 export default CashRegister;

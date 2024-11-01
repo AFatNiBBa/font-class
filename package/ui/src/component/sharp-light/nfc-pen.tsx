@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc-pen` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-pen?s=sharp-light nfc-pen}
  * @preview ![nfc-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/nfc-pen.svg)
  */
-const NfcPen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M416 64L32 64l0 384 231.7 0-5 32L32 480 0 480l0-32L0 64 0 32l32 0 384 0 32 0 0 32 0 156.9-32 32L416 64zm-32 48l0 172.9-32 32L352 128l-112 0 0 82.7c18.6 6.6 32 24.4 32 45.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-98.7 0-16 16 0 144 0 16 0 0 16zM271.7 397.2L268.7 416 80 416l-16 0 0-16 0-288 0-16 16 0 64 0 16 0 0 32-16 0-48 0 0 256 188.9 0-13.2 13.2zM224 240a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm265.3 29.3L466.5 292 508 333.5l22.8-22.8-41.5-41.5zM334 424.5l-7.7 49.1 49.1-7.7L485.4 356.1l-41.5-41.5L334 424.5zM553.4 288.1L576 310.7l-22.6 22.6L390.7 496l-69.5 10.8L288 512l5.2-33.2L304 409.3 489.3 224l64.1 64.1z" />
-    </Icon>
-);
+const NfcPen = createIcon("nfc-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABiQAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCVgsGAAE2AiQDCAQgBYMtBy4bVAXIjtROecCViIfn9f77tU/ylDxk5DMSv4BOrCC1csc7RfMh1BdxcDtahAHgQcJGTtWeeKnxy63rudTUPsh5WDt7Nz6BxUe12s4VGs3OtYnidqc1zbGCg5KWsiTHox2vLZTxaczRQbo/tXBrvNL41SjXk5QFgGgAsPGIQ/Z676v4KqLVfqJlNwJiE8gCBQqMFWCNQmCsUkapFHwV7Tb9B2YCiE75ARMo0YNbcB+gBElXWY6ZMKKnpx5Sd/SVh9cd1Rm9fb0p6hgZVRVRRETdJ8SMiDnCjERUIZ4ed9/Qu6Y8M/ye0Y9Oj4ioa0eOHDNy36jF4G4cMfTwu4bePezeEfcMP2nG7BlrY3asOzRPztvjiJiNQ4+YOWvmjDi0YEtiQhxRc9CkF5oXfp/YOr3l0auu9kv7yQG+zdnVstzsYW1vt8+x7RgXOsSnTbH/swULPttfNJ+eotG0uWDsJPDebhpZqlsrh7e15j/0VX//V2R0jz0cGbc43f0PPHhhqst557mZjU9uPh3Oc5rHn7C1Utqg2uq117SBQHD4V4s2nTCw5v/uOoFv3vjzb+nk9ntpQ3oB3RIIijntOY5NG4DoAfgpLjdJ+aJAco0ueKm97hEgVAiQdKoEKIzRCFCqzBagw3hLBehUOUQhyh5hqOMGlfS6iCoscwVVGupFqsMa73udhqawScGihB9h6jYJb52XF85bkFflZa6LZsbx9Oq8rc+4PHTNhFqnu8D5LnWaU53lUoFebG94mfNs05CtfihbaJ4FslXyceNZPRyxi13iLO3881lWy/fdGS7XB8+ExSTAotcEUkWkrvNPP2XuhaedDw==");
 
 export default NfcPen;

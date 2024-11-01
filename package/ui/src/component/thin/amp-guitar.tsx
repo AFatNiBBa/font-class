@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `amp-guitar` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/amp-guitar?s=thin amp-guitar}
  * @preview ![amp-guitar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/amp-guitar.svg)
  */
-const AmpGuitar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-43 0-82.8 25.6-111.2 49.9c-14.3 12.3-26.1 24.6-34.3 33.8c-4.1 4.6-7.3 8.4-9.5 11.2c-.3 .4-.6 .8-.9 1.2L64 96C28.7 96 0 124.7 0 160l0 96 0 8 0 8L0 448c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-176 0-8 0-8 0-96c0-35.3-28.7-64-64-64l-36.1 0c-.3-.4-.6-.7-.9-1.2c-2.2-2.7-5.4-6.6-9.5-11.2c-8.2-9.2-19.9-21.5-34.3-33.8C338.8 25.6 299 0 256 0zM407.9 112l.2 0 39.9 0c26.5 0 48 21.5 48 48l0 96L16 256l0-96c0-26.5 21.5-48 48-48l343.9 0zM391 96L121 96c.5-.5 1-1.1 1.5-1.7c7.8-8.8 19.1-20.5 32.7-32.2C182.8 38.4 219 16 256 16s73.2 22.4 100.8 46.1c13.7 11.7 24.9 23.4 32.7 32.2c.5 .6 1 1.1 1.5 1.7zM496 448c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-176 480 0 0 176zM112 336a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm0 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm16-32a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48-64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM160 448a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48-64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm16-32a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm16-32a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48-64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM288 448a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm48-64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm-16-64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm-48 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM80 192a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm112-32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const AmpGuitar = createIcon("amp-guitar", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAACUQAAALbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKiQSGegsGAAE2AiQDCAQgBYMtBzEbewfIjpQuZyTBP/9rVvf9qqYwdNcwowPAZAjIAQlFOWNp1epUiP78X46vsbwX0P93gr3TUPbEzhubwrGmQAJ7YtTreUAFOsU8w7Yh5veioSLr7IGtF8ykBMwx8xnYVw3Xb5JsBoNlUXEU4D7pNmbEIN4WVJA+Fx+BPjMAEIC6A+AgwAIsIIMA6IiFgAw2DmBjIyioWCz+Ax0QAKgUl2VYZQNVoAOg04APB0PWtrtFE6EKVx0Ore4Srz06ne6a8LCmdLHu1cjhyAYdlmu3JJA36Fi9a7W8utLgRlpB4PH612u7tEE51xDL7eddbj1KkluXokeSyCPpRDxfx1vb4/VsiLvyvNr16lypc6nWpXrXout1ROOORqTDNT26HMulJK+YnosdjhyJ5uMs8rQvDrQ9AH+kjJ+3URq0Vumre/gj5dMXxpHonrmYe0NMyrl2Rg6zPnrEvSueVx8qn4tlV1zKKygqxBidy1W/Hrj+1+fZnym+4TV87T789ewaADU5Gwy6plJOOXdx7aaz64F8lzz1xjUBqDH66/DuX1+TXwLUpem3L9ZUCkzF+vKt6Vi/z+cDeNWs26mTd++ePNWt2ysBc6ew9BCr1gsjd/3vrlviKxR8vXbqoi5GfE9bhPL+JaFMoN7+ITqRIUMTK7ohHqapbzts123vg/JI9EYsqXJ/BwACBBH5Kqb4O/5f7jYA/Hr+33lo8a3BXAfKMdVqq2GxIRMNAAZEI76+Iq2mugEQYLSDLC7hIafrEi7YgaEUF7BIEwA2LhqAEippJZQcPAIL2RWICJNcYPCwDFi0Zg2wifAAlNCRd/ZSIrLuUvE9Jv5HTtH7TO7Vy2nWuKnT3mEGrZIbT5gXd3CkDXVXQ1I9dyKzWcJiVjKLmcxj5Ym9nEGuVSyiN4+713MdmtGYpji0x9GOjIrRvn05K5hHl+l30wHHPlGX1fzM9VyzoeHZnL4GAzKuaYuWNvqMAQAAAA==");
 
 export default AmpGuitar;

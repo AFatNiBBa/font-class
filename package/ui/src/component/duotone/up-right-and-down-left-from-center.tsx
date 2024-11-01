@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-right-and-down-left-from-center` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-right-and-down-left-from-center?s=duotone up-right-and-down-left-from-center}
  * @preview ![up-right-and-down-left-from-center](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/up-right-and-down-left-from-center.svg)
  */
-const UpRightAndDownLeftFromCenter: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 344L0 488c0 13.3 10.7 24 24 24l144 0c9.7 0 18.5-5.8 22.2-14.8s1.7-19.3-5.2-26.2l-39-39 87-87c4.7-4.7 7-10.8 7-17s-2.3-12.3-7-17l-32-32c-4.7-4.7-10.8-7-17-7s-12.3 2.3-17 7l-87 87L41 327c-6.9-6.9-17.2-8.9-26.2-5.2S0 334.3 0 344z" />
-        <path d="M488 0L344 0c-9.7 0-18.5 5.8-22.2 14.8s-1.7 19.3 5.2 26.2l39 39-87 87c-9.4 9.4-9.4 24.6 0 33.9l32 32c9.4 9.4 24.6 9.4 33.9 0l87-87 39 39c6.9 6.9 17.2 8.9 26.2 5.2s14.8-12.5 14.8-22.2l0-144c0-13.3-10.7-24-24-24z" />
-    </Icon>
-);
+const UpRightAndDownLeftFromCenter = createIcon("up-right-and-down-left-from-center", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfQAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBSwsIAAE2AiQDCgQgBYMtB4EAGx0FyJ4FTtk8glPp6ggtNGvxw3zy0Cue59vvf/vMzLNvilvShCcqHmmP7CHRzULUlH5CKt5YJBb5+h9j833MK+0fSUQaJEiiMmtruy4ayjyat1VCXFsyKwY25Nk7/KlTzzMtFMAH8MxJoYAs8DnPI5Dz4PZ4hSpU0wJIhbm7s12KLJeSljDJcdk4HsfjgZaP9b4e5VUBHuD/AOYPvT2KUQWQOQBw9lomjZ+/fC9Z6x7ImhQI5BxgG0JFxSYEThAKNhHZBpomfBd0HXynrmMIkD78cRX00XAeXADQQBFpbcsOpXi6XZ0UT9yYUE48XTpejlE25+tNdLG3QLGcrJ6tEr3eQ4hXu5X0YvVsJU6FnKUVM51OvJSleE6XjpcMt3O3f7cb8/+N12p3Y/mrWK87TE9fvYq+m99fZh9avoBhk4rOPobfn1CMO8uy8LcvrwNB+Prch+uz0f/DyQJ+vu2f/yLpforyBkMFhHqos6oWQCEAgJJ7DAUZIah2EAjvOuW5gJhAQNE3IaDaSIdAM+EgAj1b+BDom3CJUNpILKllUEy5CarjdkGz5B70nPDr9S1FqE6cMnCvueQkhRJL7LI7OczNSOI1hHHTCA/bxh1TMcEt+hbmtvR0jWwRckM63DaT7BEJH8Rc7JxYGE+nl3KeeBs2jeri/JwIXu8a7fTbTbCOAHB4IzYqKakH7i5Po2drzbs2RWPvm2ITQc0m3Lrtk8ry8kTZBAAAAA==");
 
 export default UpRightAndDownLeftFromCenter;

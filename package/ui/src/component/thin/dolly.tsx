@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dolly` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dolly?s=thin dolly}
  * @preview ![dolly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dolly.svg)
  */
-const Dolly: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8l88.5 0c10.5 0 19.7 6.8 22.9 16.8L231.5 388.9C208.3 398.5 192 421.3 192 448c0 35.3 28.7 64 64 64s64-28.7 64-64c0-6.4-.9-12.6-2.7-18.5l253.1-77.9c4.2-1.3 6.6-5.8 5.3-10s-5.8-6.6-10-5.3L310.7 414.8C299.5 396.3 279.2 384 256 384c-3.1 0-6.1 .2-9 .6L134.7 28C129.4 11.3 114 0 96.5 0L8 0zM256 400a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM356.7 164.1c1.3 4.2 5.8 6.6 10 5.3s6.6-5.8 5.3-10l-16.4-53.5 68.9-21.1c8.5-2.6 17.4 2.2 20 10.6l46.8 153c2.6 8.5-2.2 17.4-10.6 20l-153 46.8c-8.5 2.6-17.4-2.2-20-10.6l-46.8-153c-2.6-8.5 2.2-17.4 10.6-20l68.9-21 16.4 53.5zm-111.1-7.8l46.8 153c5.2 16.9 23.1 26.4 40 21.2l153-46.8c16.9-5.2 26.4-23.1 21.2-40l-46.8-153c-5.2-16.9-23.1-26.4-40-21.2l-153 46.8c-16.9 5.2-26.4 23.1-21.2 40z" />
-    </Icon>
-);
+const Dolly = createIcon("dolly", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABhgAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCLgsGAAE2AiQDCAQgBYMtBywbKgVRlMvJEtnPA9tZGlZYNwU/Hv2iyLTRKHG8iQf+7f79fc5MAE8AqXMlVa8O6CorXfJB3oFtIypWxeq1Sn3P64a+2nvbBqXr9zKgqnL6e3f+z/8GfEYfaWybU2fhGPM8gUTzcFpAWWCZJmAdzXthEEO7UMcLpOGtOfIRj8VX2ON9aPhGJduIkgRAKAmAnuNHD3XvQx+G8Cp3mfDKYAQIvUAmIEGCqgLoIhFQVSpDKhX4MORy4j8wIwAhv+DJEaTIj9XYDUhBlKZp0Yi1LBotlo4zDYUnj8qk0iB7/tldGYEt+QSv7GdftcGizUrr29yUiz2kzg9zM1b/ae32EQ3rU6oLLkjVziTrRq03620n7wvd1amSl2l6gD3hKaMyqu5X+P6dV/NeWaPA3RnknzHRj9NXzFb+7NmyhUuVysuLry1cuP6/Q83KX2/G/8M0aZmvxfI5jp+b+J68z69e/TxPPmFO9WaOLPCrPmW9ntL0qGaPjjbz8ZBmRzV707usdFkByoTpEH0wmj6aNKmJpFvYw6NNX9EFCAgc+KjngukluvxWkI7g4xs//C3/FeXuxZ7xBAqKIJA0yTUxJfYgl4s9BQBADOvUij0QEC2WCt61qMMCCAojgCi/wgJIVFFSAKnCGgsgn+raCiC/wkZLhLSQoKypNYiKWgkS7WwFqbIugny6eJrlVzYk8MdBD3f1l9yvDfU9lbVs1iLrlE0OlDxIMfawc7ZabbBOLjTEZ82z3DJrzDXHQmta5CpDy7WW6jcH9/VFmZaaaSHTSbZ7fF8e13JWWS2ZcXH/MZ1l54cNrJtf3xAbUUDZSlcUCTHfzwKUjQ==");
 
 export default Dolly;

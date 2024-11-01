@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signal-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-slash?s=regular signal-slash}
  * @preview ![signal-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/signal-slash.svg)
  */
-const SignalSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L600 445l0-421c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 383.3-80-62.7L472 120c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 187-80-62.7 0-28.3c0-13.3-10.7-24-24-24c-10.4 0-19.2 6.6-22.6 15.8L38.8 5.1zM576 512l-.2 0 .5 0-.2 0zM472 488l0-20.1-48-37.8 0 57.9c0 13.3 10.7 24 24 24s24-10.7 24-24zM344 367l-48-37.8L296 488c0 13.3 10.7 24 24 24s24-10.7 24-24l0-121zM192 288c-13.3 0-24 10.7-24 24l0 176c0 13.3 10.7 24 24 24s24-10.7 24-24l0-176c0-13.3-10.7-24-24-24zM64 384c-13.3 0-24 10.7-24 24l0 80c0 13.3 10.7 24 24 24s24-10.7 24-24l0-80c0-13.3-10.7-24-24-24z" />
-    </Icon>
-);
+const SignalSlash = createIcon("signal-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABewAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCEQsGAAE2AiQDCAQgBYMtBzMbFAXIHolxTMo2CfUieN7u8efc3QDeAHaZVG7jivwVWLRUBb/6rK/c/Ilr6rd+A30TP1qsLDHKojUieAI7nzdlEAxsojjfbT2vKPxXFEREcA6xXbiyC+kOkMc/cV4Z0uX0Ec6lL40fNXCKpEwGIKoDYPjcmZO9/Sw+i/iw9Ij40EQExHBQCGTI0FiAQTKBxnIFcrngsyiVzH9gQQBRFn08gRzlsQ67ATlIyuZ5u3KVK1WpUqlMlXyO27/iwhu1L9XZHtfrXa3bIbK40uZa/RRzIhomXHvF9qCtc0IMCXG59c1Gc4YMHgJ7zJEZ0GLbrLxLizvV7/zc/KM1H2nzvOOv9/+f+qm64VvX1Zk+vc5RUwf7PAAvyCEaZ1sSH9T/GxFr69X2/GbAJrfvtyn2X5wyvc5do9iPLrXgNAOvA4HgnVaHRy6tNui38pUS+OL5r7/jytKSdDbdQXkJBFmnUieL0jEGOFE8cCj2aIF5CiTLvD2usgsiHirShaSsikKmkepCrqKOQhlN9daEW2bKRF5BqG0xCEll24VMH4eFXG0PhDIGeTdSVu3IFM5QF+N/L9uYER49q+jepVsxoFiWNJMOaX50YCF2tNtjW9pjpTW22mKX1VZZb9fA7jA5vttmYzh8tB8qdNdFN4UBiuPq8+I5Vtthp/W22hKnGai4721nD9+9PdwJqfaQkyQiVf6WMjrv3LR85zo=");
 
 export default SignalSlash;

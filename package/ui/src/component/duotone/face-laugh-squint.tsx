@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-laugh-squint` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-squint?s=duotone face-laugh-squint}
  * @preview ![face-laugh-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-laugh-squint.svg)
  */
-const FaceLaughSquint: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm96.8 58.1c-3.8-13.7 7.4-26.1 21.6-26.1l275.2 0c14.2 0 25.5 12.4 21.6 26.1C396.2 382 332.1 432 256 432s-140.2-50-159.2-117.9zM116 125.1c0-9 9.6-14.7 17.5-10.5c30 16 59.9 32 89.9 47.9c10.7 5.7 10.7 21.1 0 26.8c-30 16-59.9 32-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6c12-14.4 24-28.8 36-43.2c-12-14.4-24-28.8-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6zm172.6 37.4c30-16 59.9-32 89.9-47.9c7.9-4.2 17.5 1.5 17.5 10.5c0 2.8-1 5.5-2.8 7.6c-12 14.4-24 28.8-36 43.2c12 14.4 24 28.8 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5c-30-16-59.9-32-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8z" />
-        <path d="M116 125.1c0-9 9.6-14.7 17.5-10.5l89.9 47.9c10.7 5.7 10.7 21.1 0 26.8l-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6l36-43.2-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6zm280 0c0 2.8-1 5.5-2.8 7.6l-36 43.2 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5l-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8l89.9-47.9c7.9-4.2 17.5 1.5 17.5 10.5z" />
-    </Icon>
-);
+const FaceLaughSquint = createIcon("face-laugh-squint", true, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABvAAAAKsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDIgsIAAE2AiQDCgQgBYMtB14b0gXIBuJ5u6re7165Z8G+WRiRfeTsZgcpIxArFOL5436e//NP7c/oo0RjadSiQEaZ5xMYcAe1wARnOgPb4LzBBxXKENKvQJc32hIcQO1Uz4D14f8AyleCWAIKFw0AAPEGAADKO1rquPVRPip5Zj8H8oxaQACkAgATATRAA0IRAIrQECAUHRPQ0RH4qOx2+Ch2uwkCAOJI+KEaAI6AM3ACuAEA6AAoFLquhwSFWCIi3Rw89HY3B9eehQEi2y1tspUFRqts8d8mCwNKpUS2iccCo0iKZ+kt/u2idey7dSvyvlzkdt1zt9UNLyvvdnyouFP/wnVV7bOyW61t2+7y3DxkdTjF2FV0qepBwQ1rx/PBVsvlfB5tMS7lcfJo4pEEvW37mn61kAs+i7St+8QPg23+Vwr46dYj3ke+j3o2/hlzKpyaoWJ0ZypzXJxt5brRFc1ODtYCCojUA/VIvtrq4NRc0dyVis3ZxdaVQvP6Cdyi2gWCzt6urLx9NsiF6mEhu3owP2E8dLgZuHWMT/iy6+SGDSd3ffG99law/7wIjfZfQChpWCxG3rHoA+dBvB9P6ZGrVq6K2Vz8Wjt/nPfeBwABBIo9+TzgVfTf2U0B8PnKz7/VDwn7LYU6AjijABDQkuxJ9CoAFAgAAACgZASrAhsggMZsdOJd7mxDABBcoQOFI66gEYI36LiSCA6Ek80f1FoOkaK7YBv0IVC4Mws0cpgLOgZnwYEiHqYdMUTTuqLGE38c02qGSPUoMz0lzSwwVwsaSTfy3mCheViPG+EN8XAl45nBdGyMYyyTsA2w2dTlhplGzRZazRcxSSeFNEwKMC+Xn2rtg/Rs5jBpWbk+TCHm83YcI9vt46GliBkzGKOhgSjRghzGjuSpQ8MTJibPmTU8abot2R20CVlUTD0AAA==");
 
 export default FaceLaughSquint;

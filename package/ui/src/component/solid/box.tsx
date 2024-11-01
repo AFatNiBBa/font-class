@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box?s=solid box}
  * @preview ![box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/box.svg)
  */
-const Box: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M50.7 58.5L0 160l208 0 0-128L93.7 32C75.5 32 58.9 42.3 50.7 58.5zM240 160l208 0L397.3 58.5C389.1 42.3 372.5 32 354.3 32L240 32l0 128zm208 32L0 192 0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-224z" />
-    </Icon>
-);
+const Box = createIcon("box", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABVQAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBGwsGAAE2AiQDCAQgBYMtByoblQTIrgqMbUbaD9GhUnGRRyNcPMz8xx+3ehgP/+1n3jczP4vAQqORpMy6LTgVXxI2p7anQseqNesJgozbimLSgIrggdk4RPnu2RHIuDPmdfqLEJhZAwSIEU6z2vf8CMGf/uafdx4F+IxCGRsXLR3LHzbXeQKJdXngAY2/wL7pF7D/tqFQjig8DSkJkojGCsfrtEOJ7ayK9C0NPsqHxj86WyRtGQDRCwC4e85m8MwRF/TRjPghBQLiDjCLkJExicAlvsAkgVlQFEGDms34HzgLAUQN/CIJFFTYBecACkhyESjkWnmlFBQ6Kln1oZiTB5GMTkbz8nZ5Ib4vywKPnV0KxLe1yyVlnG9cT9D8Ve/V//aT6/tdAf615t1z414IJHoYjecJa38EMAdZn/bg1kE9RNYACARn++tFffnf2sED/L199CtqNnpOV2iVQJA3m5tqUQeijgAAKWboq4NAsooPz9rpU4DQjgBJTbsA2QQNAkW7DQQq07wI1LS7xxdFijCo3kDS6Q1kx5ZBMegGVC69eDWDZa9h7px5tCVGNRJZYns2BwuxaURYR6DSNMyWpdUZqhhhEz1GjZjSrUu/KYVNyITThkUtNOKLGCcbByaEbaeP6wXdJkzqN2okzwlj502DGbvdCCoP4+6zkuTzYK3jZQ4=");
 
 export default Box;

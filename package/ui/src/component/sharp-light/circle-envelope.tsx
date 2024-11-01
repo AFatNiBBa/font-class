@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-envelope` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-envelope?s=sharp-light circle-envelope}
  * @preview ![circle-envelope](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/circle-envelope.svg)
  */
-const CircleEnvelope: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm160-96l192 0 32 0 0 32 0 128 0 32-32 0-192 0-32 0 0-32 0-128 0-32 32 0zm192 48.2l0-16.2-192 0 0 16.2 96 47.4 96-47.4zm0 35.7l-88.9 43.9-7.1 3.5-7.1-3.5L160 243.9l0 76.1 192 0 0-76.1z" />
-    </Icon>
-);
+const CircleEnvelope = createIcon("circle-envelope", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABewAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCGQsGAAE2AiQDCAQgBYMtBzYbHwXIjtRG9VO2xMPzdl+d+6p+o2qMGoMLMHKmSGFHg2z5u9cKB+laxVk7/9d8fmlHB/jtyA4lGjP1bqkR8XwCEyovnchoA5vpBGzWzt7LD6LbJCQkGcYfNuUKebwYY9VIT6f38Xj80Phabw+S5BmA6ASARTu2rFO/GBcj3v8/8b41CIjFoBLIkKGfAHNlAv3kKuRywcX4/3/3H1gRQDTAeyaQoxFX4A5ADpJanvft27XsWNba59vLWnHk+ckR51a/Wzy08u2JZ6rnJp1d9U758Jr3ppwf0u6rJRGvbfiofHjdB4tat32+sL72/eKh9R8ubtu+oyxKIURRBPRyW+WGSE/cYeuOrd2iR2wPUUYMbunU8u2g94+/78Kr7dr4dP66OXPWzf+0rZ3vcZcvWtZM7/OtS5a0nu/dbFnoNUefOVCvX6zcq1Il99UJnVBX18mBCeIP3TnG4ocxnFmrHiggHjv+l7UHOs79talM4PIL3/+IfkX/15PUgiYJBNnY/8fam0AiAAApbjY4QSA5ogav2s4TAoQCAZIGhQCZvjoJkCuMEaBmgGkCNChskYm8WehmXwFJO9eBzHR3gVw350HNXG/lDbpFpnSCyghvvtTlLbTsUDVp/MRqdjXtyaIecX53TrWtjbxZZkbRRcdd42o3OuaoU25syOutK9/kKstXxDJfVJlkvIkqs1XHw3t1O7vXu0G4sXy+zxzV/Wikm9fLR5GZgHaytiQRqePfnMZxx66++diV11x7DAA=");
 
 export default CircleEnvelope;

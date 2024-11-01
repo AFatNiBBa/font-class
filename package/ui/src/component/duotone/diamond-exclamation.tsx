@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diamond-exclamation` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamond-exclamation?s=duotone diamond-exclamation}
  * @preview ![diamond-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/diamond-exclamation.svg)
  */
-const DiamondExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256c0 10.2 3.9 20.5 11.7 28.3l216 216c15.6 15.6 40.9 15.6 56.6 0l216-216c15.6-15.6 15.6-40.9 0-56.6l-216-216C276.5 3.9 266.2 0 256 0s-20.5 3.9-28.3 11.7l-216 216C3.9 235.5 0 245.8 0 256zm288 96a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM232 152c0-13.3 10.7-24 24-24s24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-112z" />
-        <path d="M280 152c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112zM256 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const DiamondExclamation = createIcon("diamond-exclamation", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABhgAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBfwsIAAE2AiQDCgQgBYMtB2IbMwUjEaZyL0n2j8TYWHnjszGdNtqmQeCoJ5ZgeeKIhCxZPomH/1/73z7n3jdfxIDKr5hmSKark7zRtNEsVKp580RIs6hkks1P+/PeIN7IqPh/G5ztvDVVqM65LK2/rt/nTZ16nvNQAN8jHpQ9NSDLg3N0aQXq5elrilSopjWwLpvD5GIaGiOkt++hxo9yU498lN9xL/ofwPhlwU3SQAEQ4wA4cOLIYR/baDO+d0+J7w4hIA6CDQIFBcsC7FYEllUbUFVBm11HG123gQCiEb2/gAZ9uICLgApSKrUOZ6VqKY9L59OK0fmc5tV+VyG42F5ayO+UACdYKY6crWyPlvIDF5BeAIkvQiWzCDKUhz0qL2VA8AF+Dl/SladNnNyKijfHQ43gbH1qwPwVff+m743vlA55JiMfoRKl/AnWxtwdjYjlfRx/o96M6xlGTo9v+/Tc60Ag+FPiLxHu/t3PTfDzddc/JN3HlI/RL0FQ1rt1ZxMkAQDIuG5T0iJQbFcknzrsvgBhEAFSY1CAYsm4ANWgzQL0rNoiQGPQEUXUAWHauR6kYZdAsdUNUE17Anp2++Q2ttNRAI0GE/o7L4EcQ8QiHPIHcQRvRloGdkg7HsWnDedCVlx4B2oYGpipq2nX+AiZSARzfeQeTPgiLMQvCIvAt9Pnm4vqJqbahgbhPFH4fcdpsd/uwjZFghm2gqoACVSt5676/mGBt5TvUXzutlW/zjlTAAAA");
 
 export default DiamondExclamation;

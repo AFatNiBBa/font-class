@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sword-laser` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sword-laser?s=thin sword-laser}
  * @preview ![sword-laser](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sword-laser.svg)
  */
-const SwordLaser: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M287.5 294.9L504.8 48.2c4.7-5.3 7.2-12.1 7.2-19.2c0-16-13-29-29-29c-7.1 0-13.9 2.6-19.2 7.2L217.1 224.5l11.3 11.3L474.3 19.3c2.4-2.1 5.4-3.3 8.6-3.3c7.2 0 13 5.8 13 13c0 3.2-1.2 6.2-3.3 8.6L276.1 283.6l11.3 11.3zM181.7 234.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3L180.7 256 112 324.7l-2.3-2.3c-3.1-3.1-8.2-3.1-11.3 0L13.7 407C4.9 415.8 0 427.6 0 440s4.9 24.2 13.7 33L39 498.3c8.7 8.7 20.6 13.7 33 13.7s24.2-4.9 33-13.7l84.7-84.7c3.1-3.1 3.1-8.2 0-11.3l-2.3-2.3L256 331.3l10.3 10.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-16-16-64-64-16-16zm10.3 33L244.7 320 216 348.7l-2.3-2.3-48-48-2.3-2.3L192 267.3zM123.3 336L152 307.3l2.3 2.3 48 48 2.3 2.3L176 388.7 123.3 336zM25 418.3l79-79 2.3 2.3 64 64 2.3 2.3-79 79c-5.7 5.7-13.5 9-21.7 9s-15.9-3.2-21.7-9L25 461.7c-5.7-5.7-9-13.5-9-21.7s3.2-15.9 9-21.7z" />
-    </Icon>
-);
+const SwordLaser = createIcon("sword-laser", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiAAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCRgsGAAE2AiQDCAQgBYMtBzIbSAXILgLjRr5EzYKLtYYsPrKo8+pDFP0RQrBWZmbhAdCxQgXo3rHkgq2qbIUjEPaErNAnXMu2uvqMGHP/U8dE29ZUE25JpeKhsYREb37dG6GOugyx18+F2neV3R5+EvQNUMMQE3wCzf/l+G7bbcDvJ34oY9tqbVqLiuYU6HmgYdrLC3hZYJkmYC1uuwoiGtoIkSuUcYMHYvLLeMer8KHxz4QNUlEAIPoBAAdXbisef8fviPdWRNMJCIhDAPOIAgWmEWwTCkwTmQelUvA7Wi3xHzgPAUSN5HESlGjDC/AeUIJUlaKMSrU6WSlWi3zKStHj9/iPY1VHubc8MUI/P/GwVvpm38fhg0qiIEcplyfe4+VIGQ+5731PyacKIzw07XJxNMt56iw1TncurvCslFYksYvFUro8flFIopOPXPw+91TOo1h1fmzGvmZ/09znDt/tie6FnW7l/P/T8L+tVRcUF3zENZ5uu8+ams5xfAwDd9Lpwe/Q0O9OGfOcYRnOg87kzktI3XOcxN8NEoZ3GRu24vjWacP6RCYd2OlR7+zydoBAsPDt7+Faux1vJwD8/fryZ6R1UzZAuwRBsZpYFUmQBAAgYx75CQTSc2LJu3b7KEDoRIBU6xSgMEWHoNRpBUFlVhOCWqczQlHKEYZFKUjdnoHClkVQGnYNKtueyrXhEMKiDkn6n2COZYyYj+XWVdfmtudu9rUGeKl2vyP3tFc6L+fK8Fn0mzBuVp9eQ2ZHwjRrbc4Yyx5l9kW56lSrlatd7u3Rc8dH5bIwY8i6cf8QHXLfT5ea319dhkMCieSa3pREKmc+1raq0duZvmkA");
 
 export default SwordLaser;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spoon` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spoon?s=thin spoon}
  * @preview ![spoon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/spoon.svg)
  */
-const Spoon: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M263.4 216.6l32 32c15.6 15.6 36 23.4 56.4 23.4c33.8 0 69.7-20.5 97.8-54.2c28-33.5 46.3-78 46.3-121.8c0-44.2-35.8-80-80-80c-43.7 0-88.2 18.3-121.8 46.3C260.5 90.5 240 126.4 240 160.2c0 20.4 7.8 40.8 23.4 56.4zm-11.3 11.3c-18.7-18.7-28.1-43.2-28.1-67.7C224 80 320 0 416 0c53 0 96 43 96 96c0 96-80 192-160.2 192c-24.5 0-49-9.4-67.7-28.1l-10.3-10.3L13.7 509.7c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L262.5 238.2l-10.3-10.3z" />
-    </Icon>
-);
+const Spoon = createIcon("spoon", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABZQAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBNgsGAAE2AiQDCAQgBYMtBywbsgTIHoexG/qZc+2NMEjwfF/3ee7r7j+AXuKBtQqMncQOqEHtY62yG+R/LUyF6E+dep5poQC+UdDGpqUBGRNozvPRFqxivXgXScBqBfaq1LrpfmnI5dfkRC/JHj+s3YEpNxmJBWqHagDWtUPJL0JYDArDAABAvAEAgOI+Peq5917eizS0D9JALSAAUgKARgADO+EIAHkYCHoHJhowMRF4L+34H6hBAEAc+G+hADABEygCKgAAEwCFMs1g7WZ5mL3dLNcR0THRJ9yelp4M2yV7Y+yMlZ0Pd2/Q86P9bdmXeDb3ZuXRJyL2x53Kupa2MiZQRsrmwK1BYySwo+1t/9EwugHH13btS3Xxw+o7zWR0L+8OLb825/nrsfbtrs6HLl45ynzbdmb8hNyc+V1f7cAw6NEjPd00OAEAAggU7RzUEK+8/85uCoCPN/7lm9ra7yiUDTijABAw4trjGKgIcLhEwGwls+mIDxJAkYUCR3VnKwKA4AoIAAoHrggABmF4IwCYuBKLAGARSToCgANXemAgpguCP4MGULgzDRhkMAeY+HMRWOTx1HLgL0YOsRnA/uCSKhQqv6aTE5J0jl7GOpcWdJ3n6m21++xSi8Yuo5nCZGYyipGMY6aQ06l3ZzGJiogo54tokkkgCU0O+jh7vt2bUUxnBuOYwmQuyUXfN7szO+6OhqFwyhQU9QRRZc2YOmXKZA==");
 
 export default Spoon;

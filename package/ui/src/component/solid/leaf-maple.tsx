@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `leaf-maple` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leaf-maple?s=solid leaf-maple}
  * @preview ![leaf-maple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/leaf-maple.svg)
  */
-const LeafMaple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M339.8 7.5l15.8 31.6c7.1 14.2 23.6 21.1 38.7 16l67.6-22.5c1.4-.5 2.9-.7 4.4-.7c7.6 0 13.8 6.2 13.8 13.8c0 1.5-.2 2.9-.7 4.4l-22.5 67.6c-5 15.1 1.8 31.6 16 38.7l31.6 15.8c4.6 2.3 7.5 7 7.5 12.2c0 4.7-2.4 9.1-6.4 11.6l-97.9 61.2c-6.8 4.3-3.8 14.8 4.2 14.8l38.3 0c7.6 0 13.8 6.2 13.8 13.8c0 1.5-.2 2.9-.7 4.4l-8.5 25.5c-4.1 12.3-.3 25.9 9.5 34.4l34.3 29.4c3.4 2.9 5.4 7.2 5.4 11.7c0 5.5-3 10.6-7.8 13.4l-28.9 16.5c-11.6 6.6-17.9 19.8-15.7 33l4.2 25.1c.1 .6 .2 1.3 .2 1.9c0 7.6-7.2 13.2-14.6 11.2l-155-40.4c-8.2-2.1-16.6 2.4-19.2 10.4l-8.5 25.4c-1.7 5-6.3 8.4-11.6 8.4c-4.4 0-8.5-2.4-10.7-6.3l-53-95.3L73 505c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239.3 270.8c3.6-6.1 2.7-14.1-2.5-19.4c-6.2-6.2-16.4-6.2-22.6 0l-84 84L22.3 275.5c-3.9-2.2-6.3-6.2-6.3-10.7c0-5.3 3.4-9.9 8.4-11.6l25.4-8.5c8-2.7 12.5-11.1 10.4-19.2L19.8 70.6C17.9 63.2 23.4 56 31 56c.6 0 1.3 .1 1.9 .2L58 60.3c13.2 2.2 26.4-4.1 33-15.7l16.5-28.9C110.3 11 115.4 8 120.9 8c4.5 0 8.8 2 11.7 5.4L162 47.7c8.5 9.9 22.1 13.6 34.4 9.5l25.5-8.5c1.4-.5 2.9-.7 4.4-.7c7.6 0 13.8 6.2 13.8 13.8l0 38.3c0 8 10.5 11.1 14.8 4.2L316 6.4c2.5-4 6.9-6.4 11.6-6.4c5.2 0 9.9 2.9 12.2 7.5z" />
-    </Icon>
-);
+const LeafMaple = createIcon("leaf-maple", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABjgAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCUgsGAAE2AiQDCAQgBYMtBzEbUwXIjtMd80CnYNUInrf7rzq3ewD3iHwjKiLjcSatEURMGW26H0Hd+l2d6fEQFAmAUA4hNY75v5zesE0H+I0Oaa/W0kVtm1Og5wFeWVwUyPIssEwTsN6mGZFHFEJHSEi4CNl2DzzeXSGPd/20cqTb8T0utg+NPzVymqRSBiBqAmDkvNJUH/8Wv0V8V/aC+M5kBMRIUAhkyNBUgCEygaZyBXK54LcoK8v/gQUBRHmEJS/OkeEMbgNykESen8xy1fK5VcpVXteocaPb7efFzbxex+vOjltX27iO3Wu1+FVCgRriNfB4m7i7NYrjrtWfGzcwdW05w+rs2HXfaTIvbq43LJxaaidme8HxBfNslbZxb+8cN/NsdY3rT/tXXNEz1xvMU6JbPa75+O/j+7XfK736n2798h1dT834uGqKeqOt3/yvXRUrllYMMTqvO6Od+qgDSn93MaZCpd0/aXIOENH0kzvtfbLogPajQt8+S23Zolq1n3/+6isL9z98XSrZNEjptGPnTV90bX9b6ow4ZdSTqvpD3ZhP/dL35nMR7ZQbOaLPkBX6hjv0BwLB85HfTF9WY8h/Fask8Mfbf7/xM6r5v0nSY1SUQJB1KeticaImiQAApNirVVBTIDkpoXet6oYAoTICJOVVFiDTRE0BcpV1FqCc5voKUF5lJZnIKwl1LZkgqWoHyPRzBOTqegbKGeKrcnl1W+aRoj+J/4Np4yQ69lDRs1uPYlBx2cOSk/Fld3Bx7HXYizMd4ay1ttlqtzVW22C3YHaaWttji3E7eqwvKvTUTQ+FQQrz8FWbK1I77UJel+z7GKy4P9fB3v3yjhAmxNqLkT7ByVR585oVa7tuWbF98xoA");
 
 export default LeafMaple;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-8` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-8?s=sharp-regular circle-8}
  * @preview ![circle-8](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/circle-8.svg)
  */
-const Circle_8: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM264 128c39.8 0 72 32.2 72 72c0 15.7-5 30.1-13.5 42c18 14.7 29.5 37 29.5 62c0 44.2-35.8 80-80 80l-32 0c-44.2 0-80-35.8-80-80c0-25 11.5-47.4 29.5-62C181 230.1 176 215.7 176 200c0-39.8 32.2-72 72-72l16 0zm-16 96s0 0 0 0l16 0s0 0 0 0c13.2 0 24-10.8 24-24s-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24s10.7 24 24 24zm16 48l-16 0-8 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-8 0z" />
-    </Icon>
-);
+const Circle_8 = createIcon("circle-8", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABjwAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCUQsGAAE2AiQDCAQgBYMtBy8bUAVRlO5Fi+xnQqYy2GOxhFJExKG2Y4dg5skmOxYPf/leBN/v99tz3n2oJO+QNHloYpGQfTpJPVRCJUQogaEyRPL/vzH3/+Z3U0wPc02Q3JpYgqpudaHwKIj/UlycOvU856EAvlHQxsI1QRbgXucRiFguHvDJtYLVtAJWl+o28VlHFT4dIhIoER2nxxe0Q4mPuFWTb/kF3Iw3jV+62kl1BSB6AICVnbQEOFPFd8RnY5v4FAcExArAOESFCsMQzOMKDOMZB4oi+MZG/AYyEEA04b9DgoJmnOMRUECqSxkamjHS1qZ8KS+T8klOiyPiSuwDEX1nvwTNDssx93Tco9MqSn7DEC+TXumE55DzjK/gs/gnIvEl9CIzZ9oGcV63WWfecMh6zp3gju2C0ajdAA7aLVrR9BZEbEGKLdiCs/oDlgSndPotDAklHRpd0KzZTSl2avdii1YPIaYLioU/k6f8J3g99TkBWJFQLy8qWTnx8TnR7TeIEAPobp6HhZ1v6oohwkbxgLBJ5QbcZDrnOwLMzFMw6MnLRMHNu47Mzc2einwXQA/A2qBmiqnW4+qnp11NHidHtACBYLW7+G9X7v/fQhP8HPz/w7eocZbyHS0SBNVkY1JWAiQBAMg4ZpoQSCdq/KodngUIbQiQmrQJUBmigKBoMwFBbZQHBE3abOCK0ioMyFaQOuyBypwGUAzYBLV5t3aTgagSkkgn4j0YG2mhiCXm4ujMfJkbETLHsDr1Y9ucdX2p2NAm5KtQrlaeXEVqDVItwatTJjKCI3wQ48KRM8YXO05f1zPlqVajSIXyPscPu29Zq4/bbUjkYNQpvpREtvzb4R28AQAA");
 
 export default Circle_8;

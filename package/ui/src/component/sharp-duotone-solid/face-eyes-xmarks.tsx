@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-eyes-xmarks` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-eyes-xmarks?s=sharp-duotone-solid face-eyes-xmarks}
  * @preview ![face-eyes-xmarks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-eyes-xmarks.svg)
  */
-const FaceEyesXmarks: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM89.4 144c7.5-7.5 15.1-15.1 22.6-22.6c3.8 3.8 7.5 7.5 11.3 11.3c12.2 12.2 24.5 24.5 36.7 36.7c12.2-12.2 24.5-24.5 36.7-36.7c3.8-3.8 7.5-7.5 11.3-11.3c7.5 7.5 15.1 15.1 22.6 22.6c-3.8 3.8-7.5 7.5-11.3 11.3c-12.2 12.2-24.5 24.5-36.7 36.7c12.2 12.2 24.5 24.5 36.7 36.7c3.8 3.8 7.5 7.5 11.3 11.3c-7.5 7.5-15.1 15.1-22.6 22.6l-11.3-11.3L160 214.6c-12.2 12.2-24.5 24.5-36.7 36.7c-3.8 3.8-7.5 7.5-11.3 11.3L89.4 240c3.8-3.8 7.5-7.5 11.3-11.3c12.2-12.2 24.5-24.5 36.7-36.7l-36.7-36.7L89.4 144zM176 384c0-44.2 35.8-80 80-80s80 35.8 80 80l0 16-160 0 0-16zM281.4 144c7.5-7.5 15.1-15.1 22.6-22.6c3.8 3.8 7.5 7.5 11.3 11.3c12.2 12.2 24.5 24.5 36.7 36.7c12.2-12.2 24.5-24.5 36.7-36.7c3.8-3.8 7.5-7.5 11.3-11.3c7.5 7.5 15.1 15.1 22.6 22.6c-3.8 3.8-7.5 7.5-11.3 11.3c-12.2 12.2-24.5 24.5-36.7 36.7c12.2 12.2 24.5 24.5 36.7 36.7c3.8 3.8 7.5 7.5 11.3 11.3c-7.5 7.5-15.1 15.1-22.6 22.6l-11.3-11.3c-12.2-12.2-24.5-24.5-36.7-36.7c-12.2 12.2-24.5 24.5-36.7 36.7c-3.8 3.8-7.5 7.5-11.3 11.3L281.4 240c3.8-3.8 7.5-7.5 11.3-11.3c12.2-12.2 24.5-24.5 36.7-36.7l-36.7-36.7L281.4 144z" />
-        <path d="M123.3 132.7L112 121.4 89.4 144l11.3 11.3L137.4 192l-36.7 36.7L89.4 240 112 262.6l11.3-11.3L160 214.6l36.7 36.7L208 262.6 230.6 240l-11.3-11.3L182.6 192l36.7-36.7L230.6 144 208 121.4l-11.3 11.3L160 169.4l-36.7-36.7zm192 0L304 121.4 281.4 144l11.3 11.3L329.4 192l-36.7 36.7L281.4 240 304 262.6l11.3-11.3L352 214.6l36.7 36.7L400 262.6 422.6 240l-11.3-11.3L374.6 192l36.7-36.7L422.6 144 400 121.4l-11.3 11.3L352 169.4l-36.7-36.7z" />
-    </Icon>
-);
+const FaceEyesXmarks = createIcon("face-eyes-xmarks", true, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAAB5QAAALbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiEMAsIAAE2AiQDCgQgBYMtB1wbXgZRVE5yZD8P7IYPQ1xRrV5+SxyHoRqgEkYsmuH7iYf/3+/bPve9EdOEJbfmlgZIptkTzTTOj6hVkzyL6IlF/P7DuHz/IGwHu11S2hrgthDdFhWJxLwSBxtwwAFGHBBMOtHkdhzQaxZCKjX9/Tz/wO1P/PtHyd6mjZHafT6B8TDSoqzABzSyAe9mIBucN+mQQhtC+hHy+JQdV0K6mN7gbPw/gPFThz2SigxA1AOAees6bbyPxEiKN8U7xBuLQUDMB/QjZMjQjcBMTIFuLP0glwtGUrHISBSL/RBAlIp/XTJQinL8JzJADpIklOf56OmaXD+zil2Tr60qqdzU2tI6KtSKClS8tMqK1Pw0Ssq0fFQKSnXqan/zIl4ueVv1y94veL3u2/xXS99V3uI3c1+sXne+jQi7DtSMbmjID2n7qjPPuRex79CIRjR3fHFwobAwthSa3ViiwpQb77kZURnxgcQrc+Kw9VAjfsSxT9zDsot/32x/49j0wmVhu0cmmuiR7QoWWKBg2ZcXp3bwwqIKcvujBS9vh49F02K2fv3uwUFDwKkja5q/j9eseXo81G7rxeNjh3tdhVyu6K55LLzxZPkA1U9IjGksBDU2JPC49m+shaF62ehaqneqfuffAYDTZxq12eWEJ8OHDtttVgUPXbh45FSR0UjMPqa3OrodCAS7Hpy5ta1u5r/yqgS+P/r7o/kiKT5JwyiXQJCNK44zlEAiAAApDrElNoBA5qpc+qrVzgkQKhEgKVUpQKaLDIFcpbEIlOiVRKBUpVWYIq8Qmg0PIKm2F2Qm2wW5ZlegxEyf4VLNkfkA3v7y/58prSnUHGeJhiKWnGW3qBMsNauH85bLjmeNN3nhBoyZN2fFqBGTDT2Bl7Rjq2a1jsjN91pEhURY5FgeV16u7hu1ZNmkeXPRKHmW770ea8edvdDDkFKONyWTESmy9vClBr2zO7jha42gd2pvWJXCDgAAAA==");
 
 export default FaceEyesXmarks;

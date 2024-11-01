@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-bump` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-bump?s=thin car-bump}
  * @preview ![car-bump](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/car-bump.svg)
  */
-const CarBump: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M88.1 130.4L86.2 242.3c7.9-5 16.7-8.9 26.3-11.4l278.2-74.5c9.5-2.6 19.1-3.6 28.5-3.2l-57.6-96C348.7 35.7 323.2 25.4 299 31.8L129.6 77.2c-24.2 6.5-41.1 28.2-41.5 53.2zM70 255.2l2.1-125c.5-32.1 22.3-60 53.4-68.4L294.9 16.4c31.1-8.3 63.9 5 80.4 32.5l64.3 107.2c32.4 8.4 59.4 33.5 68.7 68.1L529 301.5l4.1 15.5 8.3 30.9c4.6 17.1-5.6 34.6-22.6 39.2l-30.9 8.3c-17.1 4.6-34.6-5.6-39.2-22.6l-8.3-30.9L162.2 416.4l8.3 30.9c4.6 17.1-5.6 34.6-22.6 39.2l-30.9 8.3c-17.1 4.6-34.6-5.6-39.2-22.6l-8.3-30.9-4.1-15.5L44.6 348.5c-9.3-34.6 1.6-69.9 25.4-93.3zM84.9 437.1L93.2 468c2.3 8.5 11.1 13.6 19.6 11.3l30.9-8.3c8.5-2.3 13.6-11.1 11.3-19.6l-8.3-30.9L84.9 437.1zM436.2 326.4l15.5-4.1 61.8-16.6-20.7-77.3c-11.4-42.7-55.3-68-98-56.6L116.6 246.4c-42.7 11.4-68 55.3-56.6 98l20.7 77.3L142.6 405l15.5-4.1 278.2-74.5zm27.9 42.2c2.3 8.5 11.1 13.6 19.6 11.3l30.9-8.3c8.5-2.3 13.6-11.1 11.3-19.6l-8.3-30.9-61.8 16.6 8.3 30.9zM152.8 319.5a16 16 0 1 0 -30.9 8.3 16 16 0 1 0 30.9-8.3zm-46.4 12.4a32 32 0 1 1 61.8-16.6 32 32 0 1 1 -61.8 16.6zm313.2-67.4a16 16 0 1 0 -8.3-30.9 16 16 0 1 0 8.3 30.9zm-12.4-46.4A32 32 0 1 1 423.8 280a32 32 0 1 1 -16.6-61.8zm16.7 286.9c-.6 4.4-4.7 7.4-9.1 6.8s-7.4-4.7-6.8-9c7-49.1 49.3-86.9 100.3-86.9s93.3 37.8 100.3 86.9c.6 4.4-2.4 8.4-6.8 9s-8.4-2.4-9-6.8c-5.9-41.3-41.5-73.1-84.5-73.1s-78.6 31.8-84.5 73.1z" />
-    </Icon>
-);
+const CarBump = createIcon("car-bump", false, "data:font/woff2;base64,d09GMgABAAAAAAOwAAoAAAAAB1QAAANjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiEEgsGAAE2AiQDCAQgBYMtBy8bEQbILgd4MoxXIKF2Yo6VitmdFh/+SRhnWPDPZ8d73+x+wPMFR3AFViIrqBJKtSlzUhGef/ZX9/2xVk5uQgNd1Vjinj6zbRuZFIrZ7QEX7ceEcGmtC/DEz+1tVfT+zQTRaImSoWsmFIuB2AgV2IALIWAf8JXOGDPeFID79nmu+fzozhLwi59irmzDSKuwWebzCdzzRRRQ+0DPJqo7mvfSQPULdTfgyje9eICZtQ9s9efrlWDWg8FR4QPZYQQ0Hwf35eGVRA+Qo/8F0BElgABUCIBFgAP0IfEIgDocBMTjYgEXF8FX+f9H/gdGgQBAWihlOOYC/sAX4DcMR4PBV632NgTE+AfgREeMn4dFXZ+ea2ypHT5kr2+y9jqUPXpmPESnZFc2snb4wdCDs+E6OzmdD9XpxXn7uwjFaLfskjTt0j0aqwndQKSGyYEDY1ZDY2JjdqeZ2jtMaeuJCo/qHD08PbOZoFvZvnqoeiVKk5PmR3ZJzKQ93j2yy+w2Q1FYyw6kvsnpfL8R19uLyXupNE3KrmDiXiOtkNr3PaV7yoOzkbuMsbq6uL+9OF+vlg16YHlhd2t+Lku5EF74Rx91Gg6aH129eOsp5p01fTxXrx2fW5M2/1WwXOiRunfX40ti6anrab5Y1oXMDO9LAyupGx715JG9gD97C54itpDk0bv+wMhcwkqZdZ8REnj7aUb2/f7IfsQEX9r9E6WPu4yj2dId8Pt8f9X5gjfc4il+UHr9yEH4JG+Y3BVlrX30DYuOXvPpq4/6Yf3n0jQVvDx0uZurWxZlRQ+dtnYmKHrY1DUnuwtwxo+c5Do9baAbnBjpNVE3dGmus/PuUp3/Sb1nxchkmHzuDwACBNd7beiw1f3SOwoA31c/v9T8mP/pUi4A3pgDo3ES/8sYezUxJC1oIoAwaGScFKx/AgIMnzECjoI/e45GhS80MHjiC4c4guHiSy48SKRc3jh/MA5SGxDhjMUw+LMQDhWsgEs4N+FBHS9CnoSLA/EqvKr/m1k6ukS7li0uKLI1djajMgCxbDtr7WZb1rJBRTZeyzTmM48lTGUKM1nS4RfRN7qUuXQsCdv1tRRTQBGWGuzh/MPlw5jKIhYzk/nM87qpxV7vzmLZcv1s3BsDAJTAiiQnSdH3dC3Kn7R07gIAAAA=");
 
 export default CarBump;

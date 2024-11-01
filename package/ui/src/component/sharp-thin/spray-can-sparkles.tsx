@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spray-can-sparkles` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spray-can-sparkles?s=sharp-thin spray-can-sparkles}
  * @preview ![spray-can-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/spray-can-sparkles.svg)
  */
-const SprayCanSparkles: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M104 0L216 0l8 0 0 8 0 112 0 8-16 0 0-8 0-104-96 0 0 104 0 8-16 0 0-8L96 8l0-8 8 0zM96 176c-44.2 0-80 35.8-80 80l0 240 288 0 0-240c0-44.2-35.8-80-80-80L96 176zM0 256c0-53 43-96 96-96l128 0c53 0 96 43 96 96l0 240 0 16-16 0L16 512 0 512l0-16L0 256zm160 8a72 72 0 1 0 0 144 72 72 0 1 0 0-144zm88 72A88 88 0 1 1 72 336a88 88 0 1 1 176 0zM344 0l0 8 0 32 32 0 8 0 0 16-8 0-32 0 0 32 0 8-16 0 0-8 0-32-32 0-8 0 0-16 8 0 32 0 0-32 0-8 16 0zM472 8l0 32 32 0 8 0 0 16-8 0-32 0 0 32 0 8-16 0 0-8 0-32-32 0-8 0 0-16 8 0 32 0 0-32 0-8 16 0 0 8zm0 184l0 8 0 32 32 0 8 0 0 16-8 0-32 0 0 32 0 8-16 0 0-8 0-32-32 0-8 0 0-16 8 0 32 0 0-32 0-8 16 0zm-64-88l0 32 32 0 8 0 0 16-8 0-32 0 0 32 0 8-16 0 0-8 0-32-32 0-8 0 0-16 8 0 32 0 0-32 0-8 16 0 0 8z" />
-    </Icon>
-);
+const SprayCanSparkles = createIcon("spray-can-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABswAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASEHAsGAAE2AiQDCAQgBYMtBzkbJQbIjsQ4JvJIF42HeHiaw3p/krZpspAlnlYtAh0w+HNE4NAYVozJDAg/dSrncp4N+GABDeWCMCYuWj47geY8b6w4RaZN79WrtYLVZApY99a/LomUUUlmRut/OM073N4ZynjLyTpIdyS4JT5ofG2Em0mKAkC0AFixb9cW738an0Z88v8rxCc2ISBWgCxQoMBoARYrBEYrZZRKwafx///2PzATQHSCayZQosG3+ANQgqS7LMcNHNq3bw8ETUffcm8urg81dSMcVke01vh6I5rdL4+PeHy06BsR9058cm69+75JEU/Na+KVCU+MEaLuExF7Xp789JRn5rw27bmpz87dc//81xe+2fvQorcWvNFzSBBNI+r6hVEHF89PukfopQq2Ge3dp/fJ9slve5zKae+df/7llfMlqMVOd1xAid+i6nquPYW98YPsB7H3lPb6Y9uqJ3ny+utd/+ST1Vrt9NYP93W1ctasldcX2r51A+547bU7BvDjq6oqy1Wryvl2OZ32uq6cs5RK9fo6p2X7LgcCwV+XfFoc67/416pJ4PM3v/+6/oz8/36SnkQlgaCY/P9khxNIBAAgxaV6EwSSr3SDe+3jVgFCjQBJp1qAwiitAKXaJAE6jDVHgE61XQpRdguDHUGQ9HEBKMx1DSgN9hLosNgHUafBUai9pLTST2f6WgqvWZZnTJ2eF+ZuSZM1WfCji/K0Mf5S1jLB7HSq85zrYqc42RkuJtSFtmQucY61ErLGE2UzTDVdtlDers4373WKC13kDOc5N4yzSL7vj3ep3H2CsRNgnemYJBFp4EXnX3jCFVNOOuHcKRd9XM7Zp1wEAA==");
 
 export default SprayCanSparkles;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sliders-up` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sliders-up?s=duotone sliders-up}
  * @preview ![sliders-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sliders-up.svg)
  */
-const SlidersUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M64 32C64 14.3 78.3 0 96 0s32 14.3 32 32l0 54.7c-4.9-2.1-10.1-3.8-15.4-4.9c-2.7-.6-5.4-1-8.2-1.3c-1.4-.1-2.8-.3-4.2-.3S97.4 80 96 80c-11.4 0-22.2 2.4-32 6.7L64 32zm0 201.3c4.9 2.1 10.1 3.8 15.4 4.9c2.7 .6 5.4 1 8.2 1.3c1.4 .1 2.8 .3 4.2 .3s2.8 .1 4.2 .1c11.4 0 22.2-2.4 32-6.7L128 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-246.7zM224 32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 246.7c-4.9-2.1-10.1-3.8-15.4-4.9c-2.7-.6-5.4-1-8.2-1.3c-1.4-.1-2.8-.3-4.2-.3s-2.8-.1-4.2-.1c-11.4 0-22.2 2.4-32 6.7L224 32zm0 393.3c4.9 2.1 10.1 3.8 15.4 4.9c2.7 .6 5.4 1 8.2 1.3c1.4 .1 2.8 .3 4.2 .3s2.8 .1 4.2 .1c11.4 0 22.2-2.4 32-6.7l0 54.7c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-54.7zM384 32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 86.7c-4.9-2.1-10.1-3.8-15.4-4.9c-2.7-.6-5.4-1-8.2-1.3c-1.4-.1-2.8-.3-4.2-.3s-2.8-.1-4.2-.1c-11.4 0-22.2 2.4-32 6.7L384 32zm0 233.3c4.9 2.1 10.1 3.8 15.4 4.9c2.7 .6 5.4 1 8.2 1.3c1.4 .1 2.8 .3 4.2 .3s2.8 .1 4.2 .1c11.4 0 22.2-2.4 32-6.7L448 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-214.7z" />
-        <path d="M96 128a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 112A80 80 0 1 0 96 80a80 80 0 1 0 0 160zm160 80a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 112a80 80 0 1 0 0-160 80 80 0 1 0 0 160zM384 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm112 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const SlidersUp = createIcon("sliders-up", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAAB6QAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUSEWgsIAAE2AiQDCgQgBYMtB1AbfAbIBp4vu+/P7e6Z2p33lu7dCET0BWewQwCZI6eAwvmfa/LdrMrzi58vDaMpygrb7vkiG2igkT4v0saJDGwGttFtuKSrr2MhcQRGHullOKB2q4fAxuV/AOUzSSwDRagGAEAiAQCAlv69u3L7hbxQ8tA/D/KQLoAASCsAFgE0oIFUBIB6NAKkYrCAwSDwQvk+vBDftyAAIC7L9TQALhAO4oHEAgAGAIWLa0xMWE1MTfYFnDDTr/9CvMFr40S2syh2m7cmfocsTtgZ4FLRqcKTlefzjxecqOirMvRnzCKtwiCieSNwoPZq9eXU/TVX6q5lDFZ5kR3xO3uxt4YbK2yPYy8OrHUnIM61pL8D1kOUyMCixNMkln8k62jk0a+ZD8c9ZHhT+CpYFR6+6sTPuD2vf/95t9tmDnaXilr4HRccP3fu+GDeQdPBcVEVo2cUNyOiZJsR9a7qHun8j3vH/4N3bdD/NEem/q8eNZM0VeVyVQdX1ehP4Br9P/owPS8U4GQABBBYuqLvguER9X9DAgqAV1e//25+ho5/W36oo0AICgABne/nM0SBQ6T8QAAAAAAl88hS4NCMAJojXGJBkB1IWPAAgcLFA00KkWDwyAOHdCpUhpt7oxETihDL0BwUQWaCppL5YIjlHDjUcyfgEiv6tdDc1Jqf0oydJKFjni0pLLa1VhoBtHe6aqyss8aW7HltRk5+kHFMZxpzGMsYJjKH4Myia3guU+lUYTtuaymhkGIstVjn+KyxH8GdxWwmupmG+yB12PCubOap8+fkdsUmspQ1Gg2iREe/+OHZBXNnFLxgmbG0/lMCAAA=");
 
 export default SlidersUp;

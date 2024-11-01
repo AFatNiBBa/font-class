@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-to-line` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-to-line?s=duotone arrow-down-to-line}
  * @preview ![arrow-down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-down-to-line.svg)
  */
-const ArrowDownToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 448c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32z" />
-        <path d="M169.4 342.6c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 242.7 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 178.7L86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128z" />
-    </Icon>
-);
+const ArrowDownToLine = createIcon("arrow-down-to-line", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABcwAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBTQsIAAE2AiQDCgQgBYMtB2Ab/wTIhoePufL9JEdYovRUgRCF65y9qqo6NmKnlkDvxannOQ8F8C0ANBYGJ8gGnfN8g+U8urleX1ihmtbAujtbKw7ZvEKwJMfFjs/nBlmcSa8oIXmZfMZ9+h/A+KqDKyQqUgBRD4CJyxfP9bYQhSQ+F18Tn81BQEwCuUCKFJ0FGCMV6CyTI5MJCkmxSCGKxZwAohR9RgpKkWEmFgEykAiRZb3aVZXUZMuqSiqXP62KuN1ueTyPi22fVd5qvSTC454Qy+LhF9osjYvtIp5X1cTtNk9daP2ksjputX0WTc31zd+7f9722asdL2qoeXH+vJs1NTdf1NS8mDFTi9obN2pRaJETHUIQz5/HNjdqJzAV7wcCwZ2O7ZrW1435X16VgC9vfv41PyTFQlxImlEuAUHap9jHmrgAcUEAAJI4pikuyBFI9ZII76j2TIBQiQCJUpUCpDqpFyBTqXeCEl0NJSbXF0tFViG0thYgUe0gpIY5C5nWWqDEGO+0Uq0j1SdKG6jnXPy0Epk6lw/sNyAflQ8dkVYRwjVH59NCj2M20RNObbPfPkdstcVORwrskLnmUXtNk9Cpvig3UD8D5EbJl/1rfhlqhxy2s8+utxkt36/2cEzO7wnLJIBBJ3GREkmkHTceOrT/eN9rNul7ZH/fnyZo7czr3GYvIwAAAA==");
 
 export default ArrowDownToLine;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `peanut` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peanut?s=thin peanut}
  * @preview ![peanut](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/peanut.svg)
  */
-const Peanut: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M124.3 234.1s0 0 0 0l.2 0c25.2-5 53.8-13.5 74.9-34.6s29.7-49.7 34.6-74.9c0 0 0 0 0 0l0-.2c1.7-9.3 4.3-18.2 7.9-26.8c0 0 0 0 0 0c6.3-15.3 15.6-29.6 27.9-42.1c0 0 0 0 0 0C293.9 31.1 327.2 16 364 16l68 0c35.3 0 64 28.7 64 64l0 68c0 17.9-3.6 35-10 50.5c0 0 0 0 0 0c-6.4 15.5-16 30.1-28.6 42.8C444.6 254 430 263.6 414.5 270c0 0 0 0 0 0c-8.5 3.5-17.4 6.2-26.7 7.9c0 0 0 0 0 0l-.2 0c-25.2 5-53.8 13.5-74.9 34.6s-29.7 49.7-34.6 74.9c0 0 0 0 0 0l0 .2c-1.7 9.3-4.3 18.2-7.9 26.8c0 0 0 0 0 0c-6.3 15.3-15.6 29.6-27.9 42.1c0 0 0 0 0 0c-24 24.4-57.3 39.4-94.1 39.4l-68 0c-35.3 0-64-28.7-64-64l0-68c0-17.9 3.6-35 10-50.5c0 0 0 0 0 0c6.4-15.5 16-30.1 28.6-42.8C67.4 258 82 248.4 97.5 242c0 0 0 0 0 0c8.5-3.5 17.4-6.2 26.7-7.9zM43.3 259.3c-14.2 14.2-24.9 30.5-32.1 48C4 324.8 0 343.9 0 364l0 68c0 44.2 35.8 80 80 80l68 0c41.3 0 78.7-16.9 105.5-44.2c13.8-14 24.2-30.1 31.3-47.2c4-9.5 6.9-19.6 8.8-30c4.8-24.5 12.6-49.1 30.3-66.7s42.2-25.4 66.7-30.3c10.4-1.9 20.5-4.9 30-8.8c17.5-7.2 33.9-17.9 48.1-32.1c14.2-14.2 24.9-30.5 32.1-48C508 187.2 512 168.1 512 148l0-68c0-44.2-35.8-80-80-80L364 0c-41.3 0-78.7 16.9-105.5 44.2c-13.8 14-24.2 30.1-31.3 47.2c-4 9.5-6.9 19.6-8.8 30c-4.8 24.5-12.6 49.1-30.3 66.7s-42.2 25.4-66.7 30.3c-10.4 1.9-20.5 4.9-30 8.8c-17.5 7.2-33.9 17.9-48.1 32.1zM432 128a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-64 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM208 352a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-80 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM416 208a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Peanut = createIcon("peanut", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABxgAAALAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFyEEAsGAAE2AiQDCAQgBYMtBy0bDQYR1ZrzyH4kxo6RqGQSY/pbkszfmQier6uK9zNb2WPUAMJKvoK+29ctYsb9ZZJBgGPY5eldiD42tiac2qJabQ+rUgWK3unvp/6oNbU/kAkVSkRYYQVGxPkEBr6m9oG2DWxAE5+AbWreUwN0XaHuDHk8Z7MK0i3pfVzl3jR+0dL5JFkGIBoAYMKyRXO8/GV8GfF++QnifbMQEBNBSSBDhjYCjJYJtJErIZcLvoxymf0HlgggKgV6sitHgR/xN8M5JNV5fmRIDQzXVtTNl6Ybi2XnRMQ5URsPdXuo+W2thaJRDVw3NS9ct/VijpemLYg90OORluLsFqKbuz/cmX59k/yI+zvf3+T6FjczswnFoootfH5yEQ/2fLRVxDmtL3I91o2Hbmq++OG1+xB39HhkSG28Ne6x1jc1v6vXY8My6KG01rdFxJ17wkOLeH30lrTrm9ze/eHBKHx/9003NqPJG5re1Hw+JxcrpIbYlg2IZdfW8dEGj/6G39/6vlNfAKFjh/3/58FDHSH0GVzUAaaePdndDRsWk7V+uLFjxx3w+qfAwEOcctnZ9hjSUfbkc5ATX37806zFlEcebTdZLN3SYLK/bhn8yNq+Uy97evPX3926eFLykslZ559b78sv6yW2cum76y7qmTePKbBvXv0h+6OPLgcCwabFR39aV3/0f9W1CXz97B8/+hkpv5ykR1EtgSDrXe5tdQKJAACkOKpjIJB8qVp41TpuFCAUCJBUKgTItNZAgFyhlwAV2hkiQKXCIpnIawTeRNGApI4DIDPUA3JNvKDCaF+0UpPIPnjN56r53cw4tYtOmVUa0Ld/aWRptqLSfsMqPTmqtNnZ/Sjv6AG3qi1mp0qpc3a4uzhxmURLnOCDgKUYwIHD9Yf5ucru0E3rjk/jwfV+4l7uT6EHCXIHMqdbkJMq92/ZsPfIYQAA");
 
 export default Peanut;

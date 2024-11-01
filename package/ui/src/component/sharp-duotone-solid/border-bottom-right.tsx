@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-bottom-right` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-bottom-right?s=sharp-duotone-solid border-bottom-right}
  * @preview ![border-bottom-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/border-bottom-right.svg)
  */
-const BorderBottomRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 96l64 0 0-64L0 32zm0 96l0 64 64 0 0-64L0 128zm0 96l0 64 64 0 0-64L0 224zm0 96l0 64 64 0 0-64L0 320zM96 32l0 64 64 0 0-64L96 32zm96 0l0 64 64 0 0-64-64 0zm96 0l0 64 64 0 0-64-64 0z" />
-        <path d="M448 32l0 32 0 384 0 32-32 0L32 480 0 480l0-64 32 0 352 0 0-352 0-32 64 0z" />
-    </Icon>
-);
+const BorderBottomRight = createIcon("border-bottom-right", true, "data:font/woff2;base64,d09GMgABAAAAAAIUAAoAAAAABeQAAAHJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBcgsIAAE2AiQDCgQgBYMtB2IbJgXIhof/36/fPu++P98MkwtJVBIkcWtineZaIeHNS5hF9ESeqVPPMzQUwCeJJih7aXyDZ3dNLOAUjXfZBi1ItaY1sO7ORlqotcMjSSPJ8Y3T5wBlPE2X1FFcL77jMv0PYPzS1yUKjQlAdABg/urly3ysRrWI77VXxHdLERALQBZISBggwCxJYIBSRqkUVItajWrUapkAooJel0AFTViHLYASFEJ9WXY3ctBc11quSu1Nu4UiRFNLRHNrChcmodlTbIKuJ26+dOiLjhd/hnzf9d2Huznnc7J8b568ZYtsHqR5TfPM22KW3DxYvh4IBA9v/121uX3W/4bmAvx4/e9n+CGpVeNj8QINChCkUbVRNsRHiI8CAFDEKUPjIwgkc9Xjd21xRYDQhACFiiYBkv46BCg1GSlAnUEmC1DRZLkkykahh40FFFocBckUp0Gph5egziyfoooekVSMUxDug5e8pIYW78vjx4zLM3I3k3mtYeL0zDxtDzuFXcOh1S6HHXLCTjvsdaLCj1mWnnTQkhG22Bdl440xTjZDXi5v5VU2Oua4vbK4vspMeb8/zKnx4OHgFZh0gg8kiSgi9X98ctdUH31gBw6UxfMJAA==");
 
 export default BorderBottomRight;

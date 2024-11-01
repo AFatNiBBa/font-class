@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-merge` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-merge?s=sharp-duotone-solid code-merge}
  * @preview ![code-merge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/code-merge.svg)
  */
-const CodeMerge: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M48 160l8 0 48 0 9.3 0c7.6 45.4 47.1 80 94.7 80l80 0 0 8 0 48 0 8-80 0c-36 0-69.3-11.9-96-32l0 80-8 0-48 0-8 0 0-192z" />
-        <path d="M104 56l0 48-48 0 0-48 48 0zM56 0L0 0 0 56l0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56L104 0 56 0zm48 408l0 48-48 0 0-48 48 0zM56 352L0 352l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-56 0-48 0zM344 248l48 0 0 48-48 0 0-48zm-56-56l0 56 0 48 0 56 56 0 48 0 56 0 0-56 0-48 0-56-56 0-48 0-56 0z" />
-    </Icon>
-);
+const CodeMerge = createIcon("code-merge", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABfgAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCJAsIAAE2AiQDCgQgBYMtB1AbRgXIFiFJJw//rPW7b2b+nv0zuAw/OSyuydSbNUhmzSok0ia8hH+InjjEnf/L8b17frT9Gx3annYgt1u+J26wgLOyBRJQlFCmGViR8Nv5vQ4Gkk0SOpK0qzOMf/pPyOJlel0TycPkG+6E/wGMn4a6TqI5BRB9ADB/w5pl6t3RncS3xjvim6UIiAWgFEiRYoQAs6QCI2RKZDJBd9Jo0B2NRkkAURFel4IKmnEGlwEZSFREljX318W+Q4umntn6q/kWIY+IYkFe5AJUUUSsmyd8yYYiL4Q9Xi14aEvl07bXk4tAN+bxYYbI82h50+fN7zHf9n9z4FZNyWD/n4ZaNdNMO5jGfcAHfw9o6EKjea9xo6vV+bvv3q2tVFVTtdLO2ytVp9WBQDBp/4tyR+9Z/6pFAr6///sD/Qob9agnb1CVgCDtbHTaGnWIugAAJHFeS9RRE0itdo+f2sM9AUKOAImKXIDUcH0EyOQ6BGgyymQBKnJrpCJrFgbYVkCih1MgNcU1kBngLWgyy8eoYkCkssdJDvfll7ykhhefKsePrZUzymFd5sWJcfMzy2W79bzta8NF+51w3Fn77HXI2Qo9bVl6zjFLZshiX1Qab6ya0gzlduteXk/RaWcc4sX9TWYqz4etzs9Ht8FLRNoJzqRSIom034Ps7/pppt4lxf0DWvG9AgAA");
 
 export default CodeMerge;

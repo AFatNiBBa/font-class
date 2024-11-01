@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ruble-sign` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruble-sign?s=sharp-duotone-solid ruble-sign}
  * @preview ![ruble-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/ruble-sign.svg)
  */
-const RubleSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 352l0 64 64 0 0-64L0 352zm128 0l0 64 192 0 0-64-192 0z" />
-        <path d="M64 32l32 0 144 0c79.5 0 144 64.5 144 144s-64.5 144-144 144l-112 0 0 160-64 0 0-160L0 320l0-64 64 0L64 64l0-32zm64 224l112 0c44.2 0 80-35.8 80-80s-35.8-80-80-80L128 96l0 160z" />
-    </Icon>
-);
+const RubleSign = createIcon("ruble-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABawAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBRgsIAAE2AiQDCgQgBYMtB1Ab6ATIhuD5tdB5f/cuALSJAmZFjDKOQANiqypMQBZV9c3/5fje2aYD/CDnONfzjbf5aM3G8wR6HkhxFmBpQgeSmWd65nRAJF0RQaiP/LB8ahj/CXnsy44pkc6l33GK/wcw/tLMMZJqGYCoC4ARM6dO8eZH/Ejxe+UB8bvJCIiRoBDIkKGlAINlAi3lCuRywY9UqfAjKpWCAKKMkYxetm8bi8mAHCRJyvNWdapVq1Gqlc+oUao+t0b1Gh+HvGx7dfCL0dVDVI8wUA07pi9ojztdb3O547W+oVAjGDXyS+2u1b32T9vfV/xu2JWiuPP25K6WLXedfLvJVcMJGl54oxj2fZMv1V0+I2LG8rqCvWg4GMiHkv3Gxu+AQDDjj8YTF9YZ/H/VGgn8evbfn/hY5UccStdQVQJB1rnS2bw4BHFIAABS7NCO9hTIdJYAf2tNpwUI1REgKasuQKaFugLkquskQElrfQQoq26qTOTVhIbmV5DUtBlk+toPcg3dByWDfY7KGkamTJwqcL9yyWNbeMy1okfX7sXAYlkpvH4w8XxQ8dhuv8NNOuCuFTbaYJvlllltW0NtMSXdbr2xEjnGjgo9dNVdYaDiuH2UZ1C0xVar5+L5JYMU7zvt7ZDXO+A2CdDzMzzIiBRZ/S3bl6xb3uUi6l3UctqwFy8gAA==");
 
 export default RubleSign;

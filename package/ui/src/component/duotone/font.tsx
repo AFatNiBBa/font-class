@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `font` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/font?s=duotone font}
  * @preview ![font](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/font.svg)
  */
-const Font: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M254 52.8C249.3 40.3 237.3 32 224 32s-25.3 8.3-30 20.8L57.8 416 32 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-1.8 0 18-48 159.6 0 18 48-1.8 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-25.8 0L254 52.8zM279.8 304l-111.6 0L224 155.1 279.8 304z" />
-    </Icon>
-);
+const Font = createIcon("font", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABaQAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBTQsIAAE2AiQDCgQgBYMtB0Qb4wTILgdsYxjWhzjY1iLFxawN496y8R3E8YxiPHy/H+3c996Kad1Nqs0MKRFCI27DJOMhknY6JfyhMiSGyPyrte2+g2fSDcktQyOJWxNLUJlOs0ooNI+JGlhI5sH3/D80SQcgtTRTpJ3+5p93HgX4OPe5bJ9PkGjO8wQ6DyTvjy30hTL9BvZ3Z2tlh1o+LSQW8njZ8dmhxDnvNJDepx+e8v8Axm8jdiQtGQCiGwDYfxAOwaOKKsWvnvjpBAiIA4BpiIyMcQi20ALjGNNAUQRVqlFFbRoEEI3Av5gMGlFwCFwBUEBCKoyvKStjYm0N4vSHPg4/jFbc97/yZOB1mwQPQ29jPfimVYzmiMb2/al74jZxPO7N3rq//5mB/9Xe9qnIb2+hXBCHgiknaKNQUZnQRv6Pgu4+os9BIPh6uarOd239a04B/PrxX/Hmuoq79B3NEgjyfD0vE3fg0AG4KWbUyuEIZPsowG9t90aA0IoASaNWAbIxSgiKVnMQNJjkhKBRq2u0KCII/bIJJO0eg2zFHBT97qDBlqfbqD/YE2ENxHcuNlhCgSViNVmIj3QjQpoI5qd+MqxqZlTRwibU9PVMVFU0TQpkJBRMdQU1OOBAhJWJBeFDltNrNobuyFizTa/P8SP7bY2Z3q6FdSjAwk2EMpGQlh4qGs2Sl2f08wM=");
 
 export default Font;

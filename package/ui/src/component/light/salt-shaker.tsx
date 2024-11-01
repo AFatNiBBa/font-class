@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `salt-shaker` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/salt-shaker?s=light salt-shaker}
  * @preview ![salt-shaker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/salt-shaker.svg)
  */
-const SaltShaker: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 453.2c0-1.6-.1-3.2-.4-4.7L305.8 192 78.2 192 32.4 448.5c-.3 1.6-.4 3.1-.4 4.7C32 468 44 480 58.8 480l266.4 0c14.8 0 26.8-12 26.8-26.8zM300.1 160l-7.9-44.1C283.5 67.3 241.3 32 192 32s-91.5 35.3-100.2 83.9L83.9 160l216.1 0zm25.1 352L58.8 512C26.3 512 0 485.7 0 453.2c0-3.5 .3-6.9 .9-10.3L60.3 110.3C71.7 46.5 127.2 0 192 0s120.3 46.5 131.7 110.3l59.4 332.6c.6 3.4 .9 6.9 .9 10.3c0 32.5-26.3 58.8-58.8 58.8zM176 64a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM144 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm80 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM151.9 242l-24 192c-1.1 8.8-9.1 15-17.9 13.9s-15-9.1-13.9-17.9l24-192c1.1-8.8 9.1-15 17.9-13.9s15 9.1 13.9 17.9zm112-4l24 192c1.1 8.8-5.1 16.8-13.9 17.9s-16.8-5.1-17.9-13.9l-24-192c-1.1-8.8 5.1-16.8 13.9-17.9s16.8 5.1 17.9 13.9z" />
-    </Icon>
-);
+const SaltShaker = createIcon("salt-shaker", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkwAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCSgsGAAE2AiQDCAQgBYMtBzIbTAXIhofvdX6e+yT/8cq4xFoEDjD4z6QCxBaAq1QpsSOoPf9ne77nowF+o6Ec94Hr5FHn9TyBgLP8psKelwU2UWxs3YEPIjSv+wx5XBvTVUgPpW9xh/Gj8auhbiLJMwDRBsCaQ/t2+PCH+CHi2+5rxLe2ISDWglIgQ4YRAiyXCYyQK5HLBT9Et8v+A0sCiB7W6xLIUeBG3AfIQVLN84GtEX2s7mazVmnkB71PKk7ujaNRxOHo6Ay8r9aIWwY/EEdHjRz1+NSXF746+cURI6J2pN6oPz/x4WG9g4/FE8ve2fTZkrdGHon7PDjk2fFHHxh838B7B9w/aDzHssoB+f79+w/tv7e4Pw7FA7X7HDpw8EBnwM2DDkbv4FsGjn25/fLvY74941sn5inN4BczSKl+xZn1Qv3MK+rzxl9rPX7a68/v3v3866dd6/shJxZF0Wn9Va3kS7d7YuWKdnvFyieSo3ml+lerc+8HzR9+aJpcl1DI2dUqFpvuGvyBnc1ofdfyBdS6MMM44WdAAj8PBIJlg8efd2Jr+f/VWgI/vf3n//Rx3Q+jk15GVQJBNr073XHRAbYbrApSXGFsS80CyZWqYH1r3f0ChAIBkh6FAJnh2gLkCtMEqBhlgQA9CvtkIu8jDHB8CpK6i0FmoetBboBXQMVyX5Q9BkS2NFLLEnUtGL8xD204VM6ZObtcWjb2xPQCRqi7y8re+uQr+MwUeNIZLnSBy5zuNGe7LIdcYkfrcufb2AZvUKPSHDPNVlqqHD28zB/E5SUudXa9Yvw+y5Tzx5Nd0b58CrQSC3WuSpKIVDs90H8YCM49/RI=");
 
 export default SaltShaker;

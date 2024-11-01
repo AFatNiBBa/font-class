@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-to-door` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-to-door?s=sharp-duotone-solid person-to-door}
  * @preview ![person-to-door](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/person-to-door.svg)
  */
-const PersonToDoor: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M384 0l0 224 16 0c0 21.3 0 42.7 0 64l-16 0 0 224 192 0L576 0 384 0z" />
-        <path d="M272 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM128 96l-13.3 0-9.4 9.4-48 48L34.7 176 80 221.3l22.6-22.6L141.3 160l27.7 0-31.3 94c-9.3 28 1.7 58.8 26.8 74.5l86.2 53.9-9.4 32.8-16 56L213.6 512l66.6 0 6.6-23.2 16-56 16-56 6.6-23.2L305 340.9 238 299l29-77.4 24.3 48.6 8.8 17.7 19.8 0 48 0 32 0 0-64-32 0-28.2 0-39.2-78.3-5.4-10.9-11.3-4.5-80-32L198.2 96 192 96l-64 0zM109.5 310.7L91.2 352 32 352 0 352l0 64 32 0 80 0 20.8 0 8.4-19L157 361.6l-9.5-6c-17.5-10.9-30.5-26.8-37.9-44.9z" />
-    </Icon>
-);
+const PersonToDoor = createIcon("person-to-door", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABjQAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCPwsIAAE2AiQDCgQgBYMtB1gbaQXIhqDSSfVoZdeddAw6JnjAjBBC4gwdfwwInrjm+VuVvSY9waNErUqbmgaSeT6BAUZj1Pmf7ya6mdqGbSPrgVnjEeN4gzz+TZeqkd2VNXCD+x/A+EZ3l5JpmQBEOwDM27Jhlbc+jA+zaDSfIxpWIiDmg0ogIaGXADMlgV5yFXK54MOs2eTDaDYrAog6BybBOvqQC3AtIAeZJPK89aIOHcta63xzWSuOPNHznh53D360253d7xpUFGXRKWbG0JgVI2JOlLExtgqboldUsFBGzxjAVHvO4NgcW2JUdI+yjCiKzdEF6jBfbBw5ZuRMKsqyZ/R16+keR4QyLnShIkQZtSj6P93u6e/6NQ43tN3z4Ocvvvj5gzByY+vwRndq2qzhkM166bPLoQMHZm6a6EZ/eNJ8h/3hD5vNNH+YXitd4CKd1s5V9RqyynKPWtPXOvV1HwwN0RnV1vJDZ/rZZR58xgVvfgjJdtpV+dBbSBbxXL/7brpyT9uZv7UoM/DxKz98Lb7QfCubmz2NFjIQpJHNkXbiLBh5AIUsztUf/pC4UCA5KAmutXK7AKFAgExdIUDSUzuQyxVGcDV9TLqhrrBBEnlLoZNdBi7TyhlcMtl5XK6TZ7mamd4u1nWKVBDNYmT+B+ZdPAUWLarGjR5bTa92azqrbOl6dkZ1OTr0XN4zDJ502GlOdbZDDjrm7AlzplWVc5xi8RG2yBdVxhltrMp01ePmy8ObHXKmsxxzmlPtPDNU3yeHOvd4+DCYyATF8bYkicgidSm4uVFnnzaq1QZHFepB3dacHAwAAA==");
 
 export default PersonToDoor;

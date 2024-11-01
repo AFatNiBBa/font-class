@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-astonished` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-astonished?s=sharp-solid face-astonished}
  * @preview ![face-astonished](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-astonished.svg)
  */
-const FaceAstonished: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-208c26.5 0 48 21.5 48 48l0 32c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48zM144.4 224a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM192 128c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8l-11.7 10.9L89.4 143.2l11.7-10.9c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1l16 0 0 32-16 0zm141 .9c-4.3-.6-8.6-.9-13-.9l-16 0 0-32 16 0c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2l11.7 10.9-21.8 23.4-11.7-10.9c-15.5-14.5-34.8-24-56.1-26.8z" />
-    </Icon>
-);
+const FaceAstonished = createIcon("face-astonished", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkQAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCUgsGAAE2AiQDCAQgBYMtBzYbWAXIhuD5ut6vc7ufehIPEndIf3oHYgkuRW2F9UydqhnnoQC+UVDGxjVBFkhorp5XoIC5WrkF7/V8LLCaVsDq/y39Di+KRJdST/aTzH38HS5jJ8jj2ewSLaQ703u4Pn1o/Kq3S0g6MgDRDQCLdmxZ56Wf4qeId5uPE+9ag4BYBEqBDBn6CTBXJtBPrkQuF/wUzSb+A0sCiFb5hRPI0Y4rcSsgB0lrnvdt9OxZrVVaOufbKy3Fti83RHy45NW4cPEr6z/Y/tna9xa+5IJFL697f1vcV4u4tbe4o3rL0Pvrt/WJuLtx+4jttzcibq9cXbvVBdVbiqvqt9V3XL0ljKRKYn37VdV7R1ZjdDTikRnuQpUQxbbbiiIiKnF17fFRtRgZ9Xh4+OCHuz38+6D3jnlPc8EyN3DjnH5LlvSbc+MNy3Aa6x9N/I73s1L2/ncTwWPvqRs6X8EVnbtccUWXAnW2Or84UDZg2h1//YK2jf+d/YwdnvHbfad1dFPqdo2NbTXScdp9vylnOfs/IBAsuufCVw50nft/eyWBX57583fhN9h8KUkPo10CQTa2OdbeBBIBAEhxjsEJAsmFnu61dnKbAKFAgKRVIUCmr24C5ApjBGgxwDQBWhW2yETeIVTt6yDp5HSQme5ckKt6FLSY682gVTUyi2Ttif0fTFrO6LJd5aTxE8vZpZpqnJHRcXNOuS2PPMe3RslBxzjVKc5ytKMc7yzCz7AuPtvJlq+wZb6oNMl4E5VmK4+LZ2k7BWc40/HXwvk2c5T3+yOdsx4eJVqSCSdLJIlIXV93ddyh72PB8Wced/RRAA==");
 
 export default FaceAstonished;

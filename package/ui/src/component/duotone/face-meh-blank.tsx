@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-meh-blank` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-meh-blank?s=duotone face-meh-blank}
  * @preview ![face-meh-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-meh-blank.svg)
  */
-const FaceMehBlank: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm144.4-48c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1 0 1.8c0 .5 0 1 0 1.5s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zm224 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M176.4 240a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceMehBlank = createIcon("face-meh-blank", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABmgAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCUQsIAAE2AiQDCgQgBYMtB1gbewXIhof/7OK7r6pnPqD+MCMJmb3ONhaijQDEcza1Zv6vqRd0dA346QgPpXJZIJHc+XwCA4y29AlNaIabgW1x280Q05A+QuIJRXyWL6qQHksf4E74P4DxjU4ukjTKAKIlAGauWrbAK7Wopfig/hLxgfkIiFmgFMjI6CrAFFmgq0KJQiGopXqdWtTrJQFEVfg1ZFBFA1zDA4ACJEkuijZtugxt06TSrFjZpNJ41Y0OEY/EufYPN77e9sG2D7V7qEmTMRFfzoy+uuDD+TWLPp79+qqvZr228CNZPv+DGa8sX/XIQWHW1+6hhHvW2TgXZ7FzhArie7AtFvZWtH+4fZOzbSNa4YwsrtHriZZPfNfzg50fePbj5le52rwQBNQMaTbm8fENXjG3EZ1efHX27Fdf7NTIXNUo4neGNzsONds1pm/kSIFIMFEphUipz5jHzNrtA26WXnkdCAQfvr3x700tpvzWsEkCX7/8wy/VD0n9lSQ9gYYSCPKQ+hDrE0gEACDFSb0SdxHI1snid23qYQFCYwRIqhoLkHXRUoBCY4MFqOhurABVjS2TRdFIaGtDB5KmjoBsnFOg0NaLoGKKt9NVbSNDpAJPyg9h5rwhOndVOXLYiHJSudrQqEAm2cXJ5WHfgJNyYCC+aKdDDjpuh+32OD5gj1qQO+GAeVv4XB9UGmmYEUqTlJfbT0+vtMNRx+xxyMFgmcnK51MDnNwePxAHk5h3lC1ZJlLk9h4+M/TAjt1DP1LXUOge1XFO98oA");
 
 export default FaceMehBlank;

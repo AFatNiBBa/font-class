@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart?s=sharp-light heart}
  * @preview ![heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/heart.svg)
  */
-const Heart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 141.3l-22.6-22.6L209.1 94.4C189.7 74.9 163.3 64 135.8 64C78.5 64 32 110.5 32 167.8c0 27.5 10.9 53.9 30.4 73.4l24.2 24.2L256 434.8 425.4 265.4l24.2-24.2c19.5-19.5 30.4-45.9 30.4-73.4C480 110.5 433.5 64 376.2 64c-27.5 0-53.9 10.9-73.4 30.4l-24.2 24.2L256 141.3zm22.6 316.1L256 480l-22.6-22.6L64 288 39.8 263.8C14.3 238.3 0 203.8 0 167.8C0 92.8 60.8 32 135.8 32c36 0 70.5 14.3 96 39.8l1.6 1.6L256 96l22.6-22.6 1.6-1.6c25.5-25.5 60-39.8 96-39.8C451.2 32 512 92.8 512 167.8c0 36-14.3 70.5-39.8 96L448 288 278.6 457.4z" />
-    </Icon>
-);
+const Heart = createIcon("heart", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABawAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBVQsGAAE2AiQDCAQgBYMtBywb0QTIhuB5m+m8v2sA3juTJCOgZIYQlbkqCFB04Zag1tSp5zkPBfCNgjYWLl28gPY+j0DEcsFFSQf4soLVtAJW3SY+doQhPREighLRce742iGPt2O4ZqQ70ze4dXxo/KqXG0nyDEB0BMCcTetW+OCn+Cnim/qrxDeWISDmgkIgQ4a+AkyXCfSVK5DLBT9Fvc7/gQUBRHP6OAnkyLESmwA5SFKeNwxu06xdvrFNs9bbKuVKJZ6a+Erpib73lsuxITbFsHh6wH2VuLgUpS2lYaVKbIxKvNf48Kz3F306o1uUc75HmPpuwwPT5eD6xqc6PvV7wze1b9THVqvVi7574IXvvm3T+ttbPPHknL3Ft63bfPvdC02/XVTtPq3GRz3xhAsOtGhV3dh08jw1NZw/2bSx2qrFgQvZ/SAQjL331Wt3dZj+f8s2Cfzy1p9/W7+i+k9JegotJRBkw+vDbU8gEQCAFOc1JggkCyX6rm3dJkBojQBJc60FyPTRUYBca8MEaKa/CQI019o6mchbCV3tMJC0dQpkJroK5Lp6GTQz3edac10jgxQBCOJHF7vQQwvGijEjRxdTi9S3SZRgvT+tOOZK51uuTLNqTjjurKr9DjnrkNNWmOccs7CCF/iiwhgjjVaYqriOjtMbVZ12xiEnHJch0xTvpZLzdXWZxERRx7IkiUjNUA0AAA==");
 
 export default Heart;

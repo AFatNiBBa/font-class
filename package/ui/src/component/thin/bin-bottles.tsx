@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bin-bottles` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-bottles?s=thin bin-bottles}
  * @preview ![bin-bottles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bin-bottles.svg)
  */
-const BinBottles: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 24c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24l0 8-16 0 0-8c0-4.4-3.6-8-8-8l-80 0c-4.4 0-8 3.6-8 8l0 8-16 0 0-8zM352 192l-16 0c0-44.2-35.8-80-80-80l-128 0c-44.2 0-80 35.8-80 80l-16 0c0-53 43-96 96-96l128 0c53 0 96 43 96 96zm223.1 0l-16.2 0c-1.1-6.5-3.5-12.6-6.9-17.9c-3.4-5.4-3.4-12.3 .2-17.6c4.7-7 7.4-15.3 7.4-24.4c0-17-9.8-32.5-25.2-39.7l-13.2-6.2c-8.9-4.1-18.5-6.3-28.3-6.3l-90.6 0c-9.8 0-19.4 2.2-28.3 6.3l-13.2 6.2c-5.2 2.4-9.7 5.8-13.5 9.9c-3.7-3.8-7.7-7.4-11.9-10.7c5.2-5.6 11.5-10.3 18.6-13.6l13.1-6.2c11-5.1 23-7.8 35.1-7.8l90.6 0C505 64 517 66.7 528 71.8L541.2 78c21 9.9 34.5 31 34.5 54.2c0 12.3-3.7 23.8-10.1 33.3c5 7.8 8.4 16.9 9.6 26.5zM32 224l15.2 0 .9 0 543.8 0 .9 0 15.2 0 24 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-25.8 0L583.9 440.8c-4.5 40.5-38.7 71.2-79.5 71.2l-368.8 0c-40.8 0-75-30.6-79.5-71.2L33.8 240 8 240c-4.4 0-8-3.6-8-8s3.6-8 8-8l24 0zm558.1 16L49.9 240 72 439.1c3.6 32.4 31 56.9 63.6 56.9l368.8 0c32.6 0 60-24.5 63.6-56.9L590.1 240zM144 32l0 24c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l8 0 0-16c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 16 8 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-24c0-8.8-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const BinBottles = createIcon("bin-bottles", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABswAAALcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDSAsGAAE2AiQDCAQgBYMtBzIbygXIHge5ifVKDDYsBvVxQIsIvl8r+/2ZhZrdvQshKyIqn5VRiePyJBw6QuEObCqS4Pj95h34+7g8JmYJSVOVKGJRumkJS8v0dS3w87uJa56/NT1g2RMM5SNxGRyp3ecT2Hm1RQMlT2iiuGHbtB8ZVn8Z1zxBHv8O45Jusd7hGlgen/U1Q5JlgAjRBXycpduyU+GhPdojfv5DvLMKCIhlAEMgMmQYAMECbOEfwjEEyOWC9vj/H/4fOAQEEGVAYPLxHFU8wydADpJyztH1C7LKQ5iSmJNXK5H6O6OZONMDFoi4riGxqrL35BQ1sh9wPYvEnd/lABIHgTezmbj3vxrItLKDtq333ui9PUqD10mBSyrVFLbOFjtp8S5Tw2VvNT40b/ZY69lSK6ScbT+ARE7c9LscIYrzgOt+eVHgyD2ZMy2tkty45X02UhwXvhf98w8CisSeuECc1G6sRVevETUUU/mQN3hcd7n+MvTd0Xcu3+2ZuR4ye1Z1IVDeb6GKsm3w3S5oF9x6RNbU5chW7ELw4LrZ1OT6alvrzXrXcleTuFh59bx1F+nz5y5tsdcMnD5X6baLolLcqUe62jRokFXaWrCfV67oR/3Kok0b3ee5N25Kcdgan/j6TJQOQJPVb8YMtkycNzHI6pfantYHOXn7u/TyRwlIriy0LOHOLgQtfPsD+5C0L/HbAgSCkS3X//a1LvharbEAOh/9i7z7v6nJegBUJRBkE/5PUJKaAM4MIJCij0fPAAPJEyfmW+uuCxAKBEjKCgEy/ckgyBXGQ1AySDQEZYVN2CIXQuih1BJJ3QUiM8sokevhlihZ4N1f1iOywCwGRfFSMs3pA45+dGpIGE2gnVlaCp98b3ciHa0f01dW+cdboU67Nj1q1WjU4+FdUkO9Wjn7MIcfosKFCEMloLML1xPz1OrSrbFdnt9LIrq+209ff2P/2MSCdE6zLElEYqpOtP0M0tFS2w0AAA==");
 
 export default BinBottles;

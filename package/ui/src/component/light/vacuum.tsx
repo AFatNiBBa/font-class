@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vacuum` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vacuum?s=light vacuum}
  * @preview ![vacuum](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/vacuum.svg)
  */
-const Vacuum: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192.4 89.2C203.2 37.2 249 0 302.1 0L528 0c61.9 0 112 50.1 112 112c0 44.8-26.3 83.5-64.3 101.4C596.1 243.9 608 280.5 608 320l0 128c0 35.3-28.7 64-64 64l-75.3 0c10.4-9.2 19.2-20 26.2-32l49.1 0c17.7 0 32-14.3 32-32l0-128c0-88.4-71.6-160-160-160c-17.7 0-32 14.3-32 32l0 96c-11 0-21.8 1.4-32 4l0-100c0-35.3 28.7-64 64-64c54.6 0 103.9 22.8 138.8 59.4c31-11 53.2-40.6 53.2-75.4c0-44.2-35.8-80-80-80L302.1 32c-37.9 0-70.6 26.6-78.3 63.7L197 224l-32.7 0L192.4 89.2zM157.7 256l32.7 0L163.7 384.1C197.3 386 224 413.9 224 448c0 35.3-28.7 64-64 64L24.2 512C10.8 512 0 501.2 0 487.8c0-5.2 .8-10.4 2.5-15.3l7.6-22.9C23.2 410.4 59.9 384 101.2 384l29.8 0 26.7-128zM144.3 416c-.2 0-.4 0-.6 0l-42.5 0c-27.5 0-52 17.6-60.7 43.8L33.7 480 160 480c17.7 0 32-14.3 32-32s-14.3-32-32-32l-15.7 0zM448 416a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-160 0a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm96-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Vacuum = createIcon("vacuum", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABrwAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDOgsGAAE2AiQDCAQgBYMtBy0btwVRVA7yZB+Lsa0atsSVLV6Mhw9d5vuSvGNLJj4CKgkwSUlIHQBtm1xrKANcHV2c+p+BC/AvtBcnFlqU0OhcVitaQWqdOvU856EAvmW4jo05XzwmjdW5zivQ83jnxmq9VrCKYhe33RwRDwUWKhfI4nyMxZM8lpRxT/jS+FWHD4ksBRD1AMCijU0Nv67oiihffocoWwoExGKAgRApUvSFYC5WoC/OQCCTCbri8mXxHzgQBBAl8X0JyFCJj/Ej01eSKGXZsn6dQp+qoqIm21BU5FufGRPxxowi3hn1Wr9rR756OfStQeJRemAej/Qp4o62RyLil/mfbri9+UGCHhLxxJg3Rvy8+pU+T8TTo1+fnseLB9e2r4s8Nq4r8mJdvNTxWsfpQLzceV1bHysXxYp+XURkqTxub36xvT3uDV/X+nCe1zw9+vWjet+nRr3mHhuQX9cn4okRrxR3DHup4zHXtj869MX89uEvdz4eGznZI2ty5U2DX69//fdB5QNlnx245Rznru3x15+X6gZ35uU/imvlDQ3PLvX7c5PU3npr7bViSbm8JCJzl4befdEja+PQwd7ePrFhf32Pzxeu2tZ5jUH63Dzo5YFxsOMa9/0dVUcW3Gp1S+XwA946fd2A/tT6mmeAMVrOF3vXuvp5OkvVT0x7/v67J5WLnu38hm+2HevoOLbtm286BxUisLNtdUvLaop2BRD3/fb7hO921s39v7JIQM+Hf/6vevry58m1yeuolIAgHXt5rCG5FgQxADOJqygbJQYSb/sin1rtYQFCjgCJklyAVB8yBJncGAgq9BdBUJJbixVZldBs7ECi2mmQmu4NMs2+oMJcf6OkOVIoZmGQ/YdMqoZQOYsm2S7ltFrRcIBJ28mCDssjX7JDw0th5ezkYTHbegyQm9p+Oqq24NIPEY/NRXJ0uf50fm9xc7d1dvLTFOh5RfXa7q/hMhjA5PdPy3gkpat2T8/nEQ==");
 
 export default Vacuum;

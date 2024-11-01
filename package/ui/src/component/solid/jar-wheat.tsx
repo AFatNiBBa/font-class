@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `jar-wheat` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jar-wheat?s=solid jar-wheat}
  * @preview ![jar-wheat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/jar-wheat.svg)
  */
-const JarWheat: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M32 32C32 14.3 46.3 0 64 0L256 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L64 64C46.3 64 32 49.7 32 32zM0 160c0-35.3 28.7-64 64-64l192 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 160zm112 0l-42.2 0c-3.2 0-5.8 2.6-5.8 5.8C64 198 90 224 122.2 224l21.8 0 32 0 21.8 0c32.1 0 58.2-26 58.2-58.2c0-3.2-2.6-5.8-5.8-5.8L208 160c-19.1 0-36.3 8.4-48 21.7c-11.7-13.3-28.9-21.7-48-21.7zm48 117.7c-11.7-13.3-28.9-21.7-48-21.7l-42.2 0c-3.2 0-5.8 2.6-5.8 5.8C64 294 90 320 122.2 320l21.8 0 32 0 21.8 0c32.1 0 58.2-26 58.2-58.2c0-3.2-2.6-5.8-5.8-5.8L208 256c-19.1 0-36.3 8.4-48 21.7zM112 352l-42.2 0c-3.2 0-5.8 2.6-5.8 5.8C64 390 90 416 122.2 416l21.8 0 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32 21.8 0c32.1 0 58.2-26 58.2-58.2c0-3.2-2.6-5.8-5.8-5.8L208 352c-19.1 0-36.3 8.4-48 21.7c-11.7-13.3-28.9-21.7-48-21.7z" />
-    </Icon>
-);
+const JarWheat = createIcon("jar-wheat", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABkAAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCTgsGAAE2AiQDCAQgBYMtBzAbTgVRlMzFDNnPA9tY42jsmVQcCA6K3dl3+UzN/BMPH2v/O3d3v4iyQxL3JK5JTBNkqlj6DdEQ31DJ5Af//2yOC/u/AxWrxKy7Fa1aYdexniebK4+javKSxHO/+t8B//3AOX2zpgEW+VCiLXUg5cPqh1/gwFGWfqHbwW7a4Py3DY8RHZ9ISJlVNJ40XhfIYl16SQnJ8+QH7vKdxj8dLpGoSAFEPQBmrlq2VF+BQsT34lviu8UIiJkgF0iRoluAKVKBbpkcmUxQiCL8D8wJIErRz09AhjLcwH1ABhKBwPdzPeWFgtS/KbD3V6Cp4k9V+mAJxo/rfBkuHFtMZ+sura/TmGNXTyYrsaNqSYs0o2Zj9N2uuxldAGqX2W04VNQICI/fOqjY2/7P/n/s/KHfi65xrbYPc8ihIpF+Z6GBhpeK8bKhoTKnonE46MAZpbzoXOu4c5T7Mwb509z8Z/iJPDWICQUlE8MXTm+Tqy0UslyrIb93PRAIOkeVrt9UN+V/uRLw99POTyPFPmYkr1AuAUE6pPisj5MQMwQAIImT+scMBBIXlKBbrfZEgFCJAIlSlQKkutQLkKk0WIASvcYKUKrSMqnIKoRmGyqZqHaETI1zmsw0e02WmOKzV6o50niUokn6DabP0+DcefnIYSPySfkwJnKICWVycr5sDjiZagNhj50OOei4Hbbbw5wijloannDAPA+f64FyIw0zQm6S/Di71Vcq76hj9tjq+SyT5ffdAU763QPBSRDrKIsTCZFU7N1ydOiplwM=");
 
 export default JarWheat;

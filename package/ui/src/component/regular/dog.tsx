@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dog` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dog?s=regular dog}
  * @preview ![dog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/dog.svg)
  */
-const Dog: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M318 342.2c11.4 9.1 18 22.9 18 37.4l0 68.4c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-173.7L300.5 223c-3.2 .7-6.5 1-9.9 1L144 224l-31.9 0-.1 .8L112 448c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-68.4c0-14.6 6.6-28.3 18-37.4s26.2-12.6 40.4-9.4c9.5 2.1 19.4 3.2 29.6 3.2s20.1-1.1 29.6-3.2c14.2-3.1 29.1 .3 40.4 9.4zM336.9 189l53.4 32.8c7.2-17.7 24.6-29.8 44.4-29.8l45.3 0c26.5 0 48-21.5 48-48l0-32-32 0c-12.7 0-24.9-5.1-33.9-14.1L444.1 80 368 80c-4.2 0-8.4-.6-12.4-1.6L338 183.9c-.3 1.7-.7 3.4-1.1 5.1zM64.2 220.2c-1.1-.3-2.2-.7-3.3-1.1c-27.4-9.6-49-32.4-56.4-61.8L.7 141.8c-3.2-12.9 4.6-25.9 17.5-29.1s25.9 4.6 29.1 17.5c0 0 0 0 0 0l3.9 15.5C55.6 163.5 71.6 176 90 176l54 0 146.7 0L313.5 39.3l.1-.4 .9-5.6 3.1-18.4C319 6.3 326.4 0 335.1 0c5.6 0 10.9 2.6 14.3 7.1l11.2 14.9 3.4 4.6 .2 .3L368 32l76.1 0c12.7 0 24.9 5.1 33.9 14.1L496 64l32 0c26.5 0 48 21.5 48 48l0 32c0 53-43 96-96 96l-45.3 0L432 256l0 192c0 35.3-28.7 64-64 64l-16 0c-35.3 0-64-28.7-64-64l0-19.4 0-48.9c-10.4 2.3-21.1 3.7-32 4.2c-2.7 .1-5.3 .2-8 .2s-5.3-.1-8-.2c-10.9-.5-21.6-1.9-32-4.2l0 48.9 0 19.4c0 35.3-28.7 64-64 64l-16 0c-35.3 0-64-28.7-64-64l0-224c0-1.3 .1-2.6 .2-3.8zM416 112a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const Dog = createIcon("dog", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABqAAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDTgsGAAE2AiQDCAQgBYMtByobyAXIHoPjbomhiWhtUZeXwbjnX/HwsD/ec+/DBzC2LTFRaQ4ZTEmuQoeiUOcqJFrk31f1t96uZ2FGEjIiBJQq/tk6iHyXw9FdtgD+z//l9MayowP8dmSHMkeTlq6B4ZzcCyg6wMbk9vOAelmYJYodzXtxEEK7UIczlPEc+1CRx3mP2Bt8aHwwZIJUFQCITgCwaHNuOsxv6W3Ew/8r4oE1ICAWASYiFCgwisBcfIFRAhNBqRS8jf+L/0AGAUSN6LoEJWrcwwvGJUhldJ/HeLdULlQKClqEstrTEIeNclrhiApiURZNIEZlo24nLkvyeS4/pTA9I33DTU4n3Io1kYzmTJ6oNI9GDKNUpf1Egrq209e3ByxH24XGWHORywuDiAuTXuHmjcaxQalfTq3h4Q8fGZcsQafcT4NlZAjEMQc5p489z60oKlk0jNKcjM8bpWUTVkpHqfYot2Rc5oMnOJ5rzr84PDY8Yt4WOy4Zqred+Gi/gnUzEF8tMMKbIY8Xc+O2eZ/VHZ832OpW46NXeviB/8sn/kSM4ZUWaURru5rBS+gcJw1w9ZUvQpbn1gEsMP8sdME0AyqT+DyVLr+FqWCWtLMOu+kxyYXzwI9Zc1fXrga7XVqZXoCf36GMvOHrzwD6lRUfMiu3qT7eqkI2EFf9Ls/7V6mO/iWR8wDvr337W975///mXJjnoFGCoJj+31tZxhOKKUiUzRjgiL8okO4qRe/a6ogAoRkBUq1ZgMIIDQKlZtMQqIwLQaDWbD2+KKUIvcpbkFrtAYU5BkGp1wWozHWTqfUGH55laJSfJjNS+2iKFwvw9WeRbLGiVkBUtJNRbHfAfWDU4YGPokGnDn3q1WnW12N6pOf7tUtdo1P8EBPAlz8mEjtdf7y/QL0evZp16vCzRGH3x90NrPf3wGGeiHOGREq/NY7U7WoEAAA=");
 
 export default Dog;

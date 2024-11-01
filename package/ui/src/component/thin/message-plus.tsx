@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-plus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-plus?s=thin message-plus}
  * @preview ![message-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/message-plus.svg)
  */
-const MessagePlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 416c0-8.8-7.2-16-16-16l-96 0c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l384 0c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-138.7 0c-3.5 0-6.8 1.1-9.6 3.2L176 496l0-80zM64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l80 0 16 0 0 16 0 64c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM248 304c0 4.4 3.6 8 8 8s8-3.6 8-8l0-88 88 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-88 0 0-88c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 88-88 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l88 0 0 88z" />
-    </Icon>
-);
+const MessagePlus = createIcon("message-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABfgAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCGQsGAAE2AiQDCAQgBYMtBzMbHAVRlMvFDtnPw9iY2fRabC/Kj0K5aIb5K/2srbyJh+/XxD/37SbTpkw7VQCEih2pVgOAKwtXttV/vgxEuG2H2LPQYTHjMZI3tIpp3KhqhO3mqZy35Kre9Sdudt55FOAiD2UNmhrIAtxLoPMA07zzROb/gz1IBC9gr9tkCHYI4dMhIlER0fHl8bVCHq+sUSJdS19xqX5o/NPCGZIsAxD1ATBy/uyp3v+O3xFfq0+IryYjIEaBQiBDhtYCDJEJtJYrkMsFv6Na5f/AggCiTK+fQI4SduAAIAdJlueB8UJCHTQSZu1kGZdN1WfXPDUnXfFYYHvGiAqGY8GTPdb9DhEFTtCpRbjv33y283neO84CAdQ1GYCxUFQghg8Lynzp+6X5r+u+uteu7u8Venz/lhWyb997nPBtzin1OrzEjO3XbzSgQaVQadDgxoz69Y1QOX16z6ElzhGO5048615esaK8wAKNMIoj42MgEJytf+v/5XHIf0ES+PtS/Iqqb5N0EzUkEGRdqs+SBBIBAEixT/sEgWSDjO61tssChAoCJGUVATKt1BcgV9FZgJK2+gpQVjFbJvKaQmNLHU5q2wln+jkK5xp7BJcM8cEsaxxZ0jEpw/z5EscRMHaq6NmtRzGomAaMzSNKhoOLbaXDvlLoiEXrbLfNHmutsdGeAO0y1dlrq3ErcKwvKvTUTQ+FQYrj+F6cR+Yuu20cc+djDFbcNzrYt67vCD1R3F5cSSJS7VSUur5a");
 
 export default MessagePlus;

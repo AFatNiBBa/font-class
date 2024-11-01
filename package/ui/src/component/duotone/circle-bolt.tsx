@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-bolt` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-bolt?s=duotone circle-bolt}
  * @preview ![circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-bolt.svg)
  */
-const CircleBolt: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm144.9 5.3c-2.2-6.4-.2-13.5 5.1-17.8l160-128c5.9-4.7 14.2-4.7 20.1 .1s7.6 12.9 4.2 19.6L281.9 240l70.1 0c6.8 0 12.9 4.3 15.1 10.7s.2 13.5-5.1 17.8l-160 128c-5.9 4.7-14.2 4.7-20.1-.1s-7.6-12.9-4.3-19.6L230.1 272 160 272c-6.8 0-12.8-4.3-15.1-10.7z" />
-        <path d="M334.3 135.2c3.4-6.7 1.6-14.9-4.2-19.6s-14.2-4.7-20.1-.1l-160 128c-5.3 4.2-7.4 11.4-5.1 17.8s8.3 10.7 15.1 10.7l70.1 0L177.7 376.8c-3.4 6.7-1.6 14.9 4.3 19.6s14.2 4.7 20.1 .1l160-128c5.3-4.2 7.4-11.4 5.1-17.8s-8.3-10.7-15.1-10.7l-70.1 0 52.4-104.8z" />
-    </Icon>
-);
+const CircleBolt = createIcon("circle-bolt", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABggAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBfQsIAAE2AiQDCgQgBYMtB1IbIQXIhof/Xyu771d1B4AqUYykAHBAJXrsREUBLqGes5ZA99SpnLEoFMAHkWRjbGxdGBy7Y56XCtTzguSqa4pUqKY1sO4uMqt91PKTpOXO48UeP2UPeXyfXVEi1aYvcZ//BzB+1cUVkiYZgGgNgGlrVizyqiEaUnxZeUF8aSECYjooBDJk6C7ARJlAd7kCuVzQkCoVGqJSKQggyvjdGSijhI04DMhBElKed+/Wo1mpRb6adzTdU92xqv3KeNLhaYdmYfVOa0JqHZsGXPXTtIjXi75qdnvJNzPervl5+pvFXze9tfDLqa9WrqrqUTs8nSObBfW0PdWximwaF/Wpa133e+8vd39p0dj516uqnp13ut+457ON2CuHnuJn+l+Z1YQu9a9nzHhd36WJWaZI/oO835lev6r6+nxaO9vzcfg6EAh+7/zovy2tJv7fuFkCv7z889/wQ1J5laQ6NJZAkA2sDLQxgUQAAFKc1idxD4HMWIn/1OaqBAhNESApaypAppvWAuSaGiBASU+jBChraoVM5E2E9jYlkDR3DGRGOwty7dWDkok+BmXtI9MzXkv4Z17KbERmbSqGDR5ajC+qhSioDuuWJxTDat/TYqgf9NrtiMNO2mWnfU5mzHGL4lMOmd2iZ/miwjCDDVUYr1iul8pqDI47YV9ZWl9lgmK/3dfp9uR+sJ0EGH5CqYxIkbX7j5MYtP3IwZODruxIByndTg==");
 
 export default CircleBolt;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-check` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-check?s=thin file-circle-check}
  * @preview ![file-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-circle-check.svg)
  */
-const FileCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 496l247.2 0c5.8 5.5 12 10.6 18.5 15.3c-3.2 .5-6.4 .7-9.7 .7L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L204.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 145.9c9 9 14.1 21.2 14.1 33.9l0 18.7c-5.4 1.5-10.8 3.3-16 5.4l0-24.1c0-1.3-.1-2.6-.2-3.9L248 176c-22.1 0-40-17.9-40-40l0-119.8c-1.3-.2-2.6-.2-3.9-.2L64 16C37.5 16 16 37.5 16 64l0 384c0 26.5 21.5 48 48 48zM361.1 160c-.8-1-1.6-1.9-2.4-2.7L226.7 25.4c-.9-.9-1.8-1.7-2.7-2.4L224 136c0 13.3 10.7 24 24 24l113.1 0zM432 496a128 128 0 1 0 0-256 128 128 0 1 0 0 256zm0-272a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm69.7 98.3c3.1 3.1 3.1 8.2 0 11.3l-80 80c-3.1 3.1-8.2 3.1-11.3 0l-48-48c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0L416 396.7l74.3-74.3c3.1-3.1 8.2-3.1 11.3 0z" />
-    </Icon>
-);
+const FileCircleCheck = createIcon("file-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABmgAAAK6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCawsGAAE2AiQDCAQgBYMtBzgbcwXIrgdsYxjeP4qhGNKKUXrCIruc8O7g9D6LEQ//v1Z5368aqpnl7gWsnQVAVAFEGZVV7cJCAdmcyOgmAC53/1+bAk14ctYGzKPA0x+gY2lDNCyIvB0mGm8mFIURCLrUhFStK07mGnxvhJBDfQV83yAstf/m/3LP7/nRAvl8J34oe+rCUYFEcz5PIMBvXb4pobEwyyQBb3c2Gkq0xyGJLMnxmeOSLeTxq8MaSG+mn/F8fNP4Vy+PkWQZgOgMgAWXTWvU/lJ/Rfxcj/jZKgTEQlAKZMjQV4DZMoG+ciVyueCvqG/+AyGAaET3l0COJrwOHwLkIGnI85ltffp0a23okG+d9os100nrq9W4aIvPRpa9o3h7VDVsGk9XT5EQr1SCeBBFPNU9jYiniiI+qcQ9w3izmgy5vpbPocvFm0OmOx49iK9HVfFgZGnI4qnhOel+K9LW7OkZffq3Yxr3Rz39edTM99g2HozrZn1atyTpGHH3VbzWI6suY1uQoPOvOpf/+Y9WT/DSY/lAZsV9BfyMD56h8n+E3yvRxVtPUrquS/VE7lJ6xvjfL+a+7JffZl0nHj2iswuquwtL1w161Pq59vYO/Wq1UmqlLAxLpAkDhw4dOCGlYbYBYEsOTNnr1tl0qHOsy95ixRaeDwSCSd97rl/8zzSBf54cT1en54clmiUQZKPr2h1uQFEDqKS4qp35oEDyPA3oUtu8RoBQIEDSqBAg00dnAXKFUQI06G+KAI0Km2QibxEq9hSQtLkAMlPdAbmKb0CD2b4rGlWCTDpF2RIfh2lLa2TJqnKNHV/OLIcNWRI43i/OKqe9etUOjICNjjrnrMuOOOyEyxV20ZraFWcs5dAlvqg0wVjjlWYql9u367c64qJLTjjnbFhmlnJ/NNxVfvwICBNinKguSUTqchOsMf94jDEnHQ==");
 
 export default FileCircleCheck;

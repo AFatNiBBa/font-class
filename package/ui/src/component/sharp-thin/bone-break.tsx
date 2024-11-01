@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bone-break` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bone-break?s=sharp-thin bone-break}
  * @preview ![bone-break](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bone-break.svg)
  */
-const BoneBreak: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M328 0L312 0l0 8 0 112 0 8 16 0 0-8L328 8l0-8zM168 60.7L156.7 72l5.7 5.7 80 80 5.7 5.7L259.3 152l-5.7-5.7-80-80L168 60.7zM483.3 72L472 60.7l-5.7 5.7-80 80-5.7 5.7L392 163.3l5.7-5.7 80-80 5.7-5.7zm-217 156.2l-91.6 24.6-15.5 4.1c-11.4-42.7-55.3-68-98-56.6s-68 55.3-56.6 98c8.5 31.7 34.9 53.8 65.3 58.4l3.4 12.9c-24.1 19.2-35.9 51.6-27.4 83.3c11.4 42.7 55.3 68 98 56.6s68-55.3 56.6-98l15.5-4.1 91.6-24.6-4.1-15.5L196.5 396l-15.5 4.1 4.1 15.5c9.1 34.1-11.1 69.2-45.3 78.4s-69.2-11.1-78.4-45.3c-6.8-25.3 2.6-51.2 21.9-66.6l8.2-6.5L89 365.5l-3.4-12.9-2.7-10.1L72.4 341c-24.4-3.7-45.5-21.4-52.3-46.7C11 260.1 31.3 225 65.4 215.8s69.2 11.1 78.4 45.3l4.1 15.5 15.5-4.1 107.1-28.7-4.1-15.5zm200.9 24.6l-91.6-24.6-4.1 15.5 107.1 28.7 15.5 4.1 4.1-15.5c9.1-34.1 44.2-54.4 78.4-45.3s54.4 44.2 45.3 78.4c-6.8 25.3-27.9 43-52.3 46.7l-10.4 1.6-2.7 10.1L553 365.5l-2.7 10.1 8.2 6.5c19.3 15.4 28.7 41.3 21.9 66.6c-9.1 34.1-44.2 54.4-78.4 45.3s-54.4-44.2-45.3-78.4l4.1-15.5L445.4 396 338.3 367.3l-4.1 15.5 91.6 24.6 15.5 4.1c-11.4 42.7 13.9 86.5 56.6 98s86.5-13.9 98-56.6c8.5-31.7-3.3-64-27.4-83.3l3.4-12.9c30.5-4.6 56.9-26.7 65.3-58.4c11.4-42.7-13.9-86.5-56.6-98s-86.5 13.9-98 56.6l-15.5-4.1z" />
-    </Icon>
-);
+const BoneBreak = createIcon("bone-break", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABxQAAALuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSEBQsGAAE2AiQDCAQgBYMtBzEbBgbIHqc7eiIQb3Elgoe8vuql0x9gRitzJN1WxIjXFdiD5xbAwVI8GmrGw7/r3EIlAgcsXoMVZ6nJicvpj5nn2wPMQxl7UhvHmNwlEHib1gAJ6AMqYQsE3UzHO1eYBWG4Qhr/GCpPckOyHZf5q+MbrZaSyOWEXKIGVXH0heeebvWH8WHEtsIzxDanIiCOBplADjl0CHCYnECHVIZUKvgwCgX3PzAjgCgCLXEoRTHew28Ms0jk07SWzLPPLs9Xpheky8tGlJWXCSHKg6zzGpobGkOExWBBQ/IMampsagge4r5S4TzvvAtX7Iu8w+6pNh0XSVSEpdj7EQpd02ql841zbnJ7PhdJoxWnyyPsi8sCZ9P5F6BruE86KtxjjD2QRlEST8cJQkX6Huk2ZdxgvJ9nHGEKWMqrIlGUZ9OuoD0flPf32D58uxNX1YQFJWCiEjUK522HvRQf78wznedBjumQsiF0Hni8lPCbN13SElHwFwtXrSr+65+/J17Y3TVkN53Th114+aOriku++Vt/4tJmRxrd4RdHuviZDdfdc2nfWTPfWmZnu9nZHYZvunjDM9fd27fvrCN9YkyHMze3XHnhmca0+9SRZvXte++1z2y8eNPw2+2yZ98yb60c1XfMNddt2DDqSL9c/YIjXdrsUxP//qe0eNVjl184bVjXboZ0VZsB8NdbVi38BQgEt0/9/JMB1Yf9VlKegI9f/OGb4sXCf4UXk2XJgyiRgCC3W2E3fZOFC8A/M4QwlsR0PfklgcRr8vjUCtcKEMoQIFGkTICcdjUCpMrsKkBel/0FKFLmXDmRlgoN+jXcRIVJ3JwDzOOmGjzFzTvMpliRhsBSXSpRpX+aqU7owscvyvbeY6/skGy2qpLJXrEzfWi22bTTdKNrZ/YaboLxphpmqFGmduiTnZ6cZpwTlviP/25mb3vYS+YQ2eHGw+0XGGayKUaZYLw3z6Gy6307mb48eGesiVDgPpYnEiIpGzxh/LDdvx4=");
 
 export default BoneBreak;

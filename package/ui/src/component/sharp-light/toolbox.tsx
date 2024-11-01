@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toolbox` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toolbox?s=sharp-light toolbox}
  * @preview ![toolbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/toolbox.svg)
  */
-const Toolbox: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 32l16 0 224 0 16 0 0 16 0 80 48 0 80 80 0 240 0 32-32 0L32 480 0 480l0-32L0 208l80-80 48 0 0-80 0-16zM352 64L160 64l0 64 192 0 0-64zM93.3 160L32 221.3 32 320l128 0 0-32 0-16 32 0 0 16 0 32 128 0 0-32 0-16 32 0 0 16 0 32 128 0 0-98.7L418.7 160 384 160l-32 0-192 0-32 0-34.7 0zM32 352l0 96 448 0 0-96-128 0 0 32 0 16-32 0 0-16 0-32-128 0 0 32 0 16-32 0 0-16 0-32L32 352z" />
-    </Icon>
-);
+const Toolbox = createIcon("toolbox", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABbgAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCIwsGAAE2AiQDCAQgBYMtBy4bIQXIjsK22TMuSZJIxuUwGF8T8d/vV/a5/y293YQdkM2okAoLg1yewEXoOGI3QibCjvALNjr6+8H+6s3KddPOSj4nCA2Kwfl+O6bKqVPPMy00z98jHrPYmLg0IAuzO8bQCFSsVy9t8GUFq2kFrOau1kIS3U+spUjyeO7j7QgtfzMhpT7WDLwtH5p/jG6htAFAtgKAs9fH+xDWaC2Zjc+QmS4I5ByA/QgDBuxG4ASxYDeJ/aBpwlrG0f8HMgTIPDxigYZ5vARvADRQWmt7luwH1NJN7Zpa2m+rVZtElnOVEOkrSXKd1ElyVaXuevhgZHwEo8hbRNhLpHqAb4rQHpGenH5waph+m79WZy6+G7bCYETI8Dz+MF5j/LlMyAjDqkkAp0RQqrmv+JJLzBDbOWvJF+v9l3lUFczv3A8Iwuf9v+/mtuT+L6oLbPz5/Vd/ReNaqSlYVCAMk3FiugBFAACV17AUEJSHJPCuK94hEB0BZV4XMNjFgEDTHUJgzl5xBOZ1l4mlLYmdZgSUFc/A4Lgz0Oz0COac8OrP2xmx5Sl2o3z8Mhsaqu/icCDEGZ62NNWYpLSa5W3LdRpG3HQQq/bsOrZi2YZjRR7qRyd2NFZE3RexsIAQlsHH3cf9U1YcOrJhz26uksX3PZfT9XQ3uSLgPayuFKmF5wMAAA==");
 
 export default Toolbox;

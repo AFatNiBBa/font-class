@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swap` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swap?s=light swap}
  * @preview ![swap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/swap.svg)
  */
-const Swap: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M208 126.7c0 18.4-14.9 33.3-33.3 33.3L128 160l0 200c0 48.6 39.4 88 88 88s88-39.4 88-88l0-208c0-66.3 53.7-120 120-120s120 53.7 120 120l0 200 46.7 0c18.4 0 33.3 14.9 33.3 33.3c0 8.3-3.1 16.3-8.7 22.4l-75.5 83c-3 3.3-7.3 5.2-11.8 5.2s-8.8-1.9-11.8-5.2l-75.5-83c-5.6-6.1-8.7-14.1-8.7-22.4c0-18.4 14.9-33.3 33.3-33.3l46.7 0 0-200c0-48.6-39.4-88-88-88s-88 39.4-88 88l0 208c0 66.3-53.7 120-120 120s-120-53.7-120-120l0-200-46.7 0C30.9 160 16 145.1 16 126.7c0-8.3 3.1-16.3 8.7-22.4l75.5-83c3-3.3 7.3-5.2 11.8-5.2s8.8 1.9 11.8 5.2l75.5 83c5.6 6.1 8.7 14.1 8.7 22.4zM112 128s0 0 0 0s0 0 0 0l62.7 0c.7 0 1.3-.6 1.3-1.3c0-.3-.1-.6-.3-.9L112 55.8l-63.7 70c-.2 .2-.3 .6-.3 .9c0 .7 .6 1.3 1.3 1.3l62.7 0zM528 384l-62.7 0c-.7 0-1.3 .6-1.3 1.3c0 .3 .1 .6 .3 .9l63.7 70 63.7-70c.2-.2 .3-.6 .3-.9c0-.7-.6-1.3-1.3-1.3L528 384z" />
-    </Icon>
-);
+const Swap = createIcon("swap", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABiAAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCYwsGAAE2AiQDCAQgBYMtBysbXgXIhof/n/v8fW4ylJQhHVVGUO0nIgmIwsz6FhXwm/9rPr/n14DfzzHa7vSaI4FuGbw3gT0fRVqUbaBpw9lEceqm5mkRVeoh4oYIFnE7rtHj2wHy+CcGqyPdk77ATflD40fdXU6SZwCiHQBmrFu1xDst0RLxRe1F4guLEBAzQSWQIUMvASbLBHrJVcjlgpao1eg/sCKAqCd3m0COOtyKhwE5SLI839ajfVnXOl9b1hWbLu4UcXtRhHhgwDNjXh70XN+Ix6a9Pe/DKW/2E2Vc1/kOF3dard/k2i5r4864pOtdZRkRDw58duwL/Z/uJR6e/Mbsj6a+1RxRhGNJXRegTyasiTusviQiLinsM0xF1sbqTS4uyx1FWVzr4lgT61aXFUXzs+2e/bnfF3u/8PX0NndzTZthPpFfffX06ZGSfyO1b19VW6RPDNPmmrvbtL5m4UqzGxpme/Wa1ttVpL5tBJkmdNPmMHu50x6qTZNi8/VAIPhjctvvt7Wd/FtjmcAPr/36W7u8Xe2bdDw9i0YJBNng2mCb08XaaacMEMRPcVYzviiQXCuDd23lTgFCgQBJvUKATE/tBMgVBglQp48xAtQrrJKJvEnoZMsNklZOgMxY50Guk+dBnck+9up1iswyebvifwxT5o7QnFHViKHDq4nVMtcFY2ND/6RqW+t/lusGYK29jjnqtD12O+D0QJ60JDzjiLkaPMcPVUYYarjKRNVx6Xn5WnucdMoBxxxNw0xSvW/1d1ZvPQDjSICR35TlbKT81LkdxwEA");
 
 export default Swap;

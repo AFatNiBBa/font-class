@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-binary` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-binary?s=sharp-solid cloud-binary}
  * @preview ![cloud-binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-binary.svg)
  */
-const CloudBinary: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 480l144 0 368 0 128 0 0-128c0-59.6-40.8-109.8-96-124l0-36c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192l0 8.2C40.1 220 0 273.3 0 336L0 480zM288 160l16 0 16 0 16 0 0 16 0 80 0 16-32 0 0-16 0-64-16 0 0-32zm-112 0l64 0 16 0 0 16 0 80 0 16-16 0-64 0-16 0 0-16 0-80 0-16 16 0zm16 80l32 0 0-48-32 0 0 48zm192-80l16 0 64 0 16 0 0 16 0 80 0 16-16 0-64 0-16 0 0-16 0-80 0-16zm32 32l0 48 32 0 0-48-32 0zM192 304l16 0 16 0 0 16 0 80 0 16-32 0 0-16 0-64-16 0 0-32 16 0zm80 0l16 0 64 0 16 0 0 16 0 80 0 16-16 0-64 0-16 0 0-16 0-80 0-16zm32 32l0 48 32 0 0-48-32 0zm112-32l16 0 16 0 0 16 0 80 0 16-32 0 0-16 0-64-16 0 0-32 16 0z" />
-    </Icon>
-);
+const CloudBinary = createIcon("cloud-binary", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABlQAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDLgsGAAE2AiQDCAQgBYMtBzMbsQXIhuB5u/+qc7u/uj965DuyVnIEKAWQOdx8kC4c6U2d6sl5aJ5PikAsQZujQ+tr+F7nD1QqaLG+qVfw1opjiWLNbTEGDrRcGyIqOkUNbaF++Q2U8U9xlzbSU+l7PKA3Gj8a5i6SrgJANABYe+z+nb48HIcjvmu9R3xnOwJiLcgCBQqMFGCFQmCkUkapFByOViv8B2YCiHY4awIluvE+vgSUIKnKcuyAAV39ugZJsm7rKY+RVZW66ot4ftbri/joaS8vunvC68s+XvTDik8PiHdnvDrSuXVVCyGqgEx9VQtVZER9UB6LOpYzVahjxIErYFHXq4LHXsa4l5uXfx77/Tnfyw8+eNtteh586ekJOl9++bbRl+5fuODL9fH997G+0xuPPNL34JjVTTOnsUcja6zRyJetWbOH/UY/7dudc54jm/PF7qY5zQhbcxDJ4qJDlzZNfgOm2bMreemY04FAcP+lv289tW/F3511Akc//vVnPV7rcLotvYxOCQTFjNYMJ6XbIPADyKS4xjjjjgLJ6yq41m6PCxAqBEjaVQIURmgEKFWmC9BmtIUCtKvsV4iySxjo5EIl3S6nCovcTJUGeodqs8JX6XYDo/Bf1fvUr8esTTW8cVmeO2tOXpandVlzSTnNL8/bkSnXSN9UWuscl7rEVc52lvNdVaFX2Jm72sU2WchGP5TNNcsc2TL5uHVvHcPpK1zp/LHvHGS5/D4xxTX26KkUTyA5T0WSiNT9I8PymWecf8npV1wPAAAA");
 
 export default CloudBinary;

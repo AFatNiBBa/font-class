@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `q` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/q?s=sharp-solid q}
  * @preview ![q](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/q.svg)
  */
-const Q: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 256c0 88.4 71.6 160 160 160c25.3 0 49.2-5.9 70.5-16.3L194.9 256l77.9 0 72.4 104.5c24.2-28 38.8-64.5 38.8-104.5c0-88.4-71.6-160-160-160S64 167.6 64 256zM331.3 452.7C299.4 470.1 262.9 480 224 480C100.3 480 0 379.7 0 256S100.3 32 224 32s224 100.3 224 224c0 61.8-25 117.8-65.5 158.3l66.2 95.5 1.5 2.2-77.9 0-41.1-59.3z" />
-    </Icon>
-);
+const Q = createIcon("q", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABYQAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBQAsGAAE2AiQDCAQgBYMtBygbuATIHoVNWXs46ojDcxjZqgF4frgiiNbK6tm5ByKLGCCQwDZKEThFNmsj2aJCtT8/Lv87iP8gD3HV6G5QW4hgk5gYyoW6HV67IFkQB422b80WeaTH/5/LPT/bdICf5BTn0gUyFtja1fMEEuvlEyyRA8s0AWt3NoND2CutlbXkde143SHHMA9CjfSS7nC/7zS+GTRI0lgggOiAAOy9HDz8v/EbcFutE+8cBwJiL8AEQIECIwDsQBQYQTIBybLgM/xX+T8QQwFEHSI0MTK+uRc4DUAGScok+QSzxiYVp50ySt7vhNhPhtaLgQlFcag/0gfFbzv2Cuu+AxfHbpZW9NOB1YLbw+dHrxeXdb3OOWsRiKMJ8qZmeDNZ3V3znd2vIL+kzAdz+437TnF3oWqB/LLcD/lxV0Z+09n/iV+18+S5jfP8dkb9uz7s6ad92FsD6JQXCASPd33eXeEmf9OYBARfd35ljV9RdQQnaQZokEBQzFROlXFE9QcnAgCQopOK1wgkmwgoaPHsNAlNICR1mqAwjAdZk2moGRNijcXzWGS6CHpUBUha3IPCmi7IeqxCzQ6XYZ2eKByJdwP+G5diOWIuCZ/bi+N4W5qCb7D1NIHNjrWzjGxwE1qb1a1RG9yMPvnksbAaZXyR4OPmhcXh42Z5PdU4XQabtZ2TgO8HVp36sg3EBzIvFSFJ0U3QAgAA");
 
 export default Q;

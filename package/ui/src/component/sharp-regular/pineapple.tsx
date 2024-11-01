@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pineapple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pineapple?s=sharp-regular pineapple}
  * @preview ![pineapple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pineapple.svg)
  */
-const Pineapple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 96l-40 40 24 24-57.1 22.9L448 192l0 128L256 512l-128 0L0 384 0 256 192 64l128 0 9.1 9.1L352 16l24 24L416 0l10 30 70-14L482 86l30 10zM236.1 464L400 300.1l0-88.2L300.1 112l-88.2 0L48 275.9l0 88.2L147.9 464l88.2 0zM176 201.4l11.3 11.3L208 233.4l20.7-20.7L240 201.4 262.6 224l-11.3 11.3-32 32L208 278.6l-11.3-11.3-32-32L153.4 224 176 201.4zm-80 80l11.3 11.3L128 313.4l20.7-20.7L160 281.4 182.6 304l-11.3 11.3-32 32L128 358.6l-11.3-11.3-32-32L73.4 304 96 281.4zm160 0l11.3 11.3L288 313.4l20.7-20.7L320 281.4 342.6 304l-11.3 11.3-32 32L288 358.6l-11.3-11.3-32-32L233.4 304 256 281.4zm-80 80l11.3 11.3L208 393.4l20.7-20.7L240 361.4 262.6 384l-11.3 11.3-32 32L208 438.6l-11.3-11.3-32-32L153.4 384 176 361.4z" />
-    </Icon>
-);
+const Pineapple = createIcon("pineapple", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABlAAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDDwsGAAE2AiQDCAQgBYMtBzAbjwXIHgfVbfTGI23K1J/gSTz8/1rZfb+qOwBUYWZFpBKHoGZkCB0KFTcnElau7mb+gnxbIe/zf83nd34N+I0OLQorfZE468QTGGiX701gNrCZTsBmbY5bFBTlQEEeeTRNomH8hqkH5PE+rkS6neB6/tD4q42LJKUMQDQGwOSVS+f7UhM1ET8rL4mf5iIgJoNCIEOG9gKMkwm0lyuQywU1Uam4/8CCAKKML0sgR208w2tADpJynvds0oaReqUG+Yp6dd2d4yaO6x2zokWIZVE3VkTEyqins4dG75gYbVzOsui+beWylbGQ64arxPKot6ZFyxa9o2+0it7RPHoVrGX0Gavvsml36x1P71LVuOo/dlDZeJInXHbVWZ8/O+vMGbnrql1OOum+6Q00mO5Xsz1F5ipbt1oFMHtsuRrTp5qq2g7vVFRDrkioHQsXXnb50f3ngUBwbcWfxjUa93/tegn8fnf7Gal8SVIVaksgyPpV+lmXQCIAAClO6JIgkNxTxnet74YAoS4CJGV1Bci001iAXF19BSjpaLgAZXUtlYm8jtDc+g6S+g6DzAinQK6556BknK+xsuaR2StnbdzvYvIMDU2fVAweMKgYUyzzhDdBJvaPLY6VXid8XW9stcNBBxyz3Ta7HVPUEfOTx+03Y4dM90WFwQYYpDBG8bj0uH6F7Y44areDDqQwYxXvB72c2LfuDT0h7RBzk0SkOod2H9j+mQA=");
 
 export default Pineapple;

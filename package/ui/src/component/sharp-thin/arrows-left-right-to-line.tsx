@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-left-right-to-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-left-right-to-line?s=sharp-thin arrows-left-right-to-line}
  * @preview ![arrows-left-right-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/arrows-left-right-to-line.svg)
  */
-const ArrowsLeftRightToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 64l0 8 0 368 0 8L0 448l0-8L0 72l0-8 16 0zm195.3 96l-5.7 5.7L123.3 248l393.4 0-82.3-82.3-5.7-5.7L440 148.7l5.7 5.7 96 96 5.7 5.7-5.7 5.7-96 96-5.7 5.7L428.7 352l5.7-5.7L516.7 264l-393.4 0 82.3 82.3 5.7 5.7L200 363.3l-5.7-5.7-96-96L92.7 256l5.7-5.7 96-96 5.7-5.7L211.3 160zM640 72l0 368 0 8-16 0 0-8 0-368 0-8 16 0 0 8z" />
-    </Icon>
-);
+const ArrowsLeftRightToLine = createIcon("arrows-left-right-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABbgAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBfQsGAAE2AiQDCAQgBYMtB0AbDQXIjsO44TuyxVL+I6hf++x5u/8QAriJYgQHpNiRi77EASkiY65iUUVhMqsWTX8/z//5b8Bn9NGisGJtUd593mAJFOXDiaQNZxOaEM+85Yz2SLNfkokm6fFcPT5dII/fdiiR7iS4IW8aX3V2iSTLAEQDAKauXr7Qi/Zoj/j8/xHx2XwExFRQCGTI0E2ACTKBbnIFcrmgPf7/T/+BBQFEGb3BBHKUsBkHATlIsjxvHNlYXarNV1WXqtYLKURVRGQRUb2ypWPLiqiNVdEhOkZrrCSkJVYw1rs6apjoEKvohentKUv7p0Lvtoa2773sov5shaYdUaFBhWq92hzCy5a6TDbO1GaFzZvNNJPXtNI9MzkpK7TdX32ECg/9ggogEBy6e2PC5voJvyqqE/jy/OfXekU6l0aFBIJswP8BNqRzNCugaIpTeuODAslqGbxqjZsChCoESMpUCZDpqkGAXJX+ApT0MFKAMlWWy0ReKbTY2EFS4yjIjHIa5Fo8ACUTvI+UaYkszNggYX95SbMsNHNeMXTQkGJcMS1oXOTQeXB8sSz3OcUNfXHWLocdcsJOO+x1wpDHLIyfdNAsD57piwpDDTJEYZxiu/x4fJWdjjlur8MOlWHGK857+zjlt+8LLVHKYTYkiUidtx57BcwNZB9qaOCJwwPjEQAAAA==");
 
 export default ArrowsLeftRightToLine;

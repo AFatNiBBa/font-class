@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `asterisk` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/asterisk?s=thin asterisk}
  * @preview ![asterisk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/asterisk.svg)
  */
-const Asterisk: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 32c4.4 0 8 3.6 8 8l0 201.2L371.6 129.3c3.7-2.4 8.7-1.4 11.1 2.3s1.4 8.7-2.3 11.1L206.6 256 380.4 369.3c3.7 2.4 4.7 7.4 2.3 11.1s-7.4 4.7-11.1 2.3L200 270.8 200 472c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-201.2L12.4 382.7c-3.7 2.4-8.7 1.4-11.1-2.3s-1.4-8.7 2.3-11.1L177.4 256 3.6 142.7c-3.7-2.4-4.7-7.4-2.3-11.1s7.4-4.7 11.1-2.3L184 241.2 184 40c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const Asterisk = createIcon("asterisk", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABWwAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBLQsGAAE2AiQDCAQgBYMtBy8brATIngVO2TyCl3OJZLOJID98Eh5CRPC1H7rv/gXBESggEApBSAIjwgXp4ypMp7b2//u1mTXBpF0WEa2m3sRCtEhfaOaNs6X9ikXxl8yqD7ABpxmkELAM/NSpmnEeCuAjxWRszPnGbI2t1c3Fnve8NJavKRKhimL9dn7PouikDJKOuCSLTdIfln+EHM8GGEm/dQAvrlPxH6G2gKQoAEQ9AGB1r74S9xo18ludAPGNchAQa4BORIHlrQgW6AU/gkEnyLLgL5Wi/0ABAohS/psJZBSYBZsAMkgi51G7sSbvmr2VR1+B4F7sBe4ENLAx1J7toCYiPgN2g8jtYIHd4GY2BUjx5kYyfga73D7u1zBDcLefyYODadRtRjYczsAZDX2FdcXMHpjO2+8DBII/J3vsruANewL/Lv8db1T/SuOGbkC5BIJiQImOWCPofyK4vRl3XAiBSEYDMbpa7QcIQiUCJKUqBSi08EGQVepHUKJdJoJSlbboRa4QmnVmkFS7BIUpyyBrdgRKLHiwSjWH/vmwl8/+vSUVcbRwnqQmpUiedCOJexG0Hc2XYTlmSVdicRBDpk1ZMGjAqAWGz6l0F00qkrBCPyRSJUkh8sh0er27yaA580ZNm6Jp8sl6JcaS3B6LxegAYwe/JBGp/OJ6YfBbAAA=");
 
 export default Asterisk;

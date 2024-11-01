@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `floppy-disks` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disks?s=thin floppy-disks}
  * @preview ![floppy-disks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/floppy-disks.svg)
  */
-const FloppyDisks: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 352l0-288c0-26.5 21.5-48 48-48l0 96c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-94.8c8.8 2 17 6.4 23.4 12.9l74.5 74.5c9 9 14.1 21.2 14.1 33.9L496 352c0 26.5-21.5 48-48 48l-288 0c-26.5 0-48-21.5-48-48zM176 0L160 0C124.7 0 96 28.7 96 64l0 288c0 35.3 28.7 64 64 64l288 0c35.3 0 64-28.7 64-64l0-213.5c0-17-6.7-33.3-18.7-45.3L418.7 18.7C406.7 6.7 390.5 0 373.5 0L176 0zm16 128c-8.8 0-16-7.2-16-16l0-96 192 0 0 96c0 8.8-7.2 16-16 16l-160 0zm48 144a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm144 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM0 160L0 448c0 35.3 28.7 64 64 64l288 0c35.3 0 64-28.7 64-64l-16 0c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-288c0-26.5 21.5-48 48-48l0-16C28.7 96 0 124.7 0 160z" />
-    </Icon>
-);
+const FloppyDisks = createIcon("floppy-disks", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABngAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCcAsGAAE2AiQDCAQgBYMtBzMbcwUR1ZrxyH4kxraJtg69aexIyBJv4uH/13x/n3snWa+TFHkKiA4VowSyCB8INbJKZV3ZfmD5Vwx2VvEEDvf8WFw2HdDz/EoTWIXoT52qGeehAL6FLGhj2tKAZGNwzvOcBwM8Ork2hWoFq2kFrCw92/bmiElIN0LjAkV8YZ8a6fnUwqPhTeMX/Z0nyRlAdAPAso1r1/j2ftyPaLU/IlpWISCWg0ogI2OQAAtlgUEKFQqF4H602+I3EAQQdfEflECBDjyPNwEFSOpFMXZws3Pn0Y1a52JDo1ZuzCm/2PfZMeJ076cbjbjW99mIeLr3+niaeK7XUyOb8U6fZwZsLRvlW2Pf65fi+XHvj+oc7074cGDEmfEb4oOyXP9Mn4hGiKd6letfnfDhuPcHvzT2vfEfDGm8Mv/zuZ8OenneZwu+GLon5XSyWN6s5Hhfibj9iuEfdPvgN60DLYd2VqjyzdtTd+ly+XKX14qlnb5/fuVKd3rdMu+vTL19My/Z2S32vta9e1kpCfQa1d16y8DhK1YYPuDnrqfud9nlW7t0uf/alEfzw7/+epgx8bHmwRMnDjYnpw5VqE4Xuz2uVKjSTfQ8EAgem3Hp/51dF/7X0Ujg4ed/rL5G2t8m6QN0SCDIE9sTbUsgEQCAFCcNTxBIHlcXv2rTMwKEEgGSulKAbKBuAhRKEwSoGWKWAHWltbIoOgm9bKcgaToCMj/bCwq9fKBmod+o6xUZQBnwYn4PE9UQlXMIXB8cq4GGhTnKDgUOy/omCwY+STK9ziKVKC0DfBLZq5bawqQPgoDLBxwux08Px1KTWanX+TECntd123a9gTUmJg2dYxI0aVnTD8PpfNrSDAA=");
 
 export default FloppyDisks;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sd-cards` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sd-cards?s=sharp-thin sd-cards}
  * @preview ![sd-cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sd-cards.svg)
  */
-const SdCards: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 416l0-400L214.6 16 96 134.6 96 416l336 0zM98.7 109.3L208 0 432 0l16 0 0 16 0 400 0 16-16 0L96 432l-16 0 0-16 0-288 18.7-18.7s0 0 0 0zM248 72l0 8 0 64 0 8-16 0 0-8 0-64 0-8 16 0zm64 0l0 8 0 64 0 8-16 0 0-8 0-64 0-8 16 0zm64 0l0 8 0 64 0 8-16 0 0-8 0-64 0-8 16 0zM0 208l48-48 0 22.6-32 32L16 496l336 0 0-32 16 0 0 32 0 16-16 0L16 512 0 512l0-16L0 208z" />
-    </Icon>
-);
+const SdCards = createIcon("sd-cards", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABdAAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCLQsGAAE2AiQDCAQgBYMtBy8bLAURlZpByH4kZKcyd0SIFwRrjWo04UgE36+V/f7M7gFNiDcXQIXqUAcIFJEikITCIap1YeG3YlORkamp7HejzXEkSvyITipkaKurIjb/13x+z48K5BsdWvcSZG3TbpvAAKO9UmQ2sJlOwGbt7BcUvhuUJBSJH8bPsNhBHo/sUSE9SD9xjT80/hjjEkmWAYgCAIPrVy9Vb0Qj4kf5jvhhMQJiENQEMmQYL0CPTGC8XA25XNCIsjT/gTUCiCq8LIEczTiFC4AcJNU8bxs9BClj2iod+bp0fuvuLGWtsSZSdOxbv2Z9W5tIIVrbI7KYE+ddZL1glAPDtbUxvqO/p1+cKUgGN/Dk7sfF47+Tf/Y/vZh0HfM4edIYK5bM24/rG0XhukKxo1DTDW5PbW5uHtCs0Cw3N9D5Tl0tERillE1TU6hdfB4EghMn/v8qunr+sbYEfn/+R/4VlfWop8dolkCQzS3n2hJ1iLoAAKQ4qTvqCCSHVOFd290VILQiQFLVKkBmnEKAXKs5AlRMtFCAqlarZSJvEYbbWkHS7gjILHIa5IZ7Ayp6fIlUDY9M/WjloX9/CTC0kB+HNEpgMc0ojEaRvtNh2+C/rRC0lfQOu1enNXkb5JbFP5uwgr0vglQkARaO84/rc53bY3LY4ygO5MPcv64vyKZAOM+8JBGJPXvMywIA");
 
 export default SdCards;

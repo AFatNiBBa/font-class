@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gas-pump-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gas-pump-slash?s=sharp-solid gas-pump-slash}
  * @preview ![gas-pump-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/gas-pump-slash.svg)
  */
-const GasPumpSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M96 0L384 0l0 275.4L521.4 382c4.2-6.3 6.6-13.9 6.6-22l0-136-48 0 0-128L432 48l32-32L576 128l0 40 0 24 0 32 0 136c0 19.2-6.2 37-16.6 51.5l61.6 47.8 19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1l19 14.7L96 51.8 96 0zm0 171.6L384 398.5l0 17.5L96 416l0-244.4zM64 448l352 0 0 32 0 32L64 512l0-64z" />
-    </Icon>
-);
+const GasPumpSlash = createIcon("gas-pump-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZgAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBWgsGAAE2AiQDCAQgBYMtBzUb3wTIjtRG+UVWEsHX2me/2b0A4IQZHZGLI2Gv4uIYhEabiiP4Vft+cep5zkMBfI77WJgLB2RMCs55HoGcb0pa3lYrBaxYqyh2d7Zo00Rc0pKyJMejHa8LlPGnOK+KdCO9xZX8ofFZa+dJahcAohEAJq1YMs/DD/Eh4k0F8cYcBMQkkAUKFGgnwFiFQDuljFIp+BCVCv4HZgKIGsprEyhRhQVYDShBUpTlkNp161bVL5fz1XXW1K9XP8WyuBYRdSJifPSJZSGsXW81L7pF3+geh4kfIOvjImzavEnUi1h5Jgo+qnN1o+ovnd5uf2vDg5xzU5d321XvsoFOq6g4cEBPrWSX1fv+Tn/P9Df2Dtq+Gnqz46fqaCz72rHpRv++LNtoIhAI6k87NWdDw7HfatVN4NPtX7SnKw/T6VSNWhIIir6Vvtam04D4AJQUx3VWviiQzFBwR9RzVYBQBwGSGuoIUGirkQClOvoIVOlg2AU11LFEIcraQjPrCCT1HILCcCeg1MwtqDLWC7mGZlFYFWUT1J8ufvqITOvLg/oPzKPz0tVpQyFie0zeFnoep1QvOGm7A/Y7aputdjk6YIfN047ZZ7qGTvND2SD9DZSNlo+D5+3ltjnsiF0O2J+6jJHvSz0d14t7wRAJMPg9CDofqcGOTUf6HTy272C/I3s3HdkJAAAA");
 
 export default GasPumpSlash;

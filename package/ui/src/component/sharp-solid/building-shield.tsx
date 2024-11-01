@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-shield` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-shield?s=sharp-solid building-shield}
  * @preview ![building-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/building-shield.svg)
  */
-const BuildingShield: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 0L384 0l0 208.3L343.4 224 320 224l-48 0-16 0 0 16 0 17.8 0 30.2 0 8 0 8c0 .9 .1 1.8 .2 2.7c3 74 37.4 156.5 105.9 205.3L240 512l0-128-96 0 0 128L0 512 0 0zM128 224l-64 0 0 64 64 0 0-64zm32 0l0 64 64 0 0-64-64 0zM64 96l0 64 64 0 0-64L64 96zm160 0l-64 0 0 64 64 0 0-64zm32 0l0 64 64 0 0-64-64 0zM527.3 312.4L432 275.5l0 184.9c56.5-26.3 90.2-87 95.3-148zM432 512c-96-32-144-130.2-144-216l0-16.2L432 224l144 55.8 0 16.2c0 85.8-48 184-144 216z" />
-    </Icon>
-);
+const BuildingShield = createIcon("building-shield", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABegAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCNgsGAAE2AiQDCAQgBYMtBzYbPAXIjtRhLTIW4+H/56ru+0lTahgyRKSIUfYocrQEpAntnpGrq0sAod/N/zX53lnTAX6jQ8taFlXQqOP5BAY4Kt0bNXDawGY6Advitqs1xTS0ESIHyOO37Joa0r30AxrDh8Z/OrpG0pABiBYAmLFy6RKf/B1/R3xffZP43iIExAxQCmTI0EWAyTKBLnIlcrng76hWxX9gSQBRKyHJ8TkKnMZNQA6S+jzv14CKi9aVmqb5CrO+yJo2aSpGR1EItfKSy/FgxKtLioiQkMqa5UWlEJVgCaGyZqwowyvRv3nFcn1P7w97ufuyH2dGfBYRK2N5iEvTP1nW87kWzz3u8cOOH3xySdOo/fQWWummXr1IdHjqNmdcssklt7j41/Qk40ZZPBsv8uH31xPNftrQi+7zjkenTk7d8PW8jlOYPKuFxnE82cKsyVPmtwOBYHOTod9sbD75//pKAv++9+P8M1L9JE1Pz6FeAkE2uDrYujQd0nQBAEhxQs80HYHksHrpXZu4LUAoECCpVQiQ6ayFALnCIAFqdDNGgFqFpTKRNwhtrO8gaeIwyIx1HuTaeB3UmOzrdK02kcEgB0HcH2Dy3DE8Z1k5YujwcmK5WVd5sGLs/KTytN3/hOwbgHfa4aADjtlum92OjagjluSO22/uHjnHF5VGGGq40kTl7dZzeQVNH3HU7nXD/UUmKd8P93dif/QA7EoS7UhVSSJS84+0fMjRXbu379sG");
 
 export default BuildingShield;

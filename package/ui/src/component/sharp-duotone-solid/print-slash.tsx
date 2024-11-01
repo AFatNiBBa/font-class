@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `print-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/print-slash?s=sharp-duotone-solid print-slash}
  * @preview ![print-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/print-slash.svg)
  */
-const PrintSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 192l0 192 64 0 0 96 0 32 32 0 320 0 32 0 0-12.6L446.8 448 192 448l0-64 0-16 0-16 132.9 0L121.8 192 96 192l-32 0zM128 0l0 32 0 44.6 64 49.7L192 64l226.7 0L448 93.3l0 66.7 64 0 0-80 0-13.3-9.4-9.4-48-48L445.3 0 432 0 160 0 128 0zM276.6 192c82.4 64 164.9 128 247.3 192l52.1 0 0-192-299.4 0zM472 248l48 0 0 48-48 0 0-48z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const PrintSlash = createIcon("print-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfAAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCEgsIAAE2AiQDCgQgBYMtB1IbNgXIhofn1/Gd+2b+ApyFmSQ0MW2D+6+7yQ6RTcozcc3zP396wLIneLRIqwSpwl/2+QQG/jRvGg8TbDZTnLopFfQRNOChQ0pZyyg7vnpcYwfIU5fsmArShfQaZ9r/AMZXzR0jqZ4BiHoAGDd/9lT3P8SHFK/LG8RrUxAQ40EhkCFDKwFGygRayRXI5YIPqSz5EGVZEEBUgftnoAqqYgP2AnKQhDzP67duXat6zYra+byaFTUWd+rcaWd0ip7ROXalQ/rMF2qGEDVrR8yLGkFizU0qjpjZxW46lawmMXpgasx5MzWClLlac2vWqMnX2L6yXuX3dq/Xvdbq3ueg2i29PdHbMseU9/E4Y61QKFbUNra/0lj11HPcy2tatL1XFEUvv4z22WsTjDVDbaeVzqt98d6797x/P9B9PR4O6QtRvh0EggGPm39YXnfk/2o1E/h08+cX8+ryfjqUKlFNAkHWs+xpSToEBR9AkGKf9sZXjRXITJfDp9ZyVoBQAwGSKmoIkGmpngC5GnoIUKGNQQJUUcNsmcirC40s3XBSy044M9h+ONfIdbjCSM/8KhpFFnJ0wNA/fAmTOTBpV9Gvd99ieKF2XEwUkXVzRPFY6rpPTHSjvdbZbps91lpjoz0M2mVqtNdWky1wkh8q9NNbX4XhCnd/Kcxj/i67bbzn/NuMULzvdbXPnt+N1ASE/TVkMiJF1jBaq712b1m5e0Ovw7vZeIfkzikA");
 
 export default PrintSlash;

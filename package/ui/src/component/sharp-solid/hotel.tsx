@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hotel` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hotel?s=sharp-solid hotel}
  * @preview ![hotel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hotel.svg)
  */
-const Hotel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 0L512 0l0 64-32 0 0 384 32 0 0 64-208 0 0-96-96 0 0 96L0 512l0-64 32 0L32 64 0 64 0 0zM96 96l0 64 64 0 0-64L96 96zm192 0l-64 0 0 64 64 0 0-64zm64 0l0 64 64 0 0-64-64 0zM160 192l-64 0 0 64 64 0 0-64zm64 0l0 64 64 0 0-64-64 0zm192 0l-64 0 0 64 64 0 0-64zM352 384c0-53-43-96-96-96s-96 43-96 96l192 0z" />
-    </Icon>
-);
+const Hotel = createIcon("hotel", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABbgAAAHdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCEgsGAAE2AiQDCAQgBYMtBywbDgXIhqBa+7dn7z5hiC5RwKyAyQH5OECNjvC5AOqoX7GoyL35v5ze1tuAn+T00OZsTW773s8TCDjLA5tAWWCZJmDtzjZFI5pykCQkOb7l+Fwhj2fZORWky+kDzocPje+6OEdSkwGIZgBMW754kVJbtEW8Lz8g3luAgJgGCoEMGboLMFEm0F2uQC4XtEW5rP8DCwKISnyrBHLUYjcOAnKQVOd57xpuqa+raMiXpfO1WVNjk6iNFHVBfEQtUxdZealAUJh1MRTg1XXCS4i6Wy250T/i9uj7fW92r+tzu/n2z94ftn1QwlSFUwpTfbEBF774zPr1U60JvVImpvqvxsRUovTqKa+qb3P71Knbt6tLQCD4enfK//VNE/9U1yXw7envn+yvqFxK0m1USyDIBpYHWpNAIgAAKY7pkyCQbFaN37XeBQFCLQIklWoFyHTTLECu1gABKvQ0SoBKtRbLRF4jtLe2gqTeQZAZ7TjItXcPVJjodaVS+8gkTpEX5b+XObtFZ50qhg0eWowvpgNFFSLJHU4otsO+x8xCP7hom/32OWKrLXY60vCHLKoftdfsFTnLFxWGGWyownjF8fjeXKYqhxy2c+w5P2aC4n6hr2Pr9f0gnrDocG1JIlLFAwMA");
 
 export default Hotel;

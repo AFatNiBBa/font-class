@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-left` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-left?s=duotone turn-left}
  * @preview ![turn-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/turn-left.svg)
  */
-const TurnLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M192 176l0 96 192 0c17.7 0 32 14.3 32 32l0 144c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-144c0-70.7-57.3-128-128-128l-192 0z" />
-        <path d="M151.5 70.6c7-6.6 17.2-8.4 26-4.6s14.5 12.5 14.5 22l0 272c0 9.6-5.7 18.2-14.5 22s-19 2-26-4.6l-144-136C2.7 236.9 0 230.6 0 224s2.7-12.9 7.5-17.4l144-136z" />
-    </Icon>
-);
+const TurnLeft = createIcon("turn-left", true, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABZgAAAHkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBKAsIAAE2AiQDCgQgBYMtB04byATIhofvbbU/93XPFMwu6g2RqERunpKxKUR4ZF8siLDsi8fzP5d7fs+PDvAbHdpYC2TRgaxdPU8g4CyfWJRBphlY5q7WJY9l7StJSMvjo8nj5Qp5/JKdUSI9TN/huvwPYPyqjTMk9TMA0RgA4+bPnurNx/iY4rvqU+I7UxAQ40EhkCFDewFGygTayxXI5YKPqVrlY1SrBQFEmbw4A2XkGIIxgBwkIfK8aYeaUoN8njxdWXy/xd0WKe40v9NyXtyLk63mLxZq4nKLu8SJwNeUd7W6HxGPRr+aXOlS17ju987frfvO/QOPv75t2FjDt18fXz9vX6Wyj73XjVZo8Y2GFy40vAG5wKdKAyfMeAMEgtfzf6hd3mjk//VqEvj87M9/pd9R9WOS6lBPAkHWs9rTkgQSAQBIsU+XBG8EMh0kiGvdM+ehAiApq0CmncaQq+gBJR0NuqKsYrZM5PWF5pYqkNTaCZnBjkKuuSdQMtK7pKx5ZN5DnT31d4ufXCOTThX9evcthhfDUqYdguDDEcWy3nVfHHWji9bZbps91lpjoz0VtsvUfK+tJs/QSb6o0E9vfRWGK8zNLT8PyS67beyz9mNGKPbHXe2bL3cjK1Hc/s5kMiJF1sRjyXcl97qGo2YNe+EAAAA=");
 
 export default TurnLeft;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `globe-snow` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/globe-snow?s=sharp-regular globe-snow}
  * @preview ![globe-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/globe-snow.svg)
  */
-const GlobeSnow: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 224c0 71-42 132.2-102.6 160l83.3 0c41.5-40.7 67.2-97.3 67.2-160C448 100.3 347.7 0 224 0S0 100.3 0 224c0 62.7 25.7 119.3 67.2 160l83.3 0C90 356.2 48 295 48 224c0-97.2 78.8-176 176-176s176 78.8 176 176zm-96 32l0-16-80-80-80 80 0 16 32 0-48 48 0 16 72 0 0 64 48 0 0-64 72 0 0-16-48-48 32 0zM256 104a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm72 88a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm-200-8a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM0 512l448 0-64-96L64 416 0 512z" />
-    </Icon>
-);
+const GlobeSnow = createIcon("globe-snow", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABhQAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCMQsGAAE2AiQDCAQgBYMtBzEbMgXIhocHu7D3Z2YDcGKzE8qkglnFR5XnitXVO//XfH5p14Cfj+CQIrFq3oBdzycwwNN5tc5nA5tO0GZtDjl9EEFuEEFFHpOQhvEbpqY2kMWpOKJAciL5HIfzh8ZfattPopACiEoAGDRjyjivfolfIj4rPiE+MwYBMQjkAilS1BOgr1SgnkyOTCb4JYpF+Q/MCSBK4NMSkKEUtuMQIAOJElnWpmFp5ssWymfTywvKLDnfNuJ2z7Jxq8O9uNj54ehPh78b+XHH+/nudndalY2X7e82/mnKdzN+mPTNtKkhpgfostFXFiiy+0fZ6SebX651otm1utO80nX14Jnly5WfHuViauOblW7+0+jz5Z87/HPhBTf+nOrfWrU6VPjmTdv6v/xSv+2bbyp0kIx/p/rzxotCjK4E0ZtRwwUNKzGaMAFOqyRXVMlIA3U00EiVFOUdjlWfNKl6wEfMUIb/UUkd7hrxioUBCwxU7geBYOlnR4ctqNj3/1JlE/Dby//+E48uvopXyU2UkoAgbVtsa268AuEH8JOS2K5xvEIgsV4JeNdyjgoQyiBAooQyAqTqqiRApow2AhQ00E2AEsqYIhVZaaGaeQMkytkEUt3tAJlqHoGCvj4qllAtUgNUzEf5/sscPkPDVuWd2nfMe+eXDU21KSkt9slvWy23q4FWbq3lNlhvq2WWWmXrxG02rrLNOsN3xDBflOukvY5yveXH7bU5HcXNtli11s+X6SN/PtfS9v34Vs5NULCzqkRCJGV+emAva/dqAwA=");
 
 export default GlobeSnow;

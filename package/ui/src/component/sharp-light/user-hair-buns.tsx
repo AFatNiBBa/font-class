@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-hair-buns` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair-buns?s=sharp-light user-hair-buns}
  * @preview ![user-hair-buns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-hair-buns.svg)
  */
-const UserHairBuns: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M256 128l-6.6 0-4.7-4.7L224 102.6l-20.7 20.7-4.7 4.7-6.6 0-64 0 0 16c0 53 43 96 96 96s96-43 96-96l0-16-64 0zm67.9 96c-23.5 29.3-59.5 48-99.9 48s-76.5-18.7-99.9-48L96 224l-32 0-32 0 0-32 0-96 0-32 32 0 32 0 17.1 0C135.3 25.7 176.6 0 224 0s88.7 25.7 110.9 64L352 64l32 0 32 0 0 32 0 96 0 32-32 0-32 0-28.1 0zM352 144l0 48 32 0 0-96-32 0 0 32 0 16zM314.5 96C301.4 58.7 265.8 32 224 32s-77.4 26.7-90.5 64l51.9 0 27.3-27.3L224 57.4l11.3 11.3L262.6 96l51.9 0zM87.6 336L43.3 480l361.3 0L360.4 336 87.6 336zM384 304l54.2 176 9.8 32-33.5 0-381 0L0 512l9.8-32L64 304l320 0zM96 96L64 96l0 96 32 0 0-48 0-16 0-32z" />
-    </Icon>
-);
+const UserHairBuns = createIcon("user-hair-buns", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABiQAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCWAsGAAE2AiQDCAQgBYMtBzUbXQXIhocHndr7skKSXUSVGbf2kDYm54BhWNOuBzx74nL64/zpAdcgeLSx7JuT1sBozvMEAgwL19bO/7LA0gStvbkZTSI7IklSk+n41nG2hzQeiuHqSB5IfsQ9+UPjV13dSCItAYg2AJizad0Kn7ZES8SPtbeIHy1DQMwFhUAJJfQQYLqSQA+pAqlU0BK1WvgPLAgg6oldE5CiCbfhQUAKEg1p2r2odGqqVPK6Sroxr8u2ZXnWKYbG4OgQWSYeGfLChHeGNfeOyDZ8OP/rmVkW4M/z5oWV36EYQ5pthBDZRiGPiCyEmQ8OjagOfHrw813yGBado2MMiXz9+k3rK7Exyvs2bNzQNbJy99gUlb1Znok8aHnfapvq731+PPij2qwGWD3ePPOM1zC7jcZq9dpr43ONbcyet2vFlSsreswu7FYoxpQ//ax//88+Lbed/L1XjRa1b6DNquYznP7rr9NnHhrnfc2J/r7xV/8cfo91FFdoM6j3hFew5DF9HnsMpczu/UshkhkY/RIFEAhWV47dt6v19P8b8wRcff/Pv9WLa5/Gp0kVjRIQlIbXhtsen0IQBvCTkriob3yKQOI6Dehdy+4VIGQIkKiXCVDSXRsBUplhAtTpZYIA9TLrlETaJHSwo2OJsjNYyUSXsFQHb2B1pvsmU69DlJxScSnlS5i5cIQXLCrGjBxdTC22NU31MynNTiuOHYMvcs8QXOugU04674D9jjg/oGetyF9wwkINWeCLCmOMNFphqsLcfDY3kv+scyytdfs80xT3I4Nd1IcPQXdCRMeqSiRE0uohx0cc3nOkJPdeOHkOAAA=");
 
 export default UserHairBuns;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `desktop-arrow-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/desktop-arrow-down?s=regular desktop-arrow-down}
  * @preview ![desktop-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/desktop-arrow-down.svg)
  */
-const DesktopArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 0L224 0l0 48L64 48c-8.8 0-16 7.2-16 16l0 192 480 0 0-192c0-8.8-7.2-16-16-16L352 48l0-48L512 0c35.3 0 64 28.7 64 64l0 192 0 48 0 48c0 35.3-28.7 64-64 64l-147.7 0 8 48 51.7 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-72 0-128 0-72 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l51.7 0 8-48L64 416c-35.3 0-64-28.7-64-64l0-48 0-48L0 64C0 28.7 28.7 0 64 0zM48 304l0 48c0 8.8 7.2 16 16 16l175.5 0c.3 0 .6 0 .8 0l95.2 0c.3 0 .6 0 .8 0L512 368c8.8 0 16-7.2 16-16l0-48L48 304zM252.3 464l71.3 0-8-48-55.3 0-8 48zM312 24l0 118.1 39-39c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-80 80c-9.4 9.4-24.6 9.4-33.9 0l-80-80c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l39 39L264 24c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const DesktopArrowDown = createIcon("desktop-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiwAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCWwsGAAE2AiQDCAQgBYMtBzkbZAXIjsO44TuyxVL+4+H/daL3fck+iRQGhdghggKQOxFthOitgDvqdMWpXZ3MTy/zf83n9/zoAD/fiR9K1yK9wiLq+QQGGLSzRQLNy4azieJsm2GRDUHcUiAh0csjP2w5bH+EPH6OOzVIDyW4o39o/Gm4m0kaGYDoB4C1h/fv1Kmjjvi2+x7xre0IiLWgEsiQYZQAK2QCo+Qq5HJBHd0u/wdWBBBNeOAEcjRxJx4C5CDJ83zb8J6jykbv/FDZKI6XRSmKuHeQ6B0R9w8pIqKM56a9NFwI8eDUFycWMXo3hj8okeL5EY9MqcVjo4jnp788IrD6kRmvTDki3De4jBsKN65+YGhEr4NlUY6JIkYdF1bHC5MeGnYgnp18KB4emaWVzo1Tnhs+/uV+L/89ztms/uJJOLY8qe7TUevoUz9JL/Vk//5FR0tLIeufvNd1Ftg7ePDeLV+N+ALXudemWO6Qr28tbN2nfhOcCt5U92mpv31iCzDXWeK65R+0887Wu/dPP+1+kkwIke54trbBe/cOBgLBO8Pad53Sd8V/PcoE/vj43/+Vm7udtCa9jB4SCLKZ3ZlOpDXA6ADiKdrGG18USG6Xw7v2cr8AoUCApKkQIDNSPwFyhRkCNIyxUICmwn6ZyHsKg5y0QNLLZSCzyDUgN8g7oGGFL2NNgyKLSiammJ/CxE0a2riomju7VS2rHmuEDTSqzS6vXptT27VnGjk62yUudqWznOk8VyrkcjuTV7nIJgve6Icqc83WUlmmcjffxUM5frkrnHfm/PMsV30fnqptD59GrgS485QliUgDbn3urNMuv/ySq2fdVwAA");
 
 export default DesktopArrowDown;

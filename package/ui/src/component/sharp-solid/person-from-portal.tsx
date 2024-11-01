@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-from-portal` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-from-portal?s=sharp-solid person-from-portal}
  * @preview ![person-from-portal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-from-portal.svg)
  */
-const PersonFromPortal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M154.2 352c3.8-29.6 5.8-62.1 5.8-96c0-18-.6-35.5-1.7-52.4L176 221.3l22.6-22.6L237.3 160l27.7 0-31.3 94c-9.3 28 1.7 58.8 26.8 74.5l86.2 53.9-9.4 32.8-16 56L309.6 512l66.6 0 6.6-23.2 16-56 16-56 6.6-23.2L401 340.9 334 299l29-77.4 24.3 48.6 8.8 17.7 19.8 0 48 0 32 0 0-64-32 0-28.2 0-39.2-78.3-5.4-10.9-11.3-4.5-80-32L294.2 96 288 96l-64 0-13.3 0-9.4 9.4-48 48c0 0 0 0-.1 .1C141 63.1 112.8 0 80 0C35.8 0 0 114.6 0 256S35.8 512 80 512c25.3 0 47.8-37.5 62.5-96l65.5 0 20.8 0 8.4-19L253 361.6l-9.5-6c-17.5-10.9-30.5-26.8-37.9-44.9L187.2 352l-33 0zM416 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const PersonFromPortal = createIcon("person-from-portal", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABggAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCNAsGAAE2AiQDCAQgBYMtBzkbPQXIjsQ4JvFKNB7i4Xudb+c+yZ4fOQwKAFOVLFTMJXHH5c7Wf7ZFqNynrszVxi6Nv216wAPwnxNnfNrHZ9eIV6DxelObS2iB17QCVt0mQ9IjDF+JCIqIjifsONtCHh9ld1RIj6dv8VB5qvhRJ3dImmQAoiUAZq5fvdTnjdEY8U39HeIbixEQM0EpkGH1rgJMkQl0lSuRIxs0Rr3O/4ElAUSVwYme05EXcQ+QgyTl+Z5mtUqzfF1avVj/bNzsPDAGx/SoxZp4rNPjfddG1ygR1qJL9GZKV+kX62J9DI1OUatFFMW6aA8GVF2ybUyJm74fZr+313y35rWPpcuTPVacLtGDP/aNzkOi2P9Ev1f6vNTx8b4v93+1S683Wr7xc8/25fHtW0Z36djSXut01X2rvbt3T1k7xsP+9ZpZ9vnXv9aZYtZAXZe47qa2K2You/ZfapGXLO9hperSx9SJhjkTB95o3X5+u/mOOEKUX9G6/O//j2a2O+UPdz335gA9K8OLY5cvHyvwOBAIrry1/N/tLab83VBL4IcPf/1Zfkbqn8dv6Q00SCDIhtSH2JKgZfwmAAApzumVIJCclNizNvWIAKFAgKSqECDTRUsBcoXBAlR0N1aAqsJqmcibCG1trSBp6iTIjHMV5Np6C1RM8UVU1TayEOQCiPsAJs9robnTypHDRpSTymHO+ahi8vjkctkecE7aBmKhfY475oy99jjoTEOesjQ966h5M2KuLyqNNMwIpUnK7ep+/jp7nXLaQccd00kmK88HA5yb9x6I2STAqMvLJCK1jlhl6GPVhr55AAAA");
 
 export default PersonFromPortal;

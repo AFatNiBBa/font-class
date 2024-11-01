@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-bolt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-bolt?s=sharp-regular truck-bolt}
  * @preview ![truck-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/truck-bolt.svg)
  */
-const TruckBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 48l0 320 28.8 0c16.6-28.7 47.6-48 83.2-48s66.6 19.3 83.2 48l76.8 0 48 0 0-320L48 48zM480 512c-53 0-96-43-96-96l-8 0-8 0-48 0-64 0c0 53-43 96-96 96s-96-43-96-96l-16 0L0 416l0-48L0 48 0 0 48 0 368 0l48 0 0 48 0 48 56 0 9.9 0 7 7L601 215l7 7 0 9.9 0 136 8 0 24 0 0 48-24 0-40 0c0 53-43 96-96 96zm78.1-272l-96-96L416 144l0 96 142.1 0zM160 464a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm368-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM112 211.2L246.4 96l-19.2 76.8 76.8 0L169.6 288l19.2-76.8-76.8 0z" />
-    </Icon>
-);
+const TruckBolt = createIcon("truck-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABigAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCRwsGAAE2AiQDCAQgBYMtBzEbSAXIjsK2tXOMQ1ImTcDx0kNpCer3Q/fehwCjQsVCo5HgIiORdRzrCt0a0amtEfk//97u/e9HMzEmkioZFYjXJq6oooy325NqK05c8/zp6alAylrs0XoRTQ3UfT6BnQ/bomkTmQ1sorjBeZMOqUOhPDuHwQXy+B1DCtJLegCu7C+N/9R0kxQZAEQjAICN3ahIOHmN18D7nz3it3AgIDYAMAiRIUMvBMs4gV5Cg0AuF/zF///ZfyADAUQJ7vsSyFGJI9wBcpCUuVDBUUIKpKmIlDBWPU6SBJyA4uzEJu0dW1ejlEPJnH0zRL6fkLnJLYdCYgcgcohIpSBEDVXCGAwU5IGYkk2KjYkljR3pmxqz6jNGa6pTatOGWSm2YbCm6lg3bgtkxkV7AaTId8Yh0eNl+Z+6D7kPYH3l4z6oBZcRyRoayRGXkTY+4PP93M6Dt0rxenH+rb0dUsVlbWzAB2izfxKX6lwo24NcxLHKThtQnRwVjpRJQ6utIN3AxcvSj4ODH0uRoMyalDY1lZLU4p+eSp2Wj4BI2gz0dYBA8Ov1bTxNxuNXJRUA/Dv+/gae/jlJ7YlHpQSCbPa/heTUDtEDyKWoBb2BJQaSQzv2U2s9ChCqESApVQuQ6SELQa7aDASFfo4QlKpt4kQuAaFVSoEntQ7wzJIWPNdqBy8su86WWoN7FpUnSfkVzBgkELiI2VrZMDfWW5Opj5ekZ93ZZKdJ7T2mcC/kKlOqWo5sBaqBK0UWapQIGoIC/RBjy4oNxg1b3Ly5PVaOSlUKlCm15nHHto+aqB0ebgo9Aq7onKIkEYl8bFnLzLLiagA=");
 
 export default TruckBolt;

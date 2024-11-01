@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cc-amex` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cc-amex?s=brands cc-amex}
  * @preview ![cc-amex](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/cc-amex.svg)
  */
-const CcAmex: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 432c0 26.5 21.5 48 48 48H528c26.5 0 48-21.5 48-48v-1.1H514.3l-31.9-35.1-31.9 35.1H246.8V267.1H181L262.7 82.4h78.6l28.1 63.2V82.4h97.2L483.5 130l17-47.6H576V80c0-26.5-21.5-48-48-48H48C21.5 32 0 53.5 0 80V432zm440.4-21.7L482.6 364l42 46.3H576l-68-72.1 68-72.1H525.4l-42 46.7-41.5-46.7H390.5L458 338.6l-67.4 71.6V377.1h-83V354.9h80.9V322.6H307.6V300.2h83V267.1h-122V410.3H440.4zm96.3-72L576 380.2V296.9l-39.3 41.4zm-36.3-92l36.9-100.6V246.3H576V103H515.8l-32.2 89.3L451.7 103H390.5V246.1L327.3 103H276.1L213.7 246.3h43l11.9-28.7h65.9l12 28.7h82.7V146L466 246.3h34.4zM282 185.4l19.5-46.9 19.4 46.9H282z" />
-    </Icon>
-);
+const CcAmex = createIcon("cc-amex", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABjQAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniDEwsGAAE2AiQDCAQgBYMtBy4bkQXIHoPj7vI8z9VN4nloMRhK2fHwz9q3+0b+IiKzi4h4I+9PiCaxaN7w08UrjVAw4FLvsubQbI/uYdEIz7ZUKy1ewAn4g9RafoLcHb5geeIJFogk9gItkOZBE9fUj/Nvb37XKnrOcSRQ5vkEdj6K8taBrG04myjubNurIKIhsQuNHWTxlUfkJBckCSiHD42/cDtNIk8BRAMAMG7JglleCxTIj+KC+Ig2AmI8oBBIkaKNACOlAm1kCmQywS+KX/wHFgggSpLHSUCGCtzAU0AGEnmWDS0q00ptXjdbrJXXigt28kxcz5vOJy9ZK3ozR0209BJqo59MsF4snhlx0fGY0PGa7eqSrJu1Zp3aWMw+NTGSDeQvYucSEOUesHRJvVEnR/b6C5dYkc6BPVdpL3R2awe2vImIRdQuLuaKeWqqXk2vv/W2S5jSO/CtJKD07S6l0f7h4IYX4817jNleGWu9+uqbIRENkVh82j+SomcMMGGKvPwAV1UbYPxU4yertEAz8xTmaW6BSseV3Z1927ZtC2ztOI6t2YyNLspGar8UJ0cpG3P/uqOq0cMz4z0z30YdN6Dqc61er+fRBQgEYz/5/4ax9h/aBPz5uQ/12f+3pCV5BTUkIEh7ig0rkxYgxAGkkjiMqp0vCiSuyiXvWsdZAUItBEiU1BIg1VoDATK19BAg184gAUpqWSAVWU2hiVW9kKhjn5Aa7JSQaeKekBvpTbKkSUghVoM37Ycxe/IYnjSpKBdKoUpos6TVgVCxo9XQaS91kC1pvNVme+x20CYbbXNwRO03K3PILpP3kEl+qNBPb30VhituV5/bi0ep/Q7Ytm7cH2eE4v2wq8P73bvh6SSA/t8aSGZEUrFh3Wu533QU");
 
 export default CcAmex;

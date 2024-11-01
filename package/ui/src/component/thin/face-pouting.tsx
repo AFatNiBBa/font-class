@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-pouting` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-pouting?s=thin face-pouting}
  * @preview ![face-pouting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-pouting.svg)
  */
-const FacePouting: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm80.4-109c3.3-2.6 6-6.2 7.1-10.7c1.1-4.6 .4-9.4-2-13.8c-16-30.1-48.3-50.5-85.5-50.5c-37.1 0-69.4 20.4-85.4 50.4c-2.4 4.5-3.1 9.3-2 13.8c1.1 4.5 3.8 8.1 7.1 10.7c6.5 5 16 6.6 24.7 3.3c17.1-6.4 35.9-9.9 55.7-9.9c19.8 0 38.6 3.6 55.7 10c8.7 3.3 18.2 1.7 24.7-3.3zm-8.5-14.4c-.1 .4-.4 1.1-1.3 1.8c-1.9 1.5-5.5 2.4-9.3 .9c-18.9-7.1-39.6-11-61.3-11c-21.7 0-42.4 3.9-61.3 11c-3.8 1.4-7.4 .5-9.3-1c-.9-.7-1.2-1.4-1.3-1.8c-.1-.4-.2-1.2 .6-2.6c13.2-24.8 40.1-42 71.3-42c31.2 0 58.1 17.1 71.3 42c.7 1.4 .7 2.2 .6 2.6zM176.4 256a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm176-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM130.5 168.4c-4.2-1.4-8.7 .9-10.1 5.1s.9 8.7 5.1 10.1l96 32c4.2 1.4 8.7-.9 10.1-5.1s-.9-8.7-5.1-10.1l-96-32zm256 15.2c4.2-1.4 6.5-5.9 5.1-10.1s-5.9-6.5-10.1-5.1l-96 32c-4.2 1.4-6.5 5.9-5.1 10.1s5.9 6.5 10.1 5.1l96-32z" />
-    </Icon>
-);
+const FacePouting = createIcon("face-pouting", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABpwAAAK5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yCfwsGAAE2AiQDCAQgBYMtBzMbggXIjtMN90CAUlbWIJ7X+37OTRZwlsCH2EHuKbfWgwCO2S26BQe8FknCKl3bBtT9Yv8/13x+aUcF8v3EDyWaIhfFUXq0rOcTGOC0sGkgAxzYTAdAY511KyNaiixRUuPOJesez73H685AlyP0xQzUGnUVWFTeVN7gxXRQaBoAAOIIAAAU5pprOflSXopcNe0DuUo1IABSBICBABqgAb4IADloCOCLjgHo6Ai8FJMp/gcaIAAg5ujvUADogDWwFtgBAOgAKCx13cfHy8vKytbWxsxOb7Mxs+5yr1IglwrnTE5YVhxb/qrORQuZkrypvrQLH9QL5EbxRqYUna67t31rrgVLJheeqr215lZ5tK296Eg5N2Rgb1ialqZtrFoX2rRZp5gb1jtew9oSTPHox07OCx06mrS1PVrWhrlpyTVxTWVXuprIjJTa1mxrFYlLy3K3x3JBm/Wz/8Cr/a+YdhQwHEbIfsbjPy1GDC9A2rH/YymLYUm2u7jYN3tJpRS049X1+WZ389Dz3Qq+vsO67UuzuhevurvG/7n67oYFkJQ4HBg4nEgCkaVRLk9Pn6ilAlk1/aW9/cub/v43dzh0kXc/LS+HmffuEUDPiEVTajE5NFmE9kxcb2nYyOcBQACBWa+OD+jhkPPN0kYB8Prwh9/ha4TppEJtBixRAAhoMaYYugoBUCAAAACAkvEECQEEUCzFEs3bstJaE6xhgsIca9DwwRF0rIkGM/xJlQ9PNKMhuhWCK90AKGwZBRppTAAdV/aAGTlcKJvjKtD8VPUy9Tcxq4yR0m1GYlyCkWU8tg3N9eS8nm0cuxHjZSwSe+jPCIYzln70ZVAXiR5NbW0cwyjbUaV8EINE4kjAIAvD3PtqtVFpNGMQEfZw+ybZGO/nIxi/nx2JQKGCSSQUCkTZfgWJ2JEjxo0dNHwAAA==");
 
 export default FacePouting;

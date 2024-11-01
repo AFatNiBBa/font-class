@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-to-square` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-to-square?s=solid pen-to-square}
  * @preview ![pen-to-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pen-to-square.svg)
  */
-const PenToSquare: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M471.6 21.7c-21.9-21.9-57.3-21.9-79.2 0L362.3 51.7l97.9 97.9 30.1-30.1c21.9-21.9 21.9-57.3 0-79.2L471.6 21.7zm-299.2 220c-6.1 6.1-10.8 13.6-13.5 21.9l-29.6 88.8c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l88.8-29.6c8.2-2.7 15.7-7.4 21.9-13.5L437.7 172.3 339.7 74.3 172.4 241.7zM96 64C43 64 0 107 0 160L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-96c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96c0 17.7-14.3 32-32 32L96 448c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L96 64z" />
-    </Icon>
-);
+const PenToSquare = createIcon("pen-to-square", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABeAAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCCQsGAAE2AiQDCAQgBYMtBzQbDQURlZo3yH4kxraZshyZqdj5qIngezu+73Nnntac2gh2BCsDGT9FS2T7ldEZox8xADIEC/9/rvn8nh8d4Dc6lGgsLY4Eynx+AgOcNTaV8MBmOgHb7mwIYVq5pCWW5Dh3fE6Qx4vsiBLSzfQRztcPjV+1doSkIgMQjQAwZu7MGd7+ED9EfPj/I+JD0xAQY0AhkCFDOwGGywTayRXI5YIf4v///X9gIYAoRc9NIEcJ1mAHIAdJludNmgytW1I/n5PurbO2pk7Eqc6dY3Z0i9o42LXrsivNZsWV5ldbzo3r7hlzYtach50jqtqluNulekD9eNKttmPEwRbX6pxqdoU4YM069eIUXxNZHGx5vW7dOA209P46nWoa1fzuozUf+by6UQtaNPrW8uW+FS1aRONuX58Y3n6uEbeqP669BycqKyNhtk67d6CGmnLKa2oOwAgfWabBiRMNGlPqMLF+HASCX27P+mVpw+F/lddN4Kfnfw5/Rf+/jb9TDcolEGTd/+++KEFJ/C0AACn26JQgkCyRoaP1XBMg1MGApFQdyLTVCHJ1dIMSHQygDo/MlIm8QmhmMYCknu2QGWgv5Jp5ACWGe2eVahY6UzZGVZi/XuJEjkxYVfTp2bsYWmxjndUfKs+HFcdS5z2h1gV2WrN1y67Vq9bvYtiOGe7uzRMldMIXiz49exdDi+vsefOc1Tt2rt+6BZcMK95rnffI3V1ATQi377EkEan+ttVbeuza2kNnAQAA");
 
 export default PenToSquare;

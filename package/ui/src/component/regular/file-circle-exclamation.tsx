@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-exclamation` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-exclamation?s=regular file-circle-exclamation}
  * @preview ![file-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-circle-exclamation.svg)
  */
-const FileCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 464l220.5 0c12 18.4 27.4 34.5 45.3 47.3c-3.2 .5-6.4 .7-9.7 .7L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3l0 44.1c-17.2 4.9-33.4 12.3-48 21.8l0-60.5-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM432 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 240a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-192c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const FileCircleExclamation = createIcon("file-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfwAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCDQsGAAE2AiQDCAQgBYMtBz4bGwXIhofvdeaf+yR7EjkM2g0zdB8ZOu6JO6LWU6dyLuehAD6HIGh7aEAWSGjO8wgEsNarjU0DdFmxVlHs7myOOUQrOaSljOT4zHHJYw95fBXXq5DuSJ/iuvCh8YvOLiapZACiFQBmrFu1xPvfx/cRn9RfIT6xCAExA5QCGTJ0E2CyTKCbXIlcLvg+6nX8DywJIKrocRPIUcUhHAfkIMnzfGTXps1rleb52lqlmFMrak8MuLloFo8OfLJLFncNeqpfLa4asCaeIB7uHVHElR1uDXPHm9uluKX9rqsmRLwx5BnnD356/OvFlRPfHPpsXDDsuUlv1TzW9c6+D3e6o08fZI3bOkbc2qHxyVZP/tbw6d5P1b+hxV0fnF7h/tati/MV6eb3P6pL44YNGrsOduuWyZZrcfnlLZa73/ctztfi+2N/9EukEQ19+zaMSKkfC6Hz54r27VdE7v0xaDnlrwcCwc+fbbh7W8vJ/zWpJfDjm3/8by9Xfz9NT0+iiQSCbHB9sM1pOgA2ADfFWY3CFwWSXXL0rs3cKkAoECCpKgTIdNVKgFxhkAAVPYwRoKqwSibypkI7WwpImjkBMmOdA3LtvAQqJvvAqWoXmbpRykLd9uLncnjOXDli6PByYtkMZVqDCDeeVA7r/c/a0gBYaa9jjjptj90OOM3Qk5b4ZxwxV0Lm+KHSCEMNV5qonE6ul6+1x0mnHHDMUT9lknK93d9ZuXkAWAnhjhRIEpE6bm15yMOc8pCvLMwdRw4RAAAA");
 
 export default FileCircleExclamation;

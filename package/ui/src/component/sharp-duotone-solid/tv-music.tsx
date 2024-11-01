@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tv-music` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv-music?s=sharp-duotone-solid tv-music}
  * @preview ![tv-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tv-music.svg)
  */
-const TvMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 0L64 0 576 0l64 0 0 64 0 288 0 64-64 0L64 416 0 416l0-64L0 64 0 0zM64 64l0 288 512 0 0-288L64 64zM96 448l32 0 384 0 32 0 0 64-32 0-384 0-32 0 0-64z" />
-        <path d="M576 64L64 64l0 288 512 0 0-288zM416 112l0 40 0 104c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-50.7-96 36 0 76.9c0 17.7-21.5 32-48 32s-48-14.3-48-32s21.5-32 48-32c5.6 0 11 .6 16 1.8l0-57.8 0-40 0-11.1 10.4-3.9 128-48L416 88.9l0 23.1z" />
-    </Icon>
-);
+const TvMusic = createIcon("tv-music", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABggAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCEAsIAAE2AiQDCgQgBYMtB0wbLgXIjsQ4JvGLWNDi4b/9Ku+r+t07/XsZaoFREYEDUhxAleixiYoaFzx+JbmAjO78f5ee/8s9v+e3AT8fwaHsqfd8go/dfp5AHBZlYwMVSEJllgH2NhEN6hDELyJsSUTHZ8fZGao0NT/XIH2f/sJb/h/A+McIz0laGUD0B8D6A3u26Xkf71P81fmZ+MtWBMQGUAQyMkYLsEoWGK1SUKkE71MH76OjEEA08W+SQRO9cAm3ARVIklxVrcUDWq12o0+1v92o7/Tt1zdFv8h7BfHV4K/qF0O/GfrtsG/bL4dE7I2eg9cPiwMxNeR23U+kEHXfiByxK+XUL3L0PdSu+4i6d0zo7t/93/i/zv9l7SMUlB/mTpMNF/X57d3gwe9+65PX6rq10ImJtg32X2Gati89muuAYXrWrXu8TrEO8Rh1SikAMe4RYzxJ+XEdEAg+ve39iX6r/u9qJ/Dxl/+GD3d60uPUjS4JBHlWZ5aj6TFEagBRivsm4BetQyBbI5N37e0bAUKNAElTLUA2Sn8BKrWZAjSMtViAptoeWVQtYbBjFSS93QLZEg9AZbCfQMMqv8ZNgyN7nOAvwn8vdYuGNq8q8+fMKyvKMldEJ+JocWXZdqfdT73psNN5N1x31zlnXXJXkbdty+65ZosFb/ZBxXxzzFOsUI6re3V/iG+749JcPl9mpXI/nOa+PX46BInQLrA9y0SK3P/u/dlv0ZztuvbARn6jAAAA");
 
 export default TvMusic;

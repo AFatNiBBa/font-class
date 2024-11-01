@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shirt` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt?s=regular shirt}
  * @preview ![shirt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/shirt.svg)
  */
-const Shirt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M146.3 27.8C167.9 9.8 195.1 0 223.2 0c18.2 0 31.1 13.6 34 28.5C263 57.8 288.9 80 320 80s57-22.2 62.8-51.5C385.7 13.6 398.7 0 416.8 0c28.1 0 55.3 9.8 76.8 27.8L478.3 46.3l15.4-18.4L619.8 133c11.6 9.7 18.8 23.6 20 38.6s-3.7 29.9-13.7 41.3l-56 64c-20 22.9-54.6 25.6-78 6.1L480 272.9 480 448c0 35.3-28.7 64-64 64l-192 0c-35.3 0-64-28.7-64-64l0-175.1L147.9 283c-23.4 19.5-58 16.7-78-6.1l-56-64C3.9 201.5-1 186.6 .2 171.6s8.4-29 20-38.6L146.3 27.8zm66.5 20.9c-13.1 1.9-25.5 7.4-35.8 15.9L50.9 169.9c-1.7 1.4-2.7 3.4-2.9 5.5s.5 4.3 2 5.9L31.9 197.1 50 181.3l56 64c2.9 3.3 7.8 3.7 11.1 .9l51.5-42.9c7.2-6 17.1-7.2 25.5-3.3s13.8 12.4 13.8 21.7L208 448c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16l0-226.3c0-9.3 5.4-17.8 13.8-21.7s18.4-2.7 25.5 3.3l51.5 42.9c3.3 2.8 8.3 2.4 11.1-.9l56-64c1.4-1.6 2.1-3.7 2-5.9s-1.2-4.1-2.9-5.5L462.9 64.7c-10.3-8.6-22.7-14.1-35.8-15.9C413.1 94.6 370.5 128 320 128s-93.1-33.4-107.1-79.3z" />
-    </Icon>
-);
+const Shirt = createIcon("shirt", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABjAAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCQwsGAAE2AiQDCAQgBYMtBywbPwXIHoVxmxPOFyanUaerwomH5+3+/bXPzA2JKhVVvjasQFQS2/Q3aYUP/v/j/HsH8Q1wY9u+3IwmhWJXZajkfzr7YAMOzBKNfPCdm/9r6oU13fMo4QM9k17F8+JIm2Xy3gQG+HVWQQOKsoFNFLe47SqIaKUtNLaQx9+xVYG0L73BlvCl8UFdyySFDEBUAQCGTqwrwVMxihGv/z/x2iggIIYCNIHIkKEBBANQBRqgaQLkckEx/k/8BzYBAUQpCZYEc8quwmZ7bu8BUp4P61++UDGfUIDKTb1dfkPNDfmO7UIrWl9pt5RbS/VVYf0YH0fr7qiqY2+Lc7sCIXCbaysnjrW71WDUCHqBS01t7K+/52gaf16jPnZaWtOKrWN07KpdFXtqbsgBc5Ybe2qjPvaW1qC6e4pltRpjd6t953X00X1rMN+Kbr+bvuGNbYfrewRr19QvVKxUp46g4sj6a9Yrta//75tFJWCozXi3xN/o0YabcF65qlWPnxwoCzjn3dTIFf7pq1TtRoeSWVm3CjkDTFletTEYzcmPTbt++6zSe5WKDxTlNZ+9PdEP6kbMgTjPmi4qgUq3vV+ZNev+6SEgECxY+LNgpnDArzLlE3h/68tvyFNyyoO0LJ1CGQkEWYf/O2hPS3eg/6cIOJViATMuE0gWRW18agW7BQjlECAppZwAmfpEEOTKaQ9BQSMxCEopZyyqyMsKNXT0YlLBbDHTy4yYq+FOLBjgM1VKjcgg0YYj+0cwb3GMFuaRrv4gSZPNitYBLtNOZsjpaJtp2eHCC6HbiGGTunTqMzlixpWyU4YU9+iCHyJC/IKINHK7/tzbSPXSOzE21133Z8kg78ecpvf7u7DrA9W7FUOSWGkqzC3pG58EAA==");
 
 export default Shirt;

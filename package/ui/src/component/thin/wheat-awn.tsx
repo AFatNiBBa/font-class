@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wheat-awn` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheat-awn?s=thin wheat-awn}
  * @preview ![wheat-awn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/wheat-awn.svg)
  */
-const WheatAwn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M413.7 13.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-48 48c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l48-48zm96 0c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-112 112-49.4 49.4c5.7-38.7-6.4-79.4-36.1-109.1L289.5 43.3c-6.2-6.2-16.4-6.2-22.6 0L255.5 54.6c-37.5 37.5-37.5 98.3 0 135.8l27.4 27.4-47.8 47.8c5.7-38.7-6.4-79.4-36.1-109.1l-11.3-11.3c-6.2-6.2-16.4-6.2-22.6 0l-11.3 11.3c-37.5 37.5-37.5 98.3 0 135.8l27.4 27.4-47.8 47.8c5.7-38.7-6.4-79.4-36.1-109.1L85.8 247c-6.2-6.2-16.4-6.2-22.6 0L51.9 258.3c-37.5 37.5-37.5 98.3 0 135.8l27.4 27.4L2.3 498.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l76.9-76.9 29.2 29.2c37.5 37.5 98.3 37.5 135.8 0l11.3-11.3c6.2-6.2 6.2-16.4 0-22.6l-11.3-11.3C224.7 385.8 182 374 142.1 381.2l50.3-50.3 29.2 29.2c37.5 37.5 98.3 37.5 135.8 0l11.3-11.3c6.2-6.2 6.2-16.4 0-22.6l-11.3-11.3c-30.9-30.9-73.5-42.7-113.4-35.4l50.3-50.3 29.2 29.2c37.5 37.5 98.3 37.5 135.8 0L470.5 247c6.2-6.2 6.2-16.4 0-22.6L459.2 213c-30.9-30.9-73.5-42.7-113.4-35.4l51.9-51.9 112-112zM321.3 202c41.5-19.3 92.3-11.9 126.5 22.3l11.3 11.3L447.9 247c-31.2 31.2-81.9 31.2-113.1 0l-29.2-29.2L321.3 202zM219.5 303.8c41.5-19.3 92.3-11.9 126.5 22.3l11.3 11.3L346 348.8c-31.2 31.2-81.9 31.2-113.1 0l-29.2-29.2 15.8-15.8zM117.7 405.6c41.5-19.3 92.3-11.9 126.5 22.3l11.3 11.3-11.3 11.3c-31.2 31.2-81.9 31.2-113.1 0l-29.2-29.2 15.8-15.8zm-27.1 4.5L63.2 382.7C32 351.5 32 300.8 63.2 269.6l11.3-11.3 11.3 11.3c32.5 32.5 40.9 80 25 120.2L90.6 410.1zM192.4 308.3L165 280.9c-31.2-31.2-31.2-81.9 0-113.1l11.3-11.3 11.3 11.3c32.5 32.5 40.9 80 25 120.2l-20.3 20.3zM294.2 206.5l-27.4-27.4c-31.2-31.2-31.2-81.9 0-113.1l11.3-11.3 11.3 11.3c32.5 32.5 40.9 80 25 120.2l-20.3 20.3zm215.4-96.8c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-48 48c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l48-48z" />
-    </Icon>
-);
+const WheatAwn = createIcon("wheat-awn", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAAB4AAAAK9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUSETwsGAAE2AiQDCAQgBYMtBzAbTwbIjpQuZyRBPG9X1fvTswD/CjyAsyc7c090RMYOj8oYXXjbFaI/z/1MF5HcgvMhRTZF8iiT9yYwkK4LLoEDapAvSAfR5v60pjB+qCJEHhJ5WtzFYekZGHKXqThBnVAWsG//UPKTaDaDwuEAAECCAACAphFD+vHoi3wRsezrIBZ9AAGQZgA0AjjQxRUkqH02AsRhoAEDA4EvYtvpf6AGAQDxQDGKWwbgC+IECQU7BxTehuG3OgRQcI6fr9PfGH4c8Zl2LOJoWK0cDj8S2eCb5wyVgXIq5mR2hMhkw+Qi67OypNbohvqBfIRkySXfXTmRciwiQsz086lDAOIRQy+UiVzPCpcwueizMztbIgUAU7Ozsk3ZkBMp4XIp+kRU5oilsNsnJJtB5m9Wj8WZy2VlQ4bYnJCJj5w3D6Fu1+5hbm5ddGNlpFtu7IgebgqZ3E/PuEfqpS+oB3fxVsKkb1+8kstt8dxx5L3Jrp136Hnz5kUwHyLn+R127kK9DDFj0WDxDiXMm3fv7v8wCL/oxmSr1kst/k51/QmH1BMm7hWVuJVtu1y9C8JO3OEOy7TeJuazd3TvdK2n3cXN8gnzHpRMdZkiDVQ3d8Mtrqlu/ro8US83Mdk+YcKD0tcT+345AAgg8GPMvsETAmv/efkqAL7d+fuO2b32A6UPNQEvFAACjlw7l7GKCqh3CAIJJUtJ5ishgOI/3hDw46g3LfhA5ik88OE5iCWIZ+BDDs9JAmXSxs1DcCCGN0IY4+Ap/FjAc1DOGp5BGFd5Tmp5nPAgTBzzQT6a5b+jadpLaNs4XZRfqKv1a8GjGOLSbbBGN1syl5qGLA7SwzzmshgXU5nB4oK+kH7pJcyhvSba9rmaIvIpRFONdpe3u4fjYiGLmME85qZRatDfBzJZWm+fhV2hYovJVygQ5b1s3kbzJi2bCwA=");
 
 export default WheatAwn;

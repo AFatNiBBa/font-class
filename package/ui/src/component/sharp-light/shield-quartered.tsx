@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-quartered` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-quartered?s=sharp-light shield-quartered}
  * @preview ![shield-quartered](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shield-quartered.svg)
  */
-const ShieldQuartered: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 40.6L240 208 55.1 208c-6.6-35.7-8-68.2-6.6-93.1L240 40.6zM62.2 240L240 240l0 229.7C160.2 430.1 111.6 366.4 83.2 301.2c-8.9-20.5-15.8-41.1-21-61.2zM272 469.7L272 240l177.8 0c-5.2 20.1-12.1 40.7-21 61.2c-28.4 65.2-77 129-156.8 168.5zM456.9 208L272 208l0-167.4 191.5 74.3c1.5 24.9 0 57.4-6.6 93.1zm38.5-95l-1.2-20.5L475.1 85 267.6 4.5 256 0 244.4 4.5 36.9 85 17.8 92.5 16.6 113c-2.9 49.9 4.9 126.3 37.3 200.9c32.7 75.3 91 150 189.4 192.6L256 512l12.7-5.5c98.4-42.6 156.7-117.3 189.4-192.6c32.4-74.7 40.2-151 37.3-200.9z" />
-    </Icon>
-);
+const ShieldQuartered = createIcon("shield-quartered", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABcwAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBcwsGAAE2AiQDCAQgBYMtBzcb+gTIjsK2bRMVB+cM8RRDTFZE1H6fPfvggFjdKVQUKE8gVDQJHRsHpExYo9C/YuNIPx8a9777HICbpCQrZFIh7bfNPv3N838eBfiMQhvLpgaywOc8TyCxtgWeSGCZBkKppm7jBg3nsipnCB4RQzyG4gl1toghNuUl4xo87TfNb/JagKKuAJBxAHDxTnAQ9nukl1x3K5DvAkAglwDrCCpUWEbACaZgGcs6qNVCL11X/4EUAqQFvkQBNfpwD9wHUIOiqVn8QkIC2kNsYVbYUCMQjRjMoGp4iOCgIPL1bNe8UyGUyBBpl5t33PaNFhgSICQ0b2m4gryCNgnLbKQSku3IpVttwGzB7SBUmsjm7fKRxZLGkIr6pNjkh9p12jW+no2NjW2gTWvXb+F0cXGRh93oaLfb2od3Ho+3iNqfbtHRu+vsjY2NMez5QfqJVhyzYuq4vYJlLOu8DqadxyUVFY9PvvQYx4r69EiXlJRoARCEDw3/M/GiJ//5BBmAX+++fuw1Gu2+5E+ZBPQrIFR7naGYwqjR/AoAoKSMeoFRQXENG46GPQMBMYijaA2iskQMtUG7aKyyOm4NuoEpNT9iWqyjGPYAlWO1qE1bQuPEmd2aDjPD+PzgP3gp3ky8xqiZsSm1p0vfEJKG1b4D3dZ0y1pOTxaRJl+eEqlSZCohukiQVyqXd0R5eRBlxpgpyh49jp6nw6QqUixTvjwb4oDet3SVxdV6YjKAcd9RUUgRe5SRmZqTYvS09NQUAAA=");
 
 export default ShieldQuartered;

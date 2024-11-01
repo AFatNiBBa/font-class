@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kiwi-fruit` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kiwi-fruit?s=light kiwi-fruit}
  * @preview ![kiwi-fruit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/kiwi-fruit.svg)
  */
-const KiwiFruit: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 176c0-25.2-15.9-52.4-50.9-74.9C330.4 78.8 280.6 64 224 64s-106.4 14.8-141.1 37.1C47.9 123.6 32 150.8 32 176s15.9 52.4 50.9 74.9C117.6 273.2 167.4 288 224 288s106.4-14.8 141.1-37.1c35-22.5 50.9-49.7 50.9-74.9zm32 0l0 80c0 123.7-100.3 224-224 224S0 379.7 0 256l0-80C0 96.5 100.3 32 224 32s224 64.5 224 144zm-32 74.2C376.8 292 305.5 320 224 320s-152.8-28-192-69.8l0 5.8c0 106 86 192 192 192s192-86 192-192l0-5.8zM280 176c0 13.3-25.1 24-56 24s-56-10.7-56-24s25.1-24 56-24s56 10.7 56 24zM240 88l0 24c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-24c0-8.8 7.2-16 16-16s16 7.2 16 16zm-84.7 12.7l16 16c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-16-16c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zm160 0c6.2 6.2 6.2 16.4 0 22.6l-16 16c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l16-16c6.2-6.2 16.4-6.2 22.6 0zM96 160l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm224 0l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zM171.3 235.3l-16 16c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l16-16c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6zm128-22.6l16 16c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-16-16c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zM240 240l0 24c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-24c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const KiwiFruit = createIcon("kiwi-fruit", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABxwAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFyDZQsGAAE2AiQDCAQgBYMtBzEb5gXIjtMF98ZRJgmi0Gl7kuxJZIdlB0gBpkewHxAqIq6o+wqQ9MQVdU6Mj9r/uZw2LNqAJ56HcmPav9bQNSmcG5dAgGNsKpEsq+cJesO2kWVEjodjeQKa7JBsbKBsU24Ca9ybynciWQgKmgoAgAQDAAAN3u4dOWuJJXLTN8hN2gMCII0AmAigAioQgwBQjYoAMWiYgIaGgCU+H/sPNEEAQOwEicI2DQgEbgAWTBeBglPTQqLcYYGBAYHwqQ5bgOZx2PSRezrd9jzscDN2Z8dbPZ90vhPnQNibf6LN1ebL7a4XnkoUOWDB+2gjNqHH0TYiV/XlOiwTedT13t7w7g+84tloYMHGWe7N7i3hWxwrXJtcHgSADkGEo8bcw+W2ZmOjW7Obt8DlaMEQjkIIF2ju4dCHXtdGQ5eThQ7j7GGEG0fQ44XeGwrb3P6jxOPBx38m3Bxxkz1B9qJuHvFItyJ7A2aX8MzAe+ezYy0rNvv8vcAuxPz/PEAGyOf/MbV9EwqhtbWhoW/sSNeePbvmrFAU9rYvaev/Cf7y95N/QzJpmjciKtCyAiPA5h5OX4javv3YMR+Q3ZuDD04i8/NKM0RZgYGWCSy0BvzGdqfoQyhunON6ovD4C48DgAACy2cOHT4wqPqPn0MB4N2Z33+q+/FZclY5DvihACCgZvuy6SdnAXCzQPApMoPEjS8SQOECTuCrOtmMACDogACgYEdHAFCJJhgBQEMnCwHARhwlCAB2dLqjIpo/gkH/DlFwMhlRKWUWomFwGrFRzRWvHUPUqE1GTPLPMq7VUNzSzSzIzTcrzdW4hoqtuK6vMg/z6TN4XgacywgmMoFpDGcYo5k2UE2hY2A642m1pd7yWZMCcsnHpBLzcuopeMC+KUxl9DJ9vZMqzOcd6czYLp0B9QpBYyHDFRQQRR87eubonA8aAAA=");
 
 export default KiwiFruit;

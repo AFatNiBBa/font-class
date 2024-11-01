@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-swirl` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-swirl?s=sharp-regular pen-swirl}
  * @preview ![pen-swirl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pen-swirl.svg)
  */
-const PenSwirl: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M330 137.9L374.1 182 265.7 290.4l-50.4 6.3 6.3-50.4L330 137.9zM425 199l17-17 36.1-36.1L512 112 478.1 78.1 433.9 33.9 400 0 366.1 33.9 330 70 313 87l-17 17L176 224l-9.9 78.9L160 352l49.1-6.1L288 336 408 216l17-17zm-17-50.9L363.9 104 400 67.9 444.1 112 408 148.1zM324.7 17.6C302.9 11.4 279.8 8 256 8C119 8 8 119 8 256S119 504 256 504l24 0 0-48-24 0C145.5 456 56 366.5 56 256S145.5 56 256 56c9.7 0 19.3 .7 28.7 2l40-40.4zM454.1 228.4c1.2 9 1.9 18.2 1.9 27.6c0 57.4-46.6 104-104 104l-24 0 0 48 24 0c83.9 0 152-68.1 152-152c0-23.6-3.3-46.4-9.4-68l-40.4 40.5z" />
-    </Icon>
-);
+const PenSwirl = createIcon("pen-swirl", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABgAAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCMAsGAAE2AiQDCAQgBYMtBzAbMAXIjsQ4JvGLKEwiqGyVWT0zD4DzQEQiDl86S4gWELkKmWhtvod0TH8/+d23qvM0+ii/V6nzBs88n8CAoyzBM2w4myhuat5TiZOvK9RtII/X4h4F6dH0Ee52Hxp/aukySZEBiAYAmLBs0Rxv/xa/RXxYeYH40CwExARQCmTI0EaA0TKBNnIlcrngt6hU2H9gSQBRTYCTo+eojkO4CchBUuR57U41yya1i7r50tpFrW1jxo5ZHJOjUyxb0qt7r3ExLsZSMBp0B4v5MqbFsmCvgStvbuy4GBOjl75Y66vZH41/e/HXE96Z8/GS2hFRK75Z+MXSbxd9uexW03FLHvRE9ycH1wpRO74d99ayC+1Gd6xqUPXXH239yIwhr7322q5dutooDl07GoM01NBrZIVB4NgxNeearzC3Zisk7VhkkNcMWnihZufJ9u+vXt1kk5FaEpO10N/EF8fxa0HJxdeOj6r/+bHzn1ev9sc/PT2zxfHx2FMxvtP560AgOPb5/+W6+qP/rlE7gT9exR+vRuW9JFWhhgSCrHelt9WJGiQCAJDiqI76iwLJLoXwrnU8JECohQBJNbUEyLTWQIBcLb0EKLQzRIBqalkkE3lNoYk1jZzUcUDODHVGzjXxnFwY7d1kNU0i+wDNz8f8/cs1tQtN6VcO6Nu/HFnOZhXrm9J196hyc6j7UV7VA8611T57HbbFZjsc7nAHzckcscfUJWKKHyoN0Fd/pZHKw4WH05fa4qBDdthnr+1llPL6WHdHlxv3gNEkKA7kSbdgUKq5f8vePoeO7Ti4GwAAAA==");
 
 export default PenSwirl;

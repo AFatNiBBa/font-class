@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grimace` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grimace?s=sharp-duotone-solid face-grimace}
  * @preview ![face-grimace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-grimace.svg)
  */
-const FaceGrimace: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm112 48l56 0 0 40-56 0 0-40zm0 56l56 0 0 40-56 0 0-40zm32.4-152c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1 0 1.8c0 .5 0 1 0 1.5s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zM184 304l64 0 0 40-64 0 0-40zm0 56l64 0 0 40-64 0 0-40zm80-56l64 0 0 40-64 0 0-40zm0 56l64 0 0 40-64 0 0-40zM368.4 208a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM344 304l56 0 0 40-56 0 0-40zm0 56l56 0 0 40-56 0 0-40z" />
-        <path d="M176.4 240a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceGrimace = createIcon("face-grimace", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABvgAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDbgsIAAE2AiQDCgQgBYMtB1QbFAbIhof/t+v7fW7V6zVdNeMeuAZmJCEDv5EpE6IfAYh7/VCKe+CcuqDRGnBNOJRHWrVF6+jdfLAGjrLkErjQ8aQ3sI/qFRzo/MVx7QZ5fJfd0kZ6On2BB4P/AYxf9XaLpJ4BiM4AWLR5/UrvNKOZ4ovWW8QXViAgFoNKIEOGfgLMlQn0k6uQywXN1GrRjFarIoCoiV6cgRo64Vs0ATlIkjLPu3XrW6+Pq0embihWtnXIN4nvKDbf2zPiybje44ninsZjjce7P16WQyx+XOR5d+WX0/es/nrJ+5t/Wvzeqq+Ke1Z8sfCdDRvLohRFhMq2+cmzlvLeM+pYes21uB7XkOuEcc11jzUmFff0eKLH0TKj0LVGxFb7kz0vHW3DhhMGv9D5hd8HfXHoC69+3fEu7uqYqxjQAerQ5pnhGd6xrE7vN99dsuTdN3vXLROFzHN6wsxIMdJMI2dWvoFPdrgC6LBu6rDIIgUiRkSmFCKloVMf8IzYvTBSjLTQyJnV6NUzhrbDT36r4Eua743uufvZx4FA8PfVRWt2d5r7f7sygZ/f/vOX8oek9U6SXkA7CQTZ2NZYOxJIBAAgxSWDEw8hkHleKXrX9p4QIBQIkNQUAmT66ixArjBGgDYDTBOgprBeJvK60LCzZZL2zjKZ6S4zuYY3mTZzfZyoaUSmwHXKU/d7mXl5H162rJo0fmI1u1osqPVqVuMOzql2W0de4g2j4FGHnHbKBQcdcNSFHn3OyvRFJy1fQ5f5oMok401Uma06XX68f5ODzjnvqNNO+ePMUd0fHOnSevtR0JFEspOtyGREiqxhfRLjDp87erLUm5XmHhNGawE=");
 
 export default FaceGrimace;

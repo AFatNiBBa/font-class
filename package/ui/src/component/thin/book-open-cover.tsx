@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-open-cover` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-open-cover?s=thin book-open-cover}
  * @preview ![book-open-cover](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/book-open-cover.svg)
  */
-const BookOpenCover: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M329.4 433l217.7-43.5c7.5-1.5 12.9-8.1 12.9-15.7l0-340.3c0-9.7-8.6-17.2-18.2-15.9L328 47.1l0 386.2c.5-.1 .9-.2 1.4-.3zm-17.4 .3l0-386.2L98.2 17.7C88.6 16.3 80 23.8 80 33.5l0 340.3c0 7.6 5.4 14.2 12.9 15.7L310.6 433c.5 .1 .9 .2 1.4 .3zM539.6 1.8C558.9-.8 576 14.1 576 33.5l0 340.3c0 15.3-10.8 28.4-25.7 31.4L332.6 448.7c-8.3 1.7-16.8 1.7-25.1 0L89.7 405.1c-15-3-25.7-16.1-25.7-31.4L64 33.5C64 14.1 81.1-.8 100.4 1.8L320 32 539.6 1.8zM0 65.5c0-17.9 14.6-32 32-32l0 16c-8.7 0-16 7-16 16l0 353.1c0 7.6 5.4 14.2 12.9 15.7l281.7 56.3c6.2 1.2 12.6 1.2 18.8 0l281.7-56.3c7.5-1.5 12.9-8.1 12.9-15.7l0-353.1c0-9-7.3-16-16-16l0-16c17.4 0 32 14.1 32 32l0 353.1c0 15.3-10.8 28.4-25.7 31.4L332.6 506.3c-8.3 1.7-16.8 1.7-25.1 0L25.7 449.9C10.8 447 0 433.8 0 418.6L0 65.5z" />
-    </Icon>
-);
+const BookOpenCover = createIcon("book-open-cover", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABgwAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCMgsGAAE2AiQDCAQgBYMtBzYbOAXIhof/t/uvfW7Ve41vVQueiRpGNhBXbkZiSoTm1Kmc5DwUwOcQBGVPyi5OK4U613kFClpaNhbWCjQW1iqKNWjeS4MU2oW6HeTxt11KpDvS27gu/tD4WpuLSbIMQNQCYN7alWd7/vP4POLt/58k3rYCATEfFAIZMnQKMFMm0ClXIJcLPo///1f/gQUBRFn6XAnkKOMMrgTkIMnzvL6+c3RFqSpfU1Hqu3PtqrW3tWRxZ+OqSHFBxQXRN0vZmri1NcUtTavjgrgqNt7WFHGLFLcPXBU3N6+Ju9qzuKDltj1z7SGeiritQtzceFrcXngtO+O1klubI65qegBtg3es6H9f7X3f9nt7z9uWVn8wPFv8eMUqtT+80+lCgroLU2p01h9qV6l4/IPhCF899MXt3FuzSuvp90d44dEPRjjdukrNvbd/8VGXaL2OOdWXc3tVrc+rt6t4rG2q88/Xsx6r2K7681pVt1++Rd5MWqd4cedSU5xp2Q4Egv5Dv5i5tWbmr70rEvjyue//0pzw/0vp/HQfeksgyEb+P9ImnoGADyCb4oz+9KsIJEfk0mutdKsAoS8CJGV9Bch0qBUg19cIAUq6TRKgrK+VMpH3ERptHkBS6TjITHYOyDV6HJTM9FqurDEyBLL4Yf//khZPkUXTinGjxxbTi92yjgMV7cdnFJetoWd02zC61B5HHXHKbrvsd2qCnXB28bTDFh+hi/xQYZzRxipMVzyuvZy/xm4nnLTfUUeiSWYovg+HOnPcexh1k5RwvFSSiFQDT3kUNpVR0Ac=");
 
 export default BookOpenCover;

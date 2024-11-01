@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone?s=sharp-duotone-solid phone}
  * @preview ![phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/phone.svg)
  */
-const Phone: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M68.9 18.1c.3 2.2 .6 4.4 .9 6.6c.3 2.2 .6 4.4 1 6.6c.7 4.4 1.4 8.7 2.2 13.1c1.6 8.7 3.4 17.3 5.5 25.8c4.1 17 9 33.7 14.8 50c11.6 32.5 26.5 63.5 44.4 92.5l25-20.5c-32.4-53.7-54.1-114.6-62.2-179.7c-10.5 1.9-21 3.8-31.5 5.7zM299.4 374.4c58 35.7 123.9 59.7 194.5 68.7l5.7-31.5c-65.1-8.1-126-29.8-179.7-62.2l-20.5 25z" />
-        <path d="M68.9 18.1l-36 6.5L0 30.6 0 64C0 311.4 200.6 512 448 512l33.4 0 6-32.8 6.6-36C272.6 414.8 97.2 239.4 68.9 18.1zM499.6 411.6l3.7-20.4 5.6-30.7-28.4-12.9-88-40-28-12.7L345 318.7l-25.1 30.7c53.7 32.4 114.6 54.1 179.7 62.2zm-337-219.5L193.3 167l23.8-19.5-12.7-28-40-88L151.5 3.1 120.8 8.7l-20.5 3.7c8.1 65.1 29.8 126 62.2 179.7z" />
-    </Icon>
-);
+const Phone = createIcon("phone", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgwAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCGAsIAAE2AiQDCgQgBYMtB0YbMAXIhof/7KK/r6pnFlAvIH+AQSpE35kjWOGemf7e8b9vawE+o48yZ2udT+9bc50nEPBYNs+LAkoo0wws25YohEUg/rYxjmiyYo+fPp57QBHv5OtUSA+nt3Gn/g9g/Kqd60jqZQDRFABTVy9f6NWv4qsUb9eeI962AAExDZQCGRkdBZggC3RUKFEoBF+lWo2volYrCSCq9PkZVFEHW3ENoABJloqiffPmLeo2qDQqVumm+utHjB4xIsT7KyvdILogH6yK7uzQtkOH6BWrxOpDohPd1r9P//7RPlax1YPFIbv+qlYE3V9+uN3TA/svZe9ruXZidThP9On2SNNHfu/69q63zXh8lDVUdOXC+B3F2tGsC3DJEtsdbrx27Lpx49aNXdv48BM397CLNnrR6t5eNNrtlgzd1nDJpx/Zy495S+/VXvS9aRpuG7rEjMdzzqla6Thh7emmj15n6JIGW//+5/vtq0fta7TJyluGzgECwbzKnTs2N5nwf90GCXzz/J+/OH5HtVfjSnoEdSUQ5AG1ATYkyHFFAABSnNItwUyBbJKMP7WhBwQI9REgqaovQNZBUwEK9fUXoKKzkQJU1bdcFkU9oaWNN0gaOgqyUS6CQkvPgooJXqtUtYwcdWrMqP98WbMQnrmuHDpoSDmufGy6tECS+/L48nWszykZ6ktn7XLYISfstMNeJ4A/ZmH9pINmeeRMX1QaapAhSuOU251HaxVkjzkulrmxv8p45felPk75k/tSMjHBYbZkmUiRG+WlNzB53SZgJCkA");
 
 export default Phone;

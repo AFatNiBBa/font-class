@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-bullet` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-bullet?s=regular chart-bullet}
  * @preview ![chart-bullet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chart-bullet.svg)
  */
-const ChartBullet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M264 32c13.3 0 24 10.7 24 24l0 8 176 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-176 0 0 8c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-8L48 224c-26.5 0-48-21.5-48-48l0-64C0 85.5 21.5 64 48 64l192 0 0-8c0-13.3 10.7-24 24-24zM160 112l0 64 80 0 0-64-80 0zm128 0l0 64 176 0 0-64-176 0zm-176 0l-64 0 0 64 64 0 0-64zM360 256c13.3 0 24 10.7 24 24l0 8 80 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-80 0 0 8c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-8L48 448c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48l288 0 0-8c0-13.3 10.7-24 24-24zM224 336l0 64 112 0 0-64-112 0zm160 0l0 64 80 0 0-64-80 0zm-208 0L48 336l0 64 128 0 0-64z" />
-    </Icon>
-);
+const ChartBullet = createIcon("chart-bullet", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABjwAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCbQsGAAE2AiQDCAQgBYMtBzMbcAXIjtRG90UGmSQe/t/uv/a5VV/1ftPVkKtlZhqHkKJGNs7glY9TMXxZ+54//9fk/z4dJmCKNR1axbK8gbqfT2Cgh/MBNdBsYDOdgM26lbHVSmR/SZJKun081z0+5y6QxzvxgAbSk+lz3J8/NH7Ww90kDRmAaA+AeVs2rPLhD/FDxGd1xGdWICDmgVIgQ4beAsySCfSWK5HLBT9EvR7+A0sCiEZyvQRyFHgCzwNykDTn+eiWlhaq1hra5Jt9WHHk1R6iFq92eTRynuj8yKAiqoNe6xnBhde6PgbO090eH1qL+tCNArJFzTkFo4XYcJMGv1VRmysMeKv9W7/2//zw55qeX9el2Q3jvvkiq2RffDPuhmZd1k34H8IPw46sqapqrcra6wRuIDdugKpY/X//OX9tdi0VfglLcB9Snc2efeG5+NfX5VWV6yogEPz1lgN72s36t7mWwE9v95/yK6r/kKS30CyBIBtVH2VnAokAAKS4bECCQPKAZnjXVo8JEAoESBoVAmR6aS9ArjBSgAZ9TRagUWGDTOQtQme7GpW0OkdlprhC5Tq7TTWY5aN6o86RmadhXMbXYe7iHi46VY4fM66cUS4HqmlxWjqcWR4nhl3mheE467AzTrvokIOOudiR561qXXLK4h1v0ReVxhtjnNIM5fX40d1M9fMuODaPuj9mplK/Mszl/frhSCeiOkFbkojU+mJGR/8RCQAAAA==");
 
 export default ChartBullet;

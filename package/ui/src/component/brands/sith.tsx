@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sith` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sith?s=brands sith}
  * @preview ![sith](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/sith.svg)
  */
-const Sith: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32l69.71 118.75-58.86-11.52 69.84 91.03a146.741 146.741 0 0 0 0 51.45l-69.84 91.03 58.86-11.52L0 480l118.75-69.71-11.52 58.86 91.03-69.84c17.02 3.04 34.47 3.04 51.48 0l91.03 69.84-11.52-58.86L448 480l-69.71-118.78 58.86 11.52-69.84-91.03c3.03-17.01 3.04-34.44 0-51.45l69.84-91.03-58.86 11.52L448 32l-118.75 69.71 11.52-58.9-91.06 69.87c-8.5-1.52-17.1-2.29-25.71-2.29s-17.21.78-25.71 2.29l-91.06-69.87 11.52 58.9L0 32zm224 99.78c31.8 0 63.6 12.12 87.85 36.37 48.5 48.5 48.49 127.21 0 175.7s-127.2 48.46-175.7-.03c-48.5-48.5-48.49-127.21 0-175.7 24.24-24.25 56.05-36.34 87.85-36.34zm0 36.66c-22.42 0-44.83 8.52-61.92 25.61-34.18 34.18-34.19 89.68 0 123.87s89.65 34.18 123.84 0c34.18-34.18 34.19-89.68 0-123.87-17.09-17.09-39.5-25.61-61.92-25.61z" />
-    </Icon>
-);
+const Sith = createIcon("sith", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABcwAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCEQsGAAE2AiQDCAQgBYMtBysbDAXIPgxPZHZQDiERFEkaFoLC6FfntMk/yLG3B18ez6B4+P9Ddt//vzUntTVcFk6Mo7RNy0JIoJMmkP+w5t7f3cxCE9MonkySCWKNRqOKZTzSljALnYVCJI/Adj+IQwoHAXU3DXy8RlgI2WeyoyPfYMPiNKCXJYFanH0NIsP8rwNkar7WiFazmIG/m7imfpx/AxbQs0finz9WA+Uqzl9g56MoLN94PhvYi+L25pZslLIvk0STdFzZ8fWEEufxapE+0zde6o/Gnx57kFRkAEQzAGD/FQt4WFgE/fxv4tshCIgDwDBCRkY/AlsYgX6sYVAUwQ8tp/9AIICohLw3gYIKnINbAAUkubBRpVJcIWUr6SYRUz4tJ6kcJz1ZKkpRDVXkXEwVGsIqkeCc9zbxwEqh/dhR7X17pabTk/1zMeGI7nce3e1+sXsZGJ3ih7lFd7MmGr1V2F+Zr9iUv5OFzA2C7m7sJOaoxEEPQHdJNGz7SSp94hO/3zTv8RdrfNbenKGzG68DEAiW91jn8tg/cgC/8weu/zyk25tVSyDI80u04gGIF4AgxQ6N0bNAcoYB+dZ6bwgQahEgqVQrQNZHgUBRaw6BCoP8CFSqdYQRRYjQrt3ppN4NnW3apYt293SFLe9BpfbIDie7i/zfy0iOcGKTyjlcqohqWVLFh8S8HlVtm7LDY2a8ir5VK7b0dI1sDdSGQrxtJmkhCT1ScXNwUYlQHTfP5yt6NmwaWbVSukSp7lsmO/ZsM26DA1h9KpGLkdjN660hAAA=");
 
 export default Sith;

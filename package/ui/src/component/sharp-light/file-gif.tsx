@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-gif` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-gif?s=sharp-light file-gif}
  * @preview ![file-gif](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-gif.svg)
  */
-const FileGif: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 192l0 112 32 0 0-152L232 0 32 0 0 0 0 32 0 480l0 32 32 0 144 0 0-32L32 480 32 32l160 0 0 144 0 16 16 0 144 0zm-5.3-32L224 160l0-122.7L346.7 160zM224 392l0 80c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-24 0-16-16 0-16 0-16 0 0 32 16 0 0 8c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 16 32 0 0-16c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40zm160-24l0-16-32 0 0 16 0 128 0 16 32 0 0-16 0-128zm48-16l-16 0 0 16 0 64 0 64 0 16 32 0 0-16 0-48 32 0 16 0 0-32-16 0-32 0 0-32 32 0 16 0 0-32-16 0-48 0z" />
-    </Icon>
-);
+const FileGif = createIcon("file-gif", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgwAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCbAsGAAE2AiQDCAQgBYMtBy8bawURlZqhyH4kxsbMnt6xJqdqhojQqBdN/BIPz8/1du5L5kNSeFPCtBYAFRAIxaQAlxXYX7mEDlCtZ9YTABCwy4oSPPyxsbjs9YH2+J/L8d22owXyjQ5t7Pa2SVHRnM8TCDBbvBZBgWWagOX/zvxfGERvk4Si1+WG6dcN0+2hjLdishbpufQp7pcPjV+NdJOkLABEBsCKnVvXe/+r+Cri084r4lNrERArQSNQoMAYARYrBMYoNSiVgq+i0wn/gQgguuCdEijRjWfxIqAESassJ3TPb4+vW/3LHXWrOirUEbEjqkqkEHUdUUURdQhR76zqKmL7NuHq0KfqOm4PfyYigkXqnU8OqeLpYRHPDK/jqaHiUuTasKd9Vdwa8qSdQRxCPiJiXh4wKa85q7p6Yl/u+33Cp/2nDnZOXN541jPP+LBpvK/RPGg88L4XPJDlW+MvgHae/nHTY+03H7ez9uM32yNkuWlkPboOZYe6NqmQNeoo4fnhOVfKrsrE7EyQLbc8Nl2zDTSNvg4EglWrv/zi4MDF/+s6gW/e/PNv9zPSeT/+Sn3okUBQTO5M3pcgx18CAJDitIkJAskDLXikn6cFCBUCJF2qDoXRMpQqk6BlnDkSaW6lhCh7JYfYr5D0cwwKc12C0hAvQctiHxS6DInCPBXjUn4OM6UfMbeMMiswbOuaanFSmrfQ3uCPfaFsFf2xv107vQN71+Vv8yfGfZEyKzA8br2ub7r7mY49L2K5nwz+8+hQAgpEqxolIZP+EnLpMPUAAAA=");
 
 export default FileGif;

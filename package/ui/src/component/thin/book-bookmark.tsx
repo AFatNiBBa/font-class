@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-bookmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-bookmark?s=thin book-bookmark}
  * @preview ![book-bookmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/book-bookmark.svg)
  */
-const BookBookmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 56C0 25.1 25.1 0 56 0L168 0 344 0l64 0c22.1 0 40 17.9 40 40l0 336c0 19.4-13.7 35.5-32 39.2l0 80.8 24 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L56 512c-30.9 0-56-25.1-56-56L0 56zM336 16L176 16l0 215.1 74.9-61.3c2.9-2.4 7.2-2.4 10.1 0L336 231.1 336 16zM160 16L56 16C33.9 16 16 33.9 16 56l0 360.8C26.2 406.4 40.3 400 56 400l352 0c13.3 0 24-10.7 24-24l0-336c0-13.3-10.7-24-24-24l-56 0 0 232c0 3.1-1.8 5.9-4.6 7.2s-6.1 .9-8.5-1L256 186.3l-82.9 67.9c-2.4 2-5.7 2.4-8.5 1s-4.6-4.1-4.6-7.2l0-232zM56 416c-22.1 0-40 17.9-40 40s17.9 40 40 40l344 0 0-80L56 416z" />
-    </Icon>
-);
+const BookBookmark = createIcon("book-bookmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCDwsGAAE2AiQDCAQgBYMtBzQbEwXIHgc5Ga/5zrHysFjUtIig3uZbz9uVbAuMuGbG7IAhIs5+pOwwd/rrIgBQwtUCd8T7Ndrp7935P/+0QJ7RRxtrnf9dGs15nkCAWReu8yyeFlimCVjWzm7xg14/KAkpTzKMN2wukMdzjiiRnkmf46H0ofGNXm4nyTIA0REAC7dvXqvRGq0RnzcjPrcaAbEIFAIZMvQVYI5MoK9cgVwuaI1mM/wHFgQQZXbvCeQo4xQuA3KQ5Hle1Id2rJbq+bZqqZI91yPiqeHV6n3dnpDi6SGiGk90e7xrLV7p/mTv7HClWhHb46luWyMqXXpv18el4931eLVPFs8Oq4S4eW7ovi22xOPwI3a4eoTgN3d7onr1iNqgNzq+8d3Az4997u42P/A/P3qzxQb9r2/U04Fy+cDNLvxfm4fXD3/Zmm/VHIsXZ//6ewO5d+xJTQds7LZBt40zfKm0cOKkTYtp46SJC0tfHn9oQ0caOrW8aQfcYgcQCE6eW9p7f4c5v7WtJvBFS38rv6Lm0UhvoK0EgmxMc4w90YBoCABAimsGRQOB5JCcvWvNkwKECgIkZRUBMn10FCBXMVqAkv6mClBWsVkm8nZCV3sbSGougsw0N4BcVx+Ckjk+ysq6RsY3mi30dy9h2Qgt3VZMHDehmFUs2ypDITKuzy6OjRHXZGwkDjrmvHOuOOqIk64MyCVry6vOWubBS31RYaJxJijMUlz3nvdvc9Qll5103jndZLbifTLCNX/2SNiJEU7SkiQi1cmojiUtAA==");
 
 export default BookBookmark;

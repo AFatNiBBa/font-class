@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-tongue-wink` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-tongue-wink?s=sharp-solid face-grin-tongue-wink}
  * @preview ![face-grin-tongue-wink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-grin-tongue-wink.svg)
  */
-const FaceGrinTongueWink: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M174.5 498.8C73.1 464.7 0 368.9 0 256C0 114.6 114.6 0 256 0S512 114.6 512 256c0 112.9-73.1 208.7-174.5 242.8C346.7 484 352 466.6 352 448l0-46.9c32.2-23.3 55.7-58 64.5-98.3c-46.2 18.3-101.2 29-160.2 29s-114.1-10.6-160.2-29c8.8 40 32 74.6 64 97.9l0 47.3c0 18.6 5.3 36 14.5 50.8zM400 208a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM116.8 237.6c21.6-28.8 64.8-28.8 86.4 0l25.6-19.2c-34.4-45.9-103.2-45.9-137.6 0l25.6 19.2zM320 384l0 64c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-64 48 0 0 24 32 0 0-24 48 0zm16-200a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const FaceGrinTongueWink = createIcon("face-grin-tongue-wink", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABggAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCHwsGAAE2AiQDCAQgBYMtBzwbKwUjEfZq7gmQ/ZEYx0TemBCFxieXoomX4Hle7+vcl2QAZtcjawFWUGW5tesfABPX1I/zpz/PmvBQoq2DInE3yjyfwABnmTqCgc10ArbdaQ5LUitpSVosyfHZ8bkDXc5qszFArVb3gIX8ofIVX2ajsNUAABAXAAAgp6mugkuv5JXIXctx5C5lgABIDoCJABqgAQEIAOloCBCAjgno6Ai8Eosl/AeaCACIFfSaAkAHrIFhwEzk+aAwdL1ND0cnb1t7w1FvtDfsGl40ipQ1L/OuVj1sel5xP+dyw7P6ULZWRB52Yd30TZsrZLpv24bQPT13BawP2R22N7jPXnuRuSFhcsBuTnhIA8IqdHTdoQb8RLydAkiiabvvKnmZ39oenfe47Pne6d6gexyIrfCLygaoaKDIx3fxjKKIMWOxr4+tYaLDNeV+LwKicP9e6N9CM3XPNz2KgA+vOmtvfv9+o7kz/AINP/AzlnI4JOTw0juLsylt5+q6aVPUsMsmGh9MfrTzzRpPzxoxAMhrH/bql3o7p/+3sVcAvDnz8zsF/CuyXFKoPYANCgABLdwS3q4AFAgAAACgZFJnBSCAoh8GtNeBFQKAYAd0SmGFHaXhjwulY0cYZRBEgmFzTx0aotsieNABUAoHxlIaiUyhdDw4ShmkczNrhYdodmeyGtO3L/tQ4QgXLDJjIqPNVHNZ08ymZEizaea2s+ck7AmBjQwaPWrCwAFDJwzouIrCxJGFGlLwRTMmMtpMNY+by9WNA8eNHzp6VJ4nzbwf7TlJHx4CHgVpja1SKBDl+aqXRQweN3RUxITRowZP7KnJQ0cNBwAA");
 
 export default FaceGrinTongueWink;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-xmark` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-xmark?s=sharp-thin heart-circle-xmark}
  * @preview ![heart-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/heart-circle-xmark.svg)
  */
-const HeartCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 118.6l-11.3-11.3L220.5 83.1C198 60.6 167.5 48 135.8 48C69.6 48 16 101.6 16 167.8c0 31.8 12.6 62.2 35.1 84.7l24.2 24.2L256 457.4l16-16c2.3 5.1 4.9 10.1 7.7 14.9l-12.4 12.4L256 480l-11.3-11.3L64 288 39.8 263.8C14.3 238.3 0 203.8 0 167.8C0 92.8 60.8 32 135.8 32c36 0 70.5 14.3 96 39.8l12.9 12.9L256 96l11.3-11.3 12.9-12.9c25.5-25.5 60-39.8 96-39.8C451.2 32 512 92.8 512 167.8c0 13.8-2.1 27.4-6.2 40.4c-4.8-2.2-9.8-4.3-14.9-6.1c3.3-11 5-22.6 5-34.3C496 101.6 442.4 48 376.2 48c-31.8 0-62.2 12.6-84.7 35.1l-24.2 24.2L256 118.6zM560 368a128 128 0 1 0 -256 0 128 128 0 1 0 256 0zm-272 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm205.7-50.3L443.3 368l50.3 50.3 5.7 5.7L488 435.3l-5.7-5.7L432 379.3l-50.3 50.3-5.7 5.7L364.7 424l5.7-5.7L420.7 368l-50.3-50.3-5.7-5.7L376 300.7l5.7 5.7L432 356.7l50.3-50.3 5.7-5.7L499.3 312l-5.7 5.7z" />
-    </Icon>
-);
+const HeartCircleXmark = createIcon("heart-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABpwAAAKvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDEgsGAAE2AiQDCAQgBYMtBzkbmwVRVE36ZB+JsbPpgCDojGMWCl4F/9Ra+X5PL/Ah9O4FAEmFFdlU1FyAUQPZq8jo4YHncv+az28BR5KPJZilZwG1aW0eCzHt7681vuNL5Tufl2BRoq8DpDwix0/gAIMeXiQ1SIKdnSieOt3yLIhPvYrMOmaVosdVPD7dAKtvLBICc9Z8AE7oR6mBcofA4HkAACgPAADo35k4mie/9Vt6H9wEvWckEID6A+AI8HCPKgKgFw8BVSwOWCyC3woC/gc6EAAojDyaAcACYeACcAMAsAAYUtbawZWVzRPFlJ2SCMVnlhSXtNBnyIteD9yid0UtlWpYHClSoraGM3Krvt+hL3sXKy48xTbnYTYrG5XMda5PBGqmaP7+FkHgtzjGDzfbLzRZ8wOdONLylKrk/rZBcLnnc7t293vrC1mrc7db/HCPR5urpo6bOG68ip8J1zVOmVQNTWBi1TQRiHJ+3vFf9sOSDwTD6uVOW2mPy893YSjsc+M6AU2rH/DxuXGDrZaWY4unnFy3ZT/9A1t6J6csjhVPWLCh33l+WtCRHVDf9l+XhOTXL7ncl6/JZJ0pqVBeUwcuLGjSpKDQuaYoQfBj+6zADOYzSYECk/gM1lXh6QAIEIzpFv+am+n1P5owAPy992tAjw6emH7GB6IYAAReq6AVs3L9ACpbABA32kLO+SIBhvNY5FOTnEIAiDggAAxh4ggAj0p5BIAlTksCIESNzgRAmDgTecjGEEVmN2RIsh55dLEbWYpcRyF6eR0LUxR4GSvnm/y9mDHEYoMnufZt2rke7rBkVZJQnEd7usvOZlvY0hwQS6y1xiaLLbKc8obYYHRys9WGePhgP+S010Y7Tg8uXL03ppjgBhspjq0uPk5P7v5oM1v87s3hMQhnB1kGAzIFL4219b89rtbbEhwAAAA=");
 
 export default HeartCircleXmark;

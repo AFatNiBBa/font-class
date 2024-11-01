@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `floppy-disk-pen` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk-pen?s=duotone floppy-disk-pen}
  * @preview ![floppy-disk-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/floppy-disk-pen.svg)
  */
-const FloppyDiskPen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l242.7 0c17 0 33.3 6.7 45.3 18.7L429.3 128c12 12 18.7 28.3 18.7 45.3l0 62.4L289.3 394.3c-8.2 8.2-14 18.5-16.8 29.7l-14 55.9L64 480c-35.3 0-64-28.7-64-64L0 96zm64 32l0 64c0 17.7 14.3 32 32 32l192 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L96 96c-17.7 0-32 14.3-32 32zm96 224a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-        <path d="M493.2 235.8l-29.4 29.4 71 71 29.4-29.4c15.6-15.6 15.6-40.9 0-56.6l-14.4-14.4c-15.6-15.6-40.9-15.6-56.6 0zm-52 52L311.9 417.1c-4.1 4.1-7 9.2-8.4 14.9l-15 60.1c-1.4 5.5 .2 11.2 4.2 15.2s9.7 5.6 15.2 4.2l60.1-15c5.6-1.4 10.8-4.3 14.9-8.4L512.1 358.8l-71-71z" />
-    </Icon>
-);
+const FloppyDiskPen = createIcon("floppy-disk-pen", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABjwAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCJwsIAAE2AiQDCgQgBYMtB1obUwXIHge5OfSuhZHptXh4spm+P7OS7dUxrBECDLoLA1XGMqkYOqyMbYA7QzIbBcT//N/sec+jAD9HENpYuKwXyJi85/MEEi3uFp0Gcgv49Azt3jbsOALxNEIkVEIaL2mcdihic75PjfRy+h5P0v8Axq8G3UcyLQOIDgDsN3nCUT7e0IYU3297h/jekQiI/UElkJExIsCessCIQoVCIdiQtrEhtlUEEHX06RnUMQXX4C5AAZIkF0VX99hQa6PWWkw0auW58xbOa8bCeDHu7uuLF8pHeo49cfLE53qqeK73+f5D4sX+yZjIry6MWDO3EY/Ob8Yq4sR4bqCKMpYvWD2UDxPu6n2+4R3V/2JE3N33QlnGIz3Pab4+f9XCNeNvLFg9b+XIjNUdq3+f/v0F/PYD3vfeb+94f63vhvzdDnfxIc2BXw00m3d96J7mXXc5+GBnlZ10vvWvoRlHHmnG0D7eeN37y37xmbc6O8t9t+3LrraHHmr7WJvsSzxnrs+b/v57U4b7gUBwxsrn55zZvuf/UxsJbHr3z3/xdts+Svum1ZgqgSAv2rbIaWlfAHQAPyrFDWakfWMcgewgGT9qixcECCUCJHWlANmwDgEKpYUC1IzZSYC60gmyKKYJPU4XkLS4GmQ7ux0UerwNavb0lVrXE7n4yNIh/35xB2vooKVquyXLqt0rNzKpesL7dI9qm593A1bmw6oLXOkK1znfeS52nUKucZRxvcsdHMEH+aLKdpZYprK7Kp2+chNKvca1LraZ/Jw9VOeVeW6I2+eDlDDm9razTKTI/RdcduVVV928+N0ai686/4rFN7lx0GKuLQAAAA==");
 
 export default FloppyDiskPen;

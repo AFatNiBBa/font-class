@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-monocle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-monocle?s=sharp-solid face-monocle}
  * @preview ![face-monocle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-monocle.svg)
  */
-const FaceMonocle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M427.2 446.3C381.9 487.2 321.8 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256c0 62.8-22.6 120.3-60.1 164.9c-2.5-8.6-3.9-17.7-3.9-26.9L448 224c0-61.9-50.1-112-112-112s-112 50.1-112 112s50.1 112 112 112c31.3 0 59.7-12.9 80-33.6l0 91.5c0 18.4 3.9 36.2 11.2 52.4zM256 224a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zm-79.6-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm144 64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM144 336l0 32 16 0c14.3 0 37.9 2.9 60.6 11.7c22.8 8.8 42.7 22.7 53.1 43.4l28.6-14.3c-15.3-30.5-43.3-48.6-70.1-59C205.3 339.5 177.7 336 160 336l-16 0zM305.2 89.9c8-6.4 18-9.9 28.2-9.9c8.9 0 17.6 2.6 25.1 7.6l8.6 5.7 17.8-26.6L376.3 61c-12.7-8.5-27.6-13-42.8-13c-17.5 0-34.5 6-48.2 16.9L262 83.5l-12.5 10 20 25 12.5-10 23.2-18.6z" />
-    </Icon>
-);
+const FaceMonocle = createIcon("face-monocle", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABmwAAAKyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCbQsGAAE2AiQDCAQgBYMtBzMbcAXIHoNt6/HhVWuq4xjjmsGynFp/PPz/HOh9PykAp8zogEmhZRwJy3ancnaF52Ncvb9iWh+d5QagMt10JbvZCVUq8ZzXZlcgFydxGniEbVGAHmBA//N/Tb14fnSA3+hQoq0aJBZ8tKznExhwh8BAosBmOgHb24ZHR8cRSISYSUjj5XidIY9XWS816Wq6hdPyofEvdTgASZkMQFQGgMEVU8d7/1es8K/eJ4hfGQsBMRgoCGTIUJ8A/cgE6pMrIJcL/or/A/8DCwKIkvi8BHKUxnlwFywXZZXM8/bmapxVu1yJCvmMvmfZpa+l7/n3mdflH1k3BQ8Vb3l3GVdl9lJTIXGrzUaPo1Zr9Rdbr3c/7UjsqVO+3Pey93mDhV5nfS4alnfVlLhUtq/6RPXJGpPl+mtNRxnIEkQuc/CWSgnl4l7349bhca3FSouTZoaZ0+X6a9iirdSUu2X7WkVEdWkttaRt0MPKG98b/7biloeSk1Yykr2jdZxGMtKpZ/eOpFfKwoRMxkPW/z/vPp/I+K9a9Vcf/l6+O7evLI9DJ/rjCI5YzEeOVEDI4lccHmghi+DZuxMLvqPKNuW2tTdOfONG7LyvfOe/nwXPtqnDQWIc9SY1e0E8L2gGBIIsPrY0VOr3X7pcAv+8/PxOfkU/3idKD6G0BIKsnbedeQqQCABAih00UUAgOY4GXGt5lxAQyiJAUlJZATL1qEyAXFltCVBCQ7oToKSyppKJvIxQnfkTJOVtBpke7AS56jwCJfTjW1hSdcnKky0u9neYNEKjwwcV0aFT0afY5gyu4ujW27c4VnwH1bSGhVawkQ1sYznLWM02hW9hfGo76xkRYcP5IgWd6UAnCvpQpItbaYYKt7CV1b6Q76cvxf2gFTvi5q1BT5iwC4kkEan840+0n44NG5euWw4=");
 
 export default FaceMonocle;

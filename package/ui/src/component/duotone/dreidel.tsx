@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dreidel` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dreidel?s=duotone dreidel}
  * @preview ![dreidel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/dreidel.svg)
  */
-const Dreidel: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M89.4 153.4c79.1 79.1 158.2 158.2 237.3 237.3c22.9-22.9 45.8-45.8 68.7-68.7c18.7-18.7 18.7-49.1 0-67.9L333.3 192 438.6 86.6c12.5-12.5 12.5-32.8 0-45.3C432.4 35.1 424.2 32 416 32s-16.4 3.1-22.6 9.4L288 146.7 225.9 84.7c-18.7-18.7-49.1-18.7-67.9 0c-22.9 22.9-45.8 45.8-68.7 68.7z" />
-        <path d="M326.6 390.6L89.4 153.4 18.7 224C6.7 236 0 252.3 0 269.3L0 416c0 35.3 28.7 64 64 64l146.7 0c17 0 33.3-6.7 45.3-18.7l70.6-70.6z" />
-    </Icon>
-);
+const Dreidel = createIcon("dreidel", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABagAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBOQsIAAE2AiQDCgQgBYMtB0ob1QTIPgTYwQL/YmyS2LiYyFhxd2T05u2W5185fIm4lrJ4+O/e9/eZmbRSqBcLpoNFE5JYAw1gKMu/wFtfP1e6PrTffIeItENMKj9hNktuTSV6XEPqQqFN6+II7TdAQNFWcMjpt5OGHgdq9YQZc/c2MvtlVj+6WUr7nv/zISenxRsvFfC4w3GueEEW+JzxCjTe+M9Nb29QU3zz1rZHSdw/mdRk8o/2+HWDEr18oY70kX7BC/4HMH4xuyBpygCITgBwetcoYVSrluK3ivihCALiDDCJICNjFAEHuAKjeCZBUQS1VKEWlUkIIOqBL2dQj4IDcAmggCRE4WmnpHVyXhufS2ZvW+0m6RMfSwOHNO5XOv+7yQs57a/XCaE8S+56m9Vje9/9qLMOVUO2NWaHlfMGrMMPaO7qenswPM0M3fkDWqlRjxnf8iNu2+S37+Xnr4/DP7YHm8NAIPiviyrzv5ED+Pn15O3qfadPNEogyKtVTMcISHgCOCkOWI2lPSDIpnCAvVq9ChCa6ZDUa4ZshAqKZitQZ1xif71mV7iiiBF6zRAkrZ4g23IIRa93qHPgw6nXGzmK2BhgP3FJjEYKUzQSDNMsXQYaFxh0HebotuU+yAUPr8WCTRv2zJuzbE9hO0r+vnWMhRYsiIoICqOyqDt+lNrK2bFreS74x+TQ87bbgV3v4Xk4gLX735uJRLjKuef55bn5tcBz1NVaeHcAAA==");
 
 export default Dreidel;

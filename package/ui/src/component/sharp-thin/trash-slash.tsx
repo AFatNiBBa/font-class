@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-slash?s=sharp-thin trash-slash}
  * @preview ![trash-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/trash-slash.svg)
  */
-const TrashSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M520 112.8l.1-.8L504 112 485.3 294.8l14.9 11.8L520 112.8zM468 464.6L464.8 496l-289.5 0L146.1 210.4l-17.5-13.8L160 504.8l.7 7.2 7.2 0 304 0 7.2 0 .7-7.2 2.9-28.5L468 464.6zM211.6 64L193 64l20.3 16L544 80l0-16L428.4 64 390.8 3.8 388.4 0 384 0 256 0l-4.4 0-2.4 3.8L211.6 64zm168-48l30 48L230.4 64l30-48 119.1 0zM16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5z" />
-    </Icon>
-);
+const TrashSlash = createIcon("trash-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABbgAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBbwsGAAE2AiQDCAQgBYMtBzIb8QQR1ZqJyH4kZG5PaZZkt4U9W0OgpnUS38TDw1q/P3dmdh/M4jKIuHRIeLcqliBpCZbEEgn+32RW/QqAqVPPcx4K4HPiPBbmPCALfM7zCOQ8NCbNLqAWZCysVRSr22QYekThWYQESUTHFR5fG2Txd7MSyc0ErtQPje9auiyRpgCiAQAmLFs0x8uP8THiffUx8d4sBMQEUAikSNFGgNFSgTYyBTKZ4GNUq/wfWAggyvR5E5ChBsuwBZCBRCnLKk2b1m5YKdXNllZK+aEQeSyOprFseYvWLerEyugaK6JpVOo2j9bRbGVeybtE3YjIY2I0izxvEuOX9enbJ49+UdnYrGmzJtE0DtDFmkezONjxQYMHPzvYqmZuRDTQ6InvGr8aVN++fTtq01Yd7QYpqxlW1tu36tXGmDTOLA0cNksn2eVOZt3t90Exj3xwfFe+uOSOxXZ8Wex2O8dXEAiOTBv7YF390X9qVRLw+cXv79LJ1ZfJ+WTUkoAg7V3tvTo5D4wOQEriqI7OFwUS85TotdZxLUDIESBRlguQaq2BAJlcLwFK2hkiQFlukVRktYUm1gyQqOMASA11BmSaeAhKRnstljWJNL7I6CC/d3FgqoWm5BUD+vYvRhZLVadCBs/pUcU23/2ouHpg0NZ9ew9v2bzjsEEOzlGO7JnqwVN+WAzo278YWRwbz91Ltxw8tGPf3pJlVHFf6H7UD+6BIhJg4MvgMhJJ5fDBDYe29zm0e8Oh7QAA");
 
 export default TrashSlash;

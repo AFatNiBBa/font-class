@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `typewriter` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/typewriter?s=duotone typewriter}
  * @preview ![typewriter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/typewriter.svg)
  */
-const Typewriter: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M64 64C64 28.7 92.7 0 128 0L352 0l0 64c0 17.7 14.3 32 32 32l64 0 0 96-82.7 0c-8.5 0-16.6 3.4-22.6 9.4l-13.3 13.3c-6 6-14.1 9.4-22.6 9.4l-101.5 0c-8.5 0-16.6-3.4-22.6-9.4l-13.3-13.3c-6-6-14.1-9.4-22.6-9.4L64 192 64 64z" />
-        <path d="M448 93.3l0 2.7-64 0c-17.7 0-32-14.3-32-32l0-64 2.7 0c17 0 33.3 6.7 45.3 18.7L429.3 48c12 12 18.7 28.3 18.7 45.3zM0 256l0-32c0-17.7 14.3-32 32-32l114.7 0c8.5 0 16.6 3.4 22.6 9.4l13.3 13.3c6 6 14.1 9.4 22.6 9.4l101.5 0c8.5 0 16.6-3.4 22.6-9.4l13.3-13.3c6-6 14.1-9.4 22.6-9.4L480 192c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l0 160c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64l0-160c-17.7 0-32-14.3-32-32zm176 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm32 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm96 0a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm32 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm96 0a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM80 304a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm64 128c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-192 0c-8.8 0-16 7.2-16 16zm0-64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm64 0a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Typewriter = createIcon("typewriter", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAAB3wAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRyEGQsIAAE2AiQDCgQgBYMtB1AbOwbIhuB7XWW//7VTt9LuHA3csQ4IbY6IIEOgyJzhRM5dpXJEHM/8X+753fbW8+8Flod2c2Mbx/S9uBcFFPBZaVs3UEChZmBdc4M2uvfHYfE8QBHf55uMkB5PA9zr/A9g/Gq6m0hGM4CYBIC9jj78QF820aQYDD8iBg5AQOwNaoGMjFkC7JQFZinUKBSCJg2HNDEc1gQQLc4dM2hhMn7CP4ACJG1RFJ3Nox45PlqyuBoZL46KrivPFsq4o/dIRFRx57Jl8bpTQlzff7Sqp7vdeNiN9vuB93uYuK7zUCkeW/rawrF4ZfkbM2Kty5GP9B7qPNx9tF9FVGXCqoWOCUeaVhWaUQbVYzKXCZt0ho0+urXr+CdXRLy5pApxXffhygkp445OJx4qA71ePHKbmP/GpDd+nzc4a+CL03LOe2rfdlt7T9mM+QPzZ3zxQl3XZvXlxm/7wW3jZ2Hrcq5cW8HPKSdPfm5Pz9nlc3bFu2vaTdO2tDqb8JQWjyv2uLbdfEmnHG3PLp4qQ7G+3Rw8sSlYWFNOZvJzjQcsO8XhN37P4a4DAsGCxb8UJ0/c+f+EKoEfP/7zX+nvaPhlkt7ABAkEeeVwpRMSSAQAIMVV5ifYUyD7WJv3qWMeESCUCJC0lAJkM00SoFBaIcCIOTYJ0FI6XBbFqNBxYgmSMZeCbLOrQaHjQzBip68yLZ3IUM/ALPPRmbh/HdpvU71u9dp6ez3YkLOATJmLO+rZ5tKrWgPL8FZnudhFrnCmM5zriprnMgfmr3Sh/cfC9/tubZ3V1qptV69u3xaOohUuc7lz+/n1q+xQ7x9b6qrx8cuwk3gR13PJMpEiT1GD7D806qr3Z7DT5JUKAAAA");
 
 export default Typewriter;

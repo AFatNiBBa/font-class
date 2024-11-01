@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dog-leashed` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dog-leashed?s=regular dog-leashed}
  * @preview ![dog-leashed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/dog-leashed.svg)
  */
-const DogLeashed: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M69.6 8.6C78.2-1.6 93.3-2.9 103.4 5.6L292.6 164.5 313.5 39.3l.1-.4 .9-5.6 3.1-18.4C319 6.3 326.4 0 335.1 0c5.6 0 10.9 2.6 14.3 7.1l11.2 14.9 3.4 4.6 .2 .3L368 32l76.1 0c12.7 0 24.9 5.1 33.9 14.1L496 64l32 0c26.5 0 48 21.5 48 48l0 32c0 53-43 96-96 96l-45.3 0L432 256l0 192c0 35.3-28.7 64-64 64l-16 0c-35.3 0-64-28.7-64-64l0-19.4 0-48.9c-10.4 2.3-21.1 3.7-32 4.2c-2.7 .1-5.3 .2-8 .2s-5.3-.1-8-.2c-10.9-.5-21.6-1.9-32-4.2l0 48.9 0 19.4c0 35.3-28.7 64-64 64l-16 0c-35.3 0-64-28.7-64-64l0-224c0-1.3 .1-2.6 .2-3.8c-1.1-.3-2.2-.7-3.3-1.1c-27.4-9.6-49-32.4-56.4-61.8L.7 141.8c-3.2-12.9 4.6-25.9 17.5-29.1s25.9 4.6 29.1 17.5c0 0 0 0 0 0l3.9 15.5C55.6 163.5 71.6 176 90 176l54 0 87.6 0L72.6 42.4C62.4 33.9 61.1 18.7 69.6 8.6zM318 342.2c11.4 9.1 18 22.9 18 37.4l0 68.4c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-173.2-96-48 0 104.8c10.8 0 21.4 3.7 30 10.6zm-78-6.4L240 224l-96 0-31.9 0-.1 .8L112 448c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-68.4c0-14.6 6.6-28.3 18-37.4s26.2-12.6 40.4-9.4c7 1.5 14.2 2.6 21.6 3zm94.2-139.5l55.3 27.6c6.7-18.8 24.6-31.9 45.2-31.9l45.3 0c26.5 0 48-21.5 48-48l0-32-32 0c-12.7 0-24.9-5.1-33.9-14.1L444.1 80 368 80c-4.2 0-8.4-.6-12.4-1.6L338 183.9c-.7 4.4-2 8.5-3.8 12.4zM416 112a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const DogLeashed = createIcon("dog-leashed", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAABrwAAAMFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDXgsGAAE2AiQDCAQgBYMtBzIb4AXIPgxPZNygnoL4ZDiuzKJrkUxnCOt1wofRIgr/CP4pnfn+SjKs7li2L7wBZmipA5weqAWaPiFobvehDBbKQhsrzVC1mKJgTQZBumDQYnKgGxwN47DghIsuvkbThAt1Iyx4vIMhXoFt6pOLwTmnXK152AGvKZ74bxs6lkdB9Qj1ohWt1d+d153dymB4+QYAAe43/5d7ftPGBvl2ZIeyFi26yvfzbE7uJXCADYrHAkonWJZZApq1OQ6htngIi5BD3sukwf2HLdoDX+/cQwDmqCGwe3srfaOYDTAEHgAAygMAANqO/Xvy5Odn9bIDvaQ7EIDaAuAI8OCXJBFa8MU7+Djg4yP4HP8j/wcKAYBi2JEGAB+IA2/Be1D/PGAIfH9x4ZRMhkG2PygM7PDDFQdqsKSMJTyc2c4ppZRShtqeqqpQF1MHFZ2ocmVYRaIjVa4Uq0vVrpkkHYjWAixsa9MIV66TRvWVTutY5cu6lq9zj1YMw0E6VGLoRdDBVKjDGWmQ0PZUJq3F9py1T5xadhnctVvX441DXc4cdslqW7payg/QgWjwHaWpHPd4SMpdo2s3r6KO2684tmgBAsqqeWunR1QADfQQdePU+V6OxLVra6W2J2z+niHO5HxbSF1/A9/S4fdVKG71GWOUB7d713DoPwGgte3PnE5t9M+/0oGcz+Nzusnohqnyz5Q5qIxx5JO7rAOZUmrA2TPzL0fuoWIS3821rIdY3/wjqPj6dyqLtksBQEc9eNeMdouPBoCv++88qwvbmGtAAgOAwKtRM8JTBI45CCsZLaIcPigAw1MBeNcsDhEAwgICwBDDIgA8SsgjAHws1QmAgNIaEgAxLP15yE8iIiMLMGQxF3g0shL4RO6DgBaeFmNE4cW1EZXGX2VuJ4Y6prnWquOauWbNZYaqJmebu+5gF609VbGVSWabZYGJJphqAXHz9KwsNFMnRXT0RU5dtdThNOOGm9fuICrOM99U3x5fpDn3fq6KRXp4VcQGk61no8GATDhh9uSaH/GSKRMnAAA=");
 
 export default DogLeashed;

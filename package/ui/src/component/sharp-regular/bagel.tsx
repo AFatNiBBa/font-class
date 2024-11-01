@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bagel` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bagel?s=sharp-regular bagel}
  * @preview ![bagel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bagel.svg)
  */
-const Bagel: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M640 208c0 114.9-93.1 208-208 208c-3.9 0-7.7-.1-11.5-.3c5.7-10.8 10.6-22.1 14.6-33.8L478.8 352l56.7-1.6 19-53.4 44.9-34.6-16-54.4 16-54.4L554.5 119l-19-53.4L478.8 64 432 32 385.2 64l-56.7 1.6-9.2 25.7c-14.4-7.6-29.7-13.7-45.7-18.3C311.8 28.4 368.6 0 432 0C546.9 0 640 93.1 640 208zm-144 0c0 30.6-21.5 56.3-50.3 62.5c-6-43.3-23.6-82.9-49.5-115.6c10.2-6.9 22.6-11 35.9-11c35.3 0 64 28.7 64 64zM48 304a160 160 0 1 0 320 0A160 160 0 1 0 48 304zM0 304a208 208 0 1 1 416 0A208 208 0 1 1 0 304zm136-96l24-24 24 24-24 24-24-24zM96 296L72 272l24-24 24 24L96 296zm32 112l-24-24 24-24 24 24-24 24zM304 264l-24-24 24-24 24 24-24 24zM216 416l24-24 24 24-24 24-24-24zm88-8l-24-24 24-24 24 24-24 24zM192 304a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 64a64 64 0 1 1 0-128 64 64 0 1 1 0 128z" />
-    </Icon>
-);
+const Bagel = createIcon("bagel", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABvAAAALPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDWwsGAAE2AiQDCAQgBYMtBywb1wXIjsOmzL14YBghBodY4k8QhS7d08sALDNjFyAoKrLDWDF0P+kzXwWYIFnDZguAwgCraoovn6yQgJYcK2YhKxSxr69+/X/cz/NfRR/w8XevRQRIBY0yzyew82FTBU24cDZQGvN0m4xIjzA8eiokSCI6To+vI1Djt+zFCMqO8gzsqW8qf7jZCIVRKgAAUgQAAHKb6yu59yt6kSf/L4M8UQ4IQDoB0AjQAR3wJAAy6AjwpNKASiXQx///9B+ogQBAMlBasUkF1uAh+IR1Jigs09ToQo9aM2RYWRhZqU3tJ5hPv+0NedmwlLPnkS7FEh/Z4Rf+kRVxUSRpkRIF4hrHgs6m37T4qf0YylnrKnI04H3eVu5F6Em3nrlmkdOp1y2W029Gn5X5qDNpN8yXUq5FnMJ8PlrkbPlT7o7Sh+bTrG06VXKfs73sseWMJOF14aESEmGDDfVh4TJsQ4QntkEfTx5teKP8iMth54OOvlfClsNXki+Hngw5keC3bLv8xffp0LM1hmhexnISxkYzNbetE+CCr3zlggDrGBjMclTZ0v2JxbbmWF6WZG/lS3g5lJ07+8vx2M7O/G53Yw8aChvCGpKjINyU0Kq21DtwJi83ucPC8sydVJQguKV7Vo1kX3DSeZ9R/uy60HwEN8mZHrbW662l8H9MlI9PVAzfDwACBHp+EyM2Gf9MLRQAPt8ZDHw7/+8pa5VbwJQCQKBr+h9Bh7IWAFIBQFyJJfycDxKguMeSxi0dJkgKc0xQGDMHHQ+2oDIXDka8JcqH8+vRkTQzhKNOgMLSLOgkWQUqRxfBSIYHMWOOoYtqNSbVT2XGIosUTtLao2K0NG1b0rVAlctounbsrFvillCsZYhpplhgkAFGWTDiHJXJRSYp8oRCvogmVpQYmjTadfV1eRODzDHPKNNMyTjptPfREEt+91BMQwEAcfEgc5GkGPX1Dg9OAAAAAA==");
 
 export default Bagel;

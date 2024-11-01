@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `om` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/om?s=sharp-solid om}
  * @preview ![om](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/om.svg)
  */
-const Om: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M368 0L336 32l32 32 32-32L368 0zm16 192l-13.3 0-9.4 9.4L306.7 256l-61.5 0c6.9-14.5 10.8-30.8 10.8-48c0-61.9-50.1-112-112-112c-41.2 0-77.1 22.2-96.5 55.2l55.1 32.5C111 169.4 126.4 160 144 160c26.5 0 48 21.5 48 48s-21.5 48-48 48l-56 0 24 64 32 0 16 0c35.3 0 64 28.7 64 64s-28.7 64-64 64C48 448 0 352 0 352s0 160 160 160c70.7 0 128-57.3 128-128c0-23.3-6.2-45.2-17.1-64l49.1 0 13.3 0 9.4-9.4L397.3 256l18.7 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32c-64 0-96-48-96-48l0 64s16 48 96 48c53 0 96-43 96-96l0-96c0-53-43-96-96-96l-32 0zM480 64s-66.5 32-112 32s-112-32-112-32s16 96 120 96c72 0 104-32 104-32l0-64z" />
-    </Icon>
-);
+const Om = createIcon("om", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABmgAAAKXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCZwsGAAE2AiQDCAQgBYMtBykbYAXIjsM4JnwXRSyswfOoS9+X5LvEDoMKDOQC8k6wEo110sG8j5wab7xUwEdetPPp6cdHBbk3XoGKXGy3+IRGw9nEBqRjnG4TO/QIa2+EBElI/B0eX3dg5KqejwNqi3oGrGovKp9JZz4oIjUAABIHAADU6dSuBbc+yAeRp8F5kKc0AwRA6gBgEUADGshCAKiORoAsDBYwGAQ+SBDwf6AFAQAJgR+nADCAA2wGdgIABgCFNiZyWJbnRJuOnuMOKlyscBEpJkU7uJ6bJK3FlW2ys6hfcWn+/WktZFuhA8kb0jcnrc/vShnxvANFjqRvLnw4/4OqVzJ8WZ++JX1LlcsNHta6mW9OUc9LlXbiybLkDSCzk9a7F4r6gsxO3lDgQIWLxY7mytWg22l9fpH9XTpYkM+nrE/fUuRIg4eFDonk9eP8r3meDXzGqJsBsAQEsTejH7WZjtTkQEbs/3/krtz5ojcPTvXmudbP35SuzCxs3O74eNctN+4eU7Div5CiUqF371LDu1vXK+/kiyoTDSYSs3hxTG99zl/o2sjQac2qjp7t+xG9ifD92bbXLFIgdRMsHD164abUFGThwo0b87RZsULVBgABBJ4MuD+iV2z1vxGeAuDTlb8KF+Ar3FIoH4hAASCgiwfF6a4IAlAgwFEykbzOOyGAYjUa0qLYGPUFFyasCOHCmkziYINLMdghhwrE4XI7NGIiEZLoQbAiijGwpiIzYEMSZ2GH6jx0QiSJzk0qs6ivYXxDCzSYs2VKlrZV7TY06HQj6riaPZYKT5RSETpkIKMYyXgG0J8hjDfQWFr4ExhBQw9swAexlKEkpbFUxYaT1+2ODGAs4xjCKEbqlGrY+1phJvrNRUhVALcsonoCW6lRIwAAAAA=");
 
 export default Om;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pallet-box` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pallet-box?s=regular pallet-box}
  * @preview ![pallet-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/pallet-box.svg)
  */
-const PalletBox: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 48l0 80c0 5.9-3.2 11.3-8.5 14.1s-11.5 2.5-16.4-.8L320 115.2l-39.1 26.1c-4.9 3.3-11.2 3.6-16.4 .8s-8.5-8.2-8.5-14.1l0-80-80 0 0 192 288 0 0-192-80 0zM128 48c0-26.5 21.5-48 48-48L464 0c26.5 0 48 21.5 48 48l0 192c0 26.5-21.5 48-48 48l-288 0c-26.5 0-48-21.5-48-48l0-192zM0 344c0-13.3 10.7-24 24-24l64 0 232 0 232 0 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-40 0 0 96 40 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0-232 0L88 512l-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l40 0 0-96-40 0c-13.3 0-24-10.7-24-24zM112 464l184 0 0-96-184 0 0 96zm232 0l184 0 0-96-184 0 0 96z" />
-    </Icon>
-);
+const PalletBox = createIcon("pallet-box", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABewAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCGQsGAAE2AiQDCAQgBYMtBzEbGgXIjtRG+UVWEg/P2/37a5+Z+wJoYvqhStyLtVuoul3cpvKvXApV+z79vTv/55+2P/4EH2UtWqPFbRprnCcQYNqlm7oskCzMEsXUTSlKPQTJM1iRMFyRsuPs8Ww7QR5/x3kl0o30DufGh8ZP2jhLUsoARGMATF65dL7y1/ga8fZ/xFtzERCTQSGQIUN7AcbJBNrLFcjlgq/x///6H1gQQFTAixPIUQuHUA3IQVLK83ZtO9epU6/UIF9Rr1R3p3Cy+eWWY2JUSO3ViKgbokEprn+rVcS1nrP4dosrbcT1jVS3+nFHj7eNVbd61mt0u831bnVD1AsLGt5pu+CjjJHL69Wt56pX93d50PjBL53f7XjnxLlFeE6dyjOVu+1WefRsnUUWKSuULZK95+OgwqCP77MyyVpxomeLxZMaL25xFPWySS/Wk/2DNc9Qsskzm74/HwcCwYdBw/tvbDTu19r1Evjuxd/q/f4vp5PpAWpLIMj6/d/PunQSlBpAJkW1Ls4XBZJdSvCu9V0VINRFgKRCXQEy7TQWIFdXXwFKOhouQIW6lspEXkdobv0ESX2HQWaEYyDX3ENQMs7LdIXmkSWdkDLCP1/qDIam7yoGDxhUjCluO0zMI65vji22jV7VbaK3HLTDQQdU2m6b3SoJOWJ+rsp+Mzx4uh8qDDbAIIUxinD/q7qC0kcctXstx7cZq3g+3ku1P7+32Aloh6hPEpHqHvr8ple+6QMAAA==");
 
 export default PalletBox;

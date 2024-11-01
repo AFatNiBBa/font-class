@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cubes-stacked` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cubes-stacked?s=regular cubes-stacked}
  * @preview ![cubes-stacked](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cubes-stacked.svg)
  */
-const CubesStacked: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M240 80l0 32 32 0 0-32-32 0zM224 32l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zM136.5 268.2l27.7-16-16-27.7-27.7 16 16 27.7zM71 250.7c-8.8-15.3-3.6-34.9 11.7-43.7l55.4-32c15.3-8.8 34.9-3.6 43.7 11.7l32 55.4c8.8 15.3 3.6 34.9-11.7 43.7l-55.4 32c-15.3 8.8-34.9 3.6-43.7-11.7L71 250.7zM304 272l32 0 0-32-32 0 0 32zm-48-48c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64zM368 432l32 0 0-32-32 0 0 32zm-48-48c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64zM208 400l0 32 32 0 0-32-32 0zm-16-48l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zM48 432l32 0 0-32-32 0 0 32zM0 384c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64z" />
-    </Icon>
-);
+const CubesStacked = createIcon("cubes-stacked", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABtwAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDeAsGAAE2AiQDCAQgBYMtBzQb/AXIhocHvb4/N8lTZo2szQ7wV9GRlVH+iqrgmbimfi+KCqRs7lE4WnsFUFTTQHajaOqg6UBmw9lEcbuLmjRJtI8kSVmu4r/H1xmyeCCuqyC5L3kP18KHxo+aO02iIgUQ9QAwbsmCWV76LD6LeLf8DPGuGQiIcaAQSJGilQAjpQKtZApkMsFnUS7jf2BBAFGJiIldGergU3xF24lErSyraeEMpYra2WL7qnyFUIqIvE0pL11qfIc43uh2nsfFJncj4kTTe0oLu3Ts0iI6RvPFd5tG3NN0RtwzwmrcL+6wGk2N2+om/RdNukbkYfSJfvVSKfYECokufCPAA9PbP1jvwZ/bvbf5Pb/uKYhHoSiPbbPO+fN1xoqqxT8+Bkf/7TF/j6u3oic9nt3jmSdf2fG7FT16FvwrTyq/a7SlaZ3z6EbH7vmQT7DuNQVem6OeBwLBkevyNXVH/lZdSsAXL/76e3pc+bN4KXkQ1RIQpD3LPa2MlwD5AzAncVh75osCiU/UQu9ay10BQo4AiUq5AKmW6gmQyfUQoEIbgwSolFsgFVmN0Miqwk7Uso+dGuwIO9PIU+wKI71pqtQoUiEXiajoi5l8cg1PalX06923GF503bJYbgUufUQxrOh62IR1g4U222O3gzbZaJuDFX2/WdZDdpnM0Sb5oUI/vfVVGK5Y9t3OXmyT/Q7YZo/dvp4RivP6rg7zsbvBYBJAf/EAkqWR1N5waP2mA70OHFy3YcemjQAA");
 
 export default CubesStacked;

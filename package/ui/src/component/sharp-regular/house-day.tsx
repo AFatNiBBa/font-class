@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-day` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-day?s=sharp-regular house-day}
  * @preview ![house-day](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-day.svg)
  */
-const HouseDay: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 0L119.6 62.4 46.9 46.9l15.6 72.7L0 160l62.4 40.4L46.9 273.1l72.7-15.6 7.9 12.2 21.1-17.2L163 240.9c-1 0-2 .1-2.9 .1c-44.2 0-80-35.8-80-80s35.8-80 80-80s80 35.8 80 80c0 6.6-.8 12.9-2.3 19.1l50.1-40.8-30.3-19.6 15.6-72.7L200.4 62.4 160 0zm48 160a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm207-50.7l-15-12-15 12-200 160-18.7 15 30 37.5 18.7-15 9-7.2L224 488l0 24 24 0 304 0 24 0 0-24 0-188.5 9 7.2 18.7 15 30-37.5-18.7-15-200-160zM528 261.1L528 464l-256 0 0-202.9L400 158.7 528 261.1zM352 288l0 96 96 0 0-96-96 0z" />
-    </Icon>
-);
+const HouseDay = createIcon("house-day", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABggAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCPwsGAAE2AiQDCAQgBYMtBzAbPwXIjsO4mRupdMfCh4jn4e2qP/d19cxs9Rq1kqJPMYJzOPvOBEY/4tMDwDCNwoBLMEr6v3fuQk2deh4KhQL4HvGgrEF7YLt57/MNVrFevMsqFLBagblKNW+5kUmW/ZLMaJIezz1+3aDK37lVm3JnGdzSc5VfjXAlRbsFIP0BsH6fPXZ74at8lbz6f5NX7UQg60EjaCFjtIBVWsLeoNKgUglf5f//5T+wIUC66O9TQIVuXIRbABUo2lU1v8/ETq9Ou0+1d6ddH7Bu47q9s1d2ZXf2zD4ZkpkZlutrq/+MGhsz39KefsfoYMiM7JM9s2Gvu6bsSTncJ6+pZxQOHTJ0cPbMpMzO1AyLSKdPkgzJ5MzNlOy9l+idZJ/stafoJKknPNC/fh//Go/7n7/ooou29dVvmx99qO822/q6wDqfSqT/XkcnR+/Vv/9Re6cePtw7YfNFc++v5YILTq7JeWPBr1TvxfvN8X7FXO0Zww3fFjzjak9s7FNvf1VlGL7kKOfRkQRJeR8E4b3P+u44pN+qv3o6BXzz1J9/Gi///0I5vzyAHgWE1qz/ZzmwXIqu4FygYsnZJuCDguIsbZrX3m4TEDUCii61gJZR+guo1GYKaBtrsYAutT20pOolBjtogaK300DLEheBymBPgrZVXix0GZxWHjJZxHwDE7dYaPOlZv6cec2KZts12dSi2vbK5liZdjZPTUemo53iZGc6ypGOc6ZBT7e7fJaTbImQzb6oMd8c8zRWaK4H++t7O8rpznCcU5wsu6zUvA+mOTtePB16obgLNBSFlF45ms4+8rDzAAAA");
 
 export default HouseDay;

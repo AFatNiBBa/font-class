@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-dollar` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-dollar?s=duotone magnifying-glass-dollar}
  * @preview ![magnifying-glass-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/magnifying-glass-dollar.svg)
  */
-const MagnifyingGlassDollar: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 208a208 208 0 1 0 416 0A208 208 0 1 0 0 208zM228 312c0 .3 0 .7 0 0z" />
-        <path d="M228 104c0-11-9-20-20-20s-20 9-20 20l0 14c-7.6 1.7-15.2 4.4-22.2 8.5c-13.9 8.3-25.9 22.8-25.8 43.9c.1 20.3 12 33.1 24.7 40.7c11 6.6 24.7 10.8 35.6 14l1.7 .5c12.6 3.8 21.8 6.8 28 10.7c5.1 3.2 5.8 5.4 5.9 8.2c.1 5-1.8 8-5.9 10.5c-5 3.1-12.9 5-21.4 4.7c-11.1-.4-21.5-3.9-35.1-8.5c-2.3-.8-4.7-1.6-7.2-2.4c-10.5-3.5-21.8 2.2-25.3 12.6s2.2 21.8 12.6 25.3c1.9 .6 4 1.3 6.1 2.1c0 0 0 0 0 0s0 0 0 0c8.3 2.9 17.9 6.2 28.2 8.4l0 14.6c0 11 9 20 20 20s20-9 20-20l0-13.8c8-1.7 16-4.5 23.2-9c14.3-8.9 25.1-24.1 24.8-45c-.3-20.3-11.7-33.4-24.6-41.6c-11.5-7.2-25.9-11.6-37.1-15l-.7-.2c-12.8-3.9-21.9-6.7-28.3-10.5c-5.2-3.1-5.3-4.9-5.3-6.7c0-3.7 1.4-6.5 6.2-9.3c5.4-3.2 13.6-5.1 21.5-5c9.6 .1 20.2 2.2 31.2 5.2c10.7 2.8 21.6-3.5 24.5-14.2s-3.5-21.6-14.2-24.5c-6.5-1.7-13.7-3.4-21.1-4.7l0-13.9zM330.7 376L457.4 502.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L376 330.7C363.3 348 348 363.3 330.7 376z" />
-    </Icon>
-);
+const MagnifyingGlassDollar = createIcon("magnifying-glass-dollar", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABowAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCUwsIAAE2AiQDCgQgBYMtB2objwXIhofn7fo691V9wDW0VmZkReuMHW0QDcKF4/7j3p1/2/QBH4D/tSsbE+e0uc8T6Hxi2ZraZZBpBtbgvMF3MkKaQjlPkMcv2T0qSC+mEh6P/wcwftXjHpKaDEA0A2DZnh2bfHc6TqcolT8nSjYiIJaDQiBDhn4BFsoE+uUK5HLB6VQuczrK5YIAolKMZsxKdMhDeBaQg8TW5fnW5r6quoqGfLdcU3vgpdGvd4tn2ukLL456Y1RHvNHxbPsd7c/UPjf6uc43218Y9WzHnYGY0i7mU97qi3i+CzN7St4cXRtvdj7XlTmfr3t4n6Pv5dUpsW/X7l3PNpnuprizc3e8PTbumBTxwbofQXDDz1M+4vdO/nD9T7UPrf1h4vt23RkRd8bwd5vf/X1Y6bySc3ta0jc2+uS5mwcn7e/Jmo2852Sq3n5Nw19jpk5tu3xaVVEAfP5Pk5UPvnnJ0KQDPSND+zM7Iz9xT0Nj3rp1WOWTrzSe13TrbUHohYaGFx7kyoPVLsY95a953/Bhfd2cOXX1H34zT1awD547HwACwYhnh5eONC38v7ougbNf/Pmv/HdU/i5J76JaAkE2sTzRwQQSAQBIcZ3hiQcRyByVpL56z+2Oh1owJJVqIdOnGXK1JkCFQbO4lSU7ZCKvgXztDiFI6l0JmdluhVy7z6DCQt9HKrVHZiUFCyVcEaaubiOrZhXTJk8t5heTFaVoy7hgckGx2jH2Ot4xDm51nstd5hqnnHSha1r0VTbFr3Wp1XPUKl9UmGayqQrzFbvr99XdOHKVq104Lu+fZoHifN9Y1833HwfnkwDTNbMsI1JkQ//UzTrvxgsvO3+SNzQmOVBzkhkfaNicbKgB");
 
 export default MagnifyingGlassDollar;

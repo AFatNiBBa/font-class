@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `popsicle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/popsicle?s=duotone popsicle}
  * @preview ![popsicle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/popsicle.svg)
  */
-const Popsicle: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M0 160L0 336c0 26.5 21.5 48 48 48l80 0 0-192c0-17.7 14.3-32 32-32s32 14.3 32 32l0 192 80 0c26.5 0 48-21.5 48-48l0-176C320 71.6 248.4 0 160 0S0 71.6 0 160z" />
-        <path d="M128 192c0-17.7 14.3-32 32-32s32 14.3 32 32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V192z" />
-    </Icon>
-);
+const Popsicle = createIcon("popsicle", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABbQAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBQwsIAAE2AiQDCgQgBYMtB0wb4QTIhiBai6ze2bsHoH1gVETggFAoUqgoicN9FVBhS6Dv4tTznI8N8iCSbBrn8c3ROc8jkPOcr9amVaRiNa2BdXe2dki0HBxao5HkuNjxuUEeC9NZFbJHWYkb9D+A8at2zpKplwBEUwBMXbZojk9+ip+yKGuvidJsBMQ0UAgkJHQUYIIk0FGuQC4X/JTVavwUtVpBAFFFn5lAFTlmYA4gB5kQed66V4NKo3xpg0r9ZafaRDxocKXVPVmcbHm3/uXW9yMl4VGrez0bRMSpNiNbNIjH/FqHiG8nfbT06wnvFnd71vTZ713LraUTtcYXudi4cBcbF+RoFM9TOH34bsh8nyhbn5hvyHcf0nMxvSynZyzK8n0gEAw6+lWfdU0m/F+3QQZ+efPnv/6HpPZJTMmeoa4MBGlAbYDVcRRiigAAZHFUt5jiJAJJLxm81tB9AUJ9GDJV9SHpoCnk6usPFZ2NvF5V3yJJ5PWEltYwZBo6AMkoxyDX0iuomOBTt6plJFMSDUH8yaXNksjMpWLooCHFuGIYqZJ18GE6vlg2+xx1lb6wa6t99jpsi812OCzog+YER+wxa4bO9EWFoQYZojBOsZ3ea0vRPeiQHbqyP2e84rzVx9F5e19YJwMMu4TricgiNd2/b/+hHZt2bxlok3rzRnl9AAAA");
 
 export default Popsicle;

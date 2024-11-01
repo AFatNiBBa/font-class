@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `messages-question` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/messages-question?s=duotone messages-question}
  * @preview ![messages-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/messages-question.svg)
  */
-const MessagesQuestion: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 64L0 256c0 35.3 28.7 64 64 64l32 0 0 48c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L202.7 320 352 320c35.3 0 64-28.7 64-64l0-192c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64zM134.9 96.8c.2-1.1 .5-2.2 .9-3.3c.1-.3 .2-.7 .4-1c6.6-18.6 24.2-31.1 44-31.1c16.2 0 32.4 0 48.5 0c29.1 0 52.6 23.6 52.6 52.6c0 18.8-10.1 36.3-26.4 45.6c-9 5.1-17.9 10.3-26.9 15.4c-.2 10.9-9.1 19.6-20 19.6c-5.5 0-10.5-2.2-14.1-5.9c-1.8-1.8-3.3-4-4.3-6.4c-.5-1.2-.9-2.4-1.2-3.7c-.1-.7-.2-1.3-.3-2s-.1-1.3-.1-2c0-3.7 0-7.5 0-11.5c0-.3 0-.7 0-1.1s.1-.9 .1-1.3c.1-.9 .3-1.7 .5-2.6c.5-1.7 1.1-3.3 2-4.8c1.7-3 4.2-5.5 7.4-7.3c12.3-7.1 24.6-14.1 36.9-21.2c3.9-2.3 6.3-6.4 6.3-10.9c0-7-5.7-12.6-12.6-12.6l-48.5 0c-2.8 0-5.3 1.8-6.3 4.4c-.1 .3-.2 .7-.4 1c-3.7 10.4-15.1 15.9-25.5 12.2c-4.1-1.5-7.4-4.1-9.7-7.4c-1.2-1.7-2-3.5-2.7-5.4c-.3-1-.5-2-.7-3c-.1-.7-.2-1.5-.2-1.5l-.1-1.6c0-1.1 0-1.4 .1-1.7c0-.5 .1-1.1 .2-1.7zm46.5 148.5c.1-.9 .2-1.8 .4-2.6c.4-1.7 .9-3.4 1.6-5c1.3-3.2 3.3-6.1 5.7-8.5c4.8-4.8 11.5-7.8 18.9-7.8c14.7 0 26.7 11.9 26.7 26.7s-11.9 26.7-26.7 26.7c-7.4 0-14-3-18.9-7.8c-2.4-2.4-4.4-5.3-5.7-8.5c-.7-1.6-1.2-3.3-1.6-5c-.2-.9-.3-1.8-.4-2.7c0-.5-.1-.9-.1-1.4s0-.9 0-1.6c0-.3 0-.8 0-1.2s.1-.9 .1-1.3z" />
-        <path d="M136.2 92.4c6.6-18.6 24.2-31.1 44-31.1l48.5 0c29.1 0 52.6 23.6 52.6 52.6c0 18.8-10.1 36.3-26.4 45.6L228 175c-.2 10.9-9.1 19.6-20 19.6c-11 0-20-9-20-20l0-11.2c0-7.2 3.8-13.8 10-17.3L235 124.9c3.9-2.3 6.3-6.4 6.3-10.9c0-7-5.7-12.6-12.6-12.6l-48.5 0c-2.8 0-5.3 1.8-6.3 4.4l-.4 1c-3.7 10.4-15.1 15.9-25.5 12.2s-15.9-15.1-12.2-25.5l.4-1zM181.3 248a26.7 26.7 0 1 1 53.3 0 26.7 26.7 0 1 1 -53.3 0zM256 384l0-32 96 0c53 0 96-43 96-96l0-128 128 0c35.3 0 64 28.7 64 64l0 192c0 35.3-28.7 64-64 64l-32 0 0 48c0 6.1-3.4 11.6-8.8 14.3s-11.9 2.1-16.8-1.5L437.3 448 320 448c-35.3 0-64-28.7-64-64z" />
-    </Icon>
-);
+const MessagesQuestion = createIcon("messages-question", true, "data:font/woff2;base64,d09GMgABAAAAAANgAAoAAAAAB4gAAAMTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiEPwsIAAE2AiQDCgQgBYMtB14bbwbIrgbspuHLSo5i4U9hi+hdzB+tZ0sbkYN//tfS+/6f3SQzG+QJILd1BOyQQJFjXd1TS6BjdttXygJjE3CHltQuRy1JiCZ3e6LmKQeCiSYW6OD2tJskaJGNh8/b+6Ph7nY30J2PZAYDDSyhOOryANPASmalhv85ZrpobZDPG+B0byiRqVEa0TyBAVZilfh0OqEj0Vs2h+hFPRRGKD8AxxTZLQTAnDQfIfYHy/UVtQUMEZYIFAP8GyA9Y0cO5vUXP/noCX1kAwJQLwA+ARawQAYB0M4iIIODDxwcBJ+T8jm0IABQkIhk+fAgEA70IxcAcAAwWKzjFEYW548s8AKRzhgv4E48XeTpauJROpGfrxP510zamNym4zqW5OpIAjpSeK1o9Mbk4/EobUg4IscwWsjT87LbVfJ0teSmohPFN4YrtDp+jFxdK71lFnFyxTC9Od7JmDRWnq6fQBTZKepbIV3xYvLojckbETNOF+32oi8QjgTDMcGcG6FIlqrjWPw1/kiW4PP3EXFMppy/bh59fIv5ql4yEBvlFcq9xbdeN5yZ9+8z7Me39t8TGz0Wwjs6wMgw70IN1VWsjw/rVvkpfnPvU3Lb230cO40Nt468AbNwITbWfY2bfaFRzd28ec12Vk/Z2PA6KhTWH90saPds8w0CXvxuI0MfIXy68ctG5VoklBGCQTIiw8TF927Zsu0f/FMBlsYPr4+zGGEAVHGYZJVQt+bCil68/MKaEW+MQXhvAwgQRAYH9E6Nbv+f1wDw5fq/8ur+zQZzCwjHACCw5f1tktkAIJgFAH6jNeTO/dBmQIDlDJZob4hjCADhAi0YgrhgSRcDDi5lECBLg2DnnpFY5EQgEkwGgyHEcrA0WgsOCR5DgHZvAkESwloEkTEW/YcmH9RHDxzl11RW+63+Yk4tNtsCt7fN360vXiNrSvBG5rCUJaxiNrOYz6oedQWDw6tZzKA19oHf9dWoVM3Xyj9dfCwfQ20rWCkF89Lzw7Tx73cXW7PevASbDBHXWkssFmRkU62gpgJe1BVg1SR9VgpEAAAA");
 
 export default MessagesQuestion;

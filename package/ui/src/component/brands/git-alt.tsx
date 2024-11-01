@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `git-alt` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/git-alt?s=brands git-alt}
  * @preview ![git-alt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/git-alt.svg)
  */
-const GitAlt: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z" />
-    </Icon>
-);
+const GitAlt = createIcon("git-alt", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABaAAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBUQsGAAE2AiQDCAQgBYMtBy4bzwTIhuBB76l5Sf4CzIJw7Raq4EN1tVFdxelv/nnnUYCPJMUxrYsDGcu6aM7zBBIbno/9zxP6pl/AvrWzKzLo9ZukS/mQ1fbDZoIsbsRZBZJrySc4U14Vv6ruIIlCCiDKAaDflAmjPP8qvor45P+HxCdGICD6g1wgxUgtAXpKBZ4gkyOTCb6K//+X/8CcAKII/XACMqQYicmADCQiywaWLJTOJpcslFgwedLkyyWOV+oZ4+J25UvVMFj9WtM7jW/V7B3ipmuVLhqWKpdr3mgScVl2qDo+JsZFeytPikslT1SdEldiX5X698rd+73eJ4s/8fizV/rMkZKljmzVwKDPP59Y3q3XrwvzRo068bvtmpV371qZMtc+zdsW3eGHnr26V3D4kK2lSm7d4UTh5UuaDwSCvz/9cvecsj3/KlYyAd88+/Pv+jPy/1fxPLmHYhIQpC3/b2lmPId4LgAASWxWP54jkBgooW8t5bIAoQQCJIooIUCqpnICZEpoIUBBHZ0EKKKECVKRFRcqmdVBopR1INXZLpCp5D4o6OmdVESlSB2KcAfiPxc7mKFBXXm71m3z7vnU0UgfwXKzR77MN92cEs0warE1VttokYWW2UjIeqPUTVYZbMGDfFGundbaynWXH/uP/ZMtst4Gy6yxWtr0kN8Xm9ps5zcD9UD09mZIJMGeFF2ybGOreSs3AgAA");
 
 export default GitAlt;

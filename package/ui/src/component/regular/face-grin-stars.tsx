@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-stars` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-stars?s=regular face-grin-stars}
  * @preview ![face-grin-stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-grin-stars.svg)
  */
-const FaceGrinStars: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM183.2 132.6c-1.3-2.8-4.1-4.6-7.2-4.6s-5.9 1.8-7.2 4.6l-16.6 34.7-38.1 5c-3.1 .4-5.6 2.5-6.6 5.5s-.1 6.2 2.1 8.3l27.9 26.5-7 37.8c-.6 3 .7 6.1 3.2 7.9s5.8 2 8.5 .6L176 240.5l33.8 18.3c2.7 1.5 6 1.3 8.5-.6s3.7-4.9 3.2-7.9l-7-37.8L242.4 186c2.2-2.1 3.1-5.3 2.1-8.3s-3.5-5.1-6.6-5.5l-38.1-5-16.6-34.7zm160 0c-1.3-2.8-4.1-4.6-7.2-4.6s-5.9 1.8-7.2 4.6l-16.6 34.7-38.1 5c-3.1 .4-5.6 2.5-6.6 5.5s-.1 6.2 2.1 8.3l27.9 26.5-7 37.8c-.6 3 .7 6.1 3.2 7.9s5.8 2 8.5 .6L336 240.5l33.8 18.3c2.7 1.5 6 1.3 8.5-.6s3.7-4.9 3.2-7.9l-7-37.8L402.4 186c2.2-2.1 3.1-5.3 2.1-8.3s-3.5-5.1-6.6-5.5l-38.1-5-16.6-34.7zm6.3 175.8c-28.9 6.8-60.5 10.5-93.6 10.5s-64.7-3.7-93.6-10.5c-18.7-4.4-35.9 12-25.5 28.1c24.6 38.1 68.7 63.5 119.1 63.5s94.5-25.4 119.1-63.5c10.4-16.1-6.8-32.5-25.5-28.1z" />
-    </Icon>
-);
+const FaceGrinStars = createIcon("face-grin-stars", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABpQAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDAwsGAAE2AiQDCAQgBYMtBzYbiQXIhofn8/o69yVpMQ2nDQ6hlYht/VmK2xo5Nd5rpRt/BLWinYdPC/Ko1NI7u/EJTKyp74mNzgPaTCdg022yx44w/CJCokSi49Tjagd5vBrXK0h3pM9wXXvT+EUXF5MUGYBoA4DZG9cu91YtahGf1p8nPrUUATEbVAIZMnQXYJpMoLtchVwuqEW9Tv+BFQFEI3K/CeRojIfwOCAHSZHn3boNGtShedEy39C8aLb1qskRL49+2vmjnpr0UrMrp7wy5pm4YOyzU19tnn5cGfHl3HfjgjnvrPhiw3fLPpv1lvNnv7388/Vbbm12ZTksxsXN5c0dBkf3AO+WTlNjcnzwtugZQ+O2jrd2nBAjmnsEnI+uf86acKudeHjww82vGvro0N0pZZ9H2jzyW+/PDnymft3kX/j5racmTnzqrZ9/mawyNP3VfNdzw9Tuc+d2n3rD9fNxVp2y6MyyKMqwzqy8HPOKffIxY0a31dboPl7s97AxeTlrnbjfQ5f5mEcEFGdr9MQrY8a80nD65UcPbagNGFBrGHr05Zd/DQSCdZ/8NWBn62n/NWmewE+v/PE//IrqbyXpETSRQJANqw+zLYFEAABSnKpPgkByl4Jcagu3ChCaIUDSSDMBMt20ESDXzFABCj2NF6CRZtbKRN5UKG2fTNLCCUxmgnOYXOlZpjDNh34jZWSRqsSZ8lHMXKCB+duq0SNGVVOqY2aowSfV9amV2xp0aukMxqQDjnOsk+23z2EnK/xEy6NTHGOBhc33RZXRRhilMkV1Xb6Ob7DfiU5y2HGO5U2mqt57g5xqzx4MNxHRMVJJIlLrPIgNP3ji4WOH5xcAAAA=");
 
 export default FaceGrinStars;

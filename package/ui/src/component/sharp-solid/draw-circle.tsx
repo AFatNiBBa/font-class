@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `draw-circle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-circle?s=sharp-solid draw-circle}
  * @preview ![draw-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/draw-circle.svg)
  */
-const DrawCircle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M104 206c14.7 11.7 24 29.8 24 50s-9.4 38.3-24 50c15.8 48.2 53.9 86.2 102 102c11.7-14.7 29.8-24 50-24s38.3 9.4 50 24c48.2-15.8 86.2-53.9 102-102c-14.7-11.7-24-29.8-24-50s9.4-38.3 24-50c-15.8-48.2-53.9-86.2-102-102c-11.7 14.7-29.8 24-50 24s-38.3-9.4-50-24c-48.2 15.8-86.2 53.9-102 102zm92.7 266.1c-76-20.8-135.9-80.7-156.7-156.7C16.5 305.8 0 282.8 0 256s16.5-49.8 39.9-59.3c20.8-76 80.7-135.9 156.7-156.7C206.2 16.5 229.2 0 256 0s49.8 16.5 59.3 39.9c76 20.8 135.9 80.7 156.7 156.7c23.4 9.5 39.9 32.5 39.9 59.3s-16.5 49.8-39.9 59.3c-20.8 76-80.7 135.9-156.7 156.7C305.8 495.5 282.8 512 256 512s-49.8-16.5-59.3-39.9z" />
-    </Icon>
-);
+const DrawCircle = createIcon("draw-circle", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABewAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyBbQsGAAE2AiQDCAQgBYMtBzIb7wTIrgd4Q5r0G2KAJCuUbu6uKq+qWp2aft4KY8SxCIr9XvfuQYDAJgoVawBQ0YlQtVV1JGyVrTGZ2ipA9X8a9777coLvS0ryzAalLTU4urmEhbIGcOD5PHSum5W2rUVGFI2c/Yldwi/6S5QYtkx8fQeH3Haye0IYacBljxn41KnnsU0BfJMEZU8NyPJcaI1OgZ4X8LU+rVqQWsEKVuEKWHfnlkxSWjkkLSHJcS7HI2co46k4VZGf8hfv4pvGNyNOSS0FAEQ3ALB1XqvC+w96jfhpbIgvtoGA2AKAaQgFCoxDYBVRYBzJNFAqBa9Q4/QfyIIAogZGk12aO2+ARwBKkLIkKReZFZvUtE9itOZMbCiMc+9SPxh35qViIc7MpWnhm2kmprVhJlW/6yheZyf8EB0NRfoufstnHsI8HwhEHy/KASDwpt/X1JFzJgaPcbbynWL+grf497d6+u7V5Hq+UOS/5XK6WEm4gfwt8PE/2S2OpwL5j1XuOFYONbcrEOMN8TiAQPByYNnm7jeMEQC+Hl/+GWnckZ/RLEFQzDeinyAJAEDGLlAlBNIJAn7Vdu8FCK0IkGqtAhTG8CBQajUHgcokLwRqrY4RRUmH0G9QQWr3DAor9kCp3yOorPpIav1RqJekHNLrLj0nkewxnM2BQ3hYKbLGCGE/jJd9u25ixJMwa82qbTOmLdgW9KZqvmNFbkZlfRDmZOOAheDt9lZvimTTloW+bf8QYfh8bLA7X23EiIBZF5RSEsm8OLb1Iw4AAA==");
 
 export default DrawCircle;

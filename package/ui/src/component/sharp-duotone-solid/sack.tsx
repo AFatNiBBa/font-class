@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sack` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sack?s=sharp-duotone-solid sack}
  * @preview ![sack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sack.svg)
  */
-const Sack: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 416l0 96 512 0 0-96c0-165.1-122.3-243.3-179-279.6c-4.8-3.1-9.2-5.9-13-8.4l-128 0c-3.8 2.5-8.1 5.3-13 8.4C122.3 172.7 0 250.9 0 416zM128 0l64 96 128 0L384 0 128 0z" />
-        <path d="M176 96l16 0 128 0 16 0 0 32-16 0-128 0-16 0 0-32z" />
-    </Icon>
-);
+const Sack = createIcon("sack", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZQAAAH0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBMwsIAAE2AiQDCgQgBYMtB0QbyQTIjsO44TuyxVL+4+H/18ru+1XdJ1M9Qa5EAYIiAgXoCVSiCVTYAe2ynrOS1Saym9lSFvX/XPP5nR+1f6ND69DiAq9YPp/ARNMS7810pjOwvW2YwyCQXohJlEQ0Xo7XHfL4OTunQrqZ4Dz/D2D8pbNzJA0ZgGgFgKnLFs3xtimaUnyuPyM+m42AmAZKgQwZugkwQSbQTa5ELhc0pXqdpqjXSwKIKl46A1VUMA6zADlIQsrzhrKhVmmeL+W3ilW1oiaKIkJoGRG/D/uk1/1ORx1yUsSVdrLQJrwc8mjxqiVLl9RiWTT2vtPqzj+9bOXhulatbpdaXSiV6/EDrBcLvn87c/EnWvUaNvSURZv46eKZb99jwclbk9cl5xRiAI3XFq4/1mddywn/N6sl8Mfz//7Ufkf1t0m6g2YSCLIB9QFWJ5AIAECKo3onHiGQ6SvBW42uCRAKFJKqAjJdtYJcoT9U9DDydlVhkUzkDUI7axSSRgcgM8pxyLXzFComeJdWtYsshIQAEH5wqbMsMvNYOXTQkHJcuSyJGBVc2R9fbrt9jtKoL5y01T57HbbFZjscNvhBc4oj9pjlYTN9UWmoQYYojVMeN4/qUkwPOmTHXD4/ZLzyftjHUX91XwiSyjrMrUxGpMgaD23YtGtgJOotOvnFAQAA");
 
 export default Sack;

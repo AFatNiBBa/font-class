@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-angry-horns` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-angry-horns?s=solid face-angry-horns}
  * @preview ![face-angry-horns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-angry-horns.svg)
  */
-const FaceAngryHorns: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M576 256c0 141.4-114.6 256-256 256S64 397.4 64 256c0-24.6 3.5-48.4 9.9-70.9C29.6 125.8 6.5 50.1 .3 19.1C-1 12.8 1.7 6.3 7.1 2.7s12.4-3.6 17.8 0c19.3 12.9 48.5 24.2 78.4 33.1c23.3 7 46 12.2 63 15.5C209.1 19.1 262.3 0 320 0s110.9 19.1 153.8 51.3c17-3.3 39.7-8.6 63-15.5c29.8-8.9 59.1-20.2 78.4-33.1c5.4-3.6 12.4-3.6 17.8 0s8.1 10.1 6.8 16.4c-6.2 31-29.3 106.6-73.6 166c6.5 22.5 9.9 46.3 9.9 70.9zM402.7 411.9c6.6-5.9 7.1-16 1.2-22.6C387.8 371.4 359.7 352 320 352s-67.8 19.4-83.9 37.3c-5.9 6.6-5.4 16.7 1.2 22.6s16.7 5.4 22.6-1.2c11.7-13 31.6-26.7 60.1-26.7s48.4 13.7 60.1 26.7c5.9 6.6 16 7.1 22.6 1.2zM240.4 296c13.3 0 24-10.7 24-24c0-2.6-.4-5.1-1.2-7.4l19.7 6.6c8.4 2.8 17.4-1.7 20.2-10.1s-1.7-17.4-10.1-20.2l-96-32c-8.4-2.8-17.4 1.7-20.2 10.1s1.7 17.4 10.1 20.2l39.6 13.2c-6.2 4.3-10.2 11.5-10.2 19.6c0 13.3 10.7 24 24 24zm184-24c0-8.2-4.1-15.5-10.4-19.8l39.1-13c8.4-2.8 12.9-11.9 10.1-20.2s-11.9-12.9-20.2-10.1l-96 32c-8.4 2.8-12.9 11.9-10.1 20.2s11.9 12.9 20.2 10.1l20.6-6.9c-.8 2.4-1.3 5-1.3 7.7c0 13.3 10.7 24 24 24s24-10.7 24-24z" />
-    </Icon>
-);
+const FaceAngryHorns = createIcon("face-angry-horns", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABlAAAAKmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCQwsGAAE2AiQDCAQgBYMtBzcbSgXILgpsY+rQRRgQGYKxhZwRfny9AU0E0VpVZE3PHDCyJyERFIF/QkluDRpXs4cHuA8pgklogiqtLoVE2IATimcZbbKJ64ev2n+V+j7/19SL50cH+I0OJdpSU6P0KFbJexMYcJQ3SD2PwtlEcda2YhQ0vFsMIh+uIoZ2G9qtIYvv3GF50o0kzsUPjT/VUExSIgeAKA8ABkzzcMf6d/FdxFFRxBujQEAMANRHkEMOtRHQG1OgNpb6IJMJvouizX9gfQggCqCnTSBDAftxAZCBJMtYRjUkJXnz/CzvUnmeuK/9SayPJnE8+Xbs6cDNqQX1VvVHZWol68QHzGbU7qbdTOnrNqdTJ14jVq87bNuCydeq1qr3qnerdotVi9dI1knW8a5KTUl636lVIKFGekfCO64u4mbkcuUGNZ8gWxBFGtUzTkUNDSH3zqI8KDT41cClx/o9xbDqUOMCHBjGUcEFaSk4NrnAn7pOJbYcOXL/94jqAe2nxbTI9k2rrx+G5Sklhtetx3+hyXBTY9WKy8jzj/4CK6ca5wcqXn+twstvJ8x3Jk0Qz5KZqzl6r+cpupxt9203aksz4W41/qur3fTp55m80ybZQyGa4RgTxAECwZmfNvxL73+Kl2IAfnjwfydOhzxLB9JRXAJBrnVRa4FpPwMVDRDgpkiljG8SSLZjwbWWdlWAUBIBkoKSAuTUIoSATEmtEJBXlxkCCkqahCkyboTKgipIStsAcrrKAZnKpkBeb3tuQeXISSIrR+yPYJJDi9qPoh30Dak1XWYKJ1y067ehx0rzVFunhZUIFSdWshDBIiQ3eCL3IEUMBw6z90OUEX2GKGv0uvS42FuIREkixIkNw9ig7w1NqXxrLegMRNhRKklEEvrOx+otWBuWmKG3fF1ibBI=");
 
 export default FaceAngryHorns;

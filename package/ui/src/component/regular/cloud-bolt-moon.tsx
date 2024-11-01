@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-bolt-moon` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-bolt-moon?s=regular cloud-bolt-moon}
  * @preview ![cloud-bolt-moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cloud-bolt-moon.svg)
  */
-const CloudBoltMoon: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M361.4 79.9c31.2 18.7 52.5 52.2 54.3 90.8c33.3 15.8 57.6 47.5 63 85.3c.8 0 1.6 0 2.4 0c34.9 0 66.7-13.8 89.9-36.1c5.1-4.9 6.4-12.5 3.2-18.7s-10.1-9.7-17-8.6c-4.9 .8-10 1.3-15.2 1.3c-49 0-88.4-39.3-88.4-87.4c0-32.6 18-61.1 44.9-76.1c6.1-3.4 9.3-10.5 7.8-17.4s-7.3-12-14.3-12.6c-3.6-.3-7.3-.5-10.9-.5C427.1 0 380.6 33 361.4 79.9zM128.1 160c0-26.5 21.5-48 48-48c22.8 0 41.9 15.9 46.8 37.2c2.1 8.9 9 15.9 18 18s18.3-1.2 24.1-8.3c7.4-9.1 18.6-14.9 31.1-14.9c20.3 0 37.2 15.2 39.7 34.8c.1 .6 .2 1.2 .3 1.7l0 1.1c0 .3 0 .6 0 .9c0 .5 0 1 0 1.5s0 1 0 1.5c0 .3 0 .6 0 .9l0 30.2c0 7 3 13.6 8.3 18.1s12.2 6.6 19.1 5.6c1.5-.2 3-.3 4.6-.3c17.7 0 32 14.3 32 32s-14.3 32-32 32c-.4 0-.9 0-1.3 0c-.3 0-.6 0-1 0l-72.1 0-8 16.1 18.3 0c20.3 0 38.4 12.8 45.2 31.9l16.1 0c.9 0 1.8 0 2.7 0c44.2 0 80-35.8 80-80c0-38.7-27.5-71-64-78.4l0-6.9c0-.9 0-1.8 0-2.7s0-1.8 0-2.7l0-5.3c0-2.9-.5-5.7-1.5-8.3C374.9 126.9 339.1 96 296.1 96c-14.7 0-28.5 3.6-40.6 9.9C238.1 80.6 209.1 64 176.1 64c-52.6 0-95.4 42.4-96 94.8l-.2 2.5C34.6 169 .1 208.5 .1 256c0 43.4 28.8 80 68.3 91.9c3.1-6.6 7.6-12.6 13.6-17.4l33.3-26.6-16.4 0c-.3 0-.6 0-.9 0c-.6 0-1.2 0-1.9 0c-26.5 0-48-21.5-48-48s21.5-48 48-48c1.4 0 2.7 .1 4 .2c13.2 1.1 24.8-8.7 25.9-21.9l2-23.8c.1-.8 .1-1.6 .1-2.5zm154 67.6c-5.8-4.7-14.2-4.7-20.1-.1l-160 128c-5.3 4.2-7.4 11.4-5.1 17.8s8.3 10.7 15.1 10.7l70.1 0L129.7 488.8c-3.4 6.7-1.6 14.9 4.3 19.6s14.2 4.7 20.1 .1l160-128c5.3-4.2 7.4-11.4 5.1-17.8s-8.3-10.7-15.1-10.7l-70.1 0 52.4-104.8c3.4-6.7 1.6-14.9-4.3-19.6z" />
-    </Icon>
-);
+const CloudBoltMoon = createIcon("cloud-bolt-moon", false, "data:font/woff2;base64,d09GMgABAAAAAANMAAoAAAAABvgAAAMAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDcQsGAAE2AiQDCAQgBYMtBzYb9wXInoNNmY33yCAuHRZD+pk/+8x4eH7d87/2mbmPQqMT3MAoqQohAf7pZ/hev1/bvfP/zuUj4tEkmTS3dKZUE0k0PJEYppNo0AtD6O2y971/4prnT3/eXviA749SuTWtORIj4nwCE/3n+QZaBfZiE9KNbrsJorpu6zT2kMd37IIC6TDjHTutL41f1eYmKWQAEJUAgMGTqyrh8Wt8jXgrXiceGA4ExGCARhAZMtSDoB+mQD0sjYBcLvgaxSL7D2wEAogS4JxaAjkK+IBfADlIspwVs91ICkJWbdkC1XG+Nsa8djtmXusgk/g08KBqRjFF3cQemBz6xaiSuypIXUXvGaqP1sSYjZpUTmtbndbaQayG1WEPM1YHQKEdnCR0WFVtinJQos+gUBFl8VrrMEkc5Dbu0LwQexCJYRpoGqpSNjMYflK0SRgQHWU5Zj9iVp2HZTCIQWpHNaNbVM+SSTKp1+NqrDlQrTr2mXElCTOmrotThqmA9xZ6IDn4bfxw7kPzF1h+eF1/K/t/BAwY02XFsIb16aXGbFpRqHX1cvj6OrHrbI7977cfjc4e8bFTlYeXgf0/nx/RSLK/3wADgecWNESWbzidGCK/vwLFIXiJIWxk8L4EMCAqzZmE5VmK61xIgQw25NnAzBFQ1b5NGbxyuRZDi6lTmWq1/Bq6oQxUgiKSPz7Kso9P1VJSdVcDxnz+gQMnVxpv3XutSNp8ZRsP7C+zJg4HAsG/L/57WsV+v5WCAfD9Tr/jH6Eo5acrQCkJBFm7YjvNaRAonoScbIpxoT0eCyQvZABvtZwDAoQyCJCUUEaATF0SCHJltIWgoIEMCEooYzymyPkQqmnJiaScRUSmBwuRq+aSKOjnKVtCtcgucPnylL8vM4rKQOEuunNiMp1Ld3akyjUr6s08enSo1TifiIGO0G5Av1FtWnUZLUHDKgtj+hT1sQo9REuRKBktFz27f92oxXxojJhCuzZ/mzz0+slo4/3zY2CUweHsoilJRBL/6bAqYeaC3tGE1wQAAA==");
 
 export default CloudBoltMoon;

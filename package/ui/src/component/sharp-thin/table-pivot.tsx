@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-pivot` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-pivot?s=sharp-thin table-pivot}
  * @preview ![table-pivot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/table-pivot.svg)
  */
-const TablePivot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 48l0 112 112 0 0-112L16 48zm0 128l0 288 112 0 0-288L16 176zm128 0l0 288 352 0 0-288-352 0zm352-16l0-112L144 48l0 112 352 0zM0 32l16 0 480 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zM440 291.3l-5.7-5.7L408 259.3 408 368l0 8-8 0-108.7 0 26.3 26.3 5.7 5.7L312 419.3l-5.7-5.7-40-40-5.7-5.7 5.7-5.7 40-40c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L291.3 360 392 360l0-100.7-26.3 26.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l40-40 5.7-5.7 5.7 5.7 40 40 5.7 5.7L440 291.3z" />
-    </Icon>
-);
+const TablePivot = createIcon("table-pivot", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABewAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCIwsGAAE2AiQDCAQgBYMtBzIbJQXIhofv18o/93Xv1KRng9xZFWBUhOyJVGzGhuATGrH1LYGe+b+c3nh+dICT+FDWojEb08a0MdbzBAI9qu9RFgWUBZZpApa1s6coohsokuCTDOMPmzvk8d4OTaTH6WfcjB8av+rpBkmWAYgOAJi1evkyn7dGa8RPjZfET5YgIGaBUiBDhj4CTJUJ9JErkcsFrdFomP/AkgCiAk9KIEcVJ3AekIOkkudt0NhxQq2pbb4q3SjWC7WIKKQsFSiDa3DbXPP2QOAQbbfVivYihSiaY8mInd26dhscL4piUHSNLtEtprtHuseMeNj1fpeBUYuIgXGv24PuM6J7dI1pB/Et9Q713wf8vOtn7W8eAc0RR66UqSPKAm+JtmxuP+c8dKT9z8sdOujgqWz+ZcPXaQXATxxUVT34zDx1K5wm4DynLV8+bmzdTjs90YrjTlvBvGald0Ag+HJ8y67N7af+X60l8Mu7P3+lfkWN1iTVUZVAkA1tDLUhgUQAAFKc0pIgkBxQgXdt9kCAUCBAUlEIkOmtgwC5whABmvQzToCKwnKZyNsIXWzURNLsKJEZ7yKR6+I50WSq70oVXSKTPElupI9f+vwenXepHDV8ZDm53I5UWZgEfzqlPLYGnrIrgwhol8MOOWGnHfY60eHHLKuedNB8Dpvni0qjDDdSabLyevp4fZWdjjlur8MOhXOmKN+nBzrFbx9EbgLW0bqSRKSaULYMO7L31OET");
 
 export default TablePivot;

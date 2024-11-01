@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grid-4` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-4?s=sharp-duotone-solid grid-4}
  * @preview ![grid-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/grid-4.svg)
  */
-const Grid_4: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 151.5l0 89.6 89.6 0 0-89.6L0 151.5zM0 390.4L0 480l89.6 0 0-89.6L0 390.4zM119.5 32l0 89.6 89.6 0 0-89.6-89.6 0zm0 238.9l0 89.6 89.6 0 0-89.6-89.6 0zM238.9 151.5l0 89.6 89.6 0 0-89.6-89.6 0zm0 238.9l0 89.6 89.6 0 0-89.6-89.6 0zM358.4 32l0 89.6 89.6 0L448 32l-89.6 0zm0 238.9l0 89.6 89.6 0 0-89.6-89.6 0z" />
-        <path d="M89.6 32L0 32l0 89.6 89.6 0 0-89.6zm0 238.9L0 270.9l0 89.6 89.6 0 0-89.6zm29.9-119.5l0 89.6 89.6 0 0-89.6-89.6 0zm89.6 238.9l-89.6 0 0 89.6 89.6 0 0-89.6zM238.9 32l0 89.6 89.6 0 0-89.6-89.6 0zm89.6 238.9l-89.6 0 0 89.6 89.6 0 0-89.6zm29.9-119.5l0 89.6 89.6 0 0-89.6-89.6 0zM448 390.4l-89.6 0 0 89.6 89.6 0 0-89.6z" />
-    </Icon>
-);
+const Grid_4 = createIcon("grid-4", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABkwAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCfgsIAAE2AiQDCgQgBYMtB0gbmAXIjsO44TuyxVL+4+GftW/3zcyK+LAJcU0r3kzxRKPTLNHwBom0DS3hH6In8k9mwq+ha+pH0tMDntGjda3C2oddOoGBRvp8QhN6sTfSDc4bdFh9COkfyOJluhKSZwk88v8HMH7p8JBERQog6gFwZmTgho1CFJL4XvxAfHcdAXEW5AIpUnQLcFwq0C2TI5MJCkmxSCGKxZwAopSfWCkoRSOe4gUgA4ly5VlWEdaqSmqy4fRR5URlVaWoilBWRwRWisqhATkx5DKR2kpigrDqCDzf/6b+zZ9NZhl7Ph5qqP2vpHvud4wZNzb6dyzMjhsb2jMLqbG/1YHu+yhl82bFTt2fOcv+V+6/d28DdK/vF74HAsHjd++T6o7/L69KwI+P/34WCaFYiI3kDcolIEi3F7ebjA2IDSFsJHFP/0LsCKQuKwf4q9UeCxAqESBRqlKAVJd6ATKVtglQotcBAUpVGpCKrEJoNtWARLWbIHXQA5Bp9h6UOO5To1RzpBJVlGbib2LaxS564VS+Z+fu/Gg+21VJco93to/lm73N9wZTW+Bbs9asumPGtAV3OuwtN9p3rbi4xFwQo9weO+2WOyo/PHj4fNiMW25bsGbVO+aY/PriZveWF2+BYSLk3OtCKiWSSGvNY3HH/h0S3qpvKwobAAA=");
 
 export default Grid_4;

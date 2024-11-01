@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-anguished` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-anguished?s=duotone face-anguished}
  * @preview ![face-anguished](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-anguished.svg)
  */
-const FaceAnguished: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM100.3 154.9c-6-6.5-5.7-16.6 .8-22.6c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1c8.8 0 16 7.2 16 16s-7.2 16-16 16c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8c-6.5 6-16.6 5.7-22.6-.8zM208.4 224a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM176 400c0-44.2 35.8-80 80-80s80 35.8 80 80c0 8.8-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16zM304 112c0-8.8 7.2-16 16-16c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2c6.5 6 6.8 16.2 .8 22.6s-16.2 6.8-22.6 .8c-15.5-14.5-34.8-24-56.1-26.8c-4.3-.6-8.6-.9-13-.9c-8.8 0-16-7.2-16-16zm64.4 112a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M192 128c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8c-6.5 6-16.6 5.7-22.6-.8s-5.7-16.6 .8-22.6c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1c8.8 0 16 7.2 16 16s-7.2 16-16 16zm-15.6 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm160 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM333 128.9c-4.3-.6-8.6-.9-13-.9c-8.8 0-16-7.2-16-16s7.2-16 16-16c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2c6.5 6 6.8 16.2 .8 22.6s-16.2 6.8-22.6 .8c-15.5-14.5-34.8-24-56.1-26.8z" />
-    </Icon>
-);
+const FaceAnguished = createIcon("face-anguished", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABzQAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDUAsIAAE2AiQDCgQgBYMtB1gb+gXIjtRWMTk0FQ//b9d/+9yqB7g+zAjAGBkAx70mFeIu4P//uaZegET6vS9+PpSo9mrv0gkc4CK97cgnMoIZ2KbmvTTI1xnS0m6Qx/fZhSpIt6UvcY39P4Dxqx4XktRkAKIZAMu2b17r3VKUUnxZfpH40hoExHJQCGTI0C/AQplAv1yBXC4opXJKUV4QQFSylc1AJerxIb4H5CDJVeZ5S1tbS18LUqNkXUVDvk28WLv78vYHx97YeXPXE3Nuqbup48b24oqOiJuc235j7eVtROctXSPq6tHhN9em6tbwS+Nuwps6Hx8dPy2LeG/tV9M2rP9mxQfbf17+/rqvucyaL5e+u2X7yvqdzFvhXARXk+KbbLlnQsQE4aVxjw24a8MM7KbanVrNUGD4482P/z7syyO/9M6Sqg3/nfHqY1fc/ttDJ9eUGhtL5cZLuTQ1XxogDVjDiHvr0ckbqka+VXPyQ7/dfsVjr57xH1bV0PPCeytWvPdCT41Vdj2bO+zw9fX7uY9bqefg2rU3Dj0T2ziiufmIbUHc58IL5wxh7YErlpy05HtAIKh6b9yd+5sW/l9dl8Avr//5b/IrLEvS46iWQJBNLE+0J4FEAABSnGl4YjcCmdOdHbHezSIXaikgqVQLmT7NkKs1ASoMmqWdeHyzTOQ1Qru9EJJ6p0BmtrMg1+4FqLDQJ+lK7ZFd0frrUf89mWV1FV8lV0ybPLWYX/TWZYaLVKvnFxSTPWPP5H3j4FVHOsmJTneEwx3j9Ap7qrW5M5xg9ZB01WcL00w2VWG+YnHrpnsbnD7VaY7pNi1fZ4Fi+8RYZw6PHgf9iatyuh2ZjEiRdb4vjkk/K6g55rSjjzh80tMxrLvN9CYAAAA=");
 
 export default FaceAnguished;

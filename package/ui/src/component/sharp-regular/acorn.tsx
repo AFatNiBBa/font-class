@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `acorn` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/acorn?s=sharp-regular acorn}
  * @preview ![acorn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/acorn.svg)
  */
-const Acorn: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M259.7 48.4l13.7-19.7L233.9 1.4 220.3 21.1c-9 12.9-15.1 27.6-18.1 42.9L96 64C43 64 0 107 0 160l0 48 48 0 352 0 48 0 0-48c0-53-43-96-96-96L251.8 64c1.9-5.5 4.6-10.7 8-15.6zM352 112c26.5 0 48 21.5 48 48L48 160c0-26.5 21.5-48 48-48l256 0zM48.4 240C52.6 320.1 89.3 435.1 224 480c134.7-44.9 171.4-159.9 175.6-240l-48.1 0C347.7 305.6 319 390 224 428.8C129 390 100.3 305.6 96.5 240l-48.1 0z" />
-    </Icon>
-);
+const Acorn = createIcon("acorn", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABawAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBWwsGAAE2AiQDCAQgBYMtBywb1wTIHoexe+SUzcdAfbSYI6hslVk9sxf3zPPEc49MHpBPLDAVawkILSRXIVPubWNgbZWqkPf5v9nzbFOAnyMIbSxcGsgC2/N5AgFmvfMNdAcyFliieLpNZVhHFL4REiQRHafH19ce8ngcN1RID9PXuN5+NP7VxTWSSgYgWgNg5vrVS73/V/wV8VXtFeIrixEQM0EhkCFDdwGmyAS6yxXI5YK/olZL/4EFAUQdhZNXz1HBCmwC5CDJ8rxny+7NKi3ydc0qTfd369xtUnSOB52bxsuDnusumrWIeHpIdVzTuN9p7R0i7nZpHo873R/YYsdTPSKemhrxztofp7/X65leTePZ8vk1P4x6sU/TPtXW1f98ve9r2fUP6UaHfeujeYdcqlbrS+WNUn21emmPgfObXv7GN9kO2Te/lUZepJFGWTCroywusLGRUtuXX5nbk670ysupAQgEV9o2eXt7qyn/1zdL4J83h4trf8X7qYp6CQTZsNowW+J9ADUAM8U5fZyNBZIFMsC9NndPgNAUAZI6TQXIdNNagFxTQwWo6GmsAHWaWi0TeROhva0DJM2dBJlxzoNcey+Biik+M+u0jyyquJjgHnXJ8yw0d65oGFEWk4plqPOBwpTx5GJbGXQulwbzTvscd8wZe+1x0BlDnrLUOeuoeR4x14YKDUYoFSYpjpPn9XX2OuW0g447VqdMVtw3BjnnNw9mPVHaUdxJIlJl5092AAAA");
 
 export default Acorn;

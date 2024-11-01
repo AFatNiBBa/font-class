@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-captions` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-captions?s=solid comment-captions}
  * @preview ![comment-captions](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/comment-captions.svg)
  */
-const CommentCaptions: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 448c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9zM120 208l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm224 0l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zM120 288l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm128 0l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const CommentCaptions = createIcon("comment-captions", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABhwAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCOgsGAAE2AiQDCAQgBYMtBzcbQQXIhofn7fo691V9VY9RY3MjyRmVDcNFOApXjLbn/3LPby06wG90ZAc0V0vzNXxP8J4HmOZriGVhVJQgp25KKaogSg49RIpoN2Qw/u44t4M8Ps9uU0N6Ol3Eg+VF40ft3UbSkAGIZgCYtmbFIt9cjssRF6ofEhcsQEBMA6VAhgydBJgoE+gkVyKXCy5Hter/A0sCiFogk/Nz1OFG3AXIQVKT51OaIFWpaZyvricWjX9YEHFhSsTXPV6Z/NX886u/nXt24hfld9Oe6/tYqyjupuJmETf//rHWj1c+nvBxn08rqytF5fX2T/Us4o0Oz/apiElXri/q/k6zd37udnH3Rea4h2e70KWhoUuXZ++ZM0le4g+beW1mw/W7ezSPELB5d795xbtLhwz+feydvz6EimWtWy97SItcHkpKdoeK5UtL3PBN1x4HAsEXb37y/JamE/+uryRw9bNf/+MTq/9XLyfpHdRLIMgGVgfamCg4rV+YTXFad3qjQHKdGnjWRp4QIBQIkNQqBMh01EyAXGGAADW6GCVArcIKmcgbhFY2DZA0cgxkRrse5Fp5H9SY6EymVqvIrFCzIe0fMHu2hGatK4cNHlqOL7cNXTcsJS1OKG9H+54OA/1oq92OOOykXXba56Tgj1uUP+WQ2Ro3yxeVhhlsqNJ45XH72V7N2eNO2LfWz1cxQfl8sq/T+vh+lEggOFxVkojU7LP3B9m8cwIAAAA=");
 
 export default CommentCaptions;

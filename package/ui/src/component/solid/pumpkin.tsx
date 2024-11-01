@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pumpkin` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pumpkin?s=solid pumpkin}
  * @preview ![pumpkin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pumpkin.svg)
  */
-const Pumpkin: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M234.6 103.9C251.5 98.8 269.4 96 288 96c22.8 0 44.7 4.2 64.8 11.7c-.6-2-.8-4.1-.8-6.3l0-66.1c0-6.9-4.1-13.2-10.5-15.9L299.3 1.4c-2.2-.9-4.5-1.4-6.8-1.4l-1.2 0c-6.9 0-13.1 4.1-15.8 10.4l-40.9 93.5zm161.6 27.3c12.1 8.8 23.1 19.1 32.7 30.5c5.6 6.7-2.9 14.6-10.4 10.1C380.3 149 335.7 136 288 136s-92.3 13-130.5 35.7c-7.5 4.5-16-3.4-10.4-10.1c9.6-11.4 20.6-21.7 32.7-30.5c-.6-.1-1.2-.2-1.8-.3c-8.5-1.8-17.2-2.8-26-2.8C68.1 128 0 214 0 320S68.1 512 152 512c19.3 0 37.8-4.5 54.7-12.8c8.3-4.1 18.2-4.1 26.5 0c17 8.3 35.4 12.8 54.7 12.8s37.8-4.5 54.7-12.8c8.3-4.1 18.2-4.1 26.5 0c17 8.3 35.4 12.8 54.7 12.8c83.9 0 152-86 152-192s-68.1-192-152-192c-8.9 0-17.6 1-26 2.8c-.6 .1-1.2 .2-1.8 .3z" />
-    </Icon>
-);
+const Pumpkin = createIcon("pumpkin", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABbgAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBYAsGAAE2AiQDCAQgBYMtBy4b3gQRlZo3yH4kxsYqH9+xSQgtZw1hp5d+E/xDdtX71TXqvvMCio5WJmgZHhTBjIhsAgCacaSPJV3TTX3zfzm9YZsO8PO576ETr2E9n/N5Aj1f2ydYgWRhlii2O62FY01zLi0iyfFox+sCrJ47i/CB2W5uAGvLh+oTsSwCQ8gBAECVAACApr27d+TMG72RroePoeu0BwSgpgCkIMABHCABAdAABwEJWFIAi0XwRuFw+g8EAYD8CGYwLT7YFRgMAFgADMbaiJqer7ztFR92+xd7KzO3SJofVU9bXFcrInr0LIzdHLEp6lavBx3wwi3RO7NXuFvcB03O9HjY9GzPldlbIwu98MrLzc/3ftTsXKsVESvctLJKZV9Sb4y6wcfeSxPSPhnbDG/TflIcg1c3Z+C+uMQ3NapX73agdWs2DNPVNd4mSOfKN9HmQnWtTuFmKEncdfHirkQMfhSOnlb4o8JhCQAECO6OGvZhcMUGf4KeAeDd6W//+YHwGdPElAFBDAACpyBcMIBSAGQLADKjWaTBV4EAQ1sM8q7l2IIAEC4gAAx+XASAQzyVEAAWl3wEgI8kaiIA/Lh0x0E2hIhgYAOGckwFDrWYDSwRHAE+GnA55ydCjmMJbiF861J1K4u2nJYyKcu0TEVf4Wj82Hb1uc1wllGTJ80YOWLsDMNM61icObHVim75w5RJWY5r98d7jZw2fezkSTzJcT/Ur3sbZmMAgGpPApkNMoEpMydOGT92EgAA");
 
 export default Pumpkin;

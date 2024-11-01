@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `beer-mug-empty` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/beer-mug-empty?s=thin beer-mug-empty}
  * @preview ![beer-mug-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/beer-mug-empty.svg)
  */
-const BeerMugEmpty: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 48c8.8 0 16 7.2 16 16l0 40 0 263.8 0 .4 0 47.8c0 26.5-21.5 48-48 48L96 464c-26.5 0-48-21.5-48-48L48 64c0-8.8 7.2-16 16-16l288 0zm32 368l0-42.8 84.9-37.1c26.2-11.5 43.1-37.4 43.1-66L512 152c0-30.9-25.1-56-56-56l-72 0 0-32c0-17.7-14.3-32-32-32L64 32C46.3 32 32 46.3 32 64l0 352c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64zm78.4-94.6L384 355.8 384 112l72 0c22.1 0 40 17.9 40 40l0 118.1c0 22.2-13.2 42.4-33.6 51.3zM144 136c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-240zm72 0c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-240zm72 0c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-240z" />
-    </Icon>
-);
+const BeerMugEmpty = createIcon("beer-mug-empty", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiwAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCPwsGAAE2AiQDCAQgBYMtBzUbRAXIhqCylWX1zK1OcyfkERFZhPRAaAmtR/CeDQs33mX8+1PPcx4K4POIB20smxrf4HOeRyBiY3V6P0HBqiWsgNXa+d8XSa8bGCQpkgzjZ1g8IY83bFZDeix9jHvSm8bX2rmRJMsARFMATF22aKF3q1GN+Pj/l4iPzUdATAOlQIYMHQWYIBPoKFcilwuq8f//7j+wJICoALoEctTiPO4A5CCp5Hn7fk3rYdbVNMqXZuTFtodaiRQR4tGWD/Yo4lLrh9tn8UibRitCLIvLHZ6IiMdbP9yriIgL4bqiPm5v+aAUj/W92rMuLve/3mHZ4iRHtO9yR6uHiCd7bHy49YMtxUOtHmkTdYSs27Wm177t+vHWj627p9q4j1oMkX3y2ZCqIZ99kq3XuFp22dcfzy3uYcyzz7U+qsH3/+2fo9T41lsbF/J6RbNmz1Y9axcL1y7sJg/9Yo5m119vdlSL/ya+Wlm/vvIDrjOnvQ4Egpd/vuXTdU0m/Fpbl8BXr3//l/6Myv+rSbqGWgkE2YD/B1idKEkEACDFUd0SpUByXAWMeg+feqFAIKkoINNBU8gV+kONzkY+UVFYJBN5Q6GlNQiSegcgM8oZyLX0AtSY4D27omVkdshaEfsNTJrVYzPHyqGDhpTjyqmvcqZFx/74clvpc9Tn+vKirfbZ67AtNtvhcEcctNA7Yo9ZK3ymDyoNNcgQpXHK4+hxeqktDjpkh3326pDxyvtGH0fX1X1ZT0A5zHaSiNR445YtBwfuObJt4HsAAA==");
 
 export default BeerMugEmpty;

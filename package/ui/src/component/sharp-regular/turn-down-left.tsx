@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-down-left` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-down-left?s=sharp-regular turn-down-left}
  * @preview ![turn-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/turn-down-left.svg)
  */
-const TurnDownLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 264l48 0 160 0 48 0 0-48 0-136 48 0 0 232-256 0-48 0 0 48 0 20.1L67.9 288 160 195.9l0 20.1 0 48zM33.9 254.1L0 288l33.9 33.9L160 448l48 0 0-40 0-8 0-40 48 0 208 0 48 0 0-48 0-232 0-48-48 0-48 0-48 0 0 48 0 88 0 48-48 0-64 0-48 0 0-40 0-8 0-40-48 0L33.9 254.1z" />
-    </Icon>
-);
+const TurnDownLeft = createIcon("turn-down-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABXgAAAHgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBUQsGAAE2AiQDCAQgBYMtBzUb1gTIjsO44TuyxVL+4+H/9/u2z33vjzvwIIk9xCyJW5uGNZol+lRMm5YyiySWyJPMkA8Tlzv/ab/Pp9EjrUHbHmQs/KfZGucJJJpHCZcFFlDiCVh+N3m3lESelpOcfKVhfBqW7pDH61iF9DDB3fSm8UuvGySVDEC0AGD5ji2bfRiO4YivI0+JrzYiIJaDQiBDhgEBFskEBuQK5HLBcIyMuP/AggCiCp4wgRw5NmEbIAdJyvPeSfWVxnx7faVuR31dY0REfYiGOiG2x44Qti9aumhxbIv6AFXfGG7dgk11+3hsHTfUMvRnrOM8el6WSneUvlOWOuzZkxsdysHaVrQNDiqNVxPYUuk7Wh5Ed4rLiz154WsgEAwNx68DLfpfU5/At1f//ulvKElDqJFAkE0emWxvAokAAKS4blyCQLJKgldtcE+AUIcASZU6ATL9WgTI1ZkkQMVoswWoUmeLTOS1Qod9VUwaXBIzcwyKuQ6PxYpFPqZVOiIjlEYH7T+XvcYCq68V06eWxYJi2Cs6R5R4vrDY9sZf92sT5KbjLjjvqmOOOuWqYS7bXFxzzpoZttoHFaabqlRYoDiebu3thr3silPxeeeXLFTcT8a7Pt89QcIEkjN0kkSkJg47U1imPjYAAA==");
 
 export default TurnDownLeft;

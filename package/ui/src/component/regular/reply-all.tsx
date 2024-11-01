@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reply-all` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reply-all?s=regular reply-all}
  * @preview ![reply-all](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/reply-all.svg)
  */
-const ReplyAll: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M208.5 73.4c9.6-9.1 10-24.3 .9-33.9s-24.3-10-33.9-.9L33.8 173.2c-19.9 18.9-19.9 50.7 0 69.6L175.5 377.4c9.6 9.1 24.8 8.7 33.9-.9s8.7-24.8-.9-33.9L66.8 208 208.5 73.4zM352 240c0 0 0 0 0 0l-24 0c-13.3 0-24 10.7-24 24l0 24 0 28.1L183.9 208 304 99.9l0 28.1 0 24c0 13.3 10.7 24 24 24l24 0 48 0c70.7 0 128 57.3 128 128c0 15.3-1.9 29.1-5.2 41.5C506 284.7 450.2 240 384 240l-32 0zm0 96l0-48 32 0c5.5 0 10.8 .5 16 1.3c45.4 7.6 80 47.1 80 94.7c0 17.3-4.2 30.5-9.5 40.2c-1.6 2.9-3.3 5.5-5 7.9c-2.6 3.5-5.3 6.4-7.7 8.6c-.5 .5-1 .9-1.4 1.4c-4.8 4.9-8.3 11.3-8.3 18.1c0 10.9 8.8 19.7 19.7 19.7c2.8 0 5.6-.6 8.1-1.9c2.6-1.4 6.3-3.5 10.8-6.5c2.7-1.8 5.7-3.8 8.9-6.2c3.7-2.7 7.6-5.8 11.7-9.3C537.4 430.2 576 382 576 304c0-97.2-78.8-176-176-176l-48 0 0-48 0-16c0-12.6-7.4-24.1-19-29.2s-25-3-34.4 5.4l-160 144c-6.7 6.1-10.6 14.7-10.6 23.8s3.9 17.7 10.6 23.8l160 144c9.4 8.5 22.9 10.6 34.4 5.4s19-16.6 19-29.2l0-16z" />
-    </Icon>
-);
+const ReplyAll = createIcon("reply-all", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABiQAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCSgsGAAE2AiQDCAQgBYMtBzAbSgXIhof/z5ne9yXPGcsJezIKK8R2mEpIKwDmLa7aXev5v+bze350gJ/vnfChRWFp1sK7n09gwFEahUfjtOFsorjdaYc5RKMoSStL4riW43OAPL6PS9RI16YPcHH80PjdUGeQ1DIAMQAAq3bYZjOv/BK/RLzfeZJ43yYIiFWgEsiQYYQAS2UCI+Qq5HLBL9Hp4H9gRQDRhQ5LIEcNZ+IKOC0ln+V5c+KaRq1vvn2jVuxy9bCrxm8bVzilZ7u4s/f6IdvHDtudGhGnRhF3lEKwJEKIayc0Gm8ue3HMKeVNi59bXwjRiPN7npxy78hrmlck/dTilKJgr51wfu/VvafG1TPun/XwuK+2/mz7Isi9buJdzTtXXTnp7uEx9r4B9/055oP9P/DJ8T9/8n/fC8/0V7P5V83u+9+nP194lrzDRXcBpa16SiOccIi5wxFKPVuVrS3XzK31rv5p002ras9Wq1XpPnLiTjtl9RPHD5o7R0QcUB84MG+39wntNWu2PXrb7eqx8YDYOFpaBsjKSX/cfLF7+/W7F270x6QyGwAEgvP2K/ffo//Sf7obCfz23N//2usHd35JK9N96JZAkE3vTLdrWmkwiA4gSnG8scIXBZITZehd+7hKgFAgQNKlECAz3AABcoVpAtSMMk+ALoVtZCKvC027dZD0cRTIzHciyDU9DmqWejvs0oxMGyldov6C8etHaN20qj2zVS2upmWNVjDCjy+ploXJx7u2KbDV/o5wuGPtZ18HOXZAjrZZ6jiHWS/B6/xQpW2mlspi1XZtvn57+znaMQ5yhMPDJEtU55XJjpd7TwE5IdzZcpJEpPqzNmfsdeihAAAA");
 
 export default ReplyAll;

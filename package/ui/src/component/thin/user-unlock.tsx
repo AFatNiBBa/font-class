@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-unlock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-unlock?s=thin user-unlock}
  * @preview ![user-unlock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-unlock.svg)
  */
-const UserUnlock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112 128a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zM16 482.3C16 392.7 88.7 320 178.3 320l91.4 0c44.6 0 85 18 114.3 47.1l0-15.1c0-2.1 .1-4.2 .3-6.3c-31-26-71-41.7-114.6-41.7l-91.4 0C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l362.8 0c-2.9-5-5.1-10.3-6.5-16L29.7 496c-7.6 0-13.7-6.1-13.7-13.7zM224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm256 0c0-26.5 21.5-48 48-48s48 21.5 48 48l0 16 16 0 0-16c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 64-16 0c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-16 0-16 0-64 0-32 0 0-64zm-16 80l16 0 96 0 16 0 16 0c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16l16 0z" />
-    </Icon>
-);
+const UserUnlock = createIcon("user-unlock", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABoQAAAKwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDFAsGAAE2AiQDCAQgBYMtBzIblgVRVA5KZD8OcjJeU2LlElk5tmO1domHUWIT7eZR/I+H/z/2/T7n3smw1qKkadAUjOIHNlY6ON7AT+Ct0eH86fecepfBCeB/ob04sdCi1vawWqmmBYnV/2+/9i74zKrhkmjmFolsQtxCh386rhGvzP81n9/zowL5fASHEm1J19ggR7eM5xMYYLS3zTaQKJxNFGfbMhE8Igh7RYSMJSN6/Nwev22gxm81ZPI2m8hl/dB4p/chlQIgBhGArYOupamFVkTz/wPRlIwExDbCNEZBwTgGq0SBcZJppKqCVvz/L/+BQAFEO32uBBUduMcToILUVuui0c0YouTWYqs8bs2KzUZg3mub93ts6mepoZtx32B9nluGORTchgOH+RzXoYAZB3kMVxlnOV3qSS7GlEbEI/P7/YB9v32YffcEZ33eOzg1fHap9ep5LTDttame1BM4gLmkeG7IJB2BoU81QXAk5OjXTlffrJliejrkcMYn1YQJFcOUBpjWctc92d6Py1HdER2GO36Qj6UlR8esfHyg7mNesLwSMU/kOAYlFI0nKRXL/0gllAQXBZLE3Z3iZorT1ZAgOn13E4jgIHZ1FTsIghtyNJksj8lTcPDTsaWMWsDk8pUVTGERJCPp6ZF0oX6Fs7KOCGm6TDbyZu23FepnkJkiCAQzuzXfcmX1o5MneHv9+5WOp/9TNvIenRIEZf6/bZYNYGIAccYFzfmiQLrTRq+115UAoRsBUrtuAYoxKgZVtzkM2kxKMGjXbYcoapcwaj5B6nUMihVvUI36gTar/lG70SghywUc98OY3FioHobA9VFimRt8FDKlv8JjVX+hzqC1tHJ28rC0sPUwyE2bPh01Hlz7IQi4fFDCdumrPHJ0c7e9F/cHqeC8o3v5rQ0yBEq6IJOSyJ7X3HSebZ8TAAA=");
 
 export default UserUnlock;

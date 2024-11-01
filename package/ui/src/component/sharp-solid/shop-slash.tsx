@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shop-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shop-slash?s=sharp-solid shop-slash}
  * @preview ![shop-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shop-slash.svg)
  */
-const ShopSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 192l0-64 15.1-20.1L121.8 192 0 192zm276.6 0L320 225.7l0-1.7 64 0 0 51.4 128 99.4L512 224l64 0 0 200.4 44.9 34.9 19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1l19 14.7L71.5 32.7 96 0 544 0l96 128 0 64-363.4 0zM320 384l0-35.9 64 50.4L384 512 64 512l0-128 0-160 64 0 0 160 192 0z" />
-    </Icon>
-);
+const ShopSlash = createIcon("shop-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYwAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBWwsGAAE2AiQDCAQgBYMtBzEb3ATIhiBaI6ue3QDwBoDBx5FL7NkAsXAkgV/h1KnnOQ8F8DkRD9qYtibImJbQ2N3nFShgbfi2WoFqxVpFsbuzUVPTtJOWlJEcnx2fM+Txd3ZCKdLZ9BIny4fGZ/WcICmXAYiqABg6e/pEd9/H+4gX/18iXhiPgBgKCoEMGRoKMEAm0FCuQC4XvI///8f/wIIAojR5bgI5SmEq5gJykGR5Xq5jjQqlKuWz6MzyWYgGMTPKVxo4aGBEhRAzI+YHRsvoEK1iG/GdlW/LfCXDEhVJmFrViMX9FZqVVC352vTlqpcMEcwn66bbV+v85ckQ3R1e7rQhnrqvk0c6GXAjHNtqi7sWHzbE+nZ3WsDrf9lqiCPOGeKcu0AgeFevxufFVQb8VbZCAh+vf/+KHv7/bjqSSlBWAkHW4f8OFqQjgOgA/BS7NDO+KJCMlZF3reiUAKE8AiSllRcg00BVAXLltReglMZ6ClBaedNlIi8n1LRQQVLRVpDp5SDI1XQBlDLAE6+0mpF5FeUT1KcuflQPjdxVdO3UpehXTEuNdhQib/YvtsU2u9KoLZy0ymab7LDSCmvt6JBtJoY7bTTKgkf6oUJXnXRR6Kc4bh4Pz7LSNtuttdkm3qa/4r7bxi57fltQEsHtppAkIpV/xpmO2zcs3b4GAAA=");
 
 export default ShopSlash;

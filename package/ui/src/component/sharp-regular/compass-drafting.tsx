@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `compass-drafting` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compass-drafting?s=sharp-regular compass-drafting}
  * @preview ![compass-drafting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/compass-drafting.svg)
  */
-const CompassDrafting: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M304 96a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-19.6 91.7c-9 2.8-18.5 4.3-28.4 4.3s-19.4-1.5-28.4-4.3L158.1 306.4C187.9 320.3 221 328 256 328c85.8 0 160.8-46.6 201-116l41.5 24C450.2 319.6 359.7 376 256 376c-43.8 0-85.3-10.1-122.2-28L50.2 490.7 38.1 511.4-3.3 487.2 8.8 466.5 92.6 323.4C60.4 300.2 33.4 270.4 13.5 236L55 212c15.8 27.2 36.9 51 61.9 69.7l69.8-119.2C170.2 145.2 160 121.8 160 96c0-53 43-96 96-96s96 43 96 96c0 25.8-10.2 49.2-26.7 66.5l53.5 91.4c-12.6 9.8-26.4 18.1-41.1 24.7l-53.2-90.9zM503.1 466.4l12.1 20.7-41.4 24.2-12.1-20.7L394.4 375.7c14.4-7.1 28.2-15.4 41.2-24.6l67.5 115.3z" />
-    </Icon>
-);
+const CompassDrafting = createIcon("compass-drafting", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABdwAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBdgsGAAE2AiQDCAQgBYMtBzcb/QTIngfZaeUsUZ9SkH5E8Lzdf9W53V9j9gBiBCBeMBIUOWK08XtjbJxjgPsJgqeIbSEAZn9w7dSpmnEeCuAbBW0sXBNkeXBOzkUgWqBefVupV5BasFZR7N60HYvS7Esy0Uw6vtFxpTPk8UpcU0a6nz7FVd5p/KWpUyRlGYCoA4Axi+bN8OYv8UvEJ6WIT0xDQIwBhUCGDC0EGC4TaCFXIJcLfolSif4DCwKIcvLcBHKUYSm2AXKQZHlec3DN6mU184V5H9U2PehY7aOJdshO3RxuVbvQCOKl6j9M+6TfkHhz+qfzv586P5rE0Ggei+LzvsPi6SEcT7Tybjfou0xL64zxUHta0rRZ08HRLBbGo52w7RN19p82n278VK9V1XYeO7azGr6p/rJ3atd+Z8IB7w0YbebIP+5a9cefM41xdN4VzzjrGfOuSt+cdXj5hIMeVFQ+8cQUUfFggOi5BI2fGz7LpOdl4/ZaOmLsXiAQ7Np98vFVtYf/r3oCv73833/twZLSKUtPoFICQda91N3yxIAsCOKlOKgtfJNAMlcGPrWGOwKEagiQlKsmQKa5OgLkqukmQJlWBghQrpp5MpFXCQ2sGCCpYQ/IDHQC5Bp4BpQZ7gOvXIPIYoyOEPqFlzBRoxO2ij49exdDi2WsM2FDlvmwwi12PphqXeCkjXbZab8N1ttiv8L3mhEesMNEC5vghwp99NRbYahiO3s+vtAGe+2zxS4765phivNuZwft7i6gJELY18EkEanO3297374eN83asnMTAAAA");
 
 export default CompassDrafting;

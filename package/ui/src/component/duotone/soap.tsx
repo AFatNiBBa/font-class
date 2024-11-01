@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `soap` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/soap?s=duotone soap}
  * @preview ![soap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/soap.svg)
  */
-const Soap: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M160 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm96 144a64 64 0 1 0 128 0 64 64 0 1 0 -128 0zM352 32a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M385.6 262.1C404.3 244.5 416 219.6 416 192c53 0 96 43 96 96l0 128c0 53-43 96-96 96L96 512c-53 0-96-43-96-96L0 288c0-53 43-96 96-96l128 0c0 24.6 9.2 47 24.4 64L160 256c-53 0-96 43-96 96s43 96 96 96l192 0c53 0 96-43 96-96c0-41.2-25.9-76.3-62.4-89.9zM320 288l32 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-192 0c-35.3 0-64-28.7-64-64s28.7-64 64-64l160 0z" />
-    </Icon>
-);
+const Soap = createIcon("soap", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABlwAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCOAsIAAE2AiQDCgQgBYMtB0QbTgXIhof/dG/eN6Pv9UrLoCWiCinILJcJV+6CVYrKx2UI6v8/19SL50cH+O2ixA6pgkrv+HoDzHw+gQlEWylMZAIDkAnz3iaiT0QovmISbDo+O87uUMTP+X4t0ivpJzzF/wMYvxrtfpK+GUAMAsCmw/v36e6JnhQ/tT8jfrIXAbEZ1AIZGeMEWCsLjFOoUSgEPandpifa7ZoAogP/kAw60Ad34EFAAZIkF8Wikf37D61a/YtDVas8r2vi57M+GS9en/nx0n7xxexmQsRbc7pWVPHGrDI+m/nxuDdmfbKsii/ndE28Z3Yz/UBVVh/M+mT0yzM/nlrGh7ObMa/N6ZpRHX9l2gczPhr76vQPp74/6uC8Mou8qex+1uG7h0e8UD028qW4Z8SL5aPDnje5GdT8PumnC39yz9c/lHc3TefdOpvm7o2suFvrkiNedV63Nk8c2afZNLqW9O3Bg8syJ293wy1ve+up8srbbruyJMnpp3Lv33/3Zs7ptwY8zMMDWpAKxGvLfnnpyOmBa//vrBLo/ebPf9H3qN2dpAadEgjy3PZcJxJIBAAgxY0mJ3hbINsp41v9vChAKDFIOpSQjTUICqU50DLBMmXxhv2yKPoKw5wESPq5BrLl7oDCMJ9Cy1rf5h2GRY5CPYb0P2DOdo9v21Qvmr+wXl13W9QILLWsrqmX/Zk3ppFZcNKFrnKl613gfJe43pHX2lfd4ArbR8Q2b1RbZL6FaqvVx93bw4dc4FrXucRVrqR11qjvxzPdOJ4+C6JEZBe7lWUiRe533VVnr54XzN6AynqzAA==");
 
 export default Soap;

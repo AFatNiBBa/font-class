@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-exclamation` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-exclamation?s=solid lightbulb-exclamation}
  * @preview ![lightbulb-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/lightbulb-exclamation.svg)
  */
-const LightbulbExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2c0 0 0 0 0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4c0 0 0 0 0 0c19.8 27.1 39.7 54.4 49.2 86.2l160 0zM192 512c44.2 0 80-35.8 80-80l0-16-160 0 0 16c0 44.2 35.8 80 80 80zm0-448c13.3 0 24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-112c0-13.3 10.7-24 24-24zM160 288a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const LightbulbExclamation = createIcon("lightbulb-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcwAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBdgsGAAE2AiQDCAQgBYMtBzwbAgXIhocHva8/N8nAWTkLwJ9yNd2H0LJS9+b/ms/v+dEBfrsSP6RILD2QosPqrZ/v+XBiqaVpFTacTRS3O5s0smiXkiSW5PhWjstjAVmcTS9RRnJn8gGuTx8av2vjEhJVKYDIATB55dL5Gn+JXyLeL71KvG8uAmIyKARSpGgvwDipQHuZAplM8EuUSvgfWBBAlOMNJyBDOdZjJyADiSzLujWpa1ZTVpetCO7qrc8PjLjQz7+91fNdv1ry2YovFn2y7MH+t7a4YHB7z/avWfZ634inO0VUh7i395PD00fbiDu6PdY24u6eyy5sFXF7zdUtbnVB81uqr2p5W3R5Kn/qz84f7PhAw8S6fwlw5sx3lTEnJ9rIkQ9U+d2Z0wH+rX9g4fn5dlZE7gG5WLE9b1zc4pAWiy2p08/1V3BFfQzRQKz1xpR+/29sGPdPZU0Cfnvr7//j8fJSYxxKnkKlBARpv1I/6+ICuTwOCQBAEid0Eb4okFguw+9a6zYBQjUCJMpVC5BqJxcgU62vAGU6Gi5AuWpLpSKrEppbX0Gi1mGQGuFckGnuZVBmnLfNcs0j1TFOQ7gXXvKMFpo+qhg8YFAxppjGCq82DPWPLZaVXidcrTdMtcNBBxyz3Ta7HWuQI+Y7x+03Q4Kn+6HCYAMMUhij2M7ux6+w3RFH7XbQgTjIWMV5o5cTcuveoCeYcghPIiGSFmo3vOX4vi39v6/QNu+/NwA=");
 
 export default LightbulbExclamation;

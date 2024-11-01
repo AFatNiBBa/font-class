@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fax` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fax?s=thin fax}
  * @preview ![fax](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/fax.svg)
  */
-const Fax: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 56c0-22.1 17.9-40 40-40l180.1 0c10.6 0 20.8 4.2 28.3 11.7l27.9 27.9c7.5 7.5 11.7 17.7 11.7 28.3l0 76.1 16 0 0-76.1c0-14.9-5.9-29.1-16.4-39.6L419.7 16.4C409.2 5.9 395 0 380.1 0L200 0c-30.9 0-56 25.1-56 56l0 93.7C132.3 136.4 115.1 128 96 128l-32 0c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l32 0c22.9 0 43-12 54.3-30.1c9.3 17.9 28.1 30.1 49.7 30.1l256 0c30.9 0 56-25.1 56-56l0-208c0-30.9-25.1-56-56-56l-296 0 0-136zm0 152l296 0c22.1 0 40 17.9 40 40l0 208c0 22.1-17.9 40-40 40l-256 0c-22.1 0-40-17.9-40-40l0-7.9c0 0 0 0 0-.1l0-240zM144 448.1c0 26.5-21.5 47.9-48 47.9l-32 0c-26.5 0-48-21.5-48-48l0-256c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 8 0 248c0 0 0 0 0 .1zM232 320a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-32-16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm144 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-16-32a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm96 48a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-32-16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm-48 96a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-16-32a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm96 48a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-32-16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm-144 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-16-32a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
-    </Icon>
-);
+const Fax = createIcon("fax", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAAB9wAAALGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhiSFKgsGAAE2AiQDCAQgBYMtByobpAYRFZvfyD4SqlvZNVOuEidZPGAyZfFN8E+f93XuS7qnO/lKixlJKxoNjrCUd3Dtx1vrI9twStT3N/0x/3w23w3o+QCrTIadVBoFFNkCA+y0KNr55gU6oC+kf3TbTRGzkNhDQ3bA1lXGEwOm0DwAdnmD9YZ01oPBsgjgivCYdBzUry+3Xuql9CB6HnpAb0AA6gSAjwALsIAsBEAbLARkYeMDNjaCl4pGzf9AHwIAxQKhhmU24IEagVpD/yUwhG27W2bF+ERtdGOC9kB5JWfYmlQp33W1LbmmDoBcSWsyaum44+ho0v40dLpaefsaJ9OMCmuequrqYu3CpkGdSM3PlIpS8qoFJIKB4LbkA6DVSfudgLam5B1Bx/upf0GStL+Ko+MpeRmWilPzq7s6lnwgHTE7elBeSn7qgeT9SdVWJ0sH3G2ANoKQkudsTdqPy5pRZGw9gQf2YIkO2EOI/tg696t0OnL6XcUHEx9Qvsm7Ame8c3hnrnLF6yNCH1I/XhVOPcfs/x9uJElPfA56ngNOanfQp0HWH894qydU+PB/dg02F9QIOnpnrnhP8K6c8aBeNQ6Aj+EP1kN42sCnwdOHFnAOnBDHTwCDVr0MhV7G1KKhzbA5FNos2j1Kg/5soaPqbypH/VE08OvOBwABgjrvum8dFW7zLc41ALy+8uF3/keI3jKY00AcBgCBVSdax3ADgAER/CSjhVQyAAKMahEmeNYAeQgA4QACwBCLgwCwyCSCALBxqI0AiCGHpkgDlqMfiyYeSTKiBkbAHGBpZgWwJTkLYrRx2xwrKZbrYd37rGfX+N3akK7N/Ib1Gvit/EmPku0gGDqztb9aXmMhj6gJxzLRLDPNN8F4U8xvwebqa1tghm5zyF2/62uongZ8rfi7/fftB5pgrnmmjHP2N9Kaf76uhoXz8WtClRFQfPoyfqKsnjhmMQ==");
 
 export default Fax;

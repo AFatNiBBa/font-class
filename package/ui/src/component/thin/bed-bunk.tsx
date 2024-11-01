@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bed-bunk` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bed-bunk?s=thin bed-bunk}
  * @preview ![bed-bunk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bed-bunk.svg)
  */
-const BedBunk: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 8c0-4.4-3.6-8-8-8S0 3.6 0 8L0 200 0 439.7 0 504c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56.3 200 0 344 0 0 56.3c0 4.4 3.6 8 8 8s8-3.6 8-8l0-64.3L576 280l0-80 0-64c0-57.4-46.6-104-104-104L232 32c-13.3 0-24 10.7-24 24l0 136L16 192 16 8zM208 296l0 135.7-192 0L16 208l200 0 344 0 0 64-328 0c-13.3 0-24 10.7-24 24zM560 136l0 56-336 0 0-136c0-4.4 3.6-8 8-8l240 0c48.6 0 88 39.4 88 88zM232 288l328 0 0 143.7-336 0L224 296c0-4.4 3.6-8 8-8zM112 48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm0 128a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const BedBunk = createIcon("bed-bunk", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABmQAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCagsGAAE2AiQDCAQgBYMtBy8baQXIhocHvf86N8l/Ayhju5IqiGt266KCOXFN/vvzp8K2co21ZVuDRSTgzndebZG2m8BsOJso7mzbqyCiobALlQtk8bZFikjOJm/icPjQ+FoNe0mkKYAoD4D+UyeO9vIH8UHEm/8/QbxpJAJiAMgFUqSoLUAvqUBtmRyZTPBB/P+/+A/MCSAKkhcmIENJnMIlQAYSxbOsTfnypcskwVJFZbIpxU0lZ56qeqKyEOJkldPVIkqVaZXJrEst7nUpGTeqi5IRmy4oD+hKL+gWjoHS4tGVpeKJ5nfrzCtTuozwh065WeNs9TONbtU8V+t8U0+1vK/FvS6PN7tzor/OVk9scK/8vW/rv7nkTeWeKsybV3jZD/ppqW5endbt4H6uGKefUm+98/APxlc56GVPv1TvYOJ42QfU0c+wFfvcy90S/TgbeGHeD/r5s6Gnh2HzEdO4rd9f+eyppz67UrLXtWtTr16bdvXtXH0eCARZ9yeazy3X69fipRLw0bPf/+Uf8f/LSb/kHopLQJC2+r+VWS4AVBhAKIktGuCvIpA4pLjkXUs7JUAoiQCJgpICpGopL0CmpJYCFKmrswAFJU2UiqyEUNnsnkmUtp5JdbGNyVT2GFOkl1fCBZUjhU4lbCn/DdMNGYODh+Xt27TLe+Sbaa0K4GTb3jM/bWi2RZY1x3stsdYamyy2yHKbRvAGo2ObrTZkDxrsh3LttdFOrof8du65bgp1bLBxLK+r7g+ip/x9TzNb9ms3x6NIAB2+q45cFEnxBYsXtV6wec1K");
 
 export default BedBunk;

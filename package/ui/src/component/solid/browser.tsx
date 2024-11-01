@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `browser` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/browser?s=solid browser}
  * @preview ![browser](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/browser.svg)
  */
-const Browser: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm64 32a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm384 0c0-13.3-10.7-24-24-24l-240 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l240 0c13.3 0 24-10.7 24-24z" />
-    </Icon>
-);
+const Browser = createIcon("browser", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABYgAAAHgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBOAsGAAE2AiQDCAQgBYMtBy4btgTIjpQuZyTx8P92fb/PreoBWGMzE/QdypkQZG/9VIi7QvAvbp53HgX4RqGNhUsDWUP3Ok8gsS7PE8oCyzQAjyHdJvPQIwrfEAmSiI5vx9sBeXycnVQi3Uvf4cq4afyqqZMkVTMAUQcAYxbNm+GLiqiI+Lb8LvGtaQiIMaAQyJChhQDDZQIt5ArkckFFlMv6DywIICrxb0ggRwljMQGQgyTL82b1a1Yv1cwXVi9Vyx50i3irU814pcsbTVPc7fx6+xrxatc3m2VTjjaMuFX9QuM7cazR7WrnG9xU837HavGyyb0O1eO15m3frPPm777b+J3V1epS9+lRT+vWrTZatbphL9c6y9laElP/0YZz/jKnIc4DgeDn70edXlV7+P9Vqifwy0d/ttdIuSJJb6KKBIKse7m75QkkAgCQ4qC2CQLJUBm/ag23BQjVECCppJoAmebqCJCrppsAJa0MEKCSaubJRF5VaGBFQFLDHsgMdAhyDbwNJcN9qVbSIDISURSgvnDxEzMyYa3o07N3MbTYxibNC6LNhxXHQueDVuuCXRvtstN+G6y3xf6E7TXDOGCHiRU6wYMKffTUW2Go4jp73V5og7322WKXnX3JMMV7pbODdXcXyInj9hVIEpEqkwwAAA==");
 
 export default Browser;

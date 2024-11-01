@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wind-warning` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wind-warning?s=light wind-warning}
  * @preview ![wind-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/wind-warning.svg)
  */
-const WindWarning: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M390.3 352c-33.2 57.4-95.2 96-166.3 96C118 448 32 362 32 256S118 64 224 64s192 86 192 192l32 0C448 132.3 347.7 32 224 32S0 132.3 0 256S100.3 480 224 480c89.4 0 166.5-52.3 202.4-128l-36.1 0zM224 128c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128c0-8.8-7.2-16-16-16zm24 224a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM496 480l48 0c53 0 96-43 96-96s-43-96-96-96l-208 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16zm48-256c53 0 96-43 96-96s-43-96-96-96l-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-72.1 0c2.7 10.4 4.7 21.1 6.1 32l66 0z" />
-    </Icon>
-);
+const WindWarning = createIcon("wind-warning", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABmQAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCWgsGAAE2AiQDCAQgBYMtBzMbXQXIBp7/r7Pu+1VpVNqoljDjdA/kHbgStQKVM1uu4PzPNZ/f82vAz0dwKFXL9AocdQLu+UQzgSYynA1UxzZ1umVHe2xID0FEwrBlDI+v6HF5Abr8kVQsoNapO8CS7U3lI8HMA4WuAQAgXgAAQFV7tw5csItd5I7jFMgdWgABkGoATATQAA0IQwAoRUOAMHRMQEdHwC4Oh/wHmiAAIE7Yz1EA6IAzsBDYAADoACgsup7q7hptWi3uepvVYgw+WChytvZZ10dtz7s9bn/a5aHNKtuzjzffqr/SeCPzqLkt61jTzbrnne7nGG0r/ZBV/msCRVYH2NbH7wxaF7cn1GY1rGdSDkRuTt6fb8hKv1X+VtmVtC94beLeWNbavZlElKdDo/d77f8cdWfYHeb3X3AO9nbuIjab7FgXm03qG0w8Hl5KDbfbw1MvPfQoG2qo7rIvdtd7u8csPOytIPC9f5cu/hL4MTPTYrP273dxQWDWAzxOch+w1dvbMKp7ayY7MhyRB1Qa7Jl4VSMVkdUAIIDA03lDXvf3LP3mYlUAfDj/9RvH0w67mqX2Ay4oAAS0VEcqfdQsAGEKACSVTCM6+CABFPOwYBvdWI0AIBjABQonDNAIxQt0DFLAQgR5wuSGbmiI7orgR18ACjcmgkY+00HHjxNgoZTrCSf8RMtKKaekf8L0ekbqFplZ6ZlmsemWnHKiCW20xJx2Jk7TliQsZRjjGccUhjKEkUwhehId0lMZS32E1vFFTLJIJxOTYszl6qPeRslJTGbkvbw+DyWYz0cTmRZ3T4JHYazZFCkUiHJ7Pa1pXwIAAA==");
 
 export default WindWarning;

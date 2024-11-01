@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop-code` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-code?s=thin laptop-code}
  * @preview ![laptop-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/laptop-code.svg)
  */
-const LaptopCode: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 48l384 0c26.5 0 48 21.5 48 48l0 256 16 0 0-256c0-35.3-28.7-64-64-64L128 32C92.7 32 64 60.7 64 96l0 256 16 0L80 96c0-26.5 21.5-48 48-48zM620.8 400c1.8 0 3.2 1.4 3.2 3.2c0 33.6-27.2 60.8-60.8 60.8L76.8 464C43.2 464 16 436.8 16 403.2c0-1.8 1.4-3.2 3.2-3.2l601.6 0zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2L19.2 384zM269.7 157.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-64 64c-3.1 3.1-3.1 8.2 0 11.3l64 64c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L211.3 216l58.3-58.3zm112-11.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3L428.7 216l-58.3 58.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l64-64c3.1-3.1 3.1-8.2 0-11.3l-64-64z" />
-    </Icon>
-);
+const LaptopCode = createIcon("laptop-code", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhAAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCFwsGAAE2AiQDCAQgBYMtBzIbGQXIhocnu/86t6rfB3vkHhgrDoxs1xnIUM7WQWZF8Js69TznoXn+HIKgjYVLJ04PznkegQDGRnlaRRor1iqKfZuIR8YUn44QMYqIjtPj6wpF/GOHGumu9AFuoA+NH/VxNUnOAKIEwOLVy8/z1mfxWcQH9eeJD5yDgFgCKoGMjP4CzJMF+itUKBSCz6Jex//AigCiAb9RAgUacQinAAVIakUxpCy7dm2ttRerWmst69vb2h/rcVufFK2R4+4xT49oi0dHPdlbh+7pdcfInde4M1jD2uLxxfN9r2jtPPRo7/tGPzW9PV4c+8ygu0d0rL6j5+3dL4xbe1wUt/US6+JYvlrTSFvitl7LY33I0+XTPw/+YNcHLrvhct6f9NGHmRItXbo8eLkH+wlaKJE//GjST5tzbubGb9xIc87r1nZGaeUy37DiNGWs+/vz6dOXL6+bPr1u+fLp05/y1OHWVDF/HQSCo282f7K5c95vTa0JfPHKr3/LT9Q/S5enp9EkgSCPq4+zgWyo5ACcFKcMga8ikOxSw2dtc7sAoQUBkgYtAmT9lAIUWowVoGag6QI0aLFcFkWz0N1GAUmboyCb4RJQ6O5ZUDPP226D7pF9jvUY9suXdLqGTluqJk+YVM2plpHBuRFdpnOrY3nUqVgZDYd2OeyQE3baYa8TCjnmvOCkg07fwaf5ocpkE0xSmaO6Trfbq+x0zHF7HXaozZmreq+PcmrfPhq0hCmnuJQkIrUe2HrkxOEj430RAAA=");
 
 export default LaptopCode;

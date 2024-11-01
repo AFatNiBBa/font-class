@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-center-h` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-center-h?s=thin border-center-h}
  * @preview ![border-center-h](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/border-center-h.svg)
  */
-const BorderCenterH: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M8 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l432 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L8 248zM32 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0 384a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM128 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0 384a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm192-32a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm0-352a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM224 432a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm0-352a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM416 432a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm0-384a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM224 336a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm192 32a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM32 336a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM416 176a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM32 144a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm192 32a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const BorderCenterH = createIcon("border-center-h", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABvQAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDFgsGAAE2AiQDCAQgBYMtBzYbnAXIjtMNt7zECA/x8M+6/99nZh7AP+snyOlHu7pBHVIim0u461ch3/X2MZVQT+o0ySYktwlu43pXs/m/3PNbdnaAX/ze4R3aGKPlawDtwQnEgSxtU0JZmCWWkHY076VBCu1Cmc6QxVnrGJLTyWcc9N80vupwgESaAoh6AExfWDK8QhQiPhcfEZ/NAQJiBkAukCJFtwCTpALdMjkymaAQxaL4D0QCiFLhr0pAhiZcwwNABhINWVZdEWarSmqyBemRyoXHmo+31MTJthOt1QsztmsmweilHreVFWZKqBdhi0UjLaPz0TWj1xIJn9D3Tv2d7/5z/6zs3arS0lV3ZXVtNwu2tiDMPcHqlbv7+Js+6Cr6lSvRN0272lSk3djFdlueBwKB2ZeaV7pJ/8urEvDl+c/vHlf8FW+TOyiXgCAdVBxkWbwFsSKEhSR2CAsfFEic0wC/arUTAoRKBEiUqhQg1aVegEylgQKU6DVagFKV5tIiqxCaLW9AotpmkBpjJ8g0ewBKTPIuX6o5UpjlIY7/Y0xJXShuwuFDhuUT8tmGSgBD1i5OzDc7/XbIgf74IHQLE6QZpENsuXRNaYkcv4SGG2KY3AS5w+2HuyuyHcPC3joT5ddn+tmxPL4/9pWQcYQtEwmR1N2NSRBLrm4CAA==");
 
 export default BorderCenterH;

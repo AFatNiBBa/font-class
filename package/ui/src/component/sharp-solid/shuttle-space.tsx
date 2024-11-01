@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shuttle-space` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shuttle-space?s=sharp-solid shuttle-space}
  * @preview ![shuttle-space](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shuttle-space.svg)
  */
-const ShuttleSpace: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 480l-64 0 0-96 224 0L192 480zM96 380.8l0 3.2 0 96-64 0 0-96-8 0L0 384l0-24 0-32L0 184l0-32 0-24 24 0 8 0 0-96 64 0 0 96 0 3.2L150.7 160 456 160c70.4 0 127.6 23.5 171.2 81.6L638 256l-10.8 14.4C583.6 328.5 526.4 352 456 352l-305.3 0L96 380.8zM128 128l0-96 64 0 160 96-224 0zM512 248c0-22.1-17.9-40-40-40l0 96c22.1 0 40-17.9 40-40l0-16z" />
-    </Icon>
-);
+const ShuttleSpace = createIcon("shuttle-space", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABZgAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBbQsGAAE2AiQDCAQgBYMtBzQb8QTIhof/n/u3fW7yKa8MaRUjKSZFqp4UDLADwLfGohqFI6fGGy8V8FrFi3YePj2PnhfvjVegYu02vTicjWbD2URx5q6uFaFpP0lLWcjjucfPGfL4OzuvhnQ/fYBb9UPjV+2dJ2nIAEQzAExcvniut6pRjXj//+fE+2YjICaCUiBDhk4CjJEJdJIrkcsF1fj///AfWBJA1JIHJ5CjFsuxBZCDJM/zhv4NTSo1jfNl+dZiaVEpIiqxZJkgiogoioBcqSyeJcTMaBxfL20dreKLZY1ixvIQlVgaxcYzbSLuFOJa27sR3R82e/h7tw+2feDNrhNA3KDqwfr1mzJzgwkSvr5dO6Xbbjvt6uedzB4D7UwTljzxBEd2poH2dP1nA4kTDl+heup481d41HyD5o9ead4MCASffn9x2vqmY/6qryTwyyt//q7d/X81nUwPUS+BIOvzfx9r0mkkY1UAeSmO6Y5vEkjmy+FdG7kjQCgQIKlVCJDpqJkAuUJvAWp0MVSAWoXFMpE3CK2sHXDSyEE4M8wJONfKU7jGGG97tVpF5l6MczC/u8RpGpi6Vg7sN6AcVS5jnfUYqsxHl9tSj2Ox1hMHbbPfPkdstcVORxR0yNzwqL2mWeBUP1QaqJ8BSqOU19nz9jJbHXLYTvvt4yWjle+1Ho7Z3T2hJkI6yMkkEanx4R1HjxzZs7WvLwIA");
 
 export default ShuttleSpace;

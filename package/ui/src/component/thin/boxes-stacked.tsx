@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `boxes-stacked` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxes-stacked?s=thin boxes-stacked}
  * @preview ![boxes-stacked](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/boxes-stacked.svg)
  */
-const BoxesStacked: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M368 16c26.5 0 48 21.5 48 48l0 128c0 5.6-1 11-2.7 16l16.7 0c1.3-5.1 2-10.5 2-16l0-128c0-35.3-28.7-64-64-64L320 0 256 0 208 0c-35.3 0-64 28.7-64 64l0 128c0 5.5 .7 10.9 2 16l16.7 0c-1.8-5-2.7-10.4-2.7-16l0-128c0-26.5 21.5-48 48-48l32 0 0 64c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-64 32 0zM256 16l64 0 0 64c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-64zm52 478.5c11.5 10.9 27 17.5 44 17.5l160 0c35.3 0 64-28.7 64-64l0-144c0-35.3-28.7-64-64-64l-32 0-16 0-64 0-16 0-32 0c-20.2 0-38.3 9.4-50 24c3.4 4.7 6.4 9.8 8.9 15.1c8.4-13.9 23.7-23.2 41.1-23.2l32 0 0 64c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-64 32 0c26.5 0 48 21.5 48 48l0 144c0 26.5-21.5 48-48 48l-160 0c-14.9 0-28.2-6.8-37-17.4c-1.9 5.5-4.2 10.9-7 15.9zM400 256l64 0 0 64c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-64zM272 304l0 144c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-144c0-26.5 21.5-48 48-48l32 0 0 64c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-64 32 0c26.5 0 48 21.5 48 48zM112 320l0-64 64 0 0 64c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zm112-80l-32 0-16 0-64 0-16 0-32 0c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l160 0c35.3 0 64-28.7 64-64l0-144c0-35.3-28.7-64-64-64z" />
-    </Icon>
-);
+const BoxesStacked = createIcon("boxes-stacked", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABwwAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyEDAsGAAE2AiQDCAQgBYMtBzQbEAbIjtRG94xdgn/Irnq/qkfda9SerYxAds7O4UUQ4ukQk1p9/3NNvQA+wC9+fijXK6rUKIpqrefD6aZR3LQBjyOfT9A36C5iQuTP42kDPD1lDCEwu80jYCO/Un0ll2VgsBYAAKUAAAAt+/fuyp1XeiU9igd6RGdAAGoFgEOABSxQgABogkVAAR4O8PAQvFI87v0HOhAAKAy4dAOAB8SAj8AvAMADwBDxvEaJDRMrJeUFoUSvXxDyxx/PlLbnokUZgXZK2lPpTDnfP1bhVA5alBloh6S92TvLByo7tgeB1npOSYEPf4C2ZfjakaWBx8sGOln5bP7kHtsz906guTxzo1d2ZWwr4+tE1raM/ivY+iCa1Tvy9sw1HT0e1Eco0CRrfz84befuiqcPcY5SZ1LOfOfRuEdMv1jjGTy2i4iWTyU7ugg/NfVQjRmHqMyvI9lo+cn28bMajhYkrVqV5ExnC9yMFmANSa8cr5Ja1H5RvOkQMxSbZo/tFr2yXf0nh0wfMp4/tptWG3GIES/L1xv8fQ3DwuqbAN+hq/FsUI4F2Hb1weRJoj8wvbtzhzbPOMjpACBAsCLc6Mbw5Cb/o4EB4M21n/Pjid8xLcwZIIoBQGCrxKswxLQA8DoFwG00j1I9XyTA8JIIwJrAjrle4YMGQxgfLPmkgIdPZQhRRF125OzeWOTFEBkMNcGQwEyw1GM+eGRwFUI04a4rTIbs5c5frPzPZrJ2ZbztMFezWg3XyHWmSeEKZuP2xm60ssI8v6yiuZJxTGcacxjLGCYyp0TMoqt3LlNp10du+1lHTapRA0cj3OzcdVm/knsWs5nYLs7vpzFufWsF5vXXrmhqDICyFjEGAzKJH4KoqrPnjBw9eewY");
 
 export default BoxesStacked;

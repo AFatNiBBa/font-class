@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-minimize` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-minimize?s=sharp-light arrows-minimize}
  * @preview ![arrows-minimize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrows-minimize.svg)
  */
-const ArrowsMinimize: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M56 33.4L67.3 44.7 192 169.4 192 64l0-16 32 0 0 16 0 144 0 16-16 0L64 224l-16 0 0-32 16 0 105.4 0L44.7 67.3 33.4 56 56 33.4zM478.6 56L467.3 67.3 342.6 192 448 192l16 0 0 32-16 0-144 0-16 0 0-16 0-144 0-16 32 0 0 16 0 105.4L444.7 44.7 456 33.4 478.6 56zM48 320l0-32 16 0 144 0 16 0 0 16 0 144 0 16-32 0 0-16 0-105.4L67.3 467.3 56 478.6 33.4 456l11.3-11.3L169.4 320 64 320l-16 0zm240-32l16 0 144 0 16 0 0 32-16 0-105.4 0L467.3 444.7 478.6 456 456 478.6l-11.3-11.3L320 342.6 320 448l0 16-32 0 0-16 0-144 0-16z" />
-    </Icon>
-);
+const ArrowsMinimize = createIcon("arrows-minimize", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABeAAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCOQsGAAE2AiQDCAQgBYMtBzYbPwXIHgfOaS+m+ByOvIfx8N9an/dV96eeZai/ipndOqZEEbuwY+EXbE5k9FRIfNW+z/81+d5Z0wF+o0OpsFsFZVlE8d6eD4fDaG+a0GxgZzoB2+K2qzVBLbRBKFyhjB9jqAbSs/QP7oQvjX/1dJ2kLABEBwDM2rBmmd/extuIf+qIfyxBQMwGWaBAgT4CTFUI9FHKKJWCt1Gvi//ATADRKCHJyyUacRU3ACVIyrLsi8K1hrblepNdbenareu6wO5a4HpVtZtq66NbDNnVpXuXtVyYqNpQsCG6x6C9YdovhI6sjS4xGDPWV22oVSdWr4uuMTC6xfotZ2LAZx0++88/+/8x4fXnKefqFYd0kDV0V+/wYV1z6MpVP9j/UbcfEmudhzrkOWHN2KyDQ65e8bn9XzXlnK3LD44svOnfocM3V83yuYfeBoFg5f3v7+5oP/X/5loC7384/4zU38Wb9BmaJRAUQ+tDbU20ao03AgCQ4rwBiVaB5KxS+tQ2HgsQKgRIGlUCFHrrIECpMkSABv2ME6BRZY1ClC1CF9takLRxChTGuwZKXXwPGkz1e7RRlyiAUAAh4R8wdX4fnrcsjxo+Mk/Oi1VVhCvOTk/Ju/WB52XXIHzRficcd9Y+ex1ytkedtixxzjHz18h5DJSNMtxI2WT5dOPx6fX2Oe2MQ0447ueZIt/vHej8+uBB2JIk2tG2JIlI7Xed/ka0YW8uo02X9wE=");
 
 export default ArrowsMinimize;

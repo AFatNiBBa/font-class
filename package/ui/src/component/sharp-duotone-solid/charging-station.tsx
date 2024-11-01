@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `charging-station` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/charging-station?s=sharp-duotone-solid charging-station}
  * @preview ![charging-station](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/charging-station.svg)
  */
-const ChargingStation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 0L320 0l0 256 0 48 0 144L32 448 32 0zM80 224l88 0-24 96L272 192l-88 0 24-96L80 224z" />
-        <path d="M480 80l0-16-32 0 0 16 0 48-32 0 0 48c0 35.8 23.5 66.1 56 76.3L472 376c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-32c0-48.6-39.4-88-88-88l-16 0 0 48 16 0c22.1 0 40 17.9 40 40l0 32c0 39.8 32.2 72 72 72s72-32.2 72-72l0-123.7c32.5-10.2 56-40.5 56-76.3l0-48-32 0 0-48 0-16-32 0 0 16 0 48-32 0 0-48zM0 448l0 64 352 0 0-64L0 448z" />
-    </Icon>
-);
+const ChargingStation = createIcon("charging-station", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhwAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCKAsIAAE2AiQDCgQgBYMtB1wbVgXIhocvW+n7PXNbusURcQuBDEQRMITCzHZkzgCDUJSZIHPVzv81n581HeDnO+csusZYgnU+n8CepxU33QQ2oekMbYPzJh9wKAztv0AZ/xeP6iG9lb7HC+5/AOMXQz1K0lsAiAoAaw7t2+HLM3Emxffdj4jvbUdArAVZoECBEQIsVwiMUMoolYIzqdvlTHS7mQCixsEFvYZecBceBJQgSVJZbulttRo9rfIgrapfG6Ie6NkHh741Qbw5/uiwiPennlzYzdaIZwa+Rrw15cSEY9NODY84NvydiKhHRGx7Oq4SWhHRvLDVbKUQohnFgUa9sT8ORT16i/1jT1Ynfxvz/TXfO31rVVVZZbZstuH/nn/iXgP37BmYlU8+uboyW6XvqY/7Zu15886cmTevfa8nzv87fKlTQe7pW1f79MusdpnRX+S9zPai7MtZpw+DisGXeuABh2WZQSD49OKfPri0s/y/Po0Ezn38x8/ged0v0+p0En0kEBTTu9NdlFYDowbwo1LcY2xajSxQ2CtBn9r0ugChjgBJTV2AwnCVAKW6aQL0GGWBADV1+xSi7BUGuLgCSdPtoLDQfaA0wIegx3JfFWoGRHH3cfcO9+2XvLEJbViV58ycnZfm0YaCv6EYvbgsL7Yn38MHpsCTrnGrW9zlale53l0N8g47yne72cYpYoMvyuaYabZsqby5fffwQVe7w52ud6tb7DLL5OOjye6ZHj8FricB5p63ioJIUQz5DSa+/pZrZ7wo+oxbefSwXvG5BQ==");
 
 export default ChargingStation;

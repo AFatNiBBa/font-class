@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paintbrush` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paintbrush?s=duotone paintbrush}
  * @preview ![paintbrush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/paintbrush.svg)
  */
-const Paintbrush: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 480c0 17.7 14.3 32 32 32l143.9 0c.1-.2 .2-.3 .3-.3c2.6 .2 5.2 .3 7.9 .3c66.3 0 120-53.7 120-120c0-2.8-.1-5.5-.2-8.3l-.6-.6L208 272c-.5 0-1.1 0-1.7 0L184 272c-66.3 0-120 53.7-120 120c0 6.2 .5 12.4 1.4 18.4C68.1 428.2 56.1 448 38 448l-6 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M411 331.6c-19.9 32.6-55.3 52.4-93.4 52.4c-4.8 0-9.6-.3-14.3-.9L208 272c.2-35.9 17.8-69.4 47.1-90.1L500.2 8.8C518.8-4.3 544.1-2.6 560.7 13s20 40.6 8.2 60.1L411 331.6z" />
-    </Icon>
-);
+const Paintbrush = createIcon("paintbrush", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcwAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBWQsIAAE2AiQDCgQgBYMtB1Ab+wTIjpQuYxbx8L3O3nOfZM+u/Bn0gbFCgjBXwF1SAUBR7qQj7DJxPoCeT516nvNQAN8oKGPj0mlz4hqd5xWoWK5er1anUE1rYH3b8tQQxRMRYUES0Xg5XqMr5PFfdkOF9ET6Gvfx/wDGzzq7QdKYAYhWAJi1evlC7zdFU4qv628QX1uAgJgNSoEMGboJMFUm0E2uRC4XNKV6naao10sCiCp+5AxUkWMx1gBykITI804japXm+apapdj+eN+I54o7O6yKZ2esjsfaP9/+kc6PtFvjSvuIR2q1uBp31T6b8V6fqxTqEKviaoGhIj6e+nZpYivmw+2KuDPfT+9XWr3ya6+vd33tyePfw8XuDVs2HdLxg39e8+Mfvnqr1Yh7n0nKFrdze4v7kedl69YpGEAxITroS40N3c/v+74KsXg7EAi+uT6nzab+21BL4Ic3f/+7/JDU30+z0ytokECQDa0PtSHNpP5/mi0AAClO6Z1m+h6BzAiJfGozjwoQCgRIqgoBMl21EiBXGCJARQ/jBKgqLJeJvFFoZ2MDSTNHQWa8iyDXzuugYqrP7Kp2kXkV5RPUoy5+vobmnStHDR9ZTi6nlUo7CoHHU8plYeCpNBkEF+1y2CEn7LTDXicUcsxC76SD5lvwPF9UGmW4kUqTldvt4/oqOx1z3F6HHaJTpijPKwOdsjcPAjkR1NFWMhmRImvza25m27GTx/cM889pu569igA=");
 
 export default Paintbrush;

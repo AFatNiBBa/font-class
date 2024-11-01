@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cup-straw-swoosh` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cup-straw-swoosh?s=sharp-thin cup-straw-swoosh}
  * @preview ![cup-straw-swoosh](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cup-straw-swoosh.svg)
  */
-const CupStrawSwoosh: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M217.8 0L224 0l56 0 8 0 0 16-8 0-49.8 0-28 112L376 128l8 0 0 16-8 0L8 144l-8 0 0-16 8 0 177.8 0L216.2 6.1 217.8 0zM64 512L36 176l16.1 0L68.7 375.8c40.3-2.1 66.6-10.2 85.5-20.8c19.7-11 32.2-25.2 44.6-40.2l2.9-3.5c11.4-13.9 23.4-28.5 41.3-40.1c19.3-12.5 44.8-21.2 82.9-23.1l6-72.1 16.1 0L320 512 64 512zM324.6 264.2c-34.7 2-56.8 10-72.9 20.4c-15.7 10.2-26.2 23-37.9 37.1l-2.7 3.3c-12.6 15.3-26.6 31.4-49.1 44c-21.5 12-50.2 20.5-92 22.7L78.7 496l226.6 0 19.3-231.8z" />
-    </Icon>
-);
+const CupStrawSwoosh = createIcon("cup-straw-swoosh", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABZwAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBVQsGAAE2AiQDCAQgBYMtBzcb3ATIjtRG95BN4uFBL+r9JDMLKAsYvdjRnU4umusAlVO11/N/s+dRFAX4OYLQxsKlgSyQaM7nCSS0rH13gHc+FliieLuz7dgStEeSlrIkx7njc1ghi/1WKJBcTj7DyfKj8bN6TpBIUwBRFQBDZ0+f6K0v4ouIT0uIT41HQAwFuUCKFA0FGCAVaCiTI5MJvohSif4DcwKIIrllAjIUMA7zABlIpFlWp171CoVK2awKhfLzK5SvIMqXnxEVEK4YI2ZHnTnz5s6rEDPjw/b329eJq3iF0bOjQsyJisvfa3Oj7lE1406bOyNmRoWY3exe1Xu/Nv1s1Wc+f7NYHFVV2W4NNntUNvB7kvlZo71qXS41mEzPVlXVD10/9aTY3Ddnrm0vjFZVg8lk/zefsugf0UyZv796t+xqX6nxPRAI/tynyeIqA/4tWyEBX734/Wft4tJbcSS5h7ISEKQdSh0siCNA2ADUJHZpZhwskBgmBbnXii4IEMojQKKovACpBqoKkCmvvQAFjfUUoKi86VKRlRNqWjhAoqKtINXLQZCp6TkoGOBDtahmpC5FOQT1oosfpaGRTXnXTl3yfvnS0mkvIWK1f74ttNnFkbYwaJXNNtlhpRXW2qHQbSYaO200ykJGOlCuq066yPWTH7vP3bOstM12a222KdfpL7+vtLHLTm8LckJwu2lNJERSdfnOLR3/ruV2V3X35s3b1wAA");
 
 export default CupStrawSwoosh;

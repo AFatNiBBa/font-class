@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `road-circle-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-circle-xmark?s=thin road-circle-xmark}
  * @preview ![road-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/road-circle-xmark.svg)
  */
-const RoadCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M217.4 32C194 32 173 46.6 164.9 68.6L40.4 404.6C26.9 441.1 54 480 93 480l267.3 0c-4.2-5.1-8.1-10.4-11.8-16L328 464l0-43.4c-2-6.5-3.7-13.2-5-20c-.9-.4-1.9-.6-3-.6c-4.4 0-8 3.6-8 8l0 56L93 464c-27.9 0-47.2-27.8-37.5-53.9l124.4-336C185.7 58.4 200.7 48 217.4 48L312 48l0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 94.6 0c16.7 0 31.7 10.4 37.5 26.1l43.7 118.1c6 .3 11.9 .8 17.7 1.7L475.1 68.6C467 46.6 446 32 422.6 32L217.4 32zM328 200c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 112c0 4.4 3.6 8 8 8s8-3.6 8-8l0-112zm40 168a128 128 0 1 1 256 0 128 128 0 1 1 -256 0zm272 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-132.7 0l50.3-50.3c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L496 356.7l-50.3-50.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3L484.7 368l-50.3 50.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L496 379.3l50.3 50.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L507.3 368z" />
-    </Icon>
-);
+const RoadCircleXmark = createIcon("road-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABpAAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDBwsGAAE2AiQDCAQgBYMtBzgbjwXIhofn68Q/980kbScpPamoVPyAvJNWwpYrYfp7d/7PPy2QZZ/go+zVmCBtfBfNCdx1HmD4frypOM/CLFHsbNubIiahcYTEOEEef9tHhXRjeg+XBx8aP+juHJIsAxDtADB3U3OlN76NbyPe+/9Z4j3LERDzQCmQIUMvAWbIBHrJlcjlgm/j///Ff2BJAFEVPTuBHC1wLx4H5CCp5Pm0es+ejVqldb7RJBfbnum1OW7ofuPA1nFdlyKCgNcV13QSRdxXw3pui5sH10Jc2/n6rhF1/t7uG2TLxrhtUrFhlyDU2YMbzhwe8fDwh2sXD30wJp0x5AGyuGjYQ2C0PnNUxGPTXureNuWFEY84Y+SjU1+sXTz95dGPR9Fc07y+y3Wd1sS6yFnXdF4ba4J1bddmrA2Bvmpdv4faPfRT47393vPp7XO/P2W1i3/77aOaTYs7G25od2l3dYovrHn88X1OXu2GO3aZorp74vgud9ww/FhnnDHqFN/P/eCw+2V8BAodfH//OvWPP+rX76OP6/X+vQ4Baze4pOzYYdCgDh3LcjDuwMG5jQiYOLHZ7KCDXKi3NDT0HwaB4LSuH3+yq+2MX1vWEvj+pV/+cvf3/f+NdEZ6CC0lEGQj/h9hezpDXyg3gGqK4/Rb+aJAcquK6F3rrhMgFAiQVBUCZHpqJ0CuMFyAij4mClBVaMpE3kroZEdLJXVHUplJTqVynTxNVczwZqWqU2SwqkCa8qmYuaiPLNxXjh01ppxWLnbUKvhJdnN6uTsccpycGIoT7edwhznGvvZxoGN62FFW1o91qEVr6EI/VBprlDFK05Sn+4/NjbR6lKMdOK+e38V05f3lIY5bnz8Up5KId5y2JBGp/SvjjvyrJxp5wqMNAAA=");
 
 export default RoadCircleXmark;

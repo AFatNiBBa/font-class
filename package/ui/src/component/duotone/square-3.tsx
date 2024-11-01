@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-3` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-3?s=duotone square-3}
  * @preview ![square-3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-3.svg)
  */
-const Square_3: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm128 56c0-13.3 10.7-24 24-24l128 0c9.9 0 18.8 6.1 22.4 15.3s1.1 19.7-6.2 26.4c-16.9 15.5-33.8 31-50.8 46.5c21 2.4 39.6 12.5 53 27.4c6.7 7.5 12.1 16.1 15.8 25.6c1.9 4.7 3.3 9.7 4.3 14.8c.5 2.6 .9 5.2 1.1 7.8c.1 1.3 .2 2.6 .3 4c.1 1.4 .1 2.7 .1 4.1c0 1.5 0 2.9-.1 4.4c-.1 1.4-.2 2.8-.3 4.3c-.3 2.8-.7 5.6-1.3 8.3c-1.1 5.5-2.8 10.8-4.9 15.8c-4.3 10.1-10.4 19.1-18 26.7c-15.2 15.2-36.3 24.6-59.5 24.6L208 384c-30.1 0-58.1-15.6-73.9-41.2c-.9-1.4-1.7-2.8-2.6-4.2c-2.4-3.9-3.6-8.3-3.6-12.6c0-8 4-15.9 11.4-20.4c11.3-7 26.1-3.5 33 7.8l2.6 4.2c7.1 11.5 19.6 18.4 33 18.4l27.8 0c10 0 19-4 25.6-10.6c3.3-3.3 5.9-7.2 7.7-11.5c.9-2.2 1.6-4.4 2.1-6.8c.2-1.2 .4-2.4 .5-3.6c.1-.6 .1-1.2 .1-1.8s0-1.2 0-2c0-.7 0-1.2 0-1.8c0-.6-.1-1.2-.1-1.8c-.1-1.2-.3-2.4-.6-3.6c-.5-2.4-1.2-4.6-2.1-6.8c-1.8-4.3-4.5-8.2-7.8-11.5c-6.6-6.5-15.7-10.6-25.7-10.5l-51.5 .3c-9.9 .1-18.9-6-22.5-15.2s-1.2-19.8 6.1-26.5c16.8-15.4 33.7-30.9 50.5-46.3L152 176c-13.3 0-24-10.7-24-24z" />
-        <path d="M128 152c0-13.3 10.7-24 24-24l128 0c9.9 0 18.8 6.1 22.4 15.3s1.1 19.7-6.1 26.4l-50.8 46.5c41.9 4.8 74.6 40.4 74.6 83.6c0 46.5-37.7 84.2-84.2 84.2L208 384c-30.1 0-58.1-15.6-73.9-41.2l-2.6-4.2c-7-11.3-3.5-26.1 7.8-33s26.1-3.5 33 7.8l2.6 4.2c7.1 11.5 19.6 18.4 33 18.4l27.8 0c20 0 36.2-16.2 36.2-36.2c0-20.1-16.3-36.3-36.4-36.2l-51.5 .3c-9.9 .1-18.9-6-22.5-15.2s-1.2-19.8 6.1-26.5L218.3 176 152 176c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const Square_3 = createIcon("square-3", true, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABugAAAKiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDLQsIAAE2AiQDCgQgBYMtB0wbywXIjsN0OytPBEmYRyp4HnXa+5KctE6K7ALj1B4Q8sbLkLuVYA7xz857fQ4DTjSgdDbSCW9GY2v+L6e3dhvwc6DnodyYVNvOojbgnM8TCOOxfFOgWwNJM7QG50045JCGUL4HRi7rDVigjqpPwO7ofwDlK3E2gCJQAwAgoQAAQOvVv4c3PvEp+eR/APKJbiAA0gaAQwANaCCRANBAI0AigwMMBgGf8h/wif84IAAgLiJG8+EuwAKeAW8AAAOAQlDGVMeP9VhBZpDHsocfz/bkYNTByG55mHs16UTOlQo7j4qi5cu+HBclb6Yn22MOy9roQ7Yth6IPxfQWWy7F66bV0dyrmUG5nH89QedY3rUsby7kXIkd+Bh1JUdCSsqtgTkQqT0eOyRwfG3MBzKE1ooEOgRFG58qe0p4G2nXQq99T/006ROrZ1TfNfwaua8XYrqq0IsmlyTy63AE+721bzK405JIyLGrIaFXj4ZU8Gvk/TyJNn0HY1ZSaoeFnWnhTAnZZX3qqX5u2aZDpupaT5a7tMKQTrurRz17fgaCVLr7pS/mdWSqUoKAIDfIFq2yOo6GlvNr5n7+7CNVPr4eAAQQ+Hyk+N7okIb/AR4FwJdnP//Wl+P3yRt1DQhAASCgC/wFjMgbABYsAPCjlCwiLT/LgACa5RTJu3o5hAAg2IAAoHBhIwBoEoQSAAw2+QQAi2SVBAAXNv1pxAQiRBrZA4WXuUBTZSUwRLoPLBq8zbiITNlfzfZpv4/ZXWO0c5pTWlTi1DmbZa1uJRU9Xu+cjuYs4m25cCeTzDbLAhNNMNWCUWCenvxCM3XtiTq/yFGqSAlHHed27bk9CGfmmW/qunl/knrO+06ORfu9c2FCkYQss0SjQZToUEfgFJYXeoRw+MQ08g==");
 
 export default Square_3;

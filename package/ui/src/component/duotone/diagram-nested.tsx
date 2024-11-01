@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-nested` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-nested?s=duotone diagram-nested}
  * @preview ![diagram-nested](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/diagram-nested.svg)
  */
-const DiagramNested: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 224l0 96c0 53 43 96 96 96l96 0 0-64-96 0c-17.7 0-32-14.3-32-32l0-96-64 0z" />
-        <path d="M48 32C21.5 32 0 53.5 0 80l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48L48 32zM304 288c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-96 0z" />
-    </Icon>
-);
+const DiagramNested = createIcon("diagram-nested", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABeAAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBXAsIAAE2AiQDCgQgBYMtB1gbBgXIjtRG8xmZCJ5fE5u3f5MC0BYYFRE4IratqorroXDHlkAn/qdOPc95KIDPcR8LJy7cHtwTIxCR0ZY3VahAxWoJa2B92/DYCMQXEpIWEY1nUPzOkMebdFKJ7F72Da7Q/wDGr1o5SaZWAhANATBx0bwZKj/FT1l8U/1IfGM6AmISKAQSEtoKMEYSaCtXIJcLfsqq/BTVggCijH5rCZRRwhwsBuQgk4k8b926WZ1SvXxhnVLtZS+bRtxsKe41u9W1TrxpcadNxP3mt7vVXuC6FgmPer4baugRteM8YuWOTu8bvv+94zcbv9H/yYDv+Datlr79bsBqisZpVVsz/sfVfKLm+/dHV5tgtfpnz9aX50EguNBhTmVVgzH/16yTgV8+/fkvfLj6U1Sy96gpA0HqU+1jeVQA0QF8qSwO6hQVTBBIhsjwq9Z1W4BQGwEyZbUFSNpoKECutt4ClLQ3VICy2uZJIq8lNLWigkxde0AyzCGQa+oDKBnjs1nWNFJcEVFB/Opip2lo6lIxsN+AYlTR9QgZKljuji6muR4HU6YnHLXRLjvtt8F6W+xXyF4znAN2mDaCp/qgwkD9DFAYpVgOb9mFytxrny0+vT5ntGK/3MPBcXlPeGMGGIRXkkRkkZo/AnzfnXeFtL5vjBa1tOjzCAA=");
 
 export default DiagramNested;

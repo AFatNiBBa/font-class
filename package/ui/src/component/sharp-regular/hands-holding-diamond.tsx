@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-holding-diamond` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding-diamond?s=sharp-regular hands-holding-diamond}
  * @preview ![hands-holding-diamond](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hands-holding-diamond.svg)
  */
-const HandsHoldingDiamond: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 256L448 128 320 0 192 128 320 256zM144 64l-24 0L24 64 0 64 0 88 0 392l0 9.9 7 7 84.8 84.8 17 17 33.9-33.9-17-17L48 382.1 48 112l48 0 0 200 0 9.9 7 7 7 7 17 17 40 40 16 16 1 1 16 16L233.9 392l-16-16-1-1-16-16-23-23L208 305.9l88 88 0 94.1 0 24 24 0 24 0 0-24 0-94.1 88-88L462.1 336l-23 23c0 0 0 0 0 0l-16 16-17 17L440 425.9l17-17 16-16c0 0 0 0 0 0l40-40 17-17 7-7 7-7 0-9.9 0-200 48 0 0 270.1-77.8 77.8-17 17 33.9 33.9 17-17L633 409l7-7 0-9.9 0-304 0-24-24 0-96 0-24 0 0 24 0 214.1-47-47-17-17-17 17-95 95-95-95-17-17-17 17-47 47L144 88l0-24z" />
-    </Icon>
-);
+const HandsHoldingDiamond = createIcon("hands-holding-diamond", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABjAAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiDEwsGAAE2AiQDCAQgBYMtBzwbnwXIjsQ4JvKLKOwinud/TfK+P5OFyRKkPGcVMKtQicgTuEoiV3as1xUtuSpKvteG2PeXjt/4UQOpdASHUuqbvZKmAWlAvY9HIIDR89TxAGU+WCyiGNtsqKCPUVyvGCVjyZAez1X8u0Kdf/KsDuW18gOeWZnK787wNEWnApA5ANg37p/y1S/5Jfl+MvneCQSyD7SCinC2k9kJMbnWolo6wi+ZTOh/YEuATAEUSmv9tDfwKaAGRanr6a90OzPrUbfTXDUejEcZZDhquo2UyMIMsyx7sjyjVOlGZGEWZll2LbSwj0WbcXlWZBhyt5sYx1mWpXmCFjDtCrDYYU+1zUW7m5JBgHFbVCVpGpHdWZ6lhNF+w84kWfLWnLf+7Idrf7Dny8cA9vb3v+z1nu1Zq3GtwQBzceqUWdb6RuNa1+I+E0zM5YvX+tF47FI9PVRcesKPQxzMFUhBnuXGN9aa5dQpzMVg4FqNtXp69/ec9he49FKXXgr+cloPCMKBFx//7LLZO/+e1i3gt08Avzz5qjxe3sI0BYRq5WSli8vjoOYAzZJ7LQm+KCheV4DVGV4WEA0CiikaAZWzzBFQa6wQ0HGuTQKmaPRVUk8XC1xyKMUMdyiVzR5Ragt8rHTs9HVjigWpZqw/3/wfxuiw5w6da9etXttuby+HajAJ3XK8ox0uL73XlpZRoWvd5lZ3u8bVbnC3E+50qn2PWxyO+EN+qLXOamu1tmvTk1saSfNOd7mhn7b5U3Zo768vdW+8eRnVCliu11EUUha+UumqRyBd9a0AAAA=");
 
 export default HandsHoldingDiamond;

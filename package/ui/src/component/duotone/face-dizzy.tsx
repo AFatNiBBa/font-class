@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-dizzy` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-dizzy?s=duotone face-dizzy}
  * @preview ![face-dizzy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-dizzy.svg)
  */
-const FaceDizzy: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM96 144c0-4.1 1.6-8.2 4.7-11.3s7.2-4.7 11.3-4.7s8.2 1.6 11.3 4.7L160 169.4l36.7-36.7c3.1-3.1 7.2-4.7 11.3-4.7s8.2 1.6 11.3 4.7c6.2 6.2 6.2 16.4 0 22.6L182.6 192l36.7 36.7c6.2 6.2 6.2 16.4 0 22.6c-3.1 3.1-7.2 4.7-11.3 4.7s-8.2-1.6-11.3-4.7L160 214.6l-36.7 36.7c-3.1 3.1-7.2 4.7-11.3 4.7s-8.2-1.6-11.3-4.7s-4.7-7.2-4.7-11.3s1.6-8.2 4.7-11.3L137.4 192l-36.7-36.7c-3.1-3.1-4.7-7.2-4.7-11.3zM320 352a64 64 0 1 1 -128 0 64 64 0 1 1 128 0zM292.7 132.7c3.1-3.1 7.2-4.7 11.3-4.7s8.2 1.6 11.3 4.7L352 169.4l36.7-36.7c3.1-3.1 7.2-4.7 11.3-4.7s8.2 1.6 11.3 4.7s4.7 7.2 4.7 11.3s-1.6 8.2-4.7 11.3L374.6 192l36.7 36.7c3.1 3.1 4.7 7.2 4.7 11.3s-1.6 8.2-4.7 11.3s-7.2 4.7-11.3 4.7s-8.2-1.6-11.3-4.7L352 214.6l-36.7 36.7c-3.1 3.1-7.2 4.7-11.3 4.7s-8.2-1.6-11.3-4.7c-6.2-6.2-6.2-16.4 0-22.6L329.4 192l-36.7-36.7c-6.2-6.2-6.2-16.4 0-22.6z" />
-        <path d="M196.7 132.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L182.6 192l36.7 36.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L160 214.6l-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L137.4 192l-36.7-36.7c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L160 169.4l36.7-36.7zm96 0c6.2-6.2 16.4-6.2 22.6 0L352 169.4l36.7-36.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L374.6 192l36.7 36.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L352 214.6l-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L329.4 192l-36.7-36.7c-6.2-6.2-6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const FaceDizzy = createIcon("face-dizzy", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABxwAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyDWAsIAAE2AiQDCgQgBYMtB1Ab+gXIhocn//o6t+p1D6A3E4GICEZeIv0Idx3BSIW4//7U85yHAviNgvIyFi4NyFq2RtfEChS4VhzLKtCrQK9gFa6BdXDe7clnKArpZyjik3xNhfRweg93wP8Axq+6uUbSLAOItgCYsXLpfC/9FD+leK/2NPGeeQiImaAUyMjoKcBkWaCnQolCIfgp1Wr8FLVaSQBR1TxpBlU0xbv4ElCAJCmKouzbY0irIS0qrYoVLSrN1z7Y6f6Ok2NK3N/xvs5TY3Lc1/mBLtNiajzQ5cFOU2Jai2rMcLg3Pp8R8fL891vcWPjhrFdXfjHzlQUfNL8+773pLy1bebnLgzJ2K4BCDTq2BgC1FpfTd2P5Y/3rBjb0fnJQ44D6Xiu2aC6lAEq1cPlX9Wto2/B73/d2vOe1ifX1jzwy2miPPFJfP8ss7OhNiqJ/gJfMaUa3p16eNevlp7o1M4ctMp6NB6uzZ1dHegMN+Logsia6Bj/x44f5l7///iXPa3T/xqHBYY8DgeDuz565vrHN5P+btkjglxf//Bf8kNReSlIDmkogyINrg61LIBEAgBQn9EusRSC7otC9aksPCBCaI0BS1VyArIe2AhSaGyRARW9jBKhqbqksimZCR+sJSlo6jLKxzqNCR0+hisneNKo6Rr6r2XuS/adMmstic7aVI4YOLyeW2gLiblS6nJ9UOsv9T6R9A/w9djjogGO222Y3AIY4Yr593H5zTfgcH1QaYajhShOVm+tFaUUIs3S0ptX89k0mKY/X+zthHj3A15KOdKQdWSZS5PbfTHzItt1nzpwe8n70d+SFLwEA");
 
 export default FaceDizzy;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge-circle-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-circle-check?s=sharp-solid bridge-circle-check}
  * @preview ![bridge-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bridge-circle-check.svg)
  */
-const BridgeCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 32L32 32l0 64 32 0 40 0 0 64-72 0 0 128c53 0 96 43 96 96l0 96 96 0 0-96c0-53 43-96 96-96c6.3 0 12.4 .6 18.3 1.7C367.1 231.8 426.9 192 496 192c42.5 0 81.6 15.1 112 40.2l0-72.2-72 0 0-64 40 0 32 0 0-64-32 0L64 32zM488 96l0 64-80 0 0-64 80 0zM360 96l0 64-80 0 0-64 80 0zM232 96l0 64-80 0 0-64 80 0zM640 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-65.4-32l-11.3 11.3-72 72L480 430.6l-11.3-11.3-40-40L417.4 368 440 345.4l11.3 11.3L480 385.4l60.7-60.7L552 313.4 574.6 336z" />
-    </Icon>
-);
+const BridgeCircleCheck = createIcon("bridge-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhwAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCSQsGAAE2AiQDCAQgBYMtBzobUwXIhof/t4u671d1n+6qMf5ArgGxkjNFEy+AzOnmVLQRp049z3kogM+5CAdtrN3qAtvzvAI9rw/f2A1UasEKVjHtlLsXgrhDw9K1hTL+Lu7WIj2VvsBj1ofGr4a6m6RbAIg+AFh9cO92H30VX0V8/v/rxOe2IiBWgyxQoMAIAZYrBEYoZZRKwVfx///sPzATQLQ5b5JAiQ7uxWOAEiTtspzV7XaHD61bPcsDdas6WtWVqGtRhXh9ytMjRR0Rp6c9u+ihgS8ue3fjlysiqoio64hqn1AYXCVnOueOmREvLH2nenDxW9Ofc/uM55e8XT+07N1ZL8aBAYMH7IsBMShW+hecFgNjSuyNwTFl7DN9nvl9zBfnfmHV6ZxzI09ubHK72595pnMK4zrpz9/eveOiBx9oGj9sskljcm7kg6uaptmlset2vPaJ3pMyuX+/iRP79c95UqmGec3od5zsxo2epdjrvONcz/r8Kc86FwgE7595/dKTvZf/1akT+OadP3+PT8//f5RuT8+gI4GgmP7/dMfS7TIMHUA+xbXG9iwxkNxqy75qD48LECoESNoqAQrD9RGgVJkmQMsoCwRoq+xViLIrDHA8B0kPV4DCQreA0gCvgpblPs61DYjiZqRuJepbMH5DGVq/KM+ZOTsvzZ01KX1/EXp2WR6tT76W90yBG53rMpe62jnOdoGrS8iVthevcYkNffB6X5TNMdNs2VJ5dvP66gPOcaWrXOAyl5rzLJPXjye7tn/4FGglDu5cJUkiUv8XRJ7x344448oGAA==");
 
 export default BridgeCircleCheck;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mug-tea` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-tea?s=sharp-regular mug-tea}
  * @preview ![mug-tea](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mug-tea.svg)
  */
-const MugTea: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M152 112l0 24-40 40 0 112 112 0 0-112-40-40 0-24 184 0 0 288L80 400l0-288 72 0zM80 64L32 64l0 48 0 288 0 48 48 0 288 0 48 0 0-48 0-80 32 0c70.7 0 128-57.3 128-128s-57.3-128-128-128l-32 0-32 0-16 0L80 64zM448 272l-32 0 0-160 32 0c44.2 0 80 35.8 80 80s-35.8 80-80 80z" />
-    </Icon>
-);
+const MugTea = createIcon("mug-tea", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABYgAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBTwsGAAE2AiQDCAQgBYMtBy4bzQTIrgpsY/aEDcID2B0ibRrpOlzHRVPk/2IE3+/323MFEY8qSbRBgpCZro1MhWSpEiql/KGSyc/vGXP/Zh7FbqKOuSQaKZBX0UgTzTxCpkGYf80izO2QK4EoSdcdHnD1YlspvJXvXyET19SPsm9vegCLFc6iNRIo87zBdl5tiQMZjWbD2URx1s5OeUn0myTIJxkm/bC5Q4m/eFNJXym8pg+NP5OuSWoGQAwAgNM32o/nVrQiPpoRPy5BQJwCFhAyMmYQOCAUmCGyAIoiaEXT0H8gCCDawM9OoKDiClwDKCDJRWSY1imrWjTRLVbMIgchuomoEmEEAalImDnRpVQg0hxQ67Ti5fhOVd7RNQ69O+9+KRb6nEJL1/9aPs4Eey8dWe0lvScL4a6ObsIF5onYUEP4hZWqNXU+PP8D32CBbi/RxK0OIBA8/9+X+0v/Hd0CwO83+bEFSCephQ4JBHm1WTWXNWEcwdEUFxz4IkJyQQjv2uNdgNCFAEmbLgGyaToEii4rCFRz0gi06XJDKIocYcR8VZMed2q270otRtyq1YGXSJuRyPpkaoP5ncvR0cLtk3grEuMCL7OKRUX00F3kbefihavy4yQ2HDpwZt2abWcNf6I/fm5fh0S2+yEWFxHDCvi48Hh4wroTp7YdOoi9FPF9v8+F3NiPaQgA2y+huzWRpPtPm+HHXQY=");
 
 export default MugTea;

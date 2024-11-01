@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `expand` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/expand?s=thin expand}
  * @preview ![expand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/expand.svg)
  */
-const Expand: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M152 32c4.4 0 8 3.6 8 8s-3.6 8-8 8L16 48l0 136c0 4.4-3.6 8-8 8s-8-3.6-8-8L0 40c0-4.4 3.6-8 8-8l144 0zM0 328c0-4.4 3.6-8 8-8s8 3.6 8 8l0 136 136 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 480c-4.4 0-8-3.6-8-8L0 328zM296 32l144 0c4.4 0 8 3.6 8 8l0 144c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-136L296 48c-4.4 0-8-3.6-8-8s3.6-8 8-8zM448 328l0 144c0 4.4-3.6 8-8 8l-144 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l136 0 0-136c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const Expand = createIcon("expand", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABbgAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBYQsGAAE2AiQDCAQgBYMtBy0b3gTIHoVxMz3SRXMUUd7+EQ8fc+X7STYHQCkRKWBydegQ/dm6qnVFI3ZqO5XVm8y17xWi//ennuc8G/AbBeX/l2wbq2vQ8jHmeQUKWOvVprcitYLVtAJWa3Ocg4oi/CJSYb5nIQ3jD1sPyOK9U0okbxN43D40/upzj0SaAohWAKzZu3OHciUqEb+rEb9tQ0CsBYVAihSDAiyXCgzKFMhkgkpUq/4/sCCAyMmLE5Ahxy4cBGQgkWVZe3tnZ0OpKduTjtQffNn1orM+hKt51R3xuqdhn8djUTTElJT82Yb6hqhwAEZxv8DI83hEhIvGjraO/uMMrz8fy/NjjzxS2WP5k/iT15NOuIOOQbRo0qQnAqxvar1WgPZtPw8EgjfXp70+2rL8f21DAv58ffsZqVainIyiVgKCdHp1ukNRhigLAEASd4yNMgKJ7TLyro1eCRDqESCRqxcgNaBVgEy9aQKUDFsgQK7eTqnI6oROhy+UaHQdpRa6izKdvqCS5b6Vcp2RGpZiFsp/XebGntpwqJgzc3axtKA9h2orkHeXFa/tyXfCzBScdcZVV9xy2inn3erEG3ZUb7ts44re4IsKc8w0W2GpYnv4eHqP02646byrrpR9lim+T012Z718CryESM7VkkiIJDdCAAAA");
 
 export default Expand;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-unamused` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-unamused?s=sharp-duotone-solid face-unamused}
  * @preview ![face-unamused](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-unamused.svg)
  */
-const FaceUnamused: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm96-64l16 0 64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32l-32 0-16 0 0-32zm65.4 193.2l10.7-11.9C188.2 355.4 216.3 336 256 336s67.8 19.4 83.9 37.3l10.7 11.9-23.8 21.4-10.7-11.9c-11.7-13-31.6-26.7-60.1-26.7s-48.4 13.7-60.1 26.7l-10.7 11.9-23.8-21.4zM288 192l16 0 64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32l-32 0-16 0 0-32z" />
-        <path d="M112 192l-16 0 0 32 16 0 32 0c0 17.7 14.3 32 32 32s32-14.3 32-32s-14.3-32-32-32l-64 0zm192 0l-16 0 0 32 16 0 32 0c0 17.7 14.3 32 32 32s32-14.3 32-32s-14.3-32-32-32l-64 0z" />
-    </Icon>
-);
+const FaceUnamused = createIcon("face-unamused", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABoQAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCYgsIAAE2AiQDCgQgBYMtB1YbigXIhof/11ne9yX7zMi7bC+glhmSDpDacDmpgLBGqlJ74nLnf/70vo0eZe/GpjWwbC/NAgmwiwqXBzyFMs3Aejg3vXjzmYUGIf4GeXyV3ahCeix9gnu2/wGMv/R0I0lrBiA6AWDBtk1rvPF9fJ/ik+aLxCdWIyAWglIgQ4Y+AsyWCfSRK5HLBd+nZpPvo9ksCSCqjsfJQBUtuBdPAnKQJHmeNxq9u/btWqu0z7fWKsW2olaIWu3axkO1O7o/Etd1e7jQ2/U18e2CiDfXfDqcse7zRW9v+27hW2s/K25f/cn8NzZvi5buSEu5tv4go6gcMrSlez3ryLBnhj015KlGI4ZHt3jYSnko77Z6PUam7h/4fKfn/xnwydFPnGt2OqxSn+5w660d5Nr5b1jO8IYlrfRse3PRojfberZaojYq1r55GUPrh6qyUzn/jReO7KsrV37xxQi/+oIr1N32+2+Nxm+/36asufoNfj8QCN4fe3jvvo6z/2+pJfDjS//9ef6QNN9I0vNokUCQjW6OtjuBRAAAUlxpYGI/Apm9csentvOwAKFAgKSqECDTWycBcoVRAlT0M0WAqsImmchbhbo9L5G0c4HITHUVkatrIypmez9fVY8MNDnA4n4Mk5eqwJJd5YSx48uZpbfh5qGNmRdnlcn28Cv7gRH0pKPOOeuyIw474bICXbSmdIUzlobAJb6oNMFY45VmKovbm/JWJX/RJSfcYvkms5Tt48NdGR4/gnrJQTrRgUxGpMgaiJ8fc8XZA2ewWR+D5SO6O0SMBg==");
 
 export default FaceUnamused;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mandolin` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mandolin?s=light mandolin}
  * @preview ![mandolin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mandolin.svg)
  */
-const Mandolin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M459.3 4.7C454.3-.4 446.5-1.5 440.2 2l-72 40c-4 2.2-6.8 6-7.8 10.4l-23 99.5-38.6 38.6C227.4 187.1 0 187.6 0 336c0 97.2 78.8 176 176 176c148.4 0 148.9-227.4 145.4-298.8l38.6-38.6 99.5-23c4.4-1 8.2-3.9 10.4-7.8l40-72c3.5-6.2 2.4-14-2.7-19.1l-48-48zm-191.7 217l-43.1 43.1c-9.5-5.6-20.6-8.9-32.5-8.9c-35.3 0-64 28.7-64 64s28.7 64 64 64s64-28.7 64-64c0-11.9-3.2-23-8.9-32.5l43.1-43.1c.2 28.6-1.4 65.6-7.8 102.1c-6.6 37.9-18 72.4-35.6 96.7C230.3 466.1 208.4 480 176 480C96.5 480 32 415.5 32 336c0-32.4 13.9-54.3 36.8-70.8c24.3-17.6 58.8-29 96.7-35.6c36.5-6.4 73.5-7.9 102.1-7.8zM445.5 122l-72.1 16.6L390 66.5l55.2-30.7 30.9 30.9L445.5 122zM192 288a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Mandolin = createIcon("mandolin", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABiQAAAKAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCLwsGAAE2AiQDCAQgBYMtBy8bLgXILgsyOWWHsBShQWPkOHfGetq3IcXD1xr6/t6GsAgky7LCEMhWATpyyA4AVXVAVkdm7mBc3j3Eew9AEt2gEEFFp7muRIa0PGaOboC5Smw9dof3Ln2izPKr1nfqVM04DwXwLQA0puU8PjbYnOcRyPnooFa3tmDbClbTClh3p9naCsknSUKS49KOzwFy3MREbNKl9BPn4ofGf/1Mk+QCAKIZAFi2tSALHtuiLeKjDPHTBiAglgMMhShQYCAECzEFBmIZCmRZ0BZlyf+BQ0EAUQnpwglkVOIgcAyQQZIzy2e0UFnHFrOKnVvQcr5nYcyQEhd7Kz/y0rlP6bM3m/LIsW3chkQsifk+cMXeCYULl8TNCa6PPdAteh+69n2PjROaRFwduuF3EvbktX099ibly6ytm+BWMSO8I2jTqV6Is470nBGc7D2HR/vMC4fflR19Dft5vj/3+poxCnr1blDsMsI0MSCBg+nNkR61nR3v3zU3G5s09JY3a0yK9EP//5yct16WywUCK27knRVnj6g/fjLb3h1rYGPk9tuH/z5hrQw3Nqfo9u1f943G4xxvDB4kAnHe4TWcP01xXdV1DICO53fBX1H5NhWMI1RLICgmlhNVJqDsTgUEACDFMHsCBJKdWOK71jsvQKhFgKRSrQCFAWQQZLUmQFBhsHAIKtXaiCkyH0JPVRUk9faAwmwjIOvpGlRY6Fmr1DOY+kdrD/39S0hu0aQhmhYQRDE09RRGpUjfjaVtaeywZLxhKzTr0W1Qk0ZtBhu8X5Y5pEvyCkvyRSRYgCAkBh2H90Ixav0GtI3pc0ifWHRf9jK8LveGMRiA6S9HyrpIvK4d3Y09nW3dAAA=");
 
 export default Mandolin;

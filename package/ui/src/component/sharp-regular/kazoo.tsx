@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kazoo` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kazoo?s=sharp-regular kazoo}
  * @preview ![kazoo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/kazoo.svg)
  */
-const Kazoo: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M560 256c0 29.6-8.9 57.1-24.2 80l56.2 0 0-160-56.2 0c15.3 22.9 24.2 50.4 24.2 80zm32 128l-110 0c-19.8 10.2-42.2 16-66 16s-46.3-5.8-66-16l-126 0L0 320 0 192l224-64 126 0c19.8-10.2 42.2-16 66-16s46.3 5.8 66 16l110 0 48 0 0 48 0 160 0 48-48 0zM230.7 336l65.5 0c-15.3-22.9-24.2-50.4-24.2-80s8.9-57.1 24.2-80l-65.5 0L48 228.2l0 55.6L230.7 336zM416 352a96 96 0 1 0 0-192 96 96 0 1 0 0 192zM398.1 209.9L416 227.7l17.9-17.9L448 195.7 476.3 224l-14.1 14.1L444.3 256l17.9 17.9L476.3 288 448 316.3l-14.1-14.1L416 284.3l-17.9 17.9L384 316.3 355.7 288l14.1-14.1L387.7 256l-17.9-17.9L355.7 224 384 195.7l14.1 14.1z" />
-    </Icon>
-);
+const Kazoo = createIcon("kazoo", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABgwAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCSQsGAAE2AiQDCAQgBYMtBywbRQXIHoVxs3M0pkwTfUTmMd1x4uH7Nfbn3re7mDaTBEmThyw+ncp00WxSKqGQSJTC/PqNzw5/JvFt2EEbSRWEu1hVXIpfQNEGRZOX6lc0PalXsejqSQjTV2XqVM04DwXwOa5jY3CCLJDQnOcRyPm04ekiqBVrBSqgVrV+N3knXny9NTnRSRqm3LB1QhW/sUr65Cf/BNy3F43/sDYHpLoAIHoBAJt7+Xl4e8Yz8sf/RxC/yAEBsQlgHFFQMIxgha7AMD3joFIJ/vj/P/4DJQQQDfiTJKjQgjvAIwAqkOpKTziaNy/hTfWKhL6ibX0BUuGtXqgI5SjMbwVFJIspeEUWlhCEEO11QhG3x26AggIidgoXDnGlbXK6brhfVubnkdUapqzX3S6JIi9vLx8WXkYqLxOVmUZlpLHw0Zj5mJyvW1w/d/rZ9BMB3yZ1kdhDpLpOx0lVVU9dXU8ncJqAqUR2Wq+qgYHYQ6DAk4AkrtWZmNQl4XEIIoXdp+Y2FcDxz2dr68+fKipslAeK5ZIlx8YxXuAYlsrXAIFg5ut8sdo89peR0AH8e35xgQfzkq8TtEoQlLn/X0VOEQCRgJUxAGfjjQLpjD4+a6c3EIR2BEiNdgGKIRYIKu1mEdRGhSFotNuiKypjhEGVA6ROp6BYNg4qgx6A2oovZmMwnDOyrsT+BZPSNZo2JIP8A2W0XHo651907sbIbdlzIGa85BBNNKo+jRq06lN4jzynX6d0C0vzQVIQf4GkaPI4fN4u0qhHr1YatfaJIe8bngbsci8ZRwcw/4xQuiL122tHNA0AAAA=");
 
 export default Kazoo;

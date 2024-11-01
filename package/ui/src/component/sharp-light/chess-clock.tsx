@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-clock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-clock?s=sharp-light chess-clock}
  * @preview ![chess-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chess-clock.svg)
  */
-const ChessClock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M240 32l16 0 0 32-16 0-48 0 0 64 416 0 32 0 0 32 0 288 0 32-32 0L32 480 0 480l0-32L0 160l0-32 32 0 128 0 0-64-48 0L96 64l0-32 16 0 64 0 64 0zM544 64l0 32-16 0L400 96l-16 0 0-32 16 0 128 0 16 0zM32 160l0 288 576 0 0-288L32 160zM176 384a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-192a112 112 0 1 1 0 224 112 112 0 1 1 0-224zM520.6 360.6A80 80 0 1 0 407.4 247.4 80 80 0 1 0 520.6 360.6zM384.8 224.8A112 112 0 1 1 543.2 383.2 112 112 0 1 1 384.8 224.8zM160 240l32 0 0 16 0 48 0 16-32 0 0-16 0-48 0-16zm349.3 41.4l-33.9 33.9L464 326.6 441.4 304l11.3-11.3 33.9-33.9 11.3-11.3 22.6 22.6-11.3 11.3z" />
-    </Icon>
-);
+const ChessClock = createIcon("chess-clock", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABpgAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDIAsGAAE2AiQDCAQgBYMtBzIbogXIhofn9b7/tU8ySgZ3npgnqYJV6VMVzGq6z6KDOrHi/F/u+W26Dfj5CA5lNW0vGgvHmM8TCDTspWtagWRhlig2Ne/FQb6ukLaBPP6O0epI96VPcafzofGDnq4jyTMAUQPAgo1r1+j4Or6O+PT/t4hPrUJALASVQIYMfQSYLRPoI1chlwu+jv//Z/+BFQFEPe+BCeQo8QreB+QgacrzQU1NLb1pdnt7WdeSb5BHFlvLohRFIVpKkUIUrRFZRJRl9MludLdAY7tSltr6X966/p1xr4x9eeqbo18c89KUuHVIxFM973NVj3sHP1ncMvTpXvfH1b0fGPZMufuVfg9PfXv6i30fmvLWrA0vDIt4ZshTI56bJzHT8GehBE0jn4cStI5adwFcWIvwlu2ePW92lxgZ3WOePGtEdBn4fO35nwZ8euBTvzxSq9UqtfHzPVpVGLurErlqvvH9rlf6V565dldOnNyJz1c+/86vOi5s3HihI87t9zAPf/ddv37M9PDDUIL6smTTs9+88PGL7/dD2TfeuP5tPvCoxYsvmo6ur9Vgy9etR+DGe1VS17bh7d6zX3DA+9o9b73ngUAw+LN/Pt/ZNvuvxjKBb9//5Tfw6P+/Tlel59EogSAb/f9o29JVwIQBJFJcMHDkiwLJM5p479rsbgFCgQBJvUKATG81AXKFUQLU6WeKAPUKa2UibxK62F6CpNlpkJnqEsh18QaoM9sH8XpdIrtxNbed5rcx49I6tGRRNWHs+GpmNViTa+9FRc/Oqmabh1/gPSPgSgecdMI5++1z2Lkaf8aa1HnHLR0jl/ihygRjjVeZqVrdvG3aAMfPOOtwv379PLNU+/uHuzA+fAS0JZ7oRGuSRKRy76H9Z8+O+c4BAAA=");
 
 export default ChessClock;

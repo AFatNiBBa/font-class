@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sink` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sink?s=light sink}
  * @preview ![sink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/sink.svg)
  */
-const Sink: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 80c0-26.5 21.5-48 48-48s48 21.5 48 48l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32c0-44.2-35.8-80-80-80s-80 35.8-80 80l0 208-80 0 0-16c0-26.5-21.5-48-48-48l-64 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0c8.8 0 16 7.2 16 16l0 16L16 288c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0 112 0 112 0 128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-112 0 0-16c0-8.8 7.2-16 16-16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-26.5 0-48 21.5-48 48l0 16-80 0 0-208zM32 352l0 48c0 61.9 50.1 112 112 112l224 0c61.9 0 112-50.1 112-112l0-48-32 0 0 48c0 44.2-35.8 80-80 80l-224 0c-44.2 0-80-35.8-80-80l0-48-32 0z" />
-    </Icon>
-);
+const Sink = createIcon("sink", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgwAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCLwsGAAE2AiQDCAQgBYMtBysbKgXIjtRG90UGWePhe7voz33dq/HKvfIsoS9lUA4xlDO4cvVXJKQ7Bfb+96ee53xskGcUlLVo4qfQ2BRMuvZ5BSo2tV7glgtW0wpYzdO0oSlVslRUxPNxqvYfMmz/gDzeicm6kB5Mn+N2/dD41UC3keQZgGgBYPnenZt9WEYZ8XnnNeJzGxEQK0AhkCHDEAEWyQSGyBXI5YIyOp32H1gQQHQlZCLM0Wtdj1sAOUhSnu8aUe1Sz/dUu1TOPtw/4v5xz/a9d6C4t+/9/SMem/jSnFfHvzBEVCLioX73ja3EPX3u7VuNImFWHfLv61clDatB8TN97hmAd/YJj054cXZP3pj08vDg9xCPjH9hViVen/jSsIjKyJdaL/0+4vMzn2tenn3BN+32N19khUZZNgqx53SrdXpPfG2bluyLb9rLlI1GuSTvXmH+TapwhRYjUM47Ldt8/WezLfeaF/5V+uuFZluhfdEvseKfB4Hg+C8bnj7aXPR/92oCP779f/or6nyYpJfQXQJBNrkz2aEEEgEASHGdkQkCybUSKWruE4QqGCRdVSAzWAtyFZOgi2FmK6C9EyIj74H6OGyQ1FwJmTmuh1wfr0AXi3yUdtUnsvzTskf7/cte47HVp4rpU9vFguK1t/WUUsbhwgL2xl/HCxPKVWdc7jLXOO2U865x7FU2F9e61JoIX+2LCtNN1VZYoDge/zy/x2lXudp5l7tsHrNQcR+Nd128fkIJExGdwU2foJXyq89fdjEAAAA=");
 
 export default Sink;

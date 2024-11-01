@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `linkedin-in` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/linkedin-in?s=brands linkedin-in}
  * @preview ![linkedin-in](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/linkedin-in.svg)
  */
-const LinkedinIn: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-    </Icon>
-);
+const LinkedinIn = createIcon("linkedin-in", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYwAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBPAsGAAE2AiQDCAQgBYMtBzIbvgTIjpQuZyTx8I9dX/dVVfcAqpEUEYhARFCEBVOF/2zKaNPtCtmfunneeRTgG4UyNi5aIAtsz/MEEuvCBZJAFlhEeQLW3iJ7VI/LKJJMx0x6/EaPVwdkcT3OKJBcTX7G6XTT+FMDR0kUUgBRHQDDZ0yZ7FNZlEX8XHpD/GwiAmIEyAVSpGgswCCpQGOZHJlMUBalkv0H5gQQRXh+AjIUMBLjABlIpFlWrkbLSoUq2fRKhYqVzLo0Kg15VDfiUsPrbR+3ftjgSu0LrZatFiKuN7zW53X9Kw1ExRAIIePhxL6/dH6Za/Gs+rO//bz8Z0vnzZvX0bzfF/7DP8Wqt1++vF21+M8/C09Nmb7vnIY7d9bIHz2qcsE8Hc3WXjg8b331kbF8RpMHQCA4v//2mAXVBv1XvlIC/vj47/oNxZfkGcpLQJB2KnUyNz5R+j++CABAEtu1iE8IJAZK4VUruyRAqIgAiaKKAqQaqS5ApqKOAhQ01VuAooqmSEVWQahtXgeJyjaBVB/7QKa2V6BgkO+MotqRqhGlBNQnLn4MhUZP5d27dMsH5NtAozWD8MOBuVhot90V2sOi5TZYb6tlllplK0E2m2xvs84YDh7tQbnuuugmN0B+HD/OT7fMZlusssH6OGag/L7ezna+vj3ICUTtwZFIiKTS+8CK0nnVegA=");
 
 export default LinkedinIn;

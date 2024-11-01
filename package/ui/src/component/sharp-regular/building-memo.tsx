@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-memo` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-memo?s=sharp-regular building-memo}
  * @preview ![building-memo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/building-memo.svg)
  */
-const BuildingMemo: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 48l288 0 0 16 48 0 0-16 0-48L336 0 48 0 0 0 0 48 0 464l0 48 48 0 240 0 0-48-48 0 0-112-96 0 0 112-96 0L48 48zM216 88l0 80 72 0 0-80-72 0zm0 128l0 80 72 0 0-80-72 0zM88 88l0 80 80 0 0-80L88 88zm0 128l0 80 80 0 0-80-80 0zM640 96L320 96l0 416 320 0 0-416zM400 184a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM376 304a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm24 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm64-184l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32zm16 96l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0zm-16 96l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32z" />
-    </Icon>
-);
+const BuildingMemo = createIcon("building-memo", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABjAAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCZwsGAAE2AiQDCAQgBYMtBzQbawXIHgVuywOncJpHaCGE1iFUX0oRz/O/lt73ZzYwkJQcskLFwjFrINuVdYlqWbKQFTbG7KklUGjVmvXm4pDUhACeiBWQEYAKLdq4d+oryawaNc+9S5uDovhrEYQ25rQ11vMEAhxjUgllh2cninc07+FBDm0X2niDOr8za0B5XIAZ94fmA50rikEFIPMAwP7jfR1ojDJK5v5/kzltIJD9gBUYKlRYgoFdOMESfCtArRZG+f9f/A8kCJAxPqZ4v8YUZvEcUIOiq+vVk4jbcuugr4/p5OZ03/XSxg9oOilpgFp5Ew8sqDqKaS2xHHEM4ZRrXd+V9KmOvNBdm1/0d7b+kOmIBzoLhgRNK02To9Sc9ggZveqt9OPfYBHfDPl2Kfw0yn8A9Qzt/0q2bdr6/MrWjaPq6FYf5qh7p5Td3ejWPdSuP8rjSc/Y5/nLUCpVD0VpjpiVWlPrbsv9SqVnBOl1kkxdmN62pZAS9sDnAARh09WV4pRk16+JtoD375rN7BX8b5RhGRMKCNWW/1uMOzawqQM4Su4y4l9FUNzX8b+180BANAgoxjQCKotJMVBrbMbAwDIRDIxpHMZJPSkWmaiAonMDqOx0DNQW+QQGdvlzjlkUDjaZkMW8NIxXbUIrwyjg9VOSRvMKFrjRrf4ULZbZDzt1DrwWi7Zs2rdg3or9BmlXh+fAhuoUseIPkQAvP5JEm0t3kwct2LVnZVhs+yApdLzJ7nC6tQMreXyaW2UVhZT+7BV7fowLAAA=");
 
 export default BuildingMemo;

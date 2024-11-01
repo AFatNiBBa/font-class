@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-exhaling` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-exhaling?s=light face-exhaling}
  * @preview ![face-exhaling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-exhaling.svg)
  */
-const FaceExhaling: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 32C132.3 32 32 132.3 32 256s100.3 224 224 224c40.8 0 78.9-10.9 111.8-29.9c7.7-4.4 17.4-1.8 21.9 5.9s1.8 17.4-5.9 21.9C346.2 499.6 302.5 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0C391.7 0 502.7 105.5 511.4 238.9c.6 8.8-6.1 16.4-14.9 17s-16.4-6.1-17-14.9C471.8 124.3 374.7 32 256 32zm.1 376.1a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112 56 56 0 1 1 0-112zm60.8-89.6c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2zm-121.6 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2c17.6 23.5 52.8 23.5 70.4 0zm299.6 49.6c26.1 0 47.4 19.2 51.3 44.1c17.9 10.3 29.9 29.7 29.9 51.9s-12 41.6-29.9 51.8c-3.9 24.9-25.3 44.2-51.3 44.2c-14.2 0-27-5.7-36.4-15c-2.2 .3-4.4 .4-6.6 .4c-27.3 0-49.4-21.1-51.7-47.7l-60.7-18.4c-6.7-2-11.4-8.3-11.4-15.3s4.6-13.3 11.4-15.3l62-18.8c5.5-22.9 25.9-40.1 50.5-40.1l.7 0c9.4-13.2 24.7-21.8 42.2-21.8zm-18.6 44.9c-3 7.7-11.2 11.8-19.2 9.6c-1.6-.5-3.4-.7-5.2-.7c-10.8 0-19.9 8.9-19.9 20.4c0 7-4.6 13.3-11.4 15.3l-21.4 6.5 22.1 6.7c7.8 2.4 12.6 10.3 11.1 18.4c-.2 1.3-.4 2.6-.4 4c0 11.4 9.1 20.4 19.9 20.4c2.5 0 4.8-.4 6.9-1.3c7.1-2.7 15.1 0 19.2 6.4c3.6 5.7 9.8 9.4 16.8 9.4c10.8 0 19.9-8.9 19.9-20.4c0-.4 0-.9 0-1.3c-.4-7.2 4-13.8 10.8-16.1c10.7-3.6 18.5-14 18.5-26.2s-7.8-22.6-18.5-26.2c-6.8-2.3-11.2-8.9-10.8-16.1c0-.4 0-.9 0-1.3c0-11.4-9.1-20.4-19.9-20.4c-8.3 0-15.6 5.2-18.6 12.9z" />
-    </Icon>
-);
+const FaceExhaling = createIcon("face-exhaling", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAABwwAAAMEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDUgsGAAE2AiQDCAQgBYMtBzQb1gVRVE6iZB+JcYziDV8itAc2QUR2/VfPzlmP+wEjlSMhMnE/XPPvDStKMKxT+KY7XbfNptm/dCD/f675/IAP8IufH0o0VoLcEvdGmQKJE0lvHw07hG2D8yYfQkgK6ekToOWO5McCaok6C8zK9krekGA6KLQBAID4AQCAKq2aNeDgQ3kocja5DeQs9QABkKoAmAhgwFWkIQCUx0CANDQmoNEIPJRkkv8HmiAAIFb8+RQAGnAAJ4Dr0L0QUNi0LubwhAK58rksHt3SZXG2O1pb5GRhkY3m8oJtYT/VONSrsErMq+e34b3quuVftU2jR6ufOqcqqxYos8D+db1b4iaCunrIralgpKtxp8oxvy5oaPw1AgAmWBk1xRf0ZU5RhJfEGMFGJEcsgBJvJmpqq8xir8CO1jFml/kOKLMrHCc0OBUCARoaY5Fdxg+5RaYSVFBiokhNhXEqrBJhIshDnnO2UM4EYMTkRsnn1Pm/7Jq7kux8RAjGNcKLTH6tjaLPU7jDIkvUS01qMWVOIk4tasV5c6bUojoTJ0WUuprvki/D1ubV7bYyukmE1SSKbfzR+eaN8+PH32je3x/Lt74YgcjFpcfXj5+RPfuM/uu3Lx1bM5ccXzpGsOfMV7jwHbiT9aBSB7PeuRuO3i9sVL77LrSZFS7nyssUuX06JDxdlr/dIb/hD7rmtaAlR9OUCgZ0ls19Wrv8QRHXKouhrCvdIoHAwXYAIIDA478VDnfylf9mdykAHu/+8I1s6eRBVVltAOwoAASM/Mn8tFeVAVi3ALCAkpFknfghARQHsOF7bhZuDQlOqEBhxQkGqfhB4yQfWMigBLWwfzMMRDsQwnSAoHAzBAxKMgE0YbaAhfKc8K2ExbiimeuR+Z5MrNlEavQybQULm2XN0YSCvUgp3VjOXCxpR/KCPHAMPRnEQIbTg+70yYgGOpQGoREMoOYUtsZ3TYpQkMKYlMXcnL4rtsSBoQyjzzC7vRnKYR7v5WbkdPk8UFX4uEWJUygQ5XldugpkR/fu8l9MAAA=");
 
 export default FaceExhaling;

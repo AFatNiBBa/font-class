@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `buoy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/buoy?s=sharp-solid buoy}
  * @preview ![buoy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/buoy.svg)
  */
-const Buoy: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M416 0L160 0l0 64 25 0L133.8 320 64 320l0 70.9c3.8-2.6 7.8-5.5 12.3-8.7l1.1-.8L96 368l18.6 13.4 1.1 .8s0 0 0 0s0 0 0 0c13.9 10 23.6 17 35.5 22.5c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5c0 0 0 0 0 0s0 0 0 0l1.1-.8L288 368l19.7 14.2s0 0 0 0s0 0 0 0c13.9 10 23.6 17 35.5 22.5c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5c0 0 0 0 0 0L480 368l19.7 14.2s0 0 0 0c4.4 3.2 8.5 6.1 12.3 8.7l0-70.9-69.8 0L391 64l25 0 0-64zM325.8 64l9.8 49L288 168.5 240.4 113l9.8-49 75.5 0zm21.8 108.8l17 84.9-44.9-52.4 27.9-32.6zm-91.1 32.6l-44.9 52.4 17-84.9 27.9 32.6zM221.3 320L288 242.2 354.7 320l-133.4 0zm51.1 173.1c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9l0-64c-19.3 0-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7C38.6 441.9 19.3 448 0 448l0 64c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9z" />
-    </Icon>
-);
+const Buoy = createIcon("buoy", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABtQAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDfwsGAAE2AiQDCAQgBYMtBysb+gXIhof/16Xd9yWTxkGWHSBSHKZFxAqZWqz2uJyJa+rH+VOB1BoH+kOLTK7gjvMJ7Pxx0dS0icwGNp2gTTe1enhXKEgpIi4Mt+MZeHw7Qx4/ZRdoIN2aPsbV9qHxlwEuIGnJAER3ACzZuXW913+P3yM+qj9DfGQtAmIJKAUyZBgswAKZwGC5Erlc8HvU6/IfWBJANJrXJZCjGT/jP6IS5WrM8/1rTZyzudbQJd+xNhcHt3ZpFbXYFkWIm/updL8YHSOjT5xbdk+fe0beN/rm0V4NG4sufdGNfSKK2BG1iG1t7W1VdMTwqG3fvmN7R4zfVi2tdsbEbTt14fYott/c78Y+9yx/b7TFI+4dRcRNcW7BuKz3Ze4eoQ0yN0Xg3LgJwud6RVVuj7c/2P3Bf9o+Puhjt72GygDT6lZYaVpHdGeCsvgtkzpXTZmyqnMSABMsRJaFaWLb1pVWPJkzQLXr4mumvZPyX2NdnyO6b8t522u7D3ua5LvE7e3HdqznhS6a9vD5++9//n8p/WdXVT4/ffUQRESIGLL69M8Dm1MTgxTExNWHf16pyvl5IBA8cfzFP+zdbcH/zbUE/nzxv3/G4+qvpyo9iGYJBNmE+gR7pApEMoBkipO0Aw4Dydc+2ru2ukmAUCBA0qgQIDNIdwFyhfECNBhqpgCNCltlIm8RetvzkEmrY8nMLGeSud6eIhss8F6iUe/I+lzdperfzAwrPLx8Xjl10pRyXnlZtTWtq4TT88vbjjEnha6xtMVBjnaUExzoAIea3KHHWZ8+0ZFWIGS5LypNNckUpXnKcuNo2OESxzneobmuPst85fuRMU7Cg8cSNwkwrUOAVBgp3+/Eo08FAAAA");
 
 export default Buoy;

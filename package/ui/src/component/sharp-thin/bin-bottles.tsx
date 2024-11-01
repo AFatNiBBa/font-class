@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bin-bottles` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-bottles?s=sharp-thin bin-bottles}
  * @preview ![bin-bottles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bin-bottles.svg)
  */
-const BinBottles: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 0l8 0L504 0l8 0 0 8 0 24 0 8-16 0 0-8 0-16-96 0 0 16 0 8-16 0 0-8 0-24 0-8zM575.1 192l-16 0c0-1.3 .2-2.7 .5-3.9l0-83.8L507.8 80 387.4 80 340 102.2l-18.2-9.1L383.9 64l127.5 0 64.3 30.1 0 81.9 0 15.9c0 0 0 0 0 .1l-.5 0zM352 192l-16 0 0-38.1L252.2 112l-120.4 0L48 153.9 48 192l-16 0 0-48 96-48 128 0 63.6 31.8s0 0 0 0l16 8s0 0 0 0L352 144l0 48zm256 32l32 0 0 16-33.8 0L576 512 64 512 33.8 240 0 240l0-16 32 0 16 0 .1 0 543.8 0 .1 0 16 0zM49.9 240L78.3 496l483.4 0 28.4-256L49.9 240zM136 0L248 0l8 0 0 8 0 40 8 0 8 0 0 16-8 0-16 0-8 0 0-8 0-40-96 0 0 40 0 8-8 0-16 0-8 0 0-16 8 0 8 0 0-40 0-8 8 0z" />
-    </Icon>
-);
+const BinBottles = createIcon("bin-bottles", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABigAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiDHgsGAAE2AiQDCAQgBYMtBzIboAXIjtMF98oiL4mIXldvz5N2S186eCaWiWHvTES5M8odXTlzBhQR5MDRL4fAW7XvU6ee5zwUwOcQBGWsfT4pIJ3rvAI9r27tpgVeK1hNKuC1zYYIVxCOgY8xhgwUqXp82uPbpyO0+cf1JpRXyqd4oXxo1tvC8xRNAyAVAMevXni2977P98knc+QTZyKQ48EoaNBgawFHaQRba41otcL3mc/xHzgSIFP1JxbQosNreAfQgmLatttss+NW63YcJovtyjDpbxr6QUT6JEk/bs2sH/pnNkvOSJ/DskvOzJBZRJ5J3ztBsgLlonS6miGnE87SJmqZXVztc3GWcqmfDUOy3NLbZyuzxbSztPq4OKR6e5H7JIEDd1ira79u/+mNn3rq3a57urO5TlXl6kbNr3vn3VpryUUO9YhfbO5rTzluGxeoyHe11l1cuLuHywG7qPZz1b6eNgd/8J795tuN41jtYJtlaP8OqrEyou69vNV813+m+209e/fdD3d203VVt3kXrzYECJE6vh8Iwvu3ffXpVctH/dYNBfz4xvW43fy98nRZQ6eA0Ow138vl5WkAOkBe8qAdgiUGxavewbsueFFA9AgopnoBja1UAa3engImtnWwgKnehRpp14mNXTFAseAe0DjEE6C1sdfBxFE+yKY2TrNu6VVHfzUmnGKhkxeN+++z33jE6NZ0ZimSx+yRY9rY7cGtZ3fa6UZ3udP9bnC9W9xvkHudXT7gDqdE8Mm+aLS/fexndITxdPN584ob3Os+t7jLnTLPkcb7k908GA/fneyiYh5gVVFIGa695c7/Poa333AfAA==");
 
 export default BinBottles;

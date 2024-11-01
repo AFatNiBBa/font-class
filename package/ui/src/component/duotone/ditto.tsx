@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ditto` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ditto?s=duotone ditto}
  * @preview ![ditto](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/ditto.svg)
  */
-const Ditto: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M0 96l0 2.3c0 3.8 .3 7.6 1 11.4L26.5 256.5C29.7 274.7 45.5 288 64 288s34.3-13.3 37.5-31.5L127 109.6c.7-3.8 1-7.5 1-11.4l0-2.3c0-35.3-28.7-64-64-64S0 60.7 0 96z" />
-        <path d="M192 98.3V96c0-35.3 28.7-64 64-64s64 28.7 64 64v2.3c0 3.8-.3 7.6-1 11.4L293.5 256.5c-3.2 18.2-19 31.5-37.5 31.5s-34.3-13.3-37.5-31.5L193 109.6c-.7-3.8-1-7.5-1-11.4z" />
-    </Icon>
-);
+const Ditto = createIcon("ditto", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbgAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBQwsIAAE2AiQDCgQgBYMtB0Yb2wTIPgzwZP6haiCQPQxRLFOlIi1qxrm6OS+fxet/AyUevvZ7PXd33wsA+kShArTIBZaso4uOpf1GZGo7NWhs3j9i9ohJhQRJNm8ubY2Q8DiTtrV5W6mEsrhMAwSAoIaW3C0NEk0T998+mWn/2yGCg0XxvSfCl1mFzF+ceh7bFMA3CtqeFpAFPud5BCLaZTUoeIEqXgCsW81d7YNS2k9aFyyWx88eP08ocZg7qEi/aAP4Vl44/mHSIWnJAKIbALBx1mzgZ9JEpPERDeogIDYB0wgyMsYRsIwjMI5rGhRFcE+nc0/CP98ggKiRfmEGNQq2wQ6AApIQpUzaJVVHOW3jtV4F4k/42X8bfDSB3Glb9bV98Uf9UD/TkGThbqDdQDeQfDKMDLONSMTv0JPvJvBgdD0pn/6Y7xvR1NqjurhQJU7qariL2Y/p/PmQqYuq9jDRVFcjXYyP0I1hcvA5IBD8f3Gl8s8J/H27fotiPT2BZgkEeXa6pTgDYh0BAKT4wNW6H0Agm0Txo3bfBQitCCS1VsjGKKFoNQOVSdnHtVZHOKK0CP2WBZJ2ryFbcg5Fv1eoLPuNa/1lV+Idgf/JpdQQqZ6xxRKsxJa5JngHm/dltu30LPaCdBFr9u05sWrFphOgjzSyU7tqGlX1RkxSTAJTwszVvTID8ZFjm3PJfqSM3Y8CzvTpIPkUM855mGUiRe54+urkZD/6JHUFSE8PAA==");
 
 export default Ditto;

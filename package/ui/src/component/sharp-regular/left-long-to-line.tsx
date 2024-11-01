@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left-long-to-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-long-to-line?s=sharp-regular left-long-to-line}
  * @preview ![left-long-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/left-long-to-line.svg)
  */
-const LeftLongToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 88L0 64l48 0 0 24 0 336 0 24L0 448l0-24L0 88zM336 232l-48 0 0-48 0-20.1L195.9 256 288 348.1l0-20.1 0-48 48 0 256 0 0-48-256 0zM128 256l33.9-33.9L288 96l48 0 0 40 0 8 0 40 48 0 208 0 48 0 0 48 0 48 0 48-48 0-208 0-48 0 0 40 0 8 0 40-48 0L161.9 289.9 128 256z" />
-    </Icon>
-);
+const LeftLongToLine = createIcon("left-long-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYgAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBXAsGAAE2AiQDCAQgBYMtBzgb5ATIrgfMw5H4C6GBjBs3bKFoLOY2L37E39hyzURQv/bZM/v2YP8xSQTFEjnCxEa4Ey6OpEYVn4qNEfGf38+du/fnEt/EPG3NDde2Rqd0KqHQtGWSNrNqhNIMAP93jNNrkQFXWgca/IZgqW1XIe8dcKELbuKa+qV/Tw9SRo8STZUrLppFhJbAwNc+nFDZcDahCfGsnZ3kB9Ftkj5FkmF7wyhXKPHtavJrwsf8pvHPuAdSXQEg+gAAx0+9Bl5W+Pwf8c0ZCIhjwBxChQpTCOxhAlMEc6Aogj98+A8UBBBt4F0kKKhxA14BFJCqIujNTmWtFoatWsEI0SJEEqIhIrbVtBxB/XiIHUo1kap/uFcdrQBYIGq0UZ2lYRw4nmjC+zGWxWDTZoPw6tHIwmT2TmKTmM/gl+PJzRDjIzMvBllzgx/QAwSC9t+PX2n3vkAR4G+XG/ItQ4cEQbX8r3m+xWWBRTLuOfBBgXSCwat2+SRAaBAgtWkEqEzSIVA0lhCozUgj0KZxh4kiRxiyaHTq8oGu7NrQxZBnurbnNdtmKCqzEo1CfNSl1TVc28Y3IjFe4MOGKlkKHxeLfNmcv5cBPy5i34Vzt/bsOnKr8GuNwp0z9RlW80VcXEQMV8C32/enh/Zcu3HkwnnapIifT/rcz8f74YiQcVNJSiL1N00P/6ewGrY9");
 
 export default LeftLongToLine;

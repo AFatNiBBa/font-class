@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chimney` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chimney?s=light chimney}
  * @preview ![chimney](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chimney.svg)
  */
-const Chimney: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 64l384 0 0 64-16 0-224 0L48 128l-16 0 0-64zm0 96l0 112 0 128 0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 96 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 80 0 112 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64 0-128 0-112c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L32 32C14.3 32 0 46.3 0 64l0 64c0 17.7 14.3 32 32 32zm352 0l0 96-112 0-80 0 0-96 192 0zm-224 0l0 96-96 0 0-96 96 0zm16 224L64 384l0-96 112 0 80 0 0 96-80 0zm112 0l0-96 96 0 0 96-96 0z" />
-    </Icon>
-);
+const Chimney = createIcon("chimney", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdwAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCHwsGAAE2AiQDCAQgBYMtBy4bHQXIHomx7YLtizNNaMREPHzMle8nOcoelTitAmIS7mxBrysKT7ZTWb3F+57gugET1+TPXGI0zTXaqkEKPPN8AjvP4KYJzQY2HcEEfLuzWW1J5BGSiLQcl3Z8zpDFu+iviuRN8gOPwpvGX51cJ5GlAKIZAFNWLVugLH5F/Kh8JH6Yh4CYCgqBFCm6CjBeKtBVpkAmE/yqUqH/wIIAolr8JQnIUItjOA3IQKI6y+rG19WV6kpVDdnKUlW+rqG+QeT1QRDiRbtXHSJKFSk5QHmvw6tIXGn/8li42/b5icvtXpQahDyPKOUFCP+K3DplVoMHIBb3amlu+dfzx84fely6HE0naz48efPh7ZdN1vjrV+Ngmw129OLDqskuO4zfvu1IzZe9bzOaH168WdlmU5ttbvp5OLjZhF18+HkgEDyv+LSpafz/2lIC/vx/flxF5aQFtRIQpP0r/a2PMpBlAF8piZN6RRmBxD7V8FXrvRQg5AiQqJYLkOqiWYBMrp8AVbobIUC13DKpyOqEtjY0faLeEX1qpAv6TFvv9VXG+5yt1jZSvXNqjfPbl29mD80YVwwZOLgYWyyLqkuV7G54XHEc6H2Sm/rAUTsdctBxO2y3x/FOdtSCwgkHzNxxM3xQYYiBBiuMVYgrj76VqDrqmD0xB+WjjFPcz/R2ct+5D0wiAQx9MTuviKRm2+49Bw7uOAMAAA==");
 
 export default Chimney;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `piggy-bank` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/piggy-bank?s=sharp-regular piggy-bank}
  * @preview ![piggy-bank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/piggy-bank.svg)
  */
-const PiggyBank: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M209.9 96.5c-17.3 1.3-34 4.8-49.8 10.4C162.8 47.4 211.9 0 272 0c52 0 95.6 35.4 108.3 83.4c-6 3.8-11.7 8-17 12.6L334 96c-7.1-27.6-32.2-48-62-48c-30 0-55.2 20.6-62.1 48.5zM376.4 176L224 176c-61.9 0-112 50.1-112 112c0 36.6 17.5 69.1 44.8 89.6L176 392l0 24 0 48 48 0 0-16 0-48 48 0 48 0 48 0 0 48 0 16 48 0 0-37.4 0-27.7L440 385c13.1-7.6 24.6-17.8 33.7-29.9L488 336l24 0 16 0 0-64-28.7 0-12.6-28.8c-6.1-14.1-15.1-26.7-26.2-37.1l-20.6-19.3 6.9-27.4 3.9-15.4-2.5 0c-14.2 0-26.9 6.1-35.8 16l-14.3 16-21.5 0zM448 96l14.5 0L512 96l-12 48-6.8 27.1c15.8 14.8 28.7 32.8 37.5 52.9l45.3 0 0 48 0 64 0 48-48 0-16 0c-12.9 17.2-29.3 31.8-48 42.6l0 37.4 0 48-48 0-48 0-48 0 0-16 0-32 0-16-48 0 0 16 0 32 0 16-48 0-48 0-48 0 0-48 0-48c-37-27.8-61.6-71.3-63.8-120.6C28 290.9 0 260 0 222.6c0-27.8 15.7-53.2 40.6-65.7l4.7-2.3 21.5 42.9-4.7 2.3C53.4 204.1 48 212.9 48 222.6c0 12.6 9.1 23 21.1 25.1C87 178.8 149.6 128 224 128l152.4 0C394 108.4 419.6 96 448 96zM424 240a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const PiggyBank = createIcon("piggy-bank", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABngAAAKuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDHwsGAAE2AiQDCAQgBYMtBzEboAXIjsN0iz0fSDYnSKbgn9Jp769kT7JKWA6gcgDIFQJUhC1wR1DemSB3V0CBZhJommjzPNbmBfogXZyqGeeh+HzLIAjaWt3Wi7dbg53rvAIVWzwmRTvPi7WKYtXpyI71GJsBBZFSChYpHmc9LrfA1UutJgRmi3kErFofqs9kWgKGkAMAgJIAAICGvXNbbr/TO+lh9ALoIa2BANQQgIAAB3CAHAKgDgcBOVwC4OIieKdotP8HBiAAUBgeZgBwgTBwDrgKPgcGF+H0+m1ivVC82+2I0PbeX2RX6WPVL5Q8krvet9qadtAuLbI/o6v17PkSh3P21C0qhDxhxvOUKq5D2dmIF7LK0tZipSR2Oq7Z7/uy3T3r5ShDRzI9IYSsPVzidMWqFcLmjpY6mndwe4esXbXTVVa+1vtbiu6rf6u5p2PVuxzI3FzkYNa24oWOJh39Wh8Ne8TzfqtnlP339dmEO3fWrWm5dPnx6enxcU0PtNvMTT/if2LG7rJkqKCCpOkNuV1ROeaqfV6QURqQ6zrrEysxWj0OHd5bIq19YmKDW4wy7ZalggYqqFBqni6azyYRiN7s4aNwPiEhcs5J9XKGVKSXhu4kphb5tGAv2MzN0+mrOkYiHXc+AOiw+nN16f6Jdf7GeAaAD1cjaCdHb5sG5igQgwFA4JSJlqFPbgDQpQKAotE0CgVfJMBwDBcGcWzMloUFBUMYCw7ZksDFUhpC5Km6RRhLZw5yYxG+vhQMcUwEh2rmgovvHISo424hjJ+cutWqTvttzG5m8aaLgorlKgS1gtuaSy9FZczWDh4nS0yTnpJYyzDjjTPFUEOMNMWQk7QtTzVWs4ho6ocCFZVTQaCWIN3cL+9mqEkmG2m8cXOe2oL3gxKmxcNLImOgbCUbDAZk7ISRw4fPLPudAQ==");
 
 export default PiggyBank;

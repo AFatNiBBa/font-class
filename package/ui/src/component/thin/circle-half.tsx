@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-half` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-half?s=thin circle-half}
  * @preview ![circle-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-half.svg)
  */
-const CircleHalf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M226 17.9C107.6 32.6 16 133.6 16 256s91.6 223.4 210 238.1c6.7 .8 14-4.7 14-14.2l0-448c0-9.4-7.3-15-14-14.1zM224.1 2C241.6-.2 256 14.3 256 32l0 448c0 17.7-14.4 32.2-31.9 30C97.8 494.3 0 386.6 0 256S97.8 17.7 224.1 2z" />
-    </Icon>
-);
+const CircleHalf = createIcon("circle-half", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABWAAAAHgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBIAsGAAE2AiQDCAQgBYMtBzIbogTIjpQuZyQRRGv/Vj27AeANESlgckSOQFgAUoj2JzYH6s6+DAHTvzj1PNNCAXyjoKxBUwOyAPc6j0DEerUxrSQFq2kFrLbNFMGGMlwjjqCIaFjCYf2/QR6PLFeOdCG9w7H6ofFHIwdJsgxA1ATAyFnTpnpeFmUR70p3iHcmIyBGgUIgQ4amAgyRCTSVK5DLBWVRKun/X0EAUZ5HJJBLtBtGAZ5IkvK8Vr0q5arlM6uUqzzv2/QINr7P0NPONMjibN365+pFnJFib93T9X/MJPLnrBNbXax58W/vVr7z68rcqgNHMmhELCDW2M7iK9ebP9f8eotPRzlS/bnqR45+qtrQscPGxjJhhW0svA8Egv//6jxgUY0h/1WsksDvh/9efkZKL6JXuoiKEgiyLqUu5icYE70EACDFTq0SBJJ2Ej+9qrMChMoIkJQHSSHTRE3IVdYZymmu7w3lVTZNJvJKQl0LECRVbYFMP7sgV9ctKGeIl155dSMLHPHZxc+2tHGGjN0renbrUQwqpqkmxQKf14OLbbPDztTqyEettMlG262w3Brbgd5qarjDBuNW1FhfVOipmx4KgxTHxePhmVbYaps1NtloWwYr7rsd7FwPd2QnccZeIkkiUpX/a/SuMQkAAA==");
 
 export default CircleHalf;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-left` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-left?s=sharp-regular turn-left}
  * @preview ![turn-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/turn-left.svg)
  */
-const TurnLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 248l48 0 160 0 48 0 0 48 0 136 48 0 0-232-256 0-48 0 0-48 0-20.1L67.9 224 160 316.1l0-20.1 0-48zM33.9 257.9L0 224l33.9-33.9L160 64l48 0 0 40 0 8 0 40 48 0 208 0 48 0 0 48 0 232 0 48-48 0-48 0-48 0 0-48 0-88 0-48-48 0-64 0-48 0 0 40 0 8 0 40-48 0L33.9 257.9z" />
-    </Icon>
-);
+const TurnLeft = createIcon("turn-left", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABXAAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBUQsGAAE2AiQDCAQgBYMtBzAb0QQRlZoPyH4mmOfdlCV0osVB+bwDPWFoDI7Ew/dzn+e+5C9yOVMFlAKRAia3ruTqgP3aEjo0ZqeKZfVPZkiYAOgQmLx3E9c8/7SnP0+jR4rESpAo/KdY5fkEJjoftcBuNrCZTsD2tuExwiMdiZBKi2hMG6sz5PE2ViHdS3BLPjT+GOIqSSUDEG0AWLJ14wafBmMw4nv1ufhuHQJiCSgEMmQYLsB8mcBwuQK5XDAY1Sr+BxYCiBr8EgnkyLEemwE5SFKeDxnfWGnOtzRWGrY2NjQL0RgRTQ0REZtiM9UWLli4KLYOTWEKK6FoQC1E0pfHltEDbQP/cMSTz6Z0U+knZanLzp2l1qXsr2/Hpv5+pTHqMlEq/UTLfeg2Tnluxi08DwLB42+9t3X+/7rGBH68efIrqg4maQB1EgiyCdUJuxJIBAAgxRWjEwSS5RJ+1ya3BQgNCJDUaBAgM0ybALkG4wWoGGmGADUabJSJvF7osrsxSZPzTGamfibX5SlTMd/npEZXZAElhoP4n0sDKzWw4lgxZVJZzC3MTpVihKf9ecW2PuZKmhsLJx05e+bS4UPHLyn8wob88umVHrbii8WUSWUxtzge3WtbFHHh4nHnzPkh84r78Zgr/uqxYCXMOrWVJCLVx7Dw1AAA");
 
 export default TurnLeft;

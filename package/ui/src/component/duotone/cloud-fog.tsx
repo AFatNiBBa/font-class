@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-fog` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-fog?s=duotone cloud-fog}
  * @preview ![cloud-fog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cloud-fog.svg)
  */
-const CloudFog: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 392c0 13.3 10.7 24 24 24l528 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 368c-13.3 0-24 10.7-24 24zm64 96c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L88 464c-13.3 0-24 10.7-24 24zm208 0c0 13.3 10.7 24 24 24l320 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-320 0c-13.3 0-24 10.7-24 24z" />
-        <path d="M64 224c0 53 43 96 96 96l320 0c53 0 96-43 96-96s-43-96-96-96c-.5 0-1.1 0-1.6 0c1.1-5.2 1.6-10.5 1.6-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28C320.5 24.3 283.1 0 240 0C178.1 0 128 50.1 128 112c0 7.1 .7 14.1 1.9 20.8C91.6 145.4 64 181.5 64 224z" />
-    </Icon>
-);
+const CloudFog = createIcon("cloud-fog", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABgAAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBbgsIAAE2AiQDCgQgBYMtB04bDgXIhuB5u/+qc2//N4B6YEYSMiifiYhVLxFNtmAMpkK6b+Ka+mFN781P8CjVa51H4jDzfAITSYumBp3QdIY2a2cHUSKL4UNEkmF7w2hxgCINzJc1kG6mz3Al/A9g/KKLyyRNMoBoDYDZa1Ys8vTH+DHFZ/W3iM8sREDMAaVARkZ3AabJAt0VShQKwY+pXufHqNdLAoiagGRBTYDrN90KKEASclEMbYFUs4YWxWq3UdM1dwdHvDC+Rbw79MVe94ZUEy40tbHrQSVvDbo1oGqa6Oe7n+/wpKxz3OzfKp7r1km1jCedVxVwM7Ap0AxuATbfuE/Vuvqt92e7PzPzh8YV1flZzldVYyXTG4To1DhW72q9dP/X96/2/vOP/1s16/Jxp86tTOqwrLVlHVJk5hYDHtVhf6XBWTpuBwJBh5WnXtvSatp/jZsl8PMHf/wjr1d/ms6nCo0lEORh9WE2pvMAcQA/KsVpfdJ5sxDIhsripzZ3TYDQFAGSmqYCZN20FqDQ1FABGvQ0XoCaplbIomgitLcpC0lzx4RsgjNCob03hQbTfJipaR+ZwXT20J93OQtqeP6scvSIUeWUclhBBs+obnJquRwddNp0DMZaux1x2Em77LTPyYo6blH+lEMWzMj5vqg02gijlKYot+u3y1fb5bgT9jnisJ9mqvJ8cpDT8/6DkUii5BhzskykyG2+GswP331kz/Cb2tGuse4kAA==");
 
 export default CloudFog;

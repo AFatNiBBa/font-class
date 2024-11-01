@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `subtitles` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/subtitles?s=regular subtitles}
  * @preview ![subtitles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/subtitles.svg)
  */
-const Subtitles: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l448 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM120 240l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm256 0l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zM120 336l80 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm160 0l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const Subtitles = createIcon("subtitles", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABfwAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCDgsGAAE2AiQDCAQgBYMtBzAbDgXIjsJx72SLxRSvUqIiyLf1Wf1mdvWPeY6Zo8suJ2CbMwxCXDm1HNqRpU3mr/f5v+bze350gJ8P+PjQoqwaJBIoV+UNtufD9qa92UBmA5sobnc2E4dojySkjKRfLcfnDHn8GqeVSFcSnApfGn9r5SRJKQMQDQEwcfniub6vRCXil+oH4hezERATQSGQIUNbAcbIBNrKFcjlgkpUq+Y/sCCAKKOXJZCjBrtwAJCDpJznDVvXp3fWKdXLl9Up1V59vmmKC83qxaUWWVxsXnfKtd4Rz7rXiwc9n7RKcbnH4y5142Gvp62zpXVq13nQ6nKX2vVq62vd62nsEmydizo9bfj0n462MX5/pf4E9SvfS8eqtRvR6Pb3bjdqVHsCYI1x/NRryixs1mzha1GwAAgvLaAmq9Wdt+eeBwLBiK9//b8GY/6tqZPAX1/+Hz6uWkkT0lPUSCDI+lT7WJMmAKID8FMc04nZYCDZ5O4+ta6LAoTaCJCU1RYg00ZDAXK19RagpL2hApTVtlgm8lpCU2sLSOo6CDLDnAC5pt6BkjF+8MqaRiZvlLRQv734aS00dV0xsN+AYlQxzGVahAg3PrpYFnscs2094aRt9tvniK222OlIgxwyNzxqr2kcPNUPFQbqZ4DCKMV2dX94ma0OOWyn/fb5aUYrzrs9HON79wQlIdxBtiWJSLUOH930yAAA");
 
 export default Subtitles;

@@ -1,15 +1,13 @@
 
 import dedent from "dedent-js";
-import { mkdir, readdir, readFile, rm, writeFile } from "fs/promises";
-import { basename, extname, join } from "path";
+import { getFontFromIcon, getIconsFromFont, type Icon } from "./parse";
+import { Font, FontEditor, woff2 } from "fonteditor-core";
+import { mkdir, readFile, writeFile } from "fs/promises";
 import { pascalCase } from "change-case";
-import { parseSvg } from "./parse";
+import { join } from "path";
 
 /** Regular expressions that tells whether a string starts with a digit */
 const REGEX_STARTS_WITH_DIGIT = /^\d/;
-
-/** The string that joins each {@link SVGPathElement} of an icon created by {@link svgToComponent} */
-const PATH_SEPARATOR = `\n${" ".repeat(8)}`;
 
 /**
  * Sanitizes a name to be used as a TSX component identifier
@@ -21,58 +19,54 @@ function sanitize(name: string) {
 }
 
 /**
- * Converts all the SVGs in {@link source} to TSX components in {@link dest}
- * @param source The source directory
- * @param dest The destination directory
- * @param nameSpace The name of the current directory
+ * Creates a directory of components from a font file
+ * @param nameSpace The name of the font
+ * @param source The path to the TTF font file
+ * @param dest The path to the output directory
  */
-export async function svgToComponentDir(source: string, dest: string, nameSpace: string) {
-    await rm(dest, { recursive: true });
+export async function fontToComponentDir(nameSpace: string, source: string, dest: string) {
     await mkdir(dest, { recursive: true });
-    const files = await readdir(source, { withFileTypes: true });
-    await Promise.all(files.map(x => svgToComponentEntry(source, dest, x.name, nameSpace, x.isDirectory())));
+    const font = Font.create(await readFile(source), { type: "ttf" });
+    const items = getIconsFromFont(font);
+    await Promise.all(Object.entries(items).map(([ k, v ]) => fontToComponentFile(k, nameSpace, v, font, dest)));
 }
 
 /**
- * Converts the SVGs in the current file/directory in TSX components
- * @param source The parent source directory
- * @param dest The destination directory
- * @param input The name of the current entry
- * @param nameSpace The name of the parent entry
- * @param isDir Whether the current entry is a directory
+ * Creates a component from an {@link Icon} and writes it to a file
+ * @param name The name of the icon
+ * @param nameSpace The name of the font
+ * @param icon The icon to convert
+ * @param parent The font that contains the icon
+ * @param dest The path to the output directory
  */
-export async function svgToComponentEntry(source: string, dest: string, input: string, nameSpace: string, isDir: boolean) {
-    const sub = join(source, input);
-    if (isDir) return svgToComponentDir(sub, join(dest, input), input);
-    const name = basename(input, extname(input)), output = `${name}.tsx`;
-    const svg = await readFile(sub);
-    const component = svgToComponent(name, nameSpace, svg.toString());
-    await writeFile(join(dest, output), component);
+export async function fontToComponentFile(name: string, nameSpace: string, icon: Icon, parent: FontEditor.Font, dest: string) {
+    const font = getFontFromIcon(icon, parent);
+    await woff2.init();
+    const buffer = <Buffer>font.write({ type: "woff2" });
+    const url = `data:font/woff2;base64,${buffer.toString("base64")}`;
+    const comp = fontToComponent(name, nameSpace, !!icon.secondary, url);
+    await writeFile(join(dest, `${name}.tsx`), comp);
 }
 
 /**
- * Converts the source of an SVG to the source of a TSX component
- * @param name The name of the SVG
- * @param nameSpace The name of the section of the icon
- * @param source The source of the SVG
+ * Creates the actual source code of a component from an {@link Icon}
+ * @param name The name of the icon
+ * @param nameSpace The name of the font
+ * @param hasSecondary Whether the icon has a secondary part
+ * @param fontUrl The URL of the WOFF2 font file containing the glyphs
  */
-export function svgToComponent(name: string, nameSpace: string, source: string) {
-    const info = parseSvg(source), id = sanitize(name);
-    const children = info.path.map(x => `<path ${x.isSecondary ? "class={generic.secondary} " : ""}d="${x.d}" />`);
+export function fontToComponent(name: string, nameSpace: string, hasSecondary: boolean, fontUrl: string) {
+    const id = sanitize(name);
     return dedent`
 
-        import { Icon${info.path.some(x => x.isSecondary) ? ", generic" : ""} } from "../../index";
+        import { createIcon } from "../../index";
 
         /**
          * A component that renders the \`${name}\` icon from the \`${nameSpace}\` section of Font Awesome 6.6 Pro
          * @see {@link https://fontawesome.com/icons/${name}?s=${nameSpace} ${name}}
          * @preview ![${name}](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/${nameSpace}/${name}.svg)
          */
-        const ${id}: typeof Icon = x => (
-            <Icon ${info.viewBox ? `viewBox="${info.viewBox}" ` : ""}{...x}>
-                ${children.join(PATH_SEPARATOR)}
-            </Icon>
-        );
+        const ${id} = createIcon(${JSON.stringify(name)}, ${JSON.stringify(hasSecondary)}, ${JSON.stringify(fontUrl)});
 
         export default ${id};
     `;

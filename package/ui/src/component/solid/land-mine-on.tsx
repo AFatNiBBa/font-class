@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `land-mine-on` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/land-mine-on?s=solid land-mine-on}
  * @preview ![land-mine-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/land-mine-on.svg)
  */
-const LandMineOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M344 24l0 144c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-144c0-13.3 10.7-24 24-24s24 10.7 24 24zM192 320c0-17.7 14.3-32 32-32l192 0c17.7 0 32 14.3 32 32l0 32-256 0 0-32zm-77.3 90.5c8.1-16.3 24.8-26.5 42.9-26.5l324.7 0c18.2 0 34.8 10.3 42.9 26.5l27.6 55.2C563.5 487 548 512 524.2 512l-408.4 0c-23.8 0-39.3-25-28.6-46.3l27.6-55.2zM36.3 138.3c7.5-10.9 22.5-13.6 33.4-6.1l104 72c10.9 7.5 13.6 22.5 6.1 33.4s-22.5 13.6-33.4 6.1l-104-72c-10.9-7.5-13.6-22.5-6.1-33.4zm534.1-6.1c10.9-7.5 25.8-4.8 33.4 6.1s4.8 25.8-6.1 33.4l-104 72c-10.9 7.5-25.8 4.8-33.4-6.1s-4.8-25.8 6.1-33.4l104-72z" />
-    </Icon>
-);
+const LandMineOn = createIcon("land-mine-on", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABcgAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBaQsGAAE2AiQDCAQgBYMtBzMb7ATIjpQuJxBG8Lzdf9W53e8D7KG9cgYiGjDddfSyBdOJFikjoSogp7/5551HAT6jUNawRWPpOi+a8zyBALMuz7s4/vbx2we1z/rNXV1rPET7oqUsyeNnHi8n5PF39pAS6fX0OZ4tbxo/6PYQSXUGIJoAsGTXtg3K38a3EZ/9/w7xmXUIiCWgEMiQoU+A+TKBPrkCuVzwbfz/f/gPLAggKshPSiBHJXbgCCAHSSnPG1ra6utqS/X5ztpSzSnhteEXeiLeHHW+e/f9nRGv1tbGk+0vE3UR298cVR/nu6fE620vDa+LCx2v9E7b++aIHXG+66WRO+OV3psvdr8+fHuc63hj1K6hV5qu/DTk85Of23XxuW3Z0v4cbLw6quExHmsoIwz3FCjW771aXq589V2Hn767eE1x99OH393Y9PXcU6vUn/1mDof+fVFp7tdnGpoz5pez9bgMAsEvX5++8VDj/F+rahP4/sNf/uDnev4vp1PpCqokEGTj/x9vf7pPj+50SgAAUtxlqPFBgWSDEnnVOq8IEGoQIKlQI0CmV5MAuRrjBCgZMEOACjW2yUReLbQ50EFS51aQmelukGvzFiiZ7yO3QltkzkW5BvW3i1+poRVrxZSJk4u5xTRWaX8h0nxesSyOvivWxuDQSTe7yR1OOO5adyjkNhuCO91opQWv8EWFKSaarDBXsZ097u90wm1ud62b3ZSXzFOcN0a7y+4eAyUR1KkiSSJS3T0UJrxIdcLNNwEAAA==");
 
 export default LandMineOn;

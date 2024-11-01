@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stopwatch` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stopwatch?s=light stopwatch}
  * @preview ![stopwatch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/stopwatch.svg)
  */
-const Stopwatch: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 16c0-8.8 7.2-16 16-16L304 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0 0 64.6c49.4 3.8 94 24.8 127.7 57l37-37c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-38.2 38.2C416 212.6 432 256.4 432 304c0 114.9-93.1 208-208 208S16 418.9 16 304c0-109.5 84.6-199.2 192-207.4L208 32l-64 0c-8.8 0-16-7.2-16-16zM48 304a176 176 0 1 0 352 0A176 176 0 1 0 48 304zm192-96l0 112c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-112c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const Stopwatch = createIcon("stopwatch", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBdwsGAAE2AiQDCAQgBYMtBzAb9wTIhocPvac/N8kCzm4l4i2IClYrf7gi28xvWW39pr/5551HAT6j0MbCNUHGxGjO8wQS6/K88ziwb18Uv8vXbTI8PMTwDZEgieg4d3xdkMWt6KgCyY3kO5wbr4q/NXGYRJYCiNoAGFaaMcnnRRQR35XfEN+ZgIAYDnKBFCfNBRgoFeoFmRyZTFBEuey/gTkBREXxl0hAhgpYgHWADCTSLOvQrGa1CjWy2dUqVJ1/rVG1uNLgcv2qIX6fNiSuNbhSf2B8Meu3qT/N/GP6L7P/nPFrKaJqXG04Z3+niCf9Pqh2asBHXZ7Fgc5P+39Y9WTf9zs+VhIu17/aMOJaoysN2jys/fDf1t+t+s6+ZzWL+4qaNYuhhplQsdtIDx7cvDnLFWOj9PBhKUrx8GGUYsbcOdMqDTNUUXNKq667WX3sWufO146t3t216+5UP1u8BbGaRVFzC7kPBIJflsXAxbUGvqtcLQF/ffj/O32udvnzeJM8RGUJCNKO5Y4WxOdqqxZvBAAgiV3aNB8USMyUkrdWd1WAUBUBEhVVFSDVTG0BMlV1EKCClnoJUFFVM6QiqyLUtzBBorqtINXbHpCp7xWoYKAv7YrqR8oxgiHEFy92dIVG7eXdOnfN++fb1CRpg9l6QH7Mtd2lrXY4tcpmm+yw0gpr7SjINpO8nTYa3cGjfFGum866yvWXXxevx7OttM12a222ybcMkL+32trVD7eDmAjU7hKJhEiqUBwnJgA=");
 
 export default Stopwatch;

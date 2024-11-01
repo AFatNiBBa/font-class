@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-image` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-image?s=sharp-duotone-solid calendar-image}
  * @preview ![calendar-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/calendar-image.svg)
  */
-const CalendarImage: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 192l448 0 0 320L0 512 0 192zM80 448l288 0L256 272 184 376l-24-32L80 448zM96 288a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M160 0L96 0l0 64L0 64 0 192l448 0 0-128-96 0 0-64L288 0l0 64L160 64l0-64zM80 448l288 0L256 272 184 376l-24-32L80 448z" />
-    </Icon>
-);
+const CalendarImage = createIcon("calendar-image", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABdgAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBaQsIAAE2AiQDCgQgBYMtB1gbEwXIjtMlNuUxYTx8v1b+uf16J9kwdpjRAaGKJJsobheUKb/1JcmvJ1+F36dO5VzOQwF8i0g4aHtoQJYH5zyvQAC7hm6rSIVqWgPr7rSEQ1t7HGgRSY7Pjk+ukMerdFkN2YvsN+7R/wDGP9q7TKY2AYhmAJi2ZsUiZV3UZfG7+p74bSECYjooBBISOgkwURLoJFcglwvqsmqVuqhWCwKICnp/AhXUwwpsA+Qgk0l53r5hbcOWDWsa56vpYoMNDRo2EA1CNI6IBhayJNY2btR4dayM/kZIZSaLRpFWtS+vOd864knDW22fxYU2TxvcbPVY97fN3v7X7ffu315+ncobbXVe6bytproXzpu65GtRFEeYs8c5S/ZQluVUZRdfDTV92eQ615ukiMcC8djYP/fb0nTi//UbZuCvD/8Nf0fVMsrsLerLQJAGVgfaGCVEKQAAWZzWPUoQSPpI6FMbeSpAaIAAmYoGAiQdNRMg18AAAWp0MUqAigZWSCKvFVrZVEGmkWMgGe0MyLXyDtSY6Jtb0SqSdtG6QT/uEmZLeNZcMWzw0GJ8MYxkRmHIOJ1QLBt9T4dKPzhptyMOO2mXnfY5KdDjFgWnHDJ7hszyRYVhBhuqMF6xnd4eXm2X407Y54jDuMgExXmnr9Pz9n5gZ5hwuD1JIrJIbW4f8z9HGaSpTe163LUEAA==");
 
 export default CalendarImage;

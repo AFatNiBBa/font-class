@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toggle-on` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toggle-on?s=sharp-thin toggle-on}
  * @preview ![toggle-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/toggle-on.svg)
  */
-const ToggleOn: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 112l0 288 544 0 0-288L16 112zM0 96l16 0 544 0 16 0 0 16 0 288 0 16-16 0L16 416 0 416l0-16L0 112 0 96zm336 80l0 160 160 0 0-160-160 0zm-16-16l16 0 160 0 16 0 0 16 0 160 0 16-16 0-160 0-16 0 0-16 0-160 0-16z" />
-    </Icon>
-);
+const ToggleOn = createIcon("toggle-on", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABWQAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBLwsGAAE2AiQDCAQgBYMtBzAbrwTIrgbshngjIdQ1VgyvoRMVj3+4CHZaPA8do96fmY1K3aWkBqqkBWzRs0IukCg9eB7W3Pt3M6trf0uigkqC5tJopLB8CQlljRbI5Gvmr9r3HcAD/q8RIFjadYDuM7j5v5zeeH50gN9P/JDGWtEaYGMMTiDQMA+3QBZmASXGnW17tYaIVHahcYaW75xwUj4ZwLvwpvlPlA8oagWQYQBwdL23wWISPtuDfGYNAjkCLCOoqJhHwC6mYB6HZdA04Q8v/gMVAqRTelQBDZ3YBUcADRSttZ4RXvI7B9qVfkrvvWGWodQMTvp9Q1IivYNJTR4QfUl6B6E+BNQL5fiqpXXMGcLHSiUo0TYyiKBElEIWbW3NkwSh+qEFMlc/6c+AIHwrC3f+8Rfwz/+hC8qhYYFuBYS6bsdRGcSdyPuzeSOOPygotnBIr9rvPQKiFwFFp14B1RwRBDS91hDQYZEqAjr1OmdK6xHjHFeg6PcIqh3eQTPOD+iwy2+l07iY8MN+ffb3LWnWRKeHtJgraEtHOwoOJGi72dbFVuJNTiTxSc7cu/Pi1IlLLw38yUb91a3ZFDb1RUqRHAWUFrq5f1c6pJUnzy6H2e0Q+7TR4zMJ3qbnJ7FrSKQbNBSFlB5YjLP3dwAAAA==");
 
 export default ToggleOn;

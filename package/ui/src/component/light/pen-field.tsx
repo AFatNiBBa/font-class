@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-field` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-field?s=light pen-field}
  * @preview ![pen-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pen-field.svg)
  */
-const PenField: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M582.8 45.5l11.9 11.9c12.5 12.5 12.5 32.8 0 45.2L568 129.4l-57-57 26.4-26.8c12.5-12.6 32.8-12.7 45.4-.1zM346.2 239.2L488.5 95.1 545.4 152 402.3 295.2c-4.4 4.4-10 7.4-16.1 8.7l-61.5 12.9 12.9-61.7c1.3-6 4.2-11.5 8.6-15.9zM514.7 23.1L323.4 216.7c-8.6 8.7-14.6 19.8-17.1 31.8l-18 85.7c-1.1 5.3 .5 10.8 4.3 14.6s9.3 5.5 14.6 4.3l85.5-17.9c12.2-2.6 23.3-8.6 32.1-17.4L617.4 125.3c25-25 25-65.5 0-90.5L605.5 22.8c-25.1-25.1-65.8-25-90.8 .3zM64 128c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-176c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 176c0 17.7-14.3 32-32 32L64 480c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l240 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L64 128zm64 216a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm120-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const PenField = createIcon("pen-field", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABkwAAAKNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCWwsGAAE2AiQDCAQgBYMtBzAbWwVRVA7CZB+prfKA5J5mHfSUznff6eyBz6QQASs1oCctQYUEsfMKS6sPsDaEoU4THPtGTo33WqlUvsRFOd+uFuR5U3pnNz6BAb7D8w302sAqNiHd4rarIKKhsdC4AqvfKooPzCbjASvCl+oDaeaCwToAACgWAACo9bRpxs2wwpL3/xzIowkQgGoD4BLgAA6QSQBU5SAgk8UFFosgrP//xX+gCwIA+Uke1ABggQCwGNgGAFgADH5r42MzSweDEb4o2z7CFxrzkJSctI6ZiQXVWkW0oS7pbTu07dBKbbW21VUebYgOE2ttKuPP8L2lA/mbHEmzrmQdLotXz70FpYPTaNM+lC9KB+4jGdL6sTYRzWxrQ5FaPNbL0azYEBGhDbE+OdTuQMbm/HtTN+XroPnh6tyHYw9/yuX196h/LifxRVFRiz4Wsonzrb/xv7V8Bb48keXLaX88npLa/uCzG7fQXb3ScW0JtGs3ql0cCa9v3CR3elqeI5ROT899e+DOOIgLQSgubudNdpbs0EnR4XA0sfCNvglgfmUlGR3+WuNZq6SkVg6dkCL3twOAAMH6k7dSe8RU/RWIUDMAvL/85Vf9I/h/00w1h4EABgCBU/R/UbrmmYA1UxGJbzSe3DsDI8AwGz9A8qmRrEcAiBAgAAx+QggAhwyxBIAlRBECwEe2cgSAnxBtOMgGEYm69aQhklGkQ3nTSEuiM6SPqh74fhKTA5UyTMk/hRn1x0C9ZW6p4iXdyu5mqlUATbTzVdzTVsHxslUIn6G/EYYbq5++BtX8CB+tWTTOMPX3sHoG5CqluJJclbm3i+fH2+tntDEGGWG4X6QK932voPH7owth15BwlrbVYEAmOLLf8GIfLAA=");
 
 export default PenField;

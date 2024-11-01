@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `road-barrier` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-barrier?s=sharp-duotone-solid road-barrier}
  * @preview ![road-barrier](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/road-barrier.svg)
  */
-const RoadBarrier: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 96l85.2 0L64 266.3 64 96zm42.8 192l90.6-181.3L202.8 96l74.3 0L186.5 277.3 181.2 288l-74.3 0zm128 0l90.6-181.3L330.8 96l74.3 0L314.5 277.3 309.2 288l-74.3 0zm128 0l90.6-181.3L458.8 96l74.3 0L442.5 277.3 437.2 288l-74.3 0zm128 0L576 117.7 576 288l-85.2 0z" />
-        <path d="M64 32l0 32 0 384 0 32L0 480l0-32L0 64 0 32l64 0zm576 0l0 32 0 384 0 32-64 0 0-32 0-384 0-32 64 0z" />
-    </Icon>
-);
+const RoadBarrier = createIcon("road-barrier", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABegAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCDAsIAAE2AiQDCgQgBYMtB1QbMgXIjsO44TuyxVKGeIyH/9+v3z73vZkvIjzMLIlbE+s0S2R+hYQ3L2EW0SJ5kln1feTUeOOlAj4rQdH+0cf9XDq7hycw4NnsXhvQhGqKG5w3qvFiaAzlB8jTxOyxEulFgifufwDjjz6PSeoyANEKgNV7dmz3uRKVFD+rb4iftiEg1oBCIEOGQQGWyQQG5QrkckElVatUolotCCDK3CczUEYdjuA2IAdJUsrztraaJpCpaSg15bsdtv6AkAJTHxFZzG1o6WxyoKG+YWfErj079/REQ+yMzgDNN+4Q9WNGWkf+jXaalS+LorivsEoh9l2FfCuP7Aq5na+MTPm07w3199sCC8iI9zvmzlf4KyN2AYFg45KHg0dalv2vbUjg19t/4+tVK+l+CrUSCLJp1WkOpvvA8AEEKW4bM1O7VQKZ+UqAf7XRUwFCPQIkZfUCZAa0CpCrN1WAkmHzBSirt0Mm8jqh06EKJ42uwZkF7sC5Tq/hkmW+BGWdkV1v9NVC/+0lbGgD65cVs2fMKpYUk4XMXEKknl5arDYm3eZdk+Fap11x2U2nnHTOzRZ03fb4lks2zIHr1agw2wyzFJYodjfuC7txcN0N58a5/YssVZzvTHJ7fvBkaCeBcI4VmYxIkXXe9sr0744y/dLt7R7g7lIAAAA=");
 
 export default RoadBarrier;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-xmark?s=solid plug-circle-xmark}
  * @preview ![plug-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plug-circle-xmark.svg)
  */
-const PlugCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M96 0C78.3 0 64 14.3 64 32l0 96 64 0 0-96c0-17.7-14.3-32-32-32zM288 0c-17.7 0-32 14.3-32 32l0 96 64 0 0-96c0-17.7-14.3-32-32-32zM32 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l0 32c0 77.4 55 142 128 156.8l0 67.2c0 17.7 14.3 32 32 32s32-14.3 32-32l0-67.2c12.3-2.5 24.1-6.4 35.1-11.5c-2.1-10.8-3.1-21.9-3.1-33.3c0-80.3 53.8-148 127.3-169.2c.5-2.2 .7-4.5 .7-6.8c0-17.7-14.3-32-32-32L32 160zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm59.3-180.7L454.6 368l36.7 36.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L432 390.6l-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L409.4 368l-36.7-36.7c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L432 345.4l36.7-36.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const PlugCircleXmark = createIcon("plug-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABlQAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCYAsGAAE2AiQDCAQgBYMtBzgbaAXIhofn1z3/a5+ZB3iepGTjA24ODapManfimuf/1PSAhS/+KJmrAin/G3XwBAYcrU0Tmg1nI5uIztocDr6DKrf8IMcb9EU0bN8Qe3SGPL7PjipDupW+w4XxpvG7Bo6SVMgARHUADJ8xZbIvfolfIr4tvUt8ayICYjgoBDJkaCzAIJlAY7kCuVzwS5RK8h9YEECUBSj5sTnK4QpuA3KQlMnzGjU6NWpRqUyVfHqlMhXnnK4dcZWoFBGH6l6vWGkBpy49WOdaJfFo8KejBU+dqXcjIp6vdz2eDP184o1jwcrLzgyM+Ljr6/3eLq8N+Kji6X4fdHrFwc6v9v+w0oxBQwcNjmu1r9YdEoNCGdfrDY0hwbhRZ3AMjTuu1W7xUvWX/mz+3fLvLPi86klOVl1omIXIS88vlmjpQRbJKlQc0GHPSHJbOlLL/7rWqNy508Yss/uHXVjQNpG6N2/Tpnn3lNpKBVMD3umFoNu3X3xxpJGUnzN6sc8DgaDNi8XVBdUG/VO+UgK/ffT3/+1xpS/SsPQSyksgyDqVOpmbhoHOCCik2K6F80GB5Iwy8KqVXRcgVESApKyKAmQaqS5ArqKOApTRVG8ByqpoikzkFYTa5pFMKttEZvrYR+Zqe5ssY5Av82XVjiww5bCSPwszxlhg9KKie5duxYBit2IqsSbWyYHF6VC77aWjfTpouQ3W22qZpVbZaojNJpe2WWeMh4/2RYXuuuimMEBxuf5293TLbLbFKhus7/MMVNyfa2e73799iibg7KEsSUSq8cJwOv/BE+688zEG");
 
 export default PlugCircleXmark;

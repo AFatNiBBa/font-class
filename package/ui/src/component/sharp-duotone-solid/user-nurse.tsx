@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-nurse` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-nurse?s=sharp-duotone-solid user-nurse}
  * @preview ![user-nurse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/user-nurse.svg)
  */
-const UserNurse: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 160l256 0c0 70.7-57.3 128-128 128s-128-57.3-128-128z" />
-        <path d="M96 96l0-48L224 0 352 48l0 48 0 32 0 32L96 160l0-32 0-32zm30.1 224L224 424l97.9-104 62.1 0 64 192L0 512 64 320l62.1 0zM208 64l-24 0 0 32 24 0 0 24 32 0 0-24 24 0 0-32-24 0 0-24-32 0 0 24z" />
-    </Icon>
-);
+const UserNurse = createIcon("user-nurse", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABcAAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBYgsIAAE2AiQDCgQgBYMtB1AbBAXIjsQ4JvGLWNDi4f/XzPvmT3J2Jyny76oCsSICB+TryNWRbRVHlYXfbSXJ6tT7//xf8/m3SzrAz5dih1a9LI0Gynw+gb0BzuYNNE6h6Qxte4tsi5WRXpHTIenxW49nRyjjWbqvRvGk+IEH/n8A449h7lPoTACiLwCW79iyTqsneor40X5N/LAWAbECZIGEhJECLJIERipllEpBT9FOT7RnAog6jyRuHR9iAw4ASlBIoiwH9BnWbNR6ldsbtWpPiB2xLYQQzYiIbdu2b9sRjdgWzcDijqpRKSUEAaor7OnV7PV00btVn5Z86Op62fflv7E/jv9w4MA0m7w1FSenyUZIlkd1HzrRaomlH7VcYcmm9lDaMRtqKLn3gTGozVq5cePKWTUgENz/OWDBgT6L/nc0CvDrjd/45nYrWsVLdChAkCa1J9kbLQB6AD+qiOu6ooWDAslCCX1q00MBQoUAhbpKgGSEvgKUKhMFqBlttgB1lS2SKDuFgfZlWGi6BJM5bsDSQK9gzSKfS3UDI6mWohjKxy5zTQ1Wb8vTp0zLC/K0LanaIsn6wrwdHHedx8bDQcddcN5Vxxx1ytWKumxd9Zpz1qzI1b4om26KabIF8nHv3txOpcuuODXWzzdZKN/PjnN9PXs8RApBdIY9SSKKSP3fY2Hy+WuXoztZSccHtvpzBAAAAA==");
 
 export default UserNurse;

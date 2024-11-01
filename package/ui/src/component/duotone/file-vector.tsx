@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-vector` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-vector?s=duotone file-vector}
  * @preview ![file-vector](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-vector.svg)
  */
-const FileVector: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM64 208l0 32c0 8.8 7.2 16 16 16l16 0 0 128-16 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-16 128 0 0 16c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-16 0 0-128 16 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 16-128 0 0-16c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm64 48l128 0 0 128-128 0 0-128z" />
-        <path d="M384 160l-128 0c-17.7 0-32-14.3-32-32L224 0 384 160zM128 208l0 16 128 0 0-16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-16 0 0 128 16 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-16-128 0 0 16c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l16 0 0-128-16 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16zm0 176l128 0 0-128-128 0 0 128z" />
-    </Icon>
-);
+const FileVector = createIcon("file-vector", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABsgAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDTAsIAAE2AiQDCgQgBYMtB1Ib8AXIjsQ4JvGLKEwiotd92aOn/bUrHeiIdccGwsgbGRgikgEhQojMGWCQ/nLqcuhYGfI+P//XfH7Pjw7w6x3BoUTkiioAI9ImMNrzKJ8X+IQmMoEZ2NTpyGD0EKWPDCklYBk6j6vQ4/IGde4sD5iherX6A08f/wOYf63xAJW5AiAdAI4789R5P00zrfLH+DX5wykI5HjQCwoK1gs4UhGsV+tRq4VpNY5MM449ATKhjyxggln8jL8BNagUpa7b4+c2SqadWVifIV/QXNm0zWMrX0py+mmiTfLyqjYvrpAXljcRQ720MmnCzPgJKITbpqVXK6/vkXy0s40MK15s21R5Zdf72xbk3d0/XFtOFy+uaCNNXlguDfvyqqQN1EsrmyRM85ogPt82rX/Ylg+7D//zxxV/uGfTMAyLHnlk0eDtt8d9uq4bdBZNe9NFvWF2QBnLK3Qi8/NBZf1As4Ql77xjsNroEeED3jm3txmOebrv+7drI3385n4QhB9uO3zjhYuP/H+2rcA/37TxOxp/ylB9iFkVCGXPcU/nZYAMAgCococtGRyLoLhaoe+6wEsCokFAZaIRUKzTCag19hAwY6ODBEw0TlWknhPLnW+gssDNoDjYXaC23FdgxpF+zk0sT8lnJhuZv8nEkz100qZ+v7337Q/vb6suNkWpbfqIftrcdYd07YarrnCjG9zmcpe52m0OucV88XbXOzmCT/JBvf3sbV+9w/WPG/P5M1zuFre62o1u2Nc5Qr8+tssd8eDd4FQUd387ikKqlGW1U7LXHZdfetuNt+xVGT0rmC8CAAA=");
 
 export default FileVector;

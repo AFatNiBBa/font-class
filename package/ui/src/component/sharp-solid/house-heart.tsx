@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-heart` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-heart?s=sharp-solid house-heart}
  * @preview ![house-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/house-heart.svg)
  */
-const HouseHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M511.8 287.6l64.2 0 0-47.6L288.4 0 0 240l0 47.6 64.1 0 0 224.4 448.7 0-1-224.4zM176 267.2c0-32.7 26.5-59.2 59.2-59.2l2.4 0c15.9 0 31.2 6.2 42.7 17.2l7.7 7.4 7.7-7.4c11.5-11 26.8-17.2 42.7-17.2l2.4 0c32.7 0 59.2 26.5 59.2 59.2c0 16.1-6.6 31.5-18.2 42.7l-82.8 79.6L288 400.1l-11.1-10.7-82.8-79.6c-11.6-11.2-18.2-26.6-18.2-42.7z" />
-    </Icon>
-);
+const HouseHeart = createIcon("house-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABXAAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBNgsGAAE2AiQDCAQgBYMtBzIbuATIjtRG85iVePh+7t9f+yQPU4aUmRWQYse6LOuqWsXjgb8l0Dc/a4Gnv/nnnUcBPo4gtLFpaSALaO/zBBLr8k3Q32CJ4rduekc/pPyavOgkDdsNawvk8Tm7pIp0J73Hjf6j8au2LpHUZQCiCQCmrFq2wIsf8SPiXSXinXkIiCmgFMiQoYMA42UCHeRK5HLBj6hUyn9gSQBRLT42gRw5JmI2IAdJyvPm3YqqhvnKoqp+W1FfRGyNzSGKEA1j5dZ77SMe9iriSp+W0TqeFkXc73Gn7bney6NFtIqV8SS6Pmny5Pcu73e+VzF58uTBOv/pTzjYZD+85PuiFrV/0fhcpk2TU05p0iZzrvFftW2bLl3ksSeWLtS0LRAIPpy8dnlT4/H/1xYJ/PL8z9/hdOU0OT1BrQSCrH+lv/VpMgAdgJbipK7kZoFkpAS4agM3BQj1CJBUqxcg014TAXL1+glQpZMRAlSrt0wm8jqhhQ0TJA0cAZmRToNcC89AlfFeadVaRKYhUgHkDy5uZoZmjJVDBg4ux5Zb36Bkgdf+uPJY7H3Sc31s1k6HHHTcDtvtcTwhRy0wTzhgJoNnuFFpiIEGK41VXkev0yvtcNQxexxysA0Zp3yv9naSV/cxJQnMoSxJIlKhL2GAkgEA");
 
 export default HouseHeart;

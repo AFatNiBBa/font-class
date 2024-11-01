@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gitlab` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gitlab?s=brands gitlab}
  * @preview ![gitlab](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/gitlab.svg)
  */
-const Gitlab: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M503.5 204.6L502.8 202.8L433.1 21.02C431.7 17.45 429.2 14.43 425.9 12.38C423.5 10.83 420.8 9.865 417.9 9.57C415 9.275 412.2 9.653 409.5 10.68C406.8 11.7 404.4 13.34 402.4 15.46C400.5 17.58 399.1 20.13 398.3 22.9L351.3 166.9H160.8L113.7 22.9C112.9 20.13 111.5 17.59 109.6 15.47C107.6 13.35 105.2 11.72 102.5 10.7C99.86 9.675 96.98 9.295 94.12 9.587C91.26 9.878 88.51 10.83 86.08 12.38C82.84 14.43 80.33 17.45 78.92 21.02L9.267 202.8L8.543 204.6C-1.484 230.8-2.72 259.6 5.023 286.6C12.77 313.5 29.07 337.3 51.47 354.2L51.74 354.4L52.33 354.8L158.3 434.3L210.9 474L242.9 498.2C246.6 500.1 251.2 502.5 255.9 502.5C260.6 502.5 265.2 500.1 268.9 498.2L300.9 474L353.5 434.3L460.2 354.4L460.5 354.1C482.9 337.2 499.2 313.5 506.1 286.6C514.7 259.6 513.5 230.8 503.5 204.6z" />
-    </Icon>
-);
+const Gitlab = createIcon("gitlab", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZgAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBVQsGAAE2AiQDCAQgBYMtBy0b0gTIHqnN/hjBxcP3a6/nvt0kBYCdqDKxA1LMthNbQsdGZGoJ5c+Q8/1Kzp/+5mvjPArwIWUyNnYeZeu8aM7zDdZ53uX1h33QTR/si+J/m4gdA1u+EhIoER1XeHztkMezOKuMdC19xJn+pfFZS8dIyjIA0QAAI+fPnup1dVRHfCw9ID6ajIAYBQqBDBnaCDBEJtBGrkAuF1RHqRT/AwsCiHJ0ywRyZJiGBYAcJJHn42qX1c3n4Uat1c2aNpsXl5tdrnW5ycWszolaIaFm6PH7EDfb3hpYO8TcmBod43Bcanql+eHoHNNjftSOZ+3vtKusalD11cd1H/3/FRFjH2gyumfeo+eIysaNu53xUiDZUtljZI+85+gm2qck/588bhnCxmnG+4/ZK1bM5r/xNk4XWt59FxAI2sw6+2J5/SF/a9RO4NPT79crS0tSRapCDQkEWZdSF0sShE4FpKXYpxIsAsm4QYx3reOyAKEWAiTlagmQaa2BALlaOgtQpp2+ApSrZbZM5DWFJpZOkNSxE2T62Q9yTdwDZYZ4o5VrEplLsQ7B/uiSxkl07FzRs1uPYlChOpjzEro0Bxfbcod9KdERNq2z3TZ7rLXGRnsEvstUc6+txlnYWD9U6KmbHgqDFMf+6/o8a+2y20bbbWttBivuKx3ss/M7wjIJ0OsxoGSPVL5+454tK1cBAAA=");
 
 export default Gitlab;

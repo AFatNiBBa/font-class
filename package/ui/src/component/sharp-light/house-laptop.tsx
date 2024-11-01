@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-laptop` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-laptop?s=sharp-light house-laptop}
  * @preview ![house-laptop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/house-laptop.svg)
  */
-const HouseLaptop: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M240 3.4l10.1 8.2 216 176 12.4 10.1-20.2 24.8-12.4-10.1L416 188l0 36-32 0 0-62L240 44.6 96 162l0 222 176 0 0 32L80 416l-16 0 0-16 0-212L34.1 212.4 21.7 222.5 1.5 197.7l12.4-10.1 216-176L240 3.4zM192 176l96 0 16 0 0 16 0 32-32 0 0-16-64 0 0 64 48 0 16 0 0 32-16 0-64 0-16 0 0-16 0-96 0-16 16 0zm112 80l16 0 256 0 16 0 0 16 0 160 0 16-32 0 0-16 0-144-224 0 0 144 0 16-32 0 0-16 0-160 0-16zM256 480l384 0 0 32-384 0 0-32z" />
-    </Icon>
-);
+const HouseLaptop = createIcon("house-laptop", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdAAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCMQsGAAE2AiQDCAQgBYMtBzMbNAXIhof/1nq7r7pnTtIz/6RCXEHEBSaZqAW3GgAcS3JoCRTO/+We39CjA/x8BIc0ts2po6l7P08gwdKxgAI6K8sSxayb3vE3RH5LktSXNIw/bF2gjr9juhbpifQZzuU3jR8M9SBJXQGIDIA1h/bt8MG38W3EZ/+/SnxmGwJiLSgCFSqMEGC5SmCEWkGtFnwb//+v/4GFAKLNPiOBGm3cjocANUjqup41cmTvTqunPthpNccGDhp4IAbG5BgUU0M0EXEw9ofohGiaiIjJMSCmxuA4FIP3d5qOHblRtBNHdA4sgh5BlkJLYn9PFwe7EWOfyk/9NOaziz/zyzuP2ylfPe9jm73lK+MVK527kQX62guKD3L2ua+8ZbE3ffW8x2c9c/r0tVlRZKutNjsXeXd2Wpav2ZVzyZ6UFdl53zoParRnfXMvXlTcqwCB4O8ZHz9yqs/yv3p1Evj+rV9+K8+n/z9I96an0EsCQTX9/+mOp3sllBhAluJmY50vCiTXq6GoXY8KEBoESNoaASrDZQFqjWkCtIyyQIC2xj6VqHsLA5xoIOm6DlQWugvUBngZtCz3Ydo2IKoAZMOH/f8lbeyhDfvKnJmzy9Ky7KpcTNFpe1k5VibfzKkpctTFrnG1G13kQpe5scOvt6N0k6ts9LANfqiYY6bZiqXK9eBROgj7ejeQngv3uyxT3geT3ewvniJ6YqRzNSSJSN3grJ9x5Zlrb7zmWgAA");
 
 export default HouseLaptop;

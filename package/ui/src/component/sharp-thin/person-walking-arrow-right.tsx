@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-walking-arrow-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking-arrow-right?s=sharp-thin person-walking-arrow-right}
  * @preview ![person-walking-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-walking-arrow-right.svg)
  */
-const PersonWalkingArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M208 88a36 36 0 1 0 0-72 36 36 0 1 0 0 72zm0-88a52 52 0 1 1 0 104A52 52 0 1 1 208 0zm19.4 270.3l-3.2-6.4-10.5-21-6.6 22.5-11.7 39.9 52.3 57 5.2 5.7 2 7.5 24 88 4.2 15.4 4.2 15.4-15.4 4.2L241 507.1l-15.4 4.2-4.2-15.4-4.2-15.4-22-80.5-70.9-77.4c-14.8-16.1-20.3-38.6-14.7-59.7l11.7-43.7 5.3-19.9-18.8 8.3-17.9 7.9L78.4 250.1l-5.1 15.2-5.1 15.2-15.2-5.1L22.7 265.3 7.5 260.2l5.1-15.2 5.1-15.2 16-48 4.5-13.4L51 162.8l72-32 9.3-4.1 10 2 80 16 15.3 3.1 7 14 35.2 70.5L304 244.2l14.3 7.2-7.2 14.3-14.3 28.6-7.2 14.3-14.3-7.2-33.7-16.8-9.5-4.8-4.8-9.5zm8.4 102.9l-52.3-57-6.1-6.7 2.5-8.7 18.4-62.4 11.5-39L228 235.8l13.7 27.4 2.4 4.8 4.8 2.4 33.7 16.8 14.3-28.6-24.1-12.1-4.8-2.4-2.4-4.8-35.2-70.5-3.5-7-7.7-1.5-80-16-5-1-4.6 2.1-72 32-6.4 2.9-2.2 6.7-16 48-5.1 15.2 30.4 10.1 5.1-15.2 11.5-34.6 2.2-6.7 6.4-2.9 36.7-16.3L150.6 171 142 203.3l-17 63.6c-4.2 15.8-.1 32.7 11 44.8L207 389.1l2.6 2.9 1 3.7 22 80.5 4.2 15.4 30.9-8.4-4.2-15.4-24-88-1-3.7-2.6-2.9zM68.7 398l25-62.4c2.1 3 4.5 5.8 7 8.6l4.8 5.2L83.6 404l-1.2 3L80 409.3 36.7 452.7 25.4 464 48 486.6l11.3-11.3 48-48 2.3-2.3 1.2-3 18.6-46.4 12 13.1-15.7 39.3-2.4 6.1-4.6 4.6-48 48L59.3 497.9 48 509.3 36.7 497.9 14.1 475.3 2.7 464l11.3-11.3 11.3-11.3L68.7 398zM533.1 169.9l96 80 7.4 6.1-7.4 6.1-96 80-6.1 5.1L516.7 335l6.1-5.1 79-65.9L392 264l-8 0 0-16 8 0 209.9 0-79-65.9-6.1-5.1L527 164.7l6.1 5.1z" />
-    </Icon>
-);
+const PersonWalkingArrowRight = createIcon("person-walking-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAAOIAAoAAAAAB6gAAAM7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhViFRgsGAAE2AiQDCAQgBYMtB0Eb1wbIHgdubDWQhXw2jxFEa+js/ScFQlJokXVZs0p0yy6uIBn///3VfeMmYC33PdsU2kxaO4pRCPknWdv79PeT31oTaC02H8qPXlsFFm0W0TiBie1mkZbYmDZhnKq6Oh0B6kf9W0Iev0EknU8PgKPWl8ZrfFMgyTIAURkAGDJr2gQHz+N5xP3/N0HclwgExBCAxhAyZKgPgf7wAvURNAZyueB5/P8v/Qc2BgFEIWfvCeQoTfQHMROAHCSFeV6tQuW8Xo3KESvkM7UzlJ13sFags7G/5pmyB6qfMlbjdLm4VOd87XPNL9e9UO9iqzk1a9SsG7wQRXrUCHZkk50VKonmSCBH83qjRiEMlVMUrDZaQzSX9FIT5GKzEOhbzGXzGJ/5gRlTp0wdCpxOc/CHRPxDGJrFidDJiiwD2cCsNsb5hjZ4YYvZNjMOZ9LOiZ/erXO30zVqhE0EQUDPDnVbg31WY9CJuYZg6LIZM2cckJ2FHD66bNmIcuVmlqZlN71e+frbJg9WPnCxqtIFcK1SpWsXKqWYFDu76EdJyY8iyVa1gtp5mlOqrYsTjYs7S4gQbz69ShGCPVnMeAWbb8ikw7UoRap3T96kSIEZ4ERsI5NmpFbySRQjDLrX4kWLT1SnxJdeOZo9/ExaEmtYnrGEo3kxJByLcgSNdqmVDGYX20gFDsxET1IsYasQ6t80qtnZyPEU8GpMEupLCO4seE0v1z7MTtms23A5GOi8ttTwwjSB08COD2oumHs8PGoAjwg8frVokivYAaKJsizIkjLEdenKKM9UrLYzQCCoUbzu6aJK/b+WLpfAy3u/1rbH/y9Ou9N1oLQEgqz9//aK0j54WY8b4rBFSbGTAvooDdjddSEr7wwUCWUxFEmhsopMPTRFrqx2igINuZGR9LRRwsjLuKsrJkVS3hZFpqdhRa66ZUWB/s6DhaoH/l7C7gTsTzZ6ZJk9YlTjLh07N+7buDMjxW8PRO/s13i0tfVOuaINJqrRqkWXalXqdZWkHZIj3ZrF9GlH/1bGzsJGJoBsdv46nVMKduhU307OHyaQbH23Tk9/fT2cOBydXSUkiUh1bz1jh09gTIclW7du2vVFAgAAAA==");
 
 export default PersonWalkingArrowRight;

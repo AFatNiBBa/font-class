@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `certificate` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/certificate?s=solid certificate}
  * @preview ![certificate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/certificate.svg)
  */
-const Certificate: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M211 7.3C205 1 196-1.4 187.6 .8s-14.9 8.9-17.1 17.3L154.7 80.6l-62-17.5c-8.4-2.4-17.4 0-23.5 6.1s-8.5 15.1-6.1 23.5l17.5 62L18.1 170.6c-8.4 2.1-15 8.7-17.3 17.1S1 205 7.3 211l46.2 45L7.3 301C1 307-1.4 316 .8 324.4s8.9 14.9 17.3 17.1l62.5 15.8-17.5 62c-2.4 8.4 0 17.4 6.1 23.5s15.1 8.5 23.5 6.1l62-17.5 15.8 62.5c2.1 8.4 8.7 15 17.1 17.3s17.3-.2 23.4-6.4l45-46.2 45 46.2c6.1 6.2 15 8.7 23.4 6.4s14.9-8.9 17.1-17.3l15.8-62.5 62 17.5c8.4 2.4 17.4 0 23.5-6.1s8.5-15.1 6.1-23.5l-17.5-62 62.5-15.8c8.4-2.1 15-8.7 17.3-17.1s-.2-17.4-6.4-23.4l-46.2-45 46.2-45c6.2-6.1 8.7-15 6.4-23.4s-8.9-14.9-17.3-17.1l-62.5-15.8 17.5-62c2.4-8.4 0-17.4-6.1-23.5s-15.1-8.5-23.5-6.1l-62 17.5L341.4 18.1c-2.1-8.4-8.7-15-17.1-17.3S307 1 301 7.3L256 53.5 211 7.3z" />
-    </Icon>
-);
+const Certificate = createIcon("certificate", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABewAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCAwsGAAE2AiQDCAQgBYMtBzIbBQXIjpQu7hIPz9v9+2ufmQCewDegKlhdOldSUb42oNq4ZfVR5aa/b+3E5fTH+W/ATfiPbzYWLn2Qdf62ZoO7BMI06vJt0TrPAksUM285oyjVvslEM+nxvMevI+RxI9unEulceokj/Uvjh2b2kVTLAERdAIyZO3OGu1/ja8SLcsQL0xAQY0AhkCFDSwGGywRayhXI5YKvUS6n/8CCAKIyvWcCOTKswyZADpLI82U1KtXK55Qd1ReebniyYRFTQ3iN+sT4OImOiOGCRqcaTYjevCbTom2cQkfFCEGTM03axxRe474xKc6gI2OUoPHpxhOjH6/h5GgXp989PEa2q6hb8avtyzUvvb969v6H0l/vvD97uEcrf9wfUTr800+HSyMe/NZKj8Nn37/zV+nD/bOvvBJFhv/GfnuAf/RR7P6fh7z2GggETc7f/H9pneH/VK2RwPfrf/7HjWXlU0oVqCqBICuVSxYlDmCFoGGKPdohJZAsG/L41JpOCxCqI0BSWXUBMi3UFSBXXXcBKmltgACVVTdTJvJqQkOLF53UtJ3ODLSXzjV0ga5kuCdhZQ0jY5rGE+2jlz3RwhM2FX169i6GFsfM1Mmj1OVhRdjpsid3uuKgNbbaYpfVVllvl6F2mJHsttlED5nghwp99NRbYajiunzfP8dqO+y03lZb2jrDFO+DLvb4413hJyrZ19YkEakG9QEAAAA=");
 
 export default Certificate;

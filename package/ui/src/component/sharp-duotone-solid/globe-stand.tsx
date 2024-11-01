@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `globe-stand` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/globe-stand?s=sharp-duotone-solid globe-stand}
  * @preview ![globe-stand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/globe-stand.svg)
  */
-const GlobeStand: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 208a144 144 0 1 0 288 0A144 144 0 1 0 64 208z" />
-        <path d="M23 359l-17 17L40 409.9l17-17 10.5-10.5c34.3 27.7 74.9 43.8 116.5 48.3l0 33.3L64 464l0 48 288 0 0-48-120 0 0-33.3c49.1-5.3 96.8-26.7 134.4-64.3c81.7-81.7 87.1-211 16.1-298.9L393 57l17-17L376 6.1 359 23 332.5 49.6l-17 17 17 17c68.7 68.7 68.7 180.2 0 248.9s-180.2 68.7-248.9 0l-17-17-17 17L23 359z" />
-    </Icon>
-);
+const GlobeStand = createIcon("globe-stand", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfAAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBeAsIAAE2AiQDCgQgBYMtB1IbHAXIjpQuI1YRBGvp7N0lKQBcgYgdClNWjaqKK5Ikyaq17ymb0qoZlX/q1POchwL4IJI5MReQdT7GOo9Azku12vS+lwtWqynW2plXDOpjkuESn2RY9DJMJk/I4lZ6UhHJjeQFrvD/AMZP9Z0kUT4FENUAMGzOjEnKvsbXJF4USokXJiIghoNcIEWKRgIMlAo0ksmRyQRfk0KBr1Eo5AQQxRhyCoqRYTHWAjKQCJFlAxpWLKqczeYbK8xp26HtoOgQdePlKFEhROUI8kd8nvF+zufZddvm4GibzrWLt45OfVPh/PT2eNWco50QD/qt4oUB3yVxrLP7H0Hv247S/G41/m72YvULdeaiOu7q97+ZvbrKdbVXMxNKrn9Jp5PVc8RNGcpN0Gr06NbLR4+eDncM+dsmJ69Zo3XrGjXzvA1k3OtAIJg8+NzsJVUH/itXMQHfH/39kd9XXCiL0uQuyklAkHYsdLQwyhSrFKUCAJDEbs2FrxoqkBogET+1kqsChAoIkChWQYBUQ9UEyFTQQYAiTfQSoFgFM6QiKy/UssiCRCXbQKq3QyBTy0NQZKDHdrFakWoZqSPkGy9uNCKjjvJunbvm/fNuplCKg4ftgHxYa7vbd9qZi1bbYrOdVllpnZ2AbTfJ22WT0RI6yg/luumsq1x/+XR5zc0Ge7sd1rWZ+T0D5OuttnbL4+3MaRJA9/2JpUQSac2fDYxVnW6H1Om89mrXzNEE");
 
 export default GlobeStand;

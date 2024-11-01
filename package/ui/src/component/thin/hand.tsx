@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand?s=thin hand}
  * @preview ![hand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hand.svg)
  */
-const Hand: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M232 48l0 24c0 0 0 0 0 0l0 176c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-168c0 0 0 0 0 0c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 255.4c0 3.2-1.9 6.2-4.9 7.4s-6.4 .6-8.7-1.7L70.6 273.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L137.1 430.4c42 42 99 65.6 158.4 65.6l8.5 0c83.9 0 152-68.1 152-152l0-200c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 56 0 48c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-48 0-56 0-8 0-56c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 168c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-168 0-8 0-24c0-17.7-14.3-32-32-32s-32 14.3-32 32zM264 0c25.3 0 46 19.5 47.9 44.3C320.4 36.7 331.6 32 344 32c26.5 0 48 21.5 48 48l0 28.2c8.5-7.6 19.7-12.2 32-12.2c26.5 0 48 21.5 48 48l0 200c0 92.8-75.2 168-168 168l-8.5 0c-63.7 0-124.7-25.3-169.7-70.3L14.1 329.9c-18.7-18.7-18.7-49.1 0-67.9s49.1-18.7 67.9 0L136 316.1 136 80c0-26.5 21.5-48 48-48c12.4 0 23.6 4.7 32.1 12.3C218 19.5 238.7 0 264 0z" />
-    </Icon>
-);
+const Hand = createIcon("hand", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABnAAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDGQsGAAE2AiQDCAQgBYMtBysblAXIjtRG94xd4uF5u77OfVW/B1CNzQzgMjIiKBMYbbqdIbX6839NvbCm46MP4Be5Ds/SzOcT2PO2SvABzQY20wnY3qZVkIxYCEOGDAkXIh3X8Pj2hDyet04F6fb0Fi6PD40/NXGCJMsARG0AjF44d7pXvovvIt4qR7xlKgJiDCgEMmRoLsAwmUBzuQK5XPBdlMvtP7AggChBLDHntfwJPMe8hSTl+Y7B1Spq5Av61qpLhaNxNMSN+rc0DBbGmoa3VD1X/wZxhEINF4S4dKTB/Hho8LPVqsWnI19eGAYrn4TqqSpqW6vn+QYRN5vcWu2+BuQRsPWjYS/Mqxrnhjw3YkHcEkcbaZwlMjsi7mSoI09bqrV5uPbDf3trw1t+vdwY74InlVatKj0Iap45U/PYUlYaPbrvmLFuq1HjtrPp8tmdO5SPHOle2ai446EY9ZopOEgvb3kvg1Q2CMwPbmQra+xIva94s+6b9Xp99XbW3H3la2LCv/9PiMp63/VUnZ07fVOv3jd/Xxv+nu8v2dtf9apnfslX9YBA0L31e4+trDXsv8rVEvjhuX9XfkXlV+Kz9DAqSyDIupW7WZagU3wmAAApDmiTIJA8IMF3re4WAUJVBEhKqgqQaaa2ALmqugpQoaX+ApRUNVcm8ipCfcsfkFS3G2QGOAhy9T0DKgzzaqykfmRBK4Wc9M+YPkGi42cVvXv0KoYUrxUsx6HQJ4cWZnunA9DROW+3wU477LPeOpvtI5g9pif3227Cih7viwq99dBLYYjCXX/WF4jYHntt1lX/NEMV+8OdHFj375znkwB9PndOIlIe4wA=");
 
 export default Hand;

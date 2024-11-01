@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `poll-people` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poll-people?s=light poll-people}
  * @preview ![poll-people](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/poll-people.svg)
  */
-const PollPeople: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 48a16 16 0 1 1 32 0A16 16 0 1 1 80 48zm64 0A48 48 0 1 0 48 48a48 48 0 1 0 96 0zM592 64c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-80 0 0-96 80 0zM272 64l208 0 0 96-208 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zm0-32c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48L272 32zM592 352c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-208 0 0-96 208 0zm-320 0l80 0 0 96-80 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zm0-32c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-320 0zM1.1 486.1L.1 494C-1 502.8 5.2 510.8 14 511.9s16.8-5.1 17.9-13.9l1-7.9c3-24 23.4-42 47.6-42l31 0c24.2 0 44.6 18 47.6 42l1 7.9c1.1 8.8 9.1 15 17.9 13.9s15-9.1 13.9-17.9l-1-7.9c-5-40-39-70.1-79.4-70.1l-31 0c-40.3 0-74.4 30-79.4 70.1zm0-288L.1 206C-1 214.8 5.2 222.8 14 223.9s16.8-5.1 17.9-13.9l1-7.9c3-24 23.4-42 47.6-42l31 0c24.2 0 44.6 18 47.6 42l1 7.9c1.1 8.8 9.1 15 17.9 13.9s15-9.1 13.9-17.9l-1-7.9c-5-40-39-70.1-79.4-70.1l-31 0c-40.3 0-74.4 30-79.4 70.1zM80 336a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const PollPeople = createIcon("poll-people", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAAB0gAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQiEEgsGAAE2AiQDCAQgBYMtBzIbFAbIjtRe8cE0ejz8Y9fXfVX1Vd1D1x9AXsDpOF0xEmP12UiO+NwQKQaCBp6jCjpL7s7/5Z6fnR/g5zvA80Maq7GXRdFemkCAP9qDEsqyOtKEpMF5Ew8hrV6h/AxZ/B19VZE8hR/iAe9N4wdt3EoiSwFEYwBMWrFknrcqUYn48P/niQ/NQUBMBoVAihTtBRgrFWgvUyCTCSrx///sP7AggKgWoIldGRriW/xKfyqJcpbVNSg3bGv13buX8VJVg2y53Ttf80Srx+RRflxLT9eVfcmfysvnamzCesF/3HlElMqlvCTyeFwjnrC4xBGPunhKHssGcdWeiIin9fEqb1sP29i8VfOLco+1imeUn0pxzyRhtYjH6InWUubvRuVx6V7zdEXrZU4s7Xxj3vj1H27/0IIHGlYqDePsifn+M2f259zw5uhANKwstNHCiZ8G4Y0+ZecVA7/go3Si9KMvBk7UEpl5woRZw6dW6icuDOh9lW2wN7zcA3ijzxv1q1H/wQfNOmmaBupr9OvKv8b8xZN/7eTTxYvnFytGz7/LkeeBQNB31Oy3NzQa+1dtKQHfvPLLX/nj/n8LL+INoFYCgrTv/32tTS4CGD6AVBLHdZ75okCioix41bLHBQg5AiSq5QKk2mksQCbXR4AqHQ0ToFpuiVRkdUJz62qQKDsEUsOdA5nmngVVxnonWa15pFc8d71y/5sppreRaZOKQf0HFqOLybySv4gZ3T+mWG3oeZzX9YILbXfAfkdts9UuR1vYYfMyx+wzfY487bOFQfobqDBasbt0f/Zy2xx2xC4H7LfjjFGc7+np+HzrXtCcCCgHy0kkRFL6Nqj7PSYA");
 
 export default PollPeople;

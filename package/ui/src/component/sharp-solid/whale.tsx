@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `whale` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whale?s=sharp-solid whale}
  * @preview ![whale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/whale.svg)
  */
-const Whale: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 0l24 104 104 24-80 80-80.8-11.5L90.6 255c-6.7 10.7-8.3 23.9-4.3 35.9c5.8 17.3 22 29 40.3 29l1.1 0c10.5 0 20.7-3.8 28.6-10.6l103.8-89C329.7 160.8 418.4 128 510.1 128L640 128l0 352-477.6 0C72.7 480 0 407.3 0 317.6c0-39.5 15.7-77.3 43.6-105.2L92 164 80 80 160 0zM400 328a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Whale = createIcon("whale", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABXQAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBOAsGAAE2AiQDCAQgBYMtBywbtATIjtRG9VSmRBBv999Xn5n7FtCs7QjKmNnhZuvsE9F3ygi+VSs8/c0/7zwK8FnDdWzsPJAFEs15nkDneZdv0Lz98dsXxa/bxGN6SOEXERIkEf0dHm8D5PFPdlKJdCm9j3P1Q+NHTZwkqZIBiNoAGL1w7nRvvovvIt4rI94zFQExGhQCGTI0F2CYTKC5XIFcLvguymX+DywIICrY8xLIkWMYpgFykKQ871qlWqlGvqBaqerS+Qvmz495sSBGxcUml9pXi1ONFsZHU9+rVi1SVI8vR7xacGfkyFgQCxc/aHa5w93Gl9q3eVz78c+t39/wvhuvG20EiS3MnGlWVYPdnPP4k1D72cZFpv3+x/jjVvnGuPjgqxhX40lZtblmzvx14uwGDWYDDcS8z67+c2WtYb9VrpbAD89+/VlbXf4uHU2PUVkCQdat3M2ydBSYGICW4oA2wRcFkn4S22t15wUIVREgqVBVgEwztQXIVdVVgJKW+gtQoaq5MpFXEepbPkBS3W6QGeAQyNX3FJQM85ZaoX5kScSmAPuFS5rgofFNRe8evYohxdLSubygtTq02JY7HZBIZ+q1wU477LPeOpvtc8ge0439tpsQweP9UKG3HnopDFEcu8/dC6y3x16b7bSj1BmquK90ciBO70xtJECf56fFFKl0cNPqbesBAAA=");
 
 export default Whale;

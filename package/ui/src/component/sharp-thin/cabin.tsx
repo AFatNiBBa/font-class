@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cabin` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cabin?s=sharp-thin cabin}
  * @preview ![cabin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cabin.svg)
  */
-const Cabin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 240l16 0 16 0 128 0 16 0 128 0 16 0 128 0 16 0 16 0 0-55.6L256 19.4 16 184.4 16 240zm16 16l-16 0L0 256l0-16 0-64L256 0 368 77l0-37 0-8 8 0 96 0 8 0 0 8 0 114 32 22 0 64 0 16-16 0-16 0 0 48 0 16 0 48 0 16 0 48 0 16 0 48 0 16-16 0-128 0-16 0 0-16 0-48 0-16 0-48 0-16 0-48 0-16 0-48-128 0 0 48 0 16 0 48 0 16 0 48 0 16 0 48 0 16-16 0L48 512l-16 0 0-16 0-48 0-16 0-48 0-16 0-48 0-16 0-48zm144 0L48 256l0 48 128 0 0-48zm160 0l0 48 128 0 0-48-128 0zM464 143l0-95-80 0 0 40 80 55zM256 120a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm40 24a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zM176 320L48 320l0 48 128 0 0-48zm0 64L48 384l0 48 128 0 0-48zM48 496l128 0 0-48L48 448l0 48zM464 320l-128 0 0 48 128 0 0-48zm0 64l-128 0 0 48 128 0 0-48zM336 496l128 0 0-48-128 0 0 48z" />
-    </Icon>
-);
+const Cabin = createIcon("cabin", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABpgAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CEBAsGAAE2AiQDCAQgBYMtBywbAAbIhofvdb6d+yR7/KWAQqwQO8S8QNRvqiXgDrDaklusUnvicue/Fn3LFybahTbmxGXRWMsSCHgs7eIlkAWWUOAJWEfzXhjE0C7U8Qp5fOq0Bunh9APu9940/jbIfSRZBiAqAKzYt2uLr/6IPyK+77xPfG8TAmIFqAUyZBgqwGKZwFC5Grlc8Ed0OuI/sCaAaAqelkCOnvgV/wBykHTP8/JUV0B077KVjZ5ub3K+2FcW3SP2xu7QryiLIIJ9sSdyylKIiWHxoiCEmvYKslwR87aysH5RFgmhXH/zvhBFiD17nxv48NgXhzwybsFDY54b98LgR8e/OPb5QbuVBUnuLosy3AFPDV8y6pXqlX9H/nD2Bz1/rqo/5vv/ueg75neqqq4s13nTlZuN1dK6qOUaFyxXqaq2Cker8zJty91l3nb+rkCy7S7tp9pSd2m7686rjm3cboJtc3/uv6Nfvx0k+8bm5AULJjel58Y3N1iW+547r+QDPzlxPxAIbn2633XHei6+0CoT+OuT//92fkY6XyXpFbQkEGRTOlMcTiARAIAUNxiVIJD8orvgVbt5QIBQIEDSVAiQGaISIFeYLEDDcHMEaCrskom8S+jrSC1MurlamJnrdmGur3eFDYt9nWzqGxmoqwBVdaGZfm0bWLOunjGtXS+sJytKNfQq7OSierV9wg2yYyI+66wrXeE6Z5x2seta7DW2ZK53ubVzzBofVJthmrbaQvXu+v3je51xjWtd7EpXuKssUp8fnuCG+f4TsSsJ5M5UlCQiNX4OCA==");
 
 export default Cabin;

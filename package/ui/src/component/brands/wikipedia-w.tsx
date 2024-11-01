@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wikipedia-w` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wikipedia-w?s=brands wikipedia-w}
  * @preview ![wikipedia-w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/wikipedia-w.svg)
  */
-const WikipediaW: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M640 51.2l-.3 12.2c-28.1.8-45 15.8-55.8 40.3-25 57.8-103.3 240-155.3 358.6H415l-81.9-193.1c-32.5 63.6-68.3 130-99.2 193.1-.3.3-15 0-15-.3C172 352.3 122.8 243.4 75.8 133.4 64.4 106.7 26.4 63.4.2 63.7c0-3.1-.3-10-.3-14.2h161.9v13.9c-19.2 1.1-52.8 13.3-43.3 34.2 21.9 49.7 103.6 240.3 125.6 288.6 15-29.7 57.8-109.2 75.3-142.8-13.9-28.3-58.6-133.9-72.8-160-9.7-17.8-36.1-19.4-55.8-19.7V49.8l142.5.3v13.1c-19.4.6-38.1 7.8-29.4 26.1 18.9 40 30.6 68.1 48.1 104.7 5.6-10.8 34.7-69.4 48.1-100.8 8.9-20.6-3.9-28.6-38.6-29.4.3-3.6 0-10.3.3-13.6 44.4-.3 111.1-.3 123.1-.6v13.6c-22.5.8-45.8 12.8-58.1 31.7l-59.2 122.8c6.4 16.1 63.3 142.8 69.2 156.7L559.2 91.8c-8.6-23.1-36.4-28.1-47.2-28.3V49.6l127.8 1.1.2.5z" />
-    </Icon>
-);
+const WikipediaW = createIcon("wikipedia-w", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABjgAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCRAsGAAE2AiQDCAQgBYMtBzIbRgXIHodxrLCSyPS4gggim+js/UsGoDcAQ8kBKgk6oMpVUOlS21yFQevtst5M05JK/X+/kLygdFkhbE9cUz/Onx6w7F2j8d8SpFprVecT2Pk0PVJg58PZgGEM020ioV2FX0RE0BDpeMKj4+kIefwTN5VIz6eHG/VN4xutXCEpZQCiIQAmLl881+17cS+iUn2PqJiNgJgECoEMGdoKMEYm0FauQC4X3ItqVf4DCwKIMn2ZBHJkuIwnADlIIs9P1ynVy5fVKdU+LLzbdrQ9S75eUjuWxdt9zgBs3mr/ZUx6oZd3q/F8DPFUF2xGrbTdHXhbSZvZZrexftbamnM3bhog0BRQGgAd9FlbPFqvkxIQ7/bI4YtoM2pWws7K3qURnd5s6N91rGyrOH+1rkYvPb786+6c+Je1n1bfwtsad/6vDeXotLDzgi6LOi16etm2CVlWyl5Uz4/+nL/34zfvHd+65bW9n7z/eadXLo95H3+05nT2y736rqvn3tNPr6m8+vqXM3+srsqQlOdZh07NGjYo1zNx7qhTety5c+/QvrVNTray4bfHF+rDeQCB4IMNX/29vsGY39RJ4MHHP/yj3Vz9KV1IjpoSCLI+1T7WpAsg1ADcFMd0Ah8USE5L1K7rGa8fajOwpKw2lmmjIZarrTdW0t5Q1rh5sUzktYSm1hKW1HUQywxzFss19Q5WMsanTlnTyEKRDyT+I5gybYanrioG9htQjCq2lS5EFwsXRxdmtcexPNCTDtpmv32O2GqLnY5M6CFz/aP2moaQqb6oMFA/AxRGKdzt6+5ltjrksJ3221eWGa04b/dwDI/vSetJgEGXWEpEqvOIaH2PAwAAAA==");
 
 export default WikipediaW;

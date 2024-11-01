@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-dog` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-dog?s=sharp-regular shield-dog}
  * @preview ![shield-dog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/shield-dog.svg)
  */
-const ShieldDog: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64.1 126L256 51.5 448 126c1 43.5-6.9 106.9-33.8 168.8C385.9 359.7 337.1 422.4 256 459.6c-81.1-37.1-129.9-99.9-158.1-164.8C71 232.9 63.1 169.5 64.1 126zm431.4-13l-1.2-20.5L475.1 85 267.6 4.5 256 0 244.4 4.5 36.9 85 17.8 92.5 16.6 113c-2.9 49.9 4.9 126.3 37.3 200.9c32.7 75.2 91 150 189.4 192.6L256 512l12.7-5.5c98.4-42.6 156.7-117.3 189.4-192.6c32.4-74.7 40.2-151 37.3-200.9zM160.9 270.2L144 304l128 64 0-64 48 0c44.2 0 80-35.8 80-80l0-48-80 0-16-32-64 0 0 64c0 35.3-28.7 64-64 64c-5.2 0-10.3-.6-15.1-1.8zM144 144l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 0-32-8 0-56 0zm112 48a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const ShieldDog = createIcon("shield-dog", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABiQAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCOwsGAAE2AiQDCAQgBYMtBzEbPAXIjsQ4JvGLKEyC50Onvi/JaSKHQSHEApKbAiCtvq4Esyvkffqbf955FOCzAGgsq/ONCySa8zyBzqOxbPylXyShQPWzfWun81+SyETSp0gyTPph8wSaXJc1mEDZqrwAVqdLyVf8WAAKJhUAAHEFAABKu3Zs5I5VrCLPbRdBnlMPCICUAmAggIr+QASAAlREPoGGAWhoCFjFZov/gQYIAIgd+TMFAA3oAMwAVsD4o0DBpGneUcFuDmaTk9bFbNJ7du3UtbPsDNyRcKbgRs2zoltpp4J3hQz09/OPki7iLZ7SSSLEV3aE7k09W3q3s5f4yOfy++nnw/cH90tITugsIma5HH88REQXf9EF2RJzJGKZdxeEOV4bzct9NouIiN642Wej1wbPTd5hx1yPffdiyAuKS2/Xhl0wanpRSc8RN26M6FlSNHIGpx09rCWaV81c4EJZj0Yl0mKZMuXd+xrjAQ9g7v078SWLJbJxh4jMLqaEFFwHd5EUWrBRQgm6m9se+/6uM0tIdV6yxNn3GBjYz3a2Wp0NGgDko7KEpMS+LgX/7c0KAF+uXXudbXfkj3IMsGe2DgJqgi2BXgo448ytCABpirQThpsRQMGCCQBXdWQTAoCgAwKAgh06AoBKAK4IABo68QgAJoLJRACwQ6cjKqI5IHjSuwMFR8YDlSxmAg1PzgMTBTzW7PAUVQsJHSI+gbFVEqpsM1KTUow8Y2prpGJhoZ5vbPMx7S4Wi02GMJYxWBjMIIZjEcgEGs1JjKZqBVdyIwapJJGCQR7Gsfe43IXBTGAiwxnLmNgkH+O+EEP7OjsWXSgAQNr7Ya5fFH3isOGDRw1KHDR2KAAAAA==");
 
 export default ShieldDog;

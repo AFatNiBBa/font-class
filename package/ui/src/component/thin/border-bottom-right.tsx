@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-bottom-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-bottom-right?s=thin border-bottom-right}
  * @preview ![border-bottom-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/border-bottom-right.svg)
  */
-const BorderBottomRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 56c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 368c0 22.1-17.9 40-40 40L24 464c-4.4 0-8 3.6-8 8s3.6 8 8 8l368 0c30.9 0 56-25.1 56-56l0-368zM320 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM128 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm96-32a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM32 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0 160a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm0-64a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0 160a16 16 0 1 0 0 32 16 16 0 1 0 0-32z" />
-    </Icon>
-);
+const BorderBottomRight = createIcon("border-bottom-right", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABggAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCBewsGAAE2AiQDCAQgBYMtBzobBQXIjpQuZyRDaQmqtX979u4ThPgqCpgVMDkCiexQEjs24lUsqti8CtGf/8s9v7XoAD8f+OmhzNm0fIPP+TyBOMyyuYSyMEsU253mcFBaeSw0LMlxLqdHdgyfPeRx03oVpOvpO87GD42fOjhJkmUAohkAExfNm+tjKUoR38vPiO9mIyAmgUIgQ4bOAoyRCXSWK5DLBaUol91/YEEAUQnJ5P4ctViFjYAcJNV53r7G5OsqGvKF/sraTVfaXmqd4mjrS7X1can15TYNcb/d1U7Z/KvtrrRtw9rsLrJqZfVDTDzW7v6o+dFv3zd+9+FM5erVlbu1eP24xW4kN8t32/3/b9XuI+1KjY2lFH7M2VXdCPsQ3oP+E9jrQCDIrj3qsappzL/qugR+vP7bX95cLsXH9AjVEgiyPuU+lsdHzSQMoJTioO7CFwWSRarhu9a7IkCoRYCkUq0AmU6aBcjV6i1Aha6GClCp1jyZyGuE1lYUkNTbAzLDHAK51p6ACmN8KlZqHZmW6Tqif/JypglNnVcM7DegGFVMq8hQHDVMjy6WEz0OrqsnrLTRLjvtt8F6W+yH32tu5YAdpkncVD9UGKifAQqjFNuNubOQ4l77bBmH9mcZrTif6+GgPLgnpBOUHGSBJBGp1fNTv6gA");
 
 export default BorderBottomRight;

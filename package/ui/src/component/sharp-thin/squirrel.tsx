@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `squirrel` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/squirrel?s=sharp-thin squirrel}
  * @preview ![squirrel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/squirrel.svg)
  */
-const Squirrel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 140.3C16 71.6 71.6 16 140.3 16s124.3 55.6 124.3 124.3l0 33.1 0 8 16 0 0-8 0-33.1C280.5 62.8 217.7 0 140.3 0S0 62.8 0 140.3s62.8 140.3 140.3 140.3l11.8 0 13.1 23.7c-20.4 22.1-32.9 51.6-32.9 84l0 115.7 0 8 8 0 220.9 0L472 512l8 0 0-16-8 0-58.9 0c24.2-16.6 40.1-44.4 40.1-76c0-26.9-11.6-51.2-30-68l.8 0 0-104 32 0 3.3 0 2.3-2.3 48-48 2.3-2.3 0-3.3 0-38.6 0-3.9-3.1-2.4-64-49.4L442.7 96 440 96l-24 0 0-24 0-8-8 0-8 0c-13.1 0-24.7 6.3-32 16c-7.3-9.7-18.9-16-32-16l-8 0-8 0 0 8 0 16 0 8 0 8 0 44.2c0 35.7-6.4 59.1-18.1 80.1c-10.6 18.9-25.5 36.1-45.3 58.9c0 0 0 0 0 0c-2.8 3.2-5.7 6.5-8.7 10l-11.2 13C218 331.8 208 363.9 208 392l0 8 16 0 0-8c0-24.9 9-53.1 24.7-71.3l11.2-13c3-3.4 5.8-6.7 8.7-10c19.6-22.6 35.8-41.2 47.2-61.6c13.3-23.9 20.2-50 20.2-87.9l0-44.2 0-8 0-8 0-8c13.3 0 24 10.7 24 24l16 0c0-13.3 10.7-24 24-24l0 24 0 8 8 0 29.3 0L496 157.3l0 31.4L452.7 232 416 232l-8 0 0 8 0 100.8c-13.7-8.1-29.7-12.8-46.8-12.8c-9.6 0-18.9 1.5-27.6 4.2l-7.6 2.4 4.8 15.3 7.6-2.4c7.2-2.3 14.8-3.5 22.8-3.5c42 0 76 34 76 76s-34 76-76 76l-212.9 0 0-107.7c0-30.1 12.4-57.4 32.3-77l4.3-4.3-2.9-5.3-18.2-33.1-2.3-4.1-4.7 0-16.5 0C71.6 264.5 16 208.9 16 140.3zM432 160a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const Squirrel = createIcon("squirrel", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABtgAAALgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDfQsGAAE2AiQDCAQgBYMtBy8b/AVRlM1Jk+yB57+8+vsq6TnVGDqdIT6tFbSytIPRE9fUD2t6wF4CTzGqQCrifAIDfto8CmzADzbTCdgWt90UMW20hcYFmHKIrjhALVCXgWmBROUN0UwAhWEAACBBAABApRZN6nH8oTwUueTbA3KJOoAASCUALAQwAAOIQwAoi4EAcZhYgImJwEPx+cR/oAUCAOJHhCgcJq19CryC8QlQqGnTvOV0O/zN5vZRV5tVFUSO1ThT7ogXQdwiIrKy/NHqp8setlb40mpuiZbN1jzgX+RyHUpamrmjze2OlAoSKVEkQhprr8vVclyu1WFzU4OIUxuTPj99rMwOKwuT+VHzeaNubOyiyEiZF4kVx8qmrG0iJWui3bIo7bVydz1Byso9hWtdE8PCJNyLzHPvydgQPT99fVFVuiwrUiIk920pni1/1O40N2J22JzweZH2xqCN77yXu18msIhpg12xom2HedEEofESM6L7jhXDe8TE9hi+wsNZPjvGUDS6aRC6TOsg5wWhJ5bhxUcIBqmY2HwkGCMqCo3W+UeP5mt900WabIrE/b4GkFRkM9eHdY2YfTO0cecjmwmxg4OFB578EtloNJpG4UGEN7rlk/GbsdhIitZ0o25MwKnB1KcTqzxUrRYYWK0qd+hL/PsiJBNEKI7gSrZtLgsNePgwIJUHALnr19eYpA6BZb9ptwLg8cEPb8qfEb7jCrUR0CgABIxsXzZtFQAKBAAAAFAyHFsBCKC4iyLIeJiL3JlxAaISfrhwxiCWoJY2cZFFO0ig2AV+uGiCgZhOhDDa0dIKD4Nog+KMpE3C2EU7KMu5pB9hYoC5Hkj1f5lZqvfhasesgtx8q7S12FcbIFdr98tYuz3pw+VcBj5LdwbQn6F0oyu9GNqjBlMvM4x+VF8jq/FFLArIJR+L0linR48Lm9ONwQzpa+eN5w8pg3V/Ip3h66szsPEDNRcWAigUE1F6yKBhvQYP7tYXAAA=");
 
 export default Squirrel;

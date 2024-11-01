@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-radiation` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-radiation?s=sharp-light circle-radiation}
  * @preview ![circle-radiation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/circle-radiation.svg)
  */
-const CircleRadiation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM189.8 109.4l-8-13.9-13.9 8C115.4 134 80 190.8 80 256l0 16 16 0 106.3 0c-1.5-5.1-2.3-10.4-2.3-16s.8-10.9 2.3-16l-89.4 0c4.5-40.9 26.2-76.7 57.7-99.9l44.7 77.5c7.4-7.8 16.9-13.5 27.7-16l-53.2-92.1zM269 201.5c10.8 2.6 20.3 8.2 27.7 16l44.7-77.5c31.5 23.3 53.2 59 57.7 99.9l-89.4 0c1.5 5.1 2.3 10.4 2.3 16s-.8 10.9-2.3 16L416 272l16 0 0-16c0-65.2-35.4-122-88-152.4l-13.9-8-8 13.9L269 201.5zm27.7 93c-7.4 7.8-16.9 13.5-27.7 16L313.7 388c-17.7 7.7-37.2 12-57.7 12s-40.1-4.3-57.7-12L243 310.5c-10.8-2.6-20.3-8.2-27.7-16l-53.2 92.1-8 13.8 13.8 8c25.9 15 56 23.6 88 23.6s62.1-8.6 88-23.6l13.8-8-8-13.8-53.2-92.1zM256 280a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const CircleRadiation = createIcon("circle-radiation", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABnwAAALNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCdwsGAAE2AiQDCAQgBYMtBzcbfgXIrgbsluHDNibuyo+n1uBKpJo1e/HzVJeIWTz8/1p639/ZTbhIUyRyDApQE1lQjawrO0TbU0ugAwEcs9soKmhaGYLTAb/9cxdXWN7+p5ir/0oS2mfrNtOSWkgIWeoKqMktwrjLsjiG15gzyQ2uLFBNIXmTyCJom/eGEqUbLMFUTfVhsDDckvSB8385vnfPjw7w25Ed2li0Fy6f7fE8gQALz5sEWWCZJmCxtDftWRIzoiQzlaS/Zx1XdIEs7gSKpKvpcJreNL5q5SSSrAAgGgJg4mTxXA9rDT6vD+K52RAQk4BcoIAC2gowRkGgrUyOTCb4zA1/A10IIEr4vgQylOMK1EEXSEpZ1ob/tdZtK1CsyZZJi5WrP2sRTwYOuwG3M36Kd/3xz9Dgh9n/lfJpfsSryZfAk97a33g3VzY5OvG19Y5qc33zprH6XOZEVdWlUAsJX58/isstxksv6iRedAx80a6pFBHX+l2PMoREHV2QUdyo3G6TuNR8GE1DY099MWPEaOGTNgfdDlvud/XcbHj+3W9b1M+E9D277f3J9DCp7f84g7OjbZMnt02cPZOR/WhO3Ov83CcObDdqqGFvIfItVjqVxVx3/tZi3uq/T3HTsVLz5JaGKjZuD3ziEP5cm+XtT1NdB2ddEv8dVXKQT9jAry50MDlV9PqFEQvEXZem9tptGoz5LyTw5d7nLyH1KUS6CeUSCAp96mGNECQCAJDiAJ0KIZCcceCvWu0SAQiVCJCUVApQ0EZDATKVegtQ1N5QAUoqLaYgsgqhqbUVJNV2g4JhDoFMU7dA0RiPkpKm4WyUsjDqiRg/TcJTj+W+fgPyUXm3r9BmR4T90fm05D3g5npCqw3sZAf7WM86NrNPoHuYm+9nO9NGyFQ+SG6gfgbIjZIvj9b8MpHsYS+b2+z6IaPl+70eDoxX9wQ1YdxBOpJEpIZfeYS+Nw4A");
 
 export default CircleRadiation;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-doctor-hair` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-doctor-hair?s=regular user-doctor-hair}
  * @preview ![user-doctor-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-doctor-hair.svg)
  */
-const UserDoctorHair: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M304 128l0 16c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-16c0-5.5 .6-10.8 1.6-16l30.4 0c29.8 0 55.9-16.3 69.6-40.5C257.3 86.4 275.5 96 296 96l1.3 0c4.3 9.8 6.7 20.6 6.7 32zM96 128l0 16c0 70.7 57.3 128 128 128s128-57.3 128-128l0-16C352 57.3 294.7 0 224 0S96 57.3 96 128zm64 225c5.2-.7 10.6-1 16-1l96 0c5.4 0 10.8 .3 16 1l0 49c-27.6 7.1-48 32.2-48 62l0 32c0 8.8 7.2 16 16 16l24 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-8 0 0-16c0-17.7 14.3-32 32-32s32 14.3 32 32l0 16-8 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l24 0c8.8 0 16-7.2 16-16l0-32c0-29.8-20.4-54.9-48-62l0-40.7c46.9 19 80 65 80 118.7l0 8c0 13.3 10.7 24 24 24s24-10.7 24-24l0-8c0-97.2-78.8-176-176-176l-96 0C78.8 304 0 382.8 0 480l0 8c0 13.3 10.7 24 24 24s24-10.7 24-24l0-8c0-53.7 33.1-99.7 80-118.7l0 41c-23.1 6.9-40 28.3-40 53.7c0 30.9 25.1 56 56 56s56-25.1 56-56c0-25.4-16.9-46.8-40-53.7l0-49.3zm-16 79a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const UserDoctorHair = createIcon("user-doctor-hair", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABqAAAAKvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDFgsGAAE2AiQDCAQgBYMtBzcbnQVRVA3yZD8OY+dJGBVhFKkoRrGUKmdv/U7i4Z/93H3vy4aIZZaw5JmoJXupkDwTyRbqKGGHSgnfKFurGx1ukKFgb8EHc41E5CVTSc00U4vvKxcP+X6IJD42dep5zkMBfMsSD8qeuqkTJNS5zitQ0drcArWARRRr0jZE7TY0tJeQOEAZb/GgIl/yF/dZTuPfnPWkqgAQowDg6KKtAY97tAW7zQ2i6xgExBFgFVGgwCKCXfYCixysglIp6MX/xvsP1BBA1IrzEpSo8YFP9iVSaeZj3s865SId3Rw6paNlFMT+6NPpN2PPBpFrTMlbSWciJHegH8SRggcVFz0KI48WPqws/77u2CUltxngce/dwB2G5C5zp9VCco25S24zdgAt3O4NGfCK385I8kbMmUBwT8Qpf/Jz6/tOCz82v23fpYfizmV9VtqOF2OHWTZ3+a+xPvh2+wnf3eEn/fZFhZ5VZ7+uvRx5iaQipRQ7h5Ua7qSCMIPwZdj6g5jxfAtJjullzc1l6Y7iuGGRbU70QcyloOLNW1PD3eYDm3ubEVBw37zZ3aMtRex5eK2G+fZNRQwKexuFgNHSYgiwVrGWfaglBxFsLhp7C2NgXLjo5fx9cW5u8buz18ULRopHI0GTbI0GAIBnNe9rt5f8v0IaJfj7+f6vv17zmI/zLNoSBEWn6eiKx+ARA6hk3AllChZI70oofnXQowChHwFSrV+AwgKFoNRvHUFlWQaCWr8T9qLsEyZ1zyANugSFHStAadI1UNn1pFKbjELM8iKO/2NMqVxDFat0SmKyztVkwygIQzZezNOXnejl/kCMuRYjZs1YatiQcUtXyIKG+jLTKjm4QoG0FImSabn04/Z7pdOmW2VJymLx+TJ59PdBtOX8+BjTt1NQbsikJHJUnusJmk1NULgAAAA=");
 
 export default UserDoctorHair;

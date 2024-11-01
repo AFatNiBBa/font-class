@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shovel-snow` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shovel-snow?s=solid shovel-snow}
  * @preview ![shovel-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shovel-snow.svg)
  */
-const ShovelSnow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M391 7c9.4-9.4 24.6-9.4 33.9 0l80 80c9.4 9.4 9.4 24.6 0 33.9l-31.4 31.4c-15.1 15.1-35.6 23.6-57 23.6c-13.5 0-26.2-3.3-37.4-9.2l-83.5 83.5 47 47c11.3 11.3 12.5 29.1 3 41.8l-120 160c-5.6 7.4-14.1 12.1-23.3 12.7s-18.3-2.7-24.9-9.3l-168-168C2.8 328.1-.6 319 .1 309.7s5.3-17.8 12.7-23.3l160-120c12.7-9.6 30.6-8.3 41.8 3l47 47 83.5-83.5c-5.9-11.2-9.2-23.9-9.2-37.4c0-21.4 8.5-41.9 23.6-57L391 7zm17 50.9L393.5 72.4c-6.1 6.1-9.5 14.4-9.5 23c0 18 14.6 32.6 32.6 32.6c8.6 0 16.9-3.4 23-9.5L454.1 104 408 57.9zM203.3 267.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-80 80c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l80-80zm64 64c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-80 80c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l80-80z" />
-    </Icon>
-);
+const ShovelSnow = createIcon("shovel-snow", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdgAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBdwsGAAE2AiQDCAQgBYMtBzIb+QTIjsK2tXOMmaRMUhyO8IuH54+95953/zKovYoaOBJsNrBN24ps4ON56Pzn91fnDr1qbyE2GYmoUhzUFRscikLZ2cT0/+dyepOPDvAbHdKYuPRAbvvatbmXQKIL1/DAwyyUwD1zV5fwUNpLaS1Yksdz+cseKk75k+iQH7wHwEt+0/iHg0lSbwNAjAAADs9y03H1QR9E99w+8YVUEBCHAOYRGhqmEdjBF5gmMA9KCX6I48J/IIMAogv0uxMUunAFrgEUSFUCH7VCIRcqBQVyoazR6JpPa/YeZAqZd8ujWDLb59GiYd62gJbtVuwKyegZS4W0TmPe3oEGO8MibieX5At2dhSXt2K7bMijRZslu8Jsfo2TRWP5dHxoeDD9qVRmZuLlxYoBNj05ObCC/z24g/tfldloxMeg6mhnEOWrVozDoxNOA1/5Smxv9+qcSrn6hteHl/V1szkzE4XgSDwNCARDd38lleqY7x45D/B38vXnFY4uuUoxzwJ6JAjaIuejLKEg/wsQYGcMwAmfhEA6IoCdA14FCH1gSF36oJmigdJnATpmhXKLO47wRUkRJpQDpAE30GwbgjJhFzp2XNtdJoJvY4KFCF+81ASJx69igX4BLIpNc1U0Gy7NR7NlzWMg9jyxFg06dehTr06zPkH3SPf6tUvQqHhfxATyE4CJwrarW7XA2T16NY+FfcQy0dh5y8OAPtoTJg8xroumJFLe++ylt/neXgAAAA==");
 
 export default ShovelSnow;

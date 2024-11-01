@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `starfighter` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starfighter?s=sharp-light starfighter}
  * @preview ![starfighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/starfighter.svg)
  */
-const Starfighter: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M273.8 0l-1.7 14.1-32 264-.1 1 0 1 0 184 0 16 16 0 128 0 16 0 0-16 0-184 0-1-.1-1-32-264L366.2 0 352 0 288 0 273.8 0zm28.4 32l35.6 0L368 281l0 167-96 0 0-167L302.2 32zM64 96l0-16L32 80l0 16 0 32-16 0L0 128l0 32 16 0 16 0 0 288 0 16 32 0 0-16 0-19.3 64 26.7 0 8.7 0 16 16 0 48 0 0 16 0 16 32 0 0-16 0-32 0-16-16 0-48 0 0-160 48 0 16 0 0-32-16 0-64 0-16 0 0 16 0 48-64 0 0-160 16 0 16 0 0-32-16 0-16 0 0-32zm0 298l0-42 64 0 0 68.7L64 394zM608 96l0-16-32 0 0 16 0 32-16 0-16 0 0 32 16 0 16 0 0 160-64 0 0-48 0-16-16 0-64 0-16 0 0 32 16 0 48 0 0 160-48 0-16 0 0 16 0 32 0 16 32 0 0-16 0-16 48 0 16 0 0-16 0-8.7 64-26.7 0 19.3 0 16 32 0 0-16 0-288 16 0 16 0 0-32-16 0-16 0 0-32zM512 352l64 0 0 42-64 26.7 0-68.7zM320 224c-8.8 0-16 7.2-16 16l0 80 32 0 0-80c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const Starfighter = createIcon("starfighter", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABoQAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDewsGAAE2AiQDCAQgBYMtBzIb/QXIjpQuZyQRPD/3n3Nu8ilZyBJnmdFhW0/g1hUAHdtKdmUF/DLEM37imOkyKDHKRtDGUa2RGJHnowHtBhSNkTaw0ezx7UXxNXNDpRt6L4Znt+xcIY9/Yowm0uPpc9zb/dD4US/3kOQZgKgAsHD75rU+/Ca+ifi88RrxudUIiEWgFsiQoa8Ac2QCfeVq5HLBN9FoJP8DawKIZnhfAjna8CW+B+Qgacnzfu2Xt8UpZdnUPt+WFxTHu/bouiP4/rIMLNwV3aNYURbl1tDTI2L7Fo0MUFDKMoUmoF+5zIhThx4Ykk7PWUZ04TJNrLq8lYSIRUSwELX8UsbVnCHbauOWsijFiohtD3UVH3qk+6Cnq6d/9vmxz3X6oB9OG9AihDdVqvsqbwpBEOqnw4AhSO/3pycc8IQ+8+f5VVXVKi20Aol08Ze2peoJPkotJZQ7JlScGyoTLCBfoB6F+RZY6u8BI1ej3rHABH+1oXYtr6SE2uYvXSrP4NrfWIBPjPK3pR/c/KbDBrUNOnwDBIL/n/+k/R3n/NZaJvDd27+ue7nxYbqVnkarBIJsTGOMPekWJNwBRFNcM0jziwLJF1rgW9t5RIBQIEDSrBAg00clQK4wWoAm/U0VoFlhs0zkbUJXeydm0s5FZmaa68xcV68wm8zxUaRZ18juctk9KvvJTL2MgpfOqieOm1DPqpVlg/zGlZTjs2tr84hrXNtI/6hjzjvniqOOOOkKIVyyNn7VWct0+KX+UG2icSaozVIvrs2rtxHqJZedNJ5bPsls9fb+Ea7pe4/0bQl4TpKVJCKVj6H8MwcA");
 
 export default Starfighter;

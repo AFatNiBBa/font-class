@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-8` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-8?s=sharp-solid circle-8}
  * @preview ![circle-8](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/circle-8.svg)
  */
-const Circle_8: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM264 128l-16 0c-39.8 0-72 32.2-72 72c0 15.7 5 30.1 13.5 42c-18 14.7-29.5 37-29.5 62c0 44.2 35.8 80 80 80l32 0c44.2 0 80-35.8 80-80c0-25-11.5-47.4-29.5-62c8.5-11.8 13.5-26.3 13.5-42c0-39.8-32.2-72-72-72zm-16 96c-13.2 0-24-10.8-24-24s10.7-24 24-24l16 0c13.3 0 24 10.7 24 24s-10.7 24-24 24c0 0 0 0 0 0l-16 0s0 0 0 0zm16 48l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0 16 0z" />
-    </Icon>
-);
+const Circle_8 = createIcon("circle-8", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfQAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCFQsGAAE2AiQDCAQgBYMtBy8bFAXIhqDS+X3PSvb5ScegY6BPlAFyBBQCY+r6KUHs6e/n+T//9AGf0UeLwmwskOhVnU9ggLPdLMF3O48Cm+kEbHvTjE1S9nRMJjVJx7nji06Qx+vZNWqkB9MXuL1+aPyqj2tI2jIA0RkAi3duXe+dZjQjPm+9SHxuLQJiMagEMmToL8A8mUB/uQq5XNCMVov+AysCiDp55QRy1HE2LgHkIMnzvN/AHr3KWod8R1kr4uelEe9v/Lq8ef2Xi9/d/sOid9Z9Udy04asl7+04WpTF46Oe7n1Fn6f7Pzr6mellvDz2uUGPjXk4Hhrz7IhtT/Z9eGQZT/R5YNiVcWUUARcYUBblzT3udUX3e4oibup5X1zZ6/6yHPJs52d/H/zFiS+8Y3kbfZ5/d+nSd5/v02a5rZLa7vLOuGtz6tSOvb/9qB47jneudD6+I+ovvdu74yTZ7HRwc48emztra6EzaDXE73jDDR2TXNFzNIBAML//X+MPdpr3f6NM4JfX/vwd/Ypa7yTpWTQkEGTjWuPsSyARAIAUlxiSIJAcl8Nrbe8+AUKBAEldIUCmn84C5ApjBagZaLoAdYWtMpG3Cd3t7yBp73yQmeFSkOvueVAzz8dBXffIQo4IGOLFF7vCQstXVZMnTKrmVMuKklGE5cW51TY36hIeGA1bnXCuc1zkuGNOu8ggF1gfX+xsKzx4uS+qTDbBJJU5quP2cfMOx13gQqed65yyzFzVfWuUS/zxo0FMBHWKXJKI1PiZw4+fBQAA");
 
 export default Circle_8;

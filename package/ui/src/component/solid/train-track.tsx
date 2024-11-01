@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `train-track` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-track?s=solid train-track}
  * @preview ![train-track](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/train-track.svg)
  */
-const TrainTrack: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M222.4 74.1c5.6-16.8-3.5-34.9-20.2-40.5s-34.9 3.5-40.5 20.2L147.6 96 112 96c-17.7 0-32 14.3-32 32s14.3 32 32 32l14.3 0-21.3 64L72 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l11.6 0L62.3 352 32 352c-17.7 0-32 14.3-32 32s14.3 32 32 32l8.9 0-7.3 21.9c-5.6 16.8 3.5 34.9 20.2 40.5s34.9-3.5 40.5-20.2l14-42.1 359.2 0 14 42.1c5.6 16.8 23.7 25.8 40.5 20.2s25.8-23.7 20.2-40.5L535.1 416l8.9 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-30.3 0-21.3-64 11.6 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32.9 0-21.3-64 14.3 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-35.6 0-14-42.1c-5.6-16.8-23.7-25.8-40.5-20.2s-25.8 23.7-20.2 40.5L360.9 96 215.1 96l7.3-21.9zM193.7 160l188.5 0 21.3 64-231.2 0 21.3-64zM446.3 352l-316.5 0 21.3-64 273.9 0 21.3 64z" />
-    </Icon>
-);
+const TrainTrack = createIcon("train-track", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABlwAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCdwsGAAE2AiQDCAQgBYMtBzIbeQXIjtRG+YWZxMPzet//2ie5AzDzDH64g9gJLeCigSuXQtW+T1yOfyx6esDdFA9lzGlr0Bj7PIHOA8k3B5yFWaYJWNbVjGNH0ll6JBmplZUer63HpzPk8Xl2lRLp/vQJbu1vGj/pdBVJZQYgGgCwcPvmtd74Jr6J+Ph/xMdWIyAWgkIgQ4YeAebIBHrkCuRywTfx///2H1gQQJTxH2oCOUp4AI8BcpBkeX5NZWV1qTbfVl2q2n1vW8Q9bfe03NXSE1VxQ8tdLmu9u7o6JkiwI+5qSra239veH7XRGyy/t60rquNGHDUub7unqiomTda+55QkWjsrurdUV1VP7E+bvLWmtmZy1MbEQU81PPXLwCfHPvHlhXNWsfvttx8x51ND1F13Xd2cst6AsDX260tWOiqht+AJnwr+7CNVu1fNOaoSQB9WUxqwXh1MgwGuIVbvKrvD0e6tr7jcft/b//frc5LrNRnEQNz29efje/bXz/m1ojqB7176h+Xh/79KC9JTqJBAkI35f4w9aQGYbAC5FBcZFHxQILlPxl+1xj0ChCoESMpUCZDp1iBArspoAUr6TBWgTJXNMpFXCi32bnRS41w6M83FdK7F03TJHO9ny7REVqPaCtP+ImZaptDSQ8XEcROKWcVpz6orO/W4O7u47BpxEWdG4qRjznaWCxx1xEkXCHWetYULnWlZRC71RYWJxpmgMEuRHr43bZPkec5H9bE+v89sxf2xES6Kl4+EN3GFkzQliUjV76Jl7JcA");
 
 export default TrainTrack;

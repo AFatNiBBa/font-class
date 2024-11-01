@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-minus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-minus?s=thin hexagon-minus}
  * @preview ![hexagon-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hexagon-minus.svg)
  */
-const HexagonMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M400.8 450.8s0 0 0 0L497.1 284c2.5-4.3 4.4-8.9 5.6-13.6c2-7.7 2.4-15.7 1.1-23.6c-1.1-6.5-3.3-12.9-6.7-18.8L400.8 61.2c-10-17.3-28.5-28-48.5-28l-192.6 0c-20 0-38.5 10.7-48.5 28L14.9 228c-3.9 6.7-6.3 14.1-7.1 21.6c-1.4 11.8 1 23.9 7.1 34.4l96.3 166.8c10 17.3 28.5 28 48.5 28l192.6 0c20 0 38.5-10.7 48.5-28zM483.2 236c2.7 4.6 4.4 9.7 5 14.8l-2.7 20.4c-.7 1.6-1.5 3.2-2.3 4.8L386.9 442.8c-7.1 12.4-20.3 20-34.6 20l-192.6 0c-14.3 0-27.5-7.6-34.6-20L28.8 276c-3.6-6.2-5.4-13.1-5.4-20c0-3.4 .4-6.8 1.3-10.1c.9-3.4 2.2-6.8 4.1-9.9L125.1 69.2c7.1-12.4 20.4-20 34.6-20l192.6 0c14.3 0 27.5 7.6 34.6 20L483.2 236zM160 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l192 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-192 0z" />
-    </Icon>
-);
+const HexagonMinus = createIcon("hexagon-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBdQsGAAE2AiQDCAQgBYMtBzQb+QTIjtRG+UVWEkGk+9fZk96zLZlBBmDozcE2XDpduOOO6p+0jFn7/D7/53q+tNEAk3hokZQ6XoNHXz8/gQ96dG1NB5x2YBPF223IDA7/iqDIAYeIIS40gyfI40171EjPpk9wN/5ofK2TOyRZBiBaAmDm+tVLvdcQDRGf/I/4xGIExCxQCWTI0FWAKTKBrnIVcrmgIf7/X/8HVgQQdfS8CeSoYTMOAnKQZHnet1fTstYsX1fWip03I+JmrI+nOzzd/qn26+K1fkW8MGBNPGr7TLu18WrfMl4evP5xu47DjTdjTTzTp4iXOq+Lp+Jmh6c7rI/n+5fxYqe1Ox615c0y3J1PtS96vdbytW97frLvE/cSsP0lYzsM6tJpQeEUP7znh8LfWLa661es/GJcozZaBwZ/ssPa8UQBN5S1tnkfG80qd9TrScwPg0Dw6e3GbW8x5dfGZQJfvfFfeFv9/y/jr/QaGksgyIb8P8SWhMHVgQIoSnFOLxhYIFktA/rWpp4SIBQIkNQVAmS6aClArjBYgJruxgpQV1gtE3kToa2tjUqaOkllxrlK5dp6naqZ4v2orm1kIiYJiPTCS5/XQ3NB1chhI6pJ1TJTZakR3OLkatsacA47A2GrfY475oy99jjoTEeesjQ966h5HDHXgCojDTNCZZLquHxev85ep5x20HHHwjKTVfe9Ac7x4weCmxDvKEeTRKRmB/Ze2Ln/+LGhP9MbpwEA");
 
 export default HexagonMinus;

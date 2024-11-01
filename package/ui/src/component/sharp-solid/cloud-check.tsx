@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-check?s=sharp-solid cloud-check}
  * @preview ![cloud-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-check.svg)
  */
-const CloudCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 480L0 480 0 336c0-62.7 40.1-116 96-135.8l0-8.2c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96l0 36c55.2 14.2 96 64.3 96 124l0 128-128 0-368 0zM433 241l17-17L416 190.1l-17 17-111 111-47-47-17-17L190.1 288l17 17 64 64 17 17 17-17L433 241z" />
-    </Icon>
-);
+const CloudCheck = createIcon("cloud-check", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYgAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBQQsGAAE2AiQDCAQgBYMtBzIbwwTIhof/t+u/fW7VU/c36tvMoNwcSBkYTvrWpIwmUk9/8887jwJ8HEFoY9PSQBbgXucJJNblG6SA+hssUfzmrq7VKNG+aClL8vjZ4+dngjz+yS6qIt1JP+BS+dH4TVsXSeoyANEEAFNWLVvgq/qoj/i+8j7xvXkIiCmgEMiQoYMA42UCHeQK5HJBfVQq/B9YEEBUk/dIIEeO6VgAyEGS8rxb23JVw3xluaq0olQuRTwa9OaoiF8mfbnq/TEfD3ix/H6flzuK9we83lGUVvbr3W9i9I7lMTH6xvjoE0totF+s6vpKk1f+6PLDzh9c6nwZh2p87dqbtWLaDz9Mi6+Gj1h2qNPZV16p7e7uk8sNzzq78E80xcGD2okVcOYMEAh+Pn75hU2Nx/9dW07g10/++kPcXalPZ9MrqJVAkPWv9Lc+nQVGB6ClOKmrcbNAMl4CuWoDNwUIJQRIqpUEyLTXRIBcST8BqnQyQoBqJctkIq8TWtjQQdLAEZAZ6RTItfAuqDLe11q1FpE5EukG5DsubqaGZvQVQwYOLsYWU1elfANP7XHFstj7ZEj1waidDjnouB222+O4Qo5aYJ5wwEwLnuFGhSEGGqwwVrEdPA6vtMNRx+xxyMHcZZzivNrbSbu4D5REMIeyJIlI5R8FhQE3EgA=");
 
 export default CloudCheck;

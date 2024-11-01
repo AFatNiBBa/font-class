@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `floppy-disk-circle-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk-circle-xmark?s=sharp-solid floppy-disk-circle-xmark}
  * @preview ![floppy-disk-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/floppy-disk-circle-xmark.svg)
  */
-const FloppyDiskCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 32L0 32 0 64 0 448l0 32 32 0 264.2 0c-17.6-21.4-30.3-46.9-36.3-75c-10.2 6.9-22.6 11-35.9 11c-35.3 0-64-28.7-64-64s28.7-64 64-64c16.8 0 32.1 6.5 43.6 17.1C292.9 239 357 192 432 192c5.4 0 10.7 .2 16 .7l0-32.7 0-13.3-9.4-9.4-96-96L333.3 32 320 32 32 32zM64 96l256 0 0 128L64 224 64 96zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm59.3-180.7L454.6 368l36.7 36.7L502.6 416 480 438.6l-11.3-11.3L432 390.6l-36.7 36.7L384 438.6 361.4 416l11.3-11.3L409.4 368l-36.7-36.7L361.4 320 384 297.4l11.3 11.3L432 345.4l36.7-36.7L480 297.4 502.6 320l-11.3 11.3z" />
-    </Icon>
-);
+const FloppyDiskCircleXmark = createIcon("floppy-disk-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiQAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCOgsGAAE2AiQDCAQgBYMtBz8bSQXIjtMVcxRJktwj+n7vr57zLjG4rGJUWaKjREgKh/wSFC4ppFhjttauERj/etRMsEjW+FkJlcRTRaBz0blo9l0lTFzu/M+fHnDZEzzSWBNkgf+39nkCiS3eFIfTwiwMJCHPvGWO9UjZL5mJJunxmx6/2kLLO3kDVOpbegt4ry+a/3C1AcpQB4BMAgCuHirK8fwzP5Nv/t8B8gelIJArAMuIDh3mEZySBfMUy6Bpwl/+/8//gQIIkH7I1RZo6EcPvAJooLSmhJq7B+uqpVKtq1qDpmtIERmxvOi1WzsbctHtUOilwDP+t1IfFW5yJEknVuOiWqWlhSUySnZtSiUfRV7j2oirKQ+1jUn3wy5jzfaV5Ad6TVpmWjodGUQnZjCNDgyhMzMV68RQOjKdtGuD6eBz0ebiqvG2+y28fwRWYg1BDF7b+MvhuK2tpuH3jm/3Np4+XWM2asDSm5ZH7Gf5mwnogd7TsUAJat8ICDCiJSkwUEKYcjtOvgEPdbskV65Luj0UZzwfEISV69S1LdZpX810CfDv4ZdVtJN/n0tZ0kXAoAKh2/ofhsbKAmA8gbwyDR/njYLyQiHPOuoDQQwjoPQbFtCZY4OgGbaJoM+ieAT9ht2QpZkjZjUpXEY9w50TS3Az6xbc59SLrN9s5ChkYoh5AyYWWCB/kYiOiBIpYlrpbGBReTZVLJtB06knmNai24hhk7p06jNpoHHl5ZQhBR6Y74OEaBGiCCnEdvNxebUu4yb0GTFc5kklzqdBpv3hweRIhPDAplKkXLoHR0ZH58Lvrxr+ZccKn41bAAA=");
 
 export default FloppyDiskCircleXmark;

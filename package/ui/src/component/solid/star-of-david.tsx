@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-of-david` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-of-david?s=solid star-of-david}
  * @preview ![star-of-david](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/star-of-david.svg)
  */
-const StarOfDavid: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M404.2 309.5L383.1 344l42.3 0-21.1-34.5zM371.4 256l-54-88-122.8 0-54 88 54 88 122.8 0 54-88zm65.7 0l53.4 87c3.6 5.9 5.5 12.7 5.5 19.6c0 20.7-16.8 37.4-37.4 37.4l-109.8 0-56.2 91.5C284.8 504.3 270.9 512 256 512s-28.8-7.7-36.6-20.5L163.3 400 53.4 400C32.8 400 16 383.2 16 362.6c0-6.9 1.9-13.7 5.5-19.6l53.4-87L21.5 169c-3.6-5.9-5.5-12.7-5.5-19.6C16 128.8 32.8 112 53.4 112l109.8 0 56.2-91.5C227.2 7.7 241.1 0 256 0s28.8 7.7 36.6 20.5L348.7 112l109.8 0c20.7 0 37.4 16.8 37.4 37.4c0 6.9-1.9 13.7-5.5 19.6l-53.4 87zm-54-88l21.1 34.5L425.4 168l-42.3 0zM283 112L256 68l-27 44 54 0zM128.9 168l-42.3 0 21.1 34.5L128.9 168zM107.8 309.5L86.6 344l42.3 0-21.1-34.5zM229 400l27 44 27-44-54 0z" />
-    </Icon>
-);
+const StarOfDavid = createIcon("star-of-david", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhQAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCPwsGAAE2AiQDCAQgBYMtBzQbQwXIjsN06yPHMSRJ8h5CtGyZ2b37pxXXPaiqutClSoQBxUssqhVhURbhq8UI/Cf/8s9daCJXE0lV9s1GUqUKrOPS+myKFM0Xup245vljhbfRo9QiwyJxlHk+gQFG625e4LOBzXQCtsVtN0PMQxqEwg1qXMln0ZBvss+Am+JD4w+OZkl9BQAxCgDYOSzIx/0bvRF9Mp5AfCAXBMQOgHmEgoJpBNbJBaYpzIOqCr7JaBT/gRwIIFqEr0tQ0Y8euANUkLpVoTaNVocvYkpThWBKXY1foB+jgBQhCR3pSSJGBiYJaQVXk8u6/hXrbjtOgnQ0Z7dKU/YGElS419iqHG15bjuu98zbqjV64R/gH0g6EUD3+RHT65jOnwL1l9uk6fUuBxYHX5w/13/G0nVyWOOD5CbcwF3DkCpTi0hKmKCXCpnF/oF5OyJP8djZ+WhS7czfBy5WOG1GLC+B5gfYCZ5MT3kjDocbUkIWPmeRhwzW3iJ9CilImVx80NcrmrofIBBcfoY6VZjH/dEwGeD38tv/4mdk8X9P32UHoCtBUBaNfihNGGUR30EAgIx+uCSMIqRzGuG7DnoWIPQjQGr1C1BMsUCg6reAQGNWOAKtfrvkomoRJpU1Yhp0IRZrxsRq0pHYWPcu15oMORzqoEj3G5g5owukr+LBAUE8hs82VHrQUu1iLN/s9uqXA974Iup1aNerTq0mvR26W36xT5uMJTTdF3HBAgThYvDD7YdmQXPdejRNG48vE4tfH/fSvzzeG/tkQskldSmJNH1Rsv4d9f7fKAA=");
 
 export default StarOfDavid;

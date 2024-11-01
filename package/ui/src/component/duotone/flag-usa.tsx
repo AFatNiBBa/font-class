@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flag-usa` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flag-usa?s=duotone flag-usa}
  * @preview ![flag-usa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/flag-usa.svg)
  */
-const FlagUsa: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 235.8l0 63.3 63.5-13.6c43-9.2 87.9-4.6 128.1 13.3l16.1 7.2c41.6 18.5 88.8 20.1 131.6 4.6L448 294.3l0-62-33.7 12.3C363.7 263 307.9 261 258.7 239.2L242.6 232c-34-15.1-72-19.1-108.4-11.3L64 235.8zm0 96L64 400l64.3-16.1c41.1-10.3 84.6-5.5 122.5 13.4c44.2 22.1 95.5 24.8 141.7 7.4l34.7-13c12.5-4.7 20.8-16.6 20.8-30l0-33.5-33.7 12.3C363.7 359 307.9 357 258.7 335.2L242.6 328c-34-15.1-72-19.1-108.4-11.3L64 331.8zM192 27l0 62.9c21.8 2.2 43.3 7.9 63.6 16.9l16.1 7.2c41.6 18.5 88.8 20.1 131.6 4.6L448 102.2l0-36.1c0-23-24.2-38-44.8-27.7l-9.6 4.8c-46.3 23.2-100.8 23.2-147.1 0c-17.2-8.6-35.6-14-54.4-16.3zm0 95.1l0 63.8c21.8 2.2 43.3 7.9 63.6 16.9l16.1 7.2c41.6 18.5 88.8 20.1 131.6 4.6L448 198.3l0-62-33.7 12.3C363.7 167 307.9 165 258.7 143.2L242.6 136c-16.2-7.2-33.2-11.9-50.6-13.9z" />
-        <path d="M192 122.1l0-32.2L192 27c-19.6-2.3-39.6-1.1-59 3.8L64 48l0-16C64 14.3 49.7 0 32 0S0 14.3 0 32L0 64l0 56.8 0 32.7 0 63.3 0 32.7 0 63.3 0 32.7L0 416l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-80 0-68.2 0-32.7 0-63.3L64 224l0-20.9 63.5-13.6c21.3-4.6 43-5.7 64.5-3.6l0-63.8zM80 96a16 16 0 1 1 32 0A16 16 0 1 1 80 96zm64-32a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM80 144a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64-32a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const FlagUsa = createIcon("flag-usa", true, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABwQAAAKmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDbgsIAAE2AiQDCgQgBYMtB0wbDAbIjsK22TMSieWSZWQNHhwy8fDv2Ot9SQqEI0CHEoWaZlk3R0JNKABUQOqfKbaTrcHvN+8mpo+5WxNLrJlkjx5/mybrhDLRBGz+L8f37vltwI9HdCaHe5YtXh7uwRMw4GjiWBQF1PM4izgDa3DepEMKbQjpByhxkJdUka6mB1yM/wcw/uizBEldBkC0AgC2HCkvhFShIvFh6ox4Zz8IiK0ARhEZGYMI1tMUGKRlFBRFUEn//1CJ/38BAUQ14sdlUI0GvMdPQAFJlVK0kvVBob29g42htrFWVfytBvUUwf3pFQzOd2/UyzvXCMF+oWu9YblnM7gvm9dmsGrTdr1rrXOjOz/ixu0r5B3VoF3xZU8XX46sIxnB58PdvNt+EKveyz1scRUPBiBUH7/uefX9ne6N6Va8qpev3Z8JLWlu4ya349bjf7KHrnceZgohkvH4IqMVZkwmJkwKukAsmeRUlhRMlCBjm5EuSvx9pQzbmygqJtD6lxwcv6l4nrbpQ3J8mRKpTd//SxlItZGwkZOi/nzxh6zTmSbHMsAJ/yZPMmQ59k6IKW5wVDRw4J8PeRjXeBVrp+OXVzpLlsz0ku09ad6M5e3SN58iXwEIBNMmDR+Ptqz/1TPUAPy48/6t+R1NSZTSMWolEOT5/wEa4hHEIwEASDEFt5CwGZGdpA2/aqNLCBDqESCpVi9ANsAMQVFvHoIqwyIRVKt3gKYo+gidGgeQNDoFspWmQdHpFFRZ7zpTrTM0LbhkPaXfy/SsKZy5TIQGhYg4sVvUyXZW0MPx4rLvM8WbfOFGdBk2ZEKnDr0mJtSYwvykQVlHSKYPEkIFCSHEEY8rL/UqnBkzrndbfT5JPPF9wsfUcWdfGGlIGZdakWUiUdPMH+UDJ8dbA32KazFTgwQ=");
 
 export default FlagUsa;

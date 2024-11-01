@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `speakers` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/speakers?s=solid speakers}
  * @preview ![speakers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/speakers.svg)
  */
-const Speakers: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 0L280.4 0C265.2 17 256 39.4 256 64l0 193.6c-20.3-20.7-48.7-33.6-80-33.6c-61.9 0-112 50.1-112 112s50.1 112 112 112c31.3 0 59.7-12.9 80-33.6l0 33.6c0 24.6 9.2 47 24.4 64L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0zM320 503.4c-19.1-11.1-32-31.7-32-55.4l0-112 0-272c0-23.7 12.9-44.4 32-55.4C329.4 3.1 340.3 0 352 0L576 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64l-224 0c-11.7 0-22.6-3.1-32-8.6zM352 336a112 112 0 1 0 224 0 112 112 0 1 0 -224 0zM176 272a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm0-112a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM400 336a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM512 112a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const Speakers = createIcon("speakers", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABoQAAAKNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iCagsGAAE2AiQDCAQgBYMtBy8baQXIHgdu7BqHks0Eg+fJrnq/qntQvUbtSYhER84oZZMpO3MIbPerXRxBIhmGmEgkcUJ1hod5uunv5/k//1T4e5ViQ/mRttJ5NEbU+QQG+HDzpt0EZsMoUZw6HaXQKojk8FDGGF0ow+MrHp9b4MQfvRwXaqsnwNrzRuWTy3JQghUAAOkAAEDLXt26ciMiEZHH8bMgl86AAGQCYBGggQYFCIAmaAIKcFjA4RBEJB63/0ALAgBp4HIKgAOCYB2wHQBwACj+dMrk5yci7rmJTs8LbPp5xjtQgJx6ZyrsblsrHqx7vjpyhJF9lQ7ladlc+XD5PocU0bK98nrPk71z81wlGyocKHPsiqxeixHZWHavt7L8/vzNsiRvU7l9ZkWZPTkb6Hk2xSeK6pyrdKjy4fpCBBMiPTcZ7LF94DVYuMV5CRX1SgvGB8G95Tm41KGUQ+9Knox8QvPrIRBj3Ft8LPjwPzn5/4cbXAp3hdiRmmoWY7Y3d8S/v8yYTAoZL0NpkWhdhLRQ8b6iV/Bq2zaLDvxXRUVaqzjevEa14uJqNdR+8o7On2+HX/i4jn36FNN+k8Jm4rx5E835ACBAYH9tfIOSm3wLeAqA2KUPP/104jfUYnUICFAABHrEq9BfLQYQVwFASsVMSpE7EqCswQ/XmmAdAkAYIAAUH0MAaPmkIAAcRmUEgKuIuggAH6MbmmQQkcGAxioJprBaPRawjgxOs64m3E/6ZIiuTrm25H/DjHY91HaVrVmthm1kpw2PUnAiXWxs06EKM32gomxkJJOYyHRGMJwxTO+QqXTNzGAC7Rjclh9iqUk1amBphF1uPxo9NTmVaYyJtfVlGmPfj1VgJh9fUaIKAtaiRlGQEvisAAA=");
 
 export default Speakers;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-circle-plus` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-circle-plus?s=sharp-duotone-solid gauge-circle-plus}
  * @preview ![gauge-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/gauge-circle-plus.svg)
  */
-const GaugeCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 256C0 397.4 114.6 512 256 512c39.5 0 77-9 110.4-25C337.6 455.7 320 413.9 320 368c0-97.2 78.8-176 176-176c2.7 0 5.3 .1 8 .2C475.6 81.7 375.4 0 256 0C114.6 0 0 114.6 0 256zm128 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm48-112a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm16 208c0-26.9 16.5-49.9 40-59.3L232 88l0-24 48 0 0 24 0 204.7c23.5 9.5 40 32.5 40 59.3c0 35.3-28.7 64-64 64s-64-28.7-64-64zM400 144a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160-80l-32 0 0 16 0 48-48 0-16 0 0 32 16 0 48 0 0 48 0 16 32 0 0-16 0-48 48 0 16 0 0-32-16 0-48 0 0-48 0-16z" />
-    </Icon>
-);
+const GaugeCirclePlus = createIcon("gauge-circle-plus", true, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABtwAAAKiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDQQsIAAE2AiQDCgQgBYMtB14b8QXIjsQ4JvGLWNDi4UtX9n5LM+WVDIvQJh7DIXIEhBERmiDdupDCu3Tz3//9fy73/KYdHeDnIzi0vWpTNhbYXlgCeSDbNiUeYGmWGXa4bvBDDvH2oegMZZpb3KZBejqtwoP+/wDG3wbcRtJWAIh2AOxx3FGH+HY8xlOsmviQWOVgBMSeIAsUKDAswM4KgWGljFIpGE8TGI8JmQCiyX+NAjTRhi+wFlCCJGmU5dD06V1dI111Y0p5bN2ozrp5acQ7O31R37vDZ4vfctOiN7f/tLpnx8+XvB3HVXUlRFWJuhaijlCtc6+qNLl5D/K7Q7auPubeg74/dutRG4+7t745thwb/cCmg1ft/u3R9U3dEY9V9/Q+ETf3PVnf2/O44/rKMWUm4sm551aEEC+NbPTUvFdnvbzg9cGtd8x4vf31f6evOneV0w6bm8ldnXPmdHblPLdTJWLPHJbxW9q1tNqz9lZLu0ze/a39+hl4mJv3s3P/u7FPHNgeB0ZZ0nvUniuj7SfGfm5+eKDffjdNvYu7pmZVYsHSy4b3TFvb/Q7v9K7Wr6Xfar3vvNNddXQ8+yxeUq1du/l5IBB89/r/nzZt5/8m1Qn8+Xl/FY+b+DbdlF7HJAkExaKJRU5ON4FgBvClUlxrRropTkegcJ2G8NRkTwgQKhpImiooDGmHUmUhNIza5nRT5SiFKNuEbqcgSCa7Agrbuh5K3T6Ahp39km3qjgKSBTgUHiRT9+0i+6zLy5a08o55tqoSgZNzpnfKm91518qu+Xinc13mUlc7x9kucHWHvtIhhWtcYt8lah8flC2zREu2o3y48VA9tpO90lUumJaPr7KTfH16nmuXB8/HQRKyLneyUBApioHzzrjmvHMW//SjLb4bzMX2YsDQpGwLAA==");
 
 export default GaugeCirclePlus;

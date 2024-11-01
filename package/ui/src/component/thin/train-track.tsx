@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `train-track` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-track?s=thin train-track}
  * @preview ![train-track](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/train-track.svg)
  */
-const TrainTrack: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M191.6 42.5c1.4-4.2-.9-8.7-5.1-10.1s-8.7 .9-10.1 5.1L156.9 96 112 96c-4.4 0-8 3.6-8 8s3.6 8 8 8l39.6 0L114.2 224 72 224c-4.4 0-8 3.6-8 8s3.6 8 8 8l36.9 0L71.6 352 32 352c-4.4 0-8 3.6-8 8s3.6 8 8 8l34.2 0L32.4 469.5c-1.4 4.2 .9 8.7 5.1 10.1s8.7-.9 10.1-5.1L83.1 368l409.8 0 35.5 106.5c1.4 4.2 5.9 6.5 10.1 5.1s6.5-5.9 5.1-10.1L509.8 368l34.2 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-39.6 0L467.1 240l36.9 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-42.2 0L424.4 112l39.6 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-44.9 0L399.6 37.5c-1.4-4.2-5.9-6.5-10.1-5.1s-6.5 5.9-5.1 10.1L402.2 96 173.8 96l17.8-53.5zM168.4 112l239.1 0 37.3 112-313.8 0 37.3-112zM487.6 352L88.4 352l37.3-112 324.5 0 37.3 112z" />
-    </Icon>
-);
+const TrainTrack = createIcon("train-track", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfwAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCLwsGAAE2AiQDCAQgBYMtBzIbMQXIjtRG94xd4uH5ufLPfcnMEpUgZUZXBwBCrq0ru34SDtgR6OmQr1p9099P/XEeBfb8i3+UyEWUVWH3+QQmFj7L8/FsttkIJ4Lbna0VSdjhGaGsJcc5x+UEeXxtvxLpRfoK9/KLxq+6ukySZQCiGQBzNq1b4eMP8UPEV5WIryxDQMwFhUCGDD0EmC4T6CFXIJcLfohKxf0HFgQQZfRzE8hRwkVcB+QgyfJ8e01NXakh31hXqt32rNPTDqOjNh53eNKxLtazgNyOTzpviobYEIL2jRujLp51ftqpNpgzNp52eNxxTKTHra+rrSu19bFpT31D/emZfdub23/nq4Nf+fC4au3pgUOMsLtc3j3YgFOGNnyA/ujg8r76HFDeO2f6HvVSTQ04vbYMtr56qD86gB1qwMERhhi4e29VB7/o0Hn+XyQogqaqwVl/3qfMgFPmg7tBILh99MF3Nk3/v7ougZ9e/3l4XJfK92lwake1BIJseGW47Wm2LrqkwQIAkOKivsIHBZKTMvis9Z4KEGoRICmrFSDTXbMAuVrDBCjpZYIAZbXWyUReI3Swo4Ok3hmQmegSyHXwCpRM9ylb1iEy+1OsR/n+ZVo4ogt2FWNGji6mFtsOVk1KipvTCrVr8EU/MQSOOuiUk847YL8jzg/MWSsKF5ywUMIW+KLCGCONVpiqOO6/7t/ogLPOOeKUk2mbaYr7scEuyvOHgDch3rHqkkSkundmGWHlAA==");
 
 export default TrainTrack;

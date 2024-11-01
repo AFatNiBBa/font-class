@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-star` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-star?s=regular calendar-star}
  * @preview ![calendar-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/calendar-star.svg)
  */
-const CalendarStar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 0c13.3 0 24 10.7 24 24l0 40 144 0 0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40 40 0c35.3 0 64 28.7 64 64l0 16 0 48 0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192l0-48 0-16C0 92.7 28.7 64 64 64l40 0 0-40c0-13.3 10.7-24 24-24zM400 192L48 192l0 256c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-256zM233.3 242.9l23.6 47.8 52.7 7.7c8.5 1.2 11.9 11.7 5.8 17.7l-38.2 37.2 9 52.5c1.5 8.5-7.5 15-15.1 11L224 392l-47.2 24.8c-7.6 4-16.5-2.5-15.1-11l9-52.5-38.2-37.2c-6.2-6-2.8-16.5 5.8-17.7l52.7-7.7 23.6-47.8c3.8-7.7 14.8-7.7 18.7 0z" />
-    </Icon>
-);
+const CalendarStar = createIcon("calendar-star", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgAAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCHwsGAAE2AiQDCAQgBYMtBzQbIwXIjtRG+UVWEg//Pxd5308yC0BZAAbHXGBZV3ZsxJwqlq1aqNr3iWvy358/PWDZEzxKFVWC1DagjvMJDPBtQRXARbOBTSdo252T4hDtkRZLWUuOz3I8DpDH07ilID1Ov+Fm+dD4WytXSIoMQDQEwMTli+f6oRrViF/fIX41GwExEZQCGTK0FWCMTKCtXIlcLqjGu3fhP7AkgKjAeyaQo8ARnALkIMnyfGi9XnWKevmyOkXt1R+1EnUi4ml38j7q+ZlfL1I86vFpl7rxca/PW2cRYtj7i+6qLTbWrVc3xf1m9eJhi2xJ3359pw4l95uOiY5Rcfeaj4oRgXvQonOMC2p94/ToHw/rXG3W6fOGn//b8bdtvzn//cJmPdzSQ7OFlN/Dq0aNajc0ALXBeDWBA8CGag+V2+D7DZhL/eoE1fo+HnQeNplmYdNmU5a4opg8edEf/rCovaC4YokpzZounOa8rpVKVyAQjN//4ev1Dcb8V7NOAr9/9X+43rsf4of0OWpKIMj6vOtjTfwAgRjAT0pxTKf4AYFkjwy+a10PBAi1ESCpqC1Apo2GAuRq6y1Aob2hAlTUtlgm8lpCU2s7ktR1EMkMcxbJNfUlUhjjx7iiaWR2x1kN9+1LnsbBqfPKgf0GlKPKZRXxpsSk6dGlWutxLHb1dCtts98+R2y1xU5HGHzI3OyovaZJ0FRfVBqonwFKo5TbjefFy2x1yGE77bcvzzJaeT7q4Zg8uKczEyQdpCxJRKp3LZW+jwMA");
 
 export default CalendarStar;

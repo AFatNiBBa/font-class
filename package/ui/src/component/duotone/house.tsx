@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house?s=duotone house}
  * @preview ![house](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/house.svg)
  */
-const House: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 270.5c74.7-65.3 149.3-130.6 224-196L512.1 270.6l.4 201.3c0 22.1-17.9 40.1-40 40.1L392 512c-22.1 0-40-17.9-40-40l0-88.3c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 88.3c0 22.1-17.9 40-40 40l-79.9 0c-22.1 0-40-17.9-40-40L64 270.5z" />
-        <path d="M266.9 7.9C279-2.6 297-2.6 309.1 7.9l256 224c13.3 11.6 14.6 31.9 3 45.2s-31.9 14.6-45.2 3L288 74.5 53.1 280.1c-13.3 11.6-33.5 10.3-45.2-3s-10.3-33.5 3-45.2l256-224z" />
-    </Icon>
-);
+const House = createIcon("house", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcwAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBWAsIAAE2AiQDCgQgBYMtB0Yb8ATIjpSqq2NF8Lzdf9W53V9j9tjMIAYRV46kl284CFfIBvE//b3TP84/fcDn33Hu80VjAe3m4C6BzqfGbYsCCyzLFFOnI99grKjgMUaItcjweKQ7Ti+Qx4vspDLSvVTCFfsfwPhVUydJqjIAUQcAYxbNm+Hzp/E0Ren1B0TJdATEWFAIZMjQQoDhMoEWcgVyueBpes3TeF0QQJSzF2egHDmmYykgB0mIPG/WtXpZzXyhHau26X6HBXGr4a0GNwuh0cKYHzcb3SY2vtN40aKfFy0I8a7nVasW59WLiGONHqT4xFHvyWbR9lGdR7+3KW0sqfbxrFmvn7hbo8a5c59/fveXkkO820kiRbp76Y16Z9ea/dwnX/E9jx7XnaPu48/qLlbr7Nlao09vsbqfefDstzzyAxAIpvXs+c+q2sP/r6yewPPP/vy3idszn6cx6REqJRBk3V93tzyNDqDXKwTEKQ5qi+8yWiDTVYJPreG2AKEaAiTlqgmQaa6OALlquglQppUBApSrZp5M5FVCAysGSGrYAzIDHQK5Bt4HZYb7Li7XILKsYnOC/adLmsjohE1Fn569i6HFbaNziULX5WHFY6vzQRnqgpM22mWn/TZYb4v9hO81Iztgh4kRNsEPFfroqbfCUMV0Z5UWUrzXPlt8YX6dYYr37c4OxpO7YDsJ0Pd75DIiRVYz5bQei1OtTcIiBA==");
 
 export default House;

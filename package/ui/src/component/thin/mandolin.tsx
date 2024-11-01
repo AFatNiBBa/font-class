@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mandolin` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mandolin?s=thin mandolin}
  * @preview ![mandolin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mandolin.svg)
  */
-const Mandolin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M447.1 16c-2.9 0-5.7 .9-8 2.7L386.5 58.1c-1.8 1.4-3 3.4-3.2 5.7l-6.5 71.4 71.4-6.5c2.3-.2 4.3-1.4 5.7-3.2l39.4-52.6c1.7-2.3 2.7-5.1 2.7-8c0-3.6-1.4-7-3.9-9.5L456.6 19.9c-2.5-2.5-5.9-3.9-9.5-3.9zM360.3 140.4l7.1-78c.6-6.8 4.1-13 9.5-17L429.5 5.9C434.6 2.1 440.8 0 447.1 0c7.8 0 15.3 3.1 20.8 8.6l35.5 35.5c5.5 5.5 8.6 13 8.6 20.8c0 6.4-2.1 12.6-5.9 17.6l-39.4 52.6c-4.1 5.4-10.3 8.9-17 9.5l-78 7.1-50.8 50.8C324.5 257.7 332.9 512 176 512C78.8 512 0 433.2 0 336C0 179.1 254.3 187.5 309.5 191.2l50.8-50.8zm-129 129l63.1-63.1c-7-.3-15.2-.5-24.4-.6c-29.4-.2-68.4 1.2-107.1 8c-39 6.8-76.2 18.8-103.4 38.4C33 271.4 16 297.8 16 336c0 88.4 71.6 160 160 160c38.2 0 64.6-17 83.8-43.4c19.7-27.2 31.6-64.4 38.4-103.4c6.8-38.7 8.3-77.7 8-107.1c-.1-9.2-.3-17.5-.6-24.4l-63.1 63.1C251 291.6 256 305.2 256 320c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64c14.8 0 28.4 5 39.2 13.4zM240 320a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const Mandolin = createIcon("mandolin", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABlAAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCTAsGAAE2AiQDCAQgBYMtBy8bSwXIjsN0Yy9LmUwOPKgdPJ82832tTDom2cchQNwq1B5Mn1QEPPActn9j0lhTaNNhBTK3BxpmcUI9T3is/7mmXjw/OsBvdChVVHreYNXr5xMYYLSn7YDHA5vpBGy7c3PMEO2TtBRJ+tWO1xXowF2GiUA9KxfYWD5UfkmxDBQnBACApAAAgMZ7XdvzVizFIu7/6yDvtAUByByAJcABDkgnAOpxCEinWaBpgmL5/5/+Ay0IACSKDKwAaOAFy4HtAIAGoOiwTqpYJiLME6F7xCfMyDXx7WRbfDfpKTuTmspOWZzYQHaYbj2Z1kjHHWFrE+rLdhbFN9pwOslue8itnZ1bfuryrsfRunc3L+H9c7t269qp6xpzo9mzWrdaH+vf33lZ8WL3aGNxoJNsZ1fBqd6JyZnK3unZ4dp8cM/gRO9YaXf/+PBkNXQmdeY/6I5weXBRV6lBMORpwTpCpfQwumFv1RBVoz3metvD8CkzWnCQDF8VYlW46TGMo6f2XkIScOPG14/NbUSipU3KhIFjx2JwZtHjZ3nWRJbcfnVubZI0dd2mMvnWm3V7MyPNP4qSTEzMoZegmhot/lliJsydO8HQ6wAgQFBwXss3MKreV3+YAqD0zpdf+DPi/yOFegX8FACBM/tfjn5BABQEAAAAqMAMOkEAAcp8YRKG24HcDA0Qtr0Mho400R00oyx4ZKp+hZfRVYiEA4h4/QEo4SaDo4b5oMW7Ch71vPS84gOOOfLGxH8GU1povPkqW7lCJVvHTjNNsDA2Lda123rBDN8pxIscunLp3oF9J+4VeWsbPriwXhErX9RSWQWVWHXY4/Lx9K4Dt+6cuHKZl6nL3rcLzFiPL0QrSCir0NQTbAn6xw+eMGziuNETAA==");
 
 export default Mandolin;

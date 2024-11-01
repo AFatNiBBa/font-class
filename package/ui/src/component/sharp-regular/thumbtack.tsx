@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `thumbtack` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thumbtack?s=sharp-regular thumbtack}
  * @preview ![thumbtack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/thumbtack.svg)
  */
-const Thumbtack: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M264.6 218.2l17.9 13c18.8 13.8 32.7 32.1 41.9 49.6c5.1 9.7 8 17.7 9.7 23.2L216 304l0-88 0-24-48 0 0 24 0 88L49.4 304c.2-1 .5-2.1 .9-3.2c1.9-6.5 4.9-14.4 9.4-22.9c9-17 22.6-34.5 41.2-47.6l18.6-13 1.7-22.6L132.4 48l119.1 0 11.4 148.2 1.7 22zM216 352l120 0 48 0 0-40c0-2.3-.2-4.9-.7-8c-4.1-25.8-26-77.6-72.5-111.5L299.7 48 328 48l24 0 0-48L328 0 296 0 88 0 56 0 32 0l0 48 24 0 28.3 0-11 143C26.1 224.1 4.2 275.6 .6 304c-.4 2.9-.6 5.6-.6 8l0 40 48 0 120 0 0 136 0 24 48 0 0-24 0-136z" />
-    </Icon>
-);
+const Thumbtack = createIcon("thumbtack", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABagAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBcQsGAAE2AiQDCAQgBYMtBzAb8QTIjoTcROtfxOCoVDz8/1rZfb+q50yqw1Ah7gCRImZFLEwyNmEVB7trBCtyq7tDWPzeTZ16nvNswOe4jo0537goFprzvAI9n9arbywtjxWsWkHr26YINcTwRYgESURjheN1hDzOx30V0ov0C+61D42/dXGDpJIBiNYAmLV6+TJff41fI36uvyd+tgQBMQuUAhkydBdgqkygu1yJXC74Ner18h9YEkA00PclkCPHBuwE5CBJeT5weLXSIl9VrRTb+w/o/6bLkw5FAI2oID/je3R6NXRgdIvVUY2V0WVFtahGXO34ckjT5FVRrUYUzUloRXwa9LrzY6YKUkJ392lq3fQvv+z6ReNf3WFe73+u0ylrdFbT2RqnRQw+8NM7VRQPnVE80qF288yZ14Nkeb9WvboU93XvXNN5UE3n7sVdg1v16pjlg9TO3LnwiDtAIBi4dud/m1tN/b+xmsDvX16/uf41rqQmNEogyIbVtSGuAFED+EkpTukTVxBIVkhors09FSAUCJA0KATIdNNagFxhqAAVPY0ToEFhuUzkzYT2NhpImjsKMuNdBLn23oKKqb45DdpHlmB8evD/u5T5Hpq3rBw1olZOLpeRIeQMy9Mp5bY66FStDMaDdjnskBN22mGvE448Zpl/0kHzI3ieLyqNMkJNabLyOH3ev8pOxxy312GHZJEpyvvaIKfi9sG4mgQY/TSBRKRm2W+f2Lp9Pw==");
 
 export default Thumbtack;

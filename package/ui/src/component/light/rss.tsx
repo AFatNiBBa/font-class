@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rss` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rss?s=light rss}
  * @preview ![rss](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/rss.svg)
  */
-const Rss: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 32C7.2 32 0 39.2 0 48s7.2 16 16 16c220.9 0 400 179.1 400 400c0 8.8 7.2 16 16 16s16-7.2 16-16C448 225.4 254.6 32 16 32zm0 144c-8.8 0-16 7.2-16 16s7.2 16 16 16c141.4 0 256 114.6 256 256c0 8.8 7.2 16 16 16s16-7.2 16-16c0-159.1-128.9-288-288-288zM32 416a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 0A64 64 0 1 0 0 416a64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const Rss = createIcon("rss", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcgAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBbwsGAAE2AiQDCAQgBYMtByob6QTIhod/5sq/L0kBOAUktiSB1Fa1nyTYOWs/oZuJy53/+dMDrkHwIE88Ni36TaNl0RjjPIEAsy7fVNp5FtiLYruL2tQdLT9JtCV5PPf4+bhAFg+jkzIk95NvcbX8aPykgVMkshRAVAfA8LkzJyspRCHi2+Ib4lsTERAjQC6QIkVjAQZJBRrL5MhkgkIUi/Y/MCeAKIvenIAMZTEDGwEZSGRZVqdOrSqVylTJ5sSGigtv1b5d5/vZnnC7zt16P8wxLfiTvxv+6VOzj9eLuFvpYp3bjtW+VfFC3TtR6UmHF+2eNX7c/nnHl81avKj+4pfm3675VrWnhapVC1vN7z2/Vy9MbK1aKIl9/ZcZfRl6+1xjm8Y6fr1BfWOZ0tTWw9oMq8daT1Xtt6rnOFc19Nj6ZWnpH3+UpvA6EAiuf/1/9aXVBv1TvlICSj/+9o97XvHHKEleoLwEBGmnYieLogSAHUA5iT1aCAULJCbIgL61sjsChIoIkCirogCpRqoLkKmoowBlNNVbgLIqmikVWQWhtsUdTlS2HU71cRjO1PYKLmOQz+WyakeqX5J2SM+79DEjMPpQ3r1Lt3xAzvY0WWWEtDsw37ba7XEz7eGsNbbaYpfVVllv1wDtMLm222ZjJHC0AuW666Kb3AD58fD59Byr7bDTelttyfsMlN8P29kjL28PboI4e0gTiW+GvR07dwIAAA==");
 
 export default Rss;

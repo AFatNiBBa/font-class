@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `island-tropical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/island-tropical?s=thin island-tropical}
  * @preview ![island-tropical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/island-tropical.svg)
  */
-const IslandTropical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M168 16C94.1 16 58.2 58.5 49.9 90.2c-.4 1.4 0 2.6 .9 3.7C51.9 95.1 53.7 96 56 96l56 0 0-24c0-4.4 3.6-8 8-8s8 3.6 8 8l0 24 35 0c8.3-6.8 16.7-12.5 25.1-17.1c3.9-2.1 8.7-.7 10.9 3.1s.7 8.7-3.1 10.9c-11.8 6.5-23.8 15.4-35.7 27.3c0 0 0 0-.1 .1c-52.2 52.2-47.6 107.6-31 135.9c.8 1.3 1.9 1.9 3.3 1.9c1.6 .1 3.5-.6 5.1-2.2l69.5-69.5-12.7-12.7c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0l12.7 12.7 44.7-44.7c1.5-1.5 3.5-2.3 5.7-2.3L400 128l0-24c0-4.4 3.6-8 8-8s8 3.6 8 8l0 24 40 0c2.3 0 4.1-.9 5.2-2.1c1-1 1.3-2.2 .9-3.7C453.8 90.5 417.9 48 344 48c-26 0-47.3 5.3-64.2 13.4c-3.4 1.6-7.4 .7-9.7-2.2C252 36.3 219.1 16 168 16zM34.4 86.2C44.6 47.1 87.1 0 168 0c52.4 0 88.7 19.7 110.6 44.4C296.8 36.7 318.5 32 344 32c80.9 0 123.4 47.1 133.6 86.2c3.9 15-9 25.8-21.6 25.8l-149.2 0c2 10.3 4 22.1 5.5 35.3c5.2 45.4 5 106.7-15.6 173C363.4 356.8 416 412.2 416 480c0 17.7-14.3 32-32 32L64 512c-17.7 0-32-14.3-32-32c0-70.7 57.3-128 128-128l42.5 0c26-58.4 37.4-113.8 42.3-154.9c1.2-10.5 2.1-20 2.6-28.4l-98.6 98.6c-8.9 8.9-25.7 10.3-33.5-3c-20-34.2-23.6-95.9 30.4-152.3L56 112c-12.6 0-25.5-10.8-21.6-25.8zM272.1 144l-7.9 7.9c-.3 12-1.2 28.1-3.5 47.1c-4.9 40.7-16 95.2-40.7 153l60.1 0c21.1-65.3 21.5-126.1 16.4-170.9c-1.6-14.1-3.7-26.6-5.9-37.1l-18.4 0zM160 368C98.1 368 48 418.1 48 480c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16c0-61.9-50.1-112-112-112l-128 0z" />
-    </Icon>
-);
+const IslandTropical = createIcon("island-tropical", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAABuQAAAMGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDRgsGAAE2AiQDCAQgBYMtBzYbzAXIjsN02yMPWWtIYlhYeZEgorWyenaOdp9hHphVEFmFJRGq6AcZtmGIai179okDRAqAXNix8HHEFoAUgvpXZ8TZlI++q9M0xToFcI2CUjo2PZCUb1RKHX+Q2Iu+larRB+lgEcV/m2JCHVH4dESIOCcyGL/s+HYGWu4wjgvUQaUBe+aPymdi2QgKywIAQIIAAICmgQG9eKiLLvLWeAZ5SxcgANIMgEEAC7CAOASAWiwEiENjAI1GoEuM//U/0IAAgLghSnGGBtzAM+ADADI9UGitB3QEhzgWfz3YsdgjnmaKnIxZD99wXCKyP3ojHHHQ2hIHhJ1nzshXwn70hrMWPSBRsqkkI6VOtnzYjrKI3ezb9qeMdUwn/bK893CVyJ22tcyLrCsnWPEevRG2bjtlb+xB3L4J1n0nTfO93LI9alPO6n47XHIh+Sh2S3oFpWrtHrfBqZdH9oVFhq2NOh5oYUdKEnYjnL1X3/l0CRvhHtkffZh9W+5Muw26/ZqkTX7L1YVxIbgxVAIBq5wo3GPHumNI4dbz8WXpA6KDYEhG6UdRVlJzG28oKRsw4C4aAT1384GZaAmWwRuhcWN3dBc/Oryj70LLpA2+S9lfZ9Rd1r3PuTp28mR7g6LQ5pzY7lQVbvJuXQ6oZ91tKW3qm0PO/i31yX4j45jsdE77WZW5fDj25MmxX6sm6AlCcsckD62lKz+/KLUgdE7nj+/wLzCgq54ur+/f9x9rAUAAgU9/H+qHAqv/vY4CoOfj+69xv/n/UHR1C3hRAAhYuUYuIxUYjJFAAAqULCYZMkYAxT3MAID82BeNBRsOKNzYYBFLEGhscsBFAmWKs2wAFqJ9CBTGqAIKP+aBRTmrQBPGFXBRy4vATZiYclnLRO1PMrudk23bTFF+oak2l21bT0+lr9cYt5O5uI1lwU4mM4fZLGQSE5nGQibMp1e8iFm0W3wbGWIoIp9CDNWYcG9pDUaLZS0Yiq7FMTapwTyPMllsz84CX0GixdQpFIgK/Nqq8xbOnzN32oRxMwE=");
 
 export default IslandTropical;

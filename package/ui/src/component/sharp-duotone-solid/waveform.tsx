@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `waveform` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waveform?s=sharp-duotone-solid waveform}
  * @preview ![waveform](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/waveform.svg)
  */
-const Waveform: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M429 64l38.5 0 4.3 28.4L500.2 282l20.4-95 5.8-27 30.4 0 9.5 22.8L600 264l8 0 24 0 0 48-24 0-24 0-16 0-6.2-14.8-10.5-25.1L519.5 421l-5.8 27-37.2 0-4.3-28.4L446.8 249.5 407.7 483.9 403 512l-38.7 0-4.1-28.6L320 201.7 279.8 483.4 275.7 512 237 512l-4.7-28.1L193.2 249.5 167.7 419.6 163.5 448l-37.2 0-5.8-27L88.6 272.1 78.2 297.2 72 312l-16 0-24 0L8 312l0-48 24 0 8 0 33.8-81.2L83.3 160l30.4 0 5.8 27 20.4 95L168.3 92.4 172.5 64 211 64l4.7 28.1 38.5 231L296.2 28.6 300.3 0l39.3 0 4.1 28.6 42.1 294.5 38.5-231L429 64z" />
-    </Icon>
-);
+const Waveform = createIcon("waveform", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfAAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCNQsIAAE2AiQDCgQgBYMtB0wbUwXIjsO44TuyxVKGeIyH5+fqPfclMwtA2Q8AXEBHKBy6VpUdG0Esq6eY36dOPc+FswEnvmPm0gWyQEJJ19Yl0PNpvfoEW16wWk2xg/NGtdMhTaH8DHkamz2rRHonwUvufwDjHz2eJanJAEQzAJbv3bnZVz/Gjyl+qHxM/GATAmIFKAQyZOgXYJFMoF+uQC4X/JgqFX6MSqUggChzb85AGRnu4gVADhIiz6/WlRryPXWl2rN1tXU9sTv2Rl/UhT1cVydqazujN3ZFNxCQtwfOH4h9Sxmi3dEe1MajygcVBB809y8Pj3i/+f3/hp3hwyfGhjcs1Pe59iM2GPK84W2qu6fpHnfEuwZfd8BoG3W/Z8xfNhprkbHdXGgCG1fE9XChMQ+B173riOZp/OrhbZ43BLYd0fe5jcaAo383frRFxgmtMH7ARiAQzGoazI82Lfq/ui6Bnz/5t7q/uvJVupfeR7UEgmxSZZJD6UlUH5wpAAAp7hgBvkkgc1USPrXemwKEWgRIymoFyPRpFiBXa6IAJYNmC1BWa6dM5DVCu8MDndS7TmfmeIzOtfuILlnk67SsPbI8KOcg+RcwY80UWr2umD5lWrGg2K10SrYS9ezC4nIw7s6iZzw86YyrrrjltFPOuzWhbthc3HbZmiNktR8qTDfFNIUFisfNl8f3OO2Gm8676opdZaHi+2ScO8fDx8PNJMCM2CtlRIqsuV6IadSZnJm91pmWbAEAAA==");
 
 export default Waveform;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice-d6` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-d6?s=thin dice-d6}
  * @preview ![dice-d6](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dice-d6.svg)
  */
-const DiceD6: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 0c5.2 0 10.4 1.4 14.9 4.1L436.2 121c7.3 4.3 11.8 12.2 11.8 20.6l0 228.6c0 8.5-4.5 16.3-11.8 20.6L237.7 508.6c-3.7 2.2-7.9 3.4-12.2 3.4l-2.8 0c-4.3 0-8.5-1.2-12.2-3.4L11.8 391C4.5 386.6 0 378.8 0 370.3L0 141.7c0-8.5 4.5-16.3 11.8-20.6L209.1 4.1C213.6 1.4 218.8 0 224 0zM27.4 130.4L223.9 246.7l193.9-118L230.7 17.8c-2-1.2-4.4-1.8-6.7-1.8s-4.7 .6-6.7 1.8L27.4 130.4zM16 142.2l0 228.1c0 2.8 1.5 5.4 3.9 6.9L216 493.4l0-232.8L16 142.2zM222.5 496c0 0 0 0 .1 0l2.8 0c0 0 0 0 .1 0l-3 0zm9.5-2.6L428.1 377.2c2.4-1.4 3.9-4.1 3.9-6.9l0-228.6c0-.9-.2-1.8-.4-2.6L232 260.5l0 232.9z" />
-    </Icon>
-);
+const DiceD6 = createIcon("dice-d6", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABawAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBfQsGAAE2AiQDCAQgBYMtBy4b+wTIjsQ4RvKLmJQpgsiO76tn9wDvuwgQIzrI3oWA/w9SIhQSof39f675/J4fHeA3OqRI67DrTUeZzycwsbB8HiUysJlOwDY4b8QBhsj+M+RxzRJlSFfSR5xyHxo/aeAISZYBiOoAGDh98lhPP4/PIz7+f4v4aDQCYhAoBDJkaCxAH5lAY7kCuVzwefz/P/sPLAggygoul0COcpiFDYAcJGXyvFmVSlV5WKZKPo1fqeLsY3WmxgXiQO0pcb5ixThad1pcjIiD9abHpUpTpk6bOj16YsWjc0lt4cDSuohpM49W8lJUis2DlSoui6dMvxSd50wJzUurl/5S8nHZR589sfjlFrerfq3q7VdbTSqbKTfo9VZKDIeLy788mJHhlmdb3V+nJM9LHq2//nWwf5mOLzb73pttny6MgASRHRoi0Vs7lvlaijc7fQ8EgmfH2jO/Wp9fVUrgy/v/Jf8V/f80nqZSlJdAkLX5v4058RTiqQAApNimeTxFIJmkjOBZlV0UIFREgKSsigJkGqleQ66i1lBGU13JlfWTZSKv0PNqm4sgqWwjZLrZC7nabkAZfbxJy6od2WVGXyT0X17CsDYydF3RsV2Holcx2VQyVw6pl3sXq6UW2/hQS7jTMuuts8VSS6y0pYVtMrbYaq1hc+hQX1ToqJ0OCr0Uuzv3N0+z1CabrbTeOrtKb8X5Xgvb5ie3hGoS4HbSkCQilfuO2G2XdAM=");
 
 export default DiceD6;

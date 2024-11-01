@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volume-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-slash?s=sharp-regular volume-slash}
  * @preview ![volume-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/volume-slash.svg)
  */
-const VolumeSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48.4 14.8L29.4 .1 0 38l19 14.7L591.5 497.2l19 14.7L639.9 474l-19-14.7-95.1-73.8C557 351.3 576 305.9 576 256c0-62.8-30.2-118.6-76.8-153.6l-28.8 38.4c35 26.3 57.6 68.1 57.6 115.2c0 38.8-15.3 74-40.3 99.9l-38.2-29.7C468.3 308.7 480 283.7 480 256c0-31.4-15.1-59.3-38.4-76.8l-28.8 38.4c11.7 8.8 19.2 22.7 19.2 38.4s-7.5 29.6-19.2 38.4l5.9 7.9L352 250.5 352 80l0-48-48 0L195.2 128.7 48.4 14.8zM233.7 158.7L304 96.2l0 117-70.3-54.6zM80 160l-48 0 0 48 0 96 0 48 48 0 80 0L304 480l48 0 0-48 0-58.7-48-37.8 0 80.3L191.9 316.1 178.2 304 160 304l-80 0 0-96 62.1 0L81.2 160 80 160z" />
-    </Icon>
-);
+const VolumeSlash = createIcon("volume-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABdgAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCHQsGAAE2AiQDCAQgBYMtBzMbIAXIHgflpjNLmiR/BCcRVLp/61npk2QGmeiZATLz5QQZIUUXAaVXzo4gmVUD8z2Ef+Ka53/+DVL8BI8WZal/Hs21rPMJTGw3rABa02w4myjO2tknbxCdRaRP+STD5ofNBvL4O25QR7ozwfX5Q+NnnV1HUpcBiFYAmLl+9VJv/RA/RHz6//PEpxYjIGaCSiBDhm4CTJEJdJOrkMsFP8T///N/YEUAUQ+XSyBHHY7iIiAHSZbnExv6lXXN83VlXbG5f7/+Q6NfnHTLD4/+sS7eXV/tiUlD4+HOd7pryqR4tOc9wrm/8x192yscziliTaxbu37NerFuTVEWQoiyXBtlgqaFRHSIoojplGVR9H6k1SPXso/hT9VqtffVTHlVTbvCtgV+iSUj5o2f9IF7r9233L/VJ0WryR/o3tDQfb1ZozxqhBGO7HDTyZevnzutJM+aO/ZOI6DZUQkjVlx/8VUm+8UKx3f7WpsVO0zzpQACQdnlqz+3t5zya2OZwE+vwB/9/1vpUhqNEgiyof8PtSVdAmYG4KU4p7fyRYFkrwzetZnbBAgFAiT1CgEyXbUSIFcYIkCdHsYKUK+wWibyJqGdrYNOmjlJZ8Y5T+faeZauM8WHbr12kZmdYDTCry91ngTmzqpG1kZUk6plRRctiYuTk6ttfeC50DGIFtrnuGPO2GuPg84I/JSlwVlHzdPAuX6oMlLNCJVJquP68/x19jrltIOOO5ammay6bw90Tu8/iKwErKNkkkSkZk86Nez0kZ2nDwAAAAA=");
 
 export default VolumeSlash;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mitten` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mitten?s=light mitten}
  * @preview ![mitten](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mitten.svg)
  */
-const Mitten: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 144.2C0 64.6 65.1 0 144.6 0C208 0 264.4 41.5 282.8 102.3l24.6 81.3c15.3-15 36-23.6 57.9-23.6l1.8 0c44.7 0 80.9 36.2 80.9 80.9c0 18.6-6.4 36.6-18.1 51l-61.8 76L328 368c.6-1.7 1.5-3.3 2.6-4.7L405 271.8c7.1-8.7 11-19.6 11-30.9c0-27-21.9-48.9-48.9-48.9l-1.8 0c-17.6 0-34 9.1-43.2 24.1l-7 11.4c-3.3 5.4-9.4 8.3-15.7 7.5s-11.4-5.2-13.3-11.2L252.2 111.6C237.9 64.4 194 32 144.6 32C82.6 32 32 82.4 32 144.2c0 9.2 1.1 18.3 3.3 27.2L84.5 368l-33 0L4.3 179.2C1.4 167.7 0 156 0 144.2zM64 432l0 48 288 0 0-48L64 432zm-32 0c0-17.7 14.3-32 32-32l288 0c17.7 0 32 14.3 32 32l0 48c0 17.7-14.3 32-32 32L64 512c-17.7 0-32-14.3-32-32l0-48z" />
-    </Icon>
-);
+const Mitten = createIcon("mitten", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABewAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCFwsGAAE2AiQDCAQgBYMtBy0bFAXIjtMF88xLlpHgn/+67L5f1X0CoMaJKyPQS8DrVO2/UbfGb/zoABdErh8bP5AekOh9xxNoPH39PKGEMg3EUky3yfDwiEVvhASJSMcVHl8S2FqjDDxgVpm7wIJ+K30llqlgsC0AABQCAABUatGkHhdf6ZV0NxfoLnUAAagyAA4CLJwkIADKYiGsBDYOYGMjeKXc/Ac6IACQl/H9DAA24AH6AyMBABsAg2XbVXzj/D2BdnN/j5+1pYJ0oYZSpxKbaU8Jfx1L3ZU4MaWp/LQiuoVWaHXU8oJ+2hoToaVRy6Oaa33a7uJHU3YmTIxsJj8112q1QgRKCvCbFC2t8A/UnMhloIkRS/0CNDtquZR3d8ju73nudr+LmzASZjz61brO9+hGDA8xhHTvrsTIcnVIwYTWas2+UPves4qGgx/6UGPjopQ8A9hy7WnFXwcFZeRcJQ/ZZ3HDKiS7ruvg4jhBM2FmkEPQzJlBLvR1HQABguOXsyI7BJf97+NvAHhz+ud/+BblXtRFsxvwwQAgsDJyM2iriwC6iAAAAACj4eTVRUCAoTsWIgJYnvWFHwgMXvxgEU8IbPxIh4ckivHgehMsZPsiImgHGAIYBIvijINNBEfgoSw3HC8RsmpOrRj1y5dV3ZJqc05OluuUdo6hqZURb+MyTthOGa6lVJzSnQH0Zyjd6Eovhho2mHr+MPpR3aPVeBCHHLJwcSiNk07e95vTjcEMoRcD6M8pZXDuixSG+82pWMIAAIVfi2tQxtuv19Ch3foDAAA=");
 
 export default Mitten;

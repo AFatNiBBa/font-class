@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-hacker-news` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-hacker-news?s=brands square-hacker-news}
  * @preview ![square-hacker-news](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-hacker-news.svg)
  */
-const SquareHackerNews: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM21 229.2c0 0 .1-.1 .1-.2s.1-.2 .2-.2c0 .1 0 .3-.1 .4H21zM239.2 384H207.8V281.3L128 128h37.3c41.5 77.7 48.1 95.8 54.1 112c1.6 4.3 3.1 8.5 5.2 13.6c3.2-7 5.1-11.9 7.1-17.3c5.9-15.3 12.8-33.2 53.5-108.3H320L239.2 283.1V384z" />
-    </Icon>
-);
+const SquareHackerNews = createIcon("square-hacker-news", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZwAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBTwsGAAE2AiQDCAQgBYMtBzkb2ATIjtRG94xdInjfVlnvd89qr+cY+pgxA4yBMLKcmSNzbjlbOcXIcjgdMlK7b+rU85xnAz6HIGhj4cIEZIGMMc4jULFefQt1W8EiitVtopAdUfhFiARJRMfXjq8j5PEorquQHqRfca39aPypgysklQxANAfA9LUrF/uuIRoifq1F/GohAmIGKAUyZOgswCSZQGe5Erlc0BC1mvwHlgQQdfS1EshRwUKsBOQgyfK8Y333aqVJvqZaKfY+HBDxsU/jeN3vffsUD/p/6N0k3g381CnbdjHSnWN1US0i1kQ1PuvwoM3FuONOm3vtLsa9To9GVmNV6PGx+ce/+XXPr77dWrSgxfNpnrdoUUxTtDDj4xWM/P6w2/33Wnpfb7/dfTMA0ab3+L70u/Pmey17aDcQCCqH/7+6tdmk/+qrCfzxxb/rN9ca4rv0EfUSCLJBtUE2xXcg1ACsFGf0CDYWSGbKQL+1sbsChAIBkjqFAJlOmguQKwwUoKKr0QLUKayUibyR0NpmA0ljx0FmjLMg19rnoGKSH6w6rSPDE4cG7juXPMdDs3eVw4cMKyeUy8TgIcKU5cRyW+l3Jjf600F7HHXEKbvtst8pR56w2D3tsDkRPNuGSsMNMUxpgvI4f96/xm4nnLTfUUfqmonK+2Y/Z+L+/qQnSjtCIElEavkmPYP3bd95cPeJwQgEAAA=");
 
 export default SquareHackerNews;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `carrot` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/carrot?s=duotone carrot}
  * @preview ![carrot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/carrot.svg)
  */
-const Carrot: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 488c0 6.2 2.4 12.4 7 17c7.1 7.1 17.9 9 27.1 4.8l134.7-62.4-52.1-52.1c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L199.7 433l100.2-46.4c46.4-21.5 76.2-68 76.2-119.2C376 194.8 317.2 136 244.6 136c-40 0-77.1 18.1-101.7 48.2l60.5 60.5c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-55.3-55.3C84.3 300.7 43.3 389.3 2.2 477.9C.7 481.1 0 484.6 0 488z" />
-        <path d="M320 72c0-29.7 17.6-55 26.7-66c3.3-4 8.2-6 13.3-6s10 2 13.2 6C382.3 17.4 400 44.3 400 80c0 32-8 40-8 40s8-8 40-8c35.7 0 62.6 17.7 74 26.8c4 3.2 6 8.1 6 13.2s-2 10-6 13.3C495 174.4 469.7 192 440 192c-40 0-55.3-15.3-80-40s-40-40-40-80z" />
-    </Icon>
-);
+const Carrot = createIcon("carrot", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgQAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyBdwsIAAE2AiQDCgQgBYMtB0gbEQXIjtMV8WWKJzmUlqDSRfasdPcApAfGiJGMENoRQ+Ry5RwRhtdRsLzMpk49z3kogA8imcM2SLbP3XFegZ5va73g5SlU0xpYdZuIZyB9IQWVEtJx1Y6rsnMw3SCPr7PTSqQH6Stck/8BjJ81c5qkWgYg6gJg7LxZU7z3bXyb4qvK68RXJiMgxoFCIEOGlgKMkAm0lCuQywXfpkqFb6NSKQggyuTBMlBGjqVYB8hBEiLPe3atUaqVz61Rqr7uUYuIR03u1bjU6E6zB82ON7zd+ESTe52f7/h8ozu41OG5Dhc7vdDtRLzS/GE4Pgg1mRcz466tNpoRev7N7q/GM6PemfTRCOLOe/WZ8c1s+9zW7pW6r/za9rUbva98nOP7J1atOnH/yZPVmw7uwq6Ty5/q0uXc7KpVZ5+rWnV5q+rVEsX1p1rpUn3tGz+dHaW/hw9ffvlLq3oqRk/rXJ44e/l3W+K7rtVxeodpu043LAGB4Oj/G1YvqzPi36o1Evj+jd//Vn5HlZL0CqpKIMh6VHpYnEAiAAAp9mqXxBgEMj0l+VNruitAqI4ASVl1ATIt1BUgV113AUpaGyhAWXWzZCKvJjS0pIKkph0gM8gRkGvoNVAywqd2WcPIQIZDBP/jxUwSmrit6NurTzGsMHNK4AZN68OLZaXL3npd6aq1ttlqtzVW22A3yE5TvD22mOTBE31Roa9e+igMU4Sre2Yu9k67bJhT8U2GK/ZbXez1p7vSbhKg3/FEMiJFVvudzdq2uydYhbotdSsBAAAA");
 
 export default Carrot;

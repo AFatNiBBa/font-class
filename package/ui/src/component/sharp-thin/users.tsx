@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users?s=sharp-thin users}
  * @preview ![users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/users.svg)
  */
-const Users: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 80a64 64 0 1 1 128 0A64 64 0 1 1 80 80zm144 0A80 80 0 1 0 64 80a80 80 0 1 0 160 0zm96 64a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm0 176a96 96 0 1 0 0-192 96 96 0 1 0 0 192zM187.9 368l264.2 0 38.4 128-341 0 38.4-128zM464 352l-288 0L132.8 496 128 512l16.7 0 350.6 0 16.7 0-4.8-16L464 352zM196 192L48 192 6 304l17.1 0 36-96L193 208c.7-5.4 1.7-10.8 3-16zM444 192c1.3 5.2 2.4 10.6 3 16l133.9 0 36 96 17.1 0L592 192l-148 0zm4-112a64 64 0 1 1 128 0A64 64 0 1 1 448 80zm144 0A80 80 0 1 0 432 80a80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const Users = createIcon("users", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABnQAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCcQsGAAE2AiQDCAQgBYMtBywbbQXIjsQ4RvIsmh8RD8/r8XXuS76CITMUl1TlSqjEphiUaw07LXtioWeBZ/rtPWp3/q/5/J4fHeC3wxM7tCisBCmvXAZO4ABnxWkTmg1nE8WxztrZL28Q3SKkT3wShumHzQXy+NuJWkiPpa9wT3zT+FpfN5JkGYDoAoAlu7Zt8N6hOBTx5f+H+NI6BMQS0AhkyDBAgPkygQFyDXK54FD8/z//BjYEEK1wcQI5KjyIZ0EfIinyvKY/sP4ddaeqrsuWOt9ZthT7nhnXx9SBbnQZ2wbRp+d+s58Bfs477x/M35gwx4/p18Q1ac8Cd4yC8Xx/G9f1MyNTcfvw0Ee5tq8eEcvtdVXviCp2nVDV1fboEWXdK3YeX5TF9ihjV5TxSG/6UE8aO6KMnVHsenYBe6lL+3bIVyd/ZdM52ZEffzySJfS91SkXXXRKhTlm0XsX79p18XvHXu4n2P/xJ337fvLx/v39RIn1GyYh7Bl5jR1GXNO9c4Pw2Hts0vWcTYpePvMgzo6Ruhp2jJu19f6jd9vNTehqsOWD2e3ngUCw7+jje4/pPP/XdprAkXe//zo/3vr/e+ny9BLaJRBk4/8fb3+6VqtWpVMA3BQXG0qfJJDcqYBXrTwsQCgQIGlVCJDpr4sAucI4AVoMMkOAVoVtMpF3CD0caCCpnAcyM10Fcj28BlrM96nbqkdkBkqZF/U/jF8poRVdzZSJk5u5zbRUaZsj/PK8ZlkYfbEbGkMnnewcZ7vQSU50mgsFcr4NwUXOslKDV/iixhQTTdaYq9lu7g/vdJLzXeA05zg77DJPc94Z7WJ98hiSE+BOlUgSkVrsHQAAAA==");
 
 export default Users;

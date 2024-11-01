@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-xmark?s=thin plug-circle-xmark}
  * @preview ![plug-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/plug-circle-xmark.svg)
  */
-const PlugCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 104 16 0L112 8zM288 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 104 16 0L288 8zM8 144c-4.4 0-8 3.6-8 8s3.6 8 8 8l32 0 0 80c0 81.3 63.8 147.6 144 151.8L184 504c0 4.4 3.6 8 8 8s8-3.6 8-8l0-112.2c20-1 39-6 56.3-14c-.2-3.2-.3-6.5-.3-9.8c0-2.7 .1-5.4 .2-8.1c-19.1 10.3-41 16.1-64.2 16.1c-75.1 0-136-60.9-136-136l0-80 272 0 0 66c5.1-3.8 10.5-7.3 16-10.5l0-55.5 32 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-32 0-16 0L56 144l-16 0L8 144zM304 368a128 128 0 1 1 256 0 128 128 0 1 1 -256 0zm272 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-82.3-50.3c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L432 356.7l-50.3-50.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3L420.7 368l-50.3 50.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L432 379.3l50.3 50.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L443.3 368l50.3-50.3z" />
-    </Icon>
-);
+const PlugCircleXmark = createIcon("plug-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABogAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDBwsGAAE2AiQDCAQgBYMtBzgbjwXIjpQuZyTx8GUze78Haj2SkdtaA+EBEkdAmGJ0sSpE/38u9/ymHS2QZUdwKP/WqK2BLO8dNRdwr+c9b9PlawllgSWKjeoVHuQfzL/sAGX85AAV6db0Ma42vzT+MtIFJEUBIAYAYN3O22/pnd/j94iPuy8SH9scAbEeyAIFCowRYKVCYIxSRqkU/B7dLvsPzAQQNfu8BEr04CE8SfVtkrosm2bh6NG5VfUtd2pVze43DbthiGhFtBJnH0beOBQMyb2r3txQhG4eHvHwlHPD2flA8+7qtzoRfUM0ua0AJm1udjh3RsTjMx5vXT7tUcw5Z+ojXHPZ9MfKo++5syOeWv5a/oKlr8x8wjmznlz2auvyFa/PeTp2unnYTUO2ie0CS24Yum1sE5Ibh28f2wY0QsO523ceG/DYPz4+6GNHv1zvs099iAEOeSZJDr+YgLUj20bfy079+hi1ENzxxe1VVZZ81nvNTgf22cYA6znx+KWygZFTfutt0/7i807n8y/a7d5CBYsaMCWTBw+aPHnQ4JynwAq4Ydt5ixZtv/0ggwSQTJ1gguL7IBDkH8Y9tXf/lf/3tBL487X/0q/uvpPWpsfQI4GgmNmdaY+0FrA8gEKKk3Q6FhhI7rLiP7XtJgFCgwBJrRGgMNoAAUqNGQJUxlkkQK2xvUKUfYQh9sz4pO1YvrDYmXxpiOf5ykrv5WtDorhWjSvN+FTM3aiIbDgvz5s9Ny/PrRWJeflp2uSKPDg19STeMQ3udZCjHeUEBzrAoU4o0MfZsnSiI23URW3oh7J5ZpsrWy5Prl91d8IQuMcbWrM5fRYr5OVzU53U3X8azCa24nyhJBFp4EskNuuvnvSsU05t");
 
 export default PlugCircleXmark;

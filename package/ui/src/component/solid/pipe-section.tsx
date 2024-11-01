@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pipe-section` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-section?s=solid pipe-section}
  * @preview ![pipe-section](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pipe-section.svg)
  */
-const PipeSection: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 96C14.3 96 0 110.3 0 128L0 384c0 17.7 14.3 32 32 32s32-14.3 32-32l0-256c0-17.7-14.3-32-32-32zm576 0c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32s32-14.3 32-32l0-256c0-17.7-14.3-32-32-32zm-64 32L96 128l0 256 448 0 0-256z" />
-    </Icon>
-);
+const PipeSection = createIcon("pipe-section", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABXwAAAHDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBMwsGAAE2AiQDCAQgBYMtBzMbtgTIjtMF9cyWl0RQv/bZ83b/MYU2UcCsgMkBobBn46LOBY24ik1FEmRt8fv83/J5z6Mw/BxBKPepgVwg0Xk+TyDR/BzBbDgb0MQnYNudrdUcSvu0tIwlOS7keOyQx+/sihLpZfqI++lF47NOV0gqMwDRAIA5a1eu0NMbvREf/iM+WIaAmAMKgQwZ+gowXSbQV65ALhf0xv//9B9YEECU4Z9BAjlKmIV5gBwkWZ63t1dWl2rzNdWlqo23WiKeSHGh9Wn17fbnkcXFtmdV9da9xTW1NSlqIxvU3dD9ZeDHPR8N2Fp3gxt1IIEEcdJjtmX872GUHt8IBLfvbGlr/fSvFdUJfHr9j/xgupC6USGBIBv+f7hN6QIQNgA/xRmDnDcKJJNk8FlrPBMgVCFAUqZKgEwfDQLkqgwToKS/CQKUqbJSJvJKocXmApIax0FmorMg1+IVKJnujVemJbIbxOw/84FLXKihBWvFmJGji6lFNybspaDifFoxbA4+E2pDYNMeRx1xym677HdKISesCE87bKEHL/BBhTFGGq0wVTGdXYtr0D/hpP1tbn7JNMV6d7AzfvcQcBLGHSuSJCLVvGd1xHEEAAAA");
 
 export default PipeSection;

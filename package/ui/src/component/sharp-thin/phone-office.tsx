@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-office` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-office?s=sharp-thin phone-office}
  * @preview ![phone-office](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/phone-office.svg)
  */
-const PhoneOffice: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 16l0 16 0 16 0 384L96 432 96 48l0-16 0-16 128 0zM80 16l0 16L16 32 0 32 0 48 0 496l0 16 16 0 544 0 16 0 0-16 0-448 0-16-16 0L240 32l0-16 0-16L224 0 96 0 80 0l0 16zM16 48l64 0 0 384 0 16 16 0 128 0 16 0 0-16 0-384 320 0 0 448L16 496 16 48zm304 64l160 0 0 80-160 0 0-80zM304 96l0 16 0 80 0 16 16 0 160 0 16 0 0-16 0-80 0-16-16 0L320 96l-16 0zm0 160l0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0-8 0zm16 16l48 0 0 48-48 0 0-48zm104-16l-8 0 0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0zm8 64l0-48 48 0 0 48-48 0zm-16 48l0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0-8 0zm16 16l48 0 0 48-48 0 0-48zM312 368l-8 0 0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0zm8 64l0-48 48 0 0 48-48 0z" />
-    </Icon>
-);
+const PhoneOffice = createIcon("phone-office", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABoAAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDZQsGAAE2AiQDCAQgBYMtBzMb6AXIHoex22RJF81QPm7EiIf/n/u3fW7yKSlDWgVAKTErIN8qUq0mHFDPDamRwLZr5OiXzF8/CYH+PnFN/Th/Ko0Uf3u0WESBFI2iCicwwCqdF/hsYDOdgG1w3qgDCk2h/AZ5/OawFtKTBPeLD40v+rtHkmUAohsAFmzbtEbj7/g74qfmJ+InqxAQC0AlkCHDIAHmyAQGyVXI5YK/o9lk/4EVAUSr8OIEcnTFz/gFkIOkc553H9y7o3v3jp4d2Fm2DIxb9eZilyBSFJEFvloWQlGIFKLsGmPholNkaYXlZVFaqMzoHCm6RHZgZI8oIvoIFtTVXTf37IvXEduKsqjk5PoQ5XzFoANSt64f/rzb8/+GOcpfbwSPW9TVTWV60I3X3bppENuEwlyPA92czTpYb9Wr3VJrqDTG9wwK13tmfZNrvTngrVoE3zxtDzm1du3L20HXzQlQbIIJx7q292Gmv+YeydfuBwLB90+6dNc5/7eXCfz77V/wz0izker0HO0SCLIxzTF2pxpSLQAAKa4anmoEkh90ht+1k4cChAIBklaFAJmBugmQK4wWoMUQUwVoVdgkE3mH0Muehk06ucBmprnO5nr5wLaY47t4q16RPdrag6n9WWZa2oWXLKsmjptQzapmyyrd06ro8dnVZteIq7xtJDzrqHPOuuyIw0643EEvWpO64oylS8gSX1SZaJwJKrNUh2sOXbbi+EWXnJi2O77IbNX1sRGuLvceCb1JkJ0kJ0lE6nTzW8d+NwAA");
 
 export default PhoneOffice;

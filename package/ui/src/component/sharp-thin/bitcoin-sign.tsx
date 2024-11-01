@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bitcoin-sign` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bitcoin-sign?s=sharp-thin bitcoin-sign}
  * @preview ![bitcoin-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bitcoin-sign.svg)
  */
-const BitcoinSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M80 0L96 0l0 64 64 0 0-64 16 0 0 64.1c53.4 2.1 96 46 96 99.9c0 36.5-19.5 68.4-48.7 85.9c46 9 80.7 49.5 80.7 98.1c0 55.2-44.8 100-100 100l-28 0 0 64-16 0 0-64-64 0 0 64-16 0 0-64-48 0-16 0 0-16 0-168 0-16L16 80l0-16 16 0 48 0L80 0zM32 80l0 168 140 0c46.4 0 84-37.6 84-84s-37.6-84-84-84L32 80zM172 264L32 264l0 168 172 0c46.4 0 84-37.6 84-84s-37.6-84-84-84l-32 0z" />
-    </Icon>
-);
+const BitcoinSign = createIcon("bitcoin-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcQAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCAQsGAAE2AiQDCAQgBYMtBzMbBAXIjsN0OyuPtCnSPEbwoft0n6R/c5YMMrHMjB1QxxVQ6qMuANQ0N2k9qTKpfzNz2LyfOvU856EAvlHQxsJsysXnwDU7zitQwF6oLbfAvZ7XCrYNKmC1dnYJg9KVQRLikwybHzYnyGKf42okrxN4Fu80PujrIYk0BRAlAJbs2rbBD+3RHvF3/VPib+sQEEtAJZAixQAB5ksFBshUyGSC9qjX3X9gRQDRgNdLQIYaTuAcIAOJNMsWdOla1DplO4tavq/IC1FEmBnx6ZjmgXf7vBpuUu9GN03PQ0CJgJJH/HpRxHahiM/HtQ7+aGzLzHxHXuSi2z20pWz5d4iTbPq+BL+YPa+02P3W1sZ+/fXC9u7NOnzz9/NmlBSaXJaaJFc5efGkTU3c89jkUzfT9OapyY8fff6YWpO24QIVEAhW51P/O9Rl/v+NRQL++eof8s+orP8QU5MWNEpAkI6vj7c/biqVMVUAAJK4aWgsVgokDkjxVjt6IUDIESDRIBcg1V8pQCY3ToCaQWYI0CC3TSqyDkIPBypIdHQFpGa6BTI9fAxq5vtdb9AjUkUj1IT458WubKEV26opEydXc6tlppC6g4X1edU2N/qm74zBQSddctF1Jxx3xvUGuWqDdcMFKyV4hQeqTDHRZJW5quPycWanE6665ow5db7JPNV9dbSb8vgYiAmiTnU0kRBJx6Nnrh+7dObihFcKAAAA");
 
 export default BitcoinSign;

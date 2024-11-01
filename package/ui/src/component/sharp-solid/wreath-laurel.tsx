@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wreath-laurel` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wreath-laurel?s=sharp-solid wreath-laurel}
  * @preview ![wreath-laurel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/wreath-laurel.svg)
  */
-const WreathLaurel: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 112C144 50.1 194.1 0 256 0l32 0 0 32c0 60.2-47.5 109.3-107 111.9c-23.9 32.2-37 71.5-37 112.1c0 97.2 78.8 176 176 176l72 0 5.7 0 5.1 2.5 64 32-21.5 42.9L386.3 480 320 480s0 0 0 0l-66.3 0-58.9 29.5-21.5-42.9 33.9-17c-5.1-3-10.1-6.1-14.9-9.5c-59.6 28.2-131.9 6.3-165.4-51.8l-16-27.7 13.9-8c13.8-8 28.4-13.1 43.3-15.5C27.5 315.6 0 273 0 224l0-32 16 0c15.9 0 31.1 2.9 45.2 8.2c-24.3-38.8-26.8-89.5-2.3-131.9l16-27.7 13.9 8C115 63.7 133.8 86.8 144 113l0-1zm315 31.9C399.5 141.3 352 92.2 352 32l0-32 32 0c61.9 0 112 50.1 112 112l0 1c10.2-26.2 29-49.2 55.3-64.4l13.9-8 16 27.7c24.5 42.4 21.9 93.1-2.3 131.9c14.1-5.3 29.3-8.2 45.2-8.2l16 0 0 32c0 49-27.5 91.6-68 113.1c14.8 2.4 29.5 7.5 43.3 15.5l13.9 8-16 27.7c-22.4 38.8-62.1 61.4-103.7 63.8L481 437.9l-18.4-9.2-30.4-15.2-17.9-9C463.4 373.3 496 318.5 496 256c0-40.6-13.1-79.9-37-112.1z" />
-    </Icon>
-);
+const WreathLaurel = createIcon("wreath-laurel", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABkAAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCXQsGAAE2AiQDCAQgBYMtBzQbYQVRlA5Gj+wjMXYbDbERUQzNga7xP56H96/q3Fdo/DZquKTiddoTL+RhtGIqRsN0jfL/f5vv8Wke4j0kk4llaKRJEpO2RmwLZW1/3PzzzqMAH+c+FnaeRQt8zvMEOs8Xbw2kbWH2RfG/bVqgIwqbESIkEY0VjlcP9fwjSg3KA+UD3NZemm9MKim6agAygAAccla3oN+mbEreb79I3nccEsghCC2MGmqYwWB/QjBD1kLq6sKmtNv0HwgUIE1yxALqqOMuPAiog6LU6yceoDR662fOrBrd5z22XbJqryry8NbP7/5O68tTPj2jqkZzTLbPsenOiqzAHR6dHbNf7h17Zc+XdpzKeJ7b6tltVyapctOylXOP7jSd0bw6m0te2jZZOZdUeXGbF2blsf3GM5k1Mw9v/VxVRRa2fn7pM8tGM5EsPb10efqJX99p3fyThy5eObDyu0UfXPmB207q/58ffmxp6d244bNdenPsQI7N0c1DtZ1jtUPBodY414DLr/ti/YZVf/vacaf9MLvDspYBE0fNpgzYNa/8M/vOf7aBjb0tLT/+8H9//HHV1/42UDJ71MSAlmU7zP5w2X6wRe+6tzd/aMIPJpx55pF9vbsAQTjy369nLurf/7fOqoAtr/3wXVqu/V5ZKCsloVMBobZ9e3vDsgCED6CU3MByPhQUNynkqT3uFRDdCCiaugXUTDMxqOu2HQYNc2oYNHU7jZB6lxgxmlD0uBpq9vSBuhFfaNjfX24aSS0sqaCifoXxuUayMiRhjDaWukFHGlHyHWwL9pt9DrbS2sXZ08rSzlNhd4X2cpJ7aOaHIBGKQRuOrW39wMrdw87FuRbpwH3R9vajHaxCAuz6oAR3pvTeeM1q9twGx9nrvjoCAAA=");
 
 export default WreathLaurel;

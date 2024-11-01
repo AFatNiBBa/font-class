@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-through-window` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-through-window?s=sharp-solid person-through-window}
  * @preview ![person-through-window](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-through-window.svg)
  */
-const PersonThroughWindow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M288 64l0 77.9L143.5 228.6 128 237.9l0 18.1 0 128s0 0 0 0l-64 0L64 64l224 0zm64 0l224 0 0 320-67.7 0-3.7-4.5-80-96L415 272l-15 0-78.6 0-35.3-54.4 50.3-30.2 15.5-9.3 0-18.1 0-96zm73 320l-45.8 0 42.7 64L576 448l64 0 0-64 0-320 0-64L576 0 64 0 0 0 0 64 0 384l0 64 64 0 244.2 0 24.9 37.3 17.8 26.6 53.3-35.5-17.8-26.6L310.5 336l74.6 0 40 48zm-159.5 0L192 384s0 0 0 0l0-109.9 .2-.1 73.3 110zM192 128a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const PersonThroughWindow = createIcon("person-through-window", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeAAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCJwsGAAE2AiQDCAQgBYMtBzwbMwXIhofvdb2e+6RPWjPIAIhJm3EVYKzcBZtiJy3TTlzz/M+fHrCsRB8tc9VWRRF1PoEJljaNdz4bziaKszbHCfqL2G1R8USdYQ2bP2ydIY9/snvVkR5OX+FO+9D4Rmf3kjRlAKIVAGZtWLPM3WpUI76svU98aQkCYhYoBTJk6CbAVJlAN7kSuVxQjVqt/AeWBBD1+OoEcjTgHG4AcpDU5Xn7zv2aN6/UNc/XV+qKA8LaaBdC3MrJIrKoIFBU0h7oEOuXqqKYHUuiYzC1qagUs1QgInOlRQuRgpUOi0GxIgb3Jioxrehg3mF4z7r1j/R/oe9znR7u9/yAF7v2fqXVK9/1+mr/V3reWE7qnfX+1MZN2Jlmqs6snpxprj5W7PColiv66aHjOxfOGI6KNz0yc6YsrPt/vVcXc3S2+JTFbjy5mGfAcSw6tqhWHL9y5XhRnwcCwaf337dxR8upvzVWEvj6kx++S4+r3U030ytolECQDa0NtTXdBOADyKQ4r7f4okByTB2+azMPCBAKBEjqFQJkumolQK4wRIA6PYwToF5hjUzkTUI72w44aeYUnBnvGpxr5124zlSfpuu1iyz2uMjhfv2S53tg3q5y1PCR5eTytmPjw4mRm1PKx/bA8zYxCAftd8JxZ+2z1yFnHXTastw5x8xX4Dw/VBpluJFKk5XD/c/yehc47Ywx18L4NlOU30cGOq/nD4I7Ie1oDUkiUvtQ1YdNYG3Y1AUAAAA=");
 
 export default PersonThroughWindow;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cauldron` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cauldron?s=light cauldron}
  * @preview ![cauldron](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cauldron.svg)
  */
-const Cauldron: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 56a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm96 24a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM60.1 244.9C72 223 85.2 204.3 94.9 192L224 192l129.1 0c9.7 12.3 22.9 31 34.8 52.9C404.3 275 416 307.1 416 334.4c0 45.1-21.4 80.4-56.1 105.5C324.5 465.5 275.4 480 224 480s-100.5-14.5-135.9-40.1C53.4 414.8 32 379.5 32 334.4c0-27.3 11.7-59.4 28.1-89.5zM55.2 192C30.2 228.1 0 283.9 0 334.4c0 37.4 11.9 69.4 32 95.5L32 496c0 8.8 7.2 16 16 16s16-7.2 16-16l0-34.2C106.3 494.6 164.6 512 224 512s117.7-17.4 160-50.2l0 34.2c0 8.8 7.2 16 16 16s16-7.2 16-16l0-66.1c20.1-26.1 32-58.1 32-95.5c0-50.5-30.2-106.3-55.2-142.4l39.2 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0-144 0L80 160l-64 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l39.2 0z" />
-    </Icon>
-);
+const Cauldron = createIcon("cauldron", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhQAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCGQsGAAE2AiQDCAQgBYMtBy8bGAXIjtRe8YZkWjz841//7nPx9K37AakDI7GaLpqVKis1oHIyEIFx4nLnb5secAPgWDZw+VzhnOcJdB4VFQfUBskCyzQBy7rpl26IPGlITr6XNEz5YesMWTwQ/eQk9yVl3FI+NH7WxgUSWQogGgNg8sql85W+iC8iypW3iLK5CIgpoBBIkaK9AOOkAu1lCmQywRdRqaT/wIIAooqCiVdnqMYBnAJkIJFnWW1tg2bD6uUNshX18rq1z7S7v8eTre/rvvyeVne1uLP53S3rsfF0N2hP9bQfuumVdvXq3df/pQ6fzSsv+3zBpyseGdjl2X4RL7Z/rL+4q8U9rSKeG/5Wvesj3+nLLa90fXjAy33qhaTubllX/87mxul6XZ5v/Pyvncs7yh65vLhFi8WVtbFVwy++aFieVHfg7NkDdbhE+mTnv/ir88NtYuryEwstdGJ5TG3z8LSxOXle890U+4e6+P/B+/e/8eD/Xdid4ruaXM2xPd0zJm1qz+gJBILfu+d/b2w07t/qJeCr93//F35FlVKUkudRIwFB2q/Sz7ooQZQEACCJE7pECYHEDjl91/ruFiDUIUCiSp0AqXYaC5Cp01eAXEfDBahSZ6lUZLVCc+sHkajvMJEa4TyRae4NIjfOB36V5pEGnRAywp8vdQYD07cVgwcMKsYUy7YuxhGX18cW23qvExjrLUftcNABx2y3zW7HCD9ifnTcfjM8bLovKgw2wCCFMYrj3rO6gvwjjtpty+ebjFXcd3o54c/uLbtIAEOei8O+SGq2bj6+b9uRgwcAAAAA");
 
 export default Cauldron;

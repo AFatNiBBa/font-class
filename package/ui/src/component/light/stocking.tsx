@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stocking` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stocking?s=light stocking}
  * @preview ![stocking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/stocking.svg)
  */
-const Stocking: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M96 32l256 0 0 48L96 80l0-48zM64 32l0 48c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-48c0-17.7-14.3-32-32-32L96 0C78.3 0 64 14.3 64 32zm64 206.9l0-94.9-32 0 0 94.9c0 10.7-5.3 20.7-14.2 26.6L55.7 282.9C20.9 306.1 0 345.1 0 386.9l0 2.2C0 457 55 512 122.8 512c24.2 0 48-7.2 68.1-20.6L295 422c35.6-23.7 57-63.7 57-106.5L352 144l-32 0 0 171.5c0 32.1-16 62.1-42.7 79.9L173.2 464.7c-14.9 9.9-32.4 15.3-50.4 15.3C72.7 480 32 439.3 32 389.2l0-2.2c0-31.1 15.6-60.2 41.4-77.4l26.1-17.4c17.8-11.9 28.5-31.9 28.5-53.3z" />
-    </Icon>
-);
+const Stocking = createIcon("stocking", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcQAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBegsGAAE2AiQDCAQgBYMtBy8b+QTIhof/t/uvfW7Ve+u3XS1XQ4pIDOBMzqB8JmLkqDPN/zWf/+dHB/j5CA4tCitBCjzz+QkMfO2tA48Cm07Qpm7jCxrk8ipyRI+IoQ0MyR3kcTT6qJCeTD/gZv3Q+Fsr50jyDEA0BMCEhXPn+OrX+DXihwfvEz+YhYCYCAqBDBnaCjBaJtBWrkAuF/waDx6k/8CCAKLK3jCBHBWsxiZADpIsz2u1HlqnUi9fUKdSe2m9uvVE3Yjawqlmj9apF1dbPB4Rp5s/VrtuXGn6iPkhaoc41bRHvNHyCeLFMZ9Pudp7Ybzd5umI+cVfGD4vXqn9Qa+32ke8PKp3vN2h01sN3/q34w8bfrDyeZQoi7Is61+6VB+AEtDH/bQS91lYqdHPt7z4y19FknXqVHb9c+NkL/79d/GOwjvimY1T7Giz6vIT1cTRF70UQCA4u+Zug5UNRt+pqZPA75/8f0fP9+CrOJXeQo0EgqzPgz6WxSkANoCflOKATnEKgWSxDK61rscECLURIKmqLUCmjYYC5GrrLUBFe0MEqKptrkzktYSmlneY1LUbZoY6DnNNvQsrRvvarWoaGcsojlB/vPipHkyZVQzoVxYji2Wo0cQhynhUsS30OJBLPWWrDXbaYZ/11tlsn0P3mBPst93UCJniiwoD9FMqjFQcJ4/rF1hvj70222mHThmluO/0cCBu7ilyYrgDzUsSkWr27tv5IgEAAA==");
 
 export default Stocking;

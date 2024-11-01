@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `peanuts` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peanuts?s=sharp-duotone-solid peanuts}
  * @preview ![peanuts](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/peanuts.svg)
  */
-const Peanuts: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M128 364l0 115.6 0 32.4 148 0c40.5 0 77.1-16.2 103.8-42.5c.6-.6 1.1-1.1 1.7-1.7c13.8-14 24.2-30.1 31.3-47.2c4-9.5 6.9-19.6 8.8-30c4.8-24.5 12.6-49.1 30.3-66.7s42.2-25.4 66.7-30.3c10.4-1.9 20.5-4.9 30-8.8c17.3-7.2 33.5-17.7 47.6-31.7l.9-.9C623.6 225.4 640 188.6 640 148L640 0 492 0c-20.1 0-39.2 4-56.7 11.2c-17.4 7.2-33.7 17.8-47.8 32l-.4 .4C373 57.8 362.4 74 355.2 91.4c-4 9.5-6.9 19.6-8.8 30c-4.8 24.5-12.6 49.1-30.3 66.7c-7.2 7.2-15.6 12.8-24.7 17.2c-13.1 6.3-27.5 10.2-42 13.1c-10.4 1.9-20.5 4.9-30 8.8c-17.5 7.2-33.9 17.9-48.1 32.1c-14.2 14.2-24.9 30.5-32.1 48C132 324.8 128 343.9 128 364zm146.8 55.9a19.2 19.2 0 1 1 -37.6-7.8 19.2 19.2 0 1 1 37.6 7.8zm64-64a19.2 19.2 0 1 1 -37.6-7.8 19.2 19.2 0 1 1 37.6 7.8zm0 64a19.2 19.2 0 1 1 -37.6-7.8 19.2 19.2 0 1 1 37.6 7.8zM499.2 192a19.2 19.2 0 1 1 -38.4 0 19.2 19.2 0 1 1 38.4 0zm64-64a19.2 19.2 0 1 1 -38.4 0 19.2 19.2 0 1 1 38.4 0zm0 64a19.2 19.2 0 1 1 -38.4 0 19.2 19.2 0 1 1 38.4 0z" />
-        <path d="M149.4 45.6L251.9 0l45.6 102.4c12.5 28.1 12.5 58.6 2.4 85.3l-.3 .9c-2.3 5.9-5 11.5-8.1 16.7c-13.1 6.3-27.5 10.2-42 13.1c-10.4 1.9-20.5 4.9-30 8.8c-17.5 7.2-33.9 17.9-48.1 32.1c-14.2 14.2-24.9 30.5-32.1 48C132 324.8 128 343.9 128 364l0 115.6L55.3 512 9.7 409.6C3.5 395.7 .4 381.2 0 366.9c-.4-14.3 2-28.9 7.4-43.1c5.5-14.2 13.5-26.7 23.4-37c5.4-5.7 11.4-10.8 18-15.3c15.4-10.9 30.1-23.9 36.8-41.5s4.6-37.1 .4-55.5c-1.9-7.8-2.9-15.7-3.1-23.5c-.4-14.2 2-28.7 7.3-42.9l.2-.4c5.4-14.1 13.4-26.5 23.3-36.9c9.8-10.4 21.9-19 35.7-25.2zM524.8 128a19.2 19.2 0 1 1 38.4 0 19.2 19.2 0 1 1 -38.4 0zm0 64a19.2 19.2 0 1 1 38.4 0 19.2 19.2 0 1 1 -38.4 0zm-64 0a19.2 19.2 0 1 1 38.4 0 19.2 19.2 0 1 1 -38.4 0zm-224 224a19.2 19.2 0 1 1 38.4 0 19.2 19.2 0 1 1 -38.4 0zM320 396.8a19.2 19.2 0 1 1 0 38.4 19.2 19.2 0 1 1 0-38.4zm0-64a19.2 19.2 0 1 1 0 38.4 19.2 19.2 0 1 1 0-38.4z" />
-    </Icon>
-);
+const Peanuts = createIcon("peanuts", true, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAAB7wAAALuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWCEMwsIAAE2AiQDCgQgBYMtB0obTwYR1ZoDyT4ScjOshxRWFpIqrFSqo3kTwdN+rHm7H1UJDTIl08gklYvpSrAoBvG8XVWvsQD7TPfMQVpzEJ2YETGE6E9c8/zDo0BK8H0onZpWSaNsb7AEToqkBB/QaDgy3jg3KozM/eDxeIQi1dN3YJJetNvgylscP4hnByQVGY+JevA3QAfjRg3h6jN5psltdRLxmcEgIA4B/QgyMroRsI0u0I2hHxQKwRdNKXwRpSwEEKUEz8ygFPXgP5EBCpCUKSuMlv7+wYGlvT8WS2+gGWyM9dYFTBo3etwY8SYh91Flw/FW41XtWYhTGSs5CTlduW2ZbZXc3JnRQhJFFo3NyK1X3pE1XNGJ/0XA1tjMlnRbotJaM2K0Mo/bz+jmtMp9I22ZVQJXjEOIKrnWLbPN3RW7C6fca/xHlVOxcqWWSIDsq102HiVVcWnNeeOvWjAmq25FV+5IefsoH0Y/7j753dpRj5I+zkixoaar3vWrxu25t0k7OrdJ+Ngmc0j8L6y1az/qxxPX6D7VrhSb/qk0nsMO07R3flmTfvjcuvWNggwHtFK+tl89QsLCxDV1x0mBO9PSdgaKjqdPMX9kROD4AQPGy2BFd/USLkbZtm2RxoNMWK4+a9p3/9nZL17n9IbL5DRppLiI7njU43rSfhSXPS7u2Fr3cCM8NqoC7t5R+P3q6uqdtwMCwafHfhumhXb+7ReoAd/Of/2Qq1Vw7dW0RXOBcgkEeVo1NlnbohScUQQYSOGk5oyczSk7x1fwrtUeERAqESApVSlA1kUYAgqVphBQopc2CChV6QRdFP6EZqbUTFJNr2B0bW1kDFFOMKbOrvl9RIX+CcgNsPwPNE3fNtBnnLXQtLnV0ZpMKxWmWqrbO1mrLeNOXtYArmWuZZayzTHbAnaLWGlIyGGJvnPCPp+1tNBUc5aOrN25+5qx2L/SKgvGjfZ304l1vqM+53ztBtCuCUQuOiHTEUn00OVzZix12Kua2CVjeFtlaQA=");
 
 export default Peanuts;

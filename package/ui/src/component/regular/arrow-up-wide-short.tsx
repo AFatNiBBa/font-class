@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-wide-short` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-wide-short?s=regular arrow-up-wide-short}
  * @preview ![arrow-up-wide-short](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-up-wide-short.svg)
  */
-const ArrowUpWideShort: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M111 39c9.4-9.4 24.6-9.4 33.9 0l96 96c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-55-55L152 456c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-342.1L49 169c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l96-96zM312 480c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0zm0-128c-13.3 0-24-10.7-24-24s10.7-24 24-24l112 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-112 0zm0-128c-13.3 0-24-10.7-24-24s10.7-24 24-24l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0zm0-128c-13.3 0-24-10.7-24-24s10.7-24 24-24l240 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L312 96z" />
-    </Icon>
-);
+const ArrowUpWideShort = createIcon("arrow-up-wide-short", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABcwAAAHkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBXgsGAAE2AiQDCAQgBYMtBzob6ATIhofn7cI/981sAE4Ao08qt3ElVOng3v+3Urs/f02/b5d0fPSMDqWKSmMYCdhtE5hYURbJcDZRnLXTpf6L6BeD9AlJhu0NowPk8TnOK5Eup3c4lz80ftHYWZJSBiBqAWDUgjnTvPgRPyLelh8Rb01BQIwChUCGDM0EGCoTaCZXIJcLfkS5TP+BBQFEBYIn1+eoiNlYBMhBUsrzJtVcvGqpej4/bFhlyc128+Jyo2vtZ0eKS21vNMliZqjYlaYLFlHe1Q5V43rjwbRVApe3vlPrzm+t3q1/Z/ul6tVXrPDpU/Xq681Xf9as+vOt54UutmLFq6cQ4PVUsJPETnJDd9Fd/094GwSCPQ+OXllRc+h/laom8PPzP/7nx6P8I41Md1BJAkHWtdzV0jRSAA5SKfZrPfqiQDJZiTxUzQUBQhUESCqoApBpqhbkqugCJS30O6CCKubIRF5ZqGeZBkk1uyDT3zHI1fMASoZ6maygXmR2pViF8qvLHK/RuHlFr+49i8HFtKCqpiLFwSHFttNxPzd0wkrr7bDdXuustclexe42LbPPNuNXzDg/VOilu54KgxXH5fvF862z2x6b7LA9zTJEcT/oaP+6fSf4ifD2tj5JRKq7avfuHQe67dvZ7a3b3Z4hAAA=");
 
 export default ArrowUpWideShort;

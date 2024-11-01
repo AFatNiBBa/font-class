@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-pawn` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-pawn?s=sharp-solid chess-pawn}
  * @preview ![chess-pawn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chess-pawn.svg)
  */
-const ChessPawn: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M215.5 224c29.2-18.4 48.5-50.9 48.5-88c0-57.4-46.6-104-104-104S56 78.6 56 136c0 37.1 19.4 69.6 48.5 88L96 224l-32 0 0 64 28.4 0L80 400l160 0L227.6 288l28.4 0 0-64-32 0-8.5 0zM16 512l288 0 0-32-48-48L64 432 16 480l0 32z" />
-    </Icon>
-);
+const ChessPawn = createIcon("chess-pawn", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABWQAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBKQsGAAE2AiQDCAQgBYMtBzEbqgTIhofn5z479yVDSRlSAAZfR8uuoBZYjVpASWRRrf5/f/P8n3/6gI8kxbGw80DGApvzPIGAx/LAA8oCyzQAiTlz124tHiJfaSlL8vXRHj8H5LEtu6+O9CR9hQflpvGXru6TNGUAog0A5mxat0Lz7/F7xJe194gvLUNAzAGVQIYMPQSYLhPoIVchlwt+j1ot/AMrAoh69ZMSyJFjCmYDcpCkPO/fsqxrmW8s64pNT7tHvByvDX0x8d3Bz3rc7vpkQFGIMtZHGRujjIhic8sWLSNmRhHTQ98XbV780+erg1/57rcdn/BJj/Lrn9988+evyx6ffHKiqZqth/KUN5Sn9DBb9W3vis5T06ymAgLByg92XdvVevr/jWUCf3783z/8GrWpNcfY9AKNEgiy4bXhtsdFbbSJsQIAkOKivjFbG4FkjARXbeGhAKFAgKReIUCmuzYC5ArDBKjTywQB6hXWyUTeJHSwo0PSwhnITHQDch28A3Wm+1St1yEy52Gfnv27JS3UaEFfNWbk6GpqNXU1zh/o1J5WLcuDL8bUEOw66JSTzjtgvyPOK3LWCuOCExZaeIEHVcYYabTKVNV28Li+0QFnnXPEKSdzl2mq88pgF+3iIeAvSD3WCUmSwVTsO3zg3LkRp/dcOgkA");
 
 export default ChessPawn;

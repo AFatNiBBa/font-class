@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelopes-bulk` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelopes-bulk?s=light envelopes-bulk}
  * @preview ![envelopes-bulk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/envelopes-bulk.svg)
  */
-const EnvelopesBulk: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112 32l288 0c8.8 0 16 7.2 16 16l0 16 32 0 0-16c0-26.5-21.5-48-48-48L112 0C85.5 0 64 21.5 64 48l0 144 32 0L96 48c0-8.8 7.2-16 16-16zM224 144c0-8.8 7.2-16 16-16l352 0c8.8 0 16 7.2 16 16l0 224c0 8.8-7.2 16-16 16l-176 0 0 32 176 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48L240 96c-26.5 0-48 21.5-48 48l0 48 32 0 0-48zM48 256l288 0c8.8 0 16 7.2 16 16l0 5L196.9 391.9c-1.4 1-3.1 1.6-4.9 1.6s-3.5-.6-4.9-1.6L32 277l0-5c0-8.8 7.2-16 16-16zM32 464l0-147.2L168 417.6c6.9 5.1 15.3 7.9 24 7.9s17-2.8 24-7.9L352 316.8 352 464c0 8.8-7.2 16-16 16L48 480c-8.8 0-16-7.2-16-16zM48 224c-26.5 0-48 21.5-48 48L0 464c0 26.5 21.5 48 48 48l288 0c26.5 0 48-21.5 48-48l0-192c0-26.5-21.5-48-48-48L48 224zm448-64c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-64 0zm16 64l0-32 32 0 0 32-32 0z" />
-    </Icon>
-);
+const EnvelopesBulk = createIcon("envelopes-bulk", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABoAAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDEAsGAAE2AiQDCAQgBYMtBzUblQXIhuB7//6/XvucB3h/SZE8ZiZEsjIwSHRrUkY/Glyf/lTO5TwUwM8hCMqYL7tz4lhgc56XarWKVseiVqC1Yq2i2MF5kw8hJIbyE5TxT8xUQ3owfYfb3YfG7wbcSFIWAKIdAOv2797li0pUIr6rvkt8ZwcCYj3IAgUKDAuwUiEwrJRRKgWVqFbZf2AmgKjlv1ACJRrwPN4BlCCpK8vRyd3dg+0NTTUt5b6mmsbDLc0t9/aIpoh4qPe+yc3xTPc9/c34/X17bbAlxor3dDdGz+bn++4fmuXs2Y49JnVf775NQpUQe7Vggvtjrd8cg8b+xcEIvvVgz72TWo4xThuFmWhahZgVahx30pNF4/iX2l/6c9x3Z37nosdzzpXWdlm74vuf5mZzf/q+uEN2h9bKRRdF8RMqVKzKb8jemLAqi+gT1NzU3NcvOqChxkOXai/QnqJmcbztx7v95ltO99wXXzyHcHe7Iau0tv29yoePfnGaWvmfrxnD2jmRtbJANftAHwcCwVjbLbceb1t5sr4pgd8++vskul/1i3Rtegn1EgiKmdWZjqRrgXEDKKe40viJLwokj6vjv2uz+wQIjQiQ1GoUoDCkXYBSoxkC1Bi1SIBajXYrRNkgdDtakaTZJaSw2FWk1O1tUmOlL0u1uqO4YJXLTfldDJub9KZded7suXl5Hm0p1GtQ0qsr8uLA1Cv5yDS415kucqHLneF057i8wV5qV/UKF9g8xWzyQ9k8s82VLZc3d+9iX6N0qcucM6xvX2eFfHxmqiunp0+D4cTnne+AJBGp9YwLrzzj/IsuPuOyWR8PAA==");
 
 export default EnvelopesBulk;

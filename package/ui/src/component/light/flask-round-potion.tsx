@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flask-round-potion` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask-round-potion?s=light flask-round-potion}
  * @preview ![flask-round-potion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/flask-round-potion.svg)
  */
-const FlaskRoundPotion: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 32l128 0 0 125.7c0 18.2 10.1 33.7 24.4 42C364.8 230.3 400 287 400 351.9c-55.6-1.3-87.4-15.5-115.7-30.1c-2.9-1.5-5.7-3-8.6-4.5C248.3 302.9 220 288 176 288c-47 0-83.5 12.8-108.4 25.8c-6.6 3.5-12.4 6.9-17.4 10.2c8.5-53 40.6-98.1 85.4-124.2c14.3-8.3 24.4-23.9 24.4-42L160 32zM397.1 383.8c-6.3 34.7-22.8 65.8-46.3 90.2c-3.1 3.2-8.8 5.9-17 5.9l-219.6 0c-8.2 0-13.9-2.7-17-5.9c-27.6-28.6-45.5-66.5-48.7-108.5c1-.6 1.9-1.4 2.8-2.2c0 0 0 0 0 0s0 0 0 0l.2-.2c.3-.2 .7-.6 1.3-1.2c1.2-1.1 3.2-2.7 5.8-4.7c5.2-4 13.2-9.5 23.8-15C103.5 331.2 135 320 176 320c35.8 0 57.7 11.4 85.1 25.8c2.8 1.4 5.6 2.9 8.5 4.4c30.6 15.8 66.7 31.9 127.5 33.6zM51.3 363.4s0 0 0 0s0 0 0 0c0 0 0 0 0 0zm0 0s0 0 0 0s0 0 0 0zM320 157.7L320 32l16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L304 0 144 0 112 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 125.7c0 6-3.3 11.4-8.5 14.4C57.6 208.2 16 275.2 16 352c0 56 22.1 106.9 58.2 144.3C84.5 507 99.3 512 114.2 512l219.6 0c15 0 29.7-5 40.1-15.7C409.9 458.9 432 408 432 352c0-76.8-41.6-143.8-103.5-179.9c-5.2-3-8.5-8.4-8.5-14.4z" />
-    </Icon>
-);
+const FlaskRoundPotion = createIcon("flask-round-potion", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABlAAAAKqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCXQsGAAE2AiQDCAQgBYMtBzkbZgXIHoVxwz0QSyzlpEW/FsqMh+f1/vu1T3IfkkFGzkiqiA/IHW/3iRalAA/PzX5zgGyOKIt6UZZg2yCQdAkGPO7o+FrDVVre9Pfu/NumD/iMPsrYNkfptGxvgc4DDMs7D8eisTBLFHubUlIeRfhEhEiUDNlxOvZva8jj9hinQbo1NXF1+9D4SR8XIMkzAFEBYHG5Yb13vhe+j2j+v0I0rYWAWAJqgQwZ+gswTybQX65GLhd8H///839gjACiBcHJlnO04hq4DSAHSSPPh49vbYwpGx3zzWWj2FEWpbh1+Kvjnxz80oiHRtzUM6nnBix9qPh41g3d7x77+NyH+8W2e+axWsQ2760hN/c6N8Ar49xISzouenzl5cMfHH5jj8t7PDjM6fuduJbaP0Sp06ZkUdzQvdK8GXFO91fGPVF/UjxYlnH5yI/K+yY8NeemGPJY9dgvSbNpcvfdPb1QqzzypJMPds4jS15VXSrmnHLI4BVpxQ0nHLzn6G5Hlmf9XN8wbdkzX/PMstv3CIAAXaYc+Mcxc8ScenBUOz+/zqo7ADo0zzrrrMr3nTp9X7/TL1s5i/YT/nYzYtOpnXt9Ta/Op8am9reeumcDCARf/JMGezrP+1W3Evjxte8PD+f/fwjPpMegTQJBNu7/jJ3COypVPEMAAKQ4yRDliwLJJRRwrR3cRAChQICkRSFApp9KgFxhrAANA00XoEVhA5nI24XudjFIOjgWZGY4E+S6ex40zPNuukX3yNySdyr+rzBlhYSWz6snT5hUz6mPVVPwNLZMz60va6NOwq7RYaWDOJqjOIEDOYBDOUGQx7E+dyJHskIjlvNDapNNMEltjtrceFU2g3ccxyO7F+yzmKu+PxrlJH3w6GAmRDlFQZKI1PXLlnH4+AfIH3/M0a8E");
 
 export default FlaskRoundPotion;

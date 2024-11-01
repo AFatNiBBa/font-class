@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-mov` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-mov?s=sharp-light file-mov}
  * @preview ![file-mov](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-mov.svg)
  */
-const FileMov: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 192l0 112 32 0 0-152L232 0 32 0 0 0 0 32 0 480l0 32 32 0 48 0 0-32-48 0L32 32l160 0 0 144 0 16 16 0 144 0zm-5.3-32L224 160l0-122.7L346.7 160zM256 368l0-16-16 0-5.6 0-9.6 0-4.5 8.5-28.5 53.8-29.7-54-4.6-8.3-9.5 0-4 0-16 0 0 16 0 128 0 16 32 0 0-16 0-73 18 32.7 14.3 26 13.9-26.2L224 421.8l0 74.2 0 16 32 0 0-16 0-128zm192 0l0-16-32 0 0 16 0 35c0 21.1 3.8 42 11.2 61.8L441 501.6l3.9 10.4 11.1 0 16 0 11.1 0 3.9-10.4 13.8-36.8C508.2 445 512 424.1 512 403l0-35 0-16-32 0 0 16 0 35c0 17.3-3.1 34.4-9.2 50.6L464 471.8l-6.8-18.2c-6.1-16.2-9.2-33.3-9.2-50.6l0-35zM288 392l0 80c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-80c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40zm40-8l16 0c4.4 0 8 3.6 8 8l0 80c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const FileMov = createIcon("file-mov", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABlAAAAKKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDJQsGAAE2AiQDCAQgBYMtBy8bpAXIjsPGGV0JKDZGjHoJ/klb+r5Wd3OWAmtiBRChNlQh7Bg6T9pMito8z//V7ptpwW2xxloojCiwrJPHWKAJBNbOf+Ka/P/nTw+YxI/WoTksjujzCQxwuKam6cDbZzoBm9/N74lI5G1Jcq5caRjvD9PfA6snaS4B5kr1HpyqD6p/8tkPBhsBAKAYAAD0OYwbwcsqPZL35R7ovWFAAOoLQEBABERAEQKgOxECirAEwGIRVKlUp//AAAGAkvBuDAAWSAF3gWcAgAXAkLS2TrfFtiDDJ2raiT7h5iG8pIlyDhkh7yWnSF4I+UnOO2nCeCHnstI6bZNjA5GF9BbJT2FaCeZMcXX37kWxsuN9bkpzLZK028/zVJCr0XjE7uwL3uvY7JKkPdOLzuno+DydvPMXJuj82OniVLo0q1sWl/1v7sf3ZpXVvDy4zKVLXoclLwmE1oHWvOQ2p4mJj5ZuI4mtl6mf+otqD+YuPxgkLavPbjIQgCHSn+SlM1RYu1/a9g7E1CNUftcFX7jnO5WhHjHa3ILDc5jjcEG9W7mj+VH6tXwQk17+eDDaMDf1UTC7M5rk7Fi7HgAECBq/vzWzet3/KW8A+Pv4+Q4/I6pfGqYMpDAACKLmpbnpFQAGBAAAABhtpK4BEGCoIAnINbiIICUcRNSQxKERhcSoxdEMTVBChz2SOMaJkE1DZDFDQA01WINGdGQHasniDpqgO6/iSbIUuS7reOyfY9LAGRowK+xatg5dw7Kic95Il8luwWytNoqOJljKQqustN4C8y2xfkLWGpHaYIWBO3iALwq0oSWtCXQlXNeX0sQYX2udJbpwP003wnuvMRv3/ZvANZCyLTkGAzKpzyTW4nTeCA==");
 
 export default FileMov;

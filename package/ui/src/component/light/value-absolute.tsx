@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `value-absolute` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/value-absolute?s=light value-absolute}
  * @preview ![value-absolute](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/value-absolute.svg)
  */
-const ValueAbsolute: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 32C7.2 32 0 39.2 0 48L0 464c0 8.8 7.2 16 16 16s16-7.2 16-16L32 48c0-8.8-7.2-16-16-16zM171.3 148.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L233.4 256l-84.7 84.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L256 278.6l84.7 84.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L278.6 256l84.7-84.7c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L256 233.4l-84.7-84.7zM512 48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 416c0 8.8 7.2 16 16 16s16-7.2 16-16l0-416z" />
-    </Icon>
-);
+const ValueAbsolute = createIcon("value-absolute", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABZgAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBQQsGAAE2AiQDCAQgBYMtBzUbxgTIngd2w8uxzVUDGLbxNJuIh+fXvp37ZlYdfCC5SqPR1fNWGt68BLVE/s3M0vCwp6g0UyVFau3E5c7//OkBJ/Gj7KmL1/majX2eQKLZ9BLJAss0AWt3NisTpb3SWoPk+Oz4PCCPx5Ey0s0E5+uHxi9dnSPJMwDRCIDpa1cu9uJ9vI94V5p4ZyECYgYoBDJk6CHAJJlAD7kCuVzwPkql+B9YEECU49cmkKMM07EUkIMky/O6oramrC5fky+t3nhFiqtt1zuyuNa++porbatjVQTM1Y61sTow19vXxNogzXBVrNk5FlYf6NvZ2Pmnjz003H9f/0D9e8zeOnWFEv7WrRdD2l21a53Fp0Eg+Hhq37Z+0v/KmgQ+Pvr3n35GSu+T1IlKCQTZoFI2JZAIAECKM/omCCTjZfhda10TIFQjQFKuWoBMd40C5KoNFKBML6MFKFdtpUzkVUKrzR1Oah2HM2OchXOtHsJlJnkZlWuNzJFYN2D/cUlzJDD7VDF8yLBiQjFsNc436HI4sdi2+p2hhf5w1h5HHXHKbrvsd0pAJyxOTztszgyc7YsKww0xTGGC4nhYS2swOuGk/bZwfsxExX2vnzPz9f3BTZhwhEKSiFTvYvrgVwsAAAA=");
 
 export default ValueAbsolute;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crutches` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crutches?s=thin crutches}
  * @preview ![crutches](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/crutches.svg)
  */
-const Crutches: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M203.3 20.7c6.2 6.2 6.2 16.4 0 22.6l-160 160c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l160-160c6.2-6.2 16.4-6.2 22.6 0zM214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3zm12.3 78.2L215.6 98.9l70.5 70.5 11.3-11.3L226.9 87.6zM406.1 394.8l-1.2 .3-18.1 3.6c1.9 1.4 3.7 3 5.3 4.7l98.3 98.3 8 8c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-8-8-95.6-95.6zM216 332.6l-117-117L87.6 226.9l117 117c4.8 4.8 10.3 8.9 16.1 12.1l3.3-16.7c-2.9-2-5.7-4.2-8.2-6.8zm243.4-312l160 160c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-160-160c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zM470.6 9.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160zM413.1 87.6l-82.7 82.7c0 0 0 0-.1 .1s0 0-.1 .1L296 204.6c-10.1 10.1-16.9 22.9-19.7 36.8L252 363.4c-2.2 10.8-7.5 20.8-15.3 28.6l-98.3 98.3-8 8c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l8-8L248 403.4c7.8-7.8 17.8-13.1 28.6-15.3l122-24.4c13.9-2.8 26.7-9.6 36.8-19.7l34.3-34.3 82.7-82.7-11.3-11.3L464 292.7 347.3 176l77.1-77.1L413.1 87.6zM307.4 216L336 187.3 452.7 304 424 332.6c-7.8 7.8-17.8 13.1-28.6 15.3l-122 24.4c-2.6 .5-5.3 1.2-7.8 2c.8-2.6 1.5-5.2 2-7.8l24.4-122c2.2-10.8 7.5-20.8 15.3-28.6z" />
-    </Icon>
-);
+const Crutches = createIcon("crutches", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABsQAAALGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDXwsGAAE2AiQDCAQgBYMtBy8b3gXIjtEnI4wyc7iEAIfLi+epNfT9vQ0QaSIVtnGgTJSKI6UAfSZGZOo61dVnlS3teYZbiVdsII4kPjAQHJghfYLQ9RuaOMNLAlduDu35v9zze350gJ/PfSy8oz2bdNaczxPoeZT1wja1QZaFWaLY0bynBijEC21rqPlvL9yUR4eN2/Ch+WfGTaBoGgBkGACcaRND+PCNfhO7fQr5cQEI5BzAMkKDBvMIHHIK5rksg6oKv9S24j+QQ4B0Ij1OARV9+AL8BVBB0VNdYdaTHIxI26mgO+xSg+7Aluy4TBkpxzTKp1kuQHR/VoSr6Wzwwcq+dE1SUiylEIu6KRAM9CabViidLMtLEqkpVNQUKThopZy0ZVSqZMczkko59hYmeIUwhgtVWdbka8nSWJZMk0yFlGRSXTqdZYw0yg9g8SFbiSMpMqniXtdTJ01VaFIyvTJlUnmmUZl1i5j40WXvt32LUqleR6PBCl8XwjDwMBj3wuF7nBZCcFikYP16CJSrP9ohoqSukV27YWFiYv58Czu2vz3S8RJB17H/5jLm7PxdWE9GqdRoVDru338dU1K9Dkz01uLh8bHs4gAy4uc6dg78bfcuWJi/PzFhYdduvHKeY1j3cwVj4xAYHISuV4Y4dMVOjq7DPrRnLTsdD48HIAiX67+3O4aW/fcFHYA/r379aw5H+65cdQhAtwJCs9ZOs9VxFUCgCYhLTHQffFFQPMEvvWu/OxCIXgQUnXoFNObEEKh6rSLQYdF8BDr1uoJTqh8xbtsAin43oHHgEqjGPQYdDn2MOo3HCdcEVBK/lbEbptD6aXz2jFl8Cd8t60hQxez4Un6Zm2TKtsl4IfbjBI5Dxz7sxSHoE+Q0hjIGjmHDEbwePwQ32wyzcEvwx7WXhop9qKQzOLRNP59kKf69Ool53HsynoUDsAMRmJyX4ttz2tD3HNx3Bg==");
 
 export default Crutches;

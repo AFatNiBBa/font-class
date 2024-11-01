@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `whiskey-glass-ice` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/whiskey-glass-ice?s=regular whiskey-glass-ice}
  * @preview ![whiskey-glass-ice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/whiskey-glass-ice.svg)
  */
-const WhiskeyGlassIce: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M50.5 80l411 0L414.2 404.6c-2.3 15.7-15.8 27.4-31.7 27.4l-253 0c-15.9 0-29.4-11.7-31.7-27.4L50.5 80zM32 32c-9.3 0-18.1 4-24.2 11.1S-1 59.4 .3 68.6l50 342.9c5.7 39.3 39.4 68.5 79.2 68.5l253 0c39.7 0 73.4-29.1 79.2-68.5l50-342.9c1.3-9.2-1.4-18.5-7.5-25.5S489.3 32 480 32L32 32zM255.4 179.3l.6-.6c-5-1.8-10.4-2.7-16-2.7l-96 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l73.8 0-19-19c-8.5-8.5-14.7-18.4-18.6-29L144 320l0-96 66.7 0 44.7-44.7zM312 235.9l56.6 56.6L312 349l-56.6-56.6L312 235.9zm-33.9-33.9l-56.6 56.6c-18.7 18.7-18.7 49.1 0 67.9L278.1 383c18.7 18.7 49.1 18.7 67.9 0l56.6-56.6c18.7-18.7 18.7-49.1 0-67.9l-56.6-56.6c-18.7-18.7-49.1-18.7-67.9 0z" />
-    </Icon>
-);
+const WhiskeyGlassIce = createIcon("whiskey-glass-ice", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABgQAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCGgsGAAE2AiQDCAQgBYMtBzgbIgXIjsN0eyOPCUY4iuA7nif2+3bukxWVhEnyZgmP4m2HtETabsMsUYKH6tPxqgkafI3WMvPM5S0Ag0LUQLKSHQtLwlwnrqkfmPSARf5oUVjaWODfi+TdBAY4S622B5kNZxPF7U0z6kjZk2TN2CQd3+i42kKVe9pGTfGA94Vr7UPz3agVCnUJgPQAgL0ninPx8iVfks/GE/LKQRDIXsAMQokSEwjswBdMEJgBlUr4kkYj/QfOQIA0gbYrQIVmLIEroCWv4boSKC3T0rH2Wikoa69l1Z0dyorcd5Hlwrpq/erA/mBlHnheL8pz6X07Xp17psM2RWl7m/xQJqMzizUCemA8aDReuWuShUhO8YcOFRUW0OEc2VVwpGDf1cHC3JGvmYtzjxZNRbkrWzU43fTc/Jx9feG1zUuP8IgNKTJu/PN43/qUDaqHp1OBZXIPFf39875ruYtqr1/R9fLpZoiGWk4J+PCmPIX/5sPGA5x8nVxAg2QPq8hesWqld2I+N9D/v4zr7+dWfWTke/V+IAhPsp1wUr3jT0s7D/Dt5e+/48TG/8aXouDdgBYFCOXaxlo1BQf4PwGBYZExTvBNgsJFQvCuHe4KiDYEFJq0CSiN0yBQabMGgdqUUASatDmCL5UUMaCWqUKHy1Rpu1mqMuCOqu3wGjYZSBl1YsyIf760NAmnzmKBfgEsipmpKQUSX8aj2bbuMZbbPGEl2vTrM6JVi04jghySm4zqleYRqX6ICeQnABOFHRfrxWVaDRnWqV9fnSYau297GPN7e4LFQ5ybbSwUpNAuX+oc7m6d9H1mgW/n2VYAAA==");
 
 export default WhiskeyGlassIce;

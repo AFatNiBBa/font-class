@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people?s=regular people}
  * @preview ![people](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/people.svg)
  */
-const People: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-13.7 80l27.5 0c.8 0 1.5 0 2.3 .1L176 304l-32 0 0-127.9c.7 0 1.5-.1 2.3-.1zM144 488l0-136 32 0 0 136c0 13.3 10.7 24 24 24s24-10.7 24-24l0-264.4 43.1 76.2c6.5 11.5 21.2 15.6 32.7 9.1s15.6-21.2 9.1-32.7L250.3 172.7c-15.6-27.6-44.9-44.7-76.6-44.7l-27.5 0c-31.7 0-61 17.1-76.6 44.7L11.1 276.2c-6.5 11.5-2.5 26.2 9.1 32.7s26.2 2.5 32.7-9.1L96 223.6 96 488c0 13.3 10.7 24 24 24s24-10.7 24-24zM480 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM587.1 299.8c6.5 11.5 21.2 15.6 32.7 9.1s15.6-21.2 9.1-32.7l-51.8-91.5c-19.8-35-56.9-56.6-97.1-56.6s-77.3 21.6-97.1 56.6l-51.8 91.5c-6.5 11.5-2.5 26.2 9.1 32.7s26.2 2.5 32.7-9.1l47.9-84.6-46.3 148c-3.2 10.3 4.5 20.8 15.3 20.8l26.2 0 0 104c0 13.3 10.7 24 24 24s24-10.7 24-24l0-104 32 0 0 104c0 13.3 10.7 24 24 24s24-10.7 24-24l0-104 26.2 0c10.8 0 18.5-10.5 15.3-20.8l-46.3-148 47.9 84.6zM526.7 336l-93.4 0L480 186.5 526.7 336z" />
-    </Icon>
-);
+const People = createIcon("people", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABngAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDCgsGAAE2AiQDCAQgBYMtBy0bhwUjEXZq7imR/bGQnTT5HZnEC3QYyVISFKjLZmXZf5HDoGfGjohboCqpHpsCqSIIgOnv5/k///QBn9FHyVhUe0TreOc7j6J5ldBoA5sobmreEwN4nSFuD6x+aw8hmKPmCbA7/1J9oIANGMIAAAClAwAAnUcO7U/5Uz2VHv+/iR7TFxCAOgPgERAAAVCMAGhHgIBiLB6wWARP9f8/+w/0CAAUEXyuAcACCeAs3AQAC4AhsrZ7SnqDlDaV4jDFjohDN/Zy0fHCYzUu5B8pOFp9WOzi7TFykrZru0YJxUJHq18uCjRcR2teLhyhYzUuOadt1S7kD9OR6heLRsrMtsw8pmn4uhKG5cEDOQfj80Yke/f2vMO5IzS8n4vdSA2vci392qfKT2Y8OT3xzOvbt1+fSc0pA4uDdGkNnjWIqltuged4tpAzeHBOgjp9qWhVvL7NDG60bZtfTD7mbzQ864tbVQyLiRUjAzefpp3zePG6pmN4f2pXWdmuU+8rwmxvOIz6+6nZvUVSIbP2uGbhy+RCklp0z2uwnyXq6xMCS4MD8JcBECBYdb3y8Ilp7b4mYmoDwPN7X77l55v/5WaVuQYkMAAIgnr/640zazCYmTGIIGa0gipwhgIMR6/8uyZzSAAIBwgAQ4RDAAQUkY4AsDjqIgBCSmmOAIhwDCVANgmRzfgaGJJZDAJasBJYsrkOQtpxPxqRreBtpd416l8xfrpHG+o+zTdu0Mi38ZNFJf0CEnq4rV+tqbWCN9WGO5mxcMGy6dNmL2shS/onls/vMQd3/6Fv3KCRb+N3V+7zI7BlyVJOjNP7J2nrz3fUWjHfuTbUGwLUJlkGAzLR9w0AAA==");
 
 export default People;

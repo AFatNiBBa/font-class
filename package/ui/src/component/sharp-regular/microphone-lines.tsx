@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microphone-lines` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-lines?s=sharp-regular microphone-lines}
  * @preview ![microphone-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/microphone-lines.svg)
  */
-const MicrophoneLines: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M144 48l96 0 0 48-32 0-16 0 0 32 16 0 32 0 0 32-32 0-16 0 0 32 16 0 32 0 0 32-32 0-16 0 0 32 16 0 32 0c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-208zM96 0l0 48 0 208c0 53 43 96 96 96s96-43 96-96l0-208 0-48L240 0 144 0 96 0zM64 216l0-24-48 0 0 24 0 40c0 89.1 66.2 162.7 152 174.4l0 33.6-48 0-24 0 0 48 24 0 72 0 72 0 24 0 0-48-24 0-48 0 0-33.6c85.8-11.7 152-85.3 152-174.4l0-40 0-24-48 0 0 24 0 40c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-40z" />
-    </Icon>
-);
+const MicrophoneLines = createIcon("microphone-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeQAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCIAsGAAE2AiQDCAQgBYMtBzcbJwXIjsQ4JvGLKEzi4cPuv85t/PrTb4weucfyKqcjCBHEdGvDjV++h2BMXJP//vzpPZL80aKp9EG+MWpZ5xOYWFECN8+Gs5FNRKfbxAZ5SOEbIUES0fFZx9cZsrgUt8hJ7k0+w831TeNfndxEIk8BREsAzFi3aon3/4q/Ij6tv0J8ahECYgYoBVKk6CrAZKlAV5kSmUzwV9Tr+T+wJIBooL88ARlynMJlQAYSaZb1bTOqljfL1tbyYlOtqImiELV0wXva3tHn0fZ3dY6pgnhw4BNjXhv8VI+IiGJ1iCKE+H7KO2uW1aByxI/T3lsXEd6ej0x+e/YHU9/tFb2ebPnkf3+29zM337xdY5WyZYlHldgr/fy3qvrt8/SrelVVX2l88snrrpNk41cq1XM/hl2VjgYw67mHZzTppbLMxysdq16Qh58zawDgugbIR89avnzW6HwAEAja7/0h3dZi8v+NtQT88yZ4Xsv6+3E8eRKNEhCkQ+pDbI7rtNQyjgsAQBJn9XI+KJA4JIVXbeouAUKBAIkGhQCpLloKkCkMFiDX3RgBGhRWSUXWRGhrSycTTZ0gU2NdITNtvUTmJvvQbdA20sATwkb49qXOteCcVeWIYVU5sZw2NDGWOFmcVC4bA87ywEDaaq9jjjptj90OOG3gk5YEZxwx14Pm+KLSCMNUShOV2+3H9WvtcdIpBxxztCwzSXneGeCsP34g2QllHSmXSIik5Yvlg1MfelsBAAA=");
 
 export default MicrophoneLines;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people?s=sharp-regular people}
  * @preview ![people](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/people.svg)
  */
-const People: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-51.1 32l-14.1 0-6.9 12.4-75.3 136L1 297.4l42 23.3 11.6-21L96 224.9 96 488l0 24 48 0 0-24 0-136 32 0 0 136 0 24 48 0 0-24 0-263.1 41.4 74.8 11.6 21 42-23.3-11.6-21-75.3-136L225.2 128l-14.1 0-102.2 0zM176 304l-32 0 0-128 32 0 0 128zM480 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-51.1 32l-14.1 0-6.9 12.4-75.3 136-11.6 21 42 23.3 11.6-21L420 217.7 383 336l-15 48 48 0 0 104 0 24 48 0 0-24 0-104 32 0 0 104 0 24 48 0 0-24 0-104 48 0-15-48L540 217.7l45.4 81.9 11.6 21 42-23.3-11.6-21-75.3-136L545.2 128l-14.1 0L512 128l-64 0-19.1 0zM480 186.5L526.7 336l-93.4 0L480 186.5z" />
-    </Icon>
-);
+const People = createIcon("people", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABkAAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSDEAsGAAE2AiQDCAQgBYMtBy0bjQXIjsO44TuyxVL+I3iy46tez3zAvSTOzKRMUrTZQUFqR6wz5vk/1/M9XwN+WwoPJdqSCmS7ex5RmAIJmp4kswO7E7WbmvfEAF5niLtDGX/HjSpId6W4wX1o/KDH1SQVBYBoBsCyPTs2OfZpfBrxwf+vER/YgIBYBrJAgQL9AixUCPQrZZRKwafx///sPzATQFQKsp1AiWo8ijcBJUgqy7JhRk3Dkqq6ioZyd11F7YEn+u7pvXv0o9139tw1am1tXW177IzumBd9sSdSiLqIiKgL9c0idkVPLIje2B2dUbtzuTI19gmHLO6M/u3Dol4xGLsPvH/rrt27amPP8Kebn/5p2JN74MiDX7/xxtcPpvaUxqDgDOuv86o7JG/selW6TUWul7XaqhpUZ+Vlv3qGxuEv5Jwvl10+5ZOjTk3cZuRFfjHVqacsnirXwVS/TIpLGg8Oxk++NbQP41QgXvr1xipHmhb+VV2XwOdv//JL/n78fyxdlp5GtQSCYuL/Ex1Mlwsxs0IIcikuNhweE8m9Ln5W690uQKhFgKRSrQCFPs0ClGpNEKDCoFkCVKq1QyHKGqHdoRok9c4DhdkuAaV2r4AKC72TVGqP4oVVXzf1dzFrdRtatS1Pmzw1z8+TdaX2Dsp6fkFe7Yy9mPeNgzed7Bxnu9BJTnSaC1vk+TblL3KW1XPwKl+UTTPZVNl8eXfr/uXdTnK+C5zmHGfbTRbI58djXTw/ehz0k0BwurIkEanyEwcAAA==");
 
 export default People;

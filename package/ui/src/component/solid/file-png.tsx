@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-png` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-png?s=solid file-png}
  * @preview ![file-png](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-png.svg)
  */
-const FilePng: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 144-208 0c-35.3 0-64 28.7-64 64l0 144-48 0c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM318.3 360.8L352 428.2l0-60.2c0-8.8 7.2-16 16-16s16 7.2 16 16l0 128c0 7.4-5.1 13.9-12.3 15.6s-14.7-1.8-18-8.4L320 435.8l0 60.2c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-128c0-7.4 5.1-13.9 12.3-15.6s14.7 1.8 18 8.4zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm208-40c0-22.1 17.9-40 40-40l16 0c22.1 0 40 17.9 40 40l0 8c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-8c0-4.4-3.6-8-8-8l-16 0c-4.4 0-8 3.6-8 8l0 80c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-8c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 24c0 22.1-17.9 40-40 40l-16 0c-22.1 0-40-17.9-40-40l0-80z" />
-    </Icon>
-);
+const FilePng = createIcon("file-png", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABnwAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDGwsGAAE2AiQDCAQgBYMtBy8bmgXIjpQuZyQRVDqpnpVM0oF8hDpgfiLOkCkDDkLXR8TpuULwJy6nP+g3PeAmfZTG3DY2jjHOEwgw7dKobcuzwDJNwHqbYpAedfiEyHBiFbEdXzuu7SGPD7OrNEj3p29wq3xo/Gq0q0g6GYCoALDp4P339FkvehFf998mvrY7AmITqAUyZBgnwFqZwDi5Grlc0It+H/8DawKIJkaTl+Zo42V8AMhB0szzya0JY4rVZWNgflDZKLIH50S8OKMMcdnwu8skKuKpmc+NOvCZ2S+MyY4tyiLiwAMOPOjAiHtH3j1c3DXsrhEHhTjuGeE33Tv8oLIonx5+9+j7QmpqoaDUgc+OfWD6PV4efPlIjJVl3Dhl0ZdVfaFJcffwclJhZU2miheAy25ZFHHDiHsiJr9QvfC7b076xmVFl+5jj7nMoOuuG3SZ2/zgsW63qPDC+GWXbriMS1166aafJm3OurVLSK8XK598/TAzIu+8uV3X9Tk7/2y1/tx5TqVO/oX2kSMm7r3v8OH7Vhaqvp/R/YAXu5Xuix902xO1bc1jKsc09wFbm5dF+qrZRlnU4D32AQLBsf+e2Th68Nr/22UCP37wZ/Ir6n+SpBfQlkCQze3PdUQCiQAApLjI5ASB5GlN/K4D3CNAKBAgaSoEyIxVCZArzBGgYYJlAjQV9peJvCMMc+TFJAOcy2SWu5jJDfMm07DW56mmYZGdWtWZU/00pt9u4W3r6kXzF9ar626Tqg+ioiyvqZftMy+ioVmw1UnOdpYLnOgEp7rA0OfZM3uhM20fUdt8UW2R+RaqrVZvd/b6g4z/POeTItbsr7JG/Xx4povGk2eBK2HJxcqSRKT2F5KYd85ZJwMA");
 
 export default FilePng;

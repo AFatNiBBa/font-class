@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-audio` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-audio?s=sharp-light file-audio}
  * @preview ![file-audio](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-audio.svg)
  */
-const FileAudio: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 480L32 480 32 32l160 0 0 144 0 16 16 0 144 0 0 288zM224 37.3L346.7 160 224 160l0-122.7zM232 0L32 0 0 0 0 32 0 480l0 32 32 0 320 0 32 0 0-32 0-328L232 0zm22.2 447.9C293.4 426.1 320 384.1 320 336s-26.6-90.1-65.8-111.9l-15.5 28C268.1 268.5 288 299.9 288 336s-19.9 67.5-49.4 83.9l15.5 28zm-31.1-56C242.7 381 256 360.1 256 336s-13.3-45-32.9-56l-15.5 28c9.8 5.5 16.5 15.9 16.5 28s-6.6 22.5-16.5 28l15.5 28zm-91.5-40L120 352l-24 0 0-32 24 0 11.6 0 8.9-7.4L160 296.3l0 79.4-19.5-16.3-8.9-7.4zM96 384l24 0 40 33.3 8 6.7 24 0 0-32 0-112 0-32-24 0-8 6.7L120 288l-24 0-32 0 0 32 0 32 0 32 32 0z" />
-    </Icon>
-);
+const FileAudio = createIcon("file-audio", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABgwAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCQgsGAAE2AiQDCAQgBYMtBzEbQwXIHgl27MhWxHD7Yzw82fXfudX91D2Prg9xDUSgws0g5XK48VTte3KExE+dyrmchwL4HIKgjU1LY6GxO9Y6r0ABa1M3FXRNsGoFrdbOv+UNH/0m6VOQZFjeMFpCGVfEYi2kB9PnuD19aPxj1I0kZQEgegCw3SEH7OXtH+PHiM+biM/tgYDYHmSBAgUmBNisEJhQyiiVgh+j2eT/wEwA0UqfM4ESHbgOtwBKkLSVZXdb71Cjd7pu6SwPrluq4xqdjSLqEKKu0+EHHXxQFTFd1ZVIIerOiCIOPuzlRREvx3ULX1o4Es+OPujakQdmj658efox67t39IGB0YPnp0TU9XAsCrEwhtYjst4Sg1GHZlYxEJujqtwZP/Olnpf+6/OTP3fM9LZY8LYn3KFHzx35mlcvp4O6whUXfvzxn9nbsnxstqv77x9862tMzJkzMfH1P4784Ifx8R8+OPKfP34aHPzpH3+m9Oc/h89rNGZnI42bZfvKbt5mhBLOdbERWYYydLE+kjPZHwSCzuWTXx3Tvfn/9jqBn1897Nx8O65NL6FdAkGxuLnYkXEtMDaAn5TiYjPjWgSSy7TRa224T4BQIUDSqhKgMK5HgFJlkQAtpqwRoFXlAIUoO4QBR1WQNJwHCmtdBUoDXgEtNvvIaDUQhSdSfkT9A+N3tvBOo/KKpcvzxtwtKLRzETK4KS9L8y8ODQsw08nOcbYLneREp7nQoOfby77IWXYeITv5omyFpZbLNsrb5dvJBzvJ+S5wmnOcHYfZJJ/X5rt43H4B1ERxV0pJEpGqRy8ucXwAAAA=");
 
 export default FileAudio;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-music` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-music?s=solid cloud-music}
  * @preview ![cloud-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-music.svg)
  */
-const CloudMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128l-368 0zM416 184c0-5.2-2.6-10.2-6.9-13.2s-9.8-3.7-14.7-1.8l-128 48c-6.2 2.3-10.4 8.3-10.4 15l0 32 0 81.8c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-100.9 96-36 0 74.7c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-128 0-32z" />
-    </Icon>
-);
+const CloudMusic = createIcon("cloud-music", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABeAAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBeQsGAAE2AiQDCAQgBYMtBzIb+wTIhof/t/u+fW7Va/EL9QFoQEQzGexUYa9JzalTz3MeCuBzCII2Ni2dOAH3Oo9ALiK5eDrA6suKtRpWAGvt7FIMD79J+r58kmH8YbM5II+/syuUSPemT3FzfdP4WntXkFRmAKIBANPWrFjkzZZoifjk/+eITyxAQEwDhUCGDJ0EmCgT6CRXIJcLWuL//+P/X0EAUYZ9EsiDfyv2gfzNSFKe9x5eXarNV1eXqla9Pzni9e73DXlizKXxxZQ31jw37qVBD1Q/1++hzpe0e27QY53vn/jqzJo9l7a5q9XKuKOVEHdVXdfqjlZ3tr6z+vq2d7eNWKPvK7o/3PDwt90+3f2pm7u+dTVnO9XffvsTeR4zPv10Rrw5ctSKI10uefjhiqalL779VF1p5IylR+v7VOzcefziIS6vKix3rKLVlx/W1n74Zau+apctPSyg21yiAALBjw98tnBL/cRfK6oT+Orl7/+AK/5vSZekh1EhgSAb+P9AG5sJGR2AleK07vgoAslaCb9qjbsECFUIkJSpEiDTUYMAuSoDBCjpYpQAZaqskIm8Umhl0wRJjWMgM9qFINfKM6Bkog/sMq0iczLSRcg3XtxsCc1aKoYNHlqML5aRQfkNTtMJxbbY93Sq9MOu3Y447KRddtrnpECOW+SdcshsC57liwrDDDZUYbziOF1vr7bLcSfsc8ThMmeC4r7a12m7vR+UhDGH8yWJSNW/DQqD/A8A");
 
 export default CloudMusic;

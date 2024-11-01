@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `balloons` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/balloons?s=regular balloons}
  * @preview ![balloons](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/balloons.svg)
  */
-const Balloons: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M272 160c0-61.9-50.1-112-112-112S48 98.1 48 160c0 31.6 15.3 65.1 38.2 96.6c22.5 30.8 48.7 54.8 62.4 66.3c4.4 3.7 8.2 7.9 11.4 12.5c3.2-4.6 7-8.8 11.4-12.5c13.7-11.5 39.9-35.5 62.4-66.3c23-31.5 38.2-65 38.2-96.6zM112 400l10-20.1c3.5-6.9 1.6-15.3-4.4-20.3C87.2 334 0 252.5 0 160C0 71.6 71.6 0 160 0s160 71.6 160 160c0 92.5-87.2 174-117.7 199.7c-5.9 5-7.8 13.4-4.4 20.3L208 400l.1 .1 3 6 11.6 23.2c.9 1.8 1.4 3.8 1.4 5.8c0 7.1-5.8 12.9-12.9 12.9l-25.9 0-6.7 0-.1 0-36.7 0-.1 0-6.7 0s0 0 0 0l-25.9 0c-7.1 0-12.9-5.8-12.9-12.9c0-2 .5-4 1.4-5.8l11.6-23.2 3-6 .1-.1zm48-264c-13.3 0-24 10.7-24 24s-10.7 24-24 24s-24-10.7-24-24c0-39.8 32.2-72 72-72c13.3 0 24 10.7 24 24s-10.7 24-24 24zM437.7 423.7c-26.2-22.1-94.5-85.6-113-161.8C340.5 231.8 352 197.2 352 160c0-9.9-.7-19.6-2.2-29c29-40.5 76.5-67 130.2-67c88.4 0 160 71.6 160 160c0 92.5-87.2 174-117.7 199.7c-5.9 5-7.8 13.4-4.4 20.3L528 464l.1 .1 3 6 11.6 23.2c.9 1.8 1.4 3.8 1.4 5.8c0 7.1-5.8 12.9-12.9 12.9l-25.9 0-6.7 0-.1 0-36.7 0-.1 0-6.7 0-25.9 0c-7.1 0-12.9-5.8-12.9-12.9c0-2 .5-4 1.4-5.8l11.6-23.2 3-6 .1-.1 10-20.1c3.5-6.9 1.6-15.3-4.4-20.3zM480 112c-61.9 0-112 50.1-112 112c0 31.6 15.3 65.1 38.2 96.6c22.5 30.8 48.7 54.8 62.4 66.3c4.4 3.7 8.2 7.9 11.4 12.5c3.2-4.6 7-8.8 11.4-12.5c13.7-11.5 39.9-35.5 62.4-66.3c23-31.5 38.2-65 38.2-96.6c0-61.9-50.1-112-112-112zM456 224c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-39.8 32.2-72 72-72c13.3 0 24 10.7 24 24s-10.7 24-24 24s-24 10.7-24 24z" />
-    </Icon>
-);
+const Balloons = createIcon("balloons", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABxgAAALHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFyDcwsGAAE2AiQDCAQgBYMtBy8b8gURVZplyX4kZG7maVZx3XbmtLgQjbpoHp8Ez/N1+ue+mWpSKEkJfABr74QlhLRfwpJIvxwA8PA760UJfqzt1uKy6YDuQ2xTp57nPBTA5xAEZU8NyAYaneu8ILWlPW9tbGq5PpYVG1GruTVkOh+C7ONjiEiN8CL8BoP4twG6/JY5OIBaqq4Cs+uHylv8mQ4KBw0AAPEEAADKe3Zt5uQjeSRy5f8+5AqNgABIOQBhCKABGhCEAFCEhgBB6IQBOjoCj+T/f/4PBAEAcUReWgGgA87AQ+AlAKADoHDU9cByj8JAD5ODm97D5GCMXJUgYsvZG7claGX51vit5oXmxdbFiW2JZ0K7BfoFLrZsSrClbA95UHqi573iY91XJLXHbYlaYPYXEbP4y0IW+BqGiCEkTGGcFlxkmWINFKtI3w1+S6I2BSxPbIvd6K9ZH24rETkesSNyiqWt8IgJpRkAXmiSxZa+e+NEthtYlWDL6YY/5wa/CJun7X341RFX8Qj1+Ie9o8P+zyM0zQJbutXUdNsClrTQ1fb5MqNxllv70V4j3aXy6tVKSXjD4+XcR/Y62u42q3E+EM1+lGbaGeAI0YATAAHsNGnem4iGVKfOZnPnzmb3zMxHmllz6OAGaPj5Wz2CB3hJPC5KBKcAyDeYT+Os+NwOO+w5xOOfvcO6P0Hq6QAggMC/zT4bB3oUfXU2KQCeHLZ/4+P/n1STlQ1wRgEgoCX9T+qnJgMwWgDAUzKeCGOKAihu8rqu1ZVFCACCAQgACkcMBACNQDwRAHQMEhEAHAghGwHAEYOuaIjuguBL/w4UrowCGjlMADq+7AEOFHHBdcRXNA+n/ZP+wUzwYYT8MMqswHKao4zTkqXXcdnQX64xYa7o9u1pm/EZkKsK3jVYsP8hZVZgWS4+CzW51z0ec+v9OO539Gc3N8GWCGZGTKFAlPpcizcAAAA=");
 
 export default Balloons;

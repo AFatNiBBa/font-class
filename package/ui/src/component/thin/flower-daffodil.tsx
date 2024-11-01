@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flower-daffodil` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flower-daffodil?s=thin flower-daffodil}
  * @preview ![flower-daffodil](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/flower-daffodil.svg)
  */
-const FlowerDaffodil: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 0c-44.2 0-80 35.8-80 80c0 26.2 12.6 49.4 32 64c-19.4 14.6-32 37.8-32 64c0 44.2 35.8 80 80 80c21.8 0 41.6-8.7 56-22.9l0 157.4C220.2 362 159 320 88 320l-58.5 0C13.2 320 0 333.2 0 349.5C0 439.3 72.7 512 162.5 512l85.5 0 16 0 85.5 0C439.3 512 512 439.3 512 349.5c0-16.3-13.2-29.5-29.5-29.5L424 320c-71 0-132.2 42-160 102.6l0-157.4c14.4 14.1 34.2 22.9 56 22.9c44.2 0 80-35.8 80-80c0-26.2-12.6-49.4-32-64c19.4-14.6 32-37.8 32-64c0-44.2-35.8-80-80-80c-26.2 0-49.4 12.6-64 32C241.4 12.6 218.2 0 192 0zm56 496l-85.5 0C81.6 496 16 430.4 16 349.5c0-7.5 6.1-13.5 13.5-13.5L88 336c88.4 0 160 71.6 160 160zM128 80c0-35.3 28.7-64 64-64c24.8 0 46.2 14.1 56.9 34.7c1.4 2.7 4.1 4.3 7.1 4.3s5.7-1.7 7.1-4.3C273.8 30.1 295.2 16 320 16c35.3 0 64 28.7 64 64c0 24.8-14.1 46.2-34.7 56.9c-2.7 1.4-4.3 4.1-4.3 7.1s1.7 5.7 4.3 7.1C369.9 161.8 384 183.2 384 208c0 35.3-28.7 64-64 64c-24.8 0-46.2-14.1-56.9-34.7c-1.4-2.7-4.1-4.3-7.1-4.3s-5.7 1.7-7.1 4.3C238.2 257.9 216.8 272 192 272c-35.3 0-64-28.7-64-64c0-24.8 14.1-46.2 34.7-56.9c2.7-1.4 4.3-4.1 4.3-7.1s-1.7-5.7-4.3-7.1C142.1 126.2 128 104.8 128 80zM349.5 496L264 496c0-88.4 71.6-160 160-160l58.5 0c7.5 0 13.5 6.1 13.5 13.5C496 430.4 430.4 496 349.5 496zM256 112a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 80a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const FlowerDaffodil = createIcon("flower-daffodil", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABvgAAALpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDRAsGAAE2AiQDCAQgBYMtBzYbygVRlA1Gn+xHQubmjeYRhYzIdnes7HFxNEXj7wi+3++357yLmHR+whJeiRoKoZASzUIlJIbEdA3xD1WTif//27yIJQjxHZLPNH8aaZLEpK0ttkVv/n9j7n/wu8ltjplmEWlQobElrZh6EpPG43+u+fyeHxXINzqUaIxcFJZF5fMJDDjK0gvPhwOa6QRs1uY4BB1E+cUhnidSrqeGpR/WCLpBiYt9EnmaxzjsbxUPRpxIVQWA6AYA63ulEM861iP+/4vElU0QEBuAaRwqrB7HgSWCsDcQTYOiCOrx/9/+A20hgGiEeJqgoBmXuAMUkBqLyB6xACbiUkOuQRY1JPkLrogjlp1u6UWjQcsegFPha8kEteIGuInazKT0LmY7WyltIgQPQlc8EYnYuE2XO8ix4AXXlbmEkqPoLftmGUXei7x2D8Rxl0WvRqqTTYcMuo2adYQ2gEKyatXiOuK45N1EtOKJwCH3MfPuiGZUStesz7O3fBjFRklP5EZink6C2AgKcQPRSptQKWumMGzRbt7mPCBvMWt1sh9jY392x1XHsL3NKkEWmvz+mmBWJWOZXVDU1p4SDtw6FRcTn0+SMLMqEU+eMZGrquNEQEp7W1EXZDJW6aBneUxZXaMI+c+Ux3yo1VacnXBIwONjTKjtJgIAQU8pExkailhpj0BApOinpB9KSesj56U7S07EhOPjBIyAGY6VWn1RWM9TA6h5oy6np/T8Li//9uB+OUAg2P4K8W3yl15NKA+4v3j5Kj9C/5cpz9AsQVDV/mtqCZIAAGQcmAmBdO6xBNsdeVOhFYXUqBUqYwwoWs1Ag0lpllS2KDKKhmC/ukJqdwCVRUco+p2hwZJXvFF/VKHMByL/IpkSWIQtI79IjAo0rduE6GTrfJFo1fVQ+mwcxcDSwk5fz9jOYBtham8uWKHMF5G4iBhSQO7W+/1VfRtbY0uLtkgRXR+0HNajbRg8oZxVkZJI/bOgOb/i55++3ngGAA==");
 
 export default FlowerDaffodil;

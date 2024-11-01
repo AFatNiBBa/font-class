@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-cells-row-lock` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells-row-lock?s=sharp-regular table-cells-row-lock}
  * @preview ![table-cells-row-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/table-cells-row-lock.svg)
  */
-const TableCellsRowLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 296l104 0 0-80L48 216l0 80zm0 136l104 0 0-88L48 344l0 88zm264 0l0-88-112 0 0 88 112 0zm72-136l0 48-24 0 0 88 24 0 0 48L48 480 0 480l0-48L0 80 0 32l48 0 416 0 48 0 0 48 0 81.1c-34.7 5-64.2 25.8-81 54.9l-71 0 0 80 24 0zM200 216l0 80 112 0 0-80-112 0zm328 24c-17.7 0-32 14.3-32 32l0 48 64 0 0-48c0-17.7-14.3-32-32-32zm-80 32c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48 32 0 0 192-224 0 0-192 32 0 0-48z" />
-    </Icon>
-);
+const TableCellsRowLock = createIcon("table-cells-row-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeAAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCKQsGAAE2AiQDCAQgBYMtBzsbNAXIHoPjbgmlxBCiLCGPultflnie//2+7XPf+yNmFfc0qwtkraLRmnoia/RM8xBnUckkvW+/NnvmTXTeJbE9M0NEk0nqVEL5DS2BUMhUyPv8X1Mvyo4K5POd+KHU1lQUbdHY/XwCA6zEFtloNpxNFGft7JaThB9JEp9kGN8wOUOd37mtQXlSfoBb6UPzk9ojRaMCkB4AYN+Bbh2Y5Swnn/6/Jp9UgUD2AcwgqFBhAgE7sQUTOGaAWi0s5/9//gciCJAm8uQCarTiHHAegBoUzXXd2to629o7Im501vvbuW0H2kXtSVvIrs5gVtoPIAAF6gikSjzUGZaPK2fQfkr7orQdvDqQ3Cfx1KWhh6Le0xXJiy2vLc/0p1RboPbZc88Vz//8bPxwPdqStBZsaV0u0Chg1DKC6AhGjuZf1gZUMOJ5qrWWWkLR7zPbRq/moUX1ttmCvEe1zFbKLnO5i0qhmsxXNqfJfnC0R7E+IBRi/GIgCiAILw5c/i/KY79a2gv48WF8+D9TLpZXtCggVCv/rzQrt0BhgGjJOSbli4LiGD551w4PBUQbAoombQIq4xQIqLVZgYCGKX4ENGmzgC11qxgwb6DocBJUNrsCtQFvoGGn90iTgVTGpzMd3d8vc6FH89PQ7aQYwWVZ1duTGsajuG0zX7g2C/bChkMHzqxbs+2sY07U4+f2FTQ674eQmxOFIvC49rh9YN2JU9sOHcRJovC+1+xC722Bk0Uk18spCikDdml1vNmI4+Tw0vE6AAAAAA==");
 
 export default TableCellsRowLock;

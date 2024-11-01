@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-exclamation-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-exclamation-check?s=regular circle-exclamation-check}
  * @preview ![circle-exclamation-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-exclamation-check.svg)
  */
-const CircleExclamationCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 256C48 141.1 141.1 48 256 48c84.1 0 156.7 50 189.4 121.9c5.5 12.1 19.7 17.4 31.8 11.9s17.4-19.7 11.9-31.8C448.8 61.6 359.6 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c72.9 0 138.8-30.5 185.4-79.4c9.1-9.6 8.8-24.8-.8-33.9s-24.8-8.8-33.9 .8C368.7 439.2 315.3 464 256 464C141.1 464 48 370.9 48 256zM280 152c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112zM256 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM625 175c-9.4-9.4-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L625 209c9.4-9.4 9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const CircleExclamationCheck = createIcon("circle-exclamation-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABhAAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCFwsGAAE2AiQDCAQgBYMtBz8bJgXIhofn7aQ/980kC2jWZqUPoYPSfpgdqEx/786/bfqAz7/4Rxub1gRZPtvjPIHO8y7PA8nGBksU25stWSZlbzLRJB3ndDwRHSGPf+IyJdL16WVcWr40vtHKWSSlDEA0BMDE5YvnevzD+DDipeo9xEtmIyAmgkIgQ4a2AoyRCbSVK5DLBR9GtYr/gQUBRBnDydPnKGMnjgNykOR53r9ukyZ1SvXyZXVKtZe/tzjireXPzH1l4PXdb2/97rxXl7095+UJjy95Z+ITc19ZeuHoh8bf2Py2pneMuL/2u4veXLb8hm63tBTXd729TSy5sEXEtXF682tqX9D0Kqc1u7rO5tu6LIlxARd6XauFcWv35XFj606VhpXvOr687WX9H4vlFSrL48eGDc+5aVqvLe0nvf/8PNOdfnmrlqab3rLV5adPN/zXT7u88UG7/1/ZsKDv8qhUYvkX25stXNjsAEdp8UX98zivfhvmD7xer96+fb5H3uuvV7176hQ6HQgEA746tH99gzG/1ayTwMcP/vB7OJ/q4+lUqqCmBIKsT7WPNek0RDolAAApjumk7ArJRjm+1bquESDURoCkrLYAmTYaCpCrrbcAJe0NFaCstsUykdcSmlrbQFLXQZAZ5gTINXUXKBnjubisaWQ2x1kMd+VLniahqduKgf0GFKOKYVvlzYhJ66OLaa3HsTjWEw7aZr99jthqi52OCPKQudlRe03TiKl+qDBQPwMURimWe/f7l9nqkMN22m9f3mS0Yn/UwzF9dk8wE6YdpCFJRGr5NGe8728Wxsa9x0jta8IAAAA=");
 
 export default CircleExclamationCheck;

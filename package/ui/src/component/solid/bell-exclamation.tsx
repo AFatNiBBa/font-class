@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-exclamation` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-exclamation?s=solid bell-exclamation}
  * @preview ![bell-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bell-exclamation.svg)
  */
-const BellExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 0c-17.7 0-32 14.3-32 32l0 19.2C119 66 64 130.6 64 208l0 18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416l384 0c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8l0-18.8c0-77.4-55-142-128-156.8L256 32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3l-64 0-64 0c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7zM192 320a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm56-184l0 96c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-96c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const BellExclamation = createIcon("bell-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdwAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBfQsGAAE2AiQDCAQgBYMtBzcbBAXIngl2LGJKEMwInAgKndieJHsSOQwKEOAjdURYfY9QpnY6fL1XCH4B78//NfXi+dEBfqNDicZKkEg86kXz3gQmOq8Qmw1nA9ap7W1DBR1BeCMkSkIaUxqn1R6yeCi9qETyQPItbqtvGv9q7iKJmimAqAeAcUsWzPLhT/FTxDfV14hvzEBAjAOFQIoUrQQYKRVoJVMgkwl+imqV/wMLAogy/UESkKGMddgOyEAiy7JelYZ1KqXa2eJKKV9xvVHE3cSnI98txA9jG8XdzR/oVDueaPlQkybx8eKIh0e/PzniXJN782XPRJ6f7fZU5aYei881jbivclPje5xtdHd+vcm9sUS4v+PjLSIe6vJY8/ZP13v6f99u/taPH7jK1ToNneg+PG/IlD+O+n7/ub5n9T23//utbpjaUD68+4mG6ly9qud/7VuMHduiffsWLdrPfDZGYoWtIW+spULjefMar4XPA4Hgp2mfvlTdkTdqVBLwy9uXC6ur4rPkadSQgCDtWe1pZXzoQNcIFCRxWHv4JIHEMhl41VruFSDkCJAoywVItVRPgEyuhwAlbQwSoCy3QCqymkIjqzpI1LIPpAY7BTKNvAJKRvoiKGsUaZqxScK+8pImW3TStqJf777F8GJZaVzm0GV1RLEtdz0sI91gp8322O2gTTba5qDB95sVH7LLZA+b5IsK/fTWV2G4Itw+Sosp2O+AbXM2DtlkhOK839Vhf3o30BJK2F8pkRBJvUs22uv/CnXdrosDAAAA");
 
 export default BellExclamation;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-tissue` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-tissue?s=solid face-tissue}
  * @preview ![face-tissue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-tissue.svg)
  */
-const FaceTissue: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 256c0 141.4-114.6 256-256 256c-11.5 0-22.9-.8-34-2.2c.6-1.9 1-3.9 1.4-5.9l18.4-110.2 5.4 3.6c5.4 3.6 12.4 3.6 17.8 0L304 371.2l39.1 26.1c4.8 3.2 10.9 3.6 16 1l32-16c7.9-4 11.1-13.6 7.2-21.5s-13.6-11.1-21.5-7.2l-23.7 11.8-40.3-26.8c-5.4-3.6-12.4-3.6-17.8 0L256 364.8l-8.5-5.7 7.9-47.2c2.5-15.3-2.4-30.9-13.4-41.8s-26.5-16-41.8-13.4l-192 32c-2 .3-4 .8-5.9 1.4C.8 278.9 0 267.5 0 256C0 114.6 114.6 0 256 0S512 114.6 512 256zM133.5 130.7c-7.9-4.2-17.5 1.5-17.5 10.5c0 2.8 1 5.5 2.8 7.6l36 43.2-36 43.2c-1.8 2.1-2.8 4.8-2.8 7.6c0 9 9.6 14.7 17.5 10.5l89.9-47.9c10.7-5.7 10.7-21.1 0-26.8l-89.9-47.9zM396 141.1c0-9-9.6-14.7-17.5-10.5l-89.9 47.9c-10.7 5.7-10.7 21.1 0 26.8l89.9 47.9c7.9 4.2 17.5-1.5 17.5-10.5c0-2.8-1-5.5-2.8-7.6l-36-43.2 36-43.2c1.8-2.1 2.8-4.8 2.8-7.6zM219.3 292.7c3.7 3.7 5.3 8.8 4.5 13.9l-32 192c-1.1 6.7-6.3 11.9-13 13.1s-13.4-1.9-16.7-7.8l-26-45.5L51.9 479.5c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l21.1-84.2-45.5-26c-5.9-3.4-9-10-7.8-16.7s6.4-11.9 13.1-13l192-32c5.1-.8 10.3 .8 13.9 4.5z" />
-    </Icon>
-);
+const FaceTissue = createIcon("face-tissue", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABnAAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDAwsGAAE2AiQDCAQgBYMtBzIbhQXIjsQ4JvGLKEwi+N6W2e/PiHi1BzTHRCamUJEJMFM5dTl06s2Qd/z/uZzeWHZ0vo0O5d9sb98g0ZzcSyDA9LA2LoyLwixRbHHbzRDzUBghcYA83sluUkV6PH2Le/0PjX/0chNJXQYgWgGwcPvmtT7sju6IbyqvEd9YjYBYCAqBDBn6CjBHJtBXrkAuF3RHpSL+AwsCiGrhlRPIUY2n8SogB0me54t79+nXUNWUbzPb1x/+dUHEh2sivt1yx7BHY3t0xsM9ZsdMsmF4PFp+pDQkZgV62Iwox4B4clTXkC1xR+mJ+GPxJ+t/2P7b2u8WfrT10COliIdc1zk35kjYh2wvxvXlbQcTT3i+LRPhrSF1nJkX8xeiWx62pdJD5XFhw+VH1utPwKy+7xmdg7pau/717bFvVT6wvCe97uf65doiZe1nLXLzzSeddNGFFV/sOfPbFS4fOF3sHNOj9cIPBsiK1jYDAgTkvOvv79XzksuvOrSITTVVg2aZZVBVzaZFh3aMd2Fd3YUoXFXXLrNo004Zqb2IwIK97j0G5y8+urVmwAd6vfDcjqdt7nTd1q09S5v95eb6Ufd/MMB5W4FA8NKsPv/vb5nzX21DAn+/3YW7El7yQZK6UCuBIBtTGWNPQhmWCLiS4hKD8BcFkofl8Ks2ekSAUI8ASbV6ATJ9tAqQqzdagCr9TRWgWr3NMpHXCSV7GyVpdL6SmeZqJVfyilJlji/K1UqRQaoJZ+aPYp5lXXzpumLiuAnFrGK2obKAT7eLs4vNkRGXyIGR2NEx5zrHRY464qSLOtwF1tYudtayJXapHypMNM4EhVmKw+2Hnm20coELnZy2j68yW3F9YYRLlsePxPEkVJ2kLklEavgOYmMvescBAAA=");
 
 export default FaceTissue;

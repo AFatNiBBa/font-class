@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scroll-torah` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scroll-torah?s=sharp-duotone-solid scroll-torah}
  * @preview ![scroll-torah](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/scroll-torah.svg)
  */
-const ScrollTorah: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 32l0 448 448 0 0-448L96 32zm91.1 148l20.9 0 67.8 0 33.9-58L320 104.2l10.4 17.8 33.9 58 67.8 0 20.9 0-10.5 18-33.8 58 33.8 58 10.5 18L432 332l-67.8 0-33.9 58L320 407.8 309.6 390l-33.9-58L208 332l-20.9 0 10.5-18 33.8-58-33.8-58-10.5-18zm41.8 24l16.4 28.2L261.8 204l-32.9 0zm0 104l32.9 0-16.4-28.2L228.9 308zm30.3-52l30.3 52 60.9 0 30.3-52-30.3-52-60.9 0-30.3 52zm44.3-76l32.9 0L320 151.8 303.6 180zm0 152L320 360.2 336.4 332l-32.9 0zm74.7-128l16.4 28.2L411.1 204l-32.9 0zm0 104l32.9 0-16.4-28.2L378.2 308z" />
-        <path d="M96 0L0 0 0 512l96 0L96 0zM640 0L544 0l0 512 96 0L640 0z" />
-    </Icon>
-);
+const ScrollTorah = createIcon("scroll-torah", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABlAAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCSgsIAAE2AiQDCgQgBYMtB1QbcAVRlMrJHNlHSpcxD/t4+H7t9dy3m58CwJaIFDA5IEmsOrGxrQJS7DpVgI5VVQgi2hYDvovUk5AQTzT5kN8nLqc/zp8W/q6oSziUMbfNbXOeRwElsH1jFFBgWaaYgttugpiGNkLkAnnqk51TRrqT3uJS9D+A8Ut750jqZwCiGQCmLV+8yLOv8TXF27r7xFsLERDTQSGQIUMnASbKBDrJFcjlgq+pro6vUVdXEECURK/OQAmNcRbnATlIkr6I46Io2iyrsiShSRW/ikPyF5UYJWmaJ/5hFFZElE8VfeCxXKgazpqwiMhiv+NWfs+DNbvDOtsjwdnzHWZft1XZ2RCW9xxw+mAX8PF327WV0QQLJ/p2r2xW+afb221vrX+6IalhA0UTt/7uM6onJVZda916ZXtXRNub2bpC/c0VWs+c225VJWRD3XZ0IxuqevejaKIffih9AxcUlKpSdbuKVMw72dBUdew9VRoCgeD5h/fX1zcT/9drmMD3B/9+qp+ue5ZOpUrUk0CQDawbaE06BVw8gHSKY7rvfNUGgcxO9SWf2shNAUIDBEhKGgiQ6aiZALkGBghQpotRApQ0sFgm8vpCK2t7LmnkIJcZ7TiXa+UeV2aiF6mSVpHBUQUm1c9g+tljeNa2YtjgocX4YrOlVSNM4VcnFKftfY/NRvrRs7bZb58jttpipyMj9JBF2aP2mr2HzPJDhWEGG6owXnG7+1y/jJOHHLbTa9/9dSYo3g/3dWx/ej/qShKpw+3IZESKrBVMqwcd2X9o445ByB5vs6D9iAE=");
 
 export default ScrollTorah;

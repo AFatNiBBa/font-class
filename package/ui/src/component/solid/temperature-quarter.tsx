@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-quarter` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-quarter?s=solid temperature-quarter}
  * @preview ![temperature-quarter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/temperature-quarter.svg)
  */
-const TemperatureQuarter: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M160 64c-26.5 0-48 21.5-48 48l0 164.5c0 17.3-7.1 31.9-15.3 42.5C86.2 332.6 80 349.5 80 368c0 44.2 35.8 80 80 80s80-35.8 80-80c0-18.5-6.2-35.4-16.7-48.9c-8.2-10.6-15.3-25.2-15.3-42.5L208 112c0-26.5-21.5-48-48-48zM48 112C48 50.2 98.1 0 160 0s112 50.1 112 112l0 164.4c0 .1 .1 .3 .2 .6c.2 .6 .8 1.6 1.7 2.8c18.9 24.4 30.1 55 30.1 88.1c0 79.5-64.5 144-144 144S16 447.5 16 368c0-33.2 11.2-63.8 30.1-88.1c.9-1.2 1.5-2.2 1.7-2.8c.1-.3 .2-.5 .2-.6L48 112zM208 368c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-50.7c0-8.8 7.2-16 16-16s16 7.2 16 16l0 50.7c18.6 6.6 32 24.4 32 45.3z" />
-    </Icon>
-);
+const TemperatureQuarter = createIcon("temperature-quarter", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABewAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBfwsGAAE2AiQDCAQgBYMtBzobCQXIhofv6/79tU/3fYE6ckfSSOTHEMQIYs0TT784yp3/mz3veRTgNwplT803+JzPEwgD6+WR1k2wMz0AP4azdvbLG0S/SfrE+zCMZ5gckMfy7CYV0gPpO9yW3zR+0tpNJHUyAFEAYNLi+fN8dDWuRnxbfZ341hwExCRQCmTI0E6AsTKBdnIlcrngalSr/B9YEkDUkGdNIEcFG7ANkIMky/OO3VvWqzTIF9Wr1F3+dLOIu1uJ+5s975FeLwx7s89LHc/2vrdNxIMt7u2+4LE+ES+NeL3XC+3FWWfjnuavdHp87HtTvxj/QeenBtzX8mycjVh4/wGt67PLTpvHekQMMMePEc+07/xi8eIvnb7b9J3HTg+8yPfZM+pcydvFoo1FsXFRtMt/bP2M7PuLA3cPaHSD337//bcbjZ4mEJ+ldkdu/fjjW4+0S58FeOaxavY9FwcOvPh9VlwYouHVqw2HuFAAgeCZ0RPvX91o7D+16yVw/Z3f/i9fo6L6UQxOL6K2BIKsb7WvFXFIoYjBAgCQ4pDOMVEhkKyQkbPWd68AoS4CJDXqCpBpqxAgV1cfASo6GCZAjbrmy0ReR2hmZQNJfXtBZriTINfMq6BirC+9Gs0iwxmFEuqbFz9dQ9OWykH9B5ajy2mk0tAh4nRM6dZ7HgqVXrRrk912OWCjDbY6oJB95oUH7TTdgqf5oNIg/Q1UGq3cTu+3F9lon/222m1XmjNGed/u6ZDd3ousRFAHW00SkZpCUO73xgA=");
 
 export default TemperatureQuarter;

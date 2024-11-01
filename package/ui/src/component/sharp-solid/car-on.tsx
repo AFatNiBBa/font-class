@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-on` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-on?s=sharp-solid car-on}
  * @preview ![car-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/car-on.svg)
  */
-const CarOn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M280 24l0 80 0 24-48 0 0-24 0-80 0-24 48 0 0 24zM138.9 160l21.1 0 192 0 21.1 0 8.3 19.4L428 288l36 0 0 96 0 64 0 64-80 0 0-64-256 0 0 64-80 0 0-64 0-64 0-96 36 0 46.5-108.6 8.3-19.4zm192 64l-149.8 0-27.4 64 204.7 0-27.4-64zM128 392a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm280-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM56 22.1L73 39l48 48 17 17L104 137.9 87 121 39 73l-17-17L56 22.1zM439 39l17-17L489.9 56 473 73l-48 48-17 17L374.1 104l17-17 48-48z" />
-    </Icon>
-);
+const CarOn = createIcon("car-on", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfgAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCNwsGAAE2AiQDCAQgBYMtBy0bNAXIjsK2eZNDMllyDQP4yYrn/7nvt8/941TRuDyKZ6FEApt0GDmgBNNRoJUm8Kx+7Lf3RRx4uGuj2XSxLKbNSyB7IjP/l9Mby44O8D8/t7HxfOIGud1cnkDP1/biQNIssEwTsN5m6VJEKE7FS2FENEyHw3Z3aOe6NaED9Vpv4IU/NP/MJijiFgDIHABwelaci4d3eg+9NqfkWzYIkFMAuwi0QAtsIsABLgKbeBho4yH4pf/G/QcyCEC6kJcWoA0G4ALcANqAImzz1K5isVitlvLlvDIpX9IOggwJ9kgJJSOJ1Eyl1SS0npGRziona6lEKgk4FlSybl12WzEtuTYnrt/d5unlGUueFENeFMdefKO3hzfBHrAH5L3daUu19e341vbD+FbAKRMCmBTIjz5O6/UfQ/zO4aJBggQFEgCCBA1cFHfoPX5e9u3jB/tf64V6fWGgjEapnamvBDRY5JlrFUn4LAQEbj5mmuuVMX8iKQfA39XvN/yMDM0DfdQW+jiAQGvv30dNARsM+UAAACpjcCpgA4EyTEjedWxeACEBARQBCQK0WKkQoE3CGwE67IUiQJdEMS5qi0F0ahvgkBkEXGHGAY/OMeCL8RgI6MK1QcmCpF/A9LQRTV3EAv0CWBRTK0U2KyFOR7Njw2PMd3niTbTp12dEqxadRgZmSG48qlfajk71RUwgPwGYKOy68Xy5TKshwzr166N5orH3loex/WBPXA4HwP7XgzjJlKC5cci3vw8AAA==");
 
 export default CarOn;

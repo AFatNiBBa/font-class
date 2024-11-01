@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `a` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/a?s=light a}
  * @preview ![a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/a.svg)
  */
-const A: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M206.7 41.8c-2.5-5.9-8.3-9.8-14.7-9.8s-12.2 3.8-14.7 9.8l-176 416c-3.4 8.1 .4 17.5 8.5 21s17.5-.4 21-8.5L67.2 384l249.6 0 36.5 86.2c3.4 8.1 12.8 11.9 21 8.5s11.9-12.8 8.5-21l-176-416zM303.2 352L80.8 352 192 89.1 303.2 352z" />
-    </Icon>
-);
+const A = createIcon("a", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABTwAAAHaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQiBBQsGAAE2AiQDCAQgBYMtBygbfQTIHoVxmxOa06jE7DAxXfrFw9dYe393D1FJZglvZNFEiCYl0CwW0iUIhaHi04+r91ZOarsnIcFqULrMkMl0Sc4K5eYS/Fuh5hPf1KmacR4K4CPFbCyMrYHZGlu7iyvQ83qvvgYXpFawimJ3Z3PYIWvlkDRiSR6f5PgcoMQLfSAnfaYLwCt9afzDZhJISgYQbQCA3ZO8XBw+85msim2IKrJBQOwBGENkZAwh2CAVGCIzBooi+KUQ9j/QDgQQNfjtCRQUTINFAAUkqZQepbbSXI618oaLWaa6ijndPWMpojaOaGJz5tISjbZ5JUucFkwLL46LxgtczWSi2V8NsV/37c4F+EZW+89RbClV+chypwL4MggE34nzV7XGvNVpE/g7eH2LV4o/8cCJtADqJBDkWeGD8hhVoL+VuJUT93CCBIhkOBDjU5u8gSA0IEBSo0GAbJAJQdFgBkHFiFAENRockIpSL3SpyCBpcgWydUOg6LIJKjYcuzW6QvpU6Iumf2oJaRJN3WQP9AuwR9m7qcTcPukWo+3DoscgtjxhLxp16dSvQb0W/QLvlRsM6JCmYal+yC6QnwB2UezTxfXuQg169WnRpdOvE82+XvcwqA97wjYkgOVDJtGJFJc=");
 
 export default A;

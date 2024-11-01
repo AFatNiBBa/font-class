@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-tilt` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-tilt?s=sharp-duotone-solid car-tilt}
  * @preview ![car-tilt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/car-tilt.svg)
  */
-const CarTilt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 448l63.3 0 99.4 0L640 448l0 64L0 512l0-64z" />
-        <path d="M65.1 75.8l21.1-5.7L318.1 8l21.1-5.7L352.2 20 430.6 127l40.7-10.9L521 301.5l20.7 77.3-92.7 24.8-20.7-77.3L150 400.9 162.7 448l-99.4 0-6-22.2L7.6 240.3l40.7-10.9L62.7 97.6l2.4-21.8zm248.4-.3L124 126.3l-9.3 85.3 249.6-66.9L313.5 75.5zm-180 263.6a32 32 0 1 0 -16.6-61.8 32 32 0 1 0 16.6 61.8zM434.3 225.4a32 32 0 1 0 -61.8 16.6 32 32 0 1 0 61.8-16.6z" />
-    </Icon>
-);
+const CarTilt = createIcon("car-tilt", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfAAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBfQsIAAE2AiQDCgQgBYMtB0wbGwXIhofn9f6/tU/yAOdbHqsX23FLVFALsGJ1p049z3kogM8hCMrYtDXn8zw253kEAhqMbwvwaCvQmlrfNkQwMBCvhElFROPleM2QpxHZbcpID6b3cbv8D2D8psttJFUZgGgEwKIdW9Z54+v4OsX7pWeI961FQCwGhUCGDL0CzJUJ9MoVyOWCr1OpxNdRKhUEEOXk/AyUowK7cAGQgyQXeT6sqq6uqqasLt8uE9V7RgwdsSNGRFdsixmI09jW2B4Hoy+qo9vw6NoRPTVbd2zdypffvvPxnofb7xv6SOcDbfeOOPLQ8Mda7+l6cNijHfd3R011g6iPGPxU41N/DHr/+PsWXrps2bKf5lnmTetPu8akF7WutbdT6zptq33oqG0mvuga9bdo+//VSfhxldv8t9ikpU+X55smfvBeS+uiSa983jrm4oVlLZ+/smhR3vLeB4tYsOCmhW6yEAgE130068sDDXP/rqxJ4NuX/voVHy69kW5KT6FSAkE2tjTW3nQTEDoAI8UVBo9+qBKBzEo5fdVa9wkQqhEgKVctQKZHowC5amMEKNNvmgDlqm2RibxKaLWvgaTWxSAz3fUg1+ppUGaut8xyrZHlGZ0l9DcvYbmHlg0Vk8ZPLGYXU48xqUPW7pxiWx55RcmMgknHXXDeZY456pTLHHKJdc7lzlm+gpf5osIk401UmK04Do/CdjQvcalTY+68zxzFfX2kK9blo0BLFHOyJZmMSJE1Hjl0ybjLTp29bFzCis0d9zQB");
 
 export default CarTilt;

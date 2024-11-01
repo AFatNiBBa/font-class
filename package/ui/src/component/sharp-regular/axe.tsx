@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `axe` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/axe?s=sharp-regular axe}
  * @preview ![axe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/axe.svg)
  */
-const Axe: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 448l64 64L313.4 262.6l-64-64L0 448zM400 48L385.9 33.9 352 0 318.1 33.9 257.9 94.1 224 128l33.9 33.9L384 288l0 80 0 48 32 0c5.4 0 10.7-.2 16-.6C543 407.6 631.6 319 639.4 208c.4-5.3 .6-10.6 .6-16l0-32-48 0-80 0-48-48 48-48L448 0 400 48zM512 208l79.3 0c-7.6 84.4-74.8 151.7-159.3 159.3l0-79.3 0-19.9-14.1-14.1L291.9 128 352 67.9 478.1 193.9 492.1 208l19.9 0z" />
-    </Icon>
-);
+const Axe = createIcon("axe", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABZQAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBYQsGAAE2AiQDCAQgBYMtByob2wTInoWxYzkat3chVGJVgtX5ePj/tf/tc2fe+4bLLJKYaLJQIdLw5g2qVxYNkr3G/wfJ2Z+qtdfyvTtk/q/5/J4fHeDnIzi0SKvUKPDKxfMJDDiK10ADmg1nA7WxTt3Gy48cZcEicgSviCE+NItnyONP3FYi3U/vcau8afzQ2nmSUgYgGgFgzKJ5M7z8Gl8j3lUi3pmGgBgDCoEMGdoJMFwm0E6uQC4XfI1K/B84Aogy/K4EcpQwB6sAOUiyPK/p0rKuVD9fWFeqjTlz5yyKuTF/U4vmLUbG8Jgdw2NELAgh6uJay+d9WHQ3ImprR8aomBvDF9TV1n0c/nR+RESLWBjzYkE0j7pODxr5s/cb31OphHDr1qc/NdbYE3T6iRNm661QvXt++cq98vyq6kLv2RWq72IWVpVHP344ujxLM59W+Sf1KZ80AwLBrw+fvarh8N/VdQl8f0x6XOVlOp0eoFoCQda90t3ydBoYHUCU4qBOzgcFkikyeNV67ggQahEgKasVINNWIwFytboJUNLBAAHKas2TibxGaGZFB0k9e0BmoBMg18wjUDLcq7CsWWSBRYYF+a6Lm2ihCcuKPj17F0OLaapRsYLr/LBiW+h8UFpd6KiNdtlpvw3W22K/QfaakRyww0QPnuCLCn301FthqOK4eNy/0AZ77bPFLjvzIsMU953ODvrDXUhOgNmXmyT/C5trDm8AAAAA");
 
 export default Axe;

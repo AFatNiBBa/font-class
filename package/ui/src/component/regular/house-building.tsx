@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-building` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-building?s=regular house-building}
  * @preview ![house-building](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/house-building.svg)
  */
-const HouseBuilding: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 48l224 0c8.8 0 16 7.2 16 16l0 384c0 8.8-7.2 16-16 16l-160 0c0 18-6 34.6-16 48l176 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L352 0c-35.3 0-64 28.7-64 64l0 60.6 48 44L336 64c0-8.8 7.2-16 16-16zm61.2 208l18.8 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 4.6 6.1 5.6c11.2 10.3 19.2 23.4 23.1 37.9zm2.8 96l16 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-16 0 0 64zm64-144l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm16 80c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM400 96c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm80 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zM20.8 237C7.5 249.1 0 266.2 0 284.2L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-163.8c0-17.9-7.5-35.1-20.8-47.2l-128-117.3c-24.5-22.4-62-22.4-86.5 0L20.8 237zM48 284.2c0-4.5 1.9-8.8 5.2-11.8L181.2 155c6.1-5.6 15.5-5.6 21.6 0l128 117.3c3.3 3 5.2 7.3 5.2 11.8L336 448c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-163.8zM144 296l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24z" />
-    </Icon>
-);
+const HouseBuilding = createIcon("house-building", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABvQAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDcgsGAAE2AiQDCAQgBYMtBzUb9wXIhocnu/86t7rfoPsbNRCXQARGZCQq2nwYrTX/l+MbqzUAv1EoY06+4Y2xuedhgKdHjU0JZWGWUQLc0bwRl14e1BXSzlDG33G9BumO9Bmuw28aX+t3BUmjABBtANjqgH1289a6WBfx6f/PE5/aBQGxFcgCBQoMCbBaITCklFEqBevi//+L/8BMADEGiJJdJZrwFTaj/yaSqiyndzV3tLV1DHR11I3mcv+6UZ1QV/Ut3Slu7qrikr46Hpz16GARd858ZGoV901/qE+siYjbeverq/q23ohbe6q4uUt0x/39EemADbd01xHg3K9uVEftX43eb7LiyIcwd8x4eErzFQ6NuHTm/vFIdeX0fedc2ntA3Na9X9xCkKMpdsZS8o4pjgcT551nFeib+EjbI99O+Oz4zxxx3To4seUSLevuMvjLU+5qb68uUbW337WO863xt5O0rFv9ZWesD4KyP8OFDftq3S8d0QZmQ0WbLbe4LufssobEWvfgZrzqiDeV1Xu0zmA+uWDrofv2R/DdZ2jri8+V+/oyij8xdttC6cEHE9uOvW8yJH/fEfV8qOjea769uufDzwOBoPWRZe8e0br613F1Ahte+f43/Lj/30qXpEcwTgJBMfv/2Q5Nl0CxIgCT4nwTPR8USD5XiV+1ya0ChAoBkjEqAQqD2gQoVWYJ0DBiiQBjVPZRiHK80OUwDpImZ4HCUheCUpdnQcNqH9JjdEVxh5vvT/P/ZY7tZWS7bXnB3Pl5ZXY2UMtNa2wXV+XJgennlwMzYkHHO8PpznWcY53kXEl7tt2485xme598O1+ULTDXfNlKeXF73bF/ypztHCfZrcvXWSVvn5nufP/4GXE4AZ0LlSWJSC13v3fOVwAA");
 
 export default HouseBuilding;

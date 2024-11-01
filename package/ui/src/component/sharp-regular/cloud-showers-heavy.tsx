@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-showers-heavy` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-showers-heavy?s=sharp-regular cloud-showers-heavy}
  * @preview ![cloud-showers-heavy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cloud-showers-heavy.svg)
  */
-const CloudShowersHeavy: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M368 128l0 48 48 0c26.5 0 48 21.5 48 48l0 48-48 0L96 272l-48 0 0-48c0-20.8 13.3-38.7 32-45.3l32-11.3 0-33.9 0-21.5c0-35.3 28.7-64 64-64c21.6 0 40.7 10.7 52.4 27.2l26.7 37.9 38.8-25.3c7.5-4.9 16.4-7.7 26.2-7.7c26.5 0 48 21.5 48 48zM0 320l48 0 48 0 320 0 48 0 48 0 0-48 0-48c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C247.3 18.8 213.9 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 48 0 48zM0 512l48 0 72-160-48 0L0 512zM192 352L120 512l48 0 72-160-48 0zm160 0l-48 0L232 512l48 0 72-160zm72 0L352 512l48 0 72-160-48 0z" />
-    </Icon>
-);
+const CloudShowersHeavy = createIcon("cloud-showers-heavy", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABggAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCMAsGAAE2AiQDCAQgBYMtBzobOgXIHoWNY0ljvzbKEj+C5BQPz+v992uf5CkZIyNnIFWwuvkS7i/l7ruooFaoWCHvzQwD+Xb+r6kXz48O8BsdWodF0d0CsAtTYID7OF1bgc8GNtMJ2K7WHfyQQ9v50HyCPN6OayI9mOB290PjB71dQ9KUAYhOAFi4ad1aH3wb30Z8+v+rxKdWIyAWgkogQ4Z+AsyRCfSTq5DLBd/G//+L/8CKAKKZf3ICOVpxAdeDLoSkOc9HDmrDWdnUPt8YH1YcEsp4tvu9vUXRLuLxESMCQx8e89KIV0eNi9lxfzlRsLssOg6lj41uTIt23TT0vWWvjHyhn3hGIr1glEW5KYpYv8m2yiilElvrA+tlBz640anxEwc5Nb/2X6b+8vOsVp+udfrib/RQdO78RKfezzrs+Y59+VW3vV/XaNraaFwhb+h/qv2Tv/6vYw9v9mzpWKs/qKuXP67GvfcfX07oakH9RO/ACnY/EAhum/jyPbs6zvmrtUzg+7fOfkb+/yBJDbRKIMjG/j/W9gQSAQBIcdHgBIHkhGb+u7ZznwChQICkWSFApq9OAuQKYwRoMsBUAZoV1slE3iZ0s6MCSTtnQGaaSyDXzcugyRwfFpp1iwwAWfBhL/+SljXxpduqiePralY1WldwMEVb87OrxdbIi7JvFN7roFNOOu+A/Y443yDPWlu+4IRlU8RSX1SZaLxaZZZqc+uutJEWzjrnyLBu+yazVccHI12cHj0Ku4lPOUlFkojU9U+E6ribdLyz58adSwAAAA==");
 
 export default CloudShowersHeavy;

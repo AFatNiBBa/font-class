@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `masks-theater` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/masks-theater?s=duotone masks-theater}
  * @preview ![masks-theater](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/masks-theater.svg)
  */
-const MasksTheater: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 103.7c0 2.7 .2 5.4 .6 8.1L24.8 276.1c5.5 37.3 21.5 72.6 49.8 97.2c41.7 36.1 108 82.5 166.1 73.7c16.5-2.5 32.2-9.4 47.1-19.1c-9.9-12.9-18.7-26-26.2-37.9c-15-24-21.6-51.7-21.6-79.9c0-3.2 .1-6.3 .2-9.5s.4-6.3 .7-9.5c-8.7-.5-17.7-.1-26.7 1.2c-22.9 3.5-43.4 12.8-60.4 26.4c-6.5 5.2-16.3 1.3-14.8-7c6.4-33.5 33-60.9 68.2-66.3c13.8-2.1 27.3-.6 39.5 3.9L266.3 118c1.4-9.8 5.1-19.2 12.9-25.2c.9-.7 1.8-1.4 2.8-2.1s2-1.4 3.1-2.1c2.2-1.5 4.7-2.9 7.4-4.5c5.5-3 12-6.1 19.8-8.9c15.6-5.6 36-10.3 62.6-11.9l-1.2-8.1c-1.4-9.8-5.1-19.2-12.9-25.2C340.6 14.5 288.4-11.5 175.7 5.6S20.5 63 5.7 83.9C1.6 89.7 0 96.6 0 103.7zm96.5 65.1c-.6-5.4 5.2-8.4 10.3-6.7c9 3 18.8 3.9 28.7 2.4s19.1-5.3 26.8-10.8c4.4-3.1 10.8-2 11.8 3.3c.1 .5 .2 1.1 .3 1.6c3.2 21.8-11.6 42-33.1 45.3s-41.5-11.8-44.7-33.5c-.1-.5-.1-1.1-.2-1.6z" />
-        <path d="M399.3 509.7c-58.2-8.8-108.2-72.8-137.6-119.7c-20-31.9-25.1-70.3-19.6-107.7L266.3 118c1.4-9.8 5.1-19.2 12.9-25.2c20.2-15.6 72.4-41.5 185.1-24.5s155.2 57.4 170 78.3c5.7 8 6.5 18.1 5.1 27.9L615.2 338.8c-5.5 37.3-21.5 72.6-49.8 97.2c-41.7 36.1-108 82.5-166.1 73.7zm17.1-277.7c.1-.5 .2-1.1 .3-1.6c3.2-21.8-11.6-42-33.1-45.3s-41.5 11.8-44.7 33.5c-.1 .5-.1 1.1-.2 1.6c-.6 5.4 5.2 8.4 10.3 6.7c9-3 18.8-3.9 28.7-2.4s19.1 5.3 26.8 10.8c4.4 3.1 10.8 2 11.8-3.3zm112.6 22.2c4.4 3.1 10.8 2 11.8-3.3c.1-.5 .2-1.1 .3-1.6c3.2-21.8-11.6-42-33.1-45.3s-41.5 11.8-44.7 33.5c-.1 .5-.1 1.1-.2 1.6c-.6 5.4 5.2 8.4 10.3 6.7c9-3 18.8-3.9 28.7-2.4s19.1 5.3 26.8 10.8zm-11.5 85.2c-28.8 12.8-61.4 17.8-94.9 12.8s-63.2-19.5-87-40.3c-6.3-5.5-16.2-1.7-15.2 6.7c5.9 48.5 43 89.1 93 96.7s97.2-20.2 116.8-64.9c3.4-7.7-5-14.3-12.6-10.9z" />
-    </Icon>
-);
+const MasksTheater = createIcon("masks-theater", true, "data:font/woff2;base64,d09GMgABAAAAAAOAAAoAAAAAB0QAAAMzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFyDYwsIAAE2AiQDCgQgBYMtB1YbCwYRlZq5yX4kZG7eaFbH4tK2HZoovFGFRp0qfgmeB13z/SSYJ5jKVteJTi6hqgcVleMqoiP4VLO1IbDdr+3iwAJJKLYEQ48s/5/93J152vn1TTWKSnRBNdHwCnGpEBKksowRp57nPBSLvng8aGPZ2p52a6xznVegwLW1cFO157WiVtx6uW3mQBKR67+QaJyB1pLUR5ygXOUlsClskE8IloPCLSGFDOBvgNQ0B/flbpd0KfLSugLy6AMQgGwAoiFABSoIhwAoh0pAODTRAI1G0KVYFnSJZREEANJJP1UF4AxcwWugEwDQACg0SmlRYSFGQ4gHz0sb5sFzn3gtIKzbmZfihstnUEvR9aF/Ja0hNn2IfJWfKLYXjjYZYZnSEtgceEzfHmzKUrEFtRg2wxY01MaYYsruYVJfWjbEnvgpbe6m2ZtysuBq2umoncfo6q0xVL4rTpa0Fh1P2hV6TszMCzKFeleSt09qQbsXhUnHE17AZ+q6MjleFCgf4/MLrw35LbYHb2fondLG04aJiU3fHr/pjUNNd1NiT/me+hbzcviSjRX2eMiv3VsTdJjIXbvDURFXvEaNSy8cQYeZ9/Fvf/LA1wBA5p71e3naGg3C9Xzs6T6+3DDVmFmEkLFuD6Htz7Lksu6e6+5DLuuTqgbX1LjE1jzV+90/e4zcvEGM4HIOff5T+8MZk3sPDrE4ccEphbvvjO2DwjVOaT+/I7V6/yYid77gq4oR1rIj461L+4g2x42KpOI1bFzakrSr3Z4f/r7/9QiZ69ezfz195osEACBAsHzN/sR4he+fq4cCQI/jx5/8h8S6rTQppwBXCgCBuqx0Y9i3YP1nNyEAAABAidnEsm/5BAhQTYImjT017y4Id9RQOHOHKgy+0LhLg5NIFGx25m4wVFJuCB1jayg8TYOqEIug0XEZTsrxJOtMZ0kOaAuAKXxZpibaRHwWuexO8tBkRSlCK2cnvbRaNx7LDhNeiKGVpUMDfROHLWorXziykJhjxr9LXOyciAftrt9XG63s1oHJuLx/Gi86PzY6nu9vwhablNVtIwcVWAqLo1x0DmYHtl8LxoOtLZr0YEbkKAEAAAA=");
 
 export default MasksTheater;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eggplant` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eggplant?s=sharp-solid eggplant}
  * @preview ![eggplant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/eggplant.svg)
  */
-const Eggplant: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 65.9l31.4-31.4L477.4 .6 446.1 32 288 32l16 48 48 16 16 48 48 16 16 48 48 16 0-158.1zM271 82.3c-30.1 22.4-65.7 39.7-101.2 56.9C83.4 181.3-1.6 222.5 0 336c1.4 95.3 79.8 175.9 176.4 176c130.5 .1 227.9-140.1 276.4-263.4l-30.9-10.3-15.2-5.1-5.1-15.2-10.9-32.8-32.8-10.9-15.2-5.1-5.1-15.2-10.9-32.8-32.8-10.9-15.2-5.1-5.1-15.2L271 82.3z" />
-    </Icon>
-);
+const Eggplant = createIcon("eggplant", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABZQAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBTgsGAAE2AiQDCAQgBYMtBy8bzQTIhofv1z4793UPhbEDwKATR6Cn4oiXWbJitfrP/zWfnzUd4Dc6tA49kAKvWGoJHPiaosEGNBvYhAY+Advu3CZziPZJWsqSHN8cpwvk8SK7qIx0PX2Oy/VN4y/NXSSpygBEPQCMW7Jglre/xC8Rn5UeEZ+ZgYAYBwqBDBlaCTBSJtBKrkAuF/wSpRL/BxYEEOUETrQ8PDgDCwA5SFKeN+1Zs6x2vjjuqbGlR9ceo6Nr1IjWMQiPj4Uvp56r8XTo0573/TDvm0U/zflqwnsDOkcTnmwTg9uWJu2r61X/0+7zzZ/7+dS/0l3fv+4o0Tfe+bruL0vEwyVbDhwYmqbVj2kxzpTFJ3Zc+tMfZrunBj2jCxAILvzYq/mauiP/r6yZwG/P//sH/IpKb6OUqlEpgSDrWeppZYKIkgAApDisfYJAMkFCr1rLFQFCDQRIytUQINNSPQFyNfQQoEwbgwQoV8MCmcirhEZWDZDUsg9kBjsFco08AGVG+sgv1ygyf2K9gf3NJU3W0KSuol/vvsXwYhnrnIvQeXxEsW11PZxq3XCnzfbY7aBNNtrmoCL3mxUdsstki5jkgwr99NZXYbjiOHvevNgm+x2wzR67yzwjFPe9rg7bvbuhmwhlf4uSRKTKTVu2vH4=");
 
 export default Eggplant;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dharmachakra` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dharmachakra?s=regular dharmachakra}
  * @preview ![dharmachakra](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/dharmachakra.svg)
  */
-const Dharmachakra: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M232.4 24.7l.4 8.5c-44.4 4.6-85 22.1-117.9 48.8l-5.7-6.3c-9.1-10-24.6-10.3-34.2-.8s-9.2 25.1 .8 34.2l6.3 5.7c-26.7 32.9-44.3 73.4-48.8 117.9l-8.5-.4C11.3 231.8 0 242.5 0 256s11.3 24.2 24.7 23.6l8.5-.4c4.6 44.4 22.1 85 48.8 117.9l-6.3 5.7c-10 9.1-10.3 24.6-.8 34.2s25.1 9.2 34.2-.8l5.7-6.3c32.9 26.7 73.4 44.3 117.9 48.8l-.4 8.5c-.6 13.5 10.1 24.7 23.6 24.7s24.2-11.3 23.6-24.7l-.4-8.5c44.4-4.6 85-22.1 117.9-48.8l5.7 6.3c9.1 10 24.6 10.3 34.2 .8s9.2-25.1-.8-34.2l-6.3-5.7c26.7-32.9 44.3-73.4 48.8-117.9l8.5 .4c13.5 .6 24.7-10.1 24.7-23.6s-11.3-24.2-24.7-23.6l-8.5 .4c-4.6-44.4-22.1-85-48.8-117.9l6.3-5.7c10-9.1 10.3-24.6 .8-34.2s-25.1-9.2-34.2 .8L397.1 82c-32.9-26.7-73.4-44.3-117.9-48.8l.4-8.5C280.2 11.3 269.5 0 256 0s-24.2 11.3-23.6 24.7zM147.3 394.4l54.2-59.4c10.9 7.5 23.5 12.9 37.1 15.4l-3.7 80.3c-32.8-3.9-62.9-16.9-87.6-36.3zm29.6-84l-59.4 54.2C98.1 340 85.2 309.9 81.2 277.1l80.3-3.7c2.5 13.6 7.8 26.1 15.4 37.1zM81.2 234.9c3.9-32.8 16.9-62.9 36.3-87.6l59.4 54.2c-7.5 10.9-12.9 23.5-15.4 37.1l-80.3-3.7zm120.3-58l-54.2-59.4c24.7-19.4 54.8-32.4 87.6-36.3l3.7 80.3c-13.6 2.5-26.1 7.8-37.1 15.4zm108.9 0c-10.9-7.5-23.5-12.9-37.1-15.4l3.7-80.3c32.8 3.9 62.9 16.9 87.6 36.3l-54.2 59.4zm54.2 217.5c-24.7 19.4-54.8 32.4-87.6 36.3l-3.7-80.3c13.6-2.5 26.1-7.8 37.1-15.4l54.2 59.4zm29.8-29.8l-59.4-54.2c7.5-10.9 12.9-23.5 15.4-37.1l80.3 3.7c-3.9 32.8-16.9 62.9-36.3 87.6zm0-217.4c19.4 24.7 32.4 54.8 36.3 87.6l-80.3 3.7c-2.5-13.6-7.8-26.1-15.4-37.1l59.4-54.2zM208 256a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const Dharmachakra = createIcon("dharmachakra", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABtAAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDMAsGAAE2AiQDCAQgBYMtBzMbswXIBuL5Oqve7x7APYIXSrKS7pZO1AnO/1zz+TUdHeD3E0yEWkTaaM0RIbDnA4z2tL0Dng5sphOw2Zbjlnd4CBeHr0Q+OaRhk4atK9DlmMzGBtQSdR2YdXyofCSAmaCw0QAAEHcAAKDc0ropp5/JM5Fr1gMg12gEBEDKATAQQAM0IBgBoAgNAYLRMQAdHYFnYrWO/0ADBADEFtVTAaADzsAu4AoAoAOgcNT1Vo6O9o72UuTiZOOim+U5xw4+vj73m/jKxqjFAT5yuo2vrPdfEu0nD8q9JXg2xC7yhknG2k1BvvKouY8siF0WCPKcRQZraYy3PKzwE89Gb5A3zTLk4tq2rVu0XhDdRi4WWFqckZ0RFugSYF6X2lIW+5strVq2OlZrkvXeTgtjLHIhv4XpcJVZNvm1TNySi4LecHWS7AhvI0sDW7dZFrspekPA4qj1MRsDI7a6b/0cfr33dd5utLOzq7TzN+HqcvuZiWl2lUPp5uPTbSh2ldNMPLvt4mrCv9LODt+WLX3t4CT8D+GG/I+0Gdpf1/yu1Frg2ymk9UY996BbC42o3V0auz3YwO6oW2Rs/gB4O/qmmYo/A/9UUKn+OY87BW//6zy1K0tmnU9rlRuODHQcPGHCYEd7HQAEELBYnwzr4lb0zd5JAfDi6Nfv8jPCelqhtgL2KAAEtCRrEh0VAAoEAAAAUDKaCAUggGITjmjSmYXVnOAIFyhscQSNINxBx5FEsCGUbJU83BoN0R0QvOkEUDgzDDRymAQ63uwDG4q4lLbFW7QGNrSf4fcxa41HqlcZ6SlpRoHx2LCMPanOxUKD9saNloF4XKQ3QxjMSHrRk36MdMxwmuZGMYiajK7mixikk0IaBgUY5fYxYqaXeRnh1b2xvgyFGO8n4xidj49HQKGiGZQqFIhy7vnpebr1sNiA4d0AAAA=");
 
 export default Dharmachakra;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `books` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/books?s=sharp-thin books}
  * @preview ![books](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/books.svg)
  */
-const Books: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 416l0 80L16 496l0-80 112 0zm0-304l0 288L16 400l0-288 112 0zm0-96l0 80L16 96l0-80 112 0zM144 0L128 0 16 0 0 0 0 16 0 96l0 8 0 8L0 400l0 8 0 8 0 80 0 16 16 0 112 0 16 0 112 0 16 0 0-16 0-80 0-8 0-8 0-229.1 59.7 222.6 2.1 7.7 2.1 7.7 23.5 87.5 4.1 15.5 15.5-4.1 116.7-31.3 15.5-4.1L506.9 457l-23.5-87.5-2.1-7.7-2.1-7.7L416.2 118.5l-2.1-7.7L412 103 388.6 15.5 384.4 0 369 4.1l-97 26L272 16l0-16L256 0 144 0zM272 46.7L373.1 19.6l23.5 87.5L279.9 138.4 272 109.1l0-5.1 0-8 0-49.3zM256 496l-112 0 0-80 112 0 0 80zm0-400L144 96l0-80 112 0 0 80zm0 304l-112 0 0-288 112 0 0 288zm118.7 92.4l-23.5-87.5L468 373.6l23.5 87.5L374.7 492.4zm-27.6-103L284 153.9l116.7-31.3 63.1 235.5L347.1 389.4z" />
-    </Icon>
-);
+const Books = createIcon("books", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABkgAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCDLwsGAAE2AiQDCAQgBYMtBywbqwXIHgeO8xx1FzedSfgTUTz8/5rv73Nn8lYyKXBanlYRcVIgVoC+VeRQvVVXV3Yo/CfU3/40s0ft+4Jon7ic/qCn34BLEw5lzKVrzPMEAhzbuzQMKAss0wQs23LIwy/Sc0KRUc9RItEwOmzdIY+3DquQniS4Pz40/jXAPZIsAxA9ALCotWWdTz/FTxHf2yO+W4OAWARKgQwZBgswVyYwWK5ELhf8FO12/w8sCSA64MEEcnTBK3wH7ycp8rxWq63rXpNQvdI1b65XipZQREQ9S1lyIDMECTaKeiEERwoN1rsG3Nuir0k2dyNaHesXzXbx9omtqbRiSGtra9sFHCjGme1FvYioh8zBBGautK2p5lbkDE3fPqJT5+GOcnPYRvDP2+j8xFIkQGnYT4fbejxgo6qqcng36mEyfsXv5vygn4Z+TRv86vJQv5mv0dTQMP8fDff79g/QTQ89/j880ESxJLnlmoqqSd0/nUfBRudtfODgRLCMlFd3NZoqbpJ8ZOigo/P/MfGMzP/neSAQLHnatX3d5/5XrSfwy5v/u/+MtD9FO3WiKoEgG9sea3eCiLYAAKS4akSCQPJSAe/axUMBQoEASYdCgMwgPQTIFcYIUDHUNAE6FLbIRF4T+thzMkkXF5jMdNeZXB+vmYq5Pkc69ImsfmXVJ/t9TL28wcs2lZPGTyxnl48th7wkJbo6p0ybR16lkVFy01HnnHXZEYedcHmiL1oXv+KM5RG6zBeVJhlvotJs5evufLnpiIsuOeGcs8s6c5Tf+0e6Gk8fJbYEQierShKRKmUNAA==");
 
 export default Books;

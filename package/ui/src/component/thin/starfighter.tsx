@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `starfighter` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starfighter?s=thin starfighter}
  * @preview ![starfighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/starfighter.svg)
  */
-const Starfighter: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M277.1 27.3L240.3 277.7c-.2 1.2-.3 2.3-.3 3.5L240 440c0 22.1 17.9 40 40 40l80 0c22.1 0 40-17.9 40-40l0-158.8c0-1.2-.1-2.3-.3-3.5L362.9 27.3C360.6 11.6 347.1 0 331.3 0L308.7 0c-15.9 0-29.3 11.6-31.7 27.3zM308.7 16l22.5 0c7.9 0 14.7 5.8 15.8 13.7L383.9 280c.1 .4 .1 .8 .1 1.2L384 440c0 13.3-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24l0-158.8c0-.4 0-.8 .1-1.2L292.9 29.7c1.2-7.9 7.9-13.7 15.8-13.7zM608 96c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 32-16 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l16 0 0 176-80 0 0-8c0-22.1-17.9-40-40-40l-32 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l32 0c13.3 0 24 10.7 24 24l0 8 0 16 0 104c0 13.3-10.7 24-24 24l-32 0c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8s8-3.6 8-8l0-24 24 0c17 0 31.5-10.6 37.3-25.5L592 420l0 28c0 4.4 3.6 8 8 8s8-3.6 8-8l0-304 16 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-16 0 0-32zM512 336l80 0 0 66.7L512 436l0-100zM320 232c13.3 0 24 10.7 24 24l0 48c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-48c0-13.3 10.7-24 24-24zm-40 24l0 48c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-48c0-22.1-17.9-40-40-40s-40 17.9-40 40zM32 96l0 32-16 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l16 0 0 304c0 4.4 3.6 8 8 8s8-3.6 8-8l0-28 82.7 34.5C136.5 469.4 151 480 168 480l24 0 0 24c0 4.4 3.6 8 8 8s8-3.6 8-8l0-32c0-4.4-3.6-8-8-8l-32 0c-13.3 0-24-10.7-24-24l0-104 0-16 0-8c0-13.3 10.7-24 24-24l32 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-32 0c-22.1 0-40 17.9-40 40l0 8-80 0 0-176 16 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-16 0 0-32c0-4.4-3.6-8-8-8s-8 3.6-8 8zm96 240l0 100L48 402.7 48 336l80 0z" />
-    </Icon>
-);
+const Starfighter = createIcon("starfighter", false, "data:font/woff2;base64,d09GMgABAAAAAANMAAoAAAAAB1gAAAL/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiEbwsGAAE2AiQDCAQgBYMtBzIbcQbIjsJxb4iGhk95RFtmPM+/3v//XDs5Z+Qmz9jPH3JHqJPduSnu+C1LEP557t19f4xROrFA002/ACPueNpJCyzgSMO46+81TqkewC8eD8qbTW+VM8GMB7BRudbADuisNGE8s2x7EcXON0F7m54HaPO3U4woDxsfuLN5p/lJ7xYomgZAZgDA7ocfvK+vJjWZ/PD/+8gPNghkD1AFDRosEbCTRrBEq6LVCpP5///kf2AlQMY6enFdi57MRtZC/DQUXdsuG+03MX3OcWIYTW0PG0b96YccfsgNyA31/WGYW9sHpdyoIY/Mej3XrRuC4f760Nwg8tCk1wuj6Ead8mB74gPz7qukz33V/fUg6ZPc2DwQJNHne4GAEwoRoIgCz4vjw3OGa1B46oGmVw4Z+kEOSQ5DTt5X9XqgiR6dbyceniYc5pprdR+DuIG0cKoOjQMvAD54SlVC54VA4zwiT1AlLxA6VBymOLHymb3yXfHDaT+onpv81d8g5UnyT14zDzDz1ffMJzHiFzri7nnuPv/VdLf5aqPVf4onqQ88wIFz75CLrRt9tcH+4xNOGFdmmNFeMoO3OOqwiKsgrJZBjxnOgCBQVVwPLGCBp28HrWRJI98MddTjfzugK9jT/pVTvjwdUy3hYESo4vLNOmAABbDDMxp+f7J2PFC8GVPqEg5ayQMPfs5jcR4AdyF1IAAxp+MAbxETquH4307pXmv/yp4OAILw4fqAO46fvtOvGwr48ZPf/lpf3v3/VbmivAI6BYRmo/9Gjik34OkMS0QQLrnMSl+cs7UGneCtTvEAAtEjoBjrBTQWmyGg1dtQwMgyWwsY6x2skXZCzHFshRVTXIg1tnEt1prjXWxkJ1+HxubE/H5w3t2cv6cJ9zkn7L2prjbZrO5QtQ079y0P5eKO1Vm5uEwYWN8/6jTnO88lTnWKM11yxrjIvtFLnWsfE/Pef1ttbhObqXZQye1F4WFh6CIXO1PNp6+yo3p963ouM49f39cUHcstlBSFlOEDzP2BBAAAAA==");
 
 export default Starfighter;

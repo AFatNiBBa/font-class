@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tarp` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tarp?s=sharp-light tarp}
  * @preview ![tarp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tarp.svg)
  */
-const Tarp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 416L32 96l512 0 0 160-144 0-16 0 0 16 0 144L32 416zm386.7 0l-2.7 0 0-128 128 0 0 2.7L418.7 416zM576 304l0-208 0-32-32 0L32 64 0 64 0 96 0 416l0 32 32 0 400 0L576 304zM96 184a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Tarp = createIcon("tarp", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABWgAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBMQsGAAE2AiQDCAQgBYMtBysbrATIHgl27MhWxHD7Yzx8v9bnua97pnZ7luEtMypA/79apICNi4oD9kA2FRk9VfueIXfxf9z8886jAJ813MfCzgMZE2jO8wQ6z7t8E2RhFgWon/Wbt8zRHin7JhOdJP9kj18LlPFrjFUjPUk/oKXeNP7V2wOSsgAQnQCwaMeWdb76K/6K+KGJ+MEaBMRikAUKFOgnwFyFQD+ljFIp+CuazfQfmAkg6uwXJlCijrlYAihBUpZlx0bnto1a+3J7o1aNKVLRMURVCdGufdWoIhohtu4IEVF1EClEo/2Ow5/0fTr8fa8nwwZ/3unz//xw/AfNhQsX8lprp05aHbxfFMUddxRu3Hh+4ZdffslyzhbKcmtLy59t6t59E/BAfPJ82+5HBzrO/b9NI4F/vjxOpoXpc7SRQFCMbY61Ny0EUAPQUlw3mDwokExVsqu281CAUCFAUlcJUOirkwClyhgBagaYJkBdZYtClG2FbvZ1SNq5BIXpbkKpmy+gZq6v1bpuUQQQ+/zs/y1puUeWDeVJ4yfm2XnqaVxM0Lk7Jy/LI69rZpTMOu6C86465qhTrjrssnXGNecsZ+gyL8omGW+ibLa8HT5Ob3fMZVeccsH50meOfF4Z6TovHyVjJMDkq6fVHam8eujyRQA=");
 
 export default Tarp;

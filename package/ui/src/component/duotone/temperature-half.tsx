@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-half` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-half?s=duotone temperature-half}
  * @preview ![temperature-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/temperature-half.svg)
  */
-const TemperatureHalf: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M16 368c0 79.5 64.5 144 144 144s144-64.5 144-144c0-33.2-11.2-63.8-30.1-88.1c-.9-1.2-1.5-2.2-1.7-2.8c-.1-.3-.2-.5-.2-.6L272 112C272 50.2 221.9 0 160 0S48 50.2 48 112l0 164.4c0 .1-.1 .3-.2 .6c-.2 .6-.8 1.6-1.7 2.8C27.2 304.2 16 334.8 16 368zm64 0c0-18.5 6.2-35.4 16.7-48.9c8.2-10.6 15.3-25.2 15.3-42.5L112 112c0-26.5 21.5-48 48-48s48 21.5 48 48l0 164.5c0 17.3 7.1 31.9 15.3 42.5C233.8 332.6 240 349.5 240 368c0 44.2-35.8 80-80 80s-80-35.8-80-80z" />
-        <path d="M176 208c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 114.7c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48s48-21.5 48-48c0-20.9-13.4-38.7-32-45.3L176 208z" />
-    </Icon>
-);
+const TemperatureHalf = createIcon("temperature-half", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABhgAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyBeQsIAAE2AiQDCgQgBYMtB1wbJwXIFkrLw/d14Z/7umcCdeBJqgNzJekTS5JLcOpvhW3m72+e//NPH/CByG/t80AW+JznCYQTJA88oIQyDYQTlUDcxl+FdzGoHj2G5BeadeickMey7DIV0i3pc1xl/wGMX3V1GUmzDEAUAJi1evlCb9ejnuLzxvPE5xYgIGaDUiBDhpoAU2UCNbkSuVxQT40G9Wg0SgKIKvsuGaiigi3YBchBElKedxjQo0WlVb6qRaX56hs7Xd9B3F+7peMN/R7qfFP3O/vH6numRbwx76MZb/W5d/iNnS6OiyPizsGPjn9+4MM1cbGL4/oOj5ctLh5yU/eI2zrfNOCBjjd0Fbd0fMTtAx8e++LgR3v2frR49Pden+/63FN/tq7XWx/3fZF98cPIkT98kRXfH9dmce0srnznnSvPqqX3AzygzZk///rrzzNt7icQ76eZtfyrrg84u/oBXb/Ka7FqZ1HsXBVAINj09R31zW2m/t+0RQK/vPrnv/oiFY23Y3R6FE0lEGRDG0NtiFMKRYwWAIAUp/SOmY4oBDJzJXrXlm4UIDRHgKSquQCZ7goBcs0NEaCip3ECVDW3XCbyZkIHGxskLR2FzHjnQ66D56Biqo+cqg6RUcYywn7ykuaP5k2Vo4aPLCeXy0DlwKFlOKXctgaeUhgkh3Y57JATdtphrxORYxb6Jx0038PzPKg0ynAjlSYrw/G9tCrnmOP2zoX4mCnK+/ZAp/z6QbJPAox+n9mMSJF1IVAelsTaMGSruw2FBAUA");
 
 export default TemperatureHalf;

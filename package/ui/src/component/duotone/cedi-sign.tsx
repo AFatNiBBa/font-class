@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cedi-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cedi-sign?s=duotone cedi-sign}
  * @preview ![cedi-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cedi-sign.svg)
  */
-const CediSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M192 32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 34.7c-5.2-.9-10.5-1.5-15.8-2c-2.7-.2-5.4-.4-8-.5c-1.3-.1-2.7-.1-4.1-.1s-2.7 0-4.1 0c-10.9 0-21.6 .9-32 2.7L192 32zm0 100c5.1-1.3 10.3-2.3 15.7-3c2.7-.3 5.4-.6 8.1-.8c1.4-.1 2.7-.2 4.1-.2s2.7-.1 4.1-.1c11.1 0 21.8 1.4 32 4L256 380c-5.1 1.3-10.3 2.3-15.7 3c-2.7 .3-5.4 .6-8.1 .8c-1.4 .1-2.7 .2-4.1 .2s-2.7 .1-4.1 .1c-11 0-21.8-1.4-32-4L192 132zm0 313.3c5.2 .9 10.5 1.5 15.8 2c2.7 .2 5.4 .4 8.1 .5c1.3 .1 2.7 .1 4.1 .1s2.7 0 4.1 0c10.9 0 21.6-.9 32-2.7l0 34.7c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-34.7z" />
-        <path d="M224 128c-70.7 0-128 57.3-128 128s57.3 128 128 128c28.9 0 55.4-9.5 76.8-25.6c14.1-10.6 34.2-7.8 44.8 6.4s7.8 34.2-6.4 44.8C307.1 433.7 267.2 448 224 448C118 448 32 362 32 256S118 64 224 64c43.2 0 83.1 14.3 115.2 38.4c14.1 10.6 17 30.7 6.4 44.8s-30.7 17-44.8 6.4C279.4 137.5 252.9 128 224 128z" />
-    </Icon>
-);
+const CediSign = createIcon("cedi-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABlQAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCQgsIAAE2AiQDCgQgBYMtB04bYgXIhocnu74/t6pnnrRCL8wI1IcjyJEUCQoZytnM/+X8ztYC/EaHsqeeX2OBzfk8CijARUXTy9MCyzLF1E1V1EfQeskYIWxFyo6vHufuUMTZ+WIV0h3pQ1zX/wcwftLbxSQNGUC0A2DR5vUrvfpdfJfiw9qTxIdWICAWg1IgI6OfAHNlgX4KJQqF4LtUq/Fd1GolAURVRzKvmt7kAlwDKEASclGM6VX2aKq0FJuaKo3b35wb8WJ597yXlj0z57but3S/pdvN3T7c8PW6zzd9s/6LzV+tpK0393h++vYLekbc1nRVzolbGyd05aFu4baeV/W8IK5qCvXdxc3druyG7pVa3iPSLU0Juqqhpzi/2838zFsjBj/S/sgvgz489KFvF6xZwtRKZeqSNY/WP/DqY1cea+77ULHI2ti4MQa1duPGMxcpHurbfOzKx159oP5Rr9zZejmXtxaxNg5xav3EIsnu9j+HHDj1lGIiKUVY1/Hj/3B41p7FqJkfBoHg04WHeuxum/tPfVMCPzz/21/rdWXt1dibHkG9BII8tjbWjjhfaWDsFQCAFGcZrHzVqwLZKpl8arNbBQiNCJBUNQqQ9dUuQKHRGAEqBpgmQFWj9bIoGoRudt4gaXYqyKY7BxS6eQJUzPVOsapbZFdUHUn9EcxajvCyTeWk8RPL2eVr06V5l9yW55Tb0cizaGhUPOqQk53kDAcdcNQZwJ9mZeVMJ1qukcv8UGmS8SYqzVaaO7O1CYqnOd3RZ8O+yhzl99lIZ+mTR8U0EcHJTmWZSJE79h88cHScG3vjzvRQFxmnFwAA");
 
 export default CediSign;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `leafy-green` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leafy-green?s=sharp-thin leafy-green}
  * @preview ![leafy-green](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/leafy-green.svg)
  */
-const LeafyGreen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M529.6 183.1l7.3 10.1c9.5 13.1 15.1 29.3 15.1 46.8c0 41.8-32.1 76.2-73 79.7l-5.8 .5-4.1 4.1L409.4 384 320 384l-6.6 0-4.7 4.7L265.4 432l-110.3 0L269.7 317.7s0 0 0 0L331.3 256 440 256l8 0 0-16-8 0-92.7 0 98.3-98.3 5.7-5.7L440 124.7l-5.7 5.7-112 112L272 292.7l0-92.7 0-8-16 0 0 8 0 108.7L144 420.5l0-109.9 43.3-43.3 4.7-4.7 0-6.6 0-89.4L251.7 107l4.1-4.1 .5-5.8c3.5-40.9 37.9-73 79.7-73c17.5 0 33.6 5.6 46.8 15.1l10.1 7.3 9.5-8C419.1 24.4 440.5 16 464 16c53 0 96 43 96 96c0 23.5-8.4 44.9-22.4 61.6l-8 9.5zM139.1 448l4.9 0 128 0 48-48 96 0 64.4-64.4c49.1-4.2 87.6-45.4 87.6-95.6c0-21-6.7-40.3-18.1-56.1C566.2 164.4 576 139.4 576 112C576 50.1 525.9 0 464 0c-27.4 0-52.4 9.8-71.9 26.1C376.3 14.7 357 8 336 8c-50.2 0-91.4 38.5-95.6 87.6L176 160l0 96-48 48 0 128 0 4.5L69.5 494.8l-5.7 5.7 11.3 11.3 5.7-5.7L139.1 448zM226.4 37.9c-2.9-4.1-6.2-8-9.9-11.7C181.6-8.7 125-8.7 90.1 26.2c-15.4 15.4-24 35.1-25.8 55.3C49 83.9 34.2 91.1 22.4 102.9c-27.8 27.8-29.8 71.6-5.9 101.7c.5 .6 .9 1.1 1.4 1.7l0 90 0 6.6 4.7 4.7L72.1 357l0 43 0 13.4 14.6-14.6c.5-.5 1-1 1.4-1.5l0-40.3 0-6.6-4.7-4.7L33.9 296.3l0-90 0-5.8L30.2 196c-20-23.8-18.8-59.4 3.6-81.8c9.4-9.4 21-15 33.1-17l12.3-2 1.1-12.4c1.5-16.6 8.5-32.7 21.2-45.4c28.6-28.6 75.1-28.6 103.7 0c5.2 5.2 9.4 10.9 12.7 17.1c2.4-5.8 5.3-11.3 8.5-16.7z" />
-    </Icon>
-);
+const LeafyGreen = createIcon("leafy-green", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABtwAAALtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDfQsGAAE2AiQDCAQgBYMtBzIb/wURlZqByT4W45gSr1AhrgQF6Gqzscsn75yAB1O9w0Urz1eodHhvVpq0pEDfJy6nP85faNrbCzzaHrp4F/bUXAKdJ762eNpFWaKYbTnU4YckDhqeJx4x+aSGzYapK7D0mgnYYBw1ngG79036Qgk2gIFpAkBRPhwB7Qene/Pggz5IT6OroDfTExCA2gMQIMAUrfRUgVaYiLbdIgAsLAQfFEXyHxiAAEAOuM0AwAJs4CPwBSwfvappWWPrd/XtHGuQb3vzE8nEUY5UO1/JU1z95HlxtZKnwVqrtUrL9yXPG6yUkooro36SJE8IZSS1VUqSlO71x2sWVT1TOcHHFzW9Wv1CmRPV4hN8z28rX2ldr1lU7liNg3KqRtjkSrXQI58v3U+olY2GG9etOD38UNIHtjnFT0vjkeprdVAI0vp3OyXjbheCpAZw9Vip4zUPV00p9fpR/vbqBxOHUxXC/PBb+WeTnlHgTsXbfy6V17jzZ4eG3GZorBG3mMW8uQA8Z6abjzty3Fg6E5Jh9mwKGYlLPi4zmT2bWRTRkRhDuU1DHNpk0j+1PsRmDtRbE4au2X3JJte2N0aMISK9bamTF9uZlff/zz0v5gZjDp9v7H7oGmyOMpCQgRwddLRx55uVKt6cXHdc+cal/BTAMGJ0AmqSwzeEVI0YHRHDcGjIJ9vR2woX8aleMVOmbGZxt6ZNAUCAoMWoIXNG57X65/oGAJ9u/SJPRVH0wGhnhICLAYDArBXVYoTGUQRKQwCQGlpEheCLBBi8xARBNoeyufDgRA0cPNSkFPmohUdN1KYsjdnF+jQmsrJMEGckowbZzEVNmrAStYhzGbVpBX+YOMRlljlfpPxfZkoXhTuvC+rXqRe0CC6bhlC57LbcMlh2qi1qQ9XpRiYxm1ksYCITmMoCZjOP3lO+kJl0iZDO/JCA+tShHgEtCNKdrTJI0nnMZ6ov5FehJcHzQTUWxZOrk28AxgZsMDBAhj9j4thJS2t/GwA=");
 
 export default LeafyGreen;

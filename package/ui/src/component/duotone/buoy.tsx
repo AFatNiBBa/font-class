@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `buoy` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/buoy?s=duotone buoy}
  * @preview ![buoy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/buoy.svg)
  */
-const Buoy: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 480c0 2.4 .3 4.8 .8 7.3C4.3 502 17.4 512 32 512c2.4 0 4.8-.3 7.3-.8c24.5-5.7 44.9-16.5 58.2-25C126.5 501.7 159 512 192 512c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9c33 0 65.5-10.3 94.5-25.8c13.4 8.4 33.7 19.3 58.2 25c17.2 4 34.4-6.7 38.4-23.9c.6-2.4 .8-4.9 .8-7.3c0-14.5-10-27.7-24.7-31.1c-18.1-4.2-36.2-13.3-50.6-25.2c-11.1-9.4-27.3-10.1-39.2-1.7C439.4 437.2 410.9 448 384 448c-27.5 0-55-10.6-77.5-26.1c-11.1-7.9-25.9-7.9-37 0C247 437.4 219.5 448 192 448c-26.9 0-55.3-10.8-77.4-26.1c-12-8.5-28.1-7.8-39.2 1.7c-14.4 11.9-32.5 21-50.6 25.2C10 452.3 0 465.4 0 480zM160 32c0 17.7 14.3 32 32 32l58.2 0 75.5 0L384 64c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M391 64l-65.3 0 9.8 49L288 168.5 240.4 113l9.8-49L185 64 133.8 320 96 320c-17.7 0-32 14.3-32 32l0 16c0 8.2 .7 16.1 2 23.9c21-11.1 46.9-9.9 66.9 4.2c18 12.4 40.1 20.3 59.2 20.3c21.1 0 42-8.5 59.2-20.3c22.1-15.5 51.6-15.5 73.7 0c18.4 12.7 39.6 20.3 59.2 20.3c19 0 41.2-7.9 59.2-20.3c20-14.1 45.9-15.3 66.9-4.2c1.3-7.8 2-15.8 2-23.9l0-16c0-17.7-14.3-32-32-32l-37.8 0L391 64zM347.5 172.8l17 84.9-44.9-52.4 27.9-32.6zm-91.1 32.6l-44.9 52.4 17-84.9 27.9 32.6zM221.3 320L288 242.2 354.7 320l-133.4 0z" />
-    </Icon>
-);
+const Buoy = createIcon("buoy", true, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABqAAAAKzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDAQsIAAE2AiQDCgQgBYMtB0QblwXIngU5Gb4qMQhDGWLxjO9Ii3h42h/0587MUox03Co0qe0mOAkNQKiuwv/xHdnlzN2+EHkDgpXQAq7aFF3a4QSFRfuY0fryeS73/J4fHeDnIziUPfUqXJOiOZ8nEGA0lm3qONIitBa3XTUdl1BYaFyhxH/erQbpaPrFgbA9vmhjiKROhoBoDPwN0JTFidHw+DE+pvitIt6aAQTEVIDOEBkZ7SEYjxVoj+gMFEXwMVUVH6OqOoMAoiak+DKoido4gWuAApIiFeJcK8Xs2EpUQ0JS6tUQltatJ9SPyTE1ukVdTIq6ONF8CcT2FjfuR6KLfgeiyR7UnezXe2YVEftbrgiFmLIgOSU5APst8Av0S8UBC1JzKhnrwvZ968aTahemV8Eveh1WW1bZo2Xjzjgvq62SbbjRc99i3+jS6dzDpQ+NdtUzaQpjuV7SJpf5e8WXN3e9KD/+6/LWt/Zum0JTc/6XnzloCodKT9L9+5ETt2tMnnS0UE+5uajUdjoh8nbixvMNxhyrvivlSaTs1YPlnU4TW9fBZtf6gGjycRjRuaTStaTz0pjLxsyPXStWDP5IjV+y9Pns2ZnCa7k+d0Ck6fxcllpmm/NG2cSfb651+gFj7G/osfcF3vuP6PsAAsG7VVvKcmXj/9WuxwB8vv3jj3hddfJLF1FbAkHuX/WXlSYDBB2BTIoWBnM/5AcEsmmIdKm+QwKEurRIaqqLrB05irr6oYaOnC/XVNd8rCgCCM1lIyT1rUM2UjeK5k5Qw3gf2ZqaR4ZUEc7EH8W0kD4RvI7a29hRD7rYVEvAx9tlT7rbM2uRQ+b4IJSoVaNJsSLlmnpUg+hCs2oha2SwL6Ls2bBDeaCnO4+1FJpt0Kh8Xjm/iid6f2SmZX2yOQ4ZiXGoS1kmErLigk217dYAb0g7yocNAAAA");
 
 export default Buoy;

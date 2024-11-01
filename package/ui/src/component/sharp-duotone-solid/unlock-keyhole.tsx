@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `unlock-keyhole` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/unlock-keyhole?s=sharp-duotone-solid unlock-keyhole}
  * @preview ![unlock-keyhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/unlock-keyhole.svg)
  */
-const UnlockKeyhole: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M80 144l0 48 64 0 0-48c0-44.2 35.8-80 80-80c31.9 0 59.4 18.6 72.3 45.7l57.8-27.5C331 33.7 281.5 0 224 0C144.5 0 80 64.5 80 144z" />
-        <path d="M448 192L0 192 0 512l448 0 0-320zM256 384l-64 0-32 0 0-64 32 0 64 0 32 0 0 64-32 0z" />
-    </Icon>
-);
+const UnlockKeyhole = createIcon("unlock-keyhole", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABaQAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBJgsIAAE2AiQDCgQgBYMtB1gb0AQR1ZodyH4mxGNcjcyYMc1uuIRXJyq/xMP/6yzv+5J9duxZZC0AUbcdYAgqpIoVgqaYkxartHEAZMihev6fI0ydep7zUACf4z7X+cYFPud5BHIeardvodIGrdbQujvbVhyyX1pkSX5py3E5QB5vZLdVSM+n3/GA/wcw/tTdbZKmDEC0A8C8LRtWKVuiJcXvjU/F71YiIOaDQiBDhl4CzJQJ9JIrkMsFLalBSzQUAogq/ugMVFHBZMwC5CBJIs+b6j3qldb55nqldqC5dXOK1pFtrNVrEfW6qO0Q6hHx6oh3ptwZ9Fr3FfH+9M8mfz/zi6L/2+3e/tvvh3//ulGW5VyluV9/PXfu3rkKNK0ZMxZuNtdYsflQu24jRzz1ok6dO3/4TVd7AYFg5P8P39N25n/VE/jjs39HVzfKKNPbaCWBIBvZGLkzSgjoAH5Uisv6R4m1ApkeErzXZs8IEGoIkFTVBMj01E6AXM0IASr6mCRAVc0GmcibhE52VZA0Owcyk90CuU4+ARUz/eRUdQqTGQ9x9cTXLXaxhBZNFeNGjy2mF8NAIe0BS8MZxbQ69HIsDIO9Dp85ffHQwWMXBXJ+lX/p1GINXvTFYtzoscX0Yjm+3b750PkLx86czmNmFPu1oZf1+mEwTwKMP/YFGZEi63LptFvbo04cuvaKxVGGWNWtRzsdAA==");
 
 export default UnlockKeyhole;

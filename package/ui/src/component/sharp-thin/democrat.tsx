@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `democrat` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/democrat?s=sharp-thin democrat}
  * @preview ![democrat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/democrat.svg)
  */
-const Democrat: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M208 11.2l6.9-4.1L210.5-.3l-7.1 5L144 46.2 84.6 4.6l-7.1-5L73.1 7.1 80 11.2 73.1 7.1s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 .1l-.1 .3-.5 .9c-.5 .8-1.1 2-1.9 3.4c-1.5 2.8-3.6 6.8-5.7 11.1c-2.1 4.3-4.2 9.2-5.8 14C57.4 41.5 56 46.6 56 51.2C56 68 65.1 80 74 89.2L4.9 179.1 .7 184.6l4.8 5 76.8 80 5.2 5.5 5.7-4.9 47.2-40.4L176 329.4 176 504l0 8 8 0 96 0 8 0 0-8 0-104 176 0 0 104 0 8 8 0 96 0 8 0 0-8 0-176 0-157.2 45.6 96.7 3.4 7.2 14.5-6.8-3.4-7.2-52.8-112-2.2-4.6-5.1 0-8 0-298.5 0c-6.5 0-12.7-2.6-17.2-7.2L210.1 93.5C220.4 83.9 232 70.2 232 51.2c0-4.6-1.4-9.7-2.9-14.3c-1.6-4.7-3.8-9.6-5.8-14c-2.1-4.4-4.2-8.3-5.7-11.1c-.8-1.4-1.4-2.6-1.9-3.4l-.5-.9-.1-.3c0 0 0 0 0-.1c0 0 0 0 0 0s0 0 0 0s0 0 0 0L208 11.2zM456 160s0 0 0 0l104 0 0 160-370.4 0L151.5 213.3l-3.9-11-8.8 7.6L88.5 253 21.7 183.4l69.2-90 4.3-5.6-5-5C79.8 72.7 72 63.8 72 51.2c0-1.9 .6-4.9 2.1-9.1c1.4-4 3.2-8.3 5.2-12.3c1.2-2.5 2.4-4.9 3.5-7l56.7 39.7 4.6 3.2 4.6-3.2 56.7-39.7c1.1 2.1 2.3 4.4 3.5 7c1.9 4 3.8 8.3 5.2 12.3c1.4 4.1 2.1 7.2 2.1 9.1c0 14.8-10.9 25.5-22.7 35.9l-6.4 5.6 5.9 6 48.1 49.2c7.5 7.7 17.8 12.1 28.6 12.1L456 160zM560 336l0 160-80 0 0-104 0-8-8 0-192 0-8 0 0 8 0 104-80 0 0-160 368 0zM264 208l0-8-16 0 0 8 0 24-24 0-8 0 0 16 8 0 24 0 0 24 0 8 16 0 0-8 0-24 24 0 8 0 0-16-8 0-24 0 0-24zm112-8l-16 0 0 8 0 24-24 0-8 0 0 16 8 0 24 0 0 24 0 8 16 0 0-8 0-24 24 0 8 0 0-16-8 0-24 0 0-24 0-8zm112 8l0-8-16 0 0 8 0 24-24 0-8 0 0 16 8 0 24 0 0 24 0 8 16 0 0-8 0-24 24 0 8 0 0-16-8 0-24 0 0-24z" />
-    </Icon>
-);
+const Democrat = createIcon("democrat", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAAB1QAAALhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiFUwsGAAE2AiQDCAQgBYMtBy8b0gbIjtEnY4TLE0wcgxl8kXie/zXafX9mxR3xZJZMk1sqNLHQKdFK4VC3oXF9+P3VnzPQXei9WUBucladtOCnGhjqpv8TmDhxzHSdXEE8sQlWFcgo+3xgicOwKtz/0wNGgb0o/uC8CQcZ0kI57lDnt25qyjvFG/Aq/aVZ52CVoqoAkG4AwKHL5096dsWr8PXGbfJdEQjkEGAaUaHCOIK9lIJxKtOgVgs/+P8/+x/oDgHSCA9VnKrRTE5ArkB7GUVjrdpKlTxgUqjNVbXRekPTkJ1Rph2LU5pUJTHdki+AhDsA9kfwbqB6TFVju4xMS1XArjZBr1GUOo66ZNaGqwxm23IqD52W5D1GXOKeKAPJJY9dzVJPShBpXyW9j6c2dbukDhyXjPu+pmTXUFl2JbgVb+ftKDEju0LUICePNBgQKS3mncKD6HC1CSBGG0mqqMZlXaswDI1E1qxe7nlidfJp5k3vG+9vdXmpPZh2RBm35eqCgi8Q05wvfA2t/Z/sq2JkKzqtWraP8LqJS82a7zfjvmvul5/+s082X4evD4gV/Qx21DtE73tsWdP6yrG+toBIEAAAt/7vAPeZvOTzEIk2jMo8JvuqaNnMo5QkH1ubDeyQZZZNn48kKe1Se1DjKx72POi7NEFt+T0AX4z3ldtMni8t6HQ6K+gMs08Bw8M6deeY1sqrdMwIHa9q/csBCMKv59kl17qSf+mEAvDzwZf19HFuPCuLihPQrIBQbfq/SXNZRGA0yJTM8uzTpDZOGjR4b7XdawHRioCiUauAyhgrBLVWawgaTIpB0KjVeUqp9Yh+LSWnaPeCU9ljjlPrd5PTYK/n6Ub9UZooqXmQPtCmOl4HH5s3HREa7p7oPliQywyJeHQwyX22yX+WNwTAjXqNGTWtR7cB0zXqpJLcjBG5Y/gcf8hdhFDh3CVyX12+rarFmUlTBvpl68eQxN3+Pn+z4+0DoEeBJ3SHBUUhRfdHJgA=");
 
 export default Democrat;

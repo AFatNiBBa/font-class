@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `solar-panel` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/solar-panel?s=sharp-regular solar-panel}
  * @preview ![solar-panel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/solar-panel.svg)
  */
-const SolarPanel: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M68.5 0L88 0 552 0l19.5 0 4 19.1 64 304 .5 2.4 0 2.5 0 32 0 24-24 0-272 0 0 80 80 0 24 0 0 48-24 0-208 0-24 0 0-48 24 0 80 0 0-80L24 384 0 384l0-24 0-32 0-2.5 .5-2.4 64-304L68.5 0zm5.3 208L48 330.5l0 5.5 137.5 0 12.8-128L73.8 208zm10.1-48l119.2 0L214.3 48 107.5 48 83.9 160zm162.6 48L233.7 336l172.6 0L393.5 208l-147 0zm142.2-48L377.5 48l-115 0L251.3 160l137.4 0zm53 48l12.8 128L592 336l0-5.5L566.2 208l-124.5 0zm114.4-48L532.5 48 425.7 48l11.2 112 119.2 0z" />
-    </Icon>
-);
+const SolarPanel = createIcon("solar-panel", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdwAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCMwsGAAE2AiQDCAQgBYMtBzIbNQXIHoWNYznSpCV+BG3pCCpdVVZLsyAdg+IsBtARPBBaZF68B4SGu/EWmwTJrKpXIe/zf029SLpbAX4ewVAqLFOzLPN5Ag6wShtHo+FsOJsoTt2UKNZDhYJgERGH3ZAdZ3dcO0Eef8dDGqSnEzwoHxo/6e02kkYGIDoBYM6mdSu81xZtEV/+/zLxpWUIiDmgEsiQoZ8A02UC/eQq5HJBW/z/P/0HVgQQTfi1CeRoRY0HATlImvN8RNna2lq2lo32+cayUWwri/a9Y0sIMUU7UZaeLoIT0U6K3J6xLfpuWL9p/Y6KTb6BZVE2faxfxQRt9G3auGEjWaNcIRMbyggPbXjQoGudrv3CQea/27Xr72PNGiWTVHrp1Wm11b1G6/V9Xbh6tU69eqkk6YZ/bP5t7/KMhnuUN7rumYu8qKgd1bN+flS7G6F94dL/6P2jihrJZ5W1e1YV790azuJcd3pUj9rpjsETLgKB4MN/vbKr4/RfW8oEvntjud//76Wb0miRQJAN/3+47ekmIOEA/CkuGKR8k0BySDN+13aeECAUCJA0KQTI9NVJgFxhmAANA0wQoElhnUzkrUI3OwZI2jkNMhNdD3LdvAgapvvU36RbZBYotx/5D2CahTO6YFo1ZuToamq1zesKo5Km/mnVY93gC7FuCPY6qHbSOQfsd8S5SXDGitB5JyzUmAV+qDLGSKNVpqqOS6/bNzrgjLOOqJ0sg0xTve8a7ILeegiMCYsc60iSiFSerY/vOTPiUwEA");
 
 export default SolarPanel;

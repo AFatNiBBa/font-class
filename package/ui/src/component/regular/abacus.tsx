@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `abacus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/abacus?s=regular abacus}
  * @preview ![abacus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/abacus.svg)
  */
-const Abacus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 80c8.8 0 16 7.2 16 16l0 112-80 0 0-32 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-48 64 0zm-96 48l-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 32-128 0 0-32 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-48 128 0 0 48zm-160 0l-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 32-96 0 0-32 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-48 96 0 0 48zm-128 0l-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 32-80 0L48 96c0-8.8 7.2-16 16-16l64 0 0 48zM48 416l0-176 80 0 0 24-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 24-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 48-64 0c-8.8 0-16-7.2-16-16zm112-32l8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-24 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-24 96 0 0 24-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 24-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 48-96 0 0-48zm128-72l8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-24 128 0 0 96-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 48-128 0 0-48 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-24zm160 72l8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-96 80 0 0 176c0 8.8-7.2 16-16 16l-64 0 0-48zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32z" />
-    </Icon>
-);
+const Abacus = createIcon("abacus", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABzgAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHyEZQsGAAE2AiQDCAQgBYMtBy0bYgbIjsQ4JvJIFy8iHr7X+Xnuk+zxl5ZBy4wdUKgCxi7VdsGiQ09arJLWyTxcO3WqZlg8gC+eqI5NOc/F5/naHUvXOs95F7a+qeet1kqtMPbaHDDT5qiE8rdQdoI8fo4n1EgvJnh8/dD4U2/3SWoZgOgEgEU7tqzzoBnNiB9bET9ag4BYBCqBDBn6CTBXJtBPrkIuFzSj1Wr/AysCiLodS56doyS6EP0AOUja8rxb//7dq0kjuvcpa+3z7WWtOPFsd1FERBnv931p+PXlrUVZvNPrxWFliCcWis77fM8y7AzBsCR+VTzXY0dZlP4szmpdH3VcEXdvtM1Eeabb9eLj74yM+KBXihdHfTisfbw/5uO+Wbw0+qPh7QZ/1Omjvwc5/pPWhWaHizaqNGzq3n1Tw0QLD0xoNBpUf+W2fPa2iW805IPQQeLtvRtd1KG50MQNA7/YtY16mdX1ymRrdrgwcIgb1B+k4jl6b62wHnDbwfIiHjWv25gHbfRFMQdvHXijM52LhYrOnd94gIq0j4NA8H72Ywc6zv2vUSbwxzf//u+4u9VMC9NHaEggyMa2xtqbFkLbH+xGiusGa+SgViq02d+1necECAUCJHWFAJm+OgmQK4wRoGaAaQLUFbbIRN4mdLNvBkk7l0Bmuhsg183XoGaub/W6bpF9GgxgM3+mictpdFlVNWn8xGp2pYxcLLRTU++cyloZeb2rGYWPOu6C86465qhTrlL4Zeusa85ZriMu+21lkvEmqsxWeafz4nbKuOyKU3LWfxVzVPHVka7rm4/C60mAyUAFJWek+qHDh45cuwIAAA==");
 
 export default Abacus;

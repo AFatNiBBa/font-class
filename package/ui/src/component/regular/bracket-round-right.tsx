@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bracket-round-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bracket-round-right?s=regular bracket-round-right}
  * @preview ![bracket-round-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bracket-round-right.svg)
  */
-const BracketRoundRight: typeof Icon = x => (
-    <Icon viewBox="0 0 192 512" {...x}>
-        <path d="M35.4 43.7c-6.8 11.4-3 26.1 8.3 32.9C76.7 96.3 144 160.7 144 256s-67.3 159.7-100.3 179.4c-11.4 6.8-15.1 21.5-8.3 32.9s21.5 15.1 32.9 8.3C110 451.8 192 374.1 192 256S110 60.2 68.3 35.4c-11.4-6.8-26.1-3-32.9 8.3z" />
-    </Icon>
-);
+const BracketRoundRight = createIcon("bracket-round-right", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABVgAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRB/CwYAATYCJAMIBCAFgy0HOhuJBMiuCmxwTU+IiFmLqKXZLcZi9PC8/DFePPz/2v/2uXPnm1ryZNDEk3Yv1SRECJFG/p/Q36KSyXP8fvPeh4RHsUPMIjSSJTFpJCiFqp5naWkprpm5eHFmLfV7huDYF4v2xc3zzqOAujcKbSxcGsgCn/M8gQk+tfO082ydJ4rtTTM2StmbTGqSjmul42mDHMPxTkn6nuBtvmj8M2hBUhYAogMAOLkTj8F3LWoRlxXi0jUgIE4AJhAUKDCCgH00gRF0E0CWBbWoKvoHIggg6sieCWQUmAWWAcggiZxHm8vWfDu8p+nBN/U2/JFs/6qNYKndG8/Wu3JluRlOmh1fceKd/nnG1Me5+FNipk7T6erop3j+U1d/rsdoenj97+rhfgOB4MeA0pFr3//fwEzg76/HY4TV2Eo/0SCBoFipSMcbQhBbCAAgdXGFb0MDJaMoeNYWXwQITQiQ1GkSoDCMh4CsyTICSmPcCKjT5AaayI1Cj0yFpMVzKOyZQdbjDaV9v1qdnijuCe1l+puWENVIpAk3LTYM4NBSGNeTsRrEaXFhyhE9zEJVT9dYRVnDWGFDMXOiI2qhER9CdhY2KACX3dvxlIqhkYaebqoThPtVnamdrgeFIoRbVpNEpO5HLwqlVmVsPtL0UwM=");
 
 export default BracketRoundRight;

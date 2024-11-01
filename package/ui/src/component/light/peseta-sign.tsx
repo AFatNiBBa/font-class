@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `peseta-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peseta-sign?s=light peseta-sign}
  * @preview ![peseta-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/peseta-sign.svg)
  */
-const PesetaSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M72.7 32C50.2 32 32 50.2 32 72.7L32 160l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 112 0 160c0 8.8 7.2 16 16 16s16-7.2 16-16l0-144 144 0c74.1 0 135.2-56 143.1-128l16.9 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16.9 0c-8-72-69-128-143.1-128L72.7 32zM318.9 160L64 160l0-87.3c0-4.8 3.9-8.7 8.7-8.7L208 64c56.4 0 103.1 41.7 110.9 96zM64 192l254.9 0c-7.8 54.3-54.4 96-110.9 96L64 288l0-96z" />
-    </Icon>
-);
+const PesetaSign = createIcon("peseta-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABaAAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBVQsGAAE2AiQDCAQgBYMtBzIb1wTIhod/5vq8L8mnZBmyAMgFYrUgS+hYmPKcSlbfdibOdb7z0QDLRjCUaCxNTK/4yvMXeLGySKDXtgebKP7ubFZzaOyT1ghJjnPH5whZXIrBakheTn7Ak/lH4y8d3UciSwFECwDMWLdqia8qUYn4ofo+8YNFCIiZoBRIkaKLAJOlAl1kSmQyQSWqVfoPLAkgasljJCBDDZZhDSADiTTLhjYripqm2dqiJt/0SJuI54g8nmvzfNsihAjWi+0jFPP1tC97FbHhhXZ5vDP1i7n5mrzIowsV8f6AO11XF2S/1v/2aL66590Wd//p8cPeH8x/s9U9Pmm1TguVZs0qLRz3lkpq8ilPub7r1N6Ws51b2ntq1/UHG69Vq9V16o4/6K0/fzzwf/dyvwM//vnWU7YDgWD4b39u3dZ8cmN9kYA/PvmvEd5crcT15C7qJSBIB1cH2xzXgfABOEmc1RObJpCYJwX51iZeECDkCJColQuQ6qyFAJncIAFqdDNGgFq5VVKRNQhtbFE40cQJODXWFTjTxrtwjcm+dmu1idSlWIdgf3RJcy0wZ1k5YujwcmK5LDXOS+g0P6k8lvufjX0DYKO9jjnqtD12O+C0gU5aEpxxxNwdOEeDSiMMNVxpovK69bh6rT1OOuWAY47yIpOU7/X+zu5HDwAtIYQjbUskRFIc33Nqz+kdQ9wRAAA=");
 
 export default PesetaSign;

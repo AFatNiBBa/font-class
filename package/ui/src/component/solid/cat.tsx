@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cat` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cat?s=solid cat}
  * @preview ![cat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cat.svg)
  */
-const Cat: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 192l17.1 0c22.1 38.3 63.5 64 110.9 64c11 0 21.8-1.4 32-4l0 4 0 32 0 192c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-140.8L280 448l56 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-144 0c-53 0-96-43-96-96l0-223.5c0-16.1-12-29.8-28-31.8l-7.9-1c-17.5-2.2-30-18.2-27.8-35.7s18.2-30 35.7-27.8l7.9 1c48 6 84.1 46.8 84.1 95.3l0 85.3c34.4-51.7 93.2-85.8 160-85.8zm160 26.5s0 0 0 0c-10 3.5-20.8 5.5-32 5.5c-28.4 0-54-12.4-71.6-32c0 0 0 0 0 0c-3.7-4.1-7-8.5-9.9-13.2C357.3 164 352 146.6 352 128c0 0 0 0 0 0l0-96 0-20 0-1.3C352 4.8 356.7 .1 362.6 0l.2 0c3.3 0 6.4 1.6 8.4 4.2c0 0 0 0 0 .1L384 21.3l27.2 36.3L416 64l64 0 4.8-6.4L512 21.3 524.8 4.3c0 0 0 0 0-.1c2-2.6 5.1-4.2 8.4-4.2l.2 0C539.3 .1 544 4.8 544 10.7l0 1.3 0 20 0 96c0 17.3-4.6 33.6-12.6 47.6c-11.3 19.8-29.6 35.2-51.4 42.9zM432 128a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Cat = createIcon("cat", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABlQAAAKnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDBwsGAAE2AiQDCAQgBYMtByobgQXIngU5GTV/iiKiRmZjNTa1yPm8UvHwj87X+yTZASAFGPzDEyIU7BLTsAFvPR0723J332qrfn0gvxW8YJBIoAFY5oEFGDw8l/t3NCce7VUEAQcYSC/iKMCeT6EyBA5//q/5/J4ftX87skOpWGRjYebzCQxweBuXwKwCZxPFHc17eCBCu9DGLWTxc3qeAsn94k+45X5o/KuN8yTqpACiMQAmn+bN9dkf9EfEj9UD8aPZEBCTQS6QIkV7AcZJBdrL5Mhkgj+i+sV/YIcAosg/xQRkKOJZvALIQCLLsprpdVK9QoNsYb1Qd129XO/5/Pl610IhxGnvnrpXg3JEzA+Oa/69Ovp1453ihY4RDyQtoxyUW1WsaIsW8fYWnQ7i1eOH09cZijgjaGaOeiYjy8EDIfjMzHjENb9Z0yb6R4uoF9w3MNrhsooaca9/ajR6btjCVdZ7mlNvpdXwUChXd3mh8Qv/ee0XJlZtf2P9zz43+28v95mGl2+GrrrBpe0YVX+x25x+4S79ru09u/H5kUsDrVR+UTpvKSzl8jV+tC3wT5PHJ6C0/BWsprlQ5zYKXeEzTykxiRJP+QxdC9yuE5pbTduvS/uBS+X+IdhY1QymAnHQPzet8ao6/o+cgL8+eFvHa9Wny5MXoLYEBGm/aoXl4tRJnuQCAJDEQV0mviiQeFTGv9b6ygKEugiQKKorQKqdxgJk6uorQEFHwwUoqmseqcjqCM2tqECivj0gNcIJkGnuTVAwzrf5ouaRwqoAacKlYmpNEyoty/sBg/Ix+WhdIYIfZ82PzRfbsoOyrzdeayO72Ml+NrCeLexvIHuZWzrADmqm4BI/JDfYAIPkxsg3t+6qCxv5vexjy7C8fZGx8uNDvRycHt0bOxM+7RDpROKXxf51a/YDAAAA");
 
 export default Cat;

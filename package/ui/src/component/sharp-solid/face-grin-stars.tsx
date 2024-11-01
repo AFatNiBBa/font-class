@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-stars` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-stars?s=sharp-solid face-grin-stars}
  * @preview ![face-grin-stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-grin-stars.svg)
  */
-const FaceGrinStars: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm416.5 46.8c-46.2 18.3-101.2 29-160.2 29s-114.1-10.6-160.2-29C112.3 376.7 177.9 432 256.3 432s144-55.3 160.2-129.2zM160 109.4l-7.2 15.1-16.6 34.7-38.1 5-16.6 2.2L93.6 178l27.9 26.5-7 37.8-3.1 16.5 14.7-8L160 232.5l33.8 18.3 14.7 8-3.1-16.5-7-37.8L226.4 178l12.2-11.5-16.6-2.2-38.1-5-16.6-34.7L160 109.4zm192 0l-7.2 15.1-16.6 34.7-38.1 5-16.6 2.2L285.6 178l27.9 26.5-7 37.8-3.1 16.5 14.7-8L352 232.5l33.8 18.3 14.7 8-3.1-16.5-7-37.8L418.4 178l12.2-11.5-16.6-2.2-38.1-5-16.6-34.7L352 109.4z" />
-    </Icon>
-);
+const FaceGrinStars = createIcon("face-grin-stars", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABiAAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCQwsGAAE2AiQDCAQgBYMtBzYbSQXILg54E+tkiATFN2siINir6cVBPPz/fv32Oe9+McvfsSSeTKNYNYtEb9bIVNXG0KmzqCxCnqMxdz8VjZqWRAyTRiMV6iIkMQ91CWtCWOZrRJP745ZIFgHEZcbo+8Wp5zkPBfAJQ+GYjIVL45vGojna8wpUrFff1A1YK1hNK2Ddne2ZItojaS1lkxyfOS47KPGxQhP5LMOj8qHxz5hNUlsFIHoDALYdz6ThpK4eUWu8Jmp2AwGxDWAWQoUKkxDYCCswCWcWKIqgHo0G/gfOggCiGV05QUEz7uARoIBUSplo81LxXeVYfMf2+LMDxc/9zx339j5uOz36sfVkz0P73X1P28+OtT6OfB3b2nSYuN7yVdseFPJsyIeHz0xGRCgqjE9CwUrIIMBBUCZcunNmwpp8z/0+/+CbXW2MvTzdETt9iQy7ZBojz5eSEyVFVb9+meJL9/3CwgJyxL+PPjjLZaoP29SKnl2/pCOQC99MJJDa5QACwcLr1PYJ5sZr7Ujw98P/289I41vKF2iVIKgWfkE1QRIAgIzrNAkIpNtw6FWdHgsQ2hEgNWsXoDKBxVC0m4cm0/w7NGt3GFaUNmFQDUPqdAkqG2xAMWgHmmx0bTYbDKwnMn7EfAQTkxJJrFO5HS5VRDVNdda5qLQcVS1LpvXQMsNW6Fswb1VP18iqwJalnTVzkhqa8EUqbg4uKhGq7eJxc17PshUjC+bzKlGq85rJuj5sBhWDCNdIpCSy55677IPLo3n7+wE=");
 
 export default FaceGrinStars;

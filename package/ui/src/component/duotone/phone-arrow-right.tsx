@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-arrow-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-arrow-right?s=duotone phone-arrow-right}
  * @preview ![phone-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/phone-arrow-right.svg)
  */
-const PhoneArrowRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c1-3.5 1.4-7 1.4-10.5c0-15.8-9.4-30.6-24.6-36.9l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96C158.6 9.4 143.8 0 128 0c-3.5 0-7 .5-10.5 1.4l-88 24C12.1 30.2 0 46 0 64z" />
-        <path d="M391 7c9.4-9.4 24.6-9.4 33.9 0l80 80c9.4 9.4 9.4 24.6 0 33.9l-80 80c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l39-39L312 128c-13.3 0-24-10.7-24-24s10.7-24 24-24l118.1 0L391 41c-9.4-9.4-9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const PhoneArrowRight = createIcon("phone-arrow-right", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABfAAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBZwsIAAE2AiQDCgQgBYMtB14bFwXIjtRQLTxbPPxn1//vU9V3HqB+EPTJFAqJiMjv+qkQT/7nA8//NZ/f86MC+UaH0qmpZYl3q34+gQEWDQtTZG8CM52BzdzV2oNSl5+WlhDy+G15fFyhiB/yDTWkp9NXeBD/Axi/aucGSb0MIJoCYOrq5Qt9XBu1Kb6qvk58ZQECYhooBTIyOgowQRboqFCiUAhqUxW1UVUSQFTgxRlUUGAZtgMKkIQoig6DG9Q0Klbh9vq7X+y5Mp5uuyKe6/VMh8lRP15o/2zvBjEpnumQf14Zwae/2GF1XG1zNZ7ptSpe6DMlvpj04bDF8Wr7VU10T/3H6u+e1LbbK01f+b3rV7u+cuvtRo0WL/bdd0wKGbfucsrSVq2WnrKLqrniwvgdAN8xno+64JNn2qyWU8r1zm3u7aUeR8x56u6NOqbd03uzFx/KqUyr23inIxAIlp+4/NvmJhP+r9sggV/e/fNf5XdULdVJr6CuBII8oDrAhoTqqY4AAKQ4pVsSJQLZYAnetaEnBAj1ESCpqC9A1kFTAQr19RegRmcjBaiob7ksinpCSxsrSBo6CrJRLoJCS6+BGhN8Gle0jOxcrGuwf7ukWRqauakcOmhIOa4cNoTzFzqtji+XrT6nwkhfOmqXww45Yacd9jqhkGMWZicdNGsGz/RFpaEGGaI0TnncvZVWcXzMcXv7wvk645X3vT5Ozaf3JTfJhMMcyDKRIrezv9zArceOHT79PrWBpjqlQ1cwTAAA");
 
 export default PhoneArrowRight;

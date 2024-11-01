@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-clock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-clock?s=sharp-solid trash-can-clock}
  * @preview ![trash-can-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/trash-can-clock.svg)
  */
-const TrashCanClock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M144 0L304 0l16 32 128 0 0 64L0 96 0 32l128 0L144 0zM32 128l384 0 0 64.7c-29.3 2.6-56.6 12.5-80 27.7l0-12.5 0-16-32 0 0 16 0 39.2c-29.8 31.5-48 74-48 120.8c0 59.5 29.6 112.1 74.8 144L32 512l0-384zm112 64l-32 0 0 16 0 224 0 16 32 0 0-16 0-224 0-16zm96 0l-32 0 0 16 0 224 0 16 32 0 0-16 0-224 0-16zm48 176a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160-80l-32 0 0 16 0 64 0 16 16 0 48 0 16 0 0-32-16 0-32 0 0-48 0-16z" />
-    </Icon>
-);
+const TrashCanClock = createIcon("trash-can-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgAAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCRQsGAAE2AiQDCAQgBYMtBzYbSwXIHomxrYOtc6cvmngQD/8/92/73ORTUoZbZlSAtquO1IwGAEeggSyq0a8fAJmt9ZXiIrP/OZcuykYD/DyCIUVi6UD6ADOfn8A9r+ZqP9ADO5CJ+dm2RAIviMCfRGQxkbH/Pu7x2h7K+Kl4oIn0LI1H+qXxl94ekLQVAKITABbt2LLOZ7/H7xFfN94mvrYGAbEIZIECBfoJMFch0E8po1QKfo9Gg/8DMwFEM3lbAiVa8QAPASVImsuyc9/OyOhaN7Uvt+MD1Z66qntHHaJdRNTRd2v7du3FWzMjIqoQ4rOtjnt5VrsotlV1xTp1lLq1SWXb3QkRr875sG7W++NedmfsSzPfq5z9wfhXghhSW1WFyYNf6PTCP4M6nkefPi8bG7TQZxa6o3Hh9h15eJE3p7fTSdbJCD/EinFTp40Y486FBTnnTn4/i1r3oNk44dURmdy1y/DhXbrmPKJmsfPchiC60Oq0EEyemB4QCJp+3PIB5v7fWifw5wf//aMXNz5LC9MLaJVAUIxtjLU3LQTmBxCkuG6wM8BAcsN7faSdxwKECgGSZtWEQl+doFQZA00GmCYFl29RiLJN6GYfQdLOJShMdxNK3bwJTeb63G/WLYpUVBJJ+RPMXL7iy/rlSeMn5tn5Mmuo2SW17jk5bI28jqpRtNVxF5x31TFHnXJ14S5bF11zznKPXeaHsknGmyibLd8uvK/f7pjLrjjlgvO9lzny895I1/3Go8hNRHCyHZJEpI5XLx+6cnLckUPnx328AA==");
 
 export default TrashCanClock;

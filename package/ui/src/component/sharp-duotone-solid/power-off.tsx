@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `power-off` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/power-off?s=sharp-duotone-solid power-off}
  * @preview ![power-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/power-off.svg)
  */
-const PowerOff: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M224 0l0 32 0 224 0 32 64 0 0-32 0-224 0-32L224 0z" />
-        <path d="M143.5 120.6C104.7 152.9 80 201.6 80 256c0 97.2 78.8 176 176 176s176-78.8 176-176c0-54.4-24.7-103.1-63.5-135.4l40.9-49.2C462.2 115.4 496 181.8 496 256c0 132.5-107.5 240-240 240S16 388.5 16 256c0-74.2 33.7-140.6 86.6-184.6l40.9 49.2z" />
-    </Icon>
-);
+const PowerOff = createIcon("power-off", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABbgAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBRgsIAAE2AiQDCgQgBYMtB04b5gTIhofn53o79yV/CjQlTqsYwQH5OnKVhKrsECVJ3mU5f3/z/J9/+oDP6KM0Ji4NZIHPeZ5A4FE2vc7ThDLNwHrbEiRHYK4gQqQkovFszA7I4012TBXpdHqG4/wfwPiuuWMkNTIAUQbAyPmzp3rwOT6neFa5STwzBQExChQCGTK0EmCITKCVXIFcLvicKhU+R6VSEECU8MUZKCHHaMwE5CAJkeed6teqqpPP43tqLj7bJeKi9zNfz/04++38w90udxodd7te8q7H1QmP5nyY9KTX9XmHu18ZPnKxIEStgIU1258vn//Z7tm6Z46P+5hIHWNSmVhUoy3qmNLDnXYe2D7AqH//Xb58lFGQqceMGrB92+HDPt0viuKzwgiFfBoEgv/PtNqwvN6Qf6vXSuDrrd/f0odUrryKP9J5VJdAkHWpdLEkUVaOPwQAIMU+7RNlnwUynSTy1NpOCBBqIkBSUlOATEtlAXI1dRagSht9BSipabZM5DWERpYOSGrbCZl+9kOukRtQZYiHdkmjyIJJCAXhK5c6TqOxY0XPbj2KQcXS18X44Ep/cLGtddhHuY4wa53tttljrTU22qPILlO9vbYa5+GxXlToqZseCoMUx9FWnafsXXbbOJfPhwxW3Lc62OdXdwQzEWovE5mMSJHVDzev6/Z167q+ylxDI78/AAAA");
 
 export default PowerOff;

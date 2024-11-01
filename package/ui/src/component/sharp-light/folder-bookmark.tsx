@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-bookmark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-bookmark?s=sharp-light folder-bookmark}
  * @preview ![folder-bookmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/folder-bookmark.svg)
  */
-const FolderBookmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 32l192 0 48 64 208 0 32 0 0 32 0 320 0 32-32 0L32 480 0 480l0-32L0 64 0 32l32 0zm384 96l0 176 0 25.9-23.2-11.6L336 289.9l-56.8 28.4L256 329.9l0-25.9 0-176-9.6-12.8L208 64 32 64l0 384 448 0 0-320-64 0zm-32 0l-96 0 0 150.1 40.8-20.4 7.2-3.6 7.2 3.6L384 278.1 384 128z" />
-    </Icon>
-);
+const FolderBookmark = createIcon("folder-bookmark", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYQAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBUAsGAAE2AiQDCAQgBYMtBzYb1gTIHoVxG91JdqH8KYwfIh6+X+vz3Nc9v3a7l+EtMzoghw4o8V8FybFQUVOxqcjo6QcWZmgZ8h4/dep5zkMBfKOg7aEBWUB7n0cgorUxsVZfVrCaVsCqbtsNGgR5FTmiR46hzRA9QhnfhxqkNym8aB8a/+rvMUlZAIhuAFi2Z8cmvzSjGfFX60viLxsQEMtBFihQYJAACxUCg5QySqWgGa1W/g/MBBBt9DETKNHAJmwHlCApyrLv0K51o3O5u25UB+qqXhZ1LVKIqlNEERH1MUGMjvWxNkYGbtcnlkcVKTpHEVVV1ZVYEH2jd8yLGN7erf0/f53O0I9/wZYt52ypLDez+7J878gnuG6AC5544oIBPvHedp+47xdLLc1Hcd+XHjnhhEdeAoHgyN+rPsLC/zvUCfzzXUu/olYzSe3oIIGgmNjSwQQSAQBIcdvwBIFklYK8aycvBQgVAiRtKgEKA3UToFSZIEDDELMEaFPZoRBlR6GXQwMknVwDhdnugFIvn4OGhX612vSKglAEHYjvXOxqC61ay9MmT83z8zbWSY5gdb4gH6tjb5faONnotCsuu+mUk865aZDrNrm3XLLag1f5omyayabK5svh7Jndbazrbji3lsSXLJDvm2Pd9rvHiZEo6nTeJBGp6+mnLE2iJQA=");
 
 export default FolderBookmark;

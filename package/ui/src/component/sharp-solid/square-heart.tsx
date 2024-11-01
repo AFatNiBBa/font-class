@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-heart` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-heart?s=sharp-solid square-heart}
  * @preview ![square-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-heart.svg)
  */
-const SquareHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 32L0 32 0 480l448 0 0-448zM103.2 287.1c-14.9-14.9-23.2-35-23.2-56l0-3.6c0-41.8 33.9-75.6 75.6-75.6c23 0 44.7 10.4 59.1 28.4l9.3 11.6 9.3-11.6c14.4-17.9 36.1-28.4 59.1-28.4c41.8 0 75.6 33.9 75.6 75.6l0 3.6c0 21-8.3 41.1-23.2 56L320 311.9l-96 96-96-96-24.8-24.8z" />
-    </Icon>
-);
+const SquareHeart = createIcon("square-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABWAAAAHSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBGQsGAAE2AiQDCAQgBYMtBzMbnATIhof/X/vXfe5MAHh+iEABk2NwwBIAn0vS1oi/agls3x83/7zzKMBnFNrYtDSQBbbneQKJdXkbJKAssEy/gH1zV+saSbSvtJQlebzM42eBPK5nx1QhXU0/4WJ9afyihWMkNTIAUR8A4+bPnqVUGZURP5ZfET+agYAYBwqBDBlaCzBSJtBarkAuF1RGuRz+AwsCiKrElkAOB/thKCAHScrzGkWtKnXyeXyk5vradWqnqBPZivsRcbvHgy6vujWJZvFgSDpxr4041LVrzIl50b39/fr3f6v4ad1PvtwugccXF/y/riJj4pw/+24666xNfU2cKFOx7pTly/mOU0AgeHz6zrjl9Ub+V71WAj+//+M3+BWVK6OU7qO6BIKsZ7mnJVGCKAkAQIp92kcJgaSbBE+t7ZIAoSYCJFXVFCDTSn0BcjX1EKCKtgYJUFVNs2UiryE0trRDUttOyAy2H3KNvYAqRvqqV9U4skdDXTn1Z4ufrJFJY0W/3n2L4cXU1+h3QOT+iGJZ6rov5rrRrHW222aPtdbYaI/Cdpll7bXVZAud5EOFfnrrqzBcsR09Ts+z1i67bbTdtjJkhOK81tU+u7obqYng9mdLEpFqO57Yy3cB");
 
 export default SquareHeart;

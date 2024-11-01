@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-kiss-closed-eyes` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-kiss-closed-eyes?s=light face-kiss-closed-eyes}
  * @preview ![face-kiss-closed-eyes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-kiss-closed-eyes.svg)
  */
-const FaceKissClosedEyes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm276.7 48.5c-10.8-5.3-25.3-9.2-38.6-11c-7.4-1-12.6-7.9-11.6-15.4s7.9-12.6 15.4-11.6c15.2 2.1 32.7 6.6 46.8 13.6c7 3.4 13.9 7.8 19.2 13.4c5.4 5.6 9.8 13.2 9.8 22.5s-4.4 16.9-9.8 22.5c-5.3 5.5-12.2 9.9-19.2 13.4l-.2 .1 .2 .1c7 3.4 13.9 7.8 19.2 13.4c5.4 5.6 9.8 13.2 9.8 22.5s-4.4 16.9-9.8 22.5c-5.3 5.5-12.2 9.9-19.2 13.4c-14.1 6.9-31.6 11.4-46.8 13.6c-7.4 1-14.3-4.1-15.4-11.6s4.1-14.3 11.6-15.4c13.3-1.9 27.8-5.8 38.6-11c5.4-2.7 9.2-5.3 11.5-7.7c2.7-2.9 2.7-4.7 0-7.6c-2.3-2.4-6.1-5.1-11.5-7.7c-10.7-5.3-25.1-9.1-38.3-11c-6.7-.8-12-6.7-12-13.5c0-6.8 5.3-12.7 12-13.5c13.2-1.9 27.6-5.8 38.3-11c5.4-2.7 9.2-5.3 11.5-7.7c2.7-2.9 2.7-4.7 0-7.6c-2.3-2.4-6.1-5.1-11.5-7.7zm-65.5-70.9c-17.6-23.5-52.8-23.5-70.4 0c-5.3 7.1-15.3 8.5-22.4 3.2s-8.5-15.3-3.2-22.4c30.4-40.5 91.2-40.5 121.6 0c5.3 7.1 3.9 17.1-3.2 22.4s-17.1 3.9-22.4-3.2zm89.6 0c-5.3 7.1-15.3 8.5-22.4 3.2s-8.5-15.3-3.2-22.4c30.4-40.5 91.2-40.5 121.6 0c5.3 7.1 3.9 17.1-3.2 22.4s-17.1 3.9-22.4-3.2c-17.6-23.5-52.8-23.5-70.4 0z" />
-    </Icon>
-);
+const FaceKissClosedEyes = createIcon("face-kiss-closed-eyes", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABpwAAAKZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SCcwsGAAE2AiQDCAQgBYMtBzwbfwVRVE3iZD8OcjLUXmIQhDYsllJKLLwSN+7r+RIPxX7p2/0QANaJQgWsItHoKEWo2XXqKjQLd1Nb2fH3k3/6LtDPT0pcIWmrN3OCOHaup87tRUVh8PN/uef3/OgAv9GhrEFz8mhNmvN5Aon1Pta2hE4DiSJPwFKnI2N0DOnoJzKC0DLE47N6PF6hjE2kDXTykXKF85Gr+GdMM6ksACB6AQBsnwb5wF4jGhFXzQ3iuwMgIHYAZiEUgExCYA1V4CvQzAKlUtCIZlP/AzEIIGqw905QogXPeAGUIBXoJU1a2kJYkKCTtFCi4iSNGiK06nnByf1MfxmPGKx4nBO8Lo3WlLivTigO/W4JPtcO+yFP9nveV5x8bxwPQhMmVfvFB0QnVPpE+0R7RXpFOIhAs31cuVOsQXxKbSB0xPrFliyxAZJDhxGjToneUS4+R9DoE6lzRCc8Qp5QnBWY/Z67Sr2Ct13uAB5sfaysfGwfDrjUI/Cbsd/G2Nd9J6f9NUm2fe0tdw7qSziscqX3CjPGy9tIsr1sHEEop2YUkfPkFyexYkUjI8VicccRDmfUUbwI31IqcnC5FwVDf4ZPh7J7lJV7qmdOhiIr4RHyOoBA8P/9rjSOv/bXSlAA/n77/dt/Rpp7KT+BVgmCYuFfW3SCJAAAGaUUEwLpWsXy2ulOgNCOAKnWLkBhggAESu3mIVCZZgKBWrtDVFGyIQyKmSB1OgOFVTWgNGgNVNacJrXBKDKUyS/mBzHRlRGXQ9hAVx9bYrfnYJOO2nat8LKiXtpmNACFVHlyFUuRLEMxYYV8CiVyuEaoiw/CDOjSh1nCl4efj4dKUahIhjy5uo8VfH+grjRergGdwnAXdaUkUvT5r9PJyigq0nkpJJ1vDgA=");
 
 export default FaceKissClosedEyes;

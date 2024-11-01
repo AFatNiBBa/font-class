@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-laugh-squint` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-squint?s=sharp-light face-laugh-squint}
  * @preview ![face-laugh-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-laugh-squint.svg)
  */
-const FaceLaughSquint: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM256 400c52 0 97.1-32.8 115.7-80l-231.4 0c18.6 47.2 63.7 80 115.7 80zM100 288l32.2 0 247.6 0 32.2 0c-1.1 11-3.2 21.7-6.4 32c-20 64.9-79.4 112-149.6 112s-129.6-47.1-149.6-112c-3.2-10.3-5.3-21-6.4-32zm21.8-122l15.9-27.8 13.9 7.9 56 32L231.9 192l-24.3 13.9-56 32-13.9 7.9L121.8 218l13.9-7.9L167.4 192l-31.7-18.1L121.8 166zm254.5 7.9L344.6 192l31.7 18.1 13.9 7.9-15.9 27.8-13.9-7.9-56-32L280.1 192l24.3-13.9 56-32 13.9-7.9L390.2 166l-13.9 7.9z" />
-    </Icon>
-);
+const FaceLaughSquint = createIcon("face-laugh-squint", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABlQAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCWgsGAAE2AiQDCAQgBYMtBzgbYgVRlO1FnOxHYgzuoUtwx5nPRFYyWm89zryJh//2+98+c+c7bprEkkmDRmT9hlQiVS2/hEYRSXbvGffefXPzjVICHbIU6QQo73Xm6eRALhAY/+qtakXNm/7mn3ceBfjOEw5tLFw6cYJEc54nEPBYnpdIFtg3/QL2Wb55yx6tR8p+yczoJPnHejw7Icf1GIJNOpMqQGN7aXyka4gkFwCiBQAwc31aAhw+i2cRlfIiUREHBMQsgB4QBQp0gWAKpkAXLD2ALAueRVnyb2APEEBUk3MJZNTiBM7gKfSHVec8ot9ZLOuoK2SLWZkNVYLCs6MQNxaVgAvCeY3mXNZjUqjF7bZpJvqYjXGy/EGopRNylPEafBh/K+CyDT3OzLg8GHGxuwCnBs57ZDbUi0fbzHrvhbvvgemwXlbnDvpqjIm+YR7R0Sb0Qht2YRuatQMGW9ugOnRCE7HRL6wiLtqHbqh6LcgWvnre7ryFp7eb3OP+tITJkxOm3b/XBMd6/ObW0fH80eywu5sd+TDXevmGsnHfgdcv33n5+uG+ib3Ww1sW6PPv6LHk5J7uv2kt1O1/xHiiV3dC9/rw74lP/eNfzXMiXRC6DhAI6vLGG5uaT/ld25DAi2tfv+vfwfJOks6hVgJBMaQcIj+BRAAAUhxhmiCQHHfDT23ipAChHgGSavUCFDqTQZDVGwxBlW48IKhWbzWmyHVCGwUKkib2g8I43SBrYxNUmeLCrNYmiqgkY4r8E8ZFWihiiEY6OpMvTT2DCjS8dP1omR/QkjM2dAglatVoUqxIuSaDNEhwmlWLRHCEDyIuHDkjvmg73G9nKtagUblaNbWPHzovW2vB5TYkMQjmKK4kEanlkx932LWlubTM4eD+5vKaJg==");
 
 export default FaceLaughSquint;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `honey-pot` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/honey-pot?s=sharp-solid honey-pot}
  * @preview ![honey-pot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/honey-pot.svg)
  */
-const HoneyPot: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 32L64 32 32 32l0 64 32 0C25.1 125.2 0 171.7 0 224C0 400 128 480 128 480l192 0s128-80 128-256c0-52.3-25.1-98.8-64-128l32 0 0-64-32 0L176 32l0 104 0 24-48 0 0-24 0-104zM96.9 352C78.7 320.3 64 278.1 64 224l320 0c0 54.1-14.7 96.3-32.9 128L96.9 352z" />
-    </Icon>
-);
+const HoneyPot = createIcon("honey-pot", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABXAAAAHqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBMwsGAAE2AiQDCAQgBYMtBzAbswTIhofn5/o89yWfMsuQXQVA6NBR0TKocSW2yKq28/c3z//5pwAf5z4Wdh7IAp/zPIHOo7F8E2SBpYF6Cuk2cYceYvRGSJBExB/h8bVAHo9mN9SRHqaPcLfcNP7U2Q2SpgxAtALA1NXLF6p+F99FfFh7nfjQfATEVFAKZMjQTYAJMoFuciVyueC7qNX4H1gSQNSrXyKBHDkmYhYgB0nK84GNlbrm+apKXbG+qBSiEk8NeM7XQ1/u+3SlEjf7Pzv81dVXB73QrxIRRSFEERGx5oVVzeOrAUXvZ1o983evj3Z95PKTU6ZsmaL0NX1i9W+//vlHqkp//Pnrb7G6D1+Xpig/26OTITrZ02PyN2nJFGnJN/8DgWBfOXnG5pYT/musJPDDO//+Dadr30U1PYNGCQTZgNoAG6IKIAfwSilO6R1VBJKREly1mXsChAIBknqFAJmuWgmQK/QXoE4PIwWoV1guE3mT0M7GDkkzRyEzykXItfMq1JngXaVeu8gyiHl/5gOXOMujmVXl0EFDynHl1NDYpKC0OL5clvqckkBfmrXLYYecsNMOe51wxDEL9ZMOmhXhmR5UGmqQIUrjlNv24/gqOx1z3F6HHbIy45Xn5T5OxfF9qY4EGHb3lDRGatpz+NDOswOPHD4B");
 
 export default HoneyPot;

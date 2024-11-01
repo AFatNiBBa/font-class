@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dumpster` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dumpster?s=duotone dumpster}
  * @preview ![dumpster](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/dumpster.svg)
  */
-const Dumpster: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 139.1c0-2.1 .3-4.1 .9-6.1L26.8 48.9C29.9 38.9 39.2 32 49.7 32l90.8 0L114.9 160l-94 0C9.3 160 0 150.7 0 139.1zM147.5 160L173.1 32 272 32l0 128-124.5 0zM304 32l98.9 0 25.6 128L304 160l0-128zm131.5 0l90.8 0c10.5 0 19.8 6.9 22.9 16.9L575.1 133c.6 2 .9 4.1 .9 6.1c0 11.5-9.3 20.9-20.9 20.9l-94 0L435.5 32z" />
-        <path d="M64 448L44 288l-12 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l4 0-4-32 512 0-4 32 4 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-12 0L512 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l-320 0c0 17.7-14.3 32-32 32s-32-14.3-32-32z" />
-    </Icon>
-);
+const Dumpster = createIcon("dumpster", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABhAAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCIwsIAAE2AiQDCgQgBYMtB0wbQQXIHoPjbhRKUaKe9/PyyPNDKYsZQTZss7dHK0Wh6cLWeNA4XHfvsE1aHMJ8sASJfh/az713/2b3cbkhboklxKWJJYizSPIKiUTzEhY61ZI59v3vT9WM81DOJyfiQRmbXn521/nYVJzzvAIVrY5FBV9gtZpi1U0piL2s9RhDpArNRHZ86/HtBDV+8lwblPfyBV7lfwDjV7xzKBwJAGIQAJxc9bjwEmCg8Kv1RHzpBgHEKWARQYIEswjYZyCYJWlQSYSm+P+HJv//NQRAtEOeNgHtoAPcgmcAFVCQrLJqwOEINS3Bsr/Hosz+i37Fi3FfvEz4e3qYEKGMC5OXY17PUZ7ubvYGaRB6i5MPiwPh3zCdNsWb6b6r3oGBQbkyyuybEc3qXY/xQV5vGYr9yw+DD39O87SMXLWWXiGNRggzFc0AcvF6gewEx/1AlSniz0wYEf9knHPYPRp31BqucYz7T1FUEn/kwPH5MMLEXoPIiKVx7uMAAQK+53uYCG34t5sCwM/z3/f9Ws3SUh7QSQACcrdVYLS0AFlMgEqJfWngmwRIVST91F4+BCAoEIDCSiEgJQpDQKXkI6BNikoEtFN6GFgdoChjQxCCbAmGKgeCFOVRsGjwWrKKCiP0jMAx/vxyuyzZuUuXFpXoOu12dDOaNLhZr7dRzj5P5NJezNuwbtecWUt2Db3NVd2zpgtRnX5IK1WkhFZHH/ddkX7DbNuxBOvn29TT7xdy7OP5uRQKKrvnnGRAFBphN3drmzu7c9uFMQwRk/21AgAA");
 
 export default Dumpster;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `business-time` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/business-time?s=duotone business-time}
  * @preview ![business-time](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/business-time.svg)
  */
-const BusinessTime: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 160l0 96 192 0 160 0 8.2 0c32.3-39.1 81.1-64 135.8-64c5.4 0 10.7 .2 16 .7l0-32.7c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56l0 40L64 96C28.7 96 0 124.7 0 160zM0 288L0 416c0 35.3 28.7 64 64 64l296.2 0C335.1 449.6 320 410.5 320 368c0-5.4 .2-10.7 .7-16c-.2 0-.5 0-.7 0l-96 0c-17.7 0-32-14.3-32-32l0-32L0 288zM176 56c0-4.4 3.6-8 8-8l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40z" />
-        <path d="M496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-208l0 48 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const BusinessTime = createIcon("business-time", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABmAAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCSQsIAAE2AiQDCgQgBYMtB1YbcQXIjtRG90U2meLhP535983I3o0cBoW1AaKK4SNBBYgdYNH6/JagjfP9vHHimuff9FQgSU/waBXL8gqgzPMJTKi8xaIENlGbuS3OoEGQFRGRQ/ZDxNC20H4PRZqab9YgPZF+wH1tffxqhJtJemXCRH9cr7X7dm3xVTvaKX7ovEf8YDMCYh2oBDIyRguwQhYYrVChUAjaqdOhHf0/sCKAaML1Z9BEF27FvYACJEkuilGD61G9W40+xd5WozzhruURn85+M26Y9cayT8o7l3w04zXXz3x96cetfUIrHhny8OAyHh0a8diwZed9V+vV5Z+27hoS8eS0V6aUMbChjwqeG/zwcIHWL+0Unuh5eXKf+GLvDcNuKG/QzDsP6iOi3PfYsIeoOCcmvNL/ld/H/3DqD/5cPTWR5o6fMmX83JSmUkOO9/t5jtRW2n37tud0eo2+7bjqeJz/1UtVVU/3+eOVAwY8tUat689j59/v/GO6ams8pQTK6yEbn1A715ruLsHx+t5+e9/KV2/ePP5+xzdrT6mBQPDHVe8OPa7fiv+7Wwn88ol/jYs7X6Xr0yvolkCQZ3RmOJyuhywOIJviUhPSL8XxCGTbZPKqvT0qQCgRIGkqBchG6S9AoTRdgIaxFgrQVNoli6KXMNiRxSS9XcBki1zDFAZ7l2lY4et80+DI0ajGkvozmLWJgY2rqrmz5lTLqs+GqQWYXBeXV8eB+tIy0IOdTnWec13sFCc7w8VEXGhL6RLn2GThG31RZa5Z5qgsU1233629FL/QRSzrxv0yy1XvM7VL7fE9CCciOc+aLBMp8hAPtWd6qWemZ48YphheDA==");
 
 export default BusinessTime;

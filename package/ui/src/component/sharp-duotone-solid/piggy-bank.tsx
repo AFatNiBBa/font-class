@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `piggy-bank` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/piggy-bank?s=sharp-duotone-solid piggy-bank}
  * @preview ![piggy-bank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/piggy-bank.svg)
  */
-const PiggyBank: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M208 96c0 13.2 2.7 25.7 7.5 37.2c12.9-3.4 26.5-5.2 40.5-5.2l128 0c1.8 0 3.5 0 5.2 .1s3.5 .1 5.2 .2c3.6-10.1 5.6-21 5.6-32.3c0-53-43-96-96-96s-96 43-96 96z" />
-        <path d="M512 96l-18.8 75.1c15.8 14.8 28.7 32.8 37.5 52.9l45.3 0 0 160-64 0c-9.1 12.1-19.9 22.9-32 32l0 96-96 0 0-64-128 0 0 64-96 0 0-96c-34.9-26.2-58.7-66.3-63.2-112L68 304c-37.6 0-68-30.4-68-68s30.4-68 68-68l12 0 0 48-12 0c-11 0-20 9-20 20s9 20 20 20l31.2 0C114 183 178.6 128 256 128l128 0c7.8 0 15.5 .6 23 1.6C424.6 109.1 450.8 96 480 96l32 0zM424 288a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const PiggyBank = createIcon("piggy-bank", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABggAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCDAsIAAE2AiQDCgQgBYMtB1AbLgXIjtMF9S5DHqwIKl1VVkszC5pD1gEQP3noEYFHED6bZP5bBynx/j9xufM/f3rfvMUebe/m+QTb8zyBANOisUHzwLJMscF5I9Pp0IaQfoU8rmV3qJAeTN/hXvc/gPG3Du4gacgARHMATF+7crEvfo/fU3x38x3iO4sQEDNAKZAhQ2cBJskEOsuVyOWC39PN+T1uXhJAVLm3Z6CKCvbiBCAHSRJ5PrWhXVFpkq8pKo17V61d9WKHIkRjPNDL6IEl7P2wBtU9N+Cljg8PfLnv4ZnPtH+wdxFPT/18bhF3tnl9bLHq+U4P9dkobbylw/MFMYqYuT8eu3POmHf6vdC5x0vNX/q3+3d7vnNzqwXwrDO/DPaEaX7uss0209ximm7Huvo5XXzRo0etZuEvaobRW4Rzunn/qaefuEXtyTe+KNd+vrxNm+XwSD9ubX2sV5tbZClSxJYW9S+9dMstgFMPxGPP/X/U1maT/qsvEvjzo/7SvHzzizQtvYR6CQTZoJuDbErTgJEDqKQ4o8fBV/0kkJknCZ9ac58AoREBkqpGATKdNBcg12igABVdjRagqtFKmcgbhNY2D0RSc5zIjHGZyLX2NlExyZflqtaRpTcptUh/e+lzpsDsbeXwIcPKCeVuWycnIUGvTywv+/3O8LH+cK89jjrilN122e/UBDphce20w+YcgbP9UGm4IYYpTVA+7r3U1+DyCSft31afbzJR+X2xnzPHs/vDKAm8IxzMZESKrOWx/Xv3nh9cP+zBKXe89VzNowA=");
 
 export default PiggyBank;

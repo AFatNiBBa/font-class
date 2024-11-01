@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-circle-exclamation` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-circle-exclamation?s=sharp-duotone-solid building-circle-exclamation}
  * @preview ![building-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/building-circle-exclamation.svg)
  */
-const BuildingCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 0L384 0l0 232.2c-39.1 32.3-64 81.1-64 135.8s24.9 103.5 64 135.8l0 8.2-144 0 0-128-96 0 0 128L0 512 0 0zM64 96l0 64 64 0 0-64L64 96zm0 128l0 64 64 0 0-64-64 0zM160 96l0 64 64 0 0-64-64 0zm0 128l0 64 64 0 0-64-64 0zM256 96l0 64 64 0 0-64-64 0zm0 128l0 64 64 0 0-64-64 0z" />
-        <path d="M352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160 48l-32 0 0 32 32 0 0-32zm0-128l0-16-32 0 0 16 0 80 0 16 32 0 0-16 0-80z" />
-    </Icon>
-);
+const BuildingCircleExclamation = createIcon("building-circle-exclamation", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABmgAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCXwsIAAE2AiQDCgQgBYMtB3IbowXIhofv96s8973fvTO/Z5HfAqMCprBL5adqVViRigVAF/Yrp6KAVHRPXJP//vzpAQtf/JGyV22R5xFtE5hQedoacEIznYFtad3pYYW2fUjQAao0K9/TIr2SfsHz9v8Axl/GukfSmwHEEABsOXpwt+/6oz/FL92PiF/sQkBsBUUgI2OCAOtlgQkqBZVK0J+6Xfqj2y0EEG32DTNoow/P4SVABZJsQFWN7x2qMDTeaQ2sjljvri8+uSji3XVfdp5e8/mCtzXz31r9Wf3U2i8WvhOH604tOhERog4hyvl5YN9A8do0UzNdntMjRQBItg4Lw+5aOuzRxgVT3xjyxj9Tfrnyi7N7ZxXK8GEzZw4bXsqsSoXse3VRcXGK0gwpKIbYZ4jE/K6h+b+7n9KcORrhfo8XNM5RLGbT2c0sa7PNjbH02Sfq1wOB4Ntf3zl1dvD6/3s6Cfz2xX9/8h+S7nepSW+gRwJBnt+d71RqIDUCAJDiMVNTE+cQyPYbgH9qnxcFCDUCJG21ANl4QwSo1OYJ0DLJCgHaagdlUfUKI5wukKTPg0i20uNIZYQPkZb1vk+2jYiMmCxasceFSTur4I51ZcnCxWVt6a3IOFyjjcl1ZbI1+zGlYw7d64q77njEZZdc90gFfsjuzKNu2zkE7fBFxRILLVasVRbXb0pHePIhD7veLSxfZZ2yfWi2x4b7z6HOxCVdakOWiRR5GuxqC67i6Vzw3wvH+dt7nLYA1geewQTwBgAAAA==");
 
 export default BuildingCircleExclamation;

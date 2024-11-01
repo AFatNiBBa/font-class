@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-heart` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-heart?s=regular box-heart}
  * @preview ![box-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/box-heart.svg)
  */
-const BoxHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M248 80l94.4 0c6.3 0 12.1 3.7 14.6 9.5L388.4 160 248 160l0-80zM48 208l352 0 0 208c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16l0-208zm152-48L59.6 160 91 89.5c2.6-5.8 8.3-9.5 14.6-9.5L200 80l0 80zM400.9 70c-10.3-23.1-33.2-38-58.5-38L105.6 32C80.3 32 57.4 46.9 47.1 70L5.5 163.6c-3.6 8.2-5.5 17-5.5 26L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-226.4c0-9-1.9-17.8-5.5-26L400.9 70zM212.7 404.7c6.2 6.2 16.4 6.2 22.6 0l77.3-77.3c20.5-20.5 20.5-53.8 0-74.3s-53.8-20.5-74.3 0L224 267.4l-14.3-14.3c-20.5-20.5-53.8-20.5-74.3 0s-20.5 53.8 0 74.3l77.3 77.3z" />
-    </Icon>
-);
+const BoxHeart = createIcon("box-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABdAAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCAwsGAAE2AiQDCAQgBYMtBzAbAwXILgpsY9joGBoqVaTzs6wM30ejtxjP879Gu+/PrClmnr2p1Q0RQjMJDT9dLImHuBKxBHX8rzV9/453kyLuVDFaRHKNLJFi2Y6vAxaGhIusSy8oQjJzg9MI0xCKPNN8w7PijXn+z/V8z0cD/EZDisTSgZQPM59PYIBxbVlCUWBnegJ2uk187IhiT4SEJIlEx+nxtYQ6R0kLlPtlcLV/aH7ytUmhVgAg/QBgz+GKIjwMZzh5bY58VgACZA9gNgIVqMB0BNhORmA6hQA1BcFwmob/A2dDANIKPGUB1KANnAVDAGpAodYKt/KAqbzFqlR3tbCGrk6+NaEqnUSVPd1W0K3xluxOpMOdXawmd7sg1DzbyHK/vDK3yP0l1wusuVx2O42yNrH6yM6kACbGi07He9DE3OFp5m+7MqFq7vpvfs/50hf/BU18y8wsNofeXz6Dxi9Ow7v99f64u8oGzNwmr/OU0g9Hx/WXtXGhTRp6R7GBgfPdzseebJTT3iV+ceDBg/37YZ/A3jthguN9c+CkMetyQEBgwti7crpv+z8gARh9/ve/+StqhvO2PEI7CRColjfLNeYtkLcIAEDJtJC8BQFFHRWutduuAIKBAAoNQ4CKPxcEqDERCNAiSBICtGIqyKg2QTw0LSCxGAOyZEtA4eEOqDI9KhqPVJlG5gn50YvL1lBWnVB0rEgXR5NQyYPXcoYI85wuoTCaiG4jhk3q0qnPpELGFelThmR7cJYvEuJEiyWkE9fO++hqXcZN6DNiuFXJIN7Loab95DCSJEBdq2chQYrZPjQble4AAAA=");
 
 export default BoxHeart;

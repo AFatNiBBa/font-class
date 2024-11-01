@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge-suspension` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-suspension?s=sharp-thin bridge-suspension}
  * @preview ![bridge-suspension](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bridge-suspension.svg)
  */
-const BridgeSuspension: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M134.9 13.6l-7.4-13L120.8 14c-23 46-77.5 91.5-117.3 118.4l9 13.3C45.9 123.1 91.3 86.5 120 46.1L120 256 8 256l-8 0 0 16 8 0 112 0 16 0 368 0 16 0 112 0 8 0 0-16-8 0-112 0 0-209.9c28.7 40.4 74.1 77 107.5 99.6l9-13.3C596.7 105.5 542.2 60.1 519.2 14L512.5 .7l-7.4 13C467 80.3 395.8 128 320 128s-147-47.7-185.1-114.4zM504 44.7L504 256l-80 0 0-136 0-4c31.3-17.5 58.8-42.2 80-71.4zm-96 79.5L408 256l-80 0 0-112 0-.2c27.9-1.1 55-8.1 80-19.7zm-96 19.7l0 .2 0 112-80 0 0-131.8c25 11.6 52.1 18.5 80 19.7zM216 116l0 4 0 136-80 0 0-211.3c21.2 29.2 48.7 53.9 80 71.4zM0 336l0 16 8 0 96 0 0 152 0 8 8 0 96 0 8 0 0-8 0-152 208 0 0 152 0 8 8 0 96 0 8 0 0-8 0-152 96 0 8 0 0-16-8 0-104 0-8 0 0 8 0 152-80 0 0-152 0-8-8 0-224 0-8 0 0 8 0 152-80 0 0-152 0-8-8 0L8 336l-8 0z" />
-    </Icon>
-);
+const BridgeSuspension = createIcon("bridge-suspension", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABkAAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyDBwsGAAE2AiQDCAQgBYMtBzgbjwXIhof/z/v6fW5Sb6XtdI3a8oc9BITp7+f5tyrAxyMYWmRwRZxPYOdpQRU0odnAJoqbcvcOxiQNS9cV8vjbGlWkC9IzOE390vhaC0eTZBmAqA+AkfNnT/XAB/FBxNP/30o8bTICYiQoBTJkaC3AEJlAa7kSuVzwQfz/P/sPLAkgKnQ4eT1HgUtxHSAHSSXP+9QGUQNrVdXJ54m7ai5u2qRp47hmwB0dmsTVnflcUbOmqFUvNF/ElR3h2c3iqkF3dWsajeOGCU+MeWzSU71WCjVD997dfU5kv33wHGwQStKdfecJyHDtwOqoWrWEcMiI6AokgO6aNXWphzZXX1X/qm/bP7PuGcfeeLB+0hLVbet9fIoj3nhz2Ut2FPUV+wtH7njJsjffOOMUP9drW73EwR6qW/f004HvoR1tX4abZjhe7q+/l087Ghw9ww6cMXN5I+www9FmnrG8VQ42HW+Gl/391+tv1wcHihXnKxQbCud7AXZYUYwlkFUzCrq/wO8DgeDaa4+Ys7zekF+LWgl8dNf3X3uv+/+BdHi6CoUEgqzL/10sSYcD4w0gkGKf6ooFBpJLbPhPre1cAUJNBEgqagqQaaW+ALmaOgtQpa2+AlTUNFsm8hpCY0sjkNS2E2T6OQTkGrsZVBnicX9F48juVdGdJvpUTD4uCY2dV/bs1qMcVJZWBeLbTyBNDy4b6zvs47o6wr3W2W6bPdZaY6M9CW6XqaG9thpXRYz1Q6WeuumhNEjZuXF2+zxr7bLbRtttU2YZrBze3cG+6sEdoSnR+fZSlCQiNXh/tF3/qxBMBwAA");
 
 export default BridgeSuspension;

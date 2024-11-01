@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-smile` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-smile?s=light location-smile}
  * @preview ![location-smile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/location-smile.svg)
  */
-const LocationSmile: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 192c0-88.4-71.6-160-160-160S32 103.6 32 192c0 15.6 5.4 37 16.6 63.4c10.9 25.9 26.2 54 43.6 82.1c34.1 55.3 74.4 108.2 99.9 140c25.4-31.8 65.8-84.7 99.9-140c17.3-28.1 32.7-56.3 43.6-82.1C346.6 229 352 207.6 352 192zm32 0c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192zM128 136a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm104 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM125.3 247.1C132.1 257.3 156 280 192 280s59.9-22.7 66.7-32.9c4.9-7.4 14.8-9.3 22.2-4.4s9.3 14.8 4.4 22.2c-11 16.5-43.9 47.1-93.3 47.1s-82.3-30.6-93.3-47.1c-4.9-7.4-2.9-17.3 4.4-22.2s17.3-2.9 22.2 4.4z" />
-    </Icon>
-);
+const LocationSmile = createIcon("location-smile", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiAAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCHAsGAAE2AiQDCAQgBYMtBzUbIQXIjtEnY4QxdczlqakKc+J5+nvfX/vck1qsex6lUWkgpQEVql7BYs0iHOAnkAnm8+f783LtvTtn/gBjujnQE4ip2VOtzf+5ni9tlM8/b+JDi8LSgRRI1UU/P4ETK4q2L3J2YBPF213UHuaK9pFYUpbk8VseP3eoqcIOOuWTcg685h/NP5KaKWoDABkHAHbPg3xg+ydvwfN2lXR5AYHsAWARokGDWQg2UAWzaBaBqgo/+W/xP5CAAOkFgl1ARR+ugQcAKih6Kk16js2WHqLz0kLDKa6kR1vEzdB76/Xgep1Zx2tM683D60fuHn3EBXvMdqeFiyM257hruCT3dHwX9hBwExI6KtmhPCbVrRZi1H5xcKsK4qjKuNq4eLtoq0iL8ojxmuqYWJs/W3FKYOpL4fzyHOJa3D8H6O7jPna7CFeCwezqHB4xNx8Z7pxi/kkQmVfwdwlw9dXNx9c9kJb6/jqLASEhAXiIJYGH/2aHoqIBSKaJq3xeZmg4F0NfA9xc4ZzDieyaujp7exDXZE8ccgBoXjvYDQqL49/4zxqiAPx+//yqH7c7qadMAf0KCE2n7YjOCwCFAYKSUlAUBhYUF+hA3zrsTUAMIqDoNSigMUMAgmrQEgQ95plA0GvQMapUNsS0GAbFsHvQWFcDqmnLoMeGo6DXdKhqpyqN+unLch0Rl13EQFefWJJlpWmaJMdNK7Jtq5faCQ04Cqny5CqWIlmG4oEu5BOXyOEqUS4GRBjQpY+wRI7b5/2hUhQqkiFPbtrGCrnvqyuV52uAR0GSywpFIYVPXx2dolcPAAA=");
 
 export default LocationSmile;

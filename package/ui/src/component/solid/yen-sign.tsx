@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `yen-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/yen-sign?s=solid yen-sign}
  * @preview ![yen-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/yen-sign.svg)
  */
-const YenSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M58.6 46.3C48.8 31.5 29 27.6 14.2 37.4S-4.4 67 5.4 81.8L100.2 224 48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l80 0 0 32-80 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l80 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 80 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-80 0 0-32 80 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-52.2 0L314.6 81.8c9.8-14.7 5.8-34.6-8.9-44.4s-34.6-5.8-44.4 8.9L160 198.3 58.6 46.3z" />
-    </Icon>
-);
+const YenSign = createIcon("yen-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABcAAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBewsGAAE2AiQDCAQgBYMtBy8b+gTIjtRG90UG2YiHj7nePzfJo90ypFVAyEKRBFStYiPe1HYq+cOm/zv4/F9TL54fFcgHkYuyo2uQa8BaNR/QaLw3ivIMGshsOJsoztrZJQwiMUj6lE+y2fhhs4YsFqanlJHcT77gavjQ+KapUySqUgBRBwDD586c7G11VEd8Lj0nPpuIgBgOcoEUKVoIMEgq0EImRyYTVEepZP4DcwKIcvFFCciQYgU2ADKQiCxbUCyrmc0plhUW3mkUcafBLR1pODsKcUEN5VjD28ViIDQiFxvfjQjQ6He80Z1CAdrcuAu50aYnzIo5bR/Xefy9zZc1Xwy4fuAdT148aNFx45LLeql17lytTE2TE5RqmMkzzLSJlb0suWxjxxYPXjx5d2DVXelqEAj+sfP90tqDflQWE/D1zb/LgSWlYkTyGJUSEKSdSp0sij0MpKc4ZST2aBvD8E0CiQUS8V1ruCNAKCBAolxBgFRzdQTIFHQUoEwrvQUoVzBTKrIqoYHFDSRq2A5SfRwGmQaegjKDvHfKNYhUylgZYT95SWMoOnpQ3r1Lt3xAPoxVTnBo1zkwn1ba7bEV7bHSGlttsctqq6y3i+A7TPZ322wMh432Q7nuuugmN0C+nN0vnmO1HXZab6stPs9A+X67nT18/fYYTQLocT9jEiKp3L96S+cHCg==");
 
 export default YenSign;

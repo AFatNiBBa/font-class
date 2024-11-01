@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cheese` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cheese?s=solid cheese}
  * @preview ![cheese](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cheese.svg)
  */
-const Cheese: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 240.2l0 15.8L0 256c0-20 10-38.7 26.6-49.8L274.9 40.7c8.6-5.7 18.6-8.7 28.9-8.7C418.8 32 512 125.2 512 240.2zm0 47.8l0 128c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 288l512 0z" />
-    </Icon>
-);
+const Cheese = createIcon("cheese", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABUgAAAHNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBCQsGAAE2AiQDCAQgBYMtBy0bhgTIHge5Kesub6LPXfTpsgjq13p73u4H3gvhBpB0FABZdkAeWdHZuKQ8k7qKTUWSO8vbIZWf1F+TjJCcTcAGvUvS2ve/v3n+zz99wGf00X5j0dJAFkg053kCiXV554lk6zzTBCzzlhkbpdw3mWiS/DM9fm2Qx5PstAbStfQKZ+pJ45e+TpO0ZACiAMCSNSni16IW8bIe8dJSEBBLAKVAhgwDBJgvExggVyKXC2pRr8s/UAggGmHXBHLkGIPJgBwkKc+LSltDR746PbF1B6MzboxbE1faPi97nyFcHf1geHvcG1vtF9E1tFpUfw951V6h/rYoCrrO/eNZsSaq1Vgz+fjx462Vyt3j7lYqrccBAsH5Cz/mbOma/6e5LYGfj/+Pv6J6LUlVNEsgyMbXx9uYQCIAACkO8wkCyRAJjtrusgChFQGSRq0CZPorBMi1GidAg0FmCNCo1QpO5C1CD5s6JO32QWamI5Dr4RE0mO+p06hHZI+FDzX/V0sJFumcTJk4uZxbTkNNiD/L43nlsj76sJbG0CqaZbqo6q4hW/SfIXhYvUhMMdFkpbnK7eRxuaDt6JZZpsxTnrdHO+w3jyHLAnUqLV1BIDXu2EseAgA=");
 
 export default Cheese;

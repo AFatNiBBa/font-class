@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelopes` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelopes?s=sharp-light envelopes}
  * @preview ![envelopes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/envelopes.svg)
  */
-const Envelopes: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 110.9L544 64 128 64l0 46.9L336 249.5 544 110.9zM544 352l0-202.7L336 288 128 149.3 128 352l416 0zm32-224l0 224 0 32-32 0-416 0-32 0 0-32 0-224 0-64 0-32 32 0 416 0 32 0 0 32 0 64zM32 96l0 16 0 336 432 0 16 0 0 32-16 0L16 480 0 480l0-16L0 112 0 96l32 0z" />
-    </Icon>
-);
+const Envelopes = createIcon("envelopes", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABXgAAAHgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBSAsGAAE2AiQDCAQgBYMtBzAbyATIhof/X0vv+zMBLsI0qkzs6qrYkYuOKrCKK6DHPbUEeqdO5VzOQwF8jvtc54vHAtsd+7wCPV/b17QC1QoWUazfTr5nuNM3I0nikgyLbljtIY/3MVgF6WZ6havpR+Or7s6T5BmAaAeAGetWLdFWilLEq/J94pVFCIiZoBDIkKGXAJNlAr3kCuRyQSnKZfoPLAggKuU3J5CjEnOxHJCDJM/zurrOHesqGvK17uHaUyHqQ6yJdUKsjrUhGtYJorY+MKWuQTgqpLlYZ6FsS11za7vW7/1e7X2l7/JhJtJimLcXWP39EkQJe6ml7+cSlhSKtkLJdN6a3rdvO3x8uVvtCu3etbNdOwUQCCbElaHbmib/r65L4MuTn7/D5cqlND21oloCQTa4PNjmNB0IG4Cd4qxmoTSBZKocwLfWuyZAqEWApFKtAJme2gmQqzVIgAp9jBGgUq1VMpHXCJ1saSCpdwJkxjoHcp3cBRUme2pX6hSZMpGqQH7l4ub28JxBxYihw4uJxTJWKf3Afe+kYlvrf5ZrBmCnvY456rQ9djvgdIeetMQ744i5EjJHiQojDDVcYaLiOHvcvNYeJ51ywDFHYz+TFPf1/s7KzQdgGAkw8hlwnhupZs/Rs3sOHzu+5xQAAA==");
 
 export default Envelopes;

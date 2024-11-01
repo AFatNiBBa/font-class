@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-to-bracket` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-to-bracket?s=sharp-duotone-solid arrow-up-to-bracket}
  * @preview ![arrow-up-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-up-to-bracket.svg)
  */
-const ArrowUpToBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 0L0 32 0 160l0 32 64 0 0-32 0-96 320 0 0 96 0 32 64 0 0-32 0-128 0-32L416 0 32 0 0 0z" />
-        <path d="M224 146.7l-22.6 22.6-128 128L50.7 320 96 365.3l22.6-22.6L192 269.3 192 480l0 32 64 0 0-32 0-210.7 73.4 73.4L352 365.3 397.3 320l-22.6-22.6-128-128L224 146.7z" />
-    </Icon>
-);
+const ArrowUpToBracket = createIcon("arrow-up-to-bracket", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABbQAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBSwsIAAE2AiQDCgQgBYMtB2Ib/wTIHoVNmXs0ImNIDjn1I/M9siaep/Z7PXd3g+AAZb4KkkpkgVWFZGPrSBgUrlUZHyP+VLa6+lk1pvsBxTZ8EwVEBVTIF0TVslO17fh3RZfxTYj295PT4o2XCngg0m5svCBr+ZzxCjRenfRT1zB40zew350tByXLJ7HGkBwXOz5HaPlWXw1QvpQ/8AH/BzD/mLxSjFQAmQYAl092tiH76ZfcdR/kzhYI5ArAKoGKikUCnFAKFqmsgqYJ/dJ10E/XEQTIILxyBYNouAb3ADRQRFrbWNKoJ9pj3G/0hcvr2hWu5OPNgUBkLLDxkXCnGE/2haciNNMTE/dKRtd/emvtr/bnv8fMDw/Y94et3WCBlJBFZWB/9klOJleJHp1yqeSy4PwDBBCEX1/37y8Muf/DmgL+/P5v+iGhk7ktPzGsgFB7Xc9pJJBbAgBQ8h7OSFEQVBsU4injPgqIUQQUg0YNVAuM0IzahAHL4vji+ANKaSNi3hlAMe4VVHvuoJn3DgNOfIqD5qNUJ1IZyN9c3ApFlvsoHAhRhkRXpjQE9+0sLfOumU25YRU1fT0T7FbThGAj28pU18oIXfZFJCwghGTQdjCf38dGxpr6eqFLFp0XXGbjYjcMowBsXcRJlZTUhZejUX/unw78k77/enR10+aJ/3UW2vrMYwQAAA==");
 
 export default ArrowUpToBracket;

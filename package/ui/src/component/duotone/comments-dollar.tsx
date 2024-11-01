@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comments-dollar` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comments-dollar?s=duotone comments-dollar}
  * @preview ![comments-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/comments-dollar.svg)
  */
-const CommentsDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 176c0 38.6 14.7 74.3 39.6 103.4c-3.5 9.4-8.7 17.7-14.2 24.7c-4.8 6.2-9.7 11-13.3 14.3c-1.8 1.6-3.3 2.9-4.3 3.7c-.5 .4-.9 .7-1.1 .8c-5.8 4.2-8.1 11.5-6 18S9.1 352 16 352c21.8 0 43.8-5.6 62.1-12.5c9.2-3.5 17.8-7.4 25.2-11.4C134.1 343.3 169.8 352 208 352c114.9 0 208-78.8 208-176S322.9 0 208 0S0 78.8 0 176zM228 280c0 .3 0 .7 0 0z" />
-        <path d="M228 72c0-11-9-20-20-20s-20 9-20 20l0 14c-7.6 1.7-15.2 4.4-22.2 8.5c-13.9 8.3-25.9 22.8-25.8 43.9c.1 20.3 12 33.1 24.7 40.7c11 6.6 24.7 10.8 35.6 14l1.7 .5c12.6 3.8 21.8 6.8 28 10.7c5.1 3.2 5.8 5.4 5.9 8.2c.1 5-1.8 8-5.9 10.5c-5 3.1-12.9 5-21.4 4.7c-11.1-.4-21.5-3.9-35.1-8.5c-2.3-.8-4.7-1.6-7.2-2.4c-10.5-3.5-21.8 2.2-25.3 12.6s2.2 21.8 12.6 25.3c1.9 .6 4 1.3 6.1 2.1c0 0 0 0 0 0s0 0 0 0c8.3 2.9 17.9 6.2 28.2 8.4l0 14.6c0 11 9 20 20 20s20-9 20-20l0-13.8c8-1.7 16-4.5 23.2-9c14.3-8.9 25.1-24.1 24.8-45c-.3-20.3-11.7-33.4-24.6-41.6c-11.5-7.2-25.9-11.6-37.1-15l-.7-.2c-12.8-3.9-21.9-6.7-28.3-10.5c-5.2-3.1-5.3-4.9-5.3-6.7c0-3.7 1.4-6.5 6.2-9.3c5.4-3.2 13.6-5.1 21.5-5c9.6 .1 20.2 2.2 31.2 5.2c10.7 2.8 21.6-3.5 24.5-14.2s-3.5-21.6-14.2-24.5c-6.5-1.7-13.7-3.4-21.1-4.7L228 72zM448 176c0 112.3-99.1 196.9-216.5 207C255.8 457.4 336.4 512 432 512c38.2 0 73.9-8.7 104.7-23.9c7.5 4 16 7.9 25.2 11.4c18.3 6.9 40.3 12.5 62.1 12.5c6.9 0 13.1-4.5 15.2-11.1c2.1-6.6-.2-13.8-5.8-17.9c0 0 0 0 0 0s0 0 0 0l-.2-.2c-.2-.2-.6-.4-1.1-.8c-1-.8-2.5-2-4.3-3.7c-3.6-3.3-8.5-8.1-13.3-14.3c-5.5-7-10.7-15.4-14.2-24.7c24.9-29 39.6-64.7 39.6-103.4c0-92.8-84.9-168.9-192.6-175.5c.4 5.1 .6 10.3 .6 15.5z" />
-    </Icon>
-);
+const CommentsDollar = createIcon("comments-dollar", true, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABuQAAALIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDKAsIAAE2AiQDCgQgBYMtB1ob1AXIHolxjMpWRegLIsr7vnqSBZyV/AH4RvP84r+A/f+4n/oz6AM+AP/LsgaJpFHH+QR2nsGRugHvfDZTnGHbcElveiMUD4kj0FW4NgUzUCvVNWD+9D+A8hUvpoDCSgMAQBwBAIDC5o1rOfVKXim5ZtoHco0aQACkCAADATRAA3wRAHLQEMAXHQPQ0RF4pUzwSkwGCACIOROn4TDP0N2HzgIAOgCqmqXrDRIDLWzM7PRm7Qzr1qvCtngiS1zLJ1aGbg11k61uS10nuC6xXha2zH2b64rQpW4TJVOJG3EnbfcRWe6Rq0jGtjBr2ea+zGP1LreZjXl8VgfvkKb3GojcarK79nrTi9mJd2vqcofTHbbI7p4lAdph+cngB43uNFuKtjF3iWvilSVu3szB8LTDpQ8b321ui95rcKtJU2R+0C7HXd8Dr3W7xtvhTssL7dm9bLR/bCsvzZGQKV2UZaMhdr/CExJc+idaGAYAwL4/DgR+1rY+AbGtvUIE1yVNRO88xc5ed24QaL5wo/3T7qrpRXjY0jKiUeMKFnzYev+I44bMqGkAAIAIBDXpMattb2spa9CgkbmFJY7WvdvN7NEkCJgWlbnB8cj9rR8WNJeNG6Sqd2/YSPT1+952BwAAEEBg4v1RC9o75Py3tFEAvDny8+9wYxM1Se0CLFEACGgxphjaqAkOJIvkL0koGUZQyjDzmxBAYyKKNGTLMjgmWAMDhTnWoOGDI+hYEw1m+JN6hDnWNEZDdCsEV9qSgMKWgaCRxljQcWUvmJHDxbA5rqLdvfp7T//vmKVMxEuHGYlxCUaWYc0jhhtS2/dnG8GeiGF1XWS6l270px9D6EoXejJEUAZRGxtKX8pccik/xCCROBIwyMKAS6uWZrl3EINrrdmED5KNcXwogmHu1pHpaBQAkHTeszQQJZrHvW2P/YwdsV9CUy+T6bEHAAA=");
 
 export default CommentsDollar;

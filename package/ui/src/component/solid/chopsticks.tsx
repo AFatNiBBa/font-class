@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chopsticks` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chopsticks?s=solid chopsticks}
  * @preview ![chopsticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chopsticks.svg)
  */
-const Chopsticks: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M368 0c-15.3 0-29 7.2-37.7 18.3L3.4 486.1c-5.5 6.9-4.3 17 2.7 22.5s17 4.2 22.5-2.7L405.7 77.7C412.2 69.5 416 59.2 416 48c0-26.5-21.5-48-48-48zM131.9 506.4c5.8 6.7 15.9 7.5 22.6 1.7L623.2 148.4c10.3-8.8 16.8-21.9 16.8-36.4c0-26.5-21.5-48-48-48c-11.9 0-22.8 4.4-31.2 11.6L133.6 483.9c-6.7 5.8-7.5 15.8-1.7 22.6z" />
-    </Icon>
-);
+const Chopsticks = createIcon("chopsticks", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABWAAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBDQsGAAE2AiQDCAQgBYMtBzEbjgTInoexMeuxIRZmI8Xm+sAv1wiqtSqrp+cA6AFAIUkUDhw4wPCI8lkYwPC/r84+W1Soxv+Y2/uohPZvCZe8tSXEpdFIdChhlVBoGiNHLxDu7uvVWlxoQ+fytY0GeEZDi7TS0azAM//5BR44ypOjeWBvL4pv7eymH/T6Tegjn2Sx6g2THeT4FSpJN1MN5+Og4ptBZ5LGAgDRAQDW7snJeHyOzxHfSuKt7SAg1gImIhSYPYLACmqhd6AxEWRZ8Dmqiv8DJ0IAUQf5fAIZGbPBEgAZJClrnJ3m0qopNpem0d2BflzpvfaP4nrc6rtNLxdoWLv09M8lKB3Kj0m1vTUH3hx807hjj588Pow7nep37xd++/+48X3+Jd+t6/v4ukdngECwen1r2Wpf8bsBFeDr81//0onVVel0eowGCQTF3GquejptEIwVx1lxJOCLAslkKjLUFtcECE0IkNRpEqAwzIFA1mQOAqUxcQTqNNlBLbIRoUejgqTFIVBY7gSyHndQWuFp1+mJwl24y+Z+a8mShsVpvCgQ4gwPfZn3ACb0szytzjxSzo2tGFpZ2hvom9grakv2DhYkixT9EAsLCGEZvBzdri8a2NqZWFnyJFm833Q52tVuGCpCu9jsJBHJ1Nu/Wu/eg7IDAAAA");
 
 export default Chopsticks;

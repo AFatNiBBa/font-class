@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `football-helmet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/football-helmet?s=solid football-helmet}
  * @preview ![football-helmet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/football-helmet.svg)
  */
-const FootballHelmet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M488.1 194.9c4.5 17.1-8.2 33.1-25.7 35.3L340.3 245.5l14 74.5L464 320c26.5 0 48 21.5 48 48l0 32 0 50.4c0 25.2-20.4 45.6-45.6 45.6l-17 0c-54.9 0-102-39.1-112.1-93.1L327.7 352 288 352l9.2 18.3c4.5 9 6.8 18.9 6.8 28.9c0 35.7-29 64.7-64.7 64.7l-1.7 0c-9 0-17.9-1.8-26.1-5.4l-93.4-40c-4-1.7-8.3-2.6-12.6-2.6l-14 0c-9.1 0-17.9-3.8-23.5-10.9C35.4 364.1 16 312.3 16 256C16 123.5 123.5 16 256 16c111.4 0 205.1 75.9 232.1 178.9zm-207.1 58c-14.3 1.8-25.1 14-25.1 28.4c0 4.4 1 8.8 3 12.8l13 26 49.7 0-13.2-70.6-27.4 3.4zM360.3 352l6 32L480 384l0-16c0-8.8-7.2-16-16-16l-103.7 0zM480 416l-105.3 0c13.1 28.7 42 48 74.7 48l17 0c7.5 0 13.6-6.1 13.6-13.6l0-34.4zM176 360a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const FootballHelmet = createIcon("football-helmet", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABhQAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCNAsGAAE2AiQDCAQgBYMtBzYbOgXIHoexY/qBUNHgUocuMR6e1/v+1z7JHSRj5An+lluoIju6pKrpPhAm9wgT84BaIIFl6ck+mgxNU8Ruz6a/+eedRwE+iyyUsXFpIGOe73GeQGJd/jfQBxkLLLEvpF+3yTyMiMIvIiRIJDo+O852kMcrehVqpPvlfdzavjR+1+8qksYMQLQBYN2+e+7szW/im4j3/n+OeM8OBMQ6UAlkyDAkwEqZwJBchVwu+Cb+/5//AysCiDryHgnkqMd5uB6Qg6SW5xuayubGstac71PWiiPv7oq4y/eKvaOMh+PufiEu87uKIp7fJ0bGRxH9cTfum/rYxCJuyH3iHqPrfLrPVwue2fHevl/s/sneez3Ud1l3f5SxT0zcu3+gv4yIe7LYuyiL++fhsox7K454dPCByR5cP8v4J9qe+DPfP+Z9P/8z8zn/k/NbNW9zirnzQVaZr6ve72p329d73RWmutzJrWV7+5Oh5bmbYve6Fq03dOxt/dgYud5e8c3H3bt8uOyonvpJ75ivebMHdzniULnkDG1avjnu3DXHH3/83StX9rV7s2n8nCW7d3fvntFAHLWsx7rYunKsoUzgu5f/vv4j2v7jJD0BGiQQZDP/n+mgRBuJQFqKc4w3NhZITlMD3GqTewQIBQIkdQoBMoPaBMgVZghQM2KRAHUKe8pE3ih0OXiCpMnpILPYxSDX5RlQs9JbWp2uyEKQDiD6A5iwWUOb5qp5s+dWy6ttaDBRRZbxisotTj0nlaZh1TFOdYqzHO0oxztLIWfY2TzbyTZb8CYbqswz21yV5arj5HV5H0c7w5mOd6pT6pQVqvvqVOfYzdOgJII5ny9JRGp9s95Zxx190slHnwUA");
 
 export default FootballHelmet;

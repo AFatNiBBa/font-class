@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wheelchair` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheelchair?s=solid wheelchair}
  * @preview ![wheelchair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/wheelchair.svg)
  */
-const Wheelchair: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM120.5 247.2c12.4-4.7 18.7-18.5 14-30.9s-18.5-18.7-30.9-14C43.1 225.1 0 283.5 0 352c0 88.4 71.6 160 160 160c61.2 0 114.3-34.3 141.2-84.7c6.2-11.7 1.8-26.2-9.9-32.5s-26.2-1.8-32.5 9.9C240 440 202.8 464 160 464C98.1 464 48 413.9 48 352c0-47.9 30.1-88.8 72.5-104.8zM259.8 176l-1.9-9.7c-4.5-22.3-24-38.3-46.8-38.3c-30.1 0-52.7 27.5-46.8 57l23.1 115.5c6 29.9 32.2 51.4 62.8 51.4l5.1 0c.4 0 .8 0 1.3 0l94.1 0c6.7 0 12.6 4.1 15 10.4L402 459.2c6 16.1 23.8 24.6 40.1 19.1l48-16c16.8-5.6 25.8-23.7 20.2-40.5s-23.7-25.8-40.5-20.2l-18.7 6.2-25.5-68c-11.7-31.2-41.6-51.9-74.9-51.9l-68.5 0-9.6-48 63.4 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-76.2 0z" />
-    </Icon>
-);
+const Wheelchair = createIcon("wheelchair", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABigAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCKgsGAAE2AiQDCAQgBYMtBzEbKwUjEXZq7imR/bGQuXmltjEhCo1R/MKxi+Z4JIgqp/WsJFcih0EBBvv4BYwvAMA3AL/OAXBx6nmmhQL4YBELyti4NOdj4Zpd47wCFa1u0NZ6XrCaVsC6O5vEQaPkQEssLce3clyuQJdT2mQMUCvUbWAefqh8JJTJKNw1AADEBwAAqGndvBnnn8kzkVuuI8gtmgACIDUAFgJogAZEIACUoyFABDoWoKMj8ExcLvcfaCEAIDbysxUAOmAAo4GJAKADoNB0va9nTI3d8NRb2Q2z/bbwVWErEzeHLA9dkdBiW39F/PH03daTijMtj5WdylqVuDVkefxm82jqzqh1abuKWgcFBq0MWmpuDlge2lJWJGxJsMsse9ICU3pJ4JLgIlkWvIzjfCIgXlrJSqFrmhIlhluQMoEjV8Tu9Nn5OeZ2r9uc67z+zbFjb9bXpHNpsmOR4zm+iSZ1t2/XyX2H0zkprfjgh3XzYr59/e+tpZV5zHSGhoZm3zjp1+Xp+cSg4TgiPbsYiHTCbBTXhSZbNl9yXWrfuLz8iD0ngZA6llVUhDqYRxVe06d7FUZTAJDHbu9/3rqzd/lvNzuRAuDFya//4q/IdV4ptRNwQwEgoKW70jsocP1XCgEAAACUjIpVAAIoBqOBjgdLpaFgwgCFDRM0wvEBHZM0MIii4AobJs3REN0dIYCODFB4MBQ0ChkDOgEcAoNyrnk2AkTTPkl3pL9f+riTIo5jVk5mtlVqbVtNVigh7JdZx0byKD+XAifpNXjQiJ49+o4g9LBm4ciBTo5yfNHKycy2Si3x8Ky3It6w4X3XqvyQMuu+kzyKX50CtiKz5hYUCkSZD1R81gAAAA==");
 
 export default Wheelchair;

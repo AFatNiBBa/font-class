@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-contract` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-contract?s=solid file-contract}
  * @preview ![file-contract](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-contract.svg)
  */
-const FileContract: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM80 64l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 96c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm54.2 253.8c-6.1 20.3-24.8 34.2-46 34.2L80 416c-8.8 0-16-7.2-16-16s7.2-16 16-16l8.2 0c7.1 0 13.3-4.6 15.3-11.4l14.9-49.5c3.4-11.3 13.8-19.1 25.6-19.1s22.2 7.7 25.6 19.1l11.6 38.6c7.4-6.2 16.8-9.7 26.8-9.7c15.9 0 30.4 9 37.5 23.2l4.4 8.8 54.1 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-6.1 0-11.6-3.4-14.3-8.8l-8.8-17.7c-1.7-3.4-5.1-5.5-8.8-5.5s-7.2 2.1-8.8 5.5l-8.8 17.7c-2.9 5.9-9.2 9.4-15.7 8.8s-12.1-5.1-13.9-11.3L144 349l-9.8 32.8z" />
-    </Icon>
-);
+const FileContract = createIcon("file-contract", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABhwAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCNAsGAAE2AiQDCAQgBYMtBzQbOAXIjtRG+YWZRFDp+rdnpUfSZ9AnoggIjCgTcgSAQXbl1OWQoGrfJy53/udPD7jwxR9trGVPq2nRnAKdB5jmUyzKAst0g3O+23pmUH7IiuCQh/BDDG1yId0B8rgwu1IT6b70DW7Jdxo/6+1KkrYMQHQCwKLN69f5oBGNiK//R3xtDQJiEagEMmToJ8BcmUA/uQq5XNCI//+3/4EVAUQz/pEJ5GjBxbgSkIOkKc8HtHToMLVsap9vKpuK7U+OjHi2V4r7Rj03rH08M+aFvlkUcX2PuyOiKIUyNm0oi/Ku7nd2K+LuHvf0BPHGe6dWvYxQOyQeGPFU7/7ClyXtHmWs7Ly+R5+4u7i+W6+4s/AXTo5+g5/v9Pwvg7459I0F7z/amc5Frejc+VEeNfiiUutw7bUdgkc/qBnj0ktfWbCwqdGhQ2Mh6oR82r+vDGqVg1q9OutHe6tq79Pe7Fh/OtN0O9coZtaGNTcPq60sHh3V4lYgEDzamLNyd8e5v7aWCfz01j+kZ9H/H0SdnkerBIJs7P9j7YgaohYAgBTnGBw1AsnZmvCttnO3AKFAgKRZIUCmr04C5ApjBGgywDQBmhXWy0TeJnSzs8FJO6fDmekuhnPdvAE3mevzrFm3yFSQViD6BzBhOQLLtlWTxk+sZlfDNmG0iozrc6ptY+Q5bmwU7XXIqU5xloMOOOosgM6wrjzbSctn4DIPVJlkvIkqs1XHvXthE2DOcKaj1FPONzFHdT8Z6Zz57FFkJ0w4WUuSiNT+tavjvgA=");
 
 export default FileContract;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clapperboard` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clapperboard?s=regular clapperboard}
  * @preview ![clapperboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/clapperboard.svg)
  */
-const Clapperboard: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 208l416 0 0 208c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16l0-208zm352-48l-64 0 80-80 32 0c8.8 0 16 7.2 16 16l-64 64zM320 80l-80 80-64 0 80-80 64 0zM160 80L80 160l-32 0 0-32L96 80l64 0zm352 80l0-64c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96l0 64 0 24 0 24L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208 0-24 0-24z" />
-    </Icon>
-);
+const Clapperboard = createIcon("clapperboard", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbwAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBdAsGAAE2AiQDCAQgBYMtBzMb9wTIjsQ4JvJIF42HePh/u6j7flUPWkPV2MygHN6NpFDO4CDssykjuJMZ8uXi1POchwL4gBEK2ti0Jki2xkbXPK9Asbgm1gtc31zTClitnX3KK9EZFCEFybD9sBpcII8PYiXSUwlu+zuNH3Vzi6SUAYi2AJi7ef1KnzaiEfFV8y3iK8sREHNBIZAhQ08BZsgEesoVyOWCRjSb+j+wIIBoATeXQI6W2IojgBwkpTyvVVpXBlZKtXxTpVTeXKvWxIOO1XjUOfaXK+XNUYmHndZs2rB5QzkqqZysiNl8dm+Ip4e9NqgaLwx5pasIy54a+urAWrw8/PUegfn9Xmv72s99HWL0r89g7vfqjWsa9e93Nwf41asVGvXmanmOTpvzjMkXCk1zdq9eypbbtXvmmmfirPIcXXX1PYV8fz0IBFcmDv9nd5sZv7WqJPDD+7/+zv2Kmo0kvYZWEgiyEc0RdiSQCABAikv6JQgka5XgbNUjAUIZBZIWypDpoS3kyoZDSW8Tyc0z62Uiby10tBNBUnUWMpNchlxHb0DJDJ8FLXSMTMRoAaEfeAmLWmThtGLsqDHFtGJYyIzUkHZ8erEtD7nEbUPpoENOO+WCgw446kKDnbMyvuikRTN0oS8qjDXKGIVpiuPa/e5NDjrnvKNOO+Umma647w9xad57KGkJCMf5MElEqu4/8a2FdE4CAQAA");
 
 export default Clapperboard;

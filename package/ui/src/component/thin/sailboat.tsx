@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sailboat` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sailboat?s=thin sailboat}
  * @preview ![sailboat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sailboat.svg)
  */
-const Sailboat: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M270.5 3.3c-2-2.8-5.6-4-9-3S256 4.5 256 8l0 336c0 4.4 3.6 8 8 8l240 0c3 0 5.7-1.7 7.1-4.3s1.1-5.9-.6-8.3l-240-336zM272 336l0-303L488.5 336 272 336zM218.1 96.3c-3.5-1-7.1 .5-9 3.6l-144 240c-1.5 2.5-1.5 5.5-.1 8.1s4.1 4.1 7 4.1l144 0c4.4 0 8-3.6 8-8l0-240c0-3.6-2.4-6.8-5.9-7.7zM86.1 336L208 132.9 208 336 86.1 336zm468.7 64l-4 14.3C537.3 462.6 493.2 496 443 496L133 496c-50.2 0-94.2-33.4-107.8-81.7l-4-14.3 533.8 0zM21.1 384c-10.6 0-18.3 10.1-15.4 20.3l4 14.3C25.3 473.9 75.6 512 133 512L443 512c57.3 0 107.7-38.1 123.2-93.3l4-14.3c2.9-10.2-4.8-20.3-15.4-20.3L21.1 384z" />
-    </Icon>
-);
+const Sailboat = createIcon("sailboat", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdwAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBewsGAAE2AiQDCAQgBYMtBy8b+gTIhofn9f6/tU9y8wDlyxrJndGNK4gl0ZoT5zrf+WiART60KCwdyBqHFZ/nL/Dn1Zbn79lgL4pv7morJNH9JIksyd9npb8V5PGxQ1RIN6e3cWX60vhaj0tIsgxANANg2e47Nnn+i/gi4u3/HyHetgEBsRyUAhky9AuwUCbQL1cilwu+iP//t/+BJQFEAWtLIEc19sHRgBwkRZ43V7UYW3tdpSHfzc9ee/gN7ddJcX1HXVzadWPnXntmKdszancbYXbGdR3X1zlu7Iq4sHPn7nwsovbA9q7228beM7M+Hh1/32BnNB13R09H3D7viVkN8diCp4a64tbRjcPva77v22FvH/a2xqdnLN1WbFUc8INKW3vb91tsnIKOH0z24azvt4688ntt6F25ygHFD4ptF39/5ptse8tZ7yxZRI9wxyvvbp1t67uv3LFIZ0dTa7nYE93V9892f3X3E4uVrZ1AIBg8eOSO/ZsW/lpdl8BXT37/V95c9v/zaVG6D9USCLKJ/0+0T1oqk6VFAgCQ4jTDhQYGkp2u7Fbr3SBAqEWApFArQKZPswC5WhMEqBg0S4BCrR0ykdcI7fatcFLvRDgz27lwrt1DcMVCr6mF9si0jNIR6pMXv7oFVtUrp02eWs4vp65CKw4RqheUy8LY01xqHE11mOMd5xSHOsSRTmmgk2wyTnWs1RK4yg+VpplsqtJ85XZwP343hzrJyY50vONiLQuU55WxTpMLjyM5Ae50PZNEpOqTDzzymDcAAAAA");
 
 export default Sailboat;

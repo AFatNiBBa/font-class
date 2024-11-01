@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `closed-captioning` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/closed-captioning?s=sharp-solid closed-captioning}
  * @preview ![closed-captioning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/closed-captioning.svg)
  */
-const ClosedCaptioning: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 32l576 0 0 448L0 480 0 32zM200 208c17 0 32 8.9 40.6 22.3l40.5-25.7c-17-26.8-46.9-44.6-81.1-44.6c-53 0-96 43-96 96s43 96 96 96c34.2 0 64.1-17.8 81.1-44.6l-40.5-25.7C232 295.1 217 304 200 304c-26.5 0-48-21.5-48-48s21.5-48 48-48zm144 48c0-26.5 21.5-48 48-48c17 0 32 8.9 40.6 22.3l40.5-25.7c-17-26.8-47-44.6-81.1-44.6c-53 0-96 43-96 96s43 96 96 96c34.2 0 64.1-17.8 81.1-44.6l-40.5-25.7C424 295.1 409 304 392 304c-26.5 0-48-21.5-48-48z" />
-    </Icon>
-);
+const ClosedCaptioning = createIcon("closed-captioning", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABbwAAAHrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBUAsGAAE2AiQDCAQgBYMtBzgb2ATIhofn13o9983sDwBNABh8HBAVSBG7uJYtqtru1KnnOQ8F8DkEQdtDA7LA9jyvQAFrw8amRqRWrFUUuzstZSHaKy21JTm+OU45XCCPH7NzSqTL6Xucrx8af2riHEmVDEDUBsDohXOn+/i3+C3iu/K7xHemIiBGg0IgQ4bmAgyTCTSXK5DLBb9FuRz+AwsCiAq0bAI5SpiOOYAcJFmeV2nRqlqpRr4gLVY1q1WzVoqakc2/32RovJjwTqdHza93ftz/q55D4lK7Bw0vNL3a6GLH+U6NwFzyxjZPaj/5u/X3G753axQd8LFRPv7q5a03h3w0+tSTJ5Urx92nRn90yJtbvX76Ict++KnX+Z6ogrn014FA4NOv/19Za9h/lasl8MdH//4Nzyv/lkalJ6gsgSDrVu5mWRoFHh2Ak+KANsoXBZLxMvSu1V0QIFRFgKRCVQEyzdQWIFdVVwFKWuovQIWq5spEXkWob3kHSXW7QWaA4yBX39ugZJiv7Ar1IzMo0hzI61zcBA6NX1f07tGrGFKIsUbZCJ7nQ4tprdMBrHWGvTbYaYd91ltns30M2WO6t992EzR4vB8q9NZDL4UhiuXscfsC6+2x12Y77SirDFXstzo5oHd3BjMhzD58SSJSndMrdX+9Qn0zAQAAAA==");
 
 export default ClosedCaptioning;

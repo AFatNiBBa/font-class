@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-caret-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-caret-right?s=duotone square-caret-right}
  * @preview ![square-caret-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-caret-right.svg)
  */
-const SquareCaretRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm160 56c0-9.5 5.7-18.2 14.4-22c3.1-1.3 6.3-2 9.6-2c5.9 0 11.8 2.2 16.3 6.4l112 104c4.9 4.5 7.7 10.9 7.7 17.6s-2.8 13-7.7 17.6l-112 104c-4.5 4.2-10.4 6.4-16.3 6.4c-3.2 0-6.5-.7-9.6-2c-8.7-3.8-14.4-12.5-14.4-22l0-208z" />
-        <path d="M312.3 273.6c4.9-4.5 7.7-10.9 7.7-17.6s-2.8-13-7.7-17.6l-112-104c-7-6.5-17.2-8.2-25.9-4.4s-14.4 12.5-14.4 22l0 208c0 9.5 5.7 18.2 14.4 22s18.9 2.1 25.9-4.4l112-104z" />
-    </Icon>
-);
+const SquareCaretRight = createIcon("square-caret-right", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABegAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBUQsIAAE2AiQDCgQgBYMtB2AbAwXIhof/Xyu77//qPpmaCXKFiBQwKiAVXiBSu2oVopCsCHRPnXqe81AAn+M+1/nGBbbneQRyHs/FO6lCFSqWUMre3dme7ZBdSlqLJuS4mONygSJeydfVSI+lr3CX/wcwftXddZKmDCDaAWDe+tWrvPd9fJ/iq8Y7xFdWIiDmg0ogI6OXADNlgV4KFQqF4PvUaPB9NBoVAUQd/0QZ1FHDcqwBFCAJqSg69OjSXGtdrGuulbsfiStd1sXDnR7sJB7q/FDX9Tnl9Niw1wa1jldGvNEzx+PDXx/cEi8OfbXb2ke6PtJ8s/PaeMjlTmviwfJGl4e7RP/X273+e7+v9n1lylvny/L88f1e++WTNt9p88kvrx3fb8fcuXPL9u2fnevZ9u3LuUR5Zoptzas17SVyyt7bVJtHr4NAsHDah2O3t535f6vmBH58989/5acb38d76XW0kkCQRzZG2hLvAaID+P4U5/SP9zyLQDZWAnzXFg8LEEoESOpKAbKe2glQKI0QoKaPSQLUlVbLomgSOtkqIGlxEmSTXQCFTt4GNTN96tR1iuxRhD8QH7rYxRpatFWNGz22ml6ZiUI6CRaWM6phdeg5agyDU/scd8wZe+1x0BmFnLLKP+uoxT14kQ+qjDPaWJXpquX8+nidvU457aDjjsU1M1T7taHO9fuHwT4JMP4sAplIkXtcS3XU7iSceZXiKP/s69WmryMA");
 
 export default SquareCaretRight;

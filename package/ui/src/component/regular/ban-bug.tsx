@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ban-bug` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban-bug?s=regular ban-bug}
  * @preview ![ban-bug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/ban-bug.svg)
  */
-const BanBug: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 464C141.1 464 48 370.9 48 256c0-48.8 16.8-93.7 44.9-129.1L385.1 419.1C349.7 447.2 304.8 464 256 464zm78.9-163c.2-1.1 .3-2.1 .5-3.2l29.5 5.9c8.7 1.7 17.1-3.9 18.8-12.6s-3.9-17.1-12.6-18.8l-35.1-7 0-18.6 35.1-7c8.7-1.7 14.3-10.2 12.6-18.8s-10.2-14.3-18.8-12.6l-29.5 5.9c-1.1-9.2-3.8-17.8-7.7-25.8l24.5-14.7c7.6-4.5 10-14.4 5.5-22s-14.4-10-22-5.5L307.8 163c-14-11.9-32.1-19-51.8-19c-21.6 0-41.2 8.6-55.6 22.5L126.9 92.9C162.3 64.8 207.2 48 256 48c114.9 0 208 93.1 208 208c0 48.8-16.8 93.7-44.9 129.1L334.9 301zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM140.9 272.3c-8.7 1.7-14.3 10.2-12.6 18.8s10.2 14.3 18.8 12.6l29.5-5.9c1.1 9.2 3.8 17.8 7.7 25.8l-24.5 14.7c-7.6 4.5-10 14.4-5.5 22s14.4 10 22 5.5L204.2 349c14 11.9 32.1 19 51.8 19c6.6 0 13-.8 19.2-2.3L175 265.5l-34.1 6.8z" />
-    </Icon>
-);
+const BanBug = createIcon("ban-bug", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiAAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCPQsGAAE2AiQDCAQgBYMtBy4bOwXIjsK2bRNHmCxnUlHHw46gfj90730IoQtrAHCZOCJjEhljCGxkVEpGEfhOLbq6Tg1aS2cChBtiug8QOyBHKHTeBohati9MZfXN/82e9zwK8BuFtAYtDWRRFu2lCSTWC8ctPFu47MDO9ATs9hY1sVHKfkkmmi7/Hnv82kEeZ1xFQbpXewec5g+NH7A1T1JkAIhGAMDyTlkBrlWhIt/kA+I18kBALAPoRmTI0I5gjrpAOw3dIJcLvlGW8T9QQABRgs+cQI4SJ+AckIMkzzUMQ+1t9DUNNaRwul7Fn1Lyh/Q3rY3v5YoZkjP04Jb1jlUkySh667aFO7etvOhe3lR67ntL/FL8Lvle8StZKv9bRH6l3XEm9bbwU/qV/558jenlm4KPCmnTcsvai1uW7nQP58ddjwVrieGuShPlv5739nfIxgoq4TEUyH3l5oaaVRQ+kCC+QpVg9NMTZjz9Miz49pvhwQSODxcenqx9QNtKziS2SuKisrLCHxlY5XzWIS3NIW5tNQPSiT3Df05cTG+mpQWWAIFg+N8Pswbj+P+V+mqA76d//iq/ov/XCekRVEogyPpkf7UJkAgAQIpxuCYgkBzTwO9a60aAUI0ASalagEwbEwS5ar0ICp0iEJSqbVAXuS5Cq7oGklpHIDNhAuRa7YHCnCet1BrqZkgaEfkLjMuUUMaYCAkMFrFi6KiUZeGxGSemRe9xSvjALNoN6DeqTasuowIZVmCO6ZOpwRm+SAgRKJgQS2z799OSNsNGdBnQn4bEEfdVb+N6vg8oahh1hJCewJ60m5v6A5rHOgA=");
 
 export default BanBug;

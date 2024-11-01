@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-z-a` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-z-a?s=sharp-light arrow-up-z-a}
  * @preview ![arrow-up-z-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-up-z-a.svg)
  */
-const ArrowUpZA: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M336 32l16 0 128 0 16 0 0 16 0 8 0 6.1-4 4.5L380.5 192l99.5 0 16 0 0 32-16 0-128 0-16 0 0-16 0-8 0-6.1 4-4.5L451.5 64 352 64l-16 0 0-32zM160 33.4l11.3 11.3 88 88L270.6 144 248 166.6l-11.3-11.3L176 94.6 176 464l0 16-32 0 0-16 0-369.4L83.3 155.3 72 166.6 49.4 144l11.3-11.3 88-88L160 33.4zM401.4 297.5l4.2-9.5 20.8 0 4.2 9.5 80 180 1.1 2.5-35 0-14.2-32-93 0-14.2 32-35 0 1.1-2.5 80-180zM416 343.4L383.7 416l64.5 0L416 343.4z" />
-    </Icon>
-);
+const ArrowUpZA = createIcon("arrow-up-z-a", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcgAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCGgsGAAE2AiQDCAQgBYMtBzMbHQXIHoex22RJF81w8dUU8fD93L+/9kke5RYyU6IUgMjVkiLVamD3VPuBhQOyBPom8xdSIdTO/zX14vnRAX47skOLskyuJUjm8wlMrCxLZDawmU7AtrfIxEaX/ZJcWkn+sce3HeTxbYzQQHqU4G780PhVN7dI8gxAlACYu3n9Su9/ip8ivqknvrEcATEPVAIZMvQUYIZMoKdchVwu+CnqdfwPrAggGvGLE8jRiBO4AchBkud53/7dmmoNbfNNdsvicK2oCSE6xoao1URRBDhdYnPZYEOnzp02RqcYEp1jXaQQUnkWa6JjDFso6rK1S8cuNaSCXUR373SNYhz12rB5Az6+qd/T8unvfR1i9eOyfFJq1miCUzfsLyvlvQY6DR2wXnnG523erNUhz3ztrFKldNbXnjmk1SR69pelsFZHS61+J/T3o53+1F8Y57c+OWkOIgJxVIfbHx28/Yz/1RL4pfXPv9PPqF/9pyQ9RbMEgmxEfYQdaY5+5iQCAJDikn5pjrECyQE5ftc27gsQCgRIGhUCZHooBcgVhgvQoLeJAjQqrJeJvEXoaGcBSRtnQWaSmyDX0TvQYIbP40YdI9M6RmeYP1/iohpdOKsaO2pMNa2aVmRWkSg3Ob3alodcoo6hsNQhp51ywUEHHHWhws9ZmV100iIJW+iLKmONMkZlmuq4fj9/k4POOe+o006Faaar7vtDXJL7DwUtYbJxHMkTrEht9p47d/ryyItnRl4buRcA");
 
 export default ArrowUpZA;

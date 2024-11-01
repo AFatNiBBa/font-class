@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-music` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-music?s=sharp-light file-music}
  * @preview ![file-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-music.svg)
  */
-const FileMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M32 480L32 32l160 0 0 144 0 16 16 0 144 0 0 288L32 480zM224 37.3L346.7 160 224 160l0-122.7zM232 0L32 0 0 0 0 32 0 480l0 32 32 0 320 0 32 0 0-32 0-328L232 0zm72 232l0-23.1L282.4 217l-128 48L144 268.9l0 11.1 0 90.5c-5-1.6-10.4-2.5-16-2.5c-26.5 0-48 19.7-48 44s21.5 44 48 44s48-19.7 48-44c0-.8 0-1.6-.1-2.5c0-.5 .1-1 .1-1.5l0-116.9 96-36 0 83.4c-5-1.6-10.4-2.5-16-2.5c-26.5 0-48 19.7-48 44s21.5 44 48 44s48-19.7 48-44c0-.8 0-1.6-.1-2.5c0-.5 .1-1 .1-1.5l0-144zM144 412c0 4.1-4.5 12-16 12s-16-7.9-16-12s4.5-12 16-12s16 7.9 16 12zm112-20c-11.5 0-16-7.9-16-12s4.5-12 16-12s16 7.9 16 12s-4.5 12-16 12z" />
-    </Icon>
-);
+const FileMusic = createIcon("file-music", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABhAAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCPQsGAAE2AiQDCAQgBYMtBzEbPgXIjtRG85iVeHhe779f+yRPyRgZSZWMb1RSO913BxYN4PpWLfDFqeeZFgrgGwVlLVoakDEx1LnOI1DAPb3ivVqxphWwLpvD/CIeGgvtD8jjfAxVR3oyfYT7w5vGrzq7QZJnAKIVAGatXr7MO1/FVxEf1RAfWYKAmA0qgQwZugkwVSbQTa5CLhd8FbWa+A+sCCDqpS+bQI5GXMLdgBwk9XnesqH1tKamsq55vqqsKwZlKStDiLJM0Wz9ylUri4ieRVmIFKJsHpHFqpUh+saKaBdCPFbc1e6RTk+2f7S8u+PjXa8GLxSxenPBikf7vtjxsQEvtFtds+OJvV9t9ervvT7a9ZHadM/THtBKqwcqM99+7Vx68XnnT7z33k+Vd1SqLZWFHn98wY8d09tWuzzCw0rrHWts99mHKX34Wbvm4xEhnLS5jxXr2QeeutWYUmNBHm4rDs8DgeBmHP90c8up/zeWCXzz2p9/05+R2riSXkWjBIJsaG2oDXEF4ooAAKQ4pXdcQSA5pV7qNvPY0zAUUEjqFZDpqhXkCkOgTg/jHqhXWC4TeZPQzkYIkmaOQma8i5Br5xbUmepdr167yMBQBCLxLzBt/hSZN64aNXxkNbnaLekkyOLt6JTqsjnwlGwZhLfa5bBDTthph71OTOhjloUnHTT/iJrniyqjDDdSZbLqcfXl+lV2Oua4vQ475ItMUX3vDnTquPsg7CQp42i5JBGpiPLGsBgKAA==");
 
 export default FileMusic;

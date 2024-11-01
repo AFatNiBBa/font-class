@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lighthouse` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lighthouse?s=sharp-thin lighthouse}
  * @preview ![lighthouse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/lighthouse.svg)
  */
-const Lighthouse: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M11.3 .7L4.8 15.3l144 64 7.3 3.2 6.5-14.6-7.3-3.2L11.3 .7zM162.6 188.1l-6.5-14.6-7.3 3.2-144 64 6.5 14.6 144-64 7.3-3.2zM237.4 176l165.3 0 58.2 320L368 496l0-64c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 64-92.8 0 58.2-320zM477.1 496L418.9 176l5.1 0 8 0 0-16-8 0-8 0-192 0-8 0-8 0 0 16 8 0 5.1 0L162.9 496 144 496l-8 0 0 16 8 0 16 0 16.3 0 95.7 0 16 0 64 0 16 0 95.7 0 16.3 0 16 0 8 0 0-16-8 0-18.9 0zM352 496l-64 0 0-64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64zM484.8 64.7l-7.3 3.2 6.5 14.6 7.3-3.2 144-64L628.8 .7l-144 64zm0 126.6l144 64 6.5-14.6-144-64-7.3-3.2-6.5 14.6 7.3 3.2zM324.2 3.6L320 1l-4.2 2.6-112 69.6L197 77.4 205.4 91l6.8-4.2L224 79.5l0 48.5 16 0 0-58.5 80-49.7 80 49.7 0 58.5 16 0 0-48.5 11.8 7.3 6.8 4.2L443 77.4l-6.8-4.2L324.2 3.6z" />
-    </Icon>
-);
+const Lighthouse = createIcon("lighthouse", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABmAAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCDGwsGAAE2AiQDCAQgBYMtBzEbnAXIjtMdM9KNfwSVrvd7VtKrs2Tzgc0yMX9CyoghAg4JUox+hMm8CDRxOf6x6OkBF/mjfGsuG2OeJ/CAadq2wkCyMEsUM5obtPYbFbfLsHmGPP52hIJ0e4Jrgw+NXw1wBUmWAYjeAFi+d+dm7/0UP0V88v/LxCc2IiCWg1ogQ4bBAiySCQyWq5HLBT/F//+r/8CaAKILnphAjhIP4X1ADpJGnvfo0RnQy+GMr4oe+Z6XlPs3O83d0YpOtGPP7nar3Yxd0Yq90dlbldW+UUbEHe1bxjzUvKm/KGP/ffezqqoqoixFCO9D9AhhrUTVX9q5tbp1M6dKlWYvde+y2xZqYE+iGa09DwhUuiToVlFFxN7YXRlbb9k/4oneT/w+/NOjKN85ENXXLnW4k5ymdN/6xonQHEatDkzDp62vHoFmfucky2SffTdt2nefZcscaP7SP5fOdyuKRm+Nr7S6YFb9BHCM5bplyOp5zTU9ebgrnjkMrgOdqr7IlkbSutbhDnLYfW/MwFFOXuVwFzrcK6bpbYGt07VmQROY5pVpyYqHQSD4cv69Mw/uteivRpXAL2/8+Wtxf/H/e+n89AQaEgiySf9PckC6RKFYEBWAbIqzjKDfJJDcpQHv2t0tAoQSAZIupQCZQXoLkCtNFKAw1GwBupR2ykTeTWg6sKGT7k6lM3NcSOeaXqQLi3yQ7dKMzNTKzZz8pzHNmi60WqyePmVavaCe7aoUBlHqbi+sN1vGnaWnxtODjnKyk5zhSEc41hkd6jSbC2c60ZolcrUfqk03xTS1BerDg4eaPR33aU7X0mmj47ssVF8fGOes5cXjqT0B7wwNSSJSaZBlHzUAAA==");
 
 export default Lighthouse;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-bishop-piece` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-bishop-piece?s=solid chess-bishop-piece}
  * @preview ![chess-bishop-piece](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chess-bishop-piece.svg)
  */
-const ChessBishopPiece: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M104 32C90.7 32 80 42.7 80 56c0 12.2 9.1 22.3 20.9 23.8C79.6 100.1 48 139 48 192c0 26.3 13.6 40.5 26.3 48L72 240c-13.3 0-24 10.7-24 24s10.7 24 24 24l5.7 0L64 384l128 0-13.7-96 5.7 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-2.3 0c12.7-7.5 26.3-21.7 26.3-48c0-22.5-5.7-42.4-13.9-59.5l-38.8 38.8c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L177 104.4c-7.4-10-15.2-18.2-21.9-24.6C166.9 78.3 176 68.2 176 56c0-13.3-10.7-24-24-24l-48 0zM48 416L4.8 473.6C1.7 477.8 0 482.8 0 488c0 13.3 10.7 24 24 24l208 0c13.3 0 24-10.7 24-24c0-5.2-1.7-10.2-4.8-14.4L208 416 48 416z" />
-    </Icon>
-);
+const ChessBishopPiece = createIcon("chess-bishop-piece", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbwAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBWQsGAAE2AiQDCAQgBYMtBzkb4gTIjsQ4JvKLKOwiHr5f6/Pc1z2zANQLwOABIaiAHLCQv2JTkdHTIbXv+C5O5VzOQwF8o6DsqYvHxFA6x3kFKtZtE2wBF6ymFbC+bXl0hOXoSElQRTSm40VnyGNkdkmJdDf9jsvpQ+NfLVwiqZEBiPoAGL904Ww/VkVVxG8Vid/MRECMB4VAhgytBRglE2gtVyCXC6qiUsH/wIIAokzenECOHPOxDJCDJOX5sAa1SnXyJbVKNVe+aH6384tub1qfa3KzSc0wYa1YFBlZEr5uda9Lf/B2s9vxqOWouNH0VrOxcaspVZaNmzjuhkWyvfd80wlRs8O7+u/+4/ctv9v6eH6TRh3rtq5VrfGJkzcSU2syv6zOWueKUuY7khsnTzSOnzd7+/bevW998qZjoybz+w09+1bMydX1kX+b36T65LeeAIGg9rHyV2vrjfq/eq0E/vm64a+o8mMMSO9QXQJB1qvSy6o4AjFAAABSHNEhIJBMl8ip2m4JEGpSISmrCZlW6kOupp5Q0tbg02U1LZSJvIbQ2OoASW37ITPEacg19iWUjPJTVNY4MqdiXYJ90yVNsejkdUX/Pv2KEcWwoZyf0HF5ZLFtdTtCQ91hpy322uOQzTbZ7pDBD5idHrbblBk22RcV+uujn8IIxXHnfvMSmx1w0HZ77eFVRirue90cmU/uDm4ihAOcSBKRGm7ctvngwd5fmZTePg0A");
 
 export default ChessBishopPiece;

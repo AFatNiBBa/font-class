@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vent-damper` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vent-damper?s=light vent-damper}
  * @preview ![vent-damper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/vent-damper.svg)
  */
-const VentDamper: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M512 96L128 96c-17.7 0-32 14.3-32 32l0 16 0 224 0 16c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-16 0-224 0-16c0-17.7-14.3-32-32-32zM48 128l16 0c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l16 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-16 0c0 35.3-28.7 64-64 64l-384 0c-35.3 0-64-28.7-64-64l-16 0c-26.5 0-48-21.5-48-48L0 176c0-26.5 21.5-48 48-48zM592 352c8.8 0 16-7.2 16-16l0-160c0-8.8-7.2-16-16-16l-16 0 0 192 16 0zM48 352l16 0 0-192-16 0c-8.8 0-16 7.2-16 16l0 160c0 8.8 7.2 16 16 16zM176 160l288 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-288 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 80l288 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-288 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 80l288 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-288 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const VentDamper = createIcon("vent-damper", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABnwAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCfAsGAAE2AiQDCAQgBYMtBzIbfgXIjtRG+UVWEkGl+8+elT7pwemIdQxs4MxFhKEzcwaY8ytHHF5kqtr3+b/c83t+dIDf6FD2bmxcQ8dYHPY8wb41JiZwYFmBJMYdzXtxEEK7kIYL5PF3TNRGeip9hQcCT8Uf+ruVJM8ARAmAZXt2bPJJK1oRX/2P+MoGBMRyUAlkGDJIgIUyoX+BXIVcLmjF///7/8CKAKJd9LoEcnThRbwByEHSkefDp9ebUbLW1sh3Z5cXZ+qN+t29HiWEuLH3Y7VG3NP3icCH3NTn8eJorag9M+GdMY14bdxb/WuWWE/0F0/uN0YW5ICxb46sx+vj3x5QxOt9Hh8Q8cw5yJhLn+gb8XifIkStKfdEFPFoL/FY7z2NeoMQrVhf2vSJvvzpw98u3/5r2Fenv/L/kRtvvLF5553NUkupXnMjH/h2aBkVF927v3ijF/NvKEpTf/g6e1H29Q9TS3OQoT+3mi9qtkqfKKujZKEYBm74uIqIhhBWRU27tfc7IBCM+fW7vUe6LbzYWUvgl/de9E+mG9Pb6JRAkE38f6KD6UYga0KUSXGd4StvFEie1AF7te5xAUKBAEm7QoDMQKUAucIEAdoMMUuAdoUdMpF3Cb0cakFSdyXIzHY9yPXyLmiz0Kfpdr0iA1MGyJifxMTVfWTVrmra5KnV/GqxqWYhj7LLC6rd5tjr5NA4DHXa5S5zjVNOOueaHnaVTblrXWr1GrrKB1WmmWyqynzV6c5jcXePyMWrPTXPnt/GAtX90bGuW588DjtJhDtdRZKIVHukWD7p5LFLrzh1FQAA");
 
 export default VentDamper;

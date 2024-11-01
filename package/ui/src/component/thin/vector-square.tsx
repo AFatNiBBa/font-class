@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vector-square` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vector-square?s=thin vector-square}
  * @preview ![vector-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/vector-square.svg)
  */
-const VectorSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 48c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0zM384 32c-17.7 0-32 14.3-32 32l0 8L96 72l0-8c0-17.7-14.3-32-32-32L32 32C14.3 32 0 46.3 0 64L0 96c0 17.7 14.3 32 32 32l8 0 0 256-8 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-8 256 0 0 8c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-8 0 0-256 8 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0zM56 384l0-256 8 0c17.7 0 32-14.3 32-32l0-8 256 0 0 8c0 17.7 14.3 32 32 32l8 0 0 256-8 0c-17.7 0-32 14.3-32 32l0 8L96 424l0-8c0-17.7-14.3-32-32-32l-8 0zM32 400l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm352 0l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM32 48l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const VectorSquare = createIcon("vector-square", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABrwAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDXAsGAAE2AiQDCAQgBYMtBzQb4AXIhocvm+X7PSOVbrSrQ+pDZhNnwJBvanO0mYEjpyqnGAFr/m/2vOdRgJ8kzahwLGxTIAt8D44+UGLrDhfeFzk7sETxbJvhkEsEbhIRR1lU8b/LD9s/oIzXXVQjvZq+xNP6o/Gj4R4gKQoA0Q8A644c2KW3He2ILzvvEV/agYBYD7JAgQKjBFipEBillFEqBe3odPg/MBNA1Am6BEo08B2+B5QgqZdlv+PTBgjKZq27PNysVVdeHCxeGFTFS0MiXh7anPzYoIgXiK6IuHfIS1UVwDKDewa/2GxGCtrHh74cEd0hrEyLIPjFIhXDwrboNcjEZtV8UX03kF9+anxPv56fx315+UtvP91uZa12pm90Wo/wSKuBhtYjj7QyF9mwt5yBDo0MuTvn/KT6szB/5kz4HAgE/1w/cPeZvit/azQT+OHjX/9WBDrt6E09aEggKGZ2ZjoZvRA8E8RNcYfxxsUCyWfqQN/a5SUBQoUASV0lQGGkfgKUKjMEqBljkQB1lQMKUfYRBjlVQNLlZlBY7E5QGuQdULPSJ27doCjcmndK/qcyZXONbVrL82bPzctzN5QFT2XjeEWeVqfeAaVpdOiyG93gNpdcdLXbKuIWu4LbXW+zhW9yoWye2ebKlsvLybh92CW3uNXVbnRDWrJCPu9MdYfdPI2MRCjnu5ckInXfcenCbTfeMuvrAAAA");
 
 export default VectorSquare;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-vertical-history` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-vertical-history?s=regular rectangle-vertical-history}
  * @preview ![rectangle-vertical-history](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/rectangle-vertical-history.svg)
  */
-const RectangleVerticalHistory: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16l0-384c0-8.8-7.2-16-16-16L256 48zM192 64c0-35.3 28.7-64 64-64L512 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64l-256 0c-35.3 0-64-28.7-64-64l0-384zM96 72c0-13.3 10.7-24 24-24s24 10.7 24 24l0 368c0 13.3-10.7 24-24 24s-24-10.7-24-24L96 72zM0 120c0-13.3 10.7-24 24-24s24 10.7 24 24l0 272c0 13.3-10.7 24-24 24s-24-10.7-24-24L0 120z" />
-    </Icon>
-);
+const RectangleVerticalHistory = createIcon("rectangle-vertical-history", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcAAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBTAsGAAE2AiQDCAQgBYMtB0Eb3QTIrgt4sin8JcYH47iYkuJWUmklwzLZN+Tijz4cwcd+bd/7cohYh6QJj+YlQ0iEBknTUS9VSrmhksnff37ce+4HlN4HXNGoAWxQiFCe40JZY4gLeclcO66nVh0kiHieY8sGHHKknx89C1wDrAECdMG1Q0igvVR4BJ469TznoQC+UdDGwqUBWUBjLI5AxIZvSlrwWrFWq6DW3NU9WNG0j6QlZUkev/29LFDGX7yiIj858FLeNP7MOidVBQBiBAAcPjTL+NhuxG8T4scJCIhDACsIBQosILCDK7CAZwWUSkHX5vE/ECCAqCE3JyhR4xhcAihBKkueak4mk/LlvE56tmR4oSNd6ouujUpXhizc+4Xe3EUP3m8m3XieI+nRtxZt3bvP1OG4usrWUe2/Ck3zjKEubaoxMNqG9uhIjsG06iZs8qqu30TlJ8JBVAHXAYHg++vSO/8eHMBvG3S6mQecDuiRICjWGjHKAwB0EFEy9mEzPiiQjvDgVQe8CRD6ECDV+gQozFMhUOqzikBlSRKBWp8bXFGKESaMKUgDHkFh2wEoTXgHlR2fcm0iuO5EOAPxmYstjVBxiEVDEZZjS0cnPQTLzTzb5jz7lPBiFvM2rNs1Z9aS3QHZVtb2rClZcNEXMVEhEUwOO/afxzvmbNuxZMM698lj9yWPfTvfC5FDUNf9YEoiLU9zM7tT6wurc8GHJul8AAA=");
 
 export default RectangleVerticalHistory;

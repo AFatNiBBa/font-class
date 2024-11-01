@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cauldron` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cauldron?s=sharp-duotone-solid cauldron}
  * @preview ![cauldron](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cauldron.svg)
  */
-const Cauldron: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 160l0 160 64 0 0-160-64 0zM128 32a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm96 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M35.1 224C16.5 257 0 297.1 0 334.4c0 37.4 11.9 69.4 32 95.5L32 512l48 0 0-39c40.4 25.5 91.8 39 144 39s103.6-13.5 144-39l0 39 48 0 0-82.1c20.1-26.1 32-58.1 32-95.5c0-37.3-16.5-77.4-35.1-110.4l35.1 0 0-64-80 0-144 0-64 0 0 160-64 0 0-160-16 0L0 160l0 64 35.1 0z" />
-    </Icon>
-);
+const Cauldron = createIcon("cauldron", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABewAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBfgsIAAE2AiQDCgQgBYMtB0wbHAXIhof/11nepy/7zMjLoGWmIHGVyl0Ay+2CVKX2xOXO3zY94CZ9tD30QZbP9jhPILEuLw5kbKFMM7B2Z6PsgPY4loYsyfHNcTpAHq+mm1TIHs++xL3lfwDjL13dRKY5AYg2AJizad0K9e/j+yy+bHxEfGk5AmIuKAUSEnoIMF0S6CFXIpcLvs8aDb6PRqMkgKgiMLGq7mx7cASQg0xIeT66uX3LWqVlvrFWKTY91iXiMc+PELWI+Kp25ypmvdvv+m5PdMuKQhQ+qW0TJve+6bqOEQ/X7uz8aFzf6ZHijg4P2fD4gJcHvdr9iYGv9H+pS9832rzxT58vD36p73cXn+LNHk2/rjXaIL+uWfPrIKOt9WtTjzefutjPbKu/fc5sz2mzerZ+dvV+jrzZUq73ta1u47ZWtS3Udo0qTl555ckCTgcCQZeHFq3f1Xr6/021DPz48X9/4g9Jox717A00yUCQhjeG2x51iLoAAGRxib5Rx26BZLSEPrWFRwQIBQJkqgoBku7aCJArDBOgopcJAlQV1kkibxY62NGITAtniGSiq4lcBx8SFdN9Eld1iGRoopmI37y0hRJYsK0cM3J0ObVctrFkO3xcn1Zue4MvwbEhsNdBp5x03gH7HXFe4GetyC44YaGGLfBFpTFGGq00VXnce9y90QFnnXPEKSfzJtOU96PBLtFnD4EwQ5xjHZMkIovUZt+eC8f3nz11coTFOu065WkC");
 
 export default Cauldron;

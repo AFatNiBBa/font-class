@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-zipper` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-zipper?s=thin file-zipper}
  * @preview ![file-zipper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-zipper.svg)
  */
-const FileZipper: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 496l256 0c26.5 0 48-21.5 48-48l0-268.1c0-1.3-.1-2.6-.2-3.9L248 176c-22.1 0-40-17.9-40-40l0-119.8c-1.3-.2-2.6-.2-3.9-.2L64 16C37.5 16 16 37.5 16 64l0 384c0 26.5 21.5 48 48 48zM361.1 160c-.8-1-1.6-1.9-2.4-2.7L226.7 25.4c-.9-.9-1.8-1.7-2.7-2.4L224 136c0 13.3 10.7 24 24 24l113.1 0zM0 64C0 28.7 28.7 0 64 0L204.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 145.9c9 9 14.1 21.2 14.1 33.9L384 448c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM81.6 340.1c-1.1 4-1.6 8.1-1.6 12.3c0 26.2 21.6 47.7 48 47.7s48-21.4 48-47.7c0-4.1-.5-8.3-1.6-12.3l-23.5-88.2c-1.9-7-8.2-11.9-15.5-11.9l-14.8 0c-7.2 0-13.6 4.9-15.5 11.9L81.6 340.1zm-15.5-4.1l23.5-88.2c3.7-14 16.4-23.8 30.9-23.8l14.8 0c14.5 0 27.2 9.7 30.9 23.8l23.5 88.2c1.4 5.4 2.1 10.9 2.1 16.4c0 35.2-28.8 63.7-64 63.7s-64-28.5-64-63.7c0-5.5 .7-11.1 2.1-16.4zM112 344l32 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zM104 32l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm0 32l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm0 32l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm0 32l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm0 32l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm0 32l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const FileZipper = createIcon("file-zipper", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABzwAAAKZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHyEEQsGAAE2AiQDCAQgBYMtBzIbEwbIjsQ4JvKLKOwiHr63+Xru2/2yvFqzwOY1sQzEIaaKgKu4cheS6xB2mVSe1OqQ2nd983/N52fnB/jFzxIl15SFHZSpJTDQSMrkPZ/NNmHb4rarIKIhjpDYQR63Os8A6bnUwyPhQ+NfY9xHkmUAYjgANp147D6H/og/Inp9iZ49CIjNoBLIkGG8AGtlAuPlKuRywR/R74v/wIoAoiaBk2U5huIfHGE+nqTM82nl+PbooYm9MTAkP6EYWOwbUg55p/PMuCzuVv5F3N9+OsK+rCjizeaTo1M813pq+oVPt0+Ip9viuemNc16YG/HBzEY80Do+npLi2VnvTivj7Tnvj81OftLRkMYDnWfG3a0HFPFk87j2iced+AKD3xrDElbE3d1Z1igaT7U2JcWh9mc6p4ywd+6U94e//x+9C3r66P5yOCulxE1GfHBwxE1C9uDK2XfJDv/SnXVA3Huv4a7WOvrqi84sRjDi1Qc1f0W2X5ulCS10vFpeWNx19KhWLe/92mz+2strrfaJVn861Ker2yce6ZyY+l1w1VBXXeANOvUbrLDVO99XSdBZtdpZldI5aEW329XKroXij54HAkH9yi+LM4et/b/eSOCvg12fr38o7krvoy6BIJvXn+e0uAtEe5C4Utxgys4PBZJflJJ3LT0tQCgQIKkpBMiMM1yAXGGuAAMmWiZATeFYmcgHC02n9yApXQ0yy90Ock1fgAFrfeWsaUYG8Dy48v+bSbaPoW39qkULutXqajOlFcAwa1vXVKfls26QJbPxQhe40hWuc77zXOy6EXKNfZ7rXW77HnrbdyuLLNBVWa26nX0uOWHkvMa1Ll4X3e9ljep98yw37FefjVVJQrlYUpKI1Pi4guffcvFVV51/DQA=");
 
 export default FileZipper;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-radar` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-radar?s=light chart-radar}
  * @preview ![chart-radar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chart-radar.svg)
  */
-const ChartRadar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 288c-11.4-19.8-11.4-44.2 0-64L108.3 64.2c11.4-19.8 32.6-32 55.4-32l184.6 0c22.9 0 44 12.2 55.4 32L496 224c11.4 19.8 11.4 44.2 0 64L403.7 447.8c-11.4 19.8-32.6 32-55.4 32l-184.6 0c-22.9 0-44-12.2-55.4-32L16 288zm27.7-48c-5.7 9.9-5.7 22.1 0 32L136 431.8c5.7 9.9 16.3 16 27.7 16l184.6 0c11.4 0 22-6.1 27.7-16L468.3 272c5.7-9.9 5.7-22.1 0-32L376 80.2c-5.7-9.9-16.3-16-27.7-16l-184.6 0c-11.4 0-22 6.1-27.7 16L43.7 240zM312 160c0 17.8-8.3 33.6-21.2 43.9l24.1 60.3c1.7-.2 3.4-.2 5.1-.2c30.9 0 56 25.1 56 56s-25.1 56-56 56c-29.2 0-53.2-22.3-55.8-50.8l-54.7-10.9c-9.4 17.7-28 29.8-49.5 29.8c-30.9 0-56-25.1-56-56s25.1-56 56-56c6.8 0 13.4 1.2 19.4 3.5L211 193.3c-6.9-9.3-11-20.8-11-33.3c0-30.9 25.1-56 56-56s56 25.1 56 56zM270.5 293.8c3.6-6.9 8.7-12.9 14.7-17.7l-24.1-60.3c-1.7 .2-3.4 .2-5.1 .2c-6.8 0-13.4-1.2-19.4-3.5L205 254.7c5.9 8 9.8 17.7 10.8 28.2l54.7 10.9zM256 184a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm88 136a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm-184-8a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const ChartRadar = createIcon("chart-radar", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABmwAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCYgsGAAE2AiQDCAQgBYMtBzIbZAXIHoNts3lEssglJ/P6AUYshwiqtezZ2wcOOZYIKiwsGh1jIpGNj9Ax4is2wvGRXc48tC9HF8gVwQouAVdy56pNvgpcX4/zf83nl3YN+AmOT+yEonFpjZEYEc8nMOCzYbVY82yiONtmOEmEITRU1BG+RPywyQ/bbyDHOdoBk3RPewJOy13FJ40eklwAQPQAANg+TIiCm250I57+D4l3EUBA7ABgDKIg5yEI1tAFboBhDMiyoBv///IfOAYCiDLoJyeQUcMJXgEZJJXMUKvthVwulzAFjGTC5KVs26bgjifBQ+sk3LJKxE03Hh7ZJDuOKpJwzJzghioFJ5TJOG7Bw1V5YsGkmTMOkzXFmGZSPmq2rhzXBuOkmzjMqCYshxWOOI6suBsnTqhccIg3pLTDMUVQ8obetMWqeso8qUirmZY12RZvPxs/FT8RvYpEGQswu3UCW7O9Fqjr8ZcevOeFD2uTGBLYAbSi9k/Hruj+amN/n83T4buX81/+a3ndX/b6TUWi473hfYeKkT88Wi6silMo4iqe0q9N/zF7vx0AAsHF1/EIkd8rh9AAPt50r83616O6KWjbQFUCQTH9byczwb+KpIAQS9EMJs43CSTHKuhem24ECHUESMrqAhQGiSHI6qYgKBnhDkFZ3S66yFwIA7ImSJqOQGFVF8gG7IOSNbexsoGgR6YWV9p/YXYwQkHzKGcHJ8qHeqwaerApedqXOnZZNXOXNS2EYjWqNSpSqEwjcPWikk2qBHtEkB+iOHPghOKDum6828kQq9egzDbvZ/FFvR+w0uwPtiYvjQouKkgSkcg3mWNfn1eYVw8A");
 
 export default ChartRadar;

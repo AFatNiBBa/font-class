@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `thought-bubble` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thought-bubble?s=solid thought-bubble}
  * @preview ![thought-bubble](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/thought-bubble.svg)
  */
-const ThoughtBubble: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M374.8 80.3C355.9 33.2 309.8 0 256 0s-99.9 33.2-118.8 80.3c-3-.2-6.1-.3-9.2-.3C57.3 80 0 137.3 0 208s57.3 128 128 128c14.4 0 28.3-2.4 41.3-6.8C184.7 361.6 217.7 384 256 384s71.3-22.4 86.7-54.8c12.9 4.4 26.8 6.8 41.3 6.8c70.7 0 128-57.3 128-128s-57.3-128-128-128c-3.1 0-6.1 .1-9.2 .3zM144 480a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM32 512a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const ThoughtBubble = createIcon("thought-bubble", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcwAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBXQsGAAE2AiQDCAQgBYMtBzUb4gTIngU5GdorwWLIyZUl8uVKecKKh779Xu/M7gsA+0ShwrYSQahKAhcZF1eg47+QrZAxpgS6+t3/mLs/8yR+E9OGiU2sgSdWykJHREsj75HsbcNz3Mu73CqqqyiKdreK3Hz+r/n80o4O8NuV+KFFYemBRFKs8/kEJtBeYlE2sJlOwPa24dEhiqcRJUIS0Zg2Vgeo8ansacjX+Qkc64fGPzJ7pN4CIEYAgFM3e9rg9nN8jjhpj4gTLUBAnAJYQVBQsICAHVSBBTQrQFUFn6Nt8T8QQQDRxW4pQUWDq8BtACpIpdbVwfH+ZrDe6G/67nywQXS2r2UrmfO4c4kt+eoq5jBOLuBLkXnZv9H31K9PtME5U/I0DanL+NJUkUC8jO0p4+xPCBxOKlfXEZ2a9nP+E8p3v374frjl51ttLp0J0JvNM51i02k6rVKl06cmjCvo9edx9cnJauNkNIIjjobqkAogzns+vlabEO787+lP8PXj9z/5FbW3KTvokSAoa63DaIIkAAAZT+gSAuksKn3XAS8ECH0IkLr0CVDMEyGg6rOKgMaSIAK69LmKKmqvMGFsgDTgPii2rYNqwgFo7Hhxu0xEKSupKKRfXXq9h+qWodflwRgu67pcKQLPx3HbsJSpzwp7YV5GWtGcWUuKjsxrC0rW1GdEnS9CXi4eKAaPW8ft/ebkFSzJSMsicXjfsSjno61gUxjvuoqURA49pbRzujQ9vToH");
 
 export default ThoughtBubble;

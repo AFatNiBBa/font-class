@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-area` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-area?s=sharp-regular chart-area}
  * @preview ![chart-area](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chart-area.svg)
  */
-const ChartArea: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 56l0-24L0 32 0 56 0 456l0 24 24 0 464 0 24 0 0-48-24 0L48 432 48 56zm209.9 73.9L224 96l-33.9 33.9L96 224l0 112 0 48 48 0 288 0 48 0 0-48 0-96-64.7-75.4L384 128l-30.1 30.1-4 4-30 30-33.9-33.9-28.1-28.1zm96 96l27.3-27.3L432 257.8l0 78.2-288 0 0-92.1 80-80 62.1 62.1L320 259.9l33.9-33.9z" />
-    </Icon>
-);
+const ChartArea = createIcon("chart-area", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABYwAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBVAsGAAE2AiQDCAQgBYMtBzEb1QTIrgtsOr64VkN0qKwjxpYS2g5z5fGWv8l5MJ7///3+N9e+537zJpZUkhhE8dJJiWahEiKhUsobVDL5WjKm9wUA96kigBGAm1s8GlU7yQ6FrlsyQ0YgyG6/2y9lUYRxqCHWAF+q0RsCA69dhbyXWe3Uqec5DwXwjYI2pi3N+TwfY51HIOC7PrFWoFjBaloB6+5sOziEfVoasiTHN47PFVpesp76WcDX9KH5x+6W0ncAyAIAeFwTPXyOMkr+huSPDgjkEbCF0KHDGgI3hII1IlugacIow+D+A7cgQMZApyrQ0OMV+AyggdI1kXHTqOzVounpXrEQmSKkCJlWEylUwqm723yWPkZrJprOcXazkl9xl/1PB7uescgMEc3kXW5zvzNgg8AVlSBs7oC3fVZer/BZLG2cCgrOU6uKjX9DEUN6LzWgmX19bNHIGLxDDxCEp/O02vzN/4lpAeDv75Vf0TAq9QsTCoTucDi0mKAIAKByzZEQlJeE8KwzvgmIKQSUMVMCOqt0CDRTDhDobYghMGbKB0JpcsSKpQrKjC+gc+0GNCueQe/GlzpmJTqTIgyC+NDF1iVUm+Izf5DTPA0waSVYGGZ4md+99gUXXMS2E8cubdm051Ig53rGlSN1Da75IhbiF8TSeDu+35+25dyFPSeO45gMPi87Xev1LpAECPWcrRQpxWPifHcPAAAA");
 
 export default ChartArea;

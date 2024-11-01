@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-winter` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-winter?s=sharp-light hat-winter}
  * @preview ![hat-winter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hat-winter.svg)
  */
-const HatWinter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M278.4 22.9L256 0 233.6 22.9l-.9 .9-1.3 0-32-.4 .4 32 0 1.3-.9 .9L176 80l22.9 22.4 .9 .9 0 1.3-.4 32 32-.4 1.3 0 .9 .9L256 160l22.4-22.9 .9-.9 1.3 0 32 .4-.4-32 0-1.3 .9-.9L336 80 313.1 57.6l-.9-.9 0-1.3 .4-32-32 .4-1.3 0-.9-.9zm1.3 32.9l.5 0 0 .5L280 70.1l9.8 9.6 .4 .4-.4 .4L280 89.9l.2 13.7 0 .5-.5 0-13.7-.2-7.8 8c-.7 0-1.4 0-2.1 0s-1.4 0-2.1 0l-7.8-8-13.7 .2-.5 0 0-.5 .2-13.7-9.8-9.6-.4-.4 .4-.4 9.8-9.6-.2-13.7 0-.5 .5 0 13.7 .2 9.6-9.8 .4-.4 .4 .4 9.6 9.8 13.7-.2zM32 480l0-48 448 0 0 48L32 480zM0 400l0 32 0 48 0 32 32 0 448 0 32 0 0-32 0-48 0-32-32 0L32 400 0 400zM167.5 132C65.1 183.7 39.5 321 33.6 368l32.3 0c.8-5.8 1.9-12.8 3.3-20.6c.5-2.9 1.1-5.9 1.8-9l8.2-4.1 56.3-28.2 48.6 27.8 7.4 4.2 7.7-3.8L256 305.9l56.8 28.4 7.7 3.8 7.4-4.2 48.6-27.8 56.3 28.2 8.2 4.1c.6 3.1 1.2 6.1 1.8 9c1.5 7.9 2.5 14.9 3.3 20.6l32.3 0c-5.9-47-31.5-184.3-133.9-236l.1 4.2L345 169l-.5 0c33.4 21.8 56.2 55.6 72.2 92c5.4 12.2 9.9 24.5 13.6 36.4l-47.2-23.6-7.7-3.8-7.4 4.2-48.6 27.8-56.3-28.2-7.2-3.6-7.2 3.6-56.3 28.2-48.6-27.8-7.4-4.2-7.7 3.8L81.6 297.3c3.7-11.9 8.2-24.1 13.6-36.4c16-36.4 38.9-70.2 72.2-92l-.5 0 .4-32.8 0-4.2z" />
-    </Icon>
-);
+const HatWinter = createIcon("hat-winter", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABtgAAAKvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiEOgsGAAE2AiQDCAQgBYMtBzEbOwbIjtFjRwxLcuTyieHz4nlqv9dz922ASCdlFBYtoI0qCVV2JFwnwidCNcL/qWU03v3Quw+FpAwpAJGrajWw5TG4sfBTdXv7n2vqBVACfroEPD+UXlg1SCRQ5vMJDDSSK3QTGdhAJzgAG+OszXmCOohw2yPxBD2HNWxSw9QOaj4wmkl5rv0Gj+1F85qnXYraACCDAODEuaYafP3LVvL7/yvIS1UgkJMAFhENGswiOEwXzDIsgqoKLf7/X/8DFQRIO/jzCqjoIEgHgAqKtmoU5Fg7npemrdEqTTEWGREZTpcIhsYzyGjCExHXIJMJi6RrIhIV90iGxCuke6ISGbeQ3gmOoNscSRIZC4mMBglJQZfsiT3hFiFI0i0k6Q5CSnf93u1kO5E+Ir2tIJEeW3KtGP0eTd77kOcekkfuRdWJKmboJq9wHbjmeyRP/S5jH1e6Egn/7DjxzKRbXFLOSpi+MD1n3i/qyMmBaw63/5Z+j/6G64tWfnpA8YG9gitGQDHgAw1nRQ8YBPR7jnimH/S7gSHXYJtK8dyXPg25G/p+FU/JV8T76l+nVGMpqqVwzj4ZuQGbH2F9UsFqpjGWsO+3JUMJv09Id441Gu9OxWP945+NSB1LoFxfKHgInUOwlp7sAQWr4xosMYAgbL4f2Oizz/5qJTXAq/f/PwLfov9fNWUNdCogNCv/o3UXQCEAgJJVBBYgKH4w8Z5eTwRENwKKdt0HNGY4QNVtGdrMS9FF5ymJSLWOj+rJUPRahcZeO1CNegFtDvuWaDca/S0w97D5D5qz1OMl41RCbLzKVJdF09rYeh/OUrI7fLU1RWAjRs2ZtWzEsAnLjllUk14xozSSlbyRkiBWPCWTWq58Xt1qxKIlE+bMjlGyqOfj4VbjzhHwaai409yikCLGB5ZjviYAAAA=");
 
 export default HatWinter;

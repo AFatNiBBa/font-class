@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `drum-steelpan` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drum-steelpan?s=solid drum-steelpan}
  * @preview ![drum-steelpan](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/drum-steelpan.svg)
  */
-const DrumSteelpan: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 32c159.1 0 288 48 288 128l0 192c0 80-128.9 128-288 128S0 432 0 352L0 160C0 80 128.9 32 288 32zM528 160c0-9.9-8-29.9-55-49.8c-18.6-7.9-40.9-14.4-66-19.4l-27.8 43.6c-7.3 11.5-11.2 24.8-11.2 38.4c0 17.5 6.4 34.4 18.1 47.5l9.8 11c29.8-5.2 55.9-12.5 77.2-21.5c47.1-19.9 55-39.9 55-49.8zM349.2 237.3c-8-26.2-32.4-45.3-61.2-45.3s-53.3 19.1-61.2 45.3c19.4 1.7 39.9 2.7 61.2 2.7s41.8-.9 61.2-2.7zM169 90.8c-25.2 5-47.4 11.6-66 19.4C56 130.1 48 150.1 48 160s8 29.9 55 49.8c21.3 9 47.4 16.3 77.2 21.5l9.8-11c11.6-13.1 18.1-30 18.1-47.5c0-13.6-3.9-26.9-11.2-38.4L169 90.8zm56.3-8C224.5 87 224 91.5 224 96c0 35.3 28.7 64 64 64s64-28.7 64-64c0-4.5-.5-9-1.4-13.2C330.8 81 309.8 80 288 80s-42.8 1-62.6 2.8z" />
-    </Icon>
-);
+const DrumSteelpan = createIcon("drum-steelpan", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABgAAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCGAsGAAE2AiQDCAQgBYMtBzQbHAXIjsJxr8SgRYALZYCh7HiAX/ffufPmfXMxb60EKcJOgCrdhKjqtHmb7n9czSzEvzwrI5ENZChwkhPApuRQ7m2988Wp5zkPBfA5BEEZGxctkAU+53kEAp7tSQdQRYq1AltV+7bh0RGE0JAICRORxpPG64Q4PKZ2SROdit7jQH/T8EutbiK5KQAIJQBAvykTRjn8Er6EcPN/jfDOCCBA6AeQQKSQQgMIeqIKaIAmAWKxwJfw/x//AwkIQMgC/qkiECMbC4CNAMQgko5pymphRSk3zacl56c5eR8nhfCQgRcnfsjbPflTkxAmp3yeMulEFYbBHjOB7njSttZyfNByQzmkSDzdAsNg3u6KKdU0d0/L5LvNVmX98n75QMB0gBKvhO11npFHnWo9b5t1W9R2KGY4u5uZF0QL76b3c95rfKFBXALGZtoeajc2GZfZsGFcZmzS7lDbsZlxyXqOrdlXudZoJ/mxS5Va6Si8+tNoeYl5e+SEfP4oFD/chKdJcnynJ/mJRQZJ3P+5GIXyevn4dl06myMuHRsbr+Nk028zmVsgIPCzT0361OKev1lcCsC3x44P8vT/t6hvdBk5IhBItfvvLjPqC0A8Ak4UapmdDwqIzEDHVoHjWS/IY0EkSx6k1BNBLE9bSGskgA4uT0AVYjYEFbIAIgWWQ0oPLRCrsAJpPV3YWSpCqujYkmG/fEmDNTJoLOns6U1CydE3uTqiWz+MhOVWtZRzgQO5ypSqliNbgZAKqxTl1SgR4aHhvojw4ckbEYqko3cpWdmVqhTYQn5IGHLfclbrV7uARsGEXUxHIkLEz16xenH7568vm74EAA==");
 
 export default DrumSteelpan;

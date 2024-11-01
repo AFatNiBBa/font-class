@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-medical-flag` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical-flag?s=sharp-thin house-medical-flag}
  * @preview ![house-medical-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/house-medical-flag.svg)
  */
-const HouseMedicalFlag: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M464 8l0 24 160 0 16 0 0 16 0 128 0 16-16 0-160 0 0 320-16 0 0-320s0 0 0 0l0-16 0-128 0-16s0 0 0 0l0-24 0-8 16 0 0 8zM624 176l0-128L464 48l0 128 160 0zM276.8 33.6L416 138l0 20L272 50 80 194l0 302 336 0 0 16L72 512l-8 0 0-8 0-298L20.8 238.4l-6.4 4.8L4.8 230.4l6.4-4.8 256-192L272 30l4.8 3.6zM240 184l64 0 8 0 0 8 0 56 56 0 8 0 0 8 0 64 0 8-8 0-56 0 0 56 0 8-8 0-64 0-8 0 0-8 0-56-56 0-8 0 0-8 0-64 0-8 8 0 56 0 0-56 0-8 8 0zm8 72l0 8-8 0-56 0 0 48 56 0 8 0 0 8 0 56 48 0 0-56 0-8 8 0 56 0 0-48-56 0-8 0 0-8 0-56-48 0 0 56z" />
-    </Icon>
-);
+const HouseMedicalFlag = createIcon("house-medical-flag", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABigAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCDEwsGAAE2AiQDCAQgBYMtBzkbnAXILg5sNxRDaDV2FOL5YTGep9d9eu6TtJYlM8gAECTsgEpDFaqyqQC4AyzanbSuU9FPZtXAhgBSbV9fioXxPnE5/XG+VrysxEMbe1CbxhrnCYQBfj6tC7wszBLFNNr2prCGeogHoXCGOv+4VUN5pcDh4kNzxELPU1QVgMwAwElXXHKeHyYykfw6+pT86hwEchIYBBUqLBFwrEqwRG1ArRYmMhqZ/8CBABmDFyqgxiS8ic8BNSiaut4wedWmFX0ztb68b7o7RN+LSNeVdKnyTAp0zTP7uCzSRfqbL7v8Mrk8l6ZkamRKl1TZnzmZl/m5ojw299K+60Vu1WQqiSjp+4rLRNfts/fz2iwUK9+yr3A7f34OZeN4mkdnjAfIwEQAFmjN0L76+tNoHPe08asPvkPfPcfhe3x/2FYXmuHKtrXR+251wCVG3zuFKax+oRPPbO2XaVsnatn9+7VDp8FJZ7Rw79++5NyvAvQPHweCUH17+mHTj/277Qv466tH+D3N6IfydBmtAkK1ebTZtTKpIckHyJU8buXGFwXFaxp41yleFBAdAooxnYDKYjME1DqbBDSW2SNgTOcSldSTxRzXdeJiiofElb2eENfm+FjcONaP2TFzUlGsht40P4wZTx/Cpx0admzdPhw9rPY0WiJUxd1jhsPO9Y9PZjbwk273gPs96ja3usujA+ph5xUec5/Tt5DT/NBgh622GxxtuDx8arx8kHvYI+5a1l3f5xjD89H1Ht9evoF7CijdqakopMyiZuuWF9i05fMA");
 
 export default HouseMedicalFlag;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-medical` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-medical?s=sharp-solid users-medical}
  * @preview ![users-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/users-medical.svg)
  */
-const UsersMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM48 192l148 0c-2.6 10.2-4 21-4 32c0 38.2 16.8 72.5 43.3 96L0 320 48 192zM640 320l-32 0 0-32-32 0-64 0-32 0 0 32-75.3 0c26.6-23.5 43.3-57.8 43.3-96c0-11-1.4-21.8-4-32l148 0 48 128zM480 480l0 32-352 0 48-160 240 0 0 32 0 64 0 32 32 0 32 0zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm288 96l64 0 0 64 64 0 0 64-64 0 0 64-64 0 0-64-64 0 0-64 64 0 0-64z" />
-    </Icon>
-);
+const UsersMedical = createIcon("users-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABiQAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCSwsGAAE2AiQDCAQgBYMtBzQbTwXIjsQ4hnIJxWRyE/H0+7Hfc59g2rxD0uQhayVUpotmk8TQAokSrPIttO8/ymHvt05qpDY3aIJ5oIaVk6ebOP+X0xt0mw7w8xEc2hijBbKA9n6eQKCH+aYEelmYRZQIZ+1M8galK4PEB59kGN8wOUGd35KDaCjPEq8Bl/FN8wNdg1B0VQDIIABgYzctAfff03uiV/+vQN4RBwLZADCNUKHCOALLJAXjpEyDWi180v//9B8ogABpAbz4qRpduADXAGpQdNRSiopcXVVfl0srSmVyaZZ3xeHU/sT9quOZ0zkvxebZijnjM3gNYJTVwDgjYgzppntmfVqcMtJBepNFnBCRnsw+faJlq30+bLGru4hjnQXzHTZkuae3RCWccWyZ3QkliJ9geqRy9N3kdeVrjN+735mV1XnfzzXb7N29GeQFquoNfoXTUVKPQC7EnkCcQT3VwJkBtr5+YzGcXvAPQjBBfPzXewK85dfr6tbnP3mix3qoYFwUjKVwjwOC8PC58EuRsv8vOS4B+L758zvy3f/vS/RKHIFOBYRq9r898ksvQNwAtZJOmAofFBQHZOFVez0gILoRULS6BVTGqCBQ6zaDQGOSBwKtbpskpZZHjCqooOi1DypLukBt1CXQWPas2hqNpDZKuiR9BtMjORpxSLg4OgtfsewpsoIJYddPbPvWnX7GxhxFpSaN2lUoV6Odsa0SGh0aREpMhC8SXDhyJvgSx8N7PdPWWrWpmdvifB8/4n7FWqe83MZEEsA7p6kopCgqt+3wOAEA");
 
 export default UsersMedical;

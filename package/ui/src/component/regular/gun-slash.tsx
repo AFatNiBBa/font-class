@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gun-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gun-slash?s=regular gun-slash}
  * @preview ![gun-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/gun-slash.svg)
  */
-const GunSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L412.3 297.8 432.9 240l32.5 0c10.6 0 20.8-4.2 28.3-11.7L513.9 208l54.1 0c22.1 0 40-17.9 40-40l0-64c0-22.1-17.9-40-40-40l-8 0 0-8c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 8L113.9 64 38.8 5.1zM175.2 112L536 112l24 0 0 48-49.4 0c-10.6 0-20.8 4.2-28.3 11.7L462.1 192l-163 0-21.8 0L175.2 112zM338.5 240l43.4 0-9.5 26.6L338.5 240zM80 192l0-33L32 121.2 32 200c0 22.1 17.9 40 40 40l2 0c20.8 0 36.1 19.6 31 39.8L65 440.2c-2.4 9.6-.2 19.7 5.8 27.5S86.1 480 96 480l112 0c14.7 0 27.5-10 31-24.2L265 352l59.9 0-91.4-72-38 152-79 0 35.1-140.6c4.5-18.1 2.5-35.9-4.3-51.4l35.4 0-60.9-48-21.1 0L80 192z" />
-    </Icon>
-);
+const GunSlash = createIcon("gun-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABfwAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCOAsGAAE2AiQDCAQgBYMtBzAbOAXInge2LWq9EkZDgyvpvvHw/7rS+/5oSTKDDEAUIuziLtwBFu2etEyTTwHaVctcufkT19QPa3qPBOAo++e/B+nhMJN3E9j5KMqq8HH8A5pNFGft7DL81yObhJQnGRb9sDpDFv/EfWpIj6fPcW/MVXyjo5tIaioAogUAZqxbtcSHjdEY8VkV8ZlFCIgZoBSoIJMuAkxWEegiUyKTCRqjWkX/gSUBRK2EJO/OUItLuBOQgSTLsqHN64YVNU2ztUVNvumVNo+1PREvt3+y3doYFUXc2X4QnEcDsuvbPZLnse8TfV/qIJrE2jVNmzQVedzRpn/keftKkRcdYuLOEFNDXNf24aKIh9s+3GZ1PMRFr3ZeF0WsDXHy8PSTnYpYekzPN1q88V2Pe+v79qAf3vrfVzjb37BAqeU7o4zV8s23W07X8u03W9ar13bFirb17rFw4q0HDxy4frgRK4Uvttuz7MVrByXZE/I0rIf3G/ufk/x4x53D+j1r6F13tjju+N6O+0y2cZ4+j1qm5102vtrbV9oCgeDq7anLtuaTf6svEvj67R9+zw9WV6Vb0xuol0BQGVwdbHO6TgGOEVyQ4qye+CYhOSWDvDbxiAAhR4CkVi5ARWctBMjkBglQo5sxAtTKrVIRWYPQxpYqJE2cECrGuiJk2rgq1Jjso6BWm6gYoWZC2hcwe24Pz5lWjhg6vJxYTkuKbleKjE4qt93+Z6llAHba65ijTttjtwNOd9RJS+IzjpirkXP8UGmEoYYrTVQeVx83r7XHSacccMzRMMkk5X2/v7N69wGYTQKMfD4gzY3UsO/M0SGnDu84tR8A");
 
 export default GunSlash;

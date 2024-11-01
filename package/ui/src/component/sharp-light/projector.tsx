@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `projector` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/projector?s=sharp-light projector}
  * @preview ![projector](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/projector.svg)
  */
-const Projector: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M432 16l0-16L400 0l0 16 0 96 0 16 32 0 0-16 0-96zM267.3 36.7L256 25.4 233.4 48l11.3 11.3 64 64L320 134.6 342.6 112l-11.3-11.3-64-64zm320 22.6L598.6 48 576 25.4 564.7 36.7l-64 64L489.4 112 512 134.6l11.3-11.3 64-64zM288 320a128 128 0 1 1 256 0 128 128 0 1 1 -256 0zm288 0c0-36-11.9-69.3-32-96l64 0 0 192-32 0-32 0c20.1-26.7 32-60 32-96zm0 128l32 0 32 0 0-32 0-192 0-32-32 0-96 0c-26.7-20.1-60-32-96-32s-69.3 11.9-96 32L32 192 0 192l0 32L0 416l0 32 32 0 32 0 0 48 0 16 32 0 0-16 0-48 224 0c26.7 20.1 60 32 96 32c37.3 0 71.6-12.7 98.8-34.1c-.9 .7-1.8 1.4-2.8 2.1l32 0 0 48 0 16 32 0 0-16 0-48zM96 416l-32 0-32 0 0-192 256 0c-20.1 26.7-32 60-32 96s11.9 69.3 32 96L96 416zm24-96a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm72 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Projector = createIcon("projector", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABpAAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDLwsGAAE2AiQDCAQgBYMtBzAbrwXIhof/t+v7fW7V6zVd1UPfofztDIrIDHBEB9Eg+mKknv/L6Y1lRw2QzxGEdGNRc+KmsfbzBAL8+O+4SQllYZYopuLckhOQUBXuFyjjn5iog/RA+gK3hR8aP+rvBpKyABDdALBsz45N3jkWxyK+aL9GfGEDAmI5yAIFCgwSYKFCYJBSRqkUHIt22/wPzAQQDfGFCZSo8QbexRQCSbMsuwM2sJ7TudmsOzqXu/OO6swQVbB9dbB1Z5/efcZG79iWmUyIPrH95L69+o6PXrFVocdF39hx2rUTIp6Z8Ex907in6HTN2Ced1Y3jny5E54cn17dVVC+MUFe6EYOat1d/MLdVveCp3xGKgbdWfbzk7l51TPVTLmAVunM8mx+aVO15cPSj/R4Y9cTAXancwoc/3e3pn4d9ccYXXnihW9yRdXOSbsLoo72eQccZ3tb2DESX9H4bxhkDvC0ROb4c0aL17TfDh3/zbas1AkOmZW58t9Q7cv6ucU3OS7PKySfdelIaypmhPPWj7FTHLPqvuZ3a1Hd06BWrd/Bdo/HdO32P9N62rXfGrekrd68DgeDFLe/OPNJ14d+d6gROvP3r79Xz2u+ka9LT6CSBoJjYnuhgugZM1wCKKa4wfOOLAskLmuJ3bblXgFAhQNJQCVAYqJsApcoEAToMMUuAhsoOhSibQi+HOpC0XAwKs10JSr28Ajos9HGhoVcU8itLn/z7mLF6SK46l6dNnprn59WhRhFJ0TtekA/7xl5hLY2DqTNc6AKXOd1pznbZwHaJTeXLnW/1Fr/KD2XTTDZVNl++PHlq7B4ULnGps5e166cskJ9PjXXF9uZxCCax2+l6kkSkpvD7L7wEAAAA");
 
 export default Projector;

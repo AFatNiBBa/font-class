@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coffee-beans` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-beans?s=sharp-regular coffee-beans}
  * @preview ![coffee-beans](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/coffee-beans.svg)
  */
-const CoffeeBeans: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M476.8 258c50-50 39.9-141.2-22.6-203.6S300.5-18.2 250.5 31.8s-39.9 141.2 22.6 203.6S426.8 308 476.8 258zm-77.9-76.1l32.3 50.8c-28.8 16-79.8 13.1-124.1-31.3c-33.5-33.5-43.4-70.8-39.3-99.5l29.3 46 101.8 33.9zm21.3-93.6c33.5 33.5 43.4 70.8 39.3 99.5l-29.3-46L328.4 107.8 296.1 57C324.9 41 375.8 44 420.2 88.3zM126.7 403.1l-13.1 58.8C82 452.8 48 414.7 48 352c0-47.4 19.4-80.7 42.6-98.1l-10 44.9-1.8 8.3 3.8 7.6 44.2 88.4zM208 352c0 47.4-19.4 80.8-42.6 98.1l10-44.9 1.8-8.3-3.8-7.6-44.2-88.4 13.1-58.8C174 251.2 208 289.3 208 352zM128 512c70.7 0 128-71.6 128-160s-57.3-160-128-160S0 263.6 0 352s57.3 160 128 160z" />
-    </Icon>
-);
+const CoffeeBeans = createIcon("coffee-beans", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABiQAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCMQsGAAE2AiQDCAQgBYMtBzMbNAXIjtRWcxRJchMPffe+d2b3vbRq6dwadeAK3DpoMNaEQhCRf6IR+P7z477OHYhvbDaxQaiQ2kxiKFrV/fN/zeeXdnSA3+jQorCoQCI5etHPJzDA2W6WPh1IFNhMJ2Dbm7axySy9SaJJ+nvWcXWCGnvUDV7ym+se8J4/NP6hqBVITQFAjAIAjs6jQnD8QR9Ed5wNIH4RBALiCMA8QkHBNAK7uAWm8ZgHVRV0iMPh/0AGBBAtyrMmqOjFK3gDQAWprTzS4pLSstLCvKI8scK8QllHmkSzno++l877GjMeDz4XbrEWlhbztpuuq0qjyiYUE7eiSDSiYEqxZElLNhsO2UyLLRquqjUpj+mpkAzJ+nijwkWHtdVJnuQolrRowWBFNfrKjego7tn10PfceT/6yeXAR3NVYvVT4z73Hi8HfvHARUesbSA7tiCeQoNt1SFBv7EjSUZWorOry+YBOQsyKaoBaQ1+o7iRVdd2vMUd2p2cxLSvtlXGIc+O0Xm4pS0AouMW846wqYhgYJcXr93giMbz+QAEgpUfv5U0ced/AsJcgL/d72/+EaJ7zMXFtQrolSAoSxxjJCfo/ufiQgAAMmqhmUAg3brNax30AQKhHwFSq1+AYooEAlW/RQQas2wQaPU7xi2qIMKkFAJp0AModtSBatIaaOy6sluTwR2AbPiw/78k3x7yWcUsTM2ZI5sWKhdTtC46sWVZv1YGDGArcpUpVS1HtgLVHVkpxKtRwtcjfHwRY8GUOcYR264fN8fKUalKgTKltowTdt7SV+uPNwCNS6HckEhJpMiLjZlk5mSUVgEAAA==");
 
 export default CoffeeBeans;

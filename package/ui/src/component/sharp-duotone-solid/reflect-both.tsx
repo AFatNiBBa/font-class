@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reflect-both` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-both?s=sharp-duotone-solid reflect-both}
  * @preview ![reflect-both](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/reflect-both.svg)
  */
-const ReflectBoth: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 96L0 416l32 0L192 256 32 96 0 96zM320 256L480 416l32 0 0-320-32 0L320 256z" />
-        <path d="M256 192L96 32 96 0 416 0l0 32L256 192zm0 128L416 480l0 32L96 512l0-32L256 320z" />
-    </Icon>
-);
+const ReflectBoth = createIcon("reflect-both", true, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABZQAAAHRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBMAsIAAE2AiQDCgQgBYMtB1Qb1gTIjsO44TuyxVKGeIzga7+y38zsXgBgcirAqIDJAfk4UuvPJirqXFBFqK1IktG/mN/n/5rPz5oO8BsdSveiucAzeW8C41EVFbXQhGY6A9vubFaklfZJESzJ8WgO/a5Q4md+pUV6n+B1+B/A+GOiVyQDM4AYAYBNh/fv09+NboofzUfih70IiM2gCmRkTBFgrSwwRVFRFEE3NQ3daJpKANHGcGa0zQ1LsRNQQJKkUgZDpjW0HKLZgw4fOngoYmiIA9JJB8WQiDicU06D43AcikFnOzTJ2R6LA719I/r+zXCJpunwNNVGVafzLI84sxFYZP2ouqEjvA8CwZSNl6ecHr72/4DBCfz69Lf4O2r6k9SHARII8txmrhMJJAIAkOKR3sQZBLJxEv7UId4IEAYhQNI2SIBsshECFIPMEaBlmmUCtA2yXxZloDDGSQTJEHdBttxjUIzxAbSs9TnbNiayBvHnz//fUraX0LZJddH8hXV1HRYlQSlYGl5Tp52Zj1zTLNjrkttueeCiC656UJD37Cs8dNN2idjmi6pF5luoWq0uV66VQ5i9576rfWl9nDXq/uRMj+TOs8BPmHKxNVkmUuQxL4g6T+eMecrYOq4h3TsA");
 
 export default ReflectBoth;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up?s=duotone up}
  * @preview ![up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/up.svg)
  */
-const Up: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M128 256c42.7 0 85.3 0 128 0c0 61.3 0 122.7 0 184c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40c0-61.3 0-122.7 0-184z" />
-        <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l96 0s0 0 0 0l128 0s0 0 0 0l96 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-160-160z" />
-    </Icon>
-);
+const Up = createIcon("up", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYwAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBPAsIAAE2AiQDCgQgBYMtB0AbzgTIHolxjMpWReiLoFgL69ndu0oOgrghIgVMCpgkykSF3aN+G7APrC/+C3x/6lTNOA8F8EEk2ZjzgGT7nj3fYD0vjeVrY88LVqspdne2lhD5JLRgSY5Hc5y2kMXB9KQCyb3kZ1wJ/wMYv2rpJIm6KYBoAIAJC+fO8elLfEni59pr4mezERATQS6QIkUbAUZLBdrI5Mhkgi9JjS9RywkgisL7U1BEhgmYAchAIkSW5S3LhWq2oFwoLb1dijjfZF7cbHmvSzmOKSYan7Z+0GzBwguWCy8chaYmN0ulON/sNvfKji8avPi9w88bfvbL7btVqnefPPF5zfHxq8BRsMr442s+dw1HPuY5yPc1Uxq+edmwv4Yv3zQk9wOB4NTAY5WV9Uf/X6ecgG9v/vw3nbgmTiUvUEcCgrR3rbdlcZSBjgpQSuKAjvBdjgqkcgn41IrbAoQSAiSKSgKkWmsgQKaklwAF7QwRoKhkrlRkdYUmlleQqNgNUkMdApkmXoGC0b6TippEKkeUFFC/uPipFJ0yLh/Qt38+Mp96Mi0ahOsclS8L3Q/oTA/YaIOddthnvXU220fwPeao+203lcOm+KHcAH31lxsp3w5v+QUo7bHX5jG7380o+XmxuwN8eQ+YTAIYeAOLUiKJtLR/Vx9p5CuFfXM=");
 
 export default Up;

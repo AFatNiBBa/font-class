@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mailbox` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mailbox?s=thin mailbox}
  * @preview ![mailbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mailbox.svg)
  */
-const Mailbox: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272 384c0 26.5-21.5 48-48 48L64 432c-26.5 0-48-21.5-48-48l0-176C16 137.3 73.3 80 144 80s128 57.3 128 128l0 176zm16-176c0-55.7-31.7-104.1-78-128l222 0c70.7 0 128 57.3 128 128l0 176c0 26.5-21.5 48-48 48l-245.7 0c13.3-11.7 21.7-28.9 21.7-48l0-176zM64 448l160 0 288 0c35.3 0 64-28.7 64-64l0-176c0-79.5-64.5-144-144-144L144 64C64.5 64 0 128.5 0 208L0 384c0 35.3 28.7 64 64 64zm8-256c-4.4 0-8 3.6-8 8s3.6 8 8 8l144 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L72 192zm304 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l56 0 0 64c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-56c0-13.3-10.7-24-24-24l-48 0-64 0zm72 80l0-64 40 0c4.4 0 8 3.6 8 8l0 56c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8z" />
-    </Icon>
-);
+const Mailbox = createIcon("mailbox", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiwAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCQAsGAAE2AiQDCAQgBYMtBy4bPgXIjtRWcxRJchMP1djv7d59RTzhGZImPDS8ZBpDJHoTjYkQ8QpWyVE9B3EPkDKlQiQ5iBwkVxfxOf/X9Gs7OsDPR3Ao0ZYUpeW3iBDY8z1vnDcPcG82sAFNjDfl7sUg3J6HqTPUeEAmbvKB4w5w43xo/EFeM5BKAUAMAgC2jiKCcPRKr0R3/9eBeEMACIhtADMIBQUTCKziFJjAZQZUVfBN//+z/0AGBBBNeC+ZoKKNM8A5ACpIzcolJ6cgJCUmyC3MFS3ILZDRL0XUrSlAEzK9CkSjLoc+5077aoh5NSZasBekmkozeFY6q0iRggLCkwbZXTTifOAtRGeOewz0oDetFdMt1SMtSH2yvTJKdLnOWEuQJicWB7UFogjRQ1gHDegCZJ+rPiM286Z2l30H0Q3Oe+DddAim7/ecS+Be8ggN9bDkXhJd5HcDtmafUVVhWaR+1u/oW3p5Hxo6GhIXF1iC0knbMcNxW63SEgR45RDv/1QentR2xJDpMVu4kt5hCBuz5ZEpb4irp+mO6bbgBMPvAALBv2CVZoqo4wefIAfgd+f9F34wNzlmAG0JgjL/3xCJ6QrA6ASkGdVQH9lgIJ06qO/a6xYEQhcBUlNXgGKcGAJV1xwCDVOsEGjq2sMpKj/CqKQSpF7HoFjRBKpRq6Bh1WXSNBqcN6J4G4m/gWneddhrHTMzNmX2bLApl+4tXi87sNmGbjUf0oMnka1EsUpZMuWprFHlgvIqRbzHSC9fxJgxZoqxx1Z3bmvROC1XIa9fWr8KB2x/X1f1+GQ9aHPwGBeUpSSS9ztx0ktqAQAA");
 
 export default Mailbox;

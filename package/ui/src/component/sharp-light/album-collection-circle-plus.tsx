@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `album-collection-circle-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/album-collection-circle-plus?s=sharp-light album-collection-circle-plus}
  * @preview ![album-collection-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/album-collection-circle-plus.svg)
  */
-const AlbumCollectionCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 0L48 0 464 0l16 0 0 32-16 0L48 32 32 32 32 0zM16 64l16 0 448 0 16 0 0 32-16 0L32 96 16 96l0-32zm19.5 96L68.8 480l291.4 0c10 12.1 21.7 22.9 34.6 32L40 512 3.3 160 0 128l32.2 0 447.7 0 32.2 0-3.3 32-3.4 32.2c-3.1-.2-6.2-.2-9.3-.2c-7.8 0-15.5 .5-23 1.5l3.5-33.5-441 0zM256 192c49 0 92.8 17.6 122.1 45.3c-8 7.2-15.2 15.1-21.8 23.6C334 239.3 299.3 224 256 224c-77.7 0-128 49.3-128 96s50.3 96 128 96c25.7 0 48.4-5.4 67.2-14.3c2.1 10.7 5.1 21 9 30.8C309.6 442.4 283.6 448 256 448c-88.4 0-160-57.3-160-128s71.6-128 160-128zm0 152c-13.3 0-24-9-24-20s10.7-20 24-20s24 9 24 20s-10.7 20-24 20zm352 24a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160-64l0 48 48 0 16 0 0 32-16 0-48 0 0 48 0 16-32 0 0-16 0-48-48 0-16 0 0-32 16 0 48 0 0-48 0-16 32 0 0 16z" />
-    </Icon>
-);
+const AlbumCollectionCirclePlus = createIcon("album-collection-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABrgAAALIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDLgsGAAE2AiQDCAQgBYMtB0MbwQXIHgfVbS/GY4KGotifh/Hwz37qfT8/hZ+0HUIGyBJBAfnJudYOACwQSABwPVOoc/y49+6L70+8wWyCGxQqoRK2yJCYnJ7v839NvXh+VCCfj+BQYlHJkRSRzycwwOFm0TRPi8LZRHGj226CmIZ2CYmxhDS+oz8+yf7kMbZGHxq/tNVNIs0BQDQBAKYsToiC8+/xPeK5fJl4bDoQEFMBShA55NABgvG4Ah3wlIBUKvge5TL7DyyBAKICkksnIEWGS3gESEGiKuWJxYYdxe3bm0jzcl5yIS/JKGRyiEyGFMclLU1Pk8dAD/rq6dEuCnKdaBMbsobY0MIYi0lvJuzSOE1+NPqawYjPQcTGXj2a25K3E++YTgWdpZhtN2Q1o9tvntfQDmOw56xkQ/dpnX6obztgMSPd2GtOfwiLHYMw1sYdSTeOOXBYgfr+y977kg1jDx1XcTFUKEBkEgiRYSKTROycx1NLEbqeYItfXR6vfazzXcbOS9g5+ifwS8zzUvOc0qT08GbwOmEV82Wc0PdBgvDyoHh8CBx86jw9Pt7QLCSOtzfgpQbtJ6xOnLI79Q1z9ahly+uH0/TPbdo0jo9apt3pjcYjdTICVGNjp06SfhyrEkCpuZqlpZo6kRXPg7axIOfEywhYaQOGQ4qM9wcIBOsbZlYuqxv/v6rAAfh549/gzuV7SX1yAlUSEOT6l/vLTOoB0wPwJ9HMdOeLAolTqiTXWrRHgJAhQKJCJkBOewyCVKYfBHmdeEBQITMfV6RiCC1k9SBRtA7kjNQCUi1sgbzx7nwVWkTO/ApNn/DrMVnkGI0YRkMcncmXNvNakZHkdb8fndb1buZ1NnAiFKtRrVGRQmUaR3i9qGCTKpF7WIQfIi4cOSO+6HbpuSwZ++o1KFuX3B/ED73vsta839oGGjkSxqFSEgmRGLiiOgeHpXL43Ufu4A8AAAA=");
 
 export default AlbumCollectionCirclePlus;

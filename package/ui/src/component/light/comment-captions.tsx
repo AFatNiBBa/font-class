@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-captions` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-captions?s=light comment-captions}
  * @preview ![comment-captions](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/comment-captions.svg)
  */
-const CommentCaptions: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 240c0-91.4 93.8-176 224-176s224 84.6 224 176s-93.8 176-224 176c-32 0-63-5.9-93.5-16.2c-9.9-3.3-20.7-1.8-29.2 4.2c-15.4 10.7-31.4 20-48.4 27.4L91.2 446l-6.4-14.7c-10.5 4.6-21.5 8.6-32.7 11.5c.5-.9 1.1-1.8 1.6-2.6C68 416.5 76.3 391 79.4 363.9c1-9.2-2.1-17.7-7.4-23.9c-24.5-29.4-40-62.9-40-100zM256 32C114.5 32 0 125.2 0 240c0 46.6 19.6 87.1 47.4 120.5c0 .1 .1 .1 .1 .2c-2.6 22.6-9.5 43.5-21.3 63.1c-6.5 10.8-13.5 20.8-21.7 29c-4.5 4.6-5.9 11.5-3.4 17.4s8.3 9.8 14.8 9.8c28.7 0 57.6-8.9 81.6-19.3c19.2-8.4 37.1-18.7 53.9-30.5c.2-.1 .5-.2 .7-.1C185.5 441.3 220 448 256 448c141.5 0 256-93.2 256-208S397.5 32 256 32zM80 224c-8.8 0-16 7.2-16 16s7.2 16 16 16l224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 224zm288 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0zM112 288c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0zm128 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0z" />
-    </Icon>
-);
+const CommentCaptions = createIcon("comment-captions", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABlwAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCWQsGAAE2AiQDCAQgBYMtBzcbYAXIhuB5u/+qc7s/4B4RKyMykQ2zFcJ9839Nv2g9wC/+/VCiF62jCsBunsCez9YWSYV7PhvYTCbg89v5veVuEF2xCCmXZJXl/GH5R8jj1RirjHRz+gxXhg+Nn3W5mCTPAEQjABbtttM6b22OzRGflZ4nPrMGAbEYFAIZMvQKMFcm0CtXIJcLNkepRP+BBQFEOXlaAjkqcQluBeQgKc/zYeNqJV5TVpfvmn5+9W4/7hTx7W7f7/D1Lt9t/GrnS6bf0Hrf0LZoj+uG3hgXdDw5cGP7G4N3+25lxEdzI14rvl90QVxQc9vI61qva7u+5sU5D465ND5e9uOaTxe8OeSe+W+s/mTXna9rvb6tJm7suKG9uq7AO8M1Ww1+pPGRXwd9duhnBr6M5e/w7YERPN++A4klvHDil//8dNwl+9rXf7lg8cy6M/bq2PTlCpdwaz/9VWnZM4hJvVe+dtjIVdVPb3ztgtC4URVJJLMqzrz1khWefHNzff3mzRgp2IUGSwsq2/ng7nIzCATrtlct2K9h7r+VNQlsfeX3f/nK0v+lzUl6BJUSCLKxpbH2ThSKkeJQoTjVYEwxkFzoht+11g0ChGoESMpVC5Dp0ShArtoYAcr0myZAuWo7yUReJbTap4Ck1gkgM905INfqWVBmrg+T5VojM0rVpNR/wqzlLbpsUjFp/MRidjEsyJqdyW5wTjHtHXkqN4zCRoc6zrFOdoiDHeHkhj/RuswpjrFcg5Z9UWGS8SYqzFYsl+9X7+oQJzrJEY5zrB9njmJ/cKRT9fajEEhEcLKsJBGp8Rk4x30CtpMA");
 
 export default CommentCaptions;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-xmark?s=thin user-xmark}
  * @preview ![user-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-xmark.svg)
  */
-const UserXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112 128a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zM16 482.3C16 392.7 88.7 320 178.3 320l91.4 0C359.3 320 432 392.7 432 482.3c0 7.6-6.1 13.7-13.7 13.7L29.7 496c-7.6 0-13.7-6.1-13.7-13.7zM224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0zM450.3 130.3c-3.1 3.1-3.1 8.2 0 11.3L516.7 208l-66.3 66.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L528 219.3l66.3 66.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L539.3 208l66.3-66.3c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L528 196.7l-66.3-66.3c-3.1-3.1-8.2-3.1-11.3 0z" />
-    </Icon>
-);
+const UserXmark = createIcon("user-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkgAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCWgsGAAE2AiQDCAQgBYMtBzEbWwXIhuD5uqp4P7MGhSGze2gvjZOo2/okTJzrfOejAknioURb6kAKZJR5PoEBvr5F0wtFgU0U32/ne1cYRJdF0iUuybDdH8Z/gDz+tl2JdGV6HeeXH40ftHcKSZYBiGYAmLJq2QJPfx1fR7z+/wPE6+YhIKaCQiBDhk4CjJcJdJIrkMsFX8f//4f/wIIAogF+qQRyNMQZuB6Qg6SU5x1bdmxTVynV8pWVUnndiR0jru51e+XsHre2v9IJ7a7ofkv5rJ63dbgqVn80KeKpVZX4YMITKy5pVY3L2qw6u1/E3f3ujhP73uXR8lm970Cd0OfOCyvj318c8fbyE1pfWqnF2W0vjw+XvruyvO2S1itieRDp0rarYkWQLm+zMlYF6bJWy2NlbFZ/V7O7fqp7fefr9p/U5Tu+u+66Ll2C9t13KH03Vm7aEtM/543psR5pb3yeN6w+fYqnq2990+1pnu5cq6+vdX766W4uRNd/NTfqaBFza6cfUTtF7YjTazG3Rd3cWN/03hEjpk5RqSNGLFs2ZSqmJc63A4Hg3lWXvbCp6fhfG1US+PbRX/7C5f5/Om1Nd6GRBIKs///9rU8noIsyK4CdFIepx8ICyQlKgHutukyAUEaApIGyAJmOmgmQK+snQEkXIwRooGyZTOSNhVY2DCypOhDLjHQslmvlPqxkvJecBlpFZpWCTQn/hKkzJTBjrhgycHAxttiGumhoXBqPK4713ofFUh+stdP+9nOIHbbb4xABHWSBf6h9zdTAGRZUGGKgwQpjFdfJs7pSOAc52J61fD9lnOK93dthenMfWAnTDhVIEpHKX7Ix4AgDBgAAAA==");
 
 export default UserXmark;

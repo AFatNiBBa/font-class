@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wand` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wand?s=thin wand}
  * @preview ![wand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/wand.svg)
  */
-const Wand: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M469.8 6.2c4.6-4 10.6-6.2 16.7-6.2C500.6 0 512 11.4 512 25.5l0 .4c0 5.7-1.9 11.3-5.4 15.8l-74.6 97 0 29.3c0 13.3-10.7 24-24 24l-28.4 0L105 497c-8.6 9.5-20.8 15-33.6 15c-12 0-23.5-4.8-32-13.2L13.3 472.6C4.8 464.1 0 452.6 0 440.5c0-12.8 5.4-25 14.9-33.6L112 318.7l0-38.7c0-13.3 10.7-24 24-24l45 0L469.8 6.2zM486.5 16c-2.3 0-4.5 .8-6.2 2.3L189.2 270.1c-1.5 1.3-3.3 1.9-5.2 1.9l-48 0c-4.4 0-8 3.6-8 8l0 42.3c0 2.3-1 4.4-2.6 5.9L25.6 418.8c-6.1 5.6-9.6 13.4-9.6 21.7c0 7.8 3.1 15.2 8.6 20.7l26.2 26.2c5.5 5.5 12.9 8.6 20.7 8.6c8.3 0 16.2-3.5 21.7-9.7L370.1 178.6c1.5-1.7 3.7-2.6 5.9-2.6l32 0c4.4 0 8-3.6 8-8l0-32c0-1.8 .6-3.5 1.7-4.9L493.9 32c1.3-1.7 2.1-3.9 2.1-6l0-.4c0-5.2-4.2-9.5-9.5-9.5z" />
-    </Icon>
-);
+const Wand = createIcon("wand", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbgAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBdgsGAAE2AiQDCAQgBYMtBysb8QTIhof/t+u/fW5V93qv+hv1IXCo2KmcjcPJxikjYermeedRgG8U2ti0NJAxgeY8TyDB8qlR510WWKYJWG8bHh1ReRoREiYi8QPHbYY83rZdhfRU+gwPtIfGD9q6TpJlAKIJAKasWrbAB9/GtxGf/f8q8Zl5CIipoBTIkKGDAONlAh3kSuRywbfx///4DywJIKr4+gnkyLEBewA5SFKe9xxUqzTMV9Yqxa4nas+2jbjcYnmIJ7sXsT0eLe626huPx5XWqyLimV612NbjbovN8WhRxKMt+MYedblln3isdk/rXfFErdal1uFln6DDH2/V9aUmL/3U5bOdn/nizR3FltbUz5y7WUctl3TQbLCvWzT78imfN2vx0+ZVeik7Byj/rM+7dP1b02ywzdW+8i5b13qyYYNbTzk9nHdaDNU1K9WzS1nTeVs1y6g7DASCH/95+99Njcf/WldL4Pu3fvlL/Yr+/yBJL6FOAkHW///+1ieQCABAipO6JggkKyR81wYeFyAUCJBUFQJk2msiQK7QT4CKTkYIUFVYJhN5vdDChgWSBo6AzEgXQK6Fl0HFeB+qVS0iyzEiQ4gfXuxMCc0YKocMHFyOLY+eSaYNVrrjSrfQ+yRl+sCknQ456LgdttvjuECOWmCccMBMC57hRaUhBhqsNFYZDt/ZlUI96pg9Oh3vM055X+ntpF3eB+SEUYfi0xO4Un5qy8Ht");
 
 export default Wand;

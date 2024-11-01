@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `baht-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baht-sign?s=duotone baht-sign}
  * @preview ![baht-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/baht-sign.svg)
  */
-const BahtSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M112 32l0 32 64 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32zm0 96l0 96 64 0 0-96-64 0zm0 160l0 96 64 0 0-96-64 0zm0 160l0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32-64 0z" />
-        <path d="M64 224l112 0c26.5 0 48-21.5 48-48s-21.5-48-48-48L64 128l0 96zM0 265.7L0 224 0 101.6C0 80.8 16.8 64 37.6 64L176 64c61.9 0 112 50.1 112 112c0 24.2-7.7 46.6-20.7 64.9c31.7 19.8 52.7 55 52.7 95.1c0 61.9-50.1 112-112 112L41.7 448C18.7 448 0 429.3 0 406.3L0 288l0-22.3zM176 288L64 288l0 96 144 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-32 0z" />
-    </Icon>
-);
+const BahtSign = createIcon("baht-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABjgAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCNgsIAAE2AiQDCgQgBYMtB04bVgXIjsQ4JvILi6i0ePj/vKj78lN1upI20jBXMMbkbrwXVoDyvfd/5NR446WCPKOi/KvV87DdOTc+gQFWN/5A0y800xnY1E0pHlIQyacyRWbcyo6vHucOkMfSdKYa2XXZ27gk/w9gfK2TM8k0EoBoCYCZq5Yt8Oqn8WkWb///JPG2+QiIWaASSEjoKsAUSaCrXIVcLvg0+38+jf+vCCDqcM8J1NHAiTgDkINMkud5i96tWjYaLcpas3xlWStWlUV5T4drulzf/up+RZgfIuK0DteUZTw18L5uNw64q9N1UnDvmCLOX4uBlhVFWYgyDPA6oSS6THF+2yvRyaIGp7a7qrxgn+qLe93f8v5ve769823TPzkUxSM+fCeldz4ccajNfw6CcTxC6DXn+8F/LfLJJ3/xbvcW//nhbq1feKH10do/0m7f2+xSb4LKIbdUqJqh0vzcc5uruFlKZthsxq2VpBy5SWUGEAh+bGh9U4spvzYpM/D5834uPyT/vxozsvvRRAaCNOT/IdbH0RAzBAAgi6P1ihk4VCCZLYdPbepqAUKBAJm6QoCki5YC5AqDBajpbqwAdYVlksgbQlsbLizT1GFYMs5JWK6tJ7CaKV6L6tpGckLGhZhfwMR5IzB3WzVy2IhqUrVsa6xfUXR9cvXYHHB0HBsoO+10iIOOtMN2exw5QIdbkB7lgHkMnOuLKiMNM0JlksrcexZXhuhwR9hzz9s3maz63h3gaD57oDgZ4I6yL0lEFqnV1i27jxzqwOrQ0zzWZuLPLQAA");
 
 export default BahtSign;

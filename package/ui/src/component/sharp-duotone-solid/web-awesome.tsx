@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `web-awesome` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/web-awesome?s=sharp-duotone-solid web-awesome}
  * @preview ![web-awesome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/web-awesome.svg)
  */
-const WebAwesome: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M46.4 192L176 480l288 0L593.6 192c-.5 0-1.1 0-1.6 0c-1 0-2.1 0-3.1-.1s-2-.2-3-.3c-2-.3-3.9-.6-5.8-1.1c-3.8-1-7.4-2.4-10.8-4.2c-6.8-3.6-12.6-8.9-16.9-15.2L448 192 342 99.2c-6.6 3.1-14 4.8-21.8 4.8c-1 0-2 0-2.9-.1s-1.9-.1-2.9-.2c-1.9-.2-3.8-.5-5.6-.9c-3.7-.8-7.2-2-10.6-3.6L192 192 87.6 171.1C79 183.7 64.4 192 48 192c-.5 0-1.1 0-1.6 0z" />
-        <path d="M268.2 52a52 52 0 1 1 104 0 52 52 0 1 1 -104 0zM0 144a48 48 0 1 1 96 0A48 48 0 1 1 0 144zM592 96a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const WebAwesome = createIcon("web-awesome", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhwAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCBgsIAAE2AiQDCgQgBYMtB1IbKgXIHgk2jnat+lRRBPVrX2W91/Njt+cvci8wKgRUdEBkgdQ5dscOSZ2e/g8AN1zg+vN/Ob1hc/oHO7FDmqOlgbQ5mvN5AidW+QQLKIHemWK2zbhWMQqCihIjeZ4fNh3Gv0ORBuabGkiPp89xb/4fwPhLFzdJmmcA0RoAs9esWOTD7+Opz5veIj63EAExB1QCGRndBZgmC3RXqFAoBN8n+D6oCCBqMpaltfTGNhwDFCDJoihaYGBMY0OLYjX9Uu55cuCr/V/u8li/lwa80nXrFhwZyuOdH+tXeaLbaXjNuvXrWsSGuFWhUrtWPtKxtTJWx0PS5MYjJdjH+l27o88brd/4p/fnuz/XeLt+79NP31tnXeOG8vCFC4dL3ZKRz/367ru/PtcyvOlar1qp4H0hpIgQVbV0zkP79rS3b6OH6pFEROuszd2kj31xnxBAIPj2u78vb2k17f9mjQn8+MF/f+rvNUlLb6CZBII8rGmYjekqA1oooLRSnNYHpRshkI2RAd9a94gAoUSApKYUIOumtQCF0lABGvQ0XoCa0gpZFM2F9jYtkNQdA9kEl0ChvTdBg2k+atW0j+xsjqs4v3qFCyQ6v6gaPWJUNaW6jkzXfyw6nVo9rg46rVYG46bdjjjspF122uekEI9b1D3lkAUWPV+JKqONMEpliur1dH15tV2OO2GfIw7zOVNV3zcHOW1vH4xGUgzHuJZlIkVud2bX9uHbmhXI6fCwXeug/QgFAAAA");
 
 export default WebAwesome;

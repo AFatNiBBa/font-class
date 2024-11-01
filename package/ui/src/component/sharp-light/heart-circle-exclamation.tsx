@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-exclamation` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-exclamation?s=sharp-light heart-circle-exclamation}
  * @preview ![heart-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/heart-circle-exclamation.svg)
  */
-const HeartCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 141.3l-22.6-22.6L209.1 94.4C189.7 74.9 163.3 64 135.8 64C78.5 64 32 110.5 32 167.8c0 27.5 10.9 53.9 30.4 73.4l24.2 24.2L256 434.8l9.5-9.5c3.7 10.9 8.5 21.3 14.2 31.1l-1.1 1.1L256 480l-22.6-22.6L64 288 39.8 263.8C14.3 238.3 0 203.8 0 167.8C0 92.8 60.8 32 135.8 32c36 0 70.5 14.3 96 39.8l1.6 1.6L256 96l22.6-22.6 1.6-1.6c25.5-25.5 60-39.8 96-39.8C451.2 32 512 92.8 512 167.8c0 13.8-2.1 27.4-6.2 40.4c-9.6-4.5-19.7-8.1-30.2-10.7c2.9-9.5 4.3-19.5 4.3-29.7C480 110.5 433.5 64 376.2 64c-27.5 0-53.9 10.9-73.4 30.4l-24.2 24.2L256 141.3zM544 368a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160 80l-32 0 0-32 32 0 0 32zm0-160l0 16 0 80 0 16-32 0 0-16 0-80 0-16 32 0z" />
-    </Icon>
-);
+const HeartCircleExclamation = createIcon("heart-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABngAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCdQsGAAE2AiQDCAQgBYMtBz8bhAXIBp6nOuv9SmfQPUYNwBWYLGCfQZwz/9d8fs+PCuSHHcGhZa0CpIC6n09gwFHeNNCk8WyiOGtznoMiYtwiEfIEPc/TMD4OS9ABGPJUMrGDWqPuA4sOTL4SzvS8wrBBgPjBm0K1Ni0acfmVvBK57zoBcp8GgABIdQA0AtgAGxCFAFARGwJEYaABAwOBV+Jyzf9ADQIA4gY+QAFgAO7ABmAHAGAAoLAbRq3ISE9/y+5ttLbsZof0tPR02Vt8PHV31Ia0NGklobImOEhSJV1aS7pcjN9W5VKdG5WCJU0yJFTWggtxk8NWhqySjemet0qV1G5TIkTWJu805yZuD1vN5PA1STuseSm7IteJ15QckUMVzlnzys5kHWBy5v7S0+bc8rPZB6WVaZkiliAICGIKd1jxe/32fo+777yPK9/BOxvNs82Hnz2wzAez2L2HNVRdIDhwsns3o+jl7ulovXjwSHDiBEYOXtza4Rnc/MObyr7Wg2eHF38bjSP2Tcxn+LxxY0xMi33+HCOqyi5SNOjAgOTkgECtU1CF+KYmmhgavdmvqCl+aPw4bwdAAIGH8/a16+Jb8b+HpQB4c/bnb9LVrsuqqtoLeKAAELBlujLpqKoCFK4AQFbJSOKVLxJAsQI7THux0psXTFhA4YYJbETiBwxMMoCdGIoEo97CxIrhSTqIThkovBgCbBQzARgEcQzYqcitjBtBYgtRKcCkL8T02pKoNU/nZefqcv1YdclRJ/TpCtrsp46sXWnYi5NBDGQ4DnrSh+GCGkqj/AgGUFsja/FDNHlkk4umHO1ufN/eGgdDGUYfBjFwzFIB/X46lZH64DSEFOTNp0ChQFTYLrGzfuaJZTlGz2C3ARsPAAA=");
 
 export default HeartCircleExclamation;

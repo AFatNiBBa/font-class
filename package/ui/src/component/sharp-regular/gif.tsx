@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gif` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gif?s=sharp-regular gif}
  * @preview ![gif](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/gif.svg)
  */
-const Gif: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M528 80l0 352L48 432 48 80l480 0zM48 32L0 32 0 80 0 432l0 48 48 0 480 0 48 0 0-48 0-352 0-48-48 0L48 32zM320 160l-48 0 0 24 0 144 0 24 48 0 0-24 0-144 0-24zm32 0l0 24 0 80 0 64 0 24 48 0 0-24 0-40 40 0 24 0 0-48-24 0-40 0 0-32 64 0 24 0 0-48-24 0-88 0-24 0zM128 256c0-26.5 21.5-48 48-48c12.3 0 23.5 4.6 32 12.2l32-35.8c-17-15.2-39.4-24.5-64-24.5c-53 0-96 43-96 96s43 96 96 96c19.6 0 37.5-6.1 52.8-15.8l11.2-7.1 0-13.2 0-35.9 0-24-48 0 0 24 0 21.1c-5.3 1.9-10.6 2.9-16 2.9c-26.5 0-48-21.5-48-48z" />
-    </Icon>
-);
+const Gif = createIcon("gif", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABegAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCNAsGAAE2AiQDCAQgBYMtByobLgXIHoVxGz2yC+VPoXyY4uH7tT7Pfd3zoWcZeolnkdEBOeKQXrAJqzhgj1OxqahU9CSCKXO+u4VMnerJeWj7cy7CQcvu2AtLe59vsIr1amMD9bxXK9YqivW99TaqQ8ojImnRSjrcdrh+/hny+C0eqZDeS+Nh/tD4R093SCoZgOgAgPlbN672dT3qET80PiV+sBIBMR+UAhky9BFglkygj1yJXC6oR6Ph/wNLAogmeLUEcjTjKu4AcpBU8ry1c8e+o6qVtvmWaqW4mLLUJrJoe6CoFiKFqLaPyCKi2CQhmqC1qiBU1WorCnf+vg+6R7wcdrfruHg35ZPhb/p8NOLt5NfDugf2L0KIZ0XdXvQa+K7Du3/78cjan90HRt0+9b/G1fLtU1PrwKZfrsuCHh7poYaMZQ/41pknQsMN78HU8NK8fdbuzX7i91rnH/7zYt2Nd+9alJIbv562Bu8/sasLLbXff8qAQPDF9i8+3Nt+1v+qCfz9FfjhRj3NS+/QIoEgG90YbVeaB54eQCbFFQOVLwokl1XgXdt4IUAoECBpUgiQ6a2DALnCKAEq+pksQJPCRpnIW4UudneQtHEeZKa4CnJdfAwqZvkm3aRLZCYoGJDwAZhqyQgv3lSOH1srZ5TLqiZaFRenZ5bHpuFXQtcI2umIs8645LBDjrs0oBeszl122hINWeyHSuONVVOaobxuPG/f4rALLjrurDNplpnK977hruiDR5A1AesE8ST5E7H76PEjAA==");
 
 export default Gif;

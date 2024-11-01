@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `e` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/e?s=sharp-thin e}
  * @preview ![e](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/e.svg)
  */
-const E: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M8 32L0 32l0 8L0 256 0 472l0 8 8 0 304 0 8 0 0-16-8 0L16 464l0-208 232 0 8 0 0-16-8 0L16 240 16 48l296 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L8 32z" />
-    </Icon>
-);
+const E = createIcon("e", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABTQAAAG9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQCBCQsGAAE2AiQDCAQgBYMtBygbgQTIjsO44TuyxdCG+BLx8P3S37lvN22TUOvSWlOlNwUOj2sKHyQO9R2lSmQG1SU6zfxV+37qVM04DwXwSaI4FkYXyFw253kEIpYrrvNagWoFq2kFrLvTRojglZayJK9nOT4PyOOocyqkFwme5A+NP0Z6TJJlAGIAADYc3LtHXze6ER97Iz7ahYDYAEqBDBnGCLBaJjBGrkQuF3Sj17P/gSUBRFV9ZgI5MszCPEAOksjzSc1KOz8QgsXRolkI72y2I4pWFLgJFVe149nwp8NaEzsDOv8muEDtZV2LviNUTy8foD79m591fOnPPtOdqlZPzQcCwauHhtV/9f96M4Efb/6H+hX1urE+dVCXQJDN7s12LB5ArBcAgBQPTIz1CCSTJPiuLU8FCAUCJFWFAJnRBgiQK8wSoGKcJQJUFfbKRN4QhjjeQdJyG2SWegRyQ7wGFau91aqGRPZYaFHTf7WErRTdclQumDu/XFlOM42RPxm3q8plcfoD15kBF11w0w33nHfOZfcIfsce877rtnLYFl9UWmCu+Uorldvl4/kB591x12U33Uh7VinPq9M94MdnAHtB4oVuSJKRUpwHAA==");
 
 export default E;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `objects-align-right` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-right?s=light objects-align-right}
  * @preview ![objects-align-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/objects-align-right.svg)
  */
-const ObjectsAlignRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 480c0 8.8 7.2 16 16 16s16-7.2 16-16l0-480zM352 176c0 8.8-7.2 16-16 16L48 192c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16l288 0c8.8 0 16 7.2 16 16l0 64zm32-64c0-26.5-21.5-48-48-48L48 64C21.5 64 0 85.5 0 112l0 64c0 26.5 21.5 48 48 48l288 0c26.5 0 48-21.5 48-48l0-64zM352 400c0 8.8-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16l0 64zm32-64c0-26.5-21.5-48-48-48l-160 0c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-64z" />
-    </Icon>
-);
+const ObjectsAlignRight = createIcon("objects-align-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABfwAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCCQsGAAE2AiQDCAQgBYMtBzobEwURlZoFyL5IME9uijlEyTBQB7SzX71FIn+ZaCyJh/9f+98+d+abKHjCK4tk3iCJNhpdzCoNbx4iXk3yy+ZaswCoV2AIvGVSukhgVDJNFRK/Cc/mvatLx/8f8AFPfP3RSmveEsDexiMQsVyseiISC1hMI2DZnW0ZSdPyyLEUJMe5HI8H5PEoJhWRzqW3OJI/NL5qc1iSZwCiFgBL165c4fmn+BTxtjDx1nIExDLQK5AhQ6cAC2QCnXK9yOWCT1Eo+P9ABBDF5GUJ5CjBDuwE5CApyvPK2nYqK4qq8jURU779dPPJxhSnms60ZKuaXRnajmClihNzzoN9epgvuNl4slWcazo1VBV3Ws50xLotqhxWwHKyAtd/v/b+9763vS2o/vSpaKJ95QrZvUKwhMMVMryb2WvmO9kSSvJ2T8/Yv2oNXgVXJXweBIIt/z6v2lqz4H9pRQJfHv78X39FhUm6j1IJBNlkYXJTAokAAKQ4qD9BINmmiLxrpdMBQjkCJMXKBch0qBUgV25CgCLd5glQrNxKmcjLhEabESWV9qDMfIdQrtEDVGSBF3WxxsiMjTcV/q+XorIm0jG8dQSGfU2wHzbtR7YddcOchrPiWfP0No6id2n/b56B9EW8dQSOR/ena9/fWJMPidwv1J2v1uBLwji7I0lEajBEzbw1/r0CAAAA");
 
 export default ObjectsAlignRight;

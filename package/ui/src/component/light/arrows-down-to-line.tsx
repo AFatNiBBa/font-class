@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-down-to-line` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-down-to-line?s=light arrows-down-to-line}
  * @preview ![arrows-down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrows-down-to-line.svg)
  */
-const ArrowsDownToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M560 448L16 448c-8.8 0-16 7.2-16 16s7.2 16 16 16l544 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zm11.3-164.7c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L464 345.4 464 48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 297.4-84.7-84.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l112 112c6.2 6.2 16.4 6.2 22.6 0l112-112zm-320-22.6c-6.2-6.2-16.4-6.2-22.6 0L144 345.4 144 48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 297.4L27.3 260.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l112 112c6.2 6.2 16.4 6.2 22.6 0l112-112c6.2-6.2 6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const ArrowsDownToLine = createIcon("arrows-down-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABbQAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBVAsGAAE2AiQDCAQgBYMtBzob3gTIHoexwzoktxzGlzYe/n+/b/vc90bEH5MQ1yRmM4M1Gt0s45VGoomurn9RWUTyT+ba9wLfn/5+6o/zTx/wGX2UCotVY4Fnnkee77zaMkVmw9lEceamkSWKosmi8GIxSOmw3bB2B3l8j8kqSI8S3MgfGn/1uE6SZwCiGQArdm7d4m0pShGfyxGfbUJArASFQIYM/QIslgn0yxXI5YJSlMv8H1gQQFTS1yaQowKbsAuQgyTL88bevrqKhnxHMNU2NfpV7rbf62iKB133O3c+6Lzfvi2y6OSDK8WOkI7c7dge97p2HhExrjcaftX86t+4zyeYXhRFqbGxVCiDap88fvzy5batJpjcpcYJmBRyV0ZGaqsjI8s6DiJ5HAgE32bdn3iwafH/6roE/rz5P59ZXpbWpFeolkCQTS5Pti8tN6D1AvWmuGqYvkkgWSVD71rvvgChFgGSSrUCZPo0C5CrNUmACoPmCFCp1laZyGuEdvsHSOqNgcxc10Cu3WtQYbF33krtkUGKBQT7Q5e0dkXXtCtmTJ1eLCyOQY1DCR2LFxXXyvirLmkCLXXCiAsuO+6Y0y4v+EVbAlect9bC1vihwgxTTVdYqHgdeZ+/w3EXXXLaiAuplEWK7+3jXbUzTyBdooQzjUgSkdoOX0S8PAVonimXR6YADwAAAA==");
 
 export default ArrowsDownToLine;

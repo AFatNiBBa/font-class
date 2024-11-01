@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-wheat` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-wheat?s=regular building-wheat}
  * @preview ![building-wheat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/building-wheat.svg)
  */
-const BuildingWheat: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 48c8.8 0 16 7.2 16 16l0 384c0 8.8-7.2 16-16 16l-80 0 0-64c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 64-80 0c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16l256 0zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zm40 88c-8.8 0-16 7.2-16 16l0 48c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16l0-48c0-8.8-7.2-16-16-16l-48 0zm112 16l0 48c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16l0-48c0-8.8-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM104 216c-8.8 0-16 7.2-16 16l0 48c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16l0-48c0-8.8-7.2-16-16-16l-48 0zm112 16l0 48c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16l0-48c0-8.8-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm424-40l-16 0c-44.2 0-80 35.8-80 80l0 16 16 0c44.2 0 80-35.8 80-80l0-16zm0 128l0-16-16 0c-44.2 0-80 35.8-80 80l0 16 16 0c44.2 0 80-35.8 80-80zm0 112l0-16-16 0c-44.2 0-80 35.8-80 80l0 16 16 0c44.2 0 80-35.8 80-80zM512 496c0-44.2-35.8-80-80-80l-16 0 0 16c0 44.2 35.8 80 80 80l16 0 0-16zm0-96l0-16c0-44.2-35.8-80-80-80l-16 0 0 16c0 44.2 35.8 80 80 80l16 0zm0-128c0-44.2-35.8-80-80-80l-16 0 0 16c0 44.2 35.8 80 80 80l16 0 0-16zM528 32c-13.3 0-24 10.7-24 24l0 104c0 13.3 10.7 24 24 24s24-10.7 24-24l0-104c0-13.3-10.7-24-24-24zm96 64c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24s24-10.7 24-24l0-32zM456 72c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24s24-10.7 24-24l0-32c0-13.3-10.7-24-24-24z" />
-    </Icon>
-);
+const BuildingWheat = createIcon("building-wheat", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAAB5wAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhViEcwsGAAE2AiQDCAQgBYMtBzUbeAbIBv7h9b7Ofcko+R4pI2cWRv6CqKAeYglV062Lbt2ygv/E5bjL8nz+lwWahzbWAllrWTgxkUlr0BrnAQWUIDc4b+QBhIhQvga2/mg/aWBOmBfAvvKj9JFC9oIhzQIAQDEAAGBgcvJYOt7pnfQ8dRf0nNGAADQQAA8BFrxFCQKgDxYCSrDxABsbwTulUvw/0AMBgNIJMMMsG4iDckCVMJ4KhqhtlxXFErFEPJHAHuFQ2E0L2wF9v7P0SK7R4RxH0sm8o7WXcw4XIEdH8ywdyw8Hl+ul6wVGJxpu1IR1relWsaWTjTdrQ1MP56Ajue4Opnb2O1MRXYaWipsif7XQcZ079ddLkKv7TbfKhZCjYRxiOeVso3Szm8RBZxpudEVIQlEo9vKE5OUCdKLmWrF0snZqQu9mBZM3qLwZu/m54sWSF/Tf9y6yk8i7CQzAevnK91+9tAYwATGZVNv5OMSdnTjx+Hno0ZmgLrkO8aU+JXJt1Pf9DOaaXLsWKa/VxYL94kAxYpSsnYMseO51xHZHfwWw2KtRUDLnrVM9G5R753JA9OvE3GXkTjSiuf1rsQeUXMvXFHg8AAgQpL84M3ZutM+3TNcA8OHR1+/8cFIdZqe5CWRiABBYzalmZpmdABBfAKA32kLlClu9tkJECfoQRxE0CgcYYEjHASyKiQE2Dk1AGmV0Je0cPhkL2VmIHGZDwBBiPWDRjW2ATQ63gTT68FiXTo6sL4TyfFN+UGMO60OHDvLaW32vl7cYUVMfepKu7O3tFtZv4RkNcCpLWMsaNrGYRSxnUw++gbHGzaxm2Brh0O96tNOKj0cvvNPxx8ygp9vARpbP08+30hvvfm09W9bzN0CJIRDtRIjBgEzkHRK1bH2dAQ==");
 
 export default BuildingWheat;

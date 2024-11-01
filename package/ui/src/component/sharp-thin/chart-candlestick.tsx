@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-candlestick` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-candlestick?s=sharp-thin chart-candlestick}
  * @preview ![chart-candlestick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/chart-candlestick.svg)
  */
-const ChartCandlestick: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 32l0 8 0 424 488 0 8 0 0 16-8 0L8 480l-8 0 0-8L0 40l0-8 16 0zm320 80l-24 0-16 0-24 0 0 128 24 0 16 0 24 0 0-128zm0-16l16 0 0 16 0 128 0 16-16 0-24 0 0 56 0 8-16 0 0-8 0-56-24 0-16 0 0-16 0-128 0-16 16 0 24 0 0-56 0-8 16 0 0 8 0 56 24 0zM440 208l-16 0-24 0 0 96 24 0 16 0 24 0 0-96-24 0zm0-16l24 0 16 0 0 16 0 96 0 16-16 0-24 0 0 56 0 8-16 0 0-8 0-56-24 0-16 0 0-16 0-96 0-16 16 0 24 0 0-56 0-8 16 0 0 8 0 56zM168 144l-24 0 0 160 24 0 16 0 24 0 0-160-24 0-16 0zm0-16l0-56 0-8 16 0 0 8 0 56 24 0 16 0 0 16 0 160 0 16-16 0-24 0 0 56 0 8-16 0 0-8 0-56-24 0-16 0 0-16 0-160 0-16 16 0 24 0z" />
-    </Icon>
-);
+const ChartCandlestick = createIcon("chart-candlestick", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABjgAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSDKgsGAAE2AiQDCAQgBYMtBzgbsgXIjsPGMR1poywPUsfD93NfnfuSpmQgwxnOMKODJb+O1LZcAHJoTNcqIEXuFwLz/F/u+b3jowXy/cQPbSyamxfIaA+cAon18nwCZ4GFkSZgDc4b1XgxNIX09Avk8YXz2kgvp3jevWn8bqjnSLIMQFQAWHNo3w7f9kRPxE+tj4ifbENArAGNQIYMIwRYLhMYIdcglwt6otVi/4ENAUS7cMcEcnThE3wNyEHSkecDuqaVU2jS1js/KJ9XHBNS9C5F0Ssii4jyTFEWoiwjyqIUQhQFJiIiWEpP0ogIQT6wfjkFHzsLNwaHc/re+bixr1ev/znmxfq+0qnzVb90Vjr/512dqlW76nr1U+rJT1XhCz2lUtWLdap0Wqzuly7dqqrJp9VeqWq5u3J6S3fs9J1VB3K3enK3urW4Yxnc3R1dDwSCS/MnvXqq7/J/lAn8/Pnfv8efkVZPkl5HpwSCbHpruuMJJAIAkOKhsQkCyTs6hFft5QUBQoEASbtCgMxwlQC5wjQB2oyyQIB2hX0ykXcJA52oIOnlDsgs9AjkBvoAtFnuu7TdwMiuXvbaY78dkza2oQ3HmjkzZzdLm8m2zF2QtF5f1qxWJz/kY1PgWRfdctN9F5x3xf0WeteO4oEbNs4hG3xQY46ZZmss1ezu3T990AV33XPFLTftIcs054eTPZyfPQUaSaCcq5IkIvV7bsdm/J/Tu37h3hsK");
 
 export default ChartCandlestick;

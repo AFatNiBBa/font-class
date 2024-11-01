@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-disappointed` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-disappointed?s=regular face-disappointed}
  * @preview ![face-disappointed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-disappointed.svg)
  */
-const FaceDisappointed: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM294.5 408.4c-7.4-7.9-20-16.4-38.5-16.4s-31.1 8.5-38.5 16.4c-9 9.7-24.2 10.2-33.9 1.2s-10.2-24.2-1.2-33.9C196.7 360.3 221.4 344 256 344s59.3 16.3 73.5 31.6c9 9.7 8.5 24.9-1.2 33.9s-24.9 8.5-33.9-1.2zM211.3 267.3l-7.4 7.4c-23.6 23.6-53.9 39.2-86.8 44.7l-2.5 .4c-8.7 1.5-17-4.4-18.4-13.2s4.4-17 13.2-18.4l2.5-.4c26.3-4.4 50.6-16.9 69.5-35.7l7.4-7.4c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6zm89.4 0c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0l7.4 7.4c18.9 18.9 43.2 31.4 69.5 35.7l2.5 .4c8.7 1.5 14.6 9.7 13.2 18.4s-9.7 14.6-18.4 13.2l-2.5-.4c-32.9-5.5-63.3-21.1-86.8-44.7l-7.4-7.4z" />
-    </Icon>
-);
+const FaceDisappointed = createIcon("face-disappointed", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABkAAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCNwsGAAE2AiQDCAQgBYMtBzgbPwXIhof/t+v7fW5VP1WPm8MaiV9ABjKTlfb6KSOEPXXqeWxTAN8oKGPb1HA2SGjO8whELBdbBS9QrWA1rYCVpeYtE9tjyr0iM9EkPX7t8esBebwVt6qQ7ktf45b2pvGHtitJKhmAGAqA9Qftt9v7nehEfNV9hfjKTgTEelAKZMgwWoBVMoHRciVyuaAT3S7/BpYEED0AJ/9djl5chGsAOUgqeT5qVL1RKyqD8gOLysBxl82JeHbHlwPXb/t81tMunf3M9i+KG3Z+Nfe5qP62MeKjvb4rbtj9zfoPDvh53fu7vh64fs+3Gz488Ji7pzxce3jK/aPumfrY1EcmP1K/r/XwlANrzdrbm2pxZ+PuZhGvzWzGPfW7asXdzXvq9XhicRF31e5sNOLTNY0JTw598q/xX5/4te/eW/4uz1aLpUuL6rPvLl/+ru1/b3M/7Zc+2Ljxg5fa/Tb7OB+fcs8zL7zw0OBq5/2nprduvbU1/an3O9XB+954Eo5sbA7VWT34p8yFX1/oiSfuv/9Qobt6ofLUzE+DV39fam48CQgEB7z6/9lHDVn1b1+RwO9v/vOffo1030/Sk+iTQJDN6s5yeAKJAACkuNCEBIHkAhV41aq7BQgDCJD0GBAgM8pQAXIDZgpQMdZiAXoM2E8m8n6h5ggDSdU5ILPERSBX8xKoWOUzr0ctshzkM4j/AqZs8dDmtXL+nHnlinIZG0JasTpfWW5r0y6U2nTadaKznOl8JzjeKc535Ll2hxc4w5aI2OyDSvPNMU9phfI4e94+0AnOdZ5TnOXMumSl8r41zYVx93QyE1AuEEkSkYa9cHv28aecl8UAAAA=");
 
 export default FaceDisappointed;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shelves-empty` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shelves-empty?s=regular shelves-empty}
  * @preview ![shelves-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/shelves-empty.svg)
  */
-const ShelvesEmpty: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 24C48 10.7 37.3 0 24 0S0 10.7 0 24L0 184 0 440l0 48c0 13.3 10.7 24 24 24s24-10.7 24-24l0-24 544 0 0 24c0 13.3 10.7 24 24 24s24-10.7 24-24l0-48 0-256 0-160c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 136L48 160 48 24zm0 184l544 0 0 208L48 416l0-208z" />
-    </Icon>
-);
+const ShelvesEmpty = createIcon("shelves-empty", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABWgAAAHTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBJgsGAAE2AiQDCAQgBYMtBzQbqgTIHoVxMz3SRXNsb/+I4Pn9QT/nvreA79psUttNTEKF0jY4RCemn5jMtaoZwmo//zd73vMooN4HTSS0sXBpFi0KZM7nCSQ2bWs27vjswE4Uz7zlxGIp+04mmqTHJ+vxbIUy/o5zKpAuJTjbvjR+aOIESYUCQNQGwOiFc6d7/ik+Rbz5f+KNqQiI0SALFCjQXIBhCoHmShmlUvAp/v+f/gMzAURFcmoCJUoMxnBACZJUlp2qVKtQo1zAR6ouvdzhRmORQlxqf7tZRC1Vi4hwrDUj1KpZi2e2uVf73i820PN2g9mzG1xBL4o2ljVGe+HK1WdkZ57knD/KPgKB4OL3Gq+sNeyvytUS+PLsz/Q+/z9PR1KoLIGg6PZ/N8vSEUhHBAAgxQFtEjaQ9Jbc8anVnRcgVEWApKKqAhSaqS1AqaquAlTQUn8BKqpqrkKUVYT6lneQVLcbFAY4CEr13QcVDPNCq6h+FLFD3Tz1c4ufYKHxbbl3j155SJ7alA4HotSH5mWh04Ec64xBG+y0wz7rrbPZPoPsMd3cb7sJHjzeD2W99dBLNkTe9h67F1hvj70222lHbTJUPq90csDP7gw5Edw+JpNEpBp7N63fdmD93u5PGAAAAA==");
 
 export default ShelvesEmpty;

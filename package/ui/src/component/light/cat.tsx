@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cat` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cat?s=light cat}
  * @preview ![cat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cat.svg)
  */
-const Cat: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M352 33l0 111c0 44.2 35.8 80 80 80s80-35.8 80-80l0-111c0-.5-.4-1-1-1c-.3 0-.5 .1-.7 .3L472 70.6c-6 6-14.1 9.4-22.6 9.4l-34.7 0c-8.5 0-16.6-3.4-22.6-9.4L353.7 32.3c-.2-.2-.4-.3-.7-.3c-.5 0-1 .4-1 1zm1-33c8.7 0 17.1 3.5 23.3 9.7L414.6 48l34.7 0L487.7 9.7C493.9 3.5 502.3 0 511 0c18.2 0 33 14.8 33 33l0 111c0 61.9-50.1 112-112 112s-112-50.1-112-112l0-111c0-18.2 14.8-33 33-33zM128 299.2c33.8-61.5 92.1-108.2 162.9-126.2c2.2 10.6 5.5 20.9 9.9 30.5C200.2 228.2 128 318.7 128 424l0 8c0 26.5 21.5 48 48 48l128 0c0 0 0 0 0 0l42.6 0c2.9 0 5.3-2.4 5.3-5.3c0-14.7-11.9-26.7-26.7-26.7L288 448c-8.8 0-16-7.2-16-16c0 0 0 0 0 0l0-40c0-22.1-17.9-40-40-40l-8 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l8 0c39.8 0 72 32.2 72 72l0 4.4L421.4 292c3-2.6 6.7-4 10.5-4l.1 0 .1 0c2.2 0 4.4 .5 6.4 1.4c5.7 2.6 9.4 8.3 9.4 14.6l0 160c0 8.8 7.2 16 16 16s16-7.2 16-16l0-184.2c11.4-4 22.1-9.4 32-16.1L512 464c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-124.4-86.1 76.5c30.3 2.3 54.1 27.6 54.1 58.5c0 20.6-16.7 37.3-37.3 37.3L304 512l-128 0-.1 0c-44.1-.1-79.9-35.9-79.9-80l0-8 0-247.5c0-24.2-18-44.6-42-47.6l-7.9-1c-8.8-1.1-15-9.1-13.9-17.9s9.1-15 17.9-13.9l7.9 1c40 5 70.1 39 70.1 79.4l0 122.7zM384 128a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Cat = createIcon("cat", false, "data:font/woff2;base64,d09GMgABAAAAAANoAAoAAAAABuwAAAMbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDeAsGAAE2AiQDCAQgBYMtByob8gXILgtsY9bgvxBjDCFFIBqP7sDXfx8NQ0e7/OCfzz/yvvmzgOdsFcsVF2IXukw6ouIPfPp0Wf/7/dq5a/L+X3Fr4uDJGkOi4okEEZKYZbPpWwKdIZJJkAkoguV9gQQMoXUpBLT1OwCVwwYya9aXIfX/E9c8/7Snt9cmfbTvdWkFYOb5BAYYrdUkw9nEBoQb4870Hi7I7DesxRZYvVMvBIBpETwBVLlPqr9Y5AMG6wEAoGgAAMD4pQP9uPdNvvSk6z7oCb2AADQBAEeAB3hAOgEwioeAdBYHLBaBT12L/0AQACgQ/ysZACwQBHwA+AUAYAEwBFjrXPnykLCACLskTBy6FdEROVe4E7vgEuUochSjaF0RqlLjGC1RKVxtGC2lxtKWsszQAKg9fDZ/O3reKcoxNSmXXamI7nZuGN7wdajF0BAIoxzKoTCVmVqDodRobHCkHGOjYmiTKYxORc5Z0FKtzZKkMgOzIu+kJpPojAk16+v9p42NVtEiXVgaLCf19QrXqBPFQ9BgIkFNygTv0iYTTdbrG41L0x/YZMo+z5//1bbdaOfExAQNb+b5zcM0gYSWUMyyEdE8DCERWTKGbJspYZEl22wvUf/deTVBZPMi83scLAMnR1LjfbqfHQzv6fv0PAD0ZG3yQgCfAXQTM3eaYPgs0g/Gz+UiRRzaiomBALx+s/JjMP+F8wni3w+89dLvEx5l8Uys90mjzu/yPU8CdzxHxr/aN+0+vOJ6c5N8C/ij5rpu5/ssQudGSdXjAECAYH91cNharvgnUxoAvrwo+xD+l8AJbgGCMQAIvF7/catMFcelG8KPGx0he+KVCDC8hRifE04jiJQIhYo0BBJKeqSJJi2h9CQDyDRYWDh7IR6yIYh4qzFpCGc/6THEMdIS7wYZwCj344HEhxDIJRCVHjHTdTSB1iB3pk8/N8KN5hQy3ApW70i32BY+Imu645XYwl72cIjNbGI7hxr4AWanDrObKVPYZN6I018f/TgjuM3Fu4uXsJkDHGQ7e9nj9DOSOz7UzZHp5t2x0+DzDhA2GP517N+4fhYAAAA=");
 
 export default Cat;

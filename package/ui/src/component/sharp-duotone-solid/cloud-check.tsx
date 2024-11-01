@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-check` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-check?s=sharp-duotone-solid cloud-check}
  * @preview ![cloud-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-check.svg)
  */
-const CloudCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336L0 480l144 0 368 0 128 0 0-128c0-59.6-40.8-109.8-96-124l0-36c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192l0 8.2C40.1 220 0 273.3 0 336zm190.1-48L224 254.1c.3 .3 .6 .6 1 1c5.3 5.3 10.7 10.7 16 16c15.7 15.7 31.4 31.4 47 47c37-37 74-74 111-111c5.3-5.3 10.7-10.7 16-16c.3-.3 .6-.6 1-1L449.9 224l-1 1c-5.3 5.3-10.7 10.7-16 16L305 369l-17 17-17-17-64-64c-5.3-5.3-10.7-10.7-16-16c-.3-.3-.6-.6-1-1z" />
-        <path d="M449 225L305 369l-17 17-17-17-80-80L225 255l63 63L415 191 449 225z" />
-    </Icon>
-);
+const CloudCheck = createIcon("cloud-check", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhwAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCEwsIAAE2AiQDCgQgBYMtB1IbNwXIhuB5u6h6v3tmAfXCjCRFUAQoBO8uWmenCS9mKMUzcTn9sexpgSx79zn9fQP+N+d5Ap0H0kVjWiJx52Vq7U5rcKi9kpaQcFy24/O5QJ66Z6eUSLdSBRfofwDjV62cIqmVAYiGAJi4aN4Mn36MH1NUql8QFdMREJNAIZAhQ1sBxsgE2soVyOWCH1O1yo9RrRYEEGX06gyUUcIWHALkIAkpzxt16lenVC9fSE/WXjd/0fwe0SsWxviYE4tibAh16kXc7/dimHuk15Nhp7u8GPVm2Hdj3s0XX/R51nbR+DHjj9W51ozYxz2f9iZutACOi2NsNI2rTeP5sS2dG9ebH4cD0elJwye/d6xsrPj0/QV7BMyapZE/HDmikd0Xzef9dUy9i49ud1HzyZNj7XfNGzrk0+SoVGJyTS+vXGnwvn+jRo0iNm7k0Ma3b56+HTyl02BohI0bOXoUVB06BEAgePXHwMurGoz5v2adBH5+8+cv0tPVH9Ox9AQ1JRBkfap9LE/HwEsDyFIc1Kn1Qx8RyMyW4LvWdV2AUBsBkrLaAmTaaChArrbeApS0N1SAstrmyUReS2hqReGSuvZwmWEOc7mmPudKxvgyL2samcqpCqO++LKmcXjqtmJgvwHFqKLbljUtkuP66GI66nEwjPWEvTbaZaf9Nlhvi/2M2mtGdcAO00bkVF9UGKifAQqjFMu9a2sh5nvts6VtrG8yWnE+6eHgeHZP2E0CDLqsWkakyJp8Puj0FV6vr/RONKsNQQUAAA==");
 
 export default CloudCheck;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-t` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-t?s=light square-t}
  * @preview ![square-t](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-t.svg)
  */
-const SquareT: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm112 48l112 0 112 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0 0 192c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-192-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const SquareT = createIcon("square-t", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABbAAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBXgsGAAE2AiQDCAQgBYMtBy8b3QTIhofv18o/93XP1qZng9whIgVMDgg/ogRShEaE3CcVPRPXPP+0pwcs8keLwtIH+T7v2vkEJvq28glFgc10AjbdJkPQowjfCImSkI7PjrMz5PFqDFQhPU5/4Wb70Phbe+dI8gxANAPAtOWLF/nuSTyJ+Kv2BfGXBQiI6aAUyJChkwATZQKd5ErkcsGTqNX4P7AkgKijD5dAjgqWYCUgB0mW5x06tKtWGufLqpVi9ZVWEfekONX6frVxXG37MLI43eZB0TD31QERn/ZpHO/3+7h9ikd9P+rZEB/0/6RDtrRaVO+3vteqCAHagzYRRez5sG33T5p98m+3v7b9ZcrJJpe41GQqykOwVjSn+VuG9lbz5sVUEq/sH3LgwJMnTZo82eA7TRj9DmsvBwLBi58u31/fdOLL+moCz779/2X9Gak9ie/SJ6iXQJANrA20Jr6D+E4AAFIc0z2+QyBZKKPX2uCBAKFAgKROIUCmo2YC5AoDBKjoYpQAdQqLZSJvJLSydhBJg4NEZrTjRK6Vz4iKiX616rSKLK/4rOB/dSmzCZi1qxw2eGg5vtymupAqbNmcUB6rfY9Jqx9WbbPfPkdstcVORwx+yCL3qL1me9gsX1QaZrChSuOV4eJZWUbWIYftXEvxbSYo75t9HfOH+8FIlHG4UJKIVP80tUFHAAA=");
 
 export default SquareT;

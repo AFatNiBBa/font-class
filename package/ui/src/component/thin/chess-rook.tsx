@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-rook` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-rook?s=thin chess-rook}
  * @preview ![chess-rook](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chess-rook.svg)
  */
-const ChessRook: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 56c0-4.4 3.6-8 8-8l48 0c4.4 0 8 3.6 8 8l0 24c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-24c0-4.4 3.6-8 8-8l48 0c4.4 0 8 3.6 8 8l0 24c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-24c0-4.4 3.6-8 8-8l48 0c4.4 0 8 3.6 8 8l0 130.7c0 6.4-2.5 12.5-7 17l-46.6 46.6c-1.6 1.6-2.5 3.8-2.3 6.1L351.1 384l16 0-6.9-124.9L404.3 215c7.5-7.5 11.7-17.7 11.7-28.3L416 56c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24l0 24c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-24c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24l0 24c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-24c0-13.3-10.7-24-24-24L56 32C42.7 32 32 42.7 32 56l0 130.7c0 10.6 4.2 20.8 11.7 28.3l44.1 44.1L80.9 384l16 0L104 256.4c.1-2.3-.7-4.5-2.3-6.1L55 203.7c-4.5-4.5-7-10.6-7-17L48 56zM184 216l0 64c0 4.4 3.6 8 8 8l64 0c4.4 0 8-3.6 8-8l0-64c0-22.1-17.9-40-40-40s-40 17.9-40 40zm40-24c13.3 0 24 10.7 24 24l0 56-48 0 0-56c0-13.3 10.7-24 24-24zM94.3 432l259.5 0c4.5 0 8.9 1.9 11.9 5.3l30.6 33.9c2.5 2.7 3.8 6.3 3.8 9.9c0 8.2-6.6 14.8-14.8 14.8L62.8 496c-8.2 0-14.8-6.6-14.8-14.8c0-3.7 1.4-7.2 3.8-9.9l30.6-33.9c3-3.4 7.4-5.3 11.9-5.3zm313.8 28.5l-30.6-33.9c-6.1-6.7-14.7-10.6-23.8-10.6L94.3 416c-9.1 0-17.7 3.8-23.8 10.6L39.9 460.5c-5.1 5.7-7.9 13-7.9 20.6c0 17 13.8 30.8 30.8 30.8l322.3 0c17 0 30.8-13.8 30.8-30.8c0-7.6-2.8-15-7.9-20.6z" />
-    </Icon>
-);
+const ChessRook = createIcon("chess-rook", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABsAAAALUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDVAsGAAE2AiQDCAQgBYMtBzEb1QXIrgu4w90rQIURaXcjLJnBEXmCd0SK2b+rLoRoLTP7wP6/ZUeggIU8XSNIuLKssGxMK2QVS/SVBPCPvx967seU+aUKAUZEtmW7sZwDICGnlzbAAggzgrzt9mOKKic1yc9XerIk3YMmVZuNXE0KUkUAXO5+zvrNlXgigUVayBkVUfl+4dAstcD/5v+afNV0gB/ALxLv+YEUeC/6+QT2PMMibXZABzYb6ACHE7Cp21g6IpcXg8gQPFcM7aF6hrzWbOVCWgl/wH4rVfyX4CoStg2ACAeApcdwL2++HoP48RfxQzcEEE2AHgI57OggwCwbwWdwMJDHQfAY/K//gSEAwsPoxHeVByVwAXcAeUDCdZyj0bXVFtRCnLEgCZxeOsjChFYuQR4cwh/z4rlGaTSAxlRRgbR6DXR3RfPnQIszP3RxqtUWNK6Z6/QCjSIWpiBLi8pvYzHw9nme6tMEFChp7TbS0JA7U66u+XOwxflSXL6q2pQ3nLcYGKzb5xyli9NCUIjuLEu6NKc/Dn+83vtz+XvexgIbUxeT9RicmuCwFbh9XWSuXyCcd5bnnvdXfGwMMq04vC3Cz58fOOFOp9iRL7aX+7o2KQI1PLuJOHtiEU+e2YksZpICFWKyDfm847f8VVycf+78aYrFl1qy6PiHvSeH0Ns/J2refLOJXkTwCYAAAffJ8qYNYfk6tADPH19SZP85CB9DGQsQkMv5x0zwDBOfAOAlHSfdeSUCifdcrKx1FgkQBIIAJDwCESBHknAC5AkkmwAFUpUSoEggw2zkBCCizU5gEcwhYFPmHHCI9hS41PjseURHpLSWkNqHMruNkdZBZjyvwFSZbWToWarU3moTdvqOS00mdrLdAfsdtc1Wuxwl8bDe8Jh92jyh1RsZhfIUMKqY6/R185htDjtilwP2az/VzHs3w3G/eSaGYQGYSAZF5ocVuGXntiNHctdXDuwBAAA=");
 
 export default ChessRook;

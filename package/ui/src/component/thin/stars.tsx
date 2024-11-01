@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stars` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stars?s=thin stars}
  * @preview ![stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/stars.svg)
  */
-const Stars: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M344 0c4.4 0 8 3.6 8 8l0 64 64 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-64 0 0 64c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-64-64 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l64 0 0-64c0-4.4 3.6-8 8-8zM138.4 258.5c-2.3 4.7-6.8 8-12 8.8L22.9 282.3c-6.6 1-9.2 9-4.4 13.6l74.9 73.2c3.8 3.7 5.5 9 4.6 14.1L80.3 486.6c-1.1 6.5 5.7 11.5 11.6 8.4l92.6-48.8c4.7-2.5 10.2-2.5 14.9 0L291.9 495c5.9 3.1 12.7-1.9 11.6-8.4L285.9 383.3c-.9-5.2 .8-10.5 4.6-14.1l74.9-73.2c4.7-4.6 2.1-12.7-4.4-13.6L257.4 267.2c-5.2-.8-9.7-4-12-8.8l-46.3-94c-2.9-6-11.4-6-14.4 0l-46.3 94zM7.2 307.4C-7 293.5 .9 269.3 20.5 266.5l103.5-15.1 46.3-94c8.8-17.9 34.3-17.9 43.1 0l46.3 94 103.5 15.1c19.7 2.9 27.5 27 13.3 40.9l-74.9 73.2 17.7 103.3c3.4 19.6-17.2 34.6-34.8 25.3l-92.6-48.8L99.3 509.2c-17.6 9.3-38.2-5.7-34.8-25.3L82.2 380.6 7.2 307.4zM464 160l0 48 48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0 0 48c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-48-48 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l48 0 0-48c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const Stars = createIcon("stars", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlwAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDBwsGAAE2AiQDCAQgBYMtBywbgwXIjsO4mRvp4oXqmOLh/+3+a59b9V4DqparIUWwIjC3h6mcjbNZHf/V6RivEcwWmc3/NXXxvMovyIfy79/dyrIt0qJCOEVnmSKz4WyiuGHbqDaqng/Hcgd5vGeLCulWGhfch8Y3OjhPkmUAojkApi1fvMjHdVEX8WXtDeJLCxAQ00EhkCFDZwEmygQ6yxXI5YK6qNXYf2BBAFEVvjiBHFXcw9uAHCR5nnfvN6BHo0qTfJlKarj9WhvRKBDuauuGIXDX20Y0DNyNdo0iQr2in7gkrrZZGtes9Vq75RA28nbL4rqmLYIJmFYv6TKCGBJc16hlgmvbbIeHNFcxqEAGt0+8bLPwGAhW6PFq81e/675fWv7RhupUU2FddQNXg2W7a3+V+pze1tSTnfPmWlqvxXYNH68pbd6sdI8bKl29paPr73yyvakDYwavtWPHkLVny9sTmfizzQTe402b7uEareXPF058dd48zbfp+tLLz9aUYt+zl1/q2gvMn/fp5TIkb+WVSlCNKXUfBwLB+a8PPl7fbOJvNErg+bs//G3OrP1Xez+RXkV9CQTZoNoga5IFxp9jxbv645ge8JsEkmty4bs2dl2A0BABkqqGAmQ6aS5ArqGBAlR0NUqAqoYWy0TeQGhtbYMkjR1EMqOdQHKtvYZUTPRJsKp1ZH6V8mnUr2Ka2V32rEXFsCFlMb6YLapo7wf18IRis67fMd7UHy61zX77HLHVFjsd6YgOWRQ5aq/ZS5xZfqgwzBClwnjF4cpDzTIMMs3hLpymj09ggsL1rn6OLXfuD41JqHC4jCQRqfJxAQAAAA==");
 
 export default Stars;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-simple` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-simple?s=duotone code-simple}
  * @preview ![code-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/code-simple.svg)
  */
-const CodeSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M352 96c0 8.2 3.1 16.4 9.4 22.6L498.7 256 361.4 393.4c-6.2 6.2-9.4 14.4-9.4 22.6s3.1 16.4 9.4 22.6s14.4 9.4 22.6 9.4s16.4-3.1 22.6-9.4l160-160c6.2-6.2 9.4-14.4 9.4-22.6s-3.1-16.4-9.4-22.6l-160-160C400.4 67.1 392.2 64 384 64s-16.4 3.1-22.6 9.4S352 87.8 352 96z" />
-        <path d="M214.6 73.4c12.5 12.5 12.5 32.8 0 45.3L77.3 256 214.6 393.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0z" />
-    </Icon>
-);
+const CodeSimple = createIcon("code-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABbwAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBSAsIAAE2AiQDCgQgBYMtB1Ib7ATIjsM4RlxCTOJDcYmg2q+3Z3fffSCwECBF4JhUolkDsPoupGNU6oy4ikUVRxpNl/vWbVt3rVqbqUGBRQ21h8MhHQ6FQzg0wjN2WrzxUgGP6zo3NwVZIKU54y144wWpjl+iv+NvD/SC/LuzpVAr5JOEjeR4tB2nHUr8yTdUpLepDh6HN45vLA+SlgwgugHApkP7dnj/opGi/v8zUdcDAbEZMI2QkTGOwFqSwDjZNCiKoCH+/6dB9s9vGgKIGunKM6ihYCvYC6CAJEQpUxNK1VEOtlWtx16KuNK/Pw7ES1f6X7TeGzwYr+Lq0KF43XZ/4OyVgQOxP164MvCy7f4AGxMktoKtrTT7qfvTD7t+pu57u9tBx927d2Suo3Bv0HizuIh4JOIIp06RmPkdEAjuv/syPtW19ndzWwJfX7/+/sK0MX1CswSCPP9/3jBtBCyaACvFZQ7zWXEaIZsipEdt90qA0IoASU2rANkYE4Gi1RwClUkVAjWt9pFEaRH6jSpI2p0D2Rp3UPR7gspaH6umP7I0UbJA/eXit7fQtqnpLE65xaSv0AJCYL/N27p7czkPFs3s7VxMTSxdGuSk715tdTm444tYJpZiLXwc3fMDY52cLefs+ZA2vm+6bny1B/MIwIp38GQiRe5TMWlBIeUFvSwM9KwKAgAAAA==");
 
 export default CodeSimple;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cassette-tape` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-tape?s=sharp-light cassette-tape}
  * @preview ![cassette-tape](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cassette-tape.svg)
  */
-const CassetteTape: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 64l0 384-65.9 0L447 362.5 443.2 352 432 352l-288 0-11.2 0L129 362.5 97.9 448 32 448 32 64l512 0zM444.1 448l-312.1 0 23.3-64 265.6 0 23.3 64zM32 32L0 32 0 64 0 448l0 32 32 0 512 0 32 0 0-32 0-384 0-32-32 0L32 32zM160 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm55.4 64c5.4-9.4 8.6-20.3 8.6-32s-3.1-22.6-8.6-32l145.1 0c-5.4 9.4-8.6 20.3-8.6 32s3.1 22.6 8.6 32l-145.1 0zM160 288l256 0c35.3 0 64-28.7 64-64s-28.7-64-64-64l-256 0c-35.3 0-64 28.7-64 64s28.7 64 64 64zm256-96a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const CassetteTape = createIcon("cassette-tape", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABigAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCQQsGAAE2AiQDCAQgBYMtBzQbRQXIHoex2+RKNEMR5e0/4uH/5/p3n5s8ysxHzgciLhDIuqo6Fg7IdlVWTzLXvldI/MQ1z//86QGT/l740aKwqDwX3Trc+QCjvWlCs4FNFMc4v5u813DxdWMnifLRMB7Z0wXy+DWGqCO9mX7B8/Sh8a9O7pDkGYBoCYCZ61cv9d1f8VfEL7WIXyxGQMwCpUCGDF0FmCIT6CpXIpcL/opajX4DSwKIevzPSCBHE27iMSAHSUOet2tq06bavk2lrlm+rlJXnE5ZKmJdtI+i2jbWRBFZtNhQbVYdHc1i5L6iUogUotIiIouIYsfjdhGvutH2leJR+9fiZofXKytfj5vtK/GKG+2KBc2qzT4f/HWXtwZ91a8anwz4ouObA7/su35hda+vWn71H/vocf0GNszSfY1JKoMn5bRZbrD7+gSQjiscf/v9MuSGkku7/n7zBzxoTmUUe/xp69ZPX4L04/igVauiQNsHMqO2feN1IBDs/bjdmu0tpvzfWEngn28fnlf7K81IX6FRAkE2pDbEljQDiBiAneKcXgaHYKGLGvC7Vr0mQCgQIKlXCJDpoqUAucJgAep0N1aAeoXVMpE3CW1tLXBSdRLOjHMVzrX1DVxniu/dem0jU0RWjdh3YNK8Gpi7rBw5bEQ5qeyWCadbtB+fXE7LA87ZtoE4a5/jjjljrz0OOlNBpywNnHXUvBE41xeVRhpmhNIk5Xbt9vg6e51y2kHHHYvzTFaetwY4N+49EFrClKPkJ4lIzXZ/mtHP7B16GwAAAAA=");
 
 export default CassetteTape;

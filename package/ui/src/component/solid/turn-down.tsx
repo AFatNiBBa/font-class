@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-down?s=solid turn-down}
  * @preview ![turn-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/turn-down.svg)
  */
-const TurnDown: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M350 334.5c3.8 8.8 2 19-4.6 26l-136 144c-4.5 4.8-10.8 7.5-17.4 7.5s-12.9-2.7-17.4-7.5l-136-144c-6.6-7-8.4-17.2-4.6-26s12.5-14.5 22-14.5l88 0 0-192c0-17.7-14.3-32-32-32L32 96C14.3 96 0 81.7 0 64L0 32C0 14.3 14.3 0 32 0l80 0c70.7 0 128 57.3 128 128l0 192 88 0c9.6 0 18.2 5.7 22 14.5z" />
-    </Icon>
-);
+const TurnDown = createIcon("turn-down", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABWAAAAHWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBIwsGAAE2AiQDCAQgBYMtBzAbowTIhod/5sq/L8ns6WbKkFYBMQnTs7b4GYxAUuTmfy6nN54fHeAH8Jvz+YGMCbRm43kCPc/avoHyOLBME7D2plnqyLIrMjOaJH+y4+sCWRxJzyqRPEq+xo32ofG7Fs6SqE4BRH0AjFowZ5r3v4lvIr6qvCC+MgUBMQoUAilStBZgqFSgtUyBTCb4JiqV/B9YEEBU4TdKQIYUAzAMkIFEZFmPcqlONr9cytfcazw37uaXm86P+80eNCtHxKmm9/M8Lje9L5RFys9+Muyd9qIc95p0qKlf82f7r9d/bdnOaU8u3LA+z9f37U+mbftmoffVvXix7sykF/jSmWP6lt630DfbgEDwtEnTn1bUG/pPrXICvnvz7//Rr6jyfqxJalBLAoK0a6WrpXESbWKNAAAksV+HOIlAoocEO7Xd3w1CDkKiSg6pVupDJtcFStrqd0GV3BypyKqFxpYRSNS2C1L9HYNMY8+gZKjP3CqNI40c7t25j1vyeI2PW1f06t6zGFxMM4MPBqYuDymW7Y77S6cTnLXeDtvttc5am+xV5G7Tgn22Ge8R43xRoZfueioMVmyX2+PzrbPbHpvssJ1WGaI473S03x/vBJtJAL3vPJUQSXWwKt3CCQ==");
 
 export default TurnDown;

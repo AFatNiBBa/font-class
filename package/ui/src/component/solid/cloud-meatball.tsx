@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-meatball` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-meatball?s=solid cloud-meatball}
  * @preview ![cloud-meatball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-meatball.svg)
  */
-const CloudMeatball: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 224c0 53 43 96 96 96l44.7 0c9.5-23.5 32.5-40 59.3-40c2 0 3.9 .1 5.8 .3C217.6 265.5 235.7 256 256 256s38.4 9.5 50.2 24.3c1.9-.2 3.9-.3 5.8-.3c26.9 0 49.9 16.5 59.3 40l44.7 0c53 0 96-43 96-96s-43-96-96-96c-.5 0-1.1 0-1.6 0c1.1-5.2 1.6-10.5 1.6-16c0-44.2-35.8-80-80-80c-24.3 0-46.1 10.9-60.8 28C256.5 24.3 219.1 0 176 0C114.1 0 64 50.1 64 112c0 7.1 .7 14.1 1.9 20.8C27.6 145.4 0 181.5 0 224zm288 96c0-17.7-14.3-32-32-32s-32 14.3-32 32c0 1 .1 2.1 .1 3.1c-.7-.8-1.4-1.6-2.1-2.3c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3c.7 .7 1.5 1.4 2.3 2.1c-1-.1-2.1-.1-3.1-.1c-17.7 0-32 14.3-32 32s14.3 32 32 32c1 0 2.1-.1 3.1-.1c-.8 .7-1.6 1.3-2.3 2.1c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0c.7-.7 1.4-1.5 2.1-2.3c-.1 1-.1 2.1-.1 3.1c0 17.7 14.3 32 32 32s32-14.3 32-32c0-1-.1-2.1-.1-3.1c.7 .8 1.3 1.6 2.1 2.3c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3c-.7-.7-1.5-1.4-2.3-2.1c1 .1 2.1 .1 3.1 .1c17.7 0 32-14.3 32-32s-14.3-32-32-32c-1 0-2.1 .1-3.1 .1c.8-.7 1.6-1.3 2.3-2.1c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0c-.7 .7-1.4 1.5-2.1 2.3c.1-1 .1-2.1 .1-3.1zM48 448a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm416 0a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const CloudMeatball = createIcon("cloud-meatball", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABvgAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDXwsGAAE2AiQDCAQgBYMtBzUb5AURlZqtyH4mZHOE69rpNNpGXaOLgctqJto9Pgme/1/T7vt/kpPOhEQBULZqUQOSY1cimsoltO2uXFaAkACAgJ1VRIftebG4bDqg/wHQFbD+fPdTF89Hw6i7+zSSj7Joq9QKigrem8BEIq0CaPSBtxbFQbQ5zkCh+PjFQUqCnk8axg/a21oDQy7pMhygutVNoHFdIW+IKANFkAYF4geIyuINa5Zx/aE8FLkROIPcYAkgALIYgHgBNKCBaAFgnkaAaIN4MDAQeCiBgKj/gSAAIE4gsALAAJzALeA+AGAAoDAMY/4Jj8dyeIz1lsOU/gyR6VxLesM6rVprJm08o9aqDWmPsORc1kzcQKadV2wWm53Swk6n96TaZmJPRReFjK0M31UcKtJh1gS3UURHKMKLzpBiqZF0q1ZqreLgGkpEWGdYsRRBEkYx7ZZAaEdosdRizRqpMYstGZbgtmDnJ7J2Mqo3sid1LLwrojvFM++daPvtdwk399/kocsGuyiHXb8Ha5368GGq1sFT+K6EItt2GcJ8QwQJc8n6ff6Vhx8MNiV8/PDfZ0XMhoX74nZ4q6DK662q8iqBbo+7u9vt6QZQ4q3KMYIIiCQ8T5dXIcgQfpdHhoxRiPpQOPT83LnnQzVvdz0ACCBwZkny+A7fvG8uSwHw+OKHn3JgYIByKhtwoQAQ0NmB7K0Kg7QPgnqVnCSRe0IAxU0MWOWmAwFAMGEDCicm0ET5gYFJFnAQmyt2jl6DRowghOBtAIWbI0CTlw8Mgk8BB/M0v9dJsOi4lkal9LMyle+pbhhFmmM4zWmyUBUvvRa3Rn+lJmCm6PbtaZvx6ehXFXhXb9HcD6EgJQcMDBc/Tq7b6x73TQaxcL9D89nNA/QKxS1JUyiQyvuDQ3XyzhA/rAA=");
 
 export default CloudMeatball;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mouse-field` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mouse-field?s=sharp-thin mouse-field}
  * @preview ![mouse-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mouse-field.svg)
  */
-const MouseField: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M402.7 16.2C390.6 17.4 379.6 22.4 371 30c0 0 0 0 0 0c-.6 .5-1.1 1-1.6 1.5C383.4 47.7 392 68.8 392 92l0 12.6 .6 0c17 1.2 33 6 47.3 13.5c1.8-1.3 3.5-2.6 5.2-4.1c0 0 0 0 0 0c2.9-2.6 5.5-5.4 7.9-8.5c.9-1.2 1.7-2.4 2.5-3.6C460.8 93.2 464 83 464 72c0-30.9-25.1-56-56-56c-1.8 0-3.5 .1-5.3 .2zM408 0c39.8 0 72 32.2 72 72c0 2.7-.1 5.3-.4 8c-1.2 10.9-4.8 21.1-10.3 29.9c-3.7 6-8.3 11.5-13.6 16.1c0 0 0 0 0 0c-.4 .4-.8 .7-1.2 1.1C484.6 149 504 184.5 504 224.3l0 31.7 0 8-8 0-122.8 0-35.8 78.8 57 17.5 5.6 1.7 0 5.9 0 40 0 8-8 0-48 0-8 0-232 0-8 0-40 0c-22.1 0-40 17.9-40 40s17.9 40 40 40l416 0 8 0 0 16-8 0L56 512c-30.9 0-56-25.1-56-56s25.1-56 56-56l40 0 0-64c0-87.3 66.6-159 151.7-167.2C223.4 153.9 208 127.3 208 98l0-6c0-50.8 41.2-92 92-92c21.9 0 42 7.6 57.8 20.4c.8-.8 1.7-1.6 2.6-2.4c0 0 0 0 0 0c3.8-3.4 8-6.4 12.5-8.9C383.3 3.3 395.3 0 408 0zM336 96l0 32 0 8-8 0-32 0-8 0 0-16 8 0 24 0 0-24 0-8 16 0 0 8zm80 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM112 336l0 64 224 0 8 0 40 0 0-26.1-98.4-30.3-7.6-2.4 4.7-15.3 7.6 2.4 31.6 9.7 38.8-85.4 2.1-4.7 5.2 0 120 0 0-23.7c0-54.6-42.2-99.8-96.6-103.7l-8-.6-7.4-.5 0-7.4 0-20c0-42-34-76-76-76s-76 34-76 76l0 6c0 28.8 18.4 54.4 45.8 63.5l20.7 6.9L288 184l-24 0c-83.9 0-152 68.1-152 152z" />
-    </Icon>
-);
+const MouseField = createIcon("mouse-field", false, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAABvAAAALzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCEDQsGAAE2AiQDCAQgBYMtBzIbDwbIjtMd8UY1zaQIArv6rx7sAZp7Mr7kiEaoDHRPHL3Dm/5+6o/zTx/wGX2UrGVbtHafT2CAYbvZ2sY7jwKb6QRsi9tuipiFNgiFHWTxhN3kJJclb+Kc8kPjax1OI5GmAKIeAPO33Ljasx/EBxFv/P8Q8YaVCIj5oBBIkaJbgFlSgW6ZAplM8EH8/7/4DywIIEqiSyUgQxk+wy+ADCTyLBu6fVPFnKq8JtuiKq/c88bmk4NDzUtu6xFVcdPgS9pGJKXIdnF568VDTq88OdpuGh5xW8dJLm2+cLPpdGTtU/1CVFZuiuXREqJnqj59NddJLRcNrqnCZ9zcenHnFW2XDK2KiHfnPrPl470R14y8Y+pDw5+IVW0S7vBEVG2ZF1Vh80UtFzZf3KoiOwkzi7aI1miLlhgcW5b0KHr1iNuntBI6Ei9vX2zIjcNubRcndVw2eHA0R2W8NevJTQNur7/92/4393jT+ff0vwGwVVIjnLxNfwNMnBgNxzWUff/fQWnC2g8mMrE2y+rPXHYERPBRT6Fc+bED1zjJeiXD9CbrGu54vKHh8dtdW16v/NqD/qvshtOHmScWXHX1/NJWPSWlyy7bySnApl3/wB0LSh2Uhm2PtrcrV+asXftBbe0HqWvsNfOiu/9gXKedexxijZ39acgmzfKj2lXceef5B9lJmWZ1izf98KbFdSWtz97rYmO1mxeX3xbzgECwzcgXn9+xbtav5VUJ+OjxvkZ+Rf8/G38kt6NcAoJ01P+jbJdAefwhAABJHGFAAoHEe3L4WqtdLECoRIBESaUAqS71AmQqjRQg12uyACWVNkpFViE0274FiWoHg9QUx4NMswdAbpZXYiXNkYI7C6zs32bSkj66eFYxfsy4YkaxWFFzEEzbyZnFbvOwI0Ydw/FKezjQAQ6zu93s7bAefojVycPtb8kattgXFcYbY5zCDMXp+mNpCxo7xKH2nhfOTzNTcb9/mCPW+w/HtkREOEFeIiGSqo9dGf0qAAAAAA==");
 
 export default MouseField;

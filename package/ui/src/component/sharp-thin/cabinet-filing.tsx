@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cabinet-filing` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cabinet-filing?s=sharp-thin cabinet-filing}
  * @preview ![cabinet-filing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cabinet-filing.svg)
  */
-const CabinetFiling: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 248l0-232L16 16l0 232 416 0zM0 496L0 264l0-8 0-8L0 16 0 0 16 0 432 0l16 0 0 16 0 232 0 8 0 8 0 232 0 16-16 0L16 512 0 512l0-16zM16 264l0 232 416 0 0-232L16 264zM136 96l176 0 8 0 0 8 0 32 0 8-16 0 0-8 0-24-160 0 0 24 0 8-16 0 0-8 0-32 0-8 8 0zm0 256l176 0 8 0 0 8 0 32 0 8-16 0 0-8 0-24-160 0 0 24 0 8-16 0 0-8 0-32 0-8 8 0z" />
-    </Icon>
-);
+const CabinetFiling = createIcon("cabinet-filing", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABcQAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCJAsGAAE2AiQDCAQgBYMtBzUbKQXILg5sOnXBK8KWYTAU0uZ+HMejiKC1snp274EgNlGoWEeiRYskfByBRlTnQsYgqejz/39u9888xHeWHNO8tSUkQXNpNErU0AmFRqogQw4Is7aYMnlC5LUnLO79/1zu+T2/7fP7iR/aWo1lgWwKx1zPwwCztuWBBRRYpglY1s5+eAbRbdL3yUsybJ9hs3hCncv2ECkXC5wtH5pfJt0oqgpABgDAxu2dDN/3eZ+8az0h72wCgWwELGCoUGEGA2vwghmCBVCrhfdptcJ/4AIESBu8u4Aa7TgKzgCoQdGo687Zzvl5vdFbb+tudO2O9ER6d0SQ7e4V/LCrJ9sxvUl6tnd3dQ/swN8lyk4fxTq+5KabLyr3Xn2H6Ibvbtz7e6ADY98N7N/nT8X6v60wx0/4AiVXMeFtQuR+ng7W6yAIR5bei73mf0d3AR9f/vul/opazTTLTXQoIFTLWssM0oQ0BQBQcoybJoJiLxEe9TgnILoQKNp0QWWaA7UuS6FhTvVxmy6b8VJ3ihFDgaLHQaisdoXaiA80rPFLtBlJ5Xqq46gPv6xUI8khKuYK1CKzpGneJKfRNi0HvUts8ekiJrY2TsZG5k6KPsjSZ2vpDE18ESnKKSAttF29P903dnA0t7XJu7TR+bjnMu/uU4QDyeXyikJK32VdiSf7wRIAAAA=");
 
 export default CabinetFiling;

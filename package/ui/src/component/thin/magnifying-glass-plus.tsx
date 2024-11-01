@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-plus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-plus?s=thin magnifying-glass-plus}
  * @preview ![magnifying-glass-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/magnifying-glass-plus.svg)
  */
-const MagnifyingGlassPlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 16a192 192 0 1 1 0 384 192 192 0 1 1 0-384zm0 400c54.6 0 104.2-21 141.3-55.4l149 149c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-149-149C395 312.2 416 262.6 416 208C416 93.1 322.9 0 208 0S0 93.1 0 208S93.1 416 208 416zm-8-112c0 4.4 3.6 8 8 8s8-3.6 8-8l0-88 88 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-88 0 0-88c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 88-88 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l88 0 0 88z" />
-    </Icon>
-);
+const MagnifyingGlassPlus = createIcon("magnifying-glass-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdwAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBeAsGAAE2AiQDCAQgBYMtBzwbBAXIHoex86QJS6MJK/8n8fD9ml/nvu5kZpJh6BoFzIqBhQJeIscO7a+1qNZuPp1SxaxgCDXZYP4K0Z+45vmfPz1gkT9KBWVy0Z/nqs4nMMCNdrP0CUWBzXQCNnNbnOAMTl0SRIaoiHxo40N7+DPk8bm1SqRH6SfgRv7Q+BM6S5JlAKIpAMYvmDPbN3VRF/FT7UPiJ4SAmAAKgQwZOgowSibQUa5ALhfURa1G/4EFAUSZPFYCOUpYii2AHCRZnndoV1RLjfL51VJlyZXhEZ/2fulkrxfDPqlcHvFZn1dxqu/rkZ9X0+9zPO61edB6fvy84OvGcduT8bjX6kGbiGoAc791JSIwd1uKShDTvauh67Omz/6W6xPq9aBP+eTp04ED2f7k00GqQptuzomzd++aM2fw4CpPixIvePZsAQvhCTB9Tb0d5ZUrywst5AimqFFfDgLB0C8vXVzRZNR/9asJ/PHZv+FXVPsqpfQM9SUQZL1qvSxNqP2fkgAApNiva4JAMldGrrWh+wKECgIkZRUBMh00FSBX0VOAks4GC1BWMUcm8gZCS8s6nDS0C84McQzOtfQeLhnl26SsZWRGxpgI84mXOEUDk1cV/fv0K0YUy0pj7YaKiyOLY6Xb/jDQHTutt8N2e62z1iZ7FbTb7HyfbabswMm+qNBfH/0URiiu28ft862z2x6b7LA9LTNS8XzQzf79+O7QE8EdoJQkIrX6SW5h/aFN2zf0fq+k3pYKAAAA");
 
 export default MagnifyingGlassPlus;

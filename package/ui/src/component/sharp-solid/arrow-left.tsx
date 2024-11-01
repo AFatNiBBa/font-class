@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-left` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left?s=sharp-solid arrow-left}
  * @preview ![arrow-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-left.svg)
  */
-const ArrowLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M25.4 278.6L2.7 256l22.6-22.6 144-144L192 66.7 237.2 112l-22.6 22.6L125.2 224 416 224l32 0 0 64-32 0-290.7 0 89.4 89.4L237.2 400 192 445.3l-22.6-22.6-144-144z" />
-    </Icon>
-);
+const ArrowLeft = createIcon("arrow-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIIAAoAAAAABTwAAAG/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfIEFCwYAATYCJAMIBCAFgy0HMRuGBMiO1Eb5RVYSD/+/Zt73ZxaAp0SkgFHVrY8rWmBVVxVXNCKntmdldar2ffqbf955FOADkdrYeZQt8D04gc6zNi5cwNM+fvui+Hdne6YIO0mLLMnj05LjsUAer7JxNaQX6Q9K4UPjnwHjJA0ZgGgHwKbD+/cpV6IS8buK+G0PAmITKAQyZBgWYK1MYFiuQC4XVKJaxf/AggCiFp04gRwZZmABIAdJ5PlYU01LfqippvHw7Fmz58ThmBPrYmYciJYm0dh8MGbF2pgdhyZ/bP84MenPpT/63x+iMUolF/1xyNEjphQbFVOScMgfF9uHQSB4vf/Wl9Nta//XNyXw99sJuy4jyukj6iUQZHOrc52IcswUW/HxyGT4okAyJqG3NnsqQGhEgKRWowCZIe0C5BrNEaDGqGUC1Gq0XybyBqHbyQKSZndBZrknINftK6ix1nehVndkVwVXNP5Ti9nOoW1FxaL5C4vVRVeRCe2jLrmmGGZnPjKOWTDokttueeCiC656wJB79skP3bRdgrf5ocIi8y1UWK2Y1q+7D7nonvuuuu2Wz7NGsZ6b6ZHsPwvKSYDFh1yViNR49t69248fEQ==");
 
 export default ArrowLeft;

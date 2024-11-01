@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rupiah-sign` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rupiah-sign?s=regular rupiah-sign}
  * @preview ![rupiah-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/rupiah-sign.svg)
  */
-const RupiahSign: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 56C0 42.7 10.7 32 24 32l96 0c75.1 0 136 60.9 136 136c0 59.4-38.1 109.9-91.1 128.4l57.5 151c4.7 12.4-1.5 26.3-13.9 31s-26.3-1.5-31-13.9L116.4 304 48 304l0 152c0 13.3-10.7 24-24 24s-24-10.7-24-24L0 280 0 56zM48 256l72 0c48.6 0 88-39.4 88-88s-39.4-88-88-88L48 80l0 176zm264-96l88 0c61.9 0 112 50.1 112 112s-50.1 112-112 112l-64 0 0 104c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-304c0-13.3 10.7-24 24-24zm88 176c35.3 0 64-28.7 64-64s-28.7-64-64-64l-64 0 0 128 64 0z" />
-    </Icon>
-);
+const RupiahSign = createIcon("rupiah-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdQAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBeAsGAAE2AiQDCAQgBYMtBzIb+gTIjpTuLiRo8fD/tlr3/aqxalwKd83MMohgzS0J5mxqFtLxPnUq53IeCuAbBW0sXBofE2iP8wgEcHVzzwvWbQWraQWs1k6/+CS6xSA+RZ8M2w2rM+TxYdxWQ7o//YRb9UPjFx1dJanJAEQLAMxYt2qJzxqjMeLH6tvEjxYhIGaAUiBDhi4CTJYJdJErkcsFjVGtxv/AkgCiFu4/gRy12IZ9gBwkeZ6XzTu0qNQ0zddWaorswX6V+HrKxz0eGvzS6DVxf++nOq2NIsR9vZ/pFBFrKkXl3UEvdn9k4Atji7Brdr094PmuD/V/brRjMosH+615dlDEi50fCFDfy0el5wstXvitx097f3Kz7Yrtbq/d09Dk8qVz4+9Y03/N5SmPme0+bVesaPuaxmHfzocy/ebNPE/O6fO9Vrdtvaz9ea9583t/Trffww1v11j36mMtaVkULVs+Nt1F04FAsPzl/x7Y1nzyf/WVBH7+4H/6K6p+lqQXUC+BIBtcHWxzAokAAKQ4q2eCQLJODu/axB0BQoEASa1CgExnLQTIFQYJUKObMQLUKqySibxBaGPLAEkTJ0BmrHMg18aboMZk32q12kRGMpIi5Bcvbq6F54yVI4YOLyeWW1+neIPn/qTSzfc/q7kBctRexxx12h67HXDaoCctMc84Yu4JmeOLSiMMNVxpovI6et2/1h4nnXLAMUfLkEnK93J/Z8/VA0RKgDnSqSQRqXLyzPEDO/YPISg=");
 
 export default RupiahSign;

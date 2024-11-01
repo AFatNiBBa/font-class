@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-smile` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-smile?s=thin message-smile}
  * @preview ![message-smile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/message-smile.svg)
  */
-const MessageSmile: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 416c0-8.8-7.2-16-16-16l-96 0c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l384 0c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-138.7 0c-3.5 0-6.8 1.1-9.6 3.2L176 496l0-80zM64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l80 0 16 0 0 16 0 64c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM192 176a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm128 0a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM161.2 250c-3.3 2.9-3.6 8-.6 11.3C184 287.5 218.1 304 256 304s72-16.5 95.4-42.7c2.9-3.3 2.7-8.3-.6-11.3s-8.3-2.7-11.3 .6C319 273.6 289.2 288 256 288s-63-14.4-83.5-37.3c-2.9-3.3-8-3.6-11.3-.6z" />
-    </Icon>
-);
+const MessageSmile = createIcon("message-smile", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABhwAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCIgsGAAE2AiQDCAQgBYMtBzQbJgXIHoWNGxmyMCXYSKLPc7BgfOLh+f39t/a5+ADTH4htIt3gBEfAyaVBoY3r5MnPorE2+2J6b4haM/EmlqCKWKThDQ/9QyF9I5Nq36e/d+ffNn3AZ/TR9tAPMqav3TxPIMHyzgOLsi6QQCJIwNqdTZpD2cpDWrAkx7dyXG6Qx6Nd+KS76SsupxeNf3qskGQZAKIZACxZW1mMNz/9jvipRHy1AgTEUsAwQoYM/QjMxxXoxzMMcrngN1Uq+B/IIIAowXDy5jmqcBgcB5CDpMh57hFxjbqukPNq6gpJ7a1OSVx2blq4sde1FSyPi44NMye229e9klhtr4poeDGa4rqbEztjbnzSOoQ43bFhrI06uhp3Z+XG7tjbINnq212bhnXdhl5Kl6pudDwXfsi+bdjUPRW8j3LfdN+qbv9cX3u+4t2Q4vc2Md9/ucO4377HnKb7nEcx9dgmlO0/etICtNQOk7S0HJc1NyOH5Ny5I0ebsGbMY37h1LvfikZ/1k+XhzyyvDDl6cnswuWVBdzh4UBVJQCBYPHBQNnaNP+/SMoB/H34n/8VVV6S9BLVEgiy8ZUITQkkAgCQYoY7QSDZjY+ftd4tAUItAiSlWgEyfVQI5GqNQ6AwKBGBUq2VuCIXI7RrbiCpdxBkZpoFuXb3oDDfu19qj8zyWLth/31JRRIqPMemRMWwNLasVc6Y6Hiczrat0TNhFgpX0WPUiCnduvSbEuSE4mjasCKNKPRBTKwoMZg07Li7l2qEP2FS/1x3fko6dt8LMaNvDgWXgymnKiSJSHJ7tCMPv3sAAA==");
 
 export default MessageSmile;

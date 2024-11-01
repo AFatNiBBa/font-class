@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye-evil` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-evil?s=solid eye-evil}
  * @preview ![eye-evil](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/eye-evil.svg)
  */
-const EyeEvil: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M254.9 112.2c-10.7 2.8-21.1 6.3-30.9 10.4L114.4 76.1c-8.7-3.7-18.7-1-24.4 6.5s-5.5 17.9 .4 25.2l57.3 70.8c-7 9-12.8 18.6-17.3 28.6L15.5 236.1C6.4 238.4 0 246.6 0 256s6.4 17.6 15.5 19.9l114.9 28.7c4.5 10.1 10.3 19.7 17.3 28.6L90.4 404.1c-5.9 7.3-6.1 17.7-.4 25.2s15.7 10.2 24.4 6.5L224 389.4c9.8 4.1 20.1 7.6 30.9 10.4l42.7 97.6c3.9 8.9 12.7 14.7 22.4 14.7s18.5-5.8 22.4-14.7l42.7-97.6c10.7-2.8 21.1-6.3 30.9-10.4l109.7 46.5c8.7 3.7 18.7 1 24.4-6.5s5.5-17.9-.4-25.2l-57.3-70.8c7-9 12.8-18.6 17.3-28.6l114.9-28.7c9.1-2.3 15.5-10.5 15.5-19.9s-6.4-17.6-15.5-19.9L509.6 207.4c-4.5-10.1-10.3-19.7-17.3-28.6l57.3-70.8c5.9-7.3 6.1-17.7 .4-25.2s-15.7-10.2-24.4-6.5L416 122.6c-9.8-4.1-20.1-7.6-30.9-10.4L342.4 14.7C338.5 5.8 329.7 0 320 0s-18.5 5.8-22.4 14.7l-42.7 97.6zM320 352c-53 0-96-43-96-96c0-19.7 6-38.1 16.2-53.3c16.6 9.6 35 16.2 54.7 19.3c-3.9 9.4-6.8 20.8-6.8 34c0 31.5 16.5 52.7 23.8 60.6c2.1 2.3 5.1 3.4 8.2 3.4s6.1-1.1 8.2-3.4c7.3-7.9 23.8-29.2 23.8-60.6c0-13.2-2.9-24.6-6.8-34c19.6-3.1 38.1-9.8 54.7-19.3C410 217.9 416 236.3 416 256c0 53-43 96-96 96z" />
-    </Icon>
-);
+const EyeEvil = createIcon("eye-evil", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABigAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCOwsGAAE2AiQDCAQgBYMtBy8bOgXIjsK2bRNHmCznCwFCWBFPHb777i61WKd0qtSBq3DBL5BQOlAmZBHJRDvY/8vuffuNgBvA6IySN+mgKp3Lmz7ujPm/pl7QNRXI5xO/Q6teaWo9n2U+n8CAo7xxAlE4myjO2tm9MIjeKD3lkwzjZ1jsoOW79kIP5ZFyCtyUD80XZb2gGKgAkHEAAMcXMWGwf5azoJPuJnkXAgRyDIBFCBUVsxDYQxXMolkEmiZ8oP9u+A/EIEB6gfHCb+7EDnALQANFabRIHS6dT4v32zgp47J4NCkbl8ehcVks7ImGTcgL8gnFBCTsKWBTigXFKYV4BHsS2KRCVGHyRCNrnDbGbRkjRGh0qS7qjSvNyCeqwO1TnLqoapfCssEMvBiu2GoTIuJW6zT/FP4inm/KzIGca2l18oe18io1uBIIrkq0/G3ItnbmyFXpzfNaJqT9P6SRvkv09UPVEEmRV5J9/Xfied9JgFeWxtsAmUZltg/FadPp2nkd7UxZGTnwpsEiiE4AQVga1F7IELq+srgUgM+9+w/p7O5+6aQQQL8CQt34N5VaOgFBHCBfUg/ayhcFxTUKvtZhdxAQgwgoeg0KqGaIINAMWodAj3l2EOg16ARVGhtiWloHxbBLUO1qA820ddBjz0Gu13SoVqjZkPYJzPaXqN80bGVuiZ3xsqzphqWkcRe8HTWsj21G2Ar5KpSrlSdXkVrBVgsr1injrzF+fgizYs4S5gwf157Xx8tTrUaRCuV5Ehf4ftJQvd7bCAkKlt00syiksPKa8sxeFwAAAA==");
 
 export default EyeEvil;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-spin` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-spin?s=solid arrows-spin}
  * @preview ![arrows-spin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrows-spin.svg)
  */
-const ArrowsSpin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 96c38.4 0 73.7 13.5 101.3 36.1l-32.6 32.6c-4.6 4.6-5.9 11.5-3.5 17.4s8.3 9.9 14.8 9.9l112 0c8.8 0 16-7.2 16-16l0-112c0-6.5-3.9-12.3-9.9-14.8s-12.9-1.1-17.4 3.5l-34 34C363.4 52.6 312.1 32 256 32c-10.9 0-21.5 .8-32 2.3l0 64.9c10.3-2.1 21-3.2 32-3.2zM132.1 154.7l32.6 32.6c4.6 4.6 11.5 5.9 17.4 3.5s9.9-8.3 9.9-14.8l0-112c0-8.8-7.2-16-16-16L64 48c-6.5 0-12.3 3.9-14.8 9.9s-1.1 12.9 3.5 17.4l34 34C52.6 148.6 32 199.9 32 256c0 10.9 .8 21.5 2.3 32l64.9 0c-2.1-10.3-3.2-21-3.2-32c0-38.4 13.5-73.7 36.1-101.3zM477.7 224l-64.9 0c2.1 10.3 3.2 21 3.2 32c0 38.4-13.5 73.7-36.1 101.3l-32.6-32.6c-4.6-4.6-11.5-5.9-17.4-3.5s-9.9 8.3-9.9 14.8l0 112c0 8.8 7.2 16 16 16l112 0c6.5 0 12.3-3.9 14.8-9.9s1.1-12.9-3.5-17.4l-34-34C459.4 363.4 480 312.1 480 256c0-10.9-.8-21.5-2.3-32zM256 416c-38.4 0-73.7-13.5-101.3-36.1l32.6-32.6c4.6-4.6 5.9-11.5 3.5-17.4s-8.3-9.9-14.8-9.9L64 320c-8.8 0-16 7.2-16 16l0 112c0 6.5 3.9 12.3 9.9 14.8s12.9 1.1 17.4-3.5l34-34C148.6 459.4 199.9 480 256 480c10.9 0 21.5-.8 32-2.3l0-64.9c-10.3 2.1-21 3.2-32 3.2z" />
-    </Icon>
-);
+const ArrowsSpin = createIcon("arrows-spin", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABiQAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCOQsGAAE2AiQDCAQgBYMtBzIbOwXIHoex8yQMQaVy8lbUobQ8fO33O/fu7sO0ebWkySNZO6F5pJNMGq1Tyh8qJeD/v937+ySeiXFXKtiV6Epu1b0qML4w6/dgPfkVgj9xzfOnp6f3NnqUaCwtjQKMXAVOYIDRunvfgEtophOwmbvaW1v3Q0imweO5PD6ycyh1UGNHug+N/JK6BTzIR8Uf9PVBGigAiHEAwMFZbAwOBRKIbsQ1iB9EgYA4ALCIUGj3LALbpEXbgYxFUFVBj0SR/wMZEEB0wFMmqOhwB+4BVJBqlTE2MTHmZZVlEnhZLvXMx5omtae0eZrRJerWmdbypueEfi3QBx/n4ekxpTtypnU46mmL60OPcV3vpmla8MvmeG4K396eNK01qQXalwd4o44vvSR268Sd+9pRxS6xCr2QmNL1o6d49eFEk5yZRE3yvduCW4hmx3+hYCl8tAqCShW41/ECdZzGk9rvAHxTb/VUhVMw3qcooEoPPLRAoiNezTRpO8FZJAcHgE2LVWFY/vPB6fsBCAT754vvqHr/V+ClAL/bP48/I/YvkCAlAf0SBGVVtEZawiIWAggAkNEAs4RFhHRLBj512DsChEEESJ1BAYoZaghUg1YQaOa5INAZdERaVEWEaemFTMMuyGJLO1lNWyGbbRdeZzqknZB3If4PmBIqELKOOdjaM0+mprLgV2yY9mJm1byhlgVdRYFKFerky1OsDrhGTFivXOgMCvFFjANb9hhPbLu4P58gX41axSpV8Cpe2H3TXMN8sAUZUkC5ZkdKIvnsmjfi2dRWFVcAAAA=");
 
 export default ArrowsSpin;

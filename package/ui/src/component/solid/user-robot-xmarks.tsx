@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-robot-xmarks` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-robot-xmarks?s=solid user-robot-xmarks}
  * @preview ![user-robot-xmarks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-robot-xmarks.svg)
  */
-const UserRobotXmarks: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 0c8.8 0 16 7.2 16 16l0 48 64 0c35.3 0 64 28.7 64 64l0 128c0 35.3-28.7 64-64 64l-160 0c-35.3 0-64-28.7-64-64l0-128c0-35.3 28.7-64 64-64l64 0 0-48c0-8.8 7.2-16 16-16zM16 144c0-8.8 7.2-16 16-16s16 7.2 16 16l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96zm400-16c8.8 0 16 7.2 16 16l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16zM160 240a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm48 16a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm80-16a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM96 352l256 0c53 0 96 43 96 96l0 32c0 17.7-14.3 32-32 32l-64 0 0-64c0-17.7-14.3-32-32-32l-192 0c-17.7 0-32 14.3-32 32l0 64-64 0c-17.7 0-32-14.3-32-32l0-32c0-53 43-96 96-96zm80 112l0 48-32 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16zm48-16c8.8 0 16 7.2 16 16l0 48-32 0 0-48c0-8.8 7.2-16 16-16zm80 16l0 48-32 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16zM119.5 119.5c-4.7 4.7-4.7 12.3 0 17L143 160l-23.5 23.5c-4.7 4.7-4.7 12.3 0 17s12.3 4.7 17 0L160 177l23.5 23.5c4.7 4.7 12.3 4.7 17 0s4.7-12.3 0-17L177 160l23.5-23.5c4.7-4.7 4.7-12.3 0-17s-12.3-4.7-17 0L160 143l-23.5-23.5c-4.7-4.7-12.3-4.7-17 0zm145 0c-4.7-4.7-12.3-4.7-17 0s-4.7 12.3 0 17L271 160l-23.5 23.5c-4.7 4.7-4.7 12.3 0 17s12.3 4.7 17 0L288 177l23.5 23.5c4.7 4.7 12.3 4.7 17 0s4.7-12.3 0-17L305 160l23.5-23.5c4.7-4.7 4.7-12.3 0-17s-12.3-4.7-17 0L288 143l-23.5-23.5z" />
-    </Icon>
-);
+const UserRobotXmarks = createIcon("user-robot-xmarks", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAAB0wAAAKnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQiEIAsGAAE2AiQDCAQgBYMtBzgbKAbIjsM4hlximGIoB4QoZcfz/O/3a5/7LmJaIWnyTNSSCY1IM4mZEnzSrImavlVr2fMUANoAo0MEBYAXSewAhT1hUrFxN3E5/TH1K8BfFGgeytjL2vj31FznCQQeZWNTQtmYwtaoXsGBzl8c13ZQsyYeQRvlRfQJroIbzU9MGYGiqwFABgHAwVlyLJ758EQfwgXkFYcgkAPAIkKDBrMIbBMLZkksgqoK7yQI7D+QQYC0I3qeAir68Qv8B1RQ9FaJZa+KgoKCQ6+SsvmiklRFktYjVcx+0AH10IH9iQHo2e7YSpEOHThDojXHU1slIlrSS1nSW9AB3Wsv6lJxrZkk5rVVgXRR11vlONJH66WoKKtc2J+YgC605xUViWhQd7HkTWnPQ1S9hUS05XjqmwrS/Qa1oOOrc2qmKrPmdezJLjlnQc+R7MNZ0nUgx3AWte3IISYl0fzy6sucOvdr/ln26e2JV3UTZltDQ3EA3Wh6e7sVhMGN6vvPlZfl+wsg35Vao4MZoZ7vd9VMJXRuIH5guMVTPeCC4+QZ1csJ1TBhQe9zL8TIr6YG4uvdoiiD26UW4Tu6znS82pzgKr29owzlcrJtDEBWlAOI8XaijGlGtLB8OSAIrembrny1oN/ySiLA5+3fv/Ls1jM9izjQqYDQrLac5OQZwPIB8iVtLFZ+KCh+oFd0rb0eERDdCCjadQtozFBHoOq2gkCbed4ItOt2RCxVATEqt6WLXud0Y0svXY06o9tse8m1G41Y4euUre63M3NMH46ex9xd3FgAW6yq9WpZ404Hst1uuzbeZQ+Xoky9Oi1KlajU0pM1iS22qhWzphj9XcadCzdMAHa68VicplSTZpXzDudnCcTuj9tpWx9sD30ikdI1oqKQomFZrM7G1+vcYVcBAAAA");
 
 export default UserRobotXmarks;

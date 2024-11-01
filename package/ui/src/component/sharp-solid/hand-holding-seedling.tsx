@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-seedling` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-seedling?s=sharp-solid hand-holding-seedling}
  * @preview ![hand-holding-seedling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-holding-seedling.svg)
  */
-const HandHoldingSeedling: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M96 0c0 88.4 71.6 160 160 160l0 96 0 32 64 0 0-32 0-96C320 71.6 248.4 0 160 0L96 0zM480 0L416 0c-40.7 0-77.8 15.2-106 40.1c25.7 32.1 41.3 72.6 42 116.7C425 142 480 77.4 480 0zM140 327L68.8 384 0 384 0 512l32 0 192 0 160 0 12.4 0 10.2-7 128-88 33-22.7-45.3-65.9-33 22.7-94.5 65L256 416l0-32 32 0 64 0 32 0 0-64-32 0-64 0-64 0-64 0-11.2 0-8.8 7z" />
-    </Icon>
-);
+const HandHoldingSeedling = createIcon("hand-holding-seedling", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABZgAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBVwsGAAE2AiQDCAQgBYMtBzwb4wTIjsK2tTPXlZRJE6SHjigZttn7Vm2HeBS669e0Eo/yaJwi/hGSbjEC+Kf2ez330Uz2hWEDjC4KSoy+QqIlYmEyVdV/+nt3/s8/fcBn9JHGmiAL5NOYtc87DxPr8oTWssAyTcBSt/Fyw1XWROQcFBFDXGgm99DMD/cQH/VSL+G5fmj+mDmEEtUAQKYA4PRibJS7f/VXehG5hGzZQEBOAbsEDWjAkoADLsGSx0KTR/hWJKL/gRYBpA0OW0ATWrCBG4AmUNymlxqdH/ox3pTQNzM/dUu3zhANhLv73HN7iokxoXnYdW/iSe+dwkXjU8eN0CAmTVPVqSlq07iMpDCUjEkuOB9/fjL/5ZKXPLxq8CXeBjUPq481T8DU7dvXB/ft5XU5t7Oiw4yNjLTZ9YfZxz6dZu8FgepTArNPOMmyj33Y7RGAQPDe8OTj3Liu/93QAfxe/zfZfkb+71abcx66HCBo7EWqzKo+0K02BABQ2UJB9YFAGeTCuw6dIiAMBCgBQ0BDlngCmoxKAlpyNRPQZoxxqRmFJJs9gCPaeuBqsRt4kl0Avi5P4kByXE6RjCCfdHEjHhreZOtr6myHnRY6RRPcljvttla2JQ3KZSdLrLXGJoststwmh2wwmm222sgKHvZFVr0adawO9rg+bp9isQ02Wm6tNWWVTvZ+VGbLenK5mA6g7ssVB6kUCkrVHF2r3rh48aLvKQEA");
 
 export default HandHoldingSeedling;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `candy` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candy?s=duotone candy}
  * @preview ![candy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/candy.svg)
  */
-const Candy: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 256c0 10 6.2 19 15.6 22.5l29.1 10.9L15 319c-8.3 8.3-9.4 21.5-2.5 31s19.7 12.7 30.2 7.4L136 310.9c-5.2-17.4-8-35.8-8-54.9c0-1.2 0-2.4 0-3.6s.1-2.4 .1-3.6c.1-2.4 .2-4.7 .4-7.1c.3-4.7 .9-9.3 1.5-13.9c1.3-9.2 3.3-18.1 5.9-26.8L42.7 154.5c-10.5-5.3-23.3-2.1-30.2 7.4s-5.8 22.7 2.5 31l29.6 29.6L15.6 233.5C6.2 237 0 246 0 256zm504-54.9c5.2 17.4 8 35.8 8 54.9c0 1.2 0 2.4 0 3.6s-.1 2.4-.1 3.6c-.1 2.4-.2 4.7-.4 7.1c-.3 4.7-.9 9.3-1.5 13.9c-1.3 9.2-3.3 18.1-5.9 26.8l93.2 46.6c10.5 5.3 23.3 2.1 30.2-7.4s5.8-22.7-2.5-31l-29.6-29.6 29.1-10.9C633.8 275 640 266 640 256s-6.2-19-15.6-22.5l-29.1-10.9L625 193c8.3-8.3 9.4-21.5 2.5-31s-19.7-12.7-30.2-7.4L504 201.1z" />
-        <path d="M318.1 64c-24.5 .2-47.9 5.1-69.4 13.7L419.9 420c20.3-12.4 38.2-28.5 52.6-47.3L318.1 64zM492.3 340.8C504.9 315.2 512 286.4 512 256c0-93.9-67.4-172.1-156.5-188.7L492.3 340.8zm-101 93.5L220.1 92c-20.3 12.4-38.2 28.5-52.6 47.3L321.9 448c24.5-.2 47.9-5.1 69.4-13.7zM284.5 444.7L147.7 171.2C135.1 196.8 128 225.6 128 256c0 93.9 67.4 172.1 156.5 188.7z" />
-    </Icon>
-);
+const Candy = createIcon("candy", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABmAAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCTwsIAAE2AiQDCgQgBYMtB0YbZwXIjpQuL5Tx8Lzef7/2Sd4dQBlJlezOn2AHsBLT2fd94JjyqmmATTqU6KBojCgtgQF38nAghfMN5IL8wXmTDim0IZSfIU9ts6PKSJek13EqfuP4QQNHSSpkAKI6AIbPmDLZ05/Gpyle//9+4nWTEBAjQCGQIUNjAQbJBBrLFcjlgk/T///zabD/fAUBRAniDhkooTwO4FJADpJcyvPy5StW7NiuUlmVfDrfo+KK+1vNits6zp51V7w94tnps6Z21LNvbjcrHmp75e3eGv7MtLigTutoF+frXNB2Rlwah2JAvdC4qN70uLH29or20SrO115yiYMOOlTRx3QcOS1uqHdR3Q7R9lTIhXXbRMeY3OjCVlNb3Fr91p+av778dYMPDPvn1mk+n3Nprztq9+li7L3XjaxyosbSuStM7Pp84iW9HDpXVTxZA7LVQaOqeLra16/4yJt3VW9uZ7uahIKLiDyVK9Fk0MrH9Z68682PvOqrar/3QYasVGLLuqj75lU+9L63q1X76tV3kFf5MxAIfhr69i8Lqg36tXylBD5/9J+b+HQw3Yry0Lgg6/R/J3PTQdIppGFSbNcC/tBBBDJT5OCjVnahAKEiAiQlFQXINFJdgFxFHQUo01RvAUoqmiITeQWhtnkDIalsEyHTxz5Crrb7CGUGeclTUjsyB8l2Tuz/wQRjpqDRg4ruXboVA4rdtI7jxpi6fWBxWdFuOy9rDxdaboP1tlpmqVW2TvCbTfZvs86YI9xoX1TorotuCgMUj3MvBdOxZ7MtVm3znvczUPG9pZ3tx7XbQ3WS0uxhWCYjUmRVloRaSWeLLa424VlgAA==");
 
 export default Candy;

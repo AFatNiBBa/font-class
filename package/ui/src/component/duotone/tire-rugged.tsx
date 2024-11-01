@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tire-rugged` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tire-rugged?s=duotone tire-rugged}
  * @preview ![tire-rugged](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tire-rugged.svg)
  */
-const TireRugged: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M128 256a128 128 0 1 0 256 0 128 128 0 1 0 -256 0zm82.3-14.8a24 24 0 1 1 -45.7-14.8 24 24 0 1 1 45.7 14.8zm22.7 87.2a24 24 0 1 1 -38.8-28.2 24 24 0 1 1 38.8 28.2zM280 184a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm37.7 116.1a24 24 0 1 1 -38.8 28.2 24 24 0 1 1 38.8-28.2zm29.6-73.8a24 24 0 1 1 -45.7 14.8 24 24 0 1 1 45.7-14.8z" />
-        <path d="M296 0c13.3 0 24 10.7 24 24l0 16c0 .4 0 .8 0 1.3c14.9 4.4 29.2 10.4 42.6 17.7c.3-.3 .6-.6 .9-.9l11.3-11.3c9.4-9.4 24.6-9.4 33.9 0l56.6 56.6c9.4 9.4 9.4 24.6 0 33.9L454 148.5c-.3 .3-.6 .6-.9 .9c7.3 13.4 13.2 27.7 17.7 42.6c.4 0 .8 0 1.3 0l16 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-16 0c-.4 0-.8 0-1.3 0c-4.4 14.9-10.4 29.2-17.7 42.6c.3 .3 .6 .6 .9 .9l11.3 11.3c9.4 9.4 9.4 24.6 0 33.9l-56.6 56.6c-9.4 9.4-24.6 9.4-33.9 0L363.5 454c-.3-.3-.6-.6-.9-.9c-13.4 7.3-27.7 13.2-42.6 17.7c0 .4 0 .8 0 1.3l0 16c0 13.3-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24l0-16c0-.4 0-.8 0-1.3c-14.9-4.4-29.2-10.4-42.6-17.7c-.3 .3-.6 .6-.9 .9l-11.3 11.3c-9.4 9.4-24.6 9.4-33.9 0L46.7 408.7c-9.4-9.4-9.4-24.6 0-33.9L58 363.5c.3-.3 .6-.6 .9-.9c-7.3-13.4-13.2-27.7-17.7-42.6c-.4 0-.8 0-1.3 0l-16 0c-13.3 0-24-10.7-24-24l0-80c0-13.3 10.7-24 24-24l16 0c.4 0 .8 0 1.3 0c4.4-14.9 10.4-29.2 17.7-42.6c-.3-.3-.6-.6-.9-.9L46.7 137.2c-9.4-9.4-9.4-24.6 0-33.9l56.6-56.6c9.4-9.4 24.6-9.4 33.9 0L148.5 58c.3 .3 .6 .6 .9 .9c13.4-7.3 27.7-13.2 42.6-17.7c0-.4 0-.8 0-1.3l0-16c0-13.3 10.7-24 24-24l80 0zm88 256a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z" />
-    </Icon>
-);
+const TireRugged = createIcon("tire-rugged", true, "data:font/woff2;base64,d09GMgABAAAAAANYAAoAAAAAB5QAAAMMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTCEXgsIAAE2AiQDCgQgBYMtB1IbggZRVA7qZF8k2KZRO3o4XnV1fCU2SCh+YwOZwEV01F5d4qHar3zdM/vvLkSkwg4VyijQgA4dOtRRGxtWKX8s1FYsgf7+/8/tTizN+ztLJohV/toSkqC5NBqxEQoNg27e6TeX/m/R8jZYwgEGRFmwzb86S0hnfZmQp16a+Veo+Cp4aNNQiW0NDfAbdf4v9/wmyKi0W4J5FHgCNza1aPmYOMZ8fgIBfqy4nq8lFmoG1uC8EQcYEkP6HmqMl/s65IscxBP3P4Dx1Xwf0kABENMAwKGzoxq/XvQyBts3xKDjICAOA5bhUFCwCAf2EgQWES0DVRX0sm3pRdsugwCi4Y5aQIMJxGRiPoAKUmpqfblwoTY5TE7sTK5n5IkmXJwOBuIdMAPF5EhmpHpweyFYMN2BqbOI+ehzWegLOd7rQYiouAtfS6GZrGTeaVLhCHCYCvWdguH14U1yGHoeHHmdMlv8MEVwxMia+qY0nxwgUiKMIjI75VngiD2Q+lRoNg4duLvEEekhC3DSWAG4sKiFgSeODqeHCvqR0Vqho7Mb06hHSmQ4PkwwjGrDCKUxkX964kp/9Ew0KN08/ZcPXhjMfGtyCM7UKUQX5ck7GpWh4NUDYVqbuNLsrXGd90l4rmby5BSI+pjhzVpOSoA+MX9SEAwovPZ5gjZO/isnkUljlBWjY6VJ1VYLs4n3NwHeKquBuqyG6izdJ7prceJ4zC2PH2tf0+uJcVJdOTaXa82TvXfuaLfoCOuevA+7p+4ABIIHt4anndP3/u+fmODLp59/8V9h+zllF/0SBGVTu8ksQRIAgIzrvITbAsVbF9k9yVORCxOomdSYwBQLGUw1wUamY4mWtNI8ucoRdUBiljli0iSXmGKPN1PN8mU69vqnG7OivBjKba38lmZWbYito+1pTn2abCnVe13SqwNaHVz34iMB3IqVs5OHpYWtR4u4qXNPR9WcJ/suKaRypI92d++b01b65m47ru+3M0DnJ3yv+ekBjPACrzscWBQio8y8ur0tk8vP9Xq5SD6xMbevf00AAA==");
 
 export default TireRugged;

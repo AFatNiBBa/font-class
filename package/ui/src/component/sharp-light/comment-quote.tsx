@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-quote` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-quote?s=sharp-light comment-quote}
  * @preview ![comment-quote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/comment-quote.svg)
  */
-const CommentQuote: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M86.9 382l7.2-19.3L79.6 348.2C49.1 317.6 32 279.9 32 240c0-91.3 93.8-176 224-176s224 84.7 224 176s-93.8 176-224 176c-28.4 0-55.5-4.2-80.3-11.7l-9.2-2.8-9.3 2.8L68.6 430.8 86.9 382zM16 480l38.5-11.6 111.9-33.6c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L30.1 442.4 16 480zM160 176l48 0 0 16 0 16 0 16-48 0 0-48zm48 80l0 28.9L154.4 305l-15 5.6 11.2 30 15-5.6 64-24 10.4-3.9 0-11.1 0-40 0-32 0-16 0-16 0-16 0-32-32 0-48 0-32 0 0 32 0 48 0 32 32 0 48 0zm176 0l0-32 0-16 0-16 0-16 0-32-32 0-48 0-32 0 0 32 0 48 0 32 32 0 48 0 0 28.9L298.4 305l-15 5.6 11.2 30 15-5.6 64-24 10.4-3.9 0-11.1 0-40zm-32-48l0 16-48 0 0-48 48 0 0 16 0 16z" />
-    </Icon>
-);
+const CommentQuote = createIcon("comment-quote", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABmAAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCDIAsGAAE2AiQDCAQgBYMtBzQbpAVRlMvJEtnDw5fN8v3WSLWrOYY+Zsxsjhgil6MtZ8CYAUWEof7/e6d/HP/0j69r9NHGbk6QMX1v7EQFEuCz1vRIAss0AYst22Y4mEQEt0lEFFnFD5vQMP0TinguRqqS7k/v41Z90/hZd9eTFBUA0Q4A87ZsWOXlb+PbiPcbTxDvW4GAmA+yQAUV9BJgpopAL4WMQiH4NhqN8BuYCSBq8FdIoEATHsXLgAIktaJoe/dtPWRI67LauthcVutbenbr2SVe7P/Vhs+2fLHuk02fr/144w2Tu0Sn2BgTNk6ZOGVLPFF+teK9OS8NeHj2i8vf3fz50rdnPp+/WLcxeu0o66UQoh6xSVganaJ7dI0V0TXgq9eXVpVlGGIwS5wxo4X6FWUI/Vvatfza7/3D79s8bz8QX/utVSx+9bP9wa7PXi2yoEesuMbttvTQbvG+E0Cfzh4au8QND/bp09wcXQ/eUBVBxIrDPRb74tYxY+Fph7GxoTFretMTG/zkBT/5351KQ2VWYZbXZmN1+bc558G8sb2duRrt4BmL8Xavg0Dw/5T+s/e0nflvU5nA98/+/if9FjW+TVILmiQQVEY2RtqZQCIAACku658gkDyiBkdbuUeAUEeFpKYOFT21g0LdCKjqY5K4eWSDiiiahU52IUhaOQcVk10BhU4eg6qZ3krUdIqK48puJ/82ZixuyUXr8rjRY/P0PK0oii+KaXJG3nYPvSwdw2inw8447aJDDjrmYkOftyp9ySmLLWqRD8rGGW2sbLp8Xb/fvNkh511wzBmn8yIz5O/jQ122+w8jXwLB8YqSRKTWL8Ua9awAAAAA");
 
 export default CommentQuote;

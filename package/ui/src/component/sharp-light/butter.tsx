@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `butter` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/butter?s=sharp-light butter}
  * @preview ![butter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/butter.svg)
  */
-const Butter: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 96l0 192-32 0 0-192L96 96l0 192-32 0L64 96l0-32 32 0 352 0 16 0 16 0 64 0 32 0 0 32 0 192-32 0 0-192-64 0zM0 320l16 0 16 0 32 0 512 0 32 0 16 0 16 0 0 32-16 0-16 0 0 64 0 32-32 0L64 448l-32 0 0-32 0-64-16 0L0 352l0-32zm64 32l0 64 512 0 0-64L64 352z" />
-    </Icon>
-);
+const Butter = createIcon("butter", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABWgAAAHNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBPAsGAAE2AiQDCAQgBYMtBy0buQTIhof/1l7vm93/T7JJkadVwKyAyQEpdiRsZIFUXFF4sgQKp07VjEmhYPA5EQ/a2LQ0vj2Y3THPK1CtjuXbKlIr1gpUMe7ubJsIYa+EsiTHt+NVzlDG7xiqRrqTXuNGftP4oIdLJGUBINoDYNbq5cu0vo23Ea//PyBeW4KAmA2yQIECvQWYqhDorZRRKgVv4/9/+x+YCSDq+LkJlKhhDhYCSpAUZdmnS2NTrU25KqyvdgtVRDSHoCyiqY0WVVuaqnbGrgaorRlIxSJauyNtB7S0b/nU//Wu195sbuUoa7XFo5nKbxXMzXzzpn37c1kMZ8oyCczUvn3+P5Njpl8Egml3L8fmdlN/NTQl8P7pl2/lwXQutaBBAkEx9P9QG9I5sPwAkhSnDBA+KJBMUaBXbXZTgFAhQFJXCVDopb0ApcoQAWr6GidAXWW5QpSNQmcbG0iaHQWF8U6DUmf3QM1Uz+K6zlGokaIEyiMuc36PzluWRw0fmSfnZaGqmiHF+Sl52xl4yvUNgpN2OeyQE3baYa8THXvMsuykg+ZLzDxflI0y3EjZZPm4fj68yk7HHLfXYYfSIlPk+8FAp+TRg8BPWHS0lUkiUv3XCXfnMQA=");
 
 export default Butter;

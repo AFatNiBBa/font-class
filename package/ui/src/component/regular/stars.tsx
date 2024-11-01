@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stars` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stars?s=regular stars}
  * @preview ![stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/stars.svg)
  */
-const Stars: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M325.8 152.3c1.3 4.6 5.5 7.7 10.2 7.7s8.9-3.1 10.2-7.7L360 104l48.3-13.8c4.6-1.3 7.7-5.5 7.7-10.2s-3.1-8.9-7.7-10.2L360 56 346.2 7.7C344.9 3.1 340.7 0 336 0s-8.9 3.1-10.2 7.7L312 56 263.7 69.8c-4.6 1.3-7.7 5.5-7.7 10.2s3.1 8.9 7.7 10.2L312 104l13.8 48.3zM115.7 346.2L75.5 307l55.5-8.1c15.6-2.3 29.2-12.1 36.1-26.3l24.8-50.3 24.8 50.3c7 14.2 20.5 24 36.1 26.3l55.5 8.1-40.2 39.2c-11.3 11-16.4 26.9-13.8 42.4l9.5 55.4-49.5-26.1c-14-7.4-30.7-7.4-44.7 0L120 444l9.5-55.4c2.7-15.6-2.5-31.4-13.8-42.4zm54.7-188.8l-46.3 94L20.5 266.5C.9 269.3-7 293.5 7.2 307.4l74.9 73.2L64.5 483.9c-3.4 19.6 17.2 34.6 34.8 25.3l92.6-48.8 92.6 48.8c17.6 9.3 38.2-5.7 34.8-25.3L301.6 380.6l74.9-73.2c14.2-13.9 6.4-38.1-13.3-40.9L259.7 251.4l-46.3-94c-8.8-17.9-34.3-17.9-43.1 0zm258.4 85.8l11 38.6c1 3.6 4.4 6.2 8.2 6.2s7.1-2.5 8.2-6.2l11-38.6 38.6-11c3.6-1 6.2-4.4 6.2-8.2s-2.5-7.1-6.2-8.2l-38.6-11-11-38.6c-1-3.6-4.4-6.2-8.2-6.2s-7.1 2.5-8.2 6.2l-11 38.6-38.6 11c-3.6 1-6.2 4.4-6.2 8.2s2.5 7.1 6.2 8.2l38.6 11z" />
-    </Icon>
-);
+const Stars = createIcon("stars", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkgAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCawsGAAE2AiQDCAQgBYMtBywbZwXIjtMFd5YLR4qH//fvq33uQwN61QB/E5iJwIiOi+lkUESljXSErNavhdqJa55/2tMDFvmjRG6jTOvziOLx02iA01mGWBSONlHc4rarNUMltBESS8jj3XheQXojfYnnwpvGLwZ5gqTIAERPACzfu3Ozj+7EnYgv6okvbERALAeVQIYMQwWoyQSGylXI5YI7Ua+L/8CKAKKU7jGBHCVeQhMgB0me51U1saFL0S3f06XofPYVTw0YEfPitXi0/9wYHq92frLv0JgdL3uk35wYtmvJ4iVro3nIrJgRb4xZHbVoGdQQG6Jp9LoYFW9N3LuLJ+yKl/u+3G930FC/VwbsDck62mv998Te0L1KDHtu1H582PBhL003sq1n228NX5750upxAzp2HHBbu+tk2PV2tw0d3318f9r7rMcbH/OYxsfPul+Mf9UgBw4M8qrxMee9KYf5TGd6+LtWe3PDej3PGN7c8vOh6Xjw55bm4SNuLvhmbdO9HWOmHnape/cH0u6m9JV+ZdmvyQXby3L7BU2GZ4NA0K/71KeP9qj911EC99754/+8Zb29/l6S2tBRAkE2uT7ZoWQDZYCQoinuNxJ/UCB5Sg5falevChA6I0BS6ixAZoieAuQ6myRAYbg5ApQ62ykTeSehr8MdkXR1ncjM9SCR6+ttolDzSaTUNzLoFGFL/DlMt2YIrB5VzZg6vVpYreZVCeB427+oOmwcf7+sm4AnOuOqK2457ZTzbg3wGzbH73PZmi1stR+qzDDVdJWFqsulp7o9NHrDTeeXpetaLFI97x3v/u3WE7AlSYwzpSSJSMXnBA==");
 
 export default Stars;

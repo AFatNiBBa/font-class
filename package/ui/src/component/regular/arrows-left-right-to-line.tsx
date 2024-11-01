@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-left-right-to-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-left-right-to-line?s=regular arrows-left-right-to-line}
  * @preview ![arrows-left-right-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrows-left-right-to-line.svg)
  */
-const ArrowsLeftRightToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M24 64c13.3 0 24 10.7 24 24l0 336c0 13.3-10.7 24-24 24s-24-10.7-24-24L0 88C0 74.7 10.7 64 24 64zm217 71c9.4 9.4 9.4 24.6 0 33.9l-63 63 284.1 0-63-63c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L537 239c9.4 9.4 9.4 24.6 0 33.9L433 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l63-63-284.1 0 63 63c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L103 273c-9.4-9.4-9.4-24.6 0-33.9L207 135c9.4-9.4 24.6-9.4 33.9 0zM640 88l0 336c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-336c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const ArrowsLeftRightToLine = createIcon("arrows-left-right-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABbwAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBUwsGAAE2AiQDCAQgBYMtB0Ab4wTIjsO44TuyxVL+I6jW/u3ZuxcAvDCjA9LENmyBVBywjPwVi4ogmVWh5/9yz+/50QF+PoJDGdvGWgU+5/MEAuxl+bYTycIsoMQ4a3M8iAcK+otDyBPfk9IwXg1LF8jjd5xQIl1McLy9aXzQ0FGSUgYgagBgxLxZUzwui7KIF//vEi9MQkCMAIVAhgxNBBgsE2giVyCXC8ri///8H1gQQJSj7SaQo4TJmAvIQZLledUO1SqXquZzSxuVFl1tmOJC62uNsrjcbs7FBtOjasyMS42vt5kTFxvMjittZzUrqsQM4CLMdcV5gXxVytLCRVcbtrxV49anFtZS/8CMutPVnTGOvBv728+a+AxR1arr1iUi430ExzzWdbrSa+T4HRAIzq0+uXpZ9cFfK1RO4P2jL9/wZDqYQgUJBFnn/50tTgdB0AE0KfZqGXxQIBkto69axTkBQiUESMqpJECmsRoC5CrpJEBJM30EKKeSWTKRVxTqWDJBUsUOkOlrH8jVcRuUDPakLqdOZIyi+UD/0CWMtdCYQ0WPrt2LgcVlz8GQhKy7g4rbUvu9mOkgZ621zVa7rbHaBrsNstOU7h5bjI3gMb6o0ENX3RUGKraHn4W5xtxpFyif3d9nkOJ5r7298fIOoiaK2dOJJBGp4YqdhKdeNvqbjLvs3taFeg==");
 
 export default ArrowsLeftRightToLine;

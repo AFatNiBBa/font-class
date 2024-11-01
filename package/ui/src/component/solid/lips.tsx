@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lips` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lips?s=solid lips}
  * @preview ![lips](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/lips.svg)
  */
-const Lips: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 101.3c3-2.4 6.2-4.8 9.7-7.3c17.8-12.7 46.8-30 78.3-30c20.3 0 42.8 9.3 61.4 19.2c20 10.6 41.1 24.7 60.2 39.5c19.1 14.8 37.1 31.2 50.8 46.5c6.8 7.6 13.1 15.7 17.9 23.7c4.3 7.2 9.7 18.3 9.7 31c0 9.2-2.6 19.1-5.3 27.5c-3 9.1-7.4 19.4-12.8 30.3c-10.8 21.7-26.8 46.9-47.7 71.1C468.8 400.9 404.7 448 320 448l-64 0c-84.7 0-148.8-47.1-190.2-95.1C44.9 328.8 29 303.5 18.1 281.8C12.7 271 8.4 260.7 5.3 251.5C2.6 243.1 0 233.2 0 224c0-12.8 5.5-23.8 9.7-31c4.8-8.1 11.1-16.1 17.9-23.7c13.6-15.3 31.7-31.7 50.8-46.5c19.1-14.9 40.2-29 60.2-39.5C157.2 73.3 179.7 64 200 64c31.5 0 60.6 17.2 78.3 30c3.4 2.5 6.7 4.9 9.7 7.3zM64 224c0 7.9 80 96 224 96s224-88.1 224-96c0-7.7-46.3-31.1-138.8-32c-3.4 0-6.9 .5-10.1 1.5C350 197.6 313.7 208 288 208s-62-10.4-75.1-14.4c-3.3-1-6.7-1.6-10.1-1.5C110.3 192.9 64 216.3 64 224z" />
-    </Icon>
-);
+const Lips = createIcon("lips", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfwAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCBQsGAAE2AiQDCAQgBYMtBysbAAXIjsK2eXPEgcGSKRF8eEVQP8Z+7xnmSaxCUktWTRuVISWahUrIhEYpDPWX8H9+XL53xMQ/SemQtgYybRVMANOlOZLRmrjc+dum983vOvf5g4wJNFrzPIHON3X5JsjCLFGMqb1p0hZZ9iWZaCYdV3Z8XaDEUa5XSZ9pC3htbxr/aKon6coAEIMAAA4uJTGgOMfzwM3/c8SPKCAgDgAwA5GRMQHBNqrABJoZoCiCX/z/x99AAgKIBgImTkkPPgHPABSQpELzMOFWPk2ej3GSWtVbzQbM+iyGykPNqs2aTSpNGl3Wo+6LwRxc2Vy2HdfrUGtR61T3BCNWwDNh0qfaCH+ZtNoCY+gYcf18L2rTagRrVuflDSpNxr3G/ab9ai2c7eVZmPsSDd8abCVugf6No2Q9wj37UXG+uxI6klaqzN+OyX54vf6+efCHh5vv65fH7Ggf/khp2kjoyu654jHbPWIdMdDxrJTRzNsYwOghhqGKaktzY1pphSA9oFsqtbeXSrsD6CGoZcUEAsH3Sf/3o9D7lcWlAPwt33/0J9M+ZRidEgjywr+12OQPAHIRiFMUgqHxQYHkAYW8aq83AUI3AiRNtwDZOBEERbd5CKopLhA03U5RRWFDGBU32aTXC5utqmCLUTNstW01akYjh5ocKPJPLyNUAyHriIOtPfEk29pQokesy17EHZgX0pAFnIVEWTLlSxAvRb7Cc8WkBTKEWliILyIc2LJHeCLHndfTcgly5UmRJZNX8ULuh+YK7ckWsAkKYPGRRKpGoqWnZOcBAAA=");
 
 export default Lips;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-small-big` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-small-big?s=regular arrow-down-small-big}
  * @preview ![arrow-down-small-big](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-down-small-big.svg)
  */
-const ArrowDownSmallBig: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M143 473L47 377c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l55 55L136 56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 342.1 55-55c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-96 96c-9.4 9.4-24.6 9.4-33.9 0zM368 144l64 0 0-64-64 0 0 64zm-48 0l0-64c0-26.5 21.5-48 48-48l64 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-64 0c-26.5 0-48-21.5-48-48zm48 160l0 128 128 0 0-128-128 0zm-48 0c0-26.5 21.5-48 48-48l128 0c26.5 0 48 21.5 48 48l0 128c0 26.5-21.5 48-48 48l-128 0c-26.5 0-48-21.5-48-48l0-128z" />
-    </Icon>
-);
+const ArrowDownSmallBig = createIcon("arrow-down-small-big", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABfQAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCEQsGAAE2AiQDCAQgBYMtBzsbHAXIHoVxwx1FMVnKxcczlEl9RFQsW89+iuVjebLODksWHo3x2CQdCEu2GHH+f2uv9y2dZDYM88OMCkgDoY2LigO2UBKmsrXJ2nf5+b/c83t+dIDf6FDGHnQt8L00gRNsaF64OAuzRDF1OkroyhAkl0NGma7I8Pjs8XmBdr6ygA7Us/AMHvcPzT9Ls1DkFgDIHABwdleYjds/9Cf01CDvMkGAnAE2CLRACywQ4JCIwIKEgzYJwQ99N+U/kEMA0gVvVoA26IF78ACgDShyW7LRttJSlXWlkuqx4ls5uGV97pxPIm27nloKVBh3j02LIjpxqVSZSsQILKBX83VXlU5NVy1BTyYrTozOzNasikHUEDEW7SSyM+RwZXD1V/Pc8ow5i1oefH/X1W1RwvQi37QELYANem3t4f85jwMP5feaJ758oAp+Hy9inO777k+Sp5zfhQYGTYqTc6ZfDQICb1ub1+pH/dNSBQB/N/1vr9M0H8WFK9AnAAKtrW8vVRVHgxcHAQCojHAIvohAaSDju46tIYBgIICiYAjQYs0AAdoYTwTosBOMAF1MIRG1tUFMVAMIdPQDUYgxIDFxDWRR7uoKk4gJR6UL9b8Xn+Kh5Cru7+PHI/i07aRziNjWI/lj3W3ExtzlKFr06jGkWZN2Qw4ZkN0a1i0lgpP9EOfPhx8uAl/uPfIl8AcMGnHPrO8Tib8fuxmJZ7uLJSDqgRNFgJRJ/cBA76j3Zyh6J2Ph3dDeCgAA");
 
 export default ArrowDownSmallBig;

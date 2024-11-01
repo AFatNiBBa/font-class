@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-alien` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-alien?s=duotone user-alien}
  * @preview ![user-alien](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-alien.svg)
  */
-const UserAlien: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 486.4C0 415 55.7 356.6 126.1 352.3c23.8 23.2 46.1 40.2 58.5 49.1c12 8.6 25.9 12.4 39.4 12.4s27.4-3.8 39.4-12.4c12.4-8.8 34.7-25.8 58.5-49.1C392.3 356.6 448 415 448 486.4c0 14.1-11.5 25.6-25.6 25.6L25.6 512C11.5 512 0 500.5 0 486.4zM64 167C64 74.8 135.6 0 224 0s160 74.8 160 167c0 101-106.6 185-139.2 208.3c-6.1 4.3-13.4 6.5-20.8 6.5s-14.7-2.1-20.8-6.5C170.6 352 64 268.1 64 167zm48 20.4c0 37.9 30.7 68.6 68.6 68.6l16 0c6.3 0 11.4-5.1 11.4-11.4c0-37.9-30.7-68.6-68.6-68.6l-16 0c-6.3 0-11.4 5.1-11.4 11.4zm128 57.1c0 6.3 5.1 11.4 11.4 11.4l16 0c37.9 0 68.6-30.7 68.6-68.6c0-6.3-5.1-11.4-11.4-11.4l-16 0c-37.9 0-68.6 30.7-68.6 68.6z" />
-        <path d="M139.4 176c37.9 0 68.6 30.7 68.6 68.6c0 6.3-5.1 11.4-11.4 11.4l-16 0c-37.9 0-68.6-30.7-68.6-68.6c0-6.3 5.1-11.4 11.4-11.4l16 0zm169.1 0l16 0c6.3 0 11.4 5.1 11.4 11.4c0 37.9-30.7 68.6-68.6 68.6l-16 0c-6.3 0-11.4-5.1-11.4-11.4c0-37.9 30.7-68.6 68.6-68.6z" />
-    </Icon>
-);
+const UserAlien = createIcon("user-alien", true, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABngAAAKIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCSQsIAAE2AiQDCgQgBYMtB1AbawXInoNx41yCcopC1NbrzwaXyxyLh69733N3N60UqpQO2kUfSCj+LcUg46UB/omGw+/M1mZebF8U0eMw8UrcOrFKvcQX0UpEOlqKhoqakKC91fX+P3JqvPFSAZ+VoGjnWb/V/6F278cnMODa/NOEPuhwhri3DRs2AvFKaJFERePkeB2gxBq3H1pIz5xXoEH/Axh/DPWTdGQAiH4A4OwmJRkuv/E74Wt9RHxIAgLiHADzEBkZ0xAc4gpM45kHiiJocv7TxP/zIIBoBfrIDFrRjns0AAUkSSk89aChsUZF+DJeOuFLclbsETcMp7QSXHWgRrP6hBAJmdbN2a1bSXBGb9Fx0xaWThAvYrNeIYO2a6F3wS8Wc1ZSXDXK+eqKGRszjdOW33TnlGRAb9Xh2GWH9Z8/ibEmOKu/ELKR4JQ2DTEE1xw3jS+S4LLdugFLlfTH4qP8w0Df5yJY7BGPKUEoFKmSa2NiGbtzqQSPsPgJNi3eYPkyJclEpzNJSkm18ubrV0NQjYWGYMw7+IqMSHz/whg1pdI/4xlCZoz/uilV//awYPFnCwlql/8dfUl673YAgeDudaO9QBH03044AL/HftP16ku8TBRol0CQt2snuXEJQDwCv5+iHdi41AgEsls8wHvt9iBA6ESApFWnANkUJQRFpy0IWszyhqBVpwtcUcQQhuVVOOlWwdmBDrgYdgi3OPRgtxoObjTSsUR/BhNiNBC9i3F3cWMCmGFDmAAjy2YgMy3ZtecJe9gL5RrUa1WmVJVWBTVL9trUifHAaF/EcOfCDSMAs9y/FdIVplmLKnq99W0CMecNO+3+fHtQOZhwR0eWiYRc9RvOOhfVVpXVO8f1pNZyTxgAAA==");
 
 export default UserAlien;

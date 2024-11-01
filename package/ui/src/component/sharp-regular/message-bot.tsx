@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-bot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-bot?s=sharp-regular message-bot}
  * @preview ![message-bot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/message-bot.svg)
  */
-const MessageBot: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M272 480l-48 32 0-48 0-9.7 0-38.3-48 0-32 0-48 0 0-48 0-160-32 0 0 16L0 224l0-64 64 0 0 16 32 0L96 48 96 0l48 0L496 0l48 0 0 48 0 128 32 0 0-16 64 0 0 64-64 0 0-16-32 0 0 160 0 48-48 0-128 0-96 64zM144 368l80 0 48 0 0 48 0 6.3 69.4-46.2 12.1-8.1 14.5 0 128 0 0-176 0-144L144 48l0 144 0 176zM464 96l0 192-288 0 0-192 288 0zM240 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm192-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const MessageBot = createIcon("message-bot", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgAAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCUwsGAAE2AiQDCAQgBYMtBzIbVQXIjsQ4JvKLKOwiHr6f6+vcl/SHZBgyxD3I6KaQF8gRKHLLjoUnu7VyFXW+14ZMnM2389HOn89GMJT/1YF8gE//o1FAAU67aS+Vx1mYJYpZ20TF+yDIFRmyyaOPyEL80NZ2gjz+iedqpDfSL3hWPzT+1NNtkloGIDoAYP7Wjat991v8FvFzY+JnKxEQ80ElkCFDHwFmyQT6yFXI5YLfotHAf2BFANGEr0ogRzMe4RVADpJans/u3tq5c1lrm28pa8X+aTOnBcOiiH4AElEGI3rYlkjaLmzdbsOmLWVRCrE1ukeJJ7QJ4ajQJiLabnrUPeK1uNHt1eJhl5dd7/pKufWxEiHckkP9wI87fPxXvxz5Rfv+DTbXFYaqr6t7U6WDeZneQeW6+r7ndddnwJu3Xt8799rZdeuu1zVZNMb32l3/xHP7PPfJ3Pbfsb7ynerXa+3uc79da8GWb/vrx4FA8OG7Tw/tbT/r75YygT++4Lpf47t0PX2MFgkE2ejGaLvSdUjMANIUVww0viiQ3FLDd23jVQFCgQBJk0KATG8dBMgVRglQ089kAZoUNspE3ip0sfsmkjbOE5kprhK5Lj4namb5PmnSJTKPlPxJ+iBMXzKCiw9V48fWqxnVsqXLTiaU1ZnVtj/8ioyMCEcdcdYZlxx2yHGXBviC1fllpy2xoMV+qDLeWHWVGarj7lrfkpILLjo+V893mal6Px7uij19RIgSsk5QSBKRSj+V/+kAAAAA");
 
 export default MessageBot;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tv-music` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv-music?s=sharp-light tv-music}
  * @preview ![tv-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tv-music.svg)
  */
-const TvMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M608 32l0 384L32 416 32 32l576 0zM32 0L0 0 0 32 0 416l0 32 32 0 576 0 32 0 0-32 0-384 0-32L608 0 32 0zM96 480l0 32 16 0 416 0 16 0 0-32-16 0-416 0-16 0zM416 112l0-23.1L394.4 97l-128 48L256 148.9l0 11.1 0 90.5c-5-1.6-10.4-2.5-16-2.5c-26.5 0-48 19.7-48 44s21.5 44 48 44s48-19.7 48-44c0-.8 0-1.6-.1-2.5c0-.5 .1-1 .1-1.5l0-116.9 96-36 0 83.4c-5-1.6-10.4-2.5-16-2.5c-26.5 0-48 19.7-48 44s21.5 44 48 44s48-19.7 48-44c0-.8 0-1.6-.1-2.5c0-.5 .1-1 .1-1.5l0-144zM256 292c0 4.1-4.5 12-16 12s-16-7.9-16-12s4.5-12 16-12s16 7.9 16 12zm112-20c-11.5 0-16-7.9-16-12s4.5-12 16-12s16 7.9 16 12s-4.5 12-16 12z" />
-    </Icon>
-);
+const TvMusic = createIcon("tv-music", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgwAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCNwsGAAE2AiQDCAQgBYMtBy8bNgXIHge5afSuRKN+FHYRD9+v9Xnu6575ANRLRAqYFGKI1KqgIhe1Lihk2KYio2iKeb5Dat/jXZx6nmmhAP55hIMyNi4NyBzYuc4jUMCxtReveK9WrGkFrIvbroKIhsZCo4U8/omJSqQP0o94Lbxp/KnHfZI8AxDNAFi2ffMmL3+L3yJ+rEj8aAMCYjkoBDJk6BdgoUygX65ALhf8FpWK+A8sCCDKkhdNIEc1ruMRIAdJOc9r2moW1dTUlRrybXWl2sspS42RRdO52rpakULUNUVkEVF7RKhriKjdFWJkbIn2EOLd2qftb3d/0PFO3bOu9/ruBG8UsX31xJZ3Rn7U9e6YD9u3V9xw9/DPmj/7C8fY/+J2wljqtqVLhoqi2wrFgdqo/DqtNX9eaD5/vos8tt2tKd5SZ7dL1e0//ZDSDz+1k49HhHDV/hG2LKdff/FVdUrVOXm+TeqfBwLB7m/H3d+08O/qugT++Lrpz0jlZbqdPkO1BIJsYmWiPek2pNsCAJDimuHpNgLJFWWJU+/du0GohUJSVguZPs2QqzUBSgbNalFWa7NM5DVCu716SOpdhMxsNyDX7isoWegbt6w9MhiUIEj6BUxfPUZWbSumTZ5azC82O1oZrAS7uaA4bYy9JifG4buOOe+cK4464qQrI/qSTcFVZ63eo1b5osI0k01VmK+43X9+fZujLrnspPPO+SYLFO87Y13bnz8O20nCOt2xJBGp+sq1SV8nAAA=");
 
 export default TvMusic;

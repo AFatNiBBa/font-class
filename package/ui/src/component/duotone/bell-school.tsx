@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-school` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-school?s=duotone bell-school}
  * @preview ![bell-school](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bell-school.svg)
  */
-const BellSchool: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 208a208 208 0 1 0 416-.2A208 208 0 1 0 0 208zm288 0a80 80 0 1 1 -160 0 80 80 0 1 1 160 0z" />
-        <path d="M208 160a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 256c55.9 0 106.6-22 144-57.9L352 464l40 0c18.6 0 34.7-10.6 42.7-26c-11.4-8.8-18.7-22.5-18.7-38c0-26.5 21.5-48 48-48s48 21.5 48 48c0 19.4-11.5 36.1-28 43.7c-11.9 39.5-48.6 68.3-92 68.3l-40 0-240 0c-26.5 0-48-21.5-48-48l0-105.9C101.4 394 152.1 416 208 416z" />
-    </Icon>
-);
+const BellSchool = createIcon("bell-school", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiAAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyBewsIAAE2AiQDCgQgBYMtB1IbHwXIhocnu6j3q3pmAfVKimBlUIS7iyRlIuKZ/8s9P9t0gN/o0PbQA1lgc7WeJxBwlk3a2vMSyjQD623DHI5IvEEiJRGNpzROZyjinXxWhXRleg2X8P8Axq/aOUtSLwOIpgCYumzRQi98FV+leK32CPGaBQiIaaAUyMjoKMAEWaCjQolCIfgq1Wp8FbVaSQBRxXCmVcsr12MboABJkoqiUfcOjRpUGhVLG1Tqr7q13ZVtr+hxW/urOlzdO324SDSI2zuMb3h1m8t739rq0nZX9Liizx0j6te/rfVl7SPeXhInB0bcO/flBufnvzr4/jg16L55r9Q/N+elAfdodM2YJ8Y91fn68U+PfbJTt7ua3vV719e2vubNLjf88PjjP9zQLrIkLt+pjxc+6lQnv/7ZkCGfvZ47X3PR6VP6/MX77XT5kvDX2Oe4r2GD0aMbNLzv+THk3t8A4s+NLRtuO3JkW0N8HggEO6/Z8tq6JhP+r9sggW+e+vNf+iGpvZCku1BXAkEeUBtgdQKJAACkOKpbYgoC2RCJfGpDlwkQ6iNAUlVfgKyDpgIU6usvQEVnIwWoqm+RLIp6QktrECQNHQDZKMdAoaWHQcUEL/pVLSOnGZsk7C8vaZaGZm4qhw4aUo4rl7nOZQ5dV8eX21afo9TrCztttc9eh22x2Q6HFXnQwuiIPWZ5xExfVBpqkCFK45TH1VZaiv5Bh+yYC+frjFfe9/o46k/3BTcRymG2ZJlIkVu8MnVglGoDI3bQygrBCQAAAA==");
 
 export default BellSchool;

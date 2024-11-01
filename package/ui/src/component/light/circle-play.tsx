@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-play` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-play?s=light circle-play}
  * @preview ![circle-play](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-play.svg)
  */
-const CirclePlay: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm72.7-256L208 329.7l0-147.5L328.7 256zM212.5 147.5c-7.4-4.5-16.7-4.7-24.3-.5s-12.3 12.3-12.3 20.9l0 176c0 8.7 4.7 16.7 12.3 20.9s16.8 4.1 24.3-.5l144-88c7.1-4.4 11.5-12.1 11.5-20.5s-4.4-16.1-11.5-20.5l-144-88z" />
-    </Icon>
-);
+const CirclePlay = createIcon("circle-play", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdAAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBcAsGAAE2AiQDCAQgBYMtBzIb8gTIhuB5u8efc3cDeJMKEHuhSgfoA2ypKvW7OPU856EAvlHQxqSpGxfgXucRiFgumLTeEhSsphPca+5qD1uI5ql1KZI8fnt8uUIez6OtMqQL6RMcqw8af2vgKEmeAYjqABg0Y8o4b/wQP0R8UnpIfGIMAmIwKAQyZGgsQF+ZQGO5Arlc8EOUSvwfWBBAlKV3TiBHWczACkAOkjzPGzUqV7NSmSr59PRTKs55d1TEh53uOtjxzsgPhr43+qPO9+JQl/tjPh6Rvp8Q8fmQt+PQ4LfGfzb9m7GfDHzDwUFvjvt02oypM6ZGTJt+tvZp4mCdM/VmxLk4VHd6i2vVr/3b/JPlnyhdfKMt7X7+pk+fb35u1/aNN9ra/g/DHOdEn8ZDhjTuc+L4MBhne2Rp56gmniZHtqx59O6jqndUffTwvWMzXKpS5XK8HQSCdftv/LagWt9X5Ssl8NOz/18Jr6LSG0m6hvISCLK2pbbmJpAIAECK7VokCCQT5PR4ZWcFCBURICkLFEOmkeqQq6gNlNFUtyvKqmiKTOQVhNrmMUgq2wSZ7vZBrrb7UEZf7ztl1Y7MwSj3oJ538cMRGbZWdGrfsehdTGOd9hkiz/sU21LL7VJrRbuW22C9rZZZapWtgG02zt9mneErdJgnKnTSXkeF3orj7HF7umU222KVDdaXJX0U97WWtq+7W5GaKG5ngSQRqdI/HKGdBwIA");
 
 export default CirclePlay;

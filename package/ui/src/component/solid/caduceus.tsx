@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `caduceus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caduceus?s=solid caduceus}
  * @preview ![caduceus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/caduceus.svg)
  */
-const Caduceus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M280 89.6c14.3-8.3 24-23.8 24-41.6c0-26.5-21.5-48-48-48s-48 21.5-48 48c0 17.8 9.7 33.3 24 41.6l0 22.4L171.5 71.7c-7.5-5-16.4-7.7-25.4-7.7c-11.6 0-22.9 4.4-31.3 12.4L8.8 175.7C3.2 181 0 188.4 0 196.1C0 211.5 12.5 224 27.9 224l110.8 0c33.5 0 66.2-10.5 93.3-30l0 136.5-20.6-12.3c-12-7.2-19.4-20.2-19.4-34.3l0-3.8c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 3.8c0 30.9 16.2 59.6 42.7 75.5l22.6 13.6-6.6 4c-26.5 15.9-42.7 44.5-42.7 75.5l0 3.8c0 13.3 10.7 24 24 24s24-10.7 24-24l0-3.8c0-14.1 7.4-27.1 19.4-34.3l4.6-2.7 0 40.8 0 32c0 13.3 10.7 24 24 24s24-10.7 24-24l0-32 0-40.8 4.6 2.7c12 7.2 19.4 20.2 19.4 34.3l0 3.8c0 13.3 10.7 24 24 24s24-10.7 24-24l0-3.8c0-30.9-16.2-59.6-42.7-75.5l-6.6-4 22.6-13.6c26.5-15.9 42.7-44.5 42.7-75.5l0-3.8c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 3.8c0 14.1-7.4 27.1-19.4 34.3L280 330.4 280 194c27.2 19.5 59.8 30 93.3 30l110.8 0c15.4 0 27.9-12.5 27.9-27.9c0-7.7-3.2-15.1-8.8-20.4l-106-99.3c-8.5-8-19.7-12.4-31.3-12.4c-9 0-17.9 2.7-25.4 7.7L280 112l0-22.4z" />
-    </Icon>
-);
+const Caduceus = createIcon("caduceus", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABigAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCTQsGAAE2AiQDCAQgBYMtBy8bTAXIhofn7eo791V1D6D6shdEBKlniYzKvoNsnTJS1mOXxj/+tEBOX+AVx8JtDzI27h2vQIHf6gVvvKk1BalpBazmLSPrEdkvyclKZvr12+PXHfL4KrtbiVRJJ/BYfdP4XZ+7SeoyANEKgDWH9u3w/S/xS8Tx6ifEcdsQEGtAIZAhw6AAy2UCg3IFcrngl6hW+T+wIIAok09MIEeGh/EkIAdJ5PndDaWm/GBDqf7idwZGu5+d+Gbn072VCWJnPFv/YOf+eNrtXc80NMRDy8TEeLs/YnTim73itSUTojM+L0RlwjsDES9M6gkBhIiueKsv8/rS7pgUX42zhZ8fPz4ivnCM9DwXd3QfvPMs2yPGvt/6/p9jTlx0Qs+FVzZkJ3+YPfuHk1nDld0+81lz+/FLz3dfY+PNNzdebd5LD9huoJTr2rOnK6dypn0qkWE8Ux5YY7KC8cJk+kBZzxjd50wVtpPSwDb3e2ne1Xwf3Hjfpec73t78zmHdQCDwwZNvnN2y/J/ahgR++/Lv/7VfUfX7JL2PWgkE2fTqdGckkAgAQIqbjE0QSO6WyKs2elaAUI8ASVm9AJkBrQLk6k0ToGTYAgHK6u2TibxO6HTmAEmja0FmoVtArtNHoGS5w2ZZZ2ThyAQT8xtM3IjQhmvFnJmzi6XFstDZCKPKcVlxLE2+KQ+m0E0XudpVbnChC1zqBkCus8O50ZU27uANvqgwx0yzFZYqzPVz/KALXed6l+qc/ZJlCn9jspv281OIeyD53CAkKZ2k2vPPveDG8y+88XoAAAA=");
 
 export default Caduceus;

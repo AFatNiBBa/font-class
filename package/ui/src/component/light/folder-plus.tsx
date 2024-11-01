@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-plus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-plus?s=light folder-plus}
  * @preview ![folder-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/folder-plus.svg)
  */
-const FolderPlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 96c0-17.7 14.3-32 32-32l124.1 0c8.5 0 16.6 3.4 22.6 9.4l35.9 35.9c12 12 28.3 18.7 45.3 18.7L448 128c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32L64 448c-17.7 0-32-14.3-32-32L32 96zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L291.9 96c-8.5 0-16.6-3.4-22.6-9.4L233.4 50.7c-12-12-28.3-18.7-45.3-18.7L64 32zM240 384c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80 80 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-80 0 0-80c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 80-80 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l80 0 0 80z" />
-    </Icon>
-);
+const FolderPlus = createIcon("folder-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABegAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCDgsGAAE2AiQDCAQgBYMtBzIbEAXIHge5Seu+6LHaIb5EBPW2Xnve7v2S9sSwYsYIkIwQOjNnnARXTl3OrPiSufY9HR5e5/9yz//zowNc5Ieypx7IApqz9TyBAMPLp/XiOAss0wQs3SY2sCMIXwkJk4iOz46zM+TxQwxWIb1Of+Nh/9D4V0fXSPIMQLQAwIx1q5b4tRa1iL/rEX9bhICYCUqBDBm6CDBZJtBFrkQuF9SiXuf/wJIAooG8OIEcFRzGCUAOkizPe/Ysq5Wm+dpqpdh0uX3Ey2o17radEl+X5z2X4lKbZ0WTuNPuRWSjPusf8VWHFK8HfN2naXw56NvOWbwZ+E3fIlqYGt8UxYbnbV+2j6gGcC/aFRGBe9ZGFEG691ZDz29afPNfD3vpvs0tbjU7p+mrUXp2eo8lWQFwaXF6/aOWtCymK1q2/OgSIhnQ3ts/du5tarVmyy0HUmmutI+DQFD5f+Rn25r8rlE1gX++/x36FdVrSfoGjSQQZIPrg21OIBEAgBRn9UwQSHbLyLs28UKAUCBA0qAQINNZCwFyhUECVHQzRoAGhVUykTcW2tgykKSJE0hmrPNIro3vkIrJfvMbtIks39hsYX97SXMB5hwqRwwdXk4slwXlUohuu5PKbav/2ToYQCftdcxRp+2x2wGnDXzSkuiMI+ZG0BxfVBphqOFKE5XH9bO0Fv5JpxzwhfN9Jinve/2djecHkJsI4UjxJBGpuvely0PyFQ==");
 
 export default FolderPlus;

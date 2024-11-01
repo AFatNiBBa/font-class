@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `briefcase-arrow-right` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/briefcase-arrow-right?s=sharp-duotone-solid briefcase-arrow-right}
  * @preview ![briefcase-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/briefcase-arrow-right.svg)
  */
-const BriefcaseArrowRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 96L0 480l512 0 0-384L384 96l0-72 0-24L360 0 152 0 128 0l0 24 0 72L0 96zM128 264c8 0 16 0 24 0c50 0 100 0 150.1 0c-13-13-26-26-39-39c-5.7-5.7-11.3-11.3-17-17c11.3-11.3 22.6-22.6 33.9-33.9c5.7 5.7 11.3 11.3 17 17c26.7 26.7 53.3 53.3 80 80c5.7 5.7 11.3 11.3 17 17c-5.7 5.7-11.3 11.3-17 17c-26.7 26.7-53.3 53.3-80 80l-17 17L246.1 368l17-17 39-39c-50 0-100 0-150.1 0c-8 0-16 0-24 0l0-48zM176 48l160 0 0 48L176 96l0-48z" />
-        <path d="M280 174.1l17 17 80 80 17 17-17 17-80 80-17 17L246.1 368l17-17 39-39L152 312l-24 0 0-48 24 0 150.1 0-39-39-17-17L280 174.1z" />
-    </Icon>
-);
+const BriefcaseArrowRight = createIcon("briefcase-arrow-right", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABkwAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCNwsIAAE2AiQDCgQgBYMtB2YbbwXIhofv1/o8972eqf09y9DLzAooTG5dSG5U2LFiOxUFpKJn+vt5/qNWBfJ8ITiUqKbs88zzCQw8itc2GtCEZjoDmzrdUtAeMsnlECmCZViPb9Xj8QxF/JAfqpHeSd/jpfV/AOMvfTwkacsAojMAFu/cut6XzWim+L71EfG9dQiIJaASyMjoL8A8WaC/QoVCIWimVotmtFoVAUQdycxal5ffwpOAAiQhF8WgHrPaGrUOxY5GrTw5eszo7TE6RsW28syCGBsLoywjGo0FMSYW5pRTp8hRBtJlKdT09ucaEaKaaW/2FH049o0e+PujVc3xenf4Pp0X5Xm2RFXsbJQNMdcM+aDzB/8M/v7E93p1wcaNbCore8KbvSfp/eYJx6G7DHJ3Yq3S2/C7iq9y98679Tonho8YMfydp995Z/uyIUNQ41TGbp5AbDfDFD0KNdYpmjTx10fvmuSRSUAguPB4wIqDneb9366RwG8f//en9jtqNZP0AdpJIMjjWuPsSyARAIAUNwxJ3EUg2yHDp7b3pgChRICkrhQg66ezAIXSWAFqBpouQF1pqyyKNqG7/QdI2rsMshlugUJ3j0HNPF9l67pHTkJNCmn+ATOusNDyVdXkCZOqOdVlw67NK9WyOLfqdo66oQOjcdQJF11wzXHHnHbN8K9YX7juvBUec7kvqkw2wSSVOarb7c/7dzjuiqtOu+hCXWau6vnoKDf88aPhSSh3ijVZJlLkAW+ZKmnrxh++cuXizS/ZOn5QTzDI0Q9iAA==");
 
 export default BriefcaseArrowRight;

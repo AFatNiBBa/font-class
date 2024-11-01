@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-office` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-office?s=sharp-solid phone-office}
  * @preview ![phone-office](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/phone-office.svg)
  */
-const PhoneOffice: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 0L96 0l0 32 0 352 0 32 32 0 64 0 32 0 0-32 0-352 0-32zM64 32L0 32 0 512l576 0 0-480L256 32l0 384 0 32-32 0L96 448l-32 0 0-32L64 32zM320 96l192 0 0 96-192 0 0-96zm64 160l0 64-64 0 0-64 64 0zm64 0l64 0 0 64-64 0 0-64zm64 128l0 64-64 0 0-64 64 0zm-192 0l64 0 0 64-64 0 0-64z" />
-    </Icon>
-);
+const PhoneOffice = createIcon("phone-office", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABaAAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBcwsGAAE2AiQDCAQgBYMtBzMb9gTIjsQ4JvJIF42HCKK1snp2n/YuyJtXAYD7EChgVEA+jlSi34bQoZAEClX0JTOA/PxfTm9MOjrA//yED2mu5qQNtPfzBALMeuHyBZ4FlmkC1uK2qyCiobHQuEEe77MrGkg3E1wNHxq/9HGFpCUDEJ0B0LZmxXIvv8SXiHf1e8Q7SxEQbaAUyJChvwAzZAL95UrkcsGXqNfFf2BJANEoeVkCOVqwATsAOUia8rxLj5akVGnokK8uzik2FJVCpBCVSkQWsXKSSNGps6pLdFH4qyosINrCKkEJB/vPiOJwa3vn9j+D7ebziwtJQ2mrUrm1jt8aVMPFL2q0eWENup2/UJ/9MuFs7aWts2/VDNytNdHZ51v3Jb4fCAQ/z7xqS6cZ/5srCXx7/O8P+xmpv0y11I5mCQTZiPoIG1MNUk0AAFKc1ppqCCQrNEneteqaAKFAgKRRIUCmn84C5ArDBWgw0EQBGhVWyETeInS3qQdJ1TGQmeQsyHV3BzSY4VWlUffIIEyGD/kHL2PBGJ2/rxw7akw5rdzsahWgEe329PJ0YMhpOTUUn7TbEYedtMtO+5wcscctr59yyII9Zr4vKo01yhilacrbg+fHV9vluBP2OeKw32W68v3MEKf3Fw/F4SThHachSUSqfoP2SPAFAA==");
 
 export default PhoneOffice;

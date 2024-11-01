@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swords-laser` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swords-laser?s=regular swords-laser}
  * @preview ![swords-laser](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/swords-laser.svg)
  */
-const SwordsLaser: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M204.6 250.7l42.9-39.3 50.7 55.5-37 40.5L281 327c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-.7-.7-59 59L105 501.7C98.3 508.3 89.4 512 80 512s-18.3-3.7-25-10.3L10.3 457C3.7 450.3 0 441.4 0 432s3.7-18.3 10.3-25l82.3-82.3c0 0 0 0 0 0s0 0 0 0l59-59-.7-.7c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l19.7 19.7zM505.7 40.2l-115.3 126-46.7-42.7L471.8 6.3c9.5-8.7 24.1-8.3 33.2 .7s9.4 23.7 .7 33.2zM177.1 361.6l-26.7-26.7-12.4 12.4 26.7 26.7 12.4-12.4zm-61.8 8.3L53.3 432 80 458.7l62.1-62.1-26.7-26.7zM173 312.3L199.7 339l12.7-12.7-26.7-26.7L173 312.3zM135 7c9.1-9.1 23.7-9.4 33.2-.7L360 181.8l0 105.1L134.3 40.2c-8.7-9.5-8.3-24.1 .7-33.2zM626.8 459.8l-39 39c-8.4 8.4-19.9 13.2-31.8 13.2s-23.4-4.7-31.8-13.2L398.1 372.7c-9-9-14.1-21.2-14.1-33.9l0-127.4c0-21.4 25.9-32.1 41-17L626.8 396.2c8.4 8.4 13.2 19.9 13.2 31.8s-4.7 23.4-13.2 31.8zM590.7 428l-66.1-66.1-34.7 34.7L556 462.7 590.7 428zm-88.7-88.7L432 269.3l0 69.5 35.3 35.3 34.7-34.7z" />
-    </Icon>
-);
+const SwordsLaser = createIcon("swords-laser", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABmAAAAKkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCewsGAAE2AiQDCAQgBYMtBzMbfgXIngNu0zyOISGPpHwT7zTvpmLPn7ViPM///vj2uQ9fIziBbRoYslBRnRiqV58J5SMOkqtpT/u1eWcKXhd8P27SxEI8z3gliXgTzXQaDVxSa94pt6UBJs0ziS20M376+8n//vlvwLIU/GhRGNPiSO0+n8AAn+1m0Rrps+FsojhzV5cMifaTpJUlPJ57/Gygzu+MlHKjDOBy/dC8Nt4iFE0FIMMAwKY9ZQU4/KYXSf//QfptA4FsAkxDqFBhEgJriQWTSEwDtVp4Qf+f/gMNAdLijQuo0YMr4B5AAii66nr5ICXcnnEp0gyud/uDu/dsWJtUQvHhsY5bmuNCxSmPofvcmEQy5ezYKhj06h1xiW3i6mzeVl5VnpiqrI42jmsX5gtOxOO6tbismKcswg6+gLuSEKf95ioI2R3b2I74DfH3oMoFkmtjzaMryGh2VGxlRWV8hpu0O6KgdeAZG8M23k6/7bw1cLrKa45FljCPj9rB3FSyHdahQ28M1OD2AlE3gR5dueh5bCoDX5w+Cc3f57JTNph734adJ0+5Gz5w88bNEz5gdeMV/D/o7unx88fX72lnZ+ftSMfbqSl8OM3SP3q41dsL4SelQO4uZRPc91Zn3CsT7twBgvBRj2nSx3/tZAGvtt9/047+D2fKTdCpgFAt+h/1ZRYgPgGxklPclS8KiouU3LsOchWB6EZA0eoWUJnIDoFat4UINKaIQKDVbQex1F1ilIZBF4McpStrTNG1UTbpxloX0daoiK1UtzH9k5iTOcMZ09jywGAWy5Zl3TA8NY/HsW133mRo45iLTkMGjevQrsf4RI0qSEwYkKkhGX6ICREoGBOLHdeWsyt1GDWmx5DBMkkc9j7oa1LvzREQYcUVcotCyqDj1pwVcKBlrGMUAAA=");
 
 export default SwordsLaser;

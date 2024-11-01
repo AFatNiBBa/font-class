@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eyes` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eyes?s=duotone eyes}
  * @preview ![eyes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/eyes.svg)
  */
-const Eyes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 256c0 36.2 8.5 69 22.4 95.3c3.2 .5 6.4 .7 9.6 .7c35.3 0 64-28.7 64-64s-28.7-64-64-64c-11.1 0-21.6 2.8-30.7 7.8c-.8 7.9-1.3 15.9-1.3 24.2zm288 0c0 36.2 8.5 69 22.4 95.3c3.2 .5 6.4 .7 9.6 .7c35.3 0 64-28.7 64-64s-28.7-64-64-64c-11.1 0-21.6 2.8-30.7 7.8c-.8 7.9-1.3 15.9-1.3 24.2z" />
-        <path d="M64 256c0-46.8 14.3-87.9 35.8-116.6C121.3 110.8 148.6 96 176 96s54.7 14.8 76.2 43.4C273.7 168.1 288 209.2 288 256s-14.3 87.9-35.8 116.6S203.4 416 176 416s-54.7-14.8-76.2-43.4S64 302.8 64 256zM320 126.7c-5-9.1-10.5-17.6-16.6-25.7C272.8 60.2 228.1 32 176 32s-96.8 28.2-127.4 69C18 141.8 0 196.7 0 256s18 114.2 48.6 155c30.6 40.8 75.3 69 127.4 69s96.8-28.2 127.4-69c6-8 11.6-16.6 16.6-25.7c5 9.1 10.5 17.6 16.6 25.7c30.6 40.8 75.3 69 127.4 69s96.8-28.2 127.4-69C622 370.2 640 315.3 640 256s-18-114.2-48.6-155C560.8 60.2 516.1 32 464 32s-96.8 28.2-127.4 69c-6 8-11.6 16.6-16.6 25.7zM352 256c0-46.8 14.3-87.9 35.8-116.6C409.3 110.8 436.6 96 464 96s54.7 14.8 76.2 43.4C561.7 168.1 576 209.2 576 256s-14.3 87.9-35.8 116.6S491.4 416 464 416s-54.7-14.8-76.2-43.4S352 302.8 352 256z" />
-    </Icon>
-);
+const Eyes = createIcon("eyes", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABmgAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCQwsIAAE2AiQDCgQgBYMtB0QbWQXIHgVuezEq+iS7OPekeOB/v9p97/0Zdv/sOiYfcU2QxK2JdZdKhQ4JT173UE3yXJ5eApKLUoCi8tFskAk02q2vbbW1+D//l3t+z48O8PMRHMqeejoW+JitQb0ooAB7WTY2JVRAUZliu7M9llZSDokRS8vxmeNyhiwOTOeUiDcj4nz4H8DwVRfniGoTgNAEgNnLFy/y7A9tMbytPiG8tRABwhxQCEhI6C6AaZKA7jIFMplAG62mjVQXBCCUhbdPoIx2OI6LgAxEScyy5tHNzc2VUn22rFLKl3+euVfU9HXph2lLDjO2ZcuvdaxDRg6T8qBjyTO7DO4VNbUNdZ1Mh+rey9858mLdXqq/+3C4qaShrVscUgdAe62+26vPo6b6vTduQzOfBtE9Hzo0755TeEX11N7b+/7EgQPjn32tsqrK5nR8OrPXqTMbzXxaFrNKD5p5nifcr/wqdUX3PBAQeD7fvlvPpv2vqUTwZfz8S4+rtsVTsaJGBIE0rDrMmngKHDoAUQzH9BE+apaAZLEkvmqdawIIcgQQleUCSLppEkAmN1QAJT2NF0BZbrEkZLWC9tZWENU5CJIJjoNMe49ByTQvwrL2IZkibUj0TzBhAYfmrytGjxhVTCmWqcJYF0njU4ttY9AxbA2GnbbZb58jttpipyMMOWRRctReCyR4vh8qjDbCKIUpCnXxKCxj4SGH7Zxz+mWmKs47gxyTew8GO4qYY2xJEiGGVPeqlOEWLTU03M0FAA==");
 
 export default Eyes;

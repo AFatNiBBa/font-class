@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hourglass-end` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-end?s=duotone hourglass-end}
  * @preview ![hourglass-end](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hourglass-end.svg)
  */
-const HourglassEnd: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M32 64l64 0 0 11c0 25.5 10.1 49.9 28.1 67.9L192 210.7l67.9-67.9c18-18 28.1-42.4 28.1-67.9l0-11 64 0 0 11c0 42.4-16.9 83.1-46.9 113.1L237.3 256l67.9 67.9c30 30 46.9 70.7 46.9 113.1l0 11-32 0-32 0L96 448l-32 0-32 0 0-11c0-42.4 16.9-83.1 46.9-113.1L146.7 256 78.9 188.1C48.9 158.1 32 117.4 32 75l0-11z" />
-        <path d="M32 0C14.3 0 0 14.3 0 32S14.3 64 32 64l320 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 0zm0 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l320 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 448z" />
-    </Icon>
-);
+const HourglassEnd = createIcon("hourglass-end", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABfwAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCAQsIAAE2AiQDCgQgBYMtB1YbKQXIjsQ4JvGLKEyG0vLw/2tl9/2q7oGaIFeAUSUKmBQgCzOJS1TYsVxwaPesXN0Z8j4/dep5zkML5E2COBbGxuSxNDTneQRyHkw6vF4tSIVq2BpY3zYMWoF4IiQoTEIaK22s6tB5QB7Hs/MqpCfpJ27h/wDGv7o4T9KQAYjWAJi9fPEin/+Kv1L8rL0hflqIgJgDSoEMGboLME0m0F2uRC4X/JVqNf6KWq0kgKjC7zkDVVSwHvsBOUiSyPOOHYcWlRb5sqLSuPpq+4j7Tnd4ULSIa50exZmODxubkvDa1UVjIV4MXhrL42WviCLEL9OWxNL4sFQ0NkX8PnN5LIuPy6JPc+vm//zc9lOvTy0vc7llxS+3nIXh/s/J0uvULIoW6l7OncvRq2phloLZfwzSH2ZnwrJ8HgSCDVP6v1/fatr/9UUC/7xt7XdU+xynUzPqJRBkw2rDrInTEKcFACDFMX3iNEqBzDAJvWuThwKERgRIqhoFyHTTWoBco6ECVPQ0XoCqRotlIm8Q2lvbQdLkIMhMcALk2nsNKqb5Yle1jyzS6DihP3oJC4bmb5WjR4wqp5TLBDPBQ5bl1HJbHHRMYzDctc1++xyx1RY7HQk5ZJF31F4LNHi+DyqNNsIopSlKc/4sLMs+5LCdMmdfM1V5Xh/kmN4/GPZJgDF3FMuIFFmHl0Q9LW/41n1bhnttRyeB81AAAAA=");
 
 export default HourglassEnd;

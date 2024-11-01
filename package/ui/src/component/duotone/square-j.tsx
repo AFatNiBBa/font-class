@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-j` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-j?s=duotone square-j}
  * @preview ![square-j](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-j.svg)
  */
-const SquareJ: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM112 280c0-13.3 10.7-24 24-24s24 10.7 24 24l0 8c0 26.5 21.5 48 48 48s48-21.5 48-48l0-136c0-13.3 10.7-24 24-24s24 10.7 24 24l0 136c0 53-43 96-96 96s-96-43-96-96l0-8z" />
-        <path d="M280 128c13.3 0 24 10.7 24 24l0 136c0 53-43 96-96 96s-96-43-96-96l0-8c0-13.3 10.7-24 24-24s24 10.7 24 24l0 8c0 26.5 21.5 48 48 48s48-21.5 48-48l0-136c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const SquareJ = createIcon("square-j", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABhgAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyBfwsIAAE2AiQDCgQgBYMtB0wbHQXIjtRW94RR6Xh42s+3c2deUgB6BUZFBK6OSDGmssvqu2Xhli2BTiIAGs//NfXi+dEBfr5wjKJ7Z+2Rz3PZOoE9b5xF0yYyoeEMcX47+W5hUJeSJD369hkmbthcoIjX+awK6W76Bjf4fwDjV12cJWmSAURrAMxes2KRhp/ipxTf1D8gvrEQATEHlAIZGd0FmCYLdFcoUSgEP6V6nZ+iXi8JIKr43RlUUcEO7AMUIAmpKHp3LZtVWhSr+YSme152EQ8GvRn30ZBaz4j7A5F2t8PN/q873e52aE453R38tn+LeD30Xbcc94bUBjSPF9MzOq8arNx0WJ9a69rvvb/Z/Y1OM5d1uKhxrVbO0ViHZbirsfztd6NGffdtvoiarbNssmmbNk9meeKhpqU048jHo5W7XgcCwfjLF9/Satr/miXwy2d//hueV/8pGlINjSUQ5GH1YTZGAyhiAL+f4rQ+0eAoAtkUCdSnNndLgNAUAZKqpgJk3bQWoNDUUAEqehovQFVTK2RRNBHa25RA0twxkE1wBhTaew8qpvncq2ofWdA4MeH+eckLEJ2/qBw9YlQ5pWyWIi87jBmfWk6rg07rtsG0125HHHbSLjvtcxLw4xaFpxyyoIfN90Wl0UYYpTRFuVy7lFeDd9wJ++ri+jxTleftQU73ew+m5STAmCtKZSJFbv1a7eH7h0us0jYT3yYAAA==");
 
 export default SquareJ;

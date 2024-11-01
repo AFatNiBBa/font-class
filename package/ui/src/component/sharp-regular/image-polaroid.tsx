@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `image-polaroid` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image-polaroid?s=sharp-regular image-polaroid}
  * @preview ![image-polaroid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/image-polaroid.svg)
  */
-const ImagePolaroid: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 368L48 368l0 64 352 0 0-64zM75.3 320l57.3-78.2L152 215.4l19.4 26.4L188 264.4l56-85.6L264 148.1l20.1 30.7L376.4 320l23.6 0 0-240L48 80l0 240 27.3 0zM448 320l0 24 0 24 0 64 0 48-48 0L48 480 0 480l0-48 0-64 0-24 0-24L0 80 0 32l48 0 352 0 48 0 0 48 0 240zM80 144a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const ImagePolaroid = createIcon("image-polaroid", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbAAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBdQsGAAE2AiQDCAQgBYMtBzUb+gTInoNNmY91pKUlSSRnfr9JDtqWt7PE8/yP1e7781dM65Jcmnry7BmaW2gTImn7UsIcKpnK+MF+8x3u8SCJSvsJtak32mJbKL9N60pEagMsX2uzJ655/mlPz09V4o8WhaUPUiuKyPMJDHztCbrz2cBmOgHb7mxkDm3tcUjLIsnx2fG5Qs3PvNNB+V5+4y1/aP6a8U7R0QCQYQBw6FJHgNiiVrLRjmw4BgI5BGAZoYEG5hHYSyqYJ7MMqiq00m7jfyBDgHSS1xdQ0Ynr4C6ACopaa8/cglUrH6gXtfLemzp9vwwkNwbdQYB8yR9QVPZIm6Q/SgaEANHbnxjm0zeeToW+9r2c+Iwn4580Lya/0GrT1Ny5/87+vD1VqqtYqh6N5ISA+sGS23Ee5QuTV6Yd0REeuWAnqqKi76KqXLahyo/3Bp/xbLC2oRDIY///3y6MxX/d2gL+/DocQL+idivrpYluBYTGpnbQNCJkXQAAJY/hiYigOE+G37XfFwHRi4CiU6+AhjkmBKpeawh0WJRCoFOvc6RSe8S4WSeLfvfIhu22ZDXug+yw12fcaTxSFzMcxPjh5bY10NrGsXCU8zxta6bXaGW9wNue9y2P+eAizty78+LUiUsvCn8iZK9utVdYyxexmLAolsfHvcfTfaeePLt07442KeD7kdfberYPQglR3aymKKQMvsjq0MP9zerp/vIEAAA=");
 
 export default ImagePolaroid;

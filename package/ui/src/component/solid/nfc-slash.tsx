@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-slash?s=solid nfc-slash}
  * @preview ![nfc-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/nfc-slash.svg)
  */
-const NfcSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7l-86.8-68L544 96c0-35.3-28.7-64-64-64L160 32c-21.6 0-40.7 10.7-52.3 27.1L38.8 5.1zM173.5 110.7c8.7-9 21-14.7 34.5-14.7l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-3.3 0-6.4 1-8.9 2.7l-25.6-20.1zM302.1 211.5c.6-.3 1.3-.5 1.9-.7l0-66.7c0-26.5 21.5-48 48-48l80 0c26.5 0 48 21.5 48 48l0 206.9-32-25.1L448 144c0-8.8-7.2-16-16-16l-80 0c-8.8 0-16 7.2-16 16l0 66.7c18.6 6.6 32 24.4 32 45.3c0 2.3-.2 4.6-.5 6.8l-65.5-51.3zM486.9 479.6L406.2 416 208 416c-26.5 0-48-21.5-48-48l0-145.9L96 171.6 96 416c0 35.3 28.7 64 64 64l320 0c2.3 0 4.6-.1 6.9-.4zM208 384l157.5 0L192 247.3 192 368c0 8.8 7.2 16 16 16z" />
-    </Icon>
-);
+const NfcSlash = createIcon("nfc-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABgQAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCLwsGAAE2AiQDCAQgBYMtBzAbLwXIjlQ1fzx8r/Pt3Cf5J18Og8JEy0TVVsDTo2dbJldu/vxfTm88PzrADyI3Jt3zhWODrV1xL4GeR9l5Yz8Px+QsUczaJpdMylsUkUP0kN9CGh/aFpDHP9klKqQ700e4vtxVfKOzS0gaMwDRCgCzNqxZ5u1a1CI+rL9KfGgJAmIWKAUy9HQTYKpM4AXkSuRyQS3q9fwfWBJANLBPSCBHE5yGywA5SCp53qlF/05FtdI8X1+tFFsea3dH+xPj0Y53d1gfWdw1+Kn+zeKVgevX3T6gGre2v6VdEVe1G7zu9mrEhRFxd8dd8NH2t3YWg1m7rUMRmpP17hdYv8lxhvVFPNbhti4Rq0PcOejJfs3j6urualFdH+LW9r2favXUd70+2v+R/m8N+eGl/1d8ql3Q+jlGKVq3fmCmVp3njrvs0MczS7UWLWqlyuiLz98rYI7s489HrjTy84+zT/3pNS1qK9VazPFZqyyfNeaNZitnVPEd6dzkJ78+qGd5hx33mf7sFc6E04FA8MEJc77d0XLqb02rCXz91g9/9i3r69Ll6Sk0lUCQDa0PtTVdIKBjBDNTnKY3vkkgOU4F7rWZ2wQIBQIkDQoBMl21EiBXGCJARQ/jBGhQWCMTeaPQzrYJkmZOBJnxzgW5dl4GFVO9azZoF1n8UdFD/f7Fz2d03rRy1PCR5eTyGBp0SBFydEp5LQ08LZUGodd+xzvOKfbZ65BTCD/JMudUx8xX2Dw/VBpluJFKk5Xu5JVfT+ZJTnZoT/khk0xRvi8PdJpuHoTZJMDoLweluZEaj9u/Z9jJR3edfBAA");
 
 export default NfcSlash;

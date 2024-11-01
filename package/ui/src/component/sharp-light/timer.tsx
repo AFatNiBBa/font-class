@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `timer` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/timer?s=sharp-light timer}
  * @preview ![timer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/timer.svg)
  */
-const Timer: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0L240 0l0 16 0 96 0 16 32 0 0-16 0-79.4C388.2 40.8 480 137.7 480 256c0 123.7-100.3 224-224 224S32 379.7 32 256c0-61.9 25.1-117.8 65.6-158.4L75 75C28.7 121.3 0 185.3 0 256C0 397.4 114.6 512 256 512s256-114.6 256-256S397.4 0 256 0zM171.3 148.7L160 137.4 137.4 160l11.3 11.3 96 96L256 278.6 278.6 256l-11.3-11.3-96-96z" />
-    </Icon>
-);
+const Timer = createIcon("timer", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbQAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBaQsGAAE2AiQDCAQgBYMtBywb5QTIhof/t+v7fW7XAK550QBSTsfWB5j2+qkQ9/xfk++dNR3gNzq0zjVIgUTE8wkMOAqjbFbPT2imE7BZO7tDBr1+JH2KJMP4w+YMWbyKdsqRLqYvcLyGKn7VyDGSrAAgagJg8Myp471TjGLEF6UnxBfGIiCGgFyggMVNBeinIOwZMjkymaAYpZL8B+YEEOUpkuhZuHM6lgEykKQs61erSrlq2Yy0uPLcylUqCyGqBD/z4+Rvp9/odH/UJ8M+GvNZl4dlhzvea9smXre77cfB747/cvrPE78e+v7Mn4a8N+GrGdPq16vfKurFdB7QNurHjLKbNW/+3vKLFV8ovV0TUYsAyp880awKd67GnOrfvteuWbHYrN1731bv2KDi7yuU9R/Q3ciGjU4eHmmkwycbNTTSRqeducXSFV5auNAt7XEQCHZfP/VwYY1+/1esksAvL//8W/wVld5J0k1UlEBQaFdqZ14CiQAApNihLEEgGS9hWKs6J0CojABJeZUFKGiipgCZytoKUE5z3QUor7KpCiKrJNQ1f4Ckqs2goIf9IFPXI1BOPx+ny6sbBefiXIP72yWPsPDweXnnDp3yPvmyqvP+wpTpvvmx3WpH7mqNvVbYaINtlltmtW2G2mJ8brv1RuzI4b4o11kHneT6yK8bz9tnWG6LrVbbaIPM0lf+PtXKjv3g1vASpe0iL0lEKuduyhYAAAA=");
 
 export default Timer;

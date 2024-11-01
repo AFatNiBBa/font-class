@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `input-text` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/input-text?s=sharp-duotone-solid input-text}
  * @preview ![input-text](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/input-text.svg)
  */
-const InputText: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 64l0 64L0 384l0 64 64 0 512 0 64 0 0-64 0-256 0-64-64 0L64 64 0 64zm64 64l512 0 0 256L64 384l0-256z" />
-        <path d="M195.4 160l-38.9 0-2.8 7.1-72 180-2 4.9 51.7 0 9.6-24 69.9 0 9.6 24 51.7 0-2-4.9-72-180-2.8-7.1zm-3.7 120l-31.5 0L176 240.6 191.8 280zM288 160l0 24 0 8 0 64 0 64 0 8 0 24 24 0 68 0c33.1 0 60-26.9 60-60c0-18.6-8.5-35.3-21.8-46.3c3.7-7.8 5.8-16.5 5.8-25.7c0-33.1-26.9-60-60-60l-52 0-24 0zm88 60c0 6.6-5.4 12-12 12l-28 0 0-24 28 0c6.6 0 12 5.4 12 12zm4 84l-44 0 0-24 28 0 16 0c6.6 0 12 5.4 12 12s-5.4 12-12 12z" />
-    </Icon>
-);
+const InputText = createIcon("input-text", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABiAAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCLgsIAAE2AiQDCgQgBYMtB1AbUAXIhofvdb2e+552vV+yWQaWETkMVWZMfQiq34VKp0pF2BQ7KbkC3olr6sf5N2CRP1LUMLJtlqklMMCijZtgE5m2Gc+geS9MyQrtFqIPUKRZ+bYW6c30HZ6P/gcwfjTWbZK+DCCGAmDLqWMHfNSNborveh8Q39mPgNgKGoGMjAkCrJcFJig0KBSCbur16Eav1xBAtEV3nUEbfXgGNwAFSFpSUYwdMLEaOKyvag0qTlat8lxZlXUcjzqqGB9VjI0qRsXJGHW8rMrJMfGUIOSKqnp73vvj35r7evDy92aWR16py4jFzldHnjBCAVSlr9RZSO7KIRE5IsrLQwYPSTE48tT3hr7385Tv7vnOJ5NnJvvtuqO2zOt2et0ydSswMz3bUM7vfr/07Bhnx2aJdoy5aPt1OgM3nxvc4fryf8r+CcaYoL/Mx+ZToQSGJsp+1zfTMJulopzubcJ+EQi619/qXBqy/rdOlcD3H/76A70yXU/voSOBIM/vzXc+XQc1HbAnleIZU9N1hxHIjmtJbnWg1wQIJQIkbaUA2XhDBSiU5gnQMskKAdpKx2RR9Am1CxWdDPQ4na30HF2o3aFb1vsy1VZHBqAMH/nyL8POJrxjWbNk4eJmbTNaUSiYEv3kumaxcfYzumMO3ekej3rEU+52l/s91aCecCD7tIftnEJ2eKDGEgst1lir2Vy/azjJnU94UgvD2vZF1mmO9872zHT/OdSSJLxLbckykSIPB2nXgr9fKFDurNvaSQs=");
 
 export default InputText;

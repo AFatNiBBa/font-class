@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chair-office` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chair-office?s=duotone chair-office}
  * @preview ![chair-office](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chair-office.svg)
  */
-const ChairOffice: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 64l0 224 256 0 0-224c0-35.3-28.7-64-64-64L160 0C124.7 0 96 28.7 96 64zm32 416c0 17.7 14.3 32 32 32l64 0 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32 0 0-64-64 0 0 64-32 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M64 160c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64zm384 0c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64zM80 288c-12.1 0-23.2 6.8-28.6 17.7l-16 32c-5 9.9-4.4 21.7 1.4 31.1S52.9 384 64 384l320 0c11.1 0 21.4-5.7 27.2-15.2s6.4-21.2 1.4-31.1l-16-32C391.2 294.8 380.1 288 368 288L80 288z" />
-    </Icon>
-);
+const ChairOffice = createIcon("chair-office", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABjgAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCLwsIAAE2AiQDCgQgBYMtB1QbVQXIjsM4hvwSQxviwYrge5vovvsn2T6Z4QyMlV0xUQjapEqlLtgUmrSZVJnUyv935qlTOZfz0AJ5DkHQxlogSRcW5zyvQAEX1camClWoWrIaYNVNEcEeYql4iEjZOpHi8S3seHaBPL5LN1TI3mZ/4TH/D2D8o4cbZFolANEeAPNXL1+m3ohGFn81fyb+shQBsQCUAgkJvQWYJQn0liuRywWNrIlGNJUEEFX8SydQRQucxVVADjJJluddu3bu2K9WaZOvqlWK9Ve7Rrwq7nV+QVzp8rJ2v9vriDZGzZavu3ePFyoa3CZofdee8W5I6/VCmwheM+LHIUV8Pez77mt3zQhSalR3teurooiIBqFPHTDgx/Y//tu/XZnbr+0d7rQtxJ2283Bj/BXj8MOXyydNhx89bD9Px0ePDvOkLG2+3JB1NBQdOnx+xecxLfp95vXnzfMlpXnVLqnXgUCwcm/PIZvbzfq/ZS0Df//yf/15zXrUsx/RUgaCNKo5yoaoQyIH8KWyOGVA1LFFIJknkXdt7ZUAoUCATFUhQNJLewFyhZECVPQ1WYCqwnJJ5K2EzjZOkGntKEimuAhynf0EKmb5Na/qHAmALHzY/7+kJRpevKocP2ZcOaN8bBgcpui8OLPctoadooHhYa9dDjvkhJ122OuEQo9ZVj7poCUrZLEPKo03xjilGUp3+6u0KubHHLfXFvzLzFSez4Y5tR4/PLgZoZxgR5KILFLnD1sdDW9tNJaHu94I7y0AAAA=");
 
 export default ChairOffice;

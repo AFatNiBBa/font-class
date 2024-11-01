@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `id-card-clip` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/id-card-clip?s=thin id-card-clip}
  * @preview ![id-card-clip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/id-card-clip.svg)
  */
-const IdCardClip: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 16l64 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zM224 32l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L256 0c-17.7 0-32 14.3-32 32zM192 64L64 64C28.7 64 0 92.7 0 128L0 448c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L384 64l0 16 128 0c26.5 0 48 21.5 48 48l0 320c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-320c0-26.5 21.5-48 48-48l128 0 0-16zm48 192a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm112 0a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM192 424c0-30.9 25.1-56 56-56l80 0c30.9 0 56 25.1 56 56c0 4.4 3.6 8 8 8s8-3.6 8-8c0-39.8-32.2-72-72-72l-80 0c-39.8 0-72 32.2-72 72c0 4.4 3.6 8 8 8s8-3.6 8-8z" />
-    </Icon>
-);
+const IdCardClip = createIcon("id-card-clip", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABpgAAAKNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDBgsGAAE2AiQDCAQgBYMtBzMbiQXILgrshrMzwqkaX8xIxUceMR7+sevrvqr6qh6jZiJANVIkegVkcrYOIvb56Rq93cimGUGoToxyNFO0fxL4lTmhzJoHb27Dd3p/+yASRpZoKJ1cGv/40wOe/SB4pLFpbXsaHfE9sfHGC1yrjU0laXyBWlmrTtfuWI8x6SMiI5RZpAyPp6DH4wmy+NwWdST3oU9xy/ak8Y2urpBIUwDRBgDTli9e5P1qVCM+rb1CfGoBAmI6KARSpOghwCSpQA+ZAplMUI1arf4HFgQQ9fS0BGRoxNN4ESt4v6k+y9p1G9+yZe9KXctsWaUuX13JK3c1Ju60Lu5uIe7psnChI5NK3NAJjLjYNpzH9baCfnklfzLdHuO+/HyIZ+qfbNxfNLgQlXiq4QHjXludj6fbNtp4oJNIEUsfiMevobsZ9kgPF013HvnVv5UHOgifjSXcSLeIfYCFU9PzUv8+96laZVlWW5VaVUuHUjN+q2sfablrtQta/mjbmJdyXnr0M16/tXHBsC9OS+lnXwxDzLxi6Ht43+nT+/KCP5A2//RTc7r7I2/DD/x/gAP//9BQv2FDfauRI6tUSW0FjwOB4OmXv31jfetJvzVSAprf/OHvfr8aLJPnAY0SEKSDaoOsSUoo1ADSJI7p63xZIPGwetC4hbujhZAzIFEvh1R3bSCTGwh1ehl9Qr3cYqnImoQO1iJItHAQUmOchUwHL0GdST5I63WINFf5TOP/FFNmIzJrXTF8yLBiQnHZcArpx7bFicVtvd8xGejPW22z3z5HbLXFTkcAO2RR4ai9ZnvoLF9UGG6IYQoTFOH2VlkG/iGHhZ0L8VVMVKyP+znmj+/PVkJpR9iUSIikxc4tg98LdfDHAgA=");
 
 export default IdCardClip;

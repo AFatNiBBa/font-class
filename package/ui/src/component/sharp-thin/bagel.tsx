@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bagel` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bagel?s=sharp-thin bagel}
  * @preview ![bagel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bagel.svg)
  */
-const Bagel: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M432 400c106 0 192-86 192-192s-86-192-192-192c-56.1 0-106.6 24.1-141.7 62.5c-5.4-2-11-3.8-16.6-5.4C311.8 28.4 368.6 0 432 0C546.9 0 640 93.1 640 208s-93.1 208-208 208c-3.9 0-7.7-.1-11.5-.3c2.7-5.1 5.2-10.4 7.6-15.7c1.3 0 2.6 0 4 0zM338 78.6l51.5-1.4L432 48l42.5 29.1L526 78.6l17.3 48.6 40.8 31.4L569.6 208l14.6 49.4-40.8 31.4L526 337.4l-51.5 1.4-33.5 23c1.8-7.3 3.3-14.8 4.4-22.4l20.1-13.8 3.9-2.7 4.7-.1 40.6-1.1 13.6-38.2 1.6-4.4 3.7-2.9 32.2-24.8-11.5-38.9-1.3-4.5 1.3-4.5 11.5-38.9-32.2-24.8-3.7-2.9-1.6-4.4L514.6 94.2l-40.6-1.1-4.7-.1-3.9-2.7L432 67.4 398.5 90.3 394.6 93l-4.7 .1-40.6 1.1-4.5 12.6c-4.5-3.1-9.1-6.1-13.8-8.9L338 78.6zM496 208c0 30.6-21.5 56.3-50.3 62.5c-.7-5.3-1.7-10.6-2.7-15.8c21.2-5 37.1-24 37.1-46.7c0-26.5-21.5-48-48-48c-9.7 0-18.8 2.9-26.3 7.9c-3-4.4-6.2-8.7-9.5-12.9c10.2-6.9 22.6-11 35.9-11c35.3 0 64 28.7 64 64zm-96 96A192 192 0 1 0 16 304a192 192 0 1 0 384 0zM0 304a208 208 0 1 1 416 0A208 208 0 1 1 0 304zm144-96l-16-16 16-16 16 16-16 16zm160 32l16-16 16 16-16 16-16-16zM96 400l16-16 16 16-16 16L96 400zm128 32l16-16 16 16-16 16-16-16zm80-16l-16-16 16-16 16 16-16 16zM64 272l16-16 16 16L80 288 64 272zm80 32a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm64 48a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const Bagel = createIcon("bagel", false, "data:font/woff2;base64,d09GMgABAAAAAAOYAAoAAAAAB7wAAANMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhgSFDwsGAAE2AiQDCAQgBYMtBywbiwbIjsJxr4SitSUmk4G4RDx87fd67u4GwYU1kWKhcXyEinAvlh0Lm4kD0lQW8k9than7/sN7+vcUyjpmyea0E5l2D+If9DV/Wc/mxDE7XxdQJdgUI5PL1pR5Ptz5zqupgvYP/mAvjO/y1ua4QY7gFYcMJJ4vn0caRnFYukGJ38aTk64kZ4icle3xj2ytJMmZCiW66Wfa2C3JowM11BCn/9+T+E45SEBsEGEUkJExCGCZVGCQzChSFEEt6v/lb6CAAohGAjw5VtBFjBDFIpGdQ9JRZG5F9gCow1otIxe14fx+zbjrJcBl47XiS4byyC2eddz6mN3M1aKL4pXCC6Xlmnq+gqlghmakZsQgCmnwS8ICdIiEL1LFXrYHeDCIgHNm5uEDJ3A4Z3hrOOUJhwaa6JiGzZrQNqeOsxeX2gANrlhQz9djGVfnXs7yy5her0HaOvAH1kXv0pRH7vBdQ9Xk2qidTEXM7oD1MFkWAKzPOX2Ys04+makanZl5QnOYfcp/HYycNcfDGqzIs/wVBFdKlVH5YMM/hNjus9pr0LHFc8B7lVNev32zXZN7j02DbaObfpX5qre6MxPP0PrpIohE21GEIlEsgndiwtp5cw7OXRFoxKpVMMK4apURCnmEBwCMSAwKCmqhW2PMnPnjghpdxnC823JJT67yzkqwH7bJinv/BWMdtVSDOQqN5shVlo3fG9u6lL9A9GdbyX9e02LB3r0TaNafnvaL7bDQ2Y8aFdpMjr5OhoScPFnRHBrafO+rjdpH7tqZiAjGZN2+KObBUzPqf9VQcrY7d/T5dvQSZ3SBmet9jU10lj76+PFRbpz1jmfbtz/r+JxAILh5mzt5lFnsV1WbhODvy/vXfJ/qBySVZBXRLIEgT/z3NTwtJYA/gGiKhaR3dKGG4kmrMrU7FxKFVgg1adRKzQaYU4tW49QGw8Kkwc2bpKKoKfQbAWrSbp+aLVlELfptpjZYdjzSqD+k+0W+2uW/q2nSNSBtlBDkHyhEC8O8rtgCUrc/RghbPBeyzgsHaaJZZppvgvGmmK9Ic+XFF5gh3RNN+11BEH+BBNGE6dJWY1CRueaZ8q6aHySG8H3A00K/tRfGIQHMrTQN5kSSjx0zacJ0AAA=");
 
 export default Bagel;

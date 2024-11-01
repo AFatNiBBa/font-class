@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tachograph-digital` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tachograph-digital?s=sharp-thin tachograph-digital}
  * @preview ![tachograph-digital](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tachograph-digital.svg)
  */
-const TachographDigital: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 80l0 352 608 0 0-352L16 80zM0 64l16 0 608 0 16 0 0 16 0 352 0 16-16 0L16 448 0 448l0-16L0 80 0 64zm80 80l0 96 256 0 0-96L80 144zM64 128l16 0 256 0 16 0 0 16 0 96 0 16-16 0L80 256l-16 0 0-16 0-96 0-16zm0 240l8 0 272 0 8 0 0 16-8 0L72 384l-8 0 0-16zm320 0l8 0 176 0 8 0 0 16-8 0-176 0-8 0 0-16zM96 288l0 32-32 0 0-32 32 0zm32 0l32 0 0 32-32 0 0-32zm96 0l0 32-32 0 0-32 32 0zm32 0l32 0 0 32-32 0 0-32zm96 32l-32 0 0-32 32 0 0 32z" />
-    </Icon>
-);
+const TachographDigital = createIcon("tachograph-digital", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABfQAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCNgsGAAE2AiQDCAQgBYMtBzkbPwXIHgVuc/PUcITLIx2fTpEoHv5/v//9XPuc+wacg8uGJGLaaZboVLFE01DxCl8saTLXqjYCxEL7+b+mXgYd4Oe7Ez47s15EagNnPp/AhMobJzAbzgY0MZ65aURIHES5TeVFg5QOW4a19Axl/G2XBul+gtvpTeO7rm6RFAWAaAOA6WtXLvbqS3yJeP//xHsLERDTQRYoUKCHAJMUAj2UMkql4Ev8/7/8B2YCiCZgksdLtMRF3ACUIKnLsnlbtvHMutGyXFM3qo2pSK2jiFad6qq1SCGqVhFFxGqhZUS02EItEVALKAImo/O2dFCtqqrYIVTJul70I2rvajLlVOj7sIfvYw+tj26DDyv/r821bNMmcCzHly7dGgzDM9om9ytTtVmXNtMK/Kr2vE3vpRltWc5EbCNyemtv/h0QCM7t+PBga+tJf1kC317+8l0eTNdSaCaBoBj0/yCb0jUQeQCNFGf0VT4okJxUw6u2cEeAUCFA0qQSoNBdGwFKlYECNPQyWoAmlZUKUTYXOtjcQNLCcVAY4zIodfAINEzyut6kQxQ2aFuQ/QWYb86Izt6Vhw8ZlifkY0d1zMoMmxPzdazfGT/Rn07a46gjTtltl/1ODdIJi1unHTZHE2f7omy4IYbJJsiP+6+H19jthJP2O+pI3Gai/H6pnzP6/P6UTKA5wv4kEandqe079x39GyI02LABAA==");
 
 export default TachographDigital;

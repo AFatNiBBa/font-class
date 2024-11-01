@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hood-cloak` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hood-cloak?s=thin hood-cloak}
  * @preview ![hood-cloak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hood-cloak.svg)
  */
-const HoodCloak: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M20.6 468.8s0 0 0 0l.2-.2 .2-.2s0 0 0 0c0 0 0 0 .1-.1C65.9 420.5 80 346.7 80 288l0-32C80 123.5 187.5 16 320 16l112 0c3.3 0 6.3 2 7.5 5.1c1 2.5 .6 5.4-1 7.6c-3.4 4.7-8.1 9.3-14.1 14.4c-1.9 1.6-4.1 3.4-6.5 5.4c0 0 0 0 0 0c-4.2 3.4-8.7 7.2-12.5 10.6c-3.3 3-5.3 7.4-5.2 11.9s1.9 8.8 5.3 11.9C452.2 124.7 496 190.3 496 288c0 58.6 14 132.4 59 180.3c0 0 0 0 0 0l.1 .1 .3 .3s0 0 0 0s0 0 0 0c4.5 4.6 5.8 11.4 3.4 17.3c-2.5 6-8.3 9.9-14.8 9.9l-128 0 0-176c0-70.7-57.3-128-128-128s-128 57.3-128 128l0 176L32 496c-6.5 0-12.3-3.9-14.8-9.9c-2.5-5.9-1.1-12.8 3.4-17.4zM176 496l0-176c0-61.9 50.1-112 112-112s112 50.1 112 112l0 176-224 0zm397.6-3.8c4.9-11.9 2.2-25.6-6.8-34.7c0 0 0 0 0 0l-.1-.1C525.8 413.8 512 345 512 288c0-94.9-39.4-161.6-84.2-206.2c-3.9-3.8-7.7-7.5-11.7-11c3.5-3.2 7.4-6.3 11.3-9.5l1.1-.9c8.4-6.9 17-14 23-22.4c4.7-6.5 5.9-15 2.9-22.7C450.8 6.1 441.9 0 432 0L320 0C178.6 0 64 114.6 64 256l0 32c0 57.1-13.9 125.9-54.6 169.4l-.2 .2c-9 9.1-11.7 22.8-6.8 34.7c5 12 16.6 19.8 29.6 19.8l512 0c12.9 0 24.6-7.8 29.6-19.8z" />
-    </Icon>
-);
+const HoodCloak = createIcon("hood-cloak", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABnQAAALXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDFgsGAAE2AiQDCAQgBYMtBzEblwXIvgzYRMYT91VPEemgjGdRbsoyJSnG6fqGzUd7seffCB70qJ+XZJWzcjY7qLI+6A5SK9RLQDs/sKTuiko8CLJ0dwMZwUAHOvExrwNCvvSBh8xnkqikYuRm9xieP08osTR8/IHCsnfsUxxYYOnk/i8IcggCjhKO4/IL4L0f4P3/NQtcbb0C3p//a+rF86MD/CBwUXjPGyOBqlc8gT2PovHaEvTAZgP2qWxw3uQDzg71R8jiW5cSkmvJjjOuV/Gr4hiJNAUQNQEwcv7sqd54+VPEe5UR79kIiFGgEEjh7qYCDJGK5gGZAplM8BNYOfsf2AggSvn3TUCGEjyKFwAZSKRZtryGUCXVsnkqkHc8HGAQEpPmkKH13c2DL3tXk7eTBk/Uu1T3IiCHiWynQ+nFnk/OzfudQw9vQZEL3pQTcdew18atoy1EHsfrX24wl0Dc3vnh/s92fLCZyFffyGbtY81vi6dXOexy/SsNArFBJHz96ufK+WzKPscDiENNb3YRFxtda1uD+5u0eqjmQ7+7924BBCB746MoGPX/jLJDSZt081atGMKaOWPK8DHTzr0mVL3fMCDAuo4T7vaEkj6jc8boPiV3SD6x47qvTzzxRI1/Pe6nELZ/gPBT13UxbteROLd6jwa+9h1r6V823uGnUUPjC12+V3/CD7Y7ASOOAIHgGy/6M17935uAX+pve+N/GpsUKJeAIO1SiSWJOQGdKE5Zj31awU8CEvdK+X2t6rIAIUeARKlcgFQTNQXI5DoLUKK5vgKUys2WiqxCqGtpBRJV7QSpfvaDTF1PgxJDvGmUqhv8zdJfHP3HmDCuiY6dVfTs1qMYVIyGCuYzJPXo4GKx2GEfL3WEe62z3TZ7rLXGRnsa+C5T7b22GjeFjfVFhZ666aEwSLE5uSvMw8Yuu20cprdDphmsOF7qYN90c0c4jwTQ62mTfHsk+Ybt29d0XT3bV24GAAAA");
 
 export default HoodCloak;

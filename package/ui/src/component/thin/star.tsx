@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star?s=thin star}
  * @preview ![star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/star.svg)
  */
-const Star: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M212.1 161.8L280.7 20.5c1.3-2.8 4.1-4.5 7.2-4.5s5.9 1.7 7.2 4.5l68.6 141.3c2.3 4.8 6.8 8.1 12.1 8.8L529 193.3c3 .4 5.5 2.5 6.4 5.4s.2 6-2 8.2L422.4 317c-3.7 3.7-5.4 8.9-4.5 14l26.2 155.6c.5 3-.7 6-3.2 7.8s-5.8 2-8.4 .6l-137-73.2c-4.7-2.5-10.4-2.5-15.1 0L143.4 495c-2.7 1.4-6 1.2-8.4-.6s-3.7-4.8-3.2-7.8L158 331c.9-5.1-.8-10.4-4.5-14L42.4 206.9 31.2 218.1l11.2-11.3c-2.2-2.1-2.9-5.3-2-8.2s3.4-5 6.4-5.4l153.2-22.6c5.2-.8 9.7-4.1 12.1-8.8zM424.9 509.1c8.1 4.3 17.9 3.7 25.3-1.7s11.2-14.5 9.7-23.5L433.6 328.4 544.8 218.2c6.5-6.4 8.7-15.9 5.9-24.5s-10.3-14.9-19.3-16.3L378.1 154.8 309.5 13.5C305.5 5.2 297.1 0 287.9 0s-17.6 5.2-21.6 13.5L197.7 154.8 44.5 177.5c-9 1.3-16.5 7.6-19.3 16.3s-.5 18.1 5.9 24.5L142.2 328.4 116 483.9c-1.5 9 2.2 18.1 9.7 23.5s17.3 6 25.3 1.7l137-73.2 137 73.2z" />
-    </Icon>
-);
+const Star = createIcon("star", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABegAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCGwsGAAE2AiQDCAQgBYMtBysbFgXIjpQuZyQRPG8XVe93rzzYda+kSEIE+BBPemJ0zu4yKBXiyRBE/Ylrnr81PWCTPlLHtDHSNso8n8CDLpKbJjQbziaKW9x2FUQ0xBESF8jjW1s1ID1NX+F2+ND4VQcXSLIMQLQGwPQVSxb7+Kf4KeKr+hvEVxYiIGaAQiBDhs4CTJIJdJYrkMsFP0W9Lv4DCwKIhhIwsXP64E6cB+QgSXk+rl+zBi3y5Xxj0zUrlq543Ox6eVk8xNmHpaXxoK0qPagsj0cjRuVRdUU8ZpeiGo+qjzPVVQ+rU2FRfyT5Y37lgeSlUboqPKA/PHRuWY9a69rvvtr+la+7zLqRpkoNGpTKZ4w59KRsWt5u5P59Zjfq8Fw2YsTwK/McOcK04b2eTVc3mn1gn5qanllp2tGaQ2O+Wf3J2293YfyN9NPJi39ZqJx5w96fftpbVT6p+Hnx5KfL/KbW5Uz6k+bJXgaB4K8zr7bZ0GrS/42bJfDLu39eP16uv58GphoaSyDIBtUHWZumKSvvRApIsimO64G/SSDZKMHv2twjAUJTBEgaaipAppPWAuSaGihAA12NFqChppbIRN5EKFnXE0lzh4jMGOeIXMlrRAOTfJptqBQZ1EkwI/30pc8ZA7OjiuFDhhUTis2GVgYkwS5OLE77/Y7Lgf74pO0O2O+obbba5egIP2xx4Zh95uxhs/1QYbghhilMUNxuPz+83DaHHbHLAfv9MhMV78f7Ob4/vj+OJQnnCHVJIlL+WQAAAAA=");
 
 export default Star;

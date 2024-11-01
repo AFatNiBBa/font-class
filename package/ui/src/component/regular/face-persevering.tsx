@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-persevering` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-persevering?s=regular face-persevering}
  * @preview ![face-persevering](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-persevering.svg)
  */
-const FacePersevering: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM294.5 408.4c-7.4-7.9-20-16.4-38.5-16.4s-31.1 8.5-38.5 16.4c-9 9.7-24.2 10.2-33.9 1.2s-10.2-24.2-1.2-33.9C196.7 360.3 221.4 344 256 344s59.3 16.3 73.5 31.6c9 9.7 8.5 24.9-1.2 33.9s-24.9 8.5-33.9-1.2zM211.3 100.7c6.2 6.2 6.2 16.4 0 22.6l-7.4 7.4c-23.6 23.6-53.9 39.2-86.8 44.7l-2.5 .4c-8.7 1.5-17-4.4-18.4-13.2s4.4-17 13.2-18.4l2.5-.4c26.3-4.4 50.6-16.9 69.5-35.7l7.4-7.4c6.2-6.2 16.4-6.2 22.6 0zm89.4 22.6c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0l7.4 7.4c18.9 18.9 43.2 31.4 69.5 35.7l2.5 .4c8.7 1.5 14.6 9.7 13.2 18.4s-9.7 14.6-18.4 13.2l-2.5-.4c-32.9-5.5-63.3-21.1-86.8-44.7l-7.4-7.4zM133.5 210.7l89.9 47.9c10.7 5.7 10.7 21.1 0 26.8l-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6l36-43.2-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6c0-9 9.6-14.7 17.5-10.5zM396 221.1c0 2.8-1 5.5-2.8 7.6l-36 43.2 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5l-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8l89.9-47.9c7.9-4.2 17.5 1.5 17.5 10.5z" />
-    </Icon>
-);
+const FacePersevering = createIcon("face-persevering", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABsQAAALRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDJgsGAAE2AiQDCAQgBYMtBzcbrQXInoWx22KIQoczT8Pnll9MEQ/fz32e+5L85TKBLGvWu7ZIwhA6IBj/p7a6tbn/MXc3Mf0TXLXReN28mWmjLhQiPfFVC6wzUnLeTX/vzv/5p3n+jD7KnrpxTIzmFOg80R9PK5EssEwDoFgbnDfhEENTSD5DHudxUkG6lD7jhPWm8VdXgyRFBgDRBgCYuzknDW6qUY14LyM+WQ4ExFyAPhAZMvSAYAaqQA80fYBcLqhGWbL/wD4ggKiAc1sCOepwBy+p/yKSmpym7S6XyzRqbsGn5TcUnJqWURhbyz7WH17yfsRNaB65mfSh4cjyT6PvYOPv/Ij71d8ajqz8MvfFxt9znq/4XH941dd5Lzdtmxi0IFuwn9FOOiw7LNotyqdVC/bF5zrI8PGCDnG204SSG8fDlXihY975zpNyOV6byI3xDmMKBb6d1Sl3Y37euOYOuaPa2NI5AmdFTCmpqiEJxZnRQTE1H1kFwanyHf2ui9b++n7e/dm3Z12B240NAZO5jVtPg1gf6/6xsI6uD27nz799ANtC1I+ePOjC5u7uvKDR9vyGqqEhldP6TbWxVfa4yzMNYjq3AdvMVr8yhz4fsnqtqGMLFVr9Cqcyv1rN/N6Hcv6epc1bPNxof11dD7pN9bxsZmGeBsHMRU32vGp6Hc1SqmUXeeitHUNs9ZD9OBAIzt/+x9Yz/tU2UAD+PPx//DVSnqTrqJVAkI0oRyhNIBEAgBT9zAkCyRU1nFdtdF6AUI8ASUW9AJnuRBDk6g2HoNCLHwQV9dajipwNoYOyHCSN9oLMJAMg18E+KMzwnFZ0iGzb5bY87soxOb4MxR0jY909STDp7Ev5zZHR+yFktD2kn885wU6o16Fdrzq1mvSWkG5pRZ828X1wnA8ivLjzRAQjs0fX5fwSFco9JtPOzz9ECLK+76i/f7UT9Cgc0nF6kkQk0Ykx7/b7TKe/7vQDAA==");
 
 export default FacePersevering;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc-signal` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-signal?s=solid nfc-signal}
  * @preview ![nfc-signal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/nfc-signal.svg)
  */
-const NfcSignal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 131c-22.4 3.4-43.8 9.6-64 18.3L384 144c0-26.5-21.5-48-48-48l-80 0c-26.5 0-48 21.5-48 48l0 66.7c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48s48-21.5 48-48c0-20.9-13.4-38.7-32-45.3l0-66.7c0-8.8 7.2-16 16-16l80 0c8.8 0 16 7.2 16 16l0 117.7c-47.2 28.4-84.8 71.2-106.7 122.3L112 384c-8.8 0-16-7.2-16-16l0-224c0-8.8 7.2-16 16-16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-26.5 0-48 21.5-48 48l0 224c0 26.5 21.5 48 48 48l121.9 0c-5.8 20.4-9.2 41.9-9.8 64L64 480c-35.3 0-64-28.7-64-64L0 96zM488 256c13.3 0 24 10.7 24 24s-10.7 24-24 24c-101.6 0-184 82.4-184 184c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-128.1 103.9-232 232-232zm-8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm32-72c0 13.3-10.7 24-24 24c-48.6 0-88 39.4-88 88c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-75.1 60.9-136 136-136c13.3 0 24 10.7 24 24z" />
-    </Icon>
-);
+const NfcSignal = createIcon("nfc-signal", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABnwAAAKKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCdAsGAAE2AiQDCAQgBYMtBzEbdQXIngfZmeY0ulgwXJS3Eg//b/f1+9yqpqJRrY4GRETjQwjlDGb84zd4c8f+wfUFyq5IAlJFvVcI/t+fep7zUAC/UVBexqSpCzf4nOcRKODYXl/gtYDVtAJWa3OocA5F/SIicjz1POKwPTRM3SGPV/AZUEa6E70PuH6tNP6TnSGpygBEIwDGzZ891Zs/x88R75WeI97zIiDGgUIgQ4aOAoyUCXSUK5DLBT9HqYT/wIIAopysKoEc5bgbjwNykOR5vqSlpammrC6fV1NWnd29RTw91cWjy5NZPNsj7gq3jdXxiLsliUfanf7W4fF4e71vjLg91sStXnw+pzpuCww3DN5JA5RyR8OVx9anSrby0XxH/3zGx3PaGx4rXw145n1v/pzLPuJWcKL1FnIp3AZPxtvp/Dv6s/MTzXYe3t84/e9sf0o99Xt/3fu+6iaaHjg80NRUfRq0fr9W9sH3fWfo+/0H2QTfNRKN243fTVD/8ww/1+8zpUf71LOQflZS0WnQNjDtDA655oFd28f+db+2tplTY8CAmNphXjX2t99Gjx6r4g1xAbhQf8bgdpnSNnNslnOPU7V23g3lcSAQrJw5ffHyhpH/V9IEfn35+jNSejNJTwEqJRBkPUs9LUkgEQCAFPu0JwgkN8vJp9a6TYBQjQBJuWoBMh00CpCr1kOAMp0NEqBctdkykVcJrZZOlNTaiTKDHUW5Vs+gMiO95ZdrjSxE2QBjfxCTJjM2aVPRr3ffYnjxGhtc1NHHfEThVrvuq7Vu6aZ1tttmj7XW2GgPEbtMjfbaarKFT/JFhX5666swXLGcraV5BE3azfQzv75khGK/2dU+u7tbMhIh7e9okohUvW3d6l6fHw==");
 
 export default NfcSignal;

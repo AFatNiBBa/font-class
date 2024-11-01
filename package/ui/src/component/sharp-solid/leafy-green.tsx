@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `leafy-green` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leafy-green?s=sharp-solid leafy-green}
  * @preview ![leafy-green](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/leafy-green.svg)
  */
-const LeafyGreen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M216.5 26.2C181.6-8.7 125-8.7 90.1 26.2c-15.4 15.4-24 35.1-25.8 55.3C49 83.9 34.3 91.1 22.4 102.9c-28.3 28.3-29.8 73.3-4.5 103.4l0 72.6L72.1 333l0 80.4L96 389.5l0-98.7 48-48 0-96 66.1-66.1c2.8-15.4 8.4-29.8 16.2-42.7c-2.9-4.1-6.2-8-9.9-11.7zM549.9 183.9C566.2 164.4 576 139.4 576 112C576 50.1 525.9 0 464 0c-27.4 0-52.4 9.8-71.9 26.1C376.3 14.7 357 8 336 8c-50.2 0-91.4 38.5-95.6 87.6L176 160l0 96-48 48 0 98.7L89.4 441.4 66.7 464 112 509.3l22.6-22.6L173.3 448l98.7 0 48-48 96 0 64.4-64.4c49.1-4.2 87.6-45.4 87.6-95.6c0-21-6.7-40.3-18.1-56.1zM486.6 112l-11.3 11.3L390.6 208l57.4 0 16 0 0 32-16 0-89.4 0-59.3 59.3-48 48L240 358.6 217.4 336l11.3-11.3L272 281.4l0-89.4 0-16 32 0 0 16 0 57.4 36.7-36.7 112-112L464 89.4 486.6 112z" />
-    </Icon>
-);
+const LeafyGreen = createIcon("leafy-green", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABgwAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCQAsGAAE2AiQDCAQgBYMtBzIbQgXInoNNWZM3iiRJ9vT3ztzoCL4fa/ve/3eHWRONR9LkIYqW5I1I82YleCNkSmGoWLWWPQ8Yhg0AkYsiC6j4XiasCMsDChMZm63c94KEn7jm+Z8//XkFpsCjRWEvkosaM88nMLGkKJqPd7PhbKK43bmlSEN7JEnKEo5vjtMZaryLpyElX0TPgIf0ofEPc9OQOgsAYgAAsHlQkIXzH/oheuKHQPwgAwTEJoAphIKCMQRWiAXGSEyBqgp+iXP7H8iAAKIJfmKCigauwC2AClKpEgcfN7VUW1KslqoqBBXRjOuu2aahLLmBtghuE1HM5hJatVwwqdPYbrgLwQeuggrYu1a5hFjhulIUeVAMqbMFdOyxtG3FvdjI1KiQ1GpElyoX8kbkTqanbMIYQrNLhtdysxf0hF+75+ZnvGxxBGa/W3zq7ZK0tJzTUCTXsAYcteI2EfIVVJS1Pq/U/d9LH6td3A3iqMXRoEmx5+w3iPUF12MyXXl0yhkfXlCIsAEGvaMzcGg0O6NRRg+WCpOg59g/DAgEF6/JtTW6kX8KtQjwd/a33MU5vxLFigRAhwRBmeOeqKQs50CQgIB8xjDshS8ipEti/K49HhEIXQiQmroEKEbpIVB1aSPQMCEIgaYuO8SiKhFGVDU89TjFi2VTeDViH29YcZdrGgmxImpqpH0Ds5N7IGkV8/P2ZeFs2lB13VJoMYItO67DbsANt6JZj26DmjRqM9hB/bKKQ7okS2CSH2L8ePPFhGPb7cf1xZr0G9CmR3dcJgK7n3I1LI93Q1+EZeftSUmkurOprnnM6/ECAAAA");
 
 export default LeafyGreen;

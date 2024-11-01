@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-xmark?s=duotone square-xmark}
  * @preview ![square-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-xmark.svg)
  */
-const SquareXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM136.1 317.7c.1-.7 .2-1.5 .3-2.3c.3-1.5 .7-3 1.3-4.4c1.2-2.9 2.9-5.6 5.3-7.9c15.7-15.7 31.4-31.4 47-47c-15.7-15.7-31.3-31.3-47-47c-9.4-9.4-9.4-24.6 0-33.9c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7c15.7 15.7 31.4 31.4 47 47c15.7-15.7 31.4-31.4 47-47c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7c9.4 9.4 9.4 24.6 0 33.9c-15.7 15.7-31.3 31.4-47 47c15.7 15.7 31.4 31.4 47 47c4.7 4.7 7 10.8 7 17s-2.3 12.3-7 17s-10.8 7-17 7s-12.3-2.3-17-7l-47-47c-15.7 15.7-31.3 31.3-47 47c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7c-2.3-2.3-4.1-5.1-5.3-7.9c-.6-1.4-1-2.9-1.3-4.4c-.2-1.1-.4-2.3-.3-2.2c-.1-1.2-.1-1.2-.1-2.4c0-1.5 .1-1.9 .1-2.3z" />
-        <path d="M177 175c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47z" />
-    </Icon>
-);
+const SquareXmark = createIcon("square-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABnQAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCRwsIAAE2AiQDCgQgBYMtB1QbbQXIjsN0azwn4pRPscbD/8/1/j43mVltypQCo2oVEjpUBApV1XOlT8KwJdDj162fR2RjY5UkBkkon1++GVYpN//X1Au6pgMsO9d/UYvypgrufD6BPU/cLNpmA5rQcIY4BbddFFEJiS80LpDHs+ycCulu+go3o/8BjF+1c46kfgYgmgJg6sK5c9T9FD+l+Kr2jvjKbATENFAKZMjQUYAJMoGOciVyueCnVKvxU9RqJQFEVfTqDFRRwUVcB+QgCSnPy/YzG1Qa5QuiLcXSpz1GOx8upOjrHcKHaLfnCAFW4y44U+kjd/venoRn/V8HjXv9pJfF4z6nbTwdEdp3uw3d8fpLv9Z6degNrra6fUdKHZltS0uG1VY+p8Li4kprjtOH2Y2RKQ7q9rKp/N71qw1fedWU6Lvv/vCHAHCFNxz7Vk1J8otmze5Pcb+Eipr+gfx9JIjIhh/YOGNGs27ffbehKDYc3KCVGtDYwYN/1HKFKjT2h40H6jd3axlIUkQABIKRlyqLVjaZ8H89k8Av7//8V/107SfUpZeoJ4EgG1AbYFnUgZIG8PspDugWv9MIZFZKwD+1oVsChAIBkqpCgEwHTQXIFfoLUNHZSAGqCnNlIq8vtLS855KGdnOZUY5zuZbechUTfEhWtQwNRg1K2r9g9qwxOnNROXTQkHJcuVnT6vhS/Nnx5Wl/nwO6py/dY4OddthnvXU212DE7jEns992s/aYmb6oNNQgQ5TGKW83n9sLeHKPvTavm/fnGa98P9jHgf3hfelyEmDYZyzJiBRZSxcdGHgIue6BuO5vvWC6YQAA");
 
 export default SquareXmark;

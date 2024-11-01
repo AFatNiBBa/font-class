@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-xmark?s=duotone toilet-paper-xmark}
  * @preview ![toilet-paper-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/toilet-paper-xmark.svg)
  */
-const ToiletPaperXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 192C0 298 43 384 96 384l32 0 32 0 256 0c-52.4 0-94.9-83.9-96-188.1c0-1.3 0-2.6 0-3.9C320 86 363 0 416 0L96 0C43 0 0 86 0 192zm103-65c9.4-9.4 24.6-9.4 33.9 0l31 31 31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-31-31-31 31c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9z" />
-        <path d="M416 384c-52.4 0-94.9-83.8-96-188.1c0-1.3 0-2.6 0-3.9C320 86 363 0 416 0s96 86 96 192l0 272c0 26.5-21.5 48-48 48l-256 0c-26.5 0-48-21.5-48-48l0-80 256 0zm0-128c17.7 0 32-28.7 32-64s-14.3-64-32-64s-32 28.7-32 64s14.3 64 32 64z" />
-    </Icon>
-);
+const ToiletPaperXmark = createIcon("toilet-paper-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABlwAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCMwsIAAE2AiQDCgQgBYMtB2AbZQUR1ZqzyH4kxsasHldxYpC61eBYr2oVv8TDk13fn1vVbxZQL8yIQgp9IxKizT6EVIgnAJL04X/imudfRQ9YAJzND1L++Ms4b7Cdp6XON3yQCc10BjZrZ0/+B5HFIIkIGSZu2DyhiE/yRTWke9J7uOL/BzB+1cZFkjoZQDQGwOQlC2a581P8lOK96kviPTMREFNAKZCR0V6AcbJAe4UShULwU6rup6heCiAqPJ65FfWGY7gMKECSpKLo0qxd53o1DYrFpu66G14ZEvHC4nNxLr4c+uLIlwc/vyjF3c1vdqsfT7a83TaiQdzVLuK+ONf23pY3W9/tbJt7WuTPB0c8P7xeg8UKn68fLw16buGSp7r3jr4RRfe07hW9Q/R4jz7RK0T3tusbfaLOLs82fvb3zu9tfu+hifvweMyJiDDviSfOnXviCfMa5/e/G8Sg797Pczn70TnOtWt37txHSeGQyQDZKst9duNJpLR5UoMGf/hDRD/6CP1D0/J1IBC83fH3Lmsa93/tegn88saf/7ofUvVOkp5FbQkEuV+138oEEgEASHFYl8TDCGTjJOFT67stQKiLAElFXQGydhoLUKirrwA1OhouQEVdC2RR1BGaW5W5pL59XDbCKa7Q3ItcjXHeTCuaR4agAiDlB5ipZmhg+q5y8IBB5ZiyW0kqqiQ7P7acDnsdlr7edNPmPbsPbtq47WDB7p9VHNo1Y8RM/2I5eMCgcky53bq+vHjT/gPb9ux2i4wtzye9Do9H96b9JMCQy3uUiRS57cE923ZuOtgf7FH/o5B1+wN6VPu2/n4BAAAA");
 
 export default ToiletPaperXmark;

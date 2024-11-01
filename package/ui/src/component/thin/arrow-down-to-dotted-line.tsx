@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-to-dotted-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-to-dotted-line?s=thin arrow-down-to-dotted-line}
  * @preview ![arrow-down-to-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-down-to-dotted-line.svg)
  */
-const ArrowDownToDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M365.7 213.7l-136 136c-3.1 3.1-8.2 3.1-11.3 0l-136-136c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0L216 324.7 216 200l0-160c0-4.4 3.6-8 8-8s8 3.6 8 8l0 160 0 124.7L354.3 202.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3zM16 448a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm112-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm96 0a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm96 0a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm80 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const ArrowDownToDottedLine = createIcon("arrow-down-to-dotted-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABeQAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBawsGAAE2AiQDCAQgBYMtB0Ab+wTIHgfOeSsgpavmRIsZvOSP8fC1H/tz9y1iliFpwrtJtelioRJp8KVkD5kS3vwmIvfcz7tV6+zep3VpJFWFDbB0PCqQ2ZJZ9WH6+3n+q+gDPqOP8nvdXgGUeT6BnWfwqM/Hs4FNFDc4b/IBd4f2C+R4qIlLup8A1+5L4zWlM0iKAkA0AwCLu4k4/MooI+7+PwJxJwoExBLAMESBAv0QzGAL9OMYBrIsKOP/f/YfSCCAqOSTyfUZ1dgGDgDIIKnMebgGxOsqGvKOOld7uJVJXjrTceu6d6QCLrntunYAit3ohK/tVZG+tN86M6kIO4utPTW9mXk2P9+OaDN6eeU7NzdlkH1Kntrt4eSBt7fHezipi11xqKj0srEsGyP8qEmtOu8J/2oLXgcCwXFK9FaafF+rxQm8eP7+l3pf8/8P8UoD1RIIirH/Y4rxo6CIFwQApLjETEwRkSw7VZ9a7waCUIsASaVaAQp9FBBktUYhqDDIDkGlWpvYItcI7UoVSOqdgMK0E8jafUGFGf9kpfZgf13qt6H+3GUKNCH/JDIbTOSh0ZJC+2BkPeqlxS7VutOihiehbWJsqaWpZ9ng5+KZlZHAFOf3Q8TMwIR40Obq3cNpLXMLPRNjO44XHR9TWU93V0Mviy847kySiNSzfzqfbPTvXEi/PMqSy2Wrqf8MAQAA");
 
 export default ArrowDownToDottedLine;

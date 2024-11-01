@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paint-roller` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paint-roller?s=light paint-roller}
  * @preview ![paint-roller](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/paint-roller.svg)
  */
-const PaintRoller: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 32c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32L64 128c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32l288 0zm64 32c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 96c0 35.3 28.7 64 64 64l288 0c35.3 0 64-28.7 64-64l0-32zM240 352c8.8 0 16 7.2 16 16l0 96c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16l32 0zm-32-32c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l0-32c0-17.7 14.3-32 32-32l176 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64l0 32c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-176 0c-35.3 0-64 28.7-64 64l0 32z" />
-    </Icon>
-);
+const PaintRoller = createIcon("paint-roller", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABjgAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCSwsGAAE2AiQDCAQgBYMtBzMbTgXIjsK2eXNkMWXKtRySB9YISWYJ6vdD9+6/AJFOVNJWlV2njmXiqlmDIkDdChsQpmyjo7//Meb+m5j+iWtbMmmCSqORAqFz9DVa4pi45vmnPRVIkT9ahz5ID6jjfAITSUvwAUWBzXQCtu4ILodvGzY8HZ9EQ0zKpLGkcRqdocQPzBGT9wXLuMofGutGfJJKBSC6EYBdh6cTOv/F34jl+odYthcJiN0I04AKFcYBbCUUGCcyjRRF8DfqGv8DGQUQjeiVExQ04gKuAgpIpZTRUV1bKe4oh9oaWo9cNAdukzhtuqVojwuWO4g4Y72r7NjzIB74EG7Hq+g7G9yPvQ914G3iozNWt81wy9SKO5bAXWtb/JUpcMumzLdDbaj1boYHljvhEKvNUY0H8Q9huGg+ZLWG7uX/oPvwN7N8Wrb4VHOOnOuc9mZYWSt6UM8zOF89PQqm4oqv3r+aJZq/03hbnf1JVqolwpWf2WlKLeIe89uK2V2XRP9O7QKMIBCsDe5bX+zautHcluD/9/8N/hmpzyk/EM0SBNVcnbRLkAQAIOMUfxIC6ayCrrXdHQFCKwKkRq0CVMboABStZgE0mFQC0KjVfkJRWoR++06ndkfpyhYfdNHvm26w1W/SqD+E2SjlkvQYTB8LjJZxLp3lOg/rmpxgQp1v8LQffV9fDHbSyYN7r44OrryCP5vkb+6MLWzki1hOWharY3drqS9Inr240lX/Ig0cH0e926NjEAkQ77yalES2f7ZrpK5UcHwG");
 
 export default PaintRoller;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-bill` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill?s=solid money-bill}
  * @preview ![money-bill](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/money-bill.svg)
  */
-const MoneyBill: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm64 320l-64 0 0-64c35.3 0 64 28.7 64 64zM64 192l0-64 64 0c0 35.3-28.7 64-64 64zM448 384c0-35.3 28.7-64 64-64l0 64-64 0zm64-192c-35.3 0-64-28.7-64-64l64 0 0 64zM288 160a96 96 0 1 1 0 192 96 96 0 1 1 0-192z" />
-    </Icon>
-);
+const MoneyBill = createIcon("money-bill", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABegAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCBwsGAAE2AiQDCAQgBYMtBzEbCAURVZpVyH4kxo6RHRpj1r5IxC9JcyQevl97Pfft5k+yP+Eyp7ZVrDtVTBLQASlWCCQckEVFLgEAAbusMKHDHxuLy14faI/5v+bzs6YD/EaHFE3VINceyxbY8wlu3gSzen5AE+Opm1KPFhGkhyJTinNllB1njm9nyON9tkEFaXd6h231ReO79jaQVGUAoh4AIyeMGe3Rl/gS8bblunhrFAJiJOgmkCFDJwGGyAQ6yXVDLhd8iZYW/g9EAFGicPJ4jkrMwwJADpJSnncotNSxXFGTj29fXEw51i/iVLsUu/uf7l0TJ5vPdsxiz4AzfaonFeUi4nj/0+3HhyjHrn6nes3a2xxxtq8oJpwYEHGmQzmM39Q74nj73da029XrWLGxz4kOe2Jtx719T5Z7nKk/87P7u/nvDF99qIGGgqKh4dAjhxqWN3z4iMRuxvCHk7lTVz/sKuKOMOLAxeh59HPXDlOZ+vxF+/Yvnk+d2iH38O9AILh4ZvvTGXVD/lSWE/h25/f/8WAakc6gUgJBNrBl4NQ0Ang3aAUpVujhtBhIpikBetZqOwQIBQIkJYUAmY7qBcgVmgWo0MUgAUoKY2QirxJambZAUm0xyAy2EuRauQoqDPEyLmkVGdY4pHC/esncW8gdoswKDI89Fw8fpuxaXmvBLzMhnRT9sb9dO72GvOvs27xHuBYpswJDePguN8a7H2HOfHwfy/dR8PvLQzIVpawqSkImjUwlhT4AAAA=");
 
 export default MoneyBill;

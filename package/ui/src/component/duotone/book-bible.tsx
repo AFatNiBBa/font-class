@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-bible` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-bible?s=duotone book-bible}
  * @preview ![book-bible](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/book-bible.svg)
  */
-const BookBible: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 416c0-17.7 14.3-32 32-32l160 0 96 0 64 0 0 64-64 0-96 0L96 448c-17.7 0-32-14.3-32-32z" />
-        <path d="M0 96C0 43 43 0 96 0L384 0l32 0c17.7 0 32 14.3 32 32l0 320c0 17.7-14.3 32-32 32l-64 0-96 0L96 384c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0 96 0 64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0L96 512c-53 0-96-43-96-96L0 96zM208 80l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 112c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-112 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const BookBible = createIcon("book-bible", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABhgAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCGgsIAAE2AiQDCgQgBYMtB1AbPAXIjsQ4JvGLKEzi4X2bn+e+GVt/x3/ZfwGftgLmCpg6hgBW2S6SUwJV7gJUtFbaKGVqZ8j7/NSp57lwaCx9EMleNnV2YGnO8wr0fGM9ZL0KFSQENbBaO9MXg/oskvSE9BkWHcOmgTK+LB6pkT5Pf+At/w9g/GukRyT9CgAxCACrdm/fpt2JToo/ut8Qf9iKgFgNskCBAmMEWKoQGKOUUSoFndTt0oluNxNA1PHbFaCOGq7iFqAESRJlOX3y4Eatf7mrUauKL6ZEfLWgf+Nl38dS3Gt+VFW9L5ofudf3caPR4W2T7ya3xhW7hSo+aoqP+xoRmU+HRzCfDKsi+6i55T7bnzaCLXTtvBj2SUxoDWr9549TfzjS06J1L+cBz54NWIlYG757l5/kfK/V6ln598CZ/ERnQDagM9MVUrI4uqKFZ/bpDniGnlpppfaAQDDo83u9hwcu/b+nkcA/P3X6HXXb0U4t9EggKKZ2pzoQbYi2AACkuGVCtLFSoLBHEj611ycChAoBkrpKgMJogwQoVaYIUDPOPAHqKtsVouwnNB0sIOl1FRTmuw1KTV+DmqV+zuuaUcCOBw3/6UtZL6F15/Ks6TPz4jwcygKSWH+8JC87E2+5pUnmpVMuu+SGk04464ZAr9lW3XTR+hmyzhdls0w3U7ZYVk9ulV2UX3Pd2b6kP2WJvD+a6NZ88yRzmQSYfWADBZGiGAJKbdoDNaYBeLlZS1cV");
 
 export default BookBible;

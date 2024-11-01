@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shower` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shower?s=sharp-thin shower}
  * @preview ![shower](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shower.svg)
  */
-const Shower: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M8 32L0 32l0 8L0 472l0 8 16 0 0-8L16 48l84.7 0 53.7 53.7 1 1c-38.2 44-36.4 110.7 5.5 152.5l18.3 18.3-16.8 16.8-5.7 5.7L168 307.3l5.7-5.7 192-192 5.7-5.7L360 92.7l-5.7 5.7-16.8 16.8L319.2 96.8C277.4 55 210.7 53.1 166.7 91.3l-1-1-56-56L107.3 32 104 32 8 32zm318.2 94.5L190.5 262.2l-18.3-18.3c-37.5-37.5-37.5-98.3 0-135.8s98.3-37.5 135.8 0l18.3 18.3zM416 208a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-80 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm-48 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm80 48a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm-64 64a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM432 320a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80-80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const Shower = createIcon("shower", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABmAAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCZwsGAAE2AiQDCAQgBYMtBy0bZAXIjtMVMc2X5BIP/2/X9/vcqqfqMWpsR/AHGALMHGTs9VMh7gzZWB85ldtvpQJeaypalHP3n58b/zc+gYEWa7v8QWcDm+kEbEfzXhyEEC+04Qx5fGyvOtIT6TvcF3xo/KqzGyRZBiBaAWDWhjXLfFGNasS3tXeJby1BQMwCpUCGDN0EmCoT6CZXIpcLqlGrif/AkgCiXvSyBHJU8ACeA+QgacrzKS2bonylrnm+PnMsthSVQqQQlYjIqP2qaB+vdH9m2KDoG+1absfYEB2jA69TDI6Pxr830bW6ny/Wrd2wlu/zUlwd8nLlrkGD1j3a4eF2j7R/rOPaRGv8U0foOv9Kh20w1u17v9Tqpd99t/87Dc81Rklv0ECri1+wzjy8WTT91UZL87xkrc8/pyf8hZb3Px8X9JL9uP1WVM+n/ft/+j0RfN9606oW1WoLfMUKrQ3UhtgII4hfvoylvcaW64FAcPbZ+WN2tJz6f2MlgV8++vPyZ6RWTdJLaJRAkA2tDbU1gUQAAFKc1ztBILlDk+hdm3lUgFAgQFKvECDTVSsBcoUhAtTpYZwA9QprZCJvEtrZ1lJJM6eozHgXqVw7b1N1pvqyWK9dZLCpQZb2aJhrfh+at6scNXxkOblc7Kh1cFPs5pRyd2jgeTkxCDva74Tjztpnr0PO9sjTllXOOWb+GjHPF5VGGW6k0mTl6f5j1/pe8bQzDs37nd9mivL+3EDn1+cPwtEkEh2tIUlEqv95x30aAA==");
 
 export default Shower;

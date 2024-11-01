@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `broccoli` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/broccoli?s=sharp-regular broccoli}
  * @preview ![broccoli](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/broccoli.svg)
  */
-const Broccoli: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-37.2 0-69.5 21.2-85.4 52.1C162.2 49.4 153.3 48 144 48c-48.6 0-88 39.4-88 88l0 32.7C23 183.9 0 217.2 0 256c0 53 43 96 96 96l320 0c53 0 96-43 96-96c0-39.2-23.4-72.8-57-87.8l1-31.5 0-.4 0-.4c0-48.6-39.4-88-88-88c-9.3 0-18.2 1.4-26.6 4.1C325.5 21.2 293.2 0 256 0zM208.4 89.7C211.5 66.2 231.6 48 256 48s44.5 18.2 47.6 41.7l5.6 42.9 33.4-27.5c6.9-5.7 15.7-9.1 25.4-9.1c22 0 39.8 17.7 40 39.7l-1.6 49-.7 20.3 19.9 4c21.9 4.4 38.4 23.8 38.4 47c0 26.5-21.5 48-48 48L96 304c-26.5 0-48-21.5-48-48c0-22.8 15.9-42 37.3-46.8l18.7-4.2 0-19.2 0-49.8c0-22.1 17.9-40 40-40c9.7 0 18.5 3.4 25.4 9.1l33.4 27.5 5.6-42.9zM200 512l112 0c18.4-55.3 44.9-100.1 63.9-128L280 384l-24 48-24-48-95.9 0c19.1 27.9 45.5 72.7 63.9 128z" />
-    </Icon>
-);
+const Broccoli = createIcon("broccoli", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABjQAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCSQsGAAE2AiQDCAQgBYMtBy8bSAXIhqDKZWW1ZNKYQV46YH4BAMh7QDje+B8Qfmfk1HjjpQI+8qK8R08L0g94b7wCBd794MvABzbTAcDYp9tkHnZE4RcSEiQS8Xd4fD0gj5fiKk2km9MsruxvGr8YcR5JUwYgugGwwY7bbuP1L+PLiHrjGaJuKwTEBqAUyJBhXIC1ZQLjciVyueDLaDT4P7AkgGgmL04gRxMuxpWAHCRZnq+wdn+tqSPfodZU7HrJvIj7hm8onl78oXF6w01uX+LhVTriuaVmps4evWXBWMB3x5LVqpf0m6MPFNvdOhRxY+3SgetHJmItwpYh5sf1u93Uf9289nhg8IbRs4duHFosiAAV+EVrxNROtaJ251KPjRWxdCwbRdy8zMMTc6ru6rfp2QNmNV4bP5w9nn2rc/2LLsqnXfLD/xOtVXXW+s6qqtbJ/7+/tVMgv+ii9TvfenaPw8eX23m6Tr2vr16f3tKYm7p6Zird+q3kn5mFvdmiT5df3/KfLsp6Ft72z1x9VtTz4kxP101jtmy5/yh6/kdTvt3Lmc60l29NfQQEgls/fODUPbvW/q+1lsDXL/7xx/gaabyepAqtEgiypRtL2y2BRAAAUpxgToJAcrYMjrW7QYBQMOGkWQFnxnTDucJScJNJq1DB5dvKRN4m9NsdcNLuaDizqtPhXL+n4CZre89s1h9ZMjKpxPwFEze1wCZT5QrLLl+uWW4DyuYXVYdrlWFl8RNKYQlsdYAjHeE4+9vPwY4z0DG2cY53uE09cBMfVFrBspZXWlN5HL+u38H+jnGsgx3piDZmLeV9Y3En+PVLQE8Ed0VyeoIZqXWfY47cd98jDzsYAAA=");
 
 export default Broccoli;

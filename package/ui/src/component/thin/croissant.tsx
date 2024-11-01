@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `croissant` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/croissant?s=thin croissant}
  * @preview ![croissant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/croissant.svg)
  */
-const Croissant: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 288c0-17.7 1.7-34.9 4.9-51.7c2.4 1.6 5 2.9 7.7 4l194.1 78.2L82.4 427.7c-11 8.6-24.8 5.4-30.2-4C29.2 383.8 16 337.4 16 288zM7.4 222.9C2.6 243.8 0 265.6 0 288c0 52.3 14 101.4 38.4 143.7c9.3 16.2 28.9 20.8 45.3 13.7c25.7 27.9 57.4 50 93.2 64.3c3.9 1.5 8 2.3 12.2 2.3l5.4 0c16.3 0 29.6-13.2 29.6-29.6c0-1.6-.1-3.3-.4-4.9l-12.1-72.7c-2.3-13.9-3.5-28-3.5-42.1l0-12.6 34.1-26.5c18.9 2 38.1-4.5 51.9-18.4L305.3 294c13.9-13.9 20.4-33 18.4-51.9L350.2 208l12.6 0c14.1 0 28.2 1.2 42.1 3.5l72.7 12.1c1.6 .3 3.2 .4 4.9 .4c16.3 0 29.6-13.2 29.6-29.6l0-5.4c0-4.2-.7-8.3-2.3-12.2c-14.3-35.8-36.5-67.5-64.3-93.2c7.1-16.4 2.5-36-13.7-45.3C389.4 14 340.3 0 288 0c-22.4 0-44.2 2.6-65.1 7.4C215.6 2.7 207 0 197.9 0c-5 0-10 .8-14.6 2.5C99.6 33.2 33.2 99.6 2.5 183.3C.8 188 0 193 0 197.9c0 9.1 2.7 17.7 7.4 24.9zm228.9-202c16.7-3.2 34-4.9 51.7-4.9c49.4 0 95.8 13.2 135.7 36.2c9.4 5.4 12.5 19.2 4 30.2L318.5 222.7 240.3 28.6c-1.1-2.7-2.4-5.3-4-7.7zM223.6 477.6l-15.8 2.6c.1 .7 .2 1.5 .2 2.2c0 7.5-6.1 13.6-13.6 13.6l-5.4 0c-2.3 0-4.4-.4-6.2-1.1c-32.7-13.1-61.9-33.2-85.6-58.5L192 362.7l0 .1c0 15 1.2 29.9 3.7 44.7l12.1 72.7 15.8-2.6zM362.7 192l73.8-94.8c25.2 23.7 45.3 52.9 58.5 85.6c.7 1.8 1.1 3.9 1.1 6.2l0 5.4c0 7.5-6.1 13.6-13.6 13.6c-.7 0-1.5-.1-2.2-.2l-72.7-12.1c-14.8-2.5-29.7-3.7-44.7-3.7l-.1 0zM17.5 188.8c29.1-79.3 92-142.2 171.3-171.3c2.7-1 5.8-1.5 9.1-1.5c12.1 0 23 7.4 27.5 18.6l79.1 196.2c7.2 17.9 3 38.3-10.6 51.9L282.7 294c-13.6 13.6-34 17.8-51.9 10.6L34.6 225.5C23.4 221 16 210.1 16 197.9c0-3.3 .5-6.4 1.5-9.1z" />
-    </Icon>
-);
+const Croissant = createIcon("croissant", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABqAAAALhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDMQsGAAE2AiQDCAQgBYMtBzAbsQURVZs42cfKm7MkQUTv5s9eEiqBKtJ6avrEHZ6o+pf7NxlSrP/3p57nPBTAZxSUsXHp94wJtlbXeQUKOqaOZQUNdYLVtALW3dmmcYj2SdJiIce54+IAdDlFZwxQK9RtYF7+UPlKNJNBoWkAAEgYAABQydekHudfySuR2/4jILepAwiAVAbAQgAN0IA4BICyaAgQh44F6OgIvBK/3/8HWiAAIDb4MAWADgQC+4E7IHmtCzZdP+eo4/BERpuGQ/eaRrBvQuwSVzNpKpvdF73e5TxptsS1xHOm1hLTlFmeZTJBvLJSRMrIlhyP7IopICMrrZnMMhVJ8Fr3wfLL3EvdT70zU5cGz3ReL3u64GLGu3zbzCf1lkQ13aXy5c2dHud4FjuDZab7ZnmfiIyPbiaeVr6mvjOFloB4Y2awV7a6KR0PVRA5V2eZuYVCKzKdsj191L2YCZ7knWE7v7vd9Tah62JrFi54oT6ze5O9N5fagRX7JlM/teKog5fq2ayRzcAxfJpDKbMmRV0OonnQdCfV4hfgwFWlponS7HhzA5ur2dK6ZXOOVUytT/KHrSGBHT/8+NE3PTCk57sbk2Nrc/HLxt6zqX8BLcW8/pt3F7GfN9CsyOJtawLu4mYNfs+Mr9WW7qxJIaUZ2PcrqWHSyU1z1eo03DpSyLAGNLjE6uo76XzjUn2ilBEJAAII5L8cZW8XWvZ/oKkAeHPy55Rfkf+8Qu0EAlEACGi5/lxaKwAUCAAAAKBkKMkKQADFdmwwsrP01BWCoYHCRjBoxBIGOsHkgEECxZjFcBM0RA8SyEkbBIWdAaBRnDGg4+QQGJTlmmXDKZoBc+bH/R+Tq/dYtUlWofyCVmlrGqm8TTJxtIy1rGQODZUs2EpX+tGXwXShMz0Y3BEDqecOoQ/VNbwaX8SiEPkUxKI01nG6XO+lCwMZRA/60TeNUwbrPspkqN6eBbqCSQszX6FAVFCngf16DHrOBAA=");
 
 export default Croissant;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `jedi` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jedi?s=solid jedi}
  * @preview ![jedi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/jedi.svg)
  */
-const Jedi: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M246 315.7l-21.2-31.9c-2.1-3.2-1.7-7.4 1-10.1s6.9-3.1 10.1-1l29.5 19.7c2.1 1.4 4.9 0 5-2.6L279.7 8c.1-4.5 3.8-8 8.3-8s8.1 3.5 8.3 8l9.4 281.9c.1 2.5 2.9 3.9 5 2.6l29.5-19.7c3.2-2.1 7.4-1.7 10.1 1s3.1 6.9 1 10.1L330 315.7c-1.3 1.9-.2 4.5 2 4.9l37.6 7.5c3.7 .7 6.4 4 6.4 7.8s-2.7 7.1-6.4 7.8L332 351.4c-2.2 .4-3.3 3-2 4.9l21.2 31.9c2.1 3.2 1.7 7.4-1 10.1s-6.9 3.1-10.1 1l-26.3-17.6c-2.2-1.4-5.1 .2-5 2.8l2.1 61.5C370.6 435.2 416 382.9 416 320c0-37-15.7-70.4-40.8-93.7c-7-6.5-6.5-18.6 1-24.4C410.1 175.5 432 134.3 432 88c0-16.8-2.9-33-8.2-48c-4.6-13 10.2-30 21.4-22c53.5 38 92.7 94.8 107.8 160.7c.5 2.1-.2 4.3-1.7 5.9l-28.4 28.4c-4 4-1.2 10.9 4.5 10.9l26 0c3.4 0 6.2 2.6 6.3 6c.1 3.3 .2 6.6 .2 10c0 17.5-1.7 34.7-4.8 51.3c-.2 1.2-.9 2.4-1.7 3.3l-46.5 46.5c-4 4-1.2 10.9 4.5 10.9l14.6 0c4.6 0 7.7 4.8 5.7 9C487.2 450.5 394.8 512 288 512S88.8 450.5 44.3 361c-2.1-4.2 1-9 5.7-9l14.6 0c5.7 0 8.6-6.9 4.5-10.9L22.6 294.6c-.9-.9-1.5-2-1.7-3.3C17.7 274.7 16 257.5 16 240c0-3.3 .1-6.7 .2-10c.1-3.4 2.9-6 6.3-6l26 0c5.7 0 8.6-6.9 4.5-10.9L24.6 184.6c-1.5-1.5-2.2-3.8-1.7-5.9C38.1 112.8 77.3 56 130.8 18c11.3-8 26 8.9 21.4 22c-5.3 15-8.2 31.2-8.2 48c0 46.3 21.9 87.5 55.8 113.9c7.5 5.8 8 17.9 1 24.4C175.7 249.6 160 283 160 320c0 62.9 45.4 115.2 105.1 126l2.1-61.5c.1-2.6-2.8-4.2-5-2.8l-26.3 17.6c-3.2 2.1-7.4 1.7-10.1-1s-3.1-6.9-1-10.1L246 356.3c1.3-1.9 .2-4.5-2-4.9l-37.6-7.5c-3.7-.7-6.4-4-6.4-7.8s2.7-7.1 6.4-7.8l37.6-7.5c2.2-.4 3.3-3 2-4.9z" />
-    </Icon>
-);
+const Jedi = createIcon("jedi", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABsQAAALNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDMQsGAAE2AiQDCAQgBYMtBysbrAXIjtReeUDjIXiet3s79w0CaPKziswFVEEd6ZJoWakLz9vu7Q8ssoAx8V2YaVeX6pfxpwdcklcqHV9bTSt0E6p1PAIBbAUz8Uww4MFYAGMR0qjTERA9hNFHRpEgs4QyxMevx+cN6PJeW4oBaot6DqxqLyrfCbAUFA4aAADiDgAAFLY313L7i3wRedZ/AeQZ1YAASCEAFgE0QAOCCQA5NAQIpmMBHR2BL9Lfv/4HWiAAICb2fAWADmjAdeAhAKADoBBdP+9kuOhtToZje1Rk1Ea/TT6RssGvWzb5bfDpdCwa8dngPUTW+6SSz0LvFGCR13qv942Sjd7hcin+VNjevI1+x4K2yaLAbHQl9kS4vMJJlvkskoUs9M/gObgT8qJmWl7dbQPqJJt882SjbIUhm5wIi8r67Ys/lf1Y2WYWBmyJ7LXXrR2xJ1IjZOM033ejX7SCpfmyyC/dV9uOuh/9Gf58zPBnSb2dG5ic3HSXxHYIwBw2zGxpLeEeTYPLA+vx3G00mmZjG4mrHglf/cgQ3ty56+Y/atuxdT9/RATMiZo7dunyy4fPKNs1yhcHYhpgGIEVyv0Tr3Rjmp+t+P//Bho4WF/tN82NRRUf8UhFoGG6GUjfdg1bzhy+vHzp2LlRcwIifvxcd2zbKH+3u3feBKMnrn7J/QAggEDz17FnqFvOH3snBcC3q7//9x/h/m+rBHUUsEcBIKDF9MfQowpw554EBMsqmYMteCcCKM6jgO3MxmxBcIQTFCaOoBHEHXQciQaDUKm8uL8ZDdEdELz1AhTOTAeNNPNAx9s5MMjxKGviXVoBi+Un/j+mlTFZusxKjEuwsqzbOpdqkt/nsy1ZHzJn64vEWcYwlSnMYjSjGM8somdQW5jNZMoiqpQPYkkUJ4Eli5Vufa1sYzQzmMn8WM4vks2abw8xJx4dCfkDmZMqARRqqVL6hNGjxgMA");
 
 export default Jedi;

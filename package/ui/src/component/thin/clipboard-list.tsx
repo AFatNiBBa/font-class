@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard-list` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-list?s=thin clipboard-list}
  * @preview ![clipboard-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/clipboard-list.svg)
  */
-const ClipboardList: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M120.4 64c4-36 34.5-64 71.6-64s67.6 28 71.6 64l8.4 0c20.9 0 38.7 13.4 45.3 32l2.7 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 160c0-35.3 28.7-64 64-64l2.7 0C73.3 77.4 91.1 64 112 64l8.4 0zM64 112c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48l256 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l0 16c0 17.7-14.3 32-32 32L96 160c-17.7 0-32-14.3-32-32l0-16zM192 16c-30.9 0-56 25.1-56 56c0 4.4-3.6 8-8 8l-16 0c-17.7 0-32 14.3-32 32l0 16c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16l0-16c0-17.7-14.3-32-32-32l-16 0c-4.4 0-8-3.6-8-8c0-30.9-25.1-56-56-56zM176 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM160 224c0-4.4 3.6-8 8-8l144 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-144 0c-4.4 0-8-3.6-8-8zm0 96c0-4.4 3.6-8 8-8l144 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-144 0c-4.4 0-8-3.6-8-8zm0 96c0-4.4 3.6-8 8-8l144 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-144 0c-4.4 0-8-3.6-8-8zM96 400a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM80 320a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM96 208a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const ClipboardList = createIcon("clipboard-list", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABwAAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyDVAsGAAE2AiQDCAQgBYMtBzUb2QXIjpQuZyQRxOt6nX3SJ50ZZAYMEEBNxipUpfVViP78X07vLtsU4OcIQrm9NF7TojmfJxDg2LQGbdAszBLFBueNOMDQGMr3kMd5dqoh3ZO+x03uQ+Mv7V1OkmUAohkApq1ZscjHB+JAxPfVN4jvLUBATAelQIYMnQSYKBPoJFcilwsORLXK/gNLAohagTVZlaMRvsWv9AeSFHk+sHevhsYQaghUahrnq5NlxYb7BkQ81+eJfs+0r8QbBC8XpLi779M9G8WT/Z/tkMUsythK+roxlYWPt4q4vV2Ke1rf0atxPNX2ro5Z3Nvmzt7i4la3F0Vc2+bOiDUrtNtbtdGRgcQdrStxV9uIS2awef3ONqvZsoMOodNog11Z6JXg+GhzsDh7JUrk1ZvkNb1bdH+22bP/+H739866aMJQhr388rChE+rFB5mHmzcvSkXa/bB6rcwHUX/R0N/4IStlP/w2FE7D9GaaXH11k4/xpGYXbTn5GP/V1W4dwmDswMcONGmN2lpb99+xk6tNDhxoYoJNb6rdevMAiZvb2hCrS/1NDjRdsk0+qX89EAjeXtbz6JamE/+vryRw6N3/5perfhwXp2dRL4EgG1gdaGNcDMwzgHCKM3Wf+aJA8qlC8K6N3ClAKBAgqVUIkOmomQC5wgABanQxSoBahRUykTcIrWyqQdLIKSAz2gUg18proMZEX4VqtYrskiYvSPKHMm522zKrXzls8NByfDmZVVJXKa67J5Srtb5n8qp+cKndTnKi0+2y0z6nt9ynWhQ9wwlmz7lm+aHSMIMNVRqv3F24z63GoVOdZt+4bH8vE5Tn+/o6c75xP2gmgdfhMpJEpCbfE+J+5we9FgAA");
 
 export default ClipboardList;

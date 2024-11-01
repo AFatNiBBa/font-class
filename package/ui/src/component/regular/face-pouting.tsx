@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-pouting` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-pouting?s=regular face-pouting}
  * @preview ![face-pouting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-pouting.svg)
  */
-const FacePouting: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM161.3 382.1c-5.4 12.3 8.7 21.6 21.1 16.4c22.4-9.5 47.4-14.8 73.7-14.8s51.3 5.3 73.7 14.8c12.4 5.2 26.5-4.1 21.1-16.4c-16-36.6-52.4-62.1-94.8-62.1s-78.8 25.6-94.8 62.1zM176.4 272c17.7 0 32-14.3 32-32c0-1.5-.1-3-.3-4.4l10.9 3.6c8.4 2.8 17.4-1.7 20.2-10.1s-1.7-17.4-10.1-20.2l-96-32c-8.4-2.8-17.4 1.7-20.2 10.1s1.7 17.4 10.1 20.2l30.7 10.2c-5.8 5.8-9.3 13.8-9.3 22.6c0 17.7 14.3 32 32 32zm192-32c0-8.9-3.6-17-9.5-22.8l30.2-10.1c8.4-2.8 12.9-11.9 10.1-20.2s-11.9-12.9-20.2-10.1l-96 32c-8.4 2.8-12.9 11.9-10.1 20.2s11.9 12.9 20.2 10.1l11.7-3.9c-.2 1.5-.3 3.1-.3 4.7c0 17.7 14.3 32 32 32s32-14.3 32-32z" />
-    </Icon>
-);
+const FacePouting = createIcon("face-pouting", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABlgAAAKaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCWgsGAAE2AiQDCAQgBYMtBzMbXQXIngeZm0p7JQYbl+uzePS1iOD7/Xz33Lx8hpYdECsgcihcUgASsoockUJwf+rKqrX5n/29936I90sTo9pPE5LRpCjEpZ2XJqCEnTUVFzO0fKwFnjr1POehAL5HPChr0NSlEyQ053kEAhjLxaeVe14rWE0LQGXt7mzPljTtkzQ0JMc3x2mHLA7jtDzpSnqBU+lN46dOIyT5HABEAwAwfUVeFM66oivisRTx3BwgIKYD9IHIIYceEEzCFuiBow+QyQRdUSrhf2AfEECUgfyQBDKU4wSuAjKQ5DOOubveahbnpZzC6ryo7Nh4jP3h61AYtpa2Jzo64SBhA4sjNzMPxel3QcTrzCdRnPF4/qvlH+a+mPZQYfqjeS+XLZ9txZhr3xUfGz2nX9AtBxnR0X6rhqJj7RgLUYzWGFmFcbFladmD51vmtHPiFcU2Hwa8lfKDcMvWY0GB8fVbC3ono2D++7b9hZLxf/x4eH1s6trZj5/jVQi3n22SMxMtWTMtE6cmZ+Owen5lsX8V2Hq2l99vm67aGnheKPShgYHndTvqDnO4LrFWvF83+eOG3j7WDn723eHa2onDtQ96yw5/9XGy74bo68G+uyXlZGKd8TgQCN71p7ihftK/imoWwLfbf//nr5HSSbqGCgkEuUGlQcoTSAQAIEUPZ4JAckCevGqNiwKEKgRIylQJkNOdAoJMlYEQ5PWSDEGZKkuwRSaE0KKigqTGHpAzRi/ItNgEeZPcOmVaIueVtE/Rf8KEXA3lzNHwmDjKIDNUGEcj4ziTtuV+PVQKwCbUaNWiS7Uq9boU0iHqd2uWO4NzfBCJFyMOyUDHyf16oWodOtVr1cJTMtF93a9n3hwAjUUwRwgkiUiSJx+I7N7V3VXfUgs=");
 
 export default FacePouting;

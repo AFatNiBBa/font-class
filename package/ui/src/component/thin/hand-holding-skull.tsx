@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-skull` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-skull?s=thin hand-holding-skull}
  * @preview ![hand-holding-skull](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hand-holding-skull.svg)
  */
-const HandHoldingSkull: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M416 128c0 36.8-20.4 70-53 90.7c-10.9 6.9-18 20.2-15.1 34.4l3.8 18.9-127.4 0 3.8-18.9c2.8-14.2-4.2-27.4-15.1-34.4c-32.6-20.7-53-54-53-90.7c0-60.1 55.5-112 128-112s128 51.9 128 112zM363.6 250c-1.4-7 2-13.9 8-17.7C408.2 209 432 171 432 128C432 57.3 367.5 0 288 0S144 57.3 144 128c0 43 23.8 81 60.4 104.2c6 3.8 9.4 10.8 8 17.7l-4.1 20.6c-.2 .9-.3 1.9-.3 2.9c0 8 6.5 14.6 14.6 14.6l130.9 0c8 0 14.6-6.5 14.6-14.6c0-1-.1-1.9-.3-2.9L363.6 250zm158.2 90.7c10.7-7.9 25.7-5.6 33.6 5.1s5.6 25.7-5.1 33.6L423.6 472.6C403 487.8 378.1 496 352.5 496L8 496c-4.4 0-8 3.6-8 8s3.6 8 8 8l344.5 0c29 0 57.3-9.3 80.7-26.5l126.6-93.3c17.8-13.1 21.6-38.1 8.5-55.9s-38.1-21.6-55.9-8.5L394.7 414.4c-1.4 1-3 1.6-4.7 1.6L268 416c-6.6 0-12-5.4-12-12s5.4-12 12-12l80 0c19.9 0 36-16.1 36-36s-16.1-36-36-36l-154.3 0c-29.1 0-57.3 9.9-80 28L71 382.2c-1.4 1.1-3.2 1.8-5 1.8L8 384c-4.4 0-8 3.6-8 8s3.6 8 8 8l58 0c5.4 0 10.7-1.9 15-5.3l42.7-34.2c19.9-15.9 44.5-24.5 70-24.5L348 336c11 0 20 9 20 20s-9 20-20 20l-80 0c-15.5 0-28 12.5-28 28s12.5 28 28 28l121.9 0c5.1 0 10.1-1.6 14.2-4.7l117.6-86.6zM240 160a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-32-16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm144 0a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm-16-32a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
-    </Icon>
-);
+const HandHoldingSkull = createIcon("hand-holding-skull", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABxQAAALZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDagsGAAE2AiQDCAQgBYMtBzkb8wXIBp7/z6vu+0kDTrWgAaid5Dqzter/v3fHa3uAVzzPJHzdxtq2Bn5qruMJBDg2jW0Bj+UlbJlb4/YRscFeicSStab0+ImPX3ugyzO6YgVqlboOLKhPJW/wYyooNA0AAHEFAABKWjSpx2mzmEWuWw6AXKcOIABSCoCBABpGByIA5KMheg90DEBHR8AsFgv/BxogACDWCFexSgfsgAeAGfqBoLDRdZ/QtnYeJeRg5aQ3z1dm32Nj3a1+fmIvAbIm8mbohqJjVRdyTgQ1Xe6zJ26NbC48WXk+/7gx0W9XzDJPX5nIMi8HWeEzSfyb7fBbFd5Udto7ylLPZV5OMievhelY4b2cFJ5HYKm9vTSiFQ5EerZMEpF7dnY+YRQRKJI9DjW4zW9luJ3puZSJXsscyNSi8xTxSUQReTeIJNk4vlA4GBJH4a8sIgMy73NDd7vufme63v06G4p8Tf6RqUwklYgAk69TctLAgUnJTmmj/JdvtP9t8ho65fTpKUO9TL/tNi33T0fE6fYUTjuJpK9rHXd7r9O4dnyPakVHa+uOrYjPGd+OK0kh69Z+/vRkaDPctNFstLff2BCX1btcXHatPoMkxG2y1LnhYbnYdt3E4+jVuElGQxxHjHDMitEWtemwZn77zc7OZgizOM+Emc7OMzULmaAQXw4AAgh4vEm1dHDJ/2broAB4ffTD73o+ltOqVO0GbFEACGjxlnjaqmKw/Oe+CIBElAwnFL+EAIob2ACvI8tn44I9XKCwxh40AnAFHXviwIpgMjA4vQkaotsheNIOoHBkEGhkMg50PNkHVuRzKWKNp2irW7I2Jf+WKSs1raKfkZKYbOQaj1lNumCxdOcZYWP08FQVg6V0ZwD9GUo3utKLoYo3mHrxYfSj0uOv+K5BCokkY5CLMV24VzRXQQYzJKEtm+8lD+N7bzTD/cYxsChEYCoUhQJR7ptBm7BbMhKG9BnWty8A");
 
 export default HandHoldingSkull;

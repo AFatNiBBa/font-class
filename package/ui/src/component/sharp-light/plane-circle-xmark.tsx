@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-circle-xmark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-circle-xmark?s=sharp-light plane-circle-xmark}
  * @preview ![plane-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/plane-circle-xmark.svg)
  */
-const PlaneCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 0c-13.4 0-25.2 5.7-34.8 13.3c-9.5 7.6-17.6 17.7-24 28.4C184.4 62.7 176 89 176 109.7l0 44.5L8.1 250.1 0 254.7 0 264l0 96 0 21.9 20.9-6.7L176 325.4l0 50.6-57.6 43.2L112 424l0 8 0 64 0 16 16 0 16 0 2.2 0 2.2-.6L256 480.6l107.6 30.7 2.2 .6 2.2 0 16 0 10.8 0c-14.2-10-26.9-22-37.5-35.7l-96.8-27.7-4.4-1.3-4.4 1.3L144 479.4l0-39.4 57.6-43.2L208 392l0-8 0-80.6 0-21.9-20.9 6.7L32 338.1l0-64.8 167.9-96 8.1-4.6 0-9.3 0-53.7c0-13.5 6.1-34.1 16.6-51.3c5.2-8.5 10.9-15.4 16.7-20C247 33.7 251.9 32 256 32c9.1 0 20.9 8.2 31.8 26.3C298.1 75.5 304 96.1 304 109.7l0 61.7 0 9.3 8.1 4.6 76.2 43.5c9.6-7.4 19.9-13.9 30.9-19.2L336 162.1l0-52.5c0-20.6-8.1-46.8-20.8-67.9C303.1 21.6 282.9 0 256 0zM384 368a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm256 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-84.7-36.7L566.6 320 544 297.4l-11.3 11.3L496 345.4l-36.7-36.7L448 297.4 425.4 320l11.3 11.3L473.4 368l-36.7 36.7L425.4 416 448 438.6l11.3-11.3L496 390.6l36.7 36.7L544 438.6 566.6 416l-11.3-11.3L518.6 368l36.7-36.7z" />
-    </Icon>
-);
+const PlaneCircleXmark = createIcon("plane-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABtAAAALHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDcgsGAAE2AiQDCAQgBYMtBzkb+wXIjtFjR44lYYwYkhxWsrx4nm/t9b7ZCUGBUQFJQhVQ37csv3CpAlQ1KkKXJIEi3VO5x4977z6g6Y1SMxJVJTanIrVt4nLnf89PC2TSEzzKnK11PoHGmJpAwFHvTerT/C+QLFHMIHcPZVzCsGmY6gw1f2iFTnlMecSMH6r8tUQ7RW0AIOMAwPFridFw/T3fk8f2gLxyCgjkBMBqiIaaywHjECP6DDSrgaoK39O22X8gAQHSC+EnFVDRi/f4BaigqJVWuWyZOZfOp6UM0TmZL+f3q9a1AS9HFojIpqQGchozQ1ylziRHXhUXNSmoGK1LCmJslAlNIwRT/Vosh5RD3D7zERBZsIujwaYg4qTNoGLQJL1lGeKY6RK3z3hBPQLdxcNG85xek0XNKPJbbBA3PU7FS9yOrdahu2PD/YTb53lmu4Upi+YrLVAWr/hEEbPI493QZTGPMr5UeSyjiM+b1q6KVt/0HzuP2qvdL5/u26OVpSk12KYphBjdA45GXcZyjIhorgiKV8RHRSjLJn+nNPzZo226onSBXPAWw/+Q4KtxHKAcrr/T0Stk/yu9geOmyG2e/yfYcoJ7Zl5fdjeV6/7m94vJlbpJ+vfTSmhTp8B0NcDqeRITE4mUEFPaRtNJRrNhsWPNSUlf03Fq/45T/acBgrBlInFmaszrH4tLAfg5+/FVPK69Ll3KKtCvgNBsb61klWaAYgYol9QxmPmioHinCsM67IGAGERA0WtQQGMZEQTVoG0Q9FjJGYJegy6hSmVDzJfd4MWw63jjoAa8mm8P73HITanX/FCvcOn6lL4v00MQCD5E9tjYEQ8y2VbJF63grHuS1ZHNdXrMnPpCnnJlauTKUagG4CrR1VqlQuagYD9E2LNhh/BAdvfu6ylQqlKtcFzdv48ncn7BTN38bHMapwhZ96opCimSl9G2/hcoan3vgQAAAAA=");
 
 export default PlaneCircleXmark;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `globe-stand` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/globe-stand?s=regular globe-stand}
  * @preview ![globe-stand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/globe-stand.svg)
  */
-const GlobeStand: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M15 367c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l18.5-18.5c34.3 27.7 74.9 43.8 116.5 48.3l0 33.3-96 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l240 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-96 0 0-33.3c49.1-5.3 96.8-26.7 134.4-64.3c81.7-81.7 87.1-211 16.1-298.9L401 49c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L332.5 49.6c-9.4 9.4-9.4 24.6 0 33.9c68.7 68.7 68.7 180.2 0 248.9s-180.2 68.7-248.9 0c-9.4-9.4-24.6-9.4-33.9 0L15 367zm97-159a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm240 0A144 144 0 1 0 64 208a144 144 0 1 0 288 0z" />
-    </Icon>
-);
+const GlobeStand = createIcon("globe-stand", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABgwAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCIgsGAAE2AiQDCAQgBYMtBzIbJAXIjsN04ytHkYRx5S+C+rHf3rP/MUseNWny0MRKEa2ETMNbJVEKQ6VTsWg//dkCvRK9xFxSAJTE4IBUWZYVMclGmPZ/tpk69TznoQC+RzxoY+HSsSgbZI+eV6CAtSYe73m4y2sVxZrb4hA0yGQGEcMhOkQ+tMGH9Ol3KDFIvZAnvcrcAh7LQ8UveG1AUjMAYhgAsHcWHYpDCUmIbqRrEF8IBgGxB2AOIWNjCoFNsgLvIGcOFEXwTVKp/AcyCCAa9BMSKKi4Bw8ACkhykXMVCjl5Nbk4Tl4lvo8fM7OiO19QL40a9ptwNCEcMFUhoo/ol/iPOCsaFIwbe1Mf/4SmiEeV9ijS4puFtEKZTXAdJmN8v2bYZzyajjUdFwwQ12xLNO+5rdLuvmk9iyabOY8trsNrx26BxNOa01+i27xbqO8/PqqpaSPwTyRD5IRe5M92JQMiwZ2+T9moarn4iHAQlkhM/PxMsoWNpnVxxojgDPhMKeH5kpSzMwGl4tpPszlgbkzb1FRbhzEzpHA/AIFg/qNoOV3D+58SJwP42f7xvx9H/4e0KjMN6EogyMtSaylxCNIfqyAAQIo6iI0vCiTnZOmj9nsCgdCLAEnTK0A2SROBotcSAtUMFwSaXkdkRVFGGJcaQNLvBmQb6kExbgVUmy7sZjxkPY/0G/K7L86PId9LzMHWnnmybWpQzoTnUy92zJvXpZYFNpGnXJkauXIUqiGkSqhXq5SfBfv6IcaBLXuMJ3ZdPN+Ok6tKtULlyuQcL+x52VydPWwBSYZirogkiUjczw7EXJsXBg==");
 
 export default GlobeStand;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `boxes-packing` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxes-packing?s=sharp-light boxes-packing}
  * @preview ![boxes-packing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/boxes-packing.svg)
  */
-const BoxesPacking: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M608 32L288 32l0 96-32 0 0-96 0-32 32 0L608 0l32 0 0 32 0 448 0 32-32 0-224 0 0-32 224 0 0-448zM491.3 252.7l64 64-22.6 22.6L496 302.6 496 432l0 16-32 0 0-16 0-129.4-36.7 36.7-22.6-22.6 64-64L480 241.4l11.3 11.3zM352 192L32 192l0 64 32 0 256 0 32 0 0-64zM0 288l0-32 0-64 0-32 32 0 320 0 32 0 0 32 0 64 0 32-32 0 0 192 0 32-32 0L64 512l-32 0 0-32 0-192L0 288zM64 480l256 0 0-192L64 288l0 192zM256 320l0 32-128 0 0-32 128 0z" />
-    </Icon>
-);
+const BoxesPacking = createIcon("boxes-packing", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdwAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCKQsGAAE2AiQDCAQgBYMtBzQbLQXIHoVxTGykiybG20U8fL/f/9Y+935zTM6QXKWJJW+W6BBpePMS3lA1kew184Mq9wypjZ//a/q1HRXItyvxQ4lFUVkURlFEP5/Anld720RmA5soztw0bokfSkAcpISCaRu6dwkOS69Qxp8Yrob0OMH99qXxTW83ScoCQLQDYM6mdSu8q0Ql4ks14otlCIi5IAsUKNBPgOkKgX5KGaVSUIlqlf4DMwFELX57AiXqcRFXACVIasuyb9+G/g0NTTUt5cac23iuuaVZNAZSmlpECmFppKNRrF+zds3gmBliuWN6DI110TO6bzSkNbXE7vAMoh9sc0SYN1xQYm40h01CY1k/6Gn70x8cZNeT2RzaLUtE3k28Q+RKUsW786/ihQ3muaZd1u6aeTaoeubZremzOVXOs3ftysNg1KrBbstgZ71F69K3T3LOV2UcEA/1fRh2Nf13fVMCX1/8Gq+rvktX01AvgaAYXh1ue7oKJA4gkuKiQcocA8lJX/JTmz0QIDQiQFKrUYBCX+0ClBoNE6DGABMEqNVonUKUDUI3Ow6QNDsDChNdAqVunoMa070P1+oWhfPpXUf/75dloYQXzMpjRo7OU/OyYhr8SSuT0/Jt++CLoWMILjrolJPOO2C/I84L6qwVsQtOWKiRC/xQNsZIo2VTZXP98+mNDjjrnCNOOVmnmSa/7x3sot5/CFwJy46VlyQitWxL94jTe/YqAA==");
 
 export default BoxesPacking;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bracket-curly` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bracket-curly?s=solid bracket-curly}
  * @preview ![bracket-curly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bracket-curly.svg)
  */
-const BracketCurly: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M64 128c0-53 43-96 96-96l32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-17.7 0-32 14.3-32 32l0 37.5c0 25.5-10.1 49.9-28.1 67.9L77.3 256l22.6 22.6c18 18 28.1 42.4 28.1 67.9l0 37.5c0 17.7 14.3 32 32 32l32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-53 0-96-43-96-96l0-37.5c0-8.5-3.4-16.6-9.4-22.6L9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l45.3-45.3c6-6 9.4-14.1 9.4-22.6L64 128z" />
-    </Icon>
-);
+const BracketCurly = createIcon("bracket-curly", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZgAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBTwsGAAE2AiQDCAQgBYMtBzQb0wQR1ZolyH4mZHOk83RFPLWoTcXkj9KJMxEEc+VskgfgEikisvXsgEH3Xras6ljIsiV2l1+k7yCwOVJc5GIVMrTXdxGtBrGpU89zHgrgk0RxLMz5xrHA5jyPQABji1apVCtQbWqvphWw+t7ivWTxteskqUm6dtvh1gmyGJfuV0ByJXmFU/VO45MW+0mUpACiGgBTVi1b4Mn7eB/xMn+PeGkeAmIK6CGQIkW7AOOlAu0yPZDJBO8jn6f/QAggCvElE5AhxUIsBWQgEVk2s6ygIlsZ15WuuzU4ontUWRxruGB3/fnS0jjqPiOuDxgQA+N2h9jdcKFMG7o/KNcZsadxYlzEmU2T4lJEr1x17kvPV80rkyYV58jt7qHy8OFKIuStfgq7N9qou6ivCQFldy5XjOu+dqSi4shrhyv7AoHg0s2fqRr/p7gsAR8f/1/+FeXfx9Akh2IJCNIh+SHWx3b0iKECAJDEdr0CAomZEnyr5S4KEEoRIFGoVIBUm2oBMqUGC1Cg0wgBCpVaJhVZiVBvQwOJcptAaqQdIFPvDigw3lO1UH2k9kRYA/GdiwW2h0wfSRijWLqENBEstTXbnHxCysGsaKwWl1qld3XIITVuM6vBxhchEYpB4Th4HM/UDqfeaildNO7z0qMXO6AeiD7UCYnELyUeeTnWV1Dex/QDAAAA");
 
 export default BracketCurly;

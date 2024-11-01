@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-medical` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-medical?s=sharp-solid comment-medical}
  * @preview ![comment-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/comment-medical.svg)
  */
-const CommentMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 240c0 114.9-114.6 208-256 208c-31.5 0-61.7-4.6-89.6-13.1L16 480 56.9 370.8C21.3 335.1 0 289.6 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208zM224 208l-64 0 0 64 64 0 0 64 64 0 0-64 64 0 0-64-64 0 0-64-64 0 0 64z" />
-    </Icon>
-);
+const CommentMedical = createIcon("comment-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABXgAAAHaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBOwsGAAE2AiQDCAQgBYMtBzYbwQTIjtRG+UVWEg//v5be92dCsynyJKrAqIDJ1VWxQnA5dXVlh+D3VJKs3qp9n/7enb/zTx/wGX2UPXXqAtyj8wQS6/K8gJcFlmkClrWzT94guk2fPiHJsHnD5Ap5PM3OqCNdTx9wKX9o/NHLGZKmDEB0BMCs1cuXeVWNasT7GuK9JQiIWaAUyJChrwBTZQJ95UrkckE1ajX+DywJIOrhQRPIkWMmlgBykKQ8H9CrUtcuX1WpK7bfmxrxbGHEmxVnx6+I1fFt1cMZL5e8X/1z0dtpz1u2FZVCVMKBAMU9tLZ1bPvX8mHXB7XPTf3pf5OzC4x4dHmogQfsiiUdnAn2Fzh7U4KmAQNmYpa/HQSC889f/N7cYer/xkoCv578p/yKatUktaFRAkE2tDbUhgQSAQBIcUprgkAyUYJ3bXZFgFAgQFKvECDTR0cBcoUhAtTpb5wA9QrLZSJvErraWGHS7CjMjHca5rp6DOtM9Tqs1zUyK6JtgP7EJczXYN6pctTwkeXkclgQxjDIeDilXDYGngqDQXTRLocdcsJOO+x1QqHHLEtOOmj+DJnni0qjDDdSabJyu749v8pOxxy312GH0jFTlOedgU7N5weRnQBztFSSiNTh3irDXhU=");
 
 export default CommentMedical;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-half-stroke` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-half-stroke?s=light star-half-stroke}
  * @preview ![star-half-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/star-half-stroke.svg)
  */
-const StarHalfStroke: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M202.4 186.5L65 206.8l99.8 98.8c7.4 7.3 10.8 17.8 9 28.1L150.2 473.2 272 408.1l0-333-45.5 93.7c-4.6 9.5-13.6 16.1-24.1 17.7zM304 408.2l121.6 65L402.1 333.7c-1.7-10.3 1.6-20.7 9-28.1l99.8-98.8L373.4 186.5c-10.5-1.5-19.5-8.2-24.1-17.7L304 75.4l0 332.8zm146.2 99.2c-7.4 5.3-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0s17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5z" />
-    </Icon>
-);
+const StarHalfStroke = createIcon("star-half-stroke", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcAAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBdwsGAAE2AiQDCAQgBYMtBzcb/gTIhofn7fo691UN4BoJHXFgR8RCQfbTBZhLqRD3xOXOf9rTAy5/wUfZqzVxnvfUXOcJJDhsLCwKKAuzRLGjeS8MYoi3kHiGPL6NMZqRnklf4L73ofGrXq6Q5BmA6AiAhfVyyTs/xU8RXzReJL6wGgGxCBQCGTL0FWCOTKCvXIFcLvgpGg3xH1gQQDQXPDaBHM1QwXFADpIszzt3GtmmWbu8Zp7UekOlXqnGEz0rUY8sKvH4kGq1Vq3Fsz3qUYsnu9ciVR8naCWsJ/t+j6dcTnKU9kS3alQj80TXCtnXdVBTx6bfB36x+wuf5je6hKkd2/W39bjl3AIlYza5nHZ9VwuEH+AW8lOVm138c3m0qfRw+8sf3lghOvijV17p1+s5hw95Zm7pl6e7WXzHwZ9+OpjxjfIvpbnPDPOTr+j3KhAIPvjxy7e3dJjzf8s2Cfzy2p//5/d1a7yRRqcmtJRAkI1pjLExLfBQ3RgCYEKK0wZ9USBZIxO8a1tPChBaI0DSXGsBMn10FCDX2mgBmulvqgDNtVaWibyV0NWmmkjaOkZkprlE5Lp6nmhmjo+rzXWNDMYkCJFu8dKXtYGlm4qJ4yYUs4rJllIGG8Guzi5W+yNOy5GReKfdjjjspF122udkCz+u1DjlkGVz2FI/VJhonAkKsxS7u/ejNbscd8K+ccf+dWYrzs+PcHp++kgcSwLWSSJJIlLHi8AYC73O2N/kBgd2AQAA");
 
 export default StarHalfStroke;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-laugh-squint` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-squint?s=solid face-laugh-squint}
  * @preview ![face-laugh-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-laugh-squint.svg)
  */
-const FaceLaughSquint: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM96.8 314.1c-3.8-13.7 7.4-26.1 21.6-26.1l275.2 0c14.2 0 25.5 12.4 21.6 26.1C396.2 382 332.1 432 256 432s-140.2-50-159.2-117.9zm36.7-199.4l89.9 47.9c10.7 5.7 10.7 21.1 0 26.8l-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6l36-43.2-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6c0-9 9.6-14.7 17.5-10.5zM396 125.1c0 2.8-1 5.5-2.8 7.6l-36 43.2 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5l-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8l89.9-47.9c7.9-4.2 17.5 1.5 17.5 10.5z" />
-    </Icon>
-);
+const FaceLaughSquint = createIcon("face-laugh-squint", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgQAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCGQsGAAE2AiQDCAQgBYMtBzgbIQXIjpQuZyQRPG8XVe93zwLstRmBmR37BKSL8BRdPB1CooJv/i/3/J4fHeA3OpSxBzZAojmfJxBoWd4GCWgssEwTsN4mooQeQdgRESEtIjq+PL62kMe72Qkl0vX0Hc6GD42/NHaCpHIGIGoBYNSCOdN89DSeRnxbfp341hQExChQCGTI0EyAoTKBZnIFcrngaZTL9B9YEEBUIK+ZQI4K2IIDgBwkeZ43rd+kcdVS9Xx+1VKVeX/OiPhxzKdxdPQn03+Y/9vU70Z+5Mioj6d9P2/+lYYRV6tWj5P1L9e7N/StsV8M/qD1gnnz5112pN7cuNTgShxtOCKGB3pX66/qFENjWEwwEuejtiD4xMta3691/x++W/+d8ohxznF+SLMxY5oNOX9uHF1PZ9z5vPUsqFpP1QXrO7+49+TcuSf3XvjFwh4x21O58p50mNWjZ1cstR5ssNalirNHry5VztvgqtmLethbqfLeRd25S1QEAsG1yq9PXlFz6P+Vqibw/J3/ln9F5Y+SdB+VJBBkXctdLU0gEQCAFPu1ThBI1sjJtVZzRYBQBQGSCqoIkGmqlgC5KroIUNJCPwEqqGKOTOSVhXqWVZBUswtk+jsIcvW8CkqG+rJUQb3IjI4yGerPFz9eQ+OWFb269ywGF9O6QtsR4eeHFNt6x/3c1wk2Wm+H7fZaZ61N9ipkt2nVfbYZv4LH+aJCL931VBisOG7d8vNVabc9No3Z80WGKO7HHe1fj+4EViKovdUkiUi1n/T6bltX7duwsdueXfs2bd8LAA==");
 
 export default FaceLaughSquint;

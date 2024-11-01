@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `l` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/l?s=thin l}
  * @preview ![l](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/l.svg)
  */
-const L: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M40 32c4.4 0 8 3.6 8 8l0 424 264 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L48 480c-8.8 0-16-7.2-16-16L32 40c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const L = createIcon("l", false, "data:font/woff2;base64,d09GMgABAAAAAAIAAAoAAAAABRwAAAG1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKaGkLBgABNgIkAwgEIAWDLQcoG2EEyJ4FduNLEShaDudCD4uDIAMPX4vxPLXf67m7GyC0iaISCUs8nsBYAlWbidIx4k9tp7L6+Q+Xe/+G3qXZa4zNc1PZHpZllGZRlmjJXPsOG3DEWZrKIvDUzfOmRQE+iNTGzjcuD+c8T6DzvMunlUgWWKYJWOaujXJF5CstZUn6a3n8LNBy35RO+VWAD+Wh+cvqSVErgEwCgKu3+018/9JLTrrIiToI5Bpgk6CiYpWAC1TBKs0maJrQk64L/0BCgPSrVxbQULECNgA0UKS1mZG+sXYruobvf5srGYs79HV2NN/na34sbL8mj/9heH4/6T8yiPD+J1rPOILzAEH4un629di88H9wpIA/n0+fEbueXCnHGFRAqLvdrnHeI+QKAQCUvGfPFSQoZij8XUd9FxDDCCj6DQuoVlgIaIbtENBnXYqAfsOuU6UNiVmTDopRr0B1ygM0s96gzwU/s99s6uNgTMv8zRJLEioOsXCUeU49jbU3lboFLkvekfHxLOYO9q5mplaugjxrOjc7JY0oehHFhEVRHrfDx+mRmbOLlYN97lPA87LXXS/38RgKYO9aKRgpeQoAAAA=");
 
 export default L;

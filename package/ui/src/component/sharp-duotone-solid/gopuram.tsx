@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gopuram` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gopuram?s=sharp-duotone-solid gopuram}
  * @preview ![gopuram](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/gopuram.svg)
  */
-const Gopuram: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M96 352l0 160 32 0 0-160-32 0zm32-128l0 128 32 0 0-128-32 0zm32-96l0 96 32 0 0-96-32 0zm160 0l0 96 32 0 0-96-32 0zm32 96l0 128 32 0 0-128-32 0zm32 128l0 160 32 0 0-160-32 0z" />
-        <path d="M144 0l0 24 0 8 40 0 0-8 0-24 48 0 0 24 0 8 48 0 0-8 0-24 48 0 0 24 0 8 40 0 0-8 0-24 48 0 0 24 0 8 0 32 0 24 0 40 32 0 0 96 32 0 0 128 32 0 0 160-96 0 0-160-32 0 0-128-32 0 0-96-32 0 0 96 32 0 0 128 32 0 0 160-80 0 0-48c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 48-80 0 0-160 32 0 0-128 32 0 0-96-32 0 0 96-32 0 0 128-32 0 0 160L0 512 0 352l32 0 0-128 32 0 0-96 32 0 0-40 0-24 0-32 0-8L96 0l48 0zM256 272c-17.7 0-32 14.3-32 32l0 48 64 0 0-48c0-17.7-14.3-32-32-32zm-32-80l0 32 64 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-    </Icon>
-);
+const Gopuram = createIcon("gopuram", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABswAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CEKQsIAAE2AiQDCgQgBYMtB0obRQbIhocn/746t+r1b2rGNfIbM6IXUAY5YtTpTrTOpHgdSun+qVPPMzQUwPcAR7fhXtWFG2SMcV7seQVbb7gLeIEHpAQVsQ66C9LEfh5XZ6ji63yPFtKL6VM8Xn1w/GK8e0jaM4DoA8DWY4f2eP+H+CHFp82zxKd2IyC2gSKQkTFJgA2ywCSVgkol+CE1m/wQ0Z9fIYBo0DwygwY68Tf+B1QgyRpV9XR/X3tT7Gzpro4O9R2nBNEZ7p6dIXYX0tXzOiL6kZpeGnlu9utDz4wD3E6P3xEkT3f1qLHzxENDEc9AaLtz5LmOo8IukIXIPQYu6FjQTvIjF04f6xv7bdqnl3zq8ffGjRvXZq4249TGaVPvfUjJinHmKs5T3KF42XledmfPc9PYr5Y/+6auv/ks1/YLDFKszjVOOenItb09D/BAT22L2i5Exan7SikpVKS+4NxzX04IxcvK1NvvIBR3KFPPPU825L28CLBO8W7n/h4QCHovXX/03N4N/7V1JvDTm3/8PP8Km+8naQxtEgjywuZCpxNIBAAgxS2mJzhPIDvrUj5rl+cECB0IkDR0CJBN1CdApcMCAVpMsVKAhg6HZFG1C0PO7CDpcj3IVrkVVIa8AVps8EG5YSjy26+8u8rPZ+YuENp5qCxdXJd1hdq1qi+0lG+vL8Lh3FviqXnuSZe41jVucrGLXO4mAL/BntrNrraLhe2UomKpxWrFOkV5MGoeBco3uNHlZF19l/WK+exct7AXz3MzSUO5TIIsEyly76XXXnfzDedfvegz8vpB/XsBAAAA");
 
 export default Gopuram;

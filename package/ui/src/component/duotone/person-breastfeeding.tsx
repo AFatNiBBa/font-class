@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-breastfeeding` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-breastfeeding?s=duotone person-breastfeeding}
  * @preview ![person-breastfeeding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/person-breastfeeding.svg)
  */
-const PersonBreastfeeding: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M128 320l0 48c0 .8 0 1.6 .1 2.4l101.4 50.7c.6 .3 1.2 .6 1.7 .9s1.1 .6 1.7 1c1.1 .7 2.1 1.4 3.2 2.1c2 1.5 3.9 3.1 5.7 4.8c3.5 3.4 6.4 7.4 8.7 11.6c4.5 8.5 6.4 18.3 5.3 28c8.8 2.4 17.8 4.2 27 5.6l32.8 4.7c3.8 .6 7.6 .4 11.2-.4c.5-.1 .5-.1 .5-.1c-7.5-1.4-14.8-4.6-21.2-9.7c-17.6-14.1-22.7-38.1-13.5-57.7l-.8-.1c-38.9-5.6-74.3-25.1-99.7-54.8l0-36.8c0-17.7-14.3-32-32-32s-32 14.3-32 32zm104 12a44 44 0 1 0 88 0 44 44 0 1 0 -88 0z" />
-        <path d="M224 0a80 80 0 1 1 0 160A80 80 0 1 1 224 0zM436.8 382.8L373.5 462c-16.6 20.7-46.8 24.1-67.5 7.5c-17.6-14.1-22.7-38.1-13.5-57.7l-.8-.1c-38.9-5.6-74.3-25.1-99.7-54.8l0-36.8c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 48c0 .8 0 1.6 .1 2.4l101.4 50.7c23.7 11.9 33.3 40.7 21.5 64.4s-40.7 33.3-64.4 21.5L27.2 427.3c-1.1-.5-2.2-1.1-3.3-1.7c-4.9-2.8-9.2-6.4-12.6-10.6c-4.6-5.4-7.8-11.7-9.6-18.4c-3.3-12-1.9-25.2 4.8-36.6c.6-1.1 1.3-2.2 2-3.2L75.6 256.1c26.7-40.1 71.7-64.1 119.8-64.1l75.2 0c46.5 0 90.1 22.5 117.2 60.3l50.7 70.9c2.2 3 4 6.1 5.5 9.4c2.9 6.7 4.3 13.8 4 20.8c-.3 10.6-4.2 21-11.2 29.4zM320 332a44 44 0 1 0 -88 0 44 44 0 1 0 88 0z" />
-    </Icon>
-);
+const PersonBreastfeeding = createIcon("person-breastfeeding", true, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABvAAAALZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDIAsIAAE2AiQDCgQgBYMtB2Qb1gXIHgPuyrOQyyU1aQgylbEvXQSJjnLW9gGwnxkrgiBj0VMbpUyFENTa9qS9JI8CNJ8O0/FEaIRIJHRtBc8m/T80DAR3L0owKJDmkUaaccCBRYFF0j7/19SL5HsH+IEO5PzQIhdJkRjJnVoCE2hd04CmyTPGDdsGbWSPQ47jCbJ4Lr2igOSB5GdwW/Q/gPEHIVdIlKQAohoA09asWOTzTLwYfvZtxM+0EBDTQU4gRYp2AkwkFWgnk0MmE/wqFb8KzQggCkVfl4JCFOEVfArIQCKVZFnF/IqRFUZBRba6rKB0wzvFVwa+PPLdwa8OeW3MupVrVt6de7rx3sZ7m0rFt12Ii433lt5Yfzdxwap4puWB5vt7Pt17ddzYeDHuPXPTg20Xm9bESwNeKiuLm3o9029V3NNwj/vrVz9YeJY6mx+Y5vd5rm2NcDVyoexiWY7cYzQwvR7GRsWi6ZHqz+jGu62rrslPnND9xeoX/4xOwxPpbj8arDn9eRl7jeuL0wN+iaK/z+Ty4fDBmary+utt/tChItk1TEt/2aWJ29D82BKimpOz9rRMv0NWT99pUvYpC/VI383abD2dcaU8fLIVtzZsWFiMIs6fHxoVhtg1XIRAF3TrPrP3wcovr2bqMp6499D4FKqgbrdpa0/ZA3eDQPD8T3t7VE38K5Ul4Pfl+1/f6HeHz+NCsQQE6cD/B7IxPt+hgEYw4EISp3W3TRFCd/aXPGu5ewUIpQiQKFQqQKqNagJkSg0gQIFORhGgUKkVUpGVCPVs6kGi3DGQGs1ZkKnnLVBgIt/FC9ULJXNleSf/N2bMHqOzluXDBg/Nx+ebFa0iGUV/ckJ+2tX3NO/oB/fa7YjDTtplp31OjtjjFqVOOWT2Hn/Wb3OGMZih5Iwnv11/bqwexY87Yd+6dn+RCeTvB/tyer9/P+hNJILDWZFKiSTSdpnuG7T9uDFQbHHbII3Qv3NDU/cA");
 
 export default PersonBreastfeeding;

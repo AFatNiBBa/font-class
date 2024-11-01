@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blog` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blog?s=duotone blog}
  * @preview ![blog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/blog.svg)
  */
-const Blog: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M192 32c0 17.7 14.3 32 32 32c123.7 0 224 100.3 224 224c0 17.7 14.3 32 32 32s32-14.3 32-32C512 128.9 383.1 0 224 0c-17.7 0-32 14.3-32 32zm0 96c0 17.7 14.3 32 32 32c70.7 0 128 57.3 128 128c0 17.7 14.3 32 32 32s32-14.3 32-32c0-106-86-192-192-192c-17.7 0-32 14.3-32 32z" />
-        <path d="M48 96c26.5 0 48 21.5 48 48l0 224c0 26.5 21.5 48 48 48s48-21.5 48-48s-21.5-48-48-48l-16 0 0-96 16 0c79.5 0 144 64.5 144 144s-64.5 144-144 144S0 447.5 0 368L0 144c0-26.5 21.5-48 48-48z" />
-    </Icon>
-);
+const Blog = createIcon("blog", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABigAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCHwsIAAE2AiQDCgQgBYMtB0QbNQXIhof/r6u670dkNqCoagAYETutYOeZrbDO6e/n+U/79AEfgP8OK41c0G6UeT6Bne88KH3gJTTTGdjMrSnI+VBE6SVrRG4xerxyj193yOOz7GIl0h3pA1zX/gcwftXOxST1MgDRFACTVy6d75VKVFJ8UH2W+MA8BMQUUAhkyNBRgHEygY5yBXK5oJKqVSpRrRYEEGXt+TNQRgkHcQ4gB0lIed6/S4cGpUb5igal+msfaRVxSztxR6tbuj/W5rYOd7a+tUf9iGgQb45/seb+cS9Me2vCS7URd7W5refa85UtDd6c/e7gp2rOV+MNrvLiqxWjvLLlzaxoi1jdJZ/h7Nonmz75e80HOz4wcOOgH/gwq8g+/GEQUWBwoqlNmnr1slMdO5667NXASYe8fF/jy7m8caVTv9c+bUzq5UeDhd0n9ZiUvO4LcW2TIlo0dVgJTbF4+fLFMR8HAsE3T1x87sYm4/6v2yCBX57781/8kFRfSdKTqCuBIOtX7WddAokAAKQ4oTbBKwKZMZL+qQ3dKkCojwBJWX0BMh00FSBXX18BSjobLkBZfUtlIq8ntLSeQNLQYZAZ4RyQa+kZUDLO21lZy8gcj3Mb7r8veQaHpu8qBg8YVIwplh2T9yWmbI4tHtu9TuSJ3vGoHQ464JjtttntGCOPmF8et98MiZjuiwqDDTBIYYzC3P8qr2DZEUftvhft24xVvB/2ckKe3zvuJwGGfLK2jEiRNdyren//VRufxH0KAA==");
 
 export default Blog;

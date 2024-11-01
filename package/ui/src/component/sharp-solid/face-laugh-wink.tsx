@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-laugh-wink` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-wink?s=sharp-solid face-laugh-wink}
  * @preview ![face-laugh-wink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-laugh-wink.svg)
  */
-const FaceLaughWink: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-80c-83 0-151.2-63.1-159.2-144l318.4 0c-8 80.9-76.2 144-159.2 144zM144.4 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm148.4 29.6l-25.6-19.2c34.4-45.9 103.2-45.9 137.6 0l-25.6 19.2c-21.6-28.8-64.8-28.8-86.4 0z" />
-    </Icon>
-);
+const FaceLaughWink = createIcon("face-laugh-wink", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcAAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBXgsGAAE2AiQDCAQgBYMtBzYb5ATIjsM4RnwXBSNbPPy/Xd/vc6t6ANa8aExEELOJpQ8yfeunQtyJe/E+/zfTxvMowG8U2li4dPECieZ8nkDAY2kv8ICywM70BOxYztrZLQzCbZIu5ZMM2xtGF+TxenZMiXQ7fYGL5aXxq+aOkVTPAEQ9AIyYN2uKdyqjMuLz8gvic5MQECNAIZAhQysBBssEWskVyOWCyiiXw29gQQBRBf/XBHJUwQwsAuQgyfO8Ze2GdWqWaudza5ZqzPl5WsTXo96PwyPfm/rV3B8mfzH8HYdGvDvlyznx0dCItypqx53Bb4yee7OImzXPNr7uUKNrNc40udFkTscOHR/VPNulfdytcaZ9xd16d39v98XaL5SHjXGJy4NajRrVatDlS2OMcUnOT/8LL28ZasvL/tp27VOcql3n1Kk6Fapt1L7W+ipvfdKhw5OrSi1alIBAUJrR+NayuoP/r1YzgV9e+3ftW1R+J0l3UU0CQda53NniBBIBAEixV0WCQDJBDk+t5YYAoQYCJFXUECDTUj0BcjV0EqCkjT4CVFHDLJnIqwuNLBkgqWUHyPS1H+QaeQZKBvvYrKJRZH5FewX9q0sYq+iYoaJH1+7FwGLp6YyrkKk7qNgW2++NmQ44tNY2W+22xmob7BZ8pynOHluMtbAxPqjQQ1fdFQYqjsPn7bnW2GmXDbbZmvsMUtxX29trl3eAkpCwJ1eSiFT30Y512bxiz7r1XfZt2LoJ");
 
 export default FaceLaughWink;

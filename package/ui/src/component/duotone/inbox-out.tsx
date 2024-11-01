@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inbox-out` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox-out?s=duotone inbox-out}
  * @preview ![inbox-out](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/inbox-out.svg)
  */
-const InboxOut: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 368l0 96c0 26.5 21.5 48 48 48l416 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-76.2 0c-12.1 0-23.2 6.8-28.6 17.7l-14.3 28.6c-5.4 10.8-16.5 17.7-28.6 17.7l-120.4 0c-12.1 0-23.2-6.8-28.6-17.7l-14.3-28.6c-5.4-10.8-16.5-17.7-28.6-17.7L48 320c-26.5 0-48 21.5-48 48z" />
-        <path d="M256 320c17.7 0 32-14.3 32-32l0-178.7 41.4 41.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L224 109.3 224 288c0 17.7 14.3 32 32 32z" />
-    </Icon>
-);
+const InboxOut = createIcon("inbox-out", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfAAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBcwsIAAE2AiQDCgQgBYMtB04bEwXIHodxTLKVaKI9FrR4+Nqvz3O730wtALwFRsUIetn+qKh1IbBANhWVip5kBmWq9//5v5zeeH50gB/Abw06W4M2yNFarecJBJwVjWlpIAGFmWZg2TbDxSUooSFK5LCQ+GHLYfsLFPFzvqJCepm+xf36P4Dxj/aukNTPAKIZAKYtXzzXpz/jzxTf1j4jvjUHATEdlAIZGZ0EmCgLdFIoUSgEf6Za/ozakgCiSl6cQRUF1mILoABJiKIY0L9hpXGxrGGlwfLbbSOeR8SkeNpQCd5zsc2yeNbgVqsl8cSF1uhPCUFBCC/Z7dU43kUO6hjxqs2z3g3idbt28aJng3jboQNQ/GCrJ+26f2z28d9utlE73+QGN5rUuelF48Yvbnbj5vr1i2xUox1VnQjBqgUbZGv+7tehG/rrd3kDhcpe+MWFoSeUD4Y8x38eCATHfmtwZH3Tif/Xa5jA35/7j35Iap+S9BH1JBDkgbWB1iSQCABAimO6Jy4gkA2QyLs28kyA0AABkqoGAmQdNROg0MAAASq6GCVAVQOLZVHUF1pZqyBp5CDIRjsLCq3UgYqJvoiqWkVOMSZBmD+8xNkWnbWpHDZ4aDm+3OYmmzVUWZ1QhpW+x6DXj3baZr99jthqi52OGPyQuelRe80+YbN8UWmYwYYqjVdeV6O4zESHHLbT5+/XmaD83urr2Hm6H30wAYaTq7JMpMjNd+7btP/EoP1Hjwx6rL2WwD9LAA==");
 
 export default InboxOut;

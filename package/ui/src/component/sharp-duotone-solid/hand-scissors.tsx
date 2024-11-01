@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-scissors` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-scissors?s=sharp-duotone-solid hand-scissors}
  * @preview ![hand-scissors](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hand-scissors.svg)
  */
-const HandScissors: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M40 208L0 208l0 80 40 0 168 0 0 80 32 0 0 80 80 0 48 0 16 0c70.7 0 128-57.3 128-128l0-113.1c0-40.2-16-78.8-44.4-107.3C444.8 76.8 413.9 64 381.7 64L288 64l0 32.3 76.9 24.5 15.2 4.9-9.7 30.5-15.2-4.9L288 129.9c0 0 0 .1 0 .1L108 73.4l-38.2-12-24 76.3 38.2 12L269.5 208 40 208z" />
-    </Icon>
-);
+const HandScissors = createIcon("hand-scissors", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYwAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBOAsIAAE2AiQDCgQgBYMtB1Yb4ATIHge5SevKoZhjsajFlsWh+FDxPN9+6X0zE5qfpAy2UUVS6NhYYEe+jmwVyTq0rCrUnkpW1ev/s9+83yqQrD1EvGkyk0ajVEqCWVtbKpw1q1/m6c/9+dJGA3wAvkjceWmCjDLPJ7DzUfzCOv8iBf6NSsT+7mxWRrR8kqSR5HfMcbpAy/f6gEB5WoKH/MT5ReEKxUwFkMUA4NjFQgqfo4xKvo0fkG+SIJDjgM0YVFSsx4CDOMF6vM2gacKojMcwiv3nIwiQSbjrVjCJiiPgBIAGCtLankGYaxdovl/sQ5dhkCF4/Mcj1GGeHf6Q6JHzWRF5pCnnLlPR3J1idgl7+taXkpc/W47T/zMkIwvDc4+Td5M9mo16hB3Rq+2L2yDJ1Xi6eYosB/B6rwbZGTR87PMNEIRLl//vdMQH/08PBfx48/cz/4qK8hJMKyDUhfGCZgGFAABKblAVgKDag2VuddYjDIiOgGJSF1CtI8GAptuGARM28mLApO4sTtqMWK5VQTHrMqh2u4BmuTuYcNCXNWl5OC3idID7wyUnWig+Rk6bg0I09BVeMZjQD9OyYjhTzggHMbaxdjQyNHNsyL2Ue7KSmBFxL0ScbBxICG1H93IZrb2DmSzuDwmj86rBeV5thGlYwPb791RSUldo3QbrYTA7HDb7g/VBlsgE8fEBAAAA");
 
 export default HandScissors;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rebel` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rebel?s=brands rebel}
  * @preview ![rebel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/rebel.svg)
  */
-const Rebel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256.5 504C117.2 504 9 387.8 13.2 249.9 16 170.7 56.4 97.7 129.7 49.5c.3 0 1.9-.6 1.1.8-5.8 5.5-111.3 129.8-14.1 226.4 49.8 49.5 90 2.5 90 2.5 38.5-50.1-.6-125.9-.6-125.9-10-24.9-45.7-40.1-45.7-40.1l28.8-31.8c24.4 10.5 43.2 38.7 43.2 38.7.8-29.6-21.9-61.4-21.9-61.4L255.1 8l44.3 50.1c-20.5 28.8-21.9 62.6-21.9 62.6 13.8-23 43.5-39.3 43.5-39.3l28.5 31.8c-27.4 8.9-45.4 39.9-45.4 39.9-15.8 28.5-27.1 89.4.6 127.3 32.4 44.6 87.7-2.8 87.7-2.8 102.7-91.9-10.5-225-10.5-225-6.1-5.5.8-2.8.8-2.8 50.1 36.5 114.6 84.4 116.2 204.8C500.9 400.2 399 504 256.5 504z" />
-    </Icon>
-);
+const Rebel = createIcon("rebel", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABggAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCLAsGAAE2AiQDCAQgBYMtBywbKAXIjsM4RnygGMQ/Hp7X++/XPsl9AygDmN+qhAp2DYqHt927flFsNrVf1oyxP0NiM00SLjXzfy5dPB8N8BsNLQorPRLsMp+fwAAv0pOk4vlE8XSb7MkjDLsiQoREouPzeIP2kMcjcbES6Zr0Ki5qbxpfa+AUSSkDENUBMHzuzMme/CA+iHj1//uIV01EQIwAhUCGDI0FGCQTaCxXIJcLPoj//y//gQUBRBl5iARyZNiPU4AcJJHn2yuVquRzKpUqLn9/SsTrPSLunntjz3fq8TjP5Z2e4hh+e9u+3lyvxJ0No2HUjTZnxePRMW6uMzkex82iNobH1fWXOiWui2Tbx021R8fZaLy2P4MuKLwnmu1NN5pW8cpK59X5BtfZ787q57e4o/r9bfNX17xK385ydvzBF0Y3euedlSFipvz+8BFvnenWPPhg0CA3XrnLiQoNE29oXx8L6g2XuNtd3u/RI7j+qz/xhnGPvZ54vlWrwXn3bl9+EczsPeappz/5NHqmZN/gQdk8W4aPHDFyYwCB4I5/h/9Lqw36tXylBD56+Pu/x/mV/38xfk53oLwEgqzT/50sSlRWxckVIEGKPVqgYIFkuwS41MquFCBURICkTEUBMo1UFyBXUUcBSprqLUCZimbKRF5BqG3xAkll20Gmj8MgV9s9oGSQF4IytVOWfnTy0I+/hDEaHZ1XdO/SrRhQbMsmk1FkHR9YhMV2e6itPXZaY6stdlltlfV2KXyHyfFum43xsNEKVOiui24KAxTHte3mOVbbYaf1ttrCkwxU3Hfb2eP3bg8lEcIeSpJEpNIvuAAAAA==");
 
 export default Rebel;

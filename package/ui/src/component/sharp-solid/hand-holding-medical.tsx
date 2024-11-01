@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-medical` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-medical?s=sharp-solid hand-holding-medical}
  * @preview ![hand-holding-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-holding-medical.svg)
  */
-const HandHoldingMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 0l0 80-80 0 0 96 80 0 0 80 96 0 0-80 80 0 0-96-80 0 0-80L224 0zM140 327L68.8 384 0 384 0 512l32 0 192 0 160 0 12.4 0 10.2-7 128-88 33-22.7-45.3-65.9-33 22.7-94.5 65L256 416l0-32 32 0 64 0 32 0 0-64-32 0-64 0-64 0-64 0-11.2 0-8.8 7z" />
-    </Icon>
-);
+const HandHoldingMedical = createIcon("hand-holding-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABXAAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBPwsGAAE2AiQDCAQgBYMtBzsbygTIjsO44TuyxVL+4+H/5/x+n5u06006DJlRjOAYHAmDltihkPTBovq69cA8/5fzu+dHB/iNDm0PvW0L5Gjt6nlAUeBtT2xSFlimCVi6TSTIQwyfjggpkoiOc3Q8XSGP79l5FdK9FLfKh8ZfOjhP0igDEM0BMGnFknk+/h6/R3yrPyO+mYOAmARKgQwZOgswVibQWa5ELhf8HvV6/g8sCSCq7GYJ5MgxGfMAOUhSnnfoXqs0yZfXKsUaoQhRS3BARbBy6Yql051N2sWKGBPLY2QsZa4WXyyK1j0eN3/8T/fb++3DQttko4Wqv2T69JHy+mlOK/fed2qFqn6TVK2b6JpSuXGi8ttFIBA83Tbznw3G/t9QS+DP1//9oz8j9Y9pZHqMBgkEWd96X2vTRDSkkQIAkOK4HmkiAsloib1rY7cFCAUCJFWFAJlOmguQK/QRoKKrYQJUFZbIRN5IaG1dB0ljh0BmuBMg19oTUDHWp7CqdWQ4IlFAfuPipnt42rZyUP+B5ehymWkUNHBZHVNuaz2Pc6cXXbTdAfsdtc1Wuxx16GHzkmP2mR4h03xRaZD+BiqNVh6Xj6eX2+awI3Y5YL+uM0Z53+rpeDzei8zEMAdLJYlIrWEn9cOl1O9lAQAAAA==");
 
 export default HandHoldingMedical;

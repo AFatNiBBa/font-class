@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `democrat` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/democrat?s=sharp-regular democrat}
  * @preview ![democrat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/democrat.svg)
  */
-const Democrat: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112 0s-16 12.1-16 32c0 11.8 4.4 21.5 9.9 28.9L13.8 168.4 .8 183.5 13.3 199l64 80 12.7 15.8 17.7-9.8L157 257.5l35 75.7L192 488l0 24 24 0 96 0 24 0 0-24 0-56 96 0 0 56 0 24 24 0 96 0 24 0 0-24 0-160 0-122.6 32.1 28.5 31.9-35.9-72-64-6.8-6.1-9.1 0-263.7 0L209.9 66.1c7.3-8 14.1-19.3 14.1-34.1c0-19.9-16-32-16-32L160 45.7 112 0zM240 464l0-112 288 0 0 112-48 0 0-56 0-24-24 0-144 0-24 0 0 24 0 56-48 0zM528 176l0 128-296.6 0-41.6-90.1L179 190.5 156.3 203l-54.3 30.2L63.2 184.5l76.1-88.8 29.8-.7 96 75.8 6.5 5.2 8.3 0 248 0zM386 229.4L375.5 208 365 229.4l-24.2 3.1 17.7 16.3L354 272l21.4-11.3L396.9 272l-4.4-23.3 17.7-16.3L386 229.4zM279.5 208L269 229.4l-24.2 3.1 17.7 16.3L258 272l21.4-11.3L300.9 272l-4.4-23.3 17.7-16.3L290 229.4 279.5 208zM474 229.4L463.5 208 453 229.4l-24.2 3.1 17.7 16.3L442 272l21.4-11.3L484.9 272l-4.4-23.3 17.7-16.3L474 229.4z" />
-    </Icon>
-);
+const Democrat = createIcon("democrat", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABnQAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDOwsGAAE2AiQDCAQgBYMtBy8bugXIjsM4hvwSi5/SIiJKV5XV0pJmj2dugXRADwBsAaJ73j9bwIa58S5jMtd+/s81+d49Pyo7+kaHFmVRS48G69LZQIapaZkgAxvYRHGD8yYeQigKTXuo83fu1Ud5rHyKe5wvzdfG3EbRVwHIfADsfOSh+3tvNrPJJ/9PPrEvAtkZtIIKFSYFbKcSTKq1qNXCbP7/n/0HtgRIP+99BdQYxJv4FFCDor+u9+iN9UCg0zenPkKtbo69vZs82H2sd1i66eVw4l6VfV2FoTqdpLRT3pysyYY5IovTDB+RRyYeXvxws112ODoyJ9IMe5oG3OVMMZwjMp7l2Ss75Mis2jupc/j42Phoh7oiMbJqvPGsm5VHjE6Mmu4Zn/WRpa/Pf/3bJc7gwndzFmfOze3HnuML79jxQF8Y01i6jyeMGr1q1FZOslV55rOu9Y+f7bmj0w0N7r+9N3tzzzwr//r3xi8u8iKti2w0U3l1VcBGMzM3eeessfpoLzvX8S6071G+dOK+TjN49mYPgrVedKkZe9jHMbbAJWd3XwSZ2n09+H533utAEL7/4/dOnLfdr4OdAr564/vv0/vz/3vlpvI6BhUQqvX+X89x5SaB0RAuucLSvikGxVqH5K5hDwuIBgFFvwaEyoT5UGusC32mbc7OnH2oSuoh0XV8CcWwi6Gyheuh1rUW+mzng1C/bqq7mL8H+YfIlD3q6O6D2o032Kjdph1MyYUbk9Wt27aztdVX8JI1cKUzXOgClzndac52WQ2/xP7Ry51vjzFsdz/U2tgGNtLaRrs6e3vxEU53iUud7UIX2F621e7vX+2K8eproFl4jJsYUhRSBv+CBAAA");
 
 export default Democrat;

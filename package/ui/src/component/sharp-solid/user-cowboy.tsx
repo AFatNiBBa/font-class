@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-cowboy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-cowboy?s=sharp-solid user-cowboy}
  * @preview ![user-cowboy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/user-cowboy.svg)
  */
-const UserCowboy: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 0L110 112.4c27.2 8.7 64.7 15.6 114 15.6s86.8-6.9 114-15.6L288 0 224 32 160 0zM83.8 137.1c-32.4-12.7-49.4-27.2-55-34.7L.8 117.1c9.3 27.9 35 62.4 72.5 89.9c7.1 5.2 14.7 10.1 22.7 14.8c0 .8 0 1.5 0 2.3c0 70.7 57.3 128 128 128s128-57.3 128-128c0-.8 0-1.5 0-2.3c8-4.6 15.6-9.6 22.7-14.8c37.6-27.4 63.2-62 72.5-89.9l-28-14.7c-5.6 7.5-22.7 22-55 34.7C332.2 149.6 286.2 160 224 160s-108.2-10.4-140.2-22.9zM400 384L48 384 0 512l448 0L400 384z" />
-    </Icon>
-);
+const UserCowboy = createIcon("user-cowboy", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABaAAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBTwsGAAE2AiQDCAQgBYMtBzIb0QTIhocHvf47N8m8DygfAjqjgleeblnvtuykdiauef7n3978BI8WhaWl0fj0v+rzCUxsN2/aRKLAphO0mbt2D5OEfaWlLMnjZ4+fLWRxOz2lQHIz+Qbn64fGLxo4RaJCCiCqA2D43JmTFb+P7yO+Lr1DfG0iAmI4yAVSpGgswCCpQGOZHJlM8H2USvwfmBNAlJHXTkCGAsZiLiADiTTLqrSvUKlQJZtTqVBx4ay5s96Z/V3fOTEuJsz6sG6ruNn+SfurdY47Fg8HfzL686GftTwex+N6vWcdnzVqE1f6vT/r2wHLK1epPCuqxJwWT6s//a35N2u+cf+z7lsDdGQ84kj3rUqXm3ju382fWlWv7duP3hWh0GvktGkjexVEePfR223rrfrU5n9/XhTk/zzw/2UIuh5V1M4GgeD+p8teL6026L/ylRLw44d//JZOVypGMXmK8hIQpJ1KnSyKIjA3gJ+UxB4toohAYqiUXGtl1wQIFREgUaaiAKlGqguQqaijAAVN9RagTEUzpSKrINS2eLCJyrazqT4Os5na3mILBvk8LFM7Un+SvEH6zqWP0cDoVXn3Lt3yAfmy1mUXEfLiwHzbaLcnDrTHRmtstcUuq62y3i6F7zA52W2zMRY42hfluuuim9wA+XH7ef0cq+2w03pbbSnLDJTfd9rZY49vDzshvD1UEgmRVHqE5c4rt+5dsXU/AAA=");
 
 export default UserCowboy;

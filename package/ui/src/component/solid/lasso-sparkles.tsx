@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lasso-sparkles` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lasso-sparkles?s=solid lasso-sparkles}
  * @preview ![lasso-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/lasso-sparkles.svg)
  */
-const LassoSparkles: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M290.7 0L288 0C128.9 0 0 78.8 0 176c0 57.2 44.7 108.1 113.9 140.2l-.2 .4L160.5 340c19.3 9.7 31.5 29.4 31.5 51c0 31.5-25.5 57-57 57l-71 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l71 0c66.8 0 121-54.2 121-121c0-14.1-2.4-27.8-7-40.6c12.8 1.1 25.8 1.6 39 1.6c159.1 0 288-78.8 288-176c0-76.4-79.6-141.4-191-165.8l5.6 15.1 26 9.6C435.5 42 448 59.9 448 80c0 5.6-1 11.1-2.8 16.2C486.4 116.5 512 144.8 512 176c0 61.9-100.3 112-224 112S64 237.9 64 176c0-51 68.2-94 161.4-107.6c3.8-15.2 14.8-27.9 29.9-33.4l26-9.6L290.7 0zM351 10.4C348.7 4.2 342.7 0 336 0s-12.7 4.2-15 10.4L306.3 50.3 266.4 65c-6.3 2.3-10.4 8.3-10.4 15s4.2 12.7 10.4 15l39.8 14.7L321 149.6c2.3 6.3 8.3 10.4 15 10.4s12.7-4.2 15-10.4l14.7-39.8L405.6 95c6.3-2.3 10.4-8.3 10.4-15s-4.2-12.7-10.4-15L365.7 50.3 351 10.4zM496 352c-6.7 0-12.7 4.2-15 10.4l-14.7 39.8L426.4 417c-6.3 2.3-10.4 8.3-10.4 15s4.2 12.7 10.4 15l39.8 14.7L481 501.6c2.3 6.3 8.3 10.4 15 10.4s12.7-4.2 15-10.4l14.7-39.8L565.6 447c6.3-2.3 10.4-8.3 10.4-15s-4.2-12.7-10.4-15l-39.8-14.7L511 362.4c-2.3-6.3-8.3-10.4-15-10.4z" />
-    </Icon>
-);
+const LassoSparkles = createIcon("lasso-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABngAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCdAsGAAE2AiQDCAQgBYMtBzUbeQXIjtEnY4gjjno880TEMfHw/X6sc98XRDxDUstEDZVKaESaWWhM19Xp4tPNQt/9//3TewOXfkltbPIKYeroDfDWqSdTMfXP/zWfX9rRAX4+gkOJxqICKfCqRQHe8+F8NG8qmqYNZyOaCO9tw2MjCE+EhIRaRONJ43VaQx7P9DYoSJe0EwD75U3jL6hoI6nKACAaAQCsbEWHwt4n/EA8pm6IFxAMBMQKwCBEhgy9EMyjC/RiGARyueBTUBT+BxIQQJRAt55AjgJXuAbkIMlyRuSgkM+UYMTVMHn51XzeTcyNyxYZN10PBJzBZY0h+T4dHvbI98FuWz+fj/vuu9rNqvP8+/h7vuJM2FmcAurivEqT/KHGWMBBzF3Qkeak82b8qL4+qvkOKPbJq6MN9sFpmy1qYD9/UEkL7XEQ1e52qJnoMPWyPNGK9MqX8CTvBETP6XR6OI92D6W8eOB9vPZH+OEi2BRV4Q+Se12SuMQfGZKlKWQL5edwxfwf5a7Ox8imwbCXAxx9ynzgX5wGacT/BsqTLT9e/vYwXDw4TE05fEKD3hpeawN8cqyRMx7EWgIcDyAQ3LyJGU6Xcvnm1NAAvjwS/7XD/d9LHmkFqJRAkI1QJlKSBwCpCPgp6oicDwokRzL0qrXOBAjVCJCUqgXI9JCGIFdtGIJCP1sIStXW0EXOhdAqtYOk1g7ITKoHuVYboDBv3yu1Bj1EhQATHoipfhLynUcszSyIEzEjLEYdl0edybJmUJcqhrAS8pQrUyNXjkI1gqwSGtYq5ecRvr6IsGTGAuGEbKePapzwq1Qr1MX9LpyR866BOr/dEEwaoh21OElEkiz5+0M3rb4GVkluNQA=");
 
 export default LassoSparkles;

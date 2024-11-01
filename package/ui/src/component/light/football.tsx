@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `football` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/football?s=light football}
  * @preview ![football](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/football.svg)
  */
-const Football: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M456.2 55.4c-48.9-8.2-92.4-10.8-130.9-8.7L464.8 186.2c3.4-47.1-.8-92.9-8.6-130.8zM220 67.1C161.1 89 120.4 126.1 93.3 170.3c-21.6 35.2-34.6 74.9-41.3 115L227.3 460.7c.2 .2 .3 .3 .5 .5c23.5-3.6 44.8-9.1 64.2-16.3c58.9-21.9 99.6-58.9 126.7-103.2c21.6-35.2 34.6-74.9 41.3-115L284.7 51.3c-.2-.2-.3-.3-.5-.5C260.7 54.4 239.4 60 220 67.1zM47.2 325.8c-3.4 47.1 .8 92.9 8.6 130.8c48.9 8.2 92.4 10.8 130.9 8.7L47.2 325.8zM208.9 37.1C274.4 12.8 357.6 6.5 461.5 23.8c13 2.2 23.4 12.1 26.1 25.1c17.5 84.8 18.6 211.3-41.6 309.5c-30.6 50-76.8 92-142.9 116.5c-65.6 24.3-148.7 30.7-252.6 13.3c-13-2.2-23.4-12.1-26.1-25.1C6.9 378.3 5.8 251.8 66 153.6c30.6-50 76.8-92 142.9-116.5zm82.4 119.5l64 64c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-64-64c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zm-56 56l64 64c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-64-64c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zm-56 56l64 64c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-64-64c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0z" />
-    </Icon>
-);
+const Football = createIcon("football", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABhgAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCMwsGAAE2AiQDCAQgBYMtBy8bMgUjEbZaDgqQ/bGQnbR4j0yVl4xkORIPz9tVf+6rGlWvUWvqMwIRgcqW4SD9jBjNph0AE9fUDy16wCR+etMorASp1XnH+QQGOCtO20Re6Cf0Qrq3DUcEiWGjESJCFtF4OV53yOP7GK2G9FK6hidqqeJvPd0ryTMA0QEAC7ZtWuOXX+PXiGvVL4lrViEgFoJSIIMrfQSYLRP0HXIlcrng16hW6T+wFEDU4i8mkKMBZ/AUkIOkLs/rMnvWdm3H71dq2uZbKzXFsebFW6Jl4ObGzZ+UW+Kuyl3x9bCWbZ8P2ipAcfOLwdsbBzQt27qrZcubPZs2NyJr61u9mre1/OqWDRs3PNfl2W4b4/nuL3RdTzU18L0O7/074NrRay4+uLzyzCMPy5Zd+buydeCwRa2PfvSxBYLBV5LxQVoQN0++Wu4f8kqPSZvbLqjZ1FpGrRy95sBQw3+5xyJ/w63V0vHyy+++W+0jFfLOO58DgWD/yc//2td+dmt9JYHfv/u/lWqiqP4c19N7qJdAkI2ujt6dKBRxXeA0xS0GOhULJEfUAZS1jecDhAIBklqFAJneOgiQK4wSoEY/UwSoVdgkE3mD0MUeIZM2LpCZqW4jc118TtaY7WJaq0tkESjFj/QBTJ9aquElx8oJY8eXM8tp35CDSsD9WeW2MfyWPDcCrjp67uxNRw6fuEkRN6wpbj6z1MOXVFhOGDu+nFkej7bntx654cYT587SIbPK+8nwW/zVI8BOmHNiV5KIVP9mAQAA");
 
 export default Football;

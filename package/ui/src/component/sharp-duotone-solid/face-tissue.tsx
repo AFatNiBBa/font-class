@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-tissue` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-tissue?s=sharp-duotone-solid face-tissue}
  * @preview ![face-tissue](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-tissue.svg)
  */
-const FaceTissue: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256c0 15.9 1.5 31.5 4.2 46.7l205.9-38.1 45.8-8.5-8.5 45.8-9.4 51 18 12 39.1-26.1 8.9-5.9 8.9 5.9 40.3 26.8 23.7-11.8 14.3-7.2 14.3 28.6-14.3 7.2-32 16-8.3 4.2-7.7-5.2L304 371.2l-39.1 26.1-8.9 5.9-8.9-5.9L231.7 387 209.3 507.8c15.1 2.8 30.7 4.2 46.7 4.2c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256zM112 128l118.9 64L112 256l45.7-64L112 128zm169.1 64L400 128l-45.7 64L400 256 281.1 192z" />
-        <path d="M0 336l216-40L176 512l-48-64L32 480l32-96L0 336z" />
-    </Icon>
-);
+const FaceTissue = createIcon("face-tissue", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhQAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCJAsIAAE2AiQDCgQgBYMtB1IbSAXIjsM4Jvyg8xALLR7+s/v/9qnq9z6g/oCZSbNypzORwAgKwtsBAPX//7if57+K/vnf9oyG0qmZ4JnnExhwlDdVkc50Bra3aWZREFg9wQiRFhE7Pj3OraGIz/MVVaTH0oe4Sf8DGH9r5QpJrQwgGgbAxOWL53r1V7+m+LDyHPGhOQiISaAUyMhoK8AYWaCtQolCIfg1Vc6vUXlJAFGN6Mxe7U+wC9cABUhCLop6k2vVqlNVr1gWQ7Vj+ZJ8YEyKJbE85sWFVssN11apq9FaaGak7jXdSlNdMNvcKCNAhZ9ZEo/X+Wb+J5PfWP71pNfnfbzsyzkfTnh1yfKly5YuickxaenyJcsnxMRY1umZhs/82/HDbR868E13p4p3V7G+gw7rq3i15bCPuvrWdZe0sdNVV51y2td+8LWKI47auVryp+Yn2txyehdvt2ppSNNbtrp9Uc9j+88fG99Jv9ifmupgJo4HgeCVDw/8sb7BmNWsk8Dvz///V/Q7qryapGdQUwJB7vM+1iSQCABAimM6JSCQLZW1e9X1QIBQGwGSarUFyNpoOKFQW2+o0t5QzeHsxbIoaglNrQVI6joI2TBnodDUs1BljHcy1ZpG1j2d5uj+/DJP48jUUeXAfgPKUeVrwaNXJ00ZHF0eu3scSw09YaVt9tvniK222OkIEw+Zmz9qr2k7YaovKg3UzwClUcrr8tK8DDOHHLZzbbwfZrTye38Px/bte4IvaUoHGZNlIkVuYtnevkes1t7XipuaSaPBAg==");
 
 export default FaceTissue;

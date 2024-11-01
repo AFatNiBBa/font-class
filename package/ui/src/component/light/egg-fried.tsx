@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `egg-fried` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/egg-fried?s=light egg-fried}
  * @preview ![egg-fried](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/egg-fried.svg)
  */
-const EggFried: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M461.1 182.8c31.6 42.6 22.6 102.7-19.9 134.3c-13.4 9.9-28.4 15.8-43.8 18c-23.8 3.3-49.1 13.4-70.9 26.8c-21.6 13.3-42.8 31.8-55.7 54.1C235.5 477.2 157.2 498.2 96 462.9S13.8 349.2 49.1 288c28.1-48.6 42.7-116.9 47.2-168.4c2-22.3 11.7-44 29.1-60.8c38.2-36.7 99-35.5 135.7 2.7c17.9 18.6 42.8 36.8 68.2 51.6s53.5 27.6 78.5 33.9c20.6 5.3 39.6 17.4 53.3 35.8zM415.8 116c-42.4-10.9-101.2-45.1-131.5-76.7c-49-51-130-52.6-181-3.6C80.1 58 67.1 87 64.5 116.8C60.2 166.1 46.2 229.1 21.4 272C-22.7 348.5 3.5 446.4 80 490.6s174.4 18 218.6-58.6c18.8-32.5 66.1-60 103.3-65.2c20.5-2.9 40.6-10.8 58.4-24c56.8-42.1 68.7-122.3 26.6-179.1c-18.2-24.6-43.5-40.7-71-47.8zM224 336a96 96 0 1 1 0-192 96 96 0 1 1 0 192zM96 240a128 128 0 1 0 256 0A128 128 0 1 0 96 240zm88 0c0-22.1 17.9-40 40-40c8.8 0 16-7.2 16-16s-7.2-16-16-16c-39.8 0-72 32.2-72 72c0 8.8 7.2 16 16 16s16-7.2 16-16z" />
-    </Icon>
-);
+const EggFried = createIcon("egg-fried", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABpAAAALFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SCcAsGAAE2AiQDCAQgBYMtBzAbcAXILgpjY3rUzRReZCNrQp+c0j8bD9D+/v/XzNnnAWQ1E6wEIkMJSvg/3b9fW+8zJFOvsG0TkogqJ6mZevIuFpnLWiz/hcBftfo+cT/1x/mnAnlGH6XCYpEgBZ553mADHCVF22hAeT6bKM5v53sGdCIGgxD969IfthvWX/8ASbgaakgTd8RnWJfnh++KWkGUpBSEPHhMbQfHcDj9iD6G8CwD4ZnuQIDQDqCMgBRSKCGAFlICSkiUQSIR+Bgytv/AMgQgZIJbR5AgM3bhICABUTpJKlYUi9nkdM5kEG2ebfKZEijsrjKp2QzsWhYj95pdUY3bV+QjYXPzgnfLOBfc804ZkxeaoXCl2jH2oMU1yaC53LKqXMMfd37aflf1Bf2M+UQ9YVv2xVdWQuFosX60tPjAYTPyqopTwj5YUqRXM0katKQqCieqzhlJKlkBLa02L5BWVpmdDdmXFkZhW/Zthbt5k3NE0MXtH6KaZ8x/lX026ZlnWaYMBBj4X6tpHYnl2z7PmeP/N69PRzpeO1NJ1dfq0+fmaXZW8bu7dlk6ggFzEoo67eVqevvmyvzPuenmy1fBL7cfLz4nDkwd17rXf/NNsRFgxP0HwqLX91MjRJTjli4erc5BjtevVOUeXlNylEcO1gzJewWcyvuWK9fHj+767Q40ICBQZ8/T1tG5W/yRPYLPV37/8dZ6jZgpnkQWEQRSNTIYETHESQGkYphFhW8SEG2SRskctt5mg2wMRJlkQ0pxeZDIpjrSSmmoCO3+IiEkWSULGGkR5TAVKY0sRKKAs0hr4WEqkwIhpaCaemmfh9nYSkenKeraHIqQ4jGn6zqnxN6wQuxW6fQ1RqyErJqqdhlpBe0L24RnO1RgHBP1Qwp11VJHGc2UuS6+L07KaGpTUFNN/TRX5v1kFbP45lURICii9cyNIiFmnTg5Z/1hrpMGAA==");
 
 export default EggFried;

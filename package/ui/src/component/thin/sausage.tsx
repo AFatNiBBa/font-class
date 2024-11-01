@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sausage` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sausage?s=thin sausage}
  * @preview ![sausage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sausage.svg)
  */
-const Sausage: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M369.2 3.8c1.5-2.4 4-3.8 6.8-3.8l96 0c2.8 0 5.3 1.4 6.8 3.8s1.6 5.3 .3 7.8l-16 32c-2 4-6.8 5.6-10.7 3.6s-5.6-6.8-3.6-10.7L459.1 16l-70.1 0 10.2 20.4c2 4 .4 8.8-3.6 10.7s-8.8 .4-10.7-3.6l-16-32c-1.2-2.5-1.1-5.4 .3-7.8zM16 400s0 0 0 0l0 59.1 20.4-10.2c4-2 8.8-.4 10.7 3.6s.4 8.8-3.6 10.7l-32 16c-2.5 1.2-5.4 1.1-7.8-.3s-3.8-4-3.8-6.8l0-8 0-64 0-24c0-2.8 1.4-5.3 3.8-6.8s5.3-1.6 7.8-.3l32 16c4 2 5.6 6.8 3.6 10.7s-6.8 5.6-10.7 3.6L16 388.9l0 11zM424 80c-39.8 0-72 32.2-72 72c0 48.6-22.8 99-61.9 138.1S200.6 352 152 352c-39.8 0-72 32.2-72 72s32.2 72 72 72c92.8 0 178.4-42.5 239.9-104.1S496 244.8 496 152c0-39.8-32.2-72-72-72zm0-16c48.6 0 88 39.4 88 88c0 97.7-44.7 187.2-108.8 251.2S249.7 512 152 512c-48.6 0-88-39.4-88-88s39.4-88 88-88c43.7 0 90.2-20.6 126.8-57.2S336 195.7 336 152c0-48.6 39.4-88 88-88zM400 168c0 128.1-103.9 232-232 232c-4.4 0-8-3.6-8-8s3.6-8 8-8c119.3 0 216-96.7 216-216c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const Sausage = createIcon("sausage", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABqAAAAK6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDGAsGAAE2AiQDCAQgBYMtBy4blgXIHodxTLIBm0e9KnrwPOlR709mAWcFnCpYHa0O4KI8I0STu5qHHHhggfqnXu/7/F/T754fHWCRH0onFcg1flyWwJ4PsGgWaQNOoZlOwDY4b9QBhaaQfgJaztIHG1Cr1Q1gofsoeUOAaaAwDAAAxB0AAChv37oVl+qlXuSGdRzkBi0AAZAKAEwCGHB9MAGgiIF0T6AxgUYjUC+WZf8DTRAAEFvCIysANGAH7AHOAgAaAIWN1iFxkZF+TjYuup2TjWP/lU5OMtdnube/LPNd4RckjhIgy72X+QbKCr8+k0VksiCxsnIeitIF2pP9Blr0KlKM0H9b3JJd/pOC18Xtyjrm2KHZzavjd0c/bnG99GLm0fZrEvbEyPF4kd0hD9IetLzU5kqbE30gdGPi3ty5uSezIGyjILnNTEXkUJ0IB1b4rvR73Pp+e3zzcp+IPe573oXf6HeDEWcjdQ90pJeXRfa3jllKDawSc72yLYa79JgLAIXy9cqJbm2RHkAbe8rwpzNq22IzfWCXfJxWltZnQuZEf/mcpJZGd2gmuybr6qt5fv39+3NRjXZxL5sFszTNboeUuX0sC/nbjAHNZI3tsvC1yZm99fXhzc5+/SlrgqYSKFl62Nr26Cw3bkjngob3A4AAAv0urdXdreibvZMCoPHMv+HPCOuSQu0B7FEACBhJVhJdFAAKBAAAAFAyjogGEECxBRtC7MyKo7ngCBhT2OKIGQRxxzSOJGI2hMpmNwKtMRDtwCD21hVhCmdGYgY5xmMab0cxG4pcTmzxLuOm5W85/pcxpaYLVy8y01PSzAJztqYS7kNWzxaam524cbwnHm6hH8MZxhj60oeBBd1BR9EqH8tQapaQar6IKV2KNKYC5uHmQ7kdlsmU0ZadFo7Po5B5fRxn3PLweOgrAmWGDQoFouxG9/weAA==");
 
 export default Sausage;

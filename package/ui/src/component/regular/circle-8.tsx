@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-8` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-8?s=regular circle-8}
  * @preview ![circle-8](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-8.svg)
  */
-const Circle_8: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM264 128c39.8 0 72 32.2 72 72c0 15.7-5 30.1-13.5 42c18 14.7 29.5 37 29.5 62c0 44.2-35.8 80-80 80l-32 0c-44.2 0-80-35.8-80-80c0-25 11.5-47.4 29.5-62C181 230.1 176 215.7 176 200c0-39.8 32.2-72 72-72l16 0zm-16 96s0 0 0 0l16 0s0 0 0 0c13.2 0 24-10.8 24-24s-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24s10.7 24 24 24zm16 48l-16 0-8 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-8 0z" />
-    </Icon>
-);
+const Circle_8 = createIcon("circle-8", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABjwAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCUQsGAAE2AiQDCAQgBYMtBy8bUAVRlO5Fi+xnQqYy2GOxhFJExKG2Y4dgHrfJjsXDX74XD/9/79s+592XWqh7QpU6WGkY4L48VDtoQAOYqWBZo8Mz+v9vzP2/+d0U08NcEyS3JpagqltdKDwK4r8UF6dOPc95KIBvFLSxcE2QBbjXeQQilosHfHKtYDWtgNWluk181lGFT4eIBEpEx+nxBe1Q4iNu1eRbfgNuxpvGX7raSXUFIHoAgJWdtAQ4U8VXxGdjm/gUBwTECsA4RIUKwxDM4woM4xkHiiL4wkb8BjIQQDThv0OCgmac4xFQQKpLGRqaMdLWpnwpL5PySU6LI+JK7AMRfWe/BM0OyzH3dNyj0ypKfsMQL5Ne6YTnkPOMr+Cz+Cci8SX0IjNn2gZxXrdZZ95wyHrOneCO7YLRqN0ADtotWtH0FkRsQYot2IKz+gOWBKd0+i0MCSUdGl3QrNlNKXZq92KLVg8hpguKhT+Tp/wneD31OQFYkVAvLypZOfHxOdHtN4gQA+hunoeFnW/qiiHCRvGAsEnlBtxkOuc7AszMUzDoyctEwc27jszNzZ6KfBdAD8DaoGaKqdbj6qenXU0eJ0e0AIFgtbv4967c/18LTfDn4P8/fIsaZynf0SJBUE02JmUlQBIAgIxjpgmBdKLGr9rhWYDQhgCpSZsAlSEKCIo2ExDURnlA0KTNBq4orcKAbAWpwx6ozGkAxYBNUJt3azcZiCohiXQi3oOxkRaKWGIujs7Ml7kRIXMMq1M/ts1Z15eKDW1CvgrlauXJVaTWINUSvDplIiM4wgcxLhw5Y3yx4/R1PVOeajWKVCjvc/yw+5a1+rjdhkQORp3iS0lky78d3sEb");
 
 export default Circle_8;

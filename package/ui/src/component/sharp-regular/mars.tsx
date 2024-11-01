@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mars` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars?s=sharp-regular mars}
  * @preview ![mars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mars.svg)
  */
-const Mars: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M312 32l-24 0 0 48 24 0 54.1 0-83.7 83.7C252.8 141.3 215.9 128 176 128C78.8 128 0 206.8 0 304s78.8 176 176 176s176-78.8 176-176c0-39.9-13.3-76.8-35.7-106.3L400 113.9l0 54.1 0 24 48 0 0-24 0-112 0-24-24 0L312 32zM48 304a128 128 0 1 1 256 0A128 128 0 1 1 48 304z" />
-    </Icon>
-);
+const Mars = createIcon("mars", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZgAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBVQsGAAE2AiQDCAQgBYMtBysb0ATIjsQ4JvKLKOwiHv5/Pz/3uXlDSQb5DTMrIDWsCBWRowKg/au2q7I6+V4b8vu3uJpHF8gDkbrxz/+8S+PznCfQ/LT+PE8kDCzTBKzd2QiHsHJIWkRLjks7Po8TsrgZl1UjXU8/4FJ8aPyruTMk1QoAoh4Axi1ZMMsnVVEV8X1l4nszEBDjQC5QQAGtBBipINBKJkcmE1RFpWL/gTkBRHV4vwQyZJiJZYAMJCnLurUsVaudLS5VK24ploqiVFoYH03+Y+4vC/+c9+uivxf8vuTB6CUhRClwv7jxZI+IJz2elM51e2REJ7o+FItnuz8mRPvH9R7/1w+bfzDkbjMg9NVs8IIFPvtkekS9SPR0paFyz6E1WDN9M7WX3OxI3Q5lyr/+0r79L7+Wyx1IQF8HAsHLmbfWrKk78v+apQT+eUv5jFSq4pP0GDUlEBR6VnpaGZ9AfCIAACkOax+fIJBMlCAuu7LrhSIakuqKUNBSPcgU9YBq2hgkMc0FLDGyWnAjqxQkZfugYLCjkGnkDVQz0td2dY2iIFKKQCgvuszJlJk0lffr3Tcfnk8DVZUSyQ9H5GzU9bArdAOyzfbY7aBNNtrmIMLtN8s7ZJfJK3aSF+X66a2v3HD5dnx/vNgm+x2wzR67w5gR8vO4q8Pr+m4wTwL0vwxfIlL2+y4AAAA=");
 
 export default Mars;

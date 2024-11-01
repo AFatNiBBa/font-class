@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `deer-rudolph` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/deer-rudolph?s=regular deer-rudolph}
  * @preview ![deer-rudolph](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/deer-rudolph.svg)
  */
-const DeerRudolph: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M240 0c8.8 0 16 7.2 16 16l0 24c0 13.3 10.7 24 24 24l8 0 8 0c13.3 0 24-10.7 24-24l0-24c0-8.8 7.2-16 16-16s16 7.2 16 16l0 24c0 8.6-1.9 16.7-5.4 24l39.5 0L416 64c13.3 0 24-10.7 24-24l0-24c0-8.8 7.2-16 16-16s16 7.2 16 16l0 24c0 20.7-11.2 38.7-27.9 48.4l43.7 39.7c7.3-9.8 19-16.2 32.1-16.2c22.1 0 40 17.9 40 40s-17.9 40-40 40l-.1 0c-2.3 35.7-31.9 64-68.2 64l-42.3 0-16.1 48.2c-.8 2.4-1.2 5-1.2 7.6L392 472c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40l0-96-6.8 0c-22 0-43.7-4.6-63.8-13.3c-4.3 17.1-14.7 32.3-29.9 42.4l-6.5 4.3 17.8 48.8c9.5 26.1-9.8 53.7-37.6 53.7l-46 0c-16.8 0-31.8-10.5-37.6-26.3L31.2 423.9c-5.6-15.3-5.8-32-.6-47.4l8.2-24.7c.8-2.4 1.2-5 1.2-7.6l0-4.3c0-6.4-2.5-12.5-7-17l-1.1-1.1c-1 8.4-8.4 14.7-16.9 14.1c-8.8-.6-15.5-8.1-15-17l3.3-53c1.1-17.6 6.9-33.9 16.2-47.6c16.2-30 48-50.4 84.5-50.4l191 0 7.2-24L274 144c-9.9 0-18-8-18-18c0-8.2 5.6-15.4 13.6-17.4L320 96l-24 0-8 0-8 0c-30.9 0-56-25.1-56-56l0-24c0-8.8 7.2-16 16-16zM354.9 135.2l-19 63.6c-3 10.2-12.4 17.1-23 17.1L104 216c-26.5 0-48 21.5-48 48l0 4.1c0 6.4 2.5 12.5 7 17l3.9 3.9C80.4 302.5 88 320.8 88 339.9l0 4.3c0 7.7-1.2 15.4-3.7 22.8l-8.2 24.7c-1.7 5.1-1.6 10.7 .2 15.8L96.8 464l28.9 0-20.3-55.8c-3.8-10.4 0-22 9.2-28.2l22.2-14.8c7.9-5.2 11.9-14.6 10.4-23.9l-2.9-17.4c-1.6-9.4 2.6-18.9 10.6-24.1s18.4-5.1 26.3 .2l13.7 9.2c18.4 12.3 40 18.8 62.1 18.8l30.8 0c13.3 0 24 10.7 24 24l0 112 32 0 0-152.2c0-7.7 1.2-15.4 3.7-22.8l21.5-64.6c3.3-9.8 12.4-16.4 22.8-16.4l59.6 0c11.3 0 20.4-9.1 20.4-20.4c0-5.7-2.4-11.2-6.7-15.1L408 120.5c-6-5.5-13.8-8.5-21.9-8.5c-14.4 0-27.1 9.4-31.2 23.2zM400 144a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const DeerRudolph = createIcon("deer-rudolph", false, "data:font/woff2;base64,d09GMgABAAAAAANcAAoAAAAABxgAAAMQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiECwsGAAE2AiQDCAQgBYMtBzMbDgbIjtMl9jYBdTw85Ga9n6QGlIGapmO6Iq7QVbGbGOt63Oo446y3FvUi3+X4Xhennuc8FA69hSSoY1lyvm2ChMbqWOcV6PkctAaVi6UJFlHs24ajHCH5JEKCxMQxHa8DZPFJXERNJFf0t3Gh/Gj8rN9pJJpSAFEBwMpbbrq+5xvRiHhr4hHiLesiIFYGuUCKFEMCLCcVGJLJkckEjZiY6P+BOQFEMz4vARma8BP+4LydRJpl5762YlN7tkWxqbDt5d3iil0s3pYRdVekk/SG8bV81Ovc7sv7x7sumxoxfm+fWoihuIxcIy4rFOIc1CJChENWVywcV3juXIhbY5G4Mgej3iJORk9cxjVMiavyqhm3FYsxGIWoRb13zSgUbsWSItDcfKFFFwpNulkv6xMnWXfckS/00Q62cBRjkbjSZ0QdA1HzuuGTYtwyRTF9Y98y6lWM2/Lknk2ixjePxS/vvqyr1tNumHxn5c5fx97e422/P9co9+neuLV14+4+5YbC29eZMfJiJt333btS9a47ufNOzB4bu36OCWl2PVWfvKu6kOpdT1Z30mLsl60P3FXFZvfdt9F814/v78gjjpJmmcIezCt/UJ5q4JtHt9t+6Dl7GvJHpfTSkL7KQf//3tKn3DjkjAXs29EHFvr0nfThKRa12kimtMxRenvWMmxNK/20g8dHciOvv/bahx6cPGrj7oPkxpWW6VrJDpY1Vm3b/VRnte90+OuNcrkxiUCc98/s7b/dcdJy/7ZKAr568vf/yMMmnk8WSu4kWiUgSOdOzLVdshIqyUICAJDEESYbBQskvpICKyW1qBcKbEg0K0BqUAUyBXOgyYjFKefsTaUiaxO6bA+QKDkYUks4HjJdHoImy3nNbtYVabUztcp8NhPX0MjqnfKF5y+UL5NfA4stYGq0Lpu75ZlHYMksWGkPBzrAYXa3m70dprBDrO8dbn9rWOjqCpRb2HwLyS0jD8efi7ewu0Mcam8HOoDaWVaer8x0hF19FnQjASxSJxSui6S02+67HzLvkMN3O3C/g/YCAAA=");
 
 export default DeerRudolph;

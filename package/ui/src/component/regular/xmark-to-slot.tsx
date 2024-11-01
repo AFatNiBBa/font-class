@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `xmark-to-slot` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xmark-to-slot?s=regular xmark-to-slot}
  * @preview ![xmark-to-slot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/xmark-to-slot.svg)
  */
-const XmarkToSlot: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M144 80l0 280 288 0 0-280L144 80zM96 360L96 80c0-26.5 21.5-48 48-48l288 0c26.5 0 48 21.5 48 48l0 280c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0-288 0-48 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zM64 288l0 48-16 0 0 96 480 0 0-96-16 0 0-48 16 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48L48 480c-26.5 0-48-21.5-48-48l0-96c0-26.5 21.5-48 48-48l16 0zM207 135c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const XmarkToSlot = createIcon("xmark-to-slot", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgwAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCIwsGAAE2AiQDCAQgBYMtBzQbJwXIhuB7m+i+fyeNLTDimVhmos7jkiBYhUvAKh1wj5q0WCWtJq55/mnfgGVP8GhRmKuySPsbZZ5PYICzwiia0GjD2URxu7NNkTTtcUhLGcnxWY7HGfL4OR4okV5K3+F+/tD4U093SEoZgOgAgPlbN672RTOaEd+2PiK+tRIBMR8UAhky9BFglkygj1yBXC5oRqvl/wMLAogyfo8EcpRxGbcAOUjyPG/ba8SAaqmeb6mWKjtTluqRRW1blrJXuj8fVo83uz7tmeLNni8GV2pv9Xpl2BahEqIeEZWIqKoHxIsuTwbX4q1uz3pFbAWqW98eMjvmhhO81GNWzA7BG0PnxKwQvNx7bsyJzQPf6/De3wO+O/Kd+2d7cH2hh2Jc93pE9v0vjULjl++zHtZ37bq+sQ4j/Zc2MN/BPs2Id9BQxs4+s8PNFuxw70W9/o9/FPSnn9B/tJXPA4Hg7kvvv763/az/2lQT+OPzf/+nx7WaaV56D20kEGSjW6PtSvMAxQEUU1wxUPmiQHJajl+15pkAoYIASVlFgExvHQTIVYwSoKSfyQKUVWyUibyt0MXuxiY159nMFLfZXBcfsCWzfFko6xKZ5al2o378spZIYPG6YvzYRjGjGDZVzZjktDyzWLaHXwlDI2CvI84645LDDjnukmAuWF2+7LQlGrbYDxXGG6uhMEOx3bnfvsVhF1x03FlnaJWZivPJ4a7ok0eAl7DkBI1JIlL92hXNjbl0dsxrBAAA");
 
 export default XmarkToSlot;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `network-wired` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/network-wired?s=thin network-wired}
  * @preview ![network-wired](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/network-wired.svg)
  */
-const NetworkWired: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M400 16c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32l160 0zM240 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l72 0 0 56L8 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l144 0 0 56-72 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-72 0 0-56 304 0 0 56-72 0c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-72 0 0-56 144 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-304 0 0-56 72 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48L240 0zM80 336l160 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32L80 496c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32zm480 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32l160 0z" />
-    </Icon>
-);
+const NetworkWired = createIcon("network-wired", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABqgAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDQAsGAAE2AiQDCAQgBYMtBzQbxAXIHoVN2S0WRzjKa9t7CCHiN57nO/rdNzN/2lbbvWhdQVfhwMIs28jDaAPvpAlk9XL4e4FejBfAteiOcpXORcmiyaQC/0ecrpnQAy68+9Sp5zkPBfA5BEEZa4Mkned7nVdgCdXGpgrVirVezQvutW1GDra6SYiEHRHFt/vww/InaPmRTpjymjvAo75o/qCmEYpaAZBpAMD5bVgALp7pmeju/xH5gh8I5ALAKkJFxSICRwQFi4SsgqYJP/T/P/8HcgiQDvkhBTR0vAM+ANBA0ZqQeqG6OhOWEopkA4msjiEaIvcdlJCg9h0morobYSxysUSDD/Q6Q4aMkHEa7JASI2SUFht+y8qNaBCN77CRBBFJoXJGIzesLNkaacNoNso65hHjSV23k9667PqL7l3mnZ4d6VYepJOhOEOzjN34ZWzugW/BZAh+39t4w4WN5N6Te+3xFrOszRIz0QmSejc0J38maFbqT/ex8Z7vexwIwvSYvH+SzNGbGBMA/J6/fuv9+L9IbdYxrIBQ1/9biC/3wOgAWUkl9MAbBcUbGnnWcU8IiFEEFN2ogGqBLALNqDUEBpY5ItCNuiQoTRwxL8FAMe4OVDuqQDPvAAwcuUy7+QgmMp2G9G9kgqeHPJZxWysb7saHdY3JTRLOu/Npw6Sy9pmWrchUpFC5DOlylDukVEC+QgFPBHv4IM6WFRucG77cuhciXVqqTE7MrS/iju9PTFTi0abFFiCYGyqKQorUay5afjTEdA==");
 
 export default NetworkWired;

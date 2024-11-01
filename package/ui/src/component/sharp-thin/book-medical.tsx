@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-medical` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-medical?s=sharp-thin book-medical}
  * @preview ![book-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book-medical.svg)
  */
-const BookMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 56C0 25.1 25.1 0 56 0L440 0l8 0 0 8 0 400 0 8-8 0-24 0 0 80 24 0 8 0 0 16-8 0L56 512c-30.9 0-56-25.1-56-56L0 56zM56 416c-22.1 0-40 17.9-40 40s17.9 40 40 40l344 0 0-80L56 416zm-40 .8C26.2 406.4 40.3 400 56 400l376 0 0-384L56 16C33.9 16 16 33.9 16 56l0 360.8zM200 96l64 0 8 0 0 8 0 64 64 0 8 0 0 8 0 64 0 8-8 0-64 0 0 64 0 8-8 0-64 0-8 0 0-8 0-64-64 0-8 0 0-8 0-64 0-8 8 0 64 0 0-64 0-8 8 0zm8 80l0 8-8 0-64 0 0 48 64 0 8 0 0 8 0 64 48 0 0-64 0-8 8 0 64 0 0-48-64 0-8 0 0-8 0-64-48 0 0 64z" />
-    </Icon>
-);
+const BookMedical = createIcon("book-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgwAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCWQsGAAE2AiQDCAQgBYMtBzMbXAXIjtLU8KRNkeZSeoRKzsP3a32e+7pneJF7AZACgJ4lkBoXMuZX7FZk7E4jNDC/m/9r6sXzo6Pjb3QoEbm2SowIgT2f6Hw+0LaBzXQCNtsmIYJtcltEiPXTMEbDUi8qoZwL5PGlE0qkz1N4Vz80nunnJZIsAxBdAbB09/aNWh3REfFP+yfiH+sREEtBIZAhw0ABFsgEBsoVyOWCjmi35T+wIIAow/0nkKOC9/AJIAdJKc8Hd+08fmij1Cnf1SjVsy/7RHw6ulNDpBD1umg0RL35Ve9P+md73+gZ8ZEnvT5uGBHNGVNWZCxFrfMjaX+j3hDDukVGPCKIiEYju1M4mxGNMj94E2HYd12/+29op/JaZZ5feVLFe6qqfbfoW+2q+uTK8yvvzT7d7Xt+79bt9++77bHFnivtK3c8cYdSEp39ZQma11QtsaQqUVVdMtbHKpur8JdMqdERMmyvBwLBi7KFh7ss+J9GAv/+/jP6GWm3opW+Q1UCQTahPcGBaEG0BAAgxS3DooVA8poSvGvTJwKEOgIkZXUBMgN0FSBXN16AksFmClBWt10m8prQ08EMkqarIDPLQ5Dr6QdQssAfxbKekU3JXSnuT5i8itGVp4qpk6YU84rmQOLvGcPh/GLaHnMrLIyls0657JIbTjrhrBsGv2Zj5aaLVvWwlb6oMNUkUxTmKbbHe3kXF6+57mzr9o8xX3E+Ncat/vqx5CUgnaYlSURqHqtPfKIAAAA=");
 
 export default BookMedical;

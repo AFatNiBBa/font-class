@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vector-circle` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vector-circle?s=light vector-circle}
  * @preview ![vector-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/vector-circle.svg)
  */
-const VectorCircle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M280 32c4.4 0 8 3.6 8 8l0 10.4 0 32.5 0 5.1c0 4.4-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8l0-48c0-4.4 3.6-8 8-8l48 0zm40 26l0-18c0-22.1-17.9-40-40-40L232 0c-22.1 0-40 17.9-40 40l0 18C128.6 78.5 78.5 128.6 58 192l-18 0c-22.1 0-40 17.9-40 40l0 48c0 22.1 17.9 40 40 40l18 0c20.5 63.4 70.6 113.5 134 134l0 18c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-18c63.4-20.5 113.5-70.6 134-134l18 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-18 0C433.5 128.6 383.4 78.5 320 58zm-.2 33.9c45.9 17.9 82.4 54.4 100.3 100.3c-20.2 2-36.1 19-36.1 39.8l0 48c0 20.8 15.8 37.8 36.1 39.8c-17.9 45.9-54.4 82.4-100.3 100.3c-2-20.2-19-36.1-39.8-36.1l-48 0c-20.8 0-37.8 15.8-39.8 36.1c-45.9-17.9-82.4-54.4-100.3-100.3c20.2-2 36.1-19 36.1-39.8l0-48c0-20.8-15.8-37.8-36.1-39.8c17.9-45.9 54.4-82.4 100.3-100.3c2 20.2 19 36.1 39.8 36.1l48 0c20.8 0 37.8-15.8 39.8-36.1zM429.1 224s0 0 0 0l32.5 0s0 0 0 0l10.4 0c4.4 0 8 3.6 8 8l0 48c0 4.4-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8l0-48c0-4.4 3.6-8 8-8l5.1 0zM288 429.1l0 32.5 0 10.4c0 4.4-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8l0-48c0-4.4 3.6-8 8-8l48 0c4.4 0 8 3.6 8 8l0 5.1zM50.4 224s0 0 0 0l32.5 0s0 0 0 0l5.1 0c4.4 0 8 3.6 8 8l0 48c0 4.4-3.6 8-8 8l-48 0c-4.4 0-8-3.6-8-8l0-48c0-4.4 3.6-8 8-8l10.4 0z" />
-    </Icon>
-);
+const VectorCircle = createIcon("vector-circle", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABwwAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyEHwsGAAE2AiQDCAQgBYMtBzQbIwbIhof/X8u67xecTHUYKq2GeYkVE9qAXEKHrUaozEok1VeX6pfxpwdcktdHqSW1ctPj1KalgkWoFvCAhQIW0whYNHN7w7WoZr9hIzwhj09itYL0amrh6eJD40djHiDJMwDRC4CDTj7+OF8uxVJEq/0e0XIMAuJgUAtkyDApwG6ZwKRcjVwuWIp2W/8PrAkgSuE7J5CjA3/gf0AOkjLPB4/eNT003Si68pMaRXXxi0NCiBcGq3hpOOLlkcaOEPcOv1RV8djgC8S7uz+dxJp7hl5sNOLNPZ9twZrHR16OiA8O+GIG0r61b+39fKv3VkTMT72gkKE3ls9tfulYZPD9lQvTLy9Hht9etbjtxeMiIyfea3EJ1hANbrD4ecsnCB1hsvOTll/dXOhd+Hm2dVHLyNvnlJVZhfKc9WCsL9y39oeH+z5e7Fuvb/Hjvn7tZrPdD75HfbxY5fzdzTWP8sq+/Quv9a7X+9rC/n2vPLpmemG+FZ5fmJ6pUD93xf3ALKjeJRfp4onWbOiqepIYKn5ubWAqXlEBgWD44L6zzu7Z/XdHI4HvP/71b/xX1P4ySQvokECQrW6vdkYCiQAApLhJM0Eg+UEpPNXpJQFCBSApVZCZ0Au5yiooTNtyulQ5XibyZcKgMwFJp2shs9WdkBv0DhR2+ypTGoyM7iWqlT470w9vk4etqjesXV/vrCcLKpmUBWdwV73as/wmo2EF3+kiV7vKDS50gUvd0KKvc1z+Rlc6fI46zBfVNlhrvdpO9e7y/c0nudB1rnepq13lTbJLfX5iuZvm26/g/iRk3ehUkojUddOF599w9XVrfhEC");
 
 export default VectorCircle;

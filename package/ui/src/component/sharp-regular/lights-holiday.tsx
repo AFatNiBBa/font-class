@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lights-holiday` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lights-holiday?s=sharp-regular lights-holiday}
  * @preview ![lights-holiday](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/lights-holiday.svg)
  */
-const LightsHoliday: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M12.8 88C2.3 109.6 2.3 109.6 2.3 109.6s0 0 0 0s0 0 0 0l.1 .1 .4 .2 1.2 .6c1 .5 2.5 1.2 4.5 2c3.9 1.7 9.4 4 16.7 6.8c14.5 5.5 35.7 12.8 63 20C142.8 153.7 221.7 168 320 168s177.2-14.3 231.8-28.8c27.3-7.2 48.5-14.5 63-20c7.3-2.8 12.9-5.1 16.7-6.8c1.9-.8 3.4-1.5 4.5-2l1.2-.6 .4-.2 .1-.1c0 0 0 0 0 0s0 0 0 0L627.2 88c-10.5-21.6-10.5-21.6-10.5-21.6l-.1 .1-.8 .4c-.7 .3-1.9 .9-3.5 1.6c-3.2 1.4-8.1 3.4-14.6 5.9c-13.1 5-32.7 11.7-58.2 18.5C488.4 106.3 413.7 120 320 120s-168.4-13.7-219.4-27.2C75 86 55.4 79.3 42.3 74.3c-6.5-2.5-11.4-4.5-14.6-5.9c-1.6-.7-2.8-1.2-3.5-1.6l-.8-.4-.1-.1s0 0 0 0s0 0 0 0s0 0 0 0L12.8 88zM116 222.6c-34-1.5-66.5 18.9-78.7 52.6C15.4 335.3 68.7 422.8 68.7 422.8s97.1-32.8 119-92.9c12.3-33.7 .5-70.2-26.5-90.9l15.5-42.6c-16.9-2.8-32.8-6-47.7-9.4L116 222.6zm180 37.1c-32.5 10.2-56 40.5-56 76.3c0 64 80 128 80 128s80-64 80-128c0-35.8-23.5-66.1-56-76.3l0-52c-7.9 .2-15.9 .3-24 .3s-16.1-.1-24-.3l0 52zM478.9 239c-27 20.7-38.8 57.2-26.5 90.9c21.9 60.1 119 92.9 119 92.9s53.3-87.5 31.4-147.6c-12.3-33.7-44.7-54.1-78.7-52.6L511 187c-14.8 3.4-30.8 6.6-47.7 9.4L478.9 239zM82.4 291.6c6-16.6 24.4-25.2 41-19.1s25.2 24.4 19.1 41c-4.8 13.3-21.5 29.3-46.7 43.9c-1.4 .8-2.8 1.6-4.2 2.4c-.6-1.5-1.1-3-1.7-4.5c-9.9-27.4-12.4-50.4-7.5-63.7zM288 336c0-17.7 14.3-32 32-32s32 14.3 32 32c0 14.1-10.2 34.9-28.9 57.3c-1 1.3-2.1 2.5-3.1 3.7c-1-1.2-2.1-2.4-3.1-3.7C298.2 370.9 288 350.1 288 336zm228.6-63.5c16.6-6 35 2.5 41 19.1c4.8 13.3 2.3 36.2-7.5 63.7c-.6 1.5-1.1 3-1.7 4.5c-1.4-.8-2.8-1.6-4.2-2.4c-25.2-14.7-41.9-30.7-46.7-43.9c-6-16.6 2.5-35 19.1-41z" />
-    </Icon>
-);
+const LightsHoliday = createIcon("lights-holiday", false, "data:font/woff2;base64,d09GMgABAAAAAAOMAAoAAAAAB2QAAANAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSCERQsGAAE2AiQDCAQgBYMtBzUbSgbIngfZGfMcsbA1IqYS6fpG80FBOm32JJuTKMTKAwHIDwhlwtUTFj1RS/Tz5/pPfG3YtAbZxKq06qrpWmXGcz/vPka2/gU32HSCpZoI470V/P/09/P8Jy49XwjOh1JBP3GJa+8W2PkXWXmerz15O5+gT51uoWgPqeTZITJ0llI8zrnjcQ1s/eY++MAcF54Be/f5+kwmW8DgsyCQAyyn4/DBfbn1gi+kp/9fUNemNyAAdQTARYAlByEHAdAGCwE52LiAjY3ghf7HfyAFAgD54Z0bAGwgBLJAcQCADYAhYNtTcvJyUtNTI744e1jEFx59KAV0iBu5kVIkctgpnf3itb8vxY4PV6Vd7dVSjJGItHFZkqUjbiWhsDwesstPdvNzd0/0Dg+WJW3lZjwipinoxJ4ZQw9VQJf8JhmD1sm743SN+rBrSV1psaG9XNAxnK55BufUZgefuRYFeSJEhhsbtNFmLx1N8Nksyw41oUs1PqFOBx11SsHtZl3YFeNnItm9YaWYChvqBF2Nug8Oj3AgNbSxYzu3cf9h5dUec0O//Ohn054hOn29gSQAQHLcTtsRXuzqsV69jl2NeSMuDnJEhne6zPykJAkhcDp6zQ17+opu3VZMHzmr+aaNcAQAAABweNq2fWOh77E9CxeWliLvXlj0PL3M6P+Lg0PuPur4i/gS0aZOQUNoWFCnDdlfXsczipaLNimxJQuW73z+fKzy5Fz9LNx45ljfsfvuoiEHf+2a+ScUF91jR7fZfEp0kPRxyvMpfgfYEV/t6zOk3REA6E7am3ZFLyjqM+UjJZzEYX4bk7sLAAQIblaXlnNCm6/BiAHgVcV/sf3Nf2aduQEIYgAQWHX+12GM2QCDcRQRABNGy6iEb0KA4TcCIBTlSDYtwnACg58wsMjGATZhagMfeTR1BmcPxkJ2CJHCWABDlIXAohlrgU0KhcBHGx4m/KTImgrugez+Ey3QrSW6KrkN6zVwW7mPFYdndDu3ydZumK+xTDtqYiXTmM88ljCVKcxkSaNfRN/0UubSzbPu+lmXhtSjAS6tcNN1rzzDJLqIxaiz78lPQ2vc90M1WOb3rwnJQJuNyDMYkImfHfLiul8nAAA=");
 
 export default LightsHoliday;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `elevator` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/elevator?s=sharp-thin elevator}
  * @preview ![elevator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/elevator.svg)
  */
-const Elevator: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M149.9 6.6l72 80 5.4 5.9-11.9 10.7-5.4-5.9L144 23.9 77.9 97.3l-5.4 5.9L60.7 92.6l5.4-5.9 72-80L144 0l5.9 6.6zm152 0L368 80 434.1 6.6l5.4-5.9 11.9 10.7-5.4 5.9-72 80-5.9 6.6-5.9-6.6-72-80-5.4-5.9L296.6 .7l5.4 5.9zM16 144l0 352 480 0 0-352L16 144zM0 128l16 0 480 0 16 0 0 16 0 352 0 16-16 0L16 512 0 512l0-16L0 144l0-16zM200 264a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zm-96 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm248 40a40 40 0 1 0 0-80 40 40 0 1 0 0 80zm0-96a56 56 0 1 1 0 112 56 56 0 1 1 0-112zM96.5 448L80 448l24-96 112 0 24 96-16.5 0-20-80-87 0-20 80zm212-80l-20 80L272 448l24-96 112 0 24 96-16.5 0-20-80-87 0z" />
-    </Icon>
-);
+const Elevator = createIcon("elevator", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABowAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDKwsGAAE2AiQDCAQgBYMtBy8bqgXIjtRWcxRJchPPf7/fb+3zLirNOyRN3miiJZMSzSrxp4KVwlA9NPzn9erPnXGyxlsZySzkbjv2YAuxc/eLZvpvTVzz/M+/AaP0hR6lYtkczREJvPOBDn/TeQjMBjbTCdgG5404wBAX2nGHlks0kFMPkhfAjfvQfMLSCFC6DgCZBAAcXBXl4E5LWqLn/8dA3pAFAjkAsIzQocM8Atukgnkyy6Bpwjv9/8/+AxkQIP2IXligYRQ9wAsAGijDTWZpqTbUjRoNDXm5rkzMbnDlgiiYkgmZkUjFZcqcNCpkyk+qVYxMICKS2fNqJFKJLklJx4zn9JEiZFiHSEokLLiuOC9ZzLssu61ac4uZhIKWcwNpImglqOCi1YrEgnOW0KKZ4LwFl6C1QFzcijme0xBPAnEkpqFiDdvnaHjFccNg463DS9MLps/S8mBTCs6RIuGQaq00DkLE1r3SYB6CdS8X2o7kwkRNdFmLGtr/BgYwUCP3/PG2p3GFV0SElwLya/R3b2939QXf3WoOJicPangffv3+/etD8t97w6hoXo0eimHA+AiazKs8Y3HMENOPA4LwaTxjXa0f/VXFSwAfF+9fo/wV/d9JUD3AoAKhW/3vjYoCFAEAVIbgWEBQHsGJ3nXULQjEMAJKv2EBnTkGCDTDVhDosygEgX7DzkilqRGzKluijLomOluGiWbWIdFn232p32ykoVcLe9rDY3ZqH0g5xwJ8/VkkW+yr9QCp6P0otjvkPsTnPKArmnTrMqBRg1YDPbxPTnVQp9Q1MMUXMQF8+WMisdMjxyEiTvbp5+q8fv4UUdj9OXdD66s9YFQiEl3TU4qU6p+KcHcf");
 
 export default Elevator;

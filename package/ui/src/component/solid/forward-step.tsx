@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `forward-step` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forward-step?s=solid forward-step}
  * @preview ![forward-step](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/forward-step.svg)
  */
-const ForwardStep: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416L0 96C0 83.6 7.2 72.3 18.4 67s24.5-3.6 34.1 4.4l192 160L256 241l0-145c0-17.7 14.3-32 32-32s32 14.3 32 32l0 320c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-145-11.5 9.6-192 160z" />
-    </Icon>
-);
+const ForwardStep = createIcon("forward-step", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVgAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBFAsGAAE2AiQDCAQgBYMtBzMblwTInge2LXzry5YqKk2Yl8V4+H6N37lv97tii5klk+bSxKVppZFoXsIfKkMkaTLXvjfC12+/CsGfOvU856EAvlHQ9tCpC3Cv8whELFevV2gssJpWwKrbRIQ6qtgrIYES0fGEHWdnyGNDdlYJ6VH6hhv9Q+OHDmdJKjIAUQ+A2WtWLPehK7oivv6P+GopAmI2KAQyZOguwDSZQHe5Arlc0BX//6f/wIIAohReNIEcGUZhPCAHSeT5oKqSmnx1VUnlwrsDXnZm8WTgq5ZV0RIRp9oeVF1puSfFyea7lZdb70dEc6zs87b+7U+2suD3QLJZsvKBv3vhjVtqL16sZXmWuLe8YVwOAsHaf6O3btovqhL4/v7qr+j/75iV3qJcAkE27P8wG+MoxCwBAEhxVJ+YhUAySIJrrXZfgFCJAEmpSgEy3dQLkKs0VIASPY0XoFSlFTKRVwjNNg2QVDsAMhMcA7lm70CJaT56pZojCxniwokPW+wCDc3fK0aPGFVMKcyUkFGAlfXUYlkddDS3BtNJW+2z12FbbLbDYYUctDw8Yo8FHjzfFxVGG2GUwhTFdvF8vNoWBx2ywz5725apivPmIEf94cFkJEAdI5IkIlW/Lm54eAMAAA==");
 
 export default ForwardStep;

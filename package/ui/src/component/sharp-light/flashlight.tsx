@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flashlight` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flashlight?s=sharp-light flashlight}
  * @preview ![flashlight](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/flashlight.svg)
  */
-const Flashlight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M401.8 325.4l-8.1-5.4-9.7 0L32 320l0-128 352 0 9.7 0 8.1-5.4 31.5-21c24-16 50.8-27.1 78.7-32.9l0 246.7c-28-5.8-54.7-16.9-78.7-32.9l-31.5-21zM544 383.6l0-255.2c4.5-.3 9-.4 13.5-.4l50.5 0 0 256-50.5 0c-4.5 0-9-.1-13.5-.4zM0 352l32 0 352 0 31.5 21c42.1 28 91.5 43 142 43l50.5 0 32 0 0-32 0-256 0-32-32 0-50.5 0c-50.5 0-100 15-142 43L384 160 32 160 0 160l0 32L0 320l0 32zM224 240l0 32 16 0 64 0 16 0 0-32-16 0-64 0-16 0z" />
-    </Icon>
-);
+const Flashlight = createIcon("flashlight", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABaQAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBZAsGAAE2AiQDCAQgBYMtBzEb5QTIngm8Ces5AXoRho06Hr726+3cfj1TyZswdEUx0eQnWWCFJAxaYrfs1hNqgoZwaqdXOe8ZQh0//9d8fs+PCuTznfihRWHpgZRHxPZ8AhMrbhxY23A2ownwzF2tZh6iPUmLLMnjdx5PO8jxd4zVID2TPsVD5U3jFwPdQ5IrANEDAIt2bFnn/S/jy4hP/3+F+NQaBMRiUAQqVBgiwFyVwBBZQZYFX8b//8t/YCGAaNKrSiCjiW3YB8ggyTn37TW0c6vRNW9vNeoj/fr2q7tEdG31jzHx1gzx6uzR26pU3dcKpFakqOPe2nG+VXcdFZ+1CI+oYntdf752ZHSphbBDmF68HvEiL+bT45965KZ2u10fvMPBuu1bK57+zVMrvn0AqlzlyZis/pJq+PBS7thfTi4FRZm8zp87WIo7lC8ulFJ6bCx6AIHg2e9bdKD73F87tRL4+s3zmemO9CI6SSCoxv4/1t50BwgxADNFhxHOBwWSdTJ91S6eFCDUCJA01QJUBushQFYbI0DDMNMEaKptUYncWehjXwdJF5dAZbpbQdbHS6Bhrg+Mpj5RQYsFBvuxS1puoWXLyqTxE8vsskw0Di10mp9TtuWRHbExijY67oLz2o456pS2QS5bZ191znIPXuaLiknGm6iYrRznj6u3O+ayK0654HxeZI5yXx+pw+8fRVqilJP5kkSkGp3MewMAAA==");
 
 export default Flashlight;

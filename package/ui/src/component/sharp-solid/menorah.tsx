@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `menorah` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/menorah?s=sharp-solid menorah}
  * @preview ![menorah](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/menorah.svg)
  */
-const Menorah: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 0L59.8 48.7C62.6 53.5 64 58.9 64 64.4C64 81.8 49.8 96 32.4 96l-.8 0C14.2 96 0 81.8 0 64.4c0-5.5 1.4-10.9 4.2-15.7L32 0zm96 0l27.8 48.7c2.7 4.8 4.2 10.2 4.2 15.7C160 81.8 145.8 96 128.4 96l-.8 0C110.2 96 96 81.8 96 64.4c0-5.5 1.4-10.9 4.2-15.7L128 0zm68.2 48.7L224 0l27.8 48.7c2.7 4.8 4.2 10.2 4.2 15.7C256 81.8 241.8 96 224.4 96l-.8 0C206.2 96 192 81.8 192 64.4c0-5.5 1.4-10.9 4.2-15.7zM320 0l27.8 48.7c2.7 4.8 4.2 10.2 4.2 15.7C352 81.8 337.8 96 320.4 96l-.8 0C302.2 96 288 81.8 288 64.4c0-5.5 1.4-10.9 4.2-15.7L320 0zm68.2 48.7L416 0l27.8 48.7c2.7 4.8 4.2 10.2 4.2 15.7C448 81.8 433.8 96 416.4 96l-.8 0C398.2 96 384 81.8 384 64.4c0-5.5 1.4-10.9 4.2-15.7zM512 0l27.8 48.7c2.7 4.8 4.2 10.2 4.2 15.7C544 81.8 529.8 96 512.4 96l-.8 0C494.2 96 480 81.8 480 64.4c0-5.5 1.4-10.9 4.2-15.7L512 0zm68.2 48.7L608 0l27.8 48.7c2.7 4.8 4.2 10.2 4.2 15.7C640 81.8 625.8 96 608.4 96l-.8 0C590.2 96 576 81.8 576 64.4c0-5.5 1.4-10.9 4.2-15.7zM64 128l0 32 0 160 224 0 0-160 0-32 64 0 0 32 0 160 224 0 0-160 0-32 64 0 0 32 0 192 0 32-32 0-256 0 0 64 128 0 32 0 0 64-32 0-160 0-160 0-32 0 0-64 32 0 128 0 0-64L32 384 0 384l0-32L0 160l0-32 64 0zm96 0l0 32 0 128-64 0 0-128 0-32 64 0zm96 0l0 32 0 128-64 0 0-128 0-32 64 0zm192 0l0 32 0 128-64 0 0-128 0-32 64 0zm96 0l0 32 0 128-64 0 0-128 0-32 64 0z" />
-    </Icon>
-);
+const Menorah = createIcon("menorah", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABxAAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSEPgsGAAE2AiQDCAQgBYMtBy4bPAbIjtRG+UVWEg//v/av+9yZT/NekG+igIBbdlWoyJUdC422KzKqVLXvE5fTH8t++yqOIJQ17Id1+fYx5vlYIF0iXToWLfAszMJUwgC9wXkjDjA0hvIdlPF3cVsD6d30C565J42/dHObpKUAEG0BMGPdqiW++z1+j/j5f8TPFiEgZoAsUKBATwEmKwR6KmWUSsHv8f//7D8wE0A0Cu6WQInW+JdoApQgqZdlhw4dqTKhVRCsNbQq1/rPqDaNGDniTdc7vlFFPOz8VtzoMqrWXWLNqOGjRgT/nnVLkg4LohbBjFqIWhBVna+WgxGNqFcxB9ZGJ6rGpv0+bvvxy76/7P1Fn28/+eSTsc2t799vTTqneewn27vErOGWoAn/U5eGL4ovluac3/O7mM6mF9T+72SsXM/Wux0D13V5TJm+fZPv+kTxRnvfucuBQPD+oF/Hb2sz+VVzLYE/v/gyP9//36Xr6WM0SyAoBv8/2OZ0HZhpAJEUZ/WbeaFA8kpd8Kh1bwkQKgRIGlUCFHpoK0CpMkiABr2NEaBRZZVClC1CR1tqY1J3wlgY64qx1NHnxgaTfR9u1DGK58BxFTv+QvPObcNzFuURQ4fniXkyr3Re2jbdPymvVvqf5XUD4Fp7HXPUaXvsdsDpFn/SktgZR8ydI+d4o2yEoYbLJsq7S/dXr7XHSacccMxRO8gk+fxAf2fnWw+AehKYHSklSURq+rapO/YDAAAA");
 
 export default Menorah;

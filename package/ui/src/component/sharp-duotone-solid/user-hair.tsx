@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-hair` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hair?s=sharp-duotone-solid user-hair}
  * @preview ![user-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/user-hair.svg)
  */
-const UserHair: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 128c0 70.7 57.3 128 128 128s128-57.3 128-128c0-11.1-1.4-21.8-4-32l-60 0L256 64l-48 48L97 112c-.7 5.2-1 10.6-1 16z" />
-        <path d="M208 112l48-48 32 32 60 0C333.8 40.8 283.6 0 224 0C158.7 0 104.9 48.9 97 112l111 0zM384 304L64 304 0 512l448 0L384 304z" />
-    </Icon>
-);
+const UserHair = createIcon("user-hair", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABaAAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBLgsIAAE2AiQDCgQgBYMtB04bzgTIhiDQi//ZJHcPUB7MSkIH9UYF6oNFycrVrzP9zT/vPArwce5znXc+QaI5zxPoPB++haL6/wNnit/ctXnwkPtLa2VJ/pLl8bJAFlfTg0okZ5LvcQj/Axh/aeQgiUopgKgJgJGzpk3w7pf4JYnvi0fE98YjIEaBXCBFiqYCDJEKNJXJkckEvyRFwS9RFDkBRBl+LgVllDAQowAZSCQiy2pValClVC2bWaVUed7wIcM7RpW4OOhFv08DnjWtMqNqtarTo1rMnHdlaMTrsV8Nf9t6X/3K0SmGROU4rtWNmjf+afn9yu/9NKmgKUNcb1zp55rdum/adPftCNKH/+QdXLdoeKkPoydPHt2nVGvYEIXCJhUqAoHg7qZ+fyyqMeT/ilUS8NuL//4M5xXv4l1yAxUlIEi7FF3Mj3cQ0QEYSezUynjbYoFUYwlwW1WdFCBURoBEWWUBUk3UFCBTWWcBSprrK0BZZdOkIqsk1LWggURVW0Cqn10gU9dDUDLEV0ZZ3UgvEHH8xPctdpyExvblPbv1yAflXVcl7wSW24PzYbXDzpTqyLNW2mSj7VZYbo3tAtlqgr3DBuMseKwX5XrqpofcIPl0sB6faYWttlljk42ly2D5eq2DnXZxRx4mAfTaekdKJJHW8jqu6xMSu3piqo6ifQ4A");
 
 export default UserHair;

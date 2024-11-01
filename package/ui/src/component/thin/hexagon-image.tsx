@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-image` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-image?s=thin hexagon-image}
  * @preview ![hexagon-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hexagon-image.svg)
  */
-const HexagonImage: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M400.8 450.8s0 0 0 0L497.1 284c2.5-4.3 4.4-8.9 5.6-13.6c2-7.7 2.4-15.7 1.1-23.6c-1.1-6.5-3.3-12.9-6.7-18.8L400.8 61.2c-10-17.3-28.5-28-48.5-28l-192.6 0c-20 0-38.5 10.7-48.5 28L14.9 228c-3.9 6.7-6.3 14.1-7.1 21.6c-1.4 11.8 1 23.9 7.1 34.4l96.3 166.8c10 17.3 28.5 28 48.5 28l192.6 0c20 0 38.5-10.7 48.5-28zM483.2 236c2.7 4.6 4.4 9.7 5 14.8l-2.7 20.4c-.7 1.6-1.5 3.2-2.3 4.8l-21.2 36.6-70.7-75.4c-12.6-13.5-34-13.5-46.7 0l-101 107.7-61.1-59.1c-12.6-12.1-32.5-12-44.9 .4L72.4 351.5 28.8 276c-3.6-6.2-5.4-13.1-5.4-20c0-3.4 .4-6.8 1.3-10.1c.9-3.4 2.2-6.8 4.1-9.9L125.1 69.2c7.1-12.4 20.4-20 34.6-20l192.6 0c14.3 0 27.5 7.6 34.6 20L483.2 236zM80.7 365.9L149 297.5c6.2-6.2 16.2-6.3 22.4-.2l61.3 59.3-94 100.2c-5.6-3.4-10.3-8.2-13.7-14.1L80.7 365.9zm306.3 76.9c-7.1 12.4-20.4 20-34.6 20l-192.6 0c-1.5 0-2.9-.1-4.4-.2l201-214.4c6.3-6.7 17-6.7 23.3 0l74 79L386.9 442.8zM192 208a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-32-48a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const HexagonImage = createIcon("hexagon-image", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABlwAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCegsGAAE2AiQDCAQgBYMtBzQbfgXIBp7nvzPPfYNuJ2vMmoWc1PQXxG+BmbimfpQ9PWAU2aNF2f82243X4JnnExhoRGg08YtNSKduShD0ECWPiEgtWGXs+Hq82wHocpTOGKBWqGvAvDpc3hDGZFBoGqQRX9gAKrma1OPUQ3kocs29H9rh1AEEQCoDYCOARnhEJAJAWTQEiETHBnR0BB6K243/QBsEAMSE5ykAdMADWArsAv1lUJi6npjh5esV4DC8dKfDsDpMEJEJ4pJlIcuClwY7ZWeSJZtTmsriwOVBzWRHokO2pbuWBIUuwydIhjhlqTUzsKk07oDzQjIhZFmIS1YlO2RLWLP2rqauZUGNpKksDXZ2WJ5gyUxrguUSDTT7pnNbxKrwlUmbQ5eHrUjMmhAisswxK2gJ4wMXWzODl0rcTt+d72Kvdb3GfAUA7bZSGJIWEVYz86yPp/hohVs4/ObJzRtdLyoWgL9AVarXYYWX14rOvbjNdHSfXqkSaXVo7jAC9YRjYk97p/0eBBdMqMLeO7bfoU0nJtdMr5tbd3OgUsil6xw+XKs+lQedeb3++cGDz9c3rtt7Okz3TolSAJCzsrese97Op+w3D4cC4PGRD7/LjzDdj+S32gl4oAAQ0DLcGbRWYGLKbwTGlAwlzvAYARRzMQGwzJOlCACCBZNWmFi0RgS+tI5FOm0QTaFyObwJGqIXRwikDWiFJwNojSLG0DqB7KUNynIxZhIompdqPqZ9I2ZXl3C1TnZuVo5d2t6mDN3xlNxaxr52U4amklRMpSv96MtgutCZHgwW1EDqJYfQh+oWWQ0PscklixxsSmM/zq7HO+nCQAbRg370Le2UwX4/lMJQu3oqAgrK5rFMoUCUV/cuwzt069f3Lx8=");
 
 export default HexagonImage;

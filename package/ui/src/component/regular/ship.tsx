@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ship` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ship?s=regular ship}
  * @preview ![ship](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/ship.svg)
  */
-const Ship: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M192 32c0-17.7 14.3-32 32-32L352 0c17.7 0 32 14.3 32 32l0 32 40 0c30.9 0 56 25.1 56 56l0 118.4 25.9 9.7c38.1 14.3 48.7 63.2 19.9 92L457 409c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l68.9-68.9c4.1-4.1 2.6-11.1-2.8-13.1L290.8 218.7c-1.8-.7-3.8-.7-5.6 0L87 293c-5.4 2-7 9-2.8 13.1L153 375c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L50.2 340.1c-28.8-28.8-18.2-77.7 19.9-92L96 238.4 96 120c0-30.9 25.1-56 56-56l40 0 0-32zm-48 88l0 100.4 124.3-46.6c12.7-4.8 26.6-4.8 39.3 0L432 220.4 432 120c0-4.4-3.6-8-8-8l-272 0c-4.4 0-8 3.6-8 8zM111.9 430.1c21.5 18.6 51.2 33.9 80 33.9s58.5-15.3 80-33.9c9.1-8.1 22.8-8.1 31.9 0c21.6 18.6 51.2 33.9 80 33.9s58.5-15.3 80-33.9c9.1-8.1 22.8-8.1 31.9 0c16.9 15.1 39.3 26.8 61.3 31.8c12.9 2.9 21.1 15.7 18.2 28.7s-15.7 21.1-28.7 18.2c-28.7-6.4-52.3-20.5-66.7-30.4c-28.1 19.5-61.4 33.8-96 33.8s-67.9-14.3-96-33.8c-28.1 19.5-61.4 33.8-96 33.8s-67.9-14.3-96-33.8c-14.4 10-38 24-66.7 30.4c-12.9 2.9-25.8-5.2-28.7-18.2s5.2-25.8 18.2-28.7c22.2-5 44-16.8 61.2-31.7c9.1-8.1 22.8-8.1 31.9 0z" />
-    </Icon>
-);
+const Ship = createIcon("ship", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABlAAAAKCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCYQsGAAE2AiQDCAQgBYMtBysbXAXIBp6nuuz96g7gCqyFOMkCVnTf9ZUneP7nmnphTQf4/cQPJRrvNm2MsnujDp7AgKMsEycwnE0U53vrLXodIqNIarI/yb/+2w63vwOmvJS12IDapuqANeVD5SMBLASFjQEAgLgDAADl3Tu35e47eSfywnoJ5AWtAQGQcgA0AhiAAQQjABRhIEAwJhowMRF4J1Yr/gM1CACILUwo3moCNsA6YA8AYAKgMEyzmWe6k42L2c3JxrH3PD+RLU5OssJnE4iTHApIABK9OGBbXBc5GLM9qLts8e0mm70Fb6NPV9nmfzDmxceDdsTGisgOvy2xTiJdELrLkeiuIrLZ11k2evfYFC1yyGlF7JHYLT7QMfJY9iH/rTGXE65WPS6orqNZBwO3x15JVFeKOO5+/HN4XW0dd/a4LoWlrnPpItbVxDH2/1e7yWyjrnfvZlVVuLg0NcX07gsftURr2Au7r+IuahLMZvaadduYjN3X/2Pj0KndLRbLjGRyctqKFmwHuDPANiz7X0to6evbMt/lz5+pY+QRv2bRloq6jmfKy89U18CbnSw+zfwPq48DgAACM527Gf3dir7ZOykAPlz/+r2faf1vvasq1HHAHgWAgJFkTaKPKjOQ/32RDwvLZCLomxBAsQwDXt+ZzQgAgiMgAChshQowCMIdTBxJBBtCyZYPp3fGQEwHBG/6EiicGQcGOcwCE28ugA1FPInY4i2GY6pupf4XZjWTePUwnZ6Spgv0Y9bQfE3O3YX62I6bnKriaSm1jGE0E6nBwjAmCm48beOTGEUzi63mh2jSSSENTQH6uvA+ohs1jGcCw9D1+0EK0e/74phsN44nr4IFM8hQKBBluj4=");
 
 export default Ship;

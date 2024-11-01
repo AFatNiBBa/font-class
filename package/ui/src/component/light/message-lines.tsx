@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-lines` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-lines?s=light message-lines}
  * @preview ![message-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/message-lines.svg)
  */
-const MessageLines: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 416c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32l0 288c0 17.7-14.3 32-32 32l-138.7 0c-6.9 0-13.7 2.2-19.2 6.4L192 464l0-48zM64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l64 0 32 0 0 32 0 48c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zm80 144c-8.8 0-16 7.2-16 16s7.2 16 16 16l224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-224 0zm0 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0z" />
-    </Icon>
-);
+const MessageLines = createIcon("message-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABewAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCEgsGAAE2AiQDCAQgBYMtBzQbFgXIjsM4hvwSSzmLePh/neh9X7JPIodBAQIsII3dyhtPHSafrjhldjLj1k6d6okuCuAbBWUtWhqQBbT3eQQiGuvyFnhZwUrS8wpYdZtIoEcQfhEiZRLR8e14u0Ae38ZQFdIb6Q881940/tbZXZI8AxCtADBrw5plfqpHPeKPRsQfliAgZoNSIEOGbgJMlQl0kyuRywX1aDT4P7AkgKjSe0sgRxVHcRaQgyTP8/79mzWrVZrn62uVYsOtDhGvFkU87vBqZHGr42u15vFU+1ekuNnu5ehb262N2PzxwIjPO6V4Y9AX/Wo1IW62f6XjhqjFZ0O+6prFm4O/7N9s3cvtXmlfi9c6vtqhYAf1/rLVl//2sp8fe7Z4yMMWO3WK4bJ5027zlOLerkVG3njv/da0LkpF69bvzyxLIxV37py9vNVT1gL7b654rt6iRb2uQDuRm64HgeDPPk/d0XLqkya1BP765v8n5FfU+CFJX6KJBIJsaGOorQkkAgCQ4rzeCQLJXjl91WZeFSAUCJBUFQJkumolQK4wRICKHsYJUFVYIxN5U6GdbQaSZk6BzHjXQK6dr0HFVD/bVe0iQxyHF+6/lzzfw/O2ylHDR5aTy21i8CBi6nJKeawNPC+NQbRrvxOOO2ufvQ4564jTlnnnHDM/w+f5oNIow41Umqy8zp/96+1z2hmHYuF+zRTle2ug83n/IDITJR0tlCQiNcehOgylAAA=");
 
 export default MessageLines;

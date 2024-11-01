@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alarm-exclamation` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-exclamation?s=sharp-light alarm-exclamation}
  * @preview ![alarm-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/alarm-exclamation.svg)
  */
-const AlarmExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M92.2 0C41.3 0 0 41.3 0 92.2c0 18.2 5.3 35.2 14.4 49.5l27-17.2c-5.9-9.3-9.4-20.4-9.4-32.3C32 58.9 58.9 32 92.2 32c15.8 0 30.2 6.1 40.9 16.1l21.8-23.5C138.4 9.3 116.4 0 92.2 0zM357.1 24.6l21.8 23.5C389.6 38.1 404 32 419.8 32C453 32 480 58.9 480 92.2c0 11.9-3.4 23-9.4 32.3l27 17.2c9.1-14.3 14.4-31.3 14.4-49.5C512 41.3 470.7 0 419.8 0c-24.2 0-46.3 9.3-62.7 24.6zM67.3 499.3l42-42C148.6 491.4 199.9 512 256 512s107.4-20.6 146.7-54.7l42 42L456 510.6 478.6 488l-11.3-11.3-42-42C459.4 395.4 480 344.1 480 288C480 164.3 379.7 64 256 64S32 164.3 32 288c0 56.1 20.6 107.4 54.7 146.7l-42 42L33.4 488 56 510.6l11.3-11.3zM256 96a192 192 0 1 1 0 384 192 192 0 1 1 0-384zm16 64l-32 0 0 16 0 144 0 16 32 0 0-16 0-144 0-16zM240 400l32 0 0-32-32 0 0 32z" />
-    </Icon>
-);
+const AlarmExclamation = createIcon("alarm-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABmAAAALGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCZgsGAAE2AiQDCAQgBYMtBzgbbgXILgacMo23fCU6PNSlhGTOc7Q+PWLwT9lq7/f0Wu+p0+CDuETilollrpJdkVNExEtArZU9+wgO0CGgeoVCxkcoYPkqpABIxZ4PCZV6W14SeJDkASb6CQeaBrq7GQ0nI5xO7tiWYUc4ctYWQUlU1gL/T38/z//5pw/4jD5KBVWDFFD0Ks4nMMDZbj4faOV5mU7AZt300Tek3Jb3XpSkYXsappbWwIa7wYnAXIoubKxPql/yrIFh4wAAUDYAANBlbeAAHsVCLIR356DPpoAAGgTgCQQgAGUEoL2AQBnLA8sSKsP5/B9YCgFAiWDbDAAL4mArOAgALAAjGm8LC8LS7EQykm6HpLEb+aBcOlW4oriedoRVdbb28Zr1dKZ1fEVleFIXhaeLV+SF2ht2ZY8tHdykvu5On1d+LvWEfNVTgTrq69rtxit9P46+Hn9ff8d/X+gOeQpVOPJih3S75jwrqs+1vuWm807DC+q6i+3uJs0lHSJKE7hBFpcrdqLaWdaZv/b54LOtZ/uXsDtRv9+0ITcOK04z087+ZBmyOiSjLiCeu+EQvhcm7r6k/p1lvy9dqkdAOJecNcUdu/UPyHwvq4sqY0XVT35khsHTu90xxdnHydtw62pHs337ZmkKLKZKEctikyxes0r+lZJA3BgAAaH7f91eVvw3NwD8efjvh5+RVBFzBuIMACGoTlUbFRGAgQAAAIAJS1SLAASMtaJwqml2EABxQACMKEcAAqWyCIDl1CMAERVaEIAoZ6CA4hNIntEKjDTzQaClpcDKcxVEtPfSj8oLgW9SnkW9DON7WqjHPN/QsLFv64cFod2NyNPt/LJUviR1hbSSKeaaY5HJJplukUEWGBAtNlvPGdzDF3lNNNSY15bfru+XDzHZAgtNN9ecMks7/rxXx5L54JBUA6hNvWgYKMoefzh+wewGn14o42ffNg==");
 
 export default AlarmExclamation;

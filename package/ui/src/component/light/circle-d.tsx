@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-d` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-d?s=light circle-d}
  * @preview ![circle-d](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-d.svg)
  */
-const CircleD: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-160l-64 0 0-192 64 0c53 0 96 43 96 96s-43 96-96 96zM190.8 128c-17 0-30.8 13.8-30.8 30.8l0 194.5c0 17 13.8 30.8 30.8 30.8l65.2 0c70.7 0 128-57.3 128-128s-57.3-128-128-128l-65.2 0z" />
-    </Icon>
-);
+const CircleD = createIcon("circle-d", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABewAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCBwsGAAE2AiQDCAQgBYMtBy8bBgXIhuB5u76vc7tnFlAvPG8NZcIHHQkKV+FXtPFM3TzvPArwjUIZ26YGsnyMeZ5AgFmXBx5QFlimCVgsWTfd8knKbcl70Usaxh+26IA83ouKEunB9D1ubzeNv7VxjiTPAERjAExcvniujy/H5Yjvq28Q35uNgJgECoEMGdoLMEYm0F6uQC4XXI5qVb6BBQFEGf9UAjnK2Ib9gBwkeZ63a9e4db1Sg3xZvVLd1V/MjPhm4CtODXh5xtdTvpz17aBX4/Tg12Z/Nz39NT/ip8mfxelJn877cdnvc76f8LFTEz+Z+8PSqFuvbkS9eKP3ix0e6fXCkGU3NY+4hzjV4t569eKr8R91fWrch9Pqdnmp8Uv/dv5+2/eqj39coeba76NH/36tpvLxxxXdvzzVHdw5uv3kye1H33nHVDYqwhMTaP3YBKdeeql27bx2asKlBjdwQ4NPdUxOnWjB5CGl0uApCyYCgWBag7lPr2805nrteglcfff/63iNVD9O0kuoLYEgq1Qr1iSQCABAimO6JAgk6+R41fruEyDURYCkrK4AmXYaC5Crq68AJR0NFaCsrsUykdcRmlurIKnvIMgMcxzkmnsNlIzxlVbWPLJYoyKFeurFT7PQ1KViYL8BxahiGRl0+BBlOrrYFnsdS5Xe2LXNfvscsdUWOx0xyCFzzaP2mubBUz2oMFA/AxRGKY7T5+1ltjrksJ3221fnjFbcV3s55rf3hpIQdRBfkohU+0uOVLMF");
 
 export default CircleD;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cannabis` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cannabis?s=sharp-solid cannabis}
  * @preview ![cannabis](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cannabis.svg)
  */
-const Cannabis: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M329.9 199.3c11.2-8.5 23-16.1 34.8-22.8c41-23.3 84.4-36.9 112.2-42.5l23.5-4.7-4.7 23.5c-5.6 27.7-19.3 70.9-42.7 111.7c-9.3 16.2-20.3 32.4-33.2 47.1c24.8 6.7 46.2 16.9 60 24.6l25.2 14-25.2 14c-14.8 8.2-38.4 19.4-65.5 26c-18.9 4.6-40.1 7.3-61.4 4.7l8.3 33.1 8.5 33.7-31.1-15.5L280 417.2l0 70.8 0 24-48 0 0-24 0-70.8-58.5 29.1-31.1 15.5 8.5-33.7 8.3-33.1c-21.4 2.5-42.6-.1-61.4-4.7c-27.1-6.7-50.7-17.8-65.5-26L7 350.3l25.2-14c13.8-7.7 35.2-17.8 60-24.6C79.3 297 68.3 280.8 59 264.6c-23.4-40.8-37.1-84-42.7-111.7l-4.7-23.5L35.1 134c27.9 5.5 71.2 19.2 112.2 42.5c11.8 6.7 23.6 14.3 34.8 22.8C179.1 83.9 256 0 256 0s76.9 83.9 73.9 199.3z" />
-    </Icon>
-);
+const Cannabis = createIcon("cannabis", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBeQsGAAE2AiQDCAQgBYMtBy8b+ATIhuB5u8efc3cDeCOpgtVBHbu4hNi5Tz7YWm/k1Hjj/fEL4OdbG//Yby2+vy0+gcWvLfPFJzIb2EwH4GPY7jRpK7J8kpaQ5Li043N6QB6Ps/3KkE6kdzjCbxrfaGA/SYUMQFQHwPAZUyZ78WV8GfG2dJd4ayICYjgoBDJkaCzAIJlAY7kCuVzwZZRK+B9YEECUlZ6ZQI4MS7ACkIMk8nxOpTJV8uk+VXHJ+baX27pc26gfx+sfb4dX77ZuHa3iTK8zbZqEIdrEhABXjCDGRatoxvb1e20w1TbO973U0F452bBhtI6zrc+2p1+0p+v1jpcrHWh/sfNVLS5Vv/Rd83fL3xn/Z6UGX330ZspSffW6eqXa+zaz5x5yyI5TL3/eaI8fXDFWfd3UN9ZpJXts9PPLUzsOOWTu7Dbvq1252quvpaa8+eirBpUGNG7UoH1E+waNGg8AAsE/bT7fsKDaoN/KV0rg60c/fJe/RuVKL+KvdAnlJRBknUqdzE2UUy7+EgCAFNu1SJQTSOZI+FUrOypAqIgASVkVBcg0Ul2AXEUdBSijqd4ClFXRFJnIKwi1zatMUtkmJtPHDiZX222mjEFe+mXVjkzJRBUR33hpYyQw+lDRvUu3YkAxLBRJb/iwO7BYNtptp0F7uGu5DdbbapmlVtkq8M0mR9usM2YGjvZBhe666KYwQLFd396ebpnNtlhlg/Vxn4GK82Y72+fz7eE4CdDjejKJSOV/M+AtWrxqCwAAAA==");
 
 export default Cannabis;

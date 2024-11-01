@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-root-variable` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-root-variable?s=sharp-light square-root-variable}
  * @preview ![square-root-variable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-root-variable.svg)
  */
-const SquareRootVariable: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M316 32l12 0 232 0 16 0 0 32-16 0L340 64 223.4 468.4 220 480l-21.6 0-4.5-8.4L78.4 256 16 256 0 256l0-32 16 0 72 0 9.6 0 4.5 8.4L203.5 421.8 312.6 43.6 316 32zM532.7 395.3L480 342.6l-52.7 52.7-22.6-22.6L457.4 320l-52.7-52.7 22.6-22.6L480 297.4l52.7-52.7 22.6 22.6L502.6 320l52.7 52.7-22.6 22.6z" />
-    </Icon>
-);
+const SquareRootVariable = createIcon("square-root-variable", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABXwAAAHuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBOQsGAAE2AiQDCAQgBYMtBzsbxATIngPuahiLGotYhmHPixG32iwiomjt3+q5/QghtP+pIDlE4VnGqDhSMRqFiyeyBPr8Yr/29lzj7VwSlaaazMAbjZZ+Zeg0D41knhyqr/epU89zng34HIKg7aGTssFW5zqvQEXrm8o5rxVrFcXqNpGRHUH4RYhESUTHl8fXBVr+MyClHtYf7tYPzVervFJaB4DMAoDDl/tNfHzKp+SvfycvHAeBHAFsROjQYS0C+4gFa0lsBE0TPqXv+T+QIUCGIbUCDXo4BI4CaKBUkzhWqYe0ktGEVLWbUGmRcdUkloyTLZf0CSK12pqLmcd+tdftdciT8+nFm7MNdedMD67NwqzwfZMtex9NaiTM8O5xS2ySHl46MMswnEti89y1O/C+OoYYQ7GUDFXhdYAgnHz8d0Wf+6+YEAG+PPkbz+s/1aESMKpA6Ab9wKJKAFMJKCrPnM4XBWUXEXnXSfcExDgCyrBxAZ01DAg045YQGLJeHIFh484TS1MiFi0VlEm3QWeHF9AsegND9vnMhy2mCyIuBLg/XHLDQvVTHA6EOMPLgc7HBVMOs7xtu57zgpvOYuvG1aONtYNHQ95rVk8uGh5c90MsLCCEZfDx+FEeIb/34DA3nB+Txfd9l2d/vZs8EaHdolaKlOUhKv4IN/xvGQ==");
 
 export default SquareRootVariable;

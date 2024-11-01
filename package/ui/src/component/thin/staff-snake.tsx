@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `staff-snake` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff-snake?s=thin staff-snake}
  * @preview ![staff-snake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/staff-snake.svg)
  */
-const StaffSnake: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M236.9 48c1.4-26-19.3-48-45.4-48s-46.9 22-45.4 48L56 48C25.1 48 0 73.1 0 104s25.1 56 56 56l15.7 0c22.6 0 43.8-10.6 57.3-28.7l2.5-3.3 19.7 0 2.1 32c-49.7 .9-89.8 41.5-89.8 91.5l0 4.5c0 53 43 96 96 96l6.2 0c0 .2 0 .3 0 .5l2 31.5-40.2 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l44.4 0 3.1 48.5c.6 8.7 7.8 15.5 16.5 15.5s15.9-6.8 16.5-15.5l9.3-144c0-.2 0-.3 0-.5l54.2 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-112 0c-44.2 0-80-35.8-80-80l0-4.5c0-41.5 33.4-75.1 74.8-75.5l2.1 32.1c-25.1 1.6-44.9 22.4-44.9 47.9c0 26.5 21.5 48 48 48l112 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-40 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l40 0c44.2 0 80-35.8 80-80s-35.8-80-80-80l-112 0c-17.7 0-32-14.3-32-32c0-17 13.2-30.9 29.9-31.9l2.1 32.4c.3 4.4 4.1 7.8 8.5 7.5s7.8-4.1 7.5-8.5L167.3 128l48.5 0-8.2 127.5c-.3 4.4 3.1 8.2 7.5 8.5s8.2-3.1 8.5-7.5L231.8 128l55.7 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-24 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l24 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0c-2.5 0-4.9 1.2-6.4 3.2l-4.9 6.5c-10.5 14-27 22.3-44.5 22.3L56 144c-22.1 0-40-17.9-40-40s17.9-40 40-40l231.5 0c44.2 0 80 35.8 80 80s-35.8 80-80 80l-40 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l40 0c53 0 96-43 96-96s-43-96-96-96l-50.6 0zM170.8 432l-43.3 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l41.3 0 2.1 32zm30.5-80L192 495.5c0 .3-.3 .5-.5 .5s-.5-.2-.5-.5L181.7 352l19.6 0zM162.1 48c0-.2 0-.4 0-.6C161 30.4 174.5 16 191.5 16s30.5 14.4 29.4 31.4c0 .2 0 .4 0 .6l-58.8 0zM47.5 96a16 16 0 1 0 32 0 16 16 0 1 0 -32 0z" />
-    </Icon>
-);
+const StaffSnake = createIcon("staff-snake", false, "data:font/woff2;base64,d09GMgABAAAAAAO4AAoAAAAAB6QAAANtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWSFDQsGAAE2AiQDCAQgBYMtBzIbjwbIrgdsMIaj1V+GFBkeWbOxypi9nHl96wnF+HlhBM/zdm/nzryvmRgvMLssyFArVwBKuWNUNMtyXXRxgwsoLss88cFomGBLxvSvRByPRqFTrQMAhahgyk8u08nZ5at1C7MkiyXAeOi9/aNbL43zQOIo0IlOMOLAA5tpunUAxce7pgjJ09cgtcD/5v9y2hoc4OdA81Durm170BrzedjzQMfYIHkclTCm4LYrJPf9HhIQCmegZIB1HGCcZYwBJ/IPlV/MXsLANAEAED8AAFBX57bw9hffQsamkDEFAiD1AGgEMAETiEIAqMREgCgUGlAoBL5h+uQ/EAgAiJOSYrBLAS6QJEgRjgh6zKHUz9UOWoQOb7XAZltLd2mAU55VUB9L+L1hk+BBkhBPgloRSni8fDuQi/59kRC7KFww6rCQUYyyB8XFQD0KzUoJ9iTsB10jCZQIj2iT5cOQoWXJ48BBRHYFjyl6v1RGU2769+Hj1F2iLv8JEsYutQTFHLIQyi5LS6hZBsLOIyNCmSewu1po1rv5sEolXjhW37ZteeTfR89Td4WePXKW0DqlERYhwuu8askuHMYCES7ZBZFdsLMeUQ8YXczWvJNq32/QD3Lc8zv8sU/3LX9gLHaNfRZoHafr32iBXhpPILHMfibNIve9wwMkRio+B8vePJtJE/3tzKVFQglTln0qWpPbqvE+WDZyXyt6/oZ4Rbqp8X/iXo6xfd5044pcbgmI5EqqrjIVPw0/wYb5fq2O9/DuPXgrcrpWOXkj5OEaYfZzabJIpQGwIobdcoVU/I26IiP/+88lf35ff864zi2t7yF1jeW2biSjHPaNPt8OsdEz3S1pIoRucGByDgDi3dvrwyO8AVS05eghESH9FwCAAALX/ztX+sb/QgOAH+83PDwdo4x7BG4MAATMzDmWRZGAhF4AwGZIN/FAgmx6iuag1HlxytYpWLAAAycWMInEDygsMoCDGIoQzclzmYjyIASxnAIDL9qASTFDQBHEA+Cgknc2J0HC/FzYDzv7bzVB8xbb1E/nZefqcn2bMXG+AAR2VmhtUWp3WpFGF7LBTjt0Wm+dzTo3tHYtzi7bNSPGpt9q8sgmF0052jr/UbCAQ52gI0OuufbdVKD961LpxvXTqNSgZJpPnIEBYtivuU9Wx47VW9cDAA==");
 
 export default StaffSnake;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `podium-star` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/podium-star?s=sharp-duotone-solid podium-star}
  * @preview ![podium-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/podium-star.svg)
  */
-const PodiumStar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M44.4 192l359.1 0L368 512 80 512 44.4 192zm80.6 135.9l51.4 47.6-13.7 68.7L224 409.9l61.1 34.2-13.7-68.7 51.4-47.6-69.6-8.2L224 256l-29.3 63.6-69.6 8.2z" />
-        <path d="M288 0L176 0l0 24-8 0c-48.6 0-88 39.4-88 88l0 32-56 0L0 144l0 48 24 0 400 0 24 0 0-48-24 0-296 0 0-32c0-22.1 17.9-40 40-40l8 0 0 24 112 0c26.5 0 48-21.5 48-48s-21.5-48-48-48z" />
-    </Icon>
-);
+const PodiumStar = createIcon("podium-star", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdQAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBZAsIAAE2AiQDCgQgBYMtB1IbCAXIjsQ4JvGLWNDi4WHOfD/JUdobYkbcMdwUETgiN4fCoNwUdwpQmLEkOd16/5869TznoQC+x3FuG9s2+Njd5xXoeakW6/KCbqGa1sBq7ez6nkFslCQhyWjRM2yukMXd9JI6ktvJB1x3/wMYf3R1iURTCiDaAGD26uULVX/EjyQ+1B4THyxAQMwBhUCKFD0EmCYV6CFTIJMJfiS1/IjaggCinrvXFNSjDsuwGZCBREiybHhTx1Jdc7aqVJfvzku5yOPx4Hs9RJ6LUnNEXo443/lmqRSiFHft6d3vdLoxcHVzuXlNlGPdyoWLFq6IxbEwVnlMHTEmKrGi74M2D/71+bDrg94vj9BkF41mXbuWFSZ1qehyD8cPLrR98rBtoy6OqHz5mKYfv1QMq+1B1G+mgjGWXB2FsDzXK0Y3zzNDS4PPRLgdBIKeEyrtNree9r+xlIBfT/zGv6NaNarJAzRKQJAOrw23IaoQVQEASOKUvlHFcIHUcAn61LIbAoQcARL1cgFS3bURIJMbJkCdXsYLUC+3XCqyJqGDjQkkyo6C1ASnQaaDR6DONK+Teh0ilS1KMqifXfz8HGrZVYweWSmmFM1CpMWFMJtTi2F98Ck9GIJJuxx2yAk77bDXiQw5ZmF+0kHze3CLLyqMNlJFYYpiur7kV1FyzHF76+z8NlMV693BTvXnD8F+EsCYUzmQEkmk7Y8c3pgw4gHII27pqGPJXkg=");
 
 export default PodiumStar;

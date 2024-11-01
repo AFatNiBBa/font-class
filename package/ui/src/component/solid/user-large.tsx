@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-large` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-large?s=solid user-large}
  * @preview ![user-large](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-large.svg)
  */
-const UserLarge: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 288A144 144 0 1 0 256 0a144 144 0 1 0 0 288zm-94.7 32C72.2 320 0 392.2 0 481.3c0 17 13.8 30.7 30.7 30.7l450.6 0c17 0 30.7-13.8 30.7-30.7C512 392.2 439.8 320 350.7 320l-189.4 0z" />
-    </Icon>
-);
+const UserLarge = createIcon("user-large", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABXgAAAHdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBKwsGAAE2AiQDCAQgBYMtBzEbrATIhofv7f6/tU/308Un+30JkexxxGhyWNnURONUzu7FzfPOowDfKJS1aGkgCySa8zyBxBYHHlAWWKYT3NNtMg87wvCNkCCJ6LjS42uFPF7LrqsjPZw+x33toPGTzq6TNGUAohUAZq5attTb38f3EZ/VXiA+sxgBMRMUAhkydBNgikygm1yBXC74Pmo1/gcWBBD19NMSyJFjImYBcpCkPO/aoVxXzVeW60qr7poc8drwp+LKsCcnvVq6c8LLQx53eegTE18pL/9ySsTryy+3v79cjbs6PhhfTXtzZanXo60e/aX5852fqz3SP5FGNvfr1zwypf7901jc2HN2fM0XMbt6+3b1XURgqy++nh1vAoHgzLW/YlPLKf80lhP48dXf/idXUe3tJD2KRgkE2ZDaEOsTSAQAIMVJvRIEkpES3WvFAwKEEgIk9UoCZLpqJUCuZLAAdXoYK0C9kmUykTcJ7WwgSCqOQGacC5Br5zmoM8VHZr12kWUP8/bM5y1xnkXmDhUjh40oJhVLT2cTgqrdycW2MuBkyQzErJ0OOei4Hbbb47jBjlrqnHDAPA+d60SFkYYZoTBJcRw+j6+0w1HH7HHIQekzWXHfGOCkXz4QeqK4o7iSRKRSyMlD4wwA");
 
 export default UserLarge;

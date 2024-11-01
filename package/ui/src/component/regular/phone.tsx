@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone?s=regular phone}
  * @preview ![phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/phone.svg)
  */
-const Phone: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M375.8 275.2c-16.4-7-35.4-2.4-46.7 11.4l-33.2 40.6c-46-26.7-84.4-65.1-111.1-111.1L225.3 183c13.8-11.3 18.5-30.3 11.4-46.7l-48-112C181.2 6.7 162.3-3.1 143.6 .9l-112 24C13.2 28.8 0 45.1 0 64c0 0 0 0 0 0C0 295.2 175.2 485.6 400.1 509.5c9.8 1 19.6 1.8 29.6 2.2c0 0 0 0 0 0c0 0 .1 0 .1 0c6.1 .2 12.1 .4 18.2 .4c0 0 0 0 0 0c18.9 0 35.2-13.2 39.1-31.6l24-112c4-18.7-5.8-37.6-23.4-45.1l-112-48zM441.5 464C225.8 460.5 51.5 286.2 48.1 70.5l99.2-21.3 43 100.4L154.4 179c-18.2 14.9-22.9 40.8-11.1 61.2c30.9 53.3 75.3 97.7 128.6 128.6c20.4 11.8 46.3 7.1 61.2-11.1l29.4-35.9 100.4 43L441.5 464zM48 64s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0z" />
-    </Icon>
-);
+const Phone = createIcon("phone", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiQAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyDVQsGAAE2AiQDCAQgBYMtBywb0QXIjtRgrTKLEUS60NmT3gAoAyEFqAbsALiN077TElf5lJ5+nzr1PNNC0dh7xIM2Fq4Jsiwda5xXoKClXjzULRKhmva8wF6lWju7DESv2yR9ij4ZNj9sCsjjnbirRHoyfYs7tVTxo+YukpQyAFEPAOOWLJjlw3KUI76pvEZ8YwYCYhwoBDLktBJgpEzQBeQK5HJBOSoV+Q0sCCCq4GsTyFHCJ3gAyEGS5fnQYkPNUu18cb6oxoZnu46M+4vHxEstFsdjTR5rtDCebnYuzsV3ixL1aONzUX+j5rl4ruWSeNyQbbJ40f3FEXJiSSyKofFIs0caW+ldHm/aJxbFws14xNeGfw/tX6z34s/tvt38rSMvvzCoqkldu07aa8FTffZY+dnr9jT1fRtwcOCaAWuWjVo2cl/tchmA6tV5cLLpHr1X7PxsT59x7+5KSwayZMCAJQxcknaub6z7RiN9U/Q502fu3D7/ZX+8mw3dNVp/7Q4+FQhK/2x7d03dkX9Xq5nAD2//j+ZUPkz4AL2IahIIsp6VnlYmVP5PSQAAUhzWPkEgeUeGZa3lMQFCDQRIqqghQKalegLkaughQEkbgwSoooYFMpFXFxpZNUBSyz6QGewUyDXyCigZ6YuoikaRuTTvkPyPMmWyhiYdK/r17lsML5Z9XfBStuyPKMxq18NxrhtybbbHbgdtstE2BxW536z0kF0m74hJ3qjQT299FYYrjkfP5xfbZL8DttljtxwyQnE/7OrwfnU3GAkZ+2tJEpFKjx4AAAA=");
 
 export default Phone;

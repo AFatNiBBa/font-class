@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-holding-child` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding-child?s=sharp-duotone-solid hands-holding-child}
  * @preview ![hands-holding-child](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hands-holding-child.svg)
  */
-const HandsHoldingChild: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 64l0 40 0 24 0 32 0 64L0 352l0 13.3 9.4 9.4 128 128 9.4 9.4 13.3 0 96 0 32 0 0-32 0-32 0-32 0-64 0-13.3-9.4-9.4-64-64L192 242.7l-9.4-9.4L160 210.7 114.7 256l22.6 22.6 9.4 9.4 22.6 22.6L205.8 347l-41.7 27.8L80 290.7 80 224l0-80 0-32 0-8 0-40L0 64zM352 338.7l0 13.3 0 64 0 32 0 32 0 32 32 0 96 0 13.3 0 9.4-9.4 128-128 9.4-9.4 0-13.3 0-128 0-64 0-32 0-24 0-40-80 0 0 40 0 8 0 32 0 80 0 66.7-84.1 84.1L434.2 347l36.4-36.4L493.3 288l9.4-9.4L525.3 256 480 210.7l-22.6 22.6-9.4 9.4-22.6 22.6-64 64-9.4 9.4z" />
-        <path d="M280 40a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm1.7 56l8.8 0 59.1 0 8.8 0 6.7 5.7 50.5 42.7 18.3 15.5-31 36.7L384.5 181l-19.8-16.7L375.8 253l3 23.8-47.6 6-3-23.8-4.4-35-7.6 0-4.4 35-3 23.8-47.6-6 3-23.8 11.1-88.8L255.5 181l-18.3 15.5-31-36.7 18.3-15.5L275 101.7l6.7-5.7z" />
-    </Icon>
-);
+const HandsHoldingChild = createIcon("hands-holding-child", true, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABrwAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDWAsIAAE2AiQDCgQgBYMtB2IbDAbIjtEnY4Qy6ggzR7gcvHj++2Xt3Pd7elNWm11UAVRIQpLVKmQUakcRFC4rh9BTaOQUEoxo+36svT0x/SeimCT15tJMQ7OKV5hO8xKpDIkKE9fUD+tF4hfv5hZZHKWzzPMJPOg2mkUDDWjauJnaBueNTKdDG0L6HroKcA+MqO/1iXx2/wOY/8wOKHONALJKBOD+s+5Wep5mWvkcnshECxLIA4QDQEPDDoBbuIIdPAdIpxOmNQxE0wwDQwHSk0MaZ4/uZ4L8QaADpVTHk6caGqR8Oa9vgS+Z/Bm49V2bz7xX/huLSyqR6tEaH6LwI4zemJGFBQ5IYIMJeVjRnyC8iCOA9hi5FMKiW+iFaakUOGNAV8JWg6hKhKDnqUIRfUFpybj72nuMEf0xmnfDoFj5OGXUIAIjp6oRhG6/jujcD6qH78PJxITxqyBSKkUEfJ5RLG55SSFOX1AtSfJcwK8gTWQYdCsZJuELlZmN2zkKO5qIqbVjySfX13RmaXxADOlYZqBxp5j61OdsvQaXHj2iBh0YkSMdVxo5TtRi1Pfq7APgVGnsns20v0CQyIEODc+Slx6+5Px8+Tr/dAoE4cVJ59+VsvJXJOUQ/P31809z8fBc43rArAKhnf1HjdQOMNUAmcoG99YP/UaC5r0SbnXRFwExj4DSmxfQbFMB6Mw7BTCyJwegN+8RrnRiik2jA1cWveOamza5zqZHbuSWl2xvM9xUbUiThn/KrM1TuImPpeJJVma7VZ0xoer0dAW77A1u8K4QXEkTFi1YM27MtLWJdEVrYd285iOyyRcxKXFJTBl73Hhp7cPRFatcu21+PksF9n0yaON4cAh+kAM4F5Y0jRS41nLnjFUTe6w0OWN1ZKB921wlAA==");
 
 export default HandsHoldingChild;

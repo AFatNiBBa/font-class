@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-copy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-copy?s=sharp-solid book-copy}
  * @preview ![book-copy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/book-copy.svg)
  */
-const BookCopy: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 96L96 96C43 96 0 139 0 192L0 416c0 53 43 96 96 96l224 0 32 0 32 0 0-64-32 0-32 0-32 0L96 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l81.1 0c-10.9-18.8-17.1-40.7-17.1-64l0-224zM320 416l32 0 160 0 32 0 32 0 0-32 0-32-32 0 0-64 32 0 0-256 0-32L544 0 512 0 288 0c-53 0-96 43-96 96l0 224c0 24.6 9.2 47 24.4 64c17.6 19.6 43.1 32 71.6 32l32 0zm-64-96c0-17.7 14.3-32 32-32l96 0 96 0 0 64-96 0-96 0c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const BookCopy = createIcon("book-copy", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABawAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBaQsGAAE2AiQDCAQgBYMtBzAb6QTIjsQ4JvFKNB4iqNfV2/OkvbqTPoM+M2bABsqAU3sjI2XAOW45xcjxFrP8/F/z+T0/OsDPR3BokZRaHIlH1dueT2CA0d408LKBnSjO7yav5YqfI0k+ouujYXzD1hny+CW7r0Z6IX2PZ8KPxl96u0/SlgGITgBYtGPLOl82ohHxXfM94jtrEBCLQCWQIUM/AebKBPrJVcjlgkY0m/QfWBFAtODXTyBHDbtwAJCDJMvzQQM7l7X2+fayVuwpyuLdka/3E6+MemNaWUYU7R7v8Wzc6flcWUY9YldZtI+IKCKijCym8WV2+5IYoc1SFMXR8sH1TvV/BjnOawcWsv92vd7a0JqE240mrNLh0Uc7uC2btBvSeG1BVSFroYpCbvtrpz5/s1pwwAiQcfDgQhE/eR4IBM/9vPaBjnP/by0T+PPj//7Jj2t+mRamOlolEGRjm2PtTQuB0AGYKa4bLIwskGySAX9rO88KEAoESFoUAmT66iRArjBGgJoBpgnQorBFJvI2oZt9FSTtXAKZ6W6AXDfvgJq5vjJbdIsMXCQ0yL9d3PIeWraomjR+YjW7msYKhRfczs6ptsWR13VtlDrpuAvOu+qYo0652iGXrXOuOWe5BC8zosok401Uma26zh4Pb3fMZVeccsF5P88c1Xt1pOty9yilJIw5WSRJRGpDHj8O3AAAAA==");
 
 export default BookCopy;

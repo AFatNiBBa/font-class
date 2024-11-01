@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `seal` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/seal?s=light seal}
  * @preview ![seal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/seal.svg)
  */
-const Seal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M199.1 86.6c-6 6-14.1 9.4-22.6 9.4L112 96c-8.8 0-16 7.2-16 16l0 64.5c0 8.5-3.4 16.6-9.4 22.6L41 244.7c-6.2 6.2-6.2 16.4 0 22.6L18.4 289.9c-18.7-18.7-18.7-49.1 0-67.9L64 176.5 64 112c0-26.5 21.5-48 48-48l64.5 0 45.6-45.6c18.7-18.7 49.1-18.7 67.9 0L335.5 64 400 64c26.5 0 48 21.5 48 48l0 64.5 45.6 45.6c18.7 18.7 18.7 49.1 0 67.9L448 335.5l0 64.5c0 26.5-21.5 48-48 48l-64.5 0-45.6 45.6c-18.7 18.7-49.1 18.7-67.9 0L176.5 448 112 448c-26.5 0-48-21.5-48-48l0-64.5L18.4 289.9 41 267.3l45.6 45.6c6 6 9.4 14.1 9.4 22.6L96 400c0 8.8 7.2 16 16 16l64.5 0c8.5 0 16.6 3.4 22.6 9.4L244.7 471c6.2 6.2 16.4 6.2 22.6 0l45.6-45.6c6-6 14.1-9.4 22.6-9.4l64.5 0c8.8 0 16-7.2 16-16l0-64.5c0-8.5 3.4-16.6 9.4-22.6L471 267.3c6.2-6.2 6.2-16.4 0-22.6l-45.6-45.6c-6-6-9.4-14.1-9.4-22.6l0-64.5c0-8.8-7.2-16-16-16l-64.5 0c-8.5 0-16.6-3.4-22.6-9.4L267.3 41c-6.2-6.2-16.4-6.2-22.6 0L199.1 86.6z" />
-    </Icon>
-);
+const Seal = createIcon("seal", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCSwsGAAE2AiQDCAQgBYMtBysbRgXIHgnGbeQ/6Aj38BYOpeXh/9f+dZ87NzQvDBMiUgSOmFvNto5JuLDt+jKO3OBufK1yHJiu2veJa57/+bdH4jtWUVGB5IKGmecT2Pmwfb4Blw1sphOwqdtYsSkHg5wjgkPOQ5IbknXoXCHHNxikHulJ/4tb7UPjfx2cJ8kFgGgOgOkrliz248t4GfHvB8S/FiIgZoBKoECBzgJMUgh0llXIsuBlfPhQ/gMrAoj65PETyChwHbcBGSSR8/mt1yQvr9Ur19wvy7hPcZqT4r76xUOcydSI+DiP+tZiajzaa5octfhEDzqIyfGgjlrEY97vVYYK7s9VTwnBp37YMcIdyC09Ui1c/oP4JaMeJeIM4SnxENRDl3H1LpzU48vmX9Z1/3fjv37ffLnJdC+bTtfk8rt6daPnrVo9f2oWF/89HTbdf+rEdc9MM+zpf4X7lClQgE7zDP3PdAV7NnrmctNpmr6MCz//HM7LVY03mDJruBkEgmNja7eu2aQ3DWsJvP76m/Ezyh9+xdv0ZdFQAkEx6MMgaxNZjrcCAJDioB6JLJCcl8i7NvZQgFAiQFJfKUChk+YCZKWBAtTT1WgB6istUYjcSGhtnbFJY3vYwhgn2Ky1r9h6Jvkjq691FNmo5ZL2GcyeMzB7WzV8yLBqQrVtUz3BFLo+sTr2+h001h8XbbTLTvttsN4W+8P3WlwesMMcBs72RZXhhhimMkHl7r2eXm6DvfbZYpeddZOJqvi0n4N8dn/sJgFG3GNTIlJ+9wAAAA==");
 
 export default Seal;

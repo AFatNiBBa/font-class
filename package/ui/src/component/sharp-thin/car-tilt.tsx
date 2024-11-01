@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-tilt` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-tilt?s=sharp-thin car-tilt}
  * @preview ![car-tilt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/car-tilt.svg)
  */
-const CarTilt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M78.8 82.3L73 83.9l-.1 6L70.2 250.2l-35 9.4-15.5 4.1 4.1 15.5L65.3 433.8l4.1 15.5 12.4 46.4 .1 .4L8 496l-8 0 0 16 8 0 624 0 8 0 0-16-8 0-489.9 0 21.2-5.7 15.5-4.1-4.1-15.5-12.4-46.4 278.2-74.5 12.4 46.4 4.1 15.5 15.5-4.1 61.8-16.6 15.5-4.1-4.1-15.5L533.1 325 529 309.5 487.5 155l-4.1-15.5-15.5 4.1-35 9.4L350.5 15.5l-3.1-5.2-5.8 1.6L78.8 82.3zm63.8 330.8L80.8 429.6 39.4 275.1l432.7-116 41.4 154.5-61.8 16.6-15.5 4.1L158 408.9l-15.5 4.1zm-57.7 32l61.8-16.6 12.4 46.4L97.3 491.4 84.9 445.1zm332-287.7L86.3 245.9 88.8 96.2 339.8 28.9l77 128.4zM468.2 392l-12.4-46.4 61.8-16.6 12.4 46.4L468.2 392zM121.9 335.8a16 16 0 1 1 30.9-8.3 16 16 0 1 1 -30.9 8.3zm46.4-12.4a32 32 0 1 0 -61.8 16.6 32 32 0 1 0 61.8-16.6zm243.1-81.7a16 16 0 1 1 8.3 30.9 16 16 0 1 1 -8.3-30.9zM423.8 288a32 32 0 1 0 -16.6-61.8A32 32 0 1 0 423.8 288z" />
-    </Icon>
-);
+const CarTilt = createIcon("car-tilt", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABqwAAALKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDMgsGAAE2AiQDCAQgBYMtBy8bsQXIHoVxmxMOyZSFRhvhp0knHj7W/nfuvv1ilhAxSTSSSaZBxavYdDxCM/+/tfbnzpPqvEvmgpg0sRDFKl6p2kgQEm0bddfdAQ//e6VVwoElEkGmed48yANu/c81+e5WQQP8PNdsjSgbZj6fwJ6vKZuiCWYTxY1uuyoiEgp7qGwhjd9Wo5NcSDZw2k2Lj2ROSWQyCBClwHAj5jXL8PU23kY8/j8pt1cEAmIEQCuEDPyIRggMRhVoRNMKpFLB2/j/H/4HtoIAIhumJKanKMBNPALMeyGRl6YTytgQKfIUZBWlc4uR+YsqJUJAs6N3CEMUbdJHFSjy80VBiR9R2C4kIQ51TEVTiHplcczBSMcoDBeOGl+QK+Y6R3RzYvRQG5VjbVElIpvXLZ8a76I4dM4ctUpdjKbIrbyoueRzEEtnciHem/TQWOx1vF/Quq6k0Bln4DGqR3+LLeFOr/CQrH3Bl9f2ZO0TlS31cAJDck0HhAjdRRjqF5iYW4q1X9o/jEHOp4oneDcM6QHSMD8nl5iKoFM/pY84xphhhRc4qsNFuLFLKX2DvFUTEdcWpPdGvvdJLYX5sRfljF8jlY45/u+GzxzvXizoJ+2s2ThuL+msOTqhf8OzKl7eKSNoFY+fjvhUT66dI5Ue9zZXqtt4ms7o/n4rSlKPt/MBBIKZDw9OGuMM/ppbkID3t/5Hfjr8X8nxZCBXAoJM5/+dDSfHAbIH4E9iL+3OFwUS1+UJUwudFSDko4dEtnzIaMCFVL5OkKWZm3dyyixUkeYJlUZASBTaARl97UGq0itkGezbl60yqClYkP4E/49JM2Ms3QzbLTYcwJtxrTBR8nR9EJ/W6nZ5nh6OhFlrVm2bMW3B9oi1qRzcsSKzx0z7IczOwgYLwLdTz6Ud7Nu0ZWFdfL+RIPy+UWd3v7QetoIC6PnteXxQJLmrVmyatzcsbwM=");
 
 export default CarTilt;

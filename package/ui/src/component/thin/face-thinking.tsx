@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-thinking` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-thinking?s=thin face-thinking}
  * @preview ![face-thinking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-thinking.svg)
  */
-const FaceThinking: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16C123.5 16 16 123.5 16 256c0 36.9 8.3 71.9 23.2 103.1c1.9 4 .2 8.8-3.8 10.7s-8.8 .2-10.7-3.8C8.9 332.7 0 295.4 0 256C0 114.6 114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256c-4.4 0-8-3.6-8-8s3.6-8 8-8c132.5 0 240-107.5 240-240S388.5 16 256 16zM139 130.9l-7.1 4c-3.8 2.2-8.7 .9-10.9-3s-.9-8.7 3-10.9l7.1-4c32.3-18.5 72.7-14.6 100.9 9.6l13.2 11.3c3.4 2.9 3.7 7.9 .9 11.3s-7.9 3.7-11.3 .9l-13.2-11.3c-23.1-19.8-56.2-22.9-82.6-7.8zM176.4 176a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm17.6 88.2l81.4 20.4c30.5 7.6 52 34.7 52.6 66c.6 16.9-9.6 33-26.3 39l-42.8 15.6-23.5 64.7c-9.2 25.3-33.2 42.1-60.1 42.1L128 512c-35.3 0-64-28.7-64-64l0-120c0-22.1 17.9-40 40-40s40 17.9 40 40l0 33.8 130.3-47.4c6.7-2.4 13.7-3 20.3-1.9c-6.4-5.9-14.3-10.2-23.1-12.4l-81.4-20.4c-4.3-1.1-6.9-5.4-5.8-9.7s5.4-6.9 9.7-5.8zm118.1 87c-.1-2.5-.5-5-1.4-7.4c-4.5-12.5-18.3-18.9-30.8-14.4L138.7 380.7c-2.5 .9-5.2 .5-7.3-1s-3.4-3.9-3.4-6.6l0-45.2c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 120c0 26.5 21.5 48 48 48l47.2 0c20.2 0 38.2-12.6 45.1-31.6l24.8-68.2c.8-2.2 2.6-4 4.8-4.8l46.3-16.8C306 371 312 361.8 312 352c0 0 0 0 0 0c0-.3 0-.5 0-.8zM320.4 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const FaceThinking = createIcon("face-thinking", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABvAAAAL5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDWAsGAAE2AiQDCAQgBYMtBzQb3AVRlA5GiewjITfRelmCpjUGCxEnWljij3KM4Pt73z3n3tRi3VujdA1W4S6YWAMNaOn4Bf5EI/D8f+ze7vv0/Ek8AYwuK7kCWW23Zyvhf675/J4fHeA3OpROTbtbgIwyn09gwFE+r/BIsJlOwDY4b/IhhaKQvoAaL6gnJJ94d8Gd+9D4Z2oeUikAYhgAsH+Wl4GLH+NjUKs5DdGSBgLiAMAsQkHBJAJb+AKTBGZBVQVt+t+w/8BZCCA6+c+UoKIbv4A2ACpInbW+CzCTertJ5UKloFAulJU9TSa66U10LH/aY7VhlfGE7Yu4K1kPip5l3Iu5VPA0+mL63fw1xrXsi7Q7fieLnvueSL1dmG9gFw1Yw7K012G3C0NbBhlpj+Me+4jVzCrD3FkFBYUFu03Xm07b+1M+rQNnlMloj+sBM6IZdq18gVkNUBGtZdYYC2kNu5YpmDFusM+nVcY1RLTBcZcJaD2z2kFOZ83nmGxQ5MwQE4pK5oKD2x7QHPhsc7fxLv4fjUUVUPUVvjoI7nSsq3HokSPJxHT5TBKSMLPc1ARJzbBaJKpeSjCSEZBIiCKKRX9vnb+J2gDHvDos3rE99zbiA+LzbsMqpyY0/aNK9fGhldVDbVG2gV7+wKNHYvONR8BGo/bXb8YL27Ra2TC0Fw5qtQcvaG0x44Udy9c9ydajVuRYPVAo4K2MX+QHbx9bgQeYnBxmGPx7b729xIHeTOLwVj74pAYIXbdWD09jO8sgOPyy7a5Sb33tlif4u/Dll+xX1FxM5DOgW4KgzP+fV54gCQBAxg1sEwikVyK+2+9+azr0UkHq1AvFBA1Uveagw7QAauH4I3xRe4RxFRBSv3MoNk1ANe4kdNhyI9FpPPg3NXNLMr+UiYlNJKEf5+PpzYVyo1kFe59SujuMW2w6D/IqFzgXjbp06tegXov+BtYrIz2gQ+IUmuCLOD48eeOE4jYX7oqFjUSvPi3Dmu29hOGOd50NTjd2gQ6Pj7sqIyWRA1+M5vHyAQA=");
 
 export default FaceThinking;

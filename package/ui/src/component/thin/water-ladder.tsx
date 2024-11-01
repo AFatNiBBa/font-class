@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `water-ladder` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/water-ladder?s=thin water-ladder}
  * @preview ![water-ladder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/water-ladder.svg)
  */
-const WaterLadder: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 112c0-44.2 35.8-80 80-80s80 35.8 80 80l0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-40c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 128.2 240 0L384 112c0-44.2 35.8-80 80-80s80 35.8 80 80l0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-40c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 136.2 0 134.6c-5.5 1.1-10.8 1.7-16 1.7c0 0 0 0 0 0l0-128.3-240 0L144 371c-3.8-2.1-7.6-4.4-11.1-6.8c-1.6-1.1-3.2-2.2-4.9-3.1l0-112.9L128 112zM294.6 403.4c8 11.2 17.5 21.4 27.6 30.7C339.5 449.8 361.5 464 384 464s44.6-14.2 61.8-29.9c10.1-9.2 19.7-19.5 27.6-30.7c1.5-2.1 3.9-3.4 6.6-3.4s5.1 1.3 6.6 3.4c7.3 10.3 15.9 19.6 25 28.3c15.7 14.8 36.1 29.2 57.4 31.9c4.4 .6 7.5 4.6 6.9 8.9s-4.6 7.5-8.9 6.9c-26.5-3.3-50-20.7-66.4-36.1c-8.8-8.3-15.9-16.4-20.6-22.2c-5.2 6.4-13.3 15.6-23.4 24.8c-18 16.3-43.9 34.1-72.6 34.1s-54.6-17.8-72.6-34.1c-10.2-9.2-18.2-18.4-23.4-24.8c0 0 0 0 0 0c0 0 0 0 0 0c-5.2 6.4-13.3 15.6-23.4 24.8c-18 16.3-43.9 34.1-72.6 34.1s-54.6-17.8-72.6-34.1c-10.2-9.2-18.2-18.4-23.4-24.8c-4.7 5.8-11.8 13.9-20.6 22.2C59 458.7 35.5 476.1 9 479.4c-4.4 .6-8.4-2.6-8.9-6.9s2.6-8.4 6.9-8.9c21.3-2.7 41.7-17.1 57.4-31.9c9.1-8.6 17.7-18 25-28.3c1.5-2.1 3.9-3.4 6.6-3.4s5.1 1.3 6.6 3.4c7.9 11.2 17.5 21.5 27.6 30.7C147.4 449.8 169.5 464 192 464s44.6-14.2 61.8-29.9c10.1-9.2 19.6-19.5 27.6-30.7c3-4.3 10.2-4.3 13.2 0z" />
-    </Icon>
-);
+const WaterLadder = createIcon("water-ladder", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABrwAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDIwsGAAE2AiQDCAQgBYMtBzMbpgXIhuB5ndm8L9nZlTfICiIfAFEXLDqg9pgmLnf+tmnhmPbvuHaTA1nUtjnPE+g8796b9hZQFmYJJcSZZ6oQSkdrj5iJs52JPF6Tx2s7Qx77HadCejjtw532pvG19q4jyTIA0QwA09asWOSrI3EkYt//7xP7LEBATAelQIYMnQSYKBPoJFcilwuOxP//639gSQBRNcEkzqXxQ3wGWixtKc+XbqlVGuera5Viw5MDIl4d836/lzuL+1o90Cbikf6v9H6u70vtRC0i2EhqQO7qWKqIIsQDbeQRse7h1vdTtVvbPpjr+KDprvvlUfe7r80LvV+gDfe1uq/ncz2HFrJWH1ri3XddbvvhgAfbRvuzUmnd/ZVmr3zbbd8J+1y5JFZzfLNmx6+Ovqpbt1b7Kpo3f+qpnS6u8gONjaB33uRGZ50FV/vBuZbPaNbtbDe90P2tb/f+8UfX5Hf2fvtW9zzv/uaBi6pbG7XdOry++PTASRd/d6Bf+6VL2/c78N3FAJhw0oFPi/rhW9vUba1edODNaH/WU44/HggEF+xefHRL04m/1tUSOPbJ93+xh/8/kqamV1AngSAb+P9AG9NUUGUAlRQX6E4+KJC8KZmv2uABAUKBAElVIUCmo2YC5AoDBKjoYpQAVYUVMpHXC61sOoWkwdlCZrTLhVwr7woVE+0sV7WKrHKturN+HPNne2DWoXLY4KHl+PK257CL0aC7E8rH+b4XwEy/lugEZzrDeY53nJOd5/BzLKqd73SzGTbLF5WGGWyo0nhleDieXu145zjXyc50xrbPBGV+qa8L+PJ+7TgJMPyd1yUiNRR2cdBpX7+CcwAAAAA=");
 
 export default WaterLadder;

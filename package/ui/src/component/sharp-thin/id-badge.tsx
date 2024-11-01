@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `id-badge` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/id-badge?s=sharp-thin id-badge}
  * @preview ![id-badge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/id-badge.svg)
  */
-const IdBadge: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 16l0 480 352 0 0-480L16 16zM0 0L16 0 368 0l16 0 0 16 0 480 0 16-16 0L16 512 0 512l0-16L0 16 0 0zM128 64l8 0 112 0 8 0 0 16-8 0L136 80l-8 0 0-16zM240 224a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-112 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm-4.5 112l-21.3 64-16.9 0L112 320l160 0 26.7 80-16.9 0-21.3-64-136.9 0z" />
-    </Icon>
-);
+const IdBadge = createIcon("id-badge", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbgAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBaQsGAAE2AiQDCAQgBYMtBy8b6ATIjsK22ZNhWJJDluQAHgxXPE9/b577ttXxTfHSuAPFElzQYCwLFg5oJ0gE/kRDVfP8/19j3Td2hj+4fMQ8qWso7lEs0WClBKytxZ3+5p93HgX4MMtpLKvzQMYEmvM8gc6jsXwRZYFlGoB9xr83zaZRqt5kRpP0R3Z87dDOGOrJUO7LT3BXHppPVuYpxBYAyBwAnF/lZeD5jZrkR70lb9JAgJwD2ESgBVpggQBHRAQWJBy0SQgaqjX8B3IIQLpo1wqgDfrgEixB/wIKpS3pGA309IxGsp5UqMmsTBAFPRJJ13zE9ECFQENdIpGoQGMaaMioYNPt1OXYcsP1xP3Mhu1tXXle2G17nHtd2ucHBAcwKiKNCohRUJjTg+HlH8efje8MXpu3t2pvqK6G82lDvMGQ4TXuuI1X1ek51BvDrj3WOTbWyRDdLX58fX2IfFcVWoxgfYH9yBshzAqQS/v/X/+XBjF/qiYA+Hj696t+hKjPtCqX6BMAgdZ29VGeachKAACUDMIp0wgoMt3UXcdWBRAMBFAoGAK02DBEgDbGGwE67IUiQBeTR0RtHRBTFQMIdPUAUZgJIDF1DWQxXiSFaUTnIl2D/NvFJUoooY0H+gXwKD61dcpf8FSP5suCxyDHPGETjbp06tegXot+gfTKUAd0SLTgBC/iAvkJwEXh2956uVCDXn1adOnMTaLx86KHQTvbE7oQABw+C859KWpLvW9tTX1TAwAAAA==");
 
 export default IdBadge;

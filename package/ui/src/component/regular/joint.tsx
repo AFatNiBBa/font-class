@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `joint` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/joint?s=regular joint}
  * @preview ![joint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/joint.svg)
  */
-const Joint: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M464 24l0 19c0 38.2 15.2 74.8 42.2 101.8l21 21c21 21 32.8 49.5 32.8 79.2l0 19c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-19c0-17-6.7-33.3-18.7-45.3l-21-21C436.2 142.7 416 93.9 416 43l0-19c0-13.3 10.7-24 24-24s24 10.7 24 24zM592 264l0-19c0-38.2-15.2-74.8-42.2-101.8l-21-21c-21-21-32.8-49.5-32.8-79.2l0-19c0-13.3 10.7-24 24-24s24 10.7 24 24l0 19c0 17 6.7 33.3 18.7 45.3l21 21c36 36 56.2 84.8 56.2 135.8l0 19c0 13.3-10.7 24-24 24s-24-10.7-24-24zM120.2 436.8C171.7 450.7 235.2 464 288 464l27.4 0-52.6-63.1c-47 3.2-99.1 14.6-142.6 26.3c-5.8 1.6-11.7 3.2-17.5 4.8c5.8 1.7 11.6 3.3 17.5 4.8zM324.6 400l53.3 64 97.5 0-53.3-64-97.5 0zm160 0l53.3 64 54.1 0 0-64-107.4 0zM15.8 409.5c30.1-11 61.1-20.3 92-28.6C160.3 366.7 228.8 352 288 352l312 0c22.1 0 40 17.9 40 40l0 80c0 22.1-17.9 40-40 40l-312 0c-59.2 0-127.7-14.7-180.2-28.8c-30.8-8.3-62-17.8-92-28.6C6.3 451.1 0 442.1 0 432s6.3-19.1 15.8-22.5z" />
-    </Icon>
-);
+const Joint = createIcon("joint", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjwAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCUgsGAAE2AiQDCAQgBYMtBywbTgXIjpQuJ6QRPK/3/z9rJ+cCzJPxRVQEOrIFFRHzf029DDrAz0dwaLHC0uJIjQqbwJ6nhUWDT6PAJoqzdiIxiNiI78slaVdfhske8vg7zlMiXZ5ewbnpS+NrnU4nKWUAogEAC7batMZzH8QHES///zDxslUIiAWgEMiQoUeA2TKBHrkCuVzwQfz/v/sPLAggyuT9EshRgTNwEdyArleW5319rZWV/dWl2nzL6lLVXsL1c0bE3b3issG3dEWcMnJkvLVlxJXDbu7cIsQNc0fGPX3UI04esca9ucX8nR+eEvFwdXVsjIcmF+qilqiLW7fasHEDs1dVVyg8Oz857VGzQXVtnNl6MXFyy0VVNXHG1EfU8kvaLm0feEfDHd8OeGXPV7x+a7Pdr+qMxX6obda6YUNrs66Bi+1t7TjASd+j9d+/69hHeXR4t7kmLl1aMX7B+PGHnvLK4HUmYhfr7HJdfZSp5tvvncrnvj72iz/GTNd45xPrNT5x53Rj/vji2K9f/6y+/lMgEFx+eMvSnepn/1pRncBHT3z/G3vx/8+lk9MdqJBAkI3+f7Tt08ng5AH4UhxpIBhjIDnV7d5qjUsECFUIkJSpEiDTrUGAXJVRApT0mSJAmSqbZCKvFFrs0EFS4xCQmeoEkGvxICiZ7XlvmZbIJFKXJ/0/mGUpRZeMKiaMHV/MLKZpzSBkamifVSxbhx/py0bolfZ0kAMdbg+728fhRDrUmsARDrAUiUv8UGGCscYrzFRs5+aLt7SHQx1mHwc5MA4zS3HeOdyRuPYI7Uiy4kQxSSJS6V0CAAA=");
 
 export default Joint;

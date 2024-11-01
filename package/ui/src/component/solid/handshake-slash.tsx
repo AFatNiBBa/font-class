@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `handshake-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake-slash?s=solid handshake-slash}
  * @preview ![handshake-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/handshake-slash.svg)
  */
-const HandshakeSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7l-135-105.8c-1.1-11.4-6.3-22.3-15.3-30.7l-134.2-123-23.4 18.2-26-20.3 77.2-60.1c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L512 316.8 512 128l-.7 0-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2l-89.7 72.6-25.8-20.3 81.8-66.2c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-35.5 23.7L38.8 5.1zM96 171.6L40.6 128 0 128 0 352c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-180.4zM413.6 421.9L128 196.9 128 352l28.2 0 91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c.8-.8 1.5-1.7 2.2-2.6zM48 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM544 128l0 224c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-224-96 0zm32 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const HandshakeSlash = createIcon("handshake-slash", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABlQAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCZgsGAAE2AiQDCAQgBYMtBzYbbAXIjlQ1fzw8b9fXua/qq3qMGpMrKB2HK0dwkO1Huorgrtz8+b+mXjw/OsBvR3Yo0Xi3DFxzRHIC7vlAIgoHMhvYRHGD8yYdUoZC+w7y+Ce7Xw3plfQNnrK/NH7U3f0kDRmAaAeAeVs2rPJpUzRFfF19i/jaCgTEPFAKZMjQS4CZMoFeciVyuaApqlX2H1gSQNRyX55Ajno8iQuAHCS1eT61Y7eG9g2Vmtb5ZjWu2HGp08udz8XFrq912RyvkmuGxvDYEi91fqHTwNgUEUV0ic1xqXh06MZOOlt94NTYvGn1qtVFiLs7v1CpxGNdX4rYt98zicoC4wtDLtd0XQcloftf6Px8pxe7wMEDwlRjFJscrnuT/tfaXfu53zeHvzH4/RG/vv7/mu/Fb3vwmHbfPHirfZ63coa3r95+dY1H7/KRMM6S0e7s1e/C1qWet26eLh173zXEHfunXjrhRg7TpM3DD7cplefNWX/1btJTXtPLjvV+LssfHh7exgrT7tShpjZtmizTr580QXGOp8nevt93MpgIxEH/f/bPxD1tZ/5WX0mg5f1f/8RnVlelh9I11EsgyEZWR9qZ7h6AthW75o4b9YejFEgedJ4/tZUXBQgFAiS1CgEyPbUTIFcYIUCNPiYJUKuwQSbyBqGTXQVIWjkHMpPdAXKdvAFqzPS5p1anyJ5N7sni/gyTF1fRRcPKcaPHltPL3qSMf9wY3TyjnKwMvZEXDYNjHXbGadc75KBjrq/g563y3+CUxUPYIj9UGme0sUrTlYszN+XN2HPedY51i8s7maHc3jbUjcOVh0Ft4pKOF5EkIrX9eKgw7MShUded3HfdUQAA");
 
 export default HandshakeSlash;

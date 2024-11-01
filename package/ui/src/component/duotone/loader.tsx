@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `loader` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/loader?s=duotone loader}
  * @preview ![loader](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/loader.svg)
  */
-const Loader: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M65.6 414.4c0 8.2 3.1 16.4 9.4 22.6c12.5 12.5 32.8 12.5 45.3 0l45.3-45.3c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L75 391.8c-6.2 6.2-9.4 14.4-9.4 22.6zM224 416l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64c0-17.7-14.3-32-32-32s-32 14.3-32 32zM346.5 120.2c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L437 120.2c12.5-12.5 12.5-32.8 0-45.3c-6.2-6.2-14.4-9.4-22.6-9.4s-16.4 3.1-22.6 9.4l-45.3 45.3zm0 226.3c-12.5 12.5-12.5 32.8 0 45.3L391.8 437c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-45.3-45.3c-12.5-12.5-32.8-12.5-45.3 0zM384 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M256 0c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64c0-17.7-14.3-32-32-32zM0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32zM120.2 75C107.7 62.5 87.5 62.5 75 75s-12.5 32.8 0 45.3l45.3 45.3c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L120.2 75z" />
-    </Icon>
-);
+const Loader = createIcon("loader", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABswAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDOQsIAAE2AiQDCgQgBYMtB0gb0wXILgps1zQhbpVilkYHMc7tO8XD9/uZ5773k9kNlQDUsis4QCOIFAAlBWFWryqrqrIGVp2qTnX8nrndnyTTeo/klre2hHhzaTRiIxQayfz1XmBm8f8/19SL50cHWOSH8u8WGbgGiSyQ2Xi8pvSBl9BMZ2Ab1Ss40PmL49kdiviYTyuRWuk1rgX/Axh/TPAh6cwAYjgC0L+tG9PvW3xL8bo9RLy2EQmIAYTpgIyMyQC6iAKTSaYjhULwLbX5Fu3pKIAoi541gzIqeIJXgAIkWakoxo3zPd8PAqVUL7ZWS5VdF0dH3CaOj7lTvTTuXkScGHu3svn4mIg71WoMBZZYiYujb9tW4QFLaLeYmXuG58y92AZsjS7ctgXcJ5xZ3nVbxFZ0LELdEdcpARvY9oGzZg4OH/w7Q9ovGuc53+hTAhOYuB6gPXfy8FCzRr15oV678EazDhPqFz7pn5FDL1hrfsKFucQ3LtQeRV8kO6xVJx+b16pTb53fAojVfFlrvf5pp15OatYuX+D87B3feBwIBOum/ZbR9b+jmsCPx/9DPyTtl0kaRIcEgry4vdgsgUQAAFIckkgwAMh2k0WfWnNXgFBBgKSsIkA2iQmgULEIQMlUNQBlFZuIougURpu3VFKzl8rWelOF0b5USZd/qGx0ZF0s1oPin8gUUR8PV/GKfJHbvJhRSzSm4HZ2eLdh/otXpOBRWjk7eVha2Hr0yJs4+nQUrRGhL2IleUWsjU/nHysGvdDN3XZedn6RDr7fk/Rar5+CZkHEudKGLBMpcsM0anK2QWN2ZcoeAA==");
 
 export default Loader;

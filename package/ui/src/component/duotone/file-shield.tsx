@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-shield` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-shield?s=duotone file-shield}
  * @preview ![file-shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-shield.svg)
  */
-const FileShield: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 47-92.8 37.1c-21.3 8.5-35.2 29.1-35.2 52c0 56.6 18.9 148 94.2 208.3c-9 4.8-19.3 7.6-30.2 7.6L64 512c-35.3 0-64-28.7-64-64L0 64z" />
-        <path d="M384 160l-128 0c-17.7 0-32-14.3-32-32L224 0 384 160zm39.1 65.7c5.7-2.3 12.1-2.3 17.8 0l120 48C570 277.4 576 286.2 576 296c0 63.3-25.9 168.8-134.8 214.2c-5.9 2.5-12.6 2.5-18.5 0C313.9 464.8 288 359.3 288 296c0-9.8 6-18.6 15.1-22.3l120-48zM527.4 312L432 273.8l0 187.8c68.2-33 91.5-99 95.4-149.7z" />
-    </Icon>
-);
+const FileShield = createIcon("file-shield", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgAAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBdAsIAAE2AiQDCgQgBYMtB1IbGAXIHgduTMdyqacVD/9v1/f73Fvda6Z6jBpJEeTvyIikSED68l4/tTopX6rL93/+L/f8bNMBfqNDG2uBLMC75nyeQMBZNoECaQtlmoH1tqESjUB6ESFSUtF4OmYXKOLffI0a6Z70FW7n/wGMb/R1DUn7DCC6AGDJ1o0bvNeMZoqvWi8RX1mPgFgKKoGMjAECzJcFBihUKBSCZmqlGa0VAUQdw5lWx+ffjqOAAiRZFEWjTzm8UetYbGnUyqNlo7yp150RsXnzXT03xx09Hxhw//inVuv1xcRnBj04+K7eWzdv2bxFfDnp2cH5vnERT45qhLii5x0NDDfFS7uHT3l+g7JDPDL2iX556BNdnvhuyFdHvnL54CvoWp1uuKHTFR56aOSSq6++JG2dvfbYx21brr56yx8/9prObZdMOrp5z4h0wVv6bV/TyxVlV7o+/LArHN5okl3DderRYc6cM5925eGuXcsrgEBw1Z9jft7bef5v7RoJfP3GD79ov6OWtCQ9gXYSCPL41ni70mJa0xIBAEhxsaFpsSYC2QQZfWoHdwoQSgRI6koBsv66CFAojROgZpAZAtSVNsqiaC/0sHuApIPzQDbTpaDQw4ugZr5P87oekX2M9RD2h5e0UkIrtlVTJk6u5lbLts65DV3W51Xb1uiL89gY2OuIs8640GGHHHehIM+3obrIaSstYoUvqkwx0WSVuarr3lraQvn5LnB8LtxvMk/1PhvtYnv2GHCTSjnVjiwTKXL3eK5NuODY8cOnDk2I1omeWghM");
 
 export default FileShield;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-js` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-js?s=brands square-js}
  * @preview ![square-js](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-js.svg)
  */
-const SquareJs: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z" />
-    </Icon>
-);
+const SquareJs = createIcon("square-js", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfAAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCAQsGAAE2AiQDCAQgBYMtBzAbAQXIjpTuOr94+H+7vt/nVj1V99A1lL+dQflACr8YSSs3IrgDdvqbf955FODjCEIbCxctkAW253kCiXX5/PSFxgILlD7z122ihx1R7IsQCRKJji+PrwXyOBI71ZEOpXexo39p/KiTJ0jqMgDREgAz169e6rXP4rOId2tPE+9ajICYBUqBDBm6CjBFJtBVrkQuF3wWtZr8B5YEEPXwMxLIUYfrcSsgB0mW5507DKnUNcvXVeqKGw8PirjcrxpnB1zsmOLQwEt9m8WFwVe6ZNedbx+xv/PkONT3XJeISoijfc4W6ydPmHyo74Uuj7bf3759nG+/v/ORDhf6Pzt0Qhzuc7bj3r7t4ly7fQ6Grnx9WK/LLS//3PPdG9716vaiFa1OznCyVatihqKVHim2PPIXP1zVxj09V1V3GGQHLZp3XTuoDT/Osx+dSpX77v96r5s+fr+xodb8rlG53UotLu1x+ZePO1eHDeuxuwMQCK794udp21tM+a2xksAXL/z6z7hc7bN4LV1GowSCbEhtiC3xGgg6AD3FA3o5JwskW2WAW63aL0AoECCpVwiQ6aKlALnCYAHqdDdWgHqF1TKRNwltbVWQVN0NMuM8CHJtPQnqTPGGXq9tZIlGpgn5z4ubZ6G5Y+XIYSPKSeXWN6ncwWt/chnmBzxQcgNp1g3udIf7XO86N7vPIPdYat3vdvM8eK4TlUYaZoTSJOVx9Dq9zvXuca+b3emONmSy8r42wAN+9UCSEmCOYksSkZoeqzz0lnsBAA==");
 
 export default SquareJs;

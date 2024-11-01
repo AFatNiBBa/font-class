@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `books-medical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/books-medical?s=thin books-medical}
  * @preview ![books-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/books-medical.svg)
  */
-const BooksMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M192 416l0 48c0 17.7-14.3 32-32 32l-48 0c-17.7 0-32-14.3-32-32l0-48 112 0zm-32 96c16.7 0 31.4-8.5 40-21.5c8.6 12.9 23.3 21.5 40 21.5l48 0c26.5 0 48-21.5 48-48l0-48 0-8 0-8 0-267.8 1.5 6 2 7.7 65.9 253.8 2 7.7 18 69.2c6.6 25.5 32 40.6 56.7 33.8l59.6-16.5c24.7-6.8 39.3-33 32.7-58.5l-16-61.5-2-7.7L490.6 112.4l-2-7.7-18-69.2C464 9.9 438.6-5.2 413.9 1.6L354.3 18.1c-8.4 2.3-15.7 6.9-21.4 13C326.1 12.9 308.6 0 288 0L240 0c-16.7 0-31.4 8.5-40 21.5C191.4 8.5 176.7 0 160 0L112 0C85.5 0 64 21.5 64 48l0 48 0 8 0 8 16 0 96 0 16 0 0 56 16 0 0-56 112 0 0 288-112 0 0-56-16 0 0 56-16 0-96 0-16 0 0 8 0 8 0 48c0 26.5 21.5 48 48 48l48 0zM336 64.8l0-1.2c.3-14 9.5-26.4 22.6-30l59.6-16.5c15.7-4.3 32.5 5.1 36.9 22.4l16 61.7L353 133.8 337.1 72.6c-.7-2.6-1-5.2-1.1-7.8zm-16-.6c0 0 0 0 0 0L320 96 208 96l0-48c0-17.7 14.3-32 32-32l48 0c17.7 0 32 14.3 32 32l0 16.2zM240 496c-17.7 0-32-14.3-32-32l0-48 112 0 0 48c0 17.7-14.3 32-32 32l-48 0zM192 48l0 48L80 96l0-48c0-17.7 14.3-32 32-32l48 0c17.7 0 32 14.3 32 32zm283.2 68.7l63.9 246L420.8 395.3 357 149.3l118.2-32.7zM543 378.2l15.9 61.2c4.5 17.4-5.6 34.7-21.5 39.1l-59.6 16.5c-15.7 4.3-32.5-5.1-36.9-22.4l-16-61.7L543 378.2zM88 168c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 56c0 4.4 3.6 8 8 8l56 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-56 0c-4.4 0-8 3.6-8 8l0 56c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-56c0-4.4-3.6-8-8-8l-56 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8l56 0c4.4 0 8-3.6 8-8l0-56zm8-24c-13.3 0-24 10.7-24 24l0 48-48 0c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l48 0 0 48c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-48 48 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-48 0 0-48c0-13.3-10.7-24-24-24l-32 0z" />
-    </Icon>
-);
+const BooksMedical = createIcon("books-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAOAAAoAAAAAB9AAAAM0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhhCFYQsGAAE2AiQDCAQgBYMtBzQb5QbIjsN04ytHkSR3vuLhae33584OtjzEknezZB7FIiFCopK9eawQGh75IX23J7uvqg/1QoN1/1n47h3tCIAyB4kxz/1MF21p1WLzofxFplVYVOBobzSazjbbaFfUmHx2diT3TkjPaG6+XYARMePt3kGO53rzku5d98A1+abxQ6JpQFIUAIhmAMDCfqsmuPSGb4L3/h8H4kkjEBCLAPoQBQp0IZjmFuji0QeyLPjg///q/0ANBBDV8DHJpYwKsQHEIVD/JJIye2KHJthxccFYyVXeSE9b5Q21A50mLAuFOMdcQVK13pm8Oktxp7UymXC5aSiaNlpktbE8p1577tokhybb4uwac0VmbS5LWFM2xG32mmztWMIyGxSiXgFN0l0MkSCAQm5hnXtnqU5EPOY04kpjuRFmazpcQXMyyclElCTNWqkU53bxAQdnJsUrWRDnXdMRNOBEj922bVqzLdt1CDvh5fI1EmpzmbnCdNiu50pLcbmBSEqAdlUokhLXCpOQQjwGiPKYvM0GS2rit5CCtDOZFN9Rgrs5e2L2vA3f63sPF9NFJGrWrCiB8KrDe7stevp0kUBe7rsFAbUqOliq/4UpdgUtf/7IvIis60m1/rTgl9Fq/9FZ5yhY9OzZXGfzUfkIBDucluZAXdz6i0a4n19EDl4gadbdhCPbl1f5gzF9+AN3/gBAn+HE8ZwxzQ6mZqCoaNxS/KKIDAkn1a72NXCOSYehhOKs5fnjR4s6drx6cAd05b8Hbjz2ddfoXl0eBFwerpcpj7b0cS0MgbD5NYxNgSzUqL8cEAhOvus96RZd+WtAuQBfZ97/Avkb/p931XLtAdRKICgG/heic6oO/P/rqgXyoynGwumxiNJGNRDif9WKGxCEEgGSaqUAhU4xCLJSP4IqPcogqFba5hY5iNCuS85OKo7ZhSnj2Vm7o+wq025Gq7WHm2NJuYX0vzZV3TK0zi5dopjoirqzisn4itiarqRHm3LHal15OIO+hhlqtD56G0CAEnGkJokxhqjbJ1jnZ7USihFaRXp247qqreQcaZQmblfMX6USvb4v19j+wXmwuvhCxxQkiUiR/E1X9J0BAAA=");
 
 export default BooksMedical;

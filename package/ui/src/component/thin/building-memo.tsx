@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-memo` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-memo?s=thin building-memo}
  * @preview ![building-memo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/building-memo.svg)
  */
-const BuildingMemo: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M336 16L48 16C30.3 16 16 30.3 16 48l0 416c0 17.7 14.3 32 32 32l96 0 0-80c0-26.5 21.5-48 48-48s48 21.5 48 48l0 80 57.6 0c2.9 5.7 6.5 11.1 10.5 16L240 512l-16 0-64 0-16 0-96 0c-26.5 0-48-21.5-48-48L0 48C0 21.5 21.5 0 48 0L336 0c26.5 0 48 21.5 48 48l0 16-8 0c-2.7 0-5.4 .1-8 .4L368 48c0-17.7-14.3-32-32-32zm-38.3 95.8c-1.4 2.7-2.6 5.4-3.7 8.2l-14 0-24 0-8 0c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l8 0 24 0 8 0 0 14.6c-2.5 .9-5.2 1.4-8 1.4l-32 0c-13.3 0-24-10.7-24-24l0-32c0-13.3 10.7-24 24-24l32 0c7 0 13.3 3 17.7 7.8zM288 233.4l0 14.6-8 0-24 0-8 0c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l8 0 24 0 8 0 0 14.6c-2.5 .9-5.2 1.4-8 1.4l-32 0c-13.3 0-24-10.7-24-24l0-32c0-13.3 10.7-24 24-24l32 0c2.8 0 5.5 .5 8 1.4zM224 416c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 80 64 0 0-80zM80 256c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 32c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-32zm24-8c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-32c0-4.4-3.6-8-8-8l-32 0zM80 128c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 32c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-32zm24-8c-4.4 0-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-32c0-4.4-3.6-8-8-8l-32 0zm280-8c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48l192 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-192 0zm-64 48c0-35.3 28.7-64 64-64l192 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-192 0c-35.3 0-64-28.7-64-64l0-288zm64 48a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm16 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM384 400a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm72-200l120 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-120 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm0 96l120 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-120 0c-4.4 0-8-3.6-8-8s3.6-8 8-8zm0 96l120 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-120 0c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const BuildingMemo = createIcon("building-memo", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAACCgAAALtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhmiFXwsGAAE2AiQDCAQgBYMtBzQb4wbIBp5H2+r9zMBBBl3TrDknLlrRnRedaKeVOBPHTBdNUUAVoPOhRAdGe0TZcOcDrv5ofdAHe9AU8x+cN+iwQvlCOR+ALX8YhQvUfvUM2Gpulo+ksgoUloVNkhAfk+Z9e3Ym+kbeiDyL3QZ5RkdAAKQFAAYBLMACMhAAGmEhQAY2BrCxEXgjsZj+P9CAAIC4gSjFORuIA+kA0heqkq70kG03ycwK2ei0NC8g8N6Oy2/3cVx6rM/v25CwCyXLEnc7jogcTN5bdDpxdyriyO5Erc8k7UmzGix+4bRaNmiR5Um6164ErT0lvb5Yx0F2aS1n0kQOFjmyMbEXQkfa8iSRPXrbNMQR6VOXcToV2ZffR1s0yil7k7WJknTXm0eeShDZlaJkf+LuAkfOJu9Nt+RA0p5C3elgmcjFiYGS86mKm4rPcdrSC2lW573Jhl0JSNM7FOR1vZRQX0c7ikkLb5fC3XIvhC58znk25hldrxpjAuvWBY4R3GkY3bCev4hEXjy3utGAen1aRXX1sQaTAWaG8GDboaEvLxgaHx8ww9wG9zCPCRKxDd0TDYndDc5Y77yg3Y6nbYEdaXonsA7WBWbJ7UYzum09mtjdEKmaueOshmii5LmYtlrkBTy3REcFRuXZrpgOQ/hYlGPhsDZwOQzHAm/eBDxEsKsE2oJTq462D+fZacPc7mHzCNodVvg7ABBAoOEHb62hwUbfPI4C4N2Dr7+NV8eiapm6AHhQAAhY5bFyBqllAIhbACCiZA65HWrBM7UghM3gYw9CTNCgkxVuNNkinRDZRlNGdpFF7fNuND2xENuLkMBgQFb4mE62qMNisk0CN8kuGvEw7CZBLHklkRWSy9qUbYrg1vNM9cqIaWBa8xKpVBFp/Q3NYGPxHF5XAvcyhqlMYRajGcV4ZhUIM+gcm81k2nTxtv5cQ3UqiWBogJlcuqrsg8MzmMn4Zvn0aRpilvcWM6e7dQm0KGy+NchSKBDlP/N0FT/1BQA=");
 
 export default BuildingMemo;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-window` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-window?s=solid house-window}
  * @preview ![house-window](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-window.svg)
  */
-const HouseWindow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1l32 0 0 160.4c0 35.3 28.7 64 64 64l320.4 0c35.5 0 64.2-28.8 64-64.3l-.7-160.2 32 0zM248 192l80 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24l0-80c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const HouseWindow = createIcon("house-window", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYgAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBOwsGAAE2AiQDCAQgBYMtBzMbvgTIFkrLw/N29Z37qkaNT9a3mUnZSogmWzCHUkaKtqdOPc95KIBvFLQ9NCDZvvd5BCLWi8erBVngNa2AVd32/VEmr2IQPCKGuNCsQ+eCPL7LrqsjPZS+xB39qeI3nV0nacoARCsAzNqwZpnmn+PniC9q7xFfWIKAmAUKgQwn3QSYKhO+IFcglwt+jlqN/4EFAUS9fEgCOXLMxiJADpKU5wPblOuq+fpyXenEAx0j4gMe6LA+7i/d325n3Oty+/val0M8NOilftV4YcgrEVHeXS6Vn+ssHuxbiue7RDwyoPfLrV7+o9eX+7/U84nm29yuVD/6/2f3l5980U8ealG9ffvbwpNKrVs/OdObHuz6pGLAjpUeWdV+pfarVuL9QCA4PnDlYztaTv27sZzArx//9Z/9jNSa06z0MholEGRDa0NtTTOp1dIsAQBIcV7vNBOBZLIEz1pxvwChhABJvZIAma5aCZArGSJAnR7GCVCvZI1M5E1CO9smSCpOgcx4F0CunXdAnak+seq1i0xFhAaIT1zs/KF5R8Wo4SOLycU2M0hhYG07pThWB57XGYRT+51w3Fn77HXI2ZDTlrnnHDO/guf5osIow41UmKy4Ll9vr7fPaWcccsJx7pmieG8OdL4eHwQjSdTRQkkiUkVhwjD9AQA=");
 
 export default HouseWindow;

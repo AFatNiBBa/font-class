@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gear-complex-code` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gear-complex-code?s=sharp-regular gear-complex-code}
  * @preview ![gear-complex-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/gear-complex-code.svg)
  */
-const GearComplexCode: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M216 0L197.1 0l-4.4 18.4L180 71l-1.1 .4L132.8 43.2l-16.1-9.9L103.3 46.7 46.7 103.3 33.3 116.6l9.9 16.1 28.2 46.2L71 180 18.4 192.7 0 197.1 0 216l0 80 0 18.9 18.4 4.4L71 332l.4 1.1L43.2 379.3l-9.9 16.1 13.4 13.4 56.6 56.6 13.4 13.4 16.1-9.9 46.2-28.2 1.1 .4 12.7 52.6 4.4 18.4 18.9 0 80 0 18.9 0 4.4-18.4L332 441l1.1-.4 46.2 28.2 16.1 9.9 13.4-13.4 56.6-56.6 13.4-13.4-9.9-16.1-28.2-46.2 .4-1.1 52.6-12.7 18.4-4.4 0-18.9 0-80 0-18.9-18.4-4.4L441 180l-.4-1.1 28.2-46.2 9.9-16.1-13.4-13.4L408.7 46.7 395.4 33.3l-16.1 9.9L333.1 71.4 332 71 319.3 18.4 314.9 0 296 0 216 0zm7.6 94.6L234.9 48l42.2 0 11.3 46.6 3.1 12.9 12.6 4.2c6.8 2.3 13.5 5 19.9 8.2l11.9 6 11.4-6.9 40.9-25L418 123.8l-25 40.9L386 176.1l6 11.9c3.2 6.4 6 13 8.2 19.9l4.2 12.6 12.9 3.1L464 234.9l0 42.2-46.6 11.3-12.9 3.1-4.2 12.6c-2.3 6.8-5 13.5-8.2 19.9l-6 11.9 6.9 11.4 25 40.9L388.2 418l-40.9-25L335.9 386 324 392c-6.4 3.2-13 6-19.9 8.2l-12.6 4.2-3.1 12.9L277.1 464l-42.2 0-11.3-46.6-3.1-12.9-12.6-4.2c-6.8-2.3-13.5-5-19.9-8.2l-11.9-6L164.8 393l-40.9 25L94 388.2l25-40.9 6.9-11.4L120 324c-3.2-6.4-6-13-8.2-19.9l-4.2-12.6-12.9-3.1L48 277.1l0-42.2 46.6-11.3 12.9-3.1 4.2-12.6c2.3-6.8 5-13.5 8.2-19.9l6-11.9L119 164.8 94 123.8 123.8 94l40.9 25 11.4 6.9 11.9-6c6.4-3.2 13-6 19.9-8.2l12.6-4.2 3.1-12.9zm68.1 68.7l3.3-19.7L255.6 137l-3.3 19.7-32 192L217 368.4l39.5 6.6 3.3-19.7 32-192zm-93.6 66.9L212.3 216 184 187.7l-14.1 14.1-40 40L115.7 256l14.1 14.1 40 40L184 324.3 212.3 296l-14.1-14.1L172.3 256l25.9-25.9zm144-28.3L328 187.7 299.7 216l14.1 14.1L339.7 256l-25.9 25.9L299.7 296 328 324.3l14.1-14.1 40-40L396.3 256l-14.1-14.1-40-40z" />
-    </Icon>
-);
+const GearComplexCode = createIcon("gear-complex-code", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAAB5QAAALsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVCFSwsGAAE2AiQDCAQgBYMtBzgb0wbIngNuWwyXojo//D1CqCVUh/NdERVjZc8+okNWqCBA6CJUhEx5QmEjJIGLkEA2RpxVa1hPEA+DGwAihxpIxSEpxPJhYZIHnYJkJlzcnjT0LiGK9//fu+NNW1v/rzyxMLPbfI2xaU6a83gCgX7spHkbqJNQpglYZ9sQszfBQrrROUNzjgmUqZcKwf3qRP6TjUJpaYIGI/15LfZdyUrBxZ/8SZ4bR5BvkkAg+wCTCE2eeRRhsW0OipSECKNys/Anjf4HMgiQVjTvXaAZbeQI5ByAZlBampWG7ujLsqaytlJul7JGUaemhoTRoEACTno4PBfIwVhDRObEBFllooy6XRREkyzIvlDTmJWbAhgoy0sIXDXSuNgR2oqN2Y1pzjz9XH8aZMmIRvaEibkmmeLxZnmbVocrAFXk+UA2MpwZ7klW+yeCp8gxoUFmGcGcYNfqeA14igJfRH4Z0bz4LKvTM8EjENdYMvYlSXZ/woexvIsiJzoSJ/h+FOISOhE4cjqBF+wrugPEjWFR2BWPDZ11vfW/Fmt7+WBoaOiBG+S7X1/6fFlyipxkyFC625iMvLMkYv36YH7lsa1bZoEjpdvNax2xLdiBqSdHWDbpy6RGRRKWgnHlm6NvB5I4HCtCo9e57MjMowMEe2CqzskNLwjX6q4El13D+UCUZUNYCy/mH2Cpl9USKIn8cq1vXqodAckuWrxvzNQWwOgVXw4Iwt2bfgtlusGvpqkA+Pf6/3/zr6hxUeoVoF2B0LRaZ8UFKAIAqPSyLCCohEVZ86ndniEQnQgorToFNBmhh0CzTisItBjng0CrThcoSrM6YljJjpVut7EmW0awZsMOsBbb7rOthqMITVpY0P7MhmJRUswh5uHqzgIZt2fVAQjku0FM2WnfG884uEdRq02rbjWqNehGeJ1SCj1axIoYMb6I8eDKHROIGQ8nUa4f6NSFAttgvk8Qdn7GXi/xcgfXo6BRuaarFCn9z5fVBehNLoAGAAA=");
 
 export default GearComplexCode;

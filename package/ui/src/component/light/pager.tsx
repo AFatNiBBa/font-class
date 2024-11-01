@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pager` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pager?s=light pager}
  * @preview ![pager](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pager.svg)
  */
-const Pager: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 96c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32L64 416c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l384 0zM64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm0 272c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zm128 0c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM96 160l320 0 0 96L96 256l0-96zm-32 0l0 96c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-96c0-17.7-14.3-32-32-32L96 128c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const Pager = createIcon("pager", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABgwAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCLAsGAAE2AiQDCAQgBYMtBywbKAXIjtRG+UVWEg/fr/V57uueqb9Di9RLRAqJQqCYXNixEVOxqcjVv2rfR07lpvFSAR950c61d0GelUr3xicwwc0ujXhgA5r4B+fpNpFBHlL4hkVURHh8dpxdII8fY6QS6a30D14oNxr/6e4OSZ4BiHYAmLd+9Sq/NaMZ8U8r4h8rEBDzQSGQIUMvAWbKBHrJFcjlgma0tqb/wIIAokx/UwI5WnAR1wE5SMp53qNHvd6mR7VUz9dVS5X9jztHvCbFjU6vVmrxqMvrkcXNrm9U67s+GBrxSbcUbw37dFA9Ph7xec8s3h7+2eBaeq1zNd7o+nqXSrzaqdpcta5eq4taREW40fm1aj0ed30jIm52ed358E6v6v9Zu8/+7/fPvn/8ur3xgAcNGg8A3OBs5/W+77SnfYVK+/bv3MAcxds1mnM1G+jcEHP713MVv8NcO4odpIc8F1Y72OOAQHDg+4fjt7ed+bylmsC/P3yen0NJ+gwtEgiyka0jbUkgEQCAFOf0TxBITirTqOZ14elVAJKUVZBMT+2QXMUIpKSPSReUVayWibyN0MlWhiQ1J5HMZFeRXCffIyUz/e6XdYos/OjgoT9/CYt7cNG2YtzoscX0YpmqTESRsp5RHEtDz3FrGO21z3HHnLHXHged6eBTVkVnHbV4By1yR4VxRhurMF1xXTwK62CecprJOXe/yQyFvzfUuf3wMFITJRwvkSQilV6oeAo=");
 
 export default Pager;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ribbon` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ribbon?s=solid ribbon}
  * @preview ![ribbon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ribbon.svg)
  */
-const Ribbon: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M333.2 322.8s0 0 0 0l-133.9-146s0 0 0 0L146 118.6c7.8-5.1 37-22.6 78-22.6s70.2 17.4 78 22.6L245.7 180l85.6 93.4 27.4-29.8c16.3-17.7 25.3-40.9 25.3-65l0-29.5c0-19-5.6-37.5-16.1-53.3L327.8 35.6C312.9 13.4 287.9 0 261.2 0l-76 0c-25.8 0-50.1 12.5-65.1 33.5L81.9 87C70.3 103.2 64 122.8 64 142.8L64 164c0 23.2 8.4 45.6 23.6 63.1l56 64.2s0 0 0 0l83.3 95.6s0 0 0 0l91.8 105.3c10 11.5 26.8 14.3 40 6.8l54.5-31.1c17.8-10.2 21.6-34.3 7.7-49.4l-87.7-95.7zM205.2 410.6l-83.3-95.6L27.1 418.5c-13.9 15.1-10.1 39.2 7.7 49.4l55.1 31.5c13 7.4 29.3 4.9 39.4-6.1l75.9-82.6z" />
-    </Icon>
-);
+const Ribbon = createIcon("ribbon", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABbQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBfQsGAAE2AiQDCAQgBYMtBy0b+gTIhof/t+v7fW7VAK4BrIiMoQ8if2mvnzJS1vN/ruezpgF+killPx9IFG6UV/H8BAZ4VtpgBxSFZyeK57eT9zqf4ZdNksQlWW03bPaQx6PsgkqkB+lXXEsfGr9r5gJJtQxA1AXA2MXzZ/qyFKWIX8rvEb+YjoAYCwqBDBlaCjBCJtBSrkAuF5SiXLb/gQUBRGUZToyczlyNXYAcJCnPp9SpUalWvshkq68/GxFnYxFou31e3Ov8tPPjjo8bzYmF0T1ezndoPi5eH1Q93u0xJp4RZ7rO3dMW0tLnnafHvSb3Gi9asGiheoi43ehOo6nxuPvidi/qvviz7a+bfjXjBHDxBphqwZTBpdLgKQtOWLDCpy51bK3Vf8eduz7DnjMLNG3TSIdjp8G81Vi+RWxbpaJ1q0eLV59ePLLhwqs2e9SqdcUuy0yfCwSCioGrj6+uM+KfqjUS+O3jv/8v59crfx1vpBeoKoEg61HuYUV8qZ56TKuA7KU4pB2+SSBZLMG11nRXgFAdAZLKqguQaaGuALnqugtQSWsDBaisuvkykVcTGlrZQFLTXpAZ5CTINfQOqGSEH7zKGkYmZryQ8L+8lEk9NLGt6NurTzGsWBaqIDmsnx9ebDtdDrm+rthok912OWCjDbY60JH7zAwP2mkSR0z0Q4W+eumjMExxXD+uXmSjffbbarddcZHhivtuF4f40V0hPpC6XxqSpHOp8r6t69bt3gUA");
 
 export default Ribbon;

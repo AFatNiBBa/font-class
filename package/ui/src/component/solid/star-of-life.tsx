@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-of-life` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-of-life?s=solid star-of-life}
  * @preview ![star-of-life](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/star-of-life.svg)
  */
-const StarOfLife: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 32c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 140.9 122-70.4c15.3-8.8 34.9-3.6 43.7 11.7l16 27.7c8.8 15.3 3.6 34.9-11.7 43.7L352 256l122 70.4c15.3 8.8 20.6 28.4 11.7 43.7l-16 27.7c-8.8 15.3-28.4 20.6-43.7 11.7L304 339.1 304 480c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-140.9L86 409.6c-15.3 8.8-34.9 3.6-43.7-11.7l-16-27.7c-8.8-15.3-3.6-34.9 11.7-43.7L160 256 38 185.6c-15.3-8.8-20.5-28.4-11.7-43.7l16-27.7C51.1 98.8 70.7 93.6 86 102.4l122 70.4L208 32z" />
-    </Icon>
-);
+const StarOfLife = createIcon("star-of-life", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcgAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBdwsGAAE2AiQDCAQgBYMtBzMb+gTIrgbshnhDZAiICts0Wzhhxzc0v52Ih6f9vp07Myum9W9CxJtp34ZYg6ae6D9uhLgRC9U8kp8lc963UwTxnykm3bqqATsGNwfsFNo5TmbF/Q4we9iftQ7vGaKGP3Xqec5DC+SNgjI25nxjNuZCc7TnFSjg2DZ9gVYLVtMKWP12vmdAhNukS8p1yTDeH6Z/gxKv80oD6UX641770PhjxIqkJQOIbgCw+XBawfOjjxFvKsQbe0FAbAZMI2RkjCOwjigwTmUaFEXwMaoq/AcyBBCN6HUJFGScAvMACkiilENtDR35cOvxa0MRz9o0cWvgCXGYyb5gYISe9D/uP+CgIyveP0yPA4OHiKsIt6rj5uDToBDExwgPjtLToWdDh4Fk/OnQGJ3+bOCgmK131/8RH16243on82Q44+zKDtwWFtvxmvt+RUJacJ+rlW9+ccFBxlmTrSR2Pe4GgeDHvlae3rr/zW0JfH7142fUXz39TXU0SyDIc5VbJdHPGn8FACDFRbZEP0JyiIDeo91TAUIrAiSNWgXIxhgRKFrVEGgwKYLAb99PFKVF6FdlkLQ7A7IVlqDodwEN1nlZjfoj2xhrIewvXpK8QtI8Dnj9nORjbHJmQ5fpFKtl+yLWHDiKhqGBmbqattmCTCjuXJ8swZIvYgFefiyJr7P3/Tl1E1NtQ4M6Swq/V+wWcrcDpgAiXCKSJCK1fwSmZ5jH9AAAAA==");
 
 export default StarOfLife;

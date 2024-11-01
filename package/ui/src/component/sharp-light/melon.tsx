@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `melon` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/melon?s=sharp-light melon}
  * @preview ![melon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/melon.svg)
  */
-const Melon: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256c0-46.8-14.4-90.3-39-126.3c-1 54.3-16.9 140.4-93.9 217.4s-163.1 92.9-217.4 93.9c36 24.6 79.4 39 126.3 39c123.7 0 224-100.3 224-224zM76.6 390.2c4.5-58.5 22.3-159.3 88.2-225.3c72.7-72.7 165.2-88.8 221.4-91.1C349.6 47.5 304.6 32 256 32C132.3 32 32 132.3 32 256c0 50.3 16.6 96.8 44.6 134.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM160.5 406.7c46.9-6.2 107.9-26.1 164-82.2s76.1-117 82.2-164c2.9-22.2 2.7-41.2 1.7-55c-15.2-.3-36.4 .4-60.7 4.1c-49.7 7.7-110.5 28.1-160.2 77.9c-42.2 42.2-62.9 102.6-72.6 155.7c-4.7 25.7-6.6 48.7-7.4 65.4c13.6 .9 31.9 .9 52.9-1.9z" />
-    </Icon>
-);
+const Melon = createIcon("melon", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgAAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCDQsGAAE2AiQDCAQgBYMtBywbCQXIjsK2bRMVTlnO05kMsSOoH2O/d+8hJtWSJvFG0waNriXTrEGlegmUwFCJf/o3yC5nA/E/sirQnVFRKvNFE6i+i5vnnUcBvlFoY9PSQMYEmvM8gcS6cIlHWWCZBqAxpW7j5Q+irInIUDwi0g0PzQNqbBItsJKPTFeA23LT+IOkciDVAoDoBgBsnQR6Y49BGIRcUcsQ3/AEAbENYBpBQcE4AlYxC4xjMQ2qKvghFKX/QBoEEI3AtyeoaMQ5uAFQQaqVRVhUWpq7gZclhLuBK+bFoVtvzu/O7czkOvjU89JwUTGy15DEYuCj5yX3TciR25neHO3ZPuTVkcSh7y13nfe1/X7wk92e1xVXrc+Nw0FI8KoliU3bXd1Z+V6pEaMlszWrMa0pmS4MqypMCEy806/ir/C2C5djzhnz4tG21uY4FzBktQ7u+VorZHWByXJ9sKBV6D5Zh/0vrwo4tzDyuu/ouL8oyWmPg3ryU6fiAPA8ViulYUAXiXQKaul3ojg4ExKk9H4AAsG/VUpn/Kv/HNxMgN+Nz2/1Lfq/l8gXQLMEQZmntIQmSAIAkJEPhYRAOsUCV213BwJCKwKkRq0CFGMEEFC1mkNAg0nGCGjU6gCzqJwI/cI6pHYXUKwog6rfIjRYdao36o8SblSwUL+9eBdGnKdo+jp6NAvaMtDoCCLS0JK2LanlW0FdFhEvQ7pccWIlySUsm7eVJ42Lhzp7EI0+HXpoLNCO48f5EHGy5UiSIT2PsUS7r6nJ9+vVRWUC3AViPoE/WdPiUjPSAQ==");
 
 export default Melon;

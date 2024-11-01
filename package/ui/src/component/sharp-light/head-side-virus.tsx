@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-virus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-virus?s=sharp-light head-side-virus}
  * @preview ![head-side-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/head-side-virus.svg)
  */
-const HeadSideVirus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 224C32 118 118 32 224 32l24 0c88.4 0 160 71.6 160 160l0 7.2 5.4 4.8L480 263.2l0 40.8-48 0-16 0 0 16 0 96-112 0-16 0 0 16 0 64 0 16 32 0 0-16 0-48 112 0 16 0 0-16 0-96 48 0 16 0 0-16 0-64 0-7.2-5.4-4.8-66.8-59.3C436 82 351.6 0 248 0L224 0C100.3 0 0 100.3 0 224c0 61 24.4 116.4 64 156.8L64 496l0 16 32 0 0-16 0-121.9 0-6.8-4.9-4.7C54.6 327.6 32 278.4 32 224zm192-99.5a83.5 83.5 0 1 1 0 167.1 83.5 83.5 0 1 1 0-167.1zM96 224c33 0 49.5 39.9 26.2 63.2l-11.3 11.3 11.3 11.3s0 0 0 0l11.3 11.3 11.3-11.3s0 0 0 0C168.1 286.5 208 303 208 336l0 16 16 0 16 0 0-16c0-33 39.9-49.5 63.2-26.2l11.3 11.3 11.3-11.3 11.3-11.3-11.3-11.3C302.5 263.9 319 224 352 224l16 0 0-16 0-16-16 0c-33 0-49.5-39.9-26.2-63.2l11.3-11.3-11.3-11.3L314.5 94.9l-11.3 11.3s0 0 0 0C279.9 129.5 240 113 240 80l0-16-16 0-16 0 0 16c0 33-39.9 49.5-63.2 26.2L133.5 94.9l-11.3 11.3s0 0 0 0l-11.3 11.3 11.3 11.3s0 0 0 0C145.5 152.1 129 192 96 192l-16 0 0 16 0 16 16 0zm112-8a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm64 24a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const HeadSideVirus = createIcon("head-side-virus", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABvgAAALIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSEKwsGAAE2AiQDCAQgBYMtBzYbMQbIjtEnYwhTUXPNEWMcwYv45/cz59z/toisgI0EsuzrSNhUuMjq6NoFW2Cd/3/ce++XJ78BdihQldV0+s7i4gZOpx3gQO4Dm4ey83vnYHSvl0CiYZ/gfLBME7BG9QoNVv4i//bQsh0DdOpj3QBv/Q/NV3I6KK0DgMwBAM7eCw+EgzH8Ct4MV8mAPxDIOQCsgejQYQUEJ1AFK9CsAZomjOV/mP0HEhAgkyC8owINk/EPpAHQQBlptHj+I/ZULp1Pi+KOcKLfwzHP97h5PbkbCbgwd1CmcQCKy3RERAD3QETp3MUvN5+iODm5cmGyQFoMZ3W3YUvgtDl6dWRTgxmLNaM543nriFE5zOAWySzMy7RmusXcPL1xSgcXRoc3j+u61OJj5t7yDnpJFQfHlg3pD0GuW7DZPLFpoMNvJT9sGNHD+JXmySVQz/nwWUWPKwxpjcgOavr2SfdI9kr1y6j1RFM/a2+ybkBlFEMjAe7cwCXcMxigO9MFbsdAl8mcOVKUzBFxIUKImChx2SbYqkNoV8Pdg3GJr5UGnx8FRpMnfzxeu0UdpvO6Er6f9tWdm9v9PZ4d8PU8rbUDvKlpPdDn5Wuu+MiKiEIzWY8mExo9n9SbN60MbpFWj6a4i3r6m3GMXdlwqOo+84aU1I2E+yf4GhPIA8hpv+UXV5KFJ/6zuBSAif7vb8WvaHhQUD1MUSB0O4YGEgoUAQBUqkCtICjf0IXXOsM7ATENAWWSaQI6y4kgaKbZDsGIVSwhmGSaW6jS2BALJDaCMsNDQeeQRkGzwLJgxAnn2UkWpJP9qNxFfz6jvLpsz1XEdNeeNcfWzNZVmISGnfnjazZbdJ7xvq1wLWQpVqRCpgy5KjqcMoGFSoW8lgCeX0SYMmKCsEMOtx6ao2AwM5fz4Gn8+DL2yPUBHVXLo3WhnSLUuk9NKVJCLUIbKhCdockCAAA=");
 
 export default HeadSideVirus;

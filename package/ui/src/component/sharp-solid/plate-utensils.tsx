@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plate-utensils` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plate-utensils?s=sharp-solid plate-utensils}
  * @preview ![plate-utensils](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plate-utensils.svg)
  */
-const PlateUtensils: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M56 16L40 16 0 152c0 41.5 31.6 75.6 72 79.6L72 472l0 24 48 0 0-24 0-240.4c40.4-4 72-38.1 72-79.6L152 16l-16 0 0 136-16 0L104 16 88 16 72 152l-16 0L56 16zm584 0s-128 16-128 144l0 160 80 0 0 152 0 24 48 0 0-24 0-152 0-104 0-24 0-176zM336 32c-49.8 0-95.9 16.3-133.1 43.8L222.7 143c0 0 0 0 0 0c29-29 69-47 113.3-47c63.3 0 118.1 36.8 144 90.2l0-26.2c0-25.1 4.2-46.8 11.2-65.5C450.9 55.8 396.2 32 336 32zm0 384c-88.4 0-160-71.6-160-160c0-4.2 .2-8.3 .5-12.4c-7.5 5.3-15.7 9.7-24.5 13.1l0 127.1C192.5 441.9 259.8 480 336 480c89.4 0 166.5-52.3 202.4-128L512 352l-32 0 0-26.2C454.1 379.2 399.3 416 336 416zM464 256a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z" />
-    </Icon>
-);
+const PlateUtensils = createIcon("plate-utensils", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABkwAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCfAsGAAE2AiQDCAQgBYMtBzUbgQXIBuL59+zn3KSLtEtnIT1Cf6DxP5fje2ebFsjnIzi0sXDbgYwW7/08gYDPmot6acBhlkkCnrk1xlAfiu4nMsRqHdLjN3r86gR0+a0NwQJqpjoDjK9vKq/xYwgoHDUAAMQVAAAoXrdmZQ48kAcip/9vBTlNRUAApDgAJgJogAYEIgAUoCFAIDomoKMj8ED+/4//gSYIAIgdgileqgP2wBxgLQCgA6Cw6HpssFdQgNXipNexWoyGhtWoJTNjV0YiiFUkcXn86oA6YghiCCO1EsVlWoTIkhiRFSaigDrnNLtSqbYMDDfsr7s1d2eiyMCAS3XUtSIi++oM9Jniiaw92r309arn0w1DZE3Ojoy6A+NEVsWtMkbFrCCeAbEreevo+NXPkbBVrqvehp5pc4bs9a6urtHDccnMfPwBX1Lw5QOPMzNdSokrI3DFZXhbP6Kc60t4+Q7eBS+gGjNu/6IZtMOXDckuFRnlUQKAMyXlQ9162f5ErbrTSAaUlDNwRkraWbYf6c/rny8mlKRE9ZX+pj/Z9ep+6D8/3Aa2ixfCwi5ctNnCw236OAAIIDDEof37pi4FXx2sCoBHu96/7ffz/4IaoFYBDigABLSE/wk0UgMAolAAIFLShzDjgwRQTMGCrLMxDQFAMEBBYYcBGgG4go5BPFgIJlMCzZoQL7ojgSeNFRQ2uoNGFn1Bx5PNYKGA46EdnqK5qeJkykdiZpkZLT3LTE1KMfPMy4qhep6UJ/NN2IrpkzpiaS5t6EoXetGaVrSn18T0oHKqN50pY9Gl+SImqSSRgkke5nb91azDYQ960v5c358mH/P5IIY+dv9YchUimkaeQoEo59feT+z9/4fdqScA");
 
 export default PlateUtensils;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fan` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fan?s=sharp-duotone-solid fan}
  * @preview ![fan](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/fan.svg)
  */
-const Fan: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 224c0 90.9 70.8 160.4 160 160c28-.1 55-7.4 78.8-20.3L224 512c90.9 0 160.4-70.8 160-160c-.1-28-7.4-55-20.3-78.8L512 288c0-90.9-70.8-160.4-160-160c-28 .1-55 7.4-78.8 20.3L288 0C197.1 0 127.6 70.8 128 160c.1 28 7.4 55 20.3 78.8L0 224zm288 32a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M256 224a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
-    </Icon>
-);
+const Fan = createIcon("fan", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABdQAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBZQsIAAE2AiQDCgQgBYMtB0Ib+QTIhofv13o793XPVACgA4yKCBww6V9xxC5LimVALqrVM3Gu852PBlgAWGE7H0iBd+kEdj5Nq096oQZ90zewf9vw2AikExEiYZLRWOV4HSCPn7NjSqTb6SdcpP8BjL80d4ykegYg6gFg3PzZU338El9S/FR5SvxkCgJiPCgEMmRoJcBImUAruQK5XPAlVSp8iUqlIIAoo8/JQBklzMAqQA6SkPK8YfuGNUu183k1SzXmn2kUcc2hxtdrnm16Mw43uVEjfhsV8W7uixFz4o8xH+Y/6D03fh/9ft7TofPj15Fv59zvNW/lIQemxpkmN+Iw7sKdS7Svqlf1T7uf1v2k8rnOKU7VqQa8wpeY9CNvJ3rUv85Vk+LtjybW6HC1Ds0G69q29d8OAkE+9PHE5XVH/l+tZgLfXv/3p/Y7qnxMUhWqSSDIelZ6WpJAIgAAKfZpn/iCQGaQpNxrLTcECDUQICmrIUCmpXoC5GroIUBJG4MEKKthtkzk1YVGljKc1LITzgy2H8418gQuGemTUtYostiiI4P+2iVMlsCktqJf777F8GJq6Ey4kLk4oliWuu5LgW4wa53tttljrTU22iOgXabqe2012QIn+aJCP731VRiu2LYfhXlC2WW3jTq332SE4rzc1T47vht0kwD9b6U3I1JkNdet3NbriYq1mXuJAAAA");
 
 export default Fan;

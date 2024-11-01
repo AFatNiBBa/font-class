@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blackberry` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blackberry?s=brands blackberry}
  * @preview ![blackberry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/blackberry.svg)
  */
-const Blackberry: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M166 116.9c0 23.4-16.4 49.1-72.5 49.1H23.4l21-88.8h67.8c42.1 0 53.8 23.3 53.8 39.7zm126.2-39.7h-67.8L205.7 166h70.1c53.8 0 70.1-25.7 70.1-49.1.1-16.4-11.6-39.7-53.7-39.7zM88.8 208.1H21L0 296.9h70.1c56.1 0 72.5-23.4 72.5-49.1 0-16.3-11.7-39.7-53.8-39.7zm180.1 0h-67.8l-18.7 88.8h70.1c53.8 0 70.1-23.4 70.1-49.1 0-16.3-11.7-39.7-53.7-39.7zm189.3-53.8h-67.8l-18.7 88.8h70.1c53.8 0 70.1-23.4 70.1-49.1.1-16.3-11.6-39.7-53.7-39.7zm-28 137.9h-67.8L343.7 381h70.1c56.1 0 70.1-23.4 70.1-49.1 0-16.3-11.6-39.7-53.7-39.7zM240.8 346H173l-18.7 88.8h70.1c56.1 0 70.1-25.7 70.1-49.1.1-16.3-11.6-39.7-53.7-39.7z" />
-    </Icon>
-);
+const Blackberry = createIcon("blackberry", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABhQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCNwsGAAE2AiQDCAQgBYMtBzEbOAXIngU52WkKp9ChEVP+Fjzu3ETEU2Ov++4uKSEoQAWOjY0soItqFeu6yAKpys4XumQDrurTX+P6t0dP37lkVaVLIv90KCRXubmE3w9HX2b6v+ad98Q19YMqvUleH+171NrU5xF1PoHhwHbDshaZDWxAE5+AbXdaCdG0T1pLWcLx2fE5Q8tznhuhvC4dPKtvmklr7FCMVADIYgDg/C2vBz7+5E/yN/xAOq4AgVwA2AyhomI9BE4hCtYj2Qw0TfiTofAfuBkEyCgQWlzeMAd3gHFAA8WsRuIvdlnmCJsUyIcyoq+XoxweZySYeeh0xdHy4Nx5DB9vu191svZk5fFOn0TyRI/Z6yq0Vs/3VPHV4qvpLZ073l3OgMFjiW5z+P+++Q92Xbrk4N/mkhoMMh+ZPz+fQqLyVb+/fMH3iT/vPSAQ3VL96dDE951gie33K7JuHOYnp6erDgkyu79mlp74HhCEqz/eilP/Z88jAPz7+m77DZUQrjBbAaHuH+4XKxgqgQAASgbEBYJiDBW96nwvBMRcBBSj5gqo1uFBoJlrHwRGbGSEwKi5riFKo0MsF2etmG9Mq06aa81y19qIUz7zo5an2qBtQfYXsIBLws5N+IhKg2142tIdszLLqh0vh3cP4ogU9kJBU0NPXk5ZTwgdnlJfnUujnD4I01LRwGzwdvdxd0BeR1dZUwPXscP34xIDfboUYgRkeFRVUUhhvMx8Jt/pjAEA");
 
 export default Blackberry;

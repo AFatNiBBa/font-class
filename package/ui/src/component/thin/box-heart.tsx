@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-heart` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-heart?s=thin box-heart}
  * @preview ![box-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/box-heart.svg)
  */
-const BoxHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M232 48l110.4 0c19 0 36.2 11.2 43.9 28.5l41.6 93.6c.9 1.9 1.6 3.9 2.2 5.9l-198 0 0-128zM16 192l416 0 0 224c0 26.5-21.5 48-48 48L64 464c-26.5 0-48-21.5-48-48l0-224zm200-16L18 176c.6-2 1.3-4 2.2-5.9L61.7 76.5C69.4 59.2 86.6 48 105.6 48L216 48l0 128zM400.9 70c-10.3-23.1-33.2-38-58.5-38L105.6 32C80.3 32 57.4 46.9 47.1 70L5.5 163.6c-3.6 8.2-5.5 17-5.5 26L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-226.4c0-9-1.9-17.8-5.5-26L400.9 70zM141.1 258.8c17.4-17.4 45.6-17.4 63 0l14.3 14.3c1.5 1.5 3.5 2.3 5.7 2.3s4.2-.8 5.7-2.3l14.3-14.3c17.4-17.4 45.6-17.4 63 0s17.4 45.6 0 63L229.7 399c-3.1 3.1-8.2 3.1-11.3 0l-77.3-77.3c-17.4-17.4-17.4-45.6 0-63zm74.3-11.3c-23.6-23.6-62-23.6-85.6 0s-23.6 62 0 85.6L207 410.3c9.4 9.4 24.6 9.4 33.9 0l77.3-77.3c23.6-23.6 23.6-62 0-85.6s-62-23.6-85.6 0l-8.6 8.6-8.6-8.6z" />
-    </Icon>
-);
+const BoxHeart = createIcon("box-heart", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABjwAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCXQsGAAE2AiQDCAQgBYMtBzAbXQXIBp7/r8vu+1XdJ6mKUYkHdGcFeDpjagWtwR55Jfz9zfPOowAfRxDaWLj0gzTA5zxPIPC2b6BEAgvYUk23iY8eUfhFiAiNkI5TOp5WoMt6yrCBWqtuA4vHQ+UDocwAhaYBACA+AABAj8zUFK64xCVy+/9JkNsMAgRAegJgIYAGaEAEAkBnNASIQMcCdHQEXPL/P/8DLRAAEDu6TgGgA27AAmAjRA59ZLuue/p6RsREmDZPPcO0GbmmYe4MTZeVgYZImqeHJ7ImYEW8h+wKWhUmmYZprA7OlPVJppB5qK0hJxqnyQqQtQ32JnjK7kb7w0WmBmUUrTZF5gcGykpzfnCwrDbnB65kSkCarAjKkFUyNThznyEyL3kPUxqky86kTNkvUxvuM+YlB0hQ7D6ffZ9iblfc5s1ip9PputUgD6WuMuXu4i1btrjQ7jxq3p3mj+5ormveV69eVapBHrdcTqacqfaf+pGp/sn55Ho9x/D13dKdLb6+xnO8BjXI1y488gPfR4+J0bSYxzzy8310x9fvjsNBWprDwR0/v9sDTJ8QCPXxCwnxczjw9HQ4sPt8QkN85jAHAAQQ2F4x2Vno3fmrm6kAeH7uyy/m5f8uuaL2AW4oAAS0xv8bkydXAJgsAKArGUUseBkBFDOwAyjyYFXWEgwwUNgxQCMcH9AxaAQ2omizwo5BKhqiuyMEkI+BwoOhoNGWiaATwHGw0Zlrup0A0cqSLSr2V5jU12N92qwWTZtbHa2tbXGVRrd6J+tYTh4lsQa0SAX1OBlBOWVUM8IRw0ixRjKYvgjvw4tYtKApzbHoiJX2jtMZlDOM4VRTj7M36YR1HyUzCmc3IE2hlC3pVCgQ5V5SP6bJ2wA=");
 
 export default BoxHeart;

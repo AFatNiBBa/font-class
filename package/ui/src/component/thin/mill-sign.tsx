@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mill-sign` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mill-sign?s=thin mill-sign}
  * @preview ![mill-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mill-sign.svg)
  */
-const MillSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M287.5 10.7c1.5-4.2-.7-8.7-4.9-10.2s-8.7 .7-10.2 4.9L228.7 128.7c-16.1 10.7-29 26-36.7 44.1C176.7 137 141.3 112 100 112c-35.2 0-66.2 18.2-84 45.7L16 120c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 92 0 4L0 440c0 4.4 3.6 8 8 8s8-3.6 8-8l0-224 0-4c0-46.4 37.6-84 84-84s84 37.6 84 84l0 42.6L96.5 501.3c-1.5 4.2 .7 8.7 4.9 10.2s8.7-.7 10.2-4.9L184 302.5 184 440c0 4.4 3.6 8 8 8s8-3.6 8-8l0-182.6 41.9-118.1c12.4-7.2 26.8-11.3 42.1-11.3c46.4 0 84 37.6 84 84l0 228c0 4.4 3.6 8 8 8s8-3.6 8-8l0-228c0-55.2-44.8-100-100-100c-12.2 0-23.8 2.2-34.6 6.1L287.5 10.7zM200 209.4l17.2-48.4c-10.3 13.5-16.6 30.2-17.2 48.4z" />
-    </Icon>
-);
+const MillSign = createIcon("mill-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdgAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBfgsGAAE2AiQDCAQgBYMtBzAb/gTIjpQuZyQRPG8XVe93zyygXkg4yCHgJFhlB8eTIZD6U6dyLrYW4HPc5zqPhdI1eM7zCvR8Wq/cTT2fVCtYRLG7s4U5RPskjViS49GO1+EIeRy3QYn0RPoF96UfjV81c4EkywBEXQCMXTx/pi9uxs2IXyrvEr+YjoAYBwqBDBlaCjBCJtBSrkAuF9yMSgX/AwsCiDJCEic3V67DDkAOkpTnC8o1SrXyRe4z1Tc/1vjRhgvi5aZPdnuz+jc9Ih5t/HBDIcQjjR5rEhHxXPe3Br/b9Y1WYkE83OiRJovH0eJ4rQbK/BHPdntz0LUOixf07tH78abt3qz75u9+2fSLNu+U5+3t2O24+z7+aM+ZNmt/7qS8Zk15hdzNAt08LDu0uU+fzYey7hb9r/H8PR0n/+yqUPy+rgd1a2Ktu832u6p98nP1S522Lf62DrH/VXdXIHjw0oefrK4z4v+qNRK4/dGfyzdXPo8z6U1UlUCQ9aj0sCLOAAoDiFMc0k5IWCBZJgF9a02PChCqI0BSVl2ATAt1BchV112AktYGClBW3XyZyKsJDa2sIKlpL8gMchLkGnoblIzwfVzWMDI9k7VEfuVlTOLwxEVF3159imHFtKYoqiOG2eHFctDlkO/pCnttstsuB2y0wVYHGL/PzMxBO02SyIkSVOirlz4KwxTbzfvdi2y0z35b7bYrzjNccT7s4pA8vCssJwH63VBVIlK1T33NnioK");
 
 export default MillSign;

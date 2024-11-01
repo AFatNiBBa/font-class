@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-king-piece` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-king-piece?s=solid chess-king-piece}
  * @preview ![chess-king-piece](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chess-king-piece.svg)
  */
-const ChessKingPiece: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M144 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 16L96 32c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 32L60.2 96C49.1 96 40 105.1 40 116.2c0 2.5 .5 4.9 1.3 7.3L73.8 208 72 208c-13.3 0-24 10.7-24 24s10.7 24 24 24l4 0L60 384l136 0L180 256l4 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-1.8 0 32.5-84.5c.9-2.3 1.3-4.8 1.3-7.3c0-11.2-9.1-20.2-20.2-20.2L144 96l0-32 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-16zM48 416L4.8 473.6C1.7 477.8 0 482.8 0 488c0 13.3 10.7 24 24 24l208 0c13.3 0 24-10.7 24-24c0-5.2-1.7-10.2-4.8-14.4L208 416 48 416z" />
-    </Icon>
-);
+const ChessKingPiece = createIcon("chess-king-piece", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbwAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBbwsGAAE2AiQDCAQgBYMtBzcb9gTIHge5Keue6aJM2dFFPPy31ud91fVpZmH+EvYyoyNygEkUk4taF0AVxzYnMnoSofa9QvDn/5p8755fA34Av0yrsK0BM59PYM9HUZbgG8gJzXQCNmtz3KKgKA8h8cRR+IU0THHD1gtyzChuayC9mn7Eg16o+Fd3t0laCgBRA8C8LRtWeflX/BXxQz3iBysQEPNAKVBA60UYM7XgR7ISWRb8FfU64z+wJIBoZB9LICNjBw4CMkhSzvNbqw1t8+ZqQ2XH8y5PO4lKIH/WuRpeebvb9c6bUtOrg6qxMTZo8473er42uBJb4kXAjag61vV5l6atcxfMfeoeO7/9Rpf5Uen/Ye3D//x4+EcPPmv311/tamoG7Y/XlCZqbc1FuUGyrnPndVn7a+4XLbOTXNtFjpOJyoW0tufBB1ZapPO6X8u7mhd94HUgEPzW4feee9rP/F81gX++vv1XVH8Z49OHaJZAUIysj7QzLkOMFwCAFJf1DwgkGyRW1DaeCxAqCJA0qghQ6KkmQFYxQoAGfUwSoFHFBoXILUInuw6QtHEOFCa7ArJOvgINZvqm3KhTFPri1cH/3qUsZnjRpnLc6LHl9HLa4oJk2Lo6o3zsDL2cR4bhqsPOOO2iQw465iJR562qXXLK4ghZ5ItK44w2Vmm6crn7+fxmh5x3wTFnnG7rzFC+Hw11OZ4+DNtJgPFfZmciUu3A0UMXLoxSqjZK3Q==");
 
 export default ChessKingPiece;

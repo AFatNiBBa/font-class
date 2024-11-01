@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cabin` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cabin?s=duotone cabin}
  * @preview ![cabin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cabin.svg)
  */
-const Cabin: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 280c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24L56 320c-13.3 0-24-10.7-24-24l0-16zm0 96c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24L56 416c-13.3 0-24-10.7-24-24l0-16zm0 96c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24L56 512c-13.3 0-24-10.7-24-24l0-16zM320 280c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24l0-16zm0 96c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24l0-16zm0 96c0-13.3 10.7-24 24-24l112 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24l-112 0c-13.3 0-24-10.7-24-24l0-16z" />
-        <path d="M237.4 6C248.5-2 263.5-2 274.6 6L384 84.1 384 64c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 88.7L498.6 166c11.3 8.1 16.1 22.6 11.9 35.8S493.9 224 480 224l-32 0-32 0L32 224c-13.9 0-26.2-9-30.5-22.2S2.1 174 13.4 166L237.4 6zM256 160a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Cabin = createIcon("cabin", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABogAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCeAsIAAE2AiQDCgQgBYMtB0YbkAXIHolxLMpWFXlDaXn4f7v/2udWvbcaQDXMSEImOfWMM0cTJI104PjHfwHzz/+5dPF8NMBPsqChrK/b2w+jUuBE0rqAT+hM8XZnUzhEexzSEiPplzlOj+wcRlvI45fskBLpevoZZ8P/AMavGjtEUjkDELUAMGr29Im+/RAfUvxc8Yr42QQExGhQCGTI0EyAoTKBZnIFcrngQ6rgQ1QUBBBl4YMZKKMKbuIxIAdJUs7zom4tfHLVUvV8VtVSlflP282MiP0Nr1atGifrXybaxeNG19pWqfakyY0Os2eebBhxlYtqcKXKiXqX7LP+qrNvdqiqXY1FULQTKNFyOjZu/aLWi99b/bzqZ7991qXLhonqqXHsWI0iLjFXV9XH7VhS3JuyY2b193frXK8YsayKMZO0fFp/6hZT69fiy1lCO9nym+77gUDQbksxbXHNof9XqprAp8///FedWMrTC1SSQJB1rehqQTLQAQIGU+zSGhSn0eISO/6t1VwRIFRBgKSsigCZpmoJkKuiiwAlLfQToKyK6TKRVxbqWZhBUs1WkOlvN8jV8xKUDPVdsKxeZFIqypj4Rkw1XnTcuKJX957F4KIZkyTB413tkGLY1HFXOZ1goVU222SHlVZYawf4NhMjO200nsPG+aFCL931VBismE5eqmYR3Ga7tXXF/ChDFOt9He3ii3cCa4KMvU3IZESKrPrHfrpul11bkyguNQ==");
 
 export default Cabin;

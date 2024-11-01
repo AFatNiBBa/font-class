@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `backward-fast` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backward-fast?s=solid backward-fast}
  * @preview ![backward-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/backward-fast.svg)
  */
-const BackwardFast: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M493.6 445c-11.2 5.3-24.5 3.6-34.1-4.4L288 297.7 288 416c0 12.4-7.2 23.7-18.4 29s-24.5 3.6-34.1-4.4L64 297.7 64 416c0 17.7-14.3 32-32 32s-32-14.3-32-32L0 96C0 78.3 14.3 64 32 64s32 14.3 32 32l0 118.3L235.5 71.4c9.5-7.9 22.8-9.7 34.1-4.4S288 83.6 288 96l0 118.3L459.5 71.4c9.5-7.9 22.8-9.7 34.1-4.4S512 83.6 512 96l0 320c0 12.4-7.2 23.7-18.4 29z" />
-    </Icon>
-);
+const BackwardFast = createIcon("backward-fast", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABXgAAAHdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBMQsGAAE2AiQDCAQgBYMtBzQbtQTILg54E+tyhUhUDS/CCDNsOCKC+rXPnrd7yAlviEgRKCYHhB5IxoUdG3EVexUZ/RuBiTlfftXul+N7heDP/+We3/OjA/xGh7aHzglydLsxnyeQwPbSXhZQFlimCVi705ooi1YuaRFJjosdnxvk8TG7qIz0LP3BnfSh0aW7iyRVGYBoBMC89atX+dYZnRG/SxG/rUBAzAOFQIYMvQSYKRPoJVcglws6o1Ry/4EFAUQ5fmYCOTLMwiJADpLI80k1ZXX5unCgetvz9nUhng7EB862Pqy+3v44sjjX8aTmRtsjYn08GfSiu2HT2n393za+/aed+ZeGdL3jpKySvPqrV+uzPJfUk7px1xAyfNFcWSUQCH5MXg0z/1OTwN8Ps7+i0kl6i0oJBNnI0khbEkgEACDFSf0TBJJJEn7XWo8FCNUIkJSrFiDTU6MAuWojBCjTxyQBylVbLRN5ldBqawVJrSMgM9kpkGv1HpSZ6XtWrjUyBSKun/i/xS6W0KJ9xbjRY4vpxbBWSJ3AaHtGsawOPemnhsFVOx1y0HE7bLfHcYEctao84YDFM3iRLyqMM9pYhemK7e72/Do7HHXMHoccjLvMUJw3hzo5XzwMjIRRx6skiUh1SoW9RW6UOgMA");
 
 export default BackwardFast;

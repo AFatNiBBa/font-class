@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pills` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pills?s=sharp-light pills}
  * @preview ![pills](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pills.svg)
  */
-const Pills: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 144c0-44.2 35.8-80 80-80s80 35.8 80 80l0 112L32 256l0-112zm0 144l160 0 0 80c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-80zM112 32C50.1 32 0 82.1 0 144L0 368c0 61.9 50.1 112 112 112s112-50.1 112-112l0-224c0-61.9-50.1-112-112-112zM517.1 398.5L337.5 218.9C359.2 202 386.4 192 416 192c70.7 0 128 57.3 128 128c0 29.6-10 56.8-26.9 78.5zm-22.6 22.6C472.8 438 445.6 448 416 448c-70.7 0-128-57.3-128-128c0-29.6 10-56.8 26.9-78.5L494.5 421.1zM416 480a160 160 0 1 0 0-320 160 160 0 1 0 0 320z" />
-    </Icon>
-);
+const Pills = createIcon("pills", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABggAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCHQsGAAE2AiQDCAQgBYMtBywbGQURlZqjyH4mmCf/lMhQQymyIEiA+LyWjgnPBM/zevXnvrzMzCazZiX5S64AlDCLDmqFbhEA8Q7NONLHkq7ppr6pU89zHgrgc9zHsuR84wIZY5xHIOezNHxThWoFK6iWrXvTno1SikhmRZP0R3Z8XYCWt5KMCeqAegNsix8qXwllAyi0AQCA+AAAABWDu1p48Ek+ibwZuIq8oQkQAKkEIAYBDMAAIhAAijEQIAJNDKDRCHySgQH8DwQBAHGQfrsCQAMuYDawDADQACgcWvt4B7utcNv01INs0xp+LEnkdN7VhJORiCWCbdnI4fgT2dcST0XJ4CvxIicikCMJJ3OuJ52OFjmaeCp34qCeQbfznpbcjT2cHH8j+1npvbhjaT3dm4pEbqedl7Wp5wpvWRvzbySfYU3K2YKbdtwpn1PfY99MehOdJoNgoo/PxEEyh+PM2X78+PF2ZFB/qr1t4Bf0e3/Cu/8XU6junnXpcnZ7PGivyjbdOyY6Zvt4qLUwqRpqumsSEwtXnSQC+DoACCDQG+eIH+1d/N9lKwC+3Ppdnx/4pMrVKcCFAkDASB5IHqHKARAtAKArWUScMqMAisnc4bu62YsAIFiAAKBwYCEAGITjgwCgsUhCADCJIgcBwIFFFwaiPRACGMlA4WYuMMhlJdAEcBmYFPNccxAghtkRRkP8+mJprYRqpmImZZkGGmlJmB8ey7yeCoazTJo9a8HECVMXCGRei7lwZq0G13wxZlKW7fjx+KCJ8+ZPnT0rjDnOC3q93jCHAoDMB8PIIsqcM3XGjPkA");
 
 export default Pills;

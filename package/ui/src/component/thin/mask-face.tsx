@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mask-face` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask-face?s=thin mask-face}
  * @preview ![mask-face](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mask-face.svg)
  */
-const MaskFace: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 80c24 0 47.5 7.1 67.5 20.4l37.1 24.8c18.4 12.3 40 18.8 62.1 18.8l25.2 0 16 0 0 16 0 64c0 51-18.4 97.8-48.9 134l-.8 .2 .1 .6C440.3 403.6 383.5 432 320 432s-120.3-28.4-158.4-73.2l.1-.6-.8-.2C130.4 321.8 112 275 112 224l0-64 0-16 16 0 8 0 17.2 0c22.1 0 43.7-6.5 62.1-18.8l37.1-24.8C272.5 87.1 296 80 320 80zM153.2 128L136 128l-8 0-16 0-16 0-56 0c-22.1 0-40 17.9-40 40l0 85c0 47.7 32.5 89.3 78.8 100.9l71.3 17.8 2 .5C193.1 418.7 253.1 448 320 448s126.9-29.3 167.9-75.7l2-.5 71.3-17.8C607.5 342.4 640 300.8 640 253l0-85c0-22.1-17.9-40-40-40l-56 0-16 0-16 0-25.2 0c-19 0-37.5-5.6-53.3-16.1L396.4 87.1C373.8 72 347.2 64 320 64s-53.8 8-76.4 23.1l-37.1 24.8c-15.8 10.5-34.3 16.1-53.3 16.1zM40 144l56 0 0 16 0 64c0 47.5 14.8 91.5 40 127.7L82.7 338.4C43.5 328.6 16 293.4 16 253l0-85c0-13.3 10.7-24 24-24zM557.3 338.4L504 351.7c25.2-36.2 40-80.3 40-127.7l0-64 0-16 56 0c13.3 0 24 10.7 24 24l0 85c0 40.4-27.5 75.6-66.7 85.4zM208 192c-4.4 0-8 3.6-8 8s3.6 8 8 8l224 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-224 0zm-8 72c0 4.4 3.6 8 8 8l224 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-224 0c-4.4 0-8 3.6-8 8zm40 56c-4.4 0-8 3.6-8 8s3.6 8 8 8l160 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-160 0z" />
-    </Icon>
-);
+const MaskFace = createIcon("mask-face", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABqAAAALsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDNAsGAAE2AiQDCAQgBYMtBzAbtAXIrgrsxssPEUIJraAWXTA6cH/We6UDq7fgH7T7/txMHjZZY/bbrKCKRqlWLqoPEa1t9l6wKmKhiEqplEB7EqUSIiF/TCjI3PiIjMY6o9lswXWDOVqc2SJBeLufbBoEGsWBlsSTuNiCiBNIJH5kwi1JSCI60jNiRvzi1POchwL4HIKgjWmLFsgCn/M8AgHeLXcTrPNagQpKVShE2+QwiIryxeDGM9wjYmjPQtsRWP23RMDsVDawvt2V/hBiJRiCAAAApQIAgNa9b3cefMwn8eb/oDcsgADUBoAQAQHjhQiAZgRIH4ElBCwWwUdl1v/AhABAUeSnMABYIAG4ATwHACwAhpi11ZfMzERP9JEkO8BH3MTVrbGOx+MRett1C52p3nBW/VYN4fToLJK8X11pqus5Ou9WebeA9pZO1u8vr7O1m/7WuF3TM1DXK6dLxDL/Nud2q/JN9N1WtZG2++idR+hdb6xj5VMS7S5Mb9ex3eMukryOhtDS4olyY7bE1izP9sC2bDcGzyTbOr1oPamn/qXe09a5lP+ycSmdl5pKK+r+I4iHc6691oo5F8QP7a1IJTVU5lInX8rfNdPSZqedvqU/tkuXxh3SMHw+suoePrLSYaDRoovtT9rztEaNi5YMIrtcJbsT62OzUhoJeX4nHa/ufMieSvqTtbMPV2gT6ZgPaETvsT8l+ewPx302Ouqjrtb1ohEXJvWA8DUABAiOJy7VGpnS7G9mAPh861/xRrNUPYA4BgBBUC1nw8pSAPACALbRAsoYbyTAcAEHYieyDcEVDm4wRHEQUEAqWBxVIUIx9cnF5b4CZBMQmQwHDInMhoAGLAJLJpchQjOeW1EyRV2YdkD6BzKhg0baD4W1a9QKm4SvnsF4JVm6TcNlqdKCmKnMXiaYaYZ5xhtnsnkKm6O7O990HSy0vQ8KqU0NahHShHA7/CkMCNYcc02ec/t9mhKeNyuxwC6vjGoQwjqMGwzIJEwfPXdq9U8EAAA=");
 
 export default MaskFace;

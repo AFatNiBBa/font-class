@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-pregnant` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-pregnant?s=solid person-pregnant}
  * @preview ![person-pregnant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-pregnant.svg)
  */
-const PersonPregnant: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM120 383c-13.8-3.6-24-16.1-24-31l0-55.1-4.6 7.6c-9.1 15.1-28.8 20-43.9 10.9s-20-28.8-10.9-43.9l58.3-97c15-24.9 40.3-41.5 68.7-45.6c4.1-.6 8.2-1 12.5-1l1.1 0 12.5 0 2.4 0c1.4 0 2.8 .1 4.1 .3c35.7 2.9 65.4 29.3 72.1 65l6.1 32.5c44.3 8.6 77.7 47.5 77.7 94.3l0 32c0 17.7-14.3 32-32 32l-16 0-40 0 0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-96-8 0-8 0 0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-97z" />
-    </Icon>
-);
+const PersonPregnant = createIcon("person-pregnant", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABcgAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBaAsGAAE2AiQDCAQgBYMtBzYb7gTIPgzvDF8IypArBUJikMBwtTN7mN/ZT6PWHePha6y9v7uoNI+a1EIUTRAq2eM1mk33SAleyg2VTD5LxvS+jKrJtwp4wBIR1WaByc6xFGuA36WMb5s+0eNSK4pGULfVuY3ZGadk9jMAh5zwwVMOwPIWS+2wAmquj2xv32WALvj09/P8W9MHfCDyM86Lo9aYqVGA/3znm6cn0Gw4myjOthl2REMhLRIREiURPyyP8MP0RygxkRfVke7TH675Q+PPLJI0ZQBEJwDY2C/IwseqEb+1ED8OAmIDMIyQkdGPwDKhQD+RYVAUQVXt8h/YIYCoR4UTteDKQ3AEoIAkFZE6sUWsFhXHfYqKBzZjY5zlrbI9S1MlkSlWeldsjZNeQvdz61Irl1tORy+TjV7FraArQ+DANGHpYBaJ1BGOV736dgbV730gN+Zi60GK9redqbc99mH4/UZageBpOJSeC8thqpBpKhV0I7WgylYtWSNeUAcQCE73JgdrtAn/JALAb/+H61utjtMVGiUQ5ImaVMasQWxkIoCXYpiDvgkh2STA79rqRoDQjABJvWYBsj46BIpm4wjUGRSJQL1m24SiyBF6VQ2QtDoB2awpUPR6BnWWfXr1ekPoXIxrML92ickaSsri7Q9yHG+rOusvVJ6O52NzDacuFx1Esx7dBjVp1GZQkf2ywiFdki0iyQ+xEL8gFoevG89iMbx+A9rWmvtl4vHzltOwPdhFuxEAJl9LQSKS1hc139cKAA==");
 
 export default PersonPregnant;

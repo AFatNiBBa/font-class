@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-plus?s=solid face-smile-plus}
  * @preview ![face-smile-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-smile-plus.svg)
  */
-const FaceSmilePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M544 0c-13.3 0-24 10.7-24 24l0 48-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0 0 48c0 13.3 10.7 24 24 24s24-10.7 24-24l0-48 48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-48c0-13.3-10.7-24-24-24zM224 512a224 224 0 1 0 0-448 224 224 0 1 0 0 448zM144.4 208a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm128 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM140 346.1c20.5 23.3 50.6 37.9 84 37.9s63.5-14.6 84-37.9c5.8-6.6 16-7.3 22.6-1.4s7.3 16 1.4 22.6C305.6 397.1 267 416 224 416s-81.6-18.9-108-48.7c-5.8-6.6-5.2-16.7 1.4-22.6s16.7-5.2 22.6 1.4z" />
-    </Icon>
-);
+const FaceSmilePlus = createIcon("face-smile-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiwAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCMwsGAAE2AiQDCAQgBYMtBzYbOQXIjtRWcxRJchMP/38M73s/VmntVdTAKbwzHJfNimC84xMpnMD8/+Te7gvEiTw/tDqiFSqQuy5ztlZtTFxOfyx7esBlT/Aoa9CkWeFY+BfNeZ5AgmVj4oNFWZglig3Om3RIoQ2h/Ao1fgt3Q5R8E3oOeIo/NP6gqRtIQwUAMQkAOL1KiMLVS3pJ9Oz/PhCfiAABcQpgGaGgYB6BA8IC80Qsg6oKvuj/f/YfyIAAoiPNO0HFAG7BHQAqSK2KGGgrKytKi8qKJKuMVMOcBmiYEGfCRJoQnEVtImniTJpKEVHehY8iiJ457FKH/U740+C70Md8C+2C7bAnQelDqkQjaFcZlhpUG1UbUx+TToIOERdXO1hL4nrQI7uxWavKWeIL71H17gjDFYWVtwbPi59D/yNOlYOrCNU4gus53evz/8oaWPu99/C4f2NjfcU6WCbGTq4feJTDIgNkIdmwTV92Cch2bL2oq+wL51+WjyaGZv3Ij2aHJo6WAQgE79y9Okfe86uEtBDg5+T9DzRP/F8JtQutAAYlCMrqf2tkwhKA4RNQzmiGIfwqCKQbotJ3HfUMAmEYAVI3LEAxRwGBatgKAs0iJwS6YWeERZVEmJU10GnUNV3sa6GrWbt0c+BRpZsNYReouh/1BzAreAoH7WICW87c2W5HpzkqWW96sMuueTOfsIAHUaxGtUZFCpVpnFD1oupNqgQfkUF+iBGwxTHu2OP+Syt5UqnXoGzbeL6NB/Z9Yq75eL4FDISkgtvaUhIpb789m4bgb9u4YQAAAA==");
 
 export default FaceSmilePlus;

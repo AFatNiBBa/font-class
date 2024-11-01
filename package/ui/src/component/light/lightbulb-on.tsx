@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-on` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-on?s=light lightbulb-on}
  * @preview ![lightbulb-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/lightbulb-on.svg)
  */
-const LightbulbOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M55.2 1.7c-7.9-4-17.5-.7-21.5 7.2s-.7 17.5 7.2 21.5l64 32c7.9 4 17.5 .7 21.5-7.2s.7-17.5-7.2-21.5l-64-32zm544 28.6c7.9-4 11.1-13.6 7.2-21.5s-13.6-11.1-21.5-7.2l-64 32c-7.9 4-11.1 13.6-7.2 21.5s13.6 11.1 21.5 7.2l64-32zM16 160c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0zm544 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0zM119.2 318.3c7.9-4 11.1-13.6 7.2-21.5s-13.6-11.1-21.5-7.2l-64 32c-7.9 4-11.1 13.6-7.2 21.5s13.6 11.1 21.5 7.2l64-32zm416-28.6c-7.9-4-17.5-.7-21.5 7.2s-.7 17.5 7.2 21.5l64 32c7.9 4 17.5 .7 21.5-7.2s.7-17.5-7.2-21.5l-64-32zM464 176c0 30.6-9.5 58.8-25.7 82.1c-4.1 5.9-8.7 12.3-13.6 19c-12.7 17.5-27.1 37.2-38 57.1c-8.9 16.2-13.7 33.3-16.2 49.9l32.4 0c2.2-12 5.9-23.7 11.8-34.5c9.9-18 22.2-34.9 34.5-51.8c0 0 0 0 0 0s0 0 0 0s0 0 0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C496 78.8 417.2 0 320 0S144 78.8 144 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4c0 0 0 0 0 0s0 0 0 0s0 0 0 0c12.3 16.8 24.6 33.7 34.5 51.8c5.9 10.8 9.6 22.5 11.8 34.5l32.4 0c-2.5-16.6-7.3-33.7-16.2-49.9c-10.9-20-25.3-39.7-38-57.1c0 0 0 0 0 0c-4.9-6.7-9.5-13-13.6-19C185.5 234.8 176 206.6 176 176c0-79.5 64.5-144 144-144s144 64.5 144 144zm-224 0c0-44.2 35.8-80 80-80c8.8 0 16-7.2 16-16s-7.2-16-16-16c-61.9 0-112 50.1-112 112c0 8.8 7.2 16 16 16s16-7.2 16-16zm80 304c-20.9 0-38.7-13.4-45.3-32l90.5 0c-6.6 18.6-24.4 32-45.3 32zm-80-53.3l0 5.3c0 44.2 35.8 80 80 80s80-35.8 80-80l0-5.3c0-5.9-4.8-10.7-10.7-10.7l-138.7 0c-5.9 0-10.7 4.8-10.7 10.7z" />
-    </Icon>
-);
+const LightbulbOn = createIcon("lightbulb-on", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABwwAAALCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDaQsGAAE2AiQDCAQgBYMtBzMb7AXIBp7/r7Pu+6k0Kmm6MmyII4A5sxNXyv9c8/nZkkrrA01wKBdpK727cSRFpMCeT3CjCguQgWSJ4t50OIZPMCwykBBZYlIdl8fXFGjyR2Ixg1qubgFzx57KR4KYBArNBACAeAIAAEVNG9bmnF3sIrcch0FuURMQACkGwEAAE2ACQhEAcjEhQCgaBqChIWAXhwP/Aw0QABAnSKIYpAFW4D5gBxsDCl3TrBDe0MfZ12J205rsPfSWS3wX+VWXxQFL/Wv07qiyVBONwps1ey3yXexnkaUBS/x1Dyxv55d3zDmbrIpdpM5jW+SyQIusDFgZM15WNPXB3vJPGjxo8qjevUbr4xb7zZ3bg5YHhXUrgndEzxhnif+e8I0FZ6tezjtt09fGiOzMeNN5KHJb6B1URmp+JNgiy1KbIKyO2p52NGZnhIzN6LLIt9wOzx2fbbe63CL99OVRra84eNyr1VVHRMjVVr0eO7jSmk2qjLe7u9sLQQyE9mOrA+1rQ7LrqdLffUKz7kiW9VqmDdvcD5EAAAAjRrxwkRqeG9Y5OSwuL0wZtAUi34+z2ci85pYtQPdmE9xDh009f37qsFC7NIHOnh87v33978Go7LpugpxuwWmpm2o2m6VJZ0/Pzk3EjOu8GcxzBQABBKZ9fbmzrUfubxeLAuDdia+/wZUd59Q4tQNwQQEgYIp1xNJKjQPgdoFiACVDKOfckQCK6+gAb2VJ1ivocILCCR1MhOAJGjoxYCacNDzINQxpRXOF96V1A4WV/mAindGg4ctBMJPLVZcTvmIqbrI0yX/LuCoaKetmJMUnGtnGZZpQ9Yov7TlG2Bo5xJRFQV+60Jc+DKIznejOIKUaQG3vYHpTxVOW8UMMkognEYNsjHRuG9uEzgxgIN3nVL4TcjCe5yMZ4teOAoeCzCYTo1AgylrvoR0G9+oQ17cP");
 
 export default LightbulbOn;

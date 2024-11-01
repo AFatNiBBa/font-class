@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `salad` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/salad?s=sharp-thin salad}
  * @preview ![salad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/salad.svg)
  */
-const Salad: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 16c-41.6 0-77.6 24.5-94.2 59.9l-2.4 5.1-5.6-.5c-3.2-.3-6.5-.4-9.9-.4C66.1 80 16 130.1 16 192c0 23.8 7.4 45.9 20.1 64l-19 0C6.2 237.2 0 215.3 0 192C0 121.3 57.3 64 128 64c1.9 0 3.9 0 5.8 .1C153.9 26 193.9 0 240 0c46.7 0 87.2 26.7 107 65.7c6.8-1.1 13.8-1.7 21-1.7c41.2 0 77.9 19.5 101.3 49.7c-11.9-6.5-24.8-11.4-38.4-14.4C413 87.1 391.3 80 368 80c-8.2 0-16.2 .9-23.8 2.5l-6.4 1.4-2.6-6C319 41.4 282.5 16 240 16zM400 144c-53 0-96 43-96 96c0 5.5 .5 10.8 1.3 16l-16.2 0c-.7-5.2-1.1-10.6-1.1-16c0-61.9 50.1-112 112-112s112 50.1 112 112c0 5.4-.4 10.8-1.1 16l-16.2 0c.9-5.2 1.3-10.5 1.3-16c0-53-43-96-96-96zM112 463.8l0 32.2 288 0 0-32.2 0-10.1 9.1-4.3C460.5 425 496 372.6 496 312l0-8L16 304l0 8c0 60.6 35.5 113 86.9 137.4l9.1 4.3 0 10.1zM512 288l0 16 0 8c0 67-39.2 124.9-96 151.8l0 32.2 0 16-16 0-288 0-16 0 0-16 0-32.2C39.2 436.9 0 379 0 312l0-8 0-16 16 0 480 0 16 0zM248 104l0 144 0 8-16 0 0-8 0-144 0-8 16 0 0 8zM93.7 146.3l96 96 5.7 5.7L184 259.3l-5.7-5.7-96-96L76.7 152 88 140.7l5.7 5.7z" />
-    </Icon>
-);
+const Salad = createIcon("salad", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABpgAAALfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDNQsGAAE2AiQDCAQgBYMtBywbsQXIngU5mTQvCpky9HssclE48T1Ckk74p9bK93t6FnpnK3PEHWBWBOyAVFjtqhD1hVGhMVfRibAJwcO4r3kLINkRwKkzlA3llM4NZmjoV7ednP/bdgXPUXBet3N4dAc1Gito3F7rRUQ6Ob2ds+aRB0Z588gfUP3PNZ+fNR3gNzq0iFjRLEoj4vkEJpJ+vgGX0EwHglNbBKxtckENol4VOQRFHlkffGiLS4CN9+wUw5wyGy7Wt9JXlU5jRMkAAKgAAABM3rZp0ZeN2Ij4lSj0zjwQQKMAPIEIV5oJwDgR0QQsDyxL6IjEl/9AhwCgNPhLGAAW5MA7+AYAFoCRSbEjq1paKioKqUW7ODvVrTjYrLhVX60sldzsda/5cm8XQX3i55mHskvf9oL3vt9QLqzB6z3CiDPV1SqL032C06fNinvNx2tclNT6to982ft+y/FqF2XVPmHERlIMSaqLNwMftykSoXP9H46ukQ0EXez3YBSirESS3g141EUhFZYQlCU2FsTCLVu3lMaTytb2qOVRWhvS8Jff7x4/H9BeXHwrYpNSf+mY3LeYpC61f3wlOfnPw1HX9eujm/jT+p/65PFc3b0/vqf66rE9twkZkE1lMzr909p4qc+FsKdqoued8ZzTtq/vyM2gQ4bijvXtB2Qde1yQpjnmRPlqNam0O8W7hSZB/PFFsD2fc0nMnOq9hjWTgs104XYABIQ0Ppy3/IH/yDYA/H79DnwH/3cScxvkGABC1J4IK5MAGAgAAACYOKxLEkDAeOZ95BIla1kcBhgZDiJNUrCcvhBrNZw9PL5ARCl5pNoqgJHYB5ERjoBV7TnExvlWyKiOZBfmHZD/gkyZUmTyUHXPgEF+jF/2dMEr2bw71h87zYfTTG9ctdkeux20yUbbHBR6v1nlQ3aZsaOm+yBvsAEG8cbw5uGzsli69ztgmz122/cZy9/P9XJ4v7w3fIOMQ3QZBkqKf0tB3QkAAAA=");
 
 export default Salad;

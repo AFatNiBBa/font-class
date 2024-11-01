@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heat` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heat?s=sharp-duotone-solid heat}
  * @preview ![heat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/heat.svg)
  */
-const Heat: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M144 32l0 32 0 80c0 48.5 15.7 95.6 44.8 134.4L208 304c20.8 27.7 32 61.4 32 96l0 48 0 32 64 0 0-32 0-48c0-48.5-15.7-95.6-44.8-134.4L240 240c-20.8-27.7-32-61.4-32-96l0-80 0-32-64 0z" />
-        <path d="M64 128l0-32L0 96l0 32 0 32c0 48.5 15.7 95.6 44.8 134.4L64 320c20.8 27.7 32 61.4 32 96l0 32 0 32 64 0 0-32 0-32c0-48.5-15.7-95.6-44.8-134.4L96 256c-20.8-27.7-32-61.4-32-96l0-32zm288 0l0-32-64 0 0 32 0 32c0 48.5 15.7 95.6 44.8 134.4L352 320c20.8 27.7 32 61.4 32 96l0 32 0 32 64 0 0-32 0-32c0-48.5-15.7-95.6-44.8-134.4L384 256c-20.8-27.7-32-61.4-32-96l0-32z" />
-    </Icon>
-);
+const Heat = createIcon("heat", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABeAAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCFQsIAAE2AiQDCgQgBYMtB0QbKwXILgZyMj5VQkQgIraVWi3v9+pr5XYYSsvz9Mt35763qcXVrqpKd9FVR0dFxUhQTeG/kPTxWPwOEjR6/Z4x92/mde22JCpJvakBjbZOiSSx19fQTAt0isoXs4Joz5Tk96lTzzM0FMAHkcyB0zdIaM7zYM5znnCu2qu3IhUqWIVrYLV2ekZ8Nomo+yTDxBsmdeg8oMl9PeujfCy/4A3/D2D+0TtTDFUAZBIAXD02Sri0aUt+u3fySxEEcg1YRqiomEfglFAwT2QZNBqhLV1Hm65bhgDpB7+sgn704Rm8AmhAUaQRGYyrFKtFbb5XMYgMEyK/r6AHIiNEJ/1dS48hNdw0QABhv0dh7OldebrkBTOnwBhuvvDvZ7BuJGMDd58o1YC4UJdYdc8DgvD0tc20p/8HlQLAn8//lX9HXUs/Sw+DCgh1v7MZ5ieQnwgAUHLDmAt4K6iuCaR3HfVOQAwjoOg3LKCao0OgMWwPgT6L/Aj0G3ZLKI0cMWtUQTHqBVQnbkFj1hvoc+rD7zcboc5RGkN9+eILQ/k9djtcHGGYKLQaEX4Z5WnddKNhppuY2tm6MjG2cBV+VIqubRQkLO+DmJuDC4vg5fzxum3i6GRhZxvXRPF+x+RG7jfTMQLAwWnFKikkVD0O2a66oqZhrygAAAA=");
 
 export default Heat;

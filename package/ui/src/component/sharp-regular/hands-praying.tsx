@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-praying` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-praying?s=sharp-regular hands-praying}
  * @preview ![hands-praying](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hands-praying.svg)
  */
-const HandsPraying: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M241.7 7.8l19 11.9 59.3 37 59.3-37 19-11.9 13.2 18.1 128 176 4.6 6.3 0 7.8 0 85.7 70.3 19.2 23.2 6.3-12.6 46.3-23.2-6.3-88-24L496 338.3l0-18.3 0-96.2L385.7 72.2 361.1 87.6l67.3 107.6 3.6 5.8 0 6.9 0 88 0 24-48 0 0-24 0-80-40 0 0 173.3 269.8 67.5 23.3 5.8-11.6 46.6-23.3-5.8L320 432.7 37.8 503.3l-23.3 5.8L2.9 462.5l23.3-5.8L296 389.3 296 216l-40 0 0 80 0 24-48 0 0-24 0-88 0-6.9 3.6-5.8L278.9 87.6 254.3 72.2 144 223.8l0 96.2 0 18.3-17.7 4.8-88 24-23.2 6.3L2.5 327.2l23.2-6.3L96 301.7 96 216l0-7.8 4.6-6.3 128-176L241.7 7.8zM296 168l24 0s0 0 0 0l24 0 10.7 0L320 112.5 285.3 168l10.7 0z" />
-    </Icon>
-);
+const HandsPraying = createIcon("hands-praying", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABggAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCcwsGAAE2AiQDCAQgBYMtBzQbdwXIHge5GfMGpNOE8hqTeJ7/Ocr7fjIAnGUqE/tZVdBdVQKwVXNqCRQiDm5xkNJBOJTnO1/I/F/u+T0/OsBvdGhj7fQWSHtzL4FE8wkW0JiWJYr5buuZQYMoayIiMsfzF9q4UG4Hdf7Odi2UR8oXmM9vmh9MeICipQKQfgDse/LxR3pnIQvJ5/+/SD53OALZFzSCChWmBeyhEkyrNajVwkL+/9//BzYESCu+0QJq1HgYjwNqUJS6vrevq6WnPqmrpfP0ZcuXHZmjsyITOTEjETkxyzKd5Tkpy5MkJ2Wp7EvnWHRGzkXc83KOWsxmRc4XKSBJxnKyS06ICOIJiHyy/LlTJ3Z1dt2be9PVtV/2Sdfix/of+6leVL+9vGbNmh12WONbdz9tm3YnOXDQjb5ykZPHDBt0jisfMm+/y2zT5hTjNhp3jJWe1LO/Cz3pRhMxERd604V69veklY5J6SnabFvl5o8k5xg0fJbAsEfpSdod+Lr07rYf57PC+C63XBcQhO8e/auzb4+/2rsK+P41yunV/++Xu8pjaFdAqNb+v9YZ5R6VoqwQnJbcZDF9k6DYrqBL7faggOhEQNGqU0BlSr+AWqc1AlrM2iagVafjVVJ3iGFnNlB0uxZUdnInqA17HrTYw8dpq+GpLJSwL+IHMfagHjpwU7Np/cZmt2baVEmjw+Ly7g2srrwpDK2irS5ytavc4EIXuNQNHXKdI4sbXekgDT7QDzU2WW+jxm6a7c5j5UkudJ3rXSpT++vsrrkfrnSTPnkVGQWjblZRFFJ6PqGydddcd+6tl151MQA=");
 
 export default HandsPraying;

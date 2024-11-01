@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-certificate` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-certificate?s=sharp-duotone-solid file-certificate}
  * @preview ![file-certificate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-certificate.svg)
  */
-const FileCertificate: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M128 0L352 0l0 160 160 0 0 352-320 0c0-21.3 0-42.7 0-64l0-57.8 27.6-3.8 6-.8 .8-6 4.4-32.2 25.7-19.9 4.8-3.7-2.3-5.6L246.7 288 259 257.9l2.3-5.6-4.8-3.7-25.7-19.9-4.4-32.2-.8-6-6-.8-32.2-4.4-19.9-25.7-3.7-4.8-5.6 2.3c-10 4.1-20.1 8.2-30.1 12.3c0-56.4 0-112.9 0-169.3z" />
-        <path d="M512 160l-160 0L352 0 512 160zM92.3 154.6l5.6 2.3L128 169.3 158.1 157l5.6-2.3 3.7 4.8 19.9 25.7 32.2 4.4 6 .8 .8 6 4.4 32.2 25.7 19.9 4.8 3.7-2.3 5.6L246.7 288 259 318.1l2.3 5.6-4.8 3.7-25.7 19.9-4.4 32.2-.8 6-6 .8L192 390.2 192 512l-64-40L64 512l0-121.8-27.6-3.8-6-.8-.8-6-4.4-32.2L-.5 327.4l-4.8-3.7 2.3-5.6L9.3 288-3 257.9l-2.3-5.6 4.8-3.7 25.7-19.9 4.4-32.2 .8-6 6-.8 32.2-4.4 19.9-25.7 3.7-4.8zM192 288A64 64 0 1 0 64 288a64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const FileCertificate = createIcon("file-certificate", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABqAAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDJwsIAAE2AiQDCgQgBYMtB1wb1QXILgps1zQYDuLUlsMsfW6jO9V4ieBr7bPfzB4QKoJYIAtAxp0K+WgGTVT+jNj6MmGh1qD9fTNv9wPeg9kENygkpvLyoTldvRQOcXAfCAQicaxRUH0x9z9Atdk/7h3/tanz9Yc+4ajLaMyl8zybk7sEAi1buEECSTBTbHDe5AMOxaH8BkX85uvqIN1MG7jh/gcwfhpyS2LJACA6AwA7jg314K2MMsVPNcSG3SCA2AmYRJBBBqMI2EwgGCUpUJAIZapQRmUSAiDq4dgsVI++6Q2+AgpAIrCQpom27S11DjnaUmdda26xkiMXA/2BLOYICchTxUZwTJ4Av7AIas8VBzYzk8G9sTuC2ay1pHzBTYWYKPIVcB+hrwa+E6p7c69mXozenX05/3riVEuzDWyhRjuvglwwp5EnU4ts23xRZs98+dxHGKg+tOr30BvYlx6e7s5Xv6euauKB0rh//3FxIPoHwQMy1ZKMsNW1XQKeYZ9y97Yz6nXr/kvr9CWW99aQfdf6SbUyL13Ptf//azmpuvhWYvjAA+e1ckfqd7B+Z9Onc1UacHjpYDF/riAfgAAB/3b/KNfmbWzRANQ+/v2RvVid74n2Co00QEBe+AXTyQSdLQi4keJUOgxdPkvIzkCo1OppcytYoZITI6ucxbjlglWBXCepyr7wyhCBhQXkNwPKGrsDWah2Jkt+umzQ6L1u5A/x8DofPee/Y77uJta1T60Wl6p6NdpRuJ5Hu95sUItjM6d8Ig+exKo9u46tWLbhuKE71NM6saN7SuryQ0qZYqWUempz/65vFOsPHdmI7G7fpYE6vpTrdHp+HkxqfLNrjmQCIlGE35TJojcqVPQlzI72eu57");
 
 export default FileCertificate;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-cells-column-lock` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells-column-lock?s=sharp-light table-cells-column-lock}
  * @preview ![table-cells-column-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/table-cells-column-lock.svg)
  */
-const TableCellsColumnLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 64l0 96 128 0 0-96L352 64zm-32 0L192 64l0 96 128 0 0-96zM160 64L32 64l0 384 128 0 0-384zm32 384l128 0 0-96-128 0 0 96zm160 0l32 0 0 32L32 480 0 480l0-32L0 64 0 32l32 0 448 0 32 0 0 32 0 97.1c-24.1 3.5-45.8 14.6-62.4 30.9L352 192l0 128 32 0 0 32-32 0 0 96zM320 320l0-128-128 0 0 128 128 0zm208-96c-26.5 0-48 21.5-48 48l0 48 96 0 0-48c0-26.5-21.5-48-48-48zm-80 48c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48 32 0 0 32 0 128 0 32-32 0-160 0-32 0 0-32 0-128 0-32 32 0 0-48zm0 80l0 128 160 0 0-128-160 0z" />
-    </Icon>
-);
+const TableCellsColumnLock = createIcon("table-cells-column-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhwAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCXwsGAAE2AiQDCAQgBYMtBz4bbQXIhuf5t/uvfW7VV702quXX7aGYzeqacQYxgqOfDZSDqRBx4pr6GfSARf5osYg8Lxp2n09ggG9LjOLdgGYDm+kEbApuuxi+hktog1A4Qp2/s9oA5cHyMW7PPzQ/mOkmiroCkAkA2OO4ow4x+m2+TT7+/w3ysYMQyJ6gFVSoMEfAzirBHLUWtVr4Nv//7/4DWwJkEKji5ho93IEHADUoRup6RJgsGJnYjvQGxtbHxlub80QvSdM0vUYazYHFX51gtG4ieupxGdMkVZLeWJHXlzeRXqSJYyOy9LhnpiT3zLjjYB6adt/Sox9flby89Y0VL87dCQikyaBkE0+bL3xpwks/Lfj43I+dtv10KDun69oucLom8EQHBxubv33oaBFwekR0iPbbwhn2ue3MHsB1+jawe0b32Wn9L/mk6jtdX/XJl/3D1uVYzpkw4Zxj09e6wDNavlb/8K7rntB5AgjCK59ftvS08Tv/Ndwr4Pt3f/mN+BX9P1q68hKGFRCq1f+vdnLpoHQCACi51sLSIShuMwLvOsZ9AqJBQDGoEVCZbYKAWmOVgAHzbBYwqHGUSuoRMcUprViMcYVY2eI6sTbFa+KAnb2XGzQlFS8NVhm/hTn27cP7rGrXr+23O7aLDbWFalqyuFO7O7D8Wj+wQm51rstc6mrnONsFru4JVzqkeI1L7LvG7+OLWuut1dfaUXu6/Xj9sc5xpatc4DKXZsvspL0/s9y16+NXyHAB1Q3KikLKdMq61rzO7jUMdq75cgAAAA==");
 
 export default TableCellsColumnLock;

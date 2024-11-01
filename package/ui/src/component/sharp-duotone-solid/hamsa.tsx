@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hamsa` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hamsa?s=sharp-duotone-solid hamsa}
  * @preview ![hamsa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hamsa.svg)
  */
-const Hamsa: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 288l0 48L95.4 441c41.1 45.2 99.4 71 160.6 71s119.4-25.8 160.6-71L512 336l0-48-96 0 0-256-80 0 0 192-40 0L296 0 216 0l0 224-40 0 0-192L96 32l0 256L0 288zm160 64s48-64 96-64s96 64 96 64s-48 64-96 64s-96-64-96-64z" />
-        <path d="M224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const Hamsa = createIcon("hamsa", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABegAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCAQsIAAE2AiQDCgQgBYMtB0YbGQXIhof/t+u/fW5Vv/UB1LeZQZiJiEjOHE3+GI4Q9/9cUy+eHx3gNzq0jkWBFFjn8wkMNKJsCDNNcp9uEz1MCKSno2BERUjHl8fXGfL4ObusRHo+/YR79j+A8av2LpPUzwBEMwBMW7NikW9qoibFT+UPiJ8sREBMB4VAhgydBJgoE+gkVyCXC2pSuUxNlMsFAUQF+4EZqEAJO3AAkIMkpDxvOaBzw1LjfHXDUoM1F9pGPGt4q/UT51s9bnCzzdMIYVW8N+7ThrcmfD5kTUQ0iCwahGgQQUhSVjmT+kS80ee1Xq/57+n5as/Xe7/e5ml0f7vZ2793+2n3T6q3NLnO9SY1S/xeHKqDNu/194WHgwc/vPB3HzzUViz1jb5qFK1Bv9mXrS9MiWqqNrPl6NEtm6uqI6qBl8eBQDBzb+W7W5pO/L9ewwTqPvvzF34hKX+TpLdRTwJBNrA80MYEEgEASHFa90QNApm5krKpkacChAYwJBUaQKajZpBrYACUdDGKPpy8Qiby+kIrmwiSRo5BZrQzkGvlfSiZ6NtohVaRRRobJ+xHL2k24rP6FcMGDy3GF8usxgUPnbsnFMdW39Opqh8ttNsRh520y077nATyuEWJUw6ZvSNmeaLCMIMNVRivcBcepdUQPe6EfXPB38sExf1IX6f3jfuRmxTK4TZmMiJF1njvtkMntg16sWpTEF4mAA==");
 
 export default Hamsa;

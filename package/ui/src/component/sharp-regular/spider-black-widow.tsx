@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spider-black-widow` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spider-black-widow?s=sharp-regular spider-black-widow}
  * @preview ![spider-black-widow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/spider-black-widow.svg)
  */
-const SpiderBlackWidow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 118.7l0 21.2 1.2 3.7 24 72L29 227l11.4 3.8L116.1 256 40.4 281.2 29 285l-3.8 11.4-24 72L0 372.1l0 21.2 39.2 13.1 7.6-22.8L67 323l72.6-24.2c-.8 3.2-1.5 6.4-2 9.7L79 367 67.7 378.4l6.2 14.8 40 96 9.2 22.2 44.3-18.5-9.2-22.2-33.8-81.2 15.5-15.5C153.2 425.8 200.1 464 256 464s102.8-38.2 116.2-89.9l15.5 15.5-33.8 81.2-9.2 22.2 44.3 18.5 9.2-22.2 40-96 6.2-14.8L433 367l-58.6-58.6c-.5-3.3-1.2-6.5-2-9.7L445 323l20.2 60.6 7.6 22.8L512 393.3l0-21.2-1.2-3.7-24-72L483 285l-11.4-3.8L395.9 256l75.7-25.2L483 227l3.8-11.4 24-72 1.2-3.7 0-21.2-39.2-13.1-7.6 22.8L445 189l-84.2 28.1L433 145l11.4-11.4-6.2-14.8-40-96L388.9 .6 344.6 19.1l9.2 22.2 33.8 81.2L352 158.1c-.6-32.8-17.8-61.6-43.3-78.4L285.4 64.4 273.7 89.7 256 128.1 238.3 89.7 226.6 64.4 203.3 79.7c-25.6 16.8-42.7 45.5-43.3 78.4l-35.7-35.7 33.8-81.2 9.2-22.2L123.1 .6l-9.2 22.2-40 96-6.2 14.8L79 145l72.1 72.1L67 189 46.8 128.4l-7.6-22.8L0 118.7zM208 160c0-5.5 .9-10.8 2.6-15.7l15.6 33.8 6.4 13.9 15.4 0 16 0 15.4 0 6.4-13.9 15.6-33.8c1.7 4.9 2.6 10.2 2.6 15.7l0 88c0 3.4-.4 6.7-1 9.9L300.4 270l8.4 9.1C320.8 292 328 309.1 328 328l0 16c0 39.8-32.2 72-72 72s-72-32.2-72-72l0-16c0-18.9 7.2-36 19.1-48.9l8.4-9.1L209 257.9c-.7-3.2-1-6.5-1-9.9l0-88zm8 128l0 16 24 32-24 32 0 16 80 0 0-16-24-32 24-32 0-16-80 0z" />
-    </Icon>
-);
+const SpiderBlackWidow = createIcon("spider-black-widow", false, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAABwwAAAL0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhESETAsGAAE2AiQDCAQgBYMtBzkbVQbInge2zWI7DJnDJu5ZvgsvbJbHCKK1snpu7xEgoBBlXBxaIKEIXBwJGRWPwiLZuLOH/dy7ielnc9SriCdxDUUlbSS1pqVACWT0ZJTwqCpRaBEum0R4YJ7/yz2/57eB7n0/8UNZuzmej4nZnM8DigLZVke1aYJngWWagHVtbqL+4KFwC82PkMVj3MQlPUqvcSP50Pil1RJK8jkCiBoiANtPlBXQ2/t4H/FdOBSv7EECYjtCDyCHHDoAbGALdODoQTKZ4H0UCs5/YA8KIIooe2wCGfIEop0IZCDJZZzrKYi5Uk5lsE7EptAYFdEIgzoaDdDYUSzCjDhUxV3F0QDs0oo0mFAZzdgfncUf327ghVuQ4rAOrRk6lMb1Jm1WTyQB0JlGU80Dhl4PA4nYZDTKE5XRhmSnsCI2cLLm++FwRK4TLtz1hBluR6pulUtHj8dcIr7ierPN14rFetixjuJaA7Q10Cp4ONIDOcY2xe4479dvRFSA0fCBohxAKMIAiBzBGv7p/dR2NTZq2dS8Q6pTeS1F5FTq4qVsjboMS5fdTJMPCGrkPWnZuWUhB/2rb98fP/7+7UnBSS67sHJY1OBMELeeZEbphnXR4j6prF3WDmu3Q2I5LlylAC2tgFkTffNCRIjXI42CJL6y9uD6dyO8v06Td3f7NVxSjZuF0Rp1hYJk83E/78tbZAqS1K8Jw8lXF1+tqVHMmqVQTKG/nyAQPNsz++NkG3/KWQQfX/z7x/kVFV4m6TlSIoEgN/E/oT6BRAAAUoxwJEIg+S8ne9cK9wGEMgRIipQJkNNOASBTZhxAXpcEAEXKHMEWmZBCg4YRJBXOg5wl0yDT4BLkbXhPFmkI9ukgKmbxYjQtcw5lTGNmI6OZVOawpJdUOA+OpjHY7pERt8Wvb6QWvXoMadak3dCMHFCQGdYtE4IzfBEjRqRojFQMdfW1VmkmBwxq31fox0nD8I/7jMDd/bqPJWOcY5ckIqkGz7U3NQ9EnCfSPwc8vaMAAA==");
 
 export default SpiderBlackWidow;

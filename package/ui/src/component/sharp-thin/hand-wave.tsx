@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-wave` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-wave?s=sharp-thin hand-wave}
  * @preview ![hand-wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand-wave.svg)
  */
-const HandWave: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M362.6 65.2c-7.3-29.2-32-50.8-61.9-54.1L272.9 8.1 271.1 24 298.9 27c23.3 2.6 42.5 19.4 48.1 42.1l5.2 20.8 15.5-3.9-5.2-20.8zM1.9 399.6C6 432.3 31.7 458 64.4 462.1L79 463.9l2-15.9-14.6-1.8C41 443.1 20.9 423 17.8 397.6L15.9 383 .1 385l1.8 14.6zm115-347.2L111.3 58 54.7 114.6 49 120.2l5.7 5.7 17 17L20.8 193.8l-5.7 5.7 5.7 5.7 39.6 39.6L9.4 295.6l-5.6 5.6 5.6 5.7L160.6 459.5c29.8 30.1 69.2 48.4 111 51.9l0 .6 8 .1 15 .1c102.2 .8 185.4-81.8 185.4-184L480 144l0-40 0-8-8 0-80 0-8 0 0 8 0 40 0 62.3L201.8 24.1l-5.7-5.7-5.7 5.7L139.5 75l-17-17-5.7-5.7zm33.9 33.9L196.1 41 386.3 231.3 400 244.9l0-19.3 0-81.6 0-32 64 0 0 32 0 184.1c0 93.3-76 168.7-169.3 168l-10.6-.1-4.1-.2c-40.7-1.7-79.3-18.6-108-47.7L26.4 301.3 71.7 256l1 1 99.9 99.9 5.7 5.7 11.3-11.3-5.7-5.7L84 245.7 78.3 240s0 0 0 0l-1-1L37.7 199.4 83 154.2l3.3 3.3 5.7 5.7 75.3 75.3 3.3 3.3 58.6 58.6 5.7 5.7 11.3-11.3-5.7-5.7-52.1-52.1s0 0 0 0l-9.7-9.7L71.7 120.2 116.9 75l25.9 25.9s0 0 0 0l5.7 5.7L285.7 243.7l5.7 5.7 11.3-11.3-5.7-5.7-17.9-17.9s0 0 0 0l-10-10L150.9 86.3z" />
-    </Icon>
-);
+const HandWave = createIcon("hand-wave", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABrAAAAK3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDfwsGAAE2AiQDCAQgBYMtBzAb/wXIjtLEcoyVkeCQV8YZQbD2v9l7900E0SRqTbSJJU0ulUYXDYlHgohXkwjf79nfd+cvpFkZ89ICblJICoWRSOsuns7Td+pUzuJQAN8jHrSx1vkECXWu8woUuKVB67witXVe0wJQWbu47artqIc0CIUrpHGgngbJ7SSLi+FB47MGk5DIZAAQ5QBg5vrVS51+iA8R1yNbEC8sBgExE9COkEEGzQhMoSbQTF07SKWCDzHyL/4DGQKIXKQbJyBFLt7gJyAFiTRVN69NbCvKMVBXDEm36U4v0VzvKebhHlstNmQVtttuDxCt9lg0By1jqXau0ZLMw2JzdZ15kUrDOxgWv1vi+VpUpHe7+tX6SFt0dRFCrIt9YVEMknxqYlyieDYd1yOEeD3l2ZrCwrNp62L6Gexj9A5pLCe1kTDFSq14QSsRkCJ5Vy1HdJ/J39l5r3zta0d2R9aeo2tL+bdlnZN16Xfn+DNn17J+4ORHbd51vHxT2Yofrfs2r1279ogyAjqJMk1cpEk3f8vTjJxAflm+1AlR8IgXbfkb8vVLsHWfEKZgbUU2m33+3LMqJVgStovm///KpJd+vrh8xRO2bpXuQFl5DwGw040uZXIWC7FIrEmXCjitdY8bt8Fas6ek2SeMAbcNHAIIBPcXXyivKpvyN19PBfj05Ptn7Fs0ckofknsgXwKCzPCIn/IE2uNNAACSGOSSAIHEa6l0r8VuIBAKESCRq1CAjCbGCKQKDSGQo1U4ArkKraYmUh2EahUNSBTbCzImGwKpahsgxxTnRa7qUINzFkrZ38ykeV1k7qb2cQFBHMOzLRUHurRdjeXNVv+gHPHGezXq0qlfg3ot+jtEr/x6QIeMJTzdB7FgAYKwGHy4+1BSaNirT9LTuuPrxOLrMy+Dy9O9sauSKMdrJBIi0fks5FFvHwAAAA==");
 
 export default HandWave;

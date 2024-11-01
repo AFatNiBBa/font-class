@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `football` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/football?s=sharp-light football}
  * @preview ![football](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/football.svg)
  */
-const Football: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M456.2 55.4c-48.9-8.2-92.4-10.8-130.9-8.7L464.8 186.2c3.4-47.1-.8-92.9-8.6-130.8zM220 67.1C161.1 89 120.4 126.1 93.3 170.3c-21.6 35.2-34.6 74.9-41.3 115L227.3 460.7c.2 .2 .3 .3 .5 .5c23.5-3.6 44.8-9.1 64.2-16.3c58.9-21.9 99.6-58.9 126.7-103.2c21.6-35.2 34.6-74.9 41.3-115L284.7 51.3c-.2-.2-.3-.3-.5-.5C260.7 54.4 239.4 60 220 67.1zM47.2 325.8c-3.4 47.1 .8 92.9 8.6 130.8c48.9 8.2 92.4 10.8 130.9 8.7L47.2 325.8zM483.1 27.4l4.4 21.5c17.5 84.8 18.6 211.3-41.6 309.5c-30.6 50-76.8 92-142.9 116.5c-65.6 24.3-148.7 30.7-252.6 13.3l-21.6-3.6-4.4-21.5C6.9 378.3 5.8 251.8 66 153.6c30.6-50 76.8-92 142.9-116.5C274.4 12.8 357.6 6.5 461.5 23.8l21.6 3.6zM291.3 156.7l64 64L366.6 232 344 254.6l-11.3-11.3-64-64L257.4 168 280 145.4l11.3 11.3zm-56 56l64 64L310.6 288 288 310.6l-11.3-11.3-64-64L201.4 224 224 201.4l11.3 11.3zm-56 56l64 64L254.6 344 232 366.6l-11.3-11.3-64-64L145.4 280 168 257.4l11.3 11.3z" />
-    </Icon>
-);
+const Football = createIcon("football", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABiAAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCTQsGAAE2AiQDCAQgBYMtBy8bTAXIhofv7f77tU/3U98xegDow6ocVjZIX/1USu/UqZpxng34IBEN0pg4F3cA7X1erRc01KtPa0VqBelFLEJaa2c/+B9EZ5KE8iTD5ofNFfL4IAarIT2ZfsT98UvjFx3dQpJnAKIFAGasW7XEp43RGPFj9S3iR4sQEDNBKZAhQxcBJssEusiVyOWCxqhW+T+wJICohTcmkKMBV+E5QA6Sujyv61jbsSWer9Q0zddWaop9l2eviSs9V19c/Wq5Jm6s3Bjv9Luy7o1eaytUFL/Ze/3FHpfmrd3XsVPHSzqfWGv7Rqe4vO5K8Zo+q1esXNE2+ke7WCnHDYq2y7uK6vl8i+d/6/Hj3h99c8f8ysN33yWb9/0vlbU9+836756XXyHo/T0bL6YFcdN/Y+Ac5E1n1KxyPwxaOHjJjr47+jzVYaY5Rnx7n6f9T26souV9e72gKm92rnsdCAQ/fTnw3m3NJ/9XX0ng5/f/+Isqoqh+Ev+n51EvgSAbXB1sc6JQxP8CainO6qmULJCcVAf0qU08JkAoECCpVQiQ6ayFALnCIAFqdDNGgFqFVTKRNwhtbKkgaeIEyIx1Lci18QaoMdk3tVptIjNHyZik32D63Badc6ocMXR4ObGc9hXZwgS/P6ncNvqflbkBdNFexxx12h67HXC6YU5a0jzjiLkaNkeJSiMMNVxpovJ49Hh+rT1OOuWAY46GQyYp7yf9ndVXDyA7AedIXUkiUv0DBg==");
 
 export default Football;

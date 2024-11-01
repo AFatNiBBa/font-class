@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-sleet` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-sleet?s=sharp-light cloud-sleet}
  * @preview ![cloud-sleet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cloud-sleet.svg)
  */
-const CloudSleet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M384 128l0 32 32 0c35.3 0 64 28.7 64 64l0 64-64 0L96 288l-64 0 0-64c0-27.8 17.8-51.6 42.7-60.4L96 156.1l0-22.6L96 112c0-44.2 35.8-80 80-80c27 0 50.9 13.4 65.5 34l17.8 25.2 25.9-16.9c10-6.5 22-10.3 34.9-10.3c35.3 0 64 28.7 64 64zM0 320l32 0 64 0 320 0 64 0 32 0 0-32 0-64c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C247.3 18.8 213.9 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 64 0 32zm72 32L0 512l32 0 72-160-32 0zm256 0L256 512l32 0 72-160-32 0zm-136 0l-32 0 0 16 0 32-32 0-16 0 0 32 16 0 32 0 0 32 0 16 32 0 0-16 0-32 32 0 16 0 0-32-16 0-32 0 0-32 0-16zm256 16l0-16-32 0 0 16 0 32-32 0-16 0 0 32 16 0 32 0 0 32 0 16 32 0 0-16 0-32 32 0 16 0 0-32-16 0-32 0 0-32z" />
-    </Icon>
-);
+const CloudSleet = createIcon("cloud-sleet", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABlQAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDEQsGAAE2AiQDCAQgBYMtBzIbkwXIHoVxw31ki6WMjyPjS8XD/9t93z63qlXVqC/fLykSBlAm8U0oZ06CXpOJ6bxkZnmI94lr6pdX2PdGPqQuHUikd2kJDDBad/MCLBvYTCdg89v5vQUSrgwSUi7Jbrlh0d/+Gcr4NNZBejrBg+FD4xdj3EZSFgCiAcDmIwf2+2owBiN+aL9P/GAvAmILyAIFCowXYJ1CYLxSRqkUDEa7rf4DMwFEJ3qcBEp04018AChB0lmWcyb39EyeXHf0lYfrjup8oY7XZ789RlS9ETePenLmzKCVL859Z+X7s2fH3Hiy5rgz6mogJ+KFOa0VcdE9077Y8d6st8aL1zQwepdDB48crONIVH1Wv6rqSjCCr2vBRUQAdbCqgB0Kvcb8/lNaTeu3yc7jxo055+ylIUOqTTbdtMmIL7+csdNII8Xhc5uHb+z2kJ+Gm9U3fpmzbJPuVuumdNqEy/te/vP/gZE+HtU1sEneOWnniyqQYUzWHLkr59zIcpM1GQh7FNo1TVMzfzkIBAfzfWtOH1j3X3edwI+f/CX/BttfJamFbgkExbz2TiaQCABAiutMSRBIXnT779rrCQFChQBJp0qAwjiNAKXKXAE6TLRcgE6VAwpR9gjDnapq0utKtbDC9WppuHfVDut8Hes0PAqBtYib5Xsx544e3j4vL16wKK/J05JilUGTG12bl4OzrtMts3HUeS53mWuc6xwXuqajr7I/ea1L7eDQ7b4oW2yBRbI18nb1cf9h57rK1S50ucv8LGvl89FZruO7z0YkIYNL5CWJSPWfC93zXwhd1wAAAA==");
 
 export default CloudSleet;

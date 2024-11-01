@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-n` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-n?s=solid circle-n}
  * @preview ![circle-n](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/circle-n.svg)
  */
-const CircleN: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM203.7 138.3L304 283.2 304 152c0-13.3 10.7-24 24-24s24 10.7 24 24l0 208c0 10.5-6.8 19.8-16.8 22.9s-20.9-.6-26.9-9.2L208 228.8 208 360c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-208c0-10.5 6.8-19.8 16.8-22.9s20.9 .6 26.9 9.2z" />
-    </Icon>
-);
+const CircleN = createIcon("circle-n", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYwAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBPwsGAAE2AiQDCAQgBYMtBy8bvgQRlZonyL5I4PBe41LFfHaxmJaNl98YpljEA8NmeEk8/P/a//a5M98Us8Fdk2g3zV5peBNv1L+oLCL5BQCMg7GHdbxtD7ixNGvt+7wKwZ/+5p93HgX4jEIbC5duXIB7nScQYNbleYlkgWWyvoB966YbKkrvtiQveknD+MMWrZDH6yyUkR4kcE1OGn91cJWkKgMQjQCYvnblYh9aoiXia0nx1UIExHRQCGTI0FmASTKBznIFcrmgJUql+B9YEECU464J5MgxHUsAOUhSnnfqWlNWl6/J9129+vdSjZ8zJy7N6CW35hcxLV2cXot3ta9eszriUd/HHcT91rfbrglxv9eTjhGP2t1r0+NF44t/2IPS1Nmuc2Ni55kzO0+8cX22zHZd6SNP77wuk1e0Wb68zS/+DwrCdhAIzr7YZ1sbJv2vrEngz6u2n1HpQ5JeoFICQTaoNMimBBIBAEhxRo8EgWS8hEetdVeAUI0ASblqATKdNAqQqzZQgDJdjRagXLWVMpFXCa1tHiCpdRxkxjgHcq29BGUm+WiUax2ZHxFeQDzjYt0cDc0eK4YPGVZMKJa+TroGVvoTi22u35mU649Fe44eObV71/5TCjmx2D59eI4Fz76wGD5kWDGhOI6e59fsPnFy/9EjdcjE4r7U74xd3R9iQtQRjiQRqfK7DT/4CAAA");
 
 export default CircleN;

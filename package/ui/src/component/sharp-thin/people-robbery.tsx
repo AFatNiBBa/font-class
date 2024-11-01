@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-robbery` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-robbery?s=sharp-thin people-robbery}
  * @preview ![people-robbery](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/people-robbery.svg)
  */
-const PeopleRobbery: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M80 16a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm0 96A56 56 0 1 0 80 0a56 56 0 1 0 0 112zm264 80l0-16-16 0-24 0-12.5 0-3-12.1L260.4 51.4l31-7.8 22.1 88.2 3 12.1 12.5 0 47 0s0 0 0 0l16 0 16 0 16 0s0 0 0 0l47 0 12.5 0 3-12.1 22.1-88.2 31 7.8L511.5 163.9l-3 12.1L496 176l-24 0-16 0 0 16 0 288 0 16-32 0 0-16 0-128 0-16-16 0-16 0-16 0 0 16 0 128 0 16-32 0 0-16 0-288zM241 39.8l3.9 15.5L273 167.8 279 192l25 0 8 0 16 0 0 16 0 272 0 16 0 16 16 0 32 0 16 0 0-16 0-16 0-112 0-16 16 0 0 16 0 112 0 16 0 16 16 0 32 0 16 0 0-16 0-16 0-272 0-16 16 0 8 0 25 0 6.1-24.2L555.2 55.3 559 39.8l-15.5-3.9-31-7.8L497 24.2l-3.9 15.5L471 128l-47 0-16 0s0 0 0 0l-16 0s0 0 0 0l-16 0-47 0L306.9 39.8 303 24.2l-15.5 3.9-31 7.8L241 39.8zM174.4 288l17.6 0 48 0 16 0 16 0 0-16 0-32 0-16-16 0-16 0-30.4 0-51.5-81.1L148.7 128l-17.6 0L40 128l-16 0L8 128l0 16 0 16L8 288l0 16 0 16s0 0 0 0l0 16L8 480l0 16 0 16 16 0 32 0 16 0 0-16 0-16 0-112 0-16 16 0 0 16 0 112 0 16 0 16 16 0 32 0 16 0 0-16 0-16 0-197.4 0-1.2 0-28.7 13 20.5 3 4.8 6.4 10.1zM136 480l0 16-32 0 0-16 0-128 0-16-16 0-16 0-16 0 0 16 0 128 0 16-32 0 0-16 0-160 0-16s0 0 0 0l0-16 0-128 0-16 16 0 91.1 0 8.8 0 4.7 7.4 51.5 81.1 4.7 7.4 8.8 0 30.4 0 16 0 0 32-16 0-48 0-8.8 0-4.7-7.4-13-20.5L136 197.6l0 55.1L136 480zM360 56a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm96 0A56 56 0 1 0 344 56a56 56 0 1 0 112 0z" />
-    </Icon>
-);
+const PeopleRobbery = createIcon("people-robbery", false, "data:font/woff2;base64,d09GMgABAAAAAAOEAAoAAAAAB6QAAAM5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWCGEQsGAAE2AiQDCAQgBYMtBzUbFgfIvgzQcc2nYJFYgSYl3D3VlDZPed/fD1onGMzHIB6e1/vv1z7JU+5DRs7IvAP4kzUqyEUjFSWEev7v5v9H7aG3rJdPsg440iNogHzSQALODS4uwgIPMOTd/3RkRaikKiW14dXZnuuTWfa+ASSE9JfBO4PBNS3omzzg/A3wDxywBUDMav3/+82MWMZPf40S6MTy5X5EpJtoKDROp8PMmlopW0iLKzXOIHcRFx4BmPth6R7y+NRhDaT72OPO4Pz4VS+3gyTLAEWJ72lhffNabw6+w08axCdWIyAWgkogQ4a+AsyRCfSVq5DLBV/FH/kfKAFEIzwtgRwFcZi4iubhJM153ta2dMfauSRYa2jLt2mXFruearMJPl31R8EzEhaaZdewlicKD4ii6B7bQsXWKKNWuwWPlPaIeojYEsVwlUghigBRZQlm27pV3WbSWhih4YHPj6g1NenZEbU+UY86usewJK1rbAmv2M3G8G3Fto6sIdF1S81bBVpUB/qEcasg7AXYpld0i25bhLMDiJWo2Y5at1eAV7lm7xgXwq4H1IrbBm85Hd2fYtzcZA1reUivzyfvE7H+FZO1jyEyf/3/1pMr8dIho/U97wfd60ZrHQ9lBePbRutW7+T1OZ/VNqJUCWk3Y8Mkg6b76D0L8DGSul49KVczweQ5D0zVBNUzsG70S+b51o/+Vd3qxpdQgnJ8TT9/ILrr4CHnlOMmb3CH7LryDFKY5a7j/vQ9SV/vGGLHUEq4vEP+oxLofO/hZSZttEzLuEo5c5p3fW66b3t55szRjUR2f8dJdMZfBwgEb2TT947pf0cJfFO/+bLmS2dIzwNolkCQjbkUu9PW3NwpjRcgnRRXGjRgE5W1dmuGn9rqbghCgQBJo0KATB+lALnCaAEa9DdVgEaFzTKRtwhd7fFQ0uoCykxzA8p19QZqMMcH4UZdIxNwIFzgfzfNsipj6aZqHDehmlX1NmWUGCLc5dnVZIu+0hwaKV/pqHPOutwRh51weUV40drYFc5YNiS/9HcrE40zQWWWanHnpmabihHfZU50U8vXMVu1fWCEK4cnj5TtCRROUpUkIrV/o2Vjj3MHDx65eA0A");
 
 export default PeopleRobbery;

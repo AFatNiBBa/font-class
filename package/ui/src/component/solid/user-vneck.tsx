@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-vneck` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-vneck?s=solid user-vneck}
  * @preview ![user-vneck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-vneck.svg)
  */
-const UserVneck: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 0a128 128 0 1 0 0 256A128 128 0 1 0 224 0zM145.9 314.9c-3.5-5.2-9.8-8-15.9-6.6C55.5 325.5 0 392.3 0 472l0 8c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-8c0-79.7-55.5-146.5-130-163.7c-6.1-1.4-12.4 1.4-15.9 6.6L237.3 412c-6.3 9.5-20.3 9.5-26.6 0l-64.8-97.1z" />
-    </Icon>
-);
+const UserVneck = createIcon("user-vneck", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZgAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBQQsGAAE2AiQDCAQgBYMtBzEbwgTIjtRG94xdIojWwqpnNwC8ISIFTA4QXBTJON4QCE+WXr2+DKnFn/9rPj9rKpAPIpflBxIJdL3I5xPY87TUtOlAZgOb6QRsu7OljRLtcUhLWZLjYo7LBfK4lx1XhXQnfcOl/KHxWwvHSWpkAKI+AMYvmDNb+SN+RHytRHw1EwExHhQCGTK0FmCUTKC1XIFcLvgRlQr9BxYEEFUxnBi5e3AyZgFykKQ8b9WhVpU6+XzcXXPJ2W4RD7o9cLj7w8DUOtfzMRNHejx6bc2FNxu/G/W8EIeb3KhVJ841uxUR98e8nHKz8dy4XvNs0/kdHtV/9Ne39d98f9WxpGxTp0OHOm3KsqMo0LnZIxZcvjBqZO3q6p4+XfdwOVZd7ZGjLlxeMG6lKdWrT8GnQSA4uWf0ixX1Rv1fvVYCv57+N/6MVMoo0yNUl0CQ9ar0sjRKiFIAAFLs1yFKBJLREn7X2m4KEGoiQFJVTQEyrdQXIFdTTwGqaGuwAFXVNEcm8hpCY8saSGrbBTJDHAC5xp6AKkb56FfVODJD4s2A/8elTJHQ5GVF/z79ihHFsFAF22Dj/Mhi2um23/d1h6PW22G7vdZZa5O9gtxtdrTPNlM0YrIvKvTXRz+FEYrl+n7/fOvstscmO2xPi4xU7Pe62a+P7g6rSYABR5BLRKp5+9ze+18cAAAA");
 
 export default UserVneck;

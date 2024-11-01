@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-spreadsheet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-spreadsheet?s=solid file-spreadsheet}
  * @preview ![file-spreadsheet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-spreadsheet.svg)
  */
-const FileSpreadsheet: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM88 224l208 0c17.7 0 32 14.3 32 32l0 16 0 80 0 64c0 17.7-14.3 32-32 32l-64 0-80 0-64 0c-17.7 0-32-14.3-32-32l0-64 0-80 0-16c0-17.7 14.3-32 32-32zm0 112l48 0 0-48-48 0 0 48zm80 0l48 0 0-48-48 0 0 48zm80 0l48 0 0-48-48 0 0 48zm0 32l0 48 48 0 0-48-48 0zm-32 0l-48 0 0 48 48 0 0-48zm-80 0l-48 0 0 48 48 0 0-48z" />
-    </Icon>
-);
+const FileSpreadsheet = createIcon("file-spreadsheet", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABgQAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCRwsGAAE2AiQDCAQgBYMtBzcbTgXIHge5aeleacQx/SIe/pv7f/eZ5NHkM+QDIJbZEcm6smPhyXZVVt9srX3vEEBofBOXO/+hTwvHxgd9faS1mxrImBjNeR5Q1CXS5dOmpllgmSZgWTt7iUF0iyJ9yicZNs+wOEAZd4onNZHeS3/glfSh8a/eniRpKwBEJwAs2rFlnZ/+ir8ifm9E/G4NAmIRqAUKFOgnwFyFQD+lGqVS8Fc0Gu4/sCaAaIbnJVCiwlN4AVCCpK0sB7QMbsPrq6b25faqKe/5eGTE571SvDfqi2Ht47MxX/UtIsfzPd6OiFwJVWzfWuXqhe5vEUI87PZmzlmUR0Q86vlOZeuIHKoSWNeiJOcqC8dcMPjLTl/+xx/H/7Dgx/c70zk/lDt3fh9GdM41ssOzz3Z4mPpJiDx48Nmf6X1dJxstVDMLX80aBzqlLk7EehNN3FiUa3jj9UAg+GbAPgc6zv2/tUrgn2/e/ow0foqH6Uu0SiAoxjbG2hsPIR4KAECK6wbHQwSSe9rgXdt5W4CQESBplgUo9NVJgFI2RoAmA0wToFm2RSHKNqGbfY1L2rnEFaa7x5W6+ZprMtfP+WbdotBFU5PMr2Decg4s21RPGj+xnl0Pm6qlXnpYnlNPp0Ze90OjaK/jLjjvqmOOOuUqQy9bV7rmnOUSsswX1SYZb6LabPVy5373dsdcdsUpF5yPq8xR78+NdF2ePIqyCVQna0gSkTqd+3DcizBuPwAA");
 
 export default FileSpreadsheet;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `xmark-to-slot` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xmark-to-slot?s=sharp-duotone-solid xmark-to-slot}
  * @preview ![xmark-to-slot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/xmark-to-slot.svg)
  */
-const XmarkToSlot: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M96 32l0 256 0 80 0 32 384 0 0-32 0-80 0-256L96 32zm94.1 120c11.3-11.3 22.6-22.6 33.9-33.9c5.7 5.7 11.3 11.3 17 17c15.7 15.7 31.4 31.4 47 47c15.7-15.7 31.4-31.4 47-47c5.7-5.7 11.3-11.3 17-17L385.9 152c-5.7 5.7-11.3 11.3-17 17c-15.7 15.7-31.4 31.4-47 47c15.7 15.7 31.4 31.4 47 47c5.7 5.7 11.3 11.3 17 17c-11.3 11.3-22.6 22.6-33.9 33.9c-5.7-5.7-11.3-11.3-17-17c-15.7-15.7-31.4-31.4-47-47c-15.7 15.7-31.4 31.4-47 47c-5.7 5.7-11.3 11.3-17 17c-11.3-11.3-22.6-22.6-33.9-33.9c5.7-5.7 11.3-11.3 17-17c15.7-15.7 31.4-31.4 47-47c-15.7-15.7-31.4-31.4-47-47c-5.7-5.7-11.3-11.3-17-17z" />
-        <path d="M385.9 152l-17 17-47 47 47 47 17 17L352 313.9l-17-17-47-47-47 47-17 17L190.1 280l17-17 47-47-47-47-17-17L224 118.1l17 17 47 47 47-47 17-17L385.9 152zM0 288l96 0 0 80-32 0 0 32 448 0 0-32-32 0 0-80 96 0 0 192L0 480 0 288z" />
-    </Icon>
-);
+const XmarkToSlot = createIcon("xmark-to-slot", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABowAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCbAsIAAE2AiQDCgQgBYMtB1YblAXIHgfO+SmOyk6oKH+S4uF5u39/7TPzbgBNbmBUFDuhSkqVcueiTT5KqQuK+b/vdlXB+sT91IVlgPywub5lUgU1RVHm+QR23vh9SZvufGCz8Qxpg/MGH3IoU2g/QR5fshMqSNcTnI3/BzB+1cQJkioZgKgNgFGzp0/0+sf4McXH7/eJjyYgIEaDQiBDhuYCDJUJNJcrkMsFP6bv+TG+LwggSmJexlVCT7iGm4AcJEnK805N6gyrVlEjn0UZq67u2KXj0BgWnWJodI7hlN1R2iVGsDtLO8UwVpfjS6pVrSaqhqgRwekR1ULULMxPWbIGQsui+syrjVD4LzdgaIxQMywu1U/d6ni70wZQ4krDO52ZfgmkP/Le7QKBwX9E+U7tO7+3toqjHfCHP1CnCxw9vbR4ikLhdfXCKZZ4baTXFt/AFIUjClNwZKFPnyiXz+zu2eOP773bjB1bR53yzJm7V6F0ec9pQkTeXavDGpg5tlyOQPTN40AgmPTg3xWLaw39v3K1BH5++ucvzf2+/5hGpjuoLIEg6/q9qwVpJDDtAHIpdikffNQSgcwkSfqu1V0RIFRFgKSkqgCZZmoLkKuqiwAVWuonQElV02UiryLUt3Agkuq2Epn+DhK5+u4RFYZ6ky2pH5n9NNou499htvFT7rh1Ra/uPYvBxW5TZ7Jy+mB5SHHZ13EXH+oEGayy2SY7rLTC2gYT5TYTCzttNP5IPM4XFXrprqfCYMXjzsvGWVbaZru125bnqwxRfB/taNfx5E5wMwnQW2cbMyJF1mCPQ05127G5m6d1dXPqYxptWJw1");
 
 export default XmarkToSlot;

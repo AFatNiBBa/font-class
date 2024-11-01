@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pineapple` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pineapple?s=light pineapple}
  * @preview ![pineapple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pineapple.svg)
  */
-const Pineapple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M387.4 2.6c-12 5.2-21.8 13-29.1 22.5c-12.5-12.2-32.5-12-44.9 .3c-17.1 17.1-26.7 38.9-28.8 61.2c11 3.3 21.7 7.9 31.7 13.6C315.1 81.4 321.7 62.3 336 48l14.7 14.7c3.9 3.9 9.6 5.5 15 4.3s9.7-5.2 11.5-10.4C380.8 46 388.5 36.9 400 32l3.6 14.3c1.2 4.8 4.6 8.9 9.2 10.8s9.8 1.7 14.2-.8c9.5-5.4 20.4-8.3 31.5-8.3l5.5 0 0 5.5c0 11.2-2.9 22-8.3 31.5c-2.5 4.3-2.8 9.6-.8 14.2s6 8 10.8 9.2L480 112c-4.9 11.5-14 19.2-24.6 22.8c-5.2 1.8-9.2 6.1-10.4 11.5s.4 11 4.3 15L464 176c-14.3 14.3-33.4 20.9-52.1 19.8c5.7 10 10.2 20.7 13.6 31.7c22.3-2.1 44.1-11.7 61.2-28.8c12.4-12.4 12.5-32.4 .3-44.9c9.4-7.3 17.3-17.1 22.5-29.1c3.7-8.6 3.4-18.4-.7-26.8c-3.6-7.2-9.7-12.7-17.1-15.6c2.9-9.2 4.4-18.9 4.4-28.7l0-5.5c0-17.7-14.3-32-32-32l-5.5 0c-9.8 0-19.5 1.5-28.7 4.4c-2.9-7.4-8.4-13.5-15.6-17.1c-8.4-4.2-18.2-4.4-26.8-.7zM67.9 406.6C44.9 383.7 32 352.5 32 320s12.9-63.7 35.9-86.6l85.5-85.5c23-23 54.1-35.9 86.6-35.9s63.7 12.9 86.6 35.9l37.5 37.5c23 23 35.9 54.1 35.9 86.6s-12.9 63.7-35.9 86.6l-85.5 85.5c-23 23-54.1 35.9-86.6 35.9s-63.7-12.9-86.6-35.9L67.9 406.6zM45.3 429.3l37.5 37.5c29 29 68.3 45.3 109.3 45.3s80.3-16.3 109.3-45.3l85.5-85.5c29-29 45.3-68.3 45.3-109.3s-16.3-80.3-45.3-109.3l-37.5-37.5C320.3 96.3 281 80 240 80s-80.3 16.3-109.3 45.3L45.3 210.7C16.3 239.7 0 279 0 320s16.3 80.3 45.3 109.3zM148.7 212.7c-6.2 6.2-6.2 16.4 0 22.6l32 32c6.2 6.2 16.4 6.2 22.6 0l32-32c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L192 233.4l-20.7-20.7c-6.2-6.2-16.4-6.2-22.6 0zm-64 88c-6.2 6.2-6.2 16.4 0 22.6l32 32c6.2 6.2 16.4 6.2 22.6 0l32-32c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L128 321.4l-20.7-20.7c-6.2-6.2-16.4-6.2-22.6 0zm128 0c-6.2 6.2-6.2 16.4 0 22.6l32 32c6.2 6.2 16.4 6.2 22.6 0l32-32c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L256 321.4l-20.7-20.7c-6.2-6.2-16.4-6.2-22.6 0zm-64 88c-6.2 6.2-6.2 16.4 0 22.6l32 32c6.2 6.2 16.4 6.2 22.6 0l32-32c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L192 409.4l-20.7-20.7c-6.2-6.2-16.4-6.2-22.6 0z" />
-    </Icon>
-);
+const Pineapple = createIcon("pineapple", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAAByQAAAK6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiDbwsGAAE2AiQDCAQgBYMtBzAb7wXIjsK25RMDM5fDfEXVgUoE1X6fPfP2EBygvK+OFFDYhT3bsEMH5EjYCBkuD0AyOvpd+ffufse+QHgvBDq5hVAB7qCiSQWWmUxc8/ztvTCSH+j9USJnUVQYbcMuncAAo6mphWYbDXUCtsVtV0FEQxwhcYYSD7CBTd5lPANuhjeNf+Q0gFQqANELAKztD/WH/V/4K+JZvUI84wsExDoAxiEqVBiGYBFTYBjLOFAUwa+oa/EfSEAA0SwB066CNnwE/oL5NFJLKTtl5SVwWIDdVfYVB7YfnZDs4r8iOaPYKdWnL4WdMt0y/draJiWzBDpCXJDskBlSUtij0YElumlGq1NuTb8bL0p3K3RLdwk7BpUIh789rkh2XSyZtqs27hiJe54nFIU7qiMOYbjtdkrTOhRN7bifLfPUx2gadz2Op5NRKrJDShc7ZfSx+2pIB/WibBI2bV/gxGepzYnOvapeZ1xD3bbMYo9g1502tZ+Xzi1vEH6xWDuIS5E5kJL6IsaGZn1nrbS0im+gqKlERjb8DdKeVgVJzLQKdV5+rvWPi5mghDm6L7UIN+l5u2Py5I5uV2cwpvaEgUsvMXMDjRiERV3c0sOT0NXHx1WJwbZIz8NcMiHzoa/v3+zsPy8R1BVcDXGMnHeg5sjzAALB6NfEjkQRh/+8jgR/7r//0p+Rej+rvAe0ShBUjbohLoH6LysBAMg4A2oJCKSXuJJX7XQLAoR2BEjN2gWoDBGFoGg3DUGTUZYQNGu3G1OUNmFQfE+nTsfpyoJKuhi0RDdZdBZtNhhM+NagU/u9zOYxBtzHEVMjE2JHNnNaHWQV22tPTjt0KmSNLt4KGQoVKJMuTbayEVTCP1Eun8ee0P27hCkjJgg75HbxuS2CYiVKZfsU3B/FHnnfr6Niv7kudjMkojPmpiSy7Vh2QfpnBQ==");
 
 export default Pineapple;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `octagon-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/octagon-xmark?s=duotone octagon-xmark}
  * @preview ![octagon-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/octagon-xmark.svg)
  */
-const OctagonXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M.1 191.5l0 129c0 19.1 7.6 37.4 21.1 50.9L140.6 490.8c13.5 13.5 31.8 21.1 50.9 21.1l129 0c19.1 0 37.4-7.6 50.9-21.1L490.8 371.4c13.5-13.5 21.1-31.8 21.1-50.9l0-129c0-19.1-7.6-37.4-21.1-50.9L371.4 21.2C357.9 7.7 339.6 .1 320.5 .1l-129 0c-19.1 0-37.4 7.6-50.9 21.1L21.2 140.6C7.7 154.1 .1 172.4 .1 191.5zm168 126.2c.1-.7 .2-1.5 .3-2.3c.3-1.5 .7-3 1.3-4.4c1.2-2.9 2.9-5.6 5.3-7.9c15.7-15.7 31.3-31.3 47-47c-15.7-15.7-31.3-31.3-47-47c-9.4-9.4-9.4-24.6 0-33.9c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7c15.7 15.7 31.3 31.3 47 47c15.7-15.7 31.3-31.3 47-47c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7c9.4 9.4 9.4 24.6 0 33.9c-15.7 15.7-31.3 31.3-47 47c15.7 15.7 31.3 31.4 47 47c4.7 4.7 7 10.8 7 17s-2.3 12.3-7 17s-10.8 7-17 7s-12.3-2.3-17-7l-47-47c-15.7 15.7-31.3 31.3-47 47c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7c-2.3-2.3-4.1-5.1-5.3-7.9c-.6-1.4-1-2.9-1.3-4.4c-.2-1.1-.4-2.3-.3-2.2c-.1-1.2-.1-1.2-.1-2.4c0-1.5 .1-1.9 .1-2.3z" />
-        <path d="M209 175c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47z" />
-    </Icon>
-);
+const OctagonXmark = createIcon("octagon-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABowAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCXwsIAAE2AiQDCgQgBYMtB1YbhwXIHgd2zLFO88jbHa6EiIf/Xyu771dNB4AqrQKMipAVsgK2iYoalyzXWaFYEdjtwXOrQC2RMh74+vx+bAyccjwgyjUwxriOOZ24pn4GFUgBYPSifCBRNsw8n8DO17an1fnbgCY00xnYbJuREA2BFA3lcIjFEz9Mr8P2L8jj2+wi1JEehi9xnf8HMH7RyUWSRhmAaAmAyUsWzFf/XXyX4svae+JL8xAQU0AhkCFDVwHGyQS6yhXI5YLvUq3Gd1GrFQQQFRx3Biqow008BuQgCSnPi+rMJrRZvphPNF7xss1iY1xk3Tl9jA/dUV1MDMOM2cSETHjYO8bbdbw6OX6D8Win+IaK5x7i0XgOI87h/dxz/6GL3+6ybdBlfpe2pGnp4417K5xtW+MlcYHWDDsxBW+pvk3f7/nl5i+VLZs1K8vf/S5AaVFXzDnXzjUdduSIqeU59VMXMaxpspkC6uEyutmrFwgisqHTprWqjhNlubmx2nxk8/9/7C2Ry3LL4cLvtWKN3O/QojdX20YkKSIAAsHP83sfX9PC/NeQEvjhwx//mL+jWn2S3gINJRBk/WrXygQgEQCAFIdVE08QyGyTtE9t6p4AoTECJBWNBch00VKAXGN9BajT3XABKhpbIBN5I6GtVaQkTe1TMiOcUnJtvVPqjPOxVNE2ssB0wsr5LyycgfD0bcXgAYOKMcW2TdxYs+r62OJxvtfhMtY7XbXZHrsdtMlG2xwEYb/51UN2mXHip/uiwmADDFIYo7jurcPFUNrvgG22f7/JWMX7xV4On2f3TrtJgCGfNDojUmTt9mw4uG7Lnt39j7pxur+TT+lg+A4NAAA=");
 
 export default OctagonXmark;

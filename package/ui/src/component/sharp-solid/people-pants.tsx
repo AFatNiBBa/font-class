@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-pants` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-pants?s=sharp-solid people-pants}
  * @preview ![people-pants](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/people-pants.svg)
  */
-const PeoplePants: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-51.1 32l-17.5 0L82 142.8 .2 270.8l53.9 34.4 33.8-53L88 480l0 32 64 0 0-32 0-128 16 0 0 128 0 32 64 0 0-32 0-227.8 33.8 53 53.9-34.4L238 142.8 228.6 128l-17.5 0-102.2 0zM480 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-51.1 32l-17.5 0L402 142.8l-81.7 128 53.9 34.4 33.8-53L408 480l0 32 64 0 0-32 0-128 16 0 0 128 0 32 64 0 0-32 0-227.8 33.8 53 53.9-34.4L558 142.8 548.6 128l-17.5 0-102.2 0z" />
-    </Icon>
-);
+const PeoplePants = createIcon("people-pants", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABeQAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCKwsGAAE2AiQDCAQgBYMtBzMbLgXILgpslzVLzWJo6Tyehnd/GA//v1Z2368a6p4gVwAYNBDauKi4LBiDbs/KVdTJrDrZIaC37dK8diNfbt/n/5rPz5oO8PMRHFqHnjdYLev5wDfReZXQbBglirN2JiEp3SJJEh+fYfPDZrGEPP7JrqkiPUpwI95o/KmNayR1GYBoDIDJK5fO9+2X+CXi58rEz+YiICaDQiBDhvYCjJMJtJcrkMsFv0SlYv8DCwKIaoCT7XNU4xQuA3KQ5HneoK8JylUN8hV+79LaDz1p+7jH29YP2zzqPqtULjWPZTE/poYQ5UBnub6IybEwVkTLKG3lLNHlc+PPf2EHLzaqmCxNseJ1iy9arLk/FCYpXNLYJR39obnF09lc17S+097lQCC426jKxkbj/q4tJ/Db18+7q3xLl9KolUCQ9av0sy5dAksNIE5xQhfijgLJITlca737AoQSAiTVSgJk2mksQK6krwBVOhouQLWSpTKR1wnNra8gqXcYZEY4D3LNfQFVxvkeVWsemfRxssM9/pJntND0ecXgAYOKMcW0ovACxYTJscWy3euE6+itFtrhoAOO2W6b3Y415BHz0+P2m0ER0/1QYbABBimMUbDr9/IKHR1x1O6xgT/NWMV5v5cTdP/eyktAO0QmSUSqv7BG/3+BlaMAAAA=");
 
 export default PeoplePants;

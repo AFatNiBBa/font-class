@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fence` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fence?s=sharp-regular fence}
  * @preview ![fence](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/fence.svg)
  */
-const Fence: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 115.9l16-16 16 16L80 432l-32 0 0-316.1zM30.1 65.9L0 96 0 432l0 48 48 0 32 0 48 0 0-48 0-32 64 0 0 32 0 48 48 0 32 0 48 0 0-48 0-32 64 0 0 32 0 48 48 0 32 0 48 0 0-48 0-336L481.9 65.9 448 32 414.1 65.9 384 96l0 64-64 0 0-64L289.9 65.9 256 32 222.1 65.9 192 96l0 64-64 0 0-64L97.9 65.9 64 32 30.1 65.9zM384 352l-64 0 0-144 64 0 0 144zm-192 0l-64 0 0-144 64 0 0 144zm48-236.1l16-16 16 16L272 432l-32 0 0-316.1zM432 432l0-316.1 16-16 16 16L464 432l-32 0z" />
-    </Icon>
-);
+const Fence = createIcon("fence", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABewAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCPwsGAAE2AiQDCAQgBYMtBywbOwXIhof/Xyu771d1n5mqMFSiAJBVRgWEHRuidSzkskW1uuf/cs/v+W3A7yd+aGPTmrpWgcz5PIFAo16eJ5Rl4RmWgGXt7FNeiW5DT4okmQ0/bB6Qx8doUSO9SD/hSXzT+EtP90hqGYDoAIDZG9cu983v8XvEj43XxI+WIiBmg0ogQ4Y+AkyTCfSRq5DLBb9Ho2H/AysCiDp8WwnkaMIdPAbkIKnnebmwubksy1rbfENZK7Z279K9a6QoIhszaOigFKIsIyLKIH1mMSRmxLQYFKKIYG9/UVJchsKtbDw/tDlLWfeorg9s7dD6z4CfDvxk5NIGKKapTOv4y+dWGWXUqlEqs1SSrfKLjh77xaypwd3ddxbkFrJbvsknI/+64H6dOg1mg3keBIL/vl3788720/5vKhP488N//0m/osbvSWpFkwSCbFhjmG0JJAIAkOKCgQkCyRV1eNU2ngoQCgRI6goBMr11ECBXGCpATT/jBagrrJWJvFnoYruApI3TIDPBdZDr4iWomebbvK5LZHrIaRH3DUxe0ELzL1WjR4yqplTDkcKrFuNPp1bL2qALvDKY7jrgpBPO2W+fw8415BnLq/OOWzCD5+tRZbQRRqlMUW1P729vsN8ZZx120olwzlTV+WiQC/Ptg8lMQDuGmp5gMNUO7D+xdz8AAA==");
 
 export default Fence;

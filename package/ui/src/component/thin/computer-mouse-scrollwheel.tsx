@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `computer-mouse-scrollwheel` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-mouse-scrollwheel?s=thin computer-mouse-scrollwheel}
  * @preview ![computer-mouse-scrollwheel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/computer-mouse-scrollwheel.svg)
  */
-const ComputerMouseScrollwheel: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M368 352l0-192c0-79.5-64.5-144-144-144l-64 0C80.5 16 16 80.5 16 160l0 192c0 79.5 64.5 144 144 144l64 0c79.5 0 144-64.5 144-144zM0 160C0 71.6 71.6 0 160 0l64 0c88.4 0 160 71.6 160 160l0 192c0 88.4-71.6 160-160 160l-64 0C71.6 512 0 440.4 0 352L0 160zm208-32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32zm-48 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32z" />
-    </Icon>
-);
+const ComputerMouseScrollwheel = createIcon("computer-mouse-scrollwheel", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABeQAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBfAsGAAE2AiQDCAQgBYMtB0EbDQXIjpQuZyTx8KGzfF+SPXfyHrKOiCpkTMqk3C7A3HrSYpXaGQKkP3JqvPFSAR950f7Rgjyg/+MVqNjxeoVmA5vpBGwse9uwoSMKT0NEhCKi8azG6oYsTtmsRPJ88i3u1TeNv7RzmUSaAoimAJi6bNFCH1ajGvFt7TXiW/MRENNAIZAiRUcBJkgFOsoUyGSCatRq+BtYEECU8R+UgAxlrMVuQAYSWZa1b1/XulJqlC2tlPJNIV6c9P6sPD6d8G4hXpj43sxKfDH5g+4b/5gc8cGySvw28b0l4tcJ7y7O4/dJ7y+NZU9bP24pnrR61ibyC20inlVutXpCnG/5OL/Z+mlEt/qm9f/4duu39q378MMPOx6/9lE+una844f0dN8HMf1bvp0eU0yPb78l/UMug4EfujSuVhsXGnZI4+tcbyxcT8p1eQ4Cwfy7bV9a12TC/w0qCfjz7f+G36Lah3E+qUcDCQjSAbUBVsd5iPMCAJDEUd3iPAKJpTL8qnWeChByBEiU5QKkOmgqQCbXX4CSzkYKUJZbJBVZQ6GlNQon6hyAU6OcgTMtvQKXTPCFU9Yy0jCjgoT65MXPssDMvWLooCHFuKKbEjpyiLweX0zrfY5Sqy9c2mqfvQ7bYrMdDhvooIX+EXvMGoEzfVBhqEGGKIxTLBf746W2OOiQHfbZW7aMV+y3+zg6Hu4LVoJxh4klEiJpH7HiwIcmDTyE5KUEAAA=");
 
 export default ComputerMouseScrollwheel;

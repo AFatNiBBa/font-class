@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envira` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envira?s=brands envira}
  * @preview ![envira](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/envira.svg)
  */
-const Envira: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32c477.6 0 366.6 317.3 367.1 366.3L448 480h-26l-70.4-71.2c-39 4.2-124.4 34.5-214.4-37C47 300.3 52 214.7 0 32zm79.7 46c-49.7-23.5-5.2 9.2-5.2 9.2 45.2 31.2 66 73.7 90.2 119.9 31.5 60.2 79 139.7 144.2 167.7 65 28 34.2 12.5 6-8.5-28.2-21.2-68.2-87-91-130.2-31.7-60-61-118.6-144.2-158.1z" />
-    </Icon>
-);
+const Envira = createIcon("envira", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbAAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBXwsGAAE2AiQDCAQgBYMtBy0b3ATIjpQuZyQRPK/39HNusoCzEPhJtuwAtK9C9qdO1QzbFMAHkcxxHpAFPud5BBKPp/UJWJDaOq9pBazmLmuxh2hfaSlL8njpHj/lBHncFJcrQ7ohfYzL6pPGLxo4RVImAxDVATB87szJXv8yvoz4uPQM8bGJCIgRoBDIkKGxAINkAo3lCuRywZdRKqX/wIIAoizFEiPnG2dgMSAHScrz1q0rlamSz4n3qZh9Mjvik+4RT4i4vXHE9WZHxZgTV9d+esy7U17t8eScO+fMvlfEsToR19R5oP0DTfjAI8PfGP9MpYvqXlv3wS6PdgnQo58+ocWD1R/8zcdrPnb7zTGtNdPbvM97/Si3kublp03X0Ogxjj1Rr3mLG/8f0aP6xKdrjp7a+UBGdobd1b8f1OnPmjW3dOtWtkuWvjh93/RrT9eMGpN++OxhIBCs+f7xnkurDfqvfKUEvn7xj+RXVPoyXk8PorwEgqxTqZNF8TrE6wIAkGKPFvE6AskEiT5qZdcKECoiQFJWRQEyjVQXIFdRRwHKaKq3AGVVNFMm8gpCbYs7SCrbDjJ9HAa52p4CZQzynldW7chwxaOCf9aljLHo6KWie5duxYBiGmkCVNg8HVgsO+32SKU9HbXGVlvsstoq6+0yzA6Tw902G+PRo31RobsuuikMUGynj/tzrLbDTutttaXMGag477azx29vT9skQI8bWU1EKvuPXF0OAA==");
 
 export default Envira;

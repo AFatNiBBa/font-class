@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `jar` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jar?s=solid jar}
  * @preview ![jar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/jar.svg)
  */
-const Jar: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M32 32C32 14.3 46.3 0 64 0L256 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L64 64C46.3 64 32 49.7 32 32zM0 160c0-35.3 28.7-64 64-64l192 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 160zm96 64c-17.7 0-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-96c0-17.7-14.3-32-32-32L96 224z" />
-    </Icon>
-);
+const Jar = createIcon("jar", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABaAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBXQsGAAE2AiQDCAQgBYMtByob1wTIHge5yeqaNw6LmiO9LB4+5sr3k+zOXfYYUkDSlQi2jh0hyLqqOkBhb2o7leTW8nZ8Kj+p/7dPNiFhE7A9ele17xPXPP/zpwcs8kepoqLSCnyMXp9PYGK7WfqEosBmOgHb24YOG2F4IhwSZBWN6XidzpDFhvSoEsmt5CsulA+NX7odJVGbAogmACxbkw1/KIYivlQRXywHAbEMUAikSNEnwEKpQJ9MgUwmGIpqlf4DmQCiTF4rARlKWAHWAchAIs2yzp6eSqk+W10p5RsOdUbcqFTiTPs1B9uu5nmc7rgeK+9MiHgzphLPxr3qTuLm2Jcj83g+/nVPuup0W8RV4mD7tZ1M542IODRP8F7DXze9/j3sa/9q8EHDSU42vNcIIojT3OCBvJnmhwbzsLk5L/Ckb1kyD2yVD1YOLweB4MqPlVe3NC78U1NJwM93/+NfUfXH0uQ1aiQgSCdWJ9oYe4FYKgAAktgrxVIQSCxH5FrrXBcg5AiQKMsFSPVqEiCTmyBAyYBZApTlViCR1QptNiGcqLMDTs22D860eQuXLPQhKGuLNKyYoGBedYlqAdnE0yZPLeYXw4KykULl1QXFsjJ2bxqMg53otuVqquEayFn8TOqB4ovYNJNNVZivOK7vtxeNO4Zt8ToLFPftsfb608eBHgnudE4i8buwsX2bAwAA");
 
 export default Jar;

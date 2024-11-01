@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-long` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-long?s=duotone down-long}
  * @preview ![down-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/down-long.svg)
  */
-const DownLong: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M96 32l0 288c42.7 0 85.3 0 128 0c0-42.7 0-85.3 0-128c0-53.3 0-106.7 0-160c0-17.7-14.3-32-32-32L128 0C110.3 0 96 14.3 96 32z" />
-        <path d="M313.4 360.5c6.6-7 8.4-17.2 4.6-26s-12.5-14.5-22-14.5l-72 0L96 320l-72 0c-9.6 0-18.2 5.7-22 14.5s-2 19 4.6 26l136 144c4.5 4.8 10.8 7.5 17.4 7.5s12.9-2.7 17.4-7.5l136-144z" />
-    </Icon>
-);
+const DownLong = createIcon("down-long", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZQAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBIgsIAAE2AiQDCgQgBYMtB04bwgTILgacsokOYS7+2PXsRMJmJg/COUVXPHyNpe/vboBIJwpRoQMUGpUiUPGpMR0fI25qKzvVZ8VY23vXevNJVJp4ctyaSoVEaFQaieYlfCjABhyQRlluq9//AeBEYQPONE3AYvipUzWDc6EF8gCeMSmX84CMiaHsjoljg/W8ILU5RQpWqyl2d1o7Jmq5lCSxJL9kx+mwhxLtfAUx6VPwh3v+H8D4a8AVJA0ZANEOALZOOzV8zOKpv+ogfhyAgNgGjCNkZAwjsEooMExkHBRFUBFAhRiHAKIW/OYMalEwC1YBFJCEKCLDoFKsFvV5fcX8u+XN0qh4Mr2Yj+NZ+Wg9vRQIBY9Ki50T06UVCno4B7Zv3ff/xI9/Fk9+DZvtfFWuai+395aMuhR7xl8cYHtIc3fXmueeBwgEv6vbS2Nt+n99kwDw5/3/6EKv1tIroF4CQZ6qThnEkQBtHoH+FEdskYfvAkI2SAA+tdkbAqERAZJajQJkQ3QIFI0mEagxKoJArUaHhKLIEboNM0ia3YFs3jEour2BGqs+zVrdIbw6wsELD7fUaolWFrFePye5G0vibeB8d4qHdY6oygErsWTblgOLFqw6KIg9NefQpqqEV/wQC/DyY0k8nV2rfTT37Ftty/OjpPB6w+5IbuyA5QgA05seyUQioV6bNM+nuaIOVhkrWdsAAA==");
 
 export default DownLong;

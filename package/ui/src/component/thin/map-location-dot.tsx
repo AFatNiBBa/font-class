@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `map-location-dot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/map-location-dot?s=thin map-location-dot}
  * @preview ![map-location-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/map-location-dot.svg)
  */
-const MapLocationDot: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M381.3 161.2c-6.9 16.4-16.6 34.2-27.5 51.9c-21.8 35.4-47.6 69.1-63.5 88.9c-1.3 1.6-3.4 1.6-4.6 0c-15.9-19.8-41.7-53.6-63.5-88.9c-10.9-17.7-20.6-35.5-27.5-51.9c-7-16.7-10.7-30.7-10.7-41.2c0-57.4 46.6-104 104-104s104 46.6 104 104c0 10.5-3.6 24.5-10.7 41.2zM302.8 312C334.9 271.9 408 174.6 408 120C408 53.7 354.3 0 288 0S168 53.7 168 120c0 54.6 73.1 151.9 105.2 192c7.7 9.6 22 9.6 29.6 0zm118.3-122l117.4-42.7c10.4-3.8 21.5 3.9 21.5 15l0 260.9c0 6.7-4.2 12.7-10.5 15L400 492.6 400 296c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 197.2L192 434.1 192 296c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 138.4L37.5 484.8C27 488.6 16 480.8 16 469.7l0-260.9c0-6.7 4.2-12.7 10.5-15l114.2-41.5c-1.4-5.2-2.6-10.5-3.4-15.8L21.1 178.7C8.4 183.3 0 195.4 0 208.8L0 469.7c0 22.2 22.1 37.7 42.9 30.1l141.3-51.4 205.4 63.2c1.7 .5 3.4 .5 5.1-.1l160.2-58.3c12.6-4.6 21.1-16.6 21.1-30.1l0-260.9c0-22.2-22.1-37.7-42.9-30.1L429.6 169.8c-1.3 3.4-2.6 6.7-4 10c-1.4 3.3-2.9 6.7-4.5 10.1zM256 112a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm80 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const MapLocationDot = createIcon("map-location-dot", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABrQAAAKxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDIgsGAAE2AiQDCAQgBYMtBzcbqQXIjpQuZyRBPOr070lywG45VFY/EdGwAK0EczKkWX/iXOc7Hw0waQRDibbUprZPyxT48wesoGia7vwB314U/2jeUwMU2oW6GzDylkE4oLarV8DasF2+ksEiUGhNgiUF+Ezqd+3Ymnuf5JPIq/hlkFe0BARAGgBgEUADGshGAKiFRoBsDBYwGAQ+STxe/QdaEAAQHzgjBYAB/MAZ4D4AYABQOMZk5bRJT/ScRNPFc9yh24od45jQpsiWEicuydwhe0uerHq5+PGcebFOJ8uKnJVzsw7UudPkUa1bdnvp0/jU4pu9ldGuXTt13RrejJJNoU4isiXS2EgXSS3LN0W2iJat0a6CmuAPxZRsD292OstKj/hHs7TsOJRDV6RQ5nSZH5WoeCt3FeaNVXfFPd/bUeRIoQfO9sKHi17LosCJlBPfvRryilm521zX53+TmvrG73PdbcdSvNfvzp17l5dyrPUWMx4WFIJCntpVrC2OKa9QoQXjTZdgsMvk6ZNLiGvHdxwUcHAXbq7CY3z9+vkec7cGK/qcFSyvwPzdNBvHFycamVicqo4Dz579W1WR13VRem+NuTOkMKFUWuhQ66RlsCypqhC57dwxM2eOcXF6ABBAIG3Ci799k2v9D3gKgC83fi7fJ35P1VMngAAKAAFdKl6KXqoeACYKAERKplDg4IsEUBzBIZkJbHmaCC4MsMKHC2uySIENLiVhh1wqMxc3d0QjJogQojeGFQmMhzVVmA0bQlyEHWrxNPQREg25HNxx/43JTaZA41m2fJlytobdreh4YGTsZE17WS02RXYUxwcZwljGMInBDGI4kybQBFonkxlNkyOwMT/EUp4ylMNSA/u4/lLuMnEmMBHJbPPPp6Em9nuzGFOO+xfHhiKRVmCrQoGolNH9x5UGeq/0oLGTAAA=");
 
 export default MapLocationDot;

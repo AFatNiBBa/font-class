@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-icicles` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-icicles?s=sharp-light face-icicles}
  * @preview ![face-icicles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-icicles.svg)
  */
-const FaceIcicles: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256C32 132.3 132.3 32 256 32s224 100.3 224 224l16 256 16-256C512 114.6 397.4 0 256 0S0 114.6 0 256L16 448 32 256zm112 98.7l0-34.7 32 0 0 48-18.7 0L144 354.7zM208 368l0-48 32 0 0 48-32 0zm64 0l0-48 32 0 0 48-32 0zm82.7 0L336 368l0-48 32 0 0 34.7L354.7 368zM400 320l0-32-32 0-224 0-32 0 0 32 0 48 32 32 148 0 12 48 12-48 39.7 0L368 480l14.5-94.5L400 368l0-48zM176.4 232a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm184-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM331.1 467.1C307.6 475.4 282.4 480 256 480c-87.6 0-163.4-50.3-200.3-123.5l-4.4 53.3C98 471.8 172.3 512 256 512c27.6 0 54.3-4.4 79.2-12.5l-4.1-32.4zm74.1-3.1c19.8-14.2 37.5-31.3 52.5-50.5L454.4 360c-11.3 21.5-26 41-43.4 57.7L405.2 464z" />
-    </Icon>
-);
+const FaceIcicles = createIcon("face-icicles", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABmAAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCfgsGAAE2AiQDCAQgBYMtBzMbgQXIhof/t/uvfW7VV9Vr+rZcvwGMpAzKqFTgGzBtpANns9b7n8s9v7XofH6/Ew7lxqTWBmlzNOfzBBLYHgUW9fLAMk3AGpw36oBCU0i/QxlvxjxdpPtTG7e6D41fjHEDSVkAiMEA2Hjkoft7b3fsjmh3Xiba9kVAbAJZoECB8QKsUQiMV8oolYLd0emw/8BMANEtvG0CJVq4H08DSpBUZTmt7uurx/X1De6tuwaUR9Rd1ZEPLo54cd+IL7d/vPPz/ucnHx5Hxs+bPjjg6yN+3K+94b3DuqY8I+oQVYzcWsdrZkKmitTw9d1kC4xm6+KEmJTZZx2fG3HEo+MemPHQ6PunH6nN9rOOeqn6+YCvF+V4e+fnW29cPvHIJ+dOicdmjZ/yxOAnfpvcPqNt0rsDv+ODeUzYvXvCvA++GzioI+60ffSY26/djiTX3j5mdGHQu2DhwlOmMn3WGKb9f2PXubyBJQ4dhoyNbKr2N/lBWaPjLu961yz1gQYeLzS7jjx4xIiDJfnqKLd57fg0b9YmzcZXtli3zz675+zb7Ew/nrfUoPuPBwLBr89fWZ84aM1/vXUCe9/44y/Fr6jzXpKeQK8EgmJeZ57jEkgEACDFFaYkCCS3q4Rqyz1Hm6ECQ9KtgsI4g6FUmQtdJlpqbzx9qEKUfcJwx0NIWi6GwjJXQmm4F6HLGp/Wug2P4j517zL3L7FoWxfZeij3L2jyqjzbU3m3nq13V+fNyVlX8JnZ8KYzXOgClzndac52WUe8xP7Ny51v25Kw1Rdl/RZoZKvkw8OH0RGdwiUu7drTwfF9VsvXV2e5Ynn5bJhJQsxFupJEpNZHUJh/9qm0dN7plwIAAAA=");
 
 export default FaceIcicles;

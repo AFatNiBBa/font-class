@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-skull` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-skull?s=sharp-duotone-solid book-skull}
  * @preview ![book-skull](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/book-skull.svg)
  */
-const BookSkull: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 416c0-17.7 14.3-32 32-32l160 0 96 0 64 0 0 64-64 0-96 0L96 448c-17.7 0-32-14.3-32-32z" />
-        <path d="M96 0C43 0 0 43 0 96L0 416c0 53 43 96 96 96l288 0 32 0 32 0 0-64-32 0-64 0-96 0L96 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l160 0 96 0 64 0 32 0L448 0 416 0 384 0 96 0zM320 112c0 20.9-12.6 39.5-32 51.2l0 28.8-96 0 0-28.8c-19.4-11.7-32-30.3-32-51.2c0-35.3 35.8-64 80-64s80 28.7 80 64zM208 128a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM134.3 209.3L240 254.6l105.7-45.3 14.7-6.3L373 232.4l-14.7 6.3L280.6 272l77.7 33.3 14.7 6.3L360.4 341l-14.7-6.3L240 289.4 134.3 334.7 119.6 341 107 311.6l14.7-6.3L199.4 272l-77.7-33.3L107 232.4 119.6 203l14.7 6.3z" />
-    </Icon>
-);
+const BookSkull = createIcon("book-skull", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABlwAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCVwsIAAE2AiQDCgQgBYMtB1AbeQXIjpQuH7QjJOnk4R+dr/dJso+//BmUTEhcpA2YtjbuSLyh12xlmDo7L1AAJ655/mlP7WVP8CixTJ1FBGWeT2DAb8MModnANlNbTTgKbrsKzTUUFhp7yOLV9A4lkmeTOh5O/wMYfxlwB4mmFEC0A2Dl/t1bffp9fJ9EvfEmUbcFAbEKFAIpUgwLsEQqMCxTIJMJvk8aDb6PRqMggChLH5iCMiq4G88BMpAoiSwrupqaJnZUSy3ZvmopP/xmEa8NJ/HixHNzW6oRefN9vU/FrX1PV6vVNPI9zyTyiKiNPj/59flvTTw3sOdpT/U+0f1kz34nv+mevfv27o++GIju2BN7oyf6ozf2tcLuGIy+2K/4uqHo2XyriFsd3jhrfK299s+4+gV1xz+5Rq2yQqVWu6VYsQKm9Z57Wq995dNbFMevbPtxxAkjfpDvPNnefnJnfmXb962t3xN0e5u+DT574uKpod55db/aUsicX9WdN9Heajda7+Ge1ldeWWGF514HAsHPfx/5+njbkv8r1QT8+P5/f5aXa3wanyY1VCQgSKc0pjgSn4ISBxBL4gbj+Q+xQiB1hZLiXZs9JUDIESBRlguQGtIuQCY3WYCSUXMFKMvtloqsSeh2tGUTza5mU/PcyGa6vcGWLPFZvKw7UlDqIaX/J8yyrg+sXVXMnDajWFQsNtQGnKl+cXGx2zPhBj0wka51gStd4TpnnXGx63r4Nbamrne5dWvYWl9UmGmaGQqLFKfbj+v3Oesa17p43nR+mcWK+wMT3LA+fiL1JwrJWTRSKZFE2gnZ0qnXXnr9ZZdNhfdg99D0JQM=");
 
 export default BookSkull;

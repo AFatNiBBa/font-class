@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `garage-car` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/garage-car?s=light garage-car}
  * @preview ![garage-car](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/garage-car.svg)
  */
-const GarageCar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M326.2 36c-4-1.7-8.4-1.7-12.4 0L51.6 146.4C39.7 151.4 32 163 32 175.9L32 496c0 8.8-7.2 16-16 16s-16-7.2-16-16L0 175.9c0-25.8 15.4-49 39.2-59L301.4 6.5c11.9-5 25.3-5 37.3 0L600.8 116.9c23.7 10 39.2 33.2 39.2 59L640 496c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-320.1c0-12.9-7.7-24.5-19.6-29.5L326.2 36zM96 224c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32l0 272c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-272-384 0 0 272c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-272zm156.9 75.1L238.4 344l163.3 0-14.6-44.9c-2.1-6.6-8.3-11.1-15.2-11.1l-103.7 0c-6.9 0-13.1 4.5-15.2 11.1zm164.6-9.9l20.6 63.6c15.6 9.9 25.9 27.4 25.9 47.2l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16-224 0 0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-19.8 10.3-37.3 25.9-47.2l20.6-63.6c6.4-19.8 24.9-33.2 45.7-33.2l103.7 0c20.8 0 39.2 13.4 45.7 33.2zM208 448l224 0 0-48c0-13.3-10.7-24-24-24l-176 0c-13.3 0-24 10.7-24 24l0 48zm24-32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm160-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const GarageCar = createIcon("garage-car", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABngAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCdAsGAAE2AiQDCAQgBYMtBzEbdQXIjsO44SuhmEyKG1/x8N9+7b75s4h486QJDw0vmdK2oZpoyUP7h8qGvv73/pHnfizAtzY7yZWcpHNTuMyk2iqa/2vqRdLRAX6+c7xbVGgUNWY+n8Cery2TJrTRcDZR3Nm2V0FEQ2EXKmfI8ZtsIZLuuU/gNHxo/NPWD0kuABBdAIDt45Q4vPlMn4M+1a8hPsSAgNgBMIVQoMAYAmt4gTGCKZBlQUn//4v/QAYEEA1I3iuBjGbcg3cAGSSNWTA1UDCWl5aWFeWFdFlRpmJRrZD2tTiaV1vU4GnLp4SOzIroXn+2ddW8OLVHk2hJVp7G1BewZpejNitNz1BPlgyIq2UmiRlOzk4H2lgOEMlQ61qzcMmP9ZCla+1UWRlZolVzGdrXgs2t5oL6ri4jCsPHjE+VTn8afSr/hLDH5D2xDpY5EAplqRAIrW1ktph2jqChOSXM8H88KgxDVaFbVbWQEl2W9m60rvXoWjJ9HzV4vVXa9tqXDkj8UwqFR7DPkvHRpwleUSXo63fz8+fPjlDfPcNuv2OXl+TUlqKsfx4gENxZa50UdPq+SMlygL+HXy/146i/4bq5U9AkgaBY+G+L3NQNCG4A0RTtMN75okByjkbJq7a5QYDQggBJgxYBCqOUEMhazCNQMcENgQYt9vEiSyP0yetB0uYEFFZ1gKzPJahY8zbSoC94EJUBmOwHMXX4GA0bxJzsHZk328xp5VAnsb0+7LTZsn1WY4UXolyDeq3KlKrSOmKbxcXb1AnfY8L8EOPEniPGG7tdfK5OH7matYwl67L7kH58sPf9ltr3m1vhYXCAxY8rkfMjyVQUNRdVlNmVFDUDAAAA");
 
 export default GarageCar;

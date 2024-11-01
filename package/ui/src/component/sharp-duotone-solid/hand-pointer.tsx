@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-pointer` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-pointer?s=sharp-duotone-solid hand-pointer}
  * @preview ![hand-pointer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hand-pointer.svg)
  */
-const HandPointer: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M.1 325.4l24 32L80 432c33.7 45 84.6 73.4 140 79c4.8 .7 9.7 1 14.7 1l5.2 0 64.1 0 16 0c70.7 0 128-57.3 128-128l0-16 0-48 0-80-80 0 0-32-80 0 0-32-80 0L208 0 128 0l0 362.7L88.1 309.4l-24-32-64 48zM208 288l32 0c0 5.3 0 10.7 0 16c0 32 0 64 0 96c0 5.3 0 10.7 0 16l-32 0c0-5.3 0-10.7 0-16c0-32 0-64 0-96c0-5.3 0-10.7 0-16zm64 0l32 0c0 5.3 0 10.7 0 16c0 32 0 64 0 96c0 5.3 0 10.7 0 16l-32 0c0-5.3 0-10.7 0-16c0-32 0-64 0-96c0-5.3 0-10.7 0-16zm64 0l32 0 0 16 0 96 0 16-32 0 0-16 0-96 0-16z" />
-        <path d="M240 288l0 16 0 96 0 16-32 0 0-16 0-96 0-16 32 0zm64 0l0 16 0 96 0 16-32 0 0-16 0-96 0-16 32 0zm64 16l0 96 0 16-32 0 0-16 0-96 0-16 32 0 0 16z" />
-    </Icon>
-);
+const HandPointer = createIcon("hand-pointer", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABngAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDKAsIAAE2AiQDCgQgBYMtB1QbzgXIhod/5r68L8n/ZyZZyBJnAZDaegJVCcAOWMg5laxWZ+pUzTgPBSj3HIKAhHgPjW/wsTo2V6CAY3M3tSIViil20N3k+gD80N0Nsng1fUKD5OXkFzzp/gcw/tbLEyRaUwBRAmDh9s1rfdcWbUn8Un9E/GINAmIRqARSpOgrwBypQF+ZCplM0JbUNW1R1xUBRJP7TgqaaMXH+AqQgUQq86FON47t379T0WifbSsa+XZBiDz8hUWRg5dmGRTrRo4auTXenvn51OcLn/h+/reDoz+Xp5NYFKNizfYiLx5gdHk8HK9omBUruXbQG+Ub/w785dgv/n+lLMsDSpVSMHBBzqoP+FkTKN2+D++evsrTk6c8e6ClsWHD4imN0gQbbFBJ+L01p111X/37kArCGdwTzuYqmfEWNMyVtvI5CASPdv8wYn/HOY9aigT8+cX/fwnerr+L75I30CIBQTqmHmNPfAeMHECYxDWDcOd/IJC6JYP7We28IEDIESDRlAuQ6qMUIJMbLUBDf1MFaMptloqsVehqbwIS7VwEqWnugkxXH4KGOb6PmrpGuvdy+x7375i8LIsuXVVNHDehmlXVZiJ+h2T07Oyqsz3iGu8ZCS865rxzrjjqiJOuZPBL1qZXnbWsCVuqQ5WJxpmgMks1uLx4epujLrnspPPO2WVmq6b3R7jWPHwk9BI+5SRbUimRRNp1b9fHfkH0sSdCf/cS8ZgHAAA=");
 
 export default HandPointer;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `croissant` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/croissant?s=sharp-regular croissant}
  * @preview ![croissant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/croissant.svg)
  */
-const Croissant: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M61.2 169c24.1-46 61.9-83.7 107.9-107.8l110 202.2-15.6 15.6L61.2 169zM190.4 0C100.9 30.3 30.2 100.9 0 190.4l14.3 7.8C5 226.4 0 256.6 0 288c0 49.4 12.4 95.9 34.3 136.5c7.6 14.1 16.3 27.5 26.1 40l.2 .3 23.8-18.5c26.9 29 60.5 51.7 98.2 65.7L224 480l-16-96 0-33.8 35.3-27.5L272 338.4 338.4 272l-15.6-28.7L350.2 208l33.8 0 96 16 32-41.3c-14.1-37.8-36.8-71.3-65.7-98.2l18.5-23.8-.3-.2c-12.6-9.7-25.9-18.5-40-26.1C383.9 12.4 337.4 0 288 0c-31.4 0-61.6 5-89.8 14.3L190.4 0zM416.7 122.6c14.6 14.2 27.2 30.5 37.2 48.4l-62-10.3L388 160l-.4 0 29.1-37.4zM160 387.6l0 .4 .7 3.9 10.3 62c-17.9-10-34.3-22.6-48.4-37.2L160 387.6zM48 288c0-23 3.2-45.3 9.3-66.4l140 76.2L72.9 394.5C56.9 362.4 48 326.3 48 288zM394.5 72.9L297.7 197.3l-76.1-140C242.7 51.2 265 48 288 48c38.3 0 74.4 8.9 106.5 24.9z" />
-    </Icon>
-);
+const Croissant = createIcon("croissant", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABewAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCLgsGAAE2AiQDCAQgBYMtBzAbLgVRVA36ZB+H6dZODuXD8A9HxBLF8D9CklmCYq3s2dtHCgIoQlbswgpQggVilYpkIQPPw/7ecycnEAlUgprZ5Lg+N6mS7cfNSe39/c3zzqMAn1FoY+HSxQt8zvMEAm/7Py8KKKFMA6BYy8Ogo9tkt0x8xSNIIuIPdlxBCNLYlUk0SU6qnYGjfqv4hQX7IZGVASBKAWBg4bix7qhEJXKqrEM8JxUCYiDQgEAGO3UI0IeMcARSDSCVCr6LovAfaI8AIps4MAEpcrEaDgBIQSI71ZjM7aFXkMfMKkonOj9/2ufCCVEpEyd9yIp4k1cVZ7iPPmlREK3lZnLvmBgRvaWpTIpa0l4KYkJffC2idURcdH1VcCC42oRFi2FSTSLaV0pElTSUi569Jw5YTZDxcU0qxk8aPzEu6Y8kN7pqcvXT4az6BX1Mmw6Nb7rimH88q9m9EFOtjDLTQY9882OU4Y0boZyRuQmMSzjSilcMjPbBWRyZZeyf4k03tEu9SuG32vOjc/zPZzrAA3JBhnnW4sesmtf4yEiqrlL9IVMfSrf5daMP8uIUkgsIEHA4eOlgSUmfHx39BPix8/0tCN/B/0dqJFdBrgQEmTaKN9PVgIQAACTRSiM1EEgs5i7vWugYAkI+AiSy5QuQUZtSAqTytSZAlnp0JUC2fOPIiFSXUMmMgkShNZDRjR2QquQ6ZOnDYytbpajrj1EP8/tLHHZs6FCDAF9/+xD7qSdZSVHWDbVfltxbZTywayGrWMl6FjCfJawfsZax7gZWMKzDh/IgDehIOzrQgF402A4f1yeygLWsYwmrWMk+vWlwXmvBxr68JdREkHZiPJEQiW5F46ol614jAQA=");
 
 export default Croissant;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `walker` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/walker?s=solid walker}
  * @preview ![walker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/walker.svg)
  */
-const Walker: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M194 64l126 0c17.7 0 32 14.3 32 32l0 64-207 0 17.9-71.8C166.5 74 179.3 64 194 64zM352 224l0 168.6c-19.1 11.1-32 31.7-32 55.4c0 35.3 28.7 64 64 64s64-28.7 64-64c0-23.7-12.9-44.4-32-55.4L416 96c0-53-43-96-96-96L194 0c-44.1 0-82.4 30-93.1 72.7L1 472.2c-4.3 17.1 6.1 34.5 23.3 38.8s34.5-6.1 38.8-23.3L129 224l223 0zm32 208a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Walker = createIcon("walker", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABagAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBTgsGAAE2AiQDCAQgBYMtBy0bywTIhuDBrq963f3Vs0avpAhWBvjASHMhqCBZpKcInvm/3PObdnSA347sUMbGufiaHM35fIMFGJZPDmhbmCWKmbea0SRyv0wmNUmP3x7fDpDFY+kpVSSPJF/havvQ+FFrp0jUpQCiEQAmLZ4/z3v34l7El5WXiS/NQUBMAoVAihTtBBgrFWgnUyCTCe5FpZL/AwsCiGq4wQRkqMJszAdkIJFmWaNedaWq+tmiUlW+vJSXLja/TeSxOB7rsVB4rt0jvZ7v9myfF9o+2TsNLisPz+Olngt3Sdw6YqS85UMtl0dpoaa3mt1pIds7lxuVf+701aavvH/0CHY2OHeuwUTfajzDpj1PPPU8yr9vljdu/PTT5Sp5s+97qS2Xjx3R6MTJY+uv6Ltt2Yc/PHN77KQadzt+e69Bg3uJCsRJ6/4tf7+64djfaksJePDGr3/2Cyv/V96J95IyaiUgSPtW+loR7zk46wLkkjikM31RIDFZit61njsChBwBEtVyAVJtNRIgk+sjQJUOhglQLTdfKrI6oZmVAyTq2QtSwx0GmWZeBFXG+jSr1izSeBKiQfjNpU630LRNxaD+A4vRxbZKxRDh6vSY4ljreUi6etFem+y2ywEbbbDVAUPuM69w0E7TPWKaHyoM0t9AhdGK68azuojdffYLt5bvZxmjeB/1dMgf3IvMBGgHq0gkRFId6frGfQAAAA==");
 
 export default Walker;

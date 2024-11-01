@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `section` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/section?s=sharp-regular section}
  * @preview ![section](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/section.svg)
  */
-const Section: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M48.4 90.6c2.8-15.9 12.5-27.3 29-34.6c17.6-7.7 42.8-10.5 73.1-5.6L153.7 30l-3.3 20.5c9.7 1.6 39.9 7.6 49.1 10.1l12.7-46.3C200.7 11.1 168.6 4.8 158.1 3C121.8-2.8 86.5-.5 58 12.1C28.6 25.1 6.7 49 .9 83.3c-.1 .4-.1 .8-.2 1.2c-2.2 19.5 .4 37 7.9 52.3c7.4 15.2 18.8 26.6 31.4 35.3c2.4 1.7 4.9 3.3 7.4 4.8C24.2 189.8 6.8 210.7 1.7 239.4c-.1 .4-.1 .9-.2 1.3c-2.3 18.8 .4 35.8 8.1 50.7c7.6 14.6 19.1 25.5 31.6 33.7c22.9 15.1 53.3 23.9 79.2 31.5l3.6 1c29 8.5 52.3 15.7 67.7 26.7c7.1 5.1 11.4 10.2 13.7 15.6c2.3 5.3 3.6 12.8 1.6 24.2c-2.5 14.2-11.6 25.1-28.5 32.2c-17.7 7.4-43.1 9.9-73.3 5.3c-14.9-2.4-40.4-10.8-61-17.7c-4.5-1.5-8.9-2.9-12.7-4.2L16.6 485.5c3 1 6.5 2.1 10.5 3.5c0 0 0 0 0 0s0 0 0 0s0 0 0 0c20.3 6.7 51.4 17.1 70.6 20.2l.1 0c36 5.5 70.9 3.3 99.1-8.5c29-12.1 51.4-34.8 57.3-68.1c3.4-19 1.9-36.3-4.8-51.8c-6.7-15.3-17.6-26.8-29.8-35.6c0 0 0 0 0 0c17.7-13.5 30.5-32.7 34.7-58c3.3-19.7 1.8-37.5-4.7-53.4c-6.5-15.8-17.3-27.9-29.6-37.2c-23.2-17.5-55.1-27.4-81.8-35.6l-.7-.2c-29.3-9-53.3-16.5-69.9-28.1c-7.7-5.4-12.7-11-15.7-17c-2.8-5.8-4.6-13.7-3.4-25.1zM163.2 319.3c-8.6-2.8-17-5.2-25-7.6l-.8-.2C108.3 303 84.2 295.9 67.6 285c-7.8-5.1-12.6-10.3-15.4-15.7c-2.6-5-4.3-11.9-3.2-22.1c2.7-13.9 11.7-24.6 28.4-31.6c13-5.4 30.2-8.3 50.5-7.5c26.9 8.4 48.6 15.8 63.1 26.8c7.1 5.4 11.6 10.9 14.1 17.1c2.5 6.1 3.9 14.7 1.8 27.2c-3.3 19.4-17.2 33.8-43.7 40.1z" />
-    </Icon>
-);
+const Section = createIcon("section", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABnAAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCcQsGAAE2AiQDCAQgBYMtBy4bbwXIjpQu7hLEkx79vE0O8J6k6j5IlmAl1Ml+3dr/uaZeWNMBfvfjjA0sIq2DaM+nzQ0yoeFswD6VDc6bdEgVCu0XYEqhLMMG1Hr1CFhqv6l8JYBZoLAxAAAQdwAAoLxtSzPX3st7kYdWIA9pBARAygHQCGAABhCMAFCEgQDBmGjAxETgvVgW+w/UIAAgtriEwjZx5RZgJzSloZcr05wY5GTjYrZxsnHsuDF2b3aQ+Mtqn9U+YbImZo/vnbxzeppMZ13A+ujVPueCi4bz2QvxkdPRk5L+66J25XB9jccTLAudVvtMl7MLfVZH7/YRuV14MXJj4IaYpv9gWKbvQQFHOROzxPNrLT2RwPYtRzbG7o1e+SfIijjgfuB7+KM+j0jtVTvh4JdIspj258+MKyw3PKePO/5yh4AUndldlBGesUBACk+fTqyaL5LGhSlrY3Pco9cffL3dxvyn3dPS3iAqPA0AAED4Fx39Afode769ac2aJICdvZvm7k0KbldbLVxcejavzm3EpxnLQWu4sORsbo5r1vi89wu77I3L82juDwACCCyYPca1q1vRf3snBcDHCz9/Jk9arCVDHQDsUQAIGElWEp1kzABiLbKDeTKGCAF+EgIo1qBwdWeIS0ZwhAIUtjiCQRDuYOJIItgQSrYwcXcLBmI6IHjTGYLCmeFgkMNkMPHmJNhQxN2kLd5ifKDS5yX9H6bXVPHqTTo9JU0X6N6mTP7mBL1cqCf74sbwoXh4kj4MZQij6E0v+jOqwo2gOTOawdQMsdV8EU06KaShKUAv7tzU2+DkCEbSv9tmuY/CrPP2EeIYMzw5Hm5HAQAZj7ZCgSi7Tx0A");
 
 export default Section;

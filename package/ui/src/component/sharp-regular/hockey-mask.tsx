@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hockey-mask` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-mask?s=sharp-regular hockey-mask}
  * @preview ![hockey-mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hockey-mask.svg)
  */
-const HockeyMask: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 464c82 0 119.4-18.7 140-45.4c23.4-30.3 36-83.6 36-178.6l0-192L224 48 48 48l0 192c0 95.1 12.6 148.4 36 178.6c20.6 26.7 58 45.4 140 45.4zm0 48C48 512 0 432 0 240L0 48 0 0 48 0 224 0 400 0l48 0 0 48 0 192c0 192-48 272-224 272zM200 208c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-32 128 0 0 32zm112 64c-35.3 0-64-28.7-64-64l0-32 128 0 0 32c0 35.3-28.7 64-64 64zM176 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm32 64a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM176 304a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm0 64a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm16 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm64 0a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0-64a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0-64a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0-192a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const HockeyMask = createIcon("hockey-mask", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABrAAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDGwsGAAE2AiQDCAQgBYMtBzIbnQXIhocHvb4/N8lTZo2spEr0N1BSJatfLWb+r6nXenSA3w/8VK6XYY2RQB08gT1PDIoIsNlwNlHc4LxJh1Sh0L6ALO6Ia1WQ3JZ8iWvsD42/NHeGREUKIOoBYNz82bO8+1v8FvFF+SXiCzMQEONAIZAiRSsBRkoFWskUyGSC36JcZv+BBQFEJfeFCchQF4/iVUAGErWzrHnjevVrXGOpoqGcF142n3tFl4hHWj7R9p6IyHNxovVd3W7r9FDJV/MivpkfEVGqLcTXc+DwRbd2jXi048PdH28RUQpzM1sEV0Y3ywbMu6nxjY1ubnJL036+mOvnMIK+9bC+BBlCHnnF9o/Xe/yfdl+u+9KvdUed4+yfTS67fMq7nn32XVMuv7zxn2fPjep7Qt+xAlpy9bv66nut8V0FW520z9iTmvbJ61P/3nvr188LJxTbxygbXKmHZTGXvPNbnTq/BdqyZKG97T2ZfizRl0eUORbq3x15OhAIXvxx+d3L6478v7qUgD9e/+8/tWX5fPmd+CB5HNUSEKQ9yz0tiXcHoPNNxV57Y5/28JsEEveqzX3XWm4WIOQIkKiUC5BqqZ4AmVwPASq0MUiASrnZUpHVCI0sLUCilp0gNdhRkGnkBVBhpE98lRpF+tWK35z405hqchWd1K7o17tvMbzojcukD5HX9SOKyaau+3heNzjSOttts8daa2y0p0LtMiu411aTh8hJfqjQT299FYYrFqduKudVYuyy28ZuveWtjFBs7+hq33DpbrATCaD/8+b5mEhKG7av3rz2YK+tK3dvBgAAAA==");
 
 export default HockeyMask;

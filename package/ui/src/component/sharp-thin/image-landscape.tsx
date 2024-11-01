@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `image-landscape` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image-landscape?s=sharp-thin image-landscape}
  * @preview ![image-landscape](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/image-landscape.svg)
  */
-const ImageLandscape: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 80l0 352 21.7 0 4.1-5.1 144-176 6.6-8 6.1 8.4 45.6 62.8L345.8 187l6.2-7.8 6.2 7.8 192 240 4 5 5.8 0 0-352L16 80zM58.3 432l91.4 0 4-5 80-100-42.1-57.9L58.3 432zm111.9 0l363.5 0L352 204.8 250.1 332.2 170.2 432zM0 64l16 0 544 0 16 0 0 16 0 352 0 16-16 0L16 448 0 448l0-16L0 80 0 64zM128 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-80a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const ImageLandscape = createIcon("image-landscape", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABewAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCGwsGAAE2AiQDCAQgBYMtBzYbIQXIhofn7ao/91V1D9or1hL8gJlBQWJGP56pU89zHgrgcwiCsoYtDciyvbvPK9DzWrdvsPa8VrACVYzrt/N7XZ1BuE0SyiXZDe4P0z9DHl85VIl0V/ocN8QPjb/0dSlJlgGIJgCW7Nq2wYffx/cRn3W9RnxmHQJiCSgEMmQYIMB8mcAAuQK5XPB9dHXxf2BBAFEmL00gRzuOxTmAHCTlPB9c6Wh1r1VKtXxnpdS5T8pSJXrHLtJ6xhISdiBciSzqeyqdlYlvaWyv1Kq1nQl3/N7xmQ2RQnTWI7KIHdf0jrgjLup1e+fVPW51Yc/bKvFY37v63Dn88X53979n1NCnm0//M+Tzwz/XOOFAub+X6W54wS5H+NJh59tllw/+M13ZgYoxB+wrePVvOsRdLnv4xGMhvfbjAq/b/NQJzebipgM1NSdn3wUP1K/kyjrn2L75wV/feOPXB/E7IBC8feSbBx/QmP9/eyWBH9/+7y96MC1OT6NdAkE2vmu8fdNiADoAI8XphiprDCSHusJ3rbpdgNCJAElZpwCZ/poC5DqNE6BkkBkClHXaJhN5h9DDfhUkVSeBzEzngVwPr4CS+T7Sy3pEZnW0zdA/fQkrW2jFqmLKxMnF3GKaK4whkX5xXrEsjT7d9cbgpMOd4HinOsyhjnJqg5xsg3Wa46zU4BW+qDDFRJMV5iq2q8fDOx3mZKc4ygmOD8vMU5zXRjtdHz8GaiKYU0WSRKTGIxUnvFHxlA8R");
 
 export default ImageLandscape;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-nauseated` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-nauseated?s=solid face-nauseated}
  * @preview ![face-nauseated](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-nauseated.svg)
  */
-const FaceNauseated: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm79.6-336a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-128 32a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm-12.3-84.7l-7.4 7.4c-23.6 23.6-53.9 39.2-86.8 44.7l-2.5 .4c-8.7 1.5-17-4.4-18.4-13.2s4.4-17 13.2-18.4l2.5-.4c26.3-4.4 50.6-16.9 69.5-35.7l7.4-7.4c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6zm121.4-22.6c6.2-6.2 16.4-6.2 22.6 0l7.4 7.4c18.9 18.9 43.2 31.4 69.5 35.7l2.5 .4c8.7 1.5 14.6 9.7 13.2 18.4s-9.7 14.6-18.4 13.2l-2.5-.4c-32.9-5.5-63.3-21.1-86.8-44.7l-7.4-7.4c-6.2-6.2-6.2-16.4 0-22.6zM168 282.7c19.5 11.3 33.8 30.5 38.4 53.3l99.2 0c4.6-22.8 18.9-42 38.4-53.3c7.7-4.4 17.4-1.8 21.9 5.8s1.8 17.4-5.8 21.9c-14.4 8.3-24 23.8-24 41.6s9.6 33.3 24 41.6c7.6 4.4 10.3 14.2 5.8 21.9s-14.2 10.3-21.9 5.8c-19.5-11.3-33.8-30.5-38.4-53.3l-99.2 0c-4.6 22.8-18.9 42-38.4 53.3c-7.6 4.4-17.4 1.8-21.9-5.8s-1.8-17.4 5.8-21.9c14.4-8.3 24-23.8 24-41.6s-9.6-33.3-24-41.6c-7.6-4.4-10.3-14.2-5.8-21.9s14.2-10.3 21.9-5.8z" />
-    </Icon>
-);
+const FaceNauseated = createIcon("face-nauseated", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABogAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SCcwsGAAE2AiQDCAQgBYMtBzUbeAXIhof/t+v7fW5V95MaM66R/U2nMNO3fspIWU9/P/WHFn3AIv8o0darwkh6N8oU2PlEZ9Hn/yYysJkmuG9w3qgDCk2h/Ah5vJldpUS6P32FW92Dxu8GuoqkJQMQ3QBYsW/XFu/1R3/El42XiS9tQkCsAIVAhgxDBFgsExgiVyCXC/qj0WD/gQUBRFn4EQnkaMb9eAaQg6Sc54P7+mrVMW2ljnxvW6l1z6/bIr5d9WFcvvKDrd/s/WnzV8vfc9mK97d8vefAG6sRd1fvqtzVekPtnri8fm/b7rsqEW1hVmDg3kq98tbqStxlgXpbvDqpHvdOWJV9aVU1np/TFrUwWlWLT5bWYi6y+/mh0nl0Ess9NeD+MeN1LwxrjYfGH+M8O/iBsffUbxr5QvcLf4746pivNJatcRu3LxqyatWQRbfftka3mQHbtnVcx3UdmcCgTqTTuXT4sKkrTUfadx8btlpV79a/pPPHzDlfneP55x944PxqZp2jFUDmx84l3xXqq451ww13vfz9GUc54/uPbzzo1ZPb2k5+9eAbPxlgNxx8n4Nu+gQIBHb37ji0a/E/zW0J/PbG3/8rXkWN95L0ApolEGSTG5MdlEAiAAApzjEyQSC5XVkIqt09AoRWBEjKWgXIDNbd0LlWk+iSYeZIG4FdMpG3GCQrDkZ00u50OjPXxXSu4kW6ZLFP82WVyJ5Q5flSfhAz13bRNeuKGVOnFwuL2aZKfegkvbyo2GyPP4cPTYAbHeNUpzjL0Y5yvLM61Bm2lM52srVL5BpPVJhhqukKCxWHOw/NvR0hM8+00rR6fBWLFNcnxztnefIE6CWBd6aGJBGp8/7PTTnl8LM/LefoowAA");
 
 export default FaceNauseated;

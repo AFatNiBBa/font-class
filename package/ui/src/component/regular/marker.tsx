@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `marker` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/marker?s=regular marker}
  * @preview ![marker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/marker.svg)
  */
-const Marker: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M336 113.9L225.9 224 288 286.1 447 127c17.1-17.1 17.1-44.9 0-62.1s-44.9-17.1-62.1 0l-15 15L336 113.9zm-144 144l-58.5 58.5c-38.8 38.8-66 87.5-78.6 140.7c53.2-12.7 101.9-39.9 140.7-78.6L254.1 320 192 257.9zM232.4 23.7c27.9-18.4 65.9-15.4 90.5 9.2c0 0 0 0 0 0L336 46.1l15-15s0 0 0 0C386.9-4.8 445.1-4.8 481 31c35.9 35.9 35.9 94.1 0 129.9L229.5 412.5c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8l80-80L199 183l69.1-69.1 6.2-6.2L285.1 97l17-17L289 66.9s0 0 0 0c-9.4-9.4-24.6-9.3-33.9 0L169 153c-4.1 4.1-9.3 6.4-14.7 6.9c-6.9 .7-14-1.7-19.3-6.9c-9.4-9.4-9.4-24.6 0-33.9L221.1 33c3.5-3.5 7.3-6.6 11.3-9.2z" />
-    </Icon>
-);
+const Marker = createIcon("marker", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABeQAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCJAsGAAE2AiQDCAQgBYMtBy0bIQXIhocHvaj3k8wsoKztCuKRJczK3bmCZ+rU80wLBfCNgraHhmLZnI4xuAIV65W7rbR0WbFWUay5q1uaJNqTJGVJnn57fNlCFs/EeQWSG8m7OJc/NH5Uz2EShRRAVAXA0NnTJ3rxm/gm4p3SY8Q7xiMghoJcIEWKhgIMkAo0lMmRyQTfRKnE/4E5AUSRPHYCMhSwGYcBGUikWVajwtgKhUrZrAqF8qtnzJ4xNWbHtThQ+2r5kzVrxoAZU6ZP+XDGF9Onx7TZ97eMuLftgTgQtaJO0CkPVzjV9kH728yIT2e0iMu1r9ZpEF/Mnh3tY7Yq1YFSe8W8rwWZl2vyJjc1mB3X6jR7qOpDPzd9d9W7Jk/cKPkv3Xabd6tXfzdkflHt3LkbOMPDNaZMqfH0DV+2/n7hAQ40g3f9Ap5u2fLph3GPh//+x9gxK2se9tLx4w3HqLlyzJgpkzU3YoSZHsK7oFKlmTPN3H/H7g8/LJcYMR0IBK/27TR+cZUBv5WtkIDvnv71d3dk6f/S8/Fv8hDKSkCQdih1sCCh4LK54uZ+7NIMXxRIrJaSd63oqgChPAIkisoLkGqgqgCZ8toLUNBYTwGKypsuFVk5oaaFDSQq2gpSvewBmZoeAQUDvBEU1YzU9FjDYR9+SaN6aOSyvGunLnm/fFpVOWui43T/fNlqs8t3tcVaq2y2yQ4rrbDWjo7cZmK800ajNGKkH8p11UkXuX7y7cbj6llW2ma7tTbblBbpLz/vtbFLH9wWbkIouylKJERS/NoibwMA");
 
 export default Marker;

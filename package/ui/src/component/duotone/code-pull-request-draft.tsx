@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-pull-request-draft` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-pull-request-draft?s=duotone code-pull-request-draft}
  * @preview ![code-pull-request-draft](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/code-pull-request-draft.svg)
  */
-const CodePullRequestDraft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M48 153.3c4.9 2.1 10.1 3.8 15.4 4.9c2.7 .6 5.4 1 8.2 1.3c1.4 .1 2.8 .3 4.2 .3c1.4 .1 2.8 .1 4.2 .1c11.4 0 22.2-2.4 32-6.7l0 205.3c-4.9-2.1-10.1-3.8-15.4-4.9c-2.7-.6-5.4-1-8.2-1.3c-1.4-.1-2.8-.3-4.2-.3s-2.8-.1-4.2-.1c-11.4 0-22.2 2.4-32 6.7l0-205.3zM416 80a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm0 160a48 48 0 1 1 -96 0 48 48 0 1 1 96 0z" />
-        <path d="M80 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 104A80 80 0 1 0 80 0a80 80 0 1 0 0 160zm0 248a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 104a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm264-80a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm104 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const CodePullRequestDraft = createIcon("code-pull-request-draft", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABqQAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCRQsIAAE2AiQDCgQgBYMtB2obgQXILgdsItOBryKcFKWy2L7V8hZivt9x76AMEZRj5F6SBwJVINJA6ABRAbtOha/QP76SSJgejc17IOEhPiTXCk01ierSCGUm1ryEpcbgufGao15lb1D9FSP5/YB0xSwrMqISQOC/zJz/uJ/nPy03oN3zheBQohqkLCrPJzDgUXBSEs8iDXHDtmH2Iutrj+MaSnzIcypIL9Mfnoz/Axj/9JgjqckAohkAgKWbnGb4+Bz/oZEXYsRyICCWAQxDyMjoh8ACRIF+JMNAUQSf02w+x+xhEEBUGi+XQSXqcB33AQUklXIpNQ1FxiBpqKtoKBubn6/d9r6FaE8sp3A/+bw5626qk/q0BYkuQquGhZR3856GB7U6Ps7PNvjUwozQVGgU0y5AzzrZEZz3taN9to6dJIptP/brAmIl+4gfbX5bdWcd9i3x8MfpvPWPqv9/iavKmsuyxMP1iVO1BDV7B0weFTkqWQJFSomWn9FyquCI5PyFTp6cdm20hwMIBJ8u+7ULw1ddl8DXj8cz7Pn3Gh8doVoCQZ7wTxCKDw2JhAAkIcVp7CucAiFbZscK6j0T8VALhqRSLWR9mFDUGg8VBikVlvp1VkyUmnC7cApJvWOQzdKDot01VFjgM1KpPfKzqHqSVL+C6U00YpyFp4okWIeVFVD9eCm6ST22to+pVx3cZCnEFeRVxUSlVCl+mTlek2PSUUY3hEmJSGA62Ls+r/dkkbKKlFzrP40ejh/mqOv7cxMXwSx1mjlZJlLkoTvUIPzOzMKH1ih8Mc3Cm3sglk57NwM=");
 
 export default CodePullRequestDraft;

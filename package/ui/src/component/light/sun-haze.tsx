@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sun-haze` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-haze?s=light sun-haze}
  * @preview ![sun-haze](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/sun-haze.svg)
  */
-const SunHaze: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M435.1 13.1c-1-5.3-4.6-9.8-9.6-11.9s-10.7-1.5-15.2 1.6L320 65.1 229.7 2.8c-4.5-3.1-10.2-3.7-15.2-1.6s-8.6 6.6-9.6 11.9L185 121 77.1 140.8c-5.3 1-9.8 4.6-11.9 9.6s-1.5 10.7 1.6 15.2L129.1 256s0 0 0 0l35.4 0c0-3.2-.9-6.4-2.8-9.1l-54.5-79.1 94.5-17.4c6.5-1.2 11.6-6.3 12.8-12.8l17.4-94.5 79.1 54.5c5.5 3.8 12.7 3.8 18.2 0l79.1-54.5 17.4 94.5c1.2 6.5 6.3 11.6 12.8 12.8l94.5 17.4-54.5 79.1c-1.9 2.7-2.8 5.9-2.8 9.1l35.4 0s0 0 0 0l62.3-90.3c3.1-4.5 3.7-10.2 1.6-15.2s-6.6-8.6-11.9-9.6L455 121 435.1 13.1zM448 256c0-70.7-57.3-128-128-128s-128 57.3-128 128c0 0 0 0 0 0l32 0s0 0 0 0c0-53 43-96 96-96s96 43 96 96c0 0 0 0 0 0l32 0s0 0 0 0zM80 288c-8.8 0-16 7.2-16 16s7.2 16 16 16l320 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 288zm416 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0zM16 384c-8.8 0-16 7.2-16 16s7.2 16 16 16l544 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 384zm64 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 480zm224 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l320 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-320 0z" />
-    </Icon>
-);
+const SunHaze = createIcon("sun-haze", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABpAAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDLwsGAAE2AiQDCAQgBYMtBy8brgXIhiBYK6uenT0AnAAw+OSBFLnsKyASPmAfWOH8X1MvLBYF+HmuF4m7aVukdz+fwDAbI6lsz2fD2URxZ9teBRENiV1oHCCNv2OwPMlzyfe4Ez40ftDqNok0ByBqADBj3aolPn4QDyK+//8N4nuLEBAzQSaQQw4dAkyWE+iQypBKBQ/i///Ff2BGAFEkeVoCUpTiFXwDSEGiOE3n9qtIXOX5ynRtMaZs39NNTzesjrVBpSelenU86WxcEzdSsZyENq2NdfFMs7CsiacwtU7tSzAWN8ibFFm4ds1LUyM+nPv55PezW1Ta5vlBL497Y8C9zlnI9icbnmqsvAA1yxWVPVqOlW1Hqxur1qwVlp/dpmehpvBTj+/3fu/VV5t3nTy9YYrs1ad3nmquP+RQvRNj+82bsgH0lu81dqmttR4bULPV0rFu3146Vu1WrS9uqTVmqV75XsA65/Udd+LqZfWHKn7Pj2bW8uWzRuchAyWFwvXreUHJLOxY94OqqgfTeeQF/Dr5/jZuzuDGadtWCx+cvh0IBHfH/TxsW/Xkv0rKE/Do3V/+qq/3/8fJ9aSAEgkIcoP/H2xzch2ocQDeJM7qufNFgcQ9xZJ3rfC0AKEMARJFygTIaVcjQKrMIAHyuowRoEiZVXIiLRUabOlBosIJkDPWFZBq8BrIm+wrT5GGyMEvC33s72PS3DE6p1U2YujwbGK2mdByIEnbxknZaVP/s7JgAN5or2OOOm2P3Q44PTKctMR/xhFz91Rz/FBmhKGGy0yU3U4/l9ZSz0mnHFgX7jczSfa+tb+z++UH4P4kgJFfnpLTIik5debokP07Lu4BAA==");
 
 export default SunHaze;

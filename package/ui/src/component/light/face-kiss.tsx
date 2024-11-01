@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-kiss` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-kiss?s=light face-kiss}
  * @preview ![face-kiss](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-kiss.svg)
  */
-const FaceKiss: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm276.7 40.5c-10.8-5.3-25.3-9.2-38.6-11c-7.4-1-12.6-7.9-11.6-15.4s7.9-12.6 15.4-11.6c15.2 2.1 32.7 6.6 46.8 13.6c7 3.4 13.9 7.8 19.2 13.4c5.4 5.6 9.8 13.2 9.8 22.5s-4.4 16.9-9.8 22.5c-5.3 5.5-12.2 9.9-19.2 13.4l-.2 .1 .2 .1c7 3.4 13.9 7.8 19.2 13.4c5.4 5.6 9.8 13.2 9.8 22.5s-4.4 16.9-9.8 22.5c-5.3 5.5-12.2 9.9-19.2 13.4c-14.1 6.9-31.6 11.4-46.8 13.6c-7.4 1-14.3-4.1-15.4-11.6s4.1-14.3 11.6-15.4c13.3-1.9 27.8-5.8 38.6-11c5.4-2.7 9.2-5.3 11.5-7.7c2.7-2.9 2.7-4.7 0-7.6c-2.3-2.4-6.1-5.1-11.5-7.7c-10.7-5.3-25.1-9.1-38.3-11c-6.7-.8-12-6.7-12-13.5c0-6.8 5.3-12.7 12-13.5c13.2-1.9 27.6-5.8 38.3-11c5.4-2.7 9.2-5.3 11.5-7.7c2.7-2.9 2.7-4.7 0-7.6c-2.3-2.4-6.1-5.1-11.5-7.7zM152.4 208a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm184-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const FaceKiss = createIcon("face-kiss", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABmgAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCUAsGAAE2AiQDCAQgBYMtBzAbUAXIjsK2nTNOcM4ooygI4xsP9Wvo271/AWCfKFTAitDoCBkZBUWSdZ0aW8WSbI3IlVzuPaDoAsEtVMEVzOm/aDKpUv/8X/P5pR0d4Dc6lGisBCm/dxS1qOcTmEBjlE1otjeQmU7AZt6ye6xHyoiSTDRJj996PLtAiWNkBmTyOeEFN/lN479hfaRSAUB0AQBYv4gNhwslUgZ6ud8lvtgBAmIDYApChQpjEFhCFBhDMgUURfAHqVT8H4hBANEA8tkJChpxjUeAAlJdSGpqzvRmJplNSmitGbkfbFBshTwxRoIerDbwnPVm8CNzNPTZdluX9WsTxfXBO3M0/NX7Mv7H6yLshTES8eZzlZC9bDAhnRQv6Y+Lx8VjojERI5hoZBf1RiTd0hXDSdOVTEi2bMmkWpMwa7gkn9JbViRWOj6gs85b/9V+KXiB3+esK756hLu6hnt8XbFQ4MNK280Mf7709b3cltNtpyJu7DOSeW+x1C5qihebBtnsocZFBAHHFteyp9mffCV1Ora2OnVSnzkGY95HWks53dq2RHF0tLjg+1IezwNAIHj7Jq4lk7v0T2slAPw7+vtvPyP3Fwn5EWiSIKhmVGbSEiQBAMhooJMQSFdq8qptnggQWhAgNWgRoDKKB4GixTQEahPsIdCgxQmiKHQIfdIBUptLUFnUDoo+26C25D5q0BeVQ/LuxH8HUwI05L8KW1tYYRe8LHTBx9i46Iq3VaOGMGBMB6FApQp18uUpVqfIGuFpvXIBFuHvizBrFqxgLvBx/bw7Qb4atYpVqkjLuML3QyMN9nhjMgiEclYuJZH01x6ZlxbX1gIA");
 
 export default FaceKiss;

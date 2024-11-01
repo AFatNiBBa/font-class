@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `headset` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/headset?s=light headset}
  * @preview ![headset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/headset.svg)
  */
-const Headset: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256C32 132.3 132.3 32 256 32s224 100.3 224 224l0 144.1c0 26.5-21.5 48-48 48l-82.7-.1c-6.6-18.6-24.4-32-45.3-32l-64 0c-26.5 0-48 21.5-48 48s21.5 48 48 48l64 0c20.9 0 38.7-13.4 45.3-32l82.7 .1c44.2 0 80.1-35.8 80.1-80L512 256C512 114.6 397.4 0 256 0S0 114.6 0 256l0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48zM320 464c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l64 0c8.8 0 16 7.2 16 16zM144 224l16 0 0 128-16 0c-26.5 0-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48zM64 272l0 32c0 44.2 35.8 80 80 80l16 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-16 0c-44.2 0-80 35.8-80 80zm288-48l16 0c26.5 0 48 21.5 48 48l0 32c0 26.5-21.5 48-48 48l-16 0 0-128zm16-32l-16 0c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l16 0c44.2 0 80-35.8 80-80l0-32c0-44.2-35.8-80-80-80z" />
-    </Icon>
-);
+const Headset = createIcon("headset", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABpwAAALOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDIAsGAAE2AiQDCAQgBYMtBy4bngXILgdsYxrUD0iMITbbtlAQd0vOR66YfigqHv7fjvf3uTPRvBgTSZXQGR3oyvgg6qzfsijDA/zl3s3GxLE4ugDHAiugQ2iARRAlNsGi+MO/7f7bbhIE2WgR5EGeh9bBNe8+KrdRFcjbMjRRG6xoOuAJrM2ao8ElREh9g9QC/5u4pn6cPz1gkT9a1yqtzjfKPJ/ARLNsoG0Dm+kEbObWkIEnKLJXIbHC5FjR47PHtwPk8V50U4l0KX1PTvQPjb+lvSR5BiBqA2D0ccZ0H//xdRTfB4nvHQTEGFAKZMjQXIBhMoHmciVyueA1vjn/B0IAUZnedQI5quIJ3gfkIKmc5+NaY1CnaUXUyGc3ophz6yDPp0Z8t/+i/03r0xriYv1TUcTlAQI36p8a3xuc24u81Uwu7fpuhfy5+nTy4+b30ffZxytxrsG1Eb6rJXC+4ZBES9o0WoXY7FbDS1PkSqNrx5VwbfbsL3IkJyJi17SgKOJFp0fzI5e+2eDc5DugnRnNrFkcrgliJ/SKdovXu7wGFO7Vfv3bj++h7jV/oU+roMX3uPppyknJDy9r6YNolF5PyeyHZzMTH8xQuzzEZ2LPP7Vrm2jXKT0T51DTlVB6TX/azAWwJfD4fxreqeu2S5g7LXJlGbesral58GDfKUrtB60qyBIqqdkZThUJe3JeDyAQLHx0e2w76881Evjr+3v/GXmTSfdQVQJB1i1ULYwFiQAApNiqTSwEkjty+q7VnReBUCBAUlkhQKaZ2gLkCl0FqKSl/gJUVpghE3k1ob5FB5ZUtwHLDLANy9X3HKtkmK8yldWPPHDZsGN/G5MmWHj8pLLVo1c5pLwtGVws0nV0aElbxa1o6ZymWmqdtTZbYrEVNht0o+n5LdaYsELG+6JSbz30UhqidFe/SrMlsNEm0HOdf5yhyvejnWxdd++c3EQp+yhKEpGqRHdo05LN");
 
 export default Headset;

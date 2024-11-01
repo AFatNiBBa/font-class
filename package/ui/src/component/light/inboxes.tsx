@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inboxes` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inboxes?s=light inboxes}
  * @preview ![inboxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/inboxes.svg)
  */
-const Inboxes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M34.7 192l-1.4 3.4c-.8 2-1.2 4-1.2 6.2L32 272c0 8.8 7.2 16 16 16l416 0c8.8 0 16-7.2 16-16l0-70.4c0-2.1-.4-4.2-1.2-6.2l-1.4-3.4-73.6 0c-6.1 0-11.6 3.4-14.3 8.8l-14.3 28.6C367 245.7 350.4 256 332.2 256l-152.4 0c-18.2 0-34.8-10.3-42.9-26.5l-14.3-28.6c-2.7-5.4-8.3-8.8-14.3-8.8l-73.6 0zM48 160l60.2 0c18.2 0 34.8 10.3 42.9 26.5l14.3 28.6c2.7 5.4 8.3 8.8 14.3 8.8l152.4 0c6.1 0 11.6-3.4 14.3-8.8l14.3-28.6c8.1-16.3 24.8-26.5 42.9-26.5l60.2 0L414.8 41.8l29-12.1-29 12.1c-2.5-6-8.3-9.8-14.8-9.8L112 32c-6.5 0-12.3 3.9-14.8 9.8L48 160zM3.7 183.1l64-153.6C75.1 11.7 92.6 0 112 0L400 0c19.4 0 36.9 11.7 44.3 29.5l64 153.6c2.4 5.8 3.7 12.1 3.7 18.5l0 70.4c0 26.5-21.5 48-48 48L48 320c-26.5 0-48-21.5-48-48l0-70.4c0-6.3 1.3-12.6 3.7-18.5zM114.3 384L48 384c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l416 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-66.3 0c-6.1 0-11.6 3.4-14.3 8.8L369 421.5l-28.6-14.3 14.3-28.6c8.1-16.3 24.8-26.5 42.9-26.5l66.3 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48l66.3 0c18.2 0 34.8 10.3 42.9 26.5l14.3 28.6c2.7 5.4 8.3 8.8 14.3 8.8l140.2 0c6.1 0 11.6-3.4 14.3-8.8L369 421.5c-8.1 16.3-24.8 26.5-42.9 26.5l-140.2 0c-18.2 0-34.8-10.3-42.9-26.5l-14.3-28.6c-2.7-5.4-8.3-8.8-14.3-8.8z" />
-    </Icon>
-);
+const Inboxes = createIcon("inboxes", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABpwAAAKxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDMQsGAAE2AiQDCAQgBYMtBy4brwVRlM+pE9nHYRxDbqEVMQQxWIaPiLZprS3RbkNpoUA5ajbJKTkjb7ODKpAlWFGt0LJSdzzQr7X39w7z9YhaMkkQA6ROIxMi3k8yYp0hWtv5v9zzG7ToAL/RoY1Na9LZLC2a83kCAY5t00skCyzTADyGzG2ExaAIZxpi+D6UPgzF7hw0pnfgwrXqS4A5Ny/AdnpTfSmyEcPVAABoGAAAdBk1bAAPn/oMoVldQ039gAA6AogELLCglAC0ZwmUciJwHOFLqCrlf2CEAKBO+GkGgAOJ4DY8BAAOgOHq9XyNKuUDQ0KaGxkS/Kjcgtw9hL1JmvZn0ro0X16b4kIdmPQ6VxZrX68vCT6cLYq0ty9oc1aiwzNBI1VL1bWvN1Wb4uGtRw0fdbhWms4WI7SXcCDeM5mqc+m+UlqXjfDB74lZb+5LpVlTc+Kzyd6iHe31D2f7U+K+3hqXLK96afjSd5XmzCbjVTaeYVxP0r+c8DnYE2ey6cO3/s7TwwEPjx847u3zuj28O2/fzzwgfqy9xqc813DSG/F9jH+90wFb1vwSfWmqM2309sS+/ND4wurrS9sT33rBk66IvqR33sNQVVe+9weiV4zatUo+OLC3XPWgu7Krh6fvtO7dUt725mHLQY8DgIDg/sP/SRntf5JDBODb1e8/9DVSeccwlyCZASDYxaq+8QYAAwEAAAATzoxHAALGZXV41VT7BADigQAYiTwBsEpkEgDHq0cAEpRrQQASecOoUb2H5JrggZFqCbBaWgWcdewK6GDH46STOFgG5tiP+z8m9xTqsSg2adg4to3ZGsfzJKNn28VmrfbKeuqIk8y0yELLzTDdHMuhlhqQr7BAzxLZwwdFTTTUWNRWHG4eyiNJllpmTlocn6eduD6qbWV5eB1hGkC7bkNEhGCS5ix82wA=");
 
 export default Inboxes;

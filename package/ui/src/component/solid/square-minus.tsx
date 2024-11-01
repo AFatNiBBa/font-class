@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-minus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-minus?s=solid square-minus}
  * @preview ![square-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-minus.svg)
  */
-const SquareMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm88 200l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const SquareMinus = createIcon("square-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABWQAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBFQsGAAE2AiQDCAQgBYMtBzMbmATILgacMt30iAynGTGN0uxpbbGqv8PLQ4x4auy37+4Qk6iSPJPwkkkJkiVioBSGSib/n/Zz7yamN3FtYohqoxESyS3SSL9hpSwUQgZlcPNTYoFhAkEz7iLrPOWI5vgCAxvgGiGkFt/Uqec5DwXwOQRBG2uBjMnd67wCFevVN1Wots4jirV29ik/iG4x6PuUTzJM/LBZnKHlrI4uymcBL+VN82fOIUVfBYCMAgBXT50aED31gn47kW/XQCBXAKsQKioWIXCKLFhEsQo0TfhB/x//Aw0CpBvQUkATfmMPOAaggaI0imp4gMql9EdljfyiPM+ScrL+YuHmafNNTc7pxquV8xCL/TB3bGblcf7MZnwVvP5JcfF1PQYw1n+JNTZ2nXc94j59Hmo3U1OtV/V5AEHYGzuSToyk/4kE8Ptx8+M6K6K8olcBoW51YjQEEDpAXLLPaDQsKNaQAK866E1A9COg6NYvoFoggEDTbxMCXZZFINCt3x2yNCbEpDEBxaBnUJ04AM2kd9Dl1GfcbTLVZcgDJ19scVUNVQ7hfa8fJ/Gwp1FegKfdFJ7W1vZ5xkEnYd6GdbvmzFqyq5BttWzPmqoFVzQIC/Dyw5Lw8vD+eL8523Ys2bCe90nB+yO7fXu5g0wSYB5oKQopnGsneT6a53cAAAAA");
 
 export default SquareMinus;

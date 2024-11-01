@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-keyhole` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-keyhole?s=sharp-thin shield-keyhole}
  * @preview ![shield-keyhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shield-keyhole.svg)
  */
-const ShieldKeyhole: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M250.2 19.4l5.8-2.2 5.8 2.2L469.3 99.9l9.6 3.7 .6 10.3c2.8 47.8-4.7 121.5-36 193.6C412 379.9 356.2 451.2 262.4 491.8l-6.4 2.7-6.4-2.7C155.8 451.2 100 379.9 68.5 307.5c-31.3-72.1-38.8-145.8-36-193.6l.6-10.3 9.6-3.7L250.2 19.4zM495.5 113l-1.2-20.5L475.1 85 267.6 4.5 256 0 244.4 4.5 36.9 85 17.8 92.5 16.6 113c-2.9 49.9 4.9 126.3 37.3 200.9c32.7 75.3 91 150 189.4 192.6L256 512l12.7-5.5c98.4-42.6 156.7-117.3 189.4-192.6c32.4-74.7 40.2-151 37.3-200.9zM256 176a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm48 32c0-26.5-21.5-48-48-48s-48 21.5-48 48c0 23.8 17.3 43.5 40 47.3l0 72.7 0 8 16 0 0-8 0-72.7c22.7-3.8 40-23.6 40-47.3z" />
-    </Icon>
-);
+const ShieldKeyhole = createIcon("shield-keyhole", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABjAAAAKKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCRgsGAAE2AiQDCAQgBYMtBzUbSwXIjsK2eXMkWRIskgzD4BsPz+8v/tc+cx/lZDQ4ScxOSEIDVJ//d5qDcXn3BAYpCQyNlUlqbEvOC415afN/uef3/OgAv9GhjWVrg4ylR2s0nycQYFF9az0PLNqgmSZg+d18Ryrl8pYieaIkDdst3/4vkMVlU5BJR9I97Cp3FV9VsUqSywGI0gBAn7GVxfDwCT9F3M1fE3cNBAKiD0BtiJxAqkPQHVHgC5DUBjKZ4FPk//U/UAcCiIJw5QQyFMQ67AFkIMmyrEFDoZpZoEQ2Jm0pOrFSeakYR0eF+Cknam/7ztKuVJWPivGi56225w27WoxKMXa0oorCgmOiYpSPUVE/KsfxOjv+8/SboytEpXjZ73a7C8Y9TdU2McYBq8uvM7ZW3MQ1lbaYXY5KMA423BetyxbFG2ZAUSwAP1lpC+ue4R186+9Nu+f/o3IcBs/DrCmi/NxJ7eNn99m1RqhQhetnlGoeNhW1b2n8XSdExgrPQ1252PZbETWYP39y8v1pXu077nDC0ye0aXTU/KNnyc1sLik5f+M88Yl3rVt/3CeWPXdD6I+mNJr+CFfOCQAgEJSq9NdfA7f73zRmAl8u/X7qz6hk/gH/SAcoLIEg1zzvUpsoqWT8AQEAKRYyJEoKJMuQlHst7qAAoSgCJAUVFSCnGh4EmaKaQVBATWEICipqJKLIigjl1Q2QFDcH5HQ0BzLlXYICunv0CiofOVukLIn6E4zPYSR7na6Nx6dL0C1znTYvIi8n6o7FxuOhZxcotBvQb1SbVl1GCRtWHI7pk7NDs32Rjp+Hj04C3XX1vLtGm2Ejugzo11US6d67NuP7yXZRCIDb1glJIlLJeTO62npb3bOnTn0TAA==");
 
 export default ShieldKeyhole;

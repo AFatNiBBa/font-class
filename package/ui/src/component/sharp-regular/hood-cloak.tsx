@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hood-cloak` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hood-cloak?s=sharp-regular hood-cloak}
  * @preview ![hood-cloak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hood-cloak.svg)
  */
-const HoodCloak: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 464l64-80 0-96C64 128 160 0 288 0L412.1 0 480 0 441.6 38.4 432 48 407.2 72.8c13.2 9 25.5 19.4 36.7 31.2C485.6 147.8 512 210.4 512 288l0 96 64 80 0 48-48 0L48 512 0 512l0-48zM288 48c-90.5 0-176 94-176 240l0 96 0 16.8L101.5 414l-40 50 98.5 0 0-128c0-70.7 57.3-128 128-128s128 57.3 128 128l0 128 98.5 0-40-50L464 400.8l0-16.8 0-96c0-83.7-35.5-142.6-83.8-175.5L332.3 79.9 364.1 48 288 48zM208 464l160 0 0-128c0-44.2-35.8-80-80-80s-80 35.8-80 80l0 128z" />
-    </Icon>
-);
+const HoodCloak = createIcon("hood-cloak", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdgAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCEgsGAAE2AiQDCAQgBYMtBzEbEwXIjsQ4JvJIF0fx8I/N9veN7IEEl1kqEdWO7+qtSZ3qZZ441/nORwMsm3sU7nwgBZ55PoGdj6L8U1srwSaKr9t0R3pE4RcREiQRHU94vM0gi2/jIjnJ1UlcqD8av2ruNIk8BRD1ADBi3qwpXvopfop4t/I48a5JCIgRoBBIkaKVAIOlAq1kCmQywU9RqfB/YEEAUUU/MgEZcqzHAUAGEmmWVXevW85rZ3PLecm82fMivpz35bQP55XLg6NRtI/bO3w+R8wJUaoT6z6bHvHRbCEaxfAoR8Stw14c9/oQ1aIcI6NJ0GZu6frAwKHRKUrzy6VyxA0d7+n7WPu7Wml3T717fq++9j31hk1LmOVMbzX8BBs3Hu7w6Dmudt7gGD4y2b3csGm6616ve9sbxxhGt2TrcvVdZ4eVjst7j5o+fVTv/LhVdrhPfcvV2bRp3F8qJk+78SYc97iYu6ZevTVz4zgQCN7/7JeLl9Ud/H+NcgJ+eebPP7W1Ky8lw5N7UEMCgrRzpbPFyXBgfABSEnu1cyYWSCyXgt5rLVcIEEoIkKhSEiDVUj0BMiWdBMi10UeAKiWzpCKrKTSyZMCJWnbAqb6OwJlGHoVzg70pVWkUacRR8UL99+LHWmBMUdGja/diYLHUdDqIiJwdVGwL7feKpwNGrbXNVrutsdoGuw200xR1jy3GeuAYEyr00FV3hYGKY/O5f641dtplg222ljyDFPfF9vb64R1QRgLo+VaEVEdSWr9t2+ouqzZvW7EJ");
 
 export default HoodCloak;

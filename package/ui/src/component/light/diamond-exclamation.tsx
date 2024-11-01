@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diamond-exclamation` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamond-exclamation?s=light diamond-exclamation}
  * @preview ![diamond-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/diamond-exclamation.svg)
  */
-const DiamondExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M261.7 34.3c-3.1-3.1-8.2-3.1-11.3 0l-216 216c-3.1 3.1-3.1 8.2 0 11.3l216 216c3.1 3.1 8.2 3.1 11.3 0l216-216c3.1-3.1 3.1-8.2 0-11.3l-216-216zM227.7 11.7c15.6-15.6 40.9-15.6 56.6 0l216 216c15.6 15.6 15.6 40.9 0 56.6l-216 216c-15.6 15.6-40.9 15.6-56.6 0l-216-216c-15.6-15.6-15.6-40.9 0-56.6l216-216zM256 128c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zM232 352a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const DiamondExclamation = createIcon("diamond-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABagAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBUAsGAAE2AiQDCAQgBYMtBzob2gTIhofn53o79yUzBaCUGRWgYpJsCdex/7Jgl1T1zP819eL50QF+O7JDibbU4kiuXj+fwMT25gU4LxvYTCdge9sQxEYoXgmJkojGExqr0xny+BC9lEh301+4LB8af2vhLEmeAYj6ABi/dOFsv3yLbxF/VV4Rf5mJgJgACoEMGVoLMEom0FquQC4XfItKhf4DCwKIMn2UBHKUMQ1LADlI8jyv37JOjVqlOvmSWqWaW281XhQ3miyOm82Wxu2mS0bcrhVx3mtODpWa53onbsWpwFl8swl/p8a3mkbcbrboftdHLe50etyyw/P6z/9t/9eWv5QeLlxYVWXw4KoqFm/yoT71PyCkhTKtDn6re1Ldb5hq9rXJ/PlNiAjEbf9N2XF0bb1RP6vXSuDH+/9/4l9R5ZckPUd1CQRZr0ovqxJIBAAgxREdEgSScXLyrrXdEiDURICkrKYAmVbqC5CrqacAJW0NFqCspoUykdcQGlvdQFLbfpAZ4hjINfYClIzyq1vWOLKE4tKBe84lT/Ho5ENF/z79ihHFtGJ8jjB1d2SxrHY7Uibd4aQt9trjkM022e6Qww+YHRy225QIm+yLCv310U9hhGK7vT++xGYHHLTdXnt4n5GK82Y3R+Ll3cFIlHSAXJKI1OgKT3t/VUEZe0cAAAA=");
 
 export default DiamondExclamation;

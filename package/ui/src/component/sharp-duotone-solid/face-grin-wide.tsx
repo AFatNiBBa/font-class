@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-wide` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-wide?s=sharp-duotone-solid face-grin-wide}
  * @preview ![face-grin-wide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-grin-wide.svg)
  */
-const FaceGrinWide: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm96 46.8c46.2 18.3 101.2 29 160.2 29s114.1-10.6 160.2-29C400.3 376.7 334.7 432 256.3 432s-144-55.3-160.2-129.2zM144 192c0-35.3 14.3-64 32-64s32 28.7 32 64s-14.3 64-32 64s-32-28.7-32-64zm160 0c0-35.3 14.3-64 32-64s32 28.7 32 64s-14.3 64-32 64s-32-28.7-32-64z" />
-        <path d="M176 256c17.7 0 32-28.7 32-64s-14.3-64-32-64s-32 28.7-32 64s14.3 64 32 64zm160 0c17.7 0 32-28.7 32-64s-14.3-64-32-64s-32 28.7-32 64s14.3 64 32 64z" />
-    </Icon>
-);
+const FaceGrinWide = createIcon("face-grin-wide", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABmgAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCPQsIAAE2AiQDCgQgBYMtB1gbZwXIHolxrMhGCNeShtLy8P92/7XPrWrA1T9qyJGECGYsRPIQ6V8TOpr4tQnsMbT8HzWbuOb5n38DFvmjdeh7xoaPizqfQIHNhuVlOhzpDGx+N3kvOhFpSRJ/dRq2TsNSdhCHO+TxU7ZPBdLl9A1Ouv8BjL80sY+kSgYgagNg6LRJY7wpj/IU35SeEt8YjYAYBgqBDBmaCzBAJtBcrkAuF5SnEsqjpCCAqMg9MwMVURnbcBSQgyTJ87xevWY1VFitQo18qv6OqtMuNou4GrubXml4rvElu5pcblCthOLXoe95O+bbakfHfT/8/bTfhr0b+13VI6O/GfJm8pRfp/w+7daAFyM+DXpVNm33Hq3R+SaX7Tqi/oWmV6Ia7i67Xfv2P62/6RsPXr+b3c2a7d79D7vjnFu4wBsjq9Dkydvhw98+aVLFyIc0Nq/TyGYzzBDCzz9RGq3z2ma7YXNxzq3ycSAQfN5/knm1BvxfuVoCfzz770/8kJTeJOk2KksgyDqUOpidQCIAACm2KkucQiAzVs5n1V0QR7OqCBNUVBVZppnamchV1Z6ooKWed1RU1SSZyKsI9c2RiaS6DUSml+1Err4nRAUDfI4rqh+ZHPJSxH8DU0YJjNxVdO3UpehXDAdJEC3WbvYvlp02W5toi7OWWmetzZZYbIXN4BuNybZYY9QMHOmDCl110kWhn4I9V61MJd5okxV9ib9Nf8X5oI2t8/lt4SeesZsTmYxIkTW85rWOyzauWNvxdRgdZXpW45Z0gQEAAAA=");
 
 export default FaceGrinWide;

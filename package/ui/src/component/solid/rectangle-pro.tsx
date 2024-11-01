@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-pro` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-pro?s=solid rectangle-pro}
  * @preview ![rectangle-pro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/rectangle-pro.svg)
  */
-const RectanglePro: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l512 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm40 128l56 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-32 0 0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-64 0-80c0-13.3 10.7-24 24-24zm56 80c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 32 32 0zm80-56c0-13.3 10.7-24 24-24l56 0c35.3 0 64 28.7 64 64c0 21.9-11 41.2-27.7 52.7l24.1 38.5c7 11.2 3.6 26-7.6 33.1s-26 3.6-33.1-7.6l-33-52.7L288 288l0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-64 0-80zm48 56l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 32zm200-80c48.6 0 88 39.4 88 88l0 16c0 48.6-39.4 88-88 88s-88-39.4-88-88l0-16c0-48.6 39.4-88 88-88zm-40 88l0 16c0 22.1 17.9 40 40 40s40-17.9 40-40l0-16c0-22.1-17.9-40-40-40s-40 17.9-40 40z" />
-    </Icon>
-);
+const RectanglePro = createIcon("rectangle-pro", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABnAAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCdgsGAAE2AiQDCAQgBYMtBzQbegXIjpNlblHW4J/Pv+q++tWq3xiiZm1lIjIwmmyZBH02ZSR0BNAXc5/nms/v+dHh4ecjOLSqZWCkb5b5fAIDrbSm6Z6PRmkTxZlrY/CcQZEzicxDdNPH0BaqxT2w+h3sIALmrHkHHJ7n6wOl7ABDIoBQDnCf9J44dji1WWWlt/8fg94yFBCAegPgERAAAVCBAOhGgIAKLB6wWARZ/f8//Qd6EAAoCh/VAGCBBHABuAkAWAAMMWvLylxVWFwURlJ2QhhxU280ku6UGJ1tfLd+Rreb3i8PdK7JvQbp8aELbza+W3qm0Z16TuhMvVtlknS+4fjTxaeKnFA48XzDUIknLzRqrrP1bpT1UY7uHbowe+LjxtLdSoSb3mn3pMm9Kuly0/sdxyG2FJ4M9xeflrS16JTbV3CCOvdy7n2qebfg9Lx8BeS6Xrjc3CsgMnwNN3cip5yM8jSicPTowl6MWnM6jsym01nPYhvZca93erJQ19ZzPNm51pJPMvLde9+WvBzZHthjc7B79uQSfA0n5nBO7ov7cu+/kINdDwACBD0bPtizTLev8dAA8P7Flx+4nP9Zs8XcA+IYAARBs//NmGa2AIApAEgZbaBO8EUCDCeIwV1JTiEAhAOHIYpDQDk5sDiaIkIV7XdHcYwlQDaBKGC6w5BkNQI6sBGWAh4iQjdeJqMUKKhRocKEL8TUAUr0H+Zbt2jlu/jLvE0sO27s7+pv2xttGOoa20oWsJIVrGM+81jMOqHWMDyznuUMiMj+/BBPa1rQCk8XfHfpozpBfGtYq9y53D9IV/z74UZsiFs3NpeBrG3YbTAgk1ozf+662SsWLpv/3wg=");
 
 export default RectanglePro;

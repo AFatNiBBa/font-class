@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-check` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-check?s=sharp-duotone-solid heart-circle-check}
  * @preview ![heart-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/heart-circle-check.svg)
  */
-const HeartCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 167.8c0 36 14.3 70.5 39.8 96L64 288 256 480l23.7-23.7c-15.1-26-23.7-56.1-23.7-88.3c0-97.2 78.8-176 176-176c26.4 0 51.4 5.8 73.8 16.2c4-13 6.2-26.6 6.2-40.4C512 92.8 451.2 32 376.2 32c-36 0-70.5 14.3-96 39.8L256 96 231.8 71.8c-25.5-25.5-60-39.8-96-39.8C60.8 32 0 92.8 0 167.8z" />
-        <path d="M432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm67.3-164.7l-72 72L416 430.6l-11.3-11.3-40-40L353.4 368 376 345.4l11.3 11.3L416 385.4l60.7-60.7L488 313.4 510.6 336l-11.3 11.3z" />
-    </Icon>
-);
+const HeartCircleCheck = createIcon("heart-circle-check", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABhQAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSBfQsIAAE2AiQDCgQgBYMtB2AbLwXIhofv1/o893XPLAD1MrNiUkRJFDA4tL8iWcWlaqZO5VzOQwvkOYlwkMaa56M9r815XoGCl6pjWcFKFarW0Grd+pfURlp7S7L6STrcmsPt8S6Qx//ZWSXS3fQjbvD/AMafWjhLUiMDEPUBMH7pwtk+rYqqFD9W3iR+NAsBMQEUAhkytBZglEygtVyBXC6oSpUKVVGpFAQQZfzqDJRRwlrsBOQgSSLPW7XoWKtUJ1/CD9Zcf2VkxAd9X4lTfV4e8X7Ny8Pe7fWik71fGv5eraWLQtU4msYY6uwZTaJ7LIxmRDTOno5WF7cnvdzht4U/Lb0y+H48M+bjKV+O6hY9Ij30YdHh+frP/93+xy0/emVs10Tq375Ll/b9U+qqunw+4bmp4rzAUY963xYv+IG10BZ682pbj/rkE0eTmFE/vim6tVvQpMbmJTf3HTnqqCP7bi7ZXAMIBFseXDi9tt6o/6rXSuD39//9Iz+v8mkal55HdQkEWa9KL6vSOPDkAH5UiiM6pHFRIJAZJJFPre2WAKEmAiRlNQXItFJfgFxNPQUoaWuwAGU1LZSJvIbQ2OoKktr2g8wQx0CusTdAySjf1GWNI8OZgBLhMy91ioYn7yv69+lXjCimXUWEDhe3RxbbbrcjNNXdHLXFXnscstkm2x1S6AGz24ftNmWFTPZFhf766KcwQnE8uFWXqPqAg7aP5fNdRirul90cWS/uboJEGAc4kMmIFFlLrJu9f8nRe4PW7I3aRa378iMFAAAA");
 
 export default HeartCircleCheck;

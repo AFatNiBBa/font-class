@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brazilian-real-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brazilian-real-sign?s=solid brazilian-real-sign}
  * @preview ![brazilian-real-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/brazilian-real-sign.svg)
  */
-const BrazilianRealSign: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M400 0c17.7 0 32 14.3 32 32l0 18.2c12.5 2.3 24.7 6.4 36.2 12.1l10.1 5.1c15.8 7.9 22.2 27.1 14.3 42.9s-27.1 22.2-42.9 14.3l-10.2-5.1c-9.9-5-20.9-7.5-32-7.5l-1.7 0c-29.8 0-53.9 24.1-53.9 53.9c0 22 13.4 41.8 33.9 50l52 20.8c44.7 17.9 74.1 61.2 74.1 109.4l0 3.4c0 51.2-33.6 94.6-80 109.2l0 21.3c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-19.4c-15-3.5-29.4-9.7-42.3-18.3l-23.4-15.6c-14.7-9.8-18.7-29.7-8.9-44.4s29.7-18.7 44.4-8.9L361.2 389c10.8 7.2 23.4 11 36.3 11c27.9 0 50.5-22.6 50.5-50.5l0-3.4c0-22-13.4-41.8-33.9-50l-52-20.8C317.3 257.4 288 214.1 288 165.9C288 114 321.5 70 368 54.2L368 32c0-17.7 14.3-32 32-32zM0 64C0 46.3 14.3 32 32 32l80 0c79.5 0 144 64.5 144 144c0 58.8-35.2 109.3-85.7 131.7l51.4 128.4c6.6 16.4-1.4 35-17.8 41.6s-35-1.4-41.6-17.8L106.3 320 64 320l0 128c0 17.7-14.3 32-32 32s-32-14.3-32-32L0 288 0 64zM64 256l48 0c44.2 0 80-35.8 80-80s-35.8-80-80-80L64 96l0 160z" />
-    </Icon>
-);
+const BrazilianRealSign = createIcon("brazilian-real-sign", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABogAAAKiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDAQsGAAE2AiQDCAQgBYMtBzobiwXIhofndeqf+6SQnLDtAqnE9IGYh5VXnGiq///7efwf/1Qg1+ijRVLqA/mRIFGLOj6BCbQlNc5HCTbTCdh2Z3PMIVpRkqRozRzfHJc95PF+doUm0r3pB9ycPjR+N8AVJG0ZgOgGwPK9d272yS/xS8T3jTeJ721EQCwHpUCGDIMFWCQTGCxXIpcLfolGA/8DSwKIZvRgCeRowhN4AZCDJMvzQyd1VZo68r0qTcXR19ci7iSeHF2LO2t3Vu+o3lGvx11FEU9U7/Dg7PXx5vhnh4gHxj0zS1xSvaO4rn5XRDw1Zkzc1bR+d4dQbXQ8WXka1hgU8dCYDfHWhOfi4YnPz424dNYqhxQtwk+txJeLPxz+wKQX5u2OC/Rd9b0icy4UuytF5W3RnQx7aMJzc4ow4rnu5/4c/sNRP7j5485ruKaz18iWO7y1cOHG419//Y07/NedHPLXnn6pc5YhiyblueYDDphY03nNNZ35gD5HTrrI04MnHn/ep6+9dbKiuuzHH/Nc7x5uctHolgM2L6qjdfNS9Wu2+fTqcwa3H3booTMvtmjjhjc/f+OJ/edeb4JLFEOP+GXpx9Pott1H7hWx15Hd0zwCBIKzRz/8ysFdi/5prSTw23t//6/+ihqfJOk5tEogyCY1JjkggUQAAFKcZUSCQPKADKB2d0m9UNAhaVZAZpBuyBUmQpOhZrNMZSeLjrwNqjrQQdLuVMjMcSHkql6HJot8bTerRmaovJnx/8SUNSO2elI5fcq0ckG5TDXB9tgwurBk6+PO8i3jYaWjnOwkZzjSEY51xkCcZrN3phOt2eGrfVFpuimmKS1QiovnxXs50mlOd6yTnRTHWajUR+Octe8+HqyEGGfYIklE6jvstEPPO/aEYw89afKjUicbOg==");
 
 export default BrazilianRealSign;

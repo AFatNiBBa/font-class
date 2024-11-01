@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `memo-pad` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memo-pad?s=regular memo-pad}
  * @preview ![memo-pad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/memo-pad.svg)
  */
-const MemoPad: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 128l0 320c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-320 352 0zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zM96 200c0 13.3 10.7 24 24 24l208 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-208 0c-13.3 0-24 10.7-24 24zm0 96c0 13.3 10.7 24 24 24l208 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-208 0c-13.3 0-24 10.7-24 24zm0 96c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0c-13.3 0-24 10.7-24 24z" />
-    </Icon>
-);
+const MemoPad = createIcon("memo-pad", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABcQAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBZQsGAAE2AiQDCAQgBYMtBy8b5ATIjtMlNuUxYTx8v9bbua97fgCow4wOyAOhBFLjgkZMxaYid+10GBz0u/m/Gfd6HgX4jUIbC5duXGB7Pk8gwDSbXiJnB3akhydgp25j5Q8HeTGIHtEjxxAfmsEL8rgbl5RIt9NvXCxvGn+1cYGklAGIxgCYvHLpfOVKVCJ+VT8Qv8xFQEwGhUCGDO0FGCcTaC9XIJcLKlGt0n9gQQBRQx9LIEctrMA6QA6SUp43aNtAv7t6pQb5inqlujtTlq41rx83WmbRYMuzXhGvWqe43ft19wbxsu/bdlnc6fOmR/3lt7vXi5ft7vSoG89aG5a7vGn85l/n3zt+uzhxErY3rExSaTjJpoWnHzWhSd0z6jZp8mgSYcjV6VuLxVncotZtEkgS94FA0Ojokk8bG437r3a9BP58/X/+GamWo5zeoLYEgqxftZ91UYYoCwBAihO6RBmBZIESfdX6bggQ6iJAUqOuAJl2GguQq6uvACUdDRegRl1LZSKvIzS3voOkvsMgM8JJkGvuHSgZ55tZo3lkqUUmBvmyi5th4elzxeABg4oxxTbUqGzBZTy2OOZ7neBSb6za4aADjtlum92OGfSI+c5x+83wkOk+qDDYAIMUxijCyTO3wphHHLV7zcSnjFXcl3s54Tf3hpQo5hC+JBGp9p+2Rv9DbAMAAA==");
 
 export default MemoPad;

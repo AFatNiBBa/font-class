@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-tree` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-tree?s=duotone folder-tree}
  * @preview ![folder-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/folder-tree.svg)
  */
-const FolderTree: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 32l0 96L0 384c0 35.3 28.7 64 64 64l224 0 0-64L64 384l0-224 224 0 0-64L64 96l0-64C64 14.3 49.7 0 32 0S0 14.3 0 32z" />
-        <path d="M288 32l0 160c0 17.7 14.3 32 32 32l224 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-98.7 0c-8.5 0-16.6-3.4-22.6-9.4L409.4 9.4c-6-6-14.1-9.4-22.6-9.4L320 0c-17.7 0-32 14.3-32 32zm0 288l0 160c0 17.7 14.3 32 32 32l224 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-98.7 0c-8.5 0-16.6-3.4-22.6-9.4l-13.3-13.3c-6-6-14.1-9.4-22.6-9.4L320 288c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const FolderTree = createIcon("folder-tree", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABggAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCFAsIAAE2AiQDCgQgBYMtB1IbOAXIjsQ4FvGJsKDFw/f7/W/tc+/7Y4r4RVwTJHFrYpr4lV8hkWgeCv6GypAYmqXD+///XJPv3fNrwG8XBIdWiwiv0O7n0/kAiworzacztJlbYx7oQ5CBRkQMyTGkx2/r8esAefzJzimRHqf3uNn+BzB+6OIcSVUGIBoBMHv54kVelqOc4v3/58R7CxEQc0AhkCFDdwGmyQS6yxXI5YJy+j/l+H9BAFGhfSwDFShhHw4DcpAkked9OFJTqsuXjXuqtwunOtyvqYmrnR5GxOmOD6qr40rHjoHZWu9JKpJlpHg8+Gn/QkRUK0mxSVjcp72x/Wfv99ve6/WkjXNcuqTsQE/lb1Z36YtLdXPFcAV82jZgD9VNTW1ls5SVncZZK6mzgTivx6gPK9Y3TPtdWZPA9xf9kq7+/zLNSu2olECQDfs/zJo0C7IwgB+V4pg+aVYUCGTmSXhfrQcChGputqRCNch00wi5akOhpKfxknHPYpnIq4RWaxEktQ5CZoLjkGv1DEqmeRWr0BqZzykeo/zxpV8g0fnzitEjRhVTimXFpbqRVCenFmb7oGOlYzBttM1++xyx1RY7HRHMIYuSR+21QMPm+6LCaCOMUpii2K4/65chdshhO5+1+9NMVbwfHuSY3n8wuRIWHWNdJiNSZC3bwt0w/Hs0D4/erg6zNlABAAAA");
 
 export default FolderTree;

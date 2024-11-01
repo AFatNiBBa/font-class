@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `floppy-disk-circle-arrow-right` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/floppy-disk-circle-arrow-right?s=sharp-duotone-solid floppy-disk-circle-arrow-right}
  * @preview ![floppy-disk-circle-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/floppy-disk-circle-arrow-right.svg)
  */
-const FloppyDiskCircleArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 32l32 0 288 0 13.3 0 9.4 9.4 96 96 9.4 9.4 0 13.3 0 32.7c-5.3-.5-10.6-.7-16-.7c-75 0-139.1 47-164.4 113.1C256.1 294.5 240.8 288 224 288c-35.3 0-64 28.7-64 64s28.7 64 64 64c13.3 0 25.7-4.1 35.9-11c6 28.1 18.7 53.7 36.3 75L32 480 0 480l0-32L0 64 0 32zM64 96l0 128 256 0 0-128L64 96z" />
-        <path d="M432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm19.3-211.3l56 56L518.6 368l-11.3 11.3-56 56L440 446.6 417.4 424l11.3-11.3L457.4 384 368 384l-16 0 0-32 16 0 89.4 0-28.7-28.7L417.4 312 440 289.4l11.3 11.3z" />
-    </Icon>
-);
+const FloppyDiskCircleArrowRight = createIcon("floppy-disk-circle-arrow-right", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABlAAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCIwsIAAE2AiQDCgQgBYMtB3gbbQXIjsK2tXOEScokxUF4iofnj73n3vf+X6WtOaJA1zTgsgabFfrASyfwDbKrqnqOPWf0wYwEPoRQZvRBtPEzgmf+r/n8rOnw8PMRHFrX1iAZmPl8AhMMbpqeroSmM7QN20a1vo7xiHGM6RFq/C1rYU5+ineAV/c/gPEPT2shdRQARD8A4PC8thyPTGESfGdcg/hCGQiIIwCTiIKCUQQ7NIFRZiZBVQU/wjD4oWFMQgDRhIMLo4ke+Q7cA6ggpaxm3v4R1rq5rVmDbi67t2SRd+MuclXshcw7cnP6rehzWDl7PuO23lhdU+1KF1bRhZF0ZxSlJHU9km5Nq6umS1tX1hOWIsSbfLYvvPgTocfCT3nsjjgdssV9f4SNJDWyGtQTpE3gGYcznwPeDbxzcT9MQC4GhIYGJAgR1mnDMaf3C/LQ7uCOBc4acMc9zf0KDpf3cMeAsw5NqvJd6LzCJramTLWvfHAhwX/nIUdHKeWOQy6/N1+0UgorqdZKSAEv7goE37ZbTJ322d+sdAH4u/P1g+Lm1qPMF2cA7RIEZcaI1pb5AIxO4EdlzEdg5lMBAsUWAX1qtzcEoRMBUlOnAMUIBwRVp2kEDeNSEDR1OqaJao0wrL0Bqds1KNYsA9Wwq6Bhx8tM03BoQY8POPydX0ppFyrZphJi41Wmmm2rhNDE6vUstdkJn8/HIuBeDJg0YU6/PsPmOuSM8vw840qXiBJfpCSIFU/JpA73HioNODNj1vC0dHyTLOr6dLj5y7MjoC/kjEsOF4VIaqEDY5NTU4tiUq0R86FOTUz3zMzkgkhsxPzO5iBrJD8MAAA=");
 
 export default FloppyDiskCircleArrowRight;

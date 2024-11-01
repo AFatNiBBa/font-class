@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `raygun` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/raygun?s=duotone raygun}
  * @preview ![raygun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/raygun.svg)
  */
-const Raygun: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 24.6l0 50.2C78.5 67.9 94.8 64 112 64l80 0L102.2 4.1C98.2 1.4 93.4 0 88.6 0C75 0 64 11 64 24.6zM288 56l0 8 0 231.6 0 .4c0 13.3 10.7 24 24 24s24-10.7 24-24l0-240c0-13.3-10.7-24-24-24s-24 10.7-24 24zm80 32l0 176c0 13.3 10.7 24 24 24s24-10.7 24-24l0-56 0-64 0-56c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-        <path d="M288 64L112 64C50.1 64 0 114.1 0 176s50.1 112 112 112l8.2 0L51.4 425.7c-7.9 15.8-1.5 35 14.3 42.9l80 40c15.8 7.9 35 1.5 42.9-14.3L288 295.6 288 64zM416 208l60.9 0 77.1 30.9c4.9 2 10.5 1.4 14.9-1.6s7-7.9 7-13.2l0-96c0-5.3-2.6-10.3-7-13.2s-10-3.6-14.9-1.6L476.9 144 416 144l0 64zM112 152a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm72 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Raygun = createIcon("raygun", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlAAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCRAsIAAE2AiQDCgQgBYMtB0gbXgXIHgd2w9cV3gxLSgKFrnh40OP9c5M8JTVSCJrwha2ePjyJw65J3or8Bw/Id9+B/7nm80s7OsDPR3BokYsILJBR5vMJ5POzRZTABGeK893Wu6Lwf8UgTgWHiKHtQrwjZPGwiypIXky+xfX8P4Dxq+YukqhJAUQ9AIxbsmCWD7/vpG+fvEV8ayYCYjwoBVKkaCXASKlAK5kSmUzwfQLfByUBRKX8rSmoRA1O4zogA4lMmmWtG9fU1GnQoKionS0uKvIteZG/1fVeq1e73R9UxMJ4pvGzjRfFs02fb7okYlGRF2zLiDjX5LlGCyMP6283f6HjnRYvd1mUhPjkCuFuUcTieC6/1WyRICJe7HS3ZcRLnRehOCNIv/2Deg9+b/ft5m+1PfMarv3L47p1H/ur2sRrZowY8c6cLt56880d6z/z05nro6Azs439GzdWr1Vd1f0sc5SxfYbMa9x4XiSnNBV81Jg7/TFleYu5lo2woGpdk+/aVCP+EwTDX9U7p+1r4EpyqLGGzp8DgSBv13nxmroj/68uEvDjB/71t3tyMjZ5gGoJCNKeT3pamYwFywwgmcRh7QXBjik1UQaranlOgJDTIVEph1RL9SCT6wEV2hi0ulJugVRkNUIjqwwkatkHqcFOQaaRN6HCSF8kKjWKVBcFTRL+BFMnj8ikfmW/3n3L4eU2q4nqxYXuEeWxrethV9WNZtpsj90O2mSjbQ4O9H6z0ofsMlmiJvmhUj+99VUarrwuvE5ebJP9Dthmj92plxHK96GuDsuNu5EzAdb+VqdSIom0zv51x7Yc2t1Lp031uPztAg==");
 
 export default Raygun;

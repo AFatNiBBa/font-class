@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `child` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child?s=sharp-thin child}
  * @preview ![child](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/child.svg)
  */
-const Child: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M160 112a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM160 0a64 64 0 1 1 0 128A64 64 0 1 1 160 0zM96.1 160l4.8 0 118.2 0 4.8 0 2.3 4.2 76.9 144 3.8 7.1-14.1 7.5-3.8-7.1L214.3 176l-108.6 0L31.1 315.8l-3.8 7.1-14.1-7.5 3.8-7.1 76.9-144 2.3-4.2zM96 288l0 208 32 0 0-120 0-8 8 0 48 0 8 0 0 8 0 120 32 0 0-208 0-8 16 0 0 8 0 216 0 8-8 0-48 0-8 0 0-8 0-120-32 0 0 120 0 8-8 0-48 0-8 0 0-8 0-216 0-8 16 0 0 8z" />
-    </Icon>
-);
+const Child = createIcon("child", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdQAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCIwsGAAE2AiQDCAQgBYMtBywbHwXIjpTuEoFVPHzoRN+XZJ8jh0EBIt5oSjZase2UrYBbOyJNnW1zIxgjNIatWsKX61cNemad/8v53fOjBfLtyA5pTFwTZOzGWs8TSDTtnSfQywLLNAHL3NVKPBT30ZIWsySP5x4/NWSx2hYlksfJF7hfPjT+0soVEmkKIBoCYOLyxXO9/z6+j/i89ob43GwExERQCKRI0VaAMVKBtjIFMpng+6jV4n9gQQBRhhdPQIYyjuAsIAOJLMvq1Ws3tKr1smXVUr76WZvZenRbLVur3pVfz9NjD/m90PsOT9W82ixyNAsLjxJ5LOl2iFpLhGqgqVoVYkBBiDzHInJBr9HpZUP80/GLbV94Mv/pr+/e/fq0kQ8M6NehQ78BD41/UipdaEJz7hvmW8PMum1P4AS9sptc+AbdhRMqKiMqTBS+kTVU8d0sWAxx+tMgEOxYebOyvsGY/yvVBPz40X9/8c+oXu19DE6AigQEaZ9aH2vimHrqxWABAEjimE4R1RNI7JHBu9b1QICQI0CiLBcg1UZDATK53gKUtDdUgLLcYqnI6ghNrR0gUddBkBrmLMg09QqUjPFxWNY0xPM4v+E+fsnTJDz1VjGw34BiVLGd6LwzMflydHGs9DiWNnrSXdvst88RW22x0xGBHjI3OWqvaRYy1RcVBupngMIoxfX8WV4mwkMO26mL99eMVrwPejhm7+9JegKUg/QlEiIpeToAAA==");
 
 export default Child;

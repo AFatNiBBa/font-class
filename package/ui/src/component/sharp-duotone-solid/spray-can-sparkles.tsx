@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spray-can-sparkles` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spray-can-sparkles?s=sharp-duotone-solid spray-can-sparkles}
  * @preview ![spray-can-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/spray-can-sparkles.svg)
  */
-const SprayCanSparkles: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M80 336a80 80 0 1 0 160 0A80 80 0 1 0 80 336zM288 48l32 16 16 32 16-32 32-16L352 32 336 0 320 32 288 48zm64 96l32 16 16 32 16-32 32-16-32-16L400 96l-16 32-32 16zm64-96l32 16 16 32 16-32 32-16L480 32 464 0 448 32 416 48zm0 192l32 16 16 32 16-32 32-16-32-16-16-32-16 32-32 16z" />
-        <path d="M224 0l0 128L96 128 96 0 224 0zM0 256c0-53 43-96 96-96l128 0c53 0 96 43 96 96l0 256L0 512 0 256zm240 80A80 80 0 1 0 80 336a80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const SprayCanSparkles = createIcon("spray-can-sparkles", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABmwAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCRQsIAAE2AiQDCgQgBYMtB2AbdwXIhiBaq4qs6tkDoD5gVAgoyQGre5iXxI5ImAP5qF73/1zz+T0/OsBPcnpoUViJuSigqBQY6Khpb95msxHPwGa/zeeBnyDKBUXkjyJjoe1C2xWK+CPfVCM9TD/hbvgfwPhLFzdJmmQA0RoAs9esWOSbV/EqxU/VB8RPFiIg5oBSICOjuwDTZIHuCiUKheBVqipeRVWVBBAN8NAMGtAU13ALUIAkqxVFk7YtWrRB2KzWolgd39h0g9A0IpqtfD404r2JzeLDwe/2SNE88qpnUz6b9En3p5M/nfp5rzWWHr9wQ/8B/btEtxgYA6JrdI5+qwzuGlzb+9Rb1//p/dPun7z8+ioEOvdl1bhOvTlbrzdmFv8tab7n1Kk9zdOCJUe8+WuvCvX0hDO3TE2/UbcDgeBFu/zOllbT/m/cLIE3n/33Z/4hqb5JUh2NJRDkYdUwGxNIBAAgxWl9EiwVyJapwdnm7gkQmqJC0qApZN20hkJTQ6Gmp/Hk5ZkVsiiaCO1tIpA0dwyyCS5Bob33oWaab2MN2kfmIs0k+lcwYUGPzN9Ujh4xqpxSbvMKQy/S9U8tr8VBp23dYDlotyMOO2mXnfY52WHHLUqecsiCEzrfB5VGG2GU0hTl49Lz7tV2Oe6EfY447NeZqnzfHeT0ufVgURIQjnFZlokUueuJo8e3nRu+Y9vh4Sco7x3cdWI4s1t1X3MfMgA=");
 
 export default SprayCanSparkles;

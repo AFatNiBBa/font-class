@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `object-union` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-union?s=regular object-union}
  * @preview ![object-union](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/object-union.svg)
  */
-const ObjectUnion: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 304c26.5 0 48 21.5 48 48l0 96c0 8.8 7.2 16 16 16l224 0c8.8 0 16-7.2 16-16l0-224c0-8.8-7.2-16-16-16l-96 0c-26.5 0-48-21.5-48-48l0-96c0-8.8-7.2-16-16-16L64 48c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16l96 0zm-48 48l-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L288 0c35.3 0 64 28.7 64 64l0 48 0 48 48 0 48 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64l-224 0c-35.3 0-64-28.7-64-64l0-48 0-48-48 0z" />
-    </Icon>
-);
+const ObjectUnion = createIcon("object-union", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABcAAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBbgsGAAE2AiQDCAQgBYMtBzMb8QTIjtRG+UVWEg//v/a/fe7MR+bhMphZEtdEo4t5o+END83eorKIUF/Vvl+cqhnnoQC+UZD20oCsgeke58WeV2zjtIoUC1bTClitnX2KJPqB9EnwSYbthtUV8ngVp9WRrqSvOJU+NP5o7yRJXQYgmgFg2vLFi7yvRjXiSw3xxQIExDRQCmTI0EmAiTKBTnIlcrmgGrWa/Q8sCSDq4bdJIEeOtdgIyEGS8rz3kEpd43xZpa5Y/qB1xIX24kLrSlxqG3GxTREP21zsIO75Vsv8xKJSPOz/dHLx2oBnfSrxoN+T9kJUKlK53PdxzyLUpyKK7k+bPf3b7eu2r26dGvqdb9kGTapV1Ux7a4Oxm7VqQzl7u3nzoqooyG2mbTPUUIvXgUBwYO/z4+ubTvzXoJLA75f/15+R2vskPUUDCQTZwNpAaxJIBAAgxTHdEwSSpRK+2MhFAUIBA0k9BWQ6aga5wgCo08Uo5vDCYpnIGwqtrEWQNHIQMqOdgFwrL6DORB+CelpFhi8OHdzvLnl2j8/aVQ4bPLQcX27bhIcME9YnlMd232NurB8dtc1++xyx1RY7HenIQxbFR+01WyNm+aLSMIMNVRqvvO497l9mq0MO22m/fXGTCcr3fl/H9Nn9yEuYcrhakojUCMXqILADAA==");
 
 export default ObjectUnion;

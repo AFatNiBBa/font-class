@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-holding` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding?s=regular hands-holding}
  * @preview ![hands-holding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hands-holding.svg)
  */
-const HandsHolding: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M72 64c39.8 0 72 32.2 72 72l0 128.8c12.1-10.5 28-16.8 45.3-16.8c18.4 0 36 7.3 49 20.3l61.4 61.4c7.7 7.7 14.5 16.2 20.4 25.3c5.8-9.1 12.6-17.5 20.4-25.3l61.4-61.4c13-13 30.6-20.3 49-20.3c17.3 0 33.1 6.3 45.3 16.8L496 136c0-39.8 32.2-72 72-72s72 32.2 72 72l0 216.2c0 31.8-12.6 62.3-35.1 84.9L537 505c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l67.9-67.9c13.5-13.5 21.1-31.8 21.1-50.9L592 136c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 145.9c0 25.6-10.2 50.2-28.3 68.4l-15.9 15.9c0 0 0 0 0 0L473 393c0 0 0 0 0 0l-16 16c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l16-16c0 0 0 0 0 0l26.7-26.7c4-4 6.2-9.4 6.2-15c0-11.7-9.5-21.3-21.3-21.3c-5.6 0-11 2.2-15 6.2l-61.4 61.4C354.9 383 344 409.4 344 436.8l0 51.2c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-51.2c0-27.4-10.9-53.8-30.3-73.2l-61.4-61.4c-4-4-9.4-6.2-15-6.2c-11.7 0-21.3 9.5-21.3 21.3c0 5.6 2.2 11 6.2 15L201 359s0 0 0 0l16 16c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-16-16c0 0 0 0 0 0l-26.7-26.7s0 0 0 0l-15.9-15.9C106.2 332.1 96 307.5 96 281.9L96 136c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 216.2c0 19.1 7.6 37.4 21.1 50.9L137 471c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L35.1 437.1C12.6 414.6 0 384.1 0 352.2L0 136C0 96.2 32.2 64 72 64z" />
-    </Icon>
-);
+const HandsHolding = createIcon("hands-holding", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABmgAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDCQsGAAE2AiQDCAQgBYMtBzQbjQXIjtOlNqUwvPHwvN73v/ZJBnBmHslPdlAFuqI6uBRaVvDNgKGo+b/c85t2G/Dzud611qAP0lzPE+j5WBS3aYFnYZYoNjhvwkFmhvIj5PGPG5SR7kwf4nrrQ+NHXa4kKcsARCMAluzatsHb3/ku4oPSC8QH1iEgloBCIEOGXgHmywR65QrkcsF3USqx/8CCAKKc88gEcmR4Es8AcpBEnj9YU1aX71QvqN736JiIJ7vE46OuHrPFrW23d2zzdM2jIyLuHvf0qEfHtN/ywPztHhl5V88uT0fEXSMf6RT3jG6Ny2K0kpixtUffkfrHxe3m4Ve1bvZEr7hj+GPdEfeN3eq26kc6L20bMzLWFnd2cmN7rh/rS6nnqf4Vg5eO2dGT2unNod0fOPRU41M/D3544odWXfLdNKbVX2bSDX3TvvbUtde++pFpfTdMukz9tGnfQYlt+kw0L0td3aefRocu7/9M25bbblLxdAlPgZKtKu/aUdU8WLXjax9VTxuVn6b6o69byMFmzUiJSSZXAuZXr1XcBKHP9C9vWZccBZvjsxPcDwSC1lG3fnOoYf5vlTUJ/PDqr7/r25VeSZemp1ApgSAbXxpvf7oUmDiAYooLDfV8USB5UOK8a63bBAjVCJCUqxYg06NRgFy1cQKU6TdDgHLVtslEXiW0OpCDpNY5IDPTRSDX6jlQZr53CuVaI3tYVY+a6l8x/coysmJWMWXi5GJu0VmRqp8/hZ6cV4y2j76Qd4yBe53oLGc63wmOO8X5JeFcG8oXOMPKPmqFHypMMdFkhbmK2fXr+p2l4rnOc0q7Zv408xTrh0e7sL//GDifBJh6maFEpLqvyTzh7gcAAAA=");
 
 export default HandsHolding;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-eleven` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-eleven?s=light clock-eleven}
  * @preview ![clock-eleven](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/clock-eleven.svg)
  */
-const ClockEleven: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 1 32 256a224 224 0 1 1 448 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM240 112l0 91.2-34.7-52c-4.9-7.4-14.8-9.3-22.2-4.4s-9.3 14.8-4.4 22.2l64 96c3.9 5.9 11.2 8.5 17.9 6.4s11.4-8.3 11.4-15.3l0-144c0-8.8-7.2-16-16-16s-16 7.2-16 16z" />
-    </Icon>
-);
+const ClockEleven = createIcon("clock-eleven", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcgAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBYwsGAAE2AiQDCAQgBYMtBzMb5gTIhofn7fo691X1H0A1NrPJ7EyIuCCjdcpo4p7+5p93HgX4jEIbC9cEWUB7nyeQWJcnHmWBZZqAfZavbmPlBlHWRM4RPCKG5g3JE/J4I7opka6nL3G2PjT+1sQhkjwDELUBMHrh3One/SP+iPiy/BLxpakIiDGgEMiQobkAw2QCzeUK5HLBH1Euy29gQQBRgX9LAjlKmIcVgBwkWZ43a9awWqlGvqBaqeraG70iHk/6tOqJKZ/3edrmdt9nU7+odnLyZ72ftK7+0+iI96Z/Ve3kzG/GfrDw5zHvz/i66olpX456d95CYUxcqX+pwfy43Ohqo4grDS/Vb/Oo9qN/W3+54Uu/v1P9fb4fMX3o0Okjvn+/evX39fgP46vQ5Nl7Y8e+96xJFeNtUtT/zy7lNW2d+PjBtpErbbp1seo5Nf78swYQCLr/8unhlbWGvahcLYG/Xv//hfYVld9N0iNUlkCQdSt3syyBRAAAUhzQJkEgmSaDu1Z3RYBQFQGSClUFyDRTW4BcVV0FKGmpvwAVqporE3kVob7lCpLqdoPMAAdBrr5noGSYT+wK9SOLLCIuiI9d7AQLjd8qevfoVQwppolOBguWl0OLZa7TgdTojEMb7LTDPuuts9k+g+wx3dtvuwkePN6LCr310EthiGI7f9xfYL099tpspx1lzVDFeauTA35/Z4gJUfvwJYlI1Z+h3n39tpsIAAAA");
 
 export default ClockEleven;

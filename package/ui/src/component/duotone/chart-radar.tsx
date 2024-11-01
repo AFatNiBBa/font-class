@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-radar` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-radar?s=duotone chart-radar}
  * @preview ![chart-radar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chart-radar.svg)
  */
-const ChartRadar: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M13.8 223.8c-11.6 19.9-11.6 44.6 0 64.5l93.3 160c11.5 19.7 32.5 31.8 55.3 31.8l187.2 0c22.8 0 43.8-12.1 55.3-31.8l93.3-160c5.8-10 8.7-21.1 8.7-32.2s-2.9-22.3-8.7-32.2l-93.3-160C393.4 44.1 372.4 32 349.6 32L162.4 32c-22.8 0-43.8 12.1-55.3 31.8l-93.3 160zM69 256L162.4 96l187.2 0L443 256 349.6 416l-187.2 0L69 256z" />
-        <path d="M290.2 180.8c3.7-6.1 5.8-13.2 5.8-20.8c0-22.1-17.9-40-40-40s-40 17.9-40 40c0 3.9 .6 7.7 1.6 11.2L160 248c-22.1 0-40 17.9-40 40s17.9 40 40 40c10.2 0 19.6-3.9 26.7-10.2l97.2 19.4c6.4 13.5 20.2 22.7 36.1 22.7c22.1 0 40-17.9 40-40c0-18.5-12.6-34.1-29.6-38.6L290.2 180.8zm-8.9 107L202 271.9l47.5-63.4 31.7 79.2z" />
-    </Icon>
-);
+const ChartRadar = createIcon("chart-radar", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgAAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCAAsIAAE2AiQDCgQgBYMtB1IbJAXIjsR0G4/8IleJFQ//vxZ635/ZDQBNiGk3hFwmFZYldKwqTMD2VPVUher9/4/7ef6r6AM+EPmRy/Pi8ojkNeDOB5JFSTybKW5w3ogDDIWh/Qx5/J1dUiJ9kP7Ca+5/AOMfrVwiqZUBiIYAmFhdPNcvD+Nhir9efEH8ZQ4CYhIoBDJkaCvAGJlAW7kCuVzwML3Iw3ixIIAoc3TGWUYvWIEDgBwkScrzLjVa16tTqpdX6NraW9+L883frX2j6dvONVsS+BPv1HmpxdL4oOvtFu/Fh90qSypLK5NjafVOz6Vxd2id+Lp3NbZ8vhL3htWOL3osmVldUq0TS2NJ1I5Kp3sN7/3b8a8tf+lYe1ndRt/db9To/neNyk1HzqGlTmzDu+sau3nOPZbQ7pvuG2vumNcgPOC59vPUe9Chw6rP9BvwgwH98PSrjRq92jb2Sgl7fsAlIuWPA4Hg3LX4eG2DMf/XrJPA4+/8B+789MXDeJLuoaYEgqzPiz5WJTOkUh8hiE9xRKfEMftFgUxvCVxb17sChNqoISmrDZk2GkKutt5Q0t5QaeWaxTKR1xKaWg1CUtd+yAxzGnJNfQ4lY/waKmsa2ZOmPCfKf17mtDYydVYxsN+AYlQxmVOqD4+ke0cXq709jvCannChLfba45DNNtnuUEs8YG70sN2mzQlT/VBhoH4GKIxS7C7eNys4dMBB28f1/cOMVpzv6+HIfPOecD4JMOgaJWVEiqzJRxbse2D9pszZ952ta9bXX08A");
 
 export default ChartRadar;

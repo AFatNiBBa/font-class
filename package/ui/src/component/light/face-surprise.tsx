@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-surprise` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-surprise?s=light face-surprise}
  * @preview ![face-surprise](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-surprise.svg)
  */
-const FaceSurprise: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm176.4-72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm136 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM208 352a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm48 80a80 80 0 1 1 0-160 80 80 0 1 1 0 160z" />
-    </Icon>
-);
+const FaceSurprise = createIcon("face-surprise", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABhgAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCFAsGAAE2AiQDCAQgBYMtBzQbGAXIjsN0eyOPCQRlkoKvCKI1dPb+AgQ+UaiAFaGPjGNj40hYwtaIKpZka0SsGtO9AuEXgMgRWVLEND7CdKpim6lTzzMtFMAHi1jQxsKlARkT9+55BSrWi9dbDEitYDWtgHVvWmNTWaKrSJQkfywdVw/IcUzmECRd8b3gLHxo/NehkyQXAIh6AMDMblwELjjECXr52CW+WAQBMQugH6FAgW4ExvELdBPQD7Is+EM8Hv0HMgggShFfnkBGOfbBKYAMktIsoK4uWiEpKS4oKZDozhfLm7Kl2Ap9EusPfrDeYJM2myGP4gNhz3bbehK/5oiuV9/FByJefS4Tfrwvwl/E+iPffK8Sk2ZVR/Xn1CaMEogrp8SPGcwazauPG87pz6gk7FmuWa077Vqsmq/Y6y7JLP3qvBS+4Pe5xBVfPSPc3CI8v64kbIGOORYqoOPl0s/vcltV1IIUTeghKEZRMSbhPcocJopGxCrb2irFhGIVddGYlNR48TxAIDj+fPmfJe3OFRHnA/w7+uPyj9DHBR/SNSiXQFAM8sylJ0AiAAApGqGbIJDsOb53rXYuQKhEgKRUpQCFLjIIZJUGECjRywGBUpU28YssitAsA0FS7QAUxnSArNk2KDHu3izVHIXKcQrDffiSA2so4BazsbRmrqxbyLwWMf7SjU0rxo08MIFDFKpSqV6BfCXqK7JWhNOgQuCICPBFjA1L1hhXbLm+vZ+oQK06JapUyjVu2H7DWON43gR0PpF2SCRJRJK8z6ZFXUNt9RsCAAA=");
 
 export default FaceSurprise;

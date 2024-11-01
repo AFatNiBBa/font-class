@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `smog` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/smog?s=light smog}
  * @preview ![smog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/smog.svg)
  */
-const Smog: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176 0C96.5 0 32 64.5 32 144s64.5 144 144 144l123.3 0c22.6 19.9 52.2 32 84.7 32s62.1-12.1 84.7-32l27.3 0c61.9 0 112-50.1 112-112s-50.1-112-112-112c-10.7 0-21 1.5-30.8 4.3C443.8 27.7 401.1 0 352 0c-32.7 0-62.5 12.2-85.1 32.3C242.2 12.1 210.5 0 176 0zM64 144C64 82.1 114.1 32 176 32c31.4 0 59.7 12.9 80.1 33.7c3.1 3.2 7.4 4.9 11.9 4.8s8.7-2.1 11.6-5.5c17.6-20.2 43.5-33 72.4-33c41 0 76.1 25.7 89.8 62c1.6 4.1 4.8 7.4 8.8 9.1s8.7 1.6 12.7-.2c10-4.5 21-7 32.7-7c44.2 0 80 35.8 80 80s-35.8 80-80 80l-33.6 0c-4.2 0-8.2 1.6-11.2 4.6c-17.3 17-41 27.4-67.2 27.4s-49.9-10.4-67.2-27.4c-3-2.9-7-4.6-11.2-4.6L176 256c-61.9 0-112-50.1-112-112zM80 384c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 384zm192 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l352 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-352 0zM16 480c-8.8 0-16 7.2-16 16s7.2 16 16 16l352 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 480zm416 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0z" />
-    </Icon>
-);
+const Smog = createIcon("smog", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABmQAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCVwsGAAE2AiQDCAQgBYMtBysbUgXIjsK2nTMOIwkjnCQ54xVR/OE7e+/9n1ate0KVSgWrwrEAhRpV9Ag0jEAsksNmA/ECUh3xEHpV34FVNHFN/8ekByz7F3zEaPs/j1o1SOb5BHaetptFUwjMBjZR3OC8yQfcHdrP0HNGhuCmPjheA57dl+YP8jqh9AaAzAIATm4ignD/K30len11Qj4RAAI5BbCO0NCwjMA+TsEyLuug68IXXV2x/0AGATKE/7YCHaN4Ai8AOijDzqVlJuQnBbmFuaLjewUSHjsS3WZrTne8BOmG1zMHQbpmsKW6rL9p3S81j/cQeGx70ztyxYBoy+bEaEpwRpZvGtDbkJ+SnpKdETzhxcqLuuuWAjSTx7RT/WkBAUpuqkRNSo2agoSCaRkBwQoU5gpFdgtPv1R9U2zzu9rr7NfYu/egB+6WlWp7HjTAeFbMWBG/fl6Kil7+/CX2e/nho1aHlexaMiJ6Cbx/n+dIqufefdXS0i3p9PDwbxJiWdFEUdli6uA53xiINjx52rdW/vwqIvK1FQlwH0rF9FVKrXt1xvMAQbh8+DSVIur4f1SQA/Bz8+f/7HH/96uVYxOMKhDa5pWhxGoFMDNAplIN9YkFBuUeJ/hTJ70iIMYRUIbGBTRLxBDoxm0gMLDKCoGhcRc4pfMjFiVVRJl0SzR7mohu0RExsO9ZemgxnN+k/EXJv4QZ3k3Qax4zMzZl9my0qlA+M1FPO7DFlm4179KDO5GtRLFKWTLlqWzg5YJyVYp4T2FefogxY8wUY49tbtzdHi1LuQp5ShTbWRyw421d1dOD9eAiOABbT1Pk5SmuiqKSHA==");
 
 export default Smog;

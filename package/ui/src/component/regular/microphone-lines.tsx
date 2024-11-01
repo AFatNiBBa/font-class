@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microphone-lines` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone-lines?s=regular microphone-lines}
  * @preview ![microphone-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/microphone-lines.svg)
  */
-const MicrophoneLines: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M240 128l0 32-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 0 32-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-160c0-26.5 21.5-48 48-48s48 21.5 48 48l-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0zM96 96l0 160c0 53 43 96 96 96s96-43 96-96l0-160c0-53-43-96-96-96S96 43 96 96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 89.1 66.2 162.7 152 174.4l0 33.6-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-33.6c85.8-11.7 152-85.3 152-174.4l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-40z" />
-    </Icon>
-);
+const MicrophoneLines = createIcon("microphone-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABjAAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCOQsGAAE2AiQDCAQgBYMtBzcbQAXIhocHu/88d/AX0CwEVVRAVmAnt6yS9k2dep7zUADfYxEIylo0F85abe/zClS0tgZIrFYr1iqKtW1GSxFR3BIhIWES0rAlPyx/hiwOxkU5ya3kC1xoHxp/auAUiTwFENUBMHzuzMk+/C1+i/i89BrxuYkIiOGgEEiRorEAg6QCjWUKZDLBb1Eqxf/AggCiDF6cgAw5juI8IAOJNMu61u1RKa+SzamUV1woVIyrta/VqRSCLrhZ+2qrx+tebxhxp96Nto/VudZAfH6OcK/9U73f6PhMs4j7HZ7u82q7JxvPut3m0fri68HvzbYTE3WrdaVKTzS63aYu4tuhH8yNUA98cNC7oz4a8n6LaPF09af/bv7Fmi/8O7RAs9+qVv2tUCBs+uVP3br99GX6ICvaF5o9iKT8008fO5bD8g+iPZrtrTN9ep12jHzhgeEVWuiGEYs6blyPu2mhVj3wgpHtHJSY9xo5bdrIXnk7IBB0H/rVM0urDfqvfKUE/PH2v/+PMquXPoxtydMoLwFB2qnUyaI4prrqsU0AyJLYo4XyTQKJvVJ418quCxAqIkCiTEUBUo1UFyBTUUcBck31FqBMRTOlIqsg1LZ4gkRl20Gqj8MgU9srIDfIx1mZ2pE6IeNCzD9g4hgOjd5WdO/SrRhQbNuI9SuqrA8sjpV2e9JY+7DTGlttsctqq6y3iyE7TK7sttkYDR7thwrdddFNYYDC3HsV57Bsh53Wy7x9k4GK+0E7e/TZ7YOeAG4PNYmESKp/vbSjyp2fLgAA");
 
 export default MicrophoneLines;

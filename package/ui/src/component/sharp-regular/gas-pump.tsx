@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gas-pump` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gas-pump?s=sharp-regular gas-pump}
  * @preview ![gas-pump](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/gas-pump.svg)
  */
-const GasPump: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 48l0 144L80 192 80 48l192 0zm0 192l0 224L80 464l0-224 192 0zM32 48l0 416L0 464l0 48 32 0 48 0 192 0 48 0 32 0 0-48-32 0 0-160 8 0c22.1 0 40 17.9 40 40l0 32c0 39.8 32.2 72 72 72s72-32.2 72-72l0-240 0-9.9-7-7L417 31 383 65l33 33 0 62.1c0 29.8 20.4 54.9 48 62l0 154c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-32c0-48.6-39.4-88-88-88l-8 0 0-208 0-48L272 0 80 0 32 0l0 48z" />
-    </Icon>
-);
+const GasPump = createIcon("gas-pump", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBeQsGAAE2AiQDCAQgBYMtBy8b+ATIjsM4FjzSqcI/Hv5fZ3nflzzHo1kGLTN2GCCuFssQuQtgUfqkJajdzA+akCeuqR/nTwVS+OKPFk1lfw8SBRa59fkEBhzlA9r5LApsphOw7c5tB0nYJ2mUJel37PicII9PYyqkVxM8nT80ftXdAySVDEC0A8C8LRtWqdWjHvFd433iOysQEPNAKZAhQy8BZsoEesmVyOWCejQa7j+wJIBowhdMIEcF+3AEkIMky/Pm5iUtldb55pZKcUQoIqJFITanLAHc1hHDuePxzi8Srw67M+jWiHs9IyK6xOaYGbNCXO/+4iDxysCbPSLeGn53chF0sCj0v9vu7u/9HKbt088As+YZtVqdVVNX+/PLdzKlscq54aB3VLW/90n7UpsJE+p1uKc2fykctmWL9pit688/LbrO69Z1LuWPPDK36mdjjf1rLBAINo5b++eeZv5fbUngl0/+/FP9FTVqSbqLqgSCbGRjpJ0JJAIAkOKy/gkCyTYZutZWXhIgFAiQNCkEyPTUToBcYYQAFX1MEqBJYYNM5M1CJ7s6mbRyjsxMdoXMdfIuWTHTV36TTpEZmWgi4h8vbbGEFy0rx40eW04vl7km2Q0f52eU2+bQy743DI867IzTLjrkoGMuCvS8VdElpyzWkEW+qDTOaGOVpiuPq+f9mx1y3gXHnHE6LTJDed8b6rI+ehg6CXOOZ6QnWJGqR/ZdGHX20qmz");
 
 export default GasPump;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `horse-head` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/horse-head?s=sharp-duotone-solid horse-head}
  * @preview ![horse-head](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/horse-head.svg)
  */
-const HorseHead: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M203.3 298.2l8 13.8c24 41.5 68.3 70 119.3 71.9l-23.8-35.8c-28.9-7.8-53.1-26.8-67.8-52.2c-2.7-4.6-5.3-9.2-8-13.8c-9.2 5.3-18.5 10.7-27.7 16z" />
-        <path d="M64 512l0-192.8c0-109.5 69.7-207 173.4-242.3L416 16l32 48L400 96l104 64 72 192-64 64-80 0-58.6-70.4c-11.6 4.1-24.1 6.4-37.2 6.4l-.2 0s0 0 0 0c-6.3 0-12.5-.5-18.6-1.5c-3.6-.6-7.2-1.4-10.7-2.3c0 0 0 0 0 0c-28.9-7.8-53.1-26.8-67.8-52.2l-8-13.8-27.7 16 8 13.8c24 41.5 68.3 70 119.3 71.9L416 512 64 512zM392 224a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const HorseHead = createIcon("horse-head", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfAAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBegsIAAE2AiQDCgQgBYMtB1AbHAXIjsQ4JvJIF0fx8P9rVvf9qmSIkh6gGiBODzE5IE9kgSSoXVbs1/ZpuahWVzLbKk5c8/zPnx4wATDzvC3Kc1nnE9h56ny0Bi6hmc7ANjhv1JMRikPSEfI0IrurQnqR4J77H8D4S293SdplAKIrAJq3bVrjh5ZoSfF7+YX43WoExEJQCGTI0E+AuTKBfnIFcrmgJZUlLVGWBQFElXt0BqqoYDdOAXKQJJHnM9rVOlQ65Vtdtv2GEH9sE/htMS5mxpbs+mgfW+M1NOIW9Gp62uRPenxTDI16fBj1YdqW6HjsXd+Xw1/3ejFsW72pXhfG9wpPx+mPa9HewR+7fvxnkKO/K38kT2Dj+ObxjTV9P81VKh1bYNn3SuvNXqJSA9rdbzTD70ev+d41E1pbN2y5Yf+ygRvq9Q3S8euTa5BoMw5cGuH36N69xyEEuCcQvFqeHd3XZe7/bTsk0PrVf3/GP6TB5Q+pkT6irQSCbGw51u5002CN1BAAgBRXDU43NfwmkGlI4Kd29FSA0B4Bkqr2AmT66ipArr0xAlQMME2AqvY2yUTeTqjZk8NJRxfgzHTX4FzNZ7hirp+Cqlpkhxl9kNAPeQlLy8CSVcWk8ROL2UVnQ8ocOaRenFOMNkZe5QOj4EFHnXPWZUccdsLlEnTRmviKM5b2gUt8UWGS8SYqzFbMbl8XtpaCiy450c7NX2aOYn1zpKv940fB9STA5A2Uy4gUWff7j/vvrTLugB2sVblTEwAAAA==");
 
 export default HorseHead;

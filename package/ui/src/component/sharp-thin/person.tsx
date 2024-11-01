@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person?s=sharp-thin person}
  * @preview ![person](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person.svg)
  */
-const Person: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M160 96a40 40 0 1 0 0-80 40 40 0 1 0 0 80zm0-96a56 56 0 1 1 0 112A56 56 0 1 1 160 0zM95.9 128l5 0 118.2 0 5 0 2.2 4.5 84.9 176 3.5 7.2-14.4 7-3.5-7.2L214.1 144l-108.1 0L23.2 315.5l-3.5 7.2-14.4-7 3.5-7.2 84.9-176 2.2-4.5zM104 248l0 248 32 0 0-152 0-8 8 0 32 0 8 0 0 8 0 152 32 0 0-248 0-8 16 0 0 8 0 256 0 8-8 0-48 0-8 0 0-8 0-152-16 0 0 152 0 8-8 0-48 0-8 0 0-8 0-256 0-8 16 0 0 8z" />
-    </Icon>
-);
+const Person = createIcon("person", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdwAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCJAsGAAE2AiQDCAQgBYMtBy0bIQXILgbsluMQLaXM2BpzrPzHD1f6tIbp+WEMpeV5/vf7ts9999uTGU/jiCe1kEVDFc0sQqNZSIROqBMKcRYVqrV/NK5mD1CaA/QUE1SCEdWvfamfhAgRye6eNvAxhCkkVlCxMCfYpKzPczm98fzogO79W0UWypiT1xjPE0g0XZwWeGCJYr63eCMdinkkH6OvTIfbDteywzg8oOapDnTKV0rgI39pflFbpmgaAFkCAO6s8kKIHZCbkP35FdmXDwRyB2AXQYMGmwi4jirYRLMLVFU4yP+//w9EECBjeHsBFWO8A94DUEFRax2GrQtc+lAfdPT26bdZ16yZDlQr6lUjOQzq6jYcdepJq7mCy+nWU5nULYsiVeHkXgsrU00V94HogrquExEiohJpWyRt2Jv1E4eu6OxFu6vt7fy0rPT+9f399X5T8hyd/kEGFd9Ft0zKnmcuc8yt0Cy9VtP/cSvCiqnpiSl8setDW8KCqcuJJSvisn4RQfjx+5vZvJjwp7kF/Pz+9lQ+Q5/HEl/OgKkCQnNmTkOm0I1yDQEAlDldUtBRPEObgkTvkzYfLYJirEVjgwhV6zRGtgUfGGvdRZU6E2saCYreazQumkG15gIj111nxtZCNT294eg/flmypDMvodflwTjcjjSDNWnjaTxeeyxTrVjpKnQZNmRCpw69JmDHFOYnDco6MZl+CHm5eKA4qJ4+WqoQjRnXyzWkPycevk9YTJ23W8lPAZVn9RSFlLGlAgAAAA==");
 
 export default Person;

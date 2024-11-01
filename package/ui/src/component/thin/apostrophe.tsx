@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `apostrophe` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apostrophe?s=thin apostrophe}
  * @preview ![apostrophe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/apostrophe.svg)
  */
-const Apostrophe: typeof Icon = x => (
-    <Icon viewBox="0 0 192 512" {...x}>
-        <path d="M80 352c61.9 0 112-50.1 112-112l0-88 0-16 0-32c0-39.8-32.2-72-72-72L72 32C32.2 32 0 64.2 0 104l0 48c0 39.8 32.2 72 72 72l48 0c22.6 0 42.8-10.4 56-26.7l0 42.7c0 53-43 96-96 96l-8 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l8 0zm96-200c0 30.9-25.1 56-56 56l-48 0c-30.9 0-56-25.1-56-56l0-48c0-30.9 25.1-56 56-56l48 0c30.9 0 56 25.1 56 56l0 32 0 16z" />
-    </Icon>
-);
+const Apostrophe = createIcon("apostrophe", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABagAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBWQsGAAE2AiQDCAQgBYMtBzEb2gTIrgZsYxj6ITWK1CiyxRZvRaOfLRSR7eoZD//t1+6bP6g0sWqW8AbRI0uIXqp5FEt1S+BQydTFD/Zz7yamN3esmnqjUQIhr4KntZX6Q0GyNwAz1EFvMC7jbzVuSQQ8wHifuKZ+WNMDFgBnWWwDKaDu8wnsvNoicQQDm9DAJ2B72zApRxieiIYESURjheN1ukKOLhukpHtRgNPypvELpxuSogAQrQBgeWd8EA2BBKLy/wNRRj8IiBUA/QgFCnQjMEcs0E2iH2RZ8E3//+k/kCGAqCZIYmV8ch3sAMggSTmPdqulTXk7ptfvPKVIX36GIx6SjYqe4+cA3Sc+YjJ80JOeWxZdWWL19K2FnRsWvdrG9dJH+8ZML9Y4QQY/DX0LtJXh3U+o6GdgwHRTU0KeUAGdyM/yagqKz/qUqmUlxXJzH0DlJI+TyvJIhq9gBoBAcPWMy/qOP+oEfl6/2m8oJlMd1EogKIb/0xbiCiAmEQAgxQmCGoBAskZEYo1udlOhHqSTavV0oYuBzuoN0VV6VfjFzRvEItcJnRaBThrt04VZ13TW6Y6uMqcZr9YZYqcSXUJ806V1abhzFBeyeW7jaUGX/ITPg+287MWvqCEBB7Hl2JELmzbsulDUmcHUpUNdFtnpg1hBVh5rw9vlx91TNp05t+vYEQ/Tjs/H4q7s9gkYjwgweR25iUj1eyfHf+KGJzubAAA=");
 
 export default Apostrophe;

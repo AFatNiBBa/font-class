@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-signal` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-signal?s=light house-signal}
  * @preview ![house-signal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/house-signal.svg)
  */
-const HouseSignal: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M325.6 3.9c6-5.1 14.8-5.1 20.8 0l224 192c6.7 5.8 7.5 15.9 1.7 22.6s-15.8 7.5-22.6 1.7L512 187.9 512 352c0 35.3-28.7 64-64 64l-169.9 0c-3.1-11-6.9-21.7-11.3-32L448 384c17.7 0 32-14.3 32-32l0-191.5L336 37.1 192 160.5l0 123.8c-10.1-8.3-20.8-15.9-32-22.7l0-73.7-37.6 32.2c-6.7 5.8-16.8 5-22.6-1.7s-5-16.8 1.7-22.6l224-192zM304 176l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zm0 32l0 64 64 0 0-64-64 0zM16 256c132.5 0 240 107.5 240 240c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-114.9-93.1-208-208-208c-8.8 0-16-7.2-16-16s7.2-16 16-16zM32 448a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM0 368c0-8.8 7.2-16 16-16c79.5 0 144 64.5 144 144c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9-50.1-112-112-112c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const HouseSignal = createIcon("house-signal", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABlgAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCbAsGAAE2AiQDCAQgBYMtBzMbbwXIjtRWecANGQ/f6+w990n27MrLoM8cIESnAqKK2JOWoI0ZA64XptWf/t6d//OxQZ7RR5uzObDNY0xOIMCneb7As8AyDYBizbqVoukRWZEkK1Vbzv9Y7vG6K+TxXcxXId2ePsG18U3jF8MuIskzANEFgPV33XFrbzSiEfFJ81niE1siIDYApUCGDGMCrCUTGJMrkcsFjWg28R9YEkBU0Q9MIEcLbsJDgBwk1TxfONI62Ntdq7Tnu9QqxaG39u8cN/fdNLBGiNtmPza9iDsGanHl4K0RsUvsFOKWmRGrxU0DtwzuulOtqF3ZfzNxXt9NRRFXDNwSEecP3loj1CKi2O+LzSM+XBLx5M439d0y8OUOn+5yy8Ctgztf2R9xsxMBArRdBsV31351ioC7Z2595TOn1rvqv0355JBPbPzyrbf+9Lr6lbe/sK+HFN3d99Wtt8+zOi67rON1156ZoGf6pXUL+3rhjisf34z3P7EeCbOj68l+uR7pXMPkog3sy2H/Adugo9HoiF3r9V2jQDoana93XMZlHehD0+S2HY03Lz1tTJTv/P+PP+3tQCC4ZNfBeft2rvVfSy2Bn1/64z//JdRc2jjV0SKBIJvfnG+vtB7Np40FACDFKaZ2PQSSq7zqV21ziwChQICkqhAgM6pLgFxhngAVE1YIUFXYUSbyVqHP3g0kbY4HmZXOBrk+T4OKtbxfqupLpp6Sckk/h+mbcGTjc+WShYvLNcppX5U1Tgj7a5Zif/Ypfm6OuegQxzrGSQ52kMOdxOgTbF092dE2WaEb+6DSEgstVlpDeT2613dhpROc6PCxen/KmsrnM7Odsl49x4QT4l2qJUlEalNda8G3BwAA");
 
 export default HouseSignal;

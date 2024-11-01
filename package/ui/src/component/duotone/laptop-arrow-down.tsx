@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop-arrow-down` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-arrow-down?s=duotone laptop-arrow-down}
  * @preview ![laptop-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/laptop-arrow-down.svg)
  */
-const LaptopArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 403.2C0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2L19.2 384C8.6 384 0 392.6 0 403.2zM64 96l0 256 64 0 0-256 168 0 0-64L128 32C92.7 32 64 60.7 64 96zM344 32l0 64 168 0 0 256 64 0 0-256c0-35.3-28.7-64-64-64L344 32z" />
-        <path d="M296 96L128 96l0 256 384 0 0-256L344 96l0 110.1 39-39c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-80 80c-9.4 9.4-24.6 9.4-33.9 0l-80-80c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l39 39L296 96z" />
-    </Icon>
-);
+const LaptopArrowDown = createIcon("laptop-arrow-down", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABgQAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBewsIAAE2AiQDCgQgBYMtB14bKwXIjsO4mRvpVMcoHiL4fq33+9w7u5XMhmECjCpRwKiAdOL4EzyQn9ABC8mst5mfVAPO/+Wen21aIJ+P4FD21IkTvLmeJ5Bo2rZFgSRUptbubDs4JnaRtBhJjs+OzwmKNCbfUiM9SHAn/g9g/Kq/WyQdM4DoBoBlm9at9f5X+yrFp82XiU+tQUAsB5VARsYgARbKAoMUKhQKwVep2eSraDYrAog6hjOnju/fhcOAAiQhF8Wwnj26N2qdi42NWnmobJQpOkeOMsSSeHHUg37r47nRG+PhwPbyRRHx+LiI1lmd47UJ7UMfju4Sz/XblnJqRI5GRJTx3NiWfvuERqRQnvRwfNvocnhbt7bfhznImF0tLS1cQ4uTDurc+csvKwuOTzw+9qCTJtnASj+wfpVusVV0WzIdS9FiqRZPde9e9l2ylJ2WEVN27/7U/SAQ3H73/9G7ui78v0MjgW/e/PNf5YbmV+laOjpIIMgTmxNtpwICO4AyxUXD4YeuIZDNlvGndnJXgFAiQFJXCpAN1E2AQmmCADVDzBKgrrROFkVHoZcdDSSdnAHZbJdBoZeXQM1CH1R1vSKbmWwk8i8vY7WEVu2qpk2eWs2vph1VsRyRNhdU28HYi35iHOx10CknnXfAfkecF+RZa9sLTli9Ilb5oso0k01Vma867t8bG0V11jlHdO18mwWq+8lYF9fzx0GcMOd0h2aZSJH7H99z+vyp05P2nD176tIkA3QmPdo5A1XtiQIAAA==");
 
 export default LaptopArrowDown;

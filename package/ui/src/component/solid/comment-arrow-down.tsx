@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-arrow-down` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-down?s=solid comment-arrow-down}
  * @preview ![comment-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/comment-arrow-down.svg)
  */
-const CommentArrowDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 448c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9zm24-296l0 118.1 31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0l-72-72c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l31 31L232 152c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const CommentArrowDown = createIcon("comment-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdQAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCAAsGAAE2AiQDCAQgBYMtBzkbCQXIjpQuZyTx8LzdY+e+mQCe2K6gyqjALguzDcqF2/0Vgj//l3t+a9EBfqMjO6C5WhrImDbGep5AgFkvnzzBsjAqUcxv53fkKOFNSpJySYa/n2H8B8jj9eyoMqSr6Quczm8av2jgKEmFDEBUB8DwuTMne+dxPI74vPQi8bmJCIjhoBDIkKGxAINkAo3lCuRyweMolfg/sCCAKAtk4uf2wpXYDMhBkvJ8aONKZarkc9yFFav8PDHi86ERb7e8OeStCZ/N+WHcJ4PeKH4cfqPdhdpB3MGKh0QcuuhCnYuVXh74cttXKy0UOsa91lfrz4rbbebEtUb9Ku0j4nrbOw1aPKz+8DdfrPmCsY5xvSlNK1Ro2vT6sbGTxBJ/2ahnoyrsW9OyRoSA7Wvaj6/4aFrXLn/1q9d2D8p+V6XKN9+MHVtllopknve7PepMn14HCASrm85/f2m1Qf+Vr5TA09f+6C4s/V96nKSHKC+BIOtU6mRRIuB0/kQ6xR4t6IMCyUIJXrWySwKEigiQlFVRgEwj1QXIVdRRgDKa6i1AWRXNlIm8glDb4g6SyraDTB/7QK6250EZg3ycKqt2ZIqmqYn2m5c9ZoRGbyq6d+lWDCiWLU3XHSWuDiy2o+32+JH2tNcaW22xy2qrrLdr4HeYnN1tszESN9oPFbrropvCAMVx93n3HKvtsNN6W21J6wxU3E+2s0ee3p4SCQR7qEsSkWq+7NLOy3fs2Lq38wsEAAA=");
 
 export default CommentArrowDown;

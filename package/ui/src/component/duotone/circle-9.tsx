@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-9` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-9?s=duotone circle-9}
  * @preview ![circle-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-9.svg)
  */
-const Circle_9: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm160-32c0-53 43-96 96-96s96 43 96 96c0 32.4-14.2 63.2-38.8 84.3l-81.6 70c-4.5 3.9-10.1 5.8-15.6 5.8c-6.8 0-13.5-2.8-18.2-8.4c-8.6-10.1-7.5-25.2 2.6-33.8L230 316.4c-40.4-11.4-70-48.4-70-92.4zm48 0a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M304 224a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm-74 92.4l-29.6 25.4c-10.1 8.6-11.2 23.8-2.6 33.8s23.8 11.2 33.8 2.6l81.6-70C337.8 287.2 352 256.4 352 224c0-53-43-96-96-96s-96 43-96 96c0 44 29.6 81.1 70 92.4z" />
-    </Icon>
-);
+const Circle_9 = createIcon("circle-9", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABkwAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCIgsIAAE2AiQDCgQgBYMtB0wbQAXIHoWNw0kE8ouW+0cE8WufVb+ZpTBOAIhcFJJK9EauCx8AqYA6Qnt/vf2T7KWpihZschIwJnA8k6JEAFS9OPU856EAvlHQxqI5QBb4nOcRiEjS1utDfHNNa2C1dvaDDOr7TdIRep9he8PIGfL4MjurjHQ3fYzL/D+A8YuWzpJUZQCiAQAmLFs0x/OX8TLFx6VLfGw2AmIiKAQyZGgjwGiZQBu5Arlc8DKVSryMUqkggCjH189AOSqwH2cAOUiSLM/rtmjdui6V1c2X8j3X2nSn8+jKrUq31WW29N17db/RMnYL8axT6ylDb/fdpvY4XfBPiHhjzie1z8/7bNJby76d+ObcT2udm/3x+OeLl93rhfhg2Otx2vbRPm7UOtcsN7fBPaUdpS6z22qdu3Ln0cJUN5DfOny89WP9XtTae+rU3lrBnLHqB7nVH2/832b+FPNTZXV1vejW/UfPTamiZc0bkya9UdNSwxSMg3ivvVIlSmn+7mdbqmpve+OPH/zYvVu485cDgeDSkUdpXf3R/6mdwOuHf/yTf0hKz5NUjUoJBFnvUm+rE0gEACDFUR0TuI9AZpKMeHXcMkehFhWScrUg01oDyNXSC8q0M4RQbi+SibxKaGINQVLHAcgMdQZyTdRAmdHe88s1CeV6lONQD7/4qYhMWSsG9O1fjCymsUJ7E5Hmowq11P1orPWgk7baZ6/Dtthsh8OAHTQnOmKPqSt0ii8qDNBXf4WRCnN2zy8F/6BDdoxZ+5JRivNed0fX3T1ITQR3oI1MRqTIGnzR8fqM6OPDQqOGvawAAAA=");
 
 export default Circle_9;

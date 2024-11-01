@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camcorder` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camcorder?s=solid camcorder}
  * @preview ![camcorder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/camcorder.svg)
  */
-const Camcorder: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 96c-17.7 0-32 14.3-32 32l0 32 224 0c35.3 0 64 28.7 64 64l0 192c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 224c0-23.7 12.9-44.4 32-55.4L32 128c0-53 43-96 96-96l160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L128 96zm431.1 67.8c10.4 5.6 16.9 16.4 16.9 28.2l0 256c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 401.1l0-17.1 0-128 0-17.1 14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6zM80 224c-8.8 0-16 7.2-16 16s7.2 16 16 16l224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 224z" />
-    </Icon>
-);
+const Camcorder = createIcon("camcorder", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcQAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBcwsGAAE2AiQDCAQgBYMtBzAb8wTIjtRG+UVWEg//v1Z536/q2ZnqWeRaIlLA5JjDitFFrQuwDHdicyJRddW+X5x6nvNQAJ9DELSxcGlAFvic5xEI+FiWrg1SsGKtoljzliWNZrlvZqJJejz3+LWDPH7KrqiQnktf4f740PhTV1dImjIA0QYAc9auXOFxLWoRX9YRX1qGgJgDSoEMGXoIMF0m0EOuRC4X1KJeb/+BJQFEA7w2gRwVbMZuQA6SLM9Hd22uVlrma/rFxcZbHSKeJKrx6pA3u4pnB7/RvzleG/pWt4jnh9Ub3p5Ujdsdn3Khw5NFsf2prime7fBKpzXRKfCOzrE2nhmw7ckOT3WsxjOdn+5U9H2rzVt/9flqz1fOb211gxutSjUvtG1bPFa0bfsCW+jw/RCNb7114QWtbtxoVVa/8N68/xLpv8b/t87yg7YuaOsH0vFfi1+n1Vq1qtXo8yAQnPs9O7a19fS/G6sJ/PHJ//DZ9Z/S7PQWGiUQZMPrw21Ks4HwAegpzugbfFEgWS2Dm5o9LUAoECBpUDDIdNcGcoVhUNHLhB0aFFbKRN4kdLCZQdLsOGQmOgu5Dj6Giuk+1Rp0iCzD6PygP3gJCz2yoKkcM3J0ObXcWiaTNKRUp5XH4uAzHBlCs/Y46ohTdttlv1MOO2GFedphCyN0gR8qjTHSaKWpymv3dXyN3U44ab+jjmidacr36mBn4vQhpCQgHKs1SURq2rn98M7kAwA=");
 
 export default Camcorder;

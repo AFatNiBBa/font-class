@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spider-web` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spider-web?s=duotone spider-web}
  * @preview ![spider-web](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/spider-web.svg)
  */
-const SpiderWeb: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M68.4 256l23.3 28 44.6 0c21.9 26.6 38.9 56.9 50.4 89.4l.7 2-22.2 38.9c4.2 11.3 8.5 22.5 12.7 33.8c12.1-2.3 24.3-4.5 36.4-6.8L235.1 405l.8-.2c34.4-6.1 69.7-6.1 104.1 0l.8 .2 20.8 36.4 36.4 6.8 12.7-33.8-22.2-38.9 .7-2c11.5-32.5 28.5-62.8 50.4-89.4l44.6 0c7.8-9.3 15.6-18.7 23.3-28c-7.8-9.3-15.6-18.7-23.3-28l-44.6 0c-21.9-26.6-38.9-56.9-50.4-89.4l-.7-2 22.2-38.9c-4.2-11.3-8.5-22.5-12.7-33.8c-12.1 2.3-24.3 4.5-36.4 6.8L340.9 107l-.8 .1c-34.4 6.1-69.7 6.1-104.1 0l-.8-.1L214.4 70.7c-12.1-2.3-24.3-4.5-36.4-6.8c-4.2 11.3-8.5 22.5-12.7 33.8l22.2 38.9-.7 2c-11.5 32.5-28.5 62.8-50.4 89.4l-44.6 0L68.4 256zm127.4-28c8.1-12.4 15.4-25.3 21.8-38.7L239.8 228l-43.9 0zm0 56l43.9 0-22.1 38.7c-6.4-13.4-13.7-26.3-21.8-38.7zm69-125c15.4 1 30.9 1 46.3 0L288 199.6 264.8 159zm0 194L288 312.4 311.2 353c-15.4-1-30.9-1-46.3 0zm71.4-125l22.1-38.7c6.4 13.4 13.7 26.3 21.8 38.7l-43.9 0zm0 56l43.9 0c-8.1 12.4-15.4 25.3-21.8 38.7L336.2 284z" />
-        <path d="M133.8 22.2c4.8-12.7 18-20.2 31.4-17.7l69 12.9c35.6 6.7 72.1 6.7 107.6 0l69-12.9c13.4-2.5 26.6 5 31.4 17.7l28.9 77.2c11.5 30.7 28.1 59.2 49.1 84.4l45.3 54.3c8.7 10.4 8.7 25.5 0 35.9l-45.3 54.3c-21 25.2-37.6 53.7-49.1 84.4l-28.9 77.2c-4.8 12.7-18 20.2-31.4 17.7l-69-12.9c-35.6-6.7-72.1-6.7-107.6 0l-69 12.9c-13.4 2.5-26.6-5-31.4-17.7l-28.9-77.2C93.3 382 76.7 353.4 55.7 328.2L10.5 273.9c-8.7-10.4-8.7-25.5 0-35.9l45.3-54.3c21-25.2 37.6-53.7 49.1-84.4l28.9-77.2zM178 63.9L157.3 119c-13.7 36.6-33.5 70.6-58.5 100.6L68.4 256l30.3 36.4c25 30 44.8 64 58.5 100.6L178 448.1l45.9-8.6c42.4-7.9 85.9-7.9 128.3 0l45.9 8.6L418.7 393c13.7-36.6 33.5-70.6 58.5-100.6L507.6 256l-30.3-36.4c-25-30-44.8-64-58.5-100.6L398 63.9l-45.9 8.6c-42.4 7.9-85.9 7.9-128.3 0L178 63.9z" />
-    </Icon>
-);
+const SpiderWeb = createIcon("spider-web", true, "data:font/woff2;base64,d09GMgABAAAAAANcAAoAAAAAB0gAAAMPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiEBgsIAAE2AiQDCgQgBYMtB1AbKAZRlO5FjOzHQU5G2kuEJiIeSlm1Sd/lnmzKL7HHw9d+r+fubgBJESkgG4dGs49QcSRchI6QmW9jk7YWVV1nnvGvY94hFlyC+E8Q9wRxbX2YEFtrphPsPMZO3aCE+yeuqR/0589PKfb+9ka1LG2MsmHm+QSG08gGG/BGalvchspIVwFCs5BsCyX+53PqSC+phodpRvw05BxJUwaw6IR/AR5c1JThzTd+S1GrHhA1xyAgDgGTiIyMUQTbDAVGGZkERRF8S1XFt6iqSQgg6sFTM6hHCz7xF1BAkjSUsjKnm5iV4Q0NLXVt5ZrWfrJF025gHT8W6LzsVsebSha3XTN5Q9RyK0jjp9xaXnDXeEvN5o5HDm9H6GmRMZF3UgUVvoyKYgI/58UxhvczIqjyVXQ0Y/khP14PDQuVrGHgAtedMtPlYJta8qNLVBhHH7WLf6TETZcNZ4sYkzNdPOFr05rjYhJUyA/5FlQpCh15J/XEEH3XQ6EFpGZJcMddvxgsqCJCRCi8FKAj67abZcUtV9Xvmu21f7613h84f/Vsda6EhoZpVPVZz1J4H37E378fcejNec5W5VqaOS1RZXqaD+HxLQc4QBluhj0cH+/JhxK9j6OjfTmvl7K3CZh2GkBDSHBCiL1DDigxkchBPN6iB2RnKvDy5s2XIWFELxKDa+z0qdOnzTjNvybIOSmpF2RrKrB00uPeqgaRKITQsHovd7mjox/97/qBgvb2/GWNN0g2MeRuYUAgeP2of2/rSP3XKCXw4+3vf9S9WklH6RoaZa2CvFAJzSmzACKYC7wp7vilvyUXkd1rALNaPQoQmmF4Uq8Zz0bY4kWzebzOuDgxMPKEoShNir1XS4YnrS7xbMsKXvS6j9fZ9tlbrzfywS47VGWPmqnzRTivkRylRsrJsjWGyI9fsa9NkYPNIbN1Tmg6Ar3GjJrWo9sA4gV0Ullgxoh8FzPvu7IoqkiyZPLq5Kpay72TpgyYlevrSSHvbw8x6y4emtoMAOuamVkmUuTu6/GB7p7Jf/rrlcsm11FW3iAAAAA=");
 
 export default SpiderWeb;

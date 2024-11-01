@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-chimney-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-medical?s=regular house-chimney-medical}
  * @preview ![house-chimney-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/house-chimney-medical.svg)
  */
-const HouseChimneyMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272.5 5.7c9-7.6 22.1-7.6 31.1 0L464 141.9 464 56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 126.6 55.5 47.1c10.1 8.6 11.4 23.7 2.8 33.8s-23.7 11.3-33.8 2.8L512 245.5 512 432c0 44.2-35.8 80-80 80l-288 0c-44.2 0-80-35.8-80-80l0-186.5L39.5 266.3c-10.1 8.6-25.3 7.3-33.8-2.8s-7.3-25.3 2.8-33.8l264-224zM112 204.8L112 432c0 17.7 14.3 32 32 32l288 0c17.7 0 32-14.3 32-32l0-227.2L288 55.5 112 204.8zM272 192l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const HouseChimneyMedical = createIcon("house-chimney-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfQAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCGQsGAAE2AiQDCAQgBYMtBzwbJQXIHqnN/hjBRfC83X/Vud0fcA+FBcRIDDIOwoXTfR0ybr+vgPPn/5p6UXYUpd9oaJGWjZEaUTyBie3NK3ggUTibKO5tInpUsPCVkIZE9PXacbWEPL6P25WRHkjf4bbyofGLLleTlGUAohEAi3ZsWeejfbEv4tvSO8S31iAgFoFCIEOGXgHmygR65QrkcsG+KJXcf2BBAFGOXjWBHGU4DRcAcpBkeT66ZXRNWV2+vaas+rj72rZFxEMjnukS6+KezruHjw7x8Mjnp9bGu6Nf7I8YGU+3P9hx1Fbh8rZ7auripo77ImJ7bN1RU11zT5uoCZDvbq0O+d72CPG+jpq4wOAXG1/8je+O/U7jB7/82HW2a9u0qe0yl/r9k997r/Kh2H5MY6HxmO3xobOM7aX8X/Hz41+IGfXXX19fwNBBr90dnI/VFpi5r36iifYNjfuYqt9XpT0fCASv/PPilYc1zP2vsiaBAx/+UdqxtCStSC+iUgJBNrY01t60UIFOFJcOx7kGwzcJJMfJ0LXWuleAUI0ASblqATI9GgXIVRsjQJl+0wQoV22LTORVQqtDKkhqnQEy010Ccq3eAmXm+jJSrjUyo1ObjPrPl2G5RJfNKiaNn1jMLqYlrLEjZRydUyybRp7rW0bBQsc6zanOdoyjneBswZxpXfwcp1iu0cv8UGGS8SYqzFZsV2/nb3eMM53lBKc5NU8zR3HeN9K5evdRYE1I4WRZSSJSm0Hmjzvq+BNOOfWYC8a9QwA=");
 
 export default HouseChimneyMedical;

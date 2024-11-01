@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `overline` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/overline?s=sharp-solid overline}
  * @preview ![overline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/overline.svg)
  */
-const Overline: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 32L0 32 0 96l32 0 384 0 32 0 0-64-32 0L32 32zm192 96a176 176 0 1 0 0 352 176 176 0 1 0 0-352zM336 304a112 112 0 1 1 -224 0 112 112 0 1 1 224 0z" />
-    </Icon>
-);
+const Overline = createIcon("overline", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZgAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBSQsGAAE2AiQDCAQgBYMtBy8byATIHgfVrR/GI5shk0U/ryQe/lt7vW9m9odLDBIAXD2QjC46ALaAPjHinzqU1Xv8vbvXj9padI09LVq0xqQyDCTbpKVn7fvf3zz/558WyDMKbSxcGsgCieY8TyDANM8TygLLNAGLJWtnZ2BQ/CbpE58+w+aGzQElbueLinQz/XC13DT+GO5C0pYBRD8AYP2+RBwezWhG9NQRPTYBAbEeYByCjIxRCFiFEhiFbhxQFEEz6jp+A8eBAKJB/ksCBRU2ANsAKCDJpXSMHMmsusrejqr9UHtHu+joimjffWFZxIdZb6B79lvnR+Zt5Wf9e3Kc8871iZHqHhZxY9ITxnXKM8Etchx5W/6ceZv8lH8TJrzivfqP7z3ea+x9HIcB+CAAv+fnzcHZ80udbnl+NjcY5mOr/37ML37dM2ZM5b9+jRmj4TyAQHDlw86Lx/qu+t/akcDPT/9rr5G6GT/SK7RKIMiz6lky8QPihwAApDhLFD8QSNajyFU7XRMgtCNA0tAuQDYSDwFFu5kIqIxhRUBDu10oUdqEQbIBkk4nIFtiC8Ugd6is8vQaBkUmk0wF+S+XEdMouoZGnQFduI11hR9inrvx2FTMUk2JXajp65moqmiaKDISD6e6YhaOehAy0jFALujOno208kbGmmvNv8QN77sKM7tbCYdGBBeIJIlIrTwTXxsAAA==");
 
 export default Overline;

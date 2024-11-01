@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cannabis` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cannabis?s=sharp-light cannabis}
  * @preview ![cannabis](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cannabis.svg)
  */
-const Cannabis: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M153.4 230.6c-8-8-20.9-16.1-38-23.6c-16.7-7.4-35.5-13.4-53.5-18.1c-8.1-2.1-15.8-4-23.1-5.5c1.2 5.1 2.5 10.4 4 16c9.4 33.8 25.5 71.6 51.8 97.9L122.2 325 89.8 346.6 54.6 370.1c1.4 .9 2.8 1.8 4.2 2.7C82.2 387.2 112.3 400 144 400l32 0 0 32c0 1.9 0 3.7 .1 5.5c18.5-7.5 41.4-18.3 62.2-32.1l1.8-1.2 0-68.2 0-16 32 0 0 16 0 68.2 1.8 1.2c20.7 13.8 43.6 24.6 62.2 32.1c.1-1.8 .1-3.6 .1-5.5l0-32 32 0c31.7 0 61.8-12.8 85.2-27.3c1.4-.9 2.8-1.8 4.2-2.7l-35.2-23.5L389.8 325l27.6-27.6c26.3-26.3 42.4-64.2 51.8-97.9c1.5-5.6 2.9-10.9 4-16c-7.2 1.6-15 3.4-23.1 5.5c-18 4.7-36.8 10.7-53.5 18.1c-17.1 7.5-30 15.6-38 23.6L304 285.3l0-77.3c0-57.2-17.9-103.9-36-136.5c-4.1-7.4-8.2-14-12-19.8c-3.9 5.8-7.9 12.4-12 19.8c-18.1 32.6-36 79.2-36 136.5l0 77.3-54.6-54.6zM240 442c-43.6 25.4-88 38-88 38s-3.3-6.6-5.7-19.8c-.6-3.4-1.1-7.2-1.6-11.4c-.5-5-.8-10.6-.8-16.8c-49.1 0-92.2-24.1-118.2-42.8C9.5 377.5 0 368 0 368l27.4-18.3L44.9 338 72 320c-7.6-7.6-14.5-16-20.6-24.7C23.8 255.9 10.7 208.2 4.8 177C.9 157.2 0 144 0 144s13.2 1.7 32.7 5.5c30.7 6 76.9 17.4 112 36.3c12.1 6.5 22.9 13.9 31.3 22.3c0-13.6 .9-26.7 2.5-39.2c8.6-66.2 37.1-116 57.1-143.8C247.3 8.7 256 0 256 0s8.7 8.7 20.4 25c19.9 27.8 48.5 77.7 57.1 143.8c1.6 12.5 2.5 25.5 2.5 39.2c8.4-8.4 19.1-15.8 31.3-22.3c35.1-18.8 81.3-30.2 112-36.3c19.5-3.8 32.7-5.5 32.7-5.5s-.9 13.2-4.8 33c-6 31.2-19 78.9-46.6 118.3c-6.1 8.7-13 17.1-20.6 24.7l27.1 18 17.5 11.7L512 368s-9.5 9.5-25.8 21.2C460.2 407.9 417.1 432 368 432c0 6.2-.3 11.8-.8 16.8c-.4 4.2-1 8-1.6 11.4C363.3 473.4 360 480 360 480s-44.4-12.7-88-38l0 54 0 16-32 0 0-16 0-54z" />
-    </Icon>
-);
+const Cannabis = createIcon("cannabis", false, "data:font/woff2;base64,d09GMgABAAAAAANMAAoAAAAABuwAAAMAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDXQsGAAE2AiQDCAQgBYMtBy8b3AVRlA1GhezjsCmbPWIuxEPNU0TclQMz1PzDNZ7///3+N9e+54tJ86Tp45GokZC9VJqFyA8RQn0RbW9QqZCv/7xe/blJVskiOyu9cbKQOn8YHVTNVqI6V1/o6ItTz2ObtmcbBiyCSdc835jBvdLc5xUo8H7smCAFChasolh106iXaLVeIiKFlVEGO54e387doOVrTllRn2qAd02RvzY89EvrNFHmIaDce7YtDyvDDJNBP0kGHoJA7gP2ETp02EbgGi/YJtgHTROG6fv6H8ggQEYxWtIt137DbyRAqdY+Hz4vjTgIO8tJ4q4qU5epyr3SrdarVlVJSXz2xtkcKchddCd5EFukR9wya7wHriZVU7VHIgUmKP0+9T4RrHDtMHS4FlKoyb/Ju8qdoBrfBl9Q8Y4ZA1GHaJExGvCUqcvU5x5E5gSlyr3Puw6CR4mx8yK3ez7tYcM+/VKJWhsyqK1FtbkbCukeVXrWwEqFq0rGqKlQOgwd0XddEYQa8R5ZTF2JIEQkItLdyH3ftVsnt1DzYqHOMjXW5uFxZnY9qh//mSA7x3EMA89vCrJsyGCYOWEzfjPDwMWBLMfiv35Erc+eVqxbx6Ys9fMnkAextO3F3l279r5oLRPzcGLnI00t0EOUJYza2KV/e5t6n1rhg1b0N6QMD8cdpHp/7cWnQa9NV90Rvv1TQsq/1l3RuG55Dn56cf0dB3Qwbng4paHfcg/dT337LV3WxNhoexDy+aMm9n0fiAUIwunB01vPna7/j0sF/nz5+TvFen5rpVI3GFcgdKf9qf2lhwkX4VTe0il1CMqgG6Mw7b3Vj0m2WEZNip0tsthMOhFH7Iq5YdSkR3hpE2LZARDLtBdi58otsVk2Lo64tuqMWk7n1iGnDH1VFs89kZx1LCI0nCWyy6YV9lSrLCex23nlphhSA4yTLrnouhOOO+O6g74qz7/hglyNyvFDTIRQ4ZhEzNxZHt/phKuuOeOSi7RKEvZ8QXFTn6gGBwc2OoOGUqTG/5+geuTomWsAAA==");
 
 export default Cannabis;

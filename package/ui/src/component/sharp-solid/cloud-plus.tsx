@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-plus?s=sharp-solid cloud-plus}
  * @preview ![cloud-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-plus.svg)
  */
-const CloudPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 480L0 480 0 336c0-62.7 40.1-116 96-135.8l0-8.2c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96l0 36c55.2 14.2 96 64.3 96 124l0 128-128 0-368 0zm152-80l48 0 0-24 0-64 64 0 24 0 0-48-24 0-64 0 0-64 0-24-48 0 0 24 0 64-64 0-24 0 0 48 24 0 64 0 0 64 0 24z" />
-    </Icon>
-);
+const CloudPlus = createIcon("cloud-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYwAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBTwsGAAE2AiQDCAQgBYMtBzEb0ATIjtMF9cyWl8TD/8/95z43+ZQMQ4b4DTI6IkclVgDsyprUX7VdI6uwat+nv/nnnUcBPo4gtDFtaecTcK/zBBLr8k2BLwssoi/CX7eJBHpEsS8kJEgiOr48vr4myOPv7IY60lPpJ9ytL40/dXWDpCkDEG0AMHvj2uW+aY7miB//R/xoKQJiNqgEMmToIcA0mUAPuQq5XNAc///P/38VAUQ9WCSQJ+syrAV7ApKU5/36lHUt8w1lXbG+KIuIF0a9PTHil5lfbzT50xEvlx8OebWn+HDEmz1FsaEsyoiIsowoClWLEIQzjgp9X2vz2sM+Px34yd3e9/CbWj/yyNuNYu5PP82Nb8aNX3uy15XXXmvs7+mX7rW84sovK2u1WhezzOpS02XWLF3U2ONAIOh05/efd7ae9ldjmcAfn33Y9vu/OV1Jr6FRAkE2/P/htqUrwOgAtBQX9HU+FkjmSYCntvC4AKFAgKReIUCmuzYC5ArDBKjTy3gB6hXWykTeJHSwvYOkhdMgM8FFkOvgfVBnmm+1eh0iiycyGsjnXNwCC83vq0aPrFVTqqlLqRDBc3tqtSwMviCpITTqgJNOOGe/fQ47Z5AzlpvnHbfAg+f7UGW0kWoqU1TbwePwBvudcdZhJ50oXaaqziuDXfCLh5CcAHMMS5KIVHwsyI+4jwA=");
 
 export default CloudPlus;

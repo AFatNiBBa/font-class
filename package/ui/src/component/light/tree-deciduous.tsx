@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree-deciduous` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-deciduous?s=light tree-deciduous}
  * @preview ![tree-deciduous](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tree-deciduous.svg)
  */
-const TreeDeciduous: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M177.7 95.6c-.9 4.5-3.8 8.4-7.8 10.6s-8.8 2.7-13.1 1.2c-6.5-2.2-13.5-3.5-20.8-3.5c-35.3 0-64 28.7-64 64c0 13.2 4 25.4 10.8 35.6c2.8 4.1 3.5 9.3 1.9 14s-5.2 8.4-9.9 10C49.9 236.3 32 260.1 32 288c0 35.3 28.7 64 64 64l144 0 0-32 0-64 0-112c0-8.8 7.2-16 16-16s16 7.2 16 16l0 112 0 64 0 32 144 0c35.3 0 64-28.7 64-64c0-27.9-17.9-51.7-42.8-60.4c-4.7-1.6-8.3-5.3-9.9-10s-.9-9.9 1.9-14C436 193.4 440 181.2 440 168c0-35.3-28.7-64-64-64c-7.3 0-14.3 1.2-20.8 3.5c-4.3 1.5-9.1 1-13.1-1.2s-6.8-6.1-7.8-10.6C326.8 59.3 294.5 32 256 32s-70.8 27.3-78.3 63.6zM240 384L96 384c-53 0-96-43-96-96c0-35.3 19.1-66.2 47.5-82.8c-4.8-11.4-7.5-24-7.5-37.2c0-53 43-96 96-96c5.1 0 10.1 .4 14.9 1.2C166.7 30.4 207.8 0 256 0s89.3 30.4 105.1 73.2c4.9-.8 9.9-1.2 14.9-1.2c53 0 96 43 96 96c0 13.2-2.7 25.7-7.5 37.2C492.9 221.8 512 252.7 512 288c0 53-43 96-96 96l-144 0 0 112c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-112z" />
-    </Icon>
-);
+const TreeDeciduous = createIcon("tree-deciduous", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABlgAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCSQsGAAE2AiQDCAQgBYMtBzUbTgUjEfZiDYqS/ZGQkx21REgWVJoiDKRwGjM7r6jomvBJPNSvoW/3fhAc+0ShCvsoAiPYASkqgbAVsnXVMeKmtkbc/9rcT+sJeO6uRYO7ztcVM1vNp5XHxMQ1z9+aHrABsGKlkVRBj8s6n8DOR1GWBV5CM52AbXDexEMISSFpCyX+IHct5E/JD/De+aj4T+uRVCoA0Q+Atd28DHioUR3x1twSb9KAgFgHwKRABYePCrCoEvUtFJMoiqCOprH/gQwEEK08MFkKPvIJ7wEFpCxlo4UAIteXFdKrcNkMneHn8I7zgUbkZukM3dHMwKLLoQNB3rnzwiwHSIgutO92bK7jlxzn+DlhHi25HjkOrdT4nFsdKsEE31mTlc582WkJrc8MBA1zyzHj1uVQO09MlqJmV7sIK+YJ/DGC+ELneGR7ZHT0a/PT+AOXVXxuXu0U2TA2xvQ8QHCsdbi457Cx8cYEMIjWzaCuDbohGoMJmDGEu79wqHUUAs4pmE+ma/Jy+bKY7IeH7JiyCOsJbznx6Ehl/vJa3k1VR0eiqvr++jo6Wjrvq1W9LFqd/vpibpvY+HGAQPAXZxlWGYb/qwhtgn+///6lv6LmIeUvoF2CoJpupuEoQRIAgIxLsE0IpHvJ83T7tjYeOimJ1KqTqIzoJ4pOU0SLcfPczMmbpKJ0CMOOIZG6nRCVBVdEMUNdE3Lh3iMKNKqLUbiUhGfB1MQ6kNCP+Xh6s1A2mJWL1xenu8PYbIfzIK9ygQuhUZdO/RrUa9Ffw3tlxAd0SBzDEnwR48OTNyYUW124rRbiSK8+Lf3y+l7CsP09zgbHG7vAwUgAmDmMGRIQaXCTGh5/3gQHugb6AAA=");
 
 export default TreeDeciduous;

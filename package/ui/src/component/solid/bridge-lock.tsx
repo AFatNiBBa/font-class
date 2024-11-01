@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge-lock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-lock?s=solid bridge-lock}
  * @preview ![bridge-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bridge-lock.svg)
  */
-const BridgeLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 64c0-17.7 14.3-32 32-32l512 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-40 0 0 64-8 0c-61.9 0-112 50.1-112 112l0 24.6c-9.9 5.8-18.2 14.1-23.8 24.1c-17.6-20-43.4-32.7-72.2-32.7c-53 0-96 43-96 96l0 64c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-64c0-53-43-96-96-96l0-128 72 0 0-64L64 96C46.3 96 32 81.7 32 64zM408 96l0 64 80 0 0-64-80 0zm-48 64l0-64-80 0 0 64 80 0zM152 96l0 64 80 0 0-64-80 0zM528 240c-17.7 0-32 14.3-32 32l0 48 64 0 0-48c0-17.7-14.3-32-32-32zm-80 32c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l0-48z" />
-    </Icon>
-);
+const BridgeLock = createIcon("bridge-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABkQAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCcgsGAAE2AiQDCAQgBYMtBzIbdAXIjtRe8cUEcgTP20XV+90zC6jXdkSdxGizg4IUxNTv+8Q1z//86QEzBB/lF02VVKFRcT6Bnc/WFg00kM0GNlGcbTb04acKf0uGHEtWq38ge/y6QB7/ZKeVSLeld3HN/qXxjWZOk1TLAERdAIxdPH+mKx/GhxHvVF4i3jEdATEWFAIZMrQUYIRMoKVcgVwu+DAqFfkPLAggyvQtE8hRFXfgAUAOknKej69WrVq9DjVKtfJFNUrVl59oEnFLjTpxqdFNjje8sXr1ENXjxS6PthQ3Nnx8kKmbWRcb3xwRd3druCNqsBoCawVnGnMtLGos4vy1FxtG3Eiw/kTf8uoL7uke8cTgl7o+1sp7dcYefqLJLTWi3eN1H/+u7bub3tXmWO3znK9NkUUp53UxRlU//r9OM19c49njjz9edUxgKlhBMoiOHzfFGF1ch9uM0bQ5xphTORwfjDbb4WuGE/oYo4+Vs9vEIjbWrbtxUYDp+Np9b31BHyAQvLP5xw2r64z4rWqNBD5+/Z/l+aJyJR1Pj6OqBIKsR6WHFem4AmEHkEhxSLtggYHkBl/7U2u6WYBQHQGSsuoCZFqoK0Cuuu4ClLQ2UICy6ubLRF5NaGhlhZOa9sKZQY7AuYZegEtGeCNe1jCyDFXnl/r/MMMkD0ycV/Tt1acYVpxWmSbplMv08KLb3OUQdHWlvTbZbZcDNtpgqwMO2mdm6qCdJkXgRD9U6KuXPgrDFLcb4/ZFNtpnv61227XNMlzxvL+LQ/HgrmRLVLKfoiQRqcasMfacPQ==");
 
 export default BridgeLock;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `typewriter` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/typewriter?s=solid typewriter}
  * @preview ![typewriter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/typewriter.svg)
  */
-const Typewriter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 64C64 28.7 92.7 0 128 0L354.7 0c17 0 33.3 6.7 45.3 18.7L429.3 48c12 12 18.7 28.3 18.7 45.3l0 98.7 32 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l0 160c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64l0-160c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32l32 0L64 64zm320 64l-32 0c-17.7 0-32-14.3-32-32l0-32L128 64l0 128 18.7 0c8.5 0 16.6 3.4 22.6 9.4l13.3 13.3c6 6 14.1 9.4 22.6 9.4l101.5 0c8.5 0 16.6-3.4 22.6-9.4l13.3-13.3c6-6 14.1-9.4 22.6-9.4l18.7 0 0-64zM160 288a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm64 0a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm64 0a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm64 0a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm64 0a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM96 288a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm64 128c-8.8 0-16 7.2-16 16s7.2 16 16 16l192 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-192 0zm-32-32a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm64 0a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const Typewriter = createIcon("typewriter", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABxgAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiDZQsGAAE2AiQDCAQgBYMtBzEb5gXIhofn9f77tU/ylIyRsdnBH2DlUu7gVihZqbvzf02/KD/A7wd4fijVa1tbg0TE8wkMfE3tDXpAe0ObgO1s25sj4iEeITGukMc72XV1pMfS57gnuCp+19l1kqYMQLQCwKwNa5b58Of4OeKz2mvEZ5YgIGaBSiDD7+gmwFSZQDe5Crlc8HPUavI/sCKAqBeo5FCOVvga3zBdQtIizyf2asJUs6ZUWdc8X5+fUGx5YkjEywPKuGPQoHiRaN7W/iHicrsHC/HowBf6NovnBr/UJeL2Dg9HxJWOj5RlxK6iLEahIk4k28dDZRXu2DFWv3Ttg+0eav9Ix4c7lBZrBq0LlCEDxeAgDVVqb8A8GzxOv6H3S61e+rPX5/s/N+NS0ZrWz/6mS+/P9e6yR6XFrbe2KJjPKlq3fnamZ2eLZ5dKKpdnzKiqiqz/0GVtNb/1B7c2318VtjXzp2d+btHi52xiM21gxiUe/FAYXFsLrWjpeTykNr4dCAQP97/vgR0tp/7TWCbw69t//1/9jNQ+TNJLaJRAkA2tDbU1gUQAAFKc1ztBIPlYC7Fbm3lYgFAgQFKvECDTVSsBcoUhAtTpYZwA9QprZCJvEtrZ1oGkmVMgM94FkGvnFVBnqo8y9dpFBtoyYMpflhnzh/C8RdWo4SOrydVqTaNAq2hnp1SH/QPPy55BeK/9TjjurH32OuTsgD5tWf6cY+Zvsed9tjLKcCNVJqsuN59uX2+f08445ITjfp4pquejA53fHj4Ih5KYc7SCJBGpeM+U/2QA");
 
 export default Typewriter;

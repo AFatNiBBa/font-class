@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `banana` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/banana?s=sharp-light banana}
  * @preview ![banana](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/banana.svg)
  */
-const Banana: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M349.4 51.8L325.8 67.9C332.5 92.1 336 117.7 336 144c0 41.9-8.9 81.7-25 117.6L286.2 238c11.5-29.1 17.8-60.8 17.8-94c0-31.4-5.6-61.3-15.9-89l65.1-44.6C411.4 63.1 448 139.3 448 224c0 14.7-1.1 29.2-3.2 43.3l-34.5 10.9c3.8-17.5 5.8-35.6 5.8-54.2c0-66.3-25.2-126.8-66.6-172.2zM254.1 295.8l-13.8-13.2-90.4 36.2-14.9 5.9-11.9-29.7 14.9-5.9 100-40 9.6-3.8 7.4 7.1 85.2 81.5 143-45.1 11-3.5 6.8 9.3 64 88 9.4 12.9-25.9 18.8-9.4-12.9-57.2-78.7-58.7 18.5C378.2 441.9 277.3 512 160 512L32 512 0 512l0-80 0-32 32 0 16 0c84.5 0 159.5-41 206.1-104.2zm125.9 59l-39.3 12.4-9 2.9-6.8-6.5-47.5-45.4C224.8 387.3 141.6 432 48 432l-16 0 0 48 128 0c93.6 0 175.4-50.2 220.1-125.1z" />
-    </Icon>
-);
+const Banana = createIcon("banana", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfAAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCKgsGAAE2AiQDCAQgBYMtBy0bJwXIhofn9aI/9yUzCyhrs6O+3QHoQFTm2GnxxksL5AC8Y1obb6obpDRnvAKNb/q8T8Dab3t8e1F8a6fz9T+IbJIkPsmw6IfVAfL4ILooka5KL+KC9KHxtUaOkeQZgKgJgJHzZ0/19KfxacSL/z9AvGgyAmIUKAQyZGgqwBCZQFO5Arlc8Gn8/z//BxYEEGX5fhPIUcIunATkIMnyvGm/hlVK1fJ5VUqV17dp3+Y6h3p0irvicPP58UTPexxq2Ceuibfnzalfr/6cqBuNo0HMJ7VezCUCCx2ifsyLCfHmHMYrV45Yq1LlmckvDJ/bp3+funNtWDw94VmWAm8Q70x/ZXSrW2ve+m3LF9e9aMnZ7du3X9Jh+ImTmvTq/ueILh46cfmI+m06Wdg01o4Yu+znD/PWC1v7yhO+srq9S6wzZ6bzu7jFRsPnO+uIaw2Y6iatpozpOrbbAoeKGQpFzR8mLe6+f9Bmd7Uj1vrXnjvuGKemHg4Z59BFDYFAULPzLauX1xjya8UqCXz+6Pc/Khf//3Qalm5FRQkEWZf/u1iSRiApvQK8kWKfVvgmgWSTDN61qssFCJURICmrLECmiZoC5CrrLEBJc30FKKtstkzklYS6ljaQVLUTZPrZD3J13QdKhnjGKKsbmfUxtsP8/RLH9dDYvqJntx7FoGLpqqxBUaE9uNiWO+yTVEfstc522+yx1hob7emQXabae201ToPH+qFCT930UBikOA4ed8+z1i67bbTdtthlsOK+0sE+vbgjhkiAXu9GiTNSedXKbSu3rQQ=");
 
 export default Banana;

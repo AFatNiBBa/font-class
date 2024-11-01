@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hill-avalanche` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hill-avalanche?s=thin hill-avalanche}
  * @preview ![hill-avalanche](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hill-avalanche.svg)
  */
-const HillAvalanche: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M191.7 40c15.3 0 29.1 6.1 39.2 16.1c2.9 2.9 7.6 3.1 10.7 .5C254.1 46.2 270.1 40 287.5 40c39.7 0 71.9 32.2 71.9 72c0 6.7-.9 13.2-2.6 19.3c-1.1 4 1 8.1 4.8 9.6c26.8 10.5 45.7 36.6 45.7 67.1c0 16.2-5.3 31.2-14.4 43.2c-2.6 3.5-1.9 8.5 1.6 11.2s8.5 1.9 11.2-1.6c11-14.7 17.6-33 17.6-52.8c0-34.8-20.2-64.9-49.5-79.2c1-5.4 1.6-11.1 1.6-16.8c0-48.6-39.3-88-87.9-88c-18.8 0-36.3 5.9-50.6 16c-12.3-10-28.1-16-45.2-16c-39.5 0-71.5 31.9-71.9 71.3c-.2 2.3 .6 4.6 2.3 6.3L431 411.2c26.8 26.9 69.8 28.3 98.4 3.3l4.2-3.7c30.2-26.5 30.5-73.4 .8-100.4c-22.2-20.1-55.1-23-80.5-7.1l-3 1.9c-3.7 2.3-4.9 7.3-2.5 11s7.3 4.9 11 2.5l3-1.9c19.3-12.1 44.4-9.9 61.3 5.4c22.7 20.5 22.4 56.3-.6 76.4l-4.2 3.7c-22.2 19.5-55.7 18.4-76.6-2.5L135.9 92.8c1.7-29.5 26-52.8 55.8-52.8zm255.5 8a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm31.9 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM16 102.6c0-7.1 8.6-10.7 13.7-5.7L415 482.3c5 5 1.5 13.7-5.7 13.7L56 496c-22.1 0-40-17.9-40-40l0-353.4zm25-17c-15.1-15.1-41-4.4-41 17L0 456c0 30.9 25.1 56 56 56l353.4 0c21.4 0 32.1-25.9 17-41L41 85.7z" />
-    </Icon>
-);
+const HillAvalanche = createIcon("hill-avalanche", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABvwAAALpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDRQsGAAE2AiQDCAQgBYMtBzUbygXIjtRO+UGsRIKoclrPSpY5iEoOgEg5ZFuHhC903QvoBezDW3fDnn8vPy/HMQ4HGCY8CyySJq55/vT0DZj8go9SYaWFseRR5vkEJpIYhbuJNM4GOjAa66zNeYMvIsqDg0h8Rs8jDePTsDS1A7q8oDcOUKvJPWBJe1H5SDIzQaFpAABIFAAAUKNdqyZcCklI5F74OMg9GgECIDUBMBFAAzQgDQGgMhoCpKFjAjo6AiEJh+k/0AQBADHgsykAdMANXAXuAwA6AAqnrndyx8biuDivw6+3zet6Om2nAb7TbQ+7wYpbSbfL1WAlrVwvthdz1Bpr44a455yvd3Tb/C5h0T6y22xPibIX18YddoeOE5sg2bbZTnfDqnibnW/7Kl+D265NgK48gszmLEgUsTGHBbv5x8ojQAN9EQLBcnrmnCPaRwIUdT6Zf/2rUCsUPERWCiWracD4ZSe3Wd/sPcueP+te33tctLv/r9Wy2KavVK1MT5LRstzhNzH5cZnWrWobGSnXnnV0uvXxc6/0bsVSQqVK+fWY0qWpdehpUYvW6b4+ES1qVMqidZ46LbN4h9whwRFZkojm8ZElSpLw5V/3/85QREToUUbGo+IRc4G5ERFza4R/bvV3K1wkVMBaNa7t9j9ob9SAErWsQqm4OKMH0XtbdA+rPYPn9MD59f/wHtClyd5iAYAAAi0XlgbdIit/c3kVAG/PfP1NODl8SRVRewBcKAAEtMLhTGdVHYitIIIBXAAlY8l+IwEUZ3HCvo/gbk7wwEEqDDykRipRpI6HQqSDDMpIxtmt0BDdjRBHF5AKHyNIjbJMIXXiOEo6qMzN1CBONFdWHFH5ksysK4E608wSRYubFc3bsql6p1TGK5lmO//Y1FYAK+nLMIYymj70ZgCjBTGSJrkxDKGuBtXhg5iUoCjFMamIuV17XdyWPoxkFAMYxtA6SSXM5/38jNV7F4CnYN6SlCgUiIp4C7NFeoztMfhPe1YfAA==");
 
 export default HillAvalanche;

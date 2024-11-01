@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `quote-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quote-right?s=sharp-thin quote-right}
  * @preview ![quote-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/quote-right.svg)
  */
-const QuoteRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 296c0 66.3-53.7 120-120 120l-16 0-8 0 0-16 8 0 16 0c57.4 0 104-46.6 104-104l0-8-160 0-16 0 0-16 0-160 0-16 16 0 160 0 16 0 0 16 0 88 0 72 0 16 0 8zm-16-96l0-88-160 0 0 160 160 0 0-72zM192 296c0 66.3-53.7 120-120 120l-16 0-8 0 0-16 8 0 16 0c57.4 0 104-46.6 104-104l0-8L16 288 0 288l0-16L0 112 0 96l16 0 160 0 16 0 0 16 0 88 0 72 0 16 0 8zm-16-96l0-88L16 112l0 160 160 0 0-72z" />
-    </Icon>
-);
+const QuoteRight = createIcon("quote-right", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABbwAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCDQsGAAE2AiQDCAQgBYMtBzIbDwXIHoex22RJF82QdxwP38+Rf+5LFtNOU+KUGV1dfR2BBgBXFn6n9pP6epMZKKIhPrjbjX/r582jMHxGoR0XXprfQPc9bwEn1tLWPAwki/sX0Bf/AvZ3Z1shifZJaykjOc5xPDbI44a9akjXElwqF42/dHaRJMsARAmAWRvWLPOlKZoifja/JH5agoCYBSqBDBm6CTBVJtBNrkIuFzRFc7P/D6wIIGrRXgnkqMVhnALkIMnzvH/hlKKmZb4+rmrcc3dqxIe5jY0RRfF6yH0jGEe0KMStrg/RGKKIWDt9SO973LuX/Xy+kqJ1VdaX6ssn/S7q3S1Ld5XKJ9hooVJ9qx0bSbgLx13434757wGBYPeP5e9oNfX/+iKBP+/++6v+huJLuod6CQTZ0OahtsYXiC8CAJDivN7xBYFktxydtYXLAoRGBEhqNQqQ6aoUINdoiAA1ehgnQK1Ga2QibxDa2cYgaeEUyIx3AeTaeQ5qTPVVq9UuMnMjjYX87cXNl9C8qWrU8JHV5Groa5QF4ak/pVrmB54PuUGwaL8Tjjtrn70OOSuQ05aZ5xwzX4Pn+aDKKMONVJms2o7u59fb57QzDjnheB4yRXVeHui8Xj0IpIQwR7MkiUjFTSBfKwAA");
 
 export default QuoteRight;

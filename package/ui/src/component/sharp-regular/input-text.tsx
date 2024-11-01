@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `input-text` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/input-text?s=sharp-regular input-text}
  * @preview ![input-text](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/input-text.svg)
  */
-const InputText: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 112l0 288 544 0 0-288L48 112zM0 64l48 0 544 0 48 0 0 48 0 288 0 48-48 0L48 448 0 448l0-48L0 112 0 64zm328 96l52 0c33.1 0 60 26.9 60 60c0 9.2-2.1 17.9-5.8 25.7c13.3 11 21.8 27.6 21.8 46.3c0 33.1-26.9 60-60 60l-68 0-24 0 0-24 0-8 0-64 0-64 0-8 0-24 24 0zm24 72l28 0c6.6 0 12-5.4 12-12s-5.4-12-12-12l-28 0 0 24zm44 72c6.6 0 12-5.4 12-12s-5.4-12-12-12l-16 0-28 0 0 24 44 0zM203.4 160l2.8 7.1 72 180 2 4.9-51.7 0L219 328 149 328l-9.6 24-51.7 0 2-4.9 72-180 2.8-7.1 38.9 0zm-3.7 120L184 240.6 168.2 280l31.5 0z" />
-    </Icon>
-);
+const InputText = createIcon("input-text", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfgAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCLAsGAAE2AiQDCAQgBYMtBzEbLQXIFqGS8/D/c5T3/WQoGYYsE7esgPxWMVogta4s/JxaVATzfy7e2/M14OdNfGjVVwkSZREpcM8nOrwosbbDswM6MT7bJnFKtQoNEvFLRMPmsJY4zGIPefwdT6khPZe+xW190/hBnydJajIA0QqANYf27XBnNEYjvvn/I+Ib2xAQa0AlkCHDoADLZQKDchVyuWA0/v8//gdWBBC15GoTyNGAB/AYIAdJXZ43tI2URV9dWdOUHyxrimMpSy2RRfPKsmgRKUTRHJFFnCmL8q0p7/U92snOz05+d3xRBLzlgV3VMz1PdxfhgHoKE8bBru6uA9EVan+GerGeOLRZuX94aHgwyrHvt77/05hvL35r1q5KVIH5/+zZj85Wma3v1simU/Npk0epbz62urGeR9f39qq3mtB6vZGeTYOofLUoXh3UO23TJa2DvabfuT0R7ps+0GmeZ2z0jHk6dUUTTUwP/gZC5ReBYHTmC9+daln+a32ZwPef//KLXpgeTe+jXgJBNv3/6Y6nRyHSA0ineMBY44MCyU11+FUbPS1AKBAgqVUIkBnQKkCuME2AGsMWCFCrsE8m8gah04kKkkZ3g8xCD4Fcpw9AjeW+SNXqjIyf4DzC5y91YwtvcKrmzJxdLa22LUX0KK7VZdWxd/IDaWQKXF10y033ueC8K+5rqHvsyN7vho0WssEXVeaYabbKUtV191E9yOl73OvKWrxfxzLV++RkD9jTpyCQCOtcVUkiUuGh2gybAA==");
 
 export default InputText;

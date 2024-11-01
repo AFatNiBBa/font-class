@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `image` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image?s=duotone image}
  * @preview ![image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/image.svg)
  */
-const Image: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm64 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm2.4 258.4c4 8.3 12.4 13.6 21.6 13.6l96 0 32 0 208 0c8.9 0 17.1-4.9 21.2-12.8s3.6-17.4-1.4-24.7l-120-176c-4.5-6.6-11.9-10.5-19.8-10.5s-15.4 3.9-19.8 10.5l-87 127.6L170.7 297c-4.6-5.7-11.5-9-18.7-9s-14.2 3.3-18.7 9l-64 80c-5.8 7.2-6.9 17.1-2.9 25.4z" />
-        <path d="M323.8 202.5c-4.5-6.6-11.9-10.5-19.8-10.5s-15.4 3.9-19.8 10.5l-87 127.6L170.7 297c-4.6-5.7-11.5-9-18.7-9s-14.2 3.3-18.7 9l-64 80c-5.8 7.2-6.9 17.1-2.9 25.4s12.4 13.6 21.6 13.6l96 0 32 0 208 0c8.9 0 17.1-4.9 21.2-12.8s3.6-17.4-1.4-24.7l-120-176z" />
-    </Icon>
-);
+const Image = createIcon("image", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABhAAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCCAsIAAE2AiQDCgQgBYMtB0YbIAXInge225QlNDE0GA4+XKAlHv5/v173uff9WclAEF+iAEHlqxCBigPCEqmqOiKhZtVWgp5m/lKE7/s3+k+UBHPWsTmKlMQqxKLe/6dOPY9tCuAbBW0PDciynM95HoGAJ11eb7FWqlBNa2A1txFTniCIRUTkkJcntC1E71DEX/kS2kgPDVwP/wMY/+jrEknHDCC6AGD+qmXtvmtGM8UvrW+IXyxFQCwApUBGxgABZskCAxRKFApBM7XSjNaSAKIiwJlWUU/YjsOAAiQhF0W/fo3+tbZGsdIcVLfds/PLY0zod9yhu1SrXY73w8r8eEV8LI14Oz7MKR7oB1yPd/Ojktsftrfyvj7q7/hNWrPcGXdeNvQj99EfYicL/ztbb+xdedENp2u103Ovc0v3Nze/0/71e099js3VrnR98bzo2rU6Dwg23qoePHfuYDUtI/Zzrj0OBIJ5G37bWOdZ/3eoJfD3t/7NPyStZpI+Ah0kEORRrW19AokAAKQ4aWhiNgLZAln81Lp7AoQqAiQVVQGy/roIUKgaKUCbQSYLUFG1TBZFR6GHDRUkdUdANsUFUOjha9Bmlu/9ih6RuY3lFfavl7QEocVb5RkzrpxRDhOFYyDaL2eW25aedI3hdNNOhxx03A7b7XEcyKPaoxMOWDIjFvui0nhjjFOaoTzOb6WV4B91zJ6+cL5mpvK9N8zJef9wcpNIOcFOlokUuSGc2mihdTrvAUE4AQAAAA==");
 
 export default Image;

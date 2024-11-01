@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-tumblr` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-tumblr?s=brands square-tumblr}
  * @preview ![square-tumblr](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/square-tumblr.svg)
  */
-const SquareTumblr: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM256.8 416c-75.5 0-91.9-55.5-91.9-87.9v-90H135.2c-3.4 0-6.2-2.8-6.2-6.2V189.4c0-4.5 2.8-8.5 7.1-10c38.8-13.7 50.9-47.5 52.7-73.2c.5-6.9 4.1-10.2 10-10.2h44.3c3.4 0 6.2 2.8 6.2 6.2v72h51.9c3.4 0 6.2 2.8 6.2 6.2v51.1c0 3.4-2.8 6.2-6.2 6.2H249.1V321c0 21.4 14.8 33.5 42.5 22.4c3-1.2 5.6-2 8-1.4c2.2 .5 3.6 2.1 4.6 4.9L318 387.1c1 3.2 2 6.7-.3 9.1c-8.5 9.1-31.2 19.8-60.9 19.8z" />
-    </Icon>
-);
+const SquareTumblr = createIcon("square-tumblr", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcQAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBawsGAAE2AiQDCAQgBYMtBzQb7wTIhqDSVWW1pL1bzTHomNEDsgie2SS2nv13N95Fi2Ds0vhPe5rx43cd2/7ji9eI744dr0DjBalvoW4r2Iti3zZ02KjC04iQMIlorHK8jpDHE3FHQXosfYvb5UfjBx1dJSkyANECADPWrVris4ZoiPj2/7eJby1CQMwElUCGDF0EmCwT6CJXIZcLGuL//+k/sCKAqMOvlECOHJuwHZCDJOV5pwm1omm+tlaU+x4fGPF63ybxYv9XO6R4bMBrfZrGK4Pe6Jyt/1w9tnNEGdfaRVxq/0rnJzo/UqvFQwSyF9uU4bV9qN8jZLbtimabB+masufrLV7/qce3e7/16bayJS2fne7Zli3L6YRGt34ybccQBpcbdVMUgzTa+fWLb2X19YMtL+YbXXnCi+X3WKXFyy/PGzG8yr7TpvXe335tBwSC/97/6dltzSf/2riWwPcf/PJ3vt3/DfFZeh2NJRBkg/8fbHN8BsgNwE9xVk9jYIFklQT8rU08LEAoESCpUwqQ6ayFALnSIAEK3YwRoE5plUzk9UIbWzpImjgBMmOdA7k23gSFyb7w67SJzLtk35A/dxlzJTRnVzVi6PBqYjWtNMVhxLg5qVq2+p8NEwPgoL2OOeq0PXY74LQgT1oSnXHEXIuYY0CVEYYarjJRtd0+GmuFf9IpB3Rtf5tJqvN2f2ft+QNgPwkw8l5KiUhNX2h+yOkzR3YePgkA");
 
 export default SquareTumblr;

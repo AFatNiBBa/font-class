@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `olive` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/olive?s=sharp-thin olive}
  * @preview ![olive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/olive.svg)
  */
-const Olive: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 464C80.5 464 16 399.5 16 320c0-90.4 42.6-158.1 97.4-203.7C168.7 70.3 235.2 48 280 48c23.2 0 47.9 11.8 68.1 25.3c9.8 6.6 18.1 13.1 23.8 18.1c2.9 2.5 5.1 4.5 6.6 5.9c.7 .7 1.3 1.2 1.7 1.6l.4 .4c0 0 0 0 .1 .1c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 .1 .1l.4 .4c.3 .4 .9 .9 1.6 1.7c1.4 1.5 3.4 3.7 5.9 6.6c4.9 5.8 11.5 14 18.1 23.8C420.2 152.1 432 176.8 432 200c0 44.8-22.3 111.3-68.3 166.6C318.1 421.4 250.4 464 160 464zM0 320c0 88.4 71.6 160 160 160c192 0 288-181.9 288-280c0-56-56-112-56-112s-56-56-112-56C181.9 32 0 128 0 320zM234.4 113.1s0 0 0 0s0 0 0 0c0 0 0 0 0 .1l0 .2-.1 .6c-.1 .5-.2 1.3-.3 2.3c-.2 2-.4 4.7-.6 8.2c-.4 6.9-.5 16.4 .5 27.1c2 21.1 8.4 48.1 27.4 67.1s46 25.5 67.1 27.4c10.7 1 20.2 .9 27.1 .5c3.4-.2 6.2-.4 8.2-.6c1-.1 1.7-.2 2.3-.3l.6-.1 .2 0c0 0 0 0 .1 0c0 0 0 0 0 0s0 0 0 0l-1.1-7.9c7.9 1.2 7.9 1.1 7.9 1.1s0 0 0 0s0 0 0 0c0 0 0 0 0-.1l0-.2 .1-.6c.1-.5 .2-1.3 .3-2.3c.2-2 .4-4.7 .6-8.2c.4-6.9 .5-16.4-.5-27.1c-2-21.1-8.4-48.1-27.4-67.1s-46-25.5-67.1-27.4c-10.7-1-20.2-.9-27.1-.5c-3.4 .2-6.2 .4-8.2 .6c-1 .1-1.7 .2-2.3 .3l-.6 .1-.2 0c0 0 0 0-.1 0c0 0 0 0 0 0s0 0 0 0l1.1 7.9c-7.9-1.2-7.9-1.1-7.9-1.1zM365.7 237.7l7.9 1.2-.9 5.9-5.9 .9-1.1-7.9zM249.3 125.3c.1-1.4 .2-2.6 .2-3.8c1.1-.1 2.4-.2 3.8-.2c6.3-.3 15.1-.4 24.8 .5c19.8 1.8 42.2 7.7 57.3 22.8s21 37.5 22.8 57.3c.9 9.7 .8 18.5 .5 24.8c-.1 1.4-.2 2.6-.2 3.8c-1.1 .1-2.4 .2-3.8 .2c-6.3 .3-15.1 .4-24.8-.5c-19.8-1.8-42.2-7.7-57.3-22.8s-21-37.5-22.8-57.3c-.9-9.7-.8-18.5-.5-24.8zm-8.2-19l1.2 7.9-7.9-1.2 .9-5.9 5.9-.9z" />
-    </Icon>
-);
+const Olive = createIcon("olive", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABxgAAAL+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCEcAsGAAE2AiQDCAQgBYMtBywbbAZRlO5JnuyLA5vIHA8NjaiPpj01FWYmNR7T7fzSWFWq0Aj1s3j43u7/W/t0P8D9ZY3I0ArhzDcaOvrKRspmqv2nud2r9xG7G24JonkoC50St7pVQbpYJeElURKR/MBqTBrG9RwKrJ645vljLr15BEOLDI7SUSZGg01krVVCs/RRgY7GE6AN20bmArPHqbGcQh6POU0V6ZH0Ce5yJxo/63MbSZYBiFYArDpyzzaVg3Ew4uPySnxsCwJiFSgEMmQYFGCpTGBQrkAuFxyMsmT/gQUBRLXwa0wgRy3RTYwH5CCpzvM9I+fWjdQ1VDXlRzRU1e97b3nEO6NHvnNe771aN7pWbGELjTQQdEpiEbpgLV/rmNDql/Z9/sHeI14WeKjf7/n8yNdjE91IB95e3BWN+Tcrv9h7ZIHtjwdY3MRu6tQidmQt7MJWbGlJJtGCDhk2v1QC5FD0qLM7a+cecheyuMEBTiaIcEjt6hYhhEIecZ1DWZJp/SvHiM1uDmMwuLEhoHqKOoguMUgo8VMdffKdfqM+OeMTT7V87uSqQZ599p5nKq+Mafx/umNOBgALBAzfoq25eOnEMWPIFe2rVkeeuitGn/AJP3Bi/FFaWWr84YPPD/D/f11RrlS24MQfPzvoQRFZ3qBl1679v3Z1/YFWZhEBdta4Oy1XwdGqemzcvbOcMIZbr7sIH1Rlp5rLLoJEqj/4x+21NNeTIhqKS2qg6iLzDgeBoOPCJ+ontiz9t7YhgcNv/L60cnkQlfQcaiUQZFPLqY6LCjDGAN5SiiuMjgoCKZpVw8fa6EEBQj0CJNXqBcgMaBUgV2+KAFWGzROgWr09MpHXCZ2Or+hJo4vpmfmup+c6vU6vstT7zmqdkb0gnNub83uacH0TWNetmDV9ZrG4GA0puPc8S5cuKRYrJ17BUybBkc5woQtc5nSnOdtlDeIltnkud771U+g6d1SYZbqZCosVm6N3hUdgwyUubbKG+dvrWaI43jrRFdPZJ0FNEpjOFpwkIlVd+PkA");
 
 export default Olive;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signs-post` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signs-post?s=sharp-light signs-post}
  * @preview ![signs-post](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/signs-post.svg)
  */
-const SignsPost: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 0l32 0 0 32 176 0 64 80-64 80-176 0 0 32 176 0 32 0 0 32 0 96 0 32-32 0-176 0 0 128-32 0 0-128L64 384 0 304l64-80 176 0 0-32L64 192l-32 0 0-32 0-96 0-32 32 0 176 0 0-32zM432.6 64L64 64l0 96 368.6 0L471 112 432.6 64zM79.4 256L41 304l38.4 48L448 352l0-96L79.4 256z" />
-    </Icon>
-);
+const SignsPost = createIcon("signs-post", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABYwAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBYQsGAAE2AiQDCAQgBYMtBzEb4gTIHgVuywOnkHmEFltoTSdUXxpCPP/ffq/73DehmaTsgGyrUJUtAAjJxtaRsFHVLEyM+Cu2uvrZ83O7v40MlfYgiVgSTZbEpIm1RPLMGi1pMsexTJ16nvNQAN8oaGPaomxeQHufRyCgwfd4wNPWCtYaVsD6NhEV8gjCLywiJtHxZcfVCS0/Ewn1rYBP4U3zj9yR0iYA2QUALj9MpyAuski25gfZkgCBXAEcwTBhwgEMnMMLDhAcAU0TFpln9x9IECDL5K4FGpZwFzwH0ECZWjszxljaaA/GUn86+pCR+7mXHhlDRHqXnqTnQR5mqNwD/JiErW+sy0Yu5sKrc0GfP0GT9WObstNbocn3L6GDs4s3WTzLX3KEUEbo+9YR27ZNYnA6KGOipPT6WRIVE+V1QBC2f1d7Jem5/6ujwPaP71/8Fc1iqU2sKhCmE3PyBYoAACofKQuCchUPX3XdZwHREVCWdQGT/WQYaLrjGFhyiB0Dy7q7eGlrYp9CBmXdGzA5awWafW5gyTkvZ9m+TIZFmQX1r4sPExLaI7PBRB7qppS2FcKvvbQsqpbcUgMUTSNDcw11HfMCm0r5CwPhERryQcTMwIR40HZxzefImZrptNn9LV503lBZjofVoHAE96RAKVL9fQj6mwgA");
 
 export default SignsPost;

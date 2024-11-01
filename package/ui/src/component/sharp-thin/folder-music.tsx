@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-music` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-music?s=sharp-thin folder-music}
  * @preview ![folder-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/folder-music.svg)
  */
-const FolderMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 32l48 64 224 0 16 0 0 16 0 352 0 16-16 0L16 480 0 480l0-16L0 48 0 32l16 0 208 0zm48 80l-8 0-4.8-6.4L216 48 16 48l0 416 480 0 0-352-224 0zm80 68.5l0 11.5 0 152c0 22.1-21.5 40-48 40s-48-17.9-48-40s21.5-40 48-40c12.3 0 23.5 3.9 32 10.2l0-110.6-112 42L224 376c0 22.1-21.5 40-48 40s-48-17.9-48-40s21.5-40 48-40c12.3 0 23.5 3.9 32 10.2L208 240l0-5.5 5.2-1.9 128-48 10.8-4.1zM304 320c-20.5 0-32 13.4-32 24s11.5 24 32 24s32-13.4 32-24s-11.5-24-32-24zM176 352c-20.5 0-32 13.4-32 24s11.5 24 32 24s32-13.4 32-24s-11.5-24-32-24z" />
-    </Icon>
-);
+const FolderMusic = createIcon("folder-music", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABiQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCRwsGAAE2AiQDCAQgBYMtBzMbSgXIjtMV8c9DCRMP/z/3n/vc5A0kw5AZxUgKsECo+m1dWQ0LV8qqJdCvEGrn/3LPb9rRAX6jQxubli6+7Wu0piYQR9mw6QllgQWYaBY4Zu5qkpKm+0laE0keP/N4uUMeXzqgQXo7PcaL+UXjV73dJskyANEJAHM3r1/puzrqiEfNxCPLERBzQSWQIUM/AWbIBPrJVcjlgjqazfAfWBFAtIKfI4EcrXEHLwJykDTyvHvnsV27lo32+aayUWyfO29uWYoUomgXkUVEubEoix4xL4pI0T6yKDYK4q1urxXP9Hijz7s93yyf7R6xIfQHRfSMzdFzw2vdIl5zvfvr3d/s+Wbc6PFGD79/cEunlt8HPT702M8fNhGrO3WyR8Q7/YV/xOnUXI2OLvSZ+z5S26NevaBE8i0eft+t2/cPy05dH5xyeqibnTOPaZjr2mifjn6mfoLLbdpcfqJm1q25NlA/DgSCix/efXl3xxn/KxP45Ys/f6WvkWadpBa0kUCQjWiOsCOBRAAAUlwyOEEguaIBz9rOGwKEAgGSVgoBMn11EiBXGC5AwwATBWilsF4m8rZCNzsbSNo5CzKTXAG5bj4HDTPcc1vpFpktspbEfgWTFklo4bZq7Kgx1bRqWKqcedFpcXq1rA65pAaG0kmHnHbKBQcdcNQFQZ6zMrjopEUzYqE3qow1yhiVaartZn14k4POOe+o007xJtNV580hLs3HDyUjAeU4ySQRqd2hZ6CMvKcA");
 
 export default FolderMusic;

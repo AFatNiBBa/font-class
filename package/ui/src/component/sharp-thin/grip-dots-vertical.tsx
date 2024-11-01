@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grip-dots-vertical` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grip-dots-vertical?s=sharp-thin grip-dots-vertical}
  * @preview ![grip-dots-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/grip-dots-vertical.svg)
  */
-const GripDotsVertical: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M80 96A32 32 0 1 0 16 96a32 32 0 1 0 64 0zM0 96a48 48 0 1 1 96 0A48 48 0 1 1 0 96zM80 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM0 256a48 48 0 1 1 96 0A48 48 0 1 1 0 256zM48 448a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-80a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM240 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-80 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm48 192a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-80a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm32 208a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-80 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const GripDotsVertical = createIcon("grip-dots-vertical", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABwgAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhECDUwsGAAE2AiQDCAQgBYMtBzkb3AXIHoVxw11iwVAaFhEF98/Hw9P++M6dNx9Cg5bOABKVwbbNqa0jHJqUN7+DcXn3coTuAef/Bg1qINNWAVTGrYEpMPXVa+f/cnrDzg/wi9+ke2c+tl1D8zWfjzUFwsB60VxiWVbPE0mIsm3GLUmEITRFhJSINIz+MP0OcizRiE26n95xu79o/NNjkaQoAEQzALBqeykDj5/jc8SbMuKN1UBArALAMESBAv0QLMUU6McyDGRZ8DnKsvwHEgggKgmWLMtoxEt8Qs8iqc+5raG5hRUNeVv9gWp3z3Ui3qldal+BSx2rwuWudRQ8HDk3nyo2TCeWM2WFJSgBAguOhGLg2dqUkwBrS+WqZ12UTcVXDFeyq1/92+a31u+X3OJWo+TWiM8LTk5MdAuom/X7V64Zz+MOft7f/zxAXx+awnx0X48DgeD49RsH90uX/q+uS+Dro/9vPrNUHrPTFaolEBST5aT6uGhARkASnuIiGALwSQLJC/XwrPXuCBBqESCpVCtAoY8MgqzWBAQVBoUhqFRrM6bINUK7hgWSemdAYb4pkLW7BhWWevJWag9mRiv5qPxQZqZ3NDWN/B4fJeiaMNUklVpjktw22zAV2LEQmvXoNqhJozaDG94vExjSJW0RU+8lfh4+JIHC6fX8Sk36DWjTo5snSaL3Lpthu7wdTgbhnO2AJBGp9dDZtl5346nBAfdnAg==");
 
 export default GripDotsVertical;

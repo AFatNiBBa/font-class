@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowl-spoon` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-spoon?s=sharp-light bowl-spoon}
  * @preview ![bowl-spoon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bowl-spoon.svg)
  */
-const BowlSpoon: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 160c-49 0-80-33.1-80-64s31-64 80-64l80 0 0 64 0 64-80 0zM112 0C50.1 0 0 43 0 96s50.1 96 112 96l80 0 32 0 0-32 0-48 272 0 16 0 0-32-16 0L224 80l0-48 0-32L192 0 112 0zm48 453l-17.8-8.8C82.1 414.5 39.7 354.3 35.5 283.3L33.9 256l444.1 0-1.6 27.3c-4.2 71-46.6 131.2-106.6 160.9L352 453l0 19.9 0 7.1-192 0 0-7.1 0-19.9zM1.9 256l1.7 29.2C8.5 368.1 58 438.2 128 472.9l0 7.1 0 32 32 0 192 0 32 0 0-32 0-7.1c70-34.6 119.5-104.8 124.4-187.7l1.7-29.2 1.9-32-32.1 0L32.1 224 0 224l1.9 32z" />
-    </Icon>
-);
+const BowlSpoon = createIcon("bowl-spoon", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABegAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCGAsGAAE2AiQDCAQgBYMtBzEbGQXIHoex82TJj3tF+RDx8LXWv+f2zD4A7I/MIXZx8XFEDhh19FYsY7IEMifCgvrFqec5DwXwjYI0Ji4NyJiUC815HoEIbK9IgbqBaloBq7WzWxhEXwZJn/JxGbbPsLlAGa8HFdLdadxe3jS+1u82krIAEG0AWHNo3w7vVKMa8cX/LxJf2IaAWAuyQIECQwIsVwgMKWWUSkE1/v8//AdmAoga8oEJlKjBdbgFUIKkLMuOoeHhxkpzebCx0nDspakRj0XTHl/UGEI0xAuTIx4Zun/KowsaGyMimhsjGpoiIhoOT5ww8bWZT40diOboi4emP7F4/AGBxYP9A/0Pr3l3ixCU+/N1748bjEHyCv1jH2t77NsxX1z8wrWjq9eyr69v39rVu6222u6Hfpi/+Osfdudstra2XH2zZXn0gz653S9f/XTCgDcMmPDppx/16VLrHbW67v9gaGhopbattbJczWptbbNyyKhcHQUCwZITM94+1br8VyXw1Wvf/6j9iv5/J0mPoU4CQTH9f44nkAgAQIpbjE0QSC5TgtrkDtYMDQxIajRAYVAblBpMg4oRC8jN9X0KUdYLXU4AkibXQ2GhW6HU5XmoWO5jrUZXFE5Huwz95UvYqJENc3nOzNl5aV6GOuNHZBovy9vi5FtiaQpOXXSta9zkgvMud5PCbrDDvNnVNlroBl+UzTHTbNlSmU6e9w+64AY3uty1rslTlsn31clusZunQEkEd65AkojU8Ig9M2687tprrwE=");
 
 export default BowlSpoon;

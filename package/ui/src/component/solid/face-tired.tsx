@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-tired` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-tired?s=solid face-tired}
  * @preview ![face-tired](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-tired.svg)
  */
-const FaceTired: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM164.7 328.7c22-22 53.9-40.7 91.3-40.7s69.3 18.7 91.3 40.7c11.1 11.1 20.1 23.4 26.4 35.4c6.2 11.7 10.3 24.4 10.3 35.9c0 5.2-2.6 10.2-6.9 13.2s-9.8 3.7-14.7 1.8l-20.5-7.7c-26.9-10.1-55.5-15.3-84.3-15.3l-3.2 0c-28.8 0-57.3 5.2-84.3 15.3L149.6 415c-4.9 1.8-10.4 1.2-14.7-1.8s-6.9-7.9-6.9-13.2c0-11.6 4.2-24.2 10.3-35.9c6.3-12 15.3-24.3 26.4-35.4zm-31.2-182l89.9 47.9c10.7 5.7 10.7 21.1 0 26.8l-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6l36-43.2-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6c0-9 9.6-14.7 17.5-10.5zM396 157.1c0 2.8-1 5.5-2.8 7.6l-36 43.2 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5l-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8l89.9-47.9c7.9-4.2 17.5 1.5 17.5 10.5z" />
-    </Icon>
-);
+const FaceTired = createIcon("face-tired", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiQAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCOQsGAAE2AiQDCAQgBYMtBzEbOgXIjpQuZyTx8P92fb/PraoBWEO6B0QEfih2CjN966dC3BWCP/29O//nn+b5M/poYw5uLIzmFOg80XzTAo8KLNMELGtnn3qD4g2SdAkhw+aHzQHyeD27piA9lr7AHf+h8au2rpHUzQBEEwBMWbVsgXdqoibi8+qLxOfmISCmgFIgQ4YOAoyXCXSQK5HLBTVRrfJ/YEkAUYu8cQI5auEsbgJykOR53r5Hu7b1i4b5yvpFvRU/L4r4etr7cXnqewu/WvnD/C8mv+PSlHcXfLli5RO9Ip6uf6PHk22fbfuYSy0ebNUzXqpXL64P7x4Ptno4nmj/RL+VK1aueMilFsublsutJ8XEMMEjLbeE8viYEA9tySvJWBX2yod0fa7Jc7/7YscXqpNmuMu9cR2mTesw7t7dGbCTn7j2pb/OsrdDh71n/3LvXrM6lcqRUW73y/W7PcqRSqVOXL6n04urB8XiaN26R9N5tk5dWrvoOtZYXYvaS6duLerm3aBh6ZpBjtVZIdYMsvR2IBAUlXqHNzUe/3+d+gn88tqf889I9Z0kPYc6Egiy/tX+1ieQCABAihO6JggkR+XkVRt4WIBQDwGSWuoJkGmviQC5evoJUOhkhAC11LNMJvK6QgsbKkgaOAwyI50HuRaeB4XxPi7V0iIyJWRUiPkDJs5EaMaucsjAweXYcthRWL2i3Oa4ctnsfcJO9KG9djjogGO2q9jtGCBHLKget9/MGTzDF5WGGGiw0ljlcf9WXAnlI47a3WfPtzFOeT/t7cR8fh9yEiEdqi1JRKr3xFsGHNt9ZHsFAAA=");
 
 export default FaceTired;

@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clover` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clover?s=sharp-duotone-solid clover}
  * @preview ![clover](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/clover.svg)
  */
-const Clover: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M120.9 126.9L160 192 94.9 152.9C85.1 147.1 74 144 62.6 144C28 144 0 172 0 206.6V224l32 32L0 288v17.4C0 340 28 368 62.6 368c11.4 0 22.5-3.1 32.2-8.9L160 320l-39.1 65.1c-5.8 9.7-8.9 20.9-8.9 32.2c0 34.6 28 62.6 62.6 62.6H192l32-32 32 32h17.4c34.6 0 62.6-28 62.6-62.6c0-11.4-3.1-22.5-8.9-32.2L288 320l65.1 39.1c9.7 5.8 20.9 8.9 32.2 8.9c34.6 0 62.6-28 62.6-62.6V288l-32-32 32-32V206.6c0-34.6-28-62.6-62.6-62.6c-11.4 0-22.5 3.1-32.2 8.9L288 192l39.1-65.1c5.8-9.7 8.9-20.9 8.9-32.2C336 60 308 32 273.4 32H256L224 64 192 32H174.6C140 32 112 60 112 94.6c0 11.4 3.1 22.5 8.9 32.2z" />
-    </Icon>
-);
+const Clover = createIcon("clover", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABfgAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCEwsIAAE2AiQDCgQgBYMtB0gbLQXIjtRhLTIW4+GfuT7vS/IpswxZYFS7ipAVokJuq6rGFY2YU8WyOiX8Pv29O//nnz7gA/A/5uIRSDTneQKdZ9Fa1BZJKNMMLL+d3yNR6mKSuIQuGabvhu1fIIs36WV1JI+T33GT/gcw/tHZZRJNKYBoBYBZyxYtVK1FLYnfyx+I3y1AQMwGhUCKFN0EmCoV6CZTIJMJaklZUouyLAgg6tF7U1CPFDtxHJCBBJFlGyt1zbOllOarliwN18SD/OXAt53EoBgY4vGgd/2udlwWi+Oe5lViyHRFJd4M+dD1QoelsSTuV+BFDMbiiCeD3/e/0m5xLIuH8PIYCD2Pe+vOt+/9vtX7/3r9vvV3x2f2z6g7zJ+tn7aKvLVSqbU8Wj1t/adl+cCN1owyhIC7Qa2Vvw4Egg+fbVzXcur/jZUE/PHjv8sPSVmLavIejRIQpEPLoVZHFaIqAABJHNU7qiCQ2iiRPrWZBwKEHAES9XIBUl21EiCTGyJAnR7GCVAvt0gqsiahnTUNJJo5AFLjnQGZdr4Hdab6KavXLlKVIxWG/OOLm8+hebOKUcNHFpOLZUWltAiPk1MKsTbwqO8YhKW22mevw7bYbIfDDDloYemIPebv4Hm+qDDKcCMVJiuO64/cUpYddMiOOXM+zRTF/Wigo/v+gzCfBDD6Y5WnRBJpi00P0jo4THWlVj3zRgEA");
 
 export default Clover;

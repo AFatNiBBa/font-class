@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `balloons` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/balloons?s=thin balloons}
  * @preview ![balloons](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/balloons.svg)
  */
-const Balloons: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M182.9 346.8s0 0 0 0s0 0 0 0l-7.5 5.2-30.8 0-7.5-5.2s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l-.2-.1-.9-.7c-.8-.6-2.1-1.5-3.8-2.8c-3.3-2.5-8.1-6.2-13.9-11c-11.6-9.6-26.9-23.6-42.3-40.8c-31.1-35-60-81.3-60-131.4C16 80.5 80.5 16 160 16s144 64.5 144 144c0 50.1-28.8 96.4-60 131.4c-15.3 17.3-30.7 31.2-42.3 40.8c-5.8 4.8-10.6 8.5-13.9 11c-1.7 1.2-2.9 2.2-3.8 2.8l-.9 .7-.2 .1c0 0 0 0 0 0c0 0 0 0 0 0zM113.5 432L142 368l2 0 32 0 2 0 28.4 64-93 0zM192 360s128-88 128-200C320 71.6 248.4 0 160 0S0 71.6 0 160C0 272 128 360 128 360L97.1 429.4c-.8 1.7-1.1 3.5-1.1 5.4c0 7.3 5.9 13.2 13.2 13.2l101.6 0c7.3 0 13.2-5.9 13.2-13.2c0-1.8-.4-3.7-1.1-5.4L192 360zm132.7-98.2C347.9 355.2 448 424 448 424l-30.9 69.4c-.7 1.7-1.1 3.5-1.1 5.4c0 7.3 5.9 13.2 13.2 13.2l101.6 0c7.3 0 13.2-5.9 13.2-13.2c0-1.8-.4-3.7-1.1-5.4L512 424s128-88 128-200c0-88.4-71.6-160-160-160c-53.7 0-101.2 26.4-130.2 67c1.3 8.8 2.1 17.8 2.2 27c23.9-46.3 72.3-78 128-78c79.5 0 144 64.5 144 144c0 50.1-28.8 96.4-60 131.4c-15.3 17.3-30.7 31.2-42.3 40.8c-5.8 4.8-10.6 8.5-13.9 11c-1.7 1.2-2.9 2.2-3.8 2.8l-.9 .7-.2 .1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l-7.5 5.2-30.8 0-7.5-5.2s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l-.2-.1-.9-.7c-.8-.6-2.1-1.5-3.8-2.8c-3.3-2.5-8.1-6.2-13.9-11c-11.6-9.6-26.9-23.6-42.3-40.8c-28.6-32.2-55.3-73.8-59.4-119.2c-3.5 8.9-7.5 17.4-11.8 25.6zM462 432l2 0 32 0 2 0 28.4 64-93 0L462 432zM96 152c0-30.9 25.1-56 56-56c4.4 0 8-3.6 8-8s-3.6-8-8-8c-39.8 0-72 32.2-72 72c0 4.4 3.6 8 8 8s8-3.6 8-8zm320 64c0-30.9 25.1-56 56-56c4.4 0 8-3.6 8-8s-3.6-8-8-8c-39.8 0-72 32.2-72 72c0 4.4 3.6 8 8 8s8-3.6 8-8z" />
-    </Icon>
-);
+const Balloons = createIcon("balloons", false, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAAB4wAAAL1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVCFKQsGAAE2AiQDCAQgBYMtBy8bqAbIjsK2tRNmJGUOxwQk3+B53u7t3DfzicCTZBEQ1VLoiEpg0G1NVQIPPIft31jD1sZlw66iRWe9wAPNJwaUBZbdixJLoPm/5vN7fg34jY7s3j2PXrSOqzwiNPL5xPZm0XS64NnwbGQT0Q26GxTs23dHoAd+G84E9R5sgjX6h8qfhuUoWggAAMkDAADVd906cOOpPA1I0/9Z5OwIBCA7AAwCNKCBaAKgjEZANJ0BdDrBU/n/n/0HGhAASBTzhQqADmyQJcgBANABKJaw3sXWbo4tEHCYXHpPh8nea4mILKH0gmKXUFlikqKzuhnuuC/lUMax2N2V1xu/y6/G70w7knSgzcYg8NmDIl3v0j03K9fhyBZ7ry2pIocXIsc7Tyqu9fwtu9L9I/1o8sGQ7rLRc8UhW2pLQnv22pUuUjErcjDFVRnIMpEZ+KnoQtImPreXC5ds05IDsDwpdmOwh8O+wW0kd+SOMJEtgy1hm0P3JB0I3xQSNRiSX59wyHvoU3zTyCa+7pmMTBdrOt3e/crYOXN8mNqzV928uWp224TvcW7MylogwETqrq//OJVwndNVo/cd3n3Ex3CpbWqqlVppOktt+MeP7955Y+tQIceJBydSmoqtWz7k5zbuLMfyYLkDb1vbx/4GTBbfwGi3Pxhcu4Ky7efqXi53/IB+qw8q1eY6J60Twixf+Dd5sNk8+GlurttjowGVlUX9ACBAYFq9vj3IU/bV6lAAPL/05Zd6O/9vqMXBQ2ClAAi06f80/YOLATwTAGZIBWaS0GCWzFJJWJjv6rRZAICwAwGgmNkJAE0ULwGgs0slAExi5RMAZnbdaCRsQwQNUIHiNAVoCiwAuqDTwKTM/aBZMKDdPOKpL/67pjVkofpVRnZGllFi1GZF0v3AK92lRmdn0kxelQw3MtIkE003wnBjTM+QU3WIzDBBQxNc74sM2TJkMZQwBhcuaj0zwammGVNtM3yYUsb03iQzmxsnQ49iUuZIURQkaP0SmKYBAA==");
 
 export default Balloons;

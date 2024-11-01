@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-chart` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-chart?s=thin magnifying-glass-chart}
  * @preview ![magnifying-glass-chart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/magnifying-glass-chart.svg)
  */
-const MagnifyingGlassChart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 16a192 192 0 1 1 0 384 192 192 0 1 1 0-384zm0 400c54.6 0 104.2-21 141.3-55.4l149 149c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-149-149C395 312.2 416 262.6 416 208C416 93.1 322.9 0 208 0S0 93.1 0 208S93.1 416 208 416zM112 192c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64c0-17.7-14.3-32-32-32zm96-96c-17.7 0-32 14.3-32 32l0 160c0 17.7 14.3 32 32 32s32-14.3 32-32l0-160c0-17.7-14.3-32-32-32zm96 64c-17.7 0-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32zM112 208c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zm96-96c8.8 0 16 7.2 16 16l0 160c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-160c0-8.8 7.2-16 16-16zm96 64c8.8 0 16 7.2 16 16l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const MagnifyingGlassChart = createIcon("magnifying-glass-chart", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABpwAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDGgsGAAE2AiQDCAQgBYMtBz0bpwXIhofn7f79tc/MU8xJKgj+cgmwI8ug/argO/+X07uNRwvkE9ywQ1mzPXhRz+cW6HmaFWbTSyQLLNMTsAbnTTyE0BSSnpDHW1YpI92fPsVV50vjR02dIskyAFEHAMPnzpzs/ZtxM+LT0ivEpyYiIEaAQiBDhhYCDJIJtJArkMsFN6NUYv+BBQFEOe9tCeSohsfxNiAHSWWeN2/a2INqhhLVy2rmc6qXVVt4sX/EG52fcazT0/1er3ZhwJtdno3jXZ8b+Fb19MPM2XF343sbzYlv5n4/4+s53077ctZ307+aPedCg4i7iGMN765+sfG9EXG80T3V5nZJmM3NuruhIw3uaRRxb+O5Fd7s69o+WefJn9t8uuZTXzzX6w1ef+ihnj3D/Otv9NI97Ny1mXHqrrvMnNm7dxIfF2597pNPzjVOUAUa5YmlN2qd41ytYVwl1piRp5cu7SMfwx7DhpLLDFh8r+vNVcHNuLh06U2o1pDHoKHwMgO9DgSC++/+d+PS2oN+q6yewO03f/2b15XeTV4I9CQqJRBknUqdLEoo/Z+SAACk2KNtgkDymErep9ZwjwChGgIk5aoJkGmujgC5ajoKUKaV3gKUq2amTORVQgOLS5DUsB1k+jgMcg28BMoM8kGjXIPIjlrjmDOeGXPH1NHRh4ruXboVA4rBntw8EDW9O7CYnWi3h8+0hxetsdUWu6y2ynq7avQOk9u7bTZmjBrthwrdddFNYYBi9fC2O6fW2GGn9f3W+n0MVOxfaWfP+PL2MJ14sj10JYlIjf6627Fm//otaztfqH7n+xY=");
 
 export default MagnifyingGlassChart;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blog` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blog?s=thin blog}
  * @preview ![blog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/blog.svg)
  */
-const Blog: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M200 32c-4.4 0-8 3.6-8 8s3.6 8 8 8c145.8 0 264 118.2 264 264c0 4.4 3.6 8 8 8s8-3.6 8-8C480 157.4 354.6 32 200 32zm0 96c-4.4 0-8 3.6-8 8s3.6 8 8 8c92.8 0 168 75.2 168 168c0 4.4 3.6 8 8 8s8-3.6 8-8c0-101.6-82.4-184-184-184zM16 104c0-4.4-3.6-8-8-8s-8 3.6-8 8L0 368c0 79.5 64.5 144 144 144s144-64.5 144-144s-64.5-144-144-144l-8 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l8 0c70.7 0 128 57.3 128 128s-57.3 128-128 128S16 438.7 16 368l0-264z" />
-    </Icon>
-);
+const Blog = createIcon("blog", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdQAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBagsGAAE2AiQDCAQgBYMtBysb5QTIjpTuLiRqPPy/3X/tc6vea0DVEt5vyZlCIVL4w4YGQjqOZk0oNBje+7yJa57/+TdgkT9aFFaC/K8xIs4nMMBo33kU0GxgM52AbXdaaiuifdJaBMnxzXE6QR4v2KREupU+xIX8ofGzVs6QZBmAaAiAiUsXVrz6bXwb8eH/j4gPzUZATAKFQIYMbQUYIxNoK1cglwu+jf//x//AggCijM+bQI4SlmAjIAdJlufNGvWoU6qXLwkLa6+82vRas68qH018bbEvvNHi60mvV328RMcY+xLSFny+ZMn15lCKu6umvjP+lc73xr08rXYsOHXiLcroeGfMi1Pebq/VKetU3bD6l44fbvnQO7cpl9fNdO9+715mltetK6tUrfnpx4p13Zxp8V8xDfOiMnhwJZ60kBU1tT12/rXXztu2aDVtrahp3uQhpdKQyfPgFTWBQPBN9dfWNhjza806CXz/vL+4X9H/r8a3qRo1JRBkff7vY1WCIr4VAIAUR3RKEEiqZPhd67ouQKiNAElZbQEybTQUIFdbbwFK2hsqQFltC2UiryU0tVqIpK79RGaY00SuqQdEyRjvRGVNI7Mu3jb4v13KNA1MnVcM7DegGFUMq6pgMGycHl1sqz2OUFdPOGqLvfY4ZLNNtjuk8AMqycN2mzYDp/qiwkD9DFAYpThu3O5fYrMDDtpurz1pltGK+2EPR+aDe4KRMOMgeUkiUv4cAQ==");
 
 export default Blog;

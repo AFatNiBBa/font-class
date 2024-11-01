@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-star` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-star?s=solid calendar-star}
  * @preview ![calendar-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/calendar-star.svg)
  */
-const CalendarStar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 0c17.7 0 32 14.3 32 32l0 32 128 0 0-32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32 48 0c26.5 0 48 21.5 48 48l0 48L0 160l0-48C0 85.5 21.5 64 48 64l48 0 0-32c0-17.7 14.3-32 32-32zM0 192l448 0 0 272c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 192zm233.3 58.9c-3.8-7.7-14.8-7.7-18.7 0l-23.6 47.8-52.7 7.7c-8.5 1.2-11.9 11.7-5.8 17.7l38.2 37.2-9 52.5c-1.5 8.5 7.5 15 15.1 11L224 400l47.2 24.8c7.6 4 16.5-2.5 15.1-11l-9-52.5 38.2-37.2c6.2-6 2.8-16.5-5.8-17.7l-52.7-7.7-23.6-47.8z" />
-    </Icon>
-);
+const CalendarStar = createIcon("calendar-star", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABfQAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCGwsGAAE2AiQDCAQgBYMtBzQbHwXIjpQuZyTx8LydfOe+meQDmg8Z69qtmG5ddOtKrlMh+BOX0x/nTwtk6Qs/yp76vkHHauzzBBLNJ1iBZIFlmoBl7eyXN1i+pEt64pMMm8+wuEAeL2RXlEjPpS9xHx8av2rlCkmtDEA0BMDE5Yvnqnwf30d8UX2T+MJsBMREUAhkyNBWgDEygbZyBXK54PuoVvk/sCCAKJPXJ5CjhEM4AchBkuV5/0a96pTq5cvqlGqvvt0s4imiTkRcbPFMHS2z/iKAVkbdAfCC2914bEm9uvVSPNv0SZe68VLzp1tnS5+uHXGraZ+YEk8obTY2isiMp1qMjpHBeKZ5pxgfjz3dfFr06/Raw9d+9+W2L53/uP4NbtQvXFCoPIuJJ/YAA77+KhugQmRffT1ANvhVvSJWw9baMH+w4U+jupYpdz1vmoVNm01Z4orS5MmLfvKTRXhy6YothjRrunCa80AgeOufDz5a32DM/zXrJPDje3+GX1G1EpX0GmpKIMj6VPtYExWIigAApDimU1QQSHbJyLvW9bQAoTYCJGW1Bci00VCAXG29BShpb6gAZbUtlom8ltDU2komdR0kM8OcJXNNvU6WjPFJXtY0Mq+TfUb+9GVM0/DUU8XAfgOKUcW0VRRHEuPh6GI56HEsLPSkM7bZb58jttpiJ3iFHjK3OmqvaRYy1RcVBupngMIoxfZwbyxT+SGH7Ry79o8ZrTif9HDMXt+T4kQ4B6kliUj1LqXZ92kAAAAA");
 
 export default CalendarStar;

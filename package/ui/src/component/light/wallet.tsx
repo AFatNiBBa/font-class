@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wallet` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wallet?s=light wallet}
  * @preview ![wallet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/wallet.svg)
  */
-const Wallet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M80 32C35.8 32 0 67.8 0 112L0 400c0 44.2 35.8 80 80 80l352 0c44.2 0 80-35.8 80-80l0-224c0-44.2-35.8-80-80-80L112 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l320 0c26.5 0 48 21.5 48 48l0 224c0 26.5-21.5 48-48 48L80 448c-26.5 0-48-21.5-48-48l0-288c0-26.5 21.5-48 48-48l384 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 32zM384 312a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Wallet = createIcon("wallet", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABbQAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBUwsGAAE2AiQDCAQgBYMtBy0b0AQjEbZa7kmQ/UUCT0T0DzsjVMYd4eVaq5jeC1UX2ABrO+Fc4BtEAjIJ4ycRVGtkz+w+QggtkQJGYdkB+TgSNjaOSTi6io1+fYPnVlQiU2ge2vpBUVoZVZtsxNzmWe0njkreGpWQ3EJNHBlQ9jn/l3t+tukAvx3Zoe2hBzKmjtWazxNIrBdvkqjAMk3AMm+ZVI80o0dyJpqkx3OPV12hxvNYqIN8nD9wnz80/pvmHqkWADEMgI3HD+/1pokm4kcb8cNuBMQmMFegoGCmAGsUgZmquaiqoIm2Tf+BIIDoJHDSa3hyP44AKkhZ67qevo5EQVR8F+qfDDpsZMrPofCXtwfNxTXiopwUYVWSAVQ5RtymZhMbtJIKRcsqb7d6sugtlhd//fwfmx/2zwcUoAJ/wXDHSPMGl2zQDA42Gyz99bM0ys9fSy8AmqveMoq32ppJkzQqEI+tP/vx80NrJrpZgn/P/hP6r6htUj5BtwRBWdg2nEmQBAAg45r5CYG0XeJX7fdAgNCLAKlTrwDFDMMCVL0WCNBhtlUCdOp1WBG1Rxh3FiD1uwiK1a6DatxT0GGNz0Gn0fEoHsX5A/ehS641VB1Dt9XBDMvO4J2EKftzbNvZJ8/ldJbYuLp4WVvZeynyYRG/ndUWUfki6GrpgBkcj55PL609PO1dXeohc7jvZz726pw8itAuV05JJPd9W1NeAA==");
 
 export default Wallet;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `backward-fast` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backward-fast?s=duotone backward-fast}
  * @preview ![backward-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/backward-fast.svg)
  */
-const BackwardFast: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 17.7 14.3 32 32 32s32-14.3 32-32l0-118.3 0-83.3L64 96c0-17.7-14.3-32-32-32S0 78.3 0 96z" />
-        <path d="M459.5 440.6c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29l0-320c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4L288 214.3 288 96c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4L64 214.3l0 83.3L235.5 440.6c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29l0-118.3L459.5 440.6z" />
-    </Icon>
-);
+const BackwardFast = createIcon("backward-fast", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABbwAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBPwsIAAE2AiQDCgQgBYMtB1Yb5wTInoexG6KIKb3oL8pbGkrLw/f7/W/tfc67XzCThFdoGjUkz2IyXTPJQuImQnpDfUNiSHb/fpvfGtqo70huGRrJEjSYWltbbAtlbeX4Xmar/3O55/f8aIF8oBM8tD104wJfu3qeQMDZtLwok0wzsHSb6BeC2BURURYRHZ87vrLzODyhxvdyVY98lS0e6P8AxsAsH9JIARATIQB7j7YN+vWjn9F2H4nWAUhA7IOwEEZBwVwY7EAF5mIWQqoq6GfX0Y+uWwgFEA19cwENKvZB9kOgghSi1oWzud64ekQfjZ56tuLtnBKvl7+ZeiiCE3E4PCnIKpmpF6c9G3NnxouID1ya/nz09tSnFn+Y+OHnolbrWzNYMVz2oMMrBrkg9iEzc+UCW8f3WCLevDk+kRd0hO51IBB8XX7p77EJO34Pj0nw49Nf5Yek+5PyA4YlCMrabq0xQRIAgIwL1GQPJFAsRNijsZ4LEEZpkBqjUMwhQzVqDfTMFz9ujDqIijoiTDU1SGOdhmK7N1RTfaFnh3/amBoFSBwMuH9cci1SnYJNjgcFLEuVxwYjhyUc2ytfjXS6iFbOTh4Ws60H2E1TPB3VO7TyRcDn8IACXDeP8kB6c7f1xftjSvDe17z2yzp5hNFudqYoREaZhi4mKBUb17odlDOKIwYg");
 
 export default BackwardFast;

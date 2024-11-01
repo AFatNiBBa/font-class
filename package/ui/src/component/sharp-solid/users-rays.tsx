@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-rays` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-rays?s=sharp-solid users-rays}
  * @preview ![users-rays](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/users-rays.svg)
  */
-const UsersRays: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M40 6.1L6.1 40 23 57l56 56 17 17L129.9 96 113 79 57 23 40 6.1zm560 0L583 23 527 79l-17 17L544 129.9l17-17 56-56 17-17L600 6.1zM57 489l56-56 17-17L96 382.1 79 399 23 455l-17 17L40 505.9l17-17zm543 17L633.9 472l-17-17-56-56-17-17L510.1 416l17 17 56 56 17 17zM223.8 176a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM120 256L96 336l94.3 0 19.4-58.1 7.3-21.9L120 256zm329.7 80l94.3 0-24-80-96.9 0 7.3 21.9L449.7 336zM432 384l-16-48-16-48-17.6 0-124.8 0L240 288l-16 48-16 48 224 0zm80-208a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM320 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const UsersRays = createIcon("users-rays", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABnAAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCcwsGAAE2AiQDCAQgBYMtBzEbdAXIHgm2LYcVXopEspnMD/Hw//f99jnv/nGwMZ8mmjEehaMPFpZNyxMIOJFWmkD+9/u1c3f9fVwei60JJknVSoEsFs2Tl7JDZ0gk+8X8PHG587dNC7fRo4xtK/vLt4+xPQoo0KjLN5VINqYl9EKchdsmht8QkRA/NDZQ4ke6CTn5IQF4Sa80/hBoE0itCgAxBABcPVQU4dFJTqJ38QyIbxSAgLgCsIFQocIcgVNSgTmZDVAUwQ+JYvUfyIEAog6A6eiCLl4BnwAoILWLzBOUqyC4xgS5q6y6zGQNaZlpOiojRWeSnsqXu2sN2lLSUjoZqILFM0YrSisCea6vOUOZ19VzAaXRvfN2b8fsRe0EbEXvxu4HV1bWVArkoGBibQITqolRINmMYaFhYcRYCPlpoeZqiC8Mx/qjhFPtge4wXnPkcfQZoRtivzw9PYE1GIE17BnHjJYfM6iM5sJyeKNgfc2GFxaGWRX0lPj7jGYk69J2nUmQJllo0yV5JeIFeD2LEOEseafgocRqDg83W6vTAQgET+93Py3uad8qQQL4vf76tGFV/D9J5iVHgKYEQbUlGtGYq1Co5zwIJDKmoTn4JoH0DAaX2vUKAqGNAKmuLUBlxgOBom0TgZqleATq2m5IRVEjTDUNQup6FConloRi6kSoOfWcqJuGlEI1+tJ+ELOzp0DWIm4zW3kK363odKJToslUftnVTtsOHV+LbiOGTerSqc/kBB9XlJ4yJPsIy/JDnI2ZFZeCP66/XF2ty7gJfUYMJ7Ok4t9HtaaP++t4RAKiB/JSEskIPmEab5ubAAAA");
 
 export default UsersRays;

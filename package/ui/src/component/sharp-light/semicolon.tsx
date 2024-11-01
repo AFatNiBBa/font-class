@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `semicolon` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/semicolon?s=sharp-light semicolon}
  * @preview ![semicolon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/semicolon.svg)
  */
-const Semicolon: typeof Icon = x => (
-    <Icon viewBox="0 0 192 512" {...x}>
-        <path d="M64 96l0 64 64 0 0-64L64 96zM32 64l32 0 64 0 32 0 0 32 0 64 0 32-32 0-64 0-32 0 0-32 0-64 0-32zM46.9 480L128 358.3l0-38.3-54.1 0L39.6 480l7.3 0zm-40 0L48 288l80 0 32 0 0 32 0 48L64 512l-31.3 0L0 512l6.9-32z" />
-    </Icon>
-);
+const Semicolon = createIcon("semicolon", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABWQAAAHgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBNwsGAAE2AiQDCAQgBYMtBzAbtwTIHoex22RJF81QRHkn8fD/c+V9SZYyZfgFYPDrCmr92hI6NmJObU9l9SSz4HuFxM//NfnePT86wO8nfkgVlI0FXqt6PoEBR/nA52XNM52AzdrpB34Q3Sb0iU8yjD9sNkcooneMVkf2PIPmfKfxV0+PyRQ5gOgAgAXbNq3xtRrViN+1V8RvqxAQC0ESyJGjjwCz5QJ9FBIKhaAatVr4D0wEEPVwLhkoUI/ZWAEoQKYoiqaOlfaVurbF1kpduUuoREQ5slJWhBBlGYh3bNu8bWbF5mCiSRUF2nyg98DWDq3/OMq8ffMh8NhaSveT+ZK0vyTtWtbfoGVDTTWgRcPw4V/cidenZLx9zfoPOAcEgsPVl+1rP/t/YyUDf94f/YpqX2Ni1opGGQjy0bXRdsdVpJgoAABZXDXQVwQykxVwq208ESCUCJCpVwqQ662DAIXSKAHq9DNFgHqlTXJRNAld7Okg08YFkJvqDih08QLUme1bWq9L5DZEWwD9hEtYKuEli9KEsePTzLQsVcYsyDg7K23Lw69yzwg66KhzzrrsiMNOuCzQi9YUV5yxVEOW+KJkgrHGS2ZKx83j7q2OuOiSE845m+aZJd33h7uqDx9BWga4E32UyYis6dKRMyc+uQAAAA==");
 
 export default Semicolon;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cassette-vhs` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-vhs?s=sharp-regular cassette-vhs}
  * @preview ![cassette-vhs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cassette-vhs.svg)
  */
-const CassetteVhs: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 432l0-272 480 0 0 272L48 432zM48 32L0 32 0 80 0 432l0 48 48 0 480 0 48 0 0-48 0-352 0-48-48 0L48 32zM352 336l-128 0 0-80 128 0 0 80zM144 296c0-19.4 13.7-35.5 32-39.2l0 78.4c-18.3-3.7-32-19.8-32-39.2zm288 0c0 19.4-13.7 35.5-32 39.2l0-78.4c18.3 3.7 32 19.8 32 39.2zM96 296c0 48.6 39.4 88 88 88l208 0c48.6 0 88-39.4 88-88s-39.4-88-88-88l-208 0c-48.6 0-88 39.4-88 88z" />
-    </Icon>
-);
+const CassetteVhs = createIcon("cassette-vhs", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABawAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBXQsGAAE2AiQDCAQgBYMtBzMb4ATIhofv1/o893V/6plF7mVGRxCXVQFyzCoOAKdiUUXPxOXO//w34CR+tLFwTZCF72PWPk8gwKiNeYFOCyzTBCxrZ5d6RfSbpKd8kt3yw2ZwgTx+iXsaSA+nT3F//tD4Sze3SBoyANEWAHM3r1/p/VrUIj6pv0l8YjkCYi4oBTJk6CnADJlAT7kSuVxQi3qd/gNLAohGfHcJ5GjGOmwG5CBpzPOWDi1NTV0qDa3yTZWGYnKWslaRopoVlUKkEJU2EVlEFFt6KKJy+02PDhZPdW/10ICIJ7tVHx8a8ezESrw9/Pk+Twx7blIRbwx5pme/59o+90/fTw99qt4WzJq2avfG5O0xxpi2xX159DWcWeOaNV8M7v3DKj/0LsPmNfl93DfnS3Puuy9vEl0PBIKD177evLvNjP+bKwn8+d5//9GPUL2W5qTn0CyBIBtRH2FHmgNpjgAApLikX5qDQLLMHb1r1QMChAIBkkaFAJke2gqQKwwXoEFvEwVoVFgvE3mL0NFORyRVZ4nMJJeJXEevEw1m+CBu1DEysxKMQnjVpS6SwMJ15dhRY8pp5bRQRUvh4vL0clkbcskPhuKgQ0475YKDDjjqgsDPWZlddNIiDVzoi0pjjTJGaZpyu37cvclB55x31Gmn0irTleejIS7pk4fCTJh1nG1JIlJ1/97z/8/GB0deOnIeAAA=");
 
 export default CassetteVhs;

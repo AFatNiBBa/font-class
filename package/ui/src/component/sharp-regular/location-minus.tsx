@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-minus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-minus?s=sharp-regular location-minus}
  * @preview ![location-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/location-minus.svg)
  */
-const LocationMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M336 192c0-79.5-64.5-144-144-144S48 112.5 48 192c0 16.3 7.7 42 24.7 75.4c16.4 32.2 38.8 66.4 62.1 98.3c20.3 27.9 40.7 53.3 57.2 73.1c16.5-19.8 36.9-45.2 57.2-73.1c23.2-31.9 45.6-66.2 62.1-98.3C328.3 234 336 208.3 336 192zm48 0c0 83.1-105.6 219-160.2 283.6C204.8 498.1 192 512 192 512s-12.8-13.9-31.8-36.4C105.6 411 0 275.1 0 192C0 86 86 0 192 0S384 86 384 192zM120 168l144 0 24 0 0 48-24 0-144 0-24 0 0-48 24 0z" />
-    </Icon>
-);
+const LocationMinus = createIcon("location-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABagAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBTAsGAAE2AiQDCAQgBYMtBzUb0QTIjsQ4hnIJxWRyE8/zf99vnzu8/5sGm71opBnTWTigsjCbCFoeZwG10gS+//zYz3MR0wdJRK3iCU+mFqHatrT85/9mz3seBfitQRDaHhrIAt3jeQKJ9fK6QXB2YIHasZ510ztqSPk1edFJGrYb1uiEllrqQqd8cN0AXtqX5h+K2qDoFQBZBABc3If64+CTPomuOauQb/iCQC4AbCNUVKwjcIxbsI7HNmia8EscTvoPZECADPAfX0BDxyW4AtBAURuPvLqwMK8oT4Qwr1DquAPRnseJ3Q5rMl50ntWeNjw2XSbhQSOiBSeiA70ZmWYaMJhzOTJZUnsPfY58DX4MTxEWEkamhYiENackpv5o3GTcIHCiUgU8Hx52VqkoNncbfQ0Pfxl1NysaCa3ApzNw8fUoCSz+HDo7r64IUXB4eDAFU3g4BfPLd3VNGEEBaIA89/j0MZsobvdfQJgL8Lf17x/w9uSAmrimwFgBoe5y9BCXJgDEAF5JBTTJzYLiAjfgU2e9IiCmEVAMpgVUayQQaKbtINBtMkdgMO0atzRBxKr4AYpZD6A6Ug+aVcugO3buDVbDLSdGDMxjLtEjQu5bzNjAiNmwZaKzCqHK0pZtm1oVuaFth8hQqECZdGmylQWkhH9YLp8Hg93diDFmwAhjgx3nz/sR0pUola1QQV1ji913tVTwfm1zuDjpnkhRSBHToar/C71UCgAA");
 
 export default LocationMinus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fonticons-fi` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fonticons-fi?s=brands fonticons-fi}
  * @preview ![fonticons-fi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/fonticons-fi.svg)
  */
-const FonticonsFi: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M114.4 224h92.4l-15.2 51.2h-76.4V433c0 8-2.8 9.2 4.4 10l59.6 5.6V483H0v-35.2l29.2-2.8c7.2-.8 9.2-3.2 9.2-10.8V278.4c0-3.2-4-3.2-8-3.2H0V224h38.4v-28.8c0-68 36.4-96 106-96 46.8 0 88.8 11.2 88.8 72.4l-69.6 8.4c.4-25.6-6-31.6-22.4-31.6-25.2 0-26 13.6-26 37.6v32c0 3.2-4.8 6-.8 6zM384 483H243.2v-34.4l28-3.6c7.2-.8 10.4-2.4 10.4-10V287c0-5.6-4-9.2-9.2-10.8l-33.2-8.8 9.2-40.4h110v208c0 8-3.6 8.8 4 10l21.6 3.6V483zm-30-347.2l12.4 45.6-10 10-42.8-22.8-42.8 22.8-10-10 12.4-45.6-30-36.4 4.8-10h38L307.2 51H320l21.2 38.4h38l4.8 13.2-30 33.2z" />
-    </Icon>
-);
+const FonticonsFi = createIcon("fonticons-fi", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABfgAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCOgsGAAE2AiQDCAQgBYMtBzMbPQXIHgc5GWr/QF8sZYhxnmgRD/+vK73vS0uSzeM1kMxMIaCOW3cBwtLQ5qRMPYiD2wmCDALEDCMqmW/f5/+aevH8qEA+H8GhRWElSIEcxSqfT2Bi27dFgs3WNrDpBG3Wzn55w0dXP0gS0SeL+YfVYAd53BpPaSC9nH7Ek+lD41/d3UfSkAGIDgCYt2XDKp9ejasRP9aX+NEKBMR8UAlkyNBLgJkygV5yFXK54GrU6/wfWBFANMKDJZCjAXfhYUAOkizPZ/buWza0zTeXDcWWsiirKELc5blyUYgiIobEo60RL9SqVir0n00NerP3xri79YXikdpz3Y1ILTlUlEUwGkzr5OgrnoB1GRS29+7TuxbTY2q0Dv3R0VW0MYqOWtolRvZ/r8N7/7XDnLuyCxe+bpU3ZKnW9Kb+Lhvgc0XxmmxvHxMM1pv9R9Pcx99os7BJ59ncptO0ZVFJ0TG1TY+Dt69cFs9puqfZg077VZ46rd2gf23/kK77sue96WUf+tMygy3S1iKDrfIrEAhSNe/lPe1n/t9cJnD9/V8+u35xV3oPzRIIspH1kXbGXcDsAH5Sihv0z10IJDfJ4F3beEGAUCBA0qgQINNTBwFyhRECNOhjkgCNChtkIm8RanZVkLRxDmQmux3kai6DBjN9kzSqJfNC0YfEN2Da4hZfNK8aN3psNb2alorkWLxMz6jM+tAbQtcwgjrsjNMuOuSgYy425Hmr8ktOWbwiFvmiyjijjVWZrtpu3C/e7JDzLjjmjNNxlhmq8/FQN6wHDyMrAed4hSQRqc2dvce+rAhGHT4GAAAA");
 
 export default FonticonsFi;

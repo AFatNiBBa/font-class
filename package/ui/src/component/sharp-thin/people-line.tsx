@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-line?s=sharp-thin people-line}
  * @preview ![people-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/people-line.svg)
  */
-const PeopleLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 96a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-64a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm69 108.3L426.6 208 415 208l-3.4 6.1-36.7-66-2.3-4.1-4.7 0-96 0-4.7 0-2.3 4.1-36.7 66L225 208l-11.5 0L251 140.3l6.9-12.3 14.1 0 96 0 14.1 0 6.9 12.3zm1 67.7l12.5 22.5-9.2 16.5-1.4-2.4-16-28.8 0 32.9 0 23.2s0 0 0 0l0 16-5.4 0L360 288s0 0 0 0s0 0 0 0l0-16s0 0 0 0l0-56.2 0-39.8 12.2 0L390 208zM280 272l0 16s0 0 0 0l-10.6 0-5.4 0 0-9.7s0 0 0 0l0-6.3 0-23.2 0-32.9-16 28.8-1.4 2.4-9.2-16.5L250 208l17.8-32 12.2 0 0 39.8 0 56.2s0 0 0 0zm216-64a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-64a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm83 232.5l-11-19.8-16-28.8 0 32.9 0 23.2 0 16-16 0-80 0-16 0 0-16 0-23.2 0-32.9-16 28.8-11 19.8-3.9 7-7.8 14-14-7.8-14-7.8-14-7.8 7.8-14 3.9-7 56-100.8 6.9-12.3 14.1 0 96 0 14.1 0 6.9 12.3 56 100.8 3.9 7 7.8 14-14 7.8-14 7.8-14 7.8-7.8-14-3.9-7zm-43-48.6l0-39.8 12.2 0L566 320l27 48.6 3.9 7 14-7.8-3.9-7L551 260.1l-2.3-4.1-4.7 0-96 0-4.7 0-2.3 4.1L385 360.9l-3.9 7 14 7.8 3.9-7L426 320l17.8-32 12.2 0 0 39.8 0 56.2 80 0 0-56.2zM8 464l624 0 8 0 0 16-8 0L8 480l-8 0 0-16 8 0zM168 184a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm-64 0a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM216 356.6l-16-28.8 0 32.9 0 23.2 0 16-16 0-80 0-16 0 0-16 0-23.2 0-32.9L72 356.6 61 376.5l-3.9 7-7.8 14-14-7.8-14-7.8-14-7.8 7.8-14 3.9-7L75 252.3 81.9 240 96 240l96 0 14.1 0 6.9 12.3 56 100.8 3.9 7 7.8 14-14 7.8-14 7.8-14 7.8-7.8-14-3.9-7-11-19.8zM184 384l0-56.2 0-39.8 12.2 0L214 320l27 48.6 3.9 7 14-7.8-3.9-7L199 260.1l-2.3-4.1-4.7 0-96 0-4.7 0L89 260.1 33 360.9l-3.9 7 14 7.8 3.9-7L74 320l17.8-32 12.2 0 0 39.8 0 56.2 80 0z" />
-    </Icon>
-);
+const PeopleLine = createIcon("people-line", false, "data:font/woff2;base64,d09GMgABAAAAAAN0AAoAAAAACFAAAAMqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhxCHDAsGAAE2AiQDCAQgBYMtBzIbjgfIngV248tBUxyGWpDM1T7yoIXD4J/c7+3cJO9PmxSBXRcBJQAIQ34djq/dWUVCIhQx1vZeHTOPJDyqJ5qFLuKJyHQSmfwd604EnHofkIhuT7ADaONYthDLJShaOc1Sywxu+ntVMwA3yOMMoHhQ/nj5GWvgGjTGoFAw56Gc79mWGoGCFbECWCO33WNTRL2PkHgAp9+MiMDcMzwDV5zV+kWMC2CwFoelFD+T0f38ad6HFZa+/Av6QjsQgEYBKCHAAhYoIAAGWAQUcJQAh0PwVf+T/B+YDAIAxcAbDQAOSIEegN4BAA4AQ5Jz8YmFbS6nDfZOdpToFr3Hb76K2808j97J0KuYnejt9MvY3bi9rJ6eRQu9MrJIkfGeURZcq8WKSgiZ25jYmJCykheEzjoe5D0glJKpUlDtBlFFhqiCni4nSyP5qU9Y3kHfHRyxMbFHSAGxEiMYwXxSNnEnbxYqAqqMEdtcnO9NazLdxqyHyEMtdfvhh4K0w+tJRj5JCssvYbmKc2DGVcZFzHb6eeZlrF0PbVqSVwnJ3ln29d2+p3SPpkNHZkRHmNy85vXa2sMA8S23V7bJmS4qVcxIF20MupsqBSoWbJe0a5rxn/cnP0L8IUU2gBRRAABIAdCjRgLFjyafzwcQIg9AjGyl/iCe8ESSBGr0AJhpuo1l9f0M8BR2ipQjXJt4RqWTZvykJV26rxfDsuJezSfby3RR7CmVZibBF6GALfXTK0jmhHzl5YX3kRTiDE+i7oIgudmSN9bkWYhl9/2PU3Od8uLx/GvAkLK5z/cBECB4fR031p9c/7c5DQDfHj9fSb/8f8Oq4RaIwwAgsA0TrChWASxOAUDA6BBlI3LVxrqBB+9gArcRAMIDEhhieGDJlwIcnnoQUaQTm3lgPotcPCLDSgCGBPYCS5eTwJHhDYgY8MEfIyNWuULFBn+Wk07VqZOTSkoKi5NrkwcLcpEKxMRgXfJsbfYiacjBVjbZbZcDNtpgqwM1xj7ToYN2mhoTnPzdEq2atCjRp2R1+bZ0Uc2yz36C9xPrR+lXsr+zxqHx9rUwGDyhbTIMBmTCBy5rVNA=");
 
 export default PeopleLine;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pie` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pie?s=sharp-solid pie}
  * @preview ![pie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pie.svg)
  */
-const Pie: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 240l-12.7 0C497.7 137.8 401.4 64 288 64S78.3 137.8 44.7 240L32 240 0 240l0 64 32 0 9.2 0 63.9-30.4 6-2.9 6.3 2.3L200 303l82.5-30 5.5-2 5.5 2L376 303l82.5-30 6.3-2.3 6.1 2.9L534.8 304l9.2 0 32 0 0-64-32 0zM96 448l384 0 38.7-116.2-55.6-26.5L381.5 335l-5.5 2-5.5-2L288 305l-82.5 30-5.5 2-5.5-2-81.7-29.7L57.3 331.8 96 448zM206.3 151.2l-16 32-7.2 14.3-28.6-14.3 7.2-14.3 16-32 7.2-14.3 28.6 14.3-7.2 14.3zm192-14.3l16 32 7.2 14.3-28.6 14.3-7.2-14.3-16-32-7.2-14.3 28.6-14.3 7.2 14.3zM304 144l0 32 0 16-32 0 0-16 0-32 0-16 32 0 0 16z" />
-    </Icon>
-);
+const Pie = createIcon("pie", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgQAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCVwsGAAE2AiQDCAQgBYMtByobUQXIngNuywynUCSSrcWM7tdConmpEPFQ7Nfe7pc7TJpYNUsesiZC1OlEMs0SnRB9uoZ6Q70hY9R+v90vpoeIWaMlKkNlaGLRpBQi85pZgdp+hwC2v/vjfvLPzUY7TyuCoUS+G0U2SPb5BAZYwW0TmQ2jaII8e37e1+AboBBfaOMWyviQn6rI+wS49q802vA6JXUUAIh+AMDuUVcLrlr8Je+lC+IDTSAgdgFMIgoUGEWwQS4wSmESlEpBKyRJ/w8UEEDUwNkSlGjgCg+AEqSqVKT5rQjrlUZFb5KuW9Ppdc+9JnXd76ZDdOmb6KaTPewLoGE0ndSNGw1GldvIbjroYq8YU8+eIY/f42DsSvDHY2Lo6PP6vE5Gz4GPz4qjsxskOomVemL6sf/sD7MQ/jFipLelPK0ivQc9KhZLUWuDUZRDdPzr1KFzLIIKgXYAel7/tLPm9x+RFbuFQ+1j6oopWSkyzTg0bF6Jl7Bu1aUTkhWPTt6NPcaJJ6vIiXvlWCUQskCwuAHiJ//tlI+Zi/80ehng9+nyE3NHdoamBEExK80aznIAXZBALGMXkTM3FEiXlHCp3W4ECJ0IkGqdAhRGWBCUOs0gqIzLQVDrtEcuSi3CsJGak7pdcArrTjilYeecyobraG045DQpoyjZJWFQ28ZqhomM1HRRKCbzSjmZSWb7i8RqTfxury6Br8WsNau2zZi2YLtF39SS2LGido5W44uEDKnSCYXE7tL95b1mbNqyYM2qN0gRcb4j3u586wSul4HQZcGUfk1sXV+YAQ==");
 
 export default Pie;

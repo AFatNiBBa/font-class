@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `basket-shopping-simple` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/basket-shopping-simple?s=regular basket-shopping-simple}
  * @preview ![basket-shopping-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/basket-shopping-simple.svg)
  */
-const BasketShoppingSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M243.1 2.7c11.8 6.1 16.3 20.6 10.2 32.4L171.7 192l232.6 0L322.7 35.1c-6.1-11.8-1.5-26.3 10.2-32.4s26.2-1.5 32.4 10.2L458.4 192l36.1 0 49.5 0 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-20 0L476.1 463.5C469 492 443.4 512 414 512L162 512c-29.4 0-55-20-62.1-48.5L44 240l-20 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l8 0 49.5 0 36.1 0L210.7 12.9c6.1-11.8 20.6-16.3 32.4-10.2zM482.5 240l-389 0 53 211.9c1.8 7.1 8.2 12.1 15.5 12.1L414 464c7.3 0 13.7-5 15.5-12.1l53-211.9zM144 296a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm264-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const BasketShoppingSimple = createIcon("basket-shopping-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABdgAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBcQsGAAE2AiQDCAQgBYMtBz0b/gQjEbZaDiqR/TOBN9E6R4hVt0vFtN5wwkTCueE4Rq6AH4iE8SQe/n/tX/e5Mx+AJ8zoogoAv5ZVwJUdsAdSLFuX9ZqZX752Tb8HwMTlzv/8N+CyJ3iUPfV9NS2c8zyBMNBwTAp0W5glilk7+xQD8ROExCcZxhs2gz3k8UM8q4z0WoJn/IfG37o8SFKWAYhGACzZtW2DT3+NXyO+Kk18ZR0CYgkoBDJk6BVgvkygV65ALhf8GqWS/g8sBBDl+IYSyFGO3TgFyEGS53nWlLqqqpqyunxnTVn1vjc7t0dN7IzXR73dtSNqat7senV4dWwP8l6sVrTH29/q3hkcbT04qqZmVwyO2FFbV7sjXmqriVc6dh0eHLXLCdaxyLWbDH2v8b1/hzjpH457YPMb/nAXPTBu9t39d42Ys6WtbYuDVrN+sb32fkc67tdud0GrmV+5c53cnf2fh7h2OmNvd3turto6q23LlrYAtVV0SOF6IBDc+f6XG4ca5v9XWZPA7+//P12u9GlanN5DpQSCbHxp/P60GDQzgDzFTUOFLwokm+X4XWu9LECoRoCkXLUAmR6NAuSqjROgTL8ZApSrtk0m8iqh1YFKJLWuEJmZbhG5VveIMvN9lpVrjQxgEjyk9136xMoeWLGsmDJxcjG3WNYVGTOCnZ9XbPujb5q+MbTWyUsXr584fuZ6h1/dULxxYaUErvhhMWXi5GJucdx61Heq7Oq1M3PnfJF5xf149E159BiKEmaduiJJRGr/CdeZAElrAlABAAA=");
 
 export default BasketShoppingSimple;

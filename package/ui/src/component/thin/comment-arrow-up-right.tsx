@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-arrow-up-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-up-right?s=thin comment-arrow-up-right}
  * @preview ![comment-arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/comment-arrow-up-right.svg)
  */
-const CommentArrowUpRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M157.3 415c-5-1.8-10.6-1-14.9 2.1c-11 8-29.4 19.3-51.2 28.8C68.3 456 41.6 464 16 464l.1-.1c0 0 0 0 0 0s0 0 0 0l.3-.3c0 0 0 0 .1-.1c.4-.4 .9-.9 1.5-1.6c1.3-1.4 3.2-3.6 5.4-6.3C28 450 34 442 40 432c10.7-17.9 21.4-42.1 23.6-69.9c.3-4.3-1.1-8.6-3.9-11.8C31.9 318.8 16 280.7 16 240C16 136.9 120.2 48 256 48s240 88.9 240 192s-104.2 192-240 192c-35.2 0-68.6-6.1-98.7-17zM4.7 452.7s0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c0 0 0 0 0 0zM200 152c-4.4 0-8 3.6-8 8s3.6 8 8 8l108.7 0L170.3 306.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L320 179.3 320 288c0 4.4 3.6 8 8 8s8-3.6 8-8l0-128c0-4.4-3.6-8-8-8l-128 0z" />
-    </Icon>
-);
+const CommentArrowUpRight = createIcon("comment-arrow-up-right", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABjgAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCXQsGAAE2AiQDCAQgBYMtBz0bagXIhofn8x479yUFnALGgFhJ3hbLMf78X+75TTs6wLXED2VsvCvrRWuAjTE4kCzQMBsTPwaShVmi2OK2myImlbaHxBXyeN4qZUg3pQ9wRfSh8Y0GTpFkGYCoDoDhc2dO9srpOB3xQelJ4gMTERAjQCGQIUNjAQbJBBrLFcjlgtNRKon/wIIAoqwEbAI5yuBi3A3IQZLlecfBDSuVqZLPMfsqzr2+9r29nukVcVxxI45XOl7vBtX9zY7XfanF13PxL2fjX8xKXDxg1qaHAVxb57pKTw98vu2zlb6e+P7Ql1vePeSlCe/N+WLcO4NeKL4cfmu7a2uj9LGKx533Fw6K19WpFLPifL25IewrbqgXcX3dii3uq37fd80/WPOBW4sdqyo3K7YBiFCj5b7LG80v1+vhKjF1RJ8UXxtmrRNXbvf+5IbWkiPWtB9f8dFpReef+o118S1Nm1aooDO3XDwWBWXUuVEVDq9pWSNCAK91Wla27LLNLr5I794zZ150sc2oPg+OlboQgbjr9D+v3rW02qDfyldK4OxzP/ztnyz9XzqdpPtQXgJB1qnUyaJkB2et+KxU7NECf1EgOSGTvGtl1wsQKiJAUlZFATKNVBcgV1FHAcpoqrcAZVU0UybyCkJti3sqqWw7lenjMJWr7XGqjEHeLpZVOzKwtIHK/issGDOGRu8qunfpVgwoNptaB9JMuzywOB222yOH2uOD1thqi11WW2W9XSNyh8mV3TYbs0eM9kOF7rropjBAcbvzPJhDizvstH7du7/JQMX7yXb27E9uj+NJotlDTZKIVDcgVHdevmPH1r2dd28L2wAA");
 
 export default CommentArrowUpRight;

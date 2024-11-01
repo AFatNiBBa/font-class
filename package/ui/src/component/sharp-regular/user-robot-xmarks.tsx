@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-robot-xmarks` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-robot-xmarks?s=sharp-regular user-robot-xmarks}
  * @preview ![user-robot-xmarks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-robot-xmarks.svg)
  */
-const UserRobotXmarks: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M240 16l0-16L208 0l0 16 0 48-96 0L64 64l0 48 0 160 0 48 48 0 224 0 48 0 0-48 0-160 0-48-48 0-96 0 0-48zm96 96l0 160-32 0 0-32-32 0 0 32-32 0 0-32-32 0 0 32-32 0 0-32-32 0 0 32-32 0 0-160 224 0zM83.7 400l280.6 0 19.2 64L304 464l0-32 0-16-32 0 0 16 0 32-32 0 0-32 0-16-32 0 0 16 0 32-32 0 0-32 0-16-32 0 0 16 0 32-79.5 0 19.2-64zM224 512l64 0 109.9 0 50.1 0-14.4-48L400 352 48 352 14.4 464 0 512l50.1 0L160 512l64 0zM32 128L0 128 0 256l32 0 0-128zm416 0l-32 0 0 128 32 0 0-128zm-304 5.4L125.4 152l9.3 9.3L149.4 176l-14.7 14.7-9.3 9.3L144 218.6l9.3-9.3L168 194.6l14.7 14.7 9.3 9.3L210.6 200l-9.3-9.3L186.6 176l14.7-14.7 9.3-9.3L192 133.4l-9.3 9.3L168 157.4l-14.7-14.7-9.3-9.3zm121.3 9.3l-9.3-9.3L237.4 152l9.3 9.3L261.4 176l-14.7 14.7-9.3 9.3L256 218.6l9.3-9.3L280 194.6l14.7 14.7 9.3 9.3L322.6 200l-9.3-9.3L298.6 176l14.7-14.7 9.3-9.3L304 133.4l-9.3 9.3L280 157.4l-14.7-14.7z" />
-    </Icon>
-);
+const UserRobotXmarks = createIcon("user-robot-xmarks", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABrAAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yEDgsGAAE2AiQDCAQgBYMtBzgbFgbIjsO44TuymcqziOB5u/qv09Oz6F70k+9O9Gh/UJmQ0tFkX0EOKGIy10JOXJP//vwbKBY0gqFUUSVIJnXTRgNq4CiqEpgObDpBm4LbLo6N5BLaJST2kMdjkTrZIxk8UH5o/GCQW8nUawCiAsCiHVvWaX4an0Z89P/ER9YgIBaBJFBDDUMFmKsmMFQuIZcLPo3//1f/gYkAogXeKAM5CnyN3wE5yLTl+bCecd3t7aNGlfXOfHtZL/aEKEKIohBClJ2BuKKIbULR9wzRBJQ7Ozs6J1HRSqWyxVO2lUU5PLZHR2yNoVHu1uGFKCM6S6+DI8eM7Bc10BcZFQMEjBwT/aO/cvQmn850W/9+/UfGuUcbz1bP/tTjOL+8VFVVUpno4MSJnjbRxKrhzYwHDjyNjhLp9bRP/x4xkIYusFFS2UrSsGKDCfdcsHDhp5/oucDBbMcnJve6IaV0o+TGp0vjhLwB08M+luwPa7jLT4Pv0rA0Xtl+F7puuPY6CATPvP3giwe65/7VVmbg83d/+UVz8f/NaGbPok0GgtrY/8faG01QnAH8pCwu14gmApmPtcEjHR4UIBQIkGlRDHTNEBWdK4yh64abJrgo33IJibzd1tc+Rmc6XETXTHcdnevrNbpurvfsLfpGzb+LfKvobzP58im4bFiaNH5imp12EzqxFxZkjXPSZdXIy3XBKLrUcRc471LHHHXKpRPiYutclzln+RG0zBclk4w3UTJbepx+OX+7Yy52iVMucL7oZ470vW2ky4/Lj6LaDLhOFpfJiKxXGlGOi7WacVcmUQ==");
 
 export default UserRobotXmarks;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-history-circle-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-history-circle-plus?s=sharp-solid rectangle-history-circle-plus}
  * @preview ![rectangle-history-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/rectangle-history-circle-plus.svg)
  */
-const RectangleHistoryCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 368c0 59.5 29.5 112.1 74.8 144L0 512 0 160l512 0 0 32.7c-5.3-.5-10.6-.7-16-.7c-97.2 0-176 78.8-176 176zM464 80l0 48L48 128l0-48 416 0zM416 0l0 48L96 48 96 0 416 0zm80 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm16 80l0-16-32 0 0 16 0 48-48 0-16 0 0 32 16 0 48 0 0 48 0 16 32 0 0-16 0-48 48 0 16 0 0-32-16 0-48 0 0-48z" />
-    </Icon>
-);
+const RectangleHistoryCirclePlus = createIcon("rectangle-history-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeQAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCEwsGAAE2AiQDCAQgBYMtB0QbJwXIhuD5uap6P+mB9Cxyegkzi0wOSNGdI7f6mB2xJ4vqFM7/NfXi+VE+/0aHElFLkEigbJ/AxMKbCnyj4WyiOHMbMYOG95rIGIJDxNBcaIIHyOPv7K4a6en0BR4vHxq/6uMuSWsGIDoDYMG2TWt89FP8FPH5/68Tn1uFgFgASoEMGfoLMFsm0F+uRC4X/BT//+//A0sCiCZ4vwRyNOMUrgBykNTyvEdra79GvdYh31qvFYdujot4fkZbZNEpxBPFD+u/2bxLaIuIDlvrE7bcnxHx9rjn3Rz73PS3insz3xn/Qtya8OKsd+tbQhTBQQVdrws9wLIW46Nj8DOdn/m98cXRL8xbN24yU0bctx8N51tWRnSOlY8PqqrqkcqjCesSPH/3/HU/jkik9sbw4Y32lEaIJk51WtcZjaXOKlWDqtXO5O1AIOj7wzMj93Wa/VdLPYFf3vnzd7re/x+lm+kZtEggyMb+P9budBP8akCDFFcNVr5JIDmkBq/a5gkBQoEASZNCgEw/nQXIFcYIUDPQFAGaFDbJRN4qdLeHQdLmAshMdQ3kunsV1Mz2caFJ98gsTrQX8cGXtlSiSzaV7eOrcmY5beqSEfFxeVa57I28GoZG0V5HnXPWZUccdsJlgV+0pnzFGUs1bIkfKrUbr1KaqdzuPG7f6oiLLjnhnLN5nVnK8/mRruqTR1GYgHGiI5JEpAEXjxy6fODssdNHxt1Na9wPHX2c6QIAAA==");
 
 export default RectangleHistoryCirclePlus;

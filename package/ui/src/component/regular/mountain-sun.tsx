@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mountain-sun` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain-sun?s=regular mountain-sun}
  * @preview ![mountain-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mountain-sun.svg)
  */
-const MountainSun: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 80a80 80 0 1 1 160 0A80 80 0 1 1 480 80zM412.7 281.7l48.2-79C465 196.1 472.2 192 480 192s15 4.1 19.1 10.7l132 216.3c5.8 9.6 8.9 20.6 8.9 31.8c0 33.8-27.4 61.1-61.1 61.1l-122.8 0s0 0 0 0L55.9 512C25 512 0 487 0 456.1c0-10.5 3-20.8 8.6-29.7L225.2 81c6.6-10.6 18.3-17 30.8-17s24.1 6.4 30.8 17l126 200.7zm28.5 45.4l62.2 99.2c5.6 8.9 8.6 19.2 8.6 29.7c0 2.7-.2 5.3-.6 7.9l67.4 0c7.2 0 13.1-5.9 13.1-13.1c0-2.4-.7-4.8-1.9-6.8L480 263.6l-38.8 63.6zM456.1 464c4.4 0 7.9-3.5 7.9-7.9c0-1.5-.4-2.9-1.2-4.2L256 122.3 49.2 451.9c-.8 1.3-1.2 2.7-1.2 4.2c0 4.4 3.5 7.9 7.9 7.9l400.2 0z" />
-    </Icon>
-);
+const MountainSun = createIcon("mountain-sun", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdAAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBdgsGAAE2AiQDCAQgBYMtBzMb+QTIHoPjblkMZYlWxvMPlOd1Vjz//Vg79/2/mDfvkDR5iKIhk0iJTUjMFjJDJXTWnpdD7wXiDyhPkDa2XTM2w9JRqJ73+b/c83t+dICfj+DQxsKlGxfonPU8gcTqsL2BsjBLFPPd9aaMCLtJWsqS/uH2Dtc/h57fGYKbeuf4AHhuH5o/yOsEyqABIAsAgPO7iCA8vOed6PX/KeQDASCQcwBbCA0Nawgc4RSs4bIFui780P8R/wcyCJAxyJkLdIzhATwC6KD0ziWsJS4iyC3MFZ3HCuSsOFzbXSov2l7YX6lExqSuGcEB6SiawqzuhqYAtbnthWhNZlqhTTaBZnRWpaOMoqKjptAqJUgzsm0y0eQa1feJp1iaxJS0sPqW2NYXtQ/Zn/hcMpNTVZUjxIb7s0mwZ/P1VfI73jAszg/DBgBDlP7nFRt6i7Vvarrf9HQjnSYdEuPi9MSBIJdE0TGK53pTeTjok5/wKiqe1FEAgvCt0u6UIur4lW+aA/B79Zux8eihWjm2ABMKhLbz31BitQIwmgCrUg1144uCcoGLvOuMFxCIKQSUMVMCmlViCHRTthEY2GCFwJgpVzil8yNWJC1QZjyB5lAT6FYcg4Ejj+aYlXBijEQI+YcX560hr2HMzNiU2bOjb1KwwUu/A7vmdatjTo86ka1EsUpZMuWpVEi5IKdKEW8L9vJDjBljphh77Dl6Hx0tS7kKeUoU10EcsO9lXdV2tR5JHARzl6sUKSGsGkYVVcUAAAA=");
 
 export default MountainSun;

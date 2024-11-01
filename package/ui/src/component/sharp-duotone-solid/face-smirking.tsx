@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smirking` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smirking?s=sharp-duotone-solid face-smirking}
  * @preview ![face-smirking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-smirking.svg)
  */
-const FaceSmirking: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm96-64l16 0 64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32l-32 0-16 0 0-32zm80 176l16 0 112.6 0c19.6 0 36.2-14.1 39.5-33.4l.2-1.2 2.6-15.8 31.6 5.3-2.6 15.8-.2 1.2c-5.8 34.7-35.8 60.2-71 60.2L192 400l-16 0 0-32zM288 192l16 0 64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32s-32-14.3-32-32l-32 0-16 0 0-32z" />
-        <path d="M112 192l-16 0 0 32 16 0 32 0c0 17.7 14.3 32 32 32s32-14.3 32-32s-14.3-32-32-32l-64 0zm192 0l-16 0 0 32 16 0 32 0c0 17.7 14.3 32 32 32s32-14.3 32-32s-14.3-32-32-32l-64 0z" />
-    </Icon>
-);
+const FaceSmirking = createIcon("face-smirking", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABmwAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCWgsIAAE2AiQDCgQgBYMtB1YbggXIhqDSVWW1tCQdg44ZvbsHYBcALQCwN94ksmf+r6kXz48O8BsdSieV3i0Kh106gQFGY5RNYIIz3Axs5taYIgqC7BcRR1s2pcdvezy7Qh7fZdeqIz2UvsAd438A41ddXUvSlAGINgCYs2ndCu80R3OKL2qvEl9YjoCYCyqBDBl6CDBdJtBDrkIuFzSnWo3mqNUqAoh645vMQD0acSseBOQgSfI879ixe/uu7cu6lvnGsq7YVJSFKMsrO95X3tL5gbiq0/1FUQpF8eOciHdXfNlOWPX1vPc3/TT3vZVfFTcv/2L2O+s3vS68peN9ruxwL5E2KYq3oSzWjnWO6BwDokOIBwc/WYjV8uK+T7d5+vc+Xxz8wqlaGzYrNWp1442tytTZ7wgneMeCJrq+8u68ee++0rXJAiwFc9eshbbV7ZmqTbXqhTZtrmr94FMjkpH+M0pYMrrqfkaFTlU2vg4Egseff/jNXa2n/99YJvDz23/+cvyQ1N5J0tNolECQDa8Ntz2BRAAAUlzUN7EbgcxWOX6PFu4XIBQIkNQrBMh010aAXGGYAHV6mSAgbV8nE3mT0MGOCyQtnAGZiS6BXAevgDrTfZyq1yEyt2Sdiv0pTFqI6IJ51ZiRo6up1WPJyXka3UenVWZr8MXaMoSOOuiUk847YL8jzgN+1orsBScsnGELfFBljJFGq0xVbVe/SxshddY5R3Rhf5Zpqu/DwS7Ouw8hN2HCsVZkMiJF1jHoUyPOnThyNsS1ERHeobMiRDMAAA==");
 
 export default FaceSmirking;

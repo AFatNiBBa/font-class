@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gift` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gift?s=sharp-thin gift}
  * @preview ![gift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/gift.svg)
  */
-const Gift: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M373.1 16c-20.3 0-39.2 10.5-50 27.7L270.4 128l25.6 0 80 0c30.9 0 56-25.1 56-56s-25.1-56-56-56l-2.9 0zM241.6 128L188.9 43.7C178.1 26.5 159.2 16 138.9 16L136 16c-30.9 0-56 25.1-56 56s25.1 56 56 56l80 0 25.6 0zm14.4-7.1l53.6-85.7C323.3 13.3 347.3 0 373.1 0L376 0c39.8 0 72 32.2 72 72c0 22.6-10.4 42.8-26.7 56l74.7 0 16 0 0 16 0 96 0 16-16 0-16 0 0 240 0 16-16 0L48 512l-16 0 0-16 0-240-16 0L0 256l0-16 0-96 0-16 16 0 74.7 0C74.4 114.8 64 94.6 64 72C64 32.2 96.2 0 136 0l2.9 0c25.8 0 49.8 13.3 63.5 35.2L256 120.9zM136 144L16 144l0 96 16 0 16 0 200 0 0-96-32 0-80 0zm128 0l0 96 200 0 16 0 16 0 0-96-120 0-80 0-32 0zM248 256L48 256l0 240 200 0 0-240zm16 240l200 0 0-240-200 0 0 240z" />
-    </Icon>
-);
+const Gift = createIcon("gift", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhgAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCUQsGAAE2AiQDCAQgBYMtBysbTAXIFkpLUOl6v2eleyAZZGKZAT8QpMQhEGbGyn+IGUHqm/9rPr/n14DfT/zQIi1rVZqU+XwCE51F2oRGG9hMJ2Dbna20g2IetbQGLTnO5XjkIdC5QB5fOqZBei5dwiP5Q+NXfTxIkmUAogLA4p1b1/vuh/gh4mLzY+KitQiIxaAWyJChvwDzZAL95WrkcsEP0Wzif2BNANGC3iuBHO14GE8DcpC05nnVZWbZ3t5eNjrmO8pGcfKlUduiLF/t9Uy/53s+PaLYtmP7jjdGFPFS9yd7P9fjqeHlzJ3bdr47s4yXR7/e58VRZSmEKApQO0R4UcShZfnGwBfGvjmyjI/Hb99WlIUoy4iCC7x2IrZHRj4chrxRvfH74EsnLrnx3b/6Ttuq76ZrL//Z2vrn5Wuz+6+RTM33/SszSG+6efp2OGDzvZkfpk7tlJ5cW1UOqTTlr+C+VyHoZO2TqZOh+EPm3s1255aetxL1kOr7Q+pJhyjn6kNuveeac/V/Oeevzn/y80Ag+OWbK2842Hne/21lAj998eev+DPS/C5Jb6BNAkE2rjnOvgQSAQBIcbMhCQLJ3VrRq3bwtAChQICkRSFApp9KgFxhrAANA00XoEVhq0zk7UJ3+ztIOrgOZGa4C+S6+xA0zHO23KJ7ZA7JuRP3H0xecWj5rnryhEn1nHrZwbyPMWlzbm1WR91sYjTsdcI1rnaj44457caR11tfu8lVVuzg5b6oNtkEk9TmqI/7a3nH3OvdgJkL59vMVd8PR7l5P380GAnRTtGWJCLlLwkAAAA=");
 
 export default Gift;

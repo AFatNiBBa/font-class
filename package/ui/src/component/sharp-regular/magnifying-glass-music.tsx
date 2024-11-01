@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-music` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-music?s=sharp-regular magnifying-glass-music}
  * @preview ![magnifying-glass-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/magnifying-glass-music.svg)
  */
-const MagnifyingGlassMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 48a160 160 0 1 1 0 320 160 160 0 1 1 0-320zm0 368c48.8 0 93.7-16.8 129.1-44.9l124 124 17 17L512 478.1l-17-17-124-124C399.2 301.7 416 256.8 416 208C416 93.1 322.9 0 208 0S0 93.1 0 208S93.1 416 208 416zm80-306.8l-77.8 19.5L192 133.2l0 18.7 0 57.5c-5.1-1-10.5-1.5-16-1.5c-35.3 0-64 21.5-64 48s28.7 48 64 48s64-21.5 64-48c0 0 0 0 0 0l0-85.3 48-12 0-49.5z" />
-    </Icon>
-);
+const MagnifyingGlassMusic = createIcon("magnifying-glass-music", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABeAAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCAQsGAAE2AiQDCAQgBYMtBz0bDgXIjsM4FjxShSZMfOLh/9fK7vtVPQGgCgCDQ0cuum2ASMbOic2CWoXX5oCcuS66raWvpNV1s2qhmkx/P89/2m/AZ/TROrQ2LGrLPp/AQEfhO58NKApsphOw7c7NakTkk2Mpkhyf5Xg8TpDH44iVSDfTiqvpQ+OXZi6QlDIAURcAYxfPn+lFZVRGfP7/LvHZdATEWFAIZMjQUoARMoGWcgVyuaAy/v+f/wMLAogK+bwJ5ChhNfYCcpBked6iRdsapVr5Iv9c1ZdfHIrjYc/OmR7tkLG6Hzb36gN6D8OXGuTHbB1dY3R0i0XxevEvbvOyU3380tGCxQs6hBDXqvsOadOkY9ax6Fy0gIDAMTiiXblu/XvbddOKvl/tTpm4YGK3buBN6C7aePeeaZYfP456cE13TYvF5fJiIqNclkx+dr+ZDRLewIGh9lRt0apVlrVqeetWy3JJWOhv/YBA8GThuv6r64z4q2qNBH4++vNP8Cv6/0WSyqgqgSDr8X8PKxJIBAAgxSHtEgSSxTL+Wmu6JkCojgBJheoCZFqoK0Cuuu4ClLQ2UIAK1c2Xibya0NBKAklNe0FmkJMg19BtUDLC+0KFhpEpmqQm0jsvfZKEJm4r+vbqUwwrum1V1h0hrA8vpv0uh+xYVzxqk912OWCjDbY6ILh9ZpYP2mnSiJjoiwp99dJHYZhiuXe7f5GN9tlvq912xU2GK/bHXRwaz+6KUZJ5+2lJEpEaf5Rbseno1l2be94ts+dJBAA=");
 
 export default MagnifyingGlassMusic;

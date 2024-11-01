@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shuffle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shuffle?s=sharp-solid shuffle}
  * @preview ![shuffle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shuffle.svg)
  */
-const Shuffle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 128L416 32l-32 0 0 64-64 0-16 0-9.6 12.8L244 176l40 53.3L336 160l48 0 0 64 32 0 96-96zm0 256l-96-96-32 0 0 64-48 0L153.6 108.8 144 96l-16 0L32 96 0 96l0 64 32 0 80 0L294.4 403.2 304 416l16 0 64 0 0 64 32 0 96-96zM204 336l-40-53.3L112 352l-80 0L0 352l0 64 32 0 96 0 16 0 9.6-12.8L204 336z" />
-    </Icon>
-);
+const Shuffle = createIcon("shuffle", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYwAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBYgsGAAE2AiQDCAQgBYMtBy4b4ATIjsO44TuyxVL+4+H5ufLPfclSpgzpqgIQ+bqyUGtL6NAYdPhRTzN/EW6fuOb509PTAxb5o3VoYp7/U9SizicwsWqf0EYDm+kEbG8TEaEOK/xiEMVY/IHH2wPyeJFNDelOghvuQ+OHzq6TNGQAohUApqxatsDbz/E54lP1EfHJPATEFFAKZMjQTYDxMoFuciVyueBzVKvqP7AkgKjFb5RAjhoswlZADpIszzv3bFmpaZ6vrNQUu1auWFmEKIp2sTymxKqohKjEqlQNYmV0aOFFpbIi2gOVdOvUKVOXm70dY1VjU6umX73spDppE15Ymmxyq/uGTHXcsOkGm6yEAzA72KN/3NfqMsmLozx5IBw26Pjx4wvg4lI6fOB5EAi+n3tjLcf/X19J4OvzP7/4X1H1c5KaUC+BIOtf7W99AokAAKQ4qTFBIJklw6/azE0BQoEASa1CgExXrQTIFfoJUKOHEQLUKiyTibxBaGdDQpJmjiCZkS4guXYeIDXGexfVaheZZNFyQf/rEmbmwIxV5ZCBg8uxZbMQGGEhaXFcOW30PqkH+sBWOx1y0HE7bLfH8Qw+akF6wgEze9AMX1QaYqDBSmOV2/Xl+pV2OOqYPQ45aJcZp7zv9HayP74P2AkTDiWlJ8inumO7T+zcuX8HAAA=");
 
 export default Shuffle;

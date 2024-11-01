@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dharmachakra` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dharmachakra?s=solid dharmachakra}
  * @preview ![dharmachakra](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dharmachakra.svg)
  */
-const Dharmachakra: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M337.8 205.7l48.6-42.5c13.8 19.3 23.4 41.9 27.4 66.2l-64.4 4.3c-2.4-10.1-6.4-19.5-11.6-28zm140.1 19.5c-5.3-38.8-20.6-74.5-43.2-104.3l.8-.7C449 108.4 449.7 87.6 437 75s-33.4-12-45.2 1.5l-.7 .8c-29.8-22.6-65.5-37.9-104.3-43.2l.1-1.1c1.2-17.9-13-33-30.9-33s-32.1 15.2-30.9 33l.1 1.1c-38.8 5.3-74.5 20.6-104.3 43.2l-.7-.8C108.4 63 87.6 62.3 75 75s-12 33.4 1.5 45.2l.8 .7c-22.6 29.8-37.9 65.5-43.2 104.3l-1.1-.1c-17.9-1.2-33 13-33 30.9s15.2 32.1 33 30.9l1.1-.1c5.3 38.8 20.6 74.5 43.2 104.3l-.8 .7C63 403.6 62.3 424.4 75 437s33.4 12 45.2-1.5l.7-.8c29.8 22.6 65.5 37.9 104.3 43.2l-.1 1.1c-1.2 17.9 13 33 30.9 33s32.1-15.2 30.9-33l-.1-1.1c38.8-5.3 74.5-20.6 104.3-43.2l.7 .8c11.8 13.5 32.5 14.2 45.2 1.5s12-33.4-1.5-45.2l-.8-.7c22.6-29.8 37.9-65.5 43.2-104.3l1.1 .1c17.9 1.2 33-13 33-30.9s-15.2-32.1-33-30.9l-1.1 .1zM163.2 125.6c19.3-13.8 41.9-23.4 66.2-27.5l4.3 64.4c-10 2.4-19.5 6.4-28 11.6l-42.5-48.6zm-65 103.8c4.1-24.4 13.7-46.9 27.5-66.2l48.6 42.5c-5.3 8.5-9.2 18-11.6 28l-64.4-4.3zm27.5 119.4c-13.8-19.3-23.4-41.9-27.5-66.2l64.4-4.3c2.4 10 6.4 19.5 11.6 28l-48.6 42.5zm103.8 65c-24.4-4.1-46.9-13.7-66.2-27.4l42.5-48.6c8.5 5.3 18 9.2 28 11.6l-4.3 64.4zm119.4-27.4c-19.3 13.8-41.9 23.4-66.2 27.4l-4.3-64.4c10-2.4 19.5-6.4 28-11.6l42.5 48.6zm65-103.8c-4.1 24.4-13.7 46.9-27.4 66.2l-48.6-42.5c5.3-8.5 9.2-18 11.6-28l64.4 4.3zm-65-156.9l-42.5 48.6c-8.5-5.3-18-9.2-28-11.6l4.3-64.4c24.4 4.1 46.9 13.7 66.2 27.5zM256 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Dharmachakra = createIcon("dharmachakra", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABvwAAALaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyDagsGAAE2AiQDCAQgBYMtBzMb7QVRlO1Fk+wjITfReonNMLRhiKEcaCE8YorLCEk6Cb6/F3/PuTelNU6oUudgBQlIF4010AAm46WClo9f4PmQ7ud74BdyeD744VaN1TJVTfNXzKeK28gwsdfUJ+6n/l4UDfDZ1oKb0ASjLKk8kj8t63wCA43kTMOR7HwCtqxAFLtza8Uh2ictCa3l8C/HZwM1nspxLeR9fsR1mR//TThO6igY0Q+W2z2eNgFPf/gT8d7cwub2QEDsAuYRBb1lGsGGUIFpYeZBVQU/0TTwP3AeAohW/LYEFd34xj9ABamz1mNicxTkikQtXA+b2blimWM65zKns9mY0W+TLWwxmoWfJPjYI4+ITiPAl6Yg2Wx8OBnxUAn6Ok2axj4LQTYaBwMBPhoHHtZpIfnG0Ug08Y0jhsEneRpn1pOjxdILQ2ewMcme3lNm1dEzZ5zPmsWmZHPG7VIHRk+fdbZ+JlsC1qzO4onwyHEzTcdsNmbxVsn0YDLZhMNJjcI3mnkk0KLlno87/2nh48qPmPLt/98/YZkbhqp9wQQ/gzirx7S16rpPPDtLyN1npDyzWxJnnwV8/WnbGV0/S2T4hDzVKmXrKUlYzDkDC20xeivWHLF0YEiYi8E3V9yVy8f/x/5KNyx91yWrK/f/X+V6A1fwZjDU3Zn+0tOIv98RmiJm/3Q7r7zszvfqwns5f4k8DZyW8oIqAADc72PRw2OLYs1fUZpwgr/HL3/lX1HzNOUD2iUIylKzZH6CJAAAGVdyEwLpWSeOdruxpkMngtSqE8WUOFSdFtFiVoNVOXtfqKgdwrAFiNTtFMW6A6iG3UCLDW8SrYajeLfdN+1/yzxeT48bpmoqq9UItcxrDoe1pv6RSu0r3hnrSnAlVtpko+1WWG6N7Z1yqwnpHTbwdopxPkipUamaMoIylx49Mymx1TZr5i77ICOp89FiO/etSzAYgk0u46cksvvkXXqXLBNat3UJ");
 
 export default Dharmachakra;

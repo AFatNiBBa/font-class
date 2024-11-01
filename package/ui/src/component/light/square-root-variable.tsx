@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-root-variable` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-root-variable?s=light square-root-variable}
  * @preview ![square-root-variable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-root-variable.svg)
  */
-const SquareRootVariable: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M352.1 64c-7.1 0-13.4 4.7-15.4 11.6L223.4 468.4c-1.8 6.3-7.2 10.8-13.7 11.5s-12.7-2.6-15.8-8.4L82.9 264.4c-2.8-5.2-8.2-8.4-14.1-8.4L16 256c-8.8 0-16-7.2-16-16s7.2-16 16-16l52.8 0c17.7 0 34 9.7 42.3 25.3l92.4 172.4L306 66.7C311.9 46.1 330.7 32 352.1 32L560 32c8.8 0 16 7.2 16 16s-7.2 16-16 16L352.1 64zm52.6 180.7c6.2-6.2 16.4-6.2 22.6 0L480 297.4l52.7-52.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L502.6 320l52.7 52.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L480 342.6l-52.7 52.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L457.4 320l-52.7-52.7c-6.2-6.2-6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const SquareRootVariable = createIcon("square-root-variable", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABbAAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBUwsGAAE2AiQDCAQgBYMtBzsb3gTIhofn7ao/93WtetaoWVuZEIL4dAZnUspo4x45NV77VMBnJSjaP1qQfuzOOfEJTGyZf7rABZtNFKfbZEJ4lOEbIUIS0fHl8XWCLH6OziqQLqevcLJXKv7WyFGSrAAgagJgxLxZU3zyR/wR8VXpTeIrkxAQI0EuUMBHmgowWEGgqUyOTCb4I0ol/B+YE0BUpGBiZnTjFMwFZCBJWda6vKxCtWxuKRTXnas7P0A/V39uXCgWb6l/sUFZ3G80JxbFzX5lcb7eubrFORfrzYhZwbTzdafHjKCdqz8zpgftQoNZMTM+2/JJzSf/ln+19ivLDtwauOOEDqdvjd/6rXFV+vijevU/+njl+8XPrFnpVvl3rvxd7zcePx5lFNCuXOmtt77tcSAQfDDznb+X1Rj8onJZAn+99/8LuV/p9zQ8PUFlCQSFzqXOFqfhQMwA4hR7tQy+KJCMkWhVq7ogQCgiQFJRUYCCJmoKkCnqJEAFzfURoKKiWQoiqyLUtWQSSVU7iIK+9hGZul4nKhjs06iiulHIKCEfhA9d6lgLjNmX9+jaPR+YL7uGmCRc3R6Ub7vt9/JUBxy11jZb7bbGahvsNvhOU9I9thgbYWP8UK6HrrrLDZQfD/aH51pjp1022Gar7DJIfj9sb2+8uAOCRFl7akoSkeq+Sq1LultdHjY=");
 
 export default SquareRootVariable;

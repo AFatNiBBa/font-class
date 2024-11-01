@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `battery-slash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-slash?s=thin battery-slash}
  * @preview ![battery-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/battery-slash.svg)
  */
-const BatterySlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M13 1.7C9.5-1 4.5-.4 1.7 3S-.4 11.5 3 14.3l624 496c3.5 2.7 8.5 2.2 11.2-1.3s2.2-8.5-1.3-11.2L13 1.7zM386.2 400L112 400c-35.3 0-64-28.7-64-64l0-160c0-12.9 3.8-24.8 10.3-34.9l-12.6-9.9C37.1 144 32 159.4 32 176l0 160c0 44.2 35.8 80 80 80l294.5 0-20.3-16zM480 96L233.5 96l20.3 16L480 112c35.3 0 64 28.7 64 64l0 16 0 16 0 96 0 16 0 16c0 1.7-.1 3.3-.2 5l14.5 11.4c1.1-5.3 1.7-10.8 1.7-16.4l0-16 16 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-16 0 0-16c0-44.2-35.8-80-80-80zm80 112l16 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-16 0 0-96z" />
-    </Icon>
-);
+const BatterySlash = createIcon("battery-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABewAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCFwsGAAE2AiQDCAQgBYMtBzQbGwXIjpQu7jJCkk6CymaV1TNS7I10yHPMbOETkPsWkMfee28hWcBKf9/aiWvqx/nTn6fRI0VbrRIjLaJ5AhPbzTLoQV9Hs4niAmLt7IoMUr/okwRPslm/tDtCHv/Yq0J6OH2MO9lW8aPOriPJMgDRCgCzNqxZ5t3P4rOIjxsRH1uCgJgNSoEMVnQTYKpMoJtciVwu+CwaDfcfWBJAVNFHJJCjiuO4AMhBkud5vfPY5rVK83x9rVJseaDdfe1Pxf0dH+xwel+9ef2Fwa90ibjasUM8RDw+6OVxzaP/lqJW9ItaPD/o5c7C5l9xNdrHgxFd/daOjF3t8EBRWPLE4FfGr6sVtfvbi/vaFRG9X2n1ys+9Pt7/sfpba+aOm3viV8Z99vY2Wz/VunXxlHZPvOaTzk+J9ftaDbBi24jfozN8QchppZWdYkHK+FTHphxvcdNNLWaCCdyOe8WJVupnDfWz6bdBIPjh23GP7Gg59bemWgJfvP7r33xjQ+N0TXoFTRIIsqGNobamKwJgobhzNM7rjW8SSPbLkV3rHhAgFAiQVBUCZLpqJUCuMESAih7GCVBVWCMTeTOhnW2ZSupOUZnxLlK5dl6lKqZ6L1bVLjKd4zWG//KlzC/heavKUcNHlpPLYU0S1Ij1s1PKZW3gedczCBvtd8JxZ+2z1yFnC/S0ZclzjpkvIfP8UGmU4UYqTVZuN6/Xr7fPaWcccsLxsMwU5fnAQOfl4YNgJkQ7WlmSiNT8hc8ZduborjMHAQAA");
 
 export default BatterySlash;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-yen` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-yen?s=duotone circle-yen}
  * @preview ![circle-yen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-yen.svg)
  */
-const CircleYen: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm152.1-90.5c.1-.8 .2-1.6 .4-2.4c.3-1.6 .8-3.2 1.5-4.7c1.3-3 3.3-5.8 5.9-8.2c4.6-4.2 10.4-6.2 16.1-6.2c6.5 0 13 2.6 17.8 7.9c20.8 22.8 41.5 45.6 62.2 68.5c20.7-22.8 41.5-45.6 62.2-68.5c8.9-9.8 24.1-10.5 33.9-1.6c5.2 4.7 7.9 11.2 7.9 17.8c0 5.8-2.1 11.5-6.2 16.1c-16.9 18.6-33.8 37.2-50.8 55.9c8.3 0 16.7 0 25 0c13.3 0 24 10.7 24 24s-10.7 24-24 24c-16 0-32 0-48 0c0 5.3 0 10.7 0 16c16 0 32 0 48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0c0 8.3 0 16.7 0 25c0 13.3-10.7 24-24 24c-6.6 0-12.6-2.7-17-7c-2.2-2.2-3.9-4.8-5.1-7.6c-.6-1.4-1.1-2.9-1.4-4.5c-.2-.8-.3-1.6-.4-2.4s-.1-1.6-.1-2.5c0-8.3 0-16.7 0-25l-48 0c-6.6 0-12.6-2.7-17-7c-2.2-2.2-3.9-4.8-5.1-7.6c-.6-1.4-1.1-2.9-1.4-4.5c-.2-.8-.3-1.6-.4-2.4s-.1-1.6-.1-2.7c0-.6 0-1.4 .1-2.2c.1-.8 .2-1.6 .4-2.4c.3-1.6 .8-3.1 1.4-4.5c1.2-2.9 3-5.4 5.1-7.6c4.3-4.3 10.3-7 17-7c16 0 32 0 48 0c0-5.3 0-10.7 0-16c-16 0-32 0-48 0c-6.6 0-12.6-2.7-17-7c-2.2-2.2-3.9-4.8-5.1-7.6c-.6-1.4-1.1-2.9-1.4-4.5c-.2-.8-.3-1.6-.4-2.4s-.1-1.6-.1-2.5l0-.3c0-.6 0-1.4 .1-2.2c.1-.8 .2-1.6 .4-2.4c.3-1.6 .8-3.1 1.4-4.5c1.2-2.9 3-5.4 5.1-7.6c4.3-4.3 10.3-7 17-7c8.3 0 16.7 0 25 0l-50.8-55.9c-2.1-2.3-3.6-4.9-4.7-7.6c-.5-1.4-.9-2.8-1.2-4.2c-.2-1.1-.3-2.1-.3-2.1c-.1-1.1-.1-1.1-.1-2.3c.1-1.6 .1-2 .1-2.4z" />
-        <path d="M193.8 151.9c-8.9-9.8-24.1-10.5-33.9-1.6s-10.5 24.1-1.6 33.9L209 240l-25 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0 0 16-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0 0 25c0 13.3 10.7 24 24 24s24-10.7 24-24l0-25 48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-16 48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-25 0 50.8-55.9c8.9-9.8 8.2-25-1.6-33.9s-25-8.2-33.9 1.6L256 220.3l-62.2-68.5z" />
-    </Icon>
-);
+const CircleYen = createIcon("circle-yen", true, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAAB1QAAAK6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHSEHwsIAAE2AiQDCgQgBYMtB1AbQQbIjtRZLTlWQTw/V877P5vrJkeUYg4YFbIrIClkC6y2qgoA9F4tkTpIDoQvn+eaendbe4FcCM6HcveXSZHU4NmegAOM9tGadG8mez4D2+C8SYcY2v5QdAaGvNN78YA6q14Ah93/AZQvOOwFhVcDACChAABAXX93K3f84lfyYuoWyAtaAAGQegBcBNCABmYiAFSiEWAmBi5gYCDgV1NT4JepKRcEAMTEV2q+2gQ8wE9gHAAwAFAIyjAqZxy1PUFGn+2xhk8lnnE6xZILsWeTbMHhE87lGSK2zJ1LtgS+qlvOR19K7JE++Vgncrf1pb2//XXD/f5P9ffaXln7Wl7U3unp3xUTEKfT9v6om1lm6fWM00kn2Rl5JXW/DTkXnTOJ+yz5TsxNvyVMGPJGn8KEiHaNWoLNxwkICNuLptoJ93XJoCJ6F4L74q+FXvsW92L+C+6mTPLfScGhMyqqM5dQcgutQ1Sn3KEMWuWQwt0fgcFVDYSn79DkBcd3t6Hhrs/x0tQsZheeHlQoFVEwz2ttGBu7dr65aNIGy9t3fr8ZYJp72QJ90kBmPAWDPFplzY+PUApRYraGcmm+IaJQEhk/39qGqZBoRBMOjkmlEK/XOMHPAyCAwLu6qv+HVP7LVgB8vv3jD9nvaOqOQl0DpqEAENCZU5mMKAAUCAAAAKBkPfEKjgICaG6g8AuBnEIOLViAiKiJBQuaGYRWtIFFBu1hNkVYuLsbjRhehEhGIa0IZBWtKWYbbRCJj/ZQyeOsSaRoi2+0tsbnzmzNTVHTIjcvO9ctd0eLCpNdhh6ucBf7UtfzpjR4kvmsYDlrmcdcFrG2oVpNa2Edy2ie0m36rEse2eTiUo67uXLX1oezq1nDomHL9nEqcI+PprJ+unMaDCp8vfns0GgQJTr8B6FC1qZ5y7NuoebItuVqAQ==");
 
 export default CircleYen;

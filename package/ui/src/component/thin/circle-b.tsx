@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-b` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-b?s=thin circle-b}
  * @preview ![circle-b](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-b.svg)
  */
-const CircleB: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM160 152l0 104 0 104c0 13.3 10.7 24 24 24l108 0c37.6 0 68-30.4 68-68c0-31.6-21.6-58.2-50.9-65.8C325.4 237.8 336 218.1 336 196c0-37.6-30.4-68-68-68l-84 0c-13.3 0-24 10.7-24 24zm160 44c0 28.7-23.3 52-52 52l-92 0 0-96c0-4.4 3.6-8 8-8l84 0c28.7 0 52 23.3 52 52zM176 360l0-96 92 0 24 0c28.7 0 52 23.3 52 52s-23.3 52-52 52l-108 0c-4.4 0-8-3.6-8-8z" />
-    </Icon>
-);
+const CircleB = createIcon("circle-b", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjAAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCQAsGAAE2AiQDCAQgBYMtBy8bPwXIjsM4Jnyg8GQSETyv9/RzbpIFmLVdQTX4IXWQO7bWQybciiXgg8Hn/3J64/nRAX6jQxkb1wRZgHNWzxNIrM6bQAFlgWUaAMWabpM9dkjhJxISGREdn8dbZ8jjKRsVpOvS2zjX3jS+0dwZkiwDEPUAMG7Jglme/zK+jHi78sTbZiAgxoNSIEOGVgKMlAm0kiuRywVfRqVC/4ElAUQV8tsSyFEVx3EWkIOkyPOWLVs1bFCzqJ0vrlnUWPHJtIg3xj3mRN/np76+8NPpb45/PE4OeGnGW0vSZ3Mi3pvwUpwc/+Lsdxd/PPPtsc87Me6FWe8sWi6I6zrVjHt6PNDyZIvrOz/Q9vru93euEXc2W3Rto4jLHWtExDVNa8Zdja80XxiiZk0j5zQ9eLVJ+/vr3f9du7c3v63yyFi72VP1z+3Pqnt2j+XztP7jJOe5MKLVhAmtRlw4PwnysNds2SonNb6dnm/fvlazDz7YdClq2V3PLzSv8S09is/5bu5Ka1VZu9Dc7z4vzt2xFsrKZkwGJEE7n1EFCATPLHn7tzV1R/5WrWYCXz/5w9/0W1R5Pkn3o5oEgqxnpaeVCSQCAJDisPaFQHJEQV61lqsChBoIkFRRQ4BMS/UEyNXQQ4BCG4MEqKKGBTKRVxcaWdVBUss+kBnsKMg18gQojPRaUEWjZInIphH7DEya7NFJh8p+vfuWw8swZ1xu0bw7otyWux4uvW5Ysdkeux20yUbblHT4frPiQ3aZvMIm+aBSP731VRquPK4ejy+2yX4HbLPH7rrPCOV9v6vD6+lu0BIh7C+RJCJV+6+j9FoPAAA=");
 
 export default CircleB;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-virus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-virus?s=duotone head-side-virus}
  * @preview ![head-side-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/head-side-virus.svg)
  */
-const HeadSideVirus: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 224.2C0 100.6 100.2 0 224 0l24 0c95.2 0 181.2 69.3 197.3 160.2c2.3 13 6.8 25.7 15.1 36l42 52.6c6.2 7.8 9.6 17.4 9.6 27.4c0 24.2-19.6 43.8-43.8 43.8L448 320l0 64c0 35.3-28.7 64-64 64l-64 0 0 32c0 17.7-14.3 32-32 32L96 512c-17.7 0-32-14.3-32-32l0-72.7c0-16.7-6.9-32.5-17.1-45.8C16.6 322.4 0 274.1 0 224.2zM80 208c0 8.8 7.2 16 16 16c33 0 49.5 39.9 26.2 63.2c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0C168.1 286.5 208 303 208 336c0 8.8 7.2 16 16 16s16-7.2 16-16c0-33 39.9-49.5 63.2-26.2c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6C302.5 263.9 319 224 352 224c8.8 0 16-7.2 16-16s-7.2-16-16-16c-33 0-49.5-39.9-26.2-63.2c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0C279.9 129.5 240 113 240 80c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 33-39.9 49.5-63.2 26.2c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6C145.5 152.1 129 192 96 192c-8.8 0-16 7.2-16 16z" />
-        <path d="M240 80c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 33-39.9 49.5-63.2 26.2c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6C145.5 152.1 129 192 96 192c-8.8 0-16 7.2-16 16s7.2 16 16 16c33 0 49.5 39.9 26.2 63.2c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0C168.1 286.5 208 303 208 336c0 8.8 7.2 16 16 16s16-7.2 16-16c0-33 39.9-49.5 63.2-26.2c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6C302.5 263.9 319 224 352 224c8.8 0 16-7.2 16-16s-7.2-16-16-16c-33 0-49.5-39.9-26.2-63.2c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0C279.9 129.5 240 113 240 80zM176 184a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 40a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const HeadSideVirus = createIcon("head-side-virus", true, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAAB3QAAAKaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQiDZgsIAAE2AiQDCgQgBYMtB1obEgZRlMrJHNmPBDuWbBtKGWJvT4+QZJaH/+z6/32qeuYC6md/iE5hZOr1UyEeN6bPA5D2WlabjS1DKZrbDZQq+GPq1PNoNBegp4jEAxTSPXTxmECja54XuFegtbzeUsEKVNQCYEGt2TkE9hbZO2b0SJKsSc7/Kvl3hyK+yZepke5On+FGPB+/GnEZSUuGaHT7G6CN99x1e29VUaX4rPEc8ZntEBCbgFIgI2NcgPVkgXGFEoVCUKVGgyoajZIAoo5+bAZ1NOFb/AQoQJKloti4pWXNxm21jmKPtlrrvoUERJ0ngO+IAsiKdUD6XxWknX0vbX0z25Y692cJz+4c2RVRnZMEJNvdeHRFxLPbRny6ZVt8v/3nu9/NjeN2F/Xf1toa4q65T81sDREH1wzeES3xntF39thzZIuVXzr9me5nfp/22RGf+fPEzqrqHN5qq/Kpl665Nl122cVVZ2d18WWXpWuveempcquthiXSS09dew18zbWlDY8c2HnnAWvtOIen4Emqjm94exET1bCtHHdcx2Yz3rzNvV19n77W128jrT09D40tdV51Vedb67i15n9/sN2OXb1bzP44EAieeCvGD+xa7//mtgR+eeXPf90XSeOtJD2DZgkEeWHjt18CiQAApDjD9MROCGRnyehd290hQGhFgKSuVYBsTLcAhVYLBKiZtEqAula7yqJoEfrtH0DS7mSQrXY+KPR7FtSs58Owrj+ycjOqyXwtE7cQ2nxVuWzx0nKdMlvxrL5SZn7dstice8Z98+CmI5zoBKc53GGOdhrIKbZPTne8LST85p8tLbPYUqV1lNWtU3EPwlOc6mier19kXWV7d64z5NHzwEmIcLk9WSZS5KEjIC3a//Kih0NddFGGjnD8rQA=");
 
 export default HeadSideVirus;

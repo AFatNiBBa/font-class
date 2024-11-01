@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `desktop-arrow-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/desktop-arrow-down?s=sharp-light desktop-arrow-down}
  * @preview ![desktop-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/desktop-arrow-down.svg)
  */
-const DesktopArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 0L240 0l0 32L32 32l0 224 512 0 0-224L336 32l0-32L544 0l32 0 0 32 0 224 0 32 0 96 0 32-32 0-181.1 0 10.7 64 58.4 0 16 0 0 32-16 0-72 0-144 0-72 0-16 0 0-32 16 0 58.4 0 10.7-64L32 416 0 416l0-32 0-96 0-32L0 32 0 0 32 0zm0 288l0 96 199.7 0c.2 0 .4 0 .6 0l111.5 0c.2 0 .4 0 .6 0L544 384l0-96L32 288zM234.9 480l106.2 0-10.7-64-84.9 0-10.7 64zM304 16l0 153.4 52.7-52.7L368 105.4 390.6 128l-11.3 11.3-80 80L288 230.6l-11.3-11.3-80-80L185.4 128 208 105.4l11.3 11.3L272 169.4 272 16l0-16 32 0 0 16z" />
-    </Icon>
-);
+const DesktopArrowDown = createIcon("desktop-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABeQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCQgsGAAE2AiQDCAQgBYMtBzkbSwXIHgl27MRWxHAr8fClE3t/JXsSKQwbRjwg6qi6HgA64B49V3F5tVPtvb9C4uf/ms/PqgA/3xc/tCiqRYNEWkQ9n8BAZ2GRQAPaaDibKM62GQ7aEMQtBRESJhU/bDaMf4Yyfo6JGqQX0nd4pnxo/KO/B0nKAkB0A8CyPTs2+aIVrYjv2u8S39mAgFgOskCBAoMEWKgQGKSUUSoFrWi35T8wE0A04V0SKNHEg3gSUIKkLMsFvTuOqBudy911ozpQV7WoQnSNiCoi6lpwrKqGaa/qZFkjyA6U1Emo4z7W6+ERXXbVVT08qsgHhB3RN8ZFr9gpTJ/YnZ4QvWPb6bYw/KVuL/3nu9PfGfr5T9iY/aSFlp8MOGct2VFn5HdfN79b1m1q1m3+697NluyFcz4K9CvoVdBXjvLN56DX7fLiyh9f2LPCy077yJYtXvZye/pHTnvZCi/oJusGBIL489GPdF34f4c6gT8+Kj+u/UVaml5CBwkExcT2RAfTUhBxAKkUNxvufFEguVMJr9rJswKECgGSpkqAwkDdBChVJgjQMMQsAZoqOxSi7Cj0cmiApJNroDDbXaDUy9ugYaEvk029oohENY7U/8Cs1RpZtS5Pmzw1z8/Lpq4Fl5yXF+Rtd+zNaWgc7XTaFZfd6JSTzrlRCddtytzkktUetcoPZdNMNlU2X77uPFu7Veq6G5yz9ftVFsjfJ8a62Z88jvwJJKerSRKRejz04knHrl+/csukJwoA");
 
 export default DesktopArrowDown;

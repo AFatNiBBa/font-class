@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-pointer` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-pointer?s=sharp-light arrow-pointer}
  * @preview ![arrow-pointer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-pointer.svg)
  */
-const ArrowPointer: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M161.5 320L288 320l32 0-.1-32 0-10L32 32 0 46.9 0 432l7.2 7.9L29 463.8l20.5-25 84.2-102.6 59.7 134.4 29.2-13L161.5 320zm-39.4-20.3L32 409.6 32 74.1 282.3 288l-135.4 0-15.1 0-9.6 11.7z" />
-    </Icon>
-);
+const ArrowPointer = createIcon("arrow-pointer", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABUwAAAHNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBGAsGAAE2AiQDCAQgBYMtBzQbnATIhofn1/73a58ZbC4ug7sn00Qzq6+CJ5pXGl+TiBlx6nnOQwF8o6CNhUsDssDnPI9AxLItQLNcL1hNK2DVbeJjhyR7SyRIIjqe8Oh42iGPldFLNdL19A6X9UPjay2cJckzAFEfAOOXLpztxafxacS7/x8R78xEQEwApUCGDK0FGCUTaC1XIpcLPo3//+f/wJIAojq8WwI5cvTBCEAOkpTnrSqVanXyJZVqxdJKUYmI2BCdIkWT6B49Y2ksjq6xZMSipYuyfnhRNO5QVb/q2/bvtrxz/8Tx43dKhXa/+s8pWy01zcItRpz3wahLB5fvlhfO8+d7F+rdBAJB+cXKL9bWG/VrzUoCnz///kf6K/r/yxiXqlBTAkHW6/9eVsURiHECAJDiiA4xDoGkiwRbtV0RIBQYkuoKZFqpj1yhJ6ppa/B2dYWFMpHXEhpbbUhq24/MEMeQa+wBqhnlpVld48iShrty7suWPMUTk/vK/n36lSPKqavxecBIe2S5rHQ7UlLdadIWe+1xyGabbHfIUQfMdg7bbUpETvZFpf766Kc0QrkdPA4vsdkBB223157aZaTyvNHNkbi4O+kJaAfYSBKR6qw/cGDv0d4PNwA=");
 
 export default ArrowPointer;

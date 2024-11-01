@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-q` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-q?s=light square-q}
  * @preview ![square-q](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-q.svg)
  */
-const SquareQ: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM128 256c0 53 43 96 96 96c20.7 0 39.9-6.6 55.6-17.7l-50.9-50.9c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0l50.9 50.9C313.4 295.9 320 276.7 320 256c0-53-43-96-96-96s-96 43-96 96zm224 0c0 29.6-10 56.8-26.9 78.5l22.2 22.2c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-22.2-22.2C280.8 374 253.6 384 224 384c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128z" />
-    </Icon>
-);
+const SquareQ = createIcon("square-q", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABggAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCFwsGAAE2AiQDCAQgBYMtBy8bFgXIhof/t+u/fW5V9wNUH/ZIziTWXxMBToJek1o9cmq88VIBH3lRzsenBenXc168AhVtac8nNBvYTCdgY5tuMx87gvKLiCElIR1fHl8PyOPBmKtCuj99hVvrm8Y3hlxFkmcAohMAmw7ef0/v1aIW8VX9ZeIruyMgNoNCIEOGUQHWygRG5QrkckEt6nX+DSwIIKrk35ZAjirOwYWAHCR5ng8Pjwy1VNryg1oqzYff0BtxlxSX9d3d0hY3DtwbWVzef09z6y4PzonYOaMtnp71/FCK+2Y+N7U1npldDmcHPjwr4vllz87ZL+4ZuLdv39g58sjscvlLM58bbXlo7qy4u/eu/tnx2tJP1r8z+ckN7+74eN3bkyaXneV3k7466SsbLm2/juvaN2q/jtz15i66HgPMY11dzRvxfNGljzaWlJf9eM5kDzzw3HOTNXQogj2XlWVjrfX2A9vJ888faOi9fbYsrVSWbtmnPw8Egiv/7nvh6I61vzW2JPD1Gz/8lr5G6rV4L5VolECQza3PdUS8B/GeAACkuMjkeA+B5BQ5edVW9wgQmhEgqWoWIDOiU4BcszkCVIxbJkBVs/1lIm8Seh054aTVuXBmuYvhXK8X4Yq1PtWreiOLOSZimC9f4nYEtu0Vi+YvLFYX29Rgw4gq6zXFsTTzotyaRYdOcrazXOBEJzjVBQCdZ0/rQmfaboHbfFBhkfkWKqxWuIu1eBDo5znfqWvev2WN4r4200X28CxSE8FdLJQkIjW+W3neuQAAAA==");
 
 export default SquareQ;

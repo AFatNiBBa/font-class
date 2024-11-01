@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `solar-system` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/solar-system?s=thin solar-system}
  * @preview ![solar-system](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/solar-system.svg)
  */
-const SolarSystem: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M362.3 471.3c-26.8 13.3-56.6 21.7-88.3 24.1C141.8 505.2 26.6 406.1 16.7 273.9C12.5 218 27.8 165.2 56.8 122.1c6.9 3.8 14.8 5.9 23.2 5.9c26.5 0 48-21.5 48-48c0-13.3-5.4-25.4-14.2-34.1c-.6-.6-1.2-1.1-1.8-1.7c0 0 0 0 0 0s0 0 0 0C103.5 36.6 92.3 32 80 32C53.5 32 32 53.5 32 80c0 12.3 4.6 23.6 12.3 32.1C12.8 158.3-3.8 215.1 .7 275.1c10.6 141 133.4 246.7 274.4 236.2c34.7-2.6 67.3-12 96.5-26.8c-3.6-4.2-6.7-8.6-9.3-13.2zM236.9 .7c-34.7 2.6-67.3 12-96.5 26.8c3.6 4.1 6.7 8.6 9.3 13.2c26.8-13.3 56.6-21.7 88.3-24.1c132.2-9.9 247.4 89.2 257.3 221.4c4.2 55.9-11.1 108.7-40.2 151.9c-6.9-3.8-14.8-5.9-23.2-5.9c-26.5 0-48 21.5-48 48c0 8.4 2.2 16.3 6 23.2c0 0 0 0 0 0c2.1 3.9 4.8 7.5 8.1 10.8c.6 .6 1.3 1.2 1.9 1.8c0 0 0 0 0 0c8.5 7.6 19.7 12.3 32 12.3c26.5 0 48-21.5 48-48c0-12.3-4.6-23.6-12.3-32.1c31.5-46.2 48.1-103 43.6-163.1C500.7 95.9 377.9-9.9 236.9 .7zM112 256c0-79.5 64.5-144 144-144c22.7 0 44.2 5.3 63.3 14.6c-4.6 7.4-7.3 16.1-7.3 25.4c0 26.5 21.5 48 48 48c9.3 0 18-2.7 25.4-7.3c9.4 19.1 14.6 40.6 14.6 63.3c0 79.5-64.5 144-144 144s-144-64.5-144-144zM330.3 114.3C308.1 102.6 282.8 96 256 96C167.6 96 96 167.6 96 256s71.6 160 160 160s160-71.6 160-160c0-26.8-6.6-52.1-18.3-74.3c6.4-8.2 10.3-18.5 10.3-29.7c0-26.5-21.5-48-48-48c-11.2 0-21.5 3.8-29.7 10.3zM208 256a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm112 0a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM48 80a32 32 0 1 1 64 0A32 32 0 1 1 48 80zm312 40a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm40 312a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const SolarSystem = createIcon("solar-system", false, "data:font/woff2;base64,d09GMgABAAAAAAOAAAoAAAAAB3gAAAMzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTiERgsGAAE2AiQDCAQgBYMtBzMbSQZRVA2KZD8PTDd30ka89FQaaZIoOiKlS/FQpTaUv2GOjWuNK9KTCKK1snp2/4NEMjKsgEEBKiCwxCpn48KW8Z5x793HAN4kJdHpo8Ftc9xbMhrRF4phA64AA8MFnrjmv1bzP75GFBdJpOhmFk27+cD3x73TX9nHJtCzFmD+UV5j09JNG3wv6xIIcOxBnQdW5wl64+ZQu4iFxgjta8jjuknYpL2pgB1uXLxWywxJliHwoqL3NGhUdhbsvPBFROH/GlEwFAiIwQANITJkqAtBX0yBulgaArlc8CL+/1f/gQQEEMUgmczKUQbfiZpg2YekVJ536WZpflyunCF0lSnSZuWVm2tUXgm8Sj+L9tqbTqi5wIstJ01EyAEnxV4iaJYRmE0YX+Veh7vlaXdsH02KHhgH4/WQ2zHOcU1f7xMgO6sRVsgV3ARzX7rXbd5NtFed1TnHYzC2c66TAPZWEzpxTaVwpO9G4pF3ts+/pnGlX59z7Z5yb/1L/qS3GGWcyJljlLPfZcFpzlziOOs8b6F5SFp2XbRSui15rNhWrTfFEMNcVgjrqgo0OJwIK3kBBsddZGkKLzzd/pze8qfwqbsAppv0nwazhrcE+OeD89y24U5t3yeXGfsEBAIAj+jlz+kbvslFxUXJI6fc3ExmBTzMC94fy+/c4KfMnLZRr+eq6BjQLMFJ5inPJzmfa+Rf3Rkb7orfJh3m5VNH7NRfXCCrf9swW/34mtFqCBYKlpohFULF4GxVUdGlNp3uGnNWDrdpVPzzslcfP34wxSpcLr+RjeUDWJkeLZYULXpcDwSC3+W6fx2r2/dryTIJvLr2/qs58P/v/zdSns6hpASCrO1/T0qSA+JPBSF4UixhD79JIHmvFGgpa9dTfyjNAEmx0pCpQw9ypbWBIvUFyS6OGYYp8lJCVaUgJGXNh0x3o5CrahWK9HXsKVY1mGlBEZMVf6Jpk6eMpFrUyduXwmk3oFNGb5kujKDLhpZ9PMENDoA67dr0qFWjscEJp0uWv1er5CPJpM8SP958kXD0OPyyd55aXbo1atdmq4lA31tc9R2nd4NmhkDZ2ZgkEanswrktlV1eaQQAAAA=");
 
 export default SolarSystem;

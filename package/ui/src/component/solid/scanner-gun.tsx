@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scanner-gun` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scanner-gun?s=solid scanner-gun}
  * @preview ![scanner-gun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/scanner-gun.svg)
  */
-const ScannerGun: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 32C50.1 32 0 82.1 0 144c0 50.7 33.8 93.6 80 107.4L8.1 374.7c-13.3 22.8-5.7 52.2 17.1 65.6l53.4 31.4c22.8 13.4 52.3 5.8 65.7-17L261.2 256l42.8 0c26.5 0 48-21.5 48-48l0-128c0-26.5-21.5-48-48-48L112 32zm328 0c-13.3 0-24 10.7-24 24l0 16c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-16c0-13.3-10.7-24-24-24L440 32zM416 216l0 16c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-16c0-13.3-10.7-24-24-24l-112 0c-13.3 0-24 10.7-24 24zm24 200c-13.3 0-24 10.7-24 24l0 16c0 13.3 10.7 24 24 24l112 0c13.3 0 24-10.7 24-24l0-16c0-13.3-10.7-24-24-24l-112 0zM416 144c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0c-8.8 0-16 7.2-16 16zm16 144c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0zm-16 80c0 8.8 7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const ScannerGun = createIcon("scanner-gun", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABkAAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCTAsGAAE2AiQDCAQgBYMtBzIbTgXIjpQuZyTx8I9dX/dV1QdcA0gLpZBSKJpo10HEPpsK6XSF4E9c8/zTnv48jR4lGis2mpUldnACDng2TxpYpA1nE8UNzptwiBkM6VvI4vv0ASUkzybf4mHrQ+NXHR4gUZECiHoAzNuyYZXbhShEfFP8kPjGCgTEPJALpEjRLcBMqUC3TI5MJihEscj+A3MCiFLO/ScgQwUewqOADCTKsmxwfWN9TXVNVUlNtrmqpHLHB0Mj3ul+cdi7kzbGMx3PDloWbw55u2tLVMXbbU93RTzX+tTgypo32sWzg+oC49jyRoFo0dVpk/S3P9kCi59ue6q1Mp5o3uSpxbaNjWft/179e7/79vC3zrz815/cqSvduWP4khsenTe/Yo+KgQMfufi5Ecb+8F16j/S7H8beXrqupV7LurNiou3j+vr6Fmpi2xf92XW1hXsUakO37uGUh2N1a5pPBwLBksLS0j11M/8vr0rAL5/92TyqeKf4UzI3eQ/lEhCkI4sj7bS4HpSJYmsScVl/+EWBxF3KOO9a7SkBQiUCJEpVCpDqUi9AptIIAUr0miRAqUobpCKrEJrtyplEtXNMarJbTKbZ+0yJmb5IlmqO9HaUbibpZzB9cRlYtCofN3psPj3vLEnlO0zQozPy0cbQy7xlGNzosDNOu+iQg465WMLPW5W55JTFfdgiP5QbZ7SxctPls6vX9c0l4rwLjrmnzZ9mhnz9+FCX+7sPg3bCYR1vTSIhkqoLBz765PlRRy6dBgA=");
 
 export default ScannerGun;

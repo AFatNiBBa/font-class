@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-rss` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-rss?s=thin square-rss}
  * @preview ![square-rss](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-rss.svg)
  */
-const SquareRss: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 48c26.5 0 48 21.5 48 48l0 320c0 26.5-21.5 48-48 48L64 464c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48l320 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm48 304a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 80a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM72 96c-4.4 0-8 3.6-8 8s3.6 8 8 8c163.5 0 296 132.5 296 296c0 4.4 3.6 8 8 8s8-3.6 8-8C384 235.7 244.3 96 72 96zm0 96c-4.4 0-8 3.6-8 8s3.6 8 8 8c110.5 0 200 89.5 200 200c0 4.4 3.6 8 8 8s8-3.6 8-8c0-119.3-96.7-216-216-216z" />
-    </Icon>
-);
+const SquareRss = createIcon("square-rss", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABlQAAAKHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCTwsGAAE2AiQDCAQgBYMtBzEbUAVRlO5BieyrApvIpgcrOBqnxQYVcmdh3e5tN0wtXxIGMZLlH46T4msE1bL1zC0hBc8rkiJbZBQGYUKWCIPLwiEkivKP8FdYjDi/Z27/ZhHoeo/klreGWnNpYplWCIXm9jDOvzdAEUoLRW6AQl1dgj7k1IS0rH3X3260VQK7M8/U5ytKTZqoQ05Ab01c8/zPnwqkgmAondpYEecTmOg0yip8NrAXxambUgsRFKQeIjLKnEVkx7ce3zZQ4hPnZPJdeMVz+dH4N+NGqioAMQwA9s+KaTxrqiPaDaLtEATEAYBlhAoV5hHYIgrMkyyDogjqaBr8BzIQQHSSkyco6MYT3gEFpM5SNg2iFKtJyBazculTgv4NE+0kBu277SKiW78rTDoKe13cuh5E95FBB/OhiuluP2UmHa7HJirO9q1wglVNYcUhVtO4Mx7JYbuO++mglrbdDv+VK22H98J/xYCJM/+FwwrfFeOjfXy0e684rp0V8Cb6wPxd+fegNMjxSs8J5IpRwQidS4Mm5DidkjFgrGs1SE2c37/RJfQ2OJxGCn5rwGYLWP1IcRoNBTlH2B6J2MOOHBrLhAwNRpiZP43Kr/8mAQBAAIKXu4nX9a7P08YS/H23fnRT009+gW4JgqrVtNCKJ7AwgEDGLWyGyALpkQLyrf1eBAi9CJA69QpQmWNAoOi1gkCHRREEOvU6IorSI4xrX1jqd4FVNu2xYtwD67DlFeg0HqI/Kr1J+TuYTtOAuogDXj8neVkzVC4mz7Mp3rbZd7HHQUvRMzez0dUxtFHQSjq8NaVZoEpELMDLjyXxcfO7tYIDK2vDZ835PCn8vstuZw93kFMgEleVpCSy95v2e1brNQAAAA==");
 
 export default SquareRss;

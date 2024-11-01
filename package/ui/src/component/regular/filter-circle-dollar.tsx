@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `filter-circle-dollar` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filter-circle-dollar?s=regular filter-circle-dollar}
  * @preview ![filter-circle-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/filter-circle-dollar.svg)
  */
-const FilterCircleDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 41.7C0 18.7 18.7 0 41.7 0L469.9 0C493.2 0 512 18.8 512 42.1c0 8.9-2.8 17.6-8.1 24.8L411.6 193.2c-30.9 3.6-59.3 15.1-83.2 32.5L458.3 48 55 48 218.6 248.8c3.5 4.3 5.4 9.6 5.4 15.2l0 68.4L256.3 358c-.2 3.3-.3 6.6-.3 10c0 20.8 3.6 40.7 10.2 59.2l-75.1-59.6c-9.6-7.6-15.1-19.1-15.1-31.3l0-63.7L9.4 68C3.3 60.6 0 51.3 0 41.7zM288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm120.8-32.6c.6-.9 1.8-2.1 4.2-3.4c5.1-2.7 12.5-4.1 18.7-4c8.2 .1 17.1 1.8 26.4 4.1c8.6 2.1 17.3-3.1 19.4-11.7s-3.1-17.3-11.7-19.4c-5.6-1.4-11.6-2.7-17.9-3.7l0-9.4c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 9.5c-6.1 1.2-12.3 3.2-18 6.3c-11.8 6.3-23 18.4-21.8 37.2c1 16 11.7 25.3 21.6 30.7c8.8 4.7 19.7 7.8 28.6 10.3l1.8 .5c10.3 2.9 17.9 5.2 23.2 8.3c4.5 2.7 4.7 4.2 4.7 5.6c.1 2.4-.5 3.7-1 4.5c-.6 1-1.8 2.2-4 3.3c-4.7 2.5-11.8 3.8-18.5 3.6c-9.5-.3-18.5-3.1-29.9-6.8c-1.9-.6-3.8-1.2-5.8-1.8c-8.4-2.6-17.4 2.1-20 10.5s2.1 17.4 10.5 20c1.6 .5 3.3 1 5 1.6c0 0 0 0 0 0s0 0 0 0c7 2.3 15.1 4.8 23.7 6.6l0 11.4c0 8.8 7.2 16 16 16s16-7.2 16-16l0-10.8c6.2-1.1 12.5-3.1 18.3-6.2c12.1-6.5 22.3-18.7 21.7-36.9c-.5-16.2-10.3-26.3-20.5-32.3c-9.4-5.6-21.2-8.9-30.5-11.5l-.2 0c-10.4-2.9-18.3-5.2-23.9-8.2c-4.8-2.6-4.8-4-4.8-4.5c0 0 0 0 0-.1c-.1-1.9 .3-2.9 .8-3.6z" />
-    </Icon>
-);
+const FilterCircleDollar = createIcon("filter-circle-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABogAAALYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDDQsGAAE2AiQDCAQgBYMtBzsbmAXIrgd4Qz6qPyBCxaJGMFtD02jK7YkCg5bz2H8SPF9235/b3fNq94Er9H4JkehImNmPSGYkRMgkHv7/cPf95gIJ08Q2T8FAFuA8HiacT5AE4kDmdtxMz0i2NMVSuwiT64sgEI8KkMI84NaMSNHi5fk3BUp2f8MNAn2LJlgWzbi8eIltllrgf9Pfz/N/Hg3y+JfgR6lalM6iwToFdj7RWTTQhm3D2URx5raY4axrQ2SoHjIMcRjK8ztg5FmsIAdq3bgDltuHykeZFkLhaAAAJAoAADSezdOF1/E65PZf5La2QACkMQBLAA1oIIcAUI9GgBwGCwwGgdfyf/wHGgIA4kMfVwFgAAfYCQ4DAAOAQhtTPrtbOSHTueL49bwShYZkcbpsUjpy5HQhKJ3ChZSWYZPZGS9E5NRB28T+dzqw+J4sv5dNuT21TvgX9akK+6TLReEslK5k0rw0AWZNCsLZkrGuuJsakHFT5qasAer3ljhlTepicZ0XCnEoTGG6SGzPXl8i7HpspSqyK7rr897g8eKncTq+B5NxnXCvvj606Q5cb9C81MxP08nf0KZ9Sphtd1gUyW++u2A78RIl4glrS7oa3MRUK9j7g4+/U37mbYm8x+t6MvMWDqyR/vRx4t3EYKBgnQ9+9tv2ugvRFADA5ksSfn2MBph78RJJf3xZD6ABAAEE/rxu1WfV+woVAG9P3Zed/b9olHaBJBQAArrcf/RMjQBgCwDklUxWhHyRAIqNZNB3DeIRAAh+QABQ+PAjAGiyRQkABj9lCQAOeaoTAHz46UAjJhkhRa8OFEHGAU0Ns4AhxWHgUM/1nI+UyHTVk03/Wsy5HjqL3K9Qydax25pmZKBKZ+va43Bvcu0pLUs12BijTTTIQMNMdOR47YuTjNKCwc39kFVZBZVYddhw89Hp7PLjTTBsbcTnUZe9Hy9lMh9eWmIKlayiRKFAVEoe+/vPHl+/XAAA");
 
 export default FilterCircleDollar;

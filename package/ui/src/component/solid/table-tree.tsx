@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-tree` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-tree?s=solid table-tree}
  * @preview ![table-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/table-tree.svg)
  */
-const TableTree: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM448 160l0 256L64 416l0-256 32 0 0 64 0 96c0 26.5 21.5 48 48 48l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0c-8.8 0-16-7.2-16-16l0-50.7c5 1.8 10.4 2.7 16 2.7l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16-7.2-16-16l0-64 320 0zM224 240l0 32c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-160 0c-8.8 0-16 7.2-16 16zm80 80c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-96 0z" />
-    </Icon>
-);
+const TableTree = createIcon("table-tree", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABfgAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCGwsGAAE2AiQDCAQgBYMtBzEbHAXIjtRG94xdIqi39drzdu/qa+8LeQXAkIvNGCozZ+YgE6emyPFlSC3+/1yT793zo/ZvdCgVVum3SO1+PoGJztNGMrCZNjjPb+c7ioF0KcnwCOkyjPeH6R8hj2+z2yqkN9MfuJPvNP7S0W2SJhmAaAGAGetWLfHTi3gR8Xs94neLEBAzQCmQIUMXASbLBLrIlcjlghdRr/v/wJIAoop/SQI5qjiB84AcJHmedxrSqkWt0jRfW6sUmz7pH/FFhxRvDviyT9P4fNDXnbN4a+BXfRt3pCw1Rha1EOLNto/61OL19q+1K+K1dhGPalDfdLXwqO1oRYTgYZs1ZVvYK3p+1eKrf/yx9w/T3v+gJS2L6YqWLT+4DlSfXbuGiaJUtV3255PhlXnRrNmLwignG0oQqGq66c+XlcxZ5AOn1Jxly5K3Hd0OAsGSJ08eb2s++f+GWgKvvvlv5llUf5Gkr9AggSAbXB9scwKJAACkOKtngkByQI7TRq9JS6HAQVJVQKazFpArDIKKbsYcUVVYJRN5E6GNLQwkjU5AZqwrkGvjMVRM9nO+qk1kWifpjPTTlz4X0Tn7yhFDh5cTy21XlxVJiNuTymuz/9kwNYAO2uuYo07bY7cDTgN+0pLSGUfMPWFzPFBphKGGK01UigfP+lrIn3TKgbUq32WS8n3a39nz4gHkJMw6UkOSiFQopDHkgwQAAA==");
 
 export default TableTree;

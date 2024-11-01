@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lambda` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lambda?s=solid lambda}
  * @preview ![lambda](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/lambda.svg)
  */
-const Lambda: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l108.2 0 16.4 32.7L18.8 434.9c-7.3 16.1-.1 35.1 16 42.3s35.1 .1 42.3-16L193.5 202.6l121 242c10.8 21.7 33 35.4 57.2 35.4l44.2 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-44.2 0L197.5 67.4C186.6 45.7 164.5 32 140.2 32L32 32z" />
-    </Icon>
-);
+const Lambda = createIcon("lambda", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABWgAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBJwsGAAE2AiQDCAQgBYMtBy0bpATIjsQ4hvKhaGXGwz9rvt03M8lpkzJMq4BZMaFHWhW3aMQ/a4ld0vu8/4+bf955FOAjSWls7DyQsTSa8zyBALMubYMVSBZYpl/A/tuWEDai8DREJFAiup1wvFbI4kF6UoHkXvIDrvSXxk9aOkmidgogGgBg9JwZ01Vqoibi++oH4ntTERCjQS6QIkUbAYZJBdrI5MhkgpqoVvE/MCeAKKKbE5AhxSCMAmQgEVnWq1yom80uF0oLzjeJuOlo01vlcnSPuUIgAYPN7zRfELPiRf9yXEgn41iz26VSzI+XA0odnzZ4+kuHH1b/oP2Temc5W28QOH8jzvW2YOrUD+/fvV+wM+z9Q8Ol3RgUEHzZi4U6LN0IBIK/bteS+sP+qVVOwI9f/fY//BVVRSV5iloSEKTdqt0sjApERQAAktitY1QQSPSSoKfWcVuAUEKARFFJgFRrDQTIlHQVoKCd/gIUlcyQiqy20MQigUQd2yA1wCHINPEOCob5WilqEmnsMC/PfN0SJ2hkfF/eu0evfEhuupgNB6q2h+bLUqfdJdUZJq22xWY7rbLSOjsVtt10fZdNJnjoeB/K9dZDL7kh8u3geXy2VbbbYZ0tNrcuQ+Xn5U52+8Wdgbsgfh87JJLsSIobl21avnIZAAAA");
 
 export default Lambda;

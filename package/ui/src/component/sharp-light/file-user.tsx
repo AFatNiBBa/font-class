@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-user` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-user?s=sharp-light file-user}
  * @preview ![file-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-user.svg)
  */
-const FileUser: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 480l-48 0-32-96-160 0L80 480l-48 0L32 32l160 0 0 144 0 16 16 0 144 0 0 288zm-81.7 0l-156.5 0 21.3-64 113.9 0 21.3 64zM224 37.3L346.7 160 224 160l0-122.7zM232 0L32 0 0 0 0 32 0 480l0 32 32 0 320 0 32 0 0-32 0-328L232 0zM192 256a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 96a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const FileUser = createIcon("file-user", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcQAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCAAsGAAE2AiQDCAQgBYMtBzAbAAXIjsQ4JvGLKEzi4f/n/nOfm3xKhiEDgFwgkgOyZUVoxF9VLKtfhrzHT3/zzzuPAnxACYY2pi1aIMuiaM7zBBIbPi0O+8M+WKL41W2s/OEoCxaRI3hEDO2G6AJ5XIvh6khvp9/xYv3R+EdXj5HkGYBoA4A5m9at8HVzNEf8XvuU+N0yBMRcUAlkyNBDgOkygR5yFXK5oDlqNfkPrAgg6vHOCeRoxG4cB+Qgqc/zzk0Nbdu3LOta5hvLumJPURYbo4j1UUQWZQhRlqkoymJclDFm64aNG4qI3l4RaXFhy4gsNq5/tmPE6253eK14ptMbcafzm6XPhz0a+nDiJ4PvD3kwoe/DNg//8/vB3+3qPXr06N67fKRNjfa1j7ykjTYvVWvfI2qVs1aN+OrqsWuunf/55z8rX6tUuyuLvfnmoFqrp3iqlXnEuXv0yN69R47GeSAQfHf08za7Wk//v7FM4I+vWo+rfR2300M0SiDIhteG2x63AYMCaKS4qG/wsECyWT3gW1t4Q4BQIEBSrxAg010bAXKFYQLU6WWCAPUK62QibxI62DFA0sIZkJnoBsh18DGoM91PRr0OkSUamSbkNy9uoYcWDFVjRo6uplZLT6dyB7futGpbGHxRM0Mw66BTTjrvgP2OOO+Qs1bYF5ywMIIXeFBljJFGq0xVHYfP4xsdcNY5R5xysvSZprqvD3YxLh8COSHmWK4kEanpTfMj8hM=");
 
 export default FileUser;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-mask` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-mask?s=sharp-solid head-side-mask}
  * @preview ![head-side-mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/head-side-mask.svg)
  */
-const HeadSideMask: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 224.3c0-22.7 3.4-44.7 9.7-65.3L256 301.9 256 512l-128 0-32 0 0-32 0-98.8C55 339.3 32 283 32 224.3zM268.8 272L53.5 128.4C89.4 52.5 166.8 0 256.3 0L288 0C390.1 0 473.6 79.7 479.7 180.3L537 252l7 8.8 0 11.2-272 0-3.2 0zM304 304l240 0s0 0 0 0l-19.7 64L368 368l-16 0 0 32 16 0 146.5 0-9.8 32L368 432l-16 0 0 32 16 0 126.8 0L480 512l-192 0 0-208 16 0s0 0 0 0zm80-80a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const HeadSideMask = createIcon("head-side-mask", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABcQAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCCgsGAAE2AiQDCAQgBYMtBzUbDwXIhocnu+87t7pH3d+oT3KNDEZqRJMthFTM9k1cTn8se3rAscgebUxboyxaINGc5wkEmC0ay9M4K8sSxayd/Q9vEM4kSeKTDNsPq8UFyviquFwT6Z70Nm6Kbxo/6etykrYCQHQBwJJd2zZo/z6+j3ir8QLxlnUIiCUgCxQoMECA+QqBAUoZpVLwfTQa8h+YCSCa4WMSKNGM43AOoARJWZZdew7vXjd1LHfWTdWuS/rvCFFVERGPDnoyduzcsfO5Te/tquOTLR/s2BE9Q3QYU1f1JXFJTI6qEnXdh4EBRIQT82TXdb0TcNdDe91ZXdvjdhf3vKMe+miXR38Z8vbxbxv83dAHP7nRhy7O2TF++69lws+TPr0pH/rw1qXLZBtiy9Lm9bNXOVGtS+N37INF7u+SdbntIdcUzkW/aff+erBpU6erubqTNIgUiLv+7/z1GYc6z/+ntU7gx1d/+4WflxvtKadH0SqBoBjfGG9/WizLKQsAQIrzDVW+KJAcUMKrdnCnAKFCgKRZJUChvy4ClCrjBGgyyAwBmlW2KUTZJvRwoNFJB2fRhZkuoEs9PEc3me+1crMeUVibZivaWy97ZQ+vWJWnTJyc5+ZlQ9UNSPGL8/K2O/p8NzCGdjreGU53ruMc6yTndtTZNtTOc5qVGrnCD2VTTDRZNlc+bj9u3uk4ZzvHSc5welhmnny/ONr5+vgxFCSQnaouSUTqZJKlCeecdOwnj945pwAAAAA=");
 
 export default HeadSideMask;

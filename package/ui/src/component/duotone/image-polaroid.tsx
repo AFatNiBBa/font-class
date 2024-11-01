@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `image-polaroid` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image-polaroid?s=duotone image-polaroid}
  * @preview ![image-polaroid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/image-polaroid.svg)
  */
-const ImagePolaroid: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm64 32c0-17.7 14.3-32 32-32l256 0c17.7 0 32 14.3 32 32l0 192c0 17.7-14.3 32-32 32L96 352c-17.7 0-32-14.3-32-32l0-192z" />
-        <path d="M64 128c0-17.7 14.3-32 32-32l256 0c17.7 0 32 14.3 32 32l0 192c0 17.7-14.3 32-32 32L96 352c-17.7 0-32-14.3-32-32l0-192zm184 32c-5.3 0-10.2 2.6-13.2 6.9l-52.4 76.3-9.6-12.8c-3-4-7.8-6.4-12.8-6.4s-9.8 2.4-12.8 6.4l-48 64c-3.6 4.8-4.2 11.3-1.5 16.8s8.3 8.8 14.3 8.8l48 0 48 0 40 0 88 0c5.9 0 11.4-3.3 14.2-8.6s2.4-11.6-1-16.5l-88-128c-3-4.3-7.9-6.9-13.2-6.9zM128 192a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const ImagePolaroid = createIcon("image-polaroid", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABlwAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCRgsIAAE2AiQDCgQgBYMtB1gbcAXIhof/1vy6r6qTye8MQw8RKeRFVkis4haNyFlLZHv+r6kXz68Bv9EhRWIlyN0KsIMnMPC1JZZQgw50gjOw7S0yUY80I0kmp0M9Xuvx7AhFvJlv0yA9nX7Cg/g/gPGLEW4j6ckAoj8A1h/Ys1unG90UP9WfET/ZhYDYACqBjIzRAqySBUYrVCgUgm6qa7pR1xUBRBO+UwZN9MJtuB9QgCRLRTFy1KCRI9uNPsX+dqM8cvOwiCfbfeLeIY8TNw1+rOwd9wx9ImLfPYP3xtB4orxn8Lp4bMjj7Xb73mFPDt0fT5R7710I4uahHeIxN32znHJ6evrbk/vEmzPfHZXjmRnvTOkdr017a/j241tOeKf/O7+N/+ncn6xd2/cu7upL37sC3FH45C/HtbYs2uk+m1utzbWty5aV8z7q2bZ064EbbWldN26J04r3nFxHheWAAS+t85KDyiLurr5xPRAI/n/2ySUn+q36r9VO4Odv/vgn/pDU3eikd9CSQJBn1bMcjQ5ERwAAUlxrQnSsQyDbJqNb7e0JAUKJAElTKUA2Sn8BCqWZAjSMtViAptIeWRQ9wmDHGCS9XQGyJa4HhcE+BQ2rfJs0DY4sjKIoiV/BtC05unlaNX/OvGpF1S1KknzxdnhlNa1Pu9Y0TYeNznWZS13tHGdd4OqMudLu7DUusWWEbfZBlfnmmKeyQrVdudT2q+RKV7mgrexPslJ1Pp7m2nHn6WAlxLrAjCwTKfLQt7tg9uWXXXzqyssuODtbsMcMv6CmPGI=");
 
 export default ImagePolaroid;

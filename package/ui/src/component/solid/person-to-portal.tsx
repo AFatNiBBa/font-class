@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-to-portal` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-to-portal?s=solid person-to-portal}
  * @preview ![person-to-portal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-to-portal.svg)
  */
-const PersonToPortal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM163.2 160c-14.1 0-27.5 5.6-37.5 15.5l-23.1 23.1c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l23.1-23.1C102.4 108.3 132.2 96 163.2 96c11.7 0 23.3 1.7 34.4 5.2l48.7 15c36.4 11.2 65.9 38 80.5 73.1l6.3 15c3.6 8.7 10.9 15.2 19.6 18.1C357.8 96.9 391.4 0 432 0c44.2 0 80 114.6 80 256s-35.8 256-80 256c-40.9 0-74.6-98-79.4-224.5c-34.6-3.6-64.9-25.9-78.5-58.5l-5.1-12.3L238 299l56.7 35.4c18.1 11.3 26.6 33.3 20.7 53.9L286.8 488.8c-4.9 17-22.6 26.8-39.6 22s-26.8-22.6-22-39.6l25.4-88.8-86.2-53.9c-25.1-15.7-36.1-46.5-26.8-74.5l31.2-93.7c-1.9-.2-3.7-.3-5.6-.3zM109.5 310.7c7.4 18.1 20.4 33.9 37.9 44.9l9.5 6-11.5 25.9c-7.7 17.3-24.9 28.5-43.9 28.5L32 416c-17.7 0-32-14.3-32-32s14.3-32 32-32l59.2 0 18.3-41.3z" />
-    </Icon>
-);
+const PersonToPortal = createIcon("person-to-portal", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABiwAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCOAsGAAE2AiQDCAQgBYMtBzcbPwXIjsK25RMjMGYqvnASwRUP3+9HO/e+91fMqiiQPEQ8akgQCUl9uodG2ookhlB2qCZJ/ef3V+fOnwX8FmIT3YgEOEKIquvGtvN/zef3/OgAv9GhRFvqWTRY9fr5BAYY7Qk8jwKb6QRsu9Om5jCLU5KQcHxznPZQY5drQkM+5N2B6/Kh8YGKJkjtBQDRBwAOHA8PxNEzbUfc/l8n3vAHAXEAwBxCQcEUArtxAlP45kBVBdv0/z/9BzIIIFoQny9BRYPz4CqAClKpfIlgRbFGgh8lJiCaPacypDyoN686rDZiGNEhb0R3RDsU+6leyZS2HDv17enVugLdVXiyXTVcj3yIvI+4t5u3WYmaN5hXVaQjFNgX+uSt1Svfq9ifHKVoiqJDGC7vEI0YMlagsXigJxrn9h0QEyPLhWXp5S/tu6w7SG1Nfm5ufk7ytIIJxZ8sDEpIDLbTee1ZYF9l6z8NlUlIfMedSEx8kVX0VvBGgQLA8qVlX5ISuZTpYI9Ff2geRANeJiUGq2XA7dH6yWlcvJlKDKJ2wvRMeqZmIrhid2+5qw8v8PrZE5IX2iRxiSsjgDCnbf7+e5ss5fZLWIwHeL/z849/Rf8PEvkctEkQlKX/ZhISkAQAIKMKOgmBdA5HrrXLPQQIHQiQWnQIUEySRqDqsIhAY4Y9Ai06HMaJKoIwJLGA1OUsKHapBtWQVdDY7dJpMRRFCSkVor6A8V415DmJWVtYMRc2TGRarwg/6sqWRaMq1zCGnchSrEiFTBlyVVRImUC/UiGvGezpixhrFqwwLth2frs5SqYy5XIVKwrjuGL3VSNV8+7GoPBE1A2BlERK66xmXlFs/ugBAA==");
 
 export default PersonToPortal;

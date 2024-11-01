@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-right-from-arc` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-from-arc?s=sharp-duotone-solid arrow-right-from-arc}
  * @preview ![arrow-right-from-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-right-from-arc.svg)
  */
-const ArrowRightFromArc: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256C0 397.4 114.6 512 256 512l32 0 0-64-32 0C150 448 64 362 64 256S150 64 256 64l32 0 0-64L256 0C114.6 0 0 114.6 0 256z" />
-        <path d="M352 98.7l22.6 22.6 112 112L509.3 256l-22.6 22.6-112 112L352 413.3 306.7 368l22.6-22.6L386.7 288 192 288l-32 0 0-64 32 0 194.7 0-57.4-57.4L306.7 144 352 98.7z" />
-    </Icon>
-);
+const ArrowRightFromArc = createIcon("arrow-right-from-arc", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBWQsIAAE2AiQDCgQgBYMtB2QbDwXIHgPuzFgWkYU4EUWOq0ecsKvTxPP0+/1v7XPOd0c0QdIk7iExhGjdpFEy9VdKeEP0RGSuPb+5OyCxI/FF5tLdyK62S6HZbOlXDV17fm73MM3iyUMVsU9U2/BMabQ4ullLjJ0Wb7xCB+Ad2xovyAKfM16BxtcCaX380i30pm9gb+3sSQZ5Vun7ekmGicuwWKDlWV/oo3wuZ/CS/wcwPxl8KIYqADIJAA7dqOYh9NIrOXc/8k0OBHIYwAZERcUaBHvpgjUMG0DThF7pOuil6wQCpB+8cQX9aDgL7gBooIg0iW2rJdVKGLeqhlEcXSiKKzV/xkC8qdJUEanVFcYJ5nOIeDpHvFxTk0hF38tP9qu+GuKe3mfPIaHmVJPq98bz4Izm3X6/z3FgGO4x+s6Yo9UNIdhXj647EyQXgaXXPD3Bbs/ukMuFHHMICBHqhpPDa0OACSAIx8+fU039+p/CEgG+f/37Q/kddQL/F4VBBYS6vfO5FqDmjwCAkh2cBb4gqLbS1E8d9UFADCOg6DcsoFrhI2iGbUPQZ50OQb9hV4ilKRGzbh0Uo56Aao83aGZ9QZ+9/mK/2YhRRWCC+NTFJiQUz7NXeSlLMVWNBAqW0iuZ5sM5uiJaiQHOwkZfz9gGZyUvlK25xAiO+yK7Sq4klmTZWM8zfStrY5xFzrIi+4XQPA6OqBgRYMd5DFdSSGx+tFpx+1fJ+TGo+F+rrh+kwVaDvpQA");
 
 export default ArrowRightFromArc;

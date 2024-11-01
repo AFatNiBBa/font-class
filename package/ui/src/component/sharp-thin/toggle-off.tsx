@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toggle-off` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toggle-off?s=sharp-thin toggle-off}
  * @preview ![toggle-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/toggle-off.svg)
  */
-const ToggleOff: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M560 112l0 288L16 400l0-288 544 0zm16-16l-16 0L16 96 0 96l0 16L0 400l0 16 16 0 544 0 16 0 0-16 0-288 0-16zM240 176l0 160L80 336l0-160 160 0zm16-16l-16 0L80 160l-16 0 0 16 0 160 0 16 16 0 160 0 16 0 0-16 0-160 0-16z" />
-    </Icon>
-);
+const ToggleOff = createIcon("toggle-off", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABWgAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBLwsGAAE2AiQDCAQgBYMtBzEbsATIrgbsxjHjAkvrtYrgMfTqxHjWIyezafHwtd/v3N39Kg1NqslDEi2ZlGiW6CRKpxSGSiY/+9pPd+9+iFQm7k0UMJRAAYGrqxLRsRUmriRkm/krZH0H6IL/awiW7nZV+z7/l9Mbz48O8PuJH9IYoz3BxhicQKBhHm6BLMwCSow72/ZqDRGp7ELjDCX+nTCR3hXwHN40/gR8AEnOAIghALh43FjCPAr+KhDfFkBAXABYRGRkzCI4pgVmGRZBUQQ/vPgPFCCAqCM9KoGCOo7BBYACklIMm4+XOiaXsa2fYn9WWrmp6fG3HW5EIqLjITV5AGoH6RiE7AjIAfF48JPZc0byUqgESqzwtrwQXmUnC1+uTJOEUP3QHJmqX/RngECw9FF5av/NjgL8+uiCdK5mgKYEgrxRiZ3UijvB92fjDUH8QYHkgCG9atcLCEIbAZK6tgDZDC+Com0dQc28PIK6tltaFBvC1G4Fkq4nkB15B8XUJ6g59lWpm4aGH/brs79vSYMm2j8k6URKKjLaUXAgQdvNqiy2Qm9yIoxP4sy9Oy9Onbj00sCfLNVf3RpMYX1fJNISUkSFbO7flbZp5cmzy2F2O2SfKjk+HvI2PT+MXSWR7mlIEpHssJiJ35+dAQAAAA==");
 
 export default ToggleOff;

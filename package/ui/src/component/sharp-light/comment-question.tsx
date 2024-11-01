@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-question` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-question?s=sharp-light comment-question}
  * @preview ![comment-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/comment-question.svg)
  */
-const CommentQuestion: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M86.9 382l7.2-19.3L79.6 348.2C49.1 317.6 32 279.9 32 240c0-91.3 93.8-176 224-176s224 84.7 224 176s-93.8 176-224 176c-28.4 0-55.5-4.2-80.3-11.7l-9.2-2.8-9.3 2.8L68.6 430.8 86.9 382zM16 480l38.5-11.6 111.9-33.6c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L30.1 442.4 16 480zM168 168l0 8 32 0 0-8c0-13.3 10.7-24 24-24l56 0c17.6 0 32 14.5 32 32.3c0 12.1-6.8 23.2-17.5 28.7l-45.8 23.4-8.7 4.5 0 9.8 0 13.5 0 16 32 0 0-16 0-3.7 37.1-18.9c21.5-11 34.9-33.2 34.9-57.2c0-35.2-28.5-64.3-64-64.3l-56 0c-30.9 0-56 25.1-56 56zm64 136l0 48 48 0 0-48-48 0z" />
-    </Icon>
-);
+const CommentQuestion = createIcon("comment-question", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABiAAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCQAsGAAE2AiQDCAQgBYMtBzcbRwXIhuB5u++rc7sHcH+Sa2SCokkXVsZUzt7fn3qe81AAn1HQ9tCALMC9ziMQwI9JWqz3Kl6wmhZAy1RzV5tYUrqfJAktefzm8fSAPF6I8cpI96QPcVN+0/hJl8tJ8gxANAJgya5tG7z6fXwf8WHpKeJD6xAQS0EhkCFDrwDzZQK9cgVyueD7KJXCf2BBAFEOPy6BHOW4ALcAcpDked43MLmqpqwu31lTVr2rp7OnPV4e+s22L3Z9teWzHV9u/nT7tTPbozW2x7Tts6bP2hVP1Xyz7oNFrwx7dOHLa9/f+eXqd+e/WHy1ZXv07hNqIuK+UTVxXdsd7m6dHa0hhKiJiIh58cLAvWMHR1bH4623d+7QHlQPHWwc/GXIh8d/aOeSo4T41q+1sfL1L46GN754vTKCHrfuErfY1a1x5ZFTgD69cP/kVa69r7+/qioa913LrCBi3fHdK31116xKvLpQqW3LbPVXX1OX/f+1y1Wr06jQKLNUc3l1U9PDs51Z+rVi0VWTIfHPg0BQ/8HdFxxqmP9PZU0CPz7/2x/Kt6j0fZIGUSmBIBtfGm9/AokAAKQ439AEgeQ8Ob5b604BQjUaJOWqIdOjEXLVxkGZfjMo5Z1tMpFXCa0OIEhqnQWZmS6AXKsnoMx873jlWiMzRMaMmG9g4soeW7FXTJk4uZhbLFOVtS0qrecVanP0+dIaQ6eOd4bTnes4xzrJuR1xtg3heU6zcoev8EGFKSaarDBXcVw8ijudd7ZznDTXnG+Zp7jvjnb+fngMOQlIp4okiUiNL1+bYK0A");
 
 export default CommentQuestion;

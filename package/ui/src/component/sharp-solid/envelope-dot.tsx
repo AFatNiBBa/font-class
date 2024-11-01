@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelope-dot` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-dot?s=sharp-solid envelope-dot}
  * @preview ![envelope-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/envelope-dot.svg)
  */
-const EnvelopeDot: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M496 0a80 80 0 1 1 0 160A80 80 0 1 1 496 0zM0 64l385.1 0c-.7 5.2-1.1 10.6-1.1 16c0 47 29 87.3 70 103.9L256 320 0 144 0 64zM274.1 346.4L498.7 192c4.5-.1 8.9-.5 13.3-1.1L512 448 0 448 0 182.8 237.9 346.4 256 358.8l18.1-12.5z" />
-    </Icon>
-);
+const EnvelopeDot = createIcon("envelope-dot", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXgAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBJwsGAAE2AiQDCAQgBYMtBzMbqgQR1ZoTyH4mGNtKWr9yClpinn2LEhtJn4mH59fRn/tmPqUMMbv9BqLBCg2qq7R5kjnwKgCMtumZLeGjY1bI0KyGxJquq1vjN350gAsid72Y/SAf+PuOJ9B4/nHjjadZYAkFnoBl3rKjRin9kkw0Sf7JHr92yONHtlUV0qn0HQfyTaNEC1tJamQAoj4AJsydOdnrv/E34lvxQHwzEQExAbQXyJChtQCjZQKt5dojlwv+RlH4fyAEEFWVYxPIUQVDMAGQgyTL8zr1GtSqUiefE06vufZBnxu9rw9+2Pdmv1vDltWpXeeocz2udJkVcyJWz501d0+zFHUji9nRJbp1vFr/alkHa6h49Xpzcze/hloxbmxXq5717FX6YYfi1rQGLf6ecm+ruixQQ9llrbUGAsG2GROGLK03urJ6rQT+P60oq99QmpiuoroEgqx30XtRGk9RmSYKAECKzTqm8QgkfWRw1dqOCxBqIkBSVU0BMq3UFyBXUy8BqmhriABV1TRTJvIaQmOLOyS1rYPMUFsg19g9qGK0T3ZVjSOzHe7lua9bsuASsTEc6w6Cqa/x5kBjn2JZ6X/ODbTaqJxeKewryH16X+QaZg/iWHcQbEeP85e8H5tTGkJx3up/vXqgKVpg4K1T3orUyfTLkItcRH4BAAA=");
 
 export default EnvelopeDot;

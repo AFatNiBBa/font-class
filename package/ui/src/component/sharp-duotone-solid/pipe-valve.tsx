@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pipe-valve` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-valve?s=sharp-duotone-solid pipe-valve}
  * @preview ![pipe-valve](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/pipe-valve.svg)
  */
-const PipeValve: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M64 192l0 256 384 0 0-256-160 0 0-76.8L256 112l-32 3.2 0 76.8L64 192zM224 64l0 12.8L256 80l32-3.2L288 64c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-        <path d="M96 128l160-16 160 16 0-64L256 80 96 64l0 64zM64 160L0 160l0 32L0 448l0 32 64 0 0-32 0-256 0-32zm448 32l0-32-64 0 0 32 0 256 0 32 64 0 0-32 0-256z" />
-    </Icon>
-);
+const PipeValve = createIcon("pipe-valve", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABdgAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBewsIAAE2AiQDCgQgBYMtB1AbHQXIhof/1j67r6r/BIA6wKgyKsDggEmPTRTuOlYr1D8riXT/z7l08Xw0z28jG1qU5UV5hUaEn8ABR1mUwpmkgZ21s+uHTwoGSUJIMmw+w+IKRfyUL6qRnqUfccf8D2D8qoeLJC0ygGgPgPmrljX6uh71FD9W74kfLUVALAClQEZGbwFmyQK9FUoUCkE9VRX1qKqSAKKBedkZNKAZ1mMvoABJloqiTYcOnTq2qrUpVraqtVy3avmqFRGxPFaGYS1btRQpRKuIyBFbQrSMOndVyqlNZI5HDIlBI2QVZXAMjSvPdX3c8nrnhwY0tW/6vf+PO3+0ae6bdj5gHiUqs5rnCkqU5oH/q34lZuZpj51b4SzeavSPfzR6++ZMG4g5r422V6+2tXwgHuvwfMrVTe1m/d+8VQI/f/jzF/F3VNWT1ITmEgjyqGqU9QkkAgCQ4qQBCeYJZGNlFG/tsSC+0BKQNGgJWS/todDSSKjpa7K4uHmZLIoWQmcbAElrRyCb4hQUOnsHNbN8E2/QObKYyUIi//IylpT44kXl+DHjyhnlsCopkiPq6ZnlsjXsJHcNx0E7HXLQcTtst8fxgjyqMXXCAUtmxGJPVBpvjHFKM5TbjVtjJcWPOmZPX9ufZ6byfGSYk/PBw+EmTnCCJVkmUuSOrz46+uSW/SeDIrDdnWvtbgIA");
 
 export default PipeValve;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-cells` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-cells?s=sharp-light diagram-cells}
  * @preview ![diagram-cells](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/diagram-cells.svg)
  */
-const DiagramCells: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 192L32 192 32 64l448 0 0 128zm32 32l0-32 0-128 0-32-32 0L32 32 0 32 0 64 0 192l0 32 32 0 448 0 32 0zm0 240l0-160 0-16-16 0L16 288 0 288l0 16L0 464l0 16 16 0 480 0 16 0 0-16zM32 448l0-128 448 0 0 128L32 448z" />
-    </Icon>
-);
+const DiagramCells = createIcon("diagram-cells", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABWgAAAHLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBMAsGAAE2AiQDCAQgBYMtBzQbtATIjsM4RjyyK0/R8fD8/v5b+9z74SHuTIKdYDW4ThMygObQVYX8ioV54prnf/70gEX+aNFUCVJAmavzCUyseL6JzJpnOgGbtbP7gSL6TeJTnmRYpAyTM+TxNCgjnUlxIt5pfNXaUZI8AxCNADB23qyZXn2KTxEfSveJD6YjIMaBQiBDhnYCjJAJtJMrkMsFn6JUMv+BBQFEOb5yAjnKMQLjADlI8jyvaty4qqasLp/rTlSvqq2rjagLXUPgo+paIUTNilD7dbEyDB2K2s5XGl353unD2j6WXhH2oFcOlorYQYXiUyGZH39eRqyRRr8auQzmx4aDkF8ZvRwEguOHb1xc1jDif2VNAl+e/PyNfkWlT0m6gkoJBFmPEosTSAQAIMVenRMEkgFydKu1TgoQqhEgKVctQKatRgLkqnUXoEwHAwUoV22WTORVQjNLCpzU2gFnBtkH55q5C5cZ4bVfrllkF4g6fur7Fj9JAhN3FX179SmGFd1Cpu8E4TeHF9NSl7120BVHrbXNVrutsdoGuwW008xojy0maeBEX1Toq5c+CsMUy/Xt/rnW2GmXDbbZGrYZrtjvdbFXn+8KNWHcflJJIlLdYxd7vjsAAAA=");
 
 export default DiagramCells;

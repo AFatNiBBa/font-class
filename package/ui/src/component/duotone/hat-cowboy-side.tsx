@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-cowboy-side` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-cowboy-side?s=duotone hat-cowboy-side}
  * @preview ![hat-cowboy-side](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hat-cowboy-side.svg)
  */
-const HatCowboySide: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 363.2c0 33.4 14 63.5 36.5 84.8l80.3 0C70 448 32 410 32 363.2c0-15.4 3.6-30.6 10.5-44.4l9.2-18.4C75.1 253.6 123 224 175.4 224c28.4 0 56.1 8.7 79.3 25L522.4 436.4C533.2 444 546 448 559.1 448l.9 0c2.5 0 5-.1 7.5-.3c40.7-3.8 72.5-38 72.5-79.7l0-8.1c0-12.7-2.7-25.2-7.8-36.8c-18.1-40.8-54-71-97.4-81.8l-32.1-8c1 5.1 1.9 10.1 2.9 15.2l3.7 19.5 17.7 4.4c33.8 8.4 61.7 32 75.9 63.8c3.3 7.5 5.1 15.6 5.1 23.8l0 8.1c0 26.5-21.5 48-48 48l-.9 0c-6.6 0-13-2-18.3-5.8L273 222.8c-28.6-20-62.7-30.8-97.7-30.8c-11.4 0-22.5 1.1-33.4 3.3C91 205.5 46.8 238.6 23 286.1l-9.2 18.4C4.7 322.7 0 342.8 0 363.2z" />
-        <path d="M141.9 195.3l10.8-59.4c4.4-24.4 22.5-44 46.5-50.4L391.9 34.2c5.4-1.4 10.9-2.2 16.5-2.2l2.7 0c30.7 0 57.1 21.8 62.8 51.9l28.7 149.3 2.9 15.2 3.7 19.5 17.7 4.4c33.8 8.4 61.7 32 75.9 63.8c3.3 7.5 5.1 15.6 5.1 23.8l0 8.1c0 26.5-21.5 48-48 48l-.9 0c-6.6 0-13-2-18.3-5.8L273 222.8c-28.6-20-62.7-30.8-97.7-30.8c-11.4 0-22.5 1.1-33.4 3.3zM116.8 448C70 448 32 410 32 363.2c0-15.4 3.6-30.6 10.5-44.4l9.2-18.4C75.1 253.6 123 224 175.4 224c28.4 0 56.1 8.7 79.3 25L522.4 436.4C533.2 444 546 448 559.1 448L544 448l-427.2 0zM560 448c2.5 0 5-.1 7.5-.3l.5 .3-8 0z" />
-    </Icon>
-);
+const HatCowboySide = createIcon("hat-cowboy-side", true, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABqgAAAKJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDBgsIAAE2AiQDCgQgBYMtB1obsgXIhof/z+v7fe5N1apOnpFuf0AY0RpMYE9c8/y/vUDKHvSxUHoRcR4FmHk+gQ14NI0iaNBNZGK8t2ki2FGEX0REmETUjkePcwco0ux8qgbp0vQGzi5PHF8bdirJlAwgugCw0habrOeZD+KDFG/8/wDxhnURECuDWiAjY0yAZWWBMYUahULwQfr/fz4I+vOrCSCaMJ75m/hW1+NuQAGSLIpi3oFyg6rRXmxeNcotptfTr15ii7i4quL0mTcObxb9MRwz48WFLiQu6btgRhmnDewcj5Wn9W360NwRt02cNDoady9ze3X6UjvFjVVZnV5FhLoyrl2uCr0loVVoQN88z+2jqZNGLsvrF58VJ/Zf2P9CVD7RA3NumXcoLjHttq7bvp36xu5vOPOf22677fBtnlnYQa1sqKN99bELzG+6XuvvuHZ7S37znQVDeVj1mKcW7/5p6J8Fj+CIPHjDyXryL3PmXbJ8TNXX2ZUSKdGyWV5wQxutEQ28lD5ebLHOzb0HvXfqqa3fFTnnad/g67RJ3+37nT0+/6z3ZG9NAoFgwf0f+WSHzmV/bVUJfPTY9z/XK9OJ6Ta0JBDkef+f17bpRCBhAIUUh5smfVGNQLaBjG+1zUUChBIBkqZSgGxUlwCF0jwCNExYTICm0iayKKYIfbbrTNLmICZb3HFMoc/9TMOyXi429UU2VsvUrF/F3KuPwGqr6oXmX7Beul42NNv+jLS4TL0dnnN4HJgLttrdAfZ3qN3sai+HDsTB1qscZj+ra6LVPqi2kPktqLa0+rj97N4ciwc7xF6y83yZZdT383Mcro+fC2IJqy5stywTKfLgnjsdOt8uBxyx8wFHzefS/vkcf+Sw5PRyAA==");
 
 export default HatCowboySide;

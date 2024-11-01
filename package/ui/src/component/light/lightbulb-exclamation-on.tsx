@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-exclamation-on` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-exclamation-on?s=light lightbulb-exclamation-on}
  * @preview ![lightbulb-exclamation-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/lightbulb-exclamation-on.svg)
  */
-const LightbulbExclamationOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M55.2 1.7l64 32c7.9 4 11.1 13.6 7.2 21.5s-13.6 11.1-21.5 7.2l-64-32c-7.9-4-11.1-13.6-7.2-21.5s13.6-11.1 21.5-7.2zm544 28.6l-64 32c-7.9 4-17.5 .7-21.5-7.2s-.7-17.5 7.2-21.5l64-32c7.9-4 17.5-.7 21.5 7.2s.7 17.5-7.2 21.5zM16 160l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm544 0l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zM119.2 318.3l-64 32c-7.9 4-17.5 .7-21.5-7.2s-.7-17.5 7.2-21.5l64-32c7.9-4 17.5-.7 21.5 7.2s.7 17.5-7.2 21.5zm416-28.6l64 32c7.9 4 11.1 13.6 7.2 21.5s-13.6 11.1-21.5 7.2l-64-32c-7.9-4-11.1-13.6-7.2-21.5s13.6-11.1 21.5-7.2zm-96.8-31.6C454.5 234.8 464 206.6 464 176c0-79.5-64.5-144-144-144s-144 64.5-144 144c0 30.6 9.5 58.8 25.7 82.1c4.1 5.9 8.8 12.3 13.6 19c0 0 0 0 0 0c12.7 17.5 27.1 37.2 38 57.1c8.9 16.2 13.7 33.3 16.2 49.9L237 384c-2.2-12-5.9-23.7-11.8-34.5c-9.9-18-22.2-34.9-34.5-51.8c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-5.2-7.1-10.4-14.2-15.4-21.4C155.6 247.9 144 213.3 144 176C144 78.8 222.8 0 320 0s176 78.8 176 176c0 37.3-11.6 71.9-31.4 100.3c-5 7.2-10.2 14.3-15.4 21.4c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c-12.3 16.8-24.6 33.7-34.5 51.8c-5.9 10.8-9.6 22.5-11.8 34.5l-32.4 0c2.5-16.6 7.3-33.7 16.2-49.9c10.9-20 25.3-39.7 38-57.1c4.9-6.7 9.5-13 13.6-19zM320 480c20.9 0 38.7-13.4 45.3-32l-90.5 0c6.6 18.6 24.4 32 45.3 32zm-80-53.3c0-5.9 4.8-10.7 10.7-10.7l138.7 0c5.9 0 10.7 4.8 10.7 10.7l0 5.3c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-5.3zM336 112l0 128c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16s16 7.2 16 16zM320 296a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const LightbulbExclamationOn = createIcon("lightbulb-exclamation-on", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAAB0wAAALsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQCEGAsGAAE2AiQDCAQgBYMtBz8bJwbIBp7nv9POfZkU4HRZwGsy6QLAFzz/c7nnZ+cL5NstwPNDmg2ci8fUMYb3POwl0kVrWBp41tYoMW9w3oRDDE0heQs0+SPRmEHNV5eAGdaVykf8GQsKzQQAgLgBAAAFDepU49gzeSZyydgNcokqgABIIQA6ApgAExCEAJCNCQGC0NABDQ2BZ2IY7D9QBwEAscFBFYs0wBl4C/yEehooHDXNxTm2ia2Hi72j2Vmr72h2aFKpciWL11yfymL1LfLuVrFKxZy0+laRzy1eXR0dHC3ec70cxOpT5OvKm1uOam6zgkb9raErco+UP5V9SF8cY5Fc71FiYX3EfP/gAp8FkaUC95usPluK3a1zs8HtWtfrLYue6zVSRgHtdX7z/BxkYeDGqClS5Ft3b6Byzk+pLy7vKBZvZFH4uuQ9kRtCpAnCXC+rj0iRr8W77mr/eSXWBCwsXWyD24bPYZfaXyL1sGEYZ5t2vW1wplnX26GBJnl6aLMzibe7Nj1bflS+k/LMxeVZPmGzXhret3jc8NLAVX7fMnS0S9DACcePTxgY5DI6pbyHByAZTufSwwib8SEcJ3Hw4Ad2UtmNi8Qo0ZR2DwYPEpyzhr8fGaYTfs45U+jUsN9jOdyYw1Ij2X7mZGbam5H67dzc6rUXc4vMkU6Ky7NnLiMJU1z31vL2rsWoACCH/fXzaNHCNfubnaMC4MWBr98wTzaOqZFqA2CHAkDAFG1E01SNBEBsAYCwkv4U67kjARRPccSJOmFF1vQ5QA4KGxzARCBuoOFAFJgJIUUaaawzihTNHp8XzRAonOgFJlIZBhpe7AQz2ZwN2eAlpo1e2WSVS86M5ctIuUl6Qmy8nql3FqTqdizpwSx9tCm8P2+IgHNpTw+605d2tKUTfUtYb6pF+9GN8n38crfVSSCWeHQy0WeXr8+uTzt604dO9KC7OUoW+vq+cPr3t4+AVoUjmEiaQoEov+NgvHW/rq1j/qdhadXtRHbH9OgOAAA=");
 
 export default LightbulbExclamationOn;

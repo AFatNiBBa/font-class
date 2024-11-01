@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-burst` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-burst?s=solid person-burst}
  * @preview ![person-burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-burst.svg)
  */
-const PersonBurst: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 96a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-8 384l0-128 16 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-223.1 28.6 47.5c9.1 15.1 28.8 20 43.9 10.9s20-28.8 10.9-43.9l-58.3-97c-17.4-28.9-48.6-46.6-82.3-46.6l-29.7 0c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97c-9.1 15.1-4.2 34.8 10.9 43.9s34.8 4.2 43.9-10.9L408 256.9 408 480c0 17.7 14.3 32 32 32s32-14.3 32-32zM190.9 18.1C188.4 12 182.6 8 176 8s-12.4 4-14.9 10.1l-29.4 74L55.6 68.9c-6.3-1.9-13.1 .2-17.2 5.3s-4.6 12.2-1.4 17.9l39.5 69.1L10.9 206.4c-5.4 3.7-8 10.3-6.5 16.7s6.7 11.2 13.1 12.2l78.7 12.2L90.6 327c-.5 6.5 3.1 12.7 9 15.5s12.9 1.8 17.8-2.6L176 286.1l58.6 53.9c4.8 4.4 11.9 5.5 17.8 2.6s9.5-9 9-15.5l-5.6-79.4 50.5-7.8 24.3-40.5-55.2-38L315 92.2c3.3-5.7 2.7-12.8-1.4-17.9s-10.9-7.2-17.2-5.3L220.3 92.1l-29.4-74z" />
-    </Icon>
-);
+const PersonBurst = createIcon("person-burst", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkAAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCVQsGAAE2AiQDCAQgBYMtBzMbWAXIhofn9f77tU/ylDtGxmY38ylURPcrsxLm/3J64/nRAX6jQxrbxqxta0zuJZDYvXBMinueHWaJYruzPSTJHi0hMYPj3PG5QB5/Z2eqIl2X3sEl5NL4QWtnktRlAKIRACatWDLPC5/GpxFv//8U8bY5CIhJoBTIkKGdAGNlAu3kSuRywafx///mP7AkgKiG7kkgRxXOww2AHCRZntcfP7xSVT9fXqkqdtzT9oY213e/s9W1ra/rtjJEJcSpza+qXNDymojoF1c1v6rlNS2vabE8ru9+d1HE+V3vbLU0rmw+mhwgjGy/uji/WWxYHlc3u7L5slhgKa/lklgUV92omBEDYn6siCJdLbyg8/2N7v+p0zvb3/HJhlu/fuaZr29NVs0pp2JNI6dqcO65Ddzxn3jPnsdfevruPn33jNrolbVrWnfQZs7aVyqnPX373P30S4/vec8n0ve0endUpTKq3SxzWrh9x8qZPaaa1NfZrXvdNq8iX6C48ozjd7nL8TOuLPL5WjrXMQvhmSt33B7JrZdBIHjy/Q8e2tBw7K+1lQQ+f/6XP+i59P8L6fR0P2olEGR9/+9rbTqVgf7bImAsxXGd4ZsEktNk4FPruVqAUCBAUq0QINNWIwFyhT4CVOlgmADVCktkIq8TmllXQFLPIZAZ7gTINfMEqDLW67FqzSJTSUahmB9h4vQWnbavHNR/YDm6nHZkVssovzmmFMs9j9uJXnDQdgfsd9Q2W+1ytMEPm5c8Zp/pHDbND5UG6W+g0mjlcf/eebltDjtilwP2h13GKN/7ezrOz+8FWoKEgzUkiUj1NDin3+Zjh48cBQAAAA==");
 
 export default PersonBurst;

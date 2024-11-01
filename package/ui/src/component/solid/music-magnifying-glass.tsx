@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `music-magnifying-glass` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-magnifying-glass?s=solid music-magnifying-glass}
  * @preview ![music-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/music-magnifying-glass.svg)
  */
-const MusicMagnifyingGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M544 208c0 45.9-14.9 88.3-40 122.7L630.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L458.7 376c-30.8 22.5-68.1 36.8-108.5 39.6c1.1-4.9 1.8-10.1 1.8-15.5c0-1.4 0-2.8-.1-4.2c.1-1.3 .1-2.5 .1-3.8l0-208c0-18-8.7-34.9-23.3-45.4s-33.4-13.4-50.5-7.7L129.8 180.4C143.3 78.6 230.5 0 336 0C450.9 0 544 93.1 544 208zM320 184c0-7.7-3.7-15-10-19.5s-14.3-5.7-21.6-3.3l-192 64C86.6 228.5 80 237.7 80 248l0 48 0 121.5c-5.1-1-10.5-1.5-16-1.5c-35.3 0-64 21.5-64 48s28.7 48 64 48s64-21.5 64-48l0-150.7 144-48 0 88.2c-5.1-1-10.5-1.5-16-1.5c-35.3 0-64 21.5-64 48s28.7 48 64 48s64-21.5 64-48c0-1.5-.1-3-.3-4.4c.2-1.2 .3-2.4 .3-3.6l0-160 0-48z" />
-    </Icon>
-);
+const MusicMagnifyingGlass = createIcon("music-magnifying-glass", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfAAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCCQsGAAE2AiQDCAQgBYMtBz0bFgXIjtRG94xdInjeDnLe3z3AeyBYwSmTLu7IkqxSMUNq8adOPY9tCoWfQxC0PTQgi0Kje51XoFeRXm1sWuC1Yq1iFdJerTv4IYe486H4AHn8nR1TgnQ7vYuL7pvGr+o4RlImAxCVATB45tTxXv8qvop45/+Id4xFQAwGhUCGDPUF6CcTqC9XIJcLvor//xf/gQUBREk+nBg5vXA5tgFykKQ8b9mjXIkK+Qy+XdmNnw6aHtcdqn6t7JmaM+LlYTfjsPrxEXfaPG42Lb6Y+snMzyZ/NH3G4Zo3qk+La7WFuFH2YbOHtW83f9T8Scsn9SJmdvn1G0eT5yo/97t3V7yr0Z+GLzuw3+kKFU7firK39h/wzae1Sif15A+Vm3TwydVOyo3ffHhSzIznnouZX9Yqf+PG868N9L1O9thc+m79BlnWoP7dbKmbLnY0u0dJhLqrk5sCQb9far2zsFK/v0qXS+CbF/8cufr/19Oh9BxKSyDI2v3fzrx0CAQ9gCjFDk0mPiiQzJfQVy3vhgChLAIkJZUVIFNPZQFyZbUVoISGugtQUllTZSIvI1Q3vwJJeZtBpof9IFfdC6CEft4IS6oeGbDxoMJf66WMaELDFxWdO3Qq+hSjNYUAP6w127dY7LTaIXta47VW2GiDbZZbZrVtDXKL8cl2642YIob7okJnHXRS6KPY3Ly7eobltthqtY02OPP0VRwftLJjenhr7Cc+YxeFJBGpJhBa7f+Xm1qxe/WGle1PMQ==");
 
 export default MusicMagnifyingGlass;

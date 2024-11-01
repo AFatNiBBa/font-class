@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-ninja` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-ninja?s=sharp-light user-ninja}
  * @preview ![user-ninja](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-ninja.svg)
  */
-const UserNinja: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 128a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0C352 57.3 294.7 0 224 0C169.6 0 123 34 104.5 81.9L59.3 36.7 48 25.4 25.4 48 36.7 59.3 89.4 112 36.7 164.7 25.4 176 48 198.6l11.3-11.3 38.4-38.4C107.7 209.7 160.4 256 224 256c70.7 0 128-57.3 128-128zM144 304l-8 0c0 0 0 0 0 0l-72 0L9.8 480 0 512l33.5 0L312 512c0 0 0 0 .1 0l102.5 0 33.5 0-9.8-32L384 304l-80 0-57.4 57.4L224 384l-22.6-22.6L144 304zM87.6 336l41.7 0 144 144-230 0L87.6 336zm317 144l-86 0-72.7-72.7 .7-.7L317.3 336l43.1 0 44.3 144zM176 96l-16 0 0 32 16 0 96 0 16 0 0-32-16 0-96 0z" />
-    </Icon>
-);
+const UserNinja = createIcon("user-ninja", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABigAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCXgsGAAE2AiQDCAQgBYMtBzEbXwURlZoFyX4k2Lao1wFWmKFJ03hnaIQvwfOPXv19mcyc2WSNLK1PdUZHuGi/O6EcguV9VxdHkNBAbOgjW1Fzz/819eL50QF+uyA4pEisXGC03Sjz+QQGeLY3b9B5FNh0gja/nd8NThK9MiC4Ismw3R/GvwNq7JQ4zFCu8grYHD9UPj6sAIWaAADIAAAAxZ2t9dx7J+9EXtkuQx61gADkAGAgwARMwB8BkIeJAH9UBqBSCd6Jzcb/gQYEANLgOAWACqxgE7AL5KuAwlKqX2SonYOumx3UDt2s9S71E9kZeVRfH37YZztLvLeFHdLWRRzx3SH6gQKROxWXoo75F4inRImHNEuTuEu0eEmh7M6+Xv608G5om6ZrS2WpaNIm3qI7tJyu+0qHUJsuYjHSUqVrenvUOofP3A7RC5u09p4O4kRdRAs54Xzia/CrCa9YXOj7GB73TfPxmdb3+LGvaeKLvzOnQWnTkr9/5SQTuEEaadxgAicZZ2F8AE2laea3Z61WK0AV6WfZS4gnwMTgvS6piTVMYAJrFkcjYfNmvhC3OW9zB+JVVYjyCmIn99NiZ8oaOM9yRACQ426eHPk/6JT316orAHy48f2nfLbtntxTTgBWCgCBaW1x+uQeANMFAD9JiQWEyD1AgGIVFrhWe1sQAEIDAkBhoREAJn44IwBUmlgEgFkg6QgAC00rJlJ2CHf6G1DYmw1MMlgIVO5cBGZ5PM1buItJLwWtEv4KUytGtHydNJITkowcY9lURVXj/HKucaxFLbBD0bSVCWaaYZ5xYyabN+Bz1Jfmm65ih5X7IkOyBEkMOYzrznJzh3FzzDXZTDPCKrmM91GUBfvJ0WQqgDFFg4IComjfcl38jMkzpgwD");
 
 export default UserNinja;

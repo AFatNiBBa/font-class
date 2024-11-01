@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `basket-shopping-simple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/basket-shopping-simple?s=sharp-regular basket-shopping-simple}
  * @preview ![basket-shopping-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/basket-shopping-simple.svg)
  */
-const BasketShoppingSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256.4 29.8L245.3 51.1 171.8 192l232.5 0L330.7 51.1 319.6 29.8 362.2 7.6l11.1 21.3L458.4 192l36.1 0 49.5 0 32 0 0 48-44 0L464 512l-352 0L44 240 0 240l0-48 32 0 49.5 0 36.1 0L202.7 28.9 213.8 7.6l42.6 22.2zM482.5 240l-389 0 56 224 277 0 56-224zM144 296a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm264-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const BasketShoppingSimple = createIcon("basket-shopping-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABawAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBWQsGAAE2AiQDCAQgBYMtBz0b5gTIngV2TJtS2QjbyGeg/WMEz6/9b87d/WqILu7aaJBNk3ilkWgaoljyCPUlM9JNMdbme3TI/F/u+U07OsDPR3Aoe9f2NYDmfJ5AGKbp2kJZmCWKWZvzeVFQkB8ECXuqjpCG8YatoT3k8SEuKSPdTnCxfWj81tF5krIMQDQCYMa6VUu8+hpfI96XEu8tQkDMAIVAhgxdBJgsE+giVyCXC75GqZT+AwsCiHJ2VwI5yrEYmwA5lMnzfECVZGrK6vK1/cLqTR06d1gdNbE2OsWk6BhroqZGVMf6qI2NQw2/97roHBPW1NbVrom6WLf9br9HHW/1ftxpV2H263s+b3z+N3sp3Xto2fmhb/PQdQ+tvq/PiuEGm9Vge6gabLhi7RmLYt+/oJm+aKM1K2tbsaIt4hXthfk6EAhqq///29Yw+V9lTQLfXzIuV3qVpqfnqJRAkA0uDbY5TYdEDSCf4qye4IsCyWw5e9daNwQI1QiQlKsWINNZowC5aoMEKNPNGAHKVVslE3mV0GrLBEmtEyAz1jmQa/UClJnsda5ca2SkEighfNOlzvXQnGXFiKHDi4nFbd0m8oSr85OKx27/s7lvgGy01zFHnbbHbgecduRJS4pnHDEXEXP8UGGEoYYrTFQstz6qazV30ikHri3ri0xSvJ/u7ywePUCCxGhHWpEkIrX7+601hIbGEHICAAAA");
 
 export default BasketShoppingSimple;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `right-from-bracket` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-from-bracket?s=regular right-from-bracket}
  * @preview ![right-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/right-from-bracket.svg)
  */
-const RightFromBracket: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 146.2L462 256 352 365.8l0-53.8c0-13.3-10.7-24-24-24l-120 0 0-64 120 0c13.3 0 24-10.7 24-24l0-53.8zM512 256c0-11.5-4.6-22.5-12.7-30.6L383.2 109.6c-8.7-8.7-20.5-13.6-32.8-13.6c-25.6 0-46.4 20.8-46.4 46.4l0 33.6-96 0c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l96 0 0 33.6c0 25.6 20.8 46.4 46.4 46.4c12.3 0 24.1-4.9 32.8-13.6L499.3 286.6c8.1-8.1 12.7-19.1 12.7-30.6zM168 80c13.3 0 24-10.7 24-24s-10.7-24-24-24L88 32C39.4 32 0 71.4 0 120L0 392c0 48.6 39.4 88 88 88l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-80 0c-22.1 0-40-17.9-40-40l0-272c0-22.1 17.9-40 40-40l80 0z" />
-    </Icon>
-);
+const RightFromBracket = createIcon("right-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABegAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCCQsGAAE2AiQDCAQgBYMtBzkbEgXIFkpLUNmssnpGG3eaY5hjpmdgDyXDe3bR+nd1cep5zkML5CmEQRsLFyYgy3OhOc8jEMz59pYLuoVqWgGruo1rlMvKgxgOXhVDXGgW69C5QB6fxz0qpEdTDXfX5fhTVzeQVDIAoo13xZxN61b45rf4LeLHxofEj5YhIOaAUiBDhh4CTJcJ9JArkcsFv0WjYf+BJQFEE7xhAjkqOIizgBwkWZ63H9S/qLTMNxaV6qENGzesj4jHBlYjooiXu8eGazttjIeqL3R4oIuoRqY82vHBAUV4its7b4qHY+8cs7H4weBXeqR4csirE4pwV9/W6aHI4trODxdF39favPZ3n9rBml0jTuBeTNRxzSVmu8SajhOfPtGudu6seoeyVkt97Tb6p3o2W1b/afRufaVavX2H+rmzau02vb2mY8c1q82+5Za8jdyM2aslsu3rn7Ul2372etvbQSBY0v66L3e1nv5fsyKBPz7793/6K2r8lqTX0EwCQTa8Mdz2BBIBAEhxkb4JAslOGXxqCw8JEKoIkDSpCpDpro0AuaphAlT0MkGAJlXrZCJvLnSwo0PSwhnITHQl5Dp4Hyqm+9Zq0iEysnFU4d56yQtHFkyVY0aOLqeWw0Dj+cOU4bRyWRl8kcIQOXXQKSedd8B+R5wPO2uFe8EJCyN0gS8qjTHSaKWpyuN4v7/RAWedc8QpJ3XMNOV9c7CL4vohoiegHWsmSURq928vQ0vfiL1n9+w7duA8AAAA");
 
 export default RightFromBracket;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wifi-fair` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi-fair?s=duotone wifi-fair}
  * @preview ![wifi-fair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/wifi-fair.svg)
  */
-const WifiFair: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 179.8c0 8 3 15.9 8.9 22.2c6.3 6.5 14.7 9.8 23.1 9.8c8 0 15.9-3 22.2-8.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c6.2 6 14.2 8.9 22.2 8.9c8.4 0 16.8-3.3 23.1-9.8c12.2-12.8 11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C3.3 163 0 171.4 0 179.8z" />
-        <path d="M171.8 312c39.5-34.9 91.3-56 148.2-56s108.7 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8zM320 480a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const WifiFair = createIcon("wifi-fair", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfwAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBawsIAAE2AiQDCgQgBYMtB04bCwXIjsK2bROHmCzxhKizzHj++8M89/2/ad1Kw0KV0kErUMZDFGtAjTgWkJ1oBPan/dWbmYWOnj3ATWYi4vJCgp2cFAqY//yfTXc8Hw3w8yY+lOO6Qbby8DyfJxBg+ItvqudpYFmmmLqpwUewFB8RESlOguz47I5rZ+hlQ/pgQL3jG+BZ/wcw/wz0gTLZACALAACuHpJi4OAtb4VuRivkRzQQyDXAFoSGhjUInCKCNSxbQNeFIWYYMEQMQ0GAjIG+uoExDHADPALQQSnpLBMVsZCtwkrVTkHab9pDgkxPkaC63bp7/leCkfCNQKm2VEcWoHop6w7T9lPeK7YTdpNepMukwlE9Vn2qWgrPggWC3nqb+ph6n3wfL4Wdb/Wpd/FN6Q1MD56motScfi4cDA+LVJQFP+Xjg38SlCLR8PDBwoRk3NXZzMzZFRosDo2piJRuQUZBxrGxwjbVjYKpjA2rqCivYmmsWSZkErarV8TzAIJw8vHMy5sP/OcJMcDf1uevPG40rC48BUwoENo+4yi7ugCRGoBWaWVeXfBVIGh2YeVTZ7xAQEwhoIyZEtCsUodAN2UPAgMbvCAwZsoNIp0PsSJngDLjCTQn2kG3YhkMnDqvx6yEuJfoHOLfXVrojIfso27OrtSfPnZ1yWP4vB1Aac+21UzZ4SiUqlOrWYliFZonslFMu0WN0B0R4ocoN85cUf7o8WCrpca6UZOKtXK+SwD6fmWrdb/YDiFWGA+cahopRDTaKkornD4ay+miTmkZ5UoCAAA=");
 
 export default WifiFair;

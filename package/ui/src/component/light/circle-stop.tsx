@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-stop` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-stop?s=light circle-stop}
  * @preview ![circle-stop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-stop.svg)
  */
-const CircleStop: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm160-64c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-128zm32 0l0 128 128 0 0-128-128 0z" />
-    </Icon>
-);
+const CircleStop = createIcon("circle-stop", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdgAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBfQsGAAE2AiQDCAQgBYMtBzIb/wTIhof/15nd9yX7ZCQHWWHEhQ4IKyqnWgIoA+1Sldr/d/P5PT86wG90aI1lSwNZgHs9TyDArHeeJ5QFlmkCFkvmLZPWI+V+yUw0SY9fe/yiA/J4L0arkZ5L3+ORetP4W093kuQZgOgAgAXbNq3x8eW4HPF98w3ie6sQEAtBJZAhQx8BZssE+shVyOWCy9Fs8jewIoCow09KIEcdB3ASkIMkz/PevXu1lLW2+dayVhx6aWLEqyu/Le5f/vX4l6sXJ7yy4pvygVXfTXptUOOvRRGfrfupfGDNDws+2fL7/I9Xf1/cv/bHhZ9u3XZb94hnyjIe6PoUcWuXJ4si7u/2dEQplBFRDGzt0PrvgO+Pfu/SR41P+XXumlmz1sz99dNG41NhX7akhZ6vfbJo0Sev9WyxRMd54/l57e7l3na3ammsV7dCE8+DQPDTrBkz97Wffa1NmcDVd/+/JrxFzY+T1Io2Egiy0c3RdieQCABAihsNTBBIdsjhqg1PCxAKBEjqCgEyvXUQIFcYJUBNP1MEqCtskom8Rehij0DScAEyU90EuS5eg5rZvnLqukTmZoKTCK+81KUaLVmrJowdX82sprEueg6X57OqZX34jak2gpiOOues6x1x2AnXK3LRGv8GZyy18BIPqkww1niVmart7HF/qyMuus4J55wtS2apztvD3Wh3jyArAXWiQJKIVP7G0cbcdAA=");
 
 export default CircleStop;

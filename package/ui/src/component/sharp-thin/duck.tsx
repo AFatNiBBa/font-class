@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `duck` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/duck?s=sharp-thin duck}
  * @preview ![duck](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/duck.svg)
  */
-const Duck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M384 259l0-34.4c0-13.4 5.7-25 12.7-33.7c12.1-15.1 19.3-34.2 19.3-55c0-48.6-39.4-88-88-88s-88 39.4-88 88c0 25.8 11.1 49.1 28.9 65.2c6.4 5.8 12.2 13.3 15.6 22.1l6.6 16.5L274 244.5 92.3 295.4l-5.4 1.5-5.2-2.2L28.7 272 16 272l0 16c0 97.2 78.8 176 176 176l120 0c61.9 0 112-50.1 112-112c0-32-13.4-60.9-35-81.3l-5-4.7 0-6.9zM88 280l166.1-46.5 15.6-4.4c-2.1-5.2-5.3-9.9-9.3-14c-.7-.7-1.4-1.4-2.2-2.1c-21-19-34.1-46.5-34.1-77c0-57.4 46.6-104 104-104c54.5 0 99.3 42 103.6 95.4c13 2.7 26.4 3.3 39.7 1.7l31.7-4 9-1.1 0 9.1 0 11c0 48.6-39.4 88-88 88l-24 0 0 27c24.6 23.3 40 56.3 40 93c0 70.7-57.3 128-128 128l-120 0C86 480 0 394 0 288l0-16 0-16 16 0 16 0 56 24zm313.2-64l22.8 0c39.8 0 72-32.2 72-72l0-1.9-22.7 2.8c-13.9 1.7-27.9 1.3-41.6-1.2c-1.6 21.6-9.8 41.4-22.5 57.3c-3.6 4.5-6.4 9.6-8 15zM320 144a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm-2.7 166.7c-5.8 43.4-38.5 81.1-84.7 92.6c-37.8 9.4-75.9-.9-102.5-24.5l-6-5.3 10.6-12 6 5.3c22.6 20.1 55.3 29 88 20.9c39.9-10 67.8-42.4 72.7-79.2l1.1-7.9 15.9 2.1-1.1 7.9z" />
-    </Icon>
-);
+const Duck = createIcon("duck", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABpQAAALaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDGQsGAAE2AiQDCAQgBYMtBysblAXIngNu03xIREZIbUhuNY+8qITTeIjx8M86vvtm5kNLzgJSY9u2bmCUGzOSk3T62sO4996XNIKhLK8EwVkMaaGsjaBY070P4nhQyDoRJik5Wy0qDBnxvrq23xKQpe8uTj3PeSiAbxS0sWlpfA0KznkegYiMFhcVC1KQgtW0IFTVmru6PYZE+0mSoqX199jj5w5Z3NevgORU8gOO1TeNb/QOQiJNAUQVAAx5mzbBk19KI15mF0C8VIaAGALIBVKkaCBAf6lAA5kcmUzwgbKM/wMHBBCF5KdIQIYiXAP3AWQgUZBl3S7VSkw1dkU2U1hQuozEmdp7xsXAbuK5b9u04J9Q68MV9VQjNFFKpSFe3b8bhHG73Z51NVUTtLhp+qzaNFlrUnNrWQruJV34d8wbXm9oAyHOtt6OF5B42GQ5/T5fEK8fP40UEWVlY/rKSssutdszEjWP9ZbzvnFV45R2Qj2umtTUz/uILndf92wGNKENddyMUhH9hGp0Vbb7N3wbfMPoh4Oi2X0tKevo0ezs9ExW6c7J9mqZmxsMMcRIFaqIsTIqpd34/b8UjW8oatW/EOYH/p1eoKJS2dufY18+k51d/nnHV8bqIh3qW14q6H6t3m1KzGiIKTJAb+9KzqotV32Ii6vEsNSQra3XSG91UaUPqSS9OrnYeRhmjx82i6nHNfUGXt64Xf1q+wguEAg+zzLWJe3/VxYm4NPtv2jfov9pIrkKiiUgSNtnc/MTkBAAgCR2omkCBBLnsJFT7jiydEoRUStUCidVX5UBmVLtoEAjPQjl9jSpyEqEGhYAEuW2QKqnA5Cp4ToU6O+pWahGMJ2Wcjnqzxg/ckZGrOUxHTvnffNtrNN+SOR5v1wt+XaGWhuctdImG223wnJrbJ+wrSY4O2ww8oSO8EG5LjrqLNdXfp29Hs+0wlbbrLHJxrKkn9xea23nubsN1ITgdiUmTxBKsuUjy9YB");
 
 export default Duck;

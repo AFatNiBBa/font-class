@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-garage` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-garage?s=sharp-thin car-garage}
  * @preview ![car-garage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/car-garage.svg)
  */
-const CarGarage: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M323.7 8.9l304 160 7.1 3.7-7.5 14.2-7.1-3.7L320 25 19.7 183.1l-7.1 3.7L5.2 172.6l7.1-3.7 304-160L320 7l3.7 2zM210 176l6 0 208 0 6 0 1.7 5.8L462 288l34 0 16 0 0 16 0 128 0 16 0 48 0 16-16 0-48 0-16 0 0-16 0-48-224 0 0 48 0 16-16 0-48 0-16 0 0-16 0-48 0-16 0-128 0-16 16 0 34 0 30.3-106.2L210 176zM144 304l0 128 48 0 16 0 224 0 16 0 48 0 0-128-352 0zM448 496l48 0 0-48-48 0 0 48zM192 448l-48 0 0 48 48 0 0-48zM418 192L222 192l-27.4 96 250.8 0L418 192zM192 368a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm224-48a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm32 16a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-    </Icon>
-);
+const CarGarage = createIcon("car-garage", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABngAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDKQsGAAE2AiQDCAQgBYMtBzEbqgXIhqCy+X7P3kllnx7DmVgywieImDAjgCAk+acYAWviclzbonn+5wlnEv5Y2dgDoz1oCgQY7WELPAuzRLFh28g0Iq6P8TxBHv84UoV0X/oat7gPjR8Nu5IkywBEFwC27LPH7t5vRjPiq9YrxFd2RUBsAaVAhgxjAqyXCYzJlcjlgma0Wuw/sCSAqAovSyBHG57FR4AcJEWeDzemBrKX+mqV9nxvuaQ45rDDD+uPvhiIw+NQqR+MI9Tk/j1rRa0/9opaTWBBUUSUFj0KwX3hPjG4Z1ytPaLtsFuIle1dtHLBpfsIyp437r3nXf33DN49cGff8PUDEXfHZYP31G7ov8ulfXcW+6ygO+SskSyCg7spbMH0J7ue/Hna10d/bdtXlzwSk45wkSMseIiiPTjfSUPjtEer1W/6jR9neleXS+WUOrtrc3dds0fX5V3TD9n6t1xyaRCp1y916JL36lJU01rS6ra2Pg6+kUP8rUjY+lxHs9lBJLU6ruXajo5rVd8vWQZhNns/EAjO67voukM61/82pZbAD2/++mN9W6X1frogPYkpEgiyha2FDkyXarZKR/HxzjjbdPhFgeRRhfCube4WIBQIkFQVAmRGdQmQKywQoGLCCgGqCnvIRD5V6HNQDyRtTgMyK10E5Pq8BFSs91mgqi+yxIsmPfTfMekOY9r2o8rG4nq5ttxMabH0COvWdeVp+dyzeck8ONfRTnGyMx3lSMc5c8Q93e7hs5xkhz3O9n6o1LBYXWmt8nb2uXTvUeB0Zzhunbg/zDrl++a5zt6vPg+qkiB2qfFJIlJxxGGnLzpGGg475ig=");
 
 export default CarGarage;

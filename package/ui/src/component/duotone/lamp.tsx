@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lamp` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp?s=duotone lamp}
  * @preview ![lamp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/lamp.svg)
  */
-const Lamp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 432c0 24.4 8.3 44.6 16.4 58.7c8.5 14.7 25.2 21.3 42.1 21.3l139 0c17 0 33.6-6.6 42.1-21.3c8.1-14 16.4-34.3 16.4-58.7c0-61.5-64-128-64-128l0-48-128 0 0 48s-64 66.5-64 128z" />
-        <path d="M112 0C99.1 0 87.4 7.8 82.5 19.7l-80 192c-4.1 9.9-3 21.2 2.9 30.1S21.3 256 32 256l384 0c10.7 0 20.7-5.3 26.6-14.2s7-20.2 2.9-30.1l-80-192C360.6 7.8 348.9 0 336 0L112 0z" />
-    </Icon>
-);
+const Lamp = createIcon("lamp", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZgAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBLAsIAAE2AiQDCgQgBYMtB0QbwgTIHolxTMnmEN3Fwz924d83M7sBNIFZSeigzujiipXRpmcXf5Q5W+HsBcw//bnXxflogA9kc4umnQ+kwDPPJ7DzyF/egg307Zvi353WkkMtr2yJpeWX5jgdIYsr6V4FkjPJexyi/wGMb+rZS6JcCiCqAmDotEljPP4YH5N4X7pDvDcaATEM5AIpUjQUYIBUoKFMjkwm+JiUSnyMUikngCiiO0xBERn6YiggA4kQWVazUYVCpWxqhUL5WRfrTo7jtU5UqBT76pyqPTXOtio/7UK9MxUqxL4G55qcrR8nakeUD3G87ulwS7PrVa//aPp+6XvrHg3ZOO6RdQcuVNup2oUD89gn7B7y0bwqNT98bbhPg68falb+2z+62KkL//i3MhAIOv1adWNelQH/l62QgM93f/2LN5aWxPPkOspKQJB2KHUwOx4rUJIAiJDEVs2+y3yBVCOJ8q4VnRQglEeARFF5AVINVBUgU157AQoa6ylAUXmTpCIrJ9Q0p4FERRtAqpdtIFPTbVAwwCutqGak/sPcPvN7Sxwl0ZFNeddOXfJ++dRSWZegcrV/vqy02ZoibeGgpdZZa7MlFlths8A3GmNuscYoDRvph3JdddJFrp/c7N6LU1HbaJMVY95ep798v9rGVj29LbSTALqd/OaUSCKtuHrBmvUd3VCuzPjXBgAA");
 
 export default Lamp;

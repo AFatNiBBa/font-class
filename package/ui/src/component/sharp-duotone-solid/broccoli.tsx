@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `broccoli` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/broccoli?s=sharp-duotone-solid broccoli}
  * @preview ![broccoli](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/broccoli.svg)
  */
-const Broccoli: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M112 352l104 0 40 80 40-80 104 0s-56 64-88 160l-112 0c-32-96-88-160-88-160z" />
-        <path d="M416 352L96 352 0 352l0-96c0-45.5 31.6-83.6 74.1-93.5C67.7 152.6 64 140.7 64 128c0-35.3 28.7-64 64-64c12.7 0 24.6 3.7 34.5 10.1C172.4 31.6 210.5 0 256 0s83.6 31.6 93.5 74.1C359.4 67.7 371.3 64 384 64c35.3 0 64 28.7 64 64c0 12.7-3.7 24.6-10.1 34.5c42.5 9.9 74.1 48 74.1 93.5l0 96-96 0z" />
-    </Icon>
-);
+const Broccoli = createIcon("broccoli", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcQAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBRgsIAAE2AiQDCgQgBYMtB0wb5ATIHodxrLCSnngT0lBaHv5/Leu+X5U+M9UZ5BpmdAwLqBK7iGrcogJUOetQoupkLt2s9//5v9nzKIoC/M8TDm0smgNkgc/5PIEAw/LyrEBO6EzPwM7a+c+oLpskxKfPsJ1hlJ1D4YQ8vsluqCO9nOAx/gcw/tDFDZLmGYBoDYDZG9cu96QpmlJ8XXuf+NoyBMQcUApkyNBdgGkyge5yJXK5oCnV0hS1JQFEBW7OQAU55mMlIAdJiDwf3L5a1yLfgINib32L+oiGoa8NfCEKvt8BM/GDwa90ebE6fKX96z1EsbFaVNfHxqjGc8NeX1fEDyPe7Njn1dav/tX76wM07Jw1q3GXNGnRvw3tijZtGtv9f/nG9bK8fuPxb+0a+52iXcO/iyalXXY5ufNQtAau9NYhrX/5suuiU7osKk+UQCC49ctPfXa2mvZ3s2oCv37qd/I7qj1J0qtoJoEgG1YbZlsCiQAApLigT4JTApnBkvCp9V4QIBQIkFQUAmS6aS1ArjBUgDo9jRegorBWJvLmQnvbG0jqnQaZCS6CXHvvgTrTfOZXtI+MTBQVqK9c/AKh+Wvl6BGjyinlNlZpfhBpPrU8lgZduDZYDx1w0gnn7LfPYedAz1genXfcAguZ74tKo40wSmmK0p098xvwzzjr8Jr1L5mqvO8NcsHuHqxqknHHuJLJiBRZ6z1nTu7de/LY4eGsFNoO7PMD");
 
 export default Broccoli;

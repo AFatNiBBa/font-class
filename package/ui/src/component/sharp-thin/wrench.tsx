@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wrench` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wrench?s=sharp-thin wrench}
  * @preview ![wrench](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/wrench.svg)
  */
-const Wrench: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M320 176l0 16 16 0 64 0 6.6 0 4.7-4.7 76.2-76.2c5.5 15.2 8.5 31.7 8.5 48.9c0 79.5-64.5 144-144 144c-15.2 0-29.9-2.4-43.7-6.7l-9.3-2.9-6.9 6.9L104 489.4 22.6 408 210.8 219.8l6.9-6.9-2.9-9.3c-4.4-13.8-6.7-28.4-6.7-43.7c0-79.5 64.5-144 144-144c17.2 0 33.6 3 48.9 8.5l-76.2 76.2-4.7 4.7 0 6.6 0 64zM492.5 83.5L480.7 95.3 400 176l-48 0-16 0 0-16 0-48 80.7-80.7 11.8-11.8c-5-2.7-10.1-5.1-15.3-7.3C394.4 4.3 373.7 0 352 0C263.6 0 192 71.6 192 160c0 16.9 2.6 33.2 7.5 48.5L11.3 396.7 0 408l11.3 11.3 81.4 81.4L104 512l11.3-11.3L303.5 312.5c15.3 4.9 31.6 7.5 48.5 7.5c88.4 0 160-71.6 160-160c0-21.7-4.3-42.4-12.1-61.2c-2.2-5.2-4.6-10.4-7.3-15.3zM112 422.6L134.6 400 112 377.4 89.4 400 112 422.6z" />
-    </Icon>
-);
+const Wrench = createIcon("wrench", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfQAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCKQsGAAE2AiQDCAQgBYMtBy0bJgXIjoTcROtfxFUZIoLv1763z51ZAJ79SKAAIIwOFaGL2/dDiiXZrditqFT0y6/a9/m/3PN7fnSA3+iQ1qA1fWw9Wrt6nkCChcsTigos0wSsqXlPDOB1hrYH5FFyWgXp3fQ73nQfGmN6PEeSZQCiGQBrD+/f6YfRGI34rRzxm+0IiLWgEMiQoV+AFTKBfrkCuVwwGuUy+w8sCCAqBW+UQI4K3MQLgBwkWZ7PnldTV9GQH6qrqD0n1NV1xeF41/srHm54ZVJntMeBOBSHoys64734aPX3m1+deCDaQzjc3tV+IGprI2LSe6vz09o/tlgHnuqBZkccjPGDjE/q/sbG4ad75648PX3K9GkxJaaO+7L5y3+Hfz/7u9VNzcGtmxfYsd3d3v77L/7YtekZZ5VK9uxJM2dNcbpr8NxLP/Se277DelXWfH18JMCmcnOam81R3Dvi9s3S8Pr4/fdY33PvYcmXvrR3L8Naytme4fxwafKix/adDXj0eRAI/h774T9NK/6vrkvgn5HH5L+i8g9J+hLVEgiyGeUZTiSQCABAirvGJQgkF2WCV633lgChFgGSSrUCZPo0C5CrNV2ACoMWClCp1n6ZyGuEdidrkNS7ATKLPA5y7b4BFVb4KajUHtnHR3465L9f3KY2tPFUMXfWnGJZMVkqqe8J14fLi9XilLt8NBVedNY1V912xmkX3G4hN+2M77hi0xy80RcV5ppljsIyxe7mPneoZdx0q42PM/uPWa44353i7vzyVKgkAeo8QroEhVR57+aZq6fOAw==");
 
 export default Wrench;

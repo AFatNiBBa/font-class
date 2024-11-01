@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sim-cards` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sim-cards?s=sharp-duotone-solid sim-cards}
  * @preview ![sim-cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sim-cards.svg)
  */
-const SimCards: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 0l32 0L320 0l13.3 0 9.4 9.4 96 96 9.4 9.4 0 13.3 0 256 0 32-32 0-288 0-32 0 0-32L96 32 96 0zm64 144l0 48 0 32 0 48 0 32 0 48 48 0 32 0 64 0 32 0 48 0 0-48 0-32 0-48 0-32 0-48-48 0-32 0-64 0-32 0-48 0z" />
-        <path d="M48 120l0-24L0 96l0 24L0 488l0 24 24 0 336 0 24 0 0-48-24 0L48 464l0-344zm112 24l0 48 48 0 0-48-48 0zm0 128l64 0 96 0 64 0 0-48-64 0-96 0-64 0 0 48zM384 144l-48 0 0 48 48 0 0-48zm-144 0l0 48 64 0 0-48-64 0zm96 160l0 48 48 0 0-48-48 0zm-32 0l-64 0 0 48 64 0 0-48zm-96 0l-48 0 0 48 48 0 0-48z" />
-    </Icon>
-);
+const SimCards = createIcon("sim-cards", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABigAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCWQsIAAE2AiQDCgQgBYMtB04beQXIhof/X7O6r351Tnclg/xnFFANMroFIrXrSKHiuEVhWRLpzP819aLsGvAbHVrkOjwSLPP5BAY6q/QGndBMZ2Bb3HZTxCS0j5C4Qhlvpgd1UbxWfItnov8BjF8N8yCFngQg+gJg+d6dm7V/jB+L+LbzIfGtTQiIFSALJCSMFGCRJDBSKaNUCn4sOh1+jE4nE0A0RO9LoIEWHsdLgBIUuhVlOaAHlQ8Z1uzqVe6JKqqDISoKF4ubvSKqVtotNKOLaVYKqqC98UpYfdnY91RYx9bBG4VBsTsGvUhVLS5FBEVqNa2Ol1Tj3un7zu9jvz3zrWlrh7JMbahr2jf0XJuZt+/qkJrsU6vvXbbsx9qyN+of7plaz9a+ZXz46OvEzCfgZWn1MXaMo5/n/Purjh71mF7IUGV2TF76DIOznFP1u0Z/OxAIXvju2X+O9ln0f3ezAD9/9Ocv9Q9Jpx3t4h10K0CQJncmOxRtiLYAABRxx7ho45hAskO35FNbXhYgVAhQaKgESEboK0CpMkmALqPNFqChslMSZY8w0GECCi3XQTLHXaA00AegyyJfZBsGRoJKFabUn8KsNWN09bw8fWqdF+TNqlYDNNlOL8ynfePvyK4JeKUzrrriltNOOe/WSLxhc+G2y9bs0at9UTbdVLVsgXy78dzaQ7M33HR+3bg/y0L5/dR4d/YHT8DBQiI5w4YkEUWkfjfPX57yybmmhO+uATMjJAMA");
 
 export default SimCards;

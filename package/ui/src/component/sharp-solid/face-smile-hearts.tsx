@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-hearts` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-hearts?s=sharp-solid face-smile-hearts}
  * @preview ![face-smile-hearts](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-smile-hearts.svg)
  */
-const FaceSmileHearts: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M519.2 95.2L491.6 67.6c-1.8-1.8-3.4-3.7-4.8-5.8c-4.4-6.5-6.8-14.2-6.8-22.2C480 17.7 497.7 0 519.6 0c10.5 0 20.6 4.2 28 11.6L560 24l12.4-12.4C579.8 4.2 589.9 0 600.4 0C622.3 0 640 17.7 640 39.6c0 10.5-4.2 20.6-11.6 28L560 136 519.2 95.2zm44.5 82.3c8 24.7 12.3 51.1 12.3 78.5c0 34.8-6.9 68-19.5 98.2c-11-6.6-23.8-10.2-36.9-10.2c-39.5 0-71.6 32.1-71.6 71.6c0 18.4 7.1 36.1 19.8 49.4c-41.8 29.6-92.8 47-147.8 47c-61.2 0-117.4-21.5-161.4-57.3L171 442.2c13.4-13.4 21-31.6 21-50.6c0-39.5-32.1-71.6-71.6-71.6c-14.5 0-28.6 4.4-40.4 12.5c-1.8-1.2-3.6-2.3-5.4-3.4C67.7 306 64 281.4 64 256C64 114.6 178.6 0 320 0c46.7 0 90.5 12.5 128.2 34.4c-.1 1.7-.2 3.5-.2 5.2c0 19 7.5 37.2 21 50.6l68.4 68.4L560 181.3l3.7-3.7zM89.2 366.8l3.2-3.2c7.4-7.4 17.5-11.6 28-11.6c21.9 0 39.6 17.7 39.6 39.6c0 10.5-4.2 20.6-11.6 28L135 433 80 488 11.6 419.6C4.2 412.2 0 402.1 0 391.6C0 369.7 17.7 352 39.6 352c10.5 0 20.6 4.2 28 11.6L80 376l9.2-9.2zm403.7 78l-1.2-1.2c-7.4-7.4-11.6-17.5-11.6-28c0-21.9 17.7-39.6 39.6-39.6c8.2 0 16.1 2.5 22.7 7.1c1.9 1.3 3.7 2.8 5.3 4.5L560 400l12.4-12.4c7.4-7.4 17.5-11.6 28-11.6c21.9 0 39.6 17.7 39.6 39.6c0 10.5-4.2 20.6-11.6 28L560 512l-67.2-67.2zM320 400c71.6 0 113.7-47.7 126.3-72.8l-28.6-14.3C408.9 330.3 376.4 368 320 368s-88.9-37.7-97.7-55.2l-28.6 14.3C206.3 352.3 248.4 400 320 400zM196.8 237.6c21.6-28.8 64.8-28.8 86.4 0l25.6-19.2c-34.4-45.9-103.2-45.9-137.6 0l25.6 19.2zm246.4 0l25.6-19.2c-34.4-45.9-103.2-45.9-137.6 0l25.6 19.2c21.6-28.8 64.8-28.8 86.4 0z" />
-    </Icon>
-);
+const FaceSmileHearts = createIcon("face-smile-hearts", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABugAAALfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDUQsGAAE2AiQDCAQgBYMtBzgb2QVRlA5GhexjMd3egDzKFEnzXQTZWM7u3WMBFZBuFaqysGg0G1tHyqGse2Eqm9oKA+Q/5GXvD8S0DoolS6/ATBc6AUwWxsmnOS6A+b/m86uiA/x8J34otcSiKIzUUebz0YAO8Gxv2GFps+FsorjBeaMaTobE/hnU+FbOpSZv8x7g0n1ovMNvLpA6BUAMAwB2jmrKcClOcaLe/+NA9FACAmIHwBxCQcEUAuuUAlNU5kBVBa/0/z/7D2SAAKIpkOnmFR08A14AUEFq1boi3DAc9losRrVZ1cmoNoznWG6VZxXFvKuNS9xu8hISr4ToqqW2dRtfIOwy7Ejf4xPZe7WPO3lJpnWclLo4eZUnRpvoSc7VioedH5WJENk6Ysnbx+vyLtZ1USV1om1DfT1uTxVa32jlOUadOt3kieRgKq3g2zU+wUmeZFrL7s3rJBuJlrA8HTAsFlgjn84nG3XJzDhRsklvE+4NugdNHymMk+gYarKfke22s2dxFmdtdvlMuWJODhYK1cfYJoLeFW/UyBJq/LcGPalj03PIDVsaq8c9oQQ7sC0VBT7/0lgB8iEqleHcnFwMRMPn5xKDZZvMexiEnByzqJpPiCxcXgZoHNIg06r5xDOv23F3n1D1AviYex6jTuqXLq0fN+o85v54UTVtqzoATDSWO8yyh5d/W758ebKhS2bHAwSCuzE1X3pbW3/VGRO8nXn/Nq6C/0sKMSXQliAoi/8F9PBhwAgJiGRcIBF+FQTSE7TCu/a7AoHQRYDU1BWgmGRDoOpaQKBhRhMEmrr2KEXtCON6liD1OwbFmpmgGncUNKy7GW0aD+UFbbocTf+T2fPrUJ4e0yAzm2nJDOZk8zWq6t5WzGxH+iRew8KRGGS0USYYaIChJtT4ccoSE42UP8bl+SFGA5myMVpiVhdvD+9koHHGG2q0UbafVpj9/ekmjTdnoVshSC7JSknkyO3izBj/NfFkDBn48AEAAAA=");
 
 export default FaceSmileHearts;

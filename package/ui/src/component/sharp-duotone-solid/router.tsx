@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `router` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/router?s=sharp-duotone-solid router}
  * @preview ![router](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/router.svg)
  */
-const Router: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 384l0 64 64 0 0-64-64 0zM166.9 69.9l31.7 36C239.5 69.8 293.2 48 352 48s112.5 21.8 153.4 57.9l31.7-36C487.8 26.4 422.9 0 352 0S216.2 26.4 166.9 69.9zm79.4 79.5l30.2 37.3C297.1 170 323.4 160 352 160s54.9 10 75.5 26.7l30.2-37.3C428.8 126 392 112 352 112s-76.8 14-105.7 37.4z" />
-        <path d="M376 248l0-24-48 0 0 24 0 72L0 320 0 512l576 0 0-192-200 0 0-72zM128 384l0 64-64 0 0-64 64 0zm32 0l64 0 0 64-64 0 0-64z" />
-    </Icon>
-);
+const Router = createIcon("router", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABdgAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBcAsIAAE2AiQDCgQgBYMtB0gbCgXIjtRWd6R5iqDe5lvPvpXqa2WGtSNGipxR6IyCFOEYsivnB8RKZkWR/7km37vnR/n88xEcWkRvIAWe+XwCA19jJNC8hGaKs3Z6HwYlG0LikwzbGUZnyOPfdFaF7GoGF8P/AMY3OjtLppYARCsATF29fKGXP4wPs3i/8YB43wIExDRQCiQkdBNggiTQTa5ELhd8mDUafBiNRkkAURVeNoEqmrAG2wA5yCQpz9vXarU2LeqV5vmqeqXYHqIIIZqFaBkRRcQKoYiIer1e1A3IcqR+ULF+4KCBH6x+unRwvDju2eIxTyasVPT10Q/77pz1+oSutbr2XS+73nf6rU500BCdzDHHy6Z42dvm/HFhilIZq8yRhkl2jf2Fky/WBu/44hdTPvp55MifP5qyaNFn9NSv7tz566nXXn75NSAQDPptzILNLSf81lTPwMfP/vC19HDj5WxKdg1NMhCkAY0BNmRTwDIDKGdxSm9BsJD0lZrob23mkgChQIBMVSFA0lUrAXKF/gJU9DBSgKrCcknkNaGdjRUyzRyFZJQzkGvnPlRM8Fapql0khAn4EP53qbN6dOaicuigIeW4cllTRNBwfnZ8ue32OeV6+tJeuxx2yAk77bDXiQ4/ZmH1pINmSdhMP1QaapAhSuOUx81HdRWXjjlu71w+n2e88n6xj1Py8L4UZCLrMEuSRGSRWqA+PDYQqWarVn6RAAAA");
 
 export default Router;

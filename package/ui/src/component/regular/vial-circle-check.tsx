@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vial-circle-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vial-circle-check?s=regular vial-circle-check}
  * @preview ![vial-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/vial-circle-check.svg)
  */
-const VialCircleCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 56C0 42.7 10.7 32 24 32l8 0 48 0 96 0 48 0 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-8 0 0 186.8c-20.2 28.6-32 63.5-32 101.2c0 25.2 5.3 49.1 14.8 70.8C189.5 463.7 160.6 480 128 480c-53 0-96-43-96-96L32 80l-8 0C10.7 80 0 69.3 0 56zM80 80l0 112 96 0 0-112L80 80zm0 160l0 144c0 26.5 21.5 48 48 48s48-21.5 48-48l0-144-96 0zM224 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm211.3-43.3c-6.2-6.2-16.4-6.2-22.6 0L352 385.4l-28.7-28.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l40 40c6.2 6.2 16.4 6.2 22.6 0l72-72c6.2-6.2 6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const VialCircleCheck = createIcon("vial-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfgAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCEAsGAAE2AiQDCAQgBYMtBzgbGAXIhofn5/o89yXzIbMMWWZWVERwRLpsUbV2Jq55/uffgEX+aNFUCVL+GL0+n8BE0tMmNBvYTAcgY555y8iSyD49kpM1SY/fejzTBfL4IG5VId2XvsYt5U3jTx1dSVLJAEQLAMxYt2qJT3+L3yK+qr1FfGURAmIGKAUyZOgiwGSZQBe5Erlc8FvUavwfWBJA1JEfmUCOehzCSUAOkkqed21s3rl1tdI0X1utFNkD/arVpzre27sI8WJ5qeuLs98e+Hy3LIp4utMaoRoRBeG+tnf1eab9PZ0jijWXDYt4ZdIH1RsmvDfkJZcGvzj+3eL6ie8PfTnW3d1meQyMu9vc2XZK3NV+XdzTrufzLZ7/u8fXe792bdsVDZ+vaEunfeDPhr6/vd3j0vPPNwzXQPGWtT8u9O2O2/7orY9k3/w0fPhP32S32n7LxX4lZetWffu2al2W/aDEhR8HPvfcV75S4fvvP+fNmyc9DwSCtHzO4G3NJ//XUE3gj/f//T98jdQ+TdLzaJBAkA2uDbY5gUQAAFKc1TNBINmlQl61ibsFCAUCJHUKATKdtRAgVxgkQEU3YwSoU1glE3mj0MaWTiRNnCAyY50ncm28QVRM9llSp01kDse7C//cS5mLwJxd5Yihw8uJ5bTUBB9i8+akclnvfzaOBtBZex1z1Gl77HbAacBPWpKfccRcC5zjg0ojDDVcaaJyu3lU1oJ30ilkdWl/m0nK83F/Z+35A8hKhHGk/UkiUsuzB3YcHvIzRxtydwEAAA==");
 
 export default VialCircleCheck;

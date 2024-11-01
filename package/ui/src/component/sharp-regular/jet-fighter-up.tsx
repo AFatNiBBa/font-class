@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `jet-fighter-up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jet-fighter-up?s=sharp-regular jet-fighter-up}
  * @preview ![jet-fighter-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/jet-fighter-up.svg)
  */
-const JetFighterUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M248 0L232.8 0l-6.5 13.8-64 136-2.3 4.9 0 5.4 0 42.6L48 272l0-24 0-24L0 224l0 24 0 54.1c-5 4.5-8 11-8 17.9l0 40c0 7.1 3.1 13.5 8 17.9L0 392l0 24 48 0 0-24 0-8 106.6 0-38.2 54.2-4.4 6.2 0 7.6 0 36 0 24 24 0 240 0 24 0 0-24 0-36 0-7.6-4.4-6.2L357.4 384 464 384l0 8 0 24 48 0 0-24 0-14.1c4.9-4.4 8-10.8 8-17.9l0-40c0-6.9-3-13.4-8-17.9l0-54.1 0-24-48 0 0 24 0 24L352 202.6l0-42.6 0-5.4-2.3-4.9-64-136L279.2 0 264 0 248 0zM48 328.4l112-69.3 0 76.9L48 336l0-7.6zm304-69.3l112 69.3 0 7.6-112 0 0-76.9zM208 165.4l48-102 48 102L304 384l0 7.6 4.4 6.2L352 459.6l0 4.4-72 0 0-40 0-24-48 0 0 24 0 40-72 0 0-4.4 43.6-61.8 4.4-6.2 0-7.6 0-218.6z" />
-    </Icon>
-);
+const JetFighterUp = createIcon("jet-fighter-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABiwAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiDHwsGAAE2AiQDCAQgBYMtBzUbpAXILgacMjuFp05ObkTbNPHMsUg8vD5GlA3Z7P1Tq6rxdF2q0KAcWByyFeExBk08lmAJ8M//2v/2GXly57vcbyJY+uLJrYGHDKGQXqXhTUPES2ARJ5khvyrkPfGBayeuqZ/89IDpExva9yookqq9gyfwgIv0aK3z2XA2UdyUuycCuLbp9rbQ8ybzUe8F3OYfmj/yPUPxGwAyDQCOL+bu8fGP/kjfwpAv7kBAjgFrBA0aLBGwxyVY4rHQeYQfhSH7D7QIIIMELy6gwyB8wCeADhSve4fxeE3gJ3uLgW/WTGCyNK8sIYiFOlMzn5DrBXRjI+5AoysiNJasQCFH4wpkNC9w3+PF/YbzFZrFOMUsL80vMRjR5sLiQqFZ7E1ZEKIFjYkK24TaMaFcPL48MZ34Z4f/H1KDW48ZuZHF1+D0jDx5WuXpdjNWS3CZYlJjDm3rypmV8uQN5zFjumw75OcNKevR7il5Ts9o4Ms6Pngs9XuGsGHKPc7EtgoWqsY4c+92o2Xbxvczc9/xzKrlmtpa4/Xv1CXmO0AguNr+21bq4L/hwAH8vj4/MRReMScBwxwgaOtho/ViBjAUXXcgN5TDb0JQXvIE7zruOQFhIECJMAQ0hdII6IwGAgaU6CJgkDHHpR5HsmzUhCPJOeHqdp/wZHlF+AZ9Ckdkxb1v+buO/21MM92Gp5RsW3Or7beTeaVwK7K6f8CuttTe8Lo6uJEdp05c2bZl31ULv3Avdu3Y9Bw25YesNs1aWf3s7tJ9zSIOX7i0Py7tH2WAPd9d62a+dR20OwK1uxYWB6mUg+2rpg+Xo+n6DA==");
 
 export default JetFighterUp;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brightness-low` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brightness-low?s=sharp-light brightness-low}
  * @preview ![brightness-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/brightness-low.svg)
  */
-const BrightnessLow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M232 56l0 48 48 0 0-48-48 0zm24 136a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm0 160a96 96 0 1 0 0-192 96 96 0 1 0 0 192zM131.6 97.6L97.6 131.5l33.9 33.9 33.9-33.9L131.6 97.6zM56 280l48 0 0-48-48 0 0 48zM97.6 380.5l33.9 33.9 33.9-33.9-33.9-33.9L97.6 380.5zM280 408l-48 0 0 48 48 0 0-48zm100.4-61.5l-33.9 33.9 33.9 33.9 33.9-33.9-33.9-33.9zM408 232l0 48 48 0 0-48-48 0zM346.5 131.5l33.9 33.9 33.9-33.9L380.4 97.6l-33.9 33.9z" />
-    </Icon>
-);
+const BrightnessLow = createIcon("brightness-low", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhgAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCNAsGAAE2AiQDCAQgBYMtBzUbOQXIjtRGecSPxMPzev/92id5yh0jI6mi2Kmb7qMF3BSgXh0WSkgxLB23+H/+L8f3jo6ODvAbHdpYo0Fj6VjjeQKBZuUBLp4WWKYJWOp05FjLGEgekSFhaNGx46vH6QnyeC76qiLdT+/j9vah8bXWLpDkGYBoBIBJi+fP8/IH8UHE+/8/4n1zEBCTQSmQIUM7AcbKBNrJlcjlgg/i///tP7AkgKjG8yWQox6O4AIgB0mR53X129bx3ipV9fNFlapiuVCJiGLhE72mZw/9vbfPjYDrPTAeautxto11r+Ja12glzrTWbllZNHbC2HExIcYvqBSViCIsHDd+nCZj7MKi6sKVxbGyeLGyCPs7P9pov+30/qb3fX55IHmFa9kL1LFj/4H7oQdtmBVvvNm69ZtvrFjRRjrMO/5vY5Y2Qsx54qXXa0MjlBIaP9FmDNePZSmN2u4DMnY91OgGAQSC1x5779PVDcf+WltJ4KNnv//x+Bl1/v+PeDs9iloJBFnf//takehsZLwtAAApDumcGCmQ7FHgu9ZzR4BQIEBSrRAg01YjAXKFPgJU6WCYANUK82UirxOaWXmCpJ69IDPcSZBr5jFQZay3ctWaRZaCVAJRP4Dx0xWetqsc1H9gObq87eh0VhFtc0z5WO95yCd64ahNdtvlgI022OqAYPvMKx600/QIneaLSoP0N1BptHK6/8gvEm+f/U5cK+a3GaNcH+vpUDy/F6yEuIPVJ4lIDdZ9mDW7Nu7f32/H7sM=");
 
 export default BrightnessLow;

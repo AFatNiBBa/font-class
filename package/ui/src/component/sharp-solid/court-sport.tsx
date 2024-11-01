@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `court-sport` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/court-sport?s=sharp-solid court-sport}
  * @preview ![court-sport](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/court-sport.svg)
  */
-const CourtSport: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M640 480l-304 0 0-113.1c54.3-7.8 96-54.4 96-110.9s-41.7-103.1-96-110.9L336 32l304 0 0 96-96 0-32 0 0 32 0 192 0 32 32 0 96 0 0 96zM304 145.1c-54.3 7.8-96 54.4-96 110.9s41.7 103.1 96 110.9L304 480 0 480l0-96 96 0 32 0 0-32 0-192 0-32-32 0L0 128 0 32l304 0 0 113.1zm0 189.3c-36.5-7.4-64-39.7-64-78.4s27.5-71 64-78.4l0 156.8zm32 0l0-156.8c36.5 7.4 64 39.7 64 78.4s-27.5 71-64 78.4zM544 160l96 0 0 192-96 0 0-192zM96 352L0 352 0 160l96 0 0 192z" />
-    </Icon>
-);
+const CourtSport = createIcon("court-sport", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABegAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCHQsGAAE2AiQDCAQgBYMtBzIbHwXIHoPjbglliYjJ8j8Kmq0e8Tz/a+Z9fyY5yUyyRbVAsluFqiws2qgiyxWuDtABK6Ljd43Iqa2uwqu17fE0ryQWEc/qSUyaWMgkQiV54xuRlBgapbPW3Pxf7vk9PzrAz0dwKGvRmiBLZ3s+T6DneZeNTQlFBRZpIpa1s1+OEt0mIeWT7AY/bM5Q5zd11KHcKavAjfSh+UngSNGvAGQtALDvSDoK9DjjZOV/ZEUYCGQfwDyCChWmEbATJZjGNA/UamGc///xH4ggQLr4JgXU6OECcB2AGhTdup6bZw/6/bYzrA+3nebMYDhI3i+9ED5UP7cnw0jTiEjbOvqG5On0A9UzGzJI0rah2jRr5R5vSp5P3tO8UGBFHvkywW3lU+mRtmmlSUaZwC/SxuJz/vOfaLW5ajNnNBonTg9eN83rBzcvMCorzyPQEI5G8dhJJnuA0eRrG0E9HNYb357n7xNvaVjfS5lJWhn9/Z2eBxCE6/tfl9bs/NVjFfDj0/+Hx+H/uCyX5+gpIFSb/2vlyzIAHSAsuUqsbDAoTrjDVx24KSAaBBRdjYDKFD4Cao0lBHTMsiGgq3EAJXVfbFSooBi4ACo7rEBtoyvo2OkTdG1MZXa00dC/vgRfD3nXoUlvRDdOmwpjSWRY9uCyrFy6IZXshKaRobmGuo55h0xF44UBnwZ7fREy0TNCbrjdedye0zA10zEyjKt44HlfaalPVonGQMwtKopCSvukJZ09AwA=");
 
 export default CourtSport;

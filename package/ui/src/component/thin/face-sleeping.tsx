@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-sleeping` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sleeping?s=thin face-sleeping}
  * @preview ![face-sleeping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-sleeping.svg)
  */
-const FaceSleeping: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 256C16 123.5 123.5 16 256 16c35.4 0 69.1 7.7 99.3 21.4c4 1.8 8.8 .1 10.6-4s.1-8.8-4-10.6C329.6 8.2 293.8 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512s256-114.6 256-256c0-37.8-8.2-73.6-22.9-105.9c-1.8-4-6.6-5.8-10.6-4s-5.8 6.6-4 10.6C488.3 186.9 496 220.6 496 256c0 132.5-107.5 240-240 240S16 388.5 16 256zM224 384a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm80 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM424 16l60.7 0L418.3 82.3c-2.3 2.3-3 5.7-1.7 8.7s4.2 4.9 7.4 4.9l80 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-60.7 0 66.3-66.3c2.3-2.3 3-5.7 1.7-8.7s-4.2-4.9-7.4-4.9L424 0c-4.4 0-8 3.6-8 8s3.6 8 8 8zM288 104c0 4.4 3.6 8 8 8l60.7 0-66.3 66.3c-2.3 2.3-3 5.7-1.7 8.7s4.2 4.9 7.4 4.9l80 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-60.7 0 66.3-66.3c2.3-2.3 3-5.7 1.7-8.7s-4.2-4.9-7.4-4.9l-80 0c-4.4 0-8 3.6-8 8zm63.6 168c-14.6 0-30.2-8.6-41-27.9c-2.2-3.9-7-5.2-10.9-3.1s-5.2 7-3.1 10.9c13.1 23.4 33.6 36.1 55 36.1s41.8-12.7 55-36.1c2.2-3.9 .8-8.7-3.1-10.9s-8.7-.8-10.9 3.1c-10.9 19.3-26.4 27.9-41 27.9zm-233-27.9c-2.2-3.9-7-5.2-10.9-3.1s-5.2 7-3.1 10.9c13.1 23.4 33.6 36.1 55 36.1s41.8-12.7 55-36.1c2.2-3.9 .8-8.7-3.1-10.9s-8.7-.8-10.9 3.1c-10.9 19.3-26.4 27.9-41 27.9s-30.2-8.6-41-27.9z" />
-    </Icon>
-);
+const FaceSleeping = createIcon("face-sleeping", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABugAAAK4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDSgsGAAE2AiQDCAQgBYMtBzQbzgVRlO5FiezHQU6G2ktZhGIpS65u8H5hiV/ii8d4qF8rX/f8AwKFqI7tSTSakvIRJo6EQk9Qfn3sVmx09CzJWdL6rn1QnODZGgEOq8fPd3j9v7/a+I4vLeA3WpS3x03XCXLZ3nR0HoBN4wGmeZ4FlgXSZBEnYLFmbhqHGAdBsojIiwYR6bAE2mHpFUp8k4VNvs4GnocnjX8mdIFUVQCiHwA4u40MhsNmNCMa9S6IhgsgIM4BMA9RocI0BIeYAtNY5oGiCJpR1/QbOA8CiFb8d5WgoAM/gT+AAlJbKfP2kkIVZXFxyhayYiibxH5YIm4HIt7EDtqPyU7IXJPXoFu3w6g396Pgu+iP0AfPk9h2i3GpUelVeDXb8LuMeg+4ttiKiW6XRZygg9Jj0CY1SgZkxpFO68xpzchNac/qzismUkKjcFR6jFKckB2XIRiLEzLjhOCo1Jh01Jg0xZUfPWPwlGu9b9ofkFrQianB3F1jSWzpT/025xZED8Djn/9UkOoBNqcZNjIRHHtfaB+SlwNf8JWTH2r3BV+zT7MOz9QJstkHoggAEfIZ5w+tIn0AfSJoUTaMlDQ2lhA4taXO/KqHO2hKSbHDII3DSXP2o97fG9t38RGub8q6vSMidc7FRCxcZlhPp31OWZBuBxAIPjyrpIo6/W+nCf5+dfoaqX9n5HugXYKgWqvXJCVQ1xkCAJDxFDQSAukjLn7Ubi8gCJ0IkFp1ClCZIgZB0WkVghazrCFo1ekSU5QOYVhyQanbHaocaEbFsG3U4tBF1Go4Km1mdZH9l0zyaTHvU2rbJmZqDmrLVuYUlPbbjmrb6lKNm9LHBchRqkSVbFnyEzREheC0WjEfCff2RmrMmTCjxoHa8eBRijEQ/Ur5c+78GI7U7od6auTF+jAYmHRHIyWRPa+KYvz18PJLcgEAAA==");
 
 export default FaceSleeping;

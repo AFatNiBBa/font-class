@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-sign?s=sharp-light person-sign}
  * @preview ![person-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-sign.svg)
  */
-const PersonSign: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M308.8 0L298.1 30.1 256 148.4l82.8 30.8-18.2 49.5-55.4-18.5L212 149.5l-4.8-5.5-7.3 0L88 144l-9.9 0-4.4 8.8-72 144 28.6 14.3L80 211.8 80 336l0 160 0 16 32 0 0-16 0-144 70.9 0L224 420.4l0 75.6 0 16 32 0 0-16 0-80 0-4.4-2.3-3.8L208 331.6l0-138.1 36 41.1 2.9 3.3 4.1 1.4 58.6 19.5L289 314.5l-5.5 15 30 11.1 5.5-15 49.8-135.2 60.4 22.5 30 11.2 10.7-30.2L512 75.6l-88.7-33L434.5 12 404.5 1 393.3 31.4 338.8 11.2 308.8 0zM112 320l0-144 64 0 0 144-64 0zM328.1 41.3L471.3 94.6l-31.4 88.1L296.7 129.4l31.4-88.1zM120 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 88 56a56 56 0 1 0 112 0z" />
-    </Icon>
-);
+const PersonSign = createIcon("person-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABiQAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCawsGAAE2AiQDCAQgBYMtBzIbbQXIHgdubDU/pULZinmJoLJVZvXMAfA8MorZYyKTLLYUMmVvAGTIe/z/XI7vnW26CrcnHlCk7V+0Jsga43kCieZ7gmRhliimbkqPtoggOQQRVwYTV3acOb7NII/3Yqwy0j3pe9zUPjT+1eVySZ4BiEYALNqxZZ2Pf4/fI74vvSG+twYBsRgUAhky9AowVybQK1cglwt+j1LJ/gMLAUQ5YMnqOSpwC08BOUjK8vxQFULqasrq8u39jtUndPZ0bo1tMTFWx+Zoj+rq1tgaw2JHCCFqIiKiJrYFBTjtsT3s86JNYVUOWo+hw2HVQHpgu3GHR2es1u18kyaq92zbvm2rnmTH1vtGPNF199Anu2vuHf7k0Mc77xn2xIinegY/2/jsf74//r2pH72Au446z+Z+Tc62xjIVF8+04iYfTDrsUg83KjS6eYWRS6y9vmijXItxa1w702ATPbbCer9Zb9JV3vzNC6POs7Pw4W8+2OK3zxfcLJkLb174c/uN09TWv0PR0Iif6ts2bWqz2I0NL3300UsNcjwQCMr/Gdp9oGHu/5U1Cfz5bvuOqfRxkp5FpQSCbGxp7N5EkwqIpTjf4MQXBZJryti71rozQKhGgKRctQCZHo0C5KqNEaBMv2kClKu2RSbyKqHVviVKap0lykx3mSjX6jVRmbm+8pRrjYydCm4pfg6D5RFdNqmYNH5iMbt4LJlKwsnq6JziWD/yfG8ZJVMdd4bTneuYo05ybmDOts5/ntMs39HL/FBhkvEmKsxWpKvfYXvgnu0cJ1mdnh9njuJ790jn77uPElMCiZPlJIlINWTWjmM2AAA=");
 
 export default PersonSign;

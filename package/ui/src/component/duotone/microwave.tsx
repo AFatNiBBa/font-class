@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microwave` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microwave?s=duotone microwave}
  * @preview ![microwave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/microwave.svg)
  */
-const Microwave: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M96 152l0 176c0 13.3 10.7 24 24 24l272 0c13.3 0 24-10.7 24-24l0-176c0-13.3-10.7-24-24-24l-272 0c-13.3 0-24 10.7-24 24z" />
-        <path d="M0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l-320 0c0 17.7-14.3 32-32 32s-32-14.3-32-32c-35.3 0-64-28.7-64-64L0 96zm96 56l0 176c0 13.3 10.7 24 24 24l272 0c13.3 0 24-10.7 24-24l0-176c0-13.3-10.7-24-24-24l-272 0c-13.3 0-24 10.7-24 24zm400-40c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const Microwave = createIcon("microwave", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABhAAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCAQsIAAE2AiQDCgQgBYMtB04bIQXIjsM4JrxyF4No8fC9f/+19jn3v2oAt21mkAdE1NkwCX5NKmTqf/AAoPN/uednmw7w8xEcytrthe3ne3IvgcCjbE6RwLLEMtIG5006pNCGUL6DIv7JZ1WRHqXvcSP+H8D4UUtnSWpmANEAABOWLZrjSfVK+/7/j4nvzUZATASlQEZGGwFGywJtFEoUCkF1guqgJICoSOHMrKAXbMJOQAGSLIqiZ6O6jWpX1S2W0gdr5ad6RbzVrW680uONlikedn+988kmd2tdbnY/6kT3m1/t+WarvER41KVuvNY64nHXOvFyi013m4h7TR80j7jfbNXe6h3fbPDmzx2+3/q99bUa0vD5J55v2LBWacKwRL2LF+sVnvE6ftu3btj7aUHTBQ0saPq+Ju9Gt+p6iQQ53bpuh88DgWDRmqmfrqs/+u8atRP44ctf/8Tn+7/09CZqSCDIvf/vbXUaD4gaQCrFUR0PPmq9QDZDlr5rHfcFCLUQIKmoJUDWWgMBCrX0EqBKO0MEqKhlkSyKmkITawaQ1HEAZEMdA4UmPgJVRvsqWdEksksT3Inwo5c6dQpNmVcO6Nu/HFnuVnSi4+H05Kjysr37Ud7RAy611T57HbbFZjscnpAHzckcscfUI2KKLyoN0Fd/pZHKx/WX6tJJ8qBDdmzLz2cZpfw+3N3R4/49oCtJaQdakGUiRW4YRjkPYPaxsx2NF7LtBAAA");
 
 export default Microwave;

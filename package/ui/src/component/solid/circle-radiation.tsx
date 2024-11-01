@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-radiation` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-radiation?s=solid circle-radiation}
  * @preview ![circle-radiation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/circle-radiation.svg)
  */
-const CircleRadiation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 64a192 192 0 1 1 0 384 192 192 0 1 1 0-384zm0 448A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM200 256c0-20.7 11.3-38.8 28-48.5l-36-62.3c-8.8-15.3-28.7-20.8-42-9c-25.6 22.6-43.9 53.3-50.9 88.1C95.7 241.5 110.3 256 128 256l72 0zm28 48.5l-36 62.4c-8.8 15.3-3.6 35.2 13.1 40.8c16 5.4 33.1 8.3 50.9 8.3s34.9-2.9 50.9-8.3c16.7-5.6 21.9-25.5 13.1-40.8l-36-62.4c-8.2 4.8-17.8 7.5-28 7.5s-19.8-2.7-28-7.5zM312 256l72 0c17.7 0 32.3-14.5 28.8-31.8c-7-34.8-25.3-65.5-50.9-88.1c-13.2-11.7-33.1-6.3-42 9l-36 62.3c16.7 9.7 28 27.8 28 48.5zm-56 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const CircleRadiation = createIcon("circle-radiation", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABlwAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCUAsGAAE2AiQDCAQgBYMtBzcbVwXIjtEnY4Qyc8zlmbgmVCIolq2e2UCKjqw5RQxCR4fwCAcOVMpC4XAUwmLMFfZ1VLs1xjbE9DFzL4kjROb/ms/v+dEBfjuyQ4mm7FkkRuTzCUz0bGuiKLCZTsBmbY5f3kFeD8RB4ig0eRq2h4apjlDGAWUlVOQzxSOAy/Kh8Qv4VZK6CgCIQQBg98jDCU7b0cZ4+N8ivsEBCIhdAExDFCgwDsEGSoFxVKaBUiloR9PofyABAUQNeO4EJTpxgVtACVJdUgmOsfFwcDJSM1N5M1IzBDToIe4pLcFpa1F3l6Fef195GctUVgwOGCl+XBBfLC7wzPzc+dn70/HR9BRKd8+cnry8B2TMsZunm+uQdHJ3MTKq7ViY1i24pxgbZHp4e3jMsZOhnseHkYEJlcaNbxV3cpnilLBtTiL2YJkLnyW4OuHUthN/Z5v/nXmMfoT/Es098Pk2qKHRrN09TWrR+FMraOV6XcjCQsigrdUKrJW20WkGVowh4WN9JnxTuDaXxXbVCNslGChc5ggK5lwqGCQYwfYg67WHqi2KWXJrhTfDZ/aIi9KRwRKWWnDe31sUDSAuO/4vrhTCavi7k5EC4Ofr7x/7FTWnKd+BTgmCotW0BCZAEgCAjGwQT0AgnanhWns9CBC6ESDVugUojGGDoNRtFoLKJC0Iat32UIqSHsKooAOkXiegsKQIlEZtgMqGm3RtNCgDkg4n+nMwwZohq01ETVmV6JNpy2BijMyrBmRbls1OI3ISC9FSJMsUJVKcTELSOeWyJLFewVa+iFCjTBWhj7i7nwVvstJlMCFisn8dA+R5X1b2erqcaBSAOacuJZFs/+2ISm8X");
 
 export default CircleRadiation;

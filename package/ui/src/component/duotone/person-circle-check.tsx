@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-circle-check` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-check?s=duotone person-circle-check}
  * @preview ![person-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/person-circle-check.svg)
  */
-const PersonCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 288c0 10.9 5.5 21.5 15.5 27.5c15.1 9.1 34.8 4.2 43.9-10.9L88 256.9 88 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 16 0 0 128c0 17.7 14.3 32 32 32s32-14.3 32-32l0-223.1 28.6 47.5c1.4 2.3 3.1 4.5 4.9 6.3c7.9-23 20.5-43.9 36.6-61.5l-44.9-74.7c-17.4-28.9-48.6-46.6-82.3-46.6l-29.7 0c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97C1.5 276.7 0 282.4 0 288zM112 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm67.3-164.7l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L416 385.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const PersonCircleCheck = createIcon("person-circle-check", true, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABmQAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCOgsIAAE2AiQDCgQgBYMtB2IbbgXIrgZjItPhqwTFjWU9K5m8b8X5X1uLeHh+f9S59/2ZWdIVDlkJVhLixg2VIQ7qwvn73+/Xzl13/LGISduf2IQkUW8kTWoSKiERCkMyhy2V2nub0QILK4TS+b/m87OmAvl8BIdSsUiLwjVg5vMGG2AFNzXohKYztG1texPENLQtRI4DVPFfzmggH+ZHcD36H8D4ykE3qX0BQHQDAMu3ptpx2xItGZ+1xEcpICBWAIYhFBQMQmARvsAgAsNApRK0ZF3TEnU9DAKIRkRwYWtkdzgKLgIqkFJWAqdeccqOQqUgQ14oy7u8kOJi6g6dnLIdfy67NO80cBMnJm/Fncm3bjJTB/sk072+I0Y/2hg+PGSgE4wfRs0hpHXKL+txCpLr64Libu+ZgIx4NGZZ1oF6Ri1a0uKOrQ9HL/msOC0I8QXWdc3673Cws9SHR04f7u3tHsZLH5alfCuer00y1t7sN/6oZD74wLd7Pe7+93e++KG6cKFLwJzQjTp6Q7Nv+hH77ZM2eNyV4xA47Nz1OH9c+z0/O+w+3FEt47cDgeDA4h4DOV0X/deRB2h7/6++Xl0uy7doJ0FQJtWTZOYygLIJ+FEZzay5LIaBQLEGT/KpndwTIHRAgNSogwDFQBoEKh1MRKDBEFEINOpgI76opAi9ZPUgdbIPFHN0gUovB6DBIi+xRr2igKEMRPJHYAY3hmyT2PTgUBbPNrNaBbJE353ATrvGNesqP7oTxWpUa1SkUJnGEVnPnmxShdsjbL6ICRMsFBOP3S48NzJGsXoNyta1+70kYO8HfDXvN/ajXp6Ec4YlRSGS+E5gawv6Y8cShNO2IKRu6LKu4TAA");
 
 export default PersonCircleCheck;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tickets-airline` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tickets-airline?s=sharp-duotone-solid tickets-airline}
  * @preview ![tickets-airline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tickets-airline.svg)
  */
-const TicketsAirline: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 32l0 352 544 0 0-128c-26.5 0-48-21.5-48-48s21.5-48 48-48l0-128L96 32zm96 120l32 0 18.3 32 47.2 0L256 96l48 0 58.7 88 61.3 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-61.3 0L304 320l-48 0 33.5-88-47.2 0L224 264l-32 0 16-56-16-56zm352-40a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm0 64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm0 64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm0 64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-        <path d="M48 120l0-24L0 96l0 24L0 456l0 24 24 0 496 0 24 0 0-48-24 0L48 432l0-312zm241.5 64l-47.2 0L224 152l-32 0 16 56-16 56 32 0 18.3-32 47.2 0L256 320l48 0 58.7-88 61.3 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-61.3 0L304 96l-48 0 33.5 88z" />
-    </Icon>
-);
+const TicketsAirline = createIcon("tickets-airline", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABpAAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDAQsIAAE2AiQDCgQgBYMtB1obrQXIjtRWd6RJHiL4svnZb2al+n91DHPEe4Rg5ggoR4wAI6DImTkHUjnkyOVQzQyoGv/vT+V3OQ8tkM+JeNDW7Nq+BtCc5xUo4Ng2NrUiBYvVFDuqV2EQfzD/rlClWfkRLdLzCR61/gcw/jTWIyT9GUAMAcDmk0f3+7wb3RTf9j4gvrUPAbEFFIGMjAkCrJMFJqgUVCpBN/V6dKPXKwQQbdbnMmijxkt4D1CBJGlX1fAZVOuHyU5rYHXCLqnPhqgJpHBncOSHB+TjdaeeG3VMiRKdmAfhGJxkvTH+hZl1nIjU8bMpp6GH4/VRz4x7cfSzsyIGHe/UnTkETsBx+rWxz02HY9pJBLOdOS2mXvHUiGdGPTv66ZGS+VPfHvL231NczaKdY6xUY4xDyDOmL01+v+obG5ScrPifhhXocGPKSY01J613eOTIw+up2BC++Ool54jiAc3P3+X83c9NysV7Cmh4QqCxcNnFWYO63UH+gJuS94FA0Ppky9yLg9f919dJ4PfP/v2DvK7XTQ+koU8CQZ7fm+9cegAYM4BMirtN7XHgJYHsnM3+rQM8I0CoESBpqwXIxhsiQKU2T4CWSZYL0FY7KouqXxjhfI6SAW5D2Qr3osoI76OWdb5It42IfKeK95n4o5i2o4xtn1UWL2zKmtJZkUo3H68n15bRntl384458KCr3eJmd7rKla5zZ4m43f7cXW6yow/f7oeKxRZqFGuU2fXr2olS+nZ3uK5dmT/NWmX9xGx39/efA/2Jw7nEhiwTKfLo19Za8ImwFlz2Pce2Kdc4");
 
 export default TicketsAirline;

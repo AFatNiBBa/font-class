@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-turret` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-turret?s=sharp-light house-turret}
  * @preview ![house-turret](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/house-turret.svg)
  */
-const HouseTurret: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 0L16 0 336 0l16 0 0 16 0 118.3L320 161l0-129-64 0 0 64 0 16-32 0 0-16 0-64-96 0 0 64 0 16-32 0 0-16 0-64L32 32l0 177.9 60 67.5 4 4.5 0 6.1 0 208 0 16-32 0 0-16 0-201.9L4 226.6l-4-4.5L0 216 0 16 0 0zM320 202.7L352 176l96-80L640 256l0 224 0 32-32 0-320 0-32 0 0-32 0-224 64-53.3zM192 192c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32 32 0 0-32zm-64 0c0-26.5 21.5-48 48-48s48 21.5 48 48l0 32 0 32-32 0-32 0-32 0 0-32 0-32zm160 79l0 209 320 0 0-209L448 137.7 288 271zm128 17l0 64 64 0 0-64-64 0zm0-32l64 0 32 0 0 32 0 64 0 32-32 0-64 0-32 0 0-32 0-64 0-32 32 0z" />
-    </Icon>
-);
+const HouseTurret = createIcon("house-turret", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABiAAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCDBAsGAAE2AiQDCAQgBYMtBzMbhwXIngVOmR7DR8K0hszbJRI9HRr6scMIvt/vdc99L0DgiCyQjQaZqAiVaPZJgRTS+KqO/xWu7ADAijXdew7zTVQKhI6AHZDQbFw7vnEF9ihMhWGd3Pl00COF2DKNOImolSwLtdPfO/27LArwcQQhjTVprX3eeRh42zdt0CzMEgk8AUzdVI8qKGguwZVOZxllx9fj3Rby+CZkSOfS4LC9aLzWZp9EygBA1AKAhdWWOsSfxbOIu/8TBUsggFgE9CKQgQx0IsA0EYFOEgY5CcGz+P+f/gMZAiCKgd8pAXJQBi7iHiAHJGouVTSUN1aUOSqKTFJ7hawXDXoTCPVHkJ5AqJyIJ5fDFVZre7gDsUND/Ukd0bZHjOktKwfuk05UYZpx2hJx2HfVdcpHTPK2ISazsPWCDcl6MugNoDMDX2mI3rLe+nRho+BBbe1grXVfyrxyVsyq3CAvLHdmalE2xdNGenODrvRzN7/wqIHAxXk804vXe334sk3zx7PqXozns3sejY+/PMwKo+vP1y/C5j07f5ANqXkIQPzeQR5kB8Z0PkCAgA8vNxrWaoq/agkAXty/D6fjf1zYSY1SAiAgG/5Pb9qGRBsA3hTrosobBUiOlcCzVjoQgKAHAUgUegTIBFgRIKeXhABFwnIQoJheCxHlOhCnPgYCoyUgyrUBJE7nQFbs0qNwRuaqbEdj/ygmqJVozTSeSE3nQj6WTI73MetoEb9W9K/nloS4EeMWzFs1ZtSUVUFdVudfM6dWo9T4IJYhVTpWiM3VV0G78CxbMfUsZR+nCH9viVnXuydEtQB0J2UlAkQyunFkyubW8vLYKgAAAA==");
 
 export default HouseTurret;

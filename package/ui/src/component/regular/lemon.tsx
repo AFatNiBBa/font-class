@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lemon` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lemon?s=regular lemon}
  * @preview ![lemon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/lemon.svg)
  */
-const Lemon: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M368 80c-3.2 0-6.2 .4-8.9 1.3C340 86.8 313 91.9 284.8 84.6C227.4 69.7 160.2 92 110.1 142.1S37.7 259.4 52.6 316.8c7.3 28.2 2.2 55.2-3.3 74.3c-.8 2.8-1.3 5.8-1.3 8.9c0 17.7 14.3 32 32 32c3.2 0 6.2-.4 8.9-1.3c19.1-5.5 46.1-10.7 74.3-3.3c57.4 14.9 124.6-7.4 174.7-57.5s72.4-117.3 57.5-174.7c-7.3-28.2-2.2-55.2 3.3-74.3c.8-2.8 1.3-5.8 1.3-8.9c0-17.7-14.3-32-32-32zm0-48c44.2 0 80 35.8 80 80c0 7.7-1.1 15.2-3.1 22.3c-4.6 15.8-7.1 32.9-3 48.9c20.1 77.6-10.9 161.5-70 220.7s-143.1 90.2-220.7 70c-16-4.1-33-1.6-48.9 3c-7.1 2-14.6 3.1-22.3 3.1c-44.2 0-80-35.8-80-80c0-7.7 1.1-15.2 3.1-22.3c4.6-15.8 7.1-32.9 3-48.9C-14 251.3 17 167.3 76.2 108.2S219.3 18 296.8 38.1c16 4.1 33 1.6 48.9-3c7.1-2 14.6-3.1 22.3-3.1zM246.7 167c-52 15.2-96.5 59.7-111.7 111.7c-3.7 12.7-17.1 20-29.8 16.3s-20-17.1-16.3-29.8c19.8-67.7 76.6-124.5 144.3-144.3c12.7-3.7 26.1 3.6 29.8 16.3s-3.6 26.1-16.3 29.8z" />
-    </Icon>
-);
+const Lemon = createIcon("lemon", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABiwAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCJAsGAAE2AiQDCAQgBYMtBywbIAXIngU5mWs6oqicyaKKQnU87S8e+vb73Znd9xHRakmTZ6KW+A9JPNJoFjMhe8Xg91fztQfo7clKhOJFIUFp27pdOocC1z957UY6INrAMz8pq7Dx/+eaemFNZ6cfRO4a73ljgRxVLnkCez5NixYZ0HA2URzrdJvssSMKv4iQKBHp7AmPtwvU2Io1DfmeCvBc3zT+MWWK1BQAxCAA4OAsLwOiV+qVouT8SnzgEATEAYBFFAoKZlFgGyMwi7UIqir4oXiefgMJBBAtMJH+uyoaXIBbABWkUlkfNwMNTost1ODUaxcMiX1x3PyX8MfSWElTYUjwOEY1Fie4U+OwBu1Rv423VhbahFPj40ydulgC1OEcMhRm0XsIf5IliXv2RP1yubfGJto8+c1Rf5o8YdeJa+SfOwPqYFY41hY56k/aN5P28Ei3fxMqahRotznvOx9h/O3zc3Xh29txvL5BBsNpzz1prw711q0GTkPTpS/p3iVUodjeOO2a3dAkhfgQ5ePma/pmBp/g86ozLyjgu7DaK68zIAiAQDCXfGapTvifqgYN+Lv9+G9P8nkhoY/QKUFQVnl3RSFSkHMRN/eiB7b4JARSG4PNXi/eKHQzILV0QzFDF6puK9CYFyAY1x9hRFVDGFUMSL3OodgyDNWoM2hsE/sto8GEnhQ40scvPVHiCcuIj6c3CSXbRJejScjTYcRsOPekhgv2okarFl2qVanXJbgOGVG3Zokam+CLCB+evBGhiDt/3l6oWodO9Vq1lEXCkPOmsx693wWroQFrj4ZkLJJrqm5ubQEAAA==");
 
 export default Lemon;

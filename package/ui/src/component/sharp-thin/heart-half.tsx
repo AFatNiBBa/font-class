@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-half` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-half?s=sharp-thin heart-half}
  * @preview ![heart-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/heart-half.svg)
  */
-const HeartHalf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 480l0-22.6L256 96 231.8 71.8c-25.5-25.5-60-39.8-96-39.8C60.8 32 0 92.8 0 167.8c0 36 14.3 70.5 39.8 96L240 464l16 16zm-16-38.6L51.1 252.5C28.6 230 16 199.5 16 167.8C16 101.6 69.6 48 135.8 48c31.8 0 62.2 12.6 84.7 35.1L240 102.6l0 338.7z" />
-    </Icon>
-);
+const HeartHalf = createIcon("heart-half", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABVQAAAHRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBDAsGAAE2AiQDCAQgBYMtBzEbjQTIHoVN2TP2STvlEdP0xE4E7y//N+fu/lL6UltzvSkcHlSTBPctrnZjXrAECYpkm5k35WvWZr///q35n38K8BmFdpx2aSAX0H3PE0ispa35t4CywDJNwLJ2dgOK6DZJn/JJhkVvGJ2Qx0snVZGeJLhfHhq/9blHkmUAohUAaw7t2+FdJSoRP0vET9sQEGtAIZAhw6AAy2UCg3IFcrmgEmXp/4EFAUQ1Ek0gR46pmAvIQZLyvKOloaopPxiJ1x8IkcXUeLPx0/KKpysORNfwwQMH34x9turtps8rFmnsaOvonzFOU4704Mg5d9y++uDgqbqaM1+/Kv/10l3bIbW1FeaMsxcIBP/fdewty//WNiTw68W/1a+orMTcNIpaCQTZ9HK64wnWx1wBAEhx29gEgWSshHdt9FCAUI8ASbV6ATIDWgXI1ZsmQJVhCwSoVm+fTOR1QqcTHZJG1yCz0F3IdXoOVZb7alXrjMxcuMvmPmvJGyXasFbMmTm7WFpMY423ACbNlxXL6uTboTYFu0674rKbTjnpnJuCum6He8slGzW8wYsKc8w0W2GpYjt73D7olOtuOOeKy3nJMsV5c7LbevcUGAlp5/IkiUj1FqvMeIgA");
 
 export default HeartHalf;

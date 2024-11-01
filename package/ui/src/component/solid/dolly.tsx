@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dolly` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dolly?s=solid dolly}
  * @preview ![dolly](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dolly.svg)
  */
-const Dolly: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 32C0 14.3 14.3 0 32 0l72.9 0c27.5 0 52 17.6 60.7 43.8L257.7 320c30.1 .5 56.8 14.9 74 37l202.1-67.4c16.8-5.6 34.9 3.5 40.5 20.2s-3.5 34.9-20.2 40.5L352 417.7c-.9 52.2-43.5 94.3-96 94.3c-53 0-96-43-96-96c0-30.8 14.5-58.2 37-75.8L104.9 64 32 64C14.3 64 0 49.7 0 32zM244.8 134.5c-5.5-16.8 3.7-34.9 20.5-40.3L311 79.4l19.8 60.9 60.9-19.8L371.8 59.6l45.7-14.8c16.8-5.5 34.9 3.7 40.3 20.5l49.4 152.2c5.5 16.8-3.7 34.9-20.5 40.3L334.5 307.2c-16.8 5.5-34.9-3.7-40.3-20.5L244.8 134.5z" />
-    </Icon>
-);
+const Dolly = createIcon("dolly", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbwAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbQsGAAE2AiQDCAQgBYMtBywb6QTIhofn7ao/91X1LKDaiRYgPsgOPxSZGZRaPf39PP/nnz7gM/ooFZTaWIBd5xMY+NoTbDctG9hMJ2BTt7FygyhvInKU3yOG+NBsHiGPT7JzSqRb09u4un5ofKOVcyS1MgDREACjF86d7vkv48uItypPEm+ZioAYDQqBDBnaCjBMJtBWrkAuF3wZlQr9BxYEEFX44RPIkWMx1gFykKQ871ldp1QvX1CnVDs73SLi5jp14vJmD7ZaHE92Xxg3N7ux2Y1Nb2g6L+7o9Ei/p7qU2989dEnUjsua3xTzb9pd0WJg9I6p0ScGkjo/wN2g3qn5gupyw/J3Hd/e8LZ76l/CJfUna/ZPnbVLm/jgsTfGeOmBJ4cNm7L0pTfGavFoedepcrlmh66KOJkTo2t+3TB8CVNe/twwLxrmcy89+MC0XrcYtmRh39zLR+IWNwOB4LVS/vHKBsN+q1knga+f++FP7VdUeT6NSWXUlECQdat0syyNovJ/GiMAACkOqE6jEEhmS/hd67pJgFAbAZIqtQXItNFQgFxtXQUoaa+/AFVqmysTeS2hqeUDJHXtBpkBjoNcU4+DkmFec6o0jSy8qOCgXnfxEyQ0flnRu0evYkihxjodMUSeDy3cUqcDqdYZB22w0w77rLfOZvsEssd0f7/tJljweF9U6K2HXgpDFMfZ8+4F1ttjr8122lEWGaq4r3VywO7uDDVh1D4CSSJS6S8A4TA=");
 
 export default Dolly;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `layer-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/layer-plus?s=solid layer-plus}
  * @preview ![layer-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/layer-plus.svg)
  */
-const LayerPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M464 0c-13.3 0-24 10.7-24 24l0 32-32 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l32 0 0 32c0 13.3 10.7 24 24 24s24-10.7 24-24l0-32 32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-32 0 0-32c0-13.3-10.7-24-24-24zM311.5 133.2c-14.9-6.9-32.1-6.9-47 0L45.9 234.2C37.4 238.1 32 246.6 32 256s5.4 17.9 13.9 21.8l218.6 101c14.9 6.9 32.1 6.9 47 0l218.6-101c8.5-3.9 13.9-12.4 13.9-21.8s-5.4-17.9-13.9-21.8l-218.6-101zm13.4 274.7c-23.4 10.8-50.4 10.8-73.8 0l-152-70.2L45.9 362.2C37.4 366.1 32 374.6 32 384s5.4 17.9 13.9 21.8l218.6 101c14.9 6.9 32.1 6.9 47 0l218.6-101c8.5-3.9 13.9-12.4 13.9-21.8s-5.4-17.9-13.9-21.8l-53.2-24.6-152 70.2z" />
-    </Icon>
-);
+const LayerPlus = createIcon("layer-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABbwAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBaQsGAAE2AiQDCAQgBYMtBzEb6gTIjpQuZyTx8GT3X+dW99eYNYCU/XyEeJxKuxEcwymjjV+F4E9c7vynPT3gIn+0MW3p//nyPZrnCcRZ1GXTy+MszAJLTNudzUFZtE9ay1iS47Pjc4MyfirqVZHupm9wub5p/KW9epK6AkA0A8C0NSsW+fT3+D3i68oL4msLEBDTQBYoUKCTABMVAp2UMkql4PeoVOJ/YCaAqEaPTaBEFVZhB6AESVGW3Vq1a1jVuFydAw323G8nGkSg3e3VMATtUceIhkG717tBRPzQyoc9V8aNVjdbr4oHfdbE7ba32qxe93z06pg7OW1+rOz+tNnTf3yz+xvff7KsdZYB2noZmlXKfbfrz+37cafPmjT5DO19537gnRu3WLLk9ixzdG0O7W4QCK5v+G3PlqYT/69tmMCfb//bnpcr71JOT1ErgaAYWBloY5oqyykLAECK07obHxRIFinQqzZyS4DQAAGSag0EKHTUTIBSAwMEqNLFKAGqNbBCIco6oZVNTCSNHCMKo10iSq08I6pM9LlTrVUUzsW7Bv+3S5ktgVnb8rDBQ/P4vCx0wV9YXJ+Qt7W+p9OgHxy12xGHnbTLTvucFPhxi/xTDpltYbN8UTbMYENl4+Xj+vHwarscd8I+Rxwum0yQ71t9nbZn9wMzIcbhYkkiUgOvVQc9TgAAAA==");
 
 export default LayerPlus;

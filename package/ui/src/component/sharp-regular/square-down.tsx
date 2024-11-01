@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-down` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-down?s=sharp-regular square-down}
  * @preview ![square-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-down.svg)
  */
-const SquareDown: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 80L48 80l0 352 352 0 0-352zm48 400l-48 0L48 480 0 480l0-48L0 80 0 32l48 0 352 0 48 0 0 48 0 352 0 48zM336 288L224 384 112 288l0-32 64 0 0-128 96 0 0 128 64 0 0 32z" />
-    </Icon>
-);
+const SquareDown = createIcon("square-down", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVwAAAHTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBJQsGAAE2AiQDCAQgBYMtBzIbpwTIngd2w8cRMiK0Vt/UAC8RfL9W9vsze8xJpqKANkCkgMkBSVQs3NkQrQsZcxWbiozeZIZ86JAvsHd16D39zfc6jwLqnlFoY9rSLGqf73meQKBRlweeL/tg3/QL2Ld2dgMG4TaJT5FkmPhhc0AeL2Ml0vMEj+KHxl/97pGUMgDRBoBl2zdvUhmJkYjf1TfEbxsQEMtAIZAhw5AAC2UCQ3IFcrlgJKpV+x9YEEDU4NUSyFHCLCwB5CDJ8ry+vbOx1Jxvayw1HG9qbkrRHNnOhsamiCwiGptFCtu2bN+yrSUTZH3scNvwPxzj0fnIM66pj8rlSjljysqPtfPfzovTFZa65YBbliqAQHD/jbbwf11jAn8+PvyKqiNRScOok0CQTapOsicqEBUBAEhxzdioIJBMluFbmzwRIDQgQFKjQYDMoDYBcg0mClAy2iwBajTYLBN5vdBlbwVJk4sgM9t1kOvyCpQs9F2v0RWZ6lAXT/3c4ldLeNVSMW1KuZhfDCOF1gbCTxcUy+K4a64yHruOOe+cK4464qQrAr1kk3XVWatnyCpfVJhmirLCfMV2er+9zVGXXHbSeefCnAWK8+o41+bt46EkxJ3OkyQiNT4/YbJCAQAAAA==");
 
 export default SquareDown;

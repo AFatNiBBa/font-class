@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `walkie-talkie` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/walkie-talkie?s=sharp-regular walkie-talkie}
  * @preview ![walkie-talkie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/walkie-talkie.svg)
  */
-const WalkieTalkie: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M112 0l0 24 0 72 48 0 0-32 64 0 0 32 32 0 0-32 64 0 0 32 40 0 24 0 0 24 0 192 0 9.9-7 7-25 25L352 488l0 24-24 0L56 512l-24 0 0-24 0-134.1L7 329l-7-7L0 312 0 120 0 96l24 0 40 0 0-72L64 0l48 0zM48 144l0 158.1 25 25 7 7 0 9.9 0 120 224 0 0-120 0-9.9 7-7 25-25L336 144l-16 0-64 0-32 0-64 0-48 0-48 0-16 0zm88 48l112 0 24 0 0 48-24 0-112 0-24 0 0-48 24 0zm0 80l112 0 24 0 0 48-24 0-112 0-24 0 0-48 24 0z" />
-    </Icon>
-);
+const WalkieTalkie = createIcon("walkie-talkie", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABbwAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCIAsGAAE2AiQDCAQgBYMtBzQbJAXIHoWNYznSRlniRxBfOh4+5sLeT7I7bVKClDNVAIiuVYDja4kdGrNz9ubk6U1mVYQKeZ/+3p1/20Of0Uf6u3BNkEVj7fMEAh7L0y6hLLBIOk/AOpr3wiCGdqGOd8jiYjxQI3mSwH3vTeNf3dwiUUsBRDsATF+7crEfjWhE/G2+Jf5aiICYDiqBFCl6CjBJKtBTpkImEzSi2RT/gRUBRF3w3QnIUMcpXABkIJFl2eRuRVHUWmdrilq+URBFRBRBpEJgOkW/WN4qsDogukSgKGj+KqF/dJ6Gi6C6xsDqfFWRFyLP+YTqgb6v2r36jz0c/V6W5TzDVKapVOp6v7L0Q26Pe+4olR0de+8ZJvejYp7SsKn3XwbWSO6chnOr973U7v3QY8fuDVPGE8uq54FA0DhWl61tJ/1fkYB/Pq1+Rpo/4loyWkhAkA5qDrIprkFcEwCAJM7oG9cQSBySCV61lYcChBwBEnW5AKke2gmQyQ0UoKa30QLU5VZKRdZS6GRzDRKtHAepMS6DTCevQc0kP9N1nSIFPAtsrMu+vHPa0Oxd1fAhw6oJ1WRHacOSYTcnVqt9/c7Iif74pj2OOuKU3XbZ71SLO2Fx7rTD5swRs31QZbghhqlMUO3u37+8xm4nnLTfUUfcbSaqzk/1c2Z+fn8cTASaIzQlEiJp/bPAxO7BpzIAAA==");
 
 export default WalkieTalkie;

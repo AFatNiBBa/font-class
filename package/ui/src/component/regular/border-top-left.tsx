@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-top-left` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-top-left?s=regular border-top-left}
  * @preview ![border-top-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/border-top-left.svg)
  */
-const BorderTopLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 456c0 13.3 10.7 24 24 24s24-10.7 24-24l0-352c0-13.3 10.7-24 24-24l352 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L72 32C32.2 32 0 64.2 0 104L0 456zm128-40a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm192 0a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm-96 64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm192-64a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm0-128a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0 32a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm0-128a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const BorderTopLeft = createIcon("border-top-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABnwAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDAgsGAAE2AiQDCAQgBYMtBzYbiAXIHoVx41PiVEoRcUKWDfyXxfPUfq/n7tsXYFaoiroSbYVlXRlXIgWsbIzJ1HYq9PeD/eY7oJnWQ8wTNPEkE5HmVjJ1bd68hF/KVqna9/m/3POzOf3zCdw7OpSxcaT5Bt9LEwjDs8rXEsrCLMDEsNFtV0FEQ7N1xg5qPtE9WsoH0S+euTfNP7OOKdoGQEYAANfvNst4FyKEzjvIuRsgkOsAVhAaNFhA4BKxYIHECqiqcEHDDvsPZAiQLgFc3F7Rh6/4Daig6Kl1Sgty0naw3lGpfT5s/pxv8skxGPwbH7cG8s35a6bcvdQlr/F08k3/lfFdDgxv+6RdsnVldLwx4bB6m/rQCu3YbB6M/Plv+p3+1TNZr+tHkcqjqE+mC5GI4t6eQ3EGZ0OggvV5784ZKVC1tz77cHhe8TxAEB5/Pp0fUWb/evoL+Pv4Pz9f5yLvZQB6FBCag+GBbt6BKQMUS57APPNBQfFJj+BVB7wVEH0IKLr0CWjMUyFQ9dlHoLUkhkCXPjeJpfaKCb0aFAPug8apHVBNeACtSz4KXSbSXKnOdeb8JxaW2lBxGYf8QU7zZEXpXnyWnszw6si5zTtccCumrVi2acqkOZstbl25vGVJaY4o+iIW4hfE0nh3/f76jinrNsxZsWwXyeDzs07b8/1dMCMS6B5aWRRShr9q2W8x");
 
 export default BorderTopLeft;

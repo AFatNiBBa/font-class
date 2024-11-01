@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-from-dotted-line` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-from-dotted-line?s=sharp-light arrows-from-dotted-line}
  * @preview ![arrows-from-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrows-from-dotted-line.svg)
  */
-const ArrowsFromDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 1.4l11.3 11.3 80 80L326.6 104 304 126.6l-11.3-11.3L240 62.6 240 176l0 16-32 0 0-16 0-113.4-52.7 52.7L144 126.6 121.4 104l11.3-11.3 80-80L224 1.4zm0 509.3l-11.3-11.3-80-80L121.4 408 144 385.4l11.3 11.3L208 449.4 208 336l0-16 32 0 0 16 0 113.4 52.7-52.7L304 385.4 326.6 408l-11.3 11.3-80 80L224 510.6zM56 232l0 48L8 280l0-48 48 0zm48 0l48 0 0 48-48 0 0-48zm144 48l-48 0 0-48 48 0 0 48zm48-48l48 0 0 48-48 0 0-48zm144 0l0 48-48 0 0-48 48 0z" />
-    </Icon>
-);
+const ArrowsFromDottedLine = createIcon("arrows-from-dotted-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfAAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCNQsGAAE2AiQDCAQgBYMtBz4bQwXILgpsY+rQRRgEGWLRYjEuFHwer4wRUWtkz94+YgBBAUkkxxZlFOqPIqFIKAQV4cmmImNzFqy12Xet+yIerak2E/BGozRCvAieaN4sMKrM+sts9V2HkNbGm//LPb+htwG/0aHs1Zg+tn5qrucJBHgvO8+XxlmYJZwQNThvPKQ5NIXyC9Q8BFLK4zKmqjfNHzPcU9QGABkGALtPdev4/JmfyX8b+W4fCGQPYD5CgwazEdhGLJhNYj6oqvAzbRv9B86HAOlE87ACKnpwE9wDVFB0VYlrkbKpqaVayWBIVU0nJq39TMQfWzqRUL1Eia2MJxh7hplWmKFtkDRDsaYd9asJkWPQDPBAvYyfRXofhSZWqeWN/myruLydN0/NTnY+H+4vux/van7gQ4fw4TLBXhcMmMGFMsFlHw4dgvA/Lz6ZtDFBvfVLbmod9VqI378eIAiHbn2ToW3/uvtEgN+vnjyvu/2YFyV0KyA0q1vM8kG37rwJAKDklpPxQUFxg1zzqv0eCIheBBSdegU0ZjEgUPVahUCHuTIIdOp1jFiqEjFuvoOi3zXQ2OoOVOMeQYdtvhqdxiN2gooDUv4AM2tnpHqKN0TjXOTPgVV1VRLzsMTC4fLbeCEAU7Fy5uTa0sLW9Ym7VG/fOKqxiKovYglRcayIlcff4YGlS1e27x71Y0rYfNXvlr0+ADMiDe9GZ4pCiv3c9RBiRWwrFLl45fp6uYg4VQAA");
 
 export default ArrowsFromDottedLine;

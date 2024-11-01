@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mars-and-venus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-and-venus?s=duotone mars-and-venus}
  * @preview ![mars-and-venus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/mars-and-venus.svg)
  */
-const MarsAndVenus: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M192 224a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-        <path d="M337.8 14.8C341.5 5.8 350.3 0 360 0L472 0c13.3 0 24 10.7 24 24l0 112c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-39-39-24.7 24.7C407 163.3 416 192.6 416 224c0 80.2-59 146.6-136 158.2l0 25.8 24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-24 0 0 32c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-32-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l24 0 0-25.8C155 370.6 96 304.2 96 224c0-88.4 71.6-160 160-160c39.6 0 75.9 14.4 103.8 38.2L382.1 80 343 41c-6.9-6.9-8.9-17.2-5.2-26.2zM448 48s0 0 0 0s0 0 0 0s0 0 0 0zM352 224a96 96 0 1 0 -192 0 96 96 0 1 0 192 0z" />
-    </Icon>
-);
+const MarsAndVenus = createIcon("mars-and-venus", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABlQAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCQgsIAAE2AiQDCgQgBYMtB1gbbAXIhocHvf86N8kHOBmYlYRuVnZFv2pZDtqF6zdxzfO3pgcs8kfp1AeJBUYFT2BC5YXT3SyFZjpx29tERNAjCjs6PKRFRMdnxxl0hCy+T69RQvJgUsDtaXv8qsM1JCpSiYh6/A3Q3HWrlvj4QlxIolB8hyhYjICYB3KBFCm6BZghFeiWyZHJBBeSYpELUSzmBBClBExZpXjnq3ALIAOJVGTZ/LqumqqSmmxtVUnlvvvbquLZDnFP8z2ts2JIvNrzxIz3F4hO3gMDKkNE2nOdEZXhPjwYLo74ctaH/X6Z/dG6L2YOj1lxX9uaKyPiyvxYq6/sjHho0HOVNw14pv0BV3Q8OPDZqpsHP9/1cKx7dOiLw1/u89iwl4a80N3vpfqXfu9b2Fuw4o0tfx23ouW4up9+enevG5yuq9608cVO7ZDXsqJdDll1cnuTTi9u3FQd8wuF+fHxM2vs9fKWIzkAsO31zi/4YvPhjo7Dm7/4opMaqNJH59NLf/99KS3XA4HgUtms/7bVzfi/vCoBl97981/+IfUrfhx/JS+hXAKCdERxhM0J/dTHXwIAkMRZ/RK2+1ggdURKPrXafQKESgRIlKoUINWlXoBMpeEClOg1UYBSlVZJRVYhNNuCRKLaCSI1yTki0+xtosQMX8WlmiN1RdGRxIdg2iILLNyUjx01Jp+WDxtU8i4+LE7Pl70hZ3lgKBy01zFHnbbHbgecNvhJSzJnHLFohi30RbmxRhkjN02+3b7W1mJ80ikH+sr+OtPl56Mhzs7HD4UwIYzjbEmlRBJp67e9hSN3HN098uyeo2dUcusV7UdayhUGAAAA");
 
 export default MarsAndVenus;

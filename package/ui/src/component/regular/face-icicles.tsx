@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-icicles` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-icicles?s=regular face-icicles}
  * @preview ![face-icicles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-icicles.svg)
  */
-const FaceIcicles: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48C141.1 48 48 141.1 48 256c0 1.4-.1 2.7-.3 4l-15 180c-.4 4.5-4.1 8-8.7 8s-8.3-3.5-8.7-8L.3 260c-.2-1.3-.3-2.6-.3-4C0 114.6 114.6 0 256 0S512 114.6 512 256c0 1-.1 2-.2 3L496.5 504c-.3 4.5-4 8-8.5 8s-8.2-3.5-8.5-8L464.2 259c-.1-1-.2-2-.2-3c0-114.9-93.1-208-208-208zM168 320c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0-48-8 0zm40 48l32 0 0-48-32 0 0 48zm96 0l0-48-32 0 0 48 32 0zm32 0l8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0 48zM168 288l176 0c30.9 0 56 25.1 56 56c0 15.7-6.4 29.8-16.8 40l-8.9 86.7c-.5 5.3-5 9.3-10.3 9.3s-9.7-4-10.3-9.3l-7.3-70.8c-.8 0-1.6 .1-2.5 .1l-26.7 0-6.5 38.8c-.9 5.3-5.5 9.2-10.9 9.2s-10-3.9-10.9-9.2L282.7 400 168 400c-30.9 0-56-25.1-56-56s25.1-56 56-56zm-23.6-80a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM256 512c-75.5 0-143.3-32.7-190.2-84.6L72 353.1C106.9 419.1 176.2 464 256 464c3.5 0 6.9-.1 10.3-.3c7.9 10 20.2 16.3 33.7 16.3c7.9 0 15.4-2.2 21.9-6c1 10.1 5.6 19.1 12.4 25.8c-24.7 7.9-51 12.2-78.3 12.2zm151.3-49.5l7.4-72c8.9-10.5 16.8-21.9 23.5-34.1l4.7 74.6c-10.8 11.6-22.8 22.2-35.6 31.6z" />
-    </Icon>
-);
+const FaceIcicles = createIcon("face-icicles", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABvgAAALyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiDewsGAAE2AiQDCAQgBYMtBzMb/gVRlA5GiewjMd3aIeMs4ZyqGIbCFrV5acbD92uv5959GwB2rFCxjkRjw8bGpa2wFbIVElCYP7VELrM+ZPf53v+eOWNO3gOd7ARyB6ICt4qApoLqy8Q19eP86T0SX3woH4nL0igqyjyfwACHYdEgu51Hgc10ArbFbVdBREMcIbGBEi9jl5p8lq9xHz40vpi0jlRXAGIAAByeD3bjfoutiFfNFeKVIxAQh4AFRIUKMwh22AVmOCyAogha0TTiP1BBANEmueMEBT34hJ+AAlJXKcsLhdcrM4ODw4V0+jpM6RSjP/eR74etwjDuCzkQZnI1vzU+6n2nv3S/qX8wfBVWY1WUS3wd+GiOOBlxOEWSFNVSyIogJOGllLPomegjqdI0u5xTofsjD4VcNkTqF4wZmXFnZ54OOxB1NPxgmnkwnDwotyouVoXsE1vCDD0YIaWwKYgLj9jSQb6s0bxQfqN5q9yfsjV8f+hlofUwfTB6OA8lJ1oB1veE19Neo9mpaQEWtc3mdwlhExa4Kr7NhtaIyN2rWzGs3h0ZkUWCfv+sZ4LLHx9MkNSWpan9+0ND+z0w4FmplDKgYEwwEq6CAaU86pbnTO95PHXB0E+3+3+HCfeqVU1eC0AwGkMgPB5uYjH2Fv0cWhDe67sJ2OTrt2mTXw74enzvxbcjwFgip/X2lptzQb1Ytzv2+Hi/rt8e9OyfO9KZccBwt4qzvdvj6PBrDyAQLFzcShjvX/WvQyb4/OLn//pnpLmf8jk6JAiqtWbNmAQkAQDIuJOYQCC90iW51h4PAoQuBEhtugSoTAtAUHRZRVCbU4ygTZdjdlE6hRFjezr1uKQr25bTxYhLdG3Hs1ibkbBDuQKjyk9mZssYbp6k8nMNVaE2S1oVcCU7WqlOW9OXyZYMPBfTzDfPElNNMdOSEbpId3KpuVr2kGZfpOTLZVAqqNvV56Y58iyyWErr+v1xKqn3g+mW7XfPwA6bxOK6opRE9nxDnpyZk7lvztTF");
 
 export default FaceIcicles;

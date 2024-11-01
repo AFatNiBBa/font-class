@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-arrival` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-arrival?s=sharp-duotone-solid plane-arrival}
  * @preview ![plane-arrival](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/plane-arrival.svg)
  */
-const PlaneArrival: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 448l32 0 576 0 32 0 0 64-32 0L32 512 0 512l0-64zm192-80a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm96 16a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M32 64l.3 132.1 88.5 89.3 298.9 81.2c42.9 11.6 88.3 9.4 129.8-6.4c28.5-10.8 34.4-48.6 10.6-67.6L526 265.3c-13.5-10.8-29-18.8-45.7-23.4L375.7 212.9 256 0 176 0l48.8 170.9L128 144 104 80 32 64z" />
-    </Icon>
-);
+const PlaneArrival = createIcon("plane-arrival", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABegAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBbwsIAAE2AiQDCgQgBYMtB1YbFwXIjsQ4JvGLWNDi4Xvb1859r+fXTs+69IqZYpZrChGeeQj5FKGFFOGv9//5v9zzs00H+PkIDm0PPZAFPkdLEwhwUb6pMJCE0iwzbHe2reVQa58khCTHZ8rvBEUanB9oIH2QfsNr8j+A8bduHpA0ZgDRFgBzN69f6YfmaE7xW/1L4jcrEBDzQCWQkdFTgBmyQE+FCoVC0JzqaY76igCiRuBMr+ETNuEgoABJyEXRp7FDh6aGVsUmvqPcLmyMvfHH8k96fDRoWnw8aFNsijI2sjwOf6KpbCPK1rH5TseIt8tnnd+Nu13ea3re6R0by+39Pm/7+b99fzv0mz63H8hrtmwxbK25bf9fMnBC7x5mv3u4p8u/W2PM5/Z0d9viNlTVnTmqPXO+X936CU9aU4JW7G5TPw4EgoXXpv+1u82M/1o0JfDnV/4K96v/kO6kz9FCAkEeUR9hR7oDRA3gS6W4pF+6o0IgGy3Td23pXQFCiQBJTSlA1kNbAQql4QI06G2iADWl9bIoGoWOdiaQtHQWZJPcBIWOvgANZvgxqOkY2cA48+D+d8mLcmjhpmrsqDHVtKqbiLzNMH5+ejVtD7nkGkPhqENOO+WCgw446kJGnrMyvuikRSNioQ+qjDXKGJVpquX8Wt5EwTnnHW2L6+tMV+33h7g07h8KXqK04xzIMpEid7oN+sjHUh95WDu6NMSDCQ==");
 
 export default PlaneArrival;

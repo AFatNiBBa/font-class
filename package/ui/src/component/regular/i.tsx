@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `i` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/i?s=regular i}
  * @preview ![i](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/i.svg)
  */
-const I: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M24 32C10.7 32 0 42.7 0 56S10.7 80 24 80l112 0 0 352L24 432c-13.3 0-24 10.7-24 24s10.7 24 24 24l272 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-112 0 0-352 112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L160 32 24 32z" />
-    </Icon>
-);
+const I = createIcon("i", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABTgAAAG3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBAwsGAAE2AiQDCAQgBYMtBygbewTIHoPjbgmF3CPiUa/X8wFiWLSKh//WfvfNzC6mTSxp0uQha8leKiSV9EukUso/VDLUtWJN9/4/TO4CwDopIShC5ToeSNWhMRGm02C+uHneeRTgg0htzNvYBtyDE+g879Iu8AUcWKAcU9bOzuAGyPrpUz5Juz7DZocSY3GlIt0lcFkfGr9crkiqDIAYBAC7R30d+GhQO+K3eSK+tYGA2AVMI2RkjCOwQRQYJ5kGRRG0qWniP5AhgKjR7kugIGMOLAEoIIkicU+lkwZ7KvXYp/PO3xMCqUlcfXE/dh+gIJIGG2dbxtbfzCLHS4/N1rONadtkwAh9xB1AIJj6Oj+aMmz8dWoEwM/7/7/80U2DdlILnRII8lKzZDwugNhBAIAUhzyxAwLJNAEAAECvawFCNwIktW4BsjFGBIpuiwhUJuURqHXbI4qiQhg10SHpdQzZumMoRj1AZcOnXhuN/FJIP5Mftbh6QGpTnE6kuMJTj1DOx1O3yst86JCZMFaxaMumfQvmrdhX2K4O68CGuoXWvIilJaSwCt4OH5cHLdi1Z8WWzTKmis+LIYd2eRhzCIDlO8apRaIVAAAA");
 
 export default I;

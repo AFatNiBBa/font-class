@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-root-variable` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-root-variable?s=solid square-root-variable}
  * @preview ![square-root-variable](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-root-variable.svg)
  */
-const SquareRootVariable: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M282.6 78.1c8-27.3 33-46.1 61.4-46.1l200 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L344 96 238.7 457c-3.6 12.3-14.1 21.2-26.8 22.8s-25.1-4.6-31.5-15.6L77.6 288 32 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l45.6 0c22.8 0 43.8 12.1 55.3 31.8l65.2 111.8L282.6 78.1zM393.4 233.4c12.5-12.5 32.8-12.5 45.3 0L480 274.7l41.4-41.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L525.3 320l41.4 41.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L480 365.3l-41.4 41.4c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L434.7 320l-41.4-41.4c-12.5-12.5-12.5-32.8 0-45.3z" />
-    </Icon>
-);
+const SquareRootVariable = createIcon("square-root-variable", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCBwsGAAE2AiQDCAQgBYMtBzsbEgXIjtMV8Uyb4BIP/7/2r/vcmU/vhWFCRAqYHAGpbxNWcdBWOCDbVVkX6JDXd3zT38/zf/7pAz76RfBROleFUeed5xOY2G4WaQMvG84mirMtxzn4w0cIDSEhYSLSsL00LJ0gj1+zEypId9MvuLx/aPyrpRMkNRmAaACACQvnzvHxr/gr4ucfr4mfzUJATACFQIYMbQQYLRNoI1cglwv+ih8/+D+wIICoJA+YQI4cG7ELkIMk5XnvQeWKuvmCckVp4/1uEbfL5Tjf9KYjTW6USrEo7nR+0WpBlOJcs1txtHlQ8brH/Fg6X5XIRMbEuDTP9ugwfIXO2WOD6JPP2+OCWDq4Y22D2v/4ZcMvWu2eV+Zrs8/qnTlT76B106ZN1gwa/2S9+jq79dW/7/id5nXYfu9OXereOessMIyuW/fsHXdMUde7HwgEo9+eH7ay/uj/q8sJ/POhcYsff6bxqRbVEgiy3j96W4YMbOQAsikO6IivIpCslMi71nFLgFBCgKRSSYBMaw0EyJX0EqBCO0MEqFQyVybyGqGJ5RdI6tgNMkMdBLkmXoIKo33KVWoSWa/xncL/6qVMtdCUdcWAvv2LkcVjkwrtw87lUUXa6X5gDPXAVhvstMM+662z2T6D7DGnuN92UyN4ih8qDNBXf4WRinLnu7LA5PbYa7Nvqq8ySvF+orsD8eQe8BOhHKgqSURqsl7VPh+C2WfJAwAAAA==");
 
 export default SquareRootVariable;

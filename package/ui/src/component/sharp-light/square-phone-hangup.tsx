@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-phone-hangup` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-phone-hangup?s=sharp-light square-phone-hangup}
  * @preview ![square-phone-hangup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-phone-hangup.svg)
  */
-const SquarePhoneHangup: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 64l0 384L32 448 32 64l384 0zm32-32l-32 0L32 32 0 32 0 64 0 448l0 32 32 0 384 0 32 0 0-32 0-384 0-32zM224 160c-58 0-116.1 21.6-160.5 64.9L52.8 235.3l-9.4 9.2 7.2 11 37.3 57.2 6.4 9.8 11.3-3.1 74.7-20.8 13.9-3.9-2.4-14.2L188.6 262c23.3-4.9 47.4-4.9 70.7 0l-3.1 18.6-2.4 14.2 13.9 3.9 74.7 20.8 11.3 3.1 6.4-9.8 37.3-57.2 7.2-11-9.4-9.2-10.7-10.4s0 0 0 0C340.1 181.6 282 160 224 160zM85.8 247.8C123.9 210.6 173.9 192 224 192s100.1 18.6 138.2 55.8c0 0 0 0 0 0l1.3 1.2-23.7 36.4-49.5-13.8 3.2-18.8 2.4-13.9-13.5-4.1c-37.9-11.4-78.5-11.4-116.4 0l-13.5 4.1 2.4 13.9 3.2 18.8-49.5 13.8L84.6 249l1.3-1.2z" />
-    </Icon>
-);
+const SquarePhoneHangup = createIcon("square-phone-hangup", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfwAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCNAsGAAE2AiQDCAQgBYMtBzobPgXIHoVxYz2yK8fHwfjR8fD9Wp/nvu6ZBaBeQOCQ3S8DpAjdL79gU5HR0yzMvlQz5D1+6tTzPw8F8D3iQVmLJuXiG2SMcR6BgAbrBe95r9SC1bQC1ttJneIGpTNJXPJn2M4wWtwhj9dBifQyhfvuQ+NfrVwhyTMA0RAAE5cvnuuHd/Eu4p/KV8Q/ZiMgJoFCIEOGtgKMkQm0lSuQywXvolIx/4EFAUQZvU8COco4i6uAHCR5ntdqNLJTnVK9fFmdUu3tKUt1I4t6vWvXqStSiDr1IrKIJbeGRHw5pmk0jWYxMZpFi1geLaJ5tI5vhrasgKVgMoHiRR/+sK9rr7rO7YUZ0fD6xLRog+pfM4btVjEl+pnrTlUNq/7zz7Z8ev4CiTS2UhQ/FC4o5M/Cc7097z6feuOlU2ZY6Qszm6jWTifdunXSTrWZTX1upRlOeekN8On9PjeXfzNv3jfQ0GFtDRo0Hzz4efFRdR0GCARr1z08sr7BmP9r1kngw/dN/Yoq7+KHVIWaEgiyPhXWxA8QPwgAQIpjOsUPCCRH5ehV63omQKiNAElZbQEybTQUIFdbbwFK2hsqQFlti2UiryU0tTbBpK6DMDPMWZhr6gtYMsbvblnTyESQESDmAZg4jYOpZ8XAfgOKUUUzF1mpoux+dDGt9DiGvZ5w0zb77XPEVlvsdIShh8wNjtprWg+Z6osKA/UzQGGUYru6FJcx95DDdtb5/SOjFeetHo71p3uCnhDuILEkEanJLZb7yqnRd8cPA9IBAAA=");
 
 export default SquarePhoneHangup;

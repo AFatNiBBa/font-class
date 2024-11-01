@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-exclamation` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-exclamation?s=sharp-light message-exclamation}
  * @preview ![message-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/message-exclamation.svg)
  */
-const MessageExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 416l-32 0-96 0L0 416l0-32L0 32 0 0 32 0 480 0l32 0 0 32 0 352 0 32-32 0-176 0L192 490.7 160 512l0-38.5 0-25.5 0-32zm0-32l32 0 0 32 0 36.2 94.2-62.8 8.1-5.4 9.7 0 176 0 0-352L32 32l0 352 128 0zM272 80l0 16 0 128 0 16-32 0 0-16 0-128 0-16 32 0zM232 272l48 0 0 48-48 0 0-48z" />
-    </Icon>
-);
+const MessageExclamation = createIcon("message-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABZQAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBYgsGAAE2AiQDCAQgBYMtBzob7ATIjsO44TuyxVI+lYrg+7Xe73NndiuZDcMNESlgckA+jlSinwqSYyNexeYD6k1mRJb5v9zze350gN/o0Ma0OfW27+Z4nkDgbducSFlgmSZgWTt7xSfRbRJSPsmwfRkmizuU8TZSI91PcDt9aPzS2y2SsgAQnQCwaPP6dT61RmvEj+Zz4oc1CIjFIAsUKNBPgLkKgX5KGaVS0BrNpvsPzAQQdXidBErUsQE7ACVIyrLs371z20atfbmpUas2V40qooiIRnuRQlTVhhgZYBpCVojN0dP6jSLa8Z7GdkGIynMbGGsfHdzSqeX3QQ7xYGDOD7M9styaNz06vdp/husj4yxD7ZzvgurRHp/sce30hE7IXdNJ1onRR3ycSBz7PAgEE551eHfHuf+3aSTw882ffzO/ouanJLWgjQSCYmwzOxJIBAAgxSWDEwSStUp413buCBAqBEjqKgEKfXUSoFQZI0DNANMEqKusV4iyrdDNzgqSds6CwnSXQambp6Bmrs9BXbcoNIvQC+JdF7u8h5aty5PGT8yz87RRSGXBwvKcvMyPvMRDo+ikQ0475YKDDjjqQoecsy6+6KTlErzMF2WTjDdRNlve7jwe3uSgc8476rRTcZU58nl7pEvy5FEkJUCdrJQkInXVt+Fxf1aIe09eFgA=");
 
 export default MessageExclamation;

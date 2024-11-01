@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paw` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paw?s=regular paw}
  * @preview ![paw](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/paw.svg)
  */
-const Paw: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M193.9 189.7c-32.3 10.6-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5s-.3 86.2-32.6 96.8zm217.7 8.9c18.9-32.4 54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3s-29.1-51.7-10.2-84.1zm-311.3 0c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM277.5 92.9c14.3-42.9 52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5s-46.9-53.9-32.6-96.8zM114.3 409.7c-1.4 3.7-2.3 8.5-2.3 14.2c0 4.5 3.6 8.1 8.1 8.1l3.4 0c2.2 0 4.3-.4 6.3-1.2l72.7-29.1c34.3-13.7 72.6-13.7 107 0l72.7 29.1c2 .8 4.2 1.2 6.3 1.2l3.4 0c4.5 0 8.1-3.6 8.1-8.1c0-5.7-.9-10.4-2.3-14.2C352.1 287.4 276.6 272 256 272s-96.1 15.4-141.7 137.7zM69.3 393C121.7 252.4 214.8 224 256 224s134.3 28.4 186.7 169c3.7 9.9 5.3 20.4 5.3 31c0 31-25.1 56.1-56.1 56.1l-3.4 0c-8.3 0-16.5-1.6-24.2-4.7l-72.7-29.1c-22.9-9.2-48.4-9.2-71.3 0l-72.7 29.1c-7.7 3.1-15.9 4.7-24.2 4.7l-3.4 0c-31 0-56.1-25.1-56.1-56.1c0-10.5 1.6-21.1 5.3-31z" />
-    </Icon>
-);
+const Paw = createIcon("paw", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABpQAAAK4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDBQsGAAE2AiQDCAQgBYMtByobfwURlZodyT4SctOkH1izp4rGm+Cff51635csQ5CURCUimutuPp2ApnaMCGz3u+3GAXaeSCCYeGIRNnFN/bBVAH6QDyUaIxOsgyew89QOW4PMBjZRnLU57wYfFMRNTJ7Ax6Q1Wn7YWtoCOx5oKwGYYz4CW8qX6pPDSjACCQCABgAA0KxPj048jSkmffBvQY8OgADaAHgIWMACLgLQEIuAi80DbDYhJt+P/4EeCABqKsE42QYhcBy4AgDYAAyn7LQQW6JCXCDB7p2Wiww4WVo6X3A470CZM+VO5R/K3luy1xEvnSl1KmefcGe+07n78+KpkcglP8r7HFmALjDdg2WPKey7k10ZcdqQ1Ucf2vXSrrg47clalnm9/HleMX13yZNlz1at/7mJ9KSOdKfUmVq3Gj3qtYu96TtLRrQ+s7du1+ypnZFx2W4tyyp+Pvn872IfR3/kmVYvgalXt64/MHf11CVt6JfQt77Qr1yFzDJR4WFy6axo3WgZyKxQrl/fb9Gs0sFwbdzRa7jVcw+s33qVj7cdPdEwPewMtbFmW5eWPdu4eLbFUCecvvDjp7nrjh5dN/fTx4VPc1vVgJIu5Ddtmu+WrKFHdU4O/i2aapFw27g0bFieeTPBItv3s5M7A4CAUNt59XJIUsN/oTgDwNf7f//zRL/IjxljzgMhBoBgLb8iAw0GUNQSPaojZlMc3UTA2M97/9R4uxEAiQABMBwRAmDJIxkBsEVUQAACCqiFADgiemBRhZF0Bg3EiDcNsdRmEWJL5wYS0JA3AUe6LFcVOprwSzEZaK3hVp28apWrevW9aUIXeR8/NzbwluVlZ0tBOYxktCkmm2mUkcaZqdjTdQrPMklri9rKD3mqqawqT33edvqzrLfCTTfDOJrJ9ttpwLvfXNZsu3w5qIzKsTqPYfyx2DB12BwAAA==");
 
 export default Paw;

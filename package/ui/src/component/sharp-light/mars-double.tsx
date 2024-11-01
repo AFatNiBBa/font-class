@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mars-double` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-double?s=sharp-light mars-double}
  * @preview ![mars-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mars-double.svg)
  */
-const MarsDouble: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M304 32l16 0 112 0 16 0 0 16 0 112 0 16-32 0 0-16 0-73.4L311.3 191.4C336.7 221.9 352 261.2 352 304c0 97.2-78.8 176-176 176S0 401.2 0 304s78.8-176 176-176c42.8 0 82.1 15.3 112.6 40.7L393.4 64 320 64l-16 0 0-32zM176 448a144 144 0 1 0 0-288 144 144 0 1 0 0 288zM480 202.7l0-33.3L585.4 64 512 64l-16 0 0-32 16 0 112 0 16 0 0 16 0 112 0 16-32 0 0-16 0-73.4-100 100c22.6 30.6 36 68.4 36 109.4c0 101.6-82.4 184-184 184c-20.7 0-40.5-3.4-59.1-9.7c10.1-7.6 19.5-16.2 28.1-25.5c10 2.1 20.3 3.2 30.9 3.2c83.9 0 152-68.1 152-152c0-35.2-11.9-67.5-32-93.3z" />
-    </Icon>
-);
+const MarsDouble = createIcon("mars-double", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgAAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCMgsGAAE2AiQDCAQgBYMtBzIbNAXIjpNM8d3Hw//P/ds+N3l/tUkhJc4vMzkgNQiqegDADQvPrNAlR2AacYIZB+3e+b+c3z0/OsBvdEhjTZC7At3TlkBivWxsizdlYZYoZu1M6Q2iy0DSpzxh2H5YlR3k8XcM1yA9mj7G3fFD4wfd3CTJMwBRAWDOpnUrvPtpfBrx8f8vER9bhoCYC2qBDBl6CjBdJtBTrkYuF3wa//9P/4E1AUQTXDWBHA1cxO2AHCRZng/qMbxstM43lo3iUFmUQogicKP18daGWZ31t7Y2/rretDM2RVHE5tunRbwx6pm4NvLpqa8Xt01+dfiTro54aspr5b4Q8sgor0DNF+fAh7s8WL43651NGtn38erxn5o/PmijblXVPZXTKrXKEocPuWxOLK0SbsXIBK0+xzeHYElVX7k1KJHGNA8c2DwmpUGsgLxRf/aFeHhmTHX15Av37TOydawYN25F9Hnt+08+r357/LGY3fgaCASrPvxu/K620/9qUSbw+eu//Kac/f+n6Wp6HC0kEGTD/x9ue7oKNCIgTXFRX+GLAslJGbxrKw8JEAoESJoUAmR6qATIFYYJ0NDbBAGaFNbJRN5S6GhHA0krZ0Bmoksg19ELoGG695ImHSPTQEp/qPdf/EIOL5hXjxk5up5aDwsqrVSEH5xWL+uDL7qGIWapg0456bwD9jviPEPPWpG94ISFErLAD9XGGGm02lT1dvl+8UYHnHXOEaecDLNMU9+PB7sotx9irASYY+UkiUjlZ73SCI0F");
 
 export default MarsDouble;

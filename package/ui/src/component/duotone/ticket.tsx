@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ticket` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ticket?s=duotone ticket}
  * @preview ![ticket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/ticket.svg)
  */
-const Ticket: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 128l0 64c0 8.8 7.4 15.7 15.7 18.6C34.5 217.1 48 235 48 256s-13.5 38.9-32.3 45.4C7.4 304.3 0 311.2 0 320l0 64c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-64c0-8.8-7.4-15.7-15.7-18.6C541.5 294.9 528 277 528 256s13.5-38.9 32.3-45.4c8.3-2.9 15.7-9.8 15.7-18.6l0-64c0-35.3-28.7-64-64-64L64 64C28.7 64 0 92.7 0 128zm96 32c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32l0 192c0 17.7-14.3 32-32 32l-320 0c-17.7 0-32-14.3-32-32l0-192zm32 0l0 192 320 0 0-192-320 0z" />
-        <path d="M448 160l0 192-320 0 0-192 320 0zM128 128c-17.7 0-32 14.3-32 32l0 192c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-192c0-17.7-14.3-32-32-32l-320 0z" />
-    </Icon>
-);
+const Ticket = createIcon("ticket", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABjgAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCNAsIAAE2AiQDCgQgBYMtB0gbTgXIjtFjx5ElnmBdSZY8Lx76X/vdmbd/MW14hqQJDw0vmW7aTFIl5B8yVomcjv/9fu3cFdOHmO8ukiBZEpOmUkUsQvLf0EgidIZEs/m/nN89PzrA7yd+KHvq4gW+ZsNLIMCxveeJLPCAEg+Acs3a2XeFUvpNQkL6ZFjeMHKFKn7KJITkG+8NcBNeOH5hNQmktgKA6AUArO4WF4H7oi9evP1fQTRRCAJiDcA4QkHBMAIL+ALDBMZBpRJ85f8/fIX552MQQNTA/ZICarRgH5wBoAIplUogtUXbpHKhUlAmF8qaQDqDSFk7byBaBOLYuCRX0oJ5hYjGTMsyBR/hyXjk3AxcNIDews6ClHQScWEnWjYdu3ZCVsxE6+HnwQo6DD21lJ6YiVbEGOMSEMeGxdvSvGmZSI7QFUQK/3PN+efEW2PTg5vjOA+OZ9mtmgWuVRxAAPLwWfTwOuf7h1b78e70kCHY5exiocyDjlq1JSXns8YOfQ4gENz9flxX9WR+S+Q8wM/711/8FuUK7xzQKkFQpv4jlacHIFdAAICMQfinB9UgUKzj43vt9AwCoR0BUq1dgGKIBoFKu0kEGkYlIVBrt4kvKinCoAqA1GkPFPOGQGXQJWhY8BjWBoOvg4wGMS/AxIIazl/F4qJjWTobphKrVpSfz2DLZuigbYXRRTTq0qlfg3ot+iu0V1EyoEPBDMn3RkycaLGYdExc3IplCHv1aenz8mUysP1uqMH5cBg5PIw77UBRiCS+6kOOGqXLqqbk7ywAAAA=");
 
 export default Ticket;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bucket` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bucket?s=sharp-regular bucket}
  * @preview ![bucket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bucket.svg)
  */
-const Bucket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M75.5 0L96 0 352 0l20.5 0 3.2 20.3L397.8 160l-48.6 0L331.5 48l-215 0L98.8 160l-48.6 0L72.3 20.3 75.5 0zM0 192l32 0 48.2 0 287.5 0 48.2 0 32 0 0 48-36.8 0L384 512 64 512 36.8 240 0 240l0-48zm85 48l22.4 224 233.1 0L363 240 85 240z" />
-    </Icon>
-);
+const Bucket = createIcon("bucket", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABVwAAAHiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBLwsGAAE2AiQDCAQgBYMtBy0brATIHge5aeqe6YvCfRFBMFfOJrl7AEqJSAGTq2odKxbubR3HFX3rSJKsvvqq7ZAp2ncjp3LTeKnxC1an86yNXz0XS+/txSew+Pu+TxOZDWymE7BNzXtiAK8ztJ0hi+fxUInkafIFD9yHxh89bpMopQCiGQArdm7dovgRPyI+VxKfbUJArAC5QIoU/QIslgr0y+TIZIIfUamw/8CcAKIseG0CMpQwD+sAGUikWdbRUlNXash2qJW1e+tqG3pie9TGDgJsM3ZG37YBEUN2RX3sCcT27Tu2140+XT9yuHn4H19OfLHpXXv7hFE67pih+aKvWi6a0RRmwXV5Xkw3Rm+T5Ul4jOnbpnV8F9JvnKwTiNtufUtNi/9X1yXg18uX/4oqRRTJMKolIEgnVybbFwVEIQAASdwwMgoEEtOk3LvWeyRAqEWARFmtAKk+zQJkak0SoGTQHAHKam2ViqxGaLe/JhL1LhOpuW4SmXYviJLF3ptl7ZF+P8zTZ37fEte2wTWT8hlTp+cL88lYyX4SlB5dlK+Wx9/gtQnwpBMuuuCa44457VoLvmKLc915a+egNb4oN8NU0+UWyndn9w/vcNwVV5120QU7ziL5+cp4N+a7J8BpJICZV57i0UjKR64fPXv8Gg==");
 
 export default Bucket;

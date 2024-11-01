@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `engine` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/engine?s=solid engine}
  * @preview ![engine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/engine.svg)
  */
-const Engine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M400 112c13.3 0 24-10.7 24-24s-10.7-24-24-24L208 64c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 0 32-72 0-48 0-32 0c-17.7 0-32 14.3-32 32l0 56-48 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24L0 352c0 13.3 10.7 24 24 24s24-10.7 24-24l0-72 48 0 0 72c0 17.7 14.3 32 32 32l44.8 0 32 40c12.1 15.2 30.5 24 50 24L448 448c35.3 0 64-28.7 64-64l0-145.2c0-19.4-8.8-37.8-24-50L449.5 158c-11.3-9.1-25.4-14-40-14L328 144l0-32 72 0zM544 224l0 192c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-192c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32zm-256 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM160 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm224-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Engine = createIcon("engine", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABlwAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCDAAsGAAE2AiQDCAQgBYMtBy0bfQXIjsM4hvwSSxniJeLh/+f+c5+bfMobhgwzOiAog6yrelUs/IDtqiRI5tr3vz/1POfZgJ8jEAzKy1idr+nG2j4fa5BUsNWxrCK1Yq1AFeNebps5Lo+GtiM0zpDH39llNaTX00+4F940ftbeZZKGDEA0A8C0NSsWqb6IFxE//h/xowUIiGmgFMiQoZMAE2UCneRK5HLBi/j/f/EfWBJA1EqflkCOOnyILwA5SGryfG6Hlmm2UtM4X13eVez5tOMbvYv4qN3rvSohiuJmq8dEERFbIFBgAL2I7fLzrZ9UKjEoPj+V+XTAlx3BfP/x8Unhi5VVgknfavtslr7Q5umq9hDT6Fbr1BPneyxurgCFPaysLDFCAm0RU9acOKL7F82++KWb3dxbsqx162VV1d65SnOXNrl+vclYQ821gA1/tfLPnWqbdw3yu94vvvFe8+bFA022b9a5zXKlufeOVFMN9ErVStWglogE2iK2nOu6lHv+OyAQrBza8sSWphN/ra8k8Orr/2geTOfTF6iXQJAN/H+gjek8UGkAhRSndQc+KJC8qUb6qo08FSAUCJDUKgTIdNRMgFxhgAA1uhglQK3CCpnIG4RWNg0kaeQYyYx2huRa+YrUmOjbfK1WkUVUI5oZv4m5s6fUrF3lsMFDy/Hlbktnxj0NXJ1Qno70PS1H+uGDdjvisJN22WmfkxPxuEWlUw6ZDdGzfFFpmMGGKo1X3u6+xNUoVHiC17bN+2iCmO79or5Og6f3w7EkVRyuJklEqv1SAAA=");
 
 export default Engine;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pump` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pump?s=sharp-solid pump}
  * @preview ![pump](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pump.svg)
  */
-const Pump: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 0l0 64 32 0 160 0 32 0 0-64L320 0 160 0 128 0zM64 176L0 176l0 32L0 384l0 32 64 0 0-32 0-176 0-32zm96 48l-64 0 0 160 224 0 0-288L160 96l0 128zM448 96l-96 64 0 288 96 64 192 0 0-416L448 96zm0 96l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32zm0 96l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32zm0 96l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32z" />
-    </Icon>
-);
+const Pump = createIcon("pump", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABZQAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBbgsGAAE2AiQDCAQgBYMtBysb6QTIjtRG+UVWEg//P/dv+9zkU1KGtIoRHJCvI/d1AR2Dqm8H7KzKUfSq9n3q1PNMywZ8jvtcnAvImEDpHOcVqG/r1TdVqFawF8WqmxLB9lClforUwsoYO57R490N8vgnu6KOdDN9w9X+o/GXrq6QNGUAog0Apq9dudir3+P3iK81xFcLERDTQSWQIUMPASbJBHrIVcjlgt+jVqP/wIoAop7cnECOJqzFDmDPkjTkeVPbli2b8E5Z1zJfU9YVG4WyjChWFWUhhFAS7NXH2TKyKMLOVWtXJVbqLsqiFEUR83zfW21u/erzbc83519Ok2b1apqqdr+QHkSmoXDrUMM0+73Z7ELv81unjqCSYHil2attbdpcqLQ5VuXPgUCw6fu7H1tbT/q7sUzgzyd/4X21V+lCuoVGCQTZoNogm9IFIHEASYoz+jqQBZKlGkC+tYVrAoQCAZJ6hQCZ7toIkCsMFKBOL6MFqFdYKRN5k9DB5g2SFo6DzBhnQa6Dx6DOJB+Teh0iiy8lOpS/u8w5Gpm9rRo+ZFg1obpsLTVkpLI+sbod9jvDY/1x1R5HHXHKbrvsd0oJJyzOTztsjkfNBlFluCGGqUxQPe5tL6+x2wkn7XfUkbbJRNX7cT9n/Nn9sY8EGPFlJG5Gyo+dPnwMAA==");
 
 export default Pump;

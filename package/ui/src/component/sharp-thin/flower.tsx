@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flower` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flower?s=sharp-thin flower}
  * @preview ![flower](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/flower.svg)
  */
-const Flower: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M213.6 76.5C192.7 58.7 165.6 48 136 48C69.7 48 16 101.7 16 168c0 29.6 10.7 56.7 28.5 77.6L53.3 256l-8.8 10.4C26.7 287.3 16 314.4 16 344c0 66.3 53.7 120 120 120c29.6 0 56.7-10.7 77.6-28.5l10.4-8.8 10.4 8.8c20.9 17.8 48 28.5 77.6 28.5c66.3 0 120-53.7 120-120c0-29.6-10.7-56.7-28.5-77.6L394.7 256l8.8-10.4c17.8-20.9 28.5-48 28.5-77.6c0-66.3-53.7-120-120-120c-29.6 0-56.7 10.7-77.6 28.5L224 85.3l-10.4-8.8zM448 168c0 33.6-12.2 64.3-32.3 88c20.1 23.7 32.3 54.4 32.3 88c0 75.1-60.9 136-136 136c-33.6 0-64.3-12.2-88-32.3c-23.7 20.1-54.4 32.3-88 32.3C60.9 480 0 419.1 0 344c0-33.6 12.2-64.3 32.3-88C12.2 232.3 0 201.6 0 168C0 92.9 60.9 32 136 32c33.6 0 64.3 12.2 88 32.3C247.7 44.2 278.4 32 312 32c75.1 0 136 60.9 136 136zM224 352l-11.3-11.3-73.4-73.4L128 256l11.3-11.3 73.4-73.4L224 160l11.3 11.3 73.4 73.4L320 256l-11.3 11.3-73.4 73.4L224 352zm0-169.4L150.6 256 224 329.4 297.4 256 224 182.6z" />
-    </Icon>
-);
+const Flower = createIcon("flower", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABiwAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCOAsGAAE2AiQDCAQgBYMtBy0bNQXIhofn9Z469yUDOANInVjJlbCA2q3Jaus/cbnzP/8NuAbBo/xub5Axec/zBJZAl28qTCCwrEvQ2p1Nogi7SFpEazm+Ha+cII9rVilDupK+wfn8pvGXBo6QZBmAqA6A4XNnTvbB9/F9xNelV4mvTURADAeFQIYMjQUYJBNoLFcglwu+j1LJ/QcWBBBl4ZMTyFEWB3EakIMkz/NuzRtUqFSmSj4nvLbiwrf6fDLoneJG5zpROx41vjP43dGvD6wXdeLN3p8Pfb/lzS51o148bXZ3yHtjXulXO+rOvt3pcfPbg94Z9dmANyxtyHst7nV9Qhv6/thP+7+tCKubz6pbp+6cEDjmGrhOzEZqx6zE3FmzFzfNafGg+oN/mn+z5hvf7qj0QVGjRqr8bL/9nlVOo6b4oOJll1UsvNsnnXT7SytdcumPBennn1OF1XMuFFOmFBfmrK5A49+9/gD3GT/eAw/UyP1x4OYfB4Gg2zfHli+tNuj/8pUS+PGt//7S7i59Hx+kBygvgSDrVOpkUXwAThrAT0qxR4v4AIFkpxxmKrsoLYSKDCIpqyKRaaQ6kauoI1FGU701pmMmC468Qqa2xYZIKttOZPo4TORqe0mUMcjn2bJqR6aEhgoZT8AcYygwelPRvUu3YkCxbemmXmlxdWDBDrTb40faw1FrbLXFLqutst4ugu8wubDbZmNO4GgfVOiui24KAxTi7vPhOVbbYaf1ttqS1hmouJ9pZ895ensIJyjbQ12SiFT2Qw8A");
 
 export default Flower;

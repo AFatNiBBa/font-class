@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `3` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/3?s=sharp-light 3}
  * @preview ![3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/3.svg)
  */
-const $3: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M304 32l0 23-5.1 4.8L120.9 224l71.1 0c70.7 0 128 57.3 128 128s-57.3 128-128 128l-99.2 0c-38.4 0-73.1-22.9-88.2-58.2l-3.2-7.5 29.4-12.6 3.2 7.5C44 432.7 67.1 448 92.8 448l99.2 0c53 0 96-43 96-96s-43-96-96-96L80 256l-16 0 0-23 5.1-4.8L247.1 64 16 64 0 64 0 32l16 0 272 0 16 0z" />
-    </Icon>
-);
+const $3 = createIcon("3", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABWwAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBMwsGAAE2AiQDCAQgBYMtBygbqwTIjsK2nXOSpIwn8DCoiOr3tp5971IoH8ufOn2EJDROUgiFRqEUwmEEhcWIb/Vjv73/EZOHuzaxxHSa6UNUQ/NGEs38cfPPO48CfCQpjoXpAhkLbM7zBBIbHtj0ZYFl+gXsWzu7Swwiq/QpT7Ja9MNmhp6sWEMU6lNwBz7yS/NPUy9QRBoAyBYA8PCaFIOjF3oJ3Q3rkB9RIEAeAScEGmhghwBXQgR2RDDQiSD4pf/B/wcyCEDGKKcvQAcN3IEXAB1QqIu4SYvKiqQuRKXKEJUkR5rOb/YNhr33gqWoz3RSS43MSJXmXaRp02pWf9CSu0pJEalTWjgibcgV+JvBXekduy91LBmM5TGEiX9yFhV1Doovgu5bO3fDPUypvBehk3MJCc476xXUMXfUqwKDAkBA4HsgwTxP3vtPQloA4G/n4wt/RcML+RcHTAkAgXb+t5adViD3CABApZVh/EFAcSPApy71gwAhBQIoYqQQoNGmgACdFCsEGNHjggBjUpIIUZcEUZHTQEBGAwi5agMRKlZBlLdLVYxKhBZEvT/1gYsPlUhIH3OwtWeebOiqtFEQse3FlgXz1pCywCRK1anVrESxCs0CaxRjtKgRqqEhPsQ4sGWP8cS2g/vhVCUaNalQpzZ18cLOK+Za9WILMBfEvzihCJxY5AQAAA==");
 
 export default $3;

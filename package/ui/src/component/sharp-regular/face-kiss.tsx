@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-kiss` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-kiss?s=sharp-regular face-kiss}
  * @preview ![face-kiss](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-kiss.svg)
  */
-const FaceKiss: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm304.7 25.7c4.3 5.1 7.3 11.4 7.3 18.3s-3.1 13.2-7.3 18.3c-4.3 5.2-10.1 9.7-16.7 13.4c-2.7 1.5-5.7 3-8.7 4.3c3.1 1.3 6 2.7 8.7 4.3c6.6 3.7 12.5 8.2 16.7 13.4c4.3 5.1 7.3 11.4 7.3 18.3s-3.1 13.2-7.3 18.3c-4.3 5.2-10.1 9.7-16.7 13.4C274.7 411.1 257.4 416 240 416l-3.9-15s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2-.1c.2-.1 .5-.3 .9-.5c.8-.5 2-1.2 3.4-2.1c2.8-1.9 6.5-4.5 10.2-7.6c3.7-3.1 7.2-6.6 9.6-10.1c2.5-3.5 3.5-6.4 3.5-8.6s-1-5-3.5-8.6c-2.5-3.5-5.9-6.9-9.6-10.1c-3.7-3.1-7.4-5.7-10.2-7.6c-1.4-.9-2.6-1.6-3.4-2.1l-.8-.5-.1-.1-.2-.1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l0-13.9s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2-.1c.2-.1 .5-.3 .9-.5c.8-.5 2-1.2 3.4-2.1c2.8-1.9 6.5-4.5 10.2-7.6c3.7-3.1 7.2-6.6 9.6-10.1c2.5-3.5 3.5-6.4 3.5-8.6s-1-5-3.5-8.6c-2.5-3.5-5.9-6.9-9.6-10.1c-3.7-3.1-7.4-5.7-10.2-7.6c-1.4-.9-2.6-1.6-3.4-2.1c-.4-.2-.7-.4-.9-.5l-.2-.1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l3.9-15c17.4 0 34.7 4.9 47.9 12.3c6.6 3.7 12.5 8.2 16.7 13.4zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const FaceKiss = createIcon("face-kiss", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABvgAAALTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyENAsGAAE2AiQDCAQgBYMtBzAbNAbIrgtsMmTFtP/gFFmDIZbQ1oyQ8OjsJ3vxs8MRwccav313900wP8wsiVszayZNk3h0b1SGypAYkhIkyzV7lCoMxhE0jqCqRHejwTWLsAiFK1WXr/Eox9DNStu0NIr2wtICn0KnrfGvkb3+hghu3oc/rIFRtkAHta1AE84yz0vWV+bMyHnPkKH3BqkF/jdxOf056OlpZVN8G4+Fa1K2QKI5z7MsCjSq1zbJWGAJB5aA5bfze1cYhNskLgVdhk3+MP09ZHFPFjIk55IvjsQ3je8q9iNRkAKIagAM70+Z7PFb3hHvPhLvtBAQw4FcIEWKxgIMkgo0lsmRyQRf47P9D4QAohA/VwIyFOE3UQjIQKIgyxo1OlOrVlmmIptumdIljxhxY3nranrWzJrr41+2Xj9dgX1pRDzrfdl6/w2387+/bg9dHf/xfg1OQZvUEKfqeOqiy63qxhwBGIDle7kXEAPkp6U9pXQEumdcsMoZSIcCcya21ak60+/MqjPWZ6fM0pOl3XJgRjMV4c48U+9MGX+l+soPTx98XXrIDUf79i0r3/gdUWW1P2sWaLB7UuPJp8ToUE0bqtwKpDj9PqUMT7qfK4gozJiXXSH+UkME1bUpRSsjTfVuNTXvQREAQKWK6TXKOQRqiyHOL2d5pfgCh4M4/BIJwJP4oyxTkC7Sh0CcVDmilheQ9V95S8C3/eefkf8lkitQLAFB2ul/bW4CEgIAkMR2WiQQSPyUwZda7jQBQikCJAqVCpBqpFqATKmOAhRoqrcAhUpNkYqsRKhtXtUlym3SpfrYocvUdldXYJBXhUK1I/UEPBfY8wNacIyERy/LlS7d8gH5sKp4b7XLTw/Mt0PCdtfVHpqW22C9rZZZapWtQthscnmbdcbM+NE+KNddF93kBsjVjfv10y2z2RarbLA+zDJQfj7Xzvb54PaIJthiDxWJhEhKvq9C57besgUAAAA=");
 
 export default FaceKiss;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-dollar` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-dollar?s=regular box-dollar}
  * @preview ![box-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/box-dollar.svg)
  */
-const BoxDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M248 80l94.4 0c6.3 0 12.1 3.7 14.6 9.5L388.4 160 248 160l0-80zm-5.7 128L400 208l0 208c0 8.8-7.2 16-16 16l-141.7 0c1.1-2.5 1.7-5.2 1.7-8l0-13.8c8-1.7 16-4.5 23.2-9c14.3-8.9 25.1-24.1 24.8-45c-.3-20.3-11.7-33.4-24.6-41.6c-11.5-7.2-25.9-11.6-37.1-15c0 0 0 0 0 0l-.7-.2c-12.8-3.9-21.9-6.7-28.3-10.5c-5.2-3.1-5.3-4.9-5.3-6.7c0-3.7 1.4-6.5 6.2-9.3c5.4-3.2 13.6-5.1 21.5-5c9.6 .1 20.2 2.2 31.2 5.2c10.7 2.8 21.6-3.5 24.5-14.2s-3.5-21.6-14.2-24.5c-6.5-1.7-13.7-3.4-21.1-4.7l0-13.9c0-2.8-.6-5.6-1.7-8zm-36.7 0c-1.1 2.4-1.7 5.2-1.7 8l0 14c-7.6 1.7-15.2 4.4-22.2 8.5c-13.9 8.3-25.9 22.8-25.8 43.9c.1 20.3 12 33.1 24.7 40.7c11 6.6 24.7 10.8 35.6 14l1.7 .5c12.6 3.8 21.8 6.8 28 10.7c5.1 3.2 5.8 5.4 5.9 8.2c.1 5-1.8 8-5.9 10.5c-5 3.1-12.9 5-21.4 4.7c-11.1-.4-21.5-3.9-35.1-8.5c0 0 0 0 0 0c-2.3-.8-4.7-1.6-7.2-2.4c-10.5-3.5-21.8 2.2-25.3 12.6s2.2 21.8 12.6 25.3c1.9 .6 4 1.3 6.1 2.1c0 0 0 0 0 0s0 0 0 0c8.3 2.9 17.9 6.2 28.2 8.4l0 14.6c0 2.8 .6 5.5 1.7 8L64 432c-8.8 0-16-7.2-16-16l0-208 157.7 0zM200 160L59.6 160 91 89.5c2.6-5.8 8.3-9.5 14.6-9.5L200 80l0 80zM400.9 70c-10.3-23.1-33.2-38-58.5-38L105.6 32C80.3 32 57.4 46.9 47.1 70L5.5 163.6c-3.6 8.2-5.5 17-5.5 26L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-226.4c0-9-1.9-17.8-5.5-26L400.9 70z" />
-    </Icon>
-);
+const BoxDollar = createIcon("box-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABmgAAALYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDBQsGAAE2AiQDCAQgBYMtBzEbhgXIrgd4wwX1C9t4xhkmtCJbU26JeObGv+WJqouHD13a+1ptQBsGhRk7oI6Ap3eXAypKj9sjKs3Dy1h7/0QsKWap0RiJED3EyyRGFI2ss84o8UIDrwycc9U27f4Pttup7OLRnKlRpJkBE8zQkms1P7AYQ3oQeMubrxTheNvl+1BVoVtXhB4pBLNmeav9N/39PP/n0SCPP8FHica/CpBI7jyfwACrtC36fELTCdr8dn6vGwxKz2BAEg4ZxusPy99AGrdiLk1yI/HGuTA5ftbUSRLFArKIOiwcs1cuAWVz5RHf/kfa2DQExBiQCxTkOloIMFxBoIVUjlQqKI/K4T9wSABRBd+cgBRV8RhvASlIFNO01HtoqUWpWDNdWCxmy4pZ6VS7GlnE/MKIyy3XtQDlIt0bj3GNoQ0DjKedrQ99V0YLF55i28E41qEu064/j4Mu4uNJe4MB1nmr5+dJV+y1aUOLfE4A4mibirNLlFplpWxRXCvSYdFzgYrP65W4TNxYeYiNZ2svvl5QGz/r84++/x0H0UNaTXDabvrIFa/7V6v8XDNVy4enDj2WDlQI7S+2i/NmLJfWmz3CLtxyQFq/vQa5bPf0+fp1tJ/dVJ17xv4xId+uv2sHr9Mb4PMX0vpn07zyk7sHhwOFzJTCSrPf9hs+x5rWCssqFbK6de8v3U9PyyrUmrZSBwJB81d/Hob/q5iAipf3P3e8yleWeIlqEhAUuldieZQB2AH8pCQOahtlCCRuS+On1nBVgJAhQKKKTICC5uoIkMp0E6ColQECVJGZpyDS6kIDKypI1LAHFAx0CKQa+ASKhvsSqKJBFExVNjT5TzGj2EJZPynu2Tsfmk+zsmJ9ou8elm+b1kFX1QVLgY122Wm/DdbbYn9D7jUjfMAOE1fwBF+U66On3nJD5deFe2OhBPbaZ8tYu+9lmPy9v7OD68ZdYEuQs6+JiYRIsrWHDf+DBQAA");
 
 export default BoxDollar;

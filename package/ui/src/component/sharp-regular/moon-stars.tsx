@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `moon-stars` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moon-stars?s=sharp-regular moon-stars}
  * @preview ![moon-stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/moon-stars.svg)
  */
-const MoonStars: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M320 64l48 16L320 96l-16 48L288 96 240 80l48-16 16-48 16 48zM440 200l72 24-72 24-24 72-24-72-72-24 72-24 24-72 24 72zM192 128c21 0 41.2 3.4 60.2 9.6c-21.5 8.3-40.5 21.6-55.6 38.5C173.8 201.5 160 235.2 160 272c0 78 62 141.5 139.4 143.9c1.5 0 3.1 .1 4.6 .1c22 0 42.9-4.9 61.6-13.8c-11.1 23.4-26.8 44.1-45.8 61.1C285.8 493.6 241 512 192 512C86 512 0 426 0 320C0 219.2 77.6 136.6 176.3 128.6c5.2-.4 10.4-.6 15.7-.6zM48 320c0 79.5 64.5 144 144 144c18.3 0 35.8-3.4 51.8-9.6C167.3 429.1 112 357 112 272c0-29.4 6.6-57.3 18.4-82.2C81.7 212.9 48 262.5 48 320z" />
-    </Icon>
-);
+const MoonStars = createIcon("moon-stars", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdAAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBfQsGAAE2AiQDCAQgBYMtBzEb/gTIjsQ4FvGJUJjEw/c6P899kr0ApAUiTkUlVUTc/kmbSQns5Ah5n/+bca/nUZZ+o1DWoqWBLJBozucJJNYLx7TAjs4O7ExPwG51bsQHYCGbCfMN8ngt7lEiPZA+x93wofGLFi6RlDIAUR8A45cunO3tqqiK+KzyAvGZmQiI8aAQyJChtQCjZAKt5QrkckFVVCriP7AggChLH04gRxkrsB+QgyTP8wYN2jSqVaqTLzF3am4dPGTwoGgdbWNIDI120Wbx4iWLF8WiWKKgpcT42s3Oj3R7vXhw9BuTb9a62fXxbp8v+nHBt0t+Wvjd0vtqLVpTIuTsrp+OeXfJ+b4v93q8dYdH6z/6a59v+dzYs5U0i2NHr05tJpAUI1tOz/9javHKP9uHVK91dNtDWWr/RfbxnBkxPxYvLl88K28yo7yv+t23HOPqO44/PLafcb2ajJ8/vxYQCJ6sTO++tt6o36rXSuDnV5/+FVXeTtKjqC6BIOtV6WVVAokAAKQ4okOCQLJALn3X2u4VINREgKSspgCZVuoLkKuppwAlbQ0WoKymhTKR1xAaW01BUtt+kBniNMg19hwoGeUjs6xxZGDGAAnzl5c4ZQpPHir69+lXjCh2PR0LOZTtjiwuK92OyEx3PGmLvfY4ZLNNtjs0QQ+Y7Ry225QjZLIvKvTXRz+FEYrH4cvxJTY74KDt9trj+4xUfG90c+S4vDvWkxR3AFeSiFQzmsq9YwYAAA==");
 
 export default MoonStars;

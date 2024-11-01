@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-down-left` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-down-left?s=sharp-thin square-down-left}
  * @preview ![square-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-down-left.svg)
  */
-const SquareDownLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 464L16 48l416 0 0 416L16 464zM0 480l16 0 416 0 16 0 0-16 0-416 0-16-16 0L16 32 0 32 0 48 0 464l0 16zM284.7 332.7l-25.4-25.4L248 296l11.3-11.3 73.4-73.4L344 200l-11.3-11.3-41.4-41.4L280 136l-11.3 11.3-73.4 73.4L184 232l-11.3-11.3-25.4-25.4L136 184l-11.3 11.3L112 208l0 144 0 16 16 0 144 0 12.7-12.7L296 344l-11.3-11.3zm-48-48L225.4 296l11.3 11.3L273.4 344l-8 8L128 352l0-137.4 8-8 36.7 36.7L184 254.6l11.3-11.3L280 158.6 321.4 200l-84.7 84.7z" />
-    </Icon>
-);
+const SquareDownLeft = createIcon("square-down-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdAAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCDgsGAAE2AiQDCAQgBYMtBzcbFQXIjtRG+UVWEg/fr/V27uueqWQgOJBwJwqYFTCqOFbIGtglS46N+LU2tXL1VO37xOXO//zpzyf/iz/KWrTm+WjjGJMTCDTq8g0UUFRgaYKWRtveFNZQD+0gNM6QxzP7lUhP0j+4VXxo/NDfFZIsAxC9ALBw07q1fuuKroi/O4i/rUZALASFQIYMgwSYIxMYJFcglwu6otMx/4EFAUQZ3iSBHGUcxVlADpI8z7v3HjuwWqrnG6ulSjNLWT1S1BrVSj0ii4hKTaSwb9TIUa1ox6ZoRyvmRSsasT4a0YpRXXUjhKhW21vl8xrtRjPmqqQSEe1Ga56j0+H1w9/0evPfsH8O/qPzGgpN7vTq9Vsvr/XSPglv0N0nqHzjjZUrhe1P9IJ/3D5q3P4n6p1vKDPFJTc1fMlib5+3fp0b1q0HAkHvUT+P3NVzzv/dqgn8++0P1cOdrvgtvUE3CQTZmM4Y2+M3MMQAflKKi4bHbwgke+XwqjUPBQgVBEjKKgJkBuolQK5itAAlQ0wVoKxinUzk3YWGHR2e1JzBM9NcxnMNX/GSOX5PyxqR0RtPLfzfXsqyIbB0XzFx3IRiVrHa1ggkxMb12cVhfcRFOzaSn3TQKSedd8B+R5wfQGetzV9wwrItcKkvKkw0zgSFWYrLvafHNzrgrHOOOOVk3mW24vl4hIvbs0dyKwHlJHVJIlKvV1YdS4Xcxwg=");
 
 export default SquareDownLeft;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-right-to-city` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-to-city?s=sharp-regular arrow-right-to-city}
  * @preview ![arrow-right-to-city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-right-to-city.svg)
  */
-const ArrowRightToCity: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M312 0L288 0l0 24 0 464 0 24 48 0 0-24 0-440 128 0 0 168 0 24 24 0 56 0 48 0 0 248 0 24 48 0 0-24 0-272 0-24-24 0-24 0 0-72 0-24-48 0 0 24 0 72-32 0 0-168 0-24L488 0 312 0zm56 80l0 64 64 0 0-64-64 0zm64 96l-64 0 0 64 64 0 0-64zm-64 96l0 64 64 0 0-64-64 0zm192 0l-64 0 0 64 64 0 0-64zm-64 96l0 64 64 0 0-64-64 0zM144.1 158.2l-17.8-16.1L94.1 177.6l17.8 16.1L153.9 232 24 232 0 232l0 48 24 0 129.9 0-42.1 38.2L94.1 334.4l32.3 35.5 17.8-16.1 88-80L251.7 256l-19.5-17.8-88-80z" />
-    </Icon>
-);
+const ArrowRightToCity = createIcon("arrow-right-to-city", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgAAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCVgsGAAE2AiQDCAQgBYMtBzobYAXIHoVx41OCZo7VsqxXy0QUvGgV0cfY694LEPpEARfIA0pgW7YBWVQkXIQu+xjzp7a6Co/G3P3M46/d1AQRTzRCXSmraFyjQgpmpco8/9d8fnzvKJ9/PvDTQ6qg6K0xEqhLJzDgSG6a0Gw4myjONhs6HEE07hHBGCZLQnr8rMevCzTnd95ooT5U4HX70Pwkd0VpaQKQfgDg5NVWBWaNNJLD/7fkUAkI5CQA5hE0oQnTCDiCKZjGMg80axYa+f+//gciCJBWuK5AMzrwHG+x66C0NTevd1DJXBe7p/nKfrLznqCrUyrSlaRJNMPrYjJJZ2eYjOA5cwmIrkW/HGU32dB3rbup1WjNRJNIBNPnuo5EHUt06ZGFGNNVTmXTF8X1fN8oroInlB31YMeBcfT+P2syBY/no3noBc9qcaggC44v9AHfz/615zmc/TJnYm/cDnRvYk6r6J0FB8fxOkAQzhwMmxekR361dxX48fHtjTz9f1Y7Be0KhKbF/4vGtQOVGiBbeQpK54uCsq8N3rXbWwHRiYDSqlNAkykyBDTrtICAFrM8CGjV6SKmNHeIYXMDlG4PQJM1l6DZsGvQ4ojHTKvhMHNSyCjhjzA1q6HMKnRY7RjEy6ouphm3TofwtqE/N10GOgnrDuw7tWbVllOFHqvkz+zJekjGDyEHKzsUhOHGVu2WzLETW3M5vkwIPh/TO/cHG8hmAOOS7aVIDd04Pj64+KTTltMDyxsLAAA=");
 
 export default ArrowRightToCity;

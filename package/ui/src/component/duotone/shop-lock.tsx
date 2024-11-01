@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shop-lock` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shop-lock?s=duotone shop-lock}
  * @preview ![shop-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/shop-lock.svg)
  */
-const ShopLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 155.2C0 175.5 16.5 192 36.8 192l412.8 0c20.2-19.8 47.9-32 78.4-32c30.5 0 58.1 12.2 78.3 31.9c18.9-1.6 33.7-17.4 33.7-36.7c0-7.3-2.2-14.4-6.2-20.4L558.2 21.4C549.3 8 534.4 0 518.3 0L121.7 0c-16 0-31 8-39.9 21.4L6.2 134.7c-4 6.1-6.2 13.2-6.2 20.4zM64 224l0 160 0 80c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-80 0-32 0-128-64 0 0 160-192 0 0-160-64 0z" />
-        <path d="M496 272l0 48 64 0 0-48c0-17.7-14.3-32-32-32s-32 14.3-32 32zm-48 48l0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const ShopLock = createIcon("shop-lock", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABjAAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCMAsIAAE2AiQDCgQgBYMtB04bUAXIjtRW+YNmEg//6Xq9b0a7x5Y+GEFGosph5up34cptYJMWq9SbIV/z839NvbCmA/x8zpkbRWGDRMTzCez5mjZvobXQdIa2wXmDDzmUKbQfoEiT8m0apKfTT3gw/h/A+MtQt5H0zgCiDwDWHNq3Q08rWil+an9G/GQ7AmItqAUyMkYIsFwWGKFQo1AIWqndphXtdk0A0RRjmdVET3gNbgEUIElSUfQZP3p01egsDlaN8qRQRcTNg54o7xnwmOUhXpz27qLPp7w9Utw78HHipgGPlWXcM+iJK1sHP1nlmwZGPF51BlGfnHE3dx6MZyZ2xGtD9sdjDggMejo+oYo3D/zDIw2UQUKxfuw7fd75x09n/OS/D2fDnNVm67rrri6otacFcfD0Pn1OPxgbxk1V50vDdSb0eZtn+jzv31br3z/ufrq7OrztYqceus9Dp0TicLVq/UvpbXfLP/8yu2X2Lz/n3Wo3We0lPV6yGggEnYMO31X38v97VQn8+c1/U1e3e9JN6R30kkCQp7enO55uAsYO4EeluMLYdFO8hEC2UoI+tcMTAoQSAZKmUoBsuD4CFErTBGgYZYEATaV9sih6CwOcGEDS4WKQLXQ9KAzwKWhY7ttU04DINlC0P+L/X9rGKbphVj1n5ux6ab1b0UmWig8ml9WXvclX8I4pcK8zXOgClzndac522YS5xI7s5c638Yje4Itqc8w0W22p+nH9Ze5Bp7vEpc7eVp5Ps0z9fWSyK477T4HzSYC5epeTiRS5r5PXZ/gOa4ZT7ui/UBwtAAA=");
 
 export default ShopLock;

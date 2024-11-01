@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-cowboy` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-cowboy?s=sharp-light hat-cowboy}
  * @preview ![hat-cowboy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hat-cowboy.svg)
  */
-const HatCowboy: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M245.4 45.6L216 32l-8.8 31.2L151.7 260.6c9.5 3.4 19.7 6.6 30.5 9.6L236.6 76.8l69.9 32.3 13.4 6.2 13.4-6.2 69.9-32.3 54.4 193.5c10.9-3 21-6.2 30.5-9.6L432.8 63.2 424 32 394.6 45.6 320 80 245.4 45.6zM640 256l-4.7-6.2L616 224s-8.2 8.3-24.9 20.1C551 272.2 462.1 320 320 320s-231-47.8-271.1-75.9C32.2 232.3 24 224 24 224L4.7 249.8 0 256s96 192 320 192s320-192 320-192zm-82.3 44.7c7.6-3.7 14.6-7.5 21.1-11.1c-9.9 12.1-22 25.5-36.5 38.9C494.6 372.5 422 416 320 416s-174.6-43.5-222.3-87.5c-14.5-13.4-26.6-26.8-36.5-38.9c6.5 3.7 13.5 7.4 21.1 11.1C135.2 326.7 214 352 320 352s184.8-25.3 237.7-51.3z" />
-    </Icon>
-);
+const HatCowboy = createIcon("hat-cowboy", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABfwAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCHwsGAAE2AiQDCAQgBYMtBzEbIAXIHoVxw11CMVniKNbH0FpE/Pdj7Pfc91BpeLSkCQ9VOw0aoWmnWUskGoTO/Pr9/7d7f59AvC8i500kVkTREBXxiTZZ/Ycqlk3t/F/z+T2/Bvx8rtF41iBRYHerfj6BPc/AKBtg23A2ownwdmfbaiuCfELKkhyXdnx20PObbCBOfYo8A7zGN81/aBuE0hsAMg0AOL1OjsX5Pd0TPfuf/CAaBHIGYBWhoWERgQOigkViVkHXhT/6/5//AxkEyCDyZQt0DOAOvADooLQuJrDQlhWXF+PdJjIZZqZmWsTRrHoKCUmdNImud16TJx0yIY74PA11DSvqtVjh3nEf+A9Wa9RHFqRGvZarvieRj4Ufo5/6n1mvEzevuWBxHPGI+xD1xG9NZ1b9IPRG+DH8zttoTWntk+BZ8TP8nPzFtWPY/8a7H84RuoIb3DimQ368ExvDL6LWijb0OpSGW4KePgRpB2uVURkluv6wD/0E60KJbOoVFj09TkayZ0dFhTa6Iok2izMPnKCsLRrR2m4F3MPMYsPWaRzinG41ABCEr0uJXzmKPr+kZEUA/w6/fOMz60FkDQwrENrWfxuZ1QsgNYBbaYaR8kFBuSEqv+q4NwTEKALKoFEBzQIlBLpRmwgMWOaKwKBR50SlSyPmZTVQxt2DZl8X6ObtgwEH7pxB8xG1O95q+G9fStgIhXZijnYOzIstE1UwJda3erNt1aJZSixhJYrVqNaoSKEyjQNZL9ZvUiVMg0N9EePIjgPGCzvOPi/mFanXoEyN6tCON3bfttCsV7eEbogAtl+MlfEpmdK8RtuCmpb8mjYAAAA=");
 
 export default HatCowboy;

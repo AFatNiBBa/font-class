@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magento` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magento?s=brands magento}
  * @preview ![magento](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/magento.svg)
  */
-const Magento: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M445.7 127.9V384l-63.4 36.5V164.7L223.8 73.1 65.2 164.7l.4 255.9L2.3 384V128.1L224.2 0l221.5 127.9zM255.6 420.5L224 438.9l-31.8-18.2v-256l-63.3 36.6.1 255.9 94.9 54.9 95.1-54.9v-256l-63.4-36.6v255.9z" />
-    </Icon>
-);
+const Magento = createIcon("magento", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABVQAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBIAsGAAE2AiQDCAQgBYMtBy4bngTIjsQ4JvIHnV1EUK2FPXv3AcCrKEZwQD5RxA7YhVVY2LAk0NchJLX75v9cz/d8NMBvNLQorAQpkFHm8wlMqHzgA4orPDtRPHUbKz6IsiZyjuARMRR5qAZ3yONsHFchnU5vcax+aHzV3FGSSgYg6gFgxLxZUzz7GB8j3pYRb01CQIwEhUCGDK0EGCwTaCVXIJcLPkZZpv/AggCiCj5zAjly9MRQQA6SlOeNG9es1M7n1qzUWJeyNDmymBuzY05MjSzmxZz57Tu17xhZTI4Uc2JeZDE1tLtW79p33q596/Ew/MP5RS4sovQP7w6I9tjf8OMLlvYFpgeUQCC4fXXr82V1B/+vVjOBzw9+3o5M5bN4kq6hmgSCrHPZ2eJ4JknxRAC0U+zVzvkmgaSjBGet5YQAoQYCJFXUECDTUj0BcjV0EqCijT4CVFHDLJnIqwuNLFGQ1LIDZPraB3KN3AcVg72wq2gUWeAQ104822LHWmjMVNGja/diYDENdDIWsDwcVCxz7fdKoQM2rbXNVrutsdoGuw2y0xRvjy3GevAYP1TooavuCgMV2/Hj8lxr7LTLBttsLWMGKc5b7e316ztATIja01ySiFR1y4p1H/YCAAAA");
 
 export default Magento;

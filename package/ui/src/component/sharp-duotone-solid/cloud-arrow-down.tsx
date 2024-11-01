@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-arrow-down` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-arrow-down?s=sharp-duotone-solid cloud-arrow-down}
  * @preview ![cloud-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-arrow-down.svg)
  */
-const CloudArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336L0 480l144 0 368 0 128 0 0-128c0-59.6-40.8-109.8-96-124l0-36c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192l0 8.2C40.1 220 0 273.3 0 336zm206.1-40L240 262.1l17 17 39 39L296 184l0-24 48 0 0 24 0 134.1 39-39 17-17L433.9 296l-17 17-80 80-17 17-17-17-80-80-17-17z" />
-        <path d="M206.1 296l17 17 80 80 17 17 17-17 80-80 17-17L400 262.1l-17 17-39 39L344 184l0-24-48 0 0 24 0 134.1-39-39-17-17L206.1 296z" />
-    </Icon>
-);
+const CloudArrowDown = createIcon("cloud-arrow-down", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhgAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCHwsIAAE2AiQDCgQgBYMtB1wbTQXIhof/X5O8788kC0CzwKiYoMCSSJUdZqt6fE4lkc7095P//fPfgI+/exbWzqMtos4nsPPGYZbIhKYztC1uuxliFhJfaDT2kKfe2WUl0gupgnvh/wDGr9q5TFIvAxBNATB12aI5vq5GNUWl9glRMRsBMQ0UAhkydBRggkygo1yBXC6oplqNatRqBQFEWfjuDJRRwn6cBuQgCSnPu3fr3qDUKF8arqy/rG+/vkuib/SPZTRlUvSJCUGC9UMYQv1WCQ0aRbw66L1RxTX93hp1s8d74z4d9dOEzxeLTwa803HZ5AmT+8bEIOkNQojJ0Z84fWJxhPaLpcd0e6vpW793rWytePYc5s1Db9wMW13V1hBtXbUVzey/T9/w13mN7r/xYg9133rrfOd9i0aO+Hp6VCoxva73Hz1q8qx3M1T1ZPntrwOBYH69Nz9Y12TC/3UbJPDzp3/+Ul2uVk3n01uoK4EgG1AbYHU6D4IewI9KcVS3dN6PCGRmSuJPbeipAKE+AiRl9QXIdNBUgFx9/QUo6WykAGX1LZKJvJ7Q0poOJA0dAJlRzoBcSx+Dkgm+CZW1jAzwOLDhvvuSZw3hmZOKoYOGFOOK1ZKGhyXGjo4vDtt9jsqWvnitrfbZ67AtNtvh8IA6aE70iD1mbSEzfVFhqEGGKIxTXK4+lZfS0EGH7FgWr48zXvF8oI+j29374ukkwLBXlpcRKbK2vyBMHbjh4MF9xwZ6SX0gFHduPyv6WQAA");
 
 export default CloudArrowDown;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera?s=sharp-thin camera}
  * @preview ![camera](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/camera.svg)
  */
-const Camera: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 32l21.3 64L496 96l16 0 0 16 0 352 0 16-16 0L16 480 0 480l0-16L0 112 0 96l16 0 122.7 0L160 32l192 0zm21.3 80l-11.5 0-3.6-10.9L340.5 48 171.5 48l-17.7 53.1L150.2 112l-11.5 0L16 112l0 352 480 0 0-352-122.7 0zM256 176a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm96 112a96 96 0 1 0 -192 0 96 96 0 1 0 192 0z" />
-    </Icon>
-);
+const Camera = createIcon("camera", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABegAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCFQsGAAE2AiQDCAQgBYMtBy0bEgXIHoWNG8nKJOn1Ob0eDMMmWzz//WGe+7Ym3UofD4W7UMRCCa1AON1XfCkCTVvhD8+THfb+7kYzMSaQK7qCfXdV0h/UsQbcFGnPerI9leeq1p8Km+lv/nnn0QJ5RqGNhUsDaZ/veZ5AguXTEkoo0wD0M33dJuuRCMMvIiRKQjpOO6426OY5Y1xQl9YPuKiPyqswF6DYHQBkEQCOT7paeHMmT8n39hB50AQBOQZsE+hgZZ0Ae2xCb+Aw0OUQPElr/B9oEED6yM8toAt9OIVzgC5QnK4TthQRoV28nF7toiZz83K1RkqQaU8RW0S0zo/uUVoFJy9KchIYpSzxEltU92ki5FaYOQpVQquTpA1POY6o5NM9x+GQq0mrThI6VByFOXH0afJFlMSNff9v7I+JHwbv29radn19GeLL94udozbeBLZpXCzjuEegMno0xBlDds+qo2/C3c+f0dEZv3mT5MZiLIZ/hEnfXFjYXN/HSTiFcB8gEDxOPRgf9Kn4d9cW4OXZ/9/tM6I9FWsMhiwg6Oy0DH0FKAQAoLJBXAGBMsEhT511EQFCQYDiShGgI4IvAbqUdAL0RCskQJ/SxSZdD0Sg/gQsnpaBrcg+cAS6D1xU+Ky5CowdcnTA0D++hFoN1cyZ3KwcU2a2oc5EEVnG5eZYTNmgUipWmbBowZpxY6atKWRFi7luXq0F13iRkStLDqOMcSfPQq/SVqyaXnP+KeXMfTXFht2cCsUihLtcxULK9dUAAA==");
 
 export default Camera;

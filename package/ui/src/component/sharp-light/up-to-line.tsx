@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-to-line` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-to-line?s=sharp-light up-to-line}
  * @preview ![up-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/up-to-line.svg)
  */
-const UpToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 64L0 64 0 32l16 0 352 0 16 0 0 32-16 0L16 64zM240 336l0-32 32 0 48 0 0-17.7L192 171.1 64 286.3 64 304l48 0 32 0 0 32 0 112 96 0 0-112zm112 0l-32 0-16 0-32 0 0 32 0 80 0 32-32 0-96 0-32 0 0-32 0-80 0-32-32 0-16 0-32 0 0-32 0-32L192 128 352 272l0 32 0 32z" />
-    </Icon>
-);
+const UpToLine = createIcon("up-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABXQAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBTAsGAAE2AiQDCAQgBYMtBzEbzQTIrgZsYzh6IRoqtYg0GmWL8Zn0PPFt1MYwnqdfez337QuCA7JEKuxi2difCpMVrgjjq3SNyNRWoV77Z1zNXwBt3iYriye69CvhQrnmUmWur9WGqG1/l+C6AfN/Tb14fpTPv9EhRVs2Fvjdqp9PYGJFzRPYmw1sphOw6TaZRxIh+ElERElEx2fH2R1qbrNOTflYguf2ofnF742iNgDIJAA4vx/t4pM8Jf+d5Ic2COQCsEzQoME8AUeUgnkqy6CqwlNdl/4DCQHSD32RAir6cAmuAFRQNFVl9C4Z+8yqiZE+w+zwiEHEaEaGpyIjRpGJ3FQNxM5Zl0bENIgKdtZkbiNWv6OVG1kfJ5ETtl72H63LKJMOPD7jRx2Sy8SRJUc9ckAMEFuDtgt6fw5OngcE4dW3WI/+64wKwM//jX5FHWkLDCogNOtd1FxaSCsAgJILgbQIinNK+q6j3gmIYQQU/YYFNObYCKiGrRHQZ1GOgH7Driml6hGz5hsoRj2AxqF7UM36AH2OfJX9ZtOEkxAMwmcutdaj1V1MxZMsc9mqYoRwZbPCbT14wRMhHMWGQwfOrFuz7azDT3Sbc/tqHlb1RZQSl0RlPO4/7p+w7sSpbYcOZJsK3o+DLvz5IVgKyrjrRFFIMZz3YmeHsfcGAA==");
 
 export default UpToLine;

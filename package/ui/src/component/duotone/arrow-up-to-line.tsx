@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-to-line` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-to-line?s=duotone arrow-up-to-line}
  * @preview ![arrow-up-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-up-to-line.svg)
  */
-const ArrowUpToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 46.3 14.3 32 32 32l320 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64z" />
-        <path d="M169.4 169.4c12.5-12.5 32.8-12.5 45.3 0l128 128c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 269.3 224 448c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-178.7L86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l128-128z" />
-    </Icon>
-);
+const ArrowUpToLine = createIcon("arrow-up-to-line", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcgAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBTQsIAAE2AiQDCgQgBYMtB1wb+wTIHoVx41PiIBxY1rNyiIISLxHP06/xO/e93f0iGv/HLOFJk2dCwrN4I2loDCESMiXsUBkiQ1z/+/3WuZhHhvSGJCqNJKIrKlVDpv5QtrkHXLUoe2rkmlQvTJ3KudimAL4FAMa24Yu3h+Y8j0DOAxJL2npBqhUqlbwG1sVtVyephgQLjcYDmpzUN1rKt/KPj+F/APPHmhuKsQqAzAKAS/cKeXz26Uv+h5BfboBALgN2ESoqNhE4iy/YJLALGo3Ql2GgzzDsQoB0CEj18g4NroKbABpQRBqBaUXeKgXliVbW+DJB9LxUyicvFl/Gn5bLEU97C1ExzuVKpVKNshNSCsJQ0Ox5/Y/Z5V9U9X35Ywqmvj5/jscp5WOHEfErV8GZ/vBhutI5XW6GW3GeP8eFifgwnYhC/TxAEP6bns7M2X+jEzzA75+7+CEZ+rwoS4wqINRDwyHNvIC8EABAyR59XtgFQXUAT3rXSZ8FxDgCis64gGqDBoHGuIMItLZ5EeiMu4UvjRSxqNWCYtIjUJ1xChqLONA668vtLKbCkwANwudcaq4PZ7fYcZuDhdhiohZBhLPLMNut7+3JhhEfYmzdmh0jQzM7PWpLPti1KrdGZn0Q42TjwISw0/ljtUzdLdtm8/L5NWHsftNgb73fiPfhAU48ia9UUoivvf94a33f+uyh9ekD648mRODs1k3KryIAAA==");
 
 export default ArrowUpToLine;

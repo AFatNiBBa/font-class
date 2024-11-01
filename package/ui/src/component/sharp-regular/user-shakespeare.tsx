@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-shakespeare` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-shakespeare?s=sharp-regular user-shakespeare}
  * @preview ![user-shakespeare](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/user-shakespeare.svg)
  */
-const UserShakespeare: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 48c-44.2 0-80 35.8-80 80l0 32c0 40.1 29.5 73.3 68 79.1l0-15.1 0-12 24 0 0 12 0 15.1c38.5-5.8 68-39 68-79.1l0-32c0-44.2-35.8-80-80-80zM96 128C96 57.3 153.3 0 224 0s128 57.3 128 128l0 32 0 8 32 40 0 64-98 0c-18.4 10.2-39.5 16-62 16s-43.6-5.8-62-16l-98 0 0-64 32-40 0-8 0-32zm96-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm-16 31l8.5 8.5c2 2 6 5.3 10.7 8.1c4.9 2.9 9.4 4.4 12.8 4.4l12 0 0 24-12 0c-9.5 0-18.3-3.8-24.8-7.6c-2.5-1.5-4.9-3.1-7.1-4.6C211.6 201 199 204 192 204l-12 0 0-24 12 0c2.1 0 12.9-1.9 23.5-12.5L224 159zm16 257c0 8.8-7.2 16-16 16s-16-7.2-16-16l-64 0L96 448l0-57.7 0-14.5L66.6 464 208 464c0-8.8 7.2-16 16-16s16 7.2 16 16l141.4 0L352 375.8l0 14.5 0 57.7-48-32-64 0zm64-56l-8-8-144 0-8 8 0 8 160 0 0-8zM112 320l16-16 192 0 16 16 48 0 48 144 16 48-50.6 0L50.6 512 0 512l16-48L64 320l48 0z" />
-    </Icon>
-);
+const UserShakespeare = createIcon("user-shakespeare", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABqAAAALbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDOgsGAAE2AiQDCAQgBYMtBzcbwQXIrgdsNz00gKgGxRpWsRZvIcEnkmMoE9P4u8TzxFrl+909W7s9c8h9iBBGFxdLQCrs0J4nm4pMrcvA8/z9PPdX0rekqo2ibDiDRBjJyEfwekERkhnB8j7SzAIKQ+pCncwNjuKkwNNVBn1bb5KvXmYNERLzLv9rWeb/ms/Pmg7w8xEcSgX1IsLWlCmw5wMfna9B5mUHNp2gbXDeiSFJV2h7SNARqrwmYVK8og1PDR7NP4zxOAqtEkAGA2DzyaP7/XZVrkr+ViN/sxeBbAaNoESJ8QLWKQXjVRpUKuFquor/wJIA6QHggscr1PgJ/gBUoNBbVZOn9PVNaAaMaLcGVCfarfrs903ycSqvtJ9MT5J2RD7qPxuXvNl9uuLY95L8evunJovMj9R537OqkyxMkpMvJM8Pf3HkS6OWvzSKJkaPGDkiC7/QxpMRmTL8/sh629QL9ajTaarOqgD1mMotcGnnRETWpD460mlweJSFnBilUYk6gj798UxI3ZmUk2lP+XTwp/96z5WnuAUn0hg4bcRl6hitY5DLIxjYyIlbBt+9tYythw5tXYZGr35XN/o1p/x6o036OZqJr0YDr2JFZQLV/3+QyZsfra1qrr7Y5HVfs9Lm+RuzH9yka2+g8c0TkvYEbR1oja5r/4C7nuaj19ucX+su9aNrsfAo2+12j1iAIIyo/8543X8OBbj+w5Pd3H3ym/Yp6FWAUM7r5lx+AwU1wE8q8qgp8RsEhe85wKd2vEhA1Ago9KgFlMYZLKBSmyugZaLlAnrUjiql6hPDnWeg0PEAKK3wGKgM9x1oWef3Uo/hUYZiIQwK15CpO0Ro+76mFixq1jTWLiIGTK7dXttMNvJoOTU7dnWr+9zrYbe42R0eFsgH7a8+4h47XMR2X9RYbIFFGms0iwer6ok0+KCHSs4sLt/FWs320VkedS+eHdsFQLtER6EgxeA9X/wzgXXXLUfwzAdvAQAAAA==");
 
 export default UserShakespeare;

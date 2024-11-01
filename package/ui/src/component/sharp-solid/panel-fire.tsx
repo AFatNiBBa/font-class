@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `panel-fire` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panel-fire?s=sharp-solid panel-fire}
  * @preview ![panel-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/panel-fire.svg)
  */
-const PanelFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 32l448 0 0 90.1-17 10.6c-13.3 8.3-29.9 20.6-47 36.1L384 96 64 96l0 128 270.1 0c-15.2 21-28.8 45.2-37.2 72L264 296l0 48 24.2 0c-.1 2.6-.2 5.2-.2 7.8c0 49.2 18.5 94.2 49 128.2L0 480 0 32zM168 296l0 48 48 0 0-48-48 0zm-96 0l0 48 48 0 0-48-48 0zM448 160l64 64 32-32c76.8 64 96 133.3 96 160c0 88.4-71.6 160-160 160s-160-71.6-160-160c0-89.6 85.3-165.3 128-192zm96 240.2c0-48-64-96-64-96s-64 48-64 96c0 35.3 28.7 64 64 64s64-28.7 64-64z" />
-    </Icon>
-);
+const PanelFire = createIcon("panel-fire", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfAAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCFgsGAAE2AiQDCAQgBYMtBzEbFwXIjtRGecqDxMPzdvWd+6p6ANZ8ggshgjKB2ToDETGaaNF5qFk7/5d7fs9vA36jQxtjF8iYurcugQDTfINlUVGYJYpZOztCUvxgkSQ+ybC9DJMT5PFPdrkS6bb0Lq6JHxq/63Y5SXUGIJoAsHzvzs1e/zF+jHinPPGOjQiI5aAQyJChT4BFMoE+uQK5XPBjlMv2P7AggKhA751AjkqcgvMBOUhKeT5UXd3VXVuqz/fUlmqy+rp6MSoeHBdRF6I+Hu2rCVEbF/tseV1k+4XaiKipSY89evuO7RPjo8lPdX266OVdny95dc89U5+Z+MTY3fVE3N4RcXPHjW03dt3addv4x2qvmPhE74jHmx7/c+jd49517+u4/4AaG29Zb5mLNbjojSHTdMnz2PDrdq8/UjmNJEY/QkfnK6sDzti0sBQr3313ZUbi3XefX3fc7m/eOfXwvyuH+e1P/uXfP38brqxpbuntbWmuAQLBD3cf/83hjYuGq2oT+PnFv//0tyu/ni5Jj6NKAkE2qTzJIeliymVmXaAKKc4zAt8kkByjBK9a52YBQg0CJBVqBMj0ahIgV2OiACUDZgtQocZOmcirhTaHVpDUORNk5rgA5Nq8AEoWeSNToS0ymWMlhv3xJa1podX7iulTphULimlL4cSIDqsLi2Vr3HluZDyOOs7pTnOOYx3jROc05Fk25891qjUcvNoPFaabYprCAsV2917aozNnOduJY93+LgsV59PjnMdPHw83IcoZqpJEpJqHIU++vw==");
 
 export default PanelFire;

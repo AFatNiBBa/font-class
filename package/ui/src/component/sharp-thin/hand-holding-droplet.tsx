@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-droplet` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-droplet?s=sharp-thin hand-holding-droplet}
  * @preview ![hand-holding-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand-holding-droplet.svg)
  */
-const HandHoldingDroplet: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 112l64-85.3L352 112c10.4 13.8 16 30.7 16 48c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-17.3 5.6-34.2 16-48zm-12.8-9.6C198.7 119 192 139.2 192 160c0 53 43 96 96 96s96-43 96-96c0-20.8-6.7-41-19.2-57.6L298 13.3 288 0 278 13.3l-66.8 89.1zM151.6 320l-2.8 0-2.2 1.8L68.8 384 8 384l-8 0 0 16 8 0 63.6 0 2.8 0 2.2-1.8L154.4 336 368 336l0 40-120 0-8 0 0 8 0 40 0 8 8 0 149.3 0 2.5 0 2-1.4 116.3-80 27.2 39.6L391.5 496 8 496l-8 0 0 16 8 0 385.9 0 2.5 0 2-1.4L561 398.8l6.6-4.5-4.5-6.6L526.8 335l-4.5-6.6-6.6 4.5L394.8 416 256 416l0-24 120 0 8 0 0-8 0-56 0-8-8 0-224.4 0z" />
-    </Icon>
-);
+const HandHoldingDroplet = createIcon("hand-holding-droplet", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfgAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCNAsGAAE2AiQDCAQgBYMtBzsbPwXIHoVxs/OkUy07iJ+iyOLh+7Xezn3d86vD3IkiZvcnQKzYMU0kLKm4JU9oU6s2qydBfpj7C6z23fyfy/9oNBrgNxpK10WCROlR5vMTmNhlWoGlHdhE8fx2fi9hEK4Mki7lkgzb6w/bP0Aev2pUId1O43r50fioi4skWQYgWgNg2poVi3z4K/6K+L4e8b0FCIhpoBTIkKG7ABNlAt3lSuRywV9Rr4f/QAQQDeSJE8hRwTFcAuQgyfK8bfsFzSot8tXNKk03rFm5ZlXcdq/vq5Gf9a/1PNet4yv3+70e9fmAN73O9V8dHaN9rFzZtFnTNCeaNhXNmnWKNdEsqIBYpEEWaA5akAh3jOmNuUAjlCiLmvapta792/vN+3NJK/1mPnWL1dXWrauro9unb/sparWzZ11+od/0te6BrA8e/3OWZW0smmRS0VoxvbeFk/ygr6NFoa9Ccau1A0u8cGubs/s9L7b2ZI9Gs4w020pHl7us8ykYez0QCFb+Z7Sa+H/RLIF/vvpjv1z9QxqbaigkEGQD6wNtTFNRGK4CJJHisD7wWCDZJwN8a3M3BAhNESBp0FSATDetBcg1NUCAip5GCdCgqRUykTcR2ts0YdLcPpgZ7RTMtfcWVkz0daJB+8goyBKI/QFMmq2RWW7lsMFDy/HltmhwrKLT8ITy2Op7ODb1w1Sb7bHbQVWNtjmo8P0WpQ/ZZbaFzeKh0jCDDVUar7yuvI5frWq/A7bZY3ceZYLyfbyvw3bnfvAlQjhcQZKI1J6x2iBKy4O+gsjO6kEAAAA=");
 
 export default HandHoldingDroplet;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand?s=sharp-duotone-solid hand}
  * @preview ![hand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hand.svg)
  */
-const Hand: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M.3 329.4l29 27.6 95.5 91c43.1 41.1 100.4 64 160 64l19.2 0c97.2 0 176-78.8 176-176l0-208 0-32-64 0 0 32 0 128-32 0 0-192 0-32-64 0 0 32 0 192-32 0 0-224 0-32L224 0l0 32 0 224-32 0 0-192 0-32-64 0 0 32 0 272c0 1.5 0 3.1 .1 4.6L84.5 299.1l-29-27.6L.3 329.4zM192 320l16 0 8 0 152 0 16 0 0 32-16 0-77 0c17.9 18.7 29 44.1 29 72l0 8 0 16-32 0 0-16 0-8c0-39.8-32.2-72-72-72l-8 0-16 0 0-32z" />
-        <path d="M208 320l-16 0 0 32 16 0 8 0c39.8 0 72 32.2 72 72l0 8 0 16 32 0 0-16 0-8c0-27.9-11-53.3-29-72l77 0 16 0 0-32-16 0-152 0-8 0z" />
-    </Icon>
-);
+const Hand = createIcon("hand", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABgQAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCRAsIAAE2AiQDCgQgBYMtB0QbWgXIhocvneT7K9njWx3oiPcAMYhYJx1gh1SxuyC1mpRcpfbFqec5DwXwQSRz2PYNEpqr5xXoeUHqi9YwqGm15FRzV2sPD7X8pFkaSfTXeTxtoY6fqkf1SE+nb/C4/A9g/GWmR0nGVACiBcCBM045zrCLLsU3ow+IbxyLgDgIikCFCnME2K0SmKNWUKsFXRqN6GI0KgQQffI7qkAfPTyCxwA1SEKq67mHzG564+rTm14+IzdZNM2LK16dKUQTEREvrGyaiBwrVq44LX49rYnfT/n5jIiIHELk0INSPGhvrIwTz2hyI3J+da7uLZ9Z+drSnGPha+1r/yz45vJvfP9A27ZFO+g2bRo/0CpaA/nj4xzdHV/zURec7eDec012dEQbR/+g2K94UDFkGCq6Zucd1ErVq75y52eDth0W7XEf5wOu8Zs2dfSOAgSCt975/f4LJuz+f9Ak8MeH//0pf49Gw+jSaxhIIKhWj1Y7N0GJTgAAUtxuYWKIQOV8STpmrCcECBkBkr6sUJmthVq2Cnrm2bJFX3aKStRjhCnOo5CMdRNUtroPalO8Dz27fe73TYkKiySSyJ9g3OEWOWxV2bB2fdlZuolCwQuPi7vKtLb89tBYQRtd7gbXu9VlLnWVWw12s+Oi21zn8BF6mA8qNlhrvWKnspzfcqezf7NbXOUz68vsUvY7y90+7l9B60mAjbcYq4gU1VjsSmsgLYyvmJcLAAA=");
 
 export default Hand;

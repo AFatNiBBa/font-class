@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cake-candles` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cake-candles?s=sharp-duotone-solid cake-candles}
  * @preview ![cake-candles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cake-candles.svg)
  */
-const CakeCandles: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 224l64 0 64 0 64 0 64 0 64 0 64 0 64 0 0 144.8L419.2 384 352 352l-64 32-64-32-64 32L96 352 28.8 384 0 368.8 0 224zM56 69.6c0-8.8 2.8-17.5 7.9-24.6L96 0l32.1 44.9c5.1 7.2 7.9 15.8 7.9 24.6l0 2.4c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-2.4zm128 0c0-8.8 2.8-17.5 7.9-24.6L224 0l32.1 44.9c5.1 7.2 7.9 15.8 7.9 24.6l0 2.4c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-2.4zm128 0c0-8.8 2.8-17.5 7.9-24.6L352 0l32.1 44.9c5.1 7.2 7.9 15.8 7.9 24.6l0 2.4c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-2.4z" />
-        <path d="M128 176l0 16 0 32-64 0 0-32 0-16 0-32 64 0 0 32zm128 0l0 16 0 32-64 0 0-32 0-16 0-32 64 0 0 32zm128 0l0 16 0 32-64 0 0-32 0-16 0-32 64 0 0 32zm64 192.8L448 512 0 512 0 368.8 28.8 384 96 352l64 32 64-32 64 32 64-32 67.2 32L448 368.8z" />
-    </Icon>
-);
+const CakeCandles = createIcon("cake-candles", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABngAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDDQsIAAE2AiQDCgQgBYMtB1QbswXIhoePufL9JEe7d0VMiUgRsicYzwrVqbiWhd6pZFXXmZ3+3vG/f/434DP6SGPimj4q6qK9z9N8gayleYkklIcJZWDtTjt41FpRQjNIcnx2fO6QxbP0hhqSx8kX3MT/AYyfOrtBoiEFEK0AMGv18mWKSlSS+FJ9R3yxFAExG+QCKVJ0E2CqVKCbTI5MJqgk1SqVqFZzAoha+LQU1KKEJ3gFyEAik2VZa4N27NguKtc0ZauwsLReEKWA2cqh3EArlUaX3S9Wx6JYEm6ujAFRLjWJvrEqFsZi80WsiP4Rq692HBHD4j5xpd29vk87PIgoy/W9X7Z6+bvXl11fXG7ZCvNyM+VaScNdaZwZxU06ULjpm9k9VS1TVvumMnNmcXv0adye8LjFuf/+O9ci0br5JS+bWydX5ONAIJg7e12+ueXUf/XlBHxv/vsj/ZBUiyiSl6iXgCAdWh1qQxQQhQAAJHFK7yhAILVchl610QMBQgkBErVKAqS6aiVApmSIADV6GCdArZLlUpE1CO1srCDR6ChIjXcRZNp5C2pM9T6p1S5SfeW1jf8upszn8Lx5+ajhI/PJ+bQiCyrI+skp+bY68JToGAQX7XLYISfstMNeJxh1zLLMSQfNXyHzvFFulOFGyk2WH9eXyiqWHHPc3rF0Ps0U+f1woFPr/oPASBDtaOdSKZFE2m771v07h8WcQzsO7Dw+TPW7O3SkZw4AAA==");
 
 export default CakeCandles;

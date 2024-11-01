@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-dress-burst` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dress-burst?s=regular person-dress-burst}
  * @preview ![person-dress-burst](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/person-dress-burst.svg)
  */
-const PersonDressBurst: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM587.1 299.8l-47.9-84.6 46.3 148c3.2 10.3-4.5 20.8-15.3 20.8L544 384l0 104c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-104-32 0 0 104c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-104-26.2 0c-10.8 0-18.5-10.5-15.3-20.8l46.3-148-47.9 84.6c-6.5 11.5-21.2 15.6-32.7 9.1s-15.6-21.2-9.1-32.7l51.8-91.5c19.8-35 56.9-56.6 97.1-56.6s77.3 21.6 97.1 56.6l51.8 91.5c6.5 11.5 2.5 26.2-9.1 32.7s-26.2 2.5-32.7-9.1zM526.7 336L480 186.5 433.3 336l93.4 0zM176 8c8.9 0 17 4.9 21.2 12.7l30.1 56.7 63.1-11.8c8.7-1.6 17.6 1.7 23.2 8.6s6.8 16.4 3.3 24.5l-25.6 58.9L332.2 193l-31.7 56.1-32 8.6-2.5 64.2c-.3 8.9-5.6 16.8-13.6 20.7s-17.5 3-24.6-2.3l-51.7-38-51.7 38c-7.2 5.3-16.6 6.1-24.6 2.3s-13.2-11.8-13.6-20.7l-2.5-64.2L21.6 241c-8.6-2.3-15.2-9.2-17.1-17.8s1-17.7 7.7-23.5l48.6-42L35.1 98.8c-3.5-8.1-2.3-17.6 3.3-24.5s14.5-10.3 23.2-8.6l63.1 11.8 30.1-56.7C159 12.9 167.1 8 176 8zm0 75.2l-17.2 32.4c-4.9 9.3-15.3 14.3-25.6 12.3l-36-6.7 14.6 33.6c4.2 9.6 1.6 20.9-6.3 27.7l-27.7 24 35.4 9.6c10.1 2.7 17.3 11.7 17.7 22.2l1.4 36.6 29.5-21.7c8.5-6.2 20-6.2 28.4 0l29.5 21.7 1.4-36.6c.4-10.5 7.6-19.5 17.7-22.2l35.4-9.6-27.7-24c-7.9-6.9-10.5-18.1-6.3-27.7l14.6-33.6-36 6.7c-10.3 1.9-20.7-3.1-25.6-12.3L176 83.2z" />
-    </Icon>
-);
+const PersonDressBurst = createIcon("person-dress-burst", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABsQAAALPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDOQsGAAE2AiQDCAQgBYMtBzkbwgXIHoexm2UVh+I1P7RBxOvRz74kBzAn+cuqQJYCOpAmO7pmNRmsrUc/DALzAKw0/1Cf/2s+v+dHB/iD/FCqKKaNFRRR3mADjPYrg+FswDCGqZtSDwcbiD08ulFEQyg7zh77ZwNdfoe5MEAto0vAnPam8hpvpoHC0AAAECcAAKCoZdM6jj2QByIX/+8GuUgNIABSBICJABqgAX4IALloCOCHjgno6Ag8kP//63+gCQIAYkG3pwDQAUvgAHAJZhH5NnTdPtcyI8bWsNdb2Bo2PTd5LytLx+a2vK/YrVs011JZpAuTjSCLJRE7Ot0We0tpJkvX5l4Z9vQWnjE31eaybGxstTHfzcS2xwz3JKmQJXmRJkqeJEqomLJQF1q91MrAFluwVAu22BskWRjGV5mkyBImNiF24UoXf1mkkZImi6q/xAg4EiWBssIzJFo4xuymykaLD94u23/QpR6XuH90rb17rR2xPjEJzdRD3AJElKVb+9AL98aN3XthWo4P1ullEVuGeMnxTL+ptw2vVs8ucPb7Lp7ql3l8Z/xC/RHo0KHCod9dXnF92dja5UzhOT9wsD9zaksaaWw5dcY+kGvcjItbGllO7dhl119zj34ONcAsSechHS9uIZIvonObe/duo+P0JYq9HOj4kHRkFgBAAIHUb1eNjo65X61sFQCPDrz/1vzT/2M0QW0HWKEAENBi/8fSTk2CQoF9BEpCyQiC5YMEUOzA4AzasTiaEmzgAQoLbICGL05Ax4YYYBBAGkfeboqG6NYIbrQXoLBjMNBIZzzQcWMnMMjlbNwCN9GSWEhB4R8ytdwTZYfMpPhEM9vcNpiYl9y1mGPSRuSIYyBKXtKDgQxgGN3pRm+GOWoIdanh9KcckWV8EZMk4knEJBsz3H5WW7j4EIbSey3HV8nBfD8YyQg8PkoCik6bTIVCgSiXnNfjPgp5cV2GDxk6DAAAAA==");
 
 export default PersonDressBurst;

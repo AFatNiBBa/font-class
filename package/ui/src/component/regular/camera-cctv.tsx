@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-cctv` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-cctv?s=regular camera-cctv}
  * @preview ![camera-cctv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/camera-cctv.svg)
  */
-const CameraCctv: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M54.9 192.2l169.3 70.5 .2 .1c.6 .2 1.1 .4 1.6 .7l92.2 38.4 160-106.7L134.9 52.2l-80 140zM185.2 298.5l-165.5-69c-8.5-3.5-15-10.5-18-19.2s-2-18.2 2.5-26.2l96-168c8-14 25.2-19.9 40.1-13.7l384 160c10.9 4.5 18.4 14.7 19.5 26.5s-4.3 23.2-14.1 29.7l-192 128c-8.9 5.9-20.2 7-30.1 2.9L229.5 317 182.4 440.5C178.9 449.8 170 456 160 456L48 456l0 32c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-56 0-56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 32 95.5 0 41.7-109.5zm211.8 47.1l132.9-88.6 36.7 16.3c7.9 3.5 11.6 12.8 8.3 20.8l-40 96c-1.7 4-4.9 7.2-8.9 8.7s-8.5 1.5-12.5-.3L396.9 345.6z" />
-    </Icon>
-);
+const CameraCctv = createIcon("camera-cctv", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcAAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBegsGAAE2AiQDCAQgBYMtBzIb/ATIHolxTMVWRO3i4Xm9p859yQDOQNQCagF3W0Jqf/29F3D//F9TL54fHeD3Ez+0KCwt7QV3Pm+wAVZYpK3BZsPZRHF+O99LUURnknQpBxm2qz9Mfwd5fBLXlCHdnj7C1fyh8YsGTpGUyQBEdQAMnztzste+jC8jPiw9TXxoIgJiOCgEMmRoLMAgmUBjuQK5XPBllEruP7AggCiLLptAjjKYix2AHCRZnlfrXq1SmSr5nECsOHf2nNkRF+tYc2NFzGLrzbml7i315sadrZfHww1urz0rbqo7J+zA2hVD3NbqkYYRIQhtnSkqxWnY3Flze8fNK2Jtv6LFE9Wf+K35R2s+0qf02JiyCWFha/duMOeKqRePb3holLnb25MnbVr6qO/Oule5FunnV/nxu8mFrgct/nObQp3p0+v006+OKCzTbtPHXU7Nw4unemZw26Vaz5g+fVcvIBBsPfxF3aXVBv1XvlICX7/wf5xZWpJGpidQXgJB1qnUyaI0TID2CshOsUcLfJNAMlUG71rZLQKEigiQlFVRgEwj1QXIVdRRgDKa6i1AWRXNlIm8glDb4g6SyraDTB+HQa62J0EZg7xrl1U7Mi1jdIT5x0scw9HR/YruXboVA4ppQmMVh4qNA4ttqd0eX9AeS62x1Ra7rLbKersYvsNkb7fNxkjYaD9U6K6LbgoDFNfpx/lzrLbDTutttSU1M1DxXmtnj1y+PdSESHuISBKRKn0ndueVK3ftAQAA");
 
 export default CameraCctv;

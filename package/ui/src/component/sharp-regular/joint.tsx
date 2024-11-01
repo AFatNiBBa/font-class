@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `joint` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/joint?s=sharp-regular joint}
  * @preview ![joint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/joint.svg)
  */
-const Joint: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M464 0L416 0l0 43c0 50.9 20.2 99.8 56.2 135.8l21 21c12 12 18.7 28.3 18.7 45.3l0 43 48 0 0-43c0-29.7-11.8-58.2-32.8-79.2l-21-21C479.2 117.8 464 81.2 464 43l0-43zM592 288l48 0 0-43c0-50.9-20.2-99.8-56.2-135.8l-21-21C550.7 76.2 544 60 544 43l0-43L496 0l0 43c0 29.7 11.8 58.2 32.8 79.2l21 21c27 27 42.2 63.6 42.2 101.8l0 43zM262.6 400.6L315.4 464 288 464c-73.9 0-135.5-15.4-180.3-32c39.6-14.7 92.2-28.4 154.9-31.4zM377.9 464l-53.3-64 97.5 0 53.3 64-97.5 0zm160 0l-53.3-64L592 400l0 64-54.1 0zM0 432s17 12.1 48.1 26.9C96.9 482.2 180.5 512 288 512l304 0 48 0 0-48 0-64 0-48-48 0-304 0c-107.5 0-191.1 29.8-239.9 53.1C17 419.9 0 432 0 432z" />
-    </Icon>
-);
+const Joint = createIcon("joint", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABewAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCHwsGAAE2AiQDCAQgBYMtBywbGwXIhqBe91nPk/6CZAZ5I5tlRDiMACMASG8vBOZw6yLiCOf/mnrx/OgAPx/BoUVhJcj1uPv5BPa82ltoNNrAJjohm7WzK71B+JH0kU+yW94wOUMef8fNGqR70vu4KX1o/KC/a0gaGYDoBoD5Wzeu9nJHdES89/8TxHtWIiDmg0ogQ4ZBAsySCQySq5DLBR3x///0H1gRQDThd04gRwvO4hJADpKmPO/fv1Nra9+y0TnfUjaKo0VZiC/Wj4hHiDIiHhw7Ml5si+1lUUZ8uWFktEdEEeKBMSPihWH2rd+wvohrpzw55b2tmzes31DG+ijKDNlw5o7pzyx+Z3PnMvDrFZ0+X/b6tKd7tbV3a/9p2PtH3vfRS3Vdj2LNsUXaBoxSG6Xzr4tcW4y6fOjYXHZuDpYONO2drzs9tafp/DlrOWO/tfY/XJ5/0jxT+g+Nbxd89PI6dV2bp1bX67z80YJvAwgEXR/9rNrbddZfLWUC3zz7yy/cw/+/nK5I7WiRQJCN/n+0XekKIGIAQYqLtSlTDCRHXeKrdnKnAKFAgKRJIUBmoG4C5AqjBGgYYrIATQobZSJvFXrZ3UDSyXkgM8WlINfLY6Bhlrf8Jr0iszvGaphvX+ISiS6eVI0fW1czqmlJZU2JCqMzq2Vp+MW+ZQROOuKsMy502CHHXSjw862OLnLaEg1b7Isq441Vq8xQbVfvD29x2PkucNxZZ+I4M1XnveEu1ruPgJow6QRZSSJS4/kB");
 
 export default Joint;

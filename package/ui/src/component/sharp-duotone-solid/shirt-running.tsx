@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shirt-running` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt-running?s=sharp-duotone-solid shirt-running}
  * @preview ![shirt-running](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/shirt-running.svg)
  */
-const ShirtRunning: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 256L0 393.8 343.6 148.4 336 128l0-48 0-16 0-32 0-32L272 0l0 32 0 48c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-48 0-32L48 0l0 32 0 32 0 16 0 48L0 256zM0 472.5L0 512l384 0 0-256c-5.7-15.2-11.4-30.4-17.1-45.6C244.6 297.7 122.3 385.1 0 472.5z" />
-        <path d="M343.6 148.4L0 393.8l0 78.6L366.9 210.4l-23.3-62z" />
-    </Icon>
-);
+const ShirtRunning = createIcon("shirt-running", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABcwAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBXAsIAAE2AiQDCgQgBYMtB1YbBAXIhqCYq3qS7N7dM+aBURGBAlTsnsujA1LnHiU7Zr0Xp57nPBTA57jOfR6Q5cGxu88r0PNpY2yrQbWG1t25TXEseyUkJDkebcdpD1nsTg8rkJxNHuOk/A9gfNXYYRIVKYCoBYBRs6dPVPkqXiXxuHSdeGwCAmI0yAVSpGgmwFCpQDOZHJlM8CoplXgVpVJOAFEk705BEQVMwnxABhIhybKKbrWqFqpns+SIKquXLF8iVkfvEJZHk8AFVUKICx0v9r3Z+XKLjuVhMwjVI41TDWCLJzMudmx9udbl760er3psdpfZ/8E/yaaCjSqPEFE9YLueasnlRsr1FLNW1qq1clb0dENytfTUY9/LDvTx/ZgwcWCnMxvPbHj6HggEVzsu+7O45tD/5VUT8Obuzy/SxaXK2J9cRrkEBGnXUlcLYj94fAA/KoldWsd+EEgNk6BF1ZwSIFShQKKoCqSaqgWZKrpAQQv9FhdVMV0qsgqhnoUAiWq2Qqq/PZCp5xoUDHXPLqoXqV4xWsH86hLHt8i4Tnmv7j3zwfk0kFlVobh1SL5tdtwVCp1wolU222SHlVZYa0eDbTPR22mj8St0nC/K9dJdT7nB8uP4fvQsK22z3VqbbYrtDJHftzrata7eCbuTAHq/yIKUSCKtv33N2m07ulmd2s1EKzQc8OYIAAA=");
 
 export default ShirtRunning;

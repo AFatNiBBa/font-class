@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-plus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-plus?s=solid trash-plus}
  * @preview ![trash-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-plus.svg)
  */
-const TrashPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M163.8 0L284.2 0c12.1 0 23.2 6.8 28.6 17.7L320 32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64S14.3 32 32 32l96 0 7.2-14.3C140.6 6.8 151.7 0 163.8 0zM32 128l384 0L394.8 467c-1.6 25.3-22.6 45-47.9 45l-245.8 0c-25.3 0-46.3-19.7-47.9-45L32 128zM200 408c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0 0-64c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 64-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0 0 64z" />
-    </Icon>
-);
+const TrashPlus = createIcon("trash-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcQAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbwsGAAE2AiQDCAQgBYMtBzEb8ATIjtRG+UVWEg//zPV5X5L5ZzdZhiwgsGzZ1vG4opBl21NJbqr2feJmXudRgIs8lLFpayDLy+Y8TyDALhqcBzz+7cHe9AXsrZ29r5cUtxg+SUgybH7YHJDFu/S6Csmb5Cc8Sh8af2nrOon6KYBoAoApq5YtUP09fo/4sYb40TwExBRQCqRI0UGA8VKBDjIlMpng96jV5D+wJICog+smIEMF67ANkIFEmmVdm5ZFpWG2sqjk64q8+KBtyyjiXssXLrd4njeIu61expXWr4oiWse7XssbNmi4Ol4PgdzXbu2aNz0+ah/bJOPe9swjAvd+G5EH6VaL0PXTJp/+3eWnnT9575vTWBh8+YDNGt2+3SjIl9W72QGXB1+7dBnzLZZq9tPPzf/V/OefmmXPR61bLlnScrJIFlJpiWzPg0Bw90CbHZsaj/+nXpGAPz//P/oV1apRTT5FPQkI0v61/tZHFaIqAABJnNQ1qggklknhXRt4KUDIESBRJxcg1V4TATK5fgJUdDJCgDq5ZVKR1Rda2FCRRANHkNRIF5BMC58hFeN9a9VpEal9sdbBfu+SZjI4Y6ocMnBwObacBpQzGToOx5Xbau+TvtCHNu10yEHH7bDdHscb+KgF7gkHzFxBM3xRaYiBBiuNVR7H99JKxh11zB7ywfMx45T3zd5Oruv7kJEA4VA7iYRI8uNHtxzbPeB9Ag==");
 
 export default TrashPlus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-line?s=regular chart-line}
  * @preview ![chart-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chart-line.svg)
  */
-const ChartLine: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 56c0-13.3-10.7-24-24-24S0 42.7 0 56L0 408c0 39.8 32.2 72 72 72l416 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L72 432c-13.3 0-24-10.7-24-24L48 56zM473 169c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-119 119-79-79c-4.5-4.5-10.6-7-17-7s-12.5 2.5-17 7l-96 96c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l79-79 79 79c9.4 9.4 24.6 9.4 33.9 0L473 169z" />
-    </Icon>
-);
+const ChartLine = createIcon("chart-line", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABXgAAAHoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBKwsGAAE2AiQDCAQgBYMtBzEbrATIHoex22RJF82weRcigmitrJ7dBwrihhldHMk4tmFL7IA9kEWV2GtmxUzIaQZaO3Xqec5DAXyjoKxhSwOygPY+j0DEhs0uqxWoVrCaVsC6O22KIuzT0lIkOS7keJyQx8OYMtL5BKfjh8ZPLR0nKcsARAMATFi2aI5n3+JbxOvSxGuzEBATQCGQIUMbAUbLBNrIFcjlgm9RKpn/wIIAohw9NYEcOYZjEiAHScrzZq1qyurypW62etWFrpdapDjf43qXurjaWjxUG1daZRsutrrSeXEsjTPVNVkc51pe7rYsloRe3fFGgxu/O0C/U00XLGi6Xr1Bg76FMSRw1/pr+z98qKs7etTcubZWV29dt07CkAAsv+TUKSAQfLxX7+vqj/5XWZPAjwd//1O/otK3JN1ApQSCrHept9UJJAIAkOKojgkCSX8JvWutMwKEagRIylULkGmtgQC5ar0EKNPOEAHKVVskE3mV0MSaApJaB0BmqGMg18RNUGa051q5JpHdHmrvqc9b/FQJTRkrBvTtX4wsmj6mLwTh+6OKYbH7UZvrAYu22mevw7bYbIfDAjlojnnEHlN78BRfVBigr/4KIxXT0fX0UlscdMgO++wNQ0Yp1qvdHe1X9wAlIdSBLEkiUvW7EfqcLwAA");
 
 export default ChartLine;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-clock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-clock?s=sharp-solid calendar-clock}
  * @preview ![calendar-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/calendar-clock.svg)
  */
-const CalendarClock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M96 0l0 64L0 64l0 96 448 0 0-96-96 0 0-64L288 0l0 64L160 64l0-64L96 0zM448 192l-16 0L0 192 0 512l330.8 0C285.6 480.1 256 427.5 256 368c0-97.2 78.8-176 176-176c5.4 0 10.7 .2 16 .7l0-.7zM576 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM448 288l0 16 0 48 32 0 16 0 0 32-16 0-48 0-16 0 0-16 0-64 0-16 32 0z" />
-    </Icon>
-);
+const CalendarClock = createIcon("calendar-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcQAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBfwsGAAE2AiQDCAQgBYMtBzUbBAXIhocnu74/t7qfeha9ci3kWVk/gyJnClIAmTMqZfTjmTr1POehAD6HIChj7fOOeb7HeQUqNnVbrItrBatW0GpuGgGJoDy3iIgEP0Q6bA0dlh6gjJ+Kh7SRnklf4on4ofGXQR4i6SoARA2AFft2bfHx7/F7xBetN4gvbEJArABZoECBoQIsUQgMVcoolYLfo9Xi/8BMANEOKSdQoh0ncQlQgqQsy0F9hvRptHUv97o91SGhCtE9IiojS5kTVaNbGr3i3Wkvxne7vtr3SL/Yc/+0iBcXvVs9vODtKc+7b+oLC99pPLL4vekvxV5BNBqiqgIbGqOerZ/9Z+SXZ7907KMmqo477mNZanrjPoRPU6nrj5s2GT93ztTYWMfG6Lwe9740PpP79B43rnefnMeLBvbv3Vbj9jPkOqubtaZaBgJBj3TX0mM9l/zf2Ujgz3f/+0e5uvVxaqZn0SmBoJjSmuJwagKjA/hJKe4yKjURSA4q4V27eVKAUCFA0q4SoDBELUCpMlmANsPNFaBdZZdClF1CX0caSLq5AQrz3A1Kfb0G2izxSbZd3yj0jNYS+jcvYa2E1qzKM6fNyIvysqEyqkP6xcX52Jhwlx2YSFuddc1Vt51x2gW3BXLTlsIdV6zdwWt8UTbTNDNki+Tr9v36vc646ZYLrrkallksP59McNd+/ESyE2DOUpMkIvV4DaWpHyYAAAA=");
 
 export default CalendarClock;

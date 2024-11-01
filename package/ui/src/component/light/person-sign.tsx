@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-sign?s=light person-sign}
  * @preview ![person-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-sign.svg)
  */
-const PersonSign: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M421.5 1c8.3 3.1 12.5 12.3 9.5 20.5l-7.3 19.8 70.3 25.6c12.5 4.5 18.9 18.3 14.3 30.8L470.1 202.9c-4.5 12.5-18.3 18.9-30.8 14.3l-70.9-25.8L319 325.5c-3.1 8.3-12.3 12.5-20.5 9.5s-12.5-12.3-9.5-20.5l20.5-55.8-33.9-11.3c-18.9-6.3-35.8-17.5-48.9-32.5L208 193.4l0 138.1 41.2 68.6c4.5 7.5 6.8 16 6.8 24.7l0 71.1c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-71.1c0-2.9-.8-5.7-2.3-8.2L182.9 352 112 352l0 144c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-160 0-124.2L30.3 311.2c-4 7.9-13.6 11.1-21.5 7.2s-11.1-13.6-7.2-21.5L56 188.2C69.6 161.1 97.3 144 127.6 144l43.4 0c23.1 0 45 10 60.2 27.3l19.7 22.5c9.4 10.7 21.4 18.7 34.9 23.2l34.8 11.6 17.7-48.2-64.4-23.4c-12.5-4.5-18.9-18.3-14.3-30.8L297.9 21.1c4.5-12.5 18.3-18.9 30.8-14.3l65 23.7L401 10.5C404 2.2 413.2-2.1 421.5 1zM112 178.6L112 320l64 0 0-143.7c-1.7-.2-3.3-.3-5-.3l-43.4 0c-5.4 0-10.6 .9-15.6 2.6zM144 80a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112A56 56 0 1 1 144 0zM325.2 39.5l-32.8 90.2 150.4 54.7 32.8-90.2L325.2 39.5z" />
-    </Icon>
-);
+const PersonSign = createIcon("person-sign", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABlgAAAKJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCdgsGAAE2AiQDCAQgBYMtBzIbeAXIjtRG91MYguf/bbb7/kxWRGdNDUiCmEs6DrWWZpU1Lbz+vv+5pl48PzrAb3Ro1cvGssN18d4EBljBFSRFs4ni1OmWHQtDkb6CQWYp1ePr8boDutyQZEygtikbsOZ4UflAIAtBoWsAAIgHAABQYe3cwt038kbE9v8SiI0mQACkEgADATRAA0IQAIrRECAEHQPQ0RF4I///j/9AAwQAxA77BAWADtgDm4FTAIAOgMKk6/3cHF0dnU2uusXZ5DRkk0+AmOVQQBfZGmuRLrLRb7N/luTK4cREQcyyCWSjz2Y/kXl+FnES0SQ2zio74o44O8ulhITmicmRHNIoBS+eNcYswbLFty+Cs4gsd3KS5T7WI8HbYw8GbIuRQ4HbArZGHw7aHrwjztzF2sUsVrFEHvc4/inCNtjGoduPSvtTE0i+OWYoC8y1gaQvpufLVyV1BPM0N4YVxFcxwrUOtzdv3OowecWWU8fa66N7mUlGf2Y+etwrZyQHkpL8k0iflsvr2iTg94tjyv0ZQK/3OedW2dZy1qK0JBz7h/fv8PXtmOb2r30yRpzRbfdszmFK9IcBEEDgvC2huY978S8HZwXAu+tffvHM/3/+31VKHQccUAAIaMn/k+mpcJB/AxAsrmQykfgmBFCsxgSCLmzOmgUnQGjFTtgBGsF4gI4TSWAijBw6uLgzGqI7IvjQC6BwYRxo5DILdHy4ACaKeRK3w0e0GmUrjP1DTKpVvGaUkZGabhQaj3knV3b01l9khK3xk1mXgI0MZgyjmcggBjKMiUKOpyU1iVHUekQNP8Qgg1TSMSjESJe+SxbxjGcCJdZsHmGYIozvg/FM9lsnwKEwykzSFApEOZe0nFLfAA==");
 
 export default PersonSign;

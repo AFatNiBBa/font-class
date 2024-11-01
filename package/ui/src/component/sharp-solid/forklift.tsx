@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `forklift` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forklift?s=sharp-solid forklift}
  * @preview ![forklift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/forklift.svg)
  */
-const Forklift: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 0L96 0l0 32 0 128L0 160 0 416c0 53 43 96 96 96s96-43 96-96l64 0c0 53 43 96 96 96s96-43 96-96c0-28.4-12.4-54-32-71.6l0-88.4 0-5.5-1.9-5.2-80-224L326.6 0 304 0 128 0zM256 256l-96-96 0-96 121.4 0L350 256l-94 0zM96 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm256 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM544 32l0-32L480 0l0 32 0 384 0 32 32 0 96 0 32 0 0-64-32 0-64 0 0-352z" />
-    </Icon>
-);
+const Forklift = createIcon("forklift", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABewAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCFQsGAAE2AiQDCAQgBYMtBy8bFAXIhofndb6e+yT/OFIYXhChQBzaC8DuSDyVhx1x6kSe/3M93/PRAD+PYGjRVAlS4Jf1/AQOOKKADqiSJ4r3tiGBDkk8DSkJkojGlMZpDWX8U5zRID2cvsSd8qTxm4HOkHQuAEQPAKzYt2uLj76OryO+aL9OfGETAmIFyAIFCgwRYLFCYIhSRqkUfB3tNv4HZgKIDnopCZTohEtwA6AESaMsJ9Vdu/auG13LvXWjOlTVlRBVpHh8wstz3pz0yvDazCcmBgzsF3tjUFS79+7ZG1HHHv7t+YEPD3ho9AuDHhn86LiuJBy6wyFD1DI4qqoY2erR+mPEl+d/6Y4Ps850wnE0W60TJ1qt5nIbXf+2X0Nf275yrv7T2sdg7HE3Wf2ho09e8dSPb77541MtzzDow2055+WyE7J8wo6y/DgQCFbc/XFxrPviv5t1At++89cf8OD2R+lEaqEpgaCY3J7scDoBBR2Al+J6I4OIBZJzNEBPtYsHBAgVAiQdKgEKg/UQoFSZJEDDMHME6FDZpRBlZ6GPIx0kXVwFCnPdBkp9vAoaFvvE69AnipQjE4b88cWt9dCaRnnG1Ol5YV7GGJVFONcuytvi+OspZwIMdL4rXO5a5znXRa51yNW2hNe5zNoIXiNC2QxTTZctlI+Tz733Os/VrnGRK1xe61kk33fHuz4uPgGURDFnapokIjXPv+LqS54lAAA=");
 
 export default Forklift;

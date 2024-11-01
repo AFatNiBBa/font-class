@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tie-hair-long` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie-hair-long?s=light user-tie-hair-long}
  * @preview ![user-tie-hair-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-tie-hair-long.svg)
  */
-const UserTieHairLong: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M320 128c0-5.5-.5-10.8-1.3-16l-30.1 0c-14.9 0-29.1-5.9-39.6-16.4l-6.3-6.3C223.4 113.5 194 128 162.3 128L128 128l0 16c0 53 43 96 96 96s96-43 96-96l0-16zM224 0c70.7 0 128 57.3 128 128c0 35.3 16.6 68.4 44.8 89.6l4.3 3.2c9.4 7.1 14.9 18.1 14.9 29.9c0 20.6-16.7 37.3-37.3 37.3L320 288c-8.8 0-16-7.2-16-16s7.2-16 16-16l58.7 0c2.9 0 5.3-2.4 5.3-5.3c0-1.7-.8-3.3-2.1-4.3l-4.3-3.2c-15.8-11.9-28.8-26.7-38.4-43.4C318.5 242.6 274.7 272 224 272s-94.5-29.4-115.2-72.2c-9.6 16.7-22.6 31.5-38.4 43.4l-4.3 3.2c-1.3 1-2.1 2.6-2.1 4.3c0 2.9 2.4 5.3 5.3 5.3l58.7 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-58.7 0C48.7 288 32 271.3 32 250.7c0-11.8 5.5-22.8 14.9-29.9l4.3-3.2C79.4 196.4 96 163.3 96 128C96 57.3 153.3 0 224 0zm4.7 52.7c6.2-6.2 16.4-6.2 22.6 0L271.6 73c4.5 4.5 10.6 7 17 7l18.6 0C290.6 51.3 259.5 32 224 32c-41.8 0-77.4 26.7-90.5 64l28.9 0c26.7 0 51.2-15 63.2-38.9c.8-1.6 1.8-3.1 3.1-4.5zM180.4 477.9L124.7 357.2C71.5 372.9 32.6 421.9 32 480l149.4 0c-.3-.7-.7-1.4-1-2.1zM416 480c-.6-58.1-39.5-107.1-92.7-122.8L267.6 477.9c-.3 .7-.7 1.4-1 2.1L416 480zM131.8 322.7c6.8-1.3 13.4 2.5 16.3 8.8L180.1 401l21.7-65-9.8 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l32 0 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-9.8 0 21.7 65 32.1-69.5c2.9-6.3 9.5-10 16.3-8.8c75 13.8 131.8 79.6 131.8 158.6c0 17-13.8 30.7-30.7 30.7L30.7 512C13.8 512 0 498.2 0 481.3c0-79 56.8-144.7 131.8-158.6zM248.3 443.4L224 370.6l-24.3 72.8 9.7 21.1c5.7 12.4 23.3 12.4 29.1 0l9.7-21.1z" />
-    </Icon>
-);
+const UserTieHairLong = createIcon("user-tie-hair-long", false, "data:font/woff2;base64,d09GMgABAAAAAAOEAAoAAAAABwgAAAM3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhECDcgsGAAE2AiQDCAQgBYMtBzkb+wXIPgxwh2XBX1Cg9KxWC1Qwp7RgFDuCxp7FXvFF0FO6132n+ySZQTaHgKHM9MRFHYKHsZ/3ELVkUsU0WqNbxBsVJh63EC2u0RbKonn+OrkdgiAoSzQu4cAySCnwdHiUtCCxJIo8u8mu54Nd6MA55Ra3Bdw8YLpQhCerF0Le62VcgHQhwGXtNPr8X/P5AR/gDzvQ80NZZOOFL6KeT2DA0draIGvdhG2D84Yo3e5DSF8BG/uUAjAPzMAmjumrSssFwyYjASrAjUKTrW4dePwxPvA+Ad2ZAwJoFIBPwAEOyCIA9TkEslg+sCzhY2zuP9AQAJSG/EQDwIII+AC/AMACMEIpNm2qPC+mQq4XiLY9s8kddVbmam1xis43zwJ6UuZMjVvlzuWq5/uB0IO8Iw2StYPTku2uamfKrlRP68SUFJ3N2F16uvrasvhOk7Sd02xoR/L2JFdrU3aKqal6VHCs0aNWjfeSy2iHB+0tPum+0tNpnm5V2pXae7NHz+vt57M8LRHdftopXazZPZYz2Xv3SntEx1M670LJQDQVeVHv8r6htQckV5s2eip3d7l42JOamX827uw/72YMDYVDOVLze/pW0ESc8KuzixefPRv27ZPOzaB6avBqVX4XF5zZG1ePj3n62CeQ6sT3MuVTonfiwydW4pMDgaXDxT08E5f4O1xNk+pjy83PvGxmZJZ5Mb8yf7WvhiPjod2na85G+PXpZu8S0fEnuBmLr4fLKdBN5v4jbevHJQ9zT7U0NDhNVk88NrDti4f12mbL6tXRG5SEtn0Ppx2nTqkrWmE6i3tfASAg3E369wbl538YAD6/bmzv/61JB8IMAMFpT0T/OABRAwCciZnyF35IwHgvnRSi7BRX+l00wAhygSNTHLBc5UBAjhqSjVHdOJQSYeBPMgABI8oU4KhpAbCSXAMB9b1ig5LCCeGy8Cn7v0zdsku06Of3VKzs1/Vnsyp5oJWQ7nr+ZnPzzEFVGTiXkSaZaLoRhhtjeoecqoMwwwQtl+gtvuuroqLKfHX5hwsPp/c0wlTTjDHJRNZLPf71/lIzlxuXgTZDMlYVZxgoKSFXsBUO9kdUyOSaCjkBAAAA");
 
 export default UserTieHairLong;

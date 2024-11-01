@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-beach` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-beach?s=solid hat-beach}
  * @preview ![hat-beach](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hat-beach.svg)
  */
-const HatBeach: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 448c176.7 0 320-57.3 320-128c0-19.3-11.8-36.7-29.7-43.9L574.9 262c.7 4.2 1.1 8.5 1.1 12.8c0 42.7-34.6 77.3-77.3 77.3c-12.2 0-24.1-2.9-34.7-8.3c-10.7 5.4-22.6 8.3-34.7 8.3c-38.6 0-70.6-28.3-76.3-65.4c-10.6 .9-21.6 1.4-32.9 1.4c-88.4 0-160-28.7-160-64c0 0 0 0 0 0L29.7 276.1C11.8 283.3 0 300.7 0 320c0 70.7 143.3 128 320 128zm32-242.7c0-42.7 34.6-77.3 77.3-77.3c7.1 0 14.1 1 20.9 2.9C421.1 90.4 373.6 64 320 64c-70.4 0-130.2 45.5-151.6 108.7l.1-.2C174.7 201.3 240.1 224 320 224c11.7 0 23-.5 34-1.4c-1.3-5.6-2-11.5-2-17.3zM473.1 168c-5.5 3.8-12.7 3.8-18.2 0c-7.5-5.2-16.4-8-25.7-8c-25 0-45.3 20.3-45.3 45.3c0 9.2 2.8 18.2 8 25.7c3.8 5.5 3.8 12.7 0 18.2c-5.2 7.5-8 16.4-8 25.7c0 25 20.3 45.3 45.3 45.3c9.2 0 18.2-2.8 25.7-8c5.5-3.8 12.7-3.8 18.2 0c7.5 5.2 16.4 8 25.7 8c25 0 45.3-20.3 45.3-45.3c0-9.2-2.8-18.2-8-25.7c-3.8-5.5-3.8-12.7 0-18.2c5.2-7.5 8-16.4 8-25.7c0-25-20.3-45.3-45.3-45.3c-9.2 0-18.2 2.8-25.7 8zM464 216a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const HatBeach = createIcon("hat-beach", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABkAAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCSQsGAAE2AiQDCAQgBYMtBzAbSQXIhof/12Xe9yWTxgxaAgoAcgeA02bT+qRlnP9rPj8titJvFwSHFoWlB1Lg0WtMgYGvvQlmh7PRAH1s023io0cUQkdIiNCI6Dil4+kCefydXaaGdHeq4sbW0/han8tIGjIA0QqANXvuur13RmM04vP/XyQ+ty0CYg0oBTJkGBRguUxgUK5ELheMxv//839gSQBRS39HAjlqcQVuBuQgyfN8zsCUhkpNU75HpaZounbPiC+XRbw+cs/EhXG7+yY/Nf+a7tuKJ6Y+039bsXXpa/0Xx8WxWzzWe/+SV3f/orLng9Minl10bdczS18rPlj8yuxK3L3gxQ3X9twRe97WfUdxTedtLuq6nbjKtT13MnFx9x0q7Ofg4313jX+i/95JY59pfebbMdUjqlbvvamVzW338lzWXJ2hps5uG3T8/nvHO2vWbPtD2zrvvtsPF89Tbc6eu3dz26bWvUd+shsbVG45oC2m7HT+dcLu99//TvsPvQ1njb/88pebO6rVjuZz99rrXJt7+bLLInxOS3jjzl1dO3c+EF/ZOvHsWw5sWf5rfSWBr177/o/xZLooPYN6CQTZ9P+n2y9dBCwNIEpxhrHgjQLJBXL6qo3uECAUCJDUKgTIDGgVIFeYJkCNYQsEqFXYVSbyBqHT/hMkjU4GmYXOB7lOz4May30c1uqMLBm1VNL+gtkbPbRhUzln5uxyablMmZ5fSpldVm47k8+Q1hQ66wgnOsFpDneYo53m8FNsn5zueBsRtsEHleaYabbSUuVxcTy+h8Od4lRHO9EJdZ1lyvvBZGfg4VPIT1R2rq1JIlLDUQefNuMZAwAA");
 
 export default HatBeach;

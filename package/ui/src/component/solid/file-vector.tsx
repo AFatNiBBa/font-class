@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-vector` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-vector?s=solid file-vector}
  * @preview ![file-vector](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-vector.svg)
  */
-const FileVector: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM128 208l0 16 128 0 0-16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-16 0 0 128 16 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-16-128 0 0 16c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l16 0 0-128-16 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16zm0 176l128 0 0-128-128 0 0 128z" />
-    </Icon>
-);
+const FileVector = createIcon("file-vector", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABewAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCKAsGAAE2AiQDCAQgBYMtBzIbKgXIjtRG+UVWEg/fz/V17ks+JcOQISKFAIvgmNyyAxS2a+zWSnJdte8T1zz/tKfC1id5tGjqNUgkjrptAgMdztMmNBvYTBPcp25jxWK56cgZB89RQ7sheoQ8Lmd3NJBeTb/haX3Q+Et3d0haMgDRDgDz1q9e5Yda1CJ+rSN+tQIBMQ9UAhky9BJgpkygl1yFXC6oRb3e/gMrAohG8lMSyNGIC7gGyEGS53mfpvktZUPrfF3ZUGx+a2jEe91SvDrs/UGt490RH/bMoojHurwUEUUplLFujVBGxMtdy3ixs3ihUxHCRC91iShCzcQiICNZFqW7Rv8P2n3wd7/f9v1mzvevtad9cUPRvv1rENW+qNBtHjxoc8P94YagrqN/ttt3QzttapVam0rddlg2zW/QTuR8dkYet4NA8M31Vx9tbzvzn+YygUdf/Z++iuo/xI30AZolEGQj6yNtiRsQNwQAIMU5/eMGAskJObnXVl4SIBQIkDQqBMj01E6AXGGEAA36mCRAo8JqmchbhE62mpC0clLITHZVyHXypdBgph+zjTpFVnxq6ahfv6zFDCzaVY0bPbaaXi3rplZPcp+fUaXdoedc3zActM9xx5yx1x4HnSH8lFWFs45aHGGLPFFlnNHGqkxXbbf21jqiTzntYMyx/W1mqO5nhjoXjx6GIBHJ8WqSRKTynVePOrd395njpwAAAA==");
 
 export default FileVector;

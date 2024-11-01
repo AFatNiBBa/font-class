@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tickets-perforated` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tickets-perforated?s=duotone tickets-perforated}
  * @preview ![tickets-perforated](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tickets-perforated.svg)
  */
-const TicketsPerforated: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 96c0-35.3 28.7-64 64-64l416 0c35.3 0 64 28.7 64 64l0 48c0 8.8-7.4 15.7-15.7 18.6C605.5 169.1 592 187 592 208s13.5 38.9 32.3 45.4c8.3 2.9 15.7 9.8 15.7 18.6l0 48c0 35.3-28.7 64-64 64l-416 0c-35.3 0-64-28.7-64-64L96 96zm416 16a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm0 64a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm0 64a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm0 64a16 16 0 1 0 32 0 16 16 0 1 0 -32 0z" />
-        <path d="M48 120c0-13.3-10.7-24-24-24S0 106.7 0 120L0 360c0 66.3 53.7 120 120 120l400 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-400 0c-39.8 0-72-32.2-72-72l0-240zm496-8a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm0 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-16 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const TicketsPerforated = createIcon("tickets-perforated", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABrwAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yCWwsIAAE2AiQDCgQgBYMtB2AbjQXIjsM4JnyniYU1Hv5/7j/3ucl7H4AyxFhAcEASkGSryo7lqFFZtUyph/eRU+OlUqmAz0pQlH+1qX7wdu8TDvicR8sEBjabKW5w3iFNCu0IhRfI04zsbjXSk+kr3F/8D2B8Y8jdJE0ZgOgEwKZTjuzzSRlliq+qd4mv7EVAbAaFQIYMowKslQmMyhXI5YIyVRVlVFVBAFFXvC8DdbTiHjwKyEFSU8vzwaYKnNoUttTa8uPdwuYznpr+yqB4cd2H29ri9RFgd2u8Nvut4bjgsf5Heh/te3zAJB2NOc8YQxad8fSciLdntMWrs94cEvHUV0afnfZon3hi5htTTUjngZxKh6aDJ7/V+dZ3k766+CsLdvQdOtT3o9TVVTzAp4DRDyiXLGn/cUN7Wba3xsbJ6zjgUa1RwQc555zmLrpeeMELXV3NC42dOOngTp4YW6iZL4PyeWYqnF4HAkG1e/vf51j7W2NLAl+/9xf3eVWZbk9voVECQTa3muvMdDsExACSFDebzPiqcwUyO9VUn9rqMQFCMwIkdc0CZEZ0CpBrNkeAmnHLBKhrdkQm8iah11krkrS6DsksdwuS6/UOUrPWp3Fdb2SHJXdQcXeFydtBYNuwYtH8hcXqgpqb+SONSQfXFML2zJvDhln2Uhe7xtVudJELXeZGAL7evuwmV9nOgrb5ocIi8y1UWK1QLo/KxwHc9W5wGeNqddsatwLz/kw3s9vPsr2kIl1sSiYjUmTD12iLeb/RYE9Yfd5B3m4UL+7TAA==");
 
 export default TicketsPerforated;

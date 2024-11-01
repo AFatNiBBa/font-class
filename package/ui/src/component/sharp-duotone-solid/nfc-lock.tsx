@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc-lock` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-lock?s=sharp-duotone-solid nfc-lock}
  * @preview ![nfc-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/nfc-lock.svg)
  */
-const NfcLock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l320 0 0-64L80 416l-16 0 0-16 0-288 0-16 16 0 64 0 16 0 0 32-16 0-48 0 0 256 224 0 0-96 32 0 0-16 0-144-112 0 0 82.7c18.6 6.6 32 24.4 32 45.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-98.7 0-16 16 0 144 0 16 0 0 16 0 81.6c16.8-17.1 39.1-28.9 64-32.5L448 32 0 32z" />
-        <path d="M432 272l0 48 64 0 0-48c0-17.7-14.3-32-32-32s-32 14.3-32 32zm-48 48l0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48 32 0 0 192-224 0 0-192 32 0z" />
-    </Icon>
-);
+const NfcLock = createIcon("nfc-lock", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgAAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCGAsIAAE2AiQDCgQgBYMtB0wbNgXIjtRWd+SLiof/dL7dNyP7JHJgQqwQK4BL/ksVEXREHRFV7paLCn22ZM5/ZsWLU89zng34HIKg7aEBWeBz9bwCFZ3WTVbqebWGVmtnv5DU+036jpBk2F6GyQWq+Cdfo0O6O40b+X8A42szXEMyOgOIAoCRQw/c22AYwxQf/f8a8ZG9EBC7gkYgI2O2ADvKArNVGlQqwTD9j2H8ryGA6OI3yKCLDs7DxYAKJElUVZk20uuMrQ7pdeoThV5EXDn1jrrJt9kxxIMrn93y+vKn54heiDoiejnlNDYiatBycHuUSNHTQs7XIR6fc9fk2xY9MfWOmQ8ujYUXxbNbIsYseKY88+38j075yIsvtm3b1xp3ww3jkgo/NQ45uZSTD4lWY2BooPHQYDDo6/uhFI2i7NcoLUPHaRQ3Oc+BPin540/b9tOPc/nkREV5qDjAPQdfaQAEgh3/+OKdY8fv+OuoXgJfvvP9V/LT/w9SPz2DURII8qr/Vzkq9cExA/hRKS6xIPXjOASyEYmcG+MOAUKNQtJVQzZLgUptJXTMtel8V+1AWVSjhcmOVkjGOB+yzS6FymSvQseO3o26Jke2OsFmhD9f6p6I7LGrWbembbY3w0wRDYmLmzs0y+6yS3xnOe11inOd4yInO8npLgL6AnunFzvbnjN0D1/UWGeNVmO7Zru8VQ+B6AIXOr0v72+zg+Z8uMwl8/HlFCTCut6BLBMpcjnnlBNXPwhztfnaEyv5ngIA");
 
 export default NfcLock;

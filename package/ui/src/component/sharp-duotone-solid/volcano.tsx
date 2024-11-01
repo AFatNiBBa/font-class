@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volcano` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volcano?s=sharp-duotone-solid volcano}
  * @preview ![volcano](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/volcano.svg)
  */
-const Volcano: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 440l0 72 512 0 0-72L418.5 334.8 320 384l-80-64L128 352 96.7 331.2 0 440z" />
-        <path d="M160 144l48 0 32 48 32 0 32-48 48 0c35.3 0 64-28.7 64-64s-28.7-64-64-64c-15.7 0-30 5.6-41.2 15C299.6 12.4 279.3 0 256 0s-43.6 12.4-54.8 31C190 21.6 175.7 16 160 16c-35.3 0-64 28.7-64 64s28.7 64 64 64zm80 176l80 64 98.5-49.2L320 224l-128 0L96.7 331.2 128 352l112-32z" />
-    </Icon>
-);
+const Volcano = createIcon("volcano", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcgAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBYQsIAAE2AiQDCgQgBYMtB0ob/QTInge2W7SlshHaUfh4oRQP36/1du7rnqmfnjB0mNEBKXYEimWiouJYxePuKpKrJ5lJ0/Lh57Xe/yeuqR/nTw9YAJh93hgFsuzzCew8imYJnjyhmc7AZu30DAaSTdIFn2SY+GGRG+TxLbuiQrqX4Fb4H8D4RwdXSBplAKI5AKavXbnY+1/xK8XX+lviq0UIiBmgFMiQobMAk2QCneVK5HLBr1TPr6gvCSCqwjMzUEUFS7ANkIMkiTzv1axVrdIkX1OrFBtrRW1w1GKofsPzga873R/wqs/VXq/GvO33rLjfi/b3+r/svXr1mtVrY00UsSr6x9oQmkXEmlilgAHbe7xq/uq/7vbwZOgw8utKRB7maYsWRVH5tH3TQcOHD2raHsOlL82fsGOYHUdcsOWAvxztpmGeKTPPpn3aFMfUd/rLtkNAIPg+pFdbTfq/oZbAH+/8Lf2O6u+T9AoNEgiyQfVBNiWQCABAijN6JLYhkBkpiZ/a2G0BQoEASVUhQKaT5gLkCgMFqOhqtABVhZUykTcSWttcsKSx41hmjLNYrrU3WMUkH6Kq1pFJFicX3McueQ7CsxeVw4cMKyeUw5rMCwvjZieW03a/M7anPx21x1FHnLLbLvudAvSExelph83hkNm+qDTcEMOUJiiXm9fyGohOOGl/X1yfZ6Jyv9PPGX54f1pOAow4k0MZkSJrdubooVcuffAVNVqgeBcBAA==");
 
 export default Volcano;

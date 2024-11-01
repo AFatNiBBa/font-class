@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-zipper` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-zipper?s=regular file-zipper}
  * @preview ![file-zipper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-zipper.svg)
  */
-const FileZipper: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 464c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16l48 0c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l48 0 0 80c0 17.7 14.3 32 32 32l80 0 0 288c0 8.8-7.2 16-16 16L64 464zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-293.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0L64 0zm48 112c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm0 64c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm-6.3 71.8L82.1 335.9c-1.4 5.4-2.1 10.9-2.1 16.4c0 35.2 28.8 63.7 64 63.7s64-28.5 64-63.7c0-5.5-.7-11.1-2.1-16.4l-23.5-88.2c-3.7-14-16.4-23.8-30.9-23.8l-14.8 0c-14.5 0-27.2 9.7-30.9 23.8zM128 336l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const FileZipper = createIcon("file-zipper", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABjAAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCQwsGAAE2AiQDCAQgBYMtBzIbRQXIhofvdX6e+yR7vNJn0BJxAAhKoGq7ABalJy1WSeuJa57/+VOBJD3Bo1RQLZKycNSJE5hQeVPb9Cc0UdzgvMkH3B3aD5DHrfGUGunl9DOedJvjT8PuI6llfCy64ExbTzz2oCPNaEb81PqC+Ml+BMRWUAlkyDAmwAaZwJhchVwuaEarlfwHVgQQdfDTCeRo4B48DshBUs/zibH29qGOstaen1DWip0vDGTx4mAZz/eXGUnc1f98+YYUz/W1Ze/NifhoKMXLcz+e2R4fzv90NIu7550QnxTF8Yv9LwwUi3rUyo477sTjnjOfZzvuHjghXplVxHtDx5dFadHn+opglzll2iddn/w99ecLftZqdtylo7lER7PS7FjiKB0PPdRxlEpH0+9vddNd3KXo7n6Lt7q7i5lGp518smkjHyy+crmY9GypRWq7B08M9MYqnhmNwcZGF5zV6aoL+k+sqgqy5HYgEFzz3auXnNm54b9GmcAf3/77f3a91pG4K32ChgSCbEFrgdPiLmD0AJIpbjANURAseYvT+q1tXhAgFAiQ1BUCZEZ1CZArzBegZsJKAeoKx8pEPkXoc3qFJW2uxjKr3I7l+nyG1WzwXbquL7IvUfyOxB/BtF1NYOe6aumiJdW6arSqkD4uXk+vrxabc27gXXPhXhe40hWuc77zXOy6BnSNg7nrXW7XFLjTD1WWWmSJyjrV5sbd7Sc43zWudbErXWFXWa86PjzHDdOD50JX4jMuU5EkIpVvffnCWy6+6qrzrwEAAAA=");
 
 export default FileZipper;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tents` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tents?s=light tents}
  * @preview ![tents](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tents.svg)
  */
-const Tents: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M425.5 3.1c-5.7-4.2-13.4-4.2-19 0L236 129.1c9.5 1.8 18.7 5.8 26.8 12l5.4 4.1L416 35.9 579.5 156.8c3.5 2.6 5.8 6.5 6.4 10.8l17.5 134.4c1.2 9.6-6.2 18.1-15.9 18.1l-130.8 0 4.8 32 126 0c29 0 51.3-25.5 47.6-54.2L617.6 163.4c-1.7-12.9-8.6-24.6-19.1-32.4L425.5 3.1zm-192 160c-5.7-4.2-13.4-4.2-19 0L41.4 291c-10.5 7.8-17.4 19.5-19.1 32.4L4.8 457.8C1.1 486.5 23.5 512 52.4 512l343.1 0c29 0 51.3-25.5 47.6-54.2L425.6 323.4c-1.7-12.9-8.6-24.6-19.1-32.4l-173-127.9zM60.5 316.8L208 207.7 208 480 52.4 480c-9.7 0-17.1-8.5-15.9-18.1L54.1 327.6c.6-4.3 2.9-8.2 6.4-10.8zM240 309.9l0-102.2L387.5 316.8c3.5 2.6 5.8 6.5 6.4 10.8l17.5 134.4c1.2 9.6-6.2 18.1-15.9 18.1l-50.1 0-.2-.4-104-168c-.4-.6-.7-1.1-1.2-1.6zM240 480l0-109.5L307.8 480 240 480z" />
-    </Icon>
-);
+const Tents = createIcon("tents", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABegAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCJgsGAAE2AiQDCAQgBYMtBywbIgXIhofv7aI/93XPLKBewEzhLyCTKmcqRKvpz9/5zkcD2j2jIX3+tL/96X++0e9fnXfeLMCyNc5LO8/CLFHMthmXUFARbhEhYfIfDZv8sP0d8rgZXZRI96Qvcb59aPyqkTMkeQYgagJg5PzZU338U/wU8eXdN4gvTUZAjAKFQIYMTQUYIhNoKlcglwt+irt3439gQQBRxs9OIEcFbMU5QA6SUp63ali9foUqpWr5vHy98vprdefE1Xr1Yn7MJTxv160cjaJKPNXgeuN5cW/9eXNM8UpDnN6od7VtNY2bX5MpKse1BvPjeuh67UXMi5NBqU95beVWz9Z89veWX6770jPvXz377FHffzra5S0eO2B0ueZZNf4+bbpjZvzwTb2a57S++fzxjx66evaF4262lot63/wwY8HGff6eS1topab7/V2j5lnl2a+W17F+ecuty72x/imCZ7cCHb3FGI8Eghe+uPH88hpD/q9YJYFf3v3z/76R3f04HU3PoqIEa0HW5W4XS9IJmcxYCCBIsU8rfJNAslYJ3rWqawKEygiQlFUWINNETQFylXUWoKS5vgKUVTZbJvJKQl1LJ0iq2gky/RwFubpeAyVDfBKU1Y3M9yjPof784sdJaOy5ome3HsWgYpsZtDsR5XBw8VjqsC91OuKmdbbbZo+11thoj0B2mRrvtdU4Cx7rhwo9ddNDYZDiuHzl51Gwy24bdfb8mMGK+0YH++zxjlATxuwllSQilT45YTcAAA==");
 
 export default Tents;

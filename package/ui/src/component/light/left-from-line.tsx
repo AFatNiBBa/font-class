@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left-from-line` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-from-line?s=light left-from-line}
  * @preview ![left-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/left-from-line.svg)
  */
-const LeftFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32.8 257.8c-.5-.5-.8-1.1-.8-1.8s.3-1.4 .8-1.8L164.7 129.8c1.2-1.2 2.9-1.8 4.6-1.8c3.7 0 6.7 3 6.7 6.7l0 57.3c0 8.8 7.2 16 16 16l120 0c4.4 0 8 3.6 8 8l0 80c0 4.4-3.6 8-8 8l-120 0c-8.8 0-16 7.2-16 16l0 57.3c0 3.7-3 6.7-6.7 6.7c-1.7 0-3.3-.6-4.6-1.8L32.8 257.8zM0 256c0 9.5 3.9 18.6 10.8 25.1L142.8 405.5c7.2 6.8 16.7 10.5 26.5 10.5c21.4 0 38.7-17.3 38.7-38.7l0-41.3 104 0c22.1 0 40-17.9 40-40l0-80c0-22.1-17.9-40-40-40l-104 0 0-41.3c0-21.4-17.3-38.7-38.7-38.7c-9.9 0-19.3 3.8-26.5 10.5L10.8 230.9C3.9 237.4 0 246.5 0 256zM448 432l0-352c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 352c0 8.8 7.2 16 16 16s16-7.2 16-16z" />
-    </Icon>
-);
+const LeftFromLine = createIcon("left-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcwAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBeAsGAAE2AiQDCAQgBYMtBzUb/QTIHgk2LnydGK3EePje5uu5b1caWzLDGoChQkxRWU64M3fBptCkzaR0/TsCC4xv1b5PXJP//vzpz5Of4JGiqRokajjKFNj5ROcNNi4b2LTFeG8bIuQIwtOIkFCRaDwdsw3k8V0MViK9Tv/g4bjT+E9Ht0nyDEC0AMCMdauW+FqPesQ/DYh/LEJAzASFQIYMXQSYLBPoIlcglwvq0dDQ/gMLAogyPm0COUrYhv2AHCRZnvfs16xaapqvrZYq617Ejfbr4mX1eVuBQBURz9pUABvcabd27PW2a+J59W77lxFRDSRutHtRqZz/nTar45kdWcpetHvWJsXzti/b96y1qP3f45+9/yg+iXDrkpZpeWmCZvXztpeXK28/r95sgtLy1PLWpWj+9ta9bd6yVjPAfi3fvbdcy/fv7DeAojavBWjT/fLTuKZZvd5su/k7IBB8+diXbc0nf2tUTeDf97/RkfE11dBIAkE2uGGwzfEVgBzAU0pxVs/4ikCyTgZvtYkXAoQKAiRlFQEynbUQIFcxSICSbsYIUFaxSibyxkIbWzaRNHGCyIx1hci18RtRMtnvcVmbyJKMSxHui5c8V4JzVhUjhg4vJhZmw+LzhumLk4qw1v8sDQyAtfY65qjT9tjtgNMCPmlJdsYRcz1ojgcqjDDUcIWJiuv2p7wW3ZNOkULn75cxSfE+6u+sP34AmAlTjlSXJCI1qztlSDUqQ+oQAAA=");
 
 export default LeftFromLine;

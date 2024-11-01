@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `moon-stars` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moon-stars?s=regular moon-stars}
  * @preview ![moon-stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/moon-stars.svg)
  */
-const MoonStars: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M295.8 137.8c1 3.6 4.4 6.2 8.2 6.2s7.1-2.5 8.2-6.2l11-38.6 38.6-11c3.6-1 6.2-4.4 6.2-8.2s-2.5-7.1-6.2-8.2l-38.6-11-11-38.6c-1-3.6-4.4-6.2-8.2-6.2s-7.1 2.5-8.2 6.2l-11 38.6-38.6 11c-3.6 1-6.2 4.4-6.2 8.2s2.5 7.1 6.2 8.2l38.6 11 11 38.6zM403.8 310.8c1.6 5.5 6.6 9.2 12.2 9.2s10.7-3.8 12.2-9.2l16.6-58 58-16.6c5.5-1.6 9.2-6.6 9.2-12.2s-3.8-10.7-9.2-12.2l-58-16.6-16.6-58c-1.6-5.5-6.6-9.2-12.2-9.2s-10.7 3.8-12.2 9.2l-16.6 58-58 16.6c-5.5 1.6-9.2 6.6-9.2 12.2s3.8 10.7 9.2 12.2l58 16.6 16.6 58zM48 320c0-70 50-128.3 116.2-141.3C141.6 206.3 128 241.5 128 280c0 83.2 63.5 151.6 144.7 159.3c-23 15.6-50.8 24.7-80.7 24.7c-79.5 0-144-64.5-144-144zM192 128C86 128 0 214 0 320S86 512 192 512c69.4 0 130.2-36.9 163.9-92c5.3-8.7 4.6-19.9-2-27.8s-17.3-10.8-26.9-7.2c-12.1 4.5-25.3 7-39.1 7c-61.9 0-112-50.1-112-112c0-45 26.6-83.9 65-101.7c9.3-4.3 14.8-14 13.8-24.2s-8.4-18.6-18.3-20.9c-14.3-3.4-29.2-5.2-44.4-5.2z" />
-    </Icon>
-);
+const MoonStars = createIcon("moon-stars", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjAAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCOQsGAAE2AiQDCAQgBYMtBzEbOgXIhof/r6u67wdOZWQb0aIHJPcAllPzf7Pn2aYAv1FoY9PSQBZINOfzBBLr5ZGOBZYd8QnYsZ11s/fUkHJr8qKXNIznh6UF8ng2LlKQrk7v4cL+0PhZT6eRFBmA6ACABVtuWuOlL+KLiHdbHyfetQoBsQDUAhky9BFgtkygj1yNXC74Ilpb829gTQBRApz893KUOAFnA3KQ5Hle150HNYu2+RbNotrz8ua53fvHtLgyTu42NfrFFdU5XfrE5LjMSV2nRN/NL29e2X1SrIor44puK2NiXFFd1mV8LI/LXN51RUzY6dZxEQ8ue66+ec7zS56a/MbcFwZu+dn6iI82+3zDx5u/OevZcVd2u6LLbdUTI+/pd/Koe4dd2euKbndUA+/pcM+vA97b4z3DpnQty6532MeGstywjzvYD9r3vuGNk4Y1XOSURsshF2lIO9+1pfiXf0eOqNqfe+x3wz56+cyj+lz44obYnM1jQ2zYfPMNMf/Ku64+/vp7/+nW9Y/f/28/sFev978z7p/F3YFAsOu8+u8d28/+t6WZwFfP/P4f/Ra1vpSke9AigSAb3TradgkkAgCQ4ggDEwSSI+Sw1jauECBUCJCUKgEyvXUQIFcZJUChnykClCqbZCJvCF1sP0HSxsEgM9XxINfFo6Aw25tWqUtkJGQpxP4Bk5YqtGSsnjB2fD2z3voGxyu69mfVx+rwI0puhMzaw4EOcJjd7WZvhxnyEGvcw+1vqUcs8aLaBGONV5upvo5ep7ewu0Mcam8HOqANmaV+bw53hF89QowElBN5kkSkKoiVMXEDAAAA");
 
 export default MoonStars;

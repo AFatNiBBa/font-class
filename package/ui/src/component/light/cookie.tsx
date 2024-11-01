@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cookie` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cookie?s=light cookie}
  * @preview ![cookie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cookie.svg)
  */
-const Cookie: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M242.7 48.7c-15.4-2.2-31.1 .6-44.8 7.9l-74 39.5C110.1 103.4 99.1 115 92.2 129L55.5 204.6c-6.8 14.1-9.1 30-6.4 45.4l14.5 82.8c2.7 15.4 10.2 29.6 21.4 40.4l60.3 58.4c11.2 10.9 25.5 17.9 40.9 20l83 11.7c15.4 2.2 31.1-.6 44.8-7.9l74-39.5c13.7-7.3 24.8-18.8 31.7-32.9l36.7-75.5c6.8-14.1 9.1-30 6.4-45.4l-14.6-82.8c-2.7-15.4-10.2-29.6-21.4-40.4L366.6 80.5c-11.2-10.9-25.5-17.9-40.9-20l-83-11.7zM182.8 28.4c19.7-10.5 42.3-14.5 64.4-11.4l83 11.7c22.1 3.1 42.7 13.2 58.7 28.7l60.3 58.4c16.1 15.6 26.8 35.8 30.7 57.9l14.6 82.8c3.9 22.1 .7 44.8-9.1 64.9L448.6 397c-9.8 20.1-25.7 36.6-45.4 47.2l-74 39.5c-19.7 10.5-42.3 14.5-64.4 11.4l-83-11.7c-22.1-3.1-42.7-13.2-58.7-28.7L62.8 396.2C46.8 380.6 36 360.3 32.2 338.3L17.6 255.5c-3.9-22.1-.7-44.8 9.1-64.9L63.4 115c9.8-20.1 25.7-36.6 45.4-47.2l74-39.5zM160 168a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm8 184a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM288 232a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm8-104a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm56 200a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Cookie = createIcon("cookie", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABlQAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCWAsGAAE2AiQDCAQgBYMtBy0bVQXILgrshmNDgEHXsGealzAgPdf3qvE8tN+3c+fNigiWPKk2tuFRGw1PRGnQRBMe4oa8oeOe//+NzX+YV9qhZs2l0WiUyrQuiTVvaW95OrfnQCmUArECTJPOaRZNZpZ/327820LnjKPMvwmfHIUWTVzTv+mfXqPsyR5lkU0VFJHnOx8OcPo+T+DZwGY6AdvZtldBREO7ERpXqHmkkCl3GHAjfGi+4jtS1AYAMggA7DlaysDbq7xKflpFFqSAQPYCLIXQoMEsBLYjCmaRLAWqKrxKa/EfuBQESDskTyugogtX8BBQQdFRSfIV9CTLJLNJ1aKB0XqSyxmOXTKpxEchs1QQ02pZQTl9NTGLObU6d7UrqT1sR0s7q7ljOgR4mVRNJyoSOnQhq67L6dZU0TrhqM2QGlJ5ifB28Pb7MrLg9/rZuYQUqUeact7EOcDqwZJTBxhYkyQfa9JF473BkweY948WtRi9Ou/afuP2/7h0+v9y33JQqo8V6uxp/5gp5FjH1/XBd2mOKH7fbwcQhOWnv388NkD/O3sIAG/mf/6vf0a9LflXXoBOBYRmTSvtAr168ycAgJI9YaFXUFxGlbxrr5sCohsBRbtuAY0ZPAhU3VZDoM1iFgi063YQUSodYlSHikWvM2Jjo4NYjboT22z3nm83mgYodSCl+yXMHB2DkXN4afXYiTcHWj2caeyhC5929/1sQYEVoW9hbquna2Q7ItcypZ2Z6B4R8UWYgZYe5oRvj5+bqzS/tjFad7h/jAt+Py6331+vwD6CRHatjqKQQvluAAAA");
 
 export default Cookie;

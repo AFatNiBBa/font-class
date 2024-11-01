@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `campfire` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/campfire?s=sharp-light campfire}
  * @preview ![campfire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/campfire.svg)
  */
-const Campfire: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M266 37.6L228.4 0C189.6 24.2 112 93.1 112 174.5c0 77.5 60.6 140.8 137 145.2c2.8 .2 5.6 .4 8.4 .4s5.7-.1 8.4-.4c76.4-4.4 137-67.7 137-145.2c0-24.2-17.5-87.3-87.3-145.5l-8.5 8.5L286.5 58.2 266 37.6zm-8.5 253.3c-2.2 0-4.4-.1-6.5-.2c-30.6-3-51.7-26.7-51.7-52c0-19.9 14.5-43.2 35.5-64.9c8-8.2 16-15.3 22.7-20.9c6.7 5.5 14.8 12.6 22.7 20.9c21 21.7 35.5 45 35.5 64.9c0 25.3-21.1 49.1-51.7 52c-2.2 .1-4.3 .2-6.5 .2zm87.3-52.2c0-64-87.3-122.2-87.3-122.2s-87.3 58.2-87.3 122.2c0 4.9 .5 9.7 1.3 14.3c-18.9-20.7-30.4-48.2-30.4-78.5c0-31.5 15.2-62.8 37.3-90.6c15-18.8 32-34.6 46.7-46.1L266 78.8l20.6 20.6 20.6-20.6 9.5-9.5c47.2 47.4 57.2 92.4 57.2 105.2c0 30.2-11.5 57.8-30.4 78.5c.9-4.7 1.3-9.4 1.3-14.3zM37.9 295.5l-14.9-5.9L11.2 319.3l14.9 5.9L212.9 400 26.1 474.7l-14.9 5.9 11.9 29.7 14.9-5.9L256 417.2l218.1 87.2 14.9 5.9 11.9-29.7-14.9-5.9L299.1 400l186.9-74.7 14.9-5.9-11.9-29.7-14.9 5.9L256 382.8 37.9 295.5z" />
-    </Icon>
-);
+const Campfire = createIcon("campfire", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABkwAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCYQsGAAE2AiQDCAQgBYMtBy8bYAUjEaZTECH7IyE3w3pzqjMKxSmMCquQQhGKdBQzmkUTnkQE7fc6e3dBcEA2sYnC1lcRGMGOyLWKVI2oY7C1aKu/fj8/Lv87gqPTqQ1AclOF0MC8uDyni1PfxM3OO48CnMShjG1TAxkToznPEwgw/Pf3Bj1IQom9kL65LU7DRFHWRGSIDpUP7fch/QdanmddH+Vx+QG5V26V/8RuUrQKIJMA2Hf04AFv/uRP8qO7ID+UI5D9YFlQcc28gC1VMK9ZRtOEP+k66D9wmQDpxwcX0NCP+3gCaKBorbWgFJrNVDwdl4ivKc1ZmVm7pkPbqWwr86FwhhoOeMx+rV1xnFfxwASW2DRlXzAvWcleEM7xH8SLvFndBIyh5LoF4DjLlOlD0p8qG+cfK3ayT6yZYAYrCOFBvMRbNS1AjYAvEAEf4hADHohBCMmO54MUBJDACkECPIhta45Zx1/qH00/kJfifGj06NCTT6K0JHdxODxuN5mSYI0i2yTyyif+t1r38QujYN8fLNyzFRh8oQ7CYhNeVhlC5TkI5QAmJ6e8jEUUfNJZ5uGaSZSPvJYQ78U9hf5EIHpCaYTupd2WkZrm1OcjoJE5200FQfjX//NK9cRWb5BawL9nP3/1R1C7d+mVYwwqINT1zuZUYcRIegCbJRetKg8Lirsa4K6jHgiIYQQU/YYFVHMmBTTD1gT0WbQhoN+wg6q0ITHrdIeLUWfgatMluJn1FO6z5bPZ72I21TBZs2L/C5OKJFC4pnI7XKqIahlrnK3RaR5VbSumIaqZ8RY16dZlQKMGrQYE1KfSGdSpSAMLPUjFzcFFJUJ1nT1KCWH26dc6F+6XRKmeN0yG9G4zdAwm9IhgFKAMfo30Sw4=");
 
 export default Campfire;

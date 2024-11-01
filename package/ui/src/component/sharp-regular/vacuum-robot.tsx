@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vacuum-robot` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vacuum-robot?s=sharp-regular vacuum-robot}
  * @preview ![vacuum-robot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/vacuum-robot.svg)
  */
-const VacuumRobot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm335-79c-43.6-43.6-114.4-43.6-158.1 0L143 143c62.4-62.4 163.5-62.4 225.9 0s62.4 163.5 0 225.9L335 335c43.6-43.6 43.6-114.4 0-158.1zM224 201.4l11.3 11.3 64 64L310.6 288 288 310.6l-11.3-11.3-64-64L201.4 224 224 201.4zm-80 16l11.3 11.3 128 128L294.6 368 272 390.6l-11.3-11.3-128-128L121.4 240 144 217.4zm-16 80l11.3 11.3 64 64L214.6 384 192 406.6l-11.3-11.3-64-64L105.4 320 128 297.4z" />
-    </Icon>
-);
+const VacuumRobot = createIcon("vacuum-robot", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABjwAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCUgsGAAE2AiQDCAQgBYMtBzMbVQXIhof/n5O67yftAFBmFCM4JkXCMi4Au561qFZ3/q/5/EKPDvAbHVqkJRY2eAefwIndAts2ns8GNtMJ2KbmvTzA1x3azpDH67iqRLqZvsYV96Hxl1ZOkpQyANEQAGMWzZvh/UpUIr6qPiW+Mg0BMQYUAhkytBVguEygrVyBXC6oRLXK/gMLAogy/3kJ5KiJs7gGyEFSzvM2bVo08u06pXr5wvjltdcd6xlxb+qXtc9P/rz7HUd73J3yRZ0L077qdT/q/jYu4qNZ39W5MOObMR8s+Hn0+9O/rn1+5rdjP1y47l3tiPPDR8aI9YGjo4v978WxkfObNW82J5pF52gecyOxWwtZgC6MTt7R6VbDW/90/Hrj1757b8g77tWtM2hQnbr33g1xIbb/exNq0erxB+PGffC4VS0TbBjtmjmzYQ96NGyk/ujR9SvRSZVGokeP2Nni9u3bVa9sdFsmzWrQ0Y4coXQ+22DWgseBQPDHPx89X9Vg+P816yTw56v//lM/QtX3k3QLNSUQZN2r3S1PIBEAgBQHdUoQSI46u+9a1zUBQm0ESMpqC5Bpo6EAudq6CVDS3gABymqbJxN5LaGpFRVI6toDMgMdArmmHoOS4T5zy5pG9kTSzxP9P5gwsQlNWCv69OxdDC1GQwXzkJF6PKxYLHU+yEtd4F4b7bLTfhust8X+Br7XjOCAHSZOYRN8UaGPnnorDFVsTu5uL7TBXvtssctOu2SY4ni9s4PTzV2gmviEfR1LEpHqHlyz7sCBHT0+LAA=");
 
 export default VacuumRobot;

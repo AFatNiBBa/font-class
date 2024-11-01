@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gavel` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gavel?s=sharp-thin gavel}
  * @preview ![gavel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/gavel.svg)
  */
-const Gavel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M304.1 11.2l-5.7 5.7L291.3 24 488 220.7l7.1-7.1 5.7-5.7 11.3 11.3-5.7 5.7-12.8 12.8-112 112s0 0 0 0l-12.8 12.8-5.7 5.7-11.3-11.3 5.7-5.7 7.1-7.1L168 147.3l-7.1 7.1-5.7 5.7-11.3-11.3 5.7-5.7 12.8-12.8 112-112L287.1 5.5l5.7-5.7 11.3 11.3zM179.3 136L376 332.7 476.7 232 280 35.3 179.3 136zm-72 364.7L96 512 84.7 500.7 11.3 427.3 0 416l11.3-11.3L132.7 283.3 144 272l11.3 11.3 31 31 51.7-51.7 11.3 11.3-51.7 51.7 31 31L240 368l-11.3 11.3L107.3 500.7zM217.4 368L144 294.6 22.6 416 96 489.4 217.4 368z" />
-    </Icon>
-);
+const Gavel = createIcon("gavel", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdgAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCLAsGAAE2AiQDCAQgBYMtBywbKAXIHgfOqS+OS6RGGN7sOMQHnfH89/u9rn3eDYIqkG1USbFrddAV0BELhSRsdAFdXWpEpjZTWf0NXNNLQSE4ILRIybfd5gDRqdhZJOXXzGTA7+f/cnrj+W3Ab3QoY43q+QSJ5nyeQKBjel4iJxRhmoBlbY5T6KPn4xYHqSdLRBq2bxh7QssPs6TUhwKe7aXKBotbKF0HIJMA4NjyoIXn9awna71PkDUNEMgxwA4EHcwtjuCgGSEkdhBNa1lPr1f+A3dAgPTjmws09OMKeAiggdJa2z9kG5L1jbWl7cDwxVmTXk9oTCthiJ4Y5kqopvFmmpkljNQXFhkVmv5wZZLTGotR6ob4MihEN77voc9wmVE2JDTCLj65+m+nC0Q+Li7Sebz/No/iqHsblwH8McRRZvydKg8evDM7FzIkr6xynFA7AY47uqv5v3jSHSI1Kmu3x5kdHiLpWF4HBOHX05ebTk4U/w+OFPj7/RvwK+qt1CoYVCB0c7050wUoAgCo3GIvICiXSLCso94iIIYRUPoNC+hspkZAM2w3Avpsk0JAv2HzxNKGxKyZA5RRV0HngDPQzLoDfQ76avSbjTj8pOCRfv7Syx4t7bPGwlFr3vrYVeWIEnS7YB32vfsy5cNDzNuwbtecWUt2HbOt1d6zptzDSj7IKiYsyirPOj34epuZs23Hkg3rtkuB9f2a135/sQ+RCFn36ChFqu/jNlYBAA==");
 
 export default Gavel;

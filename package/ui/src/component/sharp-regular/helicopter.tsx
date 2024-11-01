@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `helicopter` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helicopter?s=sharp-regular helicopter}
  * @preview ![helicopter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/helicopter.svg)
  */
-const Helicopter: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 48l208 0 0 80-198.1 0L81 71l-7-7L64 64 32 64 2.7 64 8.5 92.7l24 120 2.4 12.2 11.4 5 139.9 62.2L287 393l7 7 9.9 0 248 0 24 0 0-24 0-96c0-83.9-68.1-152-152-152l-40 0 0-80 192 0 0-48L128 0l0 48zm0 128l208 0 0 176-22.1 0-97-97c-2.1-2.1-4.5-3.8-7.2-5l-132.6-59L63.1 121l48 48c4.5 4.5 10.6 7 17 7zM528 352l-144 0 0-176 40 0c57.4 0 104 46.6 104 104l0 72zM640 488l0-56-48 0 0 32-368 0 0 48 392 0 24 0 0-24z" />
-    </Icon>
-);
+const Helicopter = createIcon("helicopter", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABcQAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCEQsGAAE2AiQDCAQgBYMtBzEbEgXIjpQuH7QR1Ot663nSbtmSGeQfmREiwkPIgTACSi86Tgki2sRRhZ7/a+rF86MD/Hzu0XSYz2uJEfF8AntebdHanDacTRS3OxuZJNojSVIGOS7t+Kwhj3/iLjXSw+lz3Bk/NH7U1RWSWgYg2gBg2poVi3zwXXwX8VnjVeIzCxAQ00AlkCFDDwEmygR6yFXI5YLvotHA/8CKAKKO7iKBHHXsw2lADpI8z4d1aNm6rLXMV5e1YkNZlKKI5dEpiqJrrIqORlqllbJlKPPLye/NLiCsjIgWwbS5Oh7otDoFTIr7y21FWQz9X+33ZE+rAkVr06NlGU1PtXnq5z6f7/7c+Tun4y71oRt2KyZt1PmM7h5x6yQ7d9qtaNPFVjH1yX7va6kPDHXChY05X9DJ1q2ahl0Zr+UsDbuLO5+/S3V9QV8vfPVFOffIdXTToSpHDXWjSxcgELR5bdD3W1pP/LtZmcAPb/36az48a3yQLqSn0EwCQTawMdDGdEEGEgOwU5zWxHxRINkmp9+1hQcECAUCJHWFAJnu2giQKwwQoKaXUQLUFVbIRN5c6GBTBUkLx0BmtLMg18HLoGaij6y6DpEJHC0u9H8vYXaLzmpUDRs8tBpfDWMKI0Okr51QLct9T9ucfjDTbkccdtIuO+1zssGPW+Q65ZDZHDbLD1WGGWyoynjVcfJ+8mq7HHfCPkccDvVMUN03+jrNF+8HzUmA4U8Fpf6Rir27Du7bceToyV3HAQAA");
 
 export default Helicopter;

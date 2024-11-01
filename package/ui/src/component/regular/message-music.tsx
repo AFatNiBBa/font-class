@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-music` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-music?s=regular message-music}
  * @preview ![message-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/message-music.svg)
  */
-const MessageMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 416c0-26.5-21.5-48-48-48l-96 0c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16l384 0c8.8 0 16 7.2 16 16l0 288c0 8.8-7.2 16-16 16l-138.7 0c-10.4 0-20.5 3.4-28.8 9.6L208 432l0-16zm-.2 76.2l.2-.2 101.3-76L448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l48 0 48 0 0 48 0 4 0 .3 0 6.4 0 21.3c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L202.7 496l5.1-3.8zM352 96c0-5.2-2.6-10.2-6.9-13.2s-9.8-3.7-14.7-1.8l-128 48c-6.2 2.3-10.4 8.3-10.4 15l0 32 0 81.8c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-100.9 96-36 0 74.7c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-128 0-32z" />
-    </Icon>
-);
+const MessageMusic = createIcon("message-music", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiQAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCTAsGAAE2AiQDCAQgBYMtBzQbUAXIjtRG85iVeHh+rddz38x+mE14IeEJM7QOiBWRrAJygJbAomrtVq3vxannOQ8F8I2CNjYtDcgC3Os8ArmIDBtdtIULVtMKWBmr28SMOqLwDREjiej4drwdIY/341EV0nPpKzwy3jT+1NedJJUMQPQAwJJd2zb45Lf4LeLLFuJL6xAQS0ApkCHDAAHmywQGyJXI5YLfotUqv4ElAUQb+W8lkKOC+/A4IAdJlueDpkytVrrmO6uVYtfzjYinRxbxdCOLZ5pd46l6iidrRdxf2x4hInZFNV4f93b/LJ4f+9bILvHK6Df6pHhuzJsjqlUhIoS4tf5Uc1Q0993WeLq2PZ6sCfF0cX/tydpT9aeqDzSfaUbs8lfF0Ld6vPX3kK9OfuXbwdnX/DT5sN+6lbr9diuvfkCPd1fP0GM9jq/zgBd69ixKBXdfuFW5yfI6OdrVFXfccb2LZY880HH8+NVbJrmjKG11paP23Wddu372XY1HnXBomHWL2VuVQCDIl7z/3aHu8//rqCbwx3v//i99i1qT9BY6JBBk41vj7U8gEQCAFDcamiCQ3CYj13TxtAChQICkTaGQ6a8H5ArjoGKQGUe0KWyTibxTqDlAIeniCmRmuglyNe9AxXyf6m1qkcGRAhP1GYxfaZEVQ+WUiZPLueXWM2mEEa07rzyWRt9YM2No0UmXXHTdCcedcd1gV22wbnDByghd4YNKU0w0WWmu8jrcT+90wlXXnHHJxd5nnvK9NtqNcfkYUhPBncqWJCJ1Bak4Aao=");
 
 export default MessageMusic;

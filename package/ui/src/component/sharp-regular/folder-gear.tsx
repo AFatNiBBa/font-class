@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-gear` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-gear?s=sharp-regular folder-gear}
  * @preview ![folder-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/folder-gear.svg)
  */
-const FolderGear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 32l48 64 192 0 48 0 0 48 0 288 0 48-48 0L48 480 0 480l0-48L0 80 0 32l48 0 176 0zm48 112l-24 0-14.4-19.2L200 80 48 80l0 352 416 0 0-288-192 0zm12 32l0 32.8c9.8 3.5 18.8 8.7 26.6 15.4L339 207.7l28 48.5-28.4 16.4c.9 5 1.4 10.1 1.4 15.4s-.5 10.4-1.4 15.4L367 319.7l-28 48.5-28.4-16.4c-7.8 6.6-16.8 11.9-26.6 15.4l0 32.8-56 0 0-32.8c-9.8-3.5-18.8-8.7-26.6-15.4L173 368.2l-28-48.5 28.4-16.4c-.9-5-1.4-10.1-1.4-15.4s.5-10.4 1.4-15.4L145 256.2l28-48.5 28.4 16.4c7.8-6.6 16.8-11.9 26.6-15.4l0-32.8 56 0zm7 112a35 35 0 1 0 -70 0 35 35 0 1 0 70 0z" />
-    </Icon>
-);
+const FolderGear = createIcon("folder-gear", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABewAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCJAsGAAE2AiQDCAQgBYMtBzIbJgXIjsQ4JvKLKGy0eJ7/uar7flJ1epJhyBDXMC8qYFKACgB0q0VyRMIMuj0rV3eH/L7/m/9rPr/nRwf47cgOLdIqQcqrF/18Ans+iuQkmQ1spgOgse5tw2MjFE9EiIRFROMZjdUV6nyd5/Uob5Tf8By/af41wxMUvQpAxgNg3wXnnO2HYzmW/DryKfnVmQhkH+gEFSrMFrBTJZit1qFWC8cyMv4HdgRIn/yOAmr0cT8eANSgqOt6yoRNk9remPr8ttdcsm//vraVEmlGJ1WS9rymbWZmd5qUjEmVZoZ4ZcrSrM6yvOKRycuzKkvy8mRpkrw6dVHWZGVezaPTVmRtFue1aQeER6f6TzRPTn7ZI1NeaZ+a9loWDI8f/o/frv/N0feWzT8MBjoDg78Grqz60Tumw6l/zPa6K72v88P3yIVTX+p7H+gPDfU/oGv58hS2ms8N9e8Y9wZvjCslRAN57KMz73z7inE7/x9qCzjxVaFv0cixogxjSAGhWjWyyqUFFAIAKLnfggJBcbsav+porwqIBgFFXyOgMst4AbXGSgE9c20S0Nc4RyX1KDHZZQqK0e4Clc0eBLXJPgY9O/3o9k1OFXpk4JAfv7jDFjq0qlu3ZtBt74alRkUTnhd3dMvCsvvTwHI463p3uN29rnOtm9xrkLudHdznNodn8CEf1FlnjYHOdt12c3/8fNe52z1ucofbaZkduvPOMvfPxy8HuRDM9ZJFIaW9/tLzq587AAAA");
 
 export default FolderGear;

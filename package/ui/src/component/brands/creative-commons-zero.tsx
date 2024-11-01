@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `creative-commons-zero` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/creative-commons-zero?s=brands creative-commons-zero}
  * @preview ![creative-commons-zero](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/creative-commons-zero.svg)
  */
-const CreativeCommonsZero: typeof Icon = x => (
-    <Icon viewBox="0 0 496 512" {...x}>
-        <path d="M247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3zm-.4 60.5c-81.9 0-102.5 77.3-102.5 142.8 0 65.5 20.6 142.8 102.5 142.8S350.5 321.5 350.5 256c0-65.5-20.6-142.8-102.5-142.8zm0 53.9c3.3 0 6.4.5 9.2 1.2 5.9 5.1 8.8 12.1 3.1 21.9l-54.5 100.2c-1.7-12.7-1.9-25.1-1.9-34.4 0-28.8 2-88.9 44.1-88.9zm40.8 46.2c2.9 15.4 3.3 31.4 3.3 42.7 0 28.9-2 88.9-44.1 88.9-13.5 0-32.6-7.7-20.1-26.4l60.9-105.2z" />
-    </Icon>
-);
+const CreativeCommonsZero = createIcon("creative-commons-zero", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABgQAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCEQsGAAE2AiQDCAQgBYMtBzwbHQXIjlMsnEyC53u7r3Nf9wDuIbQ9CzIiEAFKpzYVw48wvAUcUBRihoHh7Xj5/F/z+VnTAX4+gkPr0AMp0Iqtn09gYnuzaKABRYGdKM7c1YV5iPaVlrIkj9+Wx8cB6HJJ1mMFaod6BqxrPyqf8WMxKKw0AADEFQAAKJ32Rm71S7/IM8sVkGfUAwGQMgAMBNAADQhEAChAQ4BAdAxAR0egXywW+g80QABArGFY8eo6YAOMAPMAgA6AwkrXgzw8nBwdrJz0Lgcre/N9o8jzVJELne9KbtU86vjQ9KTsTtfH9EvNL7t51yLyquN96+vOj+1vuz+0veniXoLI6dD9iWcqHyafCzuUdLaKVV5bPDtkp+wM2BVduMM3vcH2iJXeW326w066nvxaz0Y94/+1KqZgyoP/VKpt70WLSik3ZX1sqFR2/k+dWk1ir5oH87RGx4rtnaqFq0dUn3QtX94lBRdNMNPDNC9eNE1NC5tkWaVsm5g5HHcXm0mL3qzJEduJ8WYOS2YtKBgLAAIIXL1/Xwx2Kfhr66AA+HTz+wdXWx7JD3USsEUBIKAlWBLoix8ARBUACJTMIkzpGQEUfawA+F4d2YoAINgDAoDCGnsEAI0AXBEAdOyJRwCwIphMBABr7GmnIbodgicDB1A4MhVoZLEQ6HhyCVhRwMPAGk/RHI5zF+6/l1wlocplRmpSipFnLDOd9yGmzOcb23bMrNyJxVpGmWySGUYaYawZgpymMZ5poiqNqNQjg1SSSMEgD+O4fF7dZaRpphtrskl1kXyM+34Ms/TRsfAUTJtGQqFAlJfJaomG6ExPfC8AAAA=");
 
 export default CreativeCommonsZero;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-center-v` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-center-v?s=sharp-solid border-center-v}
  * @preview ![border-center-v](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/border-center-v.svg)
  */
-const BorderCenterV: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 480l0-64-64 0 0 64 64 0zm0-96l0-64-64 0 0 64 64 0zM64 384l0-64L0 320l0 64 64 0zM384 192l64 0 0-64-64 0 0 64zM64 192l0-64L0 128l0 64 64 0zm320 96l64 0 0-64-64 0 0 64zM64 288l0-64L0 224l0 64 64 0zM384 96l64 0 0-64-64 0 0 64zM0 96l64 0 0-64L0 32 0 96zM64 480l0-64L0 416l0 64 64 0zM288 288l64 0 0-64-64 0 0 64zM352 96l0-64-64 0 0 64 64 0zM288 480l64 0 0-64-64 0 0 64zM160 96l0-64L96 32l0 64 64 0zM96 480l64 0 0-64-64 0 0 64zm64-192l0-64-64 0 0 64 64 0zm32 160l0 32 64 0 0-32 0-384 0-32-64 0 0 32 0 384z" />
-    </Icon>
-);
+const BorderCenterV = createIcon("border-center-v", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABlAAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyDIAsGAAE2AiQDCAQgBYMtBzYbpgXIjtRG+UVWEg//v/a/fe7Md0MHkrgncWtinWYW+RXT5iGJVhaR/Kr2/e9PPc/dC4YC+EkSDNoYq2PaAhtjcAXKAenFe9Gel2vFWkWxy+ZQS1w9tIVye0AeN7KLykjX0mdcCh8af3W5SFKVAYhGAMxctWypt7/iV8SnEuKTxQiImaAQyJChlwBTZAK95ArkcsGvKJXEf2BBAFEu5UsgRwvu4ynDdEia8rwK52mqKavLV9aUVW8JUR2iJkqobW2rqa4JIgnYMm1ZLM0147DKXEVhNfVaWFVfIfBmZBEiI/Xvbuz+1+/zzs/e9J2RFNzcXMLZcPobzia+T7MJ3uBn4czln2/WjC4QZ85sOWPjvneK1DND4axC8TwIBAe/DM43NUz5X1mTwJ/n/0EvK/2Kt6kblRIIsiGlIdbHW4i3AgCQ4qT+9IsCyT1NyLvWuixAqEaApFy1AJmeGgXIVRssQJk+xgpQrtoymcirhFYbGpTUOoIy45xCuVYPUJkp3rXKtUYGuDzY8b+NKfO62NxbxchhI4pJxexIJcAia08nF5udASflykCcaadDDjpuh+32ON4hj1raPeGAeUvEXD9UGGmYEQqTFIenD++vtMNRx+xxyEF/zWTF9eUBTi5vH4j9JDGOkjJJRGq4JZPsOHg8qycBAAAA");
 
 export default BorderCenterV;

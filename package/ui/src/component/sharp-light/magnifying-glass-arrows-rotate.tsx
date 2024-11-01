@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-arrows-rotate` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-arrows-rotate?s=sharp-light magnifying-glass-arrows-rotate}
  * @preview ![magnifying-glass-arrows-rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/magnifying-glass-arrows-rotate.svg)
  */
-const MagnifyingGlassArrowsRotate: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M294.6 97.4L272 120l22.6 22.6L296 144l88 0 32 0 0-32 0-88-1.4-1.4L392 0 369.4 22.6 342.6 49.4C306.3 18.6 259.3 0 208 0C93.1 0 0 93.1 0 208l32 0c0-97.2 78.8-176 176-176c42.5 0 81.5 15.1 111.9 40.1L294.6 97.4zM384 53.3l0 58.7-58.7 0L384 53.3zM121.4 318.6L144 296l-22.6-22.6L120 272l-88 0L0 272l0 32 0 88 1.4 1.4L24 416l22.6-22.6 26.8-26.8C109.7 397.4 156.7 416 208 416c51.7 0 99-18.8 135.3-50L487.9 510.5l22.6-22.6L366 343.3c31.2-36.4 50-83.7 50-135.3l-32 0c0 97.2-78.8 176-176 176c-42.5 0-81.5-15.1-111.9-40.1l25.2-25.2zM32 362.7L32 304l58.7 0L32 362.7z" />
-    </Icon>
-);
+const MagnifyingGlassArrowsRotate = createIcon("magnifying-glass-arrows-rotate", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfAAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCEwsGAAE2AiQDCAQgBYMtB0UbKAUR1ZqTyH4kZGcLV5kzJm9HaNSPJq5EPDDX27wkn7IFgm3zbQklEGugQ3BXdSDs2gMmC0ByA8Boc0AK3EeYWIQMbXVdROf/ms/v+dEBfqNDicaiSIymo1qlb7jnE9sbRtmEosBmOgHb24YnR1QOT4QEiUhjWuN02kOVpzOoh+Kh4h3cVz80P5voTgpVCSAjALBu787NXvgiXyTvdB+Vd2xEIOvBDEGJElMErFQKpqjMQKUSvki3m/4DIUB60esXoEIvzuAGQAUKVVXN7Wv6Wj1Dqz2tnvpsu2kvyNi0WkkyLgvTTjvv7flk2we7Wvl858d7P13V3ivq7DzVtJuFGZe6FhmbBWnS5N3dn2/dnSZ78vLeOp5NP1vd7Iq0sm1WZ0Tn15nvNO+Yd+QMnIt9M2bYhzPOeMjNW7I3nU72zpANIzCXtb67d1+zAhbS6R2wY5i45do1Z/DM/7PFdzkQhKOzp684Onzlv/2tAnz11O9/tp9R98V0iw76FSCUg93BQwUkXQEAFLlsVgFB4YgKXesQ9wuIGgGFXrWA0mQjBFRqjYAe0ywS0Ku2UynVgBjj8ACFIc6B0mI3gcoYD4MeK73u9hqTMuKoeKEefPHGSsgsQxxEUFiWOh1ERJ7WMAviwS4Ja0mzLldd9ZdAjjS4Z6vB5ouIgwgK7sbz6qw+zn5dyjwa+3Xx6IMlyAyhJgWmgBb8x9xM8/dL618yxc+Pk8H57Fz5VQMAAA==");
 
 export default MagnifyingGlassArrowsRotate;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ice-skate` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ice-skate?s=sharp-thin ice-skate}
  * @preview ![ice-skate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/ice-skate.svg)
  */
-const IceSkate: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 8l0-8L304 0l0 8 0 15.7-2.1 .6-264 72L32 97.9l0 6.1 0 272 0 8 8 0 464 0 8 0 0-8 0-128 0-6.2-6.1-1.5L320 193.8l0-57.8L320 8zM48 110.1L304 40.3l0 87.7-56 0-8 0 0 16 8 0 56 0 0 48-56 0-8 0 0 16 8 0 63 0 185 46.2L496 368 48 368l0-257.9zM128 424l0-8-16 0 0 8 0 72L8 496l-8 0 0 16 8 0 112 0 288 0 160 0 8 0 0-8 0-64 0-8-16 0 0 8 0 56-144 0 0-72 0-8-16 0 0 8 0 72-272 0 0-72z" />
-    </Icon>
-);
+const IceSkate = createIcon("ice-skate", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcAAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCIwsGAAE2AiQDCAQgBYMtBzAbIwXIjsN0OyuPtCnzonQ8/P9aet+f2U24SFNmdEC+VYDHx7as4krCEFhU1dvMCGXm5/9yeoOOxgb5fK57RQtkAc/9PIGeR2P5prw4C7NEsd3Znjkkcy2tRQY5Lu34nCCPT/Yoke4kuM4fGr90co0kywBESwDMXL96qebv8T3iXeUJ8c5iBMRMUAhkyNBVgCkyga5yBXK54HtUKvgfWBBAlNGrEshRwmlcBOQgyfK8b5fBdaWGfF1dqXZ/iNoA63dE2xApRF1DgNA+1oXUJdavWY/V1gZ1XLU2RH1kG0/Vnttix2hqBap/Uq+mlk1/etrH9GfVVbdUraWkar6VylqqVv2+2iVlK70YapJLLVaZW7IbTJjNTBjB26Y/H+qUZmn5xBu5BQ4MS9VmqM6VCW5YIOQCLR8HgeD34j/c3mLK/+oS+Pny3y98d6U5zUhNqJZAkA2pDLElzQAUB1BKcU4v44sCyWEZetd6NwUItQiQlNUKkOmipQC5WoMFKOlurABltVbLRF4jtLVVQFLvJMiMcx7k2noESqZ4VSxrG5nnaX6jffyy52l07qJi5LARxaRiWFN1Z1Li7ORiOR5wLvQMhKP2Oe6YM/ba46Azij1laeWso+ZZ+Fw/VBhpmBEKkxTHzdv96+x1ymkHHXcszTNZcb8wwDl7+EBYTgKMejMorYxUc3D33qGnD+88sxcA");
 
 export default IceSkate;

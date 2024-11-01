@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `frog` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/frog?s=duotone frog}
  * @preview ![frog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/frog.svg)
  */
-const Frog: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 416c0 35.3 28.7 64 64 64l288 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-90.2 0 37.1-37.1c3.4-3.4 6.4-7.1 9-10.9c18.7-28 15.7-66.2-9-90.9c-24.6-24.6-62.6-27.7-90.5-9.2c-4 2.6-7.8 5.7-11.3 9.2c-.2 .2-.2 .2-.3 .3L123 347.6c-6.4 6.1-16.5 5.8-22.6-.6s-5.8-16.5 .6-22.6l73.6-70.1c40.6-40.5 106.4-40.4 146.9 .1c28.6 28.6 37.1 69.7 25.4 105.7L457.4 470.6c6 6 14.1 9.4 22.6 9.4l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-50.7 0-92.5-92.5 144.5-82.1c18.9-10.8 30.7-30.9 30.7-52.7c0-26.6-17.3-50.1-42.8-57.9l-85.6-26.3c.2 2.5 .3 5 .3 7.5c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-1.2 0-2.5 .1-3.7s.1-2.5 .3-3.7c.2-2.4 .6-4.8 1-7.2C127 112.9 0 249.6 0 416z" />
-        <path d="M368 192a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-104a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Frog = createIcon("frog", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABmQAAAKFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCVgsIAAE2AiQDCgQgBYMtB0QbbAXIHomxLYr9iihsrwVR6cqele4egPQMZKIMmTKE/Mqpy6EzypD3+fifuOb5pz09YAXBo0VT6YMUeNSizicw0UygN5jOYOS+20kuOYO6GCQd6U2G7QyjG9Dlj7YGE6iD6h2wnf4HUH7iwxpQ2GgAAIgzAABQ3NlazwuLWJS8+38H5B11gABICQAGAmiABvgjAOShIYA/OgagoyNgUf/BIv8NEAAQM/TzNQDMgAnYCBwCAHQAFArRdQebmXYmB73DzmQ7ej/xesK1jDtxV+KvpstZnwNh53wPR8rBaJGL4Q6y2Wu/rPTcZ2srhbLf67DvoZhLEefC9rivlDbZ47nPq1Mu222Ovuhz0Ltd9trZ7Xod0reD2IrADStYwZGoC2n3Yi4FrpTA2i8r5VvbDSGXnC/98m7iHXP/v1jS2bnkRYynmj08mnEDhq0LuJwwcNywwVH12EMZZenfvaNcg1et7G8tg+oKHlzcfKi6nL/RMX/Le2dtmj2HAw5F62ek0tvL9hY+i8ez6+ltvig6USbanZ3HO0QpRETTodm6KNag4WW90AoAAgjcD5vaN+iU99vaTgHw41GT3v5vUUXqEmCNAkBAi/sfR58qAkCpAMCXUrKEEFUkHoAAGjNRaJY9+xAywRaYUJixJTT8cCZ0bIklTASSvt+MLa1oiG6D4E4/Ewp75hMaGSwldNy5TZjI42Vsxl00odRESvsSZlfUQPkqIzkhycgxhrmsy5niFnONbS9qiR2IhrVMMJc5LGKcMaZZVOELqM8WM5uKGVbOBzFIJoEkDHIwjqtbu0PHC1jIdN88XyYX434UxZL5+GgIFV42hX0aGogSzX5iwdzJeNl2HQvzCQMA");
 
 export default Frog;

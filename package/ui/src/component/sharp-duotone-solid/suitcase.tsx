@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `suitcase` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/suitcase?s=sharp-duotone-solid suitcase}
  * @preview ![suitcase](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/suitcase.svg)
  */
-const Suitcase: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M96 96l32 0 0 32 0 352-32 0L96 96zm288 0l32 0 0 384-32 0 0-352 0-32z" />
-        <path d="M152 0L128 0l0 24 0 72 0 32 0 352 256 0 0-352 0-32 0-72 0-24L360 0 152 0zM336 96L176 96l0-48 160 0 0 48zM0 96L0 480l96 0L96 96 0 96zM512 480l0-384-96 0 0 384 96 0z" />
-    </Icon>
-);
+const Suitcase = createIcon("suitcase", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABcAAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBXgsIAAE2AiQDCgQgBYMtB0wb/ATIHoVN2V54zINhpppTfTQnh+ZJVzz0rZW/qvuASBMpCGhCdytshI+PI2FXyKAwZ8S8kyHQY1/76e6/H7oLkXwTxaSTsgImB6REhW/H17EqbMCZrgPYhDMMPmAT1zz/82/AIn+0Dk1Mfa5VnU9gwFGWPpFNaKYzsPnd5F3k5OeNJT8ladguDVNPqPFfXugh3+YfXob/AYyvFryQBgoAYhwA3Hg6OYGPJpqMv/aduHQLBMRNwDqioGAZwSklsMy2DqoqaLKFJlrWIYDoBd6jgF704x54BqCCVGW1EwMDHmOMw2fPDPXoxcEhjRAi6aMiHD3Vg0iTDqeyjL6kt0sqTYtmcWjQICaaysccXSJT3fHu942/nUuvP8/jOgwTa6BDDEtKzq0W9D2v9u6l2vGg096nxOqFELeoPij/gXkdEAh+7/fqYuz0f7+xAFfv/oX7HbVNyi76JQjKVrtlKUESAICMG6mEDqI4YMOnDnslQBhEgNRrUIBiSRBBNWgTQY9VDQS9Bj2kRPUgTFvORBr2nChO3BLVtDeix6nPrNd0FMHixYL/1qUMSqC/SVwsS1eGtSTICmtXe7Ls6IZHMnQRO06duLJty76rAr8wUV47NpiBfV8kKorKRJdsd7enZ2y7cGnfqRO/To+cD9Ju5tMz5FvAeGBLUYikCr4c9h4aBQm1wpV0FQEAAAA=");
 
 export default Suitcase;

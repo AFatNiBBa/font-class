@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-history-circle-plus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-history-circle-plus?s=light rectangle-history-circle-plus}
  * @preview ![rectangle-history-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/rectangle-history-circle-plus.svg)
  */
-const RectangleHistoryCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 192l0 .7c5.3-.5 10.6-.7 16-.7s10.7 .2 16 .7l0-.7c0-35.3-28.7-64-64-64L64 128c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l330.8 0c-12.9-9.1-24.5-19.9-34.6-32L64 480c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32zM448 64L64 64c-8.8 0-16 7.2-16 16s7.2 16 16 16l384 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM400 0L112 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l288 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM384 368a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm256 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM512 304c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48z" />
-    </Icon>
-);
+const RectangleHistoryCirclePlus = createIcon("rectangle-history-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABqwAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDDwsGAAE2AiQDCAQgBYMtB0QbowXIHgc5Ga8psfLCPcfi0ygRwfNr5ry/mwMiVWJVFpYdkAWyzbkSg7AxIq0rq1OF+A/XfP9CAzBzVXhnRwuKCpsNbSBnM/DWbdj70fviHsCZpw0TjC2g5v+az+/5UYF8PoJDi143Rmr38wnsebVXipzQkAbOU6cjx9pjMPqMISOIFln9PezxCR4gjz8xDU+6QEvgWFNUfJf7kuQZgGgBAMvWdDPk5ShHlCpviBIFAmI5YAQhg2EA4SwkhR6AMwJyuaAclUr/D5QhgKhiPziBHDV4iBeAHCRVeT6rqam/vzQLjfnq+kLdJuRc/aE44uL8sG+I2+P9LMWF6UHXGHeLhjiYnCVZjKfnzMY4FJ/B6obGhtPRmbgxzqVnk+X0ibXj/RGXhnvmoe5OfgHFnvPtbeNgf7e4SBrH94in4mO5gb1fH6M4/Qn/YB6Sn45nZPXZrtMRqosQX32IHjqXRtTHXVoXMfbQe/iPlraWfJWI2F5Tsz3Utba+2nUYDXOZ0vk8ibD/aQKoaBveV7SkclNTuQiByshIqYYRmNW8begrfL16dWhIbF+/DlGe7GKNACPtQd8HYVkOyEPqvaSpXG6aJQ6gRlF+HxAIqt/qjevEhRM19Ql8+fh7Aq6u5KlIH4IaCQTZtIpvmIqAEAMIpdhLdUYYSG56+EptcFaAUIcASZU6ATL9JARydaYiUDCkgkCVOiuwIq8VOowmSBrsAJkFPiDX4QcKFvoHq3RElq9MtjGfi4kpQ8kwefZ+lqI8zdvYFKRqvywv6yddWjdhL9Yuzp5WlnaehNxlkZeT1IMTXyQrCMVkTfJy6b04oODdw+6YXx+kRb7fbXv7rR2YGEY6xxFJItLgzi2L5+y8Oa6CN1sd/N8jBYkPAAA=");
 
 export default RectangleHistoryCirclePlus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `upload` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/upload?s=sharp-light upload}
  * @preview ![upload](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/upload.svg)
  */
-const Upload: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 368l0 16-32 0 0-16 0-305.4L139.3 163.3 128 174.6 105.4 152l11.3-11.3 128-128L256 1.4l11.3 11.3 128 128L406.6 152 384 174.6l-11.3-11.3L272 62.6 272 368zm-64-16L32 352l0 128 448 0 0-128-176 0 0-32 176 0 32 0 0 32 0 128 0 32-32 0L32 512 0 512l0-32L0 352l0-32 32 0 176 0 0 32zm176 64a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Upload = createIcon("upload", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZQAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBZAsGAAE2AiQDCAQgBYMtBy0b4QTIngVO2RSH8KHZnLOJZhDtFlK/9BDiefr9/rf2uee9+XwRb5A0iVnzkLwSIs2zWYZQfwlvqAyRfP3n91fnjVnvAM4zDeBSDWqJTL9ty5vMsCx1+D7/19SLsmvAb0d2aNeLCF5zRDyfwMSKyweWNrCZTsBm7upSJNFepLXISB6/Pb5OUPM7EVJeF3hePjR/zbmBojYAMgoADt+sF8H10ku22g/IlrMgkCOAVQwNGixiYB++YJHAKqiq0Evb+v9AggDponsooKKD6+AWgAqKptaNNam8M1RvDHT672P6kzS5lsl4Y07bscY0j7tjSivlRP9Avwwl2aocGBDB0KAz8rbX37rezb3afD+/fjv6+Z/FCiMXRzUagkbE4j7urPh1/gx37mru14q7aTTSTtkLcCLzjKBV6kKIeq3q5+qPg1PVqhFSAHLd6b+fjUf2/e+TF/Dn13/4FbVcUT6DPgWEZkebQQGFAABKnrIWICjO46N3HfQCA9GPgKKrX0BjgQYDVb/tGOhYlsBAV7+r+FK3iUlDBsWgB6Cx1ymoJr2Bjn3+cl2T4ZuWZhjaxy5bQaL5bRQJhilLy7auW4uS1nN07HOfhDEPDmLFrh1HlhbWHQnxQLF4bFtBo/O+iEQEhZEsuu497m5ZOnBo3a6dvEkOvU+5neizPQjykOxOdUUhpWuT");
 
 export default Upload;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reel` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reel?s=sharp-thin reel}
  * @preview ![reel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/reel.svg)
  */
-const Reel: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 0L8 0 72 0 376 0l64 0 8 0 0 16-8 0-56 0 0 80 0 8-8 0L72 104l-8 0 0-8 0-80L8 16 0 16 0 0zM80 16l0 72 288 0 0-72L80 16zM64 152l8 0 304 0 8 0 0 16-8 0L72 168l-8 0 0-16zm0 64l8 0 368 0 8 0 0 16-8 0L72 232l-8 0 0-16zm0 64l8 0 304 0 8 0 0 16-8 0L72 296l-8 0 0-16zm0 64l8 0 304 0 8 0 0 16-8 0L72 360l-8 0 0-16zM8 512l-8 0 0-16 8 0 56 0 0-80 0-8 8 0 304 0 8 0 0 8 0 80 56 0 8 0 0 16-8 0-64 0L72 512 8 512zm72-88l0 72 288 0 0-72L80 424z" />
-    </Icon>
-);
+const Reel = createIcon("reel", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABcQAAAHkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCEQsGAAE2AiQDCAQgBYMtBysbDAXIhoePufL9JHuTpSKmVQBIso7HkwVS64pG3NSiqt75v6ZeJB0VyAeRu7ZrK7peAmU+P6DRng9kWF7gs4HNdAK23dkKDrV2KKQllsZxacfnBlk8s0eJ5EnyAw/wQ+OX7u6QSFMA0Q4AM9evXqrRGq0R35tvie8WIyBmgkIgRYpeAkyRCvSSKZDJBK3RbIb/wIIAogW9KgEZKjiEk4AMJPIs61ym9q7laqmerctnVNJqpS4qFSEqtYjoVKyl1d3aGqFmLaC5puI7IqrVCBTqAlT1K7v05/V/1e7Vn34/9v3QyPNGO/mEFXKIcyu4uN3ytguovbBA0fa+hMww282o8A3ogjposH/88zzPDyTy/evj/UAg+GD39u1tp/zPqwn4+enfr/Iz0mxEI3mFXAKCdEhziC3RgGgIAEAS5/SPBgKJXXL0rjUPBQgVBEi0qAiQ6qmdAJmKwQKU9DFWgBYVq6UiKwudbO0gUXMSpMa5CjKdvAYlU3wuWnSK1OBkc5H/exnzODr3UDFy2IhiUrHsaYoNiWl3crFtDTgXZwbCSfscd8wZe+1x0BnGnrK0cdZR8yRmri8qjDTMCIVJCvXw0VjHilNOOzjX9HUmK+4HA5yTlw+E4ySAUU8FJd2RZKf27j0CAAA=");
 
 export default Reel;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bootstrap` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bootstrap?s=brands bootstrap}
  * @preview ![bootstrap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/bootstrap.svg)
  */
-const Bootstrap: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M333.5,201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4,238.2,333.5,225,333.5,201.4z M517,188.6 c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1,0-55.8,28.1-54.7,58.5c1,29.3-0.3,67.2-9.8,98.1 c-9.6,31-25.7,50.6-52.2,53.1v28.5c26.4,2.5,42.6,22.1,52.2,53.1c9.5,30.9,10.9,68.8,9.8,98.1c-1.1,30.5,22.7,58.5,54.7,58.5h328.7 c32.1,0,55.8-28.1,54.7-58.5c-1-29.3,0.3-67.2,9.8-98.1c9.6-31,25.7-50.6,52.1-53.1v-28.5C542.7,239.2,526.5,219.6,517,188.6z M300.2,375.1h-97.9V136.8h97.4c43.3,0,71.7,23.4,71.7,59.4c0,25.3-19.1,47.9-43.5,51.8v1.3c33.2,3.6,55.5,26.6,55.5,58.3 C383.4,349.7,352.1,375.1,300.2,375.1z M290.2,266.4h-50.1v78.4h52.3c34.2,0,52.3-13.7,52.3-39.5 C344.7,279.6,326.1,266.4,290.2,266.4z" />
-    </Icon>
-);
+const Bootstrap = createIcon("bootstrap", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfAAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCEQsGAAE2AiQDCAQgBYMtBzAbEQXIhuB5Pf6bc5M8gPkiFmYHdaBauQNLMKvKnP7enf/zTx/wGX2xLzTmKF7eRXNyl0BiXTamRoXbwixRzH7ndykmuk2SxCUM48uw/OnvII8P42oF6Zb0Jq5KHxpf63cpSZEBiDYArNlvrx1erqKKePP/J4g3bUNArAWlQIYMQwIslwkMyZXI5YIq/v/f/weWBBA1eGMJ5KjByTgLkIMkz/PGeQNNjUVzvm9j0XDUnQsbQjTGK6P73ToQcevgbQO3TmyK+/tudosr7bt9vnhi+Jb+yl+I7ITmeEiR+gyDdy2KeHJk74bGhojGuGzCAy7sun68eKD7BhdOfrhh3yF98ip3bhz7aNuj345589g37fjN1fNsMk1b9mTjcf30F7U/VKdvcWFV9RX9/ce9c/SQo98B7rH6qurCzf57zxzJ1b9zpDGzZg12vfDi2HDx99/1j+6xx6T6k+fycrvMN7um2A0EguXvfrX4sNblv9Y1JvD5s9//nU+v/b9KS9KjqJNAkE3/f7qD02q1asUUgfkU5xqLLwokR8vhXZvcKEBoQICkRoMAmUFtAuQaTBOgMGKBADUa7CUTeb3Q5ZAKkiZngMxC54Fcl8dAYblXcjW6IjM42lzo772EjS20YV45Z+bscmk5rSiMDZFyclm5bEw+N3RMwVLHOs2pznaMo53g7AY5047iOU6xUcEb/FBpjplmKy1VbtfvF+/rGGc6ywlOc2qcZZnyfjLZubr/FNgJUecqSxKR6p+4ctbfEAAA");
 
 export default Bootstrap;

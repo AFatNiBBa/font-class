@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `backward-step` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/backward-step?s=thin backward-step}
  * @preview ![backward-step](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/backward-step.svg)
  */
-const BackwardStep: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M48 72c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 184 0 184c0 4.4 3.6 8 8 8s8-3.6 8-8l0-162.4L239.8 441c5.3 4.5 12 7 19 7c16.1 0 29.2-13.1 29.2-29.2l0-325.5C288 77.1 274.9 64 258.8 64c-6.9 0-13.7 2.5-19 7L48 234.4 48 72zm0 184c0-.4 .2-.8 .5-1L250.2 83.2c2.4-2 5.4-3.2 8.6-3.2c7.3 0 13.2 5.9 13.2 13.2l0 325.5c0 7.3-5.9 13.2-13.2 13.2c-3.1 0-6.2-1.1-8.6-3.2L48.5 257c-.3-.3-.5-.6-.5-1z" />
-    </Icon>
-);
+const BackwardStep = createIcon("backward-step", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABXgAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBMgsGAAE2AiQDCAQgBYMtBzQbtgTIHgd2Y1dBKBbCnx5OxgieX0vn/d0L7aUYYlsCReCiCow2qsg2siwBJRqBpKoPCrz9rSxJs8dN1gbJBhhoic6y0BKoQ75q9V3cPO88CvCNQhvTlgayQKI5zxNIrAsXeEBjgWWagGXt7H9gEN0qnvJJhkX/w2iGPFbapES6md6R8+Wh8cvmJckyADGMAMxeurDfy/e8j3hXiXjnREDMAT1AhgwdANNMAh1mPSSXC95HpRL+gaYAogoum0COHNPJfEAOkpTnfSOXUn2+pCjVrbzWdKUB4mrj9eaIxXG1ON18PbIYaLpWd6phUYSBYmlcL642prjScKppSZyKvlvDbv3h3ZZ39qNV69ZVPfQQDxn0YtCRonzseHmB8vFj5eLI0D/4MOLVbRNLD4oFigelid0SEUAgeHL6xVeHTvtfUyTw8fG/+TMyxcR0CzUSCLLRldGuOKKHYyIAACmO6ItZeoBkigBrLbsmQKhDgKRKnQCZditArs4ogJIuB0CVOgtlIq8VGtwNkrL9kJnqgVyDD0qm+bUqDZFZEPX+1P8tfoFE5rf11FzcvLRV2iiIVO/eFuOIsUS9tthrj0M222S7QwI7oN88bLcFGjrfi3pUWWGNj73n7iU2O+Cg7fbak5t0vq9GQ89OpCTAnciSJCLVWxXhi8IYbwcAAA==");
 
 export default BackwardStep;

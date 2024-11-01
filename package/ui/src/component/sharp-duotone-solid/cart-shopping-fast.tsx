@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-shopping-fast` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-shopping-fast?s=sharp-duotone-solid cart-shopping-fast}
  * @preview ![cart-shopping-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cart-shopping-fast.svg)
  */
-const CartShoppingFast: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 96l0 48 112 0 0-48L0 96zm0 80l0 48 128 0 0-48L0 176zm0 80l0 48 144 0 0-48L0 256zM186 32c16.3 85.3 32.5 170.7 48.8 256L560 288 640 32 186 32z" />
-        <path d="M64 0L88 0l72 0 19.9 0 3.7 19.5L243.9 336 552 336l24 0 0 48-24 0-328 0-19.9 0-3.7-19.5L140.1 48 88 48 64 48 64 0zM192 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const CartShoppingFast = createIcon("cart-shopping-fast", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABggAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBeAsIAAE2AiQDCgQgBYMtB2AbKgXIjtMV98TIrHQ8/P+a2H1/JjnNpAxTYFQI6FtFoGuBFhWwWo2oqmO2g8lw+Nt0iyWViqvuYsia/8vx3T0/OsDPN8UOZY/GBhnL93yeQMBZvi1LN0iaZmj53eSdFzccpzXJV9KwvTRM7SBP/bPrKqS76Svc8P8BjL91cp2klgGIlgCYuWrZAh//ED+k+KrxnPjKfATELFAKZMjQVYApMoGuciVyueCH1GjwQzQaJQFEld9uBqqoYS12AXKQZPI8b9esWa1Wa1KvNMtX1ivFunpR7xRrolldFE07x9ooilhzv//JpS1m2VbN61BOvOGtD5NQj4iCXGLVdyuaxapo2uup3N/zq51fmf4RcHy0yZON6ThCx/WjAE+puvRtcfDcuYOFMxYNf/JevfrtSdzmEbHisBEOLwZ0Gb4M3bz2zTffd7jU8dJcixo+AQJB5d3+SZtaTHnH9QR+evv/X8LZjbfpcnqKJhIIsiGNIdanywB8AD8qxUm90mUzEMgMl8O7NnVLgFAgQFJVCJDpoqUAucJgASq6GytAVWGZTOQ1oa0NGSRNHQGZcS6AXFvPQMUUn2ar2kbGMokj0h8vfV6JzF1Xjhw2opxUDpuSTBzBlieXy/6Akzo0ULba6ZCDjtthuz2OF9hRCwonHDBvhs71RaWRhhmhNEm53bnWVyJ71DF7+ur+KpOV5zMDnJxPHijhJLKOsiGTESmyzg/VGcpLY+i1t4dydlLXtnpDAQA=");
 
 export default CartShoppingFast;

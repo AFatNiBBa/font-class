@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bridge-circle-check` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bridge-circle-check?s=duotone bridge-circle-check}
  * @preview ![bridge-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bridge-circle-check.svg)
  */
-const BridgeCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M32 64c0-17.7 14.3-32 32-32l512 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-40 0 0 64 72 0 0 72.2C577.6 207.1 538.5 192 496 192c-69.1 0-128.9 39.8-157.7 97.7c-5.9-1.1-12-1.7-18.3-1.7c-53 0-96 43-96 96l0 64c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-64c0-53-43-96-96-96l0-128 72 0 0-64L64 96C46.3 96 32 81.7 32 64zM152 96l0 64 80 0 0-64-80 0zm128 0l0 64 80 0 0-64-80 0zm128 0l0 64 80 0 0-64-80 0z" />
-        <path d="M496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm67.3-164.7l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L480 385.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const BridgeCircleCheck = createIcon("bridge-circle-check", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABoQAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCbAsIAAE2AiQDCgQgBYMtB2IboAXIhofvdb6d+yQ7AKQwc5VZ/WXgpmCuPf39PP/nnwrk8S/Bj9KLSlufdwr8892AonlNA22hmeJGt90EMQ3pEhrjCHnqm12oQrotfYlrov8BjF91cCFJgwxANAfA9LUrF3v3q/gqxZe1F4kvLUJAzACFQIYMnQWYJBPoLFcglwu+SrUaX0WtVhBAVEUPmIEq6uMm3AfIQZLked6p9cwGDRo0qjTJ1zSqNNx+xcSIN4Y+E3VDnp7wesPLx7066Enl4KfGv9Zo7So688a2U+Lmdre06R8ro8y5qfXGunbRRBo1iysGe5Wtb2zYMESjEG+v+fBa3s0NX+z3aGexOu/ytjdHxN0DHh8T+46IWXy1MOreqLmix+PNH/+9+5d7vvTn1L6JNLx7nz7dh6fUF5Yx/4wH5yY5jz121u23l/gXvsC1s3Q7r+mlXNoUxiGBHdjPNPPM88M00y67/GBdg/Lxx+tP29IXyDNN/RmjLM0zTT/P2W7TkqmXmWZZ2dwPBIKN45r32Nps0v/1GyXwzet//ktuL2rvpjI9jvoSCLJBtUE2pVIBIwZQmuKMHqmMbeagaItc8q2N3SxAaIgASVVDATKdNBcg19BAASq6Gi1AVUMrZSJvILS2uQdJY8dBZoxzINfaC6Bikk8SVa0js5+S7ZK+DtPOGUOzJxXDhwwrJhSbZa1s5QQ9PrE4be13ZtbWH+61x1FHnLLbLvudGiEnLE6fdticPXi2HyoMN8QwhQmK27XnnjV2l3En7V+X7ysxUfF+sJ8z+737Q0eSsI6wIpMRKbJOnsY4+Fce/WDHbhzs2nt2WVc7bgA=");
 
 export default BridgeCircleCheck;

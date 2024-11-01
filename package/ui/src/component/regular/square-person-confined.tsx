@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-person-confined` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-person-confined?s=regular square-person-confined}
  * @preview ![square-person-confined](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-person-confined.svg)
  */
-const SquarePersonConfined: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM292 200c33.1 0 60 26.9 60 60l0 88c0 31.8-24.7 57.8-56 59.9l0 .1c-.7 0-1.5 0-2.2 0c-.6 0-1.2 0-1.8 0c-5.7 0-11.1-.8-16.3-2.2c-19.6-4.4-37.5-15.1-50.7-30.7l-44.6-52.7-39.3 73c-6.3 11.7-20.8 16-32.5 9.8s-16-20.8-9.8-32.5l56-104c3.8-7 10.7-11.7 18.6-12.5s15.7 2.3 20.8 8.4L232 309l0-49c0-33.1 26.9-60 60-60zm-4.2 159.2c1.8 .3 3.7 .6 5.6 .7c6-.7 10.6-5.8 10.6-11.9l0-88c0-6.6-5.4-12-12-12s-12 5.4-12 12l0 88c0 5.2 3.2 9.5 7.8 11.2zM208 112a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const SquarePersonConfined = createIcon("square-person-confined", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjgAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCOgsGAAE2AiQDCAQgBYMtBz0bRwVRlMzFDNnPg+y0cmqWDumD4ka4ZEivVtmJh+/tnjr3dQ/gHkhacoRowUiMtzb8tamUfrvcdWXBM1Q3MyXnlYJ5BzQQhb049TznoQA+ByMQtD00INnn3eu8AhUbY4IUsFeQiGJ3Z0s4RHNImqUsyfHNccoB8ng1nlKB9HL6AU+mL41fNHGOpEIGIGoDYPTCudN9UlKK+L78HvG9qQiI0aAQyJChuQDDZALN5QrkckEpymX3H1gQQFSEP5VAjko4iUuAHCS1Cnle23vXqlqFGvmCahWqLn2Ok+dRw4uaeUGq79UJj6uGu/3Qkpfug6zu3nvk2e92eGi8tF/KcMUKImw+JubFS+deLIwX9UUMD/HqPK55z1M/JbwgzzGnsOCuvbz1xD1/JV6tNo/Wo9/a8g8bfjByZ6nmKDVLo9RkWR3q3CDCjTp1qo5Stc7ythtPQeVFKpX+3E3kj1RZ/ePEL3SY5O1BXc8O3GjJW58cXqq3ypzK3ijS01UWqXrjhkUq75n5/40ffPBGeR8IBD+Nf6nVylrD/qtMCfz88R//m+uVSz5Jj1BZAkHWrdzNsvgEAB+Al+KANkLKAslBFQCXVfeCAKEqBElFVSHTTG3IVdUVKmip//KKqporE3kVob7lBEl1uyEzwHHI1fcOVDDM115F9SPTQkaHmDdg4gSOjB9V9O7RqxhSTAsaq1hUGBxaLJudDviGzjDVBjvtsM9662y2j2F7TA/3226ChI6XokJvPfRSGKLYLj+OX2C9PfbabKcdcZihivNuJwfk9p3BSZC0j4wkEanhRVa639vG7v83AAAAAA==");
 
 export default SquarePersonConfined;

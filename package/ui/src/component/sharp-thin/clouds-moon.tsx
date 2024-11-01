@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clouds-moon` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clouds-moon?s=sharp-thin clouds-moon}
  * @preview ![clouds-moon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/clouds-moon.svg)
  */
-const CloudsMoon: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M564.7 8.9c-11.7 1.3-22.9 4.2-33.4 8.4C482.5 36.7 448 84.3 448 140c0 72.9 59.1 132 132 132c8.7 0 17.2-.8 25.5-2.5c11.4-2.2 22.4-6 32.5-10.9c-7.5 9.5-16 18.2-25.4 25.8C585.2 306.7 550.1 320 512 320c-4 0-7.9-.1-11.8-.4c-11.2-9.8-24.2-17.7-38.4-23.1l-.3-1.5c15.7 5.9 32.7 9.1 50.4 9.1c23.8 0 46.3-5.8 66.1-16C497.2 287 432 221.1 432 140c0-51.5 26.3-96.8 66.2-123.3C425.1 23.6 368 85.1 368 160c0 12.9 1.7 25.5 4.9 37.4c-5.6-1.7-11.5-3-17.4-3.9c-2.3-10.8-3.5-22-3.5-33.5C352 71.6 423.6 0 512 0c5.8 0 11.6 .3 17.3 .9c12.3 1.3 24.1 4 35.4 8zM261 259.9C278.6 238 305.6 224 335.9 224c53 0 96 43 96 96l0 1.3c45.4 7.6 80 47.1 80 94.6l0 80 0 16-16 0-80 0-271.9 0-64 0-16 0 0-16 0-64c0-37.1 25.3-68.4 59.7-77.4c2-.5 4.1-1 6.2-1.4c-.5-2.1-.8-4.1-1.1-6.2c-.5-3.6-.8-7.3-.8-11c0-44.2 35.8-80 80-80c13.2 0 25.7 3.2 36.7 8.9c3.2 1.6 6.2 3.5 9.1 5.5c2.2-3.6 4.6-7.1 7.3-10.4zM80 495.9l64 0 271.9 0 80 0 0-80c0-39.6-28.8-72.5-66.6-78.9l-13.4-2.3 .1-13.6 0-1.3c0-44.1-35.8-79.9-80-79.9c-29 0-54.5 15.5-68.5 38.7l-8.8 14.6-14-9.8c-10.4-7.3-23-11.5-36.6-11.5c-35.3 0-64 28.6-64 64c0 4.8 .5 9.4 1.5 13.8L149 366 132.7 369c-29.9 5.3-52.7 31.5-52.7 63l0 64zM233.4 144.1l-10.5 0-4.2-9.6c-9.9-22.6-32.5-38.4-58.7-38.4c-30.9 0-56.8 22-62.7 51.2l-2.6 12.8-13.1 0-9.6 0c-30.9 0-56 25.1-56 56l0 56 56 0 16 0c0 0 0 0 0 0l28 0c-3.5 5-6.6 10.4-9.3 16l-34.7 0c0 0 0 0 0 0l-56 0-16 0 0-16 0-56c0-39.8 32.2-72 72-72l9.6 0c7.4-36.5 39.7-64 78.4-64c32.8 0 61 19.7 73.3 48l22.7 0c35.3 0 64 28.6 64 64l0 .9c-5.4 .7-10.8 1.7-16 3.1l0-3.9c0-26.5-21.5-48-48-48l-22.7 0z" />
-    </Icon>
-);
+const CloudsMoon = createIcon("clouds-moon", false, "data:font/woff2;base64,d09GMgABAAAAAANwAAoAAAAABxQAAAMkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSDdwsGAAE2AiQDCAQgBYMtBzIb+QVRlA1KnuzjMN32yJFkRBJZh4zTGCcXw2388RZB/X7o3v0XIPCJQpKZSEBjsJUVto6UrbCZWgBWVXhk5/9M4r3gIu+z2eHLrmDX5vyf6/mAB/jF50OKxNJMwIqLen4CA56dRYKdl50N2I71rM1xiDiI8g4iTxxVT4gN20PsbZ2hxG+N+OTdvIqb9aPiqwGTSFUFINoBgM2Dgiw4+QpfRVz9P0xc2QYCYhNgHKLC8DAEK7iCz8AzDhRF8Cr+/y//gRQEELXk+xIU1OIFPgIKSKWUX0I8PNIYvpRXzPDJwCb1Ic9d5vVRx5Jm6rbqFqmPJs4gW5wRNzMzXc5HH7cf77HT42zkUTrOsES7Ah/EnCiZqdnsVLs35LDbdgsgfEAiQeyx0rTSZaluCS7BtR47Q2Y6LdbQYCFDpIgr3Hc4axHsGvWCD3mqke5ZQja5btOP02hQjZv0y8AJYYgW9wRvcoyHqZGQTepFekCGGY8MLlITHN9EQh4xPXa6MF2b6bTZoP5mt+0GsLHwG7RLnIn9DnbHW7urzVch8Ijia3ZtrlhYmNQrPcX9sPvxhnkCgSyFA60mxxe3pk+3uNhsd4ZCUkSquPG9vgpMuHo1AcW9dnyfX/tfjduxQ4TgXFbGzQUW2H0sxALz5csWSjlcPh+Lm1i1yC/eMfDQ69jYdbkg1TidPQUyQDh+wlONs+GxX5p1CgURan3gEzS8eqmPXVZDCAkF3vxeqTTJDFLS+/+dcAFCWYBhSAlxAMACy0IoyAICXhIVcbE3DZ5RuifpLHloOD3jQXX/ma8OAALB1vTS+zXyyF8iJsGbez9fj/v9P5k3cgfqJQiqyf+eKnMc0uiFIEHGdfYYXSA9UMDn0uyWAKERAVKtRgEqQ1gIikYTENQYFQRBrUY7uKI0CN2qNpCanYHKnBFQdDsIaqy4ENTqjsrHSQ8lPzHjkhlK6qN+3r40nF7mlHJbPG9G0Nu863CacMNOaNaj26AmjdoMEtwvKx7SJdlCJo1L+fHmiwpHp6v3XDEF/Qa0nTPz20Sg62VXw/Z8N0gcgjolkZLIpp8dCgNe7wkAAA==");
 
 export default CloudsMoon;

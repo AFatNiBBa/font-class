@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blender-phone` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blender-phone?s=sharp-solid blender-phone}
  * @preview ![blender-phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/blender-phone.svg)
  */
-const BlenderPhone: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M153.6 44.8l-25 89.6-58.9-6.7c-12.6 41.8-12.6 86.8 0 128.6l58.9-6.7 25 89.6L84.9 384 72.4 371.2c-96.6-99-96.6-259.4 0-358.4L84.9 0l68.7 44.8zM224 352L192 0 576 0 558.5 64 400 64l-16 0 0 32 16 0 149.8 0-17.5 64L400 160l-16 0 0 32 16 0 123.6 0-17.5 64L400 256l-16 0 0 32 16 0 97.5 0L480 352l-256 0zm320 32l0 128-384 0 0-128 384 0zM352 480a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const BlenderPhone = createIcon("blender-phone", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcgAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCAAsGAAE2AiQDCAQgBYMtBzQbBAXIHoexe+RKTMpeaNNLBM/b9X2d2z2zgHolRU8LOYIcbfQZKTNyEPE084PoxarFH7qmfpQ9PeDZkz1aFJZ+Wyxw2METGGCVJg+ogTabKM7cFqeoQSYrIqJDcIh8/LYP8Q+Qx6fZaSXSg/QBrpW3il91cJqkQQYgmgNgel3VYq98FV9FvF9BvG8hAmI6KAQyzO4swCSZkAfIFcjlgq+iUqH/wIIAooxvKoEcZazCHkAOkjzPO3Rv0KpRqUle26jUcHl1XfWceGr43KiJ6mgbr9W+54czFzVLl4UPNIlh0bChaNSoUY3XXkvjiGhSfaldxL040fZuw4utbzve5k6jHk82f/L37jbx4Gb7Jch6xNChj8Akswb5wN9Nq1RI/9sczB7RbbWffVwzD5sXmt/t5rSHDiPboHW+qd2Os8blvLy66XnON615kQ3ESX3fL/+wukn/12+UwDfP/fk7XVhZeSVNS0+ivgSCbFBlkBVpmkIxVLxnGIf0wBcFklo5ftfG7goQGiJAUtZQgEwnzQXINTRQgJKuRgtQ1lCVTOQNhNZWDpA0thdkxjgCcq09C0omeTsqax2ZoYlmIv7mpc2R6OxxxfAhw4oJxTavS7bD5/6JxbHe71Cq64+tNtltlwM22mCrA4LZZ3HqoJ3maPRsP1QYbohhChMU16XX9bU22me/rXbbRaNMVDxv93NIb90fVsKcI+xNEpGarNuxcdeGjfsGf40A");
 
 export default BlenderPhone;

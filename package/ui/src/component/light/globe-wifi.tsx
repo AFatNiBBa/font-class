@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `globe-wifi` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/globe-wifi?s=light globe-wifi}
  * @preview ![globe-wifi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/globe-wifi.svg)
  */
-const GlobeWifi: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 480c16.7 0 40.4-14.4 61.9-57.3c2.3-4.6 4.6-9.5 6.7-14.6c3.4 14.5 8.6 28.4 15.3 41.3c-3.9 6.8-8.1 13.2-12.4 19c6.5-2.2 12.8-4.6 19-7.4c5.8 9.3 12.5 18 19.8 26.1C333 503 295.5 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0C375.4 0 475.6 81.7 504 192.2c-2.6-.1-5.3-.2-8-.2c-8.4 0-16.7 .6-24.8 1.7l-.5-1.7L380 192c1.7 13.2 2.9 26.8 3.5 40.7c-12 10-22.6 21.5-31.6 34.3c.1-3.6 .1-7.3 .1-11c0-22.3-1.5-43.8-4.3-64l-183.4 0c-2.8 20.2-4.3 41.7-4.3 64s1.5 43.8 4.3 64l162.3 0c-2.9 10.3-4.9 21-5.9 32L170 352c5.9 27 14.2 50.9 24.1 70.7C215.6 465.6 239.3 480 256 480zM170 160l172 0c-5.9-27-14.2-50.9-24.1-70.7C296.4 46.4 272.7 32 256 32s-40.4 14.4-61.9 57.3C184.2 109.1 175.9 133 170 160zm288.4 0c-25.9-54.5-73.1-96.9-130.9-116.3c21 28.3 37.6 68.8 47.2 116.3l83.8 0zm-321.1 0c9.6-47.6 26.2-88 47.2-116.3C126.7 63.1 79.4 105.5 53.6 160l83.7 0zm-96 32c-6 20.3-9.3 41.8-9.3 64s3.2 43.7 9.3 64l90.8 0c-2.6-20.5-4-41.9-4-64s1.4-43.5 4-64l-90.8 0zM184.5 468.3c-21-28.3-37.5-68.8-47.2-116.3l-83.7 0c25.9 54.5 73.1 96.9 130.9 116.3zM496 480a112 112 0 1 0 0-224 112 112 0 1 0 0 224zm0-256a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 104c-23.6 0-45 8.9-61.3 23.5c-6.6 5.9-16.7 5.4-22.6-1.2s-5.4-16.7 1.2-22.6C435.2 308 464.2 296 496 296s60.8 12 82.7 31.7c6.6 5.9 7.1 16 1.2 22.6s-16 7.1-22.6 1.2C541.1 336.9 519.6 328 496 328zM476 432a20 20 0 1 1 40 0 20 20 0 1 1 -40 0zm-6.7-37.7c-6.6 5.9-16.7 5.4-22.6-1.1s-5.4-16.7 1.1-22.6C460.6 359 477.5 352 496 352s35.4 7 48.1 18.5c6.6 5.9 7.1 16 1.1 22.6s-16 7.1-22.6 1.1c-7.1-6.4-16.4-10.3-26.7-10.3s-19.6 3.9-26.7 10.3z" />
-    </Icon>
-);
+const GlobeWifi = createIcon("globe-wifi", false, "data:font/woff2;base64,d09GMgABAAAAAAOgAAoAAAAAB1gAAANVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiEFwsGAAE2AiQDCAQgBYMtBzEbGAZRlO1JmOyLwthYGn0YjaoIY3FjdSFIgeZdh/k2x7sQfvwLqcfD//v3uc/9byYA1KZ1DWL1rOhuUCWpyBL+Ps+5Fk0b2H+jyIu2tEzrorMUOpHw2bXHl+e7qbH5z5H+MfXGcV004SWJzkwSeF5oK2mhrBoc/v/7efzbPC0v7wPOh/Z/47KswruOT2CAUW9WQZHim7DN0rleYQQQ/8JNbQtZ/ImOWNLRVITd3uz4rJ4bSZYTQFRFQBs2p1Yg/BfxIqIo/8PZ2QSEgBiOQFMkcuIRDZFgIFqgIUZThEwmeBH5PP4DgQggCgWC5NMZKuEtfgEykFTIslFVJaFiuQYNFFF5oUIBmZiqUICS2+vAOOxwyD3m77GwxD77J/u4WJK+13ySuV8qbT1q2Mht5bfVhIHgcb07XhuurV/ijqyph2Ov7qLzes/sfTy/Qnl8Uf+Fc7Bq2z3dkYh8vj+Mce/3ZIWKv+4F39CEZy4//yTWNkDzbs0uH+/9Ru7C9jYwHhucwrX1TzQPaFvLO54Xf6y+x7nVfsP4Uad3sKbjm2/o7T+2fODsLp/BCfZtu8c54E5iDxMHWXucF0/ieJt7/pHqQSDxpK/aez35jssoXmgvf82KxkVEvom//N26T3Tf/Dnr9tfP1PmKWbuXzwOZbEzdettt7/wY3jNcsnY8y8jfSU+LrPM9tlAxaAgGNbdQt2Cyw7Z8rfz3r1lDzgZUxVXyUb++oBMDjc7/HztzOEP9Pt9IrIsvabJLLt/IGyz8kfzuGmjMOkNbNXDuwY1PAac+fqSxsPaWtLJqFGiTECnQTKOR2wlJiyzstLTrpsHz6rEEaHx09XmwYGPWqgXWypWjg1L715f9XU/PNNqzNhAI3nz8etgqA78JFRJ4de1v8iPyflqTTqOsBIJcx3xHfcsHjnoAgRSrqfgpAslTFQSuig7tjYTy1JAUKg85DciQKa8DFGgsQqycPgMtsnJCTQNAUtEyyOntCpmaPlBgoH+wUM2gaZ6iWOqTMz7fxnL9EHA8JDGZVdJkTNjdKazWaWe9SgeaGNtYOxoZmjlqCfcKkZOV/Jxm7rsQ4PBAEnYX7vNNYd076MQ4u7+XFJzv0pznG+swUgKt3aUkiUjl/7OQNLIvs/EMAA==");
 
 export default GlobeWifi;

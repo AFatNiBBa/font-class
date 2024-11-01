@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-slash?s=sharp-duotone-solid eye-slash}
  * @preview ![eye-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/eye-slash.svg)
  */
-const EyeSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 256c30 74.7 129.6 224 288 224c54.9 0 102.7-17.9 143-44.4l-70.2-55.3C339.4 392.8 314.6 400 288 400c-79.5 0-144-64.5-144-144c0-14.5 2.1-28.5 6.1-41.7L66.1 148C33.9 186.5 11.7 226.9 0 256zM135.9 82.7l70.5 54.7c23.2-16 51.4-25.4 81.7-25.4c79.5 0 144 64.5 144 144c0 17.5-3.1 34.3-8.8 49.8c27.4 21.2 54.7 42.5 82.1 63.7c34.7-40.1 58.5-83 70.8-113.5C546 181.3 446.4 32 288 32c-59.1 0-110 20.8-152.1 50.7zM192 256c0 53 43 96 96 96c10.7 0 21-1.8 30.6-5L192.4 247.6c-.2 2.8-.4 5.6-.4 8.4zm77.2-94.2l5.8 28.8L382.3 274c1.1-5.8 1.7-11.9 1.7-18c0-53-43-96-96-96c-6.4 0-12.7 .6-18.8 1.8z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const EyeSlash = createIcon("eye-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjgAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCJAsIAAE2AiQDCgQgBYMtB04bRAXIBuLRP2pekgWchVkdjQ7s1tfBbKnqKv3/uebze350z+vznfihRFtqWm3gmc8nMMBoi8So5xPcTG1vU0SoozK/iohqIbLjs+MZbA+MStUbcAG1X90HdtP/AMo3ItgACg8NAID4AwAA9YP79+Tya3mt5L5zHOQ+PQABkAYALAJoQAPRCABVaASIxmABg0HgtXIceC2OY0EAQFyhy2sAXAE3YCawDgAwACgEY0xATLSPr5eLjxlEKzyHJ6ckz5VkyZIUmYeMXDlcL3Kl56c+GPiq9yA57Xmz5mLC2qhB0pG2L3zwwEEDz5XeqL4Qvya8NbkzvTuzO+pIw9VeDwc97zHwcLpIZ/H2sEGyhsERkREDZa8cyegq2Rac0OXf9SP+/qT7RF/6IoSfI4cbcr3N5Y/9oX87tPWSvnKnuRSddmXzkujQ/v3rWeH9Z+Pmo83F0Sh9vBq6xTtyc01On7ojMTGbNGbjKfl6Q9Sv0qPuXdC1xv/9qnEY02PkCI6m9SPcAzn3Fs+1ACCAQNWYsftG+1X9dvdSALw9++sr5QznslqjugB3FAACOsvJYkQOASJdACBWsogE+CEAATQDMHDWmz2IzPWEDgpXPEEThT8YPMkEF2IpFtLs/mjEeCAEMxJA4c1c0JSwEgzBHAMXqriVuBIs2vYky5H+/NJbRqR5kM3PybMV9jGnyeYkhN5KKzbTFvmadFjJJGYziwVMZAJTWTBg8+iZXchMWk5oM1/Ekk8OeVgqsOrisz4Ik3nMZ+pe1fdTiX3fTWPRuXk6OApmLeAgjQZRogMmLp2YPX/G2PlTsi9xTdCkXlc=");
 
 export default EyeSlash;

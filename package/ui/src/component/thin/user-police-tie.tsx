@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-police-tie` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-police-tie?s=thin user-police-tie}
  * @preview ![user-police-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-police-tie.svg)
  */
-const UserPoliceTie: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M222.1 16.2L62.2 52.1c-2.8 .6-5.1 2.8-5.9 5.6s-.1 5.8 2 7.9L87.5 95.1c1.5 1.5 2.3 3.5 2.3 5.6l0 26.9c15.7 10.2 46.4 27 105.5 31.3C173.9 138.5 168 110.1 168 91.2c0-3.3 2-6.2 5-7.4l48-19.2c1.9-.8 4-.8 5.9 0l48 19.2c3 1.2 5 4.2 5 7.4c0 18.9-5.9 47.3-27.2 67.6c59-4.3 89.6-21.1 105.2-31.2l0-26.9c0-2.1 .8-4.1 2.3-5.6l29.1-29.5c2-2.1 2.8-5.1 2-7.9s-3.1-4.9-5.9-5.6l-159.9-36c-1.2-.3-2.4-.3-3.5 0zm.2 159.6c-80.6-.3-121-21.7-141.3-34.9c-4.6-3-7.2-8-7.2-13.3l0-23.6L46.9 76.8c-6.1-6.2-8.4-15.2-6-23.6s9.3-14.8 17.8-16.7L218.6 .6c3.5-.8 7.1-.8 10.5 0L389 36.5c8.5 1.9 15.3 8.3 17.8 16.7s.2 17.4-6 23.6L374 104l0 23.6c0 5.3-2.6 10.3-7.2 13.3c-20.3 13.2-60.7 34.6-141.1 34.9c-1.1 .2-2.3 .2-3.4 0zM128.1 352.1l69.4 92.5 17-28.3-37-51.7c-1.7-2.4-2-5.6-.6-8.3s4.1-4.3 7.1-4.3l80 0c3 0 5.7 1.7 7.1 4.3s1.1 5.9-.6 8.3l-37 51.7 17 28.3 69.4-92.5C391.2 355.4 448 414.3 448 486.4c0 14.1-11.5 25.6-25.6 25.6L25.6 512C11.5 512 0 500.5 0 486.4c0-72.1 56.8-131 128.1-134.3zM214 466.7L224 480l10-13.3 6.2-8.2L224 431.6l-16.2 26.9 6.2 8.2zm22.8 22.9L232 496l190.4 0c5.3 0 9.6-4.3 9.6-9.6c0-60.7-45.7-110.8-104.6-117.6L236.8 489.6zm-25.6 0L120.6 368.8C61.7 375.6 16 425.7 16 486.4c0 5.3 4.3 9.6 9.6 9.6L216 496l-4.8-6.4zM96 192c0-2.9 .1-5.8 .3-8.7c4.8 2.3 10.1 4.5 15.7 6.7c0 .7 0 1.3 0 2c0 61.9 50.1 112 112 112s112-50.1 112-112c0-.7 0-1.3 0-2c5.7-2.2 10.9-4.4 15.7-6.7c.2 2.9 .3 5.8 .3 8.7c0 70.7-57.3 128-128 128s-128-57.3-128-128zm128-32.7c29-13.7 38.5-41.8 39.8-62.7L224 80.6 184.2 96.5c1.3 20.9 10.8 49 39.8 62.7zm0 243L248.5 368l-48.9 0L224 402.2z" />
-    </Icon>
-);
+const UserPoliceTie = createIcon("user-police-tie", false, "data:font/woff2;base64,d09GMgABAAAAAAOIAAoAAAAAB0QAAAM+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQCEHwsGAAE2AiQDCAQgBYMtBzYbJQbIBgrKaVWPJJuDcpRleQEI7UWiY/4d/5h9capmWDwUfs4FLB601bEWjkm50pznFSjgl3qlNaharfZqrbDV2hx3g+KgvCBElAidEg3j17B0ArYOMRYHzAHzJrCtfKi+oQirwWBZAAAoBwAAaDWgTzee/VyfS29m7oDepAsgALUGwEeABVhAcQRAUywEFMfGB2xsBJ8rkwn/gT4IABTAGMM2G4gCXwEZGDEwhG27foXyceiS2cGoE7f7tzsjQ/oO6Lvb3Z2opD2gPeXO1Ntb9KDSXhPtSzSiMFW4371X4ZwnogpesLegvzZGeLm+dPe0QlJl7fX2eQNmiX54Yo9bUSjl7q57u+1Mdd9+/ftVUWuZjka1Sbx9S1XSAL3U7Elyf9mYzhY91eKZDv0SBQlPnoqqUIlKrudGtc87Wv1i/b6R/v363654ufieRFQFg9Pak0gpzZFKF+rdq3KpVFpp7fNSHG/6uO3LzZ+WHnCumHTIq6+62lPkQDlqVK0RUbXSF3Mufpd8c/ybfHLtWJn6OjVdq8zH5NrFOLd+w60fevfKdlr9TDL5M62c7F69f7i1Yf25Yti5b1LGslseLYMxx69HIfL12FAhF9lQren7x8rQqlU66Pmu1TZcpJDQ2K8jxY4bM+xau6FAY7SmjJvv9MTJz3u3JkbboYypWy/gzdrMLC9Qr+6YfrMPW5oB/M3QgPHtgD0lFYo/+85HgxYWjTKf+9E7z8ZDqae0m13JdubMFij7/x9+/PGH/7MFWjnGsZ26bXr2bFPXWeF3TkE6ewUryE6nOv+SJleLWTwkQNB0T9EfR2Q3/S0UNQB8+fCHv9nuzjyrZ81FIIQBQGBVzVRlqJ4FCHwBQM5oPqXFDwkwfEEYy8XYi1AQETjAECACFsXIAZsIVcChJPXkRV0fLGSHYdxlGMEQYxZY1GcZ2LjcAoemvJIN4Mrye9Vr1d/OzO17ut0yv1b1mn5j/7Ju11xZlvNN/GV3xfmxrxI2Mp4ZTGcu4xjLJOZ27Gy6FeYxjfZK3O67PrWoTk18GuPfbj2u7884ZjOHScxgel6kCf7z8YrM16MrwWcwydrUGAzIZL8stmrfW6ba3EnjAA==");
 
 export default UserPoliceTie;

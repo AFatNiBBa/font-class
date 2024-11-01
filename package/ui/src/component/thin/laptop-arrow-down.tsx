@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop-arrow-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-arrow-down?s=thin laptop-arrow-down}
  * @preview ![laptop-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/laptop-arrow-down.svg)
  */
-const LaptopArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 32l152 0 0 16L128 48c-26.5 0-48 21.5-48 48l0 256-16 0L64 96c0-35.3 28.7-64 64-64zM512 48L360 48l0-16 152 0c35.3 0 64 28.7 64 64l0 256-16 0 0-256c0-26.5-21.5-48-48-48zM16 403.2C16 436.8 43.2 464 76.8 464l486.4 0c33.6 0 60.8-27.2 60.8-60.8c0-1.8-1.4-3.2-3.2-3.2L19.2 400c-1.8 0-3.2 1.4-3.2 3.2zm-16 0C0 392.6 8.6 384 19.2 384l601.6 0c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8L76.8 480C34.4 480 0 445.6 0 403.2zM328 40l0 252.7 74.3-74.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3l-88 88c-3.1 3.1-8.2 3.1-11.3 0l-88-88c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0L312 292.7 312 40c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const LaptopArrowDown = createIcon("laptop-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABhAAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCJgsGAAE2AiQDCAQgBYMtBzgbLgXIngd27MRaY0ENRyzGw/N24Z/73uwmmY0xkVTBrKAq/oBLqPrdd9HRpdAJX8zv4iExUyCmv/nnnUdZ+jiCUMbGpYGs82zO8wQSGzqWZYGUffz2RfFbO3vDGz7cpKQnPsmw/bBaoIi/7VQjPZA+xK38ofGTLq6Q5AwgWgNg9poVy739eXwe8eH/rxIfWoqAmAMqgYyM7gJMkwW6K1QoFILP4///+T+wIoCowyMTKNAEJ3EeUICkVhQdO7Zr071Ra1GsbtTKDY2yIcp4uv3dnVOUkeOhoS8N3FY2yohGPDP4hS6LgQc73jtg5wNHvNC/RTy3f2u3i2XLuKp8aGCreKbLw4OeH9c8XhvyYs89wpq4r8M97VfG3R1Xx72d7uuwKiLu63RPhz4vtn7xl97tzvnHkPuN+vijTGuUbdo8fl7Qx9u0KS/NH3086u3A7W/dplnO6+XcunWsF63NX+lb5q2ycP+/sC9eYsWK8ePXrKkkE4UI5Hjbv+pbt9aBQPDnpq9vO+3Xpo0Evnzrv8jp/z9PF9KLaCqBIA/7f5iN6QIwNgAjxWl9jC8KJAfV4K3N3StAKBEgqSsFyLppLUChNFSAmp7GC1BXWiGLopnQ3qYOkuaOgWyCs6DQ3sugZpp39Lr2kX2P8Rzm55e4QEPzu6rRI0ZVU6qto7HuRElzanUsDTodE4Np1G5HHHbSLjvtc1Ihxy23TjlkgQXP90OV0UYYpTJFde0/96+2y3En7HPE4dRmquq9NshpO38wqQlwx5iWJCK1Objt6MkjR4dvO378yJnhTgkAAA==");
 
 export default LaptopArrowDown;

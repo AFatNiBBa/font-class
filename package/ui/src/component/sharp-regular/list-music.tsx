@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-music` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-music?s=sharp-regular list-music}
  * @preview ![list-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/list-music.svg)
  */
-const ListMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M384 84.7l0 43.3 0 17.2 80-21.8 0-60.5L384 84.7zM336 366.3L336 208l0-49.8 0-30.2 0-80L464 13.1 512 0l0 49.8L512 160 384 194.9 384 432c0 44.2-50.1 80-112 80s-112-35.8-112-80s50.1-80 112-80c23.8 0 45.9 5.3 64 14.3zm0 65.7c0-2.6-1.4-9.4-12.7-17.5c-11.2-8-29.2-14.5-51.3-14.5s-40.1 6.5-51.3 14.5C209.4 422.6 208 429.4 208 432s1.4 9.4 12.7 17.5c11.2 8 29.2 14.5 51.3 14.5s40.1-6.5 51.3-14.5c11.3-8.1 12.7-14.9 12.7-17.5zM24 48l240 0 24 0 0 48-24 0L24 96 0 96 0 48l24 0zm0 128l240 0 24 0 0 48-24 0L24 224 0 224l0-48 24 0zm0 128l112 0 24 0 0 48-24 0L24 352 0 352l0-48 24 0z" />
-    </Icon>
-);
+const ListMusic = createIcon("list-music", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABeAAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCEAsGAAE2AiQDCAQgBYMtBzEbEQXIHomxrYL9ihj0N7EjqGxlWT2zG9KCcAU8YkYP4RmsZ5PYY8e4eJfIElTIeyGUT53KuZxnA+XeQhakNSjpHDS29UpznleggGvw1ArUNte0AtZlc5hfxEMbIf4AeXweTyiRXkw/4fFwp/GLTq6RlDIA0QoAM9evXuqbpmiK+PHhh8SPFiMgZoJCIEOGrgJMkQl0lSuQywVN8fCh+A8sCCDK0uslkKMZDuI0IAdJOc+rfVpX03Cpnq8rCyv7BbE+ML1mQwhufPn4EGJNiFcGvD3mo0Hvdn998Hvj7/b1fPs3x33Q55l2NvzG2I/7m4/3VSt1UalFVCmoClWm93q31bu/+WnfTy4eGpzmtba8nSmle3jH1/CeUbpb4WIv94xyrJ3zm/j/n3/+P9iWPl/OavxSb9Wq/kuj8WsNxWq/NsZfPIgaoWPReqnHTpy4xWMmEOedWdT+6e0tp/ynmsDPny38ih5+k6R30UwCQTbk4RBbEkgEACDFOb0SBJKdytJbrXlOgFBBgKSsIkCmi1YC5CoGC1DS3VgByipWy0TeXGjYOoCk5iTIjHMe5BreByVTfJsoa0QGcCK4iL97afOm8NxJxchhI4pJxW5JJ8EQb0cnF5fNAedky0C80z7HHXPGXnscdGZCnbI0fdZR846Qub6oMNIwIxQmKR5XX25eZ69TTjvouGN+nMmK7wMDnDvuPhDbk5R1lKIkEakSX42hURE=");
 
 export default ListMusic;

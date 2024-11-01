@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `earth-americas` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/earth-americas?s=sharp-light earth-americas}
  * @preview ![earth-americas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/earth-americas.svg)
  */
-const EarthAmericas: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M477.7 288C462.2 396.6 368.8 480 256 480C132.3 480 32 379.7 32 256c0-10.3 .7-20.5 2.1-30.5l36.3 27.3 4.3 3.2 5.3 0 41.4 0L160 294.6l0 57.4 0 6.6 4.7 4.7L192 390.6l0 41.4 0 16 16 0 64 0 16 0 0-16 0-25.4 59.3-59.3 4.7-4.7 0-6.6 0-80 0-16-16 0-121.4 0L192 217.4l0-9.4 64 0 16 0 0-16 0-32 0-6.6-4.7-4.7L240 121.4l0-2.7 27.3-27.3 4.7-4.7 0-6.6 0-47.4c69.9 4.9 130.9 41.9 168.5 96.3l-51.8 51.8-4.7 4.7 0 6.6 0 80 0 16 16 0 77.7 0zM457.2 157.4C471.8 187.2 480 220.6 480 256l-64 0 0-57.4 41.2-41.2zM41.5 191.1C67.9 104 145.9 39.2 240 32.6l0 40.8-27.3 27.3-4.7 4.7 0 6.6 0 16 0 6.6 4.7 4.7L240 166.6l0 9.4-64 0-16 0 0 16 0 32 0 6.6 4.7 4.7 32 32 4.7 4.7 6.6 0 112 0 0 57.4-59.3 59.3-4.7 4.7 0 6.6 0 16-32 0 0-32 0-6.6-4.7-4.7L192 345.4l0-57.4 0-6.6-4.7-4.7-48-48-4.7-4.7-6.6 0-42.7 0L41.5 191.1zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-    </Icon>
-);
+const EarthAmericas = createIcon("earth-americas", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABpwAAAK5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDZwsGAAE2AiQDCAQgBYMtBzUb7AXILgfsxvSPaZ3FdnUn8H2jFFSUU4afkreo8fD9XF/nvqT7A2WIU6MYwREqAjWW1ThaAFRst1boD4K7v3nACRclmEUptkSzQDOII8jd/esvs9rigDLNsVCCDbgRMhoIt8HzgOOcyLbhXh2z3Q94OhnoRtm4q5oUSUCZ5tY3xpqs72xjXSWSsMz/NZ/f86MC+UaHFlGLwsaIfj6BCTQmT2RnA5vpBGy25RDBX90k4ojvEJGGyR+mHpDHm4AK6VGKG/Gh8Z8uLiHJMwBRAMDU1csX+uBvF/ymtYhvzEdATAOlQIYM3QWYIBPoLlcilwv+jt/+AxMCiCp/8wRyVPEz/gXkIMnzfFPtvG4NlaZ8VUOlfvsvifHDiqxt6307lehgQ8NEhehgX4VoaIiIWB6d9EJ9fT9jk4noKCj9SeOnYz8wo71K6dUvqRd8cv99lr5fDdHH6Gavvh6oT11R1OqVjmCSHdWa1FpCP90p643b3yYM5+rtu/hZ8f5Xx+CPx62fwicr8e8efHSje2bTVPoOY9WY7jl9FYpd6OI509VYolCcXepMKQplQklk32DTn+zyzFBNPTUvHBxTjHV9Ek+dx7zZlT6qFLUuKW+lqzkylmpluzcWu6r/+jXETdwqMn169/G3bgrstNeBQPDVtDjaMuGpEvj39f/xM6L1BKRnqJVAkA34sCGBRAAAUpzSOyGQfC3nYW10nwChHgGSqnoBMt0UAuTq9RegoqeRAlTVWy4TeZ3Q3sYbJI2Ogswop0GuvVegYoLPs1XtI5ttejLpX8uEWQjN3FUOHTSkHFe+dlzMuJJ0c3yZNvqcWhN95aJdDjvkhJ122OsEIMcsLJx00CwGz/RFpaEGGaI0Tlnu/xRWaXDMcST3SlnfZryyP97HKT6/r9iJEw5TlyQiNR+YyMCtBw+3ufU4AA==");
 
 export default EarthAmericas;

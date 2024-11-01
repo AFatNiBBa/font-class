@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ski-boot-ski` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ski-boot-ski?s=sharp-light ski-boot-ski}
  * @preview ![ski-boot-ski](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ski-boot-ski.svg)
  */
-const SkiBootSki: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M380.2 32l6.9-32 32.7 0L370.2 231.2l100.9 50.5 8.8 4.4 0 9.9 0 104 0 16-16 0L96 416l-19.6 0 3.9-19.2 72-352L154.9 32 168 32l212.2 0zM233 64l-51.9 0L148.3 224l51.3 0L233 64zm32.7 0L228.3 243.3 225.7 256l-13 0-70.9 0L115.6 384 448 384l0-78.1L348.2 256 288 256l-16 0 0-32 16 0 51.1 0 6.9-32L304 192l-16 0 0-32 16 0 48 0 .8 0 20.6-96L265.7 64zM640 416l0 80 0 16-16 0L16 512 0 512l0-32 16 0 592 0 0-64 0-16 32 0 0 16z" />
-    </Icon>
-);
+const SkiBootSki = createIcon("ski-boot-ski", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbQAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSCAwsGAAE2AiQDCAQgBYMtBzMbBgXIHgfOaS+edUk08h7Gw//Pff4+N3lvtclAETIFQPZ1pOpHtq7s4KOwxPIrzJC3+Kp9n/9r6sXzowP8fASHFmUdtPTNMp9PYMBRGkUbaNpwNlGcta3UsMo/VV5wETHE5UK5PeTxd4xQIz1NX+Bh/tD4XXcPSPIMQLQDwNzN61d6/018E/HF/4gvLEdAzAOVQIYMvQSYIRPoJVchlwu+if//p//AigCiDnedQI469uAsIAdJnuc927Z0LGuN+aayVhzu2a1nGRtiY3QOIUTR0DO2R9coNxZlsSHK2Fxu2LyhUxRdujEiNrl8RFn2JGhz0UFBFE293RwRbxz6tbZr/dMXh75w/VmdbjH2JwfGua9wRDvtHoyzeLcRGuf0nYBU9cwE3mkZ+Nxt20vj4u63rbDK/rFmtKu0G3/asFIwtuNuxy/uXoO4nXZnJmnNHAO7HggEN9/6enfzjL/alAl89/Lqcv+/T3dSK9pIIMhG/D/CjnQHiBhANsUl/ZgvCiRb5PCuDR4JEAoESOoKATI9tRMgVxguQE0fEwWoK6yXibyt0MnOBpIGZ0Fmkpsg18kLUDPDh0xdp8gkjZET5kcvcdGILpxUjR01pppWbUsqKzxUGJ1eHctDLtmWoXqjQ0475YKDDjjqwoCfszJ/0UmLOGyhH6qMNcoYlWmq6+rr6k0OOue8o047lcaZrnrvD3GJ7z5UawlIx5maJCI1nD9+dOTXnYw8f/woAA==");
 
 export default SkiBootSki;

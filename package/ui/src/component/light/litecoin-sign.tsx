@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `litecoin-sign` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/litecoin-sign?s=light litecoin-sign}
  * @preview ![litecoin-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/litecoin-sign.svg)
  */
-const LitecoinSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M96 48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 179.5-51.9 13C3.5 242.6-1.7 251.3 .5 259.9s10.8 13.8 19.4 11.6l44.1-11L64 440c0 22.1 17.9 40 40 40l264 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-264 0c-4.4 0-8-3.6-8-8l0-187.5 179.9-45c8.6-2.1 13.8-10.8 11.6-19.4s-10.8-13.8-19.4-11.6L96 219.5 96 48z" />
-    </Icon>
-);
+const LitecoinSign = createIcon("litecoin-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABWAAAAHbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBGQsGAAE2AiQDCAQgBYMtBzQbnQTIhod/1vrdNzPfDR1I4p5MvZuEasm8eYPTF6omKjt16nmmhQL4AJ4xLbFNa4CP1bG5Ajmv92pjYoBqtWKtotjd2VpRRCuHJIkleXzSjs/nClmciH5KSO4kX3DJf2j81OEiiSwFEPUAmLxkwXzvClGI+FJ8THwxFwExBeQCKVJ0EWCcVKCLTI5MJihEsaj+A3MCiFI0ZAIypBiCUYAMJCLL+lSV1GSLzTGVK262Xm8W0+J6y422kSHOYlhVE7faWkp1BC1iSR6s9Wbzwoied+vv/u7xZfMXay7VFgq1j4zzdcD47y881PDiXkO5msIXlFtb+tLDfr51m//jXh/3gUDwoHVOlzV14/6VVyXgx4u//+JTxf/FQpxN7qJcAoK0X7GflUAxOBvFpk4c1hO+KJDoI0HvWu2mAKESARKlKgVIdVYvQKZSXwFKdDNcgFKVFkhFViE0W5VBoto+kBrhFMg0ewhKjPM+LtUcqdBwV8692ZJnlND0vnzwgEH5mLybS7wcMHZ1bD6s9jqsR3rDQZvtsdtBm2y0zcGC3G9+dsguMzhiuh/KDTbAILkx8unqev9im+x3wDZ77HbbjJWvt3s5zE/vDbtJAEOOuzchkpqPQOINe7bt7i9xAAAA");
 
 export default LitecoinSign;

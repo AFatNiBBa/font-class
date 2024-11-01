@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-beam` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-beam?s=solid face-grin-beam}
  * @preview ![face-grin-beam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/face-grin-beam.svg)
  */
-const FaceGrinBeam: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM388.1 312.8c12.3-3.8 24.3 6.9 19.3 18.7C382.4 390.6 324.2 432 256.3 432s-126.2-41.4-151.1-100.5c-5-11.8 7-22.5 19.3-18.7c39.7 12.2 84.5 19 131.8 19s92.1-6.8 131.8-19zm-170.5-84s0 0 0 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0zm160 0c0 0 0 0 0 0l-.2-.2c-.2-.2-.4-.5-.7-.9c-.6-.8-1.6-2-2.8-3.4c-2.5-2.8-6-6.6-10.2-10.3c-8.8-7.8-18.8-14-27.7-14s-18.9 6.2-27.7 14c-4.2 3.7-7.7 7.5-10.2 10.3c-1.2 1.4-2.2 2.6-2.8 3.4c-.3 .4-.6 .7-.7 .9l-.2 .2c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0c-2.1 2.8-5.7 3.9-8.9 2.8s-5.5-4.1-5.5-7.6c0-17.9 6.7-35.6 16.6-48.8c9.8-13 23.9-23.2 39.4-23.2s29.6 10.2 39.4 23.2c9.9 13.2 16.6 30.9 16.6 48.8c0 3.4-2.2 6.5-5.5 7.6s-6.9 0-8.9-2.8c0 0 0 0 0 0s0 0 0 0s0 0 0 0z" />
-    </Icon>
-);
+const FaceGrinBeam = createIcon("face-grin-beam", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABpAAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDTgsGAAE2AiQDCAQgBYMtBzUb0wXIjsJxr4RCNJMpBlPcEXzsx9r3viBmEZJqSGIhMZ2UTBoVMtNJp/Wm31CvhLPKP/qeg7gHGJVLMagPIpWyN//XfH7WdICf/AItmkoPpOjsqGr1fD4dcJQ3DbRtYDMdD1zm/y69FAfRd5Ckl2BbO9x+7XDaDso4KHpV5EveBlylN41/UNZLaioAEJ0AgL3zmDCcvqf3RLe4LeI3QkBA7AGYRChQYBSBTbwCo/hMglIp+Esc5/4DGRBA1JDrTlCixg/AHwCUIJUln6piQIBoJc4XL1qJxD2LoLjnc0Fd++fhd+Mfh972PEXn3lnYnbiEUXmK4d5Fx13fq8775iOKrNw4DYfEdxFRV9ZFijnSD3hITuli1SSelaH5apocmTSYUh5X7pQbUjCTE+0Kui/gLO15qfkvWrfzb4Pz8EMfNxtqPj5qLv19fuC4+4Xq+TYQB1ysmTY3W7LmZlejuLzuM38EWHuLAQBCILps4l7fv/86zkaaEAEAmNmNEmj5/bmq6vNvUQGvSB0AeLWUAy8iyjMmFwWCj685swzJzT9CojyAr/1v/1G/Rf9PE/mORgmCYo4zRWqCJAAAGfXQTgikT/DBq7Z6FCA0I0CqNQtQGCGFQKnZLAKVcXYI1Jod4xWlMEKvtA5Sq0tQWNYGSr02QGXTNbfWG4U+C9oo/E2m+jPkN41ZmVsyZ7aMNVFFuTDqwi4bhvW+ZoStyFehXK08uYrUElktLKhTxn9H+Pkgxoo5S4wz9jh7XB8vT7UaRSqUx3FcsPcdQ/X7biPYPIR1XiQlkRIfywyzguqicrPsvKwy");
 
 export default FaceGrinBeam;

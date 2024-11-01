@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop-mobile` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-mobile?s=thin laptop-mobile}
  * @preview ![laptop-mobile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/laptop-mobile.svg)
  */
-const LaptopMobile: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 16l320 0c26.5 0 48 21.5 48 48l0 32 16 0 0-32c0-35.3-28.7-64-64-64L128 0C92.7 0 64 28.7 64 64l0 224-44.8 0C8.6 288 0 296.6 0 307.2C0 349.6 34.4 384 76.8 384L352 384l0-16L76.8 368C43.2 368 16 340.8 16 307.2c0-1.8 1.4-3.2 3.2-3.2L64 304l16 0 272 0 0-16L80 288 80 64c0-26.5 21.5-48 48-48zM624 464c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-288c0-17.7 14.3-32 32-32l160 0c17.7 0 32 14.3 32 32l0 288zM432 512l160 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-160 0c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48z" />
-    </Icon>
-);
+const LaptopMobile = createIcon("laptop-mobile", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABggAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCIwsGAAE2AiQDCAQgBYMtBzQbJwXIjsO44XtgieJCMTiJ4B9cK99PMgeZ3bs54pSIFDApQrB1ZVcWrmxRESAObj9z4IFg1MWpnMt5KIDPIQjK2DgXL/B0jvMKFDDWuakFLhdrFcVa2/SLBlGviMihyh4ZhvgslJ2B028zRGBOmOfAvvyh+kCZzWCwFgAAJQAAQK8dPoyHb/VWev7/oecMAQJQbwACARawQCUB0JVFQCVHAA6H4K3+//f/gQECAGWAtzcAOCACVoHVAMABYLDOdS4vj6O0GxVHfnw6lb5SdKQMxZJONr5ZP6XLDa+XIq/LpWca3WiXlpTS1cY3yzfEcZp7SqdKjjWYub5QOuy9dhYfldWGuTyOtavoCGZE7ONrJa6wOrkvqe91ufBwqdEJN6de7ZvJzU+1ns96bt31xPyWL1/YQCLweXnnezpfX+vf0owSRg4FEgX2Q7a1zUJC4i32xcuWXx7kbIftOecJlCBBpP2gxXmwF9mjsfPweQAQIFCbbd8m53b9mhUbAN7f/vKrPc7/h2a9uQlkYQAQ2Kb/m5rQ9QCeKABIjVZRW/kiAYZFLNiU4igCQHggGDLwYKmQgMPTBCKqtducgWc4i1w2otBEgiHFUrC0twYchW5BRFePkgwKYy2Psxvuxy+5/4j2mxZaNW8ZOofHQueNiYnjXcKx0nBVaGskC5llsUVWmGmGuVYM+DLD8pUW6q9h/fxQ0EpzLQWdhde119mjzLTMcnMttihN0kW4HzS0Su/dSHQDSFvbYDAgk14wdcmKxUu+EQ==");
 
 export default LaptopMobile;

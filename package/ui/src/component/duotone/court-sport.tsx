@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `court-sport` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/court-sport?s=duotone court-sport}
  * @preview ![court-sport](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/court-sport.svg)
  */
-const CourtSport: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 128l0 32 64 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32L0 352l0 32 64 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64L0 128zM208 256c0 56.4 41.7 103.1 96 110.9L304 480l32 0 0-113.1c54.3-7.8 96-54.4 96-110.9s-41.7-103.1-96-110.9L336 32l-32 0 0 113.1c-54.3 7.8-96 54.4-96 110.9zm32 0c0-38.7 27.5-71 64-78.4l0 156.8c-36.5-7.4-64-39.7-64-78.4zm96-78.4c36.5 7.4 64 39.7 64 78.4s-27.5 71-64 78.4l0-156.8zM512 192l0 128c0 35.3 28.7 64 64 64l64 0 0-32-64 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l64 0 0-32-64 0c-35.3 0-64 28.7-64 64z" />
-        <path d="M576 480l-240 0 0-113.1c54.3-7.8 96-54.4 96-110.9s-41.7-103.1-96-110.9L336 32l240 0c35.3 0 64 28.7 64 64l0 32-64 0c-35.3 0-64 28.7-64 64l0 128c0 35.3 28.7 64 64 64l64 0 0 32c0 35.3-28.7 64-64 64zM304 145.1c-54.3 7.8-96 54.4-96 110.9s41.7 103.1 96 110.9L304 480 64 480c-35.3 0-64-28.7-64-64l0-32 64 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64L0 128 0 96C0 60.7 28.7 32 64 32l240 0 0 113.1zm0 189.3c-36.5-7.4-64-39.7-64-78.4s27.5-71 64-78.4l0 156.8zm32 0l0-156.8c36.5 7.4 64 39.7 64 78.4s-27.5 71-64 78.4zM576 160l64 0 0 192-64 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32zM64 352L0 352 0 160l64 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32z" />
-    </Icon>
-);
+const CourtSport = createIcon("court-sport", true, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAAB7QAAALIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVCEdAsIAAE2AiQDCgQgBYMtB1IbmAbIjtRWecAPFRRl03r2Tip7zwxrogegiAgyIpSfKQIOUtWnBLGQCbeIEqHzGfvj3p1/4F9598TzUMZeNiaNPUGyztfmNmUQBaoJa4vbELPxO3jVkLgC31R56wmBOWI+ALui/wHUV3KtB0O8BwCAUgAAgO4jhvTjZVRRow+xu6AP9AUEoB4AOAI8wAMKCIBOPAQU8HHAx0cQNbFBVLE5EAAoTPK7PADCQCIoG1QKAPgAGMKEfL++PiEhLa2kODGhNAgl+sODkJ1nAys9qGssPlkbaSMFulBzJRdZna++nIOO1FypCIQOV18un363WrpccKLmSmtkdbE2kicFulTXmC8drY1UWknH6hqrAsHFWimSB6wEYkHKdMuIwAaSuK1ZB2Vfk30omLj5V4G2ZR4Arc7Ybz0EHGLFGrZhJ2qkHTQEOra/Fbpbfbkg8ESSzeVwjhEXaqRtHRqGOE2h1qdA2mlXl0ZSIt9LPkz/QNf+Si5bxMET1629fuLgIn5xOjXVOrrVqtVYy3q6G04VJfcX6Rjs079Y9OxeBviJiX7GvePueEIa0izVz2vdktCXdCNp8+ak1WXz2I8n6Oacs5p1YxOfz6vsddhFg7N7Bgh2iT5k3HFWrZ/Q7yCqG4mrE8ZB01j+fQAQIHiVmjl9QnKn/3GBAeDL459/69eJRc1qEwHiMAAIvPpYPWPNagCriUgcRsspZcwSAR77ud74BA4ip7DQgyGMBY98KeBjqYMQRVpTBPcPwUN+PCLDOBUMCSwCjzZWgE+GOxCik9e2MBnx3hHaHU77Q43dByK9p7nmTZq5Do4a19Jve4pf39EJi6uX23k16lmms4D5LGUaU5nFUoAupp9zGfPowyLs/VmnuSaacTpwk1Oj7OFAtZglNoXMnD5OR255fbXl7NI1qsyQEG1hi4cHMvLSvz9uw9vHb/jaCjJR5ocFAAA=");
 
 export default CourtSport;

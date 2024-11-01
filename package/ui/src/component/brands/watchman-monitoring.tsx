@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `watchman-monitoring` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watchman-monitoring?s=brands watchman-monitoring}
  * @preview ![watchman-monitoring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/watchman-monitoring.svg)
  */
-const WatchmanMonitoring: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256,16C123.452,16,16,123.452,16,256S123.452,496,256,496,496,388.548,496,256,388.548,16,256,16ZM121.69,429.122C70.056,388.972,36.741,326.322,36.741,256a218.519,218.519,0,0,1,9.587-64.122l102.9-17.895-.121,10.967-13.943,2.013s-.144,12.5-.144,19.549a12.778,12.778,0,0,0,4.887,10.349l9.468,7.4Zm105.692-283.27,8.48-7.618s6.934-5.38-.143-9.344c-7.188-4.024-39.53-34.5-39.53-34.5-5.348-5.477-8.257-7.347-15.46,0,0,0-32.342,30.474-39.529,34.5-7.078,3.964-.144,9.344-.144,9.344l8.481,7.618-.048,4.369L75.982,131.045c39.644-56.938,105.532-94.3,180.018-94.3A218.754,218.754,0,0,1,420.934,111.77l-193.512,37.7Zm34.063,329.269-33.9-250.857,9.467-7.4a12.778,12.778,0,0,0,4.888-10.349c0-7.044-.144-19.549-.144-19.549l-13.943-2.013-.116-10.474,241.711,31.391A218.872,218.872,0,0,1,475.259,256C475.259,375.074,379.831,472.212,261.445,475.121Z" />
-    </Icon>
-);
+const WatchmanMonitoring = createIcon("watchman-monitoring", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABigAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCPgsGAAE2AiQDCAQgBYMtBzobSAXIhof/t+u/fW5V1wdU79scWNGEgCIremsiAD1xzfM/f3qQMnq0KCxNLaDsxXkCPuhoe9xaR+MUelGctdMVGb7XTyR9yicZth8MizPk8Wxcp0K6Pb2Ja8tPxTfauYikkgGIpgCYsmrZAi/VRm3Em9XHiTfNQ0BMBaVAhoGOAoyXCfoMuRK5XFAb1Sr/B5YEEAV59QRyFDgDNwBykOR53ql1r7YNKo3ylQ0q9dd9ODvi1cERDy3/aMjDc15b8cm8N4Y9uurjoY/MfX3l6mcGRjwQ53dYFaJlnCdta9VqVZuWba5sc2vrWwJ8ftzS8iaj1c0NWq0PWhkPjnu2wZVjnh6wfM3KFSvbxK1xPh7YOiJWxO0+XPzu8q73NL3nu5o3d76p+uBUm9j0G7+Zaupvv23aVDmx+pu+5+K7zl7P/hE11+xspoH3RFGnKKZdsmDBpbI/UvOh2//7rhmrL2v23X/bh+LIuFRmdnOff/nV6MF33/jLy91rZpR/k3GJacXZ8+M9DfzYxep2se65t9ZmQCA48N0LxaYm43+r2yCBL5754Z92f9Pqu/Fjugd1JRBk/av9rU801dToFSBmipO6YmSB5Kgc8KsN3SJAqI8ASaG+AJkOmgqQq6+fABWdjRCgUN8ymcjrCS1tGFjS0BEsM9LZWK6lR7GK8V4xCy0j80PKi6hfYPxMDczoK4cMHFyOLZeRTrsWQfPjym2h98lc6YNBOx1y0HE7bLfHcQUdtcA54YCZFjjDiEpDDDRYaazyOH3evdIORx2zxyEHeZFxyvtKbyft9j6QE8EdypUkIrVw3Y0DWw4OeAIAAAAA");
 
 export default WatchmanMonitoring;

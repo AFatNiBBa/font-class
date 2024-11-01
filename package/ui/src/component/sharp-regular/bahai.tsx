@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bahai` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bahai?s=sharp-regular bahai}
  * @preview ![bahai](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bahai.svg)
  */
-const Bahai: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M318.8 109.3l-10-35.5L288 0 267.2 73.8l-10 35.5-11.4 40.6-34.9-23.6-31-21L115.7 61.8l32.6 70.4 15.1 32.6 17.8 38.5-42.2 4-36.6 3.5L24 218.1l71.2 33.4L128.1 267 166.6 285l-30 30.1-25.4 25.4L55.8 395.9l75.8-19.3 36.1-9.2 41-10.4-3.4 42.1-2.9 36.2L196.3 512l45.1-62.3 21.9-30.2L288 385.4l24.7 34.1 21.9 30.2L379.7 512l-6.1-76.7-2.9-36.2L367.3 357l41 10.4 36.1 9.2 75.8 19.3-55.3-55.4-25.4-25.4-30-30.1L447.9 267l32.8-15.4L552 218.1l-78.3-7.4L437 207.2l-42.2-4 17.8-38.5 15.1-32.6 32.6-70.4-64.2 43.5-31 21-34.9 23.6-11.4-40.6zm44.8 66.3l-5 10.8-23.8 51.3 56.3 5.3 11.4 1.1-10 4.7L340.9 273l40.2 40.3 7.9 7.9-11.9-3-54.2-13.8 4.5 55.8 1 12.8-8-11.1L288 317.2l-32.4 44.7-8 11.1 1-12.8 4.5-55.8-54.2 13.8-11.9 3 7.9-7.9L235.1 273l-51.5-24.2-10-4.7 11.4-1.1 56.3-5.3-23.8-51.3-5-10.8 10.9 7.4 45.9 31.1 15-53.4 3.7-13 3.7 13 15 53.4L352.6 183l10.9-7.4z" />
-    </Icon>
-);
+const Bahai = createIcon("bahai", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABmgAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDPQsGAAE2AiQDCAQgBYMtBywbuQXIngV2yweeGm1xjTG2WIyiGOroq1dExVr27AMF0LFDFQ3sotjKxEZZFAaFvYqNEWfUfr+990UEu4+YSBVrJI2aaXhI4tUjQzBT1O72CYLMGk8I4+b/mvzfWdXz9HONWhTm80iwzOcTOJ3d4feVz5oOaLOJ4qzNeUh8EMJtT9gTn5k2jD9sLR2gm7s84UA9F3jUSOWfwSwUTgcAZC4AOH3IScNZo0mu2xPIpxQQIKcBGwjoALKCAA6wEPYAbBR0sRFo0rblP5BCANIH0ZLq5gs/wC+ALqAwXXbbEXEk7PwlRNiwLCzzSS7zNTyYs3R5LLjxTbHcWvETxBFipgIBwLwzVwwXHh2dTqLkswTwE/Nkc9aGCFAgn78OrZUCqRwFwq5ap/YkcTTUEoWprBXPlHfn6tR0bMRCjJBMyyTwzmsEuTEdaJOQ4H0gP/gw1Qu/XmZ+KQly42V7HLz7Y3WJZxorYqT1Eb8JqSoPttRLWUCQJUFscK66VWbatDK3x5SNr98A9ZUHWaRPjQmdMVZoPM8Nwp93Dvb2opN4nR702rbKwYABh8oEEBv2798wsQBlDv23Oli1rVeNJOsevQsV6t2jHYCAwPLmr4rZ0DcUMQD+Xr6+9HJ9e1ZbcwCGGECgs/ddlVZkevriGwFYq/RnjS8ioJxiIKpT1hFACEEAhUuIADrMyBFAl5ALAuix5IcA+oRysJCuAIRaWVUZYl0qi78xlU3tSOUIdV7lUocVxlYQWl+RxeItEudHvdw9aTC97NrtyDS27RDanXPslyknQFGvQ7tedWo16TVCt7RGnzbxLSrOD1Fe3HmigtHhwedYfs536xHDT9HxXULQ98uO+tuLnfBBBsA+7i0MpDg/9Yg3AQAAAA==");
 
 export default Bahai;

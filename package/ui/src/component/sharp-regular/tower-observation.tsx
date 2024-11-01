@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tower-observation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tower-observation?s=sharp-regular tower-observation}
  * @preview ![tower-observation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tower-observation.svg)
  */
-const TowerObservation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 .8l10 4.6L434 82.2l21.8 10-20 43.7L416 126.7 416 232l0 24-24 0-21 0 34.7 208 82.3 0 24 0 0 48-24 0L24 512 0 512l0-48 24 0 82.3 0L141 256l-21 0-24 0 0-24 0-105.3-19.8 9.1-20-43.7L78 82.2 246 5.4 256 .8zm0 52.8L144 104.8l0 23.2 224 0 0-23.2L256 53.6zM144 176l0 32 224 0 0-32-224 0zM330.8 464L256 400.7 181.2 464l149.7 0zM185.9 278.5L256 337.8l70.1-59.3L322.3 256l-132.7 0-3.7 22.5zm-9.2 55.1l-13.8 83 55.9-47.3-42.1-35.6zm116.4 35.6l55.9 47.3-13.8-83-42.1 35.6z" />
-    </Icon>
-);
+const TowerObservation = createIcon("tower-observation", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABeAAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCJwsGAAE2AiQDCAQgBYMtBzgbLwXIjsQ4JvGLKEzi4fm5Ps99yXxIliELwCyhZaHIEjtAYadVLKsn30M+5v+az+/50QF+OzrRQ6mg1MYojFrG8wkMdLQ3S/Bx2sBmOgGbtat2Ckm0nhubgnSP3233+NwV8vgiXqiR3k4/43n50PhHT49JahmA6ACABds2rfFtPeoRPzU+In6yCgGxAFQCGTL0EWC2TKCPXIVcLqhHo+H/AysCiCZ8bwnkaMUpPAPkIGnO83Fla3PZ3FzW2uZby1qxq2u3rltiSIyOoSFEUWyJshRFm4C4TYuBkwbH2BgW26K7zds2izIitkLi7GLH1i2dEmXJbtkWvaKIHtXBseti7pY1a9dsjdkD3+/w/n//fPRnja9f5ZPfWW2HWaY7oYceXQf+ZmOP8Xr8GcWN3c6uPXo4YbpZdthzX51ybmJNdVfXncg3Ki7XVeqft3IuUN548emSmVhTPTb1aduNiXteuTTwHhFyE68AgeD3Xqeqfe1n/99SJvDH5/C/osa3SXofLRIIstGN0XYnkAgAQIqrBiYIJIc0w7u28YYAoUCApEkhQKa3DgLkCqMEqOlnigBNCptkIm8VutjTQNLGBZCZ6g7IdfEBqJntO69Jl8hsj7Ec5tcvcamGlmyrJowdX82spi1hzYlK67OqY2X41TA2gg466pyzLjvisBMuK+SiNeEVZyxdwUt8UWWCscarzFRd9x73b3XERZeccM7ZvMks1fPGcFfXs0eQnjDuRIUkEanjhzk+5v0FAAA=");
 
 export default TowerObservation;

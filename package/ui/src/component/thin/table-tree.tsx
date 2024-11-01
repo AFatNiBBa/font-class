@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-tree` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-tree?s=thin table-tree}
  * @preview ![table-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/table-tree.svg)
  */
-const TableTree: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 64 480 0 0-64c0-26.5-21.5-48-48-48L64 48zM16 176l0 240c0 26.5 21.5 48 48 48l384 0c26.5 0 48-21.5 48-48l0-240-384 0 0 72c0 13.3 10.7 24 24 24l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-9 0-17.3-3-24-8l0 64c0 13.3 10.7 24 24 24l112 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-112 0c-22.1 0-40-17.9-40-40l0-96 0-72-80 0zM0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM224 280c0-4.4 3.6-8 8-8l176 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-176 0c-4.4 0-8-3.6-8-8zm72 88l112 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-112 0c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const TableTree = createIcon("table-tree", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiwAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCQwsGAAE2AiQDCAQgBYMtBzEbRAXIjpQuZyQRPG+TNe/vJkAE1cVdKzhV70SL5rw1qVMh+vN/zef3/OgAv9GhVFglSGn0sp5PYKLDKNqEZgObaYPzzG0xhRkEuWIQOWTKXj7EfUi/hzzet0eJdG/6Cje3O41fdXIFSZYBiJYAmLl+9VKf/BQ/RXzVeJP4ymIExCxQCGTI0FWAKTKBrnIFcrngp2g09D+wIIAow29MIEcTXIEbADlISnneemznevNqqZ6vq5Yqm59oG3FHR1GPiPva39Wvtka4t92dfevxdIe7u0TUQtzbtxp3trujbSWua4+ku0IurKy7f3DE8/3r8eTAZzuluGfAM31q8dSg5zpna+/u4Izc1X5ttVKdmHV2r+daPve7r/Z9ZfrNI77j62yGn8yQff3diEuGX/wXyMGxMd3kL5dYoN3KEXaUyztGaH73DIJOnHNCq+ffa7XDAitaLK+0otUjl3ikVavKDMSq9+Pb5R2veMluzF9/AtRDIl0PBIKPp3175fYWU/5vWk3gl/f+XJ5GGj8l6Tk0lUCQDWkMsSWBRAAAUpzTK0EgOa8Et1pzlwChggBJWUWATBctBchVDBagpLuxApRVrJaJvJnQ1tYJkpqTIDPOBZBr63VQMsWnXlnbyCKRiiPqRzB+HkNzVxUjh40oJhXbhkEHF1EXJxduccC5MjBQ1trnuGPO2GuPg84QcsrS8Kyj5p3guR6oMNIwIxQmKa7br/y67J1y2kGbvV9msuJ9d4Bz5/EDRUmAOkouSUSqBKkw9CMFAA==");
 
 export default TableTree;

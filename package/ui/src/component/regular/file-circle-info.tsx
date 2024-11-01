@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-info` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-info?s=regular file-circle-info}
  * @preview ![file-circle-info](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-circle-info.svg)
  */
-const FileCircleInfo: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 464l220.5 0c12 18.4 27.4 34.5 45.3 47.3c-3.2 .5-6.4 .7-9.7 .7L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3l0 44.1c-17.2 4.9-33.4 12.3-48 21.8l0-60.5-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM432 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 96a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm-32 48c0 8.8 7.2 16 16 16c0 0 0 0 0 0l0 48s0 0 0 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l0-64c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const FileCircleInfo = createIcon("file-circle-info", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhgAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCMQsGAAE2AiQDCAQgBYMtBzcbOAXIhof/11ne9yX77ErLoJll4lCHTB0XFTtpsUpaT52qGeehAD6HICh7akCW50Jjd59XoIBvvfqmenFZsVaSinh3G7KFGR4DMYiI4PCF5kIT95DHT3GXGunh9APuDG8af+rtOpJaBiA6AWDBtk1rfNWIRsT3zfeJ761CQCwAlUCGDP0EmC0T6CdXIZcLGtFs0n9gRQBRx/ebQI46Lsc1gBwkeZ5P7Nt2YFlrn28ta8WSsihfHnFf0S5eGPlKnyweHfXqsDJuHbElXiaeGxxRxC09Hgi8xX3dUtzf/dCtMyI+HvO6q0a/Nv2j4paZn4x9I64e9+asT0sv9n1k6HO9Hh4y+v7uV8fVIZCZYShTlg/2fKBHROR2QFtf6fTK3y0/HP1B8xeG931mfo2nOncurlKkH3jqBX1ad+zQ2ne0B/bMtl6Hm27qsN5TGh2u0qFx7t9hiTShZejQlgkpDRuWSrR/Q/fuGxy82aEB48EKQ16nTsmdLyOuBwLB71f/OGlfx9n/tSkT+OOTf/+nyzW/SvPTK2gjgSAb3Rxtd5oPSA0gTnGZVuGDAsmlcvyq7TwgQCgQIKkrBMj01UmAXGGUADUDTBGgrrBJJvK2Qjd7CkjauQAyU10Oct28C2pm+zqq6xaZAgrqI7z/UpfW+JJN1YSx46uZVbeQRZ3i7OqsatgdfpkZjICdjjrnrEsccdgJl1TkRdaklzpjqUQs8UWVCcYarzJTtVzfbt/qiItc7IRzzvp1ZqnOh8NdJk8fAUHCtBPlkkSkTpfdHPNVRxtzuQE=");
 
 export default FileCircleInfo;

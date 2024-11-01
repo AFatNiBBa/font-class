@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-hiking` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-hiking?s=sharp-solid person-hiking}
  * @preview ![person-hiking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-hiking.svg)
  */
-const PersonHiking: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm-23.5 69.1l31.3 7.8 48 12 12 3 6.9 10.3L305.1 208l30.9 0 0-24 0-24 48 0 0 24 0 24s0 0 0 0l0 64s0 0 0 0l0 216 0 24-48 0 0-24 0-216-48 0-17.1 0-9.5-14.2-18.1-27.1L224.2 307l54.4 54.4 9.4 9.4 0 13.3 0 96 0 32-64 0 0-32 0-82.7-69.7-69.7-1.1-.3 .2-.7-3.3-3.3c-15.8-15.8-22.2-38.6-16.9-60.3l27.8-114.5 7.6-31.3zM117.3 334c3 4.2 6.4 8.2 10.1 11.9l41.9 41.9L136.7 512l-66.2 0 46.8-178zM144 96L96 288 0 272 48 96l96 0z" />
-    </Icon>
-);
+const PersonHiking = createIcon("person-hiking", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeAAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCNQsGAAE2AiQDCAQgBYMtBzQbOQXIjtFLJ0nKpAnAlENFlA3Z7P3Tqi7NosCW6nDdYxxBYbvGKILRCIMkWISsEF/7Zf12eX4YJox4zOUB3bFEcFw+Mu4UoM7E5fTHst/n/xVHENpYOCfO8zHWeQKBjrEwzrMwSxTzu72eo1InlyQzyS3JPv52H3+7QM8h82lW1HN9haf8ofkS6DSKswEg0wBg76Krhffb2Y58+X+CvGmCgOwBlgg0aDBHgE1mAnMsNHQWgg/Z+Xf/gRoBZBB5cgEdBuEKbgE6UCzd4tqhnIbV1dIbj1ND1+PuxtwOvBJ9K/ZOUHdMbEyO+AahQgwR2hCAGx25yagar5SfJEq3dGzWwkSvGKQOe7DYJ8HdF31LpJscfX3dfGmv9IkR+cDjwfeIr7NfvXtSq4cOrarm8Kv+Juu+PbRgQLgAAdIxDewC7/Mrt0ifuUkQryNmXOBqnFZO61JzCFi1/zJ4g2MbWzU1Vwm/plLKa9D3tHfl4DF30l4YBwSC2ePif9q+4v8OwwT4fPnzu/7A/3s5Xg9gmAkI2tpOsmEEAcsLIFTZSyS+CoGywULeddwlAoSCAMVGEaAJ5kGATkkiwIAwOQQYpHQxk+5E+Bi5ZSYuNmRmuY7ILHw8klkV+xC28YnZBNUGpP4DzFA7wjWDdEZqui7UjzmXxqqUqbdIbxvj9/qaBCxl1ppVu82YtmD3wG9qie2xonZF1vghLUOqdFohfVx8NvRSeNMuC7ruvJ8i+n1vvL3r5gmwmIjCdSnFhJSrxbpS5hc+Zw==");
 
 export default PersonHiking;

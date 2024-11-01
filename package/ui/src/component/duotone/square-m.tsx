@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-m` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-m?s=duotone square-m}
  * @preview ![square-m](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-m.svg)
  */
-const SquareM: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm96 56c0-10.4 6.7-19.6 16.6-22.8c2.4-.8 4.9-1.2 7.4-1.2c7.6 0 14.9 3.6 19.5 9.9c28.2 39 56.4 78 84.5 117.1c28.2-39 56.4-78 84.5-117.1c4.6-6.4 11.9-10 19.5-9.9c2.5 0 4.9 .4 7.4 1.2c9.9 3.2 16.6 12.4 16.6 22.8l0 208c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-133.8c-20.2 27.9-40.4 55.9-60.5 83.8c-4.5 6.2-11.7 10-19.5 9.9s-14.9-3.7-19.5-9.9c-20.2-27.9-40.4-55.9-60.5-83.8L144 360c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-208z" />
-        <path d="M112.6 129.2c9.9-3.2 20.7 .3 26.8 8.8L224 255l84.5-117.1c6.1-8.4 16.9-12 26.8-8.8s16.6 12.4 16.6 22.8l0 208c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-133.8-60.5 83.8c-4.5 6.2-11.7 9.9-19.5 9.9s-14.9-3.7-19.5-9.9L144 226.2 144 360c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-208c0-10.4 6.7-19.6 16.6-22.8z" />
-    </Icon>
-);
+const SquareM = createIcon("square-m", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABjAAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCGwsIAAE2AiQDCgQgBYMtB0wbOQXIjsR0e4M8iiTNl3ieGmvv7+4dps07JNXQ8BIZIiWZxE4JNzSGTMYiu++rZ/cAz8GMRGdQCjK6SPpKX/YRg/FOnaoZy0LB4HPcx6JczgOSjXN0zPMK9LwgoY5NrUiFijXE7s52mIN2KC1phITjYsfnAi07wiDkKJ/sHeCe/gcwvzAyCBQDFQAZBwAcX6cl4PozfWb0TroE8oV4EMgJYBGhomIWgT2CYJZoETRN6DFJAnokSRwIkC7o3RV00cENuAPQQBGlibbGDipyamImhZTz3vUyKCvmhikj0IfNtjFReiaVp/UzST62YCAwgc057tmq0Y7zgYlA8077dqq06bBrmNGJzKhM6N1E3kVzeQN16MKO6x+7DVvta+5/t3xX+Q7NB38X09sRzl38+x+foHeaojeMkHPUDJ92B6dhuAp+Av5QfOSDylpaqxFYjZByKe8t2sR/Lqr2fM7P7deoinxLETJZj6pqzY8MX4Yg9D19Gy/SCPmvqMIA31c//4Kf/v9M12wf0K+AUJclF+TnGgC5BPx+SSerXKMYBNUJBvipw95AIAYRUHQNCqhmaCLQDFpCoGOeLwJdg84J0pQQ0woyKIbdgmrDAGimXYCOPU9W13QEtROVRvz1pcVJNHYb93Tz4EG8W0qSJvFuPZhPGw6ddswRBlGpSaN2FcrVaBdMqwS3Q4O4ER3rizhPbjxwQfhyc61lCqtVm5q2sr5JMH7edNA5nu0Iu2GAlQtLVVJI0Hy7pmuDq/7q2oXyUgEAAA==");
 
 export default SquareM;

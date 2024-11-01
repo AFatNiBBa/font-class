@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-board` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-board?s=sharp-regular chess-board}
  * @preview ![chess-board](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/chess-board.svg)
  */
-const ChessBoard: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 80l0 352 352 0 0-352L48 80zM0 32l48 0 352 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32zM128 96l0 64 64 0 0-64 64 0 0 64 64 0 0-64 64 0 0 64-64 0 0 64 64 0 0 64-64 0 0 64 64 0 0 64-64 0 0-64-64 0 0 64-64 0 0-64-64 0 0 64-64 0 0-64 64 0 0-64-64 0 0-64 64 0 0-64-64 0 0-64 64 0zm64 128l64 0 0-64-64 0 0 64zm0 64l0-64-64 0 0 64 64 0zm64 0l-64 0 0 64 64 0 0-64zm0 0l64 0 0-64-64 0 0 64z" />
-    </Icon>
-);
+const ChessBoard = createIcon("chess-board", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABewAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCWQsGAAE2AiQDCAQgBYMtBzIbWwXIjsQ4JvGLKEzi4fu18s993bPQHYYOESlgcgSS0EWuTViNC/rYrdjUl19PhbzP/+We38KjA/x+4mff7MamufEq8DmfJxBoNDUfCywLLNMELI22vTlrqIfGhcYJ8ngTD9VIr9JvPCgfGv/0dYeklgGILgBYsnXjBvX2aI/41fhA/LIOAbEEVAIZMgwQYL5MYIBchVwuaI9Gw/wHVgQQTXC9BHK04gGeAXKQNOd5a9c1rXhxWeuYbylrxc6UpY6RRYeFZdFRpBBFh4gsYrNQRkQZQsKKAIsoIGVEubksSu9yi51YhU1pefPQti5t//l95LdJZ/dBpemNyZPrk+0zWX9YB9cXLcaiCXfR9VfGL24I54NA8GfEsbd7O8//v6VM4O/XqV9Roz3qqQ0tEgiy8Y3xdkUdoi4AACmuGBp1BJL7muFdO3guQCgQIGlSCJDpr4sAucI4AWoGmSFAk8JGmchbhR529yDp4DzIzHQV5Hp4B2rm+1Y16REZUQokJfwTpq4cIyvWVVMmTq7mVptNrUhnXFyeV502Rl+xQ2P4XkecdcYlhx1y3KURdcGGxmWnrdwjV/iiyhQTTVaZq7rdeb59i8MuuOi4s87kVeap3k9Gu7I/eQy3EzBOdSRJRCoPHjt88eKEbxYA");
 
 export default ChessBoard;

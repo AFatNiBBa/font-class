@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `leaf-maple` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leaf-maple?s=sharp-regular leaf-maple}
  * @preview ![leaf-maple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/leaf-maple.svg)
  */
-const LeafMaple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 144l16.5-57.6L480 32 425.6 47.5 368 64 354.8 42.8 328 0 295.7 38.8l-7.1 8.5-37.5 45-2.5 3L248 96l-.1-.5L240 48l-18.3 4.6-28.4 7.1L176 64 159.6 44.9 128 8 96.4 44.9 80 64 50.9 61.1 0 56l12.9 49.5L48 240 35.3 252.7 0 288l43.6 24.2 78.5 43.6-104 104-17 17 33.9 33.9 17-17 104-104 43.6 78.5L224 512l35.3-35.3L272 464l134.5 35.1L456 512l-5.1-50.9L448 432l19.1-16.4L504 384l-36.9-31.6L448 336l4.3-17.3 7.1-28.4L464 272l-47.5-7.9-.5-.1 .7-.6 3-2.5 45-37.5 8.5-7.1L512 184l-42.8-26.8L448 144zM191.4 354.5L313.9 232.1l17-17-33.9-33.9-17 17L157.5 320.6 78.9 276.9l3-3 19.4-19.4-6.9-26.6L63.9 110.6l11.4 1.1 24.9 2.5 16.3-19L128 81.8l11.6 13.5 19.3 22.5 28.8-7.2 13.6-3.4L210 160l47.1 0 27.7-33.3 37.6-45.1 4.9 7.8 19.1 30.6 34.7-9.9 28.9-8.3-8.3 28.9-9.9 34.7 30.6 19.1 7.8 4.9-45.1 37.6L352 254.9l0 47.1 52.8 8.8-3.4 13.6-7.2 28.8 22.5 19.3L430.2 384l-13.5 11.6-19 16.3 2.5 24.9 1.1 11.4L284.1 417.6l-26.6-6.9-19.4 19.4-3 3-43.6-78.5z" />
-    </Icon>
-);
+const LeafMaple = createIcon("leaf-maple", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABqQAAAKqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDdwsGAAE2AiQDCAQgBYMtBzEb+AXInoWxm6MSEWel+ljIawwjHp63++rc92sA1wBmKkQzMaCFo95sIwBpD867UCFEMqRtjyca3h9Q4IGG0GQCOF6FvE9c8/ytyqNFX+l70RileR5R5xMY4G42T+CNn3c+0wnYbLNxszBYwXpJiITJJn377fHrClk8j1NKkC6nz3BSfBW/qOMYSYkCgKgcAAbPnDremy/jy4hPix8SnxqLgBgcyAUKiNQ3BP2uDdSXyZHJBF9GcfHxH5gTQJTUwCSW0ZNf4DdABpKUZVu3HF0hm7E2lF05nbo2jXtrNDQqkrkY4PFoKHK9Vk3i5YNhaJBGILMofVqubVSkH0Evl5qMEfNkW0LUskLHK52Z02aOaFcZABkaMiQtizmkgsilZZ8YHQcsG+q4rLHke+Osh8VwEiwyhIjoaiSRkU73tcrXfvPZis+87limvfw7C13xnmv+t9I8VcFB1X2g4G//+tff3tHMW02O+0wTj41va+VKVKG+pe14ezXxmRNNlDdEOx1NNFFHnawz2A8Cjb1vh42uGadoD5y0dvceE9pq8oFrNNjmqsOSG15o4QPvOqajO8YZoYPWPrTPaZ/b6n3ldDRKP+ss8alPdVRbWdsauKCLJtqMBwLB+qJu8df8SosJfP1s8isqfkNI11BaAkGh3a/MSxgkAgCQYkeaJAyBpEhS/FreBQFCWQRISiorQEE9lQXIlNVWgBIa6i5ASWVNVRBZGaG6+Sol5W2WCnrYL2Wquy+V0M+HlZKqBznHnRnq/GIWGmGB4cfyzh065X3yx77LnbZW3e+bd6da7eC51rhohY022Ga5ZVbbZpgtxte3W29EhA33RbnOOugk10eeHn0PzaD0FlvZ8r38IX3l7+db2RGvbg3vA3W7NIAkLWdT2XV38Yr26xdvWrcc");
 
 export default LeafMaple;

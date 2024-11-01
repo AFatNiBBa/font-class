@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-t` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-t?s=regular circle-t}
  * @preview ![circle-t](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-t.svg)
  */
-const CircleT: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM152 144c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0 0 168c0 13.3 10.7 24 24 24s24-10.7 24-24l0-168 80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-104 0-104 0z" />
-    </Icon>
-);
+const CircleT = createIcon("circle-t", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbwAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBYgsGAAE2AiQDCAQgBYMtBy8b4QTIhofv1/o893XPAmAvAINC1BxFQPZXJKvEzsQ1zz/t6QGL/FGisfRBCrDr/AUGONu9r8AGFAU20wnY3jZMsFGGpyEhQRLReI5be8jjrbimRLqfvsbV9qHxp6bOk5QyAFEHAGMWzZvh/YqoiPiq/ArxlWkIiDGgEMiQoYUAw2UCLeQK5HJBRZTL9B9YEEBUIo+WQI4S5mMFIAdJlufNmzeqXqqZL6xeqrbs4pCIN/q84HTv5we/Xu3C0Df7vhhn+r007K3q6bdZEd+N+yjOjP1w5rcLf57+9ej3nR7zwYxvFix92OR+h+ohgPakeUT1OO9Bx2ptn6vz3N9tvt74tfLVIX/yx/vPDxr0/Pt//DnExGj9+wmucX1Yi3HjWgy7fm0Cjqctm3bNadhwzmxPdVbRp3i8xGYgEPzzy5HyqtrD/6tSPYHf3/z3f/VXVH4/Sc+higSCrHu5u+UJJAIAkOKgtgkCyXQZudYa7ggQqiFAUkk1ATLN1REgV003AUpaGSBAJdXMk4m8qtDAikEkNewhMgOdIHINvESUDPeZU0mDyCJLjAvxXZc2EYEJm4o+PXsXQ4tlTKVg4ct8WLGtdz6Ya11g1Ua77LTfButtsd/ge83wD9hhoodN8EWFPnrqrTBUcZw9715og7322WKXnbxkmOK+3dlBv7sLWIkw9hVIEpGqfMAxeuwHAAAA");
 
 export default CircleT;

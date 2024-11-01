@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `meat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meat?s=sharp-solid meat}
  * @preview ![meat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/meat.svg)
  */
-const Meat: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M243.6 19.6C283.7-20.4 371.9 2.8 440.5 71.5s91.9 156.8 51.8 196.9l-40.5 40.5C403.9 357 338.7 384 270.8 384l-69.2 0-26.4 26.4C185.6 421.1 192 435.8 192 452c0 33.1-26.9 60-60 60s-60-26.9-60-60l0-12-12 0c-33.1 0-60-26.9-60-60s26.9-60 60-60c16.2 0 30.9 6.4 41.7 16.8L128 310.5l0-69.2c0-67.9 27-133 75-181l40.7-40.7zm64 184.8c49.6 49.6 113.3 66.4 142.2 37.4s12.2-92.6-37.4-142.2S299.1 33.2 270.2 62.2s-12.2 92.6 37.4 142.2zm36.3-36.3c-15.3-15.3-20.4-34.9-11.5-43.8s28.5-3.7 43.8 11.5s20.4 34.9 11.5 43.8s-28.5 3.7-43.8-11.5z" />
-    </Icon>
-);
+const Meat = createIcon("meat", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABegAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCBfgsGAAE2AiQDCAQgBYMtBysb+QTIjtRO+YYwiofn9f77tU/ylLEytj9ZGSxZSu1NM/P+qVPPcx4K4BsFbSycixdIaM7zCAQw1qtN36ARqmkFrLpNR4dUJL4SEhQRHZ90fN0gj5eyC1SRbkgf4zLZVfyijQtI6jIA0RgAk1cune/1H+KHiI8qzxAfmYuAmAxKgQyfaC/AOJlAe7kSuVzwQ1Qq/B9YEkBU08cmkKMK27AbkIMky/MRzZrVq2qQrygvKdY+ND3incVfdL6j17h4edTzRRG94oY21/e6v9u9fR5sG1FEfulNfR/qeU/3vhFx7sDHJk5c/srwiGf6PtTx1gmvjni21/0dbhk/8dqWEde2uq7FNaI2v7ql/3yXBxs/+Fvnj33sn4c+wJnLhn3X96eY+uXPQ6d7wJ+1tZxzDrX11XcOdGKjG8wwdEL/YRdPfG75aVy6bcb19y03Im0Nfakv/VYcf/LJl+D2Xbn9TdwPBILLJzRrtLHRuP9q6yXw04t//EY/I5XXU5EeRK0EgqxfpZ91CZX/UyEAAClO6JIgkKyT0b3Wd60AoUCApFohQKadxgLkCn0FqNLRcAGqFZbKRF4nNLe+g6S+wyAzwpkg19xToMo473nVmkcWZ0SUEL+82Bkemr5WDh4wqBxTTmNGhg5W52PLba7XCa71xlE7HHTAMdtts9sxhxwxPzxuvxkreLovKg02wCClMcrj7PHwCtsdcdRuBx1oS8Yq71u9nFh394aYKOoQkSQRKX/AAAAA");
 
 export default Meat;

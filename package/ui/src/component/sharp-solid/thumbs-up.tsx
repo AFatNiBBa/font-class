@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `thumbs-up` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thumbs-up?s=sharp-solid thumbs-up}
  * @preview ![thumbs-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/thumbs-up.svg)
  */
-const ThumbsUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 67.7L240 32l96 0 0 35.7c0 38.1-9 75.1-25.8 108.3L464 176l48 0 0 96-16 0 0 80-24 0 0 72-24 0 0 56-48 0-120 0-14.5 0-12.1-8.1-72-48L160 409.7l0-25.7 0-64 0-96 0-23.1 18-14.4 7.9-6.4c34.2-27.3 54-68.7 54-112.4zM128 192l0 288L0 480 0 192l128 0z" />
-    </Icon>
-);
+const ThumbsUp = createIcon("thumbs-up", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABWgAAAHqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBPAsGAAE2AiQDCAQgBYMtBzAbvATIHge5SetKHNxk0VvvEMWHiCiYC2cvKTJLtBWSFZElFO4rXIVhIcsKSFVnYVxtJyd4J/pBNyjET+2jG93gTFIuSyPIeLHIn/5+nv/zTx/wGX20KCxtLO1cnk9gYrt54kSizst0AjbrpiNFKbcledFLGrYb1jbQ5rW5oQ/1tN7jdnvS/DLBE2VAAwAZDgDsOD7uwteXfEn+uyPvHAIC2QEwHaJBg8kQbMYUTMYyHWi1wpd0XfwPnA4CpC/wqAVatNgFHACgBaVaVmjAILaYNZVfF8xHBiHkyvJBgyADMTgF8hzL3PBAe8blxaTnOVINQ4BMFJp6w3t/Zszz7zx4ySssUnefLT9BZkCpQSkhcOuVfct0qRWsUNC58vzhw4ycp+l0Z7o7IAhrvpeSbv7ffxAD4NvL/6P/irovpXror0BoFneLLRQoAgCoXDEVBGUTBpzqYI8ExEAElL4GCmhMIoOgNdAiCPqYKgpBXwMdxpSWDzHa4gRlsFOgsdY1aI32AvrY7Nvoa3QaGREiID5xsTULVZfRCl+AUrTNDFIZWJlP0zE3/yp1nFgLW44dubBpw64Lg5zp2pcO1Ty46otIkE8ASaHr8nX1lE1nzu06dlQXSaP3ksOVP9oJkYGoK4VKkeJrXD/3njsJ");
 
 export default ThumbsUp;

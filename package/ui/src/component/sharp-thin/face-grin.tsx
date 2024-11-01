@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin?s=sharp-thin face-grin}
  * @preview ![face-grin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/face-grin.svg)
  */
-const FaceGrin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256.3 91.8c-48.2 0-94.1-6.9-135-19.3c23.3 51.6 75 87.5 135 87.5s111.7-35.8 135-87.5c-40.9 12.4-86.7 19.3-135 19.3zm0-16c51.5 0 99.9-8.1 142-22.3c6.2-2.1 12.3-4.3 18.2-6.7c-1.4 6.5-3.3 12.9-5.4 19.2c-22.5 64.1-83.3 110-154.8 110s-132.3-45.9-154.8-110c-2.2-6.2-4-12.6-5.4-19.2c5.9 2.4 12 4.6 18.2 6.7c42.1 14.2 90.5 22.3 142 22.3zM160.4 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm176-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const FaceGrin = createIcon("face-grin", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiwAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCKwsGAAE2AiQDCAQgBYMtBzAbKwXIHoNts3kkISSHNch7EJIccsTD8/vhzr3/TczyljQZIhIKicYq2aRZqFRK9LRV3Ov3/9lf3TezEN7abFAVQhWRfyjb5mxf5Px0mv+bPe95FFjfKJSxcWkgCySa83kCifXyTfW87rYd2JmegJ21syP/RWSTkCLJbvDDZoASR86RJh/kM+6ED40vRgyTqgoA0Q0Atp/NSMK5QC8jnuod4rGDICC2A6YRKlQYR2CFWGCclGlQFMFLqmv6D2QIIBoRd09Q0IwNcAlQQGosUoZjygMtLYrSylLZ9qYVKjbdKTaPPCpc3/fsup7547aR9KB44+Cbx1aO0tZOiqujb4o3Dr+EXWR9h54nPitcP/Iafpmd9Ru/4oHXXsCRy30mbR2cY1pr3Xc/8tb/0H1WZ0b7ISt7DkantWZ1cvB6lfmi2uLfzHP1M36c2fYe/rfeKWSs9f+9bcZO/T9FtTDy6GJnxMXWiLzdsOOIuiAWHzo+3ufv3jY6H7FQO0wyNWhnqzYyUpo6spqt/uCQJEnJRZN3QaVTeGGypppwtR0gEBzbnN9Torryr1lRBHh9+OMLfoTq85QP0SxBUM3VcwoTJAEAyOhmnhBI513lu7a7K0BoRYDUqFWAyhg1BIpWswg0mOSFQKNWJ4lFkUfoV1RAancBVJb1gKLfFmiw4k5r1B+V9NGyQ3/+EqI1FNXGbs6u7M9DW2YEinT1AF4Wbbs5ZoceVGvRrFOVSnUJb5B2SWaXJtEzOMoXMTfOXDF/vO3dd2er0q5DnRbNvkkAPq/a6p5n20ERiZjzLCmJlH/bmlPNRl0z");
 
 export default FaceGrin;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `road-spikes` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-spikes?s=solid road-spikes}
  * @preview ![road-spikes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/road-spikes.svg)
  */
-const RoadSpikes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 116.8c0-15.8 20.5-22 29.3-8.9L192 256l0-139.2c0-15.8 20.5-22 29.3-8.9L320 256l0-139.2c0-15.8 20.5-22 29.3-8.9L448 256l0-139.2c0-15.8 20.5-22 29.3-8.9L606.8 302.2c14.2 21.3-1.1 49.7-26.6 49.7L512 352l-64 0-64 0-64 0-64 0-64 0L64 352l0-235.2zM32 384l576 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32z" />
-    </Icon>
-);
+const RoadSpikes = createIcon("road-spikes", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABZQAAAHiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBRQsGAAE2AiQDCAQgBYMtBzIbxwTIjtRG+UVWEg/fr72e+3ZD/ydF3DKjA0JdF1tX1So2IlPbqSSo2vepU89zHgrgcwiCNhZu2zgmhuY8r0ABa8O3VXteK9YKVDGuuaulThL2XSxlSR4/e/ycII/f2UUVpGfpI+7UN43P2rpIUpMBiCYAmLJq2QKvGqIh4sN/xAfzEBBTQCGQIUMHAcbLBDrIFcjlgob4/x//gQUBRCV+WgI5cszEIkAOkpTnvVuVK+ryleWK0ronrSOetFwRNNg6HHzW4mH3Um2sbtyo8Y2Wj5wdH1BqFNdbPY5zrZ+Uu9Y3qf/S5ePOjybNLd/n+Z6tD9zQCrH73Gt375wZPP3V586lyWw1unq1UVImk98BgaD3thY3NzUe/7W6nMCnl3/gznQ21aNaAkHW/39/69NZADoAJ8VJXY0PCiQTJfyqtR4LEEoIkFQqCZBpr4kAuZJ+AlToZIQAlUqWyUReI7SwoYOk1hGQGekUyLXwAlQY741dqUVkrkQ6AvmTi5upoRnbiiEDBxdji2VKKO/A83pcsc33PhlbfeionQ456LgdttvjuEKOWuCdcMBMC57hiwpDDDRYYaziuHjev9IORx2zxyEHyybjFPfV3k7aw31IShhzqESSiFR+0fEBxw7v2bfjGA==");
 
 export default RoadSpikes;

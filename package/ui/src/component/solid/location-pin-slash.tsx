@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-pin-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-pin-slash?s=solid location-pin-slash}
  * @preview ![location-pin-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/location-pin-slash.svg)
  */
-const LocationPinSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L459 334.5c30-51.6 53-103.7 53-142.5C512 86 426 0 320 0C249.2 0 187.3 38.4 154 95.4L38.8 5.1zM343.7 499.2c16.2-20.2 39-49.6 62.5-83.1L128.1 196.9c4.2 88.2 117.8 239.3 168.2 302.2c12.3 15.3 35.1 15.3 47.4 0z" />
-    </Icon>
-);
+const LocationPinSlash = createIcon("location-pin-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABXgAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBHQsGAAE2AiQDCAQgBYMtBzkbpgTILgacMjs1IiFN8l6HeDquz/QSI3T6RlCsoXv3EABUQKTjgMdHF42tYyljTMl1Kqvwh/3Ze/trQt1HGnhwG9oJbDCSFUF110vXAbrg/xogQDd75ebP/+X0hm06wG90eGZ7tCau52NsTiCxXr5B86LAEsX2ppk1SRldyUST9PRmx9cFyvhNVKjID3mCN+VL44chFaSmAkB0AgCnN77usBEWPP1fIZ6cAQFxCoBJiAIFRiE4QAiMYpsESqXgMx/+AykQQNQES1aJD64CBwCUIGVZDndwqrbyml7b/DAq7enLxpGB/v4AnJsYjrvzq+udnfWFgPgpUwwOri6cbi52ttQPMJOdkz/pk4QTU5v/Xfz3PMefMVUJj9+/ydHb398bvcYn+nKCDd9NJtkTHPzDL76ln8//BASC1/sb75ECt1+NnARf/f2jJ/9fVuckGiUIioX/C8KyxIDuFdcW4zUwUAOk2cqNd231VoDQjACp1ixAYYQQglKzeQgq4+whqDW7QIiySegV3kFq9QwUthSCUq8lUDmwX6r1RriN+Ojiry3NqlHLMcqoM1Au1LSrSZ7Ap21XatlTFPCUEs5CgkwZ8sSLkyxPMTncq/nSWS3a4ocoRjoGFBfU9uDxdIB4OXIly5SRD3FFnc8oFNiLlRCyCOuatpREdvtbXJuVHEu5adG5SQAAAA==");
 
 export default LocationPinSlash;

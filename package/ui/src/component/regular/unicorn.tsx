@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `unicorn` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/unicorn?s=regular unicorn}
  * @preview ![unicorn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/unicorn.svg)
  */
-const Unicorn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M426.8 .6c1.7-.4 3.4-.6 5.2-.6l8 0 32 0 .5 0c2.5 0 5 .1 7.5 .3l0-.3 56 0c13.3 0 24 10.7 24 24c0 8.5-4.4 16-11.1 20.3c3.5 6.1 6.3 12.7 8.3 19.7l73.5 0c5.1 0 9.3 4.2 9.3 9.3c0 4-2.6 7.6-6.4 8.8l-69.8 23.3 5.6 39.4c5.2 36.7-15.3 72.2-49.7 86c-18.3 7.3-38 7.5-55.8 1.5l0 7.8 0 .7 0 1.6c0 33.2-12.2 62.9-32 85.5L432 464c0 26.5-21.5 48-48 48l-48 0c-26.5 0-48-21.5-48-48l0-99.5-51.8-15.1c-1 3.8-2.2 7.5-3.6 11.2l-12.1 32.3c-.6 1.6-.7 3.3-.2 5l14.8 53.3c8.5 30.6-14.5 60.8-46.2 60.8l-49.8 0c-21.6 0-40.5-14.4-46.2-35.2L81.6 436.4c-8.6-31-7.2-63.9 4.1-94.1l8.2-21.7L72 265.9c-5.3-13.3-8-27.4-8-41.7c0-2.9 .1-5.7 .3-8.5C54.4 223 48 234.8 48 248l0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-64c0-47.3 37.3-85.9 84.1-87.9c20.3-29.1 54-48.1 92.1-48.1l22.6 0 33.1 0 61.3 0C309.8 51.5 362.6 6.1 426.8 .6zM416 239l0-55c0-10.2 6.4-19.3 16.1-22.6s20.3-.3 26.7 7.7l5.9 7.3c8.9 11.1 24.1 15.1 37.3 9.8c13.9-5.5 22.2-19.9 20-34.7l-9.9-69.2C509.3 62.6 492.4 48 472.5 48l-.5 0-32 0-4.6 0c-.6 .1-1.3 .2-2 .2c-50 3.1-90.5 41.6-96.6 90.8c-1.5 12-11.7 21-23.8 21l-81 0-33.1 0-22.6 0c-35.5 0-64.2 28.8-64.2 64.2c0 8.2 1.6 16.3 4.6 23.9l21.9 54.6c4.4 11.1 4.6 23.5 .4 34.7l-8.2 21.7c-7.7 20.6-8.7 43.1-2.8 64.4L139.1 464l49.8 0-14.8-53.3c-3.2-11.4-2.6-23.6 1.5-34.6l12.1-32.3c2.8-7.5 4.3-15.4 4.3-23.5c0-.4 0-.9 0-1.3c-.2-7.6 3.3-14.9 9.4-19.5s14-6.1 21.3-4l88 25.7c2.1 .6 4.2 1.1 6.3 1.6c11.1 2.3 19 12.1 19 23.5L336 464l48 0 0-145.8c0-6.5 2.6-12.7 7.3-17.2c15.1-14.8 24.7-35.3 24.7-58.8c0-.6 0-1.2 0-1.7c0-.5 0-1 0-1.5zM464 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Unicorn = createIcon("unicorn", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABugAAAMHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDagsGAAE2AiQDCAQgBYMtBy4b6AXIjsJxb4tJKOXkUa7gHz4v/9yXTJGpkfbb2AEs+IUliJ0gAmLM/VzzonhocySJNkgciciRmngkVfNEovI/N9PG8yjAbw2CUMb81tIsGsvCbg6Be34C27cFHPDZgcqxn7opHlVkT3YMESmuK6Hs+Hq8e3YDduC3luOBOTOXgGXjsP6JNRsMTwiIQHmo1dvu0IpjDySd0sX/u6FHWgABNALgErCABRIIQE0WgQQ2F9hswgP9/4/rP9CFAKAoeM4AsIEH3AAewo54l62wPWbH3+sJtDunPM6QEy9wkTiS1DbFro5YE+mVtDI9oqMSlRmTUXBjYUR0WxKdRqwu6GhzVFqc1DjAJTGaTgohG8TCy1FJyisTr/LK0gytjkENN1Ot5ZfYUeVoE683v8bBJh2FTqLTIyOVWWRLXGelRaU5jrPQ2VV0awIpT3tjfSNmemQ5ZcbEKCMxUV6lKis+XumaoRmRaietidwUi4XS0Y7kGTrtLnc/YXVEWlR6dOr2kO1vUy4NvsT2IyGWX4qMMVBVu0o6rWnxZcbGfNvNojRR4+ds1oVtfoiYv/lYz3fKlqXs72VrgDo8lauY0BO6vF8fW17I/b42W7kSNFFnE6ph+5VdV+Rqu8gh1vFBucy66N6Xa9WynbdV0OngZ593dOZhl27RiUaS7rYFq5DU/nRrowr9dlVvQ0OdwOZbtF2ZxNHpWyjvCfX2jlI9g9Jz03d2ieHWIjRZWStx9o8sBJEy1w+Cgh50LgDoufunK3/ZDa75Ne41ADw68P4b4+3/x8x0sx3wYwAIVvt/ST2D0wGqWABITGCyVOeDBIxrWBAGSItm4mCB4cMBS7wQsDlKgEeSSiqJHagDCvsjEXpZYAQYB5bKpoAtwk7wqOls7CMiYGW3npv6t2XYWNON9rmD0mXd6u5jYxoJqx7bNVzarU9uU8XKVQYbY7SJBhlomImKHa9VNskojT2mkS9ylVNaWa7q3PDgHTurZLwJhtlGfBc1uO+HRU32FxcrgQHJ8g4ZBgr6Tjoc9ks9AAAA");
 
 export default Unicorn;

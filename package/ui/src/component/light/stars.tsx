@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stars` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stars?s=light stars}
  * @preview ![stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/stars.svg)
  */
-const Stars: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 16l0 64 64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0 0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l64 0 0-64c0-8.8 7.2-16 16-16s16 7.2 16 16zM152.8 265.5c-4.7 9.5-13.7 16-24.1 17.5L41.2 295.8l63.4 61.9c7.5 7.3 11 17.9 9.2 28.3l-15 87.3L177 432.1c9.3-4.9 20.5-4.9 29.8 0L285 473.3l-15-87.3c-1.8-10.4 1.7-20.9 9.2-28.3l63.4-61.9-87.5-12.7c-10.4-1.5-19.4-8.1-24.1-17.5l-39.1-79.4-39.1 79.4zm17.6-108.1c8.8-17.9 34.3-17.9 43.1 0l46.3 94 103.5 15.1c19.7 2.9 27.5 27 13.3 40.9l-74.9 73.2 17.7 103.3c3.4 19.6-17.2 34.6-34.8 25.3l-92.6-48.8L99.3 509.2c-17.6 9.3-38.2-5.7-34.8-25.3L82.2 380.6 7.2 307.4C-7 293.5 .9 269.3 20.5 266.5l103.5-15.1 46.3-94zM448 160c8.8 0 16 7.2 16 16l0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l32 0 0-32c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const Stars = createIcon("stars", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABkAAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCcQsGAAE2AiQDCAQgBYMtBywbbQXIhofv13o793XPBIA6zKjyXRySMAgLrJZ1aiUgzM9fzu+uYW3AG+ShvH9tmzrGwDE2JhBoUeFcIlmYJYotbrsZYt5oIyR2kMfL0UuJdDW9j9PFh8Y3WjhGkmcAoj4Axi9dONsbH8aHEe9XnhLvm4mAmAAKgQwZWgswSibQWq5ALhd8GJWK+A8sCCDKwhcnkKOM87gDyEGS53mHtj3a1yrVyZeYZTW3CrXiYpMLjWuGIIxLTSNqBuNys1oRAZPaRTywKObHRbJoaVxusjiWxKVmC5G2qUhctPRyrYjjEyBhHVpmC2PjC5PacLAFW2podrnQL12/NLG4Z36HW/Vvfdf+/S3vW3t/XOj3Yd26H2b8cfgf1i3RXefNv6p+Xlrbf263q7vE7G4+/9yg2tHu9n9G/T9XdZkrPrf+rqN1qXu092pb6vl41qhrM6arv0Xb6zeereoHOZ7duN62h8Yc10aN+nkFrEttkj6sWyieEhWKkt3HgUDw7YoPbqytN+q36rUS+PilH34rTqz8V3klSbdQXQJB1qvSy6pkgc9I8YKuOKID/qJAclwufNfaLgkQaiJAUlZTgEwr9QXI1dRTgJK2BgtQVtNCmchrCI2tbsiktv1kZogqMtfYY7JklLeCZY0jA1AleCn/D9NN6eKTZxX9+/QrRhSzBZUK5tjFwZHFZkO3I7KhO15hi732OGSzTbYX0JEdMDty2G5TlgST/VChvz76KYxQHC4/1C7pOBxwUKJpzfFpRiqut3RzZLl9d2xOQrkDpCWJSKUvCg==");
 
 export default Stars;

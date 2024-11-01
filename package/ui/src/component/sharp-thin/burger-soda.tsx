@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `burger-soda` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/burger-soda?s=sharp-thin burger-soda}
  * @preview ![burger-soda](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/burger-soda.svg)
  */
-const BurgerSoda: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M217.8 0L224 0l56 0 8 0 0 16-8 0-49.8 0-28 112L376 128l8 0 0 16-8 0L8 144l-8 0 0-16 8 0 177.8 0L216.2 6.1 217.8 0zM64 512L36 176l16.1 0L78.7 496 272 496l0 8.2c0 2.7 .3 5.3 .8 7.8L64 512zM304 303.8s32-104 160-104s160 104 160 104l0 32 16 0 0 16 0 64 0 16-16 0 0 72c0 4.4-3.6 8-8 8l-304 0c-4.4 0-8-3.6-8-8l0-72-16 0 0-16 0-64 0-16 16 0 0-32zm304 2.7c-.1-.4-.3-.8-.5-1.3c-1-2.4-2.5-6-4.7-10.4c-4.5-8.8-11.7-20.5-22.5-32.2C558.9 239.6 523 215.8 464 215.8s-94.9 23.7-116.2 46.9c-10.8 11.7-18 23.4-22.5 32.2c-2.2 4.4-3.8 7.9-4.7 10.4c-.2 .5-.4 .9-.5 1.3l0 29.3 288 0 0-29.3zM304 415.8l8 0 304 0 8 0 0-64-16 0-288 0-16 0 0 64zm16 16l0 64 288 0 0-64-288 0zm74-168a10 10 0 1 1 -20 0 10 10 0 1 1 20 0zm70-6a10 10 0 1 1 0-20 10 10 0 1 1 0 20zm90 6a10 10 0 1 1 -20 0 10 10 0 1 1 20 0z" />
-    </Icon>
-);
+const BurgerSoda = createIcon("burger-soda", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABoQAAAKsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDIgsGAAE2AiQDCAQgBYMtBzIbpAXIjsN0eyPDVSbNEZQ5fMTDP3rf/z5J7l0zyTPyJFWia7nFB1wJ3ZTzfytUhAf+mm/RSeOy7yscRtnYGyOtbcPjNdBNXFM/kp4esGyuUe3R+rSs8wkMK+xnkZQ2nw3sRXFn214FEQ2FXagcIYu/6VEhuZd8AVfCj8YPAi5BIk0BRBMATGksXODD+qiP+Pz/OcTnyhAQU0ApkCJFBwHGSwU6yJTIZIL6+F8W/4FxBBBVyXEJyFDgOfA+zNV7QrVZ1rrx0LKWRItKw2xJsTFfWeSFyPNFUdRkg3jL0mi9bMXyFUUsjyLEuZb50tuhiAfjIt6ZdSi9FbjntiomRB7iZosGcbtV9OpEX1By/XnD+ZWVt4P3s4/zr6Yf+u+6z/DPGc8jGgbWFXmZmzfQUmj90WDpjvxk8o7vlmdpJTfWxbOduz5tf/qd+GJw5PGBtjqziZqh7fd6Xt8YjuXClzse1/KeHKqL9zTRbpKP6GXpt798HXWo603v76TevevuUWqiicl+9Gyq6wZbp509/2Q5KAmEZj13/yad3huNFov/f5hNIkRHpY6DdtXUTJ6syeDJ/wsxuTSZcs4T+nPn9JSYUVH33uUacj8QCC4PbqLZePxfelMCvn/7+6xv5/+18lzyNNRIQJD2/z/HKuU5IGQVQDyJI7ruSCyQeIQBkm9t4DYKEHIESFTlAqTaayJAJtdPgIpORghQlVtIKrJaoYXVPZNoYD+TGuk0k2nhFaZivI/jVS0ihVw13Kn/GzPMHMMzhpVDBg4ux5abea0GGJW2f1x52tH7yKyuDxa1hb3s4RCb2cR2Do3oAyxIHWY3M/eoGUhIaYiBBiuNVd4uPTcsofEDHGT7upX7g4xTvh/p7ch+6z54Nglg6DcHki2RFBsOH9i6+cCAg3s3rQcAAA==");
 
 export default BurgerSoda;

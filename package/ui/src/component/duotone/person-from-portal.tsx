@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-from-portal` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-from-portal?s=duotone person-from-portal}
  * @preview ![person-from-portal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/person-from-portal.svg)
  */
-const PersonFromPortal: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256C0 397.4 35.8 512 80 512c25.3 0 47.8-37.5 62.5-96L128 416c-.5 0-1.1 0-1.6 0c-.6 0-1.1-.1-1.6-.1c-1.1-.1-2.1-.3-3.2-.5c-2.1-.4-4.1-1.1-6-1.9c-3.8-1.6-7.3-4-10.2-6.9s-5.2-6.3-6.9-10.2c-.8-1.9-1.4-3.9-1.9-6c-.2-1.1-.4-2.3-.5-3.5c0-.3 0-.6-.1-.8c0-.2 0-.4 0-.7c0-.4 0-.7 0-.7c0-.5 0-.7 0-.9c0-.3 0-.6 0-.9c0 0 0-.3 0-.7c0-.2 0-.4 0-.7c0-.2 0-.4 .1-.8c0-.3 .1-.6 .1-.9c0-.2 .1-.4 .1-.7c.1-.8 .2-1.2 .3-1.7c.5-2.2 1.1-4.2 1.9-6.1c1.6-3.8 4-7.3 6.9-10.2c5.8-5.8 13.8-9.4 22.6-9.4l26.2 0c3.8-29.6 5.8-62.1 5.8-96c0-18.3-.6-36.1-1.7-53.4c-1.7-1.2-3.4-2.5-4.9-4c-.8-.8-1.6-1.6-2.2-2.5s-1.3-1.7-1.9-2.6c-1.2-1.8-2.1-3.6-2.9-5.5s-1.4-3.9-1.8-5.9c-.2-1-.3-2-.4-3s-.1-2-.2-3c0-8.3 3.1-16.5 9.4-22.8C141 63.1 112.8 0 80 0C35.8 0 0 114.6 0 256z" />
-        <path d="M416 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM221.7 175.5c9.9-9.9 23.4-15.5 37.5-15.5c1.9 0 3.8 .1 5.6 .3L233.6 254c-9.3 28 1.7 58.8 26.8 74.5l86.2 53.9-25.4 88.8c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l28.7-100.4c5.9-20.6-2.6-42.6-20.7-53.9L334 299l30.9-82.4 5.1 12.3C385 264.7 419.9 288 458.7 288l21.3 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-21.3 0c-12.9 0-24.6-7.8-29.5-19.7l-6.3-15c-14.6-35.1-44.1-61.9-80.5-73.1l-48.7-15c-11.1-3.4-22.7-5.2-34.4-5.2c-31 0-60.8 12.3-82.7 34.3l-23.1 23.1c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l23.1-23.1zM187.2 352L128 352c-17.7 0-32 14.3-32 32s14.3 32 32 32l69.6 0c19 0 36.2-11.2 43.9-28.5L253 361.6l-9.5-6c-17.5-10.9-30.5-26.8-37.9-44.9L187.2 352z" />
-    </Icon>
-);
+const PersonFromPortal = createIcon("person-from-portal", true, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAABzAAAAL1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhECEBQsIAAE2AiQDCgQgBYMtB2AbNwYRlZqdyX4k2MZMHyo6SdAXUgwhDAZWQ+PwSfAP5fX9uVXpQfJA7UYitt9og5/3T6EOvjg4bhlpdSGBH6zBAfDH/dQf7R/wif+yjxa9KC2sPM88n8AE2hIHNBvtfCY7n4Ht4dzEL+YhwkL5HTh6aqfjA7PG3AcWxf8DqG+IZToYiloAABQCAABUadWsAZc/67PRff9x0H3qAwJQVQBSEGABCyQgAMpjEZCAQwrg4CD4bPx+8ll+PxAAqBAxZwkWYq/5CfiZAOAAYLDIcQLrRi+eL9Bp6fncXmuzdmZsj1mTuSN7V3zzVd48r7lWx67JbKHmWh65InJF9KroVloVtTKqoVopUqcynqd5GxFNUUddVzvjonS0bkm60z1ePucyw2THO2jOb+567tyI8TFPu+LjFaW9cQV60UKFUyKoWZfsaoobMpobjZrCvJUUkaIprkcj0atoxvO0qfPirrpTWPuDR6Jfxgezjjd/3jztFbL3u9T74302LXIHjhs30K2ecWXSD1HWJnWgR7duBV1xEtuagnZtr109saN8Qncqdmz4ahpJTajH2UGTkiSCZs8OUudFUnlqR0ZM/V+E/RgysiYwcM1skl3dM+1fzlgXvrcmj9/uYQab9+Vwmf6RDUTVCsOff50LBiEQBnBCmlYrLoU6GIFA5fsCCAnZsIjis4PiaF/MjA1JAwEKMxYhCQXOKVK9tDc5LKpWZEN/ABAgOHOz1PZOweV/K+IZAL6e/eEX+0Mi/osGsxcoggFAYAv8Be0NAAYEAAAAGI0kzUBnQIBlIBZeCmAl+rTkAjLJQri0ZIknZAAHl3zwkUQJ7eLuZljkFEVE0IGCIYAhYCnJBHCI4Bj4KM+tfCEiZGHdgFTjVzOX1FO82oQsTlFgt6UzwVcLVktcjrpPPeLRk2Q8He9Dv9wn/LUtPQ71kbD6LLI4RYHH3Zdux/PX27JtP1+nxPdJ93k83aMJRlLVfAsnlkAZ5brf8CK8CEToFYx8zjRz3UYUAA==");
 
 export default PersonFromPortal;

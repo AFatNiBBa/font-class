@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `venus-mars` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/venus-mars?s=thin venus-mars}
  * @preview ![venus-mars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/venus-mars.svg)
  */
-const VenusMars: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176 336a160 160 0 1 0 0-320 160 160 0 1 0 0 320zM352 176c0 94.5-74.5 171.6-168 175.8l0 64.2 80 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-80 0 0 72c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-72-80 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l80 0 0-64.2C74.5 347.6 0 270.5 0 176C0 78.8 78.8 0 176 0s176 78.8 176 176zM286.2 352.5c29 29.4 69.3 47.5 113.8 47.5c88.4 0 160-71.6 160-160s-71.6-160-160-160c-12.8 0-25.3 1.5-37.2 4.4c-2.4-5-5.1-9.8-7.9-14.5C369.3 66 384.4 64 400 64c45.7 0 87.4 17.4 118.7 46l94-94L488 16c-4.4 0-8-3.6-8-8s3.6-8 8-8L632 0c4.4 0 8 3.6 8 8l0 144c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-124.7-94 94c28.6 31.3 46 72.9 46 118.7c0 97.2-78.8 176-176 176c-50.5 0-96-21.3-128.1-55.4c4.9-2.5 9.7-5.3 14.3-8.2z" />
-    </Icon>
-);
+const VenusMars = createIcon("venus-mars", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjgAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCVQsGAAE2AiQDCAQgBYMtBzEbVgXIhof/14ne9yX7JHIIWlaYcSsQTRkLTCrw6tMVJ4KJa55/2jdg2RM8UuSicQNZ6yzzfAIDLMoEmrYNZxPFHc17YRBDvNDGPeTxt51qpPtShVu8D40fnO1KkiwDEO0AMG3NikXeaEYzovr/WaKyAAExHZQCGTKcJ8BEmcB5ciVyuaAZ//8v/gNLAoi64MYTyFHDVTgDyEGS5fm5Q0Y0aq3z1Y1aseaGCREvD3k8Lhv82PiXiuvHvjDwEZcOenTci401X0+NeGOlaMRdne/sVITAgru7RBRx7j1dGxHx7fS3Vn+34qs13yz7YtXKV1d9N+X1Nd9Ofm319T0nE/c3vlm0Zpmy2dg4YGW8uerrpZ+v/Ha5u1n3h9o99FO3anfl8SMDZjJr5az+/RPfzAGtLLHG42dibpPmnHyqpbbW61tTdC50a91o+6aaSW82Y27MbxfJzI4sc9oT1cyYEVUl8BlVNb5jx9GjV3WdFY1Nm1y0yb7VOm89xn+RgfATMWvztRZFpx07gUDwxn0Xv7il7cRfWzQS+P6lX/6SX/z/G+nS9BBaSCDIBv4/0MZ0KQhxALEUp3Wf+aJAcpFM8K6t3C1AKBAgqSsEyJyrnQC5wgABai4wSoC6wgqZyFsKnWyq2aSVY2xmtIvYXCdPszUTvR+t6xQZSGoApV0RZs9uA7P6lcMGDy3Hl5NZpQ5liu2eUK729z0tq/rhiXY74rCTdtlpn5Mt5rhFiVMOmT2HzfJDpWEGG6o0Xrm7cN9e3Yodd8K+cWN/LxOU50f6Oj3fuB8OJYHkcEuSRKTi9K7Dp04M+oEvAA==");
 
 export default VenusMars;

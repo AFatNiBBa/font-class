@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-circle-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-check?s=sharp-solid person-circle-check}
  * @preview ![person-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-circle-check.svg)
  */
-const PersonCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM91.4 128l17.5 0 102.2 0 17.5 0 9.4 14.8 66.4 104c-15.5 16.3-28 35.7-36.3 57l-2.3 1.4-33.8-53L232 480l0 32-64 0 0-32 0-128-16 0 0 128 0 32-64 0 0-32 0-227.8-33.8 53L.2 270.8 82 142.8 91.4 128zM288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm222.6-32L488 313.4l-11.3 11.3L416 385.4l-28.7-28.7L376 345.4 353.4 368l11.3 11.3 40 40L416 430.6l11.3-11.3 72-72L510.6 336z" />
-    </Icon>
-);
+const PersonCircleCheck = createIcon("person-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABfgAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCJAsGAAE2AiQDCAQgBYMtBzobLgXIjsQ4JvGLKEzi4csm+v7eSWOfzLAGAA5QxR23RDQ9cJdJmVr53h5ycep5zkMBfM5FOGhjLZAFlnTu8wpUrFcfm3vVcrFWUay1sx/8D8Jt0iflkwzbG0bZQxk/F3epkR5J3+OB/KHxr+7uImlZAIh2AJi3ZcMqH/8Rf0R813yD+M4KBMQ8kAUKFOglwEyFQC+ljFIp+COaTf4PzAQQdXjDBErUcRG3AEqQlGXZekTP7o1a63Jzo1bteGzIU4Oe6P7wwMcHP9ljY6NqdI5N8XS3TjE/hKgCo5W+Ym6sji3RddPtYyJemvFe455p74x6wW0jn5/6dnX39HdHvxhbhg8b3inWxvDoEkOjc8wqUtf1Pfo/2+7Z//r+8PfOPFCdvnHjdJUe67SmQ4e77zfviKM/tdPJP7K5stu0c5ue8Y9O1ll3q/s/NySTO3YYPLhDx5yHSAsFv/U9jPA53wXicw571xXPPWnJEu8CgeDTX/rY03bm/y0aCfz1rtWLmx+nuelZtJBAUIxsjrQzzQXGB5CnuKy/8UWB5KQSHmnlQQFChQBJXaVQ6KkdlCojoKaPSXvUVTYoRNlS6GQXhaSVc1CY7GYodfIa1Mz0VVbXKQrXYxyHefglLu6RRZvyuNFj8/Q8bWmsN1FxdUZeNodelpFhtNNhZ5x20SEHHXOxw85bVV5yymILXeSHsnFGGyubLm93H7dvdsh5Fxxzxum0zgz5fDrUZXv6MHISkI5XSRKROnqqOuqTjjzqGgMA");
 
 export default PersonCircleCheck;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bookmark-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bookmark-slash?s=duotone bookmark-slash}
  * @preview ![bookmark-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bookmark-slash.svg)
  */
-const BookmarkSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M128 48l0 27C256 175.4 384 275.7 512 376l0-328c0-26.5-21.5-48-48-48L176 0c-26.5 0-48 21.5-48 48zm0 148.8l0 290.8c0 13.4 10.9 24.3 24.3 24.3c5 0 9.9-1.5 14-4.4L320 400 473.7 507.6c4.1 2.9 9 4.4 14 4.4c9.9 0 18.4-5.9 22.2-14.3L128 196.8z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const BookmarkSlash = createIcon("bookmark-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABbwAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBNgsIAAE2AiQDCgQgBYMtB1gb4ATIvg03rq41IEGwYKldmBbSaHhIGydXPX7zQx+hFCLvFw9P+307d2beWzFPu0m1WdNSdpGQvGnSVCgJIg2vZCrff1pr78/uucQ5MamKmTWxRsUz6SqNRBMN9RJQlrYPL1WZNQDIE7MEWJvMgT5mnds5kUJgwGZ0ki25OHOjRC3z33P7H6DZbIaszM//NfXi+dEBfqNDi8LS1MLzzOdLsAmVRdsabGCzmeKsnZ0fkHw2SYJPMmxvGO2hJF9+jor0keMN/w9g/DXiiqQlAyC6AcDRTX8n3lryK8VPY4jPzkFAHAOmETIyxhHYJQiME02Dogh+sQb8ogYhgKjB186gRoVtcAKggCSkImrMPapKIw7xWsrx9+3Sbd/MHt2tcZCvg+7l6CnvRh3PcdNgmT2e6xqmwbg1a8nZ9ObzVj79+ve/aHj0BpnTbdPtfllbHcKXb1fEv13fbrzf0isf+LjH9De3bgsDEAhePDAzrSv/a25jgD+vny9EhIFmCQR5qbFkIp0JkGkExkpxxInvikC2gMGntnsnQGhFgKTWKkA2Ro9A0WoRgcqkDAK1VhcEURQI/SYrSNo9BNm6Y1D0ewGVXe9WrT+yEtEqQH/hEqotWpnFE9E4L/KlrzB6QYZ+iW+L/iObC2AllmzbcmDRglUHDb6n0z20qSphFT/EJUTFcUX8OLoXhsjas291zp0PUsLvq35HcnUACpMIl83JMpFIsL5Db2R/Y3Z/JaKQZfYR9/gA");
 
 export default BookmarkSlash;

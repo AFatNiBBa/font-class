@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-visor` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-visor?s=regular user-visor}
  * @preview ![user-visor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-visor.svg)
  */
-const UserVisor: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 208c26.2 0 49.4-12.6 64-32l-128 0c14.6 19.4 37.8 32 64 32zm0 48c-54 0-100.2-33.5-119-80.8c-14.3-3.2-25-16-25-31.2l0-64c0-17.7 14.3-32 32-32l12.1 0C147.5 18.7 183.6 0 224 0s76.5 18.7 99.9 48L336 48c17.7 0 32 14.3 32 32l0 64c0 15.3-10.7 28-25 31.2C324.2 222.5 278 256 224 256zM128 112c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L144 96c-8.8 0-16 7.2-16 16zM269.7 352l-91.4 0c-65.7 0-120.1 48.7-129 112l349.5 0c-8.9-63.3-63.3-112-129-112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM313.5 429c-7.9 0-18.8 9.5-26.5 16.3c-2.1 1.9-4 3.5-5.5 4.7c-2.3 1.7-5.7 0-5.4-2.9c3.2-30.5 13.2-55.5 29.8-74.7c1.3-1.5 4.1-1.6 5.1 .1c15.8 20.6 24.2 45.9 25.1 75.3c0 3.2-4.1 4.7-6.1 2.1c-10.2-14.4-14.7-19.2-16.6-20.9z" />
-    </Icon>
-);
+const UserVisor = createIcon("user-visor", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABiAAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCMgsGAAE2AiQDCAQgBYMtBzEbMwXIBnp4nXrvSyHJcpDkAgOtwDiGp9KUrr449TznoQA+hyBoY+GaIGNiaMx2n1egYhs3B7hXgWoBpcxVt7EgD6qsiZwjeEQM7YboBdg6ql1EgDls3gE720vpF+msA0OEBQCA4gAAgNYD+3bnUb7ypbfh66C3dAUEoNYA+AiwMEoWAqAZFgKysPEBGxtBvsJh5D/QBwGAIuGPMgDYQDSwGFgPANgAGCJtO6qsF0xNdiM8e4Ab4Qy8WdXR5frcqCJdybmQIa1OPei6etjxeXNXW5P3gw6VO1bpUr0B+5NdHUw9kOJoX1J/x3WeNbrlezrT5E6HUT/7Sl8Huvre+3P/VUn7nIC2pBzQ2C1J0r6klEw5WfVg8uXsPuKRlDJX4q78Cb2b8I68f6tmrGLGqlqrSqGkaHxaK4KbNgUDdC8o6B7Qs61IG19UUrpq5M5g/inyg8XY/m8Yk3E1WswawSy8Z5y3Wl0SINRFw+iiUIK6eBsXeevwFm30GteLGg/j+pWJb2133xZKWOHabYriAECAYGa3x9NHxjYrjXYNAIV3/v1Hng4/0iNzBYjGACCwqoWrMUyPAIAXAHwlowWU0SNAgGE2kfBsgAMIAOEACoZIHLDIJA5sHKpCBDnUJzfP9MVCdgwiieEADAFmg0UDloNNElchgma89CJJkhWBdPzQ/7+EDhZpv82vXaOW38RfFgYTVGReb+pvi5UWyKAyDjKBmcxgHuMZx2TmGWwO3cP5TKeDh7bng/jUpga18GmCf1w/7x7AeOYwl8nMZEbdpCn+fbcSC/zZlaEYSFiHnMGAjPNqM9UXTJ47cw4=");
 
 export default UserVisor;

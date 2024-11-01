@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wand-magic-sparkles` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wand-magic-sparkles?s=regular wand-magic-sparkles}
  * @preview ![wand-magic-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/wand-magic-sparkles.svg)
  */
-const WandMagicSparkles: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M234.7 42.7L197 56.8c-3 1.1-5 4-5 7.2s2 6.1 5 7.2l37.7 14.1L248.8 123c1.1 3 4 5 7.2 5s6.1-2 7.2-5l14.1-37.7L315 71.2c3-1.1 5-4 5-7.2s-2-6.1-5-7.2L277.3 42.7 263.2 5c-1.1-3-4-5-7.2-5s-6.1 2-7.2 5L234.7 42.7zM461.4 48L496 82.6 386.2 192.3l-34.6-34.6L461.4 48zM80 429.4L317.7 191.7l34.6 34.6L114.6 464 80 429.4zM427.4 14.1L46.1 395.4c-18.7 18.7-18.7 49.1 0 67.9l34.6 34.6c18.7 18.7 49.1 18.7 67.9 0L529.9 116.5c18.7-18.7 18.7-49.1 0-67.9L495.3 14.1c-18.7-18.7-49.1-18.7-67.9 0zM7.5 117.2C3 118.9 0 123.2 0 128s3 9.1 7.5 10.8L64 160l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L128 160l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L128 96 106.8 39.5C105.1 35 100.8 32 96 32s-9.1 3-10.8 7.5L64 96 7.5 117.2zm352 256c-4.5 1.7-7.5 6-7.5 10.8s3 9.1 7.5 10.8L416 416l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L480 416l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L480 352l-21.2-56.5c-1.7-4.5-6-7.5-10.8-7.5s-9.1 3-10.8 7.5L416 352l-56.5 21.2z" />
-    </Icon>
-);
+const WandMagicSparkles = createIcon("wand-magic-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABmgAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCcQsGAAE2AiQDCAQgBYMtBzobewXIjtMdM9KNfzz8/1rofX9mNgA0ISJFyBaIbcoqruh6olqWrFq7Hai4yGzimuevRQ9Y5I+WSQ0SA888n87bqn2+83EUyG6iuN1Ve9iSaD+hRZD8feYenztBHj/EZQXpThqXwofGn1o5T1JkAKIhACYumjfX+1/j14hvqx8T35qNgJgISoEMGdoKMEYm0FauRC4X/BrVKv4HlgQQFfwMCeSoiRt4DchBUsnzjrVqtS7LOkW9fGGdovayIcOHXHe62dBoFzfq1KJDDI9bQfNh0T5u1rZp2wVjx42dH+Ni0fpF8xeNjWxuWu/oeWUsKptQGYfy6pY/MwaSPzhmkz8rBlE3A2LGGru409uGb//u+N3G/XF9BX89sSgmrvBB06Jo+sEK0vkt7wSrdmzXyPYdx4///ZcxG7GxTksfHucFPzdp8nMnPzVt8ncRGbDpT4uebtxbs+be/WboFkndZjhvLWntedN1H0v36favqnbPBwLBuBPfv1zVYMx/Nesk8PsX//4Pl1N9n8r0FjUlEGR9qn0sTxNQplIAAFIc1ClMMJBccNvXWtdNAUJtBEgqaguQaaOhALnaegtQaG+oABW1zZOJvJbQ1IqCJXXtwTLDnMByTb3DCmN8GVU0jUxBWfVi/w+Tpklgaq9yYL8B5aiym5Y4naNd++hy2epxkMp6wlEb7bLTfhust8V+ge41N3XADtNGyFQ/VBqonwFKo5Tbuev9C22w1z5b7LLTdzJaeT7s4eC4dk/wE0w5yPokEanJoTU71/f9GO2++96Bt33DPgA=");
 
 export default WandMagicSparkles;

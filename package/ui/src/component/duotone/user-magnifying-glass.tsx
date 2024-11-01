@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-magnifying-glass` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-magnifying-glass?s=duotone user-magnifying-glass}
  * @preview ![user-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-magnifying-glass.svg)
  */
-const UserMagnifyingGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 482.3C0 383.8 79.8 304 178.3 304l91.4 0c6.4 0 12.7 .3 19 1c-.5 4.9-.7 9.9-.7 15c0 88.4 71.6 160 160 160c0 .8 0 1.5 0 2.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM352 128A128 128 0 1 1 96 128a128 128 0 1 1 256 0z" />
-        <path d="M528 320.1a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM519.9 426c-20.5 14-45.3 22.1-71.9 22.1c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128c0 26.7-8.2 51.4-22.1 71.9L633 471.2c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L519.9 426z" />
-    </Icon>
-);
+const UserMagnifyingGlass = createIcon("user-magnifying-glass", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkAAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCDwsIAAE2AiQDCgQgBYMtB2YbRwXIjtRWecQFGQ//rzO770v2kBxEjcPEC8QVYJ2TdlMtELZcEdT+dBNCR04mkSg8lPvDa/7YpfG3TQvkQOTnsB2f9Pb0u2PGK9B4461Nr1anUE1rYN2dbQdFySM5lljIcdkcl8MV8jQsu0uF9FT6GI+G/wGMX/V2F0lLBiA6AWDBtk1rvP59fJ/i48Zl4mOrERALQSmQIUM/AWbLBPrJlcjlgu9To8H30WiUBBBVAc4YVXzsY7gKkIMkSXle6zWwb1ullm9tq7See37mmb77+YyZdQfixdZ3575aj3lv2TtzXmm34RRP9cqh7LtNEV9ta4sHu4tv5ryy5bYwe7tJaxEP9NA4dttwiIvDJ90HRjYwcfuoxbQ9OKKuUb/UqX9v//joxzreWhy7+upjRTqi6cQvI9YvmlypTFq8fv3iSZXmtS72+ee1mr9HPVZ2oX1l7NbyWLU5Fn388aIIoXbvdbW71K67t7bvwKCC4ovP6/XPvyiKQaRibgcCwbDDP1ze13H2/81tCfz44p//5h+SxqR70yU0SyDIRjdG251uo/HTvQIAkOIa9XRbzEcgM1MSP7XwuAChFQGSqlYBMn11EiDXapQAFQNMEaCq1SaZyFuEbvYgSAoXQGaqm0GumxdAxWzvJVXdIlM4Xl34917KUgot2VZOGDu+nFl2K0XQIdavzyqHneHX2LERcNBR55x1lSMOO+EqQl5hTX61M5ZyxBJfVJpgrPFKM5XL7bWylSRXuNKJtrS+ySzl/mi4a/jZI2A3CTDxqEoZkSLrL6bWmE9zC0evP3H22Jh7ZowR4DkGMpLAAg==");
 
 export default UserMagnifyingGlass;

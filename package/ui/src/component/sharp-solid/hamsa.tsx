@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hamsa` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hamsa?s=sharp-solid hamsa}
  * @preview ![hamsa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hamsa.svg)
  */
-const Hamsa: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 288l96 0L96 32l80 0 0 192 40 0L216 0l80 0 0 224 40 0 0-192 80 0 0 256 96 0 0 48L416.6 441c-41.1 45.2-99.4 71-160.6 71s-119.4-25.8-160.6-71L0 336l0-48zm256 0c-48 0-96 64-96 64s48 64 96 64s96-64 96-64s-48-64-96-64zm0 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Hamsa = createIcon("hamsa", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbwAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBfAsGAAE2AiQDCAQgBYMtBywb+ATIhqCylWX1zF5Iu2IYMaMHhB49kEfssWGL3Ae2d+pU/st5KIBvIQvKnhqQMS02Vsc6r0ABa71Yu0Hb81rBaloB6940Y0mWPR3JKk2SP3a8XSGPL7OzSqRH6RfcyB8av2rpLEntDEA0AMCEZYvm+O5lvIz4ufox8bNZCIgJoBDIkKGNAKNlAm3kCuRywcuoVuk/sCCAqCGvSyBHCZuwHZCDJMvzXm0bV0p186WVUjkq5UoWlYCTgSA9TSyOD4Z/Vr488ou+SyPqvtE54o0mEXedbHqvy5td3u72dvMHcarZ/a5vdXWlacQ9J5vcLV/uzDg13V/p+F6D937v8MvWXzxeL0Xm+053LxG8BN+Ns15/a7f7+9Ttvn1vn/o7HtHf/nWsfc6LiBfP167br0niKV3Uu8jFeqVEeCAeO9dzyOx19Uf/X6uSwOsv/vwd/4qq3yXpPdSSQJD1rva2OoFEAABSHNUxQSBZJSPvWsd9AUIZAZIaZQEyrTUQIFfWS4CSdoYIUKNskUzktYUm1jSY1HEAZoY6BnNNfAhLRvver9EkMjdjnYT95CVN1ciUXcWAvv2LkcWyVDnPodPmqGLb6n40TPSAUVvts9dhW2y2w2GFHTQnOmKPqRY6xRcVBuirv8JIxXHzeHipLQ46ZId99vI2oxT3ve6O2vN7gJsI4UBKeoJ8Km3fsOfQBgAA");
 
 export default Hamsa;

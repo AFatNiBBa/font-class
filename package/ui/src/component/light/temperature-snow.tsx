@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-snow` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-snow?s=light temperature-snow}
  * @preview ![temperature-snow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/temperature-snow.svg)
  */
-const TemperatureSnow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M368 96c0-35.3 28.7-64 64-64s64 28.7 64 64l0 156.7c0 14.9 7 27.7 16 36.9c19.8 20.2 32 47.9 32 78.4c0 61.9-50.1 112-112 112s-112-50.1-112-112c0-30.5 12.2-58.2 32-78.4c9-9.2 16-22 16-36.9L368 96zM432 0c-53 0-96 43-96 96l0 156.7c0 4.6-2.2 9.8-6.8 14.5C303.7 293.1 288 328.8 288 368c0 79.5 64.5 144 144 144s144-64.5 144-144c0-39.3-15.7-74.9-41.2-100.8c-4.6-4.7-6.8-9.9-6.8-14.5L528 96c0-53-43-96-96-96zM400 368a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 0c0-29.8-20.4-54.9-48-62l0-34c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 34c-27.6 7.1-48 32.2-48 62c0 35.3 28.7 64 64 64s64-28.7 64-64zM284.6 142.8l7.6-28.3c2.3-8.5-2.8-17.3-11.3-19.6s-17.3 2.8-19.6 11.3l-15.9 59.2L192 196.3l0-61.7 43.3-43.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L192 89.4 192 48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 41.4L139.3 68.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L160 134.6l0 61.7-53.4-30.8L90.7 106.3C88.5 97.8 79.7 92.7 71.2 95s-13.6 11.1-11.3 19.6l7.6 28.3L31.6 122.1c-7.7-4.4-17.4-1.8-21.9 5.9s-1.8 17.4 5.9 21.9l35.8 20.7-28.3 7.6c-8.5 2.3-13.6 11.1-11.3 19.6s11.1 13.6 19.6 11.3l59.2-15.9L144 224 90.6 254.8 31.4 239c-8.5-2.3-17.3 2.8-19.6 11.3s2.8 17.3 11.3 19.6l28.3 7.6L15.6 298.1C7.9 302.6 5.3 312.3 9.7 320s14.2 10.3 21.9 5.9l35.8-20.7-7.6 28.3c-2.3 8.5 2.8 17.3 11.3 19.6s17.3-2.8 19.6-11.3l15.9-59.2L160 251.7l0 61.7-43.3 43.3c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L160 358.6l0 41.4c0 8.8 7.2 16 16 16s16-7.2 16-16l0-41.4 20.7 20.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L192 313.4l0-61.7 53.4 30.8 13.8 51.7c6.5-33.3 22.4-63.3 44.8-87l0-3.8-42.6 11.4L208 224l53.4-30.8L304 204.6l0-33.1-3.4-.9 3.4-2 0-37-19.4 11.2z" />
-    </Icon>
-);
+const TemperatureSnow = createIcon("temperature-snow", false, "data:font/woff2;base64,d09GMgABAAAAAAOMAAoAAAAAB3QAAANAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTCESgsGAAE2AiQDCAQgBYMtBzcbUQbILgtsY9rQH4qmhRiBCQb1YL2bF6L1GTaeJ/b7du4TzCyLJ9e2lSqeoJFF4y5VVBPps9MhmcA///597vM0gO4EsFf/wcRfU0bsXKlyr6Khum0XTIen/4KYFSzlqdqyhmwopmyGBNcn/IN/I7DUvivg/4tTzwOYC+BzQONBmbNz6KRg9xTIebEg08YGakEKVOEFxGWt7/XzblwfKSM5mZlaM/fxd478d4BKH9OFC0U4fRzdHyrf9XeGAscGQIoBYN762VN51tC36M3/yBuLIUBGAcMIlFAHKTsz2WjZw8FAhYOgkf+d/4HDEIB48GEFoAJtIdmQIrC890tcx2kcWlbnz8sFzryObu76ExOllnGjY7oGhS3dEOuQ6nOnU6bxUudgneZfGCelGjqhj8yVoY/HPp5zu/XVYQGRLs5MvwWH+kpBPubnYC9f7vaA+GSVAl0KuK8cXdcQx8an2yY7t9TNG9ivLlgZKDeaEGl4xN9BIatTtnxfxVChSWlVIjUa1JID1SYl5a8an4kpdZxF22pAZLCqyd5ak4OGYJvOQn4LVkkd4y/BymES3bU510Lqk0mZnL6RKlMVqc2ITHHmpxdNL+zYnluC7mcvdy/JjaP+9bmw6N98Il/lxmP5wRZa2l20Xbczr37n4bud3zmo44GmrDjaZd7Bodu7XIAjXeTCcdjq+4bXi0Yo/NYobGXs6zdVHUq6B982NvM+3T60Tv1lmaFaHD/e3LxAx3fJjkZTlNn4vFmm+m3Jpw/d9ujjw54t90ZxB17w0ne3LTPNU2+XTPlw2Uj3tuz5MMpm/fKneetcL4eW/E1bDGc0a6sTICCw+uN9d3nXIV9hC9B67cvt+uq/YkSRAe2wAIGyy38tKUZwoOIFkCm0TytHlXIENRzrRCCbC7kgUOCRCyV1iqEil85Q06gvE5w/m42cHES5pQCLfHaCTT9HwaHcTXAZ4nnaozz2bODGMvcvmjxOI2OnmendephB5rHi4gc4s04ONmHXuH2moyPWss522+yx1hob7VHYLlNze201ziOOfa7RUzc9GIOYdH0rz6PMLrttvOfzTgxm+sc62Of37wivBZPOMLPAgljFE0Xp+qUBAAA=");
 
 export default TemperatureSnow;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-glasses` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-glasses?s=light face-glasses}
  * @preview ![face-glasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-glasses.svg)
  */
-const FaceGlasses: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 480C132.3 480 32 379.7 32 256c0-22.2 3.2-43.7 9.3-64l7.3 0c-.4 2.6-.6 5.3-.6 8l0 48c0 30.9 25.1 56 56 56l80 0c30.9 0 56-25.1 56-56l0-48c0-2.7-.2-5.4-.6-8l33.1 0c-.4 2.6-.6 5.3-.6 8l0 48c0 30.9 25.1 56 56 56l80 0c30.9 0 56-25.1 56-56l0-48c0-2.7-.2-5.4-.6-8l7.3 0c6 20.3 9.3 41.8 9.3 64c0 123.7-100.3 224-224 224zM224 160.8c-10.2-10.4-24.3-16.8-40-16.8l-80 0c-15.3 0-29.1 6.1-39.2 16l-11.3 0C89.5 84.3 166.6 32 256 32s166.5 52.3 202.4 128l-11.3 0c-10.1-9.9-23.9-16-39.2-16l-80 0c-15.7 0-29.8 6.4-40 16.8l0-.8-64 0 0 .8zM256 0C148.6 0 56.6 66.2 18.6 160L16 160c-8.8 0-16 7.2-16 16c0 6.1 3.5 11.5 8.5 14.2C3 211.2 0 233.2 0 256C0 397.4 114.6 512 256 512s256-114.6 256-256c0-22.8-3-44.8-8.5-65.8c5.1-2.7 8.5-8 8.5-14.2c0-8.8-7.2-16-16-16l-2.6 0C455.4 66.2 363.4 0 256 0zM141.5 339.9c-6.7 5.8-7.4 15.9-1.6 22.6c22.2 25.7 61 53.5 116.1 53.5s93.8-27.9 116.1-53.5c5.8-6.7 5.1-16.8-1.6-22.6s-16.8-5.1-22.6 1.6C330 362.2 299.4 384 256 384s-74-21.8-91.9-42.5c-5.8-6.7-15.9-7.4-22.6-1.6zM304 200c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24l0-48zM104 176l80 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24zm88.4 48a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm152 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const FaceGlasses = createIcon("face-glasses", false, "data:font/woff2;base64,d09GMgABAAAAAAN0AAoAAAAABxwAAAMnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFyDfQsGAAE2AiQDCAQgBYMtBzMbAAbIrgd4wwn1Dx6ckBJSjeuWpcNxe+7qw+HL3xyRCKK1snp2A8AbYFYE7IAcgg/LvAw6BvUgQ0LmePg41Peztq0ukAB2DpCxbAsVpNxYuIC1OShXjXdROVa/n+6FGF1s4vJfgH1KruPb6KgCK2BVBUYA+np0tWkDLDwaT6gP4KeXZxRwUSusTDNssR4CfIOA1f4rFriJa+pn0J9H4Ys/Wm+WOpDy3SgTU+ABX+dVQrMN6IUefAI2cxtxDCyCDE0vQ4eIIc6QrO4hj4fUVo3U4b3iXPjQ+NJ0EpI8CSBqAJjYnTfDsz5VRLwpRbxaAwExCwqBDBnaCjBGJtBWrkAuF1REafcfCAFEBv8oEshRGz/xD5CDpGYqHz/avVXDxrWkdarVyxeWrr3gGvFqENED38Qup8sQHeNWUE53zDt2omMmec8NdDPXtUfZvBqS0U2DjMrqH9XzN5KRyxDBZNG7RbyZX3vZsGXcRW/mSs3E55KBb+rUtgOYLvg28z3XLxsvg6fF2/B5fMe0bdgMnBRuQmc5qnsQltMtK+I8gPDbNupUqNOmaBbR3g+dWPaC5/Z2dEuyfPc1Vz/e+/1XGNQfgT7XfKx0PJPIUgPU+Puf3bMTD5AnO0n69397TWe9qpdPjuSHsUopq2foHpudbDImsXty/2X3f5iAGOsyv/k1XOWrqNTaNx+mW6wXJlXTcWzNajHdt7Jcu1KRabv0+Zg9zftT/sf71X564p/av7v6GJ2wbVS+czg1Ms4cY0YQn9c5bvaAUabbP1GsGbFjduvrAIFgRlxR3lOP/0tKoOry/iipSvOkC1BTAkHWHrCcBxIBl1Ic1EmJWSD5KAd417quIkCojQBJdbUFyLTRUIBcbb0FqKa9oQJUV9s8ZCJVS2hqRVWTuvaomWEOqbmmytRqxnheqq5p8M3cNVL3lVl6Wg9PDSuy/QYUo4ppQ/Ys1/aLo4vlbOSgGOiJnTZiF3ZiPzZgPbZgfyfsxYzqAezANI2fihhRGKifAQqjFNvtZWYhqLQX+7Bl7O4DthmtOF/s4aA+vicKCVsOUpckIlH3Ei31HS997gAAAAA=");
 
 export default FaceGlasses;

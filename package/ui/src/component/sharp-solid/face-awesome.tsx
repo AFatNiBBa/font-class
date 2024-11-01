@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-awesome` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-awesome?s=sharp-solid face-awesome}
  * @preview ![face-awesome](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-awesome.svg)
  */
-const FaceAwesome: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm203.5-95.6c-5.6 9.4-15.8 15.6-27.5 15.6c-17.7 0-32-14.3-32-32c0-9.1 3.8-17.4 10-23.2c-3.3-.5-6.6-.8-10-.8c-35.3 0-64 28.7-64 64l0 40 128 0 0-40c0-8.3-1.6-16.3-4.5-23.6zM384 176c-17.7 0-32-14.3-32-32c0-8.5 3.3-16.3 8.8-22c-5.4-1.3-11-2-16.8-2c-39.8 0-72 32.2-72 72l0 32 144 0 0-32c0-10.4-2.2-20.2-6.1-29.1c-5.8 8-15.2 13.1-25.9 13.1zm48 112s0 0 0 0l-32.6 0-286.7 0L80 288s0 0 0 0l3.8 18.8c.9 4.5 2 8.9 3.2 13.2c21.1 75.2 89.9 128 169.1 128c55.9 0 106.6-26.3 139-68.3c0 0 0 0 0 0c16.2-20.9 27.8-45.6 33.2-73L432 288zM240.1 415.1c1.7-44 37.8-79.1 82.2-79.1c19.6 0 37.6 6.8 51.7 18.3C347.8 392 304.3 416 256 416c-5.4 0-10.7-.3-15.9-.9z" />
-    </Icon>
-);
+const FaceAwesome = createIcon("face-awesome", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABhwAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCQgsGAAE2AiQDCAQgBYMtBzMbRQXIhof/12nd9yUH5AyyhgkWCLjN2RarrX1x6nnOQwF8o6CMbVM3ZnNojva8AgUey6dWoNzzmtYKjvXbyfcWlE63IV3+ybCdYXSBPN7JLlUh3ZW+xQ3hpeIvXVxK0pgBiNYAmL1x7XIfNkdzxDe114hvLEVAzAalQIbN3QWYJhPyArkSuVzQHLUa/QeWBBB1+HdIIEc9LsZ1gBwklTzv1qlL2apaaZFvqFaK+GNuxCcrf6hes/y72R+t/3XWh8u+La5e8f2cjzdsvLXf1R1vj4s63V48OujJzqIaERd1XH91x4gWsaisvyjZUTRd5DZ2ids6vDT9vfnXTH1nqIw/06vbugeGBj1l4mODn+z3ZHF1xz5Pt376n97fHvjWh+Y30uWVj+bO/eiVLo3mI20e+Gbn/a1bXnlly5Z3zqo82KZNMciFBmkx5ZVWHQn7Hi2uPKmxeezYlqUblVpvu8bIE4DeM2GMug4NP//84pDRo2+AG84c88H5bfazv/WPq6b992P/hhOBQPDNG6227mw17f+GagJ/vv3fP+K3qPZhkp5GgwSCbFhtmG0JJAIAkOJ0fRIEkrNVcNDkdnEzKBBOr1MgyHTTukCuMBQqehp/QZ3CWpnIG4X2tiuQNDkJMhOcB7n2XoGKab5w67SPTBMZPWL+gYkLJDJ/XTl6xKhySjlMZVa5KL88tdyWB51uW4Nx1gEnON6p9tvnsFMFdrLlwWmOs2CGzvdBpdFGGKU0RXlcXB/fYL+TneKwExxPq0xV3tcHOX0+PBhawrhjJJJEpKZn7gzffcZ+LQcAAAA=");
 
 export default FaceAwesome;

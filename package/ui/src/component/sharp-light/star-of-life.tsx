@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-of-life` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-of-life?s=sharp-light star-of-life}
  * @preview ![star-of-life](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/star-of-life.svg)
  */
-const StarOfLife: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 0l16 0 96 0 16 0 0 16 0 129.1L431.8 80.6l13.9-8 8 13.9 48 83.1 8 13.9-13.9 8L384 256l111.8 64.6 13.9 8-8 13.9-48 83.1-8 13.9-13.9-8L320 366.9 320 496l0 16-16 0-96 0-16 0 0-16 0-129.1L80.2 431.4l-13.9 8-8-13.9-48-83.1-8-13.9 13.9-8L128 256 16.2 191.4l-13.9-8 8-13.9 48-83.1 8-13.9 13.9 8L192 145.1 192 16l0-16zm32 32l0 140.9 0 27.7-24-13.9L78 116.3 46 171.7l122 70.4L192 256l-24 13.9L46 340.3l32 55.4 122-70.4 24-13.9 0 27.7L224 480l64 0 0-140.9 0-27.7 24 13.9 122 70.4 32-55.4L344 269.9 320 256l24-13.9 122-70.4-32-55.4L312 186.7l-24 13.9 0-27.7L288 32l-64 0z" />
-    </Icon>
-);
+const StarOfLife = createIcon("star-of-life", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCbAsGAAE2AiQDCAQgBYMtBzMbbwXILgpscEcBp0LUIdc8CffwFzIvH1rx/P/v97+59j1fpX0sqSYxizTqh0ioaqG+EPEOJbxBJVO5B+PsboQr2OBGPlHX0kc396X4zczS+LAhOMzad0jte7z5v6Ze2PUKMImHEh0YiRHlEziQ8b3vqxCaDexEcRBtjkNUKqzfIuSTfEQatoeGqSO0PCdk6lMBXuw/mr/kHimtA4DMAwDH79687GOYYfLXS34rAoGcANgA0aHDGggOIQrWINkANE0Ypu/Tf+AGECCjIFhxtHDlawwADZRqpPLhKTKbVItARnuKwYTI3UgjTpWUKJVDDbcktUBkkoGIjZqUNPWgnwIgoh2SjanFd6s2x5RK/N1aayAylTUPytUEU4slUk9gtZnK/QzDwOAY7z/M33Jn9aiDK94brhzU7vLY0nHMnXm8B2PQpfCmS/hYL9ajuPsLIFfOzvj36LQrFTkNnzmQyt4xe+bHAEG4sHDi172l/o1PEQD+fO7z+up/5n8NMK5A6Lb36RQoZbAKSK5yzADPgvJYAd867b2AmERAGTUpoLOCB0EzaRsEI9YJQzBq0k1EaXSIZd0qLdMeSjsHXUmbZU/SEYd85kYth+ieeufS/xxmOaPR02wb9nh8uoSu23UZPE67bSd1w57Nx3nKDtDA0sJOX8/YTkk2ysUjcxmLTuORjp+Hj06Cbnpwy13Tt7E1trQo+yTp3k/YHNuL7fgJROVedaVIsT6f7I7V+zu8FgA=");
 
 export default StarOfLife;

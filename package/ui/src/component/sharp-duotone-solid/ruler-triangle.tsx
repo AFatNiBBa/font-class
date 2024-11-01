@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ruler-triangle` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler-triangle?s=sharp-duotone-solid ruler-triangle}
  * @preview ![ruler-triangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/ruler-triangle.svg)
  */
-const RulerTriangle: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 0L48 0c20.2 20.2 40.5 40.5 60.7 60.7c-8 8-16 16-24 24c-3.8 3.8-7.5 7.5-11.3 11.3c7.5 7.5 15.1 15.1 22.6 22.6c3.8-3.8 7.5-7.5 11.3-11.3c8-8 16-16 24-24c19.1 19.1 38.2 38.2 57.4 57.4c-8 8-16 16-24 24c-3.8 3.8-7.5 7.5-11.3 11.3c7.5 7.5 15.1 15.1 22.6 22.6c3.8-3.8 7.5-7.5 11.3-11.3c8-8 16-16 24-24c19.1 19.1 38.2 38.2 57.4 57.4c-8 8-16 16-24 24c-3.8 3.8-7.5 7.5-11.3 11.3c7.5 7.5 15.1 15.1 22.6 22.6c3.8-3.8 7.5-7.5 11.3-11.3c8-8 16-16 24-24c19.1 19.1 38.2 38.2 57.4 57.4c-8 8-16 16-24 24c-3.8 3.8-7.5 7.5-11.3 11.3L336 358.6l11.3-11.3 24-24 57.4 57.4c-8 8-16 16-24 24c-3.8 3.8-7.5 7.5-11.3 11.3L416 438.6l11.3-11.3 24-24L512 464l0 48L0 512 0 0zM128 256l0 128 128 0L128 256z" />
-        <path d="M108.7 60.7l-24 24L73.4 96 96 118.6l11.3-11.3 24-24L108.7 60.7zm80 80l-24 24L153.4 176 176 198.6l11.3-11.3 24-24-22.6-22.6zm80 80l-24 24L233.4 256 256 278.6l11.3-11.3 24-24-22.6-22.6zm80 80l-24 24L313.4 336 336 358.6l11.3-11.3 24-24-22.6-22.6zm80 80l-24 24L393.4 416 416 438.6l11.3-11.3 24-24-22.6-22.6z" />
-    </Icon>
-);
+const RulerTriangle = createIcon("ruler-triangle", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABvQAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDKAsIAAE2AiQDCgQgBYMtB1gb0gXIHoPjbol94/Loe8nlUQyxmBF8rfX2m5ndHyJWgCQZJSskIXM2USjUqQh1FZk40vs/1/x/4ZH439E69O5skRTZVsAHfDgbzRp0gAOHHEMiCQXCzU9cE5c7f1+b5vkLP8p/Y25qn+95nkDAWZ4v8ISWaCAZWOqm5OohlB6ClC10TMR5fJ3HM3aGEj/yfRXpfQJP9X8A47fhjiTdM4DoBwCsOpCOwr0TnRTt5hPRthUIiNUA4yAyMkZBsJRUYBSZcUBRBJ3UNHSiacaBAKKmd8ugRnd8xHdAAUklldLbmo929ax6l/31U/c4Mm2mUYPTY2jMjBn7Ti25Z4+eH6a/0ij7WvtWrwXwtbZH+tEP00OhXUHeB/IlEH2i2gf1jP0TWorWfzzBubs3b65uThDdlN0RR8x9niG/7VO6FyqVN3HfuizPTBCEffaMhy7ruPNtB9/CiWN90bQoIECJZRHnv+Yx5FZzm3PrFlwUCP5YX0t9l/7v1jOBn5//S/sdNU1SC90kEORZzSz5BBIBAEhxA5PYBASyM+TwqL28ESD0QICk1kOAbCQFBEUPMyGojOGDoNbDHlJRuguDFA456eWynC1xkItBrnJlqUe5Nihy9ppyz/TvmJ1ngDtE8+1OCtNtj5sT0lB2IzTsn7aUGRNOQtPI0FxDXceciKlobWGA70GcJyIudk4kjKaHR3uO+KmZjnc4v08ErU8bLfvLTQhJmOoCR7JMpMhDtkRwavss5xu23G3bCYsMV9a3HgAA");
 
 export default RulerTriangle;

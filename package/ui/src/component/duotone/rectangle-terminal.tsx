@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-terminal` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-terminal?s=duotone rectangle-terminal}
  * @preview ![rectangle-terminal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/rectangle-terminal.svg)
  */
-const RectangleTerminal: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm96.4 67.7c-.1 .7-.2 1.4-.3 2.2s-.1 1.4-.1 2.1c0 1.7 .2 3.3 .5 4.9s.8 3.2 1.5 4.7c1.3 3 3.2 5.8 5.8 8.2L180.5 256l-76.7 70.3c-2.6 2.4-4.5 5.2-5.8 8.2c-.7 1.5-1.1 3.1-1.5 4.7s-.5 3.2-.5 4.8c0 .8 0 1.5 .1 2.2s.2 1.4 .3 2.2c.3 1.4 .7 2.8 1.2 4.2c1 2.8 2.6 5.4 4.7 7.7c9 9.8 24.1 10.4 33.9 1.5c32-29.3 64-58.7 96-88c5-4.5 7.8-11 7.8-17.7s-2.8-13.1-7.8-17.7c-32-29.3-64-58.7-96-88c-4.6-4.2-10.4-6.3-16.2-6.3c-6.5 0-13 2.6-17.7 7.8c-2.1 2.3-3.7 4.9-4.7 7.7c-.5 1.4-.9 2.8-1.2 4.2zM224 360c0 13.3 10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0c-13.3 0-24 10.7-24 24z" />
-        <path d="M103.8 185.7c-9.8-9-10.4-24.1-1.5-33.9s24.1-10.4 33.9-1.5l96 88c5 4.5 7.8 11 7.8 17.7s-2.8 13.1-7.8 17.7l-96 88c-9.8 9-25 8.3-33.9-1.5s-8.3-25 1.5-33.9L180.5 256l-76.7-70.3zM248 336l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const RectangleTerminal = createIcon("rectangle-terminal", true, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABogAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCWwsIAAE2AiQDCgQgBYMtB2AbjQVRlM+pI9nPBNuYXSNLOGj4wbAkrYOhDhue5Sge/n+/2O9z75sB3gwilswSnsUs40ksiXqERDJNEMosqn3RNslsVuT7N5pIIex7Vz3mSEJoaqQG93+teYsJVINbYftxw6I56qpFT/zAbuJy+oOefp+PRf5o/421eI1xnkBCy/MugYQyDQATtgbnjUo36x3SH1DEl3xQhXQxwXH3P4DxXXcHSVplANEOAFMXzZvheSMaKT43nxKfTUdATAP9BDIyegkwQRbopdAPhULQSM0mjWg2+xFAVLkfkkEVLXAElwAFSJJcFKVOfA/C1Sqti4W1SrnsUs/7dUGcpb2d5seddikvioULmLJ2N14oZdxLlyVfXhGPpXXcHQ9jigv9QanHvfko5QX7ImIv7bUv9mIvzmJBzI8zfIbO1BE6m7orj5eWnVf7/KPJnDOH+MxLFlwcXIv7+VIr404Y8HOPfn+zqdJ43qa+ahF8auXOqJht87wxPdCh79kTrGwOUJ7gb+rL9gDtbxw32renpygZWemqEIAIHeRIqaM/OQx+p4IltQDRHnkAXx/t/u8eplEx9jbougGwImLPq+VV8zwQCL7mw/+vshP+aVlL4Nuz3/5CXyTNRpIeoaUEgjy0OdTyBBIBAEixw4DEEgSytbLwrnXnBAglAiRVpQBZT+0EKJSGCFDRxzgBqkrzZFG0EjpZkQtJ3WYhG2+XUOjkiVAxwbt01bZT5NdS91Lp/gozJ2U4PofbcjDAzqFU/6ap+pjgaHf/8CUV3oXV1cXLYrb3KtEPae7tLOlDYx+EXBYHCuDsyXVzV0o/PO3bjfNPIXD9uOLTv1mFPkpQHC2dZY7fpR6PDdNruGynxfz07OZLvkloNj7T");
 
 export default RectangleTerminal;

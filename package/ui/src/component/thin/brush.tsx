@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brush` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brush?s=thin brush}
  * @preview ![brush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/brush.svg)
  */
-const Brush: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M256 352c-8.8 0-16 7.2-16 16l0 80c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-80c0-8.8-7.2-16-16-16l-48 0c-35.3 0-64-28.7-64-64l0-16 352 0 0 16c0 35.3-28.7 64-64 64l-48 0zm112-96L16 256 16 64c0-26.5 21.5-48 48-48l16 0 0 104c0 4.4 3.6 8 8 8s8-3.6 8-8L96 16l80 0 0 72c0 4.4 3.6 8 8 8s8-3.6 8-8l0-72 64 0 0 88c0 4.4 3.6 8 8 8s8-3.6 8-8l0-88 48 0c26.5 0 48 21.5 48 48l0 192zM80 368l32 0 16 0 0 16 0 64c0 35.3 28.7 64 64 64s64-28.7 64-64l0-64 0-16 16 0 32 0c44.2 0 80-35.8 80-80l0-224c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 288c0 44.2 35.8 80 80 80zm128 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const Brush = createIcon("brush", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjwAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCVQsGAAE2AiQDCAQgBYMtBywbUQXIHgnGzeQ/yKZTcBEiHv7R+XqfJPsksoOs/ClhhxGKIxCPQNPfSs7UlXS6dgb2tqPdKAz29ECy+iFJFIv3/7mmXjy/Brr37W5zj6aNKqjKIuL5BPa8GiPtCAZ2oBOzqdORHeshSsFDio6CYYQdl/T4vEMWNxxUIXkem3j0+NL4VT8PkkhTANEVAPO2bFilvYwyotn6hGhagYCYDwqBFCkGCjBTKjBQpkAmE5TRavX/wIIAospfS0CGKh7B0+QgiQwStI0d1bFW6ZRtrlXyLU+ReI6esnfkmRTxjOTxzvogfkR0CvHceM/yLfVO9YgX9dleC/E0P6sRceHb/HS0t5bXhHh+vl/f3R/maLZa7TMgZcUL64NWj7fGe4EhL6e9Tc/IUyRK1/aB/+APbR5uau0pO6+V3vuh0fjhXrpW57LhtW7d8q726ipvwdfumT173dzOg10dVX1kVI9aa2nwS821NbBVg57bPuRMUTS6miuq1pBzdc0ouh7aHGW2AttYis2Hut5Z07ksO59CIF5rfj9n8J4uM39ztQT88uXfro9b7XEXPwA6SECQjmodO+MuoCsHEE7isjYis0DiYRm4u+4ZNRZybkhU5ZAaoCtkciOhYrBJqsn9G6Qi6yj0tAuQqDsHqcluQaanj6Bipq/CVT0jLUlNQWn+CDMuHvFF04pxYxrF9OK1LLRVptrGZxTTlmGXrW04zjrsjNMuOuSgYy4O3HmrYpecspgRi8ioMM4YDYXpCrl2Pr7ZIeddcMwZp/dJZijWu4e5zHsPxywSwPiPqbKsSCr7z1+6cBQ=");
 
 export default Brush;

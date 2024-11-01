@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-s` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-s?s=duotone circle-s}
  * @preview ![circle-s](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-s.svg)
  */
-const CircleS: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm160.4-68.2c4.7-26.3 23-43.3 45-52c21.3-8.4 47-9.6 72.6-5.7c8.1 1.2 24.4 4.8 32 6.7c12.8 3.3 20.6 16.4 17.3 29.2s-16.4 20.6-29.2 17.3c-6.7-1.7-21.3-4.9-27.3-5.7c-20.3-3.1-36.8-1.4-47.8 2.9c-10.3 4.1-14.2 9.6-15.4 15.8c-1.1 6.4-.2 9.7 .6 11.6c1 2 2.9 4.6 7.4 7.7c10.1 6.8 25.7 11.5 46.8 17.4c.7 .2 1.3 .4 2 .6c18.4 5.2 41.4 11.7 58.6 23.2c9.5 6.4 18.5 15.1 24.1 27.2c5.7 12.3 7 25.9 4.4 40.3c-4.7 26.3-23 43.3-45 52c-21.3 8.4-47 9.6-72.7 5.7c-16.3-2.6-43.7-10.7-57.3-15.1c-12.6-4-19.6-17.6-15.5-30.2s17.6-19.6 30.2-15.5c13.9 4.5 37.8 11.4 50 13.4c20.2 3 36.8 1.4 47.7-2.9c10.3-4.1 14.2-9.6 15.4-15.8c1.1-6.4 .2-9.7-.6-11.6c-1-2-2.9-4.6-7.4-7.7c-10.1-6.8-25.7-11.5-46.8-17.4c-.7-.2-1.3-.4-2-.6c-18.4-5.2-41.4-11.7-58.6-23.2c-9.5-6.4-18.5-15.1-24.1-27.2c-5.7-12.3-7-25.9-4.4-40.3z" />
-        <path d="M223 180.4c-10.3 4.1-14.2 9.6-15.4 15.8c-1.1 6.4-.2 9.7 .6 11.6c1 2 2.9 4.6 7.4 7.7c10.1 6.8 25.7 11.5 46.8 17.4c.7 .2 1.3 .4 2 .6c18.4 5.2 41.4 11.7 58.6 23.2c9.5 6.4 18.5 15.1 24.1 27.2c5.7 12.3 7 25.9 4.4 40.3c-4.7 26.3-23 43.3-45 52c-21.3 8.4-47 9.6-72.6 5.7l-.1 0s0 0 0 0c-16.3-2.6-43.7-10.7-57.3-15.1c-12.6-4-19.6-17.6-15.5-30.2s17.6-19.6 30.2-15.5c13.9 4.5 37.8 11.4 50 13.4c20.2 3 36.8 1.4 47.7-2.9c10.3-4.1 14.2-9.6 15.4-15.8c1.1-6.4 .2-9.7-.6-11.6c-1-2-2.9-4.6-7.4-7.7c-10.1-6.8-25.7-11.5-46.8-17.4c-.7-.2-1.3-.4-2-.6c-18.4-5.2-41.4-11.7-58.6-23.2c-9.5-6.4-18.5-15.1-24.1-27.2c-5.7-12.3-7-25.9-4.4-40.3c4.7-26.3 23.1-43.3 45-52c21.3-8.4 47-9.6 72.6-5.7c8.1 1.2 24.4 4.8 32 6.7c12.8 3.3 20.6 16.4 17.3 29.2s-16.4 20.6-29.2 17.3c-6.7-1.7-21.3-4.9-27.3-5.7l3.6-23.7-3.6 23.7c-20.3-3.1-36.8-1.4-47.8 2.9z" />
-    </Icon>
-);
+const CircleS = createIcon("circle-s", true, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABxwAAAKJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhECDQwsIAAE2AiQDCgQgBYMtB0wb4QXIhuB5u6h6v3tmAfXazHiCIiGSFg4PYDh/f+p5cNICeSRRGptyOf8gGeBzdHABp+i0WjfgFKpYgWtgNbeFRYMgNhGZouMYMiymHx/Kw+8hj3PZFUqke9MJ3Jz+BzB+1swVJNUyAFEXAGMXz5/prS/iixQnKi8TJ8xAQIwDhUCGDC0FGCETaClXIJcLvkiVCl9EpVIQQJSle81AGSW8i5OAHCQh5fnCFtNrlGrli2qUqi+/wx2N7mx0Z8fr43pPdr2z2b1NHxjw8qCI43E87ur0VOOnWtzfkTuk0ZOd725yd+O7Gt/V6XhcV/14PNXtrub3tXh48GsDPd/0nk53fcPqLaJpPNUhLo6NeHvmyRrXzz49/t3Fl8a9M+tU9etmnBjz1oLFsAimUM+o+x7tnqv73K9tT2w64bMa31VrWj9t+OH7EPHt8z8cPz7wrh4tNgJv5/ljQyZcMeHxr8/f+nX5UtWqKa3/8X8ixEXsRjUOrjl+69xJAzfMH3N8b6mzzr6p4i0Tq9HspbfHj3/7pWbVTKRhP/bh8RIRr/v2BP6yAXd3n+LtPL9tijru0uVAILi+4dJrVtcZ8W/VGgl89ebvf5cfkspbSXoOVSUQZD0qPaxIIBEAgBSHtEs8gEBmkySjmu4SB6E6DZKy6pBpoS7kqusOJa0NlEFrPsRHXg1qaGWDpKa9kBnkMOQaeglKRvjQLWsYmSmrhqh+SWZNotjEZUXfXn2KYcUyVDXrlOPw8AJ2uhwKpa5upU122+WAjTbY6gBh9pkZHLTTJI6e6IMKffXSR2GYQpw8WouIu89+W+eGfJLhiv2oi0N8Y1dnXFC43w7IZESKrO4vP6jn/p7vhF2/M55+AA==");
 
 export default CircleS;

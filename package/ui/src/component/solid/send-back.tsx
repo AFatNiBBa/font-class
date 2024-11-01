@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `send-back` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/send-back?s=solid send-back}
  * @preview ![send-back](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/send-back.svg)
  */
-const SendBack: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 64l0 128L64 192 64 64l128 0zM64 0C28.7 0 0 28.7 0 64L0 192c0 35.3 28.7 64 64 64l128 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64L64 0zM576 320l0 128-128 0 0-128 128 0zM448 256c-35.3 0-64 28.7-64 64l0 128c0 35.3 28.7 64 64 64l128 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64l-128 0zM160 288l0 64c0 35.3 28.7 64 64 64l128 0 0-96c0-53 43-96 96-96l32 0 0-64c0-35.3-28.7-64-64-64L288 96l0 96c0 53-43 96-96 96l-32 0z" />
-    </Icon>
-);
+const SendBack = createIcon("send-back", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABfAAAAH0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCGQsGAAE2AiQDCAQgBYMtBzAbGQXIjsO44TuyxVL+4+H/7f5rn1v1Va+NakkRzAjKO7NDYWYyJslfkzKCXzKrfs3/NfneWdMBfqNDi7RKkNx41G0TOMENo2xCs+YTnhDNd9cn2RLpXaUFIznc/g63f4Q8/skuqiFdS3CpPGj8qKOLJA0ZgGgBgBkrly7xVWM0RnxffU18bxECYgYoBTJk6CLAZJlAF7kSuVzQGNUq/QeWBBC1gCTX56jDQZwE5CCpyfOGTqGsR6Wmab4i/obFWqGIiMqKh/0jnnYQ1wY861OJJ4NedI64PvB532L7GtrEDZyIOxyOqwTvFuJm/6eji57PWzz/uYcdfHnmLGRh45lpd1vSsjiraNny7llCpFWr0zac7t2ng63f2qT++fOzpenk7UAgOP3sx/E1n/xbfSWBHz78+me+XvWrdDaNegkE2eDqYOvSWaBcAYhSnNBTKVgg2akGcK9NXBYgFAiQ1CoEyHTWQoBcYZAANboZI0CtwlKZyBuENtY3kDRxGGTGOgVybbwENSb7OqrVJjKj40yG++dLnivhOXnliKHDy4nlsqrydsSk6Unlsdr/BHcNcFvtcNABx2y3zW7HBHXEkvS4/eZq5BwFKo0w1HClicrrxr28wjtHHGVmLt6vM0n5PuzvhD54gDMS0I5UkSQiNRi8MuRbBAAA");
 
 export default SendBack;

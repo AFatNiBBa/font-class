@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-left` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-left?s=thin arrow-up-left}
  * @preview ![arrow-up-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-up-left.svg)
  */
-const ArrowUpLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M40 96c-4.4 0-8 3.6-8 8l0 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-220.7L338.3 413.7c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L59.3 112 280 112c4.4 0 8-3.6 8-8s-3.6-8-8-8L40 96z" />
-    </Icon>
-);
+const ArrowUpLeft = createIcon("arrow-up-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABTwAAAHBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKfHkLBgABNgIkAwgEIAWDLQc0G30EyI7DuOE7ssVSnkU8PKyj3p+ZnRVOmpOURHch1K3XLl1zqI52MteS/f3N83/+6QM+EKmNnQeywOc8T6DzfGrneZyNaYli5i0zNkrpm0x0kvwz9Xg1QhbHrFdCciuBC3ml8Vor50mkKYCoA8DERfPmuvs8nkc8/j/x2GwExCRQCKRI0VaAMVKBtjIFMpngefz/L//AggAiV6ZMQIYUndADkIFEZFnrypLqbGE4QsWyq03FtWY3WkRsiGstbjTfGJVxo8X15hWdGusa33a0ke6rVucf5KtX50907GTevKFDO3X0xOo8X/0BCASNrya2qnbM17LKBLy88/4Xz1cQa5NGlElAkPb538fyOK3QPtYKAEASB3UCLwokWkvwUqtcFyBUIEAiVyFAqo06ATIVegtQor2hAuQqzJOKrFxoakWDRJU9kBrmBGSaug0lxrin5JpGekkYFzN/tMRpFk2tKgb2G1CMKoaGyvqdisXRxbTU46AGelKnjXbZab8N1ttivyF7zdUP2GEawlN9qDBQPwMURimW7fvmhTbYa58tdtmZyoxW7Jd7OIjje1I9CWDQ8Q4kRFK9Zu/eXYf6Htj9gAAAAAA=");
 
 export default ArrowUpLeft;

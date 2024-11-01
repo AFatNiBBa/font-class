@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `newspaper` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/newspaper?s=sharp-thin newspaper}
  * @preview ![newspaper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/newspaper.svg)
  */
-const Newspaper: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 32l8 0 400 0 8 0 0 8 0 432 0 8-8 0-392 0-8 0-48 0L8 480l-8 0 0-8L0 136l0-8 8 0 56 0 0 16-48 0 0 320 40 0 40 0L96 40l0-8zm16 16l0 416 384 0 0-416L112 48zM352 96l8 0 80 0 8 0 0 16-8 0-80 0-8 0 0-16zm0 64l8 0 80 0 8 0 0 16-8 0-80 0-8 0 0-16zm0 64l8 0 80 0 8 0 0 16-8 0-80 0-8 0 0-16zM160 288l8 0 272 0 8 0 0 16-8 0-272 0-8 0 0-16zm0 64l8 0 272 0 8 0 0 16-8 0-272 0-8 0 0-16zm16-240l0 112 128 0 0-112-128 0zM160 96l16 0 128 0 16 0 0 16 0 112 0 16-16 0-128 0-16 0 0-16 0-112 0-16z" />
-    </Icon>
-);
+const Newspaper = createIcon("newspaper", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABeAAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCLAsGAAE2AiQDCAQgBYMtBzAbLAXIjsK2nfOknTKGp9QRfL/2+X3uzG49rEyIJ1GMpIB8okhlZWpVEL5DY7a+RUXuNQIzJ8D/uaZeWNMd2Dc6pGi6W5ZFgWXz3gQm1lhJMKDNdAI2c2sOUVFR7jmRVTRG9Pitx7Md5PHZEW2kpyk8mG8av+vvPkmWAYgCAAu3b17rh67oivi19Zb41WoExEJQCmTIMEiAOTKBQXIlcrmgK1qt/B9YEkC0A5HcnqOO67gJyEFSzfOh1VDSvd7WzLe1M2q767WmSCFqjYgsIup1UYsURZHunbLUvEo1ttZraXotMLIFbfKN4GxXsxFR66O7hUXCS4d3Fp1/DutY9j+jo7IXKir/s0FFZUZhggVGjHiu0urAx2/rcPvv8SoHCpUdxQK2v89PaGn1Oyoc6Pb3BWy/vQtut4qio3BBoXjYngeBoPH39O/vNucf9QR++/T378KvqNWVpE5UJBBkY1pj7EkgEQCAFNcMTxBIzqvC1oZHAoQaNiTtapAZqIBczWhoM8RUybhls0zkVaGXvQiShouQmeYG5Hp5DW3m+DHTrldk7qc4j/Lzl7lM4kvnlRPHTShnlbcVS/UoqU/OLs3OiGulYyStdMx551xx1BEnXRHcJWvzV521TGOX+qLSRONMUJqlfFz/vHiboy657KTzzo1ZZivfj45wTe8/kjwJBCcpSxKRqh8zAAA=");
 
 export default Newspaper;

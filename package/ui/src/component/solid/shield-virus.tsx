@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-virus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-virus?s=solid shield-virus}
  * @preview ![shield-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shield-virus.svg)
  */
-const ShieldVirus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M269.4 2.9C265.2 1 260.7 0 256 0s-9.2 1-13.4 2.9L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.7 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2L269.4 2.9zM256 112c8.8 0 16 7.2 16 16c0 33 39.9 49.5 63.2 26.2c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6C334.5 200.1 351 240 384 240c8.8 0 16 7.2 16 16s-7.2 16-16 16c-33 0-49.5 39.9-26.2 63.2c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0C311.9 334.5 272 351 272 384c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-33-39.9-49.5-63.2-26.2c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6C177.5 311.9 161 272 128 272c-8.8 0-16-7.2-16-16s7.2-16 16-16c33 0 49.5-39.9 26.2-63.2c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0C200.1 177.5 240 161 240 128c0-8.8 7.2-16 16-16zM232 256a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm72 32a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const ShieldVirus = createIcon("shield-virus", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABkwAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCNwsGAAE2AiQDCAQgBYMtBzMbOgXIHge5yfLOopm9STz8v13/7XOrHuD6pAZkR8NIUuZUYa9JhbhtbrRRLc2Y0ZwO8Kk/xmCF4Ps853o+3yifRxFtKH+7ttTCChpe1vMTmNhlkpwd2ETxINLN3Jexp5ANwvCAPD7JSqpID6XvcW/0o/GrPiWSugxAtAJg1YE923xZjnLEd5X3iO9sQUCsAoVAhgyDAiyVCQzKFcjlgnJUKtZ/YEEAUS15L4Ec1bgWdzHPkeQ4h1fV1TVUNeX7i231Z99ff0cnx7Od8OS+Hxz+uQn/wCWjb+3W8XnvfV113JxiXdJ5+lqMZOgcvWVSFt0+FiDT7jZ+Tcxqz+sHyKxnD/TJOB29EwQSZhNLOIRr4eTDj0rX7IP4cqv/7vuzvtf46e6amt2f7lD9+Oud1LY2dUxfOW3VvsmPPGKjRm/Pcqnz9certzc2XlBu7t24sfjwxTvvSKXSrSNZc/nWUilBwsVauFf8ewYvfkjecWdDz727urp25fENIydt9EC89fPMp24+0bL0/9qQwC8f/7n+rKXyWfydHLUSCLKplamOJjuwgauApJDiKqPxWCC5VA58a6P7BQj1CJBUqxcgM6BVgFy9KQJUGTZPgGr19shEXid0OtYLSaNLhcx8Nwq5Tu8IVZb6qlCtMzI96NdB/l/AIuvHxDq3Ytb0mcXiYrOpDWgr219eUpyOTbzKHprEFme52EWucKYznFtjRF9mW/lKF1q/R63jocIs081UWKy43Xm+fr8zXeZy57rYReEqSxTvpya6an/yJJJJYjrbviQRqfHyc84984Izpn3dAAA=");
 
 export default ShieldVirus;

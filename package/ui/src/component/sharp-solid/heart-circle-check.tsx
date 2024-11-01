@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-check` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-check?s=sharp-solid heart-circle-check}
  * @preview ![heart-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/heart-circle-check.svg)
  */
-const HeartCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 288L39.8 263.8C14.3 238.3 0 203.8 0 167.8C0 92.8 60.8 32 135.8 32c36 0 70.5 14.3 96 39.8L256 96l24.2-24.2c25.5-25.5 60-39.8 96-39.8C451.2 32 512 92.8 512 167.8c0 13.8-2.1 27.4-6.2 40.4C483.4 197.8 458.4 192 432 192c-97.2 0-176 78.8-176 176c0 32.2 8.6 62.3 23.7 88.3L256 480 64 288zm224 80a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm222.6-32L488 313.4l-11.3 11.3L416 385.4l-28.7-28.7L376 345.4 353.4 368l11.3 11.3 40 40L416 430.6l11.3-11.3 72-72L510.6 336z" />
-    </Icon>
-);
+const HeartCircleCheck = createIcon("heart-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABeAAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBeQsGAAE2AiQDCAQgBYMtBzkbAgXIjtLUchRhhZEEjPDG89TY78/dXVSaWJSklkgmkUyDRIk0S8RAKQz155/f1VjbfRFJf6hZexUkiSU8VIZmJs1DYQiR+b/c83t+G/DzvRM+tL1qgyygvZ8nEGDR4m1jgmRhlijmd/MlXZTyaEhyopM0jG/YPn8DLe91CJ3yVe6At/qh+UdtCKDoqwCQUQDg5KGmDI5+8hO87ayD/CgBAjkBmIeoqJiGYB9VMI1mHmia8Iv///IfSECAdANOW0BDFx6BJwAaKGqj+UypuXQ+rT6t5zQsBQUfeE9nHBacpwVhSPwF9736VBuct8un2qmwQKy/649AXNzb5Y7sbIfNQ1/oXOIWZ3h3J3wBL+fLsDLBUSQw8qQ1RJmG2Yszoplfrzv9HWR8d+EFBiZbdz/p7OyCLp3Pk/U6tvxaE1iMKEox/SscHn5XBBCA+QmJv79ESkiAKpPIl0aP6CzcBvos6O1Al9knFZzCDgAE4fSMPfUoTP3PGqAA/O38/epHd45KZpkBehUQ6konVGvJBAgVgXRJJ2/ji4LiARXeddA7IIh+BBTd+gVUU0QQNP2WIegyKw6Cbv1uUKWxISa1TVAMegHVpm7QTFoFXfZdprpNhkoyniL8N15KvobyppGo8EiSTLZlQ+ANm8dTyLET2BnbgtxK0HOwa6ejZdKuSLeybAebfAvO80NElHCRiGTkuva6uJ6Om4eJg71MkoK8TwbqtHsHOZ8CjKtyikKKhOdG2O84WhhhAQ==");
 
 export default HeartCircleCheck;

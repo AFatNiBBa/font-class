@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `keyboard` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard?s=sharp-solid keyboard}
  * @preview ![keyboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/keyboard.svg)
  */
-const Keyboard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M576 64L0 64 0 448l576 0 0-384zM128 128l0 64-64 0 0-64 64 0zM64 224l64 0 0 64-64 0 0-64zm64 96l0 64-64 0 0-64 64 0zm32-192l64 0 0 64-64 0 0-64zm64 96l0 64-64 0 0-64 64 0zm-64 96l256 0 0 64-256 0 0-64zM320 128l0 64-64 0 0-64 64 0zm-64 96l64 0 0 64-64 0 0-64zm160-96l0 64-64 0 0-64 64 0zm-64 96l64 0 0 64-64 0 0-64zm160-96l0 64-64 0 0-64 64 0zm-64 96l64 0 0 64-64 0 0-64zm64 96l0 64-64 0 0-64 64 0z" />
-    </Icon>
-);
+const Keyboard = createIcon("keyboard", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABggAAAHYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCWQsGAAE2AiQDCAQgBYMtBy8bWAXIHoVxs/Oki8adLMr8F/Hw/2v/2+fOfBGDWSQRe6hrpVmi/0rDm4YoVsnkn8y179keAjF0Tf2IAjmSXxTOKBJL5w3epRN48DUWT2w2sAd6MZ66zRWDorzJkTPwyDHEh+Yb8viWPVBGep7g8fzR+KfLA5KqDEA0AmDu5vUrffgdvyO+DkR8tRwBMRcUAhky9AowUybQK1cglwt+x8BA/Q8sCCDKCZN4nqMRj/AUkIOkPs+rSq2mrC7f1D6rPl/fUJ+iIbI9QnVE1Gyoqa4R1REbyX6ztaGutg6qnbk5MDyIjQ8O6a/fDjHndqlUuqPkzvs5CpfilObs3jv4vSMBYv8iwUHY3QHvgECw6Pma/7sbZv6vrEng76stK5VS/1sqJRBkIwdG2pFKcBQgjRSXDIHLAskt9YBvrfVEgFCNAEm5agEyPRoFyFUbIUCZQSYJUK7aepnIq4RWOzdIap0Fmcluglyrl6DMTB8b5VojS8p0SqX/hBUWWXShUzFu9NhienHs0EyeJfvmjOK6OPQSTQzDXYecdsoFBx1w1AWjn7OyfdFJizxxIRcVxhltrMJ0Rbg/X9/koHPOO+q0U+OQGYr31aEu+fOHoZJIzPGOJYlIlccPXs1YAAA=");
 
 export default Keyboard;

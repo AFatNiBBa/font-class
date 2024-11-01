@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `panorama` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/panorama?s=sharp-duotone-solid panorama}
  * @preview ![panorama](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/panorama.svg)
  */
-const Panorama: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 64 0 448l0 32 32 0 16 0 5.5 0 5.2-1.9c.4-.1 .6-.2 .9-.3c.7-.2 1.8-.6 3.4-1.1c3.1-1 7.7-2.5 13.9-4.2c12.3-3.5 30.5-8.3 53.7-13.2C176.8 449.7 242.6 440 320 440s143.2 9.7 189.5 19.3c23.1 4.8 41.4 9.6 53.7 13.2c6.2 1.8 10.8 3.2 13.9 4.2c1.5 .5 2.7 .9 3.4 1.1l.7 .3c1.9 .7 3.6 1.3 5.3 1.9l5.5 0 16 0 32 0 0-32 0-384 0-32-32 0-16 0-5.5 0-5.2 1.9c-.4 .1-.6 .2-.9 .3c-.7 .2-1.8 .6-3.4 1.1c-3.1 1-7.7 2.5-13.9 4.2c-12.3 3.5-30.5 8.3-53.7 13.2C463.2 62.3 397.4 72 320 72s-143.2-9.7-189.5-19.3c-23.1-4.8-41.4-9.6-53.7-13.2c-6.2-1.8-10.8-3.2-13.9-4.2c-1.5-.5-2.7-.9-3.4-1.1l-.7-.3c-1.9-.7-3.6-1.3-5.3-1.9L48 32 32 32 0 32zM88.4 401l39.5-49.3c23.1-28.9 46.2-57.8 69.4-86.7L216 241.6 234.7 265c8.8 11 17.6 22 26.4 33.1c29-42.5 58-85 87-127.6c6.6-9.7 13.2-19.4 19.8-29.1c6.6 9.7 13.2 19.4 19.8 29.1c41.5 60.9 83 121.7 124.5 182.6c10.6 15.6 21.2 31.1 31.8 46.7c-18.6-3.2-37.1-6.3-55.7-9.5C442.7 382.4 385.2 376 320 376c-19 0-37.3 .5-54.9 1.5c-.3 .4-.6 .8-.8 1.2l-.9-1.1c-42.5 2.4-80.5 7.3-112.7 12.8c-20.7 3.6-41.5 7.1-62.2 10.7zM160 160a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M387.8 170.5L368 141.4l-19.8 29.1-87 127.6L234.7 265 216 241.6 197.3 265l-69.4 86.7L88.4 401l62.2-10.7c32.2-5.5 70.2-10.4 112.7-12.8l.9 1.1 .8-1.2c17.6-1 35.9-1.5 54.9-1.5c65.2 0 122.7 6.4 168.4 14.2l55.7 9.5L512.3 353 387.8 170.5z" />
-    </Icon>
-);
+const Panorama = createIcon("panorama", true, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABtwAAAMKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDSAsIAAE2AiQDCgQgBYMtB0wb5gXIPg1vjCT/VWJRe9iSMTAskzgHsW7efAVDS4sUHRQ5Ru4leQDOA2MVA2tihRIA7U9lbX1LQJz6mUMDHsx5rlwdBmMKlaBiJStOrNluONgtpUAzf23a3cDzEnoJSrj+Bw8ADP/wh79z37e1Nq4WBxjvjYlMDbANWhQGEsbVEXu5vvcQ1ZWZDvlSb9csRrTxGgBEXN709/P8V1EMswiGEtXnUTjMPJ/AgEfv+9I++G5Cm6ltcdvNEPNQBqFxBS4stOwhAOZmCMf9/wHU08AeMEIiAADUAwAA3ZvRQ3n8o8K9/wc9LIEAWgDgEbDAgnQEoA1LIB3HA44jDBowKIQAoBSftOKBRIZHwA8A4AAYYmOXu9z2hQVEuHH8cuj8aqWkSGNUoRJRmbo0RA+XAkrSNdtdVVVonAUxAarCkrRTsCF0mPQrQ9dGv5ofWIWzgcMByUvttIUgyUoKDY3XTiv8hyhYw3+5/93XdvFc8FAwVAQcOnGuq/fRuFTFOht5Roac0Y7A2cCdRvis55p1EdfaVM/vVSTq+eQi/eOv/NIZqymdE1bitpAg59F98xdOufrbwzdl3IETFFBA35oV/vB7QU4kZtFXb+Sf7Z3zae934PHBbgBBAXSfC4UD7n2t1RB3KH/n1ESDd6OkKo09CowUzCWvHHCX8nYRqBxYuEUypdGHAZ8+3lkcGCKO3tw+fRqrJ1/P59e8zSL9AeDv787v13DAmQ0JawFAD0XMV9+Wtj+1GQB+P8173f/MzQSCGQCCHf8xJdwBQBwFgIYJ1pEz9UMTgIB1Biv81HDnEAAJBQJgBAolAFYa0QiAE6oUAQiQST0CECjUaJbiECSeqY3OCLdSZzWwVefEc1cXoI1XzUDxstDsg0Xfv2ThgS7Uf853Kqp8i58dqvwA6rHHrX5zurxOLhVjSeZZbpk15ppjoTUdfpWhnbWWGlji+n2Rp5oKqvC04A9PHobH0eYqqy2cDh4/pRV/fb2Idcubi3HOCJ3WcItloVA2emtl2fJVM5fOLP8skrG94PsP");
 
 export default Panorama;

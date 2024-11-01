@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-ramp-couch` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-ramp-couch?s=sharp-solid truck-ramp-couch}
  * @preview ![truck-ramp-couch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/truck-ramp-couch.svg)
  */
-const TruckRampCouch: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M640 0l0 400c0 61.9-50.1 112-112 112c-61.6 0-111.6-49.8-112-111.3L48.6 502.8l-30.8 8.6L.6 449.7l30.8-8.6L352 352.1 352 0 640 0zM576 400a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM294.5 209.2c8.7-2.3 17.4-2.1 25.5 .2l0 125.5-38.7 10.4L126.7 386.6 34 411.5 13.3 334.2c-6.9-25.6 8.3-51.9 33.9-58.8s51.9 8.3 58.8 33.9l4.1 15.5 154.5-41.4-4.1-15.5c-6.9-25.6 8.3-51.9 33.9-58.8zM8 252.8c-9.1-34.1 11.1-69.2 45.3-78.4l185.5-49.7c34.1-9.1 69.2 11.1 78.4 45.3l1.7 6.4c-10.6-1.6-21.6-1.1-32.6 1.9c-37.4 10-61.5 44.9-59.2 82.1L131.2 286c-16.6-33.4-54.9-51.5-92.3-41.5c-11 2.9-20.8 8-29.2 14.7L8 252.8z" />
-    </Icon>
-);
+const TruckRampCouch = createIcon("truck-ramp-couch", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABggAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCFwsGAAE2AiQDCAQgBYMtBzcbHgXIhofv7Z4693UP4B7AyIilQgiVbwji/8+5eG/PR+PRNxpalKWOKoCqLpLwRNIPWzzSThTP3BYzOFGUFYPIFBU5PsTxoXz7HeTxT3ZKGdLN9D7OlyuNbzRwiqRCBiCqA2D43JmTvfxhfBjxXukJ4j0TERDDQSGQIUNjAQbJBBrLFcjlgg+jVPL/gQUBRFly5gRylMVGHADkIMnzvEGVZk0rlamSz4mXrrgzZem2dg/1erLDI02XRavoEW1jZWRRZd4tbR5odV/9m63vb/tgoxXX64heMSu4c+KWereOG1pfbVAn5kbduKXR9bbLnBSRpbnByP3iNcS40WBWwJtq123xSPVHvmv+/pr3HX3pguxb7f8ffvyw9H/VLat9obIPDJtnmWLo+YpbDh7cUrE+SP0XX330iPVutreovtqTjbzzQuue5f+aMdQt7Q0x8tidrZt0XPAEb1x/pptrixbtr+On7Onffq+0tIG3T59+K3umDhAI3h55/3NLqw36rXylBD5+9ofveP8ovZyOpUdQXgJB1qnUyaJ0TEAEBCn2aLH6okCyUk70yq6hUahIh6SsipBppDrkKuoIZTTVm7pcPlMm8gpCbYsJksq2Q6aPw5Cr7TEoY5C3/LJqR2ZzjMUwn3yJYzQ6elHRvUu3YkCxLTTWjKg0P7C4ltvt4b72tNUaW22xy2qrrLdL4TtMjnbbbMwJG+2HCt110U1hgAKun8U5Kthhp/VrFpcN9PXPh9rZ4zy6PWmJkPYQSxKRqr9UYecdyzdv+2WfsnIdAA==");
 
 export default TruckRampCouch;

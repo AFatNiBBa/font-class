@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hippo` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hippo?s=sharp-regular hippo}
  * @preview ![hippo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hippo.svg)
  */
-const Hippo: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M418.4 24.6l23.2 27.9c9.6-2.9 19.8-4.5 30.3-4.5l32 0c13.9 0 27.2 2.7 39.3 7.7l21.2-29.6L603.5 54 582.4 83.6c16 18.3 25.7 42.2 25.7 68.4l0 .4c19.6 17.6 32 43.1 32 71.6s-12.4 54-32 71.6l0 56.4-64 0 0-32-64 0 0 32-64 0 0-37.5c-37.3-13.2-64-48.7-64-90.5c0-19.6 5.9-37.9 16-53.1l0-18.9c0-9 1.1-17.7 3.3-26l-33.6-14L256 112l-40 0c-75.1 0-136 60.9-136 136l0 40 0 4.6-1.7 4.3-32 80L1.7 359.1 32 283.4 32 248C32 146.4 114.4 64 216 64l40 0 86.5 0 4.8 0 4.4 1.9 42.1 17.6c1.9-2.2 3.9-4.2 5.9-6.2L381.6 55.4l36.9-30.7zM544 272s0 0 0 0c0 0 0 0 0 0c26.5 0 48-21.5 48-48c0-14.2-6.1-26.9-16-35.8l-16-14.3 0-21.5 0-.4c0-30.9-25.1-56-56-56l-32 0c-30.9 0-56 25.1-56 56l0 18.9 0 14.5-8 12.1c-5 7.6-8 16.6-8 26.5c0 26.5 21.5 48 48 48l96 0zM408 432l0-48 48 0 0 72 0 24-24 0-112 0-24 0 0-24 0-48.4c-26.4 5.4-53.6 5.4-80 0l0 48.4 0 24-24 0L88 480l-24 0 0-24 0-64 0-24 48 0 0 24 0 40 56 0 0-56 0-32.7 31.2 9.8 11.3 3.6c29.6 9.3 61.4 9.3 91 0l11.3-3.6 31.2-9.8 0 32.7 0 56 64 0zm40-288a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-72 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm72 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Hippo = createIcon("hippo", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABugAAALhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCEFwsGAAE2AiQDCAQgBYMtBywbEwbIhuD5vK+vc5P0m07ayMgfhHcQVxBXwsQ19VdN7Um7uWWfj6swIs4nsPMMzgKOwtlEcUfznhjg0C60TSGPv+MCBenK9BrODx8aPxh0CkmRAYgOAKy4+cbreurT+DTi1f/vJ161NgJiRVALZMgwIsAyMoERuRq5XPBp/P+/+A+sCSCaJKdLIEczvscfgBwkjTzffN6SzckqVdGab1YV5e4zZ828vKri7KmzY8mYEXeOhma/ZoYoI0Q1y22z7hq6evjSJ/YvFmX53DKP1UL0xCaxVGweEe9s/MbmVdUbS8bl/SfGrFh60xMj4kTHfXv/5cNX9fVF8LDfZdPKuKXnkoG7Ey5xZe+lU6tNQlThIwE3xn2L6dWxiq7Cf2r0xv2L98f0eY+tL++/tPeSnsv6Nq94wxab3Dp4xZTbhq6evmkm6lpPuqvjrp8mvrbba2687Wg3+5sdtd7+dR1tW2c3+KGqfljCCmr9PFM90t9ob/26W9vsVhvNuGCzXZtnKHQbX9/dRtc2Way78MLrxoytV3ShyZPote4xvwGwwIevZ8VP/+pD45f/Dqgd8N8vjW5tjnFUe/b6hwvscPr1C+AJ1jBg4IwBCzj88AV64ATaCgasN8MSljDRd+71+kc3+85ES1hh+njbp5+2EeT67SLssfrqG/b2boiRq/eL8OFAIPh248U+3L59mV8nVAl8/sgvv9Srp/8/TSekuzBBAkE25/85tkknSAjOAKwpDjNp54sCyecakmttcZkAoUSApEkpQGZYhwC50mwBCmMWFaBJaWOZyJuFHtv29KTFgfTMYo6l53rcSy8s40VLk57IYF4EsaJfzuSrjSGrVqsXnLdAvVS9GdaKwVhgy5euT+tnHCbTZuKxdrO//RxiV7vY0yEj4kHWtR9qX6vtEVb1Q7UFzbOA2lLq27Hn8s1GloMcbM910X1AJUur3zfMcNh+7pm4NgmwELQAyStSsceeBxywPwA=");
 
 export default Hippo;

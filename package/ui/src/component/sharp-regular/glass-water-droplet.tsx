@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `glass-water-droplet` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-water-droplet?s=sharp-regular glass-water-droplet}
  * @preview ![glass-water-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/glass-water-droplet.svg)
  */
-const GlassWaterDroplet: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M77.4 373.9c29.2 9 61.6 3.3 86.1-16.4c16.7-13.3 40.4-13.3 57 0c24.5 19.6 56.9 25.4 86.1 16.4l-7 90.1L84.4 464l-7-90.1zm-4.3-55L51.9 48l280.2 0L310.9 318.9l-9.7 5.4c-16.2 9-36.2 7.3-50.7-4.3c-34.2-27.4-82.8-27.4-117 0C119 331.6 99 333.3 82.8 324.3l-9.7-5.4zM40 512l304 0L380.2 48 384 0 335.9 0 48.1 0 0 0 3.8 48 40 512zM144.1 149.9c-10.4 11.7-16.1 26.7-16.1 42.4c0 35.2 28.8 63.8 64 63.8s64-28.5 64-63.8c0-15.6-5.7-30.7-16.1-42.4L192 96l-47.9 53.9z" />
-    </Icon>
-);
+const GlassWaterDroplet = createIcon("glass-water-droplet", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABawAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBTAsGAAE2AiQDCAQgBYMtBzob1gTIhoePuar3k3TX7jBmARAOFCBLIDXugOzJqbMEuqe/d+f//NMHfEYfbQ9aIMv3rs4TCDDNO8/yZYFlmoC1O60VmrK90hKSHN/kuFwhixvxmALJ88n3eDR/aPyq1f0kCimAqAHAvC0bVunpjd6I70qfEN9ZgYCYB3KBFCk6BJgpFeiQyZHJBL1RKvn/wJwAokhunIAMRSzGRkAGElmWVdVX1pQXKrPN9NhlWz6Z8Wz5g41fTNkYZbG5//Zt2ytjazTEW8M/KHtg6HuDmzZWVlTuiO4oq+iMbTue8/yw9we9O+LD9nva5sfc/h/UfPB7v+8Pf2/lst9uflFT883J34rb/Ky4bXJDVVRa4DlPefmep/L8rXMvO6VnLIYH/GSOsWvn4PCRY3+3lNXWvvYa362s5e///Q8Egpay0z/uqZ75f5/yBPzy5Z9/ol9RqSfuJh+gjwQE6cjSSDvjLsRdAQBI4rL+cReBxGwZfNcKzwgQyhAgUVQmQKpdjQCZMiMEKOgySYCiMhukIusrNNhVQaLCOZCa7BbINPgIFMz0lVvUEKk5EcZAfOZiF2to0al83Oix+fR8WCqkhWDpcEa+rA69HEbD4KLDzjjtokMOOuaiQs5bFVxyyuIZvMgX5cYZbazcdPl2c8tuRve8C4716f1jZsjPO0Ndni8PAyMhqOMlEgmR1L8dfpTBcaMutHny0EUAAAA=");
 
 export default GlassWaterDroplet;

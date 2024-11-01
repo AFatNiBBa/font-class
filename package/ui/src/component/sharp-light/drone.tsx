@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `drone` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drone?s=sharp-light drone}
  * @preview ![drone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/drone.svg)
  */
-const Drone: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 32c39.6 0 72.5 28.8 78.9 66.6l31.6-5.3C213.6 40.4 167.5 0 112 0C50.1 0 0 50.1 0 112c0 55.5 40.4 101.6 93.4 110.5l5.3-31.6C60.8 184.5 32 151.6 32 112c0-44.2 35.8-80 80-80zm286.7 0c44.2 0 80 35.8 80 80c0 39.6-28.8 72.5-66.6 78.9l5.3 31.6c53-8.9 93.4-54.9 93.4-110.5c0-61.9-50.1-112-112-112C343.2 0 297.1 40.4 288.2 93.4l31.6 5.3C326.1 60.8 359 32 398.7 32zM32 398.7c0-39.6 28.8-72.5 66.6-78.9l-5.3-31.6C40.4 297.1 0 343.2 0 398.7c0 61.9 50.1 112 112 112c55.5 0 101.6-40.4 110.5-93.4L190.9 412c-6.3 37.8-39.3 66.6-78.9 66.6c-44.2 0-80-35.8-80-80zm366.7 80c-39.6 0-72.5-28.8-78.9-66.6l-31.6 5.3c8.9 53 54.9 93.4 110.5 93.4c61.9 0 112-50.1 112-112c0-55.5-40.4-101.6-93.4-110.5L412 319.8c37.8 6.3 66.6 39.3 66.6 78.9c0 44.2-35.8 80-80 80zM120.3 142.9L160 182.6l0 146.7-39.7 39.7c-2.6-.7-5.4-1.1-8.3-1.1c-17.7 0-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32c0-2.9-.4-5.6-1.1-8.3L182.6 352l146.7 0 39.7 39.7c-.7 2.6-1.1 5.4-1.1 8.3c0 17.7 14.3 32 32 32s32-14.3 32-32s-14.3-32-32-32c-2.9 0-5.6 .4-8.3 1.1L352 329.4l0-146.7 39.7-39.7c2.6 .7 5.4 1.1 8.3 1.1c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32c0 2.9 .4 5.6 1.1 8.3L329.4 160l-146.7 0-39.7-39.7c.7-2.6 1.1-5.4 1.1-8.3c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32c2.9 0 5.6-.4 8.3-1.1zM192 320l0-128 128 0 0 128-128 0z" />
-    </Icon>
-);
+const Drone = createIcon("drone", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABzgAAAK1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQCECgsGAAE2AiQDCAQgBYMtBywbBgbIBv6BvPL9JKvMGlm4hqcAdJ1T7Wvjf5yqGRYP4PcA5qL40rEWd2tLc55XoPHqpO3rfHmtQhWvgHVx21UQ0ZBYqJyApUsqgh8YG4zHwLLwpvpCArPBwDIBAFA4AABQs33rplx/qZfSY/cM6DGNAQGoFgAOAkzABJIRAFUwEZCMhQNYWAheynXFf6ADAgD5kwgG2ywgEPgA/IB5CRj4W1YaLu4U5PELsdoVN7A778mXDiTkamvBwXKn8/Ynb8k/UDZJewsOJm4rPFQ+5MyWK2X9YiorQecmjrQjoWxtoq7cPoVLkoFE3cK2J0dHl58tOJjac2+BdDAxS8u4GYrXnpErYfP2t8r0q1qtKqqitfbC6NVMj1njWRS3TjNiq8ujqprBaFSTVF0YWKOKbFUTBn7ttkIeITvjYPjBb+mP+z1m+LbnLaFWl394fZ+W//zxPyxo6xZvd+5kxYSoXd/wtPC20E8hMVl3mjNvyxY77L/7crvP5/1Hk1Y1Xw4bFhoN2be7412Xhro/fi7/5Bv/904tWz0P79dWw5q/rAmtmvxlvM+3/aXrhtpbtsxrzu2YrFD1bRce29zr9a7ESwkrdP780NxlmRQrCiZTokXnwvWPT08s8PMBECAoljHtZ/ewKv8CPQYAry/++EX9G3RvyDUOAoEYAAjMIm4RuhgAkosAAAAAQ+PIMAAEGLzgy8WDWXs3J2zoycAfm0ySCCcLm0LyI5WyOLm4NSayghDRdMVkEMxIMinHFLKI5hT5UYV7aX+iZUK7DlZ1/5qZ6435urOcksVKOJWczYpWD8Cwk5Wd0+68cbIjH2+kH8MZxhj60oeBjBmJo2iaG8tQ6u3J637WoSTFKIFDJZzb9eeudtD0KEYzcN3B/Wkq47wfz2Pcfv98PA8DACgFJ5BlMvz6jBo+rC8A");
 
 export default Drone;

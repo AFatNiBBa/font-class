@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-crack` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-crack?s=sharp-duotone-solid heart-crack}
  * @preview ![heart-crack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/heart-crack.svg)
  */
-const HeartCrack: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 167.8c0 36 14.3 70.5 39.8 96L64 288 256 480 448 288l24.2-24.2c25.5-25.5 39.8-60 39.8-96C512 92.8 451.2 32 376.2 32c-27.6 0-54.4 8.4-76.8 23.8C306.3 79.9 313.1 104 320 128c-32 26.7-64 53.3-96 80c21.3 37.3 42.7 74.7 64 112c-42.7-37.3-85.3-74.7-128-112c26.7-26.7 53.3-53.3 80-80c-21.4-30-42.8-60-64.3-90c-12.8-4-26.3-6-40-6C60.8 32 0 92.8 0 167.8z" />
-        <path d="M224 208l64 112L160 208l80-80L175.7 38c21 6.5 40.2 18 56 33.7L256 96l24.2-24.2c5.9-5.9 12.3-11.2 19.2-15.9L320 128l-96 80z" />
-    </Icon>
-);
+const HeartCrack = createIcon("heart-crack", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdwAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBVQsIAAE2AiQDCgQgBYMtB1Ib+QTIHodxrLCSnumlCOLtnqp+Mwt41nYEORLvHJ0zKUgW4TFi9JOZ2DL+L049z3kogA8iybbkfPFatHa7zyvQ87VxUalWg5rWwGruci0ota+kJbTk8WKPnyfk8Ut2VBnSrQQX+H8A4zcNHCWpkAGI6gAYPnfmZF+8ilcpvit9SHxnEgJiBCgEMmRoLMAgmUBjuQK5XPAqlXgVpYIAoix+cwbKIscEzAfkIAmR53U6VypTJZ/DSsW5s+ekm2NuzImH7dtHx7hRb3bMyu4Obh+zY6688HnLe0M+G3O637U6txo8aYcN73X/YUp1Px96u6G761HFB31StHhW/dkfzb9bw8u/hm51Lx7YaupUQ+f7f+9ee528XnuspVPVL7d2r88/99f2Wluuwuo5Fzu0nTpk1sydwfbvv1MW33qi5f/+hz7Wu/bFOasrAIHg8fMW7y6tNujv8pUSePPRX78qv6PSqyQ9Q3kJBFmnUieLEkgEACDFHi0SdxDIdJaQUdl1cdSoiEhiWRVhZBqp3iBXUUcoo6neuPL4TJnIKwi1LQYklW2HTB/7IFfbB1DGIF+qZdWOzKZIiyC/dHFjJDJ6XtG9S7diQDHNVMpM8Dw9sFAL7fbETntctcZWW+yy2irr7RLYDpON3TYbs0JH+6JCd110Uxig2C7vuTmk7rDT+jGzP8tAxXmxnT3rwe2xmATocRuhjEiR1bLrYOeVO5av3Nj5efbU6ZmXCAAAAA==");
 
 export default HeartCrack;

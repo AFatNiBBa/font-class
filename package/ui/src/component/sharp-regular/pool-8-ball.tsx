@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pool-8-ball` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pool-8-ball?s=sharp-regular pool-8-ball}
  * @preview ![pool-8-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pool-8-ball.svg)
  */
-const Pool_8Ball: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm120-56a136 136 0 1 1 272 0 136 136 0 1 1 -272 0zm173.3-25.8C300 166 304 155.5 304 144c0-26.5-21.5-48-48-48s-48 21.5-48 48c0 11.5 4 22 10.7 30.2C207.2 184.5 200 199.4 200 216c0 30.9 25.1 56 56 56s56-25.1 56-56c0-16.6-7.2-31.5-18.7-41.8zM240 144a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm16 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Pool_8Ball = createIcon("pool-8-ball", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABlQAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCRgsGAAE2AiQDCAQgBYMtBzIbSAXIHgduTDc3nfkyGmHwPG+Xf+6bWUDJfMCo6DZE9wW1QpstD5KCqz05Ld54aXGTs5IVbSxctECWN6U54xWo2PD+FGr8wd70Bez3ZlusSIkiHRNlkj+m4+sEupyVA5hAnVT3gP3pQ+UrMXaCwqQBACBeAACg25gRg7j0ST6J3E0HucsAQACkGwAGAmiABiQRADqiIUASHQPQ0RH4JOk0/QcaIAAgZvJjCgAdsAI7gX0whkBh1vUEhGI2m8Pk0kfXK9hnbGssUtL/jn1X31sNi9jaqLjfbcfuAXeblIrzZQ+Rq0MeOnYPut/t8qhnXS8NvGffNfhB9yujx2xrIFLYoNCxu16+J9laN4+076pfcBEZc1xOhY/VzgoeiW4NZUVPho7Wyo0cT5yq3f945GjoSPBYOJUdO1EzJ366TvUCb8H3avdm3+PhxXYXoMTpaNPG4Sy50I7F6PgRvWwQq7zco8flypiNXjGOu2va1MqAjD+///2HWiaG7xbFCv3a/XdNm767r/kLM22Wn1VU/bTYMge5P31yFyo9LBQaRgcAeWzSssX+KZ6O/60OBcCXMz9/0n6D6UsKVQBYUQAIaA3TDZmoAFAgAAAAgJLVVFcAAig2cq+Uk2MIiWAXLCjM2EEjgRd07DQAExm0YoXKCBEpug0nyCQEhZNloNGaTaATpBJMdOSmayYomi7ymsT/BFN6c6TXmtGscVOjvTGNdUG92DDvYIjVuqtdrR4cMpslLGYls5jJPFYybDmDglUsovcK7cUXMWhGY5pi0B5jO3vcHs0slrOCeSxhcVzSAeO8U5fV6+56YCgyY3MiCgWiHA/WbNS20fMCAAAA");
 
 export default Pool_8Ball;

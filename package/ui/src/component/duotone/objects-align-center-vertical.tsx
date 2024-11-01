@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `objects-align-center-vertical` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-center-vertical?s=duotone objects-align-center-vertical}
  * @preview ![objects-align-center-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/objects-align-center-vertical.svg)
  */
-const ObjectsAlignCenterVertical: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M64 80l0 152 0 48 0 152c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-152 0-48 0-152c0-26.5-21.5-48-48-48l-64 0C85.5 32 64 53.5 64 80zm224 64l0 88 0 48 0 88c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-88 0-48 0-88c0-26.5-21.5-48-48-48l-64 0c-26.5 0-48 21.5-48 48z" />
-        <path d="M24 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l40 0 0 48-40 0zm264 0l-64 0 0-48 64 0 0 48zm160 0l0-48 40 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-40 0z" />
-    </Icon>
-);
+const ObjectsAlignCenterVertical = createIcon("objects-align-center-vertical", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABjQAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCEAsIAAE2AiQDCgQgBYMtB3YbWAXIjsO44TuyxVKGeIyH79f6PPe9ntn/u5ehl3iWURGBW7eeIUA2UVFxRDpsU1Gp6ElmrPeJy50/8AMuwfdHGWuDrPO30RwcUJTItOkJRXGUaQbW7rTtcCh8kqRZkuMbp8/pAUX8km9pkJ4muO3/BzD+Mcgtks4MIHoCYMXOret98Wf8meK79mfEd9YhIFaCWiAjY6gAi2WBoQo1CoXgz9Ru82e02zUBRJN/jwya6IIzuAwoQJKloig7q1Gjqka3YkfVKHd+MPj5+CpE2a2syogqVCGqeH/QkzHlXkGIp/0ejq3iwwGPh4T5tGf9H40r472+DwZuFy8d9UnPT/4d6QQDPtzcr9/mCVomdCwHdMtyrTctZwIuWHbxCVRansjf/9rit/z6fX6iDv5YFhIBu2vNLvg8EAhGzxu25WCPxf93VAn8/fn/pR+S9p9J+gQdEgjylPYU+xJIBAAgxQ2jEiwXyFbL6FW7eiRAKBEgaSoFyIboKUChNFmAhuHmCNBU2iqLolPoa3+Bkq4uQ9lcN6FCX59CDYt9mTX1jaxxjL4w773EtQSs2VXPmNaqF9bdWmaViHLLi+phc8INOzQRzjrhoguuOe6Y065V4BXry+vOWyth1nxRbYZpWmoL1dOdW3EHZVdcdZrn5zdZpF6fTnBDnjwRnCTizrQny0SKPFYd5aknTpm678dOvZKyn1jqYYDfuAA=");
 
 export default ObjectsAlignCenterVertical;

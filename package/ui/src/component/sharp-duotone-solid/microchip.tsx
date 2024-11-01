@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microchip` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microchip?s=sharp-duotone-solid microchip}
  * @preview ![microchip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/microchip.svg)
  */
-const Microchip: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 128l0 48 24 0 40 0 0-48-40 0L0 128zM0 232l0 48 24 0 40 0 0-48-40 0L0 232zM0 336l0 48 24 0 40 0 0-48-40 0L0 336zM128 0l0 24 0 40 48 0 0-40 0-24L128 0zm0 448l0 40 0 24 48 0 0-24 0-40-48 0zm32-288l0 192 192 0 0-192-192 0zM232 0l0 24 0 40 48 0 0-40 0-24L232 0zm0 448l0 40 0 24 48 0 0-24 0-40-48 0zM336 0l0 24 0 40 48 0 0-40 0-24L336 0zm0 448l0 40 0 24 48 0 0-24 0-40-48 0zM448 128l0 48 40 0 24 0 0-48-24 0-40 0zm0 104l0 48 40 0 24 0 0-48-24 0-40 0zm0 104l0 48 40 0 24 0 0-48-24 0-40 0z" />
-        <path d="M448 64L64 64l0 384 384 0 0-384zm-64 64l0 256-256 0 0-256 256 0z" />
-    </Icon>
-);
+const Microchip = createIcon("microchip", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABnwAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDGwsIAAE2AiQDCgQgBYMtB04buwXInoNx41xCHHMsFj0reRH1TqdWEdSvffbM28+3FwJQRBJRXhyQDNtUHAlFnqj8qQj1KzLR0WvVdPt0V+qjuEFdqBdK1YkC1RSo3hwOoVAWPHEk8ydKQrS/T1yOf+PTA07iRxvTlr7v87e5KyuBQLsozxd4QGFgCWdgDdtG1sTscYhxvEIVv8sTLfJVAs/c/wDGPykvUq8AiIkAYO+Zfg/OMIYZ482XGNcFAbEPsJBCQcFcCuzgFpjLYyGoVIJhNg0Mo2kIAog297QC2pgEXuM9oAIp1VXVC0Zdc6OuG3fQqqvT9rv7YyP1SEYd5WiWHIkSdREGg4j+yQhcMESjhcRSWtQHeOCZ9YKo4GenF7/zrkUW/O4/CBpKNLxjz0YRzQKesWzYY0e01owYTX5xLOI0JgvSDtbg3Q6/Y7exn/PMa7tFhPUevWLZ3A4QCO5dfR+9EtzxPzBI8OfLf9kPCY2T8h26EgRlbbPWOEESAICMuzLJHhAonqqFVx3xXIDQR4DU1hegmCNEgUrfGgq0zFejQFvfCW5R9YSpJh2ZRtwgi+2eZGWqD9myw99vmxol24qZTvxrTLOHkHWMzKJQm1YTjZQTeb3s0GGDH7xhwItYODq4mZtZuw2Ii150t2dv4ZYPIqYiQdrocv5UG2H/4mq9rFw/pIOed9hju9+Atkvg3OxMUYiMMqnCR9PV+lQoAI3oREnqAAAA");
 
 export default Microchip;

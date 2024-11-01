@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tombstone` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tombstone?s=light tombstone}
  * @preview ![tombstone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tombstone.svg)
  */
-const Tombstone: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 448l0-256c0-88.4-71.6-160-160-160S64 103.6 64 192l0 256-32 0 0-256C32 86 118 0 224 0S416 86 416 192l0 256-32 0zM0 496c0-8.8 7.2-16 16-16l416 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L16 512c-8.8 0-16-7.2-16-16zM240 144l0 64 64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0 0 128c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-128-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l64 0 0-64c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const Tombstone = createIcon("tombstone", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABbgAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBZgsGAAE2AiQDCAQgBYMtBzAb5gTIhofv18o/93XPVgCgsypM7IA8sl4bonEh+mCnvkUVPdPfz/Of9hvwGX2UaMwYF3jm+QQGGG3pE9jNBjbTCdh2p01RNO1dLLEkx7fj9YA8bkVvJdKN9Ann2ofG39o7S5JnAKIZACYsWzRHuRKViE/VR8QnsxAQE0EhkCFDJwFGywQ6yRXI5YJKVKvpP7AggKjBr55AjhIWYwMgB0mW550b1zYsNc6XNiw1aJyl7I+xr5f+Nvrl4hQNIos/F/1c9vuC70tSNFh/rW3juNL6cqtGcbXNKqGhKjUIgcJkxqmAgl1qGBEgLC+prWtW92+3T1s/OYmY9OnTpELGp0+rKBALlixZEMhYsmQXxYl+TSr3VZpg9P+68SyPAuInCSKApqHxzwOBYPjNZeV1TUf/qtcwgb+e//+Lfkaq5SinOtSTQJD1rva2OsoQZQEASHFUbZQRSGbL8Ls2clWA0AABkhoNBMh01EyAXAO9BCjpYogANRpYJBN5faGVNR0kjRwAmaGOgVwrD0DJaG/LNVpF5luKZyg/u8ypEZqyrBjQt38xstjWieouUp0fVRxb3Y/mvh5w1lb77HXYFpvtcFhxB82pHbHHVIuY4osKA/TVX2Gk4rr1fHypLQ46ZId99tIioxTvs+6O2qN7gJsw70Bbk0Sk+of37dno6A==");
 
 export default Tombstone;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `input-numeric` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/input-numeric?s=regular input-numeric}
  * @preview ![input-numeric](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/input-numeric.svg)
  */
-const InputNumeric: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M576 112c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16L64 400c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l512 0zM64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l512 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm40 120c0 13.3 10.7 24 24 24l8 0 0 96-16 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l80 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0-120c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm190.6 30.4c5.7-8 17.5-8.6 24-1.2c5.2 5.9 5 14.7-.3 20.5l-72 78c-6.5 7-8.2 17.2-4.3 25.9s12.5 14.4 22 14.4l88 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-33.2 0 34.8-37.7c22-23.8 22.4-60.3 1.1-84.7c-26.9-30.7-75.4-28.4-99.2 4.9l-11.1 15.6c-7.7 10.8-5.2 25.8 5.6 33.5s25.8 5.2 33.5-5.6l11.1-15.6z" />
-    </Icon>
-);
+const InputNumeric = createIcon("input-numeric", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhAAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCIAsGAAE2AiQDCAQgBYMtBzQbJAXIjtOltmLyEcXD/9v13z63qvsBqm9oAOcQQzlzEvSa1GyzvFdm/3O55/f8aIF8o0PZuzVt+ViDEwgwXBp2JL0wiygR7m0iFtjRY0dIhLSQ6OyTjq8H5PF33KVEejh9iTv5TeNrPe4gKWUAohkAy/bs2OTjSlQivvj/DeILGxAQy0AhkCFDvwALZQL9cgVyuaAS//+P/4EFAUQZvUgCOcq4HNcDcpDked7cOzCyrtSQ764r1V5+f0eK+9ob44HOLB7sajr+3NiIl7pTPDzu5VFN8eKEV/uyeGT8K6Mbdz08qi5EbTzXXXIv9j0yOrgRnm5qdj3YcX/7zrgPzI5+bEk8mkL3vjLyubHt8dCo5/u6hr/S/Mq3w2ZLtlQaaazAF/+f8lQLLbXUtrQ8hZDw7JirO7ZVO6rZtg7Utmay2TWUwt35cODVz89zzSaPHL6gsnfyE8OM8mN3+afdH388N880jq8EBIL10/uuOdK08NfqugS+evf73/iJdEt6BdUSCLKJ/090MN0SD4p7F+Mqw+GDAsn5chSm3gMChFoESMpqK2T6NEOu1gQoGTSLVSo7VGTkNdLtDjlI6l0KmdluhFy716BkoU9KZe2RGR5vNvy3L2W1RFadKqZNnlrML6Y9RbAlNu4uKNTO2KvCzDi46rSLXeQKp5x0zhUCu8ym6pUutHqFrvJFhWkmm6owX7E9vFV2i9JlLnduLO0fs0BxPj3WVevl48BPiHK6piQRqcE2C5MuuvLClwc=");
 
 export default InputNumeric;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `uber` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/uber?s=brands uber}
  * @preview ![uber](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/uber.svg)
  */
-const Uber: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M414.1 32H33.9C15.2 32 0 47.2 0 65.9V446c0 18.8 15.2 34 33.9 34H414c18.7 0 33.9-15.2 33.9-33.9V65.9C448 47.2 432.8 32 414.1 32zM237.6 391.1C163 398.6 96.4 344.2 88.9 269.6h94.4V290c0 3.7 3 6.8 6.8 6.8H258c3.7 0 6.8-3 6.8-6.8v-67.9c0-3.7-3-6.8-6.8-6.8h-67.9c-3.7 0-6.8 3-6.8 6.8v20.4H88.9c7-69.4 65.4-122.2 135.1-122.2 69.7 0 128.1 52.8 135.1 122.2 7.5 74.5-46.9 141.1-121.5 148.6z" />
-    </Icon>
-);
+const Uber = createIcon("uber", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZQAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBSwsGAAE2AiQDCAQgBYMtBysbxgTILgZyMjd1bDtUKpliy4tMvvOiKyIo1tjevWDa8AxJk5hFQiYlk9gpgaEyhOJGzeXuA1DppgoA1Lt6BmEaVQJwwI7BiBhTHZ/v5u/y6IbeSygby8YGmtsiyaxmqSV/VyH7UzfPs00BPuc+FnYeyJhAc54n0Hne5RsooITSjALXrJ0uww16WaVL+STDpB82C5SxqcyhIl/IH7iqt4oPQUOQqgIA0QkAWDzPQ/wy5eDfvxCvSkFALAEYRhSY6UcwQy3oAhrDoFQK3qgo9g8UQABRo8Hp+5YosQ0OAJQgZakJxZu1Vk2ZWWtqt1gtE3RJRh9bbrFyUqyGmv18pbnirYR80M1EPDAzVwW5wk1comAzD83H9ffi+5H9mbuV2KPOo09/bX/Y3u3qerX1z9YFrDlvF+fhpqMOlPYgjKQK83ov6pSHdpLYaWkEgyNAIPgqpv/CXvRvMKsA7zdP5/Ev8ymPQKMEQTGmgJp4AkAl8EoZEvR4AoG0jMh3bfWIAKEZAVKtWYBCHweCUrNRBJVB2QhqzY6pojQi9KodILW6BIVp3aDU6xpUZnyqtd5QRxMbC+xnLilQyB+S6SlpokAsPZ0LELp0C8W2HCcxE49ZtDarW6M2uIU8hcZjEXiE70FSuhRphALiOHyerjROl8FmtT6FxH0ljuSXx2MMAhh/B5ruSE1nU3MCAAA=");
 
 export default Uber;

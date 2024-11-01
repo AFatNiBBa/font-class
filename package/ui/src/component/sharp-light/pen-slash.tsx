@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-slash?s=sharp-light pen-slash}
  * @preview ![pen-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pen-slash.svg)
  */
-const PenSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M553.4 150.6L576 128l-22.6-22.6L470.6 22.6 448 0 425.4 22.6 294 154l25.3 20 60-60 82.7 82.7-50.3 50.3 25.3 20L553.4 150.6zM320.7 338.1L208.2 450.5 104.8 471.2l20.7-103.4L228.2 265.1l-25.3-20L96 352 70.8 478 64 512l34-6.8L224 480 346 358l-25.3-20zm164-164L401.9 91.3 448 45.3 530.7 128l-46.1 46.1zM32.4 10L19.9 .1 .1 25.3l12.6 9.9L607.8 502.2l12.6 9.9 19.8-25.2-12.6-9.9L32.4 10z" />
-    </Icon>
-);
+const PenSlash = createIcon("pen-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABawAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBdQsGAAE2AiQDCAQgBYMtBzAb9QTIjsO44TuyxVKeRQT1a7z1vN0A8AaAwceRTH0XG8Wk4pnvTmEy16penKoZ59mAz4nzWBic59OD6RznFej52jgXQbFWUezbRKUwmAg9dUiQRHRc4fG1hzz+jg5Kkc4mOFk/NL6o5wRJngGIqgAYOnv6RDdexsuIJ/9PPDEeATEMFAIZMjQUYIBMoKFcgVwueBn//0//gQUBRGn85gRylMYMbAbkIMnzvF69ctUqlKqUz4oblt/evk37djEr2kWbmBFtY3rMjCnOmj1jRjZjtqfaxQy3YfQW/uxZM2cN3hgzYFntWrXbRK3Y2jZoH7VjW7PzVc9/a2oVbdqs4ltMnWqVVY4dc9xl06ap5rjt2z9c2gK3rqqh5iorVzlu3Tp1D1qqtoN17d3reEnJNBA+M22aZ3dKLib7eGjaUxd18qLpr4NAcL35uTmLqwz4q2yFBF5f+vGLv/j/G+lICmUlEGQd/u9gQToCxA8gTLFLM+WLAskEOd68olMChPIIkJQWMkGmgaqQK689lNJYzz1KK2+6TOTlhJoWAkgq2gqZXg5CrqYLUMoA94PSakZmYrKByD+8jFESH9mt6NqpS9GvWKaGYjViau9fbJttdoWytrjWKpttssNKK6y1Q3DbTIx32miURoz0Q4WuOumi0E9xnHtePstK22y31mabSif9Ffe9NnbptdtibxKg2+MgaWKkcltWbuq4fcPS7WsAAA==");
 
 export default PenSlash;

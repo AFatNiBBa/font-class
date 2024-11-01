@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star?s=regular star}
  * @preview ![star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/star.svg)
  */
-const Star: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M287.9 0c9.2 0 17.6 5.2 21.6 13.5l68.6 141.3 153.2 22.6c9 1.3 16.5 7.6 19.3 16.3s.5 18.1-5.9 24.5L433.6 328.4l26.2 155.6c1.5 9-2.2 18.1-9.7 23.5s-17.3 6-25.3 1.7l-137-73.2L151 509.1c-8.1 4.3-17.9 3.7-25.3-1.7s-11.2-14.5-9.7-23.5l26.2-155.6L31.1 218.2c-6.5-6.4-8.7-15.9-5.9-24.5s10.3-14.9 19.3-16.3l153.2-22.6L266.3 13.5C270.4 5.2 278.7 0 287.9 0zm0 79L235.4 187.2c-3.5 7.1-10.2 12.1-18.1 13.3L99 217.9 184.9 303c5.5 5.5 8.1 13.3 6.8 21L171.4 443.7l105.2-56.2c7.1-3.8 15.6-3.8 22.6 0l105.2 56.2L384.2 324.1c-1.3-7.7 1.2-15.5 6.8-21l85.9-85.1L358.6 200.5c-7.8-1.2-14.6-6.1-18.1-13.3L287.9 79z" />
-    </Icon>
-);
+const Star = createIcon("star", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABagAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBagsGAAE2AiQDCAQgBYMtBysb5QTIhofv1x499+0GgDdRzOwASLMFYOGSokXVus4fOTVe+1TAR16Uf/Xq86Z09m58AhVb5p+WCcyGs4nizK0xRfdSpp+IMEfnkB6/9Xh2hjy+x2llSFfSN5yqHxp/aGA/SZkMQFQHwKAZU8Z59Wv8GvG1dJ/4agwCYhAoBDJkaCxAX5lAY7kCuVzwa5RK+T+wIIAoS8DEyuOdE7EakIMk5XmrZpXKVMmnp1rFFRfqTItpEWkXak+NaUE7X3d6TA3axXozYnpol5hlNlSmzph6HutTJ26HQ6KBtb+mxZ3qd/5q/m35N81e/rp2yHGX6/h9XL8r69dpcE2Txw8/HB6pZx8ePWpy47TsSr9xvy9wa/naXyd0XdMeGP1mW3XTptpZqfYOq3q4fn1lD7V2aHRY4XT3zWj8PBAIzv7fvduCan3/LV8pgd+f/PPfcX+d0rPUJt1BeQkEWdtSW3PTQHXUAYMCJE+xXQv6JoFkpETetbKLAoSKCJCUVVGATCPVBchV1EaAMprqJkBZFU2RibyCUNu8i0gq20RkuttH5Gq7S5TR18e8rNqReZfoG+K/XdrwERg2VHRq37HoXTy2TslheLjfpzB7LbfzXCs6abkN1ttqmaVW2Trgm42rtllnOMKG+aFCJ+11VOit2B49H59umc22WGWD9eWQPor3o5a249WtKEyEsbNGkoiUf/0A");
 
 export default Star;

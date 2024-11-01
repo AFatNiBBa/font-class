@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tv-retro` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv-retro?s=sharp-thin tv-retro}
  * @preview ![tv-retro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tv-retro.svg)
  */
-const TvRetro: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M141 1.8l115 92 115-92 10 12.5L278.8 96 496 96l16 0 0 16 0 384 0 16-16 0L16 512 0 512l0-16L0 112 0 96l16 0 217.2 0L131 14.2 141 1.8zM256 112L16 112l0 384 480 0 0-384-240 0zm112 64L80 176l0 256 288 0 0-256zM80 160l288 0 16 0 0 16 0 256 0 16-16 0L80 448l-16 0 0-16 0-256 0-16 16 0zm360 48a8 8 0 1 0 -16 0 8 8 0 1 0 16 0zm-32 0a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm24 72a8 8 0 1 0 0-16 8 8 0 1 0 0 16zm0-32a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const TvRetro = createIcon("tv-retro", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABgAAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCKQsGAAE2AiQDCAQgBYMtBy8bKAXIjsQ4JvJIF42HePh+zfpzX3dSmU6mFuktM7rlL5E0W2KHQq2b+pZAJ5khHv64n+f//DfIv3v2yT5KxSK1OBIo83wCA41qooHNdAK2o3OfSbEMwAMb7QhlfOmUGumNBM+FD41fDfAUSVEAiO4AWL5352bfdUVXxM/tj4mfbURALAdZoECBwQIsUggMVsoolYKuaLfFf2AmgKhLlyVQosINPGTek6RRlsOaHb068O3NWme5p1mrDu7es3tv9Ild0WyKFKJqRRQR4x57ot/uqlml6OThaners9U5T3SybMe2Of5q35d7v9LntX7VW2PfHvD6qHcG7vby3Bpjfm3JiA+6f/D7cGd4+usbB/NKbzm93ZPue6C77n8V48lC8K0bl/9K7z3Q5YG/ri7NOZMZ1i3nad3RXXeScnZq/dixemRyn+3b+3j7rZ0Q9WNZxGwgLtvTmPzr0Rb932gm8MsXf/6K/ora3yXpAzQkEBST2pMcSiARAIAUd4xIEEguaEirWl4VIFT0kNRVUBikO5QqE6FmqNniydE7FaLsEHo7jCFpuQ6FOe5CqbcPoWaR70N1vaMAPhl05G+/jDVjZHW3PH3KtLwgb6Y1BZ5E274wn3aNuyPLxuOZzrjqiltOO+W8WyP6hs3R2y5bs4eu9kXZdFNMky2Qb+eeT97jtBtuOu+qK76ThfL7vnHu7Ncej71J4pxhVJKI1Lh1Z/I/DsyrAAA=");
 
 export default TvRetro;

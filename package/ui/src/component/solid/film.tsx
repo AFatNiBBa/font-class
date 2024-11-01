@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `film` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/film?s=solid film}
  * @preview ![film](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/film.svg)
  */
-const Film: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM48 368l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM48 240l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm368-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM48 112l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16L64 96c-8.8 0-16 7.2-16 16zM416 96c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM160 128l0 64c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L192 96c-17.7 0-32 14.3-32 32zm32 160c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-128 0z" />
-    </Icon>
-);
+const Film = createIcon("film", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABqwAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDOgsGAAE2AiQDCAQgBYMtBysbtQXIjsQ4JvGLKEyG0vLw/Vqf577uTz3L0MuMDgDDKIkdGzEVm4qMngx5x5//y/HdtqMD/EaHNhauCXK7MJrbE+gFvG36As8Ci6TnEQTombfcaCSyT5JUapIev9HjVR06F8jjh+y6OtKr6W88ii8a/+rsOklTBiBaAWDWhjXL/FqNasRfta+IvyxBQMwCpUCGDN0EmCoT6CZXIpcLqlGr8X9gSQBRTx6WQI4KfsRvgBwkTXnepU0rV+zSpVLXPF/vP7DIXh8S8fmA5vHhoE87p3hl4Cd9m8VHgz/rkm0SXrSvxMsdI17qUMTzdnuetxP9pHer0NpDL7d/UanEvY4vR8SVDi8VRdxt99w6WjriOREP7/1Zq8/+8/f+v+0sWtP6ncvead26mKmRePWIlmVZtqiWqi1K2T7REjx+4MQJ3an1nCllLW7fbnFZmpqpkj3fnmWUcD0IBCOXf39uR8up/zdWEvjn+5a/RbVqkj5DowSCbGhtqK0JJAIAkOK83gkCyZeayLM285IAoUCApF4hQKarVgLkCkMEqNPDOAHqFdbIRN4ktLONQNLMKZAZ7wLItfMFqDPVb1G9dpFZMW+D/B8yZf7IvEXlqOEjy8nlsqoIhsmG6SnltjrwvK5B2Gu/E447a5+9Djkbfdqy9Jxj5mvUPG9UGmW4kUqTlceNR2V90WlnHJpL5/NMUd4PBzqvDx4EIxHG0SqSRKT8CQAAAAA=");
 
 export default Film;

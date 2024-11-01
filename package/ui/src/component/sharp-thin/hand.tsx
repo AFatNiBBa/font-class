@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand?s=sharp-thin hand}
  * @preview ![hand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand.svg)
  */
-const Hand: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 0l-8 0 0 8 0 24-72 0-8 0 0 8 0 276.1-31.7-31.7L76.1 256.2l-5.7-5.7-5.7 5.7L8.2 312.7l-5.7 5.7 5.7 5.7 28.3 28.3 89.4 89.4c45 45 106.1 70.3 169.7 70.3l8.5 0c92.8 0 168-75.2 168-168l0-240 0-8-8 0-72 0 0-56 0-8-8 0-72 0 0-24 0-8-8 0L224 0zm88 48l64 0 0 48 0 8 0 144 0 8 16 0 0-8 0-136 64 0 0 232c0 83.9-68.1 152-152 152l-8.5 0c-59.4 0-116.4-23.6-158.4-65.6L47.8 341 25.1 318.4l45.3-45.3L93 295.8l45.3 45.3 13.7-5.7L152 48l64 0 0 200 0 8 16 0 0-8 0-200 0-8 0-8 0-16 64 0 0 16 0 8 0 208 0 8 16 0 0-8 0-64 0-136z" />
-    </Icon>
-);
+const Hand = createIcon("hand", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABfQAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCYgsGAAE2AiQDCAQgBYMtBysbXQXIngNu04wjfT8lkpdOI9Xj5JlXYhjP87/2v33uzDepos2kfUdEO6VDaGqrv0bEV4foyao18vj1+/3OPpvPXlzu/ISbN7dEJ5KJ3sQbhCgaGolQ++6UmyeSYkApRJp8HvrHLuX/j/8GPBD5OeITf3fF54xXoPFNzXML1h2vFawgJaiA9WzbqyCiobALlRPUOXGFDuVhGa6HN81vQ5Yp1AoAZBAA7L549rjLH/mR3DWR946CANkNYBKBClRgFAE2qQiM0khQ0xD8SPPiP5AQgLQjeXIB1KAGd/AMUAMKpdYSTvfoVlq10LmBBYNQN4MK+fPQOY4plcVO8UsVna29EKCXnXc1SeaZfY1XDwsQxXuIvisI9HHzdWU3ba6/9L8Q/6TEL0lxiUrijEknB6zsN7dsW99THzzf30kCuMotz+boX52Tad0+We5cuszu+eFKJ3Ly8y8H/2A6FItgV+tqKg6XmexryPbodbu8ya6j7IoJQdfmG0m3e1T7yYRU18eYmpV4Klv9eeUuqdaBgMC3mTW9xSbxPygAfr38N/kZVc3la2mhkwIIVPPNvMYCVHzzKgAASqZhLkCFQLGtSF6114EAgkEAhYERoOLBFgFqLAAB2niLQoB2rIKKagsQR009UFgaA6poM0Dj6BjoEl1FBseokMnBFfdfmHxgjOxfNrkSHCrj5WZdywMbY+cT5Gl7elr2+eFC3UYMm9SlU5/JET2uKJ0yJHsPzfJBUphgoaR48nbr+eFqXcZN6DNi2C+SQL7v+JreH+2HV6MAWP2mFQqkaIAM");
 
 export default Hand;

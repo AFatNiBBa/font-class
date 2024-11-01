@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kidneys` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kidneys?s=sharp-light kidneys}
  * @preview ![kidneys](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/kidneys.svg)
  */
-const Kidneys: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M456 192l-9.3-10.5-39.2-44.1c-10-11.2-15.5-25.7-15.5-40.6c0-21 11-40.1 30.7-53.2c9.5-6.3 28.9-12.2 53.3-11.6c40.2 1.1 72.4 24.5 95.9 62.2C595.6 132.3 608 181.6 608 224c0 30.8-6.8 64.6-21.5 89.6c-13.9 23.5-33.9 38.4-64.8 38.4c-42.9 0-77.9-37.3-74.3-73.3l7.3-72.7 1.4-14zm-36.2 40l-4.4 43.5C409.7 333.6 463.3 384 521.7 384C610.2 384 640 293 640 224C640 128.4 585 3 476.8 0C448-.8 421.5 5.9 404.9 16.9C377.8 35 360 63.5 360 96.7c0 22.8 8.4 44.8 23.5 61.9l34.3 38.6-1 .5-56 28-8.8 4.4 0 9.9 0 256 0 16 32 0 0-16 0-246.1L419.8 232zM184 192l1.4 14 7.3 72.7c3.6 36-31.5 73.3-74.3 73.3c-30.9 0-50.9-14.8-64.8-38.4C38.8 288.6 32 254.8 32 224c0-42.4 12.4-91.7 36.1-129.8C91.7 56.5 123.9 33.1 164 32c24.4-.7 43.8 5.2 53.3 11.6C237 56.7 248 75.7 248 96.7c0 15-5.5 29.4-15.5 40.6l-39.2 44.1L184 192zm36.2 40L256 249.9 256 496l0 16 32 0 0-16 0-256 0-9.9-8.8-4.4-56-28-1-.5 34.3-38.6c15.2-17.1 23.5-39.1 23.5-61.9c0-33.3-17.8-61.7-44.9-79.8C218.5 5.9 192-.8 163.2 0C55 3 0 128.4 0 224c0 69 29.8 160 118.3 160c58.4 0 112-50.4 106.2-108.5L220.2 232z" />
-    </Icon>
-);
+const Kidneys = createIcon("kidneys", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABnwAAAKfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CCeQsGAAE2AiQDCAQgBYMtBy4bdwXIjsM4hlxC0YTJZIpXPPy3X7tv/izmzSSxCZeQNBIyWfR0mjUaoRMynbgS2RK+/+Uf/rmBuCH2RXAlcHrQH3BTmn9/6nlsLcDHcR4TE/+eVfA5zyvQ89JatqYWaGOtoli/W335Skq3JImmZyT3NYfbLiHHb7KFOOlT5DF4LR8aLdr6SHIBgBgAABxcJsXgep3qEY/LE4hfUSAgDgFMIRQoMIbANlGBMWKmQJYF9Sj/+/9ABgQQbah4sn1GG77wDcggyVlM38H5suLyYqnxtjK5GuoavjRJczZjbncCNvRn8Fjddj613tRNI01vPUO9aasNlzObLcM56hYOfa+Gjliesy4rH1KjcMshktdNZqxXqrqGegpNWK47n9rvUvf5YptbYaPqG/pdWt6k5uPh6QHMETWcBkXO96MtWvTclLm9fdlxH4/jM4/GGRgYbyptvjV6XPAY98rhslUZPmji1X/8kYdedw/j4U43kHIiKxkO+bUodWXd/++e74+PLy+ZchVjQUi0m99SNWlRB9zo1YUBjJJv4C0LeaVwTpI9ScH1uXTOerr1PI7MX7+CZr0VI2uc82/gXUCXFzdgXsms6ta8XaIgGKtw06Xl8fH95+/+60YBEAj+ilq6UvT+KiUrAmj+vP/Ydkd5XeRRZBN0SCAoqv9tkZ26AC8PIErRAGPiiwLJh6yiHm/cROhiQNKmCwqjlCDrsgAVE1xU0DmFuMjSaETOgKTHNRRWtUM24ggqtt0L24yEqJDqIqb/I+aEzlhIO8btHZkn2yZ1Q+7U1OzFYNeyIRRZ6YkoUKlCnXx5itVNUo2YRL1yoRQT4ocYzp4jxhNjZ15Hp8pXo1axShW5FS/sPrLUQFe20p0QASx+XjV0iSRZWpxXkd9cCwAAAA==");
 
 export default Kidneys;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-xmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-xmark?s=light trash-can-xmark}
  * @preview ![trash-can-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/trash-can-xmark.svg)
  */
-const TrashCanXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M164.2 39.5L148.9 64l150.3 0L283.8 39.5c-2.9-4.7-8.1-7.5-13.6-7.5l-92.5 0c-5.5 0-10.6 2.8-13.6 7.5zM311 22.6L336.9 64 384 64l32 0 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 336c0 44.2-35.8 80-80 80l-224 0c-44.2 0-80-35.8-80-80L32 96 16 96C7.2 96 0 88.8 0 80s7.2-16 16-16l16 0 32 0 47.1 0L137 22.6C145.8 8.5 161.2 0 177.7 0l92.5 0c16.6 0 31.9 8.5 40.7 22.6zM64 96l0 336c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-336L64 96zm84.7 116.7c6.2-6.2 16.4-6.2 22.6 0L224 265.4l52.7-52.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6L246.6 288l52.7 52.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L224 310.6l-52.7 52.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L201.4 288l-52.7-52.7c-6.2-6.2-6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const TrashCanXmark = createIcon("trash-can-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABgwAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCHQsGAAE2AiQDCAQgBYMtBzYbIwXIjsK2bRMV0xlO+AAPwYrn6ff7/drnHlSad0iaTLuG5A0aJdGsNaYTIl7JfEnP//+1dt/IrqP6ETFNJJJpE6tiaRp4yGKJQ4LK/F/z+T0/Oo8kP7QorAQpP4xeP5/AAL/tTcMnFAU20wnYzG3EIWiQyRWDyJAXMTQXmmeo2SRPIuWJewB36UPzw9wMUNQGABkEABsnBVmQnuk59NA6hbzIAIFsAphGaNBgHIFlvGCcYBpUVfik/5b/D2QQIO3g4xdQ0Y4bcAuggqJWQcd9yE4taoVitaiqMLM0U5NFVlQqmjUq8fL2UquXjZeMVMTRlutBoIrO3I9seFLRismqqVrtk00XNe2aF3I8t2687KSmfdNVS540RavGeVRAYC0b5VIesZZM8imXWCumBZRPYPsjvaNvu4fmB9urXwCv4AspXZVQ7i3orfFkH99nHZ3nQeSi4ya9Z+idFlMu9HSAOWv4mKs09/G3nwuPf3xdROH7+sgXYw8HDw8TJMisjY1ABKrVlwMQhP9fT9M1upG/CjUH+L76+ZWfkZZEUjkCdCogNLMtT5WRgDwjAEDJMOwjgaC4IuC19roHgehGQNGuW0BjjB4CVbcZBNpMCkKgXbcDvFQlYlRVpYpe11RjyRRVjTqm2iy7TtqNhjc70WjEX19asoOSdjE/b18WzoalIlkSHzcj2LbuOhxGbjiIZj26DWrSqM2gQvpl5UO6JM/gJF/E+PHmiwnHjpvb/cWa9BvQpke3bBOB3Y9dDc/nu8HikHPOMUUhRXewv26g1auhrttr9JEC");
 
 export default TrashCanXmark;

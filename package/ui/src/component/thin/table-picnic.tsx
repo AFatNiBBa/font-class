@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-picnic` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-picnic?s=thin table-picnic}
  * @preview ![table-picnic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/table-picnic.svg)
  */
-const TablePicnic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 72c0-4.4 3.6-8 8-8l368 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L328.7 80 403 256l101 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-94.2 0-17.4 0-272.8 0s0 0 0 0l-17.4 0s0 0 0 0L8 272c-4.4 0-8-3.6-8-8s3.6-8 8-8l101 0L183.3 80 72 80c-4.4 0-8-3.6-8-8zm136 8c0 1-.2 2.1-.6 3.1L126.4 256l259.3 0-73-172.9c-.4-1-.6-2.1-.6-3.1L200 80zM88.7 304l17.4 0L47.4 443.1c-1.7 4.1-6.4 6-10.5 4.3s-6-6.4-4.3-10.5L88.7 304zm334.5 0l56.1 132.9c1.7 4.1-.2 8.8-4.3 10.5s-8.8-.2-10.5-4.3L405.9 304l17.4 0z" />
-    </Icon>
-);
+const TablePicnic = createIcon("table-picnic", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbAAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBcAsGAAE2AiQDCAQgBYMtBzMb8wTILg6yOWRdG6JAw2az3I0ronxP4uH/9/u2z3l3xCSZopLUmlliSFRCo1monjzkKeEvKotI5fnw4/L9k0P8B6GCCcTU5HwIfXXRzaGvmN/robdC9Of/mnzvnl8DfqNDiqaoJUhFPJ/AAKMtwQc0G9hMJ2Dz2/m94AbRDSShK5f0h+2G9T+hxLMH2OS73MGr8qHxx5grUlUBIHoBwImbmTQ+GtGI+Ku/EjvOgoA4CWAWQYUKkwg4jCkwiWUWFEXQiLqO/4GzEEA0g59NUNCMm+AxIBOQClBzZ8dzbDErL2QLKrsRcWyG1oOCyBHh8HSeR7LaSdO2w6pfGAVXkHs5mA0xyYeEaM8KBUJatx7ejhS6cvncZhDX5UOoeN/7+JdHHHvR3Fyi2dzSFoh/8RC76wqgH3BLqL0D9KzktiVx6qNSE+T2/L+P1wQezN27p9l3dYFYzy6MfEUfQCB49O3c20L/WjsYgN+/1n9F9f+U79EqQVCt1CuqCUgCAJBxBEVCIF3Ewu/a6bUAoR0BUrN2ASoTZAgo2i0joMk0NwKatbuKKQofYVBtgtTpOajsdQyKQU+gyWGfoWaDURkYbx78711KZIfDq+imxUYD9NgwBJth02KQXusLRzSgx0X0Lcwd6OkaOdioPenooZmIhoR9EWVnYUMF0Of28nRez559IwvzvEwQ/T6oc6SP18NiYNotZSmJFNleqnn7aWc+6gAAAAA=");
 
 export default TablePicnic;

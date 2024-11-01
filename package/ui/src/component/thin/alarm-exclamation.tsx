@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alarm-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-exclamation?s=thin alarm-exclamation}
  * @preview ![alarm-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/alarm-exclamation.svg)
  */
-const AlarmExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M93.7 0C42 0 0 42 0 93.7c0 18.5 5.4 35.8 14.6 50.3c2.4 3.7 7.3 4.8 11 2.4s4.8-7.3 2.4-11C20.4 123.4 16 109.1 16 93.7C16 50.8 50.8 16 93.7 16c20.4 0 39 7.9 52.8 20.7c3.2 3 8.3 2.8 11.3-.4s2.8-8.3-.4-11.3C140.7 9.5 118.3 0 93.7 0zM45.7 509.7l57.7-57.7C143.4 489.2 197 512 256 512s112.6-22.8 152.6-60.1l57.7 57.7c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-57.7-57.7C457.2 400.6 480 347 480 288C480 164.3 379.7 64 256 64S32 164.3 32 288c0 59 22.8 112.6 60.1 152.6L34.3 498.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0zM256 80a208 208 0 1 1 0 416 208 208 0 1 1 0-416zM418.3 0c-24.6 0-47 9.5-63.7 25c-3.2 3-3.4 8.1-.4 11.3s8.1 3.4 11.3 .4C379.3 23.9 397.9 16 418.3 16C461.2 16 496 50.8 496 93.7c0 15.4-4.4 29.7-12.1 41.7c-2.4 3.7-1.3 8.7 2.4 11s8.7 1.3 11-2.4c9.3-14.5 14.6-31.8 14.6-50.3C512 42 470 0 418.3 0zM272 384a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-8-216c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 160c0 4.4 3.6 8 8 8s8-3.6 8-8l0-160z" />
-    </Icon>
-);
+const AlarmExclamation = createIcon("alarm-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABogAAAKmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SCZQsGAAE2AiQDCAQgBYMtBzgbbQVRVA6qZD8SY2NZj2EIF4swVtNpRZ3KE+G/ePj/ez/3Oe9OLdZpOlWaDlqxg3SBWkIJBzSgX2BWNBx+R/69zQTixnj5AbwB3REVpZM6uSiv3vUvTj3PeSiAbxS0sXBpQBbIGOM8AgFOu7EX6sYK9HyZVsC6O9uzLaKVS2spSI5zjstnhhJ/nOIkf2QDeMxPGv/IqiNVFYDoBQA296kfnH6M74hGvUU0+AABsQUwDlGhwjAEK9gFhnEYB4oi+Ma6xv9AAgKIZnL3BAWteMFPQAGpuZShCXlZ3s6Opq6yFw5sH4je1EacVaiS7ZLukerHEb0F1pSOTs5bRNBA+iL0HQ1Ce8dgfBU+brrufe9+6XlrvEreBAVip2SXdHSrFeKeyRpUGa9a7vK1WO9PTGC12YbNAX/4pjabFrS2dOYUq2R07wAO685bRHRLdUp0SfZIh7EISHdE1XmR+X8qj2mPEHtSMAfQz63wjUl20VyThtBQ+EhdQhjXHkej/83yoA9RGIUfmoFShumFIYwSenGur/jxo6L++QuhiBrqBYah9MWS1R+A36erLNbq6e8/VsaHR48FOPa4mYe40I8QGgrSa5ouycw3Be7+uYK2SqGPH4WKreWdYvPhIdcvdDsIBPdbT+4Hwiv/WzsS/N0X/Yrq45S/0SpBUM3V+mISJAEAyLimmhBIN5qJ0elDnDTaEaw0awejMkREoWg3C01GMTOatdvGLkqbMCiWQup0BpVl5VAM2oAmK27UZoNRuSblWNTLMN7dIm5jxMTQmFiTrq/S3kbEvg1ZFrTLKKcDOyFNvjwlUqXIVGKwIn5GqVzuI9TNFxEmDBkjrJHt6HZzmFRFimXKl5eG2CDnFW1l42odkNkI7rwXUxLZd5STWJRr8OeFlJh72wA=");
 
 export default AlarmExclamation;

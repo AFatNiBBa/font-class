@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-arrow-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-down?s=thin comment-arrow-down}
  * @preview ![comment-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/comment-arrow-down.svg)
  */
-const CommentArrowDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M157.3 415c-5-1.8-10.6-1-14.9 2.1c-11 8-29.4 19.3-51.2 28.8C68.3 456 41.6 464 16 464l.1-.1c0 0 0 0 0 0s0 0 0 0l.3-.3c0 0 0 0 .1-.1c.4-.4 .9-.9 1.5-1.6c1.3-1.4 3.2-3.6 5.4-6.3C28 450 34 442 40 432c10.7-17.9 21.4-42.1 23.6-69.9c.3-4.3-1.1-8.6-3.9-11.8C31.9 318.8 16 280.7 16 240C16 136.9 120.2 48 256 48s240 88.9 240 192s-104.2 192-240 192c-35.2 0-68.6-6.1-98.7-17zM4.7 452.7s0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c0 0 0 0 0 0zM264 136c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 172.7-74.3-74.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l88 88c3.1 3.1 8.2 3.1 11.3 0l88-88c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L264 308.7 264 136z" />
-    </Icon>
-);
+const CommentArrowDown = createIcon("comment-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABjgAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCXwsGAAE2AiQDCAQgBYMtBzkbaAXIrgd4QzL1WxShEKyCkr16U4tIT2fVY/iWYQ2I53nH+N237buhplUsQ4hEbyqJFDmUYBH/n3HvfR/A+AaxAWwg08+jkpLcXHdWEu35m3ct0RIoK6AIEprgC3wsWsDT0i+S9mAiN08kyS7sd8pxwBpwhG3Xbw97exx99aoQ/UTAqZ3/yz2/aUcHOC3xUG5MbC2ai8YaHEgWaJiNiZ8Cy8IsUWxx21XTUa0kRkhcoeXWHWLKm3KAF+FD8x8z5ilqBUCGAQAHr5fk4UlRkR8y5BdOg0AOARYgVFTMQWAPoWAOkQWgacJvioj/QCFAOpHAFtDQgcf4DmigqE0UFDgpO9SicrNPUfFy/CD6Kpoyo7ikmb58atnkyH3G8uD5dR3/q3iv+LirdFHDAIqJReWy+9bvWvmGt3+89lIfsn9e64ndY/48qBULJhSaVuT2u6OXk90Y6FqqqWJzWcqpitSTAXRp6NnoDr/lXrxf0HtHZTvdAEgwsnj4+eyqLndUs+BQbMbvRyx8T5Xb3vMqpCPurTzZO19YsPY/Od7hJu/R4XWHemAc+XcE8T2vEQoClD3WjRuS3slTKLkcs7XiOqIg+MgTYfiCEyAI6z5v35D/QQD4u799Un5RGsoPdCsg1DUytQUrOLBWniuYQZ74i4jikSq9a7+XAqIXAUWnXgHVbDoEml6rEegwTwwCnXpdJpQmR4yra6mi3wOq2maCasadUh32eE50Gk+FSxmq5N/CjPQ+lLaLN4aGcyIvNtUKqIl2OYl3W1YMyqEAfBCNunTq16Bei/4e2SsvPaBD+hqR5odYhFDhWCI+3XlslPcSvfq0zGvnN0nC9wf8Da5PDsB2gWR2k5qikGL4EgpDbj7s7RoKeWMBAA==");
 
 export default CommentArrowDown;

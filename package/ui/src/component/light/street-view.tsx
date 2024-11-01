@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `street-view` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/street-view?s=light street-view}
  * @preview ![street-view](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/street-view.svg)
  */
-const StreetView: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 96A64 64 0 1 0 256 0a64 64 0 1 0 0 128zM192 280s0 0 0 0l0-56c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 56s0 0 0 0c-14.4 2.1-25.6 13.8-27.2 28.3l-8.9 84.5c-.4 4.1-3.9 7.2-8 7.2l-40 0c-4.1 0-7.5-3.1-8-7.2l-8.9-84.5c-1.5-14.5-12.7-26.2-27.2-28.3zm-32-56l0 56c0 16.1 11.9 29.4 27.3 31.7l8.9 84.5c2.1 20.4 19.3 35.8 39.8 35.8l40 0c20.5 0 37.6-15.5 39.8-35.8l8.9-84.5c15.5-2.3 27.3-15.6 27.3-31.7l0-56c0-35.3-28.7-64-64-64l-64 0c-35.3 0-64 28.7-64 64zM126.6 383.7c8.7-1.7 14.4-10.1 12.7-18.7s-10.1-14.4-18.7-12.7c-33.2 6.4-61.8 15.3-82.6 26.2C27.6 384 18.5 390.4 11.8 398C4.9 405.6 0 415.1 0 426.2c0 17.6 12.2 31 25.8 40.3c14.1 9.7 33.5 17.8 56 24.4C127.1 504.1 188.7 512 256 512s128.9-7.9 174.2-21.1c22.5-6.6 41.9-14.7 56-24.4c13.6-9.4 25.8-22.7 25.8-40.3c0-11.1-4.9-20.6-11.8-28.3c-6.7-7.5-15.9-13.9-26.2-19.4c-20.8-11-49.4-19.8-82.6-26.2c-8.7-1.7-17.1 4-18.7 12.7s4 17.1 12.7 18.7c31.6 6.1 56.8 14.2 73.6 23.1c8.4 4.5 14 8.7 17.3 12.5c3.2 3.6 3.6 5.9 3.6 6.9c0 1.6-1.3 6.6-11.9 14c-10.2 7-25.9 13.9-46.8 20C379.6 472.3 321.2 480 256 480s-123.6-7.7-165.2-19.8c-20.9-6.1-36.7-13-46.8-20c-10.7-7.3-11.9-12.3-11.9-14c0-1.1 .4-3.3 3.6-6.9c3.3-3.7 8.9-8 17.3-12.5c16.8-8.9 42-17 73.6-23.1z" />
-    </Icon>
-);
+const StreetView = createIcon("street-view", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABpwAAALKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDGQsGAAE2AiQDCAQgBYMtBzIbmwVRVA26ZB+HTZnrMXKRm5WHD6zBxcqQJImx8icevt9PO/flp+0ikwImTUTjWcjoJdVZieDy8+PyvYM1EGlLsJqc7b/IClUhxLndjV0a//jTAjmjR9mja/KysaZA4wW81N46FljjzQvVtAJW22xeQTKC4WePUVJObPR4So9PN8jiZXRGJ11KBZyovopPGhgmyXIAojoAMGLm1CnOyqM8olA8JgomAQExEqA5RA5aY0UymBp8A5rmQCYTlEex2P4DTSCAKCGfmkCGUjzGK0AGknyWbdaq0q5lBDdfJZtRKV9x7pE6GOfsrD3Fmaw7gwP1Zrlw2unAk4Qeue957IdkDgRGYUybG8HYNNA0n7pVPxPP1ubE+brZeLltIIT5Nll4zmMDdAyqzMEHjTAudyQODtnt9xgyW3dGdtX+rGxKVWu2Q56nv5n5tN1YnjFIBUk9H5Mf2x/acK6/bnua9nrG/bozygHlrHI3zEJE5MdcWFFQXBWMc7Bq69lKS7v7Go2+/jgSNwugv3stHt7hYFlf1jT5Re1hUb5k+y5zhgtUPcLK0OzRfnV3qL4ozU6wfQ3CoWKNGmvxbuJUTvMbj4Yhdx2+OxeIjuuL1CnSGliJXlQXNXkKn1z+9+9xN6Tp4//lk9F9sOb7j654SQUsRW91fX5Ios/ok2v/vYFAsK77kbSSaoP/lHET+PDi7w/+FRXPkvQYZRIIcp2LnRUmkAgAQIodLAkCyW154tfKzgsQKiJAUqKiADmNiCDIVNQJgrymQiAoUdFUVJFVEGorOkBS2WaQ01cPyNR2CPIGu82VqB25pOVTjv9nTBmrkTGHmvfo2r35wObDni7kIbvvDmoedtrv4JkO8FStRbNOVSrV6VRYu/RilyapHprii0wC+PJnEsk0PfyqZK+xdh3M2sL8PqKY3k+56/aXeyBIIZQ9tSSJSJU+ArVLagM=");
 
 export default StreetView;

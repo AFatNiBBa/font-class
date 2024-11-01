@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sportsball` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sportsball?s=regular sportsball}
  * @preview ![sportsball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sportsball.svg)
  */
-const Sportsball: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M447 99c3.8 33.4 4.4 70.2-.1 107c-25.6-8.1-49.2-20.8-69.7-37.2L447 99zm-9 154.5c-7.2 28-17.9 55.2-33 79.8c-4.7 7.7-9.9 15.1-15.5 22.3L289.9 256l53.1-53.1c27.5 22.9 59.7 40.3 94.9 50.6zM356.1 390.1c-19.4 16.1-42.4 29.6-69.7 39.8c-10.2 3.8-21 7.1-32.4 9.9c-10.2-35.9-27.8-68.7-51.1-96.7L256 289.9 356.1 390.1zM206.3 447.8c-31.5 3.2-67 3-106.9-1.3l69.3-69.3c16.6 20.8 29.5 44.6 37.5 70.6zM22.9 455.2s0 0 0 0c.5 2.7 1 5.3 1.6 7.9c1.6 7.5 5.7 14 11.4 18.6c4.2 3.3 9.2 5.6 14.6 6.5c103.9 17.4 187 11 252.6-13.3c66-24.5 112.2-66.5 142.9-116.5c60.2-98.2 59.1-224.7 41.6-309.5c-1.5-7.1-5.2-13.3-10.5-17.8c-.7-.6-1.5-1.3-2.3-1.8c-3.9-2.8-8.4-4.7-13.3-5.5c-2.1-.3-4.2-.7-6.2-1c0 0 0 0 0 0C395.7 13.3 343 11.7 296.6 16.9c0 0 0 0 0 0c-16.6 1.9-32.4 4.6-47.5 8.1c0 0 0 0 0 0c-14.1 3.3-27.5 7.4-40.3 12.1c-34.1 12.7-63 30-87.1 50.7c0 0 0 0 0 0C109.4 98.5 98.3 110 88.3 122.2c0 0 0 0 0 0c-8.2 10-15.6 20.5-22.2 31.4c-18.4 29.9-31 62.5-39.2 95.7c0 0 0 0 0 0c-3.9 15.7-6.8 31.6-8.8 47.4c0 0 0 0 0 0c-7.4 56.9-3.6 113 4.9 158.4zM65 413c-3.8-33.4-4.4-70.2 .1-107c25.6 8.1 49.2 20.8 69.7 37.2L65 413zm9-154.5c7.2-28 17.9-55.2 33-79.8c4.7-7.7 9.9-15.1 15.5-22.3L222.1 256l-53.1 53.1c-27.5-22.9-59.7-40.3-94.9-50.6zm81.9-136.6c19.4-16.1 42.4-29.6 69.7-39.8c10.2-3.8 21-7.1 32.4-9.9c10.2 35.9 27.8 68.7 51.1 96.7L256 222.1 155.9 121.9zM305.7 64.2c31.5-3.2 67-3 106.9 1.3l-69.3 69.3c-16.6-20.8-29.5-44.6-37.5-70.6z" />
-    </Icon>
-);
+const Sportsball = createIcon("sportsball", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABmQAAAKIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDCAsGAAE2AiQDCAQgBYMtBzEbiQXIhiCq6/vI6p4F2Auj3wqj5Qfom4+6ArjOxOX09/RVRlFma1Gb5gTb8zyBRPN8gb/QiwXkMWVui7NMFGTFIHIIDhENafgh/QPyeDOuUyHdnj7BtcVS8YuBLiKpZACiBwBWNKubvPdlfBnxcetl4mMbEBArQCGQIT6ERBbHQ8RcIeXy2pfRatX/wIIAoh39YAI5OuN2vAbIQdIxz9t17tR+U9I6V7rmjY92OvT+4pWJzdpdk2/q04hqvF3WHpt90+gHllajXnuprRmPD62dHxHnx819o/RZ84tW45Z+54d4AFwhdDo/op8vEA+N9tXUB/MlNgCVmwY8VSB+G/3iT+vLHhj18oRa895pt/avx9Z4p6355Lxbx92/ZGs0mq+WtXhi2Mgnejzx24hPDvnEO3u2N4/8sSw73PF47cgzDjzQajds2Xbp+9d+l/03cbUDD7x5wbcvl6VrX3mlHZBlgy+pnXfHgP3G7D928qZJ6yvVSrXriomnQHW/1CMS7Oi6uj0XHASrx45cBtO+gneue+p5aI6DDs2u5e33idufoK84wH3ztsvEV8rVzwOB4O9lX3fct/vi/zp0TuDrN/74P3yJjq134//0BDpIIMgmtybbk+ioU/wvaCfFKUYaNgsk1+sIsGoXtwgQOiFA0k4nATKD9RAg18kkASqGmSNAO51UZSLvKPSxtzuTLo53ZuY625nr40VnxWLvd9rpE5mzBlwt8KtYtI3h8lYxY+r0YmExnWhB//Ply0XFcmL8KbIxAXcd4ljHOMnBDnK4k0g9wab+yY7WZvElGxVmmGq6wkLF9vwx2iDtBCc6POeY/WsWKc7nxzvF3j8B6URdzjSQJCJ1egK+zw8AAA==");
 
 export default Sportsball;

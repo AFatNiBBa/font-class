@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `database` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/database?s=light database}
  * @preview ![database](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/database.svg)
  */
-const Database: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 416c0 2.4-1 7.4-8.4 14.9c-7.5 7.6-19.9 15.9-37.8 23.6C334.1 469.8 282.6 480 224 480s-110.1-10.2-145.8-25.5c-17.9-7.7-30.3-16-37.8-23.6C33 423.4 32 418.4 32 416l0-84.5c17.2 8.9 38.1 16.3 61.2 21.9C130.7 362.7 175.8 368 224 368s93.3-5.3 130.8-14.5c23.1-5.7 44-13 61.2-21.9l0 84.5zm0-212.5l0 90.6c-14.5 10.6-37.9 20.6-68.9 28.3C312.5 330.9 270 336 224 336s-88.5-5.1-123.1-13.6c-31-7.6-54.4-17.7-68.9-28.3l0-90.6c17.2 8.9 38.1 16.3 61.2 21.9C130.7 234.7 175.8 240 224 240s93.3-5.3 130.8-14.5c23.1-5.7 44-13 61.2-21.9zm0-37.4c-14.5 10.6-37.9 20.6-68.9 28.3C312.5 202.9 270 208 224 208s-88.5-5.1-123.1-13.6c-31-7.6-54.4-17.7-68.9-28.3L32 96c0-2.4 1-7.4 8.4-14.9c7.5-7.6 19.9-15.9 37.8-23.6C113.9 42.2 165.4 32 224 32s110.1 10.2 145.8 25.5c17.9 7.7 30.3 16 37.8 23.6C415 88.6 416 93.6 416 96l0 70.1zM448 416l0-320C448 43 347.7 0 224 0S0 43 0 96L0 416c0 53 100.3 96 224 96s224-43 224-96z" />
-    </Icon>
-);
+const Database = createIcon("database", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfQAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCBwsGAAE2AiQDCAQgBYMtBy8bBgXIjsK25RNDnKbiS5nLK+Lp9/vtue8iZhmSJjxU8UgoPyWaV1rQEhgi5J+xeLt39u4C+AVCS7BL9dNKVVzCbH8b1/H8X1MvqBLw8xEcSsUitbBBO55PYKLzpoG2pU/3fEI+c1frMklpP0kQaXn87PGzgppBsiNBeeLOAHfpTvMHHR1Q1AYAGQYAh+ex4dgSk5jo7H+efCEUBHIEYBmhQYN5BHbwgnmCZVBV4Zv+//k/kEGAdELwYveKTtyCFoAKiloF7UmXk5NQEBLCb8jmdqt3mR3FPYSMa/ZoEY2578t1Bi5agsSr256sKGDBZhaiHrJQD4+m1/I08T54TKNbHfENx4+EnCTcBR3pczQcfBz/GHpqZDKtPP22clZwhlEjXjQz05iMZI0vqyI+DkOWI8HBw1ZDcXcpUp35Eh4QEP4clYKgBbIvmQFQ8asDTVjTczbA6PMAb2l//WYgw/OX9gHq4QBBeLt8cs9U8mt3y3GAn5WPdt7f/1a2uGnQrYDQrP3bScsWAMsJ+EolDTDJFiAobghwq/3uERC9CCg69QpozFFGoOq1ikCHRe4IdOp1jJcqgxiXDlD0a4HGtnZQjZsFHXYcFjqNh7c101LMr15eQIv6L2LODk7Mhy1rimU+epz1ZccxqwbfY01LUaBShTr58hSra6Qa4eV65QJ2jL8PYpw5cML4YOrmo5eA6hq1ilWq0M/ji91PWWnYD7emJEcU11UUhRTpNwoAAAA=");
 
 export default Database;

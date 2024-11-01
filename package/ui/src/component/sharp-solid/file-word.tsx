@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-word` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-word?s=sharp-solid file-word}
  * @preview ![file-word](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-word.svg)
  */
-const FileWord: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M224 0L0 0 0 512l384 0 0-352-160 0L224 0zm32 0l0 128 128 0L256 0zM107.6 240l31.7 109.3L164 257.7l4.8-17.7 18.4 0 9.6 0 18.4 0 4.8 17.7 24.7 91.5L276.4 240l50 0L271.1 430.7 266 448l-18 0-8 0-18.4 0-4.8-17.7-24.8-92-24.8 92L162.4 448 144 448l-8 0-18 0-5-17.3L57.7 240l50 0z" />
-    </Icon>
-);
+const FileWord = createIcon("file-word", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABXAAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBRwsGAAE2AiQDCAQgBYMtBzAbxwTIjtRG+QNZSTw8P/d67ktKyRgyIlJE2IEncNO1c2PHwrMDOf3zHbx2+pvPXedRgM8olDVsaSBjWtGc5wkEGg0PPKDsg32TKWB/d7aEJFoelhZZkuOz43NCHpez2+pIz9JX3MkPGn90d5ukKQMQ7QAwb/3qVd5/j+8RX2oRX6xAQMwDlUCGDL0EmCkT6CVXIZcLvket5v4DKwKIevjqE8hRhwVYDchBkuV564YhZV3rfF1ZV2wuyiKP1pFFEVEKZaxbs3bd2vXRM8qye6yN9VHGmugWRdEj1tFO2b+lXcu/fl/3ffXt3bBGsx2ee141o9/16w/0OWKD3TaZp0OveRrO3Mab/NbcAPUQNxdhXhfnTq4YDwSC3wN6/t3edub/xjKBny/9U39FtffRnFrQKIEgG1kbaUs0QzQLAECKc/pHMwLJDBm8ayuPBQgFAiT1CgEyPbUTIFcYIUCdPiYJUK+wWibyJqGTrQYkrZwEmcmuglwnL0CdmT7o9TpFpku0JtBfuYTFHF60VI0bPbaaXi0jxKgHGaczqm1p6DlfGQaH9jnumDP22uOgMww9ZZV11lGLJWSRJ6qMM9pYlemq4/Rxe529TjntoOOOpTkzVPe1oc7J7cNATRBzvFCSiNT0bsVR7w0=");
 
 export default FileWord;

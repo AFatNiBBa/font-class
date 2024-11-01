@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `meter-fire` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meter-fire?s=light meter-fire}
  * @preview ![meter-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/meter-fire.svg)
  */
-const MeterFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 32c76.2 0 143.5 38 183.9 96.1c12.4-1 25.2 3 35 11.9c5.6 5.1 11.1 10.2 16.6 15.5C452.5 64.1 361.7 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c33.6 0 65.7-6.5 95.1-18.3c-8.5-7.8-16.3-16.3-23.2-25.5C305.3 475.9 281.1 480 256 480C132.3 480 32 379.7 32 256S132.3 32 256 32zM368 144c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 4.4 1.8 8.5 4.7 11.4c8.3-11.6 17.4-23.1 27.3-34.4l0-40.9zm-192 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64zm96 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64zm175.1 49.1l47.4 49.8c3.1 3.2 7.4 5 11.9 5s8.7-2 11.7-5.4l21-23.7c16.6 15.9 33.7 37.3 46.7 60.7c13.7 24.6 22.2 50 22.2 72.6c0 33.5-12.7 63.9-33.6 86.6c1-5.2 1.6-10.7 1.6-16.2c0-57.4-63.8-110.5-87.4-128.2c-5.2-3.9-12.1-3.9-17.3 0C447.8 312.1 384 365.2 384 422.6c0 5.7 .6 11.2 1.6 16.6c-21-22.8-33.6-53.3-33.6-87c0-28.4 12.4-58.2 31.4-86.7c18.4-27.5 42-52.6 63.7-72.3zM480 480c-2.4 0-4.7-.1-7-.2c-33.7-3.2-57-29.4-57-57.3c0-17.4 10.1-37.7 27.4-58.5c12.1-14.5 25.8-27 36.6-35.8c10.7 8.8 24.5 21.3 36.6 35.8c17.3 20.7 27.4 41.1 27.4 58.5c0 27.8-23.2 54-56.9 57.3c-2.4 .1-4.7 .2-7.1 .2zM320 352.2c0 85.6 65.7 155 150.9 159.6c3 .3 6 .4 9.1 .4c3.1 0 6.2-.1 9.2-.4C573.6 507 640 437.7 640 352.2c0-30-11-60.9-26.2-88.1c-15.2-27.4-35.3-52.3-55-70.6c-11.2-10.4-28.5-10.4-39.7-.1c-.4 .4-.8 .7-1.1 1.2l-12.3 13.8-37.9-39.9c-.3-.3-.5-.5-.8-.8c-11.1-10.1-28.1-10.1-39.3-.1c-23.4 21.1-50 48.9-70.9 80.2C336 278.8 320 314.8 320 352.2z" />
-    </Icon>
-);
+const MeterFire = createIcon("meter-fire", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABvAAAALtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDRQsGAAE2AiQDCAQgBYMtBzEbxgXIjtRWMzCS5Cb///Oq+37SSlXTaQAcgFjlzApA8Tx5e3/blQZBAl0CBV6miQQBR4lHlk9/rfFvm7SAj5dgSRY4Li0T0yNy/AROJClaMHL87ETxrJ3d9IPHL5K+j0gyjG+Y7AE+f8gVSsBudhPAnDSbfhibCAxfIaABwGMi6shJw1mJJKKbikNAH1IABACtAAARATgABzBDACAUhwBmeCKAxyOQSKHg/0ARIAAA6gCKWcUD1ABnAPeAPhVgVBrvJsdjOBo6yJTU+XyZklByKYjomNsW/UX6j9Nv5z9MvRl5NvdR1Lm0W3kzQhYbHBQuJ1/33m+9wedAyo2EvMUGC/VAp/4KUxJU9tJfYkiyi8+Lio5aJJth6ELb3HaZrw1dQstNtjtvN1ist9Bxq+NSo7H6p63XeOwJKZoubDZZTCtcdjhsctpmPFZvqe04mi7kPwojOpU3QzZD9iTiTMFq993Om23H0nSMCafFNI7o4Y6GnhStt2ttf2d1s/4mFGvmvgR+vRH/DkyxiHv+KgMJxs0zNkKChMl43rgE+Lw3VpnaS+au5+9paNw772oudXRoSJJGJFS2vZLTWaiFVBK4d3t+ks/1VVGJTcDSmFjGMUNV+S8175ijkyYdjfFW+yVXNWSc8Py5uWjBc/Mlhb6wxk9d3W+NoK+Q5gNf14xB1AMrI3leSYmP5FeuoCjzoaE3EeEEyknsACB8qdC0cAQAgAAEFxqdOwYrQr+pyhgA4MXxD9/qORRn2Vi2HaCKAQACbla4ojRHAGBxAACiLP2wxlcBAZgj6ElAbvFpkgigYJQJ4JjSAk/gAiUW/JTN6Tk41NRA9JQBjFwXOP5GgafnAJSEuhJTphfOlTVH1H6SmeItiZskerl7isHitKTpvFMJoyHitsWxn1qcsBT1OrTrVadWk14jdEtL9mkTv+Lj/JDIiztPomDicfV+fr463Xo06dAexwkh3g846l93d4KdEUlvWQwDKsJ7Nru9CwA=");
 
 export default MeterFire;

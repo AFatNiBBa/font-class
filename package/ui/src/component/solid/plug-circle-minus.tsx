@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-minus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-minus?s=solid plug-circle-minus}
  * @preview ![plug-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/plug-circle-minus.svg)
  */
-const PlugCircleMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M96 0C78.3 0 64 14.3 64 32l0 96 64 0 0-96c0-17.7-14.3-32-32-32zM288 0c-17.7 0-32 14.3-32 32l0 96 64 0 0-96c0-17.7-14.3-32-32-32zM32 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l0 32c0 77.4 55 142 128 156.8l0 67.2c0 17.7 14.3 32 32 32s32-14.3 32-32l0-67.2c12.3-2.5 24.1-6.4 35.1-11.5c-2.1-10.8-3.1-21.9-3.1-33.3c0-80.3 53.8-148 127.3-169.2c.5-2.2 .7-4.5 .7-6.8c0-17.7-14.3-32-32-32L32 160zM576 368a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-64 0c0 8.8-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l128 0c8.8 0 16 7.2 16 16z" />
-    </Icon>
-);
+const PlugCircleMinus = createIcon("plug-circle-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhgAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCNQsGAAE2AiQDCAQgBYMtBzgbPQXIhofn7ao/91WNqmfpWkmRqG9HoDM5g1JGynr+L/f8jjYd4Oc78UPbQw9kZFE05/MEAh5jUUJZmCUWJqKNrTvpIYWodZ4gj++zK9WQ7kuf4Rb7ReN3HVxJ0pABiOYAmL5iyWIf/BK/RHxafZX41EIExHRQCmTI0FmASTKBznIlcrngl6hW2X9gSQBRy0WSH5ujDudxJSAHSU2et2gxqFOTSk2TfHmlplhzfeuIO4lKRFxqe3dRqcFLB15sc1dFPDj53dmiWHZDu3si4vF2d8fDU99feM+43Rr3XRoS8dyEt4rrx70x6BkXBz87/k3ybSe+PfT5KO5sXcTdbe9pV4m72vR4qvlTf3b/bPtnNrzf9FqubbrRNBs1vfbaph/goHo/5QpGqZgw4MxMghk4U8//hrZoHDzoYJaB2dO6fdm3pGzVsk+flq3Ksi/LKtKnNf3lol+aRo8DgaB1v6bfbWg26Z/6SgK/vfX3//x+1Q/StPQU6iUQZIOqg6xN0wDSA4hTHNdj4I0CyXE13GdtdLcAoUCApFYhQKaT5gLkCgMFqNHVaAFqFZbIRN4gtLauAEmjQyAzxjmQa+1lUGOSD6NarSPbBYUdSLgDTJ1ThWb3K4cPGVZOKHuzMnGv4nT3xHKy2+84r+oP59rugP2O2marXY5WqMMWp47ZZ84QOdsHlYYbYpjSBOXiws3py21z2BG7HLDf6mWicvuwn+PDjfvDIHFZR8hIEpFaXBvMwS/rmIP/Xa8dAQA=");
 
 export default PlugCircleMinus;

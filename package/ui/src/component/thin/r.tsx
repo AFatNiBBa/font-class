@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `r` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/r?s=thin r}
  * @preview ![r](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/r.svg)
  */
-const R: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M24 32C10.7 32 0 42.7 0 56L0 280 0 472c0 4.4 3.6 8 8 8s8-3.6 8-8l0-184 160 0 6.4 0 2.9 4.4 120 184c2.4 3.7 7.4 4.7 11.1 2.3s4.7-7.4 2.3-11.1l-117.4-180C267.7 282.9 320 227.6 320 160c0-70.7-57.3-128-128-128L24 32zM176 272L16 272 16 56c0-4.4 3.6-8 8-8l168 0c61.9 0 112 50.1 112 112s-50.1 112-112 112l-16 0z" />
-    </Icon>
-);
+const R = createIcon("r", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXAAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBMQsGAAE2AiQDCAQgBYMtBygbqQTIHgm2rYX1iUfMJiXGw/drvZ37umcq6QlDh5lVXHwUs8UFcmzEr3XMk+/YoOkP7316Fm+8VMADkT57cPEfP/D3jU9g8flSL2mFZjoQn8Ksm2764V1akxO9JHvyw5aCPDbZrUK6lr7AxaJVfKOjCyRZBiBaAGDGulVLfNQQDRFf1F8RX1iEgJgJSoEMki4CTJYJqiBXIpcLGqJe5z+wJICoqt8hgRw5pmA2IAdJyvOerWuVpvnaWqXY9LCDEJfaXmkfUau1jTVxqf2Vdmvj42kf9ro/9YO5xZqiVkRcaV+LVwOedb3Z/+nooufzFs+/6/HF3i+0v7OibYOPVLdvr77lbrWXc2/MWbm6z5kXerdOWWX0rOVPr7hbq25/6keaN//fLYBA8NXHO19vaz75t0a1BL58x9/4FtWLmek5GkkgyAbXB9scZ6mLmQIAkOKsnjEdgWSMBLo2cVmAUCBAUlUIkOmshQC5wiABKroZI0BVYZVM5I2FNrZ0SJo4AZmxzkOujRdQMdnHcVWbyBKIPz//v2XPVTTnrBwxdHg5sZzmmsgJ6vtJ5bLT/6z1BkBqr2OOOm2P3Q44LeSkJdkZR8yN8BwPKo0w1HClicrt6vF+rT1OOuWAY47yyCTlebe/s/H0AFyRACOvnloUKU4CAAA=");
 
 export default R;

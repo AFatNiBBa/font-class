@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `h5` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/h5?s=sharp-solid h5}
  * @preview ![h5](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/h5.svg)
  */
-const H5: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 96l0-32L0 64 0 96 0 256 0 416l0 32 64 0 0-32 0-128 192 0 0 128 0 32 64 0 0-32 0-160 0-160 0-32-64 0 0 32 0 128L64 224 64 96zM432 64l-28.8 0-3 28.7-16 152L380.5 280l35.5 0 108 0c28.7 0 52 23.3 52 52s-23.3 52-52 52l-64.3 0c-11 0-20.6-7.5-23.3-18.2L431 344.2 369 359.8l5.4 21.6c9.8 39.2 45 66.7 85.4 66.7l64.3 0c64.1 0 116-51.9 116-116s-51.9-116-116-116l-72.5 0 9.3-88L576 128l32 0 0-64-32 0L432 64z" />
-    </Icon>
-);
+const H5 = createIcon("h5", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABbgAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCCwsGAAE2AiQDCAQgBYMtBykbBAXIjtRG+UVWEg//P/dv+9zkFZIy3DKjA/IEjsDWddCx0GhnfTkKq/b94tTznGcDPsd9LMrFNsgCn/M8AjmP5+KjLZcDVqwVqMIVwOo28UiPKPwiRKJGRMcVHl87lPF3cVuD9Cz9jDv1ReNP3d0maVkAiHYAmLdlwyrf/ha/Rfz0P+InKxAQ80AWKFCglwAzFQK9lDJKpeC3+P9//g/MBBDN6EUJlChxHOcAJUhSWY6aVDdal5vrRrUjRBUSXkeotfHEo9+uijhQ1VW32Bi9oq7fdH7U/WmnhwOreNujRyyM7vFs2Ie6ju/mfDPg5eyvF1exJeo6our/sd3Hpn4/H/7ZnD0557my557L5squ+9Z12UQ/07e3Pnuktk/0N+Dk2qZfGo1fmtbO1W7tIr9a6Mq5/X3nAliqxRYXLn8NBIKHw/cf2dN25l8t6gT++LypPZiup49oIYGgGPn/SDvTdWBmAF6Ky/qDNwok+yV6RSuPBQgVAiTNVAIUemonQKkywqChj0k7mqlsUIiypdDJLgZJK+egMNkVKHXyCRpm+s5tplMU0cbHCv/ZS1nskUVzedzosXl6Xoa6EEBsHs/I29rQy1IaRpsOO+O0iw456JiLjj5vVXDJKYsRusgHZeOMNlY2XT5OHtc3O+S8C44543SZMkO+7wx1GTcPoyUSYPw7seJGSkcnAQA=");
 
 export default H5;

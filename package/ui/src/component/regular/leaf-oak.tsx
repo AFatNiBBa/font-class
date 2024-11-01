@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `leaf-oak` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/leaf-oak?s=regular leaf-oak}
  * @preview ![leaf-oak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/leaf-oak.svg)
  */
-const LeafOak: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M302 0c-33.4 0-62.4 22.7-70.5 55.1l-1.9 7.5c-25.2-23.7-64.8-23.2-89.4 1.4c-14.3 14.3-21 34.5-18.2 54.6l5.4 37.6c-20.5-2-41.6 5-57 20.4l-3.2 3.2c-23.2 23.2-29 58.7-14.3 88.1l12.4 24.7c7.2 14.4 11 30.4 11 46.5l0 62.8L7 471c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l72.4-72.4 56.3 0c16.1 0 32.1 3.8 46.5 11l24.7 12.4c29.4 14.7 64.9 8.9 88.1-14.3l3.2-3.2c15.4-15.4 22.4-36.5 20.4-57l37.6 5.4c20 2.9 40.2-3.9 54.6-18.2c24.6-24.6 25.1-64.2 1.4-89.4l7.5-1.9c32.4-8.1 55.1-37.2 55.1-70.5c0-24.3-12.2-47-32.4-60.5l-7-4.6 2.8-11.3c6.6-26.4-1.1-54.3-20.3-73.5s-47.1-26.9-73.5-20.4l-11.3 2.8-4.6-7C349 12.1 326.3 0 302 0zM161.3 384.6L313.9 232.1c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L124.1 353.9l0-14.8c0-23.6-5.5-46.9-16-68L95.7 246.4c-5.4-10.9-3.3-24.1 5.3-32.7l3.2-3.2c7.7-7.7 19.7-8.8 28.7-2.8c21.5 14.3 49.7-3.5 46.1-29l-9.5-66.8c-.7-5.1 1-10.2 4.6-13.8c6.4-6.4 16.7-6.4 23 0l18.5 18.5c17.6 17.6 47.6 9.3 53.7-14.9L278 66.7c2.7-11 12.6-18.7 24-18.7c8.3 0 16 4.1 20.6 11l7.8 11.7c9.4 14.1 26.6 20.7 43 16.6L390 83.1c10-2.5 20.6 .4 27.9 7.7s10.2 17.9 7.7 27.9l-4.2 16.7c-4.1 16.4 2.6 33.6 16.6 43l11.7 7.8c6.9 4.6 11 12.3 11 20.6c0 11.3-7.7 21.2-18.7 24l-34.9 8.7c-24.1 6-32.5 36.1-14.9 53.7l18.5 18.5c6.4 6.4 6.4 16.7 0 23c-3.6 3.6-8.7 5.3-13.8 4.6l-66.8-9.5c-25.5-3.6-43.4 24.6-29 46.1c6 9 4.8 21-2.8 28.7l-3.2 3.2c-8.6 8.6-21.8 10.7-32.7 5.3l-24.7-12.4c-21.1-10.6-44.4-16-68-16l-8.3 0z" />
-    </Icon>
-);
+const LeafOak = createIcon("leaf-oak", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABrgAAALtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDLQsGAAE2AiQDCAQgBYMtBy8brAXIjsM4hryUYFOExTmIJ7uvej09K36hlz7Sma1QSIX4oID98c1+IRGsIg92FkJhiHC6BL/p7+f5j1rQAF8ITzHrvJM27OAJDDSa2yYQpbOJ4mxbchFEROEnQrYQJk727efjtx3Qcln7sUFtNHkGLB+YfMGNOQmFbUEASYIrhfpdO7bmxmu9lh4bt0EeUwEIgNQHwCCABVhAAAGgFhYCBNAYQKMR+CjDmP+BviAAIBGAV5h1zb4A3AW5BhRK645NsXa87tIuHDN0Z6Boj6tDN20uhx7wBnU11KHrrhu8Xp0A6aQNbntzuipWFgdlifH9BW7d8q4cjjjsn5lfcq55bPZvy3cJ2LnwQ5UcOvlmcreaTl03u+/L7CSRme4+nXRx65jTXvd6Xxetc2F3no6EeCaFdSpksdOpGyE5yva1DoeOBzl1xGlDZiVddt1gSHNc4+qifdPgTR90ODhbV21s0m8mHfrm96z7GVFPfcVQXOtCmdtqWZecQn5v80eqJl+9wF7XujRqxItX9vZNS6iOp34XPSZOTApgaFIRf7ocrNwcxpj8+Z2Vxb8OClj44t/xizShT7slq8dJ8e6MzadIJNO4x/in/rz5bP3ls6lVAyIb379xv2tTs/rr1Df28wPYa035/eBWTFta9D3Pejs5Q3Hk5j71Z9GuytEGUZTt3b5/72N/vros8D/QGgAEEDC3Xha0JNb6ZmWrAPj84Ov3daLxy7ivfyY3gSgUAAJWoRFJL4XCYjoUHd8nU0jHFwlQnEBBjjjWeRNCDFxAEUEMsPCTBDQxFACbEJUVxsyOWIiOFg4HvRNQxDEeWFRhKtA4OA1sanE/GoFDpuGrCj7V32P6JjvReJyJi471Tfd9zGN1RCpaf4av2R46XerCsJEhjGUMkxjMIIYzaZNNoHViMqNpokkb80MMZRRTiqEGxl1aru7CYCYwkeGMZUwfpSbme0cuU/TWedAcUH55JoBC5SkqalRX/yFFI20jAQA=");
 
 export default LeafOak;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `freebsd` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/freebsd?s=brands freebsd}
  * @preview ![freebsd](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/freebsd.svg)
  */
-const Freebsd: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M303.7 96.2c11.1-11.1 115.5-77 139.2-53.2 23.7 23.7-42.1 128.1-53.2 139.2-11.1 11.1-39.4.9-63.1-22.9-23.8-23.7-34.1-52-22.9-63.1zM109.9 68.1C73.6 47.5 22 24.6 5.6 41.1c-16.6 16.6 7.1 69.4 27.9 105.7 18.5-32.2 44.8-59.3 76.4-78.7zM406.7 174c3.3 11.3 2.7 20.7-2.7 26.1-20.3 20.3-87.5-27-109.3-70.1-18-32.3-11.1-53.4 14.9-48.7 5.7-3.6 12.3-7.6 19.6-11.6-29.8-15.5-63.6-24.3-99.5-24.3-119.1 0-215.6 96.5-215.6 215.6 0 119 96.5 215.6 215.6 215.6S445.3 380.1 445.3 261c0-38.4-10.1-74.5-27.7-105.8-3.9 7-7.6 13.3-10.9 18.8z" />
-    </Icon>
-);
+const Freebsd = createIcon("freebsd", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcQAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBWwsGAAE2AiQDCAQgBYMtBy4b2QTIjtMl9jYNaQQPek/NS7KAs4BdyhWPUnWu4J8LDK7zf029eH50gN/o0DooEmMgow6ewMT25g0yrsTZRHG6TXz0sMJXQqIkoq93x9cSsrgUxxUhuZC8jmPtQ+NHNRwiUSQFEOUB0H/qxNGe/jq+jni98ADxupEIiAEgF0iRorYAvaQCtWVyZDLB11Eo8H9gTgBRlN1tAjIUwVjMBGQgkWZZjTL1SxUpk00pVaTk0nMtI25rGnFTlTPVzze7ufLpJjda3FrzYrUptzaJuFH5dI0Lze/rOf/C7ODPNT5X7dEh7497e9IH49+Z/NHE96bub3O6coNby9/6c/3Xl7yu7dwld/P0D3z26eU7V3rJ0SpVK1SYP37bM7We/p4fXn3iqbv7v2bL+227ZdrwCROvfzyqd4dN118aNzN5/bWYqfprr7s0Q/bT464ZQ4FAsOZKqxtzy/X6rbgEfPvor/+UHQt/F76LF5JbUVwCgrRVoZVZ8XQC/TNRvCqJLRrQNwkkhkrZtZZ2VoBQEgESRZUUIFVLeQEyJbUUoIi6OgtQVEkTpSIrIVQ2u4NEaetBqovdIFPZfaCIXl5Ki6ocKapoTNCfuoQhER08K2/fpl3eI1+WOAMUUkd75ttGsy3S0pwWWmKtNTZZbJHlNgV8g9GFzVYbkmGD/VCuvTbayfWQH1cf50+x2AYbLbfWmjpNT/l9v5kteffmZCeMsIOiREIkxeDmLNi4CAAAAA==");
 
 export default Freebsd;

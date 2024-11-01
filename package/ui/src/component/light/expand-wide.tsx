@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `expand-wide` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/expand-wide?s=light expand-wide}
  * @preview ![expand-wide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/expand-wide.svg)
  */
-const ExpandWide: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M144 64c8.8 0 16 7.2 16 16s-7.2 16-16 16L32 96l0 112c0 8.8-7.2 16-16 16s-16-7.2-16-16L0 80c0-8.8 7.2-16 16-16l128 0zM0 304c0-8.8 7.2-16 16-16s16 7.2 16 16l0 112 112 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L16 448c-8.8 0-16-7.2-16-16L0 304zM496 64c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-112L368 96c-8.8 0-16-7.2-16-16s7.2-16 16-16l128 0zM480 304c0-8.8 7.2-16 16-16s16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l112 0 0-112z" />
-    </Icon>
-);
+const ExpandWide = createIcon("expand-wide", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABbAAAAHaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBWQsGAAE2AiQDCAQgBYMtBzIb2wTIjsPGDQ25SLJy5Uc89L9femf+CxDarEraqrICImHKtitcgYVlVRb2G7GnFlX02j9zuz9JHuK9JXFE89aWkATNpdGIjVBozP/lnt/zowP8Rocy1rbZ8jHm8wQCTLMJkkAWWECJJ2AtbrsKIhoaC40HlPgZDTr5Jms8Cm8av834kEoFIIYBwJ6zoxq/VrQi6vZnonYQBMRewDJBhQrzBGynCszTLIOiCFrRbov/QEIA0Sl5UoKCThwDZwEUkEopo0lhdAyUM8WJ3osvJp6P94Yo615ORrya6jslsHlC+mIV9/zNMb1H4L59jNDkwojVt8Nv/67Uq9qjh63BwdYtFyXW8k0cNB/9t8SUWNablqz//20/dof+H1Zc/xogEJz/tHztqrN9s9tI8OvH/836N5TyLbolCKpGu2GWIAkAQMYDXkIg7aNJXrXfSwFCLwKkTr0CVOa4BBS91gjosKhNQKdeJ6mi9Ajj5j1I/W6DyjZvUIz7gg7b/cudxqMCKgokqH+6+GoMlcdYpDkH3OxraTgh7P6Qp3X/JecCfBYrZycPSwtbjxFyU9eejqo9uPRBVEjlaIC3R8/56ah8c7ddV9w/ZIjvx77X/uoAW4oEdV1bSiL7AFBIPnQ=");
 
 export default ExpandWide;

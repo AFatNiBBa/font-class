@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-pivot` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-pivot?s=regular table-pivot}
  * @preview ![table-pivot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/table-pivot.svg)
  */
-const TablePivot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 416c0 8.8-7.2 16-16 16l-320 0 0-240L0 192 0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L160 32l0 128 304 0 0 256zM64 32C28.7 32 0 60.7 0 96l0 64 128 0 0-128L64 32zM414.8 246.1c2.5-6 1.1-12.9-3.5-17.4l-32-32c-6.2-6.2-16.4-6.2-22.6 0l-32 32c-4.6 4.6-5.9 11.5-3.5 17.4s8.3 9.9 14.8 9.9l16 0 0 48c0 8.8-7.2 16-16 16l-48 0 0-16c0-6.5-3.9-12.3-9.9-14.8s-12.9-1.1-17.4 3.5l-32 32c-6.2 6.2-6.2 16.4 0 22.6l32 32c4.6 4.6 11.5 5.9 17.4 3.5s9.9-8.3 9.9-14.8l0-16 48 0c26.5 0 48-21.5 48-48l0-48 16 0c6.5 0 12.3-3.9 14.8-9.9z" />
-    </Icon>
-);
+const TablePivot = createIcon("table-pivot", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeQAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCDQsGAAE2AiQDCAQgBYMtBzIbDwXIhof/t+v7fW5VD6rf0DWSIlgZlFHR+CuUMzD6mXr9VEp7/q/pd3R0DfiNDiUaSw8kkqpW9XwCE9ubN9CAZgc20wnYdJv4KBGBn4SYkER0nDu+rpDH+3FdhfQgfYVrNtL4RScXSSoZgGgJgJmrli31SS1qEV/W3yS+tBgBMROUAhkydBVgikygq1yJXC6oRb3O/4ElAUQjOt4EclSwD0cAOUiyPO/VfHS10ixfWa0U2263bYiIIsSDga/0bRYvDX6tSxYPB73aryFEs0g7nw2IeLmjqEZEseVe+0Fxt+2AuN3uTrtqiNtti4g41z7HB8adDvc6xJn6kkFdnr3UoderLV/9redXO7/ybY/mtRn+dFZN0arVo7MesVnM8HTprBFcO7MayMtnnTVj43cDd9a98krdzoELrrc0QvPaCC0Vt2825OFD/ObFpqyQ33+dvWMhEAi2DDsxYVOLKf81qSbw83t//M9+RfVakl5FEwkE2ZD6EOsTSAQAIMVJvRIEkm0y+qkN7goQCgRIGikEyHTRUoBcYbAAFd2NFaCRwjKZyJsKbW1wkDQ4AjLjnAK5tl4HFVN86jTSNjK4iWARf3tp8yI891Q5ctiIclK5bU0JQXw/nFwe6wNOysJAuminQw46boft9jge6KOW+iccMK9C5/qi0kjDjFCapLwezudX2uGoY/Y45OA4ZrLyvT3AyXr9QLISZRylkCQiVZGYGHp4z8lDxwEAAA==");
 
 export default TablePivot;

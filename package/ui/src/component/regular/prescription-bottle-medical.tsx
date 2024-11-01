@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `prescription-bottle-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/prescription-bottle-medical?s=regular prescription-bottle-medical}
  * @preview ![prescription-bottle-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/prescription-bottle-medical.svg)
  */
-const PrescriptionBottleMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 48l288 0 0 32L48 80l0-32zM32 0C14.3 0 0 14.3 0 32L0 96c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L32 0zm0 160l0 288c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-288-48 0 0 288c0 8.8-7.2 16-16 16L96 464c-8.8 0-16-7.2-16-16l0-288-48 0zm133.3 80l0 37.3-37.3 0c-8.8 0-16 7.2-16 16l0 21.3c0 8.8 7.2 16 16 16l37.3 0 0 37.3c0 8.8 7.2 16 16 16l21.3 0c8.8 0 16-7.2 16-16l0-37.3 37.3 0c8.8 0 16-7.2 16-16l0-21.3c0-8.8-7.2-16-16-16l-37.3 0 0-37.3c0-8.8-7.2-16-16-16l-21.3 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const PrescriptionBottleMedical = createIcon("prescription-bottle-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfwAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCGwsGAAE2AiQDCAQgBYMtB0IbLQXIjtRG+UVWEg/fr/V57uueqd2hReoFAgiS+y4k46K+C7CLWrKpyMRO1b5Pfz/Pv2Us9BkN7f/GVZ1nYeb5BAYY7QMfUBTYTCdgs3b2CYl0m/RJfJJhfMNkcoY8bsb7SqQv0q94L39o/KOHRySlDEC0B8D8rRtXa30ZLyN+aSJ+sRIBMR8UAhky9BZglkygt1yBXC54Gc2m+w8sCCDK8GQJ5CjjAq4CcpDked62Z58R1VI931ItVXbWa3VRi+j7ZueIj4l7XT6p1uOtbp9FxP2un1ZqUpa+GP714Gp8OfLbXllUIsXHnSvxaVeObRYqoUh80qUaxv5Ztwjrp10rIYmrB3zT/pt/+/965Fdj3ytgstXNxjOeNeYpjZzZImZXOnRoadVCqyuFcQqNl61eNjj4aO1gLPeq3lX91WCD9fkrwX/10XtS3z8v8WdfIBD8vW3k873tZv3XpprA6+//n35Gmq1xL32DNhIIslHNUXbFPYh7AgCQ4ooBcQ+B5IQcrrXmUwFCBQGSsooAmV7aC5CrGClASV+TBSir2CgTeVuhs90MkprzIDPFbZDr7DtQMssP8bLOkWmdojPKoy9zSQstXlSMHzOumFFMa6qqSFKcnVksO4dd8T3D6aQjzjrjksMOOe5Sw12wOnXZaUskYrEvKow3xjiFGYrt5r25xcQvuOj4WN+fZ6bifHSYK/Lw4eRJ4HCCXUkiUq9zFw7/6Sddd/Xrxuipw6PvIgA=");
 
 export default PrescriptionBottleMedical;

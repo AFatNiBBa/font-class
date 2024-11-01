@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `globe` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/globe?s=sharp-regular globe}
  * @preview ![globe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/globe.svg)
  */
-const Globe: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M197.1 455.5c-54.6-16.1-99.8-54-125.6-103.5l70.7 0c13.4 43.5 34.5 77.9 54.9 103.5zm33.2-35.5c-13.6-18-27.3-40.6-37.5-68.1l126.3 0c-10.2 27.4-23.8 50-37.5 68.1c-8.9 11.8-17.8 21.6-25.7 29.4c-7.9-7.8-16.8-17.6-25.7-29.4zM176 256c0-17.1 1.4-33 4-48l152 0c2.5 15 4 30.9 4 48s-1.4 33-4 48l-152 0c-2.5-15-4-30.9-4-48zm-44.6-48c-2.2 15.1-3.4 31.1-3.4 48s1.2 32.9 3.4 48l-77.8 0c-3.6-15.4-5.6-31.5-5.6-48s1.9-32.6 5.6-48l77.8 0zm61.4-48c10.2-27.4 23.8-50 37.5-68.1c8.9-11.8 17.8-21.6 25.7-29.4c7.9 7.8 16.8 17.6 25.7 29.4c13.6 18 27.3 40.6 37.5 68.1l-126.3 0zm187.8 48l77.8 0c3.6 15.4 5.6 31.5 5.6 48s-1.9 32.6-5.6 48l-77.8 0c2.2-15.1 3.4-31.1 3.4-48s-1.2-32.9-3.4-48zm60-48l-70.7 0c-13.4-43.5-34.5-77.9-54.9-103.5c54.6 16.1 99.8 54 125.6 103.5zm-298.4 0l-70.7 0c25.8-49.6 71.1-87.4 125.6-103.5c-20.4 25.6-41.5 60-54.9 103.5zM314.9 455.5c20.4-25.6 41.5-60 54.9-103.5l70.7 0c-25.8 49.6-71.1 87.4-125.6 103.5zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-    </Icon>
-);
+const Globe = createIcon("globe", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABkgAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCVQsGAAE2AiQDCAQgBYMtBywbUQXIjtEnY4hRnrk8jqj68fDPveh974+T8zPGtITmAp7CAUpsD9AI1SvSU61A/f/8q+7r9q8xamxmUGav7HAnSPZMtPD8X/P5PT86wO8nfkjRVO3tlasQ2POJDssHXjawmU7AtmwOuIhiFuJCe/oNyrhG06jIb9FzwGP/ofEPhkZJVQGA6AIAHJxmpeD2TuwQPft/gfiNJBAQBwCmEAoUGENgm1hgjMQUKJWCP/T/f/4fyCGAqDE+eoISbbjEB6AEqSkljKmqCGqCoDRmUlVJLquEnIuORFddGX0ICTtqxmjdflln0Sh3yJjRCi6GBFql0GVcDA+4IJ225bSmv2B4xNTJZQ3T+ms0ZJT2yggfQy8EHHFRKV/yVNAxv+vZBbfyWBz3P+yd/imN4lXUPRqKvJv6Mvd98vPw2xg8uJPyIsfyqMbRLxbPa5/jvnz8F81cLHT3ZUXij378SHxz9eobn31GPstYGdlQr2wNDW1TkOvmpnxW4mbmNbeUkeQF6MRbcWNGN1x6K/zydrp9H+WvMSltHreTrVIcqDPGD8Vgmuctk6gok6CZ6RiQNr4fIBBM//I+XKa+/VXBRIC/V3d3j58R/t9O5A9okSAoFv47K06QBAAgoxeWCQTSOcH4rm0+BAgNAqRaI0BhlAYCpcY8ApUJPgjUGofEolQi9Cl5QGpzBgqr+kCpzzlQ2fYorPWFGCQpgKK+CONjaSjmGPdwdeeBXNm6aCgjmv0gbi3Z9xZzDvgkarVp1a1GtQbdFNIpJenRIlYHx/gizoMrd1wg7j3M87mU2amLJuW0/yGC8PievV79agesioyYiyopiZT+BkGoAQA=");
 
 export default Globe;

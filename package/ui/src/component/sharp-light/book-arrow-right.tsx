@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-arrow-right` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-arrow-right?s=sharp-light book-arrow-right}
  * @preview ![book-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/book-arrow-right.svg)
  */
-const BookArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448s0 0 0 0c0 35.3 28.7 64 64 64l368 0 16 0 0-32-16 0-16 0 0-64 16 0 16 0 0-16 0-128-32 0 0 112L64 384c-11.7 0-22.6 3.1-32 8.6L32 64c0-17.7 14.3-32 32-32l352 0 0 112 32 0 0-128 0-16L432 0 64 0zM384 416l0 64L64 480c-17.7 0-32-14.3-32-32s14.3-32 32-32l320 0zM531.3 100.7L520 89.4 497.4 112l11.3 11.3L577.4 192 272 192l-16 0 0 32 16 0 305.4 0-68.7 68.7L497.4 304 520 326.6l11.3-11.3 96-96L638.6 208l-11.3-11.3-96-96z" />
-    </Icon>
-);
+const BookArrowRight = createIcon("book-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdgAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCFwsGAAE2AiQDCAQgBYMtBzcbHgXIjsQ4JvKLKOwiHr7XfXruk/6Orb9ra00oE1GFhAGsCMt04Y6nT7mTNpOSoENq3+PN/zX1QosO8D8/4UOKxNLismu6ZTyfwD1f0na+svEwbWATxambUqV6iBLwUaSolm3sOLvj2hHy+DuGq5FeTT/gafnS+FlXt0jyDECUAJizduUKX7VES8QP/0v8YBkCYi6oBDJk6CHAdJlAD7kKuVzQEv//H/4DKwKIBrhjAjlqOIJzgBwkWZ5Pbtu7XmvK19Rrxca3B0e83yXFdd796pAPBjTVI4oiou7ZWB+iMR50yOJ655frTSFWHEPrVIx1eunAxk4dOw2OjrE6Ggsh86uiQwyJzrG2Pk6nWNP3w/LDX/hhzw9mffl6M83FNVA0N79+rKyU5WxlWbqmcsw27X5cos29e222OaZyTakc9dps8BvOubOfm/oRCnt8Yt58Y+6rYxrtE3t8ZOtW9ZNwOxAI/jp47N+tbaf/2qqewE+fNF/v/6/S1fQhWkkgyIb/P9ymdA2hVAhARIoz+tKykOyRwac2ekmAUCBA0qAQINNdKUCuMEyAml4mCNCgsFIm8tZCB5sHSBodB5mJLoNcBx+Dmum+9hp0iMzmBIsRfvlSF0p0QVU1ZuToamp1LHXRjLg0P626rA0+E/uGUK09jjrilN122e+UoE5YEZ522EKNXOCHKmOMNFplqupx63n/GrudcNJ+Rx3Ji0xTvW8NdkYfPYTMBIxjFZJEpNIgIyO2nzhx9OxXCwA=");
 
 export default BookArrowRight;

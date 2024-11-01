@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-laugh-wink` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-wink?s=duotone face-laugh-wink}
  * @preview ![face-laugh-wink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-laugh-wink.svg)
  */
-const FaceLaughWink: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm96.8 58.1c-3.8-13.7 7.4-26.1 21.6-26.1l275.2 0c14.2 0 25.5 12.4 21.6 26.1C396.2 382 332.1 432 256 432s-140.2-50-159.2-117.9zM144.4 192c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1 0 1.8c0 .5 0 1 0 1.5s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zm130.8 6.4c30.4-40.5 91.2-40.5 121.6 0c2.2 2.9 3.2 6.2 3.2 9.6c0 4.9-2.2 9.7-6.4 12.8c-7.1 5.3-17.1 3.9-22.4-3.2c-17.6-23.5-52.8-23.5-70.4 0c-5.3 7.1-15.3 8.5-22.4 3.2s-8.5-15.3-3.2-22.4z" />
-        <path d="M176.4 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm124.4-6.4c17.6-23.5 52.8-23.5 70.4 0c5.3 7.1 15.3 8.5 22.4 3.2s8.5-15.3 3.2-22.4c-30.4-40.5-91.2-40.5-121.6 0c-5.3 7.1-3.9 17.1 3.2 22.4s17.1 3.9 22.4-3.2z" />
-    </Icon>
-);
+const FaceLaughWink = createIcon("face-laugh-wink", true, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABqwAAAKoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDAwsIAAE2AiQDCgQgBYMtB1obrwXIFkpLEOnKqkfaA8nmBZtlYIyInoFSIk5N4QPHO3FN/Uh6esBvwkeJ2rC0OJI7zycw4A6Q0YAadKYzsO02dIYVYdNgEMPlIAvFGZLdMUQOL5DHD9lVaqT701e4lf4HMH410FUk3RmA6AOAFTu3rvfe7tid4qv2S8RX1iEgVoJKIEOGIQIslgkMkauQywW7U7vN7mi3KwKIDvSxGehAFx7D04AcJEme5/37D25MaZS1nvmOslbsvLEVcW9c3rynuKF+V/3uxt3lzgfLiBsH3t26t/lEccP4uxp3t+LnFRHvr/+6vHHjt6s+3PnLyg82fFPcsO6r5e9t237P8vqyZ9zYuLv+2OLXVn+y8J2RO++tqKmXXuayuDwuIy8njMtc7q56anFD857m9ielghPudpklmg84BsSD7mmNfKLPE7+P+OqYrzy7q9d1XNfLKAj0hHpe6aLa9w0a3z/w6eMX3Tx69M0XPf7J/d6zppuBL76/atX7Lw7stsZ8PP2wBROPYWdZV+48ZuK+x5697bZnH9s39fyeh4Ge42aPiSxSIAIp0qUQKY2eLZt4Re3m0Yzm1FrXtk/u/74hfpP7TwICwS9/n/fPob0X/99VJrD3jT//xb+j9ntJegJdEgiyye3JDkogEQCAFOcYmbgNgcwZcv5ee7hHgFAgQNKhECAzWB8BcoVJAtQMM0eADoWtMpF3C3UHZybp4XQmM9fFTK7uRaZmsU9DHeqRqaqhaMZPMeda4TXDqhlTp1cLq25eMrVPc/2LqmnX+HNWNwGWOsapTnGWox3leGdBn2F99GwnWzui1viiygxTTVdZqNouXTp3EDrDmY5v2/uDLFKd9413zrj1BPAmXnamEZmMSJG1XsLUKScdfvaxx0059/hTTpxy75sObNmXHAAA");
 
 export default FaceLaughWink;

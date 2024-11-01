@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ruler` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler?s=solid ruler}
  * @preview ![ruler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ruler.svg)
  */
-const Ruler: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M177.9 494.1c-18.7 18.7-49.1 18.7-67.9 0L17.9 401.9c-18.7-18.7-18.7-49.1 0-67.9l50.7-50.7 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 41.4-41.4 48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48 50.7-50.7c18.7-18.7 49.1-18.7 67.9 0l92.1 92.1c18.7 18.7 18.7 49.1 0 67.9L177.9 494.1z" />
-    </Icon>
-);
+const Ruler = createIcon("ruler", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABYwAAAHRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBSgsGAAE2AiQDCAQgBYMtBywbxgTIHgk2jnadKOaWFEH92mfP2/0HFKStU2FiB6SQhMy5IDgWGi2qOGpFTeJ/FYI/dfO88yjANwptTFsTZIFEc54nkGge2ATKAss0AUvdxssNgqzJkSN69BjaQnWFPJ5mJ5VIN9MHnG8PjW/aOElSmQGIxgAYs2jeDK8+x+eI9//vE+9NQ0CMAYVAhgztBRguE2gvVyCXCz7H//UfWBBAlMFHnkCODFMxB5CDJPJ8bHWpNl9YXapacKUq4lTLhXEtjrWaFyPiaqvrLUfGKNt+XlyvPt1iQVx1tPn6+obGDT982PjB7R4/mtHsx7JlPjZr9rHef7duwW4aumrq3dB6xbBhQCD4v/VD01WNhv+uqE7g65Nf+2eU/y/+pAZUSCDIuv/vbnkil8cfAQBIcVB9IhdIxkpw1xrXBAhVCJCUqRIg005jAXJVuglQ0tEAAcpUmScTeaXQ3IoBkhp7QGagQyDX3F1QMtxrp0zzyNhEcIH4y8VO9NCEuaJPz97F0GIbMpIgWB0PK475zgdLqYss2miXnfbbYL0t9jtkrxn+ATtMjOAJXlToo6feCkMV6eSZXeicvfbZsqbzU4Yp3tudHYybu4iUALWvQJKIVGIotxcA");
 
 export default Ruler;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shish-kebab` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shish-kebab?s=sharp-solid shish-kebab}
  * @preview ![shish-kebab](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shish-kebab.svg)
  */
-const ShishKebab: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M438.6 73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L416 141.3l-22.6 22.6L349.3 208 304 162.7l25.4-25.4c-17-35.7-10.8-79.7 18.8-109.3c37.5-37.5 98.3-37.5 135.8 0c31.4 31.4 36.5 79.2 15.3 115.9l-55.4-32c7.1-12.2 5.3-28.2-5.1-38.6zM104 453.3L46.6 510.6 1.4 465.4 58.7 408 104 453.3zM128 208l88-88L392 296l-88 88L128 208zM16 320l88-88L280 408l-88 88L16 320z" />
-    </Icon>
-);
+const ShishKebab = createIcon("shish-kebab", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABaAAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBVQsGAAE2AiQDCAQgBYMtBzIb1wTIhofn9aI/9yUzCygL2R9FBavooFaoOP/X1IvnRwf4gU7w0KKwEiQSqFbNDTbA2d75kqYDOR3NJopTt7F0QaavIkPwiBjiQ/MCebyWnVEiPZg+x/XWqvhBI2dIKmUAoiYARs6fPdXb38a3EZ/9/wLxmckIiJGgEMjQ0FSAITJBL5ArkMsF38b///M/sCCAKPPPSSBHGROwGJCDJM/ztpUqVapSqpbPq1KqvP5e5YhLde84Ua9jdIghMSw6x0NNHu78WJXLHR9p9GDDSfFw4zUzZs8YFrNj6Pz5c+bPjTkxb05/R6tHaz76U8vP133uxX0PVKPaAxerVbu41jqv+dxFrw6dMu+Ldu2+2N99+N/b3flu2uGLIHzlAZ83+HO++dRTICgrtm/X14FA8O43781ZXmPIXxWrJPD9q7/8xOfi/3dSlh5FRQkEWZf/u1iSBNC/hwL3U+zTCt8kkIyQQ1uruidAqIwASVllATJN1BQgV1lnAUqa6ytAWWWzZSKvJNS1dIKkqp0g089RkKvrOVAyxEd+Wd3IUopJCOZHlzhO0bHHip7dehSDim1hsFlC1cXBxbHUYZ8NdESjdbbbZo+11thoj+C7TI322mpchI31Q4WeuumhMEhxXb+en2etXXbbaLttXGew4r3Xwb54fEeoiZP2cipJRKqye8NGy3XdvHbVylUAAAA=");
 
 export default ShishKebab;

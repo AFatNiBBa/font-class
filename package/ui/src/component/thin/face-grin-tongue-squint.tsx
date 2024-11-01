@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-tongue-squint` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-tongue-squint?s=thin face-grin-tongue-squint}
  * @preview ![face-grin-tongue-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-grin-tongue-squint.svg)
  */
-const FaceGrinTongueSquint: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16C123.5 16 16 123.5 16 256c0 99.6 60.7 185 147.1 221.4c4.1 1.7 6 6.4 4.3 10.5s-6.4 6-10.5 4.3C64.7 453.4 0 362.3 0 256C0 114.6 114.6 0 256 0S512 114.6 512 256c0 106.3-64.7 197.4-156.9 236.1c-4.1 1.7-8.8-.2-10.5-4.3s.2-8.8 4.3-10.5C435.3 441 496 355.6 496 256C496 123.5 388.5 16 256 16zM128.8 164.4c2-4 6.8-5.6 10.7-3.6l80 40c2.7 1.4 4.4 4.1 4.4 7.2s-1.7 5.8-4.4 7.2l-80 40c-4 2-8.8 .4-10.7-3.6s-.4-8.8 3.6-10.7L198.1 208l-65.7-32.8c-4-2-5.6-6.8-3.6-10.7zM184 409.9c0-23.2 18.8-41.9 41.9-41.9c11.1 0 21.8 4.4 29.7 12.3l.4 .4 .4-.4c7.9-7.9 18.5-12.3 29.7-12.3c23.2 0 41.9 18.8 41.9 41.9l0 30.1c0 39.8-32.2 72-72 72s-72-32.2-72-72l0-30.1zm64-14.6l-3.7-3.7c-4.9-4.9-11.5-7.6-18.3-7.6c-14.3 0-25.9 11.6-25.9 25.9l0 30.1c0 30.9 25.1 56 56 56s56-25.1 56-56l0-30.1c0-14.3-11.6-25.9-25.9-25.9c-6.9 0-13.5 2.7-18.3 7.6l-3.7 3.7 0 28.7c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-28.7zM372.4 160.8c4-2 8.8-.4 10.7 3.6s.4 8.8-3.6 10.7L313.9 208l65.7 32.8c4 2 5.6 6.8 3.6 10.7s-6.8 5.6-10.7 3.6l-80-40c-2.7-1.4-4.4-4.1-4.4-7.2s1.7-5.8 4.4-7.2l80-40zM149.4 321c32.6 8.1 68.6 12.6 106.6 12.6s74-4.5 106.6-12.6c11.1-2.8 22.3 .3 29.6 6.9c3.7 3.4 6.5 7.8 7.5 13.1c1 5.3 0 10.9-2.9 16.1c-10 17.5-23.6 32.9-39.8 45.3c-3.5 2.7-8.5 2-11.2-1.5s-2-8.5 1.5-11.2c14.6-11.2 26.7-25 35.7-40.6c1.2-2.1 1.3-3.8 1.1-5.1c-.3-1.4-1.1-2.9-2.6-4.3c-3.1-2.9-8.8-4.7-14.9-3.2c-33.9 8.4-71.2 13.1-110.4 13.1s-76.5-4.7-110.4-13.1c-6.1-1.5-11.7 .3-14.9 3.2c-1.5 1.4-2.3 2.9-2.6 4.3c-.2 1.3-.1 3 1.1 5.1c8.9 15.6 21.1 29.4 35.7 40.6c3.5 2.7 4.2 7.7 1.5 11.2s-7.7 4.2-11.2 1.5c-16.2-12.4-29.8-27.8-39.8-45.3c-3-5.2-3.9-10.7-2.9-16.1c1-5.2 3.8-9.7 7.5-13.1c7.3-6.7 18.5-9.7 29.6-6.9z" />
-    </Icon>
-);
+const FaceGrinTongueSquint = createIcon("face-grin-tongue-squint", false, "data:font/woff2;base64,d09GMgABAAAAAAN0AAoAAAAABzwAAAMoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHCEAAsGAAE2AiQDCAQgBYMtBz4bDgZRlA1KlezjMG74SmmCiBBlGWJwooWhDO0ZcY2gWrae2X1CyDpFRbbIaPQrhUvCIiRCU0j0FRI02PP/yXu7r2S+i1R0UEmrsbib0+3Y/3PN52fnB/jFzw8lGksLo4ejzOcTGGA0NWDj+vlERjAB29S8FwfxOkPaDmqcVk2TfM07eEyfKn7Nm4ZUCgBiDABcPuRl4EITTcSd9ijEh2sQEFeANYQC97GEwAl1gSUa1kBVBU20Lf8PXIMAogcempZV9OEL/7QvQ+qpGm8ESKxsGB99TUMNQV9Tr+hJMtENb6ID3NOYi/xSZon0Wewl4Xnc5az74tOMu8B6En2B4/IyGdxAfOZ7KPWWwC2X8LQU4wxHnZZIAsXj+AkZ0XL92RIQX3kpQCucd9hvc92lpCSpRLpMb4sctBKt6LBdtlxFtMpxFsMQaJxZJiVxOXEZjng6vr9Ay2hCJnJXE64nbYcUV1Y4I3u3arl0IrWZK/HXElnKEmZcstJlrr1LuUy23L9qB9tdJrve2typvYN2fyzKgLKv8NUV0gYGY1RVjg4VCZb79iIbSXLFwokkJGFioUKOJGTv3ZdgWeHgWBWjGhxAGmK/fi0ri8Xo4oDKLCf4dDR9kmRlgGNeDAu9Qp5D4Bez08BpM9PbhHDbtEayuBWM/PxmZkLLyOqfr/ftOv0OmRW0/79rb//3vncFsq5+nS8sabeXa1kOvdyp0vGEt3yxXjU+rlI/xcm0g15N5MUHxGc/NyM1U248fMMG9wXxpqSm9jybC4iv6niVJNPmTplrAggEO+Vnvcz45K9PXw3w/f7+l/Q32F5I+Qb6JAjKZrupOEESAICMXrYJgfTpogVDntCe+gAlpB4DUCwygWrABnSsCKBnJm+oi6rb0qeUIEhDulAcG4FqymHoOHHd7TEV5UZnb1P2NzMpsY4k9GJ9PL3ZUHYwI+fuXVp3hrGzZedeXuECF6JWm1bdalRr0F3DOmUEPVokjuETPsvy4ckbKxS7On9bEmpupy4N/cL6bsKw++vOesfru0BNjUe4Ly0lkbKvqJ9HXWdDq0d3W2tdT5nS1dHT0NoNAAA=");
 
 export default FaceGrinTongueSquint;

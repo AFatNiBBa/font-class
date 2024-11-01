@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plant-wilt` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plant-wilt?s=duotone plant-wilt}
  * @preview ![plant-wilt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/plant-wilt.svg)
  */
-const PlantWilt: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M48 248l0 13c9.6-3.3 20.4-5 32-5c1.5 0 2.9 0 4.3 .1s2.8 .1 4.2 .2c2.8 .2 5.5 .5 8.2 .9c5.3 .8 10.4 2.1 15.2 3.7l0-13c0-30.9 25.1-56 56-56s56 25.1 56 56l0 32 0 200c0 17.7 14.3 32 32 32s32-14.3 32-32l0-200 0-32 0-128c0-30.9 25.1-56 56-56s56 25.1 56 56l0 13c9.6-3.3 20.4-5 32-5c1.5 0 2.9 0 4.3 .1s2.8 .1 4.2 .2c2.8 .2 5.5 .5 8.2 .9c5.3 .8 10.4 2.1 15.2 3.7l0-13C464 53.7 410.3 0 344 0S224 53.7 224 120l0 21.8C207.3 133 188.2 128 168 128c-66.3 0-120 53.7-120 120z" />
-        <path d="M432 128c-47.1 0-80 27.8-80 75.1c0 27.9 25.3 74.8 66 111.6c3.8 3.5 8.9 5.3 14 5.3s10.2-1.8 14-5.3c40.7-36.8 66-83.7 66-111.6c0-47.3-32.9-75.1-80-75.1zM80 256c-47.1 0-80 27.8-80 75.1C0 359 25.3 405.9 66 442.7c3.8 3.5 8.9 5.3 14 5.3s10.2-1.8 14-5.3c40.7-36.8 66-83.7 66-111.6c0-47.3-32.9-75.1-80-75.1z" />
-    </Icon>
-);
+const PlantWilt = createIcon("plant-wilt", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABmwAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCTgsIAAE2AiQDCgQgBYMtB1AbcAXIHoexY/oZ41a5S6WhtDx87dfnud1v5gPQW2BUu4o5xAqBVNgtqlTKo0MVm0m4B+L8nw+ZuJz+wEnv21/80cbCpXMHOud5AoFHhV2eUEKJBvgG1u5sPqk1pZYEoyXHN45PHTovKOKnfJcK6fl0EY/i/wDGnwbcRdKQAUQ7ANbt2rbVj7/ELyku1r4iLtqCgFgPSoGMjGEBVsoCwwolCoXgl1TDL1FTEkBU4YCQQRUVPIDHAQVIkiiKvr7tTZWWYmdTpfHUA1Mj3hu+bdr7055uerDvwxkfxivTP2g8PCp3Cc/WcgSeftwT8WLfs1Pe7nl6QIjbenT2s0ET4hS14I3V329+5bel/U4j/wTjP2j/4O8unrzo0zUTt7E+9462/LW9vn77Xy2jvXn9tomHbpVCc860EPVHR0rxbJpbXH20Rd2///NPra50Vut997X60Vml28Skxc+daiTWlqmjoyxdnXo9PMbvA4FgaOTCA4da+V99UwK/ff3vPCCp/ZikD1AvgSDPrM20P4FEAABS3Gh8grkC2XYJfWqzZwQIjQiQVDUKkA1pF6DQaIYAFaMWCVDVaJssigah24HCJ82u4bPFbuYL3b7kK1Y6U1d1RzZIxZyU72Dm5uFN18p5s+eWy8vpWFZtTArnK0q1NfVGa9PgrpOucqXrnXDcJa6PvNbW7gZX2LwiNvmi0jyzzVVartye3Zs7q691nUtkff+SFcrz3lQ3rndPAzch0fluZJlIkTufTzjrpksuT6ppr3e3+iUGAAA=");
 
 export default PlantWilt;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-from-bracket` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-from-bracket?s=sharp-regular money-from-bracket}
  * @preview ![money-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/money-from-bracket.svg)
  */
-const MoneyFromBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M24 0L616 0l24 0 0 24 0 144 0 24-48 0 0-24 0-120L48 48l0 120 0 24L0 192l0-24L0 24 0 0 24 0zM464 400l0-304 48 0 0 392 0 24-24 0-336 0-24 0 0-24 0-392 48 0 0 304c35.3 0 64 28.7 64 64l160 0c0-35.3 28.7-64 64-64zM320 352c-53 0-96-35.8-96-80s43-80 96-80s96 35.8 96 80s-43 80-96 80z" />
-    </Icon>
-);
+const MoneyFromBracket = createIcon("money-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbQAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBZwsGAAE2AiQDCAQgBYMtBzkb8ATIHoVx41Pi4MaynpVDFLxoEc9j+/WeOzNvP5XJAYEmVihcG9+scFtFjiAeOL41YlPbVFa/qzXd/fswuOxEMenERTEWkGQ9ouzU16GUBYcccS4BWN785J//a+rF82vAz0dwSNGUWtM1R8TzCQww2qJpPp8NZxPFqZtaDwWLEhAPKSqsyNhx5vh2hpb/PNBRnpTfGLUPzV/LHVB0FQAyDwA4eS2bgc9xxslfP/LLKSCQkwDrICoqVkFwBBOswlsHNE0Yp+/Tf+A6ECADwEsLaOhwHbgBQANFbbxljU7WKfjCTCetzp2jgohMI1qVNgdR1q+FyZDbIbnNUMKHjS/LderZ5rf1hQ+bMK9rroq5/0P3Xn2+4XmP9XXe679QLP15/vyI2akO+4gVJJh0RswfRztgw4nxN8SJHenX8zXSp6bH9OvR9p1XvE4eXw2nlJ4HgrBh7v3jN+ce+T85wwH8+aLhcf3LsLzHpAJC3dJvUStDiOwAsZIlVueLguI8Bu86y0MBMY2AYmBaQLWSGoJm2mYIOmuEIRiYdgmTJoFYpG6gmOUuqPbZBM0i76BzxFd0YFEqtyRmSL926ekVTU2inR4fJeixZMp0EXQ0SdfWhqXcYpedMDBtyoK+nlELCzMnk1g0Ke1hKT9E/Dx8SAK9rn5uLuibM2/UtKk6ThJ979ks+d3t4nLAuUtWUUjRMtFwszDDfedeuzveXwAAAA==");
 
 export default MoneyFromBracket;

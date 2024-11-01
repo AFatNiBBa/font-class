@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-chalkboard` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-chalkboard?s=sharp-light person-chalkboard}
  * @preview ![person-chalkboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-chalkboard.svg)
  */
-const PersonChalkboard: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M168 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 136 56a56 56 0 1 0 112 0zM140.9 128l-9.6 0-4.5 8.5-76.9 144-7.5 14.1 28.2 15.1 7.5-14.1L128 202.1 128 496l0 16 32 0 0-16 0-144 64 0 0 144 0 16 32 0 0-16 0-336 144 0 16 0 0-32-16 0-48 0 0-96 256 0 0 256-256 0 0-96-32 0 0 96 0 32 32 0 256 0 32 0 0-32 0-256 0-32L608 0 352 0 320 0l0 32 0 96-76.9 0-102.2 0zM224 320l-64 0 0-160 64 0 0 160z" />
-    </Icon>
-);
+const PersonChalkboard = createIcon("person-chalkboard", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdwAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCHgsGAAE2AiQDCAQgBYMtBzgbJgXIjsQ4JvKLKOwiHv5b+/K+6h7qvwy1AMgBuaMChC7sgIQK25zIKOyQ2vd4f9xP/VE2muezBcGQIkursPN8AgOP4miyzWYTxambYoV6CBIQFCkiWpzb8XXHuWdHKOPvGK6O9Hj6DvfTm8YfunqApCwARBsAzNm0boUvfo1fI777X+I7yxAQc0EWKFCghwDTFQI9lDJKpeDX+P9//g/MBBD18BEJlKjHWVwFlCApy7Kp5bKmWl3LcmOtrtr25KCXuz7W/5VutScGvtL/pS6PD3h50Kvd11e1qkOsjw4xIDrHpkghahERUQuCFLISq6qIlpquBRsrRlvKiFO1EOT3KK4c7PtGmzf+5LuD33n14Y5r1nTMxatbv/v55++2Dt6jiyq8Mtny+274wQljdhiojayNZrM1C2e15jZ56ejdgN2yZ3I2qVm7rWj3+WxEnzMbCYG46OF384+7Wk//q7GWwO8fNd3e9/8v0u30BholEBTD/x9ue7qtLywZQCzFRX1nXzVUIDmqhFdaeESAUCFAUq8SKHTXBkqVYVCnlwnyzfXrFKJsEjrYIZC0cAYKE92AUgcfQp3pvozX6xCF3SmtRvnVl25hjy9YlMeMHJ2n5mVNU5mSPM5Oy9u2wRdDzxC310GnnHTeAfsdcb5jn7UidcEJCzXWAj+UjTHSaNlU+bj5qNvo42edc2SuOZ9nmvx8aLCL+vAhzplA6lglSSJSWzPtGfHbTcOxFxMAAAA=");
 
 export default PersonChalkboard;

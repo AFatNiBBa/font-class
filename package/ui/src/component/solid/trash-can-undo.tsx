@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-undo` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-undo?s=solid trash-can-undo}
  * @preview ![trash-can-undo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/trash-can-undo.svg)
  */
-const TrashCanUndo: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M135.2 17.7L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-7.2-14.3C307.4 6.8 296.3 0 284.2 0L163.8 0c-12.1 0-23.2 6.8-28.6 17.7zM416 128L32 128l0 320c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-320zM217.8 199.9c8.9 9.9 8.1 25-1.8 33.9L182.5 264l57.5 0c48.6 0 88 39.4 88 88l0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-40c0-22.1-17.9-40-40-40l-57.5 0 33.5 30.2c9.9 8.9 10.7 24 1.8 33.9s-24 10.7-33.9 1.8l-80-72c-5.1-4.6-7.9-11-7.9-17.8s2.9-13.3 7.9-17.8l80-72c9.9-8.9 25-8.1 33.9 1.8z" />
-    </Icon>
-);
+const TrashCanUndo = createIcon("trash-can-undo", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABeQAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCAQsGAAE2AiQDCAQgBYMtBzUbBgXIjpQuZyTx8KEze1+SdxJ5vUFSgIgPCCugirApdq7F6tq4QvDHTos3XirggUi7qWm8IGNScc54BRqftnhqqUBv/0Bv+gL2u7PRLIk8jqWlrCXHpR2fDbJ4Mb2mRPJ88gcetjeNv7RxjUTDFEA0BsDklUvn+6Y+6iN+r35G/G4uAmIyKARSpGgvwDipQHuZAplMUB/VavoPLAggavTPTECGErZhHyADiTTLujTpXS5VshXlUr62eavmedxp/pRLLZ4uV+Juq2fjcstn8jxaxgs98nir9ebaSm0Sz/d+v3sl3u37Ybt02fPNR0U5Puv9fgfxXLd32ob52uh4uvVTPVbEM3G51cp4t0WXDxp/8I8/dvzhxsf7wbBJ3a1bdZm9xOOb7Hdp0CmDLrXefymYJ8mbNHmN18Z9+aQfZ377X8Vok27dynppsXhxi16afP1hk9Eq/vv2UfuFM50ol0/gI+0fAYHg7b6vvbmx0bj/G5QT8OfX/4W/ouo38U3yARpIQJD2q/azLr6B+EYAAJI4oUt8g0BinVR81VrPCBByBEjUyAVItdNYgEyurwAlHQ0XoEZuqVRkDYXm1k+QqHUYpEY4DzLNfQJKxvlZqNE8UkfD3QT/58XMkND0pmLwgEHFmGJrYcJ30FIdW5i5Xico0hsW7XDQAcdst81uxwRyxHz5uP1maPB0X1QYbIBBCmMUx+7r9ArbHXHUbgcdqHXGKu7zvZzQ03tDGwlgyBOhtB5J3bEjm4/u6r9184H+xw9sOwgAAAA=");
 
 export default TrashCanUndo;

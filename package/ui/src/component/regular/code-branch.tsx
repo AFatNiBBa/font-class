@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `code-branch` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/code-branch?s=regular code-branch}
  * @preview ![code-branch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/code-branch.svg)
  */
-const CodeBranch: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M80 112a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm80-32c0 35.8-23.5 66.1-56 76.3l0 99.7c20.1-15.1 45-24 72-24l96 0c39.8 0 72-32.2 72-72l0-3.7c-32.5-10.2-56-40.5-56-76.3c0-44.2 35.8-80 80-80s80 35.8 80 80c0 35.8-23.5 66.1-56 76.3l0 3.7c0 66.3-53.7 120-120 120l-96 0c-39.8 0-72 32.2-72 72l0 3.7c32.5 10.2 56 40.5 56 76.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-35.8 23.5-66.1 56-76.3l0-3.7 0-195.7C23.5 146.1 0 115.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm240 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM80 464a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const CodeBranch = createIcon("code-branch", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABlgAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCXAsGAAE2AiQDCAQgBYMtBzIbXgVRlM3FDNkXhbExbeoSLxvZwaQ8YTDRihCFcW+/6W+5vrq42lb3FM/D7++/tc/FAM5SohNLdlSDFdoktj8lAKjP/2ec/+7I0/fOkpW3Jn5IjaiAohIbe8GhjN5uw61qGShzOjQJtwoWo6VVewbwkNn8n+v5no8G+I1mOurQgRTIKOoq9J5HioWnnVAUnbbBCdjtzvZwiFYOLa3FWuK4xvFZQp2LOaahnC8vcLTcaL4YYYmiqQCkPwKwaPP6db5e4mXS1XkhXdYggSxCGA+oUGE0gLmEgtFExiO1WniZTif8BzIKkBZeRgE1WpzAOUANip6oFhlzRkejFpWVYkX9ZkB2cZ53zIbfgrkh27YyJ8heJTw8ytyuR0Vu0gGersfzMu7znIznX7tvryeu+p0Qbsd9OKJ77Nf5UOb1sCHmLuVeRnYP2Ay72HHyK+YHevgT7lomo1kD2tdXs1a3zph03tThvS1egjWtvvmr2NSpo8pQMHyTyIgyYAAXP5dlfh5os2A37A4E4fuu/4bmfnP/daeA149+/G8/I50vPC4P0F0BoZrUmaQhjyGPBQBQspM5jxEUB9RwX3s7IyB6IqBo9RRQGUUHoNbTRACNsYIAWj2tJ5S6hxissYOity2gMsc0qA32BBpzfdutwancknQq8lMYt5xDy6aN97o8HONpgChPw1NjnM2aZSoWWGGhLsOGTOjUodcEQ8akvEmDkhqc8EDMy8WDxfByvJxd1mnMuF7DhnIncbzfspjSy1vBFEDUGXxFIaXXVRUnv0IAAA==");
 
 export default CodeBranch;

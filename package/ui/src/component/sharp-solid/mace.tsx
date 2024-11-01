@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mace` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mace?s=sharp-solid mace}
  * @preview ![mace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/mace.svg)
  */
-const Mace: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M328.3 94.1c42.7 13.2 76.4 46.9 89.6 89.6L512 224l-94.1 40.3c-13.2 42.7-46.9 76.4-89.6 89.6L288 448l-40.3-94.1c-10.8-3.4-21.1-8-30.5-13.8L70.6 486.6 48 509.3 2.7 464l22.6-22.6L171.9 294.9c-5.8-9.5-10.5-19.7-13.8-30.5L64 224l94.1-40.3c13.2-42.7 46.9-76.4 89.6-89.6L288 0l40.3 94.1zM288 256a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Mace = createIcon("mace", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYgAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBTQsGAAE2AiQDCAQgBYMtBysbyATIhofv7Z4693UP4B5Jka1VCLhyIWW08Z+43PmfPy2QscgebWxa+iBj0uPa1XkCiXX50l4gC6hME7DeNnRoFIo3QoIkIn7D8bpCHu9mR5Uh3Urf4YK+afylgaMkFTIAUR0Aw2dMmeyj3+P3iG9LrxPfmoiAGA4KgQwZGgswSCbQWK5ALhf8HqUS/QcWBBBl2VMTyJFjLKYDcpCkPO9Uq1KZKvn0ukXFFa+3j3ipybSYGnfbvdhrakyP53WnRrsYEh1jRlxvOB3RBx1f6bvdtKln6kXciEN1r1c8Xfuqg3WuVWrxcvWX/2n+3fLvjF1UYQXbL85rq1Avbl9Roe08H8u/v3TZMt+Z7vIl54ZFubaPqp7kZFUsEBuIh6ru+nnJgmqD/i9fKYE/3/nvH/kZZaVPk/QyyksgyDqVOpmbyEgEACDFdi0SmUAyVKKvWtl1AUJFBEjKqihAppHqAuQq6ihAGU31FqCsiqbIRF5BqG3ewJLKNmGZPvZhudpexcoY5EuvrNqRpZOYDOJvLm2MB0afKrp36VYMKJaFLmUI3w4HFttmu+08aA8XLbfBelsts9QqWx202eRwm3XGROBoX1TorotuCgMUx/Xz+emW2WyLVTZYL8cMVNx329kez7cHJzHOHoz0BJmUr1u0ZBkAAAA=");
 
 export default Mace;

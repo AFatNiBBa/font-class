@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `guitar` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/guitar?s=sharp-thin guitar}
  * @preview ![guitar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/guitar.svg)
  */
-const Guitar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M451.9 2.2l4.9 4.9 48 48 4.9 4.9-4.2 5.6-51.2 67.2-1.8 2.4-3 .6-77.6 15.5-56.9 56.9c43.3 47.9 49.6 113.8 13.2 150.2c-11 11-24.6 18-39.6 21.4c-16.6 3.7-30.7 19.1-31.6 36.1c-1.3 25.6-10.7 49.3-28.6 67.3C183.6 528 102.6 519.6 47.5 464.5S-16 328.4 28.8 283.6c17.9-17.9 41.7-27.4 67.3-28.6c17-.9 32.3-15 36.1-31.6c3.4-15 10.5-28.6 21.4-39.6c36.4-36.4 102.3-30.1 150.2 13.2l56.9-56.9 15.5-77.6 .6-3 2.4-1.8L446.4 6.4l5.6-4.2zM235.8 264.9l56.6-56.6c-43.9-39.4-99.5-41.2-127.5-13.2c-8.6 8.6-14.4 19.5-17.1 31.8c-5.2 22.9-26 42.8-50.9 44.1c-22.1 1.1-42 9.2-56.8 24C3.7 331.3 7.6 402 58.8 453.2s121.8 55.2 158.3 18.7c14.8-14.8 22.9-34.6 24-56.8c1.3-24.9 21.2-45.7 44.1-50.9c12.3-2.8 23.1-8.5 31.8-17.1c28-28 26.2-83.6-13.2-127.5l-56.6 56.6c5.6 7.8 8.9 17.4 8.9 27.8c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48c10.4 0 20 3.3 27.8 8.9zM378.2 133.8l65.3-13.1 45.1-59.2L450.5 23.4 391.3 68.5l-13.1 65.3zM240 304a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const Guitar = createIcon("guitar", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABoQAAAKjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iCdwsGAAE2AiQDCAQgBYMtBy0bdAXIHoPjbgkwbz0m65g3Xh4Vwff7/fbcd79aQqslTT6dpKEQCqH9iEtolEhlOpWhcjSuZu4ewj4sNAghuTN9YgMECP2fuOb5pz09YBTZo+TKUtcWyRHBExjgj7LxAZc2nE0Ut7jtqulHrdJGSBwhxw4coyW9UW6Bm/Ch8U9QNUlRAEB0AQDsHHm5wOELvoQ3XyO+OQEBsQOAWYgCBSYhWEcVmERjFsiy4Bf/L/4DCQggypB0TiCjjA98AjJIcqYx02XmZqZlpfE1C5jiePl4TZAXedAbeYiGO+6JjsjPS3fzhCnD8ru256b7kpNmS3p9/EhrSGlJZ83EC/2QH8l4mr+Xu9e27rp8t0A/T7f06hnxnNVkb13cYxUf2jtWbo5/SWxU1R17YLzhn+XrFVrYronXz8/bzwpN0Rm9vSv4EHuZGj0NxqMe5qYpKLnIsfgucRt7Cyd71ukG/lmzoTngRDi34VRpzmAJ9r8aGlj4liRkpOeHLD25tiMO+/uVbWD7odO9Htq7QNFluQxeP3T5SUcRSQ3vW02N+wfCGbNsbOSXs3Jy7cvJtXdHlbq14ZY8qoOLLs/jg7r6w8RKvStJHJstlRYseeo1X3ua2w0LbPXgtO1yBB9AnFU8PlSFsRt/MTBTAP62P1/plf/f3+kvLQJVCQTF4r+y4AQbqDRQvGMgckESf1EgeZCld216FiDUESApqwtQmMABQVa3AEHJNB0Iyur2UEVmhDAU0hFJ0wlRWFNCZEMrRMm6i2DZMCqMqhCm/iJmsR0CNqOIhqo6MSSrOY0B7GTba0QO2+RzZY0Cngmx0qTKFiNaguwBnsklkiOF7RZm44cIDarUEYbI5eLTyb5iZMqSIE2qH8YIed4lL3e7uQJ2UiTBJSlJIhLdNwwAAAA=");
 
 export default Guitar;

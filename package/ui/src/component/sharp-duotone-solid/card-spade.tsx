@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `card-spade` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-spade?s=sharp-duotone-solid card-spade}
  * @preview ![card-spade](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/card-spade.svg)
  */
-const CardSpade: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 0L0 512l384 0L384 0 0 0zM72 264c0-14.3 5.5-28.7 16.4-39.6c21.3-21.3 42.7-42.7 64-64c13.2-13.2 26.4-26.4 39.6-39.6c13.2 13.2 26.4 26.4 39.6 39.6c21.3 21.3 42.7 42.7 64 64C306.5 235.3 312 249.7 312 264s-5.5 28.7-16.4 39.6c-21.9 21.9-57.3 21.9-79.2 0c-2.8-2.8-5.6-5.6-8.4-8.4l0 40.8 16 0 16 0 0 32-16 0-16 0-32 0-16 0-16 0 0-32 16 0 16 0 0-40.8c-2.8 2.8-5.6 5.6-8.4 8.4c-21.9 21.9-57.3 21.9-79.2 0C77.5 292.7 72 278.3 72 264z" />
-        <path d="M231.6 160.4L192 120.8l-39.6 39.6-64 64c-21.9 21.9-21.9 57.3 0 79.2s57.3 21.9 79.2 0l8.4-8.4 0 40.8-16 0-16 0 0 32 16 0 16 0 32 0 16 0 16 0 0-32-16 0-16 0 0-40.8 8.4 8.4c21.9 21.9 57.3 21.9 79.2 0s21.9-57.3 0-79.2l-64-64z" />
-    </Icon>
-);
+const CardSpade = createIcon("card-spade", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCDwsIAAE2AiQDCgQgBYMtB1AbMQXIjsN0Oy0jJw8EU+PhYe5/52577wtuQ8SlmzQqVEik39AS3PNseWLlIYaWFle3TTfYj3Tzfy5eNQ3w8yY8xCjcfLuwxKbM5ydwz4/OZpcBnEIzxVM3pRYUEYpeIqLiyio7ri3Htx1kcSq9pERyN/m4LP8DGF+1cIlEVQog6gNg/NKFs9W8ildJvCweES/NQkBMALlAihStBRglFWgtkyOTCV4lRcGrKIqcAKJMXisFZZSwE/sBGUiEJMt6VvWtVaqTLalVql45ZvSYUTEv7jjX4tSKrhyiulrUqhWUjGgSm9VWWEtNs1JWJ0pRe/n5Vt3s9Szk7b40mwznmu9q71JNLQjV6t1ozGEz5EF9fG//cstLH9sdySUKv6np73ZR1u6Y7urXz6F56frdHeNU5ZFCDc7h3NSKpr/vY9LkAQMHDpg86cF9o8KggezAQc8DgeDzhRn31tYb9b+yVgLePP75pZ6vqIlzCVApAUHaq+hlVZwDLw0glcQRHTjyaQikhkkgP6u2WwKEagRIlFULkGqlvgCZaj0FKGlrsABl1RZKRVYlNLa6g0Rt+0FqiNMg09hDUDLKk3RZ40gBp8NF/9/LmTIik+fl/fv0y0fkl1XNwJCapkfmt91uR0JXdwq1xV57HLLZJtsdGsQDZucO222KJkwWoVx/ffSTGyE/brw6Szh9wEHb99b5LCPlz/vdHNEHd6fFJIABr6oiJZJIG4I7v/fBfes3be4N3e7Gs/WVAgAAAA==");
 
 export default CardSpade;

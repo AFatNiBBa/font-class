@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mill-sign` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mill-sign?s=sharp-duotone-solid mill-sign}
  * @preview ![mill-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/mill-sign.svg)
  */
-const MillSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M81.9 469.2l60.3 21.5 17.9-50 0-24.7 0-165.5L81.9 469.2zM208 116.1C226.1 103.4 248.2 96 272 96c2 0 3.8 .1 5.6 .1s3.5 .2 5.3 .4c6.4-17.9 12.8-35.8 19.2-53.8L241.9 21.2 208 116.1zM224 208l0 53.5 35.7-100C239.1 167 224 185.7 224 208z" />
-        <path d="M112 160c-26.5 0-48 21.5-48 48l0 208 0 32L0 448l0-32L0 208 0 96l64 0 0 10.8C78.5 99.9 94.8 96 112 96c31.3 0 59.7 12.9 80 33.6C212.3 108.9 240.7 96 272 96c61.9 0 112 50.1 112 112l0 208 0 32-64 0 0-32 0-208c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 208 0 32-64 0 0-32 0-208c0-26.5-21.5-48-48-48z" />
-    </Icon>
-);
+const MillSign = createIcon("mill-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgwAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCGwsIAAE2AiQDCgQgBYMtB04bOwXIjsQ4FvILu1Dj4cmu/86t6jcfUH/AiLhiCCDaDA6FUEp3qvp9/s/1fNY0wM8jGFqHXmAFUObzEzihLosCOqGZ4qmbomAfUbJrjFFCV4rs+Ozx7dgBijiXr6khPZQ+xh3zfwDjF21cI6mTAURjAExeuXS+d3+IH1J8XH2N+Ng8BMQUUApkZLQXYJws0F6hRKEQ/JCqVX6IarUkgKiYcKZX6g0O4DSgAEnIRTG5XuO69WoaFCvagrprH2secW9rIepGXVcvxJP1Xu//4sjXez/dgRl+uOX9PYK8iBRfPnvO7KEqZ9naZ0feqHdELnuk3Zzx6OXCyri3+b26PNP4md86f7zjYwc7DfqGT/LnSpOUPnfIJPWsafsnQv9vZEbkT74ZFORFpLDFzV/HZU208bj5X57f9MqgFJFSFg9ff13nDY3WjsD3um71zyOPNgECQasvGnfZ2Gjcf7XrJfDTO392Xl0Vl9IzqC2BIPer9rMuLoFQA4inOKGL4/cSgWyyDPjV+u4XINRFgKSirgBZO40FKNTVV4AaHQ0XoKKupbIo6gjNrb9BUt9hkI1wHhSaexXUGOe9WEXzyGnHJQ331Zc8Q0PTh5WDBwwqx5SPeRefSUzvH1uG7V4nqK53mWqHgw44ZrttdjumyCPmJ4/bb4ZHTOej0mADDFIao1wuzfIKFTviqN22uD7IWOX7gV5O+K17Fy8B7RAjskykyE3+8qv0T1m9/waua0biVgU=");
 
 export default MillSign;

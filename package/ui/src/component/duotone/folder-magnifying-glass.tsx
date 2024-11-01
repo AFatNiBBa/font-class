@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-magnifying-glass` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-magnifying-glass?s=duotone folder-magnifying-glass}
  * @preview ![folder-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/folder-magnifying-glass.svg)
  */
-const FolderMagnifyingGlass: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L288 96c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32L64 32C28.7 32 0 60.7 0 96zM144 272c0-53 43-96 96-96s96 43 96 96c0 17.8-4.9 34.5-13.3 48.9L361 359.2c4.7 4.7 7 10.8 7 17s-2.3 12.3-7 17s-10.8 7-17 7s-12.3-2.3-17-7l-38.4-38.4C274.4 363.2 257.8 368 240 368c-53 0-96-43-96-96zm48 0a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M322.7 320.9c8.5-14.3 13.3-31 13.3-48.9c0-53-43-96-96-96s-96 43-96 96s43 96 96 96c17.8 0 34.4-4.8 48.7-13.2L327 393.1c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-38.3-38.3zM192 272a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const FolderMagnifyingGlass = createIcon("folder-magnifying-glass", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABoAAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCMgsIAAE2AiQDCgQgBYMtB2obbgVRlMzFHNnHYhxT5Fr8sR9Ky8P/68zu+18z8ShxEJWpAsQVEC0QVYCkLHHFUFQ+WxLVfp68ec1SuFTkxv9c7vk9PzrAb3RoY+wCWWM8TyDARQvzhZFmmoFlbotTsAhjTcQgOmUstA1D+vDZOQzuUMRP+QYdpAfSN7iN/gcwfjXMDSRdGUD0BcDyHVvW+aAVrRTftN8kvrEWAbECVAIZGSMFWCQLjFSoUCgErdRu04p2uyKA6ETPz6ATPXA5rgMUIElCuSiGNrvHNHt2NIvt9PHyyEPxUa/fm+v59sh+4d5ki+MZe4iWbH/InpNn6v3zaX2Wcsrpgf2CNOO5c5JzPOi1lnFjmRCJe1pXidseOxEn/1sH+/o1uDjuCdfku2H7ziXxNLzt9ej5gDxjz/GD+ux8Grtrv33r38d+c/wbK676dESjrq+5pq4b+faIvds0mz/8sO26aeVZl19+Vlk8B5dxZtmv3+PXeBxByWh4XN+Hxxn311xw2yuNGpOLIz7d5kRXefx4WR7fZu8I9LB6HASCC/986ZcDfRb930gJ/Pz+n/9qv6N2K0k1GhII8qT2JHsTSAQAIMVFuhO3I5Ctl/HNXu4VIJQYkHQqIRuhLxRKE6HDaLOJyxtbZFF0CQPtA0h6OReyOa6EwkBvQIdFPo91GhjZBSkHoj4A49eIrN5VTZ8yrVpQbTs67VVE3VxYXevjLnpiPM467mxnucAxR53qArDzrEte6ExrJHS1L6pMN8U0lQUqdf+Z317sPOc7dc3qt1moso+Oc5E8fzyshHFnOJVlIkUeczz61cm/0c07fumpZ52Y/PLkySG90FiJjWEAAAA=");
 
 export default FolderMagnifyingGlass;

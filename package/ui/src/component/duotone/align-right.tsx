@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `align-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/align-right?s=duotone align-right}
  * @preview ![align-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/align-right.svg)
  */
-const AlignRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M160 64c0 17.7 14.3 32 32 32l224 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L192 32c-17.7 0-32 14.3-32 32zm0 256c0 17.7 14.3 32 32 32l224 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-224 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M32 480c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480zm0-256c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 224z" />
-    </Icon>
-);
+const AlignRight = createIcon("align-right", true, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABfwAAAHdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBfQsIAAE2AiQDCgQgBYMtB1IbIQXIhof/XzPv+zPJ2U12uQTTKkBQrQImB4SqdWRbVbWuaARJAp35v9zzszlAPt8576H5BhpjYwI973n5poQSOsJMsN0ZZAfN5ViSZkmOi+V43CCPJ9kZJdLD9AHX8X8A46vuzpDUZwCiBQAzly5coONjfEzxofaS+GA+AmIWKAQyZOglwBSZQC+5Arlc8DHVanyMWq0ggChDOOOX7U/fgK2AHCRJyvMuXbp2rZYa8yXVUmXgpS4R9+Jk1/vVxrjc+a4Tne5UGjKGXHmic/FutRqXQRYnu9yrVOLSAZK/3P95y/Pv/T5s+aDWdIELTUW80HSCSf2Z7NFxCD8mjRaRPwaBoPwlb1vbPOV/XTWBz69+/k3vq32MjvQcdRIIsiG1IVZFBwRpAOUUR/QX8vZYIDNMAn6tBvcECBUESMoqAmR6ahEgVzFYgJI+xgpQVrFQJvJ6oZPVFSQN9oPMOEdBrpMXoGSK1+WyTpHpmaYl2jcve14LzT1VjBw2ophUDDtIVx0lbk4upuMBR2BioLlqi732OGSzTbY71HAHLKgdtts8iZgrR4WRhhmhMEmx3L+3l7jyAQdt5831YyYr9hcGOCLPH2jOkwCjTqguI1Jk7W9Me6f+0Cs71bk3bycA");
 
 export default AlignRight;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pretzel` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pretzel?s=sharp-thin pretzel}
  * @preview ![pretzel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pretzel.svg)
  */
-const Pretzel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 178.6C16 106.5 74.5 48 146.6 48l5.4 0c38.6 0 73.5 16.1 98.2 41.9l5.8 6 5.8-6C286.5 64.1 321.4 48 360 48l5.4 0C437.5 48 496 106.5 496 178.6c0 76.7-36.4 144.9-92.9 188.4l-6 4.6 4.3 6.3 11 15.9 18.2 26.3-52.6 36.4-18.2-26.3-16.2-23.4c0 0-.1-.1-.1-.1l-48.4-69.9c0 0-.1-.1-.1-.1l-32.5-46.9-6.6-9.5-6.6 9.5-32.6 47-7.1 10.2 12.2 2.2c10.2 1.9 20.7 2.8 31.4 2.8l2.6 0 2.6 0c8.9 0 17.7-.7 26.3-2l39.3 56.8c-20.8 6-42.8 9.2-65.6 9.2l-2.6 0-2.6 0c-26.5 0-52-4.3-75.8-12.4l-5.7-1.9-3.4 4.9-16.2 23.4L134 456.4 81.4 419.9l18.2-26.3 10.9-15.7c0 0 0 0 0-.1l4.3-6.3L151.3 319l4.9-7.1s0 0 0 0c0 0 0 0 0-.1L210.2 234c9-13 13.8-28.4 13.8-44.2l0-5.7c0-39.8-32.2-72-72-72l-5.4 0C109.8 112 80 141.8 80 178.6c0 51.9 22.8 98.5 58.9 130.2l-36.6 52.9C49.6 318.1 16 252.3 16 178.6zM146.6 32C65.6 32 0 97.6 0 178.6c0 79.2 36.3 149.9 93.1 196.3l-6.7 9.6L63.7 417.4 59.2 424l6.6 4.6 65.8 45.5 6.6 4.6 4.6-6.6 22.8-32.9 12.8-18.5c23.8 7.4 49 11.3 75.2 11.3l2.6 0 2.6 0c26.2 0 51.4-4 75.2-11.3l12.9 18.7 22.8 32.9 4.6 6.6 6.6-4.6 65.8-45.5 6.6-4.6-4.6-6.6-22.8-32.9-6.8-9.8C475.7 328.4 512 257.8 512 178.6C512 97.6 446.4 32 365.4 32L360 32c-40.2 0-76.8 15.6-104 41.1C228.8 47.6 192.2 32 152 32l-5.4 0zM96 178.6c0-27.9 22.7-50.6 50.6-50.6l5.4 0c30.9 0 56 25.1 56 56l0 5.7c0 12.6-3.8 24.8-11 35.1l-49 70.7C116.1 266.7 96 225 96 178.6zM304 184c0-30.9 25.1-56 56-56l5.4 0c27.9 0 50.6 22.7 50.6 50.6c0 46.4-20.1 88.2-52.1 117l-49-70.7c-7.1-10.3-11-22.6-11-35.1l0-5.7zm56-72c-39.8 0-72 32.2-72 72l0 5.7c0 15.8 4.8 31.2 13.8 44.2l54 78 4.9 7.1 6.7-5.4c39.4-31.8 64.6-80.5 64.6-135c0-36.8-29.8-66.6-66.6-66.6l-5.4 0zM253.4 336c-5.4 0-10.7-.3-16-.8L256 308.3l18.6 26.9c-5.3 .5-10.6 .8-16 .8l-2.6 0-2.6 0z" />
-    </Icon>
-);
+const Pretzel = createIcon("pretzel", false, "data:font/woff2;base64,d09GMgABAAAAAAOQAAoAAAAAB1wAAANEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSCEcgsGAAE2AiQDCAQgBYMtBy4bcAbIBnr496qvc5O01yNkZpUeCFmpsSAeBH8Rn9Pzfzm+d8AHuPTAzg9lLZqrsvW8aM7nCQQ4tn+NDjiggCIPgIuhwXmDDzo6tANg60nW44C53LwFnBs9lX4hn5PAYFkAAGgsAADQn140h+e+03fSm5mHQW8yCxCA+gFwEWDBQooQAF1YCCjCxgVsbATfKZOB/we6IABQABvMAGADIVAOyIOq2PVowLaPHsrOKohEnVF2KupElt3YKz07LaqXu7OVm+x4uuy6qvu6spQttCuu2apQgY6PpDySepSjLFXl2bo4ahPOzO3XTRHzjJam5jx5mqtK5Q5isD4YMbywtK6UdEXFHVMiusm7Le+44qvjfXqm5h6lX+qSnnKPq7+/O0vejGZSe6jWqlAPz11pzVd1RU3jIEc13o5nGx/UDT3P+BFNZI03Ja7MlS6dGtXN2Rfno+OyEnonlawB+Gh2SpdI6Zs86bY8dFz+CvGdtfce6MsnzsipVFwXRSLld4y947eytza+xZhYcAiGdjvcn06SJH2/w+6hoWD42OOuS9DMvcQZJJ//QbXDwGiWsIURtnA/P4y1zOjnN/PjRGN5nf008T/5DBLnXqCZJnwAmufwYV6A0Y2N3zk8N74sNvXPv24dYveuna0nXPD9aXBaSecJJ9ywhVX4rKe/igQ+q7mfDs9YUzueZzUttVCzv4Ubhv6EzpLTTvve4b1LL33PabjA+Rq+nu+we+SPYIAJ99b5FMt/1w7+ASO7HeZ//bUjv7jO594JgdZp3zVC4+gAeR82z8EnwWcaH4+NK3/O2fptaHcFFewOWQAgQLBv0X23rRrT9V8oagD44Yk/fiH6DGa+N5g7gBAGAIFVlaliuQHAgAAAAACjg5QbAAFGo7nbSYxLpjZEBDLUECCCWhQyFrWJUIk6lNDMDTy/CAvZYUQWKyBqiLEHtWjhaNQmiwdRhy5erQbIkvWFCM+38H+a6hfh4W1ufU2d2+G2tiXiQ89p653uYMM7yMfi8C4b2cVO9rOB9WxhfwHZy5zGAXbgd1GHX+tSTw11uHTgTu5dVVO4upd9bGmWp2/Sibt84nGwe3Yc2gabtgHdnIJWE9y9d8P+IzZsBwAA");
 
 export default Pretzel;

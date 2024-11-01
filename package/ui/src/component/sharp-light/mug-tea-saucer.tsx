@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mug-tea-saucer` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-tea-saucer?s=sharp-light mug-tea-saucer}
  * @preview ![mug-tea-saucer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/mug-tea-saucer.svg)
  */
-const MugTeaSaucer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M240 64l176 0 16 0 16 0 0 160 0 32 0 96-320 0 0-288 80 0 0 40.5-42.2 35.2-5.8 4.8 0 7.5 0 88 0 16 16 0 96 0 16 0 0-16 0-88 0-7.5-5.8-4.8L240 104.5 240 64zM224 32l-96 0L96 32l0 32 0 288 0 32 32 0 320 0 32 0 0-32 0-96 48 0c61.9 0 112-50.1 112-112s-50.1-112-112-112l-48 0-32 0-16 0-16 0L224 32zM480 224l0-160 48 0c44.2 0 80 35.8 80 80s-35.8 80-80 80l-48 0zM0 448l0 32 16 0 544 0 16 0 0-32-16 0L16 448 0 448zM192 224l0-64.5 32-26.7 32 26.7 0 64.5-64 0z" />
-    </Icon>
-);
+const MugTeaSaucer = createIcon("mug-tea-saucer", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdgAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCFwsGAAE2AiQDCAQgBYMtBzUbHAXIhofn5z47N8kfSAaK8DqqTOzK65Elg6pbQOEKdhn+1Kmc5DwUwOe4j0nJeUCyAec8j0DOs9vNmyqQqxVrFcXuznbYDtE8JC0ykuPSjs8FivgnhquRPZ59jnvjh8Y3eruHTJEDiE4AmLNp3Qo3b8ftiM/r7xCfW4aAmAuSQI4c/QSYLhfop5BQKAS3o17H/8BEANGA15KBAo04hQuAAmRqRTGkb3tzVdVai41VrdxWlZUQoiXyqEJMj25SFVUVsNgjZkb0KatSZCO4dbGK94a9NPCZoS9OLOFq450hL/R/avDz48vdQtUeUe4NMSyGhCg7Xuz04neDPj/4uR+uvP76189JdpstWW2IB6zXaLNOOp3uZLNG6z1gSH337qtJEnavTo/24w//t7f//8OPo28+x0dH63RgY8TGA51G37qVUsqWpNOpW7NB/JuDZr8OAkHHV3t67mqf/ltTlYG7H/7wk/J0/XZ2NXsRTTIQ5MPrw23PrgLiA1CzuKhD+aJA5pAaftcWjwgQSgTINCgFyPXVSYBCaZgANQNMEKBBaZ1cFM1CNzsayLQ4A3ITXQKFbt4CNdN9pDToFrnNURZDffniF0pkQVsaM3J0mpqmtkqbEeHr09K2NPgixYbASQedctJ5B+x3xHmBnbVCv+CEhRq6wA8lY4w0WjJVOvbuD290wFnnHHHKydBkmnRfHuyinj0EusgAY1+LoPORtZ24cGjE+QN7Rpzbc2HfgbM=");
 
 export default MugTeaSaucer;

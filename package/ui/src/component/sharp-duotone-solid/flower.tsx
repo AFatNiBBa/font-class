@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flower` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flower?s=sharp-duotone-solid flower}
  * @preview ![flower](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/flower.svg)
  */
-const Flower: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 160c0 38.2 16.8 72.5 43.3 96C16.8 279.5 0 313.8 0 352c0 70.7 57.3 128 128 128c38.2 0 72.5-16.8 96-43.3c23.5 26.6 57.8 43.3 96 43.3c70.7 0 128-57.3 128-128c0-38.2-16.8-72.5-43.3-96c26.6-23.5 43.3-57.8 43.3-96c0-70.7-57.3-128-128-128c-38.2 0-72.5 16.8-96 43.3C200.5 48.8 166.2 32 128 32C57.3 32 0 89.3 0 160zm128 96l96-96 96 96-96 96-96-96z" />
-        <path d="M128 256l96 96 96-96-96-96-96 96z" />
-    </Icon>
-);
+const Flower = createIcon("flower", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABbQAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBOwsIAAE2AiQDCgQgBYMtB0gb1QTILg5sm8HWIYoYVUqjNLb/ePaLRe2J8VA/9vuzey8qSTRKUs8kLZmUaJaqh8IQ8hsqWfR/e7hfzdtqXYsM+592qcI6LIrkIvU0rQUO5IDXZre2oC3IszwPQELMH+QEnl8esEaC+jLTQ0jEx6a/d+f//NP2x9917vMPsgD36DyBztPpm0okkcIMsb1FJjaK6ZfU5JQer9rjl85Q4660JvI6Ac75fwDjldqJ1FYAEL0AYPc0m8F7g/6Sfv8P8SQNAmIPMIFQUDCCwAauwAieCVBVQSPPSyPOOwEBRDP41QU0ownr4ABABSlk5Ym1bVK+nFfgY5LicSFfpELkysXms8aQL8zb5NFfpshXtg26To/IuUHa0Xb31KPq8T8wbB/zOuizmqHTyfmBfS/wQgJ8aWxnJXoaEAi+uZ6zxJsoB/By8194HP8vvecjWiUIyuz/VIt3AKkE/H7Gii7e7RAopnEA37XThQChHQFSs3YBimEqBKp2Mwg0GRNEoFm7Q1xRxQiD6gmkTmegWLIG1aAn0GTDh9dsMLhqxCsB/4pLYSXEbNJ4XR5NTNNMRUEzWLca10w7lhW1rHACLWMjC00N3UALZCYTLg2xPZjxRRpeLh4aMZrl4lIpCG9mrluX1teJ0+x3LVb9YStshwOYO4BIIZK4ik85hlMdDVUu3Ts=");
 
 export default Flower;

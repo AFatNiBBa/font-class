@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swap` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swap?s=sharp-light swap}
  * @preview ![swap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/swap.svg)
  */
-const Swap: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 160l-32 0 0-32 0-8L90.2 39.6 112 16l21.8 23.6L208 120l0 8 0 32-32 0-48 0 0 288 176 0 0-400 0-16 16 0 208 0 16 0 0 16 0 304 48 0 32 0 0 32 0 8-74.2 80.4L528 496l-21.8-23.6L432 392l0-8 0-32 32 0 48 0 0-288L336 64l0 400 0 16-16 0-208 0-16 0 0-16 0-304-48 0zM528 384l-59.8 0L528 448.8 587.8 384 528 384s0 0 0 0s0 0 0 0zM171.8 128L112 63.2 52.2 128l119.7 0z" />
-    </Icon>
-);
+const Swap = createIcon("swap", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABagAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCCEQsGAAE2AiQDCAQgBYMtBysbDAXIngd2Y0eMeKo4hpVgVjUevp9+O/cl2xJKaD2zilJa86CasKsoDoXrwi9gGSSq/WRZgM5a8/cKiZ869TznoVj0QSTZltgGGRNDc/V8g/W81o1jgfW8VyvWyhWk7s62ZEXEQ0JiSY5LOz5nyONP0ER6mb7iiX/T+GmAxyR5BiAqACzYtmmN99/iW8TXBuKrVQiIhaAWyJBhsACzZQKD5WrkcsG3aDT0f2BNANEsPGMCOZpwHNcBOUiyPF/Ws6Vs6ppvLZuKXUVZRERsi1ExIraEEEWRoowsIspSJFgmNsfwGBlbI2Z6FkWkPT6irjtQlMWW2BZFPIgHHdy6ZevmKNs7qo5fvh79atywWvm1WrHONtvSb25Vq8fXXnmqUn2rjDeeFzo7Z6M4az5CZ4M71GgJ8wjXgUDwp/Uf9nWf/bu1BH68e76/apzOpw60SiDIRjfYne6rVMysAPUUV7XDBwWS/TLmVbt4JkAoECBpVgiQGaQSIFcYJUCToaYI0KywSSbyNqG3PRUkXVwAmanugFxvb0GT2T5ozXpHJnCEuBD/vdilPbRkXj1h7Ph6Zr0MFFKGMDs4q97mh1+lwgjY66hzzrrsiMNOuNwhF60xrzhjKQcv8UW1CcYarzZTfRw/bt/qiIsuOeGcs26YWer76nBX+foRsIgEmPhUGHkj5ZeuHTgPAA==");
 
 export default Swap;

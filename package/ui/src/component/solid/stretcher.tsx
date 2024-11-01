@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stretcher` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stretcher?s=solid stretcher}
  * @preview ![stretcher](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/stretcher.svg)
  */
-const Stretcher: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M83 79.2C64.9 59.8 34.5 58.9 15.2 77S-5.1 125.5 13 144.8L123.5 262.7c15.1 16.1 36.3 25.3 58.4 25.3L592 288c26.5 0 48-21.5 48-48s-21.5-48-48-48l-403.2 0L83 79.2zM240 448a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80 0c0-5.3-.7-10.5-1.9-15.5L368 396.2l49.9 36.3c-1.2 5-1.9 10.2-1.9 15.5c0 35.3 28.7 64 64 64s64-28.7 64-64s-28.7-64-64-64c-12.4 0-24 3.5-33.9 9.7l-37.3-27.1 64-46.5-81.6 0L368 336.9 344.8 320l-81.6 0 64 46.5-37.3 27.1c-9.8-6.1-21.4-9.7-33.9-9.7c-35.3 0-64 28.7-64 64s28.7 64 64 64s64-28.7 64-64zm160-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Stretcher = createIcon("stretcher", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgAAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCEAsGAAE2AiQDCAQgBYMtBzAbEAXIHoPjbgkRk6Us+vmH/fEo8fC13+/cfftVGlrNk4eMZ5JJCjSLmVDxyuA/v786d/6sxnwLoYpuUNoKMG7btG0dGiujkP/vtVOnnuc8FMC3eASCsqcGZJ3P3XlegYoNn9greEvFWkWxu7PtoBipHZIkFnJ8O17lDDm+izGUSK+8S8Bj/ND4g94YSa0AQHQBALtH2ak4vo97oov/iDckg4DYBUwiFCgwisAGTmAU3yTIsuCb/pn/QAYBRBnpwQlklHEBHgBkkOTMNzmEOghtxPw8946C4ic3om3VpG5WnUt7oWLa0c4Y5zXTbiLKO5nRTqknVdMa4bAmnVJjEq9Te6473gfGea99t3FVFKWHgDzIiwSUGhE0Ldj02NXJSv7Z82e0Tvuy/RfHy7pLZN3eMGDx/yZxt229qJ+cx+L7VcFdXS9O4Ox2sUNyf9/mIxlVjQoqmqpALl9dZUmQo8qHJPzJUkG5LH+SPCjHFDor0k2C0QDEVWtLYV3l0pjXqpAH+D36AwXx3uM0xNsHVQkExey/j5I09A8IgwD8FH2chC8KJKf48FWbngQIdQRIyuoCFEbIEMjqZhAoGReKQFndHk5kB4Sh0gqSpjtQWNcPsqFDULLhxCsbBqdwjLowz73EuBaK3ccC/QJYFJuWCqtDlN+OZsumR58decJJ1GnXpketGo16GqRLatirVZwEx/ohJpCfAEwUdtzcH85Tq0u3Ru3awi7R2H3XQ5+82BMcnoS7LJckIjn8aev1VDfUdgEAAA==");
 
 export default Stretcher;

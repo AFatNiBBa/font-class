@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `signal-bars` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/signal-bars?s=sharp-light signal-bars}
  * @preview ![signal-bars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/signal-bars.svg)
  */
-const SignalBars: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M544 32l0 448 32 0 0-448-32 0zM512 0l32 0 32 0 32 0 0 32 0 448 0 32-32 0-32 0-32 0 0-32 0-448 0-32zM384 160l0 320 32 0 0-320-32 0zm-32-32l32 0 32 0 32 0 0 32 0 320 0 32-32 0-32 0-32 0 0-32 0-320 0-32zM256 288l-32 0 0 192 32 0 0-192zm-32-32l32 0 32 0 0 32 0 192 0 32-32 0-32 0-32 0 0-32 0-192 0-32 32 0zM64 416l0 64 32 0 0-64-32 0zM32 384l32 0 32 0 32 0 0 32 0 64 0 32-32 0-32 0-32 0 0-32 0-64 0-32z" />
-    </Icon>
-);
+const SignalBars = createIcon("signal-bars", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABdAAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCIQsGAAE2AiQDCAQgBYMtBzIbIwXIHoNts3nEoPeJZPXzvWQwctvv4+H/l8373nzaLKW5OpLWFV3YKkHjwKFAOFxTe7ArJCoqKkbsiY2OHoPG3N1U4tJuS2KGaLIkJo1GbITyDU1VM8lc6zpxOf056AGnv9ij7crW5g00xuIXCLCoyzd1HmdhFmhilt/OR7hB9DYkwSX9YTzD9E9Q4p8ZdvIrgbf0pvFPxBOpVACISQBwfru0CNNnP+KznfhjHgTEBaBBVKgwj+CIVWCeTQOKIuhH2/r/QEEAMQhQ6f6CGk/gGUABabjY3GHnmzH5zoDftmp/ouc2K4uXVnpSndqLSCJqD2kll5eauuNBdEgUQBW9y2gzPbQ73gv1vmKfB0S7BtWCobZptkqazmzipXuGnAzm6AAY7LnrNo0MxKjxwYVH6tLjAIHg+/dDd8Gj/y6vBfD35+cvP0/tr7zPHoYlCKr1dt1avmoo7xEAkPEgznwQkR644FVHvQsQagRIg2oBKnNCCIraGoIBi6oIBtUuWUVxI8xab2Ia9ShWDj2KxaxnccCRl+Kg2agEzxIb678v/1QPT27TTq6glrYt1ZYlI6y2dRxcfqCRpD6KA5cu3Nm359hdJ9xYrNw7N8Xxk75IinIKpEXX3cfDq/bduHXs0kX00qbvswkP/PSkjlhAd1dNSiK9byqQfa8AAA==");
 
 export default SignalBars;

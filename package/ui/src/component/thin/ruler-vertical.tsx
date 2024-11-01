@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ruler-vertical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ruler-vertical?s=thin ruler-vertical}
  * @preview ![ruler-vertical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ruler-vertical.svg)
  */
-const RulerVertical: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M192 16c26.5 0 48 21.5 48 48l0 40-80 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l80 0 0 80-80 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l80 0 0 80-80 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l80 0 0 80-80 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l80 0 0 40c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l128 0zm64 384l0-96 0-96 0-96 0-48c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l128 0c35.3 0 64-28.7 64-64l0-48z" />
-    </Icon>
-);
+const RulerVertical = createIcon("ruler-vertical", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABeQAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCCwsGAAE2AiQDCAQgBYMtBzUbEAXIjsQ4JvKLKOwiHv5fJ3rfl+yTyGFQmHED2plLvJU3orm89nTs7A6pfdf391fTPcaXFvAB+B7XCbJ1U3ie4wk0flqTf/BEAou0LAHrbcMCG2F4GiISFCGNVY4Xgjwm2KlCupe+x5X2ovGv9i6TZBmAaAaAaWtWLPLlX/FXxPd1ie8tQEBMB6VAhgydBJgoE+gkVyKXC/6Keh3/A0sCiCr+uhLIkeMAjgJykKQ8n96tVmmcr65Vig2vtI641V4UcbPVrda1ELS7rW72LOLVNrc7ZPGg7Z0+tXUh4CO/3//N3kW87Pt6uxT3+r3RqxavDXirY3R/s9mb//H97u998d7Q3/gh62uprdXq1qWWQk9f2Q+/DT3PwaBxXtMp57byTVsNVTRv/vS8px0r+tIzhgKB4Nc04pctTSf+36CWwD8fN/oV1b+M4elNNJBAkA2sD7QxTkMMFwCAFKd1DwgkOyRcNnLb2wgFGZKqAjIdNYNcYQBUdDEKoaqwQibyhkIrmygkjRyDzGhnINfKR1Ax0VdVVavIok2IFeGzlzrbkrOOlcMGDy3Hl9M+EQOIq/sTym237+ky1w8e2u2Iw07aZad9Thr6uEWNUw6ZvaJmeaPSMIMNVRqvdI8e76+2y3En7HPEYTpkgvJ82dfp9ep+cJoEGH5PXYlITSI4Oj7oAQMA");
 
 export default RulerVertical;

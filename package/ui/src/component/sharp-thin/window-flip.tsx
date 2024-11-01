@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `window-flip` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/window-flip?s=sharp-thin window-flip}
  * @preview ![window-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/window-flip.svg)
  */
-const WindowFlip: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 48l0 416L16 464 16 48l480 0zm16-16l-16 0L16 32 0 32 0 48 0 464l0 16 16 0 480 0 16 0 0-16 0-416 0-16zM400 112l0 32 32 0 0-32-32 0zm-64 0l-32 0 0 32 32 0 0-32zm-128 0l0 32 32 0 0-32-32 0z" />
-    </Icon>
-);
+const WindowFlip = createIcon("window-flip", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABWgAAAHZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBMgsGAAE2AiQDCAQgBYMtBzIbtATIngVOmT0a8XAqRAynaeLj9UV8jSKolr/vmVtCTApUVGSLjMLgKYRDOFxy6CckwlIIf4UN/2d9Vqzp7iOo2JsoRps4YFUAdnVVosJXssOSYU6I2vb5v9zzG3p0gN/o0MamNUEm0B71PIEAi3p5nlBRYJkmYOk2mUEeUvhGiJBEdDzh8faAEq+u6eRzxn3/0Pg05YlUVQCIQQBwfDUf4qtmHfHfRLw5BQFxDFhEVKgwi2CPKjBLswiKIqijaep/oEAA0Q599wQFHdgHJwAKSG1Fs+Mu23Z1X1v16M5hqopHlX6i2w0QSUSPT6rkAvUE6TiO6yB6SMddTra0XnrQz/sXXK+9qBuDiDwr0i+2b8ZCCYQcCXr3PEAgGHhfsxn2/ne6CuDj9ecn/Yw0dcoWOiUIqo1mw1oCkgAAZDxIJhBIO3T0qr0eBAjdCJDadQtQmREhKLqtI2gzr46gXbczqig2wqj1CVKvW1DZ9QiKUS+gzZ7voN1oqBlEvz/9f0sYWKh/TsqFknRkWRpMUpBy3JVtOfXAozTu4sClC3f27Tl2Z/Abw/jeuUGE9X2RKCsoER1y3Oxvr+y7cevYpYt2Spfc91Me4uU0NIUSbkqlJNJNvCB/cHZ8BQA=");
 
 export default WindowFlip;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-rear` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-rear?s=regular car-rear}
  * @preview ![car-rear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/car-rear.svg)
  */
-const CarRear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M165.4 80l181.2 0c17 0 32.1 10.7 37.8 26.8L408.6 176l-305.1 0 24.2-69.2c5.6-16 20.8-26.8 37.8-26.8zM82.3 90.9L48.1 188.8C19.3 205.4 0 236.4 0 272l0 64c0 23.7 12.9 44.4 32 55.4L32 456c0 13.3 10.7 24 24 24s24-10.7 24-24l0-56 352 0 0 56c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64.6c19.1-11.1 32-31.7 32-55.4l0-64c0-35.6-19.4-66.6-48.1-83.2L429.7 90.9C417.3 55.6 384 32 346.6 32L165.4 32C128 32 94.7 55.6 82.3 90.9zM96 224l320 0c20.9 0 38.7 13.4 45.3 32L408 256c-13.3 0-24 10.7-24 24s10.7 24 24 24l56 0 0 32c0 8.8-7.2 16-16 16l-128 0 0-32c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 32L64 352c-8.8 0-16-7.2-16-16l0-32 56 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-53.3 0c6.6-18.6 24.4-32 45.3-32z" />
-    </Icon>
-);
+const CarRear = createIcon("car-rear", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgQAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCMQsGAAE2AiQDCAQgBYMtBy8bMAXIhuB7XWW/L83W3jLqkMhADEE25RQjO52Jy53/+dNvGov8UeZs6MIx8d+a6zyBgMfUAg+oKLBME7DUTVFQD6nm8ShSZAtljH9Hj28PyOPDuE2JdH/6CbeOD40/dbuKpJQBiCYALN29faPPylGO+LHyNvGj9QiIpaAQyJChT4AFMoE+uQK5XFCOSqX+BxYEEFXwlgnkKOECXAPIQZLlecO0abWl+nxXbalmf21N7dPdO6MudseDo3fs2L3jqa77iIfHivtHPtsbUR8avTg4BZf3PDBqV7Q8U1MTN4zwxXbW19W/3V0TKkmiNsRdbTXhSHfcw0ptdxFSvKcj4hp9tveBUZcenD3shaYX/h760zE/eerUd3Dzsfu7Vpiqc4X7X9teM/Twcs+Br77uXaLt96Xat25tn+Mwc1Sysd/bluj9+qsD/IIHDj217x19px76QP1VS1CMj2eikiMxR6GhfJlFXHddwxKycJmyOyc/aaaPAwgE+5+4/NdDGxf8V12bwB8f/Ps/+RVVykl6AdUSCLIJlQkOJJAIAECKcwxLEEjOkMGr1rlHgFCDAEmVGgEyvZoEyNUYL0DJgJkCVKmxXSbyIUKbg5tN6pzOZma5mM21eZMtWeDbSpW2yAJQCx/t/y97lQVWbiumTppSzCtu21SPKaWvzy/cqTHntLGx6apjnOoUZznaUY53loHOsLF+tpOtYuBKX1SYapIpCvMUj3uf53c52hnOdLxTnSKbzFe8nxvjHD57bMomEJ3GTZ9gR6o+8vAzJp5x9OFnAA==");
 
 export default CarRear;

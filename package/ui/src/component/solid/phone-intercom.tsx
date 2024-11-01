@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-intercom` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-intercom?s=solid phone-intercom}
  * @preview ![phone-intercom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-intercom.svg)
  */
-const PhoneIntercom: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 32l32 0c26.5 0 48 21.5 48 48l0 352c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48L0 80C0 53.5 21.5 32 48 32zM160 96c0-35.3 28.7-64 64-64l224 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64l-224 0c-35.3 0-64-28.7-64-64l0-320zM320 368a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm48-48c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0zm0 64c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0zM224 128l0 96c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-96c0-17.7-14.3-32-32-32L256 96c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const PhoneIntercom = createIcon("phone-intercom", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABjAAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCMQsGAAE2AiQDCAQgBYMtBzUbNgXIjtRG+UVWMkKSWR7e1/V57rNn9NdeBi8RVYQcYC7Thbuw+vAobZSSuqna978/9TxrUQAfhTBoY3ZukDF17/MKVKyNf6IOoYIEsOcVsGYHctBtOjzF8OmIjkAJ6fjy+CIEeXya3VUjvZB+wGPtreIvPdwlaZUBiPYAmL9hzWpfNaIR8X0T8b2VCIj5oBLI4NNbgFkyQQS5Crlc0IhmU/8DKwKIOnvcBHK04ApuA3KQ1PO8Z882rVv3LGtt8vVlrdhSFuU7XZ7pkeL5zk8PKuLdrs/2zOKlbs8NXffSyIiPhpbxzvAPPHbY+/SIDwPc9OKQdwe93f2Fwe8Mfa/X3Kc7P9OljOe6Pdu1ML9jvXCzyzNlGQ91ey4ibnV9tijiwc5PG/Bh+w//7v/D/h+Mfa2qqnG//pjtlP3467gK3T0xt+hAh9cbXu/QoZgnG32vtSuOX7lyvOjKZqNt28Y82DxM/rHmzrva3n9/29fhbCcODggEre+M/GlHu1n/tJQJ/PnJ//VX1Gwk6UO0SCDIRjVH2ZpAIgAAKc4bkCCQnFFnldaezTZCAUNSV0Cml/aQK4yEmr4mI9QV1shE3krobBuCpLVTkJniGuQ6+xhqZvm6Wtc5sgI0ysd4/+UuEVt8rRo/Zlw1o3LHhllTmpzPrLYTw863Nhy+9jvhuLP22euQs8inrW6cc8ySSFrsgyrjjTFOZYYqPXu9vd4+p51xyAnH9ZKZqvOVYc7Hu4cjnZjqBD1JIlLbKxod/XuhuOfEMQ==");
 
 export default PhoneIntercom;

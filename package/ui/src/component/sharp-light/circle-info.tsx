@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-info` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-info?s=sharp-light circle-info}
  * @preview ![circle-info](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/circle-info.svg)
  */
-const CircleInfo: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM192 352l0 32 16 0 96 0 16 0 0-32-16 0-32 0 0-112 0-16-16 0-40 0-16 0 0 32 16 0 24 0 0 96-32 0-16 0zm88-168l0-48-48 0 0 48 48 0z" />
-    </Icon>
-);
+const CircleInfo = createIcon("circle-info", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcwAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBeAsGAAE2AiQDCAQgBYMtBzIb+gTIHgm2rZr1C2HIkTLGw/dzvee+ZPcXADJVjOCAPIGqJEUOiC3JTmVrt2rfkyUkfv6vqRfPjw7wGx1aJFWDFGDFop5PYGJ7h1vbhKLAZjoB29600WJZ9iWZaJKOb8dbe8jjdnRWIl1Ib3Csfmj80dxRkjwDEPUAMGLerCke/IgfEW8qiDcmISBGgkIgQ4ZWAgyWCbSSK5DLBT+iUqH/wIIAokxfMYEcZSzFekAOkjzPW7ZsWr1mqXY+t2apxqKnEyJe9rjuYPdr41+MfjbxVc8bcajXzUmvx6Xv0yLej3och0Y+mvpu7pfJb4Y/cHDEwylv58wVataMqFEjAiRhIPK8YCH4jHZX613925u1b1QuPkCX318GDfryu0vnB5ij/h9jHOfEoFajRrUadOL4GJJHa9jFQjest71Qr9iunnr9C/WaLVeMu9RdRelyEAjGPvv/Y1ndwf+q1Uzg161rv6LKgyRdRTUJBFnnCosTSAQAIMVe7RIEkrlyeK21nBUg1ECApKyGAJmW6gmQq6GTACVt9BGgrIZZMpFXFxpZMkBSyw6Q6WsfyDVyE5QM9jwoaxRZkNEhQj/xEsZadMyqokfX7sXAYpnrTNyQZXFQsS2335sHOkCvtbbZarc1Vttgt8F3mhLvscVYDxvjiwo9dNVdYaDiuHpeP9caO+2ywTZbZZlBivt+e3v98R1AS5Swp0SSiFTzL47YJXoBAA==");
 
 export default CircleInfo;

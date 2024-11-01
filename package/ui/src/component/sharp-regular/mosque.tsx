@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mosque` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mosque?s=sharp-regular mosque}
  * @preview ![mosque](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mosque.svg)
  */
-const Mosque: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M400 0l19.2 25.6c17.9 23.8 39.8 40.5 66.4 56.3c12.8 7.6 26.4 14.9 41.2 22.8l2 1.1c15.4 8.2 31.9 17.1 48.9 27.3c30.1 18 46.2 50.7 46.2 84c0 20.2-5.8 39-15.9 54.9l7.9 0 24 0 0 24 0 192 0 24-24 0-168 0-96 0-112 0-56 0-24 0L24 512 0 512l0-24L0 176l0-27.3C0 104.3 20.5 62.3 55.6 35l25.7-20L96 3.6l14.7 11.5 25.7 20c26.8 20.8 45.1 50.2 52.2 82.7c-22.6 19.6-36.9 46.1-42.3 74.3l-2.4 0-96 0 0 272 112 0 0-168 0-24 24 0 7.9 0c-10-15.9-15.9-34.7-15.9-54.9c0-33.3 16.1-66 46.2-84c17-10.2 33.5-19 48.9-27.3l2-1.1s0 0 0 0s0 0 0 0s0 0 0 0c14.8-7.9 28.3-15.2 41.2-22.8c26.6-15.8 48.5-32.5 66.4-56.3L400 0zM208 464l32 0 16 0 0-56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 56 48 0 0-50c0-19 8.4-37 23-49.2L400 344l25 20.8C439.6 377 448 395 448 414l0 50 48 0 0-56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 56 48 0 0-144-70.9 0L400 320l-121.1 0L208 320l0 144zM48.1 144l95.8 0c-1.4-27.9-14.8-53.9-36.9-71.1L96 64.4 85.1 72.9C62.9 90.1 49.5 116.1 48.1 144zM576 217.1c0-18.2-8.8-34.3-22.8-42.8c-16-9.5-31.5-17.9-47-26.2l-2.4-1.3s0 0 0 0c-14.5-7.7-29-15.5-42.8-23.7c-21.6-12.9-42.4-27.4-61.1-46.4c-18.7 19-39.4 33.5-61.1 46.4c-13.8 8.2-28.3 16-42.8 23.7c0 0 0 0 0 0l-2.4 1.3c-15.4 8.2-31 16.6-47 26.2c-14.1 8.4-22.8 24.5-22.8 42.8c0 30.3 24.6 54.9 54.9 54.9L400 272l121.1 0c30.3 0 54.9-24.6 54.9-54.9z" />
-    </Icon>
-);
+const Mosque = createIcon("mosque", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABpQAAAK+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDMwsGAAE2AiQDCAQgBYMtBy0bsAURlZp9yX4m2MbMHnoHa4iaYxw7OZtUQ4Nv4uF7nfnnPsmeRFoCOcReh7HKB6AOCLBokSpgB0AimHGDwObgVvLiRStkaK8PyWXq1POchwL4HOCojY3hbBvbcqHsjnlegZ4XJN4FtmhNrFUUe7btVRDRkNiFxhzy+CcuUyNdnz7CpeFD40cNZ5HUMgDRA4ANO2+/pdc+i88iPmw/LT60OQJiA5gkkCHDOAFWywTGyU1CLhd8Fu22+A9EAFGXbDOBHHW8jLcAOUjyPN+91TG1rHXmO5W1Yt/mSPPhFXdPHwy6j7sb1zutKkshRNEVkUXE6WNvbLViOAajGS9Pfm5cUaQoIyKiLG/YMWfeO/PaYdl+eorP4i/Oa+1SFmXElnR3w2HyCbUZ94+4NaPosNuxhltWDsVAPDfu4Btm3DNjiOJl9IWR+5bfNe30JRwf+F3VaYNXTy/Le4evHTvlgZ4Hfp78UR9d+mqz2bz96JHdexx4y55PP9OY+Ieq8ppKtV9lubGm/PxdZ/rBD8502uPjL0z79DjMfSrVqD8mNp65++CTN+tJMDaw+8jRtzdf/XTSpPnLDW677eBy8y3Uud1ZzrJd50LzrcVdZuOKy25dtw++r9aY+9xnTKt7k449Tz6wB7tvnl54IW2+Oz0OPHnPjuH2L4cdf/w+//8aAIHgyvPe/Xrv7tW/KRP44oVff63X0X4tnZYewCgJBNns9uw9iAEOHYCV4hhT8FcRSJ6WS661wzUChAIBkrpCgMxYPQLkCi0BaiZYIkBdYXuZyEcLA/bsQdLhcJBZ6mSQG/AkqFntXbtuIDIIpuGP/oFMIHYMmWlUeYliM9UyQEnacc1pMfxlW4QbRH/sb9dONT5C7tr7NrsHmx9S5SWK28VzoaH2/Uzr3P1JNO8r4b/fO8KzcICF356UyUjBdjzX1wE=");
 
 export default Mosque;

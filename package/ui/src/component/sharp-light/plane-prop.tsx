@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-prop` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-prop?s=sharp-light plane-prop}
  * @preview ![plane-prop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/plane-prop.svg)
  */
-const PlaneProp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 0L242 0l-1.9 13.9L235.6 48 192 48l-16 0 0 16 0 64 0 16 16 0 30.8 0-4.9 36.9-67.1 9-6.9-48.2-2-13.7L128 128l-64 0-13.9 0-2 13.7-9.1 63.5C16.3 211.2 0 231.9 0 256s16.3 44.8 39.1 50.8l9.1 63.5 2 13.7L64 384l64 0 13.9 0 2-13.7 6.9-48.2 67.1 9 4.9 36.9L192 368l-16 0 0 16 0 64 0 16 16 0 43.6 0 4.5 34.1L242 512l14 0 64 0 14 0 1.8-13.9 8.8-66.1 23.3 0 0 32 0 16 32 0 0-16 0-32 16 0 0-32-16 0 0-32 0-16-32 0 0 16 0 32-19.1 0 8.5-64 108.8 0c20.6 0 46.8-8.1 67.9-20.8C554.4 303.1 576 282.9 576 256c0-13.4-5.7-25.2-13.3-34.8s-17.7-17.6-28.4-24c-21-12.8-47.3-21.2-68-21.2l-108.8 0-8.5-64 19.1 0 0 32 0 16 32 0 0-16 0-32 16 0 0-32-16 0 0-32 0-16-32 0 0 16 0 32-23.3 0-8.8-66.1L334 0 320 0 256 0zM208 400l19.1 0 4.3 32L208 432l0-32zm0-320l23.3 0-4.3 32L208 112l0-32zm117.2 96L256 176l-1.1 0-1.1 .1-3.2 .4L270 32l36 0 19.2 144zm0 160L306 480l-36 0L250.7 335.4l3.2 .4 1.1 .1 1.1 0 69.2 0zM69.1 221.3L77.9 160l36.2 0 7.2 50.1 2.2 15.7 15.7-2.1L257.1 208l209.3 0c13.5 0 34.1 6.1 51.3 16.6c8.5 5.2 15.4 10.9 20 16.7c4.6 5.8 6.3 10.7 6.3 14.8c0 9.1-8.2 20.9-26.3 31.8c-17.2 10.3-37.8 16.2-51.4 16.2l-209.3 0L139.2 288.3l-15.7-2.1-2.2 15.7L114.1 352l-36.2 0-8.8-61.3-1.7-12-12-1.6-5.6-.7C39.6 275 32 266.3 32 256s7.6-19 17.8-20.4l5.6-.7 12-1.6 1.7-12z" />
-    </Icon>
-);
+const PlaneProp = createIcon("plane-prop", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABvwAAALnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyEUwsGAAE2AiQDCAQgBYMtBzEbVAbIngVO2RSfXwqrWiwmDiEvNCGuZzz/cW+e+7amlcpdaDEiEc4PYIRDGY9AI1h4/l3rvS+TpeTDLHE+lBEdkGNFCpAdgS7rnvqqrv9087/21CtP8Iqi8lTG0ijA1CbnBgclacCBJQCN9h/3zv8/X+3zSRGE9hpr+Ni693kCna9tYwtFWWBdlkHg3qC7YG2uE/o7QVu+pjUFoI6rb2i8F80fWXtRaA8A8QkAz4Omppc/8ivyfngPeW8UBMhAYJuAFmiBdQK44yFgncZBG43ATyoV7T/QIQAJEvzMArRBHxKEZAnQBhRBrU9ERqztZgaq9dSxgJk1ak0CBRiDIIi1BUxOCSkYk4DD2UTPzoWhSSZJWJtGGVNSBNQUx+TTZJYgUESEYkQIBEWD+ykPek3pKb+mxqZnV0PqgZVT2funjxmbHVR4BZJRTeEWaPmmmDxoQYB53NS97QYrHIr5WLCvxZAc2Hm8GyywDaCnSoV853Nbs1Qm55f942/2ful7lU0Guxepg9bTPv35/K3BBvZZp6hmrMl7kL52zYGFbz3luinvYGVQy3mHwYGEB0hz/Pjbxu2whj/37+NztJ4/05y32iFxYEUaH5C1r2viAW8/0tzTkrIf+KbXF84rJvZOo1hz0gVF2diOcuTRxv3BwaEF2vltyxRfpL9eLZuu1B7+lH6xH/lbOws02i/vlv4UVH+35AEBgf+PtZvq/YWtAvx9/iW/e3iqf10GfRQg0Gr9tza7+gNNUAACJVvVzwwwoPhv9z7rOEcIIBgQQBHEIIAWeT4BtDG0IoAOJV0IoIthEg/REYSEOTVbUcUGtkdX29iahDvsAL298gdJxHsixNez+Ic0RdlGeT9207a96+kms0rJRQ52dy8HbDjeqle1ELfSUuustdkSi62wuUXbaExoizWGzmFDvJHTQVvtOT055ML99VMtsdEmK6yz1u2lF0fe09zW+cYtRLMiEHoroVAQZe5eZfHVAAAAAA==");
 
 export default PlaneProp;

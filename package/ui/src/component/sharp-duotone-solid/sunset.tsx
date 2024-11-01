@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sunset` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sunset?s=sharp-duotone-solid sunset}
  * @preview ![sunset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/sunset.svg)
  */
-const Sunset: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 374l62.1 90 66.9 0c7.9-63.1 61.7-112 127-112s119.1 48.9 127 112l66.9 0L544 374 417.3 350.7 394 224 288 297.1 182 224 158.7 350.7 32 374zm161.3 90l189.3 0c-7.6-45.4-47.1-80-94.7-80s-87.1 34.6-94.7 80z" />
-        <path d="M256 224l0-1.8-77.5-70.5-23.7-21.5 43.1-47.4 23.7 21.5L256 135.7 256 32l0-32 64 0 0 32 0 103.7 34.5-31.3 23.7-21.5 43 47.4-23.7 21.5L320 222.2l0 1.8-2 0-8.4 7.7L288 251.2l-21.5-19.6L258 224l-2 0zM24 464l528 0 24 0 0 48-24 0L24 512 0 512l0-48 24 0z" />
-    </Icon>
-);
+const Sunset = createIcon("sunset", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfwAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCHgsIAAE2AiQDCgQgBYMtB0gbOAXIHqfFmlzUq8Hz/dznuS/5f3aTZUhXMZIqsKwjkADoWHhEVdeZdCWAb/GCEfvjfp5/qwJ8/Ak+SsWyvUFGmefDnU8002bzic4Up25KFfUQJPioaBldERn/oDvOXYEu/7V9OEAdU2+AQ+V/AOUnwewDhasGAIB4AQAAJV1tDTx7J++UvLFvgbyhHhAAKQXAQgAN0IAwBIB8NAQIQ8cCdHQE3inbhndi2xYIAIgToBo+p3vDHLATANABUCiUrieZ4W6mw13vDOuMLkE6JVaKJEZyBKeZgiB5EicFEi3tghjiN+hYCXix3dPDEzE8RMyujs4OU87kPax6zv1wU7qkM3vak90ufplhno69kHkr+lxY1AWvC7+3vZl8g/1WKVVfwQZXWCeSaSyKsZgmiXGuMEFDBQrFFq2UchD19a+XV3QyQVQksqagx+fLWEpKlPKJSUtlsGp2BBCwg5nqKndlTZ7tGT4XxfsNAAEEvnX+M4Y88/+5mAqADw/+/mivYz9TxeoC4IICQECLt+PpV8UAUSwAUFSySZRiveCFclFglxuHEQAEAyYonBigEYoX6BjEgYMIMpTNHbShIborgh8DBAo3VkAjk+2g48dNcJDP86ITP9EMTzcb/bcvp5IjFcuslMRkK9e6rRmGLal5Ns/aDkVvpp4YWskkSyyyzgTjzLDOhFUaKhssUKlRFfwQixQSScYiF+u4+dXpZMVV1piRrfN58rCez0WzqQ+PoagCkqns1tBAlGgeaxuLaxPrCQbs81qtDxU=");
 
 export default Sunset;

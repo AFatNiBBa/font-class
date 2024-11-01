@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `satellite` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/satellite?s=light satellite}
  * @preview ![satellite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/satellite.svg)
  */
-const Satellite: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 35.3l62.3 62.3L185.7 198.3 123.3 136 224 35.3zM309 75L241 7c-9.4-9.4-24.6-9.4-33.9 0L95 119c-9.4 9.4-9.4 24.6 0 33.9l47.6 47.6c-45.3-3.8-92 10.2-128.7 42.3c-3.8 3.3-5.9 8-5.9 13l0 .5c0 4.9 1.9 9.6 5.4 13L116.7 372.7l-16 16c-6.3-3-13.3-4.7-20.7-4.7c-26.5 0-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48c0-7.4-1.7-14.4-4.7-20.7l16-16L242.6 498.6c3.5 3.5 8.1 5.4 13 5.4l.5 0c5 0 9.8-2.2 13-5.9c32.1-36.7 46.1-83.3 42.3-128.7L359 417c9.4 9.4 24.6 9.4 33.9 0L505 305c9.4-9.4 9.4-24.6 0-33.9l-68-68L463 177c10.9-10.9 17-25.6 17-41s-6.1-30.1-17-41L417 49c-10.9-10.9-25.6-17-41-17s-30.1 6.1-41 17L309 75zM414.3 225.7L476.7 288 376 388.7l-62.3-62.3L414.3 225.7zm26.1-71.3L292 302.8c-7.9-14.9-18.1-28.9-30.7-41.5l-10.6-10.6c-12.5-12.5-26.5-22.8-41.5-30.7L357.7 71.6c4.9-4.9 11.5-7.6 18.3-7.6s13.5 2.7 18.3 7.6l46.1 46.1c4.9 4.9 7.6 11.5 7.6 18.3s-2.7 13.5-7.6 18.3zM238.7 283.9c49 49 54.8 125.7 15.7 181.2L46.8 257.6c55.5-39.1 132.2-33.3 181.2 15.7l10.6 10.6zM80 416a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Satellite = createIcon("satellite", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABlwAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCdAsGAAE2AiQDCAQgBYMtBzAbdAXIBp7n7ezPfTPJApoV+YMPuYMqA5XYsmKV+b+mXjw/KpBvR3ZokVbaeI1nd8vkCez5KEojgQYy2xvIRHF+O79LGERvEZLIhcz6dcP6z0CXy5KGCdRG9QRYHj5UvhHCQlDoGgAA4g0AAFTbe7Vz47N8FnniOAvyhFZAAKQGAAMBNEADwhEAytAQIBwdA9DREfgsDof5DzRAAEDM4DYFgA44A6uAY9B/ESjMuu7S6hLo6eJm8tBtbibXft093RbpEbvVZrXti7PIhpByedm2BpG5AVbxl3Wue/zXBG8MWBu/P2h92LzAILHKWjeRxUG3beWyN9Eum0NtkiqHZV5KhRxyXZSUZL33QrvFbtmUEiiHEuyy3m1xQLmsZa6/5Wq0yM40m1yuv1seYFkbsMZ/XeD6oJhD3od+RD8Z+YRPWz5ixbBh/GD4cEtiLZ738Jg0iRcvHDSYtlucwblu1CgcrHHLev9U056+z0qeW7ODkVrHUfX/TQ3CzoraWjZCcDAfortx9LofWDZ8OB8ZNiykcfUanTkXs5GYcTnHKDe3UR+YqY6d+WBefTZkv332jKN+fpZD2xZ89vT8bOgAIDfpr3+9H+RV9tvZTQHw9dKv3/4xZ8cD5aQOAc4oAAS0NEca/RUM9H8q8kJfZhJDi0QAxSI+97u6sw4BQHAFBACFGVcEAI0wvBEAdFxJRQAwEUk+AoAZV3qhIboLgj8DKlC4MwVoFDAL6PhzGpgo435gxl80EeUFjP9BTGlo0fp5RnZGllFiTEtFkDrWjZcay1rSTNuWTAcZySQmMp0RDGcM0xt8Ku3xDCbQwGH1/BCDbDLIwqAE47h2v9vGCKYyjTFMYqKfpRTjvpXETL53MpkKMOZQUCgQ5SLOAAA=");
 
 export default Satellite;

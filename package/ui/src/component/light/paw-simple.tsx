@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paw-simple` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paw-simple?s=light paw-simple}
  * @preview ![paw-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/paw-simple.svg)
  */
-const PawSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M152 64a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 80a56 56 0 1 0 0-112 56 56 0 1 0 0 112zm31.2 73.2c7.7-15.5 23.5-25.2 40.8-25.2s33.1 9.8 40.8 25.2l33.8 67.5c8.3 16.5 23.1 25.9 36.8 30c28.1 8.4 48.6 34.4 48.6 65.2c0 37.6-30.4 68-68 68c-14.4 0-27.7-4.5-38.7-12.1c-16-11.1-36.5-14.7-53.3-14.7s-37.3 3.6-53.3 14.7c-11 7.6-24.3 12.1-38.7 12.1c-37.6 0-68-30.4-68-68c0-30.8 20.4-56.8 48.6-65.2c13.7-4.1 28.6-13.5 36.8-30l33.8-67.5zm-62.4 53.2c-3.4 6.9-10 11.5-17.3 13.7C62.1 296.4 32 334.7 32 380c0 55.2 44.8 100 100 100c21.2 0 40.8-6.6 56.9-17.8c17.4-12 52.8-12 70.1 0C275.2 473.4 294.8 480 316 480c55.2 0 100-44.8 100-100c0-45.3-30.1-83.6-71.4-95.9c-7.4-2.2-13.9-6.8-17.3-13.7l-33.8-67.5c-13.2-26.3-40-42.9-69.5-42.9s-56.3 16.6-69.5 42.9l-33.8 67.5zM272 88a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 240 88a56 56 0 1 0 112 0zm40 88a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 80a56 56 0 1 0 0-112 56 56 0 1 0 0 112zM32 200a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 0 200a56 56 0 1 0 112 0z" />
-    </Icon>
-);
+const PawSimple = createIcon("paw-simple", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABtwAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDFAsGAAE2AiQDCAQgBYMtBzEblQXIjsK2tXNMSMp8IRwBNZSWiFq2nt19QsgeVIwWGY1GKVxySMpjJEYEixH38+PsDTrzbwcwyU5QIpTouIsAri4d//GnB1yjRyndarduNx5sDTTjEUinUq2bxTQClrcpPlkEIXhUjDFMRNyOx+Nddg6mE7TUY+SBQHnHbuN5LM6/RbmgaBUIZALgs1w9OlrDCh1DD2a7myTfboBArgGwAYOKP7ECA07hBCvwNoCmCT+Y/w7/AxEIkD6gxxXQMIJP4AuABoqhhqcwi4szUzJGAjPepe3M4NnJXyPeJVAvBd2C9QJ1kh18Nfy1Es53SlKcMYuqt9XCm3SPeJ5kl3iXeAdDl2yfQJZgvVS3oKtdBVeHuINQo0yvRr5cNWM+d6/EtFy/aJM6X7KKxwUzpDkh7+RaLxXtMtZJ3pSvVqLzdXb+rnOAbSutj63vlrodsg2vGfbc3PaM2j18fX9/PeBNImZrIyNrVEM4c3Ze3edjotFWeBibW1qaGXlWroSJb39Vks5OHzv2aPvUkcZSFrZKUNY5N/d55kPJ1gIFK61zOeaBDCDs98KNalA1GU4xasc6vLw8zIqTpVzfnRyqZbwfQBDuDie0fFn1X8mMWIC/ufvX+TPS0bNe+oABBYS69S/PKyt0H1kXAEBJCtCygqD4gCEUjnjxojGEoKoPrkC1jA2aIZvQs0aDMS6+hZNGgZjhDVCMeIJqXxo0M8ah59Ra0WcmuJTlEo77YUw2ETOehVQUlZEuOjZsPguZPqyHzKp0Sk0ysBFCxIqRJFiQcEkQCazrZNFMNNzYFyEqFClDdCF3R0/ZBTdBYozM+6ehB8WH0lL0zjJgYBHptrlFIYUhzj9VIekB");
 
 export default PawSimple;

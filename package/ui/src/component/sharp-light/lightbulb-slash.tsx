@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-slash?s=sharp-light lightbulb-slash}
  * @preview ![lightbulb-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lightbulb-slash.svg)
  */
-const LightbulbSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M438.3 258.1c-3.3 4.7-6.9 9.7-10.7 15l25.2 19.9c4-5.5 8-11 11.8-16.6c19.8-28.5 31.4-63 31.4-100.3C496 78.8 417.2 0 320 0C260.6 0 208 29.4 176.2 74.5l25.2 19.9C227.3 56.7 270.8 32 320 32c79.5 0 144 64.5 144 144c0 30.6-9.5 58.8-25.7 82.1zM226.5 114.3l25.2 19.9C265.8 111.3 291.1 96 320 96l0-32c-39.1 0-73.4 20-93.5 50.3zM201.2 257.3l-52.6-41.6c5.1 22.1 14.3 42.5 26.9 60.5c5 7.2 10.2 14.3 15.4 21.4c0 0 0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c12.3 16.8 24.6 33.7 34.5 51.8c5.9 10.8 9.6 22.5 11.8 34.5l32.4 0c-2.5-16.6-7.3-33.7-16.2-49.9c-10.9-20-25.3-39.7-38-57.1c0 0 0 0 0 0c-4.9-6.7-9.5-13-13.6-19l-.5-.7zM272 448l96 0 0 32-96 0 0-32zm-32 0l0 32 0 32 32 0 96 0 32 0 0-32 0-32 0-32-32 0-96 0-32 0 0 32zM32.5 10L19.9 .1 .1 25.3l12.6 9.9L607.8 502.2l12.6 9.9 19.8-25.2-12.6-9.9L32.5 10z" />
-    </Icon>
-);
+const LightbulbSlash = createIcon("lightbulb-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjAAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCWgsGAAE2AiQDCAQgBYMtBzYbYAXIhof/z+v7fW5StV4nbaSawicxIzCyR7w41ZPzUIByzyGIWATHprHbgiwfY55XoOdr29hUrUDBilZw7d7cRkum9CWZaJL8sePtAnn8HUPVSFem13B++dD4QRenkOQZgGgNgFkb1izz1KfxacRr/99PvGYJAmI2qAQyZOguwFSZQHe5Crlc8Gn8/z//B1YEEHX1h0wgRxPOxZWAHCT1PG80H9asTZuy1iJfX9aKnS9pH3GJQXF5pzv7fLD6nfVnTXxo6KC4dcit5fPTHm9cM3T9oMGD7pwQcVbf6zqvXb5s+bWDLu1wYoSFN3e5sksZV3W9ZfCJhT7vso4d15VFKYqIQhBlGTS3KGzu2KHjwOgQB6Y3DYmOcVDvW1rf8lPjtd1ec//j4+YjTrZh4ydNsbh1LI5hc9YcdJIpn37a7+nTj+je8qR3zj8ZZ+38dKXnscd83eW8iUC/w+S9jnLgwO9OaDRMfKnFZAF7bjT/iR2AqOyg8lQnoKq5b9z/MsVP9LLV73iYIA+/DgJB3v20rtu3mvpXU5nA54/88ht6+v+n0gnpFjRJIMiG/j/U1nQCMDmASIrD9DZGGEhO9cJEc5eJWCgYkNQVkOmmNeQKQ6Cmp3EX1BXWyETeTGhvG4CkuQMhM96xkGvvXqiZ6sVwXfvIvJLzKe5PmDxfo/OGVaOGj6wmV8u8zjsaI/1Tqm1t4GGxbhDutZv97ecQu9rFng5R+EGWxQ61r/kWNs8XVUYZbqTKZNVx6Xn7ers6yMH2tL/98iBTVPdDAx1mtx6EZlIpR0tJEpFaOeqCnQ7dZ6dhB++z48F7AAA=");
 
 export default LightbulbSlash;

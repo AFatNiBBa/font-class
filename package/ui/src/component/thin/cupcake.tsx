@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cupcake` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cupcake?s=thin cupcake}
  * @preview ![cupcake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cupcake.svg)
  */
-const Cupcake: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M208 0c-3 0-5.7 1.6-7.1 4.2s-1.2 5.8 .4 8.2l10.8 16.3c2.5 3.7 3.8 8.1 3.8 12.6C216 53.8 205.8 64 193.3 64L152 64c-35.3 0-64 28.7-64 64l-8 0c-44.2 0-80 35.8-80 80s35.8 80 80 80l288 0c44.2 0 80-35.8 80-80s-35.8-80-80-80l-8.1 0c0-.9 .1-1.8 .1-2.7C360 56.1 303.9 0 234.7 0L208 0zm17.5 19.8L222.9 16l11.7 0C295 16 344 65 344 125.3c0 3.2-.3 6.2-.8 9.2c-.4 2.3 .2 4.7 1.7 6.6s3.8 2.9 6.1 2.9l17 0c35.3 0 64 28.7 64 64s-28.7 64-64 64L80 272c-35.3 0-64-28.7-64-64s28.7-64 64-64l16.6 0c2.3 0 4.5-1 6-2.8s2.2-4.1 1.9-6.4c-.3-2.2-.5-4.5-.5-6.9c0-26.5 21.5-48 48-48l41.3 0C214.7 80 232 62.7 232 41.3c0-7.6-2.3-15.1-6.5-21.5zM90.1 470.8c3.4 23.6 23.6 41.2 47.5 41.2l172.7 0c23.9 0 44.1-17.6 47.5-41.2L379.4 320l-16.2 0L342 468.5c-2.3 15.8-15.8 27.5-31.7 27.5L272 496l14.7-176-16.1 0L256 495.3c0 .2 0 .4 0 .7l-64 0c0-.2 0-.4 0-.7L177.4 320l-16.1 0L176 496l-38.3 0c-15.9 0-29.4-11.7-31.7-27.5L84.7 320l-16.2 0L90.1 470.8z" />
-    </Icon>
-);
+const Cupcake = createIcon("cupcake", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABmwAAAKUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDCgsGAAE2AiQDCAQgBYMtBy4biAXIHoXpFs0nApl3+k4ED3r/35wkD3C+pApWB6/BonHLauvrf277b7jnJK2tBMTzJFM5KkR/+vt5/q3pAz4Q+RlLiqJI7jyfwM6rcY3Tv/PZwGY6AdvZtjdFTDu7ULlCFvfZoYjknuR73BR8aPylzSUSaQogagEwa/XyZT7+PX6P+L7wEt9bgoCYDXKBFCk6BZgqFeiUyZHJBL9HoSD+A3MCiGIRnLA4QxGexGuADCTSLBs5cXyFVZWtqigqX39t49TUxezuvj4eHyhafbyOT+i8B8lxEd4aonuewWq8j/PWgkenf/PLBzU3NVfgjUGyizfyprmiIp4YJNu2gaJviCcHq/ZziB4Q4LqWNe6M+7BS0Wadbx7uaQLu0JkdfZTHiniNqcPnnY/7xVVOXJnan2ynB3o/W6v+8f2u7/30UVFD8OjDxpaUswZ5uC4rd9XuXBWxamdtjheXUojIRveZ2dHQB6+vpJ///beqKEvr67PsgOCH7odz+vI6SnvXpyxLf/ilcZC6Z5/NgvGqT33Ldw3Pa/ju216Nd6rVeLs1t/Sn6pfUqn6RYCaElmqnAv3dsmaDWWvr8yAQbN2169Dmmqn/l1Yk4M93/6v8FRU+jo+TZ1EqAUE6tDDUhvgY4mMBAEjilN7xI5B4UCp610p3ChDKESBRrFyAVIdaATLlhghQpNs4AYqVWy4VWZnQaGMLEpWOgtR4p0Gm0WugyFRfRYo1hgGtDKwx/4qJ8/vQvHH5qOEj88n5YlHNAiBlh6fku82Bp2TTIHzULocdcsJOO+x1okcesyx+0kHz14h5vig3ynAj5SbLT1ce719lp2OO2+uwQ36UKfL7PQOdWu88CE8iAYz+ziK5IpKS7SePbN+6fycAAA==");
 
 export default Cupcake;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bags-shopping` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bags-shopping?s=thin bags-shopping}
  * @preview ![bags-shopping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bags-shopping.svg)
  */
-const BagsShopping: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M144 96c0-44.2 35.8-80 80-80s80 35.8 80 80l0 64-160 0 0-64zm-16 64l-64 0c-35.3 0-64 28.7-64 64L0 416c0 35.3 28.7 64 64 64l96 0 0-16-96 0c-26.5 0-48-21.5-48-48l0-192c0-26.5 21.5-48 48-48l320 0c26.5 0 48 21.5 48 48l16 0c0-35.3-28.7-64-64-64l-64 0 0-64c0-53-43-96-96-96s-96 43-96 96l0 64zM512 272c26.5 0 48 21.5 48 48l0 128c0 26.5-21.5 48-48 48l-256 0c-26.5 0-48-21.5-48-48l0-128c0-26.5 21.5-48 48-48l256 0zM192 320l0 128c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-128c0-35.3-28.7-64-64-64l-256 0c-35.3 0-64 28.7-64 64zm128 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 40c0 44.2 35.8 80 80 80s80-35.8 80-80l0-40c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 40c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-40z" />
-    </Icon>
-);
+const BagsShopping = createIcon("bags-shopping", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABowAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDAAsGAAE2AiQDCAQgBYMtBzQbhAXIngd2DJk+YEMLJ9xIFxYP/79Wed+vGqpehjqrAKiXSAGTI3IAnF6ZsBoX1kQ2Orrv/9y9D5S5aA49wjmPuQoBMEO+9Of/mnphTQd07/MRHEqnLrH8cFnPJzCB9gZKng1nQxo4722KBHZEIXREiERZzbHj8Xi3hzx+s10D6QH5AdfKm8Z/erpIkmUAogMAZq5atlTr3/F3xA/1T4kfLEZAzAKlQIYMfQSYKhPoI1cilwv+jnod/wNLAohGhCW/L0cTXqEGyEHSkOcdJvTqVVYa2uYrKw3FumdbxIfz0+WjJIqIsqgUr+f3VjxYPhoqEVHEW33XRzwy96a28UbdcZV4uNbGIiKerrXjk/l9tOWNirjjxH15u29zXNws2Ah37LvtQ4ioTdinVtzVt6V4sgj2zxEqijTuQ9C/3XiqjwE1Wnv9sPMH1zbFSnZ06LBjZVQ9V60jVp+zjkWromPH55cONhv5+49Zq+zH30dW2e4wT6Oq5tp9zaueORQCInoWpXDejBFni7QdAdOZs8BLzjQ1bt7cOFCs/DwZSEqqhNcYCASCn3ZcfWo/9X+VBP796l+7uN6aqqkGNEsgyIbWh1qfqoDcAMopThqgfFAgeaQBvWobdwUIBQIkjQoBMr11ECBXGCJAg37GCdCosEwm8hahiw0MkjaOgMx4p0Cui49Bg6m+LjXqEpmjKm6m/CZmzpPo3EXlqOEjy8nlsqarviel2SnlcTjwZOwZBDvtdMhBx+2w3R7HBXPU0uoJB8zT6Lm+qDTKcCOVJisfNx83r7TDUcfsccjBPM8U5fuZgU7qwwdBkhDvaOuTRKS2W7fsOjbMswE=");
 
 export default BagsShopping;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-pickup` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-pickup?s=sharp-thin truck-pickup}
  * @preview ![truck-pickup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/truck-pickup.svg)
  */
-const TruckPickup: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M232 32l-8 0 0 8 0 152L48 192l-16 0 0 16 0 160L8 368l-8 0 0 16 8 0 24 0 16 0 32 0c0 53 43 96 96 96s96-43 96-96l96 0c0 53 43 96 96 96s96-43 96-96l32 0 16 0 24 0 8 0 0-16-8 0-24 0 0-160 0-16-16 0-77.8 0-3.9-5L390.3 35l-2.4-3L384 32 232 32zM592 208l0 160-33.3 0c-7.6-45.4-47.1-80-94.7-80s-87.1 34.6-94.7 80l-98.7 0c-7.6-45.4-47.1-80-94.7-80s-87.1 34.6-94.7 80L48 368l0-160 544 0zm-98.2-16L240 192l0-144 140.1 0L493.8 192zM96 384a80 80 0 1 1 160 0A80 80 0 1 1 96 384zm368-80a80 80 0 1 1 0 160 80 80 0 1 1 0-160z" />
-    </Icon>
-);
+const TruckPickup = createIcon("truck-pickup", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiQAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCPwsGAAE2AiQDCAQgBYMtBzMbQgXIhofn9b7/tU9yB8kzMq8CwA+iBNiBRUtVv+L/XPP5pR0d4OdLsUO7W9uFLjjKIvL5BCbWQXsDGsgwShRnbY7z4B1EucVBQsIeiYbxa1jaQh5/265GeiB9htvajcavOruaJMsARCsATFm1bIEPvoqvIj79/1XiU/MQEFNAJZAhQzcBxssEuslVyOWCr+L//+0/sCKAqKNrJpCjHlfgJkAOklqej+ne2Lx5WWueryxrxbqiLIQoMLAsH+nz5IjX+z3ds4yhlrHWIpKnQ6wM+6RYIRTxaN+nRr7S+4lujIhoubIo7YJlrNj82Li3x7zZ/eHRb4x9q8e2Vwc82/+Z4a8NfG7Q86N6PdXqqd+bPtv5mR8fa9BS7vdCq1Ye16mhlYbZDU89dfkyXQ2bUa0Gr5bo9LhWWi0c7tR92si/fP5xhTfZes89gwdT37qV5ORropo8rtrS8r805XY3O3LbLe8323XixK5mXXRo0QcnV606+cH5QCC4ofs3D21qOf6vhjKBb97689d8uv+/SpfTU2iQQJD1/7+/9ekygBmAL8VJvZw7CiRn1GhqM/cKEAockNQpINNVK8gV+kFNDyPkzSnLZCJvFNrZAJA0cwQyI12AXDsvQ814H3rrtIssDk1RZPoNzD5zRmb0q4YMHFyNrS6zhjm05NI9rtpWe5/MVX0w0k6HHHTcDtvtcXyij1oQOOGAmR41ww9VhhhosMpY1e3C58Er7XDUMXsccrD2Mk71vLO3k37jPjASSQ6VkCQiNfvQHANeMO3EYQAAAA==");
 
 export default TruckPickup;

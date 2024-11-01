@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tie` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie?s=sharp-light user-tie}
  * @preview ![user-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-tie.svg)
  */
-const UserTie: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 32a96 96 0 1 1 0 192 96 96 0 1 1 0-192zM96 128a128 128 0 1 0 256 0A128 128 0 1 0 96 128zm96 176l-16 0 0 32 16 0 9.8 0-19.9 59.8L144 320l-80 0L10.7 480 0 512l33.7 0 170.5 0 39.6 0 170.5 0 33.7 0-10.7-32L384 320l-80 0-37.9 75.8L246.2 336l9.8 0 16 0 0-32-16 0-32 0-32 0zm14.1 140.2l-4-8L224 370.6l21.9 65.6-4 8L224 480s0 0 0 0s0 0 0 0l-17.9-35.8zM259.8 480l64-128 37.2 0 42.7 128-143.8 0zm-71.6 0L44.4 480 87.1 352l37.2 0 64 128z" />
-    </Icon>
-);
+const UserTie = createIcon("user-tie", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABhgAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCVwsGAAE2AiQDCAQgBYMtBy8bVgVRlMzFDNlDUOiseiTZtSsdg44ZM+LHCBgj5CA6SB849v9cUy/43lGBfDuyQ4qmWAZG2d4o8/kETmyZNtA9H9iJ4qzNcaAvIsptoqJGj0TD1g9bd8ji4eivQvJg8j3uKT8av2rrIoksBRBNADBl1bIFPr4ZNyO+r71LfG8eAmIqKAVSpOggwHipQAeZEplMcDNqNfkPLAkgqvjFCchQh6t4GJCBRKaaZe3bd2tZX19UGmYri0q+7o4eEc+2fdDZNg90fya/3vO5dg/FufYP93q+WH62T8SLfV4s7uj3smfjXN+X2Px67xfOsCIvclEUg2Nl5LE82gyiYTtk6OEiIl/eqmWrVbEiWkT/OIeqgQtWLV9VXOg5M0W+KvobXV9q8tLvXWx+v/N7Nx5vt571X3zZtu2XX6xf3y42yNozm7o1oMEvP3ft+vMvDRp0QwPCm15vwmtKTfJxesyz2PDHva7rY68Xc/EaHSfXwkPuGMVIy8kCZ5TmyDZfNumMq+mh7xn3zr6XQrV6WD4HAsGNTePu2tR4/P91RQJuf/Tn33hf7eP4OHkJdRIQpP1r/a2Pj0FcBTCXxEldFY8FEmdVAYcauE+AkDMgUZVDqr0mkMn1g4pORgiHByyTiqxeaGEDINHAEUiNdAoyLbwNFeN9latqEalNyhYl/xJmzJzxGW7lkIGDy7HlbUNTzExMi+PKY7v3yTDQBxvtdMhBx+2w3R7HJ+qoBcUTDpipkTN4qDTEQIOVxioft99Xr7TDUcfsccjBvMw45fuJ3k7q4/vAnyDvUHWJhEjqPuTsgON7dgAA");
 
 export default UserTie;

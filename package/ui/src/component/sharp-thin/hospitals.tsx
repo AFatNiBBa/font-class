@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hospitals` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hospitals?s=sharp-thin hospitals}
  * @preview ![hospitals](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hospitals.svg)
  */
-const Hospitals: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M264 0l-8 0 0 8 0 56 16 0 0-48 288 0 0 272-232 0-8 0 0 16 8 0 232 0 0 80-232 0-8 0 0 16 8 0 232 0 0 96-240 0 0 16 248 0 8 0 0-8L576 8l0-8-8 0L264 0zM16 112l256 0 0 240L16 352l0-240zm0 256l256 0 0 48L16 416l0-48zm0 64l256 0 0 64L16 496l0-64zM0 96l0 16L0 496l0 16 16 0 256 0 16 0 0-16 0-384 0-16-16 0L16 96 0 96zM400 72l0 8 0 32-32 0-8 0 0 8 0 48 0 8 8 0 32 0 0 32 0 8 8 0 48 0 8 0 0-8 0-32 32 0 8 0 0-8 0-48 0-8-8 0-32 0 0-32 0-8-8 0-48 0-8 0zm16 16l32 0 0 32 0 8 8 0 32 0 0 32-32 0-8 0 0 8 0 32-32 0 0-32 0-8-8 0-32 0 0-32 32 0 8 0 0-8 0-32zM120 168l-8 0 0 8 0 32-32 0-8 0 0 8 0 48 0 8 8 0 32 0 0 32 0 8 8 0 48 0 8 0 0-8 0-32 32 0 8 0 0-8 0-48 0-8-8 0-32 0 0-32 0-8-8 0-48 0zm8 48l0-32 32 0 0 32 0 8 8 0 32 0 0 32-32 0-8 0 0 8 0 32-32 0 0-32 0-8-8 0-32 0 0-32 32 0 8 0 0-8z" />
-    </Icon>
-);
+const Hospitals = createIcon("hospitals", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABrQAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iELQsGAAE2AiQDCAQgBYMtBzAbLQbIjtRG+YOhxMPTXNX7lfRsdTKQJa4lpgMkB+TPoZBjzx07Fg5IIbou19qBY+qLDmzRoUS1jcpHHRwFNrEoahoNcDaczeQC/rNtb4aohHIjFM5Qx+fu0CO9nj7Dy8WHxk9meomkqgBEB4ADV18644Nv4puITweJT51CQBwARaBChTkC7FYJzFErqNWCb2IwEP8DCwHEkPBvSaBGi/8wANQg6df1mn6/P3HFglUL2t5IfVXba+5u2kaINiJGIkXTiLZFAHE6ooqI5oGR4RExHJE4ROo6IW0DjySvFs7wi3P0wh+RMSOaJrG5bWaMa12Np/Nst7yv9musu2m34b1g4Xg3/suCz+76zIT3c87Zdp31is73uZO/P1/QbvE7/P85qxPJvOxh/I6wnrkf4bFzXch7TqezITnPTs85F0UoWS/LpYzeng3jz5YS2Mv4clF0I8vO5bBfTqpaPg0CwdVveOjmsd3/5DaB79767aficYMP0v40jiyBoFo9WO2GtB+EbADpFE9ZuPBFgeQ3feG7DntFgNAgQDKkEaAyWydArbFKgJ55tggwpHFJJeq+MMWNjTgZ9qi4stXT4toUb4p7dvswNWRKVOCvB17932eWo13gkVVlw9r1ZWeZLaoMEK21w7vKZs/yp2TTCrzVXR72kCfc6Q73eqJDfsyZ7JMedHQJe8QPFRustV6xUzlcebj+Knd6zOPu9bCHvEl2KdcnlntqufMK7E9ClRvlJYlI/a/J+jgAAA==");
 
 export default Hospitals;

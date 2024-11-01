@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `split` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/split?s=solid split}
  * @preview ![split](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/split.svg)
  */
-const Split: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M403.8 34.4c12-5 25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-32-37.5 0c-8.5 0-16.6 3.4-22.6 9.4L237.3 256l86.6 86.6c6 6 14.1 9.4 22.6 9.4l37.5 0 0-32c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-32-37.5 0c-25.5 0-49.9-10.1-67.9-28.1L178.7 288 32 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l146.7 0 99.9-99.9c18-18 42.4-28.1 67.9-28.1L384 96l0-32c0-12.9 7.8-24.6 19.8-29.6z" />
-    </Icon>
-);
+const Split = createIcon("split", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABaAAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBYQsGAAE2AiQDCAQgBYMtBywb3QTIHoex2+SMrShvfDRqBN+v/WefO7MAPMuMDhAVoCR2bMSv2FRk5NbLk+33CsGfuNz5nz894CR+lLFx0bKnsXjO1nkCeTw97wJOA8uwBCxrZ29g+OhjkJByPhnGHzZ3yONjdkw50u30BxfTm8a/GjlGUikDEDUBMHL+7Km+lUVZxO/Sa+K3yQiIkaAQyJChqQBDZAJN5QrkckFZlEr+P7AggChPvo0EcmSYi6WAHCSR51OrlKuWz6tSrvL6J/VmxnWH6s6Ia+0eN46oHGfqzom5cb1KlYi42x7pbzrNU+Dq34jDDW7a8+NFf90zWj2v+fw/f9b9cfV+u78lp6tVO13yl7zQVvVT8+bJR5yq3lYh7wBjOz6sXu3qEcl0ka8atQ87lI8DgeBB96Fly2sM+b9ilQT++fD6M1IqSc9RUQJB1qXUxZIEEgEASLFPqwSBZKpEXqOqGwKEygiQlFdZgEwTNQXIVdZZgHKa6yvAnZ4tE3kloa6lHU6q2gln+tkP5+p6CZczxHenvLqRGRZrFuy/LmncDIw9VPTs1qMYVGxLjbMVmncHF2q5w74w6kg3rbPdNnustcZGeyZol6n+XluNQ+BYH1ToqZseCoMU183r5XnW2mW3jbbbFvcZrHhvdbAPL3ckLRHCXhJJIlI5gwc=");
 
 export default Split;

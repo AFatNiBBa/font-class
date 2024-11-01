@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-doctor-message` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-doctor-message?s=sharp-light user-doctor-message}
  * @preview ![user-doctor-message](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-doctor-message.svg)
  */
-const UserDoctorMessage: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 128a96 96 0 1 1 -192 0 96 96 0 1 1 192 0zM224 0a128 128 0 1 0 0 256A128 128 0 1 0 224 0zM87.6 336l56.4 0 0 34.7c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48s48-21.5 48-48c0-20.9-13.4-38.7-32-45.3l0-34.7 112 0 0 34.3c-23.1 6.9-40 28.3-40 53.7l0 24 0 16 16 0 16 0 16 0 0-32-16 0 0-8c0-13.3 10.7-24 24-24s24 10.7 24 24l0 8-16 0 0 32 16 0 16 0 16 0 0-16 0-24c0-25.4-16.9-46.8-40-53.7l0-34.3 40.4 0 44.3 144L43.3 480 87.6 336zM176 416a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zM384 304L64 304 9.8 480 0 512l33.5 0 381 0 33.5 0-9.8-32L384 304zm224-80l32 0 0-32 0-160 0-32L608 0 416 0 384 0l0 32 0 160 0 32 32 0 32 0 0 32 0 13.3 0 10.7 0 16 12.8-9.6 8.5-6.4 10.7-8 64-48 64 0zm-83.2-25.6L480 232l0-8 0-32-32 0-32 0 0-160 192 0 0 160-64 0-10.7 0-8.5 6.4z" />
-    </Icon>
-);
+const UserDoctorMessage = createIcon("user-doctor-message", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABswAAALyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDZQsGAAE2AiQDCAQgBYMtBzob7wUR1ZoDyX4kZG7eaF7EGSpZVFEgO9qOh9WtylZ2fBL8Q3bV+901qhrUyr17MDIjI1MwBBlBjKGU0UXkgbh374+to0n/agt0nm3BKJGEskQjmGSNjPNyElj/9r1BDXL9q5Cg+BLuFv7H/Tz/51FLfTyCoUQ1SCZlnk9ggptVcVqDzSaKM6eL6wuKcoODIqG0IRSHMR0mV8Dot5oTg2Bn+IX150fpqwGrEWBCAADkAQCAPucRg3h+An4K9Px/AXpuCwJQXwARAkJoKwUO3VcVUIkhAgwGwSf9/3/8B0YQACgO7zkAwAAp4A34CAAMAAEJYyoqBqQyDQocNGNGu5idtrwUCNwx2dvR7Fi+0nC0bnRy4+mhbMnoW2Mg8MTizPLlJbPdeH1ja7i6ntz6nHXoyHhZNG1wKplX7BoCgU7oSD0BIeckK2n3/FAGkG2C0op2ZjpylNIaM2pL4ax4XjIt8qYz6ZEqFTpTLs8YZ3OCZC2KfOcQUpLqlhvdvVf3sSjgTuxSWHfKX79znk99zqZX+QM8mDi7rGz2xAcPqKKoTJyyrN5t3K7KcOsyjNu3eSiCa92Qzrx5Pd768PdSt373Auzf1mO+jqKz5wrIeHwU4UlSNGxYURLgifCRp5SCc2eLuDSm+XpmXgljhmQ//XDJ9erSm7kdzrNf3b793O6P7gjpHBARfdpEmIUMDs8Trh7+03tXdodaRP+SB7jNXe9qCQAECK6/Gv2n5Lr/SroAgC9Xf/7Fvf/fDpaHV5AkAEAQNv/f3MRwOaAICgCCgZbSKV8kIOAJGQym2UYICwsvBMSxEFKBB4OlGcSopoPEqB5hwmVSfo0XDgCCUQQwoy5A4N0Byu4RgMEHoWvLHFP2Z5l6oEQGjIvaKNVsK3tY9Mi9VbIP29hmc+NabZJgKjF5ORVREUkVQZe4wlVZTg11+CE2DSU1Niv2dOVW7RHBkrJkX8+eH8WG/b1frKZ3lsAGQqFtFQRAAAoL1oOuxaLUt3B7");
 
 export default UserDoctorMessage;

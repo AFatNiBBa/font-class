@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `place-of-worship` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/place-of-worship?s=light place-of-worship}
  * @preview ![place-of-worship](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/place-of-worship.svg)
  */
-const PlaceOfWorship: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 0c4.2 0 8.3 1.7 11.3 4.7L406.6 80c6 6 9.4 14.1 9.4 22.6l0 89.3L457 217c14.3 8.7 23 24.2 23 41L480 480l96 0c17.7 0 32-14.3 32-32l0-69.9c0-10.9-5.5-21-14.6-26.9L512 298.6l0-38.1 98.8 63.9c18.2 11.8 29.2 32 29.2 53.7l0 69.9c0 35.3-28.7 64-64 64l-160 0s0 0 0 0l-32 0-32 0-64 0-32 0-32 0s0 0 0 0L64 512c-35.3 0-64-28.7-64-64l0-69.9c0-21.7 11-41.9 29.2-53.7L128 260.5l0 38.1L46.6 351.2c-9.1 5.9-14.6 16-14.6 26.9L32 448c0 17.7 14.3 32 32 32l96 0 0-222.1c0-16.7 8.7-32.2 23-41l41-25.1 0-89.3c0-8.5 3.4-16.6 9.4-22.6L308.7 4.7c3-3 7.1-4.7 11.3-4.7zM448 257.9c0-5.6-2.9-10.7-7.7-13.7l-48.7-29.8c-4.8-2.9-7.7-8.1-7.7-13.7l0-98.3-64-64-64 64 0 98.3c0 5.6-2.9 10.7-7.7 13.7l-48.7 29.8c-4.8 2.9-7.7 8.1-7.7 13.7L192 480l64 0 0-96c0-35.3 28.7-64 64-64s64 28.7 64 64l0 96 64 0 0-222.1zM352 480l0-96c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96 64 0z" />
-    </Icon>
-);
+const PlaceOfWorship = createIcon("place-of-worship", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABjQAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCcQsGAAE2AiQDCAQgBYMtBzcbeAXILgrsxocLJUcrjExrsRoaQgODZyxKPHy/9nru2/2ZhsAVgMARgoyqq2Oh0XUqJBIEa2322otIMwlFDDxphETVUiDC3X2UYIgBtrUFwrE9xPOn3qOMraG1urgFrEDFyiX8XF+DNNpN4fSMEXO3+b/m83t+dICfj+DQorCsak1R/XwCE9ubZwGlDWcTxe3OVuIQ9kmSMgzHZTkec8jjd+YUSDeTzzjvPzR+aXGEJM8ARBUADH97evS2Sxf53B3x2T0CYgRoRiBDhkYEGEQm0IhcM8jlgm8yVP8HLgKIIvjsCeQo4BaeAXKQZHm+sF2htFCezyktlKw9XZsdV4n+8rQlSuN047pEHKzPiYjZ8bInboxfZCVxMA5GSQlsGc+mr8KI+7O5IWbFFeJA7apVGhG3RwOZOzXmxvXM/IP1AXItImbEtBAHquPiCtETNXtdPq1fHjNjVlD2NfNUtXVPLbb+q2/cy+6h9VreOZGf74TF6S8+VJz4z49R/dxow4qt+hijpDpQCjRT4IEHpWpzjKg3fBv65J+BrJsu84X04hMWKD9xf6eXtj+Kd/31l1rpv7qKd5Zblfpib9lKfEnKMsN8WX0Qn8cDXp0OAsGby2/jvTCon5kEfpz/vbjx/z82ySs0kECQdRrmFiUHQKMDCKXYowXxRYHkkgy+a5lrAoQSBEiKlAiQaUgVAXIlOhKgoAm9CVCkxEyZyIuFOhZnkJTZDjJ92AtyddSDgkG8Cxapk0xASfEi/4dxVyV0mTTcTGbRPGqWJErmcDu6iIb58dq01DDTGlttsctqq6y3q0B2mBzZbbMxFDzaDzWjO13oRjMG0IxdvZ4+x2o77LTeVlvcOANptl9txx66e3uQEsTsQVaSiFR1cd3F1+fiXQIAAA==");
 
 export default PlaceOfWorship;

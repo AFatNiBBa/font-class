@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop-code` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-code?s=duotone laptop-code}
  * @preview ![laptop-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/laptop-code.svg)
  */
-const LaptopCode: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 403.2C0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2L19.2 384C8.6 384 0 392.6 0 403.2zM64 96l0 256 64 0 0-256 384 0 0 256 64 0 0-256c0-35.3-28.7-64-64-64L128 32C92.7 32 64 60.7 64 96z" />
-        <path d="M512 96L128 96l0 256 384 0 0-256zM281 193l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-48-48c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM393 159l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z" />
-    </Icon>
-);
+const LaptopCode = createIcon("laptop-code", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABiQAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCCQsIAAE2AiQDCgQgBYMtB1IbLQXIjpQuZyTx8LX2+ed2z77FIE+AUSUKmFyq0McxSyAVRx9IGCT19WQI0vz8X/P5PT8qkM/3TvhQInrh0WCZzycwweBKG9CEhjPE6TbZY0cgPhFRIhYRHV8eXzso0uB8Th3pcvoc5/l/AOMv3ZwjacwAoi0A5q5cusS77+P7FJ9Xz4nPLUZAzAOlQEZGTwFmyAI9FUoUCsH3qar4PqqqJICo4ddnUEM9duAAoABJloqisWPHDt2b61oVK/hFTTtbWrWkaBV52ZDhQ4bG5a73Bs2KKz1mx8OBl7uunDlr5uWuM8LSlAyPYR5Nl8b1oRGPJ7aKV8Of9rkyqHXc67o25dQcOVpFipq7MuzJoBZv7ZBHXfs9afvkH5/v+Fy18ZSQOMWvm/6t8/XXrVpVBa+0ahUf7FtBHPx/ze400nIW+JVlC7WNNaLt7HGYg1O1tqldu1un3KJ3NAGB4OV3pY1tZvzf0JzAj2//G86uvk+n0hM0SCDII6oR1qVTAGIAv5/ihH7plFMIZGNloE9tcUGA0IQASU2TAFkPbQUoNBkuQJ3eJgpQ02SpLIpGoaP1HSQtDoNskpOg0NEzUGeG94WajpGjjY8V/rOXskhDC1eVY0eNKaeV04YmBBCbF6eX286QE2lgKDba4aADjtlum92OKeSIJeXj9lu0ghf6otJYo4xRmqY8bm+VFapwxFG7fel8menK+9khTqzHD4WfCOU427NMpMgd9m0+dOzgoZFhaIx8uEOdrPRGAQA=");
 
 export default LaptopCode;

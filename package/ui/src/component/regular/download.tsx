@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `download` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/download?s=regular download}
  * @preview ![download](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/download.svg)
  */
-const Download: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M280 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 270.1-95-95c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9L239 369c9.4 9.4 24.6 9.4 33.9 0L409 233c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-95 95L280 24zM128.8 304L64 304c-35.3 0-64 28.7-64 64l0 80c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-80c0-35.3-28.7-64-64-64l-64.8 0-48 48L448 352c8.8 0 16 7.2 16 16l0 80c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-80c0-8.8 7.2-16 16-16l112.8 0-48-48zM432 408a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const Download = createIcon("download", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdAAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBcwsGAAE2AiQDCAQgBYMtBy8b8gTIngfZqeY0Y4kUbpRXPhRFBN+vVeX7VT2xWz0zi1SxChAcATsCCYRyHfARCdlx9vTpXna4ouxdPVckTiWVFOuvQ+p3GdJoP//XfH7Pjw7w25EdSjSWFl8DZW6YAhNJb9BR28BmOgHb7mw75hBWorRQJByfHZ895PEeXYQK6Rb+A7jgPzT+450hqWQAojUApi5dONuXWtQifq8/4ncHATEVlAIZMnQXYIJMoLtciVwuqEW9Tv+BJQFEA76NBHJUsApbADlIsjzvOrRltdKUL6lWiq23y1OXYkk8Tzf94nhWl8adINdZFNmyolo8bS+duNVf5aZ4Md/EiNvjdSliQlTjmhZXVWNcNxE3bDUmrT9z6a38IvZ+zV5/f2z5g32h58/v0GzNGk1N//xz3kwQHnAkWqP5up3K/oe8TTFPkSYeXrJ6Q91+teZ5mmsnnLlffdDWY2REA3HatzcFnfA/qSbw77uHv6L6lyS9BlpIIMgG1JdVCSQCAJDiiN4JAskiGX7XRtcFCAUCJA0KATLdtBYgV+gvQEVPIwVoUFgoE3lLob3VApJG+0FmlKMg195bUDHBz2aD9pFpGK0f9AcvYVYNzVxWDh00pBxXDiOFURrSjo8vl8U+R0ylL+y0xV57HLLZJtsdqpADZjuH7TZrBs/0RaWhBhmiNE65nd5vXmKzAw7abq89bpHxyvtqH0fm7X1BSRhzmECSiNTiSQIAAAA=");
 
 export default Download;

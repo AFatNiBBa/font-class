@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ram` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ram?s=sharp-duotone-solid ram}
  * @preview ![ram](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/ram.svg)
  */
-const Ram: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 256c0 24.5 13.7 45.7 33.9 56.5c-1.2 5-1.9 10.2-1.9 15.5c0 35.3 28.7 64 64 64c.5 0 1 0 1.5 0c2.8-.1 5.6-.3 8.3-.7c6.8 28 32.1 48.7 62.2 48.7c7.5 0 14.7-1.3 21.3-3.6c6.8-2.4 13-5.9 18.5-10.2C219.7 439.6 236.9 448 256 448c19.2 0 36.5-8.5 48.2-21.9C315.1 434.8 329 440 344 440c30.1 0 55.3-20.8 62.2-48.7c2.7 .4 5.5 .7 8.3 .7c.5 0 1 0 1.5 0c26.9 0 49.9-16.5 59.3-40L352 352l0-135.6-21.4 9.2L286.5 122.6l30.8-13.2C309.3 83.1 284.9 64 256 64c-19.2 0-36.5 8.5-48.2 21.9C196.9 77.2 183 72 168 72c-30.1 0-55.3 20.8-62.2 48.8c-3.2-.5-6.5-.8-9.8-.8c-35.3 0-64 28.7-64 64c0 5.3 .7 10.5 1.9 15.5C13.7 210.3 0 231.5 0 256z" />
-        <path d="M400 0c-35.3 0-64 28.7-64 64l0 8 0 24 48 0 0-24 0-8c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32-10.3 10.3-55.1 23.6-22.1 9.5 18.9 44.1 22.1-9.5 14.5-6.2L384 320l192 0 0-152.2 14.5 6.2 22.1 9.5 18.9-44.1-22.1-9.5-55.1-23.6L544 96l0-32c0-8.8 7.2-16 16-16s16 7.2 16 16l0 8 0 24 48 0 0-24 0-8c0-35.3-28.7-64-64-64s-64 28.7-64 64l-32 0c0-35.3-28.7-64-64-64zm64 160a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM304.2 426.1l-.2 .2 0 85.7 88 0 22.5-120c-2.8-.1-5.6-.3-8.3-.7c-6.8 28-32.1 48.7-62.2 48.7c-15 0-28.9-5.2-39.8-13.9zM105.8 391.3c-2.7 .4-5.5 .7-8.3 .7L120 512l88 0 0-85.7-.2-.2C196.9 434.8 183 440 168 440c-30.1 0-55.3-20.8-62.2-48.7z" />
-    </Icon>
-);
+const Ram = createIcon("ram", true, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABwgAAALtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDdwsIAAE2AiQDCgQgBYMtB0IbCwZRVE7yZB8JuRnNm5BSaLBCcx5MxcPDOr4/d/AW0KykJLtBqhsK9BUaTIhqLXseOfsXABIqwsSFFaBwLBySItJR4fLAHlny/XE/z//5pw/4jD5KBUVujQ0SEecTGGBUgOx8N6GZzsBm4bYNUT8eC+UXEmfIkpbpQXKSC4Y9cCz6H8D4mkgHkSiTAojKABhcMWG8xxdyYZC39DXEWxRDQAwBhUCKFPUF6CcVqC9TIJMJPjDoOnwgup6AAKJE9KkpKEFpvA0+A5CBRC6ybEKZMlWrjHXmFbLJ5fJY2SXzGRH3NYE4IyLiXPhMhAjJKEmR9tJSaq3OqiHNpaO0kDGiAA6Pv5j1MO12xn2tbCtMWvafDp1V21J3l+pcE0WwDVOkS51Pue3oSps84ig7SQ37342KK5mnmcx8kLrPmQa7wxdS75TyufBYuZfd+tPvRZ9Zc0i3zI+NLhsRzWSypMvFtLOO+Yy7jq6U21r7Lve1vRH3Y5qs+h6+Ju417dG/M+3H7yhNoxO1KY3n4sKTwAWaqSSGZZwzwS4T3EqginaWsoQLFEAGHihbpcr16VwrW7Ry0dQ6sUfpku5S8vnDLzCZqdTcQt5puKtCrVoVXiQVZDW2MJXJMIkpP9xj9als9DAhskMJ5U7NtoSOjkK713cyE6r/9V3b6SijabuYdylx/qMMdVD+iReVrvWDAgSCkxeh5Wpvv19tzgR8tP7+RP07+n/X0JY8hNISEKTt/s9hpmEvlE62CgBAEps1SfYyHwKpo+SSTeWdJUAoSw+JEmUhVU9lyJTVFnINdafAyRNIRVZGqG6WhER56yDVwy7IVPcIcv28CpWoHimTMyzK/GMmjhgjw3sVhR06FX2KzYyW5VvK7+xbwErGZruitVxoMWtYzUYWsZBlbBxh6xkf3cQqRuyhw/kihc466KTQR0HOPxcnj0Lr2cCydZ7eTV/F/Z5WNu/Xby31RILbxYZUSiSRlls/b1V7tSJV6HklAQA=");
 
 export default Ram;

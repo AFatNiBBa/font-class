@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-falling` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-falling?s=solid person-falling}
  * @preview ![person-falling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-falling.svg)
  */
-const PersonFalling: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 0c17.7 0 32 14.3 32 32l0 9.8c0 54.6-27.9 104.6-72.5 133.6l.2 .3L304.5 256l87.5 0c15.1 0 29.3 7.1 38.4 19.2l43.2 57.6c10.6 14.1 7.7 34.2-6.4 44.8s-34.2 7.7-44.8-6.4L384 320l-96 0-1.4 0 92.3 142.6c9.6 14.8 5.4 34.6-9.5 44.3s-34.6 5.4-44.3-9.5L164.5 249.2c-2.9 9.2-4.5 19-4.5 29l0 73.8c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-73.8c0-65.1 39.6-123.7 100.1-147.9C232.3 115.8 256 80.8 256 41.8l0-9.8c0-17.7 14.3-32 32-32zM112 32a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const PersonFalling = createIcon("person-falling", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdwAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBeAsGAAE2AiQDCAQgBYMtBzUb/QTIhofvdeaf+yTvJPIGWWGCD8BYVEhVoPPENc8/7ekBC9856/w9aoWd5xPY+Wzt84FXgM10AjZrZ7/44Xt9maSnCBkWXRkmB8jjjexCFdJt6UtcEz80/tbOhSQNMwDRFABTVy9f6N0f4oeIL2ovEV+Yj4CYCkqBDBk6CjBBJtBRrkQuF/wQtVr4DywJIOrYPSaQI8cW7AHkIEl5Pr9RtdIoX1WtFLuvaBVxE3HugCfHiJVRjYfaTY2bWt7Y8sbWN7eeFkWx0tFXxY3EuWhxuRzEeGDwM+Mf6XBHeOe1uaW6Yinztra39ni4/e31ifTu9njTx//t+uWuL3V5p/GlXNq40HdYt0oYs9hqx373mn31HR59+N3nLl9mS6y/2r4BHV55+P3nzrjnsIVN5ml86aWN07J53PLI968fPtS5kKJnutz72yuv/HavHg8Egi+m/3pwc5MJBxtUE/jp9f+P8M+oW+3t+DE9jgYSCLIBtQE2JLrpEj8KAECKk3VLjBNI1kjsWuvdLEAoECCpUwiQ6aCpALlCfwEqOhspQJ3CcpnIGwotbSxEUu84IjPKWUSupReIigk+Ceq0jAxkPET4L17KLA/MnFcOHTSkHFd2q7KAG1amx5fTTp+Tuasv7bXLMY52op122OtEhx9vYXySo8waYTN9UWmoQYYojVNuN263r7LT8U6w1zGO1lnGK8+7fZw8HtyXFpMAw66nIBGpMSaNgc8V");
 
 export default PersonFalling;

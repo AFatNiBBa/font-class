@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-group-crown` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-group-crown?s=sharp-light user-group-crown}
  * @preview ![user-group-crown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-group-crown.svg)
  */
-const UserGroupCrown: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M264.1 59.8L224 36.9 183.9 59.8l-14.1 8L155 61.2l-27-12 0 62.8 192 0 0-62.8-27 12-14.8 6.6-14.1-8zM224 240c53 0 96-43 96-96l-192 0c0 53 43 96 96 96zM96 144l0-16 0-93L96 0l32 14.2L168 32 224 0l56 32 40-17.8L352 0l0 35 0 93 0 16c0 70.7-57.3 128-128 128s-128-57.3-128-128zM43.3 480l361.3 0L360.4 336 87.6 336 43.3 480zM64 304l320 0 54.2 176 9.8 32-33.5 0-381 0L0 512l9.8-32L64 304zM606.3 512l-124.8 0-2.9-9.4-7-22.6 124 0L552.9 352l-120.7 0-9.8-32L576 320l53.3 160L640 512l-33.7 0zM432 256c-27.7 0-53-10.1-72.6-26.7c5.9-9.4 10.9-19.4 14.8-30C388.8 214.5 409.3 224 432 224c44.2 0 80-35.8 80-80s-35.8-80-80-80c-18 0-34.6 6-48 16l0-26.3 0-10.9C398.6 35.9 414.8 32 432 32c61.9 0 112 50.1 112 112s-50.1 112-112 112z" />
-    </Icon>
-);
+const UserGroupCrown = createIcon("user-group-crown", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABlwAAAK4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCeQsGAAE2AiQDCAQgBYMtBzcbgAXIPgyYck07CHEh1kEmhlK1Id09GJX7aPPFR4yJh/8f998+9wtMHCkBiGquULPyZxysPmn6VCkxv+PHvXdfHHGT9f7YQPZFwQ2MK0md4JADTMTTlrbmb4CFBxatsmLGJ7/C3zMA4T0F4P0bshb43/xf8/lZ0wF+PoJD61iUt++NMp9PYOBRFonTURTIbKI4c9M48IGXTKJIUAwiHbZm2Dp1C9nxbXzSgwSulZeKXxoMkmRnAUCUAwArdmYkwc177yOeMhJvrQUCYiUA2iGyMLoZgsW4gm/A0w5kyxa8j8zyf2A7CCBygeDk8tkowENMArJBkpfN0y0xL5Drtkn5ch6T5khK/P38fVErdMI6IIoQ0ZIt3/ZCxPU2CU4OrHqxEBhtFX6RgKtxUdgE2BWeL76IfLN05tklxXKGxZipahtmYUNIZIahqpIUSXTCIKTIsNCw67OyI4Z1V72OHdZNp+zXvBcsERGXizqwajxhu+Jpvqa29t5ByLtwmq4A3nw1ZZkby6z76l1feieZzL/8ycmzZw6qqakVsPDrmB496vzqUkANf2zVptQIz2ptPIq44xCUS0Gt7VBke23DMx3PprWg8ev4UFso1sn+jDbTHhp7BnM6Z/75ccUhUivagcGK1GaSG0FqT+PX198BAsHc98sd1OL/yQH4+Prf4XSZnE1GvgSCrOHM8tNZcNQAUimawVz4okByUx561WJ3BQiFCJDkKhQgSxM1CLIVGoIgRysvCHIV2oorssUQqhUMkBQ7BrJM6ALZqu2DHIvdJnNVB1dJORXjvhGTozkUNYzcnF3Jn7Z5ndc7JvYH0LFt2+zr7LAQitWo1qhIoTKNjKyXlGlSJVoiovwQcePMFfFH16Xn2UyReg3K1KjOgwSg52O2muXWdvA4iHZETpKIpPZmq046rDv99hEAAA==");
 
 export default UserGroupCrown;

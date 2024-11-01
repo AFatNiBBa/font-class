@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shredder` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shredder?s=thin shredder}
  * @preview ![shredder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/shredder.svg)
  */
-const Shredder: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M80 64l0 128 352 0 0-101.5c0-12.7-5.1-24.9-14.1-33.9L391.4 30.1c-9-9-21.2-14.1-33.9-14.1L128 16c-26.5 0-48 21.5-48 48zM64 192L64 64C64 28.7 92.7 0 128 0L357.5 0c17 0 33.3 6.7 45.3 18.7l26.5 26.5c12 12 18.7 28.3 18.7 45.3L448 192c35.3 0 64 28.7 64 64l0 96c0 17.7-14.3 32-32 32L32 384c-17.7 0-32-14.3-32-32l0-96c0-35.3 28.7-64 64-64zm0 16c-26.5 0-48 21.5-48 48l0 96c0 8.8 7.2 16 16 16l448 0c8.8 0 16-7.2 16-16l0-96c0-26.5-21.5-48-48-48L64 208zm352 64a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM56 504l0-88 16 0 0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8zm96 0l0-88 16 0 0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8zm96 0l0-88 16 0 0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8zm96 0l0-88 16 0 0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8zm96 0l0-88 16 0 0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8z" />
-    </Icon>
-);
+const Shredder = createIcon("shredder", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABmQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCfAsGAAE2AiQDCAQgBYMtBy8bewXIhqBe51fPk+z6X/ayF1hLAMesW6bsiDgkzo6DjCkC9vxf8/k9PzrAT3qJElFLkALqfj6BAVXyvHQ8G9hMJ2Dz2/kxuEH0SpK4yJG0/7ph/VfI41Ub1Eh3pQ9wQ/zQ+FF/l5JkGYDoDoBlp5xwlLc+i88iPmg/T3zgCATEclAKZMgwSICFMoFBciVyueCzaLfdf2BJAFGHJyaQo4EH8DggB0lnnrfG9uls4tWNWpf85EatOEPoEhEX9RkftxdFPNq6td+JIe6Z8MyYRlwzblw8RTw27qn+4sLWrUUzru5ze4Qk27Qj6KS4rXeXuKNvxN19bh/dPLfSfOOtrdv7VCEaIQKajdXDn+7+9M/DPtj0gWMuuBCXKxu1Pn7ax72+MfWjD7Nuk1NFjx4PfmPA8LsMH7jRg6ygqHS98squb2W3IsndD23odKXrZ2/5rGsl+/CjqRees6SnHZtim789FYvZ3anqVVWv2u1AIPj/6xPa53Rb+FtHI4EvXvn17/Iz0n4rSU+jQwJBNrE90ZkJJAIAkOKQ4QkCyR064V2bbhcgFAiQ1BUCZAbqLkCuMEGAmiFmCVBXOEEm8k6h5SwLkqa9IDPbeSDX8iyoWejtTF0rMjXllYz/SUxZzaFV88ppk6eW88tlVRU0j/XTC8pjZ+wh6hpnztpkt10O2GiDrQ4wZJ+j8gfttFqCV/mi0jSTTVWar7xuPB4/2Ub77LfVbrvCLAuU79NjHZIHjzN+AsrptPQJNqSO/Vv2bdywYeM+AA==");
 
 export default Shredder;

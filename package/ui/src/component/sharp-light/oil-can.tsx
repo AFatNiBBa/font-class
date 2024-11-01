@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `oil-can` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/oil-can?s=sharp-light oil-can}
  * @preview ![oil-can](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/oil-can.svg)
  */
-const OilCan: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M272 96l80 0 0-32L160 64l0 32 80 0 0 64-112 0-32 0-64 0L0 160l0 32L0 304l96 48 0 32 0 32 32 0 256 0 48 0L640 192l-32-32L448 192l-64-32-112 0 0-64zM32 192l64 0 0 124.2-64-32L32 192zm401.7 28.6l9.8 4.9 10.8-2.2 138.7-27.7L418 384l-34 0-256 0 0-16 0-35.8L128 192l248.4 0 57.2 28.6z" />
-    </Icon>
-);
+const OilCan = createIcon("oil-can", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYAAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBVgsGAAE2AiQDCAQgBYMtBy4b1ATIHgk2LnNN6zSMIJjr39kkj5LPkM+MClAhCQvUurIDdFVly3TFWZtccJ8jp8YbLxXwWet8Hjb++IHfG69A46XzdVfw2nA2oonwdudGbUnkE1rKkhyPdrwOkMU/0VcVyYPkA1zLbxrfaO0CiSwFEI0AMGnFknne+jK+jPigkvjAHATEZFAKpEjRToCxUoF2MiUymeDLqFToP7AkgKhWbjoBGaowDysBGUikWdajrnlRVT9bXlTlO4q8iMhDFCHyXIhlIURRf0X0jqUxO/KIpUVe6DuxqXmL5i1jRSyNvF7gYhGzOj9s9PC7Th9s/0DDDQtBLb0lYBea6OCZUrNhgJKWB378hYo7qsjEHzZMdIQTKtxod/snbrrYxtNXddZIV5f9CRAI3pv+yacbGo79rbZIwNev/PBTvTI5kzxErQQEad9KX2uTM0D4APQkjuusfFAgMU3Kv2o9dwUIOQIkquUCpNpqJEAm10eAKh0ME6BabolUZHVCM+sGnKjnEJwa7iScaeZluMpYb2vVmkVqU7RF0D+6hOkSmNZUDuo/sBxdLi2NMRMyVseU22LP4xzphau2O2C/o7bZapejAjpsnnnMPtM1cJovKg3S30Cl0cpj93l+uW0OO2KXA/anOmOU96WejuvpvbCNBDD4NUjuiKTmwK69/bZs2g8AAAA=");
 
 export default OilCan;

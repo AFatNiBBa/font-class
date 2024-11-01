@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `prescription-bottle-pill` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/prescription-bottle-pill?s=sharp-duotone-solid prescription-bottle-pill}
  * @preview ![prescription-bottle-pill](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/prescription-bottle-pill.svg)
  */
-const PrescriptionBottlePill: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 0L0 96l384 0 0-96L0 0zM32 128l0 64 112 0 16 0 0 32-16 0L32 224l0 64 112 0 16 0 0 32-16 0L32 320l0 64 112 0 16 0 0 32-16 0L32 416l0 96 298.8 0C285.6 480.1 256 427.5 256 368c0-68.4 39-127.7 96-156.8l0-83.2L32 128z" />
-        <path d="M319.5 278.1C299.8 302.8 288 334 288 368c0 79.5 64.5 144 144 144c34 0 65.2-11.8 89.9-31.5L319.5 278.1zm225 179.8C564.2 433.2 576 402 576 368c0-79.5-64.5-144-144-144c-34 0-65.2 11.8-89.9 31.5L544.5 457.9z" />
-    </Icon>
-);
+const PrescriptionBottlePill = createIcon("prescription-bottle-pill", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABewAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBWQsIAAE2AiQDCgQgBYMtB2wbFwXIHoVxs3NERwSKaFh25okWD9/PfZ77XpLZH9gSgyZSZWEAjasjIcnVrSqRMHWZSrB1ncnBupq5veYQ52C2S0oQGp8lW1XNpX78qn6fOvU8timAz4l40PbQgGSDzK59XoFyffr2BVShaolqoN2dNsUhy6u11CQ5Pjs+KY5QxP+8oyQ9S794RP8DGH/MsUMyygBiMgBw5GIyAe999Cl+DM/ED8eAgDgKsBgiI2M+BPsxAvOxLQYKhaBPwwD6GAYCAUSF4Myo8Mc8AVwEoABJkoqirkdrmrIrLjRlfePV4gPfS+zzvgvpu2WH/tf4h93nGaGLiPY81DSirgXeqYuJjbd4tOnOg9EufSG8/F/yo/7Doed/ef7D/bebL31961/j3OXvr95c9bS1q9aLVsE1hsLFILwZBHx9ETQUO6w65unT06QggEBQ/fy79opg/78xTgK/Jv7mbh7e0+H0AmMSCPL6QSubDgMCFYEvleI+cToci4FAthULvmvrsQChRoCkUguQzSOEoFBbB0FpIRsEldpZjChGwnQ5BknrFsh2WoDCdE+gtN9HWJke2ap4m+APdSlxCcVW0Ra9kdyk1qpgKGxa9NCws3oeB1RwEOoG+qZqqlqmghxLJDM98R4R80HERM+IuNF0+3Z3Rs3YRMtAPy/jQesDpXl/vAp8lsK41eYsEyny4pvj2qWdoDXo/81Y6NZ0N1vdru6Zus5UaWMCAAA=");
 
 export default PrescriptionBottlePill;

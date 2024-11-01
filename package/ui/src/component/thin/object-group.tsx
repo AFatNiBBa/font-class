@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `object-group` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-group?s=thin object-group}
  * @preview ![object-group](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/object-group.svg)
  */
-const ObjectGroup: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 80A32 32 0 1 0 48 80a32 32 0 1 0 64 0zM72 127.3C49.3 123.5 32 103.8 32 80c0-26.5 21.5-48 48-48c23.8 0 43.5 17.3 47.3 40l321.3 0c3.8-22.7 23.6-40 47.3-40c26.5 0 48 21.5 48 48c0 23.8-17.3 43.5-40 47.3l0 257.3c22.7 3.8 40 23.6 40 47.3c0 26.5-21.5 48-48 48c-23.8 0-43.5-17.3-47.3-40l-321.3 0c-3.8 22.7-23.6 40-47.3 40c-26.5 0-48-21.5-48-48c0-23.8 17.3-43.5 40-47.3l0-257.3zM88 384.7c20.1 3.4 36 19.2 39.3 39.3l321.3 0c3.4-20.1 19.2-36 39.3-39.3l0-257.3c-20.1-3.4-36-19.2-39.3-39.3L127.3 88c-3.4 20.1-19.2 36-39.3 39.3l0 257.3zM80 400a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm384 32a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zM528 80a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM136 176c0-22.1 17.9-40 40-40l96 0c22.1 0 40 17.9 40 40l0 64c0 22.1-17.9 40-40 40l-96 0c-22.1 0-40-17.9-40-40l0-64zm40-24c-13.3 0-24 10.7-24 24l0 64c0 13.3 10.7 24 24 24l96 0c13.3 0 24-10.7 24-24l0-64c0-13.3-10.7-24-24-24l-96 0zm184 80l40 0c22.1 0 40 17.9 40 40l0 64c0 22.1-17.9 40-40 40l-96 0c-22.1 0-40-17.9-40-40l0-8c0-4.4 3.6-8 8-8s8 3.6 8 8l0 8c0 13.3 10.7 24 24 24l96 0c13.3 0 24-10.7 24-24l0-64c0-13.3-10.7-24-24-24l-40 0c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const ObjectGroup = createIcon("object-group", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAAB0wAAAK2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQyEKAsGAAE2AiQDCAQgBYMtBzMbKwZRlKzJCtkXCbzZ0NUOYBAlcxhgvmw++P9+v9e1z33/BYDuRCVlQgWAQQvoSujCQrVsW9nGdX4+wb5XiL6ODSEYHMUAw1Nf6clcCCyd/2s+P/pHS8ArsfmhLLKwwSJKBzI7wEVSUwXogLbn4+GEdKPbULkKJqF8hMYWBPrMDiJg1dYD3OPj9Zs8LoPhHABBqfBQmLp6+UI+/dAPqSf6HNTDfEAAmgaAR4DDD6EQATABh4BCAjwQECD4oWi0/A/0IABQCICNRQGQAPwF/oPfC4xsDYKMcakZYOf81AEJkaRglRK/PkoVuOmP5Xw8sVtZqRMaGpzWZuW7pR9JElg94bw/3iYgVYSbrJiJAmiQXdjJcGvncr0aZqm2Zd506VLfBVZgq2GRSsGb6Z6nbSm5gy5BnVfQ+emvRrxuskI1vq6j6pOgxiXV3PiVkLChW5X5JEqrKuh/pLSltXwf9Ozq4fDh5OtwPTn5On7AWXsHbemu98uQ9K5uPw3f3ZU+5EuvS3/XZoa1vZuHu7u4q8KYO8ONx6So7/A0DvcZvMzZm9ucK/FJJm+eeW1z2htoTdtCWuubtClYkiL69NKsKWQt3QK3vlQGUu6gjiXcsiWMLbVl2Fz/fAAQIFja3JXNKRP+xSYYAL/enP8IH/1h3lqAWAwAgRsQHcAGm4LHm0eAgOkUpSvvhADjD3GAZ02kAgEg4gEBYITEIwAcBaQiAALi6Y8AiFDMSARASDzLcSiIQ2SyUSNGIkcRxyjOIAGZPEUiTKA9EJIpF/iFQVf465lslg3NpPJDBw3x4/xighSFZ37bON7v1pWdKgvK4zns4jCHOMFOdrCXcy32MRaGT3KQWWucM1/rGcoghuAZhz+d3petsqzHOF7y5yXnOxmPv99Vxqn18uWx0QCkw4gwDGSJn5hi4McB");
 
 export default ObjectGroup;

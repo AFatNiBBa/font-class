@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-n` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-n?s=thin square-n}
  * @preview ![square-n](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-n.svg)
  */
-const SquareN: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm126 34.8L320 354.6 320 136c0-4.4 3.6-8 8-8s8 3.6 8 8l0 240c0 3.3-2.1 6.3-5.2 7.5s-6.7 .3-8.8-2.3L128 157.4 128 376c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-240c0-3.3 2.1-6.3 5.2-7.5s6.7-.3 8.8 2.3z" />
-    </Icon>
-);
+const SquareN = createIcon("square-n", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcwAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBbgsGAAE2AiQDCAQgBYMtBy8b7QQjEaZrSyL7ZwJvYrnuABHAp81HnqG31xoWsSdAC0ZJBM+v+f6cu5sUgLZPlYkdkAdCWVeVqrKlD2QJdAIga9/1FXYIGux09FxIWBo5Nd54qYCPvGjn0deP/fF/4xUoYLU+8AHNBjbTAfgYZt5yUXtE1iuZiSbT47cezx6Qx3UblEhX0wecbm8av2rjlCTLAERjAIxdPH+myk/xU8SHKvHBdATEOCgEMmRoL8AImUB7uQK5XPBTVKvlP7AQQJTxj0sgRwnLsB6QgyTL84C2bTvWKzXIF9Ur1V3+ABEXYoqrvNgaxGNfLllc06Vef8b1E/F8NIiH62lKcWU+qfXj0X6Ws4ULFy2MuOyLFMdwQYtCXMAlRRz3ZdY8C89+5w+bPow+/b7jYzZG9vG7PmP0+U6i1bpNaHKHMHeaNKk7Bgv7cM2rH/vlt8pr1pT/Ko0b0z8J8nPGju0PBIKfP7X8uLrRiP9r13NN4JeXPb5F1Z+ikp6htgSCrEf1rogKREUAAFIcqokKAsk8GX7V+i4FCHURICmrK0CmncYC5OrqLkBJRwMFKKtrvkzkdYTz5lYKnNS3F84MchjONfcCLhnhtVPWPLL4oqKD+t3FT9LAxLOib68+xbBim5t0yBB1P7w4lrocol5X3Nq0e9eBjRu2HlDQvpn+wZ2TLHDiBwt99dJHYZjCXb3yixRm3/6twi7/keGK+1oXh+zprlATxu0nliQi1X6ics9dAA==");
 
 export default SquareN;

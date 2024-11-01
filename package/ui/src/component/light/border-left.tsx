@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-left` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-left?s=light border-left}
  * @preview ![border-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/border-left.svg)
  */
-const BorderLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 480c-8.8 0-16-7.2-16-16L0 48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 416c0 8.8-7.2 16-16 16zm112-56a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0-336a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm0 144a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM320 472a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm0-432a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 240a24 24 0 1 1 0-48 24 24 0 1 1 0 48zM224 424a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0-336a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm0 144a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM416 472a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm0-432a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 240a24 24 0 1 1 0-48 24 24 0 1 1 0 48zM224 328a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm192 48a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm0-240a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM224 184a24 24 0 1 1 0-48 24 24 0 1 1 0 48z" />
-    </Icon>
-);
+const BorderLeft = createIcon("border-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABuQAAAHiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDEwsGAAE2AiQDCAQgBYMtBzIblQXIHoVxw11issRShqFefjipePhvjd99M/PFtIqhUonfSgQPjSyqlUMmbgl7qOSfd2FuO1JN0xCT+jdEk5g0Gh1K8eT5NFqyMtO+OPU8d6+hAD5QBIO2p8U7Nu9pW6Bim7qtJMVaxSqk3W3oBC13QYMcBooMQ3OG5BVKPItlbNKTVOFWfNP4b8KapGQA0Q8AnNtLR+FVE3VE1TyJygUgIM4DzCOQkTGNACcxBaaxzANFEdTRNPY/EEEA0Qp/VQIFQ8AH/AIUkAyU0tOBsa6WnrKbz+6ceCjJ8WjsgTjF/eG9nfyx5qPimT4rtjMR2IEMJrjNgB0I2D69eOZ9/SxUKk3Nea23LgUXjyTF4qQ1Ewm2If0z5gXgP4PShjNF23Wzk9cBIBDcXPm71BfZb+9K4N+f375/XlMTv9NXtEsgyMvNsny80O5oAqBDihtUHxRIXhiAJ7s9FCB0omHSqhOzKTwsOi1hi1ledvPEFqYoHcKwAsCk22XMDlthMeyOLU56J1oNR5ZYXt74D2MKNRLkJnTaHBjCaVUVhJB102HcdgxL0mWEvdA0MjTXUNcxH6ipaHphgFqRpC9CTjYOKATZjen2nIapmY6RYVgnDM9HBsv1YCP4DMi4qShJROq609xjBg==");
 
 export default BorderLeft;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vest-patches` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vest-patches?s=sharp-thin vest-patches}
  * @preview ![vest-patches](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/vest-patches.svg)
  */
-const VestPatches: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M143 0l-1.5 0L136 0 104 0 56 0 48 0l0 8 0 189.8L1.1 275.9 0 277.8 0 280 0 504l0 8 8 0 152 0 0-16L16 496l0-213.8 46.9-78.1 1.1-1.9 0-2.2L64 16l40 0 26.4 0 64.1 172.7 8.7-22.6L154.9 35.8c.7 .7 1.5 1.4 2.3 2.1C171.4 50.9 193.5 64 224 64s52.6-13.1 66.9-26.1l.9-.8L192.6 285l-.6 1.4 0 1.5 0 216 0 8 8 0 240 0 8 0 0-8 0-224 0-2.2-1.1-1.9L400 197.8 400 8l0-8-8 0L344 0 312 0l-5.4 0L305 0l-4.9 0-2.2 4.3s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l-.2 .3c-.2 .3-.4 .7-.8 1.3c-.7 1.2-1.8 2.9-3.3 4.9c-3 4.1-7.5 9.7-13.6 15.2C267.9 37.1 249.5 48 224 48s-43.9-10.9-56.1-21.9c-6.1-5.5-10.6-11.1-13.6-15.2c-1.5-2.1-2.6-3.8-3.3-4.9c-.3-.6-.6-1-.8-1.3l-.2-.3c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0L147.9 0 143 0zm65 289.5L317.4 16 344 16l40 0 0 184 0 2.2 1.1 1.9L432 282.2 432 496l-224 0 0-206.5zM80 400a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm80 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM88 236.7L76.7 248l5.7 5.7L100.7 272 82.3 290.3 76.7 296 88 307.3l5.7-5.7L112 283.3l18.3 18.3 5.7 5.7L147.3 296l-5.7-5.7L123.3 272l18.3-18.3 5.7-5.7L136 236.7l-5.7 5.7L112 260.7 93.7 242.3 88 236.7zM320 256c-17.7 0-32 14.3-32 32l0 8 0 48 0 8 8 0 48 0 8 0c17.7 0 32-14.3 32-32s-14.3-32-32-32c0-17.7-14.3-32-32-32zm-16 32c0-8.8 7.2-16 16-16s16 7.2 16 16l0 8 0 8 8 0 8 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-8 0-40 0 0-40 0-8z" />
-    </Icon>
-);
+const VestPatches = createIcon("vest-patches", false, "data:font/woff2;base64,d09GMgABAAAAAANcAAoAAAAAB0QAAAMPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQSFGwsGAAE2AiQDCAQgBYMtBzMbngbIHoVN2Xp4eRyMqTU5Kjo85uWjCf75tzXv+zPLDn/A1+IDMUSlipt36aCNVmS7aM1JuSctJ6V18Dz/V7tvaGhoaQMZTbgTJxJ4J4sSL8B2oIC/heHgWLVt76MhGhq0rjEz5NeOWIWJy/Hfn//21i/rEg1lDZtT56Q9+CmegIvyaFsgaWBZxFHg2qhehYHMz39H4OoVNguBecF+wD3rRTVm4TIMjgMAgHIAAIDu3aI5JEtK8n36oO82QADqBiAgwAEcYDIB0MZBwGQuAXBxEaQyjbP/wAACAKXh/E4GABdIB5WA2gAAFwBD2HWf5Xlm8aSIH8p0l/ohu8r6FqHFiggh5PuSlbRMcUmS7y/RJC3Vk9JEN/9W6+L1SEBYTEvnsTaiC1oMXeAX8LhlnHV/iY3Jy9NJ6HlisitWLV/l+whFtUTISosv1KRn4lZpON9qe7Oy8l82+4w1EWZus49JUzGLRFWsIkUUVVylKo6FMZWolBdRkUpylywF6THOXnKrdrpQWetHEs/iJtokix+qI9xKKhzOuX8X/Nj6g/NbWucxomILYUip8Z4nuG+0evJHRcuuF0dVHoGhMRyPh/8NYeMIhp+jS/57pFSIG0YqnFbncz5WIKS8/jnrurxTf14kEE5qvlBXwT6lvlXRx5U3jyq+hz1Z18H1JixjmfPt3lOn9lroGHx9O85+Cii737DF8mYvNqxu+eUtI+FRxcNr0vjB8axUaZQznRfLcqQeiu4HQIDg0+XNpnXZbX883wDw6/YfA79F40l9qivAwwAgcMrGy6xOElBSAAAAAKOjFCYJAowKCeOwM3hKEBUWEGlIw5IOk+SQLpZSMsRU9YqR+kWjELnp3og1iDRkcIB0aHCGdIl4Q4Zo8zmURiTOU6O65lU/rekHymD/umBdURW0BJ1lqfpBUOjx1mC0cTjK24rhQbbaZ6/Dtthsh8Ml4qA50SP2GOiD+r1RoFqFKoEWwezadf3SEu+gQ3b47DWfS6tgfW+Ro/29i6HF4Eitsd9gQCbj6JZDh8u/SKYthwAAAAA=");
 
 export default VestPatches;

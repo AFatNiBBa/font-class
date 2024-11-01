@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bahai` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bahai?s=sharp-duotone-solid bahai}
  * @preview ![bahai](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bahai.svg)
  */
-const Bahai: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M203.5 249.4c15.1 7.1 30.2 14.2 45.3 21.3c-11.9 11.9-23.8 23.8-35.6 35.7c16.3-4.1 32.5-8.3 48.8-12.4c-1.4 17.1-2.7 34.2-4.1 51.3L288 303.5c10.1 13.9 20.1 27.8 30.2 41.7c-1.4-17.1-2.7-34.2-4.1-51.3c16.3 4.1 32.5 8.3 48.8 12.4c-11.9-11.9-23.8-23.8-35.6-35.7l45.3-21.3c-16.6-1.6-33.2-3.1-49.8-4.7c7.1-15.4 14.3-30.9 21.4-46.3c-14.1 9.5-28.1 19-42.2 28.5c-4.7-16.6-9.3-33.1-14-49.7l-14 49.7c-14.1-9.5-28.1-19-42.2-28.5l21.4 46.3c-16.6 1.6-33.2 3.1-49.8 4.7z" />
-        <path d="M316.5 101.2l-3.5-12.6L288 0 263.1 88.6l-3.5 12.6-13.7 48.7-41.9-28.4-11.2-7.6L115.7 61.8l39.1 84.4 5 10.9 21.4 46.2L130.5 208 118 209.2l-94 8.9 85.5 40.1 10.9 5.1L166.6 285l-36 36.1-8.3 8.4L55.8 395.9l91-23.2 12.8-3.3L208.7 357l-4.1 50.6-1 12.4-7.4 92 54.1-74.8 7.9-10.9L288 385.4l29.6 40.9 7.9 10.9L379.7 512l-7.4-92-1-12.4L367.3 357l49.2 12.5 12.8 3.3 91 23.2-66.3-66.4-8.3-8.4-36-36.1 46.2-21.7 10.9-5.1L552 218.1l-94-8.9L445.5 208l-50.7-4.8 21.4-46.2 5-10.9 39.1-84.4-77.1 52.2-11.2 7.6-41.9 28.4-13.7-48.7zm27.7 97.2l-21.4 46.3 49.8 4.7-45.3 21.3 35.6 35.7-48.8-12.4 4.1 51.3L288 303.5l-30.2 41.7 4.1-51.3-48.8 12.4 35.6-35.7-45.3-21.3 49.8-4.7-21.4-46.3L274 226.9l14-49.7 14 49.7 42.2-28.5z" />
-    </Icon>
-);
+const Bahai = createIcon("bahai", true, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABwAAAALVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDfgsIAAE2AiQDCgQgBYMtB0YbFgbIjsK25RMVZeYQI+YQeLrief7X/rfPvfPmiygmSZOolUSkJJNKSD+TSCRCob1FpVme/3/ce9+H+AZIjaeD8WNbAiPAUIRQdrW2ilgTD+UyoVPT/yIqTTRBVJ1OCYT4Q/uGdYYK0aeLlRxZNnfVhMngFp8sJNtAk/86iEz5XM6Bl90N5ze5QVAMVQDIJABw5lFaAmz30y8579ZAfogHAjkLsAmhomIVAscRBatINoFGI/RL14F+sn8+DAKkBYpjq6BFDz+BP4AGFEUaUsOuICaZTcocITOq5sWSTJQeUXB8I0lmMiKOQ8IjSjoT+sRfPivSRAXrnTz0YrA0M5KYJoL5A+MHGLNCYWScYG2dt0fygb2TfQTWB2jJTOIY+5glPEHxTZRA8cE7Qr9H42KE9LvmrSelI2dMJHNC43OcCQmgxKKtH2IaAEIjVhwOKCM2XeQt/picV57zf+o3+GXZkO/bzrU5BvGHwfIexEogsq1gEB7sgTEv3IwKOQO587CH6RCmgWc8rkKvZ896KS6B0a+y4gKOc7q5eaCTvmeR4i3mEsQuDRuUGc26XilOHPRCGNYyHlpFRXb0QCjRnBs35px93+YCsHcvn7e7+2WFxWSxntW86K1JDCwFMy30ANvftpbirubFTUwYjP52dv43EMUmjIkazLg9gCDcurT1WcT1/z/IJAD8+vr3iQ4n67bL3rIIDCog1IOdvfwSTEZWrCEAQEknU+CuziBUbxAM5zrqAwRiGAFFa1hAtYIHgcawAxDoWecBgdawe4jS0CFmFTBUjHqOqmMGUGPWKuo57ijVmg3xQFcdpqrHzPSRIj1iFnZxdMa+2FpB1McugJN+2Ntu3Zl32IQkUKlJo3YVytUgTBC3Ssh2aBAJcSP8EObCkTPMF55dX9VnCv5WbTmYNfOn8YPXD1vrhPvbhJodVHzoQ6gqKYjI/u+Hu8bhfjFxBe19AQA=");
 
 export default Bahai;

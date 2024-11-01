@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mountain-sun` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain-sun?s=sharp-thin mountain-sun}
  * @preview ![mountain-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mountain-sun.svg)
  */
-const MountainSun: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M496 80a64 64 0 1 1 128 0A64 64 0 1 1 496 80zm144 0A80 80 0 1 0 480 80a80 80 0 1 0 160 0zM16 444.9L256 92.4 496 444.9l0 51.1-.2 0L16 496l0-51.1zM16 512l441 0 39 0 16 0 112 0 16 0 0-16 0-62.3L489.6 206.5 480 192l-9.6 14.5-57.9 87.4L265.7 78.2 256 64l-9.7 14.2L0 440l0 56 0 16 16 0zm608-16l-112 0 0-56L422.3 308.2 480 221 624 438.5l0 57.5z" />
-    </Icon>
-);
+const MountainSun = createIcon("mountain-sun", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcQAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBdgsGAAE2AiQDCAQgBYMtBzMb+QTIhuD7NXTfv0sKQNcqRnBAksmSJHbsO3WZ2AIrnLjm+Z8/PWAFwaNFYcWiqEA7zicw4CiqsIEMZ8PZRHHWTp96A3QmSR/5JMP2w+oMefy2XAnpfHqLo+VD44NGDpJkGYCoCYAhs6ZN8LwsyiLe/L9DvDEOATEEFAIZMjQVoL9MoKlcgVwuKIv///k/sCCAKIUnJZCjAuZgLSAHSUmeV8PLm1WrUlItn1mlpPKqq+1utrne7FLra21vNK9ype/D3vebXu7zoN+jFpvnzZ43J0RE1QjVqtaIiJgZ9aNuTPezZocQVTZVrlJ5fe6smBFa3ah541PLtyvf+rIpK//2rTxL1GNVV+3YsapqZtP6L4vrQbqhTLdhDx5srmmg0+WuOHzvmU68cxnza43eanqLamzGfb3NOaDPTEff6wMEguqPD/VQd/X/VbFKAuUPv3zQHv7/PO1NN1BRAkHW/n9789NeYHYAuRQ7tVK+KJBMUQLvWtUZAUJlBEhKVRYg00RNAXKVtROgRHM9BChV2TSZyCsJdS0YcFLVFjjT0y44V9ctuER/L7Kl6kZmY6KFiD+8tJESGDGt6NKxc9G32JZ1yWz4ON6vONZb7wxtbWirlTbZaLsVlltju4C2mlDYYYORGjjCDxW66KizQl/Fde15/UwrbLXNGptszJP0U7yPtrZT792GrAScXRUliUhVbTXVYduOjQA=");
 
 export default MountainSun;

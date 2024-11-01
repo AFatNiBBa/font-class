@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-parking` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-parking?s=duotone square-parking}
  * @preview ![square-parking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-parking.svg)
  */
-const SquareParking: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm128 72c0-22.1 17.9-40 40-40l72 0c53 0 96 43 96 96s-43 96-96 96l-48 0 0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64 0-120zm64 24l0 64 48 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-48 0z" />
-        <path d="M192 192l0 64 48 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-48 0zm144 32c0 53-43 96-96 96l-48 0 0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64 0-120c0-22.1 17.9-40 40-40l72 0c53 0 96 43 96 96z" />
-    </Icon>
-);
+const SquareParking = createIcon("square-parking", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABlQAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCPgsIAAE2AiQDCgQgBYMtB1gbaAXIhofvdb6dqyc7jvyDrBBRBQSLBEq5hNVyvbVnW8LS839NvXh+dIDf6NA67UCuNxp28AQGGG3RNPASGs4Qp7A5xC7qoYwQf4I83ky3qZE9nf2AB8P/AYyfDXAbmc4JQHQHwPIdWzb7shWtLH5ov0v8YBMCYgUoBRISBguwSBIYLFcilwtaWbtNK9rtkgCiLnzSBOrohJtxFyAHmUzK827DB5bdmrUu+fZmrdghNOPefk/GzX2fKIptz42LeGtWEeKm3o8V9/R9ImL+5q3cZjPeG//2kJR5/NPVTqO7xJsTzw9K8cyEakxHvDburf7bdrgRevhz425osv6TySOq7tWvw384/oMv2svirGm63nVXV2fttAeHNSqqm6YpZ7Yuc5UeH5/vsc5NVdVw8HC66NHjpWVeKqAir9NvXLvHRQ9vVHc0+f+lx4FAMKTjx68OdFv0b6OZgZ8+/v3v6n7tVnyZVWjIQJAmtSfZG1+CGhLin8/iCiPiSzchkKyXEH+sDk8IEAoEyNQVAiSDdBcgV5goQM1QswWoK2yRRN5Z6G1fBzIdLgbJHNeDXG/vgJpFvvbrekcCIg0j+jcwYc0QXT2unD5lWrmgXM1rGGyRXv/C8rAx7gpdN55uddyFLnCZY4465bIBfonN0eXOWbOFrfZFpemmmKa0QHm59HT9dsdc4lKnXOiCYJSFyue9ca7Ybj2e2pmYcIYFSSKySH0tsz75opxEtTIZ1M36z3EWGAAA");
 
 export default SquareParking;

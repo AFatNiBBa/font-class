@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `broom` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/broom?s=sharp-solid broom}
  * @preview ![broom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/broom.svg)
  */
-const Broom: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M416 288l-40-40L576 48 528 0 328 200l-40-40-32 0 0 51.7L364.3 320l51.7 0 0-32zm-74.9 65.4L222.6 234.9c-42.7-3.7-85.2 11.7-115.8 42.3C79.4 304.6 64 341.8 64 380.5l0 3.5 96-48L0 480l0 32 195.5 0c38.8 0 75.9-15.4 103.4-42.8c30.6-30.6 45.9-73.1 42.3-115.8z" />
-    </Icon>
-);
+const Broom = createIcon("broom", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVQAAAHZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBJQsGAAE2AiQDCAQgBYMtBywboQTIjtRG+UVWEg//v/a/fe7MN1wHkqslGsmbeDZpLlGlsojkV7Xv09/8886jAB93CYc2Fi6NogkSzXmeQKDRwDEtsE/fPlii+Hdna2uKsFcaZUmOSzs+G+TxNduvjHQyvcXR8qPxV1P7SaoyAFEHAMPnzpzs4a/4FfGmhHhjIgJiOCgEMmRoIcAgmUALuQK5XPArSiX+DywIIMrJownkyNETIwA5SFKeN2xUvaxmPif2VFs5ZPCQuTEkZtHsaiFmR/WIWXNmz/kw6W4h5sasMI6/GPpkTtuLdS7+a/N2zVvnz+9F7cULJYjZq9DLxo1qMWHYbvjYiLzWqRqZpV2dP6rw1PULv/IRQCC4euDdtKW1B/2vrJ7An9v/qbdLD9OwdBGVEgiyTqVOFqVhwOgA9BR7tDVeFkg6SoDfWsMxAUI1BEjKVRMg01wdAXLVdBSgTCu9BShXzUyZyKuEBhZ3kNSwHWT62AdyDdwCZQZ5oZdrEJnrUA9P/dzix2hodFfRvUu3YkCxdDTaG4jUHFhsC+32hER7mLTGVlvsstoq6+1SyA6Trd02G2PBo72o0F0X3RQGKI795+E5Vtthp/W22pLbDFTcV9rZY+e3BzkR3B7sSSJS2QrvBAA=");
 
 export default Broom;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-wifi-circle-wifi` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-wifi-circle-wifi?s=regular circle-wifi-circle-wifi}
  * @preview ![circle-wifi-circle-wifi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-wifi-circle-wifi.svg)
  */
-const CircleWifiCircleWifi: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 48c94.3 0 173.9 62.7 199.4 148.7c13-3.1 26.6-4.7 40.6-4.7c2.7 0 5.3 .1 8 .2C475.6 81.7 375.4 0 256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c39.5 0 77-9 110.4-25c-11-12-20.4-25.5-27.7-40.1c-25.3 11-53.3 17.1-82.6 17.1C141.1 464 48 370.9 48 256S141.1 48 256 48zM416.6 205.6C374.1 167.3 317.7 144 256 144s-118.1 23.3-160.6 61.6c-9.8 8.9-10.6 24-1.8 33.9s24 10.6 33.9 1.8c34-30.7 79-49.3 128.5-49.3c46.8 0 89.7 16.7 123 44.5c12.2-10.9 26-20.1 40.9-27.3c-1-1.3-2-2.5-3.3-3.6zM256 240c-35.1 0-67.1 13.3-91.2 35.1c-9.8 8.9-10.6 24.1-1.7 33.9s24.1 10.6 33.9 1.7c15.6-14.1 36.3-22.7 59-22.7s43.4 8.6 59 22.7c3.7 3.3 8.1 5.3 12.6 5.9c4.5-14.9 11-29 19.1-42C322.7 253.1 290.9 240 256 240zm0 160a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm384-32a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM496 320c-27.2 0-51.9 10.2-70.6 27.1c-6.6 5.9-16.7 5.4-22.6-1.2s-5.4-16.7 1.2-22.6c24.4-21.9 56.6-35.3 92-35.3s67.7 13.4 92 35.3c6.6 5.9 7.1 16 1.2 22.6s-16 7.1-22.6 1.2C547.9 330.2 523.2 320 496 320zM476 432a20 20 0 1 1 40 0 20 20 0 1 1 -40 0zm-11.5-35.9c-6.6 5.9-16.7 5.4-22.6-1.1s-5.4-16.7 1.1-22.6c14-12.7 32.6-20.4 53-20.4s39 7.7 53 20.4c6.6 5.9 7.1 16 1.1 22.6s-16 7.1-22.6 1.1c-8.3-7.5-19.4-12.1-31.5-12.1s-23.2 4.6-31.5 12.1z" />
-    </Icon>
-);
+const CircleWifiCircleWifi = createIcon("circle-wifi-circle-wifi", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABuAAAALQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDLwsGAAE2AiQDCAQgBYMtBz4bvQXIBp7n7ezPnUwW4FuZH1QFCKVaK/9zzef3/Kj98xEcSjSWJkbOu55P4AR3vsIokeFsorhlc6gmrhriQrvsgS5/ZAFG0FZqd4D54UPlDZ5MAQ2jAQAAcQAAAAraNNVw4aW8FLltOgpymypAAKQAAIUABsAA+CAAZGNAAB90FKCjI/BSTCbxH6hAAEDMSIdpAOiAFbAPuA1jae3CFroe5ejo7O1o6WhttNVbrY1WHZ7WiNxt2W4923qiPGt91vqk+k7+heanBRdrfN3sqlVeJ6yeNT5qfd70uE1LKDYv8Vwadr/NgcbdYcvcmq9kdy+zO+1oxFLX1d7nSpntLrJcJrots5rlsoQJrkute0yMFdmXeUreNP1E9B4mxOzNOGk9O+t03H5pPRK+xG2Z+/myqzlLXZa47UptXh221XNF8DYvvzlqd9jWCPGeMwN3Oex6F3Cn9x1M88soh7bOBcmuug5uTYXJ+bz2UsbEhZ4elFHm4blwYhnZHp+2do1uI7t2idbacA4XNqwtyOoslCOXenHxn01tlZQR5dDfkQ0B9QUfLv73GaXUqOaurZcK6jfYzYAZdqhD7BzvH6ZAOTuFhjo5KxXW6xCHzY9bcHPHztmrGurrG1bN3rnj5gLnIY7J2Hxikm58+bLxTbednU8DgAACT9Wdvl3ss79ZWGsAvD714TvlDNMFbYK2C7BAA0DAEG2KpqMJABxTACDUZDSB+KtAAI1tWJBSG5YhdzpW0IKGGVZgwBsH0LEiCoz4kSLs1Jp2UYhu6bjQiYCGDcPAQCpjQceFw2Akm+uRGS5igF8J+qTHx/TSPlJSpRJi41WmWuyoZZAU7GaW2m2Ej5YTEbiW3gxhMCPpRU/6MbKHDacmHcUgStfQEn6IIoFY4lFkok73H+utvWg4I+g3r57fJgt1vxPO6PX5EdjWSKyJNGloIJr7bz6VMWP69e4X0wIAAA==");
 
 export default CircleWifiCircleWifi;

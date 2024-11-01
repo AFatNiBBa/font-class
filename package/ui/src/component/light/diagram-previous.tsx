@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-previous` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-previous?s=light diagram-previous}
  * @preview ![diagram-previous](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/diagram-previous.svg)
  */
-const DiagramPrevious: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 352c0-17.7-14.3-32-32-32l-176 0-32 0L64 320c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-64zM272 288l176 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l176 0 0-105.4-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l64-64c6.2-6.2 16.4-6.2 22.6 0l64 64c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L272 182.6 272 288zM448 32c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-48 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l48 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L64 64C46.3 64 32 78.3 32 96l0 64c0 17.7 14.3 32 32 32l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l384 0z" />
-    </Icon>
-);
+const DiagramPrevious = createIcon("diagram-previous", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABkgAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCWQsGAAE2AiQDCAQgBYMtBzcbYAXIjtRG+UVWEg/f63o990n7x5bMIDNjhxRg7sIdcNEZ2kxK11u17/N/uednmw7wGx3KGMMauKbuhVPgOIt62fSEsl4gmSZg6TbZo0cEfhISQSLZcQrx94A8vovBaqSX0p94Qt80/tPRVZI8AxAtADBj3aolfr4f9yP+rCP+tAgBMRNUAhkydBFgskygi1yFXC64H/U6/QdWBBAN5OMTyFHDU3gBkIMky/NOI6aWtab52rJW7LrULuL5oihut3mWuNj2ubJp3Gn/QsTasijfG/BRR/Fi/w97N4n3B37cKeKVQZ/0KyNicjzb7vn2q+KFtiviuTbPtpsa1r03ICJaW8Tz7V5oX+bYcSm2VjSJ/Ogynmv7bJvi3mVNe37c4uP/e/y590/3tjW7yc1mX/6rNMHTQReT0/+Z9qWUvtmyZTFdgbU3L7JjXzpglo8+evnlOuw6ppGa5cAX9X0IHzjc/WbN7g+XypvotKU/DwLB49c2dtzWfPKjRmUCD7/9iP6K6veT9DEaSSDIBtcH25xAIgAAKc7qmSCQ3JKRV23ieQFCgQBJg0KATGctBMgVBglQ080YARoUVslE3lhoY4uBpIkTIDPWOZBr4xtQM9kvmQZtIitKvqT4P2HK3BmaE1WNGDq8mlhtW4ZQZ2xbnVSFnf5neWQAztrrmKNO22O3A05P5ElL8mccMdcj5viiyghDDVeZqDruvp5ea4+TTjngmKN9n0mq+7H+zvrTB8BPhHKkuiQRqcULYg6pfAAA");
 
 export default DiagramPrevious;

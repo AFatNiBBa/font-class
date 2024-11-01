@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `road-circle-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/road-circle-xmark?s=solid road-circle-xmark}
  * @preview ![road-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/road-circle-xmark.svg)
  */
-const RoadCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M213.2 32L288 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 74.8 0c27.1 0 51.3 17.1 60.3 42.6l42.7 120.6c-10.9-2.1-22.2-3.2-33.8-3.2c-59.5 0-112.1 29.6-144 74.8l0-42.8c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32c2.3 0 4.6-.3 6.8-.7c-4.5 15.5-6.8 31.8-6.8 48.7c0 5.4 .2 10.7 .7 16l-.7 0c-17.7 0-32 14.3-32 32l0 64L86.6 480C56.5 480 32 455.5 32 425.4c0-6.2 1.1-12.4 3.1-18.2L152.9 74.6C162 49.1 186.1 32 213.2 32zM496 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm22.6 144l36.7-36.7c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L496 345.4l-36.7-36.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L473.4 368l-36.7 36.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L496 390.6l36.7 36.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L518.6 368z" />
-    </Icon>
-);
+const RoadCircleXmark = createIcon("road-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkgAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCVQsGAAE2AiQDCAQgBYMtBzgbXQXIhof/t/u+fW7Va1R9o/pLiEQMxAxC5mxm5b0mZSRMXPP8z58esOwJHqVj0SCRFJHAu51PcLNomtBGw1kL+myzIcJgsIUfHxJi62ijxy97vKId5PF3doMa6dH0De7e7jR+0NUNJI0ZgGgDgNlrViz3WXM0R3z9/9vE15YiIGaDSiBDhh4CTJMJ9JCrkMsFzfH//+U/sCKAqCM3m0COGu7CQ4AcJFmeL+neVNZa5qvLWrGhLEpxteOD5e2dH46IMm7v+GDXVfFMcduk94ZFXOv0UHFbhwdg8xHsLCKQJD4DVut2rfOGeLzzs+W22ydHvD/8ZVeHvTRHTqw85YMRr8S1ka9O/bBcNXPazIc7PdRhWsyIh8jbcXoYqZgHO8+M6UEOF8zo80KbF35q+mb3N757eqmkzdLqllta1R/OslTHv//aMeSM1Hb43BXHhx7TvSAbtadrQ30Ip37p6M8/1zcOOrXUjr/KDt0+HZhIo5sGDGgandJAV1G8ne4eJxmPPfb883PNpaRNGWccfzEIBM/u+Lba0nrarw1lAt9/8Msf7fzq/8/S1fQCGiQQZMP+H2ZjuqqC8QFEUpzWBzxQILlJRq61hYcECAUCJHUKATLdtREgVxgqQE0v4wWoU1ghE3mj0MGmHU5aOAZnJrgE5zp4E66Z5vNwnQ6RpSSbUOwXYdICD8yfV40eMaqaUp1WGJdlNJycWl22Bp0OHYNpqd2OOOykXXba56SDjlseO+WQBQic74kqo40wSmWKarl+lFYzqdKJTo+59VlMVd0fGuQ07j+YnIkQjpGTJCK1fTO04T/v2MPPPsE=");
 
 export default RoadCircleXmark;

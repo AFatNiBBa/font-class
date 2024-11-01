@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lari-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lari-sign?s=sharp-light lari-sign}
  * @preview ![lari-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lari-sign.svg)
  */
-const LariSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M160 32l0 66.7c10.4-1.7 21.1-2.7 32-2.7s21.6 .9 32 2.7L224 32l32 0 0 74.9c74.6 26.4 128 97.5 128 181.1l-32 0c0-65.6-39.5-122-96-146.7L256 288l-32 0 0-156.8c-10.3-2.1-21-3.2-32-3.2s-21.7 1.1-32 3.2L160 288l-32 0 0-146.7C71.5 166 32 222.4 32 288c0 88.4 71.6 160 160 160l192 0 0 32-192 0L0 480l0-32 85.8 0C34.1 413.6 0 354.8 0 288c0-83.6 53.4-154.7 128-181.1L128 32l32 0z" />
-    </Icon>
-);
+const LariSign = createIcon("lari-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABYwAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBTwsGAAE2AiQDCAQgBYMtBzAbzwQRlZpXyD4SY7fRHU1UloY70XgTD8/b1XfuqxpVf+P9iT7MSOIqApwByNjp5rOTLhx3AIycGm+8VD8XgM+1xusf/N54BRov9c8nNt3sXJsozrxlG/VI6ZfJRDPp8co9fh2hjOsxVhPpmVTHQ+1K41cD3UNSFgCiBwAWbV6/zrcd0RFRb3wk6tYgIBaDLFCgwBAB5ioEhihllEpBRzQa6T8wCyCa9bNLoESBdVgPKEESZbms1tS13FRrqrYLT9Xu6xtRC/HDvK9GVPHq+Ldniyoinqzu7aP6p2PfzD87ysYAvaoiavE53P7agm/W7NTaX+/x+u8j6ofqXnppiTzGPz16/LMkW+OeCRO6Z/HkE689JntBZ8+enS/IHvPaE09GLKnXl8S3sm+/zTY5evRI6j5hwj1rZCAQ/PLUzT92d5/7f2stgc7P//x7nKzREXek19EqgaAY2xi7I+6AuEMAAFJc0i5fFEiWSfhSu3hSgFAhQNKsEqAwWA8BSpUxAjQZZpoAzSrrFaJsE/rYOYmki7NEYbqbRKmPD4gmc31nNusTBZ44NHDfuWS93ALL+vKk8RPz7Lx1KQ8RprTn5LA68lJOjaKDDp0+deHggaMXDHRunXPx5HIPXPbDPGn8xDw7Hwev25sOnjt/9PSp2mVOvq+NvOQXj6JhEmDyS4wlIrWd2Hvu6DgoAgA=");
 
 export default LariSign;

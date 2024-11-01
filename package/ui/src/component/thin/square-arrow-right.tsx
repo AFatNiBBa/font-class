@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-arrow-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-arrow-right?s=thin square-arrow-right}
  * @preview ![square-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-arrow-right.svg)
  */
-const SquareArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 96c0-26.5-21.5-48-48-48L64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320zM384 32c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0zM349.7 261.7l-104 104c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L324.7 264 104 264c-4.4 0-8-3.6-8-8s3.6-8 8-8l220.7 0-90.3-90.3c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0l104 104c3.1 3.1 3.1 8.2 0 11.3z" />
-    </Icon>
-);
+const SquareArrowRight = createIcon("square-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdQAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBbAsGAAE2AiQDCAQgBYMtBzkb9QTInoWxG+1Ig9HYDB0ay7t95CMe/lvr7b6qnjnJQBA7UYyk4tAxLZJbNW5ZOGC1RvxmBqp9f97opips93Dq85agxCLKKkR/5Oa8eRTgIw/lfHx2QPrzf+cJJJrnCWWBZRqAx9DubAcLpV1Kay2W5Pgmx+WAIp7BARXSEwO36k3jf71dJckZQHQCAOZuXr9S68/4M+LnthE/W46AmAdKgYyMfgLMkAX6KZQoFII/o+3Hf2BJAFFFn5ZAgQq2YD+gAEkuij7ar15pFpvqldrhpxzxsDbiXbwfUjyhB6UZH8ijlOe9NyI+iike9w9zI96fH2uOZ+uT1tywYfOG+/xQNkctHvIjqcemeCiPaGM8wMEfu48vh/hid/6FX8dkzK+/5DnyL+xve92ZzjXE1Dr71wcP2qD/DtPe+vUTJ27b6jd7qtU9v8mEJLR0+HA7DwSC6zeXTd7dccZrZxP4+9sPr5G2P6OVPgbaSSDII/62I1oQLQEASHHJ4GghkKyR0VUbHgoQagiQVNUEyPrqJEChZrgAFQNMFKCqZr0sivZCNzsZThrOwtkkV+BCN9/AFTN8Z1Z1i+xejHMwn7vERRJYuFWOHTWmnFZOE531GKosp5fL0pBL2BgKuw457ZQLDjrgqAsCOmelc9FJiyxwoQeVxhpljNI05Xa+FjcJ85zzjo75/TXTleeNIS7Z/UNBTQh3nECSiNTlhgojk37u9OUHCgA=");
 
 export default SquareArrowRight;

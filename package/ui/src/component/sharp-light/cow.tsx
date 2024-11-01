@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cow` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cow?s=sharp-light cow}
  * @preview ![cow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cow.svg)
  */
-const Cow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176.2 96l191.6 0c-1.3 17.7-8.9 34.5-21.6 47.2l-3.6 3.6C323.9 165.5 298.5 176 272 176s-51.9-10.5-70.6-29.3l-3.6-3.6c-12.7-12.7-20.3-29.4-21.6-47.2zm223.7 0l29.8 0c26.3 0 50.8 12.9 65.8 34.5l39.4 56.9L564 229.4l0-36.6 24 0 0 12 0 54.3 0 5 2.8 4.1L608 293l0 123-47.2 0L512 339.3l0-67.3 0-9.9-8.8-4.4-64-32L416 214.1l0 25.9 0 176-48 0 0-63.8c0-.2 0-.3 0-.5l0-15.8c0-53-43-96-96-96s-96 43-96 96l0 15.8c0 .2 0 .3 0 .5l0 63.8-48 0 0-272c0-14.8 6.7-28.1 17.3-36.9c3.5 22.1 13.9 42.7 29.9 58.7l3.6 3.6C203.5 194.1 237 208 272 208s68.5-13.9 93.3-38.6l3.6-3.6c18.7-18.7 29.7-43.6 31-69.8zM336 375.8l0 56.2 0 16 16 0 80 0 16 0 0-16 0-166.1 32 16 0 62.1 0 4.7 2.5 3.9 56 88 4.7 7.4 8.8 0 72 0 16 0 0-16 0-144 0-5-2.8-4.1L620 254.1l0-49.3 0-28 0-16-16 0-48.6 0-33.6-48.6C500.9 82 466.5 64 429.7 64L400 64l-16 0L176 64l-16 0-16 0-32 0c-44.2 0-80 35.8-80 80l0 88.6C12.9 243.6 0 264.3 0 288l0 32c35.3 0 64-28.7 64-64l0-16 0-16 0-80c0-26.5 21.5-48 48-48c-10 13.4-16 30-16 48l0 288 0 16 16 0 80 0 16 0 0-16 0-56.2c6.6 2 14.6 3.8 24 5.3l0 10.9 0 16 32 0 0-16 0-8.1c2.6 .1 5.3 .1 8 .1s5.4 0 8-.1l0 8.1 0 16 32 0 0-16 0-10.9c9.4-1.5 17.4-3.3 24-5.3zm0-33.8c-2.1 .8-4.7 1.8-7.7 2.7c-11.4 3.5-29.8 7.3-56.3 7.3s-44.9-3.8-56.3-7.3c-3-.9-5.6-1.9-7.7-2.7l0-6c0-35.3 28.7-64 64-64s64 28.7 64 64l0 6zm232-6a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Cow = createIcon("cow", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABwQAAAMKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyESQsGAAE2AiQDCAQgBYMtByobQwYRlZqpyX4m2OA26gcEODSeC1DGPTQDTerCyvwmeP6/LruvNJ2q4Ef0bkCuiM6Z2YHoDMw1gLWa58nb+7PdZNMo0ADzIFs4xMAkLgAM2iYSqWYXMUuQ/xuVUMwmGvNS2R/383zWNMBnC5rQUH4krVqrLSLOJzDAaK2yFBjORhPkTbmLeDhyWLqGxRtgyB/JYYK2jrsPLEneVL4SaT5oGDoAAKIAAEDj7NaBy6/klch97wnkPu2AAEgTgAQC6IAOxBAAaugIEMMgARgYCLwSr9f5DwQCAGIBuBpxBtAGxHQEQJXoOt40DPVMiqqO6Wf0bKbdr9nOWjdE9pYns8LEozvFE05EjZIbEUcQBAlNZhBbegbEhqVt0kJsEWkJx4ls9j1lxzP2xmBijdfpskHZlBkqF8it+nBpdXojII4jIpK6oKNHQiuYrs8KSLLtplyktu9SWOrbE7RGC0jboKxJXxuhySLcVRIx3rJAaDGziro1yr7iVoo7S06mrQ7LBmwIWtN3Ze6LpFcLUkESZOzgJI/yfE+8P/I+hwZdBguiipN56nY/TaZ4exUHXuZuGcUdUkTwpYxJMhcz5Su4aGYzD+84UQ5ToAGA4vL83G58oEsBaFBAsf51+RYZcXceUeR8Rn14BbhCoZayG28dk2TlkzI+vbula9ywUAxFHRD3xiWoET2ljychCWwNDLQVpTP9wbOCd3aCeeIqLH/ioBQVXRgGGIZrdYcny5MAEk5z8DIbd1jYgWNrHG19NF/5+7/CkgAgP7lRvj9jUEDN53I0AN6c/fmbH6m5OQ8DLjQABPScP6d/cTOAIy8A4NNkiqSODxJAw2sCrvFlNQKAYAMCgIaFnYFONAUGNtlgEqd0AwubbnTE8EEIMUAGGr6MB50ys8EgxDEwqTH+Xisk/MlAHMrEtWgsLXJIPxTGKSq0Zkny+MbC7hqDNRnvSpWnL2XGy/kc+uVZEN+bwOugXSLyRcjEUlDB5MJVtjUt90cR0VXn9F5qWN7henc39nQ9B5TmnJz2T2Rrd/kA");
 
 export default Cow;

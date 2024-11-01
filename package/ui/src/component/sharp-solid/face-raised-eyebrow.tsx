@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-raised-eyebrow` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-raised-eyebrow?s=sharp-solid face-raised-eyebrow}
  * @preview ![face-raised-eyebrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-raised-eyebrow.svg)
  */
-const FaceRaisedEyebrow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm208.4-16a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm128 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM144 336l0 32 16 0 192 0 16 0 0-32-16 0-192 0-16 0zM328.8 141.8c10.7-10.7 28.5-8.9 36.9 3.7l4.9 7.4 8.9 13.3 26.6-17.8-8.9-13.3-4.9-7.4c-19.6-29.4-61.2-33.5-86.2-8.5l-29.5 29.5L265.4 160 288 182.6l11.3-11.3 29.5-29.5zM128 144l-16 0 0 32 16 0 64 0 16 0 0-32-16 0-64 0z" />
-    </Icon>
-);
+const FaceRaisedEyebrow = createIcon("face-raised-eyebrow", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABhwAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCNgsGAAE2AiQDCAQgBYMtBzobQAXIhqDSVWW1NBM70jHokPGJwSLyCNFF6+yZ/8vpjedHB/jtyA5ljNnYtiiL5nyeQIC9qHxbImOBZZqAdTTvpUEK7RaKdpDHy9nlaqR70ie4yf/Q+Ft3l5M0MgDRDgDztmxY5Y0/4o+Ij5vPEh9bgYCYByqBDBl6CTBTJtBLrkIuF/wRzab4D6wIIOrCB0ggRwvOw1WAHCT1PO/ZsWOjT1nWWueby1oR3y+IeHvN5+V1qz6d9+amb+a+sfKT4trVn81/a/OWS7pE3Flc2+n2Tnd0vqO8rutdsclYEZIarRMbNgplGVFsvqtzxMDqHDQ2IrpEq+4d/MjQodEphkXXQdXGoizEqnP6P9HuiX/7fXL4E29Y1KD7028uWPDm090bFrl6sfbztm2u5uo2ra++unUCtUm2uajvkPLqpqLX51Thpdp9UWnX5c2z7uO+YxY73/2ut9iRSy8Z96mXHPakXz6IdmGu0m5tQgTiuGH3PNWyp+3MIy1lAn+99P+/il9R840kPYEWCQTZyOZIOxNIBAAgxZn6Jwgkp6kLr7WVOwUIBQIkdYUAmZ7aCZArjBCgpo9JAtQVNshE3hA62dWApJVTQGayC0Cuk6dBzUzvF+s6RQaDHARxf4DJi7voomXVuNFjq+nVbF3FgxVj52dUm+2hZ8q+YXirw05yotMdctAxTu/gp1pVOcMJFi9hi3xRZZzRxqpMVx1uPZQ30+KpTnPMtHh8kRmq61NDnbk8ehj2kpB0vJokEanjDa6NAvvCqEPnHHpCBgAA");
 
 export default FaceRaisedEyebrow;

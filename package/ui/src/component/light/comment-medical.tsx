@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-medical` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-medical?s=light comment-medical}
  * @preview ![comment-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/comment-medical.svg)
  */
-const CommentMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 240c0-91.4 93.8-176 224-176s224 84.6 224 176s-93.8 176-224 176c-32 0-63-5.9-93.5-16.2c-9.9-3.3-20.7-1.8-29.2 4.2c-15.4 10.7-31.4 20-48.4 27.4L91.2 446l-6.4-14.7c-10.5 4.6-21.5 8.6-32.7 11.5c.5-.9 1.1-1.8 1.6-2.6C68 416.5 76.3 391 79.4 363.9c1-9.2-2.1-17.7-7.4-23.9c-24.5-29.4-40-62.9-40-100zM256 32C114.5 32 0 125.2 0 240c0 46.6 19.6 87.1 47.4 120.5c0 .1 .1 .1 .1 .2c-2.6 22.6-9.5 43.5-21.3 63.1c-6.5 10.8-13.5 20.8-21.7 29c-4.5 4.6-5.9 11.5-3.4 17.4s8.3 9.8 14.8 9.8c28.7 0 57.6-8.9 81.6-19.3c19.2-8.4 37.1-18.7 53.9-30.5c.2-.1 .5-.2 .7-.1C185.5 441.3 220 448 256 448c141.5 0 256-93.2 256-208S397.5 32 256 32zm-16 96c-17.7 0-32 14.3-32 32l0 32-32 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0 0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32 32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0 0-32c0-17.7-14.3-32-32-32l-32 0zm0 80l0-48 32 0 0 48c0 8.8 7.2 16 16 16l48 0 0 32-48 0c-8.8 0-16 7.2-16 16l0 48-32 0 0-48c0-8.8-7.2-16-16-16l-48 0 0-32 48 0c4.2 0 8.3-1.7 11.3-4.7s4.7-7.1 4.7-11.3z" />
-    </Icon>
-);
+const CommentMedical = createIcon("comment-medical", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABpQAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDMgsGAAE2AiQDCAQgBYMtBzYbuAVRlMzJDNnDw/9/19s+t+qpOnEjcQXW2P6i3Gt+rZ7/az6/Kmr/h0dyKOu2xgKJCN6bwAQ3iwSq57PhbKA05qmbEgrxUKTiJVLGVofs+Aoe146Qx2MxURvpyvQ6zq9vGt/o7xSSPAMQvQCwbPON1/V0M5oRr7ceIF63NgJiOSgFMmQYJMBCmcAguRK5XNCMVov/gSUBRDv9TQnkaMfDeBmQgySf5/moSfNHVtq655tV2orNP9o44r3NP9jwnU3f3+DtTc6afVn1+pG1qMclIy+PExt3Db28/uTwzd9fI+LlhRGPlx8sOzFOrFwz9pLqJbVLKw8tuGnC2fHKqo/Wfm3JUyOuXfzkWq9utslZ1YhLiCLOql5CnLAUq4Rozm5cHhHqifXLiiIjBEKX1opSxCVVJeKyumV9q+GW3Nrr1u+Gvb7b64a+Fas9y3s7RQu89+w0JiOeOPWtXz/e/6ztbOf3XLB8bvcjt2589dbqzuLqIQzpSqvuRUwbdP7ju49ds7hng8dPDL02cA000NHV11591up6bt/jDM7oUSoNAy3s3AQ2mKpFpal6NKcSqtnDbm/TMXNFBxAI/v58v42277nwt85KAl8/+sNvuLL1f6uZpFvRKYEgm9iaaJvEwVkgaC7FYYbjgwLJ3XJ41W4uEyAUCJC0KwTIDNRLgFxhggBthpglQLvCxjKRdwlV206QdHMgyMx2LMhV3QfaLPRStl01sgi2xJ/l/zHnahZataqcNnlqOb98rBvWoDTl+QXl6+DYw1LfOGy0m/3t5xC72sWeDjH8QdYtHGpfq3ncKl9UmmayqUrzldutr87NJHuQg+15b99fZoHy+/hYh/mjxyGSqO50FUkiUs8j4510oAEA");
 
 export default CommentMedical;

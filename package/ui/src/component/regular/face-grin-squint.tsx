@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-squint` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-squint?s=regular face-grin-squint}
  * @preview ![face-grin-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-grin-squint.svg)
  */
-const FaceGrinSquint: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm349.5 52.4c18.7-4.4 35.9 12 25.5 28.1C350.4 374.6 306.3 400 255.9 400s-94.5-25.4-119.1-63.5c-10.4-16.1 6.8-32.5 25.5-28.1c28.9 6.8 60.5 10.5 93.6 10.5s64.7-3.7 93.6-10.5zm-216-161.7l89.9 47.9c10.7 5.7 10.7 21.1 0 26.8l-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6l36-43.2-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6c0-9 9.6-14.7 17.5-10.5zM396 157.1c0 2.8-1 5.5-2.8 7.6l-36 43.2 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5l-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8l89.9-47.9c7.9-4.2 17.5 1.5 17.5 10.5z" />
-    </Icon>
-);
+const FaceGrinSquint = createIcon("face-grin-squint", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABlAAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCVAsGAAE2AiQDCAQgBYMtBzcbWwVRlMzJDtlHQnXrjmaEYSWHcIiEkHHyozcRBMvc7N5dSis6Ub0JVVWES1eRke8SFcChsRgJRjyopsHe0ZzeFegz5B8zOiCV2IKwIwTb6tH09/P8n3/K82f0UTq1cc2jTIGdD3j2x1VCUWAznYDN3BYuTFCUGUREDvWHyIe2D/GXUMZevKnIT/kdeM0fGn+ZmSJVBQBEHwBweJWfCcdqbEbc1RvEN+lAQBwCYA6iQIEpCHbwBaYIzAGlUtDEuub/QAoCiBaQx01QohUNfAKUIFV5gcDCwsTcjAi1BEVEKKsf90JcTLuVsSnXHvMw5rmQekO49DvvJWS+4hHPsp8Il/kQe1L4HnOccS9jsx7jTotqVUaICsNpl2kZ6zbrpjTBkg3CBRcVxoUKGDMsQLmxEsdNojEKG6VItYskAiMxUKwWkVWMnsIt7GZ1Z3/n75vu4eko9BBgkSHBwYRZPAzlCk5/9kNiO+NfT47jT9bMpE6pkva69n9pgMaNu6bp5KT+4d7ReNbs+vntfn0u8S5Rf3t7f90M6o7yxJXdFoSxq1rz4uqE7QJ7Kskr9YaBthOi1BvyLgcCwa+k75lqnZ1/EsID+Ln7/7/9jNTHKb+gTYKgWKw9VCRIAgCQMQR2CYH0oiLX2uVdgNCBAKlFhwCFSboQlDosQFCZEQhBiw5n+KKUQhhSOUDq8ggKa4ZBacgaqOy4yrQYisIkOYPifgiTkxBKnEV9vXxoGH2s6LyVMXEynB7bLkO+w9WlQpNuXQY0atBqAJA+mflBnZI0ONEXUb68+KDC0Ov6s1wEVJX7E7Pn76cRjr7vuxjS+7s6j0dIl5SlJFL3e5/r2fzU2uXZ/zjY2jUA");
 
 export default FaceGrinSquint;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `forward-fast` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/forward-fast?s=duotone forward-fast}
  * @preview ![forward-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/forward-fast.svg)
  */
-const ForwardFast: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M448 96l0 118.3 0 83.3L448 416c0 17.7 14.3 32 32 32s32-14.3 32-32l0-320c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-        <path d="M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416L0 96C0 83.6 7.2 72.3 18.4 67s24.5-3.6 34.1 4.4L224 214.3 224 96c0-12.4 7.2-23.7 18.4-29s24.5-3.6 34.1 4.4L448 214.3l0 83.3L276.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4s-18.4-16.6-18.4-29l0-118.3L52.5 440.6z" />
-    </Icon>
-);
+const ForwardFast = createIcon("forward-fast", true, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABbgAAAHjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBPwsIAAE2AiQDCgQgBYMtB1Qb5QTIhof/1nq7r6r/BIA6RKSAYVyAWLNNVLLkWK1Q/6wlUDR/3Lvzf/7pAz4Q+XPYGrhA1m6s8wQ6D2RaXkCRZJqB9TYRlYoIpFciJhEdV3p8PaGI7/MFdaSn6Tvc5v8BjB91coGkUQYQLQEwc9Wypb6oj/oU39XeE99ZgoCYBUqBjIyuAkyRBboqlCgUgvpUq1EftVpJAFHBb86gggKzsBhQgCREUZSdm9Q1K1byo8bzH/R72TnH8/6v2q2IwFAsjxEb8IldghBn2j1scr3D48hxtv2jxtfaPtDrbcu3P/f8bud35v3Tv2GeITfs/8/bW6pOW47xPl9F/fNN1ZxZrqr5lSvNozJDXgcCwaBzL3ptajHl74ZNEvjhw69/+h+S2j9JeouGEgjykNoQ6xNIBAAgRVWvhPhCICsl9KipRwKExhRIKhpD1kVLKDQ2GOp0N/ZxRWPLZFE0EtraUCBp6ghk45yEQlvvoM4UX0YVbSMbEmkG5D8ubl6NzD1Vjhw2opxUThtC2QaeDieX29qAalgYCBftdMhBx+2w3R7HK+yopekJB8xboXN9UWmkYUYoTVIe97fcSoqOOmbPmDk/ZrLyvjNAdb1+IJwnAUY9QSkTKXJbreOH6rU01CaX23cY/QMAAAA=");
 
 export default ForwardFast;

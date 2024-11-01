@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vault` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vault?s=sharp-thin vault}
  * @preview ![vault](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/vault.svg)
  */
-const Vault: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 16l0 448 48 0 16 0 416 0 16 0 48 0 0-448L16 16zM64 480l-48 0L0 480l0-16L0 16 0 0 16 0 560 0l16 0 0 16 0 448 0 16-16 0-48 0 0 24 0 8-16 0 0-8 0-24L80 480l0 24 0 8-16 0 0-8 0-24zM368 240A144 144 0 1 0 80 240a144 144 0 1 0 288 0zM64 240a160 160 0 1 1 320 0A160 160 0 1 1 64 240zm160 48a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0-112a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm272 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm16 0c0 23.8-17.3 43.5-40 47.3L472 344l0 8-16 0 0-8 0-120.7c-22.7-3.8-40-23.6-40-47.3c0-26.5 21.5-48 48-48s48 21.5 48 48z" />
-    </Icon>
-);
+const Vault = createIcon("vault", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABqQAAAK+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDMQsGAAE2AiQDCAQgBYMtBywbrQVR1Ku5Z0v2RYHd+PAECxccteQCRUy8YtFqXXzGzazp5jlqi0jj/cbD/9v91z636qveN6phZL06ErJeHdGZlIEzMZxBkZyZ0cSvYZhB4CdAEeBuw7GUltUS3ZpNrJYDAx/P//+b/zasBIqtE0gU96zjYy1qA/f/37vjf9rfgGPnehuTXvQp3yBjDIGOd3zbz9sgZVEWZoliZ9veHDEJhV1oHCGPr+xWQ7qXwq3qQ+Mvfc6TZBmAaAXAqi0b1nvre3wf8UH1ID6wDgGxCpQCGTIMCrBUJjAoVyKXC76PalX8B44Aolb8hARyFHgFbwNykNTnecOkgYGmpo6hSk1TvtncW+xIWao0ZdG8ragUEVlEVFpEClEUSCKIuy+hu16n6cC2+C2uLrynLp62Lnoq15Z8M/ZopBnAziCCMcwhr8E67IF9L5u+xaZ+IO6Pxje9QV84DsekceIw95w8TZkXyNQNeMXVTsddbuVajx8VqxNwxrK30123Fw9m0YR21aNPfap1+kdpT1qefys+w99SzvhkppWt3tKqdWbF9aqn67lP6jxn/DdhlB3t48e3d5TlBFmH98ycshZsLJrJOfKW1JGyJ2YUv17Xr0VhNUwfGZk+U9vabHO5uU5UtLY/w2vp1ItQPRhfe6ad/7/m64/IeSAQ7B395c4tS/+vryTw4yv//cWqm6tvpZXpKdRLIMimVp2daSUI3wByKY4bvfFFgeQl9eJ3bXRbgFAgQFKrECAzoFWAXGGKADWGzROgVmGDTOQNQr7Trk5OGh2SM/Odk3OdXpZrLPVOtlZn8AAcAr/Q/2NxGWK8jGZNn1kuLlfrmjBMBuz8kvJwcuJx2TcJH4BmmZ6q0AoG0hEK3yBbDPshMst0M5UWKy+3nqKE5o5Ll8PXF7FE+XxqouPboyfhVSBg9qcPyKJIoqn9/gA=");
 
 export default Vault;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `radio-tuner` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/radio-tuner?s=solid radio-tuner}
  * @preview ![radio-tuner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/radio-tuner.svg)
  */
-const RadioTuner: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M494.8 47c12.7-3.7 20-17.1 16.3-29.8S494-2.8 481.2 1L51.7 126.9c-9.4 2.7-17.9 7.3-25.1 13.2C10.5 151.7 0 170.6 0 192l0 4L0 304 0 448c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64l-229.5 0L494.8 47zM320 384a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM80 336l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 368c-8.8 0-16-7.2-16-16s7.2-16 16-16zm16 64l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zM64 224c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L96 256c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const RadioTuner = createIcon("radio-tuner", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCFAsGAAE2AiQDCAQgBYMtBzIbFgXIhofn7ao/91WNqmd6qVqDX8hgZbCzHyQgev4v9/yeHx3gNzqUsW1Ong3d+3kCBTa252m4LbBME7CsnZ0vBl6/GKRPCBm2H1ZnyOO57Fx1pJvS+7gif2h8o4tzSZoyANEaALM3rl3u5Q/jw4j3ak8Q71mKgJgNSoEMGboLME0m0F2uRC4XfBi1mv8PLAkg6snNJpCjAUfjFEAOkro879dSrXaq1LXkGyp1xcG7ut7cb1dc2/7u7kKImwbf078l7hp6X7csbh5y74Ai9m66Q2GDoMetg+5mrudBUFSu67C7uIjrO97Qqbe65oazOkXcUGmJSzpc58z21xbNcXHH66PPva3v/a73+wfe9/2VE8eftPb+03xw99VyR7tS0abNnWe6s8iFtPUz7VY9uCr7+KefPs5g/DDyTMn7sFr98EwQartAsLSLW9LroeqFXFidBRgIT9XLgUDw6vv7Pt/ZatpvjZUEPn72hz/pZ6T2csrSvWiUQJANqw2zLaH2X8oEACDFqfokCCT71JF3bXa9AKFAgKReIUCmm9YC5ApDBajT03gB6hXWykTeJLS3vYGk2QkgM8FpINfeY6DONG+F9dpHZnKUwVAfvvgFGpo/rxw9YlQ5pZxWVdqKiDg9tdwWB50augbjpAOOc6yT7bfPYScr5ETLk1McY8EKnu+LSqONMEppivK6cc9vIKzwJzExZu5nmap87w5y6nrwYCiJoI5RkCQiVcwzb/jJpxy7/0QA");
 
 export default RadioTuner;

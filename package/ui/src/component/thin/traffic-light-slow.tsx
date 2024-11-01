@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `traffic-light-slow` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-light-slow?s=thin traffic-light-slow}
  * @preview ![traffic-light-slow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/traffic-light-slow.svg)
  */
-const TrafficLightSlow: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M256 16c26.5 0 48 21.5 48 48l0 288c0 79.5-64.5 144-144 144S16 431.5 16 352L16 64c0-26.5 21.5-48 48-48l192 0zM64 0C28.7 0 0 28.7 0 64L0 352c0 88.4 71.6 160 160 160s160-71.6 160-160l0-288c0-35.3-28.7-64-64-64L64 0zm96 432a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm0-96a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm40-80a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zm-96 0a56 56 0 1 0 112 0 56 56 0 1 0 -112 0zm56-96a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm0-96a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0 176a16 16 0 1 0 0 32 16 16 0 1 0 0-32z" />
-    </Icon>
-);
+const TrafficLightSlow = createIcon("traffic-light-slow", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABpAAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iCYQsGAAE2AiQDCAQgBYMtBzkbagXIhocHvf86N8kHnCG0sCqVFDPliq31Jq55/mmLBMkSG0rWlz7IGiSicAIllOUtMLCJ4ha33RwRD40REifIYk8HKSO5OilwYfjS+EaXc0mkKYBoBMCiHVvWeenL+DKiKD1OFNYgIBaDXCBFil4B5koFemVyZDLBl1Eqif/AnACiXHy3BGSowYW4FpCBRFWWdXbWxUlVNWV12fb8puo9b2+LuLwriZvmPrf0jfkvDE7j2o4rR9Rsv23kEnpXp9Z7857f9sGCF3fsdM3oe4ZX77qj+5qea0fc3nV151VD4zZsrrFhd47MM9jwHQa7bfiGWWB3DsPu6gXs9hHSjN13zAzXueP4J13WennblR1XtA++p/Ge7wYVhxRKD078lN1prve0C15++YLTenPp7k8nvvRiw01NNFXnYklRLMmZURTrctVNTTe9tO+D+z1y6aWP7MeVfvz7n3/+/tFoxIbyMbNmjSlX3q/hwRdffLBhuBn7Xgg/9GV9/ZdOGYjrznls46P7Nsz9rbImAV8/88Pfqo+VXoqFyT2olIAgHVsaa684BWKhAAAkcYrBRAbB7BeoArKu1hUChGo6UaJctSjVo1GUqTZGVKbfNOtBbItDwsiq0K32JqJEreNFqenOFmVaPSoqM9eb4XKtkQKmHazs/4V5lg+BZePySeMn5rPz1azGAWtW2z0nP4yPPEVWjcJzHeJYxzjJwQ5yuJMGvBOsi53saMu3GMv8UG6S8SbKzZZfLjzFtqPhE5zo8GXX9VHmyJ+nRzplu/EoTCVik5OlJBIiaX7VfePg1TvugwI=");
 
 export default TrafficLightSlow;

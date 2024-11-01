@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hospital-user` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hospital-user?s=light hospital-user}
  * @preview ![hospital-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hospital-user.svg)
  */
-const HospitalUser: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l192 0c3.2 0 6.4-.2 9.5-.7c-5.5-9.2-8.9-19.9-9.4-31.3c0 0 0 0-.1 0L64 480c-17.7 0-32-14.3-32-32l0-32 112 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L32 384l0-64 112 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L32 288 32 64c0-17.7 14.3-32 32-32l192 0c17.7 0 32 14.3 32 32l0 272 0 57.4c9.2-10.2 20-18.9 32-25.6l0-31.8 0-64.2L320 64c0-35.3-28.7-64-64-64L64 0zm80 80c-13.3 0-24 10.7-24 24l0 16-16 0c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l16 0 0 16c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-16 16 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-16 0 0-16c0-13.3-10.7-24-24-24l-32 0zm8 56l0-24 16 0 0 24c0 8.8 7.2 16 16 16l24 0 0 16-24 0c-8.8 0-16 7.2-16 16l0 24-16 0 0-24c0-8.8-7.2-16-16-16l-24 0 0-16 24 0c8.8 0 16-7.2 16-16zM384 272a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm128 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM320 477.1c0-33.7 27.4-61.1 61.1-61.1l101.8 0c33.7 0 61.1 27.4 61.1 61.1c0 1.6-1.3 2.9-2.9 2.9l-218.2 0c-1.6 0-2.9-1.3-2.9-2.9zM381.1 384c-51.4 0-93.1 41.7-93.1 93.1c0 19.3 15.6 34.9 34.9 34.9l218.2 0c19.3 0 34.9-15.6 34.9-34.9c0-51.4-41.7-93.1-93.1-93.1L432 384l-50.9 0z" />
-    </Icon>
-);
+const HospitalUser = createIcon("hospital-user", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABvQAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSEAwsGAAE2AiQDCAQgBYMtBzQbBwbIHgfVrTvGkYM4YOGQfoYXEg//v9+3fe57Y6pJkOqeyJCo06CprT4h4qv/0FDLk/+hXN79O3lVTmFu5GZolDd4roelrWBW+27imudPT09RGrWNYGgd2lgeVTqBAUd5a+NoNpzNaAI8dVPy6CFInjLKKKJFynbsLx7PtpDHZ0zjkx5xnnGjv2n816GDJM8AIOoBgF0nYsPh9kt8iXguRhTsAQJiNwD6ITJk6IZgDVegG08/kMsFX6JYLP+B/SCAKAX+8ARyVOA7/gNykJTlvAiLQWmNSistkfISaAlJ3RjH2NHkxKzlrimNfo0p7VZsRYJ96lOISHFaY0qdaLBVY5puzVCbhBQQD8yRU+es9szIsY12wEoU6pEpDWpbB4OcMyMRGgixct1TA1GJE6p9iO+cO/7J2LbpptaMyYbZljZ97nXucaq76HnmfWEQ92QKY9+cxqblrlYLIdiHiYcfCOu2qE3S8sRpXLLacyODW4q9/4GCBTverjQANFRuQmVDw8qtkp2D4J3a6z21TIm/2tq/ywLU/DfVePMUPP109EOA92jcgQPRavWgIPx+UDtUTzGq3+i42s4kBWiSfWl3gX+1hTbt9zWK6uuLiEg3JdmVldmSo98+V8DNS0aoyLgfsszn7MVdHpfKZ2froMKjBHO7F5cABIKDK2t1F+Rr2+VVHIBvL95WTy6+Szs5W0C5BIJsujgtLe0EAIoIRFJUgZHzQYHkvTJ81Wr3BQiVCJCUqhQg00UBQa7SFAQlerlCUKrSEVyRiyE0S7/ppNoVOrOqkc41O6BLrLkLl2qOLNM1ear50cwYZoHQSWzBzoF5sWWeapNX1fq92bZzvKrWWWIjZClWpEKmDLkqDFwmPFapUJgHhfoixpEdB4wXFi49GhNMuEy53Lk+Po439rzXQpXf2hIeDipdlJUkIkkPjsn2iAAAAA==");
 
 export default HospitalUser;

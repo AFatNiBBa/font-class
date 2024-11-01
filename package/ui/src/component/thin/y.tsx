@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `y` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/y?s=thin y}
  * @preview ![y](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/y.svg)
  */
-const Y: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M14.4 35.2c-2.6-3.5-7.6-4.3-11.2-1.7s-4.3 7.6-1.7 11.2L184 290.6 184 472c0 4.4 3.6 8 8 8s8-3.6 8-8l0-181.4L382.4 44.8c2.6-3.5 1.9-8.6-1.7-11.2s-8.6-1.9-11.2 1.7L192 274.6 14.4 35.2z" />
-    </Icon>
-);
+const Y = createIcon("y", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABSgAAAHDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKdHcLBgABNgIkAwgEIAWDLQcoG28EyJ4FTtktgktYI3QhhPb3ew2fygiqNbJndx8IFSpUgMIRCxtgF2GigGScfCO+YlEBnx8c89+trHR2iwqroKKNuiwKsMBHa/72S5W5A3TB/U1/87VxHgX4kDIbCzvfuM6zPTiBzvMu35ZIUWBfFL9104milGhKXnSSlra8hq0VSjzRICa9TsGz9NH4SOkESc4Aoh0AbB4WC/iLm4jr6gtxLQcCYgswjpCRMYzACqHAMJFxUBTBDVVl/wMZAoha+c4ECjLGwRSAApIopb+ppqUc+Pc3nr7oPveUCfG859ZHcRi33mt3iSqT9/b754mtpO8W6zH975svydWV5Ov7jW+nHn989fwKEAjeH2sOl/Lot/qmBD749be5WF3F0wTUSyDIc9WcauwIdC86Q4/71HAgJP2FGE9t9gKB0IgASa1GAbIhCgSKRrMI1BjlQ6BWo11CURqEbrUGkma3QLZsDYpub1Bjxb9RqzvyG6E1TH/REpISTYyxy+7kMA9dlVE7GdoRnhaNK5cyYREtYyMLTQ1dC4HPFOyloSTDEn6Iudg5sTBeDu7nK5pm5rrGRnFIBO+XjFa82IRpBID524WSHikeAQA=");
 
 export default Y;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `2` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/2?s=solid 2}
  * @preview ![2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/2.svg)
  */
-const $2: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M142.9 96c-21.5 0-42.2 8.5-57.4 23.8L54.6 150.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L40.2 74.5C67.5 47.3 104.4 32 142.9 32C223 32 288 97 288 177.1c0 38.5-15.3 75.4-42.5 102.6L109.3 416 288 416c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9L200.2 234.5c15.2-15.2 23.8-35.9 23.8-57.4c0-44.8-36.3-81.1-81.1-81.1z" />
-    </Icon>
-);
+const $2 = createIcon("2", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABWgAAAHuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBJwsGAAE2AiQDCAQgBYMtBygbnwTIjpQu7hJBMFdVneQAOLfqgFExsSJ2yI/CoEVFbrIWfH/+z/V8aaMBfpIpRuG0QKLAOngCE50nHt3zssOzE8Xbm8YsitqbTGoyPR092fG1QRYT0p2KkZxLvsGR/KHxu1p2kiiVAoiKAOg9ZsRwr36JXyK+FhBfDUVA9Aa5QIoUdQXoJhWoK5Mjkwl+iUKB/gNzAoji+JYJyJCiM3oCMpCILGtdpli5bHR87NIT9jdqFCdL769+OrbVaBovB77v/rzh1W4jo0wcqHbK1qonS5eNa7XP1xgTtxtcbnKrQ9Gtirf+bPjN7G8cnlK05idny5U7u69cuX1/uvngx7V76pXZv3ePx8rv3Vse706v7dN/fvHcnIjZsysCgeCPBwfHT6nQ7Z+SZRLw25O//y8XCxeKXsktlJSAIG1WaGZirFZwJsXZvlitKHrBFwUSrSX4Xcs6LUAojQCJ4koLkKqjogCZ0poKUEx97QUorrQRUpGVEqqa1ECirGUg1cEmkKnqMSimm49GcVUj9R325dmvW9IACfVfylu3aJV3yaeByrkDnYZd82W50epQaAyrZltisZVmmWmelYJcbri9yiIDNKK/H8q11kIruS5yc3zvH22W5VZIeszb53SV79cbWa3XNwb+gtRt/JBIUEmiDQ==");
 
 export default $2;

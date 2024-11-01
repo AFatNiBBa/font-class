@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `headset` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/headset?s=solid headset}
  * @preview ![headset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/headset.svg)
  */
-const Headset: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48C141.1 48 48 141.1 48 256l0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-40C0 114.6 114.6 0 256 0S512 114.6 512 256l0 144.1c0 48.6-39.4 88-88.1 88L313.6 488c-8.3 14.3-23.8 24-41.6 24l-32 0c-26.5 0-48-21.5-48-48s21.5-48 48-48l32 0c17.8 0 33.3 9.7 41.6 24l110.4 .1c22.1 0 40-17.9 40-40L464 256c0-114.9-93.1-208-208-208zM144 208l16 0c17.7 0 32 14.3 32 32l0 112c0 17.7-14.3 32-32 32l-16 0c-35.3 0-64-28.7-64-64l0-48c0-35.3 28.7-64 64-64zm224 0c35.3 0 64 28.7 64 64l0 48c0 35.3-28.7 64-64 64l-16 0c-17.7 0-32-14.3-32-32l0-112c0-17.7 14.3-32 32-32l16 0z" />
-    </Icon>
-);
+const Headset = createIcon("headset", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABhAAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCNAsGAAE2AiQDCAQgBYMtBy4bMgXIjsK2eXNkCJIhXxg8WPHw/drruXffBoB9olAhqbCRJckyrlVloX6VrLBlW9mpXv//5dD7Av3I0w/sSfBmudKaYenp2vm/pl48PzrA7yd+aFGWyZG0N8r2CUwssHygbQOb6QRs5jZixQuirIhMGeKPoS1UL1DiXLABNflB4CNexw+NvyY1QOqsABADAGD3LtQfN+/0K+JDc0h8dQ4CYhfAAkKFCjMIbBAUmCFkARRF8Iuaxv0Hcggg2sB3mKCgxlNwD6CAVBUhtyl1JiwlFMFqidifQRRfr0HvtZfUif7s3wd+ifzl/8njNhz0WX/FWqK7X4KWlIfUx1WG9RgtqjFql+OI6Pfl94gw1sXalQYhXikOSOw0GK6pE40braO8aEC0qoZTWX8FUFtERLW4VcY0W7JrfzU+ZnxE031HLWhRpD6ULoKV9IHjCbXeWj/4qe1VU4XfG5T7FvcC/N7hMP/2SbD69M2cY+d3AeS+nMn1IO7W1iLpwbQs16RbWqSLkIiyZuTkJMxJSDPvxQCwJouFqwGB4F+yXkKizMZ/MSYA+HP273/+GWluUrZAhwRBtdQYi0uQBAAgowKaCQTSE4L4XXu8RYDQhQCpTZcAlWmyCBRdFhGozbFBoE2XK4KiiCOMiK8g9XgEKusqQTFiH9Q2PMdtRkLQBBkDYj6Aib4a9dnGLUzNuSMftghrVZRfdeLbsn4FRgzoIDIUKlAmXZpsZQov4Z+Vy+c7w3x8EWfBlDnOEb/u3u6OkK5EqWyFCsImTvh7X1/FfLoBaQKYdFlTSiJF7dQpTS8DAAA=");
 
 export default Headset;

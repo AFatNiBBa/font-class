@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-meh-blank` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-meh-blank?s=sharp-duotone-solid face-meh-blank}
  * @preview ![face-meh-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-meh-blank.svg)
  */
-const FaceMehBlank: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm144.4-48c0-17.7 14.3-32 32-32c8.8 0 16.8 3.6 22.6 9.4c2.9 2.9 5.2 6.3 6.9 10.2c.8 1.9 1.4 3.9 1.9 6c.2 1 .4 2.1 .5 3.2c.1 .5 .1 1.1 .1 1.6s0 1 0 1.8c0 .5 0 1 0 1.5s-.1 1.1-.1 1.6c-.1 1.1-.3 2.1-.5 3.2c-.4 2.1-1.1 4.1-1.9 6c-1.6 3.8-4 7.3-6.9 10.2c-5.8 5.8-13.8 9.4-22.6 9.4c-17.7 0-32-14.3-32-32zm224 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M176.4 240a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceMehBlank = createIcon("face-meh-blank", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABmgAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCUQsIAAE2AiQDCgQgBYMtB1gbewXIhof/9pO8b+YnC0B/gVERgQNCtxqLqgoAdE4lq+rM/zX1go6uAT8d4aFULgskkjufT2CA0ZY+oQnNcDOwLW67GWIa0kdIPKGIn/NFFdKz9C3uhP8DGH/p5CJJowwgWgJg5qplC3xYi1qKb+vvE9+aj4CYBUqBjIyuAkyRBboqlCgUglqq16lFvV4SQFSFX0MGVTTANTwAFCBJclG0adNlaJsmlWbFyiaVxqtudIh4EufaP258ve3Dto/aPWrSZEzEbzOjHy34bn7Noh9mf7Lq91kfL/xels//dsaHy1c9OSjM+to9SrhnnY1zcRY7R6ggvodtsbC3ov3j9k3Oto1ohTOyuEavFy1f/NPz253feuuH5le52rwQBNQMaTbm+fgGH5rbiE7vfTR79kfvdWpkrmoU8TvDmx2Hmu0a0zdypEAkmKiUQqTUZ8xjZu32ATdLr7wOBILvvtjUfVOLKf83bJLAHx/892f1Q1L/MEkv0FACQR5SH2J9AokAAKQ4qVfiLgLZOln8rk09FiA0RoCkqrEAWRctBSg0NliAiu7GClDV2DJZFI2EtjZ0IGnqCMjGOQUKbb0HKqb4Il3VNjJEKvCk/BBmzhuic1eVI4eNKCeVqw2NCmSSXZxcHvYNOCkHBuKLdjrkoON22G6P4wP2qAW5Ew6Yt4XP9UGlkYYZoTRJebn99PRKOxx1zB6HHAyWmax8PjXAye3xA3EwiXlH2ZJlIkVu7+EzQw/s2D30I3UNhe5RHed0rwwA");
 
 export default FaceMehBlank;

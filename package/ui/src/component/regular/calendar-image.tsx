@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-image` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-image?s=regular calendar-image}
  * @preview ![calendar-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/calendar-image.svg)
  */
-const CalendarImage: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L64 64C28.7 64 0 92.7 0 128l0 16 0 48L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-48 0-16c0-35.3-28.7-64-64-64l-40 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L152 64l0-40zM48 192l352 0 0 256c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256zm99.2 136.7L99.8 390.2c-8.1 10.5-.6 25.8 12.7 25.8l226.4 0c12.6 0 20.3-13.9 13.5-24.6L268.9 260.3c-6.1-9.7-20.1-9.9-26.7-.5L184 344l-11.4-15.1c-6.4-8.5-19-8.5-25.5-.2zM128 288a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const CalendarImage = createIcon("calendar-image", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCJgsGAAE2AiQDCAQgBYMtBzUbKwXIjtRG+UVWEkG9zc+etyvVv8+4x8TmDAEyR8qMSaC61HZop6ra96lTOZfzUADfQha0sXBNkGygOTrOK1DAlhZPXMC1gtW0AlZrZ5+iyHeLQULhk2F7wygnyOPteEGJ9Gb6C8/zh8bf+jxCUsoARCsAVh/cu12lGtWIP2uIP21FQKwGhUCGDIMCLJMJDMoVyOWCatRq9j+wIIAow50TyFHGPbgPkIMkz/N5Tf0dDaWm/IDfXn/0rQmf9Ir6+GTSF+aoSPHm5C/HN8XnU78eyALuW1O+mlBPtOj5sa+psSnFK52N8Vp3tn/V2lWvdL3a1RCv97zefSBeq3+qc190x2udM57uiXg9Huxu9Vc8sPCShjFftX717+i/Lvzl9c+7du/ummSSD9ra6lvNQn1b2werGAK3EkyJYi+YdPHzU9hIc3WVarMzT/yDWw8tXPjBLS8sWLhpz0M21NUdWLzXd/76a1LzEzzRnDIWC8R1Pz9//ueTLcv+q2tI4NYv/xd/RbVKVNJXqJNAkE2rTXMsKhAVAQBIcY8xUUEguSFn3rXRawKEegRIyuoFyAxoFSBXb6oAJcPmC1BWb69M5KOETscLSBrdDjIL3AtynX4GJcv86pZ1RqZ7lOZQL7/4DTW8fl0xe8asYkkxzGRanYiwvLQQC5PucZ3JdNAFN91wl/POueyuCr3D9uBu122YIet9UWG2GWYpLFFsl/e7DzjvDne67KYbcZWlivPOJPfMxyeTnAB3jkSSiNR8M+m/OwAAAA==");
 
 export default CalendarImage;

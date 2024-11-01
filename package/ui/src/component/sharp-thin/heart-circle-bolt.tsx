@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-bolt` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-bolt?s=sharp-thin heart-circle-bolt}
  * @preview ![heart-circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/heart-circle-bolt.svg)
  */
-const HeartCircleBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 118.6l-11.3-11.3L220.5 83.1C198 60.6 167.5 48 135.8 48C69.6 48 16 101.6 16 167.8c0 31.8 12.6 62.2 35.1 84.7l24.2 24.2L256 457.4l16-16c2.3 5.1 4.9 10.1 7.7 14.9l-12.4 12.4L256 480l-11.3-11.3L64 288 39.8 263.8C14.3 238.3 0 203.8 0 167.8C0 92.8 60.8 32 135.8 32c36 0 70.5 14.3 96 39.8l12.9 12.9L256 96l11.3-11.3 12.9-12.9c25.5-25.5 60-39.8 96-39.8C451.2 32 512 92.8 512 167.8c0 13.8-2.1 27.4-6.2 40.4c-4.8-2.2-9.8-4.3-14.9-6.1c3.3-11 5-22.6 5-34.3C496 101.6 442.4 48 376.2 48c-31.8 0-62.2 12.6-84.7 35.1l-24.2 24.2L256 118.6zM432 496a128 128 0 1 0 0-256 128 128 0 1 0 0 256zm0-272a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm24.8 56.8l-5 24.8L444.2 344l51.8 0 20 0-14.5 13.8-84 80-18.3 17.5 5-24.8 7.7-38.4L360 392l-20 0 14.5-13.8 84-80 18.3-17.5zM380 376l41.6 0 9.8 0-1.9 9.6-4.6 23.2L476 360l-41.6 0-9.8 0 1.9-9.6 4.6-23.2L380 376z" />
-    </Icon>
-);
+const HeartCircleBolt = createIcon("heart-circle-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABpwAAAKrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDFwsGAAE2AiQDCAQgBYMtBzgbnwVRlM3JDNlHYhwTeRYzByq3EVBrZc/sPmGI9j8AwA5doqg8szoXLE9gUUWfAev8G/T/sxLcoIQqtfKrW54TUeW/P5WTnIcWyONEPGhrd9nmDO8YS6DnBS79eKdN79WLtYpidVOxhz2kJV8Zxa2diOw4Zccz2B7S8Mk6BcRL8R3O9g8NvzRzgihJAIRqAIxeOHe63PfwPYS3+ceEt6YiQBgNMgEJErQUwDCJgJZSGVKpwPeQz/N/YEYAQiG8XQQpinAbTwEpiBLclJMyGHQykktzyiRX1FCr1C480r/YzTqOO1GCBh2VEkqoUca23D5NPjP/uAqCacS5425jtF31CJNEBOWAstZ2A1v3Fk3XprCilmPFEoxzXSLZ7fCaf/buCcazC51uFbn4Dmj6j9ErGdQatEaQpBJFOGCABSKRBhW4i6RokdWicEIakPWh/kb1jT917za8k5+0xZMO6i2rqYkaHPToobyOE9654YZHjxy0sahk/YJzuw60a71zYNe5BetLGs1Zs2dUTaypydSddvPuobY5cq0q6usrWuVybVUbo6o7RmLvug4d6nrH2JHaKHFmEmL269fwi7kzZSY6IPif11RPW9GlS98SE2S6lDQzQAYEBE78fv9gZdWw/8VkBD9f/PtlXJzPxVHxBopFEEi65btZFkcBcwMQxHBAvfFFAdFlBZAvdz4aBaVMiAqVQqKFakiV6goFWusvOo25LjakJfINLS8QldsNiQGOQ6qhh1BgmJd+oYYhyVk54+RPxowJmhi/Levdo1c2JLttO5Q0FGV9aOZOdjpQxzpTrA122mGf9dbZbJ+i9pge7bfdBIsc74cyvfXQS2aILNz7aixQwR57bd4r8U0MlT2f7+SAPbszZSII9lETRUKseW2c7n/3+N3X7Ny2DwAAAA==");
 
 export default HeartCircleBolt;

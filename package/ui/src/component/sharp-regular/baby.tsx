@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `baby` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baby?s=sharp-regular baby}
  * @preview ![baby](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/baby.svg)
  */
-const Baby: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 112a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM224 0a80 80 0 1 1 0 160A80 80 0 1 1 224 0zM96 101.5l17 17 28.3 28.3L186.5 192l75 0 45.3-45.3L335 118.5l17-17 17 17L425.5 175l17 17-17 17-28.3 28.3L336 298.5l0 1.3 44.4 63.5 11.8 16.9 7.1 10.2-4.2 11.7-7 19.5-24 67.2-8.1 22.6-22.6-8.1-75.3-26.9-22.6-8.1 8.1-22.6 12.9-36.1-6.7-9.6-51.8 0-6.7 9.6 12.9 36.1 8.1 22.6-22.6 8.1-75.3 26.9-22.6 8.1-8.1-22.6-24-67.2-7-19.5-4.2-11.7 7.1-10.2 11.9-16.9L112 299.8l0-1.3L50.7 237.3 22.5 209l-17-17 17-17L79 118.5l17-17zM84.7 203.3l64 64 4.3 4.3 7 7 0 9.4 128 0 0-9.4 7-7 4.3-4.3 64-64L374.6 192 352 169.4l-11.3 11.3L288.4 233l-7 7-9.9 0-94.9 0-9.9 0-7-7-52.3-52.3L96 169.4 73.4 192l11.3 11.3zM305.8 340.4l-24.2 21.2 .4 .6 21 30 7.1 10.2L306 414.1l-9 25.1L327.1 450l15.9-44.6 2.8-7.8-4.7-6.8-35.3-50.4zM166.4 361.6l-24.2-21.2-35.3 50.4-4.7 6.8 2.8 7.8L120.9 450 151 439.2l-9-25.1-4.2-11.7 7.1-10.2 21-30 .4-.6z" />
-    </Icon>
-);
+const Baby = createIcon("baby", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABsgAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCEAAsGAAE2AiQDCAQgBYMtBysb+wXIHoVxjGwSEfe/GR7LDYgaIUknwYOd9PM2mxygPUoVnRzASqjJb9RCy6I5jG7DpP6OSqKLhYJXRmvUCEF1u+WfCDK/QDNJK4GfKotLIb6LU89zHgrgGwVtD835WhQas93nFeh5ddoUC1eooNTzKjUq6qbkaQ9RfD2CdkXKJv/Kjm8vSONynJUnuZh8izPtreJv9Rwkkc8BiKoBwNDZ0yf68I/4I+Kbt0+Ib4xHQAwNyARyuNJQgAFyAr8glSGVCv6It1X/AzMCiIL+EyUgRVn8gX8AKUgU0rTG8I64TgW1UjqrqeXnL5h4PvbV3ssfr7naW2urEE86nh2OHk+nq/PdO9tWbdtGx47BarXSplQorIQYioIA4kRkbhnOh1hRk4tKnBLMjUEwbiHGNJVK7VDn1GlTa4mQEBUiog7sgFWAFWCVr22HFODUpm4TYttTTsqHl4k525XthjQeqpw/cFtNbNar9n+bfrv0W79PrvxxtHJJ8uvf0uzZpQ/xDfYswTt+Md633gFHwDe+E9533wr9LVJnmKJlxtUXljnkkbl6WOETRbONry/MVlRnmEXG2+aG74XvvAO2UH5x1dselipnr3KW6uGtl5a6ZThDXzFX/pYWX/5ytFgsMvHgFUf95JVWRml2opbFNxtTtPLKT47qb4WJAIHg/dW7Bz9V2r+snYC/Xv7/P2RChbefd5KbKCsBQa5DdbAgfgX5eEcAAJIoRTPngIHED16aXdG5aD6UR6iuQJRATgNVIVVee8hrrCexeXy6nEjLCTUtBCQq2gA5veyCVE2PIG+AL9yCmiEnOpWm1G9m/ChGRu7Lmk5dsn7ZZWnQuUuU7f7Ztl6UdNQWVy21zlqbLbHYCpsJ22hiULTGKA8d6YMyXXXSRaafLNw887PI3WiTFTYb36W/7H67jZK/uC2sRMftppBIiCT9FgEAAA==");
 
 export default Baby;

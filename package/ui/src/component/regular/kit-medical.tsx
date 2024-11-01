@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kit-medical` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kit-medical?s=regular kit-medical}
  * @preview ![kit-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/kit-medical.svg)
  */
-const KitMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M144 432l288 0 0-352L144 80l0 352zm-48 0L96 80 64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l32 0zM64 32l32 0 24 0 24 0 288 0 24 0 24 0 32 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64l-32 0-24 0-24 0-288 0-24 0-24 0-32 0c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32zM480 432l32 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16l-32 0 0 352zM256 176c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" />
-    </Icon>
-);
+const KitMedical = createIcon("kit-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABfQAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCFAsGAAE2AiQDCAQgBYMtBzIbFgXIhof/Xwu9789sYCYMP0SkgMnFxQNQSQKpuKJwuKcWVWt34lznOx/NpmUjGFqHtsU/eCamwIukRdMLRYFNFH93ttEc0C4liYzk+FaOywHK+DluaJAepp9wPf1o/KmvaySNAkB0AcCSrRs3eN+MZsSPrc+JH61DQCwBWaBAgQECzFcIDFDKKJWCZrRa9B+YCSDa4HdMoERbnMYlQAmSRlm279iv4+i60bHcUjeqrR07dCyiQ6SqSEUVd3qkuNuz3lFXHd+O+ahvigejPxxedXg39uN+RTwe98mow3VV3+9dxL1eVaQt93vXq45A+E6PKuB7vSIocUUM/bjLx38P+enIT653zga/T7Zv8r7NsmanxTo18+DrOb9/0bVrtViFQy/yiyo+H6t5JbLv91aOm50mm2zFPKBK2f52EAiOLB/Qb2/n+f+1qxP445t//xeubjXT4vQx2kkgKMa3xtuVFgMRA0hSXDFUyFggOawBfK8d3BMgVAiQtFEJUOiviwClyjgBGgaZIUAblY0KUbYXethdkaSD80hhpqtIqYdPkYb5vk3a6BGFyjEKw3z4Ele2wIpZecrEyXlunhYUVosoPzgvb5ujr7iGMbDWEWedcclhhxx3qYEu2JC/7LSVErhChrIpJposmysfl++Xb3HYBRcdd9aZOM08+b472hW5/RhwEiadam6SiFSfPH5pwvsDAA==");
 
 export default KitMedical;

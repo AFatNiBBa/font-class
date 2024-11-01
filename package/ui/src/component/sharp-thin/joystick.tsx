@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `joystick` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/joystick?s=sharp-thin joystick}
  * @preview ![joystick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/joystick.svg)
  */
-const Joystick: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M320 112a96 96 0 1 0 -192 0 96 96 0 1 0 192 0zm16 0c0 59.2-45.9 107.6-104 111.7L232 352l200 0 16 0 0 16 0 128 0 16-16 0L16 512 0 512l0-16L0 368l0-16 16 0 200 0 0-128.3c-58.1-4.1-104-52.6-104-111.7C112 50.1 162.1 0 224 0s112 50.1 112 112zM64 304l8 0 48 0 8 0 0 16-8 0-48 0-8 0 0-16zM432 496l0-128L16 368l0 128 416 0zM192 80a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm16 32a32 32 0 1 1 0-64 32 32 0 1 1 0 64z" />
-    </Icon>
-);
+const Joystick = createIcon("joystick", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABgwAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCLwsGAAE2AiQDCAQgBYMtBy8bLgXIjtMF98RTNomHD53l+5Ls8UqmI9YhQIDZG8KKqMxcFUAoWk9agvZscyOuRHqjhk9nsHwTM1Onnuc8FMC3DIKYBMfGpQFZ4HOeRyDAs61vsU0tWLWCVmunN5wkuk3Sp0gyjJ9hsYcsnnWuCsnTyQ94rHxo/GqEu0mkKYBoA2D90YO7fdKNbsT3vSK+txMBsR6UAilSjBZglVRgtEyJTCboRq+H/8CSAKKKb5CADDXcjH5ABhLVLBs1va+vb1BRaWRHikp+Qf9IxDNTTv7gpDW86Yzok3fx0NQ7akTx3DTEy4soikIIkdfD0fpKI96akWPnzL+0pr8xUuSFyPM4K0Q9ROPkx4fEMB+qg/nBoYgnon9YFA8NMZ3Bmk843s7fx/9w/g/W7h35JV+eeumIEZee+uWXI+HBIe36z/z0ecc37baOtvYr9axvOj7/+ad668Sff/3154lW6+NabV1bbVn7io87HHtJx0t/vtjsdpuRqte8n/ubzfvRQJxWf+mq/We0Vv1fKxLwy3t//spf3PsEnyTHUZOAIJ3Vm+XU+ARADOAnJXG9CfEJAomrVfFV654QIOQIkKjKBUiN0hYgk5spQMVYiwWoyh2UiqxPGOy0DhJ1V4HUEreBzGCvg4pVvraqBkdqf7z18N+/lC0a2jxUzp8zr1xRTj1NMCk2dVeW2+q060Nmuux0vitc7lrnOddFrlXI1Xa717nMlhW82ReV5ptjntIK5XH4uPmI81ztGhe5wuW5z0rlfXOa69fl08VIkHSB0URCJLWLr7jpmvcFAAAA");
 
 export default Joystick;

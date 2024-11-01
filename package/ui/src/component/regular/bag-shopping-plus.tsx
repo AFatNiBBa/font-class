@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bag-shopping-plus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bag-shopping-plus?s=regular bag-shopping-plus}
  * @preview ![bag-shopping-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bag-shopping-plus.svg)
  */
-const BagShoppingPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 112l0 48 128 0 0-48c0-35.3-28.7-64-64-64s-64 28.7-64 64zm-48 48l0-48C112 50.1 162.1 0 224 0s112 50.1 112 112l0 48 64 0c26.5 0 48 21.5 48 48l0 208c0 53-43 96-96 96L96 512c-53 0-96-43-96-96L0 208c0-26.5 21.5-48 48-48l64 0zM48 416c0 26.5 21.5 48 48 48l256 0c26.5 0 48-21.5 48-48l0-208L48 208l0 208zm72-80c0-13.3 10.7-24 24-24l56 0 0-56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 56 56 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-56 0 0 56c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-56-56 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const BagShoppingPlus = createIcon("bag-shopping-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgQAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCHAsGAAE2AiQDCAQgBYMtBzgbJAXIHgfOqS+edYczyVO043lCZ/m+JHv25D1kHSGFkHsgcEqgyl0Apw+3mSuTMu4HGHh/8T7/13x+aUcHWOSH1qEHUn4YtajnExjgp4WlTygKbKYTsL1tmJREGN4ICZSIxrMxO0OVl/OEFsWLxQ94vH9o/jHRYxRaJYCMAMCOM089ovdn/ky+739KvncIgewAjaBEiSkCNisFU1QaVCrhz/T75T+wIUDa5AELUKGNW3AXoAKFqqpGzBs1o9MaWp3RadXnik6SlxZ2574z/4MJmyOvL/po3acLPpwqnbw79tmJ8sr8D1YP5rOF3WnJy+Ofn9c57cWxybNzhuZ9BZ6cDMaZL8/rJEmsdydKJ6wXZtcR1nuTkjrgmd0R3ZMzfrjiB68fU/IPWa4eOfKNN6pX9/X+w/+vWW675b/+WP5ioNt9iIcQMPCL8sdfl2/f1s8uZDFBF/ll37GxJ9ZbD/ETY/H1KvXlQBCePtn65EI2/zvQKcDfX/3HPyP9XnpFFwMKEMrF/cXOSw/SEwBAkTvMTA9B4RoVudZBzwmIGgGFtlpAabIRAiq1RQJaplkjoK12qlKqIWKM8ydVGHQzVVrrfqoyxsdUy2Zfx21jUoadGDTipy9tL0J7VjUrli5vNjZmYUiRxLfFTc22N/8OGlgAO13hRje4zeUuc7XbFHmLI9ntrrfXI/b4osYKSy3X2Kg5rl83n+Fyt7jV1W50Ay+zSXM/mu8Of/wCCAvCudLaQkGKkZdcfOWSZ6oviVwA");
 
 export default BagShoppingPlus;

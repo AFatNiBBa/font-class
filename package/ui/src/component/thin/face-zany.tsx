@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-zany` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-zany?s=thin face-zany}
  * @preview ![face-zany](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-zany.svg)
  */
-const FaceZany: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16C123.5 16 16 123.5 16 256c0 99.6 60.7 185 147.1 221.4c4.1 1.7 6 6.4 4.3 10.5s-6.4 6-10.5 4.3C64.7 453.4 0 362.3 0 256C0 114.6 114.6 0 256 0S512 114.6 512 256c0 106.3-64.7 197.4-156.9 236.1c-4.1 1.7-8.8-.2-10.5-4.3s.2-8.8 4.3-10.5C435.3 441 496 355.6 496 256C496 123.5 388.5 16 256 16zM184 409.9c0-23.2 18.8-41.9 41.9-41.9c11.1 0 21.8 4.4 29.7 12.3l.4 .4 .4-.4c7.9-7.9 18.5-12.3 29.7-12.3c23.2 0 41.9 18.8 41.9 41.9l0 30.1c0 39.8-32.2 72-72 72s-72-32.2-72-72l0-30.1zm64-14.6l-3.7-3.7c-4.9-4.9-11.5-7.6-18.3-7.6c-14.3 0-25.9 11.6-25.9 25.9l0 30.1c0 30.9 25.1 56 56 56s56-25.1 56-56l0-30.1c0-14.3-11.6-25.9-25.9-25.9c-6.9 0-13.5 2.7-18.3 7.6l-3.7 3.7 0 28.7c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-28.7zM368 152c0-27.9-20.4-51-47.1-55.3C330.1 104 336 115.3 336 128c0 22.1-17.9 40-40 40c-18.3 0-33.7-12.3-38.5-29c-1 4.2-1.5 8.5-1.5 13c0 30.9 25.1 56 56 56s56-25.1 56-56zm-128 0a72 72 0 1 1 144 0 72 72 0 1 1 -144 0zM128 272a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0-112a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm192-32a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM112 224a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm289 35.6c4.5 14 7 28.9 7 44.4c0 43.8-19.6 83.1-50.5 109.5c-3.4 2.9-8.4 2.5-11.3-.9s-2.5-8.4 .9-11.3C374.6 377.8 392 343 392 304c0-13.8-2.2-27.1-6.2-39.5c-2.2-6.9-10.9-10.5-19.2-6.2L168.9 363.8c-8.2 4.4-10.1 13.6-5.5 19.4c.7 .9 1.5 1.9 2.3 2.8c2.8 3.4 2.4 8.4-1 11.3s-8.4 2.4-11.3-1c-.9-1-1.7-2.1-2.6-3.2c-11.9-15.1-4.6-35.3 10.6-43.4L359.1 244.2c15.2-8.1 36-2.9 41.9 15.3z" />
-    </Icon>
-);
+const FaceZany = createIcon("face-zany", false, "data:font/woff2;base64,d09GMgABAAAAAAOoAAoAAAAAB5QAAANcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhViEPwsGAAE2AiQDCAQgBYMtBzAbPwZRlA1Kh+xjMY4p8opSXAvi+bz359yUCFqnEL4A77i1XkdsaJubuOb52/sDRuGfvz9KrrC0NJsyzycwwIjWUaTtfKgTsCm47YKIDdV8CIUNcJJTdMYZ1Ap1G5jn9JY3BDMZFJqGA4sfcGsqNGtUh/Mv5aXIbccRkNvUAgRAKgJgI4AGaEAYAkApGoJmJ2yI6U4IvBSH4z/QBgEAccEDFfOcAC/gG0gANBuCwsPJKS9ic1SwNw1xd0/wdPZ2ahod79HqcXWR65ki+xs/qXChyRJ9sfm04sWmzypdqnev2ZM6d5qmx+XPN1bVSy26QbOn2Qdr3mzafIIlssxzloGk51oCsjxxe+zW5J0hUs00zKUem4OQFcaSuG3WslCRlfEzdV2Q8fpSU5pNMEWWxi8JhoDFHltDFjPlZB7rSk4VnQhfXXi8+GRE422hq0JWxm8OWh68Ik6OJO1I3J57NHlnyq6CZh2cwg2NaLzMWmIs1peaHVbwuPR6Lc/FTAhZqjeWxcYS4xmmCeZM6TAvs5rJssbbR+/02/ku6nbX2zj2VaQdtPsG36hIrREjK4R2io/rUCV87x7qUy0oeMGEalRjwoLgIKpRf8/eKuEd4uI7VQgdOYJaVPz2rV27ilSbEXAKTgU45H9LEG75A6e4RuCTk/PyZWjyifif7d2gm+cAKwJXx/v+/f9/cI3AGuDZLZtwXPu3dwkf9tl4Dvey0/xP7uLCTMPV9cP/Ub7j3WJzcmLdYlq/Yes/duz11P6Z6ZGR6Zke5yKNBg0MTrjXzuflS5+PsmM6W1LpV6fKeVU2azSo9fhKD461FL+8yo2bCCKzSkq3XOnBkUuH6gCAAAJrR/t1budb+s3NUwHw+uSH3/bPCMd5hdoJuKEAENBSHam0VgAoEAAAAEDJUKIVgACKd3jgELxYimAXPKCEFS54wBqh+MFOeJACOxNBnjCxeyM0xMkdQacNhRVeDIA18hkDO6FzCHamlGsWF3TRvgNJFEu/oamqIlClnp2VnmkX271RuUxoC2Z1iT1ZnTi0kZVEh9KVfvRlMF3oTA8GAzSQOvYh9KHqELPKd22ySCcTm2LsxYmbqqZgGcggenQrltdSgr29PpGhw4WTqE7hsWYToVAgyv0ts6SN7NB3BAAA");
 
 export default FaceZany;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-circle-minus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-circle-minus?s=sharp-solid calendar-circle-minus}
  * @preview ![calendar-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/calendar-circle-minus.svg)
  */
-const CalendarCircleMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 0L96 0l0 64L0 64l0 96 448 0 0-96-96 0 0-64L288 0l0 64L160 64l0-64zm96 368c0-91.8 70.3-167.2 160-175.3l0-.7L0 192 0 512l330.8 0C285.6 480.1 256 427.5 256 368zm320 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-64 16l-16 0-128 0-16 0 0-32 16 0 128 0 16 0 0 32z" />
-    </Icon>
-);
+const CalendarCircleMinus = createIcon("calendar-circle-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABbQAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBaQsGAAE2AiQDCAQgBYMtBzwb9QTIhof/1vq8r7r/nP09y1DLjA5IcRSprA4geyKLKrEzdSrnch4K4HMiHrSxFsii+O5a5xWoaLzToj2vFSwiFfLuTTMWRfYkyaQm6fja8SVdoYwfi1uaSE+kb/Agfmn8qZtbJM0FgGgLgLmb16/0wW/xW8TXjVeJry1HQMwFWaBAgZ4CzFAI9FTKKJWC36LRoP/ATABRwyMnUKKGLdgNKEFSlmW3Dj2a602tyk1+oNpe1StRhWgVgaSH4GLrt/MjPt4ctIzUf89bo56LVtdHRTw37a3q9pQ3Rjzj2shnp75ZvzP97dHPx4KqXkXU6/o91fapv/t+c+gbT74/h0v22OODJM0Jo10zZ/fpWPgCHyyohYfmWG7wxAkj5wzO5A7tBw1q3yHnwaJBP9Ro2/Zh1vaRDASCX4f9/8XuNjP+a1FP4I+3/v07v9z4IM1JT6GFBIJiRGOEHWkOEDaANMUl/ZSJBZI1SuBPbelRAUKFAElNJUChh7YClCrDBWjS20QBairrFaJsFjraWUHS0llQmOQyKHX0Mmgyw+dpTccojIs2Dfpul7BIwgsv5bGjxuRpedgojL2Q4XR6njaGXHIrQ2HQIaedcsFBBxx1QaDnrCwuOmmRhiw0oWysUcbIpsnL/a2wCYNzzjuyr+T1c6bL+5MhLunbh4KdMOE4lSQRqdPZU0Y+xFFG/ksvngcA");
 
 export default CalendarCircleMinus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fish` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fish?s=sharp-light fish}
  * @preview ![fish](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/fish.svg)
  */
-const Fish: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M137.8 204.8l21.2 8.5L174 196c37-42.9 91.1-84 162-84c67.4 0 119.4 36.9 156.3 77.5c18.3 20.1 32.1 40.3 41.3 55.6c2.5 4 4.6 7.7 6.3 10.9c-1.8 3.2-3.9 6.9-6.3 10.9c-9.2 15.2-23 35.5-41.3 55.6C455.4 363.1 403.4 400 336 400c-71 0-125-41.1-162-84L159 298.7l-21.2 8.5L39.7 346.5l-.8-.8 37.7-75.4L83.8 256l-7.2-14.3L38.9 166.3l.8-.8 98.1 39.3zM336 432c160 0 240-176 240-176s-80-176-240-176c-84.3 0-146.4 48.9-186.3 95.1L32 128 0 160l48 96L0 352l32 32 117.7-47.1C189.6 383.1 251.7 432 336 432zm80-152a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Fish = createIcon("fish", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfQAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCGQsGAAE2AiQDCAQgBYMtBysbFAXIhuB5vaefc5MFnIWgSh9qSXRU96ZO5VzOQwF8yyAI2li4NCBjaWjO8wgEuN2+rQ14rVgrVZC7O5tjypp2kVjKkhzncjxOkMcX0UkZ0nXpTVzIbxo/aeAUSZ4BiOoAGD535mTPfhvfRrxZeoh400QExAhQCGTI0FiAQTKBxnIFcrng2yiV8D+wIIAoSx6bQI4y2IyDgBwkWZ5371ihUpkq+Zz0xIpzW7dp3SjuGfjE2Jf6P9b+tgZX1bmy9rXtbu336KiXBzzepWG0illRN+ZGvXDbnKgUs2e/MjDiia4R9zSKuCGON7y+y90DHh/z4rav05xoF7MRan/DXf0fGz33lkbXt7mx/nWtW9xe/fZfmr+55k3n/xwry33r3n3nhhVrVt/z9CetW7Vq/ckzd69eUww7t+/eb421vC1aT7TZ5rJUWN7mpe/vfY3X3+O9H/gx4ocf33vvtdfv/e6nLz/Y3UVJ16UslwwrPvjyp++mXjO9Tp3phAXiJ/n/I9svrTbon/KVEvj+8d/+qHemYel2lJdAkHUqdbIoDQMkB2Cm2KOF8UGBZLWMvGplVwsQKiJAUlZFATKNVBcgV1FHAcpoqrcAZVU0UybyCkJtiztIKtsOMn0cBrnaHgBlDPKKUVbtyJyOdRn2z5c0RsOj54ruXboVA4plqHF+RNN4YLEtt9sTS+3hqDW22mKX1VZZb5dCd5hs77bZGAsZ7YsK3XXRTWGA4jh53j/HajvstN5WW3jKQMV9vZ09dnN70BKh7CGQJCLlzwcA");
 
 export default Fish;

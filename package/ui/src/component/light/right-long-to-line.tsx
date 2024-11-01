@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `right-long-to-line` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-long-to-line?s=light right-long-to-line}
  * @preview ![right-long-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/right-long-to-line.svg)
  */
-const RightLongToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M640 80l0 352c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-352c0-8.8 7.2-16 16-16s16 7.2 16 16zM320 216L48 216c-8.8 0-16 7.2-16 16l0 48c0 8.8 7.2 16 16 16l272 0c17.7 0 32 14.3 32 32l0 49.3c0 3.7 3 6.7 6.7 6.7c1.9 0 3.7-.8 5-2.2L476.2 256 363.7 130.2c-1.3-1.4-3.1-2.2-5-2.2c-3.7 0-6.7 3-6.7 6.7l0 49.3c0 17.7-14.3 32-32 32zm192 40c0 5.2-1.9 10.1-5.3 14L387.5 403.1c-7.3 8.2-17.8 12.9-28.8 12.9c-21.4 0-38.7-17.3-38.7-38.7l0-17.3 0-32-32 0L48 328c-26.5 0-48-21.5-48-48l0-48c0-26.5 21.5-48 48-48l240 0 32 0 0-32 0-17.3c0-21.4 17.3-38.7 38.7-38.7c11 0 21.5 4.7 28.8 12.9L506.7 242c3.4 3.8 5.3 8.8 5.3 14z" />
-    </Icon>
-);
+const RightLongToLine = createIcon("right-long-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABeQAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCBQsGAAE2AiQDCAQgBYMtBzkbDgXIhocnu/86t6rfoN8fusdmRq+UM5WzdZCtUyHi/F9Obzw/OsDPR3AoY9ucRWtgNOfzBMIw7LgtuizMEkqIO5r38CCHtgttPEIRf8cQNdIz6XM85L5p/KCTayRFBhAtATBz/eqlPvw2vo34/P/XiM8tRkDMApVARkZXAabIAl0VKhQKwbfx///iP7AigGjEv7MECtSwF8cBBUhyUTTvM7hea1asq9fK0ymnx9s+2T7HUx2eaLejoVnD423FE+2axd12Tyia7nZYH+viyXIod6nt4+XaWFkTMnun/ZPhO2X5fAF1bniuw1P96/WOdBlL9ZXSWrFHr5dbvvxTz8/3fe7i8R1+Q/Nvv22+Q+JMv9nSpyx5RC2tpea3bjUfqbYitzp+XlhslVfURg7s/KB/k7nnrnm3VauXX7YOU6l+HfHlF3mE/MWXI36tKq0Myu/O+IW5TYBAsP+f8522t5jyV5N6At+//ctf2Y3pUnoZTSQQ5CH/D7ElXQJBDKCY4pxeEx8USLbK/Fdt8KQAoUSApJFSgKyLlgIUSoMFqOlurACNlFbLomgqtLW1AkmDkyAb5zwotPUKqJnio0IjbSODGgco3JVe8rwmOndTNXLYiGpSNdpS8NDDWKuTq8XqgHNyZCBOtc9xx5yx1x4HnWngpywtn3XUvClsri+qjDTMCJVJqs3du/K6hnPKaSkbFrevM1l1fDjAuenpA7GR+KSjbEkSkVr/tVd8yUI7PvSEBAAA");
 
 export default RightLongToLine;

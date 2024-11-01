@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `music-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-slash?s=sharp-duotone-solid music-slash}
  * @preview ![music-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/music-slash.svg)
  */
-const MusicSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 432c0 44.2 43 80 96 80s96-35.8 96-80l0-134.3-64-50.4 0 109.3c-10-2.9-20.8-4.6-32-4.6c-53 0-96 35.8-96 80zM192 120.2l0 6.1L315.3 222 512 163l0 129.5c-10-2.9-20.8-4.6-32-4.6c-22 0-42.2 6.2-58.4 16.5L560.1 412.1c10-12.6 15.9-27.8 15.9-44.1l0-248 0-72 0-43L534.8 17.4l-320 96L192 120.2z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L18.9 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const MusicSlash = createIcon("music-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdAAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBWQsIAAE2AiQDCgQgBYMtB1Ib/QTIjtRWecYDFQ/P60V/7ktmFlAWkjuo9C8BNwUrqZ7C/5869TznoQA+hyBoY9naIGth9zivQMFLudocYKUKxRS7O1srQq19kkYsyfHZ8cgB8tQ5u6BEup++w236H8D4VTMXSKplAKIuAMYunj/TR9/H9ym+q7xGfGcGAmIcKAQyZGgpwAiZQEu5Arlc8H2q5PuoLAggyujTGSijhJlYCshBElKe12vSqkapVr6ISqov79ip497oGD2iU+zDe3tPftw14sXAN7u/0iZiXog71V/r8rzlcmFhLJb8tQ5Ffhi8fUCsiQ7tXtZ9+Xvb7zZ9p+WHD0A17+rlc73EXSrxlCdnzjx5Gpf8Y5ef6wX99OAyJ4+t9tkw59rvtDt9dbt/mjFFd9eNXm0TEAh+b9et0+o6I/6vWiOBH9/58xf56spH6Ux6iaoSCLIelR5WpDPg0AG4KQ5pp1RtjEBmgAT6WTXdESBUR4CkrLoAmRbqCpCrrrsAJa0NFKCsuvkykVcTGlpZQVLTXpAZ5CTINfQqKBnhS7esYWRWRdoE+amLmyShieuKvr36FMOKaVOhDAVPy8OLZaHLIT/UFUptstsuB2y0wVYHBLLPzOCgnSZp8EQVKvTVSx+FYYrtzj23CN199ts6ZvZXGa4473RxSJ/cFeSEMfvZkMmIFFkDcyv23L9j7f4tPS/oSKOeuYsA");
 
 export default MusicSlash;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-pin-slash` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-pin-slash?s=regular location-pin-slash}
  * @preview ![location-pin-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/location-pin-slash.svg)
  */
-const LocationPinSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L459 334.5c30-51.6 53-103.7 53-142.5C512 86 426 0 320 0C249.2 0 187.3 38.4 154 95.4L38.8 5.1zM192.3 125.4C216.3 79.4 264.5 48 320 48c79.5 0 144 64.5 144 144c0 12.4-4.5 31.6-15.3 57.2c-7.4 17.4-16.9 36.2-27.9 55.4L192.3 125.4zm-2.5 120.1l-61.7-48.6c4.2 88.2 117.8 239.3 168.2 302.2c12.3 15.3 35.1 15.3 47.4 0c16.2-20.2 39-49.6 62.5-83.1l-37.8-29.8c-17.3 24.6-34.2 47.2-48.5 65.4c-24.8-31.8-57.8-76.4-86.2-122.6c-17.1-27.7-32-55.1-42.5-79.9c-.5-1.2-1-2.5-1.5-3.7z" />
-    </Icon>
-);
+const LocationPinSlash = createIcon("location-pin-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABcwAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBXQsGAAE2AiQDCAQgBYMtBzkb5gTIjlQ1fwTP5/V9nZv0G0AZ21/ASuYORFdu/vxfTm88PzrAb3RoY+GaIAt0rop7CSTWy7cdUG0Ls0Qxa2f3g4+PfpWkfJJhvGGzgzz+iXOUSJeml3F2+9D4RhMnkJQyAFEbAKMXzp3u8Q/jw4iXyvcQL5mKgBgNCoEMGZoLMEwm0FyuQC4XfBjlcvoPLAggKvi0CeQoYRaWAXKQZHnetHbLaqUa+YLy0FWXXlv/kga745pGlzdcELe1ujrenfPmgqcH3d9twfzbhkY8NPCZ4Y+0Pqb5JY0XzJsze86Vve8Y/UT3C6ud3uimsUPi5k43drmxx60tj214bLS5sfaN37V+ecPLOjzY9Yc7/5/5Gp3sphNt/PSTljF7/vzZMev6Gy7bs/iSg21y6p3zxMmHNK/32YP/fnpXHPK6XHLYB1/PW3/O5TVrXn7W2OUuXNppx84xN/wWIoBA8GPvse1X1hr2W+VqCXz84A+/25nlZenkdCMqSyDIupW7WZaOCaBLBPFSHNAG3ySQTJLBu1Z3kQChKgIkFaoKkGmmtgC5qroKUNJSfwEqVDVXJvIqQn3LB0iq2w0yAxwJcvXdBUqGec6rUD8yWtGkoH91CRNmdPy6onePXsWQYpvoDFNIWxxaHIudDmijM7baYKcd9llvnc32Tfge08P9tpsQYeP9UKG3HnopDFFc56+bF1hvj70222lHXWWo4r3byYG4vzOUxAn7iCSJSHX5aHTftTl7e7et3rsJAA==");
 
 export default LocationPinSlash;

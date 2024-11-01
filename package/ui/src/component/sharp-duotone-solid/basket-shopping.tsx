@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `basket-shopping` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/basket-shopping?s=sharp-duotone-solid basket-shopping}
  * @preview ![basket-shopping](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/basket-shopping.svg)
  */
-const BasketShopping: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 192l0 64 32 0L96 512l384 0 64-256 32 0 0-64-124.4 0c6 12.5 12 25.1 18.1 37.6c3.5 7.2 6.9 14.4 10.4 21.6c-14.4 6.9-28.8 13.8-43.3 20.8c-3.5-7.2-6.9-14.4-10.4-21.6c-9.3-19.5-18.7-38.9-28-58.4l-220.7 0c-9.3 19.5-18.7 38.9-28 58.4c-3.5 7.2-6.9 14.4-10.4 21.6c-14.4-6.9-28.8-13.8-43.3-20.8l10.4-21.6L124.4 192 0 192zM160 304l32 0 0 16 0 96 0 16-32 0 0-16 0-96 0-16zm112 0l32 0 0 16 0 96 0 16-32 0 0-16 0-96 0-16zm112 0l32 0 0 16 0 96 0 16-32 0 0-16 0-96 0-16z" />
-        <path d="M245.6 50.4L256 28.7 212.7 8 202.4 29.6l-96 200L96 251.3 139.3 272l10.4-21.6 96-200zm84.7 0l96 200L436.7 272 480 251.3l-10.4-21.6-96-200L363.3 8 320 28.7l10.4 21.6z" />
-    </Icon>
-);
+const BasketShopping = createIcon("basket-shopping", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABmQAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCaAsIAAE2AiQDCgQgBYMtB1oblAXIjsO44TuyxVIGbyKC722l/f7MbZ1mJT6CL2aMwJgCcerMkTJjEJpDCpW5apOZ9n3icvz352ODLHuCR5mzofkavOd5AgEOe29SeZznZWodrhv8kEO7hfg6QRn/F89qIr2V4AX/fwDjH52eJRlQAIihAFi5f/dWj/6IP1L83Ij42RYExCqQBQoU6BFgiUKgRymjVAr+SI0Gf0SjkQkgavznFKCGZryMDwElSJIS0cOGzR2WrTcNKvf5B6rD3R3di6Ij9tDYhdEd++t79+3tjMXRFfvQqQuisxDqsTcGxf6oR0QVr7UK+tMxr7dFb3dhXhWvtrzZIeHjn4/rjulR7a1XdYHQKmK5em//qK+Hfv3fSOd4/NyrYeOnPnP8O68qrT1aiezPAuBVD42sCOuy5Q1Ppi/KVrivZcTVay1jWsdsOjh2TMvYm09tOvSLw4dv3BjbMnbMxkOvanX/g+s556FOGCrTy93oPQ4Egs5d+c7xIUseN9cT+Ovb/8b3azxKK9LXaJZAUExpTHEkrQAhDCCX4p5RUz90AoHCBaXwXQd6XYBQIUBSUwlQ6DZUgFJlsgBN+swVoKayWyHKAUKLow2TDHSTKczzgCm1+IZpssR3+ZqWKKBTgy3t3jB7XRdcuyvPnDYjL8qzHZUOcIqzuThvTky4Jycm4ljnXHfNHWedcdGdDnHL1tJdV61bgtb6omymaWbIFsmH+w/tfTR/y20Xp83j2yyWr89McG95/kScTkLRWT4oFESKov03usFUgPan2vSZnVOmtQYAAA==");
 
 export default BasketShopping;

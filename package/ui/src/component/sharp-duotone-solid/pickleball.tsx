@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pickleball` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pickleball?s=sharp-duotone-solid pickleball}
  * @preview ![pickleball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/pickleball.svg)
  */
-const Pickleball: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M304 384a128 128 0 1 0 256 0 128 128 0 1 0 -256 0zm64-16a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm64 96a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm16-80a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm16-80a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm64 96a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-        <path d="M528 240L288 0 48 240 96 368 16 448l64 64 80-80 128 48 9.4-9.4c-16.1-25-25.4-54.7-25.4-86.6c0-3.3 .1-6.5 .3-9.8L133.1 235.5l-11.3-11.3 22.6-22.7 11.3 11.3L279.3 336.1C299.7 271.1 360.3 224 432 224c31.9 0 61.6 9.3 86.6 25.4L528 240z" />
-    </Icon>
-);
+const Pickleball = createIcon("pickleball", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABlwAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCOQsIAAE2AiQDCgQgBYMtB1AbWwXIhofv7eI793XPfED9IXjFIAOYCUE2taGUbVX/zzWfX+hRgXyS00PrWJS3740ynw/3fKCRll54PqGR4AbdTQzCn4+rB+Txf3ZDhfRs+gYPO4fjF+3cIKmXcSCaImpTVy9f6LNa1FJ8U75FfGMBAmIaKAQyZOgowASZqP8HKFcglwtqqSypRVkWBBBV8IMZqKIeTuM+IAdJqOZ57w71QL5BpVG+Kqquf3jVylUrYmWEqaWx2l3fJl7pfDVWRevoH63ql7w5/sPZb49ts/1K34jn+z7f4H7/F30mrvZ7gal/r89zh8x+ouVTrZ9u82SrlRn7anzl/m4vNH3ht67f7PpGk+//UDUGX7Z4sTJ67eXB7jjVpFK5d9eLVvrAuXPi4kNb/tx9x+DJ3RvS8McfunX74ceGDbvX6lixbFyrNQ7jkzcbjiaL60aeBwJBfvTPPpubTPivboMEfvrgj59NdE3Lz9KQ9ALqSiDIBpQDbEhTNNU0DREAgBSndINmsCUzcxzSb23oKQFCfQRIquoLkOmgqQC5+voLUNHZSAGq6lsuE3k9oaWNJSQNHYXMKBch19KbUDHB58WqlpG9heI7JP4Eps2qIzNXFUMHDSnGFYN1ufRi8Xp+fDHb63OK9/WFZ+1y2CEn7LTDXidq5DELKycdNGuMmOmHCkMNMkRhnGJ167a2ChePOW5vv7J+kfGK/XN9nBof3ReGicc5zIZMRqTImn9c/oGdX5Y18H3ub9lUHl0AAA==");
 
 export default Pickleball;

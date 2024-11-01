@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `jar-wheat` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jar-wheat?s=thin jar-wheat}
  * @preview ![jar-wheat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/jar-wheat.svg)
  */
-const JarWheat: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M240 16c8.8 0 16 7.2 16 16l0 32L64 64l0-32c0-8.8 7.2-16 16-16l160 0zM48 64l0 2C20.4 73.1 0 98.2 0 128L0 448c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-320c0-29.8-20.4-54.9-48-62l0-2 0-32c0-17.7-14.3-32-32-32L80 0C62.3 0 48 14.3 48 32l0 32zM64 80l192 0c26.5 0 48 21.5 48 48l0 320c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-320c0-26.5 21.5-48 48-48zM192 208l-24 0c0-35.3 28.7-64 64-64l24 0c0 35.3-28.7 64-64 64zm-32-34.9C147 146.4 119.7 128 88 128l-24 0c-8.8 0-16 7.2-16 16c0 44.2 35.8 80 80 80l24 0 16 0 24 0c44.2 0 80-35.8 80-80c0-8.8-7.2-16-16-16l-24 0c-31.7 0-59 18.4-72 45.1zM152 208l-24 0c-35.3 0-64-28.7-64-64l24 0c35.3 0 64 28.7 64 64zm16 104c0-35.3 28.7-64 64-64l24 0c0 35.3-28.7 64-64 64l-24 0zM88 232l-24 0c-8.8 0-16 7.2-16 16c0 44.2 35.8 80 80 80l24 0 16 0 24 0c44.2 0 80-35.8 80-80c0-8.8-7.2-16-16-16l-24 0c-31.7 0-59 18.4-72 45.1C147 250.4 119.7 232 88 232zm40 80c-35.3 0-64-28.7-64-64l24 0c35.3 0 64 28.7 64 64l-24 0zm64 104l-24 0c0-35.3 28.7-64 64-64l24 0c0 35.3-28.7 64-64 64zm-24 16l24 0c44.2 0 80-35.8 80-80c0-8.8-7.2-16-16-16l-24 0c-31.7 0-59 18.4-72 45.1C147 354.4 119.7 336 88 336l-24 0c-8.8 0-16 7.2-16 16c0 44.2 35.8 80 80 80l24 0 0 24c0 4.4 3.6 8 8 8s8-3.6 8-8l0-24zM88 352c35.3 0 64 28.7 64 64l-24 0c-35.3 0-64-28.7-64-64l24 0z" />
-    </Icon>
-);
+const JarWheat = createIcon("jar-wheat", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAAB4wAAALkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVCEVwsGAAE2AiQDCAQgBYMtBzAbVwYRFZv3yD4SctOoF8TMzD1VNN4E//znVt33EzhdP3QaStOeEoV28ZWazDi7Ed0rZ7ZuNIBAAEGf55p6YecH+MVvGw7tImlVHkl7w0wtgfEwypv2fKBRZAODsWzcHOYXs5AYoXwLXE1iNhEwp82HwEF3pfqGumyDwXEAAFAcAADoMW7UENIZZaQPs8/RhwwCBKCeAIQIcAAHaIAA6IyDgAa4hICLiyCjbJb9B4YQAChKzBh+vgv4oBxQPgDgAmCIuW6sup7f0Pcb+H6570Vqu2O9iJ10vABZSSeLvNGIa/mnSKerb5d7upm8W9/R5nonKiRpc+EJa7Un/xgKPOtdLzhe1+hU/rEyqxuFJ+o5Olt0snKM9ezZ5N1KT6eqbpU1PVMh3bBWx/LPV99u43kvk3cbnyi02lN2LWhgPXuj5k49T9erb9cdczYpXbHZsctFj4fPVNywY6hb4g3sa4PLPHtU+Thb6HjBySKNPWWTuCF0yZI78TvfFX8490N+eJjxQ9KE+JlLbzczxvT55NOi7thE4lKaS4mE7U7Rp5/0MYT4u3b5lwpvmE3HTzX//COnO85HnzdP03k3bgxi/qIRXD/x56NJSAUBGV9j58SDqvicsfIzAUEqeXTlPuISYfkio848m4BT3mDYMGExSDuaTAWVw7gbeH/Qbd6L/PsFDytqEgKi06dHg2HnzwcAAYJrlz57bVqdzr/V8gwAX7/2w9/Vl5BNq7u5A2phABA4qWzKZK0FUHdErJlFrYQZQBiJWJE4FOPE1YSw0MEQxcKhPnG4WJKI0Ig2/MHFo3CQ8Bwk3xQII2YFHG2thyvfU0R09k40Kn9OmBB9tPhLmtZ3SPcZF7Zo2jzsGK7mNJI353Vvp/CwrWotr6mGG5lrmaVWm2O2BVYP2JWGJNZYou8Wt89nQy001Vyoo/By0anNWOxdaRXnl5Xro3QSPh+qsna7eTV0GrHVlqYbBipn4YyVTdaFXgAA");
 
 export default JarWheat;

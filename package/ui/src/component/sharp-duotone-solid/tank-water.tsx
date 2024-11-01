@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tank-water` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tank-water?s=sharp-duotone-solid tank-water}
  * @preview ![tank-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tank-water.svg)
  */
-const TankWater: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 297.9L64 348l0 68 320 0 0-68 0-50.1c-8.3-3-16.2-6.8-23.4-10.8c-15.4-8.7-27-19.1-40-30.7l-.7-.6-.7 .6c-13 11.6-24.6 22-40 30.7c-15.8 9-35.5 16.8-55.1 16.9l-.5 0c-19.6-.1-39.3-7.9-55.1-16.9c-15.4-8.7-27-19.1-40-30.7l-.7-.6-.7 .6c-13 11.6-24.6 22-40 30.7c-7.1 4-15 7.8-23.3 10.8zM168 168.2c0 30.8 25.2 55.8 56 55.8s56-25 56-55.8c0-10.6-3-21-8.7-29.9L224 64l-47.3 74.3c-5.7 8.9-8.7 19.3-8.7 29.9z" />
-        <path d="M241.6 32L251 46.8 282.3 96 384 96l0 320L64 416 64 96l101.7 0L197 46.8 206.4 32 64 32 0 32 0 96 0 416l0 64 64 0 320 0 64 0 0-64 0-320 0-64-64 0L241.6 32z" />
-    </Icon>
-);
+const TankWater = createIcon("tank-water", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgAAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCFAsIAAE2AiQDCgQgBYMtB1AbNgXIjsM4JnwXu6i0eHjev95f+9w786AQN5IqWB3UynXcJlUqfbHX/F9KbSbhPv8nrqkf59/e/s5ZtjyP1FHm+QR23vi2Oo8CmtBMZ2AzN40o4iAJbiJyvoh0WErssPUMeTzJLimR7qcvcFX+BzB+1dklkroMQLQCwKzVy5d5XYlKii+qL4kvLEVAzAaFQIYM3QSYKhPoJlcglwsqqTqVqF4QQJTJpTNQRgkHcBKQgySkPO83tG1DqSlfJRH169t3aD8qGiJFY2Smckx0jPp6KBYNTRFZBLA6TgAQmTsdHg8+P99xLp72fdg34nF/Y3ZgK3j7rXar77ePuN3vSce7XXv7rIoVcUvv562e/97ri11f+LsrMVexy0xH71JxhZg5E3luptiM26PpBnPNNNdoH9ze0EpEhFYbrnzLT1eWtoLQHPLo5e7zNX/ynvd/1rS6PHwRfsvlVkAg+K6482Bzy9T/axsS+PnVn79Iv6NqJV6n56iVQJANrQ61IV5DvBYAgBSn9I7XmCmQmSGxn9rojgChHgGSsnoBMl21EiBXb4gAJT2ME6Cs3nKZyOuEdjYWIWl0VMiMd1rItfNCKJnq42xZu8h0TtEY5Y8vcz7C8xYVo4aPLCYX05qsqpEUZqcU2+HAU75nEEXa5bBDTthph71OAHXMssJJB81fIfN8UWGU4UYqTFYcN2/NVZA95ri9Y/18nimK59MDnVoPH0TLSYDRb6sqI1Jkbb5he9itdIdpb2+7Wr+nAAA=");
 
 export default TankWater;

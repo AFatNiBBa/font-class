@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `memo-circle-info` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/memo-circle-info?s=sharp-regular memo-circle-info}
  * @preview ![memo-circle-info](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/memo-circle-info.svg)
  */
-const MemoCircleInfo: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 48l288 0 0 172.5c14.6-9.5 30.8-17 48-21.8L384 48l0-48L336 0 48 0 0 0 0 48 0 464l0 48 48 0 282.8 0c-18.3-12.9-34.1-29.2-46.3-48L48 464 48 48zM288 224l-24 0-144 0-24 0 0 48 24 0 144 0 20.5 0c1.1-1.8 2.3-3.5 3.5-5.2l0-42.8zM120 128l-24 0 0 48 24 0 144 0 24 0 0-48-24 0-144 0zm0 192l-24 0 0 48 24 0 48 0 24 0 0-48-24 0-48 0zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm15.3-224l0 32-32 0 0-32 32 0zm1.2 64l0 16 0 64 15.5 0 0 32-15.5 0-.5 0-32 0-16 0 0-32 16 0 .5 0 0-48-.5 0-16 0 0-32 16 0 16.5 0 16 0z" />
-    </Icon>
-);
+const MemoCircleInfo = createIcon("memo-circle-info", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABggAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCQAsGAAE2AiQDCAQgBYMtBzcbRwXIhofn7fo691X1R9UYb+TuEb0gonWkDGTmXEoZbdzzf029eH50gGVHcGjR68JokI7nCTix3TwT9IPNJorbXdnHkmjlIbGUhTx+83jqug2U8VM8pEF6LH2LByNQ8Zeh7iZpFACiDwBWHdizzee/x+8R37TfIb6xBQGxCmSBAj4xQoClCoERShmlUvB7tNv4H5gJIDoQ2AmU6MYduAdQgqSzLIf3rOvh3YPrRs9yf92ojvTs0VM8NykiouohUoi654tTqyj2VXUl6vqRwXdE7G8WIqq99vOn7l0S8dGs1+KOma8u/rC6Z+H70192+4xXFn1QHxCqiKjHCKIOUVWxwsWTxr7Y58V/xnx77rdmPZhzfsXxhx/R1NzZ9LiJDX9r+D9o+N9rQ4Z83jTkmdSXac+dYPAQ9fnkevCzCm807PxsUiK1xkycOKaV0iRWBv5ev2WiyfLoPvGVessOahX0iabok+8HAsG07mnfnei99P+uOoE/P/zvP3O89udpZXoRXRIIiunt6Y6mlWCZAaRSXGus8EWB5AadCNQeHhYgVAiQdKgEKAzXR4BSZZoADaPME6BDZY9ClN3CAMcqkfRwBVGY7xaiNMBbRMNSXyQ7DIhCEQU1Ep6Bqes5um5Zbs1s5sV5WFZE3eL8+JI8bZ98LbZNgbXOdZlLXe0cZ13gaoZfaVvmGpdYL2Hr/FDWMlNTtljert2v3u8cV7rKBS5zaZhkiXw+PNm1cu8p4EqIdbaiJBGpzw9wzTO+2NFm3HEAAA==");
 
 export default MemoCircleInfo;

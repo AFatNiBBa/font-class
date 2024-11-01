@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `registered` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/registered?s=sharp-solid registered}
  * @preview ![registered](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/registered.svg)
  */
-const Registered: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM160 128l24 0 104 0c44.2 0 80 35.8 80 80c0 37.8-26.3 69.5-61.6 77.9L369.1 384l-57 0-61.3-96L208 288l0 72 0 24-48 0 0-24 0-96 0-112 0-24zm48 112l56 0 24 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-80 0 0 64z" />
-    </Icon>
-);
+const Registered = createIcon("registered", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABawAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBYwsGAAE2AiQDCAQgBYMtBzEb5ATIhof/t+v7fW5VvzVTPUaNzcz4YAylMNO3fsqIUU/dPP/3pwdskIc2Fi4NZIHPeZ5AGFiXLy7wt8AyTcDSbeKjRyRCR0SIoER0nDu+NsjjjeyyCunx9CXu6UPjN+1dJmmYAYhmAJi2ZsUi79ZHfcQXtZeILyxAQEwDpUCGDJ0EmCgT6CRXIpcL6qNW439gSQBRx84lkKOCFdhCJIUky/OO3ZpWK43z1dVKseqXJRHfzPggLkx/f/HXq39c+OXUd52f9t6ir1atrxbVl/o91/mxvs/2XBVFrI4ihCiCtFXpVbfaPhoX2jxSFKH7882e/6Pbl7u/VJsyy33cP6HTjBmdJtx/3yw+yPduOdeu3flmu1ZHozx/evI240zcYoC52hmqna2OajfkyNixS5tcv95ksJeaCjDOPdFs+f9bmk78u0E1gV9f/+sP8yuqvZuk59FAAkE2sDbQxgQSAQBIcVr3BIFkgYyS2sgjAoQCAZI6hQCZjpoJkCsMEKCii1EC1CmskIm8odDKpk0ljRyjMqOdoXKtvEBVTPSJU6dVZMgScSF+7NJmezBrqhw2eGg5vkwDSwIL34YTymO972kp9KNVux1x2Em77LTPSYePW+SfcsjsCs3yotIwgw1VGq+8jo/Lq+1y3An7HHG4j5mgfG/3dbqu70dWYpzDzSSJSAV4AQAAAA==");
 
 export default Registered;

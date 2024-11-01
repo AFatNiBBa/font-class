@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-dollar` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-dollar?s=sharp-solid lightbulb-dollar}
  * @preview ![lightbulb-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/lightbulb-dollar.svg)
  */
-const LightbulbDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2c0 0 0 0 0 0c5.2-7.1 10.4-14.2 15.4-21.4c19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3c5 7.2 10.2 14.3 15.4 21.4c0 0 0 0 0 0c19.8 27.1 39.7 54.4 49.2 86.2l160 0zM112 416l0 96 160 0 0-96-160 0zM212 96l0 6.3c6.6 1.2 16.7 3.2 21.1 4.4l19.3 5.1-10.3 38.7-19.3-5.1c-3.8-1-17.4-3.7-21.7-4.3c-12.2-1.9-22.2-.3-28.6 2.6c-6.3 2.9-7.9 6.2-8.2 8.1c-.6 3.4 0 4.7 .1 5c.3 .5 1 1.8 3.6 3.5c6.1 4.2 15.7 7.2 29.9 11.4l.8 .2s0 0 0 0s0 0 0 0c12.1 3.7 28.3 8.5 40.4 17.4c6.7 4.9 13 11.4 16.9 20.5c4 9.1 4.8 19.1 3 29.4c-3.3 19-15.9 32-31.6 38.7c-4.9 2.1-10.1 3.6-15.4 4.6l0 5.5 0 20-40 0 0-20 0-6.4c-9.5-2.2-22-6.4-29.9-9.1c0 0 0 0 0 0c-1.7-.6-3.2-1.1-4.4-1.5l-19-6.3 12.6-38 19 6.3c2 .7 4.2 1.4 6.4 2.1c0 0 0 0 0 0c9.5 3.2 20.2 6.9 26.2 7.9c12.8 2 22.7 .7 28.8-1.9c5.5-2.3 7.4-5.3 8-8.8c.7-4 .1-5.9-.2-6.7c-.4-.9-1.3-2.2-3.7-4c-5.9-4.3-15.3-7.5-29.3-11.7l-2.2-.7c-11.7-3.5-27-8.1-38.6-16c-6.6-4.5-13.2-10.7-17.3-19.5c-4.2-9-5.2-18.8-3.4-29c3.2-18.3 16.2-30.9 31.1-37.7c5-2.3 10.4-4 16-5.1l0-6 0-20 40 0 0 20z" />
-    </Icon>
-);
+const LightbulbDollar = createIcon("lightbulb-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABmAAAAKyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDDwsGAAE2AiQDCAQgBYMtBzcblgXIngNuu/HhueIx4ajY1FVD2QIvbzx86Erfl7R7QEaQiahixhD26bANV560mXSJ25u6+bsxNdpma5EHHEXxxEACHvM8BNw9TqTi1BKKMEskbx5pCzAC2vlBiWdJ1wUUeJKUBJPRdP9zzef3/Brw+4kfSjTmqiySu59P4IBHpWl7Po7C2URxl9smjojOQvwjFHaQxcH0lALJ/WQDXB0+NP5hOEWiLAUQdQAwZs2c4bs/vIv4uXYRP/MREGNALpAiRQsBhksFWsjkyGSCd7D2i//ARABRVF4oARkK+AjfADKQSLOsfdnuikJVNqeiUL7y8xZxnG/vGn/e7rf5VF9yFX293fDYxcqlR8UsoSIiyhcKcmOHaBEd40KjO43eNLjlGAuO+G93qBjkyl8xdzgsa3Cv/a0GQpSH4WyFa65LdozW0cFatMKiaZh43fhu48uiOx0bxZuOg6/xw04Hwf7kitD2ozof/ZvPswFtVNV7Ahz4/+Jjap2aZ3r0K0v/OlAHeK/Op+Yyw3hmmWdtpIf48oTnjg6y5ct651OnMAnQ5vSEAED07/Zm8em5x/0KGuisgaL/XoA6dTr4Vgd5byD80pZbK2Ihos3pAbl23V5v8oK379hePBsEgt+Ug1VLa4b/z8cE/L2+O5yu1+6wLfkIpRIQpN1rq0XhmDrqPLgKKFNJ7NEWf5NA4oUUvtZKdwQI5QiQKCoXINVcHQEy5boJUNDKAAGKys2UiqxMaGDxAolK2yE10GHINPA1FAz3faqoQaTwKkGb9LuYPnGLTHDLe8/e+dD8tm6SQVBI5ofl1kbZI/u64BXW2GqLXVZbZf3Ab+gdZmR322ziEzrBD+X66Km33FC5d+ujPof6d9gphWvFf5Fh8vjhzvY8j+6C7UTJ2ldJIiGSOiCcWbF704oeHy4=");
 
 export default LightbulbDollar;

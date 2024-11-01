@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-beam` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-beam?s=sharp-solid face-smile-beam}
  * @preview ![face-smile-beam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-smile-beam.svg)
  */
-const FaceSmileBeam: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM129.7 327.2l28.6-14.3c8.7 17.5 41.3 55.2 97.7 55.2s88.9-37.7 97.7-55.2l28.6 14.3C369.7 352.3 327.6 400 256 400s-113.7-47.7-126.3-72.8zM176 152c28 0 56 40 56 80c0 0-28-32-56-32s-56 32-56 32c0-40 28-80 56-80zm104 80c0-40 28-80 56-80s56 40 56 80c0 0-28-32-56-32s-56 32-56 32z" />
-    </Icon>
-);
+const FaceSmileBeam = createIcon("face-smile-beam", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCBewsGAAE2AiQDCAQgBYMtBzYbAQXIjsM4FjzSuQs9Hv7f7r/2uVUNuNpmBuViKo2A9K+JALwkVGWe/8s9v+dHB/iNDmVs24PG5KPRms8TSKyXbyoMJAss0wSs3YbMsIlyVgwiw4eIobnQPEEeT2eUI11M43j80PhGI8dIKmUAoiYARs6fPdULZVEW8XbpUeJtkxEQI0EhkCFDUwGGyASayhXI5YKyKJXwP7AggCiPn5xAjvJYjk2AHCR5njepX6dOlXLV8nnu1ZXnfj494v3RL8fhUS9Ne2/eJ1PeGfGCQyNfnPru3Hnt27Q/2/Fm38c7327QNi50uDHmtU41nn+1Y8TFRufqX2t3pa6NL3e+3H4uCBGEdVt4V6tbNW991/J17ygNH+sEJwc3HT266eCTJ8aSbTT2P/Es37Zt15GTJ4/s2vasY39+OXPml3/qem9GBf6oHv9VM1iqR/UKf8xYP50ECBu28HEgEFT5eeCi5TWG/FaxSgJfPPXDd+ZnpPRCkm6hogSCrEupiyUJJAIAkGKfVgkCyXw5fteqzgkQKiNAUl5lATJN1BQgV1lnAcpprq8A5VU2WybySkJdSytIqtoJMv3sB7m6HgblDPF6Wl7dyLSM0hHqkxc/TkJj9xU9u/UoBhXTVqEVh/Dbg4ttscM+muoIR62z3TZ7rLXGRnsEssvUYq+txq3gsb6o0FM3PRQGKY4Ht4fnWWuX3TbablvYZbDivtvBvvXijqAkjNpLI0lEqvGG4667t27ckqNVa1duBQAAAA==");
 
 export default FaceSmileBeam;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-xmark?s=thin circle-xmark}
  * @preview ![circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-xmark.svg)
  */
-const CircleXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM178.3 178.3c-3.1 3.1-3.1 8.2 0 11.3L244.7 256l-66.3 66.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L256 267.3l66.3 66.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L267.3 256l66.3-66.3c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L256 244.7l-66.3-66.3c-3.1-3.1-8.2-3.1-11.3 0z" />
-    </Icon>
-);
+const CircleXmark = createIcon("circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeQAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCBAsGAAE2AiQDCAQgBYMtBzMbBwXIjtMd8UYkmWQiiOyevnp2D/DeRYCYC0EKZ/QXUkfWy5+i2pFT442XCniJi3I+Pi3IefH/4hWoWFNvd2jDgcwGNtMJ2MxdnccU0fKRtFaW5PHb48sBedyxVBnShfQWjtUPjW80cJQkywBEdQAMmjFlnIefxWcRb5Um3jIGATEYFAIZMjQWoK9MoLFcgVwu+CxKJfoPLAggyuLnJpCjDBZgKyAHSZbnjRo1r1SmSj49vbjinI9HRbwadMPBjg9Hvpz6yejXg2/GoS5PxryZkT6dEPHukCdxaPDj8e9M/2jsWwMfOjjo0bi3p80+XWdaTI2AOVNvRkwLzLm602NGYM7WnhrT464WF6tf/K75W8vfUro20Ho2lPuTP8ttWD+QjNP+jznOiT6Nhwxp3OfE8SAO/7hx3boNHqThu3WbMmXQYGTP1I8DgSD1/frzBdX6/la+UgJf3P7hb/yMlB4m6SLKSyDI2pbamptAIgAAKbZrkSCQzJDhd63srAChIgIkZVUUINNIdQFyFbURoIymuglQVkVTZCKvINQ2b8JJZZvgTHf74Fxtt+Ay+nphlFU7MldjHYV96CUNl8CwtaJT+45F72IZG5z30Hnep9iWW26PtVbYtdwG6221zFKrbBXQZuPsbdYZboHDfFGhk/Y6KvRWHGfr7emW2WyLVTZYX5b0UdzXW9pud7eCljBhZ4EkEanyjxyl3U63BAAAAA==");
 
 export default CircleXmark;

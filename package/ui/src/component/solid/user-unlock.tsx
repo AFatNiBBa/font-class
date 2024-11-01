@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-unlock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-unlock?s=solid user-unlock}
  * @preview ![user-unlock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-unlock.svg)
  */
-const UserUnlock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0c43.6 0 83.6 15.7 114.6 41.7c-.2 2.1-.3 4.2-.3 6.3l0 128c0 11.7 3.1 22.6 8.6 32L29.7 512C13.3 512 0 498.7 0 482.3zM496 272l0 48 16 0 48 0 48 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l-48 0c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-    </Icon>
-);
+const UserUnlock = createIcon("user-unlock", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABegAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCDgsGAAE2AiQDCAQgBYMtBzIbEAXIjsN0q3FHLEjCE04E39tK+/2ZvZJmV8gjIoqIcE/IpsiO5dCZI2VGSq+cYkTgDhbb+BPGVbb5P5cuno8K5NuCYGhRllQ0K5BR5cXzEzjwa2+CswObKN7uNMccopUkaSkjOb5xfO6Qx9/ZdRXSG+ljPIo/Gj/o4jpJ8wxAtAbA7DUrlnvZFE0RH/3/EB9ZioCYDUqBDBm6CzBNJtBdrkQuFzTF///jf2BJANGAXksgRwX7cYL+TZIsz7t1GlWttMhXVyvFhsahFm8Pveq9wfSU+qClirtD9F6s/W5FxFdrqvHN9DpR7xBxt2PHDqE6a3UoG7bPonBXIxo7TTXizaE38Qezh4EajeKu9I4+L1rrp94f7/7Ylpl9a9S++LxPn8+/qNX6shy+uWVbLGlL7yWx0Wx/ZFld2wcHtDh7q8UvX4yiTOutLW/fblmXt95iD40Sq3e1br1rdYziQqID8dqzNad3bmk17ddm1QS+f/eXP1A+/v+l19MLNJNAkA37f5iNqQ7IDSBKcVofYWGBZLsM6FtrXhUgFAiQNCgEyHTTWoBcYagAFT2NF6BBYYVM5M2F9jY1kNQcA5kJLoFce++Aimneixq0j0zfJG2RfnvpCzg6f185esSocko5zFVZhQS/PbVcNgeddr3BcNNuRxx20i477XOS4cctT085ZIGEzbeg0mgjjFKaotyu7i+vtstxJ+xzxOGwy1Tl+WCQ0/L0YHAS4h0jkyQiVe+oO/zU4bcAAA==");
 
 export default UserUnlock;

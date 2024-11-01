@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-music` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-music?s=light message-music}
  * @preview ![message-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/message-music.svg)
  */
-const MessageMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 416c0-17.7-14.3-32-32-32l-96 0c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32l0 288c0 17.7-14.3 32-32 32l-138.7 0c-6.9 0-13.7 2.2-19.2 6.4L192 464l0-48zM64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l64 0 32 0 0 32 0 48c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0zM345.1 82.8c-4.3-3-9.8-3.7-14.7-1.8l-128 48c-6.2 2.3-10.4 8.3-10.4 15l0 90.5c-5-1.6-10.4-2.5-16-2.5c-26.5 0-48 19.7-48 44s21.5 44 48 44s48-19.7 48-44c0-.8 0-1.6-.1-2.5c0-.5 .1-1 .1-1.5l0-116.9 96-36 0 83.4c-5-1.6-10.4-2.5-16-2.5c-26.5 0-48 19.7-48 44s21.5 44 48 44s48-19.7 48-44c0-.8 0-1.6-.1-2.5c0-.5 .1-1 .1-1.5l0-144c0-5.2-2.6-10.2-6.9-13.2zM320 244c0 4.1-4.5 12-16 12s-16-7.9-16-12s4.5-12 16-12s16 7.9 16 12zM192 276c0 4.1-4.5 12-16 12s-16-7.9-16-12s4.5-12 16-12s16 7.9 16 12z" />
-    </Icon>
-);
+const MessageMusic = createIcon("message-music", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABnAAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDAQsGAAE2AiQDCAQgBYMtBzQbhQXIHgd2DPkXYWg5CC9iBN/r/nXPlT7p2SwDy8zYMQQIq3Thjosy3GZSugolc+17giTpzf81n9/zowP8RodSRW0HEumRixa45wOOskjbgMtmw5lOwOa384POoHQyIIlzSX8Y37D9A+TxWQxRR3o+/YiH6U3jT51cI8kzANEKADPXr17q69/it4gf/4/40WIExCxQCWTI0FWAKTKBrnIVcrngt/j/f/oPRABRj+8ugRwNeB0fA3KQ1OV5v36Tm5pqdc3zdbW6Yv3l9hHPFEXcaf9MZHG5w7O15nG33dNSXCqfkjYu10RsemtAxHsdUzw/8P2+tZoQl/SLO6yPWrw7+MMuWbww6IN+zXY+U66Jp0rxTHGnfKrj8xSu3e3wbJfLkWtFrA9x2eX2a57u806HZ/q/XbaNen3Q6oO/etrHVz1a3OJWix08RlDVemnc5q7i+s6MuPjqa61pXVSK1q1fm6EyQnH16pm3uGvP0I6XOq7ac+ricFeLzU41lj/9kNIPP5X14xEhnLW9tzV2wmMa93R8rTGlxqJf7NGvBwJB178bTm1vOeVRYy2BPz79kfsZ+f/LJH2ARgkE2ZD/h9iSQCIAACnO6ZUgkDyvDr9qM88IEAoESOoVAmS6aCVArjBYgDrdjRWgXmG1TORNQmnrAEkzJ0FmnPMgV/oE1JniG7NeGRlQKZhR/4nx82Zo7rhq5LAR1aTqmOo09og4Orm6lgacCy0DzVr7HHfMGXvtcdCZCTllqXPWUfM0eK4vqow0zAiVSarn4pVf58xTTjsoM+91TFZ9bwxwTu8+0KgJo44SSRKRmsNXHApiAAAA");
 
 export default MessageMusic;

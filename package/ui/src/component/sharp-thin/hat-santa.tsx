@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-santa` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-santa?s=sharp-thin hat-santa}
  * @preview ![hat-santa](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hat-santa.svg)
  */
-const HatSanta: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M422.8 336l17.7 0L385.9 220c-1.2-2.6-1.9-5.5-1.9-8.4c0-10.8 8.8-19.6 19.6-19.6l1.2 0c2.1 0 4.2 .3 6.3 1l56.3 17.8-2.1-15.6-.3-1.9-49.1-15.5c-3.6-1.1-7.3-1.7-11.1-1.7l-1.2 0c-19.7 0-35.6 15.9-35.6 35.6c0 5.2 1.2 10.4 3.4 15.2L422.8 336zm-.6-234.1l50.3 59.4 19.2-2.1L434.4 91.6c-32-37.8-79-59.6-128.5-59.6c-68.8 0-130.7 41.9-156.3 105.8L70.4 336l17.2 0 76.9-192.3C187.7 85.9 243.7 48 305.9 48c44.8 0 87.3 19.7 116.3 53.9zM496 384l0 80L16 464l0-80 480 0zM16 368L0 368l0 16 0 80 0 16 16 0 480 0 16 0 0-16 0-80 0-16-16 0L16 368zM562.7 170.6l-12.5-10-9.7 12.7L530 187.1 512.8 189l-15.9 1.8 2.2 15.9 2.3 17.1-10.8 13.5-10 12.5 12.7 9.7L507.1 270l1.9 17.2 1.8 15.9 15.9-2.2 17.1-2.3 13.5 10.8 12.5 10 9.7-12.7L590 292.9l17.2-1.9 15.9-1.8-2.2-15.9-2.3-17.1 10.8-13.5 10-12.5-12.7-9.7L612.9 210 611 192.8l-1.8-15.9-15.9 2.2-17.1 2.3-13.5-10.8zm15.7 26.7l16.8-2.3 1.9 16.8 .8 6.8 5.5 4.1L616.7 233l-10.6 13.2-4.3 5.4 .9 6.8 2.3 16.8L588.2 277l-6.8 .8-4.2 5.5L567 296.7l-13.2-10.6-5.4-4.3-6.8 .9L524.9 285 523 268.2l-.8-6.8-5.4-4.1L503.3 247l10.6-13.2 4.3-5.4-.9-6.8L515 204.9l16.8-1.9 6.8-.8 4.2-5.5L553 183.3l13.2 10.6 5.4 4.3 6.8-.9z" />
-    </Icon>
-);
+const HatSanta = createIcon("hat-santa", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABtQAAAKmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiECAsGAAE2AiQDCAQgBYMtBzAbCAbIBorSZT0r3ZUtGe7YZtl+Ro4AI6aUAEKkCACsuFT/E+sU7jf+wkHblNJBvmC8Vs5EIOOl0XuaJSKhAEaoClEg2tyfDg9WYVNEPEEa/w2bwxYdgK3fDMIHZq25ASxe70qvSWcuGCwLAAAFAACA+l07tubMUz2Vrv8/CLpOS0AAqg+AhwCL/VkIgFpYyHJtPMDGFnmq//+X/0APBADyU1WGh7eBBOAF8BEAsAEw+G07LysxXL++60u2u7g+Z6DruF20SuuLupofba6YpCZa5TiaF1nBzGjnLu07tC+qLtpW5ZBzodqRcp3kqqt21zxe9Vb97ogkSckDHNdBCLnJElmnaywaiyiiQoooqnSgUHNUcRUFwBxXTBkABGIOPpZetFDRTpRQJABB2EKxDnQiheIBTFHgDN6cvy2w7W3ejSE32DQ2VG5QZSJhOxgUljeeXAwp1PeLwLq1qQlFKo7iZYZcWp7qDZiaklu43vz15dpeJESr02R2b/ahMTebp7cTzlPa8fRJaqCcdgQIfNizDS5c5RXnsxPxkVwCbGADR7lHgFw+Iq5ylfVsbBmPcJ+f4KWkAH4aco8dVMZHANGPSmzkGh1ph5DrARAgGPd10q++qbW+JrgGgOfH3r8mXfz/qZlhtgEJGAAEVqn/pehlZgKapyCyaDSFfBYFGB7gh1ISq7yScOAkgx+HLDIJkI1DSfKRQ+UD/Dh0xEJ2IiJCb4QMSYwniypMI5sI+8lHLS7zfiKyBrtzqDp/NfM1scrG87zyZcp5NbzbisM1fjFN1vQex4pN0Y7iyDKEsYxhEoMZxHAmGcMEWkuTGU2Tlr4xT8SjPGUoh0cNPHf9q69LNk9gIsMjY/yz1MR7v1SMKe3+xUkaqt0K7DUYkEkc1n9S6S+f/v4=");
 
 export default HatSanta;

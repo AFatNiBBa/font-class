@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `feather-pointed` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/feather-pointed?s=regular feather-pointed}
  * @preview ![feather-pointed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/feather-pointed.svg)
  */
-const FeatherPointed: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M117.7 343.9c-11.2-41.4-11.7-113 53.7-178.3c38.1-38.1 93.7-66.3 152.8-85.7c50.6-16.7 100.7-26 138.3-30.3c-4.3 37.6-13.6 87.7-30.3 138.3c-2.2 6.8-4.6 13.5-7 20.1l-87.2 0 7.9-7.9c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L122.8 355.2c-2.6-4.1-4.2-7.9-5.1-11.3zm4.6 79.7c10 7.6 21 13.7 33.3 17c54.1 14.6 144.7 14 224.8-66.1C471.5 283.5 505 120.5 511.9 36.8c.8-9.9-3-19.6-10-26.6s-16.7-10.8-26.6-10C391.5 7 228.5 40.5 137.4 131.6C57.3 211.7 56.7 302.3 71.3 356.4c3.3 12.2 9.4 23.2 17 33.3L7 471c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l81.3-81.3zm34.5-34.5L193.9 352l140.4 0c-61.9 53.9-127.3 52.9-166.2 42.3c-3.5-.9-7.2-2.6-11.3-5.2zm220-85.2l-134.8 0 48-48 114.7 0c-8.4 17-17.7 33.2-27.9 48z" />
-    </Icon>
-);
+const FeatherPointed = createIcon("feather-pointed", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABewAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiBewsGAAE2AiQDCAQgBYMtBzYbAQVRlMvJDNlHQnVbLyZimAmXIozwYi5Rt29DiNYys7f/BUBLChVrQlnFDjX7VpHUrREg8cgOmwnEje0qHVhS7MQ3q5s6VTPOQwF8o6CMbVMDssDn5FwEApjd1jdIwWrFWoGxirV2dj8wiH4i6VO+T4bxh0UGZ8ixhI9AT3qleQceypvGD3QpAkmpAIBoBACwsOvjBuuP+Ih4RM2AeINFICAWAAYhChTohWAarUAvOoNAlgUfSFHhP5CAAKIM/IskkFHGHnACQAZJlDOduCwbCys9O50/Kz1LQKMkYpvNkMmSwYVDu281HwsKYpNIr6wv1gr41cjNOOz5rOlMyXRJ1gnU8k3bbjvum56TdvEGfl+sF+5RCLCwMLVgxWXdaflagQAWVhYLZMV6L4SkB7kGP0sdxx/D5WHbFbj6PM6NO3EXmg7udB8yClDg/JydfXkZ9DKtx7dc8+LB4d3oyt2tMufg4LfOk7ubD5+bm4cOvEfX1kxklaVtaazKm5ndK0ufG99SfhYlx8FrAIHg/v8oNIJz+nclKw3A1+LXP+1B6j+1kIJmEEClBIJilBoVmigQ1QGBzBT5pPFJEEh20cGr1nqCIFQjQFJWLUChBxcEWbURCEr66UFQVm0TrcjMEFqFDZDUOgWFKYUgazUFSqbtmWWtQetlrI+wj7wke4naDREtdU1iTJauzjkOndomxKwo5seUEk5CvAzpcsWJlSRX4NncnDxp7DXMzhcRWtRpIoyR7eD5sL842XIkyZCe+5gg5w1F+XqxEnQaTDhmKUlE4ozfj7rlSqv9kAsAAAA=");
 
 export default FeatherPointed;

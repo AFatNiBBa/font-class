@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pipe-collar` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-collar?s=light pipe-collar}
  * @preview ![pipe-collar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/pipe-collar.svg)
  */
-const PipeCollar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M68.3 166.3c5.9-12.2 3.4-26.8-6.2-36.4l-16-16c-18.7-18.7-18.7-49.1 0-67.9s49.1-18.7 67.9 0l16 16c9.6 9.6 24.2 12.1 36.4 6.2C193.5 55.3 223.8 48 256 48s62.5 7.3 89.7 20.3c12.2 5.9 26.8 3.4 36.4-6.2l16-16c18.7-18.7 49.1-18.7 67.9 0s18.7 49.1 0 67.9l-16 16c-9.6 9.6-12.1 24.2-6.2 36.4c13 27.1 20.3 57.5 20.3 89.7s-7.3 62.5-20.3 89.7c-5.9 12.2-3.4 26.8 6.2 36.4l16 16c18.7 18.7 18.7 49.1 0 67.9s-49.1 18.7-67.9 0l-16-16c-9.6-9.6-24.2-12.1-36.4-6.2c-27.1 13-57.5 20.3-89.7 20.3s-62.5-7.3-89.7-20.3c-12.2-5.9-26.8-3.4-36.4 6.2l-16 16c-18.7 18.7-49.1 18.7-67.9 0s-18.7-49.1 0-67.9l16-16c9.6-9.6 12.1-24.2 6.2-36.4C55.3 318.5 48 288.2 48 256s7.3-62.5 20.3-89.7zM136.6 23.4C105.3-7.8 54.7-7.8 23.4 23.4s-31.2 81.9 0 113.1l16 16C24.4 183.9 16 218.9 16 256s8.4 72.1 23.4 103.5l-16 16c-31.2 31.2-31.2 81.9 0 113.1s81.9 31.2 113.1 0l16-16c31.3 15 66.4 23.4 103.5 23.4s72.1-8.4 103.5-23.4l16 16c31.2 31.2 81.9 31.2 113.1 0s31.2-81.9 0-113.1l-16-16c15-31.3 23.4-66.4 23.4-103.5s-8.4-72.1-23.4-103.5l16-16c31.2-31.2 31.2-81.9 0-113.1s-81.9-31.2-113.1 0l-16 16C328.1 24.4 293.1 16 256 16s-72.1 8.4-103.5 23.4l-16-16zM128 256a128 128 0 1 1 256 0 128 128 0 1 1 -256 0zm288 0A160 160 0 1 0 96 256a160 160 0 1 0 320 0zM96 432a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm336 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM448 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM80 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const PipeCollar = createIcon("pipe-collar", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAAB2gAAALSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiEKgsGAAE2AiQDCAQgBYMtBzIbLAbIHoVxw13ynyegDOVIE2KJFQ/9r73emX0BIp0oJkVUI3Pqq2vrWLj6KlHhiOXXa9Va9jxhEDbA6AjYISsUBogcgTCpV3Ff7yJzCRgAcM/91FukD/DXhOZDuUUmVeAo8/kEBhhN7UU61AnYVrZdEPEjGpqGwnhAiWvyJCTf8N7Ai3x3/MWYUZRKhYAQvXABB0+yUvCgoU8Ub9wHOY/jFATEIWAWocKfmURgG19gksAsKIrgE9Uc4H/gLAQQzWBxOlfQjgaoAbmS1FoEGYeWllJMyYVKQW5yiazonYkJLdGQ6bJ8xtiYFl2u80zYqqkptVcvgpERLZjvgufKhBKDC7LpxXbHi9wZvsYKDi7RENst9nipT96WjGjadQPcLNgJehlRXbopn/Ewpcs0GGFMWLpNQ+4mtI9Bb1NC3ICa34iuuCTUJHvIgyRO4gLcgHocXDdCHMJJJDsp5yaJ9sLnOC88d3buhu135Npnn8pfmiwYLRovm1ZE6spaJPjll9lv6W1p595q33A0NqKr/Rga/mjj9VrOf+iIn99I6H/NUQ75OTpEOZHQJdclzo8zYPZ5PWP1nNb10DZOXa0fZxiHX/iDXuUU1EEbtHLroRf+LvjlWn85KKDz45e9/de3otPBqeEVsx6JwN1Jtrt7Yk/0oBqqiNlXaTSqWHjZo0av+lEKHp8HCATPfn4YlKm3G61yHuDLla6R/4zUDynfI60SBNVCvaA4QRIAgIxe9gkE0n+0CqQ6vcTyoR0mUrN2ojJBjyjazRNNpgUpF+6+xRdFijCoBInU6SlRWdVHFIOOiSbbHjPNBoN/9qvPXfW3Z4bkNidpEfPz9mXhbLSm1JzQSns2gi12uPaKHjc8gVptWnWrUa0hx5akU0q+R4vkKdmk7zJ+vPliwrHNzaU9F2Ma7NIwbLV9ngjs+Iir3unhbujmCeQuqkpJpPxdZPX6n8LYCQ==");
 
 export default PipeCollar;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet?s=sharp-thin toilet}
  * @preview ![toilet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/toilet.svg)
  */
-const Toilet: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M8 0L0 0 0 16l8 0 432 0 8 0 0-16-8 0L8 0zM32 48l0 161.7c-2.9 1.5-5.6 3-8.1 4.6C10.6 222.6 0 233.7 0 248c0 67 32.9 117.2 77.2 150.4c3.8 2.8 7.6 5.5 11.6 8.1L67.8 496 64 512l16.4 0 287.1 0 16.4 0-3.8-16-21-89.5c3.9-2.6 7.8-5.3 11.6-8.1C415.1 365.2 448 315 448 248c0-14.3-10.6-25.4-23.9-33.7c-2.5-1.6-5.3-3.1-8.1-4.6L416 48l-16 0 0 154.6c-9-3.5-19-6.6-29.5-9.4C327.8 182.1 273.1 176 224 176s-103.8 6.1-146.5 17.3C67 196 57 199.2 48 202.6L48 48 32 48zM344.8 415.3l19 80.7L84.2 496l19-80.7C142 437.1 185.9 448 224 448s82-10.9 120.8-32.7zm-258-29.7c-34-25.5-60.3-61.3-68.3-107.5c1.7 1.2 3.5 2.4 5.3 3.6c13.6 8.5 32.4 15.5 53.7 21.1C120.2 313.9 174.9 320 224 320s103.8-6.1 146.5-17.3c21.3-5.6 40-12.6 53.7-21.1c1.8-1.1 3.6-2.3 5.3-3.6c-8 46.2-34.3 82-68.3 107.5C319.9 416.5 267.6 432 224 432s-95.9-15.5-137.2-46.4zM415.7 268.1c-11.7 7.3-28.7 13.8-49.3 19.2C325.4 298.1 272.1 304 224 304s-101.4-5.9-142.4-16.7C61 281.9 44 275.3 32.3 268.1C20.3 260.6 16 253.7 16 248s4.3-12.6 16.3-20.1C44 220.7 61 214.1 81.6 208.7C122.6 197.9 175.9 192 224 192s101.4 5.9 142.4 16.7c20.6 5.4 37.6 11.9 49.3 19.2c12 7.5 16.3 14.4 16.3 20.1s-4.3 12.6-16.3 20.1zM104 80l-8 0 0 16 8 0 48 0 8 0 0-16-8 0-48 0z" />
-    </Icon>
-);
+const Toilet = createIcon("toilet", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABowAAAKtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDCwsGAAE2AiQDCAQgBYMtBy0biAVRVC1CZB8JuSnL98SH4irmgudBr3o/yWCTNbKyZg9yB/Uip7tzdVdC6qYDFBdL+TzX5Hv3/KhAvp9jtEWuggpklPl8Anue2Ha+MJ0NcEA8tik6l3bbCRQAOBbuMdBkK+OwgLJZuQ+s9G7IJ0JYAQqqCg7EG+BTPdDbjvO5vEDuuc6D3KMVEACpBsBEABX4IsIRAMpQESAcDRPQ0BB4Li4X6P+BJggAiBUvngKABtiBvcA5qKpdP8Ga0DSj2D0q2jAsHprDsOhDdUNHDA8RfRSwzn9f8O7048XrA/rEXwyPQHHIxqCrmSdjtyRsCFwqiC7IhsALBRd0887FrfMX0cf3O/rdZUAeGHWOeehYH7BUjj+ff96o8GLhwcSNQY/aDuWd0y24kDJ2X9y+1Eo4EHJBGxIPCj0so55W/H6W/dfHjTkKYRyOcT/ifeRL9P0J97HdtFsFb+yXzGhj5h4cz84e5i/1dcF9vf6DqMQ7C2L8mt6+4Lp68R+WnQ178GYrj1/Z+sbGx4/t+/fr8Va8i2b4djlWMLyJs6zMKeEOz7roaGj93yuy/W8tCtW8421LafSZpS1vm+aH/ntXVxsfX1v37l+obrfr9Aqv7owouh8ABBDY/rXiyUivsj92QwHg5ZVvn/glcDlxKkcAOwoAAmqaK41h4gQQJ0JQUWQBMR2bRACFrZz6W+5sQAAQdMigYEWHShje0NBJhYVI8sWBN+hFRTQ3BH+GAwruzIZKAQuh4c9ZWCjjVsWKv6hfq/KtKT+LmQ1Fsn6dmZ2RZZaYrU2J+gFK9nKpOdhOWqAPJeMkE5jJDOYxnnFMZl6BnkN7fT7Taeii6nkjJtlkkIVJCebkzlXTUYjmMLcoNevTVynFXD6TxILuycnYhAIA5DxnSW8UxTpv5uRp4+cBAA==");
 
 export default Toilet;

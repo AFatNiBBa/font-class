@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ornament` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ornament?s=sharp-light ornament}
  * @preview ![ornament](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/ornament.svg)
  */
-const Ornament: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M208 64l-32 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16zm32 0l0-16c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 16-16 0L96 64l0 32 0 48 0 9.7C38.6 186.9 0 248.9 0 320C0 426 86 512 192 512s192-86 192-192c0-71.1-38.6-133.1-96-166.3l0-9.7 0-48 0-32-32 0-16 0zm21.8 112c23 11.2 43 27.7 58.2 48L64 224c15.2-20.3 35.2-36.8 58.2-48l5.8 0 128 0 5.8 0zM144 96l32 0 32 0 32 0 16 0 0 48-128 0 0-48 16 0zM32 320c0-22.8 4.8-44.4 13.3-64l293.4 0c8.6 19.6 13.3 41.2 13.3 64s-4.7 44.4-13.3 64L45.3 384C36.8 364.4 32 342.8 32 320zM192 480c-52.3 0-98.8-25.1-128-64l256 0c-29.2 38.9-75.7 64-128 64z" />
-    </Icon>
-);
+const Ornament = createIcon("ornament", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABewAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCGgsGAAE2AiQDCAQgBYMtBy8bGQXIjsM4JnxkE4VLPHyv6/VcSbuzlj7IxM/EayAOIZiqEFLlLkDQZlKmXsLF/ciWUiLYNf83e97zKMBvFMrYuDSQBT7n8wQCb3uAC2gf4JmegJ15y03cI2XfZKJJ8o89fmmGIq6O6Rpk92ef4dZ6qPjXUPvIFDmAqAGweg/ebv9f8VfEZ523ic9sRUCsAUkgxxIjBFgmFxihkFAoBH9Fp8P/wEQA0aSfkYECLZyLKwEFyDSLoprRqrq7q0Z3cVjVKI8uqzLi3sF3D1SFeGDQPROfGnDXEFGWQoj3pr+Uvj/w60N/PPjbw5+Y+cqS0JuUh74/pSteXFodXpWVKCOiOmT38O64364hXfFAHHrDkogPpnbHc4veK8e+UL/w33x22me+vD6lVOv566+eOtV1nX/+W7v92+d5rU5JW+m9B29oxIGHHnpgHBiCpcUaNzz4XqktSY3z03mc12bvzpQuaNulrT7/z7GfT/T5WOz+6KOT4ViOZTIQCD4Yt/PI43uX/d+qMvDPB/f4G+zsj13ZC2jJQJBP70x3THZB7BIAgCwuMzZ2IZA51Q0etcs9AoQSATJNpQC54WoBCqVpAjSMMl+AptLBclH0EQY4toNMlwtBboFrQWGAN0HDMh+qTQMijzoqZqg/X/wGC62vS7NnttOSNDU1OpCIXF6aloXJlzE0BZNOc77zXOJUpzjTJQa5yHbjUufa4MHrfVEy20xtyRJp23kcPsypLnKxM53vvFJlqXRemewyP3kK5IyiztGYyYisdf5F55348ggAAA==");
 
 export default Ornament;

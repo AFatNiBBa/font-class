@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snake` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snake?s=thin snake}
  * @preview ![snake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/snake.svg)
  */
-const Snake: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M301.9 80l-9.3 0L172 80C103.5 80 48 135.5 48 204s55.5 124 124 124l176 0c28.7 0 52 23.3 52 52s-23.3 52-52 52l-91.9 0s0 0 0 0c0 0-.1 0-.1 0c0 0 0 0 0 0l-140.8 0c-10.6 0-21 2.1-30.8 6.2L22.4 464l62 25.8c9.7 4.1 20.2 6.2 30.8 6.2l60.7 0s0 0 0 0l.1 0s0 0 0 0l172 0c64.1 0 116-51.9 116-116s-51.9-116-116-116l-176 0c-33.1 0-60-26.9-60-60s26.9-60 60-60l120.6 0 9.3 0 4.6 8.1 1.6 2.8c13.1 23 37.6 37.2 64 37.2c10.8 0 21.4-2.4 31.2-6.9L469 154.4c16.5-7.7 27-24.2 27-42.4s-10.5-34.7-27-42.4L403.3 38.9c-9.8-4.6-20.4-6.9-31.2-6.9c-26.5 0-50.9 14.2-64 37.2l-1.6 2.8L301.9 80zM176 512l-.1 0-60.7 0c-12.7 0-25.2-2.5-36.9-7.4L7.4 475.1C2.9 473.2 0 468.8 0 464s2.9-9.2 7.4-11.1l70.9-29.5c11.7-4.9 24.2-7.4 36.9-7.4L256 416l.1 0 91.9 0c19.9 0 36-16.1 36-36s-16.1-36-36-36l-176 0C94.7 344 32 281.3 32 204S94.7 64 172 64l120.6 0 1.6-2.8c16-28 45.7-45.2 77.9-45.2c13.1 0 26.1 2.9 38 8.4l65.7 30.7C497.9 65.4 512 87.6 512 112s-14.1 46.6-36.2 56.9L410 199.6c-11.9 5.5-24.8 8.4-38 8.4c-32.2 0-61.9-17.3-77.9-45.2l-1.6-2.8L172 160c-24.3 0-44 19.7-44 44s19.7 44 44 44l176 0c72.9 0 132 59.1 132 132s-59.1 132-132 132l-172 0zM352 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm16 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Snake = createIcon("snake", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABtgAAALkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDbgsGAAE2AiQDCAQgBYMtBywb6gXIjsQ4JvGLKEyC5/m8/HNfMkpaD1qnED/NlYGlvfzr6YmQd30Xp57nPLT9LWRBmbPDegHpWLr3eQUKWI21mxvwLuCaTAGrinPN4MBsSdjvgS6XGYgN1Eb1BFjuXJT8IZKFoNA0AAAkBAAAqNelQytufJSPIk/8Z0Ge0AIQAKkPgIUAGgJiEACq0RDqe6BjATo6Ah/F77f/Ay0QABA73gtVAOiAHXgJfAUAdAAUuq4P6eJymbZAvbNpM4YYpnGn+oq1s+ZqI1P2etZGbnCvSTZknuRqpYvcTaWZrDVN1ZSYK0O+X+d60q7aa40N2Zd5KGpz1uE00/SIR46WLPZ1kf3Rm1I7yzrjTLZb3F1FthAaUZk3EDFNttqUxb71Ms+7zjDknrpu4u4615uY4pPjTRandJKLsVvKO8oeY0ViX5T3AvQa5nr2uVtzNWFH9ZWGRo/1vrWeNe513tiEqz5Q4qGQQ/98MvgJOWNcrvl1ExN1PTGx7gna/ntvs73/17YnAAAASwn59opXfAupAQAAjgAAcIK54HTC3GmuJig6rAj5Xi+OLQEBW7Dp95AVHcIom3UcqCHc2ziW/k5nfzqfN3wp0JPgTQeDgw9uCj7BzslDoqKGTN45DcWhBLevXhyhXm8oheFzR7RocUYxjfArjwl/fIUTjG3U0eHo2GjskePHgz5+DNIsPzgwAUBOa1D0xOoTXP3faSoAPl9qzF+R/4ZCHQKcKAAEtGx/Nj0VAAoEAAAAUDKZRAUggOIFOo4fwLq1GcGAEhR2DNCIJgR0DLLARhwle9gx6ICG6C4EN70gUAQwDjRKmQU6bk6DjWruJ+24Rfu+pa9T+rtMb1xHGi2zCnLzrUprsC6XP1nBnK+yZkfSJ6t9GQhkMGMYzUQGMZBhTKxh42mVmcQoGo+hjXgiFgXkko9FJdbq1m29c42L9Ql1oV9Zv0gV1v5+OpPHR2cgrvBYCzHVLShWtgmj+40YBAAA");
 
 export default Snake;

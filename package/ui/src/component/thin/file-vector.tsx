@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-vector` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-vector?s=thin file-vector}
  * @preview ![file-vector](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-vector.svg)
  */
-const FileVector: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 496c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l140.1 0c1.3 0 2.6 .1 3.9 .2L208 136c0 22.1 17.9 40 40 40l119.8 0c.2 1.3 .2 2.6 .2 3.9L368 448c0 26.5-21.5 48-48 48L64 496zM358.6 157.3c.9 .9 1.7 1.8 2.4 2.7L248 160c-13.3 0-24-10.7-24-24l0-113.1c1 .8 1.9 1.6 2.7 2.4L358.6 157.3zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-268.1c0-12.7-5.1-24.9-14.1-33.9L238.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zM96 240l32 0 0 8 0 16 0 8-8 0-16 0-8 0 0-32zm8 48l0 96-8 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-8 96 0 0 8c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-8 0 0-96 8 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 8-96 0 0-8c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l8 0zm160 0l0 96-8 0c-8.8 0-16 7.2-16 16l0 8-96 0 0-8c0-8.8-7.2-16-16-16l-8 0 0-96 8 0c8.8 0 16-7.2 16-16l0-8 96 0 0 8c0 8.8 7.2 16 16 16l8 0zm-8 144l0-8 0-16 0-8 8 0 16 0 8 0 0 32-32 0zm-128-8l0 8-32 0 0-32 8 0 16 0 8 0 0 8 0 16zM288 272l-8 0-16 0-8 0 0-8 0-16 0-8 32 0 0 32z" />
-    </Icon>
-);
+const FileVector = createIcon("file-vector", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABugAAAKdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiEFgsGAAE2AiQDCAQgBYMtBzIbGAbIjsJxr8QrljIZRBwsEXy/Vvb7M3fZ+3MUIFCowpZQJi4aYVKRzIo1C70RLixZAa//MM7eHxHaH+C8NThBaFAKuAvtQlm7iWue/3k0tj7Jo+SyqakCI8pHA5rovCmBZwOb6QRsBrl7Zl/ErmHqAGXs1ycmXUlNnEo/ND4a6klSFACiFwAs3ljO4vuW3kY0W4+IpqUgIJYAxiAUKDACgXmEAiOIjAGlUvA2Wi3lP5AhgGjn3TWBEhU+4BugBElHWU7oHNG1eKzaS1ZtXeWG6M55+Z1BEReHFXFt8KXJVRyrjoSoB16oqqiluDzg/ITOLRcG5rgzLEKn1nd/pzz23pAUV6ben9gVd6c/HF7EkUEb6GLO66tcCSFyjpFIjvMDLKCquDR4pYpSdHFQjgh9SigHVemWSmhdj1gFWhdUrb4SeQOSKwkbc1Wq+gvDuAe9Dz6PbQ6bWv6X8KKoFS9e+o9LiT30zx/q90CQOjsuZV1DtioO3AC9R49ar9/WQ99cy337vgCZxzoNeNV5LV4NOD76K49hmV4yjSFjLu12W+Zt9xiat2PSXMNmslJtqtj7kOP2bGOrStsx1+dUo9E4yAzVIgV4DKYbem9dMlxDbd4MCAT1+1s29cz71qgSeP/86+/0Z6T1jTo9QEMCQTGjNUM9aohaAABS7GKMGoHkvQ7eu3a6KEDICJC0ywIUhtMhUMqmI9BmlAgC7bK1hKLsEAZolELSaatQmOsklAb4E9rM859uNyCKe16/Y/U/ziwZBNK7OOD1c5J7W3LDbayaqyme7LEf1REH3YuhlaW9gb6JPeBb2dzBQmYITPsiFuDlx5J4cfempQaxrR1Uu43LN0nh7cN2x+HpDuoX8CRnqkgSkarPq9xzHPT2qy0A");
 
 export default FileVector;

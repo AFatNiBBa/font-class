@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-dress` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dress?s=light person-dress}
  * @preview ![person-dress](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-dress.svg)
  */
-const PersonDress: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M160 80a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112A56 56 0 1 1 160 0zM119.2 241.7c7.9 4 11.1 13.6 7.2 21.5L73.9 368l38.1 0 96 0 38.1 0L193.7 263.2c-4-7.9-.7-17.5 7.2-21.5s17.5-.7 21.5 7.2l64 128c2.5 5 2.2 10.9-.7 15.6s-8.1 7.6-13.6 7.6l-48 0 0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96-64 0 0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96-48 0c-5.5 0-10.7-2.9-13.6-7.6s-3.2-10.6-.7-15.6l64-128c4-7.9 13.6-11.1 21.5-7.2zM99 196.6L46.1 295.5c-4.2 7.8-13.9 10.7-21.7 6.6s-10.7-13.9-6.6-21.7l52.9-98.9C88.3 148.6 122.7 128 160 128s71.7 20.6 89.3 53.5l52.9 98.9c4.2 7.8 1.2 17.5-6.6 21.7s-17.5 1.2-21.7-6.6L221 196.6c-12-22.5-35.5-36.6-61-36.6s-49 14.1-61 36.6z" />
-    </Icon>
-);
+const PersonDress = createIcon("person-dress", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgQAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCGwsGAAE2AiQDCAQgBYMtBzMbHgXIjpSqm2vGwz9z9t2XpB0AykemZSZFaMf3rCXQbRR4/X1Tp57nPBTANwrKnrp4UXb3Fuh5RaOdgAWqFaymG5y7O1tkh9LkGkksluNcjscRstgX4xVIHk1+xt3pTuNXXW4gkaUAohEAS3Zt2+DzUpQifi5/SPxsHQJiKcgFUqToFWC+VKBXJkcmE5SiXA7/gTkBRBH9hARkKOJMXAHIQCLLsqq6Kf01hbpsZ02het/LPY+NfKHz0RHxYtejnY8Mf6n7sZ7HR21/sHV71NTsjIc6Hm7bEQ+2PlBdHeKB1ofaI1i7rV3UdgUGE7fv2v5Aww5jL9fcPuLFLsW+7TvjrZkfjB/6WuNrvw/5+aSfPX32lra2LSW5+a8+sczf3+2fdoqRN/kL9383eMaiq82atbJqssPqS6X6wxazN1nVyjm+9K/4Zv70o7nq8sGPD0w/4vurruztvfKq76t34OPBy92VTLvmmmlAINhRvrPhUMP8/ytrEvDLZ3/+n55GteXPY3ryGiolIEjHl8fbHxepVRvTBQAgiYsMjcVqBRInZOhWaz0kQKhGgERRtQCpHo0CZKqNE6Cg3wwBiqptk4qsSmh1oIFErXNBaqYrQabV+6Bgvu/8otZIrY6yGerTF7+yh1bsyqdMnJzPzZcdTBsSETfn5dv66ItwYgxUOsnZznKBE4471QUdcp4N0YXOtFKCV3ig3BQTTZabK1f3H/mdLjjP+U6d0/ptzJPft0e7SJ4/BqwEoU7VkEiIpNZIxQmvGA==");
 
 export default PersonDress;

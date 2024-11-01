@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `podium-star` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/podium-star?s=light podium-star}
  * @preview ![podium-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/podium-star.svg)
  */
-const PodiumStar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 32l64 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l64 0c26.5 0 48-21.5 48-48s-21.5-48-48-48L224 0c-20.9 0-38.7 13.4-45.3 32L168 32c-44.2 0-80 35.8-80 80l0 48-72 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l416 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-312 0 0-48c0-26.5 21.5-48 48-48l10.7 0c6.6 18.6 24.4 32 45.3 32zM47.3 224L73.5 455.2c3.7 32.3 31 56.8 63.6 56.8l173.7 0c32.5 0 59.9-24.4 63.6-56.8L400.7 224l-32.2 0L342.7 451.6c-1.8 16.2-15.5 28.4-31.8 28.4l-173.7 0c-16.3 0-30-12.2-31.8-28.4L79.5 224l-32.2 0zm214.2 58.8l-16.2-36.8c-8.2-18.6-34.2-18.6-42.4 0l-16.2 36.8-38.2 4.7c-20.5 2.5-26.6 27.4-13.2 40.4l28.7 27.8L156.2 396c-3.4 18 15.6 35.9 34.4 24.8L224 401.3l33.4 19.6c18.8 11 37.8-6.9 34.4-24.8l-7.6-40.3 28.7-27.8c13.4-13 7.3-37.9-13.2-40.4l-38.2-4.7zm-47.5 17.4l10.1-23 10.1 23c3.2 7.3 10 12.7 18.4 13.8l25.5 3.2-19.4 18.7c-5.8 5.6-8.2 13.8-6.8 21.5l5 26.1L235.6 371c-7.2-4.2-16-4.2-23.2 0l-21.2 12.4 5-26.1c1.5-7.7-1-15.9-6.8-21.5L170 317.1l25.5-3.2c8.3-1 15.2-6.5 18.4-13.8z" />
-    </Icon>
-);
+const PodiumStar = createIcon("podium-star", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABpgAAALxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDFwsGAAE2AiQDCAQgBYMtBzIbmQVRlO5Fjuxngd34cnBwGBm1BcSSggi8KOJBCGqAomZJjQhNuYJdqz2Df8i/z3NnZomOb/8KrhyIndSt1AbqoOp1cdHHbVx/Huhv9f7JaRo3CaSNR5iGC3qctqLrt/AKrAGH7e73WBUt0rA4nsBr4YMFuIZlxdnyInxNurArySTQDKIpjUbbbeKa53/+VCBlT/AoVVSrpCobZZ5PYIDRvAbb02g2sOkEbea2mMIMop5BRGQIDpGPH8eH8mfgwrqKEQKzNR9gOn+oflpXwXAJAAA1AACAjnl9Df4nfQr68L9HDxMQQCMAHgELLEglAM0sgVSOBxxH+KRgkP8DPQgAqsB5A8CBMPAIeAEAOABGSHax5W7GtlIc4yaU4shNSkXUonnBFMkly7IVsfSuddm5ZlmKRPKJrRTG7rmgQipzgMZw2ZqIprTOT4pGcbU8tjkxvhq+HY7i3ehd5yQVGuNxKJJ3HBNUjGfSmUPFnimVJe6bFswFdLGRFq1NrJO0bElnkkeWLLU1p81p54E5h7HMjOIID03ZdG68hYz6A9bAie7BT+bD3g+8nBNln2JjPyXE0mnljx+t/XjKe9BSCV1tKYeZoi8XN+QoVSix1NWO47suyNd6di+ssd7YdBQf2R/z64XrgO0D/24UidwRjebIrzG/226b5z2LtNu9b4v1494997b37Fqtu/vTEl6L6XuZzk3nwrCn9ysGpGwCmMN9CAAEhJzh79ymbf4LVxoAvrz6+V9/OOjLjw9AOANAsP1/yubgA0wNAPhJJpwlEHwQMG6hwLtGW0IAIJFAAIxQkQTAShFPAJxIRQQgRLoaAhAq0ihLOQJJtmViRrQTmFXrHOYke4yFaPY6FSo5WJsVLE74ZUydSGA8z5cXhWNbNUQz5OJ04NiIdehiOoq9jjnqtD12O+C0gE4ayZ5xRK8G9vgiT4VS5TyNvOvG6/4Je5x0ygHHHE2zNPGeD+U7qw8uINsAbaUVhoFi1PFj76WlvysA");
 
 export default PodiumStar;

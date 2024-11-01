@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bacon` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bacon?s=solid bacon}
  * @preview ![bacon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/bacon.svg)
  */
-const Bacon: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M439.2 1.2c11.2-3.2 23.2-.1 31.4 8.1L518 56.7l-26.5 7.9c-58 16.6-98.1 39.6-129.6 67.4c-31.2 27.5-53.2 59.1-75.1 90.9l-2.3 3.3C241.6 288.7 195 356.6 72.8 417.7L37.9 435.2 9.4 406.6c-7.3-7.3-10.6-17.6-9-27.8s8.1-18.9 17.3-23.5C136.1 296.2 180.9 231 223.3 169.3l2.3-3.4c21.8-31.8 44.9-64.9 77.7-93.9c33.4-29.5 75.8-53.6 135.9-70.8zM61.8 459l25.4-12.7c129.5-64.7 179.9-138.1 223.8-202l2.2-3.3c22.1-32.1 42.1-60.5 69.9-85.1c27.5-24.3 63.4-45.2 117.3-60.6c0 0 0 0 0 0l.2-.1 43.1-12.9 23 23c8 8 11.2 19.7 8.3 30.7s-11.3 19.6-22.2 22.7c-51.9 14.8-85.6 34.7-111.1 57.2c-26.1 23-45.1 49.9-67.3 82.1l-2.2 3.2C327.8 365.9 275.5 442 142.3 508.6c-12.3 6.2-27.2 3.7-36.9-6L61.8 459z" />
-    </Icon>
-);
+const Bacon = createIcon("bacon", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABcAAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBcQsGAAE2AiQDCAQgBYMtBywb7QTIhuB5u76vc7vnLaBewIgc7UcOMRMYwTN1qmachwL4SDEZG3MekHWe0JznGyzn6aJevBOs2C1SUay6jWl4kOuryBA8IoYkD80D5PFhdk6JdH16CVfqR8WPmjhHUiUDELUBMHrh3Ome+Sw+i3ix/CDxoqkIiNGgEMiw0FyAYTKBD5ArkMsFn0W5rP+BBQFEBbvHBHLkWIKNgBwkKc87dq1WqpEvqFaquvHmBsOjXbw17Ile9eN83DHqmXmDoktc0+jaRu+OfLrn6WgU96t14bqO7Tq+O/fNvgzfTYKUHdViYHSOq42va3cIdbv5PbNem3dDhxFtbqt928+tX9rwkoeeqvfhr641r/Hzz79WV3jls9cW9Si86PZWPb+d3/XVV16hjdd++ndhk0PPX7SvWtEryz6jrl/XrZveCMIdNnii96jS1IatR/9a12cN2q/uM6jm7UAgGPrvfU+srDXst8rVEvjisV//zFeW/y8/lsam21BZAkHWrdzNsjTKgf4bC5Ka4oA2MAkkcxoxPrW6awQIVREgqVBVgEwztQXIVdVVgJKW+gtQoaq5MpFXEepbPkBS3W6QGeA4yNV3PygZ5lm1Qv3IAowND/Z/lzSB0fFTRe8evYohxdLWuZihS31osS13OiCxzli0wU477LPeOpvtI3yP6cZ+203wsPF+qNBbD70UhiiOvef9C6y3x16b7bRDmwxV3Fc6OeBnd8Y8CdDnaaBkiVRas3rtzh0=");
 
 export default Bacon;

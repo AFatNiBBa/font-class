@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bars` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bars?s=regular bars}
  * @preview ![bars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bars.svg)
  */
-const Bars: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 88C0 74.7 10.7 64 24 64l400 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 112C10.7 112 0 101.3 0 88zM0 248c0-13.3 10.7-24 24-24l400 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 272c-13.3 0-24-10.7-24-24zM448 408c0 13.3-10.7 24-24 24L24 432c-13.3 0-24-10.7-24-24s10.7-24 24-24l400 0c13.3 0 24 10.7 24 24z" />
-    </Icon>
-);
+const Bars = createIcon("bars", false, "data:font/woff2;base64,d09GMgABAAAAAAIEAAoAAAAABVwAAAG3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBEwsGAAE2AiQDCAQgBYMtBysbjgTILg5MvG6KER03D0k4hhNPPs73RhQP/+3N3Tczf9NqUQlFoemSg5BdIxyuVyHpPsbswaLBrk8/t/f3d3117d2SOmTRZAmaS6PREpVQaDQz5MPKhiD5bFe17/9zs+c9jwL8RqHtoYEskGhuTyCxjRkGFtABnp+A3e5sCUW0i8Qoa8lxSY7HDSWeRirS4wTcjw+Nv3RvkioDiG4AcPbqcIBfPeoRJw3EiR4IiLOAaQIZGeMEOCIFxqmmQVEE9Wg0zH8gIYCowS9LoKDCFtgDUECSS+no6GirOsqVtqo1P13qiPcjj2yPD6Ma6Xqi+uvZD1+esWQ9cD7nB1zllZr8Sn8OIBCcu9fxazv619yWwJ+v/+ffUPxOX9AsgSCvN9ZN4zcQvwkAQIq7jPgNAskSCS/bPRAgtKJCUtMK2RgNilZrUJmUEcKLi6QoLUK/GYCk3Q3IDr2g6PeFypG/U9Mf+cZQ50192OKbFGkscccPWeM0VOhLQPhxnWJ9+WlLFuxi6eTobmFu406wq4H/cNDk0IYXUcQXohouJ4/rEwtXNxsnxzCnjvtt05NvtsBSIO6uQJKIVB4ZAAAA");
 
 export default Bars;

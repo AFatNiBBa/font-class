@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-cowboy` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-cowboy?s=sharp-regular hat-cowboy}
  * @preview ![hat-cowboy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hat-cowboy.svg)
  */
-const HatCowboy: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 80L260.1 52.4 216 32 202.8 78.8 151.7 260.6c13.9 5 29.2 9.6 46 13.6L247 99.2l52.9 24.4 20.1 9.3 20.1-9.3L393 99.2l49.2 175.1c16.8-4 32.1-8.7 46-13.6L437.2 78.8 424 32 379.9 52.4 320 80zM24 224L0 256s96 192 320 192s320-192 320-192l-24-32s-94.5 96-296 96s-296-96-296-96z" />
-    </Icon>
-);
+const HatCowboy = createIcon("hat-cowboy", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABagAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBVwsGAAE2AiQDCAQgBYMtBzEb2ATIhofv7fg693UP4B5JEeVIlQNYZTOOFumvTRkJ839NvbCmA/x87lnPD6TAM5+fwJ6PorwJZsPZRHFMs2566ZOUX5MXnaRhyg1bF8jj7zivFOly+oBz7U3jB/UcJimVAYiqABg6bdJEX5VEScT7/58Q741HQAwFhUCGDA0FGCATaChXIJcLSuL///U3sCCAKM2wxMzDg+MxG5CDJOV502YVSlXKp8a/r/yycWPH9YuGMTmutJwWY6NltI7xMSWutZ4ajaNPjJnfpn2b/W1vDPx87Nsp341/P/jL9reiXexvc33y15O/nfptu5vR7GbVmz81/bD0g8HrXr169cgn3Z4YdaTLXWP00ccYXe46MqrbE5888qr1uX379qX2DRcvef/ZJJN8eLVkcYcGaZ/0229Daw+pvTgWx5DaQ2v/9lsCAsFnK06umVdlwK9lKyTw/ctffslPpv3pJspKIMg6/N/B7LQflB1AkGKrZuCDAslwib1qRRcECOURICmtvACZBqoKkCuvvQClNNZTgNLKmyQTeTmhpjkDJBVtAJle9oBcTY9AKQO89kurGRmnBEYIX7rUUR4duaro2qlL0a9YxrpIE67M+xfbbputqdZWzlpqnbU2W2KxFTY7ZqOJ0RZrjEL0SF9U6KqTLgr9FMfZ8/GplthokxXWWVuX9Ffc99rYirvbynoSoNtrQGlzpPLLF2zuuGjdtoXrdgAAAA==");
 
 export default HatCowboy;

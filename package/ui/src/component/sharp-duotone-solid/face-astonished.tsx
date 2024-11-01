@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-astonished` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-astonished?s=sharp-duotone-solid face-astonished}
  * @preview ![face-astonished](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-astonished.svg)
  */
-const FaceAstonished: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM89.4 143.2c3.9-3.6 7.8-7.3 11.7-10.9c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1l16 0c0 10.7 0 21.3 0 32l-16 0c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8c-3.9 3.6-7.8 7.3-11.7 10.9L89.4 143.2zm55.2 77.5c.1-1.1 .3-2.1 .5-3.2c.4-2.1 1.1-4.1 1.9-6c1.6-3.8 4-7.3 6.9-10.2c5.8-5.8 13.8-9.4 22.6-9.4c17.7 0 32 14.3 32 32s-14.3 32-32 32c-8.8 0-16.8-3.6-22.6-9.4c-2.9-2.9-5.2-6.3-6.9-10.2c-.8-1.9-1.4-3.9-1.9-6c-.2-1-.4-2.1-.5-3.2c-.1-.5-.1-1.1-.1-1.6s0-1 0-1.8c0-.4 0-.9 0-1.5s.1-1.1 .1-1.6zM208 352c0-26.5 21.5-48 48-48s48 21.5 48 48l0 32c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-32zM304 96l16 0c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2l11.7 10.9-21.8 23.4-11.7-10.9c-15.5-14.5-34.8-24-56.1-26.8c-4.3-.6-8.6-.9-13-.9l-16 0c0-10.7 0-21.3 0-32zm.5 124.7c.1-1.1 .3-2.1 .5-3.2c.4-2.1 1.1-4.1 1.9-6c1.6-3.8 4-7.3 6.9-10.2c5.8-5.8 13.8-9.4 22.6-9.4c17.7 0 32 14.3 32 32s-14.3 32-32 32c-8.8 0-16.8-3.6-22.6-9.4c-2.9-2.9-5.2-6.3-6.9-10.2c-.8-1.9-1.4-3.9-1.9-6c-.2-1-.4-2.1-.5-3.2c-.1-.5-.1-1.1-.1-1.6s0-1 0-1.8c0-.4 0-.9 0-1.5s.1-1.1 .1-1.6z" />
-        <path d="M192 128c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8l-11.7 10.9L89.4 143.2l11.7-10.9c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1l16 0 0 32-16 0zm-15.6 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm160 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM333 128.9c-4.3-.6-8.6-.9-13-.9l-16 0 0-32 16 0c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2l11.7 10.9-21.8 23.4-11.7-10.9c-15.5-14.5-34.8-24-56.1-26.8z" />
-    </Icon>
-);
+const FaceAstonished = createIcon("face-astonished", true, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAAB6gAAALtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTyEYAsIAAE2AiQDCgQgBYMtB1objAYRlZqDyX4kZGcy11mzpv6wFJpoov1wJJ6Ht+vr3FfVPdNV/7sxWkEZhHgdiQphRetQijsAFLbJKYm2COiPkKFZ7f9PXFNXiQN88eluKN8L6sDCqOYJbIAbVXqDJFAjzMA2TC9Mwhv+YQN1vqgu1KHcVj7CNdb/AOZXi11I0asAZAYAOx203x5e+zE/lnw0fko+sjsC2RmsKKhQYZmAbVWCZWorolYLP5bxmPyY8RgCpMthVUK6mCDorJYAalDUunXdn58fLF2y3nC4RtuZrA9sO81hl/cfXLOftTPKE1vc0raRZsUrBslNzu3f2Fw+vHl4y6gtTTVw5ZubJkkb+6RPrzXImhnm8dXz9U7J63t83F6x16e7vHnQNzu/secnzeW7f7Tja/sfdMsouWW0g+NcTXbteWP/xv7aB5yX5LyY8tEtovmmwY0IhF3Oy83teXEVB9yxhGyNh4bYFsutMmPVh7ssyUFt054BPlfL87KogHOp2VW78uMzj/++0kcnfuTVHRbs/d/pLzjIC3576KTejBXNjKcu5dKpEJQIk6TJMvdWjevvvWCkW++kh36bvdTp/3nNbj0WP/n6Lru8/uTint3KiVLEwSetNMsmK+8jnnGk9gbr36y8yUFb7FECVQa77jBr6tJNVyslRYhEg2x/fvUx32644bcfVyvKMUl31HjGSToMfECw1uDMdeH18Fsodx0gUOQmW0MQBsc8sP9R09v+v7At4OcX/vxF/Dsav8aUx7FQAaFad7zu4QUUAgAoOcPKhUMQVJ7W5dzrhJsFRIOAoqsRUFlqRkCtsY6AjuVtJqCrsZ9K6p7oOyIHigknA5XNnQXU+p4EOrb1rrNL98NZBkqu0f/SJL5Mdp2QxSkMOhNSjLDDeqPFaLn85QIFh5L+2N+und4S7y483+b7+N1jIRNLgYHZ6euhZXc/U7tofjsW1jdLf395BVWMIzTXh6ugJdWI3ymj6kGd1/SMXRvxspKiTcSlAAA=");
 
 export default FaceAstonished;

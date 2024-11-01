@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-circle-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-xmark?s=sharp-solid cart-circle-xmark}
  * @preview ![cart-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cart-circle-xmark.svg)
  */
-const CartCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M24 0L0 0 0 48l24 0 52.1 0 60.3 316.5 3.7 19.5 19.9 0 160.7 0c-.5-5.3-.7-10.6-.7-16c0-10.9 1-21.6 2.9-32l-143 0-9.1-48 168.5 0c29.1-57 88.4-96 156.8-96c10 0 19.7 .8 29.2 2.4L576 32 122 32l-2.4-12.5L115.9 0 96 0 24 0zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm320 0a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm59.3-180.7L518.6 368l36.7 36.7L566.6 416 544 438.6l-11.3-11.3L496 390.6l-36.7 36.7L448 438.6 425.4 416l11.3-11.3L473.4 368l-36.7-36.7L425.4 320 448 297.4l11.3 11.3L496 345.4l36.7-36.7L544 297.4 566.6 320l-11.3 11.3z" />
-    </Icon>
-);
+const CartCircleXmark = createIcon("cart-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhwAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCOgsGAAE2AiQDCAQgBYMtBzgbQgXIhofn7ao/91WNqnc9Qs0S+IAdSUFGRT9ST1zz/M+fHjDpCR6tcw1SIKPM8wkMdLSbRVODpA2jcIK4vWk7FqXsS2aiSTq+peNKE8jjn+wiNaTb06e4tlxp/KbNRSQNGYAYAIDFO7eu997X8XXEJ9WXiU+sRUAsBqVAhgydAsyTCXTKlcjlgq+jWqX/wJIAohavOYEctTgPlwFykOR5PrJvx+hKTd98R+xa7FlUClGp7I42PNhb4vyWIrqjEs/OfXPllU07o080R3sUux/tuLP9jhEPtd7WdvvwvlfOjXhz4rNx/oRn5rxRXDHrtXFPOW/807Nfr+yct3De/GiKUdEcC2JeNMaYaImFgm+OsdEU8wdoidHROOSJAU/80fvpIZ9qebeV9ztJ67S580zReH9d/YCJ17rWY464/PJJ/b+acr/3dZiqcWP1vh9fffXH+/C1RSMTaXLviBG9k1MaOTJhYM5L0/AXvOEQT1pqqScd4g3T9KuDQDD0xksf2rf/vL/rKwl8+8Zff6hLV99L56UnUC+BIBtXHWevdB4QMYBYilMMMW4okJwmx5faxy0ChAIBklqFAJkOAwTIFcYKUKPbdAFqFbbKRN4gNNpb4KSP4+HMDGfDuUYvwjXm+SBaqzEyL2R8iHkDJq7QwPJO5eQJk8o55TClsY5Fpda55bQ56pRQMhr6OsSxjnGSgx3kcCcp6ATrEyc72goLXO6LSpNNMElpjnI5e997h4Od4ESHO9YxuZ25yv2RUU6xq48GJ2HSKZKSRKSB91gd/13HGn/amQUA");
 
 export default CartCircleXmark;

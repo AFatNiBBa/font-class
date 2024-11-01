@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-side` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-side?s=sharp-solid car-side}
  * @preview ![car-side](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/car-side.svg)
  */
-const CarSide: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M106.3 64L128 64l256 0 15.4 0L409 76 527.4 224 640 224l0 208-65.3 0c-7.6 45.4-47.1 80-94.7 80s-87.1-34.6-94.7-80l-130.7 0c-7.6 45.4-47.1 80-94.7 80s-87.1-34.6-94.7-80L0 432 0 224l42.3 0 56-139.9 8-20.1zM434.7 432a48 48 0 1 0 90.5-32 48 48 0 1 0 -90.5 32zM208 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM111.3 224L224 224l0-96-74.3 0-38.4 96zM272 224l173.4 0-76.8-96L272 128l0 96z" />
-    </Icon>
-);
+const CarSide = createIcon("car-side", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcwAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBeAsGAAE2AiQDCAQgBYMtBy8b9wTIjsO44TuyxVKGeIyH/7f7r31u1fuo10a1pIjSQI7kDA7Cvzqd1eFETGbV96lTOdkWCuBzpljQxsI1QdL2vDbneQUKOLZvoAIFrFajCnB3Z3NwrGmlRBqxkOPb8bpCHn9nV1RIzyR4KJYq/tTeFZL6DEA0A8C05YsX+a4hGiJ+/v9j4mcLEBDTQCmQwfZOAkyUCXmFXIlcLmiI//+n/8CSAKIG/4wEctRiLXYAcpBU8rxf48b19dVK43xZtVKsrhaNW8fSqIYo4vm+b4/8pP+7XaoV8/XLo+PWZ3q9MeC9Ds/2ftPb7ZfluOfr7fq6Pm91XFYtqnFoL6kWaNnTur/b7N0H3Wxj5/k2bXo95+hjDvrDNJueeGLo0ORuuoTk1KtXTPOH/sbcdnju/ptvvNajcpNE95sW+06f3ldEG749yKwN5uu9/pUP3rZgvY02AIHgkWnpw/VNJ/5VV03g/hc/QC///126kEKdBIJs4P8DrUkXwDEDqKQ4prvyQYFkqQouayNPChAKBEhqFAJkOmomQK4wQICKLkYJUKOwWCbyeqGVtQ0kjRwEmdHOglwrH4KKib4varSKzMhUE1G/eFmzJTJrVTls8NByfLlsqJrdyLg4ody2+x4LA/3gom322+eIrbbY6YigD1lUO2qv2Ro1yxeVhhlsqNJ45XX78fQyWx1y2E777aNlJijf530d08f3Ay9hyeG2JolIdZs3HhpkhgAA");
 
 export default CarSide;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-waveform` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-waveform?s=thin magnifying-glass-waveform}
  * @preview ![magnifying-glass-waveform](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/magnifying-glass-waveform.svg)
  */
-const MagnifyingGlassWaveform: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 16a192 192 0 1 1 0 384 192 192 0 1 1 0-384zm0 400c54.6 0 104.2-21 141.3-55.4l149 149c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-149-149C395 312.2 416 262.6 416 208C416 93.1 322.9 0 208 0S0 93.1 0 208S93.1 416 208 416zM192 104c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 208c0 4.4 3.6 8 8 8s8-3.6 8-8l0-208zm-64 32c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 144c0 4.4 3.6 8 8 8s8-3.6 8-8l0-144zm128 0c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 144c0 4.4 3.6 8 8 8s8-3.6 8-8l0-144zm64 32c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 80c0 4.4 3.6 8 8 8s8-3.6 8-8l0-80z" />
-    </Icon>
-);
+const MagnifyingGlassWaveform = createIcon("magnifying-glass-waveform", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABhwAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCGwsGAAE2AiQDCAQgBYMtB0AbKwUjEaZrSib7IyE3Y/qOTmMID4Wd04Qn8fD/dn2/z63qHkA1E0HkRxAByMj0rZ8ygjsA5v9yfh9vbMAv/v3QxqTbjcmLwr2fJxBo1Mum9xLIAstkCli7s1nZMdilJCmSHOc4Ho8L5PGmtUqkR9InuBEeNH7UwllJlgGI+gAYtWDONO9VRVXEJ5WXxSemICBGg0IgQ4bWAgyVCbSWK5DLBVVRqdj/wEIAUSY3SyBHdWzFEUAOknKet2pRW15nrVKdfH6tUs0lVwZFNHy929NOdn1q4Gs1Lw9+o/szcarHs0PerJW+nzMv7jV70HR+fL3gu9lfzf9m5hdzv5315bzF95vebSzuNXnQLCYWtBY66bAOT9R/4uf2n6z/xOfP9n2d1x5/vE+fGH/t9b6+xWy7OSfO3r1rzpx+/ZIzMWJ+wRNPLHBMPPGEilX1BpRXrix/gbEKfhM4CWAVYqbrIQjFHxvOr6g39LfqtRL88Mavf9OvqPJOSukJAKpLIMi6VrouTaj8n5IAAKTYr0OCQLJWmdxrbfcDhJoIkJTVFCDTSn0BcjV1EaCkrX4ClNU0RybyGkJjyxAmte2Cmf6OwVxjL8KSod4vlDWOTOtUnVEffVm342swblPRq3vPYnDRbcmaIsm8OqSYdjvup5FOsNf6Hdv3rlu7aW8l7p5W3rdt/AgZ98SiV/eexeBiuXu7e/663Xs27dju1xlS7M903D+e3gmCRCR7NyWJSC1+za1Yf2jT9g3dLprd7UTIygkA");
 
 export default MagnifyingGlassWaveform;

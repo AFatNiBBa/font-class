@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-plus` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-plus?s=sharp-regular comment-plus}
  * @preview ![comment-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/comment-plus.svg)
  */
-const CommentPlus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M101.9 387.7l10.8-28.9L90.9 336.9C63 308.9 48 275.1 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-26.8 0-52.3-3.9-75.7-11l-13.9-4.2-13.9 4.2L94.9 406.2l7-18.5zM16 480l57.8-17.3 92.6-27.8c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L37.2 423.5 16 480zM232 352l48 0 0-24 0-64 64 0 24 0 0-48-24 0-64 0 0-64 0-24-48 0 0 24 0 64-64 0-24 0 0 48 24 0 64 0 0 64 0 24z" />
-    </Icon>
-);
+const CommentPlus = createIcon("comment-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABdwAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCCQsGAAE2AiQDCAQgBYMtBzMbDAXIjsK2nTOK5SinYSB4UPGQLX9vZveO0ooFVZtGVoUknqAErgn7lSUeS7AI2/zv92vn7jqubzH9uEvatBnRxtDEtRIKQyIzdmn8408zfkaPNqYt+zyO6Wt37HgFCvjW1usVGgukqWkFrLuzTUia9mlprUhyfHZ8TlBjLxSE5Fveg6f2pvHN0CSQmgKAGAYAnN9mJOH4mz4j7v43IN4lgIA4B7CMUFAwj8ARvsA8gWVQVcEn/f+n/0AGAUQLfswEFQ3uwSOAClKpAlNzmbJQVZCtLFTKMTYwdqDD1eWUp5yPpAfZQuJ9pnxHj3QolowzE2ITcmij7+viLuTIcin4MP42+z32OnCffaRxxOUoKykTESkDoaREhBOCrAR7EGG1o7HyI7uvvkfV4SpGszAlVB0ZLuZFfXhEVQbt/N9wBgXKrgsUOFxgjBkuBvJpMzOptJjT8hioKCVUeyLmY4TDjw0QKnSag8FZKAxw6HyAQPBj1TtQoh74J1HmAb52f3/7zwj/3yk7oFuCoKz/OylMQBIAgIxuWCQQSHf48FL7PYNA6EWA1OoVoJijgUDVaw2BxiIvBFq9LvFFlSKMKxog9XsAxY4hUI1bA40jV15rPPjOxrgK89dLjA5Q1C7m5sIxfzatCOs/VN0MYNuyXXeesIejqNaiWacqlep0KqRdUtilSfQKjvJFjBsXHMYfO263+7NVadehTotm2iYAu2/Y6V7PtweNh0k35FISqfK8JefXCgAAAA==");
 
 export default CommentPlus;

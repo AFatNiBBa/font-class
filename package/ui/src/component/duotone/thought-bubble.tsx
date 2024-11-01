@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `thought-bubble` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thought-bubble?s=duotone thought-bubble}
  * @preview ![thought-bubble](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/thought-bubble.svg)
  */
-const ThoughtBubble: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 480a32 32 0 1 0 64 0A32 32 0 1 0 0 480zm96-48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M374.8 80.3C355.9 33.2 309.8 0 256 0s-99.9 33.2-118.8 80.3c-3-.2-6.1-.3-9.2-.3C57.3 80 0 137.3 0 208s57.3 128 128 128c14.4 0 28.3-2.4 41.3-6.8C184.7 361.6 217.7 384 256 384s71.3-22.4 86.7-54.8c12.9 4.4 26.8 6.8 41.3 6.8c70.7 0 128-57.3 128-128s-57.3-128-128-128c-3.1 0-6.1 .1-9.2 .3z" />
-    </Icon>
-);
+const ThoughtBubble = createIcon("thought-bubble", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABfwAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBXwsIAAE2AiQDCgQgBYMtB1gbCQXIjtRGecSPxMP/2/3XPreq3moA1TAj0O83iKhHzH46AKMJolY2cPw+G00p1oUWZWM0dt8uq3dTp55nWiiADwIZC3MekGwcY/W8Aj3f1KvXCzaWUE1rYH3b8OiopNOIECOJaKyysTpDHr9kVxSk59PPuM//Axi/6ugKScMMQLQAwIyVS+f7/GE8TPFzrYmfzUNAzASlQIYMXQSYLBPoIlcilwseplqNh1GrlQQQFXxfGaigwFKsBuQgCSnPB7Vu2rhomq9oXDTa+cpAiPqx3f904UZfT/64zClvzu1+3mc2jvju7Phu2me9auqfa9hcaAvxoHewvcXFdtroVhuxcobCK0Tf1Xt0oPoW9/ceP+/42bG6J//z9MKFp/8/yYtFs0YXxehZi9r1fb9a7dq1Wn2/L+o9Ra5sdoMbzUoCAxuHNaqePl1tBJcDgaDzm9N/3Nh88v8NGifw+MM//6UfktrnSapHAwkE2eDaYOsSSAQAIMUxPRMQyAyS5E9t4hkBQiMESCoaCZDprIUAuUYGCVDoZowAFY0slYm8odDG+gaSJg6CzFhnQa6Nt0Bhsu/UijaRORbrFuy/LmmuhOasKkcMHV5OLIeJyvkKHRYnldNy/2PUGAAn7VCn6ojtttntiCAPmW8ctd9ci5jji0ojDDVcaaJyOV8fX2G7Qw7brU41LTNJuV/p75jdPwDWkwAjjySUESmydq8pNGTL0S1b9m0f4qRdHXrCjQQAAAA=");
 
 export default ThoughtBubble;

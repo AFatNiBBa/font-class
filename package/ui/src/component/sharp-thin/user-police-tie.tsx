@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-police-tie` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-police-tie?s=sharp-thin user-police-tie}
  * @preview ![user-police-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-police-tie.svg)
  */
-const UserPoliceTie: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 80l0-32L224 0 48 48l0 32L80 99.2 80 144c16 10.7 67.2 32 144 32s128-21.3 144-32l0-44.8L400 80zM352 99.2l0 35.6c-16.2 8.2-50.5 20.5-99.4 24.2c21.5-20.4 27.4-48.8 27.4-67.7l0-5.4-5-2L227 64.6l-3-1.2-3 1.2L173 83.8l-5 2 0 5.4c0 19 5.9 47.4 27.4 67.7c-48.9-3.6-83.2-16-99.4-24.2l0-35.6 0-9.1-7.8-4.7L64 70.9l0-10.7L224 16.6 384 60.2l0 10.7L359.8 85.5 352 90.1l0 9.1zM207.8 458.5L224 431.6l16.2 26.9-6.2 8.2L224 480l-10-13.3-6.2-8.2zm-10.4-13.8L128 352l-80 0L4.8 496 0 512l16.7 0 414.6 0 16.7 0-4.8-16L400 352l-80 0-69.5 92.6-17-28.3 37-51.7 9-12.6L264 352l-80 0-15.5 0 9 12.6 37 51.7-17 28.3zm51-76.6l-23.9 33.4-.6-1-.6 1L199.5 368l48.9 0zM236.8 489.6L328 368l60.1 0 38.4 128L232 496l4.8-6.4zm-25.6 0L216 496 21.5 496 59.9 368l60.1 0 91.2 121.6zM96 192c0 70.7 57.3 128 128 128s128-57.3 128-128c0-2.9-.1-5.8-.3-8.7c-4.8 2.3-10.1 4.5-15.7 6.7c0 .7 0 1.3 0 2c0 61.9-50.1 112-112 112s-112-50.1-112-112c0-.7 0-1.3 0-2c-5.7-2.2-10.9-4.4-15.7-6.7c-.2 2.9-.3 5.8-.3 8.7zm128-32.7c-29-13.7-38.5-41.8-39.8-62.7L224 80.6l39.8 15.9c-1.3 20.9-10.8 49-39.8 62.7z" />
-    </Icon>
-);
+const UserPoliceTie = createIcon("user-police-tie", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAABuwAAAMDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiEBgsGAAE2AiQDCAQgBYMtBzYbDAbIhoeXnNb7jl2wW6UjpYDjIcYFYrztEejKOP/X5Hv3/Kj98xEcStWitKmKNsp8PoEB3j5t3jqwCsDpBG2D80YdUGgK6WtI4wZ7ykiuSz7EJe6m4mudziRRqQCIFgAs2GbTGq9+EV9EfPD/U8QHViEgFoBSoALhPQLMVhHdNaRKpFLBF/H///Y/sCSAqBM+MgEpCnyMXwApSDSmaeeM5gFFUQyqFllzurXI8n1CbI3NIUaEuGrKU0vemfZMe8So6cKVg++cfE33DRHRFjOjLWoxPWohTu28rvXpoXe3xaQxFBVvE1tCDF5IbNvd0d3pjZora2vbumVrHptFUdHcFlujiY+MRdHOIHlrLIjh24weN/rU+NgoNm8TxYvYEvkCzwraWvPYJtonsf1tcyJeWvLOvFcGnRZX1k6N09w4/N7JT4+8v++0OC2ubjvVNnd3RVzfNi2mxJUd1w4eeH/L/d8O+HDvD11ySFmWj4wT25V+MsazK1deeinNe3aMn34aLI761DlXT/x+w8ZqZoGfDDDATxbIVDdu+H7i1ec8NVijI52kcMtItKBwsiM0XrLPXzBqGzdSZpuHFu8IWW/kJdbp98i60rPeYLkmC12oZZcLLdQ0YfVuGFGym/H5cdtjm9mGnuINS7qWwPzXDTnFbCMPeviIbDKL1q9fNDlLsyMOD6L63/c//PD9f9UgTt8jS08pV57KadVTnKJ62qkrgUDQ/4yrDtylOvvXhiIBXz3//deKg/9/NV5N7keDBASV0f+PtmO8CowdwE9K4mgD41UEEh9phG+1ydUChBwBEnVyASq6tQiQyo0SINNnigB1cptURNoo1OzUgESTw0DFVCeBVM0TIDPbO8k6tajc6/KdKv9pZiztokvmlRPGji9nlrNVlXL7inp6VrnZO/xo3jUCrrS3QxzsSHvZ036O7OCHW5M5ykGWLmFLfFFpgrHGK81UHm48NLbi5OGOsN+0dnyWWcrrg8MdvTx4BAwkAudEFYmESKrfh2PMOxYbc+R+ewEAAAA=");
 
 export default UserPoliceTie;

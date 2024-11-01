@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-text` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-text?s=sharp-light comment-text}
  * @preview ![comment-text](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/comment-text.svg)
  */
-const CommentText: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M86.9 382l7.2-19.3L79.6 348.2C49.1 317.6 32 279.9 32 240c0-91.3 93.8-176 224-176s224 84.7 224 176s-93.8 176-224 176c-28.4 0-55.5-4.2-80.3-11.7l-9.2-2.8-9.3 2.8L68.6 430.8 86.9 382zM16 480l38.5-11.6 111.9-33.6c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L30.1 442.4 16 480zM192 160l-16 0 0 32 16 0 48 0 0 112 0 16 32 0 0-16 0-112 48 0 16 0 0-32-16 0-64 0-64 0z" />
-    </Icon>
-);
+const CommentText = createIcon("comment-text", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcwAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBegsGAAE2AiQDCAQgBYMtBzMb/QTIhof/n6u67yfVZzoZhgwzOiC1yGolETu0BLrm/5p6YU0H+I0OLZJSD6SeZyzq+QQG+G03n08oCmymE7Dtzm2HpYV9kpYiyfHNcTpDHi/HEDXSvekT3Jw/NH7VyTWSPAMQLQEwc/3qpd74KX6K+KT+LPGJxQiIWaASyJChqwBTZAJd5SrkcsFPUa+H/8CKAKKBvnACOWrYjGOAHCRZnnfr0aGsNcvXlbVifZeOXdrHa72+X/31+m9Xfrn2mxVfrLluXPtoG2ti9JrxY8avj2fL7xd/PP313g9Oe23RR+u+WfDBlFeqb1euia6bi7IQZSlEGaCXMlH0eqjlQ7/3/GTfJ9bN3IUTP/ijacx76+tdsSu+fqtIDB+8+LJbre+s5bydhwl+rPLAiPmuu79798bGaN5/HckMicX7Os/z7ePTW2qs0nLECS1VBDGi5eUgEBSDujTb3mLK/03KBH556c+/wa+o/lOSHkITCQTZkPoQWxJIBAAgxTm9EgSS1TJ4rU3dJUAoECBpUAiQ6aKlALnCYAFquhsrQIPCapnIG4W2tnaQNHUSZMY5D3JtPQ1qpnjfb9A2Mi+TfET646XPs/jcQ9XIYSOqSdW00mTHEWR3crVtDTjHMwPxpH2OO+aMvfY46IzhTlkanXXUvBU71xdVRhpmhMok1XH7eHydvU457aDjjqV9JqvuewOcWy8fiG6ivKPkkkSkps/aGOqDAAA=");
 
 export default CommentText;

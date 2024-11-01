@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `helmet-battle` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/helmet-battle?s=light helmet-battle}
  * @preview ![helmet-battle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/helmet-battle.svg)
  */
-const HelmetBattle: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M84.4 .6c8.5 2.4 13.4 11.3 11 19.8l-53 185.5C39.8 215 46.6 224 56 224c8.8 0 16 7.2 16 16s-7.2 16-16 16c-30.7 0-52.8-29.4-44.4-58.9l53-185.5C67 3.1 75.9-1.8 84.4 .6zM285.4 32c-1.3 0-2.2 .3-2.9 .6c-13.2 6.8-52.7 28.3-88.6 60.1C157.4 125 128 164.8 128 208c0 41.7-8.3 92.9-16.3 133.1c-4 20.2-8.1 37.9-11.1 50.6c-.7 3-1.4 5.8-2 8.2L240 477.7l0-192.6-45.9-9.2c-19.8-4-34.1-21.4-34.1-41.6c0-23.4 19-42.4 42.4-42.4l171.2 0c23.4 0 42.4 19 42.4 42.4c0 20.2-14.3 37.6-34.1 41.6L336 285.1l0 192.6 141.4-77.8c-.6-2.4-1.3-5.2-2-8.2c-3-12.6-7.1-30.4-11.1-50.6c-8-40.2-16.3-91.5-16.3-133.1c0-43.2-29.4-83-65.9-115.3c-35.9-31.8-75.4-53.3-88.6-60.1c-.7-.4-1.6-.6-2.9-.6l-5.2 0zm226 371.9c1.9 7.1-1.3 14.6-7.7 18.1L346.3 508.6c-3.9 2.1-8.2 3.3-12.6 3.5c-16.2 .7-29.7-12.3-29.7-28.5l0-198.5c0-15.3 10.8-28.4 25.7-31.4l45.9-9.2c4.9-1 8.3-5.2 8.3-10.2c0-5.7-4.6-10.4-10.4-10.4l-171.2 0c-5.7 0-10.4 4.6-10.4 10.4c0 4.9 3.5 9.2 8.3 10.2l45.9 9.2c15 3 25.7 16.1 25.7 31.4l0 198.5c0 16.2-13.5 29.2-29.7 28.5c-4.4-.2-8.7-1.4-12.6-3.5L72.3 422c-6.4-3.5-9.6-11-7.7-18.1c0 0 0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0-.1l.1-.2 .3-1c.2-.9 .6-2.2 1-3.9c.9-3.4 2.1-8.3 3.6-14.5c3-12.3 6.9-29.6 10.9-49.4C88.3 295.1 96 246.3 96 208c0-57.5 38.5-105.4 76.7-139.3c38.8-34.3 81-57.3 95.2-64.6C273.5 1.3 279.5 0 285.4 0l5.2 0c5.9 0 11.9 1.3 17.5 4.2c14.2 7.3 56.3 30.2 95.2 64.6C441.5 102.6 480 150.5 480 208c0 38.3 7.7 87.1 15.7 126.9c4 19.8 7.9 37.1 10.9 49.4c1.5 6.2 2.7 11.1 3.6 14.5c.4 1.7 .8 3 1 3.9l.3 1 .1 .2c0 0 0 0 0 .1c0 0 0 0 0 0s0 0 0 0s0 0 0 0zm-.1-392.3l53 185.5c8.4 29.5-13.7 58.9-44.4 58.9c-8.8 0-16-7.2-16-16s7.2-16 16-16c9.4 0 16.2-9 13.6-18.1l-53-185.5c-2.4-8.5 2.5-17.4 11-19.8s17.4 2.5 19.8 11z" />
-    </Icon>
-);
+const HelmetBattle = createIcon("helmet-battle", false, "data:font/woff2;base64,d09GMgABAAAAAANsAAoAAAAABzAAAAMfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHCEKwsGAAE2AiQDCAQgBYMtBzQbLwZRlO5FhOzjMG74SixKxBCtaHEytfDLk3KK4Pu97/acd1Na8fkqpVRZZWws1VhcM4bxKPBfOOgWJNHPf5Ir31+Ic4Ard+AcqIoIqQrqku0jn+eazw/4AL/4+aFFLaKoAigTtJ7vDaja2mbzA93IZhPRnW17UcQ1X2iMM5T4Gg1i8kM28cZZH39NWIBUKh6iHyjVwX1pPp78il8Rzfom0XQFAuIQwDxChQrTCGwTCkwTmQdFEfyKuib+D5yHAKIVfnKCglb8J1oABaRSytDptEkp7il/uXGXomanqYx2mHead5hOOfY5K2i3uXzNtCPwROgZle6acR2w7bF1PzpL5USUTLssu2jWuluppHXzTsyYdpgSCVShpH0L0zyH6FD4OWoIPjXDrVBUbWpUrM0OE+0PScGSlRoURDJnzEl00o6cGZmA0y7rLPmM55yl3bPX73fu9x6mwzGXI85HnD5zT9DZsLNRF90z7oP2vfaddzDBTPL9KdXlvHyvbU/gLgtV7z5BObvN/ud05377fWj/gNJHn6MS78L7/5dG83PwyVOeeAf5H994CCc2bb59O9IFlpVV358gFAIb8j3Fd/jW9+kM9+8bLiDO1u1b933H04GwUJjQXz8zwOCKXPWbN2/aAYHk10jEzoNciUQ9sax6DdvYDzRJZVvOY0YmG/qBMdtrKCcm1NKSA9zOCHjfh0AEEoXF99XHZroVzS3ffxw5fHOkQwL5yM3DR358b2lWuDNj++uy7CIQETzXcuIdP8S/PBl83wv/xyTehfuFL18bIBB85Pd/PfRtP8mUCf58+vuU3t9af87NPId2CYKqUTfU5j4kWkf6ETSW8Rr++IMC6Z/C83Z7uzYROimRWnWiMkWHotMCWsxKYmauviYUpUMYVoeRuj1DZdUkimHX0WLb62ir4RBCPwe73Mdncl6dyB3H4qJjWTobzMl5gGbM3gw22xg6LmvC8E60G9BvVJtWXUZr5LD8xJg+eWPU3PcycaLFYtKx1cXbMqexYSO6+vn1o8jA9veGGh9vHoYtAh7tolMpiex5bOvtaxuN+mUIAAAA");
 
 export default HelmetBattle;

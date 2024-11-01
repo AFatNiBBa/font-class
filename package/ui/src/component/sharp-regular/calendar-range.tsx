@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-range` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-range?s=sharp-regular calendar-range}
  * @preview ![calendar-range](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/calendar-range.svg)
  */
-const CalendarRange: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M152 24l0-24L104 0l0 24 0 40L0 64l0 80 0 48L0 464l0 48 48 0 352 0 48 0 0-48 0-272 0-48 0-80L344 64l0-40 0-24L296 0l0 24 0 40L152 64l0-40zM48 192l352 0 0 272L48 464l0-272zm48 64l0 64 64 0 0-64-64 0zm192 96l0 64 64 0 0-64-64 0zm-96-88l0 48 160 0 0-48-160 0zM96 360l0 48 160 0 0-48L96 360z" />
-    </Icon>
-);
+const CalendarRange = createIcon("calendar-range", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABawAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiCAAsGAAE2AiQDCAQgBYMtBzUbBQXIHoVxMz3SRXOUj8L+MUKSTh7+f79++9z3Zr6IvfUT+KCujUaHZNKs0vCmpfxFZRHJk8y1kBXyPnFN/tSnB0x6gkerXqVnUOf5BAY43bipwGcDm07QloIBZXeaZYpi75LEkhzfHKcj5PE0UiI9TnCvfGj81ecuSSkDEK0AWLZnxybfxmIs4nd14rcNCIhloBDIkGFQgIUygUG5ArlcMBbVKv0HFgQQZfyqBHLU4jjOA3KQlPN8ch0nGkpN+e5b6g+EqA8IpJKGpogsvFUPonYodjY1NqVojGyZ0ODsXRXdje7cPfqu9d0/TvPwdW9HVPQa56ytKlpVVO6nuq3OGqcXFtw37szro5itjmqtLtWEwNcjEjqyp6L2lYpXR47A/UAgmLu8f/KRloX/axsS+PNhul31W3xL71ArgSCbVJ3kYHwDYgfwk1LcNhrfEEj2K8N3bfRAgFCPAElZvQCZAa0C5OpNFKBk2CwByurtkIm8Tuh0qBFJo2tEZrY7RK7Te6Jkoe+pss7IDE00E/Gbl7a6h1ZtK6ZNqRTzi2WbSLbD5/UFxbZ73O04Nh72Ou2Ky2465aRzbnb4dZuyt1yyWsNW+aLCNFNUFOYrjnuP2m5MXXfDubntfJMFivvxcW7rs8eDL2HO6ZqSRKTmZ2hMfqw=");
 
 export default CalendarRange;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-confused` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-confused?s=regular face-confused}
  * @preview ![face-confused](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-confused.svg)
  */
-const FaceConfused: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM203.2 385.6l-12.8 9.6c-10.6 8-25.6 5.8-33.6-4.8s-5.8-25.6 4.8-33.6l12.8-9.6c37.4-28 82.9-43.2 129.6-43.2l40 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-40 0c-36.4 0-71.7 11.8-100.8 33.6zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const FaceConfused = createIcon("face-confused", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiQAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCMwsGAAE2AiQDCAQgBYMtBzQbNwXIhof/11ne9yUPmBZJywAhxAqB2jlpsUpaT52qGeehAL6FLChj45ogCyQ053kFKtaLd4vXClbTClhZujvbji1p2iexFEmOz47P4Qx5vB23KpHuS9/glvSm8aceriQpZQCiPQDmb9242gdt0RbxdeNV4msrERDzQSGQIUNvAWbJBHrLFcjlgrZoNOg3sCCAaKJ/SgI5mnE+rgbkICnlea9eXTt1qpRq+ZZKqXzwsjERz634qnz9si9GPePS0c8u/7Jyw8qvxz4f1d8XRny89vvKDau/nf/h5l/mfbDqm/L1a75b8NGWzZ27dX6k5/1Du8X3WyvxaI97B5Xj+llb7ukWcU/lhi53ubTzneXru97ddesNXSJaakjRHQOeav/U3/2/OfKN79+f/h7PVStTp1aqz7033WRo/weLW+nx8ocLF374co9WiyWL9leXfaHP9mp7sf6m+5YaZn2XLuuHmfbhjBdr13JtrX7ttfUA1eza+/1wAzNIBOK2tx8YuGVvu1n/tVQS+OOtf/+Xv0WND5L0FFokEGSjGqPsSiARAIAUZxuQIJCcrkRftepuAUIZAZImZQEyvbQXIFc2UoCSviYL0KRso0zkrUJnuytIqk4DmSkuArnOXgYls3weNukcmQdy/sM9AJOXWHTxsWL8mHHFjGKYKbxTMXE7s1hWhp3NneGw64hTnOxMhx1ynDMNfrrVyVlOsmSGLfZBhfHGGKcwQ7Fd3p/e4rDTneE4pzhZDpmpOB8Mc/Z8fDjoiZJOkEoSkWr3uz/68wcAAA==");
 
 export default FaceConfused;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bus?s=regular bus}
  * @preview ![bus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bus.svg)
  */
-const Bus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M363.7 96l97.5 0C445.4 78.9 399.2 48 288 48C185.8 48 133.8 78.3 115.5 96l96.8 0c5.5-9.6 15.9-16 27.7-16l96 0c11.8 0 22.2 6.4 27.7 16zM464 144l-152 0 0 80 152 0 0-80zm-352 0l0 80 152 0 0-80-152 0zm0 128l0 104c0 13.3 10.7 24 24 24l228.2 0 75.8 0c13.3 0 24-10.7 24-24l0-104-352 0zM74.2 70C99.9 38.7 167.8 0 288 0C416.6 0 478 38.6 502.4 70.6c7.5 9.8 9.6 20.9 9.6 29.9l0 27.6c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l0 120c0 25-12.7 47-32 59.9l0 52.1c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-40-67.8 0L144 448l0 40c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-52.1C76.7 423 64 401 64 376l0-120c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l0-27.6C64 91.6 66 80 74.2 70zM176 304a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm224 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Bus = createIcon("bus", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABmAAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDBAsGAAE2AiQDCAQgBYMtByobfgXIhocnXen7I+2BZIYxAgQAsXKXcHWpGKuk3YnLnf/50/aFL/4oY+Oi37QGPj421nnnYYBZl02bQlmYJRYYxJK1s1/eILpF+gR5kmH7YVXOUMaXcasG6b70KW6JLxp/6u9KkkYBILoBYNmeHZvs+y6+i/ik+RbxiQ0IiGUgCxQoMEiAhQqBQUoZpVLwXTSb/B+YCSBa4MckUKIdj+MlQAmS1rLs1d7eeVnPnnWjc7m7blTH1FV99+z3d3fMfLNXHfeMqeOp3ruquhJ1RCehjoiKcN+oun5mYESn3S9siPhkzxfrPhp3Vy9xQ++7iEt73VmJB8eKe0c+PSCiqoTx/JCI6/vcHd3L+t5TR9zdd9c6HnEXfijymLrdPPz5bs//PezToz91wiGHYb+XLjl1mw0eueXzQ92cD5VvPmLKvaBvda+th26l32urey899uLe237auK33sQ4d9dHYVczazyF6j2p/uctAXa69tsvS1DpXn46Z1jguxlr51VhZnamjz7l6a5DOrxz1O0Vc2yX1eMx37eNAILj7l4/6HdJ14X9tdQI/vP/v//lL5Oa+lNPzaJNAUExsTnRgWirLKQsoUpxtuPJGgeR+rfCsndwtQKgQIGlRCVAYqJsApcoEARqGmCVAi8oOhSjbhV4OKkTSyWlEYbaLiFIvbxANC32Qt+gVhalKhiY9FNNX18CqdXna5Kl5fp72RLY+wS8uyNvG2LPdwDja6WinONmZjnKk45xZQafbVJ3lJKs1cJUPyqaZbKpsvnw8Vr99t6Oc7gzHOcXJYZkF8n1/rLP18ePITsA6XZwkPxY7h591BgAA");
 
 export default Bus;

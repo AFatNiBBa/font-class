@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `watch-apple` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/watch-apple?s=solid watch-apple}
  * @preview ![watch-apple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/watch-apple.svg)
  */
-const WatchApple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 48l256 0c0-26.5-21.5-48-48-48L112 0C85.5 0 64 21.5 64 48zM80 80C35.8 80 0 115.8 0 160L0 352c0 44.2 35.8 80 80 80l224 0c44.2 0 80-35.8 80-80l0-192c0-44.2-35.8-80-80-80L80 80zM192 213.3a42.7 42.7 0 1 1 0 85.3 42.7 42.7 0 1 1 0-85.3zM213.3 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm-74.7-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm74.7-160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm-74.7-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM64 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm224-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM112 512l160 0c26.5 0 48-21.5 48-48L64 464c0 26.5 21.5 48 48 48z" />
-    </Icon>
-);
+const WatchApple = createIcon("watch-apple", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABsQAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDLgsGAAE2AiQDCAQgBYMtBzIbsAXIjtRG+YWZxMOD3n+dm+TreeSMpErC0qjW3ZTrjiWrV7Xv83/N54dJB/j5RAulFlUY6VFhExhgtDftcCCzgZ0obmrei4N8XSHtClmcS6/SQHJ/8i1udX40/tDJVSRaUgBRA8DMVcuW+uzn+DnimzriG4sREDNBLpAiRVcBpkgFusrkyGSCn6NeZ/+BOQFEI0/CBGQo4W18DshAopBllc7lahvKwaxKsaGcrXQ/XlhXLpUfaH9Pv0I81faujp3eGhDxXFfx8MDnxxbj3cEv9oh4ZNAL4worbux0f8f7Cjd0fqDLg8UVD3a4t93dLmt7V2Nf+3var7yxXcTd7e5ilrh8YLHiqlHN8sgSwdtunAHHKqrLoquLheKzOtKlFPe70vXt9ULthb96frvzW9NvRfrd9yMeM+L779J6bQcr4zOxckftZzU1yzt0VaeLb7vYKV7f9ob47d9//29due66Spl5ygt7QAtcKIW2EC648NFxy6JLrYNShWf81KPtebXHY55wOcVF3wcCwSfNf9+xqTrl7+ZiAn794H/p6+qfxWXJC2iWgCAdUh9ifVwGjBxAPImTeo3ILJB4WQG8by25R4BQQIBEo4IAqS5qAmQKBgvQoLuxAjQqWCYVWYvQ1oYSJEqOgNQ4F0CmrTdBgym+iDdqG+n9q7j7FH+PaefVobmr8pHDRuST8sGyXHlLCnp8cj7bOuAkbxsIL9rpkIOO22G7PY7XiKOWpk44YN4YPpeMciMNM0Juknx17fbplXY46pg9Djlol5ks3z84wMnx3gOhI+GxjpKTSIikeMvrh342");
 
 export default WatchApple;

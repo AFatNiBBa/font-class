@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree-decorated` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-decorated?s=solid tree-decorated}
  * @preview ![tree-decorated](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/tree-decorated.svg)
  */
-const TreeDecorated: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M210.6 5.9L62 169.4c-3.9 4.2-6 9.8-6 15.5C56 197.7 66.3 208 79.1 208l24.9 0L28.5 313.7c-2.9 4.1-4.5 9-4.5 14.1C24 341.1 34.8 352 48.2 352L80 352 3.8 474c-2.5 4-3.8 8.5-3.8 13.2C0 500.9 11.1 512 24.9 512l398.3 0c13.7 0 24.9-11.1 24.9-24.9c0-4.7-1.3-9.2-3.8-13.2L368 352l31.8 0c13.4 0 24.2-10.9 24.2-24.2c0-5-1.6-10-4.5-14.1L344 208l24.9 0c12.7 0 23.1-10.3 23.1-23.1c0-5.7-2.1-11.3-6-15.5L237.4 5.9C234 2.1 229.1 0 224 0s-10 2.1-13.4 5.9zM160 264a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm72-104a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm56 232a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const TreeDecorated = createIcon("tree-decorated", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABdAAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBbwsGAAE2AiQDCAQgBYMtBzUb9ATIjsM4FjzSqcI/gmCunE1SAE4BGDSxA5ZA6l3JVSgkRaqXzIqEU6eeZ1oogG8Us9jeFt+ee0rnOK9ABQdvqlBtc0Sxi9tuipiEuIdE4whZXEpTjORCAseiJ41vajlColQKICoCYOD0yWMVvY7XES8L94mXRiMgBoJcIEWKugL0kQrUlcmRyQSvo1AQ/4E5AURxydEJyFAc07EMzFMSGSa7lErLFCuXTSt+Kz17yvQpp11oWiamRM2uXNyoc7D6tCiz42zpq864Vut8k+u1LzWf7sTYnjo70Oh2xds/GlrGq8enL6c3TStVdWAto1YaWrLaxNzonbqWqL7wqIXVS3QdpLmJ1Uo2tZVqGVi11LSz3Bmo5NBOMbFatYk5OXy52MfdP83vBwLBm//d78yv0Od3yTIJePvk17/6doWiKEpuo6QEBGmbQhtzogjEekggJLFNo52WBRLjZZA8allnBQilESBRXGkBUnVUFCBTWmsBiqmvqwDFlTZZKrJSQlVze5AoayNIdbMXZKq6C4rp42leXNVI4UuEDvHzLm3YGBm6Le/YrkPeK99stBLI8Ha9d37aa7FtNtYS77XMeutssdQSK20Z0ZuMrbZaa9geNVSLch2100Gul/x277k2jeabbLZy3XZ/k97y95MWtu3PbonDRMLYCZRIiKR8uBtr+7dMIdgBAA==");
 
 export default TreeDecorated;

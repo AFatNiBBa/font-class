@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snowflake` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snowflake?s=sharp-solid snowflake}
  * @preview ![snowflake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/snowflake.svg)
  */
-const Snowflake: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M256 32l0-32L192 0l0 32 0 30.1-8.6-8.6-17-17L132.5 70.4l17 17L192 129.9l0 70.6-61.2-35.3-15.6-58.2L109 83.9 62.7 96.3l6.2 23.2L72 131.3l-12.2-7-27.7-16L.2 163.7l27.7 16 12.2 7-11.8 3.2L5.1 196.1l12.4 46.4 23.2-6.2 58.2-15.6L160 256 98.8 291.3 40.7 275.7l-23.2-6.2L5.1 315.9l23.2 6.2L40 325.3l-12.2 7L.2 348.3l32 55.4 27.7-16 12.2-7-3.2 11.8-6.2 23.2L109 428.1l6.2-23.2 15.6-58.2L192 311.4l0 70.6-42.6 42.6-17 17 33.9 33.9 17-17 8.6-8.6 0 30.1 0 32 64 0 0-32 0-30.1 8.6 8.6 17 17 33.9-33.9-17-17L256 382.1l0-70.6 61.2 35.3 15.6 58.2 6.2 23.2 46.4-12.4-6.2-23.2L376 380.7l12.2 7 27.7 16 32-55.4-27.7-16-12.2-7 11.8-3.2 23.2-6.2-12.4-46.4-23.2 6.2-58.2 15.6L288 256l61.2-35.3 58.2 15.6 23.2 6.2 12.4-46.4-23.2-6.2L408 186.7l12.2-7 27.7-16-32-55.4-27.7 16-12.2 7 3.2-11.8 6.2-23.2L339 83.9l-6.2 23.2-15.6 58.2L256 200.6l0-70.6 42.6-42.6 17-17L281.6 36.5l-17 17L256 62.1 256 32z" />
-    </Icon>
-);
+const Snowflake = createIcon("snowflake", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABoQAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDXQsGAAE2AiQDCAQgBYMtBzAb3QVRlM3JGNnPw9hY2tzaCGn7R2HOAynuq36VyhXldnoE1VrYs3cB4K0oYFbA5OLQxQH7lwEiR2yjUf0w3eDem9Ga7RDvxIy7FwgkkoAGJJs6lbMxlAtPlDfMWJbznE+Q0Fpd5xWoaLBzgJUCVKzpBPeau9xLEe2npSWWJI/Xor8VlHGq2K8G6UR6iSO5V/FLG/tJ6hQAojEAxs6bNdPd7/E94kX1EvHCdATEWJAFChjtBQMjVg20V8oolYLvUa2m/8BMAFET3TKBEgXe4AOgBEmU5at6NRqUc8Pd6y4KUTeEMpytZekAPzJaioLB6UIaDErFMRw+r52O7UGRQfA8pAxD8Qe0TB0H+wMAAsIysPWgI6EUaLhzNAkdXQQDT7X6+dtACFBsoPiNjBxJ9ILG0TOhYL8K6eXal6rncs5jDJN1dAhw0mQP/DfXJ/N0c9kdf91x2XlrvLbWWffdd9Yar6xxXj2pm3k+meu/ByaroAkO6yg7wB1GUJPcB83Vnb5lD2iv26Du5jKNceh6EAhGtmnVb1mjEb9rIwn8vD7lVVS9626qoLYEgqJHtYfFcRfirgAApNirc9xFIHklob7Wd1SAUBcBkprqClBop7EApbq6C1BDRwMFqKmuWQpR1hGaW1KFpL4dQmGQfUKpuQtCDSM8cWtqHoVZy0Yp/yozJklk4qwc9eqTh+VhhBVLFePk8DxtmXt9pSs6rbXNVrutsdoGuwW108xgjy0maeRET5T11Usf2TB5Ob015gp3p1029LX1aYbL++0u9urtXfHABOiHQkkiUp3Xwlx7BQE=");
 
 export default Snowflake;

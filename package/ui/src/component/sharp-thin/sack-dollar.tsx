@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sack-dollar` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sack-dollar?s=sharp-thin sack-dollar}
  * @preview ![sack-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sack-dollar.svg)
  */
-const SackDollar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M342.1 107.2L405 16 416 0 396.6 0 115.4 0 96 0l11 16 62.9 91.2 9.1 13.2c-4.1 2.6-8.6 5.6-13.3 8.8C105.1 170.8 0 262.9 0 416l0 80 0 16 16 0 480 0 16 0 0-16 0-80c0-153.1-105.1-245.2-165.7-286.8c-4.7-3.3-9.2-6.2-13.3-8.8l9.1-13.2zM496 496L16 496l0-80c0-156.4 115.8-246.4 171.6-282.1l9.2-5.9 118.3 0 9.2 5.9C380.2 169.6 496 259.6 496 416l0 80zM319.8 111.3l-.5 .7-126.7 0-.5-.7L126.5 16l259.1 0-65.7 95.3zM264 224l0-8-16 0 0 8 0 16.4c-8.4 .7-16.2 2.6-23 5.7c-12.4 5.6-21.9 15.4-24.2 28.8c-1.4 8.2-.6 15.4 2.4 21.8c3 6.3 7.8 11 13.2 14.7c10 6.8 23.7 10.9 35.9 14.6l1.7 .5c13.4 4 25 7.8 32.9 13.5c3.7 2.7 6.3 5.7 7.7 9c1.4 3.3 2.1 7.6 1.1 13.5c-1.4 8.2-6.5 14.1-15.1 17.8c-5.7 2.5-13 3.8-21.3 3.8l-.5 0c-4.3 0-8.8-.4-13.6-1.1c-7.1-1.2-19.2-5.3-28.8-8.5c0 0 0 0 0 0c-2.1-.7-4-1.4-5.7-1.9l-7.6-2.5-5.1 15.2 7.6 2.5c1.4 .5 3.1 1 5 1.7c0 0 0 0 0 0s0 0 0 0s0 0 0 0c9.4 3.2 23.4 8 32 9.4c0 0 0 0 0 0c1.8 .3 3.7 .5 5.5 .7l0 16.6 0 8 16 0 0-8 0-16.1c8.3-.5 16-2.1 22.7-5c12.6-5.4 22.1-15.4 24.5-29.7c1.5-8.5 .7-16-2.1-22.6c-2.9-6.6-7.5-11.6-13-15.5c-10.5-7.6-24.9-12-37.6-15.8l-.3-.1s0 0 0 0c-13.4-4-25-7.5-32.9-12.9c-3.8-2.6-6.3-5.3-7.7-8.3c-1.4-2.9-2.1-6.8-1.1-12.2c1.2-6.8 6.2-12.9 15.1-17c9-4.1 21.4-5.7 35.4-3.5c4.5 .7 18.5 3.4 22.9 4.6l4.1-15.5c-5.2-1.4-19.8-4.2-24.6-4.9c-1.8-.3-3.7-.5-5.5-.7l0-16.6z" />
-    </Icon>
-);
+const SackDollar = createIcon("sack-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABtwAAALjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDdwsGAAE2AiQDCAQgBYMtBzIb+QXIHgflxjPLCIOwFEW+o3j4//39/1z7nmd8oQGMYvse/TtCWQ6JTBCSne/x+6uZhfiOUrIaFf/fDeWI6EaGeOmac8hscOKa/m3fgEX+aNHr1CiwbPCdT2DNKTaaPdhMB0BjnW2zKsihxSaROKKXCOGHxR+mv0IWhxZgk3alG2wQl8ZXLUyQ5HIAENUAwKiZRTlw9ipeRVznTxK3jAUCYhRAe4gccmgNwVBMgdZY2gOZTPAq8vn2H9geBBCFwL8rgQyFeImvgAwkWcbyaCEeL2OLWaVlBYLGmcVlWhSI1FESDUHVr0Yf+e8WQ1EmRkR8630s9sTTptFWlFeIEN/7HI879dKiENWxNuw4YK9EZb1WJUBNlEYFFk9DUYoQYmv9oo5S02raZRTVsaQBFdUbBYhzjTYNmaPSVGor1YTKwEbL1kaxOkuIzTco7wBQZG9aMdo1yWVXzd5a1oRNax+my0GRVmsRTEG5PBrouE+2/tnhdrdNnxZbmRoOq+u2A/KEBVMXfE2ffnHG2EkgI/tVLR+MPXN9bfxaMHVh17pX7OJJcPzzjwuWPK633KQHSxZ8PI/xk3ZWYQUwchYwjZoV1lVczJPhqXa2dWCQMSJ96X9fUC359JjOKp7x8hWgaM6xd4EIWfTI1QOSagAABW8gtQdOihuxZUAIGTHJfy19r6p30gpen4zOFs3xj4WAhYtY7XOgBkAgqNi39+rsqqH/i8sYAG/O/fxKvkX580nah2IJBLmu+a6qE0gEACDFAMcECCQPZfhdy20XIJQiQFKoVICcVmQQZEp1gaBAWyEQFCo1FVNkfAj1aiaXlFvE5fQ3yGXqHXAFhjovFaoPZoyrEar+YmalIpiyjQT4+pNI8tiiWtjKfTWKHAfdB2jEI5+FBp069KlXp1kfsD1yqv3apVp4ig8iAvjyR0Qi191XqxQSPXpJ2Wv3m4hC/LPuBuzpHjnCwJK97U4SkYS9c2tbfT51AAAA");
 
 export default SackDollar;

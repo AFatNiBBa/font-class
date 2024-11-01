@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-nfi` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-nfi?s=thin square-nfi}
  * @preview ![square-nfi](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-nfi.svg)
  */
-const SquareNfi: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm79 68.2l81 148.5L160 168c0-4.4 3.6-8 8-8s8 3.6 8 8l0 176c0 3.7-2.5 6.8-6 7.8s-7.2-.7-9-3.9L80 199.4 80 344c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-176c0-3.7 2.5-6.8 6-7.8s7.2 .7 9 3.9zM240 160l72 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-64 0 0 48 64 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-64 0 0 104c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-112 0-64c0-4.4 3.6-8 8-8zm144 8l0 176c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-176c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const SquareNfi = createIcon("square-nfi", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABkAAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCTgsGAAE2AiQDCAQgBYMtBzEbTwXIHgnl9shckD4De4mH59d6PffN7CaZ/UGeMLMicgQFQFf1XQl02VZXr+qGDQiDaDeO5SuMNnRI7bu+kVPjjZcK+MiL8h7dj/3x/RefQAGn82sTmg2soD6WqdMRxrbDIfHwKBLElVE8vnqc3iCPF7FXhfQ8/IC7+5fGfzq7QZJlAKIVAGZtWLNM49/xd8QPdYkfLEFAzAalQIYM3QSYKhPoJlcilwv+jnq9/QeWBBBV/EEJ5GiCO3gIyEFSyfMuXXqULWqV5vn6WqXY8la7iEc5xXM9Hs3jXX/asnjBnsyGpS8OifhwNY+3z/slxbP9Xm+Id+4HNVu3bv26iKf+WOIKH9n6EI/4xCKu+lNtqBW1x3rEIkQtjPGoQLpOECb8Qu8P0gefH/b/YMbd9zs/ZjNlP/4+cibwrVkvWtP6NWBea926mIlHunzOykfHxfuqO3dWP0N11cq+sqbar8WFJEZPdedMI81k8sGpc9LMYd9t8hmZVep8HwgEO3+78PaOllP/b1pL4N+vuryu/nc0pg9AUwkE2dD6UFujEdAqgFmK83o7HQskV1QAn9rgiQChQICkqhAg01UrAXKFIQJU9DBOgKrCGpnImwntbLvgpMEpODPeRTjXzpdwxVRfZ1XtIstHJpuYv8HE+QrMaytHDR9ZTi6nI8amGLWdTimXlYHn+8ogXLXfCcedtc9eh5wV6LRl5TnHzPfAeTpUGmW4kUqTleHpd3F9sU87o9QzHz9nivL9YKDz/vZB0BPijtaTJCIVn3Q67Pj+QwAAAA==");
 
 export default SquareNfi;

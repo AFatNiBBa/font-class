@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-cells-lock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells-lock?s=sharp-solid table-cells-lock}
  * @preview ![table-cells-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/table-cells-lock.svg)
  */
-const TableCellsLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M512 32L0 32 0 480l384 0 0-64-24 0 0-64 24 0 0-64-24 0 0-64 66.8 0c15.8-33.2 47.5-57.5 85.2-62.9L512 32zM152 96l0 64-88 0 0-64 88 0zm56 0l88 0 0 64-88 0 0-64zm240 0l0 64-88 0 0-64 88 0zM64 224l88 0 0 64-88 0 0-64zm232 0l0 64-88 0 0-64 88 0zM152 352l0 64-88 0 0-64 88 0zm56 0l88 0 0 64-88 0 0-64zM528 240c17.7 0 32 14.3 32 32l0 48-64 0 0-48c0-17.7 14.3-32 32-32zm-80 32l0 48-32 0 0 192 224 0 0-192-32 0 0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80z" />
-    </Icon>
-);
+const TableCellsLock = createIcon("table-cells-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABhAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCWwsGAAE2AiQDCAQgBYMtBzcbYgXIhof/n6u67ydNqR7kDDMqhlUEdkDusiI0os8qYkU1cbnzn20K8IdwGsqYw9banECA2fAxwQMJs0AS85bNYX4kXTW0EdKPkMc/2XU1pBfTN3gmvGn8qJPrJA0ZgGgJgJnrVy/1QVM0RXxdfYv42mIExExQCmTI0FWAKTKBrnIlcrmgKapV8R9YEkDUitTk+RyNeIDnADlIijzv1oASW3Ws1DTL15nCYn/zFs1TNAuMFqGtNOUvD37aP3YIQ150FBWrmsqM847Raw6m777XLuJZvTeudHh+W+uLH7826Mm4Nwc86trrScsnP/f8Zt83qq/jA5fN0LFsme3dFSs+vrJ/+oxI3mCGDRM28BuPGb/NLJcucfi71c9cOrpn+vHmt7ndfIQZRuh5wra8x4j4otIHmnygNEKs29uy5d51AQSCt98632p7iyl/11cS+Pb9X3/mbq5+kC6nJ6iXQJANqQ6xJV0GsSLEcIpzeu18UCC5oYCfavScAKFAgKRWoccyXbTEcoXBWI3uxh5Rq7BaJvIGoa2teixpdBLLjHMBy7X1BlZjis9DtdpGBpUimBL9FCafNwbmbipHDhtRTio3G1oxoAns4uTytH7AudnAQHzQPscdc8Zeexx0ZsQ+ZWn0rKPm7bHm+qLSSMOMUJqkvN1+vnudvU457aDjjvl1Jivfdw9wbn/8QGxKItdRypJEpJYAqxxamRVDKw0AAA==");
 
 export default TableCellsLock;

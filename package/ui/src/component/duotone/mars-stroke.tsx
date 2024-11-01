@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mars-stroke` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-stroke?s=duotone mars-stroke}
  * @preview ![mars-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/mars-stroke.svg)
  */
-const MarsStroke: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M128 304a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M376 0c-9.7 0-18.5 5.8-22.2 14.8s-1.7 19.3 5.2 26.2l33.4 33.4L370.3 96.4 345 71c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l25.4 25.4L307.8 159c-28.4-19.5-62.7-31-99.8-31c-97.2 0-176 78.8-176 176s78.8 176 176 176s176-78.8 176-176c0-37-11.4-71.4-31-99.8l28.6-28.6L407 201c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-25.4-25.4 22.1-22.1L471 153c6.9 6.9 17.2 8.9 26.2 5.2s14.8-12.5 14.8-22.2l0-112c0-13.3-10.7-24-24-24L376 0zm88 48s0 0 0 0s0 0 0 0s0 0 0 0zM96 304a112 112 0 1 1 224 0A112 112 0 1 1 96 304z" />
-    </Icon>
-);
+const MarsStroke = createIcon("mars-stroke", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABkgAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCNAsIAAE2AiQDCgQgBYMtB1IbWAXIjtMV8W4+SsXDk13fn1vVbxZQLwB80aGcQcrEeKrrf/6v6XfWVCDf6NA69DBqYJ3PJzCh8vnOpi000xnYdmfb0g5ZyiVJLMnxzXEqLlDER/lCNaTb0ju4Rv4HMH7VxoUkdTKAaAyAySuXzvfaD/FDineqTxHvmIeAmAJKgYyM9gKMkwXaK5QoFIIfUjU/RHVJAFEhSGZVsIbTcAmgAEkWRTGmUbsG9WoaFCvc+bo7b2x+Y4vx0Sv6xMPdbm3TO9/2hRmfLPpg2aeLP1z++dKPV94/oG/0jod63tG2T/SN8XFTq1taRdzeo+7y8yLiPLmvTee1i7ij5yP1ruj+UJvbnNv61m4P1r28x8Ntb4+Vd41+fuyLne4e88Ko59p3ebzx4793fmfHO06++hdPsNylGjT44INbvePlQ3MiGgdCc8QS1fr6bbXGSy3HC59+2uiQFosPrRwIABysdvyZn+++u2PHxP78c8eOCjY755r6O48f31k/XA8EgkcvafDKxkbj/q9dL4GfXvjzX/4hldUfkvQ4aksgyP2q/axLlCQCAJDihC6J0rkC2TZZ/NT6bhYg1EWApKKuAFk7jQUo1NVXgBodDRegoq6lsijqCM2tJ5DUdxhkI5wFCs09CWqM83pR0TyyDYoWJN4A02bU8PR95eABg8ox5bArS2bF++2x5bTX6wRP9YazdjjogGO222a3YxV1xPzGcfvN0Mjpvqg02ACDlMYolwe32goqjjhqd19Z32Wscn/Uywl9cW8Ik8g5xIEsEylys/d6e3/LiA/u3d7/NG+32N8qBxc=");
 
 export default MarsStroke;

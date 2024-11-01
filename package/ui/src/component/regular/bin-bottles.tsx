@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bin-bottles` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bin-bottles?s=regular bin-bottles}
  * @preview ![bin-bottles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bin-bottles.svg)
  */
-const BinBottles: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M152 0l80 0c13.3 0 24 10.7 24 24l0 8c8.8 0 16 7.2 16 16s-7.2 16-16 16L128 64c-8.8 0-16-7.2-16-16s7.2-16 16-16l0-8c0-13.3 10.7-24 24-24zM32 192c0-53 43-96 96-96l128 0c24.9 0 47.6 9.5 64.6 25c1.1 1 2.2 2 3.2 3.1C341.3 141.5 352 165.5 352 192l32 0c0-40.7-19-76.9-48.6-100.4c5.2-5.6 11.5-10.3 18.6-13.6l13.2-6.2c5.3-2.5 10.8-4.4 16.4-5.7l0-42.1c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24l0 42.1c5.6 1.3 11.1 3.2 16.4 5.7L541.2 78c21 9.9 34.4 31 34.4 54.2c0 12.3-3.7 23.8-10.1 33.3c5 7.8 8.4 16.9 9.6 26.5l32.9 0 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-8 0L584.3 441.3c-4.7 40.3-38.9 70.7-79.5 70.7l-369.7 0c-40.6 0-74.7-30.4-79.5-70.7L32 240l-8 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l8 0zm71.4 243.7c1.9 16.1 15.6 28.3 31.8 28.3l369.7 0c16.2 0 29.9-12.1 31.8-28.3l23-195.7L80.3 240l23 195.7z" />
-    </Icon>
-);
+const BinBottles = createIcon("bin-bottles", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABggAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCIwsGAAE2AiQDCAQgBYMtBzIbJQXIhiCymVXPrk6wsll3Nq8R8AkwBiJ9CMBJYMqe6eLU85yHAvgcgqCNZZPGwrE86R7nFSjomDamVXuegtUqirW2yVtUFL2giIxjqBNZiB/a2q6Qx99xmwrp/vQVbk2b42v93UxSyQBETwrKsj07NnnvQByI+PL/l4kvbUBALAOlQIYMgwRYKBMYJFcilwsOxP//x//AkgCiA4qdQI4KLsa1gBwkWZ53rm8WlW757qLSOKpoFE/3F3e37urbiHs67+2KeHDMzkcnRLwwp4iXx93den5wEU8svrerKyZqEY9TrXh98H19s1gUfMx9IxuxM+4b+9zIZjwzvj1gdzSaMGDv+F33j+oWzw7cE83YNbzds/3tsK9O/cq9725Fdlur5kD37geur2+paW277N1am/b119v6rF7tWmnIkcuf+thFN4zX2rbVttZ4F1z0MX3TLWcOGVbjw61tNV2fWbxj+4ELHdi+Y7FTakaLV/+87/YLPb6u80MHlNdBIPjuwateO67Hwl9rRQKH3vj+N/6J/99L16c2ahIIson/T3S0cSHiA/BSXGq4fBWB5GwZfGrTPQKEBgIkHRoCZAbqKUCuYYIAFUPMEqBDww6ZyOtCX8dckDRdAJnZroFcXy9CxUKf+h36RqZ5tN7QH34JqxlZNa+cNnlqOb+cVnVGmcgwvaDclsZearvGyUGnOs+5LnaKk53hYsIutCm6xDlWr9BVfqg0zWRTleYrjxvfhd3kX+giZ4y581kWKN83x7p0PXicqAkIp9uUJCIVJ55x7p8btbNPuQgA");
 
 export default BinBottles;

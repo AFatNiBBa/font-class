@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `display-chart-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-chart-up?s=thin display-chart-up}
  * @preview ![display-chart-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/display-chart-up.svg)
  */
-const DisplayChartUp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 16C37.5 16 16 37.5 16 64l0 288c0 26.5 21.5 48 48 48l167.8 0 .3 0 111.7 0 .3 0L512 400c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48L64 16zM222.6 416L64 416c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L512 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-158.6 0 13.3 80 73.2 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-80 0-144 0-80 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l73.2 0 13.3-80zm16.2 0l-13.3 80 125.1 0-13.3-80-98.4 0zM496 80L80 80l0 256 416 0 0-256zM80 64l416 0c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16L80 352c-8.8 0-16-7.2-16-16L64 80c0-8.8 7.2-16 16-16zm272 64l88 0c4.4 0 8 3.6 8 8l0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-68.7L325.7 261.7c-1.5 1.5-3.5 2.3-5.7 2.3s-4.2-.8-5.7-2.3L240 187.3 133.7 293.7c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l112-112c3.1-3.1 8.2-3.1 11.3 0L320 244.7 420.7 144 352 144c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const DisplayChartUp = createIcon("display-chart-up", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABoQAAAKXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDEgsGAAE2AiQDCAQgBYMtBzcbmQXIHoVxYz2yK18GIS76Ix7+f63yvv+r+8xUdS9izahlgiRuXTwwqkStCwuFfWJRESRzreKywxVGwU5Hz4MGaJGG0vT3k38uitofj2AokclR3okpsPPRs3nTdh5tA5sobnDexEPqDu1rKOIrpzRIj1m4J/3S+MFwd5PkDCD6AWD53p2b3e6YTsQX/098YSMCYgWoBTIyRgmwSBYYpVCjUAg68f//7D+wJoBo8ujJmQt04SV8CChA0iyK3snd3QMmVI12sadqlAdfxIgHQ4rH6KFaRQS+s1fkkZzjcX64tfaXVfnyej3leGK/0dvx0nwtpnh0vFrK2B1VPEQPYlk+zI9IFXurXXt3VbEnyrOtditFO/KJdqs9bE3Bqa2w5uDR41VZtRBS5o3YlYpcvCfKD8veMS/tjthexmYn6H3dv/57vjjD0nf0a77Mtfzl1/oqcA2v6lGz6O2n73nGy3y2f/+yVsZjzz4l/Gpvtd6xZvPYtg6UQm9ra39HTvS3+qMnbH3Wy+ZZnumb53T60KfzLObtu3SfJ11i3YdLY9hq5y/oybln/YY8a+fO2bOvXhXSatypU1YfcDwQCP4+38082nfRr11VAt9/9Mtf6eH+f2lZeh3okkCQJ/0/yaG0DJh4APEUd+kdWWIgecrZ/9SWhwUIJQIkTaUA2Uj9BCiUJgrQMMZsAZpKO2VRdAuDHC5B0nIdZHPcAoVBPgANi3wcaxoU+YlVPm/K/8V0a+rY6kX19CnT6gX1YEmuegjlenRhPds27i7eMh6ucMZVV9zhtFPOp9Ia94bNyTtdtmaMs9oP1aabYpraAvXq6m3IHqfdcNN5/er18yxU7x8a567x7uOhM/EkzpCXJCL1e6cNk79X/+Q7rwEAAAA=");
 
 export default DisplayChartUp;

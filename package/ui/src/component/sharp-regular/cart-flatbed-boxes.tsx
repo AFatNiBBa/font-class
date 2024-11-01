@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-flatbed-boxes` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-flatbed-boxes?s=sharp-regular cart-flatbed-boxes}
  * @preview ![cart-flatbed-boxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cart-flatbed-boxes.svg)
  */
-const CartFlatbedBoxes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M24 0L0 0 0 48l24 0 56 0 0 392 0 24 24 0 56 0c0 26.5 21.5 48 48 48s48-21.5 48-48l192 0c0 26.5 21.5 48 48 48s48-21.5 48-48l72 0 24 0 0-48-24 0-120 0-288 0-80 0 0-392 0-24L104 0 24 0zM240 80l128 0 0 224-128 0 0-224zM192 32l0 48 0 224 0 48 48 0 128 0 48 0 0-48 0-224 0-48-48 0L240 32l-48 0zM496 80l64 0 0 64-64 0 0-64zM448 32l0 48 0 64 0 48 48 0 64 0 48 0 0-48 0-64 0-48-48 0-64 0-48 0zM592 272l0 32-96 0 0-32 96 0zm-96-48l-48 0 0 48 0 32 0 48 48 0 96 0 48 0 0-48 0-32 0-48-48 0-96 0z" />
-    </Icon>
-);
+const CartFlatbedBoxes = createIcon("cart-flatbed-boxes", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABgAAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCQwsGAAE2AiQDCAQgBYMtBzkbTAXIjsO44TuyxVKeRTz8/9x/7nOTT8kwZIgzyFRgEIoUubIrC0dvVQGpKnrNDFOreuJy+uP86QGX/b3wo41pszZla4zzBAJcgzd1CWRhlii2uO0miEpIO6Fwhjz+iee0kF5P8GzwofGb/h4iackARDcALN29faPPGtGI+Lp54mvrERBLQSWQIcMgARbIBAbJVcjlgkY0m+I/sCKAaBW9LIEcHXgQTwJykLTl+YSO7jyqZ9nSOd+lVxX7i7IQZZmC7nm998uj3uj76sAy6tgyouiUBT69syxKUUQsEoSYHyWEUxDuKHe9UUsXD3+729t/DHOKvp/2i2Jr/eY8pl++I/v2u7rvvs0+U6trVuCfHY9uvo+SG+7TaFbQUKvfqZXOe6cswQrOTkNLgCscdQz9q6K0IypHDk+pU1Vq9XP4eSAQTO/y/t2Huy74u71M4KcP/voLPa75WbovDe0SCLKJzYkOpPtAUAMIpLjF8JUvCiR3akPftZNXBAgFAiStCgEyA3UTIFeYIECLIWYK0KqwXSbyDqGXgy2WdHIVy8xyN5br5X2sxQKf+1v1igwSeTjifwRTVvXhlfOqqZPral61WFULwMXa6fnVbm3sLbJrHD7qlMsuueGkE8660UOv2Ri66aJVa8hKP1SZarJaZZ7qdOOxsov6r7nu7Lx0fpb5qvu9Y92yPngcNpOIcZq8JBGph2NWJ31+vmMnT0xyqg==");
 
 export default CartFlatbedBoxes;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `block-question` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/block-question?s=sharp-light block-question}
  * @preview ![block-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/block-question.svg)
  */
-const BlockQuestion: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 64l0 384 384 0 0-384L32 64zM0 32l32 0 384 0 32 0 0 32 0 384 0 32-32 0L32 480 0 480l0-32L0 64 0 32zM88 96a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm248 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM88 368a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm248 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM136 192c0-30.9 25.1-56 56-56l56 0c35.5 0 64 29 64 64.3c0 24-13.4 46.2-34.9 57.2L240 276.3l0 3.7 0 16-32 0 0-16 0-13.5 0-9.8 8.7-4.5 45.8-23.4c10.7-5.4 17.5-16.6 17.5-28.7c0-17.8-14.4-32.3-32-32.3l-56 0c-13.3 0-24 10.7-24 24l0 8-32 0 0-8zm64 136l48 0 0 48-48 0 0-48z" />
-    </Icon>
-);
+const BlockQuestion = createIcon("block-question", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABiQAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCPgsGAAE2AiQDCAQgBYMtBzUbQwXIjsJxL4qCIRYvcCg7ovq9rWffu5Agu1gehQ3JmHPyJIVC405jFOXRaAqLxvKtfj/de/+HsESvQKyIQREJxWiBVFzRiAhTUpmqTJ16nmmhAD4n4kHZU0OxpFvHmFqBgpZ69U0De14rWLWCVr+dfDccg+htfulEkmF7w+oIPTsUQgL1xj7Ba/rQ/HKyBEVsACB7AOBxXVYAk5nMoc/hjnzKAwHyBOACgQYaOEGAGwICJ0QcdCKCb7Ja3X8gBwKQMfC0AnQwBxvwAqADiryLCsMMD46YLSQasVIlUdYxgWlIIHXQYq4BFYHmaiKBqOLMadPn3HnHv8KLbXS5ObZyx4Gy4a/KWeCV025CAiE0J7Bz9VrLXebt15VKOnVMcYVKqSq7vd7111+en52fPDZz0KB0K+cmjjlcGNtcsk4vsbMribjFQexrLBb7kpcX2Q/8Dyfg0GBQjo2PEOlxehpKS/jCP9OurWkTlBzLcfL75wjo0PsBAYFtwqOhSZfyJ1cxAD/PP3/yzYOZTHUNphgg0C6HENTHBDgqAfykyiS88gECyhQ5vOvSOgIIJQigSCkRoHGhR4BOKRgBRtzFIsCYUhkBdQWIrYYOGLURIIgzDUS2boBEipdEyjaNhyKLxF9gWuYIZWzjkWERPIkvG6pELT4sJvNjL2DSDATKQXQaMmhch3Y9xgdyVEF2woDMHZHhi7hIYSJwSfh1e7u/UodRY3oMGYybJOPvowCT+/GBEjJgvFJWGKS0lLVDuQoA");
 
 export default BlockQuestion;

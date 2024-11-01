@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blender-phone` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blender-phone?s=regular blender-phone}
  * @preview ![blender-phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/blender-phone.svg)
  */
-const BlenderPhone: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M158.1 64.1c4.7-12.4 .2-26.7-10.6-33.4l-44-27.2c-9.7-6-21.9-4.2-29.8 4.3C-24.6 114-24.6 286 73.7 392.2c7.9 8.5 20.1 10.3 29.8 4.3l44-27.2c10.8-6.7 15.3-21 10.6-33.4l-22-57.8c-4.2-10.9-14.5-17.6-25.3-16.4l-33.3 3.6c-13.6-42.2-13.6-88.4 0-130.7l33.3 3.6c10.9 1.2 21.2-5.5 25.3-16.4l22-57.8zM268.2 336l174.4 0 28-112L368 224c-8.8 0-16-7.2-16-16s7.2-16 16-16l110.5 0 16-64L368 128c-8.8 0-16-7.2-16-16s7.2-16 16-16l134.5 0 12-48L244.2 48l24 288zM566.1 39.8L489.6 345.5C521.8 361 544 393.9 544 432l0 16c0 35.3-28.7 64-64 64l-256 0c-35.3 0-64-28.7-64-64l0-16c0-40.5 25.1-75.1 60.6-89.2L196.3 52C194 24 216.1 0 244.2 0L535 0c20.8 0 36.1 19.6 31 39.8zM208 432l0 16c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16l0-16c0-26.5-21.5-48-48-48l-192 0c-26.5 0-48 21.5-48 48zm144-32a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const BlenderPhone = createIcon("blender-phone", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABlgAAAKPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCWwsGAAE2AiQDCAQgBYMtBzQbXwXIjtRe88FI9KG0EGFOm5XktHVSZB8Bwg+BrHP7CImAoBgszDstOfs/53q+tNEAv41sKNFYOpqVD6Mumk/gAKu07d6JNJ6dKJ66jRlukMvLwzEIHhWryYdmdiKHPTByR6bDArVAzgLT6ofKG2IZDQpLAwAgIQAAQIl6tapw/KE8FDnj7gE5QyVAAKQEAA4CaEADCQgAhdEIkIDBAQwGgYfiuvQf6IAAgHiQIxUABvADJgJLgf4eQGEZ4ySmjQrwWoGmrteyGy3ygrLWLta+WudajTksJPMypyys3HK9Xh5ZM3M18NreemLLXJ8XXkll104WnzRoV79R/TVjAZD5Z335ZO3dmCIj3iY2lIUxj4Eyp82x1gjEMbcyXmShz922rLbZvV6+aH6tzUVMuVE3/hRn255lybDafw7hd9YKKR08p+uss36H8Kd2A7qjiCiOiCKkeYMuwdtkR3w32vEwKOhhN1yG2dRxHCOY6OQM6SrlSOMHPXueGIIdGrocLNfb2yEke/w29pRY9+4XT8XHiZOytRmnISFBD+FhUAj63N3sx8l+95yetmpERtYgJgDIUam6v73aLLjwN3+vAuDxwQ/f+Uz3p3tcCqiNAH8UAAI6s5uZxqq4Q+I3ELmVK31JiS8SQDESC9npYy4CgGADjYnCgw1o4gkBg00msEgijzC5uBYaMQEIETQBKHz0AE1ehoAhgl1gUZgTnocI0VEpxZT0KUwvK1JmlJMja3anoDOMmRxoQukt5Ewb6ftWkwEbaUs3utKbNrSmA72he1Il7EMXynpUGX6IQw6ykh2Hgjjb2f3qurShJ73oQDe68jCFcM476enrN88AWyGsOdmpUCAqsGXnNl1bt+mZ5e0CAAAA");
 
 export default BlenderPhone;

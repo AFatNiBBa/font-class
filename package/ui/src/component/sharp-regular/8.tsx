@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `8` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/8?s=sharp-regular 8}
  * @preview ![8](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/8.svg)
  */
-const $8: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M304 156c0-68.5-55.5-124-124-124l-40 0C71.5 32 16 87.5 16 156c0 37.7 16.8 71.4 43.3 94.2C23.7 272 0 311.2 0 356c0 68.5 55.5 124 124 124l72 0c68.5 0 124-55.5 124-124c0-44.8-23.7-84-59.3-105.8C287.2 227.4 304 193.7 304 156zM180.1 280l15.9 0c42 0 76 34 76 76s-34 76-76 76l-72 0c-42 0-76-34-76-76s34-76 76-76l15.9 0c0 0 0 0 .1 0l40 0c0 0 0 0 .1 0zm0-48c0 0 0 0 0 0l-40 0c0 0 0 0 0 0c-42 0-76-34-76-76c0-42 34-76 76-76l40 0c42 0 76 34 76 76c0 42-34 76-76 76z" />
-    </Icon>
-);
+const $8 = createIcon("8", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdgAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCDgsGAAE2AiQDCAQgBYMtBygbBgXIhocPXdr7ktaTaMOgyCHAipD7pGK6KwG4KTzXMk6dyrmchwL4AJ4xKZfzjcuDc55HIOdJW1o0thV0W8FqWgHr3mzMJlP2ThJLpePJjrcDZLE8LqmQXEu+xMX6ofG1ti6QqKQAogkAJi2eP8+7dVEX8cX/LxFfmIOAmAQKgRQpOggwVirQQaZAJhPUxf//039gQQBRQ28hARkq2IG9gAwk0iyrLTtXKw2zRdVKvvn++Ii3p+fx4dg3i3vjnra5Cma+Na0an0x4p/Zsu+u90/YLqnn1Ua9nba/2fNo1j8e9n2t3o8/zPapxVijAkUAoT591mY0Ly+eaPPdtly83fWlAbVZSTuxpYllmbc/f/evvcsAInuks//7r7vm2x4830Tk/LJjWuPG0BT/MZGuagJ5goCxwhZ52PRAIXvjg5tjVjcf+Wq+agK9e//57+hn5vy4mJs+hngQEad//+1oRhyAmCgBAEoeUMRGBxAYpfdcGLgsQcgRI1MgFSLXXRIBMro8AFZ0ME6BGbr5UZPWFFlY2kGhgL0gNdxJkWngBVIz1iVGjRaTxRkUL9duLn97D0/qKQf0HFqML12V0CBHSHlMsiz0PcaoXrLTJbrscsNEGWx3o0H3m2QftNH2GTPNFhUH6G6gwWnEcPC5eZKN99ttqt12lyxjFfamnQ/PiXjBEAhj8UgTrkcRIAAAA");
 
 export default $8;

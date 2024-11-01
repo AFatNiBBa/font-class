@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paper-plane` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paper-plane?s=sharp-thin paper-plane}
  * @preview ![paper-plane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/paper-plane.svg)
  */
-const PaperPlane: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 288l18.5 7.9L192 370.3s0 0 0 0l0 13.7 0 40 0 72 48 16 52.4-98.7L277.7 407l-45.4 85.5L208 484.5l0-60.5 0-40 0-6.9s0 0 0 0l16 6.9 208.7 89.5L448 480l2.2-16.5L509.4 19.8 512 0 494.6 9.8 17.6 278.1 0 288zm215 74.7L490.9 37.3 434.9 457 230.3 369.3 215 362.7zM462.2 46.4L199.6 356.1 36.1 286.1 462.2 46.4z" />
-    </Icon>
-);
+const PaperPlane = createIcon("paper-plane", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABZQAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBYAsGAAE2AiQDCAQgBYMtBzIb4gTIjtRGdfIqEURrZfXsPkGIN0SkgFEB+ThypMjFhR1bRIUqsVe10NPfz/N//ukDPv/iHy2aKkHqvHLR5xMYYLTvfFY+G9hMJ2AbnDeq+VJoCulXyOOOjcpIF9NznHUfGj+1cYYkywBEIwAmL1kw38PP8TniWQnxzFwExGRQCGTI0F6AcTKB9nIFcrngc5RK7D+wIIAoF26bQI4yzMd6QA6SLM+HV1XUlNXli1WkOrr36L4oTgrInuGxJFrGwugRCJ80W8Qij24VK6JddIuN6xZt2bhlaSyOlis25nOLY0OX643Xf3d+vvm5Sz3DK2/OBvV6maVk6Hov9F/kiPF6qQD/XeaHTsbc0VWV9zXavJzTbDrdNvKq50v8+D+ubDi419Xprv0FAsG7F9nWNQ3j/lXWJPD19t+f4q+o9DBJ11EpgSDrV+pnZQKJAACkOKxLgkAyXQa9a61zAoRqBEjKVQuQaadRgFy1vgKU6Wi4AOWqLZCJvEpoblUFSa19IDPCUZBr7hYoM84jr1zzyG4s8rYgf+viZnSh6auKwQMGFWOK2VKm7hVcL44tNou9DvOB3vCizfbY7aBNNtrmYAfZb354yC4zluDpvqgw2ACDFMYoDjcPTy+2yX4HbLPHbrvMWMX1bi+Hl8f3hkoSMIdIJIlINU+v0P8zAA==");
 
 export default PaperPlane;

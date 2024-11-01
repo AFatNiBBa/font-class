@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-rays` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-rays?s=solid person-rays}
  * @preview ![person-rays](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-rays.svg)
  */
-const PersonRays: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm40 304l0 128c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-223.1-28.6 47.5c-9.1 15.1-28.8 20-43.9 10.9s-20-28.8-10.9-43.9l58.3-97c17.4-28.9 48.6-46.6 82.3-46.6l29.7 0c33.7 0 64.9 17.7 82.3 46.6l58.3 97c9.1 15.1 4.2 34.8-10.9 43.9s-34.8 4.2-43.9-10.9L328 256.9 328 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-128-16 0zM7 7C16.4-2.3 31.6-2.3 41 7l80 80c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L7 41C-2.3 31.6-2.3 16.4 7 7zM471 7c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-80 80c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L471 7zM7 505c-9.4-9.4-9.4-24.6 0-33.9l80-80c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L41 505c-9.4 9.4-24.6 9.4-33.9 0zm464 0l-80-80c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l80 80c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0z" />
-    </Icon>
-);
+const PersonRays = createIcon("person-rays", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABlQAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCUwsGAAE2AiQDCAQgBYMtBzIbVQXIjlQ1fzw8b9fXua/qqz1yDaWlmI7DhRxkg2iprCs3f/6vqRfPjwrkGx1K1KKKCiwiOAH3fJpegfO0gU0UN2wbtFFFXe3x3EAeb2Z3aCE9m77Cw8GXxk96uYOkIwMQDQAs3L55rfeOxbGIL5svE19ajYBYCAqBDBn6CjBHJtBXrkAuFxyLZpP9BxYEEK2iB04gRzvuwrOAHCSteV6dW61Ua+WWar6t3FLa/fzwg0P393pmyL5hB3rvFG7p+kTpvu5PRcSYeKLrE92f6v5Uj+0hECyX436hyNZ4suvcxLgQgqtKuw4O3RrP9tw3bFs816faoZ7tuSUYZtx+RqqLPlXdtnWbtG2DQUcaR34Z+NVZX/n24dJF119/USl3DB9/SxSq3XNPzb7bUd84/4UPXjkwesz5M0/x0Z7dvfrrvXrPR7NOsXvM6AOvfPDC+d84SnTuLRq/76hW16/33XchSxnM+gK2f/tHKED1+kgWZNDtQCD4Zfj7359cn/NPezmBE2/89j89srkptaUjaJdAkI1pjrEnWYH2FXsUiqsMgrMUSG5yej+14ikBQgkBklYlATJ9NATIlYwWoEV/UwVoVbJZJvIOoau9LUgqLgWZaW4Eua5eBC3m+DTaqmtkX6TwPQk/hCmX9dGl04qJ4yYUs4rFrFr8yDi3e3YhbBxxFa8aCdc6y8UucoUzneFcV/Twy6xNXOlCy9awpX6oMNE4ExRmKZQLj5XbcPQylzt3XlYfZLbCvHeEq9Ybj4SWJKKdJClJRCp/wNGxl5167eUAAAA=");
 
 export default PersonRays;

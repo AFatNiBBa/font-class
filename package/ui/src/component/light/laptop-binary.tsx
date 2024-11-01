@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop-binary` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-binary?s=light laptop-binary}
  * @preview ![laptop-binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/laptop-binary.svg)
  */
-const LaptopBinary: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 64l384 0c17.7 0 32 14.3 32 32l0 256 32 0 0-256c0-35.3-28.7-64-64-64L128 32C92.7 32 64 60.7 64 96l0 256 32 0L96 96c0-17.7 14.3-32 32-32zM33.9 416l572.3 0c-5.5 18.5-22.6 32-42.9 32L76.8 448c-20.3 0-37.4-13.5-42.9-32zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480l486.4 0c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2L19.2 384zM200 128c-22.1 0-40 17.9-40 40l0 32c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-32c0-22.1-17.9-40-40-40l-16 0zm-8 40c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-32zm112-40c-8.8 0-16 7.2-16 16s7.2 16 16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80c0-8.8-7.2-16-16-16l-16 0zm80 40l0 32c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-32c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40zm40-8l16 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zM192 272c-8.8 0-16 7.2-16 16s7.2 16 16 16l0 48 32 0 0-64c0-8.8-7.2-16-16-16l-16 0zm256 16c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l0 48 32 0 0-64zm-80 24c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40l0 40 32 0 0-40c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 40 32 0 0-40z" />
-    </Icon>
-);
+const LaptopBinary = createIcon("laptop-binary", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABxAAAALbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCEDAsGAAE2AiQDCAQgBYMtBzQbEAbILgbs5pOHnoZQQwPLdOCl0zAbP08PGk0jCOZA75OUkjKkwOiqAAAlblNzLCSTmkIe8nfvfjCbzYQoqpJQyDRdKqSoy4qWLjXwvN3e2+3kan99zCIILG63RVEaYJlH2nr7HxSB8PsmkRiiWmhKE1qTgA5uBwsiCDCwgCX0zf81n9/zowP8fK7RVMukC19EPR/QaBipG1fhtG04myjuTYcbKBExYYeE2FiSIzoej7clZPE3DhVIrtGn4Ix8aPzK7CASWQogagJg5D5hvPcTM/GpL+JTNgTEKFAKpEjRVIAhUoGmMiUymeCr+MX/wIQAoiJ+uQRkqIbv4E+ADCSKLGuVT41r1mxcu3o0L2q1bHJR8xnVxmon5JISRaRxvT1vV9WH9WlDezv79EoxtUbUuDqr+iY2ftjwVsdnfav5tr9ocb1d9X68w4sg9sqloogTeiUi9oXLed70SoPCSyIucu7lEL0SBuvYjA/bOd+FQO84zhdNTStCQa/oxM1YBOKH4MBNDJlDonzqU1Jnt3pe8/nv+a+f59zLe8TRG5TIa9W6u5c7a+UoMbXOmjMErnYrfsBbDzuTZj9g4qJmHK/Mj/eyVOt7kTXVejR+izlrmlstJGRNyWi/WjoG/IbeutJzeoRVcYtnJkaJ/OPdlKE0AiVdE7iKa4NihvQOSh2A0stBIKhx5Ow5Nda/apuAb773kZ3/T7roOVBZAoK0y/+DmeUFIDoANYnNWjlfFEh8ZsDvWtVlAoQcARIV5QKkmqgpQCbXWYAKmusrQEW5CVKRVRHqmqUgUdU6kOpnF8jU9RJUMMQHSkV1o6Q7lazUz2b8OAuN7VaO3XqUg8rblJPOYGJvHVw+lobNVNIR5lhsjdU2WmShZYIZZL3x+iarjPPgsX6o1FM3PZQGKZezj/zkqqy3wbI5u97OYOX7rg42+9U7wigSQK9EIWhhJNVWzlu7cc3arsdaPW/9NgAAAA==");
 
 export default LaptopBinary;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-1-9` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-1-9?s=sharp-duotone-solid arrow-down-1-9}
  * @preview ![arrow-down-1-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-down-1-9.svg)
  */
-const ArrowDown_1_9: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M344 336c0-48.6 39.4-88 88-88s88 39.4 88 88c0 22.6-6.2 44.8-18 64.1L453.5 480l-74.9 0 10.1-16.6 25.1-41.3C373.9 413.7 344 378.3 344 336zm8-304l32 0 48 0 32 0 0 32 0 96 16 0 32 0 0 64-32 0-48 0-48 0-32 0 0-64 32 0 16 0 0-64-16 0-32 0 0-64zm48 304a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M160 480l23.6-25.7 88-96 21.6-23.6L246 291.4 224.4 315 192 350.4l0-285.7 0-32-64 0 0 32 0 285.7L95.6 315 74 291.4 26.8 334.7l21.6 23.6 88 96L160 480z" />
-    </Icon>
-);
+const ArrowDown_1_9 = createIcon("arrow-down-1-9", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABhQAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCGwsIAAE2AiQDCgQgBYMtB1gbRQXIhocvf76eu/skfz+ZYc0AIaTKXbAEqtLx9CmZu8xo/q/p1wH47cgOLWNBBVLgmc8ncKIbp3CUz2aK251tDodayiGtBaPl+Oz4HKCK//O9GqSX0ud4gv4HMH4x0L0knTOA6AGAFft2bfHhl/Flis/bbxGf24yAWAmKQEbGEAEWywJDVAoqleDL1G7zZbTbhQCiiagsbuLHXY6bABVIQq6qUQP79241ulZ7W416z6Txk/bFpFga42Ny5IioQ6SYGhNjcUyIPTHh1IVJEW/Me3vCa0PvHL876hgc0+Llia8POtSqW0K0WqKuA6EQDtzZ95LnWo/0fyHu6vd8/XCfZ418vcfrv434/OznLgy/Ca9v3zFr/WKfvw1VLFcM9bd9frHWvmNusu+K6kEeXL78wQerUUOmbbPJkx70/dhx3TtNK+XK4rgeZbly53Klx3KuTJvWbZ/o1s0tWiDOSl88Of1Y98X/dbQS+PqDP36ulw1uf5k60uvokECQJ7cnO5yWK4T5uQKwkeJ6I+G7Yr9AtkpGj9rF8wKEGgGSplqAbLAeAlRqkwRoGGaOAE21XbKoOgt9HGGQdHEVyOa6DVT6eBM0LPZRo6lPZLeznMb69eWvlfCavDJj6vSysCw7mu1JRtpcVI4L46+PExNgp7OucLlrnXHaRa4V6tW2tK9zmbUav8YPFTNMNV2xUDH37/29oXG1a1w0d+3bLFLu18e7Xp8/AcpJ1p1pb5aJFLnfiauvvuKGKa+xPWXGlAVTXHjWgJH7XgE=");
 
 export default ArrowDown_1_9;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `angel` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/angel?s=duotone angel}
  * @preview ![angel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/angel.svg)
  */
-const Angel: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 466.7c0 25 20.3 45.3 45.3 45.3L96 512l99.4-198.8c.8-1.5 1.6-3 2.4-4.5s1.7-2.9 2.6-4.4c1.8-2.9 3.7-5.6 5.8-8.3c4.1-5.3 8.7-10.1 13.6-14.5c9.9-8.7 21.5-15.4 34-19.8l-73.6-73.6c-18-18-42.5-28.2-68-28.2C59.1 160 16 203.8 16 256.9c0 15.1 3.5 30.1 10.2 43.6l18.4 36.7c2.2 4.4 3.4 9.3 3.4 14.3l0 .9c0 5-1.2 9.9-3.4 14.3L4.8 446.4C1.6 452.7 0 459.7 0 466.7zM160 64c0 14 9 27 24.3 37.5c4.1-10 9.6-19.3 16.3-27.7c-2.7-2-4.8-4-6.2-5.6c-1.4-1.7-2-2.8-2.3-3.5c-.1-.3-.2-.5-.2-.6c0-.2 0-.3 0-.3s.1-.3 .2-.6c.3-.6 .9-1.8 2.3-3.5c2.9-3.5 8.4-7.9 17.3-12.4C229.6 38.4 256.5 32 288 32s58.4 6.4 76.2 15.4c8.9 4.5 14.4 8.9 17.3 12.4c1.4 1.7 2 2.8 2.3 3.5c.1 .3 .2 .5 .2 .6c0 .2 0 .3 0 .3s-.1 .3-.2 .6c-.3 .6-.9 1.8-2.3 3.5c-1.4 1.7-3.4 3.6-6.2 5.6c6.7 8.3 12.2 17.6 16.3 27.7C407 91 416 78 416 64c0-35.3-57.3-64-128-64S160 28.7 160 64zM322.2 261.8c25 8.8 46.2 26.9 58.4 51.4L480 512l50.7 0c25 0 45.3-20.3 45.3-45.3c0-7-1.6-14-4.8-20.3l-39.8-79.7c-2.2-4.4-3.4-9.3-3.4-14.3l0-.9c0-5 1.2-9.9 3.4-14.3l18.4-36.7C556.5 287 560 272 560 256.9c0-53.1-43.1-96.9-96.2-96.9c-25.5 0-50 10.1-68 28.2l-73.6 73.6z" />
-        <path d="M288 64a80 80 0 1 1 0 160 80 80 0 1 1 0-160zM96 512l99.4-198.8C212.9 278.2 248.8 256 288 256s75.1 22.2 92.6 57.2L480 512 96 512z" />
-    </Icon>
-);
+const Angel = createIcon("angel", true, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABrgAAAK/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDGwsIAAE2AiQDCgQgBYMtB0YbswVRlA5GkexHQnYmc0OIgohiaFafzy9QxPl4+P7e99fe57ybVq17QpXSQatwB4zGGmgA08efwJtopW9/5hpkh80E2sCbeAO4kt1BHYAXeEWTpnjU9fz8X1Mvnh8d4Oc78UOpXpdF0zDz+QQGPppl6DhxQJupbXHbTRCVUD5CYg01/pcFHfIhNXAT/A9gfHG0QBooAGIcAOydlObjQ4+9jG77hOjKAwGxD1hEFBTMItikKzBLzyKoqqCXbUsv2nYRAohGcO8FNOjDI14AFaRUan1gZhEWp4S+mV6F0DfpfBpyN/hO9LPQe2H346oqyyoP/a6LRZ+rjuU0xYwduS0EK7krZyWByIjr/Sp4K/aJ/w2XGccQboOcsS3jFmr3A3bljv0OZxFZ7srrcU99tu2csxh7sGWLaW/+284Hia8yvsS/cCh/GlJOwUW5y1n7Ch6FWCjDeMiTwBfWKfO8ZXnrj4fWocF9+sNEZeXEhzz2/n3Lt7joYnXKzW1q9aL+cMzAxkYDujZRaPkGCBCkl1fl+B+f7Gy8Gpq5fctIbnnB1wjo9/UrQLY43dBrarwd6WlFEEDQKv3b2///335LJxAACNAz8nCwSc8kIrmoKDnC5Pxrf3TLN0TBRtNsRLZfwYU39sKWNLp1e2boVXa2XAACwdUH20aLzX/9IsHn01/ewe2H3M1H9EsQlOU2WF3uAoJIIJ5xxXPuh5pAoLhWRO867FaAMIgAqTEoQDHDEkE1aAlBx7wYBI1BB3RFHRCm1bcgDTsFxYZJUE17DDo2fU80pqOALQ90/F9jSkYfTZ+kIkLDVaJaLKkFSGTtaJLabfWfkC0BeCY6DBowpl2bbmM9fER+ely/jDUs3RcpEUKFUxKp09XHSkUvMWJU97x0fpwk6v6gv4n17gHYoSOiXDGlKERGGfnijRDnr1v0JGcOAAAA");
 
 export default Angel;

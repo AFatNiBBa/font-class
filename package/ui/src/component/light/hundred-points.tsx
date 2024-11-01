@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hundred-points` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hundred-points?s=light hundred-points}
  * @preview ![hundred-points](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hundred-points.svg)
  */
-const HundredPoints: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M177.4 93.3c5-35.2 35.2-61.3 70.7-61.3c43.5 0 76.9 38.5 70.7 81.5L302.6 226.7c-5 35.2-35.2 61.3-70.7 61.3c-43.5 0-76.9-38.5-70.7-81.5L177.4 93.3zM248.1 64c-19.6 0-36.3 14.4-39 33.9L192.9 211c-3.4 23.8 15 45 39 45c19.6 0 36.3-14.4 39-33.9L287.1 109c3.4-23.8-15-45-39-45zM129.8 35.2c4.6 3.5 6.9 9.2 6 15l-40 256c-1.4 8.8-9.6 14.9-18.3 13.6s-14.7-9.3-13.3-18.1L99.7 74.4 54.3 94.6c-8.1 3.6-17.5 0-21-8.1s.3-17.5 8.4-21.1l72-32c5.4-2.4 11.5-1.7 16.1 1.8zM425.6 32c42.8 0 76.1 37.3 71.2 79.8l-11.2 96.7c-4.2 36.1-34.8 63.4-71.2 63.4c-42.8 0-76.1-37.3-71.2-79.8l11.2-96.7C358.6 59.3 389.2 32 425.6 32zM386.2 99.1L375 195.8c-2.7 23.5 15.7 44.2 39.4 44.2c20.1 0 37.1-15.1 39.4-35.1L465 108.2C467.7 84.6 449.3 64 425.6 64c-20.1 0-37.1 15.1-39.4 35.1zM511.9 333.9c1.2 8.8-5 16.8-13.7 18l-480 64c-8.8 1.2-16.8-5-18-13.7s5-16.8 13.7-18l480-64c8.8-1.2 16.8 5 18 13.7zM466 447.9l-256 32c-8.8 1.1-16.8-5.1-17.9-13.9s5.1-16.8 13.9-17.9l256-32c8.8-1.1 16.8 5.1 17.9 13.9s-5.1 16.8-13.9 17.9z" />
-    </Icon>
-);
+const HundredPoints = createIcon("hundred-points", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABnwAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCdgsGAAE2AiQDCAQgBYMtBzUbewXIhofn7f79tc/Mky8STyRVkD87qCJUyX3UfVap7/xfju+2HR3gNzqzozUaY+DyMebzBALtRReNTWUBZYFlmoB1tu1Vm2Ea2o3QOEEen8ZYdaSH04+4M3xo/K23m0nyDEB0AmDR5vXrfHUuzkX8WHuf+NEaBMRiUAhkyNBPgLkygX5yBXK54FzUauI/sCCAqJeen0COJtyDNwE5SBryvFItVytt7S11bfkmc2fz9kfHRLw44v1RL/fbEA+NfG7oB6NfGbh58y2liPtKM7Py/cNurT5Y3RyPVh4Yvul+rt1X+KFtpgk+WN5/zxsh0ZfYxKNjXh2xYcPmDdtvKd1X2nh9aU/cUrmhuj9uLW8LHdrMre0++JXOV/4d9OOhH721b3XBgqc6Zyyf1HGGFcW6iR2XLe/X8TIvDVhIdr32WkFU8sKr+h1sHFEz/9eLbUMu+tMfx+d9s2Kgy68ckUxnedG8x+xJE98yHTlHLBZCLuj67NXOzpdfHmDt6KZr/ur4/ewCHePa/wjpcZfVBlKOkh2/G8jjQCDY3vb1jN0dcy81tiRw4ZP/L/Gfkdq5JL2CRgkE2djaWDsSSAQAIMXVBicIJLdokN611QMChGYESOo1C5Dpq1OAXLMxAtQZYJoA9Zqtl4m8SSjZ2UHS6jKQme4akCt5F9SZ65tMvVJkMCpBmPSHmL58jCxbVUwaP7GYXWw2VBnsBLs4pzjtGnm1HBiFTR1y2ilXOuiAo64c0Zdbl7/KScv3qGW+qDDJeBMVZitut5/rm2jmclc4uq7eX2aO4v3YSFfvjx+FvUlinKwqSURq/xit46AaAAAA");
 
 export default HundredPoints;

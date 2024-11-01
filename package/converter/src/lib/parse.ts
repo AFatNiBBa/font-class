@@ -17,7 +17,7 @@ enum Part { primary = "primary", secondary = "secondary" }
 /**
  * Gets a new font that contains only the glyphs of {@link Icon}
  * @param icon The parts of the icon
- * @param parent The parent font of the icon
+ * @param parent The font that contains the icon
  */
 export function getFontFromIcon(icon: Icon, parent: FontEditor.Font) {
     const out = new Font(), ttf = new TTFEditor(out.get()), old = parent.get();

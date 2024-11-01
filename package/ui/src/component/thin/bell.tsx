@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell?s=thin bell}
  * @preview ![bell](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bell.svg)
  */
-const Bell: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M216 8c0-4.4 3.6-8 8-8s8 3.6 8 8l0 24 0 .2c84.6 4.2 152 74.1 152 159.8l0 36.6c0 41.8 14.2 82.3 40.3 114.9l16.7 20.9c4.5 5.6 6.9 12.6 6.9 19.8c0 17.5-14.2 31.7-31.7 31.7L31.7 416C14.2 416 0 401.8 0 384.3c0-7.2 2.4-14.2 6.9-19.8l16.7-20.9C49.8 311 64 270.4 64 228.6L64 192c0-85.7 67.4-155.6 152-159.8l0-.2 0-24zm8 40C144.5 48 80 112.5 80 192l0 36.6c0 45.4-15.5 89.5-43.8 124.9L19.4 374.5c-2.2 2.8-3.4 6.2-3.4 9.8C16 393 23 400 31.7 400l384.6 0c8.7 0 15.7-7 15.7-15.7c0-3.6-1.2-7-3.4-9.8l-16.7-20.9C383.5 318.1 368 274.1 368 228.6l0-36.6c0-79.5-64.5-144-144-144zM176 448c0 12.7 5.1 24.9 14.1 33.9s21.2 14.1 33.9 14.1s24.9-5.1 33.9-14.1s14.1-21.2 14.1-33.9c0-4.4 3.6-8 8-8s8 3.6 8 8c0 17-6.7 33.3-18.7 45.3s-28.3 18.7-45.3 18.7s-33.3-6.7-45.3-18.7s-18.7-28.3-18.7-45.3c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const Bell = createIcon("bell", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfQAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCHAsGAAE2AiQDCAQgBYMtBysbFwXIjpQuZyTx8Lxd+OfOvN0AmkiqDFbJBztIlSq3rH69GfKif3Hqec5DAXyjoI2FSzcuioXmPI9ARKbHFxa4YDUtAJW1bxsi2IjCFyESJGKNJ43XASkeWa1E9iD7Ftf6m8ZfmjlNJs8BRF0AjJ03a6YPf4/fI76tvEZ8azoCYhwoBHLkaCnACLlAS0mBJAl+j0qF/gMLAogy/hkZSChhOw4BEsjkKfVq26xGqVaaW6NUfdG9JncaiYgfR743Rzwe2zXuON7wdvWacbHx3TjRpHt80j7i59EfzIuIVp+OiHi3ED+M6RK33WlUK+41OdG4W3w8N+LJqPcnzT/e6E6NS03uxUnv8S7PV7/Y7UV5rN2LdV/8x7drv/XzG+Xly8tNMSa9/CjGdlRnZW59jdrnz9c+Dl9YY12ysk5HMfbRy2MSTfd9dI79LTsy8dmkfan278f9XrvUPnnWxI5a7j/3Udca/vJLQyIum83btWsOhJwHAsH3H49tsKzOiP+r1sjAn2//9/gaqXwYH2YvoqoMBHmPSg+L40OIDwUAIIu92sWHCGTWy7FS092oG6qDkCmrDrkW6kJSXXcoaW0g4ZyfJRepmtDQEoBMTTsgN8gRSBp6BUpG+MIqaxh52lFJQ3364idpZOJU0bdXn2JYsQ1MOpOIOhxeuIUue0uhK+xaa5utdltjtQ12K2ynme4eW0yy0Ik+qNBXL30UhinC8ev6XGvstMsG22xtY4Yr7itd7LXru4KcYdx+fJmMyNKjAwAAAA==");
 
 export default Bell;

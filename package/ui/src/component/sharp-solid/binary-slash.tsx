@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `binary-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/binary-slash?s=sharp-solid binary-slash}
  * @preview ![binary-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/binary-slash.svg)
  */
-const BinarySlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M512 374.7l0-54.7 0-32-32 0-79.7 0-82.4-64 2.1 0 0-32 0-160 0-32L288 0 160 0 128 0l0 32 0 44.6L48.4 14.8 29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7L512 374.7zM192 126.3L192 64l64 0 0 96-20.6 0L192 126.3zM446.8 448L384 448l0-49.5-64-50.4L320 480l0 32 32 0 128 0 32 0 0-12.6L446.8 448zM352 0l0 64 32 0 16 0 0 96-16 0-32 0 0 64 32 0 48 0 48 0 32 0 0-64-32 0-16 0 0-128 0-32L432 0 384 0 352 0zM128 288l0 64 32 0 16 0 0 96-16 0-32 0 0 64 32 0 48 0 48 0 32 0 0-64-32 0-16 0 0-128 0-32-32 0-48 0-32 0z" />
-    </Icon>
-);
+const BinarySlash = createIcon("binary-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdwAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCNgsGAAE2AiQDCAQgBYMtBzMbOQXIhof/1r68r7qHupehlpmC7OLIbezYAKARc2KZ/sWpmrEsFMDnuI+FufC03RZwToGc93xjBnYNkAIWaxXFnm17taaYhsIuVPZQxj/FY5pIz6ev8HT40PhGf4+RtBUAohsAlu3Zscl7HdER8WXjZeJLGxAQy0AWKFBgkAALFQKDlDJKpaAjGg3xH5gJIJqlNydQogX34ilACZKmshxXd+/bt27qXO6um6oTISKqanfUkbKqSojdMTomxqi4pvUp3dt9PGzniCoW76vqKmJ7mJbUEbv3C3UtqkqYVfXIGCeXtg9v79b+3bCvTn+lsXZOejjLW7ctkWS3Zfl2NsmWRSb72GQL3yz+xR1L/lyMtyx1VG8v/L9sSYqm+dljx2s7Wzr98LtL8Y7c7ahuean8kGa6PZRCnjJ07XUgEJz7ZOulI10X/tZaJ/D1Gz98l8/ReC89lNrRKoGgmNiY6CD2wPEDCFLcYTj+KgLJDU1SaSfPCBAqdEiaVVAYqBuUKhOgyRCzhJMlOxSibBN6OQRD0sk1KMx2P5R6eRGaLPRp2KxXFDAoQZD0B5i+eoyvWpSnTZ6a5+fNuiqDlWDnF+TTxtg7ZN84nOm0Ky676ZSTzrk54q7blNxyyeo9dpUfyqaZbKpsvny79VzfTaPrbji3Lt9PY4H8vjXWHfujx+HlJMD0r4ekvEidjp+7fOz63ZNuXDx24yw=");
 
 export default BinarySlash;

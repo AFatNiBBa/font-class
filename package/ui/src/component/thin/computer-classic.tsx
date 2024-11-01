@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `computer-classic` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-classic?s=thin computer-classic}
  * @preview ![computer-classic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/computer-classic.svg)
  */
-const ComputerClassic: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 16c26.5 0 48 21.5 48 48l0 304c0 26.5-21.5 48-48 48L64 416c-26.5 0-48-21.5-48-48L16 64c0-26.5 21.5-48 48-48l320 0zM64 0C28.7 0 0 28.7 0 64L0 368c0 23.7 12.9 44.4 32 55.4L32 480c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-56.6c19.1-11.1 32-31.7 32-55.4l0-304c0-35.3-28.7-64-64-64L64 0zM400 430l0 50c0 8.8-7.2 16-16 16L64 496c-8.8 0-16-7.2-16-16l0-50c5.1 1.3 10.5 2 16 2l320 0c5.5 0 10.9-.7 16-2zM352 80c8.8 0 16 7.2 16 16l0 144c0 8.8-7.2 16-16 16L96 256c-8.8 0-16-7.2-16-16L80 96c0-8.8 7.2-16 16-16l256 0zM96 64C78.3 64 64 78.3 64 96l0 144c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-144c0-17.7-14.3-32-32-32L96 64zM224 344c0 4.4 3.6 8 8 8l144 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-144 0c-4.4 0-8 3.6-8 8zM80 368a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const ComputerClassic = createIcon("computer-classic", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABmwAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCawsGAAE2AiQDCAQgBYMtBzcbcgXIjsQ4JvKLKOwiHv5/rfK+XzUAXEvcO0vMIXII4KLaBdiHbU5kdHdI7bu+qVPPcx4K4FvIgjLWBtnVMdZ5BSqY8iapBaymFbC+TfGxIwghpIZYLHGy4xTGvzvk8aKzqkjPpx/waGto/KvPXSRZBiBaAbDqwJ5tyn/FXxE/VCR+sAUBsRoUAhkyDAqwVCYwKFcglwv+ikoF/wMLAohq1OgEctThGbwGyEFSk+f9Y9tb+5vqGqqa8v0NVfUX3u6KeLovxXOdT41vjHe6n+nP4sWeZyc1nX5rcsR7vSleniJu63q6oSke7Hk2Ij4cyeKFqR9MbDwnPNXZGM90R5zKw093ibX12Z6m/Q90ht4g2nJ79zP1jYdcQoOJe4R6r7h34oivb4z9oPWD//jh/A9u/bT0Gz9mJdmPv5VWUhzesqLltTba6ks6f12k+b77mldyzSK/dpbUt7W9tnLHx6NU2/zXSn81j7q2dqXaa2cdE/0xu81oU2lpvo/7KvlQwJz03NpTffIxJ6tBf7THjSPZ0UC8tObqBe+eaFn6f21DAv981eNnpFKOcvoAtRIIsumV6Y5GGaIsAAApbjI2yggkj6jRPrXRMwKEegRIqtULkBnQKkCu3jQBqgybJ0C1entkIq8TOh0TkDS6FmTmuxnkOn0Jqiz1dVqtM7LspHOL/jlMWK+hdZeK2TNLxeLiOHIxCUfW0yWF25h8U1mZAledd7Wr3OCcsy65QSHX2Vbc6ErrLXidLyrMNlNJYbEiPH0P9jvHwvWauOfi5yxRvJ9MdpO9fQrYCWGOGkgSkVoTXZnxRQAAAA==");
 
 export default ComputerClassic;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-xmark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-xmark?s=sharp-light phone-xmark}
  * @preview ![phone-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/phone-xmark.svg)
  */
-const PhoneXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M312.4 355.3l21.3 12.3L351 350.2l40.7-40.7L507.8 356 485.3 480l-5.3 0C250.2 480 64 293.7 64 64l0-5.3L188 36.2l46.5 116.1-40.7 40.7-17.3 17.3 12.3 21.3c29.6 51.4 72.4 94.1 123.7 123.7zM544 336L384 272l-55.6 55.6c-46.5-26.8-85.2-65.5-112-112L272 160 208 0 32 32l0 32c0 247.4 200.6 448 448 448l32 0 32-176zM391.4 .8L368.8 23.4l11.3 11.3L433.4 88l-53.3 53.3-11.3 11.3 22.6 22.6 11.3-11.3L456 110.6l53.3 53.3 11.3 11.3 22.6-22.6-11.3-11.3L478.6 88l53.3-53.3 11.3-11.3L520.6 .8 509.3 12.1 456 65.4 402.7 12.1 391.4 .8z" />
-    </Icon>
-);
+const PhoneXmark = createIcon("phone-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABeAAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCKQsGAAE2AiQDCAQgBYMtBzIbKwXIHge5afRGulhFeSfx8GT3X+dW9/sDqAaQMilTkIqLaLJlCjDc+CXz53uFxE9cjv/+/OkBJ/GjjYVrgixfq7XOEwhw0WfLy+MszBLFrM3xCiIqcUGLyfHYE9Kw+cPWHcr4JvqpkO4nuH18aPyjjQskZQEgGgNg8sql8739MX6M+LT6mvjUXATEFJAFChRoL8A4hUB7pYxSKfgxqtX0H5gJIGrguQmUqGAfbgBKkBRl2aVN73qVBuWKcr7u1u49uveNibE8lkXd+HxFtiJW8uFx0SvaxGfLV65YvmLR1FoaK2yRok6hXuhf06tvrxaxOBZF8+gdrWLpILaIvtEylhBbRZ9oHosOt+zyoPGD/9jxqZHrcEm47Gh/Lc+qOGr9yPUjRlxXO1pxtqUBR13Ba/3mL+j3e9Mm5thJ03v3nn7SvcfTTjLnxm4TcVuMn5N1enpvwXKcemiaaR5a7v0OvN+hHwaBYH2j2l9vbDTu/9r1Evj5/bfX5erblNMD1JZAUPSr9rMuTZLllAUAIMUJXYwvCiTbFPCu9d0RINRFgKRGXQEK7TQWoFRXXwEqOhouQI26lipEWUdobv1AkvoOI4URziOl5l4iFeN84NdoHoXzMa7D/PslzmBw+q48eMCgPCY/1jrrT1TdHJtfS71OqIne0muHgw44ZrttdjtG8BHzo+P2m2FB0/1QNtgAg2Rj5OVuLa4g64ijTM259W3Gyt97vZyw5/cWNQHpEJkkEane9pT7n9qoAAA=");
 
 export default PhoneXmark;

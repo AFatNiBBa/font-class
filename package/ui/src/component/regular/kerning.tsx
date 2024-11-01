@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kerning` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kerning?s=regular kerning}
  * @preview ![kerning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/kerning.svg)
  */
-const Kerning: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M453.8 34.1c5.6-12 .4-26.3-11.6-31.9s-26.3-.4-31.9 11.6l-216 464c-5.6 12-.4 26.3 11.6 31.9s26.3 .4 31.9-11.6l216-464zM45.5 109.3C39.5 97.4 25.1 92.6 13.3 98.5S-3.4 118.9 2.5 130.7l136 272c4.1 8.1 12.4 13.3 21.5 13.3s17.4-5.1 21.5-13.3l136-272c5.9-11.9 1.1-26.3-10.7-32.2s-26.3-1.1-32.2 10.7L160 338.3 45.5 109.3zm328.3 293L397.4 352l165.3 0 23.6 50.2c5.6 12 19.9 17.1 31.9 11.5s17.1-19.9 11.5-31.9l-128-272c-4-8.4-12.4-13.8-21.7-13.8s-17.8 5.4-21.7 13.8l-128 272c-5.6 12-.5 26.3 11.5 31.9s26.3 .5 31.9-11.5zM480 176.4L540.1 304l-120.1 0L480 176.4z" />
-    </Icon>
-);
+const Kerning = createIcon("kerning", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABawAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBUwsGAAE2AiQDCAQgBYMtBy4b0QQjEWZTbkv2j4TMTSz3f3Qaz2LuYuWiMRMPz9s9du6bCeCJpMpglYU6UN22UbWs4B8A1ak7/9d8fmlHB/jtyA4tylIbCzxya9B6PsBojxQqG84mitud1soOpXlIkhgtx7njc9lDHv/ERWVIt9JXuBA/NH7UwFFJmQxAVAfA8BlTJnvvXtyL+LL0svjSRATEcFAIZMjQWIBBMoHGcgVyueBelEr+P7AQQJTFD5RAjrIYi9mAHCR5nleuXb9cpTJV8umVylRckXOnzVP1Z8bN1k82mrPwdqsnGsyKa3XO1JsTs/2mxvRlPbv1rBTd41bbpxvOjut1r9bevGPGtOnTKsaMFs9Vf+7n5l8t/8rHlnYY89j338qzb0x4fmzDrSeqWfNdtbVu6tKGY+9ufmTTo7GtFuGupyzy2JgOSw9Us/bevbXAKLxV9wceSMpORAXiqLs/vHJ8QbVBv5WvlMCDv/5eziz9U3oz7UvPoVBeAkHWqdRpbjoo4NmgAIMU27WALwokQ+X4XSu7HiBURICkrIoCZBqpLkCuoo4ClNFUbwHKqmiKTOQVhNrmNZBUtglk+tgHcrW9CMoY5FO/rNqRWRRnD9yDLvlkTA+NnlR079KtGFAsY5U3Eib0DyyO1XbbqdYedlq+Yf3WZUtXbe3IzZOjbevGSMToHxbdu3QrBhTq7FGejsHmLavmvH6cgcV9s912uXV7MBKm7bEqSUQqt2bZ5j8mAAAAAA==");
 
 export default Kerning;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-s` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-s?s=thin square-s}
  * @preview ![square-s](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-s.svg)
  */
-const SquareS: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm145 87.7c-2 10.6-.7 18.6 2.4 25c3.1 6.5 8.6 12 16.2 16.9c15.6 10 38.2 16.2 62.6 22.8l.9 .2c23.3 6.3 48.3 13 66.2 24.5c9.2 5.9 17.1 13.5 21.9 23.3c4.9 9.9 6.2 21.5 3.7 34.9c-4.2 22.2-20.2 37.1-41.5 45.1c-21.1 8-48.1 9.5-76.6 5.4c0 0 0 0 0 0c-17.9-2.7-49.4-11.6-65.9-16.7c-4.2-1.3-6.6-5.8-5.3-10s5.8-6.6 10-5.3c16.6 5.1 47 13.7 63.6 16.1c26.8 3.9 50.9 2.1 68.7-4.6c17.6-6.6 28.5-17.8 31.4-33.1c2-10.6 .7-18.6-2.4-25c-3.1-6.5-8.6-12-16.2-16.9c-15.6-10-38.2-16.2-62.6-22.8l-.9-.2c-23.3-6.3-48.3-13-66.2-24.5c-9.2-5.9-17.1-13.5-21.9-23.3c-4.9-9.9-6.2-21.5-3.7-34.9c4.2-22.2 20.2-37.1 41.5-45.1c21.1-8 48.1-9.5 76.6-5.4c8.8 1.3 27.7 5.2 36.5 7.3c4.3 1.1 6.9 5.4 5.9 9.7s-5.4 6.9-9.7 5.9c-8.5-2.1-26.9-5.9-35-7c-26.8-3.9-50.9-2.1-68.7 4.6c-17.6 6.6-28.5 17.8-31.4 33.1z" />
-    </Icon>
-);
+const SquareS = createIcon("square-s", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABlQAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCSAsGAAE2AiQDCAQgBYMtBy8bRwVRlMzJDtkXB+a5SxwrP4cXNARNiedWkTsRPG/X93Vu95sF1CspgpWB/kIGIhUixfAM3uxd/Fbm6Tca+O1+Xpltu2UCBP4ZrrKhWgVLTZbuewcwVQWeuOb5nz/leVmJPloUlj7I93nl1ucTmOi8bROIAntRnG6TPRYF4RcREiUiHZ8dZ3vI45aVKkg30sc41340ftXEYZIsAxC1ATB6zozpXv8+vo/4uMyIj01FQIwBhUCGDM0FGCYTaC5XIJcLvo9ymf4DCwKIEr5uAjkqcAJnATlIsnYuhWFiyraUlrc0qq3yoApqILedjZioIQ6r9uG907ZfdxfQ8xqW434OcRAI+3L4J+YISLt320CA4DiIGwHyHWyeRoh5bAOQLzCxjd+/EDJWIfGZ39g0fsrzR5Z8vPpjI8/1+ppPslGyT77uNYpQKV426lDnXlDurVOn6igqbnh+To/Jk57bMwcx8bWfNu3tu7XZP8/Aj+3avbW8YcNtb9Vv98YRjw2wnPfImbmBiZ99vndT223Nqj609b77ly4vNdy67MJ9S3XOjQnAycETfVJ5SR72W2UzgR9f/Ld+cfl7r6fHUVkCQdat3M3CeB2IHoCbYrc2ysgCyQEZ8L1Wd1WAUBUBkpKqAmSaqS1ArqquAlRoqb8AJVXNkIm8ilDfookn1W3DMwPswXP1PYVXGOY9t6R+ZMEohZL0FUyfIIHx24rePXoVQ4pjYcjxJdT1oYXZ6LQ7DTpjp9W22GynVVZaZ6eAtpse7LLJBA0cb0SF3nropTBE4a5f9dnC3W6HdXvVv8lQxX2nk9367M6wE+btI5EkIlV+z2b3HQ==");
 
 export default SquareS;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `industry-windows` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/industry-windows?s=thin industry-windows}
  * @preview ![industry-windows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/industry-windows.svg)
  */
-const IndustryWindows: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 72c0-13.3 10.7-24 24-24l64 0c13.3 0 24 10.7 24 24l0 139.6c0 2.8 1.5 5.4 3.8 6.8s5.4 1.6 7.8 .3l157-81.4c10.7-5.5 23.4 2.2 23.4 14.2l0 59.1c0 2.8 1.5 5.5 4 6.9s5.5 1.5 8 .1L504.2 139c10.7-6 23.8 1.7 23.8 14L528 304l0 16 0 104c0 22.1-17.9 40-40 40L88 464c-22.1 0-40-17.9-40-40l0-72 0-48L48 72zM72 32C49.9 32 32 49.9 32 72l0 232 0 48 0 72c0 30.9 25.1 56 56 56l400 0c30.9 0 56-25.1 56-56l0-104 0-16 0-151.1c0-24.4-26.3-39.9-47.6-27.9L368 196.9l0-45.4c0-24-25.4-39.5-46.7-28.4L176 198.4 176 72c0-22.1-17.9-40-40-40L72 32zm72 272c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32zm112 0l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zm128-16c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32z" />
-    </Icon>
-);
+const IndustryWindows = createIcon("industry-windows", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABtwAAAKPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDZAsGAAE2AiQDCAQgBYMtBzcb6wXInocxuE17wLloNOp+divi4WmO7P1JlpJCSjxFxkNSQAqQ5bmqc6yAWJ3tIgxvRRZiRikEFuPlFcGcBwG1839NvXh+jYff6NCuV6HjDOp+noATaEtPHM+GsyaegO5Nh8e2wRD8JERimljHZx1fOyjjK6e0kB5LH+AevtH4ywC3kRQFgGgAsHzvzs3e+r7vIz7onPjARgTECpAFChQYLMAihcBgpYxSKfg+Ojv7f2AmgGhFP0MCJSp8iK8BJUjay3LWjKbp2bNp6pau5Z66pTr4xNg6XhogburzUL+98Uifh4hF6MTeD1Zd4va+DwfFTb29d8SD+wmP9XlodNd4pd8jg5r6eKB71C6GbnZX1f4X+4fMo+uuGbT98piq/yP96nioj3iwdxUP941asNS4Ojq2rmpUA1vZmz/AiNeb1/+pZ5o6fbYvs73PncrpM6Y/ud1Vp66qFiolZPodW9x6sq34iMb5etwb7tVjz1pnmt+vm2YE/v0c67T9d+7ye11+7j/nazwi/f6bG9eaLH3+u3s3uCE5bdna7tv7ZH06Y/y61mPssdbMeXnO2RLAeV3OGQVo6cYb9gcCwWfPTl54tPui/9vrBH48+9+Dy+X/fcrpdbRLICgmdU5yKC2T5cwCAJDiWiOcOwok72lH19rFwwKECgGSVpUAhUEaAUqViQK0GGq2AK0qOxWi7BB6Oywg6eIKUJjjelDq7U3QYpG3Pa16R1HaYmGKP5Zp1mh09bg8fcq0vCCbWYdUrfzqXpjDlnHXjqrxsNQZl7nU1U475QJXK+ZKm/3XuMQaD1vtgbLpppgmWyCnC5/n73Hala5ygctcir0slJ93jHOt33g82BPinCEtSURqXnrD5I8XAAAA");
 
 export default IndustryWindows;

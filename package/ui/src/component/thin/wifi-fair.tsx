@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wifi-fair` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi-fair?s=thin wifi-fair}
  * @preview ![wifi-fair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/wifi-fair.svg)
  */
-const WifiFair: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M133.5 282c48.7-45.9 114.3-74 186.5-74s137.8 28.1 186.5 74c3.2 3 8.3 2.9 11.3-.3s2.9-8.3-.3-11.3C465.9 221.8 396.4 192 320 192s-145.9 29.8-197.5 78.4c-3.2 3-3.4 8.1-.3 11.3s8.1 3.4 11.3 .3zM272 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm112 0a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const WifiFair = createIcon("wifi-fair", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABYwAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBMAsGAAE2AiQDCAQgBYMtBzAbsATIrgLsRvkiWEjGQmZ2l4O/9V5CHVJPS1vGCKq1f3tm9yM4IAkKOeRRRtiw/jpMDoWN0DHi1bNRqO/nx+X7R6HBSUjG5uZUry66OdWlxQ2cc+NpY5QmDXC6cZMOMNKiOBo1jm9mN8rFacNy3R5myMoubp53HgX4FlloY+HSQBb4nOcJBDyW54FuoUwTsNRt7OVBLq8iQ/CIGIocDMkVavzz4cm3CeBxfVT8QrgilQIAMQwAHF0tFeGtFa2In2YiftKBgDgGwCyEgvZJCOzCCl4BZxaoqqAVTWP/wFkQQHSC7ydBRQf2gGMAKkil4qQDA1Q8HVeldlBqrxoYj33b2uKhMBbcuXvvXWj3fLqN+Z5v9bU40VWGRgJ9WhhMnaw099ZRSR1Ywy9Jgs/LP8Bf/v4cn5T86nYcjkR4vO5Zv3HpPujt/HxBEfx1bPv31y7bgUDw/fk1rKHd/90QBqD94/nrZ0Q1Zy/mgG4JgrLUpJ2n5iWyFwIAkHEEmjx1F0Jag+VP7fdKgNCLAKlTrwDFBBYEql6LEOgwzQ+BTr0uwopKhjCu0yH1uwHFukuoxj1Ah13vWqfxKAlEXz/9fUtIMZJsUokOlyqimloakxNkqUZVy6JwpBEzFmFgaWGnr2dsR9hG0dybS0Vo0otU3BxcVCJU2+7jdFXfxtbY0sLqRKnOqyZHcboZCoYTLmtPSST5eDwY2x8FAAAA");
 
 export default WifiFair;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-sleet` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-sleet?s=regular cloud-sleet}
  * @preview ![cloud-sleet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cloud-sleet.svg)
  */
-const CloudSleet: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 120c0-39.8 32.2-72 72-72c25.8 0 48.5 13.6 61.2 34c3.8 6.1 10.1 10.2 17.2 11.1s14.3-1.3 19.5-6.2c10-9.3 23.4-15 38.1-15c29 0 52.9 22.1 55.7 50.4c1.2 12.3 11.6 21.7 23.9 21.6l.3 0s0 0 0 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-292 0-1.9 0c-.3 0-.7-.1-1-.1C73.3 270.4 48 244.2 48 212c0-28.3 19.6-52.1 46.1-58.4c11.8-2.8 19.6-13.9 18.3-25.9c-.3-2.5-.4-5.1-.4-7.7zM184 0C120 0 67.7 50.1 64.2 113.3C26.4 130.1 0 167.9 0 212c0 57.1 44.3 103.9 100.5 107.7c1.2 .2 2.3 .3 3.5 .3l4 0 292 0c61.9 0 112-50.1 112-112c0-55.2-39.9-101.1-92.5-110.3C406.5 55 366.9 24 320 24c-18 0-34.9 4.6-49.7 12.6C248.5 14.1 217.9 0 184 0zM81.5 353.9c-12.2-5.2-26.3 .4-31.5 12.6l-48 112c-5.2 12.2 .4 26.3 12.6 31.5s26.3-.4 31.5-12.6l48-112c5.2-12.2-.4-26.3-12.6-31.5zm272 0c-12.2-5.2-26.3 .4-31.5 12.6l-48 112c-5.2 12.2 .4 26.3 12.6 31.5s26.3-.4 31.5-12.6l48-112c5.2-12.2-.4-26.3-12.6-31.5zM216 376c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 16-16 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0-16zm256 0c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 16-16 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0 0 16c0 13.3 10.7 24 24 24s24-10.7 24-24l0-16 16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0-16z" />
-    </Icon>
-);
+const CloudSleet = createIcon("cloud-sleet", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABrwAAAKKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDLwsGAAE2AiQDCAQgBYMtBzIbsQXIBuJ7nbbvS/YkUhgUIj4CqJihaDPXMnnimudfRQ9Y5I9Sy9LRrDwqeDrfebUn7YbjEhpNkDc174khkRUKZbe2I9DlmqzGBmqLeg6sch8lbwhkPihsGgAA4gEAAFR079zC7XZpF3nmuADyjCZAAKQCAAsBNLg8BAGgGA0pHoGOBejoCLSLw2H/Ay0QABA7Aa54rA44AZeBewCADoDCrutZUa6ulmXaXPVups3ovS1J5FjchYQNvhv8N5nL4BWBW2JE5siBhCOBm+MPR7sYc2SpHAzaGDSnyxV3CEZL9/v5IpdD9jsXO3osz1lmmq6Xko6F70w8mhv/YGn0zdoeBwO6yOaYA8HdZVusay66y9bY/QGIIVa0JcYURHQoWMQUuXEYQ8S1636RRz2Ovot4Puw54+vcsiCrfWJbjz2np7339/v3PjqqAmC3p6dhxE+wO1qBMPGjw8nv5avsGE3X66YTDu5lz50DI80bN86J0qM/fvjv7rxj5bTd+9alB4/xTh86sHZf2niGFNSuk30SPPKLlvj6duzo64EHHb3Kylq8GQABBEr33xnT3734m5OpAHh99cN3eKXjj+OaQh0FnFAACGjJjmT6KDpQ6Iusf0CmEQnHKIDiNCfjU13YiAAgGIAAoLBjIABoBOOBAKBjkIQAYCOMHAQAOwad0RDdGcGHvhmncGEip5HLDE7Hh3OcjWIeBe34iPb86p4+3edj5toiUDPKykhNtwqt1qxE/0iqurvIGuyOn8arEuBBhjGecUxhKEMYyZQCO4mWyFTGUtvF1PBFLDJIJR2LQqzJhau7uzGUSUxmJOMZZwcpwlreH8+07sYJ0KcIJDNJUSgQZf7I0JrywtAyBQ==");
 
 export default CloudSleet;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-heart` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-heart?s=thin file-heart}
  * @preview ![file-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-heart.svg)
  */
-const FileHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 448L16 64c0-26.5 21.5-48 48-48l140.1 0c1.3 0 2.6 .1 3.9 .2L208 136c0 22.1 17.9 40 40 40l119.8 0c.2 1.3 .2 2.6 .2 3.9L368 448c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48zM358.6 157.3c.9 .9 1.7 1.8 2.4 2.7L248 160c-13.3 0-24-10.7-24-24l0-113.1c1 .8 1.9 1.6 2.7 2.4L358.6 157.3zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-268.1c0-12.7-5.1-24.9-14.1-33.9L238.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zm44.6 304.6c0-20.2 16.4-36.6 36.6-36.6l.6 0c9.7 0 19 3.8 26 10.5l14.6 14.2c3.1 3 8 3 11.2 0l14.6-14.2c7-6.8 16.3-10.5 26-10.5l.6 0c20.2 0 36.6 16.4 36.6 36.6c0 9.3-3.6 18.3-10 25.1l-67.6 71.7c-1.5 1.6-3.6 2.5-5.8 2.5s-4.3-.9-5.8-2.5l-67.6-71.7c-6.4-6.8-10-15.8-10-25.1zM145.2 252c-29.1 0-52.6 23.6-52.6 52.6c0 13.4 5.1 26.3 14.3 36.1l67.6 71.7c4.5 4.8 10.9 7.5 17.5 7.5s12.9-2.7 17.5-7.5l67.6-71.7c9.2-9.8 14.3-22.7 14.3-36.1c0-29.1-23.6-52.6-52.6-52.6l-.6 0c-13.9 0-27.2 5.4-37.1 15.1l-9 8.8-9-8.8c-9.9-9.7-23.3-15.1-37.1-15.1l-.6 0z" />
-    </Icon>
-);
+const FileHeart = createIcon("file-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABlwAAAK7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCdQsGAAE2AiQDCAQgBYMtBzEbdgXIPgxvjKB+EmkyRFH3EDLbyLsiqlBs8ah0f4wg0v3r7EnPIJlBBsaOGPRtDiCW6VKlCxdduDV0af1hAy4c15HHVc4F4PcOQImJA7m4Av/dQAODkAJOIK0DjB6YE9jup0FJ4y7kIEBNIKIkp1wtkBKJIzziG4Sl9t/Uqec5DwXwjYKyFi1duEGeMtd5BAIajCfeK/hYYDUtgJapbxORSA8hvIIICYt5nHZc7ZDHFXs1SG+n3+DF9KbxUNwmyTIA0QEAC/aaZX44/hPx24/4TREQC0ElkCFDHwFmywT6yFXI5YJ/snn8D4QAogX5MQnkaIl38SUgB0kjzwe36TNkYNlom68vG0WZpezd7m8OK+PZsilE3fX1soxaire6vDa4TXzR7Y1eB15XEV/0ini967rdn1XEVz1SvD3i6yFt48tR3/bOoqnb+nijKDY1OeLNsoxnu3aN17t3r/Dr6r42XiuemXBi0WcE2+pcl+zy2e4biFyF3xhaxDNdukS3E2cZ+E2Hbx7P3X+u69fvdy0lLur4/be5KKU2jJOE8X/8rvUDccqqnA63bvW9j0LHolZ07PgRikC7jS5/msfwJz16fIe3+aaF9t/8aetPWHvb7d5ZmIFZNjDfzDt18srHeGL+XpQDpbiwcKm/8ZPHR9end99TAQLBs2f8js3+XxL4b37it6g5dfoGrSQQZKObtTVqiFoAAFKcNzBqBJJXNciltvGGAKFAgKSFQoBMbx0EyBVGCdDQzxQBWiiskYm8tdDFtgCSNk6BzFTXQK6L70DDbD96LXSJzEUZB2N+iIlLNbJkqWrs+Gpm1Y0U1usons6qphXPU2UEbNrvhOPO2mevQ84q7LRl4TnHLB2hS3xQZYKxxqvMVG2nt+J6ZZ92BpE2vz9nluq+Mdz5cfsI0BPBnQhKEpGK5yCPeSgAAAA=");
 
 export default FileHeart;

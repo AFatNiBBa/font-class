@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `uniform-martial-arts` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/uniform-martial-arts?s=light uniform-martial-arts}
  * @preview ![uniform-martial-arts](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/uniform-martial-arts.svg)
  */
-const UniformMartialArts: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M176 0c-.9 0-1.8 .1-2.7 .2C135.2 2.6 100.8 24.3 82.2 58L15.8 178.8C5.5 197.7 0 218.9 0 240.4L0 368c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-80 0-47.6 32-58.2L160 288l32 0 0-166.8c0-6.7-4.2-12.7-10.4-15s-13.3-.5-17.7 4.5c-1.9 2.2-3.6 4.6-5.1 7.3L100 225c-2.6 4.7-4 10-4 15.4L96 368c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-127.6c0-16.2 4.1-32.1 11.9-46.3L110.3 73.4C123.8 49 149 33.3 176.7 32.1c.4 0 .7 0 1.1-.1l52.3 0 72 144-56 112 35.8 0 52.4-104.8L409.9 32l52.3 0c.4 0 .7 .1 1.1 .1c27.7 1.3 53 16.9 66.4 41.4l66.4 120.7c7.8 14.2 11.9 30.1 11.9 46.3L608 368c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-127.6c0-5.4-1.4-10.7-4-15.4L481.2 118c-1.4-2.6-3.1-5.1-5-7.3c-4.4-5.1-11.4-6.9-17.7-4.5s-10.4 8.3-10.4 15L448 288l32 0 0-105.7 32 58.2 0 47.6 0 80c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-127.6c0-21.6-5.4-42.8-15.8-61.7L557.8 58c-18.5-33.7-53-55.4-91.1-57.8c-.9-.1-1.8-.2-2.7-.2L400 0 240 0 176 0zm89.9 32l108.2 0L320 140.2 265.9 32zM448 384l0 72c0 13.3-10.7 24-24 24l-208 0c-13.3 0-24-10.7-24-24l0-72-32 0 0 72c0 30.9 25.1 56 56 56l208 0c30.9 0 56-25.1 56-56l0-72-32 0zM144 336c0 8.8 7.2 16 16 16l130.1 0-47.4 71.1c-4.9 7.4-2.9 17.3 4.4 22.2s17.3 2.9 22.2-4.4l50.7-76 50.7 76c4.9 7.4 14.8 9.3 22.2 4.4s9.3-14.8 4.4-22.2L349.9 352 480 352c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0-160 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const UniformMartialArts = createIcon("uniform-martial-arts", false, "data:font/woff2;base64,d09GMgABAAAAAANMAAoAAAAABuAAAAMAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiEAwsGAAE2AiQDCAQgBYMtBzsbDgbIHoex42UZgQzvhIIqHp634+3cN/M1k/gLE0JVlqz2VwupElDBXdyt1AX+x5j7b+rX/9xR8yaWRpuGgleOTvNQaJRqjWQG2Gz+r6kXz48O8PMRHFrkItsj8vkEJnq4KNqbDSSpbWAT06mbEjx6iNLHQ6QTV0qRMf5uxzPYEvL4i/HEpAfSl7itnlT8qs0FSZ4RQAxAAJbs2rbB86E4FPF54nXiS+uQgFiKUAEyyHQCmE8oyCWIVEguFxyKEyfKf2CFAoha4ltJIEct9uM/QA6SPBel67p6lDVq0UBZoxi9sQicxmPDr1r74n7igabcCGXcthQ6EEA0RAkg35xvzDb2xd3E3Y0KOQvitGMwXpx1Wpboj+1RYjBrS8B7Rbw+gToeMJmaB9zMpkA4xCVQiV5qT9vVn3hw5M3IVFH0lYWyL3buAfcPV8RNO0KBO3kVM/c0DWtf3D1HWwZjR7S0QvNAlCi0pHtUFNlGy8OAh9+HfOmXXvwwEuHjSy/4eUmv/yrZV/smVxTad7ZZyI9zsFvFVY+cOXRwyYpE/eX6Hap897tc6+tLes2/IqZrvM2sC9lEz9J6r+koeOWMJZd4aju2HqF+5twVxqGLd95VPKmy4tckXYRf7W+syLT/7DLmo0t6fV166ccpqq7pWWPrjHOR9fW9q3G4pi3f2tK0Gmsi/fP4Rd+66PifdavxpKDm0JUmrrT21Bc3Tm0FX+qLp847eM8c6rfWPvRQ2x8IBB/+xRV7+8//v74UEBx558//aXcnPkqXp2dQL4EgG39ivLF0OYAYQCLFAYvyQYHkJzk+1T7uFSAUCJDUKgTIdNAByBXGAajRLQ6gVmEbocjlFBqND5D0cTHIzHQIco0eQY35XuK1GiOLdCZOmQ/NxJUSXTGtmhIIcQmflnU2eKk8Xspm3egDanND1oJNG/bMm7NsT+A72lP71jVoWL0vYmEBIawEu2vP2gHJumOXqDXvn6QU73e5HOi93TAKMOlUBUkikum1U074Pch+8nkTnksAAA==");
 
 export default UniformMartialArts;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crystal-ball` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crystal-ball?s=sharp-light crystal-ball}
  * @preview ![crystal-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/crystal-ball.svg)
  */
-const CrystalBall: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 224c0 49.2-18.5 94-48.9 128l40.7 0c25.3-36.3 40.2-80.4 40.2-128C448 100.3 347.7 0 224 0S0 100.3 0 224c0 47.6 14.8 91.7 40.2 128l40.7 0C50.5 318 32 273.2 32 224C32 118 118 32 224 32s192 86 192 192zM34.9 512l378.1 0 34.9 0-14-32-42-96L56 384 14 480 0 512l34.9 0zm336.1-96l28 64L48.9 480l28-64 294.1 0zM304 144l-32 0 0 16 0 48-48 0-16 0 0 32 16 0 48 0 0 48 0 16 32 0 0-16 0-48 48 0 16 0 0-32-16 0-48 0 0-48 0-16zM160 96l-32 0 0 16 0 16-16 0-16 0 0 32 16 0 16 0 0 16 0 16 32 0 0-16 0-16 16 0 16 0 0-32-16 0-16 0 0-16 0-16z" />
-    </Icon>
-);
+const CrystalBall = createIcon("crystal-ball", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgwAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCSwsGAAE2AiQDCAQgBYMtBzMbTgXIjtRWcxRJchPP0+/HOvd9wbR5VElmUTQSyWQi00naGtMpgaFuCWtP+2nzArRJ82XLmwIQuBoHJKMKyEeyaA9IZ/6v+fw0GvD7iR9apJUeyDVI1dbPJzDgKD/fRBpsb6YTsFk7fYYfRDeIpE/5JMP4DIsB6kyQK6SUL9EN4DXdVP7BxDhQ1BUAMggAOLjPScPBC70Q3RhWgfwgBQRyCGAaoaLN4whsE4scQGIa1GrhlwyG+B/IgQBpgXcvoEYHXgBvAKhB0dQSnVap0zGpRpLPpKqaz5GMjgvmvZeSr+JPEi88F/iXKEZH+d9yPhV8yXrMq9WoNaaUT2rKJWNiNV7eXmryIU2xiqkQ6VYhPQyRHoLGiqFS8Uz50+ta6wX9d91N/Q1mnin5wwkNEvofj1wtXl4sXI8ejXD26IQPSqasvLysjFNe3qZRq+HhqWc4PSDTxZ5hc16xD1Y59mF/qOUfC/DkOcghrHhCwEnr1UMlBQI8KBTpckAQZn55T4U29L+CiQB/Wz9/o/6K/h/QgUgP6FRAqBYMrijNAUC+QQCAkn5Y5wAQFM+kcKu93kEguhFQtLoFVMYICNS6zSPQmOSHQKvbNbHUSsSosg6KXk+gsmUM1EYtg8a2c7c1GrE1irYkfgbT4j0Ut457uXvyYD7NNcnA+LAcwpcNx37uOdFZ1OvQrledWk16BdMtLejTJl7D4nwR58WdJy4Y364ej+er061Hkw7tcZUQ/LzjqF+f7ES2CDjXJIpCivrd6m43DA==");
 
 export default CrystalBall;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-building` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-building?s=light car-building}
  * @preview ![car-building](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/car-building.svg)
  */
-const CarBuilding: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 32l224 0c17.7 0 32 14.3 32 32l0 101.2c9.4-7.6 20.3-13.4 32-17L352 64c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 416c0 35.3 28.7 64 64 64l160 0 0-32L64 448c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32zM264 192l-48 0c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l41.6 0c3.7-3.7 7.7-7.1 11.9-10.2l18.3-64.2C286.7 201.5 276.5 192 264 192zM88 64C74.7 64 64 74.7 64 88l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L88 64zm8 64l0-32 32 0 0 32-32 0zm96-40l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24zm32 8l32 0 0 32-32 0 0-32zM88 192c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0zm8 64l0-32 32 0 0 32-32 0zm128-32l32 0 0 32-32 0 0-32zM88 320c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0zm8 64l0-32 32 0 0 32-32 0zM380.2 208l135.6 0c14.3 0 26.8 9.5 30.8 23.2L562.8 288c-.9 0-1.9 0-2.8 0l-224 0c-.9 0-1.9 0-2.8 0l16.2-56.8c3.9-13.7 16.5-23.2 30.8-23.2zm-61.5 14.4L297 298.1c-24.5 13.7-41 39.9-41 69.9l0 48 0 16 0 32 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32 320 0 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32 0-32 0-16 0-48c0-30-16.6-56.2-41-69.9l-21.6-75.7c-7.8-27.5-33-46.4-61.5-46.4l-135.6 0c-28.6 0-53.7 18.9-61.5 46.4zM608 416l0 16-320 0 0-16 0-48c0-26.5 21.5-48 48-48l224 0c26.5 0 48 21.5 48 48l0 48zM336 400a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm248-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const CarBuilding = createIcon("car-building", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAAB6QAAALjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWSFHAsGAAE2AiQDCAQgBYMtBzMbnwbIBv4p3eufu5JpZVBMuCGWg0wdQ2W/AHKVVOGiYU1arPDjxDHjRVoCJg10PpSo9qq24c53Puymifw9yAvjH817cdaNoSmk3YGvv9WEJDAHzStgf7BcnyliCxh8jwivEPiZdB87cjCPY8XSq//vgl4xEBCAegDgEOABHlCKAOiEh4BSfBzg4yOI9f//7n+gAwGAkomQhlM+kA2qB2oH401gCH2/WXaYlp0Wpnl9fou8whokZfhjxC+wEwMb7M6rAiXqS4caXapndabBhUKjgw0v1g0kWe3Kr5anjQWJYLQN7JlCdLBuoERBSx2qN6aLOl8iq60pJKYjOxYxp9eZQjwzGyArjdpeGgiYKT9bFFh32Y3W5gw5t7YO1+81auyoB6UojqzKSxRIGZ4d+R/rMEaH6lUfSMg9UzgdkT635nBBon6gs3lVRcw4XwLS580H644t6N23a10KL32t+WrOK7oej+M4c8eOzNm8yRuFrVHjRMwJo7LTAr8TOE4AiaaR+54ej6JoeF5E3vBG9J5ZQcvK6+v7mgivWO8iUhxuav2IN8ki0l/hUNunHhhxfQWsL7m+I7pu2urfSChGSL9ZPe113kBOPqc8IsRFZsZxpqNbHeUIiSifQ9cwKvgnfwf5/wSj3JMwEnWb3e69fhfFRO9ee1FW1vC8vOEh/FcBu/0eAAQIWr2tt3xqVqcfqYEB4NOj7z/Kz/n/sdlgLgGpGAAEXpP/mzDJbAAQlAIAh9EaagEi9SYqJySypFN91CUstHhDMhbvUUKI97E0xidRTmvmRsHITSj5aZZcJhO8IZ3leI82rMX75HIbn0QnntqTyZX32rBvevZPa4I+fVDvaa6yWeQ6uMWsmvMmMMHujm6zosEaWdUQb2QOS1nCKmYzi/ms6uFWMNi1msX0gah7/62jkmZEODrgDhceC8ZQ/QpWSuY87/g4HXHXWxqwBm7cEKsNEc0WLDUYkEmfOX1F0y8LAAAA");
 
 export default CarBuilding;

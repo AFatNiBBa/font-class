@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-chevron-left` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-chevron-left?s=sharp-light circle-chevron-left}
  * @preview ![circle-chevron-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/circle-chevron-left.svg)
  */
-const CircleChevronLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256a224 224 0 1 1 448 0A224 224 0 1 1 32 256zm480 0A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM164.7 244.7L153.4 256l11.3 11.3 112 112L288 390.6 310.6 368l-11.3-11.3L198.6 256 299.3 155.3 310.6 144 288 121.4l-11.3 11.3-112 112z" />
-    </Icon>
-);
+const CircleChevronLeft = createIcon("circle-chevron-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcwAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbAsGAAE2AiQDCAQgBYMtBzob9gTIhof/Xyu771f1BIAqo8LELi4KyZEDwkXQc9YS6J469TznoQC+UdDGwjVBFtDe5xEIcLo94AWKUE0rYGWpuo0XH+SyJnKGoIgY2sGQ9IA8nkUXJdKF9CWOlVPFr1o4QJJnAKI+AEbOnz3V66qoiviy/ID40mQExChQCGSy31qAITLBB+QK5HJBVZTL9htYEEBUwD+TQI4S5mMNIAdJluetWrWoVaqTz6tVqjn/Su+Ie5O/qHVo4mc977S/2OP2hE9rHpz0ea+7lXV+HhXxdtrXNQ9O+XLE6zk/jXwz9atah6Z/M/rd/FWNmzVuEnOjSXSOpjEv5kez6BSNY07l1fpXf2//5bovtXtV+y3fD5s6ePDUYd+/rV37rb+uMrYGLe69GT36zb0WNYzlZNIW1XyKXdu3u2adp1avUe2pdfyW7duBQNDixOfTltcb8n/1Wgn88vTPv9VvUfl1kq6iugSCrEu5iyUJJAIAkGKfygSBZLoMzlrbWQFCTQRIKtQUINNKfQFyNXUWoKStvgJUqGm2TOQ1hMaWOkhq2wky/ewHucbugZIhPrErNI4svIjgIB53seMYGrtV9OzWoxhUDBONjBgsLwcXy1yHfdroKC+ts902e6y1xkZ7CNllqrfXVuNm8FgfVOipmx4KgxTb+f3jedbaZbeNtttmawYrzlsd7Jv3dxQxAWovoSQRqdEvHF/X1RvW7tu1fdvlAw==");
 
 export default CircleChevronLeft;

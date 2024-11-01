@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-circle-check` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-check?s=sharp-light cart-circle-check}
  * @preview ![cart-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cart-circle-check.svg)
  */
-const CartCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 0L0 0 0 32l16 0 51.2 0 77.2 339.5 2.8 12.5 12.8 0 160.7 0c-.5-5.3-.7-10.6-.7-16s.2-10.7 .7-16l-147.9 0-14.5-64 181 0c5.9-11.4 12.9-22.2 21-32L151 256 107.3 64l425.2 0-40 128c1.2 0 2.4 0 3.5 0c10 0 19.7 .8 29.2 2.4L566 64l10-32-33.5 0L100 32 95.6 12.5 92.8 0 80 0 16 0zM184 432a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 80a56 56 0 1 0 0-112 56 56 0 1 0 0 112zM496 256a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 256a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm78.6-176L552 313.4l-11.3 11.3L480 385.4l-28.7-28.7L440 345.4 417.4 368l11.3 11.3 40 40L480 430.6l11.3-11.3 72-72L574.6 336z" />
-    </Icon>
-);
+const CartCircleCheck = createIcon("cart-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABnQAAAKdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDAAsGAAE2AiQDCAQgBYMtBzgbiAXIjtRG9VNkx8P/69Lu+yOTFAbZYeLFKuFqibkjKDqf7Qgrmr6B1983/9d8fs+jQT7fnfCh5bq9gzKfT2DP2zZvm5Wf0ERxo9tuhpit4yExzpDFPzFUDenu9AVutDUVP+rqEklWARBtADBrw5plPmqO5ogvqq8TX1iCgJgNSoEKNPWoMExlCs7PlMhkSc1RrUb/gSUBRC33wwlkqMdDeA6QgaQ2y8Y0tOzevWtR0zJbX9TkW/IiF0WxKTrCQ3fE+c55NEUR9/Lq9dEy1sb54lrvaR03RPfIW3SLTpFverzrXX2f6HbvAE92v7fbPf0f63JX17v77bm2X8Tj2u9cl4HoY/k1/Z8Q9jjvZA14skjXToHcd0e8GOeHvzD5nYcmvjX0OeeGPT/p7WLD4EGDO8TKGBydYmB0jGkB0jk27G96ps0zPzd+sf8LrT9s436v1GbM0jWGaPlwXX193W1+9bpzH3xryIeeMeAsEdH624HnPajx3dGGanngxVUdO66CxSt/65Pvo9rrAR74/vtevaD9gQfgwAPFMQMSaVRj//6No1IawBugf/mL+93Asz6n/Gft946rPfuiBQu8AwSCpgUrftrReurf9UUC373z6++Sh6sfpXPpGdRLIKgMrQ61NZ0Dxg4gkeIqTQNrDCR32elabeEOAUKOAEmtXICK7toIkMkNEaBGL+MEqJVboyKyBqGDbQVIWjgFKsY7DTIdvApqTPVxvFaHqFyo8mUmfyZmmF+F5q0qRw0fWU4uexsy5doT9eKUcrJj4FV8YBA8ab8TjrvCPnsdckWFvMyy1JWOmT8Ez/NDpVGGG6k0Wbm4fdOwHvsvczkXu3XLl5mi3D4y0FXD4wdBd+IKjlaXJCK1fdUtw/7oMQ275wEA");
 
 export default CartCircleCheck;

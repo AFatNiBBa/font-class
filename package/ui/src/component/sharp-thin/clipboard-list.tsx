@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard-list` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-list?s=sharp-thin clipboard-list}
  * @preview ![clipboard-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/clipboard-list.svg)
  */
-const ClipboardList: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M257.3 80l13.1 0L304 80l0 64-112 0L80 144l0-64 33.6 0 13.1 0 2.6-12.8C135.2 38 161.1 16 192 16s56.8 22 62.7 51.2L257.3 80zM113.6 64L80 64 64 64l0 16 0 16L8 96 0 96l0 8L0 504l0 8 8 0 368 0 8 0 0-8 0-400 0-8-8 0-56 0 0-16 0-16-16 0-33.6 0C263 27.5 230.7 0 192 0s-71 27.5-78.4 64zM16 112l48 0 0 32 0 16 16 0 112 0 112 0 16 0 0-16 0-32 48 0 0 384L16 496l0-384zM192 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM160 216l0 16 8 0 144 0 8 0 0-16-8 0-144 0-8 0zm0 96l0 16 8 0 144 0 8 0 0-16-8 0-144 0-8 0zm0 96l0 16 8 0 144 0 8 0 0-16-8 0-144 0-8 0zM96 432a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16-112a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM96 240a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const ClipboardList = createIcon("clipboard-list", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABmAAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCewsGAAE2AiQDCAQgBYMtBzUbgAXIhuB5u/+qc7u/uh965B6CKzAjUwDRZAtmGw7SheP3P9d8fs+PDvAbHUrnokAKJCKeT6BAonVtrQc2sJlOwDY4b/IBh+b+I+Rxhwt1kV5I3+Ox7EPjV8M8SJJlAKICwNrD+3c6fjJORnzX+YT4znYExFpQC2TIMFKAFTKBkXI1crngZHQ67D+wJoDo5r8vgRwNvITXATlIijwfMmVQn3992dXMD5VdxSVlUYqiiCjLIfHS5NfKhya+MmzQoWLIEnSxSCHKZkQWMYtKUl+c9uakl6e8PvTAWhGjhvYqI0UjssPPDXl28NMDnxl0QOCtipybVg4boq4dku6Me7N68/ex31/8Pdc0m7PXuPbaNcY1R9rYbA0d2mpuHPloe9y4eZXKkt5ej+vVe2smLRmYXo07Y+2an39es/aM82bP8fetVaq/KrU57nWue99rn2y1Tkr/mFsqOEnv85Xe584pvL8MWWK0r8FM5W3v7t4OBIKrTpyz8pz2iv97ywROf/nnr9nPSOd43JveRK8EgmxGZ4Yz416IewUAIMXNxsW9CCRPKfhuNDwrQCgQIOlWCJAZoRIgV5iOoctoC6mFq/fLRN4nDHQWhKThOsgschfkBvoIuqzwVbTbwMiuUuYaY34SEzc1kY3D6rmz5tTL6tG8gr3wKN2/vF5sTrmZ102FO13sGle70UUudJkbG9j1diZucpVNU+hGX1Sba5Y5asvUm0t3xUM4cL0bODXMbR9kufr4yBQ3T7eeCp3Ex50nKUlEan0i6HNYmnmqAwAAAA==");
 
 export default ClipboardList;

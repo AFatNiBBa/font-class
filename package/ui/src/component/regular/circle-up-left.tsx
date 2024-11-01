@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-up-left` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-up-left?s=regular circle-up-left}
  * @preview ![circle-up-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-up-left.svg)
  */
-const CircleUpLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM160 313.4c0 12.5 10.1 22.6 22.6 22.6c6 0 11.8-2.4 16-6.6L232 296l66.3 66.3c3.6 3.6 8.5 5.7 13.7 5.7s10-2 13.7-5.7l36.7-36.7c3.6-3.6 5.7-8.5 5.7-13.7s-2-10-5.7-13.7L296 232l33.4-33.4c4.2-4.2 6.6-10 6.6-16c0-12.5-10.1-22.6-22.6-22.6L176 160c-8.8 0-16 7.2-16 16l0 137.4z" />
-    </Icon>
-);
+const CircleUpLeft = createIcon("circle-up-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdwAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBeAsGAAE2AiQDCAQgBYMtBzUb/QTIhof/Xyu771d1ALACCJ0JITsgVtGjssBs56xktWt74lznOx8NsEmHFIllu4EUYNf5BCZWrwn2QFFgb/oC9m8bOhQKw9OIkCCJaDxpvNpDHm/FbSXSk/Q1bpUPjT+1dZ6klAGIJgAor1gyz/s1URPxVeUV4itzEBBlUAhkyNBBgPEygQ5yBXK5oCYqFfoPLAggatHXSyBHCeuxC5CDJMvz9u2L+qWG+fL6pXprro2JeGPIC04Pfj769XpXx7459MU4M+ylcW/VT78tiPiu6qM4M+XD+d8u/3nu15Pfd7r8wbxvli1/0uNa60mxLB7UR8KjONNqeZz/tGe9uN9C1+om1X93+Xr71yq3xvzJH+8/HzXq+ft//DnGBGj9+2luc2dch6qqDuPu3J5Ggrhzw6ctynW3Uy5bVqfOsmGVSpdle90W5StqGl0BAsE7nz/7bkPj8f/VqZ/A72/++z/5FVXeT1I16kggyPpX+lubQCIAACmO65ogkCyX0Wtt4KEAoR4CJLXUEyDTXhMBcvX0E6CkkxEC1FLPEpnI6wotrOtw0sAhODPSCTjXwktwyXifmbW0iCzI2BBhn3hJ0y0wbaoYMnBwMbaYBhoXN3QejiuW5d7HudAHVm13wH5HbbPVLkcNdNg855h9pnvgNF9UGGKgwQpjFdvx4/xy2xx2xC4H7Jcx4xTnjd6O+/V9QEuUdChXkojU6C+OPuDYwQsIAAA=");
 
 export default CircleUpLeft;

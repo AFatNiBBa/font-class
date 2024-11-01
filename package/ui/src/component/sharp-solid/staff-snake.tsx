@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `staff-snake` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff-snake?s=sharp-solid staff-snake}
  * @preview ![staff-snake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/staff-snake.svg)
  */
-const StaffSnake: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M208 511l0 1-32 0 0-1-1.5-47L136 464l-40 0 0-80 40 0 36 0-1-32-19 0c-53 0-96-43-96-96c0-47.6 34.6-87.1 80-94.7l0 94.7c0 8.8 7.2 16 16 16l16.5 0L164 128l-28 0-9.2 0c-4.5 18.4-21.1 32-40.8 32L0 160 0 96C0 69.5 21.5 48 48 48l10 0c1.1 0 2.3 0 3.4 .1c.9-.1 1.7-.1 2.6-.1l97.5 0L160 0l64 0-1.5 48L288 48c53 0 96 43 96 96s-43 96-96 96l-40 0 0-80 40 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-40 0-28 0-4.5 144 40.5 0c53 0 96 43 96 96s-43 96-96 96l-16 0 0-80 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-43 0-5 159zM64 112a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const StaffSnake = createIcon("staff-snake", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABggAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCOAsGAAE2AiQDCAQgBYMtBzIbOgXIhgjSVVaPdCQ9gx4QDECcPoQ2R58ZKEjMKUG8E5fjv7e1fNsD0Fy6QFYTZE6BzjsPJF8EXRZYpmHg1t0k56ihnGhIcno+DUuOhqkr1LmjelAf5bXyFZ6hN82vJnuQYqgCkFEA2O+UE46y76f8lHzZe5986QgEsh/oBBUqTBOwVSWYptahVgs/pddT/4EdAdLPQUVQI3Bv8yjwnwFFqetrhtq+4fXJbV9zkmiSzEjTJG07JU0+WLxnxjtL9m6Ql8a3OTlN8+rcJskbE19Z0OaJ9on2vrSZkTbT0ub9Rbunv7lw19omSZtXJr48oWlOrKU58fTwfC+Oe2n87D2j9vw+66uLv/Lt9iSdGGHBwmMtnDvSWPfu2TNYnXba/HOM+Gm0+hnThp76+2Q7VV9/t7JRUsL5ZtpppP1G7UHP3bvQseKfRiwQC6dV0cIiMAoc1bNE/fYzT0cVlUAeu/afBzefM3Lr/4NtAb988ufv7Leoty/3lj0YVEColvaWOjP3Qu4VAEDJzWbnXgTFrQp61WFeFhANAop+jYDKVKME1BpLBPSZYZ2Afo0TVFIPiXHOSnIxzHVyZb275No478p9tvq07DculRDqIqR/AXMO5uBBp7pVy1d2m7vmQDTkSjWHW7rpZOHNemERXHSxa1ztRhe50GVuZOz1jmpucpWDe/hBPqizynIrdTbrtsfnzslYXu8Gl9UD+8fYojtfLHRzf/0iOE8BrL6+vkJK+3Z6lt1w9XlXXAQAAAA=");
 
 export default StaffSnake;

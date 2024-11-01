@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `highlighter` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/highlighter?s=sharp-light highlighter}
  * @preview ![highlighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/highlighter.svg)
  */
-const Highlighter: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M263.4 416l72.6 0L560 80 480 0 144 224l0 72.6L94.6 346 72 368.6 88.4 385 4.7 468.7 0 473.4 0 480l0 16 0 16 16 0 112 0 6.6 0 4.7-4.7L175 471.6 191.4 488 214 465.4 263.4 416zm-111 33l-31 31-82.7 0L111 407.6 152.4 449zm39-6.2l-74.1-74.1 49.4-49.4 9.4-9.4 0-13.3 0-55.5 35.1-23.4L342.3 348.9 318.9 384l-55.5 0-13.3 0-9.4 9.4-49.4 49.4zm46.9-243.1L475.9 41.2l42.9 42.9L360.4 321.7 238.2 199.6z" />
-    </Icon>
-);
+const Highlighter = createIcon("highlighter", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABawAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBdgsGAAE2AiQDCAQgBYMtBzIb+ATIHgnZWczNXKDeVsTD83Pln/uSpUwZUiAAV0fCrq2rqmPhAD+injSTci3P2vm/2fOeRwF+oARDG8umBrJAojmfJxBg1kt7gUST593h2YnimbeMaSblvslEk/T4LXp8GiGPdzFYDelJeosH9UPjVx3dJskzANECADPWrVri+ef4HPG2mnhrEQJiJigFMmToIsBkmUAXuRK5XPA5qtX0H1gSQNTC6ySQoxbrcRiQgyTP834N7RsqNU3ztZWaYlelqGyKtbE9xPLoH21jdbQJIUSl0j6mRdsYFKtW9x/Uv4h1MWXc2jVrV0X7wFSTYk0MjqJoE8vXrVu9bkqsjrU9G1s0/t7jrbdquy9YsODTMstkwCcLsFdVq8xSpwW3nxttpCocLf8AaqV589zfs2BwS/c1NV5fN2/aaXzT+1oO/ed3xDfSeVy4AASCfp1+eFvzyf/XVxL4+uzPv+lu1edpeGpEvQSCbHB1sM1pOlqk4QIAkOKsns4XBZLlcjhqEw8FCAUCJLUKATKdtRAgVxgkQI1uxghQq7BKJvIGoY0tHSRNnACZsa6AXBtPQY3JXqi12kQWY2SEkD+8uLkWmtNUjhg6vJxYTi2NChs8VyeVy0L/sxIZQL32Ouao0/bY7YDTBjlpiXHGEXM9eI4fKo0w1HClicpt97F7rT1OOuWAY46WOpOU55X+zvrpA0hOgDmSKUlEqlxG6okF");
 
 export default Highlighter;

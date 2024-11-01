@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `engine` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/engine?s=sharp-solid engine}
  * @preview ![engine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/engine.svg)
  */
-const Engine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M400 112l24 0 0-48-24 0L208 64l-24 0 0 48 24 0 72 0 0 16 0 16-72 0-48 0-64 0 0 88-48 0 0-72 0-24L0 136l0 24L0 352l0 24 48 0 0-24 0-72 48 0 0 104 76.8 0L224 448l288 0 0-240-80-64-104 0 0-16 0-16 72 0zM224 224l0 64-64 0 0-64 64 0zm96 0l0 64-64 0 0-64 64 0zm32 0l64 0 0 64-64 0 0-64zm288-32l-96 0 0 256 96 0 0-256z" />
-    </Icon>
-);
+const Engine = createIcon("engine", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABagAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyCDAsGAAE2AiQDCAQgBYMtBy0bCQXIHoexM/rIKkRNw9SBl3j4fu7fX/sk97YvKUOmihEckCcQFlHVoaqrfFPbfiCFpcrcECHC7Sauef5NT4+R/ASP9r+oxgLrPJ/AxDpwArPhbEAT4/nu+pZMiN7R0lJG+ofbDtd/hjz+zi6qke6kuNTfNL7r7CJJQwYgWgFgyqplC7xrjMaIz/+/ID6bh4CYAiqBDBm6CTBeJtBNrkIuFzTG///zf2BFAFGHZyWQown24DAgB0ktzyc04NSy1jxfWdaKXWVRRhSFKEtBmCIiwh2quVTmUoJLojlZV5pYudxUDKRMlUWpG7aVfYoUZWS97mLv7NKiTkgO1ulrXjQbrcw+vNpgs3WyeL0Lxtm8arcFBqn8atEkux0GHx2aDKNo2zzgKtCz52aQbPaLQHD1S7Gp5fi/mpYJfHv7y+XBdDZBUwkEWf//+1ufzgJLA8ikOKmX8UGBZIsavGozNwUIBQIkdYUAma5aCZAr9BOgpocRAtQVlslE3iC0s2GKSTNHxMxIp8RcO8/EmvHep+vaReZuGmfR/OxlnKmBGdOqIQMHV2OrbZloPUip4+Oqa2fvk6mtDy200yEHHbfDdnscV8RRC3InHDDTwmf4osoQAw1WGat6rr3OXmmHo47Z45CDbZJxqu+jvZ20e/chTwLZofKSRKS6vwMAAA==");
 
 export default Engine;

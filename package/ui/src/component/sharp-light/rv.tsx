@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rv` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rv?s=sharp-light rv}
  * @preview ![rv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/rv.svg)
  */
-const Rv: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 0L384 0l0 32 208 0 16 0 0 16 0 128 0 16-16 0-42.4 0L634 259.5l6 4.8 0 7.7 0 128 0 16-16 0-49.6 0c1 5.2 1.6 10.5 1.6 16c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-5.5 .6-10.8 1.6-16L400 416l-145.6 0c1 5.2 1.6 10.5 1.6 16c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-7.7 1.1-15.2 3.1-22.2L4.7 315.3 0 310.6 0 304 0 48 0 32l16 0 208 0 0-32zM32 64l0 233.4 82.9 82.9C129.6 363 151.5 352 176 352c26.2 0 49.4 12.6 64 32l144 0 0-208 0-16 16 0 176 0 0-96L384 64l-32 0 0-32-96 0 0 32-32 0L32 64zM541.3 416a48 48 0 1 0 -90.5 32 48 48 0 1 0 90.5-32zM432 384c14.6-19.4 37.8-32 64-32s49.4 12.6 64 32l48 0 0-96-192 0 0 96 16 0zm66.4-192L416 192l0 64 162.4 0-80-64zM221.3 416a48 48 0 1 0 -90.5 32 48 48 0 1 0 90.5-32zM128 160l0 64 160 0 0-64-160 0zM96 128l32 0 160 0 32 0 0 32 0 64 0 32-32 0-160 0-32 0 0-32 0-64 0-32z" />
-    </Icon>
-);
+const Rv = createIcon("rv", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABngAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDKgsGAAE2AiQDCAQgBYMtBykbowXIhuB5u/+qc7u/ugc98h15YQ6obKVIRgQH2SBb883/NZ9f09EBfj7XW6TNIrksKp9PYBplHdSgG42iRXFn294EUa3sQmUGZfwTU7SRbk+f4lrvQuMbg1xOUhYAogHA0TPPPd17u2JXxKetl4lPnYqAOAZkgQIFhgpwmEJgqFJGqRTsilZL/AdmAoh2wfkkUKLCi3gfUIKksyyPHda9R1f3rl51W/dyRt1Wza2rWtS1EKKqzo9+UV/lZndNeGy/VyY9MfySAdJ+RvSPiCJiFxHnMcr0yQNfnlhHdFkbWTEetMvvGPcI9Rh0+9iHJz85eMaCT6sQ9cyqrkQdMxYxhcA0k+rqReIIGo96onniu5GfrvjUznfvQzNkXzaNizWaSece61ydjXf2GdAZM5Y3zfIZ0Tmg9w18lG4T5y9wrA40mi/zu0d+RY5wzjnWnHXxhut8qdE8t8h7OVsky4ctvObhB0e3XZParRux4eKLN+xlkiW0zdHvnkOLHOUBZx7Zd+ca6bzWUbj3fY5yXyvnXdlRsvxevjkIBM+2//7Dwp6H/dZZJ7DnjR9+gtZuvZcuTk+gUwJBMaU1xbx0MQh6APoUO4yauaNA8qRO9FS7uUWAUCFA0q4SoDBEI0CpMlmANsPtL0C7yrkKUXYJfc2vQdLNZlA4wAWg1NeLoM1hPtC16xsF9HJhj/vvmOiENnR8obz3tL3yIXnSp+QBJNvmHppXSybskDETcVsrbLTBNssts9q2FrXF6cbt1jthjjzeD2V7m2Yv2SHy7uD95jMst8VWq220wc3nUPl81QQ75pNPxJVJgH2+O0vqIqUtOwAAAA==");
 
 export default Rv;

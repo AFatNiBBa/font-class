@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `briefcase-medical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/briefcase-medical?s=solid briefcase-medical}
  * @preview ![briefcase-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/briefcase-medical.svg)
  */
-const BriefcaseMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zm96 152c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" />
-    </Icon>
-);
+const BriefcaseMedical = createIcon("briefcase-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdwAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCBgsGAAE2AiQDCAQgBYMtBzgbDgXIjpQuZyTx8P9rYvf9maTtpAxTIlLAqIA8kSKSgEuOjchZi2ptUyH4U6ee5zwUi75R0MZavj3p3ucVKGBt4PKCLytYTStgtXb2fTHwusUgSXnIsH0ZJjfI42t2RYV0P/2Bq+lD4y9dXCFplgGI1gCYvWbFcj/Vox7xe+M98bulCIjZoBTIkKG7ANNkAt3lSuRyQT0aDfcfWBJAVOGBE8hRwV4cAuQgyfK85ZBBtUqLfHWtUmyoFbXbHUQREXc7zROKeDroZecU9we/6t8iXgx90y2LB0NeD1C9Bx3vcPy0/a3Oqyb1WmyRGb3Vvgj0TscIXD0SfV63fv2PP3b/4ePVa9i7tTrIQ4NUt54ZhPIsD9u0KSh48+GFev4sgzT579vRa45++6/Jlrst66V6y1FGkVoSvPTt7weBoDJp5rgtrab937SWwJ9f/iv+ihr1JL1GUwkE2bDGMBsTSAQAIMVpfRIEkq0yeNfm7ggQCgRIqgoBMt20FiBXGCpARU/jBagqrJCJvJnQ3qYKkuaOgcwEZ0GuvbegYpqf06r2kdkaaSnkTy9uQQvN31WOHjGqnFIOOwplPnjYnFoua4NO+4nBdNJuRxx20i477XOyQY5bXpxyyAINnu+LSqONMEppivK4f394tV2OO2GfIw7LNlOV96NBTuvzB5OZAHOMuiQRqc1Twk1TGv72AAAA");
 
 export default BriefcaseMedical;

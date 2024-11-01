@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-dollar` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-dollar?s=solid square-dollar}
  * @preview ![square-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-dollar.svg)
  */
-const SquareDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM244.8 133.6l0 14.2c9.7 1.2 19.4 3.9 29 6.6c1.9 .5 3.7 1 5.6 1.6c11.5 3.2 18.3 15.1 15.1 26.6s-15.1 18.2-26.6 15.1c-1.6-.4-3.1-.9-4.7-1.3c-7-2-14-3.9-21.1-5.3c-13.2-2.5-28.5-1.3-40.8 4c-11 4.8-20.1 16.4-7.6 24.4c9.8 6.3 21.8 9.5 33.2 12.6c2.4 .6 4.7 1.3 7 1.9c15.6 4.4 35.5 10.1 50.4 20.3c19.4 13.3 28.5 34.9 24.2 58.1c-4.1 22.4-19.7 37.1-38.4 44.7c-7.8 3.2-16.3 5.2-25.2 6.2l0 15.2c0 11.9-9.7 21.6-21.6 21.6s-21.6-9.7-21.6-21.6l0-17.4c-14.5-3.3-28.7-7.9-42.8-12.5c-11.3-3.7-17.5-16-13.7-27.3s16-17.5 27.3-13.7c2.5 .8 5 1.7 7.5 2.5c11.3 3.8 22.9 7.7 34.5 9.6c17 2.5 30.6 1 39.5-2.6c12-4.8 17.7-19.1 5.9-27.1c-10.1-6.9-22.6-10.3-34.5-13.5c-2.3-.6-4.5-1.2-6.8-1.9c-15.1-4.3-34-9.6-48.2-18.7c-19.5-12.5-29.4-33.3-25.2-56.4c4-21.8 21-36.3 39-44.1c5.5-2.4 11.4-4.3 17.5-5.7l0-16.1c0-11.9 9.7-21.6 21.6-21.6s21.6 9.7 21.6 21.6z" />
-    </Icon>
-);
+const SquareDollar = createIcon("square-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABigAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCJQsGAAE2AiQDCAQgBYMtBzQbKQVRlKzFLNlXB7Yhah3ai+hgG+OE1hWLC3kDL6wI5C9yjIbdGRw08kk89Oz37c48WRHPZkktatxQMW100xi3FA6VTP7+8/u5c/+bJ9F4JybN2pKlrQ3VtoSUTqWKpdfQZt6IVEizYJv3qFQa1OCxQXWZ1ZXoGQcYmQFAVVM373XP1hIoIHxONW7imudvTe/NT/AoWcvCBus8n8AAh3tfEszqfDpBm7mrUaOU9pN0aSR5/Mzj5QRl/Bbb4Mmfyi3e5yeNf0ZsA6mlABDdAGDvtt2C/PYddN84AuLeBQiIPQDTCAUKjCOwSQiMU5kGpVLwh8Zj/g9kIICoCZjc0je/AG8BDEDKJsc5vsrrXLpdSfYguXpGc9wW3eV6JFZ73ldtEApbPHb4ei1hakt7zrnOu/KSgQJR5VhuuafDoHo+IznXM3W6YRxxLIerhGVjDWaple7dtOHNpNuO4L38/ruvyRfuqdmArQTFttsD1jn1nDDkI/8fW+tkfMUNSp/2aoUtf373R5DuRH4dPbS9HkojzMsusxmdY0dmxasY01iJTw9bAefGv8cMvJu/q/W2uhGWmZQFgEDwfkYY7szqf52a4O/57x/K3Y1vMvcBzRIExVwjin5IYG4APynjGdwhEUgPKORR230DgdCKAKnWKkBhjBGBUqtZBCqTcgjUWl0SomwR+g0am9o9ZAsbRmyp3wFb2XRRrfWHMD3FcJSfX2YTgcY+TsWTXOZhV1WtSUrbFV4OBzfDVIgCMWnJonUThmasA76q1diwoDnDGr6IpcQlsTLeHtybPaiuWjOj6/u7VPD5fNDmfHGIYgrhXdGUksiO6+vEniA=");
 
 export default SquareDollar;

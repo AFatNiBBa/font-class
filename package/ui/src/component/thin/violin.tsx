@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `violin` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/violin?s=thin violin}
  * @preview ![violin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/violin.svg)
  */
-const Violin: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M349.7 2.3c3.1 3.1 3.1 8.2 0 11.3l-336 336c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l336-336c3.1-3.1 8.2-3.1 11.3 0zm288 0c3.1 3.1 3.1 8.2 0 11.3L448 203.3c19.9 22.6 32 52.2 32 84.7c0 20.8-5 40.4-13.8 57.8c-3.4 6.7-11.4 9.1-18.8 7.7c-5-1-10.2-1.5-15.4-1.5c-44.2 0-80 35.8-80 80c0 11.6 2.5 22.7 7 32.7c3.3 7.4 2.4 16.6-4.3 21.3C331.3 502.4 302.8 512 272 512c-17.6 0-34.5-3.2-50.1-8.9c-4.5 5.6-11.3 8.9-18.7 8.9c-6.3 0-12.4-2.5-16.9-7L135 453.6c-4.5-4.5-7-10.6-7-16.9c0-7.3 3.3-14.2 8.9-18.7c-5.8-15.6-8.9-32.5-8.9-50.1c0-30.8 9.6-59.3 26.1-82.6c4.7-6.7 13.8-7.6 21.3-4.3c10 4.5 21 7 32.7 7c44.2 0 80-35.8 80-80c0-5.3-.5-10.4-1.5-15.4c-1.4-7.4 1-15.4 7.7-18.8c17.4-8.8 37-13.8 57.8-13.8c32.5 0 62.1 12.1 84.7 32L626.3 2.3c3.1-3.1 8.2-3.1 11.3 0zM272 496c27.1 0 52.1-8.4 72.8-22.7c0-.2 0-.4 0-.6c-.1-.5-.2-1-.4-1.5c-5.4-12-8.3-25.3-8.3-39.2c0-53 43-96 96-96c6.3 0 12.5 .6 18.5 1.8c.5 .1 1 .1 1.4 .1c.2 0 .3 0 .4-.1c7.5-15 11.7-31.9 11.7-49.8c0-28-10.3-53.7-27.3-73.3l-71 71c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l71-71C405.7 186.3 380 176 352 176c-17.9 0-34.8 4.2-49.8 11.7c0 .1 0 .3-.1 .4c0 .4 0 .9 .1 1.4c1.2 6 1.8 12.2 1.8 18.5c0 53-43 96-96 96c-13.9 0-27.2-3-39.2-8.3c-.5-.2-1-.4-1.5-.4c-.2 0-.5 0-.6 0C152.4 315.9 144 340.9 144 368c0 14.7 2.5 28.8 7 41.9l68.1-37.1c9.3-5.1 20.9-3.4 28.5 4.1l15.5 15.5c7.5 7.5 9.2 19.1 4.1 28.5L230.1 489c13.1 4.6 27.3 7 41.9 7zM236.2 388.2c-2.5-2.5-6.4-3.1-9.5-1.4l-78.6 42.9c-2.6 1.4-4.1 4.1-4.1 7c0 2.1 .8 4.1 2.3 5.6l51.4 51.4c1.5 1.5 3.5 2.3 5.6 2.3c2.9 0 5.6-1.6 7-4.1l42.9-78.6c1.7-3.1 1.1-7-1.4-9.5l-15.5-15.5zM528 0a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM448 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm96 96a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64-64a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const Violin = createIcon("violin", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABwwAAALmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCDYwsGAAE2AiQDCAQgBYMtBy0b4AXIngU5Gb4qMRAtWAxxepahv3j4b7//7TNzvwkiIvWHhK1OMstk9cQjdLVkcvz+at6KOrD+bUclqxFVSmACHNKlraco5L87QAH7/8819aL9AL/4+VAiwtKiQTp4bwIDvVlEC882YdvRvBcGObQLbdpCEd92IpJO4O5w2PvQ+KCdDpKcASAaAQBMW5MUA0dP42nE3f9LRMkCICCmA3SFkJHREQIT4QU6IugKFArB0/hP/Ad2BQFEOQRcsqhANZ7gKX1RksqCwIzCWlbhE+lEJiG1hkgrPNIyLwZEQ+LCGBYyjwiSY0XbIvGSaWuWeUWLkJ+yFdxnGqD1iRJjCLWKx9C0e1g4SN+0L6lbt4Tm6Ofj1mzT5lFbKwp1oknpcDCsX9hKb0XG0ZQt+eQl0mIxtM/QilrQIJzuOx/cZ9JsK9JLN9qF6NLADD31aGYdAC8lIQbp/eLhKSJR4ZFWA4Ih0bA4+VibypwiqKRddIucxZdupd0lm26NColbAkkrhFbD37e/53l0uV93b1slJ3814lUs6Bkb6LB3L4NW0F1hFaOruz3rUM/F181nRCgkx+BKF45rb3/j6eUv+79CaGpVeWFxf3UrBJc70M74Z0PSDAyjQx7OdygFoV3VLNdK/O4tlaLcGQbvj3dzX88ZQlvrS0dMX2zjLcvcIODmMr4tlmHEf49Dgfr6gMcsWaKs3Vu2CPN/dj8QCJbOPzqzpSH6tbIGB/D8+pdf7ERJB3GLQKUEgjzwf6Ds1DKD7AEhCKdooMO/VCB5pBKeWuuoAKEaNSTlqiHrgAOFagOgTGch8pVTVsCLggqhpRwYklpNkI3WCIWWVqHMRJfhci0jQ7YSLpU3lun8bRwbpBnm8mgiNZNZpQpY5bPdUZrVtr4NssqKR0KBShXq5MtTrK7F14iJ1SvnnxNi39XwcvHQiKTZXbivS22Fa9QqHjfb308Uzfkei4b5xlbsxAkkDpeWJCKR/qJrL64A");
 
 export default Violin;

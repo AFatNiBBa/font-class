@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turtle` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turtle?s=sharp-solid turtle}
  * @preview ![turtle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/turtle.svg)
  */
-const Turtle: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M384 288L32 288l0-80c0-97.2 78.8-176 176-176s176 78.8 176 176l0 80zm192 0l-96 0 0 64 0 32-32 0-96 0 0 96-128 0 0-96-32 0 0 96L64 480l0-96-32 0L0 384l0-64 32 0 32 0 128 0 32 0 128 0 64 0 0-96 0-32 0-80 64 0c53 0 96 43 96 96l0 80zm-80-64a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Turtle = createIcon("turtle", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABYgAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBUAsGAAE2AiQDCAQgBYMtBy0bzQTILgZjZ00YC6rJ3TTvGgjxisXWZkc8/Df27b6ZWTGJKkmsmcfdUI0ModEs0RLJpO+haiJ/S8b0rsRCfqoAwQGrVgGNwAE5VbvM143igZVbMj9CqeyGp/9QRUExRSFV4M1TfAds6oIbOTXeT6X6t+d8LjWNP/wgpff24hNYfCAbf4LawCqKM3d1Ynuo5aWkUZbk8dEeXw8o8ZlvVZFeJ3guPxq/9LmFpC4DIFoBwNZVt47N8Rd8qXzinT0QEFuAUURGxiCCVUqBQSqjoCiCR/4r9B84CgFENcr6Eiiowh44B1BAkovK6q5rUJtVgwa1YdxoNpGvZ9+ufpx8uWCsNxoQot6AqCdpYCANpNGMkR/xfvw1DF7WW3Y6eayd0a33nr6ZiFrgbivL0WZ1jzdjVIAQhLjETYJQowXy7K6WgktSOso/quVP+EC899bGry3zXxoUgJ/9C/i6ciqkNWolEOSpypRhKgAkJZCkOGU3NhNIdigBrLXRCwQI9QiQVKsXIBtgQ1DUm0RQZVgUQbV6Z5Si6BE6jTqXNLrlshVnXNHpjquy6iGp1hnZoTR30L5z2TUNVC/JvC8gKVmWmu4jSj5Ny7Y7dsojJ25iZs+uY1MTS8eKOFTPT+yoWXjVhkSQT4BIkePm2R4o6tCRpbN7fk6a3PccTu1lJ66hACw8hcLFSJrjJ4fH21M=");
 
 export default Turtle;

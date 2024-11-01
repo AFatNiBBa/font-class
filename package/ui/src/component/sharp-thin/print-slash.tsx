@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `print-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/print-slash?s=sharp-thin print-slash}
  * @preview ![print-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/print-slash.svg)
  */
-const PrintSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 496l-336 0 0-160 161.1 0-20.3-16L144 320l-16 0 0 16 0 64-48 0 0-192 63 0-20.3-16L80 192l-16 0 0 16 0 192 0 16 16 0 48 0 0 80 0 16 16 0 352 0 16 0 0-12.7-4.2-3.3L496 496l-16 0zM144 16l16 0 281.4 0L496 70.6l0 89.4 16 0 0-96L448 0 144 0 128 0l0 12.7 4.2 3.3L144 16zM560 192l-204.9 0 20.3 16L560 208l0 145.7 16 12.6L576 208l0-16-16 0zm-48 96l0-32-32 0 0 32 32 0zM16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5z" />
-    </Icon>
-);
+const PrintSlash = createIcon("print-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdwAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCJwsGAAE2AiQDCAQgBYMtBzIbKQXIhofvdb2e+6Q1SLtjmVhmhqQDahlbxOp34aI2VAlXqWgnrqkf508FUkHwaL/GShpFU0SeT2DAUVYBMqDZcDajCfCsbYUPGj4GLIqsoovohbih3Qny+MdJDdJL6Uc8kd80ftPfoyRZBiAqACzbs2OTjttxO+KH9mfEDzYgIJaBWiBDhkECLJQJDJKrkcsFt6Pddv+BNQFEJ/gJCeTojHvwACAHSSPPJ/Xu3rV72Wjlu8tGcazZakaUMTqKQogiSECUpZ7ViugTxemyaG0LQGzZHs1C9I7yWFEWo0Y1qrAWO18Agqf79O7Ta2G6VnboG33i+vC3q7f/GPbj6R/dmrIVj77pLUs8VlWWmqrDEktMqCodKtXUrSntast0zSO3DDHutH18R7VNrVxvfPATti7xlaf943WVasqRGky1+q8BO2e8aqdzP9vplfqEX4BA8Pyd2VePdFv4d5cygbtf//WbvV+7Iz2Y3kYXCQTZxPZEB9OD4OQBhFPcazjzQYHkkga8atPzAoQCAZJOCgEyA1UC5AoTBGgYYpYAnRR2yETeVejlUCeTpmtkZrb7yFwvn5ANC30T6qRXZLKnlRztr1+m1RReNa2eNnlqPb/eljWdOKlhfEF9bB57r28bp7Y67YrLbjrlpHNuEvS6TdF7XLKaQ1b5oto0k01Vm6++rj2v3+2U624454rLaZIF6u/9Y93L9x6nbAkUp8tJEpFKqU2ZdOPisRtnAQ==");
 
 export default PrintSlash;

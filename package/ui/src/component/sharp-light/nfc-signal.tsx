@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc-signal` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-signal?s=sharp-light nfc-signal}
  * @preview ![nfc-signal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/nfc-signal.svg)
  */
-const NfcSignal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M416 64L32 64l0 384 199.1 0c-2.4 10.5-4.2 21.1-5.4 32L32 480 0 480l0-32L0 64 0 32l32 0 384 0 32 0 0 32 0 167.1c-10.9 2.5-21.6 5.6-32 9.3L416 64zm-32 48l0 141.9c-11.1 5.5-21.8 11.7-32 18.6L352 128l-112 0 0 82.7c18.6 6.6 32 24.4 32 45.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-98.7 0-16 16 0 144 0 16 0 0 16zM240.4 416L80 416l-16 0 0-16 0-288 0-16 16 0 64 0 16 0 0 32-16 0-48 0 0 256 157.9 0c-5.1 10.3-9.7 21-13.5 32zM224 240a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm288 48c-123.7 0-224 100.3-224 224l-32 0c0-141.4 114.6-256 256-256l0 32zM480 448a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-96 64l-32 0c0-88.4 71.6-160 160-160l0 32c-70.7 0-128 57.3-128 128z" />
-    </Icon>
-);
+const NfcSignal = createIcon("nfc-signal", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABlAAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCbgsGAAE2AiQDCAQgBYMtBzEbbwXIjtEn43EJMyHmcDlUJIL6/dC9+y/0AwCWSCUFtICWhKlQrQQGIzuVLFymtkbUnvfvbeZDTzfyieSF3ckd62wHMygXrKX6zf819aLs6AC/0aFFWeqBRIHdMp5PYAJtkTjKsoHNdAI23SZ2JBLG3ggJEomOT+i4mkGJm5EDN/k4BwE3+4fGP0TZAalUAIguAMDuk2N7ce8zP5OD9mWI7+gGAbEHwBSiQoUxBJucAmNcpkBRBNu07fofKBBANAL3lKCgBQ/AWwAFpKbiikkI94eGmJrbcE3Q3IGFuqE7qPFQXx0gnSQ1A8FuInJA7/qCASLejz8KvZfyIfxB9Mv0IKlpOFVrYUgz68AFbeiErOF+2MOIB+GnH3WQzwrIc1M1XzU/7B+ZiHFXw4KHbWEqsC/GrYMPtXFl3Ff1dyfit5pbMnNCffmeOLhgEAMXLmJkPEX+5AMRbCHklTjq779z9g0czPtlP1YZ651yDr0vKHg/5FTv5kJRr9TN/FdHzilCUYcEagl4YdMh6+y2aX6WVRPyP8cBc1+BP6YAB4ei9m9tJ5MD5h641MEJusbMehFh8+BgMwWj9pa4AQLB4Dl96kyr5r9PcwD+3vj5m/6K/t9L5BfQLEFQzdlzpiUgCQBAxgYkJRBIN3jhXds8QBBqBEiNagEqoxSCojaLoMGEUgSNakc5RfEj9Jk+QWpzHlQ2bARFn4ugwaanTqO+cOankF3C7zC1zaKt7aQwr0CqZJsYYspxrblawnrGBi7KpKFYYKUV1plvnsXWGWaNXn+95do8utUXiUJ5Cogqcpx57T/BfGustdhKK7SVanLfzrDBr5xJlgNYV3RMSWRgxYK5uW8PAAAA");
 
 export default NfcSignal;

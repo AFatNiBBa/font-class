@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-calendar` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-calendar?s=duotone circle-calendar}
  * @preview ![circle-calendar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-calendar.svg)
  */
-const CircleCalendar: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128-96c0-17.7 14.3-32 32-32l32 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16 64 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16 32 0c17.7 0 32 14.3 32 32l0 64 0 128c0 17.7-14.3 32-32 32l-192 0c-17.7 0-32-14.3-32-32l0-128 0-64z" />
-        <path d="M192 112c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16 64 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16 32 0c17.7 0 32 14.3 32 32l0 64-256 0 0-64c0-17.7 14.3-32 32-32l32 0 0-16z" />
-    </Icon>
-);
+const CircleCalendar = createIcon("circle-calendar", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABjAAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCLwsIAAE2AiQDCgQgBYMtB1obWwXIjsK22TMiEYfIOowcIg/WDKUlqF/77Jm3e0Cg79QFFLAjEjY2MgoIhP02YRcfI7ZiCfT6PWPzH+aNRzvENcFMrImlrUXWRWzs0vjHnx7w4u+2p24cK/67a8Ur0HitVBwLrFarUE1rYH3b8OiIpNOQRmhFNVY5XlB2Dp8rVPFdrqjJl/kK7vP/AMZXBiek3gKAGAEAu093NnDZUJPx2p4Tn9VBQOwBrCAUFCwgsI1QYIHICqhUgibbFppoW4YAogv83gK6UOMcuAyoQApZiSzzIWWtFvX014rB5/qnk6ifiGLxbPIpMbDgcPp5v/rM326Kq4NvytuHP8o3vf+l65Z3xa0Dr4XLrl7biqCBlmCEvjDxpE9Bp1PPriVTZ6TzffV15hUXhzVNoxlRoCOHmObGDU0B7JLTmM6lai+zrz7tLV81Z3vtt4na+dEuCxpolXiA4mV+zYFdAIHg/Znl91Httv89/QLAl48//6LfUXuZsoMeCYKy3q4bSpAEACBjhym5gEBxkED61AHPBAh9CJC69AlQzNMhUOmzhkBtSRSBLn2OE4pKjjBhuIA04CwottoFlQlNUNvmIewyEcUBKfeh3n/xNaHqLg76ApxisyG0TxFhM83DumOnCSccxYxVK7ZMmzJvC2RDI9m2rNaCq76IBfkEsBSe7q/5HsINm+Z1dn6bNN5vO+y05zthPwLAxtGVCpEk1H/UUbw+Kntv80yDxl5d");
 
 export default CircleCalendar;

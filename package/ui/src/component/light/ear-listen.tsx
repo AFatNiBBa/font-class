@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ear-listen` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ear-listen?s=light ear-listen}
  * @preview ![ear-listen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ear-listen.svg)
  */
-const EarListen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M350 8.2c-4.3 7.7-1.5 17.5 6.2 21.8C430.1 71 480 149.7 480 240c0 8.8 7.2 16 16 16s16-7.2 16-16C512 137.6 455.4 48.4 371.8 2C364.1-2.3 354.3 .5 350 8.2zM96 240c0-79.5 64.5-144 144-144s144 64.5 144 144c0 41.9-17.9 79.7-46.5 106c-10.1 9.2-17.5 22.6-17.5 38c0 53-43 96-96 96l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0c70.7 0 128-57.3 128-128c0-4.8 2.4-10.1 7.1-14.4C394.1 337.4 416 291.3 416 240c0-97.2-78.8-176-176-176S64 142.8 64 240c0 8.8 7.2 16 16 16s16-7.2 16-16zm64 136a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM32 504a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM52.7 372.7c-6.2 6.2-6.2 16.4 0 22.6l64 64c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-64-64c-6.2-6.2-16.4-6.2-22.6 0zM160 240c0-44.2 35.8-80 80-80s80 35.8 80 80c0 8.8 7.2 16 16 16s16-7.2 16-16c0-61.9-50.1-112-112-112s-112 50.1-112 112c0 8.8 7.2 16 16 16s16-7.2 16-16z" />
-    </Icon>
-);
+const EarListen = createIcon("ear-listen", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABmAAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCSQsGAAE2AiQDCAQgBYMtBzEbSgXIHgd249UABhDDQzVYnPHwvF1f576q7g+oZiKRKzmE0BvCigfhCtlOI+C2Q0gUgIDBOR2anaXbqznbTeY73tf8X/P5PT86wG90SJHYdscVGL2q5xMYYLTuzacDiQKb6QRsg+4mBuHPx9UJ8ng9JiiR7k1f4GbnQ+Nnfa4nyTMA0QqApbu3b/TO3tgb8UX1ReIL6xEQy0AhkCHDoAALZAKDcgVyuWBvVKvsP7AggCjzXi2BHLW4FrcDcpCU87xtcl1d00BDqSnf1VCqP+mOrk+Xvrvzzq6760/L3tt0V+eOxxdHvL36w4Vvzj8seKI9MJ456+OOzjtzQ3y8+O3lmvr97p+2fbfrhy3f7Fig73x64L5tinbvuiM7evcdXVvjzp67y7a4q3P3w+Mjnpv94v7sNDPy0FG5XhjPdHfu6Eqq/KO+OPELR7zsX+6q7pIVzXv3Ntt4xBEHfrzs/2/wYm56992bHowlrzTV1FYqV7fa29y8t9WW5TNKtSccG5tiXSvFIBcJvjC0+Ka7q2uro1x1VZ7ovPa5r+rZZ+3SU6+PXZzQ2nrCrpgdaTnojz8cbCnPBwLBf+9HL9ey4N/ahgT2v+bf9EdYW30nSRXUSiDIJlQnODxRSyIAACkuNDpSK5Bc6shea6O7BAj1CJCU1QuQGdAqQK7eeAFKhs0UoKzedpnI64RORyCQNDoHZGa5AuQ6PQ9KFvjYLOsM2ctIvkrkv2Dcqjq0clYxddKUYl4xWMip9wvXk/OL2fyYC3nHWHjQic5ypvOd4HinOL+GnGujc4EzrBqDV/qiwlSTTFGYp1hd3969ywnOdZ5TnOVMO818xf7qGBeO9x8LpcRDnWZtkohUf8Ix5078rgA=");
 
 export default EarListen;

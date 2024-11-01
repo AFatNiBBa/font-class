@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-flag` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-flag?s=thin house-flag}
  * @preview ![house-flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/house-flag.svg)
  */
-const HouseFlag: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M456 0c-4.4 0-8 3.6-8 8l0 24s0 0 0 0l0 16 0 128 0 16s0 0 0 0l0 320 16 0 0-320 160 0c8.8 0 16-7.2 16-16l0-128c0-8.8-7.2-16-16-16L464 32l0-24c0-4.4-3.6-8-8-8zm8 176l0-128 160 0 0 128-160 0zm-48-38L276.8 33.6c-2.8-2.1-6.8-2.1-9.6 0l-256 192c-3.5 2.7-4.3 7.7-1.6 11.2s7.7 4.3 11.2 1.6L64 206l0 242c0 35.3 28.7 64 64 64l288 0 0-16-64 0 0-152c0-13.3-10.7-24-24-24l-112 0c-13.3 0-24 10.7-24 24l0 152-64 0c-26.5 0-48-21.5-48-48l0-254L272 50 416 158l0-20zM336 344l0 152-128 0 0-152c0-4.4 3.6-8 8-8l112 0c4.4 0 8 3.6 8 8z" />
-    </Icon>
-);
+const HouseFlag = createIcon("house-flag", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABeQAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCLAsGAAE2AiQDCAQgBYMtBzEbLQXIhofn9f6/tU/y8gHl266gipoKZDcuunFr3fm/HN+750cL5PMRHNqYtPbzXekY43kCiS1uU9aBZGGWKGbuasomov0kSRnJ43ePrxPk8Y9Nqkh308e4XD40vtHCWZIsAxD1ATB+6cLZ3v0yvoz4uPIS8bGZCIgJoBTIkKG1AKNkAq3lSuRywZdRqfB/YEkAUdAnJ5CjwFGcAeQgyfO8a43+dWtV1cmXxMqaW280FqcChG1RilqR5arbzSJuNa0Z4i4O0yOi5pgli5fcarwobjS52WxkiLvdH+tcJyJ2lHu6OOLB5uLYw01vtYxYGosjFgmLIm83qxU3m3R4vP7j37X/eMvH3ntnXdEc1HdSfTBOfePc68u6J9X98l7NFeuqPXNSq+510r2/ndvqi5g4sfKOSYMnLXzGz2o2aHBvqb5x7mgyf5/5Te4Yp9+nn2T/e+eyyzs1nvvJHXrlSXcU6/ZZVwCB4K+fj41cW2/Ub9VrJfD16z/8Xe8vKu+mk+lxVJdAkPWq9LIqnVTA5ACSFEd0ML4okOyV03et7ZYAoSYCJIWaAmRaqS9ArqaeAlRpa7AAhZoWykReQ2hsdQdJbftBZohjINfYC6DKKO/FhcaRwY8FD/v5S5oywpO3lf379CtHlMu2xiGKTusjy2O12xEZ604HbbHXHodstsl2hwb0gNnZYbtNsZDJfqjUXx/9lEYor3vPu5fY7ICDtttrT95kpPJ92M0Re3Z3MhKlHKAmSUSqCU25N84BAAAA");
 
 export default HouseFlag;

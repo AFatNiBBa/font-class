@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `block-quote` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/block-quote?s=light block-quote}
  * @preview ![block-quote](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/block-quote.svg)
  */
-const BlockQuote: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 80C7.2 80 0 87.2 0 96s7.2 16 16 16l416 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L16 80zM144 240c-8.8 0-16 7.2-16 16s7.2 16 16 16l288 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-288 0zM128 416c0 8.8 7.2 16 16 16l288 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-288 0c-8.8 0-16 7.2-16 16zM0 432c0 8.8 7.2 16 16 16s16-7.2 16-16l0-192c0-8.8-7.2-16-16-16s-16 7.2-16 16L0 432z" />
-    </Icon>
-);
+const BlockQuote = createIcon("block-quote", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABYQAAAHLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBKwsGAAE2AiQDCAQgBYMtBzIbrQTIjsR0e4M8pkiT/IiHr7Xy/Z4+INIEIbKJI3SxQPaEDKJem7Da8mPEVBSQOr1+z6n/MjyA90J7cWKhUWptD6vVfILEOv29O/+6aIE8o4+yp/77voDmaJ8nkFgXF2kWWECBdZ6A9bahQ0dUnkaIREVEY5Xj9YAcL2OBTHqeStxNLxq/jXmS5AJA9AKAw6fbBkMVVUTZ+EiUjoKAOAKYRShQYBKBfUSBSZJZkGVBFY0G/QfOQgDRTL48gYxm7AaHAGSQ5Jw7O7s6O5q68qmOpvbzjwYfD3XR05Enw5292h0p1GEzQ1TQk+F7qLXe2t+58kqp52rV3V29U7yttwjNRrM9L2SR2urpruC6j4FAsHbs/Y/LPfu2WzsS+P7t/zb/hqKeamiVQFAsNBaMow5RFwCAFHeoMSCQrJLIs3Z6IkBoR4CkWbsAhQkKAlm7eQSaTIsRaNbuOFHkNmHQREHS6Too7PAA2aAfaLLPP242GKL3CHcvfN5SawtVl9h3PC542KiiQ3DhtORlV7vzQoebmDvYu5qZWrka/KzJbnbqGVZ5I+ZzeFiBt/vb6yMzZxcrB/t4TonPh5r7fLsOgUBo1+SSRKQOR9Pttw0AAAA=");
 
 export default BlockQuote;

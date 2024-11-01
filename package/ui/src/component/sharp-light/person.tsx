@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person?s=sharp-light person}
  * @preview ![person](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person.svg)
  */
-const Person: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M160 80a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112A56 56 0 1 1 160 0zM99.3 128l9.6 0 102.2 0 9.6 0 4.5 8.5 76.9 144 7.5 14.1-28.2 15.1-7.5-14.1L224 202.2 224 496l0 16-32 0 0-16 0-144-64 0 0 144 0 16-32 0 0-16 0-293.9L46.1 295.5l-7.5 14.1L10.3 294.6l7.5-14.1 76.9-144 4.5-8.5zM128 320l64 0 0-160-64 0 0 160z" />
-    </Icon>
-);
+const Person = createIcon("person", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABagAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBbAsGAAE2AiQDCAQgBYMtBy0b6QTIngPuzjCh1BDKGNtiWsD80hXPU/e+5+7u/yl1vI6HKqWDt47yOaABDGU8Am+i4Upr9Puxdr8NvI/LQ8SsMZ3kWhkyNL+7lDSZF/+aB15/3/xf7vk9vw347cgObUxbunjZ4R71PIEAs2VtoqyAMk3A2p3NYUnYJ61FG8nx7XjdoKWDkXQoLwowqW+aL+62gUKrACDLAODkoqEKrwOH5Ls/Qz5UgAA5BbCBoIIKVhCwT0WwQiNBoyEM6T3+B0oIQMagjyiABsbgEjwDaIBCa5qlddyMqVtrzaYuOu48D4Ov3Q6CeON+4LYfeOtx6HkU0mgK0zlNdE5gXNJMheAsSVIQvEtlI50SHNe0NPlsm1VO+r/aPf72M8zZTJ2zc10I1/7rE88mIdZTUTnBlp+mxN0hmB0JyA5yeVaCl+6Un7b2nNSVl1xyzpErUQB56v9Xyz22md8WpgLg8+3v//4zEv2de+URME0BBOpmj9SZZQgiyQgAoGQZ/smFQFDU0tCrztsFASFAAIVBIKDyZIeARohAwIiPJASMCQ1UbJYgJ10MFFbmgCrZFtA4eQK6TG+uwSmqe3HOwX3ukoslVLRNxkXHynSpZgbvMUxez5DHaugydsLgKIbNmLZoyKAxi4KcVxUsmVJswUW+SIoTLZaUTl6Xz/ubDZm3YMyM6bJJBvneDLVsj4eBoSDaLZFCgRTDGwEAAAA=");
 
 export default Person;

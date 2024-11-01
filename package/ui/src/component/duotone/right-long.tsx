@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `right-long` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-long?s=duotone right-long}
  * @preview ![right-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/right-long.svg)
  */
-const RightLong: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 224l0 64c0 17.7 14.3 32 32 32l160 0 128 0 0-128c-96 0-192 0-288 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M360.5 409.4c-7 6.6-17.2 8.4-26 4.6s-14.5-12.5-14.5-22l0-72 0-128 0-72c0-9.6 5.7-18.2 14.5-22s19-2 26 4.6l144 136c4.8 4.5 7.5 10.8 7.5 17.4s-2.7 12.9-7.5 17.4l-144 136z" />
-    </Icon>
-);
+const RightLong = createIcon("right-long", true, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABYQAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBHQsIAAE2AiQDCgQgBYMtB1AbvwTIhof/t9W671d1H+gBbwaxwswiccvENCOeFDwi80h24z6bmsQz/c0/7zwK8J0nHNpYNnXqAp/zPIFEswkSxwvzgBL/IvZ357bCoeQiaYQkx8WOz2OFPL5lF5RIT9NX3HY3jl91dIGkaQYgWgFgxsqlS7yvRS3F18YXxFeLERAzQSGQIUMXASbLBLrIFcjlglpqbKQW+s+vIIAo4/fKQBk5RmICIAdJiDyvr9aVmucr6kqVrQ/qH9UHjHnc/nG75fHQmeqyEM60e1gHRsS1itqk+kDPhlYNv/f4uuOrXX3f/vi5xXxnzNfi55/e3b5sR6WyI/C16YRuceVKi2dnzpiP5++AQPBsc/9LG1tO/r9JXQK/vPvz3/grSlIDmkggyAY3DrYugUQAAFKc0DOJ6Qhk6iV01GYeCRAqCJCUVQTIdNZKgFzFIAFKuhkjQFnFUpnImwpV6wkkzRwGmbFOglzVc1Ay2QezrBqZ3JCnTj7b4uZyaE5fMWLo8GJi0XUlShRw255UTAv9T5jUABy0w0EHHLPdNrsdY8gRS5zj9ps7gud4UWGEoYYrTFQsB9fcCmYecdTuNrPeZZJiv9LfiXHxAJQTjznSg0xGpMja/MHLfJlLSWC6WjKXDQAA");
 
 export default RightLong;

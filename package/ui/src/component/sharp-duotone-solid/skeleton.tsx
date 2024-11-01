@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `skeleton` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skeleton?s=sharp-duotone-solid skeleton}
  * @preview ![skeleton](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/skeleton.svg)
  */
-const Skeleton: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 160l0 64 32 0 192 0 0-64L32 160 0 160zM64 64l0 64 32 0 128 0 0-64L96 64 64 64zM96 256l0 64 32 0 96 0 0-64-96 0-32 0zM288 64l0 64 128 0 32 0 0-64-32 0L288 64zm0 96l0 64 192 0 32 0 0-64-32 0-192 0zm0 96l0 64 96 0 32 0 0-64-32 0-96 0z" />
-        <path d="M288 0l0 32 0 352 0 2.3L368 352l80 0 0 96-64 64-256 0L64 448l0-96 80 0 80 34.3 0-2.3 0-352 0-32 64 0zM184 440a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm192 0a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const Skeleton = createIcon("skeleton", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABhAAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCJwsIAAE2AiQDCgQgBYMtB0wbRQXIFiFJJw//rfV5X1X/WQCqBUZFBA7Ir0MMWMJxQRWh/olkFd3zf029KDs6wG90aJ1rr8BR5vMJTKgweQ04oZnOwBYOa6eTKI+USUKRZDf4YXOGKn7Pd7WQHqXfcC/8D2D8pZ+7JO0ygOgKgKXbNq3RbI3WFL/VnxK/WY2AWAaKQEbGQAEWyAIDVQoqlaA11TWtUdeFAKIhvC+DBjrgAq4BKpBkjaoa2k5kO7R0qrYe2P6YkEJsiw4h1kfH2BhR1C2kZbdh++NRb/s+GvnBgA5qQxY6dIhov02M143fjEcM+7jrx/8M/e3ob4b8UErZL1k31Hr71ajtt97CqbFYcuyLXhs29EpWU8aVJfWluURzyD6Cbno3mxLan9j/4gdQN4tXbgy0JpAfkP3XA4Fg55mrz/d1WfB/2w4J/PH1f3/qn6G6maSP0VYCQZ5QT7A7gUQAAFJcNSyxBIFslpv81I7uCxDaI0DS0F6AbICuAlTaGy9Ai8FmCtDQ3iZZVO2EnvYUkHR0AWSzXAOVnj4BLRb4Md/QMzLzCawj/P1SV9XoynVl6qQpZV4ZNmWRnzhanl+W3TFXzdBY7HXUOWdddsRhJ1yumIvWlK44Y9WMXumLiqkmmaKYp2x37rdvdcRFl5xwzlm/ynzlfGaMq/PJYxEkkXWaS7JMpMhdL506cvrI5XNnJ3Kx3b2R3ysA");
 
 export default Skeleton;

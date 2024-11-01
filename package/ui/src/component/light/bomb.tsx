@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bomb` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bomb?s=light bomb}
  * @preview ![bomb](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bomb.svg)
  */
-const Bomb: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 16l0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l32 0 0-32c0-8.8 7.2-16 16-16s16 7.2 16 16zM301.1 130.9c-8.8 8.8-21.8 11.7-33.5 7.5C249.1 131.7 229 128 208 128c-97.2 0-176 78.8-176 176s78.8 176 176 176s176-78.8 176-176c0-21-3.7-41.1-10.4-59.7c-4.2-11.7-1.3-24.7 7.5-33.5L384 208l-80-80-2.9 2.9zm-22.6-22.6l2.9-2.9c12.5-12.5 32.8-12.5 45.3 0l28.7 28.7 17.4-17.4c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-17.4 17.4 28.7 28.7c12.5 12.5 12.5 32.8 0 45.3l-2.9 2.9c7.9 22 12.2 45.7 12.2 70.5c0 114.9-93.1 208-208 208S0 418.9 0 304S93.1 96 208 96c24.7 0 48.5 4.3 70.5 12.3zM200 192c-57.4 0-104 46.6-104 104l0 8c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-8c0-75.1 60.9-136 136-136l8 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-8 0z" />
-    </Icon>
-);
+const Bomb = createIcon("bomb", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjwAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCVQsGAAE2AiQDCAQgBYMtBysbUAXIjsO4sRvZ+RGXUhFUtrKsnjnalXhOgCNm9KQHtgjZAzQc2ngXLfJWB4dhEtlAJI41OG/imv5tT+1F/ijRWPq/asCu8wkMMNp3PiufDWymE7BZm0N+EJSXW04IecIszBqmH7amrpDHxwENpAeT4/byofG77m4kyTMA0QEA87ZsWOWLWtQivqu/S3xnBQJiPigFMmToJcBMmUAvuRK5XFCLep3/gSUBRCPcOIEcjbgVDwNykOR53r/H8B7Vhrb55nSuckSoxr2t9xSVEBTd1yWiEqL7u1YjQu6+aOM9g5+rzNrYuOty02/oLdrjoa5dY3MUw7sWXe+vWuuwGBH3t95bDI1hca9riyIedZq99bU5bpM2vqNRvNDr9szTcz5f8uDm/i91eOnPft8ddj++XiKv1q5djVgJq7VrYdc9df6nQR+WyyM6RAKW621t+fD67/tbs0b/zZ1w/oG28sAnOnjxxYceCvrWbXLxtv7eGBRbX3xpS2yJl16K6rwkuwb1XL3hjZ/4vtq8WibdcmjzHep7d2gGAsGj/x96ek/7mf9wNYHfPvr7H/0ZqX+RpJfQLIEgG1mHnQkkAgCQ4rL+CQLJtXJ41zbuEyBUECBpVBEg01MHAXIVIwRo0MckARpVbJCJvEUo7Gpc0sY5LjPZFS5XeJtrMNOXxUZFZC6pO5T+RZiz2IKLVpXjRo8tp5eHDZvhZWpenFFedodejgPDwkWHnXHaRYccdMxFQ5y3qnLJKYtH+CJfVBpntLFK05XT7ffOZpHpXFC1b84vM0O5Phzq8nj8sBAkkByvKklEyv98AAAAAA==");
 
 export default Bomb;

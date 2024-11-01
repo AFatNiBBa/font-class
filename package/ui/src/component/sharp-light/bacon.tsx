@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bacon` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bacon?s=sharp-light bacon}
  * @preview ![bacon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bacon.svg)
  */
-const Bacon: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 352c10.5-4.7 20.5-9.4 29.9-13.9c131.3-63 155.3-104.1 181-148.2C239.1 141.4 269.6 89.2 448 0L555.6 134.5 576 160c-10.2 5.1-19.8 10-29.1 14.9C394.1 255.1 365.5 304.2 338.8 350c-27.5 47.2-53 91-210.8 162L20.6 377.8 0 352zm83 52.5c114.2-59.3 159.6-121.3 201.1-177.9l3-4c22-29.9 44-59.4 75.2-85.3c27.4-22.8 61.4-42.4 108.1-58L439.3 40.3C366.7 78.1 323.6 108 295.8 132.8c-29.8 26.7-42.8 48.3-56.2 71.3l-1.4 2.3c-13.8 23.6-29 49.8-61.6 78.5c-27.6 24.3-66.6 49.7-126.3 78.8L83 404.5zM103.4 430l34 42.5c64.5-30.5 101.5-54.8 125-75.5c24.8-21.8 35.7-40.5 49.1-63.6l.9-1.5c14.6-25 31.6-53.4 68.8-86.7c31.4-28.1 76.4-59.1 145.4-95.7l-34.8-43.5c-49.4 15.1-83 34.2-109 55.9c-27.8 23.1-47.8 49.6-69.8 79.7l-2.8 3.9C268.2 302.5 220.1 368.1 103.4 430z" />
-    </Icon>
-);
+const Bacon = createIcon("bacon", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABhQAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCMQsGAAE2AiQDCAQgBYMtBywbLQXIjsK2nTMOI0nnCWEkFQ//v9+vfe67iHmEJGLVM6FBI0SaSaU0rSRCIs2aOn3qt3o5/L1AfJFUwepATA+4kz/INlOnnuc8FMDnuI5tCU6QMTG0dluBnvd8Y21sq8hYWKsodnc2aYpijyRJzJLj0o7PDnI8CUNwk144TsFV/ND4R14dJLkAQDQCANZOgoOw/5JeBp2WVogfASAg1gGDCAUK9CKwiFOgF5dBkGXBH7or4X8gAwKIctBlE8gowwW4BJBBUmQuXW11QW5hrjA/T4AGZR84bBlMKY7alVz2wkNJj/qkbm3XdcflqqmahhLWFoaEkX7oAxeiPRMaJVmaEynGdChwDclJURVlzKy2HeKk5+TstGUwpTMmO6hINKo4amB9znS7uG24IUw74kOoT4pNflM7TTtFwv/7riryutLcKwf+Ua+uwg2yGzDrw31/nY4OXdtV4FtHp7U1SD2rHnv7lsGG2/B1BDDi21qhh+x7xLRpmwfP71eJg9xc36Qkh+vz2SrQHfy/vhZRnZ3rIry+/Td+mGJlAJ9216Sv6iC/z89DjQEIBJtv/avxoo7/+AQ5AH83f/wq5yvtJ9c0CSolEBRjd4aISa4AogkwUpRRZ74okJzhRNda6xEBQjUCJOWqBSj0EEMgqzaKQJl+VgiUq3aAU2R+hFaxDSS1zkFhWjnIWi2BMosO9HKtwamAlPpQ/7947x7yGsXMjE2ZPVuGKq1TRBh0YGJRt8yV9GAp0uTLUyJVikwlHVIkyCqVy5uDvfwQY8aYKcYeO04epTCpWSmWOafPh+GA3dd0lfHNejAODsD40xEuEIk76TQ5Pw8AAAA=");
 
 export default Bacon;

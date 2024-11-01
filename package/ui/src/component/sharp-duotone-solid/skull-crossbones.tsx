@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `skull-crossbones` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skull-crossbones?s=sharp-duotone-solid skull-crossbones}
  * @preview ![skull-crossbones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/skull-crossbones.svg)
  */
-const SkullCrossbones: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M-10.6 303.3l29 13.6 130.5 61.4L18.4 439.8l-29 13.6 27.3 57.9 29-13.6 178.4-84 178.4 84 29 13.6 27.3-57.9-29-13.6L299.1 378.4 429.6 317l29-13.6-27.3-57.9-29 13.6L224 343 45.6 259l-29-13.6-27.3 57.9z" />
-        <path d="M304 234.4c38.6-23 64-62.1 64-106.4C368 57.3 303.5 0 224 0S80 57.3 80 128c0 44.4 25.4 83.5 64 106.4l0 53.6 160 0 0-53.6zM136 144a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm144-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const SkullCrossbones = createIcon("skull-crossbones", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiQAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCIgsIAAE2AiQDCgQgBYMtB1wbUAXIjsM4hlyGmLQ2xRDhExE1dHv/T2nVgqqKLmw1kkEoLA5UEwrhMxEySHwGi0VrOhukltUVCGyjSsAOCCyRAoKv8NWson/icvpz0AP9Jn6U3dq6cIPvZV0CAaZdNKZFgSWUSQaeuin1UEQoPiJSi2oZMv5Bxo5rF2jZqL3ElK/CAV75fwDzDxu9UIxUAGQaAHD1kBSDmz59CojjDyA9RINArgFsI1RUrCNwSihYJ7INmib0C89DPzzPIEAGwVQVHXS/6RE8A2igqNJE1mZmbkqxWpSqFCuKdjyIdrJ8fmV8OO2yTrctN9AYUWqXFdHC2MjCHDrnZxXDi/OUNmJB1Jtb0+9OdXJ2SqFkciQ/cqEAid6JAsiZUk2t9ydHSqbUl/rab+u2f+16pRyf3xslrO5aNPfc3PQ0W9jbKm+CLQr+ztAMwstkqfMrJrbGAkbffvjY7kh0n4FzirN7g70bcLZwyYziKT6c2NGUN5wCBGGy2ynP00aaZEoB4K/z/1Wf5E38Lb0LtsGwAkLd5z1l58YATGtAcrGkFfZEIN57xOB5W+5Tx70jEKMIKAaNCqjW6BBoRu0hMGBTEAKDRt0QSpMj5uWIXIx7kqsTbXIzb18ecOq5PGg+Qui5wHF//AoaNRy1jfl5+7Jwtq1rHprsNB/BLiddW0OfG+1FqTq1mpUoVqFZCY1iai1qGC0+yhcxfrz5YsKx49ZjMFWVGzWpWPvPN4nA7s+6arVHu1FGIBseOFhVUkho3VTVUl3t9fGECrEd9cLxcNup/6UFAA==");
 
 export default SkullCrossbones;

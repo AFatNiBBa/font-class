@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-pensive` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-pensive?s=duotone face-pensive}
  * @preview ![face-pensive](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-pensive.svg)
  */
-const FacePensive: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm65.7-40.8c-4-7.9-.7-17.5 7.2-21.5c7.6-3.8 15.2-7.6 22.9-11.4c14.5-7.2 27.2-17.6 37.4-30.2c4.8-6 9.6-12 14.4-18c5.5-6.9 15.6-8 22.5-2.5s8 15.6 2.5 22.5c-4.8 6-9.6 12-14.4 18c-13 16.3-29.4 29.5-48 38.8L87.2 222.3c-7.9 4-17.5 .7-21.5-7.2zm33.5 74.4c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-15.2 20.3-38 30.4-60.8 30.4s-45.6-10.1-60.8-30.4zM192 400c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16zm99.2-110.4c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-15.2 20.3-38 30.4-60.8 30.4s-45.6-10.1-60.8-30.4zM339.5 154c-5.5-6.9-4.4-17 2.5-22.5c2.9-2.4 6.5-3.5 10-3.5c4.7 0 9.3 2.1 12.5 6l14.4 18c10.1 12.7 22.9 23 37.4 30.2c7.6 3.8 15.2 7.6 22.9 11.4c5.6 2.8 8.8 8.5 8.8 14.3c0 2.4-.5 4.8-1.7 7.1c-4 7.9-13.6 11.1-21.5 7.2L402 210.9c-18.6-9.3-35-22.6-48.1-38.8c-4.8-6-9.6-12-14.4-18z" />
-        <path d="M439.2 193.7c7.9 4 11.1 13.6 7.2 21.5s-13.6 11.1-21.5 7.2L402 210.9c-18.6-9.3-35-22.6-48.1-38.8l-14.4-18c-5.5-6.9-4.4-17 2.5-22.5s17-4.4 22.5 2.5l14.4 18c10.1 12.7 22.9 23 37.4 30.2l22.9 11.4zM65.7 215.2c-4-7.9-.7-17.5 7.2-21.5l22.9-11.4c14.5-7.2 27.2-17.6 37.4-30.2l14.4-18c5.5-6.9 15.6-8 22.5-2.5s8 15.6 2.5 22.5l-14.4 18c-13 16.3-29.4 29.5-48 38.8L87.2 222.3c-7.9 4-17.5 .7-21.5-7.2zm59.1 55.2c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2zm192 0c17.6 23.5 52.8 23.5 70.4 0c5.3-7.1 15.3-8.5 22.4-3.2s8.5 15.3 3.2 22.4c-30.4 40.5-91.2 40.5-121.6 0c-5.3-7.1-3.9-17.1 3.2-22.4s17.1-3.9 22.4 3.2z" />
-    </Icon>
-);
+const FacePensive = createIcon("face-pensive", true, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAAB2QAAALQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQCDcwsIAAE2AiQDCgQgBYMtB1QbGQbIhuB7XWW/Ly0A64DBzDDOF1MDQzy35YwgdM3/XPP5gUT6vS9+figVlHorjNKIeD4ajobjKKzns4FPJzjRGdgG3QV6YJ0+nh6Qx3fZnapIpfQFHon+BzB+0edOkroMQLQCYMcxRxzknXKUU3xReYH4woEIiJ2gEMiQYVCAzTKBQbkCuVxQTpUK5ahUCgKIatH7ZKAajfgRPwNykOSq87yzq6NjoK+tqW2goaopP7qhqv6Mpzqf7J4bYwv74+meZ7r6ojRnzqlP98yL8YGBeKbrqc7emJg9O57sPqzUEPHAwDQxUX//QsgRDSoaP+449+5BXzY8cMjXu94/5qed7x38lV9w4Bfb3znyGJDTM65KpYxsPZmqTO2jsOZKDaF5FJBtiKe6VtbH093HAOSJaCm7FMHhU27du/N0d/rEmVOtU7/N+OLsL7z0/8cnXvjj+d5c/60HJl+e/Nb08Rdc2Xnixxc4fnqP0uw7bthj/Zvn+/DGsW+76Pq29NHkjQ/Nnv3QjZMfP/eOeYV37FVH3/Pv7tr17vN9dfZy6q2tO+af+PHoi8dPr5q9ajVja3WjhhuK/W+c/Kj0bZdbduJFzeVTlZvLJadfdGEJVLT8ngcmd1XVHCVx0Yujd9bl7Td8cIwX7XV0WwICwdazH7n8lJbN/9U2JDD92h//qH+FlXeSNIVaCQTZ4spiJyaQCABAiqvNTGxGIHOz88U1elpkQj09JNXqITOgFXL1FkGVYWtkxMNHyEReJ3Q6SYWk0WWQWesmyHV6Hqps9nGyWmdkj7j6gKp/mFl7j5G91hUrli4vNhabda321Mr+/KYC2Z1/td23QL3obJe42JXOcqbzXDmiLndQ5ioX2RvE3+uzhRWWWq6wUUHcen76aGe53BXOc4mLw0U2KdiH810NHr1ADZJEcKUtmYxIkXW+QflLLj3r4ivOu7rWvpbB7gXjzQAAAA==");
 
 export default FacePensive;

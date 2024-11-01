@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `train-track` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-track?s=sharp-solid train-track}
  * @preview ![train-track](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/train-track.svg)
  */
-const TrainTrack: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M407.1 32l-67.5 0 21.3 64L215.1 96l21.3-64-67.5 0L147.6 96 112 96 80 96l0 64 32 0 14.3 0-21.3 64L72 224l-32 0 0 64 32 0 11.6 0L62.3 352 32 352 0 352l0 64 32 0 8.9 0L19.6 480l67.5 0 21.3-64 359.2 0 21.3 64 67.5 0-21.3-64 8.9 0 32 0 0-64-32 0-30.3 0-21.3-64 11.6 0 32 0 0-64-32 0-32.9 0-21.3-64 14.3 0 32 0 0-64-32 0-35.6 0L407.1 32zM382.3 160l21.3 64-231.2 0 21.3-64 188.5 0zm42.7 128l21.3 64-316.5 0 21.3-64 273.9 0z" />
-    </Icon>
-);
+const TrainTrack = createIcon("train-track", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABbQAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBfQsGAAE2AiQDCAQgBYMtBzIb/wQRlZoDyH4k2G6jltCJFqlEBxwYDgyNwZN4+P+5z9/nJm9WX1KGTJnJAXkCVT+2ruxQOPqkWBI0M1bt+wCYuJz+OH/aPulf/NHmTjdtoL3PE0iszzdQQFlgb5gAZu3sqDeIbpUkPmEY3zC5Qh6fsutqpEcJbuQvjZ90cZ2kngGI1gCYtWHNMq+/iW8iPvw/8cESBMQsUAlkyNBdgKkyge5yFXK54Jv4/3/5D6wEEA34EySQo4Y9OATIQZLl+aJ6vay1yNeXteJAURajoogxUcTIKApRls4qNX6LGBVljAZjNCprR40edSIq10WweUqL3k2tm35ptN/9x3OYusJtK8yxQt9qpqqlhxqp5jv0dOvj3EGw6wB6Qs2BRrslqn12dL60g6Lvd3g++NKKd021QlsgEHwc0l87Wk39tVmZwHdP/wu8/P83aWZqQjMJBNnQ/4duTTNBhAHUU5zXW8lYINkiA35qc/cFCAUCJA0KATLdtBYgVxgiQE1P4wRoUFgjE3ldaG9bpZPmTtGZ8S7Qufae0DVTvak3aB+ZmalGov7ystj8Fp53qho1fGQ1uZoOFM1y5Hg4pVqOBp4PC4Nw0f4Tx8/u23vobIOeXtY6d2y+hszLsBo1fGQ1udoe359fv+/0mUMnjqdjplT38wPP6+sHIZdQcnRbkohUPidnmDED");
 
 export default TrainTrack;

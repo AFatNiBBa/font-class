@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bench-tree` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bench-tree?s=light bench-tree}
  * @preview ![bench-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bench-tree.svg)
  */
-const BenchTree: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M575.2 106.1c-1.9 11.9 3.1 23.9 12.9 30.9C600.2 145.8 608 160 608 176c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48c0-16 7.8-30.2 19.9-38.9c9.8-7.1 14.7-19 12.9-30.9c-.5-3.3-.8-6.7-.8-10.1c0-35.3 28.7-64 64-64s64 28.7 64 64c0 3.5-.3 6.8-.8 10.1zm31.6 5c.8-4.9 1.2-10 1.2-15.1c0-53-43-96-96-96s-96 43-96 96c0 5.1 .4 10.2 1.2 15.1C397.1 125.7 384 149.3 384 176c0 44.2 35.8 80 80 80l32 0 0 240c0 8.8 7.2 16 16 16s16-7.2 16-16l0-240 32 0c44.2 0 80-35.8 80-80c0-26.7-13.1-50.3-33.2-64.9zM64 224l256 0 0 64-16 0L80 288l-16 0 0-64zm0 96l0 48-16 0-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96 16 0 224 0 16 0 0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0-16 0 0-48c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L64 192c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32zm224 0l0 48L96 368l0-48 192 0z" />
-    </Icon>
-);
+const BenchTree = createIcon("bench-tree", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABmwAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCcAsGAAE2AiQDCAQgBYMtBzEbcQXIhiDSWVWPJJ9XXtAR64h1zI8RAIA/BIo2ew4yAI5w/q/5/J5fA367IDi0ynVZgWc+n8AAh4FRNq+w4WyiuMF5ow4oNIX0FeTxd8xXkB5I7+M296Hxg7GuJskzAFEBYPN+e+1p8NP4NOL9/18h3rc7AmILqAUyZJggwDqZwAS5Grlc8Gn8/z/7D6wJIFrCjSeQYwgexhOAHCRFnk+e0bOhp1P05ft2ivKs+0c+M/b+EXdPL+PZUfeOe2jWfePujYfmvTjrmTkvjL18xIz74tG53RUvz35+wuUjE/WRkUnLOyHuGXnf6IhKfW2VOnlp+sl9vX2iLINQlnePIMUrHJ1Kjcx176g1C8ZNo++LiCtG3Vv2xo0j7iYuH3kPDymDHGZqt+r+NOX9Y9+3YZ9hPyxoZx982Byu+fCDrL3gh2F5UQ4d+vjjybHLIv+z1W53u5df3u22262vx8a+x1S1X/V/+mn/r2rVMfvG2K8nnY5Nql83Hd40TVV/2t//aeVwox0+plQ6j9RVk7n++v5NWbNG+/RgclAjoYDYau4hF9132MC6v9qdBD5/85e/iv39P5guT120JRBk8/+f7+B0OTB2ALkU55q68EWB5G6F8K697hUglAiQtJQCZMarBMiV5glQmGS5AC2lvWQi7xFGOKQBSa8zQGaFS0BuhJdAYZ23si0jIrtBxdtL/D1M29GFto+rFy9s6jX1bFEl3XO8Hl5bb3bNPpc3zYEzHes0pzrbMY52grM75Jn2LJzjFDuW4O1+qLbYQo3aGvXhykNtX5w901lOmFaOj7JWfX1stnOXO8+B3iRwLjEnSUQqjzzm1KOOX/DpAgAA");
 
 export default BenchTree;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-pivot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-pivot?s=thin table-pivot}
  * @preview ![table-pivot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/table-pivot.svg)
  */
-const TablePivot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 64 112 0 0-112L64 48zM16 176l0 240c0 26.5 21.5 48 48 48l64 0 0-288L16 176zm128 0l0 288 304 0c26.5 0 48-21.5 48-48l0-240-352 0zm352-16l0-64c0-26.5-21.5-48-48-48L144 48l0 112 352 0zM0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM445.7 285.7c-3.1 3.1-8.2 3.1-11.3 0L408 259.3l0 76.7c0 22.1-17.9 40-40 40l-76.7 0 26.3 26.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-40-40c-3.1-3.1-3.1-8.2 0-11.3l40-40c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L291.3 360l76.7 0c13.3 0 24-10.7 24-24l0-76.7-26.3 26.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3l40-40c3.1-3.1 8.2-3.1 11.3 0l40 40c3.1 3.1 3.1 8.2 0 11.3z" />
-    </Icon>
-);
+const TablePivot = createIcon("table-pivot", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjwAAAJnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCUAsGAAE2AiQDCAQgBYMtBzIbUgXIHoVxw10WgYghGLQhL39SHxHU74fu3XtBUuyJVNhFo4yOjHCZyDLrChmhW+HKlkB/gx/33n1q0pvtBIcEKC66zaEt1GVIrf78X/P5WVOBfKNDicbSA4nU6FU8n8AEN4u0Cc0ObKYTsFk7Y3hF6QeSdMEnaVc/rG5Q4xFd5ORjyQ+4GQcaXzlYhVQKAKIfAOwcVxbj7RM/Rfw0QbxRCAJiF8AUoqBgDME6qcAYmSlQVcGnaBr6DxQQQLSC4fR6RTuugDsAKkitVWbQc9xxWSvXy2rScDWNF9bkhj3YRVJTBXo8sumtpZQarUQq0fPabtuJ1HVSPLHd8tER0dOxH0je++p56X/rIOGO342XjlcBd47S9g3bACLOrTc0GvrHpvWGbQq37FK5bbNp7Uctr51Iv9iw7fVk8SWPO9Pdv5+eH6TeDPsD3pZtjBmTNr/wiw+V33dhaYSxcyFEGDxHsV/aTozbVhifFoYxbT9TNWYYeLWIkwGzJg2g0gnPz5WVeyhmvrw3F7sVvYr6bGZmVe5nb1GsfKTYHtiz5u8DEAhe7lmvtxrX/7drJYAvlz8vP0I0n1K+BrRLEJSZJkhTgiQAABkz8EggkC487qd2e4AgdCJAatUpQDHKhKDqNI2gxYRoBK067ZOKqkYY1txA6nYGijVzoBr2AFqse3dbDYdUISV1kr6D6TkIZe8T4SFhIkEsa1XWMSFsJ4ptw2/GTfmbo+gxasSUbl36TQE5oTiYNixHIrJ9kRAuRBghgTju7vUacCdM6p+r57skEvcdPzPyYn9jSzDrkkxKIrW6mgoeO50ZnQIAAAA=");
 
 export default TablePivot;

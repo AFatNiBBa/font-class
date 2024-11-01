@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-arrow-up-right` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-up-right?s=sharp-solid comment-arrow-up-right}
  * @preview ![comment-arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/comment-arrow-up-right.svg)
  */
-const CommentArrowUpRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 240c0 114.9-114.6 208-256 208c-31.5 0-61.7-4.6-89.6-13.1L16 480 56.9 370.8C21.3 335.1 0 289.6 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208zM200 160l-24 0 0 48 24 0 54.1 0-87 87-17 17L184 345.9l17-17 87-87 0 54.1 0 24 48 0 0-24 0-112 0-24-24 0-112 0z" />
-    </Icon>
-);
+const CommentArrowUpRight = createIcon("comment-arrow-up-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBSQsGAAE2AiQDCAQgBYMtBz0b1gTInoWxe6LEQBAxKOFyrbyXiwU/fDz//Rp67tu/oTI7VMBsDBvLikhnqlxchcrUEuj1v9b2FvPEbOPPJVzyHYlkScwSjUSpNCrRm1ea5av2XQfoPoObunneeRTgG4UyNi6dusD2PE8g0KjLO88Cyh4s0wQs3SY+BkaxV0KkIqLjy46rE1rO3U5PvaofnlZI89UyO8p4B4DMBQCHb2YzeMx08h0iU86CQA4D1mLo0GElBvaRC1ZSWAuaJkwzDPwPJAiQEQCSAg0NJ8BVAA2UagrbGn1vVBRm9LrGx30sl1PJ69p+R47dzOcbh4P3s1M3/6ff+6/r6roZOmSGPpf12Z9NuRmRGQxX6ITJucfv637tn6Hx1bD6DQ9O8n16Buy30M7ZDsEkm2n7N2pqd17k2PaD7ygUAPOAWFGcv8sUxwGCcKb+HNa87/+YXgb44t/lMzJcahJjCoRu84BigSIAgMqaUBCUA2Tw1JmeC4gJBJQREwI6K1gw0EzYhIHeahEMjJhwlVyaFrFQqYEy033Q2WELmoVOoLfP0x6xMF0wMaHA/OUSJYuIaxTw+ilJw5iy8UHleYqWJfs61Rx0iLaJsaWWpp6lweYy3sqINENFLyIBXn4kibaz/X5By9xCz8S4LEmh85rdet7tIFUGuFsESpGyXl+/pzafTzae1fRFAgAA");
 
 export default CommentArrowUpRight;

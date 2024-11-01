@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree?s=thin tree}
  * @preview ![tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/tree.svg)
  */
-const Tree: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M229.7 2.3c-3.1-3.1-8.2-3.1-11.3 0l-147 147c-4.7 4.7-7.3 11-7.3 17.7c0 13.8 11.2 25 25 25l35.7 0L39.3 277.4c-4.7 4.7-7.3 11-7.3 17.7c0 13.8 11.2 25 25 25l35.7 0L7.3 405.4C2.6 410.1 0 416.4 0 423c0 13.8 11.2 25 25 25l135 0 56 0 0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 56 0 135 0c13.8 0 25-11.2 25-25c0-6.6-2.6-13-7.3-17.7L355.3 320l35.7 0c13.8 0 25-11.2 25-25c0-6.6-2.6-13-7.3-17.7L323.3 192l35.7 0c13.8 0 25-11.2 25-25c0-6.6-2.6-13-7.3-17.7l-147-147zM232 432l0-232c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 232-56 0L25 432c-5 0-9-4-9-9c0-2.4 .9-4.7 2.6-6.3l99-99c2.3-2.3 3-5.7 1.7-8.7s-4.2-4.9-7.4-4.9l-55 0c-5 0-9-4-9-9c0-2.4 .9-4.7 2.6-6.3l99-99c2.3-2.3 3-5.7 1.7-8.7s-4.2-4.9-7.4-4.9l-55 0c-5 0-9-4-9-9c0-2.4 .9-4.7 2.6-6.3L224 19.3 365.4 160.7c1.7 1.7 2.6 4 2.6 6.3c0 5-4 9-9 9l-55 0c-3.2 0-6.2 1.9-7.4 4.9s-.6 6.4 1.7 8.7l99 99c1.7 1.7 2.6 4 2.6 6.3c0 5-4 9-9 9l-55 0c-3.2 0-6.2 1.9-7.4 4.9s-.6 6.4 1.7 8.7l99 99c1.7 1.7 2.6 4 2.6 6.3c0 5-4 9-9 9l-135 0-56 0z" />
-    </Icon>
-);
+const Tree = createIcon("tree", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABiwAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCVwsGAAE2AiQDCAQgBYMtBysbUgXIHoVxMz3SRXNsbxfx8Pxcn+e+5FPmL2eBs0SkgMkBUMuebB2PKxqBpKonmVu/MqRWf+pU/st5KIBPEAza2BjbvgYF1+7wCvR8Y7zgBarVirUKlitgHZw3qvlSSArpN8jjHQc0kd5K8NQ9afylt1skWQYgOgNg0eb169S/j+8jvmtEfGcNAmIxqAQyZOgnwFyZQD+5Crlc8H00Guw/sCKAaBa+WAI5cjzEu4AcJCnPZ6+qNXXIN9Waiu2vlxvilbeG1QKla+K17m/0jODWe32v99gE8XFxa4jXe7wqRVGA6PWem+ONHq/LkaAv2xiveVUW8aB81R18zuAPO3/4D4f45bP161+8cLjosXeojRvE4t2ZMzXv2dM808y7e3sUh8e2h4LkPiX+PdArwO/Xz7Tkg/btM6Qsm2ZoCF32X3782KPHBuUtZ2ZoMtKQTQICg8Hge9wFAsHU9p9O1mnu/621BH78+L/FX1GjHvX0IVolEGRjG2PtiDpEXQAAUlwyOOoIJDcl4VHbvS5AKBAgaVYIkOmrswC5whgBmgwwTYBmhfUykbcJpZ0VJu3Owsx0l2Gu9BFsMteXTrMysneSfaPYX8Kk5V1k2b5q0viJ1exqNpO514zWm3OqzfLIS7wzCi465LRTLjjogKMudLBz1vkXnbR8CV3mjSqTjDdRZbbqcPlQ2tRxzjnv6LRwfJc5quvNkS4tj4+Ch0mAyXczkYiUf6sA");
 
 export default Tree;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lightbulb-cfl-on` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lightbulb-cfl-on?s=duotone lightbulb-cfl-on}
  * @preview ![lightbulb-cfl-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/lightbulb-cfl-on.svg)
  */
-const LightbulbCflOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M160 64c0 2.6 .3 5.2 1 7.8c4.3 17.1 21.7 27.6 38.8 23.3l128-32c17.1-4.3 27.6-21.7 23.3-38.8S329.4-3.3 312.2 1l-128 32C169.7 36.6 160 49.6 160 64zm0 96c0 2.6 .3 5.2 1 7.8c4.3 17.1 21.7 27.6 38.8 23.3l256-64c17.1-4.3 27.6-21.7 23.3-38.8s-21.7-27.6-38.8-23.3l-256 64c-14.5 3.6-24.2 16.7-24.2 31zm0 96c0 2.6 .3 5.2 1 7.8c4.3 17.1 21.7 27.6 38.8 23.3L256 273l3.9-1 195.8-49c17.1-4.3 27.6-21.7 23.3-38.8s-21.7-27.6-38.8-23.3l-256 64c-14.5 3.6-24.2 16.7-24.2 31zm96 50l0 78 48 0 0-90-48 12zm80.2-2c-.2 1.1-.2 2.2-.2 3.3c0 .5 0 .9 0 1.4l0 75.3 48 0 0-47 7.8-1.9 64-16c17.1-4.3 27.6-21.7 23.3-38.8s-21.7-27.6-38.8-23.3l-64 16-16 4c-13.2 3.3-22.4 14.3-24 27z" />
-        <path d="M53.3 4l48 32c11 7.4 14 22.3 6.7 33.3s-22.3 14-33.3 6.7l-48-32c-11-7.4-14-22.3-6.7-33.3S42.3-3.3 53.3 4zM613.3 44l-48 32c-11 7.4-25.9 4.4-33.3-6.7s-4.4-25.9 6.7-33.3l48-32c11-7.4 25.9-4.4 33.3 6.7s4.4 25.9-6.7 33.3zM24 160l64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm528 0l64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zM101.3 332l-48 32c-11 7.4-25.9 4.4-33.3-6.7s-4.4-25.9 6.7-33.3l48-32c11-7.4 25.9-4.4 33.3 6.7s4.4 25.9-6.7 33.3zm464-39.9l48 32c11 7.4 14 22.3 6.7 33.3s-22.3 14-33.3 6.7l-48-32c-11-7.4-14-22.3-6.7-33.3s22.3-14 33.3-6.7zM224 416c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-32 0c0 17.7-14.3 32-32 32s-32-14.3-32-32l-32 0c-17.7 0-32-14.3-32-32l0-32z" />
-    </Icon>
-);
+const LightbulbCflOn = createIcon("lightbulb-cfl-on", true, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAAB5QAAALNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiELQsIAAE2AiQDCgQgBYMtB1wbWwbIHoNt8+lIxLW143FItLamHfnMFw8fc+X7SXYPiFQRQJ+rAyBHjshWAeqyUDe1BHoNft03s3/PTO8Ao10FUC8UqlSHRA+4Km3TyRApYkSauOb5/y9oVCAVoO9D+Uhc1Xk0ULaPBpTn0bymSKABbSQz4g3bZgZZRo2JjuMGssQuPS5Hci15i0vT/wDGVy2mSZSkAIhqADBrQ1YKTgc4kMRj4THEW0tBQMwGdCNSpGhHMJVCoJ2sG2QywUBSOANReDcEEHmAm6Ugj0r8JBIAGUgUyWWyNhhm3WBkptZXltOSc8lPqxdNCgzYM120DeTdthWbFv8g/13zZbsg3mtZsm7WKNXYa1m0Vo/91hU7Hau4/FBx1QNrlU80MRbKyjjTMAdxuH5WvZSqnG2cZykdUXR4GamjTPJ4pWnBRuqBGmbzdjPaNnFsiuDyHFBZkN4bxkVMxGHsInLkEHeBM5r19XDLY93jr563fmvs038QV5GPgwqocYSdKRn8qcBSR3JXOIjLMDLKCEdarGs1nz861vzCR4asHdI+zenKwzhSwbuT7GUbh+Q0+M7+m0NduNjU76L48589tUU7Q4LCDCRNSH0HuLtArs39ziYeduwYlQpOcUeh7xVMCASxhDs3Hf498Sp/+YwFIBDM3WX/qqqp/1U1JMCXJ/sLfnThlXQ4eYhiCQjSoYWhipPDUOkHEEiil+XGV10XSO2mArxrucsChFIESOSVCpBqo4sgU2oIgpxOPgjySq2hEJkaQr0SLU2U2yVNjTcizdQ7keZMdePPq480/hOxl/j9jI21gZhOwsPVXQSK1QRJRmmsbwwSh432vXWBQ7oCtdq06lajWgNHLGGnlFCPFrFb8JjPCh5cuRMCicvpfTbXcnTqqrFl+norQcTzXnu92+UdUosEGBxtQiolEipMv4mZlT3NlS5Vtc0uba0uH1Np8yD96gAA");
 
 export default LightbulbCflOn;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scanner-touchscreen` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scanner-touchscreen?s=sharp-thin scanner-touchscreen}
  * @preview ![scanner-touchscreen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/scanner-touchscreen.svg)
  */
-const ScannerTouchscreen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M144 0L128 0l0 64 16 0 0-64zM272 0L256 0l0 64 16 0 0-64zM384 0l0 288 16 0L400 0 384 0zm64 0l0 288 16 0L464 0 448 0zM320 0l0 64 16 0 0-64L320 0zM192 0l0 64 16 0 0-64L192 0zM512 0L496 0l0 288 16 0L512 0zM336 112l0 384L16 496l0-384 320 0zM16 96L0 96l0 16L0 496l0 16 16 0 320 0 16 0 0-16 0-384 0-16-16 0L16 96zm64 80l192 0 0 256L80 432l0-256zM64 160l0 16 0 256 0 16 16 0 192 0 16 0 0-16 0-256 0-16-16 0L80 160l-16 0z" />
-    </Icon>
-);
+const ScannerTouchscreen = createIcon("scanner-touchscreen", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABfwAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCOgsGAAE2AiQDCAQgBYMtBzobRAXIjtRG+UVWEg//P/ef+9zkU/IhQ3xnFABlCLlIflxBWGBXdsCu9q/aWZXVr2rf5/+afJFeIIU3mn4fWhRmcUU8n8CAo/ze7N5IBjbTCdj8dvL3ShSl25Ak/wzblWGiQhnfuKKL9EH6HU/8h8ZTE7xDUhQAogHAxuOH9/pxOIYjfusgfrMbAbERZIECBSYLsFYhMFkpo1QKhqPT0f+BmQCiG9OJ5hIDeBXvAEqQ1GXZR3Wj+kbUXQPlMXuvOl3Vlagj6qiXilRHERVfCWA4BiahRBVHoH73wKXdwhSiHgiliKiO1FWdSqIYKzSx+rUZHzYf/jf992u/e/JD0zStRvtGrHuQc25k3gr+jbZtwdbRTkI5kT+7/wbrtN7QbhhqKr2h0RwIgc7+HyHnRzpNC43m7wbeBwLBS//0HDg/tPb/3jqBf7/+lH5GOj8m6UP0SiAo5nbmOpNAIgAAKZ4zI0EgeVYNWvq9K0CoECDpVmWhMEkjlCpzhC5TLVPRrXJYIco+YbSzSEj6PRQKy70qlEb7Suiy1k/JbqOjkEKzDJn/gDm2lcjWY3nR/IV5de72JYtgGd3+mrzsnPmcmZuFp665755nXHXFTc8UzCN7M8+6a9sI2PpF2SLzLZStlo9H163HXPXIYzfb1vND1sj3ozM9N149C56EDS52IklEGvX48lt3P5r3DsxyCgAA");
 
 export default ScannerTouchscreen;

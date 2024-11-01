@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-week` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-week?s=regular calendar-week}
  * @preview ![calendar-week](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/calendar-week.svg)
  */
-const CalendarWeek: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 0c13.3 0 24 10.7 24 24l0 40 144 0 0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40 40 0c35.3 0 64 28.7 64 64l0 16 0 48 0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192l0-48 0-16C0 92.7 28.7 64 64 64l40 0 0-40c0-13.3 10.7-24 24-24zM400 192L48 192l0 256c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-256zM112 256l224 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const CalendarWeek = createIcon("calendar-week", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABcQAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbwsGAAE2AiQDCAQgBYMtBzQb8wTIjtMlNuUxYTx8v9bnua97fu0OLVIvMzogzxBASexYR0/FpiITO/nA8D7/l+Mbfhvw8xEcylo0dgWyno+xnicQ4FkDx6JA0iywNEFrd26pOUT7NEJZS47Pjs8Z8nged5RIT9OfuF0+NP7RzS2SUgYg2gJg7ub1K/3ciEbEH80viD8sR0DMBYVAhgw9BZghE+gpVyCXCxrRbNJ/YEEA0YJfmUCOEnZgHyAHSZbnE2vtK6VavqlSKm9/v5uoRMTzwRK/P/TjcFikeDLkowHV+GDYJ92zCDU7/NPBpt17q1VTPOxUi8ddsj2VcqWViwcdy/Goc8xH9vuk7Sf/9v3z0J+u/rS20xB3DNFpraQP8aZdu3JbY1AG982cAkHaWkNMkZ/2cCr1xhyNuj6zG8BXfI466nkgEPT6/K8Bu834r1Ulgb+//X94XPPn+Dl9glYSCLIRzRF2xM9A7AB+UopL+sXPCCQbZPhdqx4JEMoIkLQoC5Dpoa0AubLhApT0NlGAFmXrZSJvLXS0s4Ok6izITHIZ5Dr6DJTM8Eu+RcfI/Ev2Dvl7l7FoRBZuKsaOGlNMK7YtoriMmFanF2Z7yKU4MhT3OuS0Uy446ICjLgzMOStLF520SMMW+qLCWKOMUZimOO6+bt/koHPOO+q0U3md6Yr7uSEu6dOHopcw5zgNSSJS7fmZI18wAAA=");
 
 export default CalendarWeek;

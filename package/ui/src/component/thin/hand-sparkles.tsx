@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-sparkles` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-sparkles?s=thin hand-sparkles}
  * @preview ![hand-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hand-sparkles.svg)
  */
-const HandSparkles: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M296 48c0-17.7 14.3-32 32-32s32 14.3 32 32l0 24 0 8 0 168c0 4.4 3.6 8 8 8s8-3.6 8-8l0-168c0-17.7 14.3-32 32-32s32 14.3 32 32l0 56 0 8 0 56 0 48c0 4.4 3.6 8 8 8s8-3.6 8-8l0-48 0-56c0-17.7 14.3-32 32-32s32 14.3 32 32l0 184.8c4.6-4.7 10-8.6 16-11.4L536 144c0-26.5-21.5-48-48-48c-12.3 0-23.5 4.6-32 12.2L456 80c0-26.5-21.5-48-48-48c-12.4 0-23.6 4.7-32.1 12.3C374 19.5 353.3 0 328 0s-46 19.5-47.9 44.3C271.6 36.7 260.4 32 248 32c-26.5 0-48 21.5-48 48l0 236.1-54.1-54.1c-18.7-18.7-49.1-18.7-67.9 0s-18.7 49.1 0 67.9L189.8 441.7c45 45 106.1 70.3 169.7 70.3l8.5 0c37 0 71.1-11.9 98.9-32.2c-4.7-2.9-9-6.5-12.7-10.6C429.7 486.1 400 496 368 496l-8.5 0c-59.4 0-116.4-23.6-158.4-65.6L89.4 318.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l67.7 67.7c2.3 2.3 5.7 3 8.7 1.7s4.9-4.2 4.9-7.4L216 80c0-17.7 14.3-32 32-32s32 14.3 32 32c0 0 0 0 0 0l0 168c0 4.4 3.6 8 8 8s8-3.6 8-8l0-176c0 0 0 0 0 0l0-24zM88 80c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56-56 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l56 0 0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 56 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-56 0 0-56zM328 304c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 40-40 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l40 0 0 40c0 4.4 3.6 8 8 8s8-3.6 8-8l0-40 40 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-40 0 0-40zm240 64c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56-56 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l56 0 0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 56 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-56 0 0-56z" />
-    </Icon>
-);
+const HandSparkles = createIcon("hand-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAAB1QAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRSEVAsGAAE2AiQDCAQgBYMtBzQbWAbIhocHvb4/N8nMA5Sl/Al3oDqwaNYtqw/O8fcr3ShvkCe+vih/ZzvyosBKF/AiLYvk7ITxXrkJRiRfRt5ew+QjZPGP0xRInk5+woP1L40jOtxGIk0BRD0A5m3ZsMo3B+NgxE+lD4mfrEBAzAe5QIoU3QLMlAp0y+TIZIKDUSpZ/wNzAoii5CsJyFAkqolWQDYWzbLshRyiVYWabHNxt8ozb26LeLLq3pbHCSEeb3mSwyRdVhf02EDLnml9YvA9zTXfwlXSHmvHvxAQ6wO/4KaWTfHltE+rquLbGU+0frKwMu6Z/tnwzfHETtZN8Xjdva/n5rj5NOiPiY1PtD7WLCqj9DzeUiXXVgVgwVFWRmwau0X/1+pfO9bvpzN+MuTB2ru4qxYx65h25V5RPOmkIgAF5ExVTjFW4hlrqn3xp8647U3pz3vHNv3YXec0/ri3qWmvcUzT2L0/p0dtcoxqj+2PXrn/wgs1vPvsuHIXvXXapmXKjbrpptKFF7i7pubup7TOp+YvMGHe/EJpaxeuUf8OaP+1byCb6tNOKkLdj+pPHDDpQw0F7Id7OTFn9c+BQPBVzdKJe+pm/lZelYDDn534G19fXvomuSp5DeUSEKQjSyPtTG5SrnxkpYAkkcQV+oMiyL4yGfxKtScECJUIkCiqDFCqSz3KVBqBCnpNgpkXb5CKrEJotgtQotrFKDXZ9SjT7H1UMNO38aLmSF8J4Q0t/CFNtpgSF63Kx40em0/PlV2t6C4Hf/OMfLZu6BX21DC40RkudIHLnO40Z7uMMC+xKnW58y0e4170t7lxRhsrN12+ejAv20ysl7jUBrl4/X7MkO/vGuqK8cXDwJhIeI5Xl0iIpOYN0o+69Kuzn3f6pQAAAA==");
 
 export default HandSparkles;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wifi-weak` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wifi-weak?s=duotone wifi-weak}
  * @preview ![wifi-weak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/wifi-weak.svg)
  */
-const WifiWeak: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 179.8c0 8 3 15.9 8.9 22.2c12.2 12.8 32.5 13.2 45.2 .9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9c6-6.2 8.9-14.2 8.9-22.2c0-8.4-3.3-16.8-9.8-23.1C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C3.3 163 0 171.4 0 179.8zM126.7 309.2c11.7 13.3 31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56s108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2z" />
-        <path d="M256 416a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const WifiWeak = createIcon("wifi-weak", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgAAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBbwsIAAE2AiQDCgQgBYMtB04bDwXIhocvm9b73SOjtIiziHhIlBJS6nJ6wLH+55p68fzoAD8fwaF06oH0ADOfT2CAFVbl84lOZ2h72xDBU4mnERGSEdJ42VidoEgj8pUqpPvSl7iF/wcwftXblSTNGUB0AsCiHVvWebct2lJ8WX+R+NJaBMRiUApkZPQTYK4s0E+hRKEQtKV6nbao10sCiAb8YRk0oIJtOAZQgCSkoqgNGthaqRXbWystOx4Z88Sox/o/OPLR0Y8PyJd2v6v1hp4/7Pil9YZtP23qe90Tl/X4fvvP23/c+uPGO227q3vEXSZrMMQA0uPFt2d/3nL9ylfn3tntzu6DH+/0+O+Dvjz6S/WBuf3vv9tz3aRave6+au3eSUv6Lum3fj0xpWDSvbXqfdfpCfd9vr5cP3C33ZBpe35+X+3iS697l2cf/Wh7bI+PHn323fvOc7350D9pxoz0z6Z7q9XrgECw9rpjvz3Qce7/Ta0JtL/+57/y3fVf0qXpcTRJIMhj62PtTZcCUgP4USnONjhdGhDIFkrkpaq7BQgtCJA0aNEh66sTFFqMgYoBpnGby7fIomgWutkHkFSdBtl0F0GhmxegYq5PogbdIgeYEB7C/y51+YgvG1dOGj+xnF2aRU2MGS4Nzym33ZFnq6ZRsNXRTnGyMx3lSMc5cyBPty49y0mWr4hlvqg0yXgTlWYr3ZW1uh2j053huLnsH2WO8nw40tnrzqMgSIR2sl1ZJlLkzuccd/Rx456DOe6qNnVV8qUEAAA=");
 
 export default WifiWeak;

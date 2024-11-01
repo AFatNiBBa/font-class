@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sunset` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sunset?s=sharp-solid sunset}
  * @preview ![sunset](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sunset.svg)
  */
-const Sunset: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 224l0-1.8-77.5-70.5-23.7-21.5 43.1-47.4 23.7 21.5L256 135.7 256 32l0-32 64 0 0 32 0 103.7 34.5-31.3 23.7-21.5 43 47.4-23.7 21.5L320 222.2l0 1.8-2 0-8.4 7.7L288 251.2l-21.5-19.6L258 224l-2 0zm-74 0l106 73.1L394 224l23.3 126.7L544 374l-40 58-97.3 0c-19-46.9-65-80-118.7-80s-99.7 33.1-118.7 80L72 432 32 374l126.7-23.3L182 224zM0 464l24 0 528 0 24 0 0 48-24 0L24 512 0 512l0-48z" />
-    </Icon>
-);
+const Sunset = createIcon("sunset", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABagAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBegsGAAE2AiQDCAQgBYMtBy0b9wTIHgm2rYX1h7lQqSPHw/drn537uod6wtCJAgBQJOMANYOKY+F4d+VW5OifgGHvNU4+/9fUi+fXgJ/PNRrveWKkHkUt6vkE9nxeFoWzgWw2nE0UZ+3sFuof/aZPEEmGRT+szpDH9+y8KtL19A2X04fG/9o7T1KXAYhmAJi4fPFcH/7En4ivlVfEV7MREBNBKZAhQycBxsgEOsmVyOWCP1GpuP/AkgCimjw2gRxVWIs9gBwkWZ7371xXX9U4X0b7iuUhlkWvGB89Y2TgsPoQYnT0jrHRI5aEKKKV4r2iTbZYumzp8ljK+oTRq97pdX/Yyx53OxUxKZbH8iX1RVNRNInu95vd/9vt27ZvKr9TSnOmOuqxI7raoTRBaYf+tnhsq7lTJclxi0xySZq1cwaO1Oacc22ctNF/DdkgJ1tu+MxXt2s3YYB2PQYAgaBmQ7+z65uOaaitT+Df9//N96h8SBPSfdRKIMj6VPpYQy4EdgBeimO646sIJEtl5F0buSJAKBAgqVYIkOmomQC5Qm8BqnQxVIBqhcUykdcJrawtIGnkIMgMcxbkWnkBqozx0a/WKjIrk2xE+uOlT6vRqavKgf0GlKPKaUFlwxF4cXS5bfQ45gd6Yqdt9tvniK222OlIxRwyNzpqr2krbKofKg3UzwClUcrj+n7zMlsdcthO++2Ly4xW3jd7OLYe3xPrSYBB7wOlfKTqw0f3Hd56BA==");
 
 export default Sunset;

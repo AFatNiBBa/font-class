@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `court-sport` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/court-sport?s=light court-sport}
  * @preview ![court-sport](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/court-sport.svg)
  */
-const CourtSport: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 32 32 0c35.3 0 64 28.7 64 64l0 128c0 35.3-28.7 64-64 64l-32 0 0 32c0 17.7 14.3 32 32 32l240 0 0-97.3c-45.4-7.6-80-47.1-80-94.7s34.6-87.1 80-94.7L304 64 64 64zM336 350.7l0 97.3 240 0c17.7 0 32-14.3 32-32l0-32-32 0c-35.3 0-64-28.7-64-64l0-128c0-35.3 28.7-64 64-64l32 0 0-32c0-17.7-14.3-32-32-32L336 64l0 97.3c45.4 7.6 80 47.1 80 94.7s-34.6 87.1-80 94.7zM336 194l0 124c27.6-7.1 48-32.2 48-62s-20.4-54.9-48-62zm-32 0c-27.6 7.1-48 32.2-48 62s20.4 54.9 48 62l0-124zM32 160l0 192 32 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-32 0zM576 352l32 0 0-192-32 0c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32zM0 96C0 60.7 28.7 32 64 32l512 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96z" />
-    </Icon>
-);
+const CourtSport = createIcon("court-sport", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABpwAAAKCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDJwsGAAE2AiQDCAQgBYMtBzIbqQVRlMzJEtlHQm5q9JpXjpHo7EdI0snzfHb9/z7VfdXzjHrWBxDBikRHcgYH4V0/FSLN20R9tdOShLradgbN/+We/+dHB/j5CA5tjN1Y1MYxtqd5ovmmNJAszAKGGGpIYIJ5OykLg9Jtki5xrvMNyzEsTtDmn1wDlIfL17gzvGl+NNN1FG0DIBMAsOthBx3o09GMJl/33yJf2x+B7AaqoEGDOQJ20AjmaFW0WmE0/b79D6wEyCD4jQW0GMFb+AjQgmKobfOrV4cxEycZD4xtD+0NdEfdIsl9IL08v1/O8tB6qXWRq+L93Evy9nmlPumv/qQ7RfRyqz6ISZcXziuWPOqvzl6Sq9MD1EXe2i+Xx9ZLL+JFfRSvtgdG95wkD8FV+f6eE+U0P3VOr+uNytwi98HGunMf9eTVacT4Y0ARx216QrPwlQmv/Lzg61O/tvOV427ipnFV9dTEid1VuokTn6qqcTfdNO43J1h6xBFNs/KlJ/htfD3B3r8ZdxNXe/yyKvf87vvp07//bs96C5e4bPyCT1G90lVjvPmfVFufKut37tNEJj5lAdiFzo8DQVj05LjXjhu/w9/DXMAP7//6d7xff7RcVV7BsAJCs7p/HV2uAosNkCu51ELig4LidUPgVcd4QEB0CCgGdQIas00Q0OqsEjBgni0CBnUO0kg7IqY4JsNijAtgYyuXw9YUb8ABO/gsO2hKGt2lNI/6OsbvhcGeh+qGtevrdrXZkWh1JPzm9pWtL7/UTawwR53qPOe62ClOdoaLEXqhAwuXOMdeFLKnL6o2WGu9ajtV3L/kD0XZC13kjDor32V7dX50uUvp+SuMVQDuRnVFIaV3L8Q1jwI=");
 
 export default CourtSport;

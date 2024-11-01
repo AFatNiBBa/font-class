@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-question` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-question?s=regular cloud-question}
  * @preview ![cloud-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cloud-question.svg)
  */
-const CloudQuestion: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M354.9 121.7c13.8 16 36.5 21.1 55.9 12.5c8.9-3.9 18.7-6.2 29.2-6.2c39.8 0 72 32.2 72 72c0 4-.3 7.9-.9 11.7c-3.5 21.6 8.1 42.9 28.1 51.7C570.4 276.9 592 308 592 344c0 46.8-36.6 85.2-82.8 87.8c-.6 0-1.3 .1-1.9 .2l-3.3 0-360 0c-53 0-96-43-96-96c0-41.7 26.6-77.3 64-90.5c19.2-6.8 32-24.9 32-45.3l0-.2s0 0 0 0s0 0 0 0c0-66.3 53.7-120 120-120c36.3 0 68.8 16.1 90.9 41.7zM512 480l0-.2c71.4-4.1 128-63.3 128-135.8c0-55.7-33.5-103.7-81.5-124.7c1-6.3 1.5-12.8 1.5-19.3c0-66.3-53.7-120-120-120c-17.4 0-33.8 3.7-48.7 10.3C360.4 54.6 314.9 32 264 32C171.2 32 96 107.2 96 200l0 .2C40.1 220 0 273.3 0 336c0 79.5 64.5 144 144 144l320 0 40 0 8 0zM233.8 197.3l-.4 1.2c-4.4 12.5 2.1 26.2 14.6 30.6s26.2-2.1 30.6-14.6l.4-1.2c1.1-3.2 4.2-5.3 7.5-5.3l58.3 0c8.4 0 15.1 6.8 15.1 15.1c0 5.4-2.9 10.4-7.6 13.1l-44.3 25.4c-7.5 4.3-12.1 12.2-12.1 20.8l0 13.5c0 13.3 10.7 24 24 24c13.1 0 23.8-10.5 24-23.6l32.3-18.5c19.6-11.3 31.7-32.2 31.7-54.8c0-34.9-28.3-63.1-63.1-63.1l-58.3 0c-23.7 0-44.8 14.9-52.8 37.3zM352 384a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const CloudQuestion = createIcon("cloud-question", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABoQAAAKeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CCeQsGAAE2AiQDCAQgBYMtBzUbfgXIBiJi02YPYqR1UlH64iL03eXi1POchwL4lkEQtD00IAtwjq7zChSwWt/e8w1WK6iVtW8bCtWIwtOIkCoRaUzH67UHuvyWSThAzVZngIn1reQ1kQwDhUMDAECCAACAwjWrlufAA3kgcvr/VpDTlAUEQAoDYCGABteIQQDIh4YAMehYgI6OwAP5/z/9B1ogACBO6H0VADrgBBYCqwAAHQCFruvZU6YK9Tr89Rpeh9FydcqZ3uWpV0cOMqf5pvuWR85mXqpV2cYYht+2NHbc4LSJKVfGiwwO25YW3F/yaP7aInK8/9CkCzKsyzNTlhTYV2JMMjvHNuNKvj3VRLakWxOzOP/e4v51zHBzVvLl0SIzvV6Z7htk5pJpILOTr4xOK4nxc9LYKQzZElN9cJjIDGOMOY1BvuneseEzJYkdZL9NONPiDE2K9/x9NOhB1qwBTkd8+/7P+lx5Gq21bJVFRGs1yLbdVrjr5J0gAABQwcFW55TzmgPNsmV3eSpVyuQ2FjcT1bpNQGCKEvLvvZSA9VOnBsb0Gnmw0NMoESmWq9gUhenMwwV/T9edbPMPwFe5su8jjzQjmEV5aHyp+66AUTAqoOUiHgDktCM3wpY2DMz31e1VADza9f4b5eL/D9QgZQNuFAACWrr/6ainBgEgVQAgVNKDJMIHCaCYiQ75fsywxoIBAxRODNCIJgh0DNKCgziyM0q5qiopugfBpD6Cwo/OoJGD/qBjshkc5ON44MQUzUk5F+PeiMklOFJ8k5U5QyYrj3XMdd7vmLya11LbqXqkXmrYSQs60oFuNKcZrenGsC6Uj7vTnhISWpwvYpGZDGTCIg+WuXqWa7CgC11pvTewr5MX676fih7ydGrwFESbhYRCgaiA3wqN9I4M");
 
 export default CloudQuestion;

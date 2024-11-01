@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-holding-diamond` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding-diamond?s=solid hands-holding-diamond}
  * @preview ![hands-holding-diamond](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hands-holding-diamond.svg)
  */
-const HandsHoldingDiamond: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M297.4 9.4l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96c12.5 12.5 32.8 12.5 45.3 0l96-96c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0zM80 104c0-22.1-17.9-40-40-40S0 81.9 0 104l0 56 0 64L0 325.5c0 25.5 10.1 49.9 28.1 67.9L128 493.3c12 12 28.3 18.7 45.3 18.7l66.7 0c26.5 0 48-21.5 48-48l0-78.9c0-29.7-11.8-58.2-32.8-79.2l-25.3-25.3c0 0 0 0 0 0l-15.2-15.2-32-32c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l32 32 15.2 15.2c11 11 9.2 29.2-3.7 37.8c-9.7 6.5-22.7 5.2-31-3.1L98.7 309.5c-12-12-18.7-28.3-18.7-45.3L80 224l0-80 0-40zm480 0l0 40 0 80 0 40.2c0 17-6.7 33.3-18.7 45.3l-51.1 51.1c-8.3 8.3-21.3 9.6-31 3.1c-12.9-8.6-14.7-26.9-3.7-37.8l15.2-15.2 32-32c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-32 32-15.2 15.2c0 0 0 0 0 0l-25.3 25.3c-21 21-32.8 49.5-32.8 79.2l0 78.9c0 26.5 21.5 48 48 48l66.7 0c17 0 33.3-6.7 45.3-18.7l99.9-99.9c18-18 28.1-42.4 28.1-67.9L640 224l0-64 0-56c0-22.1-17.9-40-40-40s-40 17.9-40 40z" />
-    </Icon>
-);
+const HandsHoldingDiamond = createIcon("hands-holding-diamond", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABngAAAKKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDGgsGAAE2AiQDCAQgBYMtBzwbpgXIjpQuZyTx8H3dV+e+zF9Rlb+NbMojs6HVQNqN95BXygzxwv/7UzmX81AAH4cgKD8vq2MsXlTc+7wCFduDNli1WKsodmreS4Mciq9vD3n8k12hRtqT3sHN9ofGjzq7gqQpAxCtADBrw5plXvssPot4u3qaeNsSBMQsUApkyNBNgKkygW5yJXK54LOoKvYfWBJANHDfLIEcNTyCFwE5SLI87zJ/fr3WPF9frxVHr92w9g6XtF8Xd9av77ghdsWlHdbHzuK6dmsv7RDOJXcQQhwYtC7ur9fj3o67ukYcHD44LtVkhH4wxRU8g6I9J1lyu7s6rI4Hwt2tuSDEJQNXxh39d3bY2bFjDDkAmX9gtFuBJDMf6ib2tL+zXz2uH7IhHgxXnjDrDr0faPXAz9456h0Dn9nhRq5t3vzayGI3pXbnV576Xq1f4MHWrR98ofVEMx2l4cHDD9e7yxwjP3o3W6H5b9eAX1Wjcdl6lf+dUxQ7Gz/srXfXgVYa+NlAV4in6dq7tw8bdxbFOf+rjMQZr6j8Cq7xW/MVsnc/GjlHl96HH+7FAUeZaaLWL+x/PRAI3t/Z9M2OllP/bqwn8MULv55crnotXZIeQKMEgmxoNdTWdAkwbgCxFGfpPfBFgeQeGXduMzsFCAUKSBoUkOmqFeQKQ6Cmh3E4cc4amcibhHa2gZA0cypkxrsQcu08CTVTvR5t0C6ys1Y656R/xrTzq/S8YeWo4SPLyWVvXiafiKj7p5STrQPP4nWD4ERHOdlJznCkIxzrjAp7mmWJM51o/hAzzw+VRhlupNJk5eLSzdHrHek0pzvWyU6yBpmi3D440FnDrQdBR+LyjpaSJCK1v62Mw54C47DPBQ==");
 
 export default HandsHoldingDiamond;

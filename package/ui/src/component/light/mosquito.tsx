@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mosquito` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mosquito?s=light mosquito}
  * @preview ![mosquito](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mosquito.svg)
  */
-const Mosquito: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M182.4 3.4c-6.9 5.5-8.2 15.7-2.8 22.7l41.9 55.7L194 136.5c-3.2 6.3-2 14.1 3 19l45.1 45.1L79.3 226.2C34 232.1 0 272.5 0 320.3c0 84.5 97.6 126.9 154.6 67.1L272 280.4l0 23.9L228 357c-2.5 2.9-3.8 6.7-3.8 10.6l0 58.3-44.7 59.5c-5.3 7.1-4.1 17.3 2.8 22.7s16.8 4.2 22.1-2.9l48-63.9c2.1-2.8 3.3-6.3 3.3-9.9l0-57.9L272 354.1l0 45.4c0 26.5 21.5 48 48 48s48-21.5 48-48l0-45.4 16.2 19.4 0 57.9c0 3.6 1.2 7.1 3.3 9.9l48 63.9c5.3 7.1 15.2 8.4 22.1 2.9s8.2-15.7 2.8-22.7l-44.7-59.5 0-58.3c0-3.9-1.4-7.6-3.8-10.6l-44-52.7 0-23.9L485.4 387.4C542.4 447.2 640 404.9 640 320.3c0-47.9-34-88.2-79.4-94.2L397.9 200.7 443 155.6c5-5 6.2-12.7 3-19L418.6 81.8l41.9-55.7c5.3-7.1 4.1-17.3-2.8-22.7s-16.8-4.2-22.1 2.9l-48 63.9c-3.7 5-4.3 11.7-1.5 17.3l26.7 53.2L368 185.4l0-9.5c0-23.8-17.3-43.5-40-47.3l0-64.8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 64.8c-22.7 3.8-40 23.6-40 47.3l0 9.5-44.6-44.7L254 87.5c2.8-5.6 2.2-12.4-1.5-17.3l-48-63.9c-5.3-7.1-15.2-8.4-22.1-2.9zM272 237.1L133.1 363.8c-.5 .5-1.1 1-1.6 1.5C96.6 401.9 32 379.3 32 320.3c0-32.9 23.2-58.7 51.5-62.4c.3 0 .5-.1 .8-.1l185.8-29.1 1.9 1.9 0 6.4zM506.9 363.8L368 237l0-6.4 1.9-1.9 185.8 29.1c.3 0 .5 .1 .8 .1c28.3 3.7 51.5 29.5 51.5 62.4c0 58.9-64.6 81.6-99.5 45c-.5-.5-1-1-1.6-1.5zM304 399.5l0-223.6c0-8.8 7.2-16 16-16s16 7.2 16 16l0 223.6c0 8.8-7.2 16-16 16s-16-7.2-16-16z" />
-    </Icon>
-);
+const Mosquito = createIcon("mosquito", false, "data:font/woff2;base64,d09GMgABAAAAAAN8AAoAAAAABugAAAMvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDdQsGAAE2AiQDCAQgBYMtBy8b9AXIrgds9xqUJAUtFBjFtlPMRCfs0Ru/FiPXagv++ffvbZ97bwDflQoDugrcDaSgGuH9MUqAUTlwOSlTjpxya0lShO160Qudh5ex35+LqSZCYoQi3r3i6y/jkRFFE6Prt1A0/f118rPLPZH6OKEJ8hZiXdjRzXt7HLuxFpBHkD1gAoHUAf9ZVJvP7/1fmtExT1yT/9u+PdKe4FFqa6oEKR9mnk9g4FEYZbOJDGcDxTHOttyr4ENU2BQN8tAh4jA6THUGTr+tMDCHtQXsPt9UnbI0w+AsAABKBAAAY6ZKZ/D4D/5EtCQfqMU0IACNBeAJsIAFcgmA4SwCcjk8cDgE3yOZ/gcmEAAoHHuyAcAB4cB70AkAHAAG59zezoyPCYtzFVtVdO1B+Ri9g08cobK4PpeC4+3l80ZfCY2OAxg74qAeJyRSTqDDji8v6pAPZAW3Ji1AhdTYcIPsLI/L91Z/NT7RXbkqjIo90leSzUCU5PpoeAgPqoOBbSM6xwOARka/KLgvYPkqyxrKGtClczM66h+tG1CDVEZaUD556aWMKI+Gn+Pn+7A9dlzvtqkyKFQHJTrAQBVeIVf+5tcXN57Pdo7dNGWzxZkqUmdvow+/pj5fWibTdf0zhrpr4+lLYqMZQ3Qp2/Jzli9zQJcV3i+JxMspT4YK7/8ImVYu82U4uXTn2JqZ1HNDi7UTF4QspH1TYxfwThTJly5ljAg7cgxz/5dE8c45Q8Zz9jLzPyGfDfiYV98X2fHnAHfqSBL+ax9kM0hadgMa++eH+upj34a3rZ+EMl8l7sdfA0CA4Om/v1kqHP6J3QDw86lP98P/XcpWvQKIxAAgsN2Tqy5lKwA1CgBKRqsVgg8SYOjgsEIsQTYrosVzRAh3HlUsORIVRzTdlDDyDXCCwdIQJRdVSFXPiiGWZYploE2KI9U1JYzhXhXDSQ3b4p4G9fxhFpzooQmL/HDP3n6of615vF3rwNlhPhzpWj17imkvsy2x2EqzzDTPSsctN6OyyiITETHBF3l99NSbN5RPN1+DFcIvt8K8lMX5eYbx9YUiq/HwYoobzLSvZQYDMpGLNlZ8cgstAQAAAA==");
 
 export default Mosquito;

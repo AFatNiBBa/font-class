@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `play` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/play?s=thin play}
  * @preview ![play](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/play.svg)
  */
-const Play: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64.7 52.7c-9.9-6-22.2-6.3-32.3-.6S16 68.4 16 80l0 352c0 11.6 6.3 22.2 16.3 27.9s22.5 5.4 32.3-.6l288-176c9.5-5.8 15.3-16.2 15.3-27.3s-5.8-21.5-15.3-27.3l-288-176zM24.5 38.1C39.7 29.6 58.2 30 73 39L361 215c14.3 8.7 23 24.2 23 41s-8.7 32.2-23 41L73 473c-14.8 9.1-33.4 9.4-48.5 .9S0 449.4 0 432L0 80C0 62.6 9.4 46.6 24.5 38.1z" />
-    </Icon>
-);
+const Play = createIcon("play", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVwAAAHWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBEgsGAAE2AiQDCAQgBYMtBysbjQTIjsQ4JvJIF42HePh/O97f584E8ERSJbqi27iFqnSu1b2VLv5EMr+qXtw87zxaIG8U2lg2NZAFEs15nkBiXR54QGOBZZqA9bYhoo4ofBEhQRLROGFjNkMeuyxWinQ5wcny0PisnsMkWQYgqgJg6LRJEz0tiZKI1//fJ14bj4AYBgqBDBkaCjBAJtBQrkAuF5TE///zP7AggChNT5pAjhwd0ROQgyTlefUaFUpVyqdWKFV+1oUW5+qmuFzrep1FcbHBldoLe91suSCu17vUYn5ca3WjfhZXWze7U/XO16aWMuTIH2U+xnzxscwfTfYu4l2T9+7e08k55cvPke2hpSrMV2EPEAjevvlp9LwqA34tWyGBD0++/6V+Rf+/j/0plJVAkHX4v4PZsR9ivwAApNiqWexHIGkpwbVWdEGAUB4BktLKC5BpoKoAufLaC1BKYz0FKK28STKRlxNqmoOQVLQBMr3sgVxNd6GUAZ6ZpdWMLGLY+2b/a0mjLDJyqOjaqUvRr5h6GhcEdOr2L5aVNlsl0xYmLbXOWpstsdgKmw220URnizVGeehILyp01UkXhX6K7fBxfKolNtpkhXXW5j79FeeNNrb65W1BT5SyG1eSiJQ/Jw==");
 
 export default Play;

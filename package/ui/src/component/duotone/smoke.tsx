@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `smoke` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/smoke?s=duotone smoke}
  * @preview ![smoke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/smoke.svg)
  */
-const Smoke: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M32 128c0 32 11.7 61.2 31.1 83.6C87.3 199.1 114.8 192 144 192c9.6 0 19.1 .8 28.3 2.3C196.5 136.6 253.5 96 320 96c27.2 0 52.7 6.8 75.1 18.7c9.3-9.9 19.8-18.6 31.2-25.9C403.4 54.5 364.3 32 320 32c-22 0-42.6 5.5-60.7 15.3C235.9 18.4 200.1 0 160 0C89.3 0 32 57.3 32 128zm171.7 74.4c10.7 3.9 20.9 8.7 30.5 14.5C259.1 201.1 288.5 192 320 192c52.7 0 99.5 25.5 128.6 64.8c5.1-.5 10.2-.8 15.4-.8c52.9 0 99.1 28.5 124.1 70.9C619.6 303.6 640 266.2 640 224c0-70.7-57.3-128-128-128c-46.5 0-87.3 24.8-109.7 62c-22.3-18.7-51-30-82.3-30c-51.6 0-96 30.5-116.3 74.4z" />
-        <path d="M0 368c0 79.5 64.5 144 144 144l320 0c61.9 0 112-50.1 112-112s-50.1-112-112-112c-10.7 0-21 1.5-30.8 4.3C411.8 251.7 369.1 224 320 224c-32.6 0-62.4 12.2-85.1 32.3C210.1 236.1 178.5 224 144 224C64.5 224 0 288.5 0 368z" />
-    </Icon>
-);
+const Smoke = createIcon("smoke", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABiAAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiBfwsIAAE2AiQDCgQgBYMtB0YbFwXIjtRG90UGWYMI/fv/2U3OA5gPyRXlSiqF7iLf8V5OLo1//OkBj/+d54ovHBNwrsaLjTdekGmbuIAFhgpD3zZcjkA6jRDJkpB+kI7XDVgtZObjga7XR8Aq+h9A+Uo680EJNwAASBwAAFCnU7sWXPsoH1UeBU+BPKI5IABSFwCHAAYwQBYCQHUMAmRhcYDFIvBRg0H4KMGgAwEACYE+xQAQAnhAP2AIAGABUAS1NjczT6QXbTtGehGyvYbI5QbRcrbYwdwtRQ9UXJq0oeiBiFuVLzS8Vf2S67a9xMXIZclHq11stKzK2kIHCu6JWJr/iu52WJ18sZLinC+yNhII+4sczNwoO2qmlxbeV/hCxVPtl2TlPRB34HueRwMf0TprMiy6XptfArGxAb/ivgSevygQV7Jn7euLziK3Fi/qFY95XmzIUFck4X1E+JWjefNcaf68db3y3sEm/192+lVYGNE7rLD505hXr51Xvl7rfNeuRWb96v3ly0cAEEBgee8UX6/Y6v/DIhWAzxf8Bd8OXtPZegAIQwEQMMWDxemuswEALwDgq0wkr8Hd6E7VUaoZxRp3JEQAgxJCBBgyiQNLBMXAI4cK10OIoB0GseEISfRgUKIYA4aKzABLEifBozp3/RCSxCQanSb0Py+hoUQa7HNlSpZ2Vd0y05ncIctmNbdtFJ6InSJwlIGMYiTjGUB/hjBeYGNpEU1gBA0ttAFfxFGGkpTGURXnLh+FjsIfyziGzDn/NtVw583CTLTHi8BhFAAo+0RXDIiKiR43YtSwASUCVo4VXGACAA==");
 
 export default Smoke;

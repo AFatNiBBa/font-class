@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `treasure-chest` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/treasure-chest?s=sharp-thin treasure-chest}
  * @preview ![treasure-chest](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/treasure-chest.svg)
  */
-const TreasureChest: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M136 48l0 224 80 0 0-80 0-16 16 0 112 0 16 0 0 16 0 80 80 0 0-224L136 48zM360 352l0 16-16 0-112 0-16 0 0-16 0-64-80 0 0 176 304 0 0-176-80 0 0 64zM120 48.3C61.9 52.4 16 100.8 16 160l0 112 104 0 0-223.7zM16 288l0 176 104 0 0-176L16 288zM456 464l104 0 0-176-104 0 0 176zM560 272l0-112c0-59.2-45.9-107.6-104-111.7L456 272l104 0zM0 160C0 89.3 57.3 32 128 32l320 0c70.7 0 128 57.3 128 128l0 304 0 16-16 0L16 480 0 480l0-16L0 160zm344 32l-112 0 0 160 112 0 0-160zm-48 48l0 64 0 8-16 0 0-8 0-64 0-8 16 0 0 8z" />
-    </Icon>
-);
+const TreasureChest = createIcon("treasure-chest", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhAAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCWAsGAAE2AiQDCAQgBYMtBzUbXQXIhofvdb6d+yR/kMKgpAIgBxg3xN0idwg8PXq2xWprz/819eL5NeDn+yd8aLeItlGkdj+fwICjLJrS5rOBTSdo253bDg5hn6SlJi3Ht9Ive8jjFwfVSPemH3Bn+dD4S1/XkWQZgOgCgHlbNqzySSMaEd833yS+twIBMQ9UAhkyDBBglkxggFyFXC5oRLMZ/gMrAogW/NIEcpS4FXcBcpC053nPnh3a28te7V3LWsd8c1krdghlAFSWQpQh6LBNKIqIFCE6Ern9jWG2Zwboho2GcLGvLMr6nC0hHhrx3BRRnnp8bsTHSzrGl7M/HJJCFJ0isn1FWdjQWUFRBC8tw9Dnujz3z5AfDv/gxjsbMGattbroclUXPaFh3B9ju6Ak0TryyppesVb9v7Gf/8TPHc44onHZf68gdMQrjrz98hHoFUe8ctnHZ7bs8PNPnzccGXu6NokFa+vWLphUG3caGecZt2WwnviIMx5p1imjTRdt6tr1IBDsOXfboj2dZ/3fVibw53v//QUubjZSPT2HNgkE2ajmKDtTHQI/gJ+U4pKhqY5Acq129K4d3CVAKBAgaVEIkOmviwC5wkgBagaZLECLwgaZyNuFHnYNkHRwFmSmuBzkengd1MzydahFj8icUu5S8i9hmsUSXzSqGj9mXDWjUgu6ws+kNDiz2rYMuxQbhuNKh512ygWHHHTUBcGdsyp60UmLV8QiX1QZb4xxKjNU5vLz4s0OOee8o047lYeZqTofGObSuv1wtCcsOkFakojU6f1Puikpow8cOXT+AgA=");
 
 export default TreasureChest;

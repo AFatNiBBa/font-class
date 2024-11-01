@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet-paper-blank` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet-paper-blank?s=regular toilet-paper-blank}
  * @preview ![toilet-paper-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/toilet-paper-blank.svg)
  */
-const ToiletPaperBlank: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M20.5 463.6c-4.3 7.2-5.5 15.8-3.6 23.7c.7 2.9 1.8 5.7 3.3 8.4C25.8 505.8 36.5 512 48 512l285.9 0c22.3 0 45.4-12.1 55.4-36.1c9.6-23.2 23.9-66.4 33.3-134.5l.1-.8c5.5-40.5 9.3-89.7 9.3-148.6c0-76 26.2-138.3 59.4-143.6c1.5-.2 3.1-.4 4.6-.4c35.3 0 64 64.5 64 144s-28.7 144-64 144c-13.9 0-26.9-10-37.4-27.1c-2.2 22.3-4.9 42.5-7.9 60.8C463 378 478.2 384 496 384c24.5 0 44.1-11.4 58-24.5c13.6-13 23.7-29.4 31.1-46.1C600 279.8 608 236.9 608 192s-8-87.8-22.9-121.3C577.7 54 567.6 37.5 554 24.5C540.1 11.4 520.5 0 496 0c-1.3 0-2.6 0-3.8 .1c0 0 0-.1 0-.1L160 0C107 0 64 86 64 192c0 77.6-.4 174.5-32.9 250c-3.2 7.4-6.7 14.6-10.5 21.6c0 0 0 0 0 .1zM419 48c-4.6 7.3-8.6 15-12.1 22.7C392 104.2 384 147.1 384 192c0 153.2-26.3 235-39 265.5c-.9 2.1-2.1 3.5-3.8 4.5c-2 1.2-4.6 2-7.3 2L73.8 464c18.1-40.9 27.3-85.5 32.2-127.9c5.9-50.6 5.9-101.7 5.9-144.1c0-47.2 9.7-87.5 23.1-114.3c6.7-13.4 13.4-21.6 18.6-26c2.5-2.1 4.3-3 5.2-3.4c.5-.2 .8-.3 .9-.3s.2 0 .3 0l259 0zm77 192c13.3 0 24-21.5 24-48s-10.7-48-24-48s-24 21.5-24 48s10.7 48 24 48z" />
-    </Icon>
-);
+const ToiletPaperBlank = createIcon("toilet-paper-blank", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABkAAAAKkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCRQsGAAE2AiQDCAQgBYMtBzkbTgXIjsN0eyPDNWnaBM/xQL9Ge393T8T3EPUTS4gnUW8imqDCdJpWqwyVIZpAFGtZzwYQFJEEBJUoIuEQsTyRjYyL+5c3/5d7fs+PDvAbHdoeej6mns3V8wQONJo6rTjPwixQiT2/ne8piHCTki7lkgzj/WH6J0jCb+lHg+iG8gDO1TcNn7HhJEQyYgChGAAz8+b2eP4jPyJvVCcQ3pAEAcJMICUgRox6AphCLKCeRAqJROCjqFT+P9AZAQiZ6LERSJCB4+AigARE4iTpcDTL0yhIFiQrt+/lipH47L4GcspqrG5vYZBHeY+c9vp35a147zTPD9nus1o7Xb3S92zwVt1RaAiYHLQ5rjO3QRpEPzzz25/3IPut33A5Z0p6ZN9H9ry1U4ZzN5ue5n3I/fadqhqr6jKKwXzERK5Jg+VoZfsx6i1GKlyfFG9+cXkofiCtfLC62d1iRyW/v3VivBIHWajzX6tFTXlgZZ2vX131YMZPv6D6+zNbxmysaGlZ8TgwNiJSoJtjKytk6KrP0ogo6+yEM3PlXStabDMIf15VnJsTdXc1wjVTmElbwaUWV+MAcfddfyWbzM03VZ4vhL0fICAwOn36rLAo+Ku2XgQ+Xf79M7cb/r9XipRNkC0CgXjIfy+WKfUYSoVFApAThd30wicJiOwnhlfNdxUBQS4CiGTKFUCsjmICSOQaTAAZGhlLAJlyzSUWkhxBOcsniOTbBmLjOAQS5TwFGabwwslULmqqSCgS8ScY28qhlqXUf9iIdFK6TQxSu7C8Ojk9Vt12h8ZA7LWaLWxmJ6tYyTp2MmQ7Pf4uNtEqwS18kZSRDGMEKZNIr/PX7QtYxXZ2sI4tbC7rTCZ9bw5gt9w/EEaEUEdxLBIRotKdNes2rto5VOf5oZ8nAAA=");
 
 export default ToiletPaperBlank;

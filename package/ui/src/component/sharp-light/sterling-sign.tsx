@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sterling-sign` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sterling-sign?s=sharp-light sterling-sign}
  * @preview ![sterling-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sterling-sign.svg)
  */
-const SterlingSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M96 143.2C96 99.5 131.5 64 175.2 64c9.2 0 18.4 1.6 27.1 4.8L274.5 95l15 5.5 10.9-30.1-15-5.5L213.2 38.7c-12.2-4.4-25-6.7-38-6.7C113.8 32 64 81.8 64 143.2L64 256 0 256l0 32 64 0 0 36.2L1.7 448.8 0 452.2 0 456l0 8 0 16 16 0 288 0 16 0 0-32-16 0L37.9 448 94.3 335.2l1.7-3.4 0-3.8 0-40 160 0 0-32L96 256l0-112.8z" />
-    </Icon>
-);
+const SterlingSign = createIcon("sterling-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABXgAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBSwsGAAE2AiQDCAQgBYMtBzQbzwTInoWx22JJF416MXj7i3ieWPvXc3f3074wbJhRJS4uaesIFMu6KkIjWHUqa/OSmTYj32vNKiT+92/N//zTB3wg8uu25oFc4Oc5T6B53vJIr8szTcCydv79wCCySp/ySYZJN2w2A1Q5kZk6KN4q4LVy0PxruGcUqhJA+gFg3ZEDu3z1e35PfmtPfrMDgawHjaBEiVECVioFo1QaVCrh97Tb4R/YECCd6jYKUKHEduwHVKCQqlrf6uhdHW511Cc+mJF8vuT54EMZnJEZksP5qH7qJ6OkjrQiBzMoItLqndS9jmRo5MatJHUy/rN+n/1HnJnrMJf0+W5r/vG+v20Zbsig373sc89ajbUmWvXEAJVu/fSb2+hXL7lrgMpUH2p86B4QhBXHtr0803fl/92tAvz5pfQrav+etcVn6FaAUM5sz3QyjyFrBQBQ5LHxWYugsF4BY+3ldQFRI6DQqRZQGqmfgEpthoAOYywS0Kl2QClVjxjkVIdCL/egtNhTqAzyBXRY6Uet06CUbGK5wD7mkjZbtKmpmTd7brO8mVoaRxCaqiuaZWXq4xiZhl6X3XHbQ5dcdM1DQ+7bZT5yy2YPb/KixjyzzdVYrtl2H7sPu+S+B66543aus0JzXp3qsZ8+De0UgPn38KAgRe8HDy/d/5FSnkVF");
 
 export default SterlingSign;

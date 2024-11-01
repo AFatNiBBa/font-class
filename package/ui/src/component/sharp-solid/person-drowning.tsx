@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-drowning` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-drowning?s=sharp-solid person-drowning}
  * @preview ![person-drowning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-drowning.svg)
  */
-const PersonDrowning: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M192 64l0-32-64 0 0 32 0 144 0 23.4 22.3 7.1 37.6 12-18.4 129c7.7 2.2 15.3 3.5 22.5 3.5c13 0 27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5c0 0 0 0 0 0s0 0 0 0l1.1-.8L288 336l19.7 14.2s0 0 0 0c13.9 10 23.6 17 35.5 22.5c6.9 3.2 14.2 5.9 21.5 7.7l17.1-94 137.2-31.2 31.2-7.1-14.2-62.4-31.2 7.1L337.4 230.9 192 184.6 192 64zM320 192a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM272.4 461.1c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9l0-64c-19.3 0-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7C38.6 409.9 19.3 416 0 416l0 64c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9z" />
-    </Icon>
-);
+const PersonDrowning = createIcon("person-drowning", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABnAAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDBgsGAAE2AiQDCAQgBYMtBzYbjAXIhofv6/o692XWb0DZADkW9+Zqopc1cc3zP38qkLIXLZRo7EVylHeeT2ACFdQ0kZ8NZxPFmdtyiCuWmQ4ROfwh40NbqJ/+Anl8lZ2rRLopfYor8KHxlybOJamSAYjaABi9cO50b34f30d8Un6O+MRUBMRoUAhkyNBcgGEygeZyBXK54Psol/U/sCCAqGA+SiBHCffhSUAOkizPR9aYXa1UI19QrVR1aYiqIYRoH/1jXlxX7YGON3Q8HS3bKDpG+1V8X4PrGiyMhRRqE+2uLl8QMf+Fro90eXjAs50e7PxQ/0U3NLquwX3jP+iIZMT9HQZ6fZyuSrq4/sXubacS4/oInY7rXeC0J6I8/Nrm4doP/9P60w2feuNkURSjFK7UyEJL1Tnl7mq9Jp3tAUA3wwE9zt57V+3lLmzpV9/41QPtXdnd4ZMne/Vo1apHL13Ss/o5a9ee819K/8lNo3x5dHILRESIaDH56JdE51z3IAXRffLWL0eJ8ngdCAT5qPeWraw17P/K1RL48eX//inPK3+fRqWHUVkCQdat3M2yNAqUGkA6xQFtnC8KJLfJ2LtWd70AoSoCJBWqCpBpprYAuaq6ClDSUn8BKlQ1VybyKkJ9yxeWVLcbywxwHMvV9wxWMswHqQr1I8tVOdPkL8WMCTswflHRu0evYkjxWDOV9BP77NDi2ux0gHo6yw4b7LTDPuutsxn8Bu0xPbvfdhM8cLwfKvTWQy+FIYpwczYW1PQee20+q/F5hirej3VywB/eWZzEOPsoSRKRaqV2tvu6PTsP/sAC");
 
 export default PersonDrowning;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-z` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-z?s=regular circle-z}
  * @preview ![circle-z](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-z.svg)
  */
-const CircleZ: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 128c-13.3 0-24 10.7-24 24s10.7 24 24 24l98.2 0L164.3 346.3c-5.1 7.3-5.7 16.9-1.5 24.8S175.1 384 184 384l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-98.2 0L347.7 165.7c5.1-7.3 5.7-16.9 1.5-24.8S336.9 128 328 128l-144 0z" />
-    </Icon>
-);
+const CircleZ = createIcon("circle-z", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdAAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBcAsGAAE2AiQDCAQgBYMtBy8b7wTIhuB5u6h6v3sWM2v0Akbkg+NzJCilort0/vfW8z0fDfAbDW3deGkgF+B9PU8gsd48TygLqEwTsFhSt/HgDaKsiZwheEQM7aHqDnm8GLcoke5NH+Fmu2j8qaXLJKUMQDQAwIRli+Z47bv4LuLD6tPEh2YhICaAQiBDhjYCjJYJtJErkMsF30W1qt/AggCiBvycBHKUsBJbADlIsjxv3bpNpVQ3X1oplVddHRHx/IDHne//2PDnyldGvjDwibgw6MlRL1bSt/MiPp30ZlyY+MbcT5Z+Nfuj8a85P+H1OR8vWXl/i3u7VGJx3NH0zqaVeKj1fV3LsSzubnZXs3LHRxs8+neHj7Z+pHpzxJ/88dpjw4Y99toff44Y8afxP5viFm4d1WbSpDajbr1lCo7rfdPOLWjadMFGRx6xa/Wuz26RjoNA8OvnDc6sqz/6v1qVBH544d//9beo+lqSHkUtCQRZ72pvqxNIBAAgxVEdEwSShTI4ax13CRDKCJDUUBYg01oDAXJlvQQoaWeIADWULZKJvLbQxBqDpI4DkBnqDOSaeBJKRnvXqaFJZAEmhof4vEubymjKWjGgb/9iZLGMDSlmWJmPKrb17kdzrYdwbbXPXodtsdkOh4kcNMc/Yo+pHp7iQYUB+uqvMFJxnD1vL7XFQYfssM/eumSU4r7d3VG/u4dYCagDBZJEpFr/cIw+JwEAAAA=");
 
 export default CircleZ;

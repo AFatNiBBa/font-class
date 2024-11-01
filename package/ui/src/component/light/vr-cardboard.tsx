@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vr-cardboard` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vr-cardboard?s=light vr-cardboard}
  * @preview ![vr-cardboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/vr-cardboard.svg)
  */
-const VrCardboard: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M576 96L64 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l136.4 0c12.1 0 23.2-6.8 28.6-17.7L268.2 320c9.8-19.6 29.9-32 51.8-32s42 12.4 51.8 32l-21.5 10.7L371.8 320l39.2 78.3c5.4 10.8 16.5 17.7 28.6 17.7L576 416c17.7 0 32-14.3 32-32l0-256c0-17.7-14.3-32-32-32zM64 64l512 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64l-136.4 0c-24.2 0-46.4-13.7-57.2-35.4l-39.2-78.3c-4.4-8.8-13.4-14.3-23.2-14.3s-18.8 5.5-23.2 14.3l-39.2 78.3c-10.8 21.7-33 35.4-57.2 35.4L64 448c-35.3 0-64-28.7-64-64L0 128C0 92.7 28.7 64 64 64zM176 288a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0-128a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm336 80a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-128 0a80 80 0 1 1 160 0 80 80 0 1 1 -160 0z" />
-    </Icon>
-);
+const VrCardboard = createIcon("vr-cardboard", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABnAAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCXwsGAAE2AiQDCAQgBYMtBzMbYgXIjsJxr4RissRk8WhPPPz/mLvv/b9h2vBslvBQNbJQCW1xDZJJKZRGCRyq3/9am7nz3TvH5CPmyUWqmTYPHRKNRyLpxLnOdz4aYBRObCjRljqvL+/GFPjzah9+ChT4A70Yv7ktTpAlZUGDyhA9RL5/2Yf0IdT4RnNgk3eMFwCX+aniC1R1kWoBgBgGAHBwFhkMd2/4hvjyf0y8QyAQEIcAmIUoWD8JwTamsCGwzAJVFXzg/3/6DyQggGiCPixBRTeu8ACoIDUry9xYqC7NFrJiyqdQlSKxaEBhCDLaFIdpGlfVY3HT6dhEH40wGscNaBxUHkUmtiuNUBlikXjZZF2VgWPGa/oUnljG4IjSkEIUbtlTuGK6ocbESbNNo+hV9Um1CcMllTHVcQM8ttg2Z+yZu2O165S+0Ff0hYW+bMTPpmbdLl3ONaecz1wvtHQ3JBsfOi85L+B1DmCw0yeqCX2w0jYM7vhZIkqABP1tK31s6b828DoipUBvWDnXB605wxAo+v8viv06rb51Sunr3Pvp6ftcoLbd1cTG1tzRQkOpksbGEoraJsitrs4V/A5AIJh7e65NFbt/ddMMgM+Lzy85I9uMDaBbgqAs/JtLyjbSD0GTkFEDuphiIHW85Gftdy1A6EWA1NQrQDFBAkHVax6ChmkOEDT1OsIUlQ9hXPKAU78LuNjSDFfjDuGGbfd+03gw/VL0KvG3MM3HAt6TiI2lNXEl25wmuRpPe93IsWFcIzUmOAk5SpWoki1LvioDVQiOVivmw0BvX0TYsGSNcEWui8+HY2SrUClfqZI0jhvyvGOshjc3gc2gjGvWpSRSUFNh8REIbgsA");
 
 export default VrCardboard;

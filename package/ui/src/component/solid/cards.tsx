@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cards` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cards?s=solid cards}
  * @preview ![cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cards.svg)
  */
-const Cards: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M7.5 194.9c-15.4-26.6-6.3-60.7 20.4-76.1L220.7 7.5c26.6-15.4 60.7-6.3 76.1 20.4l167 289.3c15.4 26.6 6.2 60.7-20.4 76.1L250.5 504.5c-26.6 15.4-60.7 6.2-76.1-20.4L7.5 194.9zM197 159.6c-11.1-3-22.6 3.6-25.6 14.8l-7.2 26.9-20.4 76.1c-7 26 8.5 52.7 34.4 59.7s52.7-8.5 59.7-34.4l2.4-8.8c.1-.4 .2-.8 .3-1.1l17.7 30.7-12.1 7c-6.7 3.8-8.9 12.4-5.1 19s12.4 8.9 19 5.1l48.2-27.8c6.7-3.8 8.9-12.4 5.1-19s-12.4-8.9-19-5.1l-12.1 7-17.7-30.7c.4 .1 .8 .2 1.1 .3l8.8 2.4c26 7 52.7-8.5 59.7-34.4s-8.5-52.7-34.4-59.7l-76.1-20.4L197 159.6zM459.4 420.9c41.9-24.2 56.3-77.8 32.1-119.8L354.7 64.2c1.7-.2 3.5-.2 5.3-.2l224 0c30.9 0 56 25.1 56 56l0 336c0 30.9-25.1 56-56 56l-224 0c-13.7 0-26.2-4.9-35.9-13l135.3-78.1zm74.5-183.3L582 187.6c14-14.5 13.2-38.5-2.2-51.9c-14-11.7-34.5-9.5-46.9 3.2l-4.7 5.2-5-5.2c-12.5-12.7-33.2-15-46.7-3.2c-15.7 13.5-16.5 37.5-2.5 51.9l48.4 49.9c3 3.2 8.2 3.2 11.5 0z" />
-    </Icon>
-);
+const Cards = createIcon("cards", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABlAAAAKIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCXQsGAAE2AiQDCAQgBYMtBywbWQXIFkoLz//bVff9qgFcQ3OJTEQIOAn6bGr1/1zz+aUdHeA3OrQOvW1cQN28N4EBRntqc4PNJopTt7miQS5v8nRwnGOINySzczBtgC5/tJVYgNqnXgFb1kfJG3xYCQobDQAAcQYAAIo7W+u5ZxKTyEvzZZCX1AICIMUAGAigYY0/AkAeGoIboGMAOjoCJjGb5T/QAAEAsUQ3UwDogCWwGTgEXmB3puu6b5q/v52Fg95hZ2Hbud9P5EBkp5wJP+XTLfu894a1ycmI0749nae9vaVN9nrsCz8VecbPS5bZRYu77PTY5ZUrezx3u7tLjCDiIae8yBEP+O6P6JCI8QtBIkcSOmSDnZ2c8tjlo2Sv+84wW1nv2dlZWlS6R3YvZWeGpx1xp0ex7PIKOe98/l3wq4lXWP291Abtufdmktte/vC0wcm28tq7s6jhnk8Zt0JCh6fiVkvZkaXpaTbWrd6IOHKF3bVTLv3hTM/Uy1dwBFlO2i+b1tKtS9Nq3TltoX9ZCstY+xalmZj9/4NVE1Yf/s824fF2dX3NlU86+oCT47mz9+7tK6OMffuGZ885Ol74RGsrAAgg0DN+beqgU943azsFwOsbH362A81/zbfUUnUesEYBIKDFmePoU0sJCX0QNKZkISH4IgEUq9FBYM/ubJJgCwjDwRK+g4YfzqBjSyxYEEg6G5zfioboNgju9AMU9swBjQwWgY47F8GCPJ5GLXEXrSz5ouJ/hSkVIuXDjOSEJCPHOOaYUGns7M01wk7UwmqisZYJZjGT+YwzxhTmQ8+lPrGAGVQwqpwfYpBMAkkY5GCki/vlHYwzl3lMYRYzZZBcjPtBFAt582j4CmVMIUmhQJTFgwMAAA==");
 
 export default Cards;

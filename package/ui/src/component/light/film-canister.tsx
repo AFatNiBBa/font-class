@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `film-canister` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/film-canister?s=light film-canister}
  * @preview ![film-canister](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/film-canister.svg)
  */
-const FilmCanister: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L112 0zM16 64C7.2 64 0 71.2 0 80s7.2 16 16 16l16 0 0 384-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 256 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-384 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0L48 64 16 64zM64 480L64 96l224 0 0 384L64 480zM384 200l0 16c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8l-16 0c-4.4 0-8 3.6-8 8zm8 152c-4.4 0-8 3.6-8 8l0 16c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8l-16 0zm88-152l0 16c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8l-16 0c-4.4 0-8 3.6-8 8zM352 160l176 0c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16c-26.5 0-48 21.5-48 48l0 32c0 8.8-7.2 16-16 16l-112 0 0 32 112 0c26.5 0 48-21.5 48-48l0-32c0-8.8 7.2-16 16-16c26.5 0 48-21.5 48-48l0-128c0-26.5-21.5-48-48-48l-176 0 0 32z" />
-    </Icon>
-);
+const FilmCanister = createIcon("film-canister", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABnAAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCewsGAAE2AiQDCAQgBYMtBzQbfwXIhof/t/uvfW7VV72Pavm2pIgaI4MyUBGZjXOo1qSMOn7/c029eH50gN9P/NCiKRcRGpU8gYEOx2ugBhzOJopTp7OjdvhIPhmlkxlG8fjc8XmAMn6NOTpIT6QfcN/5ofG3Ue4kKQsAUQNg46F9e33VRBPxQ/t94ge7ERCbQBYoUGCsAGsUAmOVMkqloIl22/4DMwFEJ7w/gRI9eBavA0qQdJVlb+4ZXA+e2+roKw+2OqpjDw99ZFgrHhvx6PBqv4dTVGFq38AbRbDw4SIVGrlISGgRFQnpwLEo+tGHaOBgq2qprIVeHvrwSAtUIWjytRGPjYkZruz/5PBHp1Vh0pv1m/9O/OHCH1z1ZdPf39zK9FPr93TtVnW3Kmd1/P/craA0btWsH1FXdJ6une6sXfaux5yT1Yce445bpr+FbU3/rfqbBb/9WOSSc7XsaoGRG96q+PG3BW/JQCC4a/xPo08NrDnX3Urgr0/+P7ddr/1V2pDeRLcEgmJOe47jaQPYioB0ihtNIl8USB7VBXKv4JENFQ5JpwoKY9RQqsyGDuMtPaBTZZ9ClD3CUCc4JL2ugcIyN0FpqHehwxpfpzoNjWKVcmuM+0lM3hbxrZvywnkL8qr82ND4hcfQxdV5WptxYx2YKTtd6CpXut4FzneJ6wN5rb3ZG1xhGyO2+qFsoXkWyFbJ6fZ3+WBIX+s6l4yF/Dqr5fe9M9zIx88UMwHtIiVJIlLfN14697wzV15y3fUXXAsAAA==");
 
 export default FilmCanister;

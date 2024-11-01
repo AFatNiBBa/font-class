@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shutters` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shutters?s=regular shutters}
  * @preview ![shutters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/shutters.svg)
  */
-const Shutters: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M24 32C10.7 32 0 42.7 0 56S10.7 80 24 80l464 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 32zM13.7 128L.4 198c-.3 1.4-.4 2.7-.4 4.1C0 214.2 9.8 224 21.9 224l468.1 0c12.1 0 21.9-9.8 21.9-21.9c0-1.4-.1-2.8-.4-4.1l-13.3-70-48.9 0 9.1 48L53.4 176l9.1-48-48.9 0zM.4 326c-.3 1.4-.4 2.7-.4 4.1C0 342.2 9.8 352 21.9 352l468.1 0c12.1 0 21.9-9.8 21.9-21.9c0-1.4-.1-2.8-.4-4.1l-13.3-70-48.9 0 9.1 48L53.4 304l9.1-48-48.9 0L.4 326zm0 128c-.3 1.4-.4 2.7-.4 4.1C0 470.2 9.8 480 21.9 480l468.1 0c12.1 0 21.9-9.8 21.9-21.9c0-1.4-.1-2.8-.4-4.1l-13.3-70-48.9 0 9.1 48L53.4 432l9.1-48-48.9 0L.4 454z" />
-    </Icon>
-);
+const Shutters = createIcon("shutters", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABbwAAAHoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBegsGAAE2AiQDCAQgBYMtBy8b+QTIHoexG/rILkal1saXiOB7W63fn9m9w31w10wsJ3JPydRTKr8ipQghozaZIa2yFvp96tTznIcC+EZBG5uWblzgc54Hcx7gsbjxVqRWrFVLWAHr7mwOK6I5JLHEkvSrHa8L8ngRK5GuJDgfXzR+a+UcSSkDEA0BMHH54rne1kRNxI8K4ofZCIiJoBDIkKGtAGNkAm3lCuRyQU1UKvY/sCCAKKMHJ5CjjLXYDchBkud53VYtW9Yp1cuXuSu1V99veaVrvXjU5mq3ukuWLF9ySv8ep6OoHe2ibnSI2pM+sQTe0Olpw6d/OtpGi1sLmzVbmGzWWl9vavoaKTUZ+NPAJinVm2qg8y64ZWC9T2aYelNP4f1AIDj04//89Q3G/K2uk8Cv5/8rPyOVmiQ9RbUEgqxPpY81CSQCAJDimE4JAslSOXrWui4KEGojQFJWW4BMGw0FyNXWW4CS9oYKUFbbYpnIawlNrW0gqesgyAxzHOSaegZKxvhilTWNTMsIHSH+eLHTODR1rBjYb0Axqlh6Kqk4mO+OLraFHscw0xNObbPfPkdstcVORxhyyFz3qL2mSfBUH1QYqJ8BCqMUx+Hj/jJbHXLYTvvtC31GK+4rPRyTy3uCnBDqIHx6golUfXjH0SNHth46DAAA");
 
 export default Shutters;

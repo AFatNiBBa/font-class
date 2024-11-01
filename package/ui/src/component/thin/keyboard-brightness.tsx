@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `keyboard-brightness` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard-brightness?s=thin keyboard-brightness}
  * @preview ![keyboard-brightness](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/keyboard-brightness.svg)
  */
-const KeyboardBrightness: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M101.7 178.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l104 104c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-104-104zM312 240c0 4.4 3.6 8 8 8s8-3.6 8-8l0-144c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 144zm122.3 42.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l104-104c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-104 104zM0 408c0 4.4 3.6 8 8 8l112 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L8 400c-4.4 0-8 3.6-8 8zm200-8c-4.4 0-8 3.6-8 8s3.6 8 8 8l240 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-240 0zm320 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l112 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-112 0z" />
-    </Icon>
-);
+const KeyboardBrightness = createIcon("keyboard-brightness", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdAAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBYgsGAAE2AiQDCAQgBYMtBzob7ATILgbsluMQEcOuDJ/HxVystaNvpemtMRYP/78/vn3uux9iU2LyJCVR2U2hOpVfwqyppv8xt/eHaYj/SK51a0tIgiaq1z0FjlBoy6QEOOEsPvQS8BOP9B2gC/4Pwm6/SiqqIDUsuhPzbKE71fxfzu9s0wL5fASHtoduumsA7f08gZ5nUb4JssACSowb1as0SPmL490VcvxWoSE9SuBe/KHxWocLkqIAEPUAYGF9TsY3Chb/f2LRChAQSwD9CAUKdCMwTSXQTa0fZFnwkmf/gQwCiFIpkjydUY6VYCuADJLSnKuBVoPLqpKavI4+Ubn5frPtiFdbZK59tUQl7reaKWywpxqZu+/gXg7OelJoKtXxfI24ZvDx3B+ghr01udWxVt+PuuU3ox07tFfEuzg093KruQXsva9q7wS4VAVKWRd+AKF57AR+BggES1/cfKsu+7XclMAr/7/4i+lGOpRLIChG/49SSgeA3ADqKc5xHJwwkCxjS+9a7T4BQiUCJKUqBSh0sSOQVRpBoESvGAKlKq2mErlCaFYeQFLtJChM2YKs2QeUmKbUSjVHEbKkcCH916VLU1g8xtUf5DTv9nVyYBH0foYv+2XG51zwImr6eiaqKpomE2pEbk51SUek6ItYiF8QS+PHo5deEa6NjDW31eeHZPD3sdPseLULRoKUd8y5JBGp6fDeZbALfTvQFb3qeAwAAAA=");
 
 export default KeyboardBrightness;

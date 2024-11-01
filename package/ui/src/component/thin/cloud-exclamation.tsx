@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-exclamation?s=thin cloud-exclamation}
  * @preview ![cloud-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cloud-exclamation.svg)
  */
-const CloudExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M522.7 220.8c3.4-8.9 5.3-18.6 5.3-28.8c0-44.2-35.8-80-80-80c-16.5 0-31.7 5-44.4 13.5c-3.7 2.5-8.2 3.3-12.5 2.3s-8-3.8-10.2-7.6C355.9 77 309.3 48 256 48c-79.5 0-144 64.5-144 144c0 2.5 .1 4.9 .2 7.3c.4 7.1-4 13.5-10.7 15.9C51.7 232.7 16 280.2 16 336c0 70.7 57.3 128 128 128l368 0c61.9 0 112-50.1 112-112c0-54.2-38.5-99.4-89.6-109.8c-4.6-.9-8.6-3.9-10.9-8s-2.6-9.1-.9-13.4zM256 32c53.6 0 101 26.3 130 66.7c3.1 4.3 6 8.8 8.7 13.4c3.5-2.4 7.2-4.5 11-6.4C418.5 99.5 432.8 96 448 96c53 0 96 43 96 96c0 6.6-.7 13-1.9 19.2c-1.1 5.3-2.6 10.5-4.5 15.4c5.3 1.1 10.5 2.5 15.5 4.2C603.6 247.9 640 295.7 640 352c0 70.7-57.3 128-128 128l-368 0C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160zm64 128c4.4 0 8 3.6 8 8l0 160c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-160c0-4.4 3.6-8 8-8zM304 384a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const CloudExclamation = createIcon("cloud-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABkgAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCNwsGAAE2AiQDCAQgBYMtBzgbPwXIjsN0Oy0fuEwlUIPn06a9r5U9jpFCOkCkChi3vzLQHhPjgMU4x3Nx6nnOQwF8yyAIytg2NSBj+tqd5xWoWK82Nmi9VqxVFLu47aaISYgjJNovQMtvwzlA7VE2sCn6UHlNynJQWBYAABIEAACarFsH7uVLvoj9/zLEph0QAGkKgCGABVhAFgGgPgsBsmgM0GgE8uX/f/EfaCAAIE6S+xQAGnACC8EqmHN7ik5eU6WSL8Pj8OmeHod70i45WPZEzbXFt8d3xs/UveF+VP+WWcwSWRy9VPpY1pEGt1v45Gq5k7knlJ3igMTQdXVErpfZEduVOOq5XOZ4dqxtj460yxVa5fC1A5p75UnDO0UPVTpba4m8anS3Vw+qIZvMLU3ksNJdM0NOvGvRE8ETb4vYI23chR0C0nNEMFWh6+AhJYyySt9fNTtLW+DdNmHSJLejerPOk/nw/l/AtWHB7MEla5R03yojEHqLmk27lkksPnHC5U4mEpOHjh+86CR3+6LAtm1ntZZmtt1MGi0a7DyMc3CZCOT58/P9Ag8Acp+/XtXZgwL1v7o8CoDCG+9/4Z/+n68WqxOACwWAgFX+f3n9uxiAUAUAXCUzKbrzRQIoZtIktpedd33BDT0onLjBIlMQNG7KgYMcNbiTWjen0qIzEKIGEFB4mQIWNS0ATdRFcFDfU8dJNBYMChAk/AKmthwjLbaZKhUrm7pms9CKYMXZ9XrmtF56phyUwXsZaZKJphthuDGmj7CpOvgzTNByD23hh4wqKqrMqMvcrp/v7mmEqaYZY5KJfpN6zPt2aTP3Z5fBliKhrSqlUCAqFBjhsELgFuaQCZ8VAAAA");
 
 export default CloudExclamation;

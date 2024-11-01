@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pinata` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pinata?s=sharp-thin pinata}
  * @preview ![pinata](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pinata.svg)
  */
-const Pinata: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 0l8 0 64 0 8 0 0 8 0 224 248 0 8 0 0 8 0 264 0 8-8 0-96 0-8 0 0-8 0-96-176 0 0 96 0 8-8 0-112 0-8 0 0-8 0-283.1L4.4 175.2 0 172.9 0 168 0 72l0-8 8 0 168 0 0-56 0-8zm16 16l0 56 0 8-8 0L16 80l0 83.1 91.6 45.8 4.4 2.2 0 4.9 0 28.7 34.3-12.2 2.5-.9 2.5 .7 51.5 15.3L240 234.4 240 16l-48 0zM112 316.4l31.3-11.9 3.2-1.2 3.1 1.5 30.6 14.5 38.9-14.8 3.2-1.2 3.1 1.5 30.6 14.5 38.9-14.8 3.2-1.2 3.1 1.5 30.6 14.5 38.9-14.8 3.2-1.2 3.1 1.5 30.6 14.5 38.9-14.8 3.2-1.2 3.1 1.5 30.6 14.5 12.7-4.8 0-66.5-246.6 0-43.7 15.5-2.5 .9-2.5-.7-51.5-15.3L112 261.6l0 54.8zm0 17.1l0 70.7 29-11.6 2.7-1.1 2.8 .9L192 407.6l16-5.3 0-2.2 0-8 8 0 192 0 8 0 0 8 0 7.6 45.5-15.2 2.8-.9 2.7 1.1 29 11.6 0-72.6-10.2 3.9-3.2 1.2-3.1-1.5-30.6-14.5L410 335.5l-3.2 1.2-3.1-1.5-30.6-14.5-38.9 14.8-3.2 1.2-3.1-1.5-30.6-14.5-38.9 14.8-3.2 1.2-3.1-1.5-30.6-14.5-38.9 14.8-3.2 1.2-3.1-1.5-30.6-14.5L112 333.5zm384 87.9l-32.2-12.9-45.2 15.1-2.5 .8 0 71.6 80 0 0-74.6zm-288-2.3l-13.5 4.5-2.5 .8-2.5-.8-45.2-15.1L112 421.4l0 74.6 96 0 0-76.9zM176 128a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm32 16a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-    </Icon>
-);
+const Pinata = createIcon("pinata", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABxwAAALGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCEaAsGAAE2AiQDCAQgBYMtBy0bZQbIHge5aekeuERLtoV2Efzzr1Pv+5J9fqSEDS3LBQQYFuKNeQ/QWJyAjTC8FWAgAUUcZnjzp4NZ7fyf6/merwG/jWxocVGJmZT5/EALsIKiBI5nh7MTm5De4LzBBx0d2h/A1W2mCYE5bd4AB6Mv1UfK2gYGxwEAQJkAAEDnG9qfB8Uqll4nh17TFwhAnQEICHAAB6hAALTjIKAClwC4uAiKlUyy/8AAAgCFsXlmAHABDxQBVQIAXAAM1nUbV27dNy0jJccPpbkj/JA31vd8hHwfGSHPkyRPZBmORigmiPi+glFEvR0NR4hQYkvF5at7VCzJG1WzWs14raI6awCp4lsomjFFjyANEDUXUTSH3Fo+RF+HFHGmiqmGmkXhyTWq12h2/K2+NCUSj3heC1XLf2LMscjx6Mn4iVj1TRHpmLcndkKb4yf9vdHjVPmZFz4n3vTG1fvWDrIU89Na8KOzLJNcYxKLXWUpb+zQWMhIONcKm2xlM6l2aOMFFZUXMHTUXy6Ntu4HJJzGJBQwX0LC52htAY/p6jv3ccw0e4vqgcT9lYDDe75hsNgXFkshmQKv6OUogcYKWCCQ8BmhEzRKKKDCG/EHLn3HoZdB+rae2OcdU8gf+pqkf1cpll4sE5N2wa50XgapAKD3Lvc5s39iRrtv1jcAlN76+pFIHJIPDOYCYDEACJx6yXrGJQAGhB02WkGVDgEJMErFAvmaygkEgPAAAWAI4yEAHMrLJABcPOoSACEqaU4AhPEYykFuCiJifAYMqSwGDi2sBy4RN0GIdp6HwkTC+Ti4R5v7NU3Rowh1XxQ0btAoaBO0liWS553RxtsGgw21VvC22vAkMyy0wDLTTTPbsgK5RP/ocvP16IK7+6FAYw00EmgjmFy7qhiBQ0ssNbtZa/okbQXLe2pZ0d27NjQbbNomVOYUlJjwotkLJi+bDA==");
 
 export default Pinata;

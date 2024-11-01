@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list?s=light list}
  * @preview ![list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/list.svg)
  */
-const List: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 112l0-32 32 0 0 32-32 0zM16 72l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24L40 48C26.7 48 16 58.7 16 72zm160 8c-8.8 0-16 7.2-16 16s7.2 16 16 16l320 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L176 80zm0 160c-8.8 0-16 7.2-16 16s7.2 16 16 16l320 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-320 0zm0 160c-8.8 0-16 7.2-16 16s7.2 16 16 16l320 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-320 0zM48 240l32 0 0 32-32 0 0-32zm-8-32c-13.3 0-24 10.7-24 24l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0zm8 224l0-32 32 0 0 32-32 0zM16 392l0 48c0 13.3 10.7 24 24 24l48 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-48 0c-13.3 0-24 10.7-24 24z" />
-    </Icon>
-);
+const List = createIcon("list", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABhAAAAHqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCNAsGAAE2AiQDCAQgBYMtBysbLwXIhofn9Z469yUDOAMYPaQWWnYutx+0K5V/4nLnf/70gIv80caisex9TN6rjQkEGuZ5iWSBJRpgApZuEx89enYlIRIUZR2fHWd3yOOz6KQM6Wr6Eaf1TeNnDZwiyTMAUR0Aw+fOnOzrD/Eh4sfSS+JHExEQI0AhkCFDYwEGyQQayxXI5YIPUSrxf2BBAFEWnpZAjko4iBOAHCQV8rxCzcoQK1SvZqUyVfI5/L1UXBiiUoiKXYSrrSvF40YR19pUjAf1Z1+ofbFOlbhc71Ldyiw0p1LFSmJRjIayK6ILZ9+83uJZ9We/Nv9xzY+6Ti2AUSj+75aoM72b6XW60djtch+qVv0wDC+5Y/rR29vC0RBVTiz3/uzjQCDo+9Pqz5ZWG/Rv+UoJfHr3+7/6M6pe+iNJz1BeAkHWqdTJokR1EgEASLFHi0R1gWSnCvCqlV0SIFREgKSsigJkGqkuQK6ijgKU0VRvAcqqaKZM5BWE2hYbnFS2Hc70cRjO1fYcLmOQb+yyakeWglQCUR/A+DEeGH2p6N6lWzGgGBYanVVE2R1YLEvt9sigPd20xlZb7LLaKuvtctAOk73dNhszA0f7oEJ3XXRTGKAI1/f8HIfZYaf1hC3xcwYq7hvt7JnPtyc1AW4PkSQRKX/B");
 
 export default List;

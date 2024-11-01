@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-chef` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-chef?s=sharp-thin hat-chef}
  * @preview ![hat-chef](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hat-chef.svg)
  */
-const HatChef: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16c-39.4 0-74.1 20.4-94.1 51.2l-5.1 7.9-7-6.3C135.6 55.9 116.7 48 96 48c-44.2 0-80 35.8-80 80c0 7.5 1 14.7 2.9 21.6l.1 .2 0 .2c6.9 31.6 23.8 79.1 39.3 119.1C66 289.1 73.3 307 78.6 320c2.7 6.5 4.9 11.7 6.4 15.3l.3 .7 65.1 0L120.1 169.4l-1.4-7.9 15.7-2.9 1.4 7.9L166.7 336l81.3 0 0-200 0-8 16 0 0 8 0 200 81.3 0 30.8-169.4 1.4-7.9 15.7 2.9-1.4 7.9L361.6 336l65.1 0 .3-.7c1.5-3.6 3.7-8.8 6.4-15.3c5.3-12.9 12.6-30.9 20.3-50.8c15.4-40 32.4-87.6 39.3-119.1l.1-.2 .1-.2c1.9-6.9 2.9-14.1 2.9-21.6c0-44.2-35.8-80-80-80c-20.7 0-39.6 7.9-53.8 20.8l-7 6.3-5.1-7.9C330.1 36.4 295.4 16 256 16zM432 344l7.4 3.2-2.1 4.8-5.3 0L80 352l-5.3 0-2.1-4.8L80 344l-7.4 3.1s0 0 0 0s0 0 0 0c0 0 0 0 0-.1l-.1-.3-.5-1.1-1.8-4.2c-1.5-3.6-3.7-8.9-6.4-15.4c-5.4-13-12.7-31.1-20.4-51.1C28 235.1 10.7 186.6 3.5 153.7C1.2 145.5 0 136.9 0 128C0 75 43 32 96 32c21.6 0 41.6 7.1 57.6 19.2C176.9 20.1 214.1 0 256 0s79.1 20.1 102.4 51.2c16-12 36-19.2 57.6-19.2c53 0 96 43 96 96c0 8.9-1.2 17.5-3.5 25.7c-7.2 32.9-24.6 81.4-39.9 121.3c-7.7 20.1-15 38.1-20.4 51.1c-2.7 6.5-4.9 11.8-6.4 15.4l-1.8 4.2-.5 1.1-.1 .3c0 0 0 0 0 .1c0 0 0 0 0 0s0 0 0 0L432 344zM64 384l16 0 0 112 352 0 0-112 16 0 0 112 0 16-16 0L80 512l-16 0 0-16 0-112z" />
-    </Icon>
-);
+const HatChef = createIcon("hat-chef", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABsQAAALNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDdwsGAAE2AiQDCAQgBYMtBy8b9gURFZtXyT4SY7dRFYOIS24sqKKJLxFB/nydPb1PAuOTzNiagxUBV+lsrgIICiC2LgNAtXz6bWIW//UXcavQqJBIOvO2mlbCJq55/tVrkNIJD6XTWrMs+3znw4FG8/wHXEIznYBtcN6kg6gM7Xeo8qrTDVFuKZ/hquSj8qtpdlA0GgAyAQB7HnXYAd76Kl8lnw6eJ5/aD4HsCeYKGtAxs8KxiyOcq8zlKlWJrzIYUNF/IAiQYe7zFFBhCJ/jZ0AFikZVnXdEtzXUqY5s8c3jLl2Y3D+1Ti/9xc8tfXjmlm6S3DKNyrbmhm5CWjlySG1KujkianSYE46jOkJ1Dufem6Z4+G0z7KkU587l/dX3L912562LH2we0+116zTbm4TqbMVc0lO5sbe1d+v0G3dOvzF3rXh0zfPL3h127pnUPTJrS33zzJunwvj1rq/xujSzFTb0Tm4pLemc5+ma7STz+xP6v8/7bP3M4MnZG7nih72c4bC/JpxxZNTlcNRdT77xxna6k0tiT7MeNOwbU8x+2CE+MmqCUR85pPbgEf8QzXrAniJlcnf7G288eddRsLyVI86c8NdhZ9jLD1dsnP3kXqe6hbWhM2qnYkRRbfLiklnb7957l85ov7/F1j32COSz1ZZ+f7Sz8ui733zije0pi+vJIuDKTr1oyYT4xU4mgQnakj7hDYJwU+Po+04aX/8/qhbwzSt//pr8jAzeKkofowoIjZWDlY4vFBQCACi5xPwCQbFTg/upbTcKiCYCimFNAQ0zTBBQaVohYMhsqwQMazpMQ6RKpmjEWMgZmruclfrKOcRPzqv9kwIS9hs3fqHGX8xsbRVoNiFwfZTobcpMn61eL1eY7NM/fMiAV6nV1cXLYrb3qogfuszbWTvENL4IAi4flLC4c/N8b/HwtHd1sVapYPuI7jM82YBBhqsx5GAuwY4i7U55OdNuWQEA");
 
 export default HatChef;

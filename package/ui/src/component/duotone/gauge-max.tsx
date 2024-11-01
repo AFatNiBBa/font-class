@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-max` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-max?s=duotone gauge-max}
  * @preview ![gauge-max](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/gauge-max.svg)
  */
-const GaugeMax: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M512 256A256 256 0 1 1 0 256a256 256 0 1 1 512 0zM64 256a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm48-112a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm80 208c0 35.3 28.7 64 64 64c17.7 0 33.7-7.2 45.3-18.7c5.8-5.8 10.5-12.7 13.7-20.3c1.6-3.8 2.9-7.8 3.7-12c.4-2.1 .8-4.2 1-6.4c.1-1.1 .2-2.2 .2-3.2c.1-1.1 .1-2.2 .1-3.3c0-.9 0-1.8-.1-2.7s-.1-1.8-.2-2.7c-.2-1.8-.4-3.6-.7-5.4c39.2-24.3 78.4-48.5 117.5-72.8c3.7-2.3 6.5-5.4 8.4-8.9c1-1.8 1.7-3.6 2.2-5.6c.2-1 .4-2 .6-2.9c.1-.5 .1-1 .1-1.5c0-.3 0-.5 0-1.5l-.1-1.7c0 0-.1-.8-.2-1.6c-.1-1.1-.4-2.1-.7-3.2c-.6-2.1-1.5-4.2-2.7-6.2c-7-11.3-21.8-14.8-33-7.8c-39.2 24.3-78.4 48.5-117.5 72.8C283.2 292.6 270.1 288 256 288c-35.3 0-64 28.7-64 64zM224 96a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm112 48a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M411.4 227.6c11.3-7 26.1-3.5 33 7.8s3.5 26.1-7.8 33L319.1 341.2c.6 3.5 .9 7.1 .9 10.8c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64c14.1 0 27.2 4.6 37.8 12.4l117.5-72.8z" />
-    </Icon>
-);
+const GaugeMax = createIcon("gauge-max", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABxAAAAKLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDWwsIAAE2AiQDCgQgBYMtB04b+wXIhof/6qq/LyK7zlR2D50j8gPQUtRWWCmHrqkfIA144u+PFmmVXmubRWLpBDbBLNtEBvSIm4FtcN7gg64M6e1XKOKDfKYW0nXpLVxi/g9g/Ki3M0maGUB0AsCibbZY57nv4rsUb9UPEW9Zi4BYDCqBjIx+AsyVBfopVCgUgu9SXfNd1HVFANFgvjWDBpp4A18ACpCERlH06tu16xKetLa0L7bmX0O5xz29rxu6ZVzl2pH3Dr179P19bhjzwIgLum+zx0cLI55b+1Z5/vp3Fr+w9adLXtzwbusF695e9PxWbad2j7iq9YKe18RpPa4uz+92pW3K2FbXjaq5b9g9Y67paUKnMWLJ1XHPiCfnNGnBOKPYHtcPvXPoYzOvLu8ceW+vBbuUnxh8f6f7fx701t5vuf7LWc9d0XbUSkWj7Nz51ls9rYxO7fHPkSvUz1rWpPeDzy9Z8vyDvZuWFVtZ7XMdzuXcDkELmzHhkGrDhnfLziz7xDlrunfPKaVIRBIh5Z0OnL5syVDIERgXNUWQuzw3qzmY9k+P48wYWC8545AJ1deBQLDtljucv0vHuX+3a03ghyd+/TP6GaqfS9L9aCeBII+tx9oxgUQAAFIcbXDiOQSy+52jT21ztQChRICkoRQg66uTAIXSGAFaDDBNgIbSFrIomkI3O2UgaXMYyKY7CRS6eRC0mOvVrKFb5MdaeCiFr8rU5UV02aJq0viJ1eyqtSURn1ROG59TDdZHHs1HRsGV9naIgx1pL3vaz5EF+nDrykc5yPIu5rJiK5OMN1Fltmpy96q6dSE73BH2a5anzzNHtXw80tHdM0eBVmKzTrYly0SK3Hmf3Y7a52eS9rHjXpCRrhX5VQAAAAA=");
 
 export default GaugeMax;

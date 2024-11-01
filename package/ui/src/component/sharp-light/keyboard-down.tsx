@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `keyboard-down` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard-down?s=sharp-light keyboard-down}
  * @preview ![keyboard-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/keyboard-down.svg)
  */
-const KeyboardDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 32l0 224 512 0 0-224L32 32zM0 0L32 0 544 0l32 0 0 32 0 224 0 32-32 0L32 288 0 288l0-32L0 32 0 0zM216 72l0 48-48 0 0-48 48 0zM72 168l48 0 0 48-48 0 0-48zm48-96l0 48-48 0 0-48 48 0zm144 0l48 0 0 48-48 0 0-48zm144 0l0 48-48 0 0-48 48 0zm48 0l48 0 0 48-48 0 0-48zm48 96l0 48-48 0 0-48 48 0zm-328 8l224 0 16 0 0 32-16 0-224 0-16 0 0-32 16 0zm-4.7 172.7L288 465.4 404.7 348.7 416 337.4 438.6 360l-11.3 11.3-128 128L288 510.6l-11.3-11.3-128-128L137.4 360 160 337.4l11.3 11.3z" />
-    </Icon>
-);
+const KeyboardDown = createIcon("keyboard-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABgAAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCUwsGAAE2AiQDCAQgBYMtBzQbVwXIhof/X6u871cNVS3D31XArAgpiSZQ8TNxQCpR2D5AfWIJdM//NZ9fYcXzzwd+emi9zSpttKakzOcTGGiFthfQbDibKM7aHI/6CqIcKIiECH0VDeMNW0co4/uYoo30Zmrg+fqh8avhniUpCwDRDwArd23b6pNmNCMarfeIhs0IiFUgCxQoMEqAJQqBUUoZpVLQjFZL/wMzAUQ73C2BEr3xHF4FlCCpy7Krfxey6+F1W+9yZ99b7RP6RkSfSXXVVySx6hNx3A6hioh6e13VoorYJTa0lq/RHfBhR/V45o6dO3bF0JgYg2J7I4fEzq2TY/D47n7dv49rnGwY+1YTh2nSynlF1pTlPIJfr58hOWaY8fyhgk3v/oLvMeNCyfqOZvOvrF+LlW9fv6bFepz0sUePnKNHX/Wxk3qAQLBl4HuNQ32X/N9ZJ/DLx3/+Ldzc+jStSN3olEBQTGlNsT+tAJUGkEhx03jjiwLJAzW8ay+vCRAqBEjaVQIURuonQKkyWYA2Y8wVoF1lm0KUXcIgBw6Q9HIFFOZ5AEqDvAPaLPFZvN2gKBip80n/Icy+boXWTsszp83Ii/Jp2TRIpubxxfm2c8LN2DZRdjrpkouuO+G4M64v7FVbUzdcsM7C1/qhbKZpZsgWya9r75t3OuGqa8645GKZZLH8fXSCm3bvieJJoDjLoiQRqfe5E3fo6phKVA==");
 
 export default KeyboardDown;

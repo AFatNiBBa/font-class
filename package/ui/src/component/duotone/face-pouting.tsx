@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-pouting` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-pouting?s=duotone face-pouting}
  * @preview ![face-pouting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-pouting.svg)
  */
-const FacePouting: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm112.8-69.1c2.8-8.4 11.9-12.9 20.2-10.1c32 10.7 64 21.3 96 32c8.4 2.8 12.9 11.9 10.1 20.2s-11.9 12.9-20.2 10.1c-3.6-1.2-7.2-2.4-10.9-3.6c.2 1.5 .3 2.9 .3 4.4c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-8.8 3.6-16.8 9.3-22.6c-10.2-3.4-20.5-6.8-30.7-10.2c-8.4-2.8-12.9-11.9-10.1-20.2zm48.5 195.2c16-36.6 52.4-62.1 94.8-62.1s78.8 25.6 94.8 62.1c5.4 12.3-8.7 21.6-21.1 16.4c-22.4-9.5-47.4-14.8-73.7-14.8s-51.3 5.3-73.7 14.8c-12.4 5.2-26.5-4.1-21.1-16.4zM272.8 229.1c-2.8-8.4 1.7-17.4 10.1-20.2c32-10.7 64-21.3 96-32c8.4-2.8 17.4 1.7 20.2 10.1c.6 1.7 .8 3.4 .8 5.1c0 6.7-4.2 12.9-10.9 15.2c-10.1 3.4-20.1 6.7-30.2 10.1c5.9 5.8 9.5 13.9 9.5 22.8c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-1.6 .1-3.2 .3-4.7c-3.9 1.3-7.8 2.6-11.7 3.9c-8.4 2.8-17.4-1.7-20.2-10.1z" />
-        <path d="M133.1 176.8c-8.4-2.8-17.4 1.7-20.2 10.1s1.7 17.4 10.1 20.2l30.7 10.2c-5.8 5.8-9.3 13.8-9.3 22.6c0 17.7 14.3 32 32 32s32-14.3 32-32c0-1.5-.1-3-.3-4.4l10.9 3.6c8.4 2.8 17.4-1.7 20.2-10.1s-1.7-17.4-10.1-20.2l-96-32zm256 30.4c8.4-2.8 12.9-11.9 10.1-20.2s-11.9-12.9-20.2-10.1l-96 32c-8.4 2.8-12.9 11.9-10.1 20.2s11.9 12.9 20.2 10.1l11.7-3.9c-.2 1.5-.3 3.1-.3 4.7c0 17.7 14.3 32 32 32s32-14.3 32-32c0-8.9-3.6-17-9.5-22.8l30.2-10.1z" />
-    </Icon>
-);
+const FacePouting = createIcon("face-pouting", true, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABvwAAALYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDJQsIAAE2AiQDCgQgBYMtB1QbywXIHoPj7hCt5b9oQSEEyrBcPSKo1sievXvAIF2AURGBI3IENhJYRQGBS8XGiPj/rPvum08txA63PZusCFapzjgvq5GE/utKeRgDrhfUAeD5v6ZePD86wCa7dyj//8tRl0WBdD2fwACjLRJsIJvQTGdgG5x3SJNCUyi/Qh5fsnE60pV0CU6d/wMY/wQ6CiQVGYCoCwDGzps1xSNveBO9+78G8U4JAmIcoBDIkKGlACNkAi3lCuRywR9GPX9IfUEAUWp69wyUohx3AA8BkIMkyfO8eVCLNk3aV+lq8rkWXeUi3of1jQ22IefLWeaaCDQSvsQ1Efwqyi/58T5lxDbi/P1j2DBrrj/vFx9PY4MeT3kPHjntpvBp5Y+CJ6UfzLOTL/Melc275DsfO/s4H1bS4icBToCFPZKBc6F/uZJMdL0NdF0OpJsbnX0AizMra9ti/CwSfDmwPlZOyTbiDzwxYmYbR11zrrxHvut4h3H7w5Ke58+mbbaTK2bfX8ukq+7rRj41tlFbfc9efH/68Dw1S6xCk2iIB6z7f+MIxRXQbMeF4x+vBpoACFbGye0TlnwdmpCcJH/GMzt6V+z8nt37ycVB4GBExMHht4mr286FJnRpde4s6NolZj91dvNO3NclpvLcyuadOzJ9fB0T0/PF1yVAIHjwvMsvc2T9G6sS+Lvz+Xv+kPx/lJCugXIJBFkPtYfFCZAIAECKvWhX2IpAZrfc9KnVLoJAqESApFSlAJkW6gqQq9RdgBKtDRSgVKVZMpFXCA0teZmk2g4mM8g+JtfQfabECC9TpRpG43ZVl6f+OmaZBJITZxWZvfoUwwpqxa05R9RODi+E7Ql7y46u8UFrbbPVbmustsFugN5pSnaPLSaxqIm+qNBXL30UhimU66O751pjp1022GZrP81whflwF3vZ/bvGrmSS7WdJJiNSZA29RnHP7q49uzdsXdczGHQ3xhhWHgAA");
 
 export default FacePouting;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `school-lock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school-lock?s=thin school-lock}
  * @preview ![school-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/school-lock.svg)
  */
-const SchoolLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M324.6 1.4c-2.8-1.9-6.4-1.9-9.2 0L157.5 112 56 112c-30.9 0-56 25.1-56 56L0 456c0 30.9 25.1 56 56 56l200 0 16 0 96 0 16 0 8.6 0c-2.9-5-5.1-10.3-6.5-16l-2 0 0-16 0-96c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 112L56 496c-22.1 0-40-17.9-40-40l0-288c0-22.1 17.9-40 40-40l104 0c1.6 0 3.2-.5 4.6-1.4L320 17.8 475.4 126.6c1.3 .9 2.9 1.4 4.6 1.4l104 0c22.1 0 40 17.9 40 40l0 88 0 34c5.7 1.5 11 3.7 16 6.5L640 168c0-30.9-25.1-56-56-56l-101.5 0L324.6 1.4zM368 496l-96 0 0-112c0-26.5 21.5-48 48-48s48 21.5 48 48l0 112zM64 216l0 48c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 48c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-48c0-4.4 3.6-8 8-8zm232-96a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm0 144a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm8-112c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 32c0 4.4 3.6 8 8 8l24 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-16 0 0-24zM64 344l0 48c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-48c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 48c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-48c0-4.4 3.6-8 8-8zM528 208c26.5 0 48 21.5 48 48l0 64-96 0 0-64c0-26.5 21.5-48 48-48zm-64 48l0 64-16 0c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-16 0 0-64c0-35.3-28.7-64-64-64s-64 28.7-64 64zm-16 80l16 0 16 0 96 0 16 0 16 0c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const SchoolLock = createIcon("school-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAOsAAoAAAAAB8AAAANhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhgCFFQsGAAE2AiQDCAQgBYMtBzIblwbIvgxoR3i9aONRbpoxMWHkw1jyB9O1EZPddjEuTq/FXPD8Z/d1X3WPqj/6z0o1MKOVEAH6PQs6mmwdZNbJycO38/0L4roLNdCMIgk0sGCo0XQDHdzsaRh4HAdZAhnn813tz4ztcV6dz2+BwJYXtLJA8uUAAw7wJCqQk/lMMhOqXmyiUBo6uZ3sJzvaozggTDipYb6Y/8EGXIibrdNg9OUQkXC1wBPHjHezUZ+nRZ7Ph1JBaWusqPPhtHAY0d+gCfTC+GfbXhRxzexC4Qxs+a0XAWoffQC2p+PlG8IaUFgWHhGIix9ZNwb0ovVLluDpP+QpFgiA1ANgCGABFtCVAFDJQoCubAywsRF4TX7rf2BBAEAiwSDFLhsIgCRDitCeAwqfbfcNatUfsdgvlBrrmN8eHB2tp3jGQOHkpLGno2KfGU5y3LM0+Kn7u/PJJ1PPdkS0bLI8YbLSbnF42WwPkYNcc+ZcRwgSNgWp5SVrBg/TvEQOTFqYcqpduBOTCftKhzP+KEuATzopH+iETWSPofEsocUecqs9l3q28Hb6+YwLJdxZXMm+XHwz82LWpaIhnDkFiYRNh3OlSsfu5TzhlCmE3Stzb7GiJ4KWTcYeyArTZvb0FCIrLU9zjyw+cJtPEX/ePf9Ddcyz3x8cMNnc74qifv38d0eJaywdKkePDunlIXzfbwidC6eizJqJQOmm6XMdSryV/XmlfXNo6H7G6z8X69lzyfOzyumQ0ua262fo13KRLDE4bGzkUuRYAw77dMru0SM7V+DuaG0PWdwqUYaYEwCJpCMpk7bq0jHfdqPvHJfP4RkzY9VeRXJ7ri6BDRcnmj+WWkXta52yj+sefd2pej1K3w8ABBAw81kZXL3mCoC393vpPfg/HXoDolEACFiZfxrZpwewiAMADEoWE4+VkFpT3fnwfqsPDwGAoAEBQBGJRgCw6MIlANhoMggAEXRXRACIRDOAhdgxCG2NsrAKH/OwFsWWYm3auoGNoNIDYyRtQ0GG+8Fz/1gTNdeBTd1MXnauKTeDcTkPCthmfYWZLU1dLPPS8AImm2O2hSaZaFrKrCHm62VZZJbmMfqmvzXyZMtllDOrU7dnDzbJfAtMM8dsu5EKZn91qsXjpdOwQuExzBemUCDKgTZxFjgDAA==");
 
 export default SchoolLock;

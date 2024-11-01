@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sensor-on` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-on?s=light sensor-on}
  * @preview ![sensor-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/sensor-on.svg)
  */
-const SensorOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 64c17.7 0 32 14.3 32 32l0 320c0 17.7-14.3 32-32 32L64 448c-17.7 0-32-14.3-32-32L32 96c0-17.7 14.3-32 32-32l320 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm48 96c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128c0-8.8-7.2-16-16-16zM600.2 93.7c7.6-4.5 10-14.4 5.5-22s-14.4-10-21.9-5.5l-80 48c-7.6 4.5-10 14.4-5.5 22s14.4 10 21.9 5.5l80-48zM528 240c-8.8 0-16 7.2-16 16s7.2 16 16 16l96 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0zm-7.8 130.3c-7.6-4.5-17.4-2.1-21.9 5.5s-2.1 17.4 5.5 21.9l80 48c7.6 4.5 17.4 2.1 21.9-5.5s2.1-17.4-5.5-21.9l-80-48z" />
-    </Icon>
-);
+const SensorOn = createIcon("sensor-on", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABigAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCNgsGAAE2AiQDCAQgBYMtBzAbNgXIjtFLz4Q0YZIizQsVD337/e7M7kfEu1nCK1FLhugRGkljp4R3qGTy9/9/f98+nx74DuwkuBEJTlKEkljCC2XWpEmc/8s9v+dHB/j5CA5lbJt6IGPxnj1PIMCwbGwqkSzMMkqAU6cj3ZYdBeknokVnkeHx9bgET1DjmzwIyW/eO3hb3jT+MG2UVAsAYggAnFxnpeCaI47o/f+U+MEZCIhTAEsIBQVzCOzjC8wRWAJVFTT03+Z/IIMAogP2xAQV3bgDL4AKUmcVmM8olQr7IXKhUpArF8rqZoyIFpExaFiQKWjaeIn4NGSyLFdWbrsQ7ZvyaNX1wFFJe+5HFnxaczt0UuQsGEDvRssmREvG8sP6qmXjJUM2LRgtmuRlX+IU5QQcoiy74hRzCHi0W67doebww/a99h3Pz6pJeB2IwZrFjdE261pguCcGsuHh9Rg4jgHvMk41iIFGWjEa3LO9KJ55SPOG+pJnOZWKK4d4xEMPM8UXY0YeBwSCzX4fZYMR/xI5D/B79fml3d1ucpB3CLokCMpK20NxDgIFHYCR0Qu74IMC6ZaYvWqfDwFCDwKkDj0CFLM0CFQ9lhFoWRCIQIce5/iiShHGlOwg9bkBxZ4+UI05Bi37nvQOY8HPQTqD6D/AhCQPJa5ivl4+LIzdJjYmrUhdDGePJZfe3nDFVtRq06pbjWoNuh3SKcXq0SIpghN9EePLiw8mDJvOPwu5Tu/UpWHMzS8Tjr2vueiN+12h8hjmFl9KIqVfsPS2Ts+2Vg==");
 
 export default SensorOn;

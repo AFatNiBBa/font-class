@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `map-pin` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/map-pin?s=duotone map-pin}
  * @preview ![map-pin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/map-pin.svg)
  */
-const MapPin: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M128 284.4c5.1 1.2 10.4 2.1 15.8 2.7c2.7 .3 5.3 .5 8.1 .7c1.3 .1 2.7 .1 4.1 .2c1.2 0 2.5 .1 4 .1c11 0 21.7-1.2 32-3.6L192 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-195.6z" />
-        <path d="M160 288A144 144 0 1 0 160 0a144 144 0 1 0 0 288zM96 144c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-53 43-96 96-96c8.8 0 16 7.2 16 16s-7.2 16-16 16c-35.3 0-64 28.7-64 64z" />
-    </Icon>
-);
+const MapPin = createIcon("map-pin", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdgAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBVgsIAAE2AiQDCgQgBYMtB0ob8gTIHoVNmS92JKJZYmttzRGH4SFfSzx8rZXvd/fMAbDiMGoiGWHDFtglihS6NSrlY8TW2QDrOZrTuyQF4C8A69YB4JAckJ/xs5tjx8ru6OYNfHqX4i2e9jq0uXBpYQI//+d6vuejAX6wiQ2lUzeO5FFexfMTOMBoT8EWOtMzsLN29iUS9AZJuoQkw/aG0QlK1PmxivQ2/XgR/wcwvppyR9KVASAGAYATVxsl+HDRTvHXPBFfnAIC4iQAFiEyMmYhOIwWmMVYBIoiaFPT0MamWQQBRA3xbjOoUeEMcBmAApIkCmMY0gsqEdMWFb+jDmE8bzsw27rnHn6+/wqscH/Llr0Fnh616sK/pI0qeK1n1PrKNQKVMhOA90f19o3jFtHWks7/S3/pn3fvlom0Y8nlskap5IaCXnDsXuza/Z0PrfsZ91vfD0m+e59uXI+U4Jxs89X//Hm/RX1AXPX7nLy8NnD4f6eAAth8fv4tPyRp8zl2phY6JRDkjWbDMO6ClDR2QgBAijOwxXGQuhLINlD4U3u9EiB0I0BS6xYgmyGFoOi2DkFlXhKCWreLaFF4EEaNGkh63QDZXuegGPUIKod9BrXRyEJFiwT9pUsoIlSYR3aEIiRHpoXKyAnppvNk21g5M11eOgpr9u05sbK06QSQI6X41K7iCi74IiIqJILIIcf1vdCG4MixzTF3Pkseue94nK0He8mmMOZOZ2SZSEhLdoOD4PXNveDjVGXIvUI=");
 
 export default MapPin;

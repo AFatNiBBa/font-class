@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-circle-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-circle-xmark?s=sharp-solid heart-circle-xmark}
  * @preview ![heart-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/heart-circle-xmark.svg)
  */
-const HeartCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 288L39.8 263.8C14.3 238.3 0 203.8 0 167.8C0 92.8 60.8 32 135.8 32c36 0 70.5 14.3 96 39.8L256 96l24.2-24.2c25.5-25.5 60-39.8 96-39.8C451.2 32 512 92.8 512 167.8c0 13.8-2.1 27.4-6.2 40.4C483.4 197.8 458.4 192 432 192c-97.2 0-176 78.8-176 176c0 32.2 8.6 62.3 23.7 88.3L256 480 64 288zm368-64a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm59.3 107.3L502.6 320 480 297.4l-11.3 11.3L432 345.4l-36.7-36.7L384 297.4 361.4 320l11.3 11.3L409.4 368l-36.7 36.7L361.4 416 384 438.6l11.3-11.3L432 390.6l36.7 36.7L480 438.6 502.6 416l-11.3-11.3L454.6 368l36.7-36.7z" />
-    </Icon>
-);
+const HeartCircleXmark = createIcon("heart-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgAAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCGAsGAAE2AiQDCAQgBYMtBzkbIQXInoWx8yI0Ks3IC+Xnj0DYxvPfH2Lnvv9Ti3VvjTpYaYDBQolYrFEQMgu+s7oCsWiszb464vePiidRT3joNHGJNA+FSP4MZYaur/eJy53/+dMDTnqCRxtrnbeAxpiaQIDZ4k2FdZ6FWaKYtbMnFNFtkqR8kmG7YeUIPR9tGnzqi/MG3sqH5j8L00AZaQDINADg/D4/E1e/+Q29/u5DfqSDQM4BrCI0NCwicIQrWMSzCrou/CWj0f8HMgiQQeCxBToG8AheAXRQWufZW7lK+XJeUTwsKXZzdbswLEdfJt9HupI72dee68fNDyTvFxfwdKGiqtlQomPPdYx7rIUcSWbCTrw2aMJ7M/xUWmimM3MjHUVQFJmSC5lQZMfryJXMKBprQu5kSlGbDSuqlT/9W22I/u7DE+qE4pqipfbePvTpfVoqqhGb5Nm5pBGpKA21L7i8bIt25kDt6J2c9L4cjnOuMUFY4wkytVhFvMOvotYJApacYL4fEIQ//zeHlBH/IikH8O/kn3rz71XFcFYAwwqEtm70UFExAJ5IQK7SC4PyRUF5wIV3HfcOAjGKgDJoVECzQIVAN2oNgQHLAhEYNOoaV7oYMa+yw2XcM9wcGoG7ebvwgCOP2UHz4ZKOoQzz5EtMGoHEdczXy4eFsWVNY3lEpdlwtm269IYeV9mLWm1adatRrUH3AHXKLPRokaSBiX6I8eXFBxOGHTeftxep0alLgzateZVw7H7qolcf7ioOB0h3FZUipeG96vk9x/Ls5ygAAAA=");
 
 export default HeartCircleXmark;

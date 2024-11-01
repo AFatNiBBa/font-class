@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-heart` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-heart?s=sharp-thin book-heart}
  * @preview ![book-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book-heart.svg)
  */
-const BookHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 56C0 25.1 25.1 0 56 0L440 0l8 0 0 8 0 400 0 8-8 0-24 0 0 80 24 0 8 0 0 16-8 0L56 512c-30.9 0-56-25.1-56-56L0 56zM56 416c-22.1 0-40 17.9-40 40s17.9 40 40 40l344 0 0-80L56 416zm-40 .8C26.2 406.4 40.3 400 56 400l376 0 0-384L56 16C33.9 16 16 33.9 16 56l0 360.8zM232.3 129.2l7.7 7.4 7.7-7.4c11.5-11 26.8-17.2 42.7-17.2l2.4 0c32.7 0 59.2 26.5 59.2 59.2c0 16.1-6.6 31.5-18.2 42.7l-82.8 79.6L240 304.1l-11.1-10.7-82.8-79.6c-11.6-11.2-18.2-26.6-18.2-42.7c0-32.7 26.5-59.2 59.2-59.2l2.4 0c15.9 0 31.2 6.2 42.7 17.2zm-3.4 18.9l-7.7-7.4c-8.5-8.2-19.8-12.7-31.6-12.7l-2.4 0c-23.9 0-43.2 19.3-43.2 43.2c0 11.7 4.8 23 13.2 31.1L240 281.9l82.8-79.6c8.5-8.1 13.2-19.4 13.2-31.1c0-23.9-19.3-43.2-43.2-43.2l-2.4 0c-11.8 0-23.1 4.6-31.6 12.7l-7.7 7.4L240 158.8l-11.1-10.7z" />
-    </Icon>
-);
+const BookHeart = createIcon("book-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABigAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCSgsGAAE2AiQDCAQgBYMtBzEbSwURVZofyX4m2A1/3oNh1eYiAoa/SoL4ImEciYfv9/Pftc+9IfwAKIk1MJeANebJOo4rxXZq39QS2J8ASLjadwjYZYUJHf7YWFz2+kB7TFzz/M+fHjCJH6VTUwukln0+gYnO01PbBjbTCdjMW2aMKrlvkqmV9PiNHq82kMcHziqQ3ksDvFI+NH41yZMkWQYg2gDYfGDPNv3RGI34cZj40RYExGYwUyBDhqkCrJMJTJWbiVwuGI3hUP4DEUAU4f4TyFHCM3gVkIOkkOfT283Zs2qFRr6/VqhmH0yIeGdBoyZSiGpV1GqiWv9o/NuTs0PPj41406Pj3qo1IqK+bMuMjMUYHfVN6ci48eMmxEitFh/Oe2/Sowv3xtgYH/ujFx9M+XhBLV5YNHH8uPFvV6ur1UfH7YsD8U48puSx8QZm99q932cNzg88W/qTWx4tl72qrDxxp4nltvKjN29denXlhc4In3c6n490Dtrp4M2hez3qXkxKdOnnGffgcO2JmUdbf5UndXbv8Kme3dt1JpX/aj2aTGrPvhvmoGviul/+2O0OqCAOqv3jl/pqg7v19IBA0Lv6408nWuv+L9cS+OXzf5V/RcN+9FMPZQkE2dLh0qPRh+gLAECKu82OPgLJIwrwrnVvCxCqCJAUVQXITNEWIFe1RICC6ZYLUFS1RybyijDWsQYndbfBmRUegnNjfQYXrPNtXDQ2Mm9kfYn9CyZ53wNuFWVWYJg2VM7B6LRo2baCXw2EtFb0x/527fR20F1n3+Yt0H2RMiswHLfXUsPx/Uxj4XwZy30v+O3xIbkKCKuckpBJu6qSPgk=");
 
 export default BookHeart;

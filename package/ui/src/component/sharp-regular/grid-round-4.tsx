@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grid-round-4` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-round-4?s=sharp-regular grid-round-4}
  * @preview ![grid-round-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/grid-round-4.svg)
  */
-const GridRound_4: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M44.8 64a12.8 12.8 0 1 1 0 25.6 12.8 12.8 0 1 1 0-25.6zM0 76.8a44.8 44.8 0 1 0 89.6 0A44.8 44.8 0 1 0 0 76.8zM44.8 183.5a12.8 12.8 0 1 1 0 25.6 12.8 12.8 0 1 1 0-25.6zM0 196.3a44.8 44.8 0 1 0 89.6 0A44.8 44.8 0 1 0 0 196.3zM57.6 315.7a12.8 12.8 0 1 1 -25.6 0 12.8 12.8 0 1 1 25.6 0zM44.8 270.9a44.8 44.8 0 1 0 0 89.6 44.8 44.8 0 1 0 0-89.6zm0 151.5a12.8 12.8 0 1 1 0 25.6 12.8 12.8 0 1 1 0-25.6zM0 435.2a44.8 44.8 0 1 0 89.6 0A44.8 44.8 0 1 0 0 435.2zM177.1 76.8a12.8 12.8 0 1 1 -25.6 0 12.8 12.8 0 1 1 25.6 0zM164.3 32a44.8 44.8 0 1 0 0 89.6 44.8 44.8 0 1 0 0-89.6zm0 151.5a12.8 12.8 0 1 1 0 25.6 12.8 12.8 0 1 1 0-25.6zm-44.8 12.8a44.8 44.8 0 1 0 89.6 0 44.8 44.8 0 1 0 -89.6 0zm57.6 119.5a12.8 12.8 0 1 1 -25.6 0 12.8 12.8 0 1 1 25.6 0zm-12.8-44.8a44.8 44.8 0 1 0 0 89.6 44.8 44.8 0 1 0 0-89.6zm0 151.5a12.8 12.8 0 1 1 0 25.6 12.8 12.8 0 1 1 0-25.6zm-44.8 12.8a44.8 44.8 0 1 0 89.6 0 44.8 44.8 0 1 0 -89.6 0zM296.5 76.8a12.8 12.8 0 1 1 -25.6 0 12.8 12.8 0 1 1 25.6 0zM283.7 32a44.8 44.8 0 1 0 0 89.6 44.8 44.8 0 1 0 0-89.6zm0 151.5a12.8 12.8 0 1 1 0 25.6 12.8 12.8 0 1 1 0-25.6zm-44.8 12.8a44.8 44.8 0 1 0 89.6 0 44.8 44.8 0 1 0 -89.6 0zm57.6 119.5a12.8 12.8 0 1 1 -25.6 0 12.8 12.8 0 1 1 25.6 0zm-12.8-44.8a44.8 44.8 0 1 0 0 89.6 44.8 44.8 0 1 0 0-89.6zm0 151.5a12.8 12.8 0 1 1 0 25.6 12.8 12.8 0 1 1 0-25.6zm-44.8 12.8a44.8 44.8 0 1 0 89.6 0 44.8 44.8 0 1 0 -89.6 0zM416 76.8a12.8 12.8 0 1 1 -25.6 0 12.8 12.8 0 1 1 25.6 0zM403.2 32a44.8 44.8 0 1 0 0 89.6 44.8 44.8 0 1 0 0-89.6zm0 151.5a12.8 12.8 0 1 1 0 25.6 12.8 12.8 0 1 1 0-25.6zm-44.8 12.8a44.8 44.8 0 1 0 89.6 0 44.8 44.8 0 1 0 -89.6 0zM416 315.7a12.8 12.8 0 1 1 -25.6 0 12.8 12.8 0 1 1 25.6 0zm-12.8-44.8a44.8 44.8 0 1 0 0 89.6 44.8 44.8 0 1 0 0-89.6zm0 151.5a12.8 12.8 0 1 1 0 25.6 12.8 12.8 0 1 1 0-25.6zm-44.8 12.8a44.8 44.8 0 1 0 89.6 0 44.8 44.8 0 1 0 -89.6 0z" />
-    </Icon>
-);
+const GridRound_4 = createIcon("grid-round-4", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAACVgAAAKbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKiRiGMgsGAAE2AiQDCAQgBYMtBzMbNQfIHoPjbiltssRkiVDKVs8jgvb7zd67j5hVXsKSZ6KW4o1GiDRLlUqkFE/8n879ih4uh0vrazu1E3hSRHQS21wr+HS4pFhGWEYeE3NSX7t2/o+ZLmwUqfV9b0BN5SOrat8bdfDeaM8HGklNcQdygjuGA/ZTxE2KqVy+/HtAzRpvGkSUVz4LPKr78w+zRkHRaUAnZASKHV3kmOHxk8d8mffFBfIBx0AgRwBYwUND6RYSRHbpkqQXWgGqGv8Mxzn/AzEIkC7QEcW5ijWQS4DcA2R/OcVKFbq6yqQ0ErkK84Un5dSY74LPvM+i36L/EspeidmJ2wtejd2N3g7IW/AtmrLkz8pZcXE6bDtgOZAl7gWvBfWGZtxQDIPCgjwOqNYu9U8O+fORhx6HvxFsDat9kChiYxRlZQqFUiFhpeZGyiKV0VSjSZbcQOSIECQnXzJTI0XLpDTdZJJqeuVHR7k3sNOv52fM9ODP2fn34BJBiFgGtuZqC9VolpJqRKwIWQmawVcnwwxOM97X6eVBIVaf9SZoHLfU1KTMK1DdS4kpZLCVBIk1eA4fYhjn6+CyNSjYutwmUTJIIYXI9/nZjxxlUBxEdbIMcsiP9PsAgvD+pxCVuuv/pYgP8P329+dt53DHyT8E0KNsVWharkXnkYaYCjmB0fRAJGyQxEJVgOmBAU9dC9FHBIoufaAxzwNUfdZBxxKFtOHuEwKpMogJFoBiwB1o7OgD1YQT0LHrLdtlIoInUP78yP//pjEm4YZlOCM1HWtxaVmgeKik0rgON7bE93BtCTgJNVq16FKtSr2uBK6DudCtmbGK0fBZLEOqdJgW7lw7q8mnSB061Ztaus+ig4cPxOup7p0AO5/Oc0NJUUhx+Z3RpXwqrCnZAAAA");
 
 export default GridRound_4;

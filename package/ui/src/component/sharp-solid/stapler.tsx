@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stapler` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stapler?s=sharp-solid stapler}
  * @preview ![stapler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/stapler.svg)
  */
-const Stapler: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M640 240l0 64 0 176-96 0-96 0L32 480l0-64 416 0 0-48-320 0-64 0 0-64 0-84.6L0 208l52.1-95.6c27-49.6 79-80.4 135.4-80.4c24 0 47.6 5.6 69 16.3L640 240zm-512-9.1l0 73.1 320 0 0-16L128 230.9z" />
-    </Icon>
-);
+const Stapler = createIcon("stapler", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABUwAAAHuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBGAsGAAE2AiQDCAQgBYMtBy4blgTILgd4Mj6UIQ5QKFY2xbta9VDRI5TjCx8WI4JqDevZ2wChAmCZikRJwpEG4eJI2EchvzwKm4p9/foMOGZ3qwarKBsVRYXNRjDAD5C3RPtPZtVFcMjNDwexiALzOHDILSDMNQzL5L0AEdKuEGqnTtWM81AAn+M+FuY8IAt8zvMI5HyNtjY2UH1ZwSKKNXd1n+0h2k9ikSX5S3t8nSHHf1EVpLcET+lH458eD5KaAgDRDAD2zxp1fBDvEb9l4qdDEBD7gGFEgQL9CLYIBfqJDIMsC95VlvQfOAwBRCXkBRPIyJgDawAySFIW6WvqxGpRu65CsUeiVkOqSaoUJFmLs/i+eVr2FWi4ZTT6yZzw8HcPPS8uFDzNafZBy5/Fc5WlZbdFe/+jdICnFaCTXwMgEHz0z+du/YcA8LEtP1ySHtOolkBQTJVTOukRiBiAnOLGZKwskIwRgHxrvWcBQi0CJJVqBSj00SHIak0iqDAoiqBSrSNCkeUI7boVJPWuQWHFHWTt3kGFLZ9ypfYonIZ+cvrLllDTaLXMMO8LGFKGqa4wfkCGfNqwLI7d2OfETszs7VxMTSxdFH5S1662ahZWtSKDIJ8AgxTDtnW/uW3q5GxpbxeLpBnOSw43O9qJagSAheuG0kAk6flueNhMTw==");
 
 export default Stapler;

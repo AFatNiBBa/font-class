@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paste` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paste?s=sharp-thin paste}
  * @preview ![paste](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/paste.svg)
  */
-const Paste: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128.6 41.6L127.3 48l-6.5 0L80 48l0 16 0 32 160 0 0-32 0-16-40.8 0-6.5 0-1.3-6.4C188.4 27 175.5 16 160 16s-28.4 11-31.4 25.6zM64 48l0-8 0-8 8 0 42.7 0C121.3 13.4 139.1 0 160 0s38.7 13.4 45.3 32L248 32l8 0 0 8 0 8 48 0 16 0 0 16 0 32-16 0 0-32-48 0 0 40 0 8-8 0L72 112l-8 0 0-8 0-40L16 64l0 368 176 0 0 16L16 448 0 448l0-16L0 64 0 48l16 0 48 0zM496 496l0-265.4L409.4 144 240 144l0 352 256 0zm16-272l0 272 0 16-16 0-256 0-16 0 0-16 0-352 0-16 16 0 176 0 96 96z" />
-    </Icon>
-);
+const Paste = createIcon("paste", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdAAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCJQsGAAE2AiQDCAQgBYMtBywbIQXIjsM4hvwSQ/vHw/dz4Z/7kt3ZJoWUOCUiBUwOyFcBfUKF6AiEIovq680vIOapUzmX81As+kZBG5vGWF0goc51XoGCloZN8OW1gtW0AlbbZkqQRFS3hUQU+fH8MDpsf4M8PnVIg/Qo/YC79UPjL33dIckyAFEBYMnWjRt89Xv8HvF9+33ie+sQEEtALZAhwwAB5ssEBsjVyOWC36Pdjv+BNQFEE16bQI4mLuMaIAdJnud95pRdy0anfEvZKHb26N2jKIQog04qil7xeOTLfTaFiCjLJ7Pe78uYEEJhi6FKEeKlKEXIrhuHs5Rt2ZmddqaQiaJjO1RuHvpm9eY/Qz6yG/d64tzmmErtebXKmGZPW2/e3FqjRRWtcZ9HfD5ObZOrJ1AVTTbacvpHLaNNds5bKm9VlXMq1W9fdsCuLVu8YR9dulQkSMK+w33e2gsIBAPW/TpVl/n/t8oE/vzkv7/0X1H7qyS9iZYEgmx8e7xdCSQCAJDiiqEJAslpObxrR/cFCAUCJE2FAJn+KgFyhXECNAwyQ4CmwkaZyDsIPeweIOnoPMjMdBXkengXNMz3db2pR2SuRzkO9ecXv3KGV2yrp0ycXM+tj21KexOR1+fV19LoKzI2ho864qwzLjnskOMuTegFG1qXnbbSQlb4otoUE01Wm6t+3Xvdv8VhF1x03Flnyibz1N97o12xZ49hNQHuVJUkEanh/MJhAA==");
 
 export default Paste;

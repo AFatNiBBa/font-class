@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spinner-scale` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spinner-scale?s=light spinner-scale}
  * @preview ![spinner-scale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/spinner-scale.svg)
  */
-const SpinnerScale: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 44a20 20 0 1 1 0 40 20 20 0 1 1 0-40zM204 64a52 52 0 1 0 104 0A52 52 0 1 0 204 64zm28 384a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zM472 256a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM76 256a12 12 0 1 1 -24 0 12 12 0 1 1 24 0zM64 212a44 44 0 1 0 0 88 44 44 0 1 0 0-88zm344.7-74.8a24 24 0 1 1 -33.9-33.9 24 24 0 1 1 33.9 33.9zm22.6-56.6a56 56 0 1 0 -79.2 79.2 56 56 0 1 0 79.2-79.2zM92.2 391.8a28 28 0 1 0 56 0 28 28 0 1 0 -56 0zM384 408a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM131.5 131.5a16 16 0 1 1 -22.6-22.6 16 16 0 1 1 22.6 22.6zm22.6-45.3A48 48 0 1 0 86.3 154.2a48 48 0 1 0 67.9-67.9z" />
-    </Icon>
-);
+const SpinnerScale = createIcon("spinner-scale", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABrgAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iCcAsGAAE2AiQDCAQgBYMtBzQbdAXIjtFLzwTDTJikHPCKiof/v/dzn/vutFKo0nQdrIDDXQeotVg4FA5B1se/Qo3D749x7/uSJ2RSCWRyotMW+pZ2S/Mf91N/nP9FYT4f6HgoP5rWFkUV55kCOx9gtOV5lMEXxZlnOkdixmSsj7KYLird41f2eI3dIMchwgxD+oJ8wsO2Pf4Z0EmSCzAQ7eAE9k4jguCsGtWIp/KAcrMDICD2ATAOgYJPMgwBNqEEhqGNA1kWVKMsAf4D5SCAqAXeLYGMVrzjKyCDpDmjCRSCIRSJdZhJGAo6+mRiwqpgQr0mnNb5TmpWdeuiKe2aeoUfd6KFFDmGNBeQX9lj3HHeKEe6eCcE6p4WtqMZI9yx3cQb54zG2I5baqgNmzpHY+YoBxGjnHE3oi2sIHaxR9hp48hcT3zCybZduUXfelc8ZT8phzus0pH8MDvbTy4loltOWBhHgh+nNdVDXFggovKw9erg4KqVz4v1n3y+3LRMTl68bJknY7JeK/fN0Vlvv++Ko8NdSGcAN9+3q2vIzTVI5pCm2gaROPWfldXWphdkRQ+28/nRSfaj43VxLIdV/iJeBQCBYH/+62cKbfN/PQkJ8OvHx6f+srX8HZX0DaiXQFAsl2aJiVbzUREAUimqQRkoLJDcawYLNXvPVoZGhHrUOlagMIQOWaMlqDHKme7cfgglMgFCtyRA0uwcChuaIOu2BzU23aZqdUcxQdnpxX4eJnl73Gue3N5qJ/eQ31ZVbs7R67SnvNujr9YuA45CthLFKmXJlKfS6csFZasU8Y4ILwqSs2dlR86DPN34KkUzWq6C0m0uPwtP8udDetXxYAP8SOZyxZ4kEYlSUfr7YPYdAwA=");
 
 export default SpinnerScale;

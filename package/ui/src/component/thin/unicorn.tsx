@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `unicorn` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/unicorn?s=thin unicorn}
  * @preview ![unicorn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/unicorn.svg)
  */
-const Unicorn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 16l8 0 16 0 21.8 0c28.9 0 53 21.9 55.7 50.7l7 73.8c1.8 18.5-8.1 36.2-24.7 44.6c-22.3 11.1-49.3 2.1-60.5-20.2l-8.3-16.5c-1.4-2.7-4.1-4.4-7.2-4.4l-16 0c-4.4 0-8 3.6-8 8l0 87.5 0 .4 0 .1c-.2 25.4-11.6 47.6-29.2 62.5c-1.8 1.5-2.8 3.8-2.8 6.1L400 480c0 8.8-7.2 16-16 16l-40 0c-8.8 0-16-7.2-16-16l0-154.3c0-3.8-2.6-7-6.3-7.8L198.3 290.8c-2.7-.6-5.5 .2-7.4 2.2s-2.7 4.8-2.1 7.5c2.1 9 3.2 18.1 3.2 27.4c0 16.1-3.3 32.1-9.6 46.9l-6.5 15.3c-3.6 8.4-4.2 17.7-1.8 26.5l16.5 59.3c2.8 10.2-4.8 20.3-15.4 20.3l-49.8 0c-7.2 0-13.5-4.8-15.4-11.7L97 437.8c-7.3-26.3-5.4-54.3 5.3-79.4l6.5-15.3c2.1-4.8 3.2-10.1 3.2-15.3c0-5.1-1-10.2-3-15L77.1 236.3c-3.4-8.1-5.1-16.8-5.1-25.6c0-36.8 29.8-66.7 66.7-66.7l53.1 0 32.2 0 96 0c4.4 0 8-3.6 8-8c0-66.3 53.7-120 120-120zM553.7 32c-4.1-6.1-9-11.4-14.6-16L552 16c4.4 0 8-3.6 8-8s-3.6-8-8-8L493.8 0 472 0 456 0l-8 0C375.6 0 316.4 56.6 312.2 128L224 128l-32.2 0-53.1 0c-26.6 0-50.2 12.5-65.3 32L72 160l-8 0c-35.3 0-64 28.7-64 64l0 88c0 4.4 3.6 8 8 8s8-3.6 8-8l0-88c0-26.4 21.3-47.8 47.6-48c-4.9 10.5-7.6 22.3-7.6 34.7c0 10.9 2.2 21.7 6.4 31.8L94.2 319c1.2 2.8 1.8 5.8 1.8 8.8c0 3.1-.6 6.2-1.9 9l-6.5 15.3c-12.2 28.4-14.3 60.2-6 90l12.9 46.5c3.8 13.9 16.5 23.4 30.8 23.4l49.8 0c21.2 0 36.5-20.2 30.8-40.6l-16.5-59.3c-1.5-5.3-1.1-10.9 1.1-15.9l6.5-15.3c7.2-16.8 10.9-34.9 10.9-53.2c0-6.3-.4-12.6-1.3-18.8L312 332.1 312 480c0 17.7 14.3 32 32 32l40 0c17.7 0 32-14.3 32-32l0-167.9c19.3-17.7 31.8-43.1 32-71.9l0-.2 0-.5 0-79.5 3.1 0 6.1 12.1c15.1 30.2 51.8 42.4 81.9 27.3c22.6-11.3 35.9-35.3 33.5-60.4l-5.1-53.6 65-28.9c4.6-2.1 7.6-6.7 7.6-11.7c0-7.1-5.8-12.8-12.8-12.8l-73.5 0zm8 16l50.6 0L565.8 68.7l-.3-3.5c-.6-6-1.9-11.7-3.8-17.2zM496 96a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Unicorn = createIcon("unicorn", false, "data:font/woff2;base64,d09GMgABAAAAAANkAAoAAAAABxwAAAMYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCEGAsGAAE2AiQDCAQgBYMtBy4bFgbIBiLKpVWPRooysllgswJArCAvBPCI6HU/DL6OaeKa5w9cIFWA748StY2qQQo8U2DnA46iTqDZfBO2qdNRhIkMNE8ZbhTREorseHq8Pq6Blr+Ziw3qrPoIOL4Plq8pZQ8oLAvwQApgYq8JY4bx2jW5JvLR/0+Drs8QQACkNwAxAlgsL6lAAOiKhQAVaGJAoxG4Jv//j/wHxiAAIA54SwWABhzgW+BPAEADoNBaT19ranp2rh7v2WaBZ7zDQbp0nJyte1f9e8rKJGOMpHxERORCwxQYxEgmDO4MxzehnwrSJCW+2Fvxg4wcCqvkUnUkWW+CnG/yYAPPy0Z39nh1wLjD6UmXlWDMW11fip1PNSxPuKvhfSVIOshGIuejbIMUSTBO0iS+Lw9VVsrZevyp2bC1ZKJIzsvOcJwgSZD2PDkcZUXkwWpByJOAXPDuBveWZ8tqywTJSiY0gWe8jiLdMXbqh6b8dFD7gYIHvq310fyPePVR120efvdvPWcQOZcibScrKbYLmOlMBCC8t5Z+kLxrDbmWdw5n1JYyWtaurZvmlWSmM7WbobCwNV6Xj7nvt+XUd9361UMZkptTq+i1dslMRxUWxovyJ+7LpS7pzOzcfGWfMf0njjuxXdwrhYVmIs7MGa+3Pv6o547ighnVQyi27eLpNPn4E+bNbM0P5w/3MEQdpnN/uXEXhqTIO3Agr6He4T4+KwcYicUUntkwf3GN5LjqR89y5rjeY4N2tEbPT9G4DXq1uJaXd21jAoDYdtOzmZHf9VfXUwDceOH7v9rh/P+aStQDgIsCQMBq+n9TpqoEoPAFABJK1lPb+SEBFLfRIJZDJpoSDAxU4WBQi3IKUI2hCWpTRTuVtI+hBoiuieAzjYEqcliFWrRnG6rxeRK16cq7cQdfrKTXU1b/5Mze3wL9usWtmreMO8ePaaeRx2pt7xLTrobr17JGMpX5rGA5a5nHXBax1oCrGZZaxzL6e+J+341pRXNaEtOZOJz7ah9vEqtZw6J7I94JXYjfjzVkvV+7kXgVkGzNIIUCUTXWLV/0pz0AAA==");
 
 export default Unicorn;

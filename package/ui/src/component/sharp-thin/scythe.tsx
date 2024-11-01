@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scythe` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scythe?s=sharp-thin scythe}
  * @preview ![scythe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/scythe.svg)
  */
-const Scythe: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M352 0L540.6 0l-3.2 16L352 16C221 16 137 69.7 85.5 123.1c-25.9 26.8-43.6 53.6-54.8 73.7c-2.3 4-4.2 7.8-6 11.2L499 208l-3.2 16L17.2 224 0 224s2.1-6 6.9-16C31.3 156.8 124.5 0 352 0zM636.6 16l-18.3 85.5 5.8-29.1L569.6 326.7 529.9 512l-49.1 0-16.4 0 3.4-16 27.4-128 3.4-16-16.4 0L416 352l-16 0-16 0 0-16 0-32 0-16 16 0 16 0 96.4 0L574.1 0l49.1 0 15.3 0 1 0 .4 0-3.4 16zM416 336l82.7 0 19.8 0-4.1 19.4L484.2 496l32.7 0 37-172.6L619.8 16l-32.7 0-59 275.4L525.4 304l-12.9 0L416 304l-16 0 0 32 16 0z" />
-    </Icon>
-);
+const Scythe = createIcon("scythe", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABcQAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCDAsGAAE2AiQDCAQgBYMtBy0bCQXIngd2w8czxE61cpkRJuLhQ1f6vqTdsaU7NoHORFARckmcFN0lHXHHXVwFqPWkTEWbX7/X+WOWX7Xv839NvXh+dICfzz2aDiMxUo+iFvV8Ans+D1/jQNY2nE0Utztb2iSmfZIkk+R4tOO1hSz+sVuF5GXyPe7nD43XurtNIk0BRBMA5q5btdKXv8fvEd/VEN9ZjoCYC0qBFCl6CTBDKtBLpkQmE/wetRr9B5YEEFVyrwnIUMFOXABkIJFmWdnWvajUZ2uLSr6vyItOkcer1a9mfNrtSacn6qNT1OU3ur45v3Wv27F63eqesRrTed411kVXJ4UoRbEppDqtL/KimyYUBG1yYn100teKol97U/tfbd/3vW1ffCYX4iM7Yk7fOX02HKj1b4340Wi/NTv21naLBy8ecjx6NbaswfO2mPi/wR8a2zxbj2tma97ZpNSk6fjMvpNr/2TVqn3z9L6jzYC3zR2nzbQWI9SdKDUBgeDYrB/WOOPvDkUC/vz463KM2pfJ9aQdHSQgSEfURtjMDiRiAG4SZ/WDryKQ2Cgl71rnmQAhR4BEVS5AqqcmATK54QJU9DFRgKrcKqnIOgqdbGkgUecESE1yBWQ6eQdUzPCVV9UpUnOjjYX+7CUs6tGFi8qxo8aU00o1VxkLIuPs9HJbHnLW9wyFjfY65qjT9tjtgNMdftLK8IwjFq2whX6oNNYoY5SmKY+rx9Vr7XHSKQccc5Tnma68bwxxdj18KCwnAYx7KCjJRlI9tevC6f17AA==");
 
 export default Scythe;

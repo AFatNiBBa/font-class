@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-quarters` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-quarters?s=duotone circle-quarters}
  * @preview ![circle-quarters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-quarters.svg)
  */
-const CircleQuarters: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M120.2 120.2L256 256 391.8 120.2C357 85.5 309 64 256 64s-101 21.5-135.8 56.2zm0 271.5C155 426.5 203 448 256 448s101-21.5 135.8-56.2L256 256 120.2 391.8z" />
-        <path d="M256 64a192 192 0 1 1 0 384 192 192 0 1 1 0-384zm0 448A256 256 0 1 0 256 0a256 256 0 1 0 0 512z" />
-    </Icon>
-);
+const CircleQuarters = createIcon("circle-quarters", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfgAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBaAsIAAE2AiQDCgQgBYMtB1obFAXIjsQ4JvKL2BS0Q5Jagu9tpf3+zK0AaKSImDMEDCKxgTm9cupyRLT5//41/9d8ftZ0gN/okDqxagWe+XwCE0mfbyITmmmS+6KQncRBt4m9QewqQiJMQjo+7fjqCnl8nR1VQbqVPsWF8j+A8ZNmjpJUywBEXQCMmDdrijcrozLFp+VniU9NRkCMBIVAhgwtBRgsE2gpVyCXCypTGZVRVhBAlADO6KV0h+lYCshBkqQ8b9GietUaFbXyub+h+qIzAyJe6vLQwc4P+r9Y/fTAl7s+ikPdHg96pUb6YVrEF6PeiUMj3576+dxvJ386/E0HR7w15bM5i+bMnTMvvp777fT01ZwfZs2N2e3u1b33c9tPl3+qfKD3S7x4926vXnfvvvhS794v8eU3x7jIpUEtR41qOejSxTHsHgo7xp1AbM6M8ObUrbT0N4NA8PvyhX9XZ/BvVWsk8OPL/9JeSMpvJukeqkogyDqXO1ucQCIAACm2a5dgp0CmrwSPWtN1AUJ1BEhKqguQaaGuALnqOglQobU+ApRUN0sm8mpCQ0sYJDVtApm+9oFcQ8+ACoN90CxpGJl3cb7Bve2SxwqN2Vf06Nq9GFgsuzrvMEzeHlRs2+23N9WBLlpug/W2WmapVbZCbjals806YzVijCcq9NBVd4WBCvPgWZ5Lc7MtVsmifZdBivNBe9v1xR3IS0DZ04FMRqTImvzC0bvcK39Ll0id20wSwxIA");
 
 export default CircleQuarters;

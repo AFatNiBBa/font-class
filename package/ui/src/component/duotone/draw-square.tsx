@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `draw-square` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-square?s=duotone draw-square}
  * @preview ![draw-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/draw-square.svg)
  */
-const DrawSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 151.4c4.7 2.7 9.8 4.9 15.2 6.3c2.7 .7 5.4 1.3 8.2 1.7c1.4 .2 2.8 .3 4.3 .4c.7 0 1.4 .1 2.2 .1s1.4 0 2.2 0c11.7 0 22.6-3.1 32-8.6l0 209.1c-4.7-2.7-9.8-4.9-15.2-6.3c-2.7-.7-5.4-1.3-8.2-1.7c-1.4-.2-2.8-.3-4.3-.4c-.7 0-1.4-.1-2.2-.1s-1.4 0-2.2 0c-11.7 0-22.6 3.1-32 8.6l0-209.1zM119.4 64l209.1 0c-2.7 4.7-4.9 9.8-6.3 15.2c-.7 2.7-1.3 5.4-1.7 8.2c-.2 1.4-.3 2.8-.4 4.3c0 .7-.1 1.4-.1 2.2s0 1.4 0 2.2c0 11.7 3.1 22.6 8.6 32l-209.1 0c2.7-4.7 4.9-9.8 6.3-15.2c.7-2.7 1.3-5.4 1.7-8.2c.2-1.4 .3-2.8 .4-4.3c0-.7 .1-1.4 .1-2.2s0-1.4 0-2.2c0-11.7-3.1-22.6-8.6-32zm0 320l209.1 0c-2.7 4.7-4.9 9.8-6.3 15.2c-.7 2.7-1.3 5.4-1.7 8.2c-.2 1.4-.3 2.8-.4 4.3c0 .7-.1 1.4-.1 2.2s0 1.4 0 2.2c0 11.7 3.1 22.6 8.6 32l-209.1 0c2.7-4.7 4.9-9.8 6.3-15.2c.7-2.7 1.3-5.4 1.7-8.2c.2-1.4 .3-2.8 .4-4.3c0-.7 .1-1.4 .1-2.2s0-1.4 0-2.2c0-11.7-3.1-22.6-8.6-32zM352 151.4c4.7 2.7 9.8 4.9 15.2 6.3c2.7 .7 5.4 1.3 8.2 1.7c1.4 .2 2.8 .3 4.3 .4c.7 0 1.4 .1 2.2 .1s1.4 0 2.2 0c11.7 0 22.6-3.1 32-8.6l0 209.1c-4.7-2.7-9.8-4.9-15.2-6.3c-2.7-.7-5.4-1.3-8.2-1.7c-1.4-.2-2.8-.3-4.3-.4c-.7 0-1.4-.1-2.2-.1s-1.4 0-2.2 0c-11.7 0-22.6 3.1-32 8.6l0-209.1z" />
-        <path d="M0 96a64 64 0 1 1 128 0A64 64 0 1 1 0 96zM64 352a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm320 0a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm0-320a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
-    </Icon>
-);
+const DrawSquare = createIcon("draw-square", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABwQAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDWAsIAAE2AiQDCgQgBYMtB1Ib/AXILgbshvoiEBqxKI3kzNXhkEeKpRQr4smxz31JDsEBKVSojoVFo4EUjS+RqqwzX5bkTW3t+zXdfz+K+QUAi6xIAYGrq1OxraqK61Q2Qt1EFUHetMuGLVsCGbdN+kGl//bnDX+hMq6ytv8B4gXO/zHTRRTI99XzjYfSqYXtw24bJg4woi6S+IzxRvUKDXT+6rh2g5Yf+AZdlG9oB2/C/wOY/9lcUvRVABkFAByeT06gITJxrOOadBoHgRwB5jFUVExjYAcXTJOZB00TXgQJvDAJAQHSLfy1CrrRjw7gJwAaKJrW2lAcuRgK+RRdQ+0sX9lfv5sVHa4v0mPTbW85kV74pTM1ZR6IYV/O9CoS+MHVYNOAfVbUKj8gdYSA5wPygY/iAYA/cz2lSJIvmnyw1hU6UJr/aPdiXTtfvZ31bbG2/hYvhLqkTMrjSWWK6+6dCM/SqoxslItIjP+9x8oEnxGsCfM2Z1wzHhjUvOUA5JW2NCHWgpHSu2FrDw9ffR2AIDzcHwwvaNp/ewcK+Hfz/l290j8xd6sDehUQ6pqUwGwaG5D/oTGIAyW3fFAjex291cQ7B30WEP3oQNGtH1RTtKDptwq6zCrKD+44xqX1iUlzICgGXYBq2wVoJl2BLjtuA90mU1W1Uk0q/ynTDQ7hA8Mom8pQjVajGpVClXvVbXTYFjmfZEXhWqw7sO/UmlVbTgfMYxPhM3sGt0QH/pZkpWSQGrqceLp8xppjJ7Yc2A/aaUPPuyLOtwtHoVMQS1w3oaqkpE4YWGPScJiS9iPHNNVYBQAA");
 
 export default DrawSquare;

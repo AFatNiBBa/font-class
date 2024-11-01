@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `itunes` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/itunes?s=brands itunes}
  * @preview ![itunes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/itunes.svg)
  */
-const Itunes: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M223.6 80.3C129 80.3 52.5 157 52.5 251.5S129 422.8 223.6 422.8s171.2-76.7 171.2-171.2c0-94.6-76.7-171.3-171.2-171.3zm79.4 240c-3.2 13.6-13.5 21.2-27.3 23.8-12.1 2.2-22.2 2.8-31.9-5-11.8-10-12-26.4-1.4-36.8 8.4-8 20.3-9.6 38-12.8 3-.5 5.6-1.2 7.7-3.7 3.2-3.6 2.2-2 2.2-80.8 0-5.6-2.7-7.1-8.4-6.1-4 .7-91.9 17.1-91.9 17.1-5 1.1-6.7 2.6-6.7 8.3 0 116.1.5 110.8-1.2 118.5-2.1 9-7.6 15.8-14.9 19.6-8.3 4.6-23.4 6.6-31.4 5.2-21.4-4-28.9-28.7-14.4-42.9 8.4-8 20.3-9.6 38-12.8 3-.5 5.6-1.2 7.7-3.7 5-5.7.9-127 2.6-133.7.4-2.6 1.5-4.8 3.5-6.4 2.1-1.7 5.8-2.7 6.7-2.7 101-19 113.3-21.4 115.1-21.4 5.7-.4 9 3 9 8.7-.1 170.6.4 161.4-1 167.6zM345.2 32H102.8C45.9 32 0 77.9 0 134.8v242.4C0 434.1 45.9 480 102.8 480h242.4c57 0 102.8-45.9 102.8-102.8V134.8C448 77.9 402.1 32 345.2 32zM223.6 444c-106.3 0-192.5-86.2-192.5-192.5S117.3 59 223.6 59s192.5 86.2 192.5 192.5S329.9 444 223.6 444z" />
-    </Icon>
-);
+const Itunes = createIcon("itunes", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABmgAAAK0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCbwsGAAE2AiQDCAQgBYMtBy0bbAURFZvzyD4Syo3HgqEp2ggguCItwZvgeV6v/tyXlwwys2T2A3RnVYJWrNR+uFJ4gL/cu12+sG+tZYMCubHI4lADoOb/mnrx/Brw8xEcSjRGLZIiATOfT2Bie+dLGmhb+oni3qZoYIcUBnVESJBIdJwe375tgZaj0S4ZqMNxOthZX1Q+ircFhWkAACBhAABAx+GD+/K0TMoiSf/fQtL1BgRAOgHgEMAADCCJANCGgQBJNA7QaATKxHXpP9CBAIBYyAUrADRgAXvhPABoABRa68jeCZG2GdTDbNM/Ov8lkt0V1I+GFpUvxsJ35jD0UJWTMecTD1bfah9cbpSt0cZo42zfzue8f59v45UIhZjTMQdiHcFBe+soJG5M2BiL/ArOrO+gK1s9lzHab/tvbs4mIce355racmd/IVXkxO58sxGFjUjuUNTmjQV1Tp9fZXeVzoed/5yWPi1d6fwe4gJ60B0Xc90l9FvHe3wLvbR+X9vOUSXhP+5OEtWhEqhgoIV3YYPBgzt3VhM8NWKrer2qzq3BuzYOMNq2PXJvIsqsHGknBauaulIjI/++/NmPqa9T5fo+HzVXP6Txanq6/YPN0NWmFLbi6ECZCsNkgAwcNnUgE1OHCQ88nQ8AAgg8XX6qdHxom99eWwFQcf/rHzodt0yexufBiwJAwKjj1jFGngKILQBQUrKMSkbECKDYKgWQZw1wQASA4AcEAIWFHwHAIFEYAUDjpzYBwCRFUwKAhZ/BGIj2IRhRxi6gBCwEhmbWAi3KDWBq403JEhUZ8SlHl/x5mNFNo13XOQ1Pl/AIx6aphJzIy8/gNmt88tAWQplmvnmWmGqKmZYoZpG+1aXm6mZhXUXI0VA9DThaca4775uHmWqRxWaab15ZpTXnfaqGZfbkmuAowtnID4qCxNbMJf+3BAAA");
 
 export default Itunes;

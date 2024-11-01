@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tent-arrow-down-to-line` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrow-down-to-line?s=sharp-light tent-arrow-down-to-line}
  * @preview ![tent-arrow-down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tent-arrow-down-to-line.svg)
  */
-const TentArrowDownToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M254.6 129.1l-21.5-23.7-11.8 10.8L160 171.8 160 16l0-16L128 0l0 16 0 155.8L66.8 116.2 54.9 105.4 33.4 129.1l11.8 10.8 88 80 10.8 9.8 10.8-9.8 88-80 11.8-10.8zM0 480l0 32 16 0 608 0 16 0 0-32-16 0L16 480 0 480zM192 256L164.6 448l32.3 0 24.8-173.3L368 177.1l0 110.6c0 .2 0 .4 0 .6L368 448l32 0 0-102.2L461.3 448l37.3 0-4.9-8.2L400 283.6l0-106.4 146.3 97.6L571.1 448l32.3 0L576 256 384 128 192 256z" />
-    </Icon>
-);
+const TentArrowDownToLine = createIcon("tent-arrow-down-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABbQAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiCAwsGAAE2AiQDCAQgBYMtBz4bEQXIHgl27MhWxHD7Yzz8/xzofT8pAKfEmAKCAnLMlsCVHQvfbXZncqpUte+pERI//5fje/f8NuDnIzi0PWisbGw8aq7nCSTWO29SiWRhlihmbhpZlJ+gg4iIkhBKh/HosPQMefyIbiqQrqdvOFs/NP7VxAmSPAMQtQEwupw73Ye/4q+Ib38Q30xFQIwBhUCGDM0FGCYTaC5XIJcL/oo/f9x/YEEAURG/NoEcFbACewA5SLI8b1ula7UKNfIFsVh1SZfOXerHrKCyqiHEnGgYnaJBzA9ooyi7FgrVakndq+eV86pFmTFxtCqqRViUamZtwWQ9tOCReW0e1H7wX9/Wf/N7RFmWr3x0S22F2rn20Stlr8103/2Qvfq9vGCn9k6t8vS79+nRQuNHzq+yA9xTWG/YOh1MtOymLXdWtAumwPvD7XkQCE727/dsRa1h/1eulsA/r248/OdDOpIeoLIEgqzbn26WpiPg6AHUU+zXRvmiQFLK8LtWd0WAUBUBkoqqCpBpprYAuaq6ClBBS/0FqKiquTKRVxHqW7ZAUt0ukBngIMjV9xJUMMzHWkX1I0MajxP+Ry9lwg6PP1b07tGrGFKIfVMAD5v2hxZmp9N+P9eZSq23w3Z7rbPWJns3arfpzX22maAh4/1QobceeikMUTwefZ5eYJ3d9thkh+3lkKGK9+NO9uurO5OfMGMfhSQRqdEH1tt91e7dOw50R2Cl+94d3REJ");
 
 export default TentArrowDownToLine;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-fancy` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-fancy?s=sharp-regular pen-fancy}
  * @preview ![pen-fancy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pen-fancy.svg)
  */
-const PenFancy: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 272l120-48L366.7 34.6 400 0l33.9 33.9 44.1 44.1L512 112l-34.6 33.3L288 328 240 448 32 512 0 480 64 272zm158.8-19.1l36.3 36.3L443.5 111.4 400.6 68.5 222.8 252.9zm-43.3 24.6L103.1 308 68.4 421 112 377.3c0-.4 0-.9 0-1.3c0-13.3 10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24c-.4 0-.9 0-1.3 0L91 443.6l113-34.8 30.6-76.4-55-55z" />
-    </Icon>
-);
+const PenFancy = createIcon("pen-fancy", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYQAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBVAsGAAE2AiQDCAQgBYMtBzAb1AQRlZoxyH4kxraI8xVRuHjRqKIxE0G1X2/P7r77QUAFgO7rhBWQTxSgAyIHLORVbCoy+vI9RAIe/maeprQfsbuSaasL6T6mv3fn//xvwGf00cayqXOef9uNfZ5AgGtw51lAWWCZJmD57eRd76Io2ST5Jxm2G1Z5QIk3cUZFupC+47T/0Pirp1MkVQYQHQCwcNO6FT7Wox7xrfGM+GYZAmIhGCCQkdFHgDmyQB/FABRFUI9GQ/8HQgBRE56bQEGFRdgOKCDJpfRs2bd11bZstHarTZvWay/mx1zG58R6eVR0tsydN3dTzIv1M9bPpfUsHUf50vBrPc8POd7q+Ja0ie6tHXS7w+1/f2/+bv6DQ+NV6flbSUdvTDzA2+fqbX7N1zD/19Um+z0vH7nl0Yuby/ti+6Dd3iB0XbOmK14teGP3IP2WawYCwe8tt+7uaj/nf4vWCfx5jfgranxM0m20kECQxzTG2J5AIgAAKQ4alCCQzJfhXds4K0BohQBJTSsBst46CFC0MlqASj9TBahpZZ0sSkuhix0ZJG3sAdk0h0HRxRNQmeNTWtMlskixAsE+6JJILKGwiSovcUwriZMS2q16thX9mxFDN0XvsHt1WpO3IG918dnEFRx8ESq5EhyO21upQXp7TGPhfB2P+4b2r6cb0qVAOcnZJBFJnd2efcMA");
 
 export default PenFancy;

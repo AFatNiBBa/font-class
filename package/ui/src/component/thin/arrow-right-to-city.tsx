@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-right-to-city` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-to-city?s=thin arrow-right-to-city}
  * @preview ![arrow-right-to-city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-right-to-city.svg)
  */
-const ArrowRightToCity: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M304 40c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24l0 160c0 4.4 3.6 8 8 8l64 0 32 0c13.3 0 24 10.7 24 24l0 272c0 4.4 3.6 8 8 8s8-3.6 8-8l0-272c0-22.1-17.9-40-40-40l-24 0 0-88c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 88-48 0 0-152c0-22.1-17.9-40-40-40L328 0c-22.1 0-40 17.9-40 40l0 464c0 4.4 3.6 8 8 8s8-3.6 8-8l0-464zm56 56l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zM512 264c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32zM488 416l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zM384 200c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0zm-8 24c0-4.4 3.6-8 8-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32zM360 352l0 32c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-32 0c-13.3 0-24 10.7-24 24zm24-8l32 0c4.4 0 8 3.6 8 8l0 32c0 4.4-3.6 8-8 8l-32 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8zM157.7 154.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3L228.7 248 8 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l220.7 0-82.3 82.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l96-96c3.1-3.1 3.1-8.2 0-11.3l-96-96z" />
-    </Icon>
-);
+const ArrowRightToCity = createIcon("arrow-right-to-city", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAAB3QAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSyEVwsGAAE2AiQDCAQgBYMtBzobYQbIHgduTDdnnUUvMfjn346878/snM3MGj+U10pSQZXgLu7goiFLIadq3yPif67Jd7f2AX7eAGcpMsGIoogA6Qa75xNoqqAUnU0Yt7jtagnfEQ9ROyfg6jd5hIDZYe4D68KX6hPJrACD4wAAoCgAAKD/1Imjuflcz6X7/wPdZyQgAA0AwCLAARwgDQHQCwcBabhYwMVF8Fz//4v/QAsCAHkkmmGbC0SAQkHx0J8LhjDX7RETExUVM1KCkHB3Cl/jF+5qGuhIMtoSHwQaMQdsS3S0NGGr70vamrA5DklpL7gybjPz941H7Ggc6FiqtLOJr8NJTQM/2BKPNsf5m4ySFZx8OAkpk8xgINftpP1sn5K9NW5z/GT5uXCQOdAkbY7fkjj1kwlTGpyMOvml/v2C+7TdFj9+PePj9+Nl9bPj46PwsrK8KKIvn0piGohPox3be/nriT51+fFI5PECa+1GxFotpbhHyfIoXpYUOxafm5FiwwInxVNHLj6B7Y82v7hG584TxvOELM/LekIUQmHfNHduIRSPA4AAwdzwd3/mRvb6GhoYAF5e/pe+n/83zRJzEgjFACBwWv1vxSyzBEAwCgDiRvNpMKMRwAVhpHgYWxFOCh8EGDx8cEglClx8WkIIGXQWr1w8EQe59RBxzMZgCKMaHLqwEFziuAQh9OJWzCNOzjMhvaKlv6SphkBs8Czbvk0728NOFtSyy1xsB3va1aZm83sNzfFGCqikgjryyaOYOkCvYXRyHuUMmWMd/FtLe9rQDksP7O7yfdUUEK+hluJx2X489MSe72zG/Pn2zbHVkPh2YL7BgExsdk1N5YJPiq91XWXrWwYA");
 
 export default ArrowRightToCity;

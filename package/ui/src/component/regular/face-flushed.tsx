@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-flushed` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-flushed?s=regular face-flushed}
  * @preview ![face-flushed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-flushed.svg)
  */
-const FaceFlushed: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM256 0a256 256 0 1 0 0 512A256 256 0 1 0 256 0zM160.4 248a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm216-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM192 336c-13.3 0-24 10.7-24 24s10.7 24 24 24l128 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-128 0zM160 176a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 128a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm144-80a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm128 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const FaceFlushed = createIcon("face-flushed", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABogAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iCZQsGAAE2AiQDCAQgBYMtBzMbaAXIjtFLz3CSMmUKTkgqHor92tv9cpg17yISspZMaTS16ZoKlekMlenE+7+19ufEdg/V4URRS+qSxJqKRSqJxiNBvfm/3PObdhvw2+GJHcrYNvV8zMKj5nqeQGK9cCwbnmaBZZqAZdsMCXSIQqiGiCNKIhq2d9j+BGWcoH6oyHvKK3CaPzT+6OogVQUARA8AgN2j8EC4/IqvQC/NPeKLPxAQuwAYg1CgwBAENlAFhtCMAaVS8IMUTf4PxCCAqEGfmaBEO87wAihBai1p+vpsNsnViKBzaVH19Zz0FlOEVn0eOZ1+z+brqNViw/+F6PJ9MluDw+8AhF53LqFl9yrwLfIz+MP9BrW6XQe9R0Us6A+LZnWGhNFCL+hHeARa3cSJmtMd0hkUzOsN64+I4WB6w3zdftd01WzNLhqdBaEhsTMrokcR487HjocGY05HLifGvGWV5R+T16xX+LhwOgefHYSDA0GunztBC+/xofDUz/m6gbu7gctAvyekVmhK/g/V1Awt+Ke2FryD4uC3QBMYT0x+Hxx8T/JbLquio6suBX3BnKL6+iIOv4XMrqzMJu8HEAi6JxPOkpVd/1gEBeD3+Pdffkaalwn5CrRIEBQTClMJCZAEACCjCngJCKQTrfRdO9wIENoQINXaBCgMUoFAqc04BCoj7CBQa7OHKko2hAGJA6QOx6CwpBGUBuyAyoaHpDYQVNfUHEv7M8z2QshzE7Yyt8TOeNvSdW9T4qoLPnYlVTIipZ2QpViRCpky5KoArkxgXqmQl0V4+iLMijlLmDN83X3eHiVTmXK5ihWldVzg96FElT1dSgGFis6ppSSS/PBrZlkFleU5mRkAAA==");
 
 export default FaceFlushed;

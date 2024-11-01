@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-to-door` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-to-door?s=sharp-solid person-to-door}
  * @preview ![person-to-door](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/person-to-door.svg)
  */
-const PersonToDoor: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M224 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM114.7 96L128 96l64 0 6.2 0 5.7 2.3 80 32 11.3 4.5 5.4 10.9L339.8 224l28.2 0 32 0 0 64-32 0-48 0-19.8 0-8.8-17.7L267 221.7 238 299 305 340.9l20.4 12.8-6.6 23.2-16 56-16 56L280.1 512l-66.6 0 11.7-40.8 16-56 9.4-32.8-86.2-53.9c-25.1-15.7-36.1-46.5-26.8-74.5l31.3-94-27.7 0-38.6 38.6L80 221.3 34.7 176l22.6-22.6 48-48 9.4-9.4zM91.2 352l18.3-41.3c7.4 18.1 20.4 33.9 37.9 44.9l9.5 6L141.2 397l-8.4 19L112 416l-80 0L0 416l0-64 32 0 59.2 0zM384 0L576 0l0 512-192 0 0-192 48 0 0-128-48 0L384 0z" />
-    </Icon>
-);
+const PersonToDoor = createIcon("person-to-door", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfwAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCMwsGAAE2AiQDCAQgBYMtBzUbOAXIjsO44TuyxVKeRTz8/1zkfT+ZObvJMmQBmMpoy7aualxROCBLKCeZa93m/3LP7/nRAX4+gkMby/aw1fI9nycQ6FGlYwGl28IsUUy3iQh2RLFXQoJMouOUjqc95PF19lCN9GaC5/uHxs+6e0jSMgMQ7QAwb8uGVRo/xA8RXzYnvrQCATEPVAIZMvQSYKZMoJdchVwu+CGaTfkPrAgg6vAwCeSo4zoeB+QgyfO89YL27cta63xzWSt2vD3k/UHvdn9j4DuD3+uxsSzKzrEpOgdllaUoih4xOjaa0kHRLaqoKCqibwwQfnOEjbd6brFbzYyhMTtGxJzounHMyDFvDuscvbYyiojySFmUeWgYZYTs0f+jdh/92s9hvn++6MaN04Xc1skxrVtvWGdNX+/YbvAqvaq5qoX33NFrpfnDzLTZ//532Hwf+N8LNk808sCBQ3126WWzQ76yWdMbXZtDsfajF1/1l/M6n52r2rOngWvT0DDWXWM1gEBw+JlfW+9pO/PfFmUCP33y+6/44mYjzU0foYUEgmxkc6SdaS4wOoAkxWX9nS8KJOfl8K6tvCZAKBAgqSsEyPTUToBcYYQANX1MEqCusEEm8pZCJ7sGSFo5BzKT3QK5Tj4GNTN9Gtd1iiwDyfwhP4Bxiy20aFk1bvTYanq1rFMqqfA6P6MKC0Mvl75htNFhZ5x20SEHHXPRIOetyl1yymIPXuSHKuOMNlZluuq49bx6s0POu+CYM063RWao7jtDXfZHDyM5AeZ4ZUkiUpuEDUddPDPqtQIAAAA=");
 
 export default PersonToDoor;

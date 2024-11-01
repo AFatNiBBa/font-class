@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `horse-head` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/horse-head?s=regular horse-head}
  * @preview ![horse-head](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/horse-head.svg)
  */
-const HorseHead: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M405.1 48.7c9.2-3.3 18.9 3.6 18.9 13.4c0 4.2-1.9 8.2-5.1 10.9l-34.3 28.5c-7.3 6.1-10.4 16-7.7 25.2s10.6 15.9 20.1 17.1l1.5 .2c31.3 3.9 58.7 23 73.3 51L520 287.8c11 21.3 7 47.2-9.9 64.2c-10.3 10.3-24.3 16.1-38.8 16.1l-7.4 0c-18.5 0-36-8-48.2-21.9l-26.2-30c-10.3-11.8-28-13.5-40.4-3.9c-27.6 21.5-67.3 17.2-89.7-9.7l-25-30c-8.5-10.2-23.6-11.6-33.8-3.1s-11.6 23.6-3.1 33.8l25 30c25 30 62.3 43.8 98.6 40l43.4 68.2c2.3 3.5 3.5 7.7 3.5 11.9c0 5.8-4.7 10.6-10.6 10.6L136 464c-13.3 0-24-10.7-24-24l0-123.3c0-98.2 61.8-185.7 154.3-218.6L405.1 48.7zm0 367l-21.5-33.8c21 21.7 50 34.1 80.4 34.1l7.4 0c27.3 0 53.5-10.8 72.8-30.1c31.7-31.7 39.2-80.4 18.5-120.2l-48.3-92.8c-14.4-27.8-37.3-49.6-64.7-63C463.8 98 472 80.5 472 62.1c0-43-42.5-73-83-58.6L250.2 52.9C138.6 92.5 64 198.2 64 316.7L64 440c0 39.8 32.2 72 72 72l221.4 0c32.4 0 58.6-26.2 58.6-58.6c0-13.3-3.8-26.4-11-37.6zM360 224a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const HorseHead = createIcon("horse-head", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABjQAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCOwsGAAE2AiQDCAQgBYMtBzEbPAXIhiA+r/+vPslcgHmCPkgvia01E9c8//On97Yne5RoSy1soFj2eYMNdDhdi1bhbKI4v53fucIgnUmSxAsZxjNMf/kbyOOfuECJdGV6B+fHD41vdDuFpJQBiCYALNl843W98GV8GfF2+VHibWsjIJaAQiBDhj4B5ssE+uQK5HLBl1Eu2//AggCighxhAjlKOBbnAnKQZHm+eHx1bak+36y2VLP75e0ntM2OS9ovba+NVydsGpd2XdF2SU1NnDV2bNw1/JaRt5kFlw2/pHtM3Dni1lHoYJe01cRtPREfLHt5883TxAkTn51RG4+Pu7v3+p7N4r65pF43dsvdJN7dJLniyjGBBvDto67uPfHxbu+9auQtXVeOGHpX013fDXlnt3dcct7PkyqX9Xly4bpfJxVHT9rG8c3FO+XOSv0jrjVk2+1PPKn1XD/0/f/iuUZeeeZD45YbXlF9wWc2bD+atc66akX3WZP3X7JkiS8r3fDpEesv/m7yNra8ZGmdE0/4y3s2GZiykle01dEapk378jMnNP5Y1XbD+Oc3bG/f0JGB2Ov7A8acvn3j/N+qahP4+qkffs+HDy2/kJamu1AlgSAbXx5vm3SCoRaCWQH7KQ4zlL5qsUByqIxca53LBAg1CJBUqBEg06tJgFyNcQKUDJghQIUaG8tEXi202bYSSZ0DicxMxxK5Ng8TJfO9HlRoi0wLeR3iPwJTVrbAinnFlImTi7nFtKAIisXCwXnFsjb6MNcwhpbazf72c4hd7WJPhzTQQdaND7WvlQhc4YcKU0w0WWGu4rh8r2zGwUEOtudYOh9mnuK+NdphuP0YMhOhnCqRJCLVPE/pr7gAAA==");
 
 export default HorseHead;

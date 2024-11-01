@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lasso` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lasso?s=sharp-regular lasso}
  * @preview ![lasso](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/lasso.svg)
  */
-const Lasso: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M576 176c0 97.2-128.9 176-288 176c-14.9 0-29.6-.7-43.9-2c7.7 15.3 11.9 32.4 11.9 50.2C256 461.9 205.9 512 144.2 512L56 512l-24 0 0-48 24 0 88.2 0c35.2 0 63.8-28.6 63.8-63.8c0-24.9-14.5-47.5-37.1-57.9l-44.3-20.5C50.2 290.1 0 236.6 0 176C0 78.8 128.9 0 288 0S576 78.8 576 176zM288 304c132.5 0 240-57.3 240-128s-107.5-128-240-128S48 105.3 48 176s107.5 128 240 128z" />
-    </Icon>
-);
+const Lasso = createIcon("lasso", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABagAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBYgsGAAE2AiQDCAQgBYMtBywb3gTIjsQ4JvKLKBDWePj/ucj7fjILgFlmdEBqWTFLYleUCLanspWdfA+B/7+bz+/50QF+o0O5xrKpgSzwOZ8nEAY2PE8oCyzTACjW3jZ02KjCJxISKBGN57idDsjj5zinRLqUvsbZcdP4W2PHSUoZgKgFgFEL5kzz6Y/4I+Kr8nPiK1MQEKNAIZAhQzMBhsoEmskVyOWCP6Jcpn9gQQBRAX9pAjlyTMV6QA6SlOe96lYtVc/nVy1V2XNzaMS7uRHfzD3R/pKrHR/2rVIlomrVB12eNL0+eHB8OfxDizsjPi74fsG3874d9r7Vyu8XRHzf5vb87+Z/M/eb4ta8b+e1flzr8T99vf5rI2pawIaRDRjZYIYGs140rfm/FzbqqdHCm7VrV2nY6qkL9etXt2D9yIa+PgMy3Vq/QMtD64xpw+i27do1BuY6NkTngUDw23/xcEXNof9WqprAX2+Q10j5UxqZHqOSBIKsa7mrpWkkpJECAJBiv9ZpJALJWAlftZrzAoQqCJBUUEWATFO1BMhV0UWAkhb6CVBBFXNkIq8s1LNsQlLNLsj0dwBy9TyFkqE+cyuoF1lmiXkhvuvSxls0bq7o1b1nMbhwQyolC1/HQ4pto+P+UuoEO9bbYbu91llrkzBDdpsW7LPN+AiP86BCL931VBisOE5e1+dbZ7c9Ntlhe58yRHHf6Wh/3NwJ7ISpvS0niUilrV92AAAAAA==");
 
 export default Lasso;

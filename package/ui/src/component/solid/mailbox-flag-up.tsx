@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mailbox-flag-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mailbox-flag-up?s=solid mailbox-flag-up}
  * @preview ![mailbox-flag-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mailbox-flag-up.svg)
  */
-const MailboxFlagUp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M400 16c-29.8 0-54.9 20.4-62 48l-92.8 0C290.4 95.9 320 148.5 320 208l0 176c0 24.6-9.2 47-24.4 64L512 448c35.3 0 64-28.7 64-64l0-176c0-42.6-18.5-81-48-107.3L528 80c0-35.3-28.7-64-64-64l-64 0zm0 208c-8.8 0-16-7.2-16-16l0-96 0-32c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 80c0 8.8-7.2 16-16 16zM0 208L0 384c0 35.3 28.7 64 64 64l160 0c35.3 0 64-28.7 64-64l0-176c0-79.5-64.5-144-144-144S0 128.5 0 208zm64 0c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 224c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const MailboxFlagUp = createIcon("mailbox-flag-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeQAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCBAsGAAE2AiQDCAQgBYMtBzYbCgXIHqcr+pi6ZhIP/28Xdd+v6j4z1WPUAPKSyhyLKaPN1BzE0N46hCQY3/xf8/k9PzrAz0dwKBG9KCyPyOcTGOBsb942kSicDWhivN3ZStuxaI8DSZmR41s5LlvI47vsMhXS3ekL3JjeNH7T2mUkdTMA0QgAk1Ysmeejn+PniM//f5343BwExCRQCmTI0E6AsTKBdnIlcrng5/j/f/wPLAkgquRJEshRxXbsBeQgyfO8c8tW9WuV+vnyWqXYcY0Rt7Uq4u1+zxP39azFk32ebRvx5fiIe3o/071wR4uIiDtb1uL25uK2ZkVA1Wbh7l5Pd7OWPzL+g+mOfa+sLZGIb52x8zONnvmDL7Z/4cYXW9bnn6Xr9Bg2tN9LKru+9lDjxsVLYtLXzRV19UMT+7nBRqUGP08USAwGWoj+jQ1fEnKqPGTOb3fyyrryJBNZv0ik8++AQPDEtgdvaDj27zq1BH5956/pxDQxPYM6Egiyvv/3tTZNBEAHkElxXGflgwLJejm51HruECAUCJBUFQJk2mokQK7QR4CKDoYJUFVYIhN5XaGZdQ0k9RwCmeHOgVwzr4KKsT5OVzWLzNVoR6E/egnTe2jasnJQ/4Hl6HJaVxjvIXl+TGk2eh6nvl6w0XYH7HfUNlvtcrRDDpuXO2af6Ro8zReVBulvoNJo5XHrcf1y2xx2xC4H7I+LjFHej/Z0XB/dC+xEMAcrShKRGr6E1OYDJ/s5dajfsYMAAAA=");
 
 export default MailboxFlagUp;

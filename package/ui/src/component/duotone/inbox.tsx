@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inbox` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox?s=duotone inbox}
  * @preview ![inbox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/inbox.svg)
  */
-const Inbox: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M73 288l51.2 0c12.1 0 23.2 6.8 28.6 17.7c4.8 9.5 9.5 19.1 14.3 28.6c5.4 10.8 16.5 17.7 28.6 17.7l120.4 0c12.1 0 23.2-6.8 28.6-17.7l14.3-28.6c5.4-10.8 16.5-17.7 28.6-17.7l51.2 0L391 96 121 96c-16 64-32 128-48 192z" />
-        <path d="M121 32C91.6 32 66 52 58.9 80.5L1.9 308.4C.6 313.5 0 318.7 0 323.9L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-92.1c0-5.2-.6-10.4-1.9-15.5l-57-227.9C446 52 420.4 32 391 32L121 32zm0 64l270 0 48 192-51.2 0c-12.1 0-23.2 6.8-28.6 17.7l-14.3 28.6c-5.4 10.8-16.5 17.7-28.6 17.7l-120.4 0c-12.1 0-23.2-6.8-28.6-17.7l-14.3-28.6c-5.4-10.8-16.5-17.7-28.6-17.7L73 288 121 96z" />
-    </Icon>
-);
+const Inbox = createIcon("inbox", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBfAsIAAE2AiQDCgQgBYMtB0YbFAXIjsPGMR1p0hLGYzx8b+vbua97pv7O+Jr2mllk4uCRqIcQ4ZlHpGIpRUQRbk0yM7xPXPP8z58esIgfKdsiNQqwF30+gZ3vvC1twBOe6Qxsuw3ZikGYGmSIDD9iKDJD9AZ5/Jw9qER6McHj9D+A8Y9+HiTplgGIFgCWbtu00Td/xp8pfup8SvxkAwJiGSgEMmQYKMACmcBAuQK5XPBn6nT4MzqdggCijD45A2WUsA8nATlIksjzYf0GVkv1fGu1VNn1UM+Id/pujmeIF8d+OLIe74//eEDEfb23xkujnqukXqtvicpE1DdeGIH2e/37Vw9UYtu2aqX6br9ne704srqOHTAgXh5djagWrwwMLw/7qPXRv0Md5frrfe5Q2zLnb326dqu022/c640YV3br6lOpbqnd6dNY0vCnJn9tuin3/uLeKdcVT7A5HVprXp+OhMM7c8Zu+BoAbwWCnRunfravueD/rmoCf3/2f/h31PkzSR+hSwJBNqEzwe4EEgEASHHVsARrBTLzJXCt5jkBQoUMJ2UVODNAC85VjIdLBpt5vaxik0zk3YSe9mQ4qbkAZ2a5C8719AlcssC3SVnPyPSM0RLml5e4SgIrdxVTJ00p5hXdWmJVh7Kb84tlc8xVMzEWjjrqnLMuO+KwEy4L6KKN+RVnrBqBK31RYapJpijMU2x3l+JWkVx0yYk2v7/NfMV5f4yr4/ljYT8JMO2GrmREiqx+4uzBc9cnPlelKfhnCQAAAA==");
 
 export default Inbox;

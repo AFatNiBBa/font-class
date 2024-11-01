@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `x-ray` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/x-ray?s=solid x-ray}
  * @preview ![x-ray](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/x-ray.svg)
  */
-const XRay: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 64C0 46.3 14.3 32 32 32l448 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l0 320c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32s14.3-32 32-32L32 96C14.3 96 0 81.7 0 64zM256 96c-8.8 0-16 7.2-16 16l0 32-80 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l80 0 0 48-112 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l112 0 0 70.6L189.1 307c-5.2-2-10.6-3-16.2-3l-2.1 0c-23.6 0-42.8 19.2-42.8 42.8c0 9.6 3.2 18.9 9.1 26.4l18.2 23.2c9.7 12.4 24.6 19.6 40.3 19.6l120.8 0c15.7 0 30.6-7.2 40.3-19.6l18.2-23.2c5.9-7.5 9.1-16.8 9.1-26.4c0-23.6-19.2-42.8-42.8-42.8l-2.2 0c-5.5 0-11 1-16.2 3L272 326.6l0-70.6 112 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-112 0 0-48 80 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-80 0 0-32c0-8.8-7.2-16-16-16zM208 352a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm80 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const XRay = createIcon("x-ray", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABkgAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCaAsGAAE2AiQDCAQgBYMtBywbZAXIjtRW+YViEg//b9d/+9yqfgDrWxiRqTIqcxL0mlSIuyVC3vFdnHqeaaEAvlFQPmt1Wy/esak45/kGq8i0ifUAdoLVtALWqXlPDdB1hbor5PFFdr8S6ZX0M55yHxq/6nU/SW0GIFoAsGLfri2+LUc54qfKR8RPNiEgVoBCIEOGAQEWywQG5ArkckE5KhX2H1gQQFQJ95BAjiq8jDcBOUjyPJ+0q7a2vtSY760v1WX3dEe8VN8Yj3W+4O6O5+tSVdAQj3a9GEvI7AwV7nm+Q9RFtvJCZ33AGzbGi3V18WjH8+7unBCvjKmPt/onxUtxT9dUYn1E1HdXu1/sqkMIE7tf6Hy+Q6A29kilPmbkuy3v/u7PZ392d9PDPNz0LYFMYu7yqs6wrDJcbipsh9mmcny6qxFCf9YZ5dqapO3Ln2h+tMs/d9/s7n+6PNrc9tOXJDXXjrJuY3D64VABRaZVrGTYbc1K4wMQCF5679yNx5oX/19Tn8Avn7cCD/6GkvQuaiQQZJMrkx1OIBEAgBQ3GpkgkDwtF7wGL9psqKOBpEodZPq1QK7OJCgZMkfauHmXTOS1QocjEJIG10Bmrjsg1+EDKFnsu1SVjsg+TuXTUn4NM9d2iTXrihlTpxcLi9mKSv3eJD25qNgcHn8j75gADzrrKle63hmnXXB9h7/WluwNrrB2iVvjiwozTDVdYaHicP3h7r3OuNZ1LrjKlXaaRYrrvfFuXO4/AcaSIDiTnW5BaSrdPOXaE7cAAAAA");
 
 export default XRay;

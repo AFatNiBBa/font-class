@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fort` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fort?s=sharp-regular fort}
  * @preview ![fort](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/fort.svg)
  */
-const Fort: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M136 112l-48 0-40 0 0 16 0 48 32 0 96 0 0-48 0-16-40 0zm56 112l0 240 64 0 0-80c0-35.3 28.7-64 64-64s64 28.7 64 64l0 80 64 0 0-240-32 0-192 0-32 0zM496 464l64 0 0-240-64 0 0 240zM144 224l-64 0 0 240 64 0 0-240zM256 512L80 512l-48 0 0-48 0-240L0 224l0-48 0-48 0-16L0 64 0 48 0 0 40 0l8 0 0 16 0 32 0 16 40 0 0-16 0-32L88 0l8 0 32 0 8 0 0 16 0 32 0 16 40 0 0-16 0-32 0-16 8 0 40 0 0 48 0 16 0 48 0 16 0 48 192 0 0-48 0-16 0-48 0-16 0-48 40 0 8 0 0 16 0 32 0 16 40 0 0-16 0-32 0-16 8 0 32 0 8 0 0 16 0 32 0 16 40 0 0-16 0-32 0-16 8 0 40 0 0 48 0 16 0 48 0 16 0 48 0 48-32 0 0 240 0 48-48 0-176 0-128 0zM592 176l0-48 0-16-40 0-48 0-40 0 0 16 0 48 96 0 32 0z" />
-    </Icon>
-);
+const Fort = createIcon("fort", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABlQAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDXQsGAAE2AiQDCAQgBYMtBysb2AXIjtEnY2bGFUccYyKCqxLB135lv/lQezNHnLBChaQBSDjWQJJQuBMyQgHauK0o0lG4tKb5AqmzdSlxyugAYMhubkow+3dzqjD9/Tz/1lS6eEE+tKgCKd+NolJg56lpDbTz6cAmiht0NyhYL/R3hTp+xz0N6Xl6j7v6l8ZPUy5ImgpADAIA2w5X88B3oxvx7v8f8c52ICC2AczHoUKF2TiwkVBgNpH5QK0WdOP/f/YfiCCAaJmfmUCNDj7jC6AGSVvXAxM98ht9pemrD5UmH88lC1FKREQ+iFMi4uXSF8Od6UkJXClzlYylHM5Zsm46qrgjYI65iVKEECWrRZUYEhXZCx0PBpnzk2XhDHueqd6vvYc7u4laDAieIWCMa/aXZnpCiWJo6PJS2qcoSVgC7l4koHmZOIbs4v68z88uWQIihGHM2GGQ10jtK1uUNXSbBH6IjKAlRvOKRGQxbv8dIwCB4Me3x+LTAxt/yUoCX18tFoKX//PpappBRwJBtez/Mr10FVifYCZSXKFuWGMgeW0fXer1RICQSUDSyqAyCwO1bClozOW93Mr2E4q6RxjVT0DS6zyorHYOaqN+QGOj/3hrNISXtfai1P5VZspliewqdNoJQ1ibFemuVLXSHcbOLuMZrzLBg7Bm354Tq1ZsOsnwR/KpU7tyTVzWDyEnO4JCcHDhoqmBZUeObTr2hi8ThtPHjM6aG5ugV8BUuVxGkohUfxgA");
 
 export default Fort;

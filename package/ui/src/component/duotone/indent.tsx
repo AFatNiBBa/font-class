@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `indent` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/indent?s=duotone indent}
  * @preview ![indent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/indent.svg)
  */
-const Indent: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 81.7 14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 32C14.3 32 0 46.3 0 64zM0 448c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 416c-17.7 0-32 14.3-32 32zM192 192c0 17.7 14.3 32 32 32l192 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-192 0c-17.7 0-32 14.3-32 32zm0 128c0 17.7 14.3 32 32 32l192 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-192 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M127.8 243.4c8.2 6.4 8.2 18.9 0 25.3L25.8 347.9C15.3 356.1 0 348.6 0 335.3V176.7c0-13.3 15.3-20.8 25.8-12.6l101.9 79.3z" />
-    </Icon>
-);
+const Indent = createIcon("indent", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABiAAAAHuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCJQsIAAE2AiQDCgQgBYMtB0gbPwXIhod/5sq/L8lSdoucVgGCIgIFDJZsq3hcaYyYU9sPqOfi1PMsDAXwiYJB20PjG3zNjvMK9Lwgmzb1alzTGlh3py2iaO3wiCUkOT47PlfI4kV6Vg3Jo6SMG/Q/gPFLJ2dJNKQAoiUApixdOFupEpUkytW3RNksBMRUUAikSNFVgPFSga4yBTKZoJJUq1SiWi0IIGrR51JQizocwlFABhIhy7KWHThsrGmWLcnP5EvvtV0Ud9vfbx/xoMODdovTk+0i7jU2iyvCjlOjHeRNcbntXYlFlxKNSE7vJb1et3z9e8/ylrIT5Q8fNs9x7uDB/Ln84MFzzaWTzS9ysflJzS9ebN78YqiD/ueqI0o8zjiJ7wOBYNy6xS3Xthj/f31jAn6++/Pf9ENSrUQpeY16CQjS/tX+VkUJoiQAAEkc0StKIJBaJcPnmtwXIORUSNTKIdVFS8jk+kGN7kacr5VbKBVZg9DWagOJJvshNdIxyLT1BmqM9yWu1TZS3eM1h//6pcyUyIxtxZCBg4uxxTRXBHVi4/q4YtvpfcT3+sBeW+y1xyGbbbLdIUEdMDs7bLeZK3KGLyoMMdBghbGK4+peWSLiAw7aPpbONxmnuB/0dmQ93Qf8BDMOdT6VEkmkzbfv2bR5z6EBOmy0bKXHCg==");
 
 export default Indent;

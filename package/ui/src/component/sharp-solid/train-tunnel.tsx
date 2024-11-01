@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `train-tunnel` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/train-tunnel?s=sharp-solid train-tunnel}
  * @preview ![train-tunnel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/train-tunnel.svg)
  */
-const TrainTunnel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0C114.6 0 0 114.6 0 256L0 512l105.4 0 64-64L112 448l0-320 288 0 0 320-57.4 0 64 64L512 512l0-256C512 114.6 397.4 0 256 0zM361.4 512l-64-64-82.7 0-64 64 210.7 0zM288 384a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm64-192l-192 0 0 128 192 0 0-128z" />
-    </Icon>
-);
+const TrainTunnel = createIcon("train-tunnel", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABagAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBZQsGAAE2AiQDCAQgBYMtBzMb6ATIhqBe92XPk/6vW+kYdMyYoQEgCL2pgSHecoqRY02dep7zUADfssSDNhYuDciYuvd5BAIY69UXUa1gNS2AlLm6TUZgRxh7I0RIIjpOO65ukMe72X0apJfTd3iyv2n8pY/7SFoyANEZAIt3bl3vo7Zoi/i2fp341loExGJQCWTI0F+AeTKB/nIVcrmgLepa/gMrAogmPpdAjia24SD+V5HkeT6ypVtL2eiQ7ygbxd7f1kV8tyjio20pytgaRWTRIVIUsTnKyOKPJZ9s+GHH7i2btxSxKcodd3tGvFA80v05d3o8Xz7a68XYWZSFKCOGtHZu/Wfwdye+U3+40l2e7kNvKzmtNtsilUVmq52Glb37PH13pVM1zreo/bLqdseHeKhjyQh54YcfffTRHR9BgXhu+CuvPX+w07z/25UJ/PnOf//Qb1H9UZJa0U4CQTauHmdfAokAAKS4YUiCQLJOjq/a3gsChAIBkqZCgEw/nQXIFcYK0DDQdAGaCltlIm8Ruts/QdLeZZCZ4SbIdfcqaJjnS6Ope2SpxSYG+7NLWmGh5UfV5AmTqjnVMjO4bKHbdm61LY+6UTujcdUJF11wzXHHnHbNIFest687b0UEL/dBlckmmKQyR3Vc7i/vcNwVV5120QXdM1d1Xx/lRjw+GlpCyilCSSJS+ycUHH/t+oULx88BAA==");
 
 export default TrainTunnel;

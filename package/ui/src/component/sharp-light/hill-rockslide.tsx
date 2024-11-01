@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hill-rockslide` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hill-rockslide?s=sharp-light hill-rockslide}
  * @preview ![hill-rockslide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hill-rockslide.svg)
  */
-const HillRockslide: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M229.6 112l4.4-7.8 36-64 4.6-8.2 9.4 0 72 0 9.4 0 4.6 8.2 36 64 4.4 7.8-4.4 7.8-36 64-4.6 8.2-9.4 0-72 0-9.4 0-4.6-8.2-36-64-4.4-7.8zm63.7 48l53.3 0 27-48-27-48-53.3 0-27 48 27 48zM0 41.4L27.3 68.7l416 416L470.6 512 432 512 16 512 0 512l0-16L0 80 0 41.4zm32 77.3L32 480l361.4 0L32 118.6zM488.2 437.9l-64-36-8.2-4.6 0-9.4 0-72 0-9.4 8.2-4.6 64-36 7.8-4.4 7.8 4.4 64 36 8.2 4.6 0 9.4 0 72 0 9.4-8.2 4.6-64 36-7.8 4.4-7.8-4.4zM544 325.4l-48-27-48 27 0 53.3 48 27 48-27 0-53.3zM128 64a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM352 256a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const HillRockslide = createIcon("hill-rockslide", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABmAAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDAgsGAAE2AiQDCAQgBYMtBzUbhwXIhofn7fo691V9Vc+4sesam9lCiv7Ea2cOMiEyJ655/uffgGX/4o9SQdGAUdNRJBbJAF/nTZvI7HFrm6DOPNMJqSp1n5rZItaY2uMXffy2hTw+iMGaSA+l93FHb2l87XzXkuQZgOgCgBnrVi3x5qfxacT7/z9HvG8RAmImKAUyZLhIgMkygYvkSuRywafx///6H1gSQDRjmxPIUeAcHgXkIGnN84s7dm7p07F790pTx3xtpanY1Kg2ZkUjKpVazIhaVGN6VKMo6jEz6ksqRWVYDI0iBseQnQMGDtgTA6LoEJFFrElZ6hh79yxdsrQejBuxrMK1WAILcDUWX6C+buKEieNDTIhJEXuvakQ8ULmldp8rq/cWN9fvjzW3uYjCT3lt7vlwl4e/7fH+3vd9tWwcX5xmnrYV80wzzjjG+n4sOp7whLFG1PvsI2hob/eyfk92cQ7xpUsOgGb//rem/vxDp7WZr81pPzvllJ+5eNzxv5AY6y/Cas873ciNnXp0xSdv+POBQPDVlH9Xbes8+dfWSgKfv/z9j8fp/n8zTU8Po1UCQTb4/8E2p+kgzACyFGf1DG4okDyoFa+1g/sFCAUCJM0KATIX6iJArjBIgCaXGCNAs8IqmcjbhKotF5F0cILIjHUZkat6hmgy2Vtps2pkmSrnmfyfmDHXAnPWlSOGDi8nltOeU0k+sc1PKl/b/c+WmQHYaK9jjjptj90OOG3wk5YUZxwxNwLn+KLSCEMNV5qoXB7ujbWSnXTKgWdl3TZJh3+f6e+seLUB8BJyjtSVJCJ12mTmkOSX9hA=");
 
 export default HillRockslide;

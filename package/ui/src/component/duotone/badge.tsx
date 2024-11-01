@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `badge` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badge?s=duotone badge}
  * @preview ![badge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/badge.svg)
  */
-const Badge: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M340.9 51.1C324.8 20.7 292.8 0 256 0s-68.8 20.7-84.9 51.1C138.2 41 101 49 75 75s-34 63.3-23.9 96.1C20.7 187.2 0 219.2 0 256s20.7 68.8 51.1 84.9C41 373.8 49 411 75 437s63.3 34 96.1 23.9C187.2 491.3 219.2 512 256 512s68.8-20.7 84.9-51.1C373.8 471 411 463 437 437s34-63.3 23.9-96.1C491.3 324.8 512 292.8 512 256s-20.7-68.8-51.1-84.9C471 138.2 463 101 437 75s-63.3-34-96.1-23.9z" />
-    </Icon>
-);
+const Badge = createIcon("badge", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABdAAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBSwsIAAE2AiQDCgQgBYMtB0Yb4wTIHoVx41NCHIjI1vZcCfHAFQ9f+72eu7tBcGGdKFRAklARaKxGSY6EQVdbob+qUH9qKzvVzz72a/slnUexd2LaRJMoIt5UKlcKFaImvP4SGT42tvOMa67ug0tK7zb9/Tz/558+4Avij5hlDVLglYvzCew8NS1xNoOZzsBm3jJRj5h+yZzUZHq82h6/blDid36NBtJn9he85/8BjL9UziBpyQCiGwAsHzXqeKsz9RS16pGoqYGAWAFgFIOMjEEMmMMJDOKNgqII6qmqoB5VRRBANOL3ZtCIjDWwBaCAhChllRo6yiEfbr11G8YX0Y0llTthjqNUVWJ4rjKrYs5rLbth4lt7awpzP02oG2OO1W4LxzU2w+t8r5i/sdrcL5pv3o+B40Ht6Oj7xfAsLOXuwoogICYIKwu9knN3fqFmM02p95mz4QVAIPiZ+0/j8rn/zeIE/vz6/6f/jqq3JP0AzRII8kTlMZJAIgAAKZ6BKQGBbBWrXWv3AQFCKwKSRq0gG6AARatx0GBY9HqjVns4UVqEfqMCknZ3IJu1D4p+D6DBnI+oUX/kcOKCgfvNJReQyK+joC9AKdpmBh8hTF1O07Ht2CsdJx3FnHVrdsyasWgHqC31dNeqgkbmfREJ8gkgKWQun+U2OFu2kVmL9lXS6H7osKePO2kzLGDyIa5kIkXuuFgz87Net9TkILof");
 
 export default Badge;

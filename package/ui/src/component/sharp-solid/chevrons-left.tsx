@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chevrons-left` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chevrons-left?s=sharp-solid chevrons-left}
  * @preview ![chevrons-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chevrons-left.svg)
  */
-const ChevronsLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M41.4 233.4L18.7 256l22.6 22.6 192 192L256 493.3 301.3 448l-22.6-22.6L109.3 256 278.6 86.6 301.3 64 256 18.7 233.4 41.4l-192 192zm192 0L210.7 256l22.6 22.6 192 192L448 493.3 493.3 448l-22.6-22.6L301.3 256 470.6 86.6 493.3 64 448 18.7 425.4 41.4l-192 192z" />
-    </Icon>
-);
+const ChevronsLeft = createIcon("chevrons-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABWgAAAHXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBMAsGAAE2AiQDCAQgBYMtBzQbtATIrg54KsuLGxeIJI5aVS2qbcYU+7yYiIf6/X5n913ELIp5KFoyKTA0S5VQiZYZKkMkf/t+bO1DNdH+kEQsiSaT5NZotAKV6O20hAuFkC+Zawn7i0/1XQOg/gIvK7M/bv5551GAzyi0sXBp5xN8zvMEAl1D887jLMwy/QL23zY8OqTwRYQkSkTjhNBYHVDiWoVPviTwUB8av3SOkJoqAEQnADi+LRbw+o6/oJ/aEG9yICCOAUwiVKgwisAersAonklQFMF3/NfwP3ASAoh6yO8oQUHBDrgAUEDKwtMNSflyXkVaJ6kazAYjlWk64mGKCt3SbMTCECWp2a4/d/Y3JYYv0Inn9PyqOEVqxa+ekfnOeYBAsHM/L8q9/8YWDuDn9b92nbb2Hu88g0YJgmquNqeV9NDGGwEAMvbQ84sIaQWH3LXVIwKhGQFSvWYBKiNUCBTNZhGoM86LQL1ml7iiiBF6tQekVndQ2XCAotcF6uz50Or1BjeBqOunvm/xSY0kmpjT5mAh5lo6nRMEV8NsWTDsKWKEVfQtzG31dI1sFbZWMHdmkhGa8CHGycaBCWHb7vN8Rc/axsjCvNQJY+cVg32cbgSZQ3BX7KYkUt4Z9vbrxXzztgAAAAA=");
 
 export default ChevronsLeft;

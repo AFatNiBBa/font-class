@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fish-bones` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fish-bones?s=solid fish-bones}
  * @preview ![fish-bones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/fish-bones.svg)
  */
-const FishBones: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M87.1 148.2c5.6 4.6 8.9 11.4 8.9 18.7L96 208s0 0 0 0l0 24 40 0 0-72c0-13.3 10.7-24 24-24s24 10.7 24 24l0 72 48 0 0-72c0-13.3 10.7-24 24-24s24 10.7 24 24l0 72 48 0 0-72c0-13.3 10.7-24 24-24s24 10.7 24 24l0 72 40 0 0-101.1c0-16.9 17.1-28.4 31.8-20c16 9.1 30.6 19.7 43.7 30.7c39.1 33 66.9 72.4 81 99.8c4.7 9.2 4.7 20.1 0 29.3c-14.1 27.4-41.9 66.8-81 99.8c-13.1 11-27.7 21.6-43.7 30.7c-14.7 8.4-31.8-3.1-31.8-20L416 280l-40 0 0 72c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-72-48 0 0 72c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-72-48 0 0 72c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-72-40 0 0 24s0 0 0 0l0 41.1c0 7.2-3.3 14.1-8.9 18.7l-48 38.9c-8.8 7.1-21.3 7.1-30.1 .1s-11.5-19.2-6.6-29.3L54.9 266.6c3.3-6.7 3.3-14.5 0-21.2L2.5 138.6c-5-10.1-2.2-22.3 6.6-29.3s21.3-7 30.1 .1l48 38.9z" />
-    </Icon>
-);
+const FishBones = createIcon("fish-bones", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhQAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCRQsGAAE2AiQDCAQgBYMtBzEbRgXIrgpsY1bID8Jatqakkzo09gURXXr7xPN8+/1vn5n5KpjULwlLokk9s7o3swQJr4T6SsKzWPuLTL7HH/PvtlkWvUU0R1JRVNisgAY2ms5Gs/ofMDV1643YVHYjWyc08S25m+zGm+aLeVqGvOPXPv/8X+75TTs6wI90ZmPhnW8c087maHACPc97+cSAsizM0jRKCPO7yXtL5SuaTk50ktaWnIalI7R8qw+gj/Ka8gHP8pPmn1XWFEMVQCYBgD1n0ym4fOHv5H3XI+8dBALZA7ARoqJiLQTbUQVr0WwEmib8xq4z/4EbQYD0K7csoKHiCZ4CGijS2h1631g746PDF58bueteUEaSvNWKlMIvxSwU/cenlJJg6Z7uqIZoimyGI69UVwZ2u3lHADj928QtLKrZYhZGxZGj/157zizs6HMAK+lECY8fF0bZ6JvpNDAe7Xs33S3E3iEeir+nVY8ejV5aurMEYA798dPS99uIrvgBZ8f4+9L3EwjC1/xHZcP/wZEC/p47Xtmh7C8KDCog1MVuUb5kAe+uhUexcoMCCUFxp1LjUUe9EBDDCCj6DQuo1uBA0AxbgKDPem4I+g07iSptSMwqNFCMugyqbVagmXUCfba72v1mU1WRVST2J5gU5lBoG7FbbCRAhinitIsOy0EyLeuWtqXHQWgaGZprqOuYM3Iq5S0MhCUi5I0IOwsbIoAsF/f7cxqmZjpGhmmTILJf1VnKw3rshgLYdImxQsrwo1LMVT0HAAA=");
 
 export default FishBones;

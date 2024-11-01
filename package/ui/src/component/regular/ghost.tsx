@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ghost` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ghost?s=regular ghost}
  * @preview ![ghost](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/ghost.svg)
  */
-const Ghost: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M48 192l0 223.5c26.3-4.9 54.6 3.7 73.6 25.5l6.4 7.3 3.8-4.3c31.9-36.4 88.5-36.4 120.4 0l3.8 4.3 6.4-7.3c19.1-21.8 47.3-30.4 73.6-25.5L336 192c0-79.5-64.5-144-144-144S48 112.5 48 192zM256 512c-5.1 0-9.9-2.2-13.3-6l-26.6-30.5c-12.7-14.6-35.4-14.6-48.2 0L141.3 506c-3.3 3.8-8.2 6-13.3 6s-9.9-2.2-13.3-6L85.5 472.5c-11.6-13.3-32.1-14-44.5-1.5l-2.3 2.3c-4.2 4.2-10 6.6-16 6.6C10.1 480 0 469.9 0 457.4L0 192C0 86 86 0 192 0S384 86 384 192l0 265.4c0 12.5-10.1 22.6-22.6 22.6c-6 0-11.8-2.4-16-6.6l-2.3-2.3c-12.5-12.5-32.9-11.8-44.5 1.5L269.3 506c-3.3 3.8-8.2 6-13.3 6zM96 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm128 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const Ghost = createIcon("ghost", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABiAAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCPgsGAAE2AiQDCAQgBYMtBywbOgXILgfsxtkbYkBAhAKrDIsvXuDwVKcfWosaD/+/37d97pNxRUSTmEUanTa0PwnRJN7xRmUy4n0W1ayxnv8x5t6fiiJpNKpYM7GKR/XOraGdUoGJ3DzQIFA7yhOBl7nBA3RZ1o9ZW2nVApv/m2njeTSff6NQxsalgSyQaE4vgQB7UR3N54mcHdiBHMEJ2O3O1jRFaY+kNULI8e14PSGP2biMgnSd8YtL6U3jswFrJEUGgGgHAOuPHtytLMYjfqqI53aCgFgPmIyQIcMwAqswBYaxTAa5XDBeVdF/YBBAlOCTE8hRYhTnADlI8pxlWaFUCtliVl24JKhHni5QkzbuhLt+vP4pTXRa9b7lq5rceLY3QAeCHZWP9gQCRSANrNq9NDDp7+D7ox/3vz2c4sg1hjS0YE8V2m4a7SM6FO6q99W6TyYOQtiuO+61336d8hcWVfi0qz+QtDPNubMMdf7H8MipsbFTI76m9NCNVsnJg831cuUz15+0HMnR0bC+uwGx//Dh/bE/MuuubtC9vuF4h6Pm8pk3NtffrZZswelWCFHDUvs9gEDw8L/pWNuqv2AAPv37v/Irqq7GuAX1Egiy+dW0RA2IGgIAkGKCI5ZAIDmJhV+12RUBQiMCJKVGATJDZAjkGs1DoDBRGoFSo4OYIucjdGsVkDQ7ATIrzYNctzdQWOXDKXUH0w5FKxJ/gWlbNLp5afKSSMxWsE1DVTItPo6Ltm199oQv+eFQh0EDxrRr021M4SNq/XH9alZYyQfZxEXE2BTYrpN7rQ6dEaO6x+I9ZE6R7b3tM7Fu9oPFwIxLBZNEJHancQM=");
 
 export default Ghost;

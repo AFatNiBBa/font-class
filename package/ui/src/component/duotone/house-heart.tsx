@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-heart` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-heart?s=duotone house-heart}
  * @preview ![house-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/house-heart.svg)
  */
-const HouseHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 270.5L64.1 448c0 35.3 28.7 64 64 64l320.4 0c35.4 0 64-28.7 64-64c-.1-59.2-.3-118.3-.4-177.4L288 74.5 64 270.5zm112 46.7c0-33.8 27.4-61.3 61.3-61.3c16.2 0 31.8 6.5 43.3 17.9l7.4 7.4 7.4-7.4c11.5-11.5 27.1-17.9 43.3-17.9c33.8 0 61.3 27.4 61.3 61.3c0 16.2-6.5 31.8-17.9 43.3l-82.7 82.7c-6.2 6.2-16.4 6.2-22.6 0l-82.7-82.7c-11.5-11.5-17.9-27.1-17.9-43.3z" />
-        <path d="M309.1 7.9C297-2.6 279-2.6 266.9 7.9l-256 224c-13.3 11.6-14.6 31.9-3 45.2s31.9 14.6 45.2 3L288 74.5 522.9 280.1c13.3 11.6 33.5 10.3 45.2-3s10.3-33.5-3-45.2l-256-224zM176 317.3c0 16.2 6.5 31.8 17.9 43.3l82.7 82.7c6.2 6.2 16.4 6.2 22.6 0l82.7-82.7c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3c-16.2 0-31.8 6.5-43.3 17.9l-7.4 7.4-7.4-7.4c-11.5-11.5-27.1-17.9-43.3-17.9c-33.8 0-61.3 27.4-61.3 61.3z" />
-    </Icon>
-);
+const HouseHeart = createIcon("house-heart", true, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkAAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCJAsIAAE2AiQDCgQgBYMtB1IbSAXIHgl2TMtWjO1Biof/t/u+fW5VvwZU/WFFgIfKJL4eOSKD7COdNdGsyT6SRv09/uf/mnphTQf4/cQPpXqtA4mkzTJ5bwIDLDpblkj6bKY4dVMiCEJBeggiUqp2w+346o5va8jjdHabCtLT6Xc8mP8HMP7R7TaS6gxANAFg+Y4t63x9Ik6k+P3cJ8Tv1iIgVoBCIEOGPgEWyQT65ArkcsGJdI4Tca4ggChhLOOUwh0ux82AHCRJyvOe3vb+2or6fHscV3P+G6O2xmNtj7U/nlidO2JbPN75ZGbHEx3bd940XnzAjhjufWZCecw949qiI8o1r417yw7h6fFvj66PNycO974QN8f22Lrt2YkRw2PvHd8enTFc+/r4t7tvGrc1HuvYHuWeEeWm8r9Dv5/3u1mfb9hw7rin6uruvvvrr5/qd6Q/1fjAK/2pYe5tuls2b/L222XOVFXNS93N57lOc/dDmnos/eBDTq1pbn5puZcoq6Z28qRJx7+T3C6fXA0PdQ+d5zxDF4OqH8Hfeut6IBDc8Pelqw40Lvq/qjaBU1/9X9X5kK/T8lRGlQSCbNK5SfamZQZ0boCASIrrjMB3WSaQmS3Bo9Z5QoBQgwBJSY0AmV5NAuRqTBSgwoDZApTU2CITebXQZl8HSZ0rQWaO60GuzcegwiI/RUraIvM92XPkP7+MNRJdPaqYPmVasaBY5jXFnUTqX1jc9o+7TtWNh6vzXO4y1zjmqAtdI5irrItf61JrLHq1HypMN8U0hQWK7dLa2C4iV7nahXNtf5iFivfD41xntx6PUMKcM8zIZESKrNUxrcmfgDP5FDe0a+3AAg==");
 
 export default HouseHeart;

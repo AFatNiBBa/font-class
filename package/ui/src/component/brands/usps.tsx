@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `usps` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/usps?s=brands usps}
  * @preview ![usps](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/usps.svg)
  */
-const Usps: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M460.3 241.7c25.8-41.3 15.2-48.8-11.7-48.8h-27c-.1 0-1.5-1.4-10.9 8-11.2 5.6-37.9 6.3-37.9 8.7 0 4.5 70.3-3.1 88.1 0 9.5 1.5-1.5 20.4-4.4 32-.5 4.5 2.4 2.3 3.8.1zm-112.1 22.6c64-21.3 97.3-23.9 102-26.2 4.4-2.9-4.4-6.6-26.2-5.8-51.7 2.2-137.6 37.1-172.6 53.9l-30.7-93.3h196.6c-2.7-28.2-152.9-22.6-337.9-22.6L27 415.8c196.4-97.3 258.9-130.3 321.2-151.5zM94.7 96c253.3 53.7 330 65.7 332.1 85.2 36.4 0 45.9 0 52.4 6.6 21.1 19.7-14.6 67.7-14.6 67.7-4.4 2.9-406.4 160.2-406.4 160.2h423.1L549 96z" />
-    </Icon>
-);
+const Usps = createIcon("usps", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfAAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCGQsGAAE2AiQDCAQgBYMtBysbFAXIhof/t/v6fW5V9Zp5b4zqAcAPRWTU2VcoKjWnv5/64/zTB3wA/iOx9HsFUOXivMF2Pt/N1yC7nUfhbKI4a2evuEHEJOkpTzJM+mGzgTw+jqsVpFvSK7gqfmh8ra1LSIoMQDQBwOSVS+d74ov4IuKV/+8lXjEXATEFlAIZMnQQYJxMoINciVwu+CL+/9/9B5YEEDXShRPIUWAfzgHkIMnyvLZzt2rRMF9RLSpb72oVcWO3SlwYN7W43uoXVC9rfRPUljcwf+tl7/eMuKk/qXLPrBe6rYhq3LrivWWXVpbFw2Pfn/vyyBXvTo8w0r32GfjiQtcPe2CVwMMOu6dFw1jb5c4md35b+8qOV7z8av/ZzB7UHumhu9+si2hQ/eGLho02TSpa9myZF90OtpzWYjEXNtlee/Hg2lc7rvOMQTOyGemgHn2G/ur3JRsH9hw57p/bJjdsy4k2Vf6ptqurG3bLxIlnzyHKqy647/58tvPOb3KbqROBQHD1k7c8vbHxuF/rVRP46qHv/y4Htid1T3eingSCrN///axLkwhQ+3mBsVKc0IW+JZBsk0HX2sCNAoQKAiQ1KgJk2msiQK6irwCFToYLUKNiqUzk9YUW1jeQNHAYZEY4F+RauBsUxnnerNEiMqVjVIb58yXO4Oj0ReXgAYPKMeU0Ulk9ovzw2HJb6nUCld601g4HHXDMdtvsdozhR8x3jttvhoRN90OlwQYYpDRGeZw+rl5huyOO2u2gA2GUscr7Wi8n5PbetIwEGPJcFMKR8uNHDx0FAA==");
 
 export default Usps;

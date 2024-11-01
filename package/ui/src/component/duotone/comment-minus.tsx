@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-minus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-minus?s=duotone comment-minus}
  * @preview ![comment-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/comment-minus.svg)
  */
-const CommentMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3C1.6 455.8 0 459.9 0 464c0 2.1 .4 4.1 1.2 6.1c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240zm160 0c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24z" />
-        <path d="M160 240c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const CommentMinus = createIcon("comment-minus", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABewAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBWgsIAAE2AiQDCgQgBYMtB1YbAgXIhocnu6j3q3pmAfUC0jkCmVEZmS7Cg+OZOvU856EAvlHQ9sLgmOBznkcgIl0eb0UqVNNNzn3b8NQIxBMRIWFS0ng6ZqMdivg+36RCeih9iTvwfwDjV+3cRFIvA4imAJi6evlCH1+KSym+rL1OfGkBAmIaKAUyMjoKMEEW6KhQolAILqVajUtRq5UEEFX4WzKoooLFWAMoQBJSUTQa2KhBpVGxqkGl/upHejeI59o92KN+PN8+fpr6aJ97W97b8rr614u413Wt7mvw1vj3er/T4Jf5X0z+qPvTkz6c9/mqH+d8OuH9soFpR7eXm778e9cvd33piW9aLb3T0lb1Nr414+qMehd3dW8WIZhRzWlu/VeWlAP/HjPbzY907lyvXrIfuXk21n7y9GoQCM59ng9tbjLh/7oNErjy7p//tieS2qUkvYy6EgjygNoAGxJIBAAgxSndEk8ikI2T0L02dL8AoT4CJFX1Bcg6aCpAob7+AlR0NlKAqvqWy6KoJ7S0cYCkoaMgG+UiKLT0GqiY4JOgqmVktyKcgnjUxc7i0MytcuigIeW4cpnopKdgZTm+3Fb7nMqNvnDRLocdcsJOO+x1giHHLIxPOmiWBs/0QKWhBhmiNE5pzp/ZVSw45ri9Mm1fM1553+rjlN7fF4yEUIc5kGUiRW4VyOLA3+jN4wMjtKONQEcjAAA=");
 
 export default CommentMinus;

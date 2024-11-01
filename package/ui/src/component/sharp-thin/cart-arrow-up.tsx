@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-arrow-up` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-arrow-up?s=sharp-thin cart-arrow-up}
  * @preview ![cart-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cart-arrow-up.svg)
  */
-const CartArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 0L8 0 64 0l6.2 0 1.6 6 69.4 266 341 0L557.6 32l16.8 0L495.6 282.4l-1.8 5.6-5.9 0-342.7 0 20.9 80L496 368l8 0 0 16-8 0-336 0-6.2 0-1.6-6L57.8 16 8 16 0 16 0 0zM208 464a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-80 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-80a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM312 232l0-172.7-66.3 66.3-5.7 5.7L228.7 120l5.7-5.7 80-80 5.7-5.7 5.7 5.7 80 80 5.7 5.7L400 131.3l-5.7-5.7L328 59.3 328 232l0 8-16 0 0-8z" />
-    </Icon>
-);
+const CartArrowUp = createIcon("cart-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjgAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCXwsGAAE2AiQDCAQgBYMtBzQbYwXIjpQuI1bx8P92fb/PrXq9aqrHqAHkT2RCrAiKJvvQys2IUevGkIVS1o1defmB83/N5/f8GvAbHUq0VYMsi7p0Aie24LbZBjIb2IniFrddBRENcYTEBfL4zD5NpCfTR3g0/Gj8pou7SLIMQLQGwOyNa5e79XV8HfFh43XiQ0sRELNBJZAhQ3cBpskEustVyOWCr6PREP+BFQFETfKyBHIUeATPAnKQ1PK8b7sWvKBvvalFvkE/UWb1st4hNkeL2Bj1WBfto2y+PlrU6caOsSXKMjbfzh+Lx8oH2qvbOlj9wU4e5dMDr/90iX49YLvKTEVI+kSbkGNdzc6Sxmp1OxUwPKp2DKdszJEOsZ4bs6ufFmVEnxdb/x+9PzrwkVtFsaCDec2st/QvrS3/Xwe1je1XWlK0VmzoYPthY4rWn37a8j7ua1m20cpV5YmrV0+UeNfKXpsVL/z45ps/voDdx998JTk3e451XjTfypXWWWeL1nvHOovve0WhtQIIBD0PzWu5s9W0v4t6At++89dv7MONd9KM9CIKCQTZsMYw29IspJ1YAUkqxQV9cMICyT1qgL+1uccECCUCJDWlAJluWguQKw0VoElP4wWoKa2VibyZ0N72HiTNnQaZCa6DXHuvgibTvJuqaR8ZXPJQxf8WpiwYQ/PjqtEjRlVTqs22VgA11q5PrU5rgy7IscH4pANOOuGc/fY57NyIPGN59rzjFuzB8yWoMtoIo1SmqG73nh/eYL8zzjrspBN+n6mq96NBLuzPHozNJKEcoyVJRGrxacvDdcmZkxeHnz8FAAA=");
 
 export default CartArrowUp;

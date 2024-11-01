@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-minus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-minus?s=duotone message-minus}
  * @preview ![message-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/message-minus.svg)
  */
-const MessageMinus: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L448 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-138.7 0L185.6 508.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3l0-80-96 0c-35.3 0-64-28.7-64-64L0 64zM160 208c0 13.3 10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0c-13.3 0-24 10.7-24 24z" />
-        <path d="M160 208c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const MessageMinus = createIcon("message-minus", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABcwAAAH7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBRgsIAAE2AiQDCgQgBYMtB1Yb7gTIhqDe1mvP270r6UCIKwCGTGwADO3InHHkIPrllCC+icud//nTwm30KGNtkK/A5/YEEtj+HvAUyjQD623DkyMQT0SEpFVE49mYjRrI4+fsrhLpxfQTHtH/AMavOrtL0jwDEK0AMGvDmmW+aYqmFD81PiV+shQBMRsUAhkydBNgqkygm1yBXC5oSo0GTdFoFAQQZfR4GSijhPlYBshBElKe1/vWq6V6vr5aqmx4eUA13u38Qt9KvNcle3lIxMcD6vHuoA87p3hh4Acatjae6fCcFl138EeYrnux3zT6fteX+jd6p1Pvj1p99Huvn/b/5PU/2696bFX7dNXNSmtav3HTG61bVwqCDUfvubzV2Tt3Kivt1HZff7R+PwgEH7Vd/MKOllP/b1ZN4JfP/vxX/h01vkrSR2gmgSAb2hhqawKJAACkOK934g0EMqMk/Kk1zwkQKgiQlFUEyHTVSoBcxRABSnoYJ0BZxRqZyJsL7WyrdFJzis6Md43OtfMJXTLVt3VZu8icSXQF8SmXNl8C8w4Vo4aPLCYX3a4i+Qcft6cUy97A8zg1CG7a74Tjztpnr0POCui0ZZ1zjpk/Auf5osIow41UmKzYHtxq60V92hmHbGV/nymK89VA58eLB0GYMONoJzIZkSJr72PWsD/oozPD7uWcjoZyBwEAAAA=");
 
 export default MessageMinus;

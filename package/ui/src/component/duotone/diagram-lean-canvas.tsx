@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-lean-canvas` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-lean-canvas?s=duotone diagram-lean-canvas}
  * @preview ![diagram-lean-canvas](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/diagram-lean-canvas.svg)
  */
-const DiagramLeanCanvas: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 96l0 208 64 0 0-208L64 96zm448 0l0 208 64 0 0-208-64 0z" />
-        <path d="M512 96l0 208 64 0 0-208-64 0zm-48 0l-64 0 0 80 64 0 0-80zM352 96l-64 0 0 208 64 0 0-208zM240 96l-64 0 0 80 64 0 0-80zM128 96L64 96l0 208 64 0 0-208zM64 352l0 64 232 0 0-64L64 352zm280 64l232 0 0-64-232 0 0 64zM0 96C0 60.7 28.7 32 64 32l512 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM240 304l0-80-64 0 0 80 64 0zm224-80l-64 0 0 80 64 0 0-80z" />
-    </Icon>
-);
+const DiagramLeanCanvas = createIcon("diagram-lean-canvas", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABlAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCUQsIAAE2AiQDCgQgBYMtB2IbhQXIhof/n/u3fW7y3+rPK0MKxCkqInCAGniQ5YwaVTeAwhXUEOpMXE5/rCgK8IdFENKai+I5uUsgwLF901hggWWZYlPzXhzEUHh9O8jT8OyGFtJL6Vvccv4HMH7Vyw2S1gxAdATAgo1rl3vyLJ6l+Lb+jPjWMgTEQlAKZMjQV4A5MoG+ciVyueBZqmueRV2XBBANztMy0EB73MRtQA6SQsrzVo/VuzXWbGmXb4hyi4NCMyBQ+JuFKCplmnUTZbuJgL0pHHhldMQnwzvEeyM/6pXi8YgPh7SP90d93DtbH6II0dy4EtuqaZdNHvRxx49/H/jtgW/VO3/0mJUfVRMq5iqVVacqfn24H09x/fyagj/5fuox/ydPXyk3bpxfdKLTm7zZqVNR4VJo+/OHVV5+ZZXq6cp9rOafpnmSXQ4Egncn/3B/Z4c5/7dpJvDi8z//Jeern6Ur6WO0kUCQjanH2JauAOMOIJnigkEjX1UJZI4qeJ/a1kMBQoEASUMhQKaPjgLkCqMFaNHfVAEaCmtlIm8Vutpekklbp8nMNBfJXFefki3m+CLR0DWyO1J0P4l+CJMvrcNLxpUTx00oZ5WDBbn4JhPowdnlbP2IC7xhJNzqgJNOOGe/fQ47V+OcsTx93nFLx9hL/FBponEmKM1Sri7b1tuAE2ecdbhfun6U2cr93SNcGG8/EpoSj+ckSzIZkSLr8/3IHXts/+4TY/fK8IXdZ8de4G379UuvZwA=");
 
 export default DiagramLeanCanvas;

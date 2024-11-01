@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc-symbol` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-symbol?s=solid nfc-symbol}
  * @preview ![nfc-symbol](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/nfc-symbol.svg)
  */
-const NfcSymbol: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M348.9 471.8c10.3 9.3 25.4 10.8 37.4 3.9C461.6 432.1 512 348.8 512 256s-50.3-176.1-125.7-219.7C371 27.5 351.4 32.7 342.6 48s-3.6 34.9 11.7 43.7C410.1 124 448 186.4 448 256c0 61.4-29.5 117.2-74.8 151.7L213.4 264.2c-13.2-11.8-33.4-10.7-45.2 2.4s-10.7 33.4 2.4 45.2l178.3 160zM163.1 40.2c-10.3-9.3-25.4-10.8-37.4-3.9C50.3 79.9 0 163.2 0 256s50.3 176.1 125.7 219.7c15.3 8.8 34.9 3.6 43.7-11.7s3.6-34.9-11.7-43.7C101.9 388 64 325.7 64 256c0-61.4 29.5-117.2 74.8-151.7L298.6 247.8c13.2 11.8 33.4 10.7 45.2-2.4s10.7-33.4-2.4-45.2L163.1 40.2z" />
-    </Icon>
-);
+const NfcSymbol = createIcon("nfc-symbol", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdgAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBZQsGAAE2AiQDCAQgBYMtBzEb5gTILg5sOv0CK8IBkcNYtlstg8X6PIqHj7X/nXt33xc3SKpVzDopmUz3ZJLoVBLpDZVsbX9+f/6Zme8g1L22pAShrUl5aU0fTFBjyn/a5Xm8xDIq4wm4wDcXLf1B/7mW+Z5AQ2b/c7nnZ5sO8Bsd2h56IAt8rp4nkMBNzyMJLPIoAcu85USNKfslmVElPX7t8esJZbwURo18khdulTeN34aNSM0FAEQXALD7ZCgIn/WoR/xVH4jv9gIBsRtgCg4FCozBgW0IAmOIpoBSKahHVcX/wCkQQDSAoMkow8ox4DKAPiFlSVQuMGosYpTP6Omni2/n5L9nH/B9lvZFTtQNRSL02c3DnLEzh7nLPPbtXvvdYMC+2IuHsUqlqflY4GvDZy648X/6+nJukLX5Do3AYEO0Ox8eHqp0/sNpsSDSDU7tfguPv71uzgS7N/un27XXAQSC9h9XYbJz25+mVjzAr6//rz8j1c+Ur9AkQVCsrlaLJUgCAJAxIE0IpH3wJGnzUNxMWhAUNGhBUhjF7VBqsQpqJjjYze2jCKKkQegTB6Q2N6GwwRBKfR6hZpuvsEFfFK7FOwb/s0vBNBJ4hCxGM/KiYaoJ3sLyrQ9tO+pBamlwCQVNDT15OWU9RXcEk746bEYFfBBiYWSGeKHjYnscldfRVdbUyPf4oPuB2mA+rIGPJ4xrrKYkkt64kTW8XwAAAA==");
 
 export default NfcSymbol;

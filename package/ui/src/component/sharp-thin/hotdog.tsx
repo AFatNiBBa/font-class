@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hotdog` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hotdog?s=sharp-thin hotdog}
  * @preview ![hotdog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hotdog.svg)
  */
-const Hotdog: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M466 232.7L489.4 256 256 489.4 232.7 466l-11.3 11.3 23.3 23.3L256 512l11.3-11.3L500.7 267.3 512 256l-11.3-11.3-23.3-23.3L466 232.7zM11.3 267.3l23.3 23.3L46 279.3 22.6 256 256 22.6 279.3 46l11.3-11.3L267.3 11.3 256 0 244.7 11.3 11.3 244.7 0 256l11.3 11.3zM474.9 138.9l-336 336c-28.1 28.1-73.7 28.1-101.8 0S9 401.2 37.1 373.1l336-336C401.2 9 446.8 9 474.9 37.1s28.1 73.7 0 101.8zm11.3 11.3c34.4-34.4 34.4-90.1 0-124.5s-90.1-34.4-124.4 0l-336 336c-34.4 34.4-34.4 90.1 0 124.4s90.1 34.4 124.5 0l336-336zm-75.7-10.2l-6.5-14.6-7.3 3.2-72 32-2.4 1.1-1.3 2.3L282.2 234l-61.8 30.9-2.2 1.1-1.2 2.2-38.9 70-70 38.9-7 3.9 7.8 14 7-3.9 72-40 2-1.1 1.1-2L229.8 278l61.8-30.9 2.2-1.1 1.2-2.2 38.7-69.7 69.6-30.9 7.3-3.2z" />
-    </Icon>
-);
+const Hotdog = createIcon("hotdog", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABkwAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCegsGAAE2AiQDCAQgBYMtBy0bdwXIngXlGG9aiiRJ1snv/UYE3+/323Pe/Zg39aRJPCQtmZR+w0IkUZLKdIZKCfjf79fOXTF9iEkUtY96EksQGiGtNGh4U4sMUSyRN0dq4zPkb/1/rqkXz48O8PuJn51R9iqsWkeZz2cDmWBi1PP5eGAznYBtcN7kQ8oK9ScosQ+OkLzkXQHq7kPjD1YbkKoKANEFANg+qS3HyRu9EV0GAuIJpSAgtgGMIFSoMIDAGr7AAIERUBTBDwUC7D+QAQFEA/x3SVDQiHNwA6CAVCsCq9VkSpILlYIGuVDWGxUdVUfRZKAoMpKZGslMpqbW1Yua0UY+00zjWl10q7GXG+A8ss1oH63GDJBfvhXlxcqM0U9Eq9E+TInkyIOVWS87lmowGU1r+MQq4nxTvobHVilGGp8M9ml8P676r3D/0t/f//6OfnsW+Ph8fJCaBf5bC/46P/pNxd+qhLk6p7MuX6r5hQ26xbcNGL/yCvFWVoLLMFIiHfeP9aJwGAyZ2scrNKY+fwq9Fg0zTUPzorwhTAMEgu+djTvVuf8SOQ/wu/c31K/o/4SHvAY0SRBUC4FYtCUgCQBAxjyCEwikOiH/aJszBEILKkgNWqDSTwNFi3moGZLGLzxygC+KFKFPOwipzSlUVi1C0WcXatacFhr0Bf8rFb8x8R8xraCJ529iSfGJLJuNNhXSh8fr5Ry22Iuc50NRcCf6TRg3qw9nyGyDnFZenjOmYIrI90VMkniJmGxsc+eu1oAj02Y4P6xsXyUHOz4ZaX56chQM8Pi0i4y8BQ0pGpyY5SYGAAAAAA==");
 
 export default Hotdog;

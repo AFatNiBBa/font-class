@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `teeth` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/teeth?s=thin teeth}
  * @preview ![teeth](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/teeth.svg)
  */
-const Teeth: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M96 48c-44.2 0-80 35.8-80 80l0 256c0 44.2 35.8 80 80 80l384 0c44.2 0 80-35.8 80-80l0-256c0-44.2-35.8-80-80-80L96 48zM0 128C0 75 43 32 96 32l384 0c53 0 96 43 96 96l0 256c0 53-43 96-96 96L96 480c-53 0-96-43-96-96L0 128zm168 92c0-24.3-19.7-44-44-44s-44 19.7-44 44l0 44 88 0 0-44zM80 280l0 44c0 24.3 19.7 44 44 44s44-19.7 44-44l0-44-88 0zm92.4 79.4C161.5 374.3 143.9 384 124 384c-33.1 0-60-26.9-60-60l0-52 0-52c0-33.1 26.9-60 60-60c17.9 0 34.1 7.9 45.1 20.4c5.5-29.8 31.6-52.4 62.9-52.4c24.1 0 45.1 13.3 56 33c10.9-19.7 31.9-33 56-33c31.4 0 57.5 22.6 62.9 52.4c11-12.5 27.1-20.4 45.1-20.4c33.1 0 60 26.9 60 60l0 52 0 52c0 33.1-26.9 60-60 60c-19.9 0-37.5-9.7-48.4-24.6C394.2 383.2 371.1 400 344 400c-24.1 0-45.1-13.3-56-33c-10.9 19.7-31.9 33-56 33c-27.1 0-50.2-16.8-59.6-40.6zM232 144c-26.5 0-48 21.5-48 48l0 28 0 44 96 0 0-72c0-26.5-21.5-48-48-48zM184 324l0 12c0 26.5 21.5 48 48 48s48-21.5 48-48l0-56-96 0 0 44zm224-60l88 0 0-44c0-24.3-19.7-44-44-44s-44 19.7-44 44l0 44zm0 60c0 24.3 19.7 44 44 44s44-19.7 44-44l0-44-88 0 0 44zm-64 60c26.5 0 48-21.5 48-48l0-12 0-44-96 0 0 56c0 26.5 21.5 48 48 48zm48-120l0-44 0-28c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 72 96 0z" />
-    </Icon>
-);
+const Teeth = createIcon("teeth", false, "data:font/woff2;base64,d09GMgABAAAAAANcAAoAAAAAB1AAAAMRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRiEOwsGAAE2AiQDCAQgBYMtBywbNwZRlA5GluzjMN3ayekM4QyxGZQwRcQpNiIIMfiKh+ft+jr3VQ3gnolMRVAEqv9AK2TrVAzhzBAP+7l729CZaySZtJ8IxesvEUKySiW0LUQsFKLJxOX0xwJ5H6sSSnGs7WP5U3PpEuh8YtnY1HOeZSVsjW67WhNc1j9C4Qx5fMFiSpHOpQ/hSPzQ+JF69pFkGYCoCgAD9iaN8fa38Szy4f8LxIeMgoAYCBQEMmRoKEBvmUBDuQJyueDb+P+f/QcWCCBKCzInkKMS/kaUAeQgqZDn9X0Wcw+71VwVp/SlKuUrplJ5ys96ngm5G0hyKXuvWUleypeEM7mcK7Yqbl/Jh5S0K8kLoxuCSS5m7jYqyouACmU7u12vOr2833ESoo+YLFBrndIfcJ+RiPJT7iZu54q+kIgL+ZL0reyF9B39C9mS9oHkLW9bcs9LkPPMmtPOOk4uv5i729jvOu2bdtMRctJDTvTE+a4tdSxwQSTvgP502KtQfjy423V1EbVWyK2RsL7IF8L13CbbktPCQb6bjoPv0TcrWoovTWdLZ5QjliXsBmR3iUWlZWZblXGLRdzs2mVXsVgW0Az3upxVY4q7GjVen9Yo2Nd6Wq9C0PTN7J5Zqwvfqiw2NCyCavJxGmKqXHcj1HjDE8eGaB6Pq3xb5vDrB+c9zh/+2tjr4/Zf8lEWoLX5DCf76L59u9uKQZc0w9RHWYf5kW96TUfh1m7rNHiL4+8DYAPS3XNWCKEAFlx5HgSC97YNuKpU6f26qE/g+1d//Ut8+P9v00RTRFkJBFnr/4LZmv6AjQchm2IrzWZ+KJD8SQ++a0WnBQjlESAprbwAmQaqCpArr5UApTTWRYDSyptEJvJyQk1zaj6paAOf6Wo7n6vpGV9Kb+9kSqsZ2VdgKMOGn9CsQ9vwkHmFDqVKpBeZLMnGgq3To/3Iam/zU96ShTstZR1r2cwSFrOCzS1yI2PyW1jD0Dn1Id8t6KCt9gp6Kuyu3rdOxZGNbOK6cfP+WXopnJ9sbut89xZwEQnQsfzouCRSqc0HSzYvBwA=");
 
 export default Teeth;

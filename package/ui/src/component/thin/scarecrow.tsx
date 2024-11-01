@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scarecrow` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scarecrow?s=thin scarecrow}
  * @preview ![scarecrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/scarecrow.svg)
  */
-const Scarecrow: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 16a88 88 0 1 1 0 176 88 88 0 1 1 0-176zm0 192c43.3 0 80.4-26.4 96-64l91 0-10.2 20.4c-1.7 3.5-.7 7.7 2.4 10L426.7 192l-23.5 17.6c-3.1 2.3-4.1 6.5-2.4 10L411.1 240l-79.5 0c-15.1 0-26.5 13.9-23.5 28.7l25 124.8-49.4-24.7c-2.4-1.2-5.2-1.1-7.5 .2l-52 29.7-52-29.7c-2.3-1.3-5.2-1.4-7.5-.2l-49.4 24.7 25-124.8c3-14.9-8.4-28.7-23.5-28.7l-79.5 0 10.2-20.4c1.7-3.5 .7-7.7-2.4-10L21.3 192l23.5-17.6c3.1-2.3 4.1-6.5 2.4-10L36.9 144l91 0c15.7 37.6 52.8 64 96 64zm200-80l-98.8 0c1.8-7.7 2.8-15.7 2.8-24C328 46.6 281.4 0 224 0S120 46.6 120 104c0 8.3 1 16.3 2.8 24L24 128c-2.8 0-5.3 1.4-6.8 3.8s-1.6 5.3-.4 7.8l13 26-26.7 20c-2 1.5-3.2 3.9-3.2 6.4s1.2 4.9 3.2 6.4l26.7 20-13 26c-1.2 2.5-1.1 5.4 .4 7.8s4 3.8 6.8 3.8l92.5 0c5 0 8.8 4.6 7.8 9.6L96.2 406.4c-.6 3 .6 6.1 3 7.9s5.7 2.2 8.4 .8l60.2-30.1L220 414.9c2.5 1.4 5.5 1.4 7.9 0l52.3-29.9 60.2 30.1c2.7 1.4 6 1.1 8.4-.8s3.6-4.9 3-7.9L323.7 265.6c-1-5 2.8-9.6 7.8-9.6l92.5 0c2.8 0 5.3-1.4 6.8-3.8s1.6-5.3 .3-7.8l-13-26 26.7-20c2-1.5 3.2-3.9 3.2-6.4s-1.2-4.9-3.2-6.4l-26.7-20 13-26c1.2-2.5 1.1-5.4-.3-7.8s-4-3.8-6.8-3.8zM208 88a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm48 32a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM216 504c0 4.4 3.6 8 8 8s8-3.6 8-8l0-68.9c-5.3 1.2-10.7 1.2-16 0l0 68.9z" />
-    </Icon>
-);
+const Scarecrow = createIcon("scarecrow", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABuQAAAK/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDVwsGAAE2AiQDCAQgBYMtBzAb1wXIBqLSWT3S2uWTjkE+AngEjpApJkoxAvb8X+75PT86wG90aGPTmiC3G3N4CQSY5h+kzVMo0wQs23LcJI/wyMcPX0jVIyYNkzQsTUGgZBMDsIG2QXsMLKsfJR8JYQFo6DoAAOINAABUdW7fkuvv5J3IY9cZkMc0BwRAqgGwEEDHWcIRAErRESAchQUoFALvxOWC/gMtEAAQO/JwGgAKcACPgacAgAJAw66UR00XNzfDtHmoTqbN6H4n7Ujq4dq76UczjjWwKEXkUJgpwbI6IEkSkQoRQxb6U2FHaSZr/RtR2VnWBa41DAmDlSwpgA4VUzYkHTA7G6axTrYmH8w/nbg/fE6AUwiJ4VBiUmj2GtOUNf4dRhzUXJqkV64L7CRrg0xZBCE0MEfmBiZL2DN7Oq0NXO2/JmBdUFGjVqFLgRVZHUj0Qe+Dn52PBz3m7TGfDdOnb/DpR7zunAvLL3dnFXE1YxlLTdwqWuM+ZHBY8AwcZGWVUUaWMxhuDRs8xGzDLgJM5d25vHyu817r/nL2FHfzyavjx189Md1T+qNi/PwesAunUs5dPMDPL0b1ZIwjbBEqO7vqCmX3mleoUrw62OyY08Oe9TTB8907z0VwFQL3TZht79PHXsfYsXUAIIDAiW9vknt7lX5zmBoAHy5+/Q3/ilzX5bp2EHCgASCgp7pS6SHXAeQ6AgAAAGgyiWi5DgigcRs78qnurEUAEAxAANCwYyAA6IThjQCgMEhBALARSR4CgB2D9uiIckPwp+cGNNwZC3TymQkU/pwCNkq559vxFz2nqYykPinj6zVSt8vKSs+0iq3LtkGnKcHrJZZZSpxEY0k4yCBGM4oJDGQAQ5mgsHG0jCYykvoZWscXscginUwsirHcvfd8J+WPYzxDz1n/NiVY8V4ik+azk6BqCG421RoaiOY2/nWhfxEBAAAA");
 
 export default Scarecrow;

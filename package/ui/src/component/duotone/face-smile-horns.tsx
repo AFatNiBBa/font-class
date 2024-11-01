@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-horns` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-horns?s=duotone face-smile-horns}
  * @preview ![face-smile-horns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-smile-horns.svg)
  */
-const FaceSmileHorns: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 256c0-24.6 3.5-48.4 9.9-70.9C89.5 131 122.4 84.3 166.2 51.3C209.1 19.1 262.3 0 320 0s110.9 19.1 153.8 51.3c43.8 33 76.7 79.7 92.3 133.8c6.5 22.5 9.9 46.3 9.9 70.9c0 141.4-114.6 256-256 256S64 397.4 64 256zm112.8-37.1c-2.8 8.4 1.7 17.4 10.1 20.2l30.7 10.2c-5.8 5.8-9.3 13.8-9.3 22.6c0 17.7 14.3 32 32 32s32-14.3 32-32c0-1.5-.1-3-.3-4.4l10.9 3.6c8.4 2.8 17.4-1.7 20.2-10.1s-1.7-17.4-10.1-20.2l-96-32c-8.4-2.8-17.4 1.7-20.2 10.1zm27.1 151.5c22.2 25.7 61 53.5 116.1 53.5s93.8-27.9 116.1-53.5c5.8-6.7 5.1-16.8-1.6-22.6s-16.8-5.1-22.6 1.6C394 370.2 363.4 392 320 392s-74-21.8-91.9-42.5c-5.8-6.7-15.9-7.4-22.6-1.6s-7.4 15.9-1.6 22.6zM336.8 261.1c2.8 8.4 11.9 12.9 20.2 10.1l11.7-3.9c-.2 1.5-.3 3.1-.3 4.7c0 17.7 14.3 32 32 32s32-14.3 32-32c0-8.9-3.6-17-9.5-22.8l30.2-10.1c8.4-2.8 12.9-11.9 10.1-20.2s-11.9-12.9-20.2-10.1l-96 32c-8.4 2.8-12.9 11.9-10.1 20.2z" />
-        <path d="M566.1 185.1C550.5 131 517.6 84.3 473.8 51.3c17-3.3 39.7-8.6 63-15.5c29.8-8.9 59.1-20.2 78.4-33.1c5.4-3.6 12.4-3.6 17.8 0s8.1 10.1 6.8 16.4c-6.2 31-29.3 106.6-73.6 166zM103.3 35.8c23.3 7 46 12.2 63 15.5c-43.8 33-76.7 79.7-92.3 133.8C29.6 125.8 6.5 50.1 .3 19.1C-1 12.8 1.7 6.3 7.1 2.7s12.4-3.6 17.8 0c19.3 12.9 48.5 24.2 78.4 33.1zM240.4 304c-17.7 0-32-14.3-32-32c0-8.8 3.6-16.8 9.3-22.6l-30.7-10.2c-8.4-2.8-12.9-11.9-10.1-20.2s11.9-12.9 20.2-10.1l96 32c8.4 2.8 12.9 11.9 10.1 20.2s-11.9 12.9-20.2 10.1l-10.9-3.6c.2 1.5 .3 2.9 .3 4.4c0 17.7-14.3 32-32 32zm192-32c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-1.6 .1-3.2 .3-4.7l-11.7 3.9c-8.4 2.8-17.4-1.7-20.2-10.1s1.7-17.4 10.1-20.2l96-32c8.4-2.8 17.4 1.7 20.2 10.1s-1.7 17.4-10.1 20.2l-30.2 10.1c5.9 5.8 9.5 13.9 9.5 22.8z" />
-    </Icon>
-);
+const FaceSmileHorns = createIcon("face-smile-horns", true, "data:font/woff2;base64,d09GMgABAAAAAANsAAoAAAAAB1AAAAMgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGSDbAsIAAE2AiQDCgQgBYMtB1wbGgZRlA5GiuwjobrtFXOMmeQK5cm0cIzm23iov/c9u3tTi3VvjdJBK3gs4wGONdJQOBOQ2JtgB/z+P3a9981CmnxbHVFFQAWpUscqJ/X6PJfTGy2QAG9ggHkovzEHzolzci+BgM/itkX3AgmojK2peS8NxHWGsgu09OQs6COf8zm4t/8HML6ZLJCGCgAxCQA4vS7Nx+0uviU9710h3uWBgDgDLCMUCvMIHOAIzONaBk0TdOl00oXTuQwBRD9se8FH+zGMN/AFoIHUNMj7oVDYbCZLVsKTcSvsR8SjHyuOR1733a7bqt3hdyau5ar7+7KbAefM2wx14ZPh1Wt6om367QYPYlXltFW7RQ8jM5hJPOJK4SHi6AfLzBq01Arkq6RVut1oKypnHZ8qPcWH8rfsxfuk23nPyz4WvEy5W1G5RedOW7RbdVsl64btNEs62mrYrq+gbdryk+5ER8Ovex73rYHV7nA7EnbN41iG8ZnKrQaDlCOm96R+S1nzcZ3LKeWpvxuedzxHON9YkhJyJPrvj8XFcVGW3SF7uSV7C4PFkznsWaLxV/z4uyKRrQArMtnKTzzwr3vb6MCH+Lq3h8CkfGVFfssReQCOPvSrMMxlvKuP/1CNt3X+D74A5pF4y33jDpnkoEryEOlWPnejOzKNpo2zmcjE7EaTEZlDbvEffmIEug3jDHNovniNDryrN2/jvgJezcy8esVd33nj5Ou6XqC37uupE6fWF/rr3ym+LHMWsP3jbECi4MEaQCC426r906iI+z8oYQCfL///EovTfeY1Z/MUBiUIatW5qi5nBojeHgHmMya4wN9yglBucMFPHfUgQBhGgNRvWIAyR4lAM2wFgT6LwhHoN+wcRzQRwqz6gkmjbpmyb5JpZl1m+hx4lO83G5zr23B1Gv4us2ZU6fRjbHBAEBvD9vZkxktWp3dj2clerwk+4w1PoMOgAWPatelOUFGOyC+N65cxpJ7+XVawAEFYMdjFw5vWCpwfMaq727z8kFjs9kkvE8PLvWGA4WrcJlCKSOIY3x6f/+jXpdW/a3BkYNT/YVlsbjW/GQAA");
 
 export default FaceSmileHorns;

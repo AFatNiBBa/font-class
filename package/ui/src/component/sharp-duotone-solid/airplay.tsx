@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `airplay` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/airplay?s=sharp-duotone-solid airplay}
  * @preview ![airplay](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/airplay.svg)
  */
-const Airplay: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 96 0 352l0 64 64 0 33.9 0 8.7-7.8L169 352 64 352 64 96l448 0 0 256-105 0 62.5 56.2 8.7 7.8 33.9 0 64 0 0-64 0-256 0-64-64 0L64 32 0 32z" />
-        <path d="M128 432L288 288 448 432v48H128V432z" />
-    </Icon>
-);
+const Airplay = createIcon("airplay", true, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABYAAAAHhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBKwsIAAE2AiQDCgQgBYMtB0obxwQRlZo5yD4S45jInZmN8CMaN/Hw/Vpv577XM5XM/CB3gLiDiogUgYwjlehvExUVxz4WaJfVuq2aALi4ed55FOAbhbaHBrLA5zxPIOAsj6QtkGkGlm4T2dEhSG+ESElIx5UeXysU8X++q0Z6mj7iofwHMP7Uz12SjhlAdAXAkq0bV3v9OT6n+Nh6KT5ahYBYCkqBjIyBAiyQBQYqlCgUgs+p1fI5Wq1SAFEnW82gjgJzsARQgCREUTRHNmudii3NWmPr1k1bN4doi8hCCtFs9omN0YgcnSJFI9ZHL7suIkdEY1h71/a/h3488tGNLs8e8sOmqEzxvKoqKtWwBz45jtc47perhlUVKhUQCLac2PLX3i4L/uvQTODrq3//gO+o9TlVqR0dJBDkCa0Ju1IFqRIAgBRXDEuVmwhkIyW4aptHAoQGAiR1DQGyAboKUGgYL0DNYDMFqGvYKIuio9DT7glJm/OQzXINCj29gJoF3jh1PYPl8qEen/q9xa/UyIqpcuqkKeW8chsYdEUQPJxfHutjrrTCWFp05OyZS4cPHb+ksAur/cunV3roihfLqZOmlPPKcLzlt8C5cPH4mo2PmV/et8dc8evHkpV03GnzWSZS5C77j18oL3liHirdNJtwAA==");
 
 export default Airplay;

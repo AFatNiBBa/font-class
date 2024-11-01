@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `font-case` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/font-case?s=sharp-regular font-case}
  * @preview ![font-case](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/font-case.svg)
  */
-const FontCase: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M153.4 48L159 32l34 0 5.6 16 152 432-50.9 0L260.4 368 91.6 368 52.2 480 1.3 480 153.4 48zM108.5 320l135 0L176 128.3 108.5 320zM640 184l0 272 0 24-48 0 0-24 0-8.8c-22.1 20.4-51.6 32.8-84 32.8c-68.5 0-124-55.5-124-124l0-72c0-68.5 55.5-124 124-124c32.4 0 61.9 12.4 84 32.8l0-8.8 0-24 48 0 0 24zM508 208c-42 0-76 34-76 76l0 72c0 42 34 76 76 76s76-34 76-76l0-72c0-42-34-76-76-76z" />
-    </Icon>
-);
+const FontCase = createIcon("font-case", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbwAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBdwsGAAE2AiQDCAQgBYMtBzAb9wTIjsQ4JvJIF42HCOrX/v2esxsA3twQsAImRyAThZYAjXkVy58UJrOv6sTl+O/Pn56fFr74o41pa9rYDY3mPE8g4Og/nlYiWZglih3Ne2Gg+4W2C+TxdxxVjnQywRHvQ+OrRg6QlMsARE0AjJg5dYoXZVEW8fn/u8RnkxAQI0AhkCFDUwEGywSayhXI5YKy+P9/8R9YEECUF7w4gRzlMQ+rATlI8jyvV6FlgyrlquUzTEPluQ3qNqgS9WJ2VI4ZDJiWzp1VpXKVRte0jSlLNB2ceTD63dBLEaeHPR/3doBLqBKmnWn/6IWG4mSHi23Od7rcJOJUx0ttS5dqXvre0gpOHFmIT5csdPy6XtptdCGRejXtTjUOB6RRz418XvtwzfqGumuokhY1h5dK+Xh5Wgyv2aKSsZr9DX5NY0yN8WqMmfar5sXzQCDoUmrVf2GNwX9VrJLAl0c/f4pH4v+ytCeFihIIss7/dzaPhgIHgSLFDiX8RYFkmlzwrlUdEyBURoCkvMoCZJqoKUCusk4ClNNcHwHKq2yqTOSVhLrm12hS1WY009dONFfXbbScwd7n5dWNDMZYCGF/8ZLGtsExx4oeXbsXA4vJvpIDG9ruDypWK+13yLkOuNEKG22wzXLLrLatBW8xpdpuvbFz0Bg/VOihq+4KAxW7R/elGbTYYqvV4/z+QwYpzg/a2zG/ugPWk4Cyp54kEanSN+UuIAkAAAA=");
 
 export default FontCase;

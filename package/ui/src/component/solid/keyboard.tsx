@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `keyboard` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard?s=solid keyboard}
  * @preview ![keyboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/keyboard.svg)
  */
-const Keyboard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L64 64zm16 64l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM64 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm16 80l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80-176c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm16 80l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM160 336c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16l0-32zM272 128l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM256 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM368 128l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM352 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM464 128l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM448 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm16 80l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const Keyboard = createIcon("keyboard", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAAB1wAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSCETAsGAAE2AiQDCAQgBYMtBy8bSwbILgpsImMP7IiEuSWylAj/3Z1OLfTbfI2QZJbn6ddez337QhumjU4UKioAGJmprGJPIHWN+VNbTe77/+3X7pv/V8RnRQTI0GjizaXRCNWTWyNtQ+x0DwX4n93L2toCDoMklVyPTuwnD5BqT329/5v/az4/Oz/AL36VKFF4t6JRBXi3TWA6Xnuk6GzWoAMb4UB92UkcrJtu+eXFby9RdJKkJSINW2uo+WzeYoDygwnv/Erz27IVFCMNADIFAM4/fXhb/c96yUv/Iz/dBIGcB9AhNGiwhsARQbBG1IGqCj3qL/+BBQEyCIOLMRVTkD28WUExUUXnjF6jqgGN2PEXKnv3Y5RjO8tm/CSsyVHyzCVkK3EaUW+NtqpVC+izWZk1K2Xd1rZuUyWv/phS6MzV/+NPkXuFPQKn+tP/LZ04fbFtAKZb2unp7ToMmdqvjv9lR9vrcN/kGVR0n7zLJd196giop/kgZx9zZM74dO5VPgcE4eTTJU7648EAv+7772eUc2wwrIDQ7PRHX4l0BZ1mIEsI4I6C4j/JLnXMVwKiRUAxqBXQWKVHoGptIzBgQxmBQa2HBKkKxJz+BIoxz0Dj0DKo5tyBAUce4oPm0jwH9TKrn9GsK0KXR3WbyfFGXk2L2g2Xtb2JN9u9VFkcKw2ZNmXBoAGjFkDmtKYWTWph6ObbcnkZOVwj3p27XNxh0Jx5o6ZNhWGa8PH+mCVeOw43Y4K7JhWFFPn44PO3AgA=");
 
 export default Keyboard;

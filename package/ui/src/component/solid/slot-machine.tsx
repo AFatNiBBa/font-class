@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `slot-machine` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/slot-machine?s=solid slot-machine}
  * @preview ![slot-machine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/slot-machine.svg)
  */
-const SlotMachine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 0C92.7 0 64 28.7 64 64l384 0c0-35.3-28.7-64-64-64L128 0zM64 96C28.7 96 0 124.7 0 160L0 352c0 35.3 28.7 64 64 64l0 32c0 35.3 28.7 64 64 64l288 0 32 0 80 0c53 0 96-43 96-96l0-204.2c9.8-8.8 16-21.6 16-35.8c0-26.5-21.5-48-48-48s-48 21.5-48 48c0 14.2 6.2 27 16 35.8L560 416c0 17.7-14.3 32-32 32l-80 0 0-32c35.3 0 64-28.7 64-64l0-192c0-35.3-28.7-64-64-64L64 96zM56 200c0-13.3 10.7-24 24-24l59.9 0c23 0 38.5 23.5 29.4 44.6L126.1 321.5c-5.2 12.2-19.3 17.8-31.5 12.6s-17.8-19.3-12.6-31.5L115.6 224 80 224c-13.3 0-24-10.7-24-24zm168-24l59.9 0c23 0 38.5 23.5 29.4 44.6L270.1 321.5c-5.2 12.2-19.3 17.8-31.5 12.6s-17.8-19.3-12.6-31.5L259.6 224 224 224c-13.3 0-24-10.7-24-24s10.7-24 24-24zm120 24c0-13.3 10.7-24 24-24l59.9 0c23 0 38.5 23.5 29.4 44.6L414.1 321.5c-5.2 12.2-19.3 17.8-31.5 12.6s-17.8-19.3-12.6-31.5L403.6 224 368 224c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const SlotMachine = createIcon("slot-machine", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABmAAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCZQsGAAE2AiQDCAQgBYMtBzMbaAXIjsQ4JvGLKEwiqGyVWT1zNPsM8wAIIqCVSeyJDQ/YUpwpCzPkHX/+L6c3nh8d4OcjOJQ99UDGqiia83nY80SzuUDSLMyyBLW3KXUYEYRPRJRUmciOb+64toU8/s5uVkN6In2L+/Kbxp86upmkIQMQLQAwY92qJT7/OX6O+Ob/d4hvLEJAzAClQIYMXQSYLBPoIlcilwt+jv//h//AkgCiFj4/gRx1eBDPA3KQ1OR5s8lt27Wt1DTN11Zqik0v9494vUPTeHJgtW+T1aREPDHgjT5+2aaV9wa92T3isc5Ptnu078ttHu7wRFtxPWSKIiJe20OdOd3PPtWvEq+0faTD6ni876ud10URr3ZaVykqMyXpuyZe07Paotro273fuvbZ8y1pWVxXtGz5vGnbRvRzrSzHHb9erdZ/q7Em++774cO//y6rafxWs9tvb7ZcSSrAUdfr9rVdMVmLu+/ZPnC3B+dO2N1jqd5WtH2t/WSss5qh7Ypz7a8fBwJB3R+XTmxrPvmv+koCv37Y9XT/f56upyrqJRBkg/8fbHO6DkAMIExxVk/mgwLJnWrgqzbxqAChQICkViFAprMWAuQKgwSo0c0YAWoVVslE3iC0saWDpIkTIDPWFZBr4y1QY7IvglptIjNNzrC4P8PkuRSdM68cMXR4ObE8VjTe2pg0OakU2/3Pho4BbqG9jjnqtD12O+A0wU9aEp9xxFwOm+OLSiMMNVxpolJdf5bXkvCkUw7sBf00k5TP+/2d5fsPcF6CpCOVJYlITT5Vfcj7DA==");
 
 export default SlotMachine;

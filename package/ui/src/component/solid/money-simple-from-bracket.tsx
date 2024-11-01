@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-simple-from-bracket` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-simple-from-bracket?s=solid money-simple-from-bracket}
  * @preview ![money-simple-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/money-simple-from-bracket.svg)
  */
-const MoneySimpleFromBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 96l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32L0 96C0 43 43 0 96 0L544 0c53 0 96 43 96 96l0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64c0-17.7-14.3-32-32-32L96 64C78.3 64 64 78.3 64 96zm64 0l384 0 0 352c0 35.3-28.7 64-64 64l-256 0c-35.3 0-64-28.7-64-64l0-352zM320 352c53 0 96-35.8 96-80s-43-80-96-80s-96 35.8-96 80s43 80 96 80z" />
-    </Icon>
-);
+const MoneySimpleFromBracket = createIcon("money-simple-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdgAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBagsGAAE2AiQDCAQgBYMtB0Ab+gTIhuB7XVm/L82CGWVmzFwlAx8QjsMjzDgJti7FCHjm/5rP7/nRAX6jQ+vQxvLKVQjs+QRvnjah2cBmkgI2v53vKJLSW6VLR7oM2/vD+I+Qxz/ZNRXS0+l7PNgfNH7U1TWSxgxAtAHAnE3rVviyKZoivqu9R3xnGQJiDigEMmToIcB0mUAPuQK5XNAUtVr+DywIIOrghSSQo4Kt2AXIQZLl+ci27ZtXWuYbm1eabRPKDo81u9PpiYh4cdi9SS3jvSFv9xQGczk6zVrEHX2F5i1btEzx1OC3+reIN4ZWu2UbPhgWca/3C1OZ+G5SejzvGpjQt9qm+nOf7w9+b9au2fBa3brVqsZna6hWyy+VxW6YzeAI9KUyu0R8t2Zt277ESzLQbPcXtfJ13oh44/VyEPl2IBD0OD518q7W039raJ7ADx//+mf4Gal9mcpURYMEgmx4bbjtqYRUCgBAiov6phKBZK0M7rWFJwQIzRAgqdNMgEx3bQTINTNMgIpeJghQp5l1MpE3Ch3smCBp4QzITHQJ5Dp4B1RM95Vfp0Nk7CK4QfzbxS7U0IJ9xZiRo4upxbY2SMJgbXtaca0OvlimhshBB51y0nkH7HfEeYWctSK64ISFJ3iBJyqMMdJohakKd/ea3eiAs845YpP+XUxTvDcHu3hePESMBKhjZZJEpK5cFEYQlBvxKaZG7D27Z9+xA+cBAAA=");
 
 export default MoneySimpleFromBracket;

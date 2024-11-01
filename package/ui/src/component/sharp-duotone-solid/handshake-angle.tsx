@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `handshake-angle` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake-angle?s=sharp-duotone-solid handshake-angle}
  * @preview ![handshake-angle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/handshake-angle.svg)
  */
-const HandshakeAngle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M224 64l0 64 0 96c0 26.7 0 53.3 0 80l96 0 0-112 192 0 0 112 0-32 32-32 96-96L496 0 432 64 224 64z" />
-        <path d="M224 128L96 128l0 144L0 368 144 512l64-64 224 0 0-64 48 0 0-80 32 0 0-112-192 0 0 112-96 0 0-176z" />
-    </Icon>
-);
+const HandshakeAngle = createIcon("handshake-angle", true, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABZwAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBRAsIAAE2AiQDCgQgBYMtB1ob8ATIhofv18o/93XPVNIThg4zuhT7jSJhV4VU1LoACgf8WX3d09+783/+N+Az+ihjLl/gzXWeQOBtD7wsSijTDKy3iZiHQSAdwSCkTXR8dpw9IE/DsjtqpIfpLZr4fwDjLz3dIWmdAYgOAFiwbdMaLZ/jc4q31TPirdUIiIWgFMiQoY8As2UCfeRK5HLB51RVfI6qKgkg6vjtGagjx2KsBeQgCZHn/fs2am3zrY1asatoFGJzbIlN0YgwaBFOxS5B3HBDU0GvGxXbYmusj2Jgc4fmfwa8PfrWp3k3bty4a98+TU0qn8033nql81qct98jn67PR3S/Lsb+VlWq1p/xEQgEF1/8XLmv/ez/WzUS+Pr8vz/F31HVkm6kZrSSQJCNrkbbnW5AuiEAACmuGphu4LNApr8EP7WNewKEAgGSukKATG8dBMgVRglQ088UAeoKm2Qiby10saeApI0LIDPVNZDr4imome1FXdclMl3iNYH/yaUsldCSQ+WEsePLmeWwJwvqwbrdWeW2M/wqzYyAu44656zLjjjshMuCvGhNd8UZS2fwEl9UmmCs8UozlcfDa2Ur1hddcqIvne8zS3m/GO7qfPkI8BNPOdGRTEakyLprOx3iU0fGJPvYaSu8y4U9e9IjBAA=");
 
 export default HandshakeAngle;

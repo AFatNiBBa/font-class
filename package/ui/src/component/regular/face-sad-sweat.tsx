@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-sad-sweat` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sad-sweat?s=regular face-sad-sweat}
  * @preview ![face-sad-sweat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-sad-sweat.svg)
  */
-const FaceSadSweat: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M496 256c0 114.9-93.1 208-208 208c-65.4 0-123.8-30.2-162-77.5c-3.9 17.1-13.4 32-26.4 42.8C146.4 480.2 213.5 512 288 512c141.4 0 256-114.6 256-256S429.4 0 288 0S32 114.6 32 256c0 1.1 0 2.2 0 3.3c16.3-7.1 36.4-2.8 48 12.8l.7 .9c-.5-5.6-.7-11.3-.7-17C80 141.1 173.1 48 288 48s208 93.1 208 208zM35.7 299.4C21.4 319.1 0 351.7 0 369c0 26 21.5 47 48 47c12 0 23-4.3 31.5-11.5C89.6 395.9 96 383.2 96 369c0-20-28.4-60.4-41.6-77.7c-3.2-4.4-9.6-4.4-12.8 0c-1.7 2.3-3.8 5-5.9 8.1zM360.4 409.5c9.7-9 10.2-24.2 1.2-33.9C347.3 360.3 322.6 344 288 344s-59.3 16.3-73.5 31.6c-9 9.7-8.5 24.9 1.2 33.9s24.9 8.5 33.9-1.2c7.4-7.9 20-16.4 38.5-16.4s31.1 8.5 38.5 16.4c9 9.7 24.2 10.2 33.9 1.2zM367.6 304a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm-192-32a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm51.7-100.7c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-7.4 7.4c-18.9 18.9-43.2 31.4-69.5 35.7l-2.5 .4c-8.7 1.5-14.6 9.7-13.2 18.4s9.7 14.6 18.4 13.2l2.5-.4c32.9-5.5 63.3-21.1 86.8-44.7l7.4-7.4zm121.4-22.6c-6.2 6.2-6.2 16.4 0 22.6l7.4 7.4c23.6 23.6 53.9 39.2 86.8 44.7l2.5 .4c8.7 1.5 17-4.4 18.4-13.2s-4.4-17-13.2-18.4l-2.5-.4c-26.3-4.4-50.6-16.9-69.5-35.7l-7.4-7.4c-6.2-6.2-16.4-6.2-22.6 0z" />
-    </Icon>
-);
+const FaceSadSweat = createIcon("face-sad-sweat", false, "data:font/woff2;base64,d09GMgABAAAAAANwAAoAAAAABugAAAMlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDPwsGAAE2AiQDCAQgBYMtBzUbxAXIroc3poEf1KFgpGigDMHS+tAODdXJAp9BO/zPoAflvuYlWcBZ8qyKrGB3YkmzunLb+zzwXO7fHASB9xJKI7w0sIAWWLZwLZF4eHe9vuRJFWEaNo+xLeQjP3t+bvdmljSv/bUtg1ezTCmEbEk84yHi1Tol4gZXIA/6BBOsttua0PrRzfvXMZuUTRsLJIK2bbOiAKCnV1DUgtaWRBrxxa5ysMP7/AJvEJbaf/9zOb2x7Oh8fqND+Tcrm9TmNkdzPk8g0DFtCkTFCyzTBKyjeS8MYoi3kHgFLviogQRmib9gjfeh+tMtByMoAgBAPQAA0O707sq1jxIfBkJnNhBAEwCegAUWZBKAliyBTI4HjiN8w1/8BwIBQCnBsxsADoSBC8AzAIADYITErlFaUkJCYlJEUJTrV4nhwz6VgJ71Wcxz1bLg1uxFtvs9f2r/csfSrfUpXDL7xmCOFXO0Gf16v9vf6rM529hIW61V0ixi6C4y5unr5HnilB/Rece8aFe0KdgkLtO2xYvi7XSwuM1l0hZ3LoQPQgw7/K0kQtroGwpOb7E/0da+UtNGe5bi6W6b6M/LHF3uHNTGmTtpOpO62mwFB2JP//ItF/xN7S0H2hRt3Hijx2F90naBJaM0ny66NH/dki7ACxKhXQ1CivWmQIwpJjc7h30SO03+0We3Dz/53zen2YT40mH79lzMX7s2le14JrHD3/HD/5PHND2w2sQoCIuKjj0Cq09avrFj4+HP279/Jh7NCC+1vklIWeucJPWQUehQJd9KX1rM/Lr2HwEgIPTLn5QhEvU5MQD82P+T/4oCF4c5AAhlAAh2FNCQyAAfHgEAAAATzJQXbYGAcQKZIBlp896ChKMGI1g4WBliwQlXDkGyNbJWbu7NUhyGJBqKwYg0BazGFoCT6CQEaeluNlhisnDsQKFzG1mgc5vuNM9nVTW+uZ+sKl3QtOx0C786FM+UXaX4ACNNMtF0Iww3JseWNFXXwgwTdJ4TO/kir1aVGl5zfnfjfqBfC9PYNGPGfftnacGfnywxc35wKY4agWGdCsNAYfRVkqm8++Ha/e09AA==");
 
 export default FaceSadSweat;

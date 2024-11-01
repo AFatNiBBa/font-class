@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-plus?s=sharp-light calendar-plus}
  * @preview ![calendar-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/calendar-plus.svg)
  */
-const CalendarPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 0l0 16 0 48 192 0 0-48 0-16 32 0 0 16 0 48 64 0 32 0 0 32 0 64 0 32 0 288 0 32-32 0L32 512 0 512l0-32L0 192l0-32L0 96 0 64l32 0 64 0 0-48L96 0l32 0zM416 192L32 192l0 288 384 0 0-288zm0-96L32 96l0 64 384 0 0-64zM320 352l-16 0-64 0 0 64 0 16-32 0 0-16 0-64-64 0-16 0 0-32 16 0 64 0 0-64 0-16 32 0 0 16 0 64 64 0 16 0 0 32z" />
-    </Icon>
-);
+const CalendarPlus = createIcon("calendar-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABbQAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSCEAsGAAE2AiQDCAQgBYMtBzQbFAXILgps9xRFgEkGg6Esy1zucyWyMv+x4nlqrXy/p5d6DsglbIlUWFhkSWBsHIFeIcPlz4ir2Ojo9f9/bvdvkFmlvUMylSQmTSw2Dpk1aqRYmBsCULN9hrzHT1xOfyz77dvokf4ba/JaNMbwBALMujzP8yywTBOwNNr25qyhHtoRIg+o+RCklHcleFU+NP/IvShqByBLAOD0xUoO4kY2kvXZh6zLgEDOALZj6NBhMwaO4QWbSWwHVRU2Mvub/0CCABnC6wqoGOI+eAqggqLWemAy2dEP5uuFftCuYqQPOvuI9D1JlLS0uaQLQn2f6m/Pzc+VzC/pFagh51rfHAwkhmzN+tT1nVPTO+r6G/JGiDwtIMEouJ0AEIFfPcauU/vxbd9QR26232rAYPupm39LxeBlIAgsnQqnxs8DEITFJ9/Xlh37P+4L+Put65+RmZg/ZYqxAkK3e0Yjf4D8wQAAJS8p8gcExT0SeNc5rwVEQ0Ax1AR0NhEwUDW7MDCwlQ0DQ81ZvNSJWNPs1WLOE7Vz1Fmt1rzVgWN+haG1dARnJhfz716OuIRjl8ikN5KbNodaCw0Z8dhDpwPKk11S8bsYWVs5GBqYOoz4nVz5aCm+R8Z8ETHRMyJudHvy/Hbd0M7e1Noqn+NB72eUTvubVTzMgeZBfUUhZf5zdOooFgA=");
 
 export default CalendarPlus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-invoice` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-invoice?s=light file-invoice}
  * @preview ![file-invoice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-invoice.svg)
  */
-const FileInvoice: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 480L64 480c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l128 0 0 112c0 26.5 21.5 48 48 48l112 0 0 256c0 17.7-14.3 32-32 32zM240 160c-8.8 0-16-7.2-16-16l0-111.5c2.8 .7 5.4 2.1 7.4 4.2L347.3 152.6c2.1 2.1 3.5 4.6 4.2 7.4L240 160zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-284.1c0-12.7-5.1-24.9-14.1-33.9L254.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zm0 80c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 64c-8.8 0-16 7.2-16 16zm0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM224 432c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zm64-96L96 336l0-64 192 0 0 64zM96 240c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l192 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L96 240z" />
-    </Icon>
-);
+const FileInvoice = createIcon("file-invoice", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABlwAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCcQsGAAE2AiQDCAQgBYMtBzMbdAXIjtRG+UVWEg//r7O870tDXx4vDYEWEINE3hBiF+7CRRduc1Ju7ap9n7jm+Z8/FUaKPj9KFS1L1zzK9glMIIqiLARmAxuNfAI2c1tMcCKiXFkQFcGh8nxI+5D+BGXcFEt0kJ5Lv+KR8qbxn2F3kpQFgJgKgJ3HHXWI7/+OvyN+bSN+dRACYheoBQoUGBNgi0JgTKlGqRT8He02/wfWBBCd8LgESmQ8izcAJUi6y3KiMdaLp/eMVB295bFVRz6j0du4f+DpKGL34DNVFeK5/qfmVpGi1fdkPvHpgYin+o+Je+Vj31wQ8e5QiucWvje3N95Z/MHowTcHjo2nc/ZUfxXPDD49kOPJvo53QtFxucoREXPs/X3BJVr9T1XoA4PPxPm7B57Oedb7U9//f+av5/5q+ySa997bbAnncsVvv69w0I2Hbf+7eZkVs666yqwZl3/yyqvTmJZb8rRpr8Iip8b0/aHM+aPvxcObf+/wd1M6dnQTr0z64PbTvseOHb6347vTmvdyb3PHO873ore7QSBo3LP/fqdN2bKnu0rg3y/vyT8j7e+jld5HtwSCYkl7iZOjBdESAIAU15oVLQSSR3XDqzY8LUDICJB0ygIURk0VoJQtFqDDhLUCdMqOUoiyR+hziqOThivowjq30KU+X9Adtvgh3akvCgNVzUv9P8zadwT2mVWvXLai3lQvy6pmc3Ia31xvuxZcG9oW0kbnusylrnaOs13g6gG60iG5a1xiXw3cxwfVVlpmhdom9XXtefWxznGlq1zgMpfmaTarn48tcK3eeyF5EwiuUpIkIjU+hsjSCy61egA=");
 
 export default FileInvoice;

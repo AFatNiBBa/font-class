@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-day` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-day?s=thin calendar-day}
  * @preview ![calendar-day](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/calendar-day.svg)
  */
-const CalendarDay: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56L64 64C28.7 64 0 92.7 0 128l0 48 0 16L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-16 0-48c0-35.3-28.7-64-64-64l-48 0 0-56c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56L128 64l0-56zM16 192l416 0 0 256c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-256zM112 80l0 40c0 4.4 3.6 8 8 8s8-3.6 8-8l0-40 192 0 0 40c0 4.4 3.6 8 8 8s8-3.6 8-8l0-40 48 0c26.5 0 48 21.5 48 48l0 48L16 176l0-48c0-26.5 21.5-48 48-48l48 0zM80 288c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-64zm-16 0l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const CalendarDay = createIcon("calendar-day", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABlgAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCcgsGAAE2AiQDCAQgBYMtBzMbdQXIjtMV8Uyb4BIP3+v8PPdJ9u7Kn0FLrAWiCsIMPyVQ5S5ARRNuMylTO0Pe9SeuyX9//vSARf5IEbloWuOo43wCE0kfN1jZwGY6AZttMyqoIKrbQkIeE4kfNn8Y/wh5vOo8NdLL6Sc8OT40/jXsPpIsAxBdANhx4tEjmn/FXxE/tT4nfnIIAbETlAIZMowJsFkmMCZXIpcL/opWK/8HlgQQdXi8BHJMw2t4F5CDpJbnq7vndo00au35CY1aceoLA8/1iSLeW/DRkBApXl748dz2+HDxJ6NZAPfKoql5RXCmk+NYe1t7ipf6npvTFh8MvDCSnSg83//iYEQjBFW93//8sDjXRLw6+OL8xrEqNuQ94rm+Il4YiEK4K6YajXh0kv2+dw+8UBTxSN9zZk11Tf3npwt+cueX9bPOqq9Xeau7u6h0oejufms7B4BVrrKeqapp/ZVfvoW9ZD//Vm1X/fZz5swrF4DSgAXOAiRXcqHylsq2qZr8teOv7f7q2G4ZXdsRdDz0UBurng8Egs92uPnMzs3/T28k8M83nX5GWs1opilMl0CQLWktcVo0IZoCAJDiBrOiiUDynBq8a5sXBAgFAiR1hQCZUV0C5AqLBaiZsEaAusJRmchnCH1O30jS5moks9btSK7Pp0jNZt/m6/oi81DGv5j/w8S9HNyzrlyxrCo3lscmYp2OasubSrO54IYytDAcdIErXeE65zvPxa5j8DWOlK53ub0atMcXlVZYplLaqLzu/BRPSIVrXOtimbtfZZPy/fgCN+iTFwYnAeFKdUkiUtv3m1l63tk3AwAA");
 
 export default CalendarDay;

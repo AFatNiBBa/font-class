@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ticket-perforated` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ticket-perforated?s=light ticket-perforated}
  * @preview ![ticket-perforated](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ticket-perforated.svg)
  */
-const TicketPerforated: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 128c0-17.7 14.3-32 32-32l512 0c17.7 0 32 14.3 32 32l0 49.6c-36.5 7.4-64 39.7-64 78.4s27.5 71 64 78.4l0 49.6c0 17.7-14.3 32-32 32L64 416c-17.7 0-32-14.3-32-32l0-256zM64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l512 0c35.3 0 64-28.7 64-64l0-66.4c0-8-8-13.6-16-13.6c-26.5 0-48-21.5-48-48s21.5-48 48-48c8 0 16-5.6 16-13.6l0-66.4c0-35.3-28.7-64-64-64L64 64zm416 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm0 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-16 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const TicketPerforated = createIcon("ticket-perforated", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABjQAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCKgsGAAE2AiQDCAQgBYMtBzgbMgXIHgd2k08TNiP0KJe9DCIenrfr69xX1f3FbFQDkCsohKLN4FBIN4bb4oZHpAj8G0Eaq1CqkrJ4nzr1POehAD6HICh7akCSbt/rvAI9H2tbK1ArWIEqxh1bd8JDXHdoOkMe/8RWIj0iPwV3WR8avwquJ8kzANEMgKmrly/0/k/xU8SnlTeJTz0ExDRQCGTI0FGACTKBjnIFcrngp6hU2H9gQQBR5rwsgRzVOINLgBwk5Tzv0afGeW5dqSFfVVeqXX+VIx7STXGbewDi+f6yf2S8UsQVe79qjFvpQZENb9EjuJmC92uKl9ZrKeJBepHvFx/jh9pDHPHofLU2bn2Q7rcPuLIq4Vcg2lQ7qb26vWpe/V0/3fWpPLnxZri5EQtno4Z5sz1vaMjb37xlGZxXebqFllpqW1qehhLO1k3T8csh332WZZ99N+TLjtNaI57a3PjTT42+OiXRmxZDOlcr1d8BgWDlV3P/3Nw04bdqncAv7/0WP5iuyFdBtQSCbEBl25CuAAwdgJfilG49bQwkR2zJd633oAChFgGSsloBMh00C5Cr1V+Aks5GClBWa7lM5DVCu405SOodBZlRLoJcu9dByQQfuGXtkZ199LlDP/slzCpDM1sVZ9CQYlzRmZAyJxSpG8cXo41+ihf0hQvtctghJ+y0w14nSsgxC/0nHTSrD57piwpDDTJEYZxidvq6sKrkHnPc3nbV/GbGK9Z3+jjVX74vtBMHc5ioJBGp5U2cEgP/lUHdlQA=");
 
 export default TicketPerforated;

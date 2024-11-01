@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-slash?s=sharp-thin message-slash}
  * @preview ![message-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/message-slash.svg)
  */
-const MessageSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M576 16l0-16L560 0 111.9 0l20.3 16L560 16l0 337.7 16 12.6L576 16zM64 145.6L64 400l0 16 16 0 128 0 16 0 0 16 0 60.8 0 19.2 16-10.7L368 416l38.5 0-20.3-16L368 400l-4.8 0-4 2.7L240 482.1l0-66.1 0-16-16 0L80 400l0-241.7L64 145.6zM16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5z" />
-    </Icon>
-);
+const MessageSlash = createIcon("message-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABYwAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBVQsGAAE2AiQDCAQgBYMtBzQb2QTIngVOmT0aEVHMI+qKJvKPo4/fM57nf79v+9x3R0zrOJbEk2kpHtrQRJOVRPJQoYS/SJapvIu1tvuu1USamGHaxEqDRGRohPINS9kjBxO5gOzuCX1e4/yYvZv/az6/50cH+PkIDiUaSw8k0jNWzycwwGiMBpmXDWcTxVk7+9IbhBt9kvgkw3jD5gA1hBkq5X0Jr8qH5q85txRNAwAZBQBO3a7mYd1JJ/loP5LvzgOBnAJYhWjQYBGCo8iCRRSrQFWFTtpW/wNXQYB0Ax65gIouXARuA1BB0VQKXzvGpnIpjYEu1lGkn6MNF0koDXkEyQAbIjKTZgZQFxZLklqA20RE2a1pqUyC0hzULeSR5XD9UeDn2o9y4oMA49d6cg1h0D76j5tGCV4LiBL7d3ED9IpEXS6nlyBl7fhD7DyvyZR7N2z8csNdu8dvIAjbjx/YyNF/vQMkgJ/f/itc3b7sF9GrgNBstpt6ZR8UHUAvOaVyvigoziHDuw56IyD6EVB06xfQWCCAoOq3AUGXZV4IuvW7jiyVCTGp30Ex6CFoHHEGqknPoMtRL1q3yZApRROC/tEl5EYoO0rhtDkUIcU2YgxLyDQYVhyLhtNYMcpGWNiz69jczIbjATmUN0/syHlw1g8pONk4KIQortPn1Q1zh45s2LObhwlTvFcNTv12oygkwDzAVxRSuETzWI/ujI9WAA==");
 
 export default MessageSlash;

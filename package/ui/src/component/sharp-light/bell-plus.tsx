@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-plus?s=sharp-light bell-plus}
  * @preview ![bell-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bell-plus.svg)
  */
-const BellPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M208 0l32 0 0 32.8c80.9 8 144 76.2 144 159.2l0 97.4 59.3 59.3 4.7 4.7 0 6.6 0 40 0 16-16 0L16 416 0 416l0-16 0-40 0-6.6 4.7-4.7L64 289.4 64 192c0-83 63.1-151.2 144-159.2L208 0zm16 64C153.3 64 96 121.3 96 192l0 104 0 6.6-4.7 4.7L32 366.6 32 384l384 0 0-17.4-59.3-59.3-4.7-4.7 0-6.6 0-104c0-70.7-57.3-128-128-128zM160 448l32 0c0 17.7 14.3 32 32 32s32-14.3 32-32l32 0c0 35.3-28.7 64-64 64s-64-28.7-64-64zm80-288l0 16 0 48 48 0 16 0 0 32-16 0-48 0 0 48 0 16-32 0 0-16 0-48-48 0-16 0 0-32 16 0 48 0 0-48 0-16 32 0z" />
-    </Icon>
-);
+const BellPlus = createIcon("bell-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABgQAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCSgsGAAE2AiQDCAQgBYMtBzAbSgXIhuf512ndJykkBZyBBfxeIMIKCbqpc7Yl7jxyarxUKj2QR16Ud+zpx35sSv07Nz6Bic5L24+XpgOb6QRs9jvf9UISbpUkJBm21x+2P0KTe7KSIaq7qm9xa/7Q/GRBV1FpagDpAWDzfffc2YczmUm+HbxGvrUjAtkCFEGNGosI2EgtWESjoNEIMxkM3H9gIUCG8Y0q0GAY1+NWQAMqTdMs35+v3w1NNPt0Q+2BXdvJZxu/15fdMzci0o6H2PzZM2c+sukH26b/6UbJu0VkTnaLTCTZI/OFL3t4k/e32a9ru8vm3tbdOP8d6XLnck8u9fgKTy90oJCuk7YV0QKmqRn1RCZd4une07/0vz3mWz98UErpm3fhjVOHe8aWRiynp/diz3JGbOkZh5u68cJ5/cFuW7LW0HEpmXaZ6ePicYbW2nK3TS8tDCavu24yUIt2evrBB71218V7yK1mtV5RGAv2LOofB4Kwxeb/73To1Eb/jHYV+PHt3/7Az8jgw3xYPY1RFQj1SoOVHJQPIR8KAKDKOZbIhwgql2twinG3C4gWAZVhrYDawnoCGq0VGz5kMWuPGNbaUy3NmJjjYAavjDsdr63jYrwxxyv4kI18EQ6bk1obBV0S/gVTtxFg62Nl9VVWKxuUZaWKCsbF/Q3Lsb7cOX5ueZx0jFOd4ixHO8rxzurgM+ycnO1k2+ygrX1RsbpVrKbYQLluH9V9JDzDmY6fy/eHbKi8t5dzzn718rAqpF1DqVKRauxb1FZWZgAAAA==");
 
 export default BellPlus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-viewfinder` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-viewfinder?s=thin face-viewfinder}
  * @preview ![face-viewfinder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-viewfinder.svg)
  */
-const FaceViewfinder: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M40-.2C17.8-.2-.2 17.8-.2 40l0 112c0 4.5 3.7 8.2 8.2 8.2s8.2-3.7 8.2-8.2l0-112c0-13.2 10.7-23.8 23.8-23.8l112 0c4.5 0 8.2-3.7 8.2-8.2s-3.7-8.2-8.2-8.2L40-.2zm432 0L360-.2c-4.5 0-8.2 3.7-8.2 8.2s3.7 8.2 8.2 8.2l112 0c13.2 0 23.8 10.7 23.8 23.8l0 112c0 4.5 3.7 8.2 8.2 8.2s8.2-3.7 8.2-8.2l0-112c0-22.2-18-40.2-40.2-40.2zM-.2 472c0 22.2 18 40.2 40.2 40.2l112 0c4.5 0 8.2-3.7 8.2-8.2s-3.7-8.2-8.2-8.2l-112 0c-13.2 0-23.8-10.7-23.8-23.8l0-112c0-4.5-3.7-8.2-8.2-8.2s-8.2 3.7-8.2 8.2l0 112zM472 512c22.1 0 40-17.9 40-40l0-112c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 112c0 13.3-10.7 24-24 24l-112 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l112 0zM224 224a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm80 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM256 112a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 304a160 160 0 1 0 0-320 160 160 0 1 0 0 320zM207.5 292c-2.2-3.8-7.1-5.1-10.9-2.9s-5.1 7.1-2.9 10.9c12.4 21.5 35.7 36 62.4 36s49.9-14.5 62.4-36c2.2-3.8 .9-8.7-2.9-10.9s-8.7-.9-10.9 2.9c-9.7 16.8-27.8 28-48.5 28s-38.8-11.2-48.5-28z" />
-    </Icon>
-);
+const FaceViewfinder = createIcon("face-viewfinder", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABuQAAAKeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDQwsGAAE2AiQDCAQgBYMtBzYbyQXIhqDSVWW1NBM30jFojwmfyUK2gdBii92Jdxn//3t3/I/VoACfUSi3sSavYUV7YgKBjkljA6VRFlimCViL274h5r+HOEKBC+TxuoNqpPvSx7il/ND4Wg/XkWQZgGgPgHlbNqzyTjOaER///yLxsRUIiPmgEsiQobcAM2UCveUq5HJBM/7/P/wPrAgg6mo22ZejxLv4iGsWSSPPu8PzG41evTqUtTb55rJW7Li+c8SdxF1d7ukW8cCQMu7pdnfXok1RFnd2vqtLGQ/24Ky6uuvdxcGrukTcVSqE4qGeERNUHvtu4DruiUM07h1YhK52eyEF9aZEvj6++YZpEa+OetJVI5+Y+kpx/fTXRj8VV495esbrZbphRsTrzBxXn+EO7oEHfLOr5LZMe7XcfHfnO7s8OenlMfd0XR6+d+JDPfs/1v6xb1s+PvyxIW93eJzXOpylvndv/Sxd1jEIoYie9cxZZ501B63rwknp8NrjHb78sjQTDTuLYJwvhzjJ+L1f22azbUevaSffto65ckgijWsZPLhlXEpDojyYMXbEQhZtXDR8eG9eOALz8CVjLl20fsPgcbfdNm/whv2T/vLDX0Ag+GTSmqN72s38tVWZwFevff+X6Vf0/ztJegytJBBkI/8faWcCiQAApLhA/wSB5FUN9bu2drcAoUCApK4QINNLewFyhREC1PQ1SYC6wgaZyBtCZ7sQJa2djTKTXY5ynT2PamZ6L1LXOTJKltOh/EcyzeIjtmhaNW702Gp6xc1bFMQpzfpnVMqWoRdEdcNgh8POOO08hxx0bIKD6Byr4uc7ZbFIuMgXVcYZbazKdJVx6evmzQ45x7mOOeN0MckMlfvAUBeIWw8De1KLHS8nSURq955oR5G77vBnMO05");
 
 export default FaceViewfinder;

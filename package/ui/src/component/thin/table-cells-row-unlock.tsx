@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-cells-row-unlock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-cells-row-unlock?s=thin table-cells-row-unlock}
  * @preview ![table-cells-row-unlock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/table-cells-row-unlock.svg)
  */
-const TableCellsRowUnlock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 48l384 0c26.5 0 48 21.5 48 48l0 69.5c5.1-1.8 10.5-3.2 16-4.1L512 96c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0 0-16-32 0 0-128 34 0c1.5-5.7 3.7-11 6.5-16L352 320l0-128 104.4 0c5.4-6.1 11.7-11.5 18.5-16L16 176l0-80c0-26.5 21.5-48 48-48zM16 192l144 0 0 128L16 320l0-128zm0 144l144 0 0 128-96 0c-26.5 0-48-21.5-48-48l0-80zM176 464l0-128 160 0 0 128-160 0zm0-144l0-128 160 0 0 128-160 0zm304-64c0-26.5 21.5-48 48-48s48 21.5 48 48l0 16 16 0 0-16c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 64-16 0c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-16 0-16 0-48 0-48 0 0-64zm-16 80l16 0 96 0 16 0 16 0c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16l16 0z" />
-    </Icon>
-);
+const TableCellsRowUnlock = createIcon("table-cells-row-unlock", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABowAAAJ/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDIwsGAAE2AiQDCAQgBYMtBz0bsAXIhof/1+O/fW7ylDzky/mEB0I1azKCS7kbFx1csRLm/3J873RswO+Jh3R7YIvHtjHG8wQCzvKJWTwtsEwTsJbNYXYxD2mE9APk8bcTtJDuS5/glvBD4weDXEmSZQCiAsDK/bu3eu+r+Crik/9fJj6xGQGxCtQCGTIMFWCJTGCoXI1cLvgq/v9f/AfWBBCt4ntOIEcHXsSbgBwkbXm+qKOro2Nen7KlK99XthSHuzq7nup31yBxz4CI+yc9P64znpzw7MAU9018bmxXRBQRUW7IFOqsfmDAPeP3lEUJW+yup/vfPTj2hiijL2P1+J1uhBRfQMrgBbccEdf3vZNo1BKTNwy4J3VZ/7uLWI+Hr31XP3Fn3yLu7h9xz4By1PPV8z+N/OSkTyy/pWmaGZ99mq1z3rkrFb16Pdp4tAiKFd2lK1RqjVEGrpuocYpr7/7YDtmnn82YfsuttKJxq+bW0D/GE6kdj1zaxN6jnH0rdacvP+oi+S2/kvDPih9UVrqvvba7KcYf7aqrc1b0bK+qW78axr56VHWDCggEF3y/+7mje5b82l4m8M0bv/yFfkb+fy816Xm0SyDIpvw/xRGpgdQIAECKi4xKDQLJC9rE79rpbgFCgQBJq0KAzBCVALnCZAFaDDdXgFaF3TKRdwh9HUlB0ulckJnnEpDr60XQYon30636Rga5ItyJP45p6yi8dls9c9qMelG92tZIwMjb9cX1YW/CRXJsIt7rJGc7ywVOdIJTXTBgz7M1d6EzrdvC1/qi2kzTzFBbpL7ce+ruQ1PnOZ/kl+XrmyxWPx+f4KLt2RNxmMRRZ6lJEpH6A7Ux1cOXTz3v7IunXniW3wIAAAA=");
 
 export default TableCellsRowUnlock;

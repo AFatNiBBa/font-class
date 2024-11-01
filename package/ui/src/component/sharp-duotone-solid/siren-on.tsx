@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `siren-on` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/siren-on?s=sharp-duotone-solid siren-on}
  * @preview ![siren-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/siren-on.svg)
  */
-const SirenOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M144 352L176 96l288 0 32 256-261.9 0 21.8-174 2.2-18-32.2 0-1.8 14L201.9 352 144 352z" />
-        <path d="M69.3 36l-20-13.3L22.7 62.7 42.7 76l48 32 20 13.3 26.6-39.9L117.3 68l-48-32zM597.3 76l20-13.3L590.7 22.7 570.7 36l-48 32-20 13.3 26.6 39.9 20-13.3 48-32zM24 192L0 192l0 48 24 0 64 0 24 0 0-48-24 0-64 0zm528 0l-24 0 0 48 24 0 64 0 24 0 0-48-24 0-64 0zm-8 160L96 352l0 128 448 0 0-128z" />
-    </Icon>
-);
+const SirenOn = createIcon("siren-on", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABewAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCAQsIAAE2AiQDCgQgBYMtB0wbHwXInoON41jC2GdO0hTrhbr/iuD7/X577n3fDEneIWkym+6J0DQlSB6yVkLWRP5DpQR8+jH33sT0T8SJkiCJWxPrRCJ9Fa6voalyJPL6PwAccCKEqE9/P8//+acCef7FP1oUdejfBt7BExhwlEed73Y+sChTnEbb3pw11EPjQmMDRUpIH8lJd+kHcFn+BzD+4PYIJLUMgOgCANYOx0bR6/OSfvpvQLxjBATEOoBJREbGKIJFUoFRMpOgUAj6CegHAgggysCVMyijimNwAqAASUkUMrNZq1XbtXK9bFIr18zFY/EsY2yJNQXG2T5IRBN5Rtlk7+WYYGdfo9UgGlpSo+/wcZ1eJ7QUcWpqfErPCerOp5ca2jhOTbhr6v72s/mDwYeBgYFnDOhbZIZ2EjN78cyFpAjXka/77uydlx4m3KLnFk9Lwb6WBeTlUTb8CDPBz/6KNkAg+PleH18yDvzTSgC/b3/Xx+O/L1nqgqoEgjzdz2I+3QJmCCGT4hLhnbu6ApGtkcOtNl2DINQRICmrC5CNMCEo1E0hKBlXQ1BWt0sqCjXCkIUeJE0XIFtwBQpDXkHJove0bCiklMbQCfOjlzg8hobGiVK+KNpiM69liYeK/R1xWkle2roUX4tNRw6d27Bux/kIOTWau3BgeA8e8kNCSV6R0CZul54vn7Th1JkdRw7zKB3i/SDpcr91iusSIJ2xOstEotR0tnO6cZg7sizJSpYJ/3ECAA==");
 
 export default SirenOn;

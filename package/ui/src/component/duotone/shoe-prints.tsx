@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shoe-prints` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shoe-prints?s=duotone shoe-prints}
  * @preview ![shoe-prints](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/shoe-prints.svg)
  */
-const ShoePrints: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 416c0 35.3 28.7 64 64 64l32 0 0-128-32 0c-35.3 0-64 28.7-64 64zm128-64l0 128s96.3 32 160 32c96 0 224-48 224-128s-119.6-96-176-96c-48 0-76 16-104 32s-56 32-104 32z" />
-        <path d="M256 32s96.3-32 160-32c96 0 224 48 224 128s-119.6 96-176 96c-48 0-76-16-104-32s-56-32-104-32l0-128zm-64 0l32 0 0 128-32 0c-35.3 0-64-28.7-64-64s28.7-64 64-64z" />
-    </Icon>
-);
+const ShoePrints = createIcon("shoe-prints", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABiQAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCCAsIAAE2AiQDCgQgBYMtB1IbLAXIBp5H/+rPTTLK7H4yK6n6lCoAFaSmYCfU73+u+fysqUA+2IkdWtUyvIIOl/V8NKABTjN0PNKZzsD2cG6q6eqhQYi/A6MS9EZ8oA6q98Ce9D+A8pWebARFSAMAIB0AAICqIQPaePxBPih5710HeU8rIABSDYBDAA1ooA8CQCkaAfpgcIDBIPBBeR58EM9zIAAgfhKqcfzs01OAWQCAAUChUMa4Dh37hX2RZnDYZ0fsTxA5XyByq2BH3YuiO32PJF7IvW63x59TXL7YsE50ybnkS70Op1w+uf5gksjFuLCIWDkjzugxBGFv3Nm8G3k7Gl6V3Ot/zNTk37TXY8/Ut9noSx0ufY96P/k93nH2wf4GqCerPCOlNND985ctm/vFLNtaWqIzbm2lc9KF40THjtbS2Amc9oGOODZiayrWliXs29/wOOOWbispzbwYAJDXruy72WtM+9L/wbAC4NPdn39pfkfeY7VWXQKCKAAEdKqXyki1FkCtRQAAAAAli4lWa1kLCKDJRFHSEezjRcHCAAo/FjS96QAGSwr46EfeHX4sA9CICSF0YRQDKCKYB5p8VoGhC9fARymvcn66iIY2GVbkf72M+ilSt8plpWe6Yrdb1ykAJPr5EnfZn7hY9yXRjUxmDrNZyCQmMo2FE3o+bcVFzKL+iKrjiziySCcTRzHuceulMZjH5rNAi9va80VKcN+nE1l8PDqJhhRFMJtdGg2iRHdeMHXOpDRUDS9Iw9uBrksNRQEAAAA=");
 
 export default ShoePrints;

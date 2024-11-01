@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `passport` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/passport?s=duotone passport}
  * @preview ![passport](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/passport.svg)
  */
-const Passport: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 192a128 128 0 1 0 256 0A128 128 0 1 0 96 192zm33.3-16c5.3-31.4 25.8-57.6 53.7-70.8c-6.8 17.1-12.9 40.4-14.6 70.8l-39.1 0zm0 32l39.1 0c1.6 30.4 7.7 53.8 14.6 70.8c-27.9-13.2-48.4-39.4-53.7-70.8zm71.1-32c1.8-29.2 8.1-49.9 14.2-63.5c3.4-7.6 6.7-13 9.1-16.5l.6 0c2.4 3.5 5.7 8.9 9.1 16.5c6 13.6 12.4 34.3 14.2 63.5l-47.1 0zm0 32l47.1 0c-1.8 29.2-8.1 49.9-14.2 63.5c-3.4 7.6-6.7 13-9.1 16.5l-.6 0c-2.4-3.5-5.7-8.9-9.1-16.5c-6-13.6-12.4-34.3-14.2-63.5zM265 105.2c27.9 13.2 48.4 39.4 53.7 70.8l-39.1 0c-1.6-30.4-7.7-53.8-14.6-70.8zm0 173.6c6.8-17.1 12.9-40.4 14.6-70.8l39.1 0c-5.3 31.4-25.8 57.6-53.7 70.8z" />
-        <path d="M0 64C0 28.7 28.7 0 64 0L384 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM183 278.8c-27.9-13.2-48.4-39.4-53.7-70.8l39.1 0c1.6 30.4 7.7 53.8 14.6 70.8zm41.3 9.2l-.3 0-.3 0c-2.4-3.5-5.7-8.9-9.1-16.5c-6-13.6-12.4-34.3-14.2-63.5l47.1 0c-1.8 29.2-8.1 49.9-14.2 63.5c-3.4 7.6-6.7 13-9.1 16.5zm40.7-9.2c6.8-17.1 12.9-40.4 14.6-70.8l39.1 0c-5.3 31.4-25.8 57.6-53.7 70.8zM279.6 176c-1.6-30.4-7.7-53.8-14.6-70.8c27.9 13.2 48.4 39.4 53.7 70.8l-39.1 0zM223.7 96l.3 0 .3 0c2.4 3.5 5.7 8.9 9.1 16.5c6 13.6 12.4 34.3 14.2 63.5l-47.1 0c1.8-29.2 8.1-49.9 14.2-63.5c3.4-7.6 6.7-13 9.1-16.5zM183 105.2c-6.8 17.1-12.9 40.4-14.6 70.8l-39.1 0c5.3-31.4 25.8-57.6 53.7-70.8zM352 192A128 128 0 1 0 96 192a128 128 0 1 0 256 0zM112 384c-8.8 0-16 7.2-16 16s7.2 16 16 16l224 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-224 0z" />
-    </Icon>
-);
+const Passport = createIcon("passport", true, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAAB0AAAALlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGSDdgsIAAE2AiQDCgQgBYMtB0wbFAZRlA5GjuzHgeM6cGIxZIs5Lbo5sVsUPgkXfRCOt5CiYcvsHrW47kFVRRe2WoTFIzyuSY/FPxojMGy6O9iuQahLFXvo1lUxFLg9HK7KEw/x75j+15q+n/DuhUtECoBdjC4ROyIhy/qmHtD25v+azw+4QD7eOzs+P5TMhUZReVTiBAY8uo2iqcAHtBnbBucNOqw+hPQTjNyDPpTUV+AP3vz/AcwfRz5Q5hoAWQUA3Dx1PRiRYtH//wnkWz4I5BbAPqLR2EZwLijYFrIPhiFMZJIETEiSBATINPynNpjGOvgB/AJggDLnh1qhcFIb1Sru4iw4qzSCXq3mSp2ikr+FyeeCifb8dbQRuOMoo+mAbR+BNoN2neQV516cFhxjKTx60m7WjdO8w7hN/Jw7p+WEqkWnM09WOXPbhO2MK6Ml5yn7mGkXRmvJFS1BRLtBu6w3YNvB0By4g/G+4L0wlY/brHU4rQtP2rGq0QkizuyQ2VbEryVPuzBwxhccz72qrhWfUB2G3BeE76hVfpwWneDs7rVr3H3z/Fv/aGYmwLScgWWTiTWjI7Pbj1+Ohv2RstMNAIjJXU+KQNJ6bkz3Too/ho/01nF21h9fxEh5a0nhCFrLc92u9BYA4f7Oy767FwTvTgUr+LgR9XpRRLZgk7QpwzB8tJPi7+EfcjfhMt2T1vJiHEME5N5SAMTUjidlWF9qHD78OAAABIAAsfN/22RI+dNwGQDg9fzjp7gfkuGtbFcCYFaB0IdSCIYxACMSkKxcYS/81DOivYoLP3XROwjEPALKtHkBbYuFYJh3gGDKrhqCafPuBGXEEZtGDSiLXkA7cwPDpgeYcu6VmLaZoCQXpKjwi5nqdiFnlUr5otqarahEecs5kx1t9iSvvCMFN2JqZ+tsYmzh3IGPvPTFhrtEdb4rJXlF0qbD9YfqoJM4OllMy8eX6dD1gaTrcv8U9AeEtEfWtCbFoGWMOA1n5nSLnejJxgIA");
 
 export default Passport;

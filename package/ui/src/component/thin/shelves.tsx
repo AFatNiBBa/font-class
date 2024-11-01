@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shelves` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shelves?s=thin shelves}
  * @preview ![shelves](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/shelves.svg)
  */
-const Shelves: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M8 0c4.4 0 8 3.6 8 8l0 168 608 0L624 8c0-4.4 3.6-8 8-8s8 3.6 8 8l0 176 0 256 0 64c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56L16 448l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-64L0 184 0 8C0 3.6 3.6 0 8 0zm8 432l608 0 0-240L16 192l0 240zM448 16l-64 0c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16zM384 0l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zM128 272c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-64 0zM96 288c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64zm192-16c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-64 0zm-32 16c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64z" />
-    </Icon>
-);
+const Shelves = createIcon("shelves", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABpgAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDMgsGAAE2AiQDCAQgBYMtBy4bsAXIhof/t+v7fW7VU/UYNZB7pAhWBH4r+qmAIO71U6snLnf+509/Pv3VH2ztsr3BxhpAnXcejWVjU5dAFmaBJaa9TQkpiSR8xpARranEjmd4vDtBHv/YrYH0UPoCd/Q3jW90d40kywBEOwDMXbdqpXdqUYv4ov4i8YXlCIh5oBTIkKGXADNlAr3kSuRyQS3q9fIfWBJANOInJpCjwGt4D5CDpDnPh7V06NEuhyoNrfO1dWax6b7Oom1EPNBV1qUQ93a6v0tEG5EzxbuhbZu2C9e+olJUg7CKFTJE0C8sqhSVWzrfR1zqdG9RxM1d7o+Iy10fqKw3GYqBN4YI6F0Ja2vWuXbs/1i7x77r98XeLzS9vb3xEds9onG7oM+gik613VS4imdMTU9vZ8KPtvvx6YerCbU2VW1qVSTWJ3ObG2/EnEePelsXyWq9zY2MqPp2fhwIBNWvNp7b1nbmb82VBL5+7Ye/z/vV30mX0mNolkCQjayPtDldAugROJrirP7KBwWS5zTjV23lfgFCgQBJo0KATE/tBMgVRgjQoI9JAjQqrJKJvEXoZMuFJ62cwDOTncdznTyPN5jp40ijTpFFMBN/zP9j4qIRWDipHDd6bDm9fMwQNiip1jmjdBuHnsWKYWmrvY456rQ9djvg9ACdtDJ+xhGLNHChLyqNM9pYpenK7fyzuBaiJ51yYM3uj2OG8n37UGf1+sPSNBJg/LencEakplP79xw+u+cUAAA=");
 
 export default Shelves;

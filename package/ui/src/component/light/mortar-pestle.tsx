@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mortar-pestle` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mortar-pestle?s=light mortar-pestle}
  * @preview ![mortar-pestle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/mortar-pestle.svg)
  */
-const MortarPestle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M478.2 35c0 0 0 0 0 0c-1.3-1.7-3.2-2.7-5.4-2.9c0 0 0 0 0 0L476.3 .3 472.8 32s0 0 0 0c-2-.2-4 .3-5.6 1.5l-.3 .2s0 0 0 0L292.6 160l-54.6 0L448.2 7.9c8.3-6.2 18.4-8.7 28.1-7.6c10.2 1.1 20 6.1 26.9 14.7c2.9 3.6 5.1 7.6 6.6 11.8c2 5.7 2.7 11.7 2.1 17.6c-1 9.7-5.6 19-13.4 25.8L398.1 160l-47.9 0L477 46.3l.3-.3s0 0 0 0c1.5-1.3 2.4-3.1 2.7-5.2c.1-1.2 0-2.4-.4-3.5c0 0 0 0 0 0c-.3-.8-.7-1.6-1.3-2.3zM64 224l0 32c0 69.4 35.3 122.2 102.6 146.1c9.7 3.5 17.2 11.4 20.1 21.4s.7 20.7-5.8 28.7c-6.6 8.3-11.9 17.7-15.4 27.8l181.1 0c-3.6-10.1-8.8-19.5-15.4-27.8c-6.4-8.1-8.6-18.8-5.8-28.7s10.3-17.9 20.1-21.4C412.7 378.2 448 325.4 448 256l0-32L64 224zM352 480s0 0 0 0c.1 0 .1 0 0 0zm-192 0c-.1 0-.1 0 0 0c0 0 0 0 0 0zM512 208c0 8.8-7.2 16-16 16l-16 0 0 32c0 71.6-32.7 130.1-93.8 163c-9.4 5-19.4 9.5-30.1 13.3c6.8 8.5 12.5 17.8 16.9 27.9c2.9 6.5 5.2 13.2 7 20.2c4.4 17.1-10.4 31.7-28.1 31.7l-192 0c-17.7 0-32.4-14.6-28.1-31.7c1.8-7 4.1-13.7 7-20.2c4.5-10 10.2-19.4 16.9-27.9c-10.7-3.8-20.7-8.2-30.1-13.3C64.7 386.1 32 327.6 32 256l0-32-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 448 0 16 0c8.8 0 16 7.2 16 16z" />
-    </Icon>
-);
+const MortarPestle = createIcon("mortar-pestle", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABlAAAALAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCDEAsGAAE2AiQDCAQgBYMtBzQblAXIvgxwYwgN6b4DQREJ01aAQVJVJbozlI/dHcN+expDLx4+5v7z3CQLwFlAYolYIIcs39RWV38e+L93971/Pv0WRsPWQCnA0jEtgQg7PqYFlBZg93/zzn5zCRS3QQLKv0ARbdG85/nYIFke6ME+kYoQJSVqmccY4w3XN+5UtACIj5N6MquQ+uJkzX/g2unv3fk//xvwAfjfC/8/nyBjt5ZA552nG7u8RLLAMg1AYs42G3IwYauxj48VEmUie3zCx7c7ZPEpbRQjuWk/AOf7m8Z/HEdIZCmAqAiAgdMnj/VVgU/AH/4RP8gQEINALpAiRV0B+kgF6srkyGSCQvzKf6AEEMWNZycgQwk8wHtABhLFsqx/rTJZxzJpuWxavaH08h1GHOSaH+QgdaIcQE9lZKcENqaHqq52X7+iaxVN9boUrvUChD+nbnIZhNes69bfL7yyC1cyZaL0IS13HCgdxIF96l/RIbFQT0UoDq+Zn3jPySodk1JWmbz1axs9lh+/bifnHaByAu21B2lDeLaC7n697lToM+slK49proN9GwENk5jA3aN5btXSZh/poX+A0Z2+8adjVe5AtQiArwDA/ApioSTXbZZ/3vNBs+2JQhyJO/ZurZG+881Lym41FRXKu6SXPA4gEBwrbPiOpfh/Egn495Nf/hopOmLyWJSUgCBtU9QxJwGKQAEASGKbRhECiftS41XLuiaAUBoBEsWVFiBVR0UBMqW1FqCY+roKUFxpk6UiKyVUNfcEibI2glQ3e0GmqjegmD6+joqrGpKE5dKN+11MHqahobvyYbsOea/8sTH5HGTaZu/cbTe28URLumiZ9dbZYqklVtqiyE3GplutNcyCh/qgXEftdJDrJQ/3X+VpoETevDP3fHwbveXrgxa22fNb0j4SQKdPzfDVSMqtnWzasnBT26k2b1mzFAAA");
 
 export default MortarPestle;

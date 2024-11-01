@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snooze` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snooze?s=sharp-light snooze}
  * @preview ![snooze](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/snooze.svg)
  */
-const Snooze: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M160 0l16 0L304 0l16 0 0 16 0 8 0 7.3L314.5 36 209.4 128l94.6 0 16 0 0 32-16 0-128 0-16 0 0-16 0-8 0-7.3 5.5-4.8L270.6 32 176 32l-16 0 0-32zM0 224l16 0 192 0 16 0 0 16 0 8 0 5.6-3.5 4.4L42.9 480 208 480l16 0 0 32-16 0L16 512 0 512l0-16 0-8 0-5.6L3.5 478 181.1 256 16 256 0 256l0-32zm304 0l128 0 16 0 0 16 0 8 0 6.1-4 4.5L332.5 384l99.5 0 16 0 0 32-16 0-128 0-16 0 0-16 0-8 0-6.1 4-4.5L403.5 256 304 256l-16 0 0-32 16 0z" />
-    </Icon>
-);
+const Snooze = createIcon("snooze", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABbAAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSCFgsGAAE2AiQDCAQgBYMtBy0bEwXIHgd2w9cRNmGov5QxHh7sev/cmdl9UIh5kVCJ7pPKrNR5u+R/F41boWKxMFft+cip2hPvB3xc8KrcR/1WeiCl7p74BBafL/P5B1tmA5vpBGzWzm7AIPwmfU/9JxkW/bA6QxZXgwLJ5STO1Q+NH7R0lkSWAogGABi/YM5spW/j24hP/0d8aiYCYgLIBVKkaCPAKKlAG5kcmUzwbfz/f/wPzAkgiug1EpChgG04CMhAIs2y+vqOVYWabH5VoXJJVWWVEKJJzI2qKlFZGZQ0jwW80lxVUM0ToqrDkwZPfqq/vpvvGjS41UC5MpNsWmJFg1yD8xMx10b/5jcN+pZX1NGzr9y3vwQx0NOi38mT5wNnkO1HrQk1ALADWns5EAieHv/3irpRf5VXJeD7l7/81n9G/i9FKXmCcgkI0l7/szRKECUBAEhivw5RQiCxToretdoFAUIlAiSKKgVItdZAgEylngIUtDNYgKJKc6QiqxCaWMZ0otouOjXEMTrTxAu6YJT3ZVGTSH1O9hj5x5cxRcKT9+X9+/TLR+RqZyhuJObtkfl20G1/muqOk9bbYbu91llrk72C2m12s882Uyxksi/K9ddHP7kR8uPB6/H51tltj0122F52GSm/n3ez317cHYdJAANeC0jakRT3bN+x4/A6AAAA");
 
 export default Snooze;

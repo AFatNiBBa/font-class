@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mercury` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mercury?s=solid mercury}
  * @preview ![mercury](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mercury.svg)
  */
-const Mercury: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M72.1 7C85.8-4 106-1.8 117 12c17.6 22 44.7 36 75 36s57.3-14 75-36c11.1-13.8 31.2-16 45-5s16 31.2 5 45c-7.8 9.7-16.6 18.4-26.4 26.1C337.3 109.7 368 163.3 368 224c0 89.1-66.2 162.7-152 174.4l0 25.6 32 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-32 0 0 16c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-16-32 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l32 0 0-25.6C82.2 386.7 16 313.1 16 224c0-60.7 30.7-114.3 77.5-145.9C83.7 70.5 74.9 61.7 67.1 52c-11.1-13.8-8.8-33.9 5-45zM80 224a112 112 0 1 0 224 0A112 112 0 1 0 80 224z" />
-    </Icon>
-);
+const Mercury = createIcon("mercury", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfQAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCDQsGAAE2AiQDCAQgBYMtBy4bCwXIhof/11ne96UhexZZCwAUZO64DFc+6cIVdZ645vlX0QMWAGdpgfw2fV6WwM7/fOc/i7QJReFsorjdaa1Qi1YuaYklOS7t+Bz2kMeF2VVqSPenb3Br/tD4XQdXkTRkAKI5AKavXbnYZ5WoRHxdfZv42kIExHRQCGTI0FmASTKBznIFcrmgEtWq/w8sCCBqMZ64OeYP4CR9GZKU53M7lWua5GuovLTx3jYRd7d5efS7Q+9td2+bu+O6re9q/f7gl3076aNVohxPd7ivVykEiZ7pGFGKx3iwbzkivp/yyZrLh7468Z6297S7t93qyzpE3N/76fKNfZ/t9GBc3vGBPs+Ubuj1VPv79Hih+Qt/dv9mzzfmvvfsZ7x+/RuVyhvXv/7Zs/d1arzgk5/7zp49xMxXH53e0FFheZs2ywvNOXR5G00GHSnrP/qqmUNmzx772ycXNHa6r+7Hrr/y6yOPdO1agl9/xb5f2+VAIPh6WJ8+W5tN+qe+nMAvH/z9fzqvefWzOJZeQL0EgmxQdZBNcZmCal4ogLMUZ/SAbxJIdkjgWhvdI0AoIUBSqyRAppPmAuRKBgpQo6vRAtQqWSkTeYPQ2ubGJY2Oc5kxLuZyrb3J1Zjk86xW68jMTTEW5bWXOUcCs4uK4UOGFROKaV1VLUii+YnFctjvTOjrDyvtcdQRp+y2y36nBHvC4tpph83RmNl+qDDcEMMUJii2W/fmGsxOOGn/WNtfxETF+bSfM/ro/rCcBBhxUblEpLpvcaPTJ84DAAA=");
 
 export default Mercury;

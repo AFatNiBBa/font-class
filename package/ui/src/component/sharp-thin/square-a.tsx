@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-a` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-a?s=sharp-thin square-a}
  * @preview ![square-a](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-a.svg)
  */
-const SquareA: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 48l0 416 416 0 0-416L16 48zM0 32l16 0 416 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zm218.9 96l10.1 0 2.2 4.6L350.2 384l-17.7 0-30.3-64-156.5 0-30.3 64-17.7 0 119-251.4 2.2-4.6zm75.7 176L224 154.7 153.3 304l141.3 0z" />
-    </Icon>
-);
+const SquareA = createIcon("square-a", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABWwAAAHeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBOgsGAAE2AiQDCAQgBYMtBy8buQTIhof/n6u67ydNqWHIjAJmRQRuNJNFWlVuUahVfdaiAq6pU89zHgrge8SDNjatCbLA9jyvQEVTLniBxgKraQWs5q6uhYfSfhJLLC2P3zyezpDHXVvVkW6n73CxfGj8qKvzJFkGINoAYPqKJYtVm6M54tvae+JbCxEQ00EpkCFDDwEmyQR6yJXI5YLmqNXif2BJAFGPHyCBHPWYggWAHCR5nje17dhQqWuZL6/UFWtSllpGFi06VYqWIoUoWkRkEcsqRaVjLIsiRkQRw6KIFdF52fKwuzQqfZ+0efJzn++2f6f1xUfgAF1r06baxiNthFfV+H5DwSc6OP63tn51z6/aDkGHhS/nXKOLuAAEgsenf3m8ofWk3xorCfzwxa8/ol9RrTmq6QkaJRBkg2qDrI0qRFUAAFIc1zeqCCRj5OhaW7ghQCgQIKlXCJDpro0AucJAAer0MlqAeoUlMpE3CR2s6yBp4RDIjHEO5Dp4C+pM8qVXr0NkXkT6APmHi5sjodnHyuFDhpUTym2mUY6B5+3E8ljsdzx1+mPXdgfsd9Q2W+1yVCCHLQ6P2WeOBs/2RaXhhhimNEFpLp+55eQddsSuNWM/ZKLyvtvPcX28P5SEMUeIJIlIjQ9RGrwJ");
 
 export default SquareA;

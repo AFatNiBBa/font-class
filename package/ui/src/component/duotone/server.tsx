@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `server` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/server?s=duotone server}
  * @preview ![server](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/server.svg)
  */
-const Server: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 352l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 288c-35.3 0-64 28.7-64 64zm368 32a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm24-256a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm56 256a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M64 32C28.7 32 0 60.7 0 96l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 32zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm32 280a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Server = createIcon("server", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABlgAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCJgsIAAE2AiQDCgQgBYMtB0gbQAXIngVO2S56VHZCndb8ExQiOYJq+b+evfsh5CtUjkGBo7C4nCUoFC4rhHqFRVPIF8wPjmlWeLogGEQQgJQh7/Pzf7nnt/DoAL/RoYw1Kl/z+ZzPE0hg+7ROJJA00wystykeGVGI0FVlsZXEjs+Oc1fI43d2QwXpXsIt+h/A+KvHDZKaDEA0A2DBtk1rfClFKcWv8ifil9UIiIWgEMiQoV+A2TKBfrkCuVxQSuUypSiXCwKISpReBipRi4u4BshBksvzvLeGmZyvq2jIt7p0ane97Ii33eLeiHfREG9GfbCI+yPfZ/2BV3LXX+uDmoFc/fyON3Y/X/K9CEHbFi+Hv+UDgQJpm4JLxpbpiWHv6f07at6Ta6Gldr7alpanQ4jY1LVsQ0fHhqz9DxQEQ11jZP986t4XW3BuaDfoKids2utAIFix4+buw9n/oC6BP58bf0jKpSS9R7UEgmx0ebTdCSQCAJDiqmEJCGSmyPG71rstQKhFgKRSrQCZPs0C5GqNEqDCoCkCVKq1SSbyGqHdngaSehdAZqrrINfuI6gw29dipfbIjI8zHe7XL3mphJbsKiaMHV/MLF47Cm9PTNycVajt4Vf9xAi46KhzzrrsiMNOuCyIi9ZUrjhj6Qpf4osKE4w1XmGm4rj/LG8VxYsuOfEsnm8zS/F9brir6/kjwEuYdKI9mYxIkTXeU32MEevNvXhZAQA=");
 
 export default Server;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dryer` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dryer?s=light dryer}
  * @preview ![dryer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dryer.svg)
  */
-const Dryer: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 32c17.7 0 32 14.3 32 32l0 384c0 17.7-14.3 32-32 32L64 480c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l320 0zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zm64 96A24 24 0 1 0 80 96a24 24 0 1 0 48 0zm56 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm40 296c-56.4 0-103.1-41.7-110.9-96l62.9 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-62.9 0c7.8-54.3 54.4-96 110.9-96c61.9 0 112 50.1 112 112s-50.1 112-112 112zM80 304a144 144 0 1 0 288 0A144 144 0 1 0 80 304z" />
-    </Icon>
-);
+const Dryer = createIcon("dryer", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkAAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCRAsGAAE2AiQDCAQgBYMtBywbQAXIjsQ4JvILnRCmePjQab0vyZ5EDoMWEQ4AoeOi2c5zJZXbnvMd3n/8W8+teRTgA/DOcx7IcWJ0nvMEmjcvz9NAssC+SEL+d2ezsuRRjoUklpZ+2vE6IYvnYrISyTPJn3iIXxr/6HU7iSwFEC0AWLFv1xY/V6Ma8WftC+JPmxAQK0EhkCLFgACLpQIDMgUymaAatZr/DywIIMrSGxOQoQ63435ABhLlLOvrq6/v76+UGrO9lVJ+1n2dEU9I4uaOx/OGuLfryUjjlu6nKo2nvj4+4u2eJJ6Z8M6Yxnhr0nv9aTw78d2xDXueHft6zzNj3urf8FZ/3T3w5cSId4cq8VT3k115vLSnzftCccvg8+Pfnr335ikRHyz4pnLfou+mfRS3TP1w4bf5vfO/nvy+ke+2vPvfiD/P/NNNLzXdzd1NN2PMQ8vZtrts+OVWWvOb5a2tLy9HLISWHevcsaMzS1cFDD42btzLf3PinGWqTU3VZc458ffLubn5fz100biCor1t7Ni29qIYN67A60AgWDL/9+qx5sUn6yoJ+OtbJ/m7aj/Hz8m7qJOAIJ1cm+xw/AzxswBnJnGlkcKWAonrXetTGzwpQMgRIFGWC5Dq1yJAJjdJgJIhcwQoy+2Siqxe6HCkgUSDS0BqrhtApsNnoGSxX8yyjkhNkTIk6iMYv7aH16wVM6ZOLxYWy1ihrYuI80XFtj7+SqpNgANnusiFLneG053DWIdeaotzhQuslZA1fqgww1TTFRYq1NkjvxfNS13mnDmrX7JIcd4Y70q5ewJskQBmPiJBkUhKp196zRmXAgAAAA==");
 
 export default Dryer;

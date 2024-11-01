@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-9-1` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-9-1?s=sharp-duotone-solid arrow-up-9-1}
  * @preview ![arrow-up-9-1](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-up-9-1.svg)
  */
-const ArrowUp_9_1: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M344 120c0-48.6 39.4-88 88-88s88 39.4 88 88c0 22.6-6.2 44.8-18 64.1L458.3 256l-74.9 0 5.2-8.6 25.1-41.3C373.9 197.7 344 162.3 344 120zm8 168l32 0 48 0 32 0 0 32 0 96 16 0 32 0 0 64-32 0-48 0-48 0-32 0 0-64 32 0 16 0 0-64-16 0-32 0 0-64zm48-168a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M160 32.6l23.6 25.7 88 96L293.2 178 246 221.2l-21.6-23.6L192 162.3 192 448l0 32-64 0 0-32 0-285.7L95.6 197.6 74 221.2 26.8 178l21.6-23.6 88-96L160 32.6z" />
-    </Icon>
-);
+const ArrowUp_9_1 = createIcon("arrow-up-9-1", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgwAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCGwsIAAE2AiQDCgQgBYMtB1QbQQXIhof//Puvfaru131tVEuKAI/orJkNFE3mJLCzWevN/zX1OgG/HdkhRS+SCqTAM59P4ETnKRrps5nidJu4pyOQvgiRKgvp+PL42kMV/+d7tZBeSl/gCf4fwPhFf/eSdGQA0Q0Ay7Zv3uSjL+PLFF803ya+sBEBsRwUgYyMQQIslAUGqRRUKsGXqdnky2g2CwFEK2ayTCs+7nLcBKhAEnJVjejft2ejpXO1rdFS7x43ftzWGBcLY3xMjhSijogcE2NsLI4JsT0mHH9jQsSlOe+MuzD4zrFboo6+MSXOjr84YGujbgjRaIi6DiAhbb+z9znPNR7p+0Lc1ef5+uFezxp+sdvF34Z9cewLb7x+Iy5q+35r/GybfwxRLFUM8Y9tfrbG9v1utH1N9SAPLl364IPViEET1thghwd9P3pM17ZzpVxZHNCtLFXuBNTNksqUc132qS5dAhiBOOnoddPf3N914X/tjQS+/vCPn+t5A5tfpvZ0Ee0SCPLE5kR70lKDMjdRABoprjecvit2CGQrZPyonTwvQKgRIGlVC5AN1E2ASm2CAC2GmCVAq9pmWVQdQi97BSSdXAWy2W4DlV7eAi0W+rjRqlfksHODxv31Fa3W6KqkMm3y1DK/LDuaF0l23lxQjgtjr08T42inY65wuWsddcRJ1yr9apva17nMaktc5YeKaSabqpivuPv30TbVuNo1Ts4D/zYLlPv1sa6354+jclJMpzs0y0SK3Ovg1VdfccOk666cNG/StEkRPN1nELxWAAA=");
 
 export default ArrowUp_9_1;

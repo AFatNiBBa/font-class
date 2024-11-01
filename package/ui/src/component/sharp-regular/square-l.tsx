@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-l` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-l?s=sharp-regular square-l}
  * @preview ![square-l](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-l.svg)
  */
-const SquareL: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 80l0 352 352 0 0-352L48 80zM0 32l48 0 352 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32zM176 152l0 184 120 0 24 0 0 48-24 0-144 0-24 0 0-24 0-208 0-24 48 0 0 24z" />
-    </Icon>
-);
+const SquareL = createIcon("square-l", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABVQAAAHRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBIAsGAAE2AiQDCAQgBYMtBy8bnwTIjsK25RPzNWEiOASernieb833vpnZnPzdlNECgK4ENALI2H5VFAbIV8X/GJFTW129/v/P7X5G87j4IIm9IZq3toQkUW/E5nGNSiqcTZ3KuZyHAviWJR60sWlNkAW2Rsc8r0ABa714p3CvVrBqBa27c9sySbRXWookxyOO0wVaPmdVR/lYFnibPzT/7HKDoqsAshEA3HpQ0GEss0zWxidZcxsEcgtwkEBFxV4CXCUJ9rI6CJomLDOO8h9IQIBM6GsW0NDhHLgMoIGitrayaYutW9fuD13/pNSyLjWz60O/TkqknyU1uUcYBun7wOQQh7+5v/09i97CiacNkOGoI7PBGlhdZff3/kMnDjJD/iL7CRBjALnvx+i5rbuu/p8OBfz9Y5ro6XGZefmGqQJCPTqGUMkchBzgJ5W84c0cQXGMhN915h0CokdAMdELqPZwE6DpHSFAZ78kASZ6d0jSVsRW1QqKmeegOu8Kmq3uoHPVN57YmnpxuGPnvm3JmoXVY6REmHLUrRX+LjBxP0/Tmm/n5/w4iZ65mY2ujqGNQVf0bGtKGyGqLyKKCEZyaLm7PV/WtbI2NDdLh+TR/shnN17tR9NCaU/LFYWU6dvTwxMA");
 
 export default SquareL;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turkish-lira-sign` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turkish-lira-sign?s=sharp-solid turkish-lira-sign}
  * @preview ![turkish-lira-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/turkish-lira-sign.svg)
  */
-const TurkishLiraSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M128 32l0 32 0 36.6L246.9 65.3l30.7-9.1 18.2 61.4-30.7 9.1L128 167.3l0 29.2 118.9-35.2 30.7-9.1 18.2 61.4-30.7 9.1L128 263.3 128 416l64 0c70.7 0 128-57.3 128-128l0-32 64 0 0 32c0 106-86 192-192 192l-96 0-32 0 0-32 0-165.7-14.9 4.4-30.7 9.1L.2 234.4l30.7-9.1L64 215.5l0-29.2-14.9 4.4-30.7 9.1L.2 138.4l30.7-9.1L64 119.5 64 64l0-32 64 0z" />
-    </Icon>
-);
+const TurkishLiraSign = createIcon("turkish-lira-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZgAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBZwsGAAE2AiQDCAQgBYMtBzgb7wQR1ZojyD4SctOU/3FmRzSxEg//zPV2X5L5BaAUCMDVkapDS+yIjydYUqsnACZued55FIaf5vp8WPaCfBZF74svUNR53mXt8QnNBjagAc4nYLN29pQfRL9J+pQnGSbdsNncIYu96TEFkvPJS5zOLxp/qeMYiTIpgKgMgMEzp473+FN8inhRvCFeGIuAGAxygRQp6gvQTypQXyZHJhN8imIx/AfmAogS8u0JyJBiJhYDMpCILJtYrlAhm1GuUHauIGZGy+gczWJaaMRy8WTgo6YR5XAfJ72dVrasHFHdWOoSLaMnfT6iXJOrla/+0/jlipcOXsjzvLkdTf3SwC+nWmrI584bZNLQboXcILmYPH365Fg0D7voW7+0hk7qZelxEAhKHxu8Z2Glfv+XLpeAL3f/+0f5FRU/xaHkKkpLQJC2K7abF4cgDgkAQBI7NIlDCCQmSsizlndGgFAWARIlygqQqqeyAJmy2gpQ0FB3AUqUNVUqsjJCdfM9kihvM5LqYT+Sqe4aUtDPE6NE9UixRSODftoliBEaGL6Wd+7QKe+TDz2VgQsZu33zZbHVDs60pkMrNm7YtnzZ6m0K2jLe3r5+hAUOf2PeuUOnvE++Hd7vz1i+ZevqjRvSnL75eb3VDru8NW2TALrciiMhkirf6rlXb13Vft3qLYvbQxM=");
 
 export default TurkishLiraSign;

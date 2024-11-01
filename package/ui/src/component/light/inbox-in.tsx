@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inbox-in` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox-in?s=light inbox-in}
  * @preview ![inbox-in](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/inbox-in.svg)
  */
-const InboxIn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 249.4-84.7-84.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l112 112c6.2 6.2 16.4 6.2 22.6 0l112-112c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L272 265.4 272 16zM48 352l66.3 0c6.1 0 11.6 3.4 14.3 8.8L143 389.5c8.1 16.3 24.8 26.5 42.9 26.5l140.2 0c18.2 0 34.8-10.3 42.9-26.5l-28.6-14.3L369 389.5l14.3-28.6c2.7-5.4 8.3-8.8 14.3-8.8l66.3 0c8.8 0 16 7.2 16 16l0 96c0 8.8-7.2 16-16 16L48 480c-8.8 0-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16zm306.7-5.5l-14.3 28.6c-2.7 5.4-8.2 8.8-14.3 8.8l-140.2 0c-6.1 0-11.6-3.4-14.3-8.8l-14.3-28.6c-8.1-16.3-24.8-26.5-42.9-26.5L48 320c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l416 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-66.3 0c-18.2 0-34.8 10.3-42.9 26.5z" />
-    </Icon>
-);
+const InboxIn = createIcon("inbox-in", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfwAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCHwsGAAE2AiQDCAQgBYMtBy8bHgVRlMzFDtmPBNvWxVoJjbBJk0VWwvF7BNTcv3uXfEqZ0ipgVkTgKsmhqiVwHFdgB5SpRYXqWThnru3wV5ewG5DT6FH5zYb1IN+eav/nms/v+dF5fqNDqqDS4gKvWD6fwICjvG02kYG1wQBorNudRnGIdpE0Ymnpd+z47CANd0NPVcRz8TlO5RsN37RxjChNAITGABg3f/YsRRnKEJ5XJjw3AwHCeJALSJCgvQBGSgS0l8qRSgXKUKn4/8CcAIRq+JsiSFGFXTgCSEGUNLrOrvc06LsTDabPKD1nOCFyL44I6owkIz8AF5rSWxiUFeHv1ljBIREhCAbPZ4gSSOqqnfbTKV7Soq6n+HCvGYoIqx5/lRxQZVydpefeLzW+9KPz83XPNbresCwb/neY7eLF8+e3K/h2zp9nR///l8bjZbKpH70tjivevvTSR1Oz8d50WKHj6wvKhis0LPun3/DTQ7PjsqHfvCvG6/vxRbJC8uJj3wv9SuMV74CAwPdJZ8zyRiN/11IEX+/8+q1+iypFFC+hVgSBpGelpyURRAIAIIZ9ukQIiDZJWKe+09I4yHAQVcsg0U5jSGV6QJWOBu1QLTNbIqR1guaWMhDVtxMSgx2FVHO3ocpIj4JqzUOid4LWCN++1MkUmTQt79e7bz483yaaqEpcHB+RHxtd94VGN9hqne222WOtNTbaQ7BdZsV7bTWZQye5o1w/vfWVGy4X58/r51lrl9022m5bmmSE/L7T1T6+dzewI2TsT49PMCPWbty2avuBXhu3AQAAAA==");
 
 export default InboxIn;

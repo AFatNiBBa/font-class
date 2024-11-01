@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-dress-simple` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-dress-simple?s=solid person-dress-simple}
  * @preview ![person-dress-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/person-dress-simple.svg)
  */
-const PersonDressSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M64 64a64 64 0 1 1 128 0A64 64 0 1 1 64 64zM50.7 206.4c7.8-27.5 33-46.4 61.5-46.4l31.4 0c28.6 0 53.7 18.9 61.5 46.4l39.1 136.8c5.8 20.4-9.5 40.8-30.8 40.8L192 384l0 80c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-80-21.6 0c-21.3 0-36.6-20.3-30.8-40.8L50.7 206.4z" />
-    </Icon>
-);
+const PersonDressSimple = createIcon("person-dress-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABYwAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBNQsGAAE2AiQDCAQgBYMtBzobvwTIHoVxMz0iiiiu7e3y8fD8HOzPfRsiPty1iUvCI41Ew0PDq35tSC6AMGdILf7ITe3Mo4A+AN83D+RZ83vnCTQPJM9L45YFlii2N22jKKY3mWxJ8kfT8bRDHn2zA0qQrqZxml8aX9RxgKRMBiAqA2DwzKnjPf0YHyNe/Yl4ZSwCYjAoBDJkqC9AP5lAfbkCuVzwMf78Cf/ACCBKKrdMIEeOgRgByEGS8rxCm3IlKuQzypUoO/d220etHzS40ep+m4cNp11vGXG5nDje/E6d6XGx+oVmZUNcQdrdmpfqRgCXdtWa2eRh5YffvGIDd2ef//77c4anlT85DT9rpkb5ctNaHDHw+HE1TJK9edspnd6+ySap6S9FHmgcBoHgfPvqwxZW6vd/aQl8fvJjuqb0n6fRJT1EaQkEWbs/7cyLHUorHV0EACAx1iQoTSQ9pZT01PIuCRDKIkBSUlkBMvVUFiBXVlsBSmiouwAllTVVJvIyQnXzG5GUt5nI9LCTyFX3mCihn2duSdUjcyHOAbgfXPIICQ9fKjp36FT0KcxI5b2CydO+xbTdakestIZNK2y0wTbLLbPaNoFuMT7Ybr0RI2S4DxU666CTQh/FcnovzyB3i61W69w6YE5fxX6nlR3j9tawTgJ0OfxQIlI1j1PbP0mt/U0E");
 
 export default PersonDressSimple;

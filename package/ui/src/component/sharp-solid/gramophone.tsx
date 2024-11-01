@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gramophone` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gramophone?s=sharp-solid gramophone}
  * @preview ![gramophone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/gramophone.svg)
  */
-const Gramophone: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M108.8 2.6l40.6 10.2 1.1 3.2c0 0 0 0 0 .1l.3 .7c.3 .7 .7 1.7 1.3 3.2c1.2 2.9 3.2 7.3 6 12.8c5.7 11.1 14.8 27 28.2 45.1c26.9 36.2 71.4 81.5 141.3 116.8c17.3 8.7 31.6 22.9 40.1 40.4c5.4 10.9 8.2 23 8.2 35l0 .3 0 .3c0 45-36.5 81.4-81.4 81.4L184 352l-24 0 0-48 24 0 110 0c18.7 0 33.9-15.1 34-33.7c-.1-5.4-1.5-10.7-4.1-15.6c-3.1-4.9-7.7-7.8-12.4-8.6c-8.7-1.4-19-2.6-30.9-3l-1.3 0c-47.1-1.3-118.2 9.9-201.3 66.9c-2 1.3-3.9 2.7-5.9 4.1L29.2 303.4l3.6-13.5 72-272 4-15.3zM32 448l0-64 320 0 0 64 32 0 0 64-32 0L32 512 0 512l0-64 32 0z" />
-    </Icon>
-);
+const Gramophone = createIcon("gramophone", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbwAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBcgsGAAE2AiQDCAQgBYMtBzEb8wTIjpOlZpI1Hv5/rfK+XzVUPYtcS0SKkBVSkuOzY0PoCCygC6vozodS4unvJ7/71vTP08o963yJhWmZ5xPYedr+vAXTBjadoG13mtWoRT5JS0FyPNrxKkfI41x2XQ3pefoSd+OHxl86uU7SkAGIlgCYuWrZUh//Gr9GfFF9g/jCYgTETFAKZMjQVYApMoGuciVyueDXqFbpP7AkgKiV4MTLEWwsbgcZQ5LyfG6rSk2zfCXXFOvGjhvbLq74tLjcjq9/3O75wBcT31lYp+cixCsDXh1TFBGVys0OT+NK+ycQ26+IN+e85FHbG23HRYdY56jVIZqBSlQ0Tu7u1dSy6Z+eX+780v73z8T7aA1CBG0mHJ48eVj3Ra98f7g1IXbubHmo4wgdDzZ//kz9uPmbv5P0nDrkj5atQpMp5rcwbcn7M0zWDKUFm/lAXJb/ePrFJlP+r68k8Pu7//0j31z9OC6nJtRLIMiGVIdYH5eBpAH8pBQn9YrLCCQrJfiujZ4IEAoESGoVAmS6aClArjBYgBrdjRWgVmGZTOQNQlsbKpc0OsJlxrnA5dp6jasxxSe5Wm0j0zBVP9T3XdY8Cc1dVo4cNqKcVHbriqY0Ms9PLpejASdd30A4aKdDDjpuh+32OC7Io5YWTzhg3oiY64tKIw0zQmmScrt1u3+lHY46Zo9DDoZFJivPJwY4OR49EFaTAKPupiQRqfjp3zmkhQ==");
 
 export default Gramophone;

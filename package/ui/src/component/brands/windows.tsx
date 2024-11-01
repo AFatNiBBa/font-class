@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `windows` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/windows?s=brands windows}
  * @preview ![windows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/windows.svg)
  */
-const Windows: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z" />
-    </Icon>
-);
+const Windows = createIcon("windows", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABUgAAAHRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBGAsGAAE2AiQDCAQgBYMtBy4blgTIngVO2TyCU688QiGGEIX+0JwPIp6n9r47d3dTanH5KqE24arRXTEeh+vCIUtV8UQy6D9YBol+fnDv3rUx/XZ9ag8ek8ZelmUUbc8izXYzP0DO742Qr31Tp3IunlAAn0MQtLFw6cI1da12n1egYr1ou6lXgVrBIoq1dvbLG+TdoBBSPsmwSBkmV2h5lxmgvCnAC/nR/CXYUwxUAJkGANfvp5K496mfnHQ3ciIOArkBYBuhomIdgUukgnUy26BpQj9dx/+BDAEyCB8qoGEQPXABQANFa20E5tjARLsXpkbr/XQONJqUu9kMJcTdM6sYS3JHPEwf/qlL86sgqbNvXt/y0NF++ZNrKPwLfx+eXWH8/Va/DxCExecvn3Xpv2qsgD8/XsfXdX06Lu8xrIBQe11POccA4wmwS55CVGYWFPtkgG8d91JAjCKgGDQqoFqjRqAZdYDAgE0uBAaNuk0qbUTMqxRQjHsAqjN2oJl3AQMuediD5lMvDX3k9JctIdTCwWNsM1vZz8NSZu4BafcDPC1qt2ako0l0zUytdbQNrBtsKeltTIQ0NGhGzMbMivnxcnN/OqtjaWVgZuoOCeD9qtZWX60jRQKEhzJFIWXoRQAA");
 
 export default Windows;

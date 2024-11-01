@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-and-crescent` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-and-crescent?s=sharp-duotone-solid star-and-crescent}
  * @preview ![star-and-crescent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/star-and-crescent.svg)
  */
-const StarAndCrescent: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M247 219.5l68.5 66.7-16.2 94.2L384 336l84.6 44.5-16.2-94.2L521 219.5l-94.6-13.8L384 120l-42.3 85.8L247 219.5z" />
-        <path d="M446.6 85.1C413 61.7 372.1 48 328 48c-114.9 0-208 93.1-208 208s93.1 208 208 208c44.1 0 85-13.7 118.6-37.1C399.8 479.1 331.7 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0c75.7 0 143.8 32.9 190.6 85.1z" />
-    </Icon>
-);
+const StarAndCrescent = createIcon("star-and-crescent", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcwAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBSgsIAAE2AiQDCgQgBYMtB14b+gTIjtMdNdIZfCOI1nq/enbfBoD2hRjuAsQOyBMIezZRYfcRdMB9VMCnJ8tZI2exStQPNmbqVM7lPBTAB/DMeR6QMfEpa7fnFej51OKisQQqVNMaWK2dvV4GdRlJn5BkWPSfYXKGPL7OrmsgPUrADfwPYPyom+skzTIA0RYAc6rrVnj9Jt6k+LT+hPjUcgTEXFAKZMjQU4DpMoGeciVyueBNqtd5E/V6SQBRwIszUCDHTGwG5CAJkeeNnVo0tMoreG/zA59XdnWvvzWz4VcZf9j8+5U51ys/L1ZVVeWjGdUNlQ3roxobouKRirAeh/Stta393Pjpfnh5eNxc1ajVBkLVEUyIC8dNLIopi1y51a2rRRZ17XbryiJTimKi39/PJ+xsu836YdYP13Y7itneypANkczPg0DQ/8zbv3e0mf5b0xYJvHv66w/4d1R/nZqlGppKIMiG14fbmlD/IzUTAIAU5/VN8IdAplGSPrWl+wKE5giQFJoLkOmhrQC55oYJ0KC3CQIUmlsnE3kzoaNtFSQtnQKZiS6AXEePQYPpPrALHSNTJ0YZmM9c4kKJLlhWjhk5upxaDhOF1RAqzk8rl83B50NjCO213wnHnbXPXoecFfhpK7xzjlk4wxb4otIYI41Wmqrczm/hin1OO+NQn99fZJryvDXY+Xn/EFpNAoy9CCgjUmTd7B0esev43hF7Tu87867UEbbZ06PLWyIAAAA=");
 
 export default StarAndCrescent;

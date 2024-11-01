@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wheelchair-move` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheelchair-move?s=solid wheelchair-move}
  * @preview ![wheelchair-move](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/wheelchair-move.svg)
  */
-const WheelchairMove: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M320 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM204.5 121.3c-5.4-2.5-11.7-1.9-16.4 1.7l-40.9 30.7c-14.1 10.6-34.2 7.7-44.8-6.4s-7.7-34.2 6.4-44.8l40.9-30.7c23.7-17.8 55.3-21 82.1-8.4l90.4 42.5c29.1 13.7 36.8 51.6 15.2 75.5L299.1 224l97.4 0c30.3 0 53 27.7 47.1 57.4L415.4 422.3c-3.5 17.3-20.3 28.6-37.7 25.1s-28.6-20.3-25.1-37.7L377 288l-70.3 0c8.6 19.6 13.3 41.2 13.3 64c0 88.4-71.6 160-160 160S0 440.4 0 352s71.6-160 160-160c11.1 0 22 1.1 32.4 3.3l54.2-54.2-42.1-19.8zM160 448a96 96 0 1 0 0-192 96 96 0 1 0 0 192z" />
-    </Icon>
-);
+const WheelchairMove = createIcon("wheelchair-move", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABhgAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCIAsGAAE2AiQDCAQgBYMtBzYbJgXIjpQuI1bx8I/ef79PkqfcMTKSKtEVXc9XJ6B9a9ovdvdtw/sE3Y6T0V6V1lWDpr935//8b8Bn9NHGWiC/Atr7PIHO8+5bywsnlgWWKDY4b9IhhTaE9DNk8SA9p4LkXvIZrsRfGj9p6RyJmhRANADAhIVz53irNmojPi0/T3xqFgJiAigEUqRoI8BoqUAbmQKZTFAb5TL7DywIICql101AhgrswklABhJpltUd37pUUTdboPbMNz7o9rpkS+scXauV3m6CcbPZEoXNd3OKV0f0eNjSW3CUknC20G21CX+LEXnc893o1+b9MPaNBT+Oe3PhhaYtRi660A3i8dY3Trc6XSs/3zlamFMtvUuWOj7V4P/S4bMNnxl3Jd9x9OiOvLrZnuln9l32+NtPn99SavP4ZUueXtzTkqlD/lxijVVffdm1zUV9bj/2zjebt/RufthUn3eMSZ99Nokg8dln7LBfw0fr3egtrZax7P0PWrb84P1ly1rxFng5EAjuH3vh5sr6o/+pLiXg0Su//d+8TvmteDN5CtUSEKS9y70ti7cQ8aYAACRxQMeDbSGxSSr91DpuCxByBEhUygVItdZAgEyulwAV2hkiQKXcXKnIaoQmlmOQqGM3SA11HGSaeBZUGO3DvFKTSC0ea23Y376kqVNoyqZiQN/+xchit6Xj7BKtV0cVl63uB/hID1hog5122Ge9dTbbNyH3mFPZb7upR/AUP1QYoK/+CiMVj7svdy+w3h57bbbTjmidUYrvs+4OHE/vAd1ESjlQVSIhkvphkwnRch+XDAAAAA==");
 
 export default WheelchairMove;

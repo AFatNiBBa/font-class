@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-pen` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-pen?s=sharp-thin file-pen}
  * @preview ![file-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-pen.svg)
  */
-const FilePen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 496l242.1 0-2.5 16L16 512 0 512l0-16L0 16 0 0 16 0 224 0 384 160l0 133.5-16 16L368 176l-152 0-8 0 0-8 0-152L16 16l0 480zM361.4 160L224 22.6 224 160l137.4 0zm137.5 63.9l11.3 11.3 54.5 54.5L576 300.9l-11.3 11.3L379.3 497.6l-74.7 11.6L288 511.9l2.6-16.6 11.6-74.7L498.9 223.9zM317.2 428.2l-10 64.5 64.5-10L509.5 344.8 455 290.4 317.2 428.2zM553.4 300.9l-54.5-54.5L466.4 279l54.5 54.5 32.5-32.5z" />
-    </Icon>
-);
+const FilePen = createIcon("file-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABawAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBegsGAAE2AiQDCAQgBYMtBy8b+QTIjsM4JjzSqXzEFg/Pz/V27kvmQ6YMKTO6VhE5UvVjS7urED2BIpTTzAhWTyeuef7n3x5pT/Ao0ZarxPLdKPN8AgMdzqrOd76bDexFcdbO0DMIZ1GSxCcZtjeMzpDHF/arkB4nuB9/NH7W1RWSLAMQbQAwZ9O6FV7/Nr6N+Kj+nPjIMgTEHFAKZMjQQ4DpMoEeciVyueDbqNftf2BJANEAn5NAjkZswUlADpJKnvdp7FhtrlZa5hurlaJntah2iKKIyCKiWt0QokPEoOiGSIc2btgoZls6duq4JjpGh1ifif7RPTa569eTUqBYG3utXbN2eqyJUX1rbWq/9nGQ+l94vbc/2rTxrTbafP7kiWvqrnnUlEde9+3m3YDgpps3Z9WOP6im5tVXLSkkpWKJt99+/lHzbJJJ2fAcDMmfLx/v4qA/gECw86c7/+9qPf3fqgl8/9rvP0sP119Ps1MNTRIIsuH14ban2WDFAVRSXNSXiVggWaMC5ltbeCBAKBAgaVAIkOmujQC5wjABKnqZIECDwjqZyJuFDnY0NmnhDJuZ6BKb6+ApWzHde5UGHSKTMl1G9D9ezsIeWLCpHDNydDm1XLZUQ3BUvzqt3PYGX3QjQ9ROB51y0nkH7HfE+Q4/a0X9ghMWcuACESqNMdJopanK4+6js9FUzjrnyNw6X2ea8n5usIv89CEqTCA5VlOSiNT0oMsjTh84CQAAAA==");
 
 export default FilePen;

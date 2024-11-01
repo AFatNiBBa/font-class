@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-right?s=sharp-thin left-right}
  * @preview ![left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/left-right.svg)
  */
-const LeftRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 320l0-16 16 0 160 0 16 0 0 16 0 48 0 16 16 0 16 0L500.7 267.3 512 256l-11.3-11.3L384 128l-16 0-16 0 0 16 0 48 0 16-16 0-160 0-16 0 0-16 0-48 0-16-16 0-16 0L11.3 244.7 0 256l11.3 11.3L128 384l16 0 16 0 0-16 0-48zm-16 48l-9.4 0L22.6 256l112-112 9.4 0 0 64 0 16 16 0 192 0 16 0 0-16 0-64 9.4 0 112 112-112 112-9.4 0 0-64 0-16-16 0-192 0-16 0 0 16 0 64z" />
-    </Icon>
-);
+const LeftRight = createIcon("left-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZwAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyCAAsGAAE2AiQDCAQgBYMtBzEbAQXILgpsY/hoIT6MrgzDNO5iFCvnScMPjbF4/v/3+99c+54vaun/pMkgE8Uig2whUWk0S/SXKhoig/ozlp79M+buJqb/LYk41pYQl0ajpSUketNkrn3vAF3wfwXRPv29O/82h06jj7Z2a4KMpdGc5wkk1j1PLM4C+0CJJ2ANzhuVeDk0hfQntLx6Rk19LHjrPjQ3VjxQug4AmQYAtx9OD/EVhf9+5LM7IJDbALYRHTqsI7igFKxT2QZNE37y7D9QIEAGEV5WoKHhKXgOoIFSTVU5MKrNqjmj2jBPZMyIQKB5euPJHA0GRACJJDk+Q1fcmV0eJRkaNRooM08jPGYUjZxlbFgLROz2jO582ePTawH4CHk2tumbG4z0xJJterjcdK4/Eurn5+AZ6N1iY/th06eHvwYIwv8Pbw7Xre3fw0YF4JffpN9QqR6GFQjdUf/ISgGKAAAqd4gVEJQnFMK7jnsnIEYRUAaNCuissSFoRh0iGLCpgmDQqLuU0vSIeauNVsa90jrn7rVm3os24MJ3Z9B8lDeadZtYv3n5U11o8p4UsnlpyuxUse8dQ1+3ZHM+fse3EhCIPefO3Ni149BNh7sy7N86NbVETMqQKMjKE01yePHw8ZxdV64dOndmb2mR69txd8uHE7CkEHSPTZQiZXj2rM8U");
 
 export default LeftRight;

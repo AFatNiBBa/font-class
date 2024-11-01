@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-arrow-down` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-arrow-down?s=sharp-regular cart-arrow-down}
  * @preview ![cart-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cart-arrow-down.svg)
  */
-const CartArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 0L24 0 96 0l19.9 0 3.7 19.5 42 220.5 300.6 0 63-208 50.2 0L503 271l-5.2 17L480 288l-309.3 0 9.1 48L488 336l24 0 0 48-24 0-328 0-19.9 0-3.7-19.5L76.1 48 24 48 0 48 0 0zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM344 24l0 86.1 23-23 17-17L417.9 104l-17 17-64 64-17 17-17-17-64-64-17-17L256 70.1l17 17 23 23L296 24l0-24 48 0 0 24z" />
-    </Icon>
-);
+const CartArrowDown = createIcon("cart-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABeAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCDAsGAAE2AiQDCAQgBYMtBzYbEgXILgZyMjd1hDhQ2LKryLYX5Su//WkRTz/3756b5E2blIAVC4Ws/lQRC1PXKgJdISssjmdy1c9/fn913lDpT7sjaYkGK27pW6E0bbntaDgcfrqlkASpPPzdxZCVd7fvHQJ6+27+r8n37vk14Ac7sUOJtutVWBRHxPMJ7Pl872xRPJC10ERx5ra8IENkMoNBZSgOeT60wYf0R6jzOjc0lDvlH1wvX5Xf9G4omgpARgCALXsHO+h+yIfkWf+FPNMCgWwBzMBQwWMKBtbjC30EgRmgVgsf0u/zfyBBgPTIExVQo4fj4AyAGhR1Xc8eqpzdCYfWe7qmrbq2m5jhDM3edNmVCZENmRplh7eblIm0bfbfs51Y0nymrTXqnYmFPmxXlDGLU1OZ2NNHmDMDgVwcgNjNu5j1hO7nf+BfdwK3s5rjNbfsK0G1f/J0ax9gzQQ/uEOrpNaPivNX7Ymrx2uyRtu6/PGrb/rdj8j95wAjQR/QByPBgBEcPw4gCN8OhK4V9fr/2BXw6enjq/ufJVceMUgBoVrSd5sqm0GMIzEAQMkFxrAuFMcIyLcOcVNAtAgoeloBlck0GKi1FmOgMU0EAz2tnfhSDxZjTE9QDHEaVNY5BbUxnkBjva90z5jw3U10FvFnL62q4coqWun1U5KODV3yID4vpujaWLBHAw54Ys66NTtmzVi0o6gtndyuVVULqfghEuDlR5Locft184hZW7YtWrfGy6TQ+xG7PXu8AzaPMK5SUhRShn+wqiclt9b3PW4IAAA=");
 
 export default CartArrowDown;

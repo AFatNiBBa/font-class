@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sprinkler` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sprinkler?s=regular sprinkler}
  * @preview ![sprinkler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sprinkler.svg)
  */
-const Sprinkler: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 24a24 24 0 1 1 48 0A24 24 0 1 1 0 24zm24 80a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 104a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM88 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM64 184a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm88-80a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM512 232a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM488 104a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm24-80a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM424 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm24 136a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm-88-80a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM97.8 270.8c3.7-9 12.5-14.8 22.2-14.8l112 0 0-168c0-13.3 10.7-24 24-24s24 10.7 24 24l0 168 112 0c9.7 0 18.5 5.8 22.2 14.8s1.7 19.3-5.2 26.2l-89 89 0 86.1c0 22.1-17.9 40-40 40l-48 0c-22.1 0-40-17.9-40-40l0-86.1-89-89c-6.9-6.9-8.9-17.2-5.2-26.2zM256 304l-78.1 0 55 55c4.5 4.5 7 10.6 7 17l0 88 32 0 0-88c0-6.4 2.5-12.5 7-17l55-55L256 304z" />
-    </Icon>
-);
+const Sprinkler = createIcon("sprinkler", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABtAAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDKQsGAAE2AiQDCAQgBYMtBzAbqQXIjtMF9SWLxU/i4f/t+n6fW9WD6jFqZHW/gZjJ34qI7DtzErz1UyntjKhlnv9rPr+0owP8RoeSvaSmCoyI5xMY7nljATXQbGAznYDtaN6LgxDihTZcII/P43EV0gvpJzwWfGj8oqdbJJUMQHQAwIL6pjW+aY7miB8bET9ahYBYAEqBDBn6CDBbJtBHrkQuFzRHoyH+A0sCiBaiixPI0QEf4GswXknSLs9b49xhnauVtnktW1dkLw17vefzg9/otUUGXxpGonVz8zpa1/cSOjBrI7SObka3oLXCPc91r0aEvJKoxjNdn+myOcS1Lk8XRTzo9mxE1OLZ7luKarEhniF2nnS9+6YoBr7T4Z3fBnxob3XdsKFrindfx7fmEeWb9xr3db+7Bav7D189Zl212Lqxu9uiyhs7/zzjLfL4t5zx586d7zY1qen42bvG6/juZ2oGsXd3vlKujV5/yKGiSalJceiQtUAg6LLzyvrd7Wf/16qawM+f/fG/8lfU+CZJ76CVBIJsdGO0HQkkAgCQ4pKBCQLJG9rB79rGswKEAgGSFgoBMr11ECBXGCVART9TBGihsEkm8tZCFztbkLRxFmSmugxyXXwKKmb7NtFCl8iAlwc9/tkxZWkfWrKsnDB2fDmzXKyrBXhk7fyscrcz/JLsG4EPOuS0Uy446ICjLvTIc9akLzpp6RqxxBeVJhhrvNJM5enW4901B51z3lGnnfKLzFLeHxju0vroEdiTRJQTlSWJSK3/bYkeP3HwHAAAAA==");
 
 export default Sprinkler;

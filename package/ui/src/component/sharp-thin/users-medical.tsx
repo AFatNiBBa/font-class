@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-medical` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-medical?s=sharp-thin users-medical}
  * @preview ![users-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/users-medical.svg)
  */
-const UsersMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M208 80A64 64 0 1 0 80 80a64 64 0 1 0 128 0zM64 80a80 80 0 1 1 160 0A80 80 0 1 1 64 80zM320 304a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-176a96 96 0 1 1 0 192 96 96 0 1 1 0-192zM187.9 368L149.5 496 448 496l0 16-303.3 0L128 512l4.8-16L176 352l208 0 0 16-196.1 0zM196 192c-1.3 5.2-2.4 10.6-3 16L59.1 208l-36 96L6 304 48 192l148 0zM444 192l148 0 42 112-17.1 0-36-96L447 208c-.7-5.4-1.7-10.8-3-16zM576 80A64 64 0 1 0 448 80a64 64 0 1 0 128 0zM432 80a80 80 0 1 1 160 0A80 80 0 1 1 432 80zm64 208l64 0 8 0 0 8 0 64 64 0 8 0 0 8 0 64 0 8-8 0-64 0 0 64 0 8-8 0-64 0-8 0 0-8 0-64-64 0-8 0 0-8 0-64 0-8 8 0 64 0 0-64 0-8 8 0zm8 80l0 8-8 0-64 0 0 48 64 0 8 0 0 8 0 64 48 0 0-64 0-8 8 0 64 0 0-48-64 0-8 0 0-8 0-64-48 0 0 64z" />
-    </Icon>
-);
+const UsersMedical = createIcon("users-medical", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABvAAAAKWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCEBQsGAAE2AiQDCAQgBYMtBzQbCQbIBuIh721ekiqpkYpYmDcAPK6P1v+fY6YLaxpt+m1RYkOJDlxTVDwfYAKPMm3g44GdKN6bDjF8ImaHSIHYEhnt+Kzj6Q40+UNPrEBZodwG5umPyht8mAwKqgoAgDgDAADFbVrUc/6FvBC5ZTkCcotaQACkGAATAVRABfwRAPJQEcAfDRPQ0BB4IRYL/Q80QQBArGGMwikNcACeAh/Ap4GCoWkO4Pdzs3fExNhgw8pBa718ud5hbczOqO3+a6J3xO4K0tflnso+EbA663jOycBWxxL3JezNOBy3O35PuswKF9nis4Lx3svDNuszI7b6rpQJfqsitxktW7Zp6SCIve4lbcQQRG+z2F2XlqJbPjp0o9WpaN0mXOrZZpYgE0YQQyiIrpNEhCxiGEmtEHS96YxryXaXELLTeee74Nu9b3NviPrq06dXKlLPt+8zalQfey7L8/Oj27QZfX7dft+O0PHKVR+fq1c6dvQ1ZRSc9CF83P5+DM4kujQSM4/7OHPZZp+XzVRCu+BC9BAW/1zMAlW6uCmnYuM1ae6qwntFRVW2FFFkK2RbbItqeodNoy1bipJ6AkVQxX4MgAACBa+PtO/ilPfN1lAAeHXywxt4x9pyXhmv7ARsUQAQUOMscXTEANYgjAIAYUVGExIoxUzFEww4bM9SBKKCDgQK1uig4oczaOjEghWBpAuSB2iBimh2CO50AlCwZxioZDAGNNw5BFbkcS1kjbuopS4uVPGfZooKiy5fZiYnJJk55m3ZIale4Tqea6YNUaNdWzSsoTdDGMxIetGTfiowpOHUR0cxiIqIWM4fYpJMAkmY5GAO1/aK1hgezgj69SXjU5CLyfOeKEbHvaPBrMA8U8hRUEAUhy9HE//mAw==");
 
 export default UsersMedical;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-tears` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-tears?s=sharp-solid face-grin-tears}
  * @preview ![face-grin-tears](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-grin-tears.svg)
  */
-const FaceGrinTears: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M576 254.5c-2.3-.5-4.6-.9-6.9-1.3c-13.2-2.4-25.4-4.1-33.1-5.1c1.1 7.6 2.8 19.9 5.3 33.1c4.3 23.1 10.8 48.9 19.5 57.7c.4 .4 .7 .7 1.1 1.1c17.9 16.8 46.4 16.1 64.2-1.8c18.2-18.3 18.6-47.6 .7-65.6c-7.9-7.9-29.7-13.9-50.8-18zM549 370.5c-3.8-2.6-7.5-5.7-10.9-9.1c-8.7-8.7-13.7-20.5-16.6-28.7c-3.4-9.3-6.2-19.8-8.4-29.6c-4.4-19.7-7.4-40.1-8.8-50.6l-5.9-42 42 5.8 .1 0c7.4 1 19.7 2.7 33.2 5.1C556.8 96.4 449.7 0 320 0S83.2 96.4 66.3 221.5c13.5-2.4 25.8-4.1 33.2-5.1l.1 0 42-5.8-5.9 42c-1.5 10.5-4.4 30.9-8.8 50.6c-2.2 9.8-5 20.3-8.4 29.6c-3 8.2-8 20-16.6 28.7c-3.4 3.4-7.1 6.5-10.9 9.1C133 454.4 219.8 512 320 512s187-57.6 229-141.5zM78 339.8s0 0 0 0c.4-.4 .8-.7 1.1-1.1c8.7-8.8 15.2-34.6 19.5-57.7c2.5-13.2 4.2-25.4 5.3-33.1c0 0 0 0 0 0s0 0 0 0c-21 2.9-77.1 10.7-90.8 24.5c-17.9 18-17.5 47.3 .7 65.6C31.7 356 60.1 356.7 78 339.8zm242.2-8.1c59.1 0 114.1-10.6 160.2-29C464.3 376.7 398.7 432 320.3 432s-144-55.3-160.2-129.2c46.2 18.3 101.2 29 160.2 29zM240 152c28 0 56 40 56 80c0 0-28-32-56-32s-56 32-56 32c0-40 28-80 56-80zm104 80c0-40 28-80 56-80s56 40 56 80c0 0-28-32-56-32s-56 32-56 32z" />
-    </Icon>
-);
+const FaceGrinTears = createIcon("face-grin-tears", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABrgAAALYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDMwsGAAE2AiQDCAQgBYMtBzYbuQXILgpjY1r0JbbaAM293PhtRTw8v7//1j7vDgCn/yfCkY3IdJo0CWI1LRprs//fXOBw1ybWqCLStHkSkRAJlYI9zqXZ9/Konf9rPr+0owP8fASHEm13y6JoPVrW8wkMMNoibcNh23A2UZyKc003PisGYVCo7yCL37lVCpB2pitYH39ovFbFMEmRHIAoDQD6TMpIwumLeBFx+X/ismEgIPoAaiPkkEN1BLrjClTHUxtkMsGL+P9f/wfWhgCioPTiCWQojNO4DMhAUjDLarWzEZYrxy9QIpvoFxads60ixfLYW7EfW6tMKe2wAeWYzYh6gpZXHCdz5rZo4LTOhDpEsdja4G0i8JfxmRuVKDpF9W2hHZVHFViyk3R1wvuo+3blyyNiORlWx/ZKE/oZdS3Asbv+6qJTsazCGH91pZz7kxa7H0ae63ls/johe60Jxc4q46p161mGwzMOMzZZTqMwzGCWvrr5tmT7r85N/o1eZ2u7AvQ9EalaHbeQ0HzgSWnZ79Nystu8l9ufqi4YF3XborhlS9k8Y8KJviVnDgjK8PLg8tsTzep3xhZTQJ1ZLZNHHPcf938uCQ7O/bsHABFmjwpxMzeAAMrcvXvxWln579Oysu+PhaaIqna+K6IVDtTnSjk1uhDfS8bfEmPGUHqULPR99OwUo8HMaJY+HwgEg751XzpL3P1r4WIJvDrzWz7F/7NpWTqIwhIIcs3/N1eIIITUACIpFjPHFxJIDrsc71rcNgFCUQRICioqQE41EgQyRTVDoICavBAoqKhxuCIrIpRXVIOkuHkgp6MekClvDxTQ3Xm0oPKRe4OF90/4gUyNbkNR/ZibsyvzZ5NZpfhSckF3AFut23abKjssRbUWzTpVqVSns0W2S0p0aRI9R0T5IcaNM1eMP7a7cH9+tirtOtRp0Rz1EoCd77XVPd/YDhaOlLYtQ5KIVOr7GOVUM7+u2akzr6y9AwAA");
 
 export default FaceGrinTears;

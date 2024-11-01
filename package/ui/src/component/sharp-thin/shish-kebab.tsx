@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shish-kebab` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shish-kebab?s=sharp-thin shish-kebab}
  * @preview ![shish-kebab](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/shish-kebab.svg)
  */
-const ShishKebab: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M361.4 82.8c0-37.4 30.3-67.8 67.8-67.8s67.8 30.3 67.8 67.8c0 15.3-5 29.3-13.5 40.7l-4.5 6 12 9 4.5-6c10.4-13.8 16.6-31.1 16.6-49.7C512 37.1 474.9 0 429.2 0s-82.8 37.1-82.8 82.8c0 20.2 7.2 38.6 19.2 53L326 175.4 278.6 128l-19.5-19.5L248.5 97.9l-10.6 10.6-69.1 69.1-10.6 10.6 10.6 10.6 19.5 19.5L293.6 323.8l19.5 19.5 10.6 10.6 10.6-10.6 69.1-69.1 10.6-10.6-10.6-10.6L384 233.4 336.6 186l44.6-44.6 5.3-5.3-5.3-5.3c-12.3-12.3-19.8-29.2-19.8-47.9zm-235.6 314l47.4 47.4 19.5 19.5 10.6 10.6 10.6-10.6 76.6-76.6 10.6-10.6-10.6-10.6-19.5-19.5L165.6 240.9l-19.5-19.5-10.6-10.6-10.6 10.6L48.3 298.1 37.6 308.7l10.6 10.6 19.5 19.5 47.4 47.4L32.3 469 27 474.4 37.6 485l5.3-5.3 82.8-82.8zm73.1-189.1l-19.5-19.5 69.1-69.1 19.5 19.5L373.4 244.1l19.5 19.5-69.1 69.1-19.5-19.5L198.9 207.7zM78.4 328.2L58.9 308.7l76.6-76.6L155 251.6 260.4 357l19.5 19.5-76.6 76.6-19.5-19.5L78.4 328.2z" />
-    </Icon>
-);
+const ShishKebab = createIcon("shish-kebab", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlgAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiDDQsGAAE2AiQDCAQgBYMtBzIbjwXIHoNt2zgW5Rhisgjh7M8nHr7fr517/0OlqSdNog2ShyqeEk0jcUOj0Sllh0oJ6z+ttfcR02EO20VEtJQzmg5RJXkJUD2RKZbt+b/c83t+dIDf6FDWojXtaEygsdvPE+gFVFaeL/CiwLKIE7CO5j0xwKFdaLtAiUt00ic/dF4BL+FN4x/ONiFVFQCiFwCwd1lRhLs3qlO8/B9D/KIABMQegHGEChWGEdikKzBMzzgoiqBOjYb4D2QQQDQjuXGCgmZ8gW8ABaRS9AqCrK1N9c31qs1DTXrUAUQHftvSvvOqkx3ZkyOpaUsW0Uf+e25KKZGSSSYHsqNK2gklqiLpBF+TY2u8vCemtHsIl9qk5KT1WdX3hCRC+bhGluSap4TKYzMrJ6/BhZX49nrtftV7Z8aByZ87zs0c77NwJsufW/ZMM9Y9o2PhM40fhFMRMg+xT+D6rsEJKn5K4QdXKlXinR9xP8kXRUBpX+ExVJQi9F4BH/lB+QkyCZmNmXsVkfhZmVAcUjIPj5uzMzzBHLOiFh59ejUgENTm3gdbLBP/Wk11AH8Xv5/1z8i1MWUN0CpBUC3/05gwBEkAADKmwROGENInPcmzdnpFILQjQGrWLkBliBUCRbslBJqMikKgWbtTuqIYIwxq6kHq9AwqG5ZAMegQNNn0EDQbDF1wpYCN+luMzx5DWbtYWHAoi2ebpZaGQMJuJrDTkv+0HEn4LLqNGDapS6c+kyNkXFE8ZUj2Hpzlg5gwwUIx8djt5jlfPQrHTehbZ+5vk4C97/mb3p8vYVVHgrriUEoiTSd6+2QhaKCrva0dAA==");
 
 export default ShishKebab;

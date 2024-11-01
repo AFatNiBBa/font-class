@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-weary` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-weary?s=thin face-weary}
  * @preview ![face-weary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-weary.svg)
  */
-const FaceWeary: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm176 84c-10 10-18 21-23.5 31.5S144 392 144 400l20.5-7.7c28.7-10.8 59.2-16.3 89.9-16.3l3.2 0c30.7 0 61.1 5.5 89.9 16.3L368 400c0-8-3-18-8.5-28.5S346 350 336 340c-20-20-48-36-80-36s-60 16-80 36zm80-52c37.4 0 69.3 18.7 91.3 40.7c11.1 11.1 20.1 23.4 26.4 35.4c6.2 11.7 10.3 24.4 10.3 35.9c0 5.2-2.6 10.2-6.9 13.2s-9.8 3.7-14.7 1.8l-20.5-7.7c-26.9-10.1-55.5-15.3-84.3-15.3l-3.2 0c-28.8 0-57.3 5.2-84.3 15.3L149.6 415c-4.9 1.8-10.4 1.2-14.7-1.8s-6.9-7.9-6.9-13.2c0-11.6 4.2-24.2 10.3-35.9c6.3-12 15.3-24.3 26.4-35.4c22-22 53.9-40.7 91.3-40.7zM205.7 170.3c3.1 3.1 3.1 8.2 0 11.3l-7.4 7.4c-22.4 22.4-51.2 37.2-82.5 42.5l-2.5 .4c-4.4 .7-8.5-2.2-9.2-6.6s2.2-8.5 6.6-9.2l2.5-.4c28-4.7 53.8-17.9 73.8-38l7.4-7.4c3.1-3.1 8.2-3.1 11.3 0zm100.7 11.3c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0l7.4 7.4c20 20 45.8 33.3 73.8 38l2.5 .4c4.4 .7 7.3 4.8 6.6 9.2s-4.8 7.3-9.2 6.6l-2.5-.4c-31.3-5.2-60.1-20.1-82.5-42.5l-7.4-7.4z" />
-    </Icon>
-);
+const FaceWeary = createIcon("face-weary", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABpAAAALrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDCgsGAAE2AiQDCAQgBYMtBzEbiwXIngV248uFsY0ZE4oMLXsbhViW8RU8j/59nZvki/Mw6yxgVHQpuN5tyQr2ec71N9yAhgPem1dxhTXZpbVJcOTzaz3vwZt7hzYd6H7l39ISnicUSCIxx0Fky82efmFKk5XShCL+JcphJMZiS20Kj1DgCO7//uZ551GAzyi0MW1pIAskmvM8gUSmf/B0C2WagOWSbpNdHlH4eESIkIjEHwgdVwgYucgwAqC2qSVgzbiVfIBhGSi0BgBA0gAAABr37Nqea285CfEo7YM8wgYEQJoAYBFAQ8qvHEA9NEIIGCxgMAg8lX8q30APBAAkCKMpAAwQBnYCJ8Gy3p8YNCaf84u7TiyQMD1igejQx1XkRIeLarW65Va3V2m3P+t222fX7ak9qRJyM9nodvv7ND+O42xfqlaHx7w4nY25GykpZ2O0rKheXBZ7270jLXa+1i4usjvP/jzbWORs9ErImSgly6sVk43eZpnm21F2R8m9MXeT48ilalFZ7i32Y3K2rC9b3O4Df4vryv7qMdnkbIxScqaBV+RA+sAn9pYvwXNJo9cA31q/YcM1k34PBBq9VstfsUUgT/e6LF9/9QjNyY3NHu36af24ztEKhgrLmsQXLvp8UuTThLPGgrlfca+z4WHDptRkdVlD2UZNpgwbFpbF68DXq8lfmM5XZiDzxyDk8cGKvZ8KdO06NFZ9kPVH8qmpMDnocc0PUwcAAgj8fi5Rlqr3Ca0AeD75vqB38P9KQR0AwigABHS5P6afAkCBAAAAAEpmUEQBCKDYwc3rcTZnbSEKCxRBoqDJRxoMUcpCgIJUp4LDXdGIiSA49Aco4kwGTQ3mg8HhJASox10jiCO6WplaY/6KiS001rzPFipUsnXs1jXZAqRau64Ny/4MSpXGIiOYyASmMZxhjGaaIqbQ3p7OeFp4eHMexFKZClTCUgebDrbTPRjOFKYymolM6F3qYs/rpZjhF5eGpmDSKjgUCkRFn4JU/uVKswEAAAA=");
 
 export default FaceWeary;

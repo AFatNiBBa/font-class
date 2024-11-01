@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-water` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-water?s=sharp-regular house-water}
  * @preview ![house-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-water.svg)
  */
-const HouseWater: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M303.5 13.7L288 .5 272.5 13.7l-264 224 31.1 36.6L64 253.5l0 137.4c3.8-2.6 7.8-5.5 12.3-8.7l1.1-.8L96 368l16 11.5 0-166.7L288 63.5 464 212.8l0 166.7L480 368l19.7 14.2s0 0 0 0c4.4 3.2 8.5 6.1 12.3 8.7l0-137.4 24.5 20.8 31.1-36.6-264-224zM256 224l64 0 0 64-64 0 0-64zm0-48l-48 0 0 48 0 64 0 48 48 0 64 0 48 0 0-48 0-64 0-48-48 0-64 0zM79 488.9c6.5-3.7 12.2-7.4 16.9-10.7c4.7 3.3 10.5 7 16.9 10.7c19.3 11 47.6 23.1 79.1 23.1s59.7-12.2 79.1-23.1c6.5-3.7 12.2-7.4 16.9-10.7c4.7 3.3 10.5 7 16.9 10.7c19.3 11 47.6 23.1 79.1 23.1s59.7-12.2 79.1-23.1c6.5-3.7 12.2-7.4 16.9-10.7c4.8 3.3 10.5 7 17 10.7c19.3 11 47.6 23.1 79.1 23.1l0-48c-19.7 0-39.5-7.8-55.4-16.9c-15.4-8.7-27-19.1-40-30.7l-.7-.6-.7 .6c-13 11.6-24.6 22-40 30.7c-15.9 9-35.6 16.9-55.3 16.9s-39.5-7.8-55.3-16.9c-15.4-8.7-27-19.1-40-30.7l-.7-.6-.7 .6c-13 11.6-24.6 22-40 30.7c-15.9 9-35.6 16.9-55.3 16.9s-39.5-7.8-55.3-16.9c-15.4-8.7-27.2-19.3-40.3-30.9l-.4-.4-.4 .4c-13 11.6-24.8 22.2-40.2 30.9C39.4 456.2 19.7 464 0 464l0 48c31.5 0 59.7-12.2 79-23.1z" />
-    </Icon>
-);
+const HouseWater = createIcon("house-water", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABnAAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDEAsGAAE2AiQDCAQgBYMtBzIbkgXIhufh7f79tc+dp5kYE/m++FsVrA5iC7BK9+EOchXN/+We37TbIIuPILQxJy6M9n6eQIBZ77C1NZAsjPqimLqpHppDhHxFigh2o+z4crzbQZVPc4seyr3lHdxsH5pfTXQFRU8HQEYAYIcD993Huq/yVfL25hfJ2/ZCIDuAVtBBB1MEbK0jmKLSolIJX2Xz5v4f2BIgvfj6Air04jG8AKhAUVXV4MDo/ZueodUBTU994rix48bkqCzJosjd49s64zMvY5McmP0j4zMnl5Zr7xybLMiyHLNfUzdSJ6mbWkSaJgRYH3T3+DvH3jnnweb6eQ+Pd2DJQ3MfWnhp6vqSPDL7gdlwjgvoXMotueUzHxvx2O8z3jnhHcue3cDNf9P3pW+d61rLd8wIFlvvYU/fAeWHrbcN2G/fa13u24ehZR9uT972tu8W2l5X9yz74V9r7zzuuDs/2nX1hAmr1/zo+E+rgXV9fdFhIySJEYfd9CFIOAXpi77uyj0PBGHu37eNOnL41v/3NwV889qff9r5Nq8r25fH0K+A0Fm8ebHDyvbQ5QGyJReYGXxRUNynwncd4i4BUSOg6FUL6JhshIBKbZGAHtOsEtCrtq+OVANijMNdKoY4W+pY7UKpMsbzUo+tvZ7pNSYdwWrlpv1dzLTrDu2yqB1c2m23bK81S6dB9Zjdqn3tmn8BehZURSc40xnOc7zjnOy8jTvHPvnznW7XiNgFQK1BS3W1ttSmm5+rD3C8c5zrZGc6Y86zlfb72HwXxMMXVG9BlcsVFYWURsyWJZIGAAAA");
 
 export default HouseWater;

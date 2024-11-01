@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-music` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-music?s=sharp-regular message-music}
  * @preview ![message-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/message-music.svg)
  */
-const MessageMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 512l48-32 96-64 160 0 48 0 0-48 0-320 0-48L464 0 48 0 0 0 0 48 0 368l0 48 48 0 64 0 48 0 0 38.3 0 9.7 0 48zM277.4 376.1L208 422.3l0-6.3 0-48-48 0L48 368 48 48l416 0 0 320-160 0-14.5 0-12.1 8.1zM352 96l0-23.1L330.4 81l-128 48L192 132.9l0 11.1 0 32 0 81.8c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-100.9 96-36 0 74.7c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-128 0-32z" />
-    </Icon>
-);
+const MessageMusic = createIcon("message-music", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdgAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCFwsGAAE2AiQDCAQgBYMtBzQbGwXIjsQ4JvGLKEwi+N5W2u/P7NZpVuIR8AiA0IAYX2rCDDhUeOXU5dDx5rtYyPT37vyff1ogz+ijjU3LxsKxztdorPMEukS6tEvjeFpg3zQBy9zVrCio/ZY0RJLH8x4/V8jjm3hZjfRO+h0v6ZfGv3p7nKSWAYjOAFi0Y8s6P7ZFW8Rvzc+I36xBQCwClUCGDP0EmCsT6CdXIZcL2qLZ9P+BFQFEnTxGAjlqOIdbgBwkWZ737zatUeuQb2/Uim1zZs7ZEY1GRBYRRXuRgk0LYcfWJMYsU2TRIZKmyz0hhkbUy8DTvVk8W75evtH9jcZzPd/qGbEj3xaDWzu3/tfvx3/30YJms3lggY8nTrTQRBP/ZvzicIV39aml45xU792FPlbcjj+t7imX7vDQBK9pqGx2qaV88HOHDj8/KPWoYw4MsWZyn4dVQCB4/cMfP9Bp7v8tjQT++Rr0K2r+mKRWtEggyMY2x9qbQCIAACmuG5wgkByT4U9t700BQoEASV0hQKavzgLkCmMEqBlgmgB1hS0ykbcTSvsaSNq7BDLT3QO50iegZq6f/LoyMszRiKG/fAnLLbTsUDVp/MRqdrWsVAZGZNqdUx3LI6+HmVF01nEXnHfVMUedctUgl62Lrjln+Q5eZkKVScabqDJbdd0+nt7umMuuOOWC82WfOar35kjX98tHkZYI4WS5JBGpAxKlcXgEAAA=");
 
 export default MessageMusic;

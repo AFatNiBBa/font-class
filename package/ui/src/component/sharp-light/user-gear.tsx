@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-gear` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-gear?s=sharp-light user-gear}
  * @preview ![user-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/user-gear.svg)
  */
-const UserGear: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 128a96 96 0 1 0 -192 0 96 96 0 1 0 192 0zM298.8 336L87.6 336 43.3 480 352 480l0 32L33.5 512 0 512l9.8-32L64 304l241.4 0-15.5 26.9 8.9 5.1zM224 0a128 128 0 1 1 0 256A128 128 0 1 1 224 0zM528.2 238.4l0 3.3c7.6 3.3 14.8 7.4 21.5 12.2l4.3-2.5 27.5-16.3L597.2 263l32.1 57-30.1 17.8c.5 4.6 .8 9.2 .8 13.9s-.3 9.4-.8 13.9l30.1 17.8-32.1 57-15.7 27.9L553.9 452l-4.3-2.5c-6.7 4.8-13.9 8.9-21.5 12.2l0 3.3 0 32-32 0-32 0-32 0 0-32 0-3.2c-7.7-3.4-15-7.5-21.8-12.3l-4.3 2.5-27.6 16.3-15.7-27.9-32.1-57 30.1-17.8c-.5-4.6-.8-9.2-.8-13.9s.3-9.4 .8-13.9L330.7 320l32.1-57 15.7-27.9 27.5 16.3 4.3 2.5c6.8-4.8 14.1-9 21.8-12.3l0-3.2 0-32 32 0 32 0 32 0 0 32zm37.8 43.1L548 292.1 531 280c-4.9-3.5-10.2-6.5-15.7-8.9l-19.1-8.4 0-20.9 0-3.3-32 0 0 3.2 0 21L444.9 271c-5.6 2.5-11 5.5-16 9l-17 12.1-17.9-10.6-3.7-2.2L374 308.4l3.1 1.8L395 320.8l-2.4 20.6c-.4 3.4-.6 6.8-.6 10.3s.2 6.9 .6 10.3l2.4 20.6-17.9 10.6L374 395l16.4 29.1 3.7-2.2L412 411.3l17 12.1c5 3.5 10.3 6.6 16 9l19.2 8.4 0 21 0 3.2 32 0 0-3.3 0-20.9 19.1-8.4c5.6-2.4 10.8-5.4 15.7-8.9l17-12.1 17.9 10.6 3.7 2.2L586 395l-3.1-1.8L565 382.6l2.4-20.6c.4-3.4 .6-6.8 .6-10.3s-.2-6.9-.6-10.3L565 320.8l17.9-10.6 3.1-1.8-16.4-29.1-3.7 2.2zm-85.8 14.2a56 56 0 1 1 0 112 56 56 0 1 1 0-112zm0 80a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const UserGear = createIcon("user-gear", false, "data:font/woff2;base64,d09GMgABAAAAAAN8AAoAAAAAB2wAAAMwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTCEdQsGAAE2AiQDCAQgBYMtBzAbdQZRlA1Kj+xngm1DbuuHpoQQXW8VoxTm44HPru9vVdfMWwC9NjMo30yRoA8H2Ts/tP2vufyv5d0CLSRRh6w7J1QdABoTe2fDZ4GMji4Z3Q6ooNIagD5x7/jfBxkT5FFZneehjUl72NgYzSnQeYBj+9J9nuWZdJ6Apdlcrk8DJmEofgdI4e/QXoF4LH6MQ87m8LW6DhKljIdQBc80ZNa0CV6UhtIQPv7/LuFj4xAgDAW5gAyLGwigv0yoHyDJkSSB0vD///Z/YE4AQpH3dhEklCXUJ7QAJBCVpLTNyjp4Wl/li+sLx3yRvdgmEGWHrJPu64CMMDPg3dzI6uGQcXaIdRDWmOUEHJp4twBMChPKj4XEOsWpBLs0e0V+R8gVCjmGhjyX9gqo07IkZ49AYAwAPLmHNFNTiQdbFdFiyRB8BQCc0346l85OsmeBRQwEQpqzl95IcwmbTJxwSBh98T2GQ6MZrqAUgcDXxHN8ZfkEyzJn44QPW5p9XsXExTcohHqcHpqR1cvRyIqyfR1mktOt6X/i4+ePqd02Y6L4cr1hfF7GsVkrk94aX3/eJcqHHNNDbmDT43pc96OvHBw7qdkLXjSs2LRpxYYvXjRDGbydvk143p3DXT33tT98oVhSUvzcH772XBeH72Ry+eBc5sy5LjPIz4kvlP92XVfnziTrvLr0reUtP5BTUyaXqamVA8vLq6urfzRRT3WpWEg11NXEP7qop7wV+/OzFVvbv7yCerpQddWQKRRTdfVmdZ1R8YdyX39d7ocf/oqL//ph8pSaNadIeSCct7zvqwuLKvf/tUz5CL589P2P7F/R/y/ijngJZUQQyNr/XzY/7kX5uEMAAMSwU9O4FwExVFfCC1VweG0mKEeJqKgcMvVVQVJOOxQ00kMz0zxtlhRSWaEaFgBRBVuQ6WkXkhpuo6C/95JFNUL2iuhucN0fauaRdXLEtLxLx85533ywLNff9RpzvF8+29Z6p2prQ3uttMlG262w3Brba/xWEzI7bDByTHXEZ3NddNRZrq98de22b6YVsXlbXdOvXz+JfvL9Q63tHO/dhpyRp7arkigSYtnnytLhswQAAA==");
 
 export default UserGear;

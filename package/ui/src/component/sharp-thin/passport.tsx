@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `passport` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/passport?s=sharp-thin passport}
  * @preview ![passport](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/passport.svg)
  */
-const Passport: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 16l0 480L16 496 16 16l416 0zM16 0L0 0 0 16 0 496l0 16 16 0 416 0 16 0 0-16 0-480 0-16L432 0 16 0zM96 384l0 16 8 0 240 0 8 0 0-16-8 0-240 0-8 0zm.2-200c-.2 2.6-.2 5.3-.2 8s.1 5.4 .2 8C100.4 267 156 320 224 320s123.6-53 127.8-120c.2-2.6 .2-5.3 .2-8s-.1-5.4-.2-8C347.6 117 292 64 224 64s-123.6 53-127.8 120zm16 16l55.8 0c1.4 41.3 13.1 70.2 25.1 89.3c3.1 4.9 6.1 9 9.1 12.6c-48.9-9.6-86.4-51.1-90-101.9zm223.4 0c-3.6 50.8-41.1 92.3-90 101.9c2.9-3.6 6-7.8 9.1-12.6c12-19 23.8-48 25.1-89.3l55.8 0zm0-16l-55.8 0c-1.4-41.3-13.1-70.2-25.1-89.3c-3.1-4.9-6.1-9-9.1-12.6c48.9 9.6 86.4 51.1 90 101.9zm-223.4 0c3.6-50.8 41.1-92.3 90-101.9c-2.9 3.6-6 7.8-9.1 12.6c-12 19-23.8 48-25.1 89.3l-55.8 0zm94.5-80.7c5.6-8.9 11.2-15.2 15.3-19.2c.7-.7 1.3-1.3 1.9-1.8c.6 .5 1.2 1.1 1.9 1.8c4.1 4 9.7 10.3 15.3 19.2c10.5 16.6 21.3 42.7 22.6 80.7l-79.7 0c1.3-38.1 12.1-64.1 22.6-80.7zM263.9 200c-1.3 38.1-12.1 64.1-22.6 80.7c-5.6 8.9-11.2 15.2-15.3 19.2c-.7 .7-1.3 1.3-1.9 1.8c-.6-.5-1.2-1.1-1.9-1.8c-4.1-4-9.7-10.3-15.3-19.2c-10.5-16.6-21.3-42.7-22.6-80.7l79.7 0z" />
-    </Icon>
-);
+const Passport = createIcon("passport", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABnAAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCdwsGAAE2AiQDCAQgBYMtBy8bdgXIjsO44buJKULRLAEf8fDfXH33VWoo+QyZz4ALQI4IfLtFI/qsRUWuIai17b9jFrpVs0hIDI0USFwnWmVILxkRKYHUmP9rPj86OiqQ//yEDyXaUg+ksClqUc9nA5ngzla+N4EosDaYgM1v53cpN5BeGS4JcUmG8fxh+VvI8SrnaCO9LH/hSbnT+J2hHiEpCgDRBwCr23u3a/ykphS//L8nfmErBMRqUAsUKDBCgGUKgRGyGlkWNKVWy/8H1gQQ7bDHBDJ64FW8B8ggKXPu6t81sgfOu3+vqq1nPlBp5cWkpB5RRM8zpa8UKUTVM6KIiPKcUFUR5YEHRDwo9Xh7+W79o3EYK0JI0/p+w7W6rRNVWb2dGg6cT3FG+V5LSvFRdjzYHeuLsirfSY8GzSbbI71vZqT4tDAYYNXeg4oqIhPDgSKidrc33s203pqUaKb3aF7ojPGN+aSP82f398KvfPllE6SJJm+92Tvs16SPPl+JtvP+/nud//fR+d8POUPOa7pnz5o1u3tNVqvaWoSWbUs3ztv46F355oIuj9KMpdsW9ZnBuQ1Lnth1z3mA/f0hzV0WTlp0KvORH3YHgeBQZ+Dyk72r/3RWCfy2/vt35FfUakRD/gQ6JRAU01rTHJOOIBoEACDFbcZEAwLJs0o41B5eECCUCJC0KwUoDNdHgKw0VYA2o8wXoF1pL4XIXcIAxytIergRFBa4F2QDfAvaLPOD3W5AFDbKWxj/i5iyoYXWz6tnz5hVL6mXqSKYHRsml9bb2qTbuGMytbjA9VzHLZznHJeFbtCb2O7dyrVs0JD1PJDabDPMUluiPi4elQPOvombuTyXzqdZqr5vTXKb3n8ymQko50gkiUidr4D9XAAA");
 
 export default Passport;

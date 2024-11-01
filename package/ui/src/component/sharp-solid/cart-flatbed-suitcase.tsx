@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-flatbed-suitcase` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-flatbed-suitcase?s=sharp-solid cart-flatbed-suitcase}
  * @preview ![cart-flatbed-suitcase](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cart-flatbed-suitcase.svg)
  */
-const CartFlatbedSuitcase: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 0L32 0 96 0l32 0 0 32 0 352 480 0 32 0 0 64-32 0-66.7 0c1.8 5 2.7 10.4 2.7 16c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-5.6 1-11 2.7-16l-197.5 0c1.8 5 2.7 10.4 2.7 16c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-5.6 1-11 2.7-16L96 448l-32 0 0-32L64 64 32 64 0 64 0 0zM432 96l0-48-96 0 0 48 96 0zM288 96l0-72 0-24 24 0L456 0l24 0 0 24 0 72 0 224-192 0 0-224zM512 320l0-224 64 0 0 224-64 0zM192 96l64 0 0 224-64 0 0-224z" />
-    </Icon>
-);
+const CartFlatbedSuitcase = createIcon("cart-flatbed-suitcase", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcwAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCAwsGAAE2AiQDCAQgBYMtBzwbDwXIjtRhrTEX4+H/18ru+1VD1WH4Ie4JEChgckCeQJgsgxq1y8IF+qzdE7kKE+nrfeKa+lH2VBhp/+KP9r+2DkqQUeb5BCa2mzfNBhaFs4nirJ2RSKLbhJ7ySYbxGRZbKOPv4o4m0vP0G+6mD40/9XeHpK0AEN0AsGTrxg06GtGI+PX/r4hfrUNALAFZoECBQQLMVwgMUsoolYJG/P+//Q/MBBDNcGcJlGjBYZwElCBpKsv2tu5tbbWmzuWWWlNV1KqaSNG5JqrqsWe9Ho180efJgJt9qyBglKqIIjS7P0RC1IwnXLEm9IHY7K3qO3DOGi40/P1u778d9tuR33TkfCPbp5EXy8vGtBa/v6zXX/5etI75ASFe9QosywtAjn1SHdp96vbdk+un37ueW62hI/bmTQOGxRoWL3qzONDQzgaB4KdPfFrX+X+11hL44/vf5tP935FupPfRKoGgmPj/RLvSDbD6ACoprhjOfFEg2a0JrrWTJwKECgGSZpUAhYG6CVCqTBCgyRAzBGhW2agQZZvQy+4mJ52clwszXZVLvXwhN5nvx3KzXlFImkNOHB+9vCspvGJVbp9cz3PztKE4hccKi/Pysn/sFTcwTm10xFlnXHLYIcddItQFG2qXnbaSI1f4oazdZHXZXHm7/bh+i8MuuOi4s87EZebJ59NjXeHHj1OhBKZT1SWJSL0vq2/S8yocOHxo0oOyxBMAAA==");
 
 export default CartFlatbedSuitcase;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mosquito-net` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mosquito-net?s=duotone mosquito-net}
  * @preview ![mosquito-net](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/mosquito-net.svg)
  */
-const MosquitoNet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 286.3c0 72.6 87.8 109 139.2 57.6L256 242.2l0 23.1-59.3 59.3c-3 3-4.7 7.1-4.7 11.3l0 44.2-30.3 60.6c-4 7.9-.7 17.5 7.2 21.5c2.3 1.1 4.7 1.7 7.1 1.7c5.9 0 11.5-3.2 14.3-8.8l32-64c1.1-2.2 1.7-4.7 1.7-7.2l0-41.4 32-32 0 50c0 17.7 14.3 32 32 32s32-14.3 32-32l0-50 42.9 42.9c3-3.7 6.6-6.9 10.6-9.5c-12.9-8.6-21.5-23.3-21.5-40c0-2.1 .1-4.2 .4-6.2L320 265.4l0-23.1 40.2 35c6.1-9.1 15.2-15.9 25.9-19.2c6-19.7 24.3-34.1 45.9-34.1c16.7 0 31.4 8.5 40 21.5c8.6-12.9 23.3-21.5 40-21.5s31.4 8.5 40 21.5c2.1-3.1 4.5-6 7.3-8.6c-12.9-16.9-32.2-28.6-54.7-31.4L344.7 181.6l49.6-41.3c5.1-4.2 7-11.1 4.9-17.4L385.3 81.2l29-58.1c4-7.9 .7-17.5-7.2-21.5s-17.5-.7-21.5 7.2l-32 64c-1.9 3.8-2.2 8.2-.9 12.2l12.5 37.6L320 160.5l0-22.6c0-14.9-10.1-27.3-23.8-31l0-43.3c0-4.5-3.7-8.2-8.2-8.2s-8.2 3.7-8.2 8.2l0 43.3c-13.7 3.6-23.8 16.1-23.8 31l0 22.6-45.4-37.8 12.5-37.6c1.3-4 1-8.4-.9-12.2l-32-64c-4-7.9-13.6-11.1-21.5-7.2s-11.1 13.6-7.2 21.5l29 58.1-13.9 41.7c-2.1 6.2-.1 13.1 4.9 17.4l49.6 41.3L71.4 205.5C30.6 210.6 0 245.2 0 286.3z" />
-        <path d="M528 272c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 16-48 0 0-16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 16-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 48-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 48-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16 48 0 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16 48 0 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-48 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-48 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 16-48 0 0-16zm48 48l0 48-48 0 0-48 48 0zm0 80l0 48-48 0 0-48 48 0zM448 368l0-48 48 0 0 48-48 0zm0 80l0-48 48 0 0 48-48 0z" />
-    </Icon>
-);
+const MosquitoNet = createIcon("mosquito-net", true, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAAB7QAAALfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVCFEQsIAAE2AiQDCgQgBYMtB1QbtwbIhoeHurL3q2rITtyJJ5ZOS/kEKjgufO75v+bzA77bQD4PdD6c6H++iKCI1E6ewEAjrQN8nDpT26rbRBGX/ND8sIQs6ZGep4jk5uRDXOn8D2D8qrXzSJSlAKIWABOXL57r1eNxPIkPC88RH5qDgJgE8gIpUrQTYIxUoJ1MHplMcDwpFDgehUKeAKKYc7sUFKOUaCEGATKQKBJZdqDM87u8oqgqWxYNLd9/Q/N1jaI8InII1zVe31QREK5vujEXAeHG3A3N5cE+wTRW6BbJTMtCHCCC7xe3t0Q83C3i/t7LQyyI64gBcV3T9RWX5gbHjRHRO8RZTafSatyxtueBNmdHP8vv1uH3t761R0jJOz0ybFnMjxubO8RgW3ZD4w5R7WNMRNzS/UaB97US46LjGH5Q3NCoHxjtgh45N5bEfT0fatX5kdpHfu/04bYP1TxZffx4da0BauX4WserydUaoK41sxbWSAsDPC4uWpA1P7Nj88ruyY6y9S/+eujIVjmPmlzSx4/WvNMpK5tRUJ+1KBik6qKLPv00nL5qkIcN2Ty3LE3/knPI7f892emqL764Cj1Nl8Ejm+5sVuZYy3fes/btr/YUdGt63ltycst6K9mwoaS3ZbmctzyvqVvBaW+9Pfc972nZ1tqdOaeGdq8GAkH9G/NWra8Z839pRQJOvvLnv9KdC68mZyWPoFQCgrRPoY81yVkgCAOwJ3FM575firMQSF2niPeolW4QIJQjQKJYuQCptmoFyJTrLUCRDoYKUKzcYqnIyoRGa0uQqHQQpIY5HWQaPQuKjPGOs1hjpBDDeN4ZP6xxp9WRqe3yA/sNyI/KD8blTCCgmfWj87OlPY/JvBY80Tb77XPEVlvsdKSGHjLXc9Re08aIp343b6B+BsgbJb86dZu7rOY85LCd/ez1rYyW31/T07Hx0i1YkfBIDtI7lRJJpI179x/+hBexv+++rUf6Al9hcwf7RQMAAAA=");
 
 export default MosquitoNet;

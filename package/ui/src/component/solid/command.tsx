@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `command` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/command?s=solid command}
  * @preview ![command](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/command.svg)
  */
-const Command: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 96C0 43 43 0 96 0s96 43 96 96l0 32 128 0 0-32c0-53 43-96 96-96s96 43 96 96s-43 96-96 96l-32 0 0 128 32 0c53 0 96 43 96 96s-43 96-96 96s-96-43-96-96l0-32-128 0 0 32c0 53-43 96-96 96s-96-43-96-96s43-96 96-96l32 0 0-128-32 0C43 192 0 149 0 96zm128 32l0-32c0-17.7-14.3-32-32-32S64 78.3 64 96s14.3 32 32 32l32 0zm64 192l128 0 0-128-128 0 0 128zm-64 64l-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32l0-32zm256 0l0 32c0 17.7 14.3 32 32 32s32-14.3 32-32s-14.3-32-32-32l-32 0zm0-256l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32l0 32z" />
-    </Icon>
-);
+const Command = createIcon("command", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABmwAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCeQsGAAE2AiQDCAQgBYMtBy4bdwXIngVOmT0a8VD0cKKNJsLw+D7pivH8w9q3c9/IqmBSdxMq2bSS6IT2adto1sQnREKllA+VTJ57xvl3k0PZ3r0lK4NJaWtGg9JW56+qKDen+pP5671DaoHx/f2p5zkPBfAbBe1l49JJa/ma3ecVqGhtTGtFagWraQWstuU44V1ahAaJMvt8edpbpGHpAm2em7mOel9/eK0fmn8OmFPmGgDIKgBw81k8Bh/TTJPfUfLbLSCQmwDHIRo0OAzBFUzBYSzHgVYrTDOO/B94HARID/K6Ai1m8QFfAS0ofcuKrPHX5HBhJ2alFjoB82wHc3X+Vn0hB1xAREtz6lh1bhPEs0jdaS4VGLCAnCQMAZ2XjLza3ggWmyuYbK2FwuTCvHCYv69cp7Dct0UUQw4wbgmYQgEg9ZCTg+zyHy94PjswTCbDMEvGjrM0g9KOpo5xfnSMiCR7e8urSdffxyJoM8frJZ2eBwjC/JE/T5Ne+T+7wAD4++vpb3Cs1IBZBUKzO+5KFygCAKj0KQuC8s4bf9dFbwTEPAJKb15A4xAZBK15OxB0jrJD0Jv3CFNaPsSmzI7Kopeocc4AtTZdo84Vn25vM02R0iVG/yMm+C3m20Vmg4k8dFvamLqDZdNLaVHVdyM19kJeQ11XTlZJ1xBtsaCnxh/hPl9EzAxMiAdNN3shZdy2jlKfm9/Gi55XVfrxfDUUBiE9JVOKFPerBAAAAA==");
 
 export default Command;

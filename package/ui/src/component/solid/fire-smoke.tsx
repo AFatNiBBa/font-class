@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fire-smoke` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fire-smoke?s=solid fire-smoke}
  * @preview ![fire-smoke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/fire-smoke.svg)
  */
-const FireSmoke: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M283.7 0c-3.6 0-7.2 1.2-10 3.7c-33.2 29.7-61.4 63.4-81.4 95.8c-19.7 31.9-32.4 66.2-32.4 92.6c0 30 8.2 58.3 22.7 82.4c4.6 2.6 9 5.4 13.3 8.5c13.7-16.8 30.7-30.8 50.1-40.9c-3.9-9.4-6-20.2-6-32.1c0-24 15-45 45-82c4 5 62 79 62 79l36-42c3 4 5 8 7 12c11.3 20.7 12.3 44.9 4.2 65.2c19.3 10.1 36.2 24 49.9 40.8c4.2-3 8.5-5.8 12.9-8.3c14.6-24.1 23-52.4 23-82.5c0-20.2-9.6-50.9-24.2-79C441.1 84.7 420.2 54.7 395.5 32c-5.6-5.1-14.4-5.2-20 0c-9.6 8.8-18.6 19.6-26.5 29.5c-17.3-20.7-35.8-39.9-55.5-57.7c-2.8-2.5-6.3-3.7-9.8-3.8zM0 400c0 61.9 50.1 112 112 112l208 0 208 0c61.9 0 112-50.1 112-112s-50.1-112-112-112c-37 0-69.9 18-90.3 45.7C418.2 288 372.8 256 320 256s-98.2 32-117.7 77.7C181.9 306 149 288 112 288C50.1 288 0 338.1 0 400z" />
-    </Icon>
-);
+const FireSmoke = createIcon("fire-smoke", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfQAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSBdQsGAAE2AiQDCAQgBYMtBzEb9gTIhuB5u6h6v3tmAfXazKBIOEpBtsrOmrjm+VvTA1YQPErl1lQgkTjKPJ/AxHazaCqgnQ9nE8XtTZNWTBkdyUw0ScfXjq8j5PF3dkyJdFP6FGfqh8bXGjlGUikDEDUBMHL+7KnevBSXIj75/zniE5MRECNBIZAhQ1MBhsgEmsoVyOWCS/H///gfWBBAlDGYhPJw5QqsBeQgSXnev2WVUrV8Xty28vrjdT/t8WTTQ12vq/dI++vjcJNbOl/X6KZMr3c4hsd19V73WMP7Ot7Q4IkWhxvf3PjxYdfXvVj34U7XV15zW8eIh/pWqfJC50da3N7p4X7vdiHWsx0ebPr4uLdr9XDNh79t+em6TzV5o9y76+XLlbqtmbVmwhdLa9e6++lFrb+6/NVXtRmodu3ayRdfTJizak61Gmvm3Ldl9A03fPvGHR+NLjU5U+M/vv/hyy9/+P6/GqJg5bm/f7p2bceOlvrp73Pz/UAgqPHys88srzHk14pVErjy8vd/9Nv9/2Y6lB5GRQkEWZf/u1iSDgFKA8in2KeV8UWBZIGEWVVdLxRDZYRIyioTmSZqErnKOhMlzfU9oqyy2TKRVxLqWkqIpKqdRKaf/USurmeIkiE+yJXVjczFDAcxfni54zQwdlXRs1uPYlCxbBim12i0OLjYjnXYlwY6wkbrbLfNHmutsdEehe8ytbjXVuMsbKwfKvTUTQ+FQYrj9vP6edbaZbeNtttWlhmsuJ/tYJ89viMkE5btpS5JRKr8WGu67t66ffNaAAA=");
 
 export default FireSmoke;

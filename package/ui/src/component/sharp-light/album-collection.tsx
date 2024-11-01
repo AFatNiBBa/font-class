@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `album-collection` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/album-collection?s=sharp-light album-collection}
  * @preview ![album-collection](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/album-collection.svg)
  */
-const AlbumCollection: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 0l0 32 16 0 416 0 16 0 0-32L464 0 48 0 32 0zM16 64l0 32 16 0 448 0 16 0 0-32-16 0L32 64 16 64zm19.5 96l441 0L443.2 480 68.8 480 35.5 160zM40 512l432 0 36.7-352 3.3-32-32.2 0L32.2 128 0 128l3.3 32L40 512zm216-96c-77.7 0-128-49.3-128-96s50.3-96 128-96s128 49.3 128 96s-50.3 96-128 96zm0 32c88.4 0 160-57.3 160-128s-71.6-128-160-128s-160 57.3-160 128s71.6 128 160 128zm0-104c13.3 0 24-9 24-20s-10.7-20-24-20s-24 9-24 20s10.7 20 24 20z" />
-    </Icon>
-);
+const AlbumCollection = createIcon("album-collection", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABewAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCAwsGAAE2AiQDCAQgBYMtBzcbCgXIjsK2bRPnKxbLEENEqMTD/6/9b58z94t5/C9hCa/uoYmVSjNLlqimbSJS36KSyeM/v7+6b8btT4POgFomOEFo27YUKU1aABUqiVOnci7noQC+ZQoHbSxcE2T57B7nFShgSr36Euy2gtW0Atbd2bbMoc3KJUmR5DiX43GEEu+iRUjeyxq39EPjnxlzpFIBiGEEYNeJugq6brN2RN0cELU9SEDsRljGUKHCPAa24gvME1hGiiJoR9PwfyBQANHJrpygoAcXkEsIFJC6Sunp6RkYG5P2dQyU430dvWcwfQMRvRczfaB/4GT0x+lTD3Ym5qK3fyZOnXhMRLxdXE2elf+Iv9EsxY5LfO2I+LS2kbls/Jl6j/X0RUM8n1uwbMnnzYYCV/jW1z01LX0CwG2DuE/ZAD0771rfYI0+SzOwg3/htWVNrbzQ9qLaP63PVETzpczPrRPPu1Hsju8TE/d3xUTAqO+QTFZTsAjisn2PVz9ah7b+l/Ql+Pv29x/9iprrlK/QLUFQtZqWpgRJAAAybjIkBNIJYvqu/W4LEHoRIHXqFaAyh8NA0WsdAx0WhTHQqdcRfFF6hHHNDaR+V0Bli1lQjNsDHbZ6ijqNR+VpvJ/wH72Ush4u3Qa/x4cEpm1VcB42rSexrdpm4pgdDlKPUSOmdOvSb6pDJ1Sk04aVrZBSXwR+Hj6QgOPe4/5G3SZM6jdqRDZJwv3QZmY92w4GjzFuUEpJ5LC/j7mfAAA=");
 
 export default AlbumCollection;

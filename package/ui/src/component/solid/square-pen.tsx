@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-pen` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-pen?s=solid square-pen}
  * @preview ![square-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-pen.svg)
  */
-const SquarePen: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM325.8 139.7l14.4 14.4c15.6 15.6 15.6 40.9 0 56.6l-21.4 21.4-71-71 21.4-21.4c15.6-15.6 40.9-15.6 56.6 0zM119.9 289L225.1 183.8l71 71L190.9 359.9c-4.1 4.1-9.2 7-14.9 8.4l-60.1 15c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l15-60.1c1.4-5.6 4.3-10.8 8.4-14.9z" />
-    </Icon>
-);
+const SquarePen = createIcon("square-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABaAAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBTQsGAAE2AiQDCAQgBYMtBzEbzgTIHoVxMz3SRXNsbxcRVGv/9uzd+0VhuBCRAiYH5IFQxgGpsJBsUUW/Zn5YJJwhtfjT37vzf/7pAz6jjzI2zo0LbO7qPIHEurjAA8oCyzQAjyFrZ7eQRDdY9D3lkwybHzYPyONyNiXSxQTH65vGL80dI6nKAEQ9AIybP3uW19/je8THcsRHMxAQ40AhkCFDKwFGygRayRXI5YLvUS6H/8CCAKICf0oCOUqYijmAHCRZnrdo0KimVDufV1OqXnyna8SDZikudnvYqXbc7/G4ZRaXuj/qXGtl4yaNzzrUqGvMix5xvuaN58yfM39uzIkzjSbGmSbnmnaI803bP6r36A/rGHP9Rn3qV49VXb/+jbFu1Be9tPkL7nhWr97ziSZPNtHHuvU+fj6zgfiAtWebe/ilw3PnNvul2VwgEHTsvPvN8kb+r6xJ4OfTf0vfovL3eJ0eoVICQdaz3NOSeA3xWgAAUuzTPl4jkIyV4avWck6AUI0ASYVqATIt1RMgV62HACVtDBKgQrXZMpFXCY0sFZDUshNkBtsPco08ASUjvY0qNIrMnShnoH5z8ZM1NOlS0a9332J4sax02kOIfDqi2Ba67ouTbrhpne222WOtNTbao5BdZqV7bTXZgif5oEI/vfVVGK44bp+vz7PWLrtttN22cs4IxX2nq332ejfICVH7yySJSNVPMuy1Y+02");
 
 export default SquarePen;

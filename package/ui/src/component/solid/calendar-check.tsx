@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-check` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-check?s=solid calendar-check}
  * @preview ![calendar-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/calendar-check.svg)
  */
-const CalendarCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 0c17.7 0 32 14.3 32 32l0 32 128 0 0-32c0-17.7 14.3-32 32-32s32 14.3 32 32l0 32 48 0c26.5 0 48 21.5 48 48l0 48L0 160l0-48C0 85.5 21.5 64 48 64l48 0 0-32c0-17.7 14.3-32 32-32zM0 192l448 0 0 272c0 26.5-21.5 48-48 48L48 512c-26.5 0-48-21.5-48-48L0 192zM329 305c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-95 95-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L329 305z" />
-    </Icon>
-);
+const CalendarCheck = createIcon("calendar-check", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcQAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBbQsGAAE2AiQDCAQgBYMtBzUb8gTIjpQuZyTx8P9zYff9pACcMqMDBM2WcFzb5eOXLarVUyH4/3NNvXh+VCD/+QkfSqceSIHWqp9PYIDRnmCbwMBmOgGbuil9KihIQVR0ZENLkR3feny7Qh73sxMqkO6m73A5f2j8pYkTJFUyAFEbAKMXzp2u9Hv8HvFt+QXxrakIiNGgEMiQobkAw2QCzeUK5HLB71Eu839gQQBRkbw/gRwVsARrADlIsjzvWadutQo18gXVKlRder5BxE2iWkQcbXS7GsqsP+hIE6P6ArnvdlSemFejeo0Ud+rfaFc9Hja81TRbfb/pw3bzYkTUZ+80mR0POi5s87T20398t+E7hz/VPMOZmoUjChfPYuGJ3Uuvn7/Peikx2fc/95IV3qqXxKp9t1bt19aetOunn2rUWLHCvxo/jXJ8yc6dQCBo1fL+0JW1hv1fuVoCf779r/ArKpeilJ6isgSCrFu5m2VRgigJAECKA9pECYFkjow8Ud0tAUJVBEgqApkh00xtyFXVFSpoqb9oPDxXJvIqQn3LCZLqdkNmgIOQq+8ZVDDM57Si+pG5l+wc8t9dxgTEx68qevfoVQwptrWheIyYFocW5qDTgTDQmS7aYKcd9llvnc32AbnH9GK/7SZoxHhfVOith14KQxTH7Z/GAkj32Gvz2nW+zFDF+0knB/TxnSlOhLOPUpKIVPPrs7o7KgAA");
 
 export default CalendarCheck;

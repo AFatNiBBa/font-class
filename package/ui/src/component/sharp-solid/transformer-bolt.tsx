@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transformer-bolt` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transformer-bolt?s=sharp-solid transformer-bolt}
  * @preview ![transformer-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/transformer-bolt.svg)
  */
-const TransformerBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M136 24l0 8 24 0 16 0 0 32-16 0-24 0L88 64 64 64 48 64l0-32 16 0 24 0 0-8L88 0l48 0 0 24zm160 0l0 8 24 0 16 0 0 32-16 0-24 0-48 0-24 0-16 0 0-32 16 0 24 0 0-8 0-24 48 0 0 24zM48 96l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32zm160 0l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32zM0 160l32 0 320 0 32 0 0 64-32 0 0 224 32 0 0 64-32 0L32 512 0 512l0-64 32 0 0-224L0 224l0-64zm240 48L96 352l70.5 5L144 464 288 320l-70.5-5L240 208z" />
-    </Icon>
-);
+const TransformerBolt = createIcon("transformer-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABcAAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCFwsGAAE2AiQDCAQgBYMtBzcbHgXIhof/X/vXfWbm4YThJgqYFTHKRJGLIwuk4ritrvurrqy6Kt/8X05vPD86wG90SHvZALntc7SfJxBomOcJZYFFGJaA5butZ7yhoqCLGuSLiCHOkA7uDkVcym+rkD3JfuB+fNH4U2+3yTRyANEJAHPXrVrpU1u0RXxvvSG+W46AmAuSQI4c/QSYIRfop5BQKARt0WqZ/8BEAFEl32MGCtRxEBcABchUi6J790ajd/uy0r5YW1aam4SyFM1mRFlGRJSh7Hiry6bRykx6uP3HDVGGaLaLKCOiGbFm9brVa2J1rIu1sW7wy04v/x70Y+8P957V6/VenZJOx5NOvep6GaPXU4T/L+7U6TprT3H9l9kpXZ8jaZOwvj25/46+L5lFhR4HkWGhg7o/DgLBgd8f/Lqt44z/6mUGfvv479/4V9T6FNezl6jLQJCPaI2wOa5DXBcAgCzOGhzXEcjsVIVnbeehAKGJAJmqpgC5vjoJUGgaLkDFABMFqGpaJRdFQ+hmC0CmnRMgN8kVUOjmFaiY4XNQ1S1ynWM0hvnkS1xUowsvpbGjxqRpadoorBpR4XR62jaHnLWLoXTTXsccddoeux1wusJPWhmfccSiFbbQGyVjjTJGMk067m/FtQhOOuXAWHN+znTpvj/E2fX2oeRkhHCcXCYjsk5vmf2jKhi589jh0wAAAA==");
 
 export default TransformerBolt;

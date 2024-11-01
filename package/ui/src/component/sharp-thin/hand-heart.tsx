@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-heart` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-heart?s=sharp-thin hand-heart}
  * @preview ![hand-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand-heart.svg)
  */
-const HandHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M216 0l8 0 80 0 8 0 0 8 0 24 72 0 8 0 0 8 0 56 72 0 8 0 0 8 0 240c0 92.8-75.2 168-168 168l-8.5 0c-63.7 0-124.7-25.3-169.7-70.3L36.5 352.3 8.2 324.1l-5.7-5.7 5.7-5.7 56.6-56.6 5.7-5.7 5.7 5.7 28.3 28.3L136 316.1 136 40l0-8 8 0 72 0 0-24 0-8zm96 184l0 64 0 8-16 0 0-8 0-208 0-8 0-16-64 0 0 16 0 8 0 8 0 200 0 8-16 0 0-8 0-200-64 0 0 287.4-13.7 5.7L93 295.8 70.4 273.1 25.1 318.4 47.8 341l89.4 89.4c42 42 99 65.6 158.4 65.6l8.5 0c83.9 0 152-68.1 152-152l0-232-64 0 0 136 0 8-16 0 0-8 0-144 0-8 0-48-64 0 0 136zM189.7 337.1c0-28.6 23.2-51.8 51.8-51.8l3.5 0c14 0 27.5 5.3 37.8 14.9l5.2 4.8 5.2-4.8c10.3-9.6 23.8-14.9 37.8-14.9l3.5 0c28.6 0 51.8 23.2 51.8 51.8c0 14.3-5.9 28-16.4 37.8l-70.9 66.4L288 451.5l-10.9-10.2-70.9-66.4c-10.5-9.8-16.4-23.5-16.4-37.8zm87.4-20.4l-5.2-4.8c-7.3-6.8-16.9-10.6-26.9-10.6l-3.5 0c-19.8 0-35.8 16-35.8 35.8c0 9.9 4.1 19.4 11.3 26.1L288 429.6l70.9-66.4c7.2-6.8 11.3-16.2 11.3-26.1c0-19.8-16-35.8-35.8-35.8l-3.5 0c-10 0-19.6 3.8-26.9 10.6l-5.2 4.8L288 327l-10.9-10.2z" />
-    </Icon>
-);
+const HandHeart = createIcon("hand-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABpwAAALsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDbwsGAAE2AiQDCAQgBYMtBzEb8AXIPgzwBOYZqgebcO2cgCtY2cJcphC1b5WTr/9ZOFbj4X2dX+c+O5HHfxisqRihA15k9ZhutRVQR8BFMwoPn7f3o+6CpC3O0sCCAg0okWykYVMpsoho1+1MYIEVSmGUhR5gAPD8ZrvfaDdZ8AEHXFSJZJxYQw8ccvB5lhi1BXL4z9379reDW9LCQALnUKMuoHIgZL2JaoH/FYvRH/fz/J9/+oDP6KNFLzLPI+p8AgONSJtNZGAj2fkEbIvbfkT8ZiEOQuEMebyAU430mH7c071p/KWHayRZBiDaB4CZ61cv9er38X3EW02JtyxGQMwEKoEMGXoLMEUm0FuuQi4XfB/Ns//ASQBRN3xxAjnq+BS/AXKQ5Hk+cfappdYmXxe1cnOULUK04EM+nrI1HreP56etM0hX3azOjF0MzIxZhMG0iFhLEGUM9jJE0pKJTdHZNINMsQqu1dP9udT32fSvN8x13LDm8hjxSGuJx2uX6Hbe95AyrNFZV+v0sJyeuj7ctYwH+aCS1pJuPSI3N93OzgYnt0b7xj955LNXbDusuwVFYcL63P9jXv0KI+9n2oblLXPNcavdWi/4UaFYMBTb9zrEFdorvK8VZ9zmwus5ESXO0M8n3rZvvmjDBs1SVmFGNFLzMMOteqF7tUaQj18v/xvf7MCKm2SOm6NY8c3NbV4aqi3QzEfdhsHPffx/M8ubt+WGRh/EKx/t6xw87QECwfKV49+dKZ+7BH58vt5/Rlkzn6cGKCQQZEN+tiQyA+JzAQBIcY7+DZlA8q7csKm1hwUIJTckdSVkemkPudJgqOlr7Oa60mqZyFsJnW29IWntJGTGOQ+5zp6FmileC9V1jgy+Keikfi/j55HI3H7VMmxENamSZp00yBJ19+TKWDmfy6sG4oX2Oe6YM/ba46AzBHbK0uhZR81ToXN9UGWkYUaoTFI5F2b5dYTxlNO5/bhj7r1MVoW3DnBO3Xgg1iQD7ihxSSJS+TmIQ98yAAA=");
 
 export default HandHeart;

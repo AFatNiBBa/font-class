@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `music-note-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/music-note-slash?s=sharp-regular music-note-slash}
  * @preview ![music-note-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/music-note-slash.svg)
  */
-const MusicNoteSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M304 213.2L48.4 14.8 29.4 .1 0 38 19 52.7 591.5 497.2l19 14.7L639.9 474l-19-14.7L352 250.5l0-53.6L512 160l0-110.7L512 0 464 11.1 304 48l0 80 0 30.7 0 49.3 0 5.2zm48 160.1l-48-37.8 0 30.8c-18.1-9-40.2-14.3-64-14.3c-61.9 0-112 35.8-112 80s50.1 80 112 80s112-35.8 112-80l0-58.7zM352 128l0-41.8L464 60.3l0 61.5L352 147.7l0-19.7zM291.3 414.5c11.3 8.1 12.7 14.9 12.7 17.5s-1.4 9.4-12.7 17.5c-11.2 8-29.2 14.5-51.3 14.5s-40.1-6.5-51.3-14.5C177.4 441.4 176 434.6 176 432s1.4-9.4 12.7-17.5c11.2-8 29.2-14.5 51.3-14.5s40.1 6.5 51.3 14.5z" />
-    </Icon>
-);
+const MusicNoteSlash = createIcon("music-note-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdgAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCAQsGAAE2AiQDCAQgBYMtBzcbCAURlZpnyH4kxsasHp+JWZcaXDtE2OxNN/FLPDysi/9zZ2b3Ec4QI9SgDjFCDNX84AaAwuaAlBaxa4QM7fVVxCauef5pTw9YVqKPFmm/ao3W7vMJDDBao2w2oNlwNlHc7tykqUE7SVKW5Pjs+Jwhi39irRzJtuQR1pQPjY+qWU0ilwKIsgDoN3r4QNeexbOIh4XT4qH+CIh+oK5AihQ1BegpFagpUxeZTPAsCgX6D4QAIk+enIAMeUzBHEAGElmWNalUolyJXKlsFC8sPn3UyFGNo2U0inme2yYax7SIGM2P6BgjQnhoZO9evcXh4qeaHq25q9mxTmdbnKgTEWJ02IjEmE0VE+1gxzONN1c54kiX043qHy97/HO9R7MetflQuA2Frd3WWs+L6vKST3W2p6E52vkb5gxRRzu5Nnt+8dLalxt+e/17xO+vv7Gnx2/NMTqnmt7K3Io9a3+sWPFTybJlS35y6MdSrygFBILFfTbOLsr0/K1oiQS8uPD1K3i4cC1ZnhxHUQkI0pYFPSFZDsQMIJ7EYvWVLwokxsjIu5a0WYBQHAESecUFSNVQVoBMcS0EyKmtkwB5xQ2XiqyYUNHETiRKmkekOltCZCo6SeT0dDeWVzFSQ5PNRP7nZWA/Am4WkjCGwbKiKbYjxkmLbYv/oUPgQdIf+9u10zvgd5b8Nq9h7odIwhgGx/Xn3Xl3P9Ox52ks7gf5r/cX6GBEMM1jEmhS1gDN4OnmBM9aPSMA");
 
 export default MusicNoteSlash;

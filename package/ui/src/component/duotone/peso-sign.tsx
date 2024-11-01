@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `peso-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peso-sign?s=duotone peso-sign}
  * @preview ![peso-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/peso-sign.svg)
  */
-const PesoSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 160c0-17.7 14.3-32 32-32l0 64c-17.7 0-32-14.3-32-32zm0 96c0-17.7 14.3-32 32-32l0 64c-17.7 0-32-14.3-32-32zM96 128l158.4 0c17.1 16.8 28.9 39.1 32.5 64L96 192l0-64zm0 96l190.9 0c-3.6 24.9-15.3 47.2-32.5 64L96 288l0-64zm236.8-96l19.2 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-.7 0c-2.1-22.9-8.5-44.5-18.5-64zm0 160c10-19.5 16.4-41.1 18.5-64l.7 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-19.2 0z" />
-        <path d="M32 64c0-17.7 14.3-32 32-32l112 0c97.2 0 176 78.8 176 176s-78.8 176-176 176l-80 0 0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-96L32 64zM96 320l80 0c61.9 0 112-50.1 112-112s-50.1-112-112-112L96 96l0 224z" />
-    </Icon>
-);
+const PesoSign = createIcon("peso-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABkwAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCRgsIAAE2AiQDCgQgBYMtB04bZgXIjoTcROtfxAXRrHj4f53ZffqyT0YOgzJVmLgiXABoZ7Yk7hB6n20J2jjf2f8nrun/9PT0gIUv/mjdi8YojYjzCQx8bQk+oNnAZjoD2+W2mSImof1C4nhCHhfTTRWy57Kv8Ej0P4Dxq15ukmlKAKIjAGZvXLvcJ/WoZ/FV4w3iK8sQEHNAKZCQ0FeAaZJAX7kSuVxQzxpTj8YlAURV9CkJVFHgGh4C5CCTqeZ52aFdu6amju1rlXb5hlql2HqtR8QztVr8vPr79T+t+m5dEeJq1yeL+7s/HRFpfa2ovT30tQEvD2mdUIR01BZbEwbSxkMVLf2KCA304iB6lnmg21Neai3i5d5eGFCLyfXNrR1bfx/41YGvDLjS/i5325+yJKJjFMCSqlVmaX/3bntWtks5s7FK7f/LvQ4d7vlrlbrygjPLZscgtPPKy5TYsv5js3Z9TFrf8rJZv+3swr/UHJp/e7XmMHlBFyAQTN6wcMXODtP+b1PLwC/v+bf+IWnU42rWijYyEKRhjWG2xVWIqwIAkMUFzXFViUCyRBV917aeFiAUCJCpKgRI+ugoQK4wVICK/sYLUFVYK4m8Sehqe49m2jqNJhNcQnNdvY5WTPNptqprJGBkQYn9FUxaMAbnbytHjxhVTik321oOvmi7PrU8bQ26IMcG44sOOOmEc/bb57BzI+SM5YXzjluwB8/3RaXRRhilNEV5u/dc2kCzZ5x1eF24v8lU5fvxQS7szx6M3UxCOcaOJBFZpE5fIOXhgKwND9VjXWZC+AUAAA==");
 
 export default PesoSign;

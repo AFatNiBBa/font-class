@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-dollar` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-dollar?s=sharp-duotone-solid square-dollar}
  * @preview ![square-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/square-dollar.svg)
  */
-const SquareDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l448 0 0-448L0 32zM137.9 342.1l12.9-41.2c2.2 .7 4.4 1.4 6.6 2.1c7.3 2.3 14.6 4.6 21.9 6.9c12.1 3.9 26.4 8.4 34.5 9.7c17 2.5 30.6 1 39.5-2.6c12-4.8 17.7-19.1 5.9-27.1c-10.1-6.9-22.6-10.3-34.5-13.5c-2.3-.6-4.5-1.2-6.8-1.9c-15.1-4.3-34-9.6-48.2-18.7c-19.5-12.5-29.4-33.3-25.2-56.4c3.9-21.5 19.9-35.8 37.8-43.5c5.8-2.5 12.1-4.4 18.6-5.7l0-38.3 43.2 0 0 37.4c18.3 2.6 36.2 7 54.1 11.5l-10.5 41.9c-16.3-4.1-32.5-8.1-49.1-10.6c-16.4-2.4-30.1-.5-39.3 3.5c-11 4.7-18 16.2-6.3 23.7c8.5 5.4 21.5 9.2 39.4 14.3l.8 .2c15.6 4.4 35.5 10.1 50.4 20.3c19.4 13.3 28.5 34.9 24.2 58.1c-4.1 22.4-19.7 37.1-38.4 44.7c-7.8 3.2-16.3 5.2-25.2 6.2l0 36.8L201 400l0-38.9c-11.7-2.6-26.7-7.4-36.6-10.6c-6.6-2.1-13.1-4.2-19.7-6.2c-2.3-.7-4.5-1.4-6.8-2.1z" />
-        <path d="M244.2 112v37.4c18.3 2.6 36.2 7 54.1 11.5l-10.5 41.9c-16.3-4.1-32.5-8.1-49.1-10.6c-16.4-2.4-30.1-.5-39.3 3.5c-11 4.7-18 16.2-6.3 23.7c8.5 5.4 21.5 9.2 39.4 14.3l.8 .2c15.6 4.4 35.5 10.1 50.4 20.3c19.4 13.3 28.5 34.9 24.2 58.1c-4.1 22.4-19.7 37.1-38.4 44.7c-7.8 3.2-16.3 5.2-25.2 6.2V400H201V361.1c-11.7-2.6-26.7-7.4-36.6-10.6c-8.8-2.8-17.6-5.6-26.5-8.3l12.9-41.2c9.5 3 19 5.9 28.5 9c12.1 3.9 26.4 8.4 34.5 9.7c17 2.5 30.6 1 39.5-2.6c12-4.8 17.7-19.1 5.9-27.1c-12-8.2-27.5-11.5-41.3-15.4c-15.1-4.3-34-9.6-48.2-18.7c-19.5-12.5-29.4-33.3-25.2-56.4c3.9-21.5 19.9-35.8 37.8-43.5c5.8-2.5 12.1-4.4 18.6-5.7V112h43.2z" />
-    </Icon>
-);
+const SquareDollar = createIcon("square-dollar", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABsgAAAJzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDAQsIAAE2AiQDCgQgBYMtB1YbqQXIjsK22TMiWZI1Ti54c4jn+b/3bZ97b2qxViihSumglQNYwGNZoeqZKtR0BP4aHR5+R3bvz9wGwgZ3AVFJ6CS3eVUqCBU+Vf2Jy53/3D4mADbneRYtHmOfF3jn6fQNFP8lmGkG1t40ix0jupIkK5Pkb+u4ukLLMmmAPso7cwo8xf8BzD/KGiiGKgBkEgA4vQ71h80X7JWcdjzyhx8QyBkAliEqKuYhOEAE8/gsA00TekzX0cOuWwYB0g/RiRX0ow8f+A5ooIjS+HyEA0T5xfkiRPlFYgF92lDDJW5JbkBuQH6QFcVFdlVtQndADnAYUZSHFDRxMCW/yKji8KsKQ9yQSK3IEremOa03rIgoShjCiCNBsWhNNU1VJ5FtCuD4lgg55cJwW3Ki9prU2g+t04xT+BfIsixvaBQe7us+lrJc+cEQwvPjXWjxM++SBSN6rNvu70NIvklJ9r3u2+tX1G/8r7NMEMvy3nnVHNf3cmBk5kewwyZsttocllAa7B7soRRkG6W8u7Oshc/H6BLO2vMq/rrwRinFd4xUpAAE4aVJiiVKOv8XEmUA/m78+gr5d9S94I/yHRhUQKhbnbG4bALyAwIASipAO5vaEFTXGPgZo14ExDACin7DAqo5UhA0wzYh6LPIBgIePkekCUPMiq9GMerWqPZVGs2sdaPPgYNcv9kQT/X5me+jWNi3BXx2UQtTc+pIh23F73weXnei6rR+BY0ZwEXIUKhAmXRpspU1Ugn/Yrl8vjPGxxdRFkyZoxzR5d59OAJzJUply8H1TZzQ/Rl9FfPZBrAfBrB9x3WVFCTy5h4zebJxE6ufoigELRwAAAA=");
 
 export default SquareDollar;

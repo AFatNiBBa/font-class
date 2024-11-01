@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-arrow-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-arrow-up?s=sharp-light cart-arrow-up}
  * @preview ![cart-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/cart-arrow-up.svg)
  */
-const CartArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 0L16 0 80 0 92.8 0l2.8 12.5L151 256 476 256 541.9 32l33.4 0L503.4 276.5 500 288l-12 0-329.8 0 14.5 64L496 352l16 0 0 32-16 0-336 0-12.8 0-2.8-12.5L67.2 32 16 32 0 32 0 0zM184 480a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112 56 56 0 1 1 0-112zm296 56a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm-80 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zM304 208l0-121.4-36.7 36.7L256 134.6 233.4 112l11.3-11.3 64-64L320 25.4l11.3 11.3 64 64L406.6 112 384 134.6l-11.3-11.3L336 86.6 336 208l0 16-32 0 0-16z" />
-    </Icon>
-);
+const CartArrowUp = createIcon("cart-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhQAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCMgsGAAE2AiQDCAQgBYMtBzQbNgXIjtMVcxRJktwj/vsx9nvue6g072YJj1QtGSKZTrPYCd0qjfn9+/zv7/u9B+J5Awht1oSsCrE5NIfyyTtxzfM//wZM4keJtl8VSCZlagkkyGg3r7QNZDawieJGt12dpLqOh8QWeh7pBkXqXe4B8Oy+NL8wNQGlNwBkGgBwfpebjqs3vpEP0j6QD6SCQC4ArCIaGhYRHJEXLFKwCroufFGS2H+gAAJkEOFpBTqG8QieAHRQBruCraomjbJVV9RUKJAnqMmrq6kbMp+aLKQ682hANQ0ZNdUhrzRiCdXUWLxoPuMwZzJtz3nTaZMpuwWzGfNZx+o216+plcaiveGYMecAVxcQOaIBXWjM3Aw2ZPZbnGjECCIyStqs6Ky8kz00POBKR6fcDQF/iBf9CZnEf3ChcfkBsdMCOsoVaVfwLeIOX7MNDbNRctbH33/+/P7IrY6BHRxKztLevLzc1EbOyh/DLjcWqxqckCxzlYQTDa+MNUyHoAMQhL41N1mpHfZNRV0O8HPy4RPA0f+P5CLlVgDDCoS2LrmhrKIAGRkGoSSVAdjAZaI8OJqfOu4FQYwioAwaFdAs0EHQjVpDMGCZP4JBo67IS1dFzCsviTLunmgOjRPdvF1iwJFr/6D5yN+B0v0j/f+lJ9SB+GnC28NLhIjBgly+qQQ9GCpmm5wGeIMz3IgGnTr0qVenWV8N75Ee6tcuYQyM90OCNw9ehBBidfn2+gL1evRq1qnDThJK7O9zMjDe3hla5QTWXXmlSGl+w5q7jOvpHHTv7wIAAA==");
 
 export default CartArrowUp;

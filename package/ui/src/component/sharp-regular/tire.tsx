@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tire?s=sharp-regular tire}
  * @preview ![tire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/tire.svg)
  */
-const Tire: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm336 .9l39.2 12.8c.5-4.5 .8-9 .8-13.6c0-31.2-11.9-59.6-31.4-80.9l-24.2 33.4c9.8 13.3 15.6 29.7 15.6 47.5c0 .3 0 .6 0 .9zm-14.9 45.6c-10 14-24.4 24.6-41.2 29.9l0 41.3c34.4-7 63.5-28.7 80.4-58.3l-39.3-12.8zM232 373.6l0-41.3c-16.7-5.3-31.1-15.9-41.1-29.8l-39.3 12.8c16.8 29.6 45.9 51.3 80.3 58.3zm-95.2-104L176 256.9c0-.3 0-.6 0-.9c0-17.8 5.8-34.2 15.6-47.5l-1.7-2.3-22.6-31.1C147.9 196.4 136 224.8 136 256c0 4.6 .3 9.2 .8 13.6zm93.6-89.5c8-2.7 16.6-4.2 25.6-4.2s17.6 1.5 25.6 4.2l24.2-33.4c-15.2-6.9-32-10.8-49.8-10.8s-34.6 3.9-49.8 10.8L228.8 178l1.6 2.2zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM256 88a168 168 0 1 1 0 336 168 168 0 1 1 0-336z" />
-    </Icon>
-);
+const Tire = createIcon("tire", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABqAAAALPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDIQsGAAE2AiQDCAQgBYMtBysbnAXIjsN0ayeHCuqwqFh8Bf+UTnt/tdbEkoOsHBJUYegOEEsi6KjC7ibl1YaHfn/9uW+tDzbIiQlwyO/9tJi+pXw7idPZOX3/55rP7/nRAX4/8TaOpkqQWAJlPp/AhMrS22wmCSBjnm2zRLIhiFsiIiQqQmL/wWH7I7C6r91owBwxH4BdZbn+Ec16MIQcwFICa0d3zp3OkzfxJvE+ug31eJoAAWg0AAECHPgeOQiAYTgIyMESABaL4KeIROg/MAkEAHLBTzIAWMAHLgEPAAALgCFsbXZ2QoyXFJec7Ydi7QKTxitUsqRLU66NwUmXGUvI3S9OvjKFpt5kryrydawQz2c+mELT72rP219rzppvjcEZ93UXHcP9i/of0ske3XQEBUU5h9uh1z2L5gl0KqufLo7vGFgwcI3i88tOUxddyFmdujBs2pbaU6e8re06K3W+4pUOeltT9iOnHvC3pR/SglCpdLf7ReRuFwbd8bYOudfjktb0vDz0vt/mXMK51uTbiVseTksfwaWIP3CgH7n0qHTwo7H5C40GyNx8Wl//dDM6zHhdK34bVdjW1cV/WcN/LILWr3Aa05ZnuyZ0Af7Q31kuThsorToPgux/JzV8sencZd3XrXHX66iIja1YQIOnWv2wOa7WyNr80z0WwPyJ0m4ZpRPzF/RQNXI6AAgQXPqx2D4YX/FfbzIA/D74/m5fI6JnEuYcEIMBQOB0i2awTALAgAAAAACjFtpIAAIMpzCAJMJBa0F4wGBw8cAhmwSweHSFEHn0P8LFYy4OsmFECssJYIhQDw4DWAGWFK5DiGG8Tl1ShOO4gtsJ/42pEzQyflGQ26NXMCTY1nTRF7k8OzS4NlJaUk9n2kgJtdTQRDFFlNOksAamF5qpZsIJHc8DCehND3oRMITA3HxWF7DfQGPi1rJ9nqEE75NOtJyHdybbAMI+6OYTVBnbNN1QDAAAAA==");
 
 export default Tire;

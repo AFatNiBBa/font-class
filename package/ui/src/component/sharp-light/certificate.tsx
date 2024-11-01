@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `certificate` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/certificate?s=sharp-light certificate}
  * @preview ![certificate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/certificate.svg)
  */
-const Certificate: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 57.2L213.5 21.8 187.4 0 175.7 31.9l-19.1 52-54.5-9.5L68.6 68.6l5.8 33.5 9.5 54.5-52 19.1L0 187.4l21.8 26.1L57.2 256 21.8 298.5 0 324.6l31.9 11.7 52 19.1-9.5 54.5-5.8 33.5 33.5-5.8 54.5-9.5 19.1 52L187.4 512l26.1-21.8L256 454.8l42.5 35.5L324.6 512l11.7-31.9 19.1-52 54.5 9.5 33.5 5.8-5.8-33.5-9.5-54.5 52-19.1L512 324.6l-21.8-26.1L454.8 256l35.5-42.5L512 187.4l-31.9-11.7-52-19.1 9.5-54.5 5.8-33.5-33.5 5.8-54.5 9.5-19.1-52L324.6 0 298.5 21.8 256 57.2zm54.2-3.6l15.1 41.2 9.2 25.1 26.3-4.6 43.3-7.5-7.5 43.3-4.6 26.3 25.1 9.2 41.2 15.1-28.1 33.7L413.1 256l17.1 20.5 28.1 33.7-41.2 15.1-25.1 9.2 4.6 26.3 7.5 43.3-43.3-7.5-26.3-4.6-9.2 25.1-15.1 41.2-33.7-28.1L256 413.1l-20.5 17.1-33.7 28.1-15.1-41.2-9.2-25.1-26.3 4.6-43.3 7.5 7.5-43.3 4.6-26.3-25.1-9.2L53.7 310.2l28.1-33.7L98.9 256 81.8 235.5 53.7 201.8l41.2-15.1 25.1-9.2-4.6-26.3-7.5-43.3 43.3 7.5 26.3 4.6 9.2-25.1 15.1-41.2 33.7 28.1L256 98.9l20.5-17.1 33.7-28.1z" />
-    </Icon>
-);
+const Certificate = createIcon("certificate", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABogAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDSAsGAAE2AiQDCAQgBYMtBzIbygVRlA5Kiuxngbu34WSECDiBjkRCGBVa4hq373a7KJiTl4fS8vD8/b5fe98zGdY+j6ZoGjALsEXHisaj9H/7mMCFSZ/f8fureR9pWdezMA5KQjPaNTOv6rlvO6YAVw/ZbVnPKD9RJprcTjBIwgReA/L+/ub5P28DPpcAx8LO8w0+53kCYWDd9w8e0AcKI4sTsNxSt7F8ftaOGATPEUMbhmYdOgRKvI8alrzNz8BlUBW/iMyBVCoA0Q0ALG7U10HpG/kW8bl+CeKzGiAglgBGEVTADCJgBi1MgDEKFEXwLer//g1EEEA04v8+QUHBR+ArAAWkLOXoiNPQUdbbGlp3tmXMAi5eKpT0YUSjQWB9CUTt7QrKZqMIu3sqMcqfl0xmmfOjcYWHGyQYjrIuXo0ArNJBEB0VDIiqOADRSYIGgxgFDnMqZ1lyUvMQpmRhXCvK+nnhv8r7nnv/Czs7OwU4ptaPkXDA5UsbI5NWX1wOJDD6qR0r2JG135XfysSozduXXTbiAU90ZE/RgCrLNpxgFK82LKsyoGjPkQccCxwkHizJg6u8CUuqubyl0yQcEjhAILgrP58PBDP/mzkJfrz795mvkXqJkvdAswRBVavXdCRIAgCQcUGVEEgfUEhruysEhFYESI1aBagMECKgaDWGgAbDvAho1GoFLUqL0K9zQmp3DJVps1D0O4cGM66CRv1RiVmTovaVzC4flW2h0+bAEG4TQ9enYsswth3DjIYRWOgxasSUbl36TSVNqIunDSuvmDI3Qk42DigEj/PX4ybdJkzqN2rE14Thfddgpu434kIKMI67KYlse10=");
 
 export default Certificate;

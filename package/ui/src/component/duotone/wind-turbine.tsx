@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wind-turbine` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wind-turbine?s=duotone wind-turbine}
  * @preview ![wind-turbine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/wind-turbine.svg)
  */
-const WindTurbine: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M128 488c0 13.3 10.7 24 24 24l208 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-72 0 0-94.3c-21.3-34.7-42.7-69.3-64-104L224 464l-72 0c-13.3 0-24 10.7-24 24z" />
-        <path d="M345.2 404.1c2.5 17.2-20.3 25.5-29.5 10.7L214 249.4c-1.8-2.9-4.5-5.2-7.7-6.5L25.7 171.4C9.5 165 13.7 141 31.1 140.6l194.1-5.4c3.5-.1 6.8-1.3 9.5-3.5L387 11c13.6-10.8 32.3 4.8 24 20.1L318.6 202c-1.6 3-2.3 6.5-1.8 9.9l28.4 192.1zM256 216a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const WindTurbine = createIcon("wind-turbine", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdAAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBUAsIAAE2AiQDCgQgBYMtB1Qb9gTIhuB5u6h6v3tmAfVC8MmRkMKIF+nB8UxcUz/Onx4wASzaqr1Bnr4XeT6Bna9tvvNZ+YRmOgPb4LwRBxgKQ/sN8vgxu6BEejR9jbvd/wDGr5q5QFItAxB1ATB28fyZ3r8ZN1N8XXmZ+NoMBMQ4UAhkyNBSgBEygZZyBXK54GaqVLgZlUpBAFHm7p2BMkqYgoWAHCRJ5HlRrUmNUq18kbtUff2DDSMeaLwoHsKUJg83WRzX1YcbjQELTjZauOi5Fo91errpox0XKr1GNE5Uj4jHmr/YTQh68F3tXqz74u9tv970tSXdaz7FU0c3PqP92Jcme6V5i/c/KCn3e/iIZy9dnr78RR3yFu8teWtuo0ZzY9fpzlT/XvXoKVb55JdWPT81xdxGQCC48UqVj1fXGfF/1RoJ3H7zz3/FD6l25f14PL2IqhIIsh6VHlYkapsQjwsAQIpD2iVqOyOQ6SoJPrWmhwQI1REgKasuQKaFugLkqusuQElrAwUoq26+TOTVhIZW1lhS014sM8hJLNfQS1jJCJ+lZQ0je6L454H/n0uZ1IYnbiv69upTDCsmK6XwkLB6fXixWutyiI91hVdtstsuB2y0wVYHWug+M4uDdpo0h0z0RYW+eumjMEyxu71fXmSjffbbOi7t32S44vyoi0Pzs7vC3SRAv2tRyogUWcNvK+554OC+dbm1sefDOdl4QHoPAQA=");
 
 export default WindTurbine;

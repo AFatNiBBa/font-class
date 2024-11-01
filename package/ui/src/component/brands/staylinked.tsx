@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `staylinked` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staylinked?s=brands staylinked}
  * @preview ![staylinked](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/staylinked.svg)
  */
-const Staylinked: typeof Icon = x => (
-    <Icon viewBox="0 0 440 512" {...x}>
-        <path d="M382.7 292.5l2.7 2.7-170-167.3c-3.5-3.5-9.7-3.7-13.8-.5L144.3 171c-4.2 3.2-4.6 8.7-1.1 12.2l68.1 64.3c3.6 3.5 9.9 3.7 14 .5l.1-.1c4.1-3.2 10.4-3 14 .5l84 81.3c3.6 3.5 3.2 9-.9 12.2l-93.2 74c-4.2 3.3-10.5 3.1-14.2-.4L63.2 268c-3.5-3.5-9.7-3.7-13.9-.5L3.5 302.4c-4.2 3.2-4.7 8.7-1.2 12.2L211 510.7s7.4 6.8 17.3-.8l198-163.9c4-3.2 4.4-8.7.7-12.2zm54.5-83.4L226.7 2.5c-1.5-1.2-8-5.5-16.3 1.1L3.6 165.7c-4.2 3.2-4.8 8.7-1.2 12.2l42.3 41.7 171.7 165.1c3.7 3.5 10.1 3.7 14.3.4l50.2-38.8-.3-.3 7.7-6c4.2-3.2 4.6-8.7.9-12.2l-57.1-54.4c-3.6-3.5-10-3.7-14.2-.5l-.1.1c-4.2 3.2-10.5 3.1-14.2-.4L109 180.8c-3.6-3.5-3.1-8.9 1.1-12.2l92.2-71.5c4.1-3.2 10.3-3 13.9.5l160.4 159c3.7 3.5 10 3.7 14.1.5l45.8-35.8c4.1-3.2 4.4-8.7.7-12.2z" />
-    </Icon>
-);
+const Staylinked = createIcon("staylinked", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABeQAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCFAsGAAE2AiQDCAQgBYMtBzEbFQXIHqnN/hjBxcOHzux9SQFgTSoilDcEdgidrQLcAsG1gFB0e9didbUz5GS/evvn/5p6YU0H+JHOLNPveaxtlvm8wfa8KTQKJH02sIniBueNarocikP6EbK4GZc0Irmd/ISL7kvjL92cI9EoBRBtATC9buVinzVEQ8RPtbeJnyxEQMwAuUCKFD0FmCQV6CmTI5MJGqJWY/+BOQFEYwFLmBm+cieOATKQSLJsyIgWjVplJbpX822dOncqxY2Oi+JapyKud4m4KcOOq+Ja5yF0knO6E4fqUjvXlYrSjc4GXuVNjqXB0ojogtQVy4xYzhn+GGjqls5932j7xj9+2v6TE3fahfe8fmHVtruK2TOnKZeprlq5XFFsmK9cvnnVqurnKnN++5Lp08tfP1XMbnbs95/p6e2GDSv//Fhl9mtvPFOudkZFpbiwx9qN68wu1s1VLR49ANCXdyiAQPDHO7+0qc2k/5u2SMCfH/x3vLG2Jj5M3kBTCQjSQbVB1sd7E9BJAQ6TqNcXZgkkNlt2fGpLNwQIzREg0VhzAVI9tBUg09xAARrpbbQAjTW3UiqyZkJHGyqQaOkQSI1xHGQ6ehM0Msm3YWMdI73lhBtG+OFLndNEZ0/Lhw8Zlk/IR3OyeBdxundivtjtV89r+sOdtjtgv6qKsl2qDeawxfGj9pkzRc/2Q7nhhhgmN0G+uXh3c0nFYUfscsB+289E+fF+P/XTzfvD2SSAEScrIyGS5o+38DUB");
 
 export default Staylinked;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `baseball-bat-ball` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baseball-bat-ball?s=sharp-light baseball-bat-ball}
  * @preview ![baseball-bat-ball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/baseball-bat-ball.svg)
  */
-const BaseballBatBall: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M403.3 12.7L392 1.4 380.7 12.7 226.1 167.2c-9.7 9.7-18.4 20.3-26 31.7L125.2 311.3c-6.4 9.6-13.8 18.6-22 26.8L32 409.4l-7.9-7.9L1.5 424.1 9.4 432l11.3 11.3 48 48L80 502.6s0 0 0 0l7.9 7.9 22.6-22.6-7.9-7.9 71.2-71.2c8.2-8.2 17.2-15.6 26.8-22l112.4-74.9c11.4-7.6 22-16.3 31.7-26L499.3 131.3 510.6 120l-11.3-11.3-96-96zM54.6 432l71.2-71.2c.7-.7 1.4-1.4 2.1-2.1L153.4 384c-.7 .7-1.4 1.4-2.1 2.1L80 457.4 54.6 432zm93.9-98.1c1.1-1.6 2.2-3.2 3.3-4.8l74.9-112.4c6.4-9.6 13.8-18.6 22-26.8L392 46.6 465.4 120 322.1 263.2c-8.2 8.2-17.2 15.6-26.8 22L182.9 360.1c-1.6 1.1-3.2 2.2-4.8 3.3l-29.6-29.6zM384 432a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm128 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0z" />
-    </Icon>
-);
+const BaseballBatBall = createIcon("baseball-bat-ball", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiwAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCTgsGAAE2AiQDCAQgBYMtBzgbVgXIjsK2bRMVk+UMEQ74MSPIhm12757WXfegqmrVV0UQGtUkCodrwvIOY0H4prrQb8+Pq3kLnvEPUgST7AQxkc0hMhQw78Tl9Mf50/vvxhQPKLJfg5pDx/Q9zxMIcFEebo6zMEsUG5w36oBCU0g/Q40zsgWffOQ8glv3ofFLWyekWgAQAwCA9eOIcFy/0VvQY+sA4lUoCIgNAFMIBQVjCCzhCozhmQJVFbyTTMb+AxkEEG0Ij05Q0Y5r8AiggtSoPDdlHXl5KV+eF632SXI01DXUKJJGtAigltMgS1Jnmh/U2iBrNZthNobGNTG4rml2dkdnxkTGtNG41IpaJSYWSdbQoHk+8UfROTx84ojEOmraYt1sVXvCdMV8TUc6533qeaw363Xic2ZovKW09W70mP1o6LkZXmjq0ct2SAn6XgICUC1KjlMyTcC5bDUCdnD+VRIC6f/jlFOnUk4TlgKCJUHcgNjmCHpP0ohgIM6q6esTtIdMOMaP1T/9pkmKGxqKJci+VS6nqipH7n6AQPD2XduVouj7L5JyAJ+nn9/8wmwdJPIJ0CFBUGZkthITnFfALaMaxglfFEhX+Ni79rhDIHQhQGrTJUAxSgmBqss0Ag0T3BBo02UfV1Qxwoikhk49zuhiURNdjdijG5bc5NuMBPd+FO8m8W8wLaAL+29jTvaOzJvNtlXSLcbrdR+22WdZzces4ElkK1GsUpZMeSo7aLnwUpUiAUuIvx9inNhzxHhjh3sPtegOVq5CXkTx8U18sOtTlqqXZ1vBIEfwOKspJZHK349ql/or7UoAAAA=");
 
 export default BaseballBatBall;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `draw-polygon` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-polygon?s=sharp-duotone-solid draw-polygon}
  * @preview ![draw-polygon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/draw-polygon.svg)
  */
-const DrawPolygon: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 151.4l0 209.1c9.4-5.4 20.3-8.6 32-8.6c.7 0 1.5 0 2.2 0s1.4 .1 2.2 .1c1.4 .1 2.9 .2 4.3 .4c2.8 .4 5.6 .9 8.2 1.7c5.4 1.5 10.5 3.6 15.2 6.3l0-209.1c-9.4 5.4-20.3 8.6-32 8.6c-.7 0-1.5 0-2.2 0s-1.4-.1-2.2-.1c-1.4-.1-2.9-.2-4.3-.4c-2.8-.4-5.6-.9-8.2-1.7c-5.4-1.5-10.5-3.6-15.2-6.3zM119.4 64c5.4 9.4 8.6 20.3 8.6 32c0 .7 0 1.5 0 2.2s-.1 1.4-.1 2.2c-.1 1.4-.2 2.9-.4 4.3c-.4 2.8-.9 5.6-1.7 8.2c-1.5 5.4-3.6 10.5-6.3 15.2l209.1 0c-5.4-9.4-8.6-20.3-8.6-32c0-.7 0-1.5 0-2.2s.1-1.4 .1-2.2c.1-1.4 .2-2.9 .4-4.3c.4-2.8 .9-5.6 1.7-8.2c1.5-5.4 3.6-10.5 6.3-15.2L119.4 64zm0 320c5.4 9.4 8.6 20.3 8.6 32c0 .7 0 1.5 0 2.2s-.1 1.4-.1 2.2c-.1 1.4-.2 2.9-.4 4.3c-.4 2.8-.9 5.6-1.7 8.2c-1.5 5.4-3.6 10.5-6.3 15.2l209.1 0c-5.4-9.4-8.6-20.3-8.6-32c0-.7 0-1.5 0-2.2s.1-1.4 .1-2.2c.1-1.4 .2-2.9 .4-4.3c.4-2.8 .9-5.6 1.7-8.2c1.5-5.4 3.6-10.5 6.4-15.4c-69.8 .2-139.5 .2-209.2 .2zM292.2 192.1c23.5 1.5 43.5 15.7 53.3 35.7l2.3-4 32-56 4.5-7.9c-3.2 0-6.1-.2-9-.6c-5.7-.7-11.2-2.3-16.3-4.5c-2.5-1.1-4.9-2.3-7.2-3.6c-9.6-5.5-17.5-13.5-23.3-23.3c-1.4 2.9-2.8 5.5-4.3 8.1c-10.7 18.7-21.3 37.3-32 56zm0 127.7c10.7 18.7 21.3 37.3 32 56c1.5 2.6 3 5.2 4.5 7.9C339.8 364.8 360.4 352 384 352c-1.2-2.6-2.7-5.3-4.2-7.9l-32-56-2.3-4c-9.8 20.1-29.8 34.2-53.3 35.7z" />
-        <path d="M0 96a64 64 0 1 1 128 0A64 64 0 1 1 0 96zm320 0a64 64 0 1 1 128 0A64 64 0 1 1 320 96zM64 352a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm256 64a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM288 192a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
-    </Icon>
-);
+const DrawPolygon = createIcon("draw-polygon", true, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAAB2QAAAKoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQCEIAsIAAE2AiQDCgQgBYMtB1QbRgbIHoPjbhliihJsQbgH65QVz1NjtPd398SsaXIN5ZCSoUOoNJtOI8ULHYnaLIE97K/mfezuUUx3SXRSkyKj3OgIxbsGNsB/vMD5v5zeWDiaIJ8bQB32EgkovjGtpYvbz/f2sBcfYO+sSZMDL5AoU25w3uRDCIUh/QotE7UdT3lXDsAr9z+A+UZNO1D0VABkGABcPg0LxdYt3Y4OmoM8CAGBXAFYRqiomEfgBCuYx1kGTRM+Mf/BJ/pPFwiQTriXVdCJfvwE/AVAA0WHjsZJ+TtMVy2UlCR4KS4y/kWcHd+YWZtaGFmdXJ9elKpFw+eZe3VyZ4HvWdmPGOREVsaBvJHoDNDQfb0TfkQ9vS29HREyfRJ69k1G9aKZaD2KYRLUlxZoagv9U+LMEuuO3pZEzZupkENUcrSIcj3jA9M4m7ciis7st6+1J+VM7uhPD0//WHnIPJBc7//7moz41qr+s7XW0bG2hSv/PsNBOh+z0Fk98+kb+VQiohSXLUk71cFdlCLbbJ+nRUZ2yxNiiZtlVfY43ZFAHKtyd3bxcTk5wIfNaxkF73DBXRSX2um9NBoofH83N9QDL18QyUXrUkHhHQpkrgEIwr+i8LckGc9fIgkG8GXl9Wv25P9717S1adCtgFA3/1siPlsTFJgi8HMlldCH2hXe6D14/rv2ew0C0YuAolOvgGqOLAJNrw0EOixyQqBTr3usNDHEuIQKFP2egWpPA2jGzYIOJ7ZzncbD3vnyfSv/d2YEN9EgM107a1tdd93RpkK5mUW97KG7OGZayYfM4F5kKlKoXIZ0OcobjlKhxQoFgqcCg76ry441W7rc6W7u3DUiG7lSZXKGte3reNA9PmWqcnqyGUwy/JBbLKpKCrGKL3WtVXFRfk1WUaHVSzSq3KN9LwAA");
 
 export default DrawPolygon;

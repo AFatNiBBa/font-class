@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coffee-beans` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffee-beans?s=thin coffee-beans}
  * @preview ![coffee-beans](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/coffee-beans.svg)
  */
-const CoffeeBeans: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M442.4 203.7c9.3 11 18.1 27 25.5 42.6c-41.6 39.9-120.8 34-178.5-23.7C240.7 174 228.9 110.2 250.2 66.4c6.6 12.9 14.2 25.7 22.5 35.5c26.4 31.1 58 42.5 87.7 53.1l.5 .2c30 10.7 58 20.9 81.4 48.5zm4.2-138.4c53 53 62.3 124.2 32.6 167.6c-7-14.2-15.4-28.8-24.6-39.6c-26.4-31.1-58-42.5-87.7-53.1l-.5-.2c-30-10.7-58-20.9-81.4-48.5c-9-10.6-17.6-26-24.8-41.1c2.1-2.7 4.3-5.2 6.7-7.6C308.1 1.7 388.3 7 446.6 65.4zm33.8 191.1C530.1 206.8 520.1 116.1 458 54S305.2-18.1 255.6 31.6S215.9 171.9 278 234s152.7 72.2 202.4 22.5zM128 496C69.3 496 16 435 16 352c0-72.7 40.8-128.4 90.4-141.2c-5 14.8-9.2 30.7-10.3 44.6c-3.4 40.7 11 71.1 24.5 99.6l.2 .5c13.6 28.8 26.3 55.8 23.3 91.9c-1.2 14.5-6.4 32.2-12.3 48.6c-1.2 .1-2.5 .1-3.8 .1zm32-47.3c3.4-40.7-11-71.1-24.5-99.6l-.2-.5c-13.6-28.8-26.3-55.8-23.3-91.9c1.2-14.5 6.4-32.2 12.3-48.6c1.2-.1 2.5-.1 3.8-.1c58.7 0 112 61 112 144c0 72.7-40.8 128.4-90.4 141.2c5-14.8 9.2-30.7 10.3-44.6zM128 512c70.7 0 128-71.6 128-160s-57.3-160-128-160S0 263.6 0 352s57.3 160 128 160z" />
-    </Icon>
-);
+const CoffeeBeans = createIcon("coffee-beans", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABowAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yCcwsGAAE2AiQDCAQgBYMtBzMbdgXIBp7n897OfUkBp6IG5gqQV53ZWt/nuebzazoqv/eNDuVuaywtjqSIfD6BAUZipPXzic90AjYIt8Y4mGASfkVmlMno32c9Xh2BLqfogRmoFeo2MG9fLm/wYjIoNI0KxBG2gMLWzWs53yRNIrdNR6AcTzUgAFIEgIEAGrzDFwEgBw0BfNExAB0dgSYxmeQ/0AABADGHuysAdMASWAlsAQB0ABTmuu7h4+Ln52JjZqe3yltZd1/hdbzsat5Z/7UBK9x2hG4JtRG22BLZ+oyfyJqYld47w7aGWctWbFF9wzKPU6VXclueCxLZWHTXEZNzOnBD4Z1Rzu9yNG7T2aBN8fvSl3su91rhhazA5snUmdYTJH6Vt8hKb+sSs9Jnlc8sG5KOxJ4JXB+zO8V8dsK1fJFzrZ/mnS27nHO6xZPcM6VBOx13vgu83es2J7682mbn6voydcbKT4vupbXr30poXVml6TP7jIUxXZc8SO3fr7XQqirT5cG24CR715CXxtmyNtCmyX7KlB7NoNdP7dH5/f0fYGFvvmRK21Gu/qNHbxYWj+zpFTZDKfg/+GH04sQs0e7qyk1ZMvl/Yw3kUExxTk1jt+jtACCAgE+bp886O+R8s7RRALw++eG3/ggxnVdmaidgiQJAQIsxxdBBAaY/ygwBAAAAlIwiSAEIoFjI61ZsWYqEBWsACnOsoeGDI3SsiYYZ/qQaFpc3R0N0KwRXOgoUtgyFRhpjoOPKIZiRw7WAOa6iRagpvkw/iNnLLFE6zkiMSzCyjMuiZg46wzacbSw7IkalpkjZTC8GM4gR9KQHfRmBEYZRGx7JQMpmfClfxCCROBIwyMJwVz7aWxEYxnD6nlv9o2RjPO+JYNS8c6S4FVU1iSyFAlG2n3RCbLeeXQcNBwA=");
 
 export default CoffeeBeans;

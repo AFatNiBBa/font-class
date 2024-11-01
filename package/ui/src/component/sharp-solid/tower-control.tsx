@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tower-control` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tower-control?s=sharp-solid tower-control}
  * @preview ![tower-control](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/tower-control.svg)
  */
-const TowerControl: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M184 0L160 0l0 48 24 0 16 0 0 48-56 0-16 0 0 16 0 16-88 0-41 0L9 167.8 47 320l-31 0 0 64 32 0 32 0 0 128 288 0 0-128 32 0 32 0 0-64-31 0L439 167.8 449 128l-41 0-88 0 0-16 0-16-16 0-56 0 0-48 16 0 24 0 0-48L264 0 224 0 184 0zM128 320l-15 0-1.9-7.8L81 192l47 0 0 128zm48 0l0-128 96 0 0 128-96 0zm159 0l-15 0 0-128 47 0L337 312.2 335 320z" />
-    </Icon>
-);
+const TowerControl = createIcon("tower-control", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABaQAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBfwsGAAE2AiQDCAQgBYMtBzQbAwXIHoex22RJF81QPsY7ioePufL9JLtzl9xxCVIiUsCoCGQdsD9bYoXG3NR2Kqu3mQkfzBb6+/T3U3+cR4M8o4+0yMQo7j5vsAEON2+N9NlwNlHc4LxRBxSaQvkGsnicpkLyMIG77kPjr55ukqhPAUQLABZsXLvG187ojPhde0X8tgoBsQCUAilS9BFgtlSgj0yJTCbojFqN/QeWBBBV4dUJyFDFHhwFZCCRZdmsor4oKo3ZhqKSb82LXBSFyHMB8b6xXhtDV2OEVYblY2P0D+cRgaVYtWlferfYEEWI1UFFA6LIY+W66DKwo6Xj3wDnzZce7iTj9WgZb3pLixabRtw35L7+5ivLq0pXleV8/X34vhGbliMt08drOeC8M68ZL+mu70XjXB1/NaTtctWu5yPuq8bxG3QHAkGvn9m52f/rigT8ef9foazhY77Gt6QDdRIQpKNro22LrwtQbV4AI0lcMBB+k0Biiwx81wb3BAg5AiSqcgFSvbUIkMmNEqCinykCVOXWSkVWL3SxvQGJBqdBaqpLINPFC1Ax2/dIVZdInzPpUyL9zUu1tIsuWVROGDu+nFnOFlWyR0esh2eVm03DL/CmEXCtA0464Zz99jnsXIc5Y038vOOWLmFL/FBpgrHGK81UHq48VG3AkTPOOjytOD7KLOX1vuEuLHceAa2JIDhRRiIhksaPUDfmxgQAAA==");
 
 export default TowerControl;

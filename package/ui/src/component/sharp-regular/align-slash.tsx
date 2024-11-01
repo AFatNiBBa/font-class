@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `align-slash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/align-slash?s=sharp-regular align-slash}
  * @preview ![align-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/align-slash.svg)
  */
-const AlignSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48.4 14.8L29.4 .1 0 38l19 14.7L591.5 497.2l19 14.7L639.9 474l-19-14.7L472.4 344l47.6 0 24 0 0-48-24 0-109.4 0-103-80L520 216l24 0 0-48-24 0-274.3 0-103-80L520 88l24 0 0-48-24 0L120 40 96 40l0 11.8-47.6-37zM314.8 344l-60.9-48L120 296l-24 0 0 48 24 0 194.8 0zM152.3 216L96 171.6 96 216l24 0 32.3 0zM477.2 472l-60.9-48L120 424l-24 0 0 48 24 0 357.2 0z" />
-    </Icon>
-);
+const AlignSlash = createIcon("align-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABZwAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBVQsGAAE2AiQDCAQgBYMtBzIb1wTIngNuY6folddrNKVn056IIorUmaN4+P+19L4/fwKzm7ADIgUo4wBVhCzqFap1pGyFbIzZUwvscOGY26vxGJX6WzRVJOCFrgeJAjnp+QTUpXtPzZ4+FGrUxNp4sDRLBw9HMNipgyWZVQHm/5p68fzoAD8fwSFFW+XzWmJEPJ/AAKO9abzns+Fsori3LRFsSOGLCDGSiMaUxukMOX7HUUl6m+Bl/dD4qORIUhYAohsAwOEg6odrMzQjHv4/iAd9ICAOAUYhChQYhGAHUWAQySiQZUEz/v+n/8BREEC0kBcmkNGCU+AKgAySnPMCvbW9Vnbky6ys7qoVmQan8BHuXMFpvAy1WkRVIVRHO7LFXingD0wh0hVTBN/LLL18/Nz95zELmudlKXxp8Dwtw/WnHUNhAP6yHIRvgnNkln2q96vq/EE+KLu8WUCowZ/9DVJ/HkAgeP/ipDHs2vnFWQIf3n392h73/5caabRJICgW/4uSUQOIGECc4jmR80WB5ASJvGvdKwFChQBJi0qAwgAeBFllAYLSMCsELSpniCK3C/1SAyR1j0Bh2wpk/S6gtOMTtegPRUixAcH+6JJ8GvUuErR1BoFLsKzpXJTQPOsWbCv1ce5Rwkko62gbKimqGSq8z58aafF5mNcPCRjpGAi4CI6b28MJJX0DNR3tMo+b4H6gMPaHK0EnENJ1RUkiUu015Wn3zdygCgAA");
 
 export default AlignSlash;

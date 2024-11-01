@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cassette-betamax` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cassette-betamax?s=regular cassette-betamax}
  * @preview ![cassette-betamax](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cassette-betamax.svg)
  */
-const CassetteBetamax: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 416l0-256 480 0 0 256c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM368 256l80 0 0 80-80 0 0-80zm-48-16l0 112c0 17.7 14.3 32 32 32l112 0c17.7 0 32-14.3 32-32l0-112c0-17.7-14.3-32-32-32l-112 0c-17.7 0-32 14.3-32 32zm-136 0a56 56 0 1 1 0 112 56 56 0 1 1 0-112zm0 160a104 104 0 1 0 0-208 104 104 0 1 0 0 208zm0-80a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const CassetteBetamax = createIcon("cassette-betamax", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABkAAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCQgsGAAE2AiQDCAQgBYMtBzcbSQXIngU5GdmbRZ/pGsOVfOIdD9+v9Xnu6/7Uswy9q4AIg4rAAql1QQ84FRud2DHw2m1Y9albA8krPko9NwSsWIq1mrKlPU5Ft9Og8Pr7Jq55/udPD1hB8GhRWAlSYJGrOJ/AbiLhTTAbzgYOU9jeNGM7UkZHMhNN0vFNx5cukMfv8QR1pDfoT3hc3jT+1dkNSOoyANEKAFNXL1/oZTWqET/WPid+NB8BMRWUAhkydBNggkygm1yJXC6oRq1G/4ElAUQ9+WESyNGEG+AugBwkDXneoktTl+Zdmyp1zfNVlbpifJay5pHiReB4danvNYyPNoo3+s05Ppz/TPHmeIW3VoqKKCJGCVfi4JW4vy4ScXWZrIh7oaN4f9dN0jns9Ar3K8aHp5Orh5XD7qXYBFd2zZvHh6eV2DSXT8x7ev206yc1VNGi+lK1RcvLb1nQupiiaN36rdtbVv3Bfy8BjCWW1I4c2OLO1eIIpN75+zxFt8bFn3/p2vWXny9e7GYamCxZ2r790koF4r49XVv+vLnlhP8aeQL/fPP9rz1dq9KU9AlolECQDagNsCFNAWIHkKY4pbfzQYHkggbyqs28igChQICkXiFApqtWAuQK/QWo08NIAeoVlstE3iS0s1HhpJmjcGaUi3CunU/hOhN8m9RrF1kkinEkvgPTZllg5r5y6KAh5bhy2uhScPFpe3y5rPc5xVN94axdDjvkhJ122OuEgY5ZmJ900CwPnOmLSkMNMkRpnHK7fzy+yk7HHLfXYYfyLuOV5+M+TvmL+4KVCOcwxSQRqdX2TzPBiZ0D72hwcOsZ");
 
 export default CassetteBetamax;

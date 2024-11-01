@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `golf-ball-tee` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/golf-ball-tee?s=sharp-duotone-solid golf-ball-tee}
  * @preview ![golf-ball-tee](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/golf-ball-tee.svg)
  */
-const GolfBallTee: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 192c0 66.8 34.1 125.6 85.8 160l212.3 0c51.7-34.4 85.8-93.2 85.8-160C384 86 298 0 192 0S0 86 0 192zm176 12.3c4.2 1.9 8.9 3 13.8 3c18.5 0 33.5-15 33.5-33.5c0-4.9-1.1-9.6-3-13.8c11.6 5.3 19.7 16.9 19.7 30.5c0 18.5-15 33.5-33.5 33.5c-13.6 0-25.3-8.1-30.5-19.7zm18.8 82.8c4.2 1.9 8.9 3 13.8 3c18.5 0 33.5-15 33.5-33.5c0-4.9-1.1-9.6-3-13.8c11.6 5.3 19.7 16.9 19.7 30.5c0 18.5-15 33.5-33.5 33.5c-13.6 0-25.3-8.1-30.5-19.7zM256 220.3c4.2 1.9 8.9 3 13.8 3c18.5 0 33.5-15 33.5-33.5c0-4.9-1.1-9.6-3-13.8c11.6 5.3 19.7 16.9 19.7 30.5c0 18.5-15 33.5-33.5 33.5c-13.6 0-25.3-8.1-30.5-19.7z" />
-        <path d="M288 384H96v64h64v64h64V448h64V384z" />
-    </Icon>
-);
+const GolfBallTee = createIcon("golf-ball-tee", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABhQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCAwsIAAE2AiQDCgQgBYMtB1YbKwXIhod/9J66L8kAztisIJdWNe6wUv3PlMtq6z//l9Mbz28DfqNDG9OWHshtvaO5PYE46mXnDSyRhBJJIAPrbUNCHIH4IsKkJKLxksbpClnsTA8qQXIt+Q5n+H8A4y91HCRRJgUQlQEweObU8T4WopDEd8VXxHfGISCGgFwgRYr6AvSTCtSXyZHJBIWkWKQQxWJOAFESvyYFJVEKi7EekIFEyASvUqPKfrkSFbIZ5UqUXVq2XFlRLiQkvjS93j7ice9y8abj06Z/TPllxm+Tfpo2/VK5E7WuxL6at+vsrX6x7J26HXQRqt470z3f5EHlB/80/m7FdxoN/CibQTAmWcXq1b9RdFUSk6dPn4x4TJ/+0NNyU0pXPHa1YunmrUpUvHqs4qT9VaeYU7OKR48WBu3vN8R/HggELZd2+LqwUr//S5dLwNfX//1ZfkiKH2Nv8gClJSBI2xXbmRd7IfYKAEASOzSJvRYhkBolI+9a3mUBQlkESJRUVoBUPZUFyJTVVoASGuouQEllTZWKrIxQ3fwGEuVtBqkedoFMdS9BCf18ckqqHmmoCYEi/PRSR2h0+LG8c4dOeZ98mqpi9HB53Tdf1lvtoFZr2LXCRhtss9wyq21TzBbj/e3WG+Fhw31QrrMOOsn1kW8X2+QMy22x1eqxvH9IX/l5u5Ud/nBrsBLC2sWFVEokkdZ4wVr71+O337Z8eftr21NrIF9RAA==");
 
 export default GolfBallTee;

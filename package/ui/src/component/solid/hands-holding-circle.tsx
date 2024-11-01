@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-holding-circle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding-circle?s=solid hands-holding-circle}
  * @preview ![hands-holding-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hands-holding-circle.svg)
  */
-const HandsHoldingCircle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 0a128 128 0 1 1 0 256A128 128 0 1 1 320 0zM40 64c22.1 0 40 17.9 40 40l0 40 0 80 0 40.2c0 17 6.7 33.3 18.7 45.3l51.1 51.1c8.3 8.3 21.3 9.6 31 3.1c12.9-8.6 14.7-26.9 3.7-37.8l-15.2-15.2-32-32c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l32 32 15.2 15.2c0 0 0 0 0 0l25.3 25.3c21 21 32.8 49.5 32.8 79.2l0 78.9c0 26.5-21.5 48-48 48l-66.7 0c-17 0-33.3-6.7-45.3-18.7L28.1 393.4C10.1 375.4 0 351 0 325.5L0 224l0-64 0-56C0 81.9 17.9 64 40 64zm560 0c22.1 0 40 17.9 40 40l0 56 0 64 0 101.5c0 25.5-10.1 49.9-28.1 67.9L512 493.3c-12 12-28.3 18.7-45.3 18.7L400 512c-26.5 0-48-21.5-48-48l0-78.9c0-29.7 11.8-58.2 32.8-79.2l25.3-25.3c0 0 0 0 0 0l15.2-15.2 32-32c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-32 32-15.2 15.2c-11 11-9.2 29.2 3.7 37.8c9.7 6.5 22.7 5.2 31-3.1l51.1-51.1c12-12 18.7-28.3 18.7-45.3l0-40.2 0-80 0-40c0-22.1 17.9-40 40-40z" />
-    </Icon>
-);
+const HandsHoldingCircle = createIcon("hands-holding-circle", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABnwAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDGgsGAAE2AiQDCAQgBYMtBzsbpQXIjsK22TMClrjkaUncDBPB9/v99tx3UUmiFZImD0m0ZBrxRRoND4Uh0UQ7Q2h49Uj7/v/P6X1NRynT74hJAYFDsOimANXOfN1YqAkNqCgT1zz/86cCKXuCR+nUX2F5RJ5P4AFnTVG0CWw2nE0UNzhvVNOJkBTSf4IcP9wSqkgHogew4z40PpksQVJXACBaAQDzGzVlcL3RW8R95Yp4UAICYh7AAEKBAj0ITOEEeogNgCwL3qIisP9ABgFENcJzE8iowhk4B5BBUmSxpaBA4iYT16vlfPdmENFJ0AnKwGOB8hvBpyjNh5zdKmnZ1BFtQwhRBlXRdsCuYVevp2DaoflMkmzqgkjHQsbsvrCB9rVbvjxtBNfTqZ0Ct2BAscfu48BaOuZ5OtTvmIn2I0LWpgwUQnvlb6PUBpKWtnKU7sBQQ2eEb/A+VZ4+Dz50Pci483EB970yb2+ZzeXyadSxFzJkqM7gUhWISoEsQ954qt3l+bUXgnWZbH1PJtsTvAK28SerAPf4FJkD81B7O87cu5ApkeryTBV5REEiMnVxP5040LsrB5FPj9wCZH9r4JdgN27XPYJ/bNXzO55PQ/DuPps74nEAAkEZMfTZrEj99pSIAB+Xr//xfpX7VIpOQa0EgmJECNWQ5gBGDSCTYgreE18USE5QCO/aaBcBQj0CJNXqBSh0UyKQ1RtGoEqfOASq1VvBieyF0KmxwpJGm1hh0jSWdbrEqky5TlfrDO6qFa454ZsxNb8J5EWxqPBIlsxG67J4IXJ6PoUtdgOneF8Q3Iguw4ZM6NSh10QDGlOWmzQofwrM80NMlHCRmGRsc+vu6nqdxozrNWzILpKCHR8GmpoeHQQDkUA7qiRJRNI+VmbYW2CG/eMDAAA=");
 
 export default HandsHoldingCircle;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-circle-check` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-circle-check?s=thin plane-circle-check}
  * @preview ![plane-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/plane-circle-check.svg)
  */
-const PlaneCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 0c-19.8 0-35.8 16.2-46.3 33.3C199 50.8 192 72.6 192 89.2l0 86.8 0 1.3L20.7 271.9C7.9 278.9 0 292.3 0 306.9L0 355c0 15.9 15.1 27.4 30.4 23.1L192 333.5l0 18.5 0 44-54.4 40.8c-6 4.5-9.6 11.6-9.6 19.2l0 34.1c0 12.1 9.8 21.9 21.9 21.9c2.2 0 4.4-.3 6.4-1L256 480.4 355.6 511c2.1 .6 4.3 1 6.4 1c2 0 4-.3 5.9-.8l0-21.1c0 3.3-2.6 5.9-5.9 5.9c-.6 0-1.2-.1-1.7-.3l-2.4 7.6 2.4-7.6-102-31.4c-1.5-.5-3.2-.5-4.7 0l-102 31.4c-.6 .2-1.1 .3-1.7 .3c-3.3 0-5.9-2.6-5.9-5.9l0-34.1c0-2.5 1.2-4.9 3.2-6.4l57.6-43.2c2-1.5 3.2-3.9 3.2-6.4l0-48 0-29 0-141 0-6.1 0-86.8c0-13 5.7-31.9 15.3-47.5C233.2 25.6 245.1 16 256 16c11.3 0 23.2 9.6 33 25.6c9.5 15.6 15 34.5 15 47.5l0 86.8 0 6.1s0 0 0 0L304 323l0 29 0 48c0 2.5 1.2 4.9 3.2 6.4l32.3 24.2c-3.2-8.3-5.7-16.9-7.6-25.7L320 396l0-44 0-18.5 10.8 3c1-5.3 2.1-10.5 3.6-15.6l-14.4-4 0-121.3 69.8 38.5c4.4-3.8 9-7.3 13.8-10.7L320 177.3l0-1.3 0-86.8c0-16.6-6.7-38.3-17.3-55.8C292.3 16.2 276.2 0 256 0zM28.4 285.9L192 195.6l0 121.3L26.1 362.7C21 364.1 16 360.3 16 355l0-48.1c0-8.7 4.8-16.8 12.4-21zM496 240a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 272a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm69.7-189.7c-3.1-3.1-8.2-3.1-11.3 0L480 396.7l-42.3-42.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l48 48c3.1 3.1 8.2 3.1 11.3 0l80-80c3.1-3.1 3.1-8.2 0-11.3z" />
-    </Icon>
-);
+const PlaneCircleCheck = createIcon("plane-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABxAAAAMKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEiEJAsGAAE2AiQDCAQgBYMtBzkbLQbIjtRgrTKL8fC8P9VznyCuzIkg4W+HGJQCs10k3njLsJR4A1Z9vc//5fjePR8b5POd+KE15sI2jjEFeh5w1NfaFKdjeZYoNuhucDBuHVdtIR//OEyBdGf6DNebDxU/GeASklwOQHQAYGl9+0YffB6fR3zWeJX4zHoExDKQCeSgfnCBZwF9FNfJy5CXF3wejQbBf2BGAFFkf1wCefTBr0QOkAdJIZ+/vm3QoH7Nhdb8ruZCad+ryhG3lJ/oL8SOeKS/6KncWquHEBviFuLOkVfX6rEzbm2+uhZxS+mqUjlqsSuuKu2QlqsCCnprm+P2gETvoLtHPzrgTkL0UoRsycTcuK1a7YxV4vZaot3JkF2RiLsGNi+9rbS7vqMudsQt1QXxQ68em/3k2Cf1jHnC4UtXjXuKj97xT0ea09Xz68VvT34+eic9N++ttee8MeEZPROfnftmc/228o5YFLeVb6ksjHNc7vZq91MdT/3S9dkRn2m83/4mT57XUqoLTx1gfnGKlssue+nB8fqaYLfbWrr1m5rLDh3KtWS5BFZRKERUVR0+TErGlUYUi93yXXfryk8xxLWK6qrf/6nj+++rdUVwrSGmyHc12TDhDRP09ZA+tT3OtnKknadtnyjUlf497803278a8vDe4pizPTpRT9MUba/tmTj8Az4Y0trd3Trkgw+GF2rYqo7RiTS1a9SorqkpjYY1MHflu9u3r13nLqF35swG8WzeTJ4PBILLdv56r/YFvzU1J/DlW/8mp2t8kHrSU2iSQJCb0Jhgv9QDSBhAIsUZuju+KJB8q8B+1Ba3CRBKCJAUlQTIGaRDgLyS8QIUDDVTgKKS7XIiv5dQtn8GkhYng5xZzgd5ZS+DggU+jBeVI3fpKy5cxYdn2lVFdOWibOqkKdm8rLUmUV7NMm12fjbYOuYM3jMWQh3hRCc4zeEOc7TTCswpNqZOd7xVXdhKP5SZapIpMvNkk5tXtbsKiVOc6uhm5fR5zJctHxzjjO7hY6EjsSWnKUoSkfq+pcaJPwnpJz5G");
 
 export default PlaneCircleCheck;

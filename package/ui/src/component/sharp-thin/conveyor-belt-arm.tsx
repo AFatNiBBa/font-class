@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `conveyor-belt-arm` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/conveyor-belt-arm?s=sharp-thin conveyor-belt-arm}
  * @preview ![conveyor-belt-arm](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/conveyor-belt-arm.svg)
  */
-const ConveyorBeltArm: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 0l0 16 8 0 94.7 0-7.4 48c-26.2 .4-47.3 21.7-47.3 48c0 26.5 21.5 48 48 48c21.6 0 39.8-14.2 45.9-33.8L456 151l0 57 0 8 16 0 0-8 0-64 0-7-6.9-.9L272 110.3c-.7-20.5-14.3-37.7-32.9-43.9L246.9 16 344 16l8 0 0-16-8 0L136 0l-8 0zm64 112a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM496 272l0 48-64 0 0-48 64 0zm-80 0l0 48-64 0 0-48 0-16-16 0-64 0-16 0 0 16 0 48-64 0 0-48 0-16-16 0-64 0-16 0 0 16 0 48c-53 0-96 43-96 96s43 96 96 96l448 0c53 0 96-43 96-96s-43-96-96-96l-32 0 0-48 0-16-16 0-64 0-16 0 0 16zM176 336l16 0 64 0 16 0 64 0 16 0 64 0 16 0 64 0 16 0 32 0c44.2 0 80 35.8 80 80s-35.8 80-80 80L96 496c-44.2 0-80-35.8-80-80s35.8-80 80-80l16 0 64 0zm0-64l0 48-64 0 0-48 64 0zm96 48l0-48 64 0 0 48-64 0zM80 416a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm80 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm160-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 80a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm176-48a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm80 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const ConveyorBeltArm = createIcon("conveyor-belt-arm", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAAB4AAAALAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTyEagsGAAE2AiQDCAQgBYMtBzgbcgbIBp4nt+z9gTWITMyJOcmJm1fnReVaXWX7/9+749++NkEu9wDzUMYcvG3b3hZ2PP3aWNMglAS80W03RVQ6IzTGEZjyh4F4QG1TT4A1zuXyjQQWgsIwAAAQDQap16VDK+6+lpflcfASyGNaAAIg9QBwEMBAsuQaHWoiE46aOICJGQCvJRiM/wMdEAAQLx6u2GQC4SARIKnQnguKUNMsjgpUiQsEokK12vYYcWd3R6sHgm0ny8HojfHbYjZlX0nqJCCSLRIdK51le06m2I0XrY7z4kS22CtiNjE3eqO1PHaz9EOwRMS2MquIxfOEXnAx72jyrvxjlULlSuGJtN0FxyuPuDraVugloU7ZOYxUDJHLBcdT9zir2B22lHW6R3HOnWJvzzmcdTB+W/ah3CNJXXprRDh7JpuJ6VHvSBxnM/XWBFhOl7U/IeO4Pv4j/cngJ8y5o7X295mD++SpYTx97qafuRZPNfxo/NTFR1/uJlD6bBz9/Br/ljFhS2FpWNjS0Fy6x/WC6uJSt21GoNFtNS7SNff4cb8fm+beNUpnZN2vOlqP1YM6i3QepO8CjTq4p7FPKWxyp8/ZgW2t0TNmjLbiZnvSBgP2frxy5eNe2M6Z0tWfA4AAAqn3JnbtE17zt99WALy9/uubvZ3gXTVXHQf8KAAEjKJgET3VXADEKADgVTKZjBGZ1LoKEIr3SgibEQAECxAAFF4sAwZJaDCxKAQPqVTizhzdAQMxAwjR9IKgCGEcGFRmFphEcwE81OS+x0u0GG8H/9nmf5smaVzHGvVyykpcp7ozGJMLHniurq3hzNbkTeY5+XAmgxnDaCYyiIEMY2KNMp5W/kmMovEYc6PvOpRRgotDdZzVydvqztQ845nAsH4l6zupgbO/I4/J48XzoV7hsSyHUKFAVMQP5n2njRlf3H/QyInF/caPAgAA");
 
 export default ConveyorBeltArm;

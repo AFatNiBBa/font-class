@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-bookmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-bookmark?s=sharp-solid book-bookmark}
  * @preview ![book-bookmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/book-bookmark.svg)
  */
-const BookBookmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 96C0 43 43 0 96 0l96 0 0 224 80-64 80 64L352 0l32 0 32 0 32 0 0 384-32 0 0 64 32 0 0 64-32 0-32 0L96 512c-53 0-96-43-96-96L0 96zM64 416c0 17.7 14.3 32 32 32l256 0 0-64L96 384c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const BookBookmark = createIcon("book-bookmark", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABWgAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBMAsGAAE2AiQDCAQgBYMtBzQbtATIhof/XxO7788UgKfM6IDBpxJIxRVVhcqpXVKrM/83e97zKMBvFNoeGsgCieZ8nkCi2fSExi2wMz0BO91mIukRhG+ERElExxM73nbI43l2QQ3S0/QLt+uHxl/auEBSJwMQjQEweeXS+cqVqET8rL4nfpqLgJgMCoEMGdoLME4m0F6uQC4XVKJalf/AggCiJnvlBHLkGI+pgBwkKc+7NalXo0G+ol6NutnrvhFvRtYLsTKWR0S9einqhqgXom79D31KHbPVZ1pEPKzXICLqx7XmD3QpNS790/nXjl821S5ROrNJxcKJ6q0oJp1RmJSxPqNUqj1p4sSGV7jSkElImByFQLDg0u8FGxuN+792vQT+fPnvH/kZqZajnEqoLYEg61ftZ12UIcoCAJDihC5RRiAZLrGz1vdIgFAXAZKa6gqQaaexALm6+gpQQ0fDBaiprqUykdcRmlvPIKnvMMiMcBLkmnsLahjnq1VT88gARDw/8X2LneGh6WPF4AGDijHF0tdITGClP7bYVnud0FxvmrTDQQccs902ux1zyBHz3eP2mxHB031RYbABBimMURxHj+wKto44avdccj5krOK+2cuJuLo3GYmhDuFJEpEaoEvqj0IAAA==");
 
 export default BookBookmark;

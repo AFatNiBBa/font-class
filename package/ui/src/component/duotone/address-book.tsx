@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `address-book` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/address-book?s=duotone address-book}
  * @preview ![address-book](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/address-book.svg)
  */
-const AddressBook: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 64C32 28.7 60.7 0 96 0L384 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L96 512c-35.3 0-64-28.7-64-64L32 64zm96 304c0 8.8 7.2 16 16 16l192 0c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80l-64 0c-44.2 0-80 35.8-80 80zm48-176a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-        <path d="M496 64c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zm0 128c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zm16 144l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16zM128 368c0-44.2 35.8-80 80-80l64 0c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16l-192 0c-8.8 0-16-7.2-16-16zM240 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
-    </Icon>
-);
+const AddressBook = createIcon("address-book", true, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABowAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCUwsIAAE2AiQDCgQgBYMtB1QbeQXIhiDar97qmbcfjvF9IlIAECJH5IhInQuqCLU5G2C9f9zP829NBfKMPkrkIoIqzjvPJzDAaP+4QBjRfAY23VQCBY9B6eOxWddZcWXHV49vJhTxc75HhfR0+gkP1v8BjF/1uodkfAYQLQDYcHDvHiPVqKb4qfYZ8ZPdCIiNoBTIyBgQYLUsMKBQolAIqqlWoxq1WkkAMUZFs28bgzo8gEcBBUgqclE0Nja1N/a1NtZXGosD9ZW6i493isc6nuiKeLJbl9kvFMHaferFWRHvLquPz2e8PVjcdUGWg1ft9LcWfzHznVnwHn3W46Y1xuvp3hRPIT25Id6gcF8+/DJXH092vyDppXXxmRUeOPj8XAhbhm9iZ2LiOy3v/D7hpws/+fP2atN6TVWeuAPQ/OD69etF3Lh9OA5wvmW9lvMHYnCPoLpr/5w/d3h47ny+bfj2ulZaXyq91Npadweli//kvHAwDizXzfswj/7992jm94FAcG7vLz+cbF79/7j6BEa/+fNf+iGVtZEkvYNxEgjy7NpsxxIliQAApLjFxMQdSoFsu4r2UIMnBAh1CJCMUUcg69cChTqzoGLIEil4fq8sivFCh+OApMH1kC11KxQ6fAoVq31bGKMjckoqCaX8EWbZqpEt28oFc+eXK8tp26lmmXSsryrDnum30NgM3HXBta5xk/POuewmRd9gT/lmV9vqUVt8UGmBueYrrVQu9x4tB1T4BjeSZOvrm6xSfp+Y7hZ/9gz4k8a70JksEylyx+a1zklax5zsnux60HcyAA==");
 
 export default AddressBook;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-intercom` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-intercom?s=light phone-intercom}
  * @preview ![phone-intercom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/phone-intercom.svg)
  */
-const PhoneIntercom: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M80 64c8.8 0 16 7.2 16 16l0 352c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16L32 80c0-8.8 7.2-16 16-16l32 0zM48 32C21.5 32 0 53.5 0 80L0 432c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-352c0-26.5-21.5-48-48-48L48 32zM448 64c17.7 0 32 14.3 32 32l0 320c0 17.7-14.3 32-32 32l-224 0c-17.7 0-32-14.3-32-32l0-320c0-17.7 14.3-32 32-32l224 0zM224 32c-35.3 0-64 28.7-64 64l0 320c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L224 32zm32 320a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm32-32c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zm0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM256 128l160 0 0 96-160 0 0-96zm-32 0l0 96c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-96c0-17.7-14.3-32-32-32L256 96c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const PhoneIntercom = createIcon("phone-intercom", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABsQAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDMgsGAAE2AiQDCAQgBYMtBzUbtwXIHoexm6WmYjN8XIl4+H+d2X1f8sDXxEFSUhHRIqJ9JtUyVIDVctGRzrZbp7bpZlckNSy5XkkQM4N9xpoJs6p9n7gc/9r0gLXJQhlrgyzL9j5PIMDws7nAlwWWaQLW2bY3Q8xDOUJkbKCMb2yBFmm4/IHn/Q+N/032CElZAIhRANh6+vGDfmyiifijh/jDfgTENlALFCgwTYANCoFpSjVKpaCJXk/8B9YEEH1CMjm8xBC+wk+AEiS5LEdNCfHBEQ85OKVqjShPq1r57FcjxSvM0VER3azmvcWIV3qK4Xh1VvFudkcRJ9RZ+cKnI+JVpHiAr9QcT6ljRTyYXa9Oe+uKeG87eb9Pvh/izweLntnNV+MVdlSdWO8cb/Xh+fb57pg/dFcxqfbcObwOrZNO81yJHJGFB8a/6lU8nV2LeFCd57blK5j9Qfvgn/XHZX84fH/TvkC7qRVCvSV/8WdxgeLPv5bUOiYx4/m9/QQ80d6CqAXQmIjgvzNf2xidt8ijR7/2kSbsnrl5ztu0k+wt+bq7774uS+Veu9miaXdsaYXP770WSl/gNRfUF2jP9r4GOnaB5n4gEHz/ydHB80duODngCfz39ZPez0ivSdIHYEACQbGgt8A5CSQCAJDiNrMTBJLPZeG7DukIEDICJH2yAIWpRglQyuYL0DLDSgH6ZMcVohwUxjmXiJIhN4oKq9wrKo3zpahlg5+TfcZFAcF6+NN/P2bZ1YV2TquXLlpSr6tnyyoDUGrt+Pp6s2fObbJtLp7rMte7zi0udYkr3dLhb3Iwc6tr7Vridvqi2lKLLFFbpz5ce2g5rZO8yc2unDYdn2S9+vrEHLct956L/UmocpmcJBGp/Yo7F/79EL34+msB");
 
 export default PhoneIntercom;

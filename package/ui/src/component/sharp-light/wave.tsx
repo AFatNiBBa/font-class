@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wave` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wave?s=sharp-light wave}
  * @preview ![wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/wave.svg)
  */
-const Wave: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M304 80c-88.4 0-160 71.6-160 160c0 61.9-50.1 112-112 112l-16 0 0-32 16 0c44.2 0 80-35.8 80-80c0-106 86-192 192-192c64.9 0 122.4 32.3 157.1 81.6l-19.9 23.7c-12.4-5.9-26.4-9.2-41.1-9.2c-53 0-96 43-96 96c0 44.2 35.8 80 80 80c20.9 0 41.6-9.9 58.2-21.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.8 23.1 24.2 37.8 34.2C534.4 310.1 555.1 320 576 320l0 32c-30.3 0-57.6-14.1-76.2-26.8c-7.9-5.4-14.7-10.8-19.8-15.3c-5.1 4.5-11.9 9.9-19.8 15.3C441.5 337.9 414.3 352 384 352c-61.9 0-112-50.1-112-112c0-70.7 57.3-128 128-128c0 0 0 0 0 0c-26.8-20.1-60-32-96-32zM133.8 426.8C150.3 438.1 171.1 448 192 448s41.6-9.9 58.2-21.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.8 23.1 24.2 37.8 34.2C342.3 438.1 363.1 448 384 448s41.6-9.9 58.2-21.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.8 23.1 24.2 37.8 34.2C534.4 438.1 555.1 448 576 448l0 32c-30.3 0-57.6-14.1-76.2-26.8c-7.9-5.4-14.7-10.8-19.8-15.3c-5.1 4.5-11.9 9.9-19.8 15.3C441.5 465.9 414.3 480 384 480s-57.6-14.1-76.2-26.8c-7.9-5.4-14.7-10.8-19.8-15.3c-5.1 4.5-11.8 9.9-19.8 15.3C249.5 465.9 222.3 480 192 480s-57.6-14.1-76.2-26.8c-7.9-5.4-14.6-10.8-19.8-15.3c-5.1 4.5-11.8 9.8-19.8 15.3C57.6 465.9 30.3 480 0 480l0-32c20.9 0 41.6-9.9 58.2-21.2c14.7-10 25.9-21.5 37.8-34.2c11.9 12.7 23.2 24.3 37.8 34.2z" />
-    </Icon>
-);
+const Wave = createIcon("wave", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABnQAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCZQsGAAE2AiQDCAQgBYMtBysbYAXIHgVuywPZirqKwa8mhfQWEXy/32/PuReV5p2XsCQWIilRgkmzREik9kv4QzWpPP/5ce+5n5zwZrOBaY1pS2CUm5scCkMZ4uD2BAIOLaC4qZvn2aYAnyMIbSxcGsgCieY8TyCxLt+UUFGYJYq9bYhkQwpfhEiQRTSmNE4z1HiJBp984FyDm/rQeGFoFEi1ACDGAcDuZqXg9JO6EdftFkRHEgiIPQCLCAUFswhs4ArM4lkEVRV0qW3pH8gggOiFwEmvcOct4BEAFaSsvJQIKV/Oy033k9TdBhMdZs/ar3hLiEhKO07r5g9ZN3njAXsu9rQk2bRfMZlzWPVZdlp2WrVZtQGd2y7pzehN6UxZL0i2HdfM5sNO4oZoiPZj81dtViKsRlKdiG9vuaZa+7K4rr2G20fRNXRoX/n/8zmOUVFdLlFGTk4GeRyNTfvCvgfX1kRUm6P6m0jlcFIn/hj98Xva6e3defKz1//9+R/je++nA1yXrxZO/O1EgEioM8B5AALBk0OovEwZ/CeScgDP+z9/7bi2mzucNUC/BEFp2kZxhQMQlQAroxeWzosC6RocctVhtyAQBhEg9RoUoJihQqAatIRAj3k+CPQadIArqhhhWomCNOwQFOv6QDVtA/TYcGb2mg43NLnA4n6GybEWihliHq7uLJBNPZ2PNoa7QWxbse/NGQeYRK02rbrVqNag25CdUpweLWI9IsaHGA+u3DGB2HH4OJ6rRqcuDdq0lj5B2H3DXq9f7gA6h9Auc6UkkvdaAAA=");
 
 export default Wave;

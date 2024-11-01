@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-moving` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-moving?s=sharp-light truck-moving}
  * @preview ![truck-moving](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck-moving.svg)
  */
-const TruckMoving: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 64l0 240 0 32c13.4-10 30-16 48-16c26.2 0 49.4 12.6 64 32c14.6-19.4 37.8-32 64-32c32.8 0 61 19.7 73.3 48L448 368l0-112 0-32 0-160L32 64zM480 336c13.4-10 30-16 48-16c32.8 0 61 19.7 73.3 48l6.7 0 0-64 0-48-128 0 0 80zm0-112l122.5 0-57.6-64L480 160l0 64zm160-6.1l0 6.1 0 32 0 48 0 64 0 32-32 0c0 44.2-35.8 80-80 80s-80-35.8-80-80l-160 0c0 44.2-35.8 80-80 80c-26.2 0-49.4-12.6-64-32c-14.6 19.4-37.8 32-64 32c-44.2 0-80-35.8-80-80l0-32 0-64L0 64 0 32l32 0 416 0 32 0 0 32 0 64 72 0 7.1 0 4.8 5.3 72 80 4.1 4.6zM528 448a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM256 400a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM80 448a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const TruckMoving = createIcon("truck-moving", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABmQAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCcwsGAAE2AiQDCAQgBYMtBzMbdgXIhocnu68/t7pH/WbpWoMfcCQ7g4PQjjj/1+R79/yoQApT7NAiF0nlTbOI8gkM8NuyaUKz4WyiuMF5ow4oNIXyC5TxdwxTR7o5fYAr3YfGD7q4mKQsAERrAMzeuHa5tz6NTyM++P954gNLERBzQBYoUKC7ANMUAt2VMkql4NP4/3/2H5gJIOqFixMo0YRbcB8YAkkayrJL66bJLWCsVtei3JBeUm0VxIMDnx/86MRL+9/fpRbB27wfl3WzqhC1qramZG4UBF9QRbcNemjcC0Me6alV5YoQqrVw6KBah1gfHdY92O3WrrcMuK/zTV1u7r+nJB7od19n7/0DxyoluM8jrR/5qfcHBz7Q67xfw6HZirvOP/bY87sMm3bJg46X3eWuN1uNyD1Qg1lGOd+q488KrDvNNuvOuvpzslFmybLYsL916/0b4q5KvkLuWHkB+tWf36o2LmqYZ+FK44776q6vX3zx67syUauR1bFnnXVsNfHkyOnXgUCw6ZpP/trZatpfjbUEPn/ll9/s8/7/NJ2fHkGjBIJi2P/DbEvnA5oMIUOKU/VZ+KJAco0G8F2b3SBAqBAgqVcJUOimtQClylAB6vQ0XoB6lbUKUTYJ7W1vyKTZCWRhgnPIUnvPknWmeTtRr30UT6j6fKk/iFkLuvD8WXn0iFF5Sp4tq7SHTtbjU/Nm36BTedtguNQBxznWyfbb57CTO+iJlqdPcYwFS8h8P5SNNsIo2RT5cO3h/A32O9FJDjvOsXaaqfL10UFOXe49GAaTIDlGTpKI1PwJOoff6gAA");
 
 export default TruckMoving;

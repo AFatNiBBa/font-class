@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `peseta-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peseta-sign?s=duotone peseta-sign}
  * @preview ![peseta-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/peseta-sign.svg)
  */
-const PesetaSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 192c0 17.7 14.3 32 32 32l0-64c-17.7 0-32 14.3-32 32zm96-32l0 64 186.5 0c3.5-10 5.5-20.8 5.5-32s-1.9-22-5.5-32L96 160zm252.8 0c2.1 10.3 3.2 21 3.2 32c0 1.4 0 2.7-.1 4.1s-.1 2.7-.2 4.1c-.1 2.7-.3 5.4-.6 8.1c-.5 5.3-1.3 10.6-2.4 15.8l3.2 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-3.2 0z" />
-        <path d="M32 64c0-17.7 14.3-32 32-32l128 0c88.4 0 160 71.6 160 160s-71.6 160-160 160l-96 0 0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-128L32 64zM96 288l96 0c53 0 96-43 96-96s-43-96-96-96L96 96l0 192z" />
-    </Icon>
-);
+const PesetaSign = createIcon("peseta-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABgwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCCgsIAAE2AiQDCgQgBYMtB1IbLgXIjsQ4JvGLWNDi4Xtdr+fqaf//lswguwKEioBTkRwgKmlTEneo0qmA2kyqTMrM5v97yR/38/xbFeDjT/DRIpftleeZ5xMYaDQ30IAHPJ2hbXdaK4ksh5KkhViOb47TFfK4M92vRfZK1uAp+h/A+NsI95PplQBEfwCs2r19o2/+iD+yaDofEI0NCIjVoBJISBgtwFJJYLRchVwu+CPr4I/oqAgguhCafHQXunESVwA5yGRSnlf9+pRDy1affFfZKvbfGhbxUlnGT8u+3Hl76Rc7ihD14OeLR4e+GBFpZ1mUH095b9ybk9vzi5DqIREvlBGPDn7ebqGMl+LW0KJ8Qa12lB1cxmPD+FMvFsWEdv/2P+ObU41x9/R9mIf71tZE00Sm1zRN2RFH9H04yr6sZsXvR1y6brd7eqCuPuIbDvwrTaOHx63EdZ/bNGDAps//nz4gM6U8dXcn8TsSEAh+fqvbh/st/a+nzMBfn/2v8nLnj6izNnpkIEhTO1MdiBqsOIAflcUdJkStQiCZIcFUby9iIRQ0yHQpIBmlP+QKU6BlrHny5v7tksh7CYMdBMj0dhWS+e6C3GDvQ8tS32a7DI6kbqqyqJ+9rPU9sm5VNWv6zGpxNW2omgbJYXFJte2beAcbmARnnXLZJTecdMJZNzrhmo2Fmy5av6LW+aLKLNPNVFmsErfn1i7MXnPd2bEhX2aJ6n5qojvW4ydBMJMkZ7ucJCKLNOjKyesnbxydpquuaQ93aAg33ig=");
 
 export default PesetaSign;

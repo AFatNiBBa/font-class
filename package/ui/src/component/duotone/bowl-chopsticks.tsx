@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowl-chopsticks` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-chopsticks?s=duotone bowl-chopsticks}
  * @preview ![bowl-chopsticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bowl-chopsticks.svg)
  */
-const BowlChopsticks: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 109.3c0 9.8 8.8 17.3 18.5 15.8l473.8-74c11.3-1.8 19.7-11.5 19.7-23c0-14.6-13.3-25.6-27.6-22.9L13.1 93.6C5.5 95 0 101.6 0 109.3zm0 50.5c0 9 7.3 16.2 16.2 16.2l472.1 0c13 0 23.6-10.6 23.6-23.6c0-13.3-11-24-24.4-23.6L15.7 143.5C7 143.8 0 151 0 159.7z" />
-        <path d="M33.6 224C15.4 224 .9 239.3 2 257.5c5.4 91.7 59.7 169.7 136.4 209.7l1.2 9.7c2.5 20 19.5 35 39.7 35l153.4 0c20.2 0 37.2-15 39.7-35l1.2-9.7c76.8-40 131-118 136.4-209.7c1.1-18.2-13.4-33.5-31.6-33.5L33.6 224z" />
-    </Icon>
-);
+const BowlChopsticks = createIcon("bowl-chopsticks", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdgAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBSQsIAAE2AiQDCgQgBYMtB1ob9QQRlZpryD4SYzfTTk1NabgTm/gSD8/b9XXuq+r+gGooLal0kC0iI1png3ThuANg+pt/3nkU4DMKbSycGMiYQHOeJxBwlk/RtkCm38D+24YnR2CeRoiEWUTjJY3TBHl8l92jRHoxfYvH6X8A41c97iGpyQBEMwCW7dmxyYcn4kSKbytviW9tREAsB4VAhgz9AiyUCfTLFcjlghOpUnEiKpVCAFFGe85AGSWsxlZADpKQ8nx4U0NdqSHfXVeq3fNQe8Qzflz20bqOeLbj2bq6eLjr+a6u+GbFJ3vu7Hyutj57cczZcbhPLO1nxDPtJtiGwr80Om0efqz52O/Dvj3vW8OONz7IA035ytmrXusxePRo00ua6tsGe7y2ana+sumBBxvftaPZL+uMSHXXXff6T3u9UTej8cQvtnV0bP250YlGIBCMbLr54OlNC/+vrkvg1Nt//ou/o8qHSTqGagkE2cTKxIMJJAIAkOI6wxMJgcxwCd+13nMChFoESMpqBcj0aRYgV2uCACWDZglQVmuHTOQ1QrtDApJ6V4LMbLeCXLs3QclCXyhl7UGzaCJigfjMxa7W0Kq+YtrkqcX8YuhqZIBgub2gWObGXoepcTDqvMsvu+bccy68RiFXbdKvvXS1B6/6sJg2eWoxv9gO7tndSrnq6gtter/LguK8PPY6v3gciAmjTh/IZESKrOt5OiadfcHlV1z9YqSrJ13N3B6Lvoc=");
 
 export default BowlChopsticks;

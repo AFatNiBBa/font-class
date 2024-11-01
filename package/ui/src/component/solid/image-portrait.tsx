@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `image-portrait` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/image-portrait?s=solid image-portrait}
  * @preview ![image-portrait](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/image-portrait.svg)
  */
-const ImagePortrait: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M384 64c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-384zM128 192a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM80 356.6c0-37.9 30.7-68.6 68.6-68.6l86.9 0c37.9 0 68.6 30.7 68.6 68.6c0 15.1-12.3 27.4-27.4 27.4l-169.1 0C92.3 384 80 371.7 80 356.6z" />
-    </Icon>
-);
+const ImagePortrait = createIcon("image-portrait", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABaQAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBQwsGAAE2AiQDCAQgBYMtBzUbyATIjtRG94xd4uF5u/rOfVWjxifrS4pER/ACCDfbaLIFg9COO0Nq8adOPc95KIBvFJQ1aGootoD2Po9ARIO7tRYLUitYRLHWTmd4RekXg/SJTzJsfpg4II/z2Q11pKfTp7iXfzR+1dkNkqYMQLQCwKzVy5dp/iq+ivikFvGJJQiIWaAQyJChmwBTZQLd5ArkcsFXUavRf2BBAFGP35tAjjrMx1JADpIsz7tUO5brqvmq+Fxp9zODI97pX4nXBr7VKcXTg97uV403h7zbNVvxoseE2P250UcGv9NjxbNDIt4dUI7XB73d+Uq7x0qluNnhiej9Tqt3fvfprk9dvlxqTeuXeKl169IVYMlVu5x98/ff32Rl3YjXqr3p/eVqzb17V8unT5ffVnGvA4Hgu5+2Ptrccur/jeUEvnn/z8Pzas1xJb2DRgkE2dDaUBviCmBWABspTumt3CyQTJcBvrXiCQFCCQGSeiUBMl21EiBXMkSAOj2ME6BeyXKZyJuEdjY2kFQcBZnxLoJcO++BOlN9YNRrF5klUXZAfeTi50to3lwxavjIYnIxDVXaOIg0nlIsSwNPhdIgLNrlsENO2GmHvU4I5Jhl9kkHzdfgeW5UGGW4kQqTFdvJPb9KGMcct3fM7k+ZojivDXRKbx4ENWHU0RxJIlKLi6cPO3L42KuZcAIA");
 
 export default ImagePortrait;

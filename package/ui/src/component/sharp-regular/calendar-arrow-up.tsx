@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-arrow-up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-arrow-up?s=sharp-regular calendar-arrow-up}
  * @preview ![calendar-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/calendar-arrow-up.svg)
  */
-const CalendarArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M152 0l0 24 0 40 144 0 0-40 0-24 48 0 0 24 0 40 104 0 0 80 0 48 0 272 0 48-48 0L48 512 0 512l0-48L0 192l0-48L0 64l104 0 0-40 0-24 48 0zM400 192L48 192l0 272 352 0 0-272zM248 408l0 24-48 0 0-24 0-102.1-39 39-17 17L110.1 328l17-17 80-80 17-17 17 17 80 80 17 17L304 361.9l-17-17-39-39L248 408z" />
-    </Icon>
-);
+const CalendarArrowUp = createIcon("calendar-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABaQAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBewsGAAE2AiQDCAQgBYMtBzgbAwXILgps9xRFmEAGg6Esy1w+fwWytD7E8/+/3//m2ufcL4p6NUt4VU1EopcKyUN7IeL9l/IGlcwgXr9nbv8mmUXiIaZta5h4ovE6qRPKGslcC5kQ1+2JEfI+/5fje/f8NuD3O+FDGRvXrHhMG2M9TyCxsSjP8yywTBOwrJ39D36AbiJJ4pMMmx82D+j5kgzUp4K36UPz13YfytAAZB0AuPSgVoA+zTRZGydrroBALgH2ITQ07ELgLFGwi2Qf6LowzTi6/0CGAJmBlxXoGPAUPAPQQWm9H563LMrL/f7isPAEkcWAY0pAVVhYStpUpAv3lpaXKstpd5EFqj0bZ/LxpBVQVxr8ALmP4MDE5Cz58AsyTnwxZhRkOq2VBSl28F2Jy9aa///XGDQFY8qHCLt3lpZgPbhxA8jJepg+iSBsvtxbjgxn/80tFvjz9f3PyPg7v2uCOQVCOzR69fMb8lsAAJU3zNERlEdEeNcl7wXEAgLKjAUBzU4KAt2CgwgM9oghMGPBHaL0ebHJoIGy5DlozniDbpMfGJz1z87YFNHKJBuRPnnpWg+r+zjkD3Kal11VNhzBb2d423A+ZcpFJ7F0cnS3MLdx76irQuHhQNMQ1RexEL8glsbHg8fDTQtXNxsnx7hLBt9PnJ76YhfZArCe0FaK1PpHqPmk6np6+R5nAAAA");
 
 export default CalendarArrowUp;

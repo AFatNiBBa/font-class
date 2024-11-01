@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-arrow-up` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-up?s=sharp-regular comment-arrow-up}
  * @preview ![comment-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/comment-arrow-up.svg)
  */
-const CommentArrowUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M101.9 387.7l10.8-28.9L90.9 336.9C63 308.9 48 275.1 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-26.8 0-52.3-3.9-75.7-11l-13.9-4.2-13.9 4.2L94.9 406.2l7-18.5zM16 480l57.8-17.3 92.6-27.8c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L37.2 423.5 16 480zM280 328l0-110.1 31 31 17 17L361.9 232l-17-17-72-72-17-17-17 17-72 72-17 17L184 265.9l17-17 31-31L232 328l0 24 48 0 0-24z" />
-    </Icon>
-);
+const CommentArrowUp = createIcon("comment-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABewAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCDwsGAAE2AiQDCAQgBYMtBzcbFgURlZqjyD4SctOU/3FmRzSxEg/fr/V27uueAGCHmRWQCiti9yuOeJntr7WoVk8AzP81+d49vwb8RocWhZV4vXlEPp/AAI8WPvABRYHNdAK2vWmjJlN2xWSiSTq+dnydIY/XcVmJdD19i0vtQ+MvzZ0hKWUAoh4Axi1ZMMuHyqiM+Kb8VHxjBgJiHCgEMmRoJcBImUAruQK5XFAZ5XL+DywEEFXI8yWQo4QtOALIQZLleeu2HWqWaueLa5ZqLGnZrGX3eNf+4Zwflvw267t292Z+u/Ds4CbRKKZGy4Uzps5YEk9r/jHjmzHvOzwY/W7614t/nfrlyDfFb/P6Rt8NIbqldEx0j8WEdY2FzqjoAZCjNSPaV9Sr+Kfdt5u/tWnEI6lc5Eap9vFjqxN4x47X1sKuw3/xicvWLVpxGYtXtHSr7xRnb7ZpU716CW+encJUxozNA02penU37v0X9TFlCp2xl/zXbs301QwIBOefruy2pu7I/6vVTODPV//9h39F5cokVaCaBIKsZ7nnygQSAQBIcVj7BIFkjYxcay1XBAg1ECCpooYAmZbqCZCroYcAJW0MEqCKGhbIRF5daGTVAEkt+0BmsKMg18hjUDLSF1kVjSKLNy5auO9eMp9s4Um7in69+xbDi2WH8iHE8OaIYlvpepgmusFJm/fsPrhp47aDhto/q3xo12QPmfTFol/vvsXw4rj/fHjxpv0Htu3ZXbcZUdwPuh7253cDPRHa/k1JIlK9F17ba93+/XuO9Dq0Fw==");
 
 export default CommentArrowUp;

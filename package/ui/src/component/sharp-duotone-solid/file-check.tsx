@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-check` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-check?s=sharp-duotone-solid file-check}
  * @preview ![file-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-check.svg)
  */
-const FileCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 0L224 0c0 53.3 0 106.7 0 160l160 0 0 352L0 512 0 0zM62.1 328c5.7 5.7 11.3 11.3 17 17c21.3 21.3 42.7 42.7 64 64c5.7 5.7 11.3 11.3 17 17c5.7-5.7 11.3-11.3 17-17c42.7-42.7 85.3-85.3 128-128c5.7-5.7 11.3-11.3 17-17L288 230.1c-5.7 5.7-11.3 11.3-17 17c-37 37-74 74-111 111l-47-47-17-17C84.7 305.4 73.4 316.7 62.1 328z" />
-        <path d="M384 160L224 0l0 160 160 0zM305 281l17-17L288 230.1l-17 17-111 111-47-47-17-17L62.1 328l17 17 64 64 17 17 17-17L305 281z" />
-    </Icon>
-);
+const FileCheck = createIcon("file-check", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABggAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCAAsIAAE2AiQDCgQgBYMtB1AbIgXIhofn13o9983sDwBNgAAcgcqXAZmosIK2K2xRBlX1/nE/+VfTB3z8XXNV58UFMso8n8DOoxpwQBOYztBmv/MdRZGXVUIRMiy/M4z/Cnmcya4okR6nMm7K/wDGN61cIamVAYiGAJi4fPFcH/+Jf1KUK6+IsjkIiEmgEMiQoa0AY2QCbeUK5HLBP6lS4Z+oVAoCiCrCZjxV+t0bsAeQgyRJeV6jVYOedUr18mV1SrW3L1u6TNRZ0rtH73HRI5bEuOgVY6JnLFTH9o7lWZ3adS64oE6kqBullfebRSj6WU/V0g9bRD6Mf9HbRMbFvaagn/bQdo0yudPzhs9/dCxvKzvf4UnaWa163gk0wr59fvphFXD+vI//AOnxidU2uMDY6YM7MWUKP3/eOD5lcufBgzuV31w/0cjSKZ06vXnx+s1P/PyzUyMgEDRYMvPT+gZj/q9ZJ4H/Xv/6Sl6ufIwL6TlqSiDI+lT6WBMXwCoD+FEpjukUF4xDIDNConfV9UCAUJsCSZXakGmjIeRq6w0l7Q3VFndYLBN5LaGptYCkroOQGeYs5Jp6CSVjfI5WaRoZ00yemP95OabV2NROxcB+A4pRxTAlW8ijh9bRxXKgxzFX0hMrbbPfPkdstcVORyr5kLmJo/aaNpOm+qLCQP0MUBilOM7eL15mq0MO22m/fbGd0Yr7wR6Ozav3RHcSYNA3SsqIFFnjV+3qS1lPX86WNm1trxMA");
 
 export default FileCheck;

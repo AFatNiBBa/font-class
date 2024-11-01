@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-excel` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-excel?s=sharp-light file-excel}
  * @preview ![file-excel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/file-excel.svg)
  */
-const FileExcel: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 480L32 480 32 32l160 0 0 144 0 16 16 0 144 0 0 288zM224 37.3L346.7 160 224 160l0-122.7zM232 0L32 0 0 0 0 32 0 480l0 32 32 0 320 0 32 0 0-32 0-328L232 0zm46.7 240l-39.1 0L192 308.1 144.3 240l-39.1 0 3.6 5.2L172.5 336l-63.6 90.8-3.6 5.2 39.1 0L192 363.9 239.7 432l39.1 0-3.6-5.2L211.5 336l63.6-90.8 3.6-5.2z" />
-    </Icon>
-);
+const FileExcel = createIcon("file-excel", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZQAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBZAsGAAE2AiQDCAQgBYMtBzEb5QTIHoVxMz1S6Y4iyttFPHw/99W5L2lKhiEDwOAJ3GhgN6rdohFdq1iu/v2nyvwuQ2rjJ66pH+dPfx5N+mhRFLkEWfMo8zwBJ1jpA04b2EwnYNubm9EksqskU0rS8a3jjK6Qx40YqY70JoVH8UPjH909JMkzANEOAPO2bFiluSVaIn6vRfxuBQJiPqgEMmToJcBMmUAvuQq5XNAStZr7D6wIIOrJvSaQox5rsR+QgyTP87YN7fuVda3zzWVdsa9V61ZZlCFEWabtmzZvKiL6FmUhUoiydUQWnUhZbEyFUUTn2BQe6xRlbMHK6BKbl3Tt/66d//n9cPb0nUsbmr31WDvtHlf8uA5H33Dj4s8//1lpVqn2VpZ69Wr0QyA6ZgHmDTHRnO1zEw3RArOh2beDQPDpxauPe9rO/L+xTOCPHy//imrNcTeJRgkE2cjaSDvjLsRdAQBIcVn/uItAslSO3rWVlwKEAgGSeoUAmZ7aCZArjBCgTh+TBKhX2CATeZPQya5KJa2cozKT3aJynXyn6sz0U6pep8hMSzYM+WGXsVjDixZV40aPraZXw5KiWIsYRmdUy/bQy9wyDFc67IzTLjrkoGMuKvS8VdlLTlk8Qxb5oso4o41Vma7art4amwk774Jj5un9cWaozieHujzvPgy9RATHK0oSkYpbbI767RYA");
 
 export default FileExcel;

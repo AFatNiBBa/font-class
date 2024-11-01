@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ferry` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ferry?s=sharp-regular ferry}
  * @preview ![ferry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ferry.svg)
  */
-const Ferry: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M192 0l32 0L352 0l32 0 0 32 52 0 52 0L468 80l36 0 24 0 0 24 0 200 0 7.6-4.3 6.2-56 80-39.3-27.5L463.5 320 448 320l-48 0-224 0-48 0-15.5 0 35.2 50.2-39.3 27.5-56-80L48 311.6l0-7.6 0-200 0-24 24 0 36 0L88 32l52 0 52 0 0-32zM480 272l0-144-32 0-320 0-32 0 0 144 32 0 0-88 0-24 24 0 272 0 24 0 0 24 0 88 32 0zm-80 0l0-64-224 0 0 64 224 0zM79 488.9C59.7 499.8 31.5 512 0 512l0-48c19.7 0 39.4-7.8 55.3-16.9c15.4-8.7 27.2-19.3 40.2-30.9l.4-.4 .4 .4c13 11.6 24.9 22.2 40.3 30.9c15.9 9 35.6 16.9 55.3 16.9s39.5-7.8 55.3-16.9c15.4-8.7 27-19.1 40-30.7l.7-.6 .7 .6c13 11.6 24.6 22 40 30.7c15.9 9 35.6 16.9 55.3 16.9s39.5-7.8 55.3-16.9c15.4-8.7 27-19.1 40-30.7l.7-.6 .7 .6c13 11.6 24.6 22 40 30.7c15.9 9 35.7 16.9 55.4 16.9l0 48c-31.5 0-59.7-12.2-79.1-23.1c-6.5-3.7-12.2-7.4-17-10.7c-4.7 3.3-10.5 7-16.9 10.7c-19.3 11-47.6 23.1-79.1 23.1s-59.7-12.2-79.1-23.1c-6.5-3.7-12.2-7.4-16.9-10.7c-4.7 3.3-10.5 7-16.9 10.7c-19.3 11-47.6 23.1-79.1 23.1s-59.7-12.2-79.1-23.1c-6.5-3.7-12.2-7.4-16.9-10.7c-4.7 3.3-10.4 7-16.9 10.7z" />
-    </Icon>
-);
+const Ferry = createIcon("ferry", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABmAAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDEgsGAAE2AiQDCAQgBYMtBywbjgXIhocnu/86t7rfR/cYNRYWQETlYCZnQgYo2ojzf02+d8+vASsQDuyAaonfVmGRGBHPJzDADedNZXs+G85OFKduSinWQ5B8IlKmC1J2fD3eHaGMT+M2DdL96R3c2r80ftXT9SSNAkB0AMCCbZvWeO2r+Cri7f+fJt62CgGxAGSBAgX6CDBbIdBHKaNUCr6K//+3/8BMANEEb0ygRBOewFOAEiRlWU7o2rqlbrQtt9aNaldd1aKuR+vRQogusTlmxqKo2iyI6bE1uoUE63qsJONI2EdEvRG2FaKuoED33zW49oEq4uFhD4+6hqcfHfLgEKcVdX31DnHD0Ie63dPtri4xw3quVw58rMNjvw945+g7Xn0159eyyZPnGdyjhze0mGLaOpeZoMO6AS4r+6Zo8YYeegyed5XI/dvfhsq8/zbZ9gMY3mME8vr5uPYr8301/6MfpzG1x3hfX7m7QwQM2H3l1x/e4vSLiNDBwfF6TJ32492HD9/909SpPex+IBA88Pehjfvaz/6rpU7gmxf+/FNv9/9raX56DC0SCIrR/4+2O80HUweQTXGhgeSHAskDSvjUNu4RIFQIkDSpBCj01kGAUmWUAA39TBGgSWWTQpStQhd7Fp20cQ5dmOoKutTFk3TDbK9nmnSJImNd+eb6X8y/1MNLtuUJY8fnmfm1bbqT0Grrs/I1GH5hHRshBx11ljOd74jDTjjfUedak7/AGZYyZAkHZROMNV42Uw73fvq3auZc5zlx9sY3mSV/Hx3uQj5zhEQk0JgIkLCqSI2jR8499xIA");
 
 export default Ferry;

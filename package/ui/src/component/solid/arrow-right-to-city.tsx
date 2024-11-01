@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-right-to-city` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-to-city?s=solid arrow-right-to-city}
  * @preview ![arrow-right-to-city](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-right-to-city.svg)
  */
-const ArrowRightToCity: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M288 48c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 144 40 0 0-72c0-13.3 10.7-24 24-24s24 10.7 24 24l0 72 24 0c26.5 0 48 21.5 48 48l0 224c0 26.5-21.5 48-48 48l-160 0-96 0c-26.5 0-48-21.5-48-48l0-416zm64 32l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm16 80c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM352 272l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm176-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM512 368l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zM166.6 153.4l80 80c12.5 12.5 12.5 32.8 0 45.3l-80 80c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L146.7 288 32 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l114.7 0-25.4-25.4c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0z" />
-    </Icon>
-);
+const ArrowRightToCity = createIcon("arrow-right-to-city", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABqQAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDKgsGAAE2AiQDCAQgBYMtBzobtAXIjpQuZyQRVLbKrJ45mn2GeWa2SAhovSyxK4s25IktWbQVgj//13x+1nSA30706N6ZV1DUonHNow6ewATamxJ4NpxNFLe47eaIeGiD0DhAHv9k16sjPZK+wV3hQ+M3nV1P0pQBiFYAmLVhzTJXq1GN+Lr2AfG1JQiIWaAUyJChmwBTZQLd5ErkckE1ajXxH1gSQNSLH5ZAjia8j88AOUga8nxom1a8bHClrnm+Xu8sDjzWMeKhAZV4of0DnYXORTw24AUpTS58uN39fYvixQ4PdskWCQ+0r8RDHSMe7FDE/e3WpdPC9l+7SW/DgbvXrV/3gCvt1sb9xa0dHoxrOg6JIhrKQ5VKDI5X3da+96utXv3DN/u/0fOu7Fu+H7nTyO+/ze420ELtV61qv1CniVm1xQn46Z2rn66VZdmiWqq2KFVByxWdhOe3PLHN8q2W0Y3frYhTtzRvfgsxPcyMh6OKh53R4uabW4TMGQ+bCsu3A4Hg4C/PvLmj5dS/GysJ/PzpX6vr1a6mK+lVNEogyIbWhtqaroCYE+JcivN6b3xRIHldg/hdm3lQgFAgQFKvECDTVSsBcoUhAtTpYZwA9QprZCJvEtrZ1oGkmVMgM95FkGvnPVBnqs+z9dpFBr0S7En/junzh9C8ZeWo4SPLyeVqVSMDpGCnp5SHrYHnZdcgvNd+Jxx31j57HXJ2QJ62rHDOMfO3iHl+qDTKcCOVJisvN55uX2+f08445ITjfpEpyufjA53fHjwIu0nMONrqJBGp7a7Tp09c+Pgzw86eGPZuAwAA");
 
 export default ArrowRightToCity;

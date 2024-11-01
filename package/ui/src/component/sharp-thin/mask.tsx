@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mask` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask?s=sharp-thin mask}
  * @preview ![mask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mask.svg)
  */
-const Mask: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M262.1 336l9.9 0 32 0 9.9 0 4.4 8.8L361.9 432l38.1 0c44.5 0 84.4-14.8 113.1-41.7C541.6 363.6 560 324 560 272c0-52.9-15-99.8-54.5-133.9C465.6 103.6 398.1 80 288 80s-177.6 23.6-217.5 58.1C31 172.2 16 219.1 16 272c0 52 18.4 91.6 46.9 118.3C91.6 417.2 131.5 432 176 432l38.1 0 43.6-87.2 4.4-8.8zM224 448l-48 0C80 448 0 384 0 272S64 64 288 64s288 96 288 208s-80 176-176 176l-48 0-48-96-32 0-48 96zM160 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0-112a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm304 64a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-112 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const Mask = createIcon("mask", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABjwAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCRQsGAAE2AiQDCAQgBYMtBysbQAXIHoVx41NCxCUucVKTufRqn0X0/Ri69/4PgiNQiULFwgHJCJmJMBEWsJW6xnRqe2SHzSTeC0R2qdwa+v9WqC8RzNf//lTNOA8F8FswSBEa217ii8fk7kXY822tr4kFqRWsolh1OrLD4hQpyI4ioWxFhr8gPT530PMCCZip3wynAF6OL81/EFVFaQ0AMg0A4Pze3xM2P+EnxBN6jvwBdyCQcwCsQjQ0LEJwhFGwiMkq0HXhL9L08h+4CgJkEHTnAh3DeAY+gF9DGexM8tKceDHFzMkURDGTeIpQghiIFD5YbwQ/+A077ZNqh12Vy8A7y7VACoNROIBQ9T1e50Hd2hPuJ8F3rkeaYzK3HqeEYBASDAgaEG8Ra1bqFWkUbVLEOdUhlUGDebVh9RHj2BX6FYQH9CnHQDoc3wfJVuHxGim5YZ7h77KnSafA/EiIgQmo34ESe4cH6Ik+BU/e3n5+JxxVXTz7B4f2oDT0TLaydXSDm6QEBrC1t/81C7I03tbCAAlJNx3QfgCZWmDd0NnCQp2FmaOjJS2tpcPStiZZ5eVZhJnD+OX37y/tcQBBuLlQXInmtviPYgD4t/zzq5xL09Q5wzAwrEBoO7SGiLKhlaPOAfmVIpALLCFMg+/1U8d9C4hRBJRBowKaBTwQdKO2IRiwzBCCQaOuMUpnh5gXuaMy7gk1hypRN28GDThy4A+aD2Mqyokk/wlmODHpOE1GV0tHxkxmWGFKdonbpLnMbVOlSDpUsRWSZMtSIFGCVAVE5/GMCmVyiihHPyRDlxYdMszITNf3EIT4BvlY7CvzwNwaed5WURT3V8UsGAC7H1GUfIopMzY/HQAA");
 
 export default Mask;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `indent` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/indent?s=sharp-solid indent}
  * @preview ![indent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/indent.svg)
  */
-const Indent: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32l448 0 0 64L0 96 0 32zM192 160l256 0 0 64-256 0 0-64zM448 288l0 64-256 0 0-64 256 0zM0 416l448 0 0 64L0 480l0-64zm0-64L0 160l128 96L0 352z" />
-    </Icon>
-);
+const Indent = createIcon("indent", false, "data:font/woff2;base64,d09GMgABAAAAAAIMAAoAAAAABVwAAAHAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBIQsGAAE2AiQDCAQgBYMtBy0bngTIjtMN9cpWHxVB/dpnz9s9AN6cCjAqYHJAPo5An43jdUEjrmJTkdG//2rf5U2dep7zUADfKGhj4do8JuCc5xGIQLq8PgRqBatpBazWzn55Ra9LhpekfJJhkmEzuUMeL7NHqkjP0288jh8af/V5RFKXAYhWAKzavX2bcjzGI35VJH7ZgoBYBQqBDBkGBVgqExiUK5DLBeNRqfB/YEEAUQ0vSiBHDeZgCSAHSVWe1yFR01DVlO/Kl+qzpsYm0RixUzWB7Wg60j0rQuyMHaNjrWP/Jvw+9du7sixXKq38ClZiZYWVcFiJUAa7UrW7h6XHQSCYfueTh1uW/q9tSODPh/7xv6LKeJRpDLUSCLKplakORAlRCgBAiltGo0QgmaIK3rXREwFCPQIk1eoFyAxoFSBXb4oAVYbNE6Bave0ykdcJnQ5WkDS6CjLz3Qa5Tu9BlaW+edU6I7s4xLET77bY9S20bq+YNX1msbgYpgp5F7CwXlJMcxNvudYkuumUyy654aQTzrrRINdsC2+6aL0Fr/NFhVmmm6mwWLFc3F/e5aRrrjvrskuyZYlivzXRLXt4EokJUGc7SBKRqs9e+oIRAAA=");
 
 export default Indent;

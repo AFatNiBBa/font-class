@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dumpster` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dumpster?s=sharp-light dumpster}
  * @preview ![dumpster](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/dumpster.svg)
  */
-const Dumpster: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M304 64l106.4 0 18.2 96L304 160l0-96zM447.7 192l.6 0 61.7 0 32.2 0 1.1 0 32.6 0-6.4-32L544 32 424 32c-.2 0-.4 0-.6 0L288 32s0 0 0 0s0 0 0 0L152.3 32c-.2 0-.4 0-.6 0L32 32 6.4 160 0 192l32.6 0 1.1 0L66 192l61.7 0 .6 0L288 192l159.7 0zM69.8 224l-32.2 0 3.8 32L16 256 0 256l0 32 16 0 29.1 0L64 448.9 64 464l0 16 32 0 0-16 0-16 384 0 0 16 0 16 32 0 0-16 0-15.1L530.9 288l29.1 0 16 0 0-32-16 0-25.3 0 3.8-32-32.2 0L483.7 416 92.3 416 69.8 224zM272 64l0 96-124.7 0 18-96L272 64zM132.7 64l-18 96L39 160 58.2 64l74.5 0zm385 0L537 160l-75.7 0L443 64l74.8 0z" />
-    </Icon>
-);
+const Dumpster = createIcon("dumpster", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABegAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCYwsGAAE2AiQDCAQgBYMtBy8bYgXIjtRW94iZjIf/n6u67ydVpysZqOkhSo8CZoWEDlaha7tn9a5jYQgkga4E1w2Y/2vqxfOjAvl851q5sKZZJmU+n8CeV3vTgNMGNlHcsG3QRjT9zfE8Qh7fxGg10lvpS7xMvjR+1d89kjwDEE0ALNi4do2PxY8RX7Y+JL60CgGxEFQCGTIMEmC2TGCQXIVcLvixVov9B1YEEHXZSyWQow3P8D4gB0k9zxujpjQajbLWNd9Q1oqDZVGujyJifUSU5YDYEEXcjtsF5JlZQOe66CdkRpTrirLoH6pp3voQooyssWuib5RzF8VArbwusWGjUGz5inUb13VU1/Ub1kMb5g/rbHb+3vHlgS+Nu3kke5j2na7b9fIm5i48qd9NlyAeAngELul/004dO3nnq6FVVY3Tv1lpDm5/R3dNcYqmW5rU3t2mNliY23+eDr0/8qhyfPb2riz6uh47HX0KOS96tfadVt2GLGQncI/7gUDQ85fv9u7sPvv/tjKBn//z7/Z2LWl+6kSbBIJsdGu0bWk+MHoAgRQXDBOMMZDcc5o/tYtXAoQCAZK6QoDMQE0BcoVRAtQMMUWAusJamcgbQi/bR5B0cRpkproOcr18AGpm+8Rf1yuyL1P4roQfw9Slc3TJqGrC2PHVzOqwoBc/Nk44OKtStg+/wBtGwIMOOOmEc/bb57BzM/yMNaHzjlsqwpb4ocoEY41XmakyLr/evcF+Z5x12Ekn4mFmqdx7h7sgbj8CjicBJj5TKC2L1Lbv/PFTZ8/tPwM=");
 
 export default Dumpster;

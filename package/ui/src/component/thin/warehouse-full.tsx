@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `warehouse-full` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/warehouse-full?s=thin warehouse-full}
  * @preview ![warehouse-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/warehouse-full.svg)
  */
-const WarehouseFull: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M329.1 20.4c-5.8-2.4-12.4-2.4-18.2 0L40.8 131.2c-15 6.2-24.8 20.8-24.8 37L16 504c0 4.4-3.6 8-8 8s-8-3.6-8-8L0 168.2c0-22.7 13.7-43.2 34.7-51.8L304.8 5.6c9.7-4 20.6-4 30.4 0L605.3 116.4c21 8.6 34.7 29.1 34.7 51.8L640 504c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-335.8c0-16.2-9.8-30.8-24.8-37L329.1 20.4zM120 208c-4.4 0-8 3.6-8 8l0 288c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-288c0-13.3 10.7-24 24-24l400 0c13.3 0 24 10.7 24 24l0 288c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-288c0-4.4-3.6-8-8-8l-400 0zM320 320c0-8.8-7.2-16-16-16l-112 0c-8.8 0-16 7.2-16 16l0 64 144 0 0-16 0-48zm0 80l-144 0 0 80c0 8.8 7.2 16 16 16l128 0 0-96zm16 96l112 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-112 0 0 96zm0-112l16 0 96 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-256 0c-17.7 0-32-14.3-32-32l0-80 0-16 0-64c0-17.7 14.3-32 32-32l112 0c17.7 0 32 14.3 32 32l0 48 0 16z" />
-    </Icon>
-);
+const WarehouseFull = createIcon("warehouse-full", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABlQAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCaQsGAAE2AiQDCAQgBYMtBzUbbgXIhqDSVWW1NBO70tAR6xDoGdEk9oANky20CKZO5dyfhwL4mhAEZeyuZWPRGuO8Aj2vleakXgVaKlhFsYPzJh9wd2g/Qx5/O0qNdH/6FLe6L40fDHAVSZYBiA4Alu/dudn7X8VXEZ/+/wrxqY0IiBWgEsiQYbAAi2QCg+Uq5HLBV/H//+w/sCKAqPM/KoEcXbgbjwFykNTzfNTgVtkcW9aa+Z6yVhx7T+/D4qn+Ke7qfU/fLB6de2Tc2+fweGVIx/HAmCN2FUID9+DYZjw9gEK6xu5ILpBTlOFnKMpC3N1H6XaXxHVvv4gpvUBrb+xzN3FZ77uKRtzQ957w4y7vd29ZxvArjHih88JPwz895lPrXrziiuYpLujepn7YYfVterWbJ/v++9jS7tXVdV8wrvvyrUJZ6aJKn+232d6nQcE9bvvg1NZXp/mqtcxtOqZtu83XbdMOu8xh7UNPg0wvM5px2Gmdzmmt666rMwng2aZDg9OQac+DQHDgvtt/OrS96NeuMoFv3vzlL/bh/99Pl6UX0CWBIJv0/yQHpcsAEQPwpTjHiIkZBpKbnel3bbhHgFAgQFJXCJAZpCNArjBRgJqhZgtQV9gpE3m30NvBFUwaToeZOS6Gud5egjWLfOCt6x3Zx8l9Wty/YfKaJlg9rZo+ZVq1oBotK/jvjdHjC6vF+nHndNrGw4WOcapTnOVoRzneWQ3sDJsDZzvZmil0tR+qTDfFNJUFqs21u7o9Gr4znOn4YWH7JAtVx1vHOWe693hoSnzSGeYmiUitcw8/4+hPVzH5NQYAAA==");
 
 export default WarehouseFull;

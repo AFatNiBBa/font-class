@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `battery-three-quarters` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-three-quarters?s=thin battery-three-quarters}
  * @preview ![battery-three-quarters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/battery-three-quarters.svg)
  */
-const BatteryThreeQuarters: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M448 112c35.3 0 64 28.7 64 64l0 16 0 16 0 96 0 16 0 16c0 35.3-28.7 64-64 64L80 400c-35.3 0-64-28.7-64-64l0-160c0-35.3 28.7-64 64-64l368 0zm80 224l0-16 16 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-16 0 0-16c0-44.2-35.8-80-80-80L80 96C35.8 96 0 131.8 0 176L0 336c0 44.2 35.8 80 80 80l368 0c44.2 0 80-35.8 80-80zm0-32l0-96 16 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-16 0zM112 176l192 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-192 0c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32zM64 208l0 96c0 26.5 21.5 48 48 48l192 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-192 0c-26.5 0-48 21.5-48 48z" />
-    </Icon>
-);
+const BatteryThreeQuarters = createIcon("battery-three-quarters", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABlgAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCYwsGAAE2AiQDCAQgBYMtBz0bcAXIjpQuZyQRVLqqrJaWNAvaI9Qx4oNHCCax9xw+sIvW21Mh+v9zuef3/GiBLDuCQ1uNMT+2xnqeQIBpOKYFlGVhFlBi3KC7iUE4vnx3gjx+clQD6Yn0He5z3jT+0tvNJFkGIEoALNqxZZ0vfo/fI76rv0t8Zw0CYjGoBDJk6CfAXJlAP7kKuVzwe9Tr7D+wIoBo5D0zgRxNeARPAXKQNOT54NFtffrUGtry7bWG4sQroyLe6C3ogx4f+frQ1nh19Jt9Ip4a89aItm0hanFXz8ci4oYejxZFRDw7BNNb451pW/qJZ0a9Ma0t3gfWgUH2eqS7eLhbcbhW1O7q/ghxfbeHF6juXCYsLun5WG2m8EQvDKvFazXoG/EkhOFFvDzj8F6D3yzf/Md3x7/z+YbnO+ksSqWDYnbR2fn8Rc/biudL94bfSi9L++23ty+MhRlkbD9WkuWx7dFSZlYHDx4s/W5Dv5fPXfeFJ8y1HBSvfKFU1+dA9v3PE9vkxJ+/z1rK3wGB4M+rfvjvQMfc/5trCfz50X/TO9PC9CaaJRBkY+tj7U0LgXEDiKa42uCRDwok92jgvWqrRwUIBQIkjQoBMn2VAuQKYwRoMMA0ARoVtshE3iJ0s6+kklaXqMx011C5bt6mGsz1ZaRRt8jOTOm8kn4MUy+vI8s2VZPGT6xmV4MtuXyyCXp1TjXbPPJqPjIK7nTcBedd6ZijTrmyhl22Ln6Vc5aPoct8UWWS8SaqzFat7t6G7Y6J1VfUhX7F+nXmqPb3j3T1+PRR0JZ4vJPVJYlIPb4D2nHHvH7cZam5AgAA");
 
 export default BatteryThreeQuarters;

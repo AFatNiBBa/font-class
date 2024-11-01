@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mask-ventilator` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mask-ventilator?s=sharp-thin mask-ventilator}
  * @preview ![mask-ventilator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/mask-ventilator.svg)
  */
-const MaskVentilator: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 300.8c0-49.1 23.3-119.3 61-173.9L264 48 376 48l58.6 78.9C472.5 181.6 496 251.8 496 300.8c0 64.2-40.2 120-98.6 146.6c16.5-18.5 26.6-43 26.6-70.1c0-23.6-8.5-53.1-20.7-80.4c-12.2-27.4-28.7-53.7-45.6-70.6l-2.3-2.3-3.3 0-64 0-3.3 0-2.3 2.3c-16.9 16.9-33.4 43.2-45.6 70.6c-12.2 27.3-20.7 56.8-20.7 80.4c0 27 10 51.7 26.7 70.3C183.6 421 144 364.8 144 300.8zM272 452c-24.2-15.8-40-43.3-40-74.6c0-20.4 7.5-47.5 19.3-73.9c11.2-25 25.7-48.3 40.1-63.4l57.2 0c14.4 15.2 28.9 38.5 40.1 63.4C400.5 329.8 408 357 408 377.3c0 31.4-16 58.7-40 74.5l0 22.5c56.6-13.6 103.4-50.8 127.2-100l139-38.6 5.9-1.6 0-6.1 0-192 0-8-8 0-176 0c-.5 0-.9 0-1.4 .1c-2.3-3.6-4.6-7.1-7-10.5L384 32 256 32l-64 85.6c-2.4 3.4-4.7 6.9-7 10.5c-.3 0-.7-.1-1-.1L8 128l-8 0 0 8L0 328l0 6.1 5.9 1.6 138.8 38.6c23.5 49.2 70.1 86.6 127.3 100.2l0-22.4zM624 321.9L502.9 355.6c5.9-17.2 9.1-35.6 9.1-54.8c0-45.1-18.1-105-47.8-156.8L624 144l0 177.9zM16 144l159.4 0C145.9 195.8 128 255.7 128 300.8c0 19.1 3.2 37.5 9 54.7L16 321.9 16 144zM296 320l-8 0 0 8 0 176 0 8 16 0 0-8 0-168 32 0 0 168 0 8 16 0 0-8 0-176 0-8-8 0-48 0z" />
-    </Icon>
-);
+const MaskVentilator = createIcon("mask-ventilator", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABnQAAAK5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDHQsGAAE2AiQDCAQgBYMtBzYbowXIjsK2nXOSJIyvYfCg4vn/36/tc/8b1JJoJJHFSqBGMosMSZtYKJQyizqh86EoHbonGullhrcdIqCmSNFkUqXC+b8m37vn14Cfj+BQojG3fh5Ne6PM5xMY4I2iqIHGVTibKO5o3guDGOKFNq6g5Tfj+Kgb5xtcex+akVzroLgdALIAAM6v+nbn1TDfo6/9feRXVwjIOWCboIMO1gk44hKs81hoPMIw/3vxH2gRQMYInq+ABuPwAH4ANKD4zavaKjGxOPYTvQGxbwauLpZO1hyoWP11vfpxTlW71uhq8YkaN6pkyZgMXap2reB45Sc1bhT1f1J6tObNqrEuV7+ee6oRem36dJOVLZxszBYdyBqQJ6uf9mWsNjgdEa0e6tj4cX2N7Tew31GtLtLJsZgxbWKccYxVuQOk0bW00JhWUBvXe0im9ErKlR873yZ8s3NPhX/w/7lJD2ZJjuhx0r8K9l94ext5TaocLcG9TOVqlSZedOzd/YHklQcGpyTnZA9swqC1nOSUwVlcjqLMLeXpLfBKKHwR9fZb9mcViHWGopcw5JVAb0uyMyejK9kjVy8qCR03F5Z9ejTxFHdG3j4ZJA189GmvcPNIiDvZN0Ps4RYaSkEvYYVa7B8iBASCuzrTe41MbvYrjB3A38fPkXzv/lWtcq6ACQ4QdAf/qxlWqwBBFyBSWUDpzBcFyjl8wbXOOICAMBCgBAwBnXwpBDRGVQIGitQnYIzRl0stQjIMr4EjwWzgamA58GS4C3zNfAwHMuKCrQh04lVjWoc23H6QrV2jlm1iJ3NKCRJ529vUrtYrLZA1lfFEJphphnnGG2eyeS1qju6x+abrMIe090NWbTXUYjVhdxfvjx5gvDnmmmymGW4/Tdnzg5UsmG9eGVuOgPHQkuIglTx99Nyp1Rf8MTc8bfS8mXMAAA==");
 
 export default MaskVentilator;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-walking-arrow-loop-left` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-walking-arrow-loop-left?s=duotone person-walking-arrow-loop-left}
  * @preview ![person-walking-arrow-loop-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/person-walking-arrow-loop-left.svg)
  */
-const PersonWalkingArrowLoopLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 480c0 8.2 3.1 16.4 9.4 22.6c12.5 12.5 32.8 12.5 45.3 0L116.3 441c4.6-4.6 8.2-10.1 10.6-16.1l14.5-36.2-40.7-44.4c-2.5-2.7-4.8-5.6-7-8.6L68.7 398 9.4 457.4C3.1 463.6 0 471.8 0 480zM17.6 229.9c-5.6 16.8 3.5 34.9 20.2 40.5s34.9-3.5 40.5-20.2l2.6-7.8c5.7-17.1 18.3-30.9 34.7-38.2l8-3.5c1-.4 1.9-.8 2.9-1.2l-16.9 63.5c-5.6 21.1-.1 43.6 14.7 59.7l70.7 77.1 22 88.1c3.6 14.5 16.7 24.2 31 24.2c2.6 0 5.2-.3 7.8-1c17.1-4.3 27.6-21.7 23.3-38.8l-23-92.1c-1.9-7.8-5.8-14.9-11.2-20.8l-49.5-54 19.3-65.5 9.6 23c4.4 10.6 12.5 19.3 22.8 24.5l26.7 13.3c15.8 7.9 35 1.5 42.9-14.3s1.5-35-14.3-42.9L281 232.7l-15.3-36.8C248.5 154.8 208.3 128 163.7 128c-22.8 0-45.3 4.8-66.1 14l-8 3.5c-32.9 14.6-58.1 42.4-69.4 76.5l-2.6 7.8zM160 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M486.6 454.6c-12.5 12.5-32.8 12.5-45.3 0l-80-80c-12.5-12.5-12.5-32.8 0-45.3l80-80c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L461.3 320l18.7 0c53 0 96-43 96-96s-43-96-96-96l-128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l128 0c88.4 0 160 71.6 160 160s-71.6 160-160 160l-18.7 0 25.4 25.4c12.5 12.5 12.5 32.8 0 45.3z" />
-    </Icon>
-);
+const PersonWalkingArrowLoopLeft = createIcon("person-walking-arrow-loop-left", true, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABwAAAALvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDLwsIAAE2AiQDCgQgBYMtB3gb+QURlZsM2cdibKuGfUc0N+Ug2rCDf/i83nPfy8wHlAJyfkEtZ1tA2bXdQlrl+Pt572NkLmkC1ajF0RSNExzh/rh3598+bV+7AsxDee1h/wIZk8I5zxNIYPumOMyzQDO0RrddFFEN6bJO5wwcU86uJARmn/GBLcH/AOojOawEQ4wFAEDJAABAi369unD1mZ4Z+cFJkE9nQABqCYCLAAtYIB8B0BiLgHwcXMDBQfDMBAE8UxC4IABQmAC1xMPofU4BtwEABwCDsI4zqFlWx4S4UILTNy4UO2InLq2Xx9qNipWJ9hAbpCV46anidKbwck75s4aveRgwGDs8bnJp9KjxxWGmgvbcDV7GktigDLRHcdRUu+Wqumsn9NspIe2SlkpYq+hAoqg4qCWq62A2UszsixbK2vMeJvcVztllRdo1BvaaWIXanz/x9aGou9XT++2LLsnN2MXX8Kz6Efb5L+GP9XkT3ktBwt5ON9YlJKwroA/M0zRvSMOLRKKjU63nkbh2mljrQSv5PqJYK9+30th7JAUu8rif8mNs/YcsplapTXCedQkp/xt3hEE3bpxPNU5Yd2AmkpTIjAFtO5PRj7HTneo3BkyskjmISvMzSGvOaqb9/XDyxIlJnRo1OlXnFU+OHS8ZfJ5F2dJZm76xUxctmhrrPw8AAgQ7HrebOyyp8e9owgDw4vzXn/xxgqvGwyIA0RgABLZyUJnBxgMA2gsAfpTRXEoaDzUHBFimYok08exGlEUstKIhTKxoySNZdIilkhiikDqenbt7YZETg0hnCBQN8cwQLXVZIjqkc0IM0Zg7hTDpsgrYp/x834+F2/aRNpvcGlWruw3dxZbaryY97mojd3e6/Fw+UgGeZCzTmMpsxjCaCczu0TPpUp7DFNquObf5rksNqlIdl4a4p7uPD/dlDDOZxQSmMdVfpxHu/fnyzF2fXgHmDJHLmmyxWJCRLavg41VsnsYqI2bOnDavil3gNeXxKj/F2c+WoE4AAAAA");
 
 export default PersonWalkingArrowLoopLeft;

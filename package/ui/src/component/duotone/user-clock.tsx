@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-clock` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-clock?s=duotone user-clock}
  * @preview ![user-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-clock.svg)
  */
-const UserClock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 482.3C0 383.8 79.8 304 178.3 304l91.4 0c20.6 0 40.4 3.5 58.8 9.9C323 331 320 349.1 320 368c0 59.5 29.5 112.1 74.8 144L29.7 512C13.3 512 0 498.7 0 482.3zM352 128A128 128 0 1 1 96 128a128 128 0 1 1 256 0z" />
-        <path d="M496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-208l0 48 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const UserClock = createIcon("user-clock", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiAAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCDwsIAAE2AiQDCgQgBYMtB1AbMQXIhqCyWWX1jBR3kg55VkfAFjA+IBoeAHqIrv5dJs3/NZ+fNRXI5yM4tKxVgESBZT6fwIA3mkXbAFtomma+20nd3WBQOoMkHb3JsLkMiw3kaXB2lRLp/vQebnX/Axjf6OEqktYZgGgPgLnrVq30RiMaKd5rPkO8ZwUCYh4oBDJk6C3ADJlAb7kCuVzQSM0mjWg2CwKIMgdnrDKe4QGcBOQgSVKe9+rcrVe11CZfWy1Vdtw4PeLl0Y/H5aMem/ZS5YYpL4x4xGUjH536YnWdUI27u9zVuRL3dI24t1ue6ctVEZ+uq8aNA++bWaAWN3S9J/ZdNiTigSEPVG4Y9pBn4vLhDzPVG4c++Bv1h9o/9F3Le3vf88PswYk0tmXQoJaxKQ0enDDS7sMxXFxotG3bGBOYOdo2TqgeyzrSsiw26/fi9b1HTpg4+Ig2513bZtuO/jVqH39Ur3/0ca3WX5TQ74BA8PdXn2zd1m7Gb62qCXz90g+/xKObb6TL0kNoJYEgG9EcYXO6DIgdwItKcVY9XRbbEciMk/Cj1twjQKggQFJWESDTS3sBchXDBSjpa6IAZRWrZCJvLXS2hUBScwJkJrkY5Dp7GpTM8GaqrHNkCieqi/jfS1skoYWTirGjxhTTim5JknSIt6PTi2VvyFnTMhTm2uuYo07bY7cDTgvypJXZM45YNCIWeqLCWKOMUZim2K5ea2spddIpB9rK/jjTFeeTQ5wddx8KgYQ5x5mSyYgUWcdraox8oNZI1W3tXCq3FA==");
 
 export default UserClock;

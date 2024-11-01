@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coffin` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffin?s=solid coffin}
  * @preview ![coffin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/coffin.svg)
  */
-const Coffin: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M11.5 114.9l91-104C108.5 4 117.3 0 126.5 0h131c9.2 0 18 4 24.1 10.9l91 104c7.4 8.5 11.5 19.3 11.5 30.6c0 4.4-.6 8.7-1.8 12.9L286.7 488.9c-4 13.7-16.5 23.1-30.7 23.1H128.1c-14.3 0-26.8-9.4-30.7-23.1L1.8 158.3C.6 154.1 0 149.8 0 145.4c0-11.2 4.1-22.1 11.5-30.6z" />
-    </Icon>
-);
+const Coffin = createIcon("coffin", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABUAAAAHOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBBQsGAAE2AiQDCAQgBYMtBy0bggTIHgl27MhWxHD7YwTFWtmzu48Q4A0RKUJWrLg8sQs7Fg7IpiKjL2vR3zMkHf/q1viNHx3ggsh9PdZ4IP0Uv+94Ao3nzXngeRxYoBxT1s6u798gWA2f8kna9Rk2ixOyOJKeVURyI/mCy/mh8VcLZ0mUpQCiFgDjF8yZ7d2v+BXxuYD4bCYCYjzIBVKkaC3AKKlAa5kcmUzwKwoF+QfmBBDF6o0TkCFFF/QDZCARWda2oqgqm19RVL5kwdwF1yoq4nyTeXHFycaFcb1TedxquTiuxqlmHe7V3vvny/ovKmYt3sCRczVnVN8khQf1xU2Wz7Bv5Ukr9/FFTUrqXgGB4OvTWlEz6n9pRQL+vHj46MK7OJncQ6kEBGmvQi9L4yTESQEASGK/DnESgURbCQAAgEpXBQjlCJAoVi5AqpVaATLlegpQpK3BAhQrN0cqsjKh0bICiUq7IDXEMcg0eg5FRnnvFGuM9KpwR/OXWsYUjSZv5f379MtH5MNEE96ncTkyn7a67Q+N7lBab4ft9lpnrU32KrLbbH+fbaZYeLIX5frro5/cCPlyfn883zq77bHJDtvTmpHy/XY3++3+7tgnAQw45HhCJMVrvqw1twM=");
 
 export default Coffin;

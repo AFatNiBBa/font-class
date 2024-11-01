@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `waffle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/waffle?s=duotone waffle}
  * @preview ![waffle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/waffle.svg)
  */
-const Waffle: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm48 0c0-8.8 7.2-16 16-16l80 0 0-64-48 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l48 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 64 0 0-80c0-8.8 7.2-16 16-16s16 7.2 16 16l0 80 64 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0 0 64 80 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-80 0 0 64 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48-64 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-80-64 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l48 0 0-64-80 0c-8.8 0-16-7.2-16-16zm128-80l0 64 64 0 0-64-64 0zm0 96l0 64 64 0 0-64-64 0zm96-96l0 64 64 0 0-64-64 0zm0 96l0 64 64 0 0-64-64 0z" />
-        <path d="M272 64c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 80-64 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 64-80 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l80 0 0 64-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 64 0 0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80 64 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-64 80 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-80 0 0-64 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48-64 0 0-80zm64 272l-64 0 0-64 64 0 0 64zm-96 0l-64 0 0-64 64 0 0 64zm0-96l-64 0 0-64 64 0 0 64zm96 0l-64 0 0-64 64 0 0 64z" />
-    </Icon>
-);
+const Waffle = createIcon("waffle", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAAB+AAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhgiFXwsIAAE2AiQDCgQgBYMtB0gb+QbIhof/X/P9fe5MsppJy4GWp1VAKfFjVSD8hApIMQnz1CcFhDrrWwKdg2vq2hPoU3A+0gNaVFAFeAfPo4UyvAXmQ52IbXHb1dpxDYWFwhXy+D67V4X0bPoSD4cPjl9Ncy9JLQMQEwHQf3Dvdu92o5viy95rxJe2ISAGQCmQIcNMATbJBGbKlcjlgm7q9eiG+OcrCSCqUI/LQBXjiG3EIUAOkopqnl9XE+wZ19fC9cq4/ICfW1x8qvVEQxQRUQI80XiyWQ+AJ5tPtyMAnm4/1SpCfoPvcFEvtuiKghWs+pvip/6I97Z/Vb9/5zeDHxz8eeD9HV8X9237su/dffWn2/WIKOKpFgV4uv1kUwA82XyiUQTAE42nWhGScyXYd1CQOipD78x5oxNHf5/75YUvTbhjfLc7fpc+HZTU0dEdj3T02UXZJfPy+W702WWPc+uEvjSiPn2nihO8a7jGtFffGxx879VpNcPtZNGozpPyv6f9HTvf1/7kye7tQCB48b+3Xjg5YdP/Y+oJ/PL6n//mH5Leu0kaxRgJBNni3mLHEkgEACDFLeYlOghkXlKVdo31lAChoMaSqgLLzDARyxUWYRWzrd5dVdgrE3lNaDheY8lY12OZNW7Dcg2vYhWbfBKtakQGWBKwkPzXphxp04dnlcuXdsoN5WRSKYUVkW3eWK42zr9FFi3AK11wrWvc5LxzLrupxb/B9sTNrjYyJzj83dJyS3WUNih3Z+4rD9DoDW50eVy+v5ONyvO9890yX3kBtiRJ6Aq7MxmRIht/6+kLF646vwRAtROb8i8RAAA=");
 
 export default Waffle;

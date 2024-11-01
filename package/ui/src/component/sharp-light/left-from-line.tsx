@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left-from-line` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-from-line?s=sharp-light left-from-line}
  * @preview ![left-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/left-from-line.svg)
  */
-const LeftFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M208 208l-32 0 0-32 0-48-17.7 0L43.1 256 158.3 384l17.7 0 0-48 0-32 32 0 112 0 0-96-112 0zm0-112l0 32 0 16 0 32 32 0 80 0 32 0 0 32 0 96 0 32-32 0-80 0-32 0 0 32 0 16 0 32-32 0-32 0L0 256 144 96l32 0 32 0zM448 432l0 16-32 0 0-16 0-352 0-16 32 0 0 16 0 352z" />
-    </Icon>
-);
+const LeftFromLine = createIcon("left-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABYQAAAHuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBXAsGAAE2AiQDCAQgBYMtBzUb4QTIngPu7BCLug0RhywX49guFvvjPJ7n2y+9b/4EiHSiUIUdl8CoVKgKWUfCrpBVe3xB1ZMk0Ov/c7i/t7kseyfaU8uisZdleccTDCT7M5lZKhris7bd/F/T755fA36jQ4u0tiiKxKNe9PMJTCx1QvPZwAY08QnYrJ3egJK67ROfImTY/ofRA2pemZryqsAzftN8NedBURsAZBQAHD8ol/D5yI/JfyfyxjkI5ATAKqJBg0UEe5SCRSqroKrCx3Q64T9QIEC6gacXUNGFW+AxgAqKpqqcK3Zjl1lVM6oNdYPRQJIGVlilkdCMRllBiIQhrH4DN2us0zgFHSnK3etEiqtF6zUz3v8U1BHmcHoa7zqECbke4HAtIrbOFgwYsvmrT3lvdeSGDcwYDdjw1wBB+PDFV9+a/99rVAA+v/752/2G0i4t9CogNBuddfKBtAUAUHKDK20ExSklvOqg5wKiHwFFt34BjQU2BFW/dQRdliUQdOt3h1KqHjGp20Ax6Alo7LqDatIbdNnzFXebTKNWnFJwn7rkooQLpyQSDEtWpq3KawqTD3OyrbpvccFDVzGzt3MxNbF0EdRJKbvaKq6Qgg8SEUFhIkuuh8fzNVMnZ0t7u3JMjry33W7r9R4yFEC7qVEUUiyWpgTsTwlYHg==");
 
 export default LeftFromLine;

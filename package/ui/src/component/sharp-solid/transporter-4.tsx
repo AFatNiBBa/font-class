@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transporter-4` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-4?s=sharp-solid transporter-4}
  * @preview ![transporter-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/transporter-4.svg)
  */
-const Transporter_4: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 0l64 0 16 0 0 32-16 0-64 0-16 0 0-32 16 0zm0 64l64 0 16 0 0 32-16 0-64 0-16 0 0-32 16 0zm-48 64l160 0 16 0 0 32-16 0-160 0-16 0 0-32 16 0zm-32 64l224 0 16 0 0 32-16 0-224 0-16 0 0-32 16 0zm-32 64l288 0 16 0 0 32-16 0-288 0-16 0 0-32 16 0zm64 64l160 0 16 0 0 32-16 0-160 0-16 0 0-32 16 0zm0 64l160 0 16 0 0 32-16 0-160 0-16 0 0-32 16 0zM416 512l-120 0-80 0L96 512l0-64 320 0 0 64zM64 384l32 16L64 416 48 448 32 416 0 400l32-16 16-32 16 32zM464 128l16 32 32 16-32 16-16 32-16-32-32-16 32-16 16-32z" />
-    </Icon>
-);
+const Transporter_4 = createIcon("transporter-4", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABgQAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCPwsGAAE2AiQDCAQgBYMtBzQbQwXIjsO44TuyxVL+I3h+raze714aCGIHgFnGkYteFaA7dmhEwB6wnmQmxJv/y/HdAY35/It/P7SxcE2QWVm4BycQBtZLe2Gi2fRAjiABy9rZLwyiEyWEeiHD+IPdFfL4Klsd6WmCh+5B41ed3SVpygBEKwDM2rBmme8/xseIX2pviF8sQUDMAoVAhgzdBJgqE+gmVyCXCz5Grab+AwsCiHrAEzfnqOAmHgBykJTyvIy2ptaty3XVfH38rLSlXCqLUimirEAz4ZF4tVJFKvNX7YTrSmWmxmrY3a9/v77RKbpE/xgQXaPzns5dOveL/oLeza2af+9lPx++mzlzZaFVmJhZ+NqzZ8/R5/jHj3+hf+FFMXLGSHZiJrX+eaOLM2fy4Y4bNUyinQ9rQ31AIOi9oN3wHS2n/t9YTuDzl3/+nn5Fte+T1IxGCQTZ0NpQWxNIBAAgxXm9EwSSi0pwrxWPBAglBEjqlQTIdNVKgFzJEAHq9DBOgHola2QibxLa2VZBUnEKZMa7BnLtvAJ1pvohq9cuMjmUpUj+BmbMb7F5h4pRw0cWkwu2IyuiJZrNKcWyOfC8nhhEZ+13wnFn7bPXIWcb+rRl5TnHzJ9B876oMMpwIxUmK477j6fX2+e0Mw454bjdZ4rifjrQ+fn8QeQkEBztSJKIVH06otPDxgI=");
 
 export default Transporter_4;

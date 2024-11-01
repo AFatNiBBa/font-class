@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-back-point-down` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-back-point-down?s=sharp-thin hand-back-point-down}
  * @preview ![hand-back-point-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand-back-point-down.svg)
  */
-const HandBackPointDown: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 512l-8 0 0-8 0-224 0-8 0-7.4L18.8 206.1 16 203.7l0-3.7 0-53.7C16 97.5 42.2 52.4 84.5 28.2l18-10.3C123.1 6.2 146.3 0 170 0L312 0c57.4 0 104 46.6 104 104l0 16 0 88 0 48 0 8-8 0-56 0 0 24 0 8-8 0-64 0 0 24 0 8-8 0-80 0 0 176 0 8-8 0-88 0zM88 243.7L88 168l0-8 16 0 0 8 0 89.2 0 3.7 0 11.1 0 8 0 216 72 0 0-176 0-8 8 0 80 0 0-24 0-8 8 0 64 0 0-24 0-8 8 0 56 0 0-40 0-88 0-16c0-48.6-39.4-88-88-88L170 16c-20.9 0-41.4 5.4-59.5 15.8l-18 10.3C55.1 63.5 32 103.2 32 146.3l0 50 56 47.4z" />
-    </Icon>
-);
+const HandBackPointDown = createIcon("hand-back-point-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABegAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCPgsGAAE2AiQDCAQgBYMtBzsbSQXIjsO44TsiBkv7j4fn9ag/9yWjZI0sQH2xE0qjmu67F1pWQi84qjKbuOb5W1N7Amg0vdUGEgnUwRPY+TTK1jqN1OFsojhrZ0cYRL9JkvIhw6L/YbSBPB61Ww3p4TTuzx8aP+joFpIsAxAtADBj3aolGr+NbyM++v8N4iOLEBAzQCWQIUMXASbLBLrIVcjlgm/j///9f2BFAFGLrpJAjhy34C5ADpKU51OmlTVN87VlTbGmKIsgZm20i5U3Bj03qV88VxJvDHimq3D9i8KKN4aIKLNgl/t9y9IcHfHEwGfHFnFX797xdIeHiCU9n23x7E893rtt0+rpdL5Vr87siXrIjdWnW7fU0Xe99fKXn5QtrDdcvfrxHQBMB5e/7G4rF2Odei3U2yBXqvep+V5msxfvN76/9VrI77hjuqqXOmr86+9qpGtAIBg7+MKcbc0n/1pPAt+/+8sP5Xwt/m+Mp1Kol0CQDf5/sM3RqIUqnhIAgBRn9WS+KJBcltB7NPGAAKFAgKRWIUCmsxYC5AqDBKjRzRgBdvwqmcgbhDa2NDZp4gSbGesKm2vjNbbGZO9FarWJTA4VKVJ+gZlze2DOsGrE0OHVxGqaVVXRkmL3pGrZ6X82VA3AXHsdc9Rpe+x2wOkOP2lJ/Iwj5nLYHD9UGWGo4SoTVceFx+lr7XHSKQccczQNMkl1P9zfWb7xAIwmAUa+YEYiUhuxtYZopz1ES60hGgoA");
 
 export default HandBackPointDown;

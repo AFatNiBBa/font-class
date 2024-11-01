@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-xmark?s=duotone location-xmark}
  * @preview ![location-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/location-xmark.svg)
  */
-const LocationXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 192c0 87.4 117 243 168.3 307.2c6.1 7.7 14.9 11.5 23.7 11.5s17.6-3.8 23.7-11.5C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192zm104.1 61.7c.1-.8 .2-1.5 .3-2.3c.3-1.5 .7-3 1.3-4.4c1.2-2.9 2.9-5.6 5.3-7.9c15.7-15.7 31.4-31.4 47-47c-15.7-15.7-31.3-31.3-47-47c-9.4-9.4-9.4-24.6 0-33.9c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7c15.7 15.7 31.4 31.4 47 47c15.7-15.7 31.4-31.4 47-47c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7c9.4 9.4 9.4 24.6 0 33.9c-15.7 15.7-31.3 31.3-47 47c15.7 15.7 31.4 31.4 47 47c4.7 4.7 7 10.8 7 17s-2.3 12.3-7 17s-10.8 7-17 7s-12.3-2.3-17-7l-47-47c-15.7 15.7-31.3 31.4-47 47c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7c-2.3-2.3-4.1-5.1-5.3-7.9c-.6-1.4-1-2.9-1.3-4.4c-.2-1.1-.4-2.3-.3-2.3c-.1-1.2-.1-1.2-.1-2.3c0-1.5 .1-1.9 .1-2.3z" />
-        <path d="M145 111c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47z" />
-    </Icon>
-);
+const LocationXmark = createIcon("location-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABoAAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCUQsIAAE2AiQDCgQgBYMtB1gbewXIjpQuI1bx8P92fb/PrepeA6AGZgS430CKyM+ImaIfmdFEb/1Qiuvc0U79Yz7wt+K2DzJr4prnbxkgZe9ai0pM0I7zCew8dRaJbwOa0GZqU3DbxRHzkGChcYM8zmRXVEhP0le4Ff4PYPyqoyskDTMA0QIAM1Yune+9+qhP8VX5DvGVeQiImaAQyJChiwCTZQJd5ArkckF9KkvqoywLAoiq0OwMVFHBVdwH5CAJKc+LrnMaV5rmK8IDjda+0rs6UkwOKZv9JKaEbHTimBbqojkYU7MXRkC8OSPi/SEPGl9r/2Z9OOrt7n/JDyt+WvTdsuUXI8IPPGqv+Dso2iV659yRarsHTPSm0Dqs/oND7kIba3S1Hcd932D6sYhGclLPN1qc33t8VfvK7UVNm3733R/+UKhcV22HL+jyjF9q1L38XLNmz71cV/vlWZdYvHz54hCP5ctfqJsSiIjIRh2rK/84fvy772qNGtWO1zj4R6ky53GlM53G/rD03p5tIpIUEQCBoPOt88c2Np/8f4PGCfz87p//Vq8o348L6Q00kECQDS4HW0eL4CsDKKU4pif9oc0IZLZI4k9t4qEAoRECJFWNBMh01kKAXCODBKjoZowAVY0slYm8odDG+k5ImjgoZMY6K+TaeFuomOzTclWbyBBpwZPlhzDn3CEwZ10xYujwYmKx2tRYQaZ7y5OKw8H+x/TQAHpUzX77HLHdNjsdGTCHzK8dtdfcLWyOLyqMMNRwhYmKy52nzhW8fMhhO5ft11eZpHg+29+x7ckD6GYSYOS7rMuIFFk7LIeGnMCvdwi6x3WYs3/KAAA=");
 
 export default LocationXmark;

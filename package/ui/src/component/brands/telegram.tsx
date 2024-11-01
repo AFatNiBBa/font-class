@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `telegram` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/telegram?s=brands telegram}
  * @preview ![telegram](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/telegram.svg)
  */
-const Telegram: typeof Icon = x => (
-    <Icon viewBox="0 0 496 512" {...x}>
-        <path d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z" />
-    </Icon>
-);
+const Telegram = createIcon("telegram", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfQAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCBwsGAAE2AiQDCAQgBYMtBy8bBgXIhof/t+u/fW5VdX8A9W1mnolERoDStyYCNP3NP+88CvBxl9vYVl6ULfA5zxPoPO/yDZguG/88UfzWzj51BtFvkj7xSYZJP2wWGSCPx+MSBena9DYuTjeNr7V2LkmRAYhGAJi0Ysk8z9dETcTb/z9JvG0OAmIyKAUyZGgnwFiZQDu5ErlcUBP//4//wJIAooJ3mECOHFtxBJCDJOV5+wl1i/r58rpFnTUfz414e2LE80s/mfTCvHeWfbbgvSkvrfh08ovz312+7Jp2ETc4TKtrWpzX4qoWd8lXtbwaYp/7CRdqsyuWXtHf4Ko6d8XVPT4b8VaPu+ue3/zK5qd1vq/Rfd92env7235/eqqDHKxSNdXUavXgwalaHFb8wuF7mk5i4iIWDV91S6OvBw+u88zTX3zVveXVnTvH1f91HtRMk06NBm6d+uUj1dtuPafMptapVPb2H9+sefeimNw5KwogEHRtf+ScDQ3H/lqrbgKfP/f933m9/1+PH9J9qCWBIOv7f19r4wcAOgAtxXGdlY8FkrUS8FXruUqAUAcBkoo6AmTaaiRAro4+AhQ6GCZARR1LZCKvLTSzroKknkMgM9wJkGvmcVAY6zWtollktkZbCn3VS5guoWlN5aD+A8vR5dBSGPMhQ3VMOS31PO4jvajXdgfsd9Q2W+1yVCCHzTOP2We6Bk/zodIg/Q1UGq1cdm+7l9vmsCN2OWB/rDNGuV/p6bie3ovaSYDBp9SYiFTr5xHm1X8AAAA=");
 
 export default Telegram;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `medrt` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/medrt?s=brands medrt}
  * @preview ![medrt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/medrt.svg)
  */
-const Medrt: typeof Icon = x => (
-    <Icon viewBox="0 0 544 512" {...x}>
-        <path d="M113.7 256c0 121.8 83.9 222.8 193.5 241.1-18.7 4.5-38.2 6.9-58.2 6.9C111.4 504 0 393 0 256S111.4 8 248.9 8c20.1 0 39.6 2.4 58.2 6.9C197.5 33.2 113.7 134.2 113.7 256m297.4 100.3c-77.7 55.4-179.6 47.5-240.4-14.6 5.5 14.1 12.7 27.7 21.7 40.5 61.6 88.2 182.4 109.3 269.7 47 87.3-62.3 108.1-184.3 46.5-272.6-9-12.9-19.3-24.3-30.5-34.2 37.4 78.8 10.7 178.5-67 233.9m-218.8-244c-1.4 1-2.7 2.1-4 3.1 64.3-17.8 135.9 4 178.9 60.5 35.7 47 42.9 106.6 24.4 158 56.7-56.2 67.6-142.1 22.3-201.8-50-65.5-149.1-74.4-221.6-19.8M296 224c-4.4 0-8-3.6-8-8v-40c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v40c0 4.4-3.6 8-8 8h-40c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h40c4.4 0 8 3.6 8 8v40c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8v-40c0-4.4 3.6-8 8-8h40c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8h-40z" />
-    </Icon>
-);
+const Medrt = createIcon("medrt", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABjAAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCUgsGAAE2AiQDCAQgBYMtBywbTgXInoNx41yC0kQc4qSX1fI7Vm4VD/+/37d97pMR0SxJk2gWjzMhihJJRJNEZ3XxqiX8RSVD5C2Nte3F9DC/R90ajUYVT5DUkphlKtTZe4bM74+cqj3xUuMXwM/H2rncj03p/P34BBafL7PrH3Q2sJlOwLY7W9YUTTtJ0izJ8WjH6wJ53MYDKEgvGXfA/fKh8YfeMEmRAUC0AwCrR3kZcFSLWsRdtUP8kgYExBoAxiEyZBiGYAFTYBjLOJDLBbWoKvoPJCCAKEFunECOEnfxCpCDJM9Zxj4tFbLFrMKUEhS9FyDiAQuCj82H2JPCz7jTrMeiEae3fMrW3BUifixN6Vfae9En3KJw2nmDvqUXjqoQRwWXczsRK+Y506HDfORJ4kV6wbgGMWACHFUBKMAAn6qFIGBCnNAiKOR2bmD/Wrb4567xDnq+Yrl/DMDcap5015IA3adcLmyIZ7p5CWB5o9AqbdH2oa51BzEssJb9X57Q2HRRmijOK4aK6kvTPeNfJZ+t8ujFn0AMV/8b54tLPmY0Wrrff+/pqua44pxQQNAVpo206wECQW2d/3QsDf/LEzIAfn84+BVV39JEWgTqJRBkU9WU8kRA9S+5QwBAikGwTwQIJHewyLs2eyZAaESApNQoQGaIDIJco0kICqMCICg12sMUOR9Ct4pOJc3OqMy8ISrXbYsqLLj0S93B9Ejen/j/YEriCCdsIjZvSkLJstAEJ2PzahjZVl0H48AN9kKjLp36NajXon9Ae2VEAzokWkiCLyJsvFFEKHJcP+8u1KBXnxZdOnmdMOS+7WrQnu4G22EApt8SSLlI7I6G+t5+AA==");
 
 export default Medrt;

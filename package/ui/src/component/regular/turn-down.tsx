@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-down?s=regular turn-down}
  * @preview ![turn-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/turn-down.svg)
  */
-const TurnDown: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M175.6 505.5c9.2 8.7 23.7 8.7 32.9 0l129-121.4c9.3-8.8 14.6-21 14.6-33.7c0-25.6-20.7-46.3-46.3-46.3L264 304l0-144C264 71.6 192.4 0 104 0L56 0C25.1 0 0 25.1 0 56L0 88c0 30.9 25.1 56 56 56l56 0c4.4 0 8 3.6 8 8l0 152-41.7 0C52.7 304 32 324.7 32 350.3c0 12.8 5.3 25 14.6 33.7l129 121.4zM82.5 352l61.5 0c13.3 0 24-10.7 24-24l0-176c0-30.9-25.1-56-56-56L56 96c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8l48 0c61.9 0 112 50.1 112 112l0 168c0 13.3 10.7 24 24 24l61.5 0L192 455 82.5 352z" />
-    </Icon>
-);
+const TurnDown = createIcon("turn-down", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABbQAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBbQsGAAE2AiQDCAQgBYMtBzAb7QTIjpQuV0Tx8LxdX+e+qq/qGXcPWGNjiYhOIWbsTTdzKkWD5AY0Gzst3nipgAcCHdMab+pjAs0Zr0Djm5p6wavz6R/sTV/A3trpqTeIbJI+9U8yTLphs0Ee18V9GkiPpzruLR8av+jqdpKGDEC0A8CcTetW+OzH+DHi68tvE19bhoCYA0qBDBl6CDBdJtBDrkQuF/wYly/zf2BJANGovkkCOXJswX5ADpKU5yP7VRpa5xsrDcWGhwdtikfjlk6PDCwi4tuZn2ws4qnqQ13E47WHB1Ti4Zoo4o7qQ26ubdhYKSrPdo94YnX2kU4Rj3auxNtDnu/pUD7C+tjY94V2L/zWp17dq1MutLr5Gt9VO9aVQ90n5tXr82K005f+aCo1/XHp9GS7Gx8zVMdvdKz+9tXbH5vhxTW11xRjqXH3aH+Knds+p7ZmphMHHT8IBIIRTz44clfb6f81VxL4+YM//td+RZffj93pBTRLIMiGXx5ue9yMMnYLAECKK/WNmxFI1kjCq7byiAChQICkUSFAprt2AuQKwwRo0MsEARoV1slE3iJU7RggaeUMyEx0A8hVvQkaTPe51KgaGbwIcBC/u9iFElrQVo4ZObqcWqq2TiIGS/Vp5TY/+MoYG0KrDjrlpPMO2O+I8wI5a4V6hRMWWvACX1QaY6TRSlOVx97z8kYHnHXOEaeczE2mKe8Lg11pZw+hbhJg7MNYEpFaEM2NwBw=");
 
 export default TurnDown;

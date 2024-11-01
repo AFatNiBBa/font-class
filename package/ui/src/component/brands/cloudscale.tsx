@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloudscale` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloudscale?s=brands cloudscale}
  * @preview ![cloudscale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/cloudscale.svg)
  */
-const Cloudscale: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M318.1 154l-9.4 7.6c-22.5-19.3-51.5-33.6-83.3-33.6C153.8 128 96 188.8 96 260.3c0 6.6.4 13.1 1.4 19.4-2-56 41.8-97.4 92.6-97.4 24.2 0 46.2 9.4 62.6 24.7l-25.2 20.4c-8.3-.9-16.8 1.8-23.1 8.1-11.1 11-11.1 28.9 0 40 11.1 11 28.9 11 40 0 6.3-6.3 9-14.9 8.1-23.1l75.2-88.8c6.3-6.5-3.3-15.9-9.5-9.6zm-83.8 111.5c-5.6 5.5-14.6 5.5-20.2 0-5.6-5.6-5.6-14.6 0-20.2s14.6-5.6 20.2 0 5.6 14.7 0 20.2zM224 32C100.5 32 0 132.5 0 256s100.5 224 224 224 224-100.5 224-224S347.5 32 224 32zm0 384c-88.2 0-160-71.8-160-160S135.8 96 224 96s160 71.8 160 160-71.8 160-160 160z" />
-    </Icon>
-);
+const Cloudscale = createIcon("cloudscale", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABggAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCDwsGAAE2AiQDCAQgBYMtBzEbEAXIjpQuZyTB8/921X2/fvcAqpEUzZIeRbsh6Fo47bOZGHeF7J9cGv/404yf0aOMTVsfZPkYq/EKVKyp16uPjResphWwvm1YYEM0V9CwoJBoTMfr9QRa+mUPNlC9ygJ2y4fKV8LYAAqbAQCA+AIAALWDuzq57RCHiOW8AGLRDgiA1AFgIoABGEAkAkAFBgJEojEBjUbAIU4n/geaIAAgdvR9FAAasAOTgUUAgAZAobVOcosK8LB56UEeNvfJgSGBV5vuV1w31wStTT9WfCE1RQ4FHsCEDnpsD+kOHiyVYX3AAWKEGU8OHHS/ReRxjshp83DumdYnjY/an+Wfiz+Sd7btaZP6UCVyc9DH6luD31feGPiu4vqAuKO+R7+zJllUJm7Ws7NlbEGj3d0t/ejRMTXd+7nds8TDc8lmD8/FfZHtgynMr6/vmt3dvWxpd/fWbW6fX2VC1Gt44+X15nVU5ithUMLQmnqxwJJG1VtWvWbB6wAggMDvTZ7TR/tU/Hf1UAB8uvoz/YxwOuS2Ogq4ogAQMDKcGYyQ2wByGwEAAACULCJObgMCKEajUceTQ6eB4A4ZFHbcwSACX9C4kw42oinknGqXKyvaDSGQkQkUnswFgyJWgiaQc2CjgkeunUAx4k2IFuG5l9pkkcZbZm5WjllmLktdDCGOLstNt5GyqIxS4SGTmM0sFjCRCUxlgcHm0RksZCZNO7SRL2KSSxY5mJRhHjfP9wcxkXnMZyqzmcXXlGPed1JYtF9OBVuhtHlkFApEuX88yIc7");
 
 export default Cloudscale;

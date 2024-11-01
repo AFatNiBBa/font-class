@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pretzel` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pretzel?s=duotone pretzel}
  * @preview ![pretzel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/pretzel.svg)
  */
-const Pretzel: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 170.6C0 94.1 62.1 32 138.6 32l9.4 0c42.6 0 81 18 108 46.8C283 50 321.4 32 364 32l9.4 0C449.9 32 512 94.1 512 170.6c0 82.7-40.9 155.9-103.7 200.4l32.4 46c12.7 18.1 8.4 43-9.7 55.7c-7 4.9-15 7.3-23 7.3c-12.6 0-25-5.9-32.8-17l-40-56.8c-21.8 6.4-44.9 9.8-68.7 9.8L256 416l-10.6 0c-23.9 0-46.9-3.4-68.7-9.8l-40 56.8c-7.8 11.1-20.2 17-32.7 17c-8 0-16-2.4-23-7.3C62.9 460 58.6 435 71.3 417l32.4-46C40.9 326.5 0 253.3 0 170.6zM32 208a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm48-37.4c0 55.7 27.5 105 69.7 134.9l52.5-74.7c8.9-12.7 13.7-27.9 13.7-43.4l0-7.4c0-37.6-30.4-68-68-68l-9.4 0C106.2 112 80 138.2 80 170.6zM96 80a16 16 0 1 0 32 0A16 16 0 1 0 96 80zm64 288a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm66.8-33c6.1 .7 12.3 1 18.6 1l10.6 0 10.6 0c6.3 0 12.5-.3 18.6-1L256 293.5 226.8 335zM256 144a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm40 36l0 7.4c0 15.5 4.8 30.7 13.7 43.4l52.5 74.7c42.2-30 69.7-79.2 69.7-134.9c0-32.4-26.2-58.6-58.6-58.6l-9.4 0c-37.6 0-68 30.4-68 68zm88 252a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm32-128a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm32-192a16 16 0 1 0 32 0 16 16 0 1 0 -32 0z" />
-        <path d="M112 64a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM432 288a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM176 352a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM48 192a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM464 96a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM272 128a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM400 416a16 16 0 1 0 0 32 16 16 0 1 0 0-32z" />
-    </Icon>
-);
+const Pretzel = createIcon("pretzel", true, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAAB9gAAALQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXyERAsIAAE2AiQDCgQgBYMtB0obYAbIBp7n9erPfcnOeMmshF8BdGVUUKXWGp+4d+d/7CzNnngeypgTxwKd8zyBAKPJP21jYoFOjkQbnDfqgEJTSJeBLg+0ObiB2qjuA8vdanlDEHNAYdVwEE/gb4BUtm/dissv5aWS+64zIPdpAQRAqgAwEEADNCAUAaAEDQFC0TEAHR2Bl8rlgpfichkgACAmAq9xAxPgC3wHcQAAOgAKM3Zdt4ZooTUAx2xWf5mzuzn1dm6VrfMa37V+6wPW+fcs6TZ0u8G9x+mOJ9J2l4tcqrfL49JL7e1yo/RC5I6MEyWlstZ3je8a26LgKjljs6lsXIVsYFb/1ey6gNLFrFNRqUcPWONbPiNV5Ghie9ksIpuSDsXZZE/MhsD2S+6OpXZgtYfq4oA0SZleVoowI6itHE4/vo8P3qdKOBDYdnD7cmfUIc9D7yLv97vP8Okv3d1fJuHyF1rhKldM367Y3l1xKYKZfl/8bOOg/w4rlbJlS6VY2dF/nM25+/QnJ0vTI57vc/henoA12m6P+TWBy76Ofc8j0pc6+XR6t/Prfi064GtSFER9z27iYaAZR1TUZSszPD5aPDothssjqtVVxgyr3W6dcZvboRedd7Q5bAx8mN3E96ioJMtHjxlWLqO0o/2f2UjEdEhf+h4ACCCw9MH8s909Sr5Z7AqA12c/fGG/wfVSoQ4BFhQAAlqKK4UuCgAFQnhSSsYRpcAABNA4jp2QcrDucFmwQQOFCRs0QvCEjo1kuBFOrgwTNlqjIboVwZeuACgcjIRGHlOh48tpuFHCrYIJX9HeBeOdbPwTzVbXJWoXGZlpGUaRMVtTmW5vvZ4tNjb7EsbxnkS4lX4MZxhj6EsfBjKmoxxFq/JYhlK3pF77WINM0sjAoAjjcPOhrV2nMIrRDJy2HJ+nGOP6VALjlocnwqAiaMxiDw0NRInmMWJU3zGT+g5J/abcXl3LxwMAAA==");
 
 export default Pretzel;

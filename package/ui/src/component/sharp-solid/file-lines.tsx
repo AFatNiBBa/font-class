@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-lines` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-lines?s=sharp-solid file-lines}
  * @preview ![file-lines](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-lines.svg)
  */
-const FileLines: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M224 0L0 0 0 512l384 0 0-352-160 0L224 0zm32 0l0 128 128 0L256 0zM112 256l160 0 16 0 0 32-16 0-160 0-16 0 0-32 16 0zm0 64l160 0 16 0 0 32-16 0-160 0-16 0 0-32 16 0zm0 64l160 0 16 0 0 32-16 0-160 0-16 0 0-32 16 0z" />
-    </Icon>
-);
+const FileLines = createIcon("file-lines", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABWgAAAHDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBMwsGAAE2AiQDCAQgBYMtBzEbtATIjsO44TuyxVKeRTw8P/d67ktK+WPIqgaMighLvm7gqgfoxg6NaDeLavonc63q1KnnOQ8F8I2CNjYtXbxAQnOeRyCAY9Zr3QK1gtW0AtZh28i6tJFjCeN5hjxuZm1qSA8TtLsPjV8GayNpyABELwAs2bpxg09d0RXxvTrx3ToExBJQCmTIMEyA+TKBYXIlcrmgK6pV9h9YEkDUCi9LIEcdFmAZIAdJTZ53r6sAvaZ7vkVdVOwsKkUe3SOLIqIiVGLLpkpREUUTnIYbH/V69GeUI3R+7MJjNNmnQ0fZBKbcvdte7eh4Ueolixejx4FAMGPq86F7e87/X19J4Oebf3/Ez0j1UzSlUC+BIBtfHW9XNEE0CQBAiisaowmBZIYa+F27uSdAKBAgqVUIkBmqlwC5wjgBaowwQ4BahY0ykTcI/ezOIOnmPMjMdBvk+nkNasz32ajVL7IZRHx/4gcudmUNregrp0ycXM4tN12RnBSYbs8rTwujr/DUGHjSEWedcclhhxx3qUIu2GBfdtrKPXiFLypNMdFkpbnK28H9/haHXXDRcWedsV3mKd9XRruyXzwGyklAncqRJCIVo5WfMOgAAAAA");
 
 export default FileLines;

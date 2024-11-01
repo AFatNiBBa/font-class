@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-upside-down` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-upside-down?s=light face-smile-upside-down}
  * @preview ![face-smile-upside-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-smile-upside-down.svg)
  */
-const FaceSmileUpsideDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256a224 224 0 1 1 448 0A224 224 0 1 1 32 256zm480 0A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM164.1 186.5C182 165.8 212.6 144 256 144s74 21.8 91.9 42.5c5.8 6.7 15.9 7.4 22.6 1.6s7.4-15.9 1.6-22.6C349.8 139.9 311.1 112 256 112s-93.8 27.9-116.1 53.5c-5.8 6.7-5.1 16.8 1.6 22.6s16.8 5.1 22.6-1.6zM200.4 304a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm136-24a24 24 0 1 0 0 48 24 24 0 1 0 0-48z" />
-    </Icon>
-);
+const FaceSmileUpsideDown = createIcon("face-smile-upside-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiAAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCFAsGAAE2AiQDCAQgBYMtBz0bIQXIBuJ5O3Le3z3AewYidpIrAfUlLatU/J9rPr8qOsBvdCgVVlQgBXK0rOcTGHCURdpA93xgM52AbXduUxyilSLHUiQ5vs3xuQJdrksUJqB2qRfAhvyh8hUPloJC1wAAEHsAACC/tbGaO+MyLvLi/0WQF1QCAiAFABgIoAEa4I0AkIWGAN7oGICOjsC4/P/v/wMNEAAQU5hWPK0DZsAkYC4AoAOgMNF1L35fCwsrExu9xcrEsvVIosj5yudWa8qfxp/1Pxh3puyJ5eqKZwnnAmw+FYjcq3llubrqRd6dpo/5d6tfWq2pfV14v3VgT6jIidSLwcc8trntcD0dcjzlQtDRsK0uYk3z7pCj7ruCT3i1Vjk+EXDa/vR3/xcjL/C7bX0P3uVUZ2ZW57y7Z001/vA4xRbgcf5uYeHd8x4WFKdaOq6z6E0XTIJJXW9OXdm9Wn/9euHCskxfffrkqcDZLvX1LkCucNPd6wAggED9gs+/e+2yfplbKQC+XPv5q/2M+H9HoU4D5igABLSo/1F0KQAUCAAAAKBkLgEKQADFICZwas3201KwBAcKUyxBwwt70LEkEkzwJfkKUyxpREN0CwRnugFQWDMDNFKYBzrOnAcTsnicmeIsmsrpCqN/+HJKJFK8yIiPiTMyjGlNN7RIjbOZxrYXNjf0hONBRpjGVGYzzBATmC3EmVSXc5hCyUoo5osYxBNDHAYZGMfNx90tDDOTWUxgGlPTPJkY99Mw5q6Hh2OoYMkEKgoFolzt2Y+e9d6j6DnTDdONtkYAAA==");
 
 export default FaceSmileUpsideDown;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bolt-slash` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-slash?s=sharp-duotone-solid bolt-slash}
  * @preview ![bolt-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bolt-slash.svg)
  */
-const BoltSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M112 288l59.8-56.6 103.9 81.8L112 288zM224 512l58.1-193.7 79.9 63L224 512zm17.8-347L416 0 356.7 197.6 528 224l-94.6 89.7C369.5 264.1 305.7 214.6 241.8 165z" />
-        <path d="M29.4 .1l19 14.7L620.9 459.3l19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1z" />
-    </Icon>
-);
+const BoltSlash = createIcon("bolt-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABaQAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBNQsIAAE2AiQDCgQgBYMtB1Ab1wTIhoenNbH3ZzYpAG2BURGBI1R1pIjuTgFghC+qQ1Wd+b8mXzUd4OdroUOpRSRIgYwyn09ggLPUttmABjabKW53NjVLon2SRlmS47Pj4gJF6p8vqpBupxqu5/8BjL91cpGkUQYQLQEwc9WyBb57GS9T1OofETXzERCzQCmQkdFVgCmyQFeFEoVC8DLV67yMer0kgKhiOotW3QvGYj6gAEnIRdGqQYPmTSrNipV4pPG6vv36Hom+MST6xVHYOXzVssXLVsTKFauWrwrk8nUWQXE+vln4zbRez1s+/7dnbWdN128ffQxfGuZnwxQO3fmMW3ct8aDjoRcTv0f1ommunW+19oOH7570s+edbFzjXeXNWyAQPBv9urapxZR3DZsk8PqL//9Snq5/l86m52gogSAPqQ+xPp0FLw2gnuKkXspXHRbIusr4U5u6IUBojABJVWMBsi5aClBobLAAFd2NFaCqsWWyKBoJbW1oIGnqCMjGOQUKbX0IKqb4tVbVNrINeSzA84UrOE8ic7eVI4eNKCeV07bqNQsnrk8ul5MDTtLYQDhqp0MOOm6H7fY4LsSjFjRPOGCeJsz1Q6WRhhmhNEm53Xvcv9IORx2zxyEH0yaTleerA5zUZw+ETMKmo1yXZSJFbr310P7jQ4/t33Js91BrHG/b+y8eAA==");
 
 export default BoltSlash;

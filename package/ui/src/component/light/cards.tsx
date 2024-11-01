@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cards` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cards?s=light cards}
  * @preview ![cards](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cards.svg)
  */
-const Cards: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M202.3 468.3c6.7 11 20.9 14.8 32.1 8.6l.1-.1L427.4 365.5l.1-.1c11.2-6.7 15-21.2 8.4-32.6L269.2 44.1c-6.6-11.5-21.3-15.4-32.8-8.8L44.1 146.4c-11.3 6.5-15.3 20.9-9 32.3l.1 .2 167 289.3 .1 .2zm-27.5 16.4c-.2-.3-.3-.6-.5-.9L7.6 195.2c-.2-.3-.3-.6-.5-.9c-14.9-26.5-5.7-60.2 20.7-75.5L220.7 7.5c26.6-15.4 60.7-6.3 76.1 20.4l167 289.3c15.3 26.5 6.3 60.3-20 75.8c-.2 .1-.5 .3-.7 .4l-192.3 111c-.2 .1-.5 .3-.7 .4c-26.4 14.9-59.8 6-75.3-20zM360 512c-13.7 0-26.2-4.9-35.9-13l33.2-19.1c.9 .1 1.8 .2 2.7 .2l224 0c13.3 0 24-10.7 24-24l0-336c0-13.3-10.7-24-24-24L373 96 354.7 64.2c1.7-.2 3.5-.2 5.3-.2l224 0c30.9 0 56 25.1 56 56l0 336c0 30.9-25.1 56-56 56l-224 0zM469.4 162.8l-.1 .1s0 0 0 0c-6.7 5.7-7 16-1.1 22.2c0 0 0 0 0 0l35.9 37 35.7-37s0 0 0 0c5.9-6.1 5.6-16.4-.9-22.2c-5.1-4.2-13.4-4-19.1 1.7l-3.9 4.3c-3 3.3-7.2 5.2-11.7 5.3s-8.7-1.7-11.8-5l-4.3-4.5c-5.9-5.9-14.4-5.8-18.9-1.9zm-21-24.2c16.5-14.3 39.3-13.3 55.6-2.2c16.2-11.1 38.9-11.9 55.6 2.1l.2 .2s0 0 0 0c20.5 17.9 21.5 49.4 3 68.6c0 0 0 0 0 0L520.6 251l-.2 .2s0 0 0 0c-8.8 8.8-23.7 9.5-33-.3l-42.3-43.6c0 0 0 0 0 0c-18.5-19.2-17.6-50.8 3.2-68.7zM252.2 340.4l48.2-27.8c7.7-4.4 17.4-1.8 21.9 5.9s1.8 17.4-5.9 21.9l-48.2 27.8c-7.7 4.4-17.4 1.8-21.9-5.9s-1.8-17.4 5.9-21.9zm-27-40.1l5.9-27.4c.9-4.4 3.6-8.1 7.5-10.4s8.4-2.9 12.7-1.6l27.6 8.1c12.9 3.5 26.2-3.2 29.6-13.2l0-.1c5-14.2-3.4-30-17.5-34c0 0 0 0 0 0l-90.2-25.7-22.6 90.8s0 0 0 0c-3.5 14.2 5.8 29.3 20.3 32.3c10.9 1.8 23-5.6 26.7-18.9zm31 7.9c-7.4 27.8-34.3 47.5-63.4 42.5l-.4-.1s0 0 0 0c-32.7-6.5-53.3-39.7-45.3-71.5l26.6-106.9c1-4.2 3.8-7.8 7.5-10s8.2-2.7 12.4-1.5L299.9 191c0 0 0 0 0 0c31.5 9.1 50 43.5 38.8 75.4c-10.1 29.4-42.9 40.6-68.5 33.6l-.3-.1s0 0 0 0l-11.2-3.3-2.4 10.9c-.1 .2-.1 .5-.2 .7z" />
-    </Icon>
-);
+const Cards = createIcon("cards", false, "data:font/woff2;base64,d09GMgABAAAAAAPAAAoAAAAAB1QAAANzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRyFBwsGAAE2AiQDCAQgBYMtBywbgwbIrgdsYzrUf+CAahnB2OJEi40zcjWjy1tq61fwz7f2et/shPaHYQKMLlxgUEQsWRILjboRqqcEwVht9sU8uiYRI0S8uYXEfQUPiWjaKEE0Uf8tW26HWq+/LTUeh7Bd8RqJMlgcGl4oikRWIxAGYbpTbi2OMgnAQzvBuXznQuqLkNl6+Q8H0CC1vPz+55p81yC3eP7F50PppAuQRVFE8vieDzDam6xKGDeqV3iwbuXfFtj4h1gQTCLzHU6Yd6pfKu3FsMkAAKgAAAB0b48P8np4BL4fSPTFPBBAYwAcAQ94IJ0AtPEIpLMcsCzhF/7YfyAQAJSGvaUBYIEP1UPdoKrrupnQFJvckpNXGml3BfIRdkp2qj854QUwNcojNTNiz54UD7QwPaLoCqTDmBF3sQuXrSve1Hjs3NPTI6Eu2rsquzAprrBduOveN5PvilYtqwE9sDxcdn2UFDbe4+e0wUV21vZnEdrleM7ygGuPPkq4IM6zeK0qY12JSqJLLlSlIxyrmK6naqLnEjPYtqiYrNuhwvjz1hU5aWSw9QI/x5qMRHFeVqQlp12Qhj9fG0szWsQQYUpsrOc6x5vS8i/awl3XL8fdN5etqdHfOtn03NPXUXUg4hKDVU/KedZ6/PQ+v/vokwd6dRwErm0beJNMnn6NnMDNAOReA4LuTzdaXyyodXPyXUva3Y3JVsK4s4aWzYmnx6qEvxky8ctq6YqE1a/qmeRfTu5LHwj5t/+OJgDA5btAnToAh/du3uuhLz29r8fFm9Of8omo9++bza8ATDDzA7giwH+tCfCDmYnX55c99s8nL9/e9ufpIftJE9fWR1/S+kkomZ29TWB6pcRDAFJ3Zp60N33brCJtLQDse1NVhwWtr81fngFg64PdqRu9xjqA25oBAICAsPcD8dz80f8ZVQPAn3N0lJXZmXlMCGUACF7rQWxWk6qDzhAKOGBiixxojYKoJKGQEO781JD4yMAI5oMnTTRYvlIIkqleM3DxOI9SwpB4syEY4daDp8E2sOI9hSBtPvmDxUf2XdHd6bpf1cwDRax/lOuqqHItrrUg0d/+Gm2w1Q12N27hDcVwI0ustcYmiy2y3KYCs8FgaLPVBroU+3/rVKtQxWnhJpevmqfgwAYbLW/WTxejlVteKLKlu30x9Bm20hpphoGSgr4CAAAA");
 
 export default Cards;

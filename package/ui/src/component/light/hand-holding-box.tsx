@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-box` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-box?s=light hand-holding-box}
  * @preview ![hand-holding-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hand-holding-box.svg)
  */
-const HandHoldingBox: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M208 32l0 96c0 5.5 2.9 10.7 7.6 13.6s10.6 3.2 15.6 .7L288 113.9l56.8 28.4c5 2.5 10.9 2.2 15.6-.7s7.6-8.1 7.6-13.6l0-96 64 0c8.8 0 16 7.2 16 16l0 160c0 8.8-7.2 16-16 16l-288 0c-8.8 0-16-7.2-16-16l0-160c0-8.8 7.2-16 16-16l64 0zM224 0L144 0C117.5 0 96 21.5 96 48l0 160c0 26.5 21.5 48 48 48l288 0c26.5 0 48-21.5 48-48l0-160c0-26.5-21.5-48-48-48L352 0 224 0zm16 32l96 0 0 70.1L295.2 81.7c-4.5-2.3-9.8-2.3-14.3 0L240 102.1 240 32zM195.4 304c-15.8 0-31.2 4.7-44.4 13.4L75.2 368 16 368c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0 4.8 0 4-2.7 79.9-53.3c7.9-5.3 17.1-8.1 26.6-8.1L344 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-24 0-64 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0 24 0 60.6 0c2.9 0 5.7-.8 8.2-2.3L511.3 355c3.4-2 7.2-3 11.1-3l1.3 0c11.2 0 20.3 9.1 20.3 20.3c0 6.9-3.5 13.3-9.2 17L415.1 467.1c-13 8.4-28.1 12.9-43.6 12.9L16 480c-8.8 0-16 7.2-16 16s7.2 16 16 16l355.5 0c21.7 0 42.9-6.3 61-18.1l119.6-77.8C567 406.5 576 390 576 372.3c0-28.9-23.4-52.3-52.3-52.3l-1.3 0c-9.7 0-19.1 2.6-27.5 7.6L400.2 384l-5.6 0c3.5-7.3 5.4-15.4 5.4-24c0-30.9-25.1-56-56-56l-148.6 0z" />
-    </Icon>
-);
+const HandHoldingBox = createIcon("hand-holding-box", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABnwAAAKrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDCAsGAAE2AiQDCAQgBYMtBzcbjwXIjsO44TuLSSOGUiIe4uH/dZb3fcneHWmG5QXUMoUIlrEKAHgc5A64Sgd4eqAWq7QxxPL+ou4SKY+0uwAHOJMRzoc2Gm/+r/n8/I4K5PMRHFL3ojFBRpnPJzDAWdpabDSLtInizG1xxQUV1oaIqD9UP7QL7fkd5PFjLNYgPZ2+xSN2pfGnie4kyTMAMQiAEy+/+Fyf/xa/RXzb3YhvnY2AOAnUAhkyTBHgGJnAFLkauVzwW3R/+A90BBBNul8COZp4He/Sc9515nk+a3LfRWWjL7+sbBRXC7e22uPPjjOjPb4TEWW0W+LJqjdGx0V0xpeTi7J4rXpygni61Z7TF2+O70yOeGbc6NzikrIoxVExWh0RccX9sy+JIp6s2q2yHB+XR6cs4/WJT80uCsAPjLdurZZirxW9QvTFA4vcNydfi8b91bnWuT175juD7/wd3278lh9eHLpvz/51+x7wgH3r9vfc4AS/9b+k/7fawid0G08t/+m77CXZdz8tr9XIBbum7y4/zR3WrbvDaYsHJhxz9kpHC72ztrHS+at93N92Yat14YQTBptdmq+48SgnNZOhofKuQ+WY8etNz73ejHcPll1l45e/L0j6v7jucA1n9Y359/+5gEDwXbWsvH7gmP/UEvjjs/uwE7pHTkjvYKwEgmxxN7kmZSCRA8imOGgmvopA8rycXmqvUQFCgQBJUyFAZrJBAXKFRQI0TLNGgKbCxTKR9wiVaytIeu0BmcPcBHKV90HDMb7INVWRkZWjGvermHxaC506rV6xdHl9VP1YVnj+MXH86HrZnn9Q2hZgqY122Wm/DdbbYn+D7nVu8YAdTvOQU/1QbYWllqsdpT6u3c+/zAZ77bPFLjvzJEer30/Md9DvvQBeopQrlSSJSIPc1peQn/1GCAAAAA==");
 
 export default HandHoldingBox;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `salt-shaker` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/salt-shaker?s=duotone salt-shaker}
  * @preview ![salt-shaker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/salt-shaker.svg)
  */
-const SaltShaker: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 452.2c0 33 26.8 59.8 59.8 59.8l264.5 0c33 0 59.8-26.8 59.8-59.8c0-2.8-.2-5.7-.6-8.5L347.4 192l-64.6 0c12.2 85.4 24.4 170.7 36.6 256L64.6 448l36.6-256-64.6 0L.6 443.8c-.4 2.8-.6 5.6-.6 8.5z" />
-        <path d="M101.2 192l181.6 0 64.6 0-9.3-65.3C327.7 54 265.4 0 192 0S56.3 54 45.9 126.7L36.6 192l64.6 0zM176 64a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM144 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm80 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const SaltShaker = createIcon("salt-shaker", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABfgAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBbQsIAAE2AiQDCgQgBYMtB1IbEQXIhof/13u+fXLzAefbrKRSaMHWY7TTvzWtlfm/3PN7fnSAn4/gUMYYdrhGBTTn8wQCjsrXpoASCjPEFrfdDDEL7SMkGlvI42g6qwrZ7exLXAz/BzC+0cJZMjUSgKgPgPFLF872biUqWXxZPiO+NAsBMQEUAgkJrQUYJQm0liuQywWVrCypRFkWBBBVhc9PoCqqYTE2AnKQyUWeN6hRo0b7WlXq5EvCq2ourVWz1pK4M+btKR+OerNYFLWW3mx2vcm1xjeadpJ4X12sI7c7R2Rr68TDnjdbnWq6JGrGV4tPksLS5sRFcU2HJ/WffNf+yy1f2lS+ePF79XEuHDi9b9/pAxd47bgZJ+pWKnUpXzKauHPrjV8gr1GPHy9Vd0lZI08d/zFOg+MNjmXxv46lcdhbUg4EgoMDe+9YW2/Ub9VrZeDr13/4RXVy+W6czJ6gugwEqVfZy6o4CQIdwO9ncUSHOKkzAkkvOYhPre2GAKEmAmSqqilA0kp9AXI19RSgirYGC1BVTQslkdcQGlvdgUxt+0EyxDGQa+wpqGKUT5KqGkeCLxo66M+7hClDaPKyon+ffsWIYrWuYUCGtPMji8NGtyOyrzveaIu99jhks022OzRADpidH7bblC14si8q9NdHP4URisutp8ISmhxw0PZl7voiIxXPe90c2R7dHduZGHOAFUkiskiNXnnmpwH+zs0HenvVgSZTzlcCAA==");
 
 export default SaltShaker;

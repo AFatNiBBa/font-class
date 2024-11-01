@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `euro-sign` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/euro-sign?s=regular euro-sign}
  * @preview ![euro-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/euro-sign.svg)
  */
-const EuroSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M48.6 240c-.4 5.3-.6 10.6-.6 16s.2 10.7 .6 16L24 272c-13.3 0-24 10.7-24 24s10.7 24 24 24l33.3 0C84.8 412.5 170.5 480 272 480l24 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-24 0c-74.6 0-138.4-46.4-164-112l156 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L96.7 272c-.5-5.3-.7-10.6-.7-16s.2-10.7 .7-16L264 240c13.3 0 24-10.7 24-24s-10.7-24-24-24l-156 0c25.6-65.6 89.4-112 164-112l24 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-24 0C170.5 32 84.8 99.5 57.3 192L24 192c-13.3 0-24 10.7-24 24s10.7 24 24 24l24.6 0z" />
-    </Icon>
-);
+const EuroSign = createIcon("euro-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABaQAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBVwsGAAE2AiQDCAQgBYMtBzAb1wTIHoex22SJKKIZyseViId/1r7dNzMruM/ibk2si0qi4Umt76FyiFA/MuTmgVKqAb+qfZ/+3p3/87/12wORPxYN/zg3r9k4T6DzvMuzzgMqCizTBCzdJj52hOEXIRIkEh1XjI6nO2SxII4qIjmXwJH2ofFHA4dJFKUAojoAhs2ZMcmr8iiP+FBAfDABATEM5AIpUjQWYKBUoLFMjkwmKI9Cgf8DcwKIYvpOCciQYirmAjKQiCwbW6moSja7UlHFOSftr1MxbtY/16pS/Jr0WYk7jc63rhiv+6+7Uaej9ajHA56OMX5ONHPv0eb3q9//W2Y1Xb+UlJaWNDCtTp1pZeqMvnBhovqSrW//oxfdLpp2RwK6U7qo24tH+1mZKI3XGV32jAZAIHi6ssHVJdUG/itNAn4/+V//FRXKY2hyH6USEKQdCx0tjN0QQwUAIIndmsdQBBJjJfRVKzstQKiIAIliFQVINVJdgExFHQQo0lQvAYpVNEMqsgpCbYsMJCrbBlK97QGZ2h6DIgO9cYvVjhRTLCLYL13SaA+NOpd369w1758vK4ODCV2PB+Rpte3uMmlHN622xWY7rbLSOjsdud2kYJdNRkfwKF+U66azrnL95dvt8/XZVtluh3W22CynDJCf19vaHa+3o8skgO63kUqIpMKrljvBEQ==");
 
 export default EuroSign;

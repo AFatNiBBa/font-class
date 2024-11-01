@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-xmark?s=thin rectangle-xmark}
  * @preview ![rectangle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/rectangle-xmark.svg)
  */
-const RectangleXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l384 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm178.3 82.3c3.1-3.1 8.2-3.1 11.3 0L256 244.7l66.3-66.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L267.3 256l66.3 66.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L256 267.3l-66.3 66.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L244.7 256l-66.3-66.3c-3.1-3.1-3.1-8.2 0-11.3z" />
-    </Icon>
-);
+const RectangleXmark = createIcon("rectangle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdwAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBeAsGAAE2AiQDCAQgBYMtBzYb/gTILgpsImMP7Ih5ko1wOnaz424U8kcffIwi+n6I23v/pxZXmk1UVek6rqq4BjiUiqN1hcN4IjyDxQgMXNPL50tkq1IAVuyqgHDs5ibkWAPJSXYs5Cw6bS6x2rV2TjwUoIiGOcTlH+TxeZsZsPZ9hehPXPP8z58KJIkfJRpLHyQKLPP8BV70NRa24UBmA5vpBGxvGzoMCkI6ESFSEtJ4NmYn9DzjloB6ywE81g/NP/iOKK0BINMAgJPrQh4fX/Zl7I9GfmMDgZwCVhE0NCwiYB8VLOKtgq4LfxgR/QeuQoAMgp9boGMAN+AFgA5K67w20MkGFHw5v1Ta+GGRHHtcLuyTWJFb9yykuXROE/nZ+5LkMVXkOr/3uZxnd5E8N8VDQC9f26VcB0knVjGXIR075VyEdOpWcpU79A/aw497lsfuH574FX26uyBkCpMwA8x80eiXGY2UQRmjv/bzQjKFRi2ch+bUCZieqR8HIAgr68arY2r/PyxygL/Xw8/I/2+hfoJhBULbpEqzQBEAQOWAviAolyh+13GvBMQoAsqgUQHNAjUCulEbCBiwLISAQaPOUekSxLzWxMq4l1iz5xDr5j1hA/Z92oPm04JMCBHhi5eak0B2jfVuL4uzbWyIccOVeYIda9lBqtlgE2Mba3tGhmb2BLQj7+1byVlg1hcxPm5eTBxzZ2u1LOwdu2Zr2b8kgd23rA7sbhuYHKbdsqcUKdXO3WCvt54sR67zRQI=");
 
 export default RectangleXmark;

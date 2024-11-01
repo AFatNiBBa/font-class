@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dumpster-fire` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dumpster-fire?s=sharp-light dumpster-fire}
  * @preview ![dumpster-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/dumpster-fire.svg)
  */
-const DumpsterFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M304 64l106.4 0 8.5 44.8c4.3-3 8.3-5.7 12.1-8L448 90.1 443 64l74.8 0 12.8 64L542 116.6l22.5 18.7 .2 .2L544 32 424 32c-.2 0-.4 0-.6 0L288 32s0 0 0 0s0 0 0 0L152.3 32c-.2 0-.4 0-.6 0L32 32 6.4 160 0 192l32.6 0 1.1 0L66 192l61.7 0 .6 0L288 192l46.1 0c2.9-4 5.9-7.9 8.9-11.7c5.7-7.1 11.5-13.9 17.5-20.3L304 160l0-96zm33 384c-8.8-9.8-16.6-20.5-23.3-32L92.3 416 69.8 224l-32.2 0 3.8 32L16 256 0 256l0 32 16 0 29.1 0L64 448.9 64 464l0 16 32 0 0-16 0-16 241 0zM272 64l0 96-124.7 0 18-96L272 64zM132.7 64l-18 96L39 160 58.2 64l74.5 0zM489.4 169.4L448 128c-42.7 26.7-128 102.4-128 192c0 85.2 66.6 154.9 150.7 159.7c3.1 .3 6.2 .4 9.3 .4s6.3-.1 9.3-.4C573.4 474.9 640 405.2 640 320c0-26.7-19.2-96-96-160l-9.4 9.4L512 192l-22.6-22.6zM480 448c-2.4 0-4.8-.1-7.2-.2c-33.6-3.3-56.8-29.4-56.8-57.2c0-21.9 15.9-47.5 39-71.3c8.8-9 17.6-16.9 25-23c7.4 6.1 16.2 13.9 25 23c23.1 23.8 39 49.5 39 71.3c0 27.8-23.2 54-56.8 57.2c-2.4 .1-4.8 .2-7.2 .2zm96-57.4c0-70.4-96-134.4-96-134.4s-96 64-96 134.4c0 5.4 .5 10.6 1.5 15.8C364.7 383.6 352 353.3 352 320c0-34.7 16.7-69.1 41-99.7c16.4-20.6 35.2-38 51.4-50.7l45 45L512 237.3l22.6-22.6L545 204.2C597 256.3 608 305.9 608 320c0 33.3-12.7 63.6-33.5 86.3c1-5.1 1.5-10.4 1.5-15.8z" />
-    </Icon>
-);
+const DumpsterFire = createIcon("dumpster-fire", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABtQAAAL7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDfwsGAAE2AiQDCAQgBYMtBzQbAwbIBv758vr/fSrVSh5y5TyBmOGbvf5UGCnzf029eH50gN/oULq3BsmkTIE9n2Bp4kDT6vlMJ2A72/YqiGiIN0JhB6z+UVUiYA6Zd4Ad4Un1IzmsBYN1AACQDwAAtBrQpxsvk0pK74T3QO/QBRCAWgMQIMABHCAfAdAUBwH5WALAYhEkFYbiPzAAAYCiJDdoALBAAvgK+A0AsAAYYta2KkwkijKqeZHitr8XcSd4rlegA1kVlCtPpZSlSkL95WqVVrmYEZqLs/sqW54nTJ4nZb4rDdqf6541c8Qk1mr6CSFPyRZvMMLVAHlu3wF9m5WjmjdrfrbixapX8z9t9qzfFs+e/HmLFwOOVL/eO10VVXngZvd87n6daHEga1/Gs4KV6QfLznIGHK8sXfZQZmCV9l4l6ZnyV2Y8L32mxZUqzVRJVZSlZzmH0k9WPaDSl/3LP5d6Z/w71FgxObncrfTt7dKJLrzPZUYh0iewEEAbAADYCMBCclYwglIj4GT1eu02bWrEyGDFezu/I+MFATXI8QP8gtSTlMSny8Tn95YrRuLMZaSMYMqWglaVXUkdQZcxEzcmK6e9/XW/8cXU8ujRltZGIrYk249Ty0iTrjM3Mp7x8Uzr7E6GGaltv7l06Zu2qRlhcrdjRzRMmw7TRsMoH8AfNXra9LR4pjHp04+vfodxjOMwA95/3zN/ROMAIEDQf/exxiNKNv077hkAfnj86+/iZ0SYNKvMZSCOAUDgVA2rMtSshDA0qxAAAABgNJ/SZiUgwPARMZJHLcZ+BIBwAQFgiOIiABzy8BEAFpcqCIAIhdRDAERx6YODbAKRzrAeGIoxCzjUZxmwpHMHRGjKq1iUdDlwzkIp+5uZ1H6MtlsW1KpeM2gcbNa1HOjSdr5JcNqqOF/2VcJrGc8MpjOXcYxlEnNH+Gy6JecxjfZ7WDu+SEAtqlOTgMYEt1vPpf6ULKU5nl7n7i9CE4L3oxWZvz+6EnYNCWFtNhsMyBQfO2/azDlzx82u9tUAAAAA");
 
 export default DumpsterFire;

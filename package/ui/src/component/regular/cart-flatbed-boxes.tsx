@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-flatbed-boxes` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-flatbed-boxes?s=regular cart-flatbed-boxes}
  * @preview ![cart-flatbed-boxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cart-flatbed-boxes.svg)
  */
-const CartFlatbedBoxes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48l48 0c4.4 0 8 3.6 8 8l0 352c0 30.9 25.1 56 56 56l24 0c0 26.5 21.5 48 48 48s48-21.5 48-48l192 0c0 26.5 21.5 48 48 48s48-21.5 48-48l72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-120 0-288 0-72 0c-4.4 0-8-3.6-8-8l0-352c0-30.9-25.1-56-56-56L24 0zM240 80l128 0 0 224-128 0 0-224zm-48 0l0 224c0 26.5 21.5 48 48 48l128 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48L240 32c-26.5 0-48 21.5-48 48zm368 0l0 64-64 0 0-64 64 0zM496 32c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-64 0zm0 240l96 0 0 32-96 0 0-32zm-48 0l0 32c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-32c0-26.5-21.5-48-48-48l-96 0c-26.5 0-48 21.5-48 48z" />
-    </Icon>
-);
+const CartFlatbedBoxes = createIcon("cart-flatbed-boxes", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABowAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDBAsGAAE2AiQDCAQgBYMtBzkbjQXIjtMN8UpMuJnEw//b9d8+t+qp+n26vs0MyqFxNk7lDAzBXpMygrthMPDgj5zKTb2lAj4rQcFK1O69E9/o3vgHG+D5/ulcoNlwNlGcbUvkKIlg8zckJJqE9PjFery2gTz+iVvqSI+kj3Hz+tD4URc3SOoyANEaALM3rl3u3WpUIz6qvUR8ZCkCYjYoBTJk6C7ANJlAd7kSuVxQjVot/weWBBD15GoJ5GjCU3gekIOkIc/HNXVNoUpdi3xDWVdsfbJH+lfifocUj3S4r5w68Eynh7rR6Ge6PTqgaH7QMYtHOz7Q2esrRUUUEYUQ4MzIwkmMJ9vf69xCKKaorDAM6O91FnVa8Jo+z7d+/ufeHx/4WKd3VnfosJpd9bs0/Pr/qWSffDNq1DefZO+qZhEf2iGXz1deEWLVFdVRVc6tuYJbqpr61CyIpVDNN1gGnDEwS0iq7xJiaZdyVMnppLuclhJOBwJB2zuDPtvZatpvjZUEfnj919+f49XeTVfS82iUQJANqw2zLV2BTA4gmuKCPviiQPKEBvKuzR4IEAoESOoVAmS6aS1ArjBUgDo9jRegXmGtTORNQnvbG5o0O41mJriI5tp7Aa0zzXuReu0j26q8jcb7UUy8wILzh5WjR4wqp5SvKcrffZzaOrWcVg+6wCWDaa0DTjrhnP32OeycQc5YHj/vuAUePN8PlUYbYZTSFGU4ey/eANMZZ5kzFsbbmapcbx/kgl99MOkSoRwjKUlEanvYJcO/T++e/fuGH2UAAA==");
 
 export default CartFlatbedBoxes;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dolphin` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dolphin?s=duotone dolphin}
  * @preview ![dolphin](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/dolphin.svg)
  */
-const Dolphin: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 245.8C0 269.1 18.9 288 42.2 288L176 288l16 0 11.2 0 92 61.3c4.9 3.3 11.2 3.6 16.4 .8s8.5-8.2 8.5-14.1l0-48 6.6 0c31.7 0 57.4 25.7 57.4 57.4c0 30.6-24 55.8-54.5 57.3l-53.4 2.7c-20.2-33-56.3-53.4-95.4-53.4l-4.7 0c-5.5 0-10.7 2.9-13.6 7.6s-3.2 10.6-.7 15.6L190.1 432l-28.4 56.8c-2.5 5-2.2 10.9 .7 15.6s8.1 7.6 13.6 7.6l4.7 0c35.9 0 69.2-17.2 90.1-45.4l68 3.8c94.1 5.2 173.3-70 173.3-164.3c0-80.8-31.4-154.5-82.7-209.3l48-72c3.5-5.3 3.6-12.2 .1-17.6S467.7-.8 461.4 .2c-16.7 2.8-43.1 8.6-68.8 17C378 22 362.5 28 349 35.3C306.5 12.8 258 0 206.5 0L176 0C96.5 0 32 64.5 32 144c0 18.6 3.5 36.4 10 52.7L20.5 209.6C7.8 217.2 0 231 0 245.8zM200 144a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M152 144a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Dolphin = createIcon("dolphin", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiwAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCHQsIAAE2AiQDCgQgBYMtB0obOQXIHoVxw10WTcTizvmJiiAbttm7oxZF96BKKa5UhwINr5HgcU1YhEVYjPhg0eizyI6qXhzAOUjKAIR4UPmHUvxfnHqe81AAH0Qyh22QBT7neQRyHk27rbQFewWuaQ2sbxsuRyBBIyIkSkQkfjpeFyjxPr9AJH1yL8Er/Q9g/NE2CiQdGQDRDwB2blLicPczNVO8rBdA/IgFAbELYAohI2MMgXW8wBjBFCiKoMlVoEmVAQFEK+hjMmhFCx7AE4ACkpCKIJ0mLSvKC+myokzOmsWB9rLpoQ4NqhMtyMrKptGC5hIRydKB+oL2oNq8aSitmh/KyNC02ry6EznGvLpGpydbeP2nkzcZQ85n/hm0pLGotu+6b/o6XYYert9kg9qmtK+V4Yq7HzQ+VTr9afSy/CWWHNSTktTbm+O5yg3gW2VcN8cXrc+t0o4kPVZJrfq7KAlf5uYMRHQsHXpcxVV4LEZIi2iMhHA4Cv1eivRLTat0iEDmccb2/kx59N84GLo30amntxwLn7Yn9xdeBgSCu7hlXaDo+y8lywF+r//+339IqHc56QvQLoEgz1Rb5CZAIgAAKdphnOADEMhuceq5bm8gEDqZkLTqhGyUEhSdpqHFBDdcuX6BF0UaYVgeQNKtAdmiPiiGnUOLdU/cVsPB5x2ZNeS3Ly6cI2FzzMnekXmzY2hQqYSXsQ9Ta5btWLKCvSjXoF6rMqWqtDKsWVzQpk64hIb5IsaJPUeMN2ZOXrl0pjdrQXzP2Kf4YP6OpXa52QqW4QCzL3Y2E4l4xdKG2sbKqnq7AJaVOROpAAA=");
 
 export default Dolphin;

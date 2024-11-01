@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ranking-star` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ranking-star?s=thin ranking-star}
  * @preview ![ranking-star](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/ranking-star.svg)
  */
-const RankingStar: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M317 17.9L293.3 65.7l-1.9 3.8-4.2 .6-52.2 7.5c-2.9 .5-4.1 4-2 6.2l37.9 37 3 2.9-.7 4.1-8.9 52c-.4 2.9 2.6 5.1 5.3 3.8l46.8-24.7 3.7-2 3.7 2 46.5 24.4c2.7 1.3 5.7-.9 5.3-3.8l-8.9-52-.7-4.2 3-2.9 37.9-36.6c2.1-2.1 .9-5.7-2-6.2L352.7 70l-4.2-.6-1.9-3.8L323 17.9l-.1-.1s0 0 0 0c-1.1-2.3-4.7-2.5-6 .1c0 0 0 0 0 0zm-14.3-7.1c7.3-14.6 28-14.1 34.8 .1l21.8 44 48.1 6.9c0 0 .1 0 .1 0c0 0 0 0 0 0c15.7 2.4 22.4 21.8 10.9 33.3l-.1 .1s0 0 0 0l-34.9 33.7 8.2 47.9 0 .1s0 0 0 0c2.4 15.7-13.9 27.8-28.3 20.6l-.1-.1s0 0 0 0L320.2 175 277 197.8l-.2 .1s0 0 0 0c-14.5 7.3-30.7-4.9-28.3-20.6l0-.1s0 0 0 0l8.2-47.9L221.8 95.1l-.1-.1s0 0 0 0c-11.5-11.5-4.8-30.9 10.9-33.3c0 0 .1 0 .1 0c0 0 0 0 0 0l48.1-6.9 21.8-44s0 0 0 0zM272 272c-17.7 0-32 14.3-32 32l0 160c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-160c0-17.7-14.3-32-32-32l-96 0zm-48 32c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 160c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-160zM48 336c-17.7 0-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-96 0zM0 368c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96zm592 32l-96 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32zm-96-16l96 0c26.5 0 48 21.5 48 48l0 32c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-32c0-26.5 21.5-48 48-48z" />
-    </Icon>
-);
+const RankingStar = createIcon("ranking-star", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAAB4gAAALNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUiFOAsGAAE2AiQDCAQgBYMtBzMbuwbIjpPlOidTBA869e9JCskt20nLKjNunxFmwhUn4JRZ8/T37vz/BsjWNgW6MJQ1J8he51HXeYLPGps/cG1LPDHpbBsifm8aKrLOHrL4x3ZVJDckH+Oy7kPjR22dTSJNAUQLAExZtWyB17+L7yI+bnyG+Ng8BMRUUAikSNFBgPFSgQ4yBTKZ4LtobMz+AwsCiGoDYgnIkBMTiBmADCRqs2z8hnZDslTVNFu5gPNd/Qf1L0ce0+PqyoSoBLAWcU3DuGhQjclcXaM+ZJ0U19XPjPrUwIg4Y3ReWz6jxV5XSl9UGRAjSHWJFb2mck1Z6BsfHdWElPXq+hw3NkaTr66/tsHXOSaGwgx7XQPljBgVg4CrLyxHXE2cXrmmVIqLRNgIoclvneejb2qIuK5XKe6pXNNWXF++unse99Zf2y6WF8EDeSkPG2bzV5bykqoxbpIBenV9sMWDP3f52MfGP3La8JCtZUaZ3H25rlJnySZ/ZoghPjWl6iyprpbpPnmUwVo5DdCtG5+sLdFk7Ty/Q8ATfceeD3RxGaB07jlPBbjHvYCnaYSbwGW6AM4fO/YJ+N060Clrdj7nN7tds/PPb7Z5lUFxY5qvBkfEwV9Nha0CrI91NuDczG8z5+bg5kWdNw9iuaHQlYNpU3O2WMFQKMsBDASCja/uektv1fjfaksJ+OHFX/+2X9z4enJ68iBqJSBI+zf2tz45HTL2ADJJnNRVoglsoRFqDdfaxLUChBwBEtVyAVLttRAgk+snQJVORghQLbdMKrI6oWwD0BJNHKGlRjqFlil7ilZlvPfS1cqR3kTSW0D6C5tqJg7NWFYMGTi4GFsIq07ZfSGup8cV2qbeJ6muPiHYToccdNwO2+1xHIY7akHuhANmyjhnfLcwxECDFcYqrBvTqpWYcFUda8V8uf0s4xT+fb2dlA/uE1oTg8ChShIJkTT5rKgHPOgA");
 
 export default RankingStar;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-flood-water` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-flood-water?s=duotone house-flood-water}
  * @preview ![house-flood-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/house-flood-water.svg)
  */
-const HouseFloodWater: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 368c0 2.4 .3 4.8 .8 7.3c4 17.2 21.2 27.9 38.4 23.9c24.5-5.7 44.9-16.5 58.2-25C126.5 389.7 159 400 192 400c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9c33 0 65.5-10.3 94.5-25.8c13.4 8.4 33.7 19.3 58.2 25c17.2 4 34.4-6.7 38.4-23.9c.6-2.4 .8-4.9 .8-7.3c0-14.5-10-27.7-24.7-31.1c-18.1-4.2-36.2-13.3-50.6-25.2c-11.1-9.5-27.3-10.1-39.2-1.7C439.4 325.2 410.9 336 384 336c-27.5 0-55-10.6-77.5-26.1c-11.1-7.9-25.9-7.9-37 0C247 325.4 219.5 336 192 336c-26.9 0-55.3-10.8-77.4-26.1c-12-8.5-28.1-7.8-39.2 1.7c-14.4 11.9-32.5 21-50.6 25.2C10 340.3 0 353.4 0 368zM0 480c0 2.4 .3 4.8 .8 7.3c4 17.2 21.2 27.9 38.4 23.9c24.5-5.7 44.9-16.5 58.2-25C126.5 501.7 159 512 192 512c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9c33 0 65.5-10.3 94.5-25.8c13.4 8.4 33.7 19.3 58.2 25c17.2 4 34.4-6.7 38.4-23.9c.6-2.4 .8-4.9 .8-7.3c0-14.5-10-27.7-24.7-31.1c-18.1-4.2-36.2-13.3-50.6-25.2c-11.1-9.4-27.3-10.1-39.2-1.7C439.4 437.2 410.9 448 384 448c-27.5 0-55-10.6-77.5-26.1c-11.1-7.9-25.9-7.9-37 0C247 437.4 219.5 448 192 448c-26.9 0-55.3-10.8-77.4-26.1c-12-8.5-28.1-7.8-39.2 1.7c-14.4 11.9-32.5 21-50.6 25.2C10 452.3 0 465.4 0 480z" />
-        <path d="M306.8 6.1C295.6-2 280.4-2 269.2 6.1l-176 128c-11.2 8.2-15.9 22.6-11.6 35.8S98.1 192 112 192l16 0 0 73c1.7 1 3.3 2 4.9 3.1c18 12.4 40.1 20.3 59.2 20.3c21.1 0 42-8.5 59.2-20.3c22.1-15.5 51.6-15.5 73.7 0c18.4 12.7 39.6 20.3 59.2 20.3c19 0 41.2-7.9 59.2-20.3c1.5-1 3-2 4.5-2.9l-.3-73.2 16.6 0c13.9 0 26.1-8.9 30.4-22.1s-.4-27.6-11.6-35.8l-176-128z" />
-    </Icon>
-);
+const HouseFloodWater = createIcon("house-flood-water", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABsgAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iCZgsIAAE2AiQDCgQgBYMtB14blgXIBp7/t6vu+1XdgxqjhuYSGZSRToI5mwqZLk49z3kogM8RT9D20JyPBZjdMc8L3Ct4t29qAbdQS1oRqrXT/xcDySpJD8mwnWFRdkCXP9paLKD2qPfAprhaPuLLWlDYaUQQF+B2Kelqa+DxlEwpef//Osh76gEBkFIATATQAA0IQADIR0OAAHRMQEdHYEr9/w9TEv4DTRAAECt0OxoAVsAC7AQOAAA6AApB6Xp0WpphcdQ7DYv9tJPh7XLcd0+EIcgOzzPGrbhTxroIOX1d3C5jl7eIIaf890V2ykrPHZ47vG9F3al4FbXLe4fnCZPKO5Gxw3uXXyV7I0/Gngy/nX4zV6Z8Ovy4D/PXCD3rcvZzyPvJ96TeiYu7tALHjsXNLtRguj4LYqvh4WHIluBrLgI1uDC8uMJx4idq1lX8yZNPewpfu6iva8bG1nxVLq8Le56ePBmvdJulN1sS66O2bI6O848+vCWqPrHl5lKb+UyYUHc5AAgg4LPe/eCQc/5vW0MB8OHu1598Pv8fqmJ1FrBFASCgxf+Pp18VA1i8AICnZCmh2hfVAwJoTKJI7+rATgQAwR4QABRW7BEANPxxQQDQsScOAcBCEBkIAFbsaUNDdDsEDwYKKBxYABqZLAMdD66BhXxe+VY8RAMnAy3ma5hYWSMVs8yUxGQz1+xmMos3yo/nmctm9FLXFkNbmWQec1nMBOPMYHGFLaQhWsIcKkdoBR/EJIVEkjHJxdwub8VO8ReyiBk6vz9JHuZ5N5ql494x5CgSaSpzNDQQJZovcuWEdzl7PAHCasJN7+Gv8vca");
 
 export default HouseFloodWater;

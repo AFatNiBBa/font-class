@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-binary` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-binary?s=regular file-binary}
  * @preview ![file-binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-binary.svg)
  */
-const FileBinary: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 464c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16l160 0 0 80c0 17.7 14.3 32 32 32l80 0 0 288c0 8.8-7.2 16-16 16L64 464zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-293.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0L64 0zm64 240c-30.9 0-56 25.1-56 56l0 64c0 30.9 25.1 56 56 56l16 0c30.9 0 56-25.1 56-56l0-64c0-30.9-25.1-56-56-56l-16 0zm-8 56c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 64c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-64zm120-56c-13.3 0-24 10.7-24 24s10.7 24 24 24l0 80c-13.3 0-24 10.7-24 24s10.7 24 24 24l24 0 24 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l0-104c0-13.3-10.7-24-24-24l-24 0z" />
-    </Icon>
-);
+const FileBinary = createIcon("file-binary", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhgAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCLQsGAAE2AiQDCAQgBYMtBzIbLwXIjtRGecaLxMP3ul7PfdLut6XPIBNiiLEzQRWCMl0qdwEsyp20WFHlLcXaiXOdz6rO02go0Vg6kO0bI+L8BSb4b5H2QlFgE8W3tsl9OIMoNhE5ZHtEDG0f2o6QxwtxXI10If2IY/VH43dD3iSpZQCiEwBbrrnigEuNaET80Ez8YB8CYguoBDJkGBVgvUxgVK5CLhc0otnkf2BFAFHXPj2BHC14Hq8CcpDU8rx/dLizv6y15VeXtWLH2f4szg2UIV7tO1OWkeJ0b2v20eyIzwZTXJjz+Yy2+HTelyNZvDb36viiKK76qDfi9KC40HdmRhmfDpwbibjYf3ZmUd3Y4UyfON1bxNn+uOajwQszhMk7bPnpyMWZMrea+kXnF39O+fHuHzUb7a9qb7znsOHvvtvuVLLWr+910VW8qujqeg+RecUMI1Ovu87U4U82/f3oZf5u2azl78uPdoKF2mfqt3a6tb5ZL3tm1ZG+viOHERwcdO9VbgcCwf9Tjd/Ssf6fSWUCv3399792vealeDV9gUkSCLL5zflujFfBEgUwSvG0qU7KAsnjaoB7bXVWgFAgQFJXCJAZ0SlArjBPgJpxKwSoK1whE/lkoddNU0xaPSZmVnpJzPX6SqxZ75uorjey8NODR//7y9mpwI6kasnCxdXa6rVpGBGl5uV11bY7++k0NAcb3O0RD3vSXe50X5eFedyB7FMestPDdkhRZYmFFqusVR13Xp2rJXrcE+57ts5XWae6H872tD95DoKkSS5VliQilZ966YLb73v4tsefAwA=");
 
 export default FileBinary;

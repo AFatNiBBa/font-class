@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sack` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sack?s=thin sack}
  * @preview ![sack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sack.svg)
  */
-const Sack: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M315.2 128l-118.3 0-9.2 5.9C131.8 169.6 16 259.6 16 416c0 44.2 35.8 80 80 80l320 0c44.2 0 80-35.8 80-80c0-156.4-115.8-246.4-171.6-282.1l-9.2-5.9zm4.6-16.7l57.1-82.8c3.7-5.3-.1-12.5-6.6-12.5L141.7 16c-6.4 0-10.2 7.2-6.6 12.5l57.1 82.8 .5 .7 126.7 0 .5-.7zM0 416C0 262.9 105.1 170.8 165.7 129.2c4.7-3.3 9.2-6.2 13.3-8.8l-9.1-13.2-48-69.6C111 21.7 122.4 0 141.7 0L370.3 0c19.3 0 30.7 21.7 19.8 37.6l-48 69.6L333 120.4c4.1 2.6 8.6 5.6 13.3 8.8C406.9 170.8 512 262.9 512 416c0 53-43 96-96 96L96 512c-53 0-96-43-96-96z" />
-    </Icon>
-);
+const Sack = createIcon("sack", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfAAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCDgsGAAE2AiQDCAQgBYMtBysbCQXIhofn9f77tU9y3wDKTGWigju74zc6ugQ1/c0/7zwK8J0nHNrYtDSQMYHmPE8gsS5vW0CfFvg3/QL2zVtupEcu+6YmmiT/2OPbAnk8YakS6Xx6GUfrU8XXGjhAkmUAojoABs2YMs6zH8QHES///xDxsjEIiMGgEMgw01iAvjLBLpArkMsFH8T///M/sCCAKKOfl0COElZgOyAHSZbnTWp0qlSqkk+vVKq4omKlirXjRt8nO9479XKrm92qxCNtbjd7t/P9/Z9uXbfRjKkzztatGKfqTIs6USnqLX2vS8QDAyKeaXO2Xt2YHmfqEV0pTtc5XXtq1D52s99Tne6bdqnlja6V4+HWt5q2uFX91rfNX17+st4DtuPiQW9sWfr5+zEupi+rPlD1ZdMjxr3/+dItbxwc2HNScvS+/onrveUW7GJAR2Me5flpTPtl6ZRDOgy1Y86aDz7xwZo5O4ZHHTJl6S/Tpj3/qDHlb93aM9CeW7fKA4Gg05v3vLegWt9fy1dK4KPHv/8LfkX/P5ukWygvgSBr+39bcxNIBAAgxXYtEgSSBTL6rJWdESBURICkTEUBMo1UFyBXURsBSprqJkCZiqbIRF5BqG1eB0llm0Cmu50gV9sDoKSv57QytSOLNzJayN9e3HALDRsrOrXvWPQulr5GhRBe+n2KbbHl9pxrhVnLbbDeVssstcpWg2w2ztxmneEePMwXFTppr6NCb8Vx9Dw93TKbbbHKBus5pI/ivtrSdr+6FZREMTsT0hN4Ur5l0ZI1AAAA");
 
 export default Sack;

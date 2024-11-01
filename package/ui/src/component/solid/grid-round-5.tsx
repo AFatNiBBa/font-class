@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grid-round-5` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-round-5?s=solid grid-round-5}
  * @preview ![grid-round-5](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/grid-round-5.svg)
  */
-const GridRound_5: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64A32 32 0 1 1 0 64a32 32 0 1 1 64 0zm0 96A32 32 0 1 1 0 160a32 32 0 1 1 64 0zM32 288a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64A32 32 0 1 1 0 352a32 32 0 1 1 64 0zM32 480a32 32 0 1 1 0-64 32 32 0 1 1 0 64zM160 64A32 32 0 1 1 96 64a32 32 0 1 1 64 0zM128 192a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM128 384a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM224 96a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM224 288a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM224 480a32 32 0 1 1 0-64 32 32 0 1 1 0 64zM352 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM320 192a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM320 384a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM416 96a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM416 288a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm32 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM416 480a32 32 0 1 1 0-64 32 32 0 1 1 0 64z" />
-    </Icon>
-);
+const GridRound_5 = createIcon("grid-round-5", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAACZAAAAHuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKiVCIHwsGAAE2AiQDCAQgBYMtBzMbIgjIngeOsdRMfdDIDC7K/B6DiIfv5z7PfckCcGZVAVBXEgvLDhj8ty2rdQXWgLJTuTpvm9Q60s4z9bmCxirBUUHV/xXze4bg809c8/ztqc9TvLZG6dR5gzwty1pg5+OiCvEN6EEWZf7AuMVtF0fUQxp0dpDH3eyYKtLt9B4X3enxT59jJHUZn4lWXKaV64vC/xW/It6VT4h3VgEBsRKgEMiQYVCAJTKBQbkCuVzwK8rS/g8sCCCqYTBZlmOA+EuM050QSV+ed+BYQ1VTvi5+jvrNhzojrtWf6b4Rh3tuNpztuk4bWnOm2143jhpE8zMXKL9ZLTOFNsvDh99ktNJa+Y+x/GDzKU41N5+K6uxo1xuZo4Ky2wcf7lU41rd8u7x8/u+AQPDsy8+2tywZr21I4M/LZWeXv2IsVVArgSCbUmZbYgxEZ/BFSLFPmpBeIMVXfcBXq9ENAUI9AiTV6gXIDGgVIFdvsgBVhs0VoFq91aLI64ROWysmabSTycyzn8l1esRUWeJVolpnZHBvgVrLb3dOaQI8DmdOm1EsKkYzCisom6zOxcXi4IR9smIiXghmma6ucbeBb5p+Bplis7RopmlmKCxSbK6r66yU2A73z+2jLFYcH51g33T9iTgS+HpnESWJSI2vNzd9oEI0Fw==");
 
 export default GridRound_5;

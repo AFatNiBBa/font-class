@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blanket-fire` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blanket-fire?s=duotone blanket-fire}
  * @preview ![blanket-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/blanket-fire.svg)
  */
-const BlanketFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 320c0 70.7 57.3 128 128 128l186.4 0c-11.3-19.5-19.4-41.2-23.4-64l-163 0c-35.3 0-64-28.7-64-64s28.7-64 64-64l189.4 0c2.5-4.5 5.1-8.9 7.8-13.3c21.7-35.2 51.9-71.2 87.3-102.8c10-8.9 23-12.8 35.5-11.7L448 96c0-53-43-96-96-96L96 0C43 0 0 43 0 96zM96 320c0 17.7 14.3 32 32 32l160 0c0-.6 0-1.3 0-1.9c0-20.2 5.3-41.3 13.8-62.1L128 288c-17.7 0-32 14.3-32 32z" />
-        <path d="M518 194.5l-12.3 13.8-19-19.9c-2-2.1-4-4.4-6-6.7c-9-10.2-18.6-21.3-32.7-21.6c-7.3-.2-14.6 2.3-20.3 7.5c-23.4 21.1-50 48.9-70.9 80.2C336 278.8 320 314.8 320 352.2C320 440.7 390.4 512 480 512c88.7 0 160-71.2 160-159.8c0-30-11-60.9-26.2-88.1c-15.2-27.4-35.3-52.3-55-70.6c-5.6-5.2-12.8-7.8-19.9-7.8c-7.6 0-15.5 2.8-20.9 8.9zM480 464.2c-35.3 0-64-28.7-64-64c0-36.5 37-73 54.8-88.4c5.4-4.7 13.1-4.7 18.5 0C507 327.1 544 363.6 544 400.2c0 35.3-28.7 64-64 64z" />
-    </Icon>
-);
+const BlanketFire = createIcon("blanket-fire", true, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABmQAAAKJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCPwsIAAE2AiQDCgQgBYMtB1QbZQXIFkpL8L3Nst+fkWpvtMvSAc4BY0QGJFiIXA4PUgNnrtL09+7821qAj7/rHJW2efkY8zyBzreVjU3lcUJphtbgvFHtdEhTKM/OYXCGPE3OrlIh3Z96cav7H8D4xTBXkQzKAEQnANbuu+cWn+2IHSl6m28RvTYjINaBUiBDhpECrJAJjJQrkcsFO1KzyY5oNksCiCoHZ9wqesFluBGQgyRJeT6hMa1Rq7Tl+9DM4tT6kPq0uGewePflxQOTbqi/t+Kj8qeVH+/98+pP931k1ivT7iluqO93w7SIF4Y/OP3FIfc27p76/LD7pjxXZMLjKz/eWIsXRhfxzLSjtZNrce+QL/e8d2LEI4v4otZ469KmkXtf1oi4u1aLy9vvwRFF3FC/y7gXOl/4bWzvMb0q/39E9huvM7pEvD6vdu2hHaOnxPqPejd4Mnp79x11/vm/XFtrvW5i64huuooRkyf/cs01v9CMEUVX9wiH7UDbKgvW7/aBtt2f9FhXV1HIPR772KKFjd1+nVNqeeGFy7gM7dNy6Pb267iu/TFCtA28Yiqw54FAcOZ+V/Ye2rHiv5ZaArs++OOf5nHNz9Jl6QW0SCDIZjRnOChdBvED+FEpzjEuXRZrEMisloRPbXWPAKFAgKSqECAzQqcAucJ0ASpGWyhAVWFPmcgHCXUHDyBpdTrILHIxyNW9CSpW+DZRVY8sIyrZSPkPzNwktHFWOXfWnHJZuVvRqXlL0pPLy8uBKefcMRXudIxTneIsRzvK8c6CO8OW9NlOtumI2OiLSnPNMkdpmfJx/aW5D4kznOn4bf35NMuV30emOOe4/1Q4nwSYF4V5GZEiq1fL4NFnzUzX7sw83T14RU+/AA==");
 
 export default BlanketFire;

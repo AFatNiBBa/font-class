@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-monster` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-monster?s=duotone truck-monster}
  * @preview ![truck-monster](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/truck-monster.svg)
  */
-const TruckMonster: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M32 384c0 13.4 8.3 24.9 20 29.7c2.5 9.1 6.1 17.7 10.7 25.7C57.7 451 60 465 69.5 474.5s23.5 11.8 35.1 6.9c8 4.6 16.6 8.2 25.7 10.7c4.8 11.7 16.2 20 29.7 20s24.9-8.3 29.7-20c9.1-2.5 17.7-6.1 25.7-10.7c11.6 4.9 25.6 2.6 35.1-6.8s11.8-23.5 6.8-35.1c4.6-8 8.2-16.6 10.7-25.7c11.7-4.8 20-16.2 20-29.7s-8.3-24.9-20-29.7c-2.5-9.1-6.1-17.7-10.7-25.7c4.9-11.6 2.6-25.6-6.8-35.1s-23.5-11.8-35.1-6.8c-8-4.6-16.6-8.2-25.7-10.7c-4.8-11.7-16.2-20-29.7-20s-24.9 8.3-29.7 20c-9.1 2.5-17.7 6.1-25.7 10.7C93 281.7 79 284 69.5 293.5S57.7 317 62.6 328.6c-4.6 8-8.2 16.6-10.7 25.7c-11.7 4.8-20 16.2-20 29.7zm176 0a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm144 0c0 13.4 8.3 24.9 20 29.7c2.5 9.1 6.1 17.7 10.7 25.7c-4.9 11.6-2.6 25.6 6.8 35.1s23.5 11.8 35.1 6.9c8 4.6 16.6 8.2 25.7 10.7c4.8 11.7 16.2 20 29.7 20s24.9-8.3 29.7-20c9.1-2.5 17.7-6.1 25.7-10.7c11.6 4.9 25.6 2.6 35.1-6.8s11.8-23.5 6.9-35.1c4.6-8 8.2-16.6 10.7-25.7c11.7-4.8 20-16.2 20-29.7s-8.3-24.9-20-29.7c-2.5-9.1-6.1-17.7-10.7-25.7c4.9-11.6 2.6-25.6-6.9-35.1s-23.5-11.8-35.1-6.8c-8-4.6-16.6-8.2-25.7-10.7c-4.8-11.7-16.2-20-29.7-20s-24.9 8.3-29.7 20c-9.1 2.5-17.7 6.1-25.7 10.7c-11.6-4.9-25.6-2.6-35.1 6.8s-11.8 23.5-6.8 35.1c-4.6 8-8.2 16.6-10.7 25.7c-11.7 4.8-20 16.2-20 29.7zm176 0a48 48 0 1 1 -96 0 48 48 0 1 1 96 0z" />
-        <path d="M288 64l0 64 128 0L368 64l-80 0zM419.2 25.6L496 128l80 0c17.7 0 32 14.3 32 32l0 64c17.7 0 32 14.3 32 32s-14.3 32-32 32c-29.2-38.9-75.7-64-128-64s-98.8 25.1-128 64l-64 0c-29.2-38.9-75.7-64-128-64s-98.8 25.1-128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32l0-64c0-17.7 14.3-32 32-32l160 0 0-80c0-26.5 21.5-48 48-48l96 0c20.1 0 39.1 9.5 51.2 25.6z" />
-    </Icon>
-);
+const TruckMonster = createIcon("truck-monster", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAAB1gAAAKLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHCDWQsIAAE2AiQDCgQgBYMtB1YbAQbIngV220oF4QxmuaNy578gInjQ42tekq81szArmpXZQtV2OLRXnVuhvfy/y4b1xQJNNMUoHkvbFPZSCOzuY9PlNKTohkbnPG/XKA0xjKe/n/q3YdkAHw90WGHUqWlNUX0+wASMSCvwAe18prDBeZMOKRSo/wxZ0i5VSkiuJV/hov0/gPGLho6RqEgBRA0AjJg5dbwPP8aPSXxVvCS+Mg4BMRLkAilSNBFgsFSgiUyOTCb4MSkKfoyiyAkgStnPTEEpyvE1vgFkIJHIsqxieI+oFUqqZjPkaZVWCpVjZFSaOX3G9Mpxtq4FdMuhOgafD7x4pv+5DGfhWlw7XN9TQDZlU+gGlAGPOohrbkeYJU7Mzqx9+1lbxYbYyJrCSZ4jPoiNAsoy3NgoZMMfB6F1iWY5u1eFhf35875+i69WfKX5weFu6CEoTDricjl1n6TaqVPVhkdcNmU+7dszf7iM1ykaftNdk6Rff9t9kT8pMoPXbv3jt36v68jw4Ufqdb/vh61rB8sMw5Y/fke+3z13pQ17926oFJW7tBCzZR3BD/+z/n/Y8jgQCP77nUsLqw/+r5wS8PP7P/6x7lF8IIeS5yiXgCDtXDzzsAUwbgC2JHZoCUW7ryX7ZNxPreKyAKESAiRKVRIg1VgNATKVdBKgRDN9BChVyVSpyCqEOuYXIFHFZpDqaz/I1PEClBjso71UnaBXNf+a5P9UJhlbRYzpla9r93xg3puQCS5Urm4clE/W2MELOsCFVthog22WW2a1bRXsFuNd2603dgh/zHdzPXTVXW6gfHH6ZugMy22x1epu0fJmBsm3N7S3Y7h8B6hPuGR7GpFKiSTSus+tossnQtHlDilRv0N0NwAAAAA=");
 
 export default TruckMonster;

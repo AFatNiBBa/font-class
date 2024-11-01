@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-y` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-y?s=sharp-light square-y}
  * @preview ![square-y](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/square-y.svg)
  */
-const SquareY: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 64l0 384 384 0 0-384L32 64zM0 32l32 0 384 0 32 0 0 32 0 384 0 32-32 0L32 480 0 480l0-32L0 64 0 32zM208 293.5L92.2 144l40.5 0L224 261.9 315.4 144l40.5 0L240 293.5l0 90.5 0 16-32 0 0-16 0-90.5z" />
-    </Icon>
-);
+const SquareY = createIcon("square-y", false, "data:font/woff2;base64,d09GMgABAAAAAAIYAAoAAAAABVwAAAHOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBLgsGAAE2AiQDCAQgBYMtBy8brQTIhof/nyvv+8ksFzmtAmZFyL6KSK9tWSEJu6eWQM/E5c7//OkBp734o6xFSzcusLmr8wQS6/I8obHAMk3A2p3bNA7RXmkpS3I8muN0hjyuRW8l0pX0Aefrh8ZX7ZwjyTMA0RQAExbOneNJQzREfCjfIz6YhYCYCAqBDBk6CjBaJtBRrkAuFzREuRz/AwsCiAryZAnkKGEEJgNykGR5Xt2sTW2pUb6gtlSzNGWpUWRR17O2ppFIIWrqIrKIxQvmL6iN+bEwamNeCFETEdGtvmn9964fNnzQ5eQpkDGxXBRPCqcU6u3gfy7tvYB+D0v2M0VUpxCnqULTy0EgGLnzxYCVTUb/r6pN4Mvjn7/Br6jcEE9SPaokEGS9y70tiycQTwQAIMUB3eIJAskAGbnWOhcFCDUIkFSoESDTQVMBcjV6CVDS2RABKtSYKxN5tdDScoKTOrvhzFDH4VxLd+CS0V4HFVpG5j/c7XO/t+SpGphyqBjQt38xspgWGu8STN4dVSxr3Q+kQQ88aYOddthnvXU226egPebE+2031QKn+KLCAH31Vxip2K4fjy+w3h57bbbTjrLPKMV5q7sD9nwPNBMhHSiRJCJVPUG9z2E=");
 
 export default SquareY;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `box-circle-check` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/box-circle-check?s=sharp-thin box-circle-check}
  * @preview ![box-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/box-circle-check.svg)
  */
-const BoxCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M17.5 176L74.4 48 216 48l0 128L17.5 176zm413 0L232 176l0-128 141.6 0 56.9 128zM16 192l336 0 80 0 16 0 0-16L384 32 64 32 0 176 0 464l0 16 16 0 280.2 0c-4.2-5.1-8.1-10.4-11.8-16L16 464l0-272zm416 48a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 272a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm75.3-184L496 316.7l-5.7 5.7L416 396.7l-42.3-42.3-5.7-5.7L356.7 360l5.7 5.7 48 48 5.7 5.7 5.7-5.7 80-80 5.7-5.7z" />
-    </Icon>
-);
+const BoxCircleCheck = createIcon("box-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiQAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCQwsGAAE2AiQDCAQgBYMtBzcbSgXIjpQuI1bx8P9rVvf9quR0BwaxhpADw7AApNgB6221CFHLwhEoVKujB0O60oRemFfP9Pfz/J9Hgzz+X/yjRVP0kteAmecT2Pm0uYVGUWATxe3OpsyhsU/SIkvye3Z8yh7y+N55JdIL6Ts8k740/jLSYyRZBiAGAGBD+9AenV/il4hvu+8S39qFgNgACoEMGcYIsFomMEauQC4X/BLdLv4HFgQQZfw0CeTowUN4BpCDpJznvb3DR48eWS3V81a1VDnWbrSrISr1SrUSUY3m6XqtHtGKWjQihajWnx0mkZ15YgbH6zPcQ9PNM5XHZ4KJh2dFtpqeWDXmfjxv4uG5vfIvWr6z00NzasVV28OGDhsSjVgbw2JIDI01hAyP9o6JfQPwz4TvLn5nYP9lD7rKpz3ki1e+5N0PedryB1/tv3//GwNo3TPW53MKAwwY0W7XDHhtnnbojK1PnFgf2+lMElW4acC0RFowYerUCQtSmgZVEO58v4+v17Bjpxc19Nmiq6Fh3z5NIBBsHfvnzaf6r/6/p5rAbx/995dycbeT1qc+9EggyGZ3Zzue1gOyA8inuMNEZYGB5C7Xeqs1zwoQKgiQlFUEyIw2QIBcxSwBSsZZIkBZxSGZyHuFIU40kNTcDDJL3Q9yQ7wNSlb7Mlc2JDJLlOxIegimb5XQlnnFgrnzi5XFtKrKxiXE6VXFsjX9jtA1A7a66EY3uM0F511xmyBvsad4u+tt1eAtfqiwwFzzFVYqthv361suuMWtrrjRDTTLKsX51HR36INngJsw70JLk0SkAWdvvGvOlx1zjlED");
 
 export default BoxCircleCheck;

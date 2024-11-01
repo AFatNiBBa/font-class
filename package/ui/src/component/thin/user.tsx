@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user?s=thin user}
  * @preview ![user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user.svg)
  */
-const User: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M336 128a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM16 482.3c0 7.6 6.1 13.7 13.7 13.7l388.6 0c7.6 0 13.7-6.1 13.7-13.7C432 392.7 359.3 320 269.7 320l-91.4 0C88.7 320 16 392.7 16 482.3zm-16 0C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z" />
-    </Icon>
-);
+const User = createIcon("user", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABegAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCCwsGAAE2AiQDCAQgBYMtBysbBgVRlMvJDNmPw9hhHRsZF1GXj246gm658RQP/9iFf9/MxBtqA8idylTw6ZNS3C5wH3fGx/1vE0t3qDSeWKsaGqV+6qfqtirWkpe2DCi4nv7mn3ceLZBnFMrYNjWQdV4053kCCZYHXrgtsEy/gP3d2Sx2qLVPWiMkOT47PgtkccxCRUiOJPewn18ab1W3m0SaAohyAOg3ZcIohRfxIuLe/+eIe0YgIPqDugIpUtQSoKdUoJZMXWQywYv4///0H1iXAKIo2W0CMhTFYmwAZCDRZpkQBJqDSUKDQT/4rH1yBhod3Y0h3i4+4ZheggMLQ8l6lA8c81vEGZJdcaDFfWO2my3J6vx6X2/Ap+fVCp7Aek9B33HPmpgTiCy1Fza8q/e/AfXuLb5nTJ/8a16fPJnPE/76dT4v6NSnBjlyjx/Vr//ocS7XgHwwOWZerrBbIRcDn9wfGDOhfP8JuMrF8ArUG96QQa5XgVctvW+rtFvprfskIBAcmGSdnqP0/F4cE/Dq8sc/yq/o/4JCcgrFJSBIW/7f0swoQBQEACCJzepHAYHEbBl5as5BAUJJBEgUVVKAVE3lBMiU1EKAIvI6CVBUSROkIishVDJLQSJnHUh1tgtkKjkDiujppllUpUi9jfUV9rOXNNhCg8bqtmvdtm73ulNf5RyIzv0edbeVppsp1wxmLbbGahststAyGw2y3ihnk1UGr+BBPlRXO621VVd3dY+je2kymuttsGwsnA/poe59o6nN6+pmoCeEsD1PIiGS7IkCAAA=");
 
 export default User;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scythe` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scythe?s=duotone scythe}
  * @preview ![scythe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/scythe.svg)
  */
-const Scythe: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 179.3c0 7 5.7 12.7 12.7 12.7L541 192c9.3-43.6 18.7-87.1 28-130.7c2.6-12 5.1-24 7.7-36c1.8-8.4 3.6-16.9 5.4-25.3C505.4 0 428.7 0 352 0C114.8 0 15 151.1 1.6 173.3c-1.1 1.8-1.6 3.8-1.6 6z" />
-        <path d="M639 24.1C636.1 12.7 627 3.3 614.7 .7c-2.2-.5-4.5-.7-6.7-.7L582.1 0l-5.4 25.3s0 0 0 0l-7.7 36L520.4 288 416 288c-17.7 0-32 14.3-32 32s14.3 32 32 32l90.7 0-26 121.3c-3.7 17.3 7.3 34.3 24.6 38s34.3-7.3 38-24.6l34.3-160L634.4 61.3l4.8-22.6s0 0 0 0c1.1-5 .9-10-.3-14.6z" />
-    </Icon>
-);
+const Scythe = createIcon("scythe", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdwAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBagsIAAE2AiQDCgQgBYMtB0gbBAXIhqCylWV1zx7simFERBYQPRJYQGh9yHrrQu4D2/M/13x+z48O8BsdSkSvOQoj6vkEBjhNG0gk8UxnYNudsTQl8kmDWMjxzXE6Q5FG5OvVSI+kn3BX+B/A+FVv15O0ZgDRCQCLNq9f57O2aEvxU/UW8ZO1CIjFoBTIyOgnwFxZoJ9CiUIhaEtVRVtUVUkA0SR8MoMmFNiEfYACJCGKYkrfRq19salRq5/36PAH6/XoFdeYVL/YEFR+a7f7Xd39gUYDhfsTAVU9H+q5ObZHXz54qEduUx3juSHIQemt9dMbTs/9aOcag1/t9Orvg3469JMrX1o0dGLuYyU4z8Qzjuhw880d/IW2632xcUePffHzgy+OHfyUGa2WgZ49tG+81snbL47u08tuqdV61M4774K0eii8auuWHV0yEAj+v6f4ZXfHuf+3NBI488Gf/0q/o+qTdE16FS0SCPLYaqwd6WqqKl0jAAApLjQ4XR1XI5BNkehT7TwoQKhDkDSpQ9ZXJyjUjYGaAaadblK3XhZFq9DNToKknXMgm+4KKHTzJtTM9W26SbfI4sUIB/O5S1xeI8s2lZPGTyxnl9OWzEoM5VbnlMvmyAtxZJTa6ZCznHK+gw446vwKO9e63AVOWs6hy3xRaZLxJirNVh5378VNkD7XeY6O+fN15ijvx0e6kJ8+SjlJxJ3sdJaJFLnDefsvOf/IwXFiqnYq+ecIAA==");
 
 export default Scythe;

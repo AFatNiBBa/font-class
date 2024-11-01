@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mars` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars?s=duotone mars}
  * @preview ![mars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/mars.svg)
  */
-const Mars: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 304a80 80 0 1 0 160 0A80 80 0 1 0 96 304z" />
-        <path d="M289.8 46.8c3.7-9 12.5-14.8 22.2-14.8l112 0c13.3 0 24 10.7 24 24l0 112c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-33.4-33.4L321 204.2c19.5 28.4 31 62.7 31 99.8c0 97.2-78.8 176-176 176S0 401.2 0 304s78.8-176 176-176c37 0 71.4 11.4 99.8 31l52.6-52.6L295 73c-6.9-6.9-8.9-17.2-5.2-26.2zM400 80s0 0 0 0s0 0 0 0s0 0 0 0zM176 416a112 112 0 1 0 0-224 112 112 0 1 0 0 224z" />
-    </Icon>
-);
+const Mars = createIcon("mars", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABggAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCDgsIAAE2AiQDCgQgBYMtB0QbJAXIhofn7ao/t15NL6CatZVBEfUVwZGoTIx7/q/5/CwD5PMRHFr1KkEKrPP5BCZU3rSzvT2f0JnirJ2dEiWfSYlPfJJhe8OoXCGPe9JJFWQ3s3dwnv4HMH7VzEky1RKAqAuAMYvmzfDCD/FDFu+UHyHeMR0BMRYUAgkJLQUYLgm0lCuQywU/ZOUyP0S5XBBAlBCc+CUTwUbsB+Qgk0Sed6rTolaNilr5Qvvh6puuN6kRdzUTVxpeaTwyZsdDlZ/M/mD+Z3M/Wvj5vI8XvTpkXoyMa00WHIuIY76w+HSnlrynxa3fb35Lx7urn2p/Z9Mbjja72eGuGotuH/LksKfb3DH0qcFPtGx7f937f698Z+M7Ki+s+Gu3OY12q/Ppp08xztdVYmrdmAo7slaj2P1sfzywYkcBAHw/q/Ud3PHzz61bk3jHHa1bm2i16nzNTQcObKoZ3wcCQXbPieqr6gz/v2qNDPz01J//uteVf4gXsvtRVQaC1L3c3fJ4ASANoJbFQW2FuK0WSOZIoJ9V0zUBQnUEyJRUFyBpoa4Aueq6CVChtQEClFQ3TxJ5NaGhFRVkatoDkoEOgVxDD4MKw71eK2kYSeE0ddGee9kTOTThUNGnZ+9iaDHtKboOKWF3WLGc7HzQzXTBRRvtstN+G6y3xX7G7TWjecAOEyVighgV+uipt8JQxfbw3l7Ianvts2Vs7u8zTHG+2tlBeXkXZDJJtq8jSSKySDU/5/V76G2q9o7GvJ4AAA==");
 
 export default Mars;

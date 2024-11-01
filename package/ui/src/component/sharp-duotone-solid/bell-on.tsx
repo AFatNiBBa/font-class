@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-on` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-on?s=sharp-duotone-solid bell-on}
  * @preview ![bell-on](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bell-on.svg)
  */
-const BellOn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 368l0 48 448 0 0-48-64-72 0-88c0-77.4-55-142-128-156.8L352 0 288 0l0 51.2C215 66 160 130.6 160 208l0 88L96 368z" />
-        <path d="M608.2 50.7L586.7 61.5l-64 32-21.5 10.7L479.8 61.3l21.5-10.7 64-32L586.7 7.8l21.5 42.9zM0 176l24 0 80 0 24 0 0 48-24 0-80 0L0 224l0-48zM384 448c0 17-6.7 33.3-18.7 45.3s-28.3 18.7-45.3 18.7s-33.3-6.7-45.3-18.7s-18.7-28.3-18.7-45.3l64 0 64 0zM536 176l80 0 24 0 0 48-24 0-80 0-24 0 0-48 24 0zM53.3 61.5L31.8 50.7 53.3 7.8 74.7 18.5l64 32 21.5 10.7-21.5 42.9L117.3 93.5l-64-32z" />
-    </Icon>
-);
+const BellOn = createIcon("bell-on", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfwAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCDAsIAAE2AiQDCgQgBYMtB0obKAXIhod/5j67L8n/Zya/DCkAg2JHtqod2yrCRb92TuWiWp2Ja/LfW9OfJ5foo6wqz2eZ5xMYcJSubTwtoc3Utrjtak1QCW0nNE6QJf3S2yokT5Pf8TD8D2D8paPbJOpTANECADPWrVriY2M0JvF7+Yr43WIExExQCKRI0UWAyVKBLjIFMpmgMSlLGqMsCwKIqgSlHlpFHfbgBCADiYrIspb1ea1l11qlaba2VslP9e7Xe370jqHRLxaRy4YcruU1keex53r/5/mdgQ1R2zSVdZU7+/bpOyz6xALyZIOjbyxcJzSNiLUR8Wzq+7kReYivk98WYnXPhhYN//T4fe/vtt1buHBhaYOFFihttHDb5Q4drg/XYf/wa8079ezZCYmn/9F8+fL9w3Ww/zhxnFxoo1KWgQ2+bcuGp4M/Gm7aPOvlEwdeGmW6US4NnJivX7gfBIKtO178uq355P/ragn48fq/P5Ebyo/J9aQBdRIQpIPLwTbHODhuAPkkzuqJf4jtAqnpKtKnNvFIgJAjQKIqFyDVWQsBMrlBAlR0M0aAqtwqqcjqhTa29GyiiRNsaqwrbKaNl2zFZD8VqtpECm8qaFH97aWfOwbnzCtGDB1eTCw2q6oahBR2elJx2t7/rOwagPfa65ijTttjtwNOj4iTlpTPOGLuHj7HFxVGGGq4wkTF7cbz7WvtcdIpBxxz1M8ySfF+uL+z+4MHYFciSY60IJUSSaTNP7f0kGNHh7RbS8uxtoECAA==");
 
 export default BellOn;

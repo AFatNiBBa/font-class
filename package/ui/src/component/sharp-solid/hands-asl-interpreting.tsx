@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-asl-interpreting` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-asl-interpreting?s=sharp-solid hands-asl-interpreting}
  * @preview ![hands-asl-interpreting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hands-asl-interpreting.svg)
  */
-const HandsAslInterpreting: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M260.5 69.9l24.6-20.5L244.1 .3 219.5 20.7 133.6 92.3l15-30 14.3-28.6L105.7 5.1 91.4 33.7 13.5 189.4C4.6 207.2 0 226.8 0 246.7L0 256c0 70.7 57.3 128 128 128l72 0 8 0 0-.3c46.2-3.5 83.8-37.1 93.6-81.2l-62.5-13.8c-4 17.9-20 31.3-39.1 31.3c-22.1 0-40-17.9-40-40s17.9-40 40-40c19.1 0 35.1 13.4 39.1 31.3l62.5-13.8c-8-36.3-34.9-65.5-69.9-76.7l64.8-17.7 30.9-8.4L310.5 93.1l-30.9 8.4-84.7 23.1 65.6-54.7zM378.8 442.3l-24.6 20.5 41 49.2 24.6-20.5 85.9-71.6-15 30-14.3 28.6 57.2 28.6 14.3-28.6 77.9-155.7c8.9-17.8 13.5-37.4 13.5-57.2l0-9.3c0-70.7-57.3-128-128-128l-72 0-8 0 0 .3c-46.2 3.5-83.8 37.1-93.6 81.2l62.5 13.8c4-17.9 20-31.3 39.1-31.3c22.1 0 40 17.9 40 40s-17.9 40-40 40c-19.1 0-35.1-13.4-39.1-31.3l-62.5 13.8c8 36.3 34.9 65.5 69.9 76.7L342.9 349 312 357.4l16.8 61.7 30.9-8.4 84.7-23.1-65.6 54.7z" />
-    </Icon>
-);
+const HandsAslInterpreting = createIcon("hands-asl-interpreting", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABkQAAAK2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCWwsGAAE2AiQDCAQgBYMtBz0baAXIngeZm5dmVQRly67FGl/hUfDP/zr+97lz5wGcJyn5S0xKclKE0m9cHUBIhKDWdC+EMD5RYU0ySpZAk1BlTSRRWHTAwvQRZPdFmIYBXsI04QesceCEC3QgEpcHh0+deh7bFMAHkcxlE2RRQNbqOi9QKeed1It3gZZKESqolbXWzi6J4mWVPuUThkmfYTG4Aavf8llcMCdk98DhNCv9IJ69YPB3AABQWAAAQNv48BD3nsWzEI+lfdBjBgABqC0APAQ4mEhCADTiIPgNWDzAYhG8FZJE/4EREADIhwwbVGtePAScAQAsAAZjbUcGusF2zF4MWDByC9rl6kv0dk9ceeNx0IXaeZc+ULqV30ttOZ5YjlnTlHs9cMPbdjK3mz2SIyahb/zkFuS2KTASB7srEb/3lBC6WL/o1gWg65ntpKZT6Y3oVXY6VgI2fQ0nsjtZfZmq0kZG+pWw3V/Re99jN921a3eyltFufvGCA/xk8CTPw1rcyty9fpAxdyRfbH1n3buL9e5VXvbJksiM461WnvCXV0ZiaKteV3tn/7SH0R5+8ZNTvGDoFI9COtyKOWv5ifS5fX1g63vu7rLoYy97YHJm5KVWC18I5gvDMbRWAYAAQdH/9d/Y3Pg0egPA+5OfL+LL/69kE+0K4IcBQOAU/gJTzU5AwmgIIEdG6yMd+wIM+zFgrkEcRQCIAEAAGHwIQAA4JBKGALAEUIAAcEmhCgHgQwDDOMj6I6KYVoEhiFXAoZptwBLFNeDSyP3Ahygh10pGp5hHYWI3h7rGvLLiUq/e66YKq2hU2Gzwhs3c9a6Vh0nms4LlrGUec1nEWkauZihexzK6JaKLL+JRRjGleNTjTRe318eYx2rWsIgVLKdtGvD2+7msl4fzsB8DAJSfZ8KATMy12VU0q5YWPW5hf/O3li8A");
 
 export default HandsAslInterpreting;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-medical-circle-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical-circle-check?s=light house-medical-circle-check}
  * @preview ![house-medical-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/house-medical-circle-check.svg)
  */
-const HouseMedicalCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M298.6 4c-6-5.3-15.1-5.3-21.2 0L5.4 244c-6.6 5.8-7.3 16-1.4 22.6s16 7.3 22.6 1.4L64 235l0 197c0 44.2 35.8 80 80 80l250.8 0c-12.9-9.1-24.5-19.9-34.6-32L144 480c-26.5 0-48-21.5-48-48l0-225.3L288 37.3 466.1 194.5c9.7-1.7 19.7-2.5 29.9-2.5c5.6 0 11.1 .3 16.5 .8L298.6 4zM368 240l-32 0 0-32c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32l0 32-32 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0 0 32c0 17.7 14.3 32 32 32l32 0c6.7 0 12.9-2 18-5.5c-1.3-8.6-2-17.5-2-26.5c0-22.6 4.3-44.2 12-64l-12 0c-8.8 0-16 7.2-16 16l0 48-32 0 0-48c0-8.8-7.2-16-16-16l-48 0 0-32 48 0c4.2 0 8.3-1.7 11.3-4.7s4.7-7.1 4.7-11.3l0-48 32 0 0 48c0 8.8 7.2 16 16 16l28.5 0c7.5-11.4 16.2-22 26-31.3c-2.1-.4-4.3-.7-6.5-.7zm128 16a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 256a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm44.7-187.3L480 385.4l-28.7-28.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l40 40c6.2 6.2 16.4 6.2 22.6 0l72-72c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0z" />
-    </Icon>
-);
+const HouseMedicalCircleCheck = createIcon("house-medical-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABtgAAALQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAiDUwsGAAE2AiQDCAQgBYMtB0Eb5AXIHoVxMx2VShMrefdjjoeXsfb+P9N1XReNd1gJkArrRBpJPBXtrJPwCjxP/r2d+xDMJH5IPIHWYkW0BNvt/263ruCXZs3Y83/N55d2dIBFR3Iosarmbp7QBP+8ggY6PZpNFHc074VBDPG2UHSAYvyRGrjIa+s1OPNY8U+21aXkFAg4oguA+0f9e3I/JjGR19EVpIfTHQLEAWBEoIC+o0eADZtAj8NAkUPwI1GE/wMNAhBlAhklUIQKvIF3AEUguUWnvF9urqfdZGeQdtXkrd4Y2exvCVsLcl91oqGWozlKjgZbc0QGy0DZpjf5gwYqrURWBFuVko3eZgiXc+Jv0Vq8m8KtK7S5wr7ZE3GRrUEqjRm2uVci576WXeFWNXBTmciR7B0sz9peelhtLD+as3Mbe1fFMW1tai6jW7XPyYpaZ5vdVBubXK9xmuU1zzS9oQf36d+nmmz1NvstZUs4WLYFW73ik2knPxe99ppqj8eOpX5l56YT19vwBDmcmPaHlr9T5yP7LfdOcGEP71ITlr+53eGjMcaQcro+hQ7QOkAd56UU30killIHo46UH5qOX7eP74Hz2f+5jr0stWAvPLx/X1AQe/fuLaAdAkRFQi6KysuL6lpWBe7Avho3XwU1nDixc+fi1Nu5M1oQrwMEBF5/7J0/OrXFtwRtAf5ufv3GL4z+RPdzuXUSVFlAoDCOahiRy2dw2IIIChmLKMZfJJAe4sKf2rQVAYKCAFIcRYCCXGkEKFKqE6CkQEMClCn92aSYiPCMrClLkrmUrZEllMNziXK18CwfxwsbopXwqHygTNepDXXcZerWqmOamcmOUgWkkt1sblbbKhfJiSq8l0lmm2WBiSaYakGLnKdnaaGZOs0RHf2QUVctdRjNmN39+95BJqZe87WlcdV+r+bEAOeHKi2an1+FnZaAd6kuWYjMgXZTzQvcVPP/H0PNOwQAAA==");
 
 export default HouseMedicalCircleCheck;

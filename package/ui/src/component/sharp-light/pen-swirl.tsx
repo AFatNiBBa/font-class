@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-swirl` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-swirl?s=sharp-light pen-swirl}
  * @preview ![pen-swirl](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pen-swirl.svg)
  */
-const PenSwirl: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M166.3 318.3L184 224 385.4 22.6 408 0l22.6 22.6 58.7 58.7L512 104l-22.6 22.6L288 328l-94.3 17.7L160 352l6.3-33.7zm33.7-6.3l72.3-13.6L410.1 160.7l-58.7-58.7L213.6 239.6l-13.6 72.3zM466.7 104L408 45.3 373.9 79.3l58.7 58.7L466.7 104zM464 256c0-18-2.3-35.5-6.6-52.2l25.7-25.7c8.4 24.4 12.9 50.6 12.9 77.8c0 79.5-64.5 144-144 144c-12.4 0-24.5-1.6-36-4.5l8-31c8.9 2.3 18.3 3.5 28 3.5c61.9 0 112-50.1 112-112zM256 16c27.2 0 53.4 4.5 77.8 12.9L308.2 54.6C291.5 50.3 274 48 256 48C141.1 48 48 141.1 48 256s93.1 208 208 208l0 32C123.5 496 16 388.5 16 256S123.5 16 256 16z" />
-    </Icon>
-);
+const PenSwirl = createIcon("pen-swirl", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABegAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCGAsGAAE2AiQDCAQgBYMtBzAbGAXIjsO4sXsXh1golnj4f7v/2udWNeBqwBwoMmsy2OlfkwrpvHp4n/7enf/zT/P8GX2UtWiuisamcM7zBAIeyzvPlmeBZZqAtbuoWaaIfDx0Z0n6qz2+rpDHa9FHNdLd6XPcFj40ftHKFZI8AxANATBx+eK53q6KqojPKy8Qn5uNgJgECoEMGdoKMEYm0FauQC4XVEWlQv+BBQFEdfHWCeSoga24AMhBUi3PW9Sp1axdnWr18mU2rb18+RKqi97RMxZqr0csodyQ6DB8piyq85sXLVw0hnn9+CUXW/eO+z005vUpN3ZrE7fXean3Mx2W3TS0RzxR+/sFXy/5YeE3S8WPsz4d9OyynwY/N/uz5Z3KhuVvHT/f9rnHLzZai8THH9um3p3oiuobNbOw2fR62HTD9UrX30C5tb8q7SMbKTVKd7bZcbf3e7Y9cd07TfJz3mvw5/999UfPOXe71mZ5lGUsj+VluTwKk6xf/99/JpmUqHyPSYBAcO+4K3+uN+a/mnUS+PnVf9HPqGHl6ySVqCmBIOtT6WNNoiGJAACkOKZToqFAslY1+K513SFAqI0ASXW1Bci00VCAXG29BaimvaECVFfbYpnIawlNrS0gqesgyAxzFuSaeg5UM8ZHheqaRiZ0nMhwX77kaS00dVMxsN+AYlSxbMm8HDFudXSxrfU4ZkZ6wkXb7LfPEVttsdORBjlkbvmovaZx8FRfVBionwEKoxTH3cfTy2x1yGE77bfPrzNacT/q4Rg/vSeYSSQdRE1PsC3VOrB1X9/Dx3ce2gM=");
 
 export default PenSwirl;

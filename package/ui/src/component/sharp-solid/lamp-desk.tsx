@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lamp-desk` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lamp-desk?s=sharp-solid lamp-desk}
  * @preview ![lamp-desk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/lamp-desk.svg)
  */
-const LampDesk: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M257.9 0C221.5 0 192 29.5 192 65.9c0 17.5 6.9 34.3 19.3 46.6l3.8 3.8L104.7 234.1 92.7 246.8 97 263.8 143 448 32 448 0 448l0 64 32 0 151.3 0c.5 0 .9 0 1.4 0L352 512l32 0 0-64-32 0-143 0L163.3 265.2 256 166.3 256 272l48 48 80-80 48-48 80-80L464 64 349.3 64 304.6 19.3C292.2 6.9 275.4 0 257.9 0zM480 240c0-14-6-26.5-15.5-35.3l-67.8 67.8C405.5 282 418 288 432 288c26.5 0 48-21.5 48-48z" />
-    </Icon>
-);
+const LampDesk = createIcon("lamp-desk", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYgAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBVAsGAAE2AiQDCAQgBYMtBzAb1ATIhof/n/vPfW7y/pqfDEOGGR2QQ8V6WAG27MrClS2q6jf/53q+52vAbzS0KCwdSIFnPp/AgKN8QldhB3amJ2Cn22SPEVLslZAgiej4pONrhzw+y66pkR6kH3G7f2j8pZNrJI0ZgGgJgJnrVy/19e/xe8QP9XfEDxYjIGaCSiBDhq4CTJEJdJWrkMsFv0e9Lv+BFQFEA95vAjlyLMEGQA6SlOcTy7LWLF9X1or9jwZEPOt4aWC7WBNto1OsjaIQZXk9LpdlGVEU62J9iKmQpgs6LYqDvSjWPmy/Ju70fdrhXpdeL1q++Kfnj/t+FF+97EnrskvvUY6e9bkRhn5wvJqhuhfEU5u/PfS9LbscUrd8uV7ntM+N6vLLf7WfZ8/204oRP/+UAYFg8Dc7/9zeYsr/TcoE/vz0v3/UX1H96yS9QBMJBNmQ+hBbEkgEACDFOb0SBJI5Er5rU3cFCAUCJA0KATJdtBQgVxgsQE13YwVoUFgtE3mj0NbWAZKmToLMOOdBrq03oGaKb4wGbSNLKTYh2A9d0jwPze2qRg4bUU2qlg7jsoTW5uRqWx5wriQGYtM+xx1zxl57HHTGkacstc86al4Ez/VFlZGGGaEySXXsPy+vs9cppx103LHWZrLqvj7AuTh/ILSElKP0J4lIjUd2Hj0x9DkDAA==");
 
 export default LampDesk;

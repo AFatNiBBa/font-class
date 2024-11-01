@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `triangle-exclamation` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/triangle-exclamation?s=light triangle-exclamation}
  * @preview ![triangle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/triangle-exclamation.svg)
  */
-const TriangleExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M34.5 420.4c-1.6 2.8-2.5 6-2.5 9.3c0 10.2 8.2 18.4 18.4 18.4l411.2 0c10.2 0 18.4-8.2 18.4-18.4c0-3.3-.9-6.4-2.5-9.3L276.5 75.8C272.2 68.5 264.4 64 256 64s-16.2 4.5-20.5 11.8L34.5 420.4zM6.9 404.2l201-344.6C217.9 42.5 236.2 32 256 32s38.1 10.5 48.1 27.6l201 344.6c4.5 7.7 6.9 16.5 6.9 25.4c0 27.8-22.6 50.4-50.4 50.4L50.4 480C22.6 480 0 457.4 0 429.6c0-8.9 2.4-17.7 6.9-25.4zM256 160c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zM232 384a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const TriangleExclamation = createIcon("triangle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbgAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBTQsGAAE2AiQDCAQgBYMtBzsb2ATIhof/96+vfe67VV9q4bXBARgZ6TiUs2aQ9ppak8pZ/XE/z//5pw/47JN9tCgsLY7UjPX5zocDjPbSCe8GNtMJ2HbnlppFW15JiiTHufxyuUGOr2KiCun1dBXP6ofGT/p7nCQXAKITAMv27Njk+1rUIq7WPyGu2oCAWA5KgQIFBgmwUCEwSFYiy4Ja1Ov0H1gSQFSlFyeQUcVa7ABkkOScu/u1NbVU2vLu8AbNC17yeu+2eHXgI332xyvNT/TaO/rA3gMfjnl73L542Wu9XhrZGu/0eWXAI333vNxbvNTrlT4Rr/bd+eaYt/u/NvKdAcM/6Pzgl2FXT181YWSl8/e3/N5Z6XVxj/va2q67uOe7i3vYaK7Vmt0G17Xna9eWvmUpHMrt1/3/V639Ye01CPX9ofe2bb0JD8Rz133YNONIx8J/GlsS+PHL3/4hv6J6LUkfoFECQTGxPtHBBBIBAEhxp+EJAslSmTqtXhE7nWYEq1XN6BQG6iyQNZsAFUPMuqGq2Q6FyE1CL4cAJK1ugcJsD0DWy0dQsdAFs6pXFOZEGwP9mktYXSOr1pXTJk8t55fdXGYshIyLC8ppceydvjcOrzrtJje63SknnXN7hd1qk3OHG6weoat8UWmayaYqzVcuV7fndzvlVrc55yY3yjILlPvVse4cjx+HSpIIp4skiUi9LslWbzxz/alJP1XIx244IgA=");
 
 export default TriangleExclamation;

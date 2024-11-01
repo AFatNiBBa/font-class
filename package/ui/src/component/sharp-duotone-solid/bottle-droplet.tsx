@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bottle-droplet` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bottle-droplet?s=sharp-duotone-solid bottle-droplet}
  * @preview ![bottle-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/bottle-droplet.svg)
  */
-const BottleDroplet: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M32 256l0 256 256 0 0-256c0-50.6-29.4-94.4-72-115.1L216 48c-37.3 0-74.7 0-112 0l0 92.9C61.4 161.6 32 205.4 32 256zm80 80c0-32 48-80 48-80s48 48 48 80s-21.5 48-48 48s-48-21.5-48-48z" />
-        <path d="M96 0L72 0l0 48 24 0 128 0 24 0 0-48L224 0 96 0zm64 384c26.5 0 48-16 48-48s-48-80-48-80s-48 48-48 80c0 26.5 21.5 48 48 48z" />
-    </Icon>
-);
+const BottleDroplet = createIcon("bottle-droplet", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABgQAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBcgsIAAE2AiQDCgQgBYMtB1gbHAXInoexLSJ/RD1FfAzj4WnuP8+dyfuQtwzZVYzggBS1DhBU2ZU1kWx1ddzGcN3mj/bRsMaK9GAoS8KbUym9Kbb36e/d+bdNH/D5dxxj2NQF3lznCXQ+BwcSdZ4FmmkGlv1OvucGgzKSpM83w6IzjB5QxIZ8R4P0ePoeD9v/AYz/9HWHpD0DiC4AmL9142pf/hV/pfi+/oj43ioExAJQCWRkDBBgliwwQKFCoRD8leqav6KuKwKIFhbOjBb1GTtxEFCAJElF0ezdp2+z0bHY0myUO8tmKZrNiHLbvUA82n9rvZ1KGGPaSjl1jBzPjPhD3C3vluKlYTf5ZCOeHKf0liknbfMra1cq3pD/Id8f+d7eL4BsnD6P4Xlzr/f4le9aPf/+p2/x1qfvPy//8Ns4g78goDFmdr3bANm6Wz17TGPtWs8zGaJf1/rdrz3G/fZDBgLBj2/RvZ1n/d/WTOCfj//rf0hV/WVMSG+gTQJBHlWPsiuuqFQxQQAAUlwxNOZZphLIxkvwHh08IkAoESBpUQqQ9ddFgEJppAANg0wWgNMbZVG0Cz3sjiDp4DzIprgKCj18CBpm+Spv0SMyxXiC8B+8lCUptHhRNX7MuGpG1awJAmtYMzuzmnaGXdE9w+WmI84645LDDjnuUkJesLq67LQlPWKxL6qMN8Y4lRmq7ea5sgX5BRcdr0v788xUnY+GudIfPlyWkwATLudeJlLkXgfOXrp06vBojtMuuDSaroP6lKSnCQ==");
 
 export default BottleDroplet;

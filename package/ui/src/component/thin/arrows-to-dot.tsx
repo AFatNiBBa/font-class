@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-to-dot` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-to-dot?s=thin arrows-to-dot}
  * @preview ![arrows-to-dot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrows-to-dot.svg)
  */
-const ArrowsToDot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-4.4 0-8 3.6-8 8l0 156.7L173.7 90.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l88 88c3.1 3.1 8.2 3.1 11.3 0l88-88c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L264 164.7 264 8c0-4.4-3.6-8-8-8zM421.7 162.3c-3.1-3.1-8.2-3.1-11.3 0l-88 88c-3.1 3.1-3.1 8.2 0 11.3l88 88c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L347.3 264 504 264c4.4 0 8-3.6 8-8s-3.6-8-8-8l-156.7 0 74.3-74.3c3.1-3.1 3.1-8.2 0-11.3zM256 240a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM101.7 162.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3L164.7 248 8 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l156.7 0L90.3 338.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l88-88c3.1-3.1 3.1-8.2 0-11.3l-88-88zm60.7 248c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0L248 347.3 248 504c0 4.4 3.6 8 8 8s8-3.6 8-8l0-156.7 74.3 74.3c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-88-88c-3.1-3.1-8.2-3.1-11.3 0l-88 88z" />
-    </Icon>
-);
+const ArrowsToDot = createIcon("arrows-to-dot", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABlQAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCaAsGAAE2AiQDCAQgBYMtBzQbbAXIHoVNmes08iTJWOPwM19yYE08fL/me+7bl/1Em+QXSBOpskOFLAw7BoUSWEhQ1TEiU9upBF4r1nQvxDrqJorRAioCx+Di4mof1Mui7VQ3rlK2fN8nrnn+508PWORv8hhtqYXVuk6dwIBnhU0DLxvYTCdgO9v2ZojK+o3QOEKOD47Rkp6kDu77HxpfTPEgKQoAMQoA1u1sNvDsUjeiU/8QHZtAQKwHMBuhQIHpCKykFphOYzbIsqAbdS3+AxkCiFL4aAlk9OIeXgEySMqcp00zTkx1mhtDeYdZ279XqEA7SKqEZpvEdpfkllS1iOJhqx2wY6TAdMgcj9qqKeadltgUKkb2bLy0iR2Iiy2p/1YluNAUB3ZcI5uCkhtUc+xnr9Q77aoC8aAptynsTVLVcn2Nfn2d05l11L+HSsWGjWhuTSS6XZ8SJCUJ2S9DUR56fcqYaZImqxUoDpW+oqhJl3nd0h0e7iZEi4ZvcGN4+MbSJ2fXC6fN5v5vafaG+wGB4O2njw6O5L/1mhP4/P5vxa+ofibpHXolEBTz6nlGCZAIAECKM3AlCCTXlMJ3HfRQgNCPAEmpX4DCNA4Esn5zEWiYKYFAqd9WapH7hMq4gZNBx+HCCnc4q3zDDSv9eaUqCuBkQYv9NUwqdoHCOo4Ew5zl2ZqKgzfazuZ4s+K+yR4P3oKZvZ2LqYllQXagk0Z4tVVcAgu+iEUEhbEsPtx8KHWod3K2nBaOr5LD1xtut+XhHqyrhLhLbEgSkYYOn76dbOCyD0z2FwAA");
 
 export default ArrowsToDot;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pancakes` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pancakes?s=sharp-regular pancakes}
  * @preview ![pancakes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pancakes.svg)
  */
-const Pancakes: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 160c123.7 0 224-28.7 224-64s-100.3-64-224-64S32 60.7 32 96c0 17.4 24.4 33.2 64 44.8L96 264l0 24 48 0 0-24 0-112.6c19.6 3.2 41.2 5.7 64 7.1l0 57.5 0 24 48 0 0-24 0-56zM192 64l16 0 96 0 16 0 0 32-16 0-96 0-16 0 0-32zM64 163.8c-12.1-4.7-23.1-10.1-32.3-16.3c-9.1-6.2-19.6-15.3-26-27.8C2 127.1 0 135.2 0 144c0 15.3 6 28.6 16.9 40C6 195.4 0 208.7 0 224s6 28.6 16.9 40C6 275.4 0 288.7 0 304s6 28.6 16.9 40C6 355.4 0 368.7 0 384c0 66.7 114.6 96 256 96s256-29.3 256-96c0-15.3-6-28.6-16.9-40C506 332.6 512 319.3 512 304s-6-28.6-16.9-40C506 252.6 512 239.3 512 224s-6-28.6-16.9-40C506 172.6 512 159.3 512 144c0-8.8-2-16.9-5.7-24.3c-6.3 12.4-16.9 21.6-26 27.8C465 157.7 445 165.8 423.2 172c-8.2 2.3-17 4.5-26.2 6.5c-29.9 7.1-67 11.5-109 12.9l0 24.5 0 23.5c66.1-2.2 124.4-11.4 164.9-28.5c2.5 1.7 4.5 3.3 6.2 4.9c4.9 4.6 4.9 6.9 4.9 8c0 0 0 .1 0 .1s0 .1 0 .1c0 1.2 0 3.4-4.9 8c-6.1 5.7-17.8 12.8-37.4 19.4c-32.9 11.1-79.2 18-133.7 19.9l0 .5-112 0 0 44.5c25.2 2.3 52.1 3.5 80 3.5c79.2 0 150-9.2 196.9-29c2.5 1.7 4.5 3.3 6.2 4.9c4.9 4.6 4.9 6.9 4.9 8c0 0 0 .1 0 .1s0 .1 0 .1c0 1.2 0 3.4-4.9 8c-6.1 5.7-17.8 12.8-37.4 19.4C382.4 344.8 324.4 352 256 352s-126.4-7.2-165.6-20.4c-19.7-6.6-31.4-13.7-37.4-19.4c-4.9-4.6-4.9-6.9-4.9-8c0 0 0-.1 0-.1s0-.1 0-.1c0-1.2 0-3.4 4.9-8c1.6-1.5 3.7-3.2 6.2-4.9c1.6 .7 3.2 1.3 4.9 2l0-29 0-23.9c-4.8-2.8-8.5-5.5-11.1-7.9c-4.9-4.6-4.9-6.9-4.9-8c0 0 0-.1 0-.1s0-.1 0-.1c0-1.2 0-3.4 4.9-8c1.6-1.5 3.7-3.2 6.2-4.9c1.6 .7 3.2 1.3 4.9 2l0-49.3zM59.1 371c47 19.8 117.7 29 196.9 29s150-9.2 196.9-29c2.5 1.7 4.5 3.3 6.2 4.9c4.9 4.6 4.9 6.9 4.9 8c0 0 0 .1 0 .1s0 .1 0 .1c0 1.2 0 3.4-4.9 8c-6.1 5.7-17.8 12.8-37.4 19.4C382.4 424.8 324.4 432 256 432s-126.4-7.2-165.6-20.4c-19.7-6.6-31.4-13.8-37.4-19.4c-4.9-4.6-4.9-6.9-4.9-8c0 0 0-.1 0-.1s0-.1 0-.1c0-1.2 0-3.4 4.9-8c1.6-1.5 3.7-3.2 6.2-4.9z" />
-    </Icon>
-);
+const Pancakes = createIcon("pancakes", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAAByQAAALPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiEUgsGAAE2AiQDCAQgBYMtBy8bUQbIHgPuosQWv/Z2hKe3LAt5PHzMoe8nKQCnA0ZVNWBwQH6OzrPdTSEqZDtVoQYBraPZewENQoUY4UokuSkkO36U8/3fzX9HV9leFkjPAwkneYIlvoETuDBqcxennuc8FMC/aMQjGJG1aKwukAVSmvO8At3ne2OxIrViCKsVsO6ubI95QCsPSdIsob/SPX53hSxuiwGUSC5JJ+BcfNP4hxlnIVGQAohqAJidtqjHAyoehXgt90C8JgkCYjaQE0iRop0A00gF2snkkMkEv5H803+gCwKIQvxYAjIUEsVEM/qXk8iybIDapJeGUkW2VEOpdNV9khCvLbrEo9Sb+APTNoEQZRERcdmnPrJUQ71MlJbG4kV5zHyEDrfltHAm5VajO+3eoXFfE+Y+4wnDee8Rw81oQnxKGpVGDTsF0ejbiONBMlEa4pZGd9y+n9ZJvStxUR4zEWgkjpuMaoxqiIgcxJFbvJUK8fTYyfY3dFff7dbSE2Sn5g/Qq+u9Wy7I0I43zTQzimYO8J5P4N5JYet0dU/aUl1v217U+PA8k2uZoCl5dguNyaipCWV20hfQypzZa03Xrw+/zaCJLdKTB79EAMDShpe2mSTsZxiL3IMHNM4Y9rBTUfH4qMF/VM+zOogOmtnkJSaPVjwLlRkQvA8fU7MU1LGk4dX280Ag+BbdX55O8D/hEvB3OT7zz4j/FJPcAMUSEKTD5BhWS0BCAACSOEofCQSSIMO7yp1HgFBKhUShUki1UQ2ZUkOhQCfjmckdFpGKrESoZw1AotwBSE3gGGTquQkFpvE8WqheKHwR/Hvm/0dTFrTI/E65x4hR+ZR8mFKER8661qn5tO561JYMhpW2so+9HGYLm9nB4QY7SE/iCHtYoKHz8ZGc0YxgFDlTyJez94uXsoWDHGIH+9gb2plKfj4yiKN69cFgJZh0DFpyBWOS4v0Fezdt2LXlEAAAAA==");
 
 export default Pancakes;

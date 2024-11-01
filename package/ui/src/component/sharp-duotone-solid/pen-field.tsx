@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-field` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-field?s=sharp-duotone-solid pen-field}
  * @preview ![pen-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/pen-field.svg)
  */
-const PenField: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 128l32 0 224 0 32 0 0 64-32 0L64 192l0 256 448 0 0-128 0-32 64 0 0 32 0 160 0 32-32 0L32 512 0 512l0-32L0 160l0-32z" />
-        <path d="M288 352l16-112L468.7 75.3l96 96L400 336 288 352zM587.3 148.7l-96-96L544 0l96 96-52.7 52.7zM96 288l64 0 0 64-64 0 0-64zm160 0l0 64-64 0 0-64 64 0z" />
-    </Icon>
-);
+const PenField = createIcon("pen-field", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABbwAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBYQsIAAE2AiQDCgQgBYMtB04bAQXIjsM4FjxShSb84+G/tfLvq+qlnjBUgFERgQNS7Mihik1U1LqgEXu+ZPX1JLOqw9SpnMt5aIG8ZRAEZU/L5Xx1As15XoGKfqubCjyFWlOr387vkIHSGRRdeiHpD9vdsP0jVGlCfqSF9CbBi/I/gPGXwR6RdGQA0QsAq3Zv36izK7pS/G5+IX7bgIBYDYpARsYwAZbKAsNUCiqVoCs1m3RFs1kIIFrxQ2TQijZsxGFABZJKVFWjo6NjZKOle7Wr0VIf371j9+7YGTtix/FdO3dt99AtRxp1Q9QRDaEOZ2RAurfVKbpHhDyEIKpHRN4z+lOv/xnlFCMP97xcWz5+dPiwJkg6+edhNtdCbu2fj1eSqXpvO9zKUspKpZNO9xRC91ZRyv0gEJx/0a/DPZf+395I4I+v//0p3dzsTPfSaJdAkKc2pzqQ7kHkBpCnuGX06oeOIJCNV+FP7ealAKFGgKRVLUA2VC8BKrUpArQYYZ4ArWrbZVF1CP0cFJB0cxVk890GlX4+gxZLfSta9YtsWYpdKD92metndN2uMmv6zLK4bDuGaixS3lxSrsOJt2BiEkGdctklN5x0wlk3JvyajbWbLlp/wtb5omKW6WYqFivP/dHc5Ytrrju71t+3WaJ8n0106zx/EiUJ8852IMtEitz7yslL07TOnaajE31B10YA");
 
 export default PenField;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grill-fire` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grill-fire?s=solid grill-fire}
  * @preview ![grill-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/grill-fire.svg)
  */
-const GrillFire: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 72C0 49.9 17.9 32 40 32l368 0c22.1 0 40 17.9 40 40l0 24c0 24.1-3.8 47.3-10.9 69.1c-8.5-8.6-17.2-17-26.2-25.1c-17.7-16-44.7-16-62.5-.1c-35.4 31.6-65.6 67.7-87.3 102.8c-15 24.3-27.7 51-33.6 77.3c-1.2 0-2.4 0-3.6 0c-16.9 0-33.4-1.9-49.3-5.4L151.8 368l73 0c1.5 16.6 5.2 32.7 10.7 48L160 416c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64c3.4 0 6.8 .3 10.1 .8L129.2 299C52.9 263.3 0 185.8 0 96L0 72zM96 440a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm320 72c-88.4 0-160-71.6-160-160c0-76.7 62.5-144.7 107.2-179.4c5-3.9 10.9-5.8 16.8-5.8c7.9-.1 16 3.1 22 9.2l46 46 11.3-11.3c11.7-11.7 30.6-12.7 42.3-1C560.5 268 576 320.2 576 352c0 88.4-71.6 160-160 160zm64-111.8c0-36.5-37-73-54.8-88.4c-5.4-4.7-13.1-4.7-18.5 0C389 327.1 352 363.6 352 400.2c0 35.3 28.7 64 64 64s64-28.7 64-64z" />
-    </Icon>
-);
+const GrillFire = createIcon("grill-fire", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABjwAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCQwsGAAE2AiQDCAQgBYMtBzEbRAXIngU5mXx6RKFDo7GfHReXCJ73r3fO3bdfkVBBrqAORgeglctk60htanXrP++fnpv4/qTkq8wJwgZtfy2AsVu9yVuGuRmxTl+G7z5x8887jwJ8RqGNhUsDWeBznieQyKYpHkhgiQWGX/XrNl1HHVH5RkiQiHR8eXxdkIUpt1uedCoVcKw/NH5rYIGkPAeAqA4ABs+sKsHDj/gR8Vq8R7w1FgTEYEBzhBxyaIxAP0qBxlSag0wm+BHFYv4PbA4BRAn4V0ogQwl24SggA0mWqVLLm9WR8kZVbaU8K2frUaxUqkJynSWI7Y2X7Zb5YO2vQXcbz/LBioNtw6kSrTXgWG1/6n0ceO60EXThJ9tG0Zshr2fE7BuN1n0PHdZ8mt8NiLibcWXgfdKKdKhOCtWLE/Vk21vXLYe/fk+rZ653pDivu2yz6H/qsBZwJh3qdOHseW5x/t+isLhgfY3HcKfGEMs7VxzgffHt7ecaNU2T8qtPiCCnhQtRwGFvMa5RY3eXJadV9aBF2Gjtg6z6c5ZV2NapGJsHjhxKBQoxtENT94Tx8sqrX9128iLuv/OlkVUoDI2Byxq1A9r93qt27Zy5Rk1nZytLBgLBuS5/S+aY9/tTVkkB+PX4f/oIxZdpcLqNMgkEuc7FzurSICgW02CEzRQTPJWXBZJNVACjsuNeJ1SwkJSoQE4jFshU6IS8pmIY4/BUSpHpEWqrB5LKViCnr0lkartEXj+PZonakYtELo64j2ByriRy+kSP0HCRKI6uyQcXU9tJwqy0nyipACyiw6ABY9q16TYmqBElzrh+uRqZ40VChFDhhETCHbxP12o3YlS3QQOtSxJx3/A3oRcHQFdg2p5WkkQk7lzZ3dcX8qwB");
 
 export default GrillFire;

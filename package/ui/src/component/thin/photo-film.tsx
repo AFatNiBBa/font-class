@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `photo-film` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/photo-film?s=thin photo-film}
  * @preview ![photo-film](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/photo-film.svg)
  */
-const PhotoFilm: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 16c-26.5 0-48 21.5-48 48l0 196.7 95-95c9.4-9.4 24.6-9.4 33.9 0l47 47 111-111c9.4-9.4 24.6-9.4 33.9 0l95 95L624 64c0-26.5-21.5-48-48-48L256 16zM208 283.3l0 4.7c0 26.5 21.5 48 48 48l4.7 0 112-112-47-47c-3.1-3.1-8.2-3.1-11.3 0L208 283.3zM283.3 336L576 336c26.5 0 48-21.5 48-48l0-68.7L517.7 113c-3.1-3.1-8.2-3.1-11.3 0L389.7 229.7 283.3 336zM192 64c0-35.3 28.7-64 64-64L576 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64l-320 0c-35.3 0-64-28.7-64-64l0-224zm96 8a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm40 24a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zM128 160l32 0 0 16-32 0 0 80 0 80 0 72 0 88 256 0 0-88 0-24 16 0 0 16 64 0 0-16 16 0 0 16 0 8 0 8 0 32c0 35.3-28.7 64-64 64l-16 0-8 0-8 0-256 0-8 0-8 0-48 0c-35.3 0-64-28.7-64-64l0-32 0-8 0-8 0-56 0-8 0-8 0-64 0-8 0-8 0-24c0-35.3 28.7-64 64-64l48 0 8 0 8 0zM112 400l0-56-96 0 0 56 96 0zm0 16l-96 0 0 32c0 26.5 21.5 48 48 48l48 0 0-80zm288 80l16 0c26.5 0 48-21.5 48-48l0-32-64 0 0 80zM112 176l-48 0c-26.5 0-48 21.5-48 48l0 24 96 0 0-72zM16 264l0 64 96 0 0-64-96 0z" />
-    </Icon>
-);
+const PhotoFilm = createIcon("photo-film", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABzAAAAMKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHCEQgsGAAE2AiQDCAQgBYMtBzEbQwbIHoNt6/HB3LRarBp/h1oOrzlO8M8393bfJD+nf5IUcU5Vu0hcQrdAGgjlCkMs3LJlhHj+1Hs/u2sMqzVgpblBK17gGIa0BLjrWiSlmFucRElS8wQCy19+4pr897Ys/6IRDOUXTZlYUecTGOAstbVpYMPZRHEGuXsGXpB2DVN74Os3LxJgDqkD7HA+VK8psA0MngcAgNIBAIDhc2dO5tqVF9Kj/wP0iImAADQCAEeAB3hAMQEwiIeAYj4O+PgIXoT/v/IfmCAAUABOMwD4QCrwC0qF5howRL5fnJFRmIwn2jhikmEi9ufYu+xCLyXtzaG5cqE9WF5ntkiHM/s70TzEofS+dqi5MkT7U7PWcRRfyB4oSnPK75RZhyND6Uo31rn+pTw62LvYinR+cLmg2V7uUPtC8XCn/8HW2c75wpHuhfa5/KygDZEVHj2WbKFQAWmhslWINmoG35Hhla4lY6khNrToilYtD1Zkl/NZsaYTcza1N4d8sxAxbl1Wfjl2+Z/9j8//PnsCj+Ntliwhjt9RX0/FxZLtaI+fzNxpIAGJtcagoYF3Zs2qqprQq03xObjiG01VVePUllaqqxak2QzIqC4n4xn2BTajSFhqTU+npwep36Bj//4dA9V6d2gN/nScadI/jnnAsfnSpRsmoUCK1q1DiE3Tuoa2XwQO0+YPWGcfFkAvo59l6TetO3fMjGllqxiVnNLmGFYRLLt165aTzzLGLZ07DK9axjCWAYAAQcH6lWvaoK920ADwar6P5OL/W21SDUjBACDwOv0fWWQ2ASjCAgBBo3bKB75IgOGTEHhHxH4EAGEBAWAIsAgAjyLpBICPpWMBJSjVe48Ay0w85CcR2RZTQIaIJsijj/WQT7arUIJB7gYCsoP3JsjuY9l/aOoxVXD0Ijfv0s0NcL01mfzmlpizA91kXa9d7amkG1lDA/W0sppVVNFaYTczOdxGHWOGqKP5IU53XXTjDOAWN2+unsNqmmmhigbq7XkGctu7KrQPD6+kRgNE9lBkMCBjv0FN5y8J");
 
 export default PhotoFilm;

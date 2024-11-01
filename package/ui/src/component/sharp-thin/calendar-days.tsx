@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-days` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-days?s=sharp-thin calendar-days}
  * @preview ![calendar-days](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/calendar-days.svg)
  */
-const CalendarDays: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 8l0-8L112 0l0 8 0 56L16 64 0 64 0 80l0 96 0 16 0 96 0 16 0 96 0 16 0 80 0 16 16 0 416 0 16 0 0-16 0-80 0-16 0-96 0-16 0-96 0-16 0-96 0-16-16 0-96 0 0-56 0-8L320 0l0 8 0 56L128 64l0-56zM432 288l-128 0 0-96 128 0 0 96zM288 192l0 96-128 0 0-96 128 0zm-144 0l0 96L16 288l0-96 128 0zM16 304l128 0 0 96L16 400l0-96zm0 112l128 0 0 80L16 496l0-80zm144 80l0-80 128 0 0 80-128 0zm144 0l0-80 128 0 0 80-128 0zm128-96l-128 0 0-96 128 0 0 96zM112 80l0 40 0 8 16 0 0-8 0-40 192 0 0 40 0 8 16 0 0-8 0-40 96 0 0 96L16 176l0-96 96 0zM288 400l-128 0 0-96 128 0 0 96z" />
-    </Icon>
-);
+const CalendarDays = createIcon("calendar-days", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABkgAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiDOgsGAAE2AiQDCAQgBYMtBzQbvgXIHoex22RJF81QPg7j4Z+53u5L8ikpQ1rFCA7II2vmUe2C0Gx7Vq6eemCu9/0/7h3/sZrj/HmiXUhjLl6DxhjcJRBgmqf/IpmeaQLWsG1UGRHUeDimN8jiti1qSG4mcT5/0PipvXMk0hRANAPAxOWL56r8HX9H/F59Q/xuNgJiIigFUqToJMAYqUAnmRKZTPB3VKvsP7AkgKhVchLsMzTGJ3wHZCBRZNnEBlDdraGoaZwtUy356hB5QGiuJY4XjaMM5jlUh6COrXlRX4RlwnmkyAvbEi4uhAd0LI1nD+QpkGe5K7LNDgYj1kuxOBoNnpVWl7s/bPbwv263dfJdfflRM/VG2NCsmQ0ksiDY7DkevmpqtmGEevZVFSP6tz1Vamxwyobz6zfoccapCzRycv+N/QBEFuQWnJ+/oNQrvYUJ6yG5PjZ+fI/SFBjpEelhyW+wwYMu8my83f1AIPjjysp6Y/6vLxLw70c/s5+RaiUqyUPUS0CQ9qn2sSYqEBUBAEjimO5RQSDxSqFk08g1AUKOAIla+QKpjppBJtcbanQx1GBpX2wljqwh3cpaBIlGDkJqmOOQaeUV1BjjR75Wq0hTsSkNmv4hs0/bYlPPlQP7DShHlbcDkzlhGvTh6NLa3+MYX+gJr9pmv32O2GqLnY5s5IfMLR2117Qn4VRfVBqonwFKo5Te44/2ZTh/yGE7rz38TxmtjJ/u4djz+p4wlCh1DtKTSIik8Tfu6Pu1AwAA");
 
 export default CalendarDays;

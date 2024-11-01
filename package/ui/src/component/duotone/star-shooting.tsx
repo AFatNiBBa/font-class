@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-shooting` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-shooting?s=duotone star-shooting}
  * @preview ![star-shooting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/star-shooting.svg)
  */
-const StarShooting: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M231 55c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l48-48c9.4-9.4 9.4-24.6 0-33.9c-4.7-4.7-10.8-7-17-7s-12.3 2.3-17 7L231 55zm96 96c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0L505 41c9.4-9.4 9.4-24.6 0-33.9c-4.7-4.7-10.8-7-17-7s-12.3 2.3-17 7L327 151zm96 96c-9.4 9.4-9.4 24.6 0 33.9c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7l48-48c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-48 48z" />
-        <path d="M213.4 157.4c-8.8-17.9-34.3-17.9-43.1 0l-46.3 94L20.5 266.5C.9 269.3-7 293.5 7.2 307.4l74.9 73.2L64.5 483.9c-3.4 19.6 17.2 34.6 34.8 25.3l92.6-48.8 92.6 48.8c17.6 9.3 38.2-5.7 34.8-25.3L301.6 380.6l74.9-73.2c14.2-13.9 6.4-38.1-13.3-40.9L259.7 251.4l-46.3-94z" />
-    </Icon>
-);
+const StarShooting = createIcon("star-shooting", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhAAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCAAsIAAE2AiQDCgQgBYMtB1YbKAXIjpSuki3x8KDH++cmeaqZSppgTe0GaPbaTvVGzf7EnObNzu83cU39DHrAIn+UWDY2NXgm7yYwwGivFpjQTHFT7l4Mwu15mNpDFm/T3UpILiTPccz5H8D4VUO7SVSkAKIGAEbMnDrFw0/xKYnnxS3iuckIiJEgF0iRookAg6UCTWRyZDLBp6Qo+BRFkRNAlHKolKcUnTMPmwAZSIQ0yzpWg+nKJVWzGXpKpblnK0UcrDMtROZ0ndN1p7saU5ypPzOmh+JcvRkxMxxn4ZQZc883vNxuWFxqNFtjwcHTa+hMcFrqTOVD9Uc+eqX14JY3atz4vcXzFc+9b7muGtV2dplvRXX/DB58ceIENVZodvXax3ndBcmP1642a2hdV7k4ePKXFdV1ne+H/a9fV61aeP16RaVKK4qFC03k2LG6lmna0us252kQCHZue7B7YfXB/5dXTsCX23/+m15YXJCUJTdQLgFB2rnobF5iBGiE4GWT2KEljPCIgh2rQt9axVkBQiUESJSqJECqsRoCZCrpJECJZvoIUKqSqVKRVQh1zC/FRBWbxVRfu8RMHTfFEoM9ypaqE+mdZr5PzP95OcbW4TGT8h5du+cD88Gi3HLzGHp4UD470H4Hb+oAd1phow22WW6Z1bbVhC2mFLZbb+wYP8YP5XroqrvcQPnqym3HjFp2i61W99vWjzNIvn+0vR3jnTvAcMJT7WlOKiWSSOt+Ciu6bF21ceO21RtWdnlo29TvsT2gAA==");
 
 export default StarShooting;

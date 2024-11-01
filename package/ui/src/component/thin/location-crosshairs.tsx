@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-crosshairs` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-crosshairs?s=thin location-crosshairs}
  * @preview ![location-crosshairs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/location-crosshairs.svg)
  */
-const LocationCrosshairs: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c4.4 0 8 3.6 8 8l0 56.2c99.7 4.1 179.8 84.2 183.8 183.8l56.2 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-56.2 0c-4.1 99.7-84.2 179.8-183.8 183.8l0 56.2c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56.2C148.3 443.8 68.2 363.7 64.2 264L8 264c-4.4 0-8-3.6-8-8s3.6-8 8-8l56.2 0C68.2 148.3 148.3 68.2 248 64.2L248 8c0-4.4 3.6-8 8-8zM80 256a176 176 0 1 0 352 0A176 176 0 1 0 80 256zm256 0a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zm-176 0a96 96 0 1 1 192 0 96 96 0 1 1 -192 0z" />
-    </Icon>
-);
+const LocationCrosshairs = createIcon("location-crosshairs", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABjQAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCNwsGAAE2AiQDCAQgBYMtBzobQQVRlMvFDNmXBzYZsnb0NUREEhIkKGLUkf7pxdtQ6XDtw5N4eG5d+NlQWh7q93s9u+8GiCWRCtvEoaSSJvKdqjoS9gtbHRcjMrXV1c++H1uLSoX05ifcqmiyJCaNRuiUiGf8PPab/3Mtg3jC2eLTP9006m20i9YSidJ7bghGqV5ws7zy6kuIw/YMedfvgIKNwP///Tz+sQLwGv00rFikFpeNO45PYIDP9udpoxIY2EwnYNNtTiEfKXwiPCIoIjpO6XiqQ+cEJf7AUwLyt/rD9/Kh8c+YDamqAEQvADi6yqRx+3MeIx7qC8SDExAQxwBmcVChwiQO2MUTmMQ3C4oieITrf/kPJAggmtlbExQ04wv4BiggxRiGScKP4jGPjYkrC/mYD5fliNIw3sbdgQBRO9jXenoMIBrP+tkvH4bbHDBhh3uh4t/2CbN1fFedn/PYAz8lQ7JpnBhSzcxlhxn6ClEXsQMQ2jLjsW3JPfpnDY39tf5QXyuET6qwBb7sQ6VZeOMD/5Q5kpiP8Eb183wFZ6nYXW17D+HF15+WlW3t1NZ1SSvkL5bLtrzG7fke7pOBRjNI3m8td/H9AASCN30dcC2G/ovZBH+v3X5GqG+IbACtEgTVUm1SSEASAICMd2AJIZDe4LNHdfohQGhHgNSsXYDKBDVD0W4Rmkxzn9Cs3RmeKG3CoCJA6vQSKjvWUAw6QZNdn7Vmg4HGoBNBzhewMDIW3kd2i40CNO1yN6ws3Q7Sdk63MqWno2gZG1loauhaJM6km0tDkRUd9kXEzsKGBNDx4PFwXtPMXNfYKO8SRPdLOqv1Yj0VuUxyQ1tKIgeCN2F+RtZLjOYA");
 
 export default LocationCrosshairs;

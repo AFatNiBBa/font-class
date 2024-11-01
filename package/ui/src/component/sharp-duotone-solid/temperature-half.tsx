@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-half` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-half?s=sharp-duotone-solid temperature-half}
  * @preview ![temperature-half](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/temperature-half.svg)
  */
-const TemperatureHalf: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M16 368c0 79.5 64.5 144 144 144s144-64.5 144-144c0-34.3-12-65.8-32-90.5L272 64l0-64L208 0 112 0 48 0l0 64 0 213.5C28 302.2 16 333.7 16 368zm64 0c0-19.1 6.6-36.5 17.8-50.3L112 300.2l0-22.7L112 64l96 0 0 213.5 0 22.7 14.2 17.6C233.4 331.5 240 348.9 240 368c0 44.2-35.8 80-80 80s-80-35.8-80-80z" />
-        <path d="M176 208l0-16-32 0 0 16 0 114.8c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48s48-21.5 48-48c0-20.9-13.4-38.7-32-45.3L176 208z" />
-    </Icon>
-);
+const TemperatureHalf = createIcon("temperature-half", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABeAAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBXwsIAAE2AiQDCgQgBYMtB1wbDQXIjtRWd+SLGkrLw/c6387Vkz2J/TNRiBVgrAhwkcutiLAihNr5z7x4cfO88yjAB5HmOA9kgc95nkA4QfJIN2imAXjCEJTb/Cysi0F1yDAkd6FZh84KeSxN56uQXZGNi+0/gPGrTs4n0zwBiAIAM1ctW+D5r+KrLF5rPEy8Zj4CYhYoBRISugowRRLoKlcilwu+yhr4KhpKAogqu0sCVVSwDGsAOciELM87dOpSr7TIV9YrtVUhaiHEzV2vaHdJvQ6Xdbm2X6y6YWrEM3NfnP5c7xuHRUTUakLcXdbPGdwlypfUQ4hOcUenqwfcPubRQXd273VncefvPV/b+Zr7/iyKolQ45tMivf5527afv56KT49puajryVz0wgsXndw1ff+BGWZcP8MHvk8zurV9W3sf2OwD7b0tb4qVO4pix8oAAsFfBwfs3dRyyv/N6hn45sk/f9GLVDSej1HZnWgmA0Ea0hhifZyoUMQoAQDI4kS9YobDCoFkjIy22uRSAUINATJVNQGSLgoBcjWDBajobqwAVTXLJJE3F9ra0CHT5Agk45wBubYegoopXjSq2kYCi8SC/NfFzRuZ21WOHDainFRuHY1iBa/NyeWxNuBEiYFatNMhBx23w3Z7HA87aoF9ggPmeehcDyqNNMwIpUnKsP/Ircw46pg9aybeZrLyvj7AiX7+QM2TAUY9SW8iskgdoeOH5q00lNLszlMmJwEAAAA=");
 
 export default TemperatureHalf;

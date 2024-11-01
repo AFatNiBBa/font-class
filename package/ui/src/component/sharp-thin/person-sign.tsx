@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-sign` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-sign?s=sharp-thin person-sign}
  * @preview ![person-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-sign.svg)
  */
-const PersonSign: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M274.7 204.8l-58.7-66.1L206.4 128 192 128l-88 0-19.3 0-9 17L11.2 266.9 3.7 281l14.1 7.5 28.3 15L60.3 311l3.7-7 3.8-7.1L80 273.7l0 34.2L80 480l0 16 0 16 16 0 32 0 16 0 0-16 0-16 0-112 0-16 16 0 4.2 0L192 407.6l0 72.4 0 16 0 16 16 0 32 0 16 0 0-16 0-16 0-80 0-7.6-3.4-6.8L216 312.4l0-53.2 0-24.1 16 18 .1 .1 5.3 5.9 7.4 2.8 63.3 23.8-11.6 31.5-2.8 7.5 15 5.5 2.8-7.5 11.6-31.4 .7 .2 15 5.6 5.6-15 11.2-30 5.6-15-15-5.6-1-.4 16.1-43.7 82.9 30.8 15 5.6 5.4-15.1L512 75.6 415.8 39.8l9.2-25 2.8-7.5-15-5.5-2.8 7.5-9.2 24.9L323.8 5.6 308.8 0l-5.4 15.1L256 148.4 346.3 182l-16.1 43.7-55.6-20.8zm65.9 41.8l-11.2 30-15-5.6-64-24-3.7-1.4-2.6-3L228 224.5l-28-31.5 0 42.1 0 77.3 0 3.8 1.7 3.4 36.6 73.2 1.7 3.4 0 3.8 0 80 0 16-32 0 0-16 0-72.4 0-3.8-1.7-3.4-27.8-55.6-4.4-8.8-9.9 0L144 336l-16 0 0 16 0 128 0 16-32 0 0-16 0-206.3 0-64.4L65.9 266.2 53.6 289.3l-28.3-15L89.9 152.5l4.5-8.5 9.6 0 88 0 7.2 0 4.8 5.4 58.7 66.1 2.6 3 3.7 1.4L325.6 241l15 5.6zM144 16a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 80a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM318.5 20.7L491.6 85.1 449.5 203.3 276.4 138.9 318.5 20.7z" />
-    </Icon>
-);
+const PersonSign = createIcon("person-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABxQAAALgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSEeAsGAAE2AiQDCAQgBYMtBzIbegbIhuChzvp6nR4lQ2+vrORD9olHUBPXPH96enp6iiYdUpd1WFSeJ+BEZwlWgW8Dm+kEbKtzIzggxS8V7gdI43E7KCO5NHkDZwcfGl/rcAKJXA5A1ANgbmn9Ss98EB9EvP7/g8TrliMg5oJMIIccugWYISfQLZUhlQo+iP//F/+BGQFEuYhfCUhRQbQQYwApSJSl6ZmlppqqQllNWiyU5bcvbiy2Rj7fHhuiOVpiYLREW7RFV+BIoRAhrHuPHVtbo4iVHVLZEluXRvsdotPaQqls2xHNR5/Y2LeXojiONkd7FKlyw3xGdyzb2N7V3mqEJt4anTHsIVXLIWmrzz9pGhdfrjGTPSbaY1CUos0TnpB+5mEtxdNbIi50TPMF+dNaL4pj2y4uuLnr8s7LBt3QfknHpQNLG4sbN0QxSv1uq7/t275v7PSGxp+mzY23uEzt7seYc6g9vecp75qEuA/p5w71qjE5uI/l9GFLxu9eo9JAA5aaqN2PWGg/n7vLYJ8Y5G7hU6s8aZVPhb+t6/WprYw6wdb9nbIlcIoVXaFx077GtcPcoU9GR/nU7zL9/Ohpw6yUatJ/iUapNepl6i2ZKH7IFPkB9Y7h6Fvmet/zljmHTG+29QLT5mk0xgk+feGz2lM4pTavEIlrrvns4Yc/uwZ77lp2x2zvekMPdOdsww4EAsF5Iw57e+u6Gb9WFhLw0WPff+3/jNL/n0kkt6FSAoLciP9H2CIhJSEAAEkcpF9CKpBEjTKGr9UuEiDkESBRLi9ATpd6AVJ5wwUo02uiAOXy1suJtEpotmVLJqrtS+ZMciSZanY/WWaGlyPlmiMHJBInLvlFTbmoDyxclY0dNSabli1W1FJ3L7KT07PdxiEHjTqG4rV2sre9HGBHO9jVAT14PyvjB9rTojVooS/KjDXKGJlpstP1x8piD93P/nbV73V+mumy++1DHLTefyi2JCKB4xQkEiIpwJRqJIABAAA=");
 
 export default PersonSign;

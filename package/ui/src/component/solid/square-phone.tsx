@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-phone` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-phone?s=solid square-phone}
  * @preview ![square-phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-phone.svg)
  */
-const SquarePhone: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm90.7 96.7c9.7-2.6 19.9 2.3 23.7 11.6l20 48c3.4 8.2 1 17.6-5.8 23.2L168 231.7c16.6 35.2 45.1 63.7 80.3 80.3l20.2-24.7c5.6-6.8 15-9.2 23.2-5.8l48 20c9.3 3.9 14.2 14 11.6 23.7l-12 44C336.9 378 329 384 320 384C196.3 384 96 283.7 96 160c0-9 6-16.9 14.7-19.3l44-12z" />
-    </Icon>
-);
+const SquarePhone = createIcon("square-phone", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABZQAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBOQsGAAE2AiQDCAQgBYMtBzMbvATIhof/t3v8fe5MAE8kVbCqpIoriFX8Iddv/Vbu3v9ck++dNR3gNzq0Dj2QAota1fMJTCQ98cSWYDOdgE23yZDyCMIvIiRKQjq+PL5OkMfFbL8KpPPpMxytHxo/aWI/SZUMQNQGwOg5M6Z7qxSliE/Lz4hPTUVAjAaFQIYMzQUYJhNoLlcglwtKUS7n/8CCAKIiwRIzpxvHYCIgB0nK86ZFtQo18tmps6oLbnWKuNc4xfnO99vXiLtdHzbL4kKXBx2qzzrboHucrt8pHk3uGgMZ3FXzOFX/gymf9Hnc5myjgW0e1H7wS+vPVn9m5NVrdahTdZSqdepcG4Vl3MH8pX9uGmn6+X1Oz5vkyHd/+aHnq4aXSi26vfN1zZrfvgoEgu/3DJ6+pNawfypXS+DHV377v/2MlEvxVnqAyhIIsm7lbhbGWxBvCQBAit3axFsIJEMkElZ3xpuGqhAkFVWFTDO1IVdVV6igpf7c4fYZMpFXEepbBEiq2waZAfZCrr4nUMEwH0YV1Y8siIQQEP5wqRM0On5T0btHr2JIsa10MS64sjq0OHY77eaRzjhqtS0222mVldbZqZjtpqe7bDLBosf7okJvPfRSGKJwt8/qbIq222HdWvavM1RxP+xktz29M4JEWPvIJIlI1R+i3j3SAAA=");
 
 export default SquarePhone;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `draw-circle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/draw-circle?s=duotone draw-circle}
  * @preview ![draw-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/draw-circle.svg)
  */
-const DrawCircle: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M39.9 196.7c7.4-3 15.5-4.7 24.1-4.7c1.9 0 3.8 .1 5.6 .2s3.7 .4 5.5 .7c3.6 .6 7.1 1.6 10.5 2.8c6.7 2.4 12.9 5.9 18.4 10.3C119.8 158 157.7 120 205.7 104.1c.3-.1 .3-.1 .3-.1c-4.4-5.5-7.9-11.7-10.3-18.4c-1.2-3.4-2.1-6.9-2.8-10.5c-.3-1.8-.6-3.6-.7-5.5c-.1-.9-.1-1.9-.2-2.8s-.1-1.9-.1-2.8c0-1.2 0-2.2 .1-3.2c.1-1.1 .1-2.1 .2-3.1c.2-2.1 .5-4.1 .9-6.1c.8-4 2-7.9 3.5-11.6c-76 20.8-135.9 80.7-156.7 156.7zm0 118.6c20.8 76 80.7 135.9 156.7 156.7c-1.5-3.7-2.7-7.6-3.5-11.6c-.4-2-.7-4.1-.9-6.1c-.1-1-.2-2.1-.2-3.1s-.1-2.1-.1-3.2s0-2 .1-2.8c0-.9 .1-1.9 .2-2.8c.2-1.9 .4-3.7 .7-5.5c.6-3.6 1.6-7.1 2.8-10.5c2.4-6.7 5.9-12.9 10.3-18.4C158 392.2 120 354.3 104.1 306.3C93 314.8 79.1 320 64 320c-1.1 0-2.1 0-3.2-.1s-2.1-.1-3.1-.2c-2.1-.2-4.1-.5-6.1-.9c-4-.8-7.9-2-11.6-3.5zM306.3 104.1C354.3 120 392.2 158 408 206c11-8.8 24.8-14 40-14c2.2 0 4.3 .1 6.3 .3s4.1 .5 6.1 .9c4 .8 7.9 2 11.6 3.5c-20.8-76-80.7-135.9-156.7-156.7c3 7.4 4.7 15.5 4.7 24.1c0 .5 0 1 0 1.4l0 1.4c0 .9-.1 1.9-.2 2.8c-.2 1.8-.4 3.7-.7 5.5c-.6 3.6-1.6 7.1-2.8 10.5c-2.4 6.7-5.9 12.9-10 18.5zM306 408c8.7 10.9 14 24.7 14 40c0 .5 0 1.1 0 1.6l-.1 1.6c-.1 1-.1 2.1-.2 3.1c-.2 2.1-.5 4.1-.9 6.1c-.8 4-2 7.9-3.5 11.6c75.5-20.7 135.1-79.9 156.3-155.2l.4-1.5c-7.4 3-15.6 4.7-24.1 4.7c-.9 0-1.9 0-2.8-.1s-1.9-.1-2.8-.2c-1.8-.2-3.7-.4-5.5-.7c-3.6-.6-7.1-1.6-10.5-2.8c-6.7-2.4-12.9-5.9-18.5-10C392 354.3 354 392.2 306 408z" />
-        <path d="M256 128A64 64 0 1 0 256 0a64 64 0 1 0 0 128zm0 384a64 64 0 1 0 0-128 64 64 0 1 0 0 128zM128 256A64 64 0 1 0 0 256a64 64 0 1 0 128 0zm320 64a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const DrawCircle = createIcon("draw-circle", true, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAAB1wAAALGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHiEBQsIAAE2AiQDCgQgBYMtB1IbKQbIhof/t/u+fe6t9xpQfXgMZxLrhwMiiHp1OkZNXFM/6M8fsO3BHgvlFxnYFtU+gQFW8NtoNILRzGdg879t8gDH3iF9DMVThiK+zpdpkO5On+JG/38A4xtjLiNpywCiFwBb7r/3rt6cjdkUn9bPEp/aBQGxFSgFMjImBdhEFphUKFEoBLOprpmNui4JIJr8l2XQRDvm8A2gAEmhKIouVrpixaIVHY2uYj//m/aDX1ixcnm13rNLn1r29LqpZd/vAV3S7ZP3QxpZmzlyMr7/nR3XRsjQ7YwHV6xc/+K4Y5gbFwN37hx5d5NXSw9vGvHatnPci4cdI3eC/vzyavqx9mv8cUd7sPPo55ZFPD31ZMe1HbeDMfTIZq9vd7uLd4iLXBy3uW2Q+dLdffiixAebv7F2VKoLpMR08SWSIfO+pU+tM7/qrb6b9+lxn6o3X2O1mZnV1sjGLmrVXFjnuZ9+mssY33zV85b8/VhXzqncYs9bznumumdnjl82VKQUEVKk8B7nxqIHr77rr/P+uourH1zUyJMAQ4ol/URjcNnxG1dPP9s1svZhmffYq+3rne+heqZrJOeudEjSKTt1CRFO6JE1vhzpax/Iveqq1uSxrrPfTJn22PLWc599utoYCAS7zbz/9eE9m/zW2pHA3Ms//KL4HdVvprZUoVUCQV6lXsUhCfUfqU0AAFKcZ36CpQLZEwphpNMdh7OhnQZLmtqxbEIvVmi3AmuYtu7OpnZ7y6Jog8igQ4Elnc7EsvWcjxUGPYM1bOKDVNNgZFpXU6r6UzPDdl14223lmqutUW5UzrZUGvJVOqsbl5sdS88zRpbhruOc7jTnONYxTnROBz3LrtlznWq7Jfa2ny2taTVrKG2kPNx9aNivkzrL2U6c1h3fZGPl9ZGlzluevgzuJBRdy4EsEynywGtsWfW3IMuqymZsaKhTIQ==");
 
 export default DrawCircle;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-showers` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-showers?s=light cloud-showers}
  * @preview ![cloud-showers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cloud-showers.svg)
  */
-const CloudShowers: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 112c0-44.2 35.8-80 80-80c32.2 0 59.9 19 72.6 46.4c2.2 4.8 6.6 8.1 11.8 9s10.4-.8 14.1-4.5c11.6-11.7 27.7-19 45.5-19c35.3 0 64 28.7 64 64l0 .3c0 4.5 1.9 8.8 5.2 11.8s7.8 4.5 12.2 4.1c2.2-.2 4.3-.3 6.6-.3c39.8 0 72 32.2 72 72s-32.2 72-72 72l-304 0c-39.8 0-72-32.2-72-72c0-33.5 22.9-61.7 53.9-69.7c8.2-2.1 13.3-10.3 11.7-18.6c-1-5.1-1.5-10.3-1.5-15.7zM512 216c0-55.2-43-100.3-97.3-103.8C407.2 66.7 367.6 32 320 32c-19.3 0-37.3 5.7-52.4 15.5C247.3 18.8 213.9 0 176 0C114.1 0 64 50.1 64 112c0 2.6 .1 5.3 .3 7.9C26.6 135.5 0 172.6 0 216c0 57.4 46.6 104 104 104l304 0c57.4 0 104-46.6 104-104zM128 384c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80zm192 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80zm-96 32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80zm192 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80z" />
-    </Icon>
-);
+const CloudShowers = createIcon("cloud-showers", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABmwAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCVwsGAAE2AiQDCAQgBYMtBzQbWwXIhofn7fo691V9wDWEFlJmMsjUO+kK4fb8X+75t5t0gN/oUPbUhXcNwDEWJpBYL5veSyAqsG2QgLXbkCnMMJQFiwyRi9gtC00weII83o6JKkh3pm9wfbjT+FmPS0jyDEA0A2DZnh2bfFCKUsQ35VeJb2xAQCwHhUCGDP0CLJQJ9MsVyOWCUpTL+B9YEEBU4oslkKMa1+FWQA6SyjyfMaKe07qKhnx33L/2wPsnRDw95+pRj/bc2nFr19NjHh33ZE/EBYJcXbf7HWOfGFkfj41/qvfCvrvH3N55Wxx+3/iIp2YTg+lVI99b/Uoz6b/AI8Zx7+hXZzXE6xOeHjrsts5b2sWtHbd3RZ0Ms7N2Q8Ofan7q12HfHPONQ7fEbo5u7l448eYxp124q+WBB1paaqlaufKwPCvNmNHYMHNGaarSjJkNvft/OueThs7q+4+teYZ3Lj7i1lunDpza8OAfv//flOdv93QPq/v2uxemeuG7b+vOf7yxVGrcyoIPgGUOHaLzgUBw+6xP/ju0aeG/1XUJ7H/r93/9j1D5gyQ9hWoJBNnE8kQHJZAIAECKcwxPEEguc8DXWu82AUItAiSVagXI9GkWIFdrggAVBs0SoFKtHTKR1wjtDhaY1DsdZmY7F+bavQwrLPR5rlJ7ZDopaJRwJUxdnYNV64ppk6cW84tmVRLVjKPpBcW0O/Yc1zUOtjrGqU5xlqMd5XhnZdQZNhXPdrLVPXKVBypMM9lUhfmK5cbl5t2OdoYzHe9Up/hVFij2h2Od0x88DoKEaacrSRKRGj4nNCa92/HOOBM=");
 
 export default CloudShowers;

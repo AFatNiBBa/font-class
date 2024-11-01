@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gripfire` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gripfire?s=brands gripfire}
  * @preview ![gripfire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/gripfire.svg)
  */
-const Gripfire: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M112.5 301.4c0-73.8 105.1-122.5 105.1-203 0-47.1-34-88-39.1-90.4.4 3.3.6 6.7.6 10C179.1 110.1 32 171.9 32 286.6c0 49.8 32.2 79.2 66.5 108.3 65.1 46.7 78.1 71.4 78.1 86.6 0 10.1-4.8 17-4.8 22.3 13.1-16.7 17.4-31.9 17.5-46.4 0-29.6-21.7-56.3-44.2-86.5-16-22.3-32.6-42.6-32.6-69.5zm205.3-39c-12.1-66.8-78-124.4-94.7-130.9l4 7.2c2.4 5.1 3.4 10.9 3.4 17.1 0 44.7-54.2 111.2-56.6 116.7-2.2 5.1-3.2 10.5-3.2 15.8 0 20.1 15.2 42.1 17.9 42.1 2.4 0 56.6-55.4 58.1-87.7 6.4 11.7 9.1 22.6 9.1 33.4 0 41.2-41.8 96.9-41.8 96.9 0 11.6 31.9 53.2 35.5 53.2 1 0 2.2-1.4 3.2-2.4 37.9-39.3 67.3-85 67.3-136.8 0-8-.7-16.2-2.2-24.6z" />
-    </Icon>
-);
+const Gripfire = createIcon("gripfire", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABhwAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCJQsGAAE2AiQDCAQgBYMtBy8bJAXIjtRW94xmieB5u76vc7vnAeyVFK2/4MxgDimaDpmb3zdxzfO3pgcsf7es8z+PNVDm+QT+fJWegpU4myjO2umSN4h+kyTlSYaJHzZryOPEuECJdGV6B+enD40fdTuLpJQBiCYALNm6cYMXPovPIt4pP0q8Yx0CYikoBDJk6BNgvkygT65ALhd8FuUy/QcWBBAVGEyM3O55HE4G5CBJeT5rTm2pPt/iRtVsPb034upxEXdj2NW91/Vc1XGaK0bfQUPH39N37Zg7xzzbfWXbJYbp7p7Te67quawjNbZeNzbiLngd7XFp2zQ3serS9ktrz+68vPfq3itd0XVFTzs9Lu2+sv0gTq+9e9L9g6d3DL2r6a6feWefdxx2Uc+3fDuTldX839D6/39LS6XG+ePv+dWj6rIxs2/5omor21vzrlLbwzf9NbSF7/2+805pfWfkbuOZN5UpZ8w0s7pu4uDzK2NkVeNBB2XpvU8+frnptKb80suuuw49H385JYV4d0hzRV0fEAj2Wfro4bs2zv+7qjaBL5769bx/UX4jFqe7UCWBIBtfHm+nOE1hsRAqgP0UxxiKbxJIDpPgWutcJkCoQYCkQo0AmV5NAuRqjBOgZMAMASrU2CgTebXQZudKJHUOJzIznUzk2jxMlMz3ul+hLTLV4xWH//mlrGyBFWHFlImTi7nFMK0I2sSG9nnFsjP6GF82Bivt41CHOMre9rK/oxr8CBuiRzvYSglb4YcKU0w0WWGuYjt3v3iLvR3hSPs71CGxk3mK8+5ox8i1x6A7CTD10sYkIlXte8T+hz1jAAAA");
 
 export default Gripfire;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `compass-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compass-slash?s=duotone compass-slash}
  * @preview ![compass-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/compass-slash.svg)
  */
-const CompassSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 256c0 141.4 114.6 256 256 256c55.2 0 106.3-17.5 148.1-47.2L317 345.8l-90.6 34.8c-19.4 7.5-38.5-11.6-31-31l29.4-76.5L82.3 160.8C70.5 190.2 64 222.4 64 256zM134.2 79.9l136 106.6 143.3-55.1c19.4-7.5 38.5 11.6 31 31L397.1 285.9c46.1 36.1 92.2 72.3 138.3 108.4C561.1 354.5 576 307 576 256C576 114.6 461.4 0 320 0C246.8 0 180.9 30.7 134.2 79.9z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const CompassSlash = createIcon("compass-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABegAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBYwsIAAE2AiQDCgQgBYMtB1YbCwXIHomxrYh95YwI/eLhebuvzn1VvwdQDWQtglRyykwIdzv/wQMqN/9/zqWL56MBfpBNcCjRmDhv8LjK5ydwoJHeKVp2pni7sz2jZHkkacHScnx2fDKFPLXPziiR7k8f4Tr9D2D8rJEzJJUyAFETACPnz57qte/i1EflTxEfmYKAGAUKgQwZmgowRCbQVK5ALhd8l+C7oCCAKEPHzkAZSpiCNYAcJCHlebUmTauUquXz6FmVF9/bdmfcbXin3a64p8n8r0dGvD414uO5306fF3PiTv17GsyPefGQ+XPnzZ0f99a7W3dOPD/Q7/rm/G9GvTHtk3mXBjw3pNUDNR/4teVH6z6SP/N75+mf+v+JeDbDXzW+IY1ucnK82f67Z59Frfx4//3Dmk1xbbsmvcc+en4TmNf7jzp0P2zw4EqVDpuqYpHD+/T/96c+QCD47K2Z3y2vMeTfilUS+OGF3/8uK1ounU8PoKIEgqxLeRdL0gkBSRMAFVLs0+q7jBDI9JekXaq6R4BQGQGSMpUbZJqoCbnKOkNJc335zcGzZSKvJNS1FCCpaidk+jkKubqehJIh3vXL1I3MtETDEF92aeM4PrZd0bNbj2JQsYxVyVr40Dy42NY77HNFHWGidbbbZo+11thoDyN3mRrttdU4iRjrhwo9ddNDYZBCnbnX5jF/l902zhV9K4MV550O9smVO4KVJMZeXsxkRIqs3qdvd/furru3ZHtD12tapsFEuZI=");
 
 export default CompassSlash;

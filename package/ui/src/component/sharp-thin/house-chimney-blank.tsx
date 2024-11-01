@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-chimney-blank` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-blank?s=sharp-thin house-chimney-blank}
  * @preview ![house-chimney-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/house-chimney-blank.svg)
  */
-const HouseChimneyBlank: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M293.2 9.9L288 5.5l-5.2 4.5-280 240 10.4 12.1L64 218.5 64 504l0 8 8 0 432 0 8 0 0-8 0-285.5 50.8 43.5 10.4-12.1L512 197.5 512 40l0-8-8 0L392 32l-8 0 0 8 0 47.7L293.2 9.9zM400 101.5L400 48l96 0 0 135.7-96-82.3zM80 496l0-291.2L288 26.5 496 204.8 496 496 80 496z" />
-    </Icon>
-);
+const HouseChimneyBlank = createIcon("house-chimney-blank", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYQAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBQgsGAAE2AiQDCAQgBYMtBzobzATIhof/7P77far6vgHUA0iZlAnxy4YfEbVyKGX04zv/19SL50cH+P3EDy0KK0GuOdbxvMEmtjeMptmAZsPZRHHWzm6hiG5D+sgnGbbPsDlBET/ZoUJ6mL7D3fyh8Zd2LpHkDCCaAmDq6uULffR7/B7xbfUt8a35CIipoBTIyOgowARZoKNCiUIh+D2qVfcfWBJA1OBzEyhQwXQsAhQgyUXRu16DBpVGxarwWP3drVu1bhlbolUsjhSiQaOIHAujTSwLZOrXF2LVyjlV996RU14dKyNFw261TWv/6frdru/0eDudh2vzn8f66aSuuu/X1Uk/j33qmYTOpIdYt3Df+lEgbnHN5mWTb3S3fnzJv6S7F0AgSD8dG7O5yYT/6zZI4M8P//ur3J6rH6WJqRZ1JRDkAdUBNqQpsqysCxikOKUbviiQjJfhXRu6J0CojwBJjfoCZB00FaBQX38BKjobKUCN+pbLoqgntLSxg6ShoyAb5SIotPQaVEzwpV+jZWRLYuyA+cclzpLozE3l0EFDynHlsqqxxkHF6fHlttTnlO/qi512OeyQE3baYa8TAj9mYXTSQbM0bKYfKg01yBClccrjxuP2VXY65ri9DjuUZhmvvO/1cUof3BdqQtJhckkiUgsryw/cvmfvwUM7zw58XQA=");
 
 export default HouseChimneyBlank;

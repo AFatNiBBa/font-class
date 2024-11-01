@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scribd` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scribd?s=brands scribd}
  * @preview ![scribd](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/scribd.svg)
  */
-const Scribd: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M42.3 252.7c-16.1-19-24.7-45.9-24.8-79.9 0-100.4 75.2-153.1 167.2-153.1 98.6-1.6 156.8 49 184.3 70.6l-50.5 72.1-37.3-24.6 26.9-38.6c-36.5-24-79.4-36.5-123-35.8-50.7-.8-111.7 27.2-111.7 76.2 0 18.7 11.2 20.7 28.6 15.6 23.3-5.3 41.9.6 55.8 14 26.4 24.3 23.2 67.6-.7 91.9-29.2 29.5-85.2 27.3-114.8-8.4zm317.7 5.9c-15.5-18.8-38.9-29.4-63.2-28.6-38.1-2-71.1 28-70.5 67.2-.7 16.8 6 33 18.4 44.3 14.1 13.9 33 19.7 56.3 14.4 17.4-5.1 28.6-3.1 28.6 15.6 0 4.3-.5 8.5-1.4 12.7-16.7 40.9-59.5 64.4-121.4 64.4-51.9.2-102.4-16.4-144.1-47.3l33.7-39.4-35.6-27.4L0 406.3l15.4 13.8c52.5 46.8 120.4 72.5 190.7 72.2 51.4 0 94.4-10.5 133.6-44.1 57.1-51.4 54.2-149.2 20.3-189.6z" />
-    </Icon>
-);
+const Scribd = createIcon("scribd", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABcwAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBZwsGAAE2AiQDCAQgBYMtBy0b5ATIPhRwcpV1YIiAiBgrRWVGtc0hXWFval8MpeXh//f3/3Ptgyd+AAl29egIhUwKBWJTVbzj15+Zzs+Py/ePcMTcRMZVoUFocCoX6vKB8r2HpCa7pYwZX/7vh1SCeU3z11ftn7c/3/logA9E9g/LA/lh/v2eJ9B53s1HOqFMA/EUUrexfHZez4PgETEkWWgW69CxkMdInFeQLqcvOOdOxS99zJIUGQBEOwAwf+vG1V5qUYv4qhJfrAQCYgHAYAgZDP0hMAtW2ALOYCCXC2pR4T9wMAggSoivl0COHFuA7QDkIEk5Tj+Giqfj8psKSsGN+D73LfXr9OfmeX5uzAhn/DSenHYjWzZem3dFS6adwJWl6kbjldE7oknzbnBbPMk7yf22Zi6KRG70iMflH5sej7q27is3FRsWzR5rL9WXvhjz4YmQ9fvSxa6eMITlTlNgy76Fo7VcnWjXEB9GpnB2d7CHZuPnRv6ZQJcMjY/cFRP4d8pirf/SWLElUvam8G/778fzcn4OBIL7J8as3/VNGICfLx7fokocTjdQL4EgG1+NVxr7qcZhAQBI0U8Tkwgka2DA1WYXBAiNCJCUGgXI9MOCQK7ROAgUBvJDoNRoI6zIyRC6lRUkzfZAZooxyHU7h8Isr1GpO7Da4srgT7u8JaPFZ4PdDpcqoprmUsiF2j6qWvZN/XpmGNXr0K5XnVpNeiPdctI+bZIdTniQipuDi0qEart6vM9Xp1uPJh3aeSRKdT406e+nzbgGA5hwK5lEJMK//cGOXQAA");
 
 export default Scribd;

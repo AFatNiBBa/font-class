@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pixiv` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pixiv?s=brands pixiv}
  * @preview ![pixiv](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/pixiv.svg)
  */
-const Pixiv: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm171.5 84c41 0 76.3 12.9 101.4 35.2l0 0c25.2 22.2 39.8 54.1 39.8 88.8c.1 35.3-16.6 66.3-42.4 87c-25.9 20.8-60.6 32.4-98.8 32.4c-43.5 0-83.8-16.1-83.8-16.1v51.8c7.4 2.2 19.7 7 11.9 14.8H104.8c-7.7-7.8 3.6-12.4 12.1-14.8V175.5C97.1 190.9 87 204.3 81.8 214.2c6 19.4-5.3 18.5-5.3 18.5L56 199.7s72.7-83.7 179.5-83.7zm-3.6 222.9c30 0 56-11.3 73.9-29.2c17.9-18.1 27.9-41.6 28-70.2c-.1-29.3-9.5-54.6-26.7-73.6c-17.2-18.9-42.7-31.3-75.2-31.4c-26.7-.1-59.8 9-80.2 23.7V323.1c18.6 9.3 46.8 15.9 80.2 15.8z" />
-    </Icon>
-);
+const Pixiv = createIcon("pixiv", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdQAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBcwsGAAE2AiQDCAQgBYMtBywb7wTIhod/7Mi/b7Anmd3QE8D+MCpQPdSyEv7+5vk/jwJ8nPtY2HkgCySa8zyBzvMu3wRjgaUBegyZt8yxPab0TSaapMcr9/jVQRa3xzVykluTj3F1vWn8oIlzJPIUQNQGwOiFc6d7/dv4NuLj/58hPjYVATEGlAIpUjQXYJhUoLlMiUwm+Db+/1//gSUBRIX2gQnIkGMF1gEykEizrGnXOpV5jWxBZV4sfaBTxCONk7i186Pta8TDXR9vlsZtXR7rUDX/neERr7S+Z9jzxbMdHmoobmxwY/0ibmp0c6OIR+rfWP+G6BGnuz4+9KWJ857r+niru7o8NuGydg/UFw+Ob/NY7cd+av3xho+NvPueOtQpRinq1LlnlHvqjM0/Pvfz1azJG5w6OdSFA/qZPWbu+KHGjx2z+gvvrujep7dRkrVz956dnX79+UuPF5V33KnB/PF/PejTEggEzZ7468LKWsN+rVaZgO9f/OVvmP3/t/F68hiqSUCQdvu/m2XxOoAYwCslcUCbeB2BxAIpLLXKTQKEAgESFQoBUs3UFiBT6CpArqX+AlQozJWKrLpQ33JAospuSA1wHDL1PQW5Yd6TK9SPlGE0P+gPXsKEiMZXlb179CqHlEtDZ0hDenFouS12OmCBztJqg5122Ge9dTbbF/A9pmv7bTchw8Z7UKm3HnopDVEe28/NC6y3x16b7bSjlBmqvC91ciCP7yx1JIA+b0OaLpJ81+ZDmw8AAAA=");
 
 export default Pixiv;

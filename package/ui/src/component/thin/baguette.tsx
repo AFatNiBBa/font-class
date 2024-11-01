@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `baguette` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baguette?s=thin baguette}
  * @preview ![baguette](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/baguette.svg)
  */
-const Baguette: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M605.2 65.9C570.9 14.4 501.3 .5 449.9 34.8L361.2 93.9l60.4 60.4c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L347.6 103 246 170.7l63.6 63.6c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-65.9-65.9L130.8 247.5l66.8 66.8c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-69.1-69.1L65.9 290.8C14.4 325.1 .5 394.7 34.8 446.1s103.8 65.4 155.3 31.1l384-256c51.5-34.3 65.4-103.8 31.1-155.3zM618.5 57c39.2 58.8 23.3 138.3-35.5 177.5l-384 256C140.2 529.7 60.7 513.8 21.5 455S-1.8 316.7 57 277.5l384-256C499.8-17.7 579.3-1.8 618.5 57z" />
-    </Icon>
-);
+const Baguette = createIcon("baguette", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABcAAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBZQsGAAE2AiQDCAQgBYMtBy8b5ATIHolxrMQyC1QuHp7Xe+rclwzgDAQvyX4rttbPbm6zwsWfuKZ+Bg2wTd9kHTyQKIvI8wYbcJRFc4HNBjZR3O5sLRst7JVEluQ4d3xOkMc/VilDujF9gsvLl8Y3GjhFkmUAojoAhs+dOdkbX8aXEZ+UniU+MREBMQIUAhkyNBZgkEygsVyBXC74Mkol+g8sCCDKUiqx5XjjLCwH5CBJed67XqUyVfI54YKKOx/rE/Fcv1kxPa6tfU3dGdHAOejsnSfFC41v6fxo72cHroyXm93epd6jRcQd/ZatFMa81+Wxlnc/ZPS7nVs8VP2h75p/0icWHb7vBV7YP2+Aj/XuPXPm51aP9L8kDR9u1UgjhnPsqNFa2HDx4vWnSvIcLWH0Z59eyZ2vp7gbNPzGnVe+Bu/RsME/QCD44deP31xabdBv5Ssl8PVLP/wd7ywtSefSQygvgSDrVOpkUTpmACcF6kuxRwuIE0gmVWF8amXXCRAqIkBSVkUBMo1UFyBXUUcBymiqtwBlVTRTJvIKQm2LuzipbLs408dhca62p8VlDPK+r6zakbmW1jG0P7tMY0Z49LSie5duxYBim9N03qKW3oHFsavdHq5pD1utsdUWu6y2ynq7BtEOk4O7bTbG4kf7oUJ3XXRTGKC4Lj6vn2O1HXZab6stuZ+BivfedvbYzduDJ1FBPbgSa1ak8iuWr929eteu1QA=");
 
 export default Baguette;

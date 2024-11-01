@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-bound` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-bound?s=thin hands-bound}
  * @preview ![hands-bound](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hands-bound.svg)
  */
-const HandsBound: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M272 368l0-16 0-8 0-85.9c0-20.7-7.6-40.7-21.4-56.2L204 149.4c-5.8-6.5-15.6-7.2-22.3-1.6s-7.6 15.5-2.2 22.2l27.6 34.5c13.1 16.4 8.7 40.6-9.4 51.3c-15.2 8.9-34.6 5.1-45.2-9L83.2 154.4 80 150.1l0-5.3L80 96l0-64c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64 0 59.1 0 .7L48 192l0 21.9c0 10.4 3.7 20.4 10.5 28.3L161.6 362.4c1.5 1.7 3.3 3.1 5.3 4l3.3 1.5L272 368zm16-16l0 16 64 0 0-16 0-8 0-85.9c0-24.6 9-48.4 25.4-66.8l46.7-52.5c11.5-13 31.3-14.4 44.5-3.2s15.2 30.9 4.4 44.5l-27.6 34.5c-7 8.8-4.7 21.8 5.1 27.5c8.1 4.8 18.6 2.7 24.2-4.8L544 144.8 544 96l0-64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 64 0 59.1 0 .7 0 36.2 0 21.9c0 14.2-5.1 27.9-14.3 38.7L494.7 368l17.3 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-32 0-16 0-96 0-16 0-64 0-16 0-96 0-16 0-32 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l17.3 0-99-115.5C37.1 241.8 32 228 32 213.9L32 192l0-36.2 0-.7L32 96l0-64C32 14.3 46.3 0 64 0S96 14.3 96 32l0 64 0 48.8 69.3 92.4c5.7 7.6 16.1 9.6 24.2 4.8c9.7-5.7 12.1-18.7 5.1-27.5L167 180c-10.8-13.5-8.9-33.3 4.4-44.5s33-9.8 44.5 3.2l46.7 52.5C279 209.7 288 233.4 288 258.1l0 85.9 0 8zm181.9 16l3.3-1.5c2-1 3.8-2.3 5.3-4L581.5 242.1c6.7-7.9 10.5-17.9 10.5-28.3l0-21.9 0-36.2 0-.7L592 96l0-64c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64 0 48.8 0 5.3-3.2 4.3-69.3 92.4c-10.6 14.1-30 18-45.2 9c-18.1-10.7-22.6-34.9-9.4-51.3L460.5 170c5.4-6.8 4.5-16.6-2.2-22.2s-16.5-4.9-22.3 1.6l-46.7 52.5c-13.8 15.5-21.4 35.5-21.4 56.2l0 85.9 0 8 0 16 101.9 0zM176 464l0 24c0 4.4 3.6 8 8 8l80 0c4.4 0 8-3.6 8-8l0-24 16 0 0 24c0 13.3-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24l0-24 16 0zm176 0l16 0 0 24c0 4.4 3.6 8 8 8l80 0c4.4 0 8-3.6 8-8l0-24 16 0 0 24c0 13.3-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24l0-24zM128 416l384 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-384 0c-4.4 0-8-3.6-8-8s3.6-8 8-8z" />
-    </Icon>
-);
+const HandsBound = createIcon("hands-bound", false, "data:font/woff2;base64,d09GMgABAAAAAAOYAAoAAAAAB6AAAANNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWCFMQsGAAE2AiQDCAQgBYMtBzIbswbIrgd4Qxr9DSiKuuuhFLVKeIYFAwAtv4w3XdCDa5/zkux+OKYcMNUhoao79EVHvg5YOLIVquz/s7+6b+on0oiLbHfydDiyC23iwmmmrfJmJiehQMh4eLjl+4UlEEiCB3VvoxNheAncNtEBjqzBc9seqUXJBRIFujC9wBroUXLMiWDc3Sy1wP/+53A9r+0Bfg8wD2XN6WNMDXuehuGcFK4bE+zwxE5Ib3TbTRGVdfZQ2AGn3xKAmXVcAPe8WfrBcgMwWAsEoFTA92R09dx6eUVXQe8XQe9VAALQGACeAAtYoJAAGGARUMjhgcMh+Er/m/+BIABQCMQbljkgCuoGWgD95wBD6Fz/YIaVl5wFSW5VghffLiBJuho+SapcG3RRucp1qVPKCUqmdKMC0jOvaISElinLgUiQthJHLlKG0oSm6XVOFQYbo/SxzEwpsNXElPAZXI3zKV0ZSaySpSDjas1KiVZAH3U1zh1x0AuIlTmqr2OkcOb3OTJppdd7pDHplgbUnR4YT8IWBJYksVUCA/8emvHGcd+GkZCQEE9Aw7ZNUpr0UnwaH6d7LH5ProvOhMWpYmrUKnxzZ/5gYXjDcsr4ei+5PVi0VS6g1QjJX/98Lv1EhWyp985+6UUpu/5vtI0g1eadqk63mEpsxudY5txTa1/9hXVQd2eSj9mbJ8j+tZJmS+hv8c2pNA2d4Z91nQqif/2VWk2s9+Tyfm0bQwnpdHwzMXWLWT9F9IXgdPrStN0D5sVdzGee0yqg3MQGd7eTeycpKfPb6Jv9zt+hxMNIUu2qbDKDNcLjElvCEqlyZY21lmbVko8Iu+UyrPmSOgFpT5VdkV4OAAIEP68Om4T5FWMA+H788sX/CEuOZvMBRDEACGzDPzaYG04+OSICn9EpymZ0RKuvZoQEMxOZAgEg4oABQ0gcLAVSwRGnHgKKddJWzliORS6GyLQRCIZEjoKly0VwZHoGAQNe+UIyI3VAjM+f8f8at24jqkFFelOL7/OTKSXTTdB0a79fLQ2e4iW1cKxdHOYQJ9jJDvZyokU4xsLgSQ6yYI508me9Vk1aeH387ux9ySqw5hjHOW2cvb+Xfv58Y41T89VrocIQkG0TZTAgk+DC+aUTBgA=");
 
 export default HandsBound;

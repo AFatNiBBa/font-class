@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `briefcase` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/briefcase?s=thin briefcase}
  * @preview ![briefcase](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/briefcase.svg)
  */
-const Briefcase: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M144 40l0 56 224 0 0-56c0-13.3-10.7-24-24-24L168 16c-13.3 0-24 10.7-24 24zM128 96l0-56c0-22.1 17.9-40 40-40L344 0c22.1 0 40 17.9 40 40l0 56 64 0c35.3 0 64 28.7 64 64l0 104 0 152c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 264 0 160c0-35.3 28.7-64 64-64l64 0zM16 272l0 144c0 26.5 21.5 48 48 48l384 0c26.5 0 48-21.5 48-48l0-144-160 0 0 48c0 17.7-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32l0-48L16 272zm160-16l16 0 128 0 16 0 160 0 0-96c0-26.5-21.5-48-48-48l-72 0-240 0-72 0c-26.5 0-48 21.5-48 48l0 96 160 0zm16 16l0 48c0 8.8 7.2 16 16 16l96 0c8.8 0 16-7.2 16-16l0-48-128 0z" />
-    </Icon>
-);
+const Briefcase = createIcon("briefcase", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABhgAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCQQsGAAE2AiQDCAQgBYMtBzAbQQXIrgpscL9CKAZsxHlpNC+Mz7FFPM//2v/2uTNfTOh4ErUqujqrqzY+CTKeCfn90PBKJo9Ba23m/Pce9UVcG8mkuSTRBFXEIg1vXsKHQqLE3NvZbkLGCcmgBiF+qZ8wte8Voj//19QLqwL8RocWZamlCRTLfj6BAUfxHfiATmimA5EpT7fJPOoIxSciQoIkouO046qFOs+4QofyRlp4KZ3KP1PWKNQKAGQQAOw8f/qoj9/5nfw1kZbDIEB2ARYRVDg/i4AtVLQtaCSoaQi/0zT8H7gIAUg79GcogBp0gHt4AqgBhV5r7qkrfNx6dDetuadNdCA75H6KXIYk3uaO3cMN24L08KrvgkBcqtsYZ67nPpghD/Yh3j6D9sa2Yt1yw50QRhC8pZuim+u+zVC09HS7kfu+HSd6L3UzEOzxQ1tjdnbIiKj3nvf/WtdaXr7eUFDgsoHfya9Ojm1ir6eHodRs6MPTUAEqnA55iRt2dQ8NnS6BX8KNuOJ9eaXNquXva29h7ffl6hXeWcv90e+/UM+sdfp2YHCw4gIfO7ABumA3KHH/fYFL3rAEBAQu7P188wa2/O/sUQD8/fb2NdL8LpT3oJMCCFQrm5U6C6BAAACUzIoqQEAxR0dd7bUtgBAggMIgEFAJ4YmAmpCMgDbhchHQTmigYu0A+eoaQOE0AVR55oHG1yPQlfhMDb6pAlENI/UfmLXPontPLZaWIYvkcqBrsSWXw2K57ZjNC4l4qdeYUdN6dBswbcRJ9cWMEXUeXeuDpExpMkhF5PH4+XGzHpOmDBgzyscUk/eDBLP++kT4CpVcr1QokOJ4aHLcAgAAAA==");
 
 export default Briefcase;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `conveyor-belt-boxes` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/conveyor-belt-boxes?s=sharp-regular conveyor-belt-boxes}
  * @preview ![conveyor-belt-boxes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/conveyor-belt-boxes.svg)
  */
-const ConveyorBeltBoxes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M304 48l0 160-160 0 0-160 160 0zM144 0L96 0l0 48 0 160 0 48 48 0 160 0 48 0 0-48 0-160 0-48L304 0 144 0zM528 112l0 96-96 0 0-96 96 0zM432 64l-48 0 0 48 0 96 0 48 48 0 96 0 48 0 0-48 0-96 0-48-48 0-96 0zm96 272c35.3 0 64 28.7 64 64s-28.7 64-64 64l-416 0c-35.3 0-64-28.7-64-64s28.7-64 64-64l416 0zM112 288C50.1 288 0 338.1 0 400s50.1 112 112 112l416 0c61.9 0 112-50.1 112-112s-50.1-112-112-112l-416 0zm48 112a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm160 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm224-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const ConveyorBeltBoxes = createIcon("conveyor-belt-boxes", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABnQAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDDAsGAAE2AiQDCAQgBYMtBzoblgXIjtROucz4iIfn7fo693V9VY9RAyqe0AyhjNJutBkcZACikeXtkIrpSqRJNiFhs+G394Le/M/l/O750fbPCYShjDlx+1gTE0jDsWls6kSyMEsUO9v25oh4aDdCY1wgi5dxQAXpZPoE+6sPjV81t4WkogQg6gFg3JSc8L+KryI+fvuU+Nh4EBDjAIVACSW0EmCkkkArmQKZTPBVvH0r/gMLAohKMVsJZCjjKh4AMpDUZFlNQ25v0qQhDpQrameTo735EkoeEeXJeTkXhCmXI0bNJy2zkq52i7jZ/ETXGx1rxbXut1qc7nG7S+35T7pG3Gh1ttvNQbXj+UTf9pw7cHCtSRubRBzLdzU6YkPjo+XdTY/HpNwfcTxMjmgy5cDs9rfq3fq93SeLP9Fn/4VYgTvO9+mL+RXoq+8Xji+XzsUKUPWcDWSu5gCdU+9Cfernef36lzX1/Zbzff76kzd16775868LpATH9FlaZwc76hQ5Ysj5tlNuX74OBIIfx127MafuyP+rywl88+6ff1bPe/te2pBuoVoCQann255mpg1AOQMIp1jDbXxRIDmrRvyutRwTIOQIkFTKBShpqZ4AmVwPASq0MUiASrkJjMhqhEZmdZDUshxKBlsLmUYeQ4WR3g9VahQlcBUDm/hjMUUcomGS7de7bzG8WM1pJBAotL0jisOGrmtkTTe8Ex3ZRFMNMsBZil5L3MKCH7L66a2vwnDF5eLTzUXDjoFsP84IxfOertZsN++GzVrMs7+pSSJSwz++kx+xn79oin+fAQ==");
 
 export default ConveyorBeltBoxes;

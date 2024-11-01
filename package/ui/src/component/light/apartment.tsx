@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `apartment` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/apartment?s=light apartment}
  * @preview ![apartment](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/apartment.svg)
  */
-const Apartment: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 128l-64 0c-17.7 0-32 14.3-32 32l0 288c0 17.7 14.3 32 32 32l128 0 32 0 0-64c0-35.3 28.7-64 64-64s64 28.7 64 64l0 64 32 0 128 0c17.7 0 32-14.3 32-32l0-224c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32-14.3-32-32l0-96c0-17.7-14.3-32-32-32L192 32c-17.7 0-32 14.3-32 32l0 32c0 17.7-14.3 32-32 32zM320 416c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64 64 0 0-64zm-96 96l-32 0L64 512c-35.3 0-64-28.7-64-64L0 160c0-35.3 28.7-64 64-64l32 0 32 0 0-32c0-35.3 28.7-64 64-64L384 0c35.3 0 64 28.7 64 64l0 64 0 32 32 0 32 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64l-128 0-32 0-16 0-96 0-16 0zm288-88c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48zm-32-8l0-32-32 0 0 32 32 0zM136 384l-48 0c-13.3 0-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24zm-8-64l-32 0 0 32 32 0 0-32zm384-24c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48zm-32-8l0-32-32 0 0 32 32 0zM136 256l-48 0c-13.3 0-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24zm-8-64l-32 0 0 32 32 0 0-32zm208 72c0 13.3-10.7 24-24 24l-48 0c-13.3 0-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48zm-32-8l0-32-32 0 0 32 32 0zm8-96l-48 0c-13.3 0-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24zm-8-64l-32 0 0 32 32 0 0-32z" />
-    </Icon>
-);
+const Apartment = createIcon("apartment", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAAB4wAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVCFCwsGAAE2AiQDCAQgBYMtBzAbiwbIjtRWcxRJchPPf7/fb+3z7kcl4dksiYWokZAJCUKjWewWKkMlJBJWjZU9d7z7DPPM6BAsctgROxaOhUlFfUXewOl06zwP8Fmg1xpC5126j8J7KUogDM/5VCJZNmFsdNtVEZEQGetwhZbvFAg19ab4BnhyP5pf2FsGSusAkAkAwNltRRE+/KE/RN8MT4G8owAEcg5gGaFDh3kEDikF81SWQdOEbzIY2H8gAwHSh0AohxomIStA1oHxHsp4U6WaBZnpLfQ+INXGqmr6UdEgpNi02oYi89Y7Ukqio4CHPjd+9+1Bw3LLdo+IFmx2haBNKmn5uwFwkVbUDbREXAgnDhNVCinu+D9wUN4hvssoifO5sE589b3nKWr2UxvdcVjnMy4LeQcZ8rL2GzLnpLRH5j4SXN7qjv1sVbFZM9z9gdmDv27fur9h7iQ1pJisr5sw8vR5ToWYND8/ZyGRCn4c6/8AIVORrcgPSMa9d9UCULjOi+67FuazCr7FyFyaPuA+O162ij8zs+bnaqzLQlE2Gwqs+8+BGoxvXUPFk0KknvNdf7A9AekrB2J/y/sAQbj4y3nUYpp4q5MKwM+rf7fodfx/UKQqHgAGFAjdmiEQjZUKwGgJCFWm4b4Cv6BiD1OErzXiGQRiCAGlz5CAzhwzBJohqwj0LIpCoM+QS0ppesSMppZURtyTOgdmSM2Mx6SeQx9DfWaifFuEz7rwZzVZdh+Z1Y/DgkM5nhczatELwNedCbxb5zvNK/zgSnQbMWxSl059JnvEcUXRKUOy1+iz4GVhgoVi8fh0/rGsGofGTeibl5zvJQHf7/I1vV7fDxoVAscdA0qR0n98BAAAAA==");
 
 export default Apartment;

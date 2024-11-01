@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-dress-simple` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-dress-simple?s=sharp-thin people-dress-simple}
  * @preview ![people-dress-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/people-dress-simple.svg)
  */
-const PeopleDressSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 16a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112A64 64 0 1 0 128 0a64 64 0 1 0 0 128zM76.1 176l103.9 0 54.9 192L192 368l-48 0-32 0-48 0-42.8 0L76.1 176zM120 384l16 0 0 120 0 8 8 0 48 0 8 0 0-8 0-120 39.4 0 16.6 0 16.6 0 39.4 0 0 120 0 8 8 0 48 0 8 0 0-8 0-120 16 0 0 120 0 8 8 0 48 0 8 0 0-8 0-120 39.4 0 16.6 0-4.6-16L448 160l-128 0L260.6 368 256 384l-4.6-16L192 160 64 160 4.6 368 0 384l16.6 0L56 384l0 120 0 8 8 0 48 0 8 0 0-8 0-120zm64 112l-32 0 0-112 32 0 0 112zM104 384l0 112-32 0 0-112 32 0zM384 16a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112A64 64 0 1 0 384 0a64 64 0 1 0 0 128zm-51.9 48l103.9 0 54.9 192L448 368l-48 0-32 0-48 0-42.8 0 54.9-192zM440 496l-32 0 0-112 32 0 0 112zM360 384l0 112-32 0 0-112 32 0z" />
-    </Icon>
-);
+const PeopleDressSimple = createIcon("people-dress-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABpwAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDPQsGAAE2AiQDCAQgBYMtBzobxwXILgbsluMQD6UWcR3maJTx0njrjJ16xcP/r/1vnzP32533TcCbJ7Wo2gmFRoPQaJ7FZHUN9S0qmTxH42r2oD243hzkhEQ2+t/tY5Mbk/mhf709xMcj2WyOzSZQi0CML+1RDGbqy3zqVM2gUCiAb1mA8aCsjjFpDh1rWQUqlqvHexGoTa9pBayD7gYH+vefCiVeXcQmbyVcMx80/lnkhtQ0ABATAMD+c9U8fPWjH/Hf3RM/HAICYj/ASgQNGixFwC5MgaVYVgJFEfSj69h/IIIAYhBsLRMUjOIjfgAKSG1hiUT83MgIFGCWskWshtJG0L1rbtHNcM/edneix3WP86Pxhh+kh/1wW2k9qqB5Jq6FEC0l9gzNuESJquNsVFKLmWA9AxP12gr6Q2cx9UQ63nb+BUOF7hE+et6IK8+lagnI21M1GpfHlZ7Y2dCBdY9VqPyRwo/O8AxvG3aZ+UCGS9UzTxbF/sBVtHMMDMpWDQjtXStt1gbaHFtv3Ajo5Pn1AQ7M9KTbAQSC77372vWfRxkAfz/9G/2MdF8pH2FYgqBZ3zn0EiQBAMg4oUsIpJda9r32XBcgVARIg6oAjSWkCCiqdQgYsFwQAYOqU5ii8CHM6Gcg9VwCjS2uQTHjFgzY5Ts/aCaay1h3Eer+IjNni2jmEjaXB2PY2pXor0xJ247jYDef8CkrvAojaysHQwNThwKxky8dLWW78IwvQl4uHigGJw+uKjcM7exNra2Mc+Jw+bjFSfdiK/Qx2LwbNKUkUnHmW52fBZvzbgAAAA==");
 
 export default PeopleDressSimple;

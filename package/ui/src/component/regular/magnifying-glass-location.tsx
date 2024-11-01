@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `magnifying-glass-location` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/magnifying-glass-location?s=regular magnifying-glass-location}
  * @preview ![magnifying-glass-location](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/magnifying-glass-location.svg)
  */
-const MagnifyingGlassLocation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M208 48a160 160 0 1 1 0 320 160 160 0 1 1 0-320zm0 368c48.8 0 93.7-16.8 129.1-44.9L471 505c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9L371.1 337.1C399.2 301.7 416 256.8 416 208C416 93.1 322.9 0 208 0S0 93.1 0 208S93.1 416 208 416zm80-240c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 48.8 46.5 111.6 68.6 138.6c6 7.3 16.8 7.3 22.7 0c22.1-27 68.6-89.8 68.6-138.6zm-112 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const MagnifyingGlassLocation = createIcon("magnifying-glass-location", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfwAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCCQsGAAE2AiQDCAQgBYMtB0AbGQXIjsK2nTOKpJykeBrWxEP9fr+ze+/HvHnnJVxCEo+QSAwhW6NZzJTCUCnh+d/LvZ0biC8QSkDoYK7Ypmh2Uq2qP//XfH7PrwG/HdmhdeiBFLXVKp9PYKCjvXniRKLAZjoB2+40asqaXEpaiiTHZzkejz3UOKUB8JLfXO8A7/FD4x+KWiB1CgBiBACwfxHsi6sXeiF6y9mH+IE3CIh9AHMIBQVTCGzhFpjCYw5UVfBLnBb/AxkEEF1IF05Q0YU78ASgglQrj7KirLQwryhPWHhCoehuB6Jjk3U0NGv2R0JdjiemG9Rotul0Ksz10z+U5vWmlcLoNvxH0JewbwGfQr4Hfg4NnzMkWrHd019SmTVZNxiVXzXbVBdqlCcaF+6WHUXDxIhQl9wYaa5IrPzSeJf2Dh/7jVyA41NXQ0NjuRiJGm4q8EL0cytEBz99yqV9XhG+shLuEFpZ4ex5/q8UBtyPSKSGkWxZuc7Kik55mWyBWAfwNkQ1pALEaWsPJRfx4s6/BYS5AH8nr3/wr6g9Tn6uFUCPBEFpOI2YBO3/5EcAADLKoJlAIN3iEa91wAcCoQ8BUpc+AYpJEghUfeYR6Jhhg0CXPie4RRVEmBBbQRrwCIoVtaCasAs6tjwGXSaCW9k4VeHeesluEnJdxyxMzZkj69YKrz8MLTuxaVu/zA8ZwE6kyZenRKoUmUoEWcQ3LpXLbQS7+iLGgilzjCO23LndHiZVkWKZ8uXxKk7Yfl9f2XiyAXhcEu2CSkoiFT/LTaRVZualm9wvw+S4Ag==");
 
 export default MagnifyingGlassLocation;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bolt-auto` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-auto?s=duotone bolt-auto}
  * @preview ![bolt-auto](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bolt-auto.svg)
  */
-const BoltAuto: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 256c0 3.8 .7 7.6 2 11.2C6.7 279.7 18.7 288 32 288l111.5 0L66.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5C82.8 510 89.4 512 96 512c7.5 0 15.1-2.7 21.1-7.9l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7l-111.5 0L317.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5C301.2 2 294.6 0 288 0c-7.5 0-15.1 2.7-21.1 7.9l-256 224C3.8 238.1 0 247 0 256z" />
-        <path d="M492.6 305.7C487.2 294.8 476.1 288 464 288s-23.2 6.8-28.6 17.7l-80 160c-7.9 15.8-1.5 35 14.3 42.9s35 1.5 42.9-14.3l7.2-14.3 88.4 0 7.2 14.3c7.9 15.8 27.1 22.2 42.9 14.3s22.2-27.1 14.3-42.9l-80-160zM480.2 424l-32.4 0L464 391.6 480.2 424z" />
-    </Icon>
-);
+const BoltAuto = createIcon("bolt-auto", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeAAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBXwsIAAE2AiQDCgQgBYMtB04b/wTIjsO48VqJi5H2iIfndf069yUzQOajHty1gzWTUqXzokfaFe92STI/mE+dep7zUAAfRDLHeUDG8j3PI5Dz0lg+sdaCVKggJaiB9W3DoBVKT0LESCoaqxyvM+TxX3a7GumZ9BMeov8BjJ91dTtJiwxAtAHAnE3rVvjmalxN8VP1AfGT5QiIuaAUyJChhwDTZQI95ErkcsHVVFVcjaoqCSDq6KUZqKOG1dgOyEGSRJ73atavUWuZb2zUin3PDny9y/p4vOMT2dv5qc6doxEdQ+57qtPG9UWj6B5d4+aOzwxoxPp4esATjfs6b4qnuq3IRbDruYFPFvd2WH2Evu+2effXPg7yywMPl+XDq16ybNq0jz54//1jJ2x2wjGUP/jI0Mu6ctMF79tlpfJNvcNts09b/p47R91RNN1VXXFj37nVpyxLz3inFRAIHj35/7ua/m/zRgLXP/v9b/4hqb5Kc9O7aC6BIBteDbc9zaa6keYKAECKi/qm2bETgcwASX3XJk8KEAoESOoKATLdtREgVxgmQE0vEwSoK6yTibyF0MEOAUmTMyAz0SWQ6+B9UDPdt1pdh8gCCw8L/F8Xs1BDC5bKMSNHl1PLYaQRsYKW6bRyWhl80VSGwEkHnXLSeQfsd8R5hZy1wrzghIUevMAHlcYYabTSVOV2uj280QFnnXPEKSdxzjTleXWwi377EFhNAoy9kvUZkSJru/fU8fMjQlkY8UQr7Q31GAEAAAA=");
 
 export default BoltAuto;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-queen` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-queen?s=solid chess-queen}
  * @preview ![chess-queen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chess-queen.svg)
  */
-const ChessQueen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0a56 56 0 1 1 0 112A56 56 0 1 1 256 0zM134.1 143.8c3.3-13 15-23.8 30.2-23.8c12.3 0 22.6 7.2 27.7 17c12 23.2 36.2 39 64 39s52-15.8 64-39c5.1-9.8 15.4-17 27.7-17c15.3 0 27 10.8 30.2 23.8c7 27.8 32.2 48.3 62.1 48.3c10.8 0 21-2.7 29.8-7.4c8.4-4.4 18.9-4.5 27.6 .9c13 8 17.1 25 9.2 38L399.7 400 384 400l-40.4 0-175.1 0L128 400l-15.7 0L5.4 223.6c-7.9-13-3.8-30 9.2-38c8.7-5.3 19.2-5.3 27.6-.9c8.9 4.7 19 7.4 29.8 7.4c29.9 0 55.1-20.5 62.1-48.3zM256 224s0 0 0 0s0 0 0 0s0 0 0 0zM112 432l288 0 41.4 41.4c4.2 4.2 6.6 10 6.6 16c0 12.5-10.1 22.6-22.6 22.6L86.6 512C74.1 512 64 501.9 64 489.4c0-6 2.4-11.8 6.6-16L112 432z" />
-    </Icon>
-);
+const ChessQueen = createIcon("chess-queen", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdwAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBewsGAAE2AiQDCAQgBYMtBzIb/QTIhof/t/uvfW7VB1xNYURH7XggRHDWnf41qfXm/1zP93wN+I2GEo2lAynfKPv5BE4stS0KaAL3zvQE7HZni6wm7HFIC5bkOHd8dpDH29mdykhH0ud4JM8qvtHlTpKqDEA0AmDJrm0bfDAYgxGflV4lPrMOAbEEFAIZPKJXgPkygV65ArlcMBilEv4HFgQQ5fjCCeQox6k4D5CDJM/zunENTTVldflOWlW979GuI52Hhz/WfbTn2Kjtwfdo27MzXp90aNTM0/ZozQMdh9oOkKd1e1TX7oyDgkV6ERx1qGfHbRFxm3vE9rraugVxwOHhtfFY920di4Y+1fjUd0M+P/tzpfd//Puff/7+sZ573SM7Lpt8y/QXX5x+y+TLdmz/t66j8fiHJw6M7Vp7/vMaG/2na7vGHjjx4fHGjrp/t1+3CSOPfFW8+15nV7Uu2WpJa9XZ9wKBYPqauX+e0jD/t8qaBL5+64c/lV9R6YMkPYVKCQTZ+NJ4+xNIBAAgxdWGJggku+VgrrUOChCqESApVy1ApkejALlq4wQo02+GAOWqbZOJvEpodVIHSa3LQGamm0Cu1cugzHwfWeVaI7My3kb4T17KSgmtWFRMmTi5mFtsQ00wHDaO5xXH6uirsTQG1jrbJS52pbOc6TxXCvJyG9yrXGSlBq/wRYUpJpqsMFdxnTwu3+ksl7vCeS5xcZoyT/HeHO1qvXkMGAlTTrUlSUSqOePcs664YoKBAwA=");
 
 export default ChessQueen;

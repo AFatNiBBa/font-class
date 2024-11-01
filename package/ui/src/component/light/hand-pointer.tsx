@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-pointer` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-pointer?s=light hand-pointer}
  * @preview ![hand-pointer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/hand-pointer.svg)
  */
-const HandPointer: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 132.2c0 6.3 3.7 12 9.5 14.6s12.5 1.5 17.2-2.7c5.7-5.1 13.1-8.1 21.3-8.1c16.8 0 30.7 13 31.9 29.5c.5 6.1 4.3 11.4 10 13.7s12.1 1.1 16.7-3c5.7-5.1 13.2-8.2 21.4-8.2c16.8 0 30.7 13 31.9 29.5c.5 6.1 4.3 11.4 10 13.7s12.1 1.1 16.7-3c5.7-5.1 13.2-8.2 21.4-8.2c17.7 0 32 14.3 32 32l0 32 0 16 0 64c0 44.2-35.8 80-80 80l-64 0-16 0-50.3 0c-36.1 0-70.3-16.3-93.1-44.3L37.4 343.1c-8.4-10.3-6.8-25.4 3.5-33.8s25.4-6.8 33.8 3.5l25 30.7c4.3 5.3 11.4 7.3 17.8 5s10.6-8.3 10.6-15.1L128 56zM152 0C121.1 0 96 25.1 96 56l0 232.8c-20-20.5-52.7-22.7-75.3-4.3C-3.3 304-7 339.3 12.5 363.3l75.2 92.5c28.9 35.5 72.2 56.2 118 56.2l50.3 0 16 0 64 0c61.9 0 112-50.1 112-112l0-64 0-16 0-32c0-35.3-28.7-64-64-64c-7.9 0-15.4 1.4-22.4 4c-10.4-21.3-32.3-36-57.6-36c-7.9 0-15.4 1.4-22.4 4c-10.4-21.3-32.3-36-57.6-36c-5.5 0-10.9 .7-16 2l0-106c0-30.9-25.1-56-56-56zm72 320c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96zm64 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96z" />
-    </Icon>
-);
+const HandPointer = createIcon("hand-pointer", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABowAAAJyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDAAsGAAE2AiQDCAQgBYMtBzMbgwXIhocHndr7khyQnXCBVSB2AegAkKZMx9vNxe2I1mj+r/n8quiA7n2jQ8pVU1EFSETyBCa2921RNJ8W2NnAJqazbcYNFRGG0BQiURLR3OL2858gi6djkgrJk8mPuL9+VPxqgFtIZCmAaAfAsj07Nuk5FIcifiw/JX60AQGxHBQCKSCDBVgkFfQJMgUymeBQlCX9BxYEEA2YTjw0QyNexluADCQqWVafW6vVqpWWbHe1kh/99NhXB4gb+jza7/Hq3X0eDa17mAD0mXFvzMrzr5fsjqf6vd5nfBi7Rzrzle6IR/qLx8a8NuqV/k8M2BVvjn61ytLnE98eFhVPTXhrzF3d783Jirb13TPPvsf6PtItHu3zeL+oyo+MeKv9rd+H/3jaj66/vc+2bX1ukT9y82WXt7TccXut6eb4VK133NFaaFcXu09try+/YcGGY3xYDirvc/pLj1T7XH5BL382/qys11uGju5zZP0xjtr/x8gZW//6s7etrl0h7+h4ofZwx4Ut03ThWRqn5ResWdp66FDrCWiSutwPBIIrD0/56fi2Rf83VRNw5Ks//6cby96yJ3qSt9AkAUE6qZzkmOgxSFaKd8bjMiNgokDiaRX8qTWPCRByBEg0yAVIDdIuQCY3UYCKoWYL0CC3QyqyZqHbsQISNReC1BzXgky3j0HFIt/kGnRH6qi6m+m/idlXa2TVpmL6lGnFgmLZ0A3fU8viwmLbP+6yNDAeUKc533kucapTnOkSJV5kU/FS51ptCat8UWG6KaYpLFActx+373aqi1zsTOc7j9ZZqLgfG+cye/x4hBIsO0NJIiGSml+7J38rAA==");
 
 export default HandPointer;

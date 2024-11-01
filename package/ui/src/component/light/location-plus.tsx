@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-plus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-plus?s=light location-plus}
  * @preview ![location-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/location-plus.svg)
  */
-const LocationPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M352 192c0-88.4-71.6-160-160-160S32 103.6 32 192c0 15.6 5.4 37 16.6 63.4c10.9 25.9 26.2 54 43.6 82.1c34.1 55.3 74.4 108.2 99.9 140c25.4-31.8 65.8-84.7 99.9-140c17.3-28.1 32.7-56.3 43.6-82.1C346.6 229 352 207.6 352 192zm32 0c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192zM176 288l0-80-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-80c0-8.8 7.2-16 16-16s16 7.2 16 16l0 80 80 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-80 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16z" />
-    </Icon>
-);
+const LocationPlus = createIcon("location-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABeQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAgsGAAE2AiQDCAQgBYMtBzQbBgXIjtRG+UVWEg//rPV638x8CuPkqwAQKSBQ4bYOENWeSpKp3ap9n7jm+ac95XmRP0qFVfqvQDvOJzCx4vkecGkDm+kEbOauZkI07bskIcnjd4+vC2SxL9orIbmefI2z9UPjH40dJ5GlAKIWAIbMmjbB+4UoRHxdRHxtHAJiKMgFUqRoJkB/qUAzmRyZTFCIYjH8B+YEEKW02gRkKMFSbAJkIJFmWdPmlVVLqmcz87kqy34dGPHuzJ/7vz39cIdniW7zpNOLau9G1VudI14Ojni//aUqJxo8H/ph19db/Dbtp1m/TPlhxvQQVeJKg6sNq0YE8y7XF1WDd6lelRDi9FYqH9d6/F+rr1d+bVExhn3N18NiWHz9dQxrVFp24/rDR717P3p4/XHZ/43yZn/y90pW3btZo8bNe6tW/v1ns5gyY8aUmBIk+uS7RZO1VKhRo+DQyUQTqU9/PRAIpmzYvnFRzf6vyqsm4K83v5KfkeIHcTh5jHIJCNL2xfbmx2GIwwIAkMROlXEYgcRcKX3Xaq4IEKogQKJUFQFSTdUSIFNFOwFKtNBDgFJVTJOKrEKoZ0FjEtVsYVI9HWAy9bzBlOjvs3qpepEiTcWJ+s/LGsnAiH15l46d8775sss08Mhlu19+7LTeGafa0EkrbbLRdisst8b2Dt9qQmuHDUbusBG+KNdFR53l+sqvB4+HZ1phq23W2GSj7NJP/r5obed+cRvyEyrYVVsiIZLqELU7QBUA");
 
 export default LocationPlus;

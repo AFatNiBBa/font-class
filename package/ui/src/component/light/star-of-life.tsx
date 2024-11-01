@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-of-life` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-of-life?s=light star-of-life}
  * @preview ![star-of-life](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/star-of-life.svg)
  */
-const StarOfLife: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 48c0-26.5 21.5-48 48-48l32 0c26.5 0 48 21.5 48 48l0 97.1 84.1-48.6c23-13.3 52.3-5.4 65.6 17.6l16 27.7c13.3 23 5.4 52.3-17.6 65.6L384 256l84.1 48.6c23 13.3 30.8 42.6 17.6 65.6l-16 27.7c-13.3 23-42.6 30.8-65.6 17.6L320 366.9l0 97.1c0 26.5-21.5 48-48 48l-32 0c-26.5 0-48-21.5-48-48l0-97.1-84.1 48.6c-23 13.3-52.3 5.4-65.6-17.6l-16-27.7c-13.3-23-5.4-52.3 17.6-65.6L128 256 43.9 207.4 51.6 194l-7.7 13.4c-23-13.3-30.8-42.6-17.6-65.6l16-27.7c13.3-23 42.6-30.8 65.6-17.6L192 145.1 192 48zm48-16c-8.8 0-16 7.2-16 16l0 124.9c0 5.7-3 11-8 13.9s-11 2.9-16 0L91.9 124.3c-7.7-4.4-17.4-1.8-21.9 5.9L54 157.9c-4.4 7.7-1.8 17.4 5.9 21.9L168 242.1c5 2.9 8 8.1 8 13.9s-3 11-8 13.9L59.9 332.3c-7.7 4.4-10.3 14.2-5.9 21.9l16 27.7c4.4 7.7 14.2 10.3 21.9 5.9L200 325.3c5-2.9 11-2.9 16 0s8 8.1 8 13.9L224 464c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-124.9c0-5.7 3-11 8-13.9s11-2.9 16 0l108.1 62.4c7.7 4.4 17.4 1.8 21.9-5.9l16-27.7c4.4-7.7 1.8-17.4-5.9-21.9L344 269.9c-5-2.9-8-8.1-8-13.9s3-11 8-13.9l108.1-62.4c7.7-4.4 10.3-14.2 5.9-21.9l-16-27.7c-4.4-7.7-14.2-10.3-21.9-5.9L312 186.7c-5 2.9-11 2.9-16 0s-8-8.1-8-13.9L288 48c0-8.8-7.2-16-16-16l-32 0z" />
-    </Icon>
-);
+const StarOfLife = createIcon("star-of-life", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABqQAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDMAsGAAE2AiQDCAQgBYMtBzMbswXIjtMlMuZNHA/P2/V17qsawDVy/4EQiY7MlRxutk4ZTbToZYcrkILt69aEEsSAmv9r6uUiqUC+j3hiA8y0CsrSTN6bwGhUbZE2nU8HdqK4wXmTDzgUh/Qb5PHO6KES6eb8Fufdj8bvmjlJkmcAoi4ARs+ZMd2Hv8QvEd+WXyO+NRUBMQYUAhkytBRgmEygpVyBXC74Jcpl9h9YEEBU5tMSfY5zX8fXdA+QpDyfP7NGpVr5bP1y9QW3m0Rc7xrxGF01MSeeqMesWdzUGzkzZkXFv6lNw//omR28xXglq8fjfM0jZgY2Pe564a243XNidjSJhtHk34oWceITNSti4BUUR/EKz45r2DSuEDJdBaieWUDNBGROXKergEI1/BJxTKB61hDUQrJYjNRzCqi5BKkYqQJ9gqu3e3o//dp+u/pbH5zPvuOHUqH0w3fZMjN6a9ah4YPfsYoxzWaUzChp1mf0Mch/sGGHphbLLM1nwkqaDjrooD21/EvtQ6rt3LFjwwifnf7Hwjc3XDurdcRpwpsLvwPf95p27EBjeEjtXwoL3waB4NNTN28vWcPuV62RwG9v/30/e7Ve+cP4Oz0NVJVAkPUo97AwUS8QGX8Lgil2azdBsEDyvATwO2q6JkCojgBJZdUFyLRQV4Bcdd0FqKS1/gIWbp8hE3k1oaFFFUhq2gYyAxwCuYZeAZUM80WwsoaR3cCy20/2+5h6QhMdP6qo6FUqhhSjeYX8npTo/qHFYnOX3byuKzxqtS0222mVldbZ2eBsNz2yyyYTptjjEahQoZeSwhDF5tJd9Wwc3G6HdcOy7ZBhhiqOd3axe7p1VziZBOhz6pMSkWp+YL6eW1b3vK8B");
 
 export default StarOfLife;

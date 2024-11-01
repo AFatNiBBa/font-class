@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-zipper` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-zipper?s=light face-zipper}
  * @preview ![face-zipper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-zipper.svg)
  */
-const FaceZipper: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256C32 132.3 132.3 32 256 32s224 100.3 224 224c0 10.1-.7 20.1-2 29.9c-1.2 8.8 5 16.8 13.7 18s16.8-5 18-13.7c1.5-11.2 2.3-22.6 2.3-34.1C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512c32.4 0 63.5-6 92.1-17.1c8.2-3.2 12.4-12.4 9.2-20.7s-12.4-12.4-20.7-9.2c-25 9.6-52.1 14.9-80.6 14.9C132.3 480 32 379.7 32 256zm192 80c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32zm48-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32c0-8.8-7.2-16-16-16zM160 336c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32zm40.4-128a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm136 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm34.7 84.7l-22.5 22.5c-9.6 9.6-12.1 24.1-6.3 36.3l29.2 61.8c21.7 45.9 82.3 56.4 118.2 20.5s25.4-96.5-20.5-118.2l-61.8-29.2c-12.2-5.8-26.7-3.2-36.3 6.3zm84.4 51.8c25.9 12.2 31.8 46.4 11.6 66.6s-54.4 14.3-66.6-11.6l-29.2-61.8 22.5-22.5 61.8 29.2zm1 40c4.7-4.7 4.7-12.3 0-17s-12.3-4.7-17 0l-16 16c-4.7 4.7-4.7 12.3 0 17s12.3 4.7 17 0l16-16z" />
-    </Icon>
-);
+const FaceZipper = createIcon("face-zipper", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABsAAAAKwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDFwsGAAE2AiQDCAQgBYMtBzIbmQXIjtEnY0RNPHN5QERETOKh//3SO/NfkEuoiNBVWGDjCByxQrKNEXtiS8J1r+Ry9x37/gO4NFBBqGBXLJpMqnSa/n6e/7RPH/AZfaSIWoFEYkScT2CA0/mAZjuvOJ/pBGy7s6VIJClptDSS5LjmuOyhxEfUAjp5i3IJXAhPGr9IqSaVCkB0AwBYd8TLBXY/8CNwuL5EDHMCAmI9ACZBVKgwDoKVqALj0EwCiiKo4f+//g8kIIBoFD86QUEbHuMdoIDUUsoy3o72lpZ+Qd62ho5ymKeh9cioIcZLJ4yfW462nc2bY5eLtok1SfTi8/r93deHH3dert09+LRub9fVoSbLTvEO0UXu4+3n8+c5Ph3ibaKA18Q6JXAJSsGMetstR3pUxiS7lSdlfBJXD+OjpqnWJqWPL4yXNGflBywc8aGoz7gUxi3RNpUJaQOcgdvkbhxRFK+KtUtIcGYEZz7Zl7GXFL7y34EfWgDjax9yWvt3/AIT+Ec6rQWFwHa0VHOFHdipuCQlCV4dRWv0bx9bBz8c1Vys2nHjr9X4CWTzH2lYPSbAlqmWiXl4iHm8ToJrEcfbJ1za1+kXwtONz/q8PNmvYPrf21DdEGDqv7/5hi2vEOuFFR9Xl/cv73xu7T+AQDD1QaBBmMDKb1ZbgpH1r2/lV1TfTVo+BZolCKqZ/1qCE/WfLAIAkHEWOAmBdFsLONV21wUIrQiQGrUKUBlLEIKi1QwIGkxgDEGjVgdQRWkR+oUokNqdAJXFSkDRbwE0WOkk3ag/KpnlJI77MibbUshmE9HX0SMWZNiCvBgybtWSLNtquWZEHXZCrDSpssWIliCbkJlccjlS2M4IG19E6NOhh7BAtrv3si9JZ8qSwIv761gi51NqcufT1cGjiJTzVaQksu1FlGsXJqSnx2QCAAA=");
 
 export default FaceZipper;

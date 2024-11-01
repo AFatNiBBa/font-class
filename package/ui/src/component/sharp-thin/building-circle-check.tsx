@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-circle-check` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-circle-check?s=sharp-thin building-circle-check}
  * @preview ![building-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/building-circle-check.svg)
  */
-const BuildingCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 16l352 0 0 231.2c5-5.3 10.4-10.3 16-15L384 16l0-16L368 0 16 0 0 0 0 16 0 496l0 16 16 0 128 0 16 0 64 0 16 0 128 0 16 0 0-8.2c-5.6-4.7-11-9.7-16-15l0 7.2-128 0 0-112 0-16-16 0-64 0-16 0 0 16 0 112L16 496 16 16zM160 496l0-112 64 0 0 112-64 0zM80 232l-8 0 0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0zm8 64l0-48 48 0 0 48-48 0zm144-64l0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0-8 0zm16 16l48 0 0 48-48 0 0-48zM80 104l-8 0 0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0zm8 64l0-48 48 0 0 48-48 0zm144-64l0 8 0 64 0 8 8 0 64 0 8 0 0-8 0-64 0-8-8 0-64 0-8 0zm16 16l48 0 0 48-48 0 0-48zM496 240a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 272a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm75.3-184L560 316.7l-5.7 5.7L480 396.7l-42.3-42.3-5.7-5.7L420.7 360l5.7 5.7 48 48 5.7 5.7 5.7-5.7 80-80 5.7-5.7z" />
-    </Icon>
-);
+const BuildingCircleCheck = createIcon("building-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABwAAAAKaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiENgsGAAE2AiQDCAQgBYMtBzwbQgbIhof/t6v/fW7VqGr6kTXzDHwpgiJnUAyws8+VA4rgnv6Yr4vzaJDH28BnQ6lqkIiwCrABRnsU7nw0G86+KP7RbT8q6eqhISExTpDHP45rIt2V3sVt6EvjR/3dQJJlAKIbAJbs2rZB/bP4LOKdxrPEO9YhIJaASiBDhkECzJcJDJKrkMsFn0Wj0f0PrAggmh0vTCBHV/xB5IAcJLU8H9fWs6177R84sH/ZpPB3zs8W+2rtNXFH34iIol2kEGUt4vY+oggDpGAyZbZHz5yIe4uygDKXZbilm82zu4TOtbwsyjzN35mwcMdNYyIeHPOga0Y/cBKLG8c+RIxrxz1sL9NN8/TkL096PK6d+Njcl+6a/cL4R1wz4dE5L5a7+vTu0yu2x8LoE72idyxYkX1j1+LOh7o99HPHuyff1fXxw8f6b11x+Xu66XZhN5+h6FaXX9HiGhcKjs3dXNjZP7vt0wtrisUutHhTSyu9Blq1rlZcPRkKtPLbFumpaO3A/belHPzjimF16oNrnZ21wfX6MCGtO9RtVCJN6Rg5smNKSqNgGtSvff6h423brVnrbts9ZIWG7bbbtMkOIBDc98GtAw51nf9ba5nAFy/9+iO6X6OerkkPoVUCQTa+Md7+dA10pAGEUlyu0/FDgeRXNfWntrtdgFAgQNKsECAzUDcBcoVxAjQZYoYAzQrbZCJvE3o5wEDS7iKQmelKkOvladBkvjeCzXpF9gywr2D2F2iClSJ8xbxqysTJ1dzKmkY4lzVzbp9XBStGX96XjYFHnXSB813qhOPOuFTAXWxD5DLnWelCrPCHKlNMNFllrio5tyrYWesvdonINEulDzNPVd4y2uXu2mOgOjloTpWUJCL1fkkkE34XEk14oQA=");
 
 export default BuildingCircleCheck;

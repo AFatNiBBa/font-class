@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paintbrush` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paintbrush?s=solid paintbrush}
  * @preview ![paintbrush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/paintbrush.svg)
  */
-const Paintbrush: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M339.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L568.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S517.7-4.4 499.1 9.6L262.4 187.2c-24 18-38.2 46.1-38.4 76.1L339.3 367.1zm-19.6 25.4l-116-104.4C143.9 290.3 96 339.6 96 400c0 3.9 .2 7.8 .6 11.6C98.4 429.1 86.4 448 68.8 448L64 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z" />
-    </Icon>
-);
+const Paintbrush = createIcon("paintbrush", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABYQAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBMgsGAAE2AiQDCAQgBYMtBzEbswTIngNuywznobdoIYSQV67vehpa8fCwP95z78O3JycmSCEub3GZbUtCZlVc3UKDIpXexbjaPSqknUtWvmuXIL+RPr+nQ2hsX9kPZrXMmgWY3d/8n0sXz0cD/EZDi8LSgZTPsp832IkVtzanHdhE8dRtrvhwlDeRcwSPiKHIQzW4hTK+i1Mq8ko+x/n6o/HRmEVSWwEA0QsArD8aDMDLW3wb8dlEPLMTCIj1ADMgChSYhGAVpsAklhlAqRS8jabJ/4EzQABRgzxnghIlVgFbAChBypKlmCWsxKxIRyUoPjRG8dL45vDqvNXBED6aDKsi4ciFamdydmhlcHlQEEuDy9Ta0YHXi/enzwWfY9ad3r3PM3cH9m0t3P7vZi/dv/DtQyd2dZ84ph6opY1fX/7FNVs0fvKl0n3uXDc98oJvXycZDAQQCB68e/qfZdXv1g4GwPsnX/+102Y05oa8g1YJgmJJg1Suc6CnENEyhikxM0RajgH41k4XBQjtCJBq7QIUJsggKLVbDEFlGjsEtXYHMUXJhzAorSB1Og4KK02B0qBzUFnlVasNRhFB9P3T77cEv0V9i8hsMJGHpo7OBAXJTS8ti6phSqixFiq6OgaVldQNGrxfwBzS5vcwnxkRMwMT4kHb/uPyiLJ+A+q6OqWNF51XVYb9fDUUBiFcypaSSMH/uFqhf2igBgA=");
 
 export default Paintbrush;

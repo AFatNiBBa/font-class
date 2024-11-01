@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice?s=duotone dice}
  * @preview ![dice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/dice.svg)
  */
-const Dice: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M13.3 224c0 18.4 7 36.9 21.1 50.9L173.1 413.7c28.1 28.1 73.7 28.1 101.8 0L413.7 274.9c28.1-28.1 28.1-73.7 0-101.8L274.9 34.3C260.9 20.3 242.4 13.3 224 13.3s-36.9 7-50.9 21.1L34.3 173.1C20.3 187.1 13.3 205.6 13.3 224zM120 224a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM248 96a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm0 128a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm0 128a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM376 224a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M224 120a24 24 0 1 1 0-48 24 24 0 1 1 0 48zM96 200a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm128 0a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 176a24 24 0 1 1 0-48 24 24 0 1 1 0 48zM352 200a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM320 448l0-34.2L436.3 297.5c28.6-28.6 37-69.6 25.4-105.5L576 192c35.3 0 64 28.7 64 64l0 192c0 35.3-28.7 64-64 64l-192 0c-35.3 0-64-28.7-64-64zm160-72a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Dice = createIcon("dice", true, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABtgAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDDgsIAAE2AiQDCgQgBYMtB0QbpAXILgbsxuUiSCshxriaC+sZDGM8Rf62VvHw/LH33Pfe/6u0tqakSq4QadFZ2donPvDS6cb//sfmHWL6H8ktS1JtYhOxxEoYbWZtiTYtgdIWMejmpWPZ3OABhj/AEo4D+krH0swDCmpyh2mgkTcPKCDNkicPsAqZ/59r6l3j0QF+PoJD69pao8Azn09goDtaYVOZbqa2wXkjDjA0hvIzlDSUL1RI9+kPXLv/AYxfjgskDRlAtAMAS/uFFExnMUv4UXuJDx0QEMsADEJkZPRCMIsq0ItmECiK4Isyf/jC+cdAAFEVfCyDKtrwAO8ABSR1qqU0BPneBjWqNFVayp5Iajze3aXaHJETIDQcpXAwTPE3E0TsS0/P4ir4OnI5wLvhM5fxbfR2+bU3l6s9FfykoXg1XY6tOhCnowzvxvEwwVPTAcJpDi9odB4+mN6Z90+9fMmSy3Nx6jhTOifYfRmnnjPG/wh2rq9D6aSxtwYTtzhTcopMhNq9Omkr8D77cjza6dMXM2StvWWNUCknPz4u3RPSZfx5AAgEf3Zuo/03JYGfj6seb6lNOkl3qJdAkMdr4zTToAXGDaCa4gqmsR/axBfItjAFJ5vdECA0ooakqhGyHiIoGo1BRb+AsPLENqooDUK3FghJs1PIZhxC0e0dKmZ91qq6g3rBSpeb9LuYnmjj8U3E43STKJlsKeVrUNCrMbLaN2/xEQvcC13LlmzoaBvYaLFrUs1NixJzTNwXER5ObkQU2d29r5dxbc26wbhj/zox5Pyi2db8dAuMKALeCQlZJlLk5k+S7bjuTUFDvb0B");
 
 export default Dice;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `video-plus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-plus?s=regular video-plus}
  * @preview ![video-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/video-plus.svg)
  */
-const VideoPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 112c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16L64 400c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l256 0zM64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-33 0-190 0-33c0-35.3-28.7-64-64-64L64 64zm464 84.6l0 214.7L416 313l0 52.6 104.3 46.9c5.1 2.3 10.6 3.5 16.2 3.5c21.8 0 39.5-17.7 39.5-39.5l0-241c0-21.8-17.7-39.5-39.5-39.5c-5.6 0-11.1 1.2-16.2 3.5L416 146.4l0 52.6 112-50.4zM216 184c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 48-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l48 0 0 48c0 13.3 10.7 24 24 24s24-10.7 24-24l0-48 48 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-48z" />
-    </Icon>
-);
+const VideoPlus = createIcon("video-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgAAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCIwsGAAE2AiQDCAQgBYMtBzEbJAXIhof/t6v/fW5V93pTPY+umWcjgyJ8MZJCOQMzMZXSHjk13nipgM9KUJR37DzgB/Q/YQU7/1bwZTacDWhiPHVOajIxOmIqxglnL2dcuFW4nyGPb+JOFdJD6WPcMd40ftHVdZJKBiDaAGDWhjXLvPtj/BjxUf0l4iNLEBCzQCmQIUMPAabKBHrIlcjlgh+jXsd/YEkAUcXnTCBHFWdwEZCDJM/zNr16lrVKy3x9rVIcuK9jins7NMb9nbJ4oHPL9U8MjHimS4qHBj3br2U8PeT57sEjHx78XP/GXcL6EOvivtrNzg9ExJVO9xc3OqwNsWHnw/2f6CKKCMxD/WohME93j6gFuby0iGh+rs1zvzV9vP9jM1b82IpWP+K79RGPtKVtQdG27SMICa/J25rc/mzt5zzqxCjjHBjudEOb519v85e2rz/fpuHMgWHGOTFqQnPHVas6jjRSkJNGrv4MBIJH6jPW7Wg99b8WtQR+fv2P/+3BNDM9hxYSCLKh9aG2ppkAfABuivOakw8KJEfk+KqN7hcgFAiQVBUCZLprI0CuMESAil7GCVBVWCMTeYPQwbYLThqdgjPjXYBzHbwAV0z1nlPVIbLKY+uG/fFLmq/AvK1y1PCR5eTyMTW5YqL7ekr5Whl4vrUG2Un7nXDcWfvsdchZgU5b5p9zzPwMnOeLSqMMN1JpsnK7+C6tFzKkM06vuX3FFBR/7xnovHx4kOkJCUcLJIlIxWGUh51cAAAA");
 
 export default VideoPlus;

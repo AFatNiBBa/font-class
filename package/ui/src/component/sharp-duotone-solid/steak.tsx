@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `steak` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/steak?s=sharp-duotone-solid steak}
  * @preview ![steak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/steak.svg)
  */
-const Steak: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 360L0 512l240 0c81.7 0 162.1-30.8 222.6-75.8C520.9 392.8 576 323.9 576 240c0-60.4-23.6-117.6-57.5-160C485.7 39 433 0 368 0c-38.3 0-72.3 12.4-99.2 37.4c-23.5 21.9-36.3 48.9-44.1 66.5c-4.4 10.1-8 18.9-11.2 26.6c-10.4 25.1-16.2 39.1-30 52.9c-23.1 23.1-50.4 36.9-77.7 50.7c-21.8 11-43.6 22.1-63.3 37.8C17.8 291.7 0 321.4 0 360zm64 0c0-17.9 6.4-31.2 18.2-41.3c10.2-8.6 24.2-14.5 37.7-20.3l1.8-.8c28.4-12 65.6-27.7 107-69c23.6-23.6 35-51.4 46.4-79.3c2.7-6.6 5.4-13.3 8.3-19.8c7.1-16.3 15.7-32.9 29-45.3c14-13 32-20.3 55.6-20.3c38.6 0 74.7 23.8 100.5 56c26 32.5 43.5 75.9 43.5 120c0 55.2-37.2 107.4-87.6 144.8C373.6 422.6 306.3 448 240 448L64 448l0-88z" />
-        <path d="M312.4 84.3c14-13 32-20.3 55.6-20.3c38.6 0 74.7 23.8 100.5 56c26 32.5 43.5 75.9 43.5 120c0 55.2-37.2 107.4-87.6 144.8C373.6 422.6 306.3 448 240 448L64 448l0-88c0-17.9 6.4-31.2 18.2-41.3c10.2-8.6 24.2-14.5 37.7-20.3l1.8-.8s0 0 0 0c28.4-12 65.6-27.7 107-69c23.6-23.6 35-51.4 46.4-79.3c2.7-6.6 5.4-13.3 8.3-19.8c7.1-16.3 15.7-32.9 29-45.3zM384 256a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Steak = createIcon("steak", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABrgAAAJ8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDBgsIAAE2AiQDCgQgBYMtB0YbngXIjtRO9ZWwgng+7/05N+kroFTEh7kD4DWo0v4/uTT+tukBj999Ttrx36D/XTtegcYb37aptaZW8dbUOjhvOKypKsSfgC5/tLGYgVqkrgIzkv8BlNd4MhYUlhoAAOIAAAAUNGtUw8kH8kDJ1f97Qa5SDQiAFAJgIIAGaIAPAkA2GgL4oGMAOjoCD9T/8ED+N0AAQEwkqIZhQk9YD2wFAHQAFAql6wnOsdHWZrZ6U3uzVbct1lNC1kVs8lzE0uit6Qe9PVZWIjIqbEHYKHdrGQXeuiFsQ9QO/wWywH1JVJMp7iILZJTbfKvJLnMZ6TrPWhCs5ULVlbwTRWeCRvktj9ycebh0cvZGj4Uuc4E7SlJ7YzCu9oYfNKzJNkm2F+EjAjc7bH4bcLXrVdJ6FQX5rlieHn78eIDl4MG9W3/4kLiT5nj5/S4DBQCUbz/+9gskPWxRUNkWu4kw0a6uOR7NF3qv/MDNMXNvnRTxi/3xY8aMrs3IHOswa1VNqwxR0KFVr0Vdt90/b/esT0Q+4SbR9kI8DgACCIx8NLe2nX32VwtrBcCjw+9ftffz/6TKV5sBCxQAAlr0/2haq3wAhykAkCgZSuDeD+UDAmi0RJEVNsxHiMZWMILChBVoeOMAOlZEgRl+pBw3YUUjNES3RHChDQCFDQNAI5VhoOPCHjAjmwupCRfRNCuv1fhfxZTSOVKyykiIjTcyjcNaL+g/NlzMMm474UPdgQi4la70oy+D6UJnejB4Rg+kphhCH0rPqBK+iEECscRjkInxuv1aaTpLBzKIHvvS+2WyMMjH4Qw9Hx8B16MAgERpPqKBKNFsBw3u0qFXjJnX7WeS2QYAAA==");
 
 export default Steak;

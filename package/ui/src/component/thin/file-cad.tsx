@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-cad` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-cad?s=thin file-cad}
  * @preview ![file-cad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/file-cad.svg)
  */
-const FileCad: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 496l48 0 0 16-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L204.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 145.9c9 9 14.1 21.2 14.1 33.9L384 304l-16 0 0-124.1c0-1.3-.1-2.6-.2-3.9L248 176c-22.1 0-40-17.9-40-40l0-119.8c-1.3-.2-2.6-.2-3.9-.2L64 16C37.5 16 16 37.5 16 64l0 384c0 26.5 21.5 48 48 48zM361.1 160c-.8-1-1.6-1.9-2.4-2.7L226.7 25.4c-.9-.9-1.8-1.7-2.7-2.4L224 136c0 13.3 10.7 24 24 24l113.1 0zM200 368l16 0c17.7 0 32 14.3 32 32l0 8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-8c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16l0 80c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-8c0-4.4 3.6-8 8-8s8 3.6 8 8l0 8c0 17.7-14.3 32-32 32l-16 0c-17.7 0-32-14.3-32-32l0-80c0-17.7 14.3-32 32-32zm128 0l16 0c17.7 0 32 14.3 32 32l0 40 0 64c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56-48 0 0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-64 0-40c0-17.7 14.3-32 32-32zm32 64l0-32c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16l0 32 48 0zm64-56c0-4.4 3.6-8 8-8l32 0c22.1 0 40 17.9 40 40l0 64c0 22.1-17.9 40-40 40l-32 0c-4.4 0-8-3.6-8-8l0-128zm16 120l24 0c13.3 0 24-10.7 24-24l0-64c0-13.3-10.7-24-24-24l-24 0 0 112z" />
-    </Icon>
-);
+const FileCad = createIcon("file-cad", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABsgAAALQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDZQsGAAE2AiQDCAQgBYMtBy8b5AXIngVO2Xq4cF4MCdfw8QCbVfLvCP4pXfr+ro5WBp3tACvEcpg6A1YBYOrCXcpwm0kddwdPv/MHveCq7qysopFPZAQDwAFOdDI5Hngu9+9aa5qFsIkT6vlCzCmXYRpY5G0nCfmCJ/4f9+78n3/6gM/oo+xpY+HfNIrmPE8gkXUeeBfmBZRpApZtOe6fdIjAJUTiiU9EhIblG6buwNMLE8XAHAs/A3v0TfWXwUYYrAUAQAEAADD4VFHE21/Br6DPvtBnTiAADQEgRIAFLNAQAdAPi4CGeISAh4fglzJ/+g8cQgCgOPKaBgAPSAFfgW8AgAeAIeF5fXKPnV1Q/Fi2Vy0xVyTOR06X19frW53Y3Gjta0etSocgJ2ndVnfaXj8staelnS5WD9Y1OlY71HLK4Xq1DtfRsZlfKc7fUTsEOlg9XFs6XHc6WEWHar6ONESENdDa6kFXU61rHPH9BMe6M8YNCwM1hl9Bjq8oA/L42Cpx/pWOdHzuRLPrwfV/65k3Px6jgIizpbRby6Xt7E4Kvrd8L7gJWMkYWCp947ktxZidom8XWct+eY9HCdpwJmCeWmXzzv5Ug5ytj5okPvaKJ8n5pfzKKVV+QrpycCKl6tqE24ZBLetFRC9zB9EGRmYoTD4Kif6zPF9yYxDp5zcsZGx8bWFJlweW1TK1yupiLgAECJrfeRzHtH5fMmMA+PP8f/0ZybyCmvAJkhgABLaDb40MAZKqEQAAAABGi2lmAAQYPpOAn8XhbCEcXGCI48DSgAA8HO0hRmO6U8HzFSzyUogCRgEMWcwDSw9WgUcBDyBGP96lcQpklzazMJk/y8QRIzL8VKhOUdgnfBwwdrVS+2HfMGxyMS+0xQ0mm2O2hSaZaJqSAzZfUbHILCM8dLgvCimkExEhfQjT4+9idU/nW2DanM8f05ew3m/DYn99WzgGwe1Cn8GATPIzSjpm3EQAAA==");
 
 export default FileCad;

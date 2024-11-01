@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-clock` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-clock?s=duotone trash-can-clock}
  * @preview ![trash-can-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/trash-can-clock.svg)
  */
-const TrashCanClock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 96l384 0 0 96.7c-29.3 2.6-56.6 12.5-80 27.7l0-44.5c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 71.2c-29.8 31.5-48 74-48 120.8c0 59.5 29.6 112.1 74.8 144L96 512c-35.3 0-64-28.7-64-64L32 96zm80 80l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224c0-8.8-7.2-16-16-16s-16 7.2-16 16zm96 0l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224c0-8.8-7.2-16-16-16s-16 7.2-16 16z" />
-        <path d="M135.2 17.7C140.6 6.8 151.7 0 163.8 0L284.2 0c12.1 0 23.2 6.8 28.6 17.7L320 32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64S14.3 32 32 32l96 0 7.2-14.3zM288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-80c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0-48c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const TrashCanClock = createIcon("trash-can-clock", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABowAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCXgsIAAE2AiQDCgQgBYMtB1obigXIjsQ4JvKLKGy0ePjSlb2v1kytpV0ZqU1AB8ScAQeh6lLXhZcZOuR9/t/UqZzLeWiBPIcgKGPsbp3gc55XoIDR2lxCFSqoVVg7OG/EAYbEkH6AMnal23Qoni7+wIPufwBjp5Fuo9AvAYgBANhw5KH7+6mNtog/9n5G/GE/BMRGkAUSEsYIsFoSGKOUUSoFbbF32th7JoDoCn5JAl304EE8DShBIUllmUcPHts0daevPKLuVMc+O62O10cOjTruHfq4m4Y8VvXGPcOeiJuHP1nXMfzom+dFfLjq2/reFV/Ped9Ns99b/lV1z8pv5n4QRz42RDw+tI4nhz8xrIqIJ4Yd29fbJz5bXrMz8U+H3bQhdUUVb8x8Z1Q6XFhKM35iuG7dMPGdAe/8xx9n/OGO92+af5X5N53vJM1ddzWxdVO5yUnOf+r4aZk8eNDUqYMG5zwNNbDUBw9sm/Wadr62SYlsvpLxJ94UlE/26dLZeLO22eaf2DZn8ZJpO700cGB10oEHtoHacFU6fBJ+HwgEbyw8+rgT+6/+v6cuwL/fmL3e3p+K9cU76FGAIM3eO9txxXpA5AAqRVxh4ox0AaADOgo+tdcTAoQKAQpdlQDJaAMEKFVmCdAxzhIBuiqHSqLsJwxxfA0KvS4GyVLXg9IQn4KO1X6udA2JdGPytxX/W5iytQ1vWZUXzJ2fV+bJhlK411i9uCqvdqZfwQdmwLXOcKELXOZ0pznbZS30EvvXL3e+rXPIFl+ULTDXfNlKeXf7vnIErlziUmePS/uXWSWfn5/uivnxM6BfCCgX2itJRBFp+GWXnHzpWXNOPfmCOZ+yMechHzlyTHqiAQAAAA==");
 
 export default TrashCanClock;

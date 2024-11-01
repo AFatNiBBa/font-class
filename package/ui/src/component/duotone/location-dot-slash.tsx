@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-dot-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-dot-slash?s=duotone location-dot-slash}
  * @preview ![location-dot-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/location-dot-slash.svg)
  */
-const LocationDotSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M128.1 196.9c4.2 88.2 117.8 239.3 168.2 302.2c6.1 7.7 14.9 11.5 23.7 11.5s17.6-3.8 23.7-11.5c16.2-20.2 39-49.6 62.5-83.1L128.1 196.9zM154 95.4c30.1 23.6 60.2 47.2 90.2 70.7C255 134.7 284.9 112 320 112c44.2 0 80 35.8 80 80c0 28.3-14.7 53.1-36.8 67.4c31.9 25 63.9 50.1 95.8 75.1c30-51.6 53-103.7 53-142.5C512 86 426 0 320 0C249.2 0 187.3 38.3 154 95.4z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const LocationDotSlash = createIcon("location-dot-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABegAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBTwsIAAE2AiQDCgQgBYMtB2AbAQXIHomxrYh95YwI/eLheb3oz33JzALKAsSHXMqqWNn5Dx5Qufnzfy5dWNMAv9HQorB0IAWeyXsTmEidNzbY4dnZmeJZOzs/KOqzSh98kmFzw2YPeWqfnapEuiq9hgv0fwDja42cSlIpAxA1ATBy/uypnvo0Tr32/33Ea6YgIEaBQiBDhqYCDJEJNJUrkMsFnyb4NCgIIMoUy3x6GSVMwBxADpKQ8rxa7ZZVStXyeVVKlRdf0XZnXNbw0na74vIm86/rGXH3yIinu15W5ZwGt45eNf9ERDw+9Jr2N1a5v+PNza4dcHPHmzve2eKG+GDWO/OeG/BQl1a31Lzl25avrXtN/sD3nae/6b970tUc/2vIx3w1h7UXXlO9+jXnj673SaO1gWeeOWPYsCY1186LJu124dXrv/yiecycO3dmzLjp5quBQPDCJYe+WV5jyK8VqyTw+SPf/ywX+r90RroFFSUQZF3+72JJOuFAB4Rgp9inFb7LCYFMbwnetarLBQiVESApqyxApomaAuQq6yxASXN9BSirbLZM5JWEupY2kFS1E2T6OQpydd0LSoZ40S6rGxmhBDoI/7nUcRYdO1X07NajGFQsfVXkCJf7g4ttrcO+mOuIndbZbps91lpjoz2G2WWqt9dW4zx6rB8q9NRND4VBiuPoXp0n9i67bZzL52MGK+5bHezzqzvCTAprLwuZjEiRNabiXNc12/d03b1l5e4NXelZ1XQsv0YAAAA=");
 
 export default LocationDotSlash;

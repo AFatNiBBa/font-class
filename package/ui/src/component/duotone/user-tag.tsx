@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tag` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tag?s=duotone user-tag}
  * @preview ![user-tag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-tag.svg)
  */
-const UserTag: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 482.3C0 383.8 79.8 304 178.3 304l91.4 0c17.5 0 34.3 2.5 50.3 7.2l0 33c0 21.1 8.4 41.2 23.3 56.1l99.2 99.2c-5.4 7.5-14.2 12.5-24.2 12.5L29.7 512C13.3 512 0 498.7 0 482.3zM352 128A128 128 0 1 1 96 128a128 128 0 1 1 256 0z" />
-        <path d="M352 256c0-17.7 14.3-32 32-32l82.7 0c17 0 33.3 6.7 45.3 18.7L619.3 350.1c18.7 18.7 18.7 49.1 0 67.9l-73.4 73.4c-18.7 18.7-49.1 18.7-67.9 0L370.7 384c-12-12-18.7-28.3-18.7-45.3l0-82.7zm80 72a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const UserTag = createIcon("user-tag", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABgAAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAwsIAAE2AiQDCgQgBYMtB0wbIQXIjsQ4RvELE0rEw/N2fZ37qroHUP0eSFo4ksLN1hmZMRXiTtr3//m/3POzTQvkGx3aWAvkrsXRnM8TCDgqzzvQllCmGVhvGzpsBGKnaFiURTRejtcN8tQ9u6JEejJ9gvv8P4DxqzaukNTJAERjAExcvniu936Kn1J8UkV8Yg4CYhIoBDJkaC/AGJlAe7kCuVzwU6rOT1G9IIAoYzhjlvHxNmIfIAdJkvK8fZ027eqVGuTL6pXqbr7YKuLxevXids+l8agLzZfEI3VvtVwWr0YsfandU92eb/1kV98vjvh6+UJPV3Gh51JKmtcPuPBYbL/QI+LlHi/XvdXr1cTExd6vMfVu93ylAZVXG7/6e80n2z6x/t2GN7jRcLG2lV27/NCs2Q8zZvg9q7+r/krbxfOnL2zRYiE3qxKzmlIzK9Zoe6xGzbbNm93664oGJ643WL+xc33qf/lFpfLFl/Xrd4YBuh8IBNt+fdr6RmP+r10vgV/e6N/yQ1J9L51Mr6K2BIKsT7WPNekCaqWTAgCQ4phKuhAbEMgMkcin1veYAKEuAiRldQXItNNYgFxdvQUo6WioAGV1LZaJvI7Q3FoESX0HQWaYsyDX3OugZIz3q7Lmkbma4CjCTy91moamnioG9htQjCqmA1X0Hi4eji623R7HwkJPuGqb/fY5YqstdjqiyEPmto/aa5pFTPVFhYH6GaAwSnE8vleXqeqQw3aO5fNjRivulz0cs9f3hCAR1kHOZDIiRdb4gbb7Htm4va/P2k0b+XUCAAAA");
 
 export default UserTag;

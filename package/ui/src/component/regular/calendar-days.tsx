@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-days` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-days?s=regular calendar-days}
  * @preview ![calendar-days](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/calendar-days.svg)
  */
-const CalendarDays: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L64 64C28.7 64 0 92.7 0 128l0 16 0 48L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-48 0-16c0-35.3-28.7-64-64-64l-40 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L152 64l0-40zM48 192l80 0 0 56-80 0 0-56zm0 104l80 0 0 64-80 0 0-64zm128 0l96 0 0 64-96 0 0-64zm144 0l80 0 0 64-80 0 0-64zm80-48l-80 0 0-56 80 0 0 56zm0 160l0 40c0 8.8-7.2 16-16 16l-64 0 0-56 80 0zm-128 0l0 56-96 0 0-56 96 0zm-144 0l0 56-64 0c-8.8 0-16-7.2-16-16l0-40 80 0zM272 248l-96 0 0-56 96 0 0 56z" />
-    </Icon>
-);
+const CalendarDays = createIcon("calendar-days", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABiAAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCYQsGAAE2AiQDCAQgBYMtBzQbZQXIjtRG+UVWEsH3a/3b5848mv0M85nRESqmAMm4qHVBI7ZiU5GJ3ap9n7imfuQqAD9wwNOhRKZGaUSdJ+BE56PXFdBsYDOdgO1tWklFBeFZlARzIju+PL5dIY+38UgD6XX6Cw/7h8Y/urtN0pABiHYAmLdlwyrVWtQi/qwj/rQCATEPlAIZMvQSYKZMoJdciVwuqEW9nv4DSwKIRshLuOdohcd4BchBUuT5xBZnr8RsQ+t8c+Fc7Hgz+Otuooivh37fTYgUr4f9MKh1fDfip55ZIOvN8B8HF2EWFWJjpagMjPpKfEtR2SVBzrNORaTTQgi+F12yRXKL/j+2+/Hffn8d/svL7zqvW9d5qKE+tW9ftDMWRfv2n+ZSENxOzxpFVY8MPfLdWmRPtdbUo2vZc6019/pe7QD2uh8d4TVjXng/DQXVNrW5plp7faptL5B7H9XOVWsz1NqHH3Xg1FdMBQLB2tWrFu9pO/O/5koCf//yf/VXVK9GNf2IZgkE2cj6SDujClEVAIAUl/WPKgLJAwV411ZeCBAKBEgaFQJkemonQK4wQoAGfUwSoFFhg0zkLUInuxaVtHKOykx2hcp18jPVYKZf8406RWaYRrMy/hdmW0zhRefKcaPHltPLx65psjV9255Rin1DL+epYf6iw8447aJDDjrmIlGet6p0ySmLOfEiX1QaZ7SxStOV6sGnbTOwzrvgmPBp+l1mKL9PDXWZXzzMBxPUOF5bkojU+t7aR91gAA==");
 
 export default CalendarDays;

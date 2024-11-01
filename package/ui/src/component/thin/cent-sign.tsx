@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cent-sign` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cent-sign?s=thin cent-sign}
  * @preview ![cent-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cent-sign.svg)
  */
-const CentSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M224 0c4.4 0 8 3.6 8 8l0 56c43.7 .4 84.1 14.6 116.7 38.3c3.6 2.6 4.4 7.6 1.8 11.2s-7.6 4.4-11.2 1.8C308.9 93.1 271 80 230 80C129.2 80 48 159 48 256s81.2 176 182 176c41.1 0 78.9-13.1 109.3-35.3c3.6-2.6 8.6-1.8 11.2 1.8s1.8 8.6-1.8 11.2c-32.6 23.7-73 37.9-116.7 38.3l0 56c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-56.5C113.4 440.6 32 357.7 32 256S113.4 71.4 216 64.5L216 8c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const CentSign = createIcon("cent-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABXwAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBLwsGAAE2AiQDCAQgBYMtBzAbrwTIjtRG94xd4uFhznw/SXswpgyAwRMLdXZu7BAlWVTTzZBa/elv/nnnUYAPRBrLOg9kTKA5zxPofFOX5+Xx/P/jty+K37xln6KU/ZLM6EzyT6bHpwWyOGqdAsnN5BXO1w+NX5o4RyJNAURtAIxeOHe6J9/je8SrUsQrUxEQY0AukCJFcwGGSQWay+TIZILvUSqF/8CcAKKIt0xAhhSDMRGQgURkWe9qhRrZgvQSlUuvNhCfp1+tf6XhowmfZr2b93n2+/lPR15vcLX+q3niSv1rDSO+zPmw4OvcjwsjrjdqU1W76o9XG1759nhVcZAxUW9ch3Fr33+fHq3zmBJT8tbT4/v7tePbj6s3JgYprjKMzyi27xfTY3q/9jMKg/V6IBBcu9Ov+cpaw/6XV0vAz3v/bvvlpSexJqlCuQQEabdSN8vilFzLWCMAAEkc0AZ8USDRW4KPWt01AUIlAiSKKgVINVNbgEylrgIUtNRfgKJKc6UiqxDqWz5AorrdIDXAcZCp7y4oGOapUFQ/Uv/Bbx//vsVMkND4urx3j175kHxq6oRLoLk8NDdznQ7EUGeatcFOO+yz3jqb7RPIHtPl/babgODxfijXWw+95IbIl5319ALr7bHXZjvtKFWGyvfznRzAyZ2pmQTQ5+QNCZFUvCC2u+sB");
 
 export default CentSign;

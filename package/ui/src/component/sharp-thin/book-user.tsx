@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-user` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-user?s=sharp-thin book-user}
  * @preview ![book-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book-user.svg)
  */
-const BookUser: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 56C0 25.1 25.1 0 56 0L440 0l8 0 0 8 0 400 0 8-8 0-24 0 0 80 24 0 8 0 0 16-8 0L56 512c-30.9 0-56-25.1-56-56L0 56zM56 416c-22.1 0-40 17.9-40 40s17.9 40 40 40l344 0 0-80L56 416zm-40 .8C26.2 406.4 40.3 400 56 400l376 0 0-384L56 16C33.9 16 16 33.9 16 56l0 360.8zM240 192a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0-112a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM171.5 256l-21.3 64 179.6 0-21.3-64-136.9 0zM320 240l26.7 80 5.3 16-16.9 0-190.3 0L128 336l5.3-16L160 240l160 0z" />
-    </Icon>
-);
+const BookUser = createIcon("book-user", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABggAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCKAsGAAE2AiQDCAQgBYMtBzAbKAXIhiDSic2eZJLCoCDQAyBV7h6oKBGrb+P5v+bze350gN8uCA6lgqpBrnndzycw0XkDDSgKbDpBm7lra5mH0j6StIQkj989vnaQx6OOUyM9nL7CnflD4y8DXUeSZQCiBwBW7Nu1Rfv7+D7iy877xJc2ISBWgEogQ4YhAiyWCQyRq5DLBd9Hp6P/gRUBRJ09QwI5WjgPVwJykDTyfFiPbl27trqWta753rJWZI/2j3hwXNdSpBBFIcpSFF1e6PfAoOzALX0i7nNV3/vLrhHRZfaRGplIMXvM+6R9Lw5+dNAjY58b8NDAh8fE+xNeHv/S7A8mvjLp1Xm7p8+aXsbMKPbt2bunbxRF/9gX5chXerzyz4ivTvjKTY3/OHjWVc2muzQ1B2w3oNlD86qzDv7XuGveiT1f5ZOePT95ted+2+0/q3PWRa5yEaK09uTvvn/q1w8//PWpgj5r+tThw6dOd1e9eaRVvmebm+/tPmhbKG3T89tt6kU8BQSCIX/fc9yR3Rf/3ywT+PGT//5CZ3fa0U6voCmBIJvcmeywaIMQA/hJKS4wMtoIJKdpkGvt4gEBQoEASV0hQGawHgLkCpMEqBlmjgB1hV0ykbeEPg7vIOnibJCZ63KQ6+NdULPYp3Fdn8jAx0GH+/olr/XQmk3VjKnTq4XVsqXxeGLS6qLqWBt/QRyZwFud4ExnOM/xjnOy8xxyji3Z+U63dgev8UWVGaaarrJQdd19lPdKfI5znTwX79dZpHofjXfBfvoENhMjnakiSURqIVOZglkAAA==");
 
 export default BookUser;

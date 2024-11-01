@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-heart` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-heart?s=regular calendar-heart}
  * @preview ![calendar-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/calendar-heart.svg)
  */
-const CalendarHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 0c13.3 0 24 10.7 24 24l0 40 144 0 0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40 40 0c35.3 0 64 28.7 64 64l0 16 0 48 0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192l0-48 0-16C0 92.7 28.7 64 64 64l40 0 0-40c0-13.3 10.7-24 24-24zM400 192L48 192l0 256c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-256zM112 301.3c0-33.8 27.4-61.3 61.3-61.3c16.2 0 31.8 6.5 43.3 17.9l7.4 7.4 7.4-7.4c11.5-11.5 27.1-17.9 43.3-17.9c33.8 0 61.3 27.4 61.3 61.3c0 16.2-6.5 31.8-17.9 43.3l-82.7 82.7c-6.2 6.2-16.4 6.2-22.6 0l-82.7-82.7c-11.5-11.5-17.9-27.1-17.9-43.3z" />
-    </Icon>
-);
+const CalendarHeart = createIcon("calendar-heart", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeQAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCBwsGAAE2AiQDCAQgBYMtBzUbDAXIhuD7tap8v6oHAGsWexYRD9gBOUCUxI6N6DiL6k4tzP/l+N49PzrAz0dwaGMtn4Hu8TyBALPFbYu2ZoGlCVp708SSlB2RyaRm0vG142sLebwcTyiRXky/4/H6ofGnXg+RlDIA0QKAlft3b/VjJSoRv13/jPjNZgTESlAIZMgwIMASmcCAXIFcLqjE9ev4H1gQQFShVyaQo4TzuBmQgyTL87mNg/Wlxnxffanu8Lu9oj4iXp7I/rujH4bNIsUL5Q/GNcR7kz7qyyLUaPLHE00rTjY0NqR4trMxnu/OTqy0iJg8PNoZ3V2oPz37vvKeeKZrX3zUN+ajlo/+Hvn93O/u/WFnZ9kTyjp3lsVlb7S21rWYgTo231ghIXCLWDZ5zT+coIvQVFmh0mT4hlp4onfknHNGep+gtrdt104fftiukmqAQHDlhn8eP9685L+a+gT++Prf/6WTr/8YP6aPUCOBIJtyfYoj8SMgNoCflOIuY+JHBJLjMvSuDZ4TINQhQFKlToBMvxYBcnUmC1AyZK4AVerslom8VuhwdICkwa0gM8/dINfhE1CyxE9ZlY7IfI3yFOqrF79OwmvnFTOnzSgWFdsqpt2HyNOLC7Nevit2jcJa59zsJnc464yL7hDobbaW7nSjdRqy1hcVZppmhsIixXHjefk+Z93mdhfd7KYyy2LF/bjsLn3wKFgJ4c5SliQiNT1FceqbBwAAAA==");
 
 export default CalendarHeart;

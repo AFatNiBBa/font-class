@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trademark` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trademark?s=sharp-duotone-solid trademark}
  * @preview ![trademark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/trademark.svg)
  */
-const Trademark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M288 96l48 0 9.6 12.8L464 266.7 582.4 108.8 592 96l48 0 0 32 0 256 0 32-64 0 0-32 0-160L489.6 339.2 464 373.3l-25.6-34.1L352 224l0 160 0 32-64 0 0-32 0-256 0-32z" />
-        <path d="M32 96L0 96l0 64 32 0 64 0 0 224 0 32 64 0 0-32 0-224 64 0 32 0 0-64-32 0-64 0L96 96 32 96z" />
-    </Icon>
-);
+const Trademark = createIcon("trademark", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABaQAAAHsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBVAsIAAE2AiQDCgQgBYMtB04b9ATIjsO44TsylaUM8RgP/7/2v33uzHsLZnC5mFkStybW1TMVEonmJbxFtEj+yaz6Pv/X1As6Ojo7/XwEhxS1iMSKeD7c84nOokHnhfPRRHn+31JKl8jToSR563+TuY/f4TJ2hDKNKu5okJ4nuJvfOP7o6w5J+wJAdAHAkq0bN/jcilaKn20fiZ/WIyCWgixQoMAAAeYrBAYoZZRKQSu1tdGK+OeXCSCa4N4FaKLEemwBlCAJUZa9J9SNjuWWulHtrOpK1LUQdUBRV3t1tF4l94zNsTV6h3SRQlRS9aYYHxNjS6Ctioih77v0b4gjDN6bc16sBFqyBsEWZ+ZSnozgK5df++xXJsvIJe9svuC++1XzjlUyifjJuruHbu3tPP9/uzqBX5/+3W5MN1JoJ4GgGN823q50AyI1gFCKK4Yq2nh3K02Q4FE7eCJAqBAgaaoEKPTXRYBSZZwADYPMEKCpslEhyvZCD7sHSDo4DwozXQWlHj6Ahvm+hJp6RGFTvEXwf3QpVs7oinV5ysTJeW4WG7pgJmxanJdvG0ZfoYExbqMjzjrjksMOOe7SRFywIXrZaSs1fIUvyqaYaLJsrrzdnhVbfOiCi46vpf1l5snPe0a7oo8f48wJaKf6oFAQKYqun880Ew7nQHeSjiEAAA==");
 
 export default Trademark;

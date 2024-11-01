@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-circle-minus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-circle-minus?s=light calendar-circle-minus}
  * @preview ![calendar-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/calendar-circle-minus.svg)
  */
-const CalendarCircleMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48L64 64C28.7 64 0 92.7 0 128l0 32 0 32L0 448c0 35.3 28.7 64 64 64l266.8 0c-12.9-9.1-24.5-19.9-34.6-32L64 480c-17.7 0-32-14.3-32-32l0-256 320 0 64 0 16 0 16 0 0-32 0-32c0-35.3-28.7-64-64-64l-32 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48L128 64l0-48zM64 96l320 0c17.7 0 32 14.3 32 32l0 32L32 160l0-32c0-17.7 14.3-32 32-32zM432 256a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 256a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm80-144c0-8.8-7.2-16-16-16l-128 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16z" />
-    </Icon>
-);
+const CalendarCircleMinus = createIcon("calendar-circle-minus", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABmAAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCaAsGAAE2AiQDCAQgBYMtBzwbdAXIHoNts3mEESSHcH964HBaEw89a+mfWQgAayIVFgbQRsVHuJNx55Ly86xMjbjWVlev/zTu+3MfNGvMQmyiG1ElNoe2XxFKvx0sPEpMnXqe89ACeQ5B0PbQWCj7fOyOfV6BAgZb31Sh0qJaRbF+O79ncIPoSgbpEpdk2M4w6vePUMZHrBGT7wXvoJ1eNP7R1wupLAAQwwDg7CEpBo/fohPx3pwRv0WBgDgHsIxQoMA8AoeEAvNElkGpFHSoafx/IIcAogZ/QoISXXgDXwCUIFWlyH/U0FCZiZVFqaxSZI07qgXqpVXbTT2QSJqy27JSpnUDBQ3rjJOQlBkR0bT9trWCiFaHKVm5X3lEewyin/DEXboTrGBkojX9KbT0Ji1XFcPW6wbT1GU4Y7PBBCMBRDcuB9TlvO9/rRj2vXTcRctpz++KpY2roFGtMW1GE7rm22rbf8zeS991/OJbZ3ALt6iuruA46B0ZWWQ4+vOdyssgcPrIwQcehyuXeoTrSdwpUyrOdYKqQ3ULzcOXHz8WTTL+ZT4TPu6DTUJur1hbm7kJBDZUQeaizbcWOirlfiAQPM0E++cNHf6XMQHg7/W//3S75jFPBV9BtwRBsdasyc5TABAJCDJaYa58USC1UeFH7feKAKEXAVKtV4DCHDUESr1WEags8kKg1uuGUJRyhHE5DaR+z6BwoA2Uxp2AyqEnvzYeQuNkTIt5GiaGSihkF3dzduX+fFqprL1RYTOAL5u2rTRhh4MoVadWsxLFKjQLpFFM1KJGqAaH+CHOjTNXnD++3d6LqcJv1KRizO9vE4Cfd2216vPt4Agw6Y5CSiK1r67q9B2P6vRbe6kJAA==");
 
 export default CalendarCircleMinus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tachograph-digital` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tachograph-digital?s=light tachograph-digital}
  * @preview ![tachograph-digital](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tachograph-digital.svg)
  */
-const TachographDigital: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l512 0c17.7 0 32-14.3 32-32l0-256c0-17.7-14.3-32-32-32L64 96zM0 128C0 92.7 28.7 64 64 64l512 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128zm96 32l0 64 224 0 0-64L96 160zm-32 0c0-17.7 14.3-32 32-32l224 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32L96 256c-17.7 0-32-14.3-32-32l0-64zm0 208c0-8.8 7.2-16 16-16l256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 384c-8.8 0-16-7.2-16-16zm320 0c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16zM80 288a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const TachographDigital = createIcon("tachograph-digital", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABqgAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDDQsGAAE2AiQDCAQgBYMtBzkblgXIjsO44SuhCM3kzlcE9Xvd3v2XVsF1D6oqurBV4vAIFxmHa0UhUQojMkgwIv5/+7X7dn3+mqfBXZtYgiqW8SiWaOIh/lA4JJKOXcqXiz894PETPMpYsyDLGp8zXmy8Qsu3FnwsrNVqFeOebXtzRDzEG6EwNlDimwIhJ58kz+AuvGj8c1qGVCoAxBAAcHJVUYRbkcSg5/k5xI8CEBCnANYRKlRYRmCfVGCZzDooimBG///iP5ADAUQd8UkTFPTwBb4BFJA6ReZyqV1arTq+LUGulVULNdawYiFaQ8a8dV3Q06p9k6S0YNtgutzdAKITHz3t+R05JbTle+ipo33/Y5e0CqQTRIwt2Ik2BYFWresQE8saY7Ri2yDCg11L69Y1i4Y2bNoeFABT2mtKUGMpSnPtgDWTL3M/Nhx/uD13PyPlWjeFqQ7602LVnBmB0Sd8Go0MBqKIrtdS4zIRqUR+EYogVSTyu8ow0ykplYNPDjshJRHjtDmddaYr0Y9/BxAIbv5a+1r0+18qQQL4vfn8skfmRHIMmhIE1eZ/IBpzAghiAIWMabhvvFEgvaMjPteuewQIbQRIdW0BKksMCBRtGwjUrIpCoK7tjFQUNcKipg6lrltU2TODikWnqGbfXb5uMaTgygEb97WYnD2EWfN4WHAoj+erFQ0PgYydTOCHbd9p2eGH16LbiGGTunTqMznAxxWVpgzJ3sKyfBAXJlgoLh6/XH8qVw/y4yb0LYvXp0nAn8/5mt7u74c9iZh0y+KURJom2zp6R/6c0IPeAQ==");
 
 export default TachographDigital;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hospital` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hospital?s=thin hospital}
  * @preview ![hospital](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hospital.svg)
  */
-const Hospital: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160 64c0-35.3 28.7-64 64-64L416 0c35.3 0 64 28.7 64 64l0 32 104 0c30.9 0 56 25.1 56 56l0 304c0 30.9-25.1 56-56 56l-168 0s0 0 0 0l-32 0-8 0-112 0-8 0-32 0s0 0 0 0L56 512c-30.9 0-56-25.1-56-56L0 152c0-30.9 25.1-56 56-56l104 0 0-32zm304 0c0-26.5-21.5-48-48-48L224 16c-26.5 0-48 21.5-48 48l0 32 0 16 0 384 80 0 0-80c0-35.3 28.7-64 64-64s64 28.7 64 64l0 80 80 0 0-160 0-224 0-16 0-32zm120 48l-104 0 0 224 0 160 104 0c22.1 0 40-17.9 40-40l0-152-104 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l104 0 0-80-104 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l104 0 0-40c0-22.1-17.9-40-40-40zm-424 0L56 112c-22.1 0-40 17.9-40 40l0 40 104 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L16 208l0 80 104 0c4.4 0 8 3.6 8 8s-3.6 8-8 8L16 304l0 152c0 22.1 17.9 40 40 40l104 0 0-384zM368 416c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 80 96 0 0-80zM312 56l16 0c13.3 0 24 10.7 24 24l0 16 16 0c13.3 0 24 10.7 24 24l0 16c0 13.3-10.7 24-24 24l-16 0 0 16c0 13.3-10.7 24-24 24l-16 0c-13.3 0-24-10.7-24-24l0-16-16 0c-13.3 0-24-10.7-24-24l0-16c0-13.3 10.7-24 24-24l16 0 0-16c0-13.3 10.7-24 24-24zm-8 24l0 24c0 4.4-3.6 8-8 8l-24 0c-4.4 0-8 3.6-8 8l0 16c0 4.4 3.6 8 8 8l24 0c4.4 0 8 3.6 8 8l0 24c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-24c0-4.4 3.6-8 8-8l24 0c4.4 0 8-3.6 8-8l0-16c0-4.4-3.6-8-8-8l-24 0c-4.4 0-8-3.6-8-8l0-24c0-4.4-3.6-8-8-8l-16 0c-4.4 0-8 3.6-8 8z" />
-    </Icon>
-);
+const Hospital = createIcon("hospital", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAAB2QAAALOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiEfgsGAAE2AiQDCAQgBYMtBy8bfQZRlM3JCtnPBNuYVsNrwoM2ZWTyR5umMC68iYeHuX89N8kHTkqYViFSSqwAdR2pPlmQuE09NyBhgBUqAo2mu3QwEuqxYATKsZ2AWrD/28KugAKV27OXh39HxqEJNcrdxDX5g95ea2seaOFQPtJWFmXRFJECf74HfJxX8c5ns5lMxGdtkzO8wUe+PCLDiZPH6UIRQ9sOsvjbIQ0kj5KPcC9+aPygrzsk0hRA5ACYv3XjavWv4quIj/5/RXxkJQJiASgFUqQYIMAsqcAAmRKZTPBV/P8//QeWBBCNBEm8NkMLMYQYBshAoinL6psRs8u+fOh26nmuI+Ef8lzfYpym+dJI6hqNwU+qBl4ItVU92h7CUABh0ENdNqaBANTzjxm8lGwpmht696hOBERXTo4IaWFJ3NSRV/HmlFzd1TwL7XElRzUCTqKeHzFKpEbEqwJWQxJLYu9QbDTeBJhRooNJSQggGDCWX1w/+f3VR0c+8vhC1wqKWl2tKFpLlbP//dI0TtMv/519AsoaPGldWCnHpR/z2bi6cZ99nJZyN6yzTmtR1GYw1/M1X8mVV8ZWVfWVmkrx/J3iocq+xsZ9lXVUPEzxzvPiiYXpuhoGPcxUbnw6dilDZevss27q0VxK1vfM5ZTouT7Xo/Zc6SN1jfv62NeYS0AfOO/deh4IBN/X707c2zXr12Yl4Jt3fvkLp/i/ntxInqFZAoJ01P+j7EIc2DaAZBKXDUWQKBT11UTetd19AUIrAiQatQqQ6i8XINNqpAANBpksQKNWG6UiaxF62M3WRLtz1tQUV62ZHl5YG8zybqpRj0jPCbfLub/U5CUltHhTOX7MuHJG+diW+a3PhPWZpdk77LIfG46tjjjjtIsOO+SYiwVx3mrZS05Z0rNf/N3SeGOMU5qhHO5d125x2HkXHGvz40rMVM4PD3O5P3s4AglxO0FTIiGS5mMH");
 
 export default Hospital;

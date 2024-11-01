@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `books-medical` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/books-medical?s=sharp-duotone-solid books-medical}
  * @preview ![books-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/books-medical.svg)
  */
-const BooksMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 0L192 0l0 96L64 96 64 0zm0 416l128 0 0 96L64 512l0-96zM224 0L352 0l0 24.7L352 96 224 96l0-96zm0 128l128 0 0-9.8c39.1-10.5 78.2-20.9 117.3-31.4c2.8 10.3 5.6 20.6 8.4 30.9L352.2 151.3l-.2-.6L352 384l-128 0 0-256zm0 288l128 0 0 96-128 0 0-96zm195.4-17.7l125.5-33.6 8.4 30.9L427.8 429.2l-8.4-30.9z" />
-        <path d="M352 118.2l0 9.8-128 0 0-32 128 0 0-71.3L445.7 0l23.6 86.8L352 118.2zm.2 33.1l125.5-33.6 67.2 247L419.4 398.3l-67.2-247zm75.6 277.9l125.5-33.6L576 478.9 450.3 512l-22.5-82.8zM192 96l0 32L64 128l0-32 128 0zM64 416l0-32 128 0 0 32L64 416zm160-32l128 0 0 32-128 0 0-32zM64 160l64 0 0 64 64 0 0 64-64 0 0 64-64 0 0-64L0 288l0-64 64 0 0-64z" />
-    </Icon>
-);
+const BooksMedical = createIcon("books-medical", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABnwAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDJAsIAAE2AiQDCgQgBYMtB1YbzAXIhof/36/Xfe57M8l/E4YbRiyoAOlWoSKygKAiyZVVq7rW/M819SLp6AA/3zvhQ4teN0bTLPP5BAY+Ol9qG8wUN6pXcKDzF8e1E5Txf3FLjfRU+gGPBv8DGH/o6RZJSwEgOgBgwbZNa3xyN+6m+KH5BvGD1QiIhSALFCjQR4DZCoE+ShmlUnA3NZvcjWYzE0DUBY8rQB3t8Ty+AJQgaaVelh1bIrMnZhtdC7W25VbaXB0TqkBMI7q3xZbYbNvmbX4utu7gvp3LbttDNEJU2xpVQ4ytrUiDSooH0vDtWsWTrxopGFWIeHlYXHms6+YI119seuS2bZu39YzN0Wvgax1e+2vAD0d/sG9FVVXXZNcss6eHbls92G/A5YwSC/8jTbS0quuljELdNvY7u278Y3XOeX/s6rw68XT/a5EouyY/fWf+UjQ47+MN6P7Y/mcq5umnS9d6WiaZa9cuqXz19u3bc9ddzvjNNfK2yGcdv/S1Ky5ljwCBoNb712/2tZ/9b+tGAvff++d35d3NT9L89BpaSyAoRjdH253mAxMGUEnxsIErKoPCNq2GIHEbjwvAK1QtqataKPTWAUqVUVDTz5QT6iqbFKJsEbrYA0DSxgUoTHUZSl28DjWzfV2u6xKF2lVVnvrnmLW0jy85lCeMHZ9n5sWeWlOOsrs7K+8ODn+Yz4yAro4656wHHXHYCQ/2+IvW1B5yxtI1bokfyiYYa7xspnx6+Nja2itf9IAT8z7n95kl358d7uH15SNgJIkkJzpSKIgURVc17R1jlb1jrMGC7jOGlgcAAA==");
 
 export default BooksMedical;

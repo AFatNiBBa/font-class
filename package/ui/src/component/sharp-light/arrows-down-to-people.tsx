@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-down-to-people` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-down-to-people?s=sharp-light arrows-down-to-people}
  * @preview ![arrows-down-to-people](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrows-down-to-people.svg)
  */
-const ArrowsDownToPeople: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 16l0 129.4L91.3 108.7 80 97.4 57.4 120l11.3 11.3 64 64L144 206.6l11.3-11.3 64-64L230.6 120 208 97.4l-11.3 11.3L160 145.4 160 16l0-16L128 0l0 16zM409.4 120l11.3 11.3 64 64L496 206.6l11.3-11.3 64-64L582.6 120 560 97.4l-11.3 11.3L512 145.4 512 16l0-16L480 0l0 16 0 129.4-36.7-36.7L432 97.4 409.4 120zM304 192a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-96 64l-8.9 0-4.7 7.6-55.9 90.9-1.5-2.5-8.9 0-96 0-8.9 0-4.7 7.6-64 104L10 477.2 37.2 494l8.4-13.6L88 411.5 88 496l0 16 16 0 80 0 16 0 0-16 0-84.5 42.4 68.9 8.4 13.6L278 477.2l-8.4-13.6L221.3 385l.4-.6L264 315.5 264 416l0 16 16 0 80 0 16 0 0-16 0-100.5 42.4 68.9 .4 .6-48.4 78.6L362 477.2 389.2 494l8.4-13.6L440 411.5l0 84.5 0 16 16 0 80 0 16 0 0-16 0-84.5 42.4 68.9 8.4 13.6L630 477.2l-8.4-13.6-64-104-4.7-7.6-8.9 0-96 0-8.9 0-1.5 2.5-55.9-90.9-4.7-7.6-8.9 0-96 0zm24 144l0-112 48 0 0 112-48 0zM144 272a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 64a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-24 48l48 0 0 96-48 0 0-96zm360-96a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM520 480l-48 0 0-96 48 0 0 96z" />
-    </Icon>
-);
+const ArrowsDownToPeople = createIcon("arrows-down-to-people", false, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAAB1wAAALOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRSEdQsGAAE2AiQDCAQgBYMtBzwbgQbIHoVxTKyxMhJRbn/E83xrfd5X3Z9qlqGXeJYxCoEkOVTfhciFHR8fSaSjaP7+5vc1mjomWZr5E6mtbe9S6uoQ0Nt4U6d6QomNFvDF60Uba9kYg+YUyHnX+V+ooc4lVKtVsGJYS+dKA74BgTDNC7M9tPkn6w1RXirfQp4LPzR/8T1F0TYAMgUAh88982Sff5/vk28HD/lWjUCOgE7QoMECAfs0ggVaHVqt8H0GA/M/sCNAhgEvVrWYRKaRNYzhFBPadtmysYnXjkUCFegNTWzPsVjqheJAZmV1ZuZ0QczOmSlrMyP7gsXUuHzmrJnTzsjB2896YXZnW9M7+OWVe7R6U7ylR9jUXp2RszIrtfyFGVmT2Tk3Ir1ekpydmVmXWTlnroG9ovtEpeKspUiknvP+0sFFr8xfgjlZvdGf4spYXE9qcuUHFTkLX/q6uD++veZb8M7jKD7qDdf40KC0vWFgYa6BHvW4KTpT5lz7IeqZd3rcyZTrTpr0/feT0sxD9ZYHH7ylWrZLD47h6pPsuMA0Y9fvdPBaTxv3jDVHnWWKKZdNcVaH4RnjHtI/BUN91TRylcJUnw+dEFxYcpKx64udF1S2k567Dal9t+m/AN8RRJmHxn/t/VVLB33Mf5m+y6699MOW2Z8tvg4EYaqZ3106ed/fo70Cfvzwvzy/Dj4v95TXMaqA0KwfrHdReUxVw4kCCJfcYylXpkermgDvOsHzAqIioBhWBTTmmyKgVa0TMGSR7QKGVWdqpB0TM1zsg2KC20Fjh4dBa4YPwJB9vggNm5GGREQaXPSHmvxEHz0+qdu8sd/t6RbLarGuF3jje7vd+tX3WG1rOKtr3OoWd7naVa53V497h5Ojd7vZiTXe49/tbLZRX2eP7nTtsfwcmXKHO11vXnyejr26+92r3bPeew03FeC7BUNRSJl5+R0UrNhAOJ4Nd926gbgA");
 
 export default ArrowsDownToPeople;

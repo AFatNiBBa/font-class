@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dragon` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dragon?s=sharp-light dragon}
  * @preview ![dragon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/dragon.svg)
  */
-const Dragon: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 0l48 0L432 0l16 0 80 0 7.4 0 4.8 5.6 96 112 3.9 4.5 0 5.9 0 64 0 16-16 0-96 0-6.6 0-4.7-4.7L489.4 176l-9.4 0 0 40L614.4 316.8l19.2 14.4L640 336l0 8 0 24 0 80 0 48 0 16-16 0-48 0-16 0-32 0-88 0L48.3 512l-.7 0L16 512 0 512l0-16 0-31.7 0-.7L0 432l0-16 16 0 29.8 0 376.1-34.8-58.7-70.5-7.4-8.9-3.7-4.4 0-5.8 0-11.4s0 0 0 0l0-8.2 0-24 0-94.1-55.2-27.6-23.2-11.6 20.7-15.5L341.3 64 294.4 28.8 256 0zM384 263.8s0 0 0 0l0 8.2 0 8 0 5.8 3.7 4.5 72.6 87.1 3.7 4.4 0 5.8 0 7.2 0 14.6-14.5 1.3L48 447.9l-.7 .1-.7 0L32 448l0 15.6 0 .7L32 480l15.6 0 .7 0L440 480l88 0 32 0 16 0 32 0 0-32 0-80 0-16-12.8-9.6L454.4 236.8 448 232l0-8 0-64 0-16 16 0 32 0 6.6 0 4.7 4.7L534.6 176l73.4 0 0-42.1L520.6 32 448 32l-16 0-80 0 25.6 19.2L394.7 64 377.6 76.8l-43.3 32.5 40.8 20.4 8.8 4.4 0 9.9 0 104 0 15.8zm-64-74.4l0 37L165.2 136.1 81.6 219.7l138.7-7.3L161.4 288 320 288l0 21 9.2 11L96 320l56-72L0 256 160 96l160 93.3zM495.2 57.7l32 16 14.3 7.2-14.3 28.6-14.3-7.2-32-16-14.3-7.2 14.3-28.6 14.3 7.2z" />
-    </Icon>
-);
+const Dragon = createIcon("dragon", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABpgAAALVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yEKwsGAAE2AiQDCAQgBYMtBy0bKAbIHoNt6/EBZjlqZvnRWtUxna6v4B+0++/cTGYelP9XytquYPTbyh2kDqzJA/5+r+e+ErFHVsyqFZKFqquqLceX47/Qy+wy4r9ub/kkwCuV5qiAAwoIo2aCIIj//F+T7x0dHeXzz+eaOYzCDsp8PoE9n43mTXC2KBuojm3L5sATd0M0lIX2HbDht/aEMHdRLLCtulD9TzGrMWwcAADKDgAAtF2en3P1r4vbdQrF0h0IoOEAeAIBCEBJAtBCQKAkywPLEt6H+i/+AzsEACXSuMwAsCACv1AyAGABGDbejtzLclJhxg5qCcnhLTVTyEAFEFFqsrBqkkKLGl7EV09WGls0N5Uab0khhwStgMPmbhpV1lorzcYl1eGmDN58Y4QuFQ1CaQOiDNfohSNK8f2FVNVEBklNruUVVdBE0xjaoJ4KC5b1tPB6cmdIdHFtaKxYx4oqrBL+tSUUWo5PT+98e1LM/5/u7iIdjT5TX6QNxx2NOi9FFWsOtDRAXFF91OG4Qfhshwee4yoX12o2ZooGQmkAcUWNMt00rX300YjzJADExUXq67ykgUhM1gM76gnkOOA4sP6h68O5YfOJAeIFIU0N7nBKNYMOdd25lS7tihvXUk3hBro1NFQ8OPSbtyFJsxnHFNjon8YT9iU5dp/7jber+l+3L57676lXngJAQEh//nm2rN4/nmYA+Pj+4zOf/f83OqMniDMAhKC9ahgRXQCCHgCQMGFRymk+SMD4xGrcmrZXACBJIABGJEkAAiU4AmAlVScAodIaEoBIUn8BxSeQgkbuwEibCwKNLAFWQSdAqIVr8UjBEEC/ALvCz2fq+BkeW1XdU6uOb+Y/G1YRoDntYnNv7WleJAeq4q0mmW2WBSaaYKoFJ2yenqmFZuqkQzv6Iq+uWurwmvHe7e/qIJqYZ76p75L/Ms35+MEqFunHV8XrMACgHtxwsl5RNOHYPT47BQA=");
 
 export default Dragon;

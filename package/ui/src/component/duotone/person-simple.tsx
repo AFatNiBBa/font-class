@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-simple` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-simple?s=duotone person-simple}
  * @preview ![person-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/person-simple.svg)
  */
-const PersonSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path class={generic.secondary} d="M64 64a64 64 0 1 0 128 0A64 64 0 1 0 64 64z" />
-        <path d="M105.6 160c-41.6 0-76.3 31.9-79.7 73.4l-4.1 49.3c-2.5 29.8 15.7 56.1 42.2 65.6L64 464c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-115.7c26.5-9.5 44.7-35.8 42.2-65.6l-4.1-49.3C226.7 191.9 192 160 150.4 160l-44.8 0z" />
-    </Icon>
-);
+const PersonSimple = createIcon("person-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABbgAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBLgsIAAE2AiQDCgQgBYMtB1Yb1gTIhuD5tf/N2bvfwd9HdBHXBEncmlgniSexZIlEw0MT8fx+/9b8zz99wAcincc8kAvsPucJNA8kz0skCyzTDCzzljnpEfsnkzWZ/sn2eHZAHj3SURVkp7MnOMb/AYyvWjtKpiYBiCYAmDRv1kz3XsWrLJ6U7xBPzEBATAaFQEJCOwHGSgLt5ArkcsGrrFzmVZTLBQFEJb44gUrkGINJgBxkQuR594Z1FQ3zufyw2kUXe0ZcbVXEqdanu4nT9ce71cWVlifbRlxpe7ZN5zjT+3r32kXne13rc6Pjhd7Xe15t1/l6k+vfOz1Z+8SGjr9WMbv/IPU3bw7fLT19NrAw8NnTtNvwmzfrB+k/e9WvviYcSG9+/36TynkgECxu9+bDssZj/1fXZeDN3Z9/8SGVyvdicHYd1TIQpL7lvhbHXiWlGCwAAFns1TkomSiQdJfBXRs4IUCoRYBMpVoBkraaCJCr1UeACh0ME6BSrVmSyGuEkiUDMg3sgGS4fZAruQ0VxrpvVypFCiDm+ZnvW+J0iaatFYP6DyxGF8tYZ2OCavMxxbbZc2+t9aJda22z1W5rrLbBbkF2muntscV0C0/zosIg/Q1UGK1wZ8/iXNg77bJB5/1LxijOWz3ttbt70TYZYPDV+xKRRaoPOKVfEqr9crGlpcLnHQAAAA==");
 
 export default PersonSimple;

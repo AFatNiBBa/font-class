@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `edge-legacy` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/edge-legacy?s=brands edge-legacy}
  * @preview ![edge-legacy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/edge-legacy.svg)
  */
-const EdgeLegacy: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M25.71,228.16l.35-.48c0,.16,0,.32-.07.48Zm460.58,15.51c0-44-7.76-84.46-28.81-122.4C416.5,47.88,343.91,8,258.89,8,119,7.72,40.62,113.21,26.06,227.68c42.42-61.31,117.07-121.38,220.37-125,0,0,109.67,0,99.42,105H170c6.37-37.39,18.55-59,34.34-78.93-75.05,34.9-121.85,96.1-120.75,188.32.83,71.45,50.13,144.84,120.75,172,83.35,31.84,192.77,7.2,240.13-21.33V363.31C363.6,419.8,173.6,424.23,172.21,295.74H486.29V243.67Z" />
-    </Icon>
-);
+const EdgeLegacy = createIcon("edge-legacy", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABYwAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBPQsGAAE2AiQDCAQgBYMtBzIbvwTIPhRwcnUrYIgBFOFpO2xiObVbxR6fxVxPBMEabXZPXnHT0IgQmmgySXTRSKh8xz1Suf9/f977J8bFd34a5LYKNaNBpS3UNbl56ua9vmgq2URZi+ag8K09NEysRokZgtUJaHTvEqDMvBXqDPs1AItZsAw53//7m+f//FOAzyi0PTSQBRLNeZ5AYl2eWJyFWeCQQrpN9NBDCt8ICRoRHeeOrwPKuASrIm/liAv9pvHbIEtSVQBA9AQAVh3Ys83zQ7wB/k1BdNkCBMRqgJEQBQoMhWAphsBQTCOBUin4EH9j/8CRIICoIT9JghIlVgLbAChBypLJNnZUIma8o+InInAW1PPZTzb37efOdW++YzmgjHMnhSNhrIYYA1rv7TOXoU3XgWdJxHFtubkf3S2QvtMz+qur0aDXwLMeIPDj29SlfvPhbfCGaWsx8tSVxLbl+DF0/v/W1j3EkVX9Yk3b/iPWN6Bl+WIwAwgE15IOEz2W/mvtoAA+PX09b3BzfBmhVYKgmNoomwwmix8CAJAxRIMHIdJCFL1qp+sChHYESLV2AQpDSCEotZsCQWU4CwS1dnswRMmD0FduQup0FArzjaDU1wYqS728Wt8oaMSQgPnFJa6vaN3aSLV64iTb2GCZQcXcRY5Nhl5TyK6ilqa+gryKfiG6YuFAQxThiBcRBlp6hBO5zl634wq6eipamm2JC3nvyg1xt0IcSpLOFklJpID3yjTGAgAAAA==");
 
 export default EdgeLegacy;

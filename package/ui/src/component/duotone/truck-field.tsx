@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-field` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-field?s=duotone truck-field}
  * @preview ![truck-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/truck-field.svg)
  */
-const TruckField: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 400a80 80 0 1 0 160 0A80 80 0 1 0 96 400zm288 0a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M32 96c0-35.3 28.7-64 64-64l224 0c23.7 0 44.4 12.9 55.4 32l51.8 0c25.3 0 48.2 14.9 58.5 38l52.8 118.8c.5 1.1 .9 2.1 1.3 3.2l4.2 0c35.3 0 64 28.7 64 64l0 32c17.7 0 32 14.3 32 32s-14.3 32-32 32l-33.1 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96l-66.3 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96L32 384c-17.7 0-32-14.3-32-32s14.3-32 32-32l0-32c-17.7 0-32-14.3-32-32l0-96c0-17.7 14.3-32 32-32l0-32zM384 224l85.9 0-42.7-96L384 128l0 96z" />
-    </Icon>
-);
+const TruckField = createIcon("truck-field", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABkwAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCLwsIAAE2AiQDCgQgBYMtB1IbUwXIjtRQLTxbPPy/3dfvc6u617RdPbAi2J9gKGdgPNlbP5TiV9X/f9zP829NH/DxL7eKZYEUUPf5BHbe1NhUxLPRcGa83dm25BB5HELKWnJcthyPI+RpVHaLCtKT6Xvcn/4HMH7V5RaSqgxANAJgydaNq31ZilKK78vvEt9bhYBYCgqBDBl6BZgvE+iVK5DLBaVUTinKCwKISgnNOCrxAVfiJkAOkiTl+Zqqurqairp8i1tZvfPpcRFvj6qJ98bAryZsjhvaauLVMW92ibvbHnVD6yPV1fHc2Ldmvjv6jd4qvKv9sbix4/GasMN/a39Ndc2WqA5bn53z0bxPBp6b+/HsD3vr3CuHvtX41u+D3x/53sDe6iaaXihZ0jfdjS3TLxORe6GpqbpQf8cd9bRu0PELv7zwwi8Xji8l1yAjS3z7tPDe67fkQ2P3GmefvZNqj1566dHa0lZ09wOBoOufn27a2zD//yE1Cfz88Z//xtuVpRvSWxgigSAbXx5vV7oBkBlAKsVlhjJvtU8gs1WSD9Z6TIBQjQZJpWrI9GiEXLVxUKHfDFF4YKNM5FVCq90AklrnITPTtZBr9Q5UmO+rZKXWyAxQNh/5/5exckRWTCqmTJxczC2WJVWxKTGMzivEntGX+ZYxsNURZ51xicMOOe6Sgb7I6sylTlvJUSt8UGGKiSYrzFVsV5/Xb3HYRS523Fln4jjzFOcTo13Gdx8D00mAqVeXlREpspYnZk3QTscEXW5rmzW1BQA=");
 
 export default TruckField;

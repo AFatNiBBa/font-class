@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `satellite-dish` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/satellite-dish?s=thin satellite-dish}
  * @preview ![satellite-dish](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/satellite-dish.svg)
  */
-const SatelliteDish: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M200 0c-4.4 0-8 3.6-8 8s3.6 8 8 8c163.5 0 296 132.5 296 296c0 4.4 3.6 8 8 8s8-3.6 8-8C512 139.7 372.3 0 200 0zm0 96c-4.4 0-8 3.6-8 8s3.6 8 8 8c110.5 0 200 89.5 200 200c0 4.4 3.6 8 8 8s8-3.6 8-8c0-119.3-96.7-216-216-216zM16 304c0-29.3 6.6-57 18.3-81.8c1.7-3.5 4.5-5.4 8.1-5.8c3.8-.4 8.3 .9 11.9 4.4L291.2 457.8c3.6 3.6 4.9 8.1 4.4 11.9c-.4 3.6-2.2 6.4-5.8 8.1C265 489.4 237.3 496 208 496C102 496 16 410 16 304zm49.5-94.5c-14-14-37.3-12.1-45.7 5.8C7.1 242.2 0 272.3 0 304C0 418.9 93.1 512 208 512c31.7 0 61.8-7.1 88.7-19.8c17.9-8.4 19.8-31.8 5.8-45.7L189.7 333.7l20.3-20.3c6.3 4.2 13.9 6.6 22.1 6.6c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40c0 8.2 2.4 15.7 6.6 22.1l-20.3 20.3L65.5 209.5zM208 280a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const SatelliteDish = createIcon("satellite-dish", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjAAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCOQsGAAE2AiQDCAQgBYMtBzUbPgXIBqLSZT0rnQxAMjG8/MgQ4/kz4ggxdn3KOHHN8097esAoskeLptL3ClpEnU9gYsWlwxcY2EwnYNud5kBkKQdiWSQ5zh2fO9DlMmOxgTqk7gM78EPlNUGsBYWmAQAgngAAQGVvdys3+qVf5P7/syD3aQYEQKoAMBFAAzQgFAGgBA0BQtExAR0dgX75/9/8B5ogACAG6d0KAB1wAOYCuwEAHQCFTdf9vHySnFxsbrrlW5yH7PXd5/digGPt8zsQ8NKyYLzOJ6bQ9dTqWZVewy1+A2Qf71xw1kHvfl+RwTnFCbqluPGAvyXJss9lC9Yhq/z3O2/23Ru40i9BrAFH4o8GHYw5Fhxl97S/jbw//j63ro80jJFdVMZVxcdXxVXSRW6NNLASaxPq6hJqEy1GLis9snCD9PD1y5D794fI+UcpfjEVDjVv3lBr6FWdKZ0yYIB0Zg67dAOeTC3IkF67vVcy1twMcz08cyY57Hf16rvk5XWpL9/qs+M6qZoZM7bV+nV2+ik+AMhL/z6eHTXCo+Sro4sC4NWl97/Kz4j/NxTKDjiiABDQUv6nMFQBoEAAAAAAJfOJUgACKKZiA1NX9iMvU2dAnG/gDKlGCJ6d0HEmmbARTu4dBs50oyG6E4Ivw1CEwpVZhEYeywgdX04TNkq4FRn4iiaEsgjJf8CMOgrUnjIz0zLMInM50BS5EsNhsXlsJ8y3C4lwlfHMYDpzGcdYJjGX4LNpTecxjbodVssXMckkjQxMijCvx8/nLcYxmzlMYgbT4zHFmO/9BObv1yeCp0iCWfQpFIhyF9godeykORMBAA==");
 
 export default SatelliteDish;

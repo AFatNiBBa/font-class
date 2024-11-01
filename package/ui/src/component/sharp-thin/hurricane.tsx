@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hurricane` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hurricane?s=sharp-thin hurricane}
  * @preview ![hurricane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hurricane.svg)
  */
-const Hurricane: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M0 208C0 93.1 93.1 0 208 0l8 0 0 8 0 91.2c95.7 18.7 168 103 168 204.2c0 114.9-93.1 208-208 208l-8 0 0-8 0-91.2C72.3 393.5 0 309.2 0 208zM200 16.2C97.7 20.4 16 104.6 16 208c0 95.6 69.8 174.9 161.3 189.6l6.7 1.1 0 6.8 0 89.8c102.3-4.2 184-88.5 184-191.8c0-95.6-69.8-174.9-161.3-189.6l-6.7-1.1 0-6.8 0-89.8zM192 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-176a96 96 0 1 1 0 192 96 96 0 1 1 0-192zm16 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const Hurricane = createIcon("hurricane", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABkAAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCXAsGAAE2AiQDCAQgBYMtBzAbXAURlZrlyH4m2MYsH6oJgxAJdDDkATlPS+OG38TDw7qnP3dmVmSy1ZQ2uUIJUKU+8zs696efrLm1YpRm82wBAM040seSrummvqlTOQmFQgF8i0NwDUrO42vwWF3rvAI9L41lY2lFagWr6QT3Ts17aoCuK9SdIIu1pslDcjR5iIPuQeOHCraRSFMAURwAnUcO7e/q23gb8SD3igf6IiA6g+oCKVJUFqCdVKCyTHVkMsHbyOXYfyACiLzCzROQIT924xggA4m8WVatapFKBUoVylMkG6EOLhhvhka8GFkohHjV+ZrzUj61BQMar7tcd0e21QjOjJplQFhLMQYpZRd/xKiLzfamW9un8dJkbQN760Acr1DaVL6o3RTcU7erWMXmSnW9vtDwQ2WT0mmZvBzeXA7icKG9ZVKbSicF95TNouaZ4tOvGg9nPER/hXeGMyMjv/zG6lXs85voF6NOD9CiX3a88w3I6tAmBkSvsze6F54kn9G4UhtCveFC8TH5Ol5dMXLkiqvZpqNibNytv0KF27fGjavYybGImFj07duiCVnzorvYVbToLiIQ16VrO2YTi7X7Pz9JwPsrf34oXoO5a7EpOYP8EhCkjXONx8UmiE0CAJDECjVjEwKJzW7xvRZ2SIBQEAESeRUUIFVJcQEyBTUSII+q2giQV0FDpSIrIJQ2HoNEYYtBqq31IFPaWZBHO3esvEpH+llyHxX3U5jMe3SR7pOqT8oym6v4L43Ro8dmTc9bDLeasXDBsunTZi/r4Ev6u8vn91jCuj+x+qQsh6uH60dMX7J09sIFdpzjel2/3N1wGgnQ8oEyfGYkBWYtX7Jk9tTJC6YD");
 
 export default Hurricane;

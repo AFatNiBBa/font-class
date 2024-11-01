@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `text-width` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/text-width?s=duotone text-width}
  * @preview ![text-width](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/text-width.svg)
  */
-const TextWidth: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 80l0 48c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 128 0 0 128-16 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-16 0 0-128 128 0 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-48c0-26.5-21.5-48-48-48L224 32 48 32C21.5 32 0 53.5 0 80z" />
-        <path d="M9.4 406.6c-12.5-12.5-12.5-32.8 0-45.3l64-64c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 32 192 0 0-32c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l64 64c12.5 12.5 12.5 32.8 0 45.3l-64 64c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6l0-32-192 0 0 32c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-64-64z" />
-    </Icon>
-);
+const TextWidth = createIcon("text-width", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABiQAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCJgsIAAE2AiQDCgQgBYMtB1AbSAXIjoTcROtfxElp1lBagu/XIvvNn926mz2GOWBUTBSwYYUqalXCQgHKVFQq8mrz/x1h+nt3/hd++oAPRP5cvnGB7FnnCXQeSN55FlAUYKYZWNbO/iWJZJXQk2RYdIaROnQekMeH6YYK2dvZj3gc/gcw/tHZDTJNE4BoBYBZq5cvVP8j/sjix8aXxI8WICBmg1IgIaGbAFMlgW5yJXK54I+sgT+ioSSAqAofmkAVOc7gAiAHmRB5Pnx2rdI8X1WrFD1fRcTVjsvjdb/3O4taRLw74MP2S+OlK+2WxIv+H3SJKEK81fe9DsuScKX9y9r9jq8johaiiHvtXrRmLUx8tcOropArU/w7zPfX/Hv8lE69P2n1yb+9ftz1ozt3m9P8bsOb/gPzUl0pH9j/Da5V6UdGRr/FnTstbKF0xRWtlNqWJLUSsfLFI6Wffhn56acjf/kpAYHgyvG/v97ccur/1TLw11f/x/+OGj9HPfsETWQgSEMbQ22IOkRdAACyOKV31EEgmS0T37WZVwKEAgEyVYUASVetBMgVhghQ0cM4AaoKyyWRNxXa2ZhBppmjIBnvIsi18wWomOqboKpdJPDR0KGffgnzh+ZdK0cNH1lOLruVxOCJdOdTymlj4CmTQXTXLocdcsJOO+x1IuKYhfFJB80f4fN8UWmU4UYqTVYut7fCqoJjjtsrc+uXTFHutwY6NV4fRLfJAKOPLZGILFIbXDLfe5RhMJ62q7kLCwA=");
 
 export default TextWidth;

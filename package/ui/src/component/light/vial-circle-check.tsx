@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vial-circle-check` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vial-circle-check?s=light vial-circle-check}
  * @preview ![vial-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/vial-circle-check.svg)
  */
-const VialCircleCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 48c0-8.8 7.2-16 16-16l16 0 32 0 128 0 32 0 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 202.8c-20.2 28.6-32 63.5-32 101.2l0-144L64 224l0 160c0 35.3 28.7 64 64 64s64-28.7 64-64l0-16c0 25.2 5.3 49.1 14.8 70.8C189.5 463.7 160.6 480 128 480c-53 0-96-43-96-96L32 64 16 64C7.2 64 0 56.8 0 48zM64 64l0 128 128 0 0-128L64 64zM368 480a112 112 0 1 0 0-224 112 112 0 1 0 0 224zm0-256a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm67.3 100.7c6.2 6.2 6.2 16.4 0 22.6l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L352 385.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0z" />
-    </Icon>
-);
+const VialCircleCheck = createIcon("vial-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkAAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCRwsGAAE2AiQDCAQgBYMtBzgbTwXIhof/n6u67ydNyTCkhwgUMCpeJHTAQtZZt6xG1/9c7vnZpgXyjQ5lLVp6IAt87ep5AgGO7Xke0ATLNAHLd9d7xFZKu0oSWnK42eH2+1fI44sYpYH0WPoZ95QPjb/1dCNJngGIDgCYv2HNat/Wohbxc/0j4mcrERALQCWQIUMfAWbJBPrIVcjlglrU6+k/sCKAaCRoct8cTbgFdwFykDTk+eiW3r07lw1t8/VlQ5E90r0sH+r6YJcixJtVhH+Yx4a/NviVkW/0jrjS981FH494vV8WRTzcbbFQRkSx746hEa/0fiKu9np8yMvF7YNe7PGoKz0fG/xSmd0xPeKz0W+5MurNaZ8Wt8/4fMzbcXXsOzO/KNc91GVtPNhtTjzc/ZGuw2NN+MsDXu/w+r+tP+//2b3tah1+r7VzZ/3k7+Z7XfGsomPHZ59N54oOhtQ+br3y+uvN83SgcOpXxBTXjX2m39M8/eef/foF7umn+/XT2zlDE2l865AhreNTGkoprFuw9/HHly712msXsMDcT35yOxAIyn83dtvRftb15jKBPz7//zr9jNS/TdLraJZAkI2qj7I1gUQAAFKcNyBBILmsgSRtPCxuJgWCg0YFkkxvHRrkCiOhQT+TJeXhNTKRtwhdbAMkbZyCzBQXIdfFB9Bglu/CRl0is0XFkpRPwcwlPbJ4VTV+zLhqRrVMVdW8pLw4s1I7w85Tazgu2u+E487aZ69Dznb0aauTc45ZsqMW+6LKeGOMU5mhOi4ezfUhPO2MQ3P9fJmZqvvBMOf3w8PhJ8I7weEkEanj+UO7jo7+a8ce/a4BAAA=");
 
 export default VialCircleCheck;

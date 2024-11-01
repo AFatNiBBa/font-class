@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `badger-honey` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/badger-honey?s=sharp-light badger-honey}
  * @preview ![badger-honey](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/badger-honey.svg)
  */
-const BadgerHoney: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M420.2 64l3.8 0 72 0 3.3 0 3.1 1.3 128 56 9.6 4.2 0 10.5 0 64 0 6.6-4.7 4.7-32 32-4.7 4.7-6.6 0c-5.3 0-10.7 .2-16 .6l0 23.4 0 16-32 0 0-16 0-19.1c-53.3 10.6-102.5 36.8-136.6 62.1l24.4 146.4 3.1 18.6L416 480l-88 0-13.6 0-2.2-13.4L293.1 352l-94 0L185 385l22.3 74.4 6.2 20.6L192 480l-88 0-11.9 0-3.4-11.4-24-80-1.3-4.5 1.3-4.5 11.1-38.8C58.9 333.3 44 322.3 32 308.7L32 320l0 16L0 336l0-16 0-96C0 153.3 57.3 96 128 96l228.2 0 60.6-30.3 3.4-1.7zM99.8 315.8l15 4.6-4.3 15.1L96.7 383.9 115.9 448l54.6 0-17.8-59.4L151 383l2.3-5.3 20.6-48L178 320l10.6 0 118.1 0 13.6 0 2.2 13.4L341.6 448l55.6 0L374.2 310.7l-1.6-9.3 7.4-5.9c45.6-35.9 122.9-77.3 205.2-79.4L608 193.4l0-25.4-96.4 0c.3 1.3 .4 2.6 .4 4c0 11-9 20-20 20s-20-9-20-20c0-1.4 .1-2.7 .4-4l-52.5 0L255.4 254.2l-3.5 1.8-3.9 0-32 0c-68.3 0-124.9-50.4-134.5-116C52 156.4 32 187.9 32 224c0 43.2 28.5 79.8 67.8 91.8zM427.8 96l-60.6 30.3-3.4 1.7-3.8 0-232 0c-5.3 0-10.5 .4-15.6 1.3C117.1 182.4 161.7 224 216 224l28.1 0 164.5-86.2 3.5-1.8 3.9 0 168.1 0L492.7 96l-64.9 0z" />
-    </Icon>
-);
+const BadgerHoney = createIcon("badger-honey", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABpQAAALTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDTQsGAAE2AiQDCAQgBYMtBzMb0AXIHoNtOzmM4jgUbQzv0+jgH/Tv69y8fEzeGNmpFpAqqoZaARVZbUUe+B97d9+fmjZRbwNCgUiInsic7qGwRZJpIuRlSFX8xDX14/wbMOmds3Y+mkWdd51PYOdNxa0N9DacDWXgvrcNIWxI4QsJKRKLGs/x2gOr36pIBMzOyG1YX99UXxVYicEGAAAoFQAAaLbRoxPnv4fvIdy+PYJumwECUHMAnoAACIBCAqChAAGFLB5YLIJX4fY//gd6CAAUhX+EAcACEeAqPAUAC4AhsHbAdF5SJMn2Toq4MUkuzFKvkCWEUKbKKlNOq7IRcpKkw/3H63uFPDmXrd7BqVCqOFs5KtHeRpxbdo2dm0hSh5AzNCc3KzNxqilUdWE5qmKHr9xwj39q5sNEU1DuUo+q9xYuE6vn893u6uD7yt35OzxvOFAzYrJD2zGyKlvFekL1uRHq3sGVHkw/+N/16Gsv7kfbLuWW9NkikaZitPCfmmLEp+ZJ5aXKMKe8Y1P+RpUyzoul3zPYfTlTRso+bZSzIFOGvZ5mhe7rDBWp2WLxnRsVY7/fvv015qU2deTLkqmLesIVzcSrI/uhhNUVNzYensszlDFpfIYxNdm9pgzrq3YZnzbxysciuXUv2ny6YXGS9yn+zuTNVxsK7Vft367TDAACBFv+9fIgreGveGgAePP659rF/1+ZB5GDEMcAIAgq/q9oYGQpgMIAAAmj2UqNDxJgOCsKDmsi2wQAhAMEgCGKQwAEFEglACyOCgRAhGK1CIAojh4CZBMQmQZ12pDINDqgtkW0JdMhOkJD1+JRMkMQzkowKr/JzNYabjXJd1Su6uv7ZYmoESrRaAPvjtTPzi3lYCujTTHZTKOMNM5MRU3XKTXLJK0tpJUv8qqprCqvPn9cfVzf2yjTzTDOFJPLOA34+9GyZtvdy8F0DABQPRAAs0smcfjRyDGjple6vJo8ah4AAAA=");
 
 export default BadgerHoney;

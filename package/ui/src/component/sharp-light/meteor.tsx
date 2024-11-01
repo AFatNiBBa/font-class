@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `meteor` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/meteor?s=sharp-light meteor}
  * @preview ![meteor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/meteor.svg)
  */
-const Meteor: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M304 16L270.4 35.4 101.3 133.4C38.6 169.7 0 236.6 0 309C0 421.1 90.9 512 203 512c72.4 0 139.4-38.6 175.7-101.3l97.9-169.1L496 208l-25 1.9L457.3 211l-21.2 1.6 11.8-33L498.1 38.9 512 0 473.1 13.9 332.4 64.1l-33 11.8L301 54.7 302.1 41 304 16zM117.3 161.1L267.4 74.1l-3.7 48.5 46.5-16.6 149-53.2-53.2 149-16.6 46.5 48.5-3.7L350.9 394.7C320.4 447.5 264 480 203 480c-94.4 0-171-76.5-171-171c0-61 32.5-117.4 85.3-148zM296 312a96 96 0 1 1 -192 0 96 96 0 1 1 192 0zM200 184a128 128 0 1 0 0 256 128 128 0 1 0 0-256zm8 96a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm16 88a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Meteor = createIcon("meteor", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABnQAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDAQsGAAE2AiQDCAQgBYMtBy0bfgXIBp7/t6vu+10DuIbG0hGIlEDUZ0Mp7olrnv95NEgU2aNF2ff6PFq7zycwsf28bbgb8MBmOgHblLsXg7B7WLrOQJPLEoMZqJ3qCbDe+VD5ihdLQKEZAAAQRwAAoLC9uZYbRjGKPDGdBXlCNSAAUgSAjgAGwAD4IgDkYEAAXzR0QENDwCgmE/sP1EEAQMzxnq4A0ABLYDdwCgDQAFCYa1qsv4+PlZWNmZ3Wph6wHpORndEiF2KO8LbxZevq7Mvx7RIvIeJK4ABph1OkBfIRD6elneV1yZb2ZipGyuNXHMm4YP0u71rbwvjj2a0LPEV2hOyxXhW2z3uXLPTZHb7fZnXoXq+dtK2KEDkQcYAFkQcRZbM6+jAlC6MO3W3duitsj+fO0P0+rds9trlvcd3qFnTI8dD3wCejnxB/3Jm848AgX48dTZfWlTtaJf3Tl2uDBwhkIS8o5ASJa3jHJNYkYoMrdnhe2rC1DcbovGBLCilbsEPRuJc5o0bHVYjJJBVxo9vmnNrmfRfu9kz08prYc/eut+hhsf3zg2/ADT+7oCA7vxs3gmEPbLDod2tsdAsFDu1Ge3ujFADkthsTRzX3O+T8t7RRAHy+9PM36W/QdEOhDgGWKAAEDDGmGHoUAAoEAAAAUDKbIAUggGIzR11gyzaEsmANmFaYY00b8MGR1rAmmjbDn1Rlpt08CxbNKudKL6IVtkyjDaQxl9Zw5TRtRg73C+a4iuFF1V4z7T8xu6wOlB7SE+MS9Cx9sCfX3z1F72brs92I2XwmEp5kNFOYzExGMcI4Ztbw6dSWZzGJsjGwlC+ik0gcCehkoa8e3j7exiimM4NxTGGy3Scbff9cBLPHl0fCQOHJJtGkUCDK/GudN2U6AA==");
 
 export default Meteor;

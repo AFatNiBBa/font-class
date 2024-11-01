@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kiwi-bird` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kiwi-bird?s=sharp-regular kiwi-bird}
  * @preview ![kiwi-bird](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/kiwi-bird.svg)
  */
-const KiwiBird: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M313.7 304l-14.3 16c-26.4 29.5-64.7 48-107.3 48c-79.5 0-144-64.5-144-144s64.5-144 144-144c42.6 0 80.9 18.5 107.3 48l14.3 16 21.5 0L448 144c44.2 0 80 35.8 80 80l0 80-192.9 0-21.5 0zM335.1 96C300 56.7 248.9 32 192 32C86 32 0 118 0 224c0 71.1 38.6 133.1 96 166.3L96 456l0 24 48 0 0-24 0-46c15.3 3.9 31.4 6 48 6c5.4 0 10.7-.2 16-.7l0 40.7 0 24 48 0 0-24 0-50.9c30.7-10.9 57.8-29.3 79.1-53.1L464 352 576 480l0-128 0-48 0-80c0-70.7-57.3-128-128-128L335.1 96zM472 224a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const KiwiBird = createIcon("kiwi-bird", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCAwsGAAE2AiQDCAQgBYMtBzAbAwXIhofv7b7/tU93T830fUY/0x9S5EiMYERQKsT34tTznIcC+JZBELSxbGpANuic5xEIcLq9G3xzsVZRrLnLUvMQ7rekpSzJ47k8PvaQx7dxm4J0V/oYt9YPjV91dhVJkQGIVgCYtWHNMq//FD9FfFR/hvjIEgTELFAJZMjQTYCpMoFuchVyueCnqNf5P7AigGiA0xLIUWAvjjO/AUmW510nNtWK5vn6WlHuadex3ctr353+au/7Z7y24Jtp7aNWe2bQo91FGY9Njnix/Hrl52vvHfbkJCFqAf/B2o0dKeWlEWKsC5xz3/RX55fr7u7/QKe7+j3ctfdjrR77vdfH+z826dY/cbubZ8Ub157Xrdt5174xK27+U/tTrfatj5Xe+PzJkcwcsirWrYtVxQ33PD9bJyN1Mty+zo0nB8Urxvjp38uduNRlRlqpGDtn5anrLm2/alX7hgfipLnlilY7Wk79v7GWwC8v/vmnXK7+U5qZHkOjBIJsaH2orWkmMDUAO8U5ehtfFEi2yuAWzdwuQCgRIGlQCpDpqpUAudKQAYUexu3RoLRGJvImoZ1tAiTNnILMeBdDrp2noDDVe1aDdpF5Gucn3Ecveb5G5k1Vo4aPrCZXy0DnnYfJwynVtjrwnFQYRDvtd8JxZ9lnr0POUthpy9yzHTPfQuf5ocoow41Umaw6jp83r7fPaWcccsLxMmaK6r450Dl2/SAyEtCONp8kIjUdOXTuoWEPEAA=");
 
 export default KiwiBird;

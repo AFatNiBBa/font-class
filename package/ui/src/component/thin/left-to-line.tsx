@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left-to-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-to-line?s=thin left-to-line}
  * @preview ![left-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/left-to-line.svg)
  */
-const LeftToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 440L16 72c0-4.4-3.6-8-8-8s-8 3.6-8 8L0 440c0 4.4 3.6 8 8 8s8-3.6 8-8zm99.3-176c-2.1-2.1-3.3-5-3.3-8s1.2-5.9 3.3-8L247.4 116.2c2.7-2.7 6.4-4.2 10.2-4.2c8 0 14.4 6.5 14.4 14.4l0 73.6c0 4.4 3.6 8 8 8l136 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-136 0c-4.4 0-8 3.6-8 8l0 73.6c0 8-6.5 14.4-14.4 14.4c-3.8 0-7.5-1.5-10.2-4.2L115.3 264zM96 256c0 7.2 2.9 14.2 8 19.3L236.1 407.1c5.7 5.7 13.4 8.9 21.5 8.9c16.8 0 30.4-13.6 30.4-30.4l0-65.6 128 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-128 0 0-65.6c0-16.8-13.6-30.4-30.4-30.4c-8.1 0-15.8 3.2-21.5 8.9L104 236.7c-5.1 5.1-8 12.1-8 19.3z" />
-    </Icon>
-);
+const LeftToLine = createIcon("left-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABcgAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBdwsGAAE2AiQDCAQgBYMtBzMb+gTIHoexm+VKbIbu9R/x8P1an+e+7unaHVqkXiJSSBQi4YBd2LERU7GoUpG/apkrRH/imvz3509/HkX+aFEYvTVG4ijzfAIP+rSbVQq0DeyFJsQzd7XICua+kpQlefzs8bODPD6wX4X0Xvodr8iXxp96uU+SZQCiIwAWblq31o+taEX83ob43WoExCJQCmTI0FeAOTKBvnIlcrmgFW1t4T+wJIAo4A4SyFHBLhwC5CDJ8rw5aHit0sg31irVHlnK3u7+ZtcUb3V7p8emt+NOLI13am91Ex6oIeLNrlXADk+7bxx2u9uGeKv2rMc7EVGLStzp/na1usLTruvjTYM+7Pjh3x7s/9OoKHbvLk7Lp+z9bFClMujePYuLH+urFLsfazUXaLYeW9BWqf9YLHaH1y6pwY8bjcuPGovc1nz8mFkXcNsijUeXG43H8guXakAguHtn1A+7Osz5r10tgT++/ne5IX5MH6KdBIJsTNsY2+NH8RWATIqLBlHIAskmGeBT694WIFQRIClUBcj00VGAXNVoASr6mypAoWqdTOTtha52dCKpO0NkprlB5Lr6iqiY46dMoWtkNsZbCP/FS1k2gkv9yonjJpSzymVNE8yGTbOzy211xEXuGUlLHXTKSecdsN8R5wf4rLX5C05YpkFLhag00TgTlGYpj5vPizc64KxzjjjlZJlntvJ+bISL+vCRZCRgnKQqSUSqv7v02POnxj5DAAAA");
 
 export default LeftToLine;

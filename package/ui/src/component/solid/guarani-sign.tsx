@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `guarani-sign` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/guarani-sign?s=solid guarani-sign}
  * @preview ![guarani-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/guarani-sign.svg)
  */
-const GuaraniSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 0c-17.7 0-32 14.3-32 32l0 34.7C69.2 81.9 0 160.9 0 256s69.2 174.1 160 189.3l0 34.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-34.7c90.8-15.2 160-94.2 160-189.3c0-17.7-14.3-32-32-32l-128 0 0-92c22.1 5.7 41.8 17.1 57.6 32.6c12.6 12.4 32.9 12.2 45.3-.4s12.2-32.9-.5-45.3C299 92 263.5 73.3 224 66.7L224 32c0-17.7-14.3-32-32-32zM160 132L160 380c-55.2-14.2-96-64.3-96-124s40.8-109.8 96-124zM224 380l0-92 92 0c-11.6 45-47 80.4-92 92z" />
-    </Icon>
-);
+const GuaraniSign = createIcon("guarani-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcQAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBbwsGAAE2AiQDCAQgBYMtBzMb8gTIhod/9P77fZIM4AxIddCHVKp9a9qvSt2duOb5nz89YAXBo0RbNUgB1yrPJzDQYWEDbefDgU0naNNt4mNHEIOOkJCwkOj48viiM2SxOz2iGMnN5CecLx8av6vlCIlSKYCoCICB0yeP9VlRFEX8WHib+NFoBMRAkAukSFFXgD5SgboyOTKZoCgKBf4PzAkgisM7JyBDMczEUkAGEmmW9S5bukyxctm0MsVKzz5VNeIK8fOAz6b8MvDzqeJAtatlTte4HhG/Df5y+sHq10qXjoi3WxqEg9U/GRbxkinCO+1e1L/f/mX3qSHKxJ0Wj7o0elLxyZ8Nf1r2k08/LX+CE+UbG1r2jS+NMOLLN8RsjHgWqmaJ/eQBc9TcfqNsuZsny5W9eeMDR9jg8P/YdevhhXLlLjy81f+/OXiSgzuO1wQCwat6dffPr9Dnn5JlEvDqg7//b48rfBYHkicoKQFB2qbQxpw4AMwO4CclsU2jOIBAYqIUTpZ1TYBQGh1OFFcaTtVREc6U1houpr6uovPEZKnISglVzUVwoqyNcKqbvXCmqjfhYvr4Ni+uaqTxJUeH/LzLGKaBodvyju065L3yaUOUkBHzeu/cbbXYlsZa0l7LrLfOFkstsdIWBW0yttpqrWErcKgvynXUTge5XvLt3qMxTeWbbLbS1vY36S0/n7WwbT27JbkJcHZSSyREUvZrhL2y7eUEAAAA");
 
 export default GuaraniSign;

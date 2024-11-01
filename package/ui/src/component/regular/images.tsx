@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `images` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/images?s=regular images}
  * @preview ![images](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/images.svg)
  */
-const Images: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 80l352 0c8.8 0 16 7.2 16 16l0 224c0 8.8-7.2 16-16 16l-21.2 0L388.1 178.9c-4.4-6.8-12-10.9-20.1-10.9s-15.7 4.1-20.1 10.9l-52.2 79.8-12.4-16.9c-4.5-6.2-11.7-9.8-19.4-9.8s-14.8 3.6-19.4 9.8L175.6 336 160 336c-8.8 0-16-7.2-16-16l0-224c0-8.8 7.2-16 16-16zM96 96l0 224c0 35.3 28.7 64 64 64l352 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64L160 32c-35.3 0-64 28.7-64 64zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120L0 344c0 75.1 60.9 136 136 136l320 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-320 0c-48.6 0-88-39.4-88-88l0-224zm208 24a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const Images = createIcon("images", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgAAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCHAsGAAE2AiQDCAQgBYMtBy0bGQXIhqDSVWW1NBN3WiYdITwAsEnsAYaPinfRAnPm/5p68fzoAL9dEBxKtKUW90I7MQUGOAuLtk1gNpxNFGfbDBMMCuOWhogokuh/2Pxh/DPk8VPcr0Z6In2H+8qHxh8G3ExSywBEOwA2HHbQHl9UUUV823iX+NYuBMQGUApkyDAswGqZwLBciVwuqKLRkP/AkgCiDk9OIEcdF+AKQA6SPM8nD/Z3NdVa8kPThcVRLc0tj/SIh7uLODQeLe7sPjgGGSpe2BvxWN9m4YkZb0xpiddmvTUU8eTMN6c2x8vTX+9f/uTUl/vFC2s+3bIxhp5cqe9R3mgcckNvPLDvw67veaTprr7HYuKb7W/+NeG7U7/z3HnHw69aK/HcHqc+7cyWljMX7fOFM5qbz9h8jHasNypkFh0dzx/v+TpVVPr6/3sOOKCnMv6UQ+9fT1jdtt7622/Pqx/7Wm/n9lauECIQt83auu+n49pW/zuuKYHfP/rnP/pwo0rr05sYJ4Egm92Y7ei0HgI9gDDFpSYaXxRIzpDDuzZ7VIBQIEBSVwiQGdIuQK4wS4CaUUsEqCscJBP5eKHbMR0kzS4AmaWuAblub4Oa1b4M6rojczvRacSfvrStI7plVblg7vxyZbmtaJIn8XlyVXlsTL80dsygnU51nnNd7BQnO8PFA36hPfElzrHVwrb4odICc81XWqm8rj9vPtQpLnSRM5znXF1mlfJ9Z7pL7f4zyE7AuFBBkohU/3QB");
 
 export default Images;

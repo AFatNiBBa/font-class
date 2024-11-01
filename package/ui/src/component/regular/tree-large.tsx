@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tree-large` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tree-large?s=regular tree-large}
  * @preview ![tree-large](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tree-large.svg)
  */
-const TreeLarge: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 0c7.4 0 14.4 3.4 18.9 9.3L381.2 186.9c5.6 7.2 6.6 17 2.6 25.3s-12.4 13.5-21.6 13.5l-16.5 0 67.2 100.6c4.9 7.4 5.4 16.8 1.2 24.6s-12.3 12.7-21.2 12.7l-24 0 74.9 111.1c5 7.4 5.5 16.9 1.3 24.7S432.9 512 424 512L24 512c-8.9 0-17-4.9-21.2-12.7s-3.7-17.3 1.3-24.7L79 363.5l-24 0c-8.9 0-17-4.9-21.2-12.7s-3.7-17.3 1.2-24.6l67.2-100.6-16.5 0c-9.2 0-17.5-5.2-21.6-13.5s-3-18 2.6-25.3L205.1 9.3C209.6 3.4 216.6 0 224 0zM134.9 177.6l12.3 0c8.9 0 17 4.9 21.2 12.7s3.7 17.3-1.2 24.6L99.9 315.5l24.2 0c8.9 0 17 4.9 21.2 12.7s3.7 17.3-1.3 24.7L69.1 464l309.7 0L303.9 352.9c-5-7.4-5.5-16.9-1.3-24.7s12.3-12.7 21.2-12.7l24.2 0L280.8 214.9c-4.9-7.4-5.4-16.8-1.2-24.6s12.3-12.7 21.2-12.7l12.3 0L224 63.1 134.9 177.6z" />
-    </Icon>
-);
+const TreeLarge = createIcon("tree-large", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABdAAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCBQsGAAE2AiQDCAQgBYMtBzEbBgXILgd4Ms6UxYqgiCghmgLLHNuVN96B9Yj/Rjz9fr89913EpEPS5CGLJ6hiKdAsVEolUsofKkPI36q17HlieXLrFZMjUgSOOaAAPRuVijBxwEL+1M3/1sBpRaV5YOm0dBqMBZ6l7fPACywq/Q4YKBgOG3CBBSADDoQ1AotZrQLun//L6Y3nRwf4wY7sTNaiO1vtaUV7cAI9z3v52gLZ5ogS4QbnTTjE9jaE9AXUPKUkpHyWC/Aa3Wn+aE6h6GgAkGEAAAenuSxeH63kqz1AfrggkAMAywgNGswjsI0vmCewDKoqtGAbsf9AHSBAOpH8cAEVFdfgBUAFRakCpymfUlCUk7LajeTrxttxDvq4V6DryX4qxNEtSBv6PDknv0Exv4cnRBSpSP3UMMUjfVf2tOPw+G9UuA8huZrAzdX3GkI3GFwN/jlS9xhcDlUl1W1tMDA4/4v0VobGvtjN4XC3P3oWknzVYHgYaoLT0Ic0j0I/vL1PnWSaqErA2XN2MiAIc5c/iXU+eB7gd35/tSWK+C5foFsBoVlFgnrOHehI8FO9WUMLcwAUFzk5brXfGwLRi4CiU6+AxhwNAlWvFQQ6LHIj0KnXIb5UKWJcowdFvyfQ2HIMqnEvoMO2t2in8eTUOIfC/eklx8ZodBKzLTYWYJsFLe96GD0YZKc1a80b9HAu2ibGllqaepYjfC6bWBmJ7WFRX8TYWdgwAex2+fnsopa5hZ6JcThOEHvfobPeb6+H0+EB1gwpq5Ai84Kq2VICAA==");
 
 export default TreeLarge;

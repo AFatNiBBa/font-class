@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `battery-three-quarters` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/battery-three-quarters?s=solid battery-three-quarters}
  * @preview ![battery-three-quarters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/battery-three-quarters.svg)
  */
-const BatteryThreeQuarters: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M464 160c8.8 0 16 7.2 16 16l0 160c0 8.8-7.2 16-16 16L80 352c-8.8 0-16-7.2-16-16l0-160c0-8.8 7.2-16 16-16l384 0zM80 96C35.8 96 0 131.8 0 176L0 336c0 44.2 35.8 80 80 80l384 0c44.2 0 80-35.8 80-80l0-16c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l0-16c0-44.2-35.8-80-80-80L80 96zm272 96L96 192l0 128 256 0 0-128z" />
-    </Icon>
-);
+const BatteryThreeQuarters = createIcon("battery-three-quarters", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABaQAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBRQsGAAE2AiQDCAQgBYMtBz0b0gTIjpQuZyQRfG/Hf33uzIPny/MlRbAykCuGULQZWDmUMtr4VQj+1KnnOQ/Fom8UtD00IAuDe51HIGK92rQtEivWShXk7i2yRnHaN5nUJD1+Lfl3gTx+ys6rID1J3+FWftP4SwfnSWoyAFEAYPqKJYt98Xv8HvFt80fEtxYiIKaDUiBDhs4CTJIJdJYrkcsFv0dzs/0PLAkgKtFrE8hRgblYDMhBkuV50aemrqIhX+43WbvjQRtxv3V9PGwb8ahdw+YP+0W801m86P/u6Ib4ZOD73SKutXsUEWfaPqyNeGnAe2PqN9U31IuGiB7vFe/947vt3/mx2++Nr2j8/TS85tTUYhvL4xWxfFtxWrFteRQaL19unIZi0fM1bcDpiCJ+0vKNzxZvaJr0f3VdAn9+/l88OE1L76FaAkE2qHmQtYYUVgWgneK4HvBJAslUGdpqvYcChFoESCrVCpDppBAgV2ugABW6Gi1ApVpLZCKvEVpbV0FS7xDIjHEC5Fr7AFSY5Eu7UuvIVIlUBPInFzeHQ7PXyuFDhpUTymGsUNqBh/nEclrrd9zV+sNe2x2w31HbbLXLUYYcttg7Zp85EjzbF5WGG2KY0gTlcna7e7ltDjtilwP2pyUTlfutfo7L3f3BTAhzhECSiNT24RYGH1Jp8D3ijwAA");
 
 export default BatteryThreeQuarters;

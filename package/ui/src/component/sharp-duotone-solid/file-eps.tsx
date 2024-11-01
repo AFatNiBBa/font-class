@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-eps` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-eps?s=sharp-duotone-solid file-eps}
  * @preview ![file-eps](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-eps.svg)
  */
-const FileEps: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 144-272 0 0 208L0 512 0 0z" />
-        <path d="M384 160L224 0l0 160 160 0zM160 352l0 16 0 64 0 64 0 16 16 0 64 0 16 0 0-32-16 0-48 0 0-32 32 0 16 0 0-32-16 0-32 0 0-32 48 0 16 0 0-32-16 0-64 0-16 0zm144 0l-16 0 0 16 0 80 0 48 0 16 32 0 0-16 0-32 16 0c30.9 0 56-25.1 56-56s-25.1-56-56-56l-32 0zm32 80l-16 0 0-48 16 0c13.3 0 24 10.7 24 24s-10.7 24-24 24zm117.7-80c-25.2 0-45.7 20.4-45.7 45.7c0 17.3 9.8 33.1 25.2 40.8l31.2 15.6c4.6 2.3 7.6 7 7.6 12.2c0 7.5-6.1 13.7-13.7 13.7L424 480l-16 0 0 32 16 0 34.3 0c25.2 0 45.7-20.4 45.7-45.7c0-17.3-9.8-33.1-25.2-40.8l-31.2-15.6c-4.6-2.3-7.6-7-7.6-12.2c0-7.5 6.1-13.7 13.7-13.7l26.3 0 16 0 0-32-16 0-26.3 0z" />
-    </Icon>
-);
+const FileEps = createIcon("file-eps", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABkAAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCXQsIAAE2AiQDCgQgBYMtB0wbewXIhoePud4/N8nu2yaFtEOUAqMiAoUfFCBaYodlYUh+VKS6E9fUD6zwSPJHi6JYBUiBZ55PYKC/0TT6fEATmtluBrbd2crsWGmfpFGTcHzmuJwgi5vpg2okLyaX8Xj6H8D4XTcPkmiVAogSAHPXrVrih9txO4nLzU+IyxYjIOaBSiBFip4CzJAK9JSpkMkEt5Nmk9vRbFYEEHXyXaSgjgYew4uADCRqIsta+vRqPah9UWuTrS1q+b61a9aKYrUghCiKiDwPCApGBVVEJBbxfpfne7zU+blB+RrDbA57t9sLA9Y91DHiGS8OHBjPeqZjnm/b+XCX5+OlQYPiuXi+SwxSfEIUIVqHyKPW76Pyoz/7Xt572cU+r4vuDW/c+r6M5kCgjJZXBIyJqzIDFTQmmGPxpeXGgADJpeP3/m5p+fve8arPsnD3GKUVnTqtOLOs42Uud8zP/+VUo/UP/cpK2a/j5Q459zfUveCH2/LqN7zhCaXrjgMEgi/ev7xyW7sZ/zSKBNz96u/f5N9R84f4P/kIDQkI0hHNETYn0Ij/BQAgibP6JbyBQOqMGnjX1p4TIOQIkKjLBUj1UAqQyQ0XoKa3iQLU5VZJRdZK6GhLVRKtnVBSk5xXMh19rNTM8GOtrmOkfml7lf0tLFik4YWbqrGjxlTTKrOlOK5m8ur0ajoecpZGhsJeex1z1Gl77HbAacWdtKR5xhGLRsRCH1QZa5QxKtNUy937YK3SnXTKAeHR9XWmq85Xhzg7nj4UMgkxHGdLKiWSSMtH0By55/ipkQ4edmi8qwwAAA==");
 
 export default FileEps;

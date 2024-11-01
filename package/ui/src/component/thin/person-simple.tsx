@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-simple` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-simple?s=thin person-simple}
  * @preview ![person-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-simple.svg)
  */
-const PersonSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M176 64A48 48 0 1 0 80 64a48 48 0 1 0 96 0zM64 64a64 64 0 1 1 128 0A64 64 0 1 1 64 64zM41.8 234.7L37.7 284c-2.3 28 19.8 52 47.8 52l26.4 0 32 0 26.4 0c28.1 0 50.2-24 47.8-52l-4.1-49.3c-2.8-33.2-30.5-58.7-63.8-58.7l-44.8 0c-33.3 0-61 25.5-63.8 58.7zM136 352l-16 0 0 128c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-135.2c-22.1-11.5-36.4-35.4-34.2-62.1l4.1-49.3C29.3 191.9 64 160 105.6 160l44.8 0c41.6 0 76.3 31.9 79.7 73.4l4.1 49.3c2.2 26.7-12.2 50.6-34.2 62.1L200 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-128zm48-1.4c-4.4 .9-8.9 1.4-13.6 1.4L152 352l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16l0-129.4zM85.6 352c-4.7 0-9.2-.5-13.6-1.4L72 480c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128-18.4 0z" />
-    </Icon>
-);
+const PersonSimple = createIcon("person-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkAAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCQQsGAAE2AiQDCAQgBYMtBzQbRQXIBp5HXfq+7CP5gAOklABoytbysAXXMl2cep7zUADfQha0sUaXjql7n1cggLVebSzAXsELVtMKWK3N6aKKKLeIWMhDpzwNWz9s3YAtjRmDC9RB9QLY3j5UXpPGGlBYFgAAEgYAAFr2792VvCIpEnnx/y7ICzoDAiCtADAIYAEWkIkA0AQLATKxMYCNjUCR/P8f/gMNCACIG9ymALABL7Aa2ASSYe9023YgkF7d73dcAbuf49KDD5U7V+ZM6sGyZ8ufz9DHK1+ueDHrSIULlS5l9zGlzYHE3rKOcz5lf3op2cqV03Jm87S+2tHIivgevSm5T0Qe5ZSWw6pseUfOKpPTcuVg/EAZxtcfe7QgexP7U6SPYOpNoktdCl96m/ti3AuuL9fTFi+epjt+hlXy8WOJ5Scu1cDprlf5PdIb9ch/5apBxVDOjqqsyMlJGzonjLoVBDdsCOZn11PaV5NqfUZ/qMKH0X2q1SR2fIV3PatZ8WGEJ8ppY1FRcOVIPCNWXi9ZQRQABBBY+8QeMjzU5KvXUQCUPHr/K/2MEv/zpJa6BHhRAAhYVf5XYYjMI0FcaiEAAACAknmUEkgggGIxbpDys09bEjTcoHCjwSKDMNhoKoOLbOre4EbTGwuxfQhxhuJA4WcmWNRjKdjEuQ0umvA47yYuliHSZkT/Bya0W5G2SaZmtRqmkXnsmoxtkWW7sTk2KsyLUxX9UcYxnWnMYSxjmMicBZtF19JcptKOoW35IoaaVKMGhkYY9WB5uB9jmcVsJjKdaXWXxpj3UxWYxxdX9LYChLVoUigQFbBbuerHDAAAAA==");
 
 export default PersonSimple;

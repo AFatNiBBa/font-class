@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gg` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gg?s=brands gg}
  * @preview ![gg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/gg.svg)
  */
-const Gg: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M179.2 230.4l102.4 102.4-102.4 102.4L0 256 179.2 76.8l44.8 44.8-25.6 25.6-19.2-19.2-128 128 128 128 51.5-51.5-77.1-76.5 25.6-25.6zM332.8 76.8L230.4 179.2l102.4 102.4 25.6-25.6-77.1-76.5 51.5-51.5 128 128-128 128-19.2-19.2-25.6 25.6 44.8 44.8L512 256 332.8 76.8z" />
-    </Icon>
-);
+const Gg = createIcon("gg", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABWAAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBOwsGAAE2AiQDCAQgBYMtBykbtATIrgpscE9HEQ7U1osxxgeW/c1qwN0oQwTJss3uFUorFlSttlWjEQqJxDVhkUiEfmFwHyxBaHz+95v3Yl5p7/yEa4QEScynzTS0lbxFb97q8pK5FrIfUGJUNVXZ+782C8HcP3HN8z9/em+QF32kCiptLPDM8xcY+NoTJzIb2IAmPgHb7mwlE037hCBL0u/Y8blAGU+RinxPeI5vGr/GXJKqAgDRCwA4vC/k8d6MZsTv/0TDMQiIIwCziAIFJhHskAtMUpgFpVLQjP/tf+AsBBA1+KkJSpTYApcASpCyVFiteqVRUfYP6SqlcqnIMitM00YHiyyxwDKdFZxUIrrIhV4uzmEb06zslu79L/j8xv4ID59Iangz7+RxS0DuBHfvo5HGNXZyjKAQS+41Dr4GAkH9tEXHnPpr7ZABfr56+g2l/ECrBEGx+L+omYAkAAAZh5ASCKQlMvyqnV4ECO0IkGrtAhQmWBCU2i0gqEwLI6i1uyYXpRZhUKsSqdMDUVhzRJQGPRKVHR9BbTDkWsTpAPeJS862QGaTyOMTCbFMZF4xmLBMim3NQ2zY4SzGNtb2jQzN7DfQrnx8YCUrgRkfJPh5+AgJ4jh/PF42smvPzMaa1iSJ+5bNodxvB1OGKZeo+QR+yiYTAAAA");
 
 export default Gg;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `deskpro` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/deskpro?s=brands deskpro}
  * @preview ![deskpro](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/deskpro.svg)
  */
-const Deskpro: typeof Icon = x => (
-    <Icon viewBox="0 0 480 512" {...x}>
-        <path d="M205.9 512l31.1-38.4c12.3-.2 25.6-1.4 36.5-6.6 38.9-18.6 38.4-61.9 38.3-63.8-.1-5-.8-4.4-28.9-37.4H362c-.2 50.1-7.3 68.5-10.2 75.7-9.4 23.7-43.9 62.8-95.2 69.4-8.7 1.1-32.8 1.2-50.7 1.1zm200.4-167.7c38.6 0 58.5-13.6 73.7-30.9l-175.5-.3-17.4 31.3 119.2-.1zm-43.6-223.9v168.3h-73.5l-32.7 55.5H250c-52.3 0-58.1-56.5-58.3-58.9-1.2-13.2-21.3-11.6-20.1 1.8 1.4 15.8 8.8 40 26.4 57.1h-91c-25.5 0-110.8-26.8-107-114V16.9C0 .9 9.7.3 15 .1h82c.2 0 .3.1.5.1 4.3-.4 50.1-2.1 50.1 43.7 0 13.3 20.2 13.4 20.2 0 0-18.2-5.5-32.8-15.8-43.7h84.2c108.7-.4 126.5 79.4 126.5 120.2zm-132.5 56l64 29.3c13.3-45.5-42.2-71.7-64-29.3z" />
-    </Icon>
-);
+const Deskpro = createIcon("deskpro", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABhQAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCKQsGAAE2AiQDCAQgBYMtBy4bJwXIjtRO8ZUQEw/P6/F17ku+kjEypBdUNWS7VAWpBlCxav+nv/nnnUcBPqPQxsJFC6TN0ZznCQSYDe06H3+fB/bti+I3d+2UPET7SVpkLXk85/GyQR73xX41pBPpLeyrl4oftHcbSU0GIJoBYNqaFYs892l8GvHW/4i3LEBATAeVQIaFTgJMlAlyg1yFXC74NP5f/gMrAoha/OEEctTiKtwIyEGS53mXRhOLsqZxvrqsKVYNGThkV5+7Op5qc3Obo3GujJvaHW91vO/dIw8XO4s161URd7Utom+Uq4UipkYRd5qcbY+2OuxI67BfEYd739n/3q4RN7c9VpZxc3ms1x2dj5S72t7coYyX+93T/oSV8+bPO2Wf7Xl7u+73Nrv3p25vnfGWt6d8xTu2bPPQqlVZatHy5KqdS/QaOrTVJZfftvqiJk2bvHpX53rqHnhIF1f2/+QeOnK+WrX2P/3WpEmp/U03FeWWLW9t8N7JE3PnFR9rtGx6vpyYNntW1UDjHX9daentj+/a1fq2Mf/Ss9Y8/UAzjwGB4PvhS/puaTrxr/oygc+f+OXvxsRTnotP072ol0CQDfx/oI3x6f+JTwWCaCmu0F35JoHkIjlctZGjAoQCAZJahQCZjpoJkCsMEKBGF6MEqFVYIRN5g9DKpgGSRi4GmdGuB7lWHgM1JnpVq9UqMucjXIf4+8XOltCsoWrY4KHV+Grr6aQ/Ybk7oTJzfa9ImX5YdIYLXeAypzvN2S4TyCUWmZc732wNnuWHKsMMNlRlvOo4fJ5e7XSXuNTZLnRB6TNBdV/t6wq9vB/EhFGHcyWJSHXPXrrokgsBAA==");
 
 export default Deskpro;

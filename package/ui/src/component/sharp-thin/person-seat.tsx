@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-seat` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-seat?s=sharp-thin person-seat}
  * @preview ![person-seat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-seat.svg)
  */
-const PersonSeat: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M319.7 331.5L331.8 416l20.2 0 16 0 16 0 0 16 0 32 0 16-16 0-16 0-48 0-27.8 0-3.9-27.5L260.2 368 160 368c-35.3 0-64-28.7-64-64l0-112 0-16 0-16 16 0 16 0 32 0 16 0 16 0 0 16 0 16 16 0 48 0 16 0 16 0 0 16 0 32 0 16-16 0-16 0-48 0-16 0 0 16 0 16 0 16 16 0 80 0 27.8 0 3.9 27.5zM352 432l-20.2 0-13.9 0-2-13.7-12.1-84.5-2-13.7L288 320l-96 0-16 0 0-16 0-48 0-16 16 0 64 0 16 0 0-32-16 0-64 0-16 0 0-16 0-16-16 0-32 0-16 0 0 16 0 112c0 26.5 21.5 48 48 48l100.2 0 13.9 0 2 13.7 12.1 84.5 2 13.7 13.9 0 48 0 16 0 0-32-16 0zM176 80a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM96 80a48 48 0 1 1 96 0A48 48 0 1 1 96 80zM16 136l0 280 200 0 8 0 0 16-8 0L8 432l-8 0 0-8L0 136l0-8 16 0 0 8z" />
-    </Icon>
-);
+const PersonSeat = createIcon("person-seat", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABkQAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSDCgsGAAE2AiQDCAQgBYMtBzIbjAXIjtRG+UVWEg9fun89d6VPkkEmXiNyGKFLlS7cE7SelKlf1b5PXJP//vwbMGobwdAigyuw83wCA3xaaZXI34SmE7QNzht1QKEppB+hjBudpY30fPoRj7r1ccYgd5EUBUdGA4lauX/3Vl//HX9H/NBC/GAzAmIlyAIFCgwVYIlCYKhSRqkU/B2tluw/MBNAtINSSqBEB97GF4ASJG1lOX92n+596rbu5b66rTq9d9/euhZCVNXg2BdVvDPpg8ERNJMNSx7RLRi0t6qr/iuN/Ud0xhqNZk3i+X5Pj+XpfrE3+k3Dh27vz3ymeqDvU247vH5wwLNRvTj+3bFvD3puzFvj3hm8JxWprp1gKk7bG0Z90Hzw38gfz/nR8ivr3dF7fXMjazRHFqn3OMtrvXpVl2k0mh3ZQO4cprlo8YjTffuOGqbebZgelzVmzNny/LoZjcsUP/0+46weXHRF1nx6vMd93Ncja2DlO6pLbrzxkgoGts8f6ES+7Wx0/twpQ0AjAHHZBWOum3K855L/O+sE/v3qGcXNrb/jtvQBOiUQFFNaUxyJ2wArBvCTUlxjVNyGQPKyNvhTu3lGgFAhQNKuEqAwRCNAqTJZgDbDzRWgXWW3QpRdQl9HGzLp5nKyMM/NZKmvL8k2S3yTbNc3irtVc69p/hUzruuCa1flmdNm5EV5tqHS3oAqvbg4b3ZOuIYPTIQ7neNSl7jK2c5yvqs6xBW2Zq52sXVL0FpflM00zQzZIvlw+6FxHw5c4UpuMq07vsxi+froBNcsj58IPUlQOktFkohU39ymqV8ZAAA=");
 
 export default PersonSeat;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-sun-rain` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-sun-rain?s=sharp-duotone-solid cloud-sun-rain}
  * @preview ![cloud-sun-rain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-sun-rain.svg)
  */
-const CloudSunRain: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 121.3L60.7 208 0 294.7 104 312l17.3 104L160 388.9l0-97.8c-28.7-16.6-48-47.6-48-83.2c0-53 43-96 96-96c18.4 0 35.6 5.2 50.2 14.1c11.9-19.9 29.1-36.2 49.6-47.2L294.7 0 208 60.7 121.3 0 104 104 0 121.3zM144 208c0 18.5 7.8 35.1 20.3 46.8c10.6-39.7 39.9-71.8 77.8-86.4c.8-4.3 1.8-8.5 3-12.6C234.7 148.4 221.8 144 208 144c-35.3 0-64 28.7-64 64zm40 304l56 0 64-96-9.3 0L248 416l-64 96zm96 0l56 0 64-96-56 0-64 96zm96 0l56 0 64-96-56 0-64 96zm96 0l56 0 64-96-56 0-64 96z" />
-        <path d="M559.9 383.9l80 0 0-80c0-39.3-28.4-72.1-65.8-78.7c1.2-5.6 1.9-11.3 1.9-17.2c0-44.2-35.8-80-80-80c-17 0-32.8 5.3-45.8 14.4C433.3 114.6 402.8 96 368 96c-53 0-96 43-96 96l0 1.3c-45.4 7.6-80 47.1-80 94.6l0 96 96 0 271.9 0z" />
-    </Icon>
-);
+const CloudSunRain = createIcon("cloud-sun-rain", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlwAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCUwsIAAE2AiQDCgQgBYMtB1gbfQXIhofv1/w6971O6qczDNgDxOuAFDumjNxRqwiNSK1ktYoydep5zrMBnyMQTFD20njH0tqc5xUo6Jg6l0DBajXFDttG1gQzftQ4PndQpIn5KTXSK+lnvOD+BzB+M9hTJI0MIHoBYPWBvdt93o52ip87D4ifbUNArAGjBDIyhgmwTBYYpjAKhULQTp0O7eh0RhFA1Ll3ZlBHA4/jNUABklAvirFjezZArFnrXlRuRXmjWTYjXp3SmvBSvElnL3h63KsTPiwfTPp4mAB5zby/2r8v9ruNlkbEh0Nejbem3l/4zPj7U6vYFzy2b/8rk1+r50x8aeCL5fsTZg061CybB6Is9zUjXYwf0+rV+mP0z+d/NnPlrnCa7v37fTOwEdW5XkOWf7316JDHWq2uMOHQoXwSJTYuq85yoZdeF1x22tGvvxna1Wo9NuzY9Ha3HapllGvnem97oeo2+rkF83+q9f+n/9u9e5cTZy5atGjlCY2ZK0+czFgt8jwQCD7ouzWd6Lns765mAr989tev4nydz9NjqYUuCQR5Wmeao+kxYNQA4ikeMqbtKz9HIKts30/t5kUBQokASV0pQDZULwEKpakC1IwwX4C60l5ZFA2hn2M5SLq5BbIFHgaFfj4FNct8l6jrF/mWFG8o8YswbUMZWj9q1OwZs0YtGdVZkKS7jNeDS0eN9iY9xBsmw7XOu+G6u84565K7JfK27el7rtnQB6/3Q6PMNsMsoywxanb5ulaVErfdcaldmT/MUqPWjyZ5qL/9ZBgmgXGOOVkmUuQBPydMTL9z7/r0V8eafnu3GtSkXMsAAA==");
 
 export default CloudSunRain;

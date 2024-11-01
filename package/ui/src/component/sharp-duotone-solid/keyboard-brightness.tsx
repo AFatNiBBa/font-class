@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `keyboard-brightness` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard-brightness?s=sharp-duotone-solid keyboard-brightness}
  * @preview ![keyboard-brightness](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/keyboard-brightness.svg)
  */
-const KeyboardBrightness: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 352l0 64 32 0 64 0 32 0 0-64-32 0-64 0L0 352zM66.7 176l22.6 22.6 64 64L176 285.3 221.3 240l-22.6-22.6-64-64L112 130.7 66.7 176zM288 64l0 32 0 96 0 32 64 0 0-32 0-96 0-32-64 0zM418.7 240L464 285.3l22.6-22.6 64-64L573.3 176 528 130.7l-22.6 22.6-64 64L418.7 240zM512 352l0 64 32 0 64 0 32 0 0-64-32 0-64 0-32 0z" />
-        <path d="M192 352l32 0 192 0 32 0 0 64-32 0-192 0-32 0 0-64z" />
-    </Icon>
-);
+const KeyboardBrightness = createIcon("keyboard-brightness", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABeQAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBawsIAAE2AiQDCgQgBYMtB2IbHwXIhod/1ny7b2aS8zMpwxQYFXB+icjXkbAEquwwQhZ3V7FanZFT442X6t+oaOe9+J6fc+MTKPi+3XhFJrSBzIwH/22Odw4OkdwWIRJ2yNGw+YetF2TJoPSGEsndpI6b7X8A4y9d3SBRSQFEGwDMaV652Puf8TOJeuMFUbcIATEXFAIpUvQQYLpUoIdMgUwm+Jk0GvyMRqMggChrOaagjCbUsBmQgUQoZVml0tZzq1RLLbNatZQ3V/OWIs8jhGo1Iq8NGTpkeQyJWTE0VpSDMb1ZEKIaVOerZ8ycMSxWBvDMGBzLtNW5W/vea3Pvnz71XXXvNheF2Yqfs22ZbWaxpQc9HtdoaNipruYKvh4usLdYkllw7XHdGnZqqKnD23A4+zsgEJz5Y0ptc+vp/zdVE/Dby//+5ObkSnIPTRIQpMMbw22YMUGmAC8kcUpfvug9AqkFSnjXFm4JEHIESJTlAqS6ayNAJjdMgJJeJghQllspFVlF6GBjJxItHCVSE10kMh08J0qm+1As6xCpvBhxMH93iQtHYEFWMWbk6GJq8dp1s4qhju1pxbI5+FSdGsJVuxx2yAk77bDXiQE6ZnHlpIMWRuACH1QYY6TRClMV6cHP8zU7HXPcXocdOneZpvg+HexUvHgITsJJx9qfSokk0u77d54Vnz1im/Qqh3YePz5ity7sOec3JwA=");
 
 export default KeyboardBrightness;

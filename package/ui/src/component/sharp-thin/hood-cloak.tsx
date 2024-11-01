@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hood-cloak` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hood-cloak?s=sharp-thin hood-cloak}
  * @preview ![hood-cloak](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hood-cloak.svg)
  */
-const HoodCloak: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 464l64-80 0-96C64 128 160 0 288 0L457.4 0 480 0 464 16 418.7 61.3 407.2 72.8c4.5 3 8.8 6.2 13 9.6C475.4 126.1 512 196.6 512 288l0 96 64 80 0 32 0 16-16 0L16 512 0 512l0-16 0-32zM288 16C172.5 16 80 132.7 80 288l0 96 0 5.6L76.5 394 16 469.6 16 496l144 0 0-176c0-70.7 57.3-128 128-128s128 57.3 128 128l0 176 144 0 0-26.4L499.5 394l-3.5-4.4 0-5.6 0-96c0-93.5-40.1-162.6-97.8-202l-16-10.9 13.7-13.7L441.4 16 288 16zM176 496l224 0 0-176c0-61.9-50.1-112-112-112s-112 50.1-112 112l0 176z" />
-    </Icon>
-);
+const HoodCloak = createIcon("hood-cloak", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABfAAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCLgsGAAE2AiQDCAQgBYMtBzEbLwXILgpstxUdJnTC0ov1iQyNPR4+dKLvS7IvscOgMOOWKTwhFhF8XXMdu9bJ3Cubc736+R4BkPAP/iOnxhsvFfBZXc/H4vn4wO+NV2Dx0Tu4L7T4cDZgGMP2polNVtm7MtEkHU92vJ0hi99tVCC5lsCZ9qZxV3PHSKQpgKgHgHFLFszyTiUqEZ9XXyQ+NwMBMQ7kAilStBJgpFSglUyOTCaoRLWK/4E5AUSRvHQCMhRwEKcBGUikWdZlcN1yoXa2uFwoWbJwScTPS36e8/WScrlRjIxGcanxm/2eXSQWhRClOhGx5YeFEUkWPKKfEOWIuH/M21M+HHW77CyOJiHWT/0brs83jTFRWloulSNud39s8AtdH2ml/WP1Hvu3nc1fqDdmDmPWMrfV2J/TuPFYjzat4nUbFp49ysS1xsyRq6de33rytm8vjWEzGD49Dq9V1MHIGVo46xmFgRPmzp0wsPCMs1oYMcMARWuZdP6+9qcvXNvzd6VSeaa6/8M9AwSCn5789Jq6I/+rUU7AP6+5Wx5XfScZmzyGGhIQpD2rPa1MxgLiA/CSOKy980GBxE4pOVnLZQFCCQNOFJXgVEv14ExJD7igjUHU5okFUpHVFBpZBeBELfvg1GBH4Ewjz8MFI33sFjWKNP6Y6GF+f4mTLTBpVt6vd998eL4MKRtSFI9H5NtS18NU6gZ7bbbHbgdtstE2Bw2036zgkF0me+AkX5Trp7e+csPlx8nz9sU22e+AbfbYXaeMkN/XuzrsN3eDeSSA/i9H0eJISlv37NnYa8POPet2AAAAAA==");
 
 export default HoodCloak;

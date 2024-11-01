@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `glass-citrus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/glass-citrus?s=duotone glass-citrus}
  * @preview ![glass-citrus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/glass-citrus.svg)
  */
-const GlassCitrus: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M.2 163.2L29.3 454.4C32.5 487.1 60.1 512 93 512L259 512c32.9 0 60.4-24.9 63.7-57.6c5.6-56.4 11.3-112.8 16.9-169.2c2.1-21.4 4.3-42.8 6.4-64.3c1.9-19.3 3.9-38.5 5.8-57.8c.9-9-2-18-8.1-24.7S329 128 320 128l-30.4 0-64.7 0L32 128c-9 0-17.7 3.8-23.7 10.5s-9 15.7-8.1 24.7zM67.4 192l217.3 0c-2.1 21.3-4.3 42.7-6.4 64c-6.4 64-12.8 128-19.2 192L93 448c-6.4-64-12.8-128-19.2-192c-2.1-21.3-4.3-42.7-6.4-64z" />
-        <path d="M448 144c0 44.2-35.8 80-80 80c-7.6 0-15-1.1-21.9-3l-6.4 64.3c9.2 1.8 18.7 2.8 28.4 2.8c79.5 0 144-64.5 144-144S447.5 0 368 0C293.9 0 232.8 56 224.9 128l64.7 0C297 91.5 329.3 64 368 64c44.2 0 80 35.8 80 80zM73.8 256L93 448 259 448l19.2-192L73.8 256z" />
-    </Icon>
-);
+const GlassCitrus = createIcon("glass-citrus", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABkQAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCGgsIAAE2AiQDCgQgBYMtB1QbQAXIjsQ4hvKrQVQ8/H+d3+9zq5LVL265muA3NQQ1/CN7nPifuNz526YFsgBwbv57kF3RGPM8gc7z4XHn+QbNNANrdNvVmqASiq8zLpDHF9mFSqTb0ke4xv0PYPyqtwtJOjIA0QLAoh1b1nntq/gqxUftp4iPrEVALAaFQIYM/QSYKxPoJ1cglwu+Sm2+inZBAFHmwIxTRp9xJE4H5CBJUp4P6RjarVqq59urpcohd46MeHTq5T2KuKn67oJXh9w//5Xlb819qajGHWOeGPH0qMf677tt+7Zq7IhKtmv3rtuGPTSsGo+MeKTvA0Pu6HtLTyCw6h43Vyq1y7vd2H1WVaV6Y7dbe93ZD1KVuHvATW7vM/jx1uO/D/ro4I+8OiG2c1Crev8+vmi8dumltdqll7x+7gEnHLzIHosWftY6aHucdEyXV4H/MFzhI/37DYalIwcOPPdh59qTI5csnbCgMUCr0b8+oH75bUVVatx+WX1xvy8Dp1+9c5cFG/yHST7yU64HAsEPPzV/2ac59/9O1QS+eeHPf6EefkavJelxdJJAkI1tj7Vn0iYRAIAUJxucWN0WyMyUgHutuVmAUEGApKwiQKavlgC5ijEClAwwTYCyii0ykXcI3exV0knNcXRmurPoXDdP0iVzvRuXdYvsspMvGvmnL2N5HVi2r5g0fmIxuxjsysqVJOrtOcXsYOTJfGoUPOtgxzjaiQ5yoMOcWMOPty47yVGWj2HLfFFhkvEmKsxWrB7cPr7dQY53gsMc42i7yxzF/tFIJ48vHgUPkwCTD1hDRqTIur1k4bgDDvsG5oy7gmd7dGg3KwAA");
 
 export default GlassCitrus;

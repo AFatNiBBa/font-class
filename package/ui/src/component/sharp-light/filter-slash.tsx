@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `filter-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/filter-slash?s=sharp-light filter-slash}
  * @preview ![filter-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/filter-slash.svg)
  */
-const FilterSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M40.4 18L27.8 8.1 8.1 33.4l12.6 9.8L599.8 494.3l12.6 9.8 19.7-25.2L619.5 469 40.4 18zM576 96l0-32 0-32-32 0L139.6 32l40.5 32L544 64l0 20.2L407.4 243.5l25.1 19.8L576 96zM352 362.8l0 78.7-64-56 0-73.2L256 287l0 113 96 84 32 28 0-42.5 0-81.4-32-25.3z" />
-    </Icon>
-);
+const FilterSlash = createIcon("filter-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABXgAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBPgsGAAE2AiQDCAQgBYMtBzMbwQTIHgl27MhWxHD7Yzz8/xq/3+fOIOKDmEgySzSxRHok00q2yiLq16p9b4WQvXjzf7nn9/zoAL/RoY2FSw9kbN1T70ogwKJeNib2AomyMEsUs27+kaKU25KX6CUN2w9rZ8jj7+igFOlG+oBz7UPjm3pOkOQZgKgKgKGzp0/05HN8jvjwP+KD8QiIYaAQyJChoQADZAIN5QrkcsHn+P//+B9YEECUxscmkKMUhmICIAdJlufVatSqUKpSPitvKD+/dq3abaJWbA3Pax+1Y9vGEBHlK/aNSiFmRNuYPUeYFhHtQsyMthG6vtm9qve++2HVB60flvCAPt4a9kyJPkoMf1ZnYiH7KC4ftkFNZ2666OytT0yWV/wyzm9bLZ7ub+1M8xsIBLXvfGxxlQE/ylZI4Ovj9/vL/v8k7Un3UFYCQdbh/w4WpCPKKmtMBTqk2KUZviiQ9JXBu1Z0VYBQHgGS0soLkGmgqgC58toLUEpjPQUorbzpMpGXE2paqCCpaCvI9HIQ5Gp6BEoZ4LVcWs3I/IjwAuIXFztqhkauKrp26lL0K7ahQboGVsb9i2Ouza5UaoudVtlskx1WWmGtHROyzURtp41GWfBIP1ToqpMuCv0U18nr9llW2ma7tTbbVJfpr3gvtbHLbm4LMSFqN64kEamig9k6bt+wdPsaAAA=");
 
 export default FilterSlash;

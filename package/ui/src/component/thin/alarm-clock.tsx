@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alarm-clock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alarm-clock?s=thin alarm-clock}
  * @preview ![alarm-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/alarm-clock.svg)
  */
-const AlarmClock: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M93.7 0C42 0 0 42 0 93.7c0 18.5 5.4 35.8 14.6 50.3c2.4 3.7 7.3 4.8 11 2.4s4.8-7.3 2.4-11C20.4 123.4 16 109.1 16 93.7C16 50.8 50.8 16 93.7 16c20.4 0 39 7.9 52.8 20.7c3.2 3 8.3 2.8 11.3-.4s2.8-8.3-.4-11.3C140.7 9.5 118.3 0 93.7 0zM45.7 509.7l57.7-57.7C143.4 489.2 197 512 256 512s112.6-22.8 152.6-60.1l57.7 57.7c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-57.7-57.7C457.2 400.6 480 347 480 288C480 164.3 379.7 64 256 64S32 164.3 32 288c0 59 22.8 112.6 60.1 152.6L34.3 498.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0zM256 80a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm8 88c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 136c0 2.4 1.1 4.7 3 6.2l80 64c3.4 2.8 8.5 2.2 11.2-1.2s2.2-8.5-1.2-11.2l-77-61.6L264 168zM354.6 25c-3.2 3-3.4 8.1-.4 11.3s8.1 3.4 11.3 .4C379.3 23.9 397.9 16 418.3 16C461.2 16 496 50.8 496 93.7c0 15.4-4.4 29.7-12.1 41.7c-2.4 3.7-1.3 8.7 2.4 11s8.7 1.3 11-2.4c9.3-14.5 14.6-31.8 14.6-50.3C512 42 470 0 418.3 0c-24.6 0-47 9.5-63.7 25z" />
-    </Icon>
-);
+const AlarmClock = createIcon("alarm-clock", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABnQAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCXwsGAAE2AiQDCAQgBYMtBzIbYQXIBp7n897OfckvwNRI5REzoFeAvKNWwh/38/xb0wd8Rh8tCksbC+RT5NbnExhwtO68incTmOkEbLpNlodHGH4RIUEh0nHacbUDuhyjCzZQS9R1YFZ7K/lAIONBoWkAAIgHAABQ3tyqx+mn8lTk+v8DINepAwiAVABgIICGc4QgABShIUAIOgagoyPwVP7/5/9AAwQAxA5FFc/XAXtgFrACANABUNh0PTg22CvQ2eaqN3O2ObXeHy+yOWR04AL/RX5LZVXSttwNCXPi1pwWVkPrTtNHViOxr20s95qvzdxb+2r18zUvp+82HjRqKPN9F/i3npYvciRjD6PTd+cddppacDRzr4zJ2ld4zLnpQr/5Psho36Zhr5lIc3dsW9yBhC2howNo/8tkZeLWnP3xkVs9tn6KuN7tOm1PDdgCS+1DXpmdK2P3+NO0KU+tyiZm1aKytL9T9E5PWkkreTIFyzLNxayQVm53ziaHPn0amnz2jpu0WrEY07SsOzvyP8D707tzc3effv8hXxLl8+yb23XoYDcZPaJBKVaVWVW3mPGtZlbLbmJVPqVpU/z3xFZ2Nl+F2C/dMqBsEQAIIGC3rWh4e/eirw7OCoDnR7/8ov+K/p9UqK2AAwoAAS35fzJtFAAKBAAAAFAyjEgFIIBiEjbUdGFhNBKcgEBhhxNoBOMBOk4kgY0wTNY530JDdEcEH9oCFC4MBI0cRoCOD/vARhGXfDt8RMtLPqv4b2FKdYtUG2dkpKYbBcY2MYRUY+twoeFW44dxIwFr6UZ/+jGErnShJ0MMPYh60VD6Uv1EVeOLGGSQSjoGBRjh/HV5M7oyiMH0pD/9ZJRCjPtmPMPOnRNgKJQxky0KBaKcO/bpOKhvyjsGAA==");
 
 export default AlarmClock;

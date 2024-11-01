@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tags` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tags?s=light tags}
  * @preview ![tags](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tags.svg)
  */
-const Tags: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M204.1 32c12.7 0 24.9 5.1 33.9 14.1L410.7 218.7c25 25 25 65.5 0 90.5L277.3 442.7c-25 25-65.5 25-90.5 0L14.1 270.1c-9-9-14.1-21.2-14.1-33.9L0 80C0 53.5 21.5 32 48 32l156.1 0zM36.7 247.4L209.4 420.1c12.5 12.5 32.8 12.5 45.3 0L388.1 286.6c12.5-12.5 12.5-32.8 0-45.3L215.4 68.7c-3-3-7.1-4.7-11.3-4.7L48 64c-8.8 0-16 7.2-16 16l0 156.1c0 4.2 1.7 8.3 4.7 11.3zM308.4 36.9c6.1-6.4 16.2-6.6 22.6-.5l141.3 135c52.8 50.4 52.8 134.7 0 185.1l-124.6 119c-6.4 6.1-16.5 5.9-22.6-.5s-5.9-16.5 .5-22.6l124.6-119c39.6-37.8 39.6-101 0-138.8L308.9 59.6c-6.4-6.1-6.6-16.2-.5-22.6zM104 112a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Tags = createIcon("tags", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABcwAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCAQsGAAE2AiQDCAQgBYMtBysb/AQjEdZyBdkPD/9v91/73KoPuFrkWIq6nY0cCYw6nPXm/1y6eD4a4LeRDS0KM7V8b1RX9fwEDjjK204kgc/0BOzeNvQ0QrFTREihRDSmNE5HyOP5GKuM9EB6G7fxQ8VfulxNkmcAohEAi/bba51Xvo/vI94uPUm8bQ0CYjEoBDJY3ivAXJnQR8gVyOWC76NUov/AggCinHxKAjnKcSjOAOQgyfO8u7urqqemrC7ft6as+qCb2vaJHS4fuXdsr75x9L5xb0Q81HHfiJq999l3n3tqburYL+6LK9r3jXurq+PuVnF521H37UMvQnOtu9vvNaFd1NE9Ovbe0nX/0K3dD40YvLNx5z+D3j72bW891vrN7t2au7tarrnGoCpOUsu/aX1Y9s7XEx/e+umu3SV3f13d/Vdf7QYUbsDbTK142Pf1D6tYUv/BjmduvtZ506add9G5ntlx04MQfTNixDeLwoM3vbV6U1vbJiYCcdmrv734/2ENc/dU1kgS+PG5//Zov6LSV0naiUoJBNnY0lgHJ5AIAECKcw1OEEj2leNHrXWvAKEaAZJy1QJkejQKkKs2RoAy/aYJUK7aXjKRVwmtDhkgqXUGyEx3CchNWj0Oysz1WlyuNbJAY8KE+eclLtfoskXFpPETi9mFWeps7FB5dk6xLY08N/WMgoOOdZpTne0YRzvB2Qo/07rsHKdY7mHLfFFhkvEmKsxWHDfPu/d1jDOd5QSnOZXmmaO47410rj98FKiJkE5WSBKR8pcC");
 
 export default Tags;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `text-size` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/text-size?s=sharp-duotone-solid text-size}
  * @preview ![text-size](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/text-size.svg)
  */
-const TextSize: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 32l32 0 128 0 64 0 128 0 32 0 0 32 0 64 0 32-64 0 0-32 0-32-96 0 0 320 32 0 32 0 0 64-32 0-128 0-32 0 0-64 32 0 32 0 0-320L64 96l0 32 0 32L0 160l0-32L0 64 0 32z" />
-        <path d="M320 224l32 0 256 0 32 0 0 32 0 32 0 32-64 0 0-32-64 0 0 128 16 0 32 0 0 64-32 0-96 0-32 0 0-64 32 0 16 0 0-128-64 0 0 32-64 0 0-32 0-32 0-32z" />
-    </Icon>
-);
+const TextSize = createIcon("text-size", true, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABbgAAAHbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBcwsIAAE2AiQDCgQgBYMtB04bEwXIhofv9+bOfe/vTvKXXh6lV5UoSi+OmTSPay46FhQK14UPILtC79SpmgEcsDwHNB60sWnipGzwNTvOe14scKzlTQWeQtUaWq2d3Q9+UGKSpI8nGTafYXGEKi3KAxqk1+krnof/AYxfphog6cwAYgwA9hw71O39t/iW4mv7LfFVFwJiLygCGRkzBNguC8xQKahUgm+p3eZbtNuFAKIpPFAGTVQ4i0uACiQhqmrJilZjZHW01agvteqRQog6IuoQrZao6wAUbI+mfp6imZzQLPDhuUNjhv7M+Xr1q13DpewukrKbvR5jSpF6YI7pkay2PVhKTxHy+YyX3cqgf15B9wOBoON76To3evv/jlYCP979+4nbtb+lnjSEDgkEeXl7udOpBxwxgB+V4qm5qSd2I5CtkMRPHeGFAKFGgKSpFiCbbowAldoyARpm2SBAU+2QLKpOYYIzFSQjPADZRs9AZYI3oGG7D1HThMgmxhoI+8NLOtiiB3aVNStXl61lmCmc1dB+fVtZVhc/5c4S7HXVPXc9dsVlNzxusIe60yfuOKiRD3ypWGOl1Yqtiu1SOeOoKx565EZf2N9km3LeWuypPr4ERhIp15rJMpEij7U++hWaV1Zc1s54IVxLAAAA");
 
 export default TextSize;

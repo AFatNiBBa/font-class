@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `prescription-bottle-medical` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/prescription-bottle-medical?s=thin prescription-bottle-medical}
  * @preview ![prescription-bottle-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/prescription-bottle-medical.svg)
  */
-const PrescriptionBottleMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M344 16c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24L40 112c-13.3 0-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24l304 0zM40 0C17.9 0 0 17.9 0 40L0 88c0 22.1 17.9 40 40 40l304 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40L40 0zM32 160l0 288c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-288-16 0 0 288c0 26.5-21.5 48-48 48L96 496c-26.5 0-48-21.5-48-48l0-288-16 0zm141.3 57.3c0-4.4 3.6-8 8-8l21.3 0c4.4 0 8 3.6 8 8l0 44c0 4.4 3.6 8 8 8l44 0c4.4 0 8 3.6 8 8l0 21.3c0 4.4-3.6 8-8 8l-44 0c-4.4 0-8 3.6-8 8l0 44c0 4.4-3.6 8-8 8l-21.3 0c-4.4 0-8-3.6-8-8l0-44c0-4.4-3.6-8-8-8l-44 0c-4.4 0-8-3.6-8-8l0-21.3c0-4.4 3.6-8 8-8l44 0c2.1 0 4.2-.8 5.7-2.3s2.3-3.5 2.3-5.7l0-44zm8-24c-13.3 0-24 10.7-24 24l0 36-36 0c-13.3 0-24 10.7-24 24l0 21.3c0 13.3 10.7 24 24 24l36 0 0 36c0 13.3 10.7 24 24 24l21.3 0c13.3 0 24-10.7 24-24l0-36 36 0c13.3 0 24-10.7 24-24l0-21.3c0-13.3-10.7-24-24-24l-36 0 0-36c0-13.3-10.7-24-24-24l-21.3 0z" />
-    </Icon>
-);
+const PrescriptionBottleMedical = createIcon("prescription-bottle-medical", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABogAAAJ4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDFAsGAAE2AiQDCAQgBYMtB0IbpgXIhofn7ao/91V172z1GLVyL+gvKhIZTfYdZN8pI2Himud//vT0rxUEjxRJ31uDRAJ16QQGGO1NE5oN7EF1bFM3JT0UlEofDylFXJFtx1fYcY0du0IelztBhfRA+hy3tS+NH/S5gSTLAEQrANYevH+n0W/j24jP/3+H+Nx2BMQ6UApkyDAowAqZwKBciVwu+Db+/z/9B5YEEFXyMxLIMQav4G1ADpJKnrf2j5s3tVZpyg+qVYqTn+kT909sjGf7Ix6a0nTcjZ0RdxPXdN1Ta4qbeu6LiGu77y0aD0hZemDaC5Nq8dyMlwayKCLF/Z13Tyzi2e57+7MoDryvpxb3dIlrasS4u7OIGzHu7Y64thB3lEsrB57uFUV084GiAHluIAJ+cHIRN41/sfXFn8Z9ftLnDn5tb1dd1966vH1OS9tLfNhW1/bhS7Be0tiYx0opLdraHh/1OF0uSq1K2Rdf1kfVv/wis+tvXlI9ptsx1ZkaGmZyrNoNijZcrc3b2vKZF+/tmmiiTu7WtXeiiQu7ze+DQHDYlQt/Prplxa8NtQS+//CXv/DL/4/GNelFNEggyGb+P9MRcQ0QP4BMiouMd0IWSJ5RAfnURvcKEAoESKoKATIDWgXIFWYIUDFsoQBVhf0ykY8VOh2paNLoXDSzyJVortNbaMUKH2WqOiMLWSXglBfGzE0W2LiqnDu7Xi4rD6uGGoVSnV5ebjtTL8pd03DRSc52lguc6ASnusBA59mZv9CZNnngRiEqzTVbXWmZ8nTj+fRBTnSe853qbGfxMsuV96enusgfPA1+IoLzHEoSkQbOOe/E74HSp5591m8f02ecOOs5BgAA");
 
 export default PrescriptionBottleMedical;

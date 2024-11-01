@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grid-round` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-round?s=thin grid-round}
  * @preview ![grid-round](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/grid-round.svg)
  */
-const GridRound: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M112 96A48 48 0 1 1 16 96a48 48 0 1 1 96 0zM64 32a64 64 0 1 0 0 128A64 64 0 1 0 64 32zm48 224a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zM64 192a64 64 0 1 0 0 128 64 64 0 1 0 0-128zm0 176a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM0 416a64 64 0 1 0 128 0A64 64 0 1 0 0 416zM272 96a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zM224 32a64 64 0 1 0 0 128 64 64 0 1 0 0-128zm0 176a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm-64 48a64 64 0 1 0 128 0 64 64 0 1 0 -128 0zM272 416a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm-48-64a64 64 0 1 0 0 128 64 64 0 1 0 0-128zM384 48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM320 96a64 64 0 1 0 128 0A64 64 0 1 0 320 96zM432 256a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm-48-64a64 64 0 1 0 0 128 64 64 0 1 0 0-128zm0 176a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm-64 48a64 64 0 1 0 128 0 64 64 0 1 0 -128 0z" />
-    </Icon>
-);
+const GridRound = createIcon("grid-round", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAAB9gAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhhiELQsGAAE2AiQDCAQgBYMtBzEbLgbIrgpsY9ZCj6Y7QIM1Do1OPOKg9OG69RMPX/vxO3d3v5gk1eRUono2L4EmXjqJ6RriHyIkTfb+fsy9P/Mo9ifiTdOWTJo6eKMUUak0jpIIiaN7MteKwwacSZAGCIud5mb+dX0//9fUCzsvkG8nELVC6tB525oigsbj4z3P4AltQJvgxGyL226KmIU2CIUHlHjhMjLpWYJHwer4ZsAKSc4CMtpl2zuWTMDLfvAXQu+riPcOAgFxAGAcQkbGMAQ2EQWGkYwDRRHsx3+V/weOgwCiFsGScwXdwA/8Ybw0SWcpLTjcVNNSjmY/rfHUUw40R8J17bH6UBC6J/pT97Px3HDmSc9aoe9d5a9QR8I1kTe+Ocp4LttatO5EXN8vLC11URg8oDjjnX3IxdVzjCsPF3uMnF4tLchkFttk1vfp5Jsdz892MP0///37edbcnQO69d/MdtvKK3/meQCBYOLzh85xN3/XNyXw5e3nV3miWom3dIZ6ieTkuWpOKd6tQBUFRNEUdyjwNwkkX3XC79rssQChEQGSWo0CZEN4ECgazUKgxig3BGo1OoQoSoPQrdyCpNl1kG1YBkW3e1Bj02u0Vndk8DcCr/HvM1usj0aVcBYbDuDFgtoE0Xo7GMS7fc7IBj3eCjV9PRNVFU2THj6SSEx1xdaY0c9idhY2WAA+XX68PqNqZKypr+fnCcL3h3Rm1tvrcZAg0roiL0lEanzLHebvFAAA");
 
 export default GridRound;

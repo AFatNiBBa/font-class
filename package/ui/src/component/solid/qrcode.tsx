@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `qrcode` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/qrcode?s=solid qrcode}
  * @preview ![qrcode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/qrcode.svg)
  */
-const Qrcode: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 80C0 53.5 21.5 32 48 32l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48L0 80zM64 96l0 64 64 0 0-64L64 96zM0 336c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96zm64 16l0 64 64 0 0-64-64 0zM304 32l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96c0-26.5 21.5-48 48-48zm80 64l-64 0 0 64 64 0 0-64zM256 304c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s7.2-16 16-16s16 7.2 16 16l0 96c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-160zM368 480a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm64 0a16 16 0 1 1 0-32 16 16 0 1 1 0 32z" />
-    </Icon>
-);
+const Qrcode = createIcon("qrcode", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABowAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDEQsGAAE2AiQDCAQgBYMtBy0bjgXIHodxTLGVGF0v4uGfuXrvS7KUfIZ8IlLA5IA8EJdd1boSO5pTi6p6EuyJOUNq8a8uHX/r9IDHT/Ao+6WlF5Dmh+nVQgEKcCix2oRiwViEI0RZ3HYVRDQ0Fho7yOJuekENye3ka1wMbxp/6egCiYYUQLQAwIyVS5dorEQl4qtqxFcWISBmgFIgRYouAkyWCnSRKZHJBJWoVsV/YEkAUSshE5dnKPAaHwEykGjIsk4NHOvb0FDUNM1W6N8wT++2j7jZr4jnba93FLfaXOudx4t2NzrFHKGIiHzZ9vS1RV7smHEHxMLleZGLImLZzfZFXG+beopoAQPGxLU2edxoh8HpvSeWS3kdsKtoVu/5psWbf7zja4fSb/h1OMN//SbdBBvCW52eWPiY0/7bj/w3TZK/ZfShph3ATn/XrDJdpVlJlCBCm8wAB6ZbSzw6+MFEWtab54FAsO3HX+5vbD75//oiAX9++t/sfNVKNCZvUC8BQTq4Oti6aAQhDCCdxAk9dz4okHisQfKqTdwQIOQIkKiVC5DqrIUAmdwgAWp0M0aAWrmlUpE1CG2s71GiicMoNdZJlGnjE1Rjss9StdpECrAquKn/i1lzx8ScWeWIocPLieVmTqvBoLzbO6k87e1/QtYMwEvtcNABx2y3zW7HRvwRS7LH7Td3j5vji0ojDDVcaaLydvG5tWKUOuKo3evG/UkmKd9P9ndiv/kAHEgkoiPNSSREUnv4yGcMAAA=");
 
 export default Qrcode;

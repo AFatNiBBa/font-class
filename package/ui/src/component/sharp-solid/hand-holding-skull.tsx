@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-skull` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-skull?s=sharp-solid hand-holding-skull}
  * @preview ![hand-holding-skull](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hand-holding-skull.svg)
  */
-const HandHoldingSkull: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M432 128C432 57.3 367.5 0 288 0S144 57.3 144 128c0 47.4 29 88.9 72.2 111L208 288l160 0-8.2-49C403 216.9 432 175.4 432 128zM240 112a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm64 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM140 327L68.8 384 0 384 0 512l32 0 192 0 160 0 12.4 0 10.2-7 128-88 33-22.7-45.3-65.9-33 22.7-94.5 65L256 416l0-32 32 0 64 0 32 0 0-64-32 0-64 0-64 0-64 0-11.2 0-8.8 7z" />
-    </Icon>
-);
+const HandHoldingSkull = createIcon("hand-holding-skull", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABeQAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCDgsGAAE2AiQDCAQgBYMtBzkbFwXIhof/t+v7fW5V93pTPcYdSRGsbOYDziSmP4JSIe6Jy+mP86cHXOSPsqduHCuM5jxPILEuTyBrW2CZJmBZO/vlvx6fRZIgkgzbDaszlPFtcaUa6b70NW6xD41f9XAlSasCQLQHwPwNa1Z7/6f4KeKr5ivEV1YiIOaDLFCgQG8BZikEeitllErBT9Fs8n9gJoCoizeeQIk6DuIsoARJWZY9OnXq36i1Kdc3atWBB+dEvLvk41lv50uHPzE9RyMGxFsjn4r1N3SJuMulne+sru96d1zW7Z7GcrUjhJ72cHPt2g1rq3BBatMtNsRMO6aZHAzEBRoRVdV5wJPtn/y9/9f7v/bc3C5nueL9968422XQrFFOut9JRs0a9F67ttdybdvUw0uaffrQq0um+esvdql89FGXbFA3er66bfPcIMs758lfXQ0Egv9mb/hmR7tZ/7c0EvjlzT9/zz8jzffTtPQkWiQQFKOao2xN89CSpgkAQIrzBqR5CCQ7lfRdW7tbgFAhQFJXCVDopb0ApcpIAWr6mixAXWWNQpSthM62VSxp7RRWmOICVursJaxmls+yus5R4I1HC//bS1nSwosP5fFjxuUZedlTBAixbndmPnaGnZeZ4XTSficcd9Y+ex1ytkFPW12ec8ySHbLYF2XjjTFONkO+Hj4eX2+f08445ITjYZ+Z8vtgmPP75cPJTyLlBF1JIlJHeBqj8dsx+syRc0ePAgAA");
 
 export default HandHoldingSkull;

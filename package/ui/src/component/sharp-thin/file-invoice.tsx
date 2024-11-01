@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-invoice` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-invoice?s=sharp-thin file-invoice}
  * @preview ![file-invoice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/file-invoice.svg)
  */
-const FileInvoice: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 496L16 16l192 0 0 152 0 8 8 0 152 0 0 320L16 496zM224 22.6L361.4 160 224 160l0-137.4zM224 0L16 0 0 0 0 16 0 496l0 16 16 0 352 0 16 0 0-16 0-336L224 0zM64 64l0 16 8 0 80 0 8 0 0-16-8 0L72 64l-8 0zm0 64l0 16 8 0 80 0 8 0 0-16-8 0-80 0-8 0zM224 432l0 16 8 0 80 0 8 0 0-16-8 0-80 0-8 0zm80-192l0 96L80 336l0-96 224 0zM80 224l-16 0 0 16 0 96 0 16 16 0 224 0 16 0 0-16 0-96 0-16-16 0L80 224z" />
-    </Icon>
-);
+const FileInvoice = createIcon("file-invoice", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABcAAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCDwsGAAE2AiQDCAQgBYMtBzMbEgXIhiCa+6/qST4lC1ni7CpmOGJ1jsiSInbA8twHe8D6TZ3KyaaEAvici3DQxsLRMUHmpDnPK1DA2h7UKxWoVrBqBa3mNrqVCS+LDhFBeTA0F5onyOMexzWRnk/f4+n8ofGrQR4lyTIAUQFgya5tG3zZER0R3zXeI76zDgGxBNQCGTIMFWC+TGCoXI1cLuiIRoP/A2sCiGbyvARyFDiJa4AcJK153rOlVxti+pRN3fOd/vXFsCxlZQhRlim67duxc0cREUVZiBSi7B6Rxc7tQllGFAXfA+0ki7DKnRswqwyZXIx6o3rj95Hfn/xeowNLvvScVq3PLXb4p1+exE5PeWrAzz93VDpUqsuVzV4FuajKat1dad2l1KpJrpYvDhOnw2Ed7T2rdIdVqr/i40Ag+Pnt11881HP+/61lAl0f//kr7tf4Mh5Mb6BVAkE2vjHe/ngQmB3AT0px06h4EIHkoFbyrt08I0AoECBpVgiQGaISIFcYJ0CT4WYI0KywTSbyNqGvAxUk3VwBmZnuA7m+3gFN5vsq0KxvZPYmWYv03Utf2SIrxtVTJk6u59bDIpVNSAjD8+plY/RN1zSG5jrpkouuO+G4M643zFUbwjdcsHJGr/BFtSkmmqw2V31cuZ++0wlXXXPGJRfTKPPU9/2j3Zx3HkO2RHinKkgSkbq9be+EMxeNGA==");
 
 export default FileInvoice;

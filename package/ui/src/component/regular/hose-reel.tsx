@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hose-reel` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hose-reel?s=regular hose-reel}
  * @preview ![hose-reel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/hose-reel.svg)
  */
-const HoseReel: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 48c-114.9 0-208 93.1-208 208s93.1 208 208 208c45.6 0 87.7-14.6 122-39.5c10.7-7.8 25.7-5.4 33.5 5.3s5.4 25.7-5.3 33.5C428 494 376.1 512 320 512C178.6 512 64 397.4 64 256S178.6 0 320 0S576 114.6 576 256l0 96 16 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-2.3 0-11.5 80.2c7.8 1.1 13.7 7.8 13.7 15.8c0 8.8-7.2 16-16 16l-48 0c-8.8 0-16-7.2-16-16c0-8.1 6-14.7 13.7-15.8L514.3 400l-2.3 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l16 0 0-96c0-114.9-93.1-208-208-208zM208 256a112 112 0 1 0 224 0 112 112 0 1 0 -224 0zM320 416a160 160 0 1 1 0-320 160 160 0 1 1 0 320zM256 256a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const HoseReel = createIcon("hose-reel", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABnAAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCdQsGAAE2AiQDCAQgBYMtBzAbdQXIngVOmT0asTHDI2pTQ0w+P9GHHC/jeWq/13P3bQCwYIkUsAa0yMJFF0GRJKVaIzJxf6rYfv9hf++5H/JsNigUMP001rUlAPnVKaSdjel9iRwQaEAwssK2trUEisiSAksb22VuRs0pBxRZprkmlofWDvSpU89zHlogDyKZ4zwWWmB7tOcV6Hm3reUVilBNC+JVqP3O7zGciJQM0iUkGabfG7b/gpr/PIUOyjvMDXiSRpWfuBYpOhoAZBgA7D9TVoDjnywnd+2Q72IgkP0AViM0Is4Tzi5icJpjNaiqsIzaX/8DV0OAdCL/YAVUdOI1vgEqKGrl5JnN0j6ulFMpxou63tMIPZ/8zLwWvlMzbtf9dvIr+fBeit++a+pZ+kzcPecCUB9tczvulJRTk9nQULLOauuLodAOr+9FDdHn8bdifpaLsqWciOvqmblPVV7PcyqqKcaGDk7dt6IcmbZUNe/iTuK65RCwwdL6dfReVHTqVz4L68B77ru0yQ4Uy781Py7fwPWkKkvwOSUqHSxL8SNjHfMJ/5Jl7hmXgyxZ08aluRDfexYKJRPakgJ9R3BKG2Q2Yxj9p05kzcxhNHuzqfwkaoHWyCJR0f5aqHz1bXfe6/1w+GSGr6/X0v1ixHiSnOzfX7fS1PeBICzspOtNcvu/7j4WYOW4//gaydotV1lLoFsBoVnfpvpSgbUM5SoIAFAyCdeyBPsQiseqPNZ+rwVELwKKTr0CGnMUCFS91iHQYVEEAp16ncCWKkSMa7Cg6HcPNHaaAtW4Q9Bhlyur03gaFaUUjPpDjM9kKGOeIyQw2BHrWEYarXVEmI5zHOvek6j4yF50GjJoXId2PcYJGVXgThiQuYMzfJBDiEDBHGI5rtNHvpKsUWN65uz9LHEc7w1vk/t2H1kEC7D14xLYmSLsHhrrCBi91NEPAAA=");
 
 export default HoseReel;

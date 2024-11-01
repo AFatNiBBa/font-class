@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `objects-align-left` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-left?s=solid objects-align-left}
  * @preview ![objects-align-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/objects-align-left.svg)
  */
-const ObjectsAlignLeft: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 24L0 488c0 13.3 10.7 24 24 24s24-10.7 24-24L48 24C48 10.7 37.3 0 24 0S0 10.7 0 24zM176 64c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l288 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48L176 64zm0 224c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l160 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-160 0z" />
-    </Icon>
-);
+const ObjectsAlignLeft = createIcon("objects-align-left", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABawAAAHaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBSQsGAAE2AiQDCAQgBYMtBzkb0gTIjsQ4JvKLKOwiHr72e/Tc3RcAfmFGFxeHpJhc2AG148u2U1n9O6T2Hd//nMs34AF+8fnQoql0IJHe9XwCBxjt50dyYGdUAna6TYZgRxB+0SFhItJxSsfTHYp4k4+pQrqavuP0eNL4VwvHSGpkAFEfAOOXLpzt41/xV8S3isQ3MxEQ40EpkJHRWoBRskBrhRKFQvBXVCr8H1gSQFQl7yuBAlUwA3MABUhyUdRt2bJWlTrFklpVauaU09XO91rluNbldvPFtxtHXGgurja52LlO3Gt2uVXEtaaXutRm4mttr9nhYf2H//F9y3f3f0Wgyfz5TX5FV5917fcbP/I4+cdv/UqK49ZfJnKdw+MgEFw8vqza2nqj/q9eK4F/Xrf5K6p8TNJDVJdAkHtVelmVQCIAACmO6JAgkEyQiV7bpawdakKQVFUTslbqQ6GmnlBFW4PJ4OmFsihqCI2tBiS17YdsiKNQaOwVVDHKJ6OqxpGLiS4F+i+XMEWjkzeV/fv0K0eUx8Ri6oPsy5FlWO52pDW646Yt9trjkM022e6Qwg6YbR+22xQPN/mFSv310U9phDKdvwtLlHHAQdttLr9mpPK+3s0Rv787tEQIBwgliUgNC03q/ZaopwY=");
 
 export default ObjectsAlignLeft;

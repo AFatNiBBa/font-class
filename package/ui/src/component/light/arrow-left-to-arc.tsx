@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-left-to-arc` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-to-arc?s=light arrow-left-to-arc}
  * @preview ![arrow-left-to-arc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/arrow-left-to-arc.svg)
  */
-const ArrowLeftToArc: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256C32 132.3 132.3 32 256 32c8.8 0 16-7.2 16-16s-7.2-16-16-16C114.6 0 0 114.6 0 256S114.6 512 256 512c8.8 0 16-7.2 16-16s-7.2-16-16-16C132.3 480 32 379.7 32 256zM309.4 116l-144 128c-3.4 3-5.4 7.4-5.4 12s2 8.9 5.4 12l144 128c6.6 5.9 16.7 5.3 22.6-1.3s5.3-16.7-1.3-22.6L218.1 272 496 272c8.8 0 16-7.2 16-16s-7.2-16-16-16l-277.9 0L330.6 140c6.6-5.9 7.2-16 1.3-22.6s-16-7.2-22.6-1.3z" />
-    </Icon>
-);
+const ArrowLeftToArc = createIcon("arrow-left-to-arc", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbQAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBVQsGAAE2AiQDCAQgBYMtBzgb3QTIhof/Xyu771cFgCtEpIBRATkkGzUjAwgLvs9aVNE9/9d8ftZ0gN/o0Do0xpHa/XwCA47SSGyg2cBmOgHb7mwJSjSHA63Fkhzncjx2kMfj6KUK6Xr6grP5Q+NvLZwgyTMAUR8A4xfMme1FKUoRX8p3iS9mIiAmgEIgQ4bWAoySCbSWK5DLBaUol91/YEEAURXCiZabE2diMSAHScrzzm1rVamTz7cX1Vxwc2DE7ZkRn6debXal6R+zvox7MffP8S9nf51HN34349OAWx3WzF0w95IjTebF5WZXm86POjEP1Y4FQa56pXGHyvqV/7b/sv6Lds/r/uRVL9qUSnXrlqY6er5Fc1NNbd7i/NGp+IRSm16vftZtfPLs4RKaVK3apJrpQcXJGzvXaCpaTfUX3ThZ8QAIBBXFoUMr6o36Vb1WAn89+v+X8Csqv0hSJapLIMh6lXtZmkAiAAAp9uuQIJBMlOC71nZFgFATAZKqagqQaaW+ALmaegpQRVuDBaiqpjkykdcQGls2QFLbLpAZ4iDINXYbVDHK+3BVjSNTKVYh2B9d0hQKTR5X9O/TrxhRLIsapyV0HB5ZbFvd9vum7rDWejtst9c6a22yl5C7zY7ts80UiZjsiwr99dFPYYTiuDJfPt86u+2xyQ7b0ygjFfe9bvbLnbuDmyDlANOTRKQGq3bv3nHgsaX33ruj96rdawAAAAA=");
 
 export default ArrowLeftToArc;

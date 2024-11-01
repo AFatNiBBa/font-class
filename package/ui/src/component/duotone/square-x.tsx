@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-x` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-x?s=duotone square-x}
  * @preview ![square-x](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-x.svg)
  */
-const SquareX: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zM112 360c0-5.5 1.9-11 5.7-15.5c25-29.5 49.9-59 74.9-88.5l-74.9-88.5c-8.6-10.2-7.3-25.3 2.8-33.8c4.5-3.8 10-5.7 15.5-5.7c6.8 0 13.6 2.9 18.3 8.5c23.2 27.5 46.5 54.9 69.7 82.3c23.2-27.5 46.5-54.9 69.7-82.3c4.7-5.6 11.5-8.5 18.3-8.5c5.5 0 11 1.9 15.5 5.7c5.6 4.7 8.5 11.5 8.5 18.3c0 5.5-1.9 11-5.7 15.5c-25 29.5-49.9 59-74.9 88.5c25 29.5 49.9 59 74.9 88.5c3.8 4.5 5.7 10 5.7 15.5c0 6.8-2.9 13.6-8.5 18.3c-10.1 8.6-25.3 7.3-33.8-2.8c-23.2-27.5-46.5-54.9-69.7-82.3c-23.2 27.5-46.5 54.9-69.7 82.3c-4.7 5.6-11.5 8.5-18.3 8.5c-5.5 0-11-1.9-15.5-5.7c-5.6-4.7-8.5-11.5-8.5-18.3z" />
-        <path d="M120.5 133.7c10.1-8.6 25.3-7.3 33.8 2.8L224 218.8l69.7-82.3c8.6-10.1 23.7-11.4 33.8-2.8s11.4 23.7 2.8 33.8L255.4 256l74.9 88.5c8.6 10.1 7.3 25.3-2.8 33.8s-25.3 7.3-33.8-2.8L224 293.2l-69.7 82.3c-8.6 10.1-23.7 11.4-33.8 2.8s-11.4-23.7-2.8-33.8L192.6 256l-74.9-88.5c-8.6-10.1-7.3-25.3 2.8-33.8z" />
-    </Icon>
-);
+const SquareX = createIcon("square-x", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABmQAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCPgsIAAE2AiQDCgQgBYMtB0wbXAXIjtEnY4jLMyE8ICLqiYdq7Pd271Bp3iGphuoynYqHwtAsdkr4Q6UEDuba3fY+3gQf5rZHm4lVPJlFSK4hE4poZfN/Tb0oOzrAz+fci8aIwoh8PoE9T9wwEmhADbqZ2gbnTTqkUIYQf4Aam+QwNJHfxBPwHv8PYPwxNExqKwAQvQAANvezUuDsFV8Tn/73iR/JQEBsAWAcoqBgGIIVpMAwjnGgqoIGwbI0kGXHQQDRDPFHFtCMJjwDb4AKUsjKsTAKorhiDkNxRQWb6hzU45zNjC4bc3BBtaZhMBunbWeN9cjgopYkSGLBYdtGjJtOu8YkLjru2Brgmv2WLm9Au+u063QibY6aUm87zKgnmjmWMgOvg1v2GbXtwMOUNc2O46xmuv20alo0qZlFyx3ZzpvFU+mT9kWTj5gMyFd+OL9fJOoh8QDO33tzTCZA97vJ//mMWwtd/LvYSFNFcvlSuKUKEpUNKXV8AaOxQcKV9bcCqryi8vik8uj4uZwSlrQmVkZtg4waZtvX6vxeyW/3UkYJSkYpAIFg/P4g81wa/CegCIDfg48fzdX/jTjLHaBVgqBMss4K4wzA2AiEM1rBEv1QBRAodhHSe+30IUBoR4DUrF2AYogMgqrdBARNRvlA0KzdNlJUIYRBRQNIne5AMacHVIP2QJMVt5Fmg0F6RNEbib+BqWKnaMw02sPVnQ6kd8s6yW/xejyIvmyyb+VtDnAjlKpTq1mJYhWaJ0yjlHiLGrFHdIwvonlw5Y4WiH5ce2lmlFTuJhW2Fc8nCUJ/b7fXetzbAc6GAExZYV4hEklZYLa7tLv4aINipgi6");
 
 export default SquareX;

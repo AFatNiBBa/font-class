@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud?s=thin cloud}
  * @preview ![cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cloud.svg)
  */
-const Cloud: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M523.6 234.2c2.3 4.1 6.2 7.1 10.9 8C585.5 252.6 624 297.8 624 352c0 61.9-50.1 112-112 112l-368 0C73.3 464 16 406.7 16 336c0-55.8 35.7-103.3 85.5-120.8c6.7-2.4 11-8.8 10.7-15.9c-.1-2.4-.2-4.9-.2-7.3c0-79.5 64.5-144 144-144c53.3 0 99.9 29 124.8 72.2c2.2 3.8 5.9 6.6 10.2 7.6s8.8 .2 12.5-2.3c12.7-8.5 28-13.5 44.4-13.5c44.2 0 80 35.8 80 80c0 10.2-1.9 19.9-5.3 28.8c-1.7 4.4-1.4 9.3 .9 13.4zM386 98.7C357 58.3 309.6 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336c0 79.5 64.5 144 144 144l368 0c70.7 0 128-57.3 128-128c0-56.3-36.4-104.1-86.9-121.3c-5-1.7-10.2-3.1-15.5-4.2c1.9-5 3.4-10.1 4.5-15.4c1.3-6.2 1.9-12.6 1.9-19.2c0-53-43-96-96-96c-15.2 0-29.5 3.5-42.3 9.8c-3.8 1.9-7.5 4-11 6.4c-2.7-4.6-5.6-9.1-8.7-13.4z" />
-    </Icon>
-);
+const Cloud = createIcon("cloud", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfwAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCBwsGAAE2AiQDCAQgBYMtBywbAwXIjsK22TOSIJJDGOFgQN7xUL/33dl9N61WVZqMrDJRTByDQ+KQrQjblcHiM1g0+l/59+5TAN43Alc/qeAKQkdWpKdP0aj2xannOQ8F8DkEQRsLlwYkG2Sv8whEZLQ2ttDiYq2iWN0mHtkRhV9ISNAQ6Tg9vr5OUOIb4lHkl7wBXo0PjX8wpBKkqgKA6AQATm+DfeHgNR6xuPlfJX7DBRAQZwCYhKFChVEYOEAIjCJNAkURPGK1f/4PRCCAqAd50wQFBQ/AUwAKSFlIyZZ2nS4Zpk1pZbWarvImbXu4E0qdOPPco/cLpp3asbIYPt73aXDZFLWatpqPa+PNpSYtpmFfXbHYan5x3wkphbLzyuqMzaDHrkoXO/faZ/Tx5xzbzNrN2zF1TDnWM1tMzNvRpwym3mg3iTda/rCzH4qaNPT/Pj6zBZwrqeasrIxmHYK0ef7ykEskmou5DxZaGoQ+wfR92Q511ZGGALF0Hjc3cU6S4Fdzs76PCT6kJDo9Ntvc3EKrceprqTkv6MxRBSAQnL99gLsO9/8a2jjA362Pr3k/1F7zRU6hUYKgWq0JhWcpMD4APaMQ6OCLAukeTtRWH6NmaGZBqtcMlREGUDRbgTrjHEjn/CVCFE0IvSIIUqtnUNlXBEWvZahz4Fyr1xtVrtGZQj/1ErwtoppCMrEUuaJjQJn0IdvQDblFbmEt8GgrJMqSKV+CeCnyDZbL1yyQwRuhKj+EyIhJIa5QOH5fD5MgV54UWTL7GDfovspViOt5pOCEcJsrJZHUp4MAAA==");
 
 export default Cloud;

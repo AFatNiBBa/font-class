@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-king` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-king?s=light chess-king}
  * @preview ![chess-king](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/chess-king.svg)
  */
-const ChessKing: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M240 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l40 0 0 48L59.6 128C26.7 128 0 154.7 0 187.6c0 8.2 1.7 16.3 4.9 23.8L66.1 352l34.9 0L34.3 198.6c-1.5-3.5-2.3-7.2-2.3-11C32 172.4 44.4 160 59.6 160L224 160l164.4 0c15.2 0 27.6 12.4 27.6 27.6c0 3.8-.8 7.5-2.3 11L347 352l34.9 0 61.1-140.6c3.3-7.5 4.9-15.6 4.9-23.8c0-32.9-26.7-59.6-59.6-59.6L240 128l0-48 40 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-40 0 0-32zM382.9 468.7c.7 1.2 1.1 2.5 1.1 3.9c0 4.1-3.3 7.4-7.4 7.4L71.4 480c-4.1 0-7.4-3.3-7.4-7.4c0-1.4 .4-2.7 1.1-3.9L97.8 416l252.4 0 32.7 52.7zM97.8 384c-11.1 0-21.4 5.7-27.2 15.1L37.9 451.8C34.1 458 32 465.2 32 472.6C32 494.3 49.7 512 71.4 512l305.1 0c21.8 0 39.4-17.7 39.4-39.4c0-7.3-2.1-14.5-5.9-20.8l-32.7-52.7c-5.8-9.4-16.1-15.1-27.2-15.1L97.8 384z" />
-    </Icon>
-);
+const ChessKing = createIcon("chess-king", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgAAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCJwsGAAE2AiQDCAQgBYMtBzEbKAXIhofn9ag/9+VlkWTorL+JCurAGbdTfaoSi37Rfrhb/M+5ni9tNMBvNLQoLB1IAWc/n8BEmq7oSBrsTA9Ajvmsnd7AIPpN0iPf9xnGGzYXyLEUeylJC+kXvNTeNH414lmSXACIbgAcf+mFZ/tiS2yJ+GXXR8QvzkRAnABagQIFxgU4SiEwLmuRZcGW2LUr/Qe2BBAr8C9LIKPEI3gSkEFS5HxK93BdduRL6rK6cnZwul9UMd0/M1CHqGJ5/fzwkwMXRx2XxGw8NTRX1/VzAzOe7L8o6rg05mJxj9mNVUTUMTc0O1hFXD5jur+J2cGnhk6MOo6/Ybn/uJj25MBM3RHPDc0NPTV4QtgPWvt69+u/r/nlll/8+U7nli2drd1EsnPLFfuZ9nLXX6ubM4563jonzBsom0cfbZaXg1oOLOo6Z+8ZzWq7Xp62n+u22he/iVSed4DzykK2XR6/qPuF7LKm+/M3ug/Q/cbrXc1l2Qvd24FA8O3m1Hdt11H/r6oT2Pb5n//r36JdX8QX6XWskkBQ7LVrL1fFFxBfCABAikesjS8QSO5RYLMx63VDxYRkhQoKY7ohq+wJpUkHs8bpCxUirxb6XU2QNO6HwiEeg6zfB1A6yvfWCv1RYI9HDv/1SzlFIiePtfvvs197RHv1DQFObOkf2ZrV3R7Jud1p0y3udY+H3Owmt3tI0A84233Y3U7RqJN9UGt/+9hP6witO3pfvsTNHvCg293rnjrkSO17czeP6NW7k5Ew4wF2kkSk6sbbbn7wwb1RDAAAAA==");
 
 export default ChessKing;

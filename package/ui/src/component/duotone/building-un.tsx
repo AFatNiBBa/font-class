@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-un` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-un?s=duotone building-un}
  * @preview ![building-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/building-un.svg)
  */
-const BuildingUn: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 48L0 464c0 26.5 21.5 48 48 48l96 0 0-80c0-26.5 21.5-48 48-48s48 21.5 48 48l0 80 96 0c26.5 0 48-21.5 48-48l0-416c0-26.5-21.5-48-48-48L48 0C21.5 0 0 21.5 0 48zM64 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM80 80c0-8.8 7.2-16 16-16s16 7.2 16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 64c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-64zm80 160c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM208 80c0-7.1 4.6-13.3 11.4-15.3s14 .6 17.9 6.4c11.6 17.3 23.1 34.7 34.7 52L272 80c0-8.8 7.2-16 16-16s16 7.2 16 16l0 96c0 7.1-4.6 13.3-11.4 15.3c-1.5 .5-3.1 .7-4.6 .7c-5.2 0-10.3-2.6-13.3-7.1c-11.6-17.3-23.1-34.7-34.7-52l0 43.2c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96zm48 160c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32z" />
-        <path d="M237.3 71.1c-3.9-5.9-11.2-8.5-17.9-6.4s-11.4 8.3-11.4 15.3l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-43.2 34.7 52c3.9 5.9 11.2 8.5 17.9 6.4s11.4-8.3 11.4-15.3l0-96c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 43.2-34.7-52zM112 80c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 26.5 21.5 48 48 48s48-21.5 48-48l0-64c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64z" />
-    </Icon>
-);
+const BuildingUn = createIcon("building-un", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAAB0QAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCDbwsIAAE2AiQDCgQgBYMtB1IbEwbIHge5afRmcUE+ChstHp737z/XPuf+N4DuwKwIVnLoElXcUZWGVdKmfg+OeUkwpydOdcj7/L///97pnxXIAnnieUh/LLv/nR/OCbg3J5CHbR2L0kACCnSbcYvbUE3X/Q5eNST2UMTJfFEN6dn0Ha53/wMY/2rjIkmdDCAaA2DykgWzfPEgHqT4rvoh8Z2ZCIgpoBTIyGgvwDhZoL1CiUIheJCq8yCqlwQQFd1NMqigLv7AQ0ABkqRSFO3b92rcvnGXxvVqGhSLuy3qrrjX/A6Luy3uW8TkuNsqwvdaysaUhWH82RZ3522dqSx3micjp5zSeL2IeN4A9yZLhqgXTtvkeK7lva0fbzS/44vut6oXd1vM0OtGri6BfCbuJbLpnml+p9/Sexl+jvvybMgZcccCl7hRPEFp7x92eY/ee77b/J3/jm597XbdtRo+eNCwr64APlkbz50kf//noEF/fp8ngWIHN14ZeK1vrbnW4FxrIfyKCJcYTPzcF0q5u4SGGr28RKnlR8152XPWwJfh9vtLn/7WrWvfDNaCWWWqPePKlZNX8pYD/a8HAsG+9NOINY3G/V8bE3j0kaHLVb+Is+k91JZAkPtV+1kZZyEbEYanmOKwLnHWXASye67WvdZ3T4BQFwGSiroCZO00FqBQV18BanQ0XICKuhbIoqgjNLeKoaS+fSgb4RQqNPcBqjHOl8mK5pFfcPH1FP8v02ZAevqkcvCAQeWY0lhApHeWrwfHlt56r8N5Q+9wo8322O2gTTba5iCw7jcrc8guM2zO0x9bGmyAQUpjlLPLy9pikNzvgG16Zf44Y5Xre3o5bG/fOzSSweUQS7JMpMjNvoFI/0O7+38rTS1k5bMAAAA=");
 
 export default BuildingUn;

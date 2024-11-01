@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wind` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wind?s=regular wind}
  * @preview ![wind](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/wind.svg)
  */
-const Wind: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M288 24c0 13.3 10.7 24 24 24l44 0c24.3 0 44 19.7 44 44s-19.7 44-44 44L24 136c-13.3 0-24 10.7-24 24s10.7 24 24 24l332 0c50.8 0 92-41.2 92-92s-41.2-92-92-92L312 0c-13.3 0-24 10.7-24 24zm64 368c0 13.3 10.7 24 24 24l44 0c50.8 0 92-41.2 92-92s-41.2-92-92-92L24 232c-13.3 0-24 10.7-24 24s10.7 24 24 24l396 0c24.3 0 44 19.7 44 44s-19.7 44-44 44l-44 0c-13.3 0-24 10.7-24 24zM120 512l44 0c50.8 0 92-41.2 92-92s-41.2-92-92-92L24 328c-13.3 0-24 10.7-24 24s10.7 24 24 24l140 0c24.3 0 44 19.7 44 44s-19.7 44-44 44l-44 0c-13.3 0-24 10.7-24 24s10.7 24 24 24z" />
-    </Icon>
-);
+const Wind = createIcon("wind", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABfgAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCDwsGAAE2AiQDCAQgBYMtBysbCgXIjtFLzwRvJpzyDhCSiod/7kXve39k7EmTNgcnSDAbqGAtZQB1ABcsEcip9hTL355fa/PPpb/bdCKS7pI4oppoNDYinkhLNG9eAo1IY+rU8ywMBfCNgraHBmSBhOY87/QpWq/3CjitYDWtgNXcFhfUIMiaiBzipqghjg/lL1DGQ3xTkW/5ga/lQ+OvMZukqgBA9AKAk6tGCa8/8Rnx1VwR705BQJwAZjEUKDCJgX1igUkSs6BUCj5Z08T/QIIAoobcWYISFW7AE4ASpKKU2OY4daWVtHVUqvG3JXVsDe34Mrjd3snORg+WtHGzcT5zui7sqVjoDJiaVfllCltNdbsaiWsM344TeoV/tu+xbzPfh2pumH+/m81fj+YiakPWWhEDb2+y+uBtwM1Gbj5hbpk3dX6bwo6/6263W6X4egACwccxf9Wv3/+vUIsAf+7//uvPSPOa8hdaJQiKzcatJ0ESAICMNVxCIF0Tk3ft9CxAaEeAVGsXoDDBgIFSuw0MVKZFMFBrd0YsSiXCoN4OUqdHUNizAUqDLkBl35tXG4zC3xhvYX73EgsM5U9RwOunJKmxxroQlecp2jbta6nmwFmMmTdnxagRk1aIWFIKV80qWHjeF5EALz+SRMfZo9hG3pJlk3P+fJEUeu/ardndDjgiQrolkpJIyYcHAAA=");
 
 export default Wind;

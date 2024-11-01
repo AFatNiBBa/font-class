@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `markdown` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/markdown?s=brands markdown}
  * @preview ![markdown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/markdown.svg)
  */
-const Markdown: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M593.8 59.1H46.2C20.7 59.1 0 79.8 0 105.2v301.5c0 25.5 20.7 46.2 46.2 46.2h547.7c25.5 0 46.2-20.7 46.1-46.1V105.2c0-25.4-20.7-46.1-46.2-46.1zM338.5 360.6H277v-120l-61.5 76.9-61.5-76.9v120H92.3V151.4h61.5l61.5 76.9 61.5-76.9h61.5v209.2zm135.3 3.1L381.5 256H443V151.4h61.5V256H566z" />
-    </Icon>
-);
+const Markdown = createIcon("markdown", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABYQAAAHsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBTgsGAAE2AiQDCAQgBYMtBy8bzQTIhqDe1mvP271fX3diWAEwh4B2bk6BIqKNFJtTjByJ/ueaz+/50QF+PoJDi6ZKkEg86kU/n8DE1tZA4/lwNlGcbpM9dojhFyEWJBEdnx1nF8jjWdxVIb2eStypHxp/aecGSSUDEE0BMHX18oU+/z1+jyhffUiU5iMgpoFCIEOGjgJMkAl0lCuQywW/x6tX9B9YEEDU0XdPIEcFc7ASkIMky/P27RrVKo3yVbVK9XjjJo3faPlQiiutHvVsEm+3eRJZXG39uNeaaq0asSJWhahGRC1WxmpYVq5iqTbsFLVu7zV975+u5a7S0hs99FxR/txikBY/l0UPQ8rSrJcDJ+HcGRMWmLjAGZM8NUmKEz29ndbv51dOtNcke00EAsHnxTetNjeZ8H99LYE/P/vvmfb0q2fpSnoP9RIIsgGvBtiQrgDhAwhTnNIt+KJAMkVGzzX0WIBQxSCpU4VMB00hV9UfKjobeb5O1XKZyBsILW00SBo6CplRLkKupfehYoLvgjotI8snOhvo31zCLI/M3FQMHTSkGFcsK51JEZJXxxfbcp9TZaQv9trlsENO2GmHvU447JiF8UkHzYrQmX6oMNQgQxTGKY7b5+2r7HTMcXsddkjWGa+47/dxKp7eF1qihMOUkkSk+rwj3xgAAA==");
 
 export default Markdown;

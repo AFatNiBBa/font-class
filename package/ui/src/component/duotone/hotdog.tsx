@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hotdog` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hotdog?s=duotone hotdog}
  * @preview ![hotdog](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hotdog.svg)
  */
-const Hotdog: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M23.4 375.4c5.3-5.3 10.7-10.7 16-16c106.7-106.7 213.3-213.3 320-320c5.3-5.3 10.7-10.7 16-16c31.2-31.2 81.9-31.2 113.1 0s31.2 81.9 0 113.1l-16 16-320 320-16 16c-31.2 31.2-81.9 31.2-113.1 0s-31.2-81.9 0-113.1zm53.3 13.3c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0c12.5-12.5 23.8-15.1 37.5-17.6l2.5-.4c13.8-2.5 31.6-5.6 48-22c16.7-16.7 20.9-36 24.1-50.9l.2-1c3.4-15.6 6-26.4 15.7-36.1s20.5-12.3 36.1-15.7l1-.2c14.9-3.2 34.2-7.4 50.9-24.1s20.9-36 24.1-50.9l.2-1c3.4-15.6 6-26.4 15.7-36.1c9.2-9.2 18-10.8 32.7-13.4l.9-.2c15.6-2.8 34.9-6.9 54.4-26.4c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0c-12.5 12.5-23.8 15.1-37.5 17.6l-2.5 .4c-13.8 2.5-31.6 5.6-48 22c-16.7 16.7-20.9 36-24.1 50.9l-.2 1c-3.4 15.6-6 26.4-15.7 36.1s-20.5 12.3-36.1 15.7l-1 .2c-14.9 3.2-34.2 7.4-50.9 24.1s-20.9 36-24.1 50.9l-.2 1c-3.4 15.6-6 26.4-15.7 36.1c-9.2 9.2-18 10.8-32.7 13.4l-.9 .2c-15.6 2.8-34.9 6.9-54.4 26.4z" />
-        <path d="M495 257L257 495c-10.9 10.9-25.6 17-41 17s-30.1-6.1-41-17l-22.5-22.5 320-320L495 175c10.9 10.9 17 25.6 17 41s-6.1 30.1-17 41zM359.4 39.4l-320 320L17 337C6.1 326.1 0 311.4 0 296s6.1-30.1 17-41L255 17C265.9 6.1 280.6 0 296 0s30.1 6.1 41 17l22.5 22.5zm83.9 75.9c-19.5 19.5-38.9 23.6-54.4 26.4l-.9 .2c-14.7 2.7-23.5 4.3-32.7 13.4c-9.6 9.6-12.3 20.5-15.7 36.1l-.2 1c-3.2 14.9-7.4 34.2-24.1 50.9s-36 20.9-50.9 24.1l-1 .2c-15.6 3.4-26.4 6-36.1 15.7s-12.3 20.5-15.7 36.1l-.2 1c-3.2 14.9-7.4 34.2-24.1 50.9c-16.4 16.4-34.2 19.5-48 22l-2.5 .4c-13.7 2.5-25.1 5.1-37.5 17.6c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6c19.5-19.5 38.9-23.6 54.4-26.4l.9-.2s0 0 0 0c14.7-2.7 23.5-4.3 32.7-13.4c9.6-9.6 12.3-20.5 15.7-36.1l.2-1c3.2-14.9 7.4-34.2 24.1-50.9s36-20.9 50.9-24.1l1-.2c15.6-3.4 26.4-6 36.1-15.7s12.3-20.5 15.7-36.1l.2-1s0 0 0 0c3.2-14.9 7.4-34.2 24.1-50.9c16.4-16.4 34.2-19.5 48-22l2.5-.4c13.7-2.5 25.1-5.1 37.5-17.6c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const Hotdog = createIcon("hotdog", true, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAAB9gAAALJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhgCEbAsIAAE2AiQDCgQgBYMtB0gbhgZRVA6iZB+HcQy5BFvEENOP6aT87Xj4/3vf9jn3phZrhRKqFbRiNNqBglOsgQ4PDfCnAfprtBV+/n9y+feFnMATyJWMSkS1Z8uQJfiLMr9oY/X3qikNO+CJx4P0NrVqMl4q/W/pRStgMNi6xR9JLKgxsGzpXVKAeRXeNUx9Q43P5VkH+T5b4HX4P4DxlZYuUk8BEMMA4OQqLgLn7WhntJqPREs4CIhTALMIBQWTCOwTFZgkZhZUVdDOpqEdTTMLAUSn8IMK6EQXMQqxBKCCVGStoyMlI4YZsuLyYomy4jJ58UnxezIDVlZURJa0jzaLxPyifCs6oHbrJDqUHbS0TJhiRFNMhtppi01pMppiRidGwwNkFZhMqc9ozKJOltqLdjVmdTQIAX4NYFInHx4kS2A+qzbNkmY1DN170iB2xUmKGOUTo9PhNKGAqQkujWkrGtQuu5lkkXEVqEJ2k/oM2zJh1C5zWckcwwoolzlsdKB08GvYKnzG/9PfWARNTSTA3z9Hq+n9BNoIU8HgLYwN/fcKvAgIgOPjiSmgEx5xdPRyLQBiv+l24fUYQQkOBvv7CwuTbWZNMBVYIIJ6cFMTsBoLCYVFPZz3FDvh4r/LJfCnz5mxsLC/b+CgBNDYtfDoKCJcBzA9+Y4FBNcvhvbRMRb48vpvIr8bQCDY2cucu1bc/98tm+DLp59/qx+S5jzlB3RLEJSVZkV6giQAABlPMEogULxQxK/6vREg9NJR6tRLxQQlqnotU4dprph4+oyoqD3CuAyg1O+Wik3NVI0TUod9d8lO41HeD9vdbfs7zR1I5QHruKOdA/fiypLGfsvDG/Xmk8MWjVaLJdxEoSqV6hXIV6KemGpFZBpUCBwyD/gu58iOA84LX1yVD0skyVp1SuTO5bN449vHLTQOd7eEmIjY4qrXRSEyyuBNVX1+VZHte+ZX6ju/JwA=");
 
 export default Hotdog;

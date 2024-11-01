@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clover` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clover?s=duotone clover}
  * @preview ![clover](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clover.svg)
  */
-const Clover: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M216.6 49.9C205.1 38.5 189.5 32 173.3 32C139.4 32 112 59.4 112 93.3l0 4.9c0 12 3.3 23.7 9.4 34l31.9 53.2-53.2-31.9c-10.3-6.2-22-9.4-34-9.4l-4.9 0C27.4 144 0 171.4 0 205.3c0 16.2 6.5 31.8 17.9 43.3l7.4 7.4-7.4 7.4C6.5 274.9 0 290.5 0 306.7C0 340.6 27.4 368 61.3 368l4.9 0c12 0 23.7-3.3 34-9.4l53.2-31.9-31.9 53.2c-6.2 10.3-9.4 22-9.4 34l0 4.9c0 33.8 27.4 61.3 61.3 61.3c16.2 0 31.8-6.5 43.3-17.9l7.4-7.4 7.4 7.4c11.5 11.5 27.1 17.9 43.3 17.9c33.8 0 61.3-27.4 61.3-61.3l0-4.9c0-12-3.3-23.7-9.4-34l-31.9-53.2 53.2 31.9c10.3 6.2 22 9.4 34 9.4l4.9 0c33.8 0 61.3-27.4 61.3-61.3c0-16.2-6.5-31.8-17.9-43.3l-7.4-7.4 7.4-7.4c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3l-4.9 0c-12 0-23.7 3.3-34 9.4l-53.2 31.9 31.9-53.2c6.2-10.3 9.4-22 9.4-34l0-4.9C336 59.4 308.6 32 274.7 32c-16.2 0-31.8 6.5-43.3 17.9L224 57.4l-7.4-7.4z" />
-    </Icon>
-);
+const Clover = createIcon("clover", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhgAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCJQsIAAE2AiQDCgQgBYMtB0gbPwVRlMvFHNmPA3ffGjG6CNze45QYgcg+gg+dn/sk2XPWPwYdAEOFWEOoTKpU7gLcpfSkzaQjcAcsiKjOkPf5iWuev1UBNumjZC9wIAUyyjyfwM4bHxdegCU00xnYdJuKR0cgvVEjLEI6rvL4ukAW76W3lEheJV/jgf4PYPysg1skKimAaA6A6WtXLlatqSXxdf0T4muLEBAzQCGQIkVnASZJBTrLFMhkglpSr1OLer0ggCjTZ0hBGSnO4RIgAwliWXasUpNsTaV84/M3/d5vz7U2wy3wPM8DT77Wv43W3veq/we9G+JOu4WGeQo6+s7Adtr4oOG9gR91irjedoT5njU0BClQHtBWO5L1YZ88breeZ6QXEfEaH3G7X2tt9+Yf/uLd13u+9uM9HR5SKWn54FdL/NWyhA52aLnHHi07VHhoi/5c6lcPJBUedmzR5KGW+hNt3lGmY3OwQ/frQSDY/sO/Q7Y2m/RboxLw06dNfkf1mmryIRpJQJAOqg+yKaoQVQEASOKMHlEFgdQxifKpjT0XIOQIkCjLBUh10lyATG6gACVdjRagLLdSKrKK0NrmxiYaO86mxrjMZlr7mC2Z5LNyWetIY8+IHOPrlzsHgdmriuFDhhUTimlDNcNJy4sTi+2035k00J8z7XHUEafstst+p4A5YXHttMPmrLDZvqgw3BDDFCYo3O1Hd42UTzhpv237l5moOF/q58x6fH9eTwIYcWv1KZFE2nTnyyyeGBzDYfPefqwAAAA=");
 
 export default Clover;

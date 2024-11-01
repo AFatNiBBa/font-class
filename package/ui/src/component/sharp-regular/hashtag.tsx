@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hashtag` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hashtag?s=sharp-regular hashtag}
  * @preview ![hashtag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hashtag.svg)
  */
-const Hashtag: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M447.5 136L424 136l-71.5 0L373.3 32l-49 0L303.5 136l-111 0L213.3 32l-49 0L143.5 136 56 136l-7.5 0-9.6 48L56 184l77.9 0L105.1 328 24 328l-13.9 0L.5 376 24 376l71.5 0L74.7 480l49 0 20.8-104 111 0L234.7 480l49 0 20.8-104 87.5 0 7.5 0 9.6-48L392 328l-77.9 0 28.8-144 81.1 0 13.9 0 9.6-48zM182.9 184l111 0L265.1 328l-111 0 28.8-144z" />
-    </Icon>
-);
+const Hashtag = createIcon("hashtag", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABXgAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBVQsGAAE2AiQDCAQgBYMtBy4b0wTILgpsY2rwRdgyDIY2lv1+HHAnxMN/+/1vn7lzn8x8Qb3yE2pJRBNEsVJfQ7TjGe+/lLeoLCL5/v2pf50Hg+9Ce3FiodmxttXqFa8WpNZkhnwpk918rw35436e//v8m/upf9EK6q3PI4Eyzyew83lZYQENbDibKO52Unfq0EUGi6Q3yTDpDJMb5HgZa0nPE4z8h8ZfS71I2gZAzIEA7L9Q5Og3jnHEbDcx6wgkIPZDWAOjQYMVMNiFCqzArIFkWTCOrqP/wDVQANET3plARsZhyBUIZJCknLcPazuZz9e23C61XIgSZ6MEysqKqBWvcQENsa6OUuybO141Z637zHn3L7f4tXUJP5y/ZInJUTrZ6r819/iKt1NTI4sPLmgpmBxhsRmMhk1vB925c2T/DvUyCASfvnRjetf/QU3gz1fs/dGN43d6h4EEgmamm9GL3wJioZziMaH3RYHkACLcNeGJAKEgQNJTADSW4yAr1kNrFe+GnuIMKvJQWKAvQzLhHjS2eEK2wBdau/xLPQuiESldIPQfXU5WIuk2sHQTYhi2JUNKVF5PYNkXH3pMgqNo4ejgZm5m7VYwF3n1bi+bYakfAhadCcRgu3e9vzZ3cbV2dHCbJOB8QfSYz5ZgNwSw4TJaEpH6jyh7Gy8BAA==");
 
 export default Hashtag;

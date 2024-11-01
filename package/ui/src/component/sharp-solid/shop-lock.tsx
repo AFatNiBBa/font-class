@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shop-lock` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shop-lock?s=sharp-solid shop-lock}
  * @preview ![shop-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/shop-lock.svg)
  */
-const ShopLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 192l449.6 0c20.2-19.8 47.9-32 78.4-32s58.2 12.2 78.4 32l33.6 0 0-64L544 0 96 0 0 128l0 64zm384 32l-64 0 0 160-192 0 0-160-64 0 0 160 0 128 320 0 0-128 0-96.3 0-63.7zm144 16c17.7 0 32 14.3 32 32l0 48-64 0 0-48c0-17.7 14.3-32 32-32zm-80 32l0 48-32 0 0 192 224 0 0-192-32 0 0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80z" />
-    </Icon>
-);
+const ShopLock = createIcon("shop-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABaAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBcAsGAAE2AiQDCAQgBYMtBzAb8ATIjsK22TNyiuSQUySD8TXxPN9+6X0zs/SDRdBtVBF0JaJQbJO6uKgCClOPak9tjNlTW12F/j/7zfuQhDexx0+IeRNPMBFrYm2nry7u/LrRf5uWQCiw+b8m37vn14Cfj+BQKixyzWWjo2U9n8CAoyxaaG3D2URxu7O1mgTt8GgtsSTHN8dpDy2/65Me5XX5w0r90Py0xRPFqALIPAA4e7nfhDShSbL6f0pWnQOBnAWwG6GiYjsCJ8gF2ynsBk0TJvn/n/4DGQKkj5+0gIY+roP7ABooWmvrNhmMqt5Mu6RSdnVmeubj4albleQSqXOBcLdTddIl6SIyE86/+LyB8tw09GzTi2oAYkanknGtD3vExIfrzSqIenHu/Nv64zuOXcxmCwEly4uQWqq06ChB6tVYhM5gS84sv6O0MqddZnk2pCREWPLbjhBehyGZGNsthC5t6vWbIwIIwtNPRxrLutyvoaqAH9/+5/ly/8dlqYgYKiDUhf8LxuUOiB4gU/IUgvFFQXGeAr7rtBcCokNA0dcJqLbRI9B09iLQs1Mcgb7OeXJpI7HeREAx7QGoDrkGzXrvoOeEz3Tf+lQHE91D/N6lNTRcH8XhQIgzvCzoks/waTDL24brKjS4YSW2HDtyYdOGXReKOtPMXTrUsJC6H2JhASEsg4/Lj4tHNp05t+vYURkmi+/HXa7s9m6wZZhxn1BRSBk9aN3v+wAAAA==");
 
 export default ShopLock;

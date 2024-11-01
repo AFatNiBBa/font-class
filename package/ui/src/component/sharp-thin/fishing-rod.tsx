@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fishing-rod` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fishing-rod?s=sharp-thin fishing-rod}
  * @preview ![fishing-rod](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/fishing-rod.svg)
  */
-const FishingRod: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M288 0l-1.3 0-1.2 .4-224 72L56 74.2 56 80l0 208-40 0L0 288l0 16L0 496l0 16 16 0 96 0 16 0 0-16 0-192 0-16-16 0-40 0L72 85.8 289.3 16 344 16l0 136 0 8 16 0 0-8L360 8l0-8-8 0L288 0zM16 304l96 0 0 192-96 0 0-192zm336-97.1l-3.8 2.1C318.1 225.4 256 270.7 256 352c0 33 14.5 73.3 56.1 106l-25.6 41.8L279.1 512l14.3 0 117.3 0 14.3 0-7.4-12.2L391.9 458c41.5-32.8 56.1-73 56.1-106c0-81.3-62.1-126.6-92.2-143l-3.8-2.1zm0 18.3c29.4 17 80 57.7 80 126.8c0 29.4-13.4 67-55.4 97.5l-6 4.3 3.8 6.3L396.4 496l-88.8 0 21.9-35.8 3.8-6.3-6-4.3C285.4 419 272 381.4 272 352c0-69.1 50.6-109.8 80-126.8zM368 320a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const FishingRod = createIcon("fishing-rod", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiAAAAJtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCUgsGAAE2AiQDCAQgBYMtBzIbVAXIjtEn41FmjgnhARGXF89Ta+j7exsEF3aoULGKBDQ2sbWtQxCSx5c9C5mpra4+/z///t3nQfON+RA6gy3UQUpuF64+XV4XYf6vyVd8dIDfrsQPJRpLGwswepHPJzDQ0d68Rcs2oOkEbXtzM9aRMjqSzGiSjm90XB2hZgOVpJSXoo/gfn3T/GNqEoqmAUCGAcDeRUYSBDVdJx/aG8h3CSCQPQCzCA0aTCKwSSyYJDELqipcU9vyfyCHAOmEPE4BFV24DZ4AqKDoqBKfHus5JZNqSrKZVFWjYqpMMggivSpEpI8R8DolyiFmMfrISqZiSC9RhYGxwbb7MR81XXNxJ4MwZhTPHJlv0KbnqaMRdhaIDmxGTVadDcgwHlGRV4xjlEOzddpyO3LKWjFeNlo0WDK0PdQ5/GXzsfoj669Eos/7SCPzB87DOhCgQ+ey755/j09RCDJLYbhBD4LuA69SYQlKCSmlPnew8P+/u+nTh69zGKB1q8Garx+eTN3//1/w0Rs8Bd6PGd8/fMmAgwy5IgTI8OXh3lj/9HRwqFg9OKhGMkAue/Uh80aJdvh/BRMB/j7++QG6uRXyrbwGdCsgNMutu8IIADMJ+Ekl3bCNAILiJil61X7PEIheBBSdegU0JuggUPVaQqDDtAAEOvU6IZaqRIwrmqDodwUaG4ZANe4KdNj0Ju40HnFEyvEk/wczojUStY37eHrzUL6sDCXIxLwexrdN5+405oIHUa1Fs05VKtXpVES7pKxLk2gPj/JFnA9P3rhQ/Ljd7s9WpV2HOi2ayyZh+H3XWbc/2wUdEeFckSsKKeyNRx7tLZUA");
 
 export default FishingRod;

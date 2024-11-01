@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diagram-predecessor` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diagram-predecessor?s=duotone diagram-predecessor}
  * @preview ![diagram-predecessor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/diagram-predecessor.svg)
  */
-const DiagramPredecessor: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 352l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 288c-35.3 0-64 28.7-64 64z" />
-        <path d="M224 224c35.3 0 64-28.7 64-64l0-64 80 0c8.8 0 16 7.2 16 16l0 16-38.1 0c-21.4 0-32.1 25.9-17 41L399 239c9.4 9.4 24.6 9.4 33.9 0L503 169c15.1-15.1 4.4-41-17-41L448 128l0-16c0-44.2-35.8-80-80-80L224 32l-16 0L64 32C28.7 32 0 60.7 0 96l0 64c0 35.3 28.7 64 64 64l160 0z" />
-    </Icon>
-);
+const DiagramPredecessor = createIcon("diagram-predecessor", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABfwAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBZQsIAAE2AiQDCgQgBYMtB2IbGQXIjsO44TuyxVL+h9Ly8P9roff9md2TzIZhAowKAT0At5WtqqpjVWECtsC2W1/ME9c8//NvkDJ6lIiiBynw70WeT2AizfPdBBp0pjOwvW3Y6EjiC1eomDReQvyyQzlcII+fsysqpPsprtL/AMYv2rtC0jADEM0AMG354rm++RAfUvxU/4r4yRwExHRQCmTI0EmAiTKBTnIlcrngQ6rX+RD1ekkAUUWfk4EqcizDWkAOkhB5PrJDrdI4X1arFMvfDoj4omNELW63FkW8anWr9dJ43Wd53G1zp3cREU/6fz66KF71fddO3O/3Wa9aCOg2jk2+qw9MpHejuE33z5t9/lu323r//llzmhdTLfChSTO9mbv2i1mzNG782S/WztVbM7Fsa7Nrz541j6gFskLYMHXq1OQCRRrXA4GgcvLb2ZpO/K9BLYFPX//xz/whqX9IKX2OBhIIsoH1gdYk1P9PSQAAUhzTPQGBzEgJ32sjdwQIBQIkVYUAmY6aCZArDBCgootRAlQVFstE3lBoZW2jk0YO0pnRztK5Vr6kKyb6NqtqFVltiZUhfu3SZgvM2lYOGzy0HF+aFZHKhcf1CWXY63ussX5w0jb77XPEVlvsdAT8kLnlUXvN9sBZvqg0zGBDlcYr0+2rtozskMN26kp+kwnK82lfx/zZ/SBMmHG4HZmMSJF1fAnGB1WvNeiqzuysKzcTAAA=");
 
 export default DiagramPredecessor;

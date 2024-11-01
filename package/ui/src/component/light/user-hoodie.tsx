@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-hoodie` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-hoodie?s=light user-hoodie}
  * @preview ![user-hoodie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-hoodie.svg)
  */
-const UserHoodie: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M312.5 252.4c-11 10.5-17.9 26.4-15.8 43.6c2.3 18.3 14.1 32.7 28.9 39.8C379.2 361.8 416 416.6 416 480L32 480c0-63.4 36.8-118.2 90.4-144.1c14.8-7.2 26.6-21.5 28.9-39.8c2.2-17.3-4.8-33.1-15.8-43.6C111.1 229.1 96 196.3 96 160C96 89.3 153.3 32 224 32s128 57.3 128 128c0 36.3-15.1 69.1-39.5 92.4zm22.1 23.1C365.1 246.4 384 205.4 384 160C384 71.6 312.4 0 224 0S64 71.6 64 160c0 45.4 18.9 86.4 49.3 115.5c4.5 4.3 6.9 10.4 6.2 16.6c-.8 6.6-5.1 12.1-11.1 15C44.2 338.2 0 403.9 0 480c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32c0-76.1-44.2-141.8-108.4-172.9c-5.9-2.9-10.2-8.4-11.1-15c-.8-6.2 1.7-12.3 6.2-16.6zM176 352c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64c0-8.8-7.2-16-16-16zM160 157.3c0-33 27.8-61.3 64-61.3s64 28.3 64 61.3c0 17.5-8.5 35.8-22.9 53.6c-13.1 16.2-29 29.5-41.1 38.5c-12.1-8.9-28-22.3-41.1-38.5c-14.4-17.9-22.9-36.1-22.9-53.6zM224 64c-53 0-96 41.8-96 93.3c0 55.6 53.3 100.9 80.5 120.4c9.4 6.7 21.7 6.7 31.1 0C266.7 258.2 320 213 320 157.3c0-51.5-43-93.3-96-93.3z" />
-    </Icon>
-);
+const UserHoodie = createIcon("user-hoodie", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABnwAAAKUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCYQsGAAE2AiQDCAQgBYMtBzIbYwXIBqLSlT0r6YCfWA+ABkaSM4ivnJkjjO6P+3n+rQrwGX20KCz9IL832o0yzycwsWrABNlNYKYNznvbcoQjDEcn0oIkot/I8ToAXfZJAQaoPcoCNuWbkm/EsRwUugYAgAQAAIAmvbp14HFQgiJW6AaIRTtAAKQpACYCaHCMRASA+mgIkIiOCejoCAQlFML/QBMEAMQGo4rfpwMOYDNwAADQAVDYdD0l2+uNiHIbXr2n23ANOx23J/NO4YUkjxwqvlTvVMK+rIdpxxo9avWiwYPUw/VzH/X61PBhzw/173f/2GAH2yNfF5w3F0ftcHtlXcwuOVp0se3O6J0x3bdHIjuidsWI7Ix2iw177ssXOZd9IvdM3O6c0xkn887G97qe09OnEw/kZO6IOZV/LuUgXqUq7Wzg7I9Ua6RFzbNAfLt501bM8C/GP2PFtHnt4v3D7UZFs86dm1UY9m69fkgLaWZZzQojljWzxY8Rrrjt9veW07d6tW8xcaHTem/f7nSOONgu6GuMLxiaBou7mvTUIRC4fDkgDlff1vXrt+7ratR/8Rk4a4t79Gjil/8DHz2Mt509sxgABBBIuL7AMchf/7fDrQD4fPfXb+g5GHosj9VZwIECQEArCBXQXx4DyGMEAAAAUDKTNHkMCKBYzS17HnbuRoILGihsuEAjgQDouMgHg2QqpcUF3dAQ3YkQyQAAFB6mgEYVC0AnkmtgUJ9Xvo1I0RxTcSvlX5jZUiMtRpmlRSVmnTktqKqvSWmwnrls5czEhlyYykgmMZHpjGA4Y5iuhKl0iGYwgZYW1YIHYlJKESWY1GFulx/H92QEU5nGGCYxkYaph3ney2Gm3T4XXAWLlpGnUCDK/ZqzC0dPmjR8zAgAAA==");
 
 export default UserHoodie;

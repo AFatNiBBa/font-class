@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield?s=regular shield}
  * @preview ![shield](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/shield.svg)
  */
-const Shield: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 49.4L73 127c-5.9 2.5-9.1 7.8-9 12.8c.5 91.4 38.4 249.3 186.4 320.1c3.6 1.7 7.8 1.7 11.3 0C409.7 389 447.6 231.2 448 139.7c0-5-3.1-10.2-9-12.8L256 49.4zM269.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0s9.2 1 13.4 2.9z" />
-    </Icon>
-);
+const Shield = createIcon("shield", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZQAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBRgsGAAE2AiQDCAQgBYMtBy0bwwTIhiDKe/rqSRZwFiC/4Rtxtd7IqfHGSzf+APB8rD4/F5vSPVt8AotfW6bLwMt7NrCK4nanTewQ7ZOWxJIcj3a8HpDHU3G+MqQr0ts4r/xofKOBk0nKZACiOgCGz5052fNfxpcRb5UeId4yEQExHBQCGTI0FmCQTKCxXIFcLvgySqX4H1gQQJTFz5dAjhxDMReQgyTleb2iUpkq+ZxKZSounDV31sWONb9h+AuzL6n3wciXWt4Ux+vOaTZ7zuxb6lzihlnvBuzmNu/Pub/l8XqXtZ0bl1U6q06LO6vf+V3zt9e8rXTuo5PdpZPLd/33n/2nj2s1fTpFT9//z79dy5880d55eipSy157b+1UY1Ssy7DOw2d3uOoqpCst7GCl2vdeW1ZdyIxy5WYAgaDJsU9rLK026LfylRL4+skffvdLVis9Ez+lO1FeAkHWqdTJokQ11eInAbCTYo8WysoCSV8J4Fsru1SAUBEBkrIqCpBppLoAuYo6ClBGU70FKKuimTKRVxBqWyx4Utl2PNPHYTxX20N4GYO85pRVOzJb4i2B/8mljOmB0fuK7l26FQOKZaoJ5sGm7YHFttpuD7Xaw01rbLXFLqutst6uDtphsr/bZmM0cLQVFbrropvCAMVx8Xh9jtV22Gm9rbbkXQYq7pvt7NGH28MhEqDHK7CUjFR257r1qzetAgA=");
 
 export default Shield;

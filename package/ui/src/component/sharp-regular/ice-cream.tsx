@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ice-cream` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ice-cream?s=sharp-regular ice-cream}
  * @preview ![ice-cream](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/ice-cream.svg)
  */
-const IceCream: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 0C140.9 0 72.6 63.3 64.8 144.4C28.4 148 0 178.7 0 216l0 48 0 24 24 0 40 0 72.4 0 175.3 0 72.4 0 40 0 24 0 0-24 0-48c0-37.3-28.4-68-64.8-71.6C375.4 63.3 307.1 0 224 0zM112 160c0-61.9 50.1-112 112-112s112 50.1 112 112c0 2.2-.1 4.4-.2 6.6L334.3 192l25.4 0 16.2 0c13.3 0 24 10.7 24 24l0 24-16 0-72.4 0-175.3 0L64 240l-16 0 0-24c0-13.3 10.7-24 24-24l16.2 0 25.4 0-1.5-25.4c-.1-2.2-.2-4.4-.2-6.6zM224 512L347.4 320l-246.9 0L224 512z" />
-    </Icon>
-);
+const IceCream = createIcon("ice-cream", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABaAAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBWQsGAAE2AiQDCAQgBYMtBzAb2QTIjsR0e4N8Yop2dDw86P3XuUk+nfmjDEAty93KLgEXvVqpnAcbcIABz7QA1tTN886jAJ8jCG1MmhrIAp/zPIHA274poSywgC3VrJ3dFz+IbpU+5ZMM4w8TC2TxaNyvjOTh5Hvc1x4av+jiLhJlKYBoBMCsDWuW+fjH+DHiu9IbxHeWICBmgUIgRYpuAkyVCnSTKZDJBD9GqZT/gQUBRDl+hQRkKMMKbAJkIJFmWfc+FTVlddn6mrLqLZ9PjXi/eG7gS7kQNXUREY8MfqX/M9M/nL/2ySERr054Y9DL3W+6FXnU1DzfRVTXRjw6oKamM27Fpg1rN1THut6vNL7y277f/70fPupt3jr2Wktz7Ui5/KXcSLXNLa8de+vtTjzZcJs//szbpBm5zsZVbbnGlbm2VY2duSw9sePyR0n4n1wHAsFfK+995Q1T/6usScDP76qeV/o4Pk5eQaUEBOnQ0lBb42MAOgAtifN6Oy8LJBZIgXet9YAAoRoBEuWqBUh11ShAptoQAcr0ME6ActXWSEVWJbTaNkCi1imQGu8ayLR6DZSZ6iutXGukQUWGBPmni5tvoXlNxajhI4vJxdLSqTjBS3VKsS0OPK+RQZi13wnHnbXPXoecNchpy8xzjpnvwfO8qDDKcCMVJiuO3efx9fY57YxDTjhe60xR3FcHOu+nD4KSIOZorYmESKoO7dk37I2QPwY=");
 
 export default IceCream;

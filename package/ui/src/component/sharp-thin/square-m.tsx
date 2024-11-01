@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-m` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-m?s=sharp-thin square-m}
  * @preview ![square-m](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-m.svg)
  */
-const SquareM: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 48l0 416 416 0 0-416L16 48zM0 32l16 0 416 0 16 0 0 16 0 416 0 16-16 0L16 480 0 480l0-16L0 48 0 32zM96 136l0-8 12.1 0 2.4 3.4L224 290.2 337.5 131.4l2.4-3.4 12.1 0 0 8 0 240 0 8-16 0 0-8 0-215L230.5 308.6l-6.5 9.1-6.5-9.1L112 161l0 215 0 8-16 0 0-8 0-240z" />
-    </Icon>
-);
+const SquareM = createIcon("square-m", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABYAAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBWAsGAAE2AiQDCAQgBYMtBy8b1wTIhuD7tbLfn9kDDMLkVJjYxcUj61MBVuuCPvYqlkDv2KXxj/8GPP4Xf7SxaU2QBbY6V7wCD1pq6jvelKcVrFpBq24Td+gRhV0RIUIR0fHZcbaHPO7YrUS6lT7hQvnQ+Kq78yRZBiDaAWDGulVLlNuiLeJj5Tnx0SIExAxQCGTI0EuAyTKBXnIFcrmgLSoV/g8sCCCq6P0lkKOEZVgPyEGS5Xlt+yH1pcZ8bX2pblPKUmNk0dClvq5RpBB1DRFZxJoQ9dEZ/rroKpqK1kU0rY5O0SXWus0tre1av/f7tPeT5gsPVQF6pV27cjsPtdMeNW/bvhpcp0GL4/eduK+DBjV+qdFOjc/2X7Hfegeu+Oxv8QsIBP/fjV20rXny/5r6BL68+fkVLq60RTm1okYCQTa4MtjmKANTA/hJKc5qiTICyTwZfdcG1wUIdQiQVKkTINNTOwFydQYJUNLHGAGq1FklE3mt0MmWAZIGJ0BmrHMg18lTUDLZ26RKp8iCig8J/kuXMtdCc5qKEUOHFxOLaUsX4oRNq5OKbb3/WRkZQDvtdcxRp+2x2wGnDXnSkvyMI+au4Dm+qDDCUMMVJiqOu/vta+1x0ikHHHM0rzNJcT/u7+x6+gCyEmUcqZAkItW8S2PIEQA=");
 
 export default SquareM;

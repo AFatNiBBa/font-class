@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hammer-brush` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer-brush?s=solid hammer-brush}
  * @preview ![hammer-brush](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hammer-brush.svg)
  */
-const HammerBrush: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 0C64.5 0 0 64.5 0 144c0 5.5 2.9 10.7 7.6 13.6s10.6 3.2 15.6 .7l51.3-25.6c13.9 17.1 34.8 27.3 57.4 27.3l66.3 0c21.9 0 42-12.4 51.8-32l38.1 0c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32s-32 14.3-32 32l-38.1 0C240.1 12.4 220 0 198.1 0L144 0zM112 192L99.2 448.1c-1.7 34.8 26 63.9 60.8 63.9s62.5-29.1 60.8-63.9L208 192l-96 0zM418.2 505.4l20.7-62.1c2.9-8.8 15.3-8.8 18.2 0l20.7 62.1c1.3 3.9 5 6.6 9.1 6.6L592 512c26.5 0 48-21.5 48-48l0-144-288 0 0 144c0 26.5 21.5 48 48 48l9.1 0c4.1 0 7.8-2.6 9.1-6.6zM380.5 237c-17.2 11.5-27.7 30.5-28.5 51L640 288c-.7-20.5-11.3-39.5-28.5-51l-65.1-43.4c-.8-.5-1.6-.9-2.4-1.2L544 48c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 144.5c-.9 .3-1.7 .7-2.4 1.2L380.5 237zM496 64a16 16 0 1 1 0-32 16 16 0 1 1 0 32z" />
-    </Icon>
-);
+const HammerBrush = createIcon("hammer-brush", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABkAAAAJ0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCTQsGAAE2AiQDCAQgBYMtBzMbUAXIFkoL8WRXX69nlrNH90n4kaFIzCAEGRwxgvd/rqkXz48O8NuFexTdO2vvFQ0zn09gz0eR3BjFBTabKM7a2U0/QF8GSSLv+wyTfthk52BYA1P+GCuwgdqrngKb80fJRyJYAQqXAQCA+AMAAPW9u3fj5mt5LfLEew7kCZ2AAEg9ABoBDIyORgCowkDGNTDRgImJwGvxetN/oAYBALHDuykATMABrAJ2wHw8UNhMM8tPR7osm4/Zy7K5+9+tErmql4TsDOuUE8WWXMi0hAdY68N2i8jS0F3udcE7cMvJEnePHr17LEk/kXws85T0EvfIwrzC3db6kHzZaVlyTItEeR5B9hqNZEvoWfodD/eRfRm9ZFeoyL7QXSmHg3eEI+uCe/TeFbo7bGfIjuCEk/4nP8c/HfWUzTdurYY50a4Zw6eX0Vc3oH1T8F2zxrdoQxqSkqFL4m54vDErSmT/fpEoeAzJL+vGV0u225O7EeoYS97zZ8YWNFswnj3Pc+EITbIOxmnittVnwIo7GLkVoS5j2unXvr6vCxUAZLcPPhn9B/tVfXNaCoC3l7/+pB7svamWqJOAEwWAgJHlzWKAWgIQWwAgVDKLBOGLBFAswga7HnZZY8ENHRR23GAQhT+YuMkEG7EUc8rp3TEQ04UQzECAwsNUMChhIZgEcwZsVPEgsBMshjsKziT8BlNbxJsH6fycPF2htzlN9DAu9FZqtZ4265p0LGUUk5nEDEYygrHMgJxGt3gmE2mRiGZ+iCafHPLQVKDNxef5vRjJNKYzlslMSv1Uou+7acySm6djGAoAKHhIjlaJ8owZOnHiyGnZw6bNnD4GAAA=");
 
 export default HammerBrush;

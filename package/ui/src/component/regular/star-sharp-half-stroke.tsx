@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-sharp-half-stroke` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-sharp-half-stroke?s=regular star-sharp-half-stroke}
  * @preview ![star-sharp-half-stroke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/star-sharp-half-stroke.svg)
  */
-const StarSharpHalfStroke: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M310.9 16.7C307.7 6.8 298.5 0 288 0s-19.7 6.8-22.9 16.7L214.5 176 56 176c-10.3 0-19.4 6.5-22.7 16.2s-.1 20.4 8 26.7L172.1 320.7 121.1 480.7c-3.2 10 .5 21 9.1 27s20.2 5.7 28.5-.7L288 406.4 417.3 506.9c8.3 6.5 19.8 6.8 28.5 .7s12.3-16.9 9.1-27L403.9 320.7 534.7 218.9c8.1-6.3 11.3-17 8-26.7s-12.4-16.2-22.7-16.2l-158.4 0L310.9 16.7zM288 103.2s0 0 0 0l33.1 104.1c3.2 10 12.4 16.7 22.9 16.7l106.1 0-88.8 69.1c-7.9 6.2-11.2 16.6-8.1 26.2l32.5 102.3-82.9-64.5c-4.3-3.4-9.5-5.1-14.7-5.1l0-248.8z" />
-    </Icon>
-);
+const StarSharpHalfStroke = createIcon("star-sharp-half-stroke", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZgAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBUQsGAAE2AiQDCAQgBYMtBz0b3gTIhofn7ao/91WNetaoBYxc/t8RgMxBAkdQxKjn/5rPz5oOsMgPpVMPpEA+XS/y+QQOcDpPklmkTRS3O5uFQ2mfpKVZkuOzHI/DHvL4Oq6qIN1LX+BKvtL4TUuXSSoyANEAABOWLZrjox/ih4jPy68Tn5uFgJgACoEMGdoIMFom0EauQC4X/BDlcvgPLAggKhGcODmeOR0rADlIUp53b1FbUTdf6reUtt3u+nSTxVEKZN1suiQWB+tW82WxJFh3mi2NZcGrYCmWLr4QERekqEvtBO945aFvl6LjMw2e+aPDF1u/MPSFdawb8KjHWDvunYtbDHzMuM9+/vL8Zuc3+/Lnz8YNfMzFLd4Zt9ajBj7abAlQbLPOTssne2dssdXC8TZX/w8Egk7H9z2/rv7ov6trE/jpnb/+Kee3Lb+bOqVnUC2BIOtd7m11Gq+ttjAogNIUR3WEbxJIxkvoUuu4LUAoIUBSqSRAprUGAuRKeglQoZ0hAlQqWSQTeY3QxJpGJXUcoDJDnaFyTbxKVRjt47RSk8gMSjYH+T2XMZVDU4aKAX37FyOLYakqNiKm9VHFdND9aBzrATtttc9eh22x2Q6HGXnQnOKIPaZqxBQ/VBigr/4KIxXLzT241BYHHbJDdq1vMkqxP+nuqD67B8QJcQ4EJIlIzU681efOmX2s1e3zLW64awsAAAA=");
 
 export default StarSharpHalfStroke;

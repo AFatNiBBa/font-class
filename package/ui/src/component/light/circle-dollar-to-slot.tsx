@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-dollar-to-slot` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-dollar-to-slot?s=light circle-dollar-to-slot}
  * @preview ![circle-dollar-to-slot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-dollar-to-slot.svg)
  */
-const CircleDollarToSlot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a176 176 0 1 1 0 352 176 176 0 1 1 0-352zm0 384A208 208 0 1 0 256 0a208 208 0 1 0 0 416zM64 352l-8 0c-30.9 0-56 25.1-56 56l0 48c0 30.9 25.1 56 56 56l400 0c30.9 0 56-25.1 56-56l0-48c0-30.9-25.1-56-56-56l-8 0c-8.6 11.5-18.3 22.2-28.8 32l36.8 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24L56 480c-13.3 0-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24l36.8 0c-10.5-9.8-20.2-20.5-28.8-32zM272 104c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 17.3c-8.3 1.5-16.7 4.3-24.1 8.7c-13 7.7-23.9 21.1-23.8 40.5c.1 18.4 10.8 30.1 22.7 37.3c10.5 6.3 23.8 10.4 34.8 13.7c0 0 0 0 0 0s0 0 0 0l1.6 .5c12.5 3.8 22.2 6.9 29 11.2c5.9 3.7 7.7 7 7.7 11.6c.1 6.6-2.7 10.8-7.8 14c-5.8 3.6-14.5 5.6-23.7 5.3c-11.8-.4-22.7-4.1-36.3-8.7c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-2.3-.8-4.7-1.6-7.1-2.4c-8.4-2.8-17.4 1.7-20.2 10.1s1.7 17.4 10.1 20.2c2 .7 4.1 1.4 6.2 2.1c0 0 0 0 0 0c9.2 3.2 19.7 6.8 30.9 8.9l0 17.8c0 8.8 7.2 16 16 16s16-7.2 16-16l0-17.1c8.7-1.4 17.4-4.3 25.1-9.1c13.3-8.3 23.2-22.2 22.9-41.6c-.2-18.5-10.6-30.6-22.7-38.2c-11-6.9-25-11.2-36.3-14.6c0 0 0 0 0 0s0 0 0 0l-.5-.1c-12.6-3.8-22.3-6.8-29.2-10.9c-6-3.6-7.2-6.4-7.3-10.1c0-5.4 2.4-9.4 8.1-12.8c6.2-3.7 15.1-5.7 23.6-5.5c10.1 .2 21 2.3 32.1 5.3c8.5 2.3 17.3-2.8 19.6-11.3s-2.8-17.3-11.3-19.6c-7.5-2-15.6-3.9-24.1-5.1l0-17.3z" />
-    </Icon>
-);
+const CircleDollarToSlot = createIcon("circle-dollar-to-slot", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABvAAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDYAsGAAE2AiQDCAQgBYMtBzwb7AVRlA1Gn+znge1iLRaPi3Qav6N866rXYhQP/2/TvO/PyAA4u4mBZYcRO4SKqELSVmGodFISd9bhtnYkb5nUvBQalVWom1fMXjxGzQAKkQD8496d//O/fT6jjzIba2Ibx5jnCSQyfYp0UZ5nGgDGFgS57X5DXEOzkOAMebwR80qkB9JHuM17qfjZoBtJ8gxAdABgu0MO2EulqhrxUe0l4iN7ICC2B4VAxokRAbaUCe0z5ArkckE1ajX3P7AggKgTnJtAjjp8hR+gX4Ik5zcMD6+c2FxqzfcEzSU7vWkz8FhYzM+b3pvKzZ+La+ClbYtXs1FtAV4bnAKvHDd/NpWb3su75cNmj+agqdmue8gACtlLJzxdPx8Gqo9N2kSPoxlEIdZ3tUNATznYUHhvH+lBQXrqATnRTOBQ5WWlvVQPadqm7wdZH2sTvbQ3SCdQzPTyflDXDavJdrIILQjQrinrx/28mU7QVKrv6oOf6Rh/XfPRyR+pPVjOufjSyxYXL7v04kvKehvHrt3szU+VZzfxn6389PNmtBF8ZxszeCtb/deX1f9Xz70duxtUVifs11vWu9/t+cMnrFY+/b+tWm3rtO6Jw0dnN2vIE0BY/54L6xsvvLH9Dx+gKH9x5FZfFwV8nbrsanj5yJah3Qd7IngO6z9+QanhgnvaqtkXey18/ci6TiAQ7LPTNZ8d077lv6aTwI+v//4v8S2qVZL0DBokEGTztXlHJpAIAECKi61NEEg+kiPW4t69+dBEDUmdJsgM64BckzkoGbORsnL3ATKRNwo9jgKSFudBZmNXQa7HC1CypXczdXoiu7C1y1L7rMy0cxvZaVuxvFguNi8m20rdtarY61sUq13TF+tjM5x0snOc7UInOdFpLmzR59srf5Gz7DyH7uSDCssWlRU2V+zu3Tcd3Aqe7wJdGTfs32QLxfmxaRfPz57BmwSiKxqSRKTe/3+sC+93euHCcxYeeA==");
 
 export default CircleDollarToSlot;

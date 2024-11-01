@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-clock` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-clock?s=sharp-thin truck-clock}
  * @preview ![truck-clock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/truck-clock.svg)
  */
-const TruckClock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 16l0 384 51.3 0c10.4-36.9 44.4-64 84.7-64s74.2 27.1 84.7 64L400 400l0-384L16 16zM64.4 416L16 416 0 416l0-16L0 16 0 0 16 0 400 0l16 0 0 16 0 80 72 0 3.3 0 2.3 2.3 112 112 2.3 2.3 0 3.3 0 184 24 0 8 0 0 16-8 0-56.4 0c.2 2.6 .4 5.3 .4 8c0 48.6-39.4 88-88 88s-88-39.4-88-88c0-2.7 .1-5.4 .4-8l-.4 0-160.4 0c.2 2.6 .4 5.3 .4 8c0 48.6-39.4 88-88 88s-88-39.4-88-88c0-2.7 .1-5.4 .4-8zM416 216l172.7 0-104-104L416 112l0 104zm0 16l0 141.4c15.9-22.6 42.2-37.4 72-37.4c40.3 0 74.2 27.1 84.7 64l19.3 0 0-168-176 0zM224 424A72 72 0 1 0 80 424a72 72 0 1 0 144 0zm264 72a72 72 0 1 0 0-144 72 72 0 1 0 0 144zM208 272a96 96 0 1 0 0-192 96 96 0 1 0 0 192zm0-208a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 56l0 56 40 0 8 0 0 16-8 0-48 0-8 0 0-8 0-64 0-8 16 0 0 8z" />
-    </Icon>
-);
+const TruckClock = createIcon("truck-clock", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABuwAAALlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDagsGAAE2AiQDCAQgBYMtBzIb7AXIjsK22XNIGCOScQkjK/EN/vnsvu6rqq/uMXptZpQyOx9k65OT4GM/2r5TcbSSXKYT6r+GWDLxZBYaVIZM5uJUzuU8FMC3jCUWlE/HpDV9W6x7CvS8gGP7FttgtVIJK8A1TO9RQFdid/bugYvfxgvBHE/5CrZYy/WXaisxbCoOgIo8K9Bmbb8e3P8dxdKr/7fQF5YBAbQEQEDAAgvyCEBzlkAeJwCOIxTH///hf2AAAUAZ0NMMAAd88BmKqD4DGLE0l7owVhgfn1ub6qfHu4G56d6wlFTj60DvzUqXq1zPzg2ruCE5uZ5kJfnxiHL99Fgd5ZF/BeV4u5zqulb/SdUbBfMKecLEztwcf2BVD8iVyQWvQPL6n5l50fhZ3ukmz5u9LNx+Z/BuzTsNH1W/VeN2gx0bOiPO1J7UfM2Jile8vW2Xso6RVB+vcNmPDe0Rp6qPk2hYh/XYhu3YB/vpK131IQdxytnqi7I3km78KPN64msK7ybOL6hnw/LRxcXb+my4SCIZPFR7qHWSpYokHU7SW+fUZrN2kcK6qyqrSHQ6Nc2t3d269drdLs3BMRgc9eESFUyaRAeTiw64t39YdHmps+69vRdtG61XPhoqMjslS+uNtl26tfJXznAY/u5pdfbTJ5uG50CJNOVnwWEc/vOlocAPnjlcACW5fcpxVN5PfCpLaz6RxABAJ609snrhqMS5f1HfAFD64te3+HL/75ulKTcgygAQbN//6oanJIDEDwCkTCxUtuONBIzXsjmvGme3ACAeEAAjzCMAVq4kAuB4qhGAkAINCECYpx9LaTEkzYgcjDhzwGpoEThpbkBIc8+SYWmRenabzk3Tv2X2jkh2mBQM16wdNA1aS1LzCWvQR5sFg11dC+WWKnQHE80y03wTjDclRqDn6pFZYIaOXVQHHxSoo6baAk0Fk6tX7QMBQ/s8NDSbp4+jmWD5WGULu7tXoV7DUa0ryzBQin/7Omt8DAAA");
 
 export default TruckClock;

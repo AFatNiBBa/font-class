@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-circle-arrow-down` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-arrow-down?s=regular cart-circle-arrow-down}
  * @preview ![cart-circle-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cart-circle-arrow-down.svg)
  */
-const CartCircleArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48l45.5 0c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5l121 0c-.5-5.3-.7-10.6-.7-16c0-10.9 1-21.6 2.9-32l-123.2 0c-11.5 0-21.4-8.2-23.6-19.5L170.7 288l168.5 0c9.2-18 21.4-34.2 36-48l-213.6 0L131.1 80l389.6 0L490.5 192.1c1.8-.1 3.7-.1 5.5-.1c14.8 0 29.1 1.8 42.8 5.2L569.7 82.4C576.6 57 557.4 32 531.1 32l-411 0C111 12.8 91.6 0 69.5 0L24 0zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm320 0a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm67.3-147.3c6.2 6.2 6.2 16.4 0 22.6l-56 56c-6.2 6.2-16.4 6.2-22.6 0l-56-56c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L480 393.4l0-89.4c0-8.8 7.2-16 16-16s16 7.2 16 16l0 89.4 28.7-28.7c6.2-6.2 16.4-6.2 22.6 0z" />
-    </Icon>
-);
+const CartCircleArrowDown = createIcon("cart-circle-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABjgAAAKNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCPgsGAAE2AiQDCAQgBYMtBz0bSwXIHgfVbRfTOXLSmCWXPKz+Rjz8Gm3e3z1RPOHJLItGoicaVbSKavVm1u8qmtQS1PWfH/ee+z6kt30AWwXYALe1dXfWRTemvJA4cM5VWoYNfGCVv9mnz9QqDb1+6tTznIcC+JyIB2VP3bhAQmt0nleggLU23kkVClitwFq17s62FYdon9BSluT4JsclV6jznTFaoJxjf4AjaVH5SXZIIaoAQAYCgPnLe9rw8i7vks/mDunjgwCZDwBjEKhgZgQCzCJA5BWEOKgJEbxL08T/wDEQgLSCf7UCqEEr2IYDgBpQCGthoWf4cEWLSthPo/KRvbTx0zkytbMJHxQ0HVNjoXJpV6iLLqJU+kGWesGeouevszMvA0zOC9TKk7qzbwN769q28bMHasDcJ1/UJJ6Vr7xbesfu2DrlUf4o6gWXZG7OsrSsTC6FTiwLE0CTcsbk3GqvX2P7V/cTn3UNG9Y1lbg126tx+jTHDkm7dtoePn8xrr1d8oJxBbuNXINV5kWj1svcfpq+w++xU0/+r365d+/LVbg0b1yBMmNsIFCVZiUoCu7EguPb81vcXNsiE4Tp06Z+967X+ETvAwGBgQsO/lYN8P610wzAh4d//+PrmudlK7uCdgwQqCY3k42WDoDoACQlm0C18kEBxQ4hXmq3YwGEHARQiMkRoOKgRYCaXBQBWrjlEaCVXA8BqmUgRmMNMEorQKDgAAgZ3QGRWq+xmDGVHTJWxLwCE+slVHeMz0ikeIUPC4U1LSrs1/Bpc/ymH4RhFpOWLFo3YdyMdYGsass2LKjX4DpfxKUlpHAVfLm+P99vwqo1M5YsxkNq8P1uyKa+OgwOw7gz5QoGKeabrMY/7AjxGq0ubcWPKAA=");
 
 export default CartCircleArrowDown;

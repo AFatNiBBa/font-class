@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hat-cowboy` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hat-cowboy?s=solid hat-cowboy}
  * @preview ![hat-cowboy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hat-cowboy.svg)
  */
-const HatCowboy: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 64c14.4 0 22.3-7 30.8-14.4C360.4 41.1 370.7 32 392 32c49.3 0 84.4 152.2 97.9 221.9C447.8 272.1 390.9 288 320 288s-127.8-15.9-169.9-34.1C163.6 184.2 198.7 32 248 32c21.3 0 31.6 9.1 41.2 17.6C297.7 57 305.6 64 320 64zM111.1 270.7c47.2 24.5 117.5 49.3 209 49.3s161.8-24.8 208.9-49.3c24.8-12.9 49.8-28.3 70.1-47.7c7.9-7.9 20.2-9.2 29.6-3.3c9.5 5.9 13.5 17.9 9.9 28.5c-13.5 37.7-38.4 72.3-66.1 100.6C523.7 398.9 443.6 448 320 448s-203.6-49.1-252.5-99.2C39.8 320.4 14.9 285.8 1.4 248.1c-3.6-10.6 .4-22.6 9.9-28.5c9.5-5.9 21.7-4.5 29.6 3.3c20.4 19.4 45.3 34.8 70.1 47.7z" />
-    </Icon>
-);
+const HatCowboy = createIcon("hat-cowboy", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABcQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBXQsGAAE2AiQDCAQgBYMtBzEb3gQjEWZTzif7R0J2FnOFVkKMT76UiVf2hsdttmLiTDxUY7+3e4dKE6v/Z5JXonhJHgrTadYaTUthqGSS3cZY2xAXzW4WCkf9RwJg7LR4p5UKeEg1GwsbL8iK1+aMb7DGS2P5L5IKPbC/yls7O8sPOqzSpXySYdIPmwfU+CllQE4+kpwCt+VW8YVbGaSBAiDGAYCtQ1d7ePqMj4j3NgfxzhYBsQWLEAUXsxCsIhX0AWQWgaoKPrA1/gcKQQDRq/1kCSoqdnAKqCBlremSorTk9GQetOQ0kQOciMXYwNlA2yc/JtzF36s2S1OjMS/RIdqjOCFZy17HXox14m5L5oh77g+WB7orsg3sdVyTeqtWh273NscG6yrNnA3sQ9oiw0zDX8KnEadgWKg8AgARZeVMxZKa2zdh/01D6upDTf9hN9uaksVM5WURACPKl+cqBqBvBmag7yDi8vdCeFKOHrZ4ffVFX3x91ViJUn4ivPy5mIJA0N95nghk1Pvup03wufxN4IftH+QNyTCAfgmC0m1dvyxy8PY/BCSpGdfLMEGk7UqNuw67QxAGESD1GhSgmMEEQTWoA0GPeeoQ9Bq0q4g6IEzzHyANOwPFinxQTZsBPVYdqL2mo4QVGxTsry7p3kIh8zEhZQUlIR2hpaVzkULnqq7QtiyVYRFpXEJEYkJaeFh0mpAp9kZ6vIVHmH9RSFlBSUhH6Nh9PvYIT0mNTkxgHV2h+4pUhp8ujSlIAAAAVB6EtnkkoYkKTpMPTcwMScwGAA==");
 
 export default HatCowboy;

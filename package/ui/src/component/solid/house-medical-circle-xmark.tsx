@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-medical-circle-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-medical-circle-xmark?s=solid house-medical-circle-xmark}
  * @preview ![house-medical-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/house-medical-circle-xmark.svg)
  */
-const HouseMedicalCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 368c0 59.5 29.5 112.1 74.8 144l-266.7 0c-35.3 0-64-28.7-64-64l0-160.4-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L522.1 193.9c-8.5-1.3-17.3-1.9-26.1-1.9c-54.7 0-103.5 24.9-135.8 64L320 256l0-48c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16zM496 224a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm22.6 144l36.7-36.7c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L496 345.4l-36.7-36.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L473.4 368l-36.7 36.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L496 390.6l36.7 36.7c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L518.6 368z" />
-    </Icon>
-);
+const HouseMedicalCircleXmark = createIcon("house-medical-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABkAAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCRwsGAAE2AiQDCAQgBYMtB0EbWAXIhqCylWX1zF5IsyfkETM/IFtnPRBYxL7AfbKAd+Ka53/+9PZa5I/StUiQ8og8b7ABDjeLpvEwbTibKM7aHOejDor80iDxiH0iDeM1TEF7yOOf7AYV0qPpC9zdPjR+1MENJI0zANEcANPXrlzsw/NxPuLz2mvE5xYiIKaDUiBDhs4CTJIJdJYrkcsF56NWS/+BJQFEHb3bBHJUcDPuBuQgyfJ8Zqfu1UqTfE21Uuy8ZnDEc+Pr4/EBT3eMKOKhtg/Fte3WxsNtbm+zOh4qbhv3Zr8iYkYG+IHWAn6wTTXEh9cW3T4+4q3Bz7lm0LORvL3uhLeHPB/XDn1h4jvV1VMnTX247UOtJ8WUENwDbSbHpMA92G5qTA5yevMpPZ5u/vTP3b/Y84WpSwePYnTfqoYWLYoGpW9uuaVJ00dr5zzZUH/TD2/7qEn/sryzn2Gani+dbzrMMEilMYaNS1+4u28iDe/ep0/34Sn1RUHytb17lCY89thTT80000H22VFGsdcDgWD+Szs2b2026bdG1QQuvv3rn/VytQ/TNelpNJJAkA2qDbIpXQMyE9BoijN6OF8USK6WwbvWe0iAUCBAUqcQINNJcwFyhYECVHQ1WoA6hZUykTcWWtt8Ikm940hmjCuRXGuvIBWTfByp0zoyLrJMYj8Fk+ZYYPa8cviQYeWE8rKgc/Siy+DEctnqdyY39MdKexx1xCm77bLfKQOdsDh+2mFzPHC2HyoNN8QwpQnK7fKjtEZwJ5y0n3Fkf5iJyufD/Zzx2/eHK1HCEdKSRKSOPNUGv5ra4D937MGX0BcA");
 
 export default HouseMedicalCircleXmark;

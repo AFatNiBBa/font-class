@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `onion` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/onion?s=sharp-regular onion}
  * @preview ![onion](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/onion.svg)
  */
-const Onion: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M173.5 120.8c-.4 .8-.8 1.8-1.4 3c-1.5 3.2-3.6 7.9-6.2 13.7c-5.1 11.7-12 28.2-18.9 46.9c-13.9 38.1-27 83.8-27 119.5c0 32.5 9.2 60.2 18.5 79.8c3.8 8.1 7.6 14.7 10.8 19.7c17.4 5.8 36.1 9.6 55.3 11.4C194.2 389.7 184 354.2 184 312c0-61.9 6.1-128.6 12.1-179.6c1.7-14.3 3.4-27.5 5-38.9l-2.4-4.8c-7.5 11.9-16.1 22.6-25.2 32.2zm55.1 9.3c-.2 2-.5 4-.7 6C221.9 186.6 216 251.9 216 312c0 37.9 9.4 69.8 18.8 92.2c1.7 4 3.3 7.7 4.9 11c21.3-1.7 41.9-5.9 61-12.4c3.3-4.4 7.1-10.2 11-17.2c9.9-17.9 19.7-43.2 19.7-73.6c0-37.1-15.8-88.6-32.6-132.5c-8.3-21.6-16.6-40.7-22.8-54.5c-.8-1.8-1.6-3.5-2.3-5.1c-8.7-9.4-17-19.7-24.3-31.3l-20.7 41.5zm100.2 38.4c16.8 43.9 34.6 100.1 34.6 143.5c0 25.2-5.5 47.4-12.6 65.7C382.1 355.2 400 325.3 400 288c0-56.7-28-84.2-70.4-118.8c-.3-.2-.5-.4-.8-.7zM102.6 381.4C94.6 360.5 88 334.1 88 304c0-41.6 14.9-91.9 29-130.5c.6-1.5 1.1-3.1 1.7-4.6l-.3 .2C76 203.8 48 231.3 48 288c0 37.7 18.2 67.7 50 90.2c1.5 1.1 3.1 2.1 4.6 3.2zM276.7 34c11.6 39.7 43.1 65.3 76 92C399 163.7 448 203.5 448 288c0 80-57.5 134.7-130.9 160l9.2 23.1 8.9 22.3-44.6 17.8-8.9-22.3-11.6-29.1c-7.3 1.2-14.7 2.2-22.1 2.9l0 25.3 0 24-48 0 0-24 0-25.3c-7.4-.7-14.8-1.6-22.1-2.9l-11.6 29.1-8.9 22.3-44.6-17.8 8.9-22.3 9.2-23.1C57.5 422.7 0 368 0 288c0-84.5 49-124.3 95.3-162c32.9-26.7 64.4-52.4 76-92c1.6-5.5 2.8-11.3 3.6-17.5c.7-5.3 1-10.8 1-16.5l10.3 0L208 0l13.8 27.7L224 32l2.2-4.3L240 0l21.7 0L272 0c0 5.8 .4 11.3 1 16.5c.8 6.1 2 11.9 3.6 17.5z" />
-    </Icon>
-);
+const Onion = createIcon("onion", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABtwAAALZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDTgsGAAE2AiQDCAQgBYMtBywbygXIBp7n7ezPfZmJl56VVH0YnfJNllArdzm5VH/ExwY5/rzrWPjxhds/T6trxSvQ+HtTGxusYBusotjd2VbmEJRDkmhr5Ph2vI5Ak42yDB3UevUIWJq+VD4RwixQ6CYAAMQbAACo7tKhnWvv5b3IQ/dpkIe0AgIg1QAYCGACTEA4AkAZJgQIR8MANDQE3ovbTf+BBggAiJlCKbiLBliAB8BzAEADQKFrWmyMT1Anh+6hdXbo9h4LEJnuv8pRrAvej+3JqwN2xx+JcUVtjdoYFijr/OtX8QGbwjcxSHp+b+LaoINRrsgtSIWukTA0rdPmCBHZvEXw1VhXyoGUBdJxQ6QramuYKwhCu+xL2neEtG+32tFjfbLI/mSXnE8/HL2t7FJTiABVJKHiKn+EsouIawKDhSqRsFseVFyJ2Zl5tNQlB1MPhq0NWisOR4gESJCE9decHrA6IOaA94Ev0Y8GP+JwgwgIfonIuIOHp04L8/Zsbdh3IyEqsyKjIc7Hj+OPh4qAkoa08owQCYj7cb+hmyMiYsWMa9dXISKPjxUNSLi2GvZE6wd/WJJTkv8LH16+9TBcMw4pBOH/5jYrgDrcfVE95K2EklsnIxxNjePnMJvjVX6J7dtCCCYrC2Hb9kv5QeYwvrHJEXHyVgmszKtflGi12OyBr/DDj1cE2m0WayIACCDwbumlrn28yv5YHQqAjxe+faPd7L4m19QBwIoCQMCU5k6jp1wDIKkAQKRkMjFIgbSguIEOJNfJmltKsGsDFGbsYCIMb9Cwkwo6keQrSruDihLN5vrTC0HhZByYKGAKaPhzEnTKuBub8ReTPWvWqP0msxtmvH6VkZ2RZZQYbKnrJqqExVJD7SRN9gPJsJHBjGE0ExnEQIYxceLG055NYhQNElHPDzHIJoMsDEowrpvX9Z0ZxHgmMIwxjI7LlGK8d5OYLI9PhnYUAJBjCYgqiNLHjB42ZjQA");
 
 export default Onion;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wpbeginner` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wpbeginner?s=brands wpbeginner}
  * @preview ![wpbeginner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/wpbeginner.svg)
  */
-const Wpbeginner: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M462.799 322.374C519.01 386.682 466.961 480 370.944 480c-39.602 0-78.824-17.687-100.142-50.04-6.887.356-22.702.356-29.59 0C219.848 462.381 180.588 480 141.069 480c-95.49 0-148.348-92.996-91.855-157.626C-29.925 190.523 80.479 32 256.006 32c175.632 0 285.87 158.626 206.793 290.374zm-339.647-82.972h41.529v-58.075h-41.529v58.075zm217.18 86.072v-23.839c-60.506 20.915-132.355 9.198-187.589-33.971l.246 24.897c51.101 46.367 131.746 57.875 187.343 32.913zm-150.753-86.072h166.058v-58.075H189.579v58.075z" />
-    </Icon>
-);
+const Wpbeginner = createIcon("wpbeginner", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbQAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBYwsGAAE2AiQDCAQgBYMtBzEb5ATIhuD5ut6vc7tnkumJ0QE070Xil1bZ/RWsFcSVvAMwdep5zkMBfI940MbCNUEW+JznEQhgLBdbXWAFqvUKElGstbNLMYhuk/S9fJJh/GEzuEEej8UFKqQr0+s4v35pfK27M0kqGYBoB4DZG9cu9/Rn8VnE6/8/QLxuKQJiDigFMmToJUCzTKCXXIlcLvgs/v8//geWBBBV/MEEclSxGrsAOUjyPB9Wa1OrV1rnG+qVYu+9vSKuGRpxx7yzBt/W46zirOKKgbcUDw6/q891Y97Z+O7Ktza+vfyN9W+v21Mv6hFFWB/i/gUvNsQT819o2jB7tf9d7e76tt/rB1735tEb5zL3Pd7X5557fq/WatXfw8Y+P3z53ty5Nw6a035Ou9mvPbYpNsVjr7UT7GylrV0znKiG4Rrvre86/0mLbtd3d9LUKTdduv42vqnhNg0gELzdfEn3nW2bf21ZT+CLR7//u71e//+z+DXdhZYSCLKR/4+0LVFXNyYF0Elxuv64WCBZLAd8aiuXCRAKBEiqCgEyPbUTIFcYIUBFH5MEqCqslYm8JnSyfYCklZNAZrKjINfJfaCi2UtOVafIPIv0C/JhF7dAQvOnynGjx5aNchnolLPgedhUbvNDT0+FYVh1wAmOd6r99jnsVIGcbLl/muMssOD5LlQaZ7SxSg3lcbxe3mC/k53isBMcX8Y0Ke/bQ51u1w+DlBBzvOUkEak448Q9+w/+/AsAAA==");
 
 export default Wpbeginner;

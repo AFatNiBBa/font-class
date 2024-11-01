@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swap` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swap?s=solid swap}
  * @preview ![swap](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/swap.svg)
  */
-const Swap: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M237 141.6c-5.3 11.2-16.6 18.4-29 18.4l-48 0 0 192c0 35.3 28.7 64 64 64s64-28.7 64-64l0-192c0-70.7 57.3-128 128-128s128 57.3 128 128l0 192 48 0c12.4 0 23.7 7.2 29 18.4s3.6 24.5-4.4 34.1l-80 96c-6.1 7.3-15.1 11.5-24.6 11.5s-18.5-4.2-24.6-11.5l-80-96c-7.9-9.5-9.7-22.8-4.4-34.1s16.6-18.4 29-18.4l48 0 0-192c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 192c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-192-48 0c-12.4 0-23.7-7.2-29-18.4s-3.6-24.5 4.4-34.1l80-96C109.5 4.2 118.5 0 128 0s18.5 4.2 24.6 11.5l80 96c7.9 9.5 9.7 22.8 4.4 34.1z" />
-    </Icon>
-);
+const Swap = createIcon("swap", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBcQsGAAE2AiQDCAQgBYMtBysb7ATIngW5qXkqXjFnsqP8CNUigkpXldXSHEjHoGNmC8hHfMB98z0Gx9h4Fy2CDhiAAt4PiovMqjb972/qr86jAB+I1MbOAxkTaM7zBDrPuzzwyVmYJYoxZ94yY3uk9E0mOpMer9zj1wJ5/N01NdLDNK63m8YPOrpG0jgDEC0AMGPdqiU+qlcf8e3/iG8tQkDMAJVAhgxdBJgsE+giVyGXC+rj///tG1gRQDTQ/zwJ5MiwBXsAOUgiz9eUtab52rJWbHrQuyAeDnizz+uD3uocXp724bzPp7zfQ5TxaseHbVa7U9hurXudH/crRTwaWNf3lf5vdBAvTH5v9hdTP+gZinit06P269wva7vG3Q4961rU/dTju737ccSl4cN9pGjZ8oUXWrYsrjZ61pbPGl274YZfOvnhsm0eNefRsm0+PJnDPkCPscdrfHASCAQ//9n1Nib/2qhM4Pt3fvlDzyv//yidSXVoJIEgG/z/YJvTJaUynREAgBRn9QQPCiRrJHrVJu4JEAoESBooBMh01kKAXGGQADXdjBGggcIqmcgbC21smZA0cQIyY52HXBtvQ81kX6oNtIkIxtKD/d8lzY3EnKFqxNDh1cRq6xkcZ+jSnVSl5f5nPTNAZu11zFGn7bHbAacDddIS44wj5iJyjhdVRhhquMpE1XH4Or3WHiedcsAxR2ufSar7Sn9ncfkAGScBRj4NSu5I+alzO44DAA==");
 
 export default Swap;

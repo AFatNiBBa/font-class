@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-left-long-to-line` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-long-to-line?s=sharp-light arrow-left-long-to-line}
  * @preview ![arrow-left-long-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-left-long-to-line.svg)
  */
-const ArrowLeftLongToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 80L0 432l0 16 32 0 0-16L32 80l0-16L0 64 0 80zM128 256l11.3 11.3 144 144 11.3 11.3L317.3 400l-11.3-11.3L189.3 272 624 272l16 0 0-32-16 0-434.7 0L305.9 123.3 317.3 112 294.6 89.4l-11.3 11.3-144 144L128 256z" />
-    </Icon>
-);
+const ArrowLeftLongToLine = createIcon("arrow-left-long-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABWgAAAHkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBKAsGAAE2AiQDCAQgBYMtBz4btgTIHoVN2Vc4xoN0zjVN00h1Bj694vn/xv63z535Ig5UEatEjRIaXvH8GlIyjZB/CW9RySS15495f0FV/Dbq4s1GRVFFo82oitpmlKmKyjxxzfM/f3rAJH6kSMqgtwLKZfMEBr724USjcDahCfF2Z2vFIeyVFizJ5dNyfHKCnt8x4VNfawzCm+anDXOg9AYg8wDg5oNoBM9hhsn+/zNk320QyC3AAQwNDdsYuIIr2MZzAHRdGOb/f/MfSBAgo+ieCnR0XAA3AHRQqveFPQF/pt+fGpls1UqmkrQkk3FvRa2Ks5UYo04iM1PJ5PSDrMUQZWJZPrSQemsu78kjykhBpLLQfr0FRwYDFyQsMHyBo7SB/zYcYoEEWf+BBQBB+Jia9VBy5de4oMCP798/nlFvChhXILQj/02S9SYuxPYO84oWPigoJ3DQpU77BAZiEgFl1KSAZosUA92kwxgYscuNgVGT7uBKnxDLUhku057CzTlTuFt2hEdc8YpGLYerPMzRM0+3xDAHQqvIbrFRgLo1idUHys0GaVjRjW2PHo6irKNtqKSoZsigvkg60hKWwJAvInYWNiSAppuX+xNK+gZqOtp+mSBaH+iM5eF60DmI8JT1pUitPe73O5NrJZk/Tqgds5IBAAA=");
 
 export default ArrowLeftLongToLine;

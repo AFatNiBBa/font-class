@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-right-from-line` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-right-from-line?s=sharp-regular arrow-right-from-line}
  * @preview ![arrow-right-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-right-from-line.svg)
  */
-const ArrowRightFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 88l0-24L0 64 0 88 0 424l0 24 48 0 0-24L48 88zM429.2 273.5L447.8 256l-18.6-17.5-136-128L275.8 94.1l-32.9 35 17.5 16.4L352.3 232 152 232l-24 0 0 48 24 0 200.3 0-91.9 86.5L242.9 383l32.9 35 17.5-16.5 136-128z" />
-    </Icon>
-);
+const ArrowRightFromLine = createIcon("arrow-right-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABWQAAAHbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRyBKQsGAAE2AiQDCAQgBYMtBzwbtQTIHoex82RJN5oQnwonEXy/rPX7M7t1N0sOQwg5S1wWhloLWZ0jGXOFpZDoTWZIqwz5ep869TznoQC+UdDGtDVBFtie5xGIwOjgkpZasABVjGvt7PpiEN0qfeSTDJM+w+IFebyNVUivEzwvXxp/9fSYpJIBiA4AWLBt0xotrdEa8bvxkfhtFQJiASgFMmToI8BsmUAfuRK5XNAajUb4DywJIKoYSCAnHzMdCwA5SFKed+xfq7TNt9Yqxa4QRYgUohYR2YFRw0eNjK0xMmbHiNgSRSFqtc0xOObEsNg2sN6h/o+jjDvWo0eP8XpYrwfRbn/FZ6Vn95Cwa4sfZvDHrrSXtB//CIGgV7t972o/+39TLYE/316C0ZLqaDLbC7LRjdF2R4uxKYBOiqsG4mKBZLwEeNc2XggQCgRIqgoBMr11ECBXGCVART9TBKgqbJKJvFnoYk8DSRsXQGaqOyDXxXtQMdt3p6pLZM5DXD3xd4tdqqElW+WEsePLmeU0UUl/wNJyVrnMD78aGyPw0FHnnHXZEYedcFkhF63xrzhjqQUvcaHSBGONV5qp3M7vb291xEWXnHDO2bxmlvK8PdxVu38EpISoE+0niUhdD1y8eO7a2+PGeBo3xscAAAAA");
 
 export default ArrowRightFromLine;

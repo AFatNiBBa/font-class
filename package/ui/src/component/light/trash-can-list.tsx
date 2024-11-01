@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-list` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-list?s=light trash-can-list}
  * @preview ![trash-can-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/trash-can-list.svg)
  */
-const TrashCanList: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M169.7 32l76.5 0c5.5 0 10.6 2.8 13.6 7.5L275.1 64 140.9 64l15.3-24.5c2.9-4.7 8.1-7.5 13.6-7.5zM312.9 64L287 22.6C278.2 8.5 262.8 0 246.3 0L169.7 0C153.2 0 137.8 8.5 129 22.6L103.1 64 64 64 32 64 16 64C7.2 64 0 71.2 0 80s7.2 16 16 16l16 0 0 336c0 44.2 35.8 80 80 80l192 0c44.2 0 80-35.8 80-80l0-336 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0-32 0-39.1 0zM352 96l0 336c0 26.5-21.5 48-48 48l-192 0c-26.5 0-48-21.5-48-48L64 96l288 0zM160 160c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224c0-8.8-7.2-16-16-16zm208-32c-8.8 0-16 7.2-16 16s7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0zm0 128c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0zM448 400c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const TrashCanList = createIcon("trash-can-list", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlwAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCXAsGAAE2AiQDCAQgBYMtBzUbYQXIHgPuzIhG3WokWyWfjk54qxdCtJaZ2X0qsGPHClVZWDS6RlW+Kkl/RpRAV999/mEzH8HfGBubnYgSqtKBRZODq3tXCQwG12irrDzhE6zP/zX1ApMK5POl2KFEU+OKCzzz+QQGOAutFpoNZxPFMc30LDXU0JBbDIIIhRi2/jD+Dmr8RnM8+cTcAxjGN40/UNVJqgUAYgoAOL2Oi4DL1/ga8f7/MdFAGBAQZwBYgSgoWIDgACuwgLMCVFXwjP9b/g2kIIDoAv6JBBUjGOIBUEHqV07KZFpSUkJCkvCSXCLhhTQikAFFVRRQPWZIgqWF5byhgJsq5igIkwpTigQZXDLZcyB4anagzSLBGeVpJcE4WWZWYVJfwG2laTUWJeMnFQDvFGeUEaeVSAUlaWyfdIME8bwSJxV092X2P+s0hY29Dsdi8aBPun1B0GBYexZXfxgNh9GfhdV8LSX1WkY0vCqQuQSZSsRokDEI22gqsA/P1sJZ3wPL0fF6nQGp59STXcVP2uvJKjikFWsFhfSI1Gtvr6WeBxAIHkr/e5a0+78YYQBeL7589edrN1uZfaAvQVC2WnPp2QogfgCljEbQVT4okG714VXH3AsQRhAgdY0IUMyTgaAasQlBxxIHCLpGnGNFFYcwJ6OANOYGFPuaQDXnEHQcuCp2zQVrlpZRWT+F+YEtGjCP2lhaU1c6rcq2pRky7Ua3I+NG32VCa6FQlUr1CuQrUd/QtSIqDSoEalSAL6JsWLJGuaLXjfvliQrUqlOiSmWYxQ19nzXWqA82oZQB1W0bpCRSqr42p67YIi+n0uLTBg==");
 
 export default TrashCanList;

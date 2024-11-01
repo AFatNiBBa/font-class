@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-heart` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-heart?s=light head-side-heart}
  * @preview ![head-side-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/head-side-heart.svg)
  */
-const HeadSideHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 224C32 118 118 32 224 32l16 0c66.1 0 127.1 40 153.8 96.9c3.2 6.9 6.5 14.2 9.9 21.7c0 0 0 0 0 0s0 0 0 0c6.2 13.9 12.7 28.5 19.8 42c11.1 21.3 24.8 42.3 44 59.4l3.2 2.8c6 5.3 9.5 13 9.5 21.1c0 15.6-12.6 28.2-28.2 28.2L432 304c-8.8 0-16 7.2-16 16l0 64c0 17.7-14.3 32-32 32l-80 0c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 64 0c35.3 0 64-28.7 64-64l0-48 3.8 0c33.2 0 60.2-26.9 60.2-60.2c0-17.2-7.4-33.6-20.2-45l-3.2-2.8c-15.1-13.5-26.6-30.6-36.9-50.3c-6.7-12.7-12.3-25.5-18.2-38.7c0 0 0 0 0 0c-3.5-7.8-7-15.7-10.8-23.8C390.8 47.3 318.6 0 240 0L224 0C100.3 0 0 100.3 0 224c0 52.9 18.4 101.6 49.1 140C58.5 375.6 64 388.6 64 401.4L64 496c0 8.8 7.2 16 16 16s16-7.2 16-16l0-94.6c0-22.1-9.5-41.9-21.9-57.4C47.7 311.1 32 269.4 32 224zm112-34.7c0-16.2 13.1-29.3 29.3-29.3c7.8 0 15.2 3.1 20.7 8.6l18.7 18.7c6.2 6.2 16.4 6.2 22.6 0l18.7-18.7c5.5-5.5 12.9-8.6 20.7-8.6c16.2 0 29.3 13.1 29.3 29.3c0 7.8-3.1 15.2-8.6 20.7L224 281.4l-71.4-71.4c-5.5-5.5-8.6-12.9-8.6-20.7zM173.3 128c-33.8 0-61.3 27.4-61.3 61.3c0 16.2 6.5 31.8 17.9 43.3l82.7 82.7c6.2 6.2 16.4 6.2 22.6 0l82.7-82.7c11.5-11.5 17.9-27.1 17.9-43.3c0-33.8-27.4-61.3-61.3-61.3c-16.2 0-31.8 6.5-43.3 17.9l-7.4 7.4-7.4-7.4c-11.5-11.5-27.1-17.9-43.3-17.9z" />
-    </Icon>
-);
+const HeadSideHeart = createIcon("head-side-heart", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABqAAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDKAsGAAE2AiQDCAQgBYMtBzYbrgXIBp7n8/LPfUmVSekU5oepJbnqenzifp7/81FpPaMhdekH2doi8nwCA41IiwL5YkuDCdgWt90UMQtpEBoroMslScYB1Ab1GFgWdJbfBDIbFLpGBPEAqElFu1ZNuP5BPog8tp8BeUwjQACkEgALATRAA0IQAIrRECAEHQvQ0RH4IHa7+w+0QABAHIkOqwDQAQfgDHATANABUGi6Pio01Obgqrc1Cxnt3rUSedXOJncKLqSs8Z3uO0PUFzYEbkjwlTVM91ltGLLaB6k7rvFd5y9ik31Jh4JFnRmJfnIwaGPQWr+Tcj838WTDh7WG3K5/P/249aZiAyfctibebNtuRui/zrbIN0HW+CfVwkc8W0tbWStZu+MX2PsDpie0oVI7ORS8MfFg7MJ4H/GTg0bkQY+DfyMe931M+Htp0QbatBAPPDYsbJjfQAQAZq+2X8xknqs5bpzpwwe3ctzmz3drXss/5Pp0JGu7p6dxNp3p4BycEUmrv9NHiICSBgWz3NyOe/AhNPnmCzdp/uujd7cje3XDI28m1cMizXkw3jTnR3DgQATzTXP8vB67tpba2nqPlwO4BHq1bLEmyO6tnF1geZBnX8biGQgAAghUf3vyq5t7cZ2zTQHw6eL/Ov0zwn5doQ4CzigABLRkezKdFQAKBAAAAFAylkgFIIDiCBoRabL2rF0woIXCEQMawXhAxyAJDoSRI9zZvhUaorsg+NAFQ2EyAhq5TIGOD6fgQDH3LI74iAa8YtAT/zqmqO0TNbWsjNR0q9BajKgl8Ci0lUXWbkP8WJmRgPvSl2EMZTR96M0ARvfoI2liH8MQatdoNTwQiwxSSceiEOt0/LGibY89klEM0A09X00R1v1kPGPX8ydgsyLim4mPQoEodwhXprzeqpSPCAA=");
 
 export default HeadSideHeart;

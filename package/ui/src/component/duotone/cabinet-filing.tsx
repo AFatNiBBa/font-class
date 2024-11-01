@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cabinet-filing` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cabinet-filing?s=duotone cabinet-filing}
  * @preview ![cabinet-filing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cabinet-filing.svg)
  */
-const CabinetFiling: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L384 0c35.3 0 64 28.7 64 64l0 176L0 240 0 64zM0 272l448 0 0 176c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 272zM128 128l0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16 128 0 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16c0-17.7-14.3-32-32-32L160 96c-17.7 0-32 14.3-32 32zm0 256l0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16 128 0 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16c0-17.7-14.3-32-32-32l-128 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M160 96c-17.7 0-32 14.3-32 32l0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16 128 0 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16c0-17.7-14.3-32-32-32L160 96zm0 256c-17.7 0-32 14.3-32 32l0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16 128 0 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16c0-17.7-14.3-32-32-32l-128 0zM0 272l448 0 0-32L0 240l0 32z" />
-    </Icon>
-);
+const CabinetFiling = createIcon("cabinet-filing", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABrAAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDFgsIAAE2AiQDCgQgBYMtB1gbwAXIhuD7tf7tM3ceAM8HRgWMQYdAKmpdAGXkViyB3olrnr//03ukPcGjRS8TZA2YiSmQNk7MEhnYbKY4c1vMoEXnimGIKB7iG9re0L78HvJ4K92uiuyZ7Ds8xP8DGL/qczuZugQgWgGwavf2jUrlKGfxXeVz4jsbEBCrQSGQkDAowFJJYFCuQC4XlLNKhXJUKgUBRDV+awLVqMP7+AyQg0yS5/nwcF17GyMNVU35rhX1++/tjHiceKLrqR4FG2Lqt3Q/WV+fgZW7mhqbIhpDem5KxHsTMvONSe/0iUYNp4inJ749lmZ/c/K7/bFbeGDqcW/n4zLw1Oh3W9/9fdR3p77z0uHmu7m7uVVzudzc6mY69ea7726+Gfle2lySzQslhZvr22h7eaWX29rqP1by8U/R9rGR4n03PdQquU8IpQHgdRAIfl7fcPvhlqX/1zZk4Jcv/vxXurhSilL2LmplIEhTK1MdiBI4dgCxLK432n2TQHJYTj610ZMChHoEyFSrFyAZ0CpArt4UAaoMmydAtXrbJZHXCZ0OVjLT6Coyme8GMtfpM7LKUl9GqnVGMlrR5MRPxrT1LbBuWDFr+sxicTFNU8kOedi+pFi2T7w+lE2itU657JJrnXTCWdc28NU2xq9z0XoErfNDhVmmm6mwWLGdu1++y0lXu8ZZl11KgyxRnA9PdD2uPYlcGeGcbU6SiCxS9z3vmHbq7M8vzdMuQLXekfKyAwAAAA==");
 
 export default CabinetFiling;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mixer` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mixer?s=brands mixer}
  * @preview ![mixer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/mixer.svg)
  */
-const Mixer: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M114.57,76.07a45.71,45.71,0,0,0-67.51-6.41c-17.58,16.18-19,43.52-4.75,62.77l91.78,123L41.76,379.58c-14.23,19.25-13.11,46.59,4.74,62.77A45.71,45.71,0,0,0,114,435.94L242.89,262.7a12.14,12.14,0,0,0,0-14.23ZM470.24,379.58,377.91,255.45l91.78-123c14.22-19.25,12.83-46.59-4.75-62.77a45.71,45.71,0,0,0-67.51,6.41l-128,172.12a12.14,12.14,0,0,0,0,14.23L398,435.94a45.71,45.71,0,0,0,67.51,6.41C483.35,426.17,484.47,398.83,470.24,379.58Z" />
-    </Icon>
-);
+const Mixer = createIcon("mixer", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABYQAAAH8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBOAsGAAE2AiQDCAQgBYMtBywbtATIjtRG+UVWEg//b/df+9yq1wCrJUWicyqisnbWnlk5lM764cBV+z7/l3t+thbg9xM/pL30QGbFez9P4MR6+cQsoCywE8V2Z0tQwlyS1mJJjm/HpdwgjxdxQol0MX3G8fyj8YuGjpGUMgBRAwAjZk6d4u2P8WPE5/8Rn01CQIwEhUCGDE0EGCwTaCJXIJcLfoz//3f/gQUBRDkIJ25uXhyCSYAcJCnPGzapXKqaz7AvVZp7ru3NOmcaXKg7PabFmYYX655td6v+zDhfb/qMIJbORpfqnWt9vc5cFN91ts2N+ucbX67X8m6Nu2UtPq/4bMvWr3v0KPsUrs3dY+4+D8U3ZYz35tB9ffv9fFSuHXtcE59m5NcH732276EH3vTo8e+n8BAIBFO6z/5qYfXBv1aonMDPz//dXm/+/x/xU7qLChIIss7/dzYv0VxzoVYAZil2aAkNCyR9JMBvreKcAKESAiTlVBIg01gNAXKVdBKgpJk+ApRTyVSZyCsKdcwfIKliM8j0tR/k6ngGSgZ7l5VTJzIlUlRA+cJljqXQmLqiR9fuxcBiOdJVvZDi6aBiO2y/w690gKtW2GiDbZZbZrVthNtiSrndemMlYowGFXroqrvCQMXxdH55huW22Gq1jTakcwYp7qft7ZC3d4AkQcGeupJEpNLDlrUFAAA=");
 
 export default Mixer;

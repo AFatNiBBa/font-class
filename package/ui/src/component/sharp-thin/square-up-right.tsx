@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-up-right` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-up-right?s=sharp-thin square-up-right}
  * @preview ![square-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/square-up-right.svg)
  */
-const SquareUpRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 48l0 416L16 464 16 48l416 0zm16-16l-16 0L16 32 0 32 0 48 0 464l0 16 16 0 416 0 16 0 0-16 0-416 0-16zM163.3 179.3l25.4 25.4L200 216l-11.3 11.3-73.4 73.4L104 312l11.3 11.3 41.4 41.4L168 376l11.3-11.3 73.4-73.4L264 280l11.3 11.3 25.4 25.4L312 328l11.3-11.3L336 304l0-144 0-16-16 0-144 0-12.7 12.7L152 168l11.3 11.3zm48 48L222.6 216l-11.3-11.3L174.6 168l8-8L320 160l0 137.4-8 8-36.7-36.7L264 257.4l-11.3 11.3L168 353.4 126.6 312l84.7-84.7z" />
-    </Icon>
-);
+const SquareUpRight = createIcon("square-up-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdQAAAIWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCDwsGAAE2AiQDCAQgBYMtBzYbFQXIjtRG+UVWEg//v1+v+9z3ZlYyEBxI+CUKmBUwqkSxQtbhti5qXNGIv2qzKqunat9HTo03Xmr8citelPfo3fjd43MOT2BiS30XaECjDWw6QZtB8564Njo0hbIz5PHaYSXSy/QP7qcPjZ8Gu0mSZQCiHwCWbtu0UacneiL+7iL+th4BsRQUAhkyDBNggUxgmFyBXC7oiW5X/QcWBBBleJMEcpRxEpcAOUjyPO/df+LQaqmeb62WKsdSlmqRRb1dqdZEClGtR2QR+8eOG9uMRmyORjRjYTSjHduiHc0Y2xjtQFCpNJbqF7Yb7VYsEkk1RKPSWvvoULJt9Md+H/8b9c/Rf3y7/wEKSe7269fp54N+2nfmDXv0Eo0ffbR2Lbf/pVbwjwdbjQf/eL37A3VmuOaehK9Z7tPzNm9y16bNQCDYsq1xY1/fBf/3qibw748/FQ93e6KTPqKXBIJsQneC3dEBRQzgJ6W4anR0EEgOyuFVa54JECoIkJRVBMgM1U+AXMV4AUpGmClAWcUmmch7Cw17GjypuYBnZrmO5xp+w0sW+D0ta0T2vPFPC/+7l7KqC6w8VkydNKWYV8x2VcIjxPrt+cVmfcxVPTWWljrqnLMuO+KwEy53oIs2FlecsWoJXOmLClNNMkVhnuLw4OHprY646JITzjkbD5mvuD4e4+ry4rHUSkA5TVOSiNT3no0mXjn/wQI=");
 
 export default SquareUpRight;

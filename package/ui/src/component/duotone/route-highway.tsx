@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `route-highway` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/route-highway?s=duotone route-highway}
  * @preview ![route-highway](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/route-highway.svg)
  */
-const RouteHighway: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 323c0 49.5 28 94.8 72.2 116.9l137.4 68.7c4.5 2.3 9.4 3.4 14.3 3.4s9.8-1.1 14.3-3.4l137.4-68.7C420 417.8 448 372.5 448 323c0-16.6-3.2-33.1-9.3-48.5l-14.3-35.7c-5.5-13.9-8.4-28.6-8.4-43.6c0-1.1 0-2.2 0-3.2L32 192c0 1.1 0 2.2 0 3.2c0 14.9-2.8 29.7-8.4 43.6L9.3 274.5C3.2 289.9 0 306.4 0 323z" />
-        <path d="M240.5 4.6c-10.1-6.1-22.8-6.1-32.9 0l-4.7 2.8c-37.5 22.5-84 24.3-123.1 4.7l-1.4-.7c-15.2-7.6-33.7-2-42.1 12.7l-32 56c-5.3 9.3-5.6 20.6-.8 30.2l16.2 32.5C27.3 158.1 31.5 174.9 32 192L416 192c.5-17.1 4.7-33.9 12.3-49.2l16.2-32.5c4.8-9.6 4.5-20.9-.8-30.2l-32-56c-8.4-14.7-26.9-20.3-42.1-12.7l-1.4 .7c-39.1 19.6-85.6 17.8-123.1-4.7l-4.7-2.8z" />
-    </Icon>
-);
+const RouteHighway = createIcon("route-highway", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBbwsIAAE2AiQDCgQgBYMtB1YbFwXIjpSutiQRBHZ9Xz0zJz9hDmYkIQORQtm9i8APZj93SESbwN78U6dqxnkogA+SuM11HpAFtPd5BHIekHi6rEC1gtUKShXm6jYRD49AeiMkTEI6rtrV2wlZPEiPqkdyK/kSF/R/AONH5Y6SaJQCiJYAGDtv1hRvv41vk/iy8Iz40mQExDiQC6RIUSXACKlAlUyOTCb4NikU+DYKhZwAoj59cgrqI8MirARkIBEiy3p0blKvWTZXf1jjRfeLiuJhh7udSuJ60dWiPnG1uDpulTeLO5W940ZJv7hecr2oKO52ut+tJA52jXg0dE5ca3KmdF686P4kDlXUxO04FE3joEMOllXFTe0et3z8c9sv137pt+eN/h/r7e+/1dLdp3Ub/7V//2/uNzqo0X227v/Xxrqnd1v6+rffjbWv0yh6OTXBzIYNVsrr9BrVqfz4D3aXRnJQhCjd/YPj5UAgGLT9q2xZixF/N2ySgO+f//onP1i4ID5MHqOhBARpj0IPi+NtAE0SABGS2KvdZyGQ6iFR37Wp6wKExgiQqK+xAKlKLQXINNZdgHpqDBSgvsZmSUXWSCiypINEUztAapB9IFOkDtQzwid2fUWRAoyBB/O/S5xk0Ylbed9effJh+TTRWMxQZTk8Xza77JVGVzq01jZb7bbGahvsNvhOU7w9tpgUYRN9Ua6vXvrIDZOn80dxLts77bLB5/Nrhsv3W13sjfu70j4JoN/R+FIiibQY9GrPh0DteVk7Sh3+YgI=");
 
 export default RouteHighway;

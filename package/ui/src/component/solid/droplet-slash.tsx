@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `droplet-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-slash?s=solid droplet-slash}
  * @preview ![droplet-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/droplet-slash.svg)
  */
-const DropletSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 512c53.2 0 101.4-21.6 136.1-56.6l-298.3-235C140 257.1 128 292.3 128 320c0 106 86 192 192 192zM505.2 370.7c4.4-16.2 6.8-33.1 6.8-50.7c0-91.2-130.2-262.3-166.6-308.3C339.4 4.2 330.5 0 320.9 0l-1.8 0c-9.6 0-18.5 4.2-24.5 11.7C277.8 33 240.7 81.3 205.8 136L38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L505.2 370.7zM224 336c0 44.2 35.8 80 80 80c8.8 0 16 7.2 16 16s-7.2 16-16 16c-61.9 0-112-50.1-112-112c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const DropletSlash = createIcon("droplet-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABawAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBSgsGAAE2AiQDCAQgBYMtBzQbzgTIHgflxjNLkSRtnL4I6sd+e/ceYhrhJyyZZw2J6ZSszUKiBUqwqv7z+/t+7YF45qUBkEQ3ogrNToDqywN94VZu/tSpmnEeCuAbBWVsXBqQBRKa8zxdYBXr1ebExbViraJY85ZjrUjZdzLRJD1+6/FsBTX+CDYQJl/yFPDQPzS+oa4BSG0FANELANi5DPXHJp/4RCfcMhBv8AUBsQNgFqGgYBKBdYICk4TMgqoKPojj+D+QAQFEM+T+CSqacAhOAVSQShWSZIqSwtJCEZLCEskPoSk0N3kXfBUe2U9Du9vpdoZd7RLUNtjRmGpE0Mhgz1AxDY/0D0ekDBoQja92DnUMrixMTHeP6Kt4E70Tv3qnGadw2wqmCINHrGlQcHh4MK3dZmnoyMhkZHi1ywqg5+a9qGh8pA5G/wv/Ay/KDJXJajyKAK56+TIy/Pe3/7JE6uUAgWD+9eQ8Udb5m5ikAOBr4+0n78nlCDTnBGiVICgNzhhxWeNARxFiZFSAh28CIW0ShHft9AgCoR0BUrN2AYoJcghU7RYRaDLNBoFm7U4JiiqOMCh+gNTpGhRrKkE1aBE0WXdgNBsMwWhiY4H9yyV5WNR9HLMwNWeObOlSLkDo2nZi27J+RU4ZYCoyFCpQJl2abGUGL+Fvl8vn4WHufoixYMoc44gdB8+TI6QrUSpboYLWxQm7r+ur8IsNoAkQwiWOlERKv2RnXnqZSWlecmkWAAAA");
 
 export default DropletSlash;

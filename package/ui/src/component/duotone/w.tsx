@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `w` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/w?s=duotone w}
  * @preview ![w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/w.svg)
  */
-const W: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M20.8 34c16.5-6.2 35 2.2 41.2 18.7l110.2 294L257.3 55c4-13.7 16.5-23 30.7-23s26.7 9.4 30.7 23l85.1 291.7L514 52.8c6.2-16.5 24.6-24.9 41.2-18.7s24.9 24.7 18.7 41.2l-144 384c-4.8 12.9-17.4 21.3-31.2 20.7s-25.7-9.8-29.5-23L288 178.3 206.7 457c-3.9 13.2-15.8 22.5-29.5 23s-26.3-7.8-31.2-20.7L2 75.2C-4.2 58.7 4.2 40.2 20.8 34z" />
-    </Icon>
-);
+const W = createIcon("w", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYgAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBKwsIAAE2AiQDCgQgBYMtBz4buwTInge2rWJ9wlCn4doQ6Ccenp/77NyXzC8ApcysgBQrQFe2HVVFaAQ6Atfu9n8AuNBkNpUucP/5v6ZeJB0d4PcLwUOKtNTUen52t+rnE5hIW6SNBjaw2Uxxt5O6WxS5jkV645IM0zNsLpDH3+y4MtKlBGfpfwDjk0aOk1TKAERNAIycP3uqB2/jqTf/lxNvTEFAjAKFQIYMTQUYIhNoKlcglwveJngbFAQQJfTaDJSQoT9GA3KQEHnevUpZtXweHay8+EK9iHP1FsbiuNL+RiN0LjRorXOuWndBXKxc40WBdJsT1vnecw1a3a1590tL696oe+3xdcqnbG1rTmt7V6zYq+XsiCnl1x8/mTxpyNlDjtdfuWZGfT7dM7P+8eo9QyZNfgIEgkcD/7i8xpA/Fask8P7+t1/hSf+Xlu6iogSCrMv/XSxJIwSoSABcSLFPK4pvEjLdJfypVZ0XIFRGgKSksgCZJmoKkKusswBlmusrQElls2UiryTUtTSBpKqdINPPAZCr6x4oM8TzrKRuZM9HO3zt95Y9rkTHrip6dutRDCqGtai/CMUsDi6m3Q771EBH2Gud7bbZY601NtpTsLtMLffaapzEjPVDhZ666aEwSLHcvt0+z1q77LbRdtvsMoMV+8MO9snjO0KQsGQvazMZkSKrtL/rJbSqRPOqAQAA");
 
 export default W;

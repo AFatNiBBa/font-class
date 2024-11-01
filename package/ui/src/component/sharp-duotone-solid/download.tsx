@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `download` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/download?s=sharp-duotone-solid download}
  * @preview ![download](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/download.svg)
  */
-const Download: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 352L0 512l512 0 0-160-178.7 0-54.6 54.6L256 429.3l-22.6-22.6c-18.2-18.2-36.4-36.4-54.6-54.6L0 352zm456 80a24 24 0 1 1 -48 0 24 24 0 1 1 48 0z" />
-        <path d="M288 0l0 32 0 274.7 73.4-73.4L384 210.7 429.3 256l-22.6 22.6-128 128L256 429.3l-22.6-22.6-128-128L82.7 256 128 210.7l22.6 22.6L224 306.7 224 32l0-32 64 0z" />
-    </Icon>
-);
+const Download = createIcon("download", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABbAAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBSwsIAAE2AiQDCgQgBYMtB0wb6QTIhofn13w7980kBaApMzogX8csf1XZYVQ9yy6p1Zk69Tzn2YBvIQvaHpbL+fRcaI72vAIVWr60V/AK1bQG1t3ZcjiwVg6koS3J8dnxuUEeX7MLSqSrqYKL+D+A8Zc2LpDUyQBEYwBMXrl0vvc/42eKSvUFUTEPATEFFAIZMrQXYJxMoL1cgVwu+JmqVX5GtVoQQJThqzNQRgkzsRiQgySkPO/arE69UoN8BV6tu1NIsTL6xvjoFcsc2idWXJ0YvWN5ZBFRL4RG1a8bi6S3PutTd/OVbo/aXu/5sE2XZ42f/dO5sqOi07uiKJqZNdt2FSucPm277TFaoWL7MtNMYZJNdyjkjhpg1PzzZzUfFrZYvLhFpgLx3NZP345tbDTu/9r1Evj98r8/yu+o+j5Jz1BbAkHWr9rPugQSAQBIcUKXxFIEMl0l+Kn1XRIg1EWApKyuAJl2GguQq6uvACUdDRegrK6lMpHXEZpb30FS32GQGeEkyDVXA0rG+RCVNY/MnDhj4H5zyTM4NP1YMXjAoGJMIRYabyFM2B9bbNu9TvhBb7hqh4MOOGa7bXY7xsgj5qfH7TdDg6f7osJgAwxSGKM4rp/Pr7DdEUftdtCBdMhYxf2glxP6fG/wEqId4kQmI1JkjR+g3t8uzaaD+AIBAAA=");
 
 export default Download;

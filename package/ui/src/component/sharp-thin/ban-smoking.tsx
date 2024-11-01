@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ban-smoking` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban-smoking?s=sharp-thin ban-smoking}
  * @preview ![ban-smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/ban-smoking.svg)
  */
-const BanSmoking: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M80.7 92L420 431.3C377.1 471.4 319.4 496 256 496C123.5 496 16 388.5 16 256c0-63.4 24.6-121.1 64.7-164zM235.3 224L92 80.7C134.9 40.6 192.6 16 256 16c132.5 0 240 107.5 240 240c0 63.4-24.6 121.1-64.7 164l-100-100 76.7 0 8 0 0-8 0-80 0-8-8 0-172.7 0zm16 16L400 240l0 64-84.7 0-64-64zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm16-408l-16 0 0 8c0 22.1 17.9 40 40 40l48 0c13.3 0 24 10.7 24 24l0 8 16 0 0-8c0-22.1-17.9-40-40-40l-48 0c-13.3 0-24-10.7-24-24l0-8zM252.1 304L112 304l0-64 76.1 0-16-16L104 224l-8 0 0 8 0 80 0 8 8 0 164.1 0-16-16z" />
-    </Icon>
-);
+const BanSmoking = createIcon("ban-smoking", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjAAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCXgsGAAE2AiQDCAQgBYMtBzIbYAXIjtRG+UVWEsT3unTfl+5GlsyguGLidIAdYglUQQfErSdtJqXrq9r3P+7n+bemD/iMPlqUVYP0aJwpsPOBRluBF/DOy3QCNnVTgqCCIPlEpBtVpPT4uuPcBejygAkcoC6oj8Cx/qTyjxAOgkLTAAAQbwAAoLS7vZGnW7Il8sEF5AP1gABIKQA2AmiABoQjABSgIUA4OjagoyOwJS5X/g+0QQBAnBBV3FkHDOAQcBUA0AFQOHXdM8QtLCLAcnjoXZbD7J+cmvzZ8bvufdrdrj/dnV2dKPlV+y71TqeSdIllCR9jdlimhZjS1vunWeRL+QvZV/a86XPXz4aPJU/ZW/qs8VNnv2mZyN6AM5YlV0MQ25x9gWdNU66FSsdGkacaKPVMBEEsKzD6lvet/zs+Tn2kZbyN55QVjUgZw8Pb25TJSFHZhQNHWVPbNT5Oo2HQgoFx2esMji2hE5fuVclxOJEfXl4enn/ieCWyMrte57z5ooHP/ds+KbQGGHgD1+/NYZSX0ICLCt9rXHEBgAAC0edDZ4a9CrYNSwHw9/5/42eE66lC3QIMFAACWoIrgQEFgAIBAAAAlOwkWgEIoNiFE2bunEU8MxOQGjkxkWmE4b1AxyQeHESSyV6ub0dDdDcEfwYBCndWQSOLXaDjzz1wUMCb2Im/aHHJRxX/V5hSJZHKWXZqUoqdZ28rphBqbJvMt6+1mJ2lIxZ7mWKZJTaYZIJZNgS9RmO2ySJVJ6qSL2KTShIp2ORhm+u/la6UrLHOrC7YpyEf2z+KYee5fyxMBRnTOKRQIMoaG11KXF9c/sIB");
 
 export default BanSmoking;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-plus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-plus?s=thin square-plus}
  * @preview ![square-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-plus.svg)
  */
-const SquarePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM216 352l0-88-88 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l88 0 0-88c0-4.4 3.6-8 8-8s8 3.6 8 8l0 88 88 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-88 0 0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8z" />
-    </Icon>
-);
+const SquarePlus = createIcon("square-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdQAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBcgsGAAE2AiQDCAQgBYMtBzIb9ATIngV2w/URlhgWhW0c/7FYBEY8fL/W27mve6aSnh/krq8CjAqYXFw8EEogNS6sgRbs6tWTzEDvj42hy+kgjFsYA88eVoj+xDXPP+3pAYv8USqs0mt13nk+gYnO0yYUBTbTCdh0mwzBjih8OiIkTCI6PjvO9pDHVdiiQrrs4WT90PhPNydIsgxAtAXAtOWLF6n/7f6O+Nx4QXy2AAExHZQCGTL0FGCiTKCnXIlcLvg7Gg3+DywJIKrkARPIUcE6bAbkIMnyvHv35lqlVb6sVilW38OIcynFZTrfW8VDuVizuMIXRtPCqyfi6WwV99fjnOKSPmpN8WA/KdnSEEVc4ItSiwjQzpOoBe0cFiFY84zmJ/HJZxtTTtovvmRTZV9+WZTCtY2iHe1ugXarXbtiKgXB18YKSW2oVjc0dAV0Q7WLvhwIBB2jy5H1bSb+H2oJ/Pv25Wek8XfU0xOghQSCbGDjWhN1iLoAAKQ4pjnqCCTLZORam1wQIBQIkFQVAmR6aCtArjBAgIreRglQVVgsE3lLoaO1g0iaHCQyox0nch09IyomepdXdYwswsT4EP93abMJmLWtfIOHluPLZVuXgobP6xPKbUOPpbF+2Gmb/fY5Yqstdjqi8EMWlY/aa7aHzfJFpWEGG6o0Xnnce9aWUX7IYTtt5XyTCcr7SV/H/Nn9YCfCOFxdkohUe6T6oAgFAA==");
 
 export default SquarePlus;

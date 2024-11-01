@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen?s=duotone pen}
  * @preview ![pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/pen.svg)
  */
-const Pen: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M303 79C346.3 122.3 389.7 165.6 433 209c19.9-19.9 39.8-39.8 59.7-59.7c12.5-12.5 18.7-28.9 18.7-45.3s-6.2-32.8-18.7-45.3L453.3 19.3C440.8 6.8 424.4 .6 408 .6s-32.8 6.2-45.3 18.7L303 79z" />
-        <path d="M433 209L303 79 52.8 329.3c-6.6 6.6-11.5 14.8-14.1 23.8L1 481.2C-1.5 489.7 .8 498.8 7 505s15.3 8.5 23.7 6.1l128.2-37.7c9-2.6 17.2-7.5 23.8-14.1L433 209z" />
-    </Icon>
-);
+const Pen = createIcon("pen", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYgAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBIQsIAAE2AiQDCgQgBYMtB0IbtQTIjpTuJmRSPHzMoe8n6QAwHTApBFTIQhGpsWO1CdObJZC79B3idL6RU+O9Virg49btXGu8IP1ae2c3PoHF3/d3aWADm80UtzfNqCOmLzMrNZn8qY6vHWTxMT2qhORq8gGn6X8A44uGjpKomAKIGgAYPmPKOK/KoiyJD8Vj4oOxCIgRIBdIkaKJAIOkAk1kcmQyQVlSFJRFUeQEEOXQi1NQDhm6YwggA4kQWVa7XuWSqtl0ClZaMn3a9KlxoQ7S6l6sPyMu+1fcaB/xfDBfcavjrTjUYUjcrHSs3cQWN2vc/Fb6YfkH978fwu3v6uDWBwy+erUDrX26Wk3osnHaKJ7elOKv1ahRrR1KwztKnwKB4HqVnd0WVB/0r0LlBHx+8uMPnFj8L55HkdxEBQkI0k5FJ3MTBipYAmBCEtu1+K7oKpCqJ5E/tYpLAoRKCJAop5IAqcZqCJCppKMAJZrpLUA5lUyRiqyiUMc8IRJVbCJSfewjMnU8IkoM8tosp06kL0c4d+HjljpGA6P75d27dMsH5MMQi4+BS90D82m93fZYag9bLbfBelsts9QqWxW+2Thnm3XGWNhoP5TrrotucgPk7uRWnY7mZlus6sv+XgbK1xvtbLcbt4fBJIAee740JZJIK29ctr7zBdSqinzPAAA=");
 
 export default Pen;

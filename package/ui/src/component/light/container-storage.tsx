@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `container-storage` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/container-storage?s=light container-storage}
  * @preview ![container-storage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/container-storage.svg)
  */
-const ContainerStorage: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 32C7.2 32 0 39.2 0 48s7.2 16 16 16l16 0 0 384-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 544 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-384 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0L48 32 16 32zM64 448L64 64l512 0 0 384L64 448zM192 144c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224zm96 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224zm96 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224zm96 0c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16s16-7.2 16-16l0-224z" />
-    </Icon>
-);
+const ContainerStorage = createIcon("container-storage", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABewAAAHiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiBfAsGAAE2AiQDCAQgBYMtBzgbBAXIHoWNGxlylVX2z3hJnL6Ph/9f+98+594vpvUjnvBKVElU8cSEhniivxCp1ClhFpVF/AnzP7b5PhY5QnxHsqlkaKRJEpMmFttCWVvVvk9c7vzPn9630aPsqU9rAH97WgKBt7XLuwSywDJNwLJ29pRPem6wSJ8iybC9YfSAGr9lD538ki1e5Q+Nn5Z8SLUAiEkAcOZyLcKvky6i/Y9onQMBcRawSVBQsErAcarAKs0mqKqgi///w38gIYDoh5clqBjEXXAPQAWpv9bNoVGkI31j9VI9OHz9/eyHuZHIGI6WTnxa+DjPQYmRoOx+yTIxs8avF0oswhRtGyP9zu3eZO/XVjtpTXztxse7SQ+TwqrN05ryUgMbhl/uN7tOFae9058HAsGL72cOdSeO7w6OJPjx7a78jPzvsskeBiUIyp7/e7SygWwEACDjKTsbBNJVBrzrqI8ChGEESP2GBShWWARUw3YI6LMuT0C/Yeepog4Js9qOSKMeEMUxV6Ka9SX6HPfP+81GMTPOSLhPXnKogWAf04kUK5w2NN5ymLRY5bbtXHjApZuY2No4GRuZOynoIKrO1sIVGPgiSktIoQoetx8vN40dHM1tbWSXKt73HZf1eJc8BUgPqaUkcur16fGXDA==");
 
 export default ContainerStorage;

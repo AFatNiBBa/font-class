@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `croissant` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/croissant?s=regular croissant}
  * @preview ![croissant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/croissant.svg)
  */
-const Croissant: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M323.7 242.1c2 18.9-4.5 38.1-18.4 51.9L294 305.3c-13.9 13.9-33 20.4-51.9 18.4L208 350.2l0 33.8 15.6 93.6c.3 1.6 .4 3.2 .4 4.9c0 16.3-13.2 29.6-29.6 29.6l-5.4 0c-4.2 0-8.3-.7-12.2-2.3c-35.8-14.3-67.5-36.5-93.2-64.3c-16.4 7.1-36 2.5-45.3-13.7C14 389.4 0 340.3 0 288c0-22.4 2.6-44.2 7.4-65.1C2.7 215.6 0 207 0 197.9c0-5 .8-10 2.5-14.6C33.2 99.6 99.6 33.2 183.3 2.5C188 .8 193 0 197.9 0c9.1 0 17.7 2.7 24.9 7.4C243.8 2.6 265.6 0 288 0c52.3 0 101.4 14 143.7 38.4c16.2 9.3 20.8 28.9 13.7 45.3c27.9 25.7 50 57.4 64.3 93.2c1.5 3.9 2.3 8 2.3 12.2l0 5.4c0 16.3-13.2 29.6-29.6 29.6c-1.6 0-3.3-.1-4.9-.4L384 208l-33.8 0-26.5 34.1zm-74.3-191l55.3 137.3L394.5 72.9C362.5 57 326.3 48 288 48c-13.1 0-26 1.1-38.6 3.1zM51.1 249.4C49.1 262 48 274.9 48 288c0 38.3 9 74.5 24.9 106.5l115.5-89.8L51.1 249.4zM388 160l3.9 .7 62 10.3c-10-17.9-22.6-34.3-37.2-48.4L387.6 160l.4 0zM171 453.9l-10.3-62L160 388l0-.4-37.4 29.1c14.2 14.6 30.5 27.2 48.4 37.2zm71.8-179c6 2.4 12.8 1 17.3-3.5l11.3-11.3c4.5-4.5 5.9-11.3 3.5-17.3l-78.2-194c-67.9 25.9-122 80-147.9 147.9l194 78.2z" />
-    </Icon>
-);
+const Croissant = createIcon("croissant", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABjwAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCVQsGAAE2AiQDCAQgBYMtBzAbVQXIjtFjRwxEcuTyIDLG4EVQ7Mdv755802aCWhKzRCXadNEMyazhqeDNpJKhPovksNlAvIBSyxJC6ypV8u/5P9fzPR8N8BsNLQorQcqHmc8nMMC69IkfNeiZnoCduo0lw7msicgVPEcM8SHpDmUc0igq8jbHE7hW7yr+ktdJqgoARC8A2HAsIghnn/Qr4rHZJl4LAAGxAcA4QoH1YQRW4xR2By7joFQKflHT6H8ggwCiBj8sQYlWXMU9QAlSXXJ5C/AJCokIcgtzRQtyC2TM6UrRE21bEkeoFRcGJwUEqF/mwXlSZlrmJbpNcZraZDddTgNmBAekVwSfj0xJT0kdm01BxPz9AtEkQIZHo+TdY+hha79m5CweL42h6AxpGWkvmtc3pIhVV1OXoSDbeKoVMyUrSzdloulu9ZFplPq62PrfiafsJ3i8VfZax+GP8lAnehwchVBPrTA36gNReVeXGw2argieLM4X4dM++e/fVzqfyPLXZDBcp3cNHBOXo6R5KnRFVzk4kkQxaWzniU0vLsaVg/e6lPr1tboU/+nyOMxqaKwpZ97xK/IK+KS1xFtygt28XvlsjGev48TcoHNYHImyOA8CIBB87zD6SBF1/McnyAH4c/D/v/Yras5SPgOtEgTFgsZQYgKSAABkVEM9IZDO4oF77XRDgNCOAKnWLkBhiBgCpXbzEaiMskKg1u4QTlHyIwxKGiB1OgMKqzSB0qBNUFnt1q4NRpGSREIRP8JYbwt5TTEzY1Nmz7aBTmYZJkMHFuZ0q0tBD1eRrUSxSlky5ak0SLkgr0oRbw/28kWMGWOmGHvsOH49Hy1LuQp5ShTrGAfsvqWr2q/Xg8iBqMtspySSP6O8JK/igRI=");
 
 export default Croissant;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-medical?s=sharp-light comment-medical}
  * @preview ![comment-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/comment-medical.svg)
  */
-const CommentMedical: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M86.9 382l7.2-19.3L79.6 348.2C49.1 317.6 32 279.9 32 240c0-91.3 93.8-176 224-176s224 84.7 224 176s-93.8 176-224 176c-28.4 0-55.5-4.2-80.3-11.7l-9.2-2.8-9.3 2.8L68.6 430.8 86.9 382zM16 480l38.5-11.6 111.9-33.6c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L30.1 442.4 16 480zM224 128l-16 0 0 16 0 48-48 0-16 0 0 16 0 64 0 16 16 0 48 0 0 48 0 16 16 0 64 0 16 0 0-16 0-48 48 0 16 0 0-16 0-64 0-16-16 0-48 0 0-48 0-16-16 0-64 0zm16 80l0-48 32 0 0 48 0 16 16 0 48 0 0 32-48 0-16 0 0 16 0 48-32 0 0-48 0-16-16 0-48 0 0-32 48 0 16 0 0-16z" />
-    </Icon>
-);
+const CommentMedical = createIcon("comment-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiwAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCZgsGAAE2AiQDCAQgBYMtBzYbbAXIhof/t/uvfW7VV702qm1mwljRrI5+OjAjpkL85v9yz+/50dGdbtJDGms0dQHu9TyBAH+0MY+gwDJNwPJ/Zz0DSfQW6fr9XJBu2H4ZpntCHi/FYDWkR9PHuLt8aPyqo6skeQYgWgBgxrpVS7z+U/wU8XH1GeJjixAQM0EpkCFDFwEmywS6yJXI5YKfolr1/4ElAUQtvmkCOWpxD24CcpDked61+6AelZqm+dpKTbGuc4fO7eLVnt+t+mrdNyu+WPP18s9X3za2XbSJ1TFq9bjR49bFM5XvFn007bVeT059deGHa7+e//7kl8tvVqyOLpuKSiFEAUxUKkhEoBFFoa9+lRbkZacYchncs7FF4+89Pt77sbUzdvLhD/5oEnPf/Gpn7Iyv3oy5Ah606JJ7reukxdwdhwA+Wnpi+Dy3Pd6tW0NDdB+/zUnhRCza22mubz7b1oJ1ww2vzOlaaDF8+KrlfTps2XAGJeGbcDKoXwcCwc1pe7/f1nzy//WVBH558c+/3c9I9ackNaJeAkE2uDrY5gQSAQBIcVbPBIHkFjk+bOIhAUIBwZNaBZ7prAWeKwzCa3Qzht98sEom8gahjS2AJ02cwDNjncNzbTyF15jsvUatNpHZpmhZ4p9h2lwNzTlWjhg6vJxYDvseydz4tD+p3Pb6nw1zA3DVXsccddoeux1wWiEnLWmfccTcGTzHF5VGGGq40kTl8ej+/Fp7nHTKAccczYdMUn5f7u/sfPUAhAlZR+pIEpGaXwZryFUFAA==");
 
 export default CommentMedical;

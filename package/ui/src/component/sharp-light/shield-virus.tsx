@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-virus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-virus?s=sharp-light shield-virus}
  * @preview ![shield-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/shield-virus.svg)
  */
-const ShieldVirus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48.5 114.9L256 34.3l207.5 80.5c2.7 45.6-4.5 116.8-34.7 186.3S345.4 438.4 256 477.1C166.6 438.4 113.4 370.7 83.2 301.2S45.8 160.5 48.5 114.9zm447-1.9l-1.2-20.5L475.1 85 267.6 4.5 256 0 244.4 4.5 36.9 85 17.8 92.5 16.6 113c-2.9 49.9 4.9 126.3 37.3 200.9c32.7 75.3 91 150 189.4 192.6L256 512l12.7-5.5c98.4-42.6 156.7-117.3 189.4-192.6c32.4-74.7 40.2-151 37.3-200.9zM256 156.5a83.5 83.5 0 1 1 0 167.1 83.5 83.5 0 1 1 0-167.1zM128 256c33 0 49.5 39.9 26.2 63.2l-11.3 11.3 11.3 11.3s0 0 0 0l11.3 11.3 11.3-11.3s0 0 0 0C200.1 318.5 240 335 240 368l0 16 16 0 16 0 0-16c0-33 39.9-49.5 63.2-26.2l11.3 11.3 11.3-11.3 11.3-11.3-11.3-11.3C334.5 295.9 351 256 384 256l16 0 0-16 0-16-16 0c-33 0-49.5-39.9-26.2-63.2l11.3-11.3-11.3-11.3-11.3-11.3-11.3 11.3s0 0 0 0C311.9 161.5 272 145 272 112l0-16-16 0-16 0 0 16c0 33-39.9 49.5-63.2 26.2l-11.3-11.3-11.3 11.3s0 0 0 0l-11.3 11.3 11.3 11.3s0 0 0 0C177.5 184.1 161 224 128 224l-16 0 0 16 0 16 16 0zm112-8a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm64 24a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const ShieldVirus = createIcon("shield-virus", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABuAAAALiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDaAsGAAE2AiQDCAQgBYMtBzMb6wUjEbZyDzKR/SMxNlb6VBudLRj5Rnf71LTnPYloJL6J4Gm/dN7uBghtziYqKSkAEhLIAUlyJOxF1pUdgXABWVWW/+/l9L1A/AWArZcpw1IQaSdwlNb0dmRAicnUqec5DwVk2RQPyv9n29TFScei0pwCPS9gL9a1veC1gtW0AFTWTs17aZCvO5RdocTzqGkgPUmf8MB+0/hhxB2SkgFENwA2Hzmwy5uVWIn4VJ0Sn+xAQGwB0wIZGeMCLMoC44ppFEWwElXF/gMJAUQj95ckUNCM71gHFJA0llJeMb+TzebS+bRCLp1TVpRfVIBzZNH7MPw8/yvy0vfYdtlYp1FrHLEQFWTy0Z7KrM2Sz1HMTYEclb7j7vxO7FYM+acee+67/mee+14HQflrasQpZxnKmdCEUxC2dhy6UgC5XMQZpw0XBmCksK2twDp0Szi4rpl20+gYNNnadGzArkoOmLRfdWXKhtaWCj+LgwBwiza0046rqimHlHHFqGxMPqG03RZt/9o8ND6Ad/pTtrf0ORsk3dX5+fNzsXrPmpvPCqq7bS9Rqqqc4CkLLCz2cU5Ahfr7h4ff3pPJPdxDMnl/q6T29zv8uVnNLS3mnx91jXWk1uTnDnfSsjp4hhdOb9063K3btQxn5nSHWN2ydOfOTcUDSwCz6yAwzZjSoWxYu6DkbNO+gYF9Afm/07rSyQbiobtXhe/PCBf/NnMTWHv2/zP5EnZWb/xK22iWQJBrVc3JRKfO+CUAACmumE10CiTvnahXbfdQgNCKAEmjVgGyMd0CFK3mBGgwaV6ARq0OyKK0CP1OFUzS7jyTLbjKFP2eMg0WvY0b9Ue+uJVLU/m1zBxMrGIJi4iPpzcJJb01mXq9Ij0bRibbzoO8xwWuhEZdOvVrUK9Ff4XolZEd0CFxCE/wQYQPT96IUGRx86ZVCJf06tOiW10+jzBke9/Z4PBwF+hRuJK+NlEkMPH6mlsa2us9Phs=");
 
 export default ShieldVirus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-plus` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-plus?s=sharp-solid plug-circle-plus}
  * @preview ![plug-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plug-circle-plus.svg)
  */
-const PlugCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 0L64 0l0 32 0 96 64 0 0-96 0-32zM320 0L256 0l0 32 0 96 64 0 0-96 0-32zM32 160L0 160l0 64 32 0 0 32c0 77.4 55 142 128 156.8l0 99.2 64 0 0-99.2c12.3-2.5 24.1-6.4 35.1-11.5c-2.1-10.8-3.1-21.9-3.1-33.3c0-80.6 54.1-148.5 128-169.4l0-38.6-32 0L32 160zM432 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-208l0 48 48 0 16 0 0 32-16 0-48 0 0 48 0 16-32 0 0-16 0-48-48 0-16 0 0-32 16 0 48 0 0-48 0-16 32 0 0 16z" />
-    </Icon>
-);
+const PlugCirclePlus = createIcon("plug-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABfQAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCNAsGAAE2AiQDCAQgBYMtBzcbOwXIjsM4hvxiKkMc4+F7u6fOfd1/0D3GG8g9EhZA5EwR6AysHEq3Jtza8Bfz+/xfTm88PzrAb3RoYw5eIKM9nieQaJ4X51lgAQWYJ2CNbrsZYhqSrzOuUMavxf1apCfTj3jUftH410D3k3QuAEQPACzfu3Ozr/+KvyJ+aH9A/GAjAmI5yAIFCgwRYLFCYIhSRqkU/BXtNvsPzAQQHbhfl0CJjrgD9wNKkLTKsmvX4YNH1K2u5Z66VR2s6kqIOiKiLqHHOnWIZ5Z8sbrlQS/1fyyeW/bV2ohq/4OLIj6b9lbcM/XNhZ9WD8z/ePLr7p7yxoJP6r1CXYuqEqIKV6hiud7hE2Hkqz1evTzCGe76qmma7JjGMfnr0t2HP5VzbmRZtXDibSc1Thr1/7SeXScvuWucvPXouESaMWLs2BEzUhpHh1jQ/Zfpbt4j6xEFeuCQ0ertQCCYd+6Ovke7L/6vU53AP5++DH9G2l+nJr2KThIIisntyQ6lBlIjAAApbjQyNQgkN2hxn7WLxwQIFQIkHVQCFAbrIUCpMkmAlmHmCNBBZadClJ2FPg4XIOniGlCY6w5Q6uM90LLYN0UHfaI4BOkDiP4ATFiD0dXn8oyp0/PC3DuUMUcVqY8X5cnG+Bv50gR40RlXudL1TjvlvOsr+LU21ze4wpohbLU3ymaYarpsobx4clPYg4NrXcfJbiUvP2WRvH0y3o3DmydAO3EJZ2okiUg9Xg3KlH91xCknMQAA");
 
 export default PlugCirclePlus;

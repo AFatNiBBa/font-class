@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bread-slice-butter` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bread-slice-butter?s=sharp-thin bread-slice-butter}
  * @preview ![bread-slice-butter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bread-slice-butter.svg)
  */
-const BreadSliceButter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M80 256l0-16-16 0c-26.5 0-48-21.5-48-48c0-54.2 40.2-90.1 94.3-113.3C163.9 55.7 225.7 48 256 48s92.1 7.7 145.7 30.7C455.8 101.9 496 137.8 496 192c0 26.5-21.5 48-48 48l-16 0 0 16 0 208L80 464l0-208zM448 480l0-16 0-192 0-16c35.3 0 64-28.7 64-64C512 64 320 32 256 32S0 64 0 192c0 35.3 28.7 64 64 64l0 16 0 192 0 16 16 0 352 0 16 0zM261.7 194.3l-5.7-5.7-5.7 5.7-88 88-5.7 5.7 5.7 5.7 88 88 5.7 5.7 5.7-5.7 88-88 5.7-5.7-5.7-5.7-88-88zM256 364.7L179.3 288 256 211.3 332.7 288 256 364.7z" />
-    </Icon>
-);
+const BreadSliceButter = createIcon("bread-slice-butter", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgwAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCKwsGAAE2AiQDCAQgBYMtBzkbNAXIhuB7XVm/Ly1p1mWZWGbGDA8iQAyBuPLjFKOLZ/p7d/7P/wZ8Rh9tDxpLV4vK5jxPIAzwPc8DX0KZJmBZm+N/+UGQA7EIucL8kIbxaVgaGrpDHu86oIH0UPoOd+SPir90cxNJlgGIEgBzN69f6aPf4/eIb+uvE99ajoCYCyqBTIyeRDLDCCNzFZnLB/0e9Tr1P7AigGiEp04gRyMu4GZADpI8zwf379ZSa2iTb6o1FJtDFPF85/u7PzH8lenvTn6zdsvE16e+PfSlXg92vHdAEUK0RuwNAfUFB6TH06t+WPTFhDcWfLbiu+ohVzCQDNe2d+7UuWNsiEJ2io1kl9g80jk2bdi0cdPmPWJDv5fLl//p+92h76z+sATEmJ+/z5oeeeTanZcude2q7p3XGrIp+/7nMaXST/b46fRvHthHSk+2a1eMSun996tKi5RGFRw9WeqW5eu9NmDQ5s0WWricb0Bpw8sr1GSPg0CwbN+R33a3nfF/cy2BP9/57y/rr6j+e5JeRrMEgmxEfYQdCSQCAJDikn4JAskJOf3UVvcLEAoESBoVAmR6KAXIFYYL0KC3iQI0KqyXibxF6GhnA0mrsyAzyWWQ6+hV0GCGL6tGHSOLPjF2xJe/tEWMLbxWjR01pppWnY5tUkDx6Xx6ddkbcsnWhgrSIaedcsFBBxx1gdhzVrYXnbRohC/0RZWxRhmjMk01PfuobaLqnPOO9pX5S6ar7k+HuDTePVTCBJzj3EgSkdr/l4Ax8ilXPtvrHzwHAAA=");
 
 export default BreadSliceButter;

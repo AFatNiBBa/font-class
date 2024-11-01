@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `film-simple` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/film-simple?s=duotone film-simple}
  * @preview ![film-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/film-simple.svg)
  */
-const FilmSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M160 32l192 0 0 448-192 0 0-448z" />
-        <path d="M160 32l-48 0 0 48c0 8.8-7.2 16-16 16L64 96c-8.8 0-16-7.2-16-16l0-46C20.4 41.1 0 66.2 0 96L0 416c0 29.8 20.4 54.9 48 62l0-46c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0 0-448zM352 480l48 0 0-48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 46c27.6-7.1 48-32.2 48-62l0-320c0-29.8-20.4-54.9-48-62l0 46c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0 0 448zM64 160l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm336 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM64 288l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm336 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32z" />
-    </Icon>
-);
+const FilmSimple = createIcon("film-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABpgAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDAAsIAAE2AiQDCgQgBYMtB1IbpAXIhofv1/o8973+U/t7lqGXGR1g4oDQJirsiISaiiXQM/+X43v3/OgAv9GhjDVb2gbc23oebpAsnFwiCSWSQAaWuTXmEBEh7hcxbOQ06fHbHs/uUMTP+Z4W0rPpWzx8/A9g/KqXeyStGUB0BMDC7ZvX+rwRjRTfNj8gvrUGAbEIVAIZGX0FmCML9FWoUCgEjdRs0ohmsyKAqMErM6ihFS/jPUABkpooiqFDO3fMZa31lnbFtvpF5e6yXoonupbxVPeIN7o+I8WtXk8OjXi6Rz2e7CbqkXfWy/rNf7vH82Utbvd+atirTBnp2AQ5opmclQ9WLg13wIR2X5CijDzovY7v/T7w22PfevnlCXhI+0al0X6cpT/82GOBHj/+sHScPvYEE3z+2WcL/oD5FXBRKiZPb30HoWnJ9eftjJdf/hyi/DwIBA+unLNnf4c5/7epJ/DLh3/+i39HzUaS3kMbCQR5THOMPQkkAgCQ4ppBCV4RyB5Sg3dt6ykBQokASU0pQNZHRwEKpdECtOhvqgA1pc2yKFqFrvYKSNq6CLJproNCV++DFnN8ka3pGtlTaT+j/xMTlvXw0k3VxHETqlnVsOJinI9sk7OrZWPEtdIxks465rxzrjjqiJOudOglawtXnbXMQpb6oMpE40xQmaXarq+FbZy95LKTz9z+KrNV3ydGuGb3H0l2AsxJTmSZSJG7xLk8NtiVsTHf1U1z4Q0AAAA=");
 
 export default FilmSimple;

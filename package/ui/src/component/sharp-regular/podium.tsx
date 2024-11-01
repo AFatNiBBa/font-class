@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `podium` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/podium?s=sharp-regular podium}
  * @preview ![podium](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/podium.svg)
  */
-const Podium: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M176 0L288 0c26.5 0 48 21.5 48 48s-21.5 48-48 48L176 96l0-24-8 0c-22.1 0-40 17.9-40 40l0 32 296 0 24 0 0 48-24 0L24 192 0 192l0-48 24 0 56 0 0-32c0-48.6 39.4-88 88-88l8 0 0-24zM80 512L47.3 224l48.3 0 27.3 240 202.3 0 27.3-240 48.3 0L368 512 80 512z" />
-    </Icon>
-);
+const Podium = createIcon("podium", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYAAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBQwsGAAE2AiQDCAQgBYMtBy0bwATIHoXpdpYdaVPkT3A38fC9rtdzn7Q735IZZOL9RqbOHWGIK4Qu3IWrtOEWq3SGZIaEy/fakD9vf77z0QAfz33ri50H8gOJvt/zBDrPu/wPFFAW2EAt1qydfdcziKzSp1yS0aQfNivk8UKsRnouwd3y0vhLN5dIahmAaAuA2RvXLvfV7/F7xPePJr63FAExG1QCGTL0FGCaTKCnXIVcLvg9Hj0K/8CKAKKufmMCOXLMw0pADpKU58PblbVW+YayVmwti/LVTk91e7bjkwOKiCjiRscniValKFpGlGXEK8PfnlhGbNqyeUsZ66OMjVHGpmjZ7622b/2TA7z/5alTpxo//5hlP/7cSFdN2r39SbvKkK4NXd9o6Dqpkl+7NqtJ152Pqj56f7Pu//lOj/80VH1UQCD46f6W8TvbTPu/qUzgz0/AdY++iq/SW2iSQJCNeDTCtvgKQAdgpbigHxEskEyTAE9t6WkBQoEASV0hQKaHtgLkCsMFqOltvAB1hbUykbcQOtreIWnpNGQmuAi5jj6Gmmm+tuo6RuZJkh9IH7n0BRbNH6uaRzWqKdXU12TnYKk/tVo2hlyIuaGy6ICTTjhnv30OO2fIGcvd845bwPB8AlWajdJQmaLajh7nN9jvjLMOO+lEHjJVdd4c4gKvHirTJMCYN/AkItVPnbwXAAAA");
 
 export default Podium;

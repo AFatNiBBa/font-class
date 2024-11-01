@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `school-circle-check` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/school-circle-check?s=thin school-circle-check}
  * @preview ![school-circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/school-circle-check.svg)
  */
-const SchoolCircleCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M315.4 1.4c2.8-1.9 6.4-1.9 9.2 0L482.5 112 584 112c30.9 0 56 25.1 56 56l0 98.8c-4.9-6.9-10.2-13.5-16-19.6l0-79.2c0-22.1-17.9-40-40-40l-104 0c-1.6 0-3.2-.5-4.6-1.4L320 17.8 164.6 126.6c-1.3 .9-2.9 1.4-4.6 1.4L56 128c-22.1 0-40 17.9-40 40l0 288c0 22.1 17.9 40 40 40l200 0 0-112c0-35.3 28.7-64 64-64c2.2 0 4.4 .1 6.5 .3c-1.4 5.2-2.7 10.4-3.6 15.8c-1-.1-1.9-.1-2.9-.1c-26.5 0-48 21.5-48 48l0 112 32 0 64 0 7.2 0c6.1 5.8 12.7 11.1 19.6 16L384 512l-16 0-96 0-16 0L56 512c-30.9 0-56-25.1-56-56L0 168c0-30.9 25.1-56 56-56l101.5 0L315.4 1.4zM88 192l32 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-48c0-13.3 10.7-24 24-24zm-8 24l0 48c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-48c0-4.4-3.6-8-8-8l-32 0c-4.4 0-8 3.6-8 8zm240 24a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm0-144a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm8 48l0 24 16 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-24 0c-4.4 0-8-3.6-8-8l0-32c0-4.4 3.6-8 8-8s8 3.6 8 8zM64 344c0-13.3 10.7-24 24-24l32 0c13.3 0 24 10.7 24 24l0 48c0 13.3-10.7 24-24 24l-32 0c-13.3 0-24-10.7-24-24l0-48zm24-8c-4.4 0-8 3.6-8 8l0 48c0 4.4 3.6 8 8 8l32 0c4.4 0 8-3.6 8-8l0-48c0-4.4-3.6-8-8-8l-32 0zM496 496a128 128 0 1 0 0-256 128 128 0 1 0 0 256zm0-272a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm69.7 98.3c3.1 3.1 3.1 8.2 0 11.3l-80 80c-3.1 3.1-8.2 3.1-11.3 0l-48-48c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0L480 396.7l74.3-74.3c3.1-3.1 8.2-3.1 11.3 0z" />
-    </Icon>
-);
+const SchoolCircleCheck = createIcon("school-circle-check", false, "data:font/woff2;base64,d09GMgABAAAAAAOMAAoAAAAAB7AAAANBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWiEcgsGAAE2AiQDCAQgBYMtBzobfAbIjtNlNuC22qCHt6vq/e5V986S/+TZoxkBGJyg7Bxk55QRPPDYT/faOsZM8mk1YwyFQnIYz1Va3BaOrVGe/7km393a9wb0bQLzofx1U2Gkdz8fJg4w2quAy4YTxmnmlr5wiFt2GybCFrj6w3jiwOz2XwBb7eX6SD6rwOA42Dyl8Zm0GdSvB4/e6Z30InYd9IJugADUFgCLAAdwgCIEQHMcBBThYgEXF8E7xWLmf6AFAYDiAcfwci4QAGWDKgIALgAG33X7ZmQEAllpaYWFmX5cwB3ox3mTojpAvo5rOEQRk5ZbJOFpgw1Uf4Wy75UQRss0nPQl7W2drW1MhmRD4piESsj3w+oln7BI5Givi9Z8Derve/7xEO0qezoRSXtreYiw+oo6KWKeQjLgZuts88z0Wv1U4/RE1zvn2+fGN7oXehdnxQhfYQ2JdxZj1FnDo/fWfK03XCUkSIkas7ElnZVGbzkhsRIbkIwsI6RnTTobF9LtznmWtc/NbyU2LO90L3jLexdXd5MDwtJfIWupiItqCw1SVMufyZ35l3sx8QVN3+s2+2MmMPv/14RxTF23Jf1+S5+MsXv2+LFpwWTSb/d023XGE2bjpacfCtwqCUbBVy+d2djNuqPfeel4S8LX/7Mnsi/+8MC6cX2yg2TvLIlxURDG+NEV1uh4KYv7mhusXVpaO6jwb/suHDRo4SPj0jxXldaPo4g8oyVBxZHweCUpMywypRgfPVR4BI+KA+XLB4pNZYVKmrIurYoBU1aucuVyZcZUQRrGdRjToEGvXvTrF0NF1buHLl2RjwOAAMH63/y2o1Kbf0v0DQAf7nz9LU8n9sgs888AiRgABE7NWE2Gm2UAbFgASsBoIeUHNKp0FcDHdSYTWRojPECQkfiKTAGHQtLAxaMGxFFCA/HExf1wkJuEyGIEwJDMHHBoyGJwyeIqxNGcx/54sjznCZFe39Lv01Qdq1SHUbasdtA2tb1pmeyiFxvtzexkU9WFVFYNG5jILGYynwmMZ0qCFe5ceoQWMIOOQ4IdfmspozZBLE2xi3M3VQMrnrnMgxCGmcs7aYbd3lmVhcO1q8FqcIXWJc5gQCbz4dLV+pdIU+ttAwA=");
 
 export default SchoolCircleCheck;

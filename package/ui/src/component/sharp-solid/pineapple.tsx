@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pineapple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pineapple?s=sharp-solid pineapple}
  * @preview ![pineapple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pineapple.svg)
  */
-const Pineapple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 96l-40 40 24 24-57.1 22.9L448 192l0 128L256 512l-128 0L0 384 0 256 192 64l128 0 9.1 9.1L352 16l24 24L416 0l10 30 70-14L482 86l30 10zM176 201.4L153.4 224l11.3 11.3 32 32L208 278.6l11.3-11.3 32-32L262.6 224 240 201.4l-11.3 11.3L208 233.4l-20.7-20.7L176 201.4zm-80 80L73.4 304l11.3 11.3 32 32L128 358.6l11.3-11.3 32-32L182.6 304 160 281.4l-11.3 11.3L128 313.4l-20.7-20.7L96 281.4zm160 0L233.4 304l11.3 11.3 32 32L288 358.6l11.3-11.3 32-32L342.6 304 320 281.4l-11.3 11.3L288 313.4l-20.7-20.7L256 281.4zm-80 80L153.4 384l11.3 11.3 32 32L208 438.6l11.3-11.3 32-32L262.6 384 240 361.4l-11.3 11.3L208 393.4l-20.7-20.7L176 361.4z" />
-    </Icon>
-);
+const Pineapple = createIcon("pineapple", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABigAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCZQsGAAE2AiQDCAQgBYMtBzAbZQXIngU5mXw60kUTz+RHmfsiHv5/7X/73BlEfHD3ZCqRhjcNifYXlUx+yUyIlu0hEFX7PnHN87emP0+jR4uyqKX3+awTJzDQiKQJzQY20QFOwLa7yEpWRCsPScudPJ7zeDlDHh+zlSPdSXApvGn808hxkkoZgKgJgJHzZ0/1rSzKIn6XEL9NRkCMBIVAhgxNBRgiE2gqVyCXC8qiVDL/gQUBRHkEJo/nqIBreATIQVIuz9s3UqEq5arl8+zBldcPGT6kY0yIeiHmROWYFxHzowrXekePGB6NYn5C2xUdOneoFx21t0F0juFOUTc6YFf15zTrW2V7cKu3vbV1lJbvpy1OOu2wr18dduhQ/q5O22C//R4YW021sf5Mb926dR+UvPNOyQfrvDPaaO+mT+/W+fH680AgeHvxRZflNYb8r1glgb8fSj8jpW9JeouKEgiyLqUuliSQCABAin1aJQgk55RDr1rVTQFCZQRIyqssQKaJmgLkKussQDnN9RWgvMpmy0ReSahraWGSqnYymX4OMLm63jPlDPE9Ul7dyERTECzhZ5g6jgNj+xU9u/UoBhXDpCxKG+eaBxfbeod9WNQRFlpnu232WGuNjfYwfJep8b22GjfDxvqgQk/d9FAYpDjOXM+eZ61ddttou22+l8GK+8EO9s0rdwQrIdZeRiaJSJV2bNy29kUAAAA=");
 
 export default Pineapple;

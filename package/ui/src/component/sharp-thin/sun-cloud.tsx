@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sun-cloud` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun-cloud?s=sharp-thin sun-cloud}
  * @preview ![sun-cloud](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/sun-cloud.svg)
  */
-const SunCloud: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M164.3 7.7L256 57.1 347.7 7.7 362 0l4.7 15.6 29.9 99.7 99.7 29.9L512 150l-7.7 14.4L488 194.6c-5.5-1.2-11.1-2-16.9-2.4l17.5-32.6-96.6-29-8.3-2.5-2.5-8.3-29-96.6L263.6 71.2 256 75.3l-7.6-4.1L159.7 23.4l-29 96.6-2.5 8.3-8.3 2.5-96.6 29 47.8 88.8 4.1 7.6-4.1 7.6L23.4 352.3l96.6 29 8.3 2.5 2.5 8.3 29 96.6 88.8-47.8 7.6-4.1 7.6 4.1 88.8 47.8L364.5 448l16.7 0-14.5 48.3L362 512l-14.4-7.7L256 454.9l-91.7 49.4L150 512l-4.7-15.6-29.9-99.7L15.6 366.7 0 362l7.7-14.4L57.1 256 7.7 164.3 0 150l15.6-4.7 99.7-29.9 29.9-99.7L150 0l14.4 7.7zM256 144c58.8 0 107 45.3 111.6 102.9c-2.2 3.8-4.3 7.7-6.1 11.7c-3.3 .8-6.6 1.8-9.7 2.9c.1-1.8 .2-3.7 .2-5.5c0-53-43-96-96-96s-96 43-96 96s43 96 96 96c11.3 0 22.1-1.9 32.2-5.5c-.1 1.8-.2 3.7-.2 5.5l0 11.4c-10.1 3-20.9 4.6-32 4.6c-61.9 0-112-50.1-112-112s50.1-112 112-112zM400.3 297.4l-.9 8.3-8.3-1.2c-2.3-.4-4.7-.5-7.2-.5c-26.5 0-48 21.5-48 48l0 48 48 0 184 0 56 0 0-56c0-30.9-25.1-56-56-56c-10.7 0-20.8 3-29.3 8.3l-9.7 6L526.7 291c-6-29.1-31.8-51-62.7-51c-33.1 0-60.4 25.2-63.7 57.4zM464 224c35 0 64.8 22.5 75.6 53.8c8.7-3.7 18.3-5.8 28.4-5.8c39.8 0 72 32.2 72 72l0 64 0 8-8 0-64 0-184 0-56 0-8 0 0-8 0-56c0-35.3 28.7-64 64-64c.5 0 1.1 0 1.6 0c7.4-36.5 39.7-64 78.4-64z" />
-    </Icon>
-);
+const SunCloud = createIcon("sun-cloud", false, "data:font/woff2;base64,d09GMgABAAAAAAN4AAoAAAAABvgAAAMtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyEJQsGAAE2AiQDCAQgBYMtBzAbJQbIrgdsh/UMWoq2ztU50bu94BpUjmjfnOIdaEZT8A/693Vukq/3BosMnJVUweqgCnTpkuymXLmbbsUD//fu/jEbkxZwYZrQWkTZNO6k1gv+q9v7cwdLzexMUxNFEtjBSUdrsuSJRRwkEgc6uM3wggkEFkgQZnm7fei/jwQ2NkUoWhSbKlF08jdFqHRyfyGGEGiAAVE7UKCHXNz54Ac6gQA4jCWyAocc6rfAJIUMDtTV2ur/M51EiJtJgVi4/feGebdOVJ1OCdCoIp4+BcQapUaGbbObTMdkPJ874PTbSIA5ZB5gB7hS/cBmEwZrAQBQNQAAoNdq+DBuv5HIZ97oGRoQgHoBEAiwgAVKCYCuLAJKOQJwOARvZTf/gRYCACXZVDYAOCAJfANFAIADwOCcWxpXJ05ku1HDmGh8jxo5WqvyNNJRtPMq1P78JhrlshjzwOkMZJ+jWQDoLoQ13xWrVD7H8ECBRgPWLXp8onSpbK/fV12v3vhy+2sNL5Yea3Sp3ZaCddDe6IiXlZ9ocqXDyKH4fG2Oht8LxbF0OH9//c3+Xefh+udVJ9c9Wzj67aVzRQfi2ehSEUJRliQdaXKlwfq4RDCj9uVql39ldV3fIFcDlXRlV9OmqPL+2ZthygTLNFB6NnqG5RkZkHI3sEzeusVaex20WLlQY6jpWL7/lq43dJXEHG+bWu4OAuQqjsjQZZVoffxsxT2XtqQvX848FQOr+EfKmI9uOPwLTm17kKVY1/L5Q2j5X0j9//FtRvq1psKsqGjQY+C4QPf7A1TJ6UmadEejo6i6nyRC46vnawAIEEz8pdccXykDwPs7nPzs/xprFkhjABDYpn8yIU5Aox8BQMhoFbUNXyTA8I7K5stif2hEREDAkCQCS4lq4IhoAgnKtUPH/sNZ5DIIb2IOhiyWgqW91eDwrkKCrh4Fk/jIJn0u4XJfnsn9WU2/RiE3bxk6B20M4lMzjrVdgrMprGpzGuVjmWWxRVaYaYa5VjC6ZYZFVlqov0nbzw8FrTTXUtBZCE4uyqNK5zLLW1SL4fV0Ed73NbTKXLxRbjVsBlvrazAgk1l+i5r9BREA");
 
 export default SunCloud;

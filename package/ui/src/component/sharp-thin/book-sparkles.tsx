@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-sparkles` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-sparkles?s=sharp-thin book-sparkles}
  * @preview ![book-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/book-sparkles.svg)
  */
-const BookSparkles: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M56 0C25.1 0 0 25.1 0 56L0 456c0 30.9 25.1 56 56 56l384 0 8 0 0-16-8 0-24 0 0-80 24 0 8 0 0-8L448 8l0-8-8 0L56 0zM400 416l0 80L56 496c-22.1 0-40-17.9-40-40s17.9-40 40-40l344 0zM56 400c-15.7 0-29.8 6.4-40 16.8L16 56c0-22.1 17.9-40 40-40l376 0 0 384L56 400zM288 149.7l-7.2 14.8-27.6 56.7-56.7 27.6L181.7 256l14.8 7.2 56.7 27.6 27.6 56.7 7.2 14.8 7.2-14.8 27.6-56.7 56.7-27.6 14.8-7.2-14.8-7.2-56.7-27.6-27.6-56.7L288 149.7zm0 36.6l21.6 44.4 1.2 2.5 2.5 1.2L357.7 256l-44.4 21.6-2.5 1.2-1.2 2.5L288 325.7l-21.6-44.4-1.2-2.5-2.5-1.2L218.3 256l44.4-21.6 2.5-1.2 1.2-2.5L288 186.3zM174.8 75.8L168 64.7l-6.8 11.1-20.3 33-33 20.3L96.7 136l11.1 6.8 33 20.3 20.3 33 6.8 11.1 6.8-11.1 20.3-33 33-20.3 11.1-6.8-11.1-6.8-33-20.3-20.3-33zm-21.3 43.1L168 95.3l14.5 23.6 1 1.6 1.6 1L208.7 136l-23.6 14.5-1.6 1-1 1.6L168 176.7l-14.5-23.6-1-1.6-1.6-1L127.3 136l23.6-14.5 1.6-1 1-1.6z" />
-    </Icon>
-);
+const BookSparkles = createIcon("book-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABqgAAAKdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDSwsGAAE2AiQDCAQgBYMtBzQbzwXIngU5mWs6ojFlsbgz7Su8ixMPz+/v6dc+9w6lCqFaGXSWGthmKpX0+Q7G5d0TzGASmtG4raVVKEHN3BAIMSPM0iYud/7nv33zEn20NVv7fPpfNOd5AgkuGtOKAsoC6dIELWtznKIOgpyDiMpTZPE0jN8wdYQ8DpqNTNqfYGt50/iihjuSLAMQ5QGAAePKJfh4GS8jHhUuEY8MAgJiAEB9iAwZakPQG1GgNpL6QC4XvIxCIf4H1gcBRFF8XAI5SuAengFykBTL87rlOA14I5NcJh9bqkjJSacqB+6qnnB/ld1NyjAjSpaMKOUjWayV46HSsaHqnni1vaWaedPNxi6RovS4ylKRD7NROcSRiw6NlEYwCoQk8tGxyN3WLT4rxiMWokq6whMSMhHJkJa8Y6uKJXBiejQebtQbSXEiPK2VMqUcUXOYUFkoEEtY79rwvvyFbw1Etzvz/+dHsW2K/fh//vriQ6s+nKw4zTbFFW92dDg3N4B/8boK7xeNH8edX9gMLHex/MNfc7H9xUbPvbfKqznmXmXwuY2umNu4gyIq7zeQ5aHJjS4zfz7hp+BDdMYZmfYmEB74Aus+CKxxwgNeBDKUd3wKDwKB4Eb509Wnlev9s3ipBF5f//Gl365wN+6mCygugSBrXWitE3chcgP4SSmWMsQHAskdxfBVS9sjQCiJAElRJQXI1MKDIFdSKwiKqCsMQVEljUIUeQmhsu5ik9IWsJmujmyusge2iN7+S0VVDqI1q7ao/kxmpSWQWqbze3y6hO6ybmgGKuf5pO5xxHZIfXashYGlhZ2+nrGdwDdK1b259A5M+SIdPw8fnQSduvXRqnlyY2scWugXSdK9X7A57EfbESegZEc1SSJSGVOPurdfTHbW3wIA");
 
 export default BookSparkles;

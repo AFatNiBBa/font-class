@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pickaxe` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pickaxe?s=thin pickaxe}
  * @preview ![pickaxe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pickaxe.svg)
  */
-const Pickaxe: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M477.3 367.8c0 0 .1 0 .1 0s.1 0 .1 0c38-94 15.3-205.3-56.8-277.1C348.9 19.1 238-3.3 144.2 34.5c0 0 0 .1 0 .1s0 .1 0 .1C219.1 62.8 288.7 112.7 344 168c55.6 55.6 104.7 125 133.3 199.8zM138.5 49.6c-13.4-5-13.7-24.5-.5-29.8C237.7-20.6 355.6 3.2 432 79.3C508.6 155.7 532.7 274 492.2 374c-5.4 13.3-24.9 13-29.8-.5C434.7 301.2 387 233.7 332.7 179.3C278.6 125.2 210.8 76.8 138.5 49.6zM20.5 468.9c-6 6.3-5.9 16.2 .2 22.4s16.1 6.3 22.4 .2L326.4 219.1c3.6 4 7.2 8 10.6 12L54.2 503.1c-12.6 12.1-32.5 11.9-44.8-.4S-3.1 470.4 8.9 457.8l272-282.9c4 3.4 8 7 12 10.6L20.5 468.9zM429.7 18.3l64 64c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0l-64-64c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0z" />
-    </Icon>
-);
+const Pickaxe = createIcon("pickaxe", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABfwAAAJdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCHQsGAAE2AiQDCAQgBYMtBy4bGwXIHgnZGeZ9EUvdGI14+N5Wv3Nf91qvW9dEX8VRkVA8g8xEU4oQMmqq9j3/9UPm/3LP7/nRAX6jQxvT5uIx8Wg39vMEAs6yMa0vkgWWaQKWullYwYqidHARCX6IOIy9Ybor5PGy49WQHkmf4K78ofG3fteTZBmAaAPA0t3bN3rjj/gj4pMq4hPrERDLQCmQIcOQAAtkAkNyJXK54I+ocv+BJQFELYGcQI5anIprADlI8jwfHRxoaaxpzneFcnHcNRFxjc81fr/ru21fsbAD9ny48dOFry59c+qJD65yvd/v/Hbrl3TkjvuLW3teWPbWotc2fbZuz/3dD/SeFA90O+n4GNoPxjUI+fiTtm7b+kDX/T3b4sHeh7orz7U990+fnPiJXzYDiMHVreta1u26YG15pnX1EFzfUXnkkUr7nq0Lnygo7t8wvKnVBs882ro5wRzesLYo1q7SfvPN7bH9gsduvfXZZwbaVCodlYFWDzc1P3xLc9MtrQN27CTj4bdIaebM7dur4utAIHj+/87jD7cu+Le+MYG/Xjr/jFTfSEV6DvUSCLIJ1QkOJFT/S4UAAKS4UCVBIDkmR+/a5EEBQoEASa1CgMygNgFyhfEC1BgxU4Bahe0ykTcIXQ42kDQ5B2RmuQLkurwIaizwflirKzK1o5SG+uuLX4XIyl3l1ElTynnlslZpTSLi5vzyWBxzIU+MNQed6CxnOt8JjneK8wE718bkAmdYtUNX+qLSVJNMUZqnvO7u+V1gnOs8Jubs/Tbzle/dMS7czx9rlERwp6kkiUh1H5N19OITAAA=");
 
 export default Pickaxe;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stapler` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stapler?s=thin stapler}
  * @preview ![stapler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/stapler.svg)
  */
-const Stapler: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 352l0 64L64 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l528 0c26.5 0 48-21.5 48-48l0-8 0-8 0-80 0-16 0-4.7c0-36.4-20.5-69.6-53.1-85.9L260.7 66.4C236.6 54.3 209.9 48 182.9 48C128.2 48 76.7 73.8 43.8 117.6l-35.2 47C3 172 0 181 0 190.4c0 19.8 13.5 37 32.6 41.8L48 236l0 92c0 13.3 10.7 24 24 24l376 0zm0-16L72 336c-4.4 0-8-3.6-8-8l0-88 384 96zm176 80l-160 0 0-80c0-7.3-5-13.7-12.1-15.5L36.5 216.6c-12.1-3-20.5-13.8-20.5-26.3c0-5.9 1.9-11.6 5.4-16.3l35.2-47C86.5 87.4 133.2 64 182.9 64c24.5 0 48.7 5.7 70.6 16.7L579.8 243.8C606.9 257.3 624 285 624 315.3l0 4.7 0 16 0 80zM464 432l160 0c0 17.7-14.3 32-32 32L64 464c-8.8 0-16-7.2-16-16s7.2-16 16-16l384 0 16 0z" />
-    </Icon>
-);
+const Stapler = createIcon("stapler", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABgQAAAJUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCLAsGAAE2AiQDCAQgBYMtBy4bKgXIhoeHvLD3k4xQORW5kqZL+ba+9rTGSbg4VTNsUwDf4zwW5jznYwOt2XFegZ6XxvJtsWKpVrCIYq2dPvWfRDYhKZcwLPphdYUs/ra/AslNyfu4Iv5o/KCPc0mkKYBoA2DxTtut9+an8WnE+/8/R7xvLQJiCcgFUqToL8A8qUB/mRyZTPBp/P8//wfmBBBFiUh8PEMRJ+NsQAYSWZbNrAxu1QqNbMdaobqfUI+Lu1+r0+O6Wise6HVDvzCjbe1784h94+XqxbNeHDcvrnXb8B4hbhreiHqjfn3PiH12qNaqEfWZfeP+vlt7LYxHZr5Su2T2PnFfn5sIYfsatDrdr6023dkbejWGPNx++KfB7x/4vjf2WmRjHc0LL2y6UdsmffhBWla2SVtBv23bLl1+t8Wjx0ye0png4mb72y/srsfmk9snE3/v4s7O2uuJjXe+vknt7tsPMj2rrFhgj5YRw9vL7zb76ad7FbRtuqOFpePv+rTZ/LQDBILH9vrq+r1a834t1xLw+cu//CW//P+nSSd5GGUJCNJx/4+ze9IBRgJATBInGgImFkgcLYP0rXXXCxCqCJAoqgqQ6qctQKZqrAAFA00XoKhqO6nIKkJ3ezRI1B0DqRnOgEx3z0DBPG/ZRd0jVT9JeaTPX/qKHl++Lp88YVI+J58miqxRgl+emy8bo06Uxmi66EBHOdLxDrC/Qxzfccda753gCCsQu9yEcpNNMElujnw7fzy9owMc6ziHOMqRYZW58vvmKCfi/tG0iQQw5eEE2RJJ6bjj9zn68AOOBQAA");
 
 export default Stapler;

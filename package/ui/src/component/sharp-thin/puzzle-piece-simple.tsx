@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `puzzle-piece-simple` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/puzzle-piece-simple?s=sharp-thin puzzle-piece-simple}
  * @preview ![puzzle-piece-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/puzzle-piece-simple.svg)
  */
-const PuzzlePieceSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 64l8 0 152 0 8 0 0 8 0 23.5 0 4.9-4.4 2.2C274.7 111.2 264 126.8 264 144c0 25.5 24 48 56 48s56-22.5 56-48c0-17.2-10.7-32.8-27.6-41.4l-4.4-2.2 0-4.9L344 72l0-8 8 0 152 0 8 0 0 8 0 144 25.4 0c9.6-18.5 26.4-32 46.6-32c16.3 0 30.5 8.8 40.3 21.9S640 236.8 640 256s-5.8 37-15.7 50.1s-24 21.9-40.3 21.9c-20.3 0-37-13.5-46.6-32L512 296l0 144 0 8-8 0-152 0-8 0 0-8 0-23.5 0-4.9 4.4-2.2c16.9-8.6 27.6-24.2 27.6-41.4c0-25.5-24-48-56-48s-56 22.5-56 48c0 17.2 10.7 32.8 27.6 41.4l4.4 2.2 0 4.9 0 23.5 0 8-8 0-152 0-8 0 0-8 0-144-25.4 0C93 314.5 76.3 328 56 328c-16.3 0-30.5-8.8-40.3-21.9S0 275.2 0 256s5.8-37 15.7-50.1S39.7 184 56 184c20.3 0 37 13.5 46.6 32l25.4 0 0-144 0-8zm16 16l0 144 0 8-8 0-38.4 0-5.2 0-2.1-4.8C82.7 209.9 69.6 200 56 200c-10.2 0-20 5.5-27.5 15.5S16 239.9 16 256s4.9 30.4 12.5 40.5S45.8 312 56 312c13.6 0 26.7-9.9 34.2-27.2l2.1-4.8 5.2 0 38.4 0 8 0 0 8 0 144 136 0 0-10.8c-19-11.3-32-30.7-32-53.2c0-36.3 33.3-64 72-64s72 27.7 72 64c0 22.6-13 41.9-32 53.2l0 10.8 136 0 0-144 0-8 8 0 38.4 0 5.2 0 2.1 4.8c7.5 17.3 20.7 27.2 34.2 27.2c10.2 0 20-5.5 27.5-15.5s12.5-24.3 12.5-40.5s-4.9-30.4-12.5-40.5S594.2 200 584 200c-13.6 0-26.7 9.9-34.2 27.2l-2.1 4.8-5.2 0L504 232l-8 0 0-8 0-144L360 80l0 10.8c19 11.3 32 30.7 32 53.2c0 36.3-33.3 64-72 64s-72-27.7-72-64c0-22.6 13-41.9 32-53.2L280 80 144 80z" />
-    </Icon>
-);
+const PuzzlePieceSimple = createIcon("puzzle-piece-simple", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABtwAAAKmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDaAsGAAE2AiQDCAQgBYMtBzob8gXIngV2y3It5iweeWyGMTyMsXj4f7v/2udWvb+qq9qoNjyQsvnRQIygTAqFTIha241OtSLM3op7S8jEwnBTKvXVKkYq9f2dm4ADtX/cz/PfSxrg44XwcEaZ2g2YKbDziXSCT2ezSKCJ8azNcSi66W8RIWLn8yWxPzVMbSCPEw5okO5OH+P2cqHxq25uIskyANEWAHM3r1/p3R/ih4iPzkx8ZDkCYi6oBTJk6CnADJlAT7kauVzwQ5w5k/4DawKIJkJLdHk45Vf4DpCDJOX5+XurRqt8U9Uot1dlJYToGI91TdnVm0O4ZxALaCqyYRX3Dj41qZRYLkMhRFnS17vEkz0U+XaglVRpgLkMrTubcqsaw91JKMHOcc8gXcXrAvBkD74kOeKZ3mX9s+Hxau2d9AnzOsXdAw0Hz+TjY13J5econu4V+1Ou+dlYMMp+z6Tv9/340MeuvbYonip0lRvn+TL7/eR53qmO5fPjQK6rQvFQoVk3p370y8+tev/7ix9PddM8tHTRsAh0PPWb807+RG7oYjzTLCsWihEdvbam7YunKN55oa14DUFj9PSet6l80b4aO+fzz8fMrdp/UblNs0i+cIV4+0XmnLE/A4HgvBmj2u5uM+P/AhL46fU/f92OTNelZ1BIIMhGnNl2pOsgcQcQSXGJfuSGAsmXErG1dIc1FkoOSJqUkOmhLeRKw6Ght4liZff1MpG3EDraCUhaOh8yk1wNuY5ehYYZ3gs36RiZc0tdU/prmWpRiyzsVI8dNaaeVp+m7DJ/FdPW6bXaNOSSXDIUQx1yrnNc5KADjrqo4VxgZexiZ1vE2At9UW2sUcaoTVObs/eqTSFygQsdHcvs7Ziuvt82xCW8+lBcMQHGkXFJIlKH8y6+4oqzDo58sbQjPxE=");
 
 export default PuzzlePieceSimple;

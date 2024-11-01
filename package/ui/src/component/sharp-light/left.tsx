@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left?s=sharp-light left}
  * @preview ![left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/left.svg)
  */
-const Left: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M208 208l32 0 176 0 0 96-176 0-32 0 0 32 0 80-2.7 0L45.2 256l160-160 2.7 0 0 80 0 32zM192 64L22.6 233.4 0 256l22.6 22.6L192 448l16 0 32 0 0-32 0-48 0-32 32 0 144 0 32 0 0-32 0-96 0-32-32 0-144 0-32 0 0-32 0-48 0-32-32 0-16 0z" />
-    </Icon>
-);
+const Left = createIcon("left", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABVwAAAHFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBPwsGAAE2AiQDCAQgBYMtBysbugTIhof/3+9/P9c+BzsXl427NhqdJl4ZLyGeXkM0RPgu+f3PzZ7HvSjADyK1seeLx9S9nyfQ87xu2VGipwcW0Inx6TadRx1h+EZIkER0XOXx9YYybsYwjUjX03tcrl8av+riEklZAIjWAJi9ce1y9V/iS8T7hifEe0sREHNAFihQoLsA0xQC3ZUySqXgSzQ0pP/ATADRmH5iAiVKzMFyQAmSVJad+tYatSg31BpVG2tVTVSVEFVsiI1RC2HDuo3rBsXgWB+1WhDDaFWd6VPXuu733u8PvPfpz5w/73I/Z6sU7t4VT2GV3OryPVYOOIAFrV3vKFm+n+0CbX8HBIIRP8zrsLPVtP+b1hL45uWff+NU1Kc6NJVAUAxrGGZb1OOsClA1xQV9cLFAMkUCvGruigChokPSWAWFblpDqTIUGulp/OvGKmsVomwmtLedIGnuNBQmuAil9h5BI9O8UhtrH0UcUVFAfePiF1hk/loePWJUnpKnsUaHBlHmU/OyMOhCrg3GTQecdMI5++1z2DmDn7HcOO+4BR4234Wy0UYYJZsib2eP+xvsd8ZZh510QpZMlc+Lg1zwuwdjmwQYcwOuRKTybQEA");
 
 export default Left;

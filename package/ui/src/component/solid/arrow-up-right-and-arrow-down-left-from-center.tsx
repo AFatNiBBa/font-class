@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-right-and-arrow-down-left-from-center` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-right-and-arrow-down-left-from-center?s=solid arrow-up-right-and-arrow-down-left-from-center}
  * @preview ![arrow-up-right-and-arrow-down-left-from-center](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-up-right-and-arrow-down-left-from-center.svg)
  */
-const ArrowUpRightAndArrowDownLeftFromCenter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l50.7 0L297.4 169.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3l0 50.7c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128c0-17.7-14.3-32-32-32L352 0zM214.6 297.4c-12.5-12.5-32.8-12.5-45.3 0L64 402.7 64 352c0-17.7-14.3-32-32-32s-32 14.3-32 32L0 480c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-50.7 0L214.6 342.6c12.5-12.5 12.5-32.8 0-45.3z" />
-    </Icon>
-);
+const ArrowUpRightAndArrowDownLeftFromCenter = createIcon("arrow-up-right-and-arrow-down-left-from-center", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABdwAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBcwsGAAE2AiQDCAQgBYMtB1UbGAUR1ZL9ZD8TbDpuC43is96ax8qc9PhUSk0aZxR/iaBa+7dndz8QKoojFbapKEKH6IBQ2Gfjwo6NeBWb+jL6AkDBbfCUFi8eT4ZGpYtIh9S+45v/yz2/50cH+O3IDmVPPTsaE2jMxtYEAsw2TgsozALLNAFrd9U87CGsvJZGaMnjZ+7xuQuU+JhvaiC9S3/wJH1o/DPiJklLBhDdANiwY8tm3+pRj/hdKX7bhIDYAKYFMjLGBVgtC4wrplEUQT2qyv8HQgDRiF6bQEHBPhwEFJCkUhYW2xo6yva2htZD9/sjXro68KqtLbYy6sHQjhBb3kTEtcHXra07sx6hVLZKnN2XxA6hoD0fjuSHZ2vdtSX+dH8c+Np5l7udnXfvdi535LB7HR333pbM28Oj5QYkWFehfnduuBqkXfHA80AgONG1celA1+r/zW0J/P3Q8WdUfSNSDc0SCPKyatneBBIBAEhx0WyCQLJNQu/a7rUAoRUBkkatAmRjugUoWi0K0GDSSgEatdoii9Ii9NtXQdLuDMhWuQSKfu9Bg9W+e436I1sYbR/0D14CyiSUboLTFgHTHDNGQ4b5BGqDfthjcDDq9u1pm/ERyJWH75qt4PSLcNoiYLu631201z3uW1wnwXmHfuvRDGyCMP1ZIhEnXV7X/qv3eKKBKrdGtaQBUt+hqK6mrC49AA==");
 
 export default ArrowUpRightAndArrowDownLeftFromCenter;

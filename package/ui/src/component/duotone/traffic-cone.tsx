@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `traffic-cone` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-cone?s=duotone traffic-cone}
  * @preview ![traffic-cone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/traffic-cone.svg)
  */
-const TrafficCone: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M85.7 352l340.6 0-25.1-64-290.3 0c-8.4 21.3-16.8 42.7-25.1 64zm62.9-160l214.9 0-25.1-64-164.6 0c-8.4 21.3-16.8 42.7-25.1 64z" />
-        <path d="M173.7 128L216 20.3C220.8 8.1 232.7 0 245.8 0l20.4 0c13.2 0 25 8.1 29.8 20.3L338.3 128l-164.6 0zm-25.1 64l214.9 0 37.7 96-290.3 0 37.7-96zM48 448l37.7-96 340.6 0L464 448l16 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32s14.3-32 32-32l16 0z" />
-    </Icon>
-);
+const TrafficCone = createIcon("traffic-cone", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABdwAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBZQsIAAE2AiQDCgQgBYMtB1QbCwXIhiCyWVbPrPR/q2fYB8aIgGxnhBjZkTkDopQg1tSpnMt5KICbIh6UsWluTrrwsXOdV6Aim+sFnkI1rYF1d7YciGnOkYiWHJ8dn8sNivgkX6ZGuju9hxvT/wDGr3q6jKQlA4gOAFiwce1yb/wUP6V4r/ki8Z5lCIiFoBLIyOgjwGxZoI9ChUIh+Ck1m/wUzWZFAFGXHieDOlphJXYDCpBkqSjatvQty0atbbGhUSu3bly38d5hjXi85/ooxzfKxvpoEz1nzbYROQSu7Xq7i7rcVjrwmm53xMXd72w0MGrTdqIguqvHRinHUHll4DMdnvl9wHsH3vP8vBFHc8cl87uYfwmUHrvxSwIH7zTQkJ37ml4w5jpA10G7q65qZ7zBYQfrJxwxbzTQh6/PffDL6EGPlfuBQLBtwY/f7Ww/+//WjQR+eenPf90PSfONJD2D1hII8ujmaNsSSAQAIMV5BibYIJBNktGntnGHAKFEgKSuFCDrrYMAhdIoAWr6mSJAXWmtLIoWoYvtFUvaOI1lU52PFbp4AauZ7c2qrktk3ZI0Q3rapS9t4SX7qgljx1czq2kXy+oihO1Zldgafp6dGgEXHXDSCefYb5/DzmnQM5Y3z3Xc0hWyxBdVJhhrvMpM1fbg/vQG+51x1mEnncBdZqnOZ8Odt148AtyEWCc6kGUiRe5yXbv/rfD2j1HT2W4D9UoCAAA=");
 
 export default TrafficCone;

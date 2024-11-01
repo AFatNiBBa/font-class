@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-tree` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-tree?s=sharp-regular house-tree}
  * @preview ![house-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-tree.svg)
  */
-const HouseTree: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M575.2 208l.8 0 0-48L416 0 277 125.1l37.3 31 100-90L508.1 160 448 160l0 47.1 27.6 32.1L544.8 320l-.8 0-64 0 0 51.9 30.1 30.1L572.1 464 416 464l0 48 176 0 48 0 0-48-48-48-48-48 16 0 48 0 0-3.9 0-44.1-54.9-64L512 208l16 0 47.2 0zM48 278.5l144-120 144 120L336 464 48 464l0-185.5zM0 256L0 464l0 48 48 0 288 0 48 0 0-48 0-208L192 96 0 256zm240 16l-96 0 0 96 96 0 0-96z" />
-    </Icon>
-);
+const HouseTree = createIcon("house-tree", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABawAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyCBwsGAAE2AiQDCAQgBYMtBzEbCAXIhofv5/o69yXdNT8ZhswooAwTLatlBey/WiQHLAxbVMA9/5fTG8+PDvDTLYJDG9Pm4qt8jPk8gUCjXr4p8GVhlii2OxvaDtFckpYykuOc43KEPP6JRzVIT6bP8Ej+0PhRP/eRNDIA0RUA87duXO2D7+K7iE9brxKfWomAmA8qgQwZBgowSyYwUK5CLhd8F60W/gdWBBBN/CAJ5GjiAC4CcpDkeT617NJWNjrlW8pGcbYsyogtsSmmx9bYHEWIEQ4poPVQEMsyYk7MCSI2ULZv66atC5WiY8QMIUCd+BsvubkoC1FGDGvv2v7z0M+OfGbOrxFRe/5599+yxsHtdu82yzjvW7ROzJvka197Ru2FutbS0rXOjXbWI7p+u+SRq6XMmypv/v4V76jV62pfef958n/tsg80/n4QCKa0PXf33i6zfutQJvDDW7/+qt7c+iDdldrRQQJBNro12q50FyAzgEKKK4YpXxRIdsjxu3b0mAChQICkqRAgM0BXAXKFUQI0DDZZgKbCRpnI24SedneQdHQeZKa4DXI9vQwaZvkwb+oZma0JliJ89VKXSHTxtmr82LqaUU3bmmg+XFyfWW3rw6/Q2Ag46IizzrjksEOOuyTwC1aXLjttiYYt9kOV8caqVWaojnuP+7c47IKLjjvrTNpkpup+PNwVffYIsBJmnaAmSUQq7FAb8wwB");
 
 export default HouseTree;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bookmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bookmark?s=light bookmark}
  * @preview ![bookmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/bookmark.svg)
  */
-const Bookmark: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M0 48C0 21.5 21.5 0 48 0L336 0c26.5 0 48 21.5 48 48l0 441.9c0 12.2-9.9 22.1-22.1 22.1c-4.4 0-8.6-1.3-12.3-3.7L192 403.2 34.4 508.3c-3.6 2.4-7.9 3.7-12.3 3.7C9.9 512 0 502.1 0 489.9L0 48zM48 32c-8.8 0-16 7.2-16 16l0 423.4L183.1 370.7c5.4-3.6 12.4-3.6 17.8 0L352 471.4 352 48c0-8.8-7.2-16-16-16L48 32z" />
-    </Icon>
-);
+const Bookmark = createIcon("bookmark", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABWQAAAHeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSiBHwsGAAE2AiQDCAQgBYMtBy8bngTIjtRgrTKLIySZ5eH7ucfOfUkBOCUixQSSLZCqKwsH6HZWVv8Ce//7m+f//FOAzyi0sXBpIAt0j/MEEuu+Bx7QWGCZJmDVoaPbxEcQUfaKR5BEdFzl8TVDHnuikzKkW+kzLvhD4z8NHCXJMwBRHQDDZ0yZ7O3P+BnxufSc+GwiAmIEKAQyZGgswCCZQGO5Arlc8DNKJf4HFgQQZeHMCeTI0QsDATlIUp43rl6pTJV8eqUyFbM79SJutK0S9+tca5DiZqvTdafH1Lha8UHDrO/V2ilmxI060yKL63Urt3hS/cn/zT8v/+xi9oWv3Qrdvn7J3qjVvdzIeyshjSzXvdab0s+qD11f4tgxSz1U9WcBBIK/19RbUG3Qv/KVEvj95j/yFZXexsH0BOUlEGSdSp3MjYMQBwUAIMV2LeIgAkknCdZa2XUBQkUESMqqKECmkeoC5CrqKEAZTfUWoKyKpshEXkGobV5CUtkmyPSxD3K1PYUyBnlnllU7sr7hbp37tiWPGY0eK7p36VYMKKa+4FuB0f7AYllpt12uPREtt8F6Wy2z1Cpbozab7GyzzpgKj/aiQndddFMYoNiOHqenW2azLVbZYL0NGag4b7Szva5uT3oC2h5cSSJS+acH");
 
 export default Bookmark;

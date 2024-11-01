@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `typo3` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/typo3?s=brands typo3}
  * @preview ![typo3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/typo3.svg)
  */
-const Typo3: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M178.7 78.4c0-24.7 5.4-32.4 13.9-39.4-69.5 8.5-149.3 34-176.3 66.4-5.4 7.7-9.3 20.8-9.3 37.1C7 246 113.8 480 191.1 480c36.3 0 97.3-59.5 146.7-139-7 2.3-11.6 2.3-18.5 2.3-57.2 0-140.6-198.5-140.6-264.9zM301.5 32c-30.1 0-41.7 5.4-41.7 36.3 0 66.4 53.8 198.5 101.7 198.5 26.3 0 78.8-99.7 78.8-182.3 0-40.9-67-52.5-138.8-52.5z" />
-    </Icon>
-);
+const Typo3 = createIcon("typo3", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABZAAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBOQsGAAE2AiQDCAQgBYMtBywbtQTIhofv7fg693UP4B5JkcUMWsiV72a/NhUizv81n18VHeAHkct4fiAFctSLft5gez4Pb4JZpE0UZ+3s+ngl2CR9RJJ2ww+bHeRxK84rRbqRvsG5eKXxg3oOk5TKAERVAAydNmmiD0qiJOKb/18lvjEeATEMFAIZMjQUYIBMoKFcgVwuKIn//7f/gQUBRGmZTOycThyG0YAcJCnPm9epUKpSPtVsLj/rQJ2Ia3U+GfNFm8t173R90Z3T8VnLB4PfH3659oG4P+ylbi81nna/ZsRl+xvdGT/etfZPmtyLm71eG9HscdXHPzX9Zuk3XtpQvTW9F0+tWm3ZrnJlypR57bU///zghaNbZl/cz0fptzVz8p0d51/jaO3m//60cOGBD9o3+O7b9o12npoPBILWU59Mn1dlwF9lKyTw/Vu//F1OK/N/SbyRHqOsBIKsw/8dzI4PEq7sooCiFFs1w7cEkn4SuNSKrgoQyiNAUlp5ATINVBUgV157AUpprKcApZU3SSbyckJNcxpIKtoAMr3sAbmaXgalDPB5WFrNyJRIUgHpD5c+SkIjlxVdO3Up+hXTTJX1QvCj/Yttv81WbmmLrZZaZ63Nllhshc2C32hissUao1bcSD9U6KqTLgr9FMfl/fqplthokxXWWRvG6a+4H7Sxdd29LVaRAN2eX+BUpFKbd6xf1x0AAAA=");
 
 export default Typo3;

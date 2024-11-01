@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cards-blank` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cards-blank?s=sharp-thin cards-blank}
  * @preview ![cards-blank](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cards-blank.svg)
  */
-const CardsBlank: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M443.1 359.5L216.8 490.1 21.9 152.5 248.1 21.9 443.1 359.5zM240.1 8L0 146.7 202.9 498.1l8 13.9 13.9-8L451.1 373.4l13.9-8-8-13.9L262 13.9 254 0 240.1 8zM320 496l0 16 16 0 288 0 16 0 0-16 0-416 0-16-16 0L327.9 64l9.2 16L624 80l0 416-288 0 0-19.3L320 486l0 10z" />
-    </Icon>
-);
+const CardsBlank = createIcon("cards-blank", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABYAAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBRQsGAAE2AiQDCAQgBYMtBzIbxwTIjsN04yuPpPGqdDw8b/fvr31m7gugyatiuQIrd+pSp4UqsU8L6H8ngirz/F/z+T2/Bvx8BIcWTRVLjNbu5xMYcJSuQUej2XA2UdzutBSHjX2SlpDkOMfxuEAef1umRDqdxvH4ofFeIwdJsgxA1ATA4JlTx7v2JJ5EPPz/AvHQWATEYFAIZMjQVIB+MoGmcgVyueBJ/P+/+w8sCCDK8BMTyFHCYEwF5CDJ8rxSvSZVStXyGVVKlZdOmzltTsyM2XNS4eyoFw1iZkLrx5zDdWcLVapFZBFRuWq9ICRF1ROibig/W7OPLV/xyNWZT/fhyhuTPN3vxuQHCz8fMkUPFtjlces9trPHCG/i65r8sk41nVFTzVbHtXBGoY4/VAYCwb5yPxbW6PdTlQSeXf38Xn7g/2tpbwoVJRBk7f5vZ56NA1IDSKTYoRy+ikDSW4bftaoTAoTKCJCUqSxApomaAuQqaytASXPdBShT2VSZyCsJdc2vIKlqM8j0sAvk6joHSvq5myxTNzJV4hSB+8klj5DQ8GVF5w6dij7FsK7w2sGE+b7FstZqh+9rDUetsNEG2yy3zGrbBLnF+Mx2642YwcP9UKGzDjop9FFst273z7DcFlutttEGWqSv4ny4lR3z0a3BTJi2i5IkEanKJVHbPy0=");
 
 export default CardsBlank;

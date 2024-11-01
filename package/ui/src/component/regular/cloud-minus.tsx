@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-minus` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-minus?s=regular cloud-minus}
  * @preview ![cloud-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cloud-minus.svg)
  */
-const CloudMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M354.9 121.7c13.8 16 36.5 21.1 55.9 12.5c8.9-3.9 18.7-6.2 29.2-6.2c39.8 0 72 32.2 72 72c0 4-.3 7.9-.9 11.7c-3.5 21.6 8.1 42.9 28.1 51.7C570.4 276.9 592 308 592 344c0 46.8-36.6 85.2-82.8 87.8c-.6 0-1.3 .1-1.9 .2l-3.3 0-360 0c-53 0-96-43-96-96c0-41.7 26.6-77.3 64-90.5c19.2-6.8 32-24.9 32-45.3l0-.2s0 0 0 0s0 0 0 0c0-66.3 53.7-120 120-120c36.3 0 68.8 16.1 90.9 41.7zM512 480l0-.2c71.4-4.1 128-63.3 128-135.8c0-55.7-33.5-103.7-81.5-124.7c1-6.3 1.5-12.8 1.5-19.3c0-66.3-53.7-120-120-120c-17.4 0-33.8 3.7-48.7 10.3C360.4 54.6 314.9 32 264 32C171.2 32 96 107.2 96 200l0 .2C40.1 220 0 273.3 0 336c0 79.5 64.5 144 144 144l320 0 40 0 8 0zM248 264c-13.3 0-24 10.7-24 24s10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-144 0z" />
-    </Icon>
-);
+const CloudMinus = createIcon("cloud-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABggAAAJgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCGQsGAAE2AiQDCAQgBYMtBzIbGwXIjsN04ytHkSR3vuLh4X7vuffF/6uw9o2SooESo3GziVUIjWCga53At3r/qJ6F+BYCI8B/oQMUKj1nVxsdPHXqec5DAXwOQdD20IAswD16XoEC1nrxriG0uVZRrLqNBXmQy4vhyFE8Iob40AyCayjjN42An3zleQGuy13FP2W9QKoKAEQvAGBlNyYMd97S26DnrYtAvAsBAbECYByhwMQwAvN4BbsGPuOgVAp+6P9//g9kQABRQ+42QYkKF+AKQAlSUfLZGYiJ8ovzxYvyixTsGkyLbhrtKnfKTchPym8qz2LBcMd2WERE7JIxp9FlsmewrUnUlZate9wOeOiWRESP9ZN1lswPnadpzf2W/7AuZ39J5OX8jViiC6b7aqtuN/3E4zeUZvVEaVt1Tl9Em5Pivmi9yH+B7I2G3w+l3trYSAjwa5a1fW5++UmVt6DQmoi3sJPjhJii4NMPKQAg+6RZlcFCHuB4xk5QODLSUkhkcK5KUbGEpL4//Tsnf+BtfFxSrXHgruebN1Hy8lEjqLcDAsHe7d6LDEnXr0KiPIC/a+ffQAe33vJ08nCApgRBMfnfFKnZCQA0AU5GPbSdLwqkc7zkXjs9gUBoR4BUaxegMEQKgVK7CQQqo+wQqLXbxCtKYYRBaQ2kTpegMKcNlAadgcq8x3ZtMHiDjgwZ8s4X528hv0XMytySObNpRKk4wvOsC1vWDOupYoRJ5KtQrlaeXEVqDVItzKtTxt+D/fwQY8WcJcYZ207vV8fLU61GkQrlPI8Ldt4yVO+3G8HkIZhTfCmJFP19UDJ7qp6vAQAA");
 
 export default CloudMinus;

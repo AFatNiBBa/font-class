@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `frame` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/frame?s=regular frame}
  * @preview ![frame](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/frame.svg)
  */
-const Frame: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 120c0-13.3-10.7-24-24-24l-40 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L112 96l0-40c0-13.3-10.7-24-24-24S64 42.7 64 56l0 40L24 96C10.7 96 0 106.7 0 120s10.7 24 24 24l40 0 0 224-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 224 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 40 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-40 0 0-224 40 0c13.3 0 24-10.7 24-24zM112 368l0-224 224 0 0 224-224 0z" />
-    </Icon>
-);
+const Frame = createIcon("frame", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABaQAAAHZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBaQsGAAE2AiQDCAQgBYMtBywb5QTIHoPjbgkl3Hg86vV6PgBRRNEqHv5/rd3358/uYtLEKiRNnjhUlUb2Umle8dBodErhUMnkuWe/ecenqx4intUTNJdGIzZ83lbqD2VvbStI5r8/9TzTQgH8AP4yF06KLQpIOsf5But5QWpjU7UgtYJFFAv/bY73pXMIwi0kROiQo2GqG7aukOMxKEn3KXB9/Gj8UTiRlAWA6AQAlrYaJfhi4yfiu7oS3wpAQCwBDEMUKNAPwSxGoB/XMJBlwQ9Wlf0HEgggatqHEsjI2AWOAMggSTmvNLWUbXmzpWw+ebA0YwRbT3LYga17cwsCbL2qAgH4oKjkGMXqEaMf/I8f/UGfy5KaDWwKXZM4rMBAIHECOvb9yj/bdNv7AIHgc6KeOOLN/jdaEvh9+f1zvlyx+JU+0JBAUIxX4zrxBbAthNIUVwxOzQLJKg7wra1uBAjNCJDUNAtQ6MOHIGs2BkFpUBiCmmZrGJGbhF7dCyWtTlFhxhFlvc6oNOs7rekNJrnE1BD/7dLSI5baRX6PjxJ0W+lSvvD7fJKWPduh9tk5CANLCzt9PWO7gd0oFXtzaY9JqRHx8/AhCRRuPWvt4m9sK+As4osk0fOxzcEfbWc/HMDEayklIpWfNQA=");
 
 export default Frame;

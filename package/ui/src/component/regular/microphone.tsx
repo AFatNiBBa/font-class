@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `microphone` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/microphone?s=regular microphone}
  * @preview ![microphone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/microphone.svg)
  */
-const Microphone: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M240 96l0 160c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-160c0-26.5 21.5-48 48-48s48 21.5 48 48zM96 96l0 160c0 53 43 96 96 96s96-43 96-96l0-160c0-53-43-96-96-96S96 43 96 96zM64 216c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 89.1 66.2 162.7 152 174.4l0 33.6-48 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l72 0 72 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-48 0 0-33.6c85.8-11.7 152-85.3 152-174.4l0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-40z" />
-    </Icon>
-);
+const Microphone = createIcon("microphone", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfAAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCBgsGAAE2AiQDCAQgBYMtBzEbBwXIjsM4RnziqUwiHh7s/u3cwQ+gCWD0SSV0YhdXUImFW1a77TO77evW63LcODKOqZzif871fM9HA/w+8aFEY2lx2azyop6fwAllgCfX87MTxVO38WSQy8oRkSF6RAztGJpnyOJgnJGTXEg+4XSZHn9q4BSJPAWI6ni04XNnTvb6t/gt4mPpEh9NREAMB4VAihSNBRgkFbw+UyCTCX6LUsn+AwsCiDL4pARkyLEGWwEZSKRZVrduj0p5lWxOpbziQuF8bWs16qaGiEv1cttexxuwcKX96v067maIqx2iz2k3G+vFNq0+xZfBL2aLitFxpbVUutGotglFfBv6am6Eu+f1QX/UmyEvW6DF7erxd/NPaz75d+l1TEk//9St20+f0+uadGaCK3/79rFjt2+X52WPZnvrTJ9epx0jH1wbXqGFbogclHHjzOqmBfVde2BkOxsXzHuNnDZtZK+8HRAInnzZcGNptUH/la+UgD+e/vt/vWT10mtsS26jvAQEaadSJ4vimOqqxzYBwE5ijxbONwkklkjJs1Z2VoBQEQESZSoKkGqkugCZijoKkGuqtwBlKpopFVkFobbFHRKVbYdUH4chU9sTyA3y1i5TO9JYYyOF/ekljWFk9KSie5duxYBimWpc+NB5dGCxLbfbk1ray0JrbLXFLqutst4uwnaY7O222RgPHe2HCt110U1hgOK4eJTmEGnSTqXn/Pk4AxX39Xb2+N3bi5YAYQ+BREIkFR8pE48AAA==");
 
 export default Microphone;

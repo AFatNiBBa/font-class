@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `files` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/files?s=sharp-regular files}
  * @preview ![files](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/files.svg)
  */
-const Files: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M144 368l256 0 0-240-80 0 0-80L144 48l0 320zM352 0l96 96 0 272 0 48-48 0-256 0-48 0 0-48L96 48 96 0l48 0L352 0zM48 96l0 24 0 344 280 0 24 0 0 48-24 0L24 512 0 512l0-24L0 120 0 96l48 0z" />
-    </Icon>
-);
+const Files = createIcon("files", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABVgAAAHeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBLAsGAAE2AiQDCAQgBYMtBywbqATIrgZsYzjaISIaXVmLKzNslIvPfY8tiu9FIx7+/xrd9//MbER6RFFhCi/RWiEn6J7V5var/fTtXQhd5E4Uo00cIBXJ1bgaw/67UjJDfoEOrlmeiB0wOmEi8QuivULeJy6nP86f3jdvsTd5HNumPsgC+t3a5wkk1r3XBsuzwNIELXNX62oStJ+kUSR5fLTH1wmKeKFRkm4EXOQPjRd9niEpMwCitQBg56xehHJc8P//Rdw6BAGxA2AUISNjEIF1UmCQyigoFIInEv4PZCCAqCAvS6BAiRWwC6AASS5UZvsY1WZVy6g2tM0mM5GB0CP6zVZTEKLeRCR7eWMDJIXZ+IxTlBVclMEnKipesf14kmA2hISUqBWFHAe8DjwQwvYcOCUKAcRVX/bb1Nia+zYKwPOO+/0bJ4FaCQR5POMYhALMDOAnpbiGMxQEkhkS3rXRJQKEegRIKvUCZANsCBTqjSFQGhZHoFLviBSFHqHTsNFJo3M6W/REFzp90KV130mlM6T5GI9vfN5yCxrOH+JwIMQZnraqaRFa2M3ytu+6djNu6sXKiWOXlha2LhV6rphfOVJYIXlfxMICQlgGHw8fj7csnbuwdeI47ZPF92OX6/VyN0WCSM4qJIlIapsF");
 
 export default Files;

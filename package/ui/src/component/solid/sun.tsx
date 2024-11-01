@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sun` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sun?s=solid sun}
  * @preview ![sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sun.svg)
  */
-const Sun: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z" />
-    </Icon>
-);
+const Sun = createIcon("sun", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiAAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCRAsGAAE2AiQDCAQgBYMtByobPgXInoWx26KKQWd/Ud6exMP/z33vPjcZAM4nIgWMCkgRlIUbWwdAvmy7KmvnPTYmw/s8k9gHQd2N9fWeIbX4Q9fUD8oCOaNH+q0tKaLAMjkEJrafV4rMhrOJ4vx2fk9hEJ1J4pBLMmw3rL/+DvJ4P7uvjPRW+gFP04fGv7rcJ6nKAEQjAJZt37zJJ3/FXxHflyK+twEBsQwUAhky9AqwUCbQK1cglwv+ilLJ/QcWBBDlCE9en6MMt/AKkIMky/NlPT01ZXX5tppcffy1NgoK+GsrFqxVWQzF2xlrN5bD8A7BOpyVcLyNXtKGd3og3hlzah6OWl3d7c42clY/GL27R9TcGQ8xOD5619ibVbfHPbXm4YR/VgwfbIz//HDsByc/OtzRctrpFhdnj1mzaCcbWzNm9sVBX9V2HL50ZeciZsmVQ5dP6NFz6MuHjC99O9T9JV/uOdPVdWbPl192szpn9NeIWmp//WX48F9+ra0dgTo8DgSCrr9+e6Kh/F9Zk8A/772cWRoqfZRSGkSlBIJsYmmiPSkJ0NACgfIprhmObwJIrsvgXWu9LkCoRoCkXLUAmR6NAuSqTRCgTL9ZApSrtlkm8iqh1d4GkloXQWa2GyDX6l1QZqGv8+VaI1NFiyJZPgRzruboqnXFtMlTi/nFtq5atcsU5hcUx+6x13zfOGx1zHnnXHHUESddYdIlm0pXnbVaYlb5ocI0k01VmK+4bj1v3uaoSy476bxzcZUFivehsa7Jo8fBl5DmdOkk+SOx//LVcwA=");
 
 export default Sun;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-1-9` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-1-9?s=sharp-solid arrow-down-1-9}
  * @preview ![arrow-down-1-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/arrow-down-1-9.svg)
  */
-const ArrowDown_1_9: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 479.4l23.6-25.7 88-96L293.2 334 246 290.8l-21.6 23.6L192 349.7 192 64l0-32-64 0 0 32 0 285.7L95.6 314.4 74 290.8 26.8 334l21.6 23.6 88 96L160 479.4zM414.3 309.3a32 32 0 1 1 35.3 53.4 32 32 0 1 1 -35.3-53.4zm-.6 112.8l-25.1 41.3L378.5 480l74.9 0L502 400.1c11.7-19.3 18-41.5 18-64.1c0-48.6-39.4-88-88-88s-88 39.4-88 88c0 42.3 29.9 77.7 69.8 86.1zM384 32l-32 0 0 64 32 0 16 0 0 64-16 0-32 0 0 64 32 0 48 0 48 0 32 0 0-64-32 0-16 0 0-96 0-32-32 0-48 0z" />
-    </Icon>
-);
+const ArrowDown_1_9 = createIcon("arrow-down-1-9", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABewAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCGQsGAAE2AiQDCAQgBYMtBzUbHgXIHgd2LDao7YKH+wgqm1VWz0ixNzqGPkZ8Ro/AevPIeyCL0PCAwPxQP6x5MksUjpj5vybftR0d4Dc6tEhKbSzwXvTzCQzw24KbU9uGs4ni3jZMsBGVL0QkSCIaL8drDWV8UtyrRnomjYfah8YveriXpFUBINoDYP7Wjau9/mV8GfFR80XiIysREPNBFihQoLcAsxQCvZUySqXgy2g26T8wE0DU8Q0mUKKOs7gRUIKkLMuBnbr3aNTalFsatWrzSCO3xsiYE8NiVBQRUYVIMSZGxKwYHpsRsvWpLhFPdHmi8+NEd33ySN2e6mbU2FHdoxFb42o04sqUF4Zd6v3M8MuDd1SNSjQaohpImBEEH3Cl/ZXf+n98ZM/2vZEP27rXUj/b4h99ZfNkff1ji58ttYDf+P/ll57jjZsd2UURyTj/IEIetsK4tXoPLNWYN6+vLhk65Ps+9+Wc58nt52mP+p3pSvtkGQgEb39+30d7mfVfSyOBr1/74ze4Zq/ml6klXUGLBIJiVHOUXWmeXqalFgFgnOJ6A5xvEkiOKvG7tvakAKFCgKSuEqDQS3sBSpWRAtT0NVmAuspGhShbCZ3tVpC0dh4UprgNlDp7HtTM8l5c1zmKoBNDRvzzpS2x2OJZ+THj8oy8zIkUR3yZnJm3TdfnjuGw1BFnnXGtww457lrDXrA6u85pSzxmsR/KxhtjnGyGfFw9z9/isAuucdxZZ+o0M+X77jDX+/2Hg5Mw5wQrkkSktvsvXDh7w+inGI1+9HQAAAA=");
 
 export default ArrowDown_1_9;

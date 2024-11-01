@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `knife-kitchen` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/knife-kitchen?s=sharp-solid knife-kitchen}
  * @preview ![knife-kitchen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/knife-kitchen.svg)
  */
-const KnifeKitchen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M480 0l88 88L448 208l0 64-55.5 43.2L278.6 201.4 480 0zM448 144a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm40-40a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM0 480L256 224 400 368s-128 144-288 144C48 512 0 480 0 480z" />
-    </Icon>
-);
+const KnifeKitchen = createIcon("knife-kitchen", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABYgAAAH0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBMwsGAAE2AiQDCAQgBYMtBzQbtwTILgps9xTFBKWGUAape1fHWqYQorXM7G0RHHsAsMRGv6pFX0dS1xhiWX0Q1Vr27AOHQAEAqrh4QOHPhtChkCzMVfrRlBlcUffnP7PxxannOQ8F8I2CsqflArLAszvmeQUi1jGmVaRYqyjW2ukWQnSbkJRPMkySYbGDHJ/FFSbSvQqu44fGj0A7kNQVAEQrAKydtDXw/CePER/lBcSDOgiINUA/QYEC3QQsMgh0M+qHLAsepaT/A4MhgKiGL04goxozsA6QQZKz0WWzeTSYXMZOt7J9qqOzo12ITemUrvYTvyOfY99T/yLNFGG8v6KrQ47y79u1F6lfqOah6SFNzu9TFzfY2qLYrJUKr69BuP3oZpVTS8D92ML37+6i9lqLQ4tDmpXofwIEgrPezUPu+f9WhwKeb//1dDrls5pNGqiVQFAMlvH0p2JQK1QSoJ9ik1B8k0AywgjzGt0gINRTIalWD4UuHpDVG4AqvTLmV6t3wCCyjdBpQEHSqAKFaduQdTqDKote/GqdYbhBzPkzH7jEyhapqApOSUwOzg0exjJ7KSjfnxc8bUZvmroYjGXSkkXrJoybsd5gqxqiDQsqJbTCDwVLkShZsFzBy9n98E4TVq2ZsWQxDJIneL8XbVNuHQNHIe64OUkikmtucWZyIuGFAwAA");
 
 export default KnifeKitchen;

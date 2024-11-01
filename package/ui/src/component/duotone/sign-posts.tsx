@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sign-posts` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sign-posts?s=duotone sign-posts}
  * @preview ![sign-posts](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sign-posts.svg)
  */
-const SignPosts: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 32C64 14.3 78.3 0 96 0s32 14.3 32 32L64 32zm0 384l64 0 0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64zM448 32c26.7 0 53.3 0 80 0c26.5 0 48 21.5 48 48l0 288c0 26.5-21.5 48-48 48l-16 0 0-384c0-17.7-14.3-32-32-32s-32 14.3-32 32zm0 384l64 0 0 64c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-64z" />
-        <path d="M0 80C0 53.5 21.5 32 48 32H528c26.5 0 48 21.5 48 48V368c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80z" />
-    </Icon>
-);
+const SignPosts = createIcon("sign-posts", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABhgAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCDQsIAAE2AiQDCgQgBYMtB1AbLwXIjsQ4JvGLWNDi4f/363Wfe99Mkjc/yC9APCFSwOSYSqxYoaqKKwtXtllVXXWB/H+3nbjm+Z8/vUeSP0r3IrX9cVnnExhwlKUPvIRmOgPb4LxJhxTaEMrvUMSzfF2N9E76BY/i/wGMp3q6TtImA4gOAJi/Yc1qT/6Kv1L88vJb4herEBALQCWQkdFHgNmyQB+FCoVC8Fd6ib/ipYoAoi5+ugzqaIVDOAEoQBKKoujV0r5v+0atbbG+USvze90j3hrWNj7u+kbPFG93eX1wS3zS7c1eecuVTbdxj8WVqVE2xOXELe8yOOLAvQZbNJwvlZHjCmcP2GGUa+cP/KLDF/8O+GX/L07mX/lt/F/G//ZrrkQNKDbvo3a3ud2uYlm6ebmZ6noe0ZuXLnXpQsODYgeX91qdfBwIBE+/bPaO9rP/b91I4J/v/q/5IXn5JDXTF2gtgSCPfjna1tSE1BQAgBTnDUxNNAWypQrpp7Z4U4BQIkBSVwqQ9dZBgEJplAA1/UwRoK60RhZFG6GLbQORtDhFZFNdIApdfEPUzPZ9pa5LZPcmuhbxdy9tyRRYvKqaMHZ8NbPabegkJ8TrxVnVZW/4eT4wAp603wnHnbXPXoecnUCnra6fc8ySI3CxL6pMMNZ4lZmqx+2Xh9fb57QzDjnheLTMLNX3+eHOH48fAcMkZZxoTZaJFLmTTTXGhA1rjMsd7DJXLCkA");
 
 export default SignPosts;

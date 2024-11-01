@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tricycle` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tricycle?s=sharp-duotone-solid tricycle}
  * @preview ![tricycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/tricycle.svg)
  */
-const Tricycle: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M224 368.1A112 112 0 1 1 0 368a112 112 0 1 1 224 .1zM56 368a56 56 0 1 0 112 0A56 56 0 1 0 56 368zm200-16c0-51.5 30.4-95.9 74.2-116.2c4.7 18.7 9.4 37.4 14 56.1c-19.4 12.9-32.2 35-32.2 60c0 39.8 32.2 72 72 72s72-32.2 72-72c0-37.5-28.6-68.2-65.2-71.7c-4.7-18.7-9.4-37.4-14-56.1c2.4-.1 4.8-.2 7.2-.2c70.7 0 128 57.3 128 128s-57.3 128-128 128s-128-57.3-128-128z" />
-        <path d="M256 32l24 0 112 0 24 0 0 24 0 56 0 11-8.4 7.2-44.7 38.3 44.4 177.6 5.8 23.3-46.6 11.6-5.8-23.3L319.3 192l-12.1 0c-57.6 0-110.9 29.5-141.6 77.6c-14.3-7.8-30.5-12.6-47.8-13.5c1.2-2.3 2.5-4.5 3.9-6.7L77.6 176 56 176l-24 0 0-48 24 0 80 0 24 0 0 48-24 0-2.4 0 19.6 32.6c40-40.7 95.3-64.6 154.1-64.6l10.6 0 2.6-2.2L368 101l0-21-88 0-24 0 0-48z" />
-    </Icon>
-);
+const Tricycle = createIcon("tricycle", true, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABoQAAAKtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCagsIAAE2AiQDCgQgBYMtB0wbiAXIHoVxs3NE4YpAo5HFa82cRTx8rZXvd89sEEExKkSNih0QSCAFZMRW1F2io9f//7V2386g6/ZZVLy5NBoJEsm1qSQ8ceiW8Px/d53+fp7/KvqAz+ijVK91XnmeeT6Bga8tEmycNrCZzsC2uO3miHhog9A4QhHP+ZSSdCX9xoXwP4DxTycjJI0yAKIlAJi1ujQf19Wopniq7RO/LQABMRvQEyEjoysCU3ECXfF6gkIhqKYaqlHTEwKICgKZeRVyLxdxG1CAJOSCT+wiHtCkFPMVTUrn2iaNhQgh2sbUWBmdYmx0jlXRmEYnHvute0xouzxnIqEQNOYfz6ac6QLSxoyIpesqj3WkmOy76ny6/7phmo53mfHcEJ7pt6afQuMrpdgLGKdnxbVtdJW3hlDsTJjSb5qmvLfcN3x38Cf6bHtMG8aEX6Z9dFmMO0/7Ov2TzbYt2/7r9Xvrb7VbHXWLOkQROurGkNdY5cd83g/Q1NC5cxpqx1srfbNoOgZBt30kXerpf8t+vyZ6+dROVceReF3co476m3WzzM/X13fv/tXhC3Wlj6WvPn9+1aJY/61FJQGmtdi166V98zFj3qoiJmmqbLM7vDlXFM0JK8vQuUuK0kJLIBC8WbfvY3OLqf8dhQLAn3f/Vf2OatUkPUVDCQR5aG2ougQSAQBIMcSW6AkC2WKc+F2buihAaIwASUVjAbIuZAgUGhuCQKm7cAQqGluOE4UTQlv1HUiaOgCy8YZBoa09UJrqNlHRNjJ4qsCl/hxmZVAofRobFRDEYthqWaNBnGzHY9nh4MAh2eaNN6JJty4DGjVoNTDg++SnB3XK2OLSfRETLEAQJga7XHtqVdBEn36ty8b1SWKx56NehrZ7e+OIQCw42uwsE4k42eGDrZ+F5w/nfsXIeKEBAA==");
 
 export default Tricycle;

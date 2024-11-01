@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-right?s=duotone left-right}
  * @preview ![left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/left-right.svg)
  */
-const LeftRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M256 208c0 32 0 64 0 96l96 0 0 56c0 9.5 5.7 18.2 14.4 22c3.1 1.3 6.3 2 9.6 2c5.9 0 11.8-2.2 16.3-6.4l112-104c4.9-4.5 7.7-10.9 7.7-17.6s-2.8-13-7.7-17.6l-112-104c-7-6.5-17.2-8.2-25.9-4.4s-14.4 12.5-14.4 22l0 56-96 0z" />
-        <path d="M0 256c0-6.7 2.8-13 7.7-17.6l112-104c7-6.5 17.2-8.2 25.9-4.4s14.4 12.5 14.4 22l0 56 96 0 0 96-96 0 0 56c0 9.5-5.7 18.2-14.4 22s-18.9 2.1-25.9-4.4l-112-104C2.8 269 0 262.7 0 256z" />
-    </Icon>
-);
+const LeftRight = createIcon("left-right", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABawAAAHsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBQQsIAAE2AiQDCgQgBYMtB1Ab4wTIjsQ4JvGLGIgWD/+/9r997sx76/95XwUZSKKSIIlrEmsqIfIrJBIJT4TkiUVikV+9/09/8887jwJ8AN7cHmVjWRfNeZ5A53mXZ4n9IfSBvvg3sL8727VjbXFJGoLkuJjjckEeX7ObKqQX6Qvuyf8Axh/9bpI0ZgCiDQBLN65d4+23+JbiS/018cVqBMQyUApkyDBMgAUygWFyJXK54Fuq51vUlwQQVfLQGagix3KsBuQgCZHng2Wt0pxvqFWKuNa7MZ51P+kWtRBFiMddj3s2xNPYeFXEVbUQT7qf1G4N6XGtjjbvdIli9FDb0N9RXw588ba4ePKgl7/ftcyxy4fmaHn3+2UlerFQ19cHk2QurTTux/T810AguHikd8bO1gX/G2oJ/HjjX/gVJWkIDRIIsgn1CbYlkAgAQIoLRicEgUwpce/a5KkAoUCApKoQIDOoTYBcYbwAFSPMFKCqsFYm8kahy/YEkianQWaWSyDX5RWoWOC9VdUVmSWRdkB+5OJWaWjlVjl10pRyXtlMRMo4cFrOL6e1MRewMRZOHXDSCefst89h5xRyxhr3vONW9eCVPqg01SRTlOYpl/PL4w32O+Osw046wWvmK/cbY1zo94+FfRJg2hnEMiJF1nG9yJcoTbTJZlfOXD8AAA==");
 
 export default LeftRight;

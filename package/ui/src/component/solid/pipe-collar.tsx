@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pipe-collar` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pipe-collar?s=solid pipe-collar}
  * @preview ![pipe-collar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pipe-collar.svg)
  */
-const PipeCollar: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M18.7 18.7c25-25 65.5-25 90.5 0L126 35.4C164.1 12.9 208.5 0 256 0s91.9 12.9 130 35.4l16.7-16.7c25-25 65.5-25 90.5 0s25 65.5 0 90.5L476.6 126c22.5 38.1 35.4 82.6 35.4 130s-12.9 91.9-35.4 130l16.7 16.7c25 25 25 65.5 0 90.5s-65.5 25-90.5 0L386 476.6C347.9 499.1 303.5 512 256 512s-91.9-12.9-130-35.4l-16.7 16.7c-25 25-65.5 25-90.5 0s-25-65.5 0-90.5L35.4 386C12.9 347.9 0 303.5 0 256s12.9-91.9 35.4-130L18.7 109.3c-25-25-25-65.5 0-90.5zM64 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM256 416a160 160 0 1 0 0-320 160 160 0 1 0 0 320zM80 448a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM448 80a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16 368a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const PipeCollar = createIcon("pipe-collar", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABlwAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCWAsGAAE2AiQDCAQgBYMtBzIbWgXIjsM4hnxiK0O0uETwvV3897kzuw/QPEkRrAyKyCAE8Ikg3PqpEO/guU2saA0+Kt7OBzpKAEdpAB9L8Prp7+f5t6YP+Iw+SvfW5wkyyjyfwEAjPS0aZDawmU7Apk7XDhbYMRnsEJFaMBSRX+jh8YgbyONNdlKJdDN9j/PLh8avWjlJUisDEA0BMHHRvLk+VqIS8V31GfGd2QiIiaAQyJChrQBjZAJt5QrkckElqlX8BxYEEGUDTl6aoyZO4RYgB0k5zyfXalOrVq06pXr5wjql2svu1Ik43VPFT4vuZMLQmNg72gPFJwsuh0MmdrVP9dLx/fwny5CJQxzrTePThW8kIbfx11u0zeumTbPy9GgYb/qvcazfMuqofWrE1mdytO88cq8zn9Ihq2qiO4jfbjj8zr7feILGdzsRWg1q4OJ0011sADSYmer8l1aOsVZ/KXSpkqe/r9SvX9FxH4reU5g6f2qvXtWe0tsUwH/QgdMztGtXNNRglz8eCAQ/77PvVzUY83/NOgn88vr71x+h6sck3UZNCQRZn2ofyxNIBAAgxUGdEgSS4x7wu9Z1TYBQGwGSstoCZNpoKECutt4ClLQ3VICy2ubJRF5LaGrFDpK69oDMMIdArqknoGSMr9JlTSNLSj6l+E/ClGkWmjqqGNhvQDGqOC3YhDxj6eDoIuz0OOgaeupaG+2y034brLfFfkPuNTd3wA7TGDHVFxUG6meAwijF5fJ++UIb7LXPFrvs7MOMVtyf7OEgb99T/WRQDpKXJCLVeUWYfX9zUPcCAAA=");
 
 export default PipeCollar;

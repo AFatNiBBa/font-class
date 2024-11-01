@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fort` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fort?s=regular fort}
  * @preview ![fort](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/fort.svg)
  */
-const Fort: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 112l0 48c0 8.8 7.2 16 16 16l16 0 80 0c8.8 0 16-7.2 16-16l0-48-40 0-48 0-40 0zm176 48c0 5.5-.7 10.9-2 16l196 0c-1.3-5.1-2-10.5-2-16l0-48 0-8 0-40 0-40c0-13.3 10.7-24 24-24c7.1 0 13.4 3.1 17.8 7.9c3.8 4.3 6.2 9.9 6.2 16.1l0 40 40 0 0-40c0-6.2 2.3-11.8 6.2-16.1C514.6 3.1 520.9 0 528 0s13.4 3.1 17.8 7.9c3.8 4.3 6.2 9.9 6.2 16.1l0 40 40 0 0-40c0-6.2 2.3-11.8 6.2-16.1C602.6 3.1 608.9 0 616 0c13.3 0 24 10.7 24 24l0 40 0 40 0 8 0 48c0 23.7-12.9 44.4-32 55.4l0 8.6 0 224c0 35.3-28.7 64-64 64l-160 0-128 0L96 512c-35.3 0-64-28.7-64-64l0-224 0-8.6C12.9 204.4 0 183.7 0 160l0-48 0-8L0 64 0 24C0 10.7 10.7 0 24 0c7.1 0 13.4 3.1 17.8 7.9C45.7 12.2 48 17.8 48 24l0 40 40 0 0-40c0-6.2 2.3-11.8 6.2-16.1C98.6 3.1 104.9 0 112 0s13.4 3.1 17.8 7.9c3.9 4.3 6.2 9.9 6.2 16.1l0 40 40 0 0-40c0-6.2 2.3-11.8 6.2-16.1C186.6 3.1 192.9 0 200 0c13.3 0 24 10.7 24 24l0 40 0 40 0 8 0 48zM384 464l64 0 0-240-256 0 0 240 64 0 0-80c0-35.3 28.7-64 64-64s64 28.7 64 64l0 80zm112 0l48 0c8.8 0 16-7.2 16-16l0-224-64 0 0 240zM96 464l48 0 0-240-64 0 0 224c0 8.8 7.2 16 16 16zM560 176l16 0c8.8 0 16-7.2 16-16l0-48-40 0-48 0-40 0 0 48c0 8.8 7.2 16 16 16l80 0z" />
-    </Icon>
-);
+const Fort = createIcon("fort", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABpwAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDVwsGAAE2AiQDCAQgBYMtBysb0gXIhof/z+v7fW5StaqSNtJ+z2nqk56BHEIje571p+bUqZyLbQrgcyIepLEpu91UWudjLOp5ruelUnH75mm1WsEqilWno0/7jewQkVk2DTJ67BV6+HuAPP6OG7RId6YPcH350vjaVFeRtDIAMQYAm/fdc2evNNFEvP//c8T7dkRAbAaVQIYMMwRYJxOYIVchlwua+P9//Q+sCCDagCTvz9HBR/gSkIOknecjL5pcjhhdtkbm+5St4kDh1ollefvkiGLvyyaUcVsg++5FV0+8lSibz+WTby8t8ehUUfff0yPEHT1PzC9GPNb31LTANJ+aFRDavyx6Z0SMV97d//SiR3ufnKosi7UiYQSFivitE48d6YW7eTn3qTFPfTvng2M+MLxrXdejmjG7NaNqPfsOdya/YXKn1tGjx8Tdy2P36faoT3efY0uxdp8ouztqEz7tahRjxz7wQPXAtphFo+vTCQHB+4c3ofAH/GCT3YI4De52Wg1mM6qxyQ831DwxGj748ewxEBY296vPr9gNCATP/3HChYeOXvdrp0zgq5e//81+9f+vpMvSU+hIIMgG/h9wULoMlB5AKsU55pIlBpK3vKBPHeE2AUKBAElbIUBmujEC5Ar9ArTMslyAtsKeMpF3hQkObiAZ4XSQWeFikJvgGdCyztvJtgmR5bSYkeIvZdo2Ht56XrV4qK7WVLcVh5SmPJ1cWz02e86xjl7Z6xinOsVZjnaU453lqDPsnDnbybZh5NZ+qLLYkFpljWq6fq/t44JnONOEa2l+FmtV8bEe5/D+veIkYF0iJ0lEyr8KAAAA");
 
 export default Fort;

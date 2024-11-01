@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shop-lock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shop-lock?s=thin shop-lock}
  * @preview ![shop-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/shop-lock.svg)
  */
-const ShopLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 185.8c0-6.4 1.6-12.7 4.7-18.3L82.4 25C90.8 9.6 106.9 0 124.5 0l391 0c17.6 0 33.7 9.6 42.1 25l77.7 142.4c3.1 5.6 4.7 11.9 4.7 18.3c0 12.4-5.9 23.3-14.9 30.3c-2.7-4.7-5.7-9.1-9-13.3c4.9-4.1 7.9-10.2 7.9-17c0-3.7-.9-7.4-2.7-10.7L543.6 32.7C538 22.4 527.2 16 515.5 16l-391 0c-11.7 0-22.5 6.4-28.1 16.7L18.7 175.1c-1.8 3.3-2.7 6.9-2.7 10.7C16 198 26 208 38.2 208L72 208l364.1 0c-3.5 5-6.6 10.4-9.3 16L80 224l0 240c0 17.7 14.3 32 32 32l224 0c17.7 0 32-14.3 32-32l0-208c0-4.4 3.6-8 8-8s8 3.6 8 8l0 208c0 26.5-21.5 48-48 48l-224 0c-26.5 0-48-21.5-48-48l0-240-25.8 0C17.1 224 0 206.9 0 185.8zM136 248c4.4 0 8 3.6 8 8l0 104c0 4.4 3.6 8 8 8l144 0c4.4 0 8-3.6 8-8l0-104c0-4.4 3.6-8 8-8s8 3.6 8 8l0 104c0 13.3-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24l0-104c0-4.4 3.6-8 8-8zm392-40c-26.5 0-48 21.5-48 48l0 64 96 0 0-64c0-26.5-21.5-48-48-48zm-64 48c0-35.3 28.7-64 64-64s64 28.7 64 64l0 64 16 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-160 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l16 0 0-64zm-16 80c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16l160 0c8.8 0 16-7.2 16-16l0-128c0-8.8-7.2-16-16-16l-16 0-16 0-96 0-16 0-16 0z" />
-    </Icon>
-);
+const ShopLock = createIcon("shop-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABqwAAAKrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDOwsGAAE2AiQDCAQgBYMtBzAbuwXIjtMV90DSMLEHBeXU2RM0kexELqHKjD9k+gG/gdE89O6+BUFRbje8bkFLkliVRhaziWueP33TA5Y9waNErgI3kEgcZZ5PYGIduAaKwtlEcYvbbo6IhzgIhQWw9YdeHDAryzVgfvWhekMGU8BgWQAAKAAAAKpfLRtz4aEeStfiR0HXaAgEoBoAhARYgAVkJgAqsRCQmU0IbGwEDxWPi//AEAQAcokhw4vbQArgPHAZALABMDi23TxLLF/gO1G7je941sTWVqt7VFvX1lpqReplaZdrYrbRsj2iLdFKS6zM7UeXRERoQl3q+5rdlkta3pamQStiSS5P23JZRsnTrFym1nN8ZPBXtR2iMG6DI/bcEtKSBfmSVuWyPI1WH9LuvjX/zgzI1+y6FDQhlng3tZcmtuW+L7VaEjy4o2Xp5dgV7HqX/Vqfa7he3UbzvDgwnQ0vGs1VbzK3y9Qe47m5evb1wQIYPv1zjamK5xhUt2xHPpI04056WDBu4Xbr5k5kXb9b7CHF/uvWRzIKvl3B9Mre0G/DvUAlUnuacwA1r/bp/ZgdpL8a3VS72CfuxSD2bojFvGoEN5smFIUbupiAanPTh9zzcAPVJQIAECCIfEvu1DW50rcE3wDw+NSH31Rbxy+UCWUXSMAAILAKxQvRqUwACLYAwG80hhwbXyTAcByH+FojLEMACA8QAAYXDwFgkUlAANh4FCQAHLIqTQC4eLRkITsRkVrnjjREGE5alDGWtEntMOlQyUWfS+rBgmIZBuWfyAx1hkDtVmHxIsXCCuFqQqMApmgbK4aHHfnGyIL8uCt9DDXEKL310t+oATFC4+Bog9XZwmv7oVBxRRQTqiC8nH5qaEN9I4zUf1m73kxF4fPefMZsl8+P3YaYs4Q4gwGZxNfGWPgDAwAAAA==");
 
 export default ShopLock;

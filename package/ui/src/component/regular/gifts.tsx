@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gifts` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gifts?s=regular gifts}
  * @preview ![gifts](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/gifts.svg)
  */
-const Gifts: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M200.6 32C205 19.5 198.5 5.8 186 1.4S159.8 3.5 155.4 16L144.7 46.2l-9.9-29.8C130.6 3.8 117-3 104.4 1.2S85 19 89.2 31.6l8.3 25-27.4-20c-10.7-7.8-25.7-5.4-33.5 5.3s-5.4 25.7 5.3 33.5L70.2 96 64 96C28.7 96 0 124.7 0 160L0 448c0 35.3 28.7 64 64 64l136.6 0c-5.4-9.4-8.6-20.3-8.6-32l0-16L64 464c-8.8 0-16-7.2-16-16l0-288c0-8.8 7.2-16 16-16l80 0c0 0 0 0 .1 0l80 0 32.4 0c5.3-8.2 11.7-15.7 19-22.1C263.8 106.2 245.1 96 224 96l-6.2 0 28.3-20.6c10.7-7.8 13.1-22.8 5.3-33.5s-22.8-13.1-33.5-5.3L192.5 55.1 200.6 32zM363.5 185.5L393.1 224 344 224c-13.3 0-24-10.7-24-24c0-13.1 10.8-24 24.2-24c7.6 0 14.7 3.5 19.3 9.5zM272 200c0 8.4 1.4 16.5 4.1 24l-4.1 0c-26.5 0-48 21.5-48 48l0 192c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-192c0-26.5-21.5-48-48-48l-4.1 0c2.7-7.5 4.1-15.6 4.1-24c0-39.9-32.5-72-72.2-72c-22.4 0-43.6 10.4-57.3 28.2L432 195.8l-30.5-39.6c-13.7-17.8-35-28.2-57.3-28.2c-39.7 0-72.2 32.1-72.2 72zm0 72l72 0 56 0 8 0 0 72-136 0 0-72zm0 120l136 0 0 72-136 0 0-72zm320 0l0 72-136 0 0-72 136 0zM456 344l0-72 8 0 56 0 72 0 0 72-136 0zm88-144c0 13.3-10.7 24-24 24l-49.1 0 29.6-38.5c4.6-5.9 11.7-9.5 19.3-9.5c13.4 0 24.2 10.9 24.2 24z" />
-    </Icon>
-);
+const Gifts = createIcon("gifts", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABqAAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDMgsGAAE2AiQDCAQgBYMtBywbrgXIHgfOeS0uISpUerhitKlvEVS6qqyWZmJPOgbdWQCID4gmoEVsvvfsvg9swDXvc13aARKpUUAbaFtwBTZPINIGOBqOx8Pn7Q12N/kFGlggYWVBl1E2nFjiCXUeBNbE5c6fnp4Wbv4Xf5Q1aOp/pcvHmAKdJ5qNbT0VSBZmW9CzzYaDHGMw7hMlw6QkJHp8hB6vtpDH33E3aqRHyBu4a9xp/ErnKiS1DEA0BwCTVhyb97/4KeKr/98kvpJBQEwCVAIZMnQWYKxMoLNchVwu+Cn9/z//B1YEEHWILoEcBd4DHwLIQdKQ5zOFIw/Rl2WtSb5ckIs1C/OL2vbRkXjU+LyuQ/QmXtQ+bOoVRTxvfVmb4hHbK6YyHiQIk/ugOouHNGVc6raglKxXw0X0IV7Sh7J6Rqecy92vaDn6xyy3qZZ2VA1T3q+VrXrA1CRe0jxkqPij6gfNhbBl2181v2HtG/0Jkl6oVBalKCL2RBOBhZJcTojSXmnF1FjEAOIhwVrX41Xpq9/uX2//2umaR0UHK0/gSnZkrIfX0ed5LY6oe1rWoqhQrOd7uu8OeXMX8VNXoelPC8HC7vW9Vd0baPLaq88lHH929gl+P8iiNqpFwrMSMZo28P0mex/1zXcDJ87lcqOj6ZDIq1r98VarXlOGiGcSpyXdxMyTTR7WxKOJxekOELDUCxfuUi3y4VvVxrsKIBC8SD+PbuinX0OZwC/3/xs++f/300XyABokEGR9/32tTRVgdgCpFMfRw3mgQPIaGuBWG3sQAUKBAEldIUCmk+YC5Ap9BKjpapgAdYUlMpE3ElpbN5mksUNMZrhzTK6115masT5L1rVOWQYr+af8P2auGljmDb7+A6vR1WWVqEkp9ekx1W3Herx29aKFtjtgv6O22WqXowo+bF7mmH2me9A0T1QZpL+BKqNV4cbWXK5Shx2x61yNz2KM6vmgp+P+4F7kJ+AdrCBJRKp9+w==");
 
 export default Gifts;

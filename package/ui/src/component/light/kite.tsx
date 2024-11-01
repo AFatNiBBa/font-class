@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `kite` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/kite?s=light kite}
  * @preview ![kite](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/kite.svg)
  */
-const Kite: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M338.2 50.8L273 344.4 457.4 160 341.1 43.7c-1.3 2.2-2.3 4.5-2.8 7.1zM258.9 407.9l-5.4 1.2-88.2 88.2c-9.4 9.4-22.1 14.6-35.3 14.6C102.4 512 80 489.6 80 462.1l0-145.8L24.2 349.7c-4.9 3-11.1 3-16.1 .2S0 341.8 0 336l0-96c0-5.8 3.1-11.1 8.1-13.9s11.2-2.8 16.1 .2L80 259.7 80 208c0-26.5-21.5-48-48-48l-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0c44.2 0 80 35.8 80 80l0 51.7 55.8-33.5c4.9-3 11.1-3 16.1-.2s8.1 8.2 8.1 13.9l0 96c0 5.8-3.1 11.1-8.1 13.9s-11.2 2.8-16.1-.2L112 316.3l0 145.8c0 9.9 8 17.9 17.9 17.9c4.8 0 9.3-1.9 12.7-5.3l88.2-88.2 1.2-5.4L307 43.9C312.7 18.2 335.4 0 361.7 0L584 0c30.9 0 56 25.1 56 56l0 222.3c0 26.2-18.2 49-43.9 54.7L258.9 407.9zM480 182.6L295.6 367l293.6-65.2c2.6-.6 4.9-1.5 7.1-2.8L480 182.6zM608 56c0-.4 0-.9 0-1.3L502.6 160 608 265.4 608 56zM584 32L374.6 32 480 137.4 585.3 32c-.4 0-.9 0-1.3 0zM32 268.3l0 39.5L64.9 288 32 268.3zm128 39.5l0-39.5L127.1 288 160 307.7z" />
-    </Icon>
-);
+const Kite = createIcon("kite", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABlwAAAKwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDCAsGAAE2AiQDCAQgBYMtBysbgwXInoNx43xolwDZemuTj2vy8ZdexcM/dv/+PjMTwBOZ8wLw3rwucWW0btllpRP6uP2uCVF/r3svrdbx76HmsXBpjA04gNXDnx/i4Hayg1FoiSUV8PvENfXj/Kk0+d85isIi+X8NlHk+gZ2nbhhFCTwbziY2IZ21OY8XBQfRRVB7gg6zhiV+WNtDFn+nSxWS6+otOJvfNH4h5TgSWQog6gPA+GLhbM9/8V3irV6It8wQEBNALpAiRWsBRkkFWsvkyGSC7/K/Dv+BJYCoqtw+ARlq4BY8BchAolqW1Vxeo3btatVqVamTLUln1dxcsbyiiCVxKVrRONF4UVxy34lfaRkxKy4JEOSRxNUms7Ub6oZdasaV+NVmteJx634bMTeuxi4jDkcvNZ0T4nLsZLMimsnyuLke16oVtwncIu60plhUzfVxz11SHHmOkEWxOO7hrlWz6cWRf0J2CCNjxDZimAwvP6j/4LfSc3PMTxnVuur6lENJw3TOhnH+p1UUvsaML+/sAjulUrnGGjXKpdJeg6TvXv2Cvvvrfg9Sf+OSGESfcUHhL8eqKFQxY56Jv/wbf9j+1/GV6LNn03kzPv+eYnN1nH7tS6VDBwVs2RLtT5eHNAoJXX9pIpNKD3XN1wOB4N+RWdcbZTo9Cfj5aLrL+Z86rB6A6hIQpL1014rkMBC4AqRJVOpAPiiQuMRBXrW2KwSEmgiQqKqmAKlW6guQqamnAFW0NViAqmpaKBVZDaGxlZNN1LaXTQ1xgM009pCtYpQXSVWNIzVWydSkX8X0KRqePC0f9emXj8gvy7psfwIdH5kvW83K2NYda22y2y5lG22wVVmh+8zO7rfTFIZM9kW5/vroJzdCvl37rC8Rcp+Srcau/UlGyt8PuqnkvbtjNglgwGcGktJIsu1byxsBAAA=");
 
 export default Kite;

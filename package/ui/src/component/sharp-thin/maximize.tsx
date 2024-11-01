@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `maximize` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/maximize?s=sharp-thin maximize}
  * @preview ![maximize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/maximize.svg)
  */
-const Maximize: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M193.4 56L56 193.4l-8-8L48 48l137.4 0 8 8zM192 32L48 32 32 32l0 16 0 144 12.7 12.7L56 216l11.3-11.3 63-63L244.7 256 130.3 370.3l-63-63L56 296 44.7 307.3 32 320l0 144 0 16 16 0 144 0 12.7-12.7L216 456l-11.3-11.3-63-63L256 267.3 370.3 381.7l-63 63L296 456l11.3 11.3L320 480l144 0 16 0 0-16 0-144-12.7-12.7L456 296l-11.3 11.3-63 63L267.3 256 381.7 141.7l63 63L456 216l11.3-11.3L480 192l0-144 0-16-16 0L320 32 307.3 44.7 296 56l11.3 11.3 63 63L256 244.7 141.7 130.3l63-63L216 56 204.7 44.7 192 32zm-6.6 432L48 464l0-137.4 8-8L193.4 456l-8 8zm141.3 0l-8-8L456 318.6l8 8L464 464l-137.4 0zm0-416L464 48l0 137.4-8 8L318.6 56l8-8z" />
-    </Icon>
-);
+const Maximize = createIcon("maximize", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABigAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyDAAsGAAE2AiQDCAQgBYMtBy8bfwXIjsO44TuyxVKeRQTR3H9VT/IpWYbsKmJ2AOyAUPOBO3ZsBJI6/ZK59suoS/nnx3sKyHnEIxLB++87T6kFSx/vbTzjwYAGM6HmmQjEAhbTCFiO5r0wiKFdqOMD8vjYJnWkhwmuex8af+nsDEmWAYhWAJi6evlCX3wf30d8W5v41nwExFRQCWTI0E2ACTKBbnIVcrng+6jVxH9gRQBRL3hZAjka8BTvAXKQ1OV5ub0MCnXN81XJdcX6FatXdIiIMtp3KcpCiPbqdMdYHitjRSyLDtEOMbxl2THQoY/V41jiqqsoFiJCXUP7WDWOpVRdpQbBotgZjPZ9rBh3lu9t6bCmKIuo7JV+qezQvsNqXRRFVg6BofRCx94vW738p5ctfHH+QnD7URdddLThxo0XrdzwnZde+teB/dL5t9XxnRtaaXVjPGD/AfsPbL7VnmT9u4uBr6MuXHD02lE1P3TRxRdjzwOB4NmdX+fXcsL/jWUCP37031/4Z1TVvo/v00s0SiDIBtQG2JCoVPG9AACkOKJ3ohJI7qpD37WZewKEAgGSeoUAma5aCZAr9BegTg8jBahXWC4TeZPQzsaaJM3sJ5lRTpNcOx+SOhN8Wa7XLjJA1cFMv0wMs9rszGPV0EFDqnHVZE9pwJ5qd8dXq4N9jsiZvvisLfba45DNNtnuUMt1wMLaYbvNmuNm+qLKUIMMURmn2j28j1U0ecBBqY6b+/cZrzo/28eR+eV9cSQJ/A7TliQiNf5TL7X9xGYA");
 
 export default Maximize;

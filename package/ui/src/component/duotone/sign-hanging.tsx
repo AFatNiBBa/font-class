@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sign-hanging` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sign-hanging?s=duotone sign-hanging}
  * @preview ![sign-hanging](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sign-hanging.svg)
  */
-const SignHanging: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 96c0 17.7 14.3 32 32 32l32 0 0 352c0 17.7 14.3 32 32 32s32-14.3 32-32l0-352 352 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L128 64l0-32c0-17.7-14.3-32-32-32S64 14.3 64 32l0 32L32 64C14.3 64 0 78.3 0 96z" />
-        <path d="M192 160c-17.7 0-32 14.3-32 32l0 160c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-160c0-17.7-14.3-32-32-32l-256 0z" />
-    </Icon>
-);
+const SignHanging = createIcon("sign-hanging", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABdgAAAHtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBYQsIAAE2AiQDCgQgBYMtB1QbBwXIHoVxw13iIiKmmF/qHWkRD19r5fvdPXtAYO8UqrCOQxCSNQC70ysjWZhREWorNhWVih6ffm7f2jQtv1syA89bW0KSmDQascH1NVIJ9v3iVM/EUAAfwLOX5QKSzaHsjnlegZ5Xp02vQAVrWgPr7myt5lCSZ0mCtZbjYsfnBSV+5bsq0qdU40X6H8D4Y8aHpCcDiGEEwMETnYKUneikqJsfUTuMCIhDCJZRZGTMo2APLjBPWEYURdBJTUMnmmYZCSBa0mdm0ELBMcRpBBSQhChldlOqBsrxvqr3zOPxiLfEzYl3fQPxZOpDRNyafN/bn29ORLzr64u05ijIIfIkarzH40avN/im1fZw++9Kvar9XBp8yMPBXcwQQm7GxXm4bBI4mL2IJPDl94FA8Plmxtqe/91SAr+//I9/SJoySW10SyDI6826QQKJAACkuMFM7CKQbWJy1O+9OQu9ICQtvZDN0aHotQaVRVVOefwILkqPMG4IkPS7DNmONxTjvlDZ4x+3jEf2LMEvhI9dat6j2T7EQYQWtrUqOgsXt9tQu9YrTNlwlaycnTwsLWw9OvqmyJ6OconKfBHEAhFogbl7VPsY39xt17J9lzacjywvebENh2GAjTupZCJFHn+TJX9z6bTeFtN30lljIj9IAA==");
 
 export default SignHanging;

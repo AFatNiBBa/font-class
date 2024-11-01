@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-astronaut` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-astronaut?s=thin user-astronaut}
  * @preview ![user-astronaut](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-astronaut.svg)
  */
-const UserAstronaut: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 16a160 160 0 1 1 0 320 160 160 0 1 1 0-320zm0 336A176 176 0 1 0 224 0a176 176 0 1 0 0 352zM84.7 330.5C33.9 361.9 0 418.1 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7c0-64.2-33.9-120.4-84.7-151.8c-4.2 3.8-8.6 7.4-13.1 10.8c48.9 28 81.8 80.6 81.8 140.9c0 7.6-6.1 13.7-13.7 13.7L352 496s0 0 0 0l0-48c0-22.1-17.9-40-40-40l-176 0c-22.1 0-40 17.9-40 40l0 48s0 0 0 0l-66.3 0c-7.6 0-13.7-6.1-13.7-13.7c0-60.3 32.9-113 81.8-140.9c-4.5-3.4-8.9-7.1-13.1-10.8zM336 496s0 0 0 0l-56 0s0 0 0 0l0-32c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 32s0 0 0 0l-80 0s0 0 0 0l0-32c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 32s0 0 0 0l-56 0s0 0 0 0l0-48c0-13.3 10.7-24 24-24l176 0c13.3 0 24 10.7 24 24l0 48zM112 176c0-26.5 21.5-48 48-48l128 0c26.5 0 48 21.5 48 48c0 53-43 96-96 96l-32 0c-53 0-96-43-96-96zm-16 0c0 61.9 50.1 112 112 112l32 0c61.9 0 112-50.1 112-112c0-35.3-28.7-64-64-64l-128 0c-35.3 0-64 28.7-64 64zm80-32c-4.4 0-8 3.6-8 8l0 16-16 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l16 0 0 16c0 4.4 3.6 8 8 8s8-3.6 8-8l0-16 16 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-16 0 0-16c0-4.4-3.6-8-8-8zM16 120l0 112c0 4.4 3.6 8 8 8s8-3.6 8-8l0-112c0-4.4-3.6-8-8-8s-8 3.6-8 8zm408-8c-4.4 0-8 3.6-8 8l0 112c0 4.4 3.6 8 8 8s8-3.6 8-8l0-112c0-4.4-3.6-8-8-8z" />
-    </Icon>
-);
+const UserAstronaut = createIcon("user-astronaut", false, "data:font/woff2;base64,d09GMgABAAAAAAOcAAoAAAAAB4wAAANQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUiFAwsGAAE2AiQDCAQgBYMtBzUbiAbIvgzYxnSj7k8pKxKMYKASabw0uohZ3vvZxr6NMETwPK9Xf+5LRi8zs1RWzprdfojuXJTfvWrz8HZ7/+B2q7YWtkQCThMPOOQowMhKJP489N7+bXuDKNDSTiiwwBKMNODAAh5gYMG/7e71bXe7YssybjrwQlqo5UMDiBtcmARRmmhGk14r7/lj1twhwPr/GoG01t//f+/8f+AA37ACzEO5jT3oD+9Ecx4POx7g2DY2BTrBQktAM2rd7NOnJ0NCKD4CMw4zBhfUrQq2e5T8ZmtExagECJnxodDSv3cXLz7zRbzLIMMOCEB2AGwCDGCARAKgnkFAIpMNTCbBZ8nJf+AQAEgHj6oAmMCCLJANAJgAFF8zE5am2piY1KBbroDZz3LpwZsnPCy8yoq8Uv1AZ+2jomsSxdfrHlttc53wOHVIlKHOobMN2h2s6JeoeWitdJNwJXFF1F7LZXPMfrntgT2RD1sMSYTWrJQQZkTv0yabIvdAJctkX/Tx4ut1MPdts0kvKMEIljLtMYezLc7GMehwMmb/NVF7447kXCjX3Mu7lKxPrnCxwuJ+/uWUQ3IiS3OmxRXbfwHHJITaG2WBUPtjBEvC+6L1Bpl+RINqM9NoU5ffLe1S6KVvVMN7XTs6+nTk5SWO9vxCnrauxzof8xYsLCpaeM6b7yAPv/ymyPEH9A8JrF/QGgLXevX+48b3GdPRp3fA/2ID4Ah7L/sGYc8jOwC08sI/9OnTMabPLwFQDcDmPke4bQA9KpruKx1Rx42eUc4nerx3Ns632qVLX1aQ7TjGz4+f+3ld2HRiBU4QWT1TRtRQoVzuETqgaDFwPDMCVZ15Rotvv0eoyP0AIEBQsh7Yfup/egXA10fTb/dfnnIBXgqAwMhMQ+QFAOkAAK9iHmkdZikMFccn4P32EYhCQ0OKm0aGBKHIpOUjl2QVqoGLe2OQ5kNEGgqk+M1EhkpLkSnSbeRS7yXnFhk6UzT7ueZCNWNnke0YZZcUOXat3ZontDu/yu6vswc7c+bpdbnYyDimM405jGUME5lTkMyiS5zLVDq75Du+aytRxGGrZU8uXTX2k4GEZzOxWTd9kDr28tEc87pb58KjBApL5SgKUoKHV13h74RDI+fOAQAA");
 
 export default UserAstronaut;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `locust` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/locust?s=light locust}
  * @preview ![locust](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/locust.svg)
  */
-const Locust: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M304 32c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0c106.5 0 194.3 80 206.5 183.2C525.7 232.7 503.9 224 480 224l-50.1 0L382 136.3c-2.6-4.8-7.5-7.9-13-8.3s-10.7 2.1-14 6.5l-45.3 61.4-40.5-60.8c-2.9-4.3-7.7-7-12.9-7.1s-10.1 2.2-13.2 6.4L176 224l-73.9 0C63.4 224 32 255.4 32 294.1c0 27.5 16 52.4 41 63.8l1.9 .9L3.2 454.4c-5.3 7.1-3.9 17.1 3.2 22.4s17.1 3.9 22.4-3.2l75.9-101.2 51 23.3c4.7 2.2 9.5 4.2 14.4 6l-38.9 52.8c-5.2 7.1-3.7 17.1 3.4 22.4s17.1 3.7 22.4-3.4l45.9-62.3c15.1 3.2 30.5 4.8 46 4.8l32.2 0-22.9 40.1c-4.4 7.7-1.7 17.4 6 21.8s17.4 1.7 21.8-6l32-55.9 136.3 0 27.6 55.2c4 7.9 13.6 11.1 21.5 7.2s11.1-13.6 7.2-21.5l-20.7-41.3c48.5-4.8 86.3-45.8 86.3-95.5l0-.3 0-47.7C576 139.5 468.5 32 336 32l-32 0zM480 256c35.3 0 63.9 28.5 64 63.7l0 .3 0 .1c-.1 35.3-28.7 63.9-64 63.9l-15.7 0c-.1 0-.3 0-.4 0c-.1 0-.2 0-.3 0l-214.9 0c-27.5 0-54.8-5.9-79.8-17.4l-44.6-20.4L192 256l127.8 0 .5 0L480 256zm-328 0L94.5 332.6l-8.3-3.8C72.7 322.6 64 309.1 64 294.1c0-21.1 17.1-38.1 38.1-38.1l49.9 0zm137.2-32L216 224l39.2-52.3 34.4 51.6-.5 .7zm104.2 0l-64.5 0L366 173.7 393.4 224zM472 344a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Locust = createIcon("locust", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABpAAAALtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDMwsGAAE2AiQDCAQgBYMtBy0bsAXInoNx8/F4HHUaHKFdDHdt5l+9GhSk+/3sRXhccAlf3L0Ul6Knhgf6cdT7CyBZbasdoZLIUNZxfVBIN5c8XZ3p5nR4CySRNIrCTAKOKTnghSKbG1xAgccUQUTZDItOz/81n1/a0QFGkR1aFJYeSNSiKJP3JrDnScnpH3CCA7WxzrYZh0NEFG4VIkIS0bAEDtsvfwdu+CHHgzkx78Hmdlo/ybcCw42EKaUBYGjau3tH7l44ycuiRe/pAwRQKwCh8hwEJIcANOAQyOEKgcsl/BVS+g8shACgGOhJA8AFEXALngH2k8Dwo9xhpZKjo6IDL9btFXh29I6UndmBPnX9MnFXy6qXdqWty2oSmmmXPUzpEaxOlDmTd7AlVT20I3Vnbu/QVjtTm4iweTgZJKpCproCVRXqd+dU0u3y5wtENz5Xe9H7JxN6niwrnc005XvKnCm1WlqAJGhdvXrqrUBSENOjd4+0cCprae7uxMTeNrDN1VQpwfihVXteZ+8rP5G3t6zYubRzv/V+6b2Gqx/Uv6GuWrYsYXBnk1B5Sq31+M6XjnVGIi2b9aUdb605Nnt4mtaDWHD2cfua0oYNG86Es7dOv2IhvZDRDLjzKf/te2P50buBblrMnedBFTQr/Gc3I3z6fdIhMQHApiceSQMA4Auqh99q68sSONKd/Ti6RW9Uwrm7tGprCtoyezjFMKZJY1OODk7X1OyuWQwAPdX6bO7o6fgGhXGJBoD/7+/1N/nciDLnQIQBIDi1RW6AaeLgsAKh0IRZFMPWAjAueQ4BMXYJsVgIZfgs5ciWQLms8pQnT807fFZ3HIqKRlIMRCgjxlTKUctCypXiOuVp4EngSwlOBKvxp35AZrXSUMtNYVOlKmG9cNk0taCUy3L9cNuunJWGyuIqo5jMJGYwkhGMZYYip9ExnslEWnlES75IqKpKqgjVEx53tud7MZJpTGcsk5lU16kvvO+XMcufXBaewZLVnDAMFOFPmPyTXAA=");
 
 export default Locust;

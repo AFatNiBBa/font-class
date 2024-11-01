@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `baseball` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/baseball?s=sharp-thin baseball}
  * @preview ![baseball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/baseball.svg)
  */
-const Baseball: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M266.5 495.8c-1.7-10.3-2.5-21-2.5-31.8c0-5.6 .2-11.2 .7-16.7l.7-8 15.9 1.3-.7 8c-.4 5.1-.6 10.2-.6 15.3c0 10.4 .9 20.6 2.5 30.6c111.4-12.2 199.8-100.7 212-212c-9.9-1.7-20.1-2.5-30.6-2.5c-5.2 0-10.3 .2-15.3 .6l-8 .7-1.3-15.9 8-.7c5.5-.5 11.1-.7 16.7-.7c10.8 0 21.4 .9 31.8 2.5c.2-3.5 .2-7 .2-10.5C496 123.5 388.5 16 256 16c-3.5 0-7 .1-10.5 .2c1.7 10.3 2.5 21 2.5 31.8c0 5.6-.2 11.2-.7 16.7l-.7 8-15.9-1.3 .7-8c.4-5.1 .6-10.2 .6-15.3c0-10.4-.9-20.6-2.5-30.6c-111.4 12.2-199.8 100.7-212 212c9.9 1.7 20.1 2.5 30.6 2.5c5.2 0 10.3-.2 15.3-.6l8-.7 1.3 15.9-8 .7c-5.5 .5-11 .7-16.7 .7c-10.8 0-21.4-.9-31.8-2.5c-.2 3.5-.2 7-.2 10.5c0 132.5 107.5 240 240 240c3.5 0 7-.1 10.5-.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm124.7-40.7c40-18.4 72.3-50.7 90.7-90.7l3.3-7.3 14.5 6.7-3.3 7.3c-20 43.5-55 78.6-98.5 98.5l-7.3 3.3-6.7-14.5 7.3-3.3zm262.7 81.4c-40 18.4-72.3 50.7-90.7 90.7l-3.3 7.3-14.5-6.7 3.3-7.3c20-43.5 55-78.6 98.5-98.5l7.3-3.3 6.7 14.5-7.3 3.3z" />
-    </Icon>
-);
+const Baseball = createIcon("baseball", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABmQAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDBQsGAAE2AiQDCAQgBYMtBy8bhAXIBv7516n3fUk+shRwiFVmnAAnu8xjtgJwCNa0K8Hs/7mmXjw/KsxvdGhRWHbvQAq0YuvnE5joMMpGMrAo4gHYGPe2YUNHUD6JECmRaEwbqx2w9YilOGDOmRLgSLtQfSWHA2CwLAAAFAEAAAbNmDKO5w1qkD7F74A+MQYQgAYBECDAAiwgHwHQFwsB+dgEgI2NoEHxOP4HBiAAUAjezQBgAyHgMnAHrOb9LNu25+RFIr6TaE/3HW/Rae3NkjKETrIno35K9YzTXjTdU6Z8nfFjGXtV1/nm6I/To17UO8WedJQp6Yz2ZtZMrJh6yo9l+cqQp5NeNHMPe1Xb6caoD9NifsxfXD9EejWh3I+NKx30YlrNwOdjS7zo+LLBL6fP+NQlSxlKV83UdGUqa9H7juKrfsbq9MbFkeLvjUqWl+B16BBxXZffuITc5PZTw+fOedM+W2QhWvTKPW7kt+Mw+P//BQsGYxnLFEWZSOE0jw5Pq2Q3hiN/Qn1oHcv7ybAw5Nx6MWTIi1s5YYbpPH72jpYlJT2oozlFgwcXLWYdW5xJ/XwAECBI3H6924Lkvv9d3wDw5eHPr/I1Iv7cYIoBFwOAwGobb8tcA4ABAQAAAEbbaWwABBhOY8NWgoMrER5MMITwwCKPCNh4tAGHQrrJQWtKiJEdJkhnXgFDApvAojs7wSadW+DQl3dhiHRZqaommvpTzBqu8WHLgk7tOwa9g21uaNkn1/k+QdhuuZ16rWAly9nAerayjKWsYqsiNzMu2cY6hnvEMK5IQCfa05GA3gTH1daarsLNbGHV2jhfpA/B/aAl2/3RrcAzsGRnUgYDMu7bAgA=");
 
 export default Baseball;

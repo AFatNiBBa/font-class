@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `manhole` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/manhole?s=sharp-solid manhole}
  * @preview ![manhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/manhole.svg)
  */
-const Manhole: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 256A192 192 0 1 0 64 256a192 192 0 1 0 384 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM256 128c16.6 0 30.3-12.6 31.8-28.8C361 113.9 416 178.5 416 256s-55 142.1-128.2 156.8C286.3 396.6 272.6 384 256 384s-30.3 12.6-31.8 28.8C151 398.1 96 333.5 96 256s55-142.1 128.2-156.8c1.6 16.2 15.2 28.8 31.8 28.8zm-80 48l0 32 32 0 0-32-32 0zm0 64l0 32 32 0 0-32-32 0zm32 64l-32 0 0 32 32 0 0-32zm64-128l-32 0 0 32 32 0 0-32zm-32 64l0 32 32 0 0-32-32 0zm32 64l-32 0 0 32 32 0 0-32zm64-128l-32 0 0 32 32 0 0-32zm-32 64l0 32 32 0 0-32-32 0zm32 64l-32 0 0 32 32 0 0-32z" />
-    </Icon>
-);
+const Manhole = createIcon("manhole", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABnwAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CDFgsGAAE2AiQDCAQgBYMtBy4blAXIjpQuJ6Tx8P86y/u+NCR7kbXMHKKKO0Ru56TFKrWDZurU8wwNBfCNgjbWAhkLLJ3jvAIFjsW6vFawFLxX0wpYrW3FGjSIMmB4kPHlkAttw4VyD8jjnewGdaS70re4LQ4q/tLFDSRNGYBoDYDZG9cu92FzNEd8U3uN+MZSBMRsUApk0t1dgGkywQ/Ilcjlguao1cJ/YEkAUQ+vSyBHSzyJVwE5SKp53q1blya8f6WuRb6hUlfsvXZExPNT3i5unPTmsGddM/y5yW9Vbpr6zsgXovrH3IhPVv5QuWn5d7M/Wv/rrA+XfVvcuOL7OR9v2PhEt8+mv9f7wWnvzrt7wKOdP5/xfp9HZn6w8K7+64RKRBRKY3RRKYRTN8reRs0v6/N066f/6f3tgW998ME93PTVV2PHJv+me6hl+z80v4kur3w0d+5Hr3RpMj+0zQe1qx9acvmQKUUxZcjlSx4ywcqRJUqlclZEa97Mq/v5rZ8HAsF1O+6atrPVtP8bKwn8+fZ//+SfkdqHSXoajRIIsmG1YbYlkAgAQIoL+iQIJA+qwlCrbhcgFAiQ1CsEyHTTWoBcYagAdXoaL0C9wlqZyJuE9rY3kFSdBpkJrgS59l4Bdab5Iq3XPjKdpTWO/mNMWMDQ/HPl6BGjyinltlUZNST98dTysTHoglsaLL0OOOmEc/bb57BzhJ+xvDjvuAUnbL4vKo02wiilKcrryaOwgdIzzjq8Vt2fMlX5fjLIhfPmwWInIByjK0lEaji++8SHAw==");
 
 export default Manhole;

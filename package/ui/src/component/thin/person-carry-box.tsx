@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-carry-box` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-carry-box?s=thin person-carry-box}
  * @preview ![person-carry-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-carry-box.svg)
  */
-const PersonCarryBox: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M91.4 226.4c-6.7 2-11.4 8.3-11.4 15.3l0 65.1c0 4.2 1.7 8.3 4.7 11.3l51 51c4.7 4.7 7.8 10.8 8.9 17.4l15.2 90.9c1.5 8.7-4.4 17-13.2 18.4s-17-4.4-18.4-13.2l-14.3-85.9c-.5-3.3-2.1-6.3-4.5-8.7L30.1 308.7c-9-9-14.1-21.2-14.1-33.9l0-88.1C16 163.1 35.1 144 58.6 144c18.7 0 36.2 9.3 46.5 24.9l42.6 64c3 4.5 8 7.1 13.3 7.1l62.9 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-27.7 0-43.7 0c-10.7 0-20.7-5.3-26.6-14.3l-16.6-24.9c-3.9-5.9-11.2-8.5-17.9-6.4zM251.7 272c2.7-4.7 4.3-10.2 4.3-16c0-17.7-14.3-32-32-32l-62.9 0-42.6-64c-13.3-20-35.8-32-59.9-32C26.2 128 0 154.2 0 186.6l0 88.1c0 17 6.7 33.3 18.7 45.3l79.4 79.4 14.3 85.9c2.9 17.4 19.4 29.2 36.8 26.3s29.2-19.4 26.3-36.8l-15.2-90.9c-1.6-9.9-6.3-19-13.4-26.1l-51-51 0-36.2 0-28.8 16 24 .6 .9c8.9 13.4 23.9 21.4 39.9 21.4l71.4 0 128 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32L224 96c-17.7 0-32 14.3-32 32l0 64 16 0 0-64c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-64 0-36.3 0zM80 16a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm48 32A48 48 0 1 0 32 48a48 48 0 1 0 96 0zM0 346.5L0 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-69.5-16-16L48 480c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-117.5-16-16z" />
-    </Icon>
-);
+const PersonCarryBox = createIcon("person-carry-box", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABtAAAALSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDUAsGAAE2AiQDCAQgBYMtBzcb1wURVZphyX4kxsbSnip73pFCvaHpN9eET4Lno017H4hBQo2k7qeum7CqclM5dobZqxsBAAG3REoX+bEimfb1Q9pj+nunv7K1AP+wCEIZc/Ia4zyBALvseWP5smmBJYqNbrs5YhKSrTPWQJPpDMADyhblIbDKfam8IZH5oKCqAABINAAAULdz+5bcdsQReeheAHlIc0AApB4AGQigAiqQggBQAxUBUtDIADQ0BBxxXfYfCAIA4sUnKtxdA3zAXeAVAKABoODRtLIOcaFEwxPSOhkevfN6C7HDbWVDuKNssNZHOslGDBCROfGbjAOFdWWDYUxg11u6vjRSZLc6bhL6yMYGSOrJ0Ur7czYnIHZhR1nrD2+I3xSI1jPaicQkSli25ArFsiGFMOGGJUut9SCGiBjhrgaE+zstC0sVg22t15dq0bmxVbfmHczZn7B21YH8Q8ldEOzwhl0gMUZkhWFjpHjUrKPRR99lPhz0kG7l64y6eBtkMSjR7Ib5wqkZ6ohW1qoV5VYXYq89jL3tO0Ujf20c03RSimN2+BmyZ3dppYC5eLFZm130amNHffR3ISkLClaeX7rx4O3nQ4cFo7qRdjSLHFL5wQu7iR1avDhkkwitvw7RGIzp2DgmP8ut88Q1F8NiE9egVFcfNX36KB3aZxctcNLBSzfEpSOm45gTcQFAAIGdW16e6h1V45vfUAB4ffXD7+xg95bYylHAjwKAgFrilvQQGwBzCwAEFJlE1oQIwwq38TTxPzXIRgQAQQcEAAUvOgKASjLRCAAaOsUIAB7SqIgA4EWnPSqiBRAselawQpCxsEolZsIaFudgDzW4E/BiiXpBiy9H8e9kCh2aBL+IMiuwjNYUkmtUqGcdiw365z0GAkV/7G/XTm+Dc9fhbwtTNP9DyqzAsrl5V9Fg+/1w0bB0+zyO4z36nx5uoFnh86xKFApIJfr6V6Vvteg7Ig==");
 
 export default PersonCarryBox;

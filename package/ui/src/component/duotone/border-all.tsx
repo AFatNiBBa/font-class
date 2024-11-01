@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-all` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-all?s=duotone border-all}
  * @preview ![border-all](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/border-all.svg)
  */
-const BorderAll: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 224l0 64 128 0 0 128 64 0 0-128 128 0 0-64-128 0 0-128-64 0 0 128L64 224z" />
-        <path d="M384 96l0 320L64 416 64 96l320 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32z" />
-    </Icon>
-);
+const BorderAll = createIcon("border-all", true, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABbAAAAHqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBQgsIAAE2AiQDCgQgBYMtB1Ab5ATIjsO44TuyxVL+4+Fpv9ifO/N2EbGHmSVT7zRNZhESaRsaulX8S94iZJ46VTPOQwF8EEk2BieOCT7neQRywbEs9XoFehWqaQ2su7MpdqjlcUgjRnI8mn6HJxTxNFMh3Ulxg/4HML7r5DpJowwgWgJg5qplS9W+xJcUn+qviU+WICBmgVIgI6OrAFNkga4KJQqF4Euq1/kS9XpJAFFFb59BFRXMwWJAAZIkiqJR505NKs2KlU0qjXelnJpGjmZbHw2IeNYxxZ2Bz/s2i6eDX3bJcXfQi35NVwlNQjSJMGhjyHWvFy1f/Ox5Z5c2zQCevZ0+/V4rWjWeoXGrVvdmYKwTTf88MPGyy2aIL4NA8MuZIZtaTPm/YZMEvr35/S/+kNS/RC29QEMJBHlIfYj1UYOoCQBAipN6RQ0zBLLekvCpTd0UIDRGgKSqsQBZFy0FKDQ2WICK7sYKUNXYMlkUjYS2NmSQNHUEZONcAIW2XoGKKd7aVW0jqxKlCNRHLn4eR+eOlSOHjSgnlV1forWD8P3J5bQw4CTmBsJDOx1y0HE7bLfHcYYftdQ74YB5EjbXF5VGGmaE0iTlcnTNr2T2UcfsabPrQyYr96sDnJSrB8I6CTDqEGZmIkVu/cqkbdm/f6hS5tuW7PUD");
 
 export default BorderAll;

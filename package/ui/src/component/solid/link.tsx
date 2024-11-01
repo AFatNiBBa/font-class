@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link?s=solid link}
  * @preview ![link](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/link.svg)
  */
-const Link: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z" />
-    </Icon>
-);
+const Link = createIcon("link", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABjwAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCQQsGAAE2AiQDCAQgBYMtBysbPAXIjpSu1kI8fG/H17mvewD3SIpsrRTZQfxrU0ZCstRGT516nrUogO8RTRDnwnSArHE+53kFcl4fNDZYC1Ir1iqK9dv5LnEWskkSeR0ZJv+G7V8gj7+zw0qRbqRvcC59aPygnsMk5TIAURUAQ6dNmuiDkiiJ+Pr/iK+NR0AMBYVAhgwNBRggE2goVyCXC0ri///9f2BBAFFaJhMvtw8exhlADpKU54MGVShVKZ/qDim/7v2IODDovVGf9akZl2ternUlPFCnTrzQ8knb5+xvMzmeLX+y3fP1b7avE9dqXzVmTby9ZrzY9MHAdyucGjxt7Tsi9rd45Kf9kVuHzZpyvNXTijjQflq8IGhs+1y9G21qxlXrGr/ylWYPB71X/uSAyc2er/r8T02/WfqN4W/c7kff24t7NH+vqmcaNti147WPnqlq/2sfTl5eNF22fr2jRXF05FRQNqxs0PCZZ/btDD907zb1y779vly3rkydbfI7olUnxNvWSTRs8JQ3168DAsG3H65oP6/KgF/LVkjg+7d++aM8Vv3/09r0PMpKIMg6/M/stB/gqicKyLkUWzWjbxJIdkvoXSu6KkAojwBJaeUFyDRQVYBcee0FKKWxngKUVt4kmcjLCTXNaSCpaAPI9LIH5Gp6A5QywOe50mpGpoiqGqn/gVmjemhkUtG1U5eiX7FsqppuyXC5fyGO2mzloba001LrrLXZEoutsLnjN5pY3GKNUYgb6YcKXXXSRaGf4rjzuHmqJTbaZIV11sZV+ivuZ9vYiie3pfUkQLcnrElEyr93");
 
 export default Link;

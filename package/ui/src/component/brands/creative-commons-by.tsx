@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `creative-commons-by` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/creative-commons-by?s=brands creative-commons-by}
  * @preview ![creative-commons-by](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/creative-commons-by.svg)
  */
-const CreativeCommonsBy: typeof Icon = x => (
-    <Icon viewBox="0 0 496 512" {...x}>
-        <path d="M314.9 194.4v101.4h-28.3v120.5h-77.1V295.9h-28.3V194.4c0-4.4 1.6-8.2 4.6-11.3 3.1-3.1 6.9-4.7 11.3-4.7H299c4.1 0 7.8 1.6 11.1 4.7 3.1 3.2 4.8 6.9 4.8 11.3zm-101.5-63.7c0-23.3 11.5-35 34.5-35s34.5 11.7 34.5 35c0 23-11.5 34.5-34.5 34.5s-34.5-11.5-34.5-34.5zM247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3z" />
-    </Icon>
-);
+const CreativeCommonsBy = createIcon("creative-commons-by", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABdAAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBfgsGAAE2AiQDCAQgBYMtBzobCAXIjsO44XsXFyZRdgTP2/V9nds9s4B6Zc1bQR9i5gyOAKWg0gwhbuJc5zsfzZtHMLQoLCqsAqqvPn+BB//2theJApso/t4isw5O+yWZaJIev/V4RgfI44G4Uol0U3oFV5Qfja+1cC5JKQMQ9QEwvmrhbE98EB9EvPL/Q8QrZiIgJoBCIEOG1gKMkgm0liuQywUfxP//u//AggCijG6cQI4ylmMvIAdJnucta7RpVKtUJ6+EpTXXCzVD1IwwH3BWsxtq1YpLmlynclatS5ypeXFUvTs74tX+EfctfmfcE9NeWPTenJcmPFV5f+ADc1+v8s68iDcWvTv/zcXvL3y76r0Fb1U63Fv/3m/bv+IVI/5lU2tHzHZEG5uUJw2qhtlJ5Y1jOnbskGgLH5tijyf+jd9NNr1r01Onxptoz+lm1Uw24fPff6reS9Mxjpkfiy66cXGa5+E70oqoXHhhJYBAcHv3thNW1xv1a7US+Ojx7/+u1/v/hfgh3YvqEgiyXv/3siJ+ACQHEKQ4pINQs0CyUA54r7VdL0CoiQBJWU0BMq3UFyBXU08BStoaLEBZTQtlIq8hNLayE0lte4nMECeJXGMPECWjPB+UNY5Mz1gtYV95SVM4MHlR0b9Pv2JEMS01TnXoODuyWJa7HfI93WGvTXbb5YCNNtjqAIP2mR0ftNMUCZysRoX++uinMEKx3XzcXrHRPvtttduuPM9IxXmrm0Py8O6gJUQ5QC5JRGp0Ue3e63fv/LZf773uKAAA");
 
 export default CreativeCommonsBy;

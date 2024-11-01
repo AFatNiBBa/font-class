@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scale-unbalanced-flip` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scale-unbalanced-flip?s=light scale-unbalanced-flip}
  * @preview ![scale-unbalanced-flip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/scale-unbalanced-flip.svg)
  */
-const ScaleUnbalancedFlip: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M112.2 10.9c-2.8 8.4 1.7 17.4 10.1 20.2L256.5 75.9c4.6 24.4 23.1 43.9 46.9 50.1l0 354-192 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l208 0c8.8 0 16-7.2 16-16l0-370c10.3-2.6 19.6-7.8 27.2-14.7l143.8 47.9c8.4 2.8 17.4-1.7 20.2-10.1s-1.7-17.4-10.1-20.2L380.3 83.5c2-6.1 3-12.7 3-19.5c0-35.3-28.7-64-64-64c-28 0-51.8 18-60.5 43L132.4 .8C124-2 115 2.6 112.2 10.9zm87.1 319.3C182.2 343.1 157.1 352 128 352s-54.2-8.9-71.3-21.7C39.6 317.5 32 302.2 32 288l192 0 0-1.6c0 0 0 .1 0 .1l0 1.6c0 14.2-7.6 29.5-24.7 42.3zM128 115.3L213.7 256 42.3 256 128 115.3zM256 288l0-1.6c0-14.7-4-29.1-11.7-41.6l-92-151.2C147.2 85.2 137.9 80 128 80s-19.2 5.2-24.3 13.7l-92 151.2C4 257.4 0 271.8 0 286.4L0 288c0 53 57.3 96 128 96s128-43 128-96zM608 416c0 14.2-7.6 29.5-24.7 42.3C566.2 471.1 541.1 480 512 480s-54.2-8.9-71.3-21.7C423.6 445.5 416 430.2 416 416l192 0 0-1.6c0 0 0 .1 0 .1l0 1.6zm-10.3-32l-171.3 0L512 243.3 597.7 384zM512 512c70.7 0 128-43 128-96l0-1.6c0-14.7-4-29.1-11.7-41.6l-92-151.2c-5.2-8.5-14.4-13.7-24.3-13.7s-19.2 5.2-24.3 13.7l-92 151.2C388 385.4 384 399.8 384 414.4l0 1.6c0 53 57.3 96 128 96zM319.3 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const ScaleUnbalancedFlip = createIcon("scale-unbalanced-flip", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABqAAAAKiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDLgsGAAE2AiQDCAQgBYMtBzwbugXIhofn9b7/tU8yyh0jT/KH3cGuRLQshepp4pr6cf70Xr0RDCXaqkEiKapAdz6RxEjbjSYwHG2iOAW3XRDzXUNDQuIEeWyNiapIt6dPcW32pvGrHheR5BmAaAbAsr133+TNH+PHiE93Pkd8agMCYjkoBTJk6BdgoUygX65ELhf8GDt3ev+BJQFEteIFCeQo8CQ+BOQgqc3zSW01va01fW2VqoZ8r2i/Yv+bOvaMu2elKOKm9ps7KnFrV+Yk7xk3d93audeYGeePf3j0Fe03dftJt7Tv++DM58OkqETE+SWXOG/sXnsmFbH3niG19GJzIbdtj7iNuHveS6s+WPDK0KG0lkZGb1Ep9o499wDWCL9f6Hj3u7LjCLvZee03Pbrzls5bu26tDH+4+eHfh3161KdOfnbSe5dMdMn6w7zpy8HBL7/0Y+Np/n35mil+OfAcuOxZ44q+lmH3dWzdetg543x9wF6Lb3rzzZsu7HxTggidF67+fs+rSuujfO+5j6Yiu/Pp/W9xdnPz2fnXnu5Mauev32WX9fNrDz6380JV672PMnVkwcznQiv+3IRnvPlD42Vc1tiqPaABapACcdWUBw6ffHDTwv9rKwn8/PKf/6f32/lmOi89jFoJBNnEnRMdkM4DphxAJMVZhoMPCiQPqlWE6t2iGwsFM51UK+hMn2Y6V5hAVxk0Syu5eneZyOuEdgdSOql3Kp2Z7Ww61+4ZuspCH4SrtUd2/+rvPv3fY5bVa3jVsnLa5Knl/PKyYjTcklo4uaCUto09y+8YR3c6yslOcoYjHeFYZ6zQ02yKnelEqxGyyg+VpplsqtJ8pXb9vWUvHjnN6Y49N+gvYoHSfmiss3D/cdSZFCqny0sSkTq+ndCkM0/6BNKOmHTUCceeAg==");
 
 export default ScaleUnbalancedFlip;

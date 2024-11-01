@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-chef` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-chef?s=light user-chef}
  * @preview ![user-chef](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-chef.svg)
  */
-const UserChef: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 64c0 13.9 8.9 25.8 21.3 30.2c6.4 2.3 10.7 8.3 10.7 15.1l0 34.7 192 0 0-34.7c0-6.8 4.3-12.8 10.7-15.1C343.1 89.8 352 77.9 352 64c0-17.7-14.3-32-32-32s-32 14.3-32 32c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-17.7-14.3-32-32-32s-32 14.3-32 32c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-17.7-14.3-32-32-32s-32 14.3-32 32zM128 0c19.1 0 36.3 8.4 48 21.7C187.7 8.4 204.9 0 224 0s36.3 8.4 48 21.7C283.7 8.4 300.9 0 320 0c35.3 0 64 28.7 64 64c0 23.7-12.9 44.4-32 55.4l0 40.6 0 16c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-16 0-40.6C76.9 108.4 64 87.7 64 64C64 28.7 92.7 0 128 0zm96 272c53 0 96-43 96-96l-192 0c0 53 43 96 96 96zM112 372.6c0 7.1-4.7 13.3-11.4 15.3C60.9 399.8 32 436.5 32 480l96 0 0-43.5c0-18.7 10.9-35.7 27.9-43.6l33.4-15.4L112 341.4l0 31.2zM160 480l256 0c0-43.5-28.9-80.2-68.6-92c-6.8-2-11.4-8.3-11.4-15.3l0-27.6L169.3 421.9c-5.7 2.6-9.3 8.3-9.3 14.5l0 43.5zM337.3 309.1l-1.4-3c3-1.4 6.2-2.1 9.5-2.1c12.5 0 22.5 10.1 22.5 22.5l0 34.8c46.9 19 80 65 80 118.7c0 17.7-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32c0-53.7 33.1-99.7 80-118.7l0-34.8c0-12.5 10.1-22.5 22.5-22.5c3.3 0 6.5 .7 9.5 2.1L224 358.3l111.9-52.2 1.4 3zM240 416a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const UserChef = createIcon("user-chef", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABuwAAALcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDTQsGAAE2AiQDCAQgBYMtBzAbzQXIjsM4hjwQoZRWgiEGtyAinTl7OhkE/wFZD6Qwc0WEcoC5qIjL1IaHuJ9vEYERSeVJwwob6MDDG3A3241GCTiw0fhfnHqeaaEAPmcJBm0sSzo3ZYCU5jyvQEEbi3VMqheXUAwrgD3b9qo01/UjJE5Ay26piAlqp3oFrA9fJX/IYgkotAEAgBQCAACa9enRiXsfRR9F8ko4g7yiAyAA0hyAAAEMHJyLANAQA2mfgCYANBqBj5IS/H+gCwQAJEL6ORUAGrCAx8AHAEADoIhpXaWUay5cJq6yTVf3tk1rwE7/1gRii8j2jOM5C/1t1ipvC2vrNr/2sqdyyTIx/GTWnrIIcqDhrZb38rW4pEqYv7vC+EH9LlERJQss0d5yJ2v1XFuPlD2Re/hTdpepIx2hl+u4+8qHpbf5IuopW6CPn/C320ezkMvlTuYt8LZYjqzyt8n+Csk6OwJWJ3qJ+kii58b2jMz2jFqFUu1UPCwU/nM/pg+GzDfrbLZKcA8rsDbXMfUrVujJj99u1kl9rNZ3+OW3psKW9X2YQpg1W7S7tqhpGinHe09tKnxgiGFBCKHyHrEwXC7G1uafISdDqYB7Oo2OJQmS4wEyQz9X6lyO1VmsrnguFCtVzax5xWnc6sYuii3Ab491HtK4OF5N2mxKDVRDDR3/8T3WRwEr1eMAIIDAlzmljz1Dw/9KjQLg843fX91P6ia6Jw6BGAoAAaNiKsZAuQcgmAIAjpLZFJ+JGAEUt1ECpKLDtr2+YEENiggWGORQCDQWFcAkn1onRLDogYHoOILHIGpQOEwDg9rMBY3HRTBpyFMngieSgLMCjMrfZGbrNtJqU1CtctWgfjDZUqoQKtnVBsFqu+xsOVIOhzKaKUxmJqMYyThmtujpdPJnMYnWc1QrIiSgGpWpSkB9gt3d+2bvljOdGYwb1/ev04Dg/GJZZs9PL4cTiiRanSaFAlHxb8CpNGI+ajQAAA==");
 
 export default UserChef;

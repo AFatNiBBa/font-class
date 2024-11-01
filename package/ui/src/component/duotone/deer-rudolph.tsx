@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `deer-rudolph` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/deer-rudolph?s=duotone deer-rudolph}
  * @preview ![deer-rudolph](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/deer-rudolph.svg)
  */
-const DeerRudolph: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M224 16l0 24c0 30.9 25.1 56 56 56l8 0 8 0 24 0 32 0c8.8 0 16-7.2 16-16c0-5.6-2.9-10.6-7.3-13.5c-2.5-1.6-5.5-2.5-8.7-2.5l-5.4 0c3.5-7.3 5.4-15.4 5.4-24l0-24c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 24c0 13.3-10.7 24-24 24l-8 0-8 0c-13.3 0-24-10.7-24-24l0-24c0-8.8-7.2-16-16-16s-16 7.2-16 16zM393.4 65.4c18 3.2 34.9 11.6 48.3 24.4C459.7 80.4 472 61.7 472 40l0-24c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 24c0 13.3-10.7 24-24 24l-16 0c-2.3 0-4.6 .5-6.6 1.4zM480 136a40 40 0 1 0 80-.1 40 40 0 1 0 -80 .1z" />
-        <path d="M320 96l-50.4 12.6c-8 2-13.6 9.2-13.6 17.4c0 9.9 8 18 18 18l38 0-9.6 32-106.1 0c-.8 0-1.7 0-2.5 0c-.6 0-1.2 0-1.7 0l-64 0-14.1 0-7.9 0C51.7 176 6.6 217.8 2.4 272L.1 302.2c-1 13.2 8.9 24.8 22.1 25.8c13 1 24.4-8.6 25.7-21.5c2.4 3.3 5.2 6.5 8.1 9.5c9 9 9 23.5 2.4 34.4c-17.4 28.6-21.5 63.9-10 96.3l15.5 44C68.4 503.4 80.5 512 94.1 512l33.9 0c22.1 0 37.5-21.8 30.2-42.6l-19.3-54.7c-2.2-6.2-.6-13 4-17.7l10.6-10.6c12.1-12.1 19.8-27.9 21.9-44.8c21 16.5 47.5 26.4 76.3 26.4l36.3 0 0 112c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-112 0-64 26.7-80 5.3 0 50.7 0c25 0 45.3-20.3 45.3-45.3c0-1.2 0-2.4-.1-3.6C493.7 171.4 480 155.3 480 136c0-2.5 .2-5 .7-7.3L443.4 91.4C425.9 73.9 402.1 64 377.3 64c-5.7 0-11.3 .9-16.6 2.5c4.4 2.8 7.3 7.8 7.3 13.5c0 8.8-7.2 16-16 16l-32 0zm80 32a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const DeerRudolph = createIcon("deer-rudolph", true, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABvwAAALhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDQwsIAAE2AiQDCgQgBYMtB1Qb6QXIBp7n7ezPfTPJJpM1ZiV+AZ3tolm0H674P9d8ftZ0gN/oUKKtpoUVFJHP9/zwABdpkbbjjSd0org3HeLEIAgfj9ismYR0nNbxdAO6/NEWYgG1Tb0E1myb5QMBLASFXUMAxJ1TgPJe3Zq52yZtSl7+vwh6N02AAEgFACYCaOhWMAJAERoCBKNjAjo6Am3q/39oE/0PNEEAQKwgqvFxK+AE3AdeAgA6AAqFputj7HFeLg6Li97TYTFGVdVWbfTe5OMQfzFknrFcaKFhXIw7Guwvc6NXBPmvbfI/GR4i26IdcsRvS2CGbPbzkxNB17IdgszlbIdDVvhtEdR7ycC38DzZ7LtZD/mVyPGc5d6b2Oht9Njko7mbfbf49UPYllCjie1Z83w3G4bk9M2+QQjZGjX6Dgc2e49D8UfCprosP56+LfpQ7JGg7TGHow76Rxx3P/4p/OXIl5QOCpbvP3AO+xbDHsaCCIJQ5rv2+bX6EHy7+WZlZr3Zt+v7b6Z1joAVK8uiiR91HI9429koJuO6dKmrqa5MpozATlgyvV6+9FLq/fJlbrrqwbHBtqnD7K5tZqewNlfilxCtZ/zxAqcv/ybbytpc7cMyLBYaXPwJSvzx6WKzdfExDkfTLlbe8XA3uqObPWusifn5iVZ9HwAEEHBflR4zyK3ol82hAOi4/uUHv87/uypNHQdsKAAEtKT/SfRXZYB7YEcAyULJTCLAc9oQQGMqGoD8qjObEQAEAxAAFFYMBACNINwRAHQMEhEALISSjQBgxaAbGqLbEbwZ0EHhzBTQyGEW6HhzASwU8SRqxVu0UhYLUfyTTKuxSLWTmZ6SZhaYlzW7VJ38Olto3jbiZnJPPBxlJJOYyHRGMJwxTDf0VJoTM5hATURV4yEm6aSQhkkBZrr5WeuJ0alMY4yv5OcpxHzeH8fMeHg8+BTCmMG9GhqIEs17+IgRU5Onzhg+afzk0clfRb/vRHkDAAA=");
 
 export default DeerRudolph;

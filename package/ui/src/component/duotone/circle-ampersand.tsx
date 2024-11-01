@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-ampersand` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-ampersand?s=duotone circle-ampersand}
  * @preview ![circle-ampersand](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-ampersand.svg)
  */
-const CircleAmpersand: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm144 61.5c0-21.2 10.1-41.1 27.2-53.6l24.7-18.1-9.2-9.2c-11.9-11.9-18.6-28.1-18.6-45c0-35.1 28.5-63.6 63.6-63.6l19.2 0c33.8 0 61.2 27.4 61.2 61.2c0 19.5-9.3 37.8-25 49.3l-17.6 12.9 28.7 28.7 26.2-37.8c7.5-10.9 22.5-13.6 33.4-6.1s13.6 22.5 6.1 33.4l-31.1 45L361 343c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-22.4-22.4c-15.1 18.5-37.8 29.4-62 29.4l-32.2 0c-36.7 0-66.5-29.8-66.5-66.5zm48 0c0 10.2 8.3 18.5 18.5 18.5l32.2 0c10.5 0 20.3-5.2 26.3-13.8l1.4-2-40.1-40.1-30.7 22.5c-4.7 3.5-7.5 9-7.5 14.9zm24-125.9c0 4.1 1.6 8.1 4.6 11L235 217.1l23.6-17.3c3.4-2.5 5.4-6.4 5.4-10.6c0-7.3-5.9-13.2-13.2-13.2l-19.2 0c-8.6 0-15.6 7-15.6 15.6z" />
-        <path d="M231.6 176l19.2 0c7.3 0 13.2 5.9 13.2 13.2c0 4.2-2 8.1-5.4 10.6L235 217.1l-14.5-14.5c-2.9-2.9-4.6-6.9-4.6-11c0-8.6 7-15.6 15.6-15.6zm37.8 75.4L287 238.5c15.7-11.5 25-29.8 25-49.3c0-33.8-27.4-61.2-61.2-61.2l-19.2 0c-35.1 0-63.6 28.5-63.6 63.6c0 16.9 6.7 33 18.6 45l9.2 9.2-24.7 18.1c-17.1 12.5-27.2 32.4-27.2 53.6c0 36.7 29.8 66.5 66.5 66.5l32.2 0c24.1 0 46.9-10.9 62-29.4L327 377c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-28.4-28.4 31.1-45c7.5-10.9 4.8-25.8-6.1-33.4s-25.8-4.8-33.4 6.1l-26.2 37.8-28.7-28.7zm-39.2 28.7l40.1 40.1-1.4 2c-6 8.6-15.8 13.8-26.3 13.8l-32.2 0c-10.2 0-18.5-8.3-18.5-18.5c0-5.9 2.8-11.4 7.5-14.9l30.7-22.5z" />
-    </Icon>
-);
+const CircleAmpersand = createIcon("circle-ampersand", true, "data:font/woff2;base64,d09GMgABAAAAAAOAAAoAAAAABxQAAAM1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDRwsIAAE2AiQDCgQgBYMtB1wb9QUjEbZqTmqQ/TPBppO3UMpGVCNLjSnaYtnYpRCD8xhUaTxVn9a0fmW8jL+MkGQW/vn2o903M2vz18STWFUBGonGdlS8ikj+h+whAc/z477OfQPpzR8igcqwkl3CNLgu3JR2Q9r8CXJ3v35xLdGEArFAI44s8Prrff6fEaeeh0KhAL5R0PbQgIwJNHb3eQUqMr3nwYr1vCAlKAAVVNuAwaFjd25etXySBGutHefIrzyAiy8mq5jBbPUW2EHn9fBiLYyYAgE1+B8g9DbWlvP8R3+UvDPehS5lgABaAAoRsMCCXASgA0sgF6cQcBwhVMYRinENAUAVWNICiAQx4DHwHgBwAAzLpWkbEhMScsolBBFxbqqf4BfYWAf70lamVipd9us4YzIsuOJKzuHqy+VeZysvZq6sSlOlXMw9VHWpLNCDmiqdqziSXa0GOZJ+PrNW1UmdXZ2p2uuttT99VUaNvmWLPCp/b7M+/DH3rfFHzmvFB+u1gXdZz3X111E1SpfLOq+5UhHoXNWlrIOVpaqyIcvOPbNKDmWeLa/WxVav89WXs9v2lQXakpGhLqmUvUwvuqWpRg7oKN1rb2rx5cTLvwLftb/jn4OLt24GFv2D/CTP3D4MLvFh6Xl7K9gZnOxJPtuwkVX2hE1y4M0ietbrsbP7+OmOn+z9lE+HvOmZ4OPCZSviX4D14r88k28FXjePcnNfbrxiyCffqnnF7XTtWWWjYm+f5HQyhZ2wsp/34S2Hwki7Mz+58/GTnd0kM1Wahwan2L8BUkjipZjgB6PWHnPmeT8ZJNfC5mYKv9AeAASEjKUD30lI+x8dKAB+3Jr8Pfr/UGEOEM0AEOw01lqoADAQAAAAMDHOoGAnELCWYCoEsfarE/GoMCJ5WDkkwvFqECGfNlZ4fhwTSisklUUII9ZSWO0sg5PKHUTo4EUYKVVMnJl3Rf4tmTJYcCL/lE6Ijdcpelkpgn+y8TBVi53w8SYReJd2A/qNatOqy+joYeXJmD4FHJXvjbQEseJpKbS6vVcaFg4b0TWX9Mek0vZBuHF+fQT6isSY6IwJJiBKTDw//ZRimvoG24ZvECPmZKz2Hkr7AAA=");
 
 export default CircleAmpersand;

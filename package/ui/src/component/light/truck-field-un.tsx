@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-field-un` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-field-un?s=light truck-field-un}
  * @preview ![truck-field-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/truck-field-un.svg)
  */
-const TruckFieldUn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M96 64C78.3 64 64 78.3 64 96l0 32 0 160 0 64 5.5 0c13.2-37.3 48.7-64 90.5-64s77.4 26.7 90.5 64L352 352l0-128 0-32 0-96c0-17.7-14.3-32-32-32L96 64zM0 160c0-17.7 14.3-32 32-32l0-32c0-35.3 28.7-64 64-64l224 0c32.6 0 59.6 24.4 63.5 56l53.4 0c17.7 0 33.9 9.7 42.3 25.2L521.6 192l22.4 0c35.3 0 64 28.7 64 64l0 96 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0-32 0c0 53-43 96-96 96s-96-43-96-96l-32 0-96 0c0 53-43 96-96 96s-96-43-96-96l-32 0-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 0-64c-17.7 0-32-14.3-32-32l0-96zm384-40l0 72 101.2 0L451 128.4c-2.8-5.2-8.2-8.4-14.1-8.4L384 120zm0 232l5.5 0c13.2-37.3 48.7-64 90.5-64s77.4 26.7 90.5 64l5.5 0 0-96c0-17.7-14.3-32-32-32l-31.7 0c-.2 0-.4 0-.6 0L384 224l0 128zM253.3 135.1l34.7 52 0-43.2c0-8.8 7.2-16 16-16s16 7.2 16 16l0 96c0 7.1-4.6 13.3-11.4 15.3s-14-.6-17.9-6.4l-34.7-52 0 43.2c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-7.1 4.6-13.3 11.4-15.3s14 .6 17.9 6.4zM128 144l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 64c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16zm96 240A64 64 0 1 0 96 384a64 64 0 1 0 128 0zm256 64a64 64 0 1 0 0-128 64 64 0 1 0 0 128z" />
-    </Icon>
-);
+const TruckFieldUn = createIcon("truck-field-un", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAAB0gAAALrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQSEKQsGAAE2AiQDCAQgBYMtBzUbLgbIjsQ4RvGA4kcEz//r1Pu+ZB9HShQkBZBLyBO5CDh1K8+AOplKOJEJaOfHwcBHOODF1oqG7ap028gx9QESCVLW8/tRogOjuHt+ges1yqKp+fQDvUX5l9vu01RRD2kQCkugyx/JxQVqt3oMbJQE8pFoy/wKXUNjkSC4UWjq37srdx1xRB77PpDHdAYEQJoBsAmgARoQRwCopSFAHB0b6OgIOOLzhf9AGwQAxA1spgDQAQP4BfhgeHFQeHQ9tZMZn5AQEGC6AvR+pssYvCYsyDYQBDFlb87KaFkjOgr0XhxRDKPP4sggO01ZCItyPK1FB0h0EvY2EeHcHp7DZId9mb30z54Jwr0jokZetNGaiCIyGsGUZtlhGJiG+RD/EaZgmXBD6NfU3KS6RV7hZFtYjjgkqUvEMKSGnwiTzIq/CNjlS30iSkx3XDqQPTN73J01clZiuumZFFP+ZvYrlO1ngubnpMfjHjN8kbUKVlk2h2jEzd6ZM759mzHz7Fi82EZgrVplOcOHr5jKCA4+5OBN2CrKuPQ0uxsRDvU3M0YQxLEsJ8j2nDnj9Z4547FHVJKgSQ2N1zhHLMrooEnHkqi9X9k7N/82mesmtY0m8OJd8izlhxwsx7FGYGy9MiCFjnG+pxHYTNtIiNKevCosfPVEY1HDv2qt37+3akDjayjMT0zML9wfAAQQeLN6esrwwNrfHlMB0Hrn62+0Oz5HedUZwIMCQEDL9eUyRHkBgFgAwKtkHskLTySA4hMe9L36swMBQDAAAUDhxkAA0IgVRADQMcghALhIUEYAcGPQGw3R/RDCDG2wCn9mYjXKLcDqhLmKdVHrnsdNWNAKP7focv89E7Xrgtu2s4vyC+1qezap4pVnNmuusTerMuehoiyYyDimM405jGUME5nTQc6iq38uU2m3RN/2sbYi+QrZqtmHMw9F/TrMIJot2NP8463UsK+3ZZq3XDkLtArNsFiEQoEo6+uW5L0Y5ry50wAAAAA=");
 
 export default TruckFieldUn;

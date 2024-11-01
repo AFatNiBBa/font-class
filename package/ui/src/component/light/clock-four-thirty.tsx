@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-four-thirty` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-four-thirty?s=light clock-four-thirty}
  * @preview ![clock-four-thirty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/clock-four-thirty.svg)
  */
-const ClockFourThirty: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256a224 224 0 1 1 448 0A224 224 0 1 1 32 256zm480 0A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM272 400l0-114.1 71.1 47.4c7.4 4.9 17.3 2.9 22.2-4.4s2.9-17.3-4.4-22.2l-96-64c-4.9-3.3-11.2-3.6-16.4-.8s-8.5 8.2-8.5 14.1l0 144c0 8.8 7.2 16 16 16s16-7.2 16-16z" />
-    </Icon>
-);
+const ClockFourThirty = createIcon("clock-four-thirty", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcgAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBZAsGAAE2AiQDCAQgBYMtBzgb7ATIhof/Xyu771f1BIAqo8KMLgrJESjABULdZy2q6J469TznoQC+UdDGpjVBFtDe5xGIWC4e8VCtYDWtgJWl5i332R4p+yUz0SQ9fkv/6IY83otuSqQb6XucK28af2vlBEmeAYiGABi9cO50H5ejHPF95SXxvakIiDGgEMiQoa0Aw2QCbeUK5HJBOSoV+g0sCCCqyN+SQI4S5mElIAdJludt2jSvU6qXL6hTqr3wTt+I51O/q3Nq8je9n3a82evJpK9rn5zybZ9n1fX+HBPx6Ywfa5+c9v2oj+f9MfqT6T/UOTXzp7GfLZwXYn5caXGt+YK42vQycaXZtRbVjxs+/rfj9xu+1+Gjup/y64jpQ4dOH/Hrp3XrfqrXZeNr0er5J2PHfvK8VS3jbZb0/8/tkYcm9PDlyW0PV460b++JWufVL5frA4Ggzwcrlq1sMOxtzToJ/PXu/2/Vb1Hl4yQ9Rk0JBFm3SjfLEkgEACDFAdUJAsk0GbxqXVcFCLURIKlSW4BMGw0FyNXWVYCS9voLUKW2uTKR1xKaWq4gqWs3yAxwHOSaeg5KhvnKrdI0stAiAoP42MVOsND4o6J3j17FkGKYaWS0YGk7tJgWOh3gTmdc2mCnHfZZb53N9hlkj+nBfttN8ODxPqjQWw+9FIYolsv78wXW22OvzXbakfcMVex3Ojngj3eGnAhqH6EkEanRNeS6n1y++1OVuO8wAA==");
 
 export default ClockFourThirty;

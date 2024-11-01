@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clone` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clone?s=light clone}
  * @preview ![clone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/clone.svg)
  */
-const Clone: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 480l224 0c17.7 0 32-14.3 32-32l0-64 32 0 0 64c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 224c0-35.3 28.7-64 64-64l64 0 0 32-64 0c-17.7 0-32 14.3-32 32l0 224c0 17.7 14.3 32 32 32zM224 320l224 0c17.7 0 32-14.3 32-32l0-224c0-17.7-14.3-32-32-32L224 32c-17.7 0-32 14.3-32 32l0 224c0 17.7 14.3 32 32 32zm-64-32l0-224c0-35.3 28.7-64 64-64L448 0c35.3 0 64 28.7 64 64l0 224c0 35.3-28.7 64-64 64l-224 0c-35.3 0-64-28.7-64-64z" />
-    </Icon>
-);
+const Clone = createIcon("clone", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABdQAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCCQsGAAE2AiQDCAQgBYMtBywbBQXIjsM4hvwSSxniJeLh/+ci7/vJLGSWIUtECpgcMBVY1pUdG5FT21O5epK59n3+r6kXz48O8BsdWjQlHkgkUNY2brCJztMmFAU20wnYdmdLcYj2SJI0M+h37PjsIY8fY7ga6WX6B/fjh8Z/urpCkmcAog0A5qxducJvVVQR/zQi/rEMATEXlAIZMvQQYLpMoIdciVwuqKLRsP+BJQFEE3jvCeSo4QCOAHKQZHk+slu3eq1lvqZeK5bUi/rtzs8joh7ixeCv+xfx5dBvu0W8HvbdoHqIIm51eEJc6Pi0vla4cbHTs4I0lgbxxhdDvul65dy+37b59v8+9tCoqqrVjRutZivNVrRt+6HyIUEFWWmC5KTK6O/fz86sAHkkvsqFy4FAcKx2dfjW1tM/Nqsn8O8Pf8w/I43fkvQtmkkgyIY3htuUQCIAACnO6JsgkOyQwWtt4ZkAoUCApIlCgEx3bQTIFYYJUNPLBAGaKKyUiby50MHmCpIWjoPMRGdBroPvQc10v5tNdIhM2WhVof96CQtbdMG2cszI0eXUchgpjP6QfnJaKZYHn3GVIbDTHkcdccpuu+x3qsFPWOGcdthCDlvgi0pjjDRaaapyO70X1hjzhJP209z+PNOU943BzvDtQ0BLkHAsKT1BONV2Hjp6ZDc=");
 
 export default Clone;

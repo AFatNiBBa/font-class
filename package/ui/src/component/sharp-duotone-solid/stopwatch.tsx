@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stopwatch` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stopwatch?s=sharp-duotone-solid stopwatch}
  * @preview ![stopwatch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/stopwatch.svg)
  */
-const Stopwatch: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M16 304C16 200 92.3 113.8 192 98.4c10.4-1.6 21.1-2.4 32-2.4s21.6 .8 32 2.4c37.5 5.8 71.7 21.6 99.7 44.6c16.6 13.6 31 29.7 42.8 47.7C419.7 223.3 432 262.2 432 304c0 114.9-93.1 208-208 208S16 418.9 16 304zM200 168l0 24 0 128 0 24 48 0 0-24 0-128 0-24-48 0z" />
-        <path d="M144 0l48 0 64 0 48 0 0 64-48 0 0 34.4c-10.4-1.6-21.1-2.4-32-2.4s-21.6 .8-32 2.4L192 64l-48 0 0-64zM355.7 143l21.6-21.6L400 98.7 445.3 144l-22.6 22.6-24.1 24.1c-11.7-18-26.2-34.1-42.8-47.7zM248 192l0 128 0 24-48 0 0-24 0-128 0-24 48 0 0 24z" />
-    </Icon>
-);
+const Stopwatch = createIcon("stopwatch", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABfQAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCDAsIAAE2AiQDCgQgBYMtB04bLAXIjsJxr4SIyVAYorUl3giqZevZvU8ZVNZBxWiRURiEoRAWj0sWiZBZGFy0X1iM4Of3957zAaX7f8L0RjtZbXVNbU6A87KU3/xf7vk9vw34jQ5trAUyAtvbEwhwbM+7BBLKNAPL2un9YFCXTZLEhwzbGUZPKGIu9yuR7tIFcIX/AYw/ev0ktQwA0QUAsHeaHAs7Q3xOePG/SryLAQJiHwDTEBkZ4xBsYgqMY5kGCoVgmGgaDIOmCQggyoDqMyijgjPgAoACJFkqWEqJXC8XssWsNDwUZAsFQog6QlzXR0ew7MNUG7ONDfqiGXFmcSYFEnXUdwgRTn+SEe9PZ4Rjo4e+C5Yl40PCTcpT0l1aOiDBZqUCgWlRtvhuvCi7gKk3ipoNAIrJd7f7bUIJ+JgMdftL4UKadobLaqrb1emAotMtH5FeRTwXVA7EG/tG7vsNX1JMX1xMB4KLD+HGkE43usG/DBAIPjbCH/OlPv88IQPg9/HzJf+QZP87uJkWUZVAkOdoWzmxQ4YZmwIAkKINTLFjWhcim8fkP7XpWoBQR4CkrC5ANkYGQaFuFoKSSa4QlNUdYoqCD2FEbgVJ0znIlnWAwogVULLpOC8bCSbfWLawv72ksBYK3UUc7SniRaZthaMQHde9ybJlbgtjFnkIZerVaVGqRKWWhmwSW2tVK8yCQ30R4cgehfBCjnv3UprmTZpVjoXzbbyR+5lZmz3bIi5Dopx3JMtEQqac7wxLNbuHO6bshCcKAAA=");
 
 export default Stopwatch;

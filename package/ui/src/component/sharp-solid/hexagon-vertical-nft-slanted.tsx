@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hexagon-vertical-nft-slanted` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hexagon-vertical-nft-slanted?s=sharp-solid hexagon-vertical-nft-slanted}
  * @preview ![hexagon-vertical-nft-slanted](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hexagon-vertical-nft-slanted.svg)
  */
-const HexagonVerticalNftSlanted: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 128L0 384 224 512 448 384l0-256L224 0 0 128zM192 92l31.8-18.2L272 101.4l0 36.9-48-27.5L224 240l32 0 16 0 0 32-16 0-32 0 0 160 0 6.3L192 420l0-164 0-164zM320 383.4l0-217.7L296 152l0-36.9 47.9 27.4s0 0 0 0L384 165.4l0 36.8L352 184l0 181.1-32 18.3zM160 384l0 17.7L127.2 383 96 266.1 96 360l0 5.1L64 346.9l0-181.7 33.1-18.9L128 261.9l0-133.3 32-18.3 0 1.7 0 269.9 0 2.1z" />
-    </Icon>
-);
+const HexagonVerticalNftSlanted = createIcon("hexagon-vertical-nft-slanted", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABcAAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCCBgsGAAE2AiQDCAQgBYMtB0MbGQXIhofn7fo691V1D6AaSZGsdDIi+umImXaDZCOQU6ee5zwUwOcQBGVsXBNkTIslXfu8AgWM9WpjC5XGAmq1gtbd2SajRPskiQh53PtdtpDHpeykEulCehdnwpvG15o4SVIlAxC1ATB6zozpXn4QH0S88/894h1TERCjQSGQIUNzAYbJBJrLFcjlgg/i///pP7AggCjjh0ggRxkrsRWQgyTP8xrNGrWoVqqRz65WqpqlLM2KOZHF7Jg5p2unroNDDAlRrZqoWlWILhER80J0iIjBcUzjSLZyotNMYcgaO2MOjVlq3a4hUmhTUbvi29bvrn7XKLx/xDLeeNH2R678S3t/OaaoXcDK68p+dNvtI23egyUPae9vsEt7P7rnx2vq8nmTljstVvKj+5KWO5zyk6SmBASC05+/qbWk1rBfK1dL4KPH338rnvz/y3iZKlBZAkHW7f9uFsZLIHQAPynFbm3iJQLJQjm81OrOChCqIkBSVlWATDO1BchV1VWAkpb6C1BW1QyZyKsI9S3KIKluG8gMcAjk6rsDSoZ55ZXVj0zWaEmhf3oJE0po/Kyid49exZCiW0iM+JBucmgxLXbabTo6w0KrbbHZTqustM7OAtluerjLJhNG8HhfVOith14KQxTb9ev5s62y3Q7rbLHZTzNUcd7tZPe4f2dQEsbs46NJIlLztav2LluzZXP3R2h28+qd3XdsXHY9");
 
 export default HexagonVerticalNftSlanted;

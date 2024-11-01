@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-three-quarters` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-three-quarters?s=sharp-regular temperature-three-quarters}
  * @preview ![temperature-three-quarters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/temperature-three-quarters.svg)
  */
-const TemperatureThreeQuarters: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M96 294.5L85.3 307.7C72 324.2 64 345.1 64 368c0 53 43 96 96 96s96-43 96-96c0-22.9-8-43.8-21.3-60.3L224 294.5l0-17L224 48 96 48l0 229.5 0 17zM224 0l48 0 0 48 0 229.5c20 24.7 32 56.2 32 90.5c0 79.5-64.5 144-144 144S16 447.6 16 368c0-34.3 12-65.8 32-90.5L48 48 48 0 96 0 224 0zM208 368c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3L144 152l0-16 32 0 0 16 0 170.8c18.6 6.6 32 24.4 32 45.3z" />
-    </Icon>
-);
+const TemperatureThreeQuarters = createIcon("temperature-three-quarters", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcQAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBYQsGAAE2AiQDCAQgBYMtB0Eb8gTIhof/t+v7fW5Vv4Fq5Bq55w3gSNYPQUQQgsiMfvhXT516nvNQAN8oaHtoQLIB5zyPQLBgvVgXWMHWAKtpBazWzm4hiX6T9H35JMPmDJMD5LE6blAh3Zk+x/X1Q+NPHV0hqWQAogDAtOWLF3n7u/gu4rPaC8RnFiAgpoFSIEOGLgJMlAl0kSuRywXfRa0W/gNLAog6cgIJ5KhgKVYDcpBked65Y8cmlWb5siaVxsvbtG/zRJd7Bzw56qVBT3e/b2C7kGM2DmF1k8ZNhHi2xwMTX5/54eQ3ez48LCKiyco72kTc0vuxdrd1ur+f2SiEeLRrz6eKp/7u8fm2z62/4xkEx6aGTz114UJabpjGPqOlX1zwi5bn+1Zxb37xc9blxHXvvHPdiS7Zz7+oqu7fn33BV9XqV19kxZdPK5QKT/uyAALBnH8n/L++xcT/GjZJ4IdX//23/YyK2ttRn55CQwkE2eDaYGvimEIR9QIAkOKYnjFVIZAsksG1NnWbAKExAiR1GguQ6awQINfYIAEquhklQJ3GFstE3khoY+0ASVMHQWa0syDXxnOgYqKPrDptIiMWQQviXxc7W0Oz5srhQ6vl+HIa6iRXsDyeUC6r/Y/F0gAs2ma/fY7YaoudjijkkEXuUXvN9uBZvqg03FBVpfHK7WS7fpmtDjlsp/32lSkTlOfN/o75zQNgJIJab2WSiNSJc/yQSysOeVfcYQ==");
 
 export default TemperatureThreeQuarters;

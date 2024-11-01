@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `umbrella-beach` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/umbrella-beach?s=sharp-solid umbrella-beach}
  * @preview ![umbrella-beach](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/umbrella-beach.svg)
  */
-const UmbrellaBeach: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M346.3 271.8l-60.1-21.9L214 448 32 448 0 448l0 64 32 0 512 0 32 0 0-64-32 0-261.9 0 64.1-176.2zm121.1-.2l-3.3 9.1 101.7 37c20.7-90.4-9.7-183.3-75.2-244.3c2 8 3.2 16.3 3.4 24.8l.2 6c1.8 57-7.3 113.8-26.8 167.4zM462 99.1c-1.1-34.4-22.5-64.8-54.4-77.4c-.9-.4-1.9-.7-2.8-1.1c-33-11.7-69.8-2.4-93.1 23.8l-4 4.5C272.4 88.3 245 134.2 226.8 184l-3.3 9.1L434 269.7l3.3-9.1c18.1-49.8 26.6-102.5 24.9-155.5l-.2-6zM88.4 143.9l105 38.2 3.3-9.1c19.5-53.6 49.1-103 87.1-145.5l4-4.5c6.2-6.9 13.1-13 20.5-18.2C217 7.7 131.5 59.7 88.4 143.9z" />
-    </Icon>
-);
+const UmbrellaBeach = createIcon("umbrella-beach", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABcQAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBcwsGAAE2AiQDCAQgBYMtBzUb+ATIjsQ4JvGLGFDj4Xtdr+c+aXf8td/IMiVmxi7MLQBVwNhlXKbeBH7fn/9zPd/z0QC/0dCiqXTeIKPM5xMYcJTtArw8gc/0BOzMW26kR9b2SzJRkh7PRf/OkMcv2VUqpPvTp7g1P1T8p6OrSBoyANECANPWrFjkzT/jz4hP6i8Tn1iAgJgGSoEM/V0EmCgT9gy5Erlc8GfU6/wfWBJAVOkHJpCjilU4CMhBkud5yxZdWtQqTfPVtUqxY/68+SujKESteUTRuKbWpn2bVfHD8O8X3018t3L1A50iHrjinuKGeKT3Q33bxJcr28SqaB8/rI6tq1avEmaN7Lm3/bcLP53a84kWT1zu8enuT6179mWyzXnPK+VUJdTqlGfP9cWddvXWbOaUNlObDWhalVZ1XZY/1fAv35wT4bqrr2k10oZO8/v6aqG+Oi9IS6qnBu7tEy4/Vpel46aOcP2jM9ODd3YHAsGrn25Zs6X5xP+b1BL4+40uK7+iujQrPYEmEgiygfWBNqap1E+zBAAgxWk901QEkkVy9KiN7hEgFAiQVBUCZDprIUCuMECAim5GCVBVWCETeYPQxqYGkkbHQGa0SyDXxougYqIP9Ko2kXkY4R/EBy92toVmdZXDBg8tx5dDRyWdBkvNCeWy0Pd0TPTDpt2OOOykXXba56RBjltknXLI7Bk8yxeVhhlsqNJ45bZ/v7zaLsedsM8Rh7nNBOV5pa/T8/x+kBNFHa43SURqdurQ9uOvCD/oegI=");
 
 export default UmbrellaBeach;

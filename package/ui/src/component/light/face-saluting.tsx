@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-saluting` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-saluting?s=light face-saluting}
  * @preview ![face-saluting](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-saluting.svg)
  */
-const FaceSaluting: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M368.8 32.6c-10.1-.8-20.1-.8-30-.3c-8.8 .5-16.4-6.2-16.9-15.1s6.2-16.4 15-16.9c11.2-.6 22.7-.6 34.2 .3c141 10.6 246.7 133.4 236.1 274.4s-133.4 246.7-274.4 236.1C221.7 503 132.5 424.8 104.9 323c-2.3-8.5 2.7-17.3 11.3-19.6s17.3 2.7 19.6 11.3C159.9 403.7 238 472.1 335.3 479.4c123.4 9.3 230.9-83.3 240.1-206.6s-83.3-230.9-206.6-240.1zM235 345.2c5.2-7.2 15.2-8.8 22.3-3.6c17.5 12.6 48.9 27 94.6 27s77.2-14.4 94.6-27c7.2-5.2 17.2-3.5 22.3 3.6s3.5 17.2-3.6 22.3c-22.7 16.4-60.7 33-113.4 33s-90.6-16.6-113.4-33c-7.2-5.2-8.8-15.2-3.6-22.3zm37.3-160.6a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm136 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM257.5 89.4l-38 23.9c5.2 3.6 9.8 8.3 13.4 14.1c14 22.5 7.2 52.2-15.2 66.3l-64 40.1c0 0 0 0 0 0l-.1 .1-29 18.2C80.9 279.4 23.2 259.8 5.2 211.5c-13.6-36.4 .2-77.3 33.1-97.9L206.7 7.8c22.4-14.1 52-7.2 66 15.3s7.2 52.2-15.2 66.3zm-17-27.3c7.5-4.7 9.8-14.6 5.1-22s-14.6-9.8-22-5.1L54.7 140.4c-20 12.5-28.4 37.3-20.1 59.4c11 29.3 46 41.2 72.6 24.6l93.3-58.3c7.5-4.7 9.8-14.6 5.1-22s-14.6-9.8-22-5.1L128 173.7l0-41.3L240.5 62.1z" />
-    </Icon>
-);
+const FaceSaluting = createIcon("face-saluting", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABrAAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDCAsGAAE2AiQDCAQgBYMtBzQbjAUjEbZqDuqQ/ZGQk/GyKIpXbkbEkPgsLmUkni8u9v7u3s1B0PhB4wEmBSBxlkCCSWBNmkF5VXUGCygLmoeXrJc9f9zP85/26QM+o4/WC8rGKAvK5N0Edl5tkRoNuBvYRHHW1Qynz2pt9cjZzqpxTv6x5J+2MPlD9MCCelCXAHf90vwhgzYKswFAjgCAa2SoP449I88IucTZDXnDFxAgNwAnENCgwQ4CuICBgB1MNGAwEfgSDmf6D6QhAFlh2xVgwAaeeBF5dmrsYerL8PBoyPKxBJidRvCxeDMnxHskm6U2qd/2v2y8PeyW0zGvcxF3Qm5ETEhNSmBO+Gnfi45HVVdNdjgc8YgqUePq6+Z7NTdJ1eXE19TWzPZobGhMSEWuy0ypbcjOaoavvEREWNlajUtMS7vJjzQvfQjRIvss9ijOyNGwSLJJfV3mvJ+4zqTkhHgYGZMeO6rU15WVz/AjhESqbBXe+k75UsYlFC08fyakKPQcxIOVnv7oIdOD5RGRcfiwBzOMvfOEhL/+7ef+oq5+ft6sl9beQkr+DqNjHz/darec2Xu+slJYuDLz/t6ZvC18+88nFe3fL7elTm0xWEIieCM7pXg3jldG6pvSI4dNjPl+AAA4DlVd3Zdz3T2Dm7PBqya2bdjY5Tfv5rjeM5uz8CooMKjdw9Mv3hrhXiXQQZE7BQABgU+bz+ZEIbtv3HwUgN+BD9/2Izl/OIeoNGor2FCAQJ85euKoJkJCvgEI81YqoII2ElCmPHjbwcSoP3jBobDxQpODMAxeurBQhDnbOTkUDGR4QIgjHkDhVwwMFqgHJnHsBBY7nPWwiRNGsvKpxv8qJh/1aBH3VrSxgRFtQ1/GVSH/WKm3pbtVWhUhTxsLkaFQgTLp0mQra+gS/v5y+TwY5e6HaMYMGKHZoIdTx9kR0pUola1QwdyMLfp+m5YKXlobWgrGaCKGAgUQSuBNUOp/VHSXZRdkAg==");
 
 export default FaceSaluting;

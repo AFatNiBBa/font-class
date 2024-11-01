@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc-trash` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-trash?s=light nfc-trash}
  * @preview ![nfc-trash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/nfc-trash.svg)
  */
-const NfcTrash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 64l320 0c17.7 0 32 14.3 32 32l0 104.2 2.5-7.4c4.8-14.3 15.9-25.2 29.5-30.1L448 96c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l317.6 0-2.3-32L64 448c-17.7 0-32-14.3-32-32L32 96c0-17.7 14.3-32 32-32zM384 208l0-80c0-17.7-14.3-32-32-32L240 96c-17.7 0-32 14.3-32 32l0 82.7c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48s48-21.5 48-48c0-20.9-13.4-38.7-32-45.3l0-82.7 112 0 0 80 32 0zM352 384L96 384l0-256 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l256 0c9.7 0 18.4-4.3 24.3-11.1L369.1 304 352 304l0 80zM240 256a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm208.8-53.1L436.5 240 400 240c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 128 0 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-36.5 0-12.4-37.1C573 196.4 566.9 192 560 192l-96 0c-6.9 0-13 4.4-15.2 10.9zM470.2 240l5.3-16 72.9 0 5.3 16-83.6 0zm-69 64.1l12.7 178.2C415.1 499 429 512 445.8 512l132.4 0c16.8 0 30.7-13 31.9-29.7l12.7-178.2-32.1 0L578.2 480l-132.4 0L433.2 304.1l-32.1 0z" />
-    </Icon>
-);
+const NfcTrash = createIcon("nfc-trash", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABrwAAALQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDRwsGAAE2AiQDCAQgBYMtBzAbxwURlZpjyT4SctOkj7gxJhpVNN5E8KDH17wkX0kWEDqoA3UQK7qGWlZbnfz/3+bjI7pmdtvEm9VBW4U811DH6ROv9v/fO/1jWRTg41xvYy2QMWmMeTyBjrftW2PyBMrCLFCNLXNrbNCiRzkQHzKG6GnS47nHrz1k8Xf0VEFyi32BC8+bxm+aOUoiSwFEXQCMW7Jglnd+jp8jvvj/NeILMxAQ40FbgRQpWgowUirQUqYtMpng5/j/f/kPBAFEJf1FCchQg3fxLSADiaos69uhXU3zmmZFRa1scVGRr6hV1jrjOxFN4k6Si9uZf2cjHk19m7K4lf518kTzKOO0/xxpHApcinUhDvnPeR6nvUfi0eit0anTp8mlxbszF0WIYmFZq0yjiBuBc+MZVxIHZXFRK84E7MjD4qsNuwCSTo2clm1a5uGg2vRi0dI6CjQ8+SYNmxTRKPKFixYvuvYSL2DMOaFemLHFi9s/Xff/R7svNn9hzIGxuk7tk27trTrbM2WCvF69B8d68MZyiSWMpj5GgNqx7BpzYa5KkmU7vsYC39VNv/y+b9/vv0zrfrfAdnO1bfMC6Ovn2rV/7ruiRwvqnJY2qmfutgNdAJLs+mbgq6rrNKd5sSzs6APDHlzrwWGNNZw51RoLJ44pXzqST7i1jlKtk4fSEqmt8gU6mp7RFggEWx9vVllTZ+S96iIBv7791z3Xxf+/kxxkTxPVEhCkPf/vaWVykCCiAQST2Ks9+KBA4i1V9FVL1wUIOQIkKuUCpFqoK0Am10OACq0NEqBSboFUZDVCQ6sMJUo7UGqwfSjT0CuowkgfByrRhsHHsiwSZb+SqS1PmuNQLpRQw7CoysNTAofrWDan9mdTmnipb2Fuq6drZOuEa83wzoyFBKYvgrKCEqjBduVWbTvX2sZL+rJ9zCh1+N6fssed0zQZBugfBViyMhJ13u/kt+vWZggAAA==");
 
 export default NfcTrash;

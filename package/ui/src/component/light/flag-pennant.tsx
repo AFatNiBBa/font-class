@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flag-pennant` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flag-pennant?s=light flag-pennant}
  * @preview ![flag-pennant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/flag-pennant.svg)
  */
-const FlagPennant: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M32 16C32 7.2 24.8 0 16 0S0 7.2 0 16L0 32 0 64 0 320l0 32L0 496c0 8.8 7.2 16 16 16s16-7.2 16-16l0-145.1L432.9 213.2c9.1-3.1 15.1-11.6 15.1-21.2s-6.1-18.1-15.1-21.2L32 33.1 32 16zm0 50.9L396.1 192 32 317.1 32 66.9z" />
-    </Icon>
-);
+const FlagPennant = createIcon("flag-pennant", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVQAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBFAsGAAE2AiQDCAQgBYMtBzMblwTIjsJxr7lZyhYFFzMe/n+/fvvcuV/EH6JaiaqR5I3myTSR3NI0tP4sVBaRPIPnFiT7KVpgs9FDI8LucLRTj50Wb7xUwDMqyti4tFZa8ZbmjFegYk1txrsf6O3B3vQF7Hdn20Ft0TxKWmJJjkc7XivkeBBzVZHupd+4kj80/upzjiSXAEQrADbtdDg4xmM84nflA/HbFkBAbAZQCJRQwqAAa5UEBmUFsiwYj0ol/AcWBBDVZNMEMjLmYQUggyTlPFzTUNWUd9Do+r23u292CpFCiFtdd3oijgZis0OOwHD4SBTCmPy09ek/4Xf+28ir5vHx5lYFClcp6zVXLxttbh6tatuSY3t5CfiBQPCo5+FY0LL2f21DAn++nhf+FVWOKKenqJVAUJpbmWtflCHKAgCQ4gwxyggk0yT0ro1uCxDqESCpVi9AyYBWAbJ6cwSoMmyZANXqbYVFrhM67e8gaXQclCx3FmSd3oEqa33TqnVGyWWoB6c+bPFMQ7SL2PMXFquLpaPRXkBwc02xLUhnYmIWDILcoLfKpCqrQmbc3HSYBVNfRCwy30KF1Ypj/7Hfl5ktKoM+tVmjuK/MdMbOnwUyIqiL2ZJEpEbHtOlj1vdRvwIAAA==");
 
 export default FlagPennant;

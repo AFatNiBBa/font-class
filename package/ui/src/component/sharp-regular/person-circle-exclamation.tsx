@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-circle-exclamation` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-exclamation?s=sharp-regular person-circle-exclamation}
  * @preview ![person-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/person-circle-exclamation.svg)
  */
-const PersonCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M112 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM94.8 128l14.1 0 102.2 0 14.1 0 6.9 12.4 64.1 115.7c-11.8 14.3-21.4 30.5-28.2 48.1l-2.5-4.6L224 224.9 224 488l0 24-48 0 0-24 0-136-32 0 0 136 0 24-48 0 0-24 0-263.1L54.6 299.6 43 320.6 1 297.4l11.6-21 75.3-136L94.8 128zM144 304l32 0 0-128-32 0 0 128zm288-80a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm16 224l0-32-32 0 0 32 32 0zm0-176l-32 0 0 16 0 80 0 16 32 0 0-16 0-80 0-16z" />
-    </Icon>
-);
+const PersonCircleExclamation = createIcon("person-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhQAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCRAsGAAE2AiQDCAQgBYMtB0AbVAXIjsQ4JvGLKEzi4b+1Pu+r7k89y1ALABhGxZYAhQOyOZHRUyHvE5fTH+e/+WmRP9qebZAFtud5Ap3n3WPDplAWWCIJeVPzHhqo63NIvkIZv8ajGkhPpl/wiP6h8a/u7iRpKABEOwDM27JhlS/+ir8ifq6/S/xsBQJiHsgCBQr0EmCmQqCXUkapFPwV9Tr7D8wEEI3Md06gRDNux8OAEiSNZdl6TEvPlva1htbl5lpDtePpIc8Perb7EwOfGfxcj421qtY5NsUL3brE5kghqoiIqEKSUcTG6BbTo2dsia6b2ko1Nx54YFrEh6NedevIV6Z+UN0//aPRr8VtY16f8XFtU+gL1Gq1Sogl84r+L7V76T+/HP7FmUeq0zfccLryTmy3pk2b20+Yc0HnJzsatlyTbsYy9F5ZSX6pydDl3vG4dyy/x4mxr+ecb5Xd2nfNkEQa12/w4H7jUhoyJCWFtn9mkyfLb+SmdtZqJwteBoFg54or3+xpO/P/5loC/3w0uD/qX6S56SU0SyAoRtZH2pnmChgNtRSX9a86YCC5brbe1cpjAoQKAZJGlYQp9NSOKVVGMA36mHRFo8oGhShbhE52SZiklXNMYbKbmFInbzMNZvq+2qhTFJuivCHJF4IZi7Pwon153OixeXqu7YqUrUtUtmfkzsHQy3xqGMx02BmnXXTIQcdczFDnrWpccsriJmSRL8rGGW2sbLo8eHDx+GaHnHfBMWec1naZIU9fGepy8+JhME5MwfGakkSk7luuM+qhnelR/7mI9p06wQAAAAA=");
 
 export default PersonCircleExclamation;

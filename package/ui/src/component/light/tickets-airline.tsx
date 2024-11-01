@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tickets-airline` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tickets-airline?s=light tickets-airline}
  * @preview ![tickets-airline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tickets-airline.svg)
  */
-const TicketsAirline: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 96l0 224c0 17.7 14.3 32 32 32l416 0c17.7 0 32-14.3 32-32l0-47.5c-23.7-11.8-40-36.2-40-64.5s16.3-52.8 40-64.5L608 96c0-17.7-14.3-32-32-32L160 64c-17.7 0-32 14.3-32 32zm484.1 45.6c.1 0 .1 0 .1 0s0 0 0 0c0 0 0 0-.1 0zm.1 132.9c0 0-.1 0-.1 0c.1 0 .1 0 .1 0zM160 32l416 0c35.3 0 64 28.7 64 64l0 56c0 8.8-7.4 15.7-15.6 19.1C610.1 177.2 600 191.4 600 208s10.1 30.8 24.4 36.9c8.1 3.4 15.6 10.3 15.6 19.1l0 56c0 35.3-28.7 64-64 64l-416 0c-35.3 0-64-28.7-64-64L96 96c0-35.3 28.7-64 64-64zm320 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm0 64a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm16 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-16 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM16 96c8.8 0 16 7.2 16 16l0 256c0 44.2 35.8 80 80 80l416 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-416 0C50.1 480 0 429.9 0 368L0 112c0-8.8 7.2-16 16-16zm274.3 74.9c1.6 4.9 .8 10.2-2.2 14.4s-7.8 6.6-13 6.6l-45.3 0c-4.2 0-8.3-1.7-11.3-4.7L207.1 176 196 176l7.3 21.9c2.2 6.6 2.2 13.7 0 20.2L196 240l11.2 0 11.3-11.3c3-3 7.1-4.7 11.3-4.7l45.3 0c5.1 0 10 2.5 13 6.6s3.8 9.5 2.2 14.4L276 288l20 0c2.8 0 5.5-1.5 6.9-4l30.4-52.1c2.9-4.9 8.1-7.9 13.8-7.9l41.6 0c11.8 0 23.1-4.7 31.5-13c1.6-1.6 1.6-4.3 0-5.9c-8.4-8.4-19.7-13-31.5-13l-41.6 0c-5.7 0-11-3-13.8-7.9L302.9 132c-1.4-2.5-4.1-4-6.9-4l-20 0 14.3 42.9zM264.9 96L296 96c14.2 0 27.4 7.6 34.6 19.8l-13.8 8.1 13.8-8.1L356.3 160l32.4 0c20.3 0 39.8 8.1 54.1 22.4c14.1 14.1 14.1 37 0 51.2C428.4 247.9 409 256 388.7 256l-32.4 0-25.8 44.2C323.4 312.4 310.2 320 296 320l-31.1 0c-16.4 0-27.9-16-22.8-31.6L252.9 256l-16.5 0-6.6 6.6c-6 6-14.1 9.4-22.6 9.4l-22.3 0c-16.4 0-27.9-16-22.8-31.6L172.9 208l-10.8-32.4c-5.2-15.5 6.4-31.6 22.8-31.6l22.3 0c8.5 0 16.6 3.4 22.6 9.4l6.6 6.6 16.5 0-10.8-32.4C236.9 112 248.5 96 264.9 96z" />
-    </Icon>
-);
+const TicketsAirline = createIcon("tickets-airline", false, "data:font/woff2;base64,d09GMgABAAAAAAOEAAoAAAAAB6wAAAM4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWiFDgsGAAE2AiQDCAQgBYMtBzYblAZRlA3GdbKPw7jhK60EIoYobeJgMrgKXpTiJ57nfy297w+E0BEoIhUWlo1NZNRGKGhZ+roKs6e2OnoMkrNmEu8mPgB6sCNaARWE6lA/W05cTn/Qf2MD/sAA81D2xJ6yMWmMqQs7D8OyojVoLLCsKGFMs7lcHwdIwnH8tlDndyKoKb8Vz8Cb+6H5z9VqoKgrAGQSAFw91Ffi1mT6ybPuCuSPchDINYBlRIUK8whOKQXzVJZBrRb67Dr5H7gMAdLCR4tFNcbIBmQPulMpRmqVz4QMGKIru54WycaoapKNaAf1HLdIIzc5byN502tfOrnCaaswcKPDZvS+sq62KkAv7jOOGo+EnnAFvzkcdtkRuMUR/BVyPMDAo2En3chd4aeCe7c5b3Hc7LDVCbnBU0pgaugAfTEK7gk9kWgkl6wFri7lpeQ2594tDpuF4EYnJwq6xp3oQknnbJOSmxwboIdzk3O8cjlvc9q6zBbHLMrzXg7LI64OHhKZkNAtWO5wvDc4ItsDBLfaQs7uFHTIZmXD4pbEts15X8qREuvF/U5aTn71fTb0zLLuyf6kaf16035gTLR6D4+6GHS6ZyLhs9aAc/fX/plWq0jh+W5Mrx97t5ACYUu6Oij9ZBWWXW2anDRFphxX8x8KbjYPW16+5DEAmwYt+8Ej9vvx/Z8Z8D3WsuDCIl0kbcFJSAwiNXUQEjeRoI2kKyoM/gIHqPz/olgfxvbMz++ZLQz64rfsagdfXMq8vb17Ln7ER2yCL7wHd5lMuwa9fbEJF3u8ZePWyGPEOVg12W50apDOIeJx5BZm/NXEej5AEJ5f4i3d5tNPnVQA/t38/pmdrpssPcVJwKACQrXVRegoPQDZTXxPyWL4TejTGMqThHcd9QMEMYyAojUsoDLHgqA2bBNBY1EigtawG0qp9YhZnTZWjHrCKieWYLVZl7DGqYfu1myU94vibFf8raYtasKFo3xio2J80nxGMwrlLSCzOtN9FltDFquKUJqDIXPMttCgAaOZpCGYr9K3yCxFU6KFv/URK0oMH2l8NufvxjYZNN8Co8Pq7YOk8zmeCrF4un4oORR8sQeSikKK+d1hjPxMAQAA");
 
 export default TicketsAirline;

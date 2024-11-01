@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-pilot` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-pilot?s=solid user-pilot}
  * @preview ![user-pilot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/user-pilot.svg)
  */
-const UserPilot: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M230.1 .8c-4-1.1-8.2-1.1-12.2 0l-152 40c-8.6 2.3-15.3 9.1-17.3 17.8s1 17.8 7.8 23.6L80 102.5l0 8.4c0 10.7 5.3 20.8 15.1 25.2c24.1 10.8 68.6 24 128.9 24s104.8-13.2 128.9-24c9.8-4.4 15.1-14.5 15.1-25.2l0-8.4 23.6-20.2c6.8-5.8 9.8-14.9 7.8-23.6s-8.7-15.6-17.3-17.8l-152-40zM161.7 72.8c4-7.9 13.6-11.1 21.5-7.2L224 86.1l40.8-20.4c7.9-4 17.5-.7 21.5 7.2s.7 17.5-7.2 21.5l-48 24c-4.5 2.3-9.8 2.3-14.3 0l-48-24c-7.9-4-11.1-13.6-7.2-21.5zm-63.6 96C96.7 176.3 96 184.1 96 192c0 70.7 57.3 128 128 128s128-57.3 128-128c0-7.9-.7-15.7-2.1-23.2C310.8 183.8 268.4 192 224 192s-86.8-8.2-125.9-23.2zm116.3 240l-72.3-54.2c-2.2-1.7-4.9-2.6-7.7-2.6C60.2 352 0 412.2 0 486.4C0 500.5 11.5 512 25.6 512l396.8 0c14.1 0 25.6-11.5 25.6-25.6C448 412.2 387.8 352 313.6 352c-2.8 0-5.5 .9-7.7 2.6l-72.3 54.2c-5.7 4.3-13.5 4.3-19.2 0zM336 416l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const UserPilot = createIcon("user-pilot", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABiQAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCLQsGAAE2AiQDCAQgBYMtBzEbLgXIhod//Pu3fS4+wBvCI6iK9JI1FdwC7lI0Q1Tq3vyf6/mejwb4eQRDi8JKkEgc9UU/P4EDnF1wU4FHgU0U723DkyMKGw0REZSoxsvx2kIWj6ePyUnOJl/jSP/R+F23x0hUpwCiCQBLdm3b4P1v4puIr8qvEF9Zh4BYAgqBFCn6BJgvFeiTKZDJBN9EuVz+AwsCiAq0XQIyVOIOPIalok/Ks2xoa3NPQ21en+2szWv2nW7bHifbTraPCfFQ+zMzXqk9MOu1UaWIGBeljtMdO7eX2ufEvCi1n2qbHSc75sbpzu0nPbHgnRWfLXpv2MMdn9fsX7tj546dp2s+nv92cXZEfTzX++TCd1fuP3rZjh21NbWn2k+21cTpjlLn0BebXvxzyNdXfO3Hd7dsKY1ybsKEM7ep0vxzV0WlNFRWdP3cXOU2Z4Q9591w2ar7PnnUoz657/xP/3Pppf/59PxFF/bU5dOXbd68bHpe1/PssmXP3vr3qhmjeWj+0I4dVZ03H3RzZxVrD+VD7QanTt1dURTFNw0N3xTm+UAgqC7ddf+FjfP/qapNwHdv/v0/nq78fryfvIgqCQjS8eXxzov3AdABOEncYWjQskDiBjnQvdY5LUCoQYBEhRoBUr2aBMjUGCdAbsAMASrU2CYVWbXQ5nwBiTo3g9RM94NMm5dAbr7PnAptkaYfmTzk7y9upYZWLCqmTJxczC3cDFMZhdfZecUyP/oO7BkDa13hRje4zeUuc7XbFHKLDf7trrcygldoUWGKiSYrzFVsl9vlO13uFre62o1uaPPMU9y3R7sjHj4GpARhTpVKJERS82YTE266+robbwM=");
 
 export default UserPilot;

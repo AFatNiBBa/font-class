@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `window-frame-open` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/window-frame-open?s=solid window-frame-open}
  * @preview ![window-frame-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/window-frame-open.svg)
  */
-const WindowFrameOpen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 224l0-160c0-35.3-28.7-64-64-64L96 0C60.7 0 32 28.7 32 64l0 160 0 64 64 0 320 0 64 0 0-64zm-64 0l-136 0 0-160 136 0 0 160zm-184 0L96 224 96 64l136 0 0 160zM96 448l0-128-64 0 0 128c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0 384 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-128-64 0 0 128L96 448z" />
-    </Icon>
-);
+const WindowFrameOpen = createIcon("window-frame-open", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZwAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBVwsGAAE2AiQDCAQgBYMtBzgb3wRRlMzBGNnH6tPZWBGX4uH7tT7Pfd0ztb9nGXqZ0QFBEkVgiR0Lv2BDKnoSPwZl/q/5/J4fHeC3Izu0aMocrikqnk9ggLPwKOEosJlOwGbt7BYS/n8xSBKSDOMNmy3k8V12RYX0ZvoT9+VD4y8dXCFpyABEcwBMX7tysZ9fxsuIP+pfEH9YiICYDkqBDBk6CzBJJtBZrkQuF7yMet39B5YEEFV2bwnkqGIZVgNykOR53qahIdO9VmmSr6lVip0h3hrwaZ/G8X6/j9sLUWsSRVErImpBL1kVoghxq/UTF9o8rdWa3G73PC62fVbEbE3jHp82//Sf7n/u+dOLF29betGixdvTvF2WFG+bZtqFadNuIONtN7z9tRrXX1xAwTQXNL1xo2nQyrdr5IJp1gEF4rANp8fb2mzS/41qCbz+9j/Sr6j+c5I+RSMJBNmg+iCbEkgEACDFGT0SBJJ5cnKtjT0TIBQIkFQVAmQ6aS5ArjBQgIquRgtQVVgpE3mD0NrmBpLGjoPMGGdBrrXPQMUkv0SrWkfGKZIR5Jcubk4PzV5UPmRYOaFc1lSKJnicnVgei53xPf2x0R5HHXHKbrvsd6pDTlicOO2wOTt4ti8qDTfEMKUJyuvm4+o1djvhpP2OOpLnmah87/ZzZj+8P5TEMEcoSRKRWlBRGExofjDjAAAA");
 
 export default WindowFrameOpen;

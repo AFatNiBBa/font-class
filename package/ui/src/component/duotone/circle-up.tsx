@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-up` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-up?s=duotone circle-up}
  * @preview ![circle-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-up.svg)
  */
-const CircleUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128-22.3c0-6.2 2.6-12.1 7.1-16.3l107.1-99.9c3.8-3.5 8.7-5.5 13.8-5.5s10.1 2 13.8 5.5c35.7 33.3 71.4 66.6 107.1 99.9c4.5 4.2 7.1 10.1 7.1 16.3c0 12.3-10 22.3-22.3 22.3L304 256l0 96c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-96-57.7 0C138 256 128 246 128 233.7z" />
-        <path d="M242.2 117.5L135.1 217.4c-4.5 4.2-7.1 10.1-7.1 16.3c0 12.3 10 22.3 22.3 22.3l57.7 0 0 96c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-96 57.7 0c12.3 0 22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.1-16.3L269.8 117.5c-3.8-3.5-8.7-5.5-13.8-5.5s-10.1 2-13.8 5.5z" />
-    </Icon>
-);
+const CircleUp = createIcon("circle-up", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABhQAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCFgsIAAE2AiQDCgQgBYMtB04bNgXIhofvdfme+6TdsaXPoA9AECAqGmydKhUA1J6URPVOf/PPO28DPhCpjZ2HYwLudZ5A51mUb0oooW/6AegL67d29oMM6rNI0vXxJMOiN4xskMd32f1qpFfSF3iK/wcwftXT/STNGYDoAIAF2zat8U5rtKb4ovEW8YXVCIiFoBLIkKGPALNlAn3kKuRyQWtqNGiNRqMigKjjH5iBOmo4iRuAHCQh5fng3oPKWtt8a1krdm3etvl5rwwpQ9zd9YWyjMe6vxQRZbzW+55uW+PF4tEu8eOCiHfXfFk+tu7rRe9v+2nhe2u/Kh5d/cX8dzZvu6f7tnipfKzrtxte8PLgIsTdXZ4vini024sRUcSrvQa+2eHN3wd8cfQLf684edAtHy06T5hpv3YPP9yuSvf3m2lC5+LoyYO2NDVt8Y4lzfRseXfRondbejZbgkGQ7uo6hhyyedTmBRs2PQcCweX7t/6yr/3s/5vKBH5++89/8xdJ450kvYkmCQTZ6MZouxNIBAAgxVUDE3cjkJkriW9t40UBQoEASV0hQKa3DgLkCqMEqOlnigB1hU0ykTcLXeypIGnjAshMdQfIddECamb72KzrEpnRMSbDPPkSlyK0ZKqaMHZ8NbPqBgprR1QYzqqmpeFXfWEErTrqnLMuO+KwEy4DedEa54ozlmrwEh9UmWCs8SozVcvxUtwK5kWXnGjz62NmqfbLw13V60fQPAkw8bhcGZEi6/g5Rxlz5fyY21voLPh7Cg==");
 
 export default CircleUp;

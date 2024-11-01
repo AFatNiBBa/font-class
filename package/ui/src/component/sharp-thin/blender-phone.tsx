@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blender-phone` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blender-phone?s=sharp-thin blender-phone}
  * @preview ![blender-phone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/blender-phone.svg)
  */
-const BlenderPhone: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M83.2 241.4l3.4 11.4 11.9 0 31.3 0 26.8 68L99.1 363.4l-4.7-4.2c-104.4-92.6-104.4-241.9 0-334.5l4.7-4.2 57.5 42.6-26.8 68-31.3 0-11.9 0-3.4 11.4c-9.8 32.3-9.8 66.5 0 98.9zm92.8 85l-35.3-89.6-42.1 0c-8.9-29.3-8.9-60.3 0-89.6l42.1 0L176 57.6 98.2 0 83.7 12.8c-111.6 99-111.6 259.4 0 358.4L98.2 384 176 326.4zM471.5 352l-234.1 0-28-336 346.1 0-20 80L360 96l-8 0 0 16 8 0 171.5 0-20 80L360 192l-8 0 0 16 8 0 147.5 0-36 144zm16.5 0L572 16l4-16L559.5 0 208.1 0 192 0l1.3 16 28 336L208 352l-16 0 0 16 0 128 0 16 16 0 320 0 16 0 0-16 0-128 0-16-16 0-40 0zM208 368l320 0 0 128-320 0 0-128zm144 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const BlenderPhone = createIcon("blender-phone", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABlQAAAKhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDAwsGAAE2AiQDCAQgBYMtBzQbhwXIjsM4hnxgMmnxIsHz/3PlfT9ZSoaWOIuMRXDApAlUVR2CArJ7KquHgHZ+UXd1QXddxNEAm010ZKMRTnSkw83/Nf3ajtq/HdmhReGtgquAMnlvAgOsogqQA5kNZxPFLW67WlNMQ2OhcQa6fGOeB6hL6g1wInyoLBFqLxSaBgCAuAAAgJqjr4Nnv+W3yGv3A/KaNiAAUgOARQAN0IAIAkA5DQEi6FhAR0fgt7jd4j/QAgEA8SRdpwDQAR/gMniCuV2AwkvXo0JDI318/E0Puz5oehhDgUGBpjkg7RIk73If5T3uCpYO6RfDCJCbMQOD9iVDrkebMiSDEiAf+h/kfO0JlKEZwzRGxX4ogphmnmeODY8Fi2ELlJGpRHnTLmKHMW232RGbyMC5wLMB54MuBHNkiFyQXUHnjcMBZ9nZz5mxt1y3/sW8WXxD71uWDrFFh9VxSZ3KHB5uVtZz2WRGdCnl44fx/thhkpXK9++p5El0TL6zoVVHR3trw/ehLyl0KWwJ72KM/+JBcuF9p0AX887GnXD1ddlLqnCdTsIXdpeLnVxcu/Ftzmo6ayfVdl5Zvx2O3zo723EQDlZZgIUAIFdduydmp5zl/71NBcDfp9+Sv9P9u5+panUL8EYBIKClu9MZj9U7BAxBSAklW4nFXySA4jQv8LvaOE8AEAxAAFB4YiAAaIRzEQB0DNIIAB5EKSAAeGLQR0N0H4QAEx0obGwAGoW2AZ0Aj4EH5Z7HPQkIGqQqcKb8KGY2juGGcVZOZrZVam0WVBX4JDtYZp22krfKhhS8lUXrrLXZgnkrbB5RG3WktlijcY9s8EOWHJmyWUpZt8vP1w9asNEmK6yz1o9Sxno/nGzrfvsU7FIk0Vx7FQpE2WdXL6ydX9iY8T0DAA==");
 
 export default BlenderPhone;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-night` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-night?s=sharp-regular house-night}
  * @preview ![house-night](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/house-night.svg)
  */
-const HouseNight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M146 5.3C135.3 1.8 123.8 0 112 0C50.1 0 0 50.1 0 112s50.1 112 112 112c40.6 0 76.1-21.6 95.8-53.9c-9.9 3.8-20.6 5.9-31.8 5.9c-48.6 0-88-39.4-88-88c0-38.1 24.2-70.5 58-82.7zM256 0L234.7 42.7 192 64l42.7 21.3L256 128l21.3-42.7L320 64 277.3 42.7 256 0zM96 320L74.7 362.7 32 384l42.7 21.3L96 448l21.3-42.7L160 384l-42.7-21.3L96 320zM415 109.3l-15-12-15 12-200 160-18.7 15 30 37.5 18.7-15 9-7.2L224 488l0 24 24 0 304 0 24 0 0-24 0-188.5 9 7.2 18.7 15 30-37.5-18.7-15-200-160zM528 261.1L528 464l-256 0 0-202.9L400 158.7 528 261.1zM352 288l0 96 96 0 0-96-96 0z" />
-    </Icon>
-);
+const HouseNight = createIcon("house-night", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABggAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCNQsGAAE2AiQDCAQgBYMtBzIbNwXIjtFjx2OJB7EcADmSMfE8/b157vtva7FUrFSpWyZaCBJckGCsIUdkJxqBtWAcNXsWEqwGqMFuTurmJ87/5Z4fHR0d4PcTP5QxdgNkLBxj8wbred7LpyXQywLLLAHN3NUUC6n9loSyJH+fe/xcoOY3NWOm/JRj8KEfmn/iyoGi1QAgUwDAfYCPN3Yvsk6ONkuQX56AQO4B+wgNGmwjcIVRsI3JPqiqsKbN//AfKAcB0ob8uAVUdLECvAOggqJdmcT5+RU52TmZuZn8B8wcIZ8ciwejUl3qY8Z1qiOS7RzLR+MyJZIdqgFaulpmZE7apEuWZEE6gUNhjIiwiBD5RolfWpVECZEBNxGRMCmTLqmQ/wvIMEQB8XsGGYSIQ2Gcb/xV/jj+WMv6j8DH+z9e3n/vH7KNDQ+3M7vqaibpX79+0qrHo8cgBuEBD+jSHtsU2pw8S769Hug4j5hKbEKM2EN8E5UzsQgyv47EAIaL4sIZiUiS4J8HBOHo3yg4gtfqFxsnA+Bv/f2dPrzZLasyDroKCM3J/xOhDMWgbewjXLIknwIdMSje8J7vOvQJAtFHQNHWF9DYwodA1XeMQMsuYwTa+p7AKJUdsRTWQDH0ChqXCkC1tABaruwl2pZhhCADIOYHmOjSQ86H5PR19OQs5JZ1lUUVlect5bZNtXzuU6eziEcG0pGLOMQiCbkdmg3vdB7S4GIhzvgi5OjToUeOBbnj1vNpf8QhGzlIQgbSyyqW5O7H1eTbo9XJYSC4p0qKQgonPGVtnAIA");
 
 export default HouseNight;

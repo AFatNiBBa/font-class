@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-peace` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-peace?s=thin hand-peace}
  * @preview ![hand-peace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hand-peace.svg)
  */
-const HandPeace: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M246.1 16c-17 0-31.1 13.4-31.9 30.4L204.1 253.1l1.2 2.9 34.7 0c10.2 0 19.7 3.2 27.5 8.6L278 49.5c.9-18.2-13.7-33.5-31.9-33.5zM187.1 272L136 272c-30.9 0-56 25.1-56 56l0 32c0 75.1 60.9 136 136 136l80 0c75.1 0 136-60.9 136-136l0-20.2c-8.5 7.6-19.7 12.2-32 12.2c-18.5 0-34.6-10.5-42.6-25.9C348.6 337 335.1 344 320 344s-28.6-7-37.4-17.9c-8 15.4-24.1 25.9-42.6 25.9l-72 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l72 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-36.9 0s0 0 0 0l-16 0s0 0 0 0zm2.6-52.4l8.5-174C199.4 20.1 220.5 0 246.1 0c27.4 0 49.2 22.9 47.9 50.3l-7.2 147.1c8.6-8.3 20.3-13.4 33.2-13.4c20.6 0 38.2 13 45 31.2c8.8-9.3 21.2-15.2 35-15.2c26.5 0 48 21.5 48 48l0 32 0 24 0 56c0 83.9-68.1 152-152 152l-80 0c-83.9 0-152-68.1-152-152l0-32c0-29.5 17.8-54.9 43.2-66L37.8 94.4C25.5 64.7 47.4 32 79.5 32c18 0 34.4 10.8 41.5 27.3l68.7 160.2zM52.6 88.2l69.9 169c4.4-.8 8.8-1.3 13.4-1.3l51.9 0L106.3 65.6C101.7 54.9 91.2 48 79.5 48C58.8 48 44.7 69.1 52.6 88.2zM432 280l0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 48 0 8c0 17.7 14.3 32 32 32s32-14.3 32-32l0-24zM320 200c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-48 0-16c0-17.7-14.3-32-32-32z" />
-    </Icon>
-);
+const HandPeace = createIcon("hand-peace", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABuAAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDcAsGAAE2AiQDCAQgBYMtBzEb8QVRlA5Gk+wjobrtRXMMF8yEK8yRSnvGB1LFw/f35rn3v00t1D2hSumgFSRemmisgS5gOmeWArQT7BT+Pnxd+t6u5yee2UA/ENrGnBQ0D8ce4env5/mnyAXgMxpaZWlEnE9g5zsPbircOApsorjBeaMerT6E9hWUeHDITN7lY3DlvjS++JhNqioAMQQAtg6aanC9zXZEqz5DtFSBgNgGzCIqVJhEsMooMMlkFhRF0I66Zv+BEgKIDuEtEhR04R18AiggdZQyvprp5uMjzP3lhy7MSqeFKrlabaYWgou0Vs5wrFWaFaHsVld7gzvaXCkRvNfuWii5Wtnruz4MZyhc61jntRf1WidWMIszGA49aG7dNJcu9mhr0EzrOeOzLrLdwwcEwdd5l5sVvm17VSdn+G2K1LkRe/b4tOiVZ50QHORE7FZXaz2Ia8ULWxjwTtfWiKd01D/bjpGO3HWckKbbwa/Bj/s+xrdjzvOBeU72pzAgFG7n7W/hOn+BS06dGs42/P+fVbL30ZfXY7nex6565Hn9/fPu3Z+/v16O7hZL93K4zJ/vIpeFAwA3AECo9Qi7sOfjx2r+lyeaZSUeq7z8JT/p8xOj5I0sMP/AxnzWI58bDzBfwnHieFTxPsy9eXP68QfF2+fPKtkP5tZb0zRcwXA3TJrUdeI1GYRPBZPY0Jq9j+qIWjVsLN8S5HY4QCB4+mszp5vr6n+XSPBx//dbXW+qvs7XbKJLgqCar+N0TqbkxysCADIuhagZEulNZN1qn2sBQg8CpA49AlQmuCEoeswhaJiWjqBDjx1GUbqFMV1akPqcgMqKKaAYcwo0rLoX7TAWxgTOT57838skpX2oZJpMTkiSOXKxrBakWa4ez5W7NVFjeVs0XIi+hhlqtD56G2B0jz1STWKMIUrXyBI/JCVLkETKIU/XHot17DHSKM6dF56fJJe83xFl7HrvaKg3CBwXZKUksqc8yOKLCw==");
 
 export default HandPeace;

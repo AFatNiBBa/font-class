@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eye-slash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eye-slash?s=thin eye-slash}
  * @preview ![eye-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/eye-slash.svg)
  */
-const EyeSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M13 1.7C9.5-1 4.5-.4 1.7 3S-.4 11.5 3 14.3l624 496c3.5 2.7 8.5 2.2 11.2-1.3s2.2-8.5-1.3-11.2L13 1.7zM605.5 268.3c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-47.8 0-90.1 12.9-126.3 32.5l13.7 10.9C240.3 58.7 277.9 48 320 48c75.6 0 136.6 34.4 181.7 76.3c44.9 41.7 75 91.7 89.1 125.6c1.6 3.9 1.6 8.4 0 12.3C581.7 284 566 312.4 544 341.1l12.6 9.9c23-29.9 39.4-59.7 49-82.7zM83.5 161c-23 29.9-39.4 59.7-49 82.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 90.1-12.9 126.3-32.5l-13.7-10.9C399.7 453.3 362.1 464 320 464c-75.6 0-136.6-34.4-181.7-76.3C93.4 346 63.3 296 49.2 262.2c-1.6-3.9-1.6-8.4 0-12.3C58.3 228 74 199.6 96 170.9L83.5 161zM320 368c7.8 0 15.4-.8 22.7-2.3l-17.5-13.8c-1.7 .1-3.5 .1-5.2 .1c-47.2 0-86.4-34-94.5-78.9L208 259.4C209.8 319.7 259.3 368 320 368zm0-224c-7.8 0-15.4 .8-22.7 2.3l17.5 13.8c1.7-.1 3.5-.1 5.2-.1c47.2 0 86.4 34 94.5 78.9l17.5 13.8C430.2 192.3 380.7 144 320 144z" />
-    </Icon>
-);
+const EyeSlash = createIcon("eye-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjgAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCLAsGAAE2AiQDCAQgBYMtBzAbLAXIjsK2eXMkMVkyZXDg8I3g+/1+e867iEm1pJrUSmRIdEKhWQuERgkWf6hw/H7ubhsi/oaIeoJqHk2lLhQgif+pUzUDJwXwTYI0tiXnAVkenKPlXgV6vub5miK1Yq2iWHMzORGlILgFkYax4LA8GdbfQYkfydjI9zwHnulDowZDmklVBQDRCQBg9y7IB7ZZwUI8pxaITzgCAmIPAJMQFSqMQrCBLjCKYRIoiuALKcr8BxIQQNRDenWCggY8Ak+AAlJdYfAyiZAQDxsfI9Rv4Y7qEG0TK8D2gU7xwgK9vUd30nbTctX1fl8Mz9wOVlfMFp0JqXbRPmsx3JrIXZddVLsb3WZj5HF5OhLHY+dDxVr2YLt0h8SgnXhIq4QqtjQvTo/K09T+qRETbOlVwdaWBafKQR0Y7WSqOCo4+sw8Tz3X+nHlbOKc98q/8JzLymotMZEYvL9vu2HsiaGv+v2HCYGEgBExsRveExj/5crUvfPyGlvA9JlMMadHrdQuW4fHgFbpt7cHyIH8/wvrq8ES+B4HAsHfV5pznID1GycPDeBn9fWbzqT+qc1szFE0ShBUs5S26KxnoP8eQrIySkER3wSIdI8N3rXViwChGQFSvWYBKiMEISiazUBQZ5wJBPWaXaGLwgWhV0wBqdUDqCypAUWvOVBnw5FVrzfo4icKj/jzl+Zaoy6DiIGuPrEkU1+WJIoP3VZk21AvtTkNbIFUeXIVS5Esg1QVXcjHLZHDlaNc/BBhQJc+whK5ju43h0pRqEiGPLmxHyvkvamulK/WwHBogLkPB+XcSK6UihSdouyEonQAAA==");
 
 export default EyeSlash;

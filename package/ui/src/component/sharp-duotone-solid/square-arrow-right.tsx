@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-arrow-right` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-arrow-right?s=sharp-duotone-solid square-arrow-right}
  * @preview ![square-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/square-arrow-right.svg)
  */
-const SquareArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l448 0 0-448L0 32zM80 232c8 0 16 0 24 0c60.7 0 121.4 0 182.1 0c-23.7-23.7-47.4-47.4-71-71c-5.7-5.7-11.3-11.3-17-17L232 110.1c5.7 5.7 11.3 11.3 17 17c37.3 37.3 74.7 74.7 112 112c5.7 5.7 11.3 11.3 17 17c-5.7 5.7-11.3 11.3-17 17c-37.3 37.3-74.7 74.7-112 112c-5.7 5.7-11.3 11.3-17 17c-11.3-11.3-22.6-22.6-33.9-33.9c5.7-5.7 11.3-11.3 17-17c23.7-23.7 47.4-47.4 71-71c-60.7 0-121.4 0-182.1 0c-8 0-16 0-24 0c0-16 0-32 0-48z" />
-        <path d="M377.9 256l-17 17L249 385l-17 17L198.1 368l17-17 71-71L104 280l-24 0 0-48 24 0 182.1 0-71-71-17-17L232 110.1l17 17L361 239l17 17z" />
-    </Icon>
-);
+const SquareArrowRight = createIcon("square-arrow-right", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABjAAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCGwsIAAE2AiQDCgQgBYMtB2AbTQXIjtRW+YRkEg//7Sd538xPFoD+AjCUydUt2BLFFY3IqSWwTbqrh0x/P/n/tk8F8vi7Z3Kcx+K883wCOx+2RtHAS2g6Q9vgvEmHFNIQ0k9QxMP8QIX0XvoJr8T/Axi/6OYBSbMMINoCYO7m9SvV6lFP8VPjQ+InKxAQ80ApkJHRU4AZskBPhRKFQlBPjQb1aDRKAoiq+PkzqKKC07gKKEASUlH0aTa7RaVVsalFpfn+IcOHbIghMSuGx+Zo3jyiRYtNMSxmx9DYGENzyqlV5Gi58YUWES+0oNzXs97uzM2OtzqRj4cKKHizIwxqK+CKJ8Pe6XI3vpn9fHNI3o37+z1p++S3fjr0k6vf4PRptMOiRT7uOkbXj3VMu3X//Vqqw0Wrv61W4d6okfCg/uM2LujXr53Lh3j2WRZMGDd+2H/40p9t2vXbuJFnrjCu/8iTejWFWiIeCgT/Tzl4aXebGf81bZHAz5//sebuRj1q6QmaSiDIIxoj7IgaMH4APyrFJf2iZg0C2RIJ+tSW3hYgNEeApKq5AFkPbQUoNDdcgIreJgpQ1dx6WRTNhI52DiBp6SzIJrkJCh19ACpm+Dap6hjZ20meRvrrS180RRYuKseOGlNOK3drOtknCXp2ennZH3KJ9wyFex1y2ikXHHTAURcm9DkrcxedtOiIWuiLSmONMkZpmvJx8+X2TQ4657yjTjsVzTNd+X00xKXj4UPhchJgnIWVZCJF7u52tZFFeO705aBrj/TEw3quq24W");
 
 export default SquareArrowRight;

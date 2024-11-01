@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grill` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grill?s=sharp-solid grill}
  * @preview ![grill](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/grill.svg)
  */
-const Grill: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32l448 0 0 64c0 89.8-52.9 167.3-129.2 203l55.2 128.9 4 9.3 9.5 22.1-44.1 18.9-9.5-22.1-4-9.3L316.7 416 160 416c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64c3.4 0 6.8 .3 10.1 .8L129.2 299C52.9 263.3 0 185.8 0 96L0 32zM151.8 368l144.3 0-22.9-53.4c-15.9 3.6-32.3 5.4-49.3 5.4s-33.4-1.9-49.3-5.4L151.8 368zM96 440a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Grill = createIcon("grill", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABZwAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBTwsGAAE2AiQDCAQgBYMtBywbywTIjtMF9c+Ql8TDh670fUl749OaQUaijqEjhNKdqzUEsMr0N2kzLlNvftW+j50Wb7xUwLMO97Gw8YIskNKc8Qo0vub7Fpz2YK8vaK/bxAl6SNEbIUES0XGFx9cRsniYnlIiuZ/8iav1Q+M/bZwiUZsCiMYAmLxy6XyVuqiL+KMa8Ye5CIjJoBBIkaK9AOOkAu1lCmQyQV1Uq/IfWBBA1Gj3kYAMJczFUkAGEmmWDSzXlksNshXlUp42qN9A/DOpMmt5tIg2MSraRkt+3Dzu9XrX7U2fD20f9v3Y82KLofH7lK8rYnU5Lw+JV/mFHoOWvW33oMer1ve7d/nQ+MOPzn9u+tOzSqUyianduz0cccwot3112ih/eyxv0uTZsyZNcu4vTdroYbfupk66u/Aaxjc40Kbthg0jZy5u0WIx0EBcdnF2dZ9G4/6vV07Av5//ATdX66KSfEA9CQjSftV+1kUFhBjAT0rikC5RQSAxVYrftb47AoQcARI1cgFS7TQWIJPrK0BJR8MFqJFbKhVZrdDc+gES9e0FqREOg0xzn0DJOL/INZpHmk90NtDfuYQZHppeVQweMKgYUywNnUkR0opji22x1yEN9KaDNtltlwM22mCrAw7ZZ7520E4zIni6LyoMNsAghTGKY/t5e4WN9tlvq912lTJjFfelXg7F8b2pjgQw5CVI1UVS2rxv644dAA==");
 
 export default Grill;

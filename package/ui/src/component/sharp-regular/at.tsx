@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `at` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/at?s=sharp-regular at}
  * @preview ![at](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/at.svg)
  */
-const At: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48C141.1 48 48 141.1 48 256s93.1 208 208 208l32 0 0 48-32 0C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256l0 96 0 24-24 0-48 0c-36.9 0-69.6-17.8-90-45.4c-22 27.6-55.9 45.4-94 45.4c-66.3 0-120-53.7-120-120s53.7-120 120-120c27 0 51.9 8.9 72 24l0-8 48 0 0 24 0 80 0 8c0 35.3 28.7 64 64 64l24 0 0-72c0-114.9-93.1-208-208-208zm72 208a72 72 0 1 0 -144 0 72 72 0 1 0 144 0z" />
-    </Icon>
-);
+const At = createIcon("at", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdgAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCBQsGAAE2AiQDCAQgBYMtBykb/gTIjsN06yNHEUY5P0JS8ZC/bG/m727I5+jFt6a60KUpgnAEI5C4JuwpizEEixHnf79fO3fVEvjDXZtYh52OJ35F3OomGrOJ/EdOjTdeKuAjL9r59PRjf/zfeAUqts7nE5oNbKYD8DHsbUMEHVJ4GhEiJBHyG47XA5o4oHmIyW/BI+C9v2n8w9IskNoCgBgHAFzeFeXg1BQmogd+C4gfZIGAuASwjlBQsIzACaHAMpF10GgEv8QP6D+QQQDRQWMJGhh/Bq+AvULKRpSjVorVolL5IYqqz3yi1+KvgrcSJSEqfec+J56X/iRd5L2UfeU8JZyVgERVXMceJl/HHjuuxZ2kbXkQKQkhxLfHuouSiL4L30tLFiP3w3dtFiL2og7sHTkd9+fw2PoIfq6MOKBPZVTGcWXE4I9JM2W0tECatHlL41QaXD3BgsXulMJzhen1AgFG2OSvDLseI59M9ZYtkC4llvYicw4KcpaN5wECwduxQV+njf6XDQsAf/tmM3+NMDhNZB8wJEFQNnlv1QlIAgCQMQrHBALpkYC+as8HCISKAKlTBSiW6BBoVBsItFaFINCprghFI0eYVrPg1PMCF8fG4Ma0Dbh14sbpTIew1KhCoX568akWSDljAb7+LJJtc5OuHkL2UexYch/lngfcRas+vYa1aNZh2ECDcvwRPVIjMMUHMQF8+WMisetqf7tUi0FDOvTpbUeisHzN3Wg87QGqgOLuE/MJ7BQ0DAM=");
 
 export default At;

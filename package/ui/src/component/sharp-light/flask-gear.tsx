@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flask-gear` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask-gear?s=sharp-light flask-gear}
  * @preview ![flask-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/flask-gear.svg)
  */
-const FlaskGear: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M288 214.9l0 9.1 4.7 7.7 28.1 45.6L339 245.8l-19-30.9L320 32l16 0 16 0 0-32L336 0 320 0 288 0 160 0 128 0 112 0 96 0l0 32 16 0 16 0 0 182.9L0 422.9 0 480l0 32 32 0 320 0 0-32L32 480l0-48 49.2-80 244.2 0 .5-.3-36.1-20.8 6.3-10.9-195.3 0 54.3-88.3L160 224l0-9.1L160 32l128 0 0 182.9zm240.2 23.5l0-32-32 0-32 0-32 0 0 32 0 3.2c-7.7 3.4-15 7.5-21.8 12.3l-4.3-2.5-27.5-16.3L362.8 263l-32.1 57 30.1 17.8c-.5 4.6-.8 9.2-.8 13.9s.3 9.4 .8 13.9l-30.1 17.8 32.1 57 15.7 27.9L406.1 452l4.3-2.5c6.8 4.8 14.1 9 21.8 12.3l0 3.2 0 32 32 0 32 0 32 0 0-32 0-3.3c7.6-3.3 14.8-7.4 21.5-12.2l4.3 2.5 27.5 16.3 15.7-27.9 32.1-57-30.1-17.8c.5-4.6 .8-9.2 .8-13.9s-.3-9.4-.8-13.9L629.3 320l-32.1-57-15.7-27.9-27.5 16.3-4.3 2.5c-6.7-4.8-13.9-8.9-21.5-12.2l0-3.3zm37.8 43.1l3.7-2.2L586 308.4l-3.1 1.8L565 320.8l2.4 20.6c.4 3.4 .6 6.8 .6 10.3s-.2 6.9-.6 10.3L565 382.6l17.9 10.6L586 395l-16.4 29.1-3.7-2.2L548 411.3l-17 12.1c-4.9 3.5-10.2 6.5-15.7 8.9l-19.1 8.4 0 20.9 0 3.3-32 0 0-3.2 0-21-19.2-8.4c-5.6-2.5-11-5.5-16-9l-17-12.1-17.9 10.6-3.7 2.2L374 395l3.1-1.8L395 382.6 392.6 362c-.4-3.4-.6-6.8-.6-10.3s.2-6.9 .6-10.3l2.4-20.6-17.9-10.6-3.1-1.8 16.4-29.1 3.7 2.2L412 292.1 429 280c5-3.5 10.3-6.6 16-9l19.2-8.4 0-21 0-3.2 32 0 0 3.3 0 20.9 19.1 8.4c5.6 2.4 10.8 5.4 15.7 8.9l17 12.1 17.9-10.6zM480.1 407.7a56 56 0 1 0 0-112 56 56 0 1 0 0 112zm0-80a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const FlaskGear = createIcon("flask-gear", false, "data:font/woff2;base64,d09GMgABAAAAAANgAAoAAAAAByQAAAMTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGSEVgsGAAE2AiQDCAQgBYMtBzEbVwZRlA1KkeyLg0xEBtPQx5MmYpsWUUztoZTLVq5WF3jM57G6WojaL/vuP/H8y1537uua8WXEo2phC4MilWBMhYF4NMoi9BK2wa6hv//8/uq8rxkvdZdSMxoU8oS0RjRKpv34zd2rJNT7uzFnNpQGu7pzlwhbbuc7HC8BicOIplG4Ft+kas4gBRE4dSr/5XyN86eELGhjWdJWl66Be59XoICxXrAbuO/tBosodnDeoMPqzDpBO3/xIkLd1QW41X80ryyMAUVoAYDMAcDpqjAbOxu2SS6aDciDTBAgZ4BdDLRACywwwAEeAwsCAm0CBps0DfsPJAhAujCvK0Ab9GCDMbEIimrT7dqm2R9rx0lpx+ZS2uktMlcrFaAUptMoJU4iysgMV5jeULwosmRWFTlL2/3jxRIJrZObaEhk6Bkpz86CWEZFxVcJxJxRYYUsMbAibJG4L1kZsIgx0xBrxAQNpCITOxUkpkxnjdWKIGYpKWuBctyVPHWGQmpV6RY9KXizqPiQ01R52l/y0JvZYzzNFr3smQY///e3v3heWP0nk8khP7KNj/O2oD8n6H8R/fkWBp+FI3RCFMeP3zneE6TCvuAVUilsYQhbT6ZE1LyvYHwywBL+fLsl9WTSjW9/KO9vcpyfJM9b1/l3wG7Ard+dbQTQrQuVSxPBP+xZMiJ0RcGYBXv//FlSqb3OmOARngk3XWsVLPnrTFgwlnQkwYglGcCCrLlJgQAE0dVojc/FwPP07lX59fXrVf5+5eWbiHwmByDXXe3v1Zd6Uf9yFQfg5f7phYas2al1zYI+DhBo7TWVqhoCo+rFAABU+jg0hCygIkIEzHsd04EBQgkCKBIlBmixoo8B2pQ8MUCHrWAM0KVUiMfaCjDGqhPIUeuEvBD9UGBsDYqiHGckxuHPCX2P1v9Ic1KyWPI26n38KIJq2yJjN1eV9Ujq7GV9fMwdBqJOuzY9atVo1JNhu2Tne7VKacKThYj48+GHRKDBvYu7S9Tq0q1RuzZtk0g0fdxNX/NsdxjjmIpLNYWDlPKxWqTZ+z4EAAAA");
 
 export default FlaskGear;

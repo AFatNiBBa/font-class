@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hockey-sticks` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hockey-sticks?s=solid hockey-sticks}
  * @preview ![hockey-sticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hockey-sticks.svg)
  */
-const HockeySticks: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M220.6 17.7l82.3 164.6-35.8 71.6L163.4 46.3c-7.9-15.8-1.5-35 14.3-42.9s35-1.5 42.9 14.3zM372.8 322.1L387.8 352 544 352l0 128 0 32-64 0s0 0 0 0l-44.2 0c-24.2 0-46.4-13.7-57.2-35.4l-41.5-83 35.8-71.6zM576 352l32 0c17.7 0 32 14.3 32 32l0 96c0 17.7-14.3 32-32 32l-32 0 0-160zM462.3 3.4c15.8 7.9 22.2 27.1 14.3 42.9L261.5 476.6c-10.8 21.7-33 35.4-57.2 35.4L160 512l-32 0-32 0 0-32 0-128 156.2 0L419.4 17.7c7.9-15.8 27.1-22.2 42.9-14.3zM0 384c0-17.7 14.3-32 32-32l32 0 0 160-32 0c-17.7 0-32-14.3-32-32l0-96z" />
-    </Icon>
-);
+const HockeySticks = createIcon("hockey-sticks", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABeAAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCGgsGAAE2AiQDCAQgBYMtBzQbHgXIhocnu6j3q3sWPWvUmj7a0WYHZRedU0bC/F/z+aUdHeDnIziUCqsEqRVQ5vMJTKywWgcyG84mijvb9iqIaGg3QmMHZfxdXKFGujd9gpvDh8YPOrqCpHEBIFoAYMa6VUuc/ja+jfj4/zeJjy1CQMwAWaBAgS4CTFYIdFHKKJWCb+P//8V/YCaAaCB5bQIlGuIQLgCUIKmVZYv2LTu2qtealmvrtWrTmrVrVsfauKv93Xxl2zvbbujYqWM9hKjiUsSQy98aujbWralX9evb3klc0uaOqorYeGfbiDvbrI8XRg8rIuqxKa57uy9tj/G765zZ5Lp2d0X0fK7Fcz/1+GTvJ758ccXj6fJe8+z73KJJk9564/XXD9097Kfk4gdcIpsOBtvecsBKveZ91DXn3Oyaa5ptV56ePXJi81uTmLToi5f02D54enaJBzy1xKHXX3/j0wsOmMhIduV5EAjOXnHdR9uaT/61UT2B79/75Q/12f+fTpek59BIAkEx+P/BNqdLQFADSFOcpefOFwWSXWqSd23iLgFChQBJA5UAhc5aCFCqDBKgppsxAjRQWaUQZWOhjS09SJo4AQpjXQhKbbwOaiZ7P2mgTRRQJ8CM8M+XOncMzZmXRwwdnifmzapWBCTOTk/Kp/X+Z8muAXilvY456gx77HbAGSPypCX5mY6Yu0fM8UPZCEMNl02UbzeeL15rj5NOOeCYo36WSfL7cX9n7Q8egK0koR1pbZKI1HT/sV2H9pw75NR3pZ0C");
 
 export default HockeySticks;

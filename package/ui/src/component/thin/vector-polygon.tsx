@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vector-polygon` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vector-polygon?s=thin vector-polygon}
  * @preview ![vector-polygon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/vector-polygon.svg)
  */
-const VectorPolygon: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 48c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0zM384 32c-17.7 0-32 14.3-32 32l0 8L96 72l0-8c0-17.7-14.3-32-32-32L32 32C14.3 32 0 46.3 0 64L0 96c0 17.7 14.3 32 32 32l8 0 0 256-8 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-8 256 0 0 8c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0c-3.2 0-6.2 .5-9.1 1.3l-52.3-87.2c8.1-5.8 13.4-15.3 13.4-26.1l0-32c0-10.8-5.3-20.3-13.4-26.1l52.3-87.2c2.9 .9 5.9 1.3 9.1 1.3l32 0c17.7 0 32-14.3 32-32l0-32c0-17.7-14.3-32-32-32l-32 0zM307.4 303.8l53.8 89.7c-5.7 5.8-9.2 13.7-9.2 22.5l0 8L96 424l0-8c0-17.7-14.3-32-32-32l-8 0 0-256 8 0c17.7 0 32-14.3 32-32l0-8 256 0 0 8c0 8.7 3.5 16.7 9.2 22.5l-53.8 89.7c-1.1-.1-2.2-.2-3.4-.2l-32 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l32 0c1.1 0 2.3-.1 3.4-.2zM32 400l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm352 0l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM32 48l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM304 224c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0z" />
-    </Icon>
-);
+const VectorPolygon = createIcon("vector-polygon", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAAByQAAAJLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCENwsGAAE2AiQDCAQgBYMtBzUbPAbIhof/7P6/far7qfsb9SVFEEdETkYvGybBXZNad+rU85yHAvgc8KAlOBbmfOMC34NDwVCi7caWt9UKVCv1ahXF2pbDxX9o6JvkCTnMynp+WKRh6QRlPO+YFtKz6Ss8LG8a3xjoDpKiABA9ALBi59YtOhvRiPiq+T7xlU0IiJUgCxQoMESAxQqBIUoZpVLQiGaT/wMzAUSrdl0CJTrwN9EO7iJpK8seJ+b2oof2qFu6ljvqlurkk33FE32qeKpfxNP967H39Yl4gugSEbf2e6qqAkgmcEvfJ+s6UuDe3//piOgaXORDO+LpwRHP9dsZ9sCu7Tu2D+go4qGhbXFfNWakPlRX9azZXQH7RMbhel498pUer3w34qsTX3n54Ua3rFsjkyua3e7hnm7taNftnnu6ZY7Q2J+1TJ+1w0cyH63t6S2Ovrn7nN1b456udz37fNd75+wSKbKAFL0O5pxnzj4EOQdPdHR/k5+RgUDQ2fxt4MHui39rrxP4+pMf/iZ3NxvRmV5BuwSCYnJzsn3RCYwOwExxlZHOFwWSn7Vpr9rFUwKECgGSVpUAhcF6CFCqTBKgxTBzBGhV2aoQZYfQx/4dJF1cCgpz3QhKfbwLWiz2qdGqTxTfAJ3B9C9owloNrZnKM6ZOzwvzoaMzaU0uzUX5sjj+KkhMoINOuOiCKxx3zGlXKOQyW+wrnbfWg9f4oWyGqabLFsphfxR2KOMylzttc/E+i+T3pfGu8vMn0CoSYGb2kOV4pG5XHT96xcXLplxy8dy1Jy9eAAAAAA==");
 
 export default VectorPolygon;

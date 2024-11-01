@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hurricane` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hurricane?s=thin hurricane}
  * @preview ![hurricane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hurricane.svg)
  */
-const Hurricane: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M200 24c0-4.6-3.6-7.7-7.4-7.4C93.8 24.4 16 107.1 16 208c0 91 63.4 167.3 148.4 187c10.9 2.5 19.6 12.1 19.6 24.1l0 68.3c0 4.6 3.6 7.7 7.4 7.4C290.2 487 368 404.3 368 303.4c0-91-63.4-167.3-148.4-187c-10.9-2.5-19.6-12.1-19.6-24.1L200 24zM191.4 .7C205.2-.4 216 10.9 216 24l0 68.3c0 3.8 2.8 7.5 7.2 8.5C315.3 122.2 384 204.7 384 303.4c0 109.3-84.3 198.9-191.4 207.3c-13.9 1.1-24.6-10.3-24.6-23.3l0-68.3c0-3.8-2.8-7.5-7.2-8.5C68.7 389.2 0 306.7 0 208C0 98.7 84.3 9.1 191.4 .7zM192 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm0-176a96 96 0 1 1 0 192 96 96 0 1 1 0-192zm16 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const Hurricane = createIcon("hurricane", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABlgAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCYAsGAAE2AiQDCAQgBYMtBzAbYAXIjsN06yOfaKMpmnXi4R89+u5LMoDzAXKl6qtbuIJasVQ7Z1tWggHn2ukApJHGFRQRtnH088//uXTlowF+WxTDOAr3fCCROIq6qOcncM9HF8UNOj87sBPF25v2bEeWSJLM1CT5y463G2RxyW4FJPeSr/BU/NL4QYv7SaQpgKgGwIx1q5Z47x/dEV/93xJfWYSAmAlygRQp2gWYLBVol8mRyQTd+P9//A/MCSAKpecSkKEYj+EZ9KAkCrOsvVdFW0ldWUFFtrasoHTT7dKvl5+rvxnzGreFiFtl36161v1mLmu9VrTeaUDcIq43WPJKRmiUI+JGI8s8OPPusHxoNrYZnAxJx+CxPogXWjTXm9XeTumjfb1WPW60Gf38sjW3G8V6qUFpIm80Ie6UPdYguV4vlp56teer1dFPPb7au/rULyxcVFhfEIvNuXFzelV97WxFSlRUn8USs28mH3x6L3tLh9d2zK1+5xMLY9WG+SuKy/YyVIjV7F2/YEWRpe+dpdadfa+ce62VZ/PHn7S0fPLxZr5V5DBVta2yu7sySw2vfJiHKysfJgPx1J8/nLe3VU3+tbgsAd9Pv/xV3/f/jOvJqyiWgCAd/P9gm+M6IDMAN4mzehp9CiTuc8mfWu62AKEUARKFSgVItakWIFNqkAAFOo0RoFCpVVKRlQj1tnSQKHcCpMa6AjL13gQFJvvULVQfqWOqbqV+C7PmSnTOpnzE0OH5xHyaa5qvyWF1Ur5s9z9LIwPgor2OOeq0PXY74LQgTloSnHHEXAuf44dyIww1XG6ifLtan15rj5NOOeCYo7zOJPl5p7+z9vQB0EcCGPmkMm2NpGT/mZMnD+zacXQPAAAA");
 
 export default Hurricane;

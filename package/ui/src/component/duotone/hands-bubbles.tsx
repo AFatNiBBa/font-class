@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-bubbles` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-bubbles?s=duotone hands-bubbles}
  * @preview ![hands-bubbles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hands-bubbles.svg)
  */
-const HandsBubbles: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M32 160l.1 72.6c.1 52.2 24 101 64 133.1c-.1-1.9-.1-3.8-.1-5.7l0-8c0-71.8 37-138.6 97.9-176.7l60.2-37.6c8.6-5.4 17.9-8.4 27.3-9.4l45.9-79.5c6.6-11.5 2.7-26.2-8.8-32.8s-26.2-2.7-32.8 8.8L218.3 141.7c-3.3 5.7-10.7 7.7-16.4 4.4s-7.7-10.7-4.4-16.4l51.5-89.1c6.6-11.5 2.7-26.2-8.8-32.8S214 5 207.4 16.5L149.9 116c-18 31.1-35.9 62.2-53.9 93.3L96 160c0-17.7-14.4-32-32-32s-32 14.4-32 32zM64 464a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zM307.5 131c13.9 4.5 26.4 13.7 34.7 27c.9 1.4 1.7 2.9 2.5 4.4l28.9-50c6.6-11.5 2.7-26.2-8.8-32.8s-26.2-2.7-32.8 8.8L307.5 131zm39.8 85l4.7 0 13.3 0c10.6 0 21.2 0 31.8 0l23-39.8c6.6-11.5 2.7-26.2-8.8-32.8s-26.2-2.7-32.8 8.8l-26.8 46.4c-.6 6-2.1 11.8-4.3 17.4zM384 32a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm96 128a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M315.1 175c-9.4-15-29.1-19.5-44.1-10.2l-60.2 37.6C159.3 234.7 128 291.2 128 352l0 8c0 8.9 .8 17.6 2.2 26.1c35.4 8.2 61.8 40 61.8 77.9c0 6.3-.7 12.5-2.1 18.4C215.1 501 246.3 512 280 512l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-92 0c-6.6 0-12-5.4-12-12s5.4-12 12-12l124 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-124 0c-6.6 0-12-5.4-12-12s5.4-12 12-12l156 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-156 0c-6.6 0-12-5.4-12-12s5.4-12 12-12l124 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-136 0s0 0 0 0s0 0 0 0l-93.2 0L305 219.1c15-9.4 19.5-29.1 10.2-44.1z" />
-    </Icon>
-);
+const HandsBubbles = createIcon("hands-bubbles", true, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAAB1wAAAL8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHSEEgsIAAE2AiQDCgQgBYMtB1YbOgbIHgVuy3M6kVEWQiG0Tv07g+fT3/pzk8DAg3VM8k3EOtPp3cvtvhDA37fmv995clF0W0BRHlgCcYDHDRJgwMfuggW2gG/gtu5tcY7jOXqBgAMNbE50BQINJM36/+/n8Qf8i/+54t8/SvQqqTjKokqHOz7gKEtP2kSHPAPa4LwRBxgSQ/oVGPmTbnGB2qGegnXufwDlp6jFoPBqAAAkGwAAaLDq1Iab3+QbkqdxgzzVGgiANATAEkADGkgQAGrTCJBgsMBgEHgXYuRdEmMfAgDixv2yNABuwAt8AfkAYABQCG5julTP8Ofm5flcGaarD3WGbRVEtgZay1X6NMj84JESJ6LzAzea0OCx+M6ijmwNbQvX5gU66EgtGVmyLdQLYX6ZMyX6mliq3Lla7XZ1k7Xo0Uhn6UJba9sUCflZrrfEWRnYTI+zcaTYcSuOFj4c6XVE3hKstCapdBcf5VsVmso1U2VzoNt8XmRL1xvetrNLF/j6go/sk7+Ve/1SszHyNi5e3YDhq65lPWQkjhrj90ZG2/N06AY79Ga/4+yfXaPZaHfr7rEjlwMAAH28crR0qVGkey2CjxRT8ixNwUO1+55n8+BvVLHI3/xC0tB916ZOdxYlqt+a1xy89P4zmcuXczInXc4ZO2vWWIef8i0Xd5rgLYviNW5tBp1daK4nMAzblnjhLOCpVviacAFX4in95vVvBwABBC4sL+x+WW5+oawA+PD8//L39eMzWHUS8KAAENCl/w/1DiGWDRYBAAAAlEyl4IxrPmxOzQouH+1nKxIVHKhB4cYBTVw2GBxKgYuUKsLK5E40Yrw9X0AfBAo/E0BT1RwwBFwCF7U9CLkJJPqWl25Y6YczvWkbNVlkK5Qtb2vayZJSvosFPVrLrrYXn8pbSsCDDDXOWJMNMdgIk1vYRG2iU4zRdI7Z5LtWBWWVZ9Vkd1fv611xaKJJRoyr+2epxZ7vK27qfPcS0KUIWCtaodEgSnTwpUwsM3DKwIGjh+Ty19MhPKJ+KQAA");
 
 export default HandsBubbles;

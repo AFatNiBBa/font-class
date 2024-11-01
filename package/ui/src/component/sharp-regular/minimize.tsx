@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `minimize` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/minimize?s=sharp-regular minimize}
  * @preview ![minimize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/minimize.svg)
  */
-const Minimize: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M40 6.1L6.1 40 23 57l64 64L57.9 150.1 24 184l33.9 33.9L64 224l112 0 48 0 0-48 0-112-6.1-6.1L184 24 150.1 57.9 121 87 57 23 40 6.1zM505.9 40L472 6.1 455 23 391 87 361.9 57.9 328 24 294.1 57.9 288 64l0 112 0 48 48 0 112 0 6.1-6.1L488 184l-33.9-33.9L425 121l64-64 17-17zM57.9 361.9L87 391 23 455l-17 17L40 505.9l17-17 64-64 29.1 29.1L184 488l33.9-33.9L224 448l0-112 0-48-48 0L64 288l-6.1 6.1L24 328l33.9 33.9zM425 391l29.1-29.1L488 328l-33.9-33.9L448 288l-112 0-48 0 0 48 0 112 6.1 6.1L328 488l33.9-33.9L391 425l64 64 17 17L505.9 472l-17-17-64-64zM176 412.1L99.9 336l76.1 0 0 76.1zm160 0l0-76.1 76.1 0L336 412.1zm0-312.2L412.1 176 336 176l0-76.1zm-160 0l0 76.1-76.1 0L176 99.9z" />
-    </Icon>
-);
+const Minimize = createIcon("minimize", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABlgAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyDFgsGAAE2AiQDCAQgBYMtBy8blQXIngNu0zwiOfGF3/xvtE1eyq9X4ogRT79W9vsDtZkNASvWJwMkPKBR5MidDEoCRyTcVSza8Pr/7K/uG4jvTAKUZpKQwAXUtqVfN5RtRlRuBcIlF9DzkhnyYeKa+mFNf55GjxKNZVG0BBllnk8gwUbzKqHZwGa2m4BN3RRVBBUkh48brkwtpcdXdnzbQZ1HWUO5WuBie9N8McM7RVMByPgAwO4Dow4+R4wkbwZ3yBtDIJDdgPkIFSrMRmAbsWA2ifmgVgsjGQzSfyBDgLSAFGfX6HAN9wE1KHp1vQCgPNdvxtT7+1ndkW2NaogGCaqqsVL3k2SquirdOEy49Vo9SP2EY94CcZCfpqHuLx4lcqFwqE9BNRGjhNQ02FGSrpusmDUSjDAt26MoMmUtHoKDb7MhbLh3OpmqST/Sz95qsn+ionSiy4GFwnjh2wL7LHswwWgEBt6awGjicn0SlyaMjP4N+LSgAMjk8RzPdsNahgk49lGPb6ytC/yfliHQbbSH2yau/kXyPABBuH1u7t+y6vfUBXx++ONH+xm1g+d+FwE9BYRq9aJmBVptfgMAKDkrUKAVFMN68KqjXRIQHQKKViegMosBgVpnFQKNuXIItDp7iKUeJSab33wx2gm+stUbX5vsg29s81VoTY7YZlWLU/8Ys1oz3JzHqXiSy7ysGpoZynW6wmw7eE+6Qm4r9l04d2vPzpHbibrWKd8509qRTR/EUuKSWBmLG1NrGorXbhy96/JZKlg/DLrfDw45TwSCG1UUhZTeRy5m53kPAA==");
 
 export default Minimize;

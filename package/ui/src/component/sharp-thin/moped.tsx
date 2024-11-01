@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `moped` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/moped?s=sharp-thin moped}
  * @preview ![moped](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/moped.svg)
  */
-const Moped: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M328 32l-8 0 0 16 8 0 74 0 59.6 201.1c-34.3 12.8-62.5 38.4-78.6 70.9l-111 0-16 0 0-16 0-96 0-16-16 0-112 0C57.3 192 0 249.3 0 320l0 48 0 16 16 0 48 0c0 53 43 96 96 96s96-43 96-96l112 0 4 0 12 0c0-70.7 57.3-128 128-128c35.4 0 67.5 14.4 90.7 37.6L614 282.4C587.9 256.2 551.9 240 512 240c-12.1 0-23.9 1.5-35.1 4.3L445.9 139.9l54.5 27.2 1.7 .8 1.9 0 16 0 8 0 0-8 0-96 0-8-8 0-16 0-1.9 0-1.7 .8-64 32-4.9 2.4L415.7 37.7 414 32l-6 0-80 0zm40.9 336L16 368l0-48c0-61.9 50.1-112 112-112l112 0 0 112 0 16 16 0 120.2 0c-3.6 10.2-6.1 20.9-7.3 32zm74.7-247.2l-3.8-1.9-4.1-13.7 .8 1.5 7.2-3.6L505.9 72l6.1 0 0 80-6.1 0-62.3-31.2zM240 128l0 32-128 0 0-32 128 0zM112 112l-16 0 0 16 0 32 0 16 16 0 128 0 16 0 0-16 0-32 0-16-16 0-128 0zM80 384l160 0c0 44.2-35.8 80-80 80s-80-35.8-80-80zm432-80a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm0 176a96 96 0 1 0 0-192 96 96 0 1 0 0 192z" />
-    </Icon>
-);
+const Moped = createIcon("moped", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABsQAAALcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDYgsGAAE2AiQDCAQgBYMtBywb3gVRlM1Jk+yB5+s3/XMXkqFQ2ZpTsWfiPv/iEp+4n/rDmj7gO59bNM4iOZMyzyew87Rqy/Npgs90AjZtupoO7WDFgENQOIqW8xumG1aPwJQ/dMADaqm6AczWMnlDNBNAYRgAIRqYTtnG9Wty5qE8FLnuOwjtAagOCICUBcBFAAMwgDgEgBIYCBCHiQuYmAg8FJ8v/Qe6IAAgXsAo7mwCNnAHuAsAmAAoFi3TrBsW6hfqHxDreALMRo7H7mw7NuI4DeVKHtsWyhV2ocQJFzm6cmXW1oKHs29PdJz1pU9XvlgyUk5VmpbaSKpKuDiO1xUmVWQdmywRYjfxD/AXWb3YCjty/dQFUY0jwiMiBImU6uIIYku1Bgi2iDiNPnciPCXP8m6asyJzS4FD2bYltD+Yc2eOHfvn59qVe3dhpmeIbI5dLmNjlqVvsqelbohawpjopWkbneRtetu7pBudblB5tWVZGqta8StUmGtdb61pg0b3qVO+gCcPGp3H2rZtzJht26w+2lOgfJ02BbYz+WyIkdCZZmhUlEUbLKwQjY+8fCUcb3rtttwmD0H/P3zsQx80ekgtXe17Xo4viaI/9/FSB69M170uZMbgMmZ0kI7FRaPnwLQ6aA2WSqOOWndsJLtrnxnUuPGgM23anpgW0OLipejoSxdbtIgxGeV2ABBAIOP5sHWtg0p8sxwFwONjH97oZ4TvoeqktgEWCgABI4cvBy3UGCBGdUIAAAAAJYNIVmMAARRXsOBSfxYhAAg2kKHwYsMgFg0Tm+zwkEBBpXNJfQzE9EMIoyWAwp++MCjESJiEsR8eSnDZ7SVMjMhWx6X6vzJDJUtX7OXmzZXHLeaeZmyaYFVOncVdtzFzUK3Iwgw60ZteDKAjHegquZH6UdM3kJ5UGokV+SIueclFHlyK4d7O309uREf60Z+u9KbX3E1x3PftmQwa189CfxQAkC8mCJUmytOzd5+OHQAAAA==");
 
 export default Moped;

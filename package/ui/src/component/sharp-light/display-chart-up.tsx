@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `display-chart-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/display-chart-up?s=sharp-light display-chart-up}
  * @preview ![display-chart-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/display-chart-up.svg)
  */
-const DisplayChartUp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M544 32l0 352-199.7 0c-.2 0-.4 0-.6 0l-111.5 0c-.2 0-.4 0-.6 0L32 384 32 32l512 0zM32 416l181.1 0-10.7 64L144 480l-16 0 0 32 16 0 72 0 144 0 72 0 16 0 0-32-16 0-58.4 0-10.7-64L544 416l32 0 0-32 0-352 0-32L544 0 32 0 0 0 0 32 0 384l0 32 32 0zm202.9 64l10.7-64 84.9 0 10.7 64-106.2 0zM368 96l-16 0 0 32 16 0 57.4 0L304 249.4l-68.7-68.7L224 169.4l-11.3 11.3-112 112L89.4 304 112 326.6l11.3-11.3L224 214.6l68.7 68.7L304 294.6l11.3-11.3L448 150.6l0 57.4 0 16 32 0 0-16 0-96 0-16-16 0-96 0z" />
-    </Icon>
-);
+const DisplayChartUp = createIcon("display-chart-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdgAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCLwsGAAE2AiQDCAQgBYMtBzcbNgXIHgfVbfTGI23KlInvSTz8/1rofX9m9yQzgQnxDxEpQq5CRyq+SCquKByQ7ams3mR+fa+Q+Pm/pl5YFeDnS7FDi6ZVgdTziHo+gQmVN8FsOJsoztrZu2IgfZkkxCcZNp9hcYUyfo0pWqR3E7wZPzT+NchzkrIAEA0AVu7attXLv+KviF86XxK/2IyAWAWyQIECQwVYohAYqpRRKgV/Radj/wMzAUQbP5ZAiTZu4xX6F0jKsuw3uuv0utW93Fm3qmupSFU88S4uFtHzeF3VOapK1N3DQaOg+pUiIqoeIoWod4zOo+sYGdW+qq5I9dtjZ/SPvrE9NU+MAbErdkQ/Ewh8HXGmGvVe895/nGTEi8OM/QC7TPaDw3QefVn3sUVN1szA0UUf+zJnh2UZ2Z+WZ2Q7vHD2+aPm/qxZePu2Nau9732XLvnOSe87fqyte/7MQo0M+LCuAeKxV2cem3mo55L/u9QJ/PPd4eXOy7QivYcuEgiKKZ0p9qcVYKUBVFLcNEr4okByWYnftZu3BAgVAiRtlQCFIRoBSpXJArQMN1eAtso2hSi7Cn0dKCDp5goozPMAlPr6HLQs8X25rW8U+mdrj/39K1hXo2sP5ZnTZuRFedqTHZUy/e7ivBybcNPNTKSLTrrkoutOOO6M65V41dbaDResk+i1fiibaZoZskXy9vA+2InKVdecGbv7+yyWz5cmuCkvn0jJhA1naUsSkZorGk19ffmpNy4DAAA=");
 
 export default DisplayChartUp;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-party` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-party?s=sharp-solid face-party}
  * @preview ![face-party](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-party.svg)
  */
-const FaceParty: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M54.3 144.7L35 93.5C49.7 67.8 67.7 44.3 88.5 23.6l45.8 12.2C99.7 65.1 72.1 102.3 54.3 144.7zm-1-130.5C41.5 27.2 30.7 41 20.9 55.6L0 0 53.3 14.2zM531.7 400C485.6 467.6 408 512 320 512C178.6 512 64 397.4 64 256S178.6 0 320 0C433.4 0 529.7 73.8 563.3 176L528 176l-48 0 0 48 0 64 0 16-48 0-19.1 0c-1.2-2.3-2.6-4.4-4.2-6.3c-4.3-5.2-10.1-9.7-16.7-13.4C378.7 276.9 361.4 272 344 272l-3.9 15s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2 .1c.2 .1 .5 .3 .9 .5c.8 .5 2 1.2 3.4 2.1c2.8 1.9 6.5 4.5 10.2 7.6c3.7 3.1 7.2 6.6 9.6 10.1c2.5 3.5 3.5 6.4 3.5 8.6s-1 5-3.5 8.6c-2.5 3.5-5.9 6.9-9.6 10.1c-3.7 3.1-7.4 5.7-10.2 7.6c-1.4 .9-2.6 1.6-3.4 2.1c-.4 .2-.7 .4-.9 .5l-.2 .1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l0 13.9s0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.2 .1c.2 .1 .5 .3 .9 .5c.8 .5 2 1.2 3.4 2.1c2.8 1.9 6.5 4.5 10.2 7.6c3.7 3.1 7.2 6.6 9.6 10.1c2.5 3.5 3.5 6.4 3.5 8.6s-1 5-3.5 8.6c-2.5 3.5-5.9 6.9-9.6 10.1c-3.7 3.1-7.4 5.7-10.2 7.6c-1.4 .9-2.6 1.6-3.4 2.1c-.4 .2-.7 .4-.9 .5l-.2 .1c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0l3.9 15c17.4 0 34.7-4.9 47.9-12.3c6.6-3.7 12.5-8.2 16.7-13.4c1.6-2 3.1-4.1 4.2-6.3l19.1 0 99.7 0zM384 351.7l0-15.7 16 0 208 0 0-96-64 0 0 32 32 0 16 0 0 32-16 0-48 0-16 0 0-16 0-64 0-16 16 0 96 0 16 0 0 16 0 128 0 16-16 0-224 0-16 0 0-15.7-.8-.3 .8-.3zM196.8 237.6c21.6-28.8 64.8-28.8 86.4 0l25.6-19.2c-34.4-45.9-103.2-45.9-137.6 0l25.6 19.2zm246.4 0l25.6-19.2c-34.4-45.9-103.2-45.9-137.6 0l25.6 19.2c21.6-28.8 64.8-28.8 86.4 0z" />
-    </Icon>
-);
+const FaceParty = createIcon("face-party", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABuwAAALIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyEQwsGAAE2AiQDCAQgBYMtBzEbRAbIHoVN2W50TBgCitc/7QoTwfdz/+65gXk/KaQILFFWEQqHDsHVV9V+VZCowKEldI3//H7unM3fHybxIu7pJ8SbS7NJGgmvbqGsIRoKkZLUDS7mlunp12nxgSd+/q+pF8+PrvnzCd87sQM8itxGpYlRPMp8PoEBRlukDbRtOBvgACeCszb3N/gOWt32hDxJEk/DaA5LO8jjOzunIN1NL7hsLxqfDOEh6coAEA0AWLO7UYfvfbyPeG6feGobCIg1gNGIDBmGI1jOKDCcyWiQywXvo231P3A0BBAleLEJ5OigJRoAOUjK3KQs+5P8/TWzn6mlLlTn3DnZV9Py+LJj1/HgbNbt9WnEw47X9oKP84088Zf1KhJTVQiqUpsDxQ4nhtI5hnTWTudjY4CwTvVfl+aslsIbpLNVhHhOaWFxNGlrEMZo5YGoNVIZBK8i1eYTfjtFreV+TS5PSeFl5Z2epKVMTtlt9mQdHH3anH4Z82yeYcHMaP6+lv9PLRtWyZV9baK/3bndcHQtGjivDolEg4bBQ1ZOb9KsavbqWUP0cbMzUSlQZr/g4P6bW++thHxDiIBmbuOO2AVGY974pu3ZDRCBIK32CvHEsJW2t97c37dvyH+DjT9aJSGNIHB1o1KgwBONJYO+r0TRfbIYCkOLNQ+mJN1c/3vQiq0n6/kAgeDwIp97ei//06kNgI/d377YKdqH6VQ6RUcCQTa9na7rCEPlBhBJMScab0Ug+afEZ+3hlgChQoCkVAmQGSYQQa4yDUFhpDwEpcp2RpHbEfrrbiDp4STILDQPcv3dgcJy99FS/zCuBH0e6z+iOeo9WtdP5qRnSrHcZp3G5FZLd4k8dk+ey1VJWII+48bM6NVj0GSHT9ETs0bVj7A6HySypMskikm48HV+i15Tpg0aN7b1UkLe9yeaGzdOgs+AgnNlJIlI6jtzpS0xAAA=");
 
 export default FaceParty;

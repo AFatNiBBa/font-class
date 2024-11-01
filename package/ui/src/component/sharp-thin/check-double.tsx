@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `check-double` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/check-double?s=sharp-thin check-double}
  * @preview ![check-double](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/check-double.svg)
  */
-const CheckDouble: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M325.7 69.7l5.7-5.7L320 52.7l-5.7 5.7L160 212.7 85.7 138.3 80 132.7 68.7 144l5.7 5.7 80 80 5.7 5.7 5.7-5.7 160-160zm112 112l5.7-5.7L432 164.7l-5.7 5.7L160 436.7 21.7 298.3 16 292.7 4.7 304l5.7 5.7 144 144 5.7 5.7 5.7-5.7 272-272z" />
-    </Icon>
-);
+const CheckDouble = createIcon("check-double", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABWwAAAHfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBMQsGAAE2AiQDCAQgBYMtBzMbtATILgbsxuXignJmISukLXw0Pst27CBaZBFkwza7d5RWPK+oRdVqNBIhUbhmDMpgDMGi0W/BWpsXsbYvJlVE26OaoJE84/0q0Zsms+pXB4Dr/neMAx10EVjpbpr/496df5z0AR/JV5wLJ+6KApnzPIHOo7H8n7cGaJgliu1NM4ql7M1MaZL8aR1fOdS4t8AjPxN4LR8af0zOgFQKAKIfABw8duv4SuG/KYhvVRAQBwDmsVBQMI0FtnEEpnHNg6oKfvzhP5CAAKIVfNAEFRWb4BBABSkr1zQh4cm4A1osXjFoDXqWNnqsAQsdXfQpNMSw36VbXHPFwuDQMuSf8/k8o+f2DuUT9DDIa16ip+f5eWfHAFEnXs7Rm5t7KPoAAsHXyZ89Re6/XcIG/K7G9/Ga85qDdgmC0mg2MIsvPC3xigUAyDiGBb4okBax8bW6vYEFQicCpFadAhRTlAJVpwVoMSueo1WnWxxRRQjD5gRStycoVp1CNewFWmz7zloNB+cBcdfP/d+SCxrJz6JwIEQZGlZU/k0waTJL07brOHa4YS+W7dh2aMnCmkNF7auXjmwpWGTeD5GwgBCSQcv12+0DS/YdWLNjO0+TRfsDl2O7vxvmwwYsHn1ZEil1Q83vcQAAAA==");
 
 export default CheckDouble;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `franc-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/franc-sign?s=duotone franc-sign}
  * @preview ![franc-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/franc-sign.svg)
  */
-const FrancSign: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M0 352c0 17.7 14.3 32 32 32l16 0 0-64-16 0c-17.7 0-32 14.3-32 32zm112-32l0 64 80 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-80 0z" />
-        <path d="M80 32C62.3 32 48 46.3 48 64l0 160 0 224c0 17.7 14.3 32 32 32s32-14.3 32-32l0-192 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-96 176 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 32z" />
-    </Icon>
-);
+const FrancSign = createIcon("franc-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABdAAAAHsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBZQsIAAE2AiQDCgQgBYMtB1AbBwXIhoePNd8/d3eTaZMybKsYwQGhavVTJVV2wEJmavmT/Zm4pn6cP/15Ani2RXkD5qrOBzT684HMEnxeQjOdgW13Ns+KWsohaZTRclzs+DzukMWc9IQCyd3kIy7T/wDGdy2dIFE7BRANADB64dzpXleiksTH6hPio2kIiDEgF0iRoo0Aw6QCbWRyZDJBJalWqUS1mhNAFNHzpKCIAhZgGSADiZBkWY+G9cuFutmCcqG09FyTiBuEONL0Zvl889sRUQ44dLTZrVKJ0bIdgUoZ7FKoBm9YKEhndqxpUPOzw8cNH828V+8MZ+rdV1HozKbktSu1umKVBwh85WezBkZpgO7O9qOiNcs/YhYQCF5MevD/yvrD/qtVTsC3p7//kX9H1UqMSmpQSwKCtFu1m2VxAGKUAAAkcUDHGKUXAqkeEu5T67glQCghQKKoJECqtQYCZEq6ClDQTn8BikrmSkVWW2hieaUSdeymUgMcpDJNPKYKhnmTFjWJ1LZ4y+CfdikTODx+KO/do1c+JB82imAubNgdmi87nQ7gTGc4aYOddthnvXU228fQPaYX+203QULG+6Jcbz30khsiV/f3ygKG7bHXZmuHfp+h8v1RJwfk5Z3hOAmgz6nUUiKJtNH/uWr3i2l0t9LZJq10IQEAAA==");
 
 export default FrancSign;

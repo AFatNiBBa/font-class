@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-candlestick` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-candlestick?s=sharp-light chart-candlestick}
  * @preview ![chart-candlestick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chart-candlestick.svg)
  */
-const ChartCandlestick: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 48l0-16L0 32 0 48 0 464l0 16 16 0 480 0 16 0 0-32-16 0L32 448 32 48zm288 0l0-16-32 0 0 16 0 48-32 0 0 32 0 96 0 32 32 0 0 48 0 16 32 0 0-16 0-48 32 0 0-32 0-96 0-32-32 0 0-48zM192 64l-32 0 0 16 0 48-32 0 0 32 0 128 0 32 32 0 0 48 0 16 32 0 0-16 0-48 32 0 0-32 0-128 0-32-32 0 0-48 0-16zm128 64l0 96-32 0 0-96 32 0zm128 96l0 64-32 0 0-64 32 0zm-32-32l-32 0 0 32 0 64 0 32 32 0 0 48 0 16 32 0 0-16 0-48 32 0 0-32 0-64 0-32-32 0 0-48 0-16-32 0 0 16 0 48zM160 160l32 0 0 128-32 0 0-128z" />
-    </Icon>
-);
+const ChartCandlestick = createIcon("chart-candlestick", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABiQAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCDHwsGAAE2AiQDCAQgBYMtBzgbpwXILgbsxuWiOOWwVDJZLRtlPXJwEepDPP/fWnnf71qq3jA6UqjCNhLQKLYj5LqAkFkXCcKikHNiCXTb82PzPnh7oXGQRKWRLIlJg2kKy6sLZW0taTLXsvTDz5eoMoOcuNz5L/wNOO3FH20snLV9LRxjcbQ8sS4vXBZQFlimCViL226KmIQ4CIXEBVreJXrqZcFa8KH5ao9XKG0AkM0A4Mrteg2f88yT99OQ966BQK4CDlMYMGA/Bc7TCvbTOQyaJswzTeI/kECALIqeWKBhBa/BGwANlKXWth1zmFdkYlzY0G7J6/r9SI9UZNyQ9NVhw1C3tIx0Eizph97oY99SktykhMhoHT/WywH1ytStsY8Gtx5dl/dvKxxaExFCvBHyi+RzynI/on6+3U9Ydsbhwxx+3NMeh2b2IxHRx1l5IZHHieuRP9KevHKykHwEPQIE4fmzzXH+v2ks8OXt73/5MzLNS62DZQXCcHJyo12gCACg8pStICivGEXvuuoZBaIjoCzqAgb7CAWa7gQFFhwUocCi7jqttBWxXadlyqoHzOCcG9Ns98EsOO8rtWh7BrhVoU79bMyq9oHKMQa8fia52FRroCjb5RR32/arHHLgs5ja2TqbGFs49+ijWvZio7qGVnwRBXj5URJPdx6fbpk4OlnY2fpNUnh/3O66PtmBPY1I8pSKUqS2vLFDnl9zRtaT08MJAAA=");
 
 export default ChartCandlestick;

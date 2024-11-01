@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-exclamation?s=thin location-exclamation}
  * @preview ![location-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/location-exclamation.svg)
  */
-const LocationExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M368 192c0-97.2-78.8-176-176-176S16 94.8 16 192c0 18.7 6.4 42.5 17.8 69.6c11.3 26.9 27.1 55.8 44.7 84.3c35.2 57 76.8 111.4 102.3 143.2c5.9 7.3 16.6 7.3 22.4 0c25.5-31.8 67.1-86.2 102.3-143.2c17.6-28.5 33.4-57.4 44.7-84.3C361.6 234.5 368 210.7 368 192zm16 0c0 87.4-117 243-168.3 307.2c-12.3 15.3-35.1 15.3-47.4 0C117 435 0 279.4 0 192C0 86 86 0 192 0S384 86 384 192zM192 96c4.4 0 8 3.6 8 8l0 160c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-160c0-4.4 3.6-8 8-8zM176 320a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const LocationExclamation = createIcon("location-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABeAAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBcAsGAAE2AiQDCAQgBYMtBzsb+wTIjsQ4JvGLKEzi4R+7vu6rqt8DqM5EgBiBWkKhwo07Q971J655/uffgBUEjxKNpQ8Syes6n8AAZ8VtE5kN7EVxu7OtNiTa4RFSluT4drwuN8hiuwVKSC4kn+BY/tH4Rx0HSKQpgKgMgL6Tx4/0xh/xR8QnxWeJTwxHQPQDuUCKFPUF6CEVqC+TI5MJ/ohikf8DcwKIAnkuARkKmIJFzGdJZFnWoEGFMuVKKmSTyrWy878bF/HVpG/GfDFhT8tHPavpmVoPt378o1HucpuIJ/pEvNHidNmDNR/r91a7pxp+P/7ryd+O/XLipDM1xOnqZ2tGnKs1gZRe4/ONH6r80H8+WfSJ1cUYVpmiOCii8vEGtUu/9NCdZzs/9FDnZ++E10rXqV+5/k/8vYjF1y9VrHjp+uJFf/9UP8ZOnDgWoZg4seX12XMK1xXmUK3S7xX/+KMi84F47r18WoXZlXr8X7pcAv56qaW3i2/GnuQhlJaAIG1RbGFG7AGUBhAnsUljpWGBxBgZyLeWd1aAUBYBEgVlBUjVU1mATFnNBSjRUEcBCsoaLxVZGaG6mY1IlLeWSHWyk8hU9zRRoof344LqkRqYYR7G8y530AgMPJS3bdUm75Yve6ppM1rc7Z5ve002uZmmcNEiq62ywUILLLVhwNcZmW200iANHKhBubZaaSPXTX48fD49yULrrLfUaqvSPt3l96MmNunLm0KYENl2OhIJkVS3zNmWX1cEc1c2AAAA");
 
 export default LocationExclamation;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-gear` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-gear?s=regular head-side-gear}
  * @preview ![head-side-gear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/head-side-gear.svg)
  */
-const HeadSideGear: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 224c0-97.2 78.8-176 176-176l24 0c60.1 0 115.7 36.7 139.6 88.3c3.9 8.4 7.5 17 11.4 25.9l1.5 3.5c4.3 10.1 8.9 20.7 13.9 31.1c10.1 20.8 22.5 42 40.6 60.1l4.4 4.4c2.9 2.9 4.6 6.9 4.6 11c0 8.6-7 15.6-15.6 15.6L424 288c-13.3 0-24 10.7-24 24l0 72c0 8.8-7.2 16-16 16l-88 0c-13.3 0-24 10.7-24 24l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 64 0c35.3 0 64-28.7 64-64l0-48 .4 0c35.1 0 63.6-28.5 63.6-63.6c0-16.9-6.7-33-18.6-45L489 223c-12.7-12.7-22.4-28.5-31.4-47.1c-4.5-9.3-8.7-18.9-13-29l-1.5-3.5c-3.8-8.9-7.8-18.2-12-27.3C399.4 47.6 326.8 0 248 0L224 0C100.3 0 0 100.3 0 224c0 53.6 18.9 102.9 50.3 141.5c8.9 11 13.7 22.4 13.7 33.1L64 488c0 13.3 10.7 24 24 24s24-10.7 24-24l0-89.4c0-24.9-10.9-46.8-24.5-63.4C62.8 304.8 48 266.2 48 224zm288.6-28.1c6.3-3.6 9.5-11.1 6.8-18c-2.1-5.5-4.6-10.8-7.4-15.9l-2.3-4c-3.1-5.1-6.5-9.9-10.2-14.5c-4.6-5.7-12.7-6.7-19-3l-2.9 1.7c-9.2 5.3-20.4 4-29.6-1.3s-16.1-14.5-16.1-25.1l0-3.4c0-7.3-4.9-13.8-12.1-14.9c-6.5-1-13.1-1.5-19.9-1.5s-13.4 .5-19.9 1.5c-7.2 1.1-12.1 7.6-12.1 14.9l0 3.4c0 10.6-6.9 19.8-16.1 25.1s-20.4 6.6-29.6 1.3l-2.9-1.7c-6.3-3.6-14.4-2.6-19 3c-3.7 4.6-7.1 9.5-10.2 14.6l-2.3 3.9c-2.8 5.1-5.3 10.4-7.4 15.9c-2.6 6.8 .5 14.3 6.8 18l2.9 1.7c9.2 5.3 13.7 15.8 13.7 26.4s-4.5 21.1-13.7 26.4l-3 1.7c-6.3 3.6-9.5 11.1-6.8 18c2.1 5.5 4.6 10.7 7.4 15.8l2.4 4.1c3.1 5.1 6.4 9.9 10.1 14.5c4.6 5.7 12.7 6.7 19 3l2.9-1.7c9.2-5.3 20.4-4 29.6 1.3s16.1 14.5 16.1 25.1l0 3.4c0 7.3 4.9 13.8 12.1 14.9c6.5 1 13.1 1.5 19.9 1.5s13.4-.5 19.9-1.5c7.2-1.1 12.1-7.6 12.1-14.9l0-3.4c0-10.6 6.9-19.8 16.1-25.1s20.4-6.6 29.6-1.3l2.9 1.7c6.3 3.6 14.4 2.6 19-3c3.7-4.6 7.1-9.4 10.1-14.5l2.4-4.2c2.8-5.1 5.3-10.3 7.4-15.8c2.6-6.8-.5-14.3-6.8-18l-3-1.7c-9.2-5.3-13.7-15.8-13.7-26.4s4.5-21.1 13.7-26.4l3-1.7zM184 224a40 40 0 1 1 80 0 40 40 0 1 1 -80 0z" />
-    </Icon>
-);
+const HeadSideGear = createIcon("head-side-gear", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABzQAAALlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHCEAgsGAAE2AiQDCAQgBYMtBzUbBwbIhof//876fW5VsmYqbdRAD4KTfgDwJfz/947/+7ZqAz5KJA/lvVubpi6dNtY8nkCga1O2tTzLQk3Ampr30kBcZyg7QR4PxBkqpPPSizjd/tD4Qb9jSCoZgGgDwJLrr72qRz+NTyNe+P8u4gUrIyCWBKVAhgxDAiwiExiSK5HLBZ/G//+z/8CSAKLK5ZLn56jgS/wEyEGS5fn2OzTXKs35erVKsf47a0e8sX4t7lrwvlnr3fXu7qh3nzcD5junq4gr+wSedN6UawYjanHNzDcANpKOnKknrh9o9EDCjt6+0vPLFfHkCs/OcWv51pJ1k6MvnunhiVuP9YwINLq64pwCRbA4qeucrtVt53TTAnXB/k5HQONZAvXe3hiDMnGEv3Zy75gklETQTQvUC0vtcSR84DoXTLtmylX9506+curVAxOvb7v+pwkvbvei2T+JldqIlaLPq8uvP3WB6Z3uepvt/ssFc1um2vJpnzW7V5AwG/iX0L0ms08HNS9tby/m4MyBiXPreGHXzTptsunRrS239vl0eJbHX2uJNf/+pH3D8RS9dsPdWsvBxkLT5u+0/LIn1EvffPtta652+RlFccbltVzrt998XaqfsOzyneaff6bGBO+2t787QWOmactryQFXyZpuO5M/8zJCg22uOmBdKExbaM575bmD1ZkXXHDmKr4fCARTHjl5zc1bF/l1XC2Bz+//5Tf+M/L/o0m6HuMkEGSz/D+LTRJIBAAgxX4mJggkH8q479qkIUAoECCpKgTIDGoTIFeYWYCKEfMKUFVYWyby8UKXTQucNNkTZ+ZzKM51uQNXLOKZYFVXZFe64To1/GdmXa7KLjuunHO2OcqFyt6izHjxgh5euJzsmL4fb5oBN9rO7nazj21tY0f7VNR7WTWyr10tN6S97HdLc5rNHEoLKRdXblrXw8G97G3HbliOjLKwcnvPdPsNd54B3Ymrcy5pSSJSy+Ngm/VdsM36fQEA");
 
 export default HeadSideGear;

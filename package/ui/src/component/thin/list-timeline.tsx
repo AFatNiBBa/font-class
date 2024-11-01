@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-timeline` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-timeline?s=thin list-timeline}
  * @preview ![list-timeline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/list-timeline.svg)
  */
-const ListTimeline: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M158.6 96l43.3 43.3c3 3 7.1 4.7 11.3 4.7L416 144c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16L213.3 48c-4.2 0-8.3 1.7-11.3 4.7L158.6 96zm32-54.6c6-6 14.1-9.4 22.6-9.4L416 32c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-202.7 0c-8.5 0-16.6-3.4-22.6-9.4l-43.3-43.3c-6.2-6.2-6.2-16.4 0-22.6l43.3-43.3zM96 96A32 32 0 1 0 32 96a32 32 0 1 0 64 0zM16 96a48 48 0 1 1 96 0A48 48 0 1 1 16 96zM96 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-80 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM64 384a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm0 80a48 48 0 1 1 0-96 48 48 0 1 1 0 96zm94.6-48l43.3 43.3c3 3 7.1 4.7 11.3 4.7L416 464c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-202.7 0c-4.2 0-8.3 1.7-11.3 4.7L158.6 416zm32-54.6c6-6 14.1-9.4 22.6-9.4L416 352c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-202.7 0c-8.5 0-16.6-3.4-22.6-9.4l-43.3-43.3c-6.2-6.2-6.2-16.4 0-22.6l43.3-43.3zm11.3-148.7L158.6 256l43.3 43.3c3 3 7.1 4.7 11.3 4.7L480 304c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-266.7 0c-4.2 0-8.3 1.7-11.3 4.7zm-54.6 32l43.3-43.3c6-6 14.1-9.4 22.6-9.4L480 192c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-266.7 0c-8.5 0-16.6-3.4-22.6-9.4l-43.3-43.3c-6.2-6.2-6.2-16.4 0-22.6z" />
-    </Icon>
-);
+const ListTimeline = createIcon("list-timeline", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAAB0AAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQCEGwsGAAE2AiQDCAQgBYMtBzQbHwbIhof/15nd96XxSSR7gqQgwyKT2yXsgk2xCBWB1d8r/5bmAXzizz/K5SWd9s9EA1IrlVIoAgHNhELdG3gsFuCQRcCyuO3iiGooO6FwhTzed0gL6bF0Avf4bxo/6OFGkiwDEO0BMH/rxtU++TQ+jTjx/5vECSsREAtAJZAhQ28BZskEestVyOWCT+P//8V/YEUAURPakkM5WvEjfmW4i6Se5526d2o4Rd079yxbGvkWfWKxc/ac2Q+VZTzSLeLhrkXc3nnWxEe6W+7o8hBxbecHC1radU483G3upuu6LqO4HcO1C9+ovKPbI1E8MfSVwS/1eHTQi0Ne7rlZWm7vXOHSRhI+E3i81zIJPNYdj2jrO5K2zpo7a3as1BpS3bes75vr8Q2t/qQBzfbNn/qfOPmEp/c2m81FteM+bZ2n9dPjaouav93aOK711luNIyOvuHHr+26//f09UziQhCuS7HXF2VdccXYhl1n7zKze2Guynv367be/fhavaM/YtxjFA9vQJLVSKnHO+yF5fKmVtwOBYPzZS0/d227Wr23KBD5/75e/ip9R8f+nSWqijQSCbNT/o+xKFCQCAJDiYgMShUDypbrwVeseFiAUCJDUFAJkemkvQK4wUoAWfU0WoKawUSbytkJnuxuW1J3HMlNcxXKdvc5azHI4XNM5Mqh3wazrpzP/kq6yeFM1fsy4akY1W1G5AVk4kzOrzcawi2XHcLzXyc5xtgud5JDTXNixn2917CJnWbLEL/5sZbwxxqnMUB2uP8QWHcpwAU9Me46vM1N1fWiYi5f7D8fBJNSdoCxJRGrYmsBoqyA+DAAA");
 
 export default ListTimeline;

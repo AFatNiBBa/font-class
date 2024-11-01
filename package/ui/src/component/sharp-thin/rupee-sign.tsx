@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rupee-sign` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rupee-sign?s=sharp-thin rupee-sign}
  * @preview ![rupee-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/rupee-sign.svg)
  */
-const RupeeSign: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32l8 0 112 0c75.1 0 136 60.9 136 136c0 68.8-51 125.6-117.3 134.7L197.8 480l-16.9 0L122.2 304c-.7 0-1.5 0-2.2 0L16 304l0 176L0 480 0 296 0 40l0-8zM16 288l104 0c66.3 0 120-53.7 120-120s-53.7-120-120-120L16 48l0 240zm272.9-33.7c-1.8 11.7-.6 20.7 2.4 27.9c3 7.2 8.1 13.2 14.9 18.5c13.9 10.7 33.8 17.5 55.6 25l1.1 .4c21.4 7.3 44.7 15.4 61.2 29.1c8.5 7 15.4 15.6 19.6 26.5s5.3 23.5 3.1 38.2c-3.7 24-17.5 41.2-37.4 50.9c-19.6 9.5-44.7 11.6-71.3 6.9c0 0 0 0-.1 0c-8.6-1.6-20.3-5.5-31.3-9.5c-7.3-2.7-14.7-5.5-21-7.9c0 0 0 0 0 0c-3.2-1.3-6.2-2.4-8.7-3.3l-7.5-2.8 5.7-15 7.5 2.8c2.7 1 5.8 2.2 9.1 3.5c0 0 0 0 0 0c6.2 2.4 13.2 5.1 20.4 7.7c11 4 21.5 7.4 28.7 8.8c24.3 4.3 45.7 2.1 61.4-5.5c15.4-7.5 25.8-20.3 28.6-38.9c1.9-12.5 .8-22.2-2.2-30.1c-3-7.8-8.1-14.3-14.8-19.9c-13.9-11.5-34.2-18.7-56.2-26.3l-2.5-.8c-20.6-7.1-42.7-14.6-58.7-26.9c-8.5-6.6-15.6-14.7-19.9-25c-4.3-10.4-5.6-22.4-3.5-36.5c6.8-44.8 55.7-67.2 108.7-57.8c8 1.4 32.1 6.7 40.5 9.2l7.7 2.3L425.3 221l-7.7-2.3c-7.6-2.3-31-7.5-38.7-8.8c-48.9-8.7-85.2 12.6-90.1 44.4z" />
-    </Icon>
-);
+const RupeeSign = createIcon("rupee-sign", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABkwAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCXgsGAAE2AiQDCAQgBYMtBzEbXwXIHoPjbgkliDbUP64QDGHZ8Tz9fv9b+9xz77x/38ctm6WvIWMdr2L1U1UbTCcxVLNGozFUqrb307j33acm3R+kZLASCg2MDmlLgEv3+b+mXjw/OsAkPpRorPRbgYwyeW8CE9wfRYNNk9smirN2dm6QRL9J+oQkw/aG0QZqnsAxZMojwh1wI99VfpFSR9E0ALIQAJg97OsORy/oJejraJ185QoEMguwEUIDwFoITCAKvQGSjUBVhR/o/z/9B2IQIB05wwIqWtzBY0AFRVPrpgWhw3ZePTRs+2bYD99P7guHrOfs/FGfQ5ljVDMYkT5JkxycLvxx+lBpxPbAgRFHH4q1i42btCJmXmhUQLtkn/KYaTWqRh2qHeIsFhdHEhFLu1jPb80WW1eblOkV7xCfMGWgOcaEJv0OmUGnmYw5zxRDohFPx0k2lMckFWd4M1/Cu4Q7GBrQLt0MiKfX+lvNcgkWsXwOIqcsWWgLgwWjJEkxn08ghMfHSX4XCvkWLkXQI1Y9vcmMVIn9sQHwjbJay+yOGB5yGMwCLj/rlu1LSl0Elq5FShMh+V/1PSJT2fvv+ujjk5hs8BAt+s1KlH1bmRkABOHlkZz3SO7En8GwgJ87Px/lOBjd56TMAAMFhGbLSFtYXhH6GwNhtuQCRXyToLiigXsdd19A9AgoOr2Axho8CFS9zRBorWcCgU5vP6LUMbFUeCOKcaeJxj7lRLXUKtGacJntLA3RLiWrkn6F6Q4atZ+GDXT1sSWellTZ1IQ4aoW3DfUC36IBICTIlCFPvDjJ8hSew72QL53DCrP3Q5gBXfowS/i4eq8HMJsjV/JYPZ/ECr6fqCtYd9eATSCsu8wpCin9mfNZ8fE6Txo=");
 
 export default RupeeSign;

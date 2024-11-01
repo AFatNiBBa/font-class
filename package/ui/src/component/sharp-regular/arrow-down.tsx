@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down?s=sharp-regular arrow-down}
  * @preview ![arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-down.svg)
  */
-const ArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M175 461.8l17 17 17-17L362.6 308.2l17-17-33.9-33.9-17 17L216 386.9 216 56l0-24-48 0 0 24 0 330.9L55.4 274.2l-17-17L4.5 291.2l17 17L175 461.8z" />
-    </Icon>
-);
+const ArrowDown = createIcon("arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABUAAAAHEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQCBDQsGAAE2AiQDCAQgBYMtBzEbjgTIngNu0zyioyMiTkTbdDzOW0e3E0ZELVvP3h4hRfmoqLLQ0VjwCI9LyqJxYMSDpZDos3/G3N3M49b+xLQ5kEz9dUoWD4Wmyfx1ne+1IX+c+/Odjwb4jIYWhaUDKfDM8wlMrHjgyVE4+6L4dZuIoEcUvlESNCI6rvL4GqDmlPdaylv5Ak/lpfnlcEfRNgDIFAC4vOvtwVef/eS/m3zqAoFcAthCNGiwhuCEUrBGZQtUVein6+Q/UCBABmB3LaCiQQ8cAKigSFW5R9Vm1YBRbegPhoJhDjKcWgLpo5KkgUjhAEOpJJh+18PUw18WeBkHb2+YBvf36GKXYNfVjQfB6xsQhI+FB7NW/oeMCsDPO7yeuvvmo+IBQwoIzV4XMZYrrZozEABQcgAX+FBQ7FLgrY55FhAjCCgGjAhorLIhqEb0ELQ2ZBEMGHFFKVWPmDPeoBjzAI1j51DN+YTWiW91wFyU4UJdNvVbi294pF4nyVhCSjI1VToCiFQuy7IQONBQkDqxYNOGPfPmLNtz2I4eY9+6BkLrfkgkxSSIEtl2HpsHzNuxa9mmjVylTM4rAQc4OUiyguHu6ykKKYbpnZ3Nw+gjAgAA");
 
 export default ArrowDown;

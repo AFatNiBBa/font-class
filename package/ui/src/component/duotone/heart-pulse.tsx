@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-pulse` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-pulse?s=duotone heart-pulse}
  * @preview ![heart-pulse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/heart-pulse.svg)
  */
-const HeartPulse: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 185.1l0 5.8c0 17.3 3 34.3 8.7 50.2c2.3-.7 4.8-1.1 7.3-1.1l106.7 0c3.2 0 6.1-1.9 7.4-4.9l31.8-76.3c3.7-8.8 12.3-14.6 21.8-14.8s18.3 5.4 22.2 14.1l51.3 113.9 41.4-82.8c4.1-8.1 12.4-13.3 21.5-13.3s17.4 5.1 21.5 13.3l23.2 46.3c1.4 2.7 4.1 4.4 7.2 4.4l132 0c5.4-15.6 8.3-32.2 8.3-49.1l0-5.8c0-69.9-50.5-129.5-119.4-141c-7.8-1.3-15.7-1.9-23.5-1.9C331.5 42.2 295 57 268 84L256 96 244 84c-27-27-63.5-41.9-101.1-41.9c-7.8 0-15.7 .6-23.5 1.9C50.5 55.6 0 115.2 0 185.1zM35.7 288c3.7 4.3 7.7 8.5 11.9 12.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c4.2-3.9 8.2-8.1 11.9-12.4l-104.5 0c-21.2 0-40.6-12-50.1-31l-1.7-3.4-42.5 85.1c-4.1 8.3-12.7 13.5-22 13.3s-17.6-5.7-21.4-14.1L184.8 228.4l-10.5 25.2c-8.7 20.9-29.1 34.5-51.7 34.5l-87 0z" />
-        <path d="M35.7 288l87 0c22.6 0 43-13.6 51.7-34.5l10.5-25.2 49.3 109.5c3.8 8.5 12.1 14 21.4 14.1s17.8-5 22-13.3L320 253.7l1.7 3.4c9.5 19 28.9 31 50.1 31l104.5 0c12.1-14.2 21.4-30.5 27.4-48l-132 0c-3 0-5.8-1.7-7.2-4.4l-23.2-46.3c-4.1-8.1-12.4-13.3-21.5-13.3s-17.4 5.1-21.5 13.3l-41.4 82.8L205.9 158.2c-3.9-8.7-12.7-14.3-22.2-14.1s-18.1 5.9-21.8 14.8l-31.8 76.3c-1.2 3-4.2 4.9-7.4 4.9L16 240c-2.6 0-5 .4-7.3 1.1c6.1 17 15.2 32.9 27 46.9z" />
-    </Icon>
-);
+const HeartPulse = createIcon("heart-pulse", true, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABnwAAAKaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCbQsIAAE2AiQDCgQgBYMtB1IbkQXIhod/8qq/L2gk3U7XQBnAH7YXqzp/a9X/XE5vPD86wO/nODYejqlrNsZ8nkDPoywPJKAlmmkG1u6qreSh5KWkpWHG48W6x+fukMVX6TlykhuTT3B5/B/A+MYI55DoTAFEHwDW3H7rTb3RjGYSn7SeIT6xCQJiLVALpEgxWoBVpAKjZWpkMkEzabVoRqtVE0C0iR+cgjbkuAb3ATKQCEmWLVpWl3l3tl2ZF9uXRfn8qFGxbVw7dPGw7WMoblxcxsOjirioMSeua1xTbRPbxXUFqNcUzPXqxumpcMaI68syxJnrh108tG0gUmqz41psujki7lrtsfUUlHdWqaIRr61HF++Vettrp+guv5Ar4rmRjdj4xtc1tovhccuiYsJDfQ99N/6T/T4x8fbtt99+/g8PmneoQ5o9p0zfxoD/+g4w6aJz5IOnOfiL5sHTtrLgSIf2/rjruI1V+cGy+sJKe1tb28jz6+xgecV5u/7Ye6jg4dO3ckhP7yGHGczPcfyINnn++4ZPdl3xwMte9sAVXU8ub8vzifutu+/TD3ipr++l/Lx91jtA338DZmzjkN4vDpl3qAc1520PBIJx/3zxwe69q/zWUSbg65d++IX7HbWaieQhdEhAkM5qzbJLAhICAJDEcSYkdCKQ2kEiWV2uU0ehoEKiTQGpUfogU5gJubEWs8Ls1lKRdaJV2RUh0eVISC1xKmQqT0NuFe/7bapI7ZO3Lv73MGU9iq97rp4/Z169ou4OFcHk2HC8shar047zS9Phpv0c7jDH2Nc+DnQMIY+yaXSsQ603Itb1RbX55pintkKtntwq2xH/KEc7kJf0p6xUn7emOW68eTpcJgEsuNmOlEgiHfxGqrOPOPaQo/ed/dRXhlrpVQM=");
 
 export default HeartPulse;

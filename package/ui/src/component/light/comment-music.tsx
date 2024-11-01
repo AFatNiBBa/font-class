@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-music` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-music?s=light comment-music}
  * @preview ![comment-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/comment-music.svg)
  */
-const CommentMusic: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 240c0-91.4 93.8-176 224-176s224 84.6 224 176s-93.8 176-224 176c-32 0-63-5.9-93.5-16.2c-9.9-3.3-20.7-1.8-29.2 4.2c-15.4 10.7-31.4 20-48.4 27.4L91.2 446l-6.4-14.7c-10.5 4.6-21.5 8.6-32.7 11.5c.5-.9 1.1-1.8 1.6-2.6C68 416.5 76.3 391 79.4 363.9c1-9.2-2.1-17.7-7.4-23.9c-24.5-29.4-40-62.9-40-100zM256 32C114.5 32 0 125.2 0 240c0 46.6 19.6 87.1 47.4 120.5c0 .1 .1 .1 .1 .2c-2.6 22.6-9.5 43.5-21.3 63.1c-6.5 10.8-13.5 20.8-21.7 29c-4.5 4.6-5.9 11.5-3.4 17.4s8.3 9.8 14.8 9.8c28.7 0 57.6-8.9 81.6-19.3c19.2-8.4 37.1-18.7 53.9-30.5c.2-.1 .5-.2 .7-.1C185.5 441.3 220 448 256 448c141.5 0 256-93.2 256-208S397.5 32 256 32zm89.1 82.8c-4.3-3-9.8-3.7-14.7-1.8l-128 48c-6.2 2.3-10.4 8.3-10.4 15l0 90.5c-5-1.6-10.4-2.5-16-2.5c-26.5 0-48 19.7-48 44s21.5 44 48 44s48-19.7 48-44c0-.8 0-1.6-.1-2.5c0-.5 .1-1 .1-1.5l0-116.9 96-36 0 83.4c-5-1.6-10.4-2.5-16-2.5c-26.5 0-48 19.7-48 44s21.5 44 48 44s48-19.7 48-44c0-.8 0-1.6-.1-2.5c0-.5 .1-1 .1-1.5l0-144c0-5.2-2.6-10.2-6.9-13.2zM320 276c0 4.1-4.5 12-16 12s-16-7.9-16-12s4.5-12 16-12s16 7.9 16 12zM192 308c0 4.1-4.5 12-16 12s-16-7.9-16-12s4.5-12 16-12s16 7.9 16 12z" />
-    </Icon>
-);
+const CommentMusic = createIcon("comment-music", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABpQAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1SDFQsGAAE2AiQDCAQgBYMtBzQbmQXIhofn8/o69yX1xTScljkSV4Cwk5ZT83+55zft6AC/0aGMMSyQMX0vju95wGPZmJT3PMvKAqWY89v5PeoMiisDkuD89Ifx/jD9E+TxZIxSIV2e3sK54UXjZz2cTpJnAKINAPO32rjac9/FdxFvVR8m3rISAbEAlAIZMvQWYJZMoLdciVwu+C6qVfoPLAkgavBPSiBHLW7Fk4AcJJU8Hzx6Zn19Y6U539JYadjq040RH2718fr3N3+07r1NZ0y5pLhpUJfoGhcNujRO6XZvv0u7PjNgq4+WRbw2K+Kp8uP5p8QpjVcNu6i4qMvFjY/OvHXkmfH64k9Xvjn32YE3zHlmxRtbNl9SbIqLCnFJwxnFRd0vP8k7s9ulvU4JHyliq1iuO6XrposH3dLtkqE3F2WnAXe03fFr/7f2fEu/d2PJC3y4axj7wxci4xg8cNy7/3x20Bk72tF/uWDBtOZjtuv27btLncGVfelbnxY/gBjf+9yn9hq2vOH+dU+dEtrWiTTRJNenw688Y6mtN+x+6EljndawnUPriq/eTOnNr4r89ogQjrDTQJvmM85Tt3v36+pSqjPhSf3q/UAguGTH737aqXXWv3WNCfzwxO//2hur/1e/S9IdqJNAkI2qjrJ9IuBMEDiR4kgD8EGB5FoVeNYmlwgQGhAgqdEgQKaXNgFyDUYKUNHXZAFqNNgoE3m9UNihgaTJISAzxQkgV3gQVMzyarxGEZnK8grH/zGmLOmhxdPK8WPGlTPKbVkVtJD14zPLx86wI13bcGy1p4Mc6HB72N0+Du/IQ61OHeEASyRisS8qjTfGOKUZyuvao7LFJg51mH3Wwn0UM5Xvx4Y5Uu49HH7ClBMUJIlIzR+JNlqdAQAAAA==");
 
 export default CommentMusic;

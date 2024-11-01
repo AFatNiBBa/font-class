@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `garage-open` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/garage-open?s=light garage-open}
  * @preview ![garage-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/garage-open.svg)
  */
-const GarageOpen: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M313.8 36c4-1.7 8.4-1.7 12.4 0L588.4 146.4c11.9 5 19.6 16.6 19.6 29.5L608 496c0 8.8 7.2 16 16 16s16-7.2 16-16l0-320.1c0-25.8-15.4-49-39.2-59L338.6 6.5c-11.9-5-25.3-5-37.3 0L39.2 116.9C15.4 126.9 0 150.1 0 175.9L0 496c0 8.8 7.2 16 16 16s16-7.2 16-16l0-320.1c0-12.9 7.7-24.5 19.6-29.5L313.8 36zM128 192c-17.7 0-32 14.3-32 32l0 272c0 8.8 7.2 16 16 16s16-7.2 16-16l0-208 384 0 0 208c0 8.8 7.2 16 16 16s16-7.2 16-16l0-272c0-17.7-14.3-32-32-32l-384 0zm384 64l-384 0 0-32 384 0 0 32zM212.5 320l-10.6 32.8C186.3 362.7 176 380.2 176 400l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16 224 0 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96c0-19.8-10.3-37.3-25.9-47.2L427.5 320l-33.6 0 7.8 24-163.3 0 7.8-24-33.6 0zM432 400l0 48-224 0 0-48c0-13.3 10.7-24 24-24l176 0c13.3 0 24 10.7 24 24zM248 432a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm160-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const GarageOpen = createIcon("garage-open", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABmwAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCcwsGAAE2AiQDCAQgBYMtBzIbdQXIjtRRrTr2ePh/Pf7b5yYPcD7pMSrJlVD9bsBOVda0QsUon/9r6kXZ0QF+vhI8lFymXfACo+r5BCaw5qYJbTScTRRnTlezdHkPCkqpIegRxGHMsHmGPP6OiSpIj6TPcFf/0PhBj+tJ8gxANANg2Z4dm5wso4z47P+3ic9sQEAsB4VAhgz9AiyUCfTLFcjlgjL+/z//BxYEEJXwXgnkqMHDeBGQg6Qqz0cO1oxqrKmpq2jId9dV1J7+UMexeKEnxQMdD3Vl8eT84/HiyKPxXr/Z8NiYEztvbY+4X8pGNIT7yms6H6ytP1bfUD9yj/YP9T/fzYHXlUY8OnowaqNnQn2Hdgm1EfHYmLp4oWcnsx/svL/d499zyNfHhr/a/OpPwz477TPzHtu+veJcY/OlGsuycanuZSkyZkxNLuu2VD5W/P5jjTdzc2Nz+itX+2rZzRpvbvbVVy25GpzC1YrxS5427mo8SuIlt6JL7rrbcJd7ftrDvtsyFSdLU3Vse822jneHysbGUqinmvT9PBAIvv792SNNC/+qrkvg+w9++et83P8n09XpVVRLIMgm/j/RwXQ1ZHYA6RSXGU6+KJDcrQpetd6DAoRaBEgq1QqQ6dMsQK7WBAEqDJolQKVaO2QirxHaHdogqXchyMx2Bci1exNUWOjDVKX2yCJUjy/9BzHPao2uWldMmzy1mF88Ni1H0KlleUHhjoy9zAyNk6NOc77zXOJUpzjTJYq5yKbspc61mtGr/FBhmsmmKsxXvO5s9+92qotc7EznO6+tskDxvTHWZXzyOIknkJzuVJKIVHf6sYuOnX7qpOAFAAAA");
 
 export default GarageOpen;

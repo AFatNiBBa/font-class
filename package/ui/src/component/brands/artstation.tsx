@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `artstation` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/artstation?s=brands artstation}
  * @preview ![artstation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/artstation.svg)
  */
-const Artstation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M2 377.4l43 74.3A51.35 51.35 0 0 0 90.9 480h285.4l-59.2-102.6zM501.8 350L335.6 59.3A51.38 51.38 0 0 0 290.2 32h-88.4l257.3 447.6 40.7-70.5c1.9-3.2 21-29.7 2-59.1zM275 304.5l-115.5-200L44 304.5z" />
-    </Icon>
-);
+const Artstation = createIcon("artstation", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVQAAAHWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBFAsGAAE2AiQDCAQgBYMtBzEblQTIjsQ4JvKLmBRDPPz/XNh9P0kBMGVGB+RbxZotsWMj5lSSBNqdRIB+//ub5/88CvAZhTYWLg1kgc95nkDAY2kXeL4ssEwTsKyd/wmD6FbpUz7JsOiG1QZ5PIuLCtLV9BEX2kPji9bOkxQZgGgEgEkrlszzuhKViI/VB8RHcxAQk0EpkCFDOwHGygTayZXI5YJKVKvpH1gSQNSAgyeQo0BPjAHkIMnyvHaTom5RP19et6izYtnyZVe71Y/lK1avWn2te53YFiviTFxueb3N8uXLli/tfLfR3W+dPm7/KKb3nh1bPlfaG739cZsbnWXV71bySs/pxJAFE+9/6nv4jexx5A0QCL4emzNnQ8Ox39VN4NPT/4bPKFUrKaW7qCWBIOtb7WttIlX/T0kAAFIc1zmRBJJSBnet55IAoQ4CJDXUESDTViMBcnX0EaDQwTABaqhjiUzktYVm1g1I6jkEmeFOQK6Ze1AY641WQ7PIKEM/OP1hS5hu0bSmclD/geXocmnpDAvIUh1Tbos9j+dIL1203QH7HbXNVrscNfhh88xj9pnuYdO8qDRIfwOVRiuP3efp5bY57IhdDthf64xR3ld7Ou6n91IlAeFgQ0kiUp1Nh48yGw==");
 
 export default Artstation;

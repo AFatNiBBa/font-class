@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-up` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-up?s=duotone plane-up}
  * @preview ![plane-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/plane-up.svg)
  */
-const PlaneUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 305.1l0 56.7c0 10.9 10.7 18.6 21.1 15.2L192 320l0-160L14.2 278.5C5.3 284.4 0 294.4 0 305.1zM320 160l0 160 170.9 57c10.4 3.5 21.1-4.3 21.1-15.2l0-56.7c0-10.7-5.3-20.7-14.2-26.6L320 160z" />
-        <path d="M192 93.7C192 59.5 221 0 256 0c36 0 64 59.5 64 93.7L320 400l57.6 43.2c4 3 6.4 7.8 6.4 12.8l0 42c0 7.8-6.3 14-14 14c-1.3 0-2.6-.2-3.9-.5L256 480 145.9 511.5c-1.3 .4-2.6 .5-3.9 .5c-7.8 0-14-6.3-14-14l0-42c0-5 2.4-9.8 6.4-12.8L192 400l0-306.3z" />
-    </Icon>
-);
+const PlaneUp = createIcon("plane-up", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABcQAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBWQsIAAE2AiQDCgQgBYMtB0wb9wTIjsM4hvwSSzmy4uH7tT7Pfd0zC0C9wKiIwAEpQFaklt2GVFTifsUS6OmfL+Z/U6dyLuehAL5RkMakrcExwec8j0DAs70LWypQhWpaA+vuNIVDLZ/EiKXl+MxxuUAeP2bHlUjX0w84i/8DGL9q4ThJjQxA1AfA+AVzpvlSFVUpfqi8JX4wFQExARQCGTK0FmCUTKC1XIFcLqhKlamKygUBRBk+OwNllDANiwA5SELK8y7169Uq1cnn40M1l9zsGfGy6+Puz1ukmBaXiUuNT9ScH3PDPXqlacSRZjMiC+Fwk8vNFkTE3LhkjTAvKHT1ZUeazu/wov6L39u3Pp9X1W5L2wev29atPcANc6v3UPtLStvawYOUvtTuofrcGwY4O9wfV187Z9eLYe55td9PDTh3z+DtO3fNWVt9uAY/v9oHBIKhi3+bYL1R/1evlcAv7/78N/+QVL4k6QWqSyDIelV6WZpAIgAAKfbrkDiMQKaLxH5qbVcECDURICmrKUCmlfoC5GrqKUBJW4MFKKtpjkzkNYTGllWQ1LYLZIY4AHKNvQElo3x1yhpHplWUTlCfuvgpFJ48VfTv068YUSwDhVYUIg5HFttSt/2h0B1OrbfDdnuts9Ymewm62zR/n22mcMhkX1Tor49+CiMU4viRn0+c3fbYNGflY0Yqzmvd7Ofru4OaJMwBZjIZkSKr/wT03vt29lZPoWHHXkQAAA==");
 
 export default PlaneUp;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ethernet` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ethernet?s=duotone ethernet}
  * @preview ![ethernet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/ethernet.svg)
  */
-const Ethernet: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 224c0-17.7 14.3-32 32-32l32 0 0-32c0-17.7 14.3-32 32-32l32 0 0-32c0-17.7 14.3-32 32-32l192 0c17.7 0 32 14.3 32 32l0 32 32 0c17.7 0 32 14.3 32 32l0 32 32 0c17.7 0 32 14.3 32 32l0 192c0 17.7-14.3 32-32 32l-64 0 0-112c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 112-64 0 0-112c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 112-64 0 0-112c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 112-64 0 0-112c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 112-64 0c-17.7 0-32-14.3-32-32L0 224z" />
-        <path d="M112 320c8.8 0 16 7.2 16 16l0 112-32 0 0-112c0-8.8 7.2-16 16-16zm96 0c8.8 0 16 7.2 16 16l0 112-32 0 0-112c0-8.8 7.2-16 16-16zm96 0c8.8 0 16 7.2 16 16l0 112-32 0 0-112c0-8.8 7.2-16 16-16zm96 0c8.8 0 16 7.2 16 16l0 112-32 0 0-112c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const Ethernet = createIcon("ethernet", true, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABlQAAAHqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCZgsIAAE2AiQDCgQgBYMtB0wbhAXIhof/X/vfPnfmuyMDSVQSJHFLohbar5BINE+E9BbVJP/5v6ZePD86wG90ZAdYvcjCYebzCTTQ2gcygQIZDSjFJmJbT9NDHZAenhIEoXF8dVzLjpDH5+yiMtKz9Al34q3GV10uklRlAKIRAHNXLl3iTSlKKT71vSI+WYyAmAcKgQwZ+gkwQybQT65ALheUUl8fhOLPryCAKIdOloFyVOAxXgBykOQiz2uoYEtNWV2+It1X9cpHbaI6Ip501GRnnOsIwZqaCC5DkjfaHhGhs60Pq4+W9Lj9Yavgr3S9/XHE4N7G3u+DPu345OCZUv0hhUPqS5sMpPgqV+sLBShB8Q3WNJDniCh5XczsPw0EgpNn+v3a2DDjf2VNAl9e//zrf0VJ6kWlBIJsRN8I6xJIBAAgxQmDE5sQyGyRo3Ot9ViAUI0ASblqATI9GgXIVRsuQJkBJgpQrtpSmcirhFbrC0hqHQaZSU6BXKuXoMwMb1PlWiNTTka1mF/DxEU1unBSMXbUmGJaMS1hVt8oNzq92DYOOWFbhsJBOxx0wDHbbbPbsQo/Ykn2uP0WrbCFHqgw1ihjFKYpxNX73Stsd8RRux10IIwzXXHfO8SJdfehYEmIcJxVmYxIkTVu/zYWPbD92Egt15sb/jkD");
 
 export default Ethernet;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-waveform` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-waveform?s=solid file-waveform}
  * @preview ![file-waveform](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-waveform.svg)
  */
-const FileWaveform: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M96 0C60.7 0 32 28.7 32 64l0 224 112 0c6.1 0 11.6 3.4 14.3 8.8L176 332.2l49.7-99.4c2.7-5.4 8.3-8.8 14.3-8.8s11.6 3.4 14.3 8.8L281.9 288l70.1 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-80 0c-6.1 0-11.6-3.4-14.3-8.8L240 275.8l-49.7 99.4c-2.7 5.4-8.3 8.8-14.3 8.8s-11.6-3.4-14.3-8.8L134.1 320 32 320l0 128c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L256 0 96 0zM288 0l0 128 128 0L288 0z" />
-    </Icon>
-);
+const FileWaveform = createIcon("file-waveform", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABaAAAAIJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBXQsGAAE2AiQDCAQgBYMtBzQb4QTIjtRgrTKL8fD9XF/nvuRTehgyzOiYF4AksWMjutZurSTXxfo+/9d8ftZ0dPz9nLMwQSKBlvV8Avd8ZWGRNqHZcDaiifCsnV1CEv1ikD7ySYaJHzYXyOOV7Lo60kvpDzzKbxp/6ew6SVMGIFoBYNaGNcv8VI1qxO+1z4nfLUFAzAKlQIYM3QSYKhPoJlcilwuqUau5/8CSAKIewYmemwfXYDMgB0nK87kNlbrm+Xp7ULHl3YERH3YSlbjXflhsiBcqQR7FdjzX/tl2RdztMDzWxrMFThgdRYiXBn3Ur3l8MOSTrlkIv/p8RBQVoRLre3/c6uO/e/2x/w87fnyzNa2LqpOKiW2M2m1iUUz8wnzVFi2qKw027XdZ0br1m7xZ6EXpsha3b7dw3vzpMlEuXfJMIPjtrhd3tJz6T2MlgT+/+X96vKz9FG+mj9EogSAbWhtqa/ykVAqVAihMcV5vfJJAskSCV23meQFCgQBJvUKATFetBMgVhghQp4dxAtQrrJGJvEloZ1sDSTOnQGa8CyDXzqegzlQ/h/XaRaZWnFJwv7rk+RyaV1WOGj6ynFxOayqvKUycnVIu2wPP+55B2Gu/E447a5+9DjnLyNOWJeccM18i5vmi0ijDjVSarNxu3m9fb5/TzjjkhONpninK88FA5+Xhg7CYBBh9IaVEpOZPWBn22Bm9AwA=");
 
 export default FileWaveform;

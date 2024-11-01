@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camcorder` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camcorder?s=thin camcorder}
  * @preview ![camcorder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/camcorder.svg)
  */
-const Camcorder: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 104c0-30.9 25.1-56 56-56l192 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L120 32c-39.8 0-72 32.2-72 72l0 58c-27.6 7.1-48 32.2-48 62L0 416c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-17 0-27.7 0-102.6 0-27.7 0-17c0-35.3-28.7-64-64-64L64 160l0-56zm0 72l256 0c26.5 0 48 21.5 48 48l0 44.7 0 102.6 0 44.7c0 26.5-21.5 48-48 48L64 464c-26.5 0-48-21.5-48-48l0-192c0-26.5 21.5-48 48-48zM526.8 445.9L416 396.1l0 17.5 104.3 46.9c5.1 2.3 10.6 3.5 16.2 3.5c21.8 0 39.5-17.7 39.5-39.5l0-209c0-21.8-17.7-39.5-39.5-39.5c-5.6 0-11.1 1.2-16.2 3.5L416 226.4l0 17.5 110.8-49.9c3-1.4 6.3-2.1 9.7-2.1c13 0 23.5 10.5 23.5 23.5l0 209c0 13-10.5 23.5-23.5 23.5c-3.3 0-6.6-.7-9.7-2.1zM64 248c0 4.4 3.6 8 8 8l240 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L72 240c-4.4 0-8 3.6-8 8z" />
-    </Icon>
-);
+const Camcorder = createIcon("camcorder", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABjwAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCXAsGAAE2AiQDCAQgBYMtBzAbXAXIHoex46U2Diz5lR/Ew4Ne1PtJJgsoK6mC1YkotzsANdQK7c3iaVq8X9t9IBnx+KOvQvTn/5rP7/nRAX4+gkOpotLGAsxYPZ/AwNfe1D46sNlEcW8bLokobDhCREoiwnEctwNk8Y3lSiTX8Gc40wcVv2jkIIk0BRA1ATBy1rSp3voxfoz4rHwSn5mMgBgFCoEU3tFUgCFSgaYyBTKZ4Mcol/E/sCCAyNFhCciQ4wxuYBnvM1mW9WverlqVUrVsZpVS5Xk3YsSVsUpciZdD5Xg4PU3iobsK4tr8rFeLJ+uLGnT368vzoWqEalWrPfKXshDiqrvYqsbjcLlE3IhXxhUzZ8wUM+ISPaEsFLFveSI57qaHmBVX6KMsrrbjYeklH3jvi67Vc/X899nKzwyfVeEP/t/8lsV5vvgtP/buXX2QsV9+1eAtlWvVugvuMl5CmlqpqVr2kAET0OPbz9OuVuoq/fzbHlp6S5wvqm3sOe5Z26putlaq+eKr+bVarxw1K21b1VVtG3vqmY+s+7V6I0sjv3g/X/ynYJpvBwJB09f25YtqDPmvIk3Az6/8Ea9X/jEZkTwHKkpAkHYpb+YnIwDQAXhJ7NTK+aJA4ogMDbWqywKEygiQyFUWINVETQEylXUWoKS5vgLkKpsmFVkloa4FAhJVbQGpfnaBTF0vQckQH7q5upGmJZ1U9KcwYZyGxi4qenbrUQwqtonJZBpZZwcXx3KHndjoCHuttMlG262w3BrbFbLV1GCHDcZ58Fg/VOipmx4KgxTX+Xb7TCtstc0am2xs8wxWvNc72On3dwQtQZi9LE0kRFJp2ZINyzIWAA==");
 
 export default Camcorder;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-worried` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-worried?s=regular face-worried}
  * @preview ![face-worried](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-worried.svg)
  */
-const FaceWorried: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM182.4 414.5c-12.4 5.2-26.5-4.1-21.1-16.4c16-36.6 52.4-62.1 94.8-62.1s78.8 25.6 94.8 62.1c5.4 12.3-8.7 21.6-21.1 16.4c-22.4-9.5-47.4-14.8-73.7-14.8s-51.3 5.3-73.7 14.8zM144.4 272a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM192 160c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8c-6.5 6-16.6 5.7-22.6-.8s-5.7-16.6 .8-22.6c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1c8.8 0 16 7.2 16 16s-7.2 16-16 16zm141 .9c-4.3-.6-8.6-.9-13-.9c-8.8 0-16-7.2-16-16s7.2-16 16-16c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2c6.5 6 6.8 16.2 .8 22.6s-16.2 6.8-22.6 .8c-15.5-14.5-34.8-24-56.1-26.8z" />
-    </Icon>
-);
+const FaceWorried = createIcon("face-worried", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABpAAAAKjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CCfAsGAAE2AiQDCAQgBYMtBzMbfwXIhof/t+u/fW5XP4D1BY6kSP5GNDLSXpNKaf/P5fTG86MD/EaHMjauCXK78Ki5nicQ4NjaBgsooUwTsFiyNuc5qGCK0CCRR6Q88sP20DB1hSxei82KpD3pc2yqbxW/6HYHSbEAIJoAsOSEYw7zdilKEZ+VXyA+cwgCYgnIBQo40SfAfAWBr5DJkckEpSiXy29gTgBRof0vCWSoxgE8CshAUpllvb2dra3NzbXF+uz42mLNObdOjHhy7ac1963+ePzjbpnwxJpPatcd8tmkp6Lup2UR7x3xVe26w75Y8s5x3y9++9DPa+47/Mul7x5/3PaOiJ2d+8Y9VrtuzCPdO9q2d7xYc9/043d1RuyqXde+wy1t22vu69jZccK69oiRntKhcPx9bfeP3p6czsdmDdU72re3Hbez5qBF2gtjVJ56dOTQR5se/W3I5+d/7qu35rzJk3W1s2bV1j355hyqCae/tqKa7ufeWbbsnee6q60otX75Cwe3nsu5Yz675ZY8P8/7bMy5524dGD16YMTG+nu4p77hnnsaHFLv1L81iBmY9WduOqLyyH+ve/mRdXt/feDK6lJDQ2m9Iyv7S6uvfODXveseefm6f4FAMPv0KfPOaJz/X1VtAj+/+sf/3Leo/HaSHkWVBILC+PJ4pyaQCABAiusNTRBIdqhU0zo7hWZag0hhhRqkBb2absjUGAdFA2awwt3HKIisWmhzGiCpcxUUzHQjZNo8B0XzfRRVaIuCmfJGxv8kpqxkfMWifMrEyfncfFpzCZbH5tl5uVgdfX3sGYMTzneFy13rPOe6qNNEXu2w9DqXWbkiVvig3BQTTZabK99u/lSOJ+dq1zD7Lu3PM0+uH452/Xr4GBhJo5yqlCQi1X0DpQk3XHH11Reddy4AAAA=");
 
 export default FaceWorried;

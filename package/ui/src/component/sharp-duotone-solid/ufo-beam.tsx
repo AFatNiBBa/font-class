@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ufo-beam` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ufo-beam?s=sharp-duotone-solid ufo-beam}
  * @preview ![ufo-beam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/ufo-beam.svg)
  */
-const UfoBeam: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M.3 492.2l9.7-21.9L90.4 289.5c14.2 5.2 29.7 9.8 46.4 13.9L53.9 489.7l-9.7 21.9L.3 492.2zM144 138.7c0-9.3 1-18.8 2.9-28.3C158.5 54.5 204.4 0 288 0s129.5 54.5 141.1 110.3c2 9.5 2.9 19 2.9 28.3c0 0-33.2 53.3-144 53.3s-144-53.3-144-53.3zM439.2 303.3c16.7-4 32.2-8.7 46.4-13.9l80.3 180.8 9.7 21.9-43.9 19.5-9.7-21.9L439.2 303.3z" />
-        <path d="M432 138.7s-33.2 53.3-144 53.3s-144-53.3-144-53.3c0-9.3 1-18.8 2.9-28.3C59.2 129.5 0 166.1 0 208c0 61.9 128.9 112 288 112s288-50.1 288-112c0-41.9-59.2-78.5-146.9-97.7c2 9.5 2.9 19 2.9 28.3zM288 224l32 32-32 32-32-32 32-32zM64 208l32-32 32 32L96 240 64 208zm416-32l32 32-32 32-32-32 32-32z" />
-    </Icon>
-);
+const UfoBeam = createIcon("ufo-beam", true, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABmgAAAJ3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCRwsIAAE2AiQDCgQgBYMtB0wbZQXIjtMVcxRJkjSvePj/MXfff38bIlYtaRINTUsmFBrZJGZWwg6NQ6jmP2/3du4g8fwf+QWwqmQpT7li62q7YOrU83hCAXwOQdDGWue75dKc5xWoaH0tLcj0Wk2xfjs/XTEoPYMkIY6QYfk3bH8NNZb4OYiUd04Gt+5/AOObiTkouhMAMQQAOLzMTcf97/S9kPx/GYi2NBAQRwCWEBKJOQR28AJzBEugqoIOt7oKdGh1lQEBRBP4sARNdOMaPACooKiyCs7q6uraJlqaorZQoClqNE7pE222Izoc99ThqOFWmjZ6HXTdeEfwjfw3mguF70Jvme0MuVmwBXnLLs5O5EKuBa5Ors5ESm1zJcymzArpiH0eGVNI6bTRvshbiU+C71hswdTYZrujd6k+5phPJhREplRgc1J58o+13CDj3CbJ8PEb+KmqWvr9SibJI0ZqHlJIxU1RkjeyskJVU7GkGGruJR7SurxV8CDnmyLB+6w8uD3jtMxLKLjJuYktLt1WSR4jzPPHD0824iHRq/bvB7XyK3I4NF+YeZn3bTF5OyAQfH18a1mpCPuvpskBPm/++4l48P99Loo7CehSQJBrq24oK1EAGktAXmIANsw3CaQTAjxqnxcEQg8CFE09AqRZSgSqHqsINCzwR6CpxyleVHWEMeUZFH2uQNo2Dqoxl0DDjmdp01jwwkiJEvUvGJ9QQvHLmLeHFwthw7pEyxdh50PZsu40YPqc1Uo06NShT706zfoKtEd60a9dAofE+yHGmwcvTAi23brlCyjt0au5z+4vEordj50M8KOdlcUB7rpNUhKFeGV/Q6d7TX11u7tUq7oV+/0CAAAA");
 
 export default UfoBeam;

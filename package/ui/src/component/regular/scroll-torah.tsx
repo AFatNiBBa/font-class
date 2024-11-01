@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scroll-torah` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scroll-torah?s=regular scroll-torah}
  * @preview ![scroll-torah](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/scroll-torah.svg)
  */
-const ScrollTorah: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 48C62.3 48 48 62.3 48 80l0 352c0 17.7 14.3 32 32 32s32-14.3 32-32l0-16 0-320 0-16c0-17.7-14.3-32-32-32zm73.3 416C141 492.3 112.8 512 80 512c-44.2 0-80-35.8-80-80L0 80C0 35.8 35.8 0 80 0c32.8 0 61 19.7 73.3 48l6.7 0 320 0 6.7 0C499 19.7 527.2 0 560 0c44.2 0 80 35.8 80 80l0 352c0 44.2-35.8 80-80 80c-32.8 0-61-19.7-73.3-48l-6.7 0-320 0-6.7 0zm6.7-48l320 0 0-320L160 96l0 320zm368 16c0 17.7 14.3 32 32 32s32-14.3 32-32l0-352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 16 0 320 0 16zM196 313.7c0-3.2 .9-6.4 2.5-9.2L226.7 256l-28.3-48.5c-1.6-2.8-2.5-6-2.5-9.2c0-10.1 8.2-18.3 18.3-18.3l56.7 0 31.4-53.9c3.6-6.3 10.3-10.1 17.6-10.1s13.9 3.8 17.6 10.1L369 180l56.7 0c10.1 0 18.3 8.2 18.3 18.3c0 3.2-.9 6.4-2.5 9.2L413.3 256l28.3 48.5c1.6 2.8 2.5 6 2.5 9.2c0 10.1-8.2 18.3-18.3 18.3L369 332l-31.4 53.9c-3.6 6.3-10.3 10.1-17.6 10.1s-13.9-3.8-17.6-10.1L271 332l-56.7 0c-10.1 0-18.3-8.2-18.3-18.3zm124 54.7L341.2 332l-42.4 0L320 368.4zM254.5 256l30.3 52 70.4 0 30.3-52-30.3-52-70.4 0-30.3 52zm144.9 23.8L383 308l32.8 0-16.4-28.2zM415.8 204L383 204l16.4 28.2L415.8 204zM320 143.6L298.8 180l42.4 0L320 143.6zM224.2 204l16.4 28.2L257 204l-32.8 0zM257 308l-16.4-28.2L224.2 308l32.8 0z" />
-    </Icon>
-);
+const ScrollTorah = createIcon("scroll-torah", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABwQAAALiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhESDeQsGAAE2AiQDCAQgBYMtBzMb/AVRlM1FieyLA/O8TzEIGA2VUDkHGAgDzviUy/lF9n8/Hp5f+3bum5kV0ygiSSBqxDOePG5DPNF/IhOqR6JZJqn//2vt/hWR9s4mE0fcGo2NiVCmYXFC5BA1T4Ys2ENAc9tN4YU8CQWTVMUSpDTqVhGRDG8T9dV3UTAe22/Q9PfzfNa05hc2gqH8SFyVV1BEnk9ggNNM+rrzAc4mirM2x1tdQxE3BPKE2CePOow/bF0hDyFuKUiP0wtw88LiJ6enRFJkIBAN8KFsHZkdgHvH3kV8/P8Rz/VAQGwBBjBkyNCDgVVigR4SAyCXC97F///nfyBBAFEGkSeHctThLfgK9TqSUWXbUTEbNjztSVg62u7eHylGicAMTGKdc+pLBAuY2oIGq4Ab/c+nWhzv96f9nqTezif/9ruY7NbrJeORxUQrbaEwx7HCDAIUjkxkBgYmxmTqLaoscDklii051QbYXGMpkzuHWQjqzNxnWBPBwjq1ck1Q6TaajZV6eVu940e+pNgTUgSUuuVaWVJtF4qFCNEJgzCP9O0qGUrfXhy8MLqp22Mvd0wmQMHQoIzSo3eeTFdhtNOwf5gdww6fNjj9+al822gM38ZEmSI25xn9MAqNBkrff0k6/BSvWQo9y/iyXFN9/FnGfyssr8ExW8qaZe/luRoxL2qbl/zSJh6v6fOW/Tcx1A37B+OCjq44iCyoiQkMHP42Z5CkQHDm9vFgU7/6q6JaBPjw7Hfy8n8u3UglVEggyEb/l62lGwDLAGIpHrgaXxRI3tBgqMaD3kSo4gFJmSqQ6WYAuSojoNAnQTnFAy5D5EqEWqwnkNQ4BzLzHkGuxTMorHqJlmkJcZAzIcr8YyY2S1ljEUWCYcrSZ42ycUsdszly29wPe49HVuLApQt39u05dldobwwS9841W5qGHyIRQWEki7qb1+LCEr1x69jm++fJofkht4f2cI84RWh1WkmSiKSJ/azA3Zmb7SM=");
 
 export default ScrollTorah;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-to-bracket` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-to-bracket?s=regular up-to-bracket}
  * @preview ![up-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/up-to-bracket.svg)
  */
-const UpToBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M114.2 320L224 210 333.8 320 280 320c-13.3 0-24 10.7-24 24l0 120-64 0 0-120c0-13.3-10.7-24-24-24l-53.8 0zM224 160c-11.5 0-22.5 4.6-30.6 12.7L77.6 288.8C68.9 297.5 64 309.3 64 321.6c0 25.6 20.8 46.4 46.4 46.4l33.6 0 0 96c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-96 33.6 0c25.6 0 46.4-20.8 46.4-46.4c0-12.3-4.9-24.1-13.6-32.8L254.6 172.7c-8.1-8.1-19.1-12.7-30.6-12.7zM48 168l0-80c0-22.1 17.9-40 40-40l272 0c22.1 0 40 17.9 40 40l0 80c0 13.3 10.7 24 24 24s24-10.7 24-24l0-80c0-48.6-39.4-88-88-88L88 0C39.4 0 0 39.4 0 88l0 80c0 13.3 10.7 24 24 24s24-10.7 24-24z" />
-    </Icon>
-);
+const UpToBracket = createIcon("up-to-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABeAAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCDQsGAAE2AiQDCAQgBYMtBzQbEQXIhuBhrt55SQ6A8xm4TKzWlfaEK1tUrd2Jy+mP86cHnAA2N46FM/A5zxPofA7OSzvPAss0AUvdxosPorwYRObRI8eQ5KF5hyyejYeUkTydFPFg/dD4U5fbSJSlAKIRAEt2bdug8Fv8FvFj6XPiR+sQEEtALpAiRa8A86UCvTI5MpngtyiV0n9gTgBRTl6ZgAxlOI3LABlIpFnWMmpkTVldtrOmrHrXru27dkR1vNaJkohnRs5X7mndHo95uu3xmpoQBRhBerPjyZ4I4N4NcXP7zniientgGuyaOk2bFOLpEW8eeGHsOzNr47PRb/Wq40PfaXzn7yHFk0UX33i+PNlMW9qusthV2rbMPP/F5uIll/q5JSkOtgx1WDr40+TFJv80mB42VAu4LS0/b9Ni84cVm2Vj0zfvNjVqevebps2c9pa2Rs7uumtxo8V6ph4HAsHv4+b9dKhh/n+VNQn445t//y8/I6VCFJJ3UCkBQTq+NN7+KEAUBAAgiSsMjQICicNS8q61nhAgVCNAoly1AKkejQJkqo0ToEy/GQKUq7ZNKrIqodWBgSVqXYylZroey7T6FCsz37d5udZIw40PFv63l7IS4RXz8ikTJ+dz821VFyKIzdPz8mNn9BXcNYauOulCF7jMCcedcRmgl9hQudz5VlrICl+Um2KiyXJz5e7GWtkJ+SUudWbN+wGzzJPfD0e7wh48hhaTAKY+FJDcjKTu8osmXHbhhKOXHDl27sRl");
 
 export default UpToBracket;

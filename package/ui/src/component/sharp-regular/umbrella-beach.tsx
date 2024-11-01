@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `umbrella-beach` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/umbrella-beach?s=sharp-regular umbrella-beach}
  * @preview ![umbrella-beach](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/umbrella-beach.svg)
  */
-const UmbrellaBeach: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M572.1 268.8c-.5 16.2-2.6 32.5-6.3 48.8l-45.5-16.6-77.6-28.3s0 0 0 0L214.9 189.9s0 0 0 0L134 160.4 88.4 143.9C96 129 104.9 115.2 115 102.4c66.5-84.6 182.2-121 288.8-82.2s171.8 141 168.4 248.6zM473 124.2c.4 35-4.5 69.8-14.5 103.3L524 251.3c-2.2-47-20.3-91.9-51-127.2zM396.3 68.9c-3-1.2-5.9-2.4-9-3.5c-1-.4-1.9-.7-2.9-1c-18.2-5.9-38.3-.9-51.5 13.1c-23.3 24.6-42.2 53.1-55.9 84L413.3 211c9.4-32.5 13.2-66.4 11.2-100.2c-1.1-18.2-12-34.2-28.2-41.9zM288.8 54.6c-48 6.4-92.7 29.5-125.8 65.4l68.8 25c14.2-32.9 33.4-63.4 57-90.4zM552 464l24 0 0 48-24 0L24 512 0 512l0-48 24 0 192.7 0 76.9-211.4L338.7 269l-71 195L552 464z" />
-    </Icon>
-);
+const UmbrellaBeach = createIcon("umbrella-beach", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABcQAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBfgsGAAE2AiQDCAQgBYMtBzUbAwXIjsQ4JvGLKEzi4cGu6v3q6gFYazPbPTIyQ0rhxdMhP1/v5v+az+/50QF+PoJDi6bStPaMRT6fwICjvG02oNlwNlAZ+3Zna2xJtE+SlCU5vhXH4wRpfBPXypPcmLyLa/Kbxj+aXUginwMQVQCYtmbFIi/+GD9GvNP1GPGOBQiIaSATyCGHNgEmygm0SWVIpYIfo6uL/gMzAogC8rAEpCjEOhwHpCCRT9P2wlpvlebL09UhXnLkhqbxsTrOczgHR8fNrZ+s+WLVZ/iLVq6+M1sVn09ffXlEXNdwecN9fZ8duCru7n5T79WfLl0Vj0zZVVpSKkoqIkpL18SoWBnl3R+qeug/3t39rgkPF8790MJW/LIcLG33g8d+cWHDooZlrUs7BswYOD2Wb782/Xlqg9yc3xeOjmDosKh6Y1XPxZcM9WHNwFv2l88rHj2zybQxBTc0iTlUU1986ksLP/aB2S9rAwJBW+sX11c58f+i0gT8/PQrd3e9mExNHkKRBAS5gV0DbUymAqEDcJM4rbvyQYHEMnnyqmWuEyCUIECiQIkAOa2qBEiVGCBAXodRAhQosUJOpMVCnU0NJMocAzmjnQGpOo+AvInecArURc7OSCshf3lxs3to1rJs2OCh2fhsWqiU6eBxfkK2LPY9zX394KjdjjjspF122udkhxy3yD/lkNkaPMsXZYYZbKjMeNl2/bh/tV2OO2GfIw6nRSbIzqt9ndZH9wMlIZjDrUwkRFJx6tD242+JMOiOAgAA");
 
 export default UmbrellaBeach;

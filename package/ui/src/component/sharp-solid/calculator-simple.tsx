@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calculator-simple` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calculator-simple?s=sharp-solid calculator-simple}
  * @preview ![calculator-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/calculator-simple.svg)
  */
-const CalculatorSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 0L224 0l0 224L0 224 0 0zM288 0L512 0l0 224-224 0L288 0zM512 288l0 224-224 0 0-224 224 0zM0 288l224 0 0 224L0 512 0 288zM416 64l0-16-32 0 0 16 0 32-32 0-16 0 0 32 16 0 32 0 0 32 0 16 32 0 0-16 0-32 32 0 16 0 0-32-16 0-32 0 0-32zM64 96L48 96l0 32 16 0 96 0 16 0 0-32-16 0L64 96zM83.3 348.7L72 337.4 49.4 360l11.3 11.3L89.4 400 60.7 428.7 49.4 440 72 462.6l11.3-11.3L112 422.6l28.7 28.7L152 462.6 174.6 440l-11.3-11.3L134.6 400l28.7-28.7L174.6 360 152 337.4l-11.3 11.3L112 377.4 83.3 348.7zM352 352l-16 0 0 32 16 0 96 0 16 0 0-32-16 0-96 0zm0 64l-16 0 0 32 16 0 96 0 16 0 0-32-16 0-96 0z" />
-    </Icon>
-);
+const CalculatorSimple = createIcon("calculator-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABiQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCbgsGAAE2AiQDCAQgBYMtBzgbdgXIrgZjItPjqoQS5rFYZGdX8rk/qzlZ8aK+iOeh/fqdO2/WZr5gTaxC0uSdhiexZBIy7TckQd4QkZC2hC+VTH5+z9z+bSTSRNs9klsWTZbEpNFobZFGWiOZawn74eOHX0KEtNf3+8Q19cOitj5P4qFFFkZzRPAEhsNob5rQbGAznYDNNtscuIeDuF+rEikZ0uNnj2d0gZrfQyaU7wXYWj40/9g+FIsBQPYBgOt3O224O9lJVuNkpQkCuQ7gBMKAAUcQuEQUHOFxAlRV2Mk4tv9AhgCZAlI8XdHxFT8BFRSLWheFd7IHemSyXu/IoTb01qUl6yN6H6SF0jcM7wmJjgCN37vwkgToBa3lobc3pxW3DN3wk55ACNRoMyFQp40EQZPS4u98NF+xrz21tDwr3B1osenEcG0fZxPy/AD5DAljAU5MS7RjrAu8iUg3dhBb+fnDkr8851jNdtiJtRKYeNDxOkAQPr/4e+kBl/7PewF7v77+jDC6grLEXAFhODOGDQooBABQ8gm+AgTFlgW865ovAqIhoJhqAgaHSQhUzWkEJo7JIDDV3CRKXYhDhlVQrHkrGFz0FlSHfAUTl/zjU4ci5qciuxRfh2krGi4v4kQ0zkW+rdiUKSfrkyWetvpfpiNAZ7FydvKwtLD1UOybdurpqOKRZV/EEqLiWBGH61ttX8Vv7rbXJvF5Svj5oN/L7x8ghwBSz1paFFL2/6kRON8iLzkA");
 
 export default CalculatorSimple;

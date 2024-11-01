@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-sms` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-sms?s=light comment-sms}
  * @preview ![comment-sms](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/comment-sms.svg)
  */
-const CommentSms: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 240c0-91.4 93.8-176 224-176s224 84.6 224 176s-93.8 176-224 176c-32 0-63-5.9-93.5-16.2c-9.9-3.3-20.7-1.8-29.2 4.2c-15.4 10.7-31.4 20-48.4 27.4L91.2 446l-6.4-14.7c-10.5 4.6-21.5 8.6-32.7 11.5c.5-.9 1.1-1.8 1.6-2.6C68 416.5 76.3 391 79.4 363.9c1-9.2-2.1-17.7-7.4-23.9c-24.5-29.4-40-62.9-40-100zM256 32C114.5 32 0 125.2 0 240c0 46.6 19.6 87.1 47.4 120.5c0 .1 .1 .1 .1 .2c-2.6 22.6-9.5 43.5-21.3 63.1c-6.5 10.8-13.5 20.8-21.7 29c-4.5 4.6-5.9 11.5-3.4 17.4s8.3 9.8 14.8 9.8c28.7 0 57.6-8.9 81.6-19.3c19.2-8.4 37.1-18.7 53.9-30.5c.2-.1 .5-.2 .7-.1C185.5 441.3 220 448 256 448c141.5 0 256-93.2 256-208S397.5 32 256 32zM96 212.8c0 12.3 6.2 23.8 16.4 30.7l29.4 19.6c1.3 .9 2.2 2.4 2.2 4c0 2.7-2.2 4.8-4.8 4.8L112 272c-8.8 0-16 7.2-16 16s7.2 16 16 16l27.2 0c20.3 0 36.8-16.5 36.8-36.8c0-12.3-6.2-23.8-16.4-30.7l-29.4-19.6c-1.3-.9-2.2-2.4-2.2-4c0-2.7 2.2-4.8 4.8-4.8l19.2 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-19.2 0C112.5 176 96 192.5 96 212.8zM372.8 176c-20.3 0-36.8 16.5-36.8 36.8c0 12.3 6.2 23.8 16.4 30.7l29.4 19.6c1.3 .9 2.2 2.4 2.2 4c0 2.7-2.2 4.8-4.8 4.8L352 272c-8.8 0-16 7.2-16 16s7.2 16 16 16l27.2 0c20.3 0 36.8-16.5 36.8-36.8c0-12.3-6.2-23.8-16.4-30.7l-29.4-19.6c-1.3-.9-2.2-2.4-2.2-4c0-2.7 2.2-4.8 4.8-4.8l19.2 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-19.2 0zm-152 6.4c-4.1-5.5-11.3-7.8-17.9-5.6S192 185.1 192 192l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 19.2 25.6c3 4 7.8 6.4 12.8 6.4s9.8-2.4 12.8-6.4L288 240l0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96c0-6.9-4.4-13-10.9-15.2s-13.7 .1-17.9 5.6L256 229.3l-35.2-46.9z" />
-    </Icon>
-);
+const CommentSms = createIcon("comment-sms", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABvQAAALQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDZwsGAAE2AiQDCAQgBYMtBzIb6QUjEbZqLiqR/bEY26J4NyZEofGnaOJK8A+f93buS1IkrT+KQQYwViZ23BGr+QFwden4V3t6wDN6lP3SrNSUis1LqZyJQMBD8dK8jceCsYhimKNOR572mhY8hswwMJbhcdbjcgdsnVVhHDCrzT1g4fam+kg6szHYFgAASgIAAGq0a9WES2/0RroXOY7u0QgQgGoC+AiwAAvIggCojIWALNj4gI2N4I0iEfsN9BEAKIr4yzUA2EA08Bh4DwDYABgc224qT5ECBXN7Trzd1nPcdi9bSU/bPW/xuM2z5o9azym7IrAtd1AhLcu9UjPCB7OvDF3I2e5ZfelWZemc/7zGDM3w1uVfFlgWXO6drLSz0FzdrvOy0d1qF3NtqXqh4Z22rVcHC2g5011XywLLg57mhldqTaigVmiG52lleEXI1ZzAMnrNCUjLeEq3XhEEkAAypaTmaa+QGBTYKZVVNeeepD2fc9zre4/sD1X3CjztqZ56emXwzuOJxR/+ejVsTle68sdGULN8/IRO4dcP6zEH1maDbLGmzhFAJbIsPNcvfwP3cPNzM0RScwkGpsUe162dU4+Nx8zHJyQbx8nkTULCm0yS1uxOMh+ezlgqlmoEcjcDvNtswUqn35albnd2uG4qTgHqxMTUKUBxvmF33KVb+hWlKAAIEJzql/CvW2Ll3zEetwHg3Zmvv/uJkf+RNwazB4jBACCwCkcKdzaChiWIyBqNzYkPEmC4jQNeNY4VAkC4gAAwROEiACwySUIA2LgUQgA4ZKMMAiAKl1ZYyI5FBOgykCGOEciiLFOQTYCjyKEyNzNRBGTVtlSZ0q9l+kRdxuqs80sULe5X9G8bTrlcBblYyU+b+cf6QAFsoe+woaP79B7QgdiRTfJjhtRVTJ0v+iWKFvcr+svtZ60tpUaOcoA3dH2VSv77sfxj9fgCcAzBWbLKYEDG+5rSRUYNGQUAAA==");
 
 export default CommentSms;

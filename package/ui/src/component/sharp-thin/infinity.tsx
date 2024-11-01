@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `infinity` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/infinity?s=sharp-thin infinity}
  * @preview ![infinity](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/infinity.svg)
  */
-const Infinity: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 112l179.2 0L320 245 460.8 112 640 112l0 288-179.2 0L320 267 179.2 400 0 400 0 112zM308.3 256L172.8 128 16 128l0 256 156.8 0L308.3 256zm23.3 0L467.2 384 624 384l0-256-156.8 0L331.7 256z" />
-    </Icon>
-);
+const Infinity = createIcon("infinity", false, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABVQAAAHbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBJwsGAAE2AiQDCAQgBYMtBy8bpgTILgZjN80QEUKlsTEYnHz8Nzq7u6Xx8P+Het/7v2MtTmnSWLimcMECVhtLKIIV6amGy/Gr/fTt3Q9uAP1OFJNOXFS4BCzJ+O86EaaOpWsH6IL/SwjD9mSpfZ869TznoQA+hyBoY9rcmG3RpGufV6CAY/sG7HmtWCtQxbi7sz1biPZprSWW5LhwfM5Q4x9LLOS7+sNzedNom/NEKgUAMQoAjh47bXxEwW8niB+nICCOAKwiFBQsIrBLCywyrIKqCn55/A8UIIDoBj8/QUUXNsEJgApSqUZ4gNniNvrc5dTs5B490gApclKf7mC5nu/3+s5QxDRgCXocurO8GzGZr/2t/OGqxcbzE6jUsmpMw823bmPhG3yDAbPhdwCBYLy8O2a9u/92VoA/b9cHs6lM0CtBUNY7MJVNANEBxBkniDgfFEgNGr/qoBcBQj8CpG79AhQLfAhU/RoIdFlWQqBbv1taVAfCpGkFadATKHZcg2rSGHTZ9Rl1mwz9dsiTJ79ucS0LNRdJLp2VugwrQj0HPM02ZFqInlBPDE5ixa4dR5YtWXdkkAPt9Ni2lgc3fZHIScsSdbLcvD3ct+zAoXW7dvI8DbLfiTrxh8dAVhhzw7qURNrXd1YuP38OAAAA");
 
 export default Infinity;

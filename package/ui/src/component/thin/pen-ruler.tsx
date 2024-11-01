@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-ruler` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-ruler?s=thin pen-ruler}
  * @preview ![pen-ruler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/pen-ruler.svg)
  */
-const PenRuler: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M440.2 25.9c-12.5-12.5-32.8-12.5-45.3 0L328.1 92.8l91.1 91.1L486.1 117c12.5-12.5 12.5-32.8 0-45.3L440.2 25.9zM73.6 347.3c-10.4 10.4-18 23.3-22.2 37.4L19.8 492.2l107.5-31.6c14.1-4.2 27-11.8 37.4-22.2L407.9 195.2l-91.1-91.1L73.6 347.3zm310-332.7c18.7-18.7 49.1-18.7 67.9 0l45.8 45.8c18.7 18.7 18.7 49.1 0 67.9L176 449.7c-12.3 12.3-27.5 21.3-44.2 26.2L10.3 511.7c-2.8 .8-5.8 .1-7.9-2s-2.8-5.1-2-7.9L36.1 380.2C41 363.5 50 348.3 62.3 336L383.7 14.6zM156.3 33c-15.6-15.6-40.9-15.6-56.6 0L33 99.7c-15.6 15.6-15.6 40.9 0 56.6l76.5 76.5L98.2 244.1 21.7 167.6c-21.9-21.9-21.9-57.3 0-79.2L88.4 21.7c21.9-21.9 57.3-21.9 79.2 0l76.5 76.5-11.3 11.3L195.3 72l-53.7 53.7c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L184 60.7 156.3 33zM267.9 413.8l11.3-11.3L355.7 479c15.6 15.6 40.9 15.6 56.6 0L479 412.3c15.6-15.6 15.6-40.9 0-56.6L451.3 328l-53.7 53.7c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L440 316.7l-37.5-37.5 11.3-11.3 76.5 76.5c21.9 21.9 21.9 57.3 0 79.2l-66.7 66.7c-21.9 21.9-57.3 21.9-79.2 0l-76.5-76.5z" />
-    </Icon>
-);
+const PenRuler = createIcon("pen-ruler", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABmAAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySDBwsGAAE2AiQDCAQgBYMtBzAbhwXIjsR024n8IndJJojvdem+L50BZWIZkAIkO3gQZKhRLhM2dqEr04bLjMsAKuXfy/64d+d/2qcP+Iw+yp42Km4DzslDoPNoLG1T53mXBZIoZm7NQ8GHTPcRiRhFY416/EaPTxegSy+LcYG6ofzAuf5W8pUkDoNC0wAAEAMAAOj0Tetm6KN8FPE7j0D8WIAAyAgATATQsDoVAaAFDZEXoGMCOjoCH8Vx6D/QBAEACYC/TQGgA4HALeAZAKADoHDpenREaklxqCtc94a6QpZdDRE5GesWj/jkmhyIb1t8OdEtPrmb4BOvuJddCxU5FdcqV9gfu1ju5bjlcvzVBJ/cKl7m9p10mf1xHokVr9hyoNgnPaGnCmXUJpON5dOkaEZCbMJQr5yaCW84RZRpkwQpr7vP/gK33As5WeTNsg17ONO/1M+T29fDIPz6iBHMnMmIEZwIDzvxbk2HU/pKVqbjdUjs/Oxa610sxAz7eR8T876jk8xjO7KpqMrWsnewPbqz40tUrwFG74gR9BpGb1cXz7EsJD5eOjsx4uMNy6IHD6OZNq221k3vut22bXdZ9BoOp1eZMRr77tMACCAwNNd8Oy+y5VtQqALg8/N/L9XhRwbFUTYQhAJAQCtxSpityCQyBQF5JVvJwrIAxSVcIAnjqrcghMAOigBCQCMFA3RCKAYX6dTyxu3T0BA9GCGWOQBFGBtAo449oBPLA3DRwotsALGixaoYaeKvYtoYiYxeZFaWVZhN5mXFJoUf3yabTbNXsLV2FOIoS1nHWjazhMWsYLOgN9Jd2MIaxmjUaH6ISSVlVGDShOmuf9zvZQkb2cQK1rGW5mnGfD4pYKvevxChghmrWKlQICp4/ZK1pV+AvhEA");
 
 export default PenRuler;

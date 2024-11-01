@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-gf` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-gf?s=thin circle-gf}
  * @preview ![circle-gf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-gf.svg)
  */
-const CircleGf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 256A240 240 0 1 0 16 256a240 240 0 1 0 480 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM192 144c35.3 0 64 28.7 64 64l0 8c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-8c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48s48-21.5 48-48l0-16-40 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l48 0c4.4 0 8 3.6 8 8l0 24c0 35.3-28.7 64-64 64s-64-28.7-64-64l0-96c0-35.3 28.7-64 64-64zm96 8c0-4.4 3.6-8 8-8l80 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-72 0 0 96 56 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-56 0 0 88c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-96 0-112z" />
-    </Icon>
-);
+const CircleGf = createIcon("circle-gf", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABmwAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCCcgsGAAE2AiQDCAQgBYMtBzAbcgXIjtMF98BTdomH5+3CP/fN7ATQxGaXLlX8QXcU2+Xh2/kKf0KBVYG0TacbkHRz2fxfTm88PzrAb3QoY+OixWODzNV4nkBivfMmUEBZYJkGgLHlu63nlRl+rBiGDMXhL7SFeneGPB6xRYV0RXoV58qbxi9aOUGSZQCiIQAmLl8815NfxpcRr1Y/4lWzERCTQCmQIUNbAcbIBNrKlcjlgi+jWqX/wJIAosC3JZCjwBW4jf5XkOR53qbN2PZ1KvXyZXUqtTe/PyIenPdynJzxart/yXv9gbkvlVOz35gPLa/7weSIZ+a/UU7Nfe146nl3PXm/GifnvX4+/S6/pWfEHa3ExU0vbR5xZfNLu93c9OKW4opml3S9rcVlbSJqx6XNL2tRJy5pJi7vcXuXW3vd2Triqt53dV86Ivfs2iGEu/NYdLqz4Z2/1Ve3veqPJ0z4nv8PnBs//tyB/783QRdp/U9Ta9FqP3VNfmq3qmUqirj9if3XN6JR1FRs2FDUlL326YABn76WbZBEQz1sKAxpQE22VLtRo+uvJ7X2BvHX1yg2LDCgGaoRMEZY8eY5GxwAAsFXK4d+ub7BmP9q1kng64f/+KVvUfXJJN2JmhIIsj7VPtYkkAgAQIpjOmUIJBfI8avWdakAoTYCJIXaAmTaaChArrbeAlS0N1SAQm2LZSKvJTS1toGkroMgM8xxkGvqIVAxxgteoWnKPJT1L/b7MGmaRqceKwf2G1COKqcF4ZyOjvujy2W5x7Ew6IlV2+y3zxFbbbHTEYUfMjc8aq9pFjbVB5UG6meA0ijlcX1/epmtDjlsp/325UNGK99bPRyz53tCS5hwkFSSiFTrRx697/ZtAAAA");
 
 export default CircleGf;

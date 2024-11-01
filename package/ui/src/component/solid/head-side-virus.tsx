@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-virus` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-virus?s=solid head-side-virus}
  * @preview ![head-side-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/head-side-virus.svg)
  */
-const HeadSideVirus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 224.2C0 100.6 100.2 0 224 0l24 0c95.2 0 181.2 69.3 197.3 160.2c2.3 13 6.8 25.7 15.1 36l42 52.6c6.2 7.8 9.6 17.4 9.6 27.4c0 24.2-19.6 43.8-43.8 43.8L448 320l0 64c0 35.3-28.7 64-64 64l-64 0 0 32c0 17.7-14.3 32-32 32L96 512c-17.7 0-32-14.3-32-32l0-72.7c0-16.7-6.9-32.5-17.1-45.8C16.6 322.4 0 274.1 0 224.2zM224 64c-8.8 0-16 7.2-16 16c0 33-39.9 49.5-63.2 26.2c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6C145.5 152.1 129 192 96 192c-8.8 0-16 7.2-16 16s7.2 16 16 16c33 0 49.5 39.9 26.2 63.2c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0C168.1 286.5 208 303 208 336c0 8.8 7.2 16 16 16s16-7.2 16-16c0-33 39.9-49.5 63.2-26.2c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6C302.5 263.9 319 224 352 224c8.8 0 16-7.2 16-16s-7.2-16-16-16c-33 0-49.5-39.9-26.2-63.2c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0C279.9 129.5 240 113 240 80c0-8.8-7.2-16-16-16zm-24 96a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm40 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const HeadSideVirus = createIcon("head-side-virus", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABngAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSCXwsGAAE2AiQDCAQgBYMtBzYbZQXInoWxs6M2kpbVXb42Hv7frv/2uVUPcH3RAzoT+w3klIiIeGpNKsQ97bI4LZDIss6LbY9fYp8OIfjBPXGu8/lGBRJFNqCRVVFp8faNT5nnL/ACbZG4e9AJvukL2EO4NQ4fA6sRRIyIIWYiPX6tx6s75PFudoMa0sPpS9ypu+NXA24gacgoLtopKhuOPLTHR2WUEV9UXye+sAsBsQEUAhkyDAuwWiYwLFcglwvKqFbN/4EFAUQtck4gRy3uwaOAHCR5ni/b0NDQVNOSH5E/0hjPLoLx6q6IL7Y1xU97vpIPExb3u6ZbNTaGeGj6PdlUf26l10TEI4P/EUfeh93kNdN0q56nfxEdRffsAT890X3fFEQoti9Ou2YktvcdQoRies9gmJWY7nsqIqa4gbnJZ9CU9UT3qO4ib/pK+/t7X57xJShbvufjOYyU/bY777yWzZM+vM+jbV1fvNeFrdfY0fHUzi603nJL60dv7VD/r90/11L/9u3FS29VxtMNN1xbai2vlW1pvPLWSwXf3t9atgRvvTReASvjDX0nHujpObB50/Z1ynCBeO2RF+rvOLFt9f/1KIFf3vlz9iuqfpSkV1AvgSCbXZ3tuAQSAQBIcYWJCQJJRU6L0ewBAUIjAiS1GgXIDGkXINdolgA1Ri0RkHYfkom8Qeh2/IknzS7GM0tdiee6vYrXWO2TtFZ3ZHGpRpX6W5i11QNbNhUL5s4vVhaXLYcWavK0uqrodqdfISMzOOEMF7rAZU53mrNNdPAl9pQvd76tLWiLLyosMNd8hZWK4e6leURKXOJSkevG+DqrFM+H013Rnj6DIFl5F2pKEpHagtee8+o6c755AA==");
 
 export default HeadSideVirus;

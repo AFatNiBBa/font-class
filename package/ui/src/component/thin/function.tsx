@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `function` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/function?s=thin function}
  * @preview ![function](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/function.svg)
  */
-const Function: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 72c0-39.8 32.2-72 72-72l48 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-48 0c-30.9 0-56 25.1-56 56l0 120 88 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-88 0 0 198.1c0 37-28 68-64.8 71.6L8.8 480c-4.4 .4-8.3-2.8-8.8-7.2s2.8-8.3 7.2-8.8l22.4-2.2c28.6-2.9 50.4-27 50.4-55.7L80 208 8 208c-4.4 0-8-3.6-8-8s3.6-8 8-8l72 0L80 72zm206.8 84.3C257.2 203.1 240 259.4 240 320s17.2 116.9 46.8 163.7c2.4 3.7 1.2 8.7-2.5 11s-8.7 1.2-11-2.5C242.1 442.9 224 383.6 224 320s18.1-122.9 49.2-172.3c2.4-3.7 7.3-4.9 11-2.5s4.9 7.3 2.5 11zm290.5 0c-2.4-3.7-1.2-8.7 2.5-11s8.7-1.2 11 2.5C621.9 197.1 640 256.4 640 320s-18.1 122.9-49.2 172.3c-2.4 3.7-7.3 4.9-11 2.5s-4.9-7.3-2.5-11C606.8 436.9 624 380.6 624 320s-17.2-116.9-46.8-163.7zM365.7 242.3L432 308.7l66.3-66.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L443.3 320l66.3 66.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L432 331.3l-66.3 66.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L420.7 320l-66.3-66.3c-3.1-3.1-3.1-8.2 0-11.3s8.2-3.1 11.3 0z" />
-    </Icon>
-);
+const Function = createIcon("function", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABkAAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCXgsGAAE2AiQDCAQgBYMtBy8bXQXIHoVNmes0YliSF3euPyPx/P/fx/a5/zUONnvRSM2go3BU1IrSbAIJNJFWgKPGad+osbb7Lkg7RFwSWayKRRqJhCePEArzHbLW+X/6e3f+d5MCfFziofyxrTHn+R7nAUUBpvHaQFkWZolii9uugoiGNkJkCy3/6CSnniUv4D58aH652oTSdQDINAA4uqgowu0Pv5KXHuRNAQjkGMAqokOHRQS7pIJFMqugacIX+8V/oAACZBCJory8YRB34AVAA6U1WfyM2V0r18uqtXJNw1EAeeWj5Y5926bhsW3bBRw9FXnyPff05JbTmrMPz5z3SGq467TnrCWr3is/qnZs206f1V81e/bWqd91VuQUf68kCYnJpbLKquqqGi6LlSdlqnA1K7kTrmE1yeXul6bLX7eX7heUXBkiYPMrFK2DitZQjP47lNeoHW1aizvoZueuy6AaVLW2ofzj2+kOuetkaTj7XhGUgwYNK7wqy7NC8tGqFS3MKq/0cp/wh6KvVWnpaRIVJ1FRtQRLYlNFxaSxfhyAILxGOqJajIl/Kq0E8HPj+COno09yK7kEwwqEbr0PRGOtAkI/QKYyDfedLwrKDZnkXcc9ICBGEVAGjQroLDAhaEatIRiwLArBoFEnpNLUiHlNPSjjLkFnxxJo5l2DAbvu04PmI4VLFqrYv8Kk7DGUtUyEBYeKeLFZ03KgRtvZBHHa5Dste/zwWnQbMWxSl059Jke6cUW5KUOy97RZfkgIEyyUEE/cbj6XqkeZcRP61vn78yQQ7/t8Te8P98NWicTohopSpFSfNA==");
 
 export default Function;

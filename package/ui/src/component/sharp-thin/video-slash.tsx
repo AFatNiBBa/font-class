@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `video-slash` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-slash?s=sharp-thin video-slash}
  * @preview ![video-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/video-slash.svg)
  */
-const VideoSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16.2 5L9.9 0 0 12.5l6.3 5L623.8 507l6.3 5 9.9-12.5-6.3-5L16.2 5zM416 177.9l0-17.9 0-80 0-16-16 0L193 64l20.3 16L400 80l0 88 0 59.4 16 12.6 0-62.2zM48 432l0-299L32 120.4 32 432l0 16 16 0 352 0 16 0 0-16 0-8.5-16-12.6 0 21.1L48 432zM592 89.9L592 379l16 12.6 0-309.7L608 64l-16 8L448 144l0 17.9 144-72z" />
-    </Icon>
-);
+const VideoSlash = createIcon("video-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABaQAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBZQsGAAE2AiQDCAQgBYMtBzIb5wTIHoex82RJpQvp5w8jqNbInr17DNOFGR2QfxcWKpbYEQrzFcWSICVUmYv1feKa53/+9IBJT/BIkVgUZbG1RdT5BAYYbZG2icyGs4ni/HbyXUT/3mCR9E0ybG7YXCCP3zYoIZ1Loyp+aHzSzCmSLAMQdQEwdvH8mR5UR3XE0/9XiaemIyDGgkIgQ4aWAoyQCbSUK5DLBdXx/7/6DywIIErhxQnkKMUCrAbkIMnzvF6jRvVqlNTKF9k5lcsbN2rcMBrFXpndJBrHvrUhkFlZ2TFqhND1Y02WMoNLIWrUonYeFzX3pyw1iiwiGsaCEIvbXarbl7bPNq3OrQU44KIFtr63wAULbP1QBQ6ao666L0e7bYnh/hi1+2936H8MGc3eU1e5PxpZ02ZhW1r4xyD1fVc1Wf30PAgEb4+6trrOiK/lNRJ4d+sn5oH/D9KxFMolEGQ9/vewQnjgiQEEKQ5pR19FIJkhh3et6bQAoRIBklKVAmRaqCtArlJ3AUq0NlCAUpXmy0ReITS0ssBJTXvhzCCH4VxDl+ESIzwMSzWMjLVYxmB/dkmTamDitKJvrz7FsGJaljluod348GJb7nJIt3WlvTbZbZcDNtpgqwMVtM/M2EE7TVqBE/1Qoa9e+igMUxzXbrcvstE++221264wyXDFfauLQ+veXUlLQNpPTpKIVOO1pfXcv2Pt/i0A");
 
 export default VideoSlash;

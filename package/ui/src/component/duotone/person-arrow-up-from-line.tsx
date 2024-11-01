@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-arrow-up-from-line` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-arrow-up-from-line?s=duotone person-arrow-up-from-line}
  * @preview ![person-arrow-up-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/person-arrow-up-from-line.svg)
  */
-const PersonArrowUpFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M32 288c0 10.9 5.5 21.5 15.5 27.5c15.1 9.1 34.8 4.2 43.9-10.9L120 256.9 120 448l64 0 0-96 16 0 0 96 64 0 0-191.1 28.6 47.5c9.1 15.1 28.8 20 43.9 10.9c10-6 15.5-16.6 15.5-27.5c0-5.6-1.5-11.3-4.6-16.5l-58.3-97c-17.4-28.9-48.6-46.6-82.3-46.6l-29.7 0c-33.7 0-64.9 17.7-82.3 46.6l-58.3 97C33.5 276.7 32 282.4 32 288zM144 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0z" />
-        <path d="M598.6 166.6c12.5-12.5 12.5-32.8 0-45.3l-80-80c-12.5-12.5-32.8-12.5-45.3 0l-80 80c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L464 141.3 464 384c0 17.7 14.3 32 32 32s32-14.3 32-32l0-242.7 25.4 25.4c12.5 12.5 32.8 12.5 45.3 0zM32 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l576 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 448z" />
-    </Icon>
-);
+const PersonArrowUpFromLine = createIcon("person-arrow-up-from-line", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABngAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCTgsIAAE2AiQDCgQgBYMtB24bjgXIhuB7nVW/L9k1Iy+DlokOiUIgDtKpy5g9/f08/7EoGuDjuf4uWoBEYUSdD3e+81EURtJuPp3QTHGjeoUHOX91nLtAngZkl6iQ7kyf4vr4fwDjG51dQtKYAYhWAJi1Yc0ybzZFU4pP688Sn1qKgJgNSoEMGboJMFUm0E2uRC4XNKV6naao10sCiKrYmZGr6OOX42ZADpIk5fmQDqOa1yrN8/W1SnHy7RFxYYf1cVtxVbu1cYsL2t9au7rjkBAdcWQMCsidECBhtIxV7A7G9BYbptiQ1XFEiFpEQTXBYXHrFvnukrv6P1YUcVXfRzq9nrnhzn6PDni86wo+O773U62e+q7Xp/s/tb7Tlc1pfuWKFe5o3vyOGptijOhzrvSLFldc0aLAOuNKS218J2YB+ZkHTPfunve3/vvRt58+/IU3zLRTKzvN9IbPHXn67ee/at24YNJO723Z0rmHLku2vCfXLGw4/ofiuLPPPq6oXgcCwdwbnm21o+XU3xpqCXz58g+/8OfV30wXpKfQIIEgG1ofamu6AGBgALEUp+l9wGj8TLMk6bc2c5sAoUCApKoQINNVKwFyhSECVPQwToCqwhqZyBuFdrYNIGnmRJAZ71yQa+cZUDHVB9GqdpE5SMo5Ub+D8fOn0Lx55ajhI8vJ5W5FR7sxIpicUl7WB57GOwbBg/Y73nFOsc9eh5wy8Z9kWeJUx8w/8s3zQ6VRhhupNFn5uP6SXz+JneRkh7aZ59NMUX4fGei04/6D4GISYLRRFmREiqyXA14ybNdJJx1/+rBTTxjmgIVhTlce5sMH7HPI+mkAAA==");
 
 export default PersonArrowUpFromLine;

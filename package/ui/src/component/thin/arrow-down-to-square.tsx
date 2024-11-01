@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-to-square` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-to-square?s=thin arrow-down-to-square}
  * @preview ![arrow-down-to-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/arrow-down-to-square.svg)
  */
-const ArrowDownToSquare: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M373.7 221.7c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L264 308.7 264 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 300.7-98.3-98.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l112 112c3.1 3.1 8.2 3.1 11.3 0l112-112zM56 32C25.1 32 0 57.1 0 88L0 456c0 30.9 25.1 56 56 56l400 0c30.9 0 56-25.1 56-56l0-368c0-30.9-25.1-56-56-56l-48 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l48 0c22.1 0 40 17.9 40 40l0 368c0 22.1-17.9 40-40 40L56 496c-22.1 0-40-17.9-40-40L16 88c0-22.1 17.9-40 40-40l48 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L56 32z" />
-    </Icon>
-);
+const ArrowDownToSquare = createIcon("arrow-down-to-square", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABeAAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBeQsGAAE2AiQDCAQgBYMtBzsbBAXILgZjt8MQTIaIaCIbx265/Jdrp4mHf9b63fdm1jCzZHb614Z4wzNUs9nzCUUzHuqUsFA1UXcv5vaPSqT9LeEaRdMkob45iUaKNCLZGhkBAwneQDnuoQrRn7jc+dum9230aHvo29NvwN+NeT4BE1ucJ5QFlmkAHEvmLWfUI2WfJJnRJD1+2+PXA8r4rgus5IRr4El70/gl5E4qCgAxAwA4MsYO4de7XkQ9+EjU+kBAHAVYAVGgwBII9jMLLGGxAiiVgl4MBuk/kEAA0cRgskoizgBXZf0bkbIsFx10W6eWo5Mbk853W80ZxiKqvpyTOBoVL+eO4KuNLR4EvvzEibxaOxXfrLu4wNet1k3Cl7yaOxkf5JWMu7ycNCXut4oi7q07eXJ0V82bxLyf8f6PelOD/qOwl2XnC0iwnTlj22p+DtihQkEUgR0Sxcb7Wp9/rWvs//rX1rX+qgSzZvNMJ4Ifvrl2+u2Dp5CN5wECwaElz1On/fv/t90Jfn771/gWDX6W70VbgqDYMthilCAJAEDGHUwCAmmcCb/qFJUAYRICpKZJAhQWC0BQmmQzBA3LFCBommSIWZQdYY4xsWmK62xhnxtbmuPFNuz3T5rmhDnIxBAR/3hpLQk0z1EmmaYqbWtTihu+bNfo2AsbeSqCm7AhutCsrexpAlcMc91Zy8KaPohkJKWRKrru1pcFawrVnuhSd6mh91GYYS+OIDRhzl3upCRyzllFEa8J14sTmpjwVwAAAA==");
 
 export default ArrowDownToSquare;

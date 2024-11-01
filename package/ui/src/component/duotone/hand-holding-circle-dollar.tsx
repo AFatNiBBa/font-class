@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-circle-dollar` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-circle-dollar?s=duotone hand-holding-circle-dollar}
  * @preview ![hand-holding-circle-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/hand-holding-circle-dollar.svg)
  */
-const HandHoldingCircleDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 416l0 64c0 17.7 14.3 32 32 32l160 0 160.5 0c29 0 57.3-9.3 80.7-26.5l126.6-93.3c10.6-7.8 16.3-20 16.3-32.2c0-8.2-2.5-16.6-7.8-23.7c-13.1-17.8-38.1-21.6-55.9-8.5L392.6 416 272 416c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0-16 0-78.3 0c-29.1 0-57.3 9.9-80 28L68.8 384 32 384c-17.7 0-32 14.3-32 32z" />
-        <path d="M272 288A144 144 0 1 0 272 0a144 144 0 1 0 0 288zM248.1 115c0 0 0 0 0 .1c0 .4 0 1.9 4.8 4.5c5.6 3 13.5 5.2 23.9 8.2l.2 0c9.3 2.6 21.1 6 30.5 11.5c10.2 6 20 16.1 20.5 32.3c.5 18.2-9.7 30.4-21.7 36.9c-5.8 3.1-12.1 5.1-18.3 6.2l0 10.8c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-11.4c-8.6-1.7-16.7-4.3-23.7-6.6c0 0 0 0 0 0c-1.7-.6-3.4-1.1-5-1.6c-8.4-2.6-13.1-11.6-10.5-20s11.6-13.1 20-10.5c2 .6 3.9 1.2 5.8 1.8c11.5 3.6 20.4 6.5 29.9 6.8c6.7 .2 13.8-1.1 18.5-3.6c2.2-1.2 3.4-2.4 4-3.3c.5-.8 1.1-2.1 1-4.5c0-1.4-.2-3-4.7-5.6c-5.3-3.1-12.9-5.4-23.2-8.3l-1.8-.5c-8.9-2.5-19.8-5.6-28.6-10.3c-9.9-5.3-20.6-14.7-21.6-30.7c-1.2-18.8 10-30.9 21.8-37.2c5.7-3.1 12-5.1 18-6.3l0-9.5c0-8.8 7.2-16 16-16s16 7.2 16 16l0 9.4c6.3 .9 12.3 2.3 17.9 3.7c8.6 2.1 13.8 10.8 11.7 19.4s-10.8 13.8-19.4 11.7c-9.3-2.3-18.2-4-26.4-4.1c-6.2-.1-13.6 1.3-18.7 4c-2.4 1.3-3.6 2.5-4.2 3.4c-.4 .7-.9 1.6-.8 3.6z" />
-    </Icon>
-);
+const HandHoldingCircleDollar = createIcon("hand-holding-circle-dollar", true, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABvAAAAL3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDJwsIAAE2AiQDCgQgBYMtB3Ab6QXIPg2YctF+YCIhBC0k2mlLqVCOi6ST7fH6OG76zxIPz9vxdu6bCeAJzC6V5I8qktasUlQqt91S0FN73b5Lv0vrqlV6kdWjGIyIQwUXY0FGoTGy6kw8pcuPOLgRHuSqiQeCkZULJ4SwATfhYgvFg0oNoPAeLz1C5lPBTr4mgAvhK/9pWf7+VM04DwVwUgiC8t/P6hhTu7k053kFCtxSfVN18Qat1tBqbg0nbI8kBiERccgcIj2ey8cn2kAe//gmQDpv/oSj+/8Axl9KlCOpkgGI2gAw+nzSRN9ONU368/8RfzqDgBgDCgIZMjQnwDAygebkCsjlgnfGwzt5QgBRkX5eBiqiAt7A1wA5SJLI82aXqy5QI59aLVB10cGd0BcLT1Uy/2T7c3tg89PBI0Z9vPWZm1qiiBKdyp3OnXYRp3O3S+cap7LiVPZMPnQmX6KSkrVnCmd9ACDLwYIoorN5y9rQztwpX2wjEZZCkYrTudPZU5YDFUkFEvY3FqeZgzvTNE6UIMlmJ8sKIjDsBbZYjR7YHEYwcQi1SfLBa44krrYTUu9qhw6teyfTEWr4vIVHACYN3yI+/Msel107Nd6/j0V9fwvUToqfujOrFP5uWIgsxld+TObtS37VjspHlm9g7d8nzB7uLKsGSXF4OKrmeBy/djMYvPfCP2JXl76+bgfv4vF3tR18VI2a273/gyb36UAgePg9sftLAh/u+zze/81hmoDKEgiybl5mm0NgeQA/KsVWbcyh/RDI7CTRe63uDIFQFQGSiqoKkGlGbQLkqupKgApa0p8AFVU1iUzkVYT6zMlcUt0GLjOAPVyuPi+5CobxS66i+vIFrxZ62rdj1glIj19ULPXoVQwpujWXHo94mx1aDHs7W6Wnc1prKetYy2aWsJgVbAZ2IxOLW1jDBI8Zzxcp6E0PelEwhGK6eWuZClAtmxDb5vw8QymeT3Ziqz+8cwokqtiHJZmMSJG1CXZn99Xg7P6vj6P7WnZ2Xw6jtuubbwAAAAA=");
 
 export default HandHoldingCircleDollar;

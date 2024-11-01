@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `peanut` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peanut?s=sharp-solid peanut}
  * @preview ![peanut](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/peanut.svg)
  */
-const Peanut: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M512 0L364 0c-20.1 0-39.2 4-56.7 11.2c-17.4 7.2-33.7 17.8-47.8 32l-.4 .4C245 57.8 234.4 74 227.2 91.4c-4 9.5-6.9 19.6-8.8 30c-4.8 24.5-12.6 49.1-30.3 66.7s-42.2 25.4-66.7 30.3c-10.4 1.9-20.5 4.9-30 8.8c-17.5 7.2-33.9 17.9-48.1 32.1c-14.2 14.2-24.9 30.5-32.1 48C4 324.8 0 343.9 0 364L0 512l148 0c40.5 0 77.1-16.2 103.8-42.5c.6-.6 1.1-1.1 1.7-1.7c13.8-14 24.2-30.1 31.3-47.2c4-9.5 6.9-19.6 8.8-30c4.8-24.5 12.6-49.1 30.3-66.7s42.2-25.4 66.7-30.3c10.4-1.9 20.5-4.9 30-8.8c17.3-7.2 33.5-17.7 47.6-31.7l.9-.9C495.6 225.4 512 188.6 512 148L512 0zM396.8 128a19.2 19.2 0 1 1 38.4 0 19.2 19.2 0 1 1 -38.4 0zm0 64a19.2 19.2 0 1 1 38.4 0 19.2 19.2 0 1 1 -38.4 0zm-64 0a19.2 19.2 0 1 1 38.4 0 19.2 19.2 0 1 1 -38.4 0zm-224 224a19.2 19.2 0 1 1 38.4 0 19.2 19.2 0 1 1 -38.4 0zM192 396.8a19.2 19.2 0 1 1 0 38.4 19.2 19.2 0 1 1 0-38.4zm0-64a19.2 19.2 0 1 1 0 38.4 19.2 19.2 0 1 1 0-38.4z" />
-    </Icon>
-);
+const Peanut = createIcon("peanut", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABlQAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCSgsGAAE2AiQDCAQgBYMtBy0bRwXIjpQuUybx8Lze/7f2SZ6Sb+SbGnUAMnZJVEJRjStWU99YHLqc/qJND3gEz48ydmPr4jZHc3sCAY4xLaEssCiwBBKwdmdbzZSwxyEkJOlXO15nyOPD7CZNpMfSt7g3vGj8pbebSNoyANEJAIt2bFnns1/il4hvGm8T31iDgFgEKoEMGfoJMFcm0E+uQi4X/BKNhvkPrAggmgme3J+jDbfiHkAOkpY8n9JezJJDTe3z7bxPcaIoizuGvjiyW7zaq+725MhXpxL0Yv9ejxJlfLHgkZ5v9DWhZ8a8MQM+88qYnvHpkNh6fc9Huj/kum51j4dDxSmwrUmPDn25z44o9K7iDhZsRxnVlw1+vdPr/wz69vi3Gp/WdT3g9ceXsvS1/eOXv3f0tz8f37rstdcH1Go/PcLU0Zql3N6/vuza8ua6vrlM9S1E388/09jo1Ck2dyl3rlq1s8SKhfg4EAgGfN7+mQMd5/7fWibw2wf//eN/RhqfJel1tEogyMY2xtqbQCIAACmuMjhBILlWC3nWdh4WIBQIkDQrBMj01UmAXGGMAE0GmCZAs8IWmcjbhG72FZC0cwlkprsa5Lp5EzSZ64tws26RaaOiS8pfMHN5iy7rVU0aP7GaXU3TsqpgkmufU227R17FZaNgoeMuOO8Kxxx1yhUNe5l1sSuds3zFLPNGlUnGm6gyW3Wcu5+93TGXudwpF5z33cxR3fePdNW69ijwJcI7mTU9QUpqvnjs0PkrrwAAAA==");
 
 export default Peanut;

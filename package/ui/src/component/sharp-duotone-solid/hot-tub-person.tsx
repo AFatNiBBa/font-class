@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hot-tub-person` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hot-tub-person?s=sharp-duotone-solid hot-tub-person}
  * @preview ![hot-tub-person](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hot-tub-person.svg)
  */
-const HotTubPerson: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64a64 64 0 1 0 128 0A64 64 0 1 0 0 64zm0 96l0 96 256 0L128 160 0 160zM224 0l0 24c0 44.2 24.5 76 43.5 100.8l1.4 1.9c20.7 26.9 35 46.7 35 73.4l0 24 48 0 0-24c0-44.2-24.5-76-43.5-100.8L307 97.4C286.3 70.4 272 50.7 272 24l0-24L224 0zM336 0l0 24c0 44.2 24.5 76 43.5 100.8l1.4 1.9c20.7 26.9 35 46.7 35 73.4l0 24 48 0 0-24c0-44.2-24.5-76-43.5-100.8L419 97.4C398.3 70.4 384 50.7 384 24l0-24L336 0z" />
-        <path d="M512 256L0 256 0 512l512 0 0-256zM128 336l0 96 0 16-32 0 0-16 0-96 0-16 32 0 0 16zm96 0l0 96 0 16-32 0 0-16 0-96 0-16 32 0 0 16zm96 0l0 96 0 16-32 0 0-16 0-96 0-16 32 0 0 16zm96 0l0 96 0 16-32 0 0-16 0-96 0-16 32 0 0 16z" />
-    </Icon>
-);
+const HotTubPerson = createIcon("hot-tub-person", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABqQAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDKwsIAAE2AiQDCgQgBYMtB1gb1QXIjtRG+YMYxsN/a73dV9UzJ78nDB1gVETggHwcL9iAXELHiuUHuQR6EjLSef4v9/xoTcBvdGh76IFc5WPM53G8AScu70QSyjQDa7ehY8GgjBURkXMRQ3MYii8o4rt8X430JH2LB/Q/gPGrAe6TtGQA0R0Ay3dsWefztmhL8W3zbeJbaxEQK0AlkJExWIBFssBghQqFQtCWmk3aotmsCCDqKJsM6mjgHXwCKEBSUyi4pUdxl5bRoxu1LsV2eqE80rVb1xTdIh8URBmw5kZoZFnk18e/mPhq2BsTXo57PpjQJbZHuUN4fcCTAXcafeKJv0Y0IuKNgU8H3in7hjvy04goGxOnR7zs/vL34d8e/1bzM0zd2nCwortKdwfhnA9mVW7njr//7shW7BVz64DbrW/25zv8/GWHCP/crld/0/RXoO0B6z3zxYn3gUBwbc07H+i26P9OjQQ6PvzzF/9D0vw8SS/RSQJBntScZG8CiQAApLhuRAIC2UE1+KmdPRQglAiQ1JUCZIN0F6BQmihAzVCzBagrbZFF0SL0ti+CpLNLIJvjBij09haoWeSLtK53ZPGVhU/+PWasSaHVm6rpU6ZVC6puU1AkUjTLC6vlYNx1PTQebjrugvOuOuaoU64m/GXrCtecs2ZErvZFlemmmKayQLXduTS2Y3rZFafa2v4qC1Xnk3GujyePhzhhwRleyDKRIvc9eeHq5KvXDk8WeWfyUxjXv6bdew==");
 
 export default HotTubPerson;

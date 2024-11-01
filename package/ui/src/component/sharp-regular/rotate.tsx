@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rotate` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rotate?s=sharp-regular rotate}
  * @preview ![rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/rotate.svg)
  */
-const Rotate: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M94 187.1C120.8 124.1 183.3 80 256 80c39.7 0 77.8 15.8 105.9 43.9L367 129l-21.1 21.1L312 184l33.9 33.9L352 224l96 0 48 0 0-48 0-96-6.1-6.1L456 40 422.1 73.9 401 95l-5.1-5.1C358.8 52.8 308.5 32 256 32C163.4 32 83.9 88.2 49.8 168.3L94 187.1zM417.9 325.2C391 388.1 328.6 432 256 432c-39.7 0-77.8-15.8-105.9-43.9L145 383l21.1-21.1L200 328l-33.9-33.9L160 288l-96 0-48 0 0 48 0 96 6.1 6.1L56 472l33.9-33.9L111 417l5.1 5.1C153.2 459.2 203.5 480 256 480c92.5 0 171.8-56 206-135.9l-44.1-18.9zM387.9 176L448 115.9l0 60.1-60.1 0zM124.1 336L64 396.1 64 336l60.1 0z" />
-    </Icon>
-);
+const Rotate = createIcon("rotate", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdwAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCEQsGAAE2AiQDCAQgBYMtBy0bDgXIjpNM9dnHw8Nc2ftJCsBpFdPsFgFcHStES0B3J0zBHrCeZn6mvjb9zT/PNgX4QKQ2dh5Im6M5zxPoPB++aQhkgf37Zl/Avrlr18qKaF9pKUgeL+3xM0MWD2KvMiTHko/YU14av2pgG4kyKYCoDoD+UyeO9vRbfIv4ULxFfDASAdEf5AIpUjQWoCAVaCyTI5MJvkWxGP4DcwKIsvTiBGQoixXYDMhAIsuy1q3LlatUpko2JR6vOPNKn4gHQ1+V1ImWUYiSqBOVKkVE1I3SKERLvuOXKY2iY6/5F3tG3B30urRutIm+URp1o2JFIepEiRXbYPTnyY+1S+8pE8dNFBXnjaP7Iiq1OF/9/O/NPy7B7GzsRS7O++n+IIPUUMNk8zp2NM9k5isNMsjZcQZbtOjk9YG7F+Gj4y2TLl5vcvCBagWFcmf4PBAIrnw93WxutcL/5Ssl4Mf9P/+kn1H14rf4KzmP8hIQpG2Lbc1KqK56/CUAAEls0SKhukBigQyeWtlhAUJFBEiUVVGAVCPVBchU1EaAMprqJkBZFU2UiqyCUNvsBhKVrQep7raCTG03QBkFb5SyakfqcIy7MP+9xCEWGtyVd2rfMe+dDx2V9SEqNfvk21LLLZJohUlLrLXGJoststwmQ24wWt9stSEzYrAPynXSXke53vJj/354isU22Gi5tdbkNn3k9+WWtszzW6GPBND5qSixR1J2w9pN8zctBgAA");
 
 export default Rotate;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blanket` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blanket?s=sharp-light blanket}
  * @preview ![blanket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/blanket.svg)
  */
-const Blanket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 32L0 32 0 48 0 288l0 16 0 16L0 464l0 16 16 0 416 0 16 0 0-32-16 0L32 448l0-128 384 0 0 48L96 368l-16 0 0 32 16 0 336 0 16 0 0-16 0-64 0-16 0-16 0-240 0-16-16 0L16 32zM416 288L32 288 32 64l384 0 0 224z" />
-    </Icon>
-);
+const Blanket = createIcon("blanket", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABWAAAAHTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBNQsGAAE2AiQDCAQgBYMtBy4bswTIjsO44TuyxVI+lYqH/197/X3uTGjyslKEaRUjOCDfKmAfVWAVVzTitRY/6pfMXyxTp55nWiiAz3EfCxPaFlo0FmV3zPMK5LyTevVttQLVClatoHV3tqkRkUeSlrIk/Y7leJwhjweROtK9BDfTh8YPPd0gyTMA0QEAszeuXa69GtWIr7VXxFdLERBzQCmQIUMfAabJBPrIlcjlgmrUavQfWBJA1MtPTSBHjlmYD8hBkvJ8ZFNzXUu+wfcVW4vmQrhUc0tEUYmItqgUvIB2sa7SMjk8sK1D268BDtD6pIPP+UsHHdwq+NMye+uKK0aZ1aFHd3UwSwey2lq7Yl5VdUUVCAR7hnxbceu0/xubE/j+/s/f6sO1arSnNjRKIMiG1bIt2oGoAfykFBcMjHYEkkkSfNeK2wKEAgGSeoUAmd46CJArDBWgTj/jBahXWCsTeZPQxfYOkorTIDPBRZDr4gWoM80Hp16XyFSIVQD2B5e0gEPz+8rRI0aVU8ppoXFaQYflqeWyPOiCHRoMJx1w0gnn7LfPYecYecZy/7zjFkjEfF9UGm2EUUpTlNv14/EN9jvjrMNOOhFXmao8bw1yQZ48GNaTAGMuP5CI1PCelP3nAAAAAA==");
 
 export default Blanket;

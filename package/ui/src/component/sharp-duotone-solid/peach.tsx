@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `peach` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peach?s=sharp-duotone-solid peach}
  * @preview ![peach](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/peach.svg)
  */
-const Peach: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 280C0 432 256 512 256 512s256-80 256-232c0-92.8-75.2-168-168-168c-19.1 0-37.5 3.2-54.6 9.1C337.2 157.6 368 215.2 368 280l-32 0c0-60.5-32-113.6-80-143.1c-.3-.2-.6-.4-.9-.5C229.7 120.9 199.9 112 168 112C75.2 112 0 187.2 0 280z" />
-        <path d="M373.6 82.2C363.9 80.7 354 80 344 80c-31.5 0-61.4 7.3-88 20.4C229.4 87.3 199.5 80 168 80c-10 0-19.9 .7-29.6 2.2C122.1 64.9 112 41.6 112 16l0-16 16 0 32 0c53 0 96 43 96 96c0-53 43-96 96-96l32 0 16 0 0 16c0 25.6-10.1 48.9-26.4 66.2z" />
-    </Icon>
-);
+const Peach = createIcon("peach", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeAAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBYwsIAAE2AiQDCgQgBYMtB0Yb+wTIhofn7b4691X1b2iIGkkRrAyKnIkLMXO0Dns2lNL5f3/z/J9HAT6j0PbQQNqAc54nEHCWd55IQpkG4AlDuk1kh0cweiMkSkI6Pj2+Tsjjm+ycCtKN9DWu8D+A8av2zpFUZwCiGQCmLV+8yKdN0ZTi6/KbxNcWIiCmg0IgQ4ZOAkyUCXSSK5DLBU2pXKYpyuWCAKKEF2eghBxLsBaQgyREnnceUltRny9jvGb71ZrzY9/H97d6vktEbe1b/Z7rfG/AC2Nqa8XtvvFgUsRH8yK+GBXxVu2FMe8s+GrKJz1+mPzxsvM93xv0kpo4Pfjl8afbvD/6u4kfLun+fLPnf+/29bavHd37qHHo4cNDGx+dLzXTrDj1/PNVVc8/f6po1kzpvGfbrWJ1JzqtY11K69Z16rR6VbuY/efj2dH5+oK5c4cVBi+ZOZttf82Ox3/GbCAQNPtp2NPrGyf+X1WbwM/v//kLXiTlT5P0PKokEGQDywOtSSARAIAUx3RPHEAgM0SCu9a5KkCoQYCkpEaATEfNBMjVGCBAhS5GCVBSY7FM5NVCK2snJHUOQma045Br5Q2oMNFnbkmryEqLLgz6Z5cw26JZW8WwwUOL8cUxMZhqIdtyQnFt9D2mjX5yaJv99jliqy12OmLwQxYFR+0128NmeVBhmMGGKoxXhPNXYRncQw7buefiayYo3jt9HfP7+4mddMLh9jIZkSKrP5CCyqAUlRsNl4oAAA==");
 
 export default Peach;

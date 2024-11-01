@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `utility-pole` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utility-pole?s=thin utility-pole}
  * @preview ![utility-pole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/utility-pole.svg)
  */
-const UtilityPole: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M248 16c-4.4 0-8 3.6-8 8l0 56 32 0 0-56c0-4.4-3.6-8-8-8l-16 0zM224 80l0-56c0-13.3 10.7-24 24-24l16 0c13.3 0 24 10.7 24 24l0 56 144 0 0-40c0-4.4 3.6-8 8-8s8 3.6 8 8l0 40 48 0 0-40c0-4.4 3.6-8 8-8s8 3.6 8 8l0 40 0 16 0 16c0 17.7-14.3 32-32 32l-69.5 0L288 228.2 288 504c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-279.9 0-.2 0-79.9-32 0 0 79.9 0 .2L240 504c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-275.8L101.5 144 32 144c-17.7 0-32-14.3-32-32L0 96 0 80 0 40c0-4.4 3.6-8 8-8s8 3.6 8 8l0 40 48 0 0-40c0-4.4 3.6-8 8-8s8 3.6 8 8l0 40 144 0zM104.1 128L232 128l48 0 127.9 0 .2 0 71.9 0c8.8 0 16-7.2 16-16l0-16L288 96l-16 0-32 0-16 0L16 96l0 16c0 8.8 7.2 16 16 16l71.9 0 .2 0zm25.6 16L224 208.8l0-64.8-94.2 0zm252.5 0L288 144l0 64.8L382.2 144z" />
-    </Icon>
-);
+const UtilityPole = createIcon("utility-pole", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABjQAAAJIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCdgsGAAE2AiQDCAQgBYMtBzMbeQXIjtRG94VFJomH/5+ruu8HeiZpiKjuAcoQ8zKAYrtu2QELWWclSYJ8rX2fuKZ+nH8DJvGj/KIsbW0Ved5gE0utEtlsYDOdgO1y21zSUAntj9DYQR4fOEdBejF9jcfDh8ZPRrmHJMsARAOAjccP7/VpN7oRX/8f8bXdCIhNoBXIkGGsAGtkAmPlWuRyQTf+/1/8B7YEEKX0Mgnk6MEreAuQg6TI895zB3t66qIvP1YX1cnPdEQdEc8NVQtCvDy9jjdGTeeeH/HsYFshxB2dZ6oqjkSKS9hzQ1liRBUiZvxjUcVDQ891ivsp9ZG66ouog4QCveKCZMMx9eixo1RT55PE8UnvNu/+MvHr8772uzPKFVorlGc0t69gxwwebBwcXOEJM5RnnFHOsKBtaTT6H3igf6ubDusshI7EAW01MTJEdNx42LYzkrOVXrjgievn33HHAnbo9je+bxr93R28fuqG7NzotH9OY9qNuueBQND+uOH+0wfW/DqsTuCH9/9L/Yz8/2mS3sUwCQTZnP/nOCWBRAAAUlxnUoJA8oxCetdezwkQKgRISpUAmTEaAXKV2QIUxlsqQKlyWCby4ULHqT2d9LqSzixzK53reI8urPGZu9SJDEblECb/Q0yzbQxvXdQunLegXdVuFjUF2Ent8Or2tG7GdbJpJl7rPJe7zDXOdY4LXTOirrLXd61LbdtDtvqi1kLzLNBapb1deb78mHNd5WoXutxlfpTV2vctM1y333kmNiZJcJGcJBGp98N0z73i8kvOBQAA");
 
 export default UtilityPole;

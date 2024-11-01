@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wheelchair-move` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheelchair-move?s=sharp-light wheelchair-move}
  * @preview ![wheelchair-move](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/wheelchair-move.svg)
  */
-const WheelchairMove: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M368 80a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112A56 56 0 1 1 368 0zM172.2 61.2l9.8 4 176 72 22.3 9.1-17 17-83.1 83.1c6.9 7.9 13.1 16.4 18.4 25.6L424 272l19.9 0-4.3 19.5-32 144-3.5 15.6-31.2-6.9 3.5-15.6L404.1 304l-91.4 0c4.8 15.2 7.3 31.3 7.3 48c0 88.4-71.6 160-160 160S0 440.4 0 352s71.6-160 160-160c5.6 0 11.1 .3 16.5 .8l67.7-67.7L179.8 98.8l-56.5 56.5L112 166.6 89.4 144l11.3-11.3 64-64 7.5-7.5zm151.5 96.5l-47.4-19.4-62.8 62.8c15.7 5.6 30.3 13.5 43.3 23.4l66.9-66.9zM160 480a128 128 0 1 0 0-256 128 128 0 1 0 0 256z" />
-    </Icon>
-);
+const WheelchairMove = createIcon("wheelchair-move", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABjQAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCRAsGAAE2AiQDCAQgBYMtBzYbSgXIHoPjbmmYLDGpy7HEoh/x8DXW3t/dO0S0WlIN0UtkSKKRaNLaTacEhkoJZ9/v99vzHfeLuzaxBFE0ikaa+otIY0g0lzx6rf2fyz2/50cL5Bsdyhq2Jsiys9ut/TyBxBZNL0zzwDJNwLJ29k9+EN0mSYo+GbaXYXKHEpNkAyHpm8eBx/yh8U9LHyQlAyA6AQC7J8mx2Lqm6yCuPsSPaBAQewAmETIyRhHYwBcYJTAJiiL4pf//8B/IIICoAu+bQEED7sELgAKSShFIyflK6cgI5QRpMkLp8jmdCbNpzXFTmtEa1xwzmdWe0Jk0T1FTV0slU7KgFBpWk5HR5BerkhlpUDpJ0zjOfNZSLvw20i79N9MH1NIpihJIlaxIg5JJI9XL0yuBZkzTMwasiZasl6jbajGS0v0W8yS6phZOyxgtKi7eGnJlHOpPE9XUEiWf8PD1/f31IO6uzyCeFGSA/X0s3barOsPgEX5uYEfnBtnKhiiY44LJ0Ux7vp0n6QoKxqcHS8qs+Ff+WfCMM69QsRUUNBVovAXU9OSMjOT0traMU4sfByAQrPfc6eYr+LxKZHiAv5X7x/IzUq/RGm8R0CiBIM/+28iJLVBiDQQASNEGo9gCgeScEKJWH7tZaMZBUtUM2QhFKJrNQMU4V1apHKjIKFKIeuUyJK3OIFvSDkWvZajYcBhX9QbfFHlD4j+CKWE9ErqLOdo5MC82bVXButi46c3UmkWbTFjSUZSpV6dFqRKVWjqsSWzWqlbYCg31RYwjOw4YL2y7/7g/TakmzSrVq0vbeGPnIwtt6/mWZPKAck4hSURSeK3cG1dt7zYAAA==");
 
 export default WheelchairMove;

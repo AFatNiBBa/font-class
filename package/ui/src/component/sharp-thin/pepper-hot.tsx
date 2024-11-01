@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pepper-hot` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pepper-hot?s=sharp-thin pepper-hot}
  * @preview ![pepper-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/pepper-hot.svg)
  */
-const PepperHot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M459.4 .4L445.2 7.8l3.7 7.1 2.1 3.9c15.9 30.5 15.4 66.2 .2 95.6C423.9 92.9 389.5 80 352 80c-42.1 0-80.5 16.3-109.1 42.9c-4.7 4.4-9.2 9.1-13.3 14l18.7 3.1L320 152l16 104 104 0 33.6 61.1 8.7 15.8c3.5-5 6.8-10.1 9.8-15.5c12.7-22.9 20-49.3 20-77.4c0-45-18.6-85.6-48.4-114.7c19.3-34.6 20.6-77.4 1.6-113.8l-2.1-3.9L459.4 .4zM334.1 138.1l-11.4-1.9-59.1-9.8C288 107.3 318.6 96 352 96c79.5 0 144 64.5 144 144c0 21.6-4.8 42.1-13.3 60.5L454 248.3l-4.6-8.3-9.5 0-90.3 0-13.9-90.4-1.8-11.4zm-83.7 34.7L172.3 304.4c-18 30.4-47.8 51.9-82.3 59.6L0 384 0 496l0 16 16 0 87.2 0c139.5 0 266.2-66.5 346.2-172.6L440.9 324C364.2 429.5 240 496 103.2 496L16 496l0-99.2 77.4-17.2c38.8-8.6 72.3-32.9 92.6-67.1l81.3-136.9-16.9-2.8z" />
-    </Icon>
-);
+const PepperHot = createIcon("pepper-hot", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABfAAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCIAsGAAE2AiQDCAQgBYMtBzEbIQXIjtRgrTKL8fD/utL7vmSaMYN2TQwyEFeEqQirlAjc+qRL6km86/f/udzze360QL6f+KGNhWuCrOdna1fPEwgw62Vj4oEFElimCVi7s80yEfZJkqIlx7fjdYM8XrVTA9L96TPcWj40burkCkmWAYiWAJherlzsrb/ir4hPa88Tn1qIgJgOCoEMGboKMEkm0FWuQC4X/BW1mv8PLAggGpJlE8jRAAdwBZCDJMvz/h16Vhs0y9fEsyp72nZo2y7axeOD3pjz3aS72vaO1cGpxvT1tXs7PBk/THmwy8XO7aP9qvbt2s+JV+e+P/n1ugsdRwQ5lcqamlpVrnps1qrgyGr1x5JsH9+tOrkSEWV8OLKMPvWPtHzk37rPdn/mkzejRcdo48jh2y5Mi5d2r2ltblWLPfbq6rxy7PCBMev3n5t1/6WNsWdueUguftii4u3rutZ9+p65mqxvtk6XlfWLLyHljY3r2jiq5fvLfdYNXjto0rJzJixdM7gctEdph0UtffHfsusSEAhazX7n2y0tJv3fuJrAP698s/2M1N5K0iNoLIEgG1QbZGMCiQAApDitPkEg2SEjSVP3iJdJBRGChiqQZLpoOSBXMRAa6G40o5RXqsjImwja2oSQNHUMMmOchVxbz0IDk3wYNtQ2MsPjzIb79iXPmZHZu4rhQ4YVE4ptpvO2xKTNiYVa6XeaO/3hqN2OOOykXXba5+SEHbc4OeWQOSd0ti8qDDfEMIUJiuvy9fAauxx3wj5HHM7bTFS8D/o5fR7vD3oitCPsSxKRKkd3HeXw+OC9R04CAAA=");
 
 export default PepperHot;

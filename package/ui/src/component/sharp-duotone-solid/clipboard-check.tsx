@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard-check` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-check?s=sharp-duotone-solid clipboard-check}
  * @preview ![clipboard-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/clipboard-check.svg)
  */
-const ClipboardCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64l80 0 0 72 0 24 112 0 88 0 24 0 0-72 0-24 80 0 0 448L0 512 0 64zM62.1 320l17 17 64 64 17 17 17-17L305 273l17-17L288 222.1l-17 17-111 111-47-47-17-17L62.1 320z" />
-        <path d="M270.4 64C263 27.5 230.7 0 192 0s-71 27.5-78.4 64L80 64l0 96 112 0 112 0 0-96-33.6 0zM168 80a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM305 273l17-17L288 222.1l-17 17-111 111-47-47-17-17L62.1 320l17 17 64 64 17 17 17-17L305 273z" />
-    </Icon>
-);
+const ClipboardCheck = createIcon("clipboard-check", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABhgAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCGQsIAAE2AiQDCgQgBYMtB1obRQVRlMrJHtnDw//P9f4+uZkpAKVAAK6Obdm2qmpcgb6Qb31JpDNxzfM/f3rAJn2kqAQp8Fjl+QSm0yhPm9BwQDOdgW13tsshayVJWmKQ49tyPK6Qx6V0S4XscfYV9/F/AONXHdwi0yABiOYAmL525WK1uqjL4mv5jvhqEQJiBigEEhI6CzBJEugsVyCXC+qysqQuyrIggKjCT0ugino4hHOAHGSSLM7z1g06tOnQqNIkX9Oo0nDvkwERb/o86/eqfcMQjRpFNFz1tO/zDo96vei4emC/gVOiX6yKKTEgJkX/WB79Y2CsTY0aNjJ7OKJRZNE40ur+A/pLVKyfPNXjTfM3v3e34uuer5pc3TidaT/9NG36xh62OXYMiD12N2uzfHmbZ+/V0AJHjvgDLVCCq1ddW0bRPO3X6bRpmZprapPLcfvmqwgER/6ddmhrs0n/12+UgZ/f//mL/Dsqa3Ete4P6MhCkQeUgm+IaxDUBAMjijB5xzRQEkjESetfGHggQGiJApqqhAEknzQXINTRQgIquRgtQ1dBKSeQNhNY2VzjT2HE4GeMynGvtLVwxyYe8qnUkq2Nthv30Jc3hwOx1xfAhw4oJxbBWOEOi/fLEYtnqd8YN9YeL9jjqiFN222W/Uww6YXF12mFzJHC2LyoMN8QwhQmK487t6TV2O+Gk/Y46ElaZqLif9XNGntwf3AyRjrAlSUQWqd2bZ5RSGazB2mAVHtuhJ+grAA==");
 
 export default ClipboardCheck;

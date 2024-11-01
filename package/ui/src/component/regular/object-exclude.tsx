@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `object-exclude` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-exclude?s=regular object-exclude}
  * @preview ![object-exclude](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/object-exclude.svg)
  */
-const ObjectExclude: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 48l224 0c8.8 0 16 7.2 16 16l0 64 48 0 0-64c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 288c0 35.3 28.7 64 64 64l64 0 0-48-64 0c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16zm96 336l0 64c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64l-64 0 0 48 64 0c8.8 0 16 7.2 16 16l0 224c0 8.8-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16l0-64-48 0zm128-32c35.3 0 64-28.7 64-64l-48 0c0 8.8-7.2 16-16 16l-32 0 0 48 32 0zm64-144l0-48-48 0-16 0 0 48 16 0 0 48 48 0 0-48zM224 352l0-48-16 0 0-48-48 0 0 48 0 48 48 0 16 0zM160 224l48 0c0-8.8 7.2-16 16-16l32 0 0-48-32 0c-35.3 0-64 28.7-64 64z" />
-    </Icon>
-);
+const ObjectExclude = createIcon("object-exclude", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABjQAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCZwsGAAE2AiQDCAQgBYMtBzUbbAXIHoex22RJF81QPq5EPHy/1ue5b6D+di9DL/EsMjogCwAJy7iwQ2O6YlORiZ1khnyq2vf5v6Ze0NHRAf7nJ3xolYtqi0rCgUb6fOBlA5vpBGxX6w5+EKHtfCi8QTV+iNVILxLccz80/tHDbZJaBUC0B8C8LRtW+bWMMuKvJuIvKxAQ80AhUEEFvQWYqSLQW1WBqqqgjGZT/AcWBBB1/qMlUEULnuAtoAqSerU6bGj7du3a57U21c15LduRZ/mTLiKPiJcjvhmSxWfDvuouXgz/enD3YBZPu0Y867ZN6Ma/HPltr2X0Fnqj9XHnJcZsy4QxQspZhya1W0JkmcjnmWNjnTlQRvM251n+rNsZ9JnbB3zT/pt/+zvMnHulf6HtXA1zZR06vC+9T6CMrtiBYNm2FDr3NNfve9RS2sN4rZ9NpkPW0LYsQsWcew1a0b6hvYYGpZtcRWNs7DVuGbPv/UAgOLfWmT3tZv7Xkifw9/f/z35Gmr8m6Ru0SCCojGqOsjOBRAAAUlw2IEEguaPOf9fWngoQMgRI6jIBKnppL0BVZqQANX1NEqAus0FFVFsJne2qQNLaOVAx2RVQ1dl3oGam39J1naMCmyxksbeGSYub6KJNxbgxjWJ6MdpWcOBGW+szisWmYZfl2HB81WFnnHbRIQcdc7FBnLcqd8kpi6fwRb6oMM4YDYXpis29u7WbHXLeBceGue1GM2g/x/uGuTw9ezi2Jj7leHVJIlLbK8Aw+i+25oOHAAA=");
 
 export default ObjectExclude;

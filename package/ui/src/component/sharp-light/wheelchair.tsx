@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wheelchair` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheelchair?s=sharp-light wheelchair}
  * @preview ![wheelchair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/wheelchair.svg)
  */
-const Wheelchair: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 32a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm0 80A56 56 0 1 0 176 0a56 56 0 1 0 0 112zM131.5 227.2L124.5 196C53.2 212.1 0 275.8 0 352c0 88.4 71.6 160 160 160c69.7 0 128.9-44.5 150.9-106.7l-30.2-10.7C263.1 444.4 215.7 480 160 480C89.3 480 32 422.7 32 352c0-60.9 42.5-111.9 99.5-124.8zm68.1-70.7l-3.5-15.6-31.2 7.1 3.5 15.6 34.3 151.1c5 21.9 24.4 37.4 46.8 37.4l108.6 0 59.6 119.2 7.2 14.3 14.3-7.2 64-32-14.3-28.6-49.7 24.8L382.3 328.8l-4.4-8.8-9.9 0-118.5 0c-7.5 0-13.9-5.2-15.6-12.5L215 224l137 0 16 0 0-32-16 0-144.3 0-8.1-35.5z" />
-    </Icon>
-);
+const Wheelchair = createIcon("wheelchair", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABfgAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCEAsGAAE2AiQDCAQgBYMtBzEbEQXIjsK25RPFhJnDfMUhwieep/Z7PXffBsEBWSIFJCSgioxkYTI+UQVXo1vhOjHiT211G/mPxuHdIP5sJpN17musnv9rPr/nRwf4jQ4pEitBys6yF88nMLGyKJIEnukEbLpNdnmEInREhBRJRMcneFydoeYXKqKmfKe4Ad7kofIXvxKAojYAMgwAHF54OMFBC1vJR3sV5IMDEMgRAGYhGuyYhGAHpbBnoDILVFVopf3P/4EEBEgn/cgCKjpxBzwDUEFRa+0ZmF5ipB6o54zUvTej/B2SYwLdMjAu2C3QJT3C18HfKeUpwC9wYrhDbo12vc4NtlWksUd2Q/PMeE+8X2Vex4eHm0cSueOFrdytjIx8EHd444ACsUVv5AlD7xceb1xivH96fopt6lXsJvoG5vvduLndatD14+v7++uDNIX0ZLk3kV+eHo9vbizQNKeG9dHt/84GVwtNapYfi1sWVib6ai+gQvwLmPze5EgEgxdIdu8fnvHRvQddDC8H8hweUMlGgO09HQCC8MqefxvCaviPjrGAPz/fP7VfUfsgn2UKQLcCQrPYVhRYAD35FABAyQuIF0BQ3KKCR+33BRBELwKKTr0CGhPYIKh6LUDQYZoWBJ16naCU2iPGBQ1Q9LsHjW25oBq3DDrsOHc6jYcy4MhwIb97cdYWslpH1JRViT7ZZjoVQ3hZNiDHvGw2deSwE6KlSJYpSqQ4mQZJ5+RnSWLtwVa+iFCjTBWhj1yXz5u9RUmXIU6KZF7FAHlvy8r2x+UgUVDUdaGikNKbk0QmAwA=");
 
 export default Wheelchair;

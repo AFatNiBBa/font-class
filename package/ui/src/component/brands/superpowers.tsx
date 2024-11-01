@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `superpowers` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/superpowers?s=brands superpowers}
  * @preview ![superpowers](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/superpowers.svg)
  */
-const Superpowers: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 32c-83.3 11-166.8 22-250 33-92 12.5-163.3 86.7-169 180-3.3 55.5 18 109.5 57.8 148.2L0 480c83.3-11 166.5-22 249.8-33 91.8-12.5 163.3-86.8 168.7-179.8 3.5-55.5-18-109.5-57.7-148.2L448 32zm-79.7 232.3c-4.2 79.5-74 139.2-152.8 134.5-79.5-4.7-140.7-71-136.3-151 4.5-79.2 74.3-139.3 153-134.5 79.3 4.7 140.5 71 136.1 151z" />
-    </Icon>
-);
+const Superpowers = createIcon("superpowers", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABYQAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBLQsGAAE2AiQDCAQgBYMtBzIbrwTIjsQ4JvGLqAwieN7u8efc3ReAG0qd0aVLn1RmC+lDLoX6ep/+fp5/a/qAj7971vkHiQapWp1PYOdp4Q00oNnAphOZCG93WjKHaJ+kUZakX+z4nCGP/bFTibQ3vcCO9Kbxk/q2k5QyAFENAMPmzJjkzufxecSL/y8SL0xAQAwHhUCGDI0EGCgTaCRXIJcLPo///8f/wIIAogyCEy23d/bDSEAOkpTnTWpWLFXOZ7tIhWUPRkbA3reH3pl5oPHBdjPj8Rj8tfdG3J9zuMmh9nNmHhkYcWP0o8G3WhwfcnvUw0E3i+bnqp37pdmLpS/cPvze93z33qgKn79eGl3/m28/nj3be9+9/11zbMp3E09y8e6DeSsbTbx4Mj9n5bxGQCCY3vHPF6oO/LVcxQS+vPZv5uH/P4876RzKSSDIOv7f0cK4A0gN4Cul2Kp53EEg6SahV61klwChAgIkZVQQINNQNQFyFXQQoKSJXgKUUcEMmcjLC7UsqiCpZAPI9LYN5Go5D0oGeuyUUSsy9WEvn/29JY3m0KhVRbfOXYv+xTBTOI2gw+KAYtpqu9V32sFJS62z1mZLLLbCZkZuNMnfYo3REjHKBxW66ayrQn/Fcnl/eLYlNtpkhXXWxmUGKPbbbW2Vx9vBehKg+8GnEpEq6ijzxORN");
 
 export default Superpowers;

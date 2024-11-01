@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bow-arrow` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bow-arrow?s=sharp-light bow-arrow}
  * @preview ![bow-arrow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/bow-arrow.svg)
  */
-const BowArrow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M363.5 59.5L336 32l38.3-7L478.4 6.1 512 0l-6.1 33.6L487 137.7 480 176l-27.5-27.5-33.2-33.2L181.2 353.4 200 416l-70.3 70.3L104 512 93.6 477.2 80 432 34.8 418.4 0 408l25.7-25.7L96 312l62.6 18.8L396.7 92.7 363.5 59.5zm95.9 50.7l12.8-70.4L401.8 52.6l57.6 57.6zm-78.8 89l23.1-23.1c27.9 41 44.2 90.5 44.2 143.9c0 56.8-18.5 109.2-49.7 151.6l5 5L414.6 488 392 510.6l-11.3-11.3L230.6 349.3l22.6-22.6L375.4 448.7C401 412.3 416 367.9 416 320c0-44.5-13-85.9-35.3-120.8zm-368-67.9L1.4 120 24 97.4l11.3 11.3 5 5C82.8 82.5 135.2 64 192 64c53.3 0 102.9 16.3 143.9 44.2l-23.1 23.1C277.9 109 236.5 96 192 96c-47.9 0-92.3 15-128.7 40.7L185.4 258.7l-22.6 22.6L12.7 131.3zm98 291.5l8.6 28.7 44.6-44.6-13.6-45.2-45.2-13.6L60.5 392.7l28.7 8.6 16.5 5 5 16.5z" />
-    </Icon>
-);
+const BowArrow = createIcon("bow-arrow", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABhgAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCUwsGAAE2AiQDCAQgBYMtBzAbUwXIjtFLT5GUSROEcE5HUKyhe/cQQgdkiRSwjCKy0XGJA3RR6KKrdI3o1NaIWmCXs4H4iqj7wOxSVFDRwqyIUqr/70/lXM6zAb9RUMZ89ynpmrhp45znFShgG2q8C8cCilBNK2Adto3MBWb+HM8DlLEY5hAlv/MI8OZ8Ff+gqR1SWQAgOgEA64dxEVh7jEeiI8E0xG+EgYDYADCMUEDc32BYOjTQT8QwKJWCPyQQ2P9AFgQQNcK1E5RowC34AVCCVJUiFuJamorSorIijGqWKjA1MXUiPhFGh+JjpuSZwAbGjEmPEY5gNgUhKOuZwI9HWykm3szYbD3hNF6VQN6Y1IiZdE2gTf65b7aaqpoZDe264J9FGNMJcxqeYCuYJE0tTa+9Yu5kEPdocgYUBt7ZR/lHKHlYJHdkUNANVTGULpFngKL3d5YCttGvwy2OYaJfwDaeewu4mJEJQBLN4XUnMR9fPILoYKy8/bEg36DudyRoukGDYH69FX4LQOnz9uc9zSDaSz58NhGsYRwSZkazuK0YH53xuSWzRKwBBILRkxxehrz7v4S0EODvwue39Cv6v5bIX6BRgqAYF5hLTUASAICMenASCKRropBfW30gEJoRINWaBSj0UUCg1GwMgcogBwRqzXYJi1ISoVdahVKrK1RY1IZKvSZRZcluodYbwl+k9j1pP4RBYJMM2MSysbRmubJGWwr9I1P0qhtrsW1cz0dMoCfyVShXK0+uIrUNoVpEuU6ZwCkqwBex2LBkjcUVa3P3LjC4UK1G0bC5fR03rONTxuqnp5vAoJAgOgvnJXBLyeyKBous6uqKBgAA");
 
 export default BowArrow;

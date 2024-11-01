@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `van-shuttle` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/van-shuttle?s=duotone van-shuttle}
  * @preview ![van-shuttle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/van-shuttle.svg)
  */
-const VanShuttle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M80 400a80 80 0 1 0 160 0A80 80 0 1 0 80 400zm320 0a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M64 104c0-4.4 3.6-8 8-8l88 0 0 96-96 0 0-88zm482 88l-162 0 0-96 81.1 0L546 192zm-226 0l-96 0 0-96 96 0 0 96zM72 32C32.2 32 0 64.2 0 104L0 336c0 26.5 21.5 48 48 48l1.1 0c7.8-54.3 54.4-96 110.9-96s103.1 41.7 110.9 96l98.3 0c7.8-54.3 54.4-96 110.9-96s103.1 41.7 110.9 96l1.1 0c26.5 0 48-21.5 48-48l0-108.3c0-15.1-5.3-29.7-15-41.2L514.1 54.8C501.9 40.3 484 32 465.1 32L352 32 192 32 72 32z" />
-    </Icon>
-);
+const VanShuttle = createIcon("van-shuttle", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABjAAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCHAsIAAE2AiQDCgQgBYMtB1IbQAXIjsQ4JvELC9EiqLf52fN2pfp/dQx7wBghsB06AoCQOCJIzfJFxghDNWj1+7+Lm+edRwE+dwmHNhYuDWSBz3meQKLZ2JRQYFkUZsbtzmYtaRmPQ5JYkuOb4zRDngZlt1RID6YvcI/8BzD+0NUtkuYMQLQBwJy1Kxf7sB71FF80XiW+sAgBMReUAhky9BBgukygh1yJXC6op8bUo3FJAFEl18lAFU04gnOAHCS5lOdFc/Poli1rlZb5mlql2Hh/51qIImJ7USsiarG64NeseWZwxAtdxIMd7x1Qi8eHvTzptSEv9qQvnu98f0Rc77YmXhpYrH10ylvT3un92NS3J7/Zo2Xo3felNi/91eeLPV+Ytba6bZ1ttln3y9qnkLDNcsu23tkmou3/P14fx7hWv8q+/GF02P/t70/w+7f7d+D8MPqHHzsc0qV+5KYB3xy3dFSLvadP721RErPTeSAQ3P3Y7o+2tp7+b1MtgTtv93c8rmG6ll5CkwSCbHhjuE3pGjh8AEaKM/oqt1omkFkkl6/awn0ChAIBkqpCgEx3bQTIFYYJUNHLBAGqCitlIm8WOtjcIGnhOGQmugy5Dl6Biuk+1qs6RGZ3jNUwv77EhT2yoK0cM3J0ObVc2iprShTXp5Xb0uAzPjYEOu1x1BGn7LbLfqc67ITF1mmHLdTQBR5UGmOk0UpTlcfeo7gG9RNO2j/nz5tMU97XBjujZw8BNcmkYy3MZESKrP2Z7UdGnNx3+tSpQ7tHvOBEx5F/rAAAAA==");
 
 export default VanShuttle;

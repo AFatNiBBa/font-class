@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reflect-both` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-both?s=solid reflect-both}
  * @preview ![reflect-both](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/reflect-both.svg)
  */
-const ReflectBoth: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M413.6 19.8C408.6 7.8 396.9 0 384 0L128 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9zM19.8 98.4C7.8 103.4 0 115.1 0 128L0 384c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9zM512 128c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-256zM413.6 492.2c5-12 2.2-25.7-6.9-34.9l-128-128c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l256 0c12.9 0 24.6-7.8 29.6-19.8z" />
-    </Icon>
-);
+const ReflectBoth = createIcon("reflect-both", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABcQAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBZwsGAAE2AiQDCAQgBYMtBzMb6gTIjsQ4JvKLKOwiHv5be3bf7CDii5klcWui2sQiDW8eulUOkQi/Q2rf8c3/5fTG86MD/EaHNiZNPZAxae728yigEupl04dAFlimCVhT855qnhSiru8OOV4Xx1Uh3UnfcMl9aPzWwnGSGgWAqA+A8QvmzPbhR/yI+FqR+GomAmI8KAUKFGgtwCiFQGtZiSwLfkSlwv4DSwKIqsKTE8ioijlYDcggyTk3atSwUa0qdfJ8dV7NDXe71I6HzW83mRc3ap1rtiButVzZGinudH7EQnGk6fy42WnVhuDjxnPjusM80PVJq2LhvVGl5lnBt1gp1Qnzwg7P6z//w7f13zx4cXQc446u/n7okNt16tw+dMj31Wdmd8vkbl3+IegMfGbXv66/W5uDXbplq7bsU3fvPutxIBD8b3xo4Ip6o/5Wr5XAr1cdf0YqH5L0HNUlEBS9Kr0sTSARAIAU+3VIEEhmysK71nZTgFATAZKqagpQaKW+AFlNPQWooq3BAlRV0xyFyDWExpZVkNS2CxSGOACyxl6CKkb5aFTVOIp7i74z6F+7hClddPK+sn+ffuWIcraUmduF1Jsjy81yt/181B2etN4O2+21zlqb7O3gu82299lmyhI22ReV+uujn9II5eHm4fH51tltj0122G63Gam8Xu9m//L87lBLAuEAmSQRqfa3Rex9MwIAAAA=");
 
 export default ReflectBoth;

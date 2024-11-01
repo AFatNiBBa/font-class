@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `starship` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/starship?s=solid starship}
  * @preview ![starship](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/starship.svg)
  */
-const Starship: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 192a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm0 256a192 192 0 1 0 0-384 192 192 0 1 0 0 384zm32-192a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM188.9 205.4L137 160l71 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 96C14.3 96 0 110.3 0 128s14.3 32 32 32l32.1 0 65.5 57.3-2.2 .4C109.1 221.4 96 237.4 96 256s13.1 34.6 31.4 38.3l2.2 .4L64.1 352 32 352c-17.7 0-32 14.3-32 32s14.3 32 32 32l176 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-71 0 51.9-45.4 43 8.6c-5.2-18.9-7.9-38.7-7.9-59.2s2.7-40.3 7.9-59.2l-43 8.6z" />
-    </Icon>
-);
+const Starship = createIcon("starship", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABjQAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCSgsGAAE2AiQDCAQgBYMtBy8bSQXIngVO2TyC81J1Tm0thlgL+WNPMp7H1v49d3Z2P5cYNGF8hUKSgKosawRQ/DfmpbaprMINu0pur5LqzWx1kP6/ItGCJcTOydzxXiH483/N5/f86AA/H8GhRFMGyN3me6PM5xMYYLRHikZhlNCEeLbNEOkagnBpkJLwJeKHTfhh+inU/G5mtJRX5R9P+5Xmh+lmKAYaABkHAOw/k50Knz3sJaP/78ioA0Ag+wEwD6JBg1kQ7MIIZuGbB1RV6OX/f/wHEgiQjpxhARUd7uEZoIKi1joyc2KSsB2pp4Xt4Nm75UfLDjfdrzheebKVt7wT8dPai0yuOd/xPLi07XHVqburz7Y/DeVPTkF8Prg0acXdyatDy1PXU5WWmiaM4j4OQxB6UZhTOCm70zYXqzEHvcSzbY7g5mxlcqaDOx53/JM6vv23rGFZk2W0AccH3r/dsdthPT45TAJi2I8xC9wbwwlscRsCYqTAKl5qPxLdhnzN7quki38qBQIO3Jg7d/gACMLjd2F1uXTXr35hAd8/vq9Y7pZj9CsgNKv+r1JS7gLQAcKSy8AFNxQUd1Wyq8OeC4hBBBSdQQGNmWQQVINWQtCawwlBZ9AJjNQBMUnpBMWwc6CxxSioJrkBrV2+gs6kMNlI5xL9L5iQbKGkVrTeZCEfPSYok2Bka/TTsbysrxZoaSLUademR60ajXoM0iU12qtVcgQn+SJiZWJBfOg6/S7ksdWl25I+d9+MH73va/TF5bWk8QjmBnFFIaX/ayEzHg==");
 
 export default Starship;

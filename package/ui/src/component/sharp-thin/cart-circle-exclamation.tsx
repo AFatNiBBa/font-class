@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-circle-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-circle-exclamation?s=sharp-thin cart-circle-exclamation}
  * @preview ![cart-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/cart-circle-exclamation.svg)
  */
-const CartCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M8 0L0 0 0 16l8 0 49.8 0 94.4 362 1.6 6 6.2 0 160.7 0c-.5-5.3-.7-10.6-.7-16l-153.8 0-20.9-80 193.9 0c2.8-5.5 5.9-10.8 9.3-16l-207.3 0L82.7 48l471.5 0L509.1 192.5c5.5 .4 10.8 1.1 16.2 1.9L571 48l5-16-16.8 0L78.5 32 71.7 6 70.2 0 64 0 8 0zM176 432a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm0 80a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM368 368a128 128 0 1 1 256 0 128 128 0 1 1 -256 0zm272 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zM504 280l-16 0 0 8 0 96 0 8 16 0 0-8 0-96 0-8zm4 164l0-24-24 0 0 24 24 0z" />
-    </Icon>
-);
+const CartCircleExclamation = createIcon("cart-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABngAAALCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDDAsGAAE2AiQDCAQgBYMtBz4bmgXIHgfV7RPTh6YDV+ca0Zo2gy/x8DH3n+cm+ZT3FjkLjG4VMDkGBQgOsMTC7dR2KqsQoljTvTCMR1Qq8mUcGfcRirEEElDYVKhGFVDI+v9/877WpjX5eyfgTQFFki2yPO/49wyb/8s9v+djg3w+gkNbqzl821jzeQKJdXGb0sVZmCWKDc4bfBAhKSQfIIu/sVJBcj7hwCnzQ+MPIvYjkaYAoi4AxipTJvuwo88SP/w/IH6gg4AYCwoCKVK0JMAIUoGWZArIZILP8v/P/gNLCCAq2Y9OQIYa3IYXABlIVGVZzwa1khb1asyKWtn0UkU+Jy/lolSaFY1g4kwYMR1jcbbJfWvF1DjWSJEmYZSbhx/GrGN+odPUht38bNyPrcmghLstJs3HnfaaDpuNOir1lNDD7qelq+uxw1C7HDH52e2kNOw9vYSeDLvN7zHkuscZtef50JvSNfyu92Us6/MIK0WkpoXI0cvaPah78meAlznU99VadV3V/ebVNKLyepV2ga/IJxpli/aFD9Zk2tizpUi9XXfJhqeOHYdrBy0sd772enX1uoS2T42QDcq/bev612er3L7Qwuzqdi4ovPU7darfoCg6wxYYOjTDs6uqsZBqdYnC6c2mUEdvB4Hg3Ku7fMk54i/NTMDvt39fQFf//wq7kxuqJSBIe/zPMFezGzC2AOkktmvX8UWBxGVG9ruWnSEg5AiQqJQLkGpBXQJkct0JUKE1AwlQKTeFVGQ1QkPmZSBRtgmkBrEDZBryElQYwTepSg1F3FzFjU28WEybVIQmbioKvfoUw4rWlkTaAnltdXgx2B3fzke6wp2Ws4H1bGUZS1nF1gK5mcnZbaxjUhc8kR9S0Jde9KFgGMXk7tXt01nGZrawig2sN9YZTrF8vAvbu6d3hb6EzdmPikRCJE1OeKvncz2jPX+F4V207hwE");
 
 export default CartCircleExclamation;

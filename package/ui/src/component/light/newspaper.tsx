@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `newspaper` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/newspaper?s=light newspaper}
  * @preview ![newspaper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/newspaper.svg)
  */
-const Newspaper: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M160 64c-17.7 0-32 14.3-32 32l0 320c0 11.7-3.1 22.6-8.6 32L432 448c26.5 0 48-21.5 48-48l0-304c0-17.7-14.3-32-32-32L160 64zM64 480c-35.3 0-64-28.7-64-64L0 160c0-35.3 28.7-64 64-64l0 32c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32s32-14.3 32-32L96 96c0-35.3 28.7-64 64-64l288 0c35.3 0 64 28.7 64 64l0 304c0 44.2-35.8 80-80 80L64 480zM384 112c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zM160 304c0-8.8 7.2-16 16-16l256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-256 0c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-256 0c-8.8 0-16-7.2-16-16zm32-144l128 0 0-96-128 0 0 96zM160 120c0-13.3 10.7-24 24-24l144 0c13.3 0 24 10.7 24 24l0 112c0 13.3-10.7 24-24 24l-144 0c-13.3 0-24-10.7-24-24l0-112z" />
-    </Icon>
-);
+const Newspaper = createIcon("newspaper", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABpgAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDFAsGAAE2AiQDCAQgBYMtBzAblAXIjtRG+UVWMpSWh+/Xejv3dX/qgSB1mNElS0QybtkBl6eptSCjp2rfJ66pH+dPBVKiz48WUQuQNVj2+QQmFkXzAp0ObDrCCdj8dv495QaiWyRRQpcM29Ufpl+HzhXy+CLGaSG9kn7GU/lN41993E+SZwCiMwAW79y63reNaET83ET8bC0CYgkoBTJk6C/APJlAf7kSuVzQiGaT/wNLAohW8rQEclTwKW4DcpB05HnvSTVq7OhcaanlO8Ldir2Pdo94Xoq7u9fio14v9cvinp4vFtVdH46J+LRvFq+N/WykUAhM9Hih8pgZC0YtPhj9SZ9v9vqoj6dVT77UqxIv9Hi+exEv9jQA2+AaWGV5pZ2VohJRhB2vjazEB33Ey8OK+LBvDPm086f/D/75xM/euqv+MA/XF+n6xGyT/vglm6T+8MP18uBbb3ehS0HRpcvbZTAUnq1FC/Vtd7KYJHYc73xp4cV6o9So02yLBvfvhR4GGluEdNBTd8ulQ+52aNDJHpuftrnHJfV2EAjm/tfz94Od5t1pryTwz+fvoF9Rs5GkT9EugSAb1xxnXwKJAACkuGFIgkDyrg44WfWiAKFAJ5NWBZnppzOZK4wlWww0nVee2CoTeYfQ3X4gk6rLZGaGm2Suu9tki3m+K7XqHpnJigYn/jCmrRhevqmcPGFSOafctjTJCvm4OrdUe6NuGBmNvU646IJrjjvmtGuhV6yvXnfeihOy3AeVJptgktIc5XX3efsOx11x1WkXXUjrzFW+L45y4zx9NMJEOKdoShKROj4AAAAA");
 
 export default Newspaper;

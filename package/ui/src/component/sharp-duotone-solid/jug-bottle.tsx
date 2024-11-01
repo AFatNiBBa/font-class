@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `jug-bottle` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jug-bottle?s=sharp-duotone-solid jug-bottle}
  * @preview ![jug-bottle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/jug-bottle.svg)
  */
-const JugBottle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M416 175.2l0 216.2c.3 .2 .7 .4 1 .6c-.3 .2-.7 .4-1 .6L416 512l224 0 0-64c0-24.1-13.3-45.1-33-56c19.7-10.9 33-31.9 33-56c0-23.5-12.6-44-31.5-55.1c18.7-10.1 31.5-29.9 31.5-52.7c0-23.2-13.4-44.3-34.4-54.2l-29.8-14-127.5 0-29.8 14c-.8 .4-1.6 .8-2.4 1.2zM448 64l0 64 128 0 0-64L448 64z" />
-        <path d="M96 0L224 0l0 48 32 0 0 48L64 96l0-48 32 0L96 0zM0 256c0-70.7 57.3-128 128-128l256 0 0 384L0 512 0 256zm256-32l0 160 64 0 0-160-64 0z" />
-    </Icon>
-);
+const JugBottle = createIcon("jug-bottle", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdwAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBeAsIAAE2AiQDCgQgBYMtB1AbGgXIjtMdM9KNfzz8/9q/7nPvvJf8eWGYMHJBda2QLAC4VLYKSBE4AldW1dOBiqrMpk49z3logTwn4kEbC5eG1gDK7trnFSjgGjQ2YM97FYgp1ndbzysaBBkYRGT+pgxDmyFeuRsUaVS+rUF6Jo2H4v8Axl/6uk3SlgFEFwAs2bVtgw9+jV9TfF6/SXxuPQJiKagEMjIGCDBfFhigUKFQCH5Ndc2vUdcVAURT/HwGTbTDAZwEFCDJUlF07dQ2vK3V6FjsbDXKfa2yJVohygjgsf21RYvfX9UxUnSIvEsYHI3ylHC9RRASznhx7OuDkzx3pM4ZHo+Xm/OH3uly558hn5/cofevU2yyymQfyCccqhvTWbaZ665TD34Z5MVetthLXb79qQiIuNevFuv52289e3z4QffCT677QpcYfHHx4sXXLXYdCAR/fvPH/Yc6z/+/fSuB39/67094u/4gXU+hvQSCPL4eb3+6Do4YgJ/iHkOFyuNlgWyCDPStHTwpQCgRIGkqBcj66yJAoTROgIZBZgjQVNomi6JN6OFABUkHV0A2032g0MMboGG+j/ymHpGtjLUR9hsvaSWHVsyqpkycXM2tloXCGQ4dJudVx/Loe3zHGBx00iUX3eWE4864iyFXbYjudsFKCV6hQpUpJpqsMlelrt9LO5l/1TVn5oJ+mnmq+/po98j9x0BLiHKqzVkmUuRuZ+8+9ZtG/fyJCfba2aMVXiYA");
 
 export default JugBottle;

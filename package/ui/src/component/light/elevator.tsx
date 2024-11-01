@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `elevator` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/elevator?s=light elevator}
  * @preview ![elevator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/elevator.svg)
  */
-const Elevator: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M155.3 4.7l64 64c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L144 38.6 91.3 91.3c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l64-64c6.2-6.2 16.4-6.2 22.6 0zm160 0L368 57.4 420.7 4.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-64 64c-6.2 6.2-16.4 6.2-22.6 0l-64-64c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zM64 160c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-256c0-17.7-14.3-32-32-32L64 160zM0 192c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192zm184 72a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm-80 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm248 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112 56 56 0 1 1 0-112zM144 384c-17.7 0-32 14.3-32 32l0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16c0-35.3 28.7-64 64-64l32 0c35.3 0 64 28.7 64 64l0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16c0-17.7-14.3-32-32-32l-32 0zm160 32l0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16c0-35.3 28.7-64 64-64l32 0c35.3 0 64 28.7 64 64l0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const Elevator = createIcon("elevator", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABygAAAKZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGyDeQsGAAE2AiQDCAQgBYMtBy8b+AXIngV2w/WZ0BhLYrHk9oa44+F5PerPfckoC42QlfndAWLn8pcwMjhvaFBurmV5zjrqi7mf4fX3/f/3U/82qwJ8RkO5P8pSixft2ccHmIDRFG3TgcwGNtMJ2AbnTTzEkBbacYE8XohxakjXpbdxifeh8Y02Z5LkGYDoD4DFO21d79UP48OIt6uniLetRUAsAaVAhgydAsyTCXTKlcjlgg+jqtL/wJIAolZgTfbl6I138Rn96SRFnjc2trc39NGJI0b0qumT75DTi902b9l8VWNudnBTpMm1xcNrmigmLIwBIixYQEZIjbBhSHGqb/TqExd0XxdZnNZci96rbhgL44GRPO4a/bahuHbUM4zF3WO+drz9+hGrdQy/HeSGkXf4buvD1ojTHtvUGAetMFo5QGF2zNFnLxZXNtZmGDeM/UfS02hM3jN4sV2YfCjOb8yG3N//+27wvbv++aqqrr/+vvuWWir1XH99Jd66NGBbUmVu6t9TnMu5fel7LracStfbqkIz4NZT3TpAF2AWpjyzsmmzbYozN8lHXnnlkX5c+aNlAFCm+bFPpPDI8Vh/8cMPIXGIpaR75FVGeUuPCkqfJdPngUCQvfrlCfrN+62eJvDx8z/8xn9GqleTdD/qJRBk46pxdk8gEQCAFEcbkiCQvKOA37W3qwUIBQIktQoBMh36C5ArjBWgRrfpAtQqbJWJvEFotEeNkt4OQ5kZTkK5Rk+gGvO8FqrVGJkjp5wo9YwZv6JtWT6pnDxhUjmnnMwpaXdL6N655Wpx1NG8ZjTcaW+HONiR9rKn/RzZChxuffQoB1kx51rui0qTTTBJaY5yd/E+twMbDncEJ8bZ/f3MVZ6vjnL0fPPRUEmCoFNkJYlI9b9eSIccDgA=");
 
 export default Elevator;

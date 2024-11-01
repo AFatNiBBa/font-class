@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `won-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/won-sign?s=duotone won-sign}
  * @preview ![won-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/won-sign.svg)
  */
-const WonSign: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256c0 17.7 14.3 32 32 32l40.9 0L51.6 224 32 224c-17.7 0-32 14.3-32 32zm119.1-32c7.1 21.3 14.2 42.7 21.3 64l26.6 0 16-64-63.9 0zM233 288l46 0-16-64-14 0c-5.3 21.3-10.7 42.7-16 64zm96-64c5.3 21.3 10.7 42.7 16 64l26.6 0 21.3-64L329 224zm110.1 64l40.9 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-19.6 0c-7.1 21.3-14.2 42.7-21.3 64z" />
-        <path d="M21.9 33.6c16.8-5.6 34.9 3.5 40.5 20.2l93.2 279.7L225 56.2C228.5 42 241.3 32 256 32s27.5 10 31 24.2l69.3 277.4L449.6 53.9c5.6-16.8 23.7-25.8 40.5-20.2s25.8 23.7 20.2 40.5l-128 384c-4.5 13.5-17.4 22.4-31.6 21.9s-26.4-10.4-29.8-24.2L256 195.9 191 455.8c-3.5 13.8-15.6 23.7-29.8 24.2s-27.1-8.4-31.6-21.9L1.6 74.1C-3.9 57.4 5.1 39.2 21.9 33.6z" />
-    </Icon>
-);
+const WonSign = createIcon("won-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABkgAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCQwsIAAE2AiQDCgQgBYMtB0wbYQXIHolxjMpWReiLh/+3md43f6SzHq1ZMuCYKWgkqAJIXbgF4CpFtSctk+K/wP3n/5p6kXR0gN/oUCqW7ZE6y+S9CQywgqJtNLCBzWaKWzaH+UU8NBbaL5DHV+l6FbJHsi9xV/gfwPhGT9eTaZcARCcAzNqwZpl326Itiy+bLxJfWoqAmA1KgYSEPgJMlQT6yJXI5YK2rElbNEsCiKrwwgSqaMGVuAuQg0yo5Pm4zq1pXpdapX2+vtxbbHmoEfFAY1NsiceGPdWTOh/qvtQfyArrG+Ph4ulem4PQg2/VH9wKd4+rz86v1WJiFHFr/X4bHphBDWhQYl2tqA0k0MNsfcMj2CT9tpvpuKbbg8XBUwOf7/T8dwO+3P+lxhMfPMlLU7d1N7dh/8mT+2thdPzUl5784IMti6dedZVz3Xftm5nMTPbt6n5udsDUxVs+8G6Hm7m5wwgr1BlebD3ff8UOVqzorWnmqRlj0ylNHYyfMWP6jhmVE8lvQiuCx2aMoOJVMXlX3cwdK5YDgeCTGe/8vaPj1N9aahn4+vUffmnimzJ67PNokYEgjW6OtjVzAB0h4GQW5w3E34VAskAF/tRWDwoQCgTIVBUCJL11EiBXGCVART9TBKgqrJFE3k6o2zaATKtTILnIFSBX9wKomOqTZFU9EijKgCT/CWbMn6LzJpUTxo4vLyt3izoFukQ7fHl52TX8vGwagXfa74Tjztpnr0POTtjTlmXOOWb+ETPPD5UmGGu80mXKx5WXm9fb57QzDjnhuB/ncuX3seHOH3cegb2ZlHOiPUkiskidLpw4PiYa28bAtKPLTIu9AAAA");
 
 export default WonSign;

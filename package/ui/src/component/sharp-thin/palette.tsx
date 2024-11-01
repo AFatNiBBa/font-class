@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `palette` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/palette?s=sharp-thin palette}
  * @preview ![palette](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/palette.svg)
  */
-const Palette: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 304l0-48C496 123.5 388.5 16 256 16S16 123.5 16 256c0 130.4 103.9 236.4 233.5 239.9L297.4 448l-.8-.8c-15.7-15.7-24.6-37.1-24.6-59.3c0-46.3 37.6-83.9 83.9-83.9L496 304zM308.7 436.7L320 448l-11.3 11.3L256 512C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256l0 48 0 16-16 0-140.1 0c-37.5 0-67.9 30.4-67.9 67.9c0 18 7.2 35.3 19.9 48l.8 .8zM104 320a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-64a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm56-88a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm-64 0a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm168-40a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-64a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM416 168a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm-64 0a40 40 0 1 1 80 0 40 40 0 1 1 -80 0z" />
-    </Icon>
-);
+const Palette = createIcon("palette", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABswAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDHQsGAAE2AiQDCAQgBYMtBy4bmwXIjsM4Jjwyiyc1Hv5fl3bfl0yyg6wQj8MEyyUxdlzuSb1YYeV6Pp3aRCHrSatQ+Pwvt09c8/zPn96b6PFRoi31va2tV6kTmEBbeoNtYjOdgM3cGhvoiHLcx4fIMJMhPZ57/KIL5PGFfWpIj6XGPbo+/tbNHSRZBoRoy2uZvXHtct/+Gr9G/FT9iPjJUgTEbFAKZPgVPQWYJhPoKVcilwt+jWpV/gNLAohaeF0COZrwKr4C5CAp8rzv4IZWyW6saZVvOD6+2Bvixpj3l6wNb1FW3l03ze8trvUUEa/3fmb4GxMb13Xq3KljrIobK84c3/Dnxsq7cZbv2bYeQhTFi0Ne7XrL0E4bXunx+KAXuz42MF7q9ljXRwe83P3xHk8M3jjSc7no6isDLzqrLw6i/ht95OsP7/d629f/7fvzgfb/PZVKxZyWlp0755ij0u1oc8z+86+ZK2en/4VLkV04WLnz8zteR9Y8C916X7euCi/s2u2+W0V7SkVbbe/8tl+/pp5j/XyOO3VareFZu95/4IH3d4mJG29oDs+qHT558vBanv/KYCe1HLweCAS/jO56bmebaS31jQn8/vn/f5efkaom6XXUSyDIRlRH2JZAIgAAKS7olyCQPKuA92jysAChQICkViFApoe2AuQKwwWo0dt4Abx+rUzkDUJH2zuRNDlNZCa4TuQ6+oCoMc13bq2OkYUtH3T8V2PKAgvMX1Y2j6qUU8rHXBMikT0np5ZubcgF6RhKex1w0gnn7LfPYecMdMby4LzjFqzA+b6o1GyUitIU5Xb1qGwwdFXOFnYu7i8yVfm+NcSFdf+hZCagHGNFkohUd2r37y4A");
 
 export default Palette;

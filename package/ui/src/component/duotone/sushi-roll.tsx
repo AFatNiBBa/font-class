@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sushi-roll` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sushi-roll?s=duotone sushi-roll}
  * @preview ![sushi-roll](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sushi-roll.svg)
  */
-const SushiRoll: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M81.1 172.8c9.2 7.3 21.8 13.8 36.9 19.1c14.8-14.8 32.8-26.7 51.4-36.1c20.5-10.3 40.9-17 56.9-20.8c18.2 27.3 46.6 49.9 82 63.4c26.1-6.5 47.2-15.9 60.4-27c-69.5-5.5-113.5-48.4-122.8-90.8c-7.1-.4-14.4-.6-21.8-.6c-6.4 0-12.7 .1-18.9 .4c.8 6 2.1 11.9 3.8 17.7c-17.3 4.7-37.4 11.8-57.5 21.9c-24.5 12.3-49.9 29.4-70.3 52.7z" />
-        <path d="M448 368l0-224C448 82.1 347.7 32 224 32S0 82.1 0 144L0 368c0 61.9 100.3 112 224 112s224-50.1 224-112zM224 208c-88.4 0-160-28.7-160-64s71.6-64 160-64s160 28.7 160 64s-71.6 64-160 64z" />
-    </Icon>
-);
+const SushiRoll = createIcon("sushi-roll", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABeQAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBVgsIAAE2AiQDCgQgBYMtB1Ab+ATIhod/9OK7L8nMB5QPSB24uxXACnAp5WwFYP68/fnORwN8ILKt3+88kB/493ueQOeBLE48SijTCCD2zF3WFQ+1vzRiaXl8NB4/J2Rxd3pKieTa5G1cwf8BjG80c4pEtRRA1AXA2MXzZ3q+iCKJtysPE2+bgYAYB3KBFClaCjBCKtBSJkcmExRJpUIRlUpOAFHGXyMFZZQwDUsBGUgkIssaN2hWo1QrW1SjVH19iJumvbnonSmvtxQ3Tn1j4fvT32qz6L1hEU82v374U4vfHfpEs2uGPL5g+ZUd7+98d+cHpz7W/dVu97W+qvqF6lc2uqPD4z3a3Vf3vu/avr3pbc/NLoqizf8/rLLKD/+3KVTB5zeP9wIvNG/+wgvjBSlea079jzZvfOb/008sODpmwld/rbmlRrXqVbvc9f3cn4FAsPXLB4atrjPit6o1EvDFkz/8Au9RpYjnk/tQVQKCtEelhxXxPMTzAgCQxCHt4nnMFUh1lcBda7pKgFAdARJl1QVItVBXgEx13QUoaW2gAGXVzZeKrJrQ0EpAoqa9kBrkJGQaeghKRngtKGsYqVNxl+BfurRJEk3cyvv26pMPy6eJIvkJzcvh+bLX5VBqdCWhTXbb5YCNNtjqgCD7zIwP2mmShid6UK6vXvrIDZOb83ttEYJ99ts6Vuxrhsv3+10c0vu70j4JoN9xHKREEmn9/Qf3b9na82lYPd2z2bBVLiI=");
 
 export default SushiRoll;

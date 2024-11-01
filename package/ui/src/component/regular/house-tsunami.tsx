@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-tsunami` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-tsunami?s=regular house-tsunami}
  * @preview ![house-tsunami](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/house-tsunami.svg)
  */
-const HouseTsunami: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M50 176.4C62 104.5 127.8 48 209.4 48c18.8 0 36.7 3 53.4 8.5c12.6 4.2 26.2-2.7 30.3-15.3s-2.7-26.2-15.3-30.3C256.4 3.8 233.4 0 209.4 0C95 0 0 88.4 0 200c0 93.2 54.7 174 144.8 194.8c12.7 3.4 26 5.2 39.7 5.2c.6 0 1.2 0 1.8-.1c1.8 0 3.6 .1 5.4 .1c.1 0 .3 0 .4 0c0 0 0 0 0 0c34.6 0 67.9-14.3 96-33.8c28.1 19.5 61.4 33.8 96 33.8s67.9-14.3 96-33.8c14.4 10 38 24 66.7 30.4c12.9 2.9 25.8-5.2 28.7-18.2s-5.2-25.8-18.2-28.7c-22-4.9-44.3-16.7-61.3-31.8c-9.1-8.1-22.8-8.1-31.9 0c-21.5 18.6-51.2 33.9-80 33.9s-58.5-15.3-80-33.9c-9.1-8.1-22.8-8.1-31.9 0c-21.5 18.6-51.2 33.9-80 33.9c0 0 0 0 0 0c-.1 0-.3 0-.4 0c-12.9 0-25.2-1.4-36.7-4.2c-43.4-12.7-75-52.6-75-99.8c0-57.4 46.7-104 104.4-104c15.9 0 30.9 3.5 44.3 9.8c12 5.6 26.3 .4 31.9-11.6s.4-26.3-11.6-31.9C229.4 101.1 207.5 96 184.4 96C126.3 96 75.6 128.5 50 176.4zM368 286.8L368 152l79.9-60L527.5 152l.3 124.4c9.4 6.4 20.2 11.3 30.8 13.7c6.2 1.4 12 3.7 17.2 6.8l-.3-153c0-10-4.7-19.5-12.7-25.5L467.2 46.5c-11.4-8.6-27.1-8.6-38.5 0l-96 72c-8.1 6-12.8 15.5-12.8 25.6l0 121c1.7 1 3.3 2 4.8 3.1c13.4 9.3 28.4 15.9 43.2 18.7zM111.9 430.1c-9.1-8.1-22.8-8.1-31.9 0C62.8 445 41 456.8 18.8 461.8C5.9 464.7-2.3 477.5 .6 490.5s15.7 21.1 28.7 18.2C58 502.2 81.6 488.2 96 478.2c28.1 19.5 61.4 33.8 96 33.8s67.9-14.3 96-33.8c28.1 19.5 61.4 33.8 96 33.8s67.9-14.3 96-33.8c14.4 10 38 24 66.7 30.4c12.9 2.9 25.8-5.2 28.7-18.2s-5.2-25.8-18.2-28.7c-22-4.9-44.3-16.7-61.3-31.8c-9.1-8.1-22.8-8.1-31.9 0c-21.5 18.6-51.2 33.9-80 33.9s-58.5-15.3-80-33.9c-9.1-8.1-22.8-8.1-31.9 0c-21.5 18.6-51.2 33.9-80 33.9s-58.5-15.3-80-33.9z" />
-    </Icon>
-);
+const HouseTsunami = createIcon("house-tsunami", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABtAAAALUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBCDMwsGAAE2AiQDCAQgBYMtBzQbtwVRlO5Bi+zjMN36yHDSIpyirR8KGJZhKIehKeOC53s73nPf7oeAgBXNDm7hNpNS4OGf/dx9f5hk2q/glZGWMYuUZnEN81DwJh5JKp3QOF3n/3J6Qxcd4Ce/gTYWXmMNHWtwL4EA03xNC6QszBLFbJthQ0ZBuIWEPL1EdMPmsP32G6DL61ikENR29QTW9g+Vz2osQmGgAQAg1gAAQM5wXQX3PshnxOP/y5DH2oEASA4AbwJogAa4EwDSaQjgTscb6OgIfJD///k/0BsEAMQQeawCQAcMgBvwAADoACg0Xe9L70eZFVrojfU407aNLIm7RSsDDrvtDDxi+l79PPCRuxzcMsubzRQsL76rtIsCNuwlbKy4ErrFfpP/If8jgUlUOWnT64wTnnvDTibdOvg4+Vp4jxDD0RDEWsBmB4ktjo1yxL9eNoFY2+GA+lpwLP6Qy/agq2GA5pAeR9yL+Z6wPvHF537wXkz1+kUcfOExmbcwP/lXQJMcvRqDChvq86z9HZBERAEAcs6ezeWc7blV0+9Q4Hzk9/ffkuLq6uIUCz0cAMA+U1aS1crfPrnn3Fp4oD/0rd++f0BcxsSlYu9Og582i5fa/OnbsbroKiS8oauIB9YT2KQZ/f/nv7+POBcG1Nfe6jmbg6LXB8yU/IXeDoCA8Df+0rYRq/SvxmYKwKcbX9/Gkf///b+ncpMT0sAYBYCAFv4/nPYk24H+zSFIQslMvvRNCKC4IAO9qzlbBACCKSAAKAwxRQDQcGNNANAxJYwAYICnBAKAIabU0RDdBMFexwQKc6YAjUSzgY69i8CAdPcThtiHFsFi/IkfkGmFFi1Y5h3T1JJm09calYKSb7Nt6bYePMo9tbSWQZNMNN2AfiOmG2qqivQMExR6ZIEf8hYjUjRvqbyPmz+1RmOfahrza/l8kTTe993BZvrDQ8ikEM5YRQoFoiyiOxwxfdqMvx8AAAA=");
 
 export default HouseTsunami;

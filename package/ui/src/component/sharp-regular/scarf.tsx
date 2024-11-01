@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scarf` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scarf?s=sharp-regular scarf}
  * @preview ![scarf](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/scarf.svg)
  */
-const Scarf: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M408.6 222.1l7.4-7.4 0-91.3L336.7 0 175.3 0 96 123.3l0 91.3L254.1 372.7l22.6 22.6L288 406.6 388.7 507.3l22.6-22.6L310.6 384l11.3-11.3L336 358.6 436.7 459.3l22.6-22.6L358.6 336l14.1-14.1L384 310.6 484.7 411.3l22.6-22.6L406.6 288l-11.3-11.3L374.6 256l33.9-33.9zM338.7 288L288 338.7l-144-144 0-57.3L201.5 48l109.1 0L368 137.4l0 57.3-27.3 27.3-50.7-50.7L304 157.3l0-29.3-96 0 0 29.3L306.7 256s0 0 0 0s0 0 0 0l32 32zM4.7 388.7l22.6 22.6 112-112-22.6-22.6-112 112zm48 48l22.6 22.6 112-112-22.6-22.6-112 112zm48 48l22.6 22.6 112-112-22.6-22.6-112 112z" />
-    </Icon>
-);
+const Scarf = createIcon("scarf", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABewAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCRgsGAAE2AiQDCAQgBYMtBywbQgXIHoVxMz3SRRPt48Au4uGfNd/uGygATokh+SUi/12JZCrrGFZItntWrqI0cwok0Q4xq303dep5zkO5AD2IZI7zgIxJudCanVyBnk/r1dcSqhWsYtVqBay7s+0wEU05LEkRcjza8dpCFs/jcpJbCdTGF40/tXeNRJ4CiGYAmFazYpE3v8VvEd+rEd8tQEBMA4VAihSdBJgoFegkUyCTCX6LatX8BxYEEHXwYQnIUBfncZ1+BYk8y0b0qQ+fuWHeOCs3zBtsbduqbUQ5GsTKEKXoF62jFAOiHG2jrVzYJvrHlJVLVywtR0RNNIxSiL6xPNpGRINt8XLytKlf/341q+NXTiqru1eaVf6C3Pxd9q2z+IzH+aB17t2z3RPbtirZuk3FzxX9WSXwzEjNZ03rjl+5ttZ441bZb+wq41V097PONulsyxYA1UXbSqXSwYNKDh6suseBQND0p03b2HTi3/UaJuCPZ29/Rnn1Y/yTVFBPAoJ0YHWgdQm5PP4RAIAkTuiekAskjsvhszZyXYDQAAESdTQQINVRMwEyDQwQINfFKAHqaGCFVGT1hVbWV5Bo5DBIjXYeZFp5CnITfdbraBWpLhKaRPwEY2e30KxpxbDBQ4vxxTAipHphfnhCsaz2PUGVfrDRDgcdcMx22+x2rEGOWGQdt9/sGTzLGxWGGWyownjFcXq/vmy7I47a7aADYZIJivtaXyfm7f1gFglg+CtiFIokP7p185EdAAA=");
 
 export default Scarf;

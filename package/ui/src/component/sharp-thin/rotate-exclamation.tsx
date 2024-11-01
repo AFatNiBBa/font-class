@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rotate-exclamation` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rotate-exclamation?s=sharp-thin rotate-exclamation}
  * @preview ![rotate-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/rotate-exclamation.svg)
  */
-const RotateExclamation: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48c65.3 0 123.6 30.1 161.7 77.2L456 176l-80 0-8 0 0 16 8 0 96 0 8 0 0-8 0-96 0-8-16 0 0 8 0 72.1-33.6-44.6s0 0 0 0l-.2-.2C389.2 64.5 326.4 32 256 32C155.4 32 70.3 98.3 42 189.6l15.3 4.7C83.5 109.6 162.6 48 256 48zm8 88l0-8-16 0 0 8 0 160 0 8 16 0 0-8 0-160zm8 200l-32 0 0 32 32 0 0-32zM32 424l0 8 16 0 0-8 0-74.2 35.2 46.8s0 0 0 0l.2 .2C124.4 447.5 187.2 480 257.6 480c100.6 0 185.7-66.3 214-157.6l-15.3-4.7C430.1 402.4 351 464 257.6 464c-65.3 0-123.6-30.1-161.7-77.2L57.7 336l78.3 0 8 0 0-16-8 0-96 0-8 0 0 8 0 96z" />
-    </Icon>
-);
+const RotateExclamation = createIcon("rotate-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfgAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCPwsGAAE2AiQDCAQgBYMtBzkbSAXIjtRG94RJJomH5/X++7VP8pQ7RmYqQKy+XcMViNaub1nU/nHvzv/CvwGf0UfbC5sLfM7zBAKP8mifZ3HnyzQBy9ocDuogyG2i8oQ912MN09OwNHWAPJ61RQ3pzvQerq9PGr9q7wpJlgGIZgCYuHzxXC99FV9FvFtNvGs2AmIiKAUyZOgkwBiZQCe5Erlc8FVUq+k/sCSAqIX7J5CjFhdwLSAHSZ7n/Zs39K/UNM6XVWqK1VePjHi678QoClGpBC4rQohxcTEiHh31TPHZnPeWtI6n5n+4fGlQaFFpxNKiUoziEuGqMdYi5tojI5+ufMnvahOPz3lvyVWjnuk3abv4yAPo/mCzB3/v9t6291SvH3gLN7+6yIL6Zup31NugXjP1ZuiI8P3rbwyd4+qrTP3W/BnLp6lbXl/PJR5IuQfq3ixhiO6f6+Nm6Qf4/xvDZrv7KlP/NX/G9GkGXbmLmHczCAQdhv3w5/qmY/6vryTwzTN//tp+RmX1q/gqPYh6CQRZn2ofaxKlMr4SAIAUx3RPlALJCTlc0shtAoQCAZJaxYRMR80gV+gNNboYKpLGYoqOvCHVytoJSSMHITPMWci18hTUGOPNeq1Wkfmh7EXyZ2DGNIlM3VYO7DegHFWetnXFtcSyPrqkgx7H8ljPsNc2++1zxFZb7HRE8IfMbR211zSNnOqLSgP1M0BplNLc+2gsE/VDDtu5dtk3Ga3cn+rhmD67Z4gTCA7yapKI1OLQ/iMbj2zt+4eLaOPeVwsAAA==");
 
 export default RotateExclamation;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `h2` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/h2?s=sharp-solid h2}
  * @preview ![h2](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/h2.svg)
  */
-const H2: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 96l0-32L0 64 0 96 0 256 0 416l0 32 64 0 0-32 0-128 192 0 0 128 0 32 61.7 0s0 0 0 0l2.3 0s0 0 0 0l0-2.1 0-29.9 0-160 0-160 0-32-64 0 0 32 0 128L64 224 64 96zm427.5 32l4.5 0c35.3 0 64 28.7 64 64l0 5.8c0 17.9-7.5 35.1-20.8 47.2L378.4 392.4 368 401.9l0 46.1 32 0 208 0 32 0 0-64-32 0-125.7 0 100.2-91.9c26.4-24.2 41.5-58.5 41.5-94.4l0-5.8c0-70.7-57.3-128-128-128l-4.5 0c-30.6 0-60.1 10.9-83.3 30.8l-29 24.9-24.3 20.8 41.6 48.6 24.3-20.8 29-24.9c11.6-9.9 26.4-15.4 41.7-15.4z" />
-    </Icon>
-);
+const H2 = createIcon("h2", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABbQAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyCHQsGAAE2AiQDCAQgBYMtBykbFgXIhqCylWX1zK6kGTG0mPEJLSSPyCT22DEu3iK28I97p3+c/w34QOTPYRtkgY/WPN9gnXde/rF5/sHCLKIS0cxbzlQs0ifJJDVJj1f2+NVAGX8Xd2uQnk5f48H0ovGDXu4maVMAiI4AWLh981qftkRLxFf/v0V8ZTUCYiHIAgUK9BVgjkKgr1JGqRS0xP//+//ATADRlFtKoESJy7gRUIIkleXMSXWjXbmtblS7Q1TBUXWEVYt2B8SisLT39CriYF3VL458tZe4fcSW6BqiriOqant8MjjiuXkfL6vinhkjYkQsjNH0I1+uB73W8bWfBn597Gvz9+ecF8ie8Yxsgex2n7pdNg8kkPRX/dcHlHTimU6dqqa+i555xNPGJfTX77r1yG5XWzU1pizeUJow73OXPeSKz/XvCQSCVd8ufXF/hzl/ta4T+Ob9X36qF6Tb02toLYGgGPP/GHvS7bwvoCzFNYPwRoHktARttPWEAKFCgKSpEqDQR0cBSpXRAg39TW3QVNmsEGUboau9BJK2LkJhmlug1NUb0DDHZ2lT1yjMTjQa8deXtqzHlx7KE8dNyLPystQkS+Lj8uy87Y24FoZG4qxjzjvniqOOOOlKx12ytrjqrGUasdQHZRONM0E2Sz7uPGrbKL3kspNz5XyV2fL9ZIRr+uSROE4CTHowJKWR0olJAA==");
 
 export default H2;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `object-ungroup` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-ungroup?s=thin object-ungroup}
  * @preview ![object-ungroup](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/object-ungroup.svg)
  */
-const ObjectUngroup: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 48C0 71.8 17.3 91.5 40 95.3l0 161.3C17.3 260.5 0 280.2 0 304c0 26.5 21.5 48 48 48c23.8 0 43.5-17.3 47.3-40l257.3 0c3.8 22.7 23.6 40 47.3 40c26.5 0 48-21.5 48-48c0-23.8-17.3-43.5-40-47.3l0-161.3c22.7-3.8 40-23.6 40-47.3c0-26.5-21.5-48-48-48c-23.8 0-43.5 17.3-47.3 40L95.3 40C91.5 17.3 71.8 0 48 0C21.5 0 0 21.5 0 48zm352.7 8C356 76.1 371.9 92 392 95.3l0 161.3c-20.1 3.4-36 19.2-39.3 39.3L95.3 296C92 275.9 76.1 260 56 256.7L56 95.3C76.1 92 92 76.1 95.3 56l257.3 0zM480 200l-8 0 0 16 8 0 64.7 0c3.4 20.1 19.2 36 39.3 39.3l0 161.3c-20.1 3.4-36 19.2-39.3 39.3l-257.3 0c-3.4-20.1-19.2-36-39.3-39.3l0-64.7 0-8-16 0 0 8 0 64.7c-22.7 3.8-40 23.6-40 47.3c0 26.5 21.5 48 48 48c23.8 0 43.5-17.3 47.3-40l257.3 0c3.8 22.7 23.6 40 47.3 40c26.5 0 48-21.5 48-48c0-23.8-17.3-43.5-40-47.3l0-161.3c22.7-3.8 40-23.6 40-47.3c0-26.5-21.5-48-48-48c-23.8 0-43.5 17.3-47.3 40L480 200zm112 40a32 32 0 1 1 0-64 32 32 0 1 1 0 64zM560 464a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM240 496a32 32 0 1 1 0-64 32 32 0 1 1 0 64zM368 304a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM48 336a32 32 0 1 1 0-64 32 32 0 1 1 0 64zM368 48a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM48 80a32 32 0 1 1 0-64 32 32 0 1 1 0 64z" />
-    </Icon>
-);
+const ObjectUngroup = createIcon("object-ungroup", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAAB7gAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXSEfgsGAAE2AiQDCAQgBYMtBzUbgwbIjtRG+UVWEvyD/n2dm+T/eZs3RlZSBauDXNLduhsX3bpjKVTt+8gx56fS4m8p1nSUqvaoAsn5qbypgn6Bg10Yb22OW94hkR8KEfq+V16RhkUctq7A6TfzSYA5Z+qAI2mzPlHETjBYS4Irk+9k4KRxY3nxVm+luv9AdYwGBKBBAAQEWMACpQiAPlgElOIIgMMheKv//+N/YAABgJIAaDiIA1JBZaCWoFeBwTvXO3NoDnxxIs1NPHd6uzVPOtUUXco9ybm8gnOg4ExJmoDxVZxt+aebSUCdR+7PPVmYCvSXFHPO9TAejDqtY8kEH3sUx28zJHmhyZF+wv586bS2Jaz4QN4ptsr8+FuHFGhVGtWZ7aB8EuWLPtjoRuaNLw3rFtZxNPsWPDEXME9uZdv6lx2ya2qDIdTWZHd4WW+zDYYNufWEhkwgZqes+ub+tsqQdZuPRDyQSTTQsg8kQvVk4Di4prZn9q1vIweuap6+F/amXxnUp+KNptK/ou+W554y4X0AECD48CLv/qyMPl+j2ADw/tFf+XX+vzBbzQ0gwgAgsG3+t2G62QpAPQQHjTbSqCGUmCgPD+OmchpBWHiIKEMSj7KUkIlyeFqjEpTTleFcPw6LXANELjOAMqSyBmXpxiaUI5eHqAR9qAwkyZXdJ6xVzvpLjT9MAoZOCx3bdQi9QjWjsJc+4+jsHdzyFhtDRUvsZSGrWMl6FjCfJawX0LWMDW9gBcNa+EN/G+hIOzoQ6EUYzq/5E0VwLetYYrPHJ6E3Yb65BRvb9VtCZWCqnUgwGJBJ343GthtWbiQ=");
 
 export default ObjectUngroup;

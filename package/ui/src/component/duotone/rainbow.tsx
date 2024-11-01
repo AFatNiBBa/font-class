@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rainbow` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rainbow?s=duotone rainbow}
  * @preview ![rainbow](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/rainbow.svg)
  */
-const Rainbow: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 352l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-88.4 71.6-160 160-160s160 71.6 160 160l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-123.7-100.3-224-224-224S96 228.3 96 352z" />
-        <path d="M64 352C64 210.6 178.6 96 320 96s256 114.6 256 256l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96C640 175.3 496.7 32 320 32S0 175.3 0 352l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96zm192 0c0-35.3 28.7-64 64-64s64 28.7 64 64l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-70.7-57.3-128-128-128s-128 57.3-128 128l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96z" />
-    </Icon>
-);
+const Rainbow = createIcon("rainbow", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABoQAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiCdQsIAAE2AiQDCgQgBYMtB0obkQXIhof/t4u671d1D6AaW7sRoYiuhdM+G0pxz/81n59VAX4+17tlWDfIKPN5Ag7z+eat7eVpM8WZW8OHt4cwBPuMGjJXSY9Xjh6flpCn/tmlKqS7Uokb+H8A41edXErSKAMQLQEwc/3qpd6pRS1FWX+VKC1BQMwChUCGDF0FmCIT6CpXIJcLaqlepxb1ekEAUcXXl4EqKrgVzwNykCSR52MGDWtSaZava1JpvP6n2RHvL4/4av0PS7+Y+e5acWG725pc0+GOiPhxXYa/X5NuPdvknsERz/R/bOBTnTA6Hp721rwPprxRYGC9MBz70/S31/8w9c21NzyjXl70Ge1zwScjXix6Pd3y6d97lvtK07eb35FON3HRfPNddFOnjubv0PzKK5u3uTvYMGj+wAULBs4ftMEGJIighE7gdP/Zdxq3otWDD7Zq1dgYpzJm9ooVs8dUYNm+fUdNO0ZidlnO3sgoy/Qzglz2m/eGdKvVug1575vmQCBoN+KXU9tbTPm/YZMEfn7tz39h53otXZieRkMJBNmQ+hBb0oUAfgDxFOfo5XzVDoHMNkl91KZuFyA0RoCkqrEAmS5aCpBrbLAAFd2NFaCqsdUykTcS2tq6g6SpkyAzznkg19YroGKKj2NVbSOLUVmEyX4RU8/T0NxhxchhI4pJxTBN5GEnKe2Ti8vmAedQ2cC00D7HHXPGXnscdEZxpyxNnnXUPI+Y64cKIw0zQmGSYjp3r16nYqecdtBWzncyWfG8c4Bz/NoD02wSYNTbTcmIFFmLzyi46/i5Qxe7oZVWrmoAAA==");
 
 export default Rainbow;

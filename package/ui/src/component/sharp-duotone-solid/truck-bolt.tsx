@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-bolt` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-bolt?s=sharp-duotone-solid truck-bolt}
  * @preview ![truck-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/truck-bolt.svg)
  */
-const TruckBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 192L224 64l-24 96 88 0L160 288l24-96-88 0zM256 432A80 80 0 1 1 96 432a80 80 0 1 1 160 0zm288 0a80 80 0 1 1 -160 0 80 80 0 1 1 160 0z" />
-        <path d="M0 0L416 0l0 96 64 0 13.3 0 9.4 9.4 96 96 9.4 9.4 0 13.3 0 32 0 32 0 64 32 0 0 64-32 0-32 0-1.1 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96l-66.3 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96L0 416 0 0zM416 256l128 0 0-18.7L466.7 160 416 160l0 96zM96 192l88 0-24 96L288 160l-88 0 24-96L96 192z" />
-    </Icon>
-);
+const TruckBolt = createIcon("truck-bolt", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABjwAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCOgsIAAE2AiQDCgQgBYMtB1AbXAXIjtRG+QMZxsP3a5+d+17Pr8mHIHaISBHgApPcGruEjoWJm1oZkKs7341x5v+afO/o6Brw8xEcUrQtrLEin09ggEXzpr0JzKtMcYvbbo6IhzYIjRUUaWx+Rhvpw/QvXg//Axj3DfAMSZcMILoDYPmOLZv93hmdKf6tvib+tQkBsQKUAhkZgwVYJAsMVihRKASdqarojKoqCSBqwhEzqKEdN/EKoABJlotieqMVuxptrWJ7Pr2eW82WaDT6xLZgpAA1zqrXP5vQMefrcV8OrkeTmg816o2I7cERh7GtsYMjzq07dmwV3Clh9MG2T/p+wY9DP1/40/wfhrR6U0d0dO94OPzf4//6/Yt4hYOWtT5w4IAXtZRKy7Rz+Km79zYC9+6eWqEJWe6Lz6sn6LReNm0y08GlS3fGOf0OePxxO1WWA9XjmBvoOyVPcz7XPHHt2ommaCt7hwOBoP/9tz/QbdH/7Y0E/vvRPbK/6pv0ROpAuwSCPKmaZG96AggzAG+K60Zs3NVBgWy9LD7VpvcECHUESGrqAmSDdBegUDdRgDZDzRagpm6LLIouQm/7OpA0XQLZHI+CQm9fgTaL/OGp6R0ZDEUgEn8C09YM4dWTyulTppULytWSRoIs3o4uLA8bxl2XLePxUsddcN5Vxxx1ytUBfdlm/zXnrNlCV/uh0nRTTFNaoLxcfaptp57Lrji1rFwfZ6Hyeds417e7j8fmJGadYUGWiRS554cWN/nwhbNXJwN0a++x8uoCAAAA");
 
 export default TruckBolt;

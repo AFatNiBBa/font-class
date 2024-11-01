@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-medical` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-medical?s=duotone book-medical}
  * @preview ![book-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/book-medical.svg)
  */
-const BookMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M64 416c0-17.7 14.3-32 32-32l160 0 96 0 64 0 0 64-64 0-96 0L96 448c-17.7 0-32-14.3-32-32z" />
-        <path d="M96 0C43 0 0 43 0 96L0 416c0 53 43 96 96 96l288 0 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0-96 0L96 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l160 0 96 0 64 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L384 0 96 0zM208 112c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" />
-    </Icon>
-);
+const BookMedical = createIcon("book-medical", true, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABhgAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCFwsIAAE2AiQDCgQgBYMtB1QbPQXIjsQ4JvGLKEzi4WNOfD9JOwDKTQGzAiaHQIrrhkb0ZneT082Q9/mpU89zHopFH0SylwVkge15HoGeb6yXtkAvQjXFqtPRZz0GfcaQIqFqkbLj0uDxeIMsHqX7FUiuJL9xyv4HMP5qZj+JaimAqAuA4TOmTFYqRzmJ35X3xG+TEBAjQC6QIkVLAQZJBVrK5MhkgnJSqVCOSiUngCiyr0xBEQVswDZABhKJyLIu7erVKNTKptcoVJ/zvl3E45ZJ3Gj/pHetGseaXIo9jS9Wr17zaOOLsafJpRo1opBqcOqlJjXiQiMx0fMNqwd6sXEElioxsaRFqCGW3Nn2ad2n//xe/tuCr7uf8rTqMFWfPt2d57UPH649rGF8cfs2XsxfbahdzpVrd9NtKjnAPDc6ldqHKRrDtM+BQPD16/0vC+oM+l+1RgL+fOhtKyqlKCVPUVUCgrRTpZO5UYIoCQBAEtu1jRKGCaSmS65ttaaLAoTqCJAoqi5AqoW6AmSq6yhAQWu9BSiqbopUZNWEhubtIFHTJpDqYwfINPQOFAzyzSlqGCnpCMoQ/3yxYxAavSvv3qVbPiC/TDjJI6wvB+a31XbbtdFerlpug/W2WmapVbYCstlkf5t1xmTwaD+U666LbnID5OX8yE4HZ7MtVp3T9TUD5evtdrbn/e1lHwmgx+PC1Ikk0oaUFDt/g2Jn/rYbH9DvKgA=");
 
 export default BookMedical;

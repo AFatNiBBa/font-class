@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `deer` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/deer?s=duotone deer}
  * @preview ![deer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/deer.svg)
  */
-const Deer: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M224 16l0 24c0 30.9 25.1 56 56 56l8 0 8 0 24 0 32 0c8.8 0 16-7.2 16-16c0-5.6-2.9-10.6-7.3-13.5c-2.5-1.6-5.5-2.5-8.7-2.5l-5.4 0c3.5-7.3 5.4-15.4 5.4-24l0-24c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 24c0 13.3-10.7 24-24 24l-8 0-8 0c-13.3 0-24-10.7-24-24l0-24c0-8.8-7.2-16-16-16s-16 7.2-16 16zM393.4 65.4c18 3.2 34.9 11.6 48.3 24.4C459.7 80.4 472 61.7 472 40l0-24c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 24c0 13.3-10.7 24-24 24l-16 0c-2.3 0-4.6 .5-6.6 1.4z" />
-        <path d="M320 96l32 0c8.8 0 16-7.2 16-16c0-5.6-2.9-10.6-7.3-13.5c5.3-1.7 10.9-2.5 16.6-2.5c24.8 0 48.6 9.9 66.2 27.4l55.3 55.3c8.5 8.5 13.3 20 13.3 32c0 25-20.3 45.3-45.3 45.3L416 224l-5.3 0L384 304l0 64 0 112c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-112-36.3 0c-28.8 0-55.3-9.8-76.3-26.4c-2.1 16.9-9.8 32.6-21.9 44.8L142.9 397c-4.6 4.6-6.2 11.5-4 17.7l19.3 54.7c7.3 20.8-8.1 42.6-30.2 42.6l-33.9 0c-13.6 0-25.7-8.6-30.2-21.4l-15.5-44c-11.4-32.4-7.4-67.8 10-96.3C65 339.4 65 324.9 56 315.9c-3-3-5.7-6.1-8.1-9.5c-1.3 12.9-12.7 22.5-25.7 21.5C8.9 326.9-.9 315.4 .1 302.2L2.4 272c4.2-54.2 49.3-96 103.7-96l7.9 0 14.1 0 64 0c.6 0 1.2 0 1.7 0c.8 0 1.7 0 2.5 0l106.1 0 9.6-32-38 0c-9.9 0-18-8-18-18c0-8.2 5.6-15.4 13.6-17.4L320 96zm96 48a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const Deer = createIcon("deer", true, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABrQAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDGwsIAAE2AiQDCgQgBYMtB0QbsQXIhuB5nda8LznrSGHQIh8id8xcNIH2gCvy/1xTL6zpAD+IXK5KiyMpIp/v+fCeTzuB0iY60xnYzra9GWK+DhcaR8jjh+wiNdLt6Stc6/8PYPxo0EUkzRmA6ADApnvvvqP3JmMyxVeNl4iv7ICA2AxUAhkyjAiwgUxgRK5CLhdMpkaDyWg0KgKIJj6RMTaR9z+L1wA5SJKU54c3L+gua635XmWtOLosylv7z++7tXx54a5xs/N6biqKYo8Qotkqrui7JSKKeGW92xb0xE29K+P2KWTOLY8MjcUDy+/su6XvtuKRGI57Fz+5dlleGeeX52fachBTxC1Dt/Zvveei56aem3ur5P2F23tvnls+lnBLUcStEbHgEbfNaTseGeoM7vnwwkfHR6+OK3pmPdHxxM8zvzrqKxsfXFXVZFvz4afVD3n9aF91d3+VLFhdG9rZJk7RdtllbZX8hFPM8Vx9YecTjl441yZXXWmWXU7/xx933//tGmus2bd736htX//iuvpOQYhwnHvN81tHy4cjBy9vm5xswx4Tzw6oqBm//n9KfZMHE1bVarZrHTCdMqB313p9196OymMrXtr83U53pw55BQSCdONupx3cvsHf9TKB6Td+/VPxO2q8l6QnUJdAkC1pLHFAAokAAKQ4y6wEkwKZEyRhoMUt4tJAgVDOJgUOZIZ1NJArLIaaMWvyG0fvLhN5s9DjQAxJi1Mhs5azIdfjRajZwKfeJj2Rga0IdOJfY9qtuviWatXKZSuq9arZnEqCRN72rl9tti44S9YsxDMd5WQnOcORjnCsMzrcaXYMnOlEWy2xW/qiykrLrFBZT3W4+FC7V8d7mtMdO60c72d91fXOBc5abr4QDycBVr3w0RmRIms54sgjT1sK/fq2lvKVAwA=");
 
 export default Deer;

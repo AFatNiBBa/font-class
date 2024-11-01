@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-1-9` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-1-9?s=regular arrow-up-1-9}
  * @preview ![arrow-up-1-9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/arrow-up-1-9.svg)
  */
-const ArrowUp_1_9: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M456 56l0 120 24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-48 0-48 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l24 0 0-86.7-16.4 5.5C379 99 365.4 92.2 361.2 79.6S363.8 53.4 376.4 49.2l48-16c7.3-2.4 15.4-1.2 21.6 3.3s10 11.8 10 19.5zM143 39c9.4-9.4 24.6-9.4 33.9 0l96 96c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-55-55L184 456c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-342.1L81 169c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l96-96zM424 304a40 40 0 1 0 0 80 40 40 0 1 0 0-80zM406.1 430.2c-40-8.3-70.1-43.7-70.1-86.2c0-48.6 39.4-88 88-88s88 39.4 88 88c0 21.1-7.3 41.5-20.6 57.8l-56.8 69.4c-8.4 10.3-23.5 11.8-33.8 3.4s-11.8-23.5-3.4-33.8l8.7-10.6z" />
-    </Icon>
-);
+const ArrowUp_1_9 = createIcon("arrow-up-1-9", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABfwAAAJXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCCgsGAAE2AiQDCAQgBYMtBzMbDQXIHoNte+k5Hjllt6KY2JNT8RDcj3ozP7aamrYpqYETI3kXtNIKqPBETyTt/v/93L3bnzgqb4i4RzFL4gmSeBVLNA4J6hIg4H/+r/n8nh8d4Dc6lGgsLS6QiHg+gQHOivL57IC2xtlEcXvTpEVZ9nRMpjRJ/tjxdoYyXhuEinyn3QHP9UPjP2U9pKoAgOgEALC2HR0K51/4Fd5+SPwUDATEGsAIRIECAxAsogsMoIwApVLwCyXjfyABAUQNfOEEJWqcAKcAlCCVJUVUBEo8hoCKy4/FzYdaYk15UofLXVeZ0echohyuqkzr2+OE/Bjsf+jG4pTSql4U0nBSZ12FjhGxqjetGp+7qjSpPKW7oTqjMq0Xs26EuK2xYLxjf2i4pd5hEIOjeuOqilrbUts/4ru8O7jsbwCHEkT2yUdaWIT9lSDen5hzXwcJ7L2M8x2kBIL0HXh6inqeOEs9Uj4OBFPYgM08SuyMHyMjexlttXTrtx7AKOpmwMMDZ6XEAfY+IFF99w5AIPh3YdCcLnL5Y/NoAH/Ofv9pTvHPCfkNNEoQFNMSEynpQcwjQQBgZNTRMr4JIu2g8LW2ehEgNCNAqjULUOgnBUGp2RQElSG2ENSaraOLkgOhV2oHqdUpKCxoBaVe+6Cy6NKo9Ub3NspXqL9evJ+GfJcRSzML4kSWEaEdiChTZ7ItGNSliiFshTzlytTIlaNQjUKqhNq1SvlZsK8fIiyZsUA4Icfp4/o4uapUK1SujBZxRu4rBursdkOQaRh1hpieYEfyM8+qyutNaytMLU0dAQAAAA==");
 
 export default ArrowUp_1_9;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-dollar` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-dollar?s=sharp-duotone-solid circle-dollar}
  * @preview ![circle-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/circle-dollar.svg)
  */
-const CircleDollar: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm161.9 95.7c4.8-15.3 9.6-30.5 14.4-45.8c2.4 .8 4.9 1.5 7.3 2.3c8.1 2.5 16.2 5.1 24.3 7.7c13.4 4.3 29.2 9.4 38.3 10.8c18.9 2.8 34 1.1 43.9-2.9c13.4-5.4 19.6-21.2 6.6-30.1c-11.2-7.7-25.1-11.4-38.4-15c-2.5-.7-5-1.4-7.5-2.1c-16.8-4.7-37.7-10.7-53.5-20.8c-21.7-13.8-32.7-37-28-62.6c4.4-23.8 22.1-39.8 42-48.3c6.5-2.8 13.4-4.9 20.7-6.3c0-14.2 0-28.4 0-42.5l48 0c0 13.9 0 27.7 0 41.6c20.3 2.9 40.2 7.8 60.1 12.8l-11.7 46.6c-18.1-4.5-36.1-9-54.6-11.7c-18.2-2.7-33.5-.5-43.7 3.8c-12.2 5.2-20 18-7 26.3c9.4 6 23.9 10.2 43.7 15.9l.9 .2c17.3 4.9 39.5 11.2 56.1 22.6c18.1 12.4 28.1 31.2 28.1 52.2c0 4.1-.4 8.2-1.1 12.4c-4.6 24.9-21.9 41.2-42.7 49.6c-8.7 3.5-18.1 5.7-28 6.9l0 40.9-48 0 0-43.2c-12.9-2.9-29.7-8.2-40.7-11.8c-7.3-2.4-14.6-4.6-21.9-6.9c-2.5-.8-5-1.6-7.5-2.3z" />
-        <path d="M280 96v41.6c20.3 2.9 40.2 7.8 60.1 12.8l-11.7 46.6c-18.1-4.5-36.1-9-54.6-11.7c-18.2-2.7-33.5-.5-43.7 3.8c-12.2 5.2-20 18-7 26.3c9.4 6 23.9 10.2 43.7 15.9l.9 .2c17.3 4.9 39.5 11.2 56.1 22.6c21.6 14.8 31.7 38.8 26.9 64.6c-4.6 24.9-21.9 41.2-42.7 49.6c-8.7 3.5-18.1 5.7-28 6.9V416H232V372.8c-12.9-2.9-29.7-8.2-40.7-11.8c-9.8-3.2-19.6-6.2-29.4-9.3l14.4-45.8c10.5 3.3 21.1 6.6 31.6 10c13.5 4.3 29.3 9.4 38.3 10.8c18.9 2.8 34 1.1 43.9-2.9c13.4-5.4 19.6-21.2 6.6-30.1c-13.4-9.1-30.5-12.7-45.9-17.1c-16.8-4.7-37.7-10.7-53.5-20.8c-21.7-13.8-32.7-37-28-62.6c4.4-23.8 22.1-39.8 42-48.3c6.5-2.8 13.4-4.9 20.7-6.3V96h48z" />
-    </Icon>
-);
+const CircleDollar = createIcon("circle-dollar", true, "data:font/woff2;base64,d09GMgABAAAAAAMYAAoAAAAABxwAAALLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDSwsIAAE2AiQDCgQgBYMtB1Yb8wXIjtEnD58xStWl5ihe8DzZVe9XVc/udO95hDqbmeQQjERFd5Hgef5+nvt+iy0TeMCVZEkbfqAF2CxaA8ct/AbOyaumAinhKeWrMIrfgJmYdKABnqLsdJDzhG96A/vitivinmhbSMgLGLmjJ1ig1qtrwFLnfwDlK1FmgcKvAQCQnAAAQN1q+5aceslLybX/h0Gu0QIQAKkHgEUADWgggQBQA40ACQwWMBgEXimt4ZVobUEAQHw43tQA+AAHuAjcBgAMAApBGdM03vScbKaT57iDEXZHEzJd9hTaE1gVWBVcXTAouwueSGyqsCqAuCK9yTUhU0rL6qB2obc7uDu8NhzqMVjpZHpr4dq7Ip7crytyuuXdm7W+Wf/a+Vnv0urhTltcq3PqUB40wuDCpUFPXZ8u09X0dHeN798CmL57GoPLHNwfnRZQDX4834GcB77nvTboRrhbTHj17sMDsGd18LdfuPDsRw/gyDGjy6z4uddJylCcjtHRirp1nmMDZ8+KNH5z5r+KFJkTq28LRzf7Gq/4428vThlO0dCD6Pp0/dLpQ1E/DeuttaZ57+opCE+pnDnVoUOAdN6kVB7JacXVRngo6Oa5rnfv4f5K1JyHpZ05MhyVPv/qgx1i/b5lC7YMAAggsCP7sUbvHDV+ZXoKgDebn19If0f/TynUASATBYCALvG/BD0UAAoEAAAAUDKJfAp2AAJoJqHwnmWxBgFAcKGUFT5cWRMnp2xwKS47pKj43IdLezRi/AgBepayIouxsqYSk2VDgEOyQw0uln0ERIOzA4zO02ShRnWooZstlipjq9nBltwHoZa5Wt3OTiUmqSNF6VUGMZpRTGAgAxjKhBo/jpa1iYyk0RjXkC9iKUspymCphl3dvR3sxEuMY7xq9QfW71Mdu3++CJPGpxel/hvUL/cEQKNBlOjgbz/RkngdK4kaE8I9ATQAAAAA");
 
 export default CircleDollar;

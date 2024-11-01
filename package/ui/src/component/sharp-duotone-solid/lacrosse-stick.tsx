@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lacrosse-stick` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lacrosse-stick?s=sharp-duotone-solid lacrosse-stick}
  * @preview ![lacrosse-stick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/lacrosse-stick.svg)
  */
-const LacrosseStick: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M2.7 464L48 509.3l22.6-22.6 120-120c-18.7-11-34.3-26.6-45.3-45.3l-120 120L2.7 464z" />
-        <path d="M264.8 117.7l-10 35.1L253 159l-4 5-43.2 54c-8.9 11.1-13.8 25-13.8 39.2c0 34.7 28.1 62.8 62.8 62.8c14.3 0 28.1-4.9 39.2-13.8L348 263l5-4 6.2-1.8 35.1-10c31.8-9.1 53.7-38.1 53.7-71.2c0 0 0 0 0 0l0-.3c0-19.9-13.6-48.1-38.6-73.1s-53.2-38.6-73.1-38.6l-.3 0s0 0 0 0c-33.1 0-62.1 21.9-71.2 53.7zM512 176.1c0 61.6-40.9 115.7-100.1 132.7L383 317l-49 39.2c-22.5 18-50.4 27.8-79.2 27.8c-70 0-126.8-56.8-126.8-126.8c0-28.8 9.8-56.7 27.8-79.2L195 129l8.3-28.9C220.2 40.9 274.4 0 336 0c0 0 0 0 0 0l.3 0c43.8 0 87.4 26.4 118.4 57.3s57.3 74.5 57.3 118.4c0 .1 0 .3 0 .4z" />
-    </Icon>
-);
+const LacrosseStick = createIcon("lacrosse-stick", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABiAAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCGwsIAAE2AiQDCgQgBYMtB1gbRQXIjpSuzlQ8PNmkvT+zyYnYnrugIpVK5ec1eIVX0EFq+H/+r/n8nh8d4PdzztICuX4evejnE9jzKDpbFM4GlMAznYFtt+FmOQjDYBEZfsSQdBiKRyjifL5ehfRIOom76H8A43ftXE9SLwOIpgCYunr5Qp/9GD+mOFl7izhpAQJiGigFMjI6CjBBFuioUKJQCH5MtfwYtSUBRBXdOoMqKjiCiwEFSJIoiiH9GzWoNCpWUbD+7o5dOrYMs3pKPOyRvq/0vK334mgD9aPjpQ6PxTUR8eSkT0ZFXANb3Nrj+bYrHx8Q8fqIHrEg3qv/eXljt2sGT48O8dT4D0dfM4p6u+cLfV9p90inK1pNnDSxf6yOV/utiD7dXm366p9dT+46qe7ce/1HtDLCC862rh9Nn27daJ3plurrxvO/tAOrLwC0mzRwz79jGz/Hc6e+UNV/wJLhwysD3tjict+OG/cj0PSHvy+66P//AoNPnjy500UX+axhuMMqIBB89MevL29uMuGfug0S+PmDv3+zP6Rck6RXUVcCQR5QG2BDIpMIAECKC3VLXC0LZOsl6lEbelCAUB8Bkqr6AmQdNBWgUF9/ASo6GylAVX3LZVHUE1ramEDS0FGQjXIFKLT0JqiY4AurqmVksSOEhvj1xc7i0MxJ5dBBQ8pxZTMVSUnC3Oj4clrtc6Fu6Yu1djnskBN22mGvEww5ZqF7gYNm9eCZvqg01CBDlMYpl4tzdhWzjjlub51eH2e8cr/Zx4X97n1xOgkw7MDCmUiRWx94jNrOgcefljhQhDu1LdH3FQ==");
 
 export default LacrosseStick;

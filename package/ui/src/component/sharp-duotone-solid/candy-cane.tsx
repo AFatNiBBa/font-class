@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `candy-cane` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candy-cane?s=sharp-duotone-solid candy-cane}
  * @preview ![candy-cane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/candy-cane.svg)
  */
-const CandyCane: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M14.5 403.5L82.4 512l97.3-60.8C139.4 426 99.2 400.9 58.9 375.7L14.5 403.5zm74.6-46.6c37.1 23.2 74.2 46.4 111.4 69.6c3.1 2 6.3 3.9 9.4 5.9c24.3-15.2 48.7-30.4 73-45.6L162.1 311.2c-24.3 15.2-48.7 30.4-73 45.6zm103.2-64.5c37.4 23.4 74.8 46.7 112.2 70.1c2.9 1.8 5.7 3.6 8.6 5.4c25.7-16 51.3-32.1 77-48.1L271.5 245.6c-.7-.5-1.5-.9-2.2-1.4c-25.7 16-51.3 32.1-77 48.1zm8.1-219.1l67.8 108.5 61.4-38.4c-.3-.8-.5-1.6-.8-2.4c-13.3-40-26.7-80-40-120l-.8-2.3c-2.4 1.3-4.8 2.7-7.1 4.2L200.4 73.3zm99.1 152.1c39 24.4 78 48.7 117 73.1c1.3 .8 2.5 1.6 3.8 2.4c6-3.8 12.1-7.5 18.1-11.3c26.1-16.3 46.4-39.7 59-66.8L378.9 183.2l-7.8-2.6c-.2 .1-.4 .3-.6 .4c-23.7 14.8-47.3 29.6-71 44.4zm18.1-219c.5 1.5 1 3.1 1.5 4.6l39.1 117.2c.9-.1 1.8-.2 2.7-.2c.3 0 .3 0 .4 0c3.8-3.8 7.5-7.5 11.3-11.3c26.7-26.7 53.3-53.3 80-80c1.1-1.1 2.1-2.1 3.2-3.2C429.9 12.6 396.9 0 361 0c-14.7 0-29.3 2.2-43.3 6.3zM384 150.6c0 .1 0 .3 0 .5c1.7 .6 3.4 1.2 5.1 1.7c39.6 13.2 79.2 26.4 118.8 39.6c2.7-11.6 4.1-23.6 4.1-35.8l0-5.6c0-35.9-12.6-69-33.5-94.9l-3.2 3.2-80 80c-3.8 3.8-7.5 7.5-11.3 11.3z" />
-        <path d="M329.6 143.5l-.8-2.4-40-120-.8-2.3c9.4-5.2 19.3-9.4 29.6-12.4l1.5 4.6 39.1 117.2c-3.4 .4-6.6 1.5-9.5 3.3l-19.1 12zm54.4 7.2c-.2-12.4-10.2-22.4-22.6-22.6c0 0 0 0 0 0l11.3-11.3 80-80 3.2-3.2c8.3 6.7 15.9 14.3 22.6 22.6l-3.2 3.2-80 80L384 150.6s0 0 0 0zm-12.9 29.9c8-5.3 12.9-14.3 12.9-23.9l0-5.5 5.1 1.7 118.8 39.6c-2.5 10.5-6 20.6-10.5 30.2L378.9 183.2l-7.8-2.6zM269.3 244.2l30.2-18.9 117 73.1 3.8 2.4-30.2 18.9L271.5 245.6l-2.2-1.4zm-107.2 67l30.2-18.9 112.2 70.1 8.6 5.4-30.2 18.9L162.1 311.2zM58.9 375.7l30.2-18.9 111.4 69.6 9.4 5.9-30.2 18.9L58.9 375.7z" />
-    </Icon>
-);
+const CandyCane = createIcon("candy-cane", true, "data:font/woff2;base64,d09GMgABAAAAAAOEAAoAAAAAB5AAAAM6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTCEYAsIAAE2AiQDCgQgBYMtB1AbggbIhoeH77Q/dyZNpaQLpdBmBaV9Nj5FfdpD19RFgbR/CM6HFHW2LPxoelw2T+ABp7Noq+IBDXUitsF5Aw+zMpSvIBNvpicpI7k8eRnnGqj42iAn0YnKlAGJBt7O/P6Nqz3+eXyexMv/3028bBUCYgEoCKRIMVSAWVKR52cUkEH84PPk//+ZLP78CgQQWfBBU5BFPf4jOgEZkMgqz2QaB9TVVoNJjYOahw0bUl1Wm+lT9qjatSXf0hctcemAfJTiolzH4iu6jo8B0U9QF+dzsSnA8YwaeGlENNu74puKPcVSdkRPsEImGlHqK/XHHSNt1LT+V1ZfnNfd2m3qi5s6pPofmB5xc2cF75Kq41suylXaB4jWxhlxfFwxGPtboszZVLq9N0LnHJ8/M3/pABR4aOxOHbtxTaI7juBipTizuuhoTNxZPN7HHlxyRkcJgeD5i/M3d9rgyjR4w5iz+C/KodO23dFwx7etL+/ysuVjkyTpPlR475eMroPMm1Dsy83nQWvXavPAnROi2e8ErzxfnzXfId3m7HNwt/13nvOlss9By7R508HLte6x4M0339xvsYO96bCVu8zLWfZd5GRiha8X7Iln2n6WN9/48s2Hlo854ICGhtaGwcXBg/thisWqwZ05nZ2s2rpqscaGYnFm8eDlBH/+ufXe5R8u3Avz3xUhriYLh/Gt68bveOmTT/DEm4QFExaMP7xnT28FxcFVlY0fJoHoOkgSUNp0+mWffhs4druWxfPPAwoNf/15/23jmrKyvx/1Pu1trU1AIFj8yTUnbVs/69eK6gR8+eD3X4U/pPr/H08kd6BCAoJ01P+jbJVQT0IAAJI4RFvCTPUCqauVw59a4xIBQhUCJLKqBEgN0SBARpWiAGWGmyxAVpWNUpGpFHK2TqFEjf2h1BRHQxk5d0FlZnmOyMpF+mS4rmvXf2lgSV65WKowfsy4woxCY0Hsvtgd6uDMQu9AzyG8oRdOtYt97eMgO9vJ7g7K6Q+wmj7Y3pa0WS/+bsF4Y4xTMENhdPky6MPEAQ60e713/DgzFebP9DikvX0vDCcsmxOA1BaKJNKmHT8fYLQf2Xn0MzaQ27HofZsA");
 
 export default CandyCane;

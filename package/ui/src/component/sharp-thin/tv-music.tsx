@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tv-music` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tv-music?s=sharp-thin tv-music}
  * @preview ![tv-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/tv-music.svg)
  */
-const TvMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 16l0 416 608 0 0-416L16 16zM0 0L16 0 624 0l16 0 0 16 0 416 0 16-16 0L16 448 0 448l0-16L0 16 0 0zM104 496l432 0 8 0 0 16-8 0-432 0-8 0 0-16 8 0zM560 80L80 80l0 288 480 0 0-288zM80 64l480 0 16 0 0 16 0 288 0 16-16 0L80 384l-16 0 0-16L64 80l0-16 16 0zm336 36.5l0 11.5 0 152c0 22.1-21.5 40-48 40s-48-17.9-48-40s21.5-40 48-40c12.3 0 23.5 3.9 32 10.2l0-110.6-112 42L288 296c0 22.1-21.5 40-48 40s-48-17.9-48-40s21.5-40 48-40c12.3 0 23.5 3.9 32 10.2L272 160l0-5.5 5.2-1.9 128-48 10.8-4.1zM368 240c-20.5 0-32 13.4-32 24s11.5 24 32 24s32-13.4 32-24s-11.5-24-32-24zM240 272c-20.5 0-32 13.4-32 24s11.5 24 32 24s32-13.4 32-24s-11.5-24-32-24z" />
-    </Icon>
-);
+const TvMusic = createIcon("tv-music", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABmgAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDAgsGAAE2AiQDCAQgBYMtBy8bgQXIhof/t+v7fW5Vv4Zq5BqBX1IkICOjyRwk371+KkTq+b/c83t+dHr2+QgObSxbq0DaPMbWBOJojE0JRYVZgIlh1uY4BQdFvU1F5MUvomH7hrET5PGPc1VIz6aDeLi8afxolDtIsgxAFADYeMIxh9ndi17Egf7HxAGHICA2glIgQ4axAqyRCYyVK5HLBb3o98N/YEkAMYAvkUCOBl7BW4AcJLU8rw9q1ocsHDKkWWnnxzcrjVNSlrqRRWd4s9EVKUSjE5FFnNRutUWjFdG8oNVupWhHdrYkL0CtH4jmWYJ4ZugTjfuGPzX6+RFPN+8fFnFsYNeIEXFCjDj2iaERT7hl2JPDnh7xdNxaSg2PvSe9Ubzx88SD5x/UffcVLj/TK87sF8UthVcUiitb0AW/vvfeZ4VaNfa83GNgqaf8vtuF3wqPKhTGEVOaDH2G/V8PHfr1fnQ1ZN/lrpjpts2OF6vY6Ob5Xp9/X+8ubqjVbrirlynX4uYJ8nEgENz5yZcfntFd83etmcAPX/z6I+7X351uSW+gJoEgm9Of49R0CwRsAO4U15ukfFAgeUYNn7XlKQFCAwGSAQ0BMmMUAuQaZgtQMd5SAQY0HCMTeV0Y6rQJkparQGaZG0FuqA9BxRp7XAOGRmaplJ1R/4nx21Zoa6dy4bwF5aryGDdo4yNS/erytjjjepE3E3Od7wqXu9Z5znWRaxfkaod5r3OZbRq81ReVFppngdIq5ePUcvrxznO1a1zkCpfndlYr33fOcL1eeiaUhLiLDEsSkWrXXj/3EwY=");
 
 export default TvMusic;

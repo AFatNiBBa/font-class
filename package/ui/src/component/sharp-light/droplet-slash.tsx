@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `droplet-slash` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/droplet-slash?s=sharp-light droplet-slash}
  * @preview ![droplet-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/droplet-slash.svg)
  */
-const DropletSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M436.6 429.6C407.4 460.6 366 480 320 480c-88.4 0-160-71.6-160-160c0-18.5 8.9-46 26.5-80.1c.9-1.8 1.9-3.7 2.9-5.5l-25.5-20.1C142.6 253.2 128 290.7 128 320c0 106 86 192 192 192c56.2 0 106.7-24.1 141.8-62.5l-25.2-19.9zM298.9 24.4C282.6 43.8 258.7 73 234 106.5l25.1 19.8c20.3-27.6 40.1-52.3 55.5-70.9c1.9-2.2 3.6-4.4 5.4-6.4c1.7 2.1 3.5 4.2 5.4 6.4c17.7 21.3 41.2 50.8 64.7 83.4c23.5 32.7 46.5 68 63.5 101c11.6 22.6 19.5 42.4 23.4 58.5L511.9 326c.1-2 .1-4 .1-6c0-84.2-121-236.4-170.9-295.6C328.2 9.1 320 0 320 0s-8.2 9.1-21.1 24.4zM320 400c-44.2 0-80-35.8-80-80l-32 0c0 61.9 50.1 112 112 112l0-32zM32.4 10L19.9 .1 .1 25.3l12.6 9.9L607.8 502.2l12.6 9.9 19.8-25.2-12.6-9.9L32.4 10z" />
-    </Icon>
-);
+const DropletSlash = createIcon("droplet-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABfQAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCBAsGAAE2AiQDCAQgBYMtBzQbCAURlZq1yD4SctOU/3FmRzSxEkGUB1U9yQLOAuaZ/OkFKADm/2bPex4F+DmCUMbGpRMnSDTn8wQCjXr5tkTODs8OGI7h9haZ0eiyXkkmNUmP33o82yCPv6OdEqRL0us4K79pfK2OYyR5BiAqA2DwzKnjPf1pfBrx+v8PiNeNRUAMAYVAhgz1BegnE6gvVyCXCz6N//93/4GFAKIkfjiBHCWxBJsAOUjyPK/dtGKVciUq5DP85bJLH5/24YAnZxzuelGtNvF0/Q8mvzP9tL4PtW0z5+ZBreOuthOc5i6occfgZzrfUad3HC73r+xy75Bn29xa8/xWsx9sE3Frw7JxRetbuseKmjVqtooasZl+VNuoGVua3Fr51m8bv77idfdX+WREDI3XX4+h9a9L6ah6DWLy9OmTo82ggbcfPeWCK5ce8ec+okqTqvcMHnxtzGwrUqR6X/yxbPudPehRfWfl5cyIQqX/vv+haHT8kUce6eUVU971iF4eMfVdIBB8XP/ynxZW6vdr6XIJfP7o9z+qF/5/Oh1Kt6K0BIKs3f/t5qEJER2AlWKHJvBRBJI5cvyq5V0oQCiLAElJZQXI1FNZgFxZbQUooaHuApRU1lSZyMsI1c3vIClvM8j0sB/kqrsPlNDPS3ZJ1SMzNdpQ6I9eAh8hoeFTRecOnYo+xTLQGOshw7BvsS222kGF1rBqxcYN25YvW71NIFvGe9vXj9Dg4V8sOnfoVPQpjuPH5RnLt2xdvXFDGtO3uK+22qHXtwYlYcwuviQRqcIz969bvq391nWLt64C");
 
 export default DropletSlash;

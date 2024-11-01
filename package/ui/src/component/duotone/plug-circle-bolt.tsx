@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-bolt` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-bolt?s=duotone plug-circle-bolt}
  * @preview ![plug-circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/plug-circle-bolt.svg)
  */
-const PlugCircleBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 192c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32c0 2.3-.3 4.6-.7 6.8C309.8 220 256 287.7 256 368c0 11.4 1.1 22.5 3.1 33.3c-11.1 5.1-22.9 9-35.1 11.5l0 67.2c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-67.2C87 398 32 333.4 32 256l0-32c-17.7 0-32-14.3-32-32zM64 32C64 14.3 78.3 0 96 0s32 14.3 32 32l0 96-64 0 0-96zm192 0c0-17.7 14.3-32 32-32s32 14.3 32 32l0 96-64 0 0-96z" />
-        <path d="M288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm194.5-66.2c2.8-5 1.7-11.1-2.6-14.9s-10.6-4-15.1-.6l-96 72c-4.1 3.1-5.8 8.5-4.2 13.4s6.2 8.2 11.4 8.2l35.6 0-30.1 54.2c-2.8 5-1.7 11.1 2.6 14.9s10.6 4 15.1 .6l96-72c4.1-3.1 5.8-8.5 4.2-13.4s-6.2-8.2-11.4-8.2l-35.6 0 30.1-54.2z" />
-    </Icon>
-);
+const PlugCircleBolt = createIcon("plug-circle-bolt", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABnQAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCVgsIAAE2AiQDCgQgBYMtB1wbhAXIjsQ4JvKLKGy0CEJbWbU0uz7PmkFG4kfAiCNgSALi8DNDh7zP/5u45vlb0wOWPcGjVKyTi9aWeT6B3QMt0psGXkLTGdqszXHLiYgiOEjIYfRJNGzfEHt0gioO55s0SI+nH3Bv+R/A+EdfN5G0zwCiCwCW7Nq2wSc/xo8pfjj2BvGD9QiIpaAIZGQMEGC+LDBApaBSCX5Mx+bHOHYhgGgqz51BE+1wFx4GVCBJclX1HzChS5dWo2O1s9WoT7x+UsTL895v3Tnn3Qkvum78C7Pfqe+Y+97El2LXo70e6bE9Hur5cM9WTEao966Yy+o6puXre8dItjrGnXmx63p8M/+Dcl3PZ4cLBB+q77DpEfHVwo+GCrDuOinQlKgjWnrD0Oe6PPcfP5zyg8GbRhVK924jR3brXsooVvGcz5bMPvnikw6tcvKokecN95tZp0RwVFuFTrdxW6fFneO6nM8bP6FD10ntui9ToeUuc+XYuXWBd9ETiwJNHWex4z7Rx4FAMHjiX+MPdZ7/f1srgZ/fs36/Y5+kxek5tEkgyOOPjbc/LQYyA/hRKS4xNC2OgkC2QVY/tYNHBAg1AiRNtQBZf10EqNTGCdAwyAwBmmrbZFG1F3o4MIikg/OJbKariUoPrxMN832dauoR2Skll5I+CdNXKrBiXpkycXKZWw6rNtnPhDQ9ryy7Rl8SusbgqFOc6xwXOdlJTneR4BfYkL3Y2VZa2ApfVEwx0WTFXOVy43n/Tie7wIVOd65z8izzlPtjo11iDx4Db1JZp1qRZSJF7vO2sE34fadgwgnnnnXRBA/v329XfZwBAAA=");
 
 export default PlugCircleBolt;

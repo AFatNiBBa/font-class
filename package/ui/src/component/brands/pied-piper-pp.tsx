@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pied-piper-pp` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pied-piper-pp?s=brands pied-piper-pp}
  * @preview ![pied-piper-pp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/pied-piper-pp.svg)
  */
-const PiedPiperPp: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M205.3 174.6c0 21.1-14.2 38.1-31.7 38.1-7.1 0-12.8-1.2-17.2-3.7v-68c4.4-2.7 10.1-4.2 17.2-4.2 17.5 0 31.7 16.9 31.7 37.8zm52.6 67c-7.1 0-12.8 1.5-17.2 4.2v68c4.4 2.5 10.1 3.7 17.2 3.7 17.4 0 31.7-16.9 31.7-37.8 0-21.1-14.3-38.1-31.7-38.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zM185 255.1c41 0 74.2-35.6 74.2-79.6 0-44-33.2-79.6-74.2-79.6-12 0-24.1 3.2-34.6 8.8h-45.7V311l51.8-10.1v-50.6c8.6 3.1 18.1 4.8 28.5 4.8zm158.4 25.3c0-44-33.2-79.6-73.9-79.6-3.2 0-6.4.2-9.6.7-3.7 12.5-10.1 23.8-19.2 33.4-13.8 15-32.2 23.8-51.8 24.8V416l51.8-10.1v-50.6c8.6 3.2 18.2 4.7 28.7 4.7 40.8 0 74-35.6 74-79.6z" />
-    </Icon>
-);
+const PiedPiperPp = createIcon("pied-piper-pp", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABgQAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCHwsGAAE2AiQDCAQgBYMtBzQbIwXIhuD7nFm/L8kDGgdRIeQFBHBStXdy7ZXghH9/6nnOQwF8RkEZG7dtXOBznkcgwLH4B0vSAlWoJD0vgJS5bxvSaIThixALs5DGFOKHII874zoF6fbUwLX1peIHfV1EUmQAogsAluy6bYP3mtGMaPz/MtGwDgGxFFQCGewPEGC+TEgEuQq5XNCM///H/8CKAKKGfkYCOVpwAs4A5CAp8rxr5369+5ZFPd+lLNr3PK9HxE09rugVcWt5Zc+b7XxFD3FzeWvvW3vf0euW9l1Tlm7rcdPwjnik1y39sriz962j6vFwz5v77vfouIgnB98z9omRVwxvD7EqIm4udz5/bMQotTvMx4YjtfdpT8bQJ7o88dOQxiENjS5druDy98oDlzuwrF9xRZfpS8tty20r37vi8s4uv6L+9v377bdftv3ryfuZ/PX2bD98Vu2ZX2ewUqyc8Wu31gl2mGOal7rc3WfISlY0i2Lrjl2+ukt52kedf12xcigQCF7+5dzmvp3n/9VaJvD9G7/8rX2L/m/Ge+kJtEogyMb/P95e8R7EewIAkOIUQ+M9BJIjFMjqcIs3Du0wJDXtkOmvC+TajYPCIDMQatptk4m8TehhbwxJh+MhM9PZkOvhRSjM92lQ0yOyuOOihvv2Ja+U2IqtasrEydXcapnofCgxZTmvOlZGn5IbY+DQIY51jJMc7CCHO0kQJ9gQn+xoKy18hTeqTDHRZJW5Knf+LO+SghOc6HBd9K+Zp7pvjXaK3T8G9IRIp9pPEpHqxx1+8EETHgL/hAnHHQc=");
 
 export default PiedPiperPp;

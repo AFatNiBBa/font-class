@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fill` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fill?s=sharp-thin fill}
  * @preview ![fill](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/fill.svg)
  */
-const Fill: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M11.3 283.3L0 272l11.3-11.3 135-135-104-104L36.7 16 48 4.7l5.7 5.7 104 104 103-103L272 0l11.3 11.3L500.7 228.7 512 240l-11.3 11.3L251.3 500.7 240 512l-11.3-11.3L32 304s0 0 0 0s0 0 0 0L11.3 283.3zM54.6 304L240 489.4 425.4 304 54.6 304zm386.7-16l48-48L272 22.6l-103 103 84.7 84.7 5.7 5.7L248 227.3l-5.7-5.7L157.7 137 22.6 272l16 16 402.7 0z" />
-    </Icon>
-);
+const Fill = createIcon("fill", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABZQAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBcAsGAAE2AiQDCAQgBYMtBysb6wTIHodxTLLOhsZjGA//v/a/fe7MV0VsIIl7ErcmXmnWSa8iol3aX1QWUdPLB0ncmnz/436ef6zwfEYfJXoV+HdeIBFxPoEBV9nms4kMbKYTsFmbQwWFV+U2ERGp5wqH7WnYekAej+1QQbqZvuBq+9D4qYdLJFkGIJoBMGv18mVedEVXxOfyXeKzJQiIWaAQyJChtwBTZQK95QrkckFXlMvxP7AggKiE1yaQowIrsQ+QgyTL8xFV3eoqGvJV8lTt6s6Ozm6xOlZFZ3SLjlgZq4MmdHus8Duvo+fLvcGTVq5auTrqt8+YOmNVrCAM1V8xzjQMKDWXfvX/suuL2lslbHTlit27zVOyQip37VJS8v17RP//z715A/zcOwuOnVdOffvGZ1csf55avuLYe8oCAsHcr49sNvV3dV0CPx79qf+Kyi+SVEK1BIJsaHmoDQkkAgCQ4pQBCQLJMhncq3dNgFDLhKRSLWR6aYZcrSFQoa9xBukvp+jIa4J2Gz0k9Y5CZrzTkGt3GypM9T5fqT0yA7PMw/q9y5+/IvPWFaOGjywmF7dNw7YZIy9PKejkwFNpaJA7a5fDDjlhpx32OrHwxywrnXTQfI2c54sKoww3UmGy4nXn/fgqOx1z3F6HHaqrTFGcDwY6pU8e5DIJVEcrSxKR8s8D");
 
 export default Fill;

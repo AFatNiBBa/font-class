@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dharmachakra` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dharmachakra?s=sharp-solid dharmachakra}
  * @preview ![dharmachakra](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dharmachakra.svg)
  */
-const Dharmachakra: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M236.5 162l-4.9-64.1c-25.9 4-49.8 14.2-70 29l41.9 48.8c9.9-6.5 21.1-11.2 33.1-13.7zM288 0l-2.6 33.9c39.9 5.2 76.4 20.9 106.9 44.3l22.1-25.8 45.3 45.3-25.8 22.1c23.3 30.4 39 67 44.3 106.9L512 224l0 64-33.9-2.6c-5.2 39.9-20.9 76.4-44.3 106.9l25.8 22.1-45.3 45.3-22.1-25.8c-30.4 23.3-67 39-106.9 44.3L288 512l-64 0 2.6-33.9c-39.9-5.2-76.4-20.9-106.9-44.3L97.6 459.6 52.4 414.4l25.8-22.1c-23.3-30.4-39.1-67-44.3-106.9L0 288l0-64 33.9 2.6c5.2-39.9 20.9-76.4 44.3-106.9L52.4 97.6 97.6 52.4l22.1 25.8c30.4-23.3 67-39.1 106.9-44.3L224 0l64 0zM275.5 162c12 2.5 23.2 7.2 33.1 13.7l41.9-48.8c-20.2-14.8-44.1-25-70-29L275.5 162zm60.7 41.4c6.5 9.9 11.2 21.1 13.7 33.1l64.1-4.9c-4-25.9-14.2-49.8-29-70l-48.8 41.9zM350 275.5c-2.5 12-7.2 23.2-13.7 33.1l48.8 41.9c14.8-20.2 25-44.1 29-70L350 275.5zm-41.4 60.7c-9.9 6.5-21.1 11.2-33.1 13.7l4.9 64.1c25.9-4 49.8-14.2 70-29l-41.9-48.8zM236.5 350c-12-2.5-23.2-7.2-33.1-13.7l-41.9 48.8c20.2 14.8 44.1 25 70 29l4.9-64.1zm-60.7-41.4c-6.5-9.9-11.2-21.1-13.7-33.1l-64.1 4.9c4 25.9 14.2 49.8 29 70l48.8-41.9zM162 236.5c2.5-12 7.2-23.2 13.7-33.1l-48.8-41.9c-14.8 20.2-25 44.1-29 70l64.1 4.9zM256 288a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const Dharmachakra = createIcon("dharmachakra", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABoAAAAKOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CCfgsGAAE2AiQDCAQgBYMtBzMbgQXIBp7n8+zPfckoHSPtSPqwV6KWgHcw1v2fy+kNOjq65+vbLfFDG8smLZCrQKI9MYEENrZ1giaUaQAQe7pN9uQRio9HhAhJRMcnHV8noMtpbTYOoDaoO8AyeSv5ShCzQeGiAQAgngAAQHnn9s1ceCWvRG7bj4LcphEQACkHwEQADa8IRQAoQkOAUHRMQEdH4JXY7fQfaIIAgDgi1ykAdMAV2Arsh7gEFIauG+XO+Kk+Fgc3vZPFwehus9qOxJXLutjOoRGhV4sTpVji5Kw1V5Ac2V4UL0WSIGeqwsSQCLlWEiclkijnbFkiki27ShOkVOLlfG24WDrs8auUgzlm85qgWtma0NRxvW+zHIqoKVsdZZXjiRUd9vqXyYHsyJa1wVWyJb6106aAFtkfWt1xUYDIOpnhv9ZY6Lua6X5rLLaDnge/W+8MusO3sFaVT3ywnMeRGTus+1y/25XnrKF4sjdleDO5eI2nu3L3unV2K9ktLTt8Pi/nw8DWE1sz/tF5pItbbfpWF0Z1+rfos08pEx9Mr3WL/DydBxNLiUj/izhvy9jqzMjOf3tmus+H+e5W0vgAINctXuqf39uj6L+zRQHw5tTP7/C3yH5BoQ4CzigABLQkexI9FAAKBAAAAFAyCZsCEECxFgNxXBNcCoIBExSOGKARgifoGCSCA+Fkq5ur26MhuguCLz0BClfGgkYOU0DHl8PgQBHXM0d8RatTvcr0X2JOjcerF5npKWlmgbksGUbpqX200Nz24iZRSzx2MojRjGICAxnAUCY4ahzNhYmMpCYjq/kgJumkkIZJAeZx9bi5EwMZx3iGMppRPE8h5v00jkl593iEClXMoFihQJTrgBfm9u1v0fBxfQE=");
 
 export default Dharmachakra;

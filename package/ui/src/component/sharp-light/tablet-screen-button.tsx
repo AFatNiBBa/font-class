@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tablet-screen-button` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tablet-screen-button?s=sharp-light tablet-screen-button}
  * @preview ![tablet-screen-button](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/tablet-screen-button.svg)
  */
-const TabletScreenButton: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 32l0 288L32 320 32 32l384 0zm0 320l0 128L32 480l0-128 384 0zM32 0L0 0 0 32 0 480l0 32 32 0 384 0 32 0 0-32 0-448 0-32L416 0 32 0zM248 416a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const TabletScreenButton = createIcon("tablet-screen-button", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABXQAAAHkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBJAsGAAE2AiQDCAQgBYMtBzsbrwQRlZoByL5MHhtubGmYYxUHCbcU8fCC5fdwNAy1sh6iTL4kHv5/7X/73LnzvogNpo2f8OpSIXsT6zTXSvNpaMhaWUTyC4BiYa4vwFyrfYeAWyKli/xYkUz7+iHtkSGw8RPXPP/zpweMInu0KCx9kCqqXNT5BCa2mxdRFNhMJ2CzbnpPDaluTV70koYlR8PUEXLcDkrSzRRXy4fGX2OukOQCQPQCYMO+XVvUv+JXxPdm4rtNCIiNoBIoUGBSgNUKgUlZhSwLfkWzGf4DEUA04DkTyGhgFqsBGSQ557a2gbaOsivv7Sjbj6UidUYRXUnojIiuo+0d7SKF6OiKKCKiff+thU9Gby54PjH3Ve+rf/bv36+q6oLKhfWBd8GF86qkWqV6oKHn94d27BiqVBAXvf8RPav/t3Yk8OfNy8+oWUedXqFVAkGxvOlw1BC1AACkOGNu1AgkK2W41k7XBAjtCJA0tAtQmNArQNZumQClaasEaGi3SyFymzDoSIeTTsfhwqyzcDboNVxa7ZPZMBgFdbiL5z5uyS5YwO+izAos00rj2cCkTceyov84YeSg6I/97drpNdBdO98WPNB/kTIrsGy3j/ub7n6mY8/bOM4b+vfnG9EV0FYpJSHTIKv0N2UW/34AAAA=");
 
 export default TabletScreenButton;

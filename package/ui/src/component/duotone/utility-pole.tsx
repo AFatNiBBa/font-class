@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `utility-pole` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/utility-pole?s=duotone utility-pole}
  * @preview ![utility-pole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/utility-pole.svg)
  */
-const UtilityPole: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 56C0 42.7 10.7 32 24 32s24 10.7 24 24l0 8L0 64l0-8zm80 0c0-13.3 10.7-24 24-24s24 10.7 24 24l0 8L80 64l0-8zm3.2 72l57.7 0L224 183.4l0 38.5L83.2 128zM288 183.4L371.2 128l57.7 0L288 221.9l0-38.5zM384 56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 8-48 0 0-8zm80 0c0-13.3 10.7-24 24-24s24 10.7 24 24l0 8-48 0 0-8z" />
-        <path d="M256 0c17.7 0 32 14.3 32 32l0 32 224 0 0 32c0 17.7-14.3 32-32 32l-192 0 0 352c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-352L32 128C14.3 128 0 113.7 0 96L0 64l224 0 0-32c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const UtilityPole = createIcon("utility-pole", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABhwAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCJwsIAAE2AiQDCgQgBYMtB1QbTQXIjsQ4JvGLKEzi4f/X/HefeydZLzOfYT4ztA4QNJBrVdlhVIXKqu2qrE6GvM/P/+We3/PbgB/kRA9lbFwTZOH5WI31PAsk8DZtT6CXUBhpBtbubBMOTfskiYzk+CzH4wFF/J2f1SB9lNp4I/4PYPxruGdJWhlA9APAuiMHdvm1E50U7e53RNtOBMR6UAtkZIwSYKUsMEqhRqEQdFK3Sye63ZoAoim+UAZNtHAPTwAKkIRmUcwpy1arLKtG7+Jw1ShPvDI44j2iCvHkoHfLMhJQXh7yfuQoQw3hfMRTQz+o8idTPh0uyoiKvulQVVaHQhw+dOTgkSoORhxZuHj8V/2++k/7clv3lz4v8mKfWkeNGAx+ddZxiJ71a0k46MXB+/YN7jFXz17jpi3LecP+xaZ49VR78X6rLi+rTDnz+OzzQCD45uT88kzflf/3VAn8832nH5Lur0n6Cj0SCPLM7kwnE0gEACDFo8YnIJAt18Tv2sv7AoQSAZKmUoBspH4CFEozBGgYY5EATaUDsihawiCnDEh6uQeyxR4DhUG+BQ0r/RY3DYqsfILqCH+/1M01tGldPW/23Hp5PSxkUZ+4sLiiXtamPuoHpsFJl91x20OXXHTNw4q8b1f2iFs2S/AmH1SbZ7a5asvV2/Xt4cMuue+Ba+64TcusUJ+PpnpUHj8NzIRp59uRZSJFHvTkcrPu3rl5aZYeDw/pyHcWAA==");
 
 export default UtilityPole;

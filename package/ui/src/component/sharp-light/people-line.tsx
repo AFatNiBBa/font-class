@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-line` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-line?s=sharp-light people-line}
  * @preview ![people-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/people-line.svg)
  */
-const PeopleLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M304 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-96 64l-8.9 0-4.7 7.6-55.9 90.9-1.5-2.5-8.9 0-96 0-8.9 0-4.7 7.6-64 104L10 365.2 37.2 382l8.4-13.6L88 299.5 88 384l0 16 16 0 80 0 16 0 0-16 0-84.5 42.4 68.9 8.4 13.6L278 365.2l-8.4-13.6L221.3 273l.4-.6L264 203.5 264 304l0 16 16 0 80 0 16 0 0-16 0-100.5 42.4 68.9 .4 .6-48.4 78.6L362 365.2 389.2 382l8.4-13.6L440 299.5l0 84.5 0 16 16 0 80 0 16 0 0-16 0-84.5 42.4 68.9 8.4 13.6L630 365.2l-8.4-13.6-64-104-4.7-7.6-8.9 0-96 0-8.9 0-1.5 2.5-55.9-90.9-4.7-7.6-8.9 0-96 0zm24 144l0-112 48 0 0 112-48 0zM16 448L0 448l0 32 16 0 608 0 16 0 0-32-16 0L16 448zM144 160a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 64a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-24 48l48 0 0 96-48 0 0-96zm360-96a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm64 0a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM520 368l-48 0 0-96 48 0 0 96z" />
-    </Icon>
-);
+const PeopleLine = createIcon("people-line", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABuAAAAKNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDfQsGAAE2AiQDCAQgBYMtBzIb/wXILhJsWwh7nfDTFCaMhMYI6nWP7j3J8CUzyMTfzFAChbnLpAt3gGVKQ5tJmQp1cKjhoL4+caov4OLM9V/t7bsOAb2NN/+X89t2dICfSzyUMbdtO2rv5wkssLF0buAszNIsMexs24sj6usHobCEPP6OwRqQXk4/4577ovGHjm6R5BmAaAGA6WtXLvbtk3gS8fP/Ej9biICYASqBDBm6CDBJJtBFrkIuFzyJ//8X/4EVAURD/m0TyNEUv+NPQA6SMs9rTffWylrTmvSWDZrma+QDir0v8rw8xy9o+UrfD/o9f3nevw9rVVEWbWJVtItC/0KbGBDtY20IUZYREaujbQyKdrFmKIel/OP4VLpqTB0sz7aiLCTRPOR77vL9XjQfdn41X9n3/KV4eQaXRSmKiJ1PnS+iDD0/wSfPz3t+NuxosydPmkX0acWRixePFNK8dWrN33uuMRu0Uts/1tS9bnvLHQNmWqWFFttaWFXrc8dbLqkvgSt29UO7pPqqvLSBu2PYXLX9ydgNuXnuPX2mumPq7d+Ep9LimNY/7n43NqZPe+taqabu975N3ba9W29vbP/N6OVAIPj0tSZsbT7pLyoTePb5Z7v7/0m6lj5BYwkE2eD/B9uUroFgDCCQ4oyeE28USH5T8p+1iRcECAUCJA0VAmQ6ayFArjBIgAa6GS1AQ4WVMpHXhDY2VyBp4jjIjHEZ5Nr4DDQwyXf+htpEBuZ8IOX/ZSaZ04Rnt6uGD61XE6rRpEIAuVyreWK1WNP/jCwagGfa46gjTtltl/1ONagTFodOO2zOFDnbB1WGG6quMkG1OXN38hq7nXDSfkcdcVqZqDre0d+Z6coDsD7xWY4QlSQilW+GdMiHAAA=");
 
 export default PeopleLine;

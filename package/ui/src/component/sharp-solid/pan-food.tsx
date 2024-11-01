@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pan-food` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pan-food?s=sharp-solid pan-food}
  * @preview ![pan-food](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/pan-food.svg)
  */
-const PanFood: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 512A256 256 0 1 0 320 0a256 256 0 1 0 0 512zm0-448c39.8 0 72 32.2 72 72l0 8-144 0 0-8c0-39.8 32.2-72 72-72zM244.3 200l-14.1 14.1-32 32L184 260.3 155.7 232l14.1-14.1 32-32L216 171.7 244.3 200zM296 224a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM416 360a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM238.6 296l-8 8 16 16 33.4 0c30.9 0 56 25.1 56 56s-25.1 56-56 56s-56-25.1-56-56l0-33.4-16-16-8 8L177.4 312l11.3-11.3 8-8 8-8L216 273.4 238.6 296zM464 176l11 11c13.4 13.4 21 31.6 21 50.6l0 4.8c0 18.7-8.5 36.4-23.1 48.1c-10.9 8.7-24.5 13.5-38.5 13.5l-4.1 0c-19.4 0-38-7.7-51.8-21.4L368 272l96-96zM48 160L0 160l0 24L0 328l0 24 48 0 0-24 0-144 0-24zm592 24l0-24-48 0 0 24 0 144 0 24 48 0 0-24 0-144z" />
-    </Icon>
-);
+const PanFood = createIcon("pan-food", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABpQAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDKAsGAAE2AiQDCAQgBYMtBy8bpwXIhiCwqc2eziQlbAI5zFjBAwBUwfap+oo0/9d8fmnXgN/oUO62tmqvpogA3/MBR1mm7vlsOJsobtg2MheYPU6N5RbS+CdzkSKS25OvcK370PhNjYtIlGUARBsAjF+6cLb3zsSZiC8LLxNfmomAGA/yAhlkUC/AKBmBeqk8UqngTBQK7D8wTwBRLDw1ASlyeB7vAVKQKEvTurZty8o6t4euXFHLdAl5YXb9r3Mjvp34YZw/4YM53yz5adZX495z3vj3Z3+9OPNw94jHa0Q2Iu7s+WTXReVV5d2iPHpEVfQk47pPv7PrwzW3dXqkdrEU6uol46EVkYuHK272mvKbeFzlLbURlStk8YzuSysqKx4nbuv2UDYbV/SojKUbsrmsAHQuQrc7rsxun9ThiTZP/NH81ZavjB072XVcP7J+4sT6kddfN5nIZku9d2YgA1uVuk6pVgMHnpl56cmQUHDSm05KnqEV8+dXePzopbLK8tzYo2FoQbN9//9VUvLX//vwUs0KjtriDUcd9aQtZ44+AZeZ1JhquaBFZapx0hPWrr23db+QUO061fpBlrlV1VBWybuPA4Fg9KPblq5tPerv0lwCzr3x1x/4dIX3kvOSJ1AqAUGmV6GXVcl5wHpDiJLEER0mviiQeFwZ+K4t3CJAyCJAolhWgIw6bQRIZfUUoEijwQIUy1ooI9IyodzqCiRa2A8yhjgGUuVeBEVG+dRTrDwyN6/s1pP9Oqae0oQmD8r379MvPyI/mlXI70eJ7h6ZX6ztdoRXdYcLbbHXHodstsl2hxrcAbP9h+02ZYqY7Ify+uujn7wR8psLd9VLsPeAg7YPy7f3Y6T88c5ujkw37g4NicA7wNBEQiSl+9bv6f0RAAAAAA==");
 
 export default PanFood;

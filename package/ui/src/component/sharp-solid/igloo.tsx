@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `igloo` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/igloo?s=sharp-solid igloo}
  * @preview ![igloo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/igloo.svg)
  */
-const Igloo: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 33.8L320 160 48.5 160C100.2 82.8 188.1 32 288 32c10.8 0 21.5 .6 32 1.8zM352 160l0-120.9C424.9 55.7 487.2 99.8 527.5 160L352 160zM29.9 192L96 192l0 128L0 320c0-46 10.8-89.4 29.9-128zM192 320l-64 0 0-128 320 0 0 128-64 0 0 32 192 0 0 128-224 0 0-128c0-35.3-28.7-64-64-64s-64 28.7-64 64l0 128L0 480 0 352l192 0 0-32zm288 0l0-128 66.1 0c19.2 38.6 29.9 82 29.9 128l-96 0z" />
-    </Icon>
-);
+const Igloo = createIcon("igloo", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABaQAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBawsGAAE2AiQDCAQgBYMtBywb5wTIhocHvb4/N8m83ZeskQXkr05URVdSK9Qzcmq88VL9fGqd74ufbfRBRvfGJ7D4+3Y+0OLLbGAVxe3NbWNJSl+SiSbpuLLj6wpZfJtepkJya/Ixri4/Gr9q7TIStSmAaASASSuWzPP6T/FTxEfVF4mPzEFATAKlQIoU7QQYKxVoJ1Mikwl+impV/gNLAoga9eMTkKEOVmATIAOJSpbVq8171BaV+tnyopLvEOrFWws+W3F582Uh3hn1ar98Y5EXIo8vhyzLizyifog8REFrIm7r/Vj3B3o+0kqZxfKIIp5dlnd+rNFjv3f6ePvHJtx5nuc2tPuLL+Zo9HfHc6eAs/fTT39/ZlLHyXMuspFpH9x7YSIkLjJRZJZed5Gf4Lxx43vuMXNOvq4sL6K3TfaBaRuBQPDEdZ33bmg49v+6RQJ+ee3P37WXqz8lE5PHUFcCgrRvta+1yUQQdgDpJI7rbEQskFigAvyt9dwkQMgRIFEjFyDVViMBMrk+AlR0MEyAGrklUpHVCs2sG0SinkNEarhzRKaZ54mKsd5L12gWqXeJviF+7tKma2DaqHJQ/4Hl6HJZ0CWH4dPgmHLb63k8NPTCg7Y7YL+jttlql6MKOmxe7ph9plvgNBEqDdLfQKXRyuPy8+7ltjnsiF0O2J+HGaO87/d03G7fC8eRAAa/Cx/yIqns2rH3wAE=");
 
 export default Igloo;

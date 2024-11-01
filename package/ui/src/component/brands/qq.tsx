@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `qq` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/qq?s=brands qq}
  * @preview ![qq](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/qq.svg)
  */
-const Qq: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704z" />
-    </Icon>
-);
+const Qq = createIcon("qq", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbwAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBYQsGAAE2AiQDCAQgBYMtBykb2gTIhofn7b4691X97j929UiIYGVQBGihDFK6G4+ytaa/+do4jwJ8AN6Y2HkgYwLNeZ5A552XT0wk6/9tXxT/3mykUWRdSSZrMh1XdnzNkMe1OK1EupK+wKl60fhaM0dIShmAqAuAMXNnzvDO3bgb8cX/LxJfmIaAGAsKgQwZWgowXCbQUq5ALhfcjf//T/+BBQFEBToygRwZZmMxIAdJ5PmMGqVa+ZzsrL7yaOOIixGKvQfjQNPLnS90eLzh+faPDXyp42P9X+j4ROOLnZ5s8kzzq3FAINBa/WhcbXetRRu51OSrce/P/XLMu7MuNLrSLDz+naYHqrd9pu4z31Z9seYLz7aovM614xwPaPrZ6xcelpsOm333xz69q6p69/nx7uxhTcsPL7z+WdM4fvza9cpSk8qfZ67ceWnItDR/0+LZMSs2bUoLpg25tHPlzJ8rm5SAQNDh4W+tltYZ/mu5RgL3X/v+776//P/b8Up6BmUJBFn3/7tbFO8oKyu9AkhJsUdb+CaBZIYEzlrTRQFCdQRIKlQXINNCXQFy1XUToKS1AQJUqG6mTOTVhIYWT5DUtB1kBtoLcg09D0qG+1ip0DAyx2LcgvnXJU7k6IS+ok/P3sXQYusarK9QpT2sOJY678FUF5i0xlZb7LLaKuvtYvgOM/TdNpuoYRP8UKGPnnorDFWYg1dxDlN22Gm9zNghXYYp7sud7dGLu8AQCdD3SShUIqXt2wEAAA==");
 
 export default Qq;

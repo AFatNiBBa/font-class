@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `address-card` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/address-card?s=light address-card}
  * @preview ![address-card](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/address-card.svg)
  */
-const AddressCard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M512 64c17.7 0 32 14.3 32 32l0 320c0 17.7-14.3 32-32 32L64 448c-17.7 0-32-14.3-32-32L32 96c0-17.7 14.3-32 32-32l448 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l448 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm96 160a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 0a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM112 368c0-26.5 21.5-48 48-48l64 0c26.5 0 48 21.5 48 48c0 8.8 7.2 16 16 16s16-7.2 16-16c0-44.2-35.8-80-80-80l-64 0c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16s16-7.2 16-16zM352 160c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0zm0 64c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0zm0 64c-8.8 0-16 7.2-16 16s7.2 16 16 16l128 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-128 0z" />
-    </Icon>
-);
+const AddressCard = createIcon("address-card", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABowAAAJZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yCfAsGAAE2AiQDCAQgBYMtBzMbfwXIhof/t6v/fW7VqLqHricpeh90RisDV85ek3447vm/Jt+750ftn4/gUCroelWUNu16PtzzCW4WTROKwtlEcbbl0MGDjx4hCEKkyg9p2Kxhawd5/BBzNZDuT9/g1v6h8atBV5HkGYDoAMCmg/fv81ktahHf1N8mvrEHAbEZlAIZMowIsFYmMCJXIpcLalGvy39gSQDRSF8ygRwFHsWzgBwkzXk+NNTdOl6tVisNrflBlYbi5Bt7I+6W4rKeu4pq3NB3T2Rxef+9ldbjnpoZ8dxAivtnPT+tNZ6d8+JwFg/MfmF69cDL+yPurdzYe7cEL0blkcP4zOdGHh5jR4LjBzwYxWdU4mmkB+/uvbe/J5YX8Vbjnf/gu3pWoxKY5Z6+gq00+YWOF36f9M1J36hf2nYd17Vt1FiBPlN44afjj3XSWWxUdHY+9hko5Bz9aIITZSk8Jpv4+++JDCve+mr2LT8u3Gjhj99mbbVaWxx0YoejOk48KIw/v+dUW+0yPMhGuxwIBCcd07ng6Pa1/zdXEpj44M//5/PVa2ljegHNEgiyufW5jkgbgekBZFNcZHLwRYHkXs30WqvuESAUCJA0KgTIDOsQIFeYI0CDMcsEaFTYLxN5i9DjSANJ1bkgs9zFINfjTdBgrc8zjXoiK1OxyMSfxLTtHt42r1w0f2G5urys2KTK46fJNeVtc+ZF6JhFS53kbGe5wIlOcKoLHHqeffkLnWl7hGzzQ6VF5luotFqZrr83DuIy5znfqedKfpo1yucjM10U959FTqKMixUliUjV11mf91UAAA==");
 
 export default AddressCard;

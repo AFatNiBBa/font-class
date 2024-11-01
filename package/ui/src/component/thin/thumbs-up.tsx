@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `thumbs-up` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thumbs-up?s=thin thumbs-up}
  * @preview ![thumbs-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/thumbs-up.svg)
  */
-const ThumbsUp: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M281.1 71.6c4.6-17.1 22.2-27.1 39.3-22.5s27.1 22.2 22.5 39.3l-4.5 16.4c-5.7 20.8-22.3 56.7-33.7 75c-1.5 2.5-1.6 5.6-.2 8.1s4.1 4.1 7 4.1L448 192c22.1 0 40 17.9 40 40c0 14.2-7.3 26.6-18.5 33.7c-3.6 2.3-4.7 7-2.7 10.7c3.3 5.8 5.1 12.5 5.1 19.6c0 15.5-8.8 28.9-21.7 35.6c-2.1 1.1-3.6 3.1-4.1 5.4s0 4.7 1.5 6.6c5.2 6.8 8.3 15.2 8.3 24.4c0 17.8-11.6 32.8-27.6 38c-3.9 1.3-6.2 5.3-5.3 9.3c.6 2.8 .9 5.7 .9 8.6c0 22.1-17.9 40-40 40l-97.5 0c-17.4 0-34.4-5.1-48.8-14.8l-38.5-25.7c-10-6.6-18.3-15.1-24.7-24.8c-2.4-3.7-7.4-4.7-11.1-2.3s-4.7 7.4-2.3 11.1c7.6 11.5 17.4 21.5 29.2 29.3l38.5 25.7C245.9 473.9 266 480 286.5 480l97.5 0c30.9 0 56-25.1 56-56c0-1.8-.1-3.5-.2-5.3c19-8.9 32.2-28.3 32.2-50.7c0-9.7-2.5-18.9-6.9-26.9C479 331 488 314.5 488 296c0-7.4-1.4-14.5-4.1-21c12.3-10.3 20.1-25.7 20.1-43c0-30.9-25.1-56-56-56l-122.6 0c10.9-20.3 23.4-48.5 28.5-67l4.5-16.4c7-25.6-8.1-52-33.7-58.9s-52 8.1-58.9 33.7l-4.5 16.4c-4.7 17.2-14.5 37.4-27.2 55.8c-12.7 18.4-27.7 34.5-42.5 43.8l-3.1 2c-10.9 6.9-20 15.8-27.2 26.1c-2.5 3.6-1.6 8.6 2 11.1s8.6 1.6 11.1-2c6-8.5 13.6-16 22.7-21.7l3.1-2c17.2-10.9 33.7-28.8 47.1-48.3c13.4-19.5 24.1-41.3 29.4-60.6l4.5-16.4zM32 208l64 0c8.8 0 16 7.2 16 16l0 224c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16l0-224c0-8.8 7.2-16 16-16zM0 224L0 448c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-224c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const ThumbsUp = createIcon("thumbs-up", false, "data:font/woff2;base64,d09GMgABAAAAAAMwAAoAAAAABrwAAALkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDJgsGAAE2AiQDCAQgBYMtBzAbpgXIHgVuy3MJUZMhFMyVpR//QTz699+cJE+538jniqggdICeq5VQbbWdunULwfP9fTv3by37JvImDSyKVrHsU2CRpOmjgK5g7fDwXPNf9POo7XnRLIHbBpxpA0qaN838wI6mu/+53PN7fnSA3+hQxsY5s7vt7fk8gUDH9DyRMLBMA8DYMs90qm3pY2GPmInKIqLMP/b47QGM3GQKPlBxxwI7+U3lMzXWgUJrAAAkAwAA6NYdMYh7Kiry6v8FecUKEADpDoBDAA1ooAQBoCMaAUowOMBgEHgn/7T9B2ZBAED80IspAAzgA64BtwEAA4BCG7MuX+T5Us1oT7HTo7ZItBTODecUyL5qLGdfbthLyNZSmFj1PpArL4i2p9rKlnF7iZQjWhyvaSfHvdWjlWjxajlx0lmdd7T4FBKWWWtFqSTz8yVZv48eqd5XUCCx6bHqHNkm5UfVvScXJ4vzR3qmFy4xKlYiZZGeVSOseoVZiQpVV5cjNi5b8NuovGec+NqzW0t11vEIHH5wO64bdqXLMXweZFeZzWQ+buR83oiavp42wGlduUjzr8MV2XDiBJMo6s3k46U0qWfN/uIZ7HYTWfBPIq6Ct/nM7PEpVruiDXz/9VfsXDjs1IUe+9uoZfBno86scodxzfj1GfWc1HLbmx77Ow3eXvtxMPWu79JK+p2BzX+sNQnDtGFsKMfzACCAwOv7cjM+vfzTLQXAh2vy4q8R/2N5iHcgiAJAQDdMc4wRAYLyAwEAAACULKNSBBBAcQ4NeSlEorlgoYDCjwVNMRlgsDQAH2W0opznR6ARE0LIYSxAkcJC0LRmORhyuAg+OvI08ZMj6NxlMo/5c0zsLZFeu1yzxk1de/fYcbHpSM3NDs4t1V3WJ+rhLtOYzzyWMJUpzGSJwBYxKF/KXHpbaC8+iKMZjWmKoz0u3H8VR4tkEYuZqfPxbTrg9nt1WWbPrwdVQbjNqVMoEBX6sGqLGy1dAAAA");
 
 export default ThumbsUp;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wordpress-simple` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wordpress-simple?s=brands wordpress-simple}
  * @preview ![wordpress-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/wordpress-simple.svg)
  */
-const WordpressSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 8C119.3 8 8 119.2 8 256c0 136.7 111.3 248 248 248s248-111.3 248-248C504 119.2 392.7 8 256 8zM33 256c0-32.3 6.9-63 19.3-90.7l106.4 291.4C84.3 420.5 33 344.2 33 256zm223 223c-21.9 0-43-3.2-63-9.1l66.9-194.4 68.5 187.8c.5 1.1 1 2.1 1.6 3.1-23.1 8.1-48 12.6-74 12.6zm30.7-327.5c13.4-.7 25.5-2.1 25.5-2.1 12-1.4 10.6-19.1-1.4-18.4 0 0-36.1 2.8-59.4 2.8-21.9 0-58.7-2.8-58.7-2.8-12-.7-13.4 17.7-1.4 18.4 0 0 11.4 1.4 23.4 2.1l34.7 95.2L200.6 393l-81.2-241.5c13.4-.7 25.5-2.1 25.5-2.1 12-1.4 10.6-19.1-1.4-18.4 0 0-36.1 2.8-59.4 2.8-4.2 0-9.1-.1-14.4-.3C109.6 73 178.1 33 256 33c58 0 110.9 22.2 150.6 58.5-1-.1-1.9-.2-2.9-.2-21.9 0-37.4 19.1-37.4 39.6 0 18.4 10.6 33.9 21.9 52.3 8.5 14.8 18.4 33.9 18.4 61.5 0 19.1-7.3 41.2-17 72.1l-22.2 74.3-80.7-239.6zm81.4 297.2l68.1-196.9c12.7-31.8 17-57.2 17-79.9 0-8.2-.5-15.8-1.5-22.9 17.4 31.8 27.3 68.2 27.3 107 0 82.3-44.6 154.1-110.9 192.7z" />
-    </Icon>
-);
+const WordpressSimple = createIcon("wordpress-simple", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABmQAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCZgsGAAE2AiQDCAQgBYMtBzcbbQXIBuIhz35ekiprpQviy7pBJ8js/F/z+WnRAX6jQ+laJEiU7Y0ynzfYBNoPZFGYNpxNFGdui6nOIMhMIiJDhy8f2n2I7wJN9shETKDMUs4CE8qHyhsCGAUKJhUAAHEHAADKGtevycGH8lDkrGMbyFmqAwIg5QAwEEAFVCAYAaAQFQGC0TAADQ2Bh+Jw8H+gAQIAYkbcKQBogAUYA6wEzVl3btK0EJtTBVcnk4vWyMmkN79aQ+RsqcjBBtfKDtU81/BG7QvljzS+Xu5wrfONGgxPaSqnyx1u1HB0dGNpKNN8turNV/jNkOm+oyOX6qOjl+vDZar3VJ9pUQ2lgTSSNew7PFffUH1P5Wt1p0sXl5oB71lxD7NmhcwMnspJRtPGDRpvCI07WmdfmLqxSvhq99Xv7Gc7ncWxowJ9oI8FLFSggsXSp08FNMmFfOP7P9LiukUwxtubcvfv22+WO0T53QiJMaGV2roPt5qHKUaal6c9VWCYxTLMKLO3ImUSdT/S1hge6d1ezNZ7+u+FTeQmiDB7jpufxUO+xtpeiupbldof6sSVP1ovGYqzvkB3uXwoCQAEEEh6+q5ya7fCb1YnBYDHuz/8aQutjpPyU1kNWHGbBNRERyItFLBiDbMI+LgigwinLxJAYSQm5F2dmY4AIOiAAKBgRkcAUAnCHQFAQycBAcBEKFkIAGZ06qMimg3Bm5YDKDjTF6hkMxhoeLMFmCjkRMyMt6jYZJHF/hkmVZqhivOMtORUI9/YFnQObnQeLDCOrdhBqSGOttKJ3vRiAB3pQFcGTHg/aiYH0pNKFlaRH2KQRjKpGORjXJfXUiMf60d/uq6F+2EKMN6PxjLIbh9HHgUhTCdPQQFR3MHLfNdqEsABAA==");
 
 export default WordpressSimple;

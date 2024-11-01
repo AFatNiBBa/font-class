@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pepper-hot` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pepper-hot?s=solid pepper-hot}
  * @preview ![pepper-hot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/pepper-hot.svg)
  */
-const PepperHot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M428.3 3c11.6-6.4 26.2-2.3 32.6 9.3l4.8 8.7c19.3 34.7 19.8 75.7 3.4 110C495.8 159.6 512 197.9 512 240c0 18.5-3.1 36.3-8.9 52.8c-6.1 17.3-28.5 16.3-36.8-.1l-11.7-23.4c-4.1-8.1-12.4-13.3-21.5-13.3L360 256c-13.3 0-24-10.7-24-24l0-80c0-13.3-10.7-24-24-24l-17.1 0c-21.3 0-30-23.9-10.8-32.9C304.7 85.4 327.7 80 352 80c28.3 0 54.8 7.3 77.8 20.2c5.5-18.2 3.7-38.4-6-55.8L419 35.7c-6.4-11.6-2.3-26.2 9.3-32.6zM171.2 345.5L264 160l40 0 0 80c0 26.5 21.5 48 48 48l76.2 0 23.9 47.8C372.3 443.9 244.3 512 103.2 512l-58.8 0C19.9 512 0 492.1 0 467.6c0-20.8 14.5-38.8 34.8-43.3l49.8-11.1c37.6-8.4 69.5-33.2 86.7-67.7z" />
-    </Icon>
-);
+const PepperHot = createIcon("pepper-hot", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABcQAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBawsGAAE2AiQDCAQgBYMtBzEb7ATIjpPlZjJLBM/bPf6cuxvAG0od4dZl8qUKUivUr0O+YPH9//dTf1jTB3xGHyVjmVzgmccnMMBrO/MUrgCb6QRs5i1n1iRlPZOJJunx3OPXFvJ4KTuiDOlmeg/n24fGrxo4QlIhAxDVATB87szJXv8pfop4t/QM8a6JCIjhoBDIkKGxAINkAo3lCuRywU9RKqX/wIIAoiylEj+nI+diCSAHScrzzi0qlamSz2Gw4vL7DerEzQYH6r8yG9CVuqfqNoxrdSvGvZyJW20YqHut3v1Kp/vfbljXwm2XzJ01t1KIm3Wutka5c3w2q0s+dupE4mC96/XGxps9Wzyq/uh33lv2nscv93tjnK8rN3nhtmGNT0yqyur7Vv803vQ609SZXoOBA7/8o3XHlru/HetII3MWvYB7aGea7P3vuk2y36Dp8zsv6LLKQDXfe69m9dun/23o7lMgEEwYc/5Dqw36v3ylBH558c/pZ6T0epIeobwEgqxTqZNFCSQCAJBimxYJAslUiV5rZdcECBURICmrogCZRqoLkKuoowBlNNVbgLIqmikTeQWhtsUTJZVtRJk+9qJcbU9QGYO8WSmrdmTRpcWG9rnLHmPJ0auK7l26FQOKbcPQA0YpiwOL40i7bTLQHhsts946Wyy1xEpbjLDJ5PpWa43x+NG+qNBdF90UBiiu26/r51hqk81WWm9dXWag4n2hnW3++PaIJyraA5QkIlXcsHSDVDZ1XrF+CwA=");
 
 export default PepperHot;

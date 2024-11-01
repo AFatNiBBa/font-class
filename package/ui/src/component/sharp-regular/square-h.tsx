@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-h` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-h?s=sharp-regular square-h}
  * @preview ![square-h](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-h.svg)
  */
-const SquareH: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 80l0 352 352 0 0-352L48 80zM0 32l48 0 352 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32zM336 152l0 104 0 104 0 24-48 0 0-24 0-80-128 0 0 80 0 24-48 0 0-24 0-80 0-48 0-80 0-24 48 0 0 24 0 80 128 0 0-80 0-24 48 0 0 24z" />
-    </Icon>
-);
+const SquareH = createIcon("square-h", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABXwAAAHTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBWAsGAAE2AiQDCAQgBYMtBy8b1wTIjsQ4JvGLKEzi4fvlu3Pf7s8k+0PtO1HpfGrvqjQPqhUdC13FUY3IYBkk+nfIV/C7/7nm8wu9Bvx8J35olcvGBOt8PoGBDudNE4oCmyhOt4mDlOjpkxCJioiOz46zPeTxIh6pkJ6l33ioXxp/jfKApJIBiIEAWLRjyzq9fdEX8av+gfhlDQJiESgFMmQYK8BcmcBYuRK5XNAX9Tr/B5YEEA3qAyeQo4JN2A7IQZLledOgidVKv3x7tVLsSVnqF1k0z68W/UQKUTRHZBGHBCGKiIgowlSyq51XxfaWnoE9//h9/LeJFw7ClIT1Wq235qCa/UgTG26cRMFItUxudEc3vNY+uh4Egu3/3uaAuf8bqwn8+fr04npf9KYeNEogyDrrnfZGLzA/gGKK61pgE0hWybrgVps9FiAUCJA0KATIjDFQgFyhQ4CK8aYJ0KCwRSbyJmGofQZJs0uQme4m5IZ6BxVzfSs1GBpZUCkhoXzpMpd7ZNmmclJ3rZxdTluaGidSWZ1Tbgdar8tIG+103AXnXXXMUadcddxl66rXnLN8RSzzQ6VJutWUZiuPu/fmdle67IpTY/18nTnK+5lW19fT2yicVNHJapJEpMZ3Gew6CQAAAA==");
 
 export default SquareH;

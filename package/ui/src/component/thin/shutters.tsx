@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shutters` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shutters?s=thin shutters}
  * @preview ![shutters](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/shutters.svg)
  */
-const Shutters: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 48l0 32L16 80l0-32 480 0zM16 32C7.2 32 0 39.2 0 48L0 80c0 8.8 7.2 16 16 16l480 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16L16 32zm2.5 192L1.8 260.1C.6 262.7 0 265.5 0 268.3C0 279.2 8.8 288 19.7 288l472.6 0c10.9 0 19.7-8.8 19.7-19.7c0-2.8-.6-5.7-1.8-8.2L493.5 224l-17.6 0 19.7 42.8c.2 .5 .3 1 .3 1.5c0 2-1.6 3.7-3.7 3.7L19.7 272c-2 0-3.7-1.6-3.7-3.7c0-.5 .1-1.1 .3-1.5L36.1 224l-17.6 0zM1.8 356.1C.6 358.7 0 361.5 0 364.3C0 375.2 8.8 384 19.7 384l472.6 0c10.9 0 19.7-8.8 19.7-19.7c0-2.8-.6-5.7-1.8-8.2L493.5 320l-17.6 0 19.7 42.8c.2 .5 .3 1 .3 1.5c0 2-1.6 3.7-3.7 3.7L19.7 368c-2 0-3.7-1.6-3.7-3.7c0-.5 .1-1.1 .3-1.5L36.1 320l-17.6 0L1.8 356.1zM18.5 416L1.8 452.1C.6 454.7 0 457.5 0 460.3C0 471.2 8.8 480 19.7 480l472.6 0c10.9 0 19.7-8.8 19.7-19.7c0-2.8-.6-5.7-1.8-8.2L493.5 416l-17.6 0 19.7 42.8c.2 .5 .3 1 .3 1.5c0 2-1.6 3.7-3.7 3.7L19.7 464c-2 0-3.7-1.6-3.7-3.7c0-.5 .1-1.1 .3-1.5L36.1 416l-17.6 0zM1.8 164.1C.6 166.7 0 169.5 0 172.3C0 183.2 8.8 192 19.7 192l472.6 0c10.9 0 19.7-8.8 19.7-19.7c0-2.8-.6-5.7-1.8-8.2L493.5 128l-17.6 0 19.7 42.8c.2 .5 .3 1 .3 1.5c0 2-1.6 3.7-3.7 3.7L19.7 176c-2 0-3.7-1.6-3.7-3.7c0-.5 .1-1.1 .3-1.5L36.1 128l-17.6 0L1.8 164.1z" />
-    </Icon>
-);
+const Shutters = createIcon("shutters", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABlwAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCDDgsGAAE2AiQDCAQgBYMtBy8bjQURlZo1yH4kxsYyn94QpyaIUytYb2x8Ew//vz++fe67X2N+pgFQZ00y8zhBiYqT1KjmqjZvTTXh+TbH/USJL048Qoa2upBcAuDi1POchwL4JNGgjU1rgizwOdrzBrzAY3m0g6BgBS5grQLWd6qnsRl9mWSU2fJHx7sFcty0XAXpZHqC/fyi8VpXO0mKAkC0AcCkWdOmuldGGfHk/2XxxBQExGRQK1CgQA8BxioEeshqkWVBGf//438gAohK9PQEMqpxFucBGSSVOde0aahvqG1e0TLP7F9Os1VCi4houfRIB3G0Y8s43jniWKcWM/rmfY842dQyTnff1qlXNIt+sc222NqsReyKbTEgmk33ZkaPQQ9wZ3ZsxRvrz7U597buycon7/fX1taWapUvW5etarUqS2yluwV9nva5bdsX2rbN7T9rZzRBzi/kHEZr13qHOdfn5gG4vzsCHwcCwd+NF54uaj32a3XzBF7deP+Lf4T+lyKdQ7UEgqLv/77zE0gEACDFBvUJAskpub+lhWMChGYIkFRqJlDorg1kzfSBCr0MW1CpmWkKkWuEDhYQSFpYDYXhNkHWwUWoMNb9oFKHKOqVrjb6t5gAvUbcNsqswGAmFlOC5Fi3HMvB3xohXFX9sb9dO70Ku+v427yHujdSZgWG6/z9fNPdz3TscxNLvB/8fn8ImiDCSpIU7Ej6Gb/37e4HAAA=");
 
 export default Shutters;

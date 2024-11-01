@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `g` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/g?s=light g}
  * @preview ![g](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/g.svg)
  */
-const G: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 64C118 64 32 150 32 256s86 192 192 192c98.5 0 179.8-74.3 190.7-169.9c.2-1.5-.3-2.8-1.4-4c-1.2-1.2-3.1-2.2-5.3-2.2l-165.7 0c-8.8 0-16-7.2-16-16s7.2-16 16-16L408 240c21.5 0 41.3 17.9 38.5 41.8C433.7 393.4 339 480 224 480C100.3 480 0 379.7 0 256S100.3 32 224 32c57.4 0 109.7 21.6 149.3 57c6.6 5.9 7.1 16 1.3 22.6s-16 7.1-22.6 1.3C318 82.5 273.2 64 224 64z" />
-    </Icon>
-);
+const G = createIcon("g", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABYQAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBOwsGAAE2AiQDCAQgBYMtBygbswTIhofn7Xg7980E8ORXAaSOLMEOWohl0K4q4e9vnv/zKMDHgac4FqYLZCywOc8TSKzLN0EWWBqop5C1s7++N4is0qd8ktV2w2aBPC5HK6VIF9MnOF5vGj+o5xBJngGIqgDoP3XiaG88i2cRn/z/gPjESATEAFAIZMjQUIBeMoGGcgVyueBZ/P+//QMLAojS2hdJIEeGvhgNyEESed61QqlK+ZQKpcrP/GZcxBeTvh3/5eTvx34+dX/tc+XLx7na5+tUiMO1ztb9ZtwXk94b8VGHuyVXOt4b+fHQb8efrXmm9mdTSm5Xvf1T00+WfOLp3vExmckxPsZPnjw+RkafseWGpWrVsuu+bNT4i+uq3Xk5Kkx6/7up8axRq7e+rFz5y7daNXo2Nd67tPPW4zEjAggEvf/6/Me5VXr9WrZCAi9e+uVXOP3/s3gj3UZZCQRZq/9bmRVvAIgBvFKKLUriDQSSrhJctaJzAoTyCJCUVl6ATANVBciV11KAUhrrLEBp5U2UibycUNPsAUlF6yHTxW7I1XQPSunlfb20mpGxiOEA84lLHOLR4LGifZt2RY9i6essMajc71lsS822pFxzmbXEWmtsstgiy21y+Aajrc1WGxJhgz2o0F4b7RR6KI6j5+kpFttgo+XWWlOG9FTc15rZElc3F+6B5B28kCSVUywF");
 
 export default G;

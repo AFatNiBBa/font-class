@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `thought-bubble` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/thought-bubble?s=thin thought-bubble}
  * @preview ![thought-bubble](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/thought-bubble.svg)
  */
-const ThoughtBubble: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M137.2 80.3C156.1 33.3 202.1 0 256 0s99.9 33.3 118.8 80.3c3-.2 6.1-.3 9.2-.3c70.7 0 128 57.3 128 128s-57.3 128-128 128c-12.9 0-25.3-1.9-37.1-5.5C329.2 362.4 295.1 384 256 384s-73.2-21.6-90.9-53.5c-11.7 3.6-24.2 5.5-37.1 5.5C57.3 336 0 278.7 0 208S57.3 80 128 80c3.1 0 6.1 .1 9.2 .3zM256 16c-49.1 0-90.8 31.5-105.9 75.5c-1.2 3.6-4.8 5.8-8.5 5.3c-4.4-.5-9-.8-13.6-.8C66.1 96 16 146.1 16 208s50.1 112 112 112c13.5 0 26.4-2.4 38.3-6.7c3.9-1.4 8.2 .4 10 4.1C190.4 347.3 220.8 368 256 368s65.6-20.7 79.7-50.6c1.8-3.7 6.1-5.5 10-4.1c11.9 4.4 24.9 6.7 38.3 6.7c61.9 0 112-50.1 112-112s-50.1-112-112-112c-4.6 0-9.1 .3-13.6 .8c-3.7 .5-7.3-1.8-8.5-5.3C346.8 47.5 305.1 16 256 16zM32 496a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-48a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm144-16a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-80 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const ThoughtBubble = createIcon("thought-bubble", false, "data:font/woff2;base64,d09GMgABAAAAAAL4AAoAAAAABqQAAAKuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CCfwsGAAE2AiQDCAQgBYMtBzUbhAUjEbZyD7KQ/ZGQk+G1syituIjB3db+4AmLKZb4JR7+f79v+5x7R0zrTLM0XmeRTBpZrWmjaaRBpeHNS/iLSia/IT3LtU5aX/LQtQ9rKqYHtXGDNdnT7z96pSeuef5pTwVS5G/yuEgsHUhF6wQGHEmR1hwlNNMJ2Px28l7iBpEySZ++yW45w2QFNT66oI18lX/wzH1U/DPlIakUADEIgP2TR4/41opWxJ9mhfjjEAFxABYFCi4xK8CWIjCrWkRVBa1oGvoPRAQQ7fydJajoxBu8BVSQ2mtdWetqRSrlE0w+I4xg4tHDlgDMu66Yz+rVEyfeO7IRr+2gOpMeowkc6JT2bKc+u/Jx373QeiJ82QyAGd0OvAuPIq0anPd3rjftJnuNJwlQ0zrdZNc1y3mDIYs5lzpYR4mDRHRrdFEdsJME9SQAnVgV7MDrqC5QrdFNhFdTAHThdSUHqyI7iforArzfdNp4UqvHaMJkSls+J5q7k52lnWFP829ueauqeru9qUx1oBOT6RSolsLz8jx9/bzycyhVuzIZZb5+R5jlBchKYD8+/AuF/w+PkEowmlIodHSCdcoogYKtKewEFlxYPvK7uGj1Cy4hZCeowbAagaCmRbNQuqvxPKl79y522/2BQPDl+tHteOHW/04iwd8PD9/0I9R8S/kOnRIEZbVZdS5BEgCAjJuWEwLptUv/1F7PBQjdCJDadQtQzBgUoOq2IkCbeRsCtOt2VBG1Sxh1PtGp1xW62PSArka9p9ts+W5sNxqFT2VcJvsmph4OyYHgTsjexg55oG5clLOexNR7omWNWRnlmWMiliZfnhKpUmQqyfAiCkupXCEjLNgXIfZs2EE8oO3U9egwqYoUy5Qvz7bjCZ03mCkblzaHnsbzOoigSUAK3qazdVJpUlJOKg==");
 
 export default ThoughtBubble;

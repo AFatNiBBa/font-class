@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `basket-shopping-minus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/basket-shopping-minus?s=light basket-shopping-minus}
  * @preview ![basket-shopping-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/basket-shopping-minus.svg)
  */
-const BasketShoppingMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M327.9 2.2c-7.6 4.5-10.2 14.2-5.8 21.9l98 167.9-264.3 0 98-167.9c4.5-7.6 1.9-17.4-5.8-21.9s-17.4-1.9-21.9 5.8L118.8 192 65 192l-33 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l24 0L99.9 463.5C107 492 132.6 512 162 512L414 512c29.4 0 55-20 62.1-48.5L536 224l24 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0-33 0-53.8 0L349.8 7.9c-4.5-7.6-14.2-10.2-21.9-5.8zM73 224l430 0L445.1 455.8C441.5 470 428.7 480 414 480L162 480c-14.7 0-27.5-10-31-24.2L73 224zM208 336c-8.8 0-16 7.2-16 16s7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0z" />
-    </Icon>
-);
+const BasketShoppingMinus = createIcon("basket-shopping-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbwAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBYwsGAAE2AiQDCAQgBYMtBzwb7wTIjtRG945V4uH/18ru+1U9Z1LdQa4wo4sjWmC1Ci0AC8eo4gbKtXbq1POchwL4HIKg7aHx7cE52vMKFHu+cUwq8LRiraJYdRsvvp0Hg6JH/iFiiA/N4AHy+DqGq5CeTF/hnnxo/K2ryyR5BiDaAGDOpnUrvPdD/BDxVXPiK8sQEHNBKZAhQw8BpssEesiVyOWCH6K5ufwHlgQQdfTeE8hRwVrsBuQgyfJ8TMtatdIy31itFIce6bgharEpHu/0WIf1URSPdHi0YzU2xJMDHq1W41bnZ7tvimo83vmxTkWxMfD8lrWW6+OJ/kU8023jhk0CbNP3hTYv/Nvnq4NfWfT2a9v3PKtevWr7ax/fOvqqiWN+aNXqhy6m/W99rbFzg86NtfWT3oWntdkU27c+bvqWhqf87uDpBqcPNv3qqcB8mtwOAsHHw6Y+tav19Pv11QR+euP/+/jq5vfS7PQC6iUQZMObh9ueZgOhA/BSXNQXfFEgWSqj71rzmAChQICkTiFAprs2AuQKwwSo6GWCAHUK62QibyF0sGOApOYMyEx0CeQ6eBFUTPepW6dDZJlF5gX5sItbaKEF08oxI0eXU8sw0qlkweH4tHJbG3yRK0Noo4NOOem8A/Y74rxBzloRXHDCQgQv8EOlMUYarTRVeZy+chuNe9Y5R3zZ+STTlPetwS7i9iFkJoo51owkEanjF7jyiFyURnxKz58DAA==");
 
 export default BasketShoppingMinus;

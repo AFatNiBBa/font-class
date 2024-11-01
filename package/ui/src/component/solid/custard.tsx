@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `custard` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/custard?s=solid custard}
  * @preview ![custard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/custard.svg)
  */
-const Custard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M396.7 64c30 0 56 20.8 62.5 50.1l13.5 60.8C450.9 167.4 423.5 160 400 160c-26.4 0-45.8 9.4-62.2 17.2l-.7 .3c-16.7 8-30.4 14.4-49.1 14.4s-32.3-6.4-49.1-14.4l-.7-.3C221.8 169.4 202.4 160 176 160c-23.5 0-50.9 7.4-72.6 14.9l13.5-60.8C123.4 84.8 149.3 64 179.3 64l217.3 0zM64.3 350.9L95.1 212.1c4.1-1.6 8.5-3.3 13.2-5c22-7.9 47.8-15.1 67.7-15.1c18.7 0 32.3 6.4 49.1 14.4l.7 .3c16.4 7.9 35.8 17.2 62.2 17.2s45.8-9.4 62.2-17.2l.7-.3c16.7-8 30.4-14.4 49.1-14.4c19.8 0 45.6 7.2 67.7 15.1c4.7 1.7 9.2 3.4 13.2 5L512 352 64.3 350.9zM32 384l512 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32z" />
-    </Icon>
-);
+const Custard = createIcon("custard", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBeQsGAAE2AiQDCAQgBYMtBy4b9wTIjpQuZyTx8Pw6/n/tM3MBz7P1G4j6XL/YHBJYhXwrBH/+r/n8nh8d4OcjOLQobGtq8Optzycw8CiKFmsbzgY0MZ65q6XmIZq8li5lJI/nHh/ZQx7fZg8oIb2avsbT5U3jVx0eIKnIAEQ9ABZs27TGpz/FTxFf9b9FfGUVAmIBKAQyZOgWYLZMoFuuQC4X/BT9/fwfWBBAlJIrSiBHCfbhBCAHSZbng3taq0pq8q1VJZXHHh8Sca1jQLw99c3B90ZzXB18fWhr3BvXcc3Jg+L1YTeqqg5v27zt5bZ3hl0b0hLXpgT73miLG3BvU15s2RIHR9fV1j3e8qJ7ml+orI3HWl+Ke9terhp4u/72774++rUn7m6roWbJd0Zv2HgnnH7mmdNw58YNo7+zpKam7ZvVvb2PVWvDwdl/T5QzB9dW/z374Ibex33iL9Q+8khti+ivIBB8ccfbW/fVzf6/vCqBX97/M1+Y5qfbKJdAkI3uH213mg+MDsBLcYeBxgcFkm0y8qrVXhIgVCJAUqpSgEyXegFylUYJUKLXFAFKVdokE3mF0GxPB0m1CyAz1Z0g1+wNUGK2z9xSzZE5Geki5B8vbilCS0YVE8aOL2YW05BSfoOnwVnFNj/8jlgaQUsddc5Zlx1x2AmXAbloTXDFGUsteIkvKkww1niFmYrj5HH+VkdcdMkJ55zNw8xS3FeHu8NuHkFSIpgTjUsSkcoOXbn0eggA");
 
 export default Custard;

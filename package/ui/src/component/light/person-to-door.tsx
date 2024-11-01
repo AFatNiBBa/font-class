@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-to-door` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-to-door?s=light person-to-door}
  * @preview ![person-to-door](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/person-to-door.svg)
  */
-const PersonToDoor: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 224 56a56 56 0 1 0 112 0zM179.4 116.4c-12.7-3.2-26.1-3.2-38.8 0l-1.5 .4c-12.3 3.1-23.7 9-33.3 17.4L53.5 180c-6.7 5.8-7.3 15.9-1.5 22.6s15.9 7.3 22.6 1.5l52.4-45.8c5.7-5 12.6-8.6 20-10.4l1.5-.4c7.6-1.9 15.6-1.9 23.3 0l16.9 4.2L153.2 257.9c-7.3 21.8 2 45.7 22 57l93.3 52.5L224.9 490.7c-2.9 8.3 1.4 17.5 9.8 20.4s17.5-1.4 20.4-9.8L298.6 378c5.2-14.7-.9-30.9-14.5-38.5l-37.5-21.1c.2-.4 .4-.9 .5-1.3l37.2-111.6L298 253.2c5.9 20.6 24.7 34.8 46.2 34.8l55.9 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-55.9 0c-7.1 0-13.4-4.7-15.4-11.6l-20.3-71c-4.7-16.5-17.9-29.2-34.5-33.4l-94.5-23.6zm83 53.7L218.3 302.4 190.9 287c-6.7-3.8-9.8-11.7-7.3-19l36.2-108.6 42.7 10.7zM130 314.1L101.3 384 16 384c-8.8 0-16 7.2-16 16s7.2 16 16 16l85.3 0c13 0 24.7-7.8 29.6-19.8l23.3-56.6c-10-6.7-18.2-15.5-24.1-25.4zM528 32c8.8 0 16 7.2 16 16l0 416c0 8.8-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16l0-146.7c-5 1.8-10.4 2.7-16 2.7l-16 0 0 144c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-416c0-26.5-21.5-48-48-48L432 0c-26.5 0-48 21.5-48 48l0 176 16 0c5.6 0 11 1 16 2.7L416 48c0-8.8 7.2-16 16-16l96 0z" />
-    </Icon>
-);
+const PersonToDoor = createIcon("person-to-door", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABrAAAALKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDLAsGAAE2AiQDCAQgBYMtBzUbsQURlZoLyX4mxGOHlj0mXy6mV+yJTrwS/PP6U++TZHOQf0pEMPV0AppozuwA0MEhaLLW0QdusVWN73/cT/1x/ukDPt7EhxaZVImd5xPYeQZG0cBnBdaCvsF5Ew45lCG0b4HTF1XAB2av+QBsrh9U/8liBRicBQBAiQAAQNPe3Tvy5Kd+Sh9iN0EfaA8IQM0A8BBgAQvkIgAaYBGQi8MDHA7BT8Vi7D/QQwAgP8m1GAAcEASuAq8BAAeAwe9cKK5ZJLlGxBfnekV84f77S5/0PXUqIvtKnaoTtrdP7unscapEqk6kdtCOtJ3srN0ZEe1OK6ke2pO2Ez0RsoOavbW/VD0tlS1PB2vuOjJ2aVj50F7aV6pXzx69e5TSrlhWs0cXENaO1J1QutM51Rl3NOKZCf0gVzUSDkJ703b21poZu9NqX/quCetE6g5DEa1P0+cri52Tc1/4YdQHYqvTunZNyyO7JFx+/PhyAr+wA/WLF0+kxJeGnFt/9k5DVh0zHLtmKT6WJoMG/xlYnfLzafj508Dy8+jToSWoxCS+c6SwDj/j43/W4Ui9lFas3TUwo2vN8suDkcep+sUncG7F5tyWQNDz0ICeNFk2mn+bZI2kR+DSIdS/3M60YCJbsB+/VhlCla8f7ZE+/AqJBKddP3c+AAIEbZ5XLhyc0KAoGDEA/L63CJ0ce2iamHNAEAOAwFaIVRhgmgAwSgGA22gWxXY6KMBwFqMwRdl1N1KEAXEZ/hGTgSWHRHCEKQ8+8qlJPzm9Oxa5ECKVgRAMUaaCpRYLwZHKdfDRgNcuP6my1pdp+Zg/j/FkqzHesp1XtVIVr563mdSybCRdN9f3TsvKzOJFZeFSRk2eNGPkiLEzRuS0jt6ZE1vtES2f6FWtVMWr593OPJ/fa+S06WMnTwpbqe+9byoza79yWag0JDSrRRkMyMTbdnvFGZMrenU=");
 
 export default PersonToDoor;

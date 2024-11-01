@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-terminal` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-terminal?s=sharp-regular rectangle-terminal}
  * @preview ![rectangle-terminal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/rectangle-terminal.svg)
  */
-const RectangleTerminal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 80l0 352L48 432 48 80l416 0zM48 32L0 32 0 80 0 432l0 48 48 0 416 0 48 0 0-48 0-352 0-48-48 0L48 32zM86.1 169.5l17.7 16.2L180.5 256l-76.7 70.3L86.1 342.5l32.4 35.4 17.7-16.2 96-88L251.5 256l-19.3-17.7-96-88-17.7-16.2L86.1 169.5zM248 336l-24 0 0 48 24 0 144 0 24 0 0-48-24 0-144 0z" />
-    </Icon>
-);
+const RectangleTerminal = createIcon("rectangle-terminal", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZAAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBTQsGAAE2AiQDCAQgBYMtBzkb1gTIngXO6YtGdEQqxIloGxufJvPYhBH//dpnn/vezO4GgGyiULGLRwkoCYyKIwksDArJQv6KTUVGjwVj7n7mcWs/MYvignmjeUksUwmFRiSZIcHyvTZk/q/5/J4fHeC3S+FDi8JMjUV55vMJDDDai2i0gc10Ara3DR1KROBKIiRIJBrTxuoGPV+zgXpWwCP90Pxl8AJlaACyAgAcP9up4XeWWfJtmnxTAYEcB7ADoaFhCwKHCAVbiOwAXRdmmSb6D2QIkJG8S4GOESfASQAdlN77wuqNSuWwtJ9RihddEwhrSVqWXlQoF0lFFi9NWpJF5602a4+65Eg29gzIHVf6ZEvmdExZvNjfvOvDiu9/2fN/PaQcnXf88gcasRQQ+K32w8/t4FRz4J06AsudO4ugYC/Tas9f6zEJQP+uoAHy3Men+mChzfyfVxb48wX6K5pmpT5gXoHQ9kwe0wIUAQBU7sFUQFCOEcFXXeIxAmIRAspokYBmMx0C3SK7ERhsE0VgtMhJQukLYo3ZBGWJm6A56Bl0a/yAwSF/6WhNhOnEJQP3m0vOWyi3joO+AKd42zT4DGHqcprDiuOJh5xwFXvXrjzY2Tr1YJA7tcKjS3kPzvkiFuQTwFL4uPN6vm/nzr1T167aKml8P3B48ic7QRcQ2r0eKEVq1a3d5mF1dbjYeV8M");
 
 export default RectangleTerminal;

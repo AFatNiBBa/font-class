@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-bubbles` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-bubbles?s=sharp-solid hands-bubbles}
  * @preview ![hands-bubbles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hands-bubbles.svg)
  */
-const HandsBubbles: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M416 64a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM32 128l0 32 .1 72.6c.1 52.2 23.9 101 63.9 133c.8-80.9 42.8-155.8 111.5-198.8l46.6-29.1 34.2-21.4 39-67.5 12-20.8L297.7 4l-12 20.8-84 145.5-20.8-12L244.2 48.8l12-20.8L214.6 4l-12 20.8L139.4 134.3s0 0 0 0l-43.3 75L96 160l0-32L32 128zm284.1-11.8l28.8 46.1 28.7-49.8 12-20.8-41.6-24-12 20.8-16 27.7zm43.2 69.1L376 212l23.4 0L420 176.2l12-20.8-41.6-24-12 20.8-19.1 33.1zm-61.1-37.4l-27.1 17-60.2 37.6C159.3 234.7 128 291.2 128 352l0 8c0 8.9 .8 17.6 2.2 26.1c35.4 8.2 61.8 40 61.8 77.9c0 6.3-.7 12.5-2.1 18.4C215.1 501 246.3 512 280 512l176 0 24 0 0-48-24 0-104 0 0-24 136 0 24 0 0-48-24 0-136 0 0-24 168 0 24 0 0-48-24 0-168 0 0-24 136 0 24 0 0-48-24 0-136 0s0 0 0 0l-93.2 0L305 219.1l27.1-17-33.9-54.3zM544 160a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM112 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const HandsBubbles = createIcon("hands-bubbles", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABrQAAAKxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDVQsGAAE2AiQDCAQgBYMtBzQb2QXIjtMlNiI1b/A86VHvT7JK1piVfZA7q1J1W51VyRXE6ipuO7qR7kajAeAEnj58oK4o6n+uqRfP71aA32hokaGJUfV8AgOMtqQ1QaQNdDShgfuszXE86OByizyiT9UjFhT707C0AqY8NVbgAGqHug1s1hOVrwSxAhQuBgAA4gkAAFT2d7dy/pW8Ern1/yTILZoBAZBKADQCGIABhCIAlGAgQCgmGjAxEXgl//+n/0ANAgDiCH+iAsAEXIAbwEMAwARA4WSaPtluHuU+braDm9lnO1gT1weAbJOl/mGt8zWW+Lk9CgFZknoTe/ZrL5Zi6ZcQKZJA6ZG4LlxaKD0iPtbY1LTU7N2YwN7EpERb0sdPkdKWkJzQImdSDsgSv5m4gtT319q2iGWJKOvamywplmSp6l3qD/KwY6wPSDJud0gLrnEjMAeVWNznub9H3p5wm52L3dfAGvealAyLyzV3bCReySO3S3cznuFHXBUnWM0JurfQTNk0M0P5NACSmshEUxFi34HzAsfZJo7fXGOhcwDVnGAbJ9CXB7jOSSb296U54xa6yzRdXQKn6SOBQuCkQNYosgbbI9tjnwMwnGcM4PfLfmXU4ZEDH06f/jBQDwcAAQQ2+dCYkR4lv5xtBcCbcz+/y5fQ/88rrfYBzigABIyU/ykMUxVotNIIdClZQJTzSgiguIAT2MWVrQgAggUIAApHrA4GIXiCiUUyOBBOLmtyeDcGYrog+DIcoHBlNhjksRBMfDkODpRwzeWIrxghzQlIzh9lwjqL17bTmWkZukifJjVulLJKc7GeViYsyEWJmMoEZjKDeYxnHJOZZxhzaPXOZzp1HlHLG9FkkkYGmiL0cuatsE8Mc5hrWccy1lspRt9vTWCBXzkRGgWZZhGhUCDK7ZsLSx0zf8yYaePnAgA=");
 
 export default HandsBubbles;

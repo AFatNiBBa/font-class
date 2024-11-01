@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-virus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-virus?s=light shield-virus}
  * @preview ![shield-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shield-virus.svg)
  */
-const ShieldVirus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M243.5 37.3c8-3.4 17-3.4 25 0l176.7 75c11.3 4.8 18.9 15.5 18.8 27.6c-.5 94-39.4 259.8-195.5 334.5c-7.9 3.8-17.2 3.8-25.1 0C87.3 399.6 48.5 233.8 48 139.8c-.1-12.1 7.5-22.8 18.8-27.6l176.7-75zM281 7.8c-16-6.8-34-6.8-50 0L54.3 82.8c-22 9.3-38.4 31-38.3 57.2c.5 99.2 41.3 280.7 213.6 363.2c16.7 8 36.1 8 52.8 0C454.7 420.7 495.5 239.2 496 140c.1-26.2-16.3-47.9-38.3-57.2L281 7.8zm76.8 311.4C334.5 295.9 351 256 384 256c8.8 0 16-7.2 16-16s-7.2-16-16-16c-33 0-49.5-39.9-26.2-63.2c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0C311.9 161.5 272 145 272 112c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 33-39.9 49.5-63.2 26.2c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6C177.5 184.1 161 224 128 224c-8.8 0-16 7.2-16 16s7.2 16 16 16c33 0 49.5 39.9 26.2 63.2c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0C200.1 318.5 240 335 240 368c0 8.8 7.2 16 16 16s16-7.2 16-16c0-33 39.9-49.5 63.2-26.2c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6zM172.5 240a83.5 83.5 0 1 1 167.1 0 83.5 83.5 0 1 1 -167.1 0zm67.5 8a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm64 24a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const ShieldVirus = createIcon("shield-virus", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABrgAAAKzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3iDBwsGAAE2AiQDCAQgBYMtBzMbigUjEbZq7gmQ/bEY2yJ6d4inReNMEJXO6lnJxDIe7T0RcAqp61PCUAHwx707/+fRPP9/ExXKa8yBa9C/aM7zBAIdY2iJB5ZYQpq6KXmq4NPDUURCYbWTHafH/t2AKXelHA5Qu9U7YKN9qHwmzTJQmAYAABIGAAAa9+zankdZyYq8s6+DvKMtIADSBEAjgAEYQC4CQD0MBMjFRAMmJgJZsW35D9QIAIgTfU4BYAJu4ABwHfwJoHCaZttUbtOAx+NzBMwe/T3evjvj3eV4epG+1OhRt22JD02eVDkie0v2rHuiWDc5Zm3jUPf3VXi85MeeY4osTuwo0aP3mRyJ2TuTOxInMnvK7vRu61SJAUTYZu0qdqxMeFv8dAoAwvb48fTuUuHtybPFAYB0eG/Jk6UBuLTHwbp3a9/O21frVp07+d1P5uwpcSy1u3jr59KVFxY5Ez7ztfDdiHf83nPt2cU2pFQlO3h2X7viz5+3K3F2b9CupFKX2rRbvbqzcB64YKlIs8qq0Kh84+5l9u4tYDClLqqsCwecmVNrqGWwbHE2GMwuXrZMrVl765Ru1SpF4NQpi+hTt9auCQtExNo1QBKX1yE4a8eOWfn5V26wiatzPN5ZtP8XpGCSAIA8df3FmZ0DQ/X+un0KgE93vv+1HxGy78tPdQZwowAQMMrZ5fopCBGSnwgaUzKjSPBlBFDswAkAjR+IJAUvTFThxIsa5BBGTbyURR3kU12anN8VAzE9CBb9gSr8TEYNajAfNbG4ijqox8uYE0uMsyo/afJfxTRTLRhpPkpXrlBJ19G3BUNx/KRtsK5OW0rNKA2lsYYREydMGz5stAFxp7RPTh/fIuI0/6KuXKGSrqO3y3tNDyJMmTraNGF/mLr6/UCpGXH70rArVGyVbQoFovxTR40ePm5Y+a8AAAAA");
 
 export default ShieldVirus;

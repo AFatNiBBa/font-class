@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `block` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/block?s=light block}
  * @preview ![block](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/block.svg)
  */
-const Block: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 64c17.7 0 32 14.3 32 32l0 320c0 17.7-14.3 32-32 32L64 448c-17.7 0-32-14.3-32-32L32 96c0-17.7 14.3-32 32-32l320 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm48 88a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm248 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM112 392a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm248 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Block = createIcon("block", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABegAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCBfQsGAAE2AiQDCAQgBYMtBywb+QTIHge5KfNWojnKx0rEw/drfZ77umcWgHqZ0QFjEF3UuKCQYZuK3PpySpK5at/n/3LPb9rRAX6jQxsLl56voXM1liaQYNn0XhZIFlimCVjmLRP3iRlFipmapH+fPX7dIY/n0U+J9DT9htv8ofGfNi6Q5BmAaAyAySuXzlf5O/6O+K2K+M1cBMQUUAhkyNBegHEygfZyBXK54O+oVvEfWBBAlMnTEshRG5uwG5CDpJznbdvWEaNeqUG+or667s7rLSIeSnGm+YO69eNay0eRxdlWj+s12PJBr4hPWqd42vvT7g3i476ft8viWZ/PetRf/qzHB62fdv+43XKwY3qZOavLZ40/+7/zHZ0+3fAKVxpOwlU4OrHTmyY0qTtJ3SZN3kyiBEQGrmyxeHGLgte0YmlHTY19HAgEv0/3zcZG497VrpfAvz98136Eqn9HJX2G2hIIsn7VftZFBaIiAAApTugSFQSSVd7sXet7JECoiwBJWV0BMu00FiBXV18BSjoaLkBZXUtlIq8jNLc+gaS+wyAzwkmQa+57UDLOj1ZZ88jCjA0S9peXNEND0w8VgwcMKsYUy0LnIofO62OLbbnXCTPoTSftcNABx2y3zW7HFHnEfPe4/WZ4xHRfVBhsgEEKYxTH9VZaoawjjto9F873Gau4r/dywp/dm7REKIeIJYlIpYgEAA==");
 
 export default Block;

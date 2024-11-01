@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-code` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-code?s=thin square-code}
  * @preview ![square-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-code.svg)
  */
-const SquareCode: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 48c26.5 0 48 21.5 48 48l0 320c0 26.5-21.5 48-48 48L64 464c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48l320 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM266.3 170.3c-3.1 3.1-3.1 8.2 0 11.3L340.7 256l-74.3 74.3c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l80-80c3.1-3.1 3.1-8.2 0-11.3l-80-80c-3.1-3.1-8.2-3.1-11.3 0zm-84.7 11.3c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-80 80c-3.1 3.1-3.1 8.2 0 11.3l80 80c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L107.3 256l74.3-74.3z" />
-    </Icon>
-);
+const SquareCode = createIcon("square-code", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABegAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCAwsGAAE2AiQDCAQgBYMtBzIbBQXIrgZs1zIhDi612aWU1ru4cjxd08FJDDEenr+Xnfv+a6zFRZPaGrZxcwHFUTYmUoG1NV7Dhx+X7yD/A5zpdNfAgW1tIZp9oaw51cEDf7NewxYFHm6bGk9cyEvT/vGmCG6RVUDMtZRcNe/zf83n9/yoQL7RoVRYaWqU5Tp5Agc4nadNKArsRHHW5njVc3BQXJ6II+sRadj6YesIOS6xhUE6pcah/mi86HBIUhQAiHoAMLvSqeHjzz/4+78S1+ZBQMwB6EdBgQLdKGACTaAbXT/IsuCR88R/YD8EEKXoL5VARinWwS6ADJKc6dpOmZSnCeh9nsadPttwrJE5k082nRflolW4VK1OY3xy4E0tc+7e7Qav3otO4cIjHHp9ZNdUFNk3q1pWZcMirzIFmSk5oXFNaxFi8T9wp/1D982NkoN2c+uSSEAqszaJhIbKiHMbGu7IIITkA1G5wCDV6ZSNRqJAti0dHvMLtwMCwdUOeieKX8urqIDn1y969f+fIwlQLoGgGPofMogDUCkAbop9WIyaBZI1dJB7rXYkQKhEgKRUpQCFLmIUkFUaRAElesVRQKlKC2gicxCaDU+QVNsDhXEHIGv2DkpM+HRLNYfiaayfsD96SXmGclXEC4RIhjy2HZzz0HU9S5YVZ7+MueUAJjas2zU2MleSkG21YM+avAXn1IgICwghMsh276vUJ3fbjvm9sL9LFnnfcNm3Z7tFp+qEw0pJIhLva5X9Hgg=");
 
 export default SquareCode;

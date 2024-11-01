@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `business-time` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/business-time?s=sharp-light business-time}
  * @preview ![business-time](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/business-time.svg)
  */
-const BusinessTime: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 0L128 0l0 16 0 80L32 96 0 96l0 32L0 448l0 32 32 0 328.2 0c-8.1-9.8-15.2-20.6-21-32L32 448l0-160 144 0 0 48 0 32 32 0 112 0c0-10.9 1-21.6 2.9-32L208 336l0-48 131.2 0c5.9-11.4 12.9-22.2 21-32l-8.2 0-144 0-32 0L32 256l0-128 112 0 224 0 112 0 0 64.7c5.3-.5 10.6-.7 16-.7s10.7 .2 16 .7l0-64.7 0-32-32 0-96 0 0-80 0-16L368 0 144 0zM352 96L160 96l0-64 192 0 0 64zM496 256a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 256a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm16-224l-32 0 0 16 0 64 0 16 16 0 48 0 16 0 0-32-16 0-32 0 0-48 0-16z" />
-    </Icon>
-);
+const BusinessTime = createIcon("business-time", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjgAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCcAsGAAE2AiQDCAQgBYMtBzQbdAXIhqCyVWb1zh7MHDxCPwOI0FPEXkgWAnhs+OQRWvg/1+S7tsiBfFsQDO2ibKGN5RH5fAIDnd28wZqmAztRnG0zTCiiiNviCXk+kYiGxYbxj1DE3zFRnXRP+hI3tR+NH/R3DUlRAxDdALBsz45NPv46vo748v83iC9tQEAsB1mghhoGCbBQTWCQQkahEHwd//8f/wMzAUQTfGcCBZpxHx4FFCCpF8Wy1oEDe1b19mJ3VS8PlFUpRFmKFKJqv3NAW0RUIURVdfUthX0fI21V7eKu6rregURZ1vzOsiqnAbuuG/WBJ/rfo9Hv7pGPl9eOfnLAvdE18L4xT1XpugUR7015Kbomvzj/3fLauW9PfF5j0gvz3qn2nFbPGPv2D3+227M/Dfvy9Jdu+qgb7m2rozlbKstrP2zM8LCbTZXli7tNucxUV2t82LK04eKty1zc0nLxMlk+ulU33TqPfAzPpT629KaHhjzIg999N2RIDjz44JAh1vAyJpGmDRs9eti0lMakDqrs/Crn3M1SzHZbmuk8NRiIy3a+tKo80rnwr5YqgW/f/eU3/eb/P06N9CxaJBDUJv4/0cHUgBgZQCHFlYYrPgskt6kDPtHmTgFCiQBJk1KAmoG6CVAoTRhQN8Qs1ejsMAWiaJXq5VCApM0lUDPbVVDo5TWoW+iTQpNeUXNQ3b3038Oc1RJbtStPmzw1z8/TjsfwObVsLsjm2Ngr08Q4Oui0i1zocqecdI7LhXSpTeUrXGC1xqzio2yayabK5svL/d/Obi5c6jLnfFvr2yyQ96fGulKfP46SCaJO15IkIrVfWXfStQU=");
 
 export default BusinessTime;

@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `r` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/r?s=duotone r}
  * @preview ![r](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/r.svg)
  */
-const R: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M64 32C28.7 32 0 60.7 0 96L0 288 0 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-128 95.3 0L261.8 466.4c10.1 14.5 30.1 18 44.6 7.9s18-30.1 7.9-44.6L230.1 309.5C282.8 288.1 320 236.4 320 176c0-79.5-64.5-144-144-144L64 32zM176 256L64 256 64 96l112 0c44.2 0 80 35.8 80 80s-35.8 80-80 80z" />
-    </Icon>
-);
+const R = createIcon("r", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZwAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBQQsIAAE2AiQDCgQgBYMtBz4b0QTIhuBD59s+Sfbky2FQUgEBHRIVNbYE7Xnq1POchwL4AJ4xMecBWeBznkcg59HNk7eOtkI1rYFVt8meCgKfjpCQSAnpuMrjq4csZqdnlUjuTr7DDfofwPhFC2dJ1KQAoj4ARi2YM81HP8aPSXxXfY34zlQExGhQCKRI0VqAoVKB1jIFMpngx6Ra5ceoVgsCiDK6UgrKyDAWUwAZSJBkWdf6lVKdbH6llC95rGPEU82FONnk9sqVZndGRCXmxe0CTSg6m86Pd3u82O6R4R+Mz+fllVxZ4PVOT7e5r+NTfTs8U/+Z39p/t/47Ix58qAEN8o88pO7Fi3XbzJNWWH+zw698/OSTXVofnnPAzjO767Q+eOHjnTt+2FlOfshO9dfNj5i/rj4QCPZP/uLiinpD/6tVScDP7/zxj/47qn4fo5NnUEsCgrRrtaulsZ/q/zFaAACS2K9DjASB1FAJfGptdwgQcgRIlOUCpFqpL0Am10WAkrb6CVCWmyMVWY3Q2LIBErXtAqn+joFMY6+CkqG+FMsaRxpJZByQH7m48RIal1f06t6zGFyoKqaCA6/pIcU233F/dnVCq/V22G6vddbaZK9Adpum7LPNeAse54sKvXTXU2Gwwm08c/OFuNsem9aMP8sQxXmho/12cCcUkwB630FJSiSR1uzu9h7ZCjOvDgAA");
 
 export default R;

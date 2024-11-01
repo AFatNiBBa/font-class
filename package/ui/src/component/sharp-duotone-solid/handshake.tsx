@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `handshake` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handshake?s=sharp-duotone-solid handshake}
  * @preview ![handshake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/handshake.svg)
  */
-const Handshake: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M189 180.8c18.6 26 37.2 52.1 55.8 78.1l39.1-27.9 57.2-40.8L496.4 332.6 512 346.9 512 128l-1.5 0L426.6 72.1 414.5 64 400 64l-32 0-15.4 0-12.5 8.9c-7.6 5.4-15.2 10.8-22.7 16.2l-89.3 63.8c-13 9.3-26 18.6-39.1 27.9zM544 128l0 256 96 0 0-256-96 0zm64 208a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-        <path d="M156.2 352L128 352l0-224 96-64 64 0 29.4 25.2-89.3 63.8L189 180.8 244.8 259l39.1-27.9 57.2-40.8L496.4 332.6l18.6 17-63.8 70.2-19.4-17.7-52.9 57.7-35.4-32.4-12.8-11.8-47.7 52.2-35.4-32.4L156.2 352zM0 128l96 0 0 256L0 384 0 128zM64 336a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z" />
-    </Icon>
-);
+const Handshake = createIcon("handshake", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABiwAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCOQsIAAE2AiQDCgQgBYMtB04bWQXIhoc3m9X7VW1rpr0MvQx8hJAep8QZoHK0LiQKV57/az6/59eAn4/gUKKxYsXlEfl8AgMsmmWKDGw2U9zgvEmHFNoQyvdQpFH5DjXSs+krPBz/D2D8qq87SNozgOgCgCW7tm3wSTOaKb5qvUF8ZT0CYimoBDIyBggwXxYYoFChUAiaqdWiGa1WRQBRl74zgzracA3uBxQgyXJRjGlvH8Yva9Q6FjsbtXJX2SgjdkUjxsT2mB07Yl5sktwkc2xsjoXRKxZDZedJRqyTooy846leT/R4sufTvfe9OiGiFa56PSN21J0mVpY9Ypfh6dvjheHHUk6N80iUO5g7DGTg7KGvdXnt9yFfnfzK84cGpG9uOrTIYp/Zvcg5szY45x7PPaSyaIUh1qh84V+VfVuf/+lwuojDLPq2U7PZSRb6oLz4EmasxLec952wbZa3dZ70mW3Ltm3bvciEBUenk+MO89dBIDi/YNorhzrP/7+tkcDP7/35i+bi1m/plvQa2iQQ5PGt8fanW4BRA0ikuMrQg6/6UCCbJ0s/tYOnBAglAiR1pQBZf10EKJTGCVAzyAwB6krbZFG0Cz0cGEDSwaUgm+lGUOjhdVAz36fxuh6RXaHghoSfwNSVU2jFtGrKxMnV3Gq3rBMdFqfH51WXtdFX8bYxcIWTLnaRK5xw3JmGmZCX2ZC60oVWHsEr/FBliokmq8xVPa69VHdO4pe53Jlt+fkk81Tfh0e76rj3GGgmKe1US7JMpMhdwwlThs+dmGCf27ovZJsLAAAA");
 
 export default Handshake;

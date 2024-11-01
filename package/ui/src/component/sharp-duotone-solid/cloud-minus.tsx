@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-minus` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-minus?s=sharp-duotone-solid cloud-minus}
  * @preview ![cloud-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-minus.svg)
  */
-const CloudMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336L0 480l144 0 368 0 128 0 0-128c0-59.6-40.8-109.8-96-124l0-36c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192l0 8.2C40.1 220 0 273.3 0 336zm224-72l24 0 144 0 24 0 0 48-24 0-144 0-24 0 0-48z" />
-        <path d="M224 264l24 0 144 0 24 0 0 48-24 0-144 0-24 0 0-48z" />
-    </Icon>
-);
+const CloudMinus = createIcon("cloud-minus", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABagAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBMwsIAAE2AiQDCgQgBYMtB1Ib1wTIhuB5u6h6v3tmAfVKimBlUAQoA4/IOOHli/CEeKZOPc95KIDPIQjaXhiQBT7neQQikrTFMSnAXULVGlpvJ3WuGOiySbouXzJsbtgMygny1D07qUS6mSo4T/8DGL9q5SRJrQxANATAxEXz5vr2TbxJUal+SFTMQUBMAoVAhgxtBRgjE2grVyCXC96kapU3Ua0WBBBl9CgZKKOEMZgCyEESUp7X6lSrTqlevrBOqfaiOrXriNq1I4Q69SLu9XsxLFzT68mwU11ejPp82M9jvpwvPuzzrO3Yvp2eNHzye8fKxorXn7Rs+e0ALR8NsPuCWf/XUfUuPLzVRc0nT4623zVv6JBvJ0elEpNrenn5coPX00dXg0Cwat/xS6sajPm/Zp0E3n3+5y/pftU36Wh6gpoSCLI+1T6Wp6Ng0QH8qBQHdUpHvUEg01uCn1rXNQFCbQRIymoLkGmjoQC52noLUNLeUAHKapsnE3ktoakVBSR17QGZYQ6BXFMfgJIxvnPKmkamQqQCkDe4uGkcmjpVDOw3oBhVNAOZ0grcD0cX01qPg67QE3baaJed9ttgvS32M2Svuf4BO0zrwVN9UWGgfgYojFIsx0tuITp77bOlzqyPGa3Yb/dwsF/fE8wkYg4yk8mIFFmTzwSlvi/PW/v6nsZSM8kcPAAAAA==");
 
 export default CloudMinus;

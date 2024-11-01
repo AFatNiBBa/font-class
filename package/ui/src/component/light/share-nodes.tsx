@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `share-nodes` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/share-nodes?s=light share-nodes}
  * @preview ![share-nodes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/share-nodes.svg)
  */
-const ShareNodes: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 112c0 44.2-35.8 80-80 80c-22.9 0-43.6-9.6-58.1-25l-151 75.5c.8 4.4 1.1 8.9 1.1 13.5s-.4 9.1-1.1 13.5l151 75.5c14.6-15.4 35.2-25 58.1-25c44.2 0 80 35.8 80 80s-35.8 80-80 80s-80-35.8-80-80c0-9.7 1.7-19 4.9-27.7L147.2 299.5c-14.3 22-39 36.5-67.2 36.5c-44.2 0-80-35.8-80-80s35.8-80 80-80c28.2 0 52.9 14.5 67.2 36.5l145.7-72.9c-3.2-8.6-4.9-17.9-4.9-27.7c0-44.2 35.8-80 80-80s80 35.8 80 80zM80 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM416 112a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM368 448a48 48 0 1 0 0-96 48 48 0 1 0 0 96z" />
-    </Icon>
-);
+const ShareNodes = createIcon("share-nodes", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABhgAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCEQsGAAE2AiQDCAQgBYMtBzIbEwXInoWxe2LJLCYl5y1vki8VD//M9XZfkpkCUFoFQOgJ2bULRvyzFlX1JLMby5vDarQ90PTQsVoWel/hmc//NZ/f86MC+XwpdmiRlHogRRXr8AlMLLxpJzIb2ERxg/NGHVBoCuVXyOJSpEByIYFj7kvjbw0cJZGlAKI6AAbNmDLO97Ioi/iz9Ib40xgExGCQC6RI0ViAvlKBxjI5MpmgLEol9h+YE0AUhbYSkKGI1dgGyEAiy7I+VcKzlQpVsumVChVXXG4Zcb/r250aZxysPS0e9XgzD2yCZ9GHfoimx+PKvHYmvTsjzgbkl88svNfokl6s23xeLuQShd+N22zc6bG5mbKlFg/x4W9uOd8mxHSWVc9XnB2jUK5c8exoK/Lqy6ZHTFd8ka429sQIi1649It3YqSx1RZqG75d/+7d6xlrwreK79mzvuJehwnmfSAQnH2juKBa319QKQF/ffz/l31dqSy+Jw9RXgKCtG0pc+M7IGIAfhLbtVhgBxKLZcPgp1Z2VoBQEQESRRUFSDVSXYBMRW0EKGiqmwBFFU2RiqyCUNu8BiQq2wRS3e0DmdpegYK+fnhFtSN94MTHRfzfSxvehYYdyzu175j3zmd7KukZ4vVun3yz2XI7n2kFL1pug/W2WmapVbZ2kM3GhdusM3wJHuaHcp2011Gut/zw8OHp6ZbZbItVNlhvD+kjv95tafvy8lbQSQTOziqJhEgq3Z16uy9P3wIAAA==");
 
 export default ShareNodes;

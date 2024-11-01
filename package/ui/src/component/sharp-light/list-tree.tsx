@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-tree` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-tree?s=sharp-light list-tree}
  * @preview ![list-tree](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/list-tree.svg)
  */
-const ListTree: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 80l0 32 32 0 0-32L32 80zM0 48l32 0 32 0 32 0 0 32 0 32 0 32-32 0 0 96 64 0 0-32 32 0 32 0 32 0 0 32 0 32 0 32-32 0-32 0-32 0 0-32-64 0 0 128 64 0 0-32 32 0 32 0 32 0 0 32 0 32 0 32-32 0-32 0-32 0 0-32-80 0-16 0 0-16 0-160 0-112L0 144l0-32L0 80 0 48zM160 80l16 0 320 0 16 0 0 32-16 0-320 0-16 0 0-32zM288 240l16 0 192 0 16 0 0 32-16 0-192 0-16 0 0-32zm0 160l16 0 192 0 16 0 0 32-16 0-192 0-16 0 0-32zM192 240l-32 0 0 32 32 0 0-32zM160 400l0 32 32 0 0-32-32 0z" />
-    </Icon>
-);
+const ListTree = createIcon("list-tree", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABdQAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCOwsGAAE2AiQDCAQgBYMtBzAbOwXIHoPjbolBEBGiLONxTMO9HvH8/+/3v7n2Pd/u+6bgGZJqNS1REpFIpFmiv9TAQ/yDapKvJWN6X2Ihv8DoEAbADsj4Vvi5seP4yWbtO/zE5fjvz5/+eU2yR9vTird3T+1FXQKBhmmXL/AssEwTsKzNIag/CHKDKE9cQhJPOCw9DUs3aHmOi5h6VX94Vj80X215oLQOAFkEABfvt6v4mGU7+RuQ9y6DQC4B9iF06LALgTOEgl1E9oGmCds0DPk/kCFAJoGXFWiYwRPwFNBAmWoieX4GFaVYLeq1qxVjZBQihWPUKxGRnpCzr+Q9FFQSBUHrhe6oVyO9SgAloiCYvegorH5n03nDeHH8ff/fxp+9DxgWkmjgfUsMdEkOWxdEG4dzbmZ2Y1GHqYeg8PVeblli6G7w9USBWfkzT2O+ONkR7NX7AYLw5v+4ZVF75r9MKQB8eep3/hkZLtQY0wqE7uDgMlegCACgcsFQEJTHpPCus54LiB4BZVIvoLOTDoGmdwCBCXuEEZjUu00oTY5YNX9QZdYjqnPMJdWseqQmnPFZm7SazgtVH1J/ArMqDJZPsd/j4wRftqnmWHJZT/LtyHYhY/ZwERsOHTizbs22M4JPVJvn9lVWUNkXMT8PH5bA5t6z1SPWiVPbggP7MUn8fMnmYj3bHlIBSB5SKEVK/hbb7u8TAA==");
 
 export default ListTree;

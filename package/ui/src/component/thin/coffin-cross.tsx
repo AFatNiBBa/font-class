@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `coffin-cross` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/coffin-cross?s=thin coffin-cross}
  * @preview ![coffin-cross](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/coffin-cross.svg)
  */
-const CoffinCross: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M23.5 125.4c-4.8 5.5-7.5 12.7-7.5 20c0 2.9 .4 5.7 1.2 8.4l95.5 330.6c2 6.8 8.2 11.6 15.4 11.6l127.9 0c7.1 0 13.4-4.7 15.4-11.6l95.5-330.6c.8-2.7 1.2-5.6 1.2-8.4c0-7.4-2.7-14.5-7.5-20l-91-104c-3-3.5-7.4-5.5-12-5.5l-131 0c-4.6 0-9 2-12 5.5l-91 104zm-12-10.5l91-104C108.5 4 117.3 0 126.5 0l131 0c9.2 0 18 4 24.1 10.9l91 104c7.4 8.5 11.5 19.3 11.5 30.6c0 4.4-.6 8.7-1.8 12.9L286.7 488.9c-4 13.7-16.5 23.1-30.7 23.1l-127.9 0c-14.3 0-26.8-9.4-30.7-23.1L1.8 158.3C.6 154.1 0 149.8 0 145.4c0-11.2 4.1-22.1 11.5-30.6zM200 104l0 72 80 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-80 0 0 152c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-152-80 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l80 0 0-72c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const CoffinCross = createIcon("coffin-cross", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdgAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCCAsGAAE2AiQDCAQgBYMtBzMbCwXIHge5KfNWojmKKG8SDx+60vcl7fosmUEGIN4bu0JIqlRA0HFT3KTNpEy9xfxeIfoT1zz/tKcHLPJHiba0vwf5Pq9alMDOBzh9XPiEosBmOgHb7rRWJNnmlCQkOb7l+FzOkMU1+1VI3kj+xiP60PhXV3dIpCmAaAOAOZvWrfBrUzRF/F3/ivjbMgTEXFAKpEjRQ4DpUoEeMiUymaAp6nX7H1gSQFTJwyYgQwX7cQ6QgUSaZT169S0qLbONRSXf9lyt45Z40bGIV523xato7LQxXuZ53O2wvtOm9ZteFUXc67ghXqh12Byv++fxdret8TIaO28SinjR8XmHPATQXnaKyIP2qnMREWz38L7vt3n/Pw7See7lopLuWmLqWzWfDuX9aaU4vPWQ+c1uaxhv1O88n/S7rRlt9eaID9tVO+5c6sLumt0XMNmxWdsff8gXS2K13dXqbkJfQ3dX5RpYfDkQCBq/euPYrtbT/28oEvDP98efkfqvUUveR4MEBOnw+nDbowZREwCAJC7qGzUEEtul8FpbeClAyBEgUZULkOqujQCZ3DABKnqZIEBVbp1UZM2FDnYUItHCGSI10Q0i08EXRMV0v3lVHSJVNlFVxKde2kIEFuwqx4wcXU4th6Us6Q8fNqeVy8bgi25iCIw66JSTzjtgvyPOV/hZK8ILTlg4wxb4otIYI41Wmqrcbm61jeiddc6Rvry/jWnK8+5gF+fzh4CdEMaxUomESFp8zuccOTniugAAAAA=");
 
 export default CoffinCross;

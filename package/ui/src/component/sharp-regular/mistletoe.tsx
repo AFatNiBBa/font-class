@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mistletoe` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mistletoe?s=sharp-regular mistletoe}
  * @preview ![mistletoe](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mistletoe.svg)
  */
-const Mistletoe: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M312 0l0 24 0 62.1 98 98 8.7 1.7 65.9 12.7C537.7 208.6 576 255 576 309c0 41.4-33.6 75-75 75c-54 0-100.3-38.3-110.5-91.3l-12.7-65.9-1.7-8.7L312 153.9 312 288l6 8 46.8 62.4C377.3 375 384 395.2 384 416c0 53-43 96-96 96s-96-43-96-96c0-20.8 6.7-41 19.2-57.6L258 296l6-8 0-134.1L199.9 218l-1.4 7.4c3-.9 6.2-1.4 9.5-1.4c17.7 0 32 14.3 32 32s-14.3 32-32 32c-7.6 0-14.7-2.7-20.2-7.2l-2.3 11.9C175.4 345.7 129 384 75 384c-41.4 0-75-33.6-75-75c0-54 38.3-100.3 91.3-110.5l65.9-12.7 8.7-1.7 98-98L264 24l0-24 48 0zM100.4 245.6C70 251.4 48 278 48 309c0 14.9 12.1 27 27 27c30.9 0 57.5-22 63.4-52.4l9.1-47.1-47.1 9.1zm328.2-9.1l9.1 47.1C443.4 314 470 336 501 336c14.9 0 27-12.1 27-27c0-30.9-22-57.5-52.4-63.4l-47.1-9.1zM249.6 387.2c-6.2 8.3-9.6 18.4-9.6 28.8c0 26.5 21.5 48 48 48s48-21.5 48-48c0-10.4-3.4-20.5-9.6-28.8L288 336l-38.4 51.2zM384 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Mistletoe = createIcon("mistletoe", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABpQAAAK1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDGgsGAAE2AiQDCAQgBYMtBzAbmgXIBiKwq6oHe4DmZD6oiFYGKSKz/ftTNeM8FMBnGa5jY2z77LJ/pTnPK9Dz0li4FpbqBatVFGtuDRm6hyAHe0SUjDVMfXxij29HoMlzWYQOymrlBrCwrZZPeDENFHQVgDgCKIXtmmu59Eby83LdfBzkOtWAAEghAAYCqNArfBEAclARwBcNA9DQEHgjZjP/BxogACAmcJkCgAZYAPuBM6BvAwVd07o5Ozm62Oh2WpuNbt0PAWkVN9rleORuv1URu0JORO3xbxN3aRKssFB2s64QKXdMji4WDxFpEFdZaTPXbTmTXJdZz3F3FRfbUeC9MXpvejsWRAJq07LNU2QVk4Y22cwN3+kTICm9/Pz9Voduv2/0WCmTvdeEpbUsY7Xb8tCdeZXPZPciKeg0101kqb1CJlsbbIL2OO75Enij7w3SL3ri3Xn06MFkCm0ZN3+BpUNJyfdJ75+Msy3EEzMzaMcXIg3LPXsmTdqzx9KI/EI7ZmDGRIJuP2uWvaC2Y32Y+eT9pO8vix0sF8wfV2jL5I3X5OFJwv0/ve7CG0+bceNsPO3tyjbwv8JyAfw0P3v9zJs7vd8fWb7OUb35IiHhxU3VcV0TTdN72s+C1ZowAUAuO9z3/pZuDjl/LG0UAN6d+faN42bzJaVA2QNYogAgoMaYY+isFAAUvgBAoshYgpwvEkBhOzr4VFtWIAAI1oAAoGDCGgFAxQdHBAANa6IRAHT8SUUAMGFNMyqiWSG40uUCBVtGgEoa40HDlaOgk8Pl2ISrqFGrxJzyz5hZ1pOlk4zEuAQjy3gsOdVAlOpotjFsRYzllsi0lb4MYyij6UNvBjC6o0dSmxnDEMo8qpQfYpBIHAkYZGFMV9dmGyUjGcUAW5sfJxtjfxDBWL97ZJqGAgAkfW+JZ4piNWTAqNGD+4we1gcA");
 
 export default Mistletoe;

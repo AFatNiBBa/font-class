@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `phone-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/phone-slash?s=solid phone-slash}
  * @preview ![phone-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/phone-slash.svg)
  */
-const PhoneSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M228.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C76.1 30.2 64 46 64 64c0 107.4 37.8 206 100.8 283.1L9.2 469.1c-10.4 8.2-12.3 23.3-4.1 33.7s23.3 12.3 33.7 4.1l592-464c10.4-8.2 12.3-23.3 4.1-33.7s-23.3-12.3-33.7-4.1L253 278c-17.8-21.5-32.9-45.2-45-70.7L257.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96zm96.8 319l-91.3 72C310.7 476 407.1 512 512 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L368.7 368c-15-7.1-29.3-15.2-43-24.3z" />
-    </Icon>
-);
+const PhoneSlash = createIcon("phone-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABZwAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBSwsGAAE2AiQDCAQgBYMtBzIbzQTIjsJxrwSFwRIvB288//9r7Pe5b2YwbWIVkibR0DRRApUQvVnMZDrr1+//v39v+7z8AL4B7KIBSwCVOFDvclaqAd/8n0sX1jTAbzS0Dh1IXmj38wY7seIWORsd4ETxdJsMCQ9RfCMkSCI6vjy+7tDlTxtET31zj4B3y1X+Q90glLEGgMwCAM7uEqJw+p7eEz3w++QHESCQMwDrCA1XlhE4JCTiHQTWQacT/ojn9T+QQYAMcKyYHb15Ce4AdKBUJzBUk+ylBcntFyQyxlUo40qJNKfWm/TOL5FG1cdMGmhCY9ywkFasY2hVIzktMSXxWdI7yUXNFJpQGVdJpgVTX1ow1l+RW/mq91j8iM8L2VfA7+sUVRxrxWmEqIf8mmnD/50ni5gXfCtDDpsqos6fTHJyvTNC7HuzQWrB6jFn06opsL7P/JJjgiXDWpQfAhCEze7RPEfW85uYJAf4d/L0Uz7kf/HHNcKtgFEFQtvmLWVWbwL9OkbwqNIMfRSMoBziAHmd9IGAGEdAGYwLaJbIIdAZt4VAb5UTAoNxV4SkE0csyhqgTHoAzYEu0Fm0C3qHbqLBYlo1CbUgfOZSgyMadIrZWdsyd7Zs62KBcLLuwbZd02YeM8NVFKtRrVGRQmUaA1MvKm1SJTijgxSIsWPNFuOOHfeezycrUq9BmRrVuokHdj801ZzPNkPAcdYdNaVISb63KquGyryGUgAAAA==");
 
 export default PhoneSlash;

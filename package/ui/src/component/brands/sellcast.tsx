@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sellcast` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sellcast?s=brands sellcast}
  * @preview ![sellcast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/sellcast.svg)
  */
-const Sellcast: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M353.4 32H94.7C42.6 32 0 74.6 0 126.6v258.7C0 437.4 42.6 480 94.7 480h258.7c52.1 0 94.7-42.6 94.7-94.6V126.6c0-52-42.6-94.6-94.7-94.6zm-50 316.4c-27.9 48.2-89.9 64.9-138.2 37.2-22.9 39.8-54.9 8.6-42.3-13.2l15.7-27.2c5.9-10.3 19.2-13.9 29.5-7.9 18.6 10.8-.1-.1 18.5 10.7 27.6 15.9 63.4 6.3 79.4-21.3 15.9-27.6 6.3-63.4-21.3-79.4-17.8-10.2-.6-.4-18.6-10.6-24.6-14.2-3.4-51.9 21.6-37.5 18.6 10.8-.1-.1 18.5 10.7 48.4 28 65.1 90.3 37.2 138.5zm21.8-208.8c-17 29.5-16.3 28.8-19 31.5-6.5 6.5-16.3 8.7-26.5 3.6-18.6-10.8.1.1-18.5-10.7-27.6-15.9-63.4-6.3-79.4 21.3s-6.3 63.4 21.3 79.4c0 0 18.5 10.6 18.6 10.6 24.6 14.2 3.4 51.9-21.6 37.5-18.6-10.8.1.1-18.5-10.7-48.2-27.8-64.9-90.1-37.1-138.4 27.9-48.2 89.9-64.9 138.2-37.2l4.8-8.4c14.3-24.9 52-3.3 37.7 21.5z" />
-    </Icon>
-);
+const Sellcast = createIcon("sellcast", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABkwAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCOwsGAAE2AiQDCAQgBYMtBy8bOgXIjsK2nTOOIUm+MAJBxfMf+7Vz35fFrHmHpAkPVaxuI0ElMSQazRKxUAJDpYT1n/x7O3feD+AJhBKuYHVQJbKiivbXSXa3Eub/mnpBR0cH+PkIDiUaSxvLK1b5fAIDnM6igYaj2YGdKG532jOHmj2S1oIlOc45LjdoM0bd6Kgv9gTeqKP5p6MFStcAIHMAgNPryAiciSMOPY0OyI8wEMgZgA2EBg1WEDggCFaIbIBWK/zS/xH+B3IgQHpwtwq06PACXgG0oDStSNfeVU5CQRQjJyGbK68gv2+1rM9ownrFXYGObNeMBJq0WfWIW3cj2vdZ1hzU06Mh8wHNQY0FyyW9Md1Ri0GNRs1WzUW9Sf7EYMIutl+dKCv9RI/ii2bz2sM6I+Zt4sstaPdb0MFTw0nHLc8jby0a0wgnmqwqr34yfsp5Qto3Y6xsdVWKYVCgMuN5VL4/2uDsG5UP3J/bvP2q+GVL65CrHIZlR18dRMeED4AayjdMeS4qqywGDC36a7wGmwF388CC0W+HysZ7HlVVMcQO+acHl/yj8guignH2Q6YZIAjDh0/ZqUp+X6XlGODv9Mtv1LdH4pzVKhhTIDRb/+2QlDMAyQT4lRqYGD0LyhMB+FenvCMgJhBQehMCGsuUEWhN2ESgs8Ydgd6Ec4K0MoglyQLKlEfQ2FcLWkv2QOfArd9biuCFvA/xn8CUQI0G7OPODk7chy9rTXAsNm378m3VqiZOWcNR5ChVokq2LPmqFFEhIqpWLNDCA/SIc+bACeeDHw/ulRjlV6iUP5fOd/HF75tWauzF1mAwTLktVYqU9FNk3ww=");
 
 export default Sellcast;

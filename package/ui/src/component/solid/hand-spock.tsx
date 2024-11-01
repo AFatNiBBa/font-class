@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-spock` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-spock?s=solid hand-spock}
  * @preview ![hand-spock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-spock.svg)
  */
-const HandSpock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M246.9 23.7C242.3 6.6 224.8-3.5 207.7 1.1s-27.2 22.1-22.6 39.2L238 237.8c2.5 9.2-4.5 18.2-14 18.2c-6.4 0-12-4.2-13.9-10.3L166.6 102.7c-5.1-16.9-23-26.4-39.9-21.3s-26.4 23-21.3 39.9l62.8 206.4c2.4 7.9-7.2 13.8-13.2 8.1L99.6 283c-16-15.2-41.3-14.6-56.6 1.4s-14.6 41.3 1.4 56.6L156.8 448c43.1 41.1 100.4 64 160 64l10.9 0 8.2 0c.1 0 .1-.1 .1-.1s.1-.1 .1-.1c58.3-3.5 108.6-43.2 125.3-99.7l81.2-275c5-16.9-4.7-34.7-21.6-39.8s-34.7 4.7-39.8 21.6L443.5 247.1c-1.6 5.3-6.4 8.9-12 8.9c-7.9 0-13.8-7.3-12.2-15.1l36-170.3c3.7-17.3-7.4-34.3-24.7-37.9s-34.3 7.4-37.9 24.7L355.1 235.1c-2.6 12.2-13.3 20.9-25.8 20.9c-11.9 0-22.4-8-25.4-19.5l-57-212.8z" />
-    </Icon>
-);
+const HandSpock = createIcon("hand-spock", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeQAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAgsGAAE2AiQDCAQgBYMtBzEbAwXIhof/t6v/fW7VqHoeXc/UVwZF0mDlX1QEpXLWU6eeZ1M24BsFbSxcGpBsHLtrn1fgxXrxnr9IrFirKHZ3th0mopVD0lLWkuPb8bq8IY+vsmvUkFrTB7ipfmj8pIdrSBoyANEeAPO3blztle/j+4j3q08S71uJgJgPSoEMGXoLMEsm0FuuRC4XfB/VavgPLAkgajHKBHJkOIDzgBwkkec7KjVt8i2pXOxs6hrR1Pn2WO6yOe7o3NR1S9BIcrd33UAX1zKuKHy5uVK5MrD19Mzn++2M5q4m+Ka4vWjqthVRtQy6q+eWAfe1v++X/h8c+cC/d8+6iztfe/3EjlGT3tTvj5unjbjRqjuJfmPHzJyPdFmwYOEh77Vv//wDbbnnTlgwZ5dKPbxW9HxvfUejdux447U7n5w16HLDGj5tHHiv0cdPvPZZ012jBj9q4bxy/bQvgEBwdcfmG/a2m/VPfSWBH5/77X8dgbL6ShqQ7kO9BIJsVHWUXWmeUl8FKgCjFJcYAN8kkOyQ8FIbNQkQCgRIahUCZHppL0CuMFKAGn1NFqBWYaNM5A1CZ7snSBqdB5kpLgW5zh4HNWZ5O6rVOTJP0/1Ef+flLJHYYlg5fsy4cka5HQ3DedT8OLM0u8MuoYPhMOuIs864yGGHHHeRkC+wOr3YaUs0drEfKo03xjilGcrj9evrLQ67wIWOO+tMeWam8n44zCX6+eEQJKw4QS1JRCocMxh94Rd8AAA=");
 
 export default HandSpock;

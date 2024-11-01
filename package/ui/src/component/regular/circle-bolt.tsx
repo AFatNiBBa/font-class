@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-bolt` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-bolt?s=regular circle-bolt}
  * @preview ![circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/circle-bolt.svg)
  */
-const CircleBolt: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM330.1 115.6c5.8 4.7 7.6 12.9 4.2 19.6L281.9 240l70.1 0c6.8 0 12.9 4.3 15.1 10.7s.2 13.5-5.1 17.8l-160 128c-5.9 4.7-14.2 4.7-20.1-.1s-7.6-12.9-4.3-19.6L230.1 272 160 272c-6.8 0-12.8-4.3-15.1-10.7s-.2-13.5 5.1-17.8l160-128c5.9-4.7 14.2-4.7 20.1 .1z" />
-    </Icon>
-);
+const CircleBolt = createIcon("circle-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdQAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSBdAsGAAE2AiQDCAQgBYMtBzIb9gTIhiDSic2e5IDlICupGKkCfgCsEbDF6r/19Df/vPMowAeUYGhj4dJAFuBe5wkk1j1vWUIbNIv4C9i3dnYUg06/SfqUTzJsP6yMkMeLcb0K6Y70Ea6ru4o/dXCBpJIBiOYAmLRiyTyv/Ra/RXxYf5r40BwExCRQCmSAdBZgrEzQI+RK5HLBb1Gv8z+wJIBoQJ6WQI4K1mAnIAdJluedOnUpKk3y5UWluuVs/4hHZn9QvXLme30fcqbfw7PeL66a8+GAR6P27ZSINxd8Wlw17+NJry/7auJrcz+qXjn/k8lvLN9yS+ulUcQtbYi/ue2t7VZENW5ddVubHg80f+Dv7h9t/8inr456hUdqxYgRRe2RV0YpV4J/ZlpjOjz5+pQprz/ZobFpdIcPzrrqstlDdpru/lG9Ttx32q23YTsQCDr8dO8DG5qN/a9RkcAfL/z7f/sZqb+WpAfQSAJB1rfe19oEEgEASHFcjwSBZImM7LXmVgFCFQGSBqoCZDppLkCuqo8AFV0NE6CBqiUykTcWWls3QFJzCGSGOwlyrT0JKsZ6V2ugdWQuRjsI/cBLmB6RaX3loP4Dy9Hl0tUZryFLe0y5LfY8nlO9ALXdAfsdtc1WuxxV2GHzzGP2mW6h07yoNEh/A5VGK4+D5+HltjnsiF0O2M8uY5T31Z6O28W9oCRCOJglSUQqfuJo/TYf2HsUAA==");
 
 export default CircleBolt;

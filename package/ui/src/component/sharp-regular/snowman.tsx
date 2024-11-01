@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snowman` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snowman?s=sharp-regular snowman}
  * @preview ![snowman](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/snowman.svg)
  */
-const Snowman: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0C189.7 0 136 53.7 136 120c0 19 4.4 37 12.3 53c-7.2 9.3-13.2 19.6-17.8 30.6L104 192.2l0-40.2 0-24-48 0 0 24 0 19.6-14.5-6.2-22.1-9.5L.5 200l22.1 9.5 48 20.6 49.5 21.2c-.1 1.6-.1 3.1-.1 4.7c0 12.5 1.7 24.7 4.9 36.3C106.7 318.2 96 349.9 96 384c0 49.1 22.1 93 56.9 122.3l6.7 5.7 8.8 0 175.3 0 8.8 0 6.7-5.7C393.9 477 416 433.1 416 384c0-34.1-10.7-65.8-28.9-91.7c3.2-11.6 4.9-23.7 4.9-36.3c0-1.6 0-3.1-.1-4.7l49.5-21.2 48-20.6 22.1-9.5-18.9-44.1-22.1 9.5L456 171.6l0-19.6 0-24-48 0 0 24 0 40.2-26.5 11.4c-4.6-11-10.6-21.3-17.8-30.6c7.9-16 12.3-34 12.3-53C376 53.7 322.3 0 256 0zM184 120c0-39.8 32.2-72 72-72s72 32.2 72 72c0 15.6-5 30-13.4 41.8l-12 16.8L317.4 193c16.4 16 26.6 38.3 26.6 63c0 11.3-2.1 22.1-6 32l-5.2 13.2 9.1 10.9C358.2 331.6 368 356.6 368 384c0 31.3-12.8 59.6-33.6 80l-156.8 0c-20.8-20.4-33.6-48.7-33.6-80c0-27.4 9.8-52.4 26.1-71.8l9.1-10.9L174 288c-3.9-9.9-6-20.7-6-32c0-24.7 10.2-47 26.6-63l14.8-14.4-12-16.8C188.9 150 184 135.6 184 120zm88 104l-32 0 0 32 32 0 0-32zm0 96l0-32-32 0 0 32 32 0zm0 32l-32 0 0 32 32 0 0-32zM224 120a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm80-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-64 40.3c0 2.9 .8 5.8 2.3 8.3L256 176l13.7-23.4c1.5-2.5 2.3-5.4 2.3-8.3l0-.3c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 .3z" />
-    </Icon>
-);
+const Snowman = createIcon("snowman", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABtAAAAL9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDaAsGAAE2AiQDCAQgBYMtBy4b5gXIvg03rq4eKAWRlYatyDRayabOYM71kNLo/dj0rSr4h9bS92fnaC+HIZqUmRyQQiBVlo0rsWx9igBt8NyinmVVVMVXPsr5Soegv2+7/7qzRJsIwiwMNfAou+zCOH5ARU3Wq4UJhJN9QjO52vQgRAO5uCfZ3QgGGCQWYJpa9cCc7yEAKVBW2QUIwP8ahKX21/9c8/mlHR0ffaNDicaqgUTiKPP5BAYcTYXzAW00sGmK+abmvTzAofn6zsDqgbYSALPPvAG2uAfVX/JZB4aABwCAkgAAQMcZ3JenAQZ9HQO9pjcQgDoC4BDgAR5QhABog4eAIiwOsFgEn4yz/0BAAKAg/tkGAAv4wDvgPQDdGWAIWzt+IcG8ZBuI2WHxDn/0I+qhWxXtDKsJHu4LoRyrWceqtrSnD6tdlX9x+rf7mmxFo7leKDwAj9c7AFert6fVrWcVszZyDWN/zuTp7R7ffaCTLlQ/1ZyLVoV5yvZc8So3K9txcPN1v+RIl6scdwvsLXC/hjaKj6IS4iA3SmfBsF2w29/p7vKGp5yb1ee8fBW6R1L7ZlVpb57/f25TsVOQMsXHtw/UII8G5JFFOTMUMtI/8Axkdnhc9fM/4XtDnXor0jsdCnmW/6rNCD/I2ng/NTjAhP9kUjPXfeMjNP4UxmU873roPXvz1KZYz6Y6kThIIhHZtJ4+xiXd+76rPJuvx8XO4XATctwV1f8Z9OFTRK5I3qwfX5STGQB5BQBAgKDf7nb8eH1lAPhyIbtcFcGcB8IYAARenShjAiBgDMBLMlpGJQNCgOEtYfxEBru3ZoQPFRiC+OBRSBIsPrUhQAlNzwjiM5iHbASRxVgADBksBI9mLAdLFjcgQBueJ4NkyTu5pVNT+rVM79ZEuk5zfb0GrpUbLSvk81XQ463dYqNexttqwq1MM988S0w1xUxLGvQifTNLzdVtiurqiRwNqUcDHK1wm2t31w8z1SKLzTTfPDtJa9zxiRosm+5dE9oGn7URJQYDMqFPRjh34jwA");
 
 export default Snowman;

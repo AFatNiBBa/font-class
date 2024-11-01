@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-police` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-police?s=thin user-police}
  * @preview ![user-police](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/user-police.svg)
  */
-const UserPolice: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M222.1 16.2L62.2 52.1c-2.8 .6-5.1 2.8-5.9 5.6s-.1 5.8 2 7.9L87.5 95.1c1.5 1.5 2.3 3.5 2.3 5.6l0 26.9c15.7 10.2 46.4 27 105.5 31.3C173.9 138.5 168 110.1 168 91.2c0-3.3 2-6.2 5-7.4l48-19.2c1.9-.8 4-.8 5.9 0l48 19.2c3 1.2 5 4.2 5 7.4c0 18.9-5.9 47.3-27.2 67.6c59-4.3 89.6-21.1 105.2-31.2l0-26.9c0-2.1 .8-4.1 2.3-5.6l29.1-29.5c2-2.1 2.8-5.1 2-7.9s-3.1-4.9-5.9-5.6l-159.9-36c-1.2-.3-2.4-.3-3.5 0zM366.8 140.9c-20.3 13.2-60.7 34.6-141.1 34.9c-1.1 .2-2.3 .2-3.4 0c-80.6-.3-121-21.7-141.3-34.9c-4.6-3-7.2-8-7.2-13.3l0-23.6L46.9 76.8c-6.1-6.2-8.4-15.2-6-23.6s9.3-14.8 17.8-16.7L218.6 .6c3.5-.8 7.1-.8 10.5 0L389 36.5c8.5 1.9 15.3 8.3 17.8 16.7s.2 17.4-6 23.6L374 104l0 23.6c0 5.3-2.6 10.3-7.2 13.3zM96.3 183.3c4.8 2.3 10.1 4.5 15.7 6.7c0 .7 0 1.3 0 2c0 61.9 50.1 112 112 112s112-50.1 112-112c0-.7 0-1.3 0-2c5.7-2.2 10.9-4.4 15.7-6.7c.2 2.9 .3 5.8 .3 8.7c0 70.7-57.3 128-128 128s-128-57.3-128-128c0-2.9 .1-5.8 .3-8.7zm87.9-86.8c1.3 20.9 10.8 49 39.8 62.7c29-13.7 38.5-41.8 39.8-62.7L224 80.6 184.2 96.5zM213.5 444l-86.6-75.8C65 372.1 16 423.5 16 486.4c0 5.3 4.3 9.6 9.6 9.6L216 496l0-49.7-2.5-2.2zM232 496l190.4 0c5.3 0 9.6-4.3 9.6-9.6c0-62.8-49-114.3-110.8-118.2L234.5 444l-2.5 2.2 0 49.7zm190.4 16l-198.2 0-.2 0-.2 0L25.6 512C11.5 512 0 500.5 0 486.4C0 412.8 59.2 353 132.6 352L224 432l91.4-80C388.8 353 448 412.8 448 486.4c0 14.1-11.5 25.6-25.6 25.6zM360 424l0 16 16 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-16 0 0 16c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-16-16 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l16 0 0-16c0-4.4 3.6-8 8-8s8 3.6 8 8z" />
-    </Icon>
-);
+const UserPolice = createIcon("user-police", false, "data:font/woff2;base64,d09GMgABAAAAAAN8AAoAAAAABzwAAAMxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHyEKAsGAAE2AiQDCAQgBYMtBzIbKgbIjpQuZyTBP//v/LXPTVJKAqRvEQGvYGppEdP5smbU0465fc23iP/SDJHS/59r6kX7AX4+0PNDi0WU9/ONMp9PYIDRVEHjPU/egGmsG5w3svFSaArpe2DrZnbigLnRfAJc5e5Kv9KV88FgWQAAqAAAAMysrV7KG1/pK+mT1rOgT1gMCECzACgiwIJLeiAApmAhuntgUwRsbARfqdWy/4FFEAAoR+AMq2zABf4A2TCUl26at+1x/UudfL9b2XM62lXPcTesqa25Prg+HKgMlPW9d2yj201K48lqhhOVUe9yQ/B8//tjQWTwgqgRVXWpm1w/RnpmTvK/N+45NUTSIDXiZlzbgSQ/L8yCAUL1YGsW1pVy68AHxz4/+OHeqVI14zp3THllznvTXiunqmVdpRv73t/95nicxqyrJtVnhjzSIws9SdFIz/Wa8W3DHhu3RoFIXM+VJFf3dbt7+uvzE9X07tRXSzf0qSI8ZeH1gSt0fdCIJFeNqBl7kppxFpYfKjz0u092f8Lnj99eiW89IrAqn9Fmd+f+iy95+s9W+s7MfyiV/mGm469c9efTl1x8f3fstk+oWPaM2yoYc/WZv7jQ/Q5jnvDcX3bmu/AQlwyd8untFWbOvL3CW0uGXvIQXcjv7DTwxHGB/NN//vXXn6d9gc7d4djOmNkrVsweg7epJX4K9UWL6ql/Duf0XF9dDAf/+9VXfr7+GqNo6/xa8Nfzfi/6b7KYEvW/6r8XlgG8x7G4XTI3Xb8cnp7OTdrFx6bWCjDK1lxuq2cKMFtzebrXA4AAwV19V5st/pT/854B4JuX/txeTusNvWEeAvIYAATWkNYQNuoNACQUACSMzqC88EUCDD+QJ0Q60DiaEi5UMORwwaI7BbBxGQwOvRgrb5y+GgvZ7REBmyAYOnAMLMZxFtgEPA0OU3g/niOQdfOrt67665lhXhef2684ctiI4qTibFbW3M+y7p5c3OwYcAavGgiXspsjHOYku9jJPk52+OMsTZ3iEPOWxHM/W2QkwxhBkUkUDxceGqod/3FOcHlaPY7Qy2SK10cGcMZy44HQbQiSo8gwGJDxPhjz0JcOAA==");
 
 export default UserPolice;

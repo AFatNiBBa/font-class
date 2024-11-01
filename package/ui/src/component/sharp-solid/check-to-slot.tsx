@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `check-to-slot` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/check-to-slot?s=sharp-solid check-to-slot}
  * @preview ![check-to-slot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/check-to-slot.svg)
  */
-const CheckToSlot: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M96 32l384 0 0 352L96 384 96 32zM425.9 144L392 110.1l-17 17-111 111-47-47-17-17L166.1 208l17 17 64 64 17 17 17-17L409 161l17-17zM0 288l64 0 0 128 448 0 0-128 64 0 0 192L0 480 0 288z" />
-    </Icon>
-);
+const CheckToSlot = createIcon("check-to-slot", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABWwAAAHgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSyBLwsGAAE2AiQDCAQgBYMtBzQbswTIjsO44TuyxVKeRTz8/37f9rnvjYg/JuHmTayypiGJzK800jQsRLGqifyTufZr/q/5/J5fA367Ej+0KCxtLKDqrZ9PYGJ787aJzAZ2ojhrZy+9IrpN0qd8kmFChsUN8viUPVZBepFgJP1o/NLjMUlNBiCaAbBsz45NRr/H94iP5YmPNiAgloFCIEOGfgEWygT65QrkcsH3KJf5P7AggKiEzyaQowILsAKQgyTL85qelrqKhny3f6f2QEN9Q4r6yI4tXrR4bOyMxTE+Fsa42GaRCbHnxaN1tXWiISLqQjRGDJeaS3/GOM2Rl/fBOeq+o+uutLzA5cv+ogVlcO8er0aWwr9vlMGXGqWAeO7xk7eDNS38X12XwM83//7Ib5e/p6WphGoJBNnE8kQH01JgdgBRituGlYUFkhkywLfWeypAqEWApFKtAJk+zQLkak0QoMKgWQJUqrVDJvIaod2hCpJ610Bmtjsg1+41qLDQ26hSe2T3R9p96fuWvlpCq84V0yZPLeYX3VqRr4QQjhcUw8bY2242jq467YrLbjrlpHNuCvK6Tektl6zW4FUWVJhmsqkK8xXT3e3l3U657oZzrrgcT1mgWO+MdVvfPI7sBLzTZZJEpIZTGE66eWXSmwIAAA==");
 
 export default CheckToSlot;

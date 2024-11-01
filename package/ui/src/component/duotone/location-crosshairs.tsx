@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-crosshairs` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-crosshairs?s=duotone location-crosshairs}
  * @preview ![location-crosshairs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/location-crosshairs.svg)
  */
-const LocationCrosshairs: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M176 256a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M256 0c17.7 0 32 14.3 32 32l0 34.7C368.4 80.1 431.9 143.6 445.3 224l34.7 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-34.7 0C431.9 368.4 368.4 431.9 288 445.3l0 34.7c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-34.7C143.6 431.9 80.1 368.4 66.7 288L32 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l34.7 0C80.1 143.6 143.6 80.1 224 66.7L224 32c0-17.7 14.3-32 32-32zM128 256a128 128 0 1 0 256 0 128 128 0 1 0 -256 0z" />
-    </Icon>
-);
+const LocationCrosshairs = createIcon("location-crosshairs", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABkwAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCIAsIAAE2AiQDCgQgBYMtB2IbVAXIhofvdeaf+yR7EtlBVrwhwIrpAxEU1c5vCWpNnXqe89AC+QDwWjQxIAtsr55XoOdzcL0RqVBNa2DdnWPFIYvD4VhiSY5H4/i8II+fs0vVSHelb3ED/Q9g/KqfS0k6ZgCiKwAWb9mw3oft0Z7i2+pV4lvrEBBLQCmQIcNAAebJBAbKlcjlgvZUVbRHVZUEEHU0dwbqqOEUnA3IQZJEni8d0KlR65RvprvFjmt6RdxGfDb/vaGNYE9uc2HPW4siHpz37jLhjl7d+/aI+HzB+60i4NRFfe5oNOKRhR+sDNi78cLREU+NfqpxzdhnMh4XjXkaL64e9eRsttw3+6257wy5f87bs94c2Hq669O/D/328LeqDzpfyZWd23z91N3PtrGkVTtfGQnP3v3U1wWkuxdUbU2aP/3Yav34U7PZhjH0e+GD5hGnnXZEs7wPBIIZq67ev6fLvP87NBL45e0///U/JNWHSXoaHSQQZOOqcXYmkAgAQIrTtRK8KJDZLUmf2nS7AKFAgKSuECAzQFcBcoWxAtQMNl2AusIGmcg7Cj3tQpA0nQQyM5wHcj29Amrm+cKu6xmZ5rF6w/77klZwaPmqcvKESeWcchirnDLRYXFuOa2OOt3XRpuHDjvB8U51yEFHOZUhJ1vvneY4KyR4uS8qTTbBJKU5yuXsVtqM9slOcVRfWF9mrnK/Ncrpcvdos54EmHJmoYxIkQ3QWWX866EfoHnK+HvcOagvXFs=");
 
 export default LocationCrosshairs;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diaspora` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diaspora?s=brands diaspora}
  * @preview ![diaspora](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/diaspora.svg)
  */
-const Diaspora: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M251.64 354.55c-1.4 0-88 119.9-88.7 119.9S76.34 414 76 413.25s86.6-125.7 86.6-127.4c0-2.2-129.6-44-137.6-47.1-1.3-.5 31.4-101.8 31.7-102.1.6-.7 144.4 47 145.5 47 .4 0 .9-.6 1-1.3.4-2 1-148.6 1.7-149.6.8-1.2 104.5-.7 105.1-.3 1.5 1 3.5 156.1 6.1 156.1 1.4 0 138.7-47 139.3-46.3.8.9 31.9 102.2 31.5 102.6-.9.9-140.2 47.1-140.6 48.8-.3 1.4 82.8 122.1 82.5 122.9s-85.5 63.5-86.3 63.5c-1-.2-89-125.5-90.9-125.5z" />
-    </Icon>
-);
+const Diaspora = createIcon("diaspora", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABjAAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCLQsGAAE2AiQDCAQgBYMtBy8bLAXIHoVx41OU6FmEuenFS612y+Lh+XX8/9pn5mqepQyy2hXq4LebnXhwtrtt9n1vD+kSnWUZpQkElGDrbZ5EIctFqp5fBP6ZCttVlGT+L8d3244O8Bsdyhq0tq8mZnMK9DzQ3lHe88CiscAyTcAyt8aJbKAgAx8hckSZjB7PPT7RCfK4H0kJ6Xz6ONo+NH7QwIukJAMQ1QGAEfNmTfHk0/g04vX/L/G6SQiIkaA5RIYMjSEYjBRojNIcyOWCT+P//+U/MAABRCk7ZwI5MuzGfkAOksjzzZVKquRzS3sx71Rh4lomz9XOThXcdsphDXWxt9103t5G7OC0mtKxDrWohBith1KJJIsNKlyGocq+ka9k6GWy6IQDtXNykq6QWVYHC6g/CWtsaaWafwv6b/H6ku/vo3opZQPBO4c4FG7K1KFTasTju183+OrLaFEUxSczYNvSbVsjffJdMeb950SKGowWNp2qN7BMk0iiYVSuHL78c+73585Wh61PL57i+efaFp+80sLvywbvX7mq+tRhU6dy8NC7gxoYAgAEgn67Fv0Rqg3+y9IJfH7vl7+Pn5H5/6f4TbqBcgkEWef/OzsSDZjxjQAApNiiZaIBRLJZYtda2RkBQoEASalCgEwjAgS5QicISjS1QlCqMEsm8gqhtscESWXrQaavJ8jV9gElBvsWpWpHFn5i8Ih/f2ljGRmzr3mPbghuwW3XkCKKr9v3YNtsf+pUiaOWWGuNTRZbZLlNRG8wpb7ZamNX1Bhf1NyoMwjcBO7BZ20uhRtsVP5a8u/iLng/LZzrxSWcxBh7qkoSkcoXLZ//WUufDwAA");
 
 export default Diaspora;

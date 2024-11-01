@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `quotes` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/quotes?s=regular quotes}
  * @preview ![quotes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/quotes.svg)
  */
-const Quotes: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 96C0 43 43 0 96 0l8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-8 0C69.5 48 48 69.5 48 96l48 0c26.5 0 48 21.5 48 48l0 48c0 26.5-21.5 48-48 48l-48 0c-26.5 0-48-21.5-48-48l0-24 0-24L0 96zm48 72l0 24 48 0 0-48-48 0 0 24zM176 96c0-53 43-96 96-96l8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-8 0c-26.5 0-48 21.5-48 48l48 0c26.5 0 48 21.5 48 48l0 48c0 26.5-21.5 48-48 48l-48 0c-26.5 0-48-21.5-48-48l0-24 0-24 0-48zm48 48l0 24 0 24 48 0 0-48-48 0zM576 416c0 53-43 96-96 96l-8 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l8 0c26.5 0 48-21.5 48-48l-48 0c-26.5 0-48-21.5-48-48l0-48c0-26.5 21.5-48 48-48l48 0c26.5 0 48 21.5 48 48l0 24 0 24 0 48zm-48-48l0-24 0-24-48 0 0 48 48 0zM400 416c0 53-43 96-96 96l-8 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l8 0c26.5 0 48-21.5 48-48l-48 0c-26.5 0-48-21.5-48-48l0-48c0-26.5 21.5-48 48-48l48 0c26.5 0 48 21.5 48 48l0 24 0 24 0 48zm-48-72l0-24-48 0 0 48 48 0 0-24z" />
-    </Icon>
-);
+const Quotes = createIcon("quotes", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABuQAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDdgsGAAE2AiQDCAQgBYMtBy0b8wXIHgfOeSvgvDqbCKFg8yGFM56HX/t27pv5HzGJpmk1k/Aomr0uoYlp9qZp2UZTzVDHj5/bu/111A4Rz9sSogmaS6MRG6Gs0RLJ/PU+cTn9Qb/pASd9JZpHvpdmc+KeFHVPXZxYl81FElii2Nm2N0NU1m+ExhHqvM0RtChnpdc47H9p/priQ9GqAGQ0AOjdNOpA/5RPSX/zgPRbDQLpBcxGqFBhOgIdhGA62WxQq4VPaRrxH8gQIG0hWjxfYyje4RugBsXgup43jEeGtUbUG/VOQ6vL6eR+fVhuus5EhuaG9YSz4dlOutAZ9SB2y37KnZC3ARmW5QyNTTvATq/I7J0XEsmdyky5+3x8WG47TntWmc43jvjuAtEVT0iTYet3ABt1Yvtk7j3jvf8cu9gy+B7cOzTYmgm2QcYseTdQLQmIgXdLGtdkkUJhseZ0OguQxtmn7UEap5apvLDZMPu+/Ps+BwjCq2e/d2fo+Dd4WAFfnv6/uF2jl55yDwxWQKgWNBmz0gMIMQGRkoNCVADCQm8MFj413CkBMRQBRdtQDVOZxsjUhprPtMxUPaJtqHWE1EPEeHMNUwy3h6ms8mZq432Zlg6/WNv4VDCug1DdH2ZmtQsrq7iYK3CLZ6sqPdhq7HSbN7sTL9mVxBuxcnbysLSw9ejQN53k05G6RCl+iBXlFLAWPtx4uH5q6eZu6+zkzdPG1/sTXsuDk9gnCZUuU1QUUtqfLgAAAA==");
 
 export default Quotes;

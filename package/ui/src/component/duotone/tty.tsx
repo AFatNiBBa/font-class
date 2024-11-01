@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tty` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tty?s=duotone tty}
  * @preview ![tty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/tty.svg)
  */
-const Tty: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M9 177.8c0 7.8 2.1 15.7 6.2 22.8l23.1 40.7c5.8 10.2 16.6 16.2 27.8 16.2c3.3 0 6.7-.5 10-1.6l81.1-26.6c13.1-4.3 22-16.6 22-30.4l0-54.8c49.6-18.1 104-18.1 153.6 0l0 54.8c0 13.8 8.9 26.1 22 30.4l81.1 26.6c3.3 1.1 6.7 1.6 10 1.6c11.3 0 22-6 27.8-16.2l23.1-40.7c4.1-7.1 6.2-15.1 6.2-22.8c0-9.9-3.4-19.6-10.7-27.2C450.6 106.8 367.3 48 256 48S61.4 106.8 19.6 150.6C12.4 158.1 9 167.9 9 177.8z" />
-        <path d="M48 320c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm0 96c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm80-80l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm112-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zm80 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm112-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0zM416 432l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zM144 416c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l224 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-224 0z" />
-    </Icon>
-);
+const Tty = createIcon("tty", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABtAAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3yDPQsIAAE2AiQDCgQgBYMtB0Ib0QXIhqDSVWVJmlkgHXEfIjwCWWc+AHqIruLPfCJz/v/7efyfx58+4CX5kWiRVpq6BuzANQ4nWgU23hnBbMQzsFk7+yJJiUl6l/gkw+YNkwcU8U1+oxrZY9lnuCf+D2D8rJ8bybTkAKIEwNLd2zf6oIoqi88arxCf2YCAWAaSQI4cAwVYIBcYqJBQKARV1mhQRaORCCDq4hNzUEcb3sSngAJkmkVRlGV3WzC+rdZR7PJf1Lr7wZ7ioV5t8UifiId7t8LV3YKZGA/2XO5tp0i+g+z4V++/ttfEeGjkHX12x+MDIn7cKR4buTMeanu8z+R4JK7r/dy6L3Z9t+GjCQ8a9lT51K9DPzv5M5OvqTqTziop6AiytnlzSgllGntOl8ywS7zrHNSFqssqzR3t+05xtKwt3dLf6tpsG/rnZLba6vZdS2vl0VPsay+fOvblC9tje7zw5bGnSiAQPHb9u9sOdy34t7ktAz+99fvf5YfU0qji/+wpNMtAkE9oTHAgo0VL/C8AAFlcbFhG0iKQu1mzdKzdwwKEVhgyda2QG6CEQqvxUDPYzON1rbbLRdEi9HSQIdPuPMjNchUUenoZahb4MFXXM3I9VrVQ/UZmrUJs5aY0ddKUNC9Ni6qmmnIYnp+WnTEXu6axtNXJznG2C53kRKe5EIjzbcxe5CyrJHylD0qmmmSKZJ60Xbm3dkHqfBc4bWzszzJfOh+McbHceSz5mSQ5zZFcTmSRt1144WUTn4PdwcatBw==");
 
 export default Tty;

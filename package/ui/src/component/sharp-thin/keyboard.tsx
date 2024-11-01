@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `keyboard` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard?s=sharp-thin keyboard}
  * @preview ![keyboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/keyboard.svg)
  */
-const Keyboard: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M16 80l0 352 544 0 0-352L16 80zM0 64l16 0 544 0 16 0 0 16 0 352 0 16-16 0L16 448 0 448l0-16L0 80 0 64zM80 336l0 32 32 0 0-32-32 0zM64 320l16 0 32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16zm336 16l-224 0 0 32 224 0 0-32zM176 320l224 0 16 0 0 16 0 32 0 16-16 0-224 0-16 0 0-16 0-32 0-16 16 0zM80 240l0 32 32 0 0-32-32 0zM64 224l16 0 32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16zm144 16l-32 0 0 32 32 0 0-32zm-32-16l32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16 16 0zm96 16l0 32 32 0 0-32-32 0zm-16-16l16 0 32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16zm144 16l-32 0 0 32 32 0 0-32zm-32-16l32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16 16 0zm96 16l0 32 32 0 0-32-32 0zm-16-16l16 0 32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16zm48 112l-32 0 0 32 32 0 0-32zm-32-16l32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16 16 0zM80 144l0 32 32 0 0-32-32 0zM64 128l16 0 32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16zm144 16l-32 0 0 32 32 0 0-32zm-32-16l32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16 16 0zm96 16l0 32 32 0 0-32-32 0zm-16-16l16 0 32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16zm144 16l-32 0 0 32 32 0 0-32zm-32-16l32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16 16 0zm96 16l0 32 32 0 0-32-32 0zm-16-16l16 0 32 0 16 0 0 16 0 32 0 16-16 0-32 0-16 0 0-16 0-32 0-16z" />
-    </Icon>
-);
+const Keyboard = createIcon("keyboard", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAAB9wAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhiCGXAsGAAE2AiQDCAQgBYMtBy8bWwfIjpQuUybx8N/aW/dVd3Iy/YehBoDBEwgbO7ir1rFwQJZA/36AeHo9/5fT22B3YF/grLWQxlo0B2Z74mHPA1zUSw+bAlmWUIinAWq6qc3RCWsPP+khnZNNevQeeHxjoYxvHdBAep2+wUN50/hVNw9IigJAtAXA3M3rV/rsp/gp4uv6O+JryxEQc0EWKFCgpwAzFAI9lTJKpeCnqNeP/8BMANGIWSdQojdxh3gC5lqSnmXZol0bowNlag2tyk31KdX2VKQ2UUTrzrWqjUghqtYRRcRWoRYRlQnVEFAFRdXeqlYJGroJzKK2KUBsFDKIKxsL9/dtt7tfc9vm3/t+c+gbbU7v4fPZHrnetu2c7NFW2zESWi3DL1/jGcnGn1CV/ST/OGx/2fq+3u696nu4jsp5jP6UOrqqo0//htvf8XtAIHjRvhi824z/m2oJ/PLpn7/KBWlOakaTBIJiRH2EHWmOs1R81Xhc0g+WUBtd0RO/aksvBAgVAiSNKgEKPbQVoFQZLkCD3iYK0KiyXiHKFkJHOztIWjoLCpPcBKWO3oAGM3yea9QxirTUJpX2pzjTIo0u3JbHjhqTp+XbuqHLNHWbn54fu4Zcor6hOOmQ00654KADjrqgyHNWFi86aZHHu/Cz2VijjJFNk8Ot5+pNDjrnvFbb+jiT6fL62BCX/NFD4U1Y6TjHkkSkpuMHr+YsAA==");
 
 export default Keyboard;

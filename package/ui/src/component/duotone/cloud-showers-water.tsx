@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-showers-water` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-showers-water?s=duotone cloud-showers-water}
  * @preview ![cloud-showers-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cloud-showers-water.svg)
  */
-const CloudShowersWater: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M.8 487.3c4 17.2 21.2 27.9 38.4 23.9c24.5-5.7 44.9-16.5 58.2-25C126.5 501.7 159 512 192 512c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9c33 0 65.5-10.3 94.5-25.8c13.4 8.4 33.7 19.3 58.2 25c17.2 4 34.4-6.7 38.4-23.9c.6-2.4 .8-4.9 .8-7.3c0-14.5-10-27.7-24.7-31.1c-18.1-4.2-36.2-13.3-50.6-25.2c-11.1-9.4-27.3-10.1-39.2-1.7C439.4 437.2 410.9 448 384 448c-27.5 0-55-10.6-77.5-26.1c-11.1-7.9-25.9-7.9-37 0C247 437.4 219.5 448 192 448c-26.9 0-55.3-10.8-77.4-26.1c-12-8.5-28.1-7.8-39.2 1.7c-14.4 11.9-32.5 21-50.6 25.2c-17.2 4-27.9 21.2-23.9 38.4zM51.4 347.7c-6.8 11.4-3.1 26.1 8.2 32.9s26.1 3.1 32.9-8.2l48-80c6.8-11.4 3.1-26.1-8.2-32.9c-3.9-2.3-8.1-3.4-12.3-3.4c-8.2 0-16.1 4.2-20.6 11.7l-48 80zm112 0c-6.8 11.4-3.1 26.1 8.2 32.9s26.1 3.1 32.9-8.2l48-80c6.8-11.4 3.1-26.1-8.2-32.9c-3.9-2.3-8.1-3.4-12.3-3.4c-8.2 0-16.1 4.2-20.6 11.7l-48 80zm112 0c-6.8 11.4-3.1 26.1 8.2 32.9s26.1 3.1 32.9-8.2l48-80c6.8-11.4 3.1-26.1-8.2-32.9c-3.9-2.3-8.1-3.4-12.3-3.4c-8.2 0-16.1 4.2-20.6 11.7l-48 80zm112 0c-6.8 11.4-3.1 26.1 8.2 32.9s26.1 3.1 32.9-8.2l48-80c6.8-11.4 3.1-26.1-8.2-32.9c-3.9-2.3-8.1-3.4-12.3-3.4c-8.2 0-16.1 4.2-20.6 11.7l-48 80z" />
-        <path d="M311.2 55.7C295.9 22.8 262.6 0 224 0c-53 0-96 43-96 96c-35.3 0-64 28.7-64 64s28.7 64 64 64l320 0c35.3 0 64-28.7 64-64s-28.7-64-64-64l-1.6 0C439 59.5 406.7 32 368 32c-22.2 0-42.3 9.1-56.8 23.7z" />
-    </Icon>
-);
+const CloudShowersWater = createIcon("cloud-showers-water", true, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABtwAAAKCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iCeAsIAAE2AiQDCgQgBYMtB2IbrAXIHoPjbgnKZCmLJdpQj3i94nlq7Pfn7i4qzTsvYQkPVTRkLYlI0+kMjaYNMiW8+fX//P7ec98nJt1RSqDTkv0ZBzm0hQI21df//1zz+aUdHeA3OpSMZXCDZz6fwAEumpMKrMFm85HJzK0xEAYackEREoesEdLjNx/PerSFlp/aDT2UJ+IGwF1dnP+gpptioEKFjAP4G6Dd4/hIOOjmiUA3/yvkDyKAQPYAFiFUVMxCYANJMItsEWia0C3/QTf/MQiQXsAVK+hFP57xCmigiJ5GNnTkIsWicMhJ22hm3rMRQiLmiolEczFtVh0zlRpykNhcrjFuJjNiImXtVVpDSggNqawbbwaeG4+okLp0hN2XHDt1ZF2Exo1EZiKDDYc1t/23kRgMKg4qJY8aLmkkowmjYWaPYgKLjtGT8WXPuje5N+B0u1EKcDXXLpPRZwUCJnNJzvpAuy0Cznd9Hvi5QO2IwMtvqtcFn3jtysrqeiX4F16pRyKRBUGm1b7HWoYb9/WamGuYzPYZR1jFrh0VFlrY9nRpmjxaR0PnbDyV05R6Wc6nA0AQft5efvA8vuksAuDf9+tnPurf/17xKTKgXwGhdv47MizWIYEjBEiV1NITnX5QUF2gwLsOuxcQgwgoeg0KqGbwIdAMWoJAj3mOEOg1aB9JGgNiWuYJxbAbqNa1QDNtGXpsOM/0mg4pSsUYE98R04IYCXTCtlY22A1fFjQp8Pgy6I5ve0xqtcFU1kKuMqWq5chWoJroSpH5GiWCPCrQF2G2rNjA3ODh8r2WRJlKVQpsZXwYd/j5hIlav72p+AlgXDanqqQgksb/Ck3LT3lilVWWwWxZzvm2WrYyxQE=");
 
 export default CloudShowersWater;

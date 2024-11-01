@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dong-sign` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dong-sign?s=duotone dong-sign}
  * @preview ![dong-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/dong-sign.svg)
  */
-const DongSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 480c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32zM192 96c0-17.7 14.3-32 32-32l32 0 0 64-32 0c-17.7 0-32-14.3-32-32zM320 64c17.7 0 32 14.3 32 32s-14.3 32-32 32l0-64z" />
-        <path d="M288 32c-17.7 0-32 14.3-32 32l0 113.1c-18.8-10.9-40.7-17.1-64-17.1c-70.7 0-128 57.3-128 128s57.3 128 128 128c24.5 0 47.4-6.9 66.8-18.8c5 11.1 16.2 18.8 29.2 18.8c17.7 0 32-14.3 32-32l0-96 0-224c0-17.7-14.3-32-32-32zM128 288a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z" />
-    </Icon>
-);
+const DongSign = createIcon("dong-sign", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABhwAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCFQsIAAE2AiQDCgQgBYMtB04bNQXIhofn13w7d94kBaApMCoiUMDsSLZqkdUKlf12gXUmrnn+aU8PWEHwaJVbW2KCdZ5PYKIbZ4BPaDO1WTt7AwN9NkmPd0mGzQ+bLeRxJJ1RInuY/YTr/D+A8as2zpCpkwBEYwBMXrJgls8qUcnip+p74iczERBTQCGQkNBegHGSQHu5ArlcUMmqVSpRrRYEEGX8/ATKqIWdOAjIQSaT8rxrg1ZN6tcrNcgX81l1t1xqHnGHeFP3q3EfFS/Hfzz9ct+H3S+3uh/0nJMt79Vd+Lzv296vOzzp9arPm45Otoq4X69BXG5x14nmd+rWj0s4HitmxXoh6nbWEhSPCO+MLm8av/m980+bf9LpecMLXGi4z2dd504dVioNmzq3+8/7JjW8cKHhWhWl4nk11fz9d03yccW2O0lPNrxQ458e11iFSQro8U5J8OMgEPxS6+bMNY3G/V+7XgZqPvjzX+WI6mdxInuD2jIQpH7Vfla6HCRpAPksDutCPzQJgWSYJH9qffcECHURIFNWV4CkncYC5OrqK0BJR8MFKKtrgSTyOkJzqxqRqW8fkYxwlMg1944oGefbQlnzSDanWYz25cueIYHpq4rBAwYVY4plQ9XNSImLY4vtSK/DYaA3rbXZHrsdtMlG2xwU+H6zyofsMgNh031RYbABBimMURy3H+3ForDfAdt083yZsYr7qV4O4/G9KZ7JskNsShKRRWqycc/uLf3t1e//egeaDeY7BQA=");
 
 export default DongSign;

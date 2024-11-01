@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-circle-exclamation` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-exclamation?s=thin person-circle-exclamation}
  * @preview ![person-circle-exclamation](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-circle-exclamation.svg)
  */
-const PersonCircleExclamation: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 96a40 40 0 1 0 0-80 40 40 0 1 0 0 80zm0-96a56 56 0 1 1 0 112A56 56 0 1 1 160 0zM141.1 144c-21.5 0-41.1 12.3-50.4 31.7L23.2 315.5c-1.9 4-6.7 5.6-10.7 3.7s-5.6-6.7-3.7-10.7L76.3 168.7c12-24.9 37.2-40.7 64.8-40.7l37.8 0c27.6 0 52.8 15.8 64.8 40.7l46.1 95.5c-3.7 5-7.1 10.2-10.2 15.6L229.3 175.7C220 156.3 200.4 144 178.9 144l-37.8 0zM104 248l0 232c0 8.8 7.2 16 16 16s16-7.2 16-16l0-120c0-13.3 10.7-24 24-24s24 10.7 24 24l0 120c0 8.8 7.2 16 16 16s16-7.2 16-16l0-232c0-4.4 3.6-8 8-8s8 3.6 8 8l0 232c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-120c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 120c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-232c0-4.4 3.6-8 8-8s8 3.6 8 8zM560 368a128 128 0 1 0 -256 0 128 128 0 1 0 256 0zm-272 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0-136c4.4 0 8 3.6 8 8l0 96c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-96c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const PersonCircleExclamation = createIcon("person-circle-exclamation", false, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABvQAAALqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDRgsGAAE2AiQDCAQgBYMtB0Ab1gXIHoPj7hCNCKKVof7NUq/P4B+ye//c2dkNoAn8AXepvqFWcg1VcpsHUazpXoCoRKTKDli4zsvUAanqKiQjUcjIAml2yiXS1hYlwcH0YNbUMc9XQAVSATofyi+qvIIiUmDnAx69LSJBBrQJ28a5AUYkVcdnHJdzDqxeMYMPZqfqBlhff5S+EmQJGDwPAADFAwAAbUc7V3HjvRKSJ6GzoCf0AQJQOwAcAjx4j2wEQAs8BGRjcYDFIniv/1DyH+hAAKCA9g0GAAtEAreAZwCABcAQbm1MTGazcNhojfJjbLccGtl7z7tDuzL3BHYEd2ZoB4BVm76PAIzzZHW5VhfZ4tvm7y7Hq6LkbEFX2eLpJrsqI4cQW73b/RINoG1EBxjAMhot8Gwxrfi2iWibb4sHXCiLGbh4kkO5hzJt9oGOQDznIMG8mnc4ViwLiyTH6y6ft6m5WHCUeP6R6gumldpLhcdkeItbPNt82/3yzt/5nhYoOHQcesuTYU/YHh9w6jefGjAx/Nr399fnGVzrHdXtV6NiYLq4dRWdF+VkZ80xuleVzlMdX5I+/9gOjU28j1VI6e9PUTgoH9ENmAg+2VcsxQ4KBcfMEMqg96cXWiD65YuCgoeX0ZZCLOeAxWclg3O7MjNd7uTkLJgDozaL3sfa3g/uFQOCAYTC7HQAECCovPePx+Na/A+PMgB8vPRzyeZB6IZpVh0CwjEACLwaoRr0UbUhAMguAPAZTaNA8kMCDJcw0H5qNNsQAEQkIAAMAZEIAI8s4hEAlkgqEQA+uTREAARE0hkP2QhEMn0PoiGaiUSPRswlWpI5TfRpwX1vQLKor2XhlSj8kkzWCUd0HORKCouTa5OFOZvo8uQXvXXJ2rrshaQmB8IZxnjGMYWhDGEkU8Cwk6gKTGUsnWScHb/rqEst6uBohrMuTsu6YWCSTcb5fJF9PzTH+XeVMU3evBwaDS3XeqQYDMhkXPqqmn/9WGvOKpNh4Ng3FA==");
 
 export default PersonCircleExclamation;

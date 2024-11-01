@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-confounded` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-confounded?s=sharp-light face-confounded}
  * @preview ![face-confounded](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-confounded.svg)
  */
-const FaceConfounded: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 0 32 256a224 224 0 1 0 448 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm216.9 98.7L256 380.8l39.1-26.1 8.9-5.9 8.9 5.9 40.3 26.8 23.7-11.8 14.3-7.2 14.3 28.6-14.3 7.2-32 16-8.3 4.2-7.7-5.2L304 387.2l-39.1 26.1-8.9 5.9-8.9-5.9L208 387.2l-39.1 26.1-7.7 5.2-8.3-4.2-32-16-14.3-7.2 14.3-28.6 14.3 7.2 23.7 11.8 40.3-26.8 8.9-5.9 8.9 5.9zM121.8 230l15.9-27.8 13.9 7.9 56 32L231.9 256l-24.3 13.9-56 32-13.9 7.9L121.8 282l13.9-7.9L167.4 256l-31.7-18.1L121.8 230zm254.5 7.9L344.6 256l31.7 18.1 13.9 7.9-15.9 27.8-13.9-7.9-56-32L280.1 256l24.3-13.9 56-32 13.9-7.9L390.2 230l-13.9 7.9z" />
-    </Icon>
-);
+const FaceConfounded = createIcon("face-confounded", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABnwAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDEAsGAAE2AiQDCAQgBYMtBzYblgXIjtEnY4RRnrk8qAqjJh7+Ofzd9/5srEVFk8bmMS3wsONxtjAsHd7xNoWdNIH//4977/32/CYziSppi0tqgk4HE//+1POchwK4yIOW/TBz4TxPaHTN84LUKvrL0yo0gWtaAas6HVnVHlLsV0TKmKWMHd9gx+XjCYoxjRZAJ28pO8ClPVT8U9NNKhYAIFoBAKyfxEfCwgM+BO7UnolX4UBAbABgFKIAxCAES6iCPwHNKFBUFPzi/7/8BxIQQJRBPzNBERXc4wlQBKlUpGlouKqpcel8WhK3xMkasUOcCNviDIZs2IyRYdvx0E3uUPi2/aQ+73wTY3lnnzsUueu7mHjisxCxwxmM2vNbSkp0dXN1RyXK0RWNJVNDGRpc+wp0QxeAEUAjoxtitp6kodKQYyhObRDCTHVUojmaZYkm5iamBCqCsI7AGMNH3qA3Khp90t3J3YH7ed4S+PaKdHeP9Dpa4rnWgX4QWEff46K//+KkGhu2pV3cn8wCPRV6XDjX6Bxu4Az+VatRoMXZsRrV/p3BNZxBk0Y4p83flJ1r07Jnbc7hm+ER6flv5ZGEqi+6HyAQvCfVlqcJl75YXArA39TLG/sV1V4S8gGoShAUZv4tJCdIAgCQUQt6CQikOyX0qI2uBAj1CJDK6gUoGCCCoKjeNAQlwxwhKKt3gCqKbAidUh4yNTojCxa1kEWdJsmSJet5WWdQJ6ww3YTPxSDIY4GHiK2VDXEjr61bnIPcue1O0qpJLU+ZAgm5ypSqliNbgWpHVIqsapQIivBAX0TYsmKDcEO6B9eQRHmlKgVtuX8Xd2R8aKI2XmwKg0JZZzVSEilcDe0/YYhLDAAAAA==");
 
 export default FaceConfounded;

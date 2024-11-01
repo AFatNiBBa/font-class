@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-right?s=regular down-right}
  * @preview ![down-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/down-right.svg)
  */
-const DownRight: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 384l0-193.4c0-1.7-.8-3.2-2.1-4.2c-2.1-1.6-5-1.4-6.9 .5L257 241c-9.4 9.4-24.6 9.4-33.9 0L98.3 116.3c-2.7-2.7-6.5-4.3-10.3-4.3s-7.6 1.5-10.3 4.3L52.3 141.7c-2.7 2.7-4.3 6.5-4.3 10.3s1.5 7.6 4.3 10.3L177 287c9.4 9.4 9.4 24.6 0 33.9L122.9 375c-1.8 1.8-2.1 4.8-.5 6.9c1 1.3 2.5 2.1 4.2 2.1L320 384zm48 8c0 22.1-17.9 40-40 40l-201.4 0c-16.8 0-32.5-7.9-42.6-21.3c-15.9-21.2-13.8-50.9 4.9-69.6L126.1 304 18.3 196.3C6.6 184.5 0 168.6 0 152s6.6-32.5 18.3-44.3L43.7 82.4C55.5 70.6 71.4 64 88 64s32.5 6.6 44.3 18.3L240 190.1 277.1 153c18.7-18.7 48.4-20.8 69.6-5c13.4 10.1 21.3 25.8 21.3 42.6L368 392z" />
-    </Icon>
-);
+const DownRight = createIcon("down-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbAAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBXgsGAAE2AiQDCAQgBYMtBzEb3wTIjsQ4JvILK13Ew/+v/es+d+a9lcwLwwSAQSEUWdZF9asCCoW2K6okf8LWvp+exRsvFfBAYM+Hiw/keYHeNz6BxedLvWADrlCFCsRjHEQ7u8mgl1V8yicZFr0MEwZ5XIgHKqTX0g+4n7iKv7R3k6SSAYhmAJi2ZsUiX/0ev0d8Xx/xvQUIiGmgFMigdBJgokzQDHIlcrng96ivl39gSQBRlb8rgRw5VmADIAdJyvMefWuVxvnqWqXYEeJam2etlsaHvVfHs+JWq77xxNXWq+K1dkvjSeuntdqoq60inhRFfNzh9Y5vtJ0Sq+PzuDZgQHxRu91vVUyJ530+6fVRe90/b/b5q24/7P7BlCl1dXVZ82HdV2nc+OJFI6rVEa+hNC/88ssq3Vs2z+r+b/6SL5p/692/pRa/znTggOYdOjR/DQWJZnpVdqtNKb4FAkHT7Fa3LU0n/tuglsCfL/9PpIyj6XM0kECQDawfaGNcRbM4Ksh+itO6G4IFkgUSwGsjzwQIBQIkVYUAmY6aCZArDBCgootRAlQVVshE3lBoZVOFpJFjkBntEuRa+RIqJvrar2oVmV/pXqH/6nJmazTrqhw2eGg5vhwWiuEqajxOKKfdvqfDoB9Uux1x2Em77LTPSUWOWxSdcshsC88iUGmYwYYqjVcu1/fPq+1y3An7HHFYzkxQ7vf6Om3P9+OeBBh+IrlEpOKm6a8S");
 
 export default DownRight;

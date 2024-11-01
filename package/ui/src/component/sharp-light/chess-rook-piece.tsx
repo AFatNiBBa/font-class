@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-rook-piece` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-rook-piece?s=sharp-light chess-rook-piece}
  * @preview ![chess-rook-piece](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/chess-rook-piece.svg)
  */
-const ChessRookPiece: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M96 144l0-16-48 0 0 90.2 36.3 43.6 4.1 4.9-.4 6.3L83.3 352l-32.1 0 4.4-74.6L19.7 234.2 16 229.8l0-5.8 0-112 0-16 16 0 64 0 32 0 64 0 32 0 64 0 16 0 0 16 0 112 0 5.8-3.7 4.4-35.9 43.1 4.4 74.6-32.1 0L232 272.9l-.4-6.3 4.1-4.9L272 218.2l0-90.2-48 0 0 16 0 16-32 0 0-16 0-16-64 0 0 16 0 16-32 0 0-16zM32 480l256 0 0-16.7L255.2 416 64.8 416 32 463.3 32 480zM0 480l0-26.7L48 384l224 0 48 69.3 0 26.7 0 32-32 0L32 512 0 512l0-32zM176 224l0 32 0 16-32 0 0-16 0-32 0-16 32 0 0 16z" />
-    </Icon>
-);
+const ChessRookPiece = createIcon("chess-rook-piece", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeAAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCRgsGAAE2AiQDCAQgBYMtBzcbTQXIHoVxMz3SRXMUUd7+Ec/Tr/V5bnf/rt0ZXsJXqxAwjCrr1ieKhAV2YcdG/IpNRUZPMte+V0j8xOXO//zpAdcUfrQ5y7p4DR1jnCcQ6Jg8OYEssEwTsPx2fkooxRsYdAkuHcN2/WH7N2hyJ2tNUX1SwfvpQ/OvhR5TaWoAGQHg0I0r5/w6nenk70nkb2cQyGFQBDVqLBGwVy1YolHQaITpTCbuP7AQIC08V4EGLR7jA8azVJqmOdcfj7tT/eZ6ub1zJ9KJ7MvcyNV0ciP7My/Y3O2LyJzszbU1/nqS+TkQ64RoJFR6s9/rJ/vt3r3RidxIN9eY+l5uCOncfW2s+HT06X88y4MNo9Foo9v22KrVnFc0p+22Ret1I7HM61pb7J6aZV/e2mqP2zaGiFLdg3T2wAWMDfxsYFwWI7XhqGmFv1hRSvlqkhgpLBXIcysfLR8+GO79f0a3Av98f/lXNPk1B6tPMUMFQr12stbdvAs5KACAKu9akYMIKu9p4F17PhQQHQRUWh0BtcVGAhodawRMWWabgFbHFbU0M8Uc9wiu9LwB17Z7BDfm+A6estdv6dac1Looa5L8J5hxvAeOrSub1m8su8u2qSnqJcblPeU4WPmuH1plLnrWa171tmc87QVvd9CbzuXe8YrjHHjMFxWbrLdRsVsRdx7Lr3vGm97ywtolX2WP8j6+0rv85FUmWoHgZtdUKlKNnnr+mbfeWvfma6+9tO5LAA==");
 
 export default ChessRookPiece;

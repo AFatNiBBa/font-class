@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `child` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/child?s=solid child}
  * @preview ![child](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/child.svg)
  */
-const Child: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M96 64a64 64 0 1 1 128 0A64 64 0 1 1 96 64zm48 320l0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-192.2L59.1 321c-9.4 15-29.2 19.4-44.1 10S-4.5 301.9 4.9 287l39.9-63.3C69.7 184 113.2 160 160 160s90.3 24 115.2 63.6L315.1 287c9.4 15 4.9 34.7-10 44.1s-34.7 4.9-44.1-10L240 287.8 240 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-96-32 0z" />
-    </Icon>
-);
+const Child = createIcon("child", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABawAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSBVQsGAAE2AiQDCAQgBYMtBywb0QTIPgXYBgzV+l6MHSKRklAPO9IdKX1stn65W3O6n8X6Ew9fa+j7e3sBIkcKyUUSGcUSZFy4oGp8ZS3bukxt79nP3e0vzZP4vSVxg2QmTazCEnnasPwbWgKPToQ6cMjt5IegoEZYAELXDyR+zBrgPz4gbMBBhikEYqveAGay0CoEP1lqxdMfGGT+r6mXQQf4QeRulVaB0SAdnIB7Pu8AGdhsOJsobndaC0m0R5IkluTzacfnAjlOi1Ml6XP6Ah7ih8Z/Cqck1QWAaAIAsHHY1QnsO9/D70V8VwYCYgNgCKJAgT4IljECfbiGgCwL3qOd+Q8MBBAViEnMGR/cAvYByCBJOdcv8cv6fKAfrTn9YsvY0Nwb6qamdgC6a7vlXXdUEGMCXyslrWySpaM13uLfjDaMybhrG0zYUKxdUjPSlDR/7YzdMj//JIc9Pk4h0eW9yB3CSlj81mpm89INWP+sateyNN7qy8PDYcDCl4wjAIHgb/X/EfnDBP59/fxkmlRqokoCQTHRZjh2GUhfeKWkuKaPdfgmINnEQe9a54MAoQYBkgo1AhR6SSDIaoxDUBrghaBCjV2MyNVCm5EKkjpnoDDrBGRtHkFp2Wu4QlsUIqUSCNWPLn2uRbPT6DYHhWiaVdRSIvvuMC3bs2urjLAUZq1ZtW3GtAXbjbSpM7ZjRY4Ts36IONk4kBDaLtzP7zVj05YFa1bDIGF03muwyzc2wmw4gMnHyEhEKkUYAAA=");
 
 export default Child;

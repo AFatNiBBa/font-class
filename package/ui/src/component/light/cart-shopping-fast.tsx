@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cart-shopping-fast` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cart-shopping-fast?s=light cart-shopping-fast}
  * @preview ![cart-shopping-fast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/cart-shopping-fast.svg)
  */
-const CartShoppingFast: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 16C64 7.2 71.2 0 80 0l37.9 0c20.6 0 38.6 13 45.3 32l440.4 0c20.8 0 36.1 19.6 31 39.8L592.6 239.5C585.5 268 559.9 288 530.5 288L216 288l7.9 38.4c3 14.9 16.1 25.6 31.4 25.6L560 352c8.8 0 16 7.2 16 16s-7.2 16-16 16l-304.8 0c-30.4 0-56.6-21.4-62.7-51.2l-58.9-288C132 37.3 125.5 32 117.9 32L80 32c-8.8 0-16-7.2-16-16zM530.5 256c14.7 0 27.5-10 31-24.2L603.5 64 170.1 64l39.3 192 321.1 0zM256 480a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112 56 56 0 1 1 0-112zm280 56a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm-80 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zM16 128l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l112 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L16 224c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L16 288c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const CartShoppingFast = createIcon("cart-shopping-fast", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABowAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SCbQsGAAE2AiQDCAQgBYMtBzkbdgXIhofn7f7ftc+dB3i+6SQdVBHoXKVoPtpYf3/qec5DAXxGQfnZs2vQtm6a8zwCBR7L4+XqEqppBazL5oCrJdRCHCE9hCz+jqGKSPekL3HT+VHxtTbXkGQFAFELgFkb1izz8bk4F/Hl/28QX1qCgJgNcoEC3t8pwFQFIYeQyZHJBOfi//+P/8CcAKLY/WwJZKjAHXgEkIGkLMuGlZdVlVVVV1dXFFVl6yuKyrfc1VIRb7RVxR1NdzSujbv7Pl5eGV1xTz/NvL2Rt1/b/8n2zXFnc/lX2PVUx4ZQs+uiaifN3tv/8daQQjzRdk9rBjor93bcN2CXjg6xnJtP9bOiUXo8M7+/oryiDp0d9K4W0qN6P1v77Le9vtz/pRkvVZ/rLz54xw/XXjdi0FPWVlY1T3GxDVeOcq66+twoLVVV8yf3mPJy/yX31fc7L4nY+6r+H5ldf3ZVU9Oqr3blD3/9/fdfP0xuywQDIrUra1766KOXakj0rQU7T7qcvRMxZ54k9KGelMQrCI2xK+4HAkHdQ/NX7aiZ+mtpRQIX3v3+1+5n5P+302XpWZRKICgM/X+orekKpHSZAACkuETvdAUCyQ3KkFSlO3NrQzliqihWjkNBh1rIlBsCRbqNoyNPr1EQWZnQaBuGpNIpKBjvUsg0eg2KTPVJqVhjFMCTBS727zBpvozN25WPGj4yn5w7uygHcfS2PSWPtgZeMk0Nwjftd8JxF9lnr0MukojTllUvdsx8Hz7PF+VGGW6k3GR59mBdWi+VTjvjkF2XH2SKvH5qoEv8iwdhN7lJR+tIEpHqW7g+DJ7lYe0FAAA=");
 
 export default CartShoppingFast;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-arrow-right` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-arrow-right?s=sharp-regular truck-arrow-right}
  * @preview ![truck-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/truck-arrow-right.svg)
  */
-const TruckArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 48l0 320 28.8 0c16.6-28.7 47.6-48 83.2-48s66.6 19.3 83.2 48l76.8 0 48 0 0-320L48 48zM480 512c-53 0-96-43-96-96l-8 0-8 0-48 0-64 0c0 53-43 96-96 96s-96-43-96-96l-16 0L0 416l0-48L0 48 0 0 48 0 368 0l48 0 0 48 0 48 56 0 9.9 0 7 7L601 215l7 7 0 9.9 0 136 8 0 24 0 0 48-24 0-40 0c0 53-43 96-96 96zM416 240l142.1 0-96-96L416 144l0 96zM160 464a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm368-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM241 95l80 80 17 17-17 17-80 80-17 17L190.1 272l17-17 39-39L112 216l-24 0 0-48 24 0 134.1 0-39-39-17-17L224 78.1l17 17z" />
-    </Icon>
-);
+const TruckArrowRight = createIcon("truck-arrow-right", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABlAAAAKcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCZwsGAAE2AiQDCAQgBYMtBzgbbwXIngVOmRXH8SFOGHY03TWHFY74lytGEK1l1bN7IXBAoFknPhLIJh5fEbp3eQWsUFgSFlHINWxM7wqEn6ryAMBVjYAdgRwLVTthiJyewqmb//pN/I+XzvPOF41lSxdRuLQNkkjCWZdjHMFgy4iD0H5+PXFN/nt6evrfQD5sKTa0KKumqj6fwM7TOmigOx/YRHG22TgE9xgbQkSESJFJ7d9H9vh0hTy+o1eCdCu9wbX+pfFbs20SeQYAogEAsLTakMLdh/gQ8VmEeG0ZBBBLgC4EGchAGwJmSRG0kREgJ0P4EEXB/4FdEABRBvnEBMhBBbiJ24AckChymTVPrdcHtXK9rLm6pOlImUTL68GdutS/EkorpW7oGSHTHUhzM3SYyuV5pJSkVg8ih9bOpmA+KcHIsQlVpW2OKqLxDmZhkhc8kFHKO3UTFyxdlbPkym9uikSYjUtIOWOs4KtSrVaB6JJIKM1fX/eqB0xes+RJv+eVzNvaaT876iKofPIzF/crKlYr7t8/c4bIFQ2ZmagEZe6fpbBq2Mwehmnsq2jKhGvolnaBO5Uta0ZSb/H+9H1+fztd2WpVTR9sTGsMHZUezAAIbQS7dkeozlb2bRAg4EPp6bs1bvargpIA+PTq/7+9rmg6k+6jggQQkI39j+lMZ4BoA8CdYlnIGWOA5NCH3lrjTACCBiiWKGiwjJcJy2nEsJKAPG5wSwMp5mqQTRdgEjpzmFS+LUzG5haTK/XqUrCFNDf5mcX/NUxSb8G6UWI6mSmKxWXBLkg3bh0sEWHZ0HJpiGAlhs2YtmjIoDGLBpmX8i6ZUu/BdX5IyJKUSSgmHpc/Lm42ZN6CMTOm2zAlxHhT2LLfPgKlhHCckZZIIJJ58kUkNrr5mZXZDQAA");
 
 export default TruckArrowRight;

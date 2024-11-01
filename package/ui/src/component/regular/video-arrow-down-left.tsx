@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `video-arrow-down-left` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-arrow-down-left?s=regular video-arrow-down-left}
  * @preview ![video-arrow-down-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/video-arrow-down-left.svg)
  */
-const VideoArrowDownLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M320 112c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16L64 400c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l256 0zM64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-33 0-190 0-33c0-35.3-28.7-64-64-64L64 64zm464 84.6l0 214.7L416 313l0 52.6 104.3 46.9c5.1 2.3 10.6 3.5 16.2 3.5c21.8 0 39.5-17.7 39.5-39.5l0-241c0-21.8-17.7-39.5-39.5-39.5c-5.6 0-11.1 1.2-16.2 3.5L416 146.4l0 52.6 112-50.4zM232 352c13.3 0 24-10.7 24-24s-10.7-24-24-24l-54.1 0L281 201c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-103 103 0-54.1c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24l112 0z" />
-    </Icon>
-);
+const VideoArrowDownLeft = createIcon("video-arrow-down-left", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfwAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCGQsGAAE2AiQDCAQgBYMtBzwbJQXIhof/t6v/fW5V93pj1zwSH3QEOpQzOBJTKe3/uebze350gN8uCA4l2qpBFqXdzycwsfBq4OlwNpogT93UetRDKnlUREphZYwdn91xbQN5fBM3K5HuSR/hpvam8Ysu15CUMgDRCIAlu7Zt8M6P8WPEh5UXiQ+tQ0AsAYVAhgy9AsyXCfTKFcjlgh+jUuH/wIIAogyvmUCOMk7FRYAcJHmeN/b3ddeU6vKdNaXq4+9oS3F7a23c2Z7FXR11Ox8fHfF0Z4p7xjwzoi6eGvdcT+DR9459dmTtEWFniB1xR811HXdFxJXtd1Zf27o9xK7DT/XcO7I6dsV93U8ON1qEuubxTnHPiJqhzzY++9vgR8d9ZNGmH+up/5G5sjLp4SaaqqluanoYYjg16C2D4n26/XM89fQpZjh+orOqGp97rfEvTa8911h19vETzHD6lFEfbGlr2zLTccf57LO6usFsRjNWPaMzjAPxkym/XbP2UMP8/4bUJPDza3/8L0emxelZDJFAkI2vjLc/LYZMDSCZ4jxDnQ8KJMfK4ZpadwoQqhEgKavekOnRCLlq46Ck34wNyqptk4m8Smh1QIKk1pmQmelSyLV6HkrmezdR1hpZ0AkhI/zzpa7UyIpFxZSJk4u5xWXNEuOIq7Pzitv66PNKzxha6zinO805jnWME52jsLNsSJ/rVCs9dIUvKkwx0WSFuYrHze3ynY51lrOd6HSnyTzzFO/Ho53nDx9DVgLaqYqSRKS2c1g44chZZ51+/oTTyH+UAAA=");
 
 export default VideoArrowDownLeft;

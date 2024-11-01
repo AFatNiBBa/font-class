@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `faucet-drip` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/faucet-drip?s=duotone faucet-drip}
  * @preview ![faucet-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/faucet-drip.svg)
  */
-const FaucetDrip: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 224l0 64c0 17.7 14.3 32 32 32l100.1 0c20.2 29 53.9 48 91.9 48s71.7-19 91.9-48l36.1 0c17.7 0 32 14.3 32 32s14.3 32 32 32l64 0c17.7 0 32-14.3 32-32c0-88.4-71.6-160-160-160l-32 0-22.6-22.6c-6-6-14.1-9.4-22.6-9.4L256 160l0-76-32-4-32 4 0 76-18.7 0c-8.5 0-16.6 3.4-22.6 9.4L128 192l-96 0c-17.7 0-32 14.3-32 32zM192 32l0 12 32 4 32-4 0-12c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-        <path d="M224 80L96 96C78.3 96 64 81.7 64 64s14.3-32 32-32L224 48 352 32c17.7 0 32 14.3 32 32s-14.3 32-32 32L224 80zM436.8 423.4c1.9-4.5 6.3-7.4 11.2-7.4s9.2 2.9 11.2 7.4l18.2 42.4c1.8 4.1 2.7 8.6 2.7 13.1l0 1.2c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-1.2c0-4.5 .9-8.9 2.7-13.1l18.2-42.4z" />
-    </Icon>
-);
+const FaucetDrip = createIcon("faucet-drip", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABlgAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCVQsIAAE2AiQDCgQgBYMtB1IbeQXIhofn53o79yUz/U3KkAKjIgLHtECy9tuuWnY4askW7ALrmf5+nn+rAnwA/ivXhWsryjyfwM7nxRsleAnNdAa2ZXNcTDAL6Sy0nyCPH7JbaqSPUgNP+/8BjF/1doukbQYgOgFg0eb1K331Kl6laDQ/JhpWICAWg0ogQ4Z+AsyVCfSTq5DLBa9Ss8mraDYrAoi6Hs449fh57uNDQA6SJOV5717zu5S19vmmslZs37B5w4Me78f1nh+UG2NzPOz+nmvd3i02bf2gfNh9XLxH4KLciKJqQgjX0qayjM+Xfb2gVFbwQw97fhC/zP9iUxGj4/2iaKnhMbRQxINuI7fmd20WhsUIN3oPuUgdGdzaqfX3QY1DDS9PX+045Trcu9eh4C9dNQLb9dOm4S0tw/sY1iY4daHNsD5eLRzFuPaA9s+ftx8q8S8kv2hJo7EkKofca9/VCv/61wpdtb93yB5p5Msv240iy93O7HEgEJT/v5i5u+Pc/1vKBN588ue/xw9J86sktaJFAkE2tjnWjgQSAQBIccngxEIEMmsk46e2874AoUCApK4QINNXJwFyhTEC1AwwTYC6wnqZyNsK3ex8QNLOWZCZ7jLIdfMC1Mz1db6uW2QwKUOU/EuYsRyHlm2qJo2fWM2uhC2XAmaidHVOpe0deakYGRUddMhpp1xw0AFHXcC4c1aWLjppuYxY5osqk4w3UWW2yro7bWzC8uecd5Sv2a8zR+U/OdIl+fRR0XYSYPLXPCsjUmRdD+29uP/ghXEHzh09My54j3WntZAMAAA=");
 
 export default FaucetDrip;

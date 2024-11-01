@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-check` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-check?s=duotone circle-check}
  * @preview ![circle-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-check.svg)
  */
-const CircleCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm136 0c0-6.1 2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l47 47c37-37 74-74 111-111c4.7-4.7 10.8-7 17-7s12.3 2.3 17 7c2.3 2.3 4.1 5 5.3 7.9c.6 1.5 1 2.9 1.3 4.4c.2 1.1 .3 2.2 .3 2.2c.1 1.2 .1 1.2 .1 2.5c-.1 1.5-.1 1.9-.1 2.3c-.1 .7-.2 1.5-.3 2.2c-.3 1.5-.7 3-1.3 4.4c-1.2 2.9-2.9 5.6-5.3 7.9c-42.7 42.7-85.3 85.3-128 128c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7c-21.3-21.3-42.7-42.7-64-64c-4.7-4.7-7-10.8-7-17z" />
-        <path d="M369 175c9.4 9.4 9.4 24.6 0 33.9L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0z" />
-    </Icon>
-);
+const CircleCheck = createIcon("circle-check", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABhgAAAI5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCBAsIAAE2AiQDCgQgBYMtB1QbKgXIFkrLw/c6P899kj1reRm0DBzgDpBKdsqfCgjrP2kRKk1c8/zPn96jiR+lk8obfFnnE5hIWtLT24AmNNMZ2MxtxJAlYcz0IPIyxNDOELUOnRfk8XV2kxrp8fQp7pX/AYwf9XMTSSMDEF0BsHT39o3ebI/2FJ9WLxGf2oCAWAZKgQwZBgqwQCYwUK5ELhe0p6qiPaqqJICok64zUEcNx3ERIAdJSHneY8DEZq1TvktuKE4/3ndHPD1qWzwx4LmRC2N3cMv4bmnEWxs/a965+Yvl7+z+ftnbmz4v7tjw6ZI3dzSv72PwXhwf4Eebd/Z6mOnhuM510VFxXc+Hen655aHijt6P9G6NeySGtbq2fh766alPXdL1yy+vvVanTpXEufwXF12E7/CmlQ36tb21fPlbbf0aVt5bxbcVp2ytXmm98sqpojg1vEekkCIJEVn0GF5Vo7e1ntix4nQDCARPTf//icNdFvzdoZnADy//+qf4O6reTFILHSQQZBOqCQ4kkAgAQIqrDEtcj0BmjUQ/taNHBAgFAiR1hQCZAboKkCuMF6BmsJkC1BW2y0TeEHo6WIiko0uJzCxXE7me2oiaBT4o63pGhjUJKdJLL33VwMpD5dRJU8p55bQny/AR/O780uyPucrMWLrqlItd5AonnXDWFUGX2dhc6UKrVuBKX1SaapIpSvOU28NbfVflZS53dqzu7zNfeT4b46r18rEUJco6zZFMRqTIev7JMSei1p4I2/neHfWGAgA=");
 
 export default CircleCheck;

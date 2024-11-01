@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `martini-glass` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/martini-glass?s=light martini-glass}
  * @preview ![martini-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/martini-glass.svg)
  */
-const MartiniGlass: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 33c0-.5 .4-1 1-1L479 32c.5 0 1 .4 1 1c0 .3-.1 .5-.3 .7l-94.4 94.4c-.4 0-.9-.1-1.3-.1l-256 0c-.4 0-.9 0-1.3 .1L32.3 33.7c-.2-.2-.3-.4-.3-.7zM158.6 160l194.7 0L256 257.4 158.6 160zM9.7 56.3L240 286.6 240 480l-96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l112 0 112 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-96 0 0-193.4L502.3 56.3c6.2-6.2 9.7-14.6 9.7-23.3c0-18.2-14.8-33-33-33L33 0C14.8 0 0 14.8 0 33c0 8.7 3.5 17.1 9.7 23.3z" />
-    </Icon>
-);
+const MartiniGlass = createIcon("martini-glass", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZAAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBVwsGAAE2AiQDCAQgBYMtBzQb2wTIjtRG+UVWEg//P9f7+9zkUaYMKREpYHKAvPyzdfgJjSCW1VO17xOXO//zp/dt9Ghj2ZxFa/Ce5wkEPJZv6sLOs8AyTcDaXdSiUee+I6kreTzH4+MEebyNwWpIT9OPuB0/NP7V0QWSPAMQLQAwY+XSJT79KX6K+LGK+NEiBMRMUApkyNBFgMkygS5yJXK54KeoVvE/sCSAqEUvTyBHDRZjDSAHSZbn7ev6Vmqa5isqNcXas5Wmcd1Zy+JsXIsmSlzB8PJKUVkmrVju7xBFPGjzsG2l8rj9o3ZFRKyMx3G23aNi8iltHjjTtmdji8b/e/y440fdX0V8ECE2rEcg5EQ4depzsjZtYuIPdv7+h17xmU1+atbsp0OHUrTJZ1rJE1v65GqzD5pd5ceBQHBj396xG5tP/lhfSeCXNz/iz0j10yQ1ol4CQTa4Oti6BBIBAEhxQs8EgWS2DL1rE48ECAUCJLUKATKdtRAgVxgkQI1uxghQq7BUJvIGoY31hUiaOExkxjpJ5Np4TdSY7JtUrTaRyRQjEcyXLnFuDcxZVo4YOrycWHbrmBUTys1PKpfl/idM3wA4aoeDDjhmu212O1ZBRyzJHrff3BE4xxeVRhhquNJE5Xbrdv8K2x1x1G4HHQiLTFKe9/s7MR49ALSESEcqSxKRmj5CdfeQWwQ=");
 
 export default MartiniGlass;

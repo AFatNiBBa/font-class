@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shovel` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shovel?s=light shovel}
  * @preview ![shovel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shovel.svg)
  */
-const Shovel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M396 34.6L352.9 77.8C342.1 88.6 336 103.2 336 118.5c0 31.8 25.8 57.5 57.5 57.5c15.3 0 29.9-6.1 40.7-16.9L477.4 116 396 34.6zM377.9 7.5C382.7 2.7 389.2 0 396 0s13.3 2.7 18.1 7.5l90.3 90.3c4.8 4.8 7.5 11.3 7.5 18.1s-2.7 13.3-7.5 18.1l-47.6 47.6c-16.8 16.8-39.6 26.2-63.3 26.2c-18.9 0-36.5-5.9-51-15.9L235.3 299.3l62.1 62.1c12.5 12.5 12.5 32.8 0 45.3l-58.5 58.5c-30 30-70.7 46.9-113.1 46.9L32 512c-17.7 0-32-14.3-32-32l0-93.7c0-42.4 16.9-83.1 46.9-113.1l58.5-58.5c12.5-12.5 32.8-12.5 45.3 0l62.1 62.1L319.9 169.4c-10-14.5-15.9-32-15.9-51c0-23.7 9.4-46.5 26.2-63.3L377.9 7.5zM32 480l93.7 0c33.9 0 66.5-13.5 90.5-37.5L274.7 384 128 237.3 69.5 295.8c-24 24-37.5 56.6-37.5 90.5L32 480z" />
-    </Icon>
-);
+const Shovel = createIcon("shovel", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcgAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBdQsGAAE2AiQDCAQgBYMtBy0b8gTIhofn1z49980shmnCzIqp5QVd+LaELuijihbV2v75v9nznkcBfqNQ1rCl+Qba+3kCiRYn3rYDO9MTsNNt4lOHEH4RMcospOP0eKIN8vguhqkg1aXXeFI+NP7SxU2SPAMQrQEwe+Pa5X7+PX6PeF3+gnhtKQJiDigEMmToLsA0mUB3uQK5XPB7lMvpP7AggKgkd0wgRwW24RAgB0mW560mtGpW0SLf0Kyi9uC0mdM+Udfhvf4Phs6MDUM+aPagw/p4z9X20+KTcR8NWBerYXVVfL+uNu53fD8i3sxcGyeYqm2M+rjm0fc1q232bCJuiJ37FPqUWpf+6f36wGsPGkulks5V5fLVTkpWrep6sFmzg5s3u9Cs9uJ/Phn1846jR/yirkWLujr/zLZDy7t3W+5g9q91vO8vjhzV1KNf/f+b3+zYsWPU2pK331ZvfrYDCASvZrys2tlqWlN1swT+/Pa/JvVXVP45SSVUSyDIhpWH2ZZAIgAAKS7okyCQrJORtzb3vgChFgGSSrUCZLppLUCu1lABKvQ0XoBKtdbKRF4jtLe9g6S50yAzwSWQa+8zUGGaZ0al9pGFGBUg1A8vfgFC8+eK0SNGFVOKZajRUUPweGpxLA66kEuDadEBJ51wzn77HHYOkDOW2+cdt8CC5/uiwmgjjFKYonAnj/wGMM4467DO+qdMVdxXB7lgNw8mJRHUMZxJIlLl2Vcv4RgAAAA=");
 
 export default Shovel;

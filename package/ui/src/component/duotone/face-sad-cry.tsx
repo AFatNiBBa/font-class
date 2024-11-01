@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-sad-cry` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sad-cry?s=duotone face-sad-cry}
  * @preview ![face-sad-cry](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-sad-cry.svg)
  */
-const FaceSadCry: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256c0 94.8 51.5 177.5 128 221.8c0-63.2 0-126.5 0-189.8c0-.6 0-1.1 .1-1.6c.1-.5 .1-1.1 .2-1.6c.2-1 .5-2 .9-3c.8-1.9 2-3.6 3.4-5.1c2.9-2.9 6.9-4.7 11.3-4.7c8.8 0 16 7.2 16 16c0 68.5 0 136.9 0 205.4c29.6 12 62.1 18.6 96 18.6s66.4-6.6 96-18.6L352 288c0-8.8 7.2-16 16-16s16 7.2 16 16l0 189.8c76.5-44.3 128-127 128-221.8C512 114.6 397.4 0 256 0S0 114.6 0 256zm99.2-41.6c30.4-40.5 91.2-40.5 121.6 0c5.3 7.1 3.9 17.1-3.2 22.4s-17.1 3.9-22.4-3.2c-17.6-23.5-52.8-23.5-70.4 0c-5.3 7.1-15.3 8.5-22.4 3.2s-8.5-15.3-3.2-22.4zM208 336c0-26.5 21.5-48 48-48s48 21.5 48 48l0 32c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-32zm83.2-121.6c30.4-40.5 91.2-40.5 121.6 0c2.2 2.9 3.2 6.2 3.2 9.6c0 4.9-2.2 9.7-6.4 12.8c-7.1 5.3-17.1 3.9-22.4-3.2c-17.6-23.5-52.8-23.5-70.4 0c-5.3 7.1-15.3 8.5-22.4 3.2s-8.5-15.3-3.2-22.4z" />
-        <path d="M195.2 233.6c-17.6-23.5-52.8-23.5-70.4 0c-5.3 7.1-15.3 8.5-22.4 3.2s-8.5-15.3-3.2-22.4c30.4-40.5 91.2-40.5 121.6 0c5.3 7.1 3.9 17.1-3.2 22.4s-17.1 3.9-22.4-3.2zM128 477.8L128 288c0-8.8 7.2-16 16-16s16 7.2 16 16l0 205.4c-11.1-4.5-21.8-9.7-32-15.6zm224 15.6L352 288c0-8.8 7.2-16 16-16s16 7.2 16 16l0 189.8c-10.2 5.9-20.9 11.2-32 15.6zM316.8 233.6c-5.3 7.1-15.3 8.5-22.4 3.2s-8.5-15.3-3.2-22.4c30.4-40.5 91.2-40.5 121.6 0c5.3 7.1 3.9 17.1-3.2 22.4s-17.1 3.9-22.4-3.2c-17.6-23.5-52.8-23.5-70.4 0z" />
-    </Icon>
-);
+const FaceSadCry = createIcon("face-sad-cry", true, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABwQAAALnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCCDQwsIAAE2AiQDCgQgBYMtB1Qb6QXILgdsY5TYLzGIotg2HQbP2YZHS7hb3vaTxXj4sCPf392TIm5gV1cF7kBW1PRxmQ5SF1cu6uOBuHfvjyiirPM2d9HCsc6zrDj6WBFlbVqDw3gg7t1rTfrTGhPjzrfnZWnCoY/F04Nc3G4UZDhLLEBILX5oxkWae6Sd/8DmXAuxHb9LFlrgiWuef9rTe2wzGspH2qq5IrUEBhjtaRPaTWCmM7Bdbpso4nL9RyhcIYv36T4pknPZM454/wMYf6X2kShJAUS1ABizmVzr7vfM9yRe1kW8tEZAjAW5QIoULQQYLhVoIZMjkwm+J3XwPepoEUAU8j41BYUoxS28BmQgkcmyrH7Xa6Z+o4ZlhYpsWjpVOn1ZDWJ/crLR6cZXy+bjUw1ONpoSiDPxqYbiQjS1njnZm7WA3kKLyviNCYJ7tbNMqI93r9SdKZPeXabWnnkaOx97M27f+lZ2tWvzXT2XNvXW1VoQp3BX26eu4pXrhucbnmoqzgYn21ue081i0bSpfL7tleor/30enV0+vUIaPpZhe+0PbfsH7ILs5u9785XCr28pjdlG2m3/grZegy6D3kWLdU5mKV2S3r1CMjLEZpG0SdG/sl/69bvPTRebNyWZpiaZlKTHdmeE3UnaJG7b5dieW3XPO41/xZlsTi987p39fMnlqgVh2smytPYF5SmnhXxdIBBsf9z27arcVy0BP6+//Iek7qzkCoolIEi7w5wsSAgAQBIbtA2Zg0Bqs0zwruVOC0AoRYBEoVIBUs1VC5Ap1U2AAq0MEKBQqclSkZUIDcytNYlyqzWpgbZrMg1c0xQY7om/UIMgB8o8IPJ/kikT28CEVfmkZ+98aD5ZVQrQydrTw/LV+tEG2dUFX7DASiusM988i3O6ha9RG1pvuYlz2ARflOujp95yQ+W7G/dPTzPfGmstttIKd5lh8vPdnW2YH9wFmxKB1r62pFIiibSBSSntcejO67Ebb+7xVfQ2GpBMAAAAAA==");
 
 export default FaceSadCry;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lock` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock?s=duotone lock}
  * @preview ![lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/lock.svg)
  */
-const Lock: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M80 144l0 48 64 0 0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48 64 0 0-48C368 64.5 303.5 0 224 0S80 64.5 80 144z" />
-        <path d="M0 256c0-35.3 28.7-64 64-64H384c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256z" />
-    </Icon>
-);
+const Lock = createIcon("lock", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABaQAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBNwsIAAE2AiQDCgQgBYMtB0QbzQTIjsQ4JvGHqEzi4WOufD/J7lEZUmBUhOxI1jFLADbiphZV9WZwyPz0N/+88yjAByLNcb54gURznifQeSDFEyxfQpl+A/vmrjbFQ+0rcYmlpb+yx88CWdxKjyiQnEl+4IT8D2D80tQREhUpgKgDgDFzZ072pjqqk/hRekD8MAkBMRbkAilStBBguFSghUyOTCaoTkolqqNUygkgiuTaKSgiw2hMAGQgESLLmrWqKtTM5lQVKuNct4h7nWrGjS53morTnW+3rxE3u95tFguFqoi41O3eoIdd7rQUcPzqyFcTPwx/kbe9W+fun36s+eFNZV3qXh7tct26lW8AFQ1Te/UOM6P1FnNW16mzek70xie22Hec4/taAIFgQuNunZfWHv6/vCoBP5/9W/kdld7Em+QuyiUgSLuXulsUbyDeCABAEnu0jTeYJpBqJcFvreGkAKESARJFlQKkmqsjQKZSNwEKWhkgQFGlmVKRVQgNLG4gUcN2kBroMMg0cB8UDPfZLGoQqRPhLoD/4WImIjRhKO/Ts3c+NF96KuEXaO4Oy7eVzntSpgtNWmOrLXZZbZX1dgGyw2Rnt80mavAEH8r10VNvuaFyc/jIzAFzh53Wzyl7n2Hy82pne/TyLjROAuh7/a6USCKt8byFHr7I1eqoNwc=");
 
 export default Lock;

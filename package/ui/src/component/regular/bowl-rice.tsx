@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bowl-rice` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bowl-rice?s=regular bowl-rice}
  * @preview ![bowl-rice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/bowl-rice.svg)
  */
-const BowlRice: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M176 56c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24zm24 48c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0zM56 176c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0zm88.7 244.6c-4-13.5-13.8-24.6-26.8-30.3C82.7 374.9 56.7 342.7 49.8 304l412.4 0c-6.9 38.7-32.9 70.9-68.1 86.3c-12.9 5.7-22.7 16.7-26.8 30.3c-2 6.6-8.2 11.4-15.3 11.4l-192 0c-7.2 0-13.4-4.8-15.3-11.4zM27.4 256C12.3 256 0 268.3 0 283.4c0 67.4 40.6 125.4 98.6 150.8C106.5 460.7 131 480 160 480l192 0c29 0 53.5-19.3 61.4-45.7c58.1-25.4 98.6-83.4 98.6-150.8c0-15.1-12.3-27.4-27.4-27.4L27.4 256zM224 200c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24zm-96 0c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24zm-24-96c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0zm216 96c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24zm-24-96c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0zm120 96c0 13.3 10.7 24 24 24l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24zm-24-96c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0zM296 32c-13.3 0-24 10.7-24 24s10.7 24 24 24l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0z" />
-    </Icon>
-);
+const BowlRice = createIcon("bowl-rice", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABvgAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyDUQsGAAE2AiQDCAQgBYMtBzAb0QXIBp7//Kvuq6rWx5A1s7YiU5HTPptK0eDvTz2PbQrgI4sFbUxbE2SBhNI9sAIVXNNLUrBqQb4Qd1SvwkDm578XMHJbNhAAtVO9AdZbHypfSGcJKAIaAACJAwAAmvXp0YkHUYmKvC6+CvKaDoAASDMALAJoQANZCAAN0QiQhcECBoNAVIqL2X+gBQEACeLgimsGiAWeAG+hfggUvjG+5yXn+L6nA88NGFpve5czYGcpV45n7irtyJG0Skwt9vfMtV4avWPlT2X4sqPsiZJH0rYkObItpfeqJJEtHKx0tt7O5KOuK6vLbM+8XeV8iYUp2xyvz5oDjjXQW3e3sSF/If9U3KlveW9Gv+H88uRucXRLDrX5Qi3Or2/DdvX9O7Le6eSUjnvomJJ8uh5A5MADLpSbdcSdA3NcfXzb4x4FXsoDUryCHo+2H1fenDnuqyd11h0YCudTh+j1Pg1p5jhnYMjZ3gcAAQRSq05oPCS24b+wqwD4fOvH/xhViqMKdQoIowAQ0BWLKzJQAaBAwPlJSmaTrwAEUNzBxyk9tiFrlg4gIg3iwFKTSVwOBocKECCHWi8EceiBRkwEIYlB5KDwmAaa2swFQxKXIUBDnmdBkkRf0NLlKP1PprcuY6222WqVq9r6trOWyteooOcb2NFm2dm8rxzcy2imMJmZjGIk45hZYqfTqZzFJFr3Ma34IpZqVKYqlvrY2a3reu9SNp0ZjGtX52/SALt+WpbZ/aPLQUfh8FanolAgKvKBMCp9GwAAAA==");
 
 export default BowlRice;

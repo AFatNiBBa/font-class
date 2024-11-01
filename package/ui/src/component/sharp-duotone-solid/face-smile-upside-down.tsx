@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-upside-down` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-upside-down?s=sharp-duotone-solid face-smile-upside-down}
  * @preview ![face-smile-upside-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-smile-upside-down.svg)
  */
-const FaceSmileUpsideDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm129.7-71.2C142.3 159.7 184.4 112 256 112s113.7 47.7 126.3 72.8l-28.6 14.3C344.9 181.7 312.4 144 256 144s-88.9 37.7-97.7 55.2l-28.6-14.3zm14.1 115.9c.1-1.1 .3-2.1 .5-3.2c.4-2.1 1.1-4.1 1.9-6c1.6-3.8 4-7.3 6.9-10.2c5.8-5.8 13.8-9.4 22.6-9.4c17.7 0 32 14.3 32 32s-14.3 32-32 32c-8.8 0-16.8-3.6-22.6-9.4c-2.9-2.9-5.2-6.3-6.9-10.2c-.8-1.9-1.4-3.9-1.9-6c-.2-1-.4-2.1-.5-3.2c-.1-.5-.1-1.1-.1-1.6s0-1 0-1.8c0-.4 0-.9 0-1.5s.1-1.1 .1-1.6zm160 0c.1-1.1 .3-2.1 .5-3.2c.4-2.1 1.1-4.1 1.9-6c1.6-3.8 4-7.3 6.9-10.2c5.8-5.8 13.8-9.4 22.6-9.4c17.7 0 32 14.3 32 32s-14.3 32-32 32c-8.8 0-16.8-3.6-22.6-9.4c-2.9-2.9-5.2-6.3-6.9-10.2c-.8-1.9-1.4-3.9-1.9-6c-.2-1-.4-2.1-.5-3.2c-.1-.5-.1-1.1-.1-1.6s0-1 0-1.8c0-.4 0-.9 0-1.5s.1-1.1 .1-1.6z" />
-        <path d="M175.6 272a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm160 0a32 32 0 1 0 0 64 32 32 0 1 0 0-64z" />
-    </Icon>
-);
+const FaceSmileUpsideDown = createIcon("face-smile-upside-down", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABtgAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDHwsIAAE2AiQDCgQgBYMtB2gb2QXIhof/7Pr/fap65gHqZzMTPqBQjCDGd/0IipTN/F9TL55fA37yC5TsVYCUDzOfn8CAoyx9bwITmsjANwPb4LxBBxXa2H+HIr7LV1RID6YvcHv8P4Dxuw6ukDTIAKI5AKavXbnYO3VRl+KL2qvEFxYhIGaAUiAjo7MAk2SBzgolCoWgLtVq1EWtVhJAVMXfQwZV1McLeA1QgCQpiqJVq05t+/ZvVGlSrGlUabj2ptYR97jQ5t5GN7e7v919be9r2GiOx4/Tc+8u/pI9fenXM99f+9OM95Z81fCmRV9Me2fV2ocHRjwz98P+T3XoFfcNeHrMq/2ebN1n9cWIuBj3t8saGt3c5t4297S+53TU9j7IuhhzaHRGhGf0eLr50392/2LPF154oekN3NC0EhnUBGky4Yn5Bd4xuwEdXnl35sx3X+nQwGzRzD7h4pwr//PL8uW//H/lTUdOXLrzzksnjrzZ5GQKyNF71Etrm94wqndKkSJEEZ8nzmThjwOB4MAj+eWtzSb9U79RAj+/9vdvzQ9J7Z0kPY36EgjyoNogmxJIBAAgxRk9EncgkF1USF+1sfsECA0RIKlqKEDWSXMBCg0NFKCiq9ECVDW0UhZFA6G1zQNIGjsOsjHOgkJrr4CKST6uVLWOrHBVZaf+N2bNmaKzV5XDhwwrJ5S7TZ2mFuVgeWJ5Oep3hg/1hyftcdQRp+y2y36nJswJi+unHTbnCJvtjUrDDTFMaYLycefl4TV2O+Gk/Y46EsWZqPy+3M+Z48n9YSpJBUdYk2UiRe6qLxKDTzobhcGnj0lwe7Cs9gcb7G72DJkPAAA=");
 
 export default FaceSmileUpsideDown;

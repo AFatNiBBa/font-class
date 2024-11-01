@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reel` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reel?s=solid reel}
  * @preview ![reel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/reel.svg)
  */
-const Reel: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32C0 14.3 14.3 0 32 0L416 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0 0 24c0 13.3-10.7 24-24 24L88 112c-13.3 0-24-10.7-24-24l0-24L32 64C14.3 64 0 49.7 0 32zM0 480c0-17.7 14.3-32 32-32l32 0 0-24c0-13.3 10.7-24 24-24l272 0c13.3 0 24 10.7 24 24l0 24 32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32zM80 144l288 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 176c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l352 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 240c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l288 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 304c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l288 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 368c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const Reel = createIcon("reel", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABiwAAAIKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCRAsGAAE2AiQDCAQgBYMtBysbPwXIjpQuZyTx8P9rkvfNTLIA9JcZHQGULZCKKxqRU4uqOhWCP3ZavPFSAY+1AnPFCzImFeeMV6DxpzHxU/8JWqE3fQF7c9M4MjhIJOAkcuhfOiwlw9oFiniZX1Iie579gbtpVfGXdi6RqZcDiKYAmLp6+UKValQjfq99S/xuPgJiKkgCObZ3FGCCXPAChYRCIahGrab/gYkAosyeloECdXEFNwAFyJSLonv3xvbRBqVGxaoGpfr5+TYRTxs0iputHjvX8lH9+iGe9WgYn7WPqB83Wj+JbH66QUS87N0oPm0nGuzyDRFY36hho8etHrUkdJ60ftrGrd2+avrVP/7Y9Yd3ja9xrfE5ja9da5yvJG21WtrU0lZtJQ1XkcQuJsTVtsWLU0rVxo2riSpTthimwhaixkm4HwgE35U3/7i5yYT/6zbIwJ8//Vd+RmqVqGRfoa4MBPmA2gAbogJREQCALE7pFhUEMmeU2VobeiJAqI8AmbL6AuQ6aCpAob7+ApR0NlKAsvqWy0VRT2hpYwWZho6C3CinQaGlr0HJBD/rZS0jd0XCkYgfwdhZDM2cS0MHDUnj0jRUSO/C4nh8Olb7nAqlvrhol8MOOWGnHfY6QcgxC62TDpq1gmf6omSoQYZIxkmPk9vTq+x0zHF7HXZIp4yX3tf6OLVu7otNZIBhHxEL/siKYzt3HgA=");
 
 export default Reel;

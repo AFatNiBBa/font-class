@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mitten` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mitten?s=solid mitten}
  * @preview ![mitten](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/mitten.svg)
  */
-const Mitten: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M352 384L64 384 5.4 178.9C1.8 166.4 0 153.4 0 140.3C0 62.8 62.8 0 140.3 0l3.4 0c66 0 123.5 44.9 139.5 108.9l31.4 125.8 17.6-20.1C344.8 200.2 362.9 192 382 192l2.8 0c34.9 0 63.3 28.3 63.3 63.3c0 15.9-6 31.2-16.8 42.9L352 384zM32 448c0-17.7 14.3-32 32-32l288 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32L64 512c-17.7 0-32-14.3-32-32l0-32z" />
-    </Icon>
-);
+const Mitten = createIcon("mitten", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYQAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBPgsGAAE2AiQDCAQgBYMtBy0buwTIjtRG+UVWEg/fr/V27uueCQD1j2IkRQgyKotsxK+1WyvJTdW+//3N83/+KcDHgac4FnYeyFgazXmeQGJdvimhLLA0QYsta2fXf28QWaVP+SSr6YbVDHk8yE4qke6lP3Cl3jT+0spJkloZgGgIgNEL5073TXVUR/xeQfxuKgJiNCgEMmRoK8AwmUBbuQK5XFAdlYp9AwsCiLL2jyaQI8dYTAXkIEl5XtW6TqlevqBOqfbauvXqLoj78WLk1xPrxI+DP1XNj67xoU6deNX5XaujneatOtYi4k6denGh2S3iaNObtevG+ea3Izq+b/j+76o/Nvxh5ciiKIb8YUzT1hsPPMs1XLb8mw6HZAa0zzxtpHarmDF/5Mj6Zzlbv1D/LE6DQHBw1OjOKxsM+6dmnQT+/Oz/clzlm/gmvUdNCQRZt0o3y+IbADmAV0pxQMf4BoFkqESuWtdtAUJtBEjKaguQaaOhALnaugpQ0l5/AcpqmysTeS2hqeUDkrp2Q2aAQ5Br6iOUDPOzWtY0Mh6xLGB/cUkTPBo/VPTu0asYUiw9naMGnbtDi22504GU6YxJG+y0wz7rrbPZPkfsMd3Yb7sJER7vQYXeeuilMERxHD6PL7DeHnttttOO0meo4r7SyYG4vDP4B1L3cUKS1JXK2zfv27d+BwAAAA==");
 
 export default Mitten;

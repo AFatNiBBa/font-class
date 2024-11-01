@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transporter` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter?s=light transporter}
  * @preview ![transporter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/transporter.svg)
  */
-const Transporter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 0c8.8 0 16 7.2 16 16l0 16 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 0-16c0-8.8 7.2-16 16-16zM48 64c8.8 0 16 7.2 16 16l0 16 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 0-16c0-8.8 7.2-16 16-16zM256 80a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm0-80a56 56 0 1 1 0 112A56 56 0 1 1 256 0zM128 496c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-26.5 21.5-48 48-48l224 0c26.5 0 48 21.5 48 48c0 8.8-7.2 16-16 16s-16-7.2-16-16s-7.2-16-16-16l-224 0c-8.8 0-16 7.2-16 16zm64-302.9c-.5 .6-1 1.3-1.5 1.9l-65.7 86.7c-5.3 7-15.4 8.4-22.4 3.1s-8.4-15.4-3.1-22.4L165 175.7c15.1-19.9 38.7-31.7 63.7-31.7l54.6 0c25 0 48.6 11.7 63.7 31.7l65.7 86.7c5.3 7 4 17.1-3.1 22.4s-17.1 4-22.4-3.1L321.5 195c-.5-.7-1-1.3-1.5-1.9L320 304l0 96 0 16-32 0 0-16 0-80-64 0 0 80 0 16-32 0 0-16 0-96 0-110.9zm32-16.8L224 288l64 0 0-111.8c-1.6-.2-3.1-.2-4.7-.2l-54.6 0c-1.6 0-3.2 .1-4.7 .2z" />
-    </Icon>
-);
+const Transporter = createIcon("transporter", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABrAAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDRwsGAAE2AiQDCAQgBYMtBzIbyQXILgpsW5T+BlUdZebihx4P/z9Xdd9PmlLDkB7FCA5IsSJQsLsWCIWhOmsJdD03hAqxWirqZrEGjqc6g+rhRFHAoP73+pLDC06//+D1901/787/plmAb5CHsictnxP3tgTC8F+WTV2WSGCZJmANzhtxgCGy/wZ5vB0D1ZHupW9w031o/KqryyR5BiDaAGDamhWLfFCNasQ3tVeJbyxAQEwHpUCGDD0EmCgT6CFXIpcLqlGrsf/AkgCiXvD6BHI04WN8D8hB0pDnzc1NLbuOb1Opa5mvVjXFnlsdISqBMFUKgbljFIEFOCIm6pOXyvPu65yYG592nTHWrdV76qLYRgwPhTpatrTcRlsV2vki4nysDNXKKPHHcLzaT8I6oOIcHldCKBYR/UXNxQC2EvErxYUo0hP6vCTvN3+z+xvfv19t1UYbgG1VZdtoijd6MmW24PvWyzrasrh06V8/sZ8/lx3Ivv1haNXQH77NWjpshc+eMjiCMG21e5/dOzhtlbNHR9PRs/KMg/c+vz91NSKO2KqNEolLTTXWsa2O/CV481RHpYzRsgQEgs9bLn5jS+v0P1cS+OWtP/+X/4pqHyTpJTRKIMgG1gbamAASAQBIcVqfBIHkbQ3gPS3cFiAUCJDUKzDIdNcG5AoDQJ1eRulX2lasEiNvinawCYGkhWMgM9oZkOvgZVBnos8T9TpEdi0br0Tjr2S22W1i1q7yDR5aji8n60rT5anX8xPK1b57mvf1g0ftdsRhJ+2y0z4nW+rjFqVPOWT2HD/LF5WGGWyo0njl7tZ922qMHXfCPp7D+7eZoDw/2tfp+dH9YDAJNA63J0lEqnx+7McB");
 
 export default Transporter;

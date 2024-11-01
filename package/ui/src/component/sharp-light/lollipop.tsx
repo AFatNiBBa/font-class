@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lollipop` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lollipop?s=sharp-light lollipop}
  * @preview ![lollipop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/lollipop.svg)
  */
-const Lollipop: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M192 352c-27 0-52.4-6.7-74.7-18.5c8.7 1.6 17.6 2.5 26.7 2.5l16 0c75.1 0 136-60.9 136-136l0-8c0-57.4-46.6-104-104-104S88 134.6 88 192c0 35.3 28.7 64 64 64s64-28.7 64-64l0-8 0-16-32 0 0 16 0 8c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-39.8 32.2-72 72-72s72 32.2 72 72l0 8c0 57.4-46.6 104-104 104l-16 0C82.1 304 32 253.9 32 192c0-88.4 71.6-160 160-160s160 71.6 160 160s-71.6 160-160 160zM0 192C0 298 86 384 192 384c47.3 0 90.5-17.1 124-45.4L484.7 507.3l22.6-22.6L338.6 316c28.3-33.5 45.4-76.7 45.4-124C384 86 298 0 192 0S0 86 0 192z" />
-    </Icon>
-);
+const Lollipop = createIcon("lollipop", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABgQAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCJQsGAAE2AiQDCAQgBYMtBy8bJAXIhqA+51vPk/zLkcOgEMAS2H+B+MYIyjJdCU6h6e/d+bc5QB7JV5r7/IOMBTZa8zyBALssXJ5QFlimAViMvW2JYYQQ3hAJi4huz/F6QB7PxwQ10rWpwsXtTeNX/ZxBkmcAoisAlrbvsJVXfoqfIqpNTxKVLRAQy0ApkCHDQAEWyAQGypXI5YKfYtMm+g8sCSDaCJwEOf76o3AmIAdJyvNt+jVqnfJWo1a0nzfvykYj3l788vCIm8bdN+uJMfcMvHbsvSPvHn//gIiIIoQ4pecVxXm9r4rrx98/+s6x9/YTN4y5Z0YRT427b/CXi19u/3zhi83PFrywY+vz7SI+bn65TTPGRyteb/9i+09an2370Y7D7ut63+9DqwMqL+85tturnbu6pLV/h7rG2u8eeeS7tY2iW7dbbunWrajrqtRVXedzzumcxOnTf/rJ77x3qqu//tzYJZZX1XImo6p0vfrlm2O7Js3tYrX599yt6e57PG61I5OMZDSbzwOBYN3ze164Z5cF/9cbCfzy3J9/16+RTW/GunQf6hIIsgmbJtgtQS3WCQBAihMMSxBIDpLIq3Z0lQChQICkTSFAZoCuAuQK4wWoGWymAG0KO8hE3kHoaXcFSUdHg8wsJ4JcT4+DmgXeztr0jCz09MDRf345qyy08lg5ddKUcl457XQjmlTen19uJ2NOKHNj4aIDHOkIx9nffg52nOGOsVV5vMOtWhErfVBpqkmmKM1THo8enRZmxzjWwb51fsh85f10jBPWq8eC+UDpaW1IUj6T6ocdedhhBx915FEAAA==");
 
 export default Lollipop;

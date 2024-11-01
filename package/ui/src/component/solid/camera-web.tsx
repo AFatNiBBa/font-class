@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-web` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-web?s=solid camera-web}
  * @preview ![camera-web](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/camera-web.svg)
  */
-const CameraWeb: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M344.2 413.1C406.6 373.3 448 303.5 448 224C448 100.3 347.7 0 224 0S0 100.3 0 224c0 79.5 41.4 149.3 103.8 189.1L45.6 453.8c-11.4 8-16.4 22.5-12.2 35.8S50 512 64 512l320 0c14 0 26.3-9.1 30.5-22.4s-.7-27.8-12.2-35.8l-58.2-40.7zM224 352a128 128 0 1 0 0-256 128 128 0 1 0 0 256zm0-288a160 160 0 1 1 0 320 160 160 0 1 1 0-320zM176 224c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-44.2 35.8-80 80-80c8.8 0 16 7.2 16 16s-7.2 16-16 16c-26.5 0-48 21.5-48 48z" />
-    </Icon>
-);
+const CameraWeb = createIcon("camera-web", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABiAAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCHgsGAAE2AiQDCAQgBYMtBzEbHwVR1Ku5J0X28PCRF/V+ku4BlAGM08zKyFJ3de2VJ2H6+3n+zz8VyPMv/lGiLbW4wKrX5xMY4Ea7WYIPKApsJilg251N2Q5NOziWRCQ5vpXjUvaQxa3pBSWSm5NPcWV80PhBMxdIVEsBRF0AjF08f6aiEpWIT/5/nvjEdATEWJALpEjRUoARUoGWMjkymaAS//+P/385AUSZXIAEZChjP44CMpDIsuy9Q4sW9WqUamWLapSqr3+1f8Sz7e/p98y0jye9O+XDPk/ld/d9euiMuK/ZzR1rxYMtbu00a9Gl7hGPdn80znZ7xOPVL3Z5CHem68NOjfTS0D7x5Z6PO9PjsSEvrTnslV5PxNneTw5/tcaC6xre0PjO7o8Ovr6Rvob7Gl7XtN0jdR/5qe2nmz61uN2/T3NXjdpfvd2jVaXSqsfbX9Wu8dTd/96k1cQDa8ZYc2Biq5sOj2hfULSq1a5drVZF0b59QQvy7hOYuGBit25JmdCdU25O7ztrVyq1Y9HGupnSA/X5+rMUCARffd7n8dV1RvxatUYCvn/llz/gr+j/IorkEU5UlYAg7fF/DyuigCgEACCJQ9pFgUBiu4wca003CBCqI0CirLoAqRbqCpCprrsAJa0NFKCsuvlSkVUTGlpZQKKmvSA1yEmQiTT0LCgZ4QO3rGGkdsdZDffqS55UQxNn5X179cmH5cOU8qbEhMnh+bLa5RC1usJKm+y2ywEbbbDVgQrZZ2Zw0E6TZvBET5Trq5c+csPk28Xt8kU22me/rXbbxdMMl583uzg0798VjISQ9hNKJERS/ebwv+sD");
 
 export default CameraWeb;

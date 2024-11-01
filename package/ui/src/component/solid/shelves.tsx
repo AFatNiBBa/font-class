@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shelves` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shelves?s=solid shelves}
  * @preview ![shelves](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/shelves.svg)
  */
-const Shelves: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 0C49.7 0 64 14.3 64 32l0 128 512 0 0-128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 160 0 256 0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32L64 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32L0 192 0 32C0 14.3 14.3 0 32 0zM64 416l512 0 0-192L64 224l0 192zM352 32c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64zM128 256l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zm160 0l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const Shelves = createIcon("shelves", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABjQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCZgsGAAE2AiQDCAQgBYMtBy4bZAXILgpsF3pDvARJUpw1w6W4vPdixNPv97rnvhcgtIkqgq4EtGhZ/zoA1BGy7FNdG7Cdyiq82Nw/0HaIf6S9MjTSStDAuZrN2AzFJjjk5ie5hpRJYF4y1/5VCP7ENc///OkBKwgeLYqqVxiNo0zgB5rYbhZpm8hsOJsozrYcNujQF0JDHHGUPSYNUz+sXaDO72qaKM/LN9xdPzQ/jPlQtFUA0gsA7D/aNvBbzWqy/H+y7AAQyH6AWYgKFSYh2IUVTOLMArVaWM3///ofOAsCpJm/rIAaLXiC14AaFE11vbVt3A/nm7rqIx1N7SdvDiWPSU+SqyNPO5jX3SXSGHzUfmP4SbqRSapE8XhPd09Cw1kyEnM6UuFTdnss9VBHe8eF+HCxjvCB+aXepZ+cYeZL9zWudTfQ0H0N/FZ/h1nSgTALvNMy8xZfJ2emcto+0rUlWFnZ5zz6xIu90+eBIJz6vvy+Pbt+tVLA+vvfH/H/a2mUJbQqIFSL/xeNrQCNHaBYcoUqX0VQ3NHE37XTEwHRjoCiWbuAygQFglq7BQiaTIshaNbuIFbqNjFoOuCi03m4ssUbrg36wk12+ZeaDaYam+LIEv8M02oGqm0Ux6OCbjsgDTd+3iwpbfqyCV32wsrZycNitvUg6KapPh3VPbDyQ8Tn8JAClfuftYHCm7vxsVQ3lBjk/Yzm1Z+vi8Nwzg2ionyztpaL55bDa7kDAA==");
 
 export default Shelves;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `handcuffs` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/handcuffs?s=light handcuffs}
  * @preview ![handcuffs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/handcuffs.svg)
  */
-const Handcuffs: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M248 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM192 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm-32 72c13.3 0 24 10.7 24 24c22.1 0 40 17.9 40 40l0 21.3c56.5 24.7 96 81.1 96 146.7c0 88.4-71.6 160-160 160S0 440.4 0 352c0-65.6 39.5-122 96-146.7L96 184c0-22.1 17.9-40 40-40c0-13.3 10.7-24 24-24zm32 75.2l0-11.2c0-4.4-3.6-8-8-8l-48 0c-4.4 0-8 3.6-8 8l0 11.2c10.3-2.1 21-3.2 32-3.2s21.7 1.1 32 3.2zM288 352A128 128 0 1 0 32 352a128 128 0 1 0 256 0zm-64 0A64 64 0 1 0 96 352a64 64 0 1 0 128 0zM64 352a96 96 0 1 1 192 0A96 96 0 1 1 64 352zm416 64a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm0-160a96 96 0 1 1 0 192 96 96 0 1 1 0-192zm-64-72c0-22.1 17.9-40 40-40c0-13.3 10.7-24 24-24s24 10.7 24 24c22.1 0 40 17.9 40 40l0 21.3c56.5 24.7 96 81.1 96 146.7c0 88.4-71.6 160-160 160c-47.4 0-90-20.6-119.3-53.3c-5.9-6.6-5.3-16.7 1.3-22.6s16.7-5.3 22.6 1.3C408 463.5 442.1 480 480 480c70.7 0 128-57.3 128-128s-57.3-128-128-128c-37.9 0-72 16.5-95.4 42.7c-5.9 6.6-16 7.1-22.6 1.3s-7.1-16-1.3-22.6c15.2-17 34-30.7 55.3-40l0-21.3zm32 11.2c10.3-2.1 21-3.2 32-3.2s21.7 1.1 32 3.2l0-11.2c0-4.4-3.6-8-8-8l-48 0c-4.4 0-8 3.6-8 8l0 11.2zM368 0a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm80 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Handcuffs = createIcon("handcuffs", false, "data:font/woff2;base64,d09GMgABAAAAAANkAAoAAAAAB7wAAAMYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhgCEXQsGAAE2AiQDCAQgBYMtBzAbXQbIjtLUMhiS4ubgDaLQaXuSnElkh5mesQKqmLDOuH9knidv72+73XAccEIxTai7CAs4Sbj/OZZ60RQJ0kLnh/IvMrGixsM9H2BU0AQGNpGJ+Vbd0m6OuN2E4+EFaPmdKAxQLuURsNQ+W37czYdCq7gsmfxM8lsbq7k2IAMij/6fRl4qAQHIAYAfASpQgRcBkEUlwIvGD2g0ggH5/9/8H+gHAYB0gKS4TwO2kAGyQfNwUFg3zcrK387T2jAn2ORmo6GhbglP0js3hu52Xxe0x6NMQFndxL5xofNqyB192P9V1qWmNzlXWnbGHs0UmeO61rgxtFmQ00WXVU5IFaYd2DwnQuRAxAF9Qdg+j80K3882Low86BZ9Sxtws9dmDqUMX32Op8jcB+41Lgze7b6e5bYuaJe+IGSPxwbpPzsEFiHlFEwyJwvuKCJgmZTHWua4ihzf+3oPKVjjutb5cvHd3KuBO3KulNzKWuXSiB4MlWDTKFc1ttzQ2JxeGXDA7sBb/0fDHvF9r3N9vXOgn64AzL6l4iL7gxfsndm5eo1I4aNHhZQijx5Vr1m90xn756D9BHOF0f2QRV8cfRZGzPb25t5NgSYwfc8CAp49N5kCKx28ME81f/xoVqOLtnnchttdY9zdx3Tdvu2BHdiwNTcuxtc3Jg5hFKKL3HX7DvvO7a6uiS7MyS21v4Ar9LnmV8rkxcIN5/anba8rTDIYkgrrtqftP7dh4Yh/zr+u6DByYWftjcc6a2OzvwMAAYJ7J9zSem2zvloaFQDMF95/5Z/+f02ZrRwAlhQAAnX/H6VLmQ3gO4QbVzKNgAGdVPYE1lDIZA2RFDpMjsKCzlF5suNodJEcAx/J0omnN6KSZoVw0g0chclEjirFDI7GyUmOQZa7MQtOUT8L+Ust/ytNU1JFF+/nFx8T55fh19uRKd50qbGZ6TfZEjZNTITDpQxjPOOYwlCGMJIpFcYkqpNTGUvJkGjx7/qJFyOOnwx+i/s3zS1UYpOYzMhuI8t3k8lv+0CYacPzw8GucMUmqFEokGL1FcUGTx02bDIAAA==");
 
 export default Handcuffs;

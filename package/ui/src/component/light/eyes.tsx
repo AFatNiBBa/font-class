@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `eyes` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/eyes?s=light eyes}
  * @preview ![eyes](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/eyes.svg)
  */
-const Eyes: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M304 256c0 55.6-16.9 104.7-42.8 139.2C235.3 429.7 202.1 448 168 448s-67.3-18.3-93.2-52.8c-7-9.3-13.3-19.6-18.8-30.8c7.6 2.4 15.6 3.7 24 3.7c44.2 0 80-35.8 80-80s-35.8-80-80-80c-17.1 0-32.9 5.4-45.9 14.5c5.3-41.7 20.2-78.3 40.7-105.7C100.7 82.3 133.9 64 168 64s67.3 18.3 93.2 52.8C287.1 151.3 304 200.4 304 256zm16-95.5C293.1 84.5 235.2 32 168 32C75.2 32 0 132.3 0 256S75.2 480 168 480c67.2 0 125.1-52.5 152-128.5C346.9 427.5 404.8 480 472 480c92.8 0 168-100.3 168-224s-75.2-224-168-224c-67.2 0-125.1 52.5-152 128.5zm58.8 234.7c-7-9.3-13.3-19.6-18.8-30.8c7.6 2.4 15.6 3.7 24 3.7c44.2 0 80-35.8 80-80s-35.8-80-80-80c-17.1 0-32.9 5.4-45.9 14.5c5.3-41.7 20.2-78.3 40.7-105.7C404.7 82.3 437.9 64 472 64s67.3 18.3 93.2 52.8C591.1 151.3 608 200.4 608 256s-16.9 104.7-42.8 139.2S506.1 448 472 448s-67.3-18.3-93.2-52.8zM32 288a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm352-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const Eyes = createIcon("eyes", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABlgAAAJFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCRQsGAAE2AiQDCAQgBYMtBysbQAXIjtFLz3AIypQTcNKT8fz/34vtc/9LLdY9oUqtgFThdAxg6QM8AgMyAlmjI5CjcTV7crz3vqQkI1OOqpceTML/XPP5PT8qkM+XYocWZakHUiBVi35+AhNJb9pA58PZdDQx3e60x5RojyJElsZxznE5Qst3VIBM/aoz4DG+aP4TUk5pHQBkHADA3oWbK2wJIgg6+5knfzkDgewDYBFChw6zENhEFMwiWQSaJnyj/3/7H4hBgPQCPWmBhj48AK+ABkpPI4lJi7FHmGQ2yZNJZoSdW2zZHFg1CNczF5dGJTqURvT6ZHrVd5n7e9seXjNmKBvHa8v9ov0Oh+ab2tOm67ZX1rtel1Y7nnsmaxoeIvnintBW+UHZfqEmmT65AeGwTDbzm2TMFpHZY6RGeCNPkmeRZ6D+B7lXpFlYpI0n97J5EZ4IeUTyqkwrP9N13W9XIHduoGMqwNWiHfp/TiAKfP63C05NdXBINX0cje4OKOdTvrGMxLy8REbiBal3XS8uXnfdDyAIv4c1D4O4Jq/9TALAv5WXV7zdz3cV1wj6FQjd8r8K/yoGoAYIKpkgxbxRUO6RkTfsQxrFIBVKr0HozOBBM2gJeszTFTc3nyBKo0NMCwAowy6hs6EAmmmz0GPTod9rOp0qyook/wQz7HrEdh3WVNPARnhZKop2iX7VGG9bCpk4oggHIVKSROkihIuR3mGpXKMMCew41NYHYZrUaMCMYHHzuNtThFRpYiRJDH2M4fuegkx+uiK4BCS4IlaKFOlRAQA=");
 
 export default Eyes;

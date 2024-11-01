@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `value-absolute` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/value-absolute?s=duotone value-absolute}
  * @preview ![value-absolute](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/value-absolute.svg)
  */
-const ValueAbsolute: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64L0 448c0 17.7 14.3 32 32 32s32-14.3 32-32L64 64c0-17.7-14.3-32-32-32S0 46.3 0 64zm448 0l0 384c0 17.7 14.3 32 32 32s32-14.3 32-32l0-384c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-        <path d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256l-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L256 301.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L301.3 256l73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 210.7l-73.4-73.4z" />
-    </Icon>
-);
+const ValueAbsolute = createIcon("value-absolute", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABhQAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCDAsIAAE2AiQDCgQgBYMtB1gbNgXIhqB+v97vOefuBoBuooBZAZMDQhf9bMIqjlWE2ooF/F/v/F/u+T0/OsAPcqKHMvbABT5a00sg8KhseYkklGkGlrWrWJFo2/x0ib1NusdvPJ73hCK+5HMqpMfpM27y/wDGN12cI2mSAURrAExbvniRt7Wopfhcf0Z8thABMR2UAhkZ3QWYKAt0VyhRKAS1VK9Ti3q9JICo4ndnUEUF23AYUIAkpKIY3rFjs0qLYhlfbbr6QdOIK+3vOdVhaSwJj7rf7Gqn5bE0UA/jdMdlsTzwLTziZrMsp5wyvlByOnxPi3B7n4bWDT96f9722YvRj1rQ4tHlFi0uz5urkR2f8RjMnYdwGlMXTknZ8tKlltk9hVa/VV4HAsHHgcefrG818f/GzRL4+ubXv/pDUq8lqQGNJRDkgfWB1iSQCABAimP6JE4hkA2XyKc290CA0BQBkqqmAmTdtBag0NQAASp6GiVAVVOLZVE0Edpb+4CkuYMgG+04KLT3FFRM9K6qah8ZbzRa6L+9hNkjNOtUOWzw0HJ8+drpDITIsj+h3Db6Hktz/dxF2+y3zxFbbbHTkQE5ZFF71F6zLXiWLyoNM9hQpfHK49GzsIyqQw7bqXPnx0xQfp/0dcxe3c/ZiWAOdybLRIrcEYrqoMutDMLuss4r7p4CAAAA");
 
 export default ValueAbsolute;

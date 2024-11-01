@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `drumstick` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drumstick?s=solid drumstick}
  * @preview ![drumstick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/drumstick.svg)
  */
-const Drumstick: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M150.6 287.8c6-6 9.4-14.1 9.4-22.6l0-89.2C160 78.8 238.8 0 336 0s176 78.8 176 176s-78.8 176-176 176l-89.2 0c-8.5 0-16.6 3.4-22.6 9.4l-26.8 26.8c-12.3 12.3-11.4 32.5-7.2 49.4c1.1 4.6 1.8 9.5 1.8 14.5c0 33.1-26.9 60-60 60s-60-26.9-60-60c0-6.3-5.7-12-12-12c-33.1 0-60-26.9-60-60s26.9-60 60-60c5 0 9.8 .6 14.5 1.8c16.9 4.2 37.1 5.2 49.4-7.2l26.8-26.8z" />
-    </Icon>
-);
+const Drumstick = createIcon("drumstick", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABYgAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBNQsGAAE2AiQDCAQgBYMtBzAbtQTIHoexG/qJ3RAiljp2NI2gfu2z5+0ecBC2ohjBAaFK9Nk4Bh97FUsu+k+de/6mGkcC2XitUWRVgrtlSC3+/J/r+Z6PBviNhlRBpfNInWU+n8CA45LSC/zswM70BOz2piWLZrMrkqQm6TjXcXWDPJ5nZ5WRHqUfuCEfGr+1d5akKgMQzQAwYdmiOd40RVPE91LEd7MQEBNAIZAhQycBRssEOskVyOWCpiiV8D+wIIAop49MIEeGsZgOyEESeT60pqwuX5pfVr3sQUT8XHQvexecS575x2IYl1u5cdfd1jF42L0yG3swEhG0MhidaHIqetA26NbIh8+PrYv7jy/VrRAzmwkWhSg4elaoe9hofqSud5uKKg0nTzaoqn5C/kpOVhx4V/fGuh8EguH/pk7r2Oj/lTUJ/Hr2j39FpTdJakSlBIKsdym0OoFEAABSHNUtQSAZKtF3rXVfgFCNAEm5agEyHTUTIFetlwBluhgiQLlqi2QirxJaWdNAUusAyAx1DORaeQrKjPbZKNcqMhciHYD8wcVN7aEpU8WAvv2LkcUyUCmvwGk4qtgWux9NhR5w0Fb77HXYFpvtcLhDDppjH7HHVAue4osKA/TVX2Gk4jh+3L3UFgcdssM+e3nMKMV9tbujdn0PUBJFHWg+SUSq2nzwyJ5DbwQAAA==");
 
 export default Drumstick;

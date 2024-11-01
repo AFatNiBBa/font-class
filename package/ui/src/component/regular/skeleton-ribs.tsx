@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `skeleton-ribs` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skeleton-ribs?s=regular skeleton-ribs}
  * @preview ![skeleton-ribs](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/skeleton-ribs.svg)
  */
-const SkeletonRibs: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M344 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40-42 0c-32.1 0-62.3 17.5-76.7 47.4c-14.1 29.2-34.2 74.3-50.9 124.3C109.8 285.3 96 341.4 96 392l0 11.7c0 42.1 34.2 76.3 76.3 76.3c11.2 0 22.3-2.5 32.5-7.3l70.9-33.4c6.6-3.1 13.4-5.4 20.3-7.1l0 55.7c0 13.3 10.7 24 24 24s24-10.7 24-24l0-55.7c6.9 1.6 13.7 4 20.3 7.1l70.9 33.4c10.2 4.8 21.3 7.3 32.5 7.3c42.1 0 76.3-34.2 76.3-76.3l0-11.7c0-50.6-13.8-106.7-30.3-156.3c-16.7-50-36.9-95.1-50.9-124.3C448.3 81.5 418.1 64 386 64l-42 0 0-40zm-48 88l0 60.3L193.6 192.8c9.7-23.7 19.3-44.6 27-60.6c5.9-12.3 18.7-20.2 33.5-20.2l42 0zM173.6 245.8L296 221.3l0 56.7L152.7 319.8c4.9-22.8 11.6-46.1 19.2-68.9c.6-1.7 1.2-3.5 1.8-5.2zM144.8 372.1L296 328l0 55.4c-14 2.2-27.7 6.4-40.7 12.6l-70.9 33.4c-3.8 1.8-7.9 2.7-12.1 2.7c-15.6 0-28.3-12.7-28.3-28.3l0-11.7c0-6.5 .3-13.1 .8-19.9zM344 383.4l0-55.4 151.2 44.1c.5 6.8 .8 13.4 .8 19.9l0 11.7c0 15.6-12.7 28.3-28.3 28.3c-4.2 0-8.3-.9-12.1-2.7l-70.9-33.4c-13.1-6.1-26.8-10.3-40.7-12.6zm143.3-63.6L344 278l0-56.7 122.4 24.5c.6 1.7 1.2 3.5 1.8 5.2c7.6 22.7 14.3 46 19.2 68.9zm-40.9-127L344 172.3l0-60.3 42 0c14.8 0 27.5 7.9 33.5 20.2c7.7 16 17.3 36.9 27 60.6zM0 128L0 232 0 488c0 13.3 10.7 24 24 24s24-10.7 24-24l0-256c0-6.5 3.4-12.4 8.9-15.8L94 194c21.1-12.6 34-35.4 34-60l0-6c0-35.3-28.7-64-64-64S0 92.7 0 128zm48 37.6L48 128c0-8.8 7.2-16 16-16s16 7.2 16 16l0 6c0 7.7-4 14.9-10.7 18.8L48 165.6zM576 64c-35.3 0-64 28.7-64 64l0 6c0 24.6 12.9 47.4 34 60l37.1 22.3c5.5 3.3 8.9 9.3 8.9 15.8l0 256c0 13.3 10.7 24 24 24s24-10.7 24-24l0-256 0-104c0-35.3-28.7-64-64-64zm-5.3 88.8c-6.6-4-10.7-11.1-10.7-18.8l0-6c0-8.8 7.2-16 16-16s16 7.2 16 16l0 37.6-21.3-12.8z" />
-    </Icon>
-);
+const SkeletonRibs = createIcon("skeleton-ribs", false, "data:font/woff2;base64,d09GMgABAAAAAAOAAAoAAAAAB2QAAAM1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSSETAsGAAE2AiQDCAQgBYMtBzQbUAbIjpQuZyTBP7xb+ec+GJIF1mfFiRFRt0pUitZK1S8d4vttb/p7d/5X5QE+boGkOLc9bIxFexB2PgeNrW2QLCth62zbmyCq/UZo7ICtv1pHBMx28xRY632o3pLBIjBELAAAlAAAANTv2rE1N1/qpfTk/3OgJ7QEBKD6AAQIsAALyEYA1MJCQDY2AWBjI3ip//8X/4EBCADkEFAMr7WBWOA3KBMAsAEweLbdyIuLRuP87Ngc34vE2l28iDt0R3goHblaUZhItllS9q6VQduLHy+yMq2rtqah7UWOZkmbUzpLvXe05Mkazs/dQ0iZO1YJj7iu1AnRSXuzdhb1OnVFWmRh3vw0LLCaQ4VlzCZ3ReoWSX1dZ6E4YDNoXtRl7aIjYdcunbvIuZndOV1aozwdztieMwBhbpda+zasqSt50o4SJ8JDxY6l1xbamrY55RRN4bE9jSSj0e7q1bV5vWCludMWSV08LHgi4cR7ng55StejKe3bpxSjBBk1a5078qJ7Z5cuC33iG3f6lPijSQE2bqjGtL4aGzY2T/iR+KlT43ifcNnSs/d6ceRcrZoZJShWtmutYOjgKG8ubuhXYvri6el8WXXWFGfAKUlkz95SEq1UlYbVmgQ0yOdPner7uDH33aqYM+YgxvXpa/M1mNJVa7imzjZeuKw609NB0qkBxeYMjqJ+tShBvwMX31hvWCDnXfPAXdwY23FwExP37fOh+z0M+sW9fBnn4B9pFT+4qwEZ5+DYjVnsbpAPWxpgdzviO4jnhLQCAAGCxS3e0ze+1vf8ngHg9eWPk5/9/00zz5wA8mMAEFil/i9FLzMPQNAKAJxGUyg480MCDJ/xCN7VZwsCQLiAADA4uAgAiywSEAA2LiURABFyqYwAcHDpiIXsGESU3jUw+IwHFlWYDWyinAERavHA4RCV9TkIgFnwM5q0SRtp3CooX6ZcUCOYTCqFEM6zzTWD1dpiU2RRcbyQIYxlDJMYzCCGM6lFnUBr92RG02SOvfF3A8pThnIE1CDYnbkv7dLSTWAikjcu3K+lpsh8vpliTJmvXBy3wwAAFQCJJ5fKxE4cOXjU4Eljx5SeMHzARAA=");
 
 export default SkeletonRibs;

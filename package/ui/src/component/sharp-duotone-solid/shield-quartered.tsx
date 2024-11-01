@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shield-quartered` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shield-quartered?s=sharp-duotone-solid shield-quartered}
  * @preview ![shield-quartered](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/shield-quartered.svg)
  */
-const ShieldQuartered: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M17.3 113c-1.7 29.7 .3 68.6 9.1 111c76.6 0 153.1 0 229.7 0c0-74.6 0-149.1 0-223.7L245.1 4.5 37.6 85 18.5 92.5 17.3 113zM256.7 224c0 95.9 0 191.8 0 287.7l12-5.2c98.4-42.6 156.7-117.3 189.4-192.6c13.2-30.3 22.3-60.9 28.3-89.9c-76.6 0-153.1 0-229.7 0z" />
-        <path d="M256.7 0s0 0 0 0l11.6 4.5L475.8 85 495 92.5l1.2 20.5c1.7 29.7-.3 68.6-9 111l-230.4 0 0-224zM53.9 313.9C40.7 283.6 31.6 253 25.6 224L256 224l0 288s0 0 0 0l-12.7-5.5C144.9 463.9 86.5 389.2 53.9 313.9z" />
-    </Icon>
-);
+const ShieldQuartered = createIcon("shield-quartered", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBYgsIAAE2AiQDCgQgBYMtB1wbEAXIjsQ4RvIsmqsInreLqve7ZxZQL2BkzKBsI9w5gpza8eSCourFqZ7YpgA+gGfO84BkA47dfV6Bnk+dNq0c4prWwLo7NweHyCdpYVpyPBrH5w55fJJdUCLdTO/havwfwPhVMxdIqmUAoi4Axi6eP9NLX8VXKd6rPE28ZwYCYhwoBDJkaCnACJlAS7kCuVzwVapU+CoqlYIAoixiGatsxp+DVYAcJEnK84b16jaoUaqVL6pRqr75bEScjUaxMDpGs7i7oHrEkkdbixRn7bHG8cW4V/otv7PwYg1442w0jAXRIZouPCPijCbx5fhX+z/WpuowVrv7df+97Xub3uNF4J4PZ+ss07PGmB989c7Qkcd/UIDXTCk+/eSIurPG7rCh6O7ZI0Q+yDb4c9eUKQTzaZ6Va0O5z4FAMPXbxvnqOiP+ryqBb57585f8Q6pdeSn+TaOqBIKsR6WHFYnaasW/AgCQ4pB2ieZqC2Q6StKtmq4JEKpTISmrDpkW6kKuuu5Q0trA22XVzZeJvJrQ0EqApKa9kBnkJOQaegpKRngzKGsYmWqJiiF+7NImUXTipqJvrz7FsILNFUlbeL86vBB7XQ65Xlc8aZPddjlgow22OkCYfWbGB+00aUZP9EWFvnrpozBMsVzdaotIsM9+W8fK+jrDFfv9Lg7Np3fF7SRAv0O5lREpsqb7t2zduGNDz0elbiySnk5u3lUuJQAAAA==");
 
 export default ShieldQuartered;

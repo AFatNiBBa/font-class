@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `line-columns` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/line-columns?s=sharp-light line-columns}
  * @preview ![line-columns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/line-columns.svg)
  */
-const LineColumns: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 48L0 48 0 80l16 0 192 0 16 0 0-32-16 0L16 48zm0 128L0 176l0 32 16 0 192 0 16 0 0-32-16 0L16 176zM0 304l0 32 16 0 192 0 16 0 0-32-16 0L16 304 0 304zM16 432L0 432l0 32 16 0 192 0 16 0 0-32-16 0L16 432zM288 176l0 32 16 0 192 0 16 0 0-32-16 0-192 0-16 0zM304 48l-16 0 0 32 16 0 192 0 16 0 0-32-16 0L304 48zM288 304l0 32 16 0 192 0 16 0 0-32-16 0-192 0-16 0zm16 128l-16 0 0 32 16 0 192 0 16 0 0-32-16 0-192 0z" />
-    </Icon>
-);
+const LineColumns = createIcon("line-columns", false, "data:font/woff2;base64,d09GMgABAAAAAAIQAAoAAAAABagAAAHFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBdQsGAAE2AiQDCAQgBYMtBzMb+ATIjtFjRxjiiCxGjoHjwIuH/7/3bZ/zbmqxViihSukgtVKWhyjWQD9gKkgyM4B/jQ4PP8vGbK7Etm5bxaQB0DE4IOmaV+xYWZz/mz1vaBTgJwpDGwuX5ht8Tu4FFKUB9fK8G8Bn07fBCdjtzpaQRPuE1mJJjnOOy2eFEvdhwidf8gs85DONf9SupFIBIPoBwPZpIYWXZjQjvuo74lsCBMQOYBJDhQqjGFjDFRjFMwmKImhGXbv/QIIAohV4tAQFnbgAdwAKSO2FJ5WKrS7ly3nlcL+k0dklQXRJGZMUWyeGo5UK5ZWvaRuqxrfmq/tF+dDfryKo/hBUX4c+/PtARAPS3Zr493aAQHA095S7Va79F3VxAH9ff//Lz0j9l7KBdgmCaqE2aSZIAgCQsaVNCKQDIniq3R4FCJ0IkFp1ClAZocJA0WkeAy3GuTHQqtMhrihihGEtA1K3e1BZtQPFsBtosebVbDUclYoxCsK88BLDFAqNkd1iowBNXZXVGiq2g7Qs6bY+pYdFdM1MrXW0DawJvpRyNibCEhbyQMTOwoYE0HYwny/rWFoZmJmmPkF0XtPZysV6UDmQdNFESiJln06wFxgA");
 
 export default LineColumns;

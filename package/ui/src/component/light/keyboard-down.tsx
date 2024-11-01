@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `keyboard-down` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/keyboard-down?s=light keyboard-down}
  * @preview ![keyboard-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/keyboard-down.svg)
  */
-const KeyboardDown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 32C46.3 32 32 46.3 32 64l0 160c0 17.7 14.3 32 32 32l448 0c17.7 0 32-14.3 32-32l0-160c0-17.7-14.3-32-32-32L64 32zM0 64C0 28.7 28.7 0 64 0L512 0c35.3 0 64 28.7 64 64l0 160c0 35.3-28.7 64-64 64L64 288c-35.3 0-64-28.7-64-64L0 64zm184 8l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16c0-8.8 7.2-16 16-16zM72 184c0-8.8 7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16zM88 72l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16c0-8.8 7.2-16 16-16zM264 88c0-8.8 7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16zM376 72l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16zm16 80l16 0c8.8 0 16 7.2 16 16l0 16c0 8.8-7.2 16-16 16l-16 0c-8.8 0-16-7.2-16-16l0-16c0-8.8 7.2-16 16-16zM160 192c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16zM288 473.4L404.7 356.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-128 128c-6.2 6.2-16.4 6.2-22.6 0l-128-128c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L288 473.4z" />
-    </Icon>
-);
+const KeyboardDown = createIcon("keyboard-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABvwAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDyDdAsGAAE2AiQDCAQgBYMtBzQb+AXIjsK2tXMMR1ImKTN+ZAT1Y7+9ew+V5s2TJjxULZnQiDSTBCVDpP7IdLMSsO/3e90ToI+gboCALTDZOBauKEynKvoNXZM/F0UFciSLRPloW1PjGocdPIGBr6mCJjQbzmYyAZ86HSksx7phvYqMUbCIeHw9Xs9Q4wc5QJ+80fkCHPmbxh80Jki1ACB6AQAbe+mJeHmmv0Rf3CPRQDwIiE0A4wgFBcMILNMVGKZnHFRV8Bwcx/9ABgFEM0yZdlV04Ql8QZxH6qh6Wq1UrL9ZIOPpC/SyePom+XNyogWIA8UiT0DzqmUiGlUumfBj1u2Jzq0FdGh7qgFd25xY8OnI7kxLmTwT3qICdC43oSUl0bIqY1nFo945O7VvpvlMtIRhcW52RvayYlGe0eTKLEG19ss0OxOf/TP9qvoSfCucgcPuHThB6IWXQs5EAvTdRdNOn8SEmLwsfjYUi8V/hWIIn8XwcHMzGEwWNefurkXum0Vmk92LkuXeKugvM5LD6o72s/D0dG1teBhKkjgIIcLzAASCxwlfh2JRwLcRTwfwev//Wx/3/5AhOmegVYKgzHIOCjIEgBOIpTO6YJZ8UCA18OBVO10KENoRIDVrF6AYIkagajeDQJNRngg0a7dFV1RjhEGFC6RO+6BYMgiqQfegybLXVLPB0C1xpkCZH8zEqB2JnMVcnVyYH7studiqpXTUnz322nSFFltsQZVmTTpUqlDrxKZvk5jt1Cgq00X6IsaVExeMH/a6elyfpVKbdrWaNc1p/LHvIza68u62COgwj3PmpSRSUF/ZW/+SY+UDAAAA");
 
 export default KeyboardDown;

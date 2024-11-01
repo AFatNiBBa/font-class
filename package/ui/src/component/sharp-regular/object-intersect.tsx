@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `object-intersect` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-intersect?s=sharp-regular object-intersect}
  * @preview ![object-intersect](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/object-intersect.svg)
  */
-const ObjectIntersect: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 48L48 48l0 48L0 96 0 48 0 0 48 0 96 0l0 48zm32 0l0-48 96 0 0 48-96 0zM0 128l48 0 0 96L0 224l0-96zm352 32l0 48 0 48 0 48 0 48-48 0-80 0-16 0-48 0 0-48 0-48 0-48 0-48 48 0 80 0 16 0 48 0zM160 416l48 0 0 48 48 0 0 48-48 0-48 0 0-48 0-48zM352 48l0 48-48 0 0-48-48 0 0-48 48 0 48 0 0 48zm64 160l0-48 48 0 48 0 0 48 0 48-48 0 0-48-48 0zM96 304l0 48-48 0L0 352l0-48 0-48 48 0 0 48 48 0zM288 464l96 0 0 48-96 0 0-48zm176 48l-48 0 0-48 48 0 0-48 48 0 0 48 0 48-48 0zm48-128l-48 0 0-96 48 0 0 96zM208 208l0 96 96 0 0-96-96 0z" />
-    </Icon>
-);
+const ObjectIntersect = createIcon("object-intersect", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABjQAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCDFAsGAAE2AiQDCAQgBYMtBzcbmwURlZo1yH4mxGOcpiFZScQr7TsbVyQTSfPIUFoevtbK93tmqefCaIkUa8ZJygM6IH9RwA4IHBqzFZuKjExtQTJXyDsE3BIpXeTHimTa1w9pj4nL6Y9lvwFbomkoY21bc3ACib7nXQJZYJkmYF2tO/hBhbLzoSkhh84DyvgQNEhXUvS7Hxp/jHGepFEAiMEAWL5lwypfu9GN+NV7RfyyAgGxHEwWKFBgvACLFALjlSajVAq60euJ/0AIIJr8FyZQYiBu4yWgBElfWQ7qdEYM4uwMydNVY0C5Oe7OO3KVRQ5SXVWqEDqXN1a5GpLdKwixnINYqwl71WPcYSDWvAO0KVcJQeK1sI2qgn3Toc5NuVB3gdAebdviZu0ThgTy1PuD7/+1b0//bDY8NHv25Jprs9Wn1hRneyaNOy7MO5vVG1BnV74c2IVYemu8oxRy9gS/3Kr91tlqs5/MGtIfaz91bWjWk5oZfxoEgv37P/zfM2jRv3aVwO/3Zz8jva9Juo+2BIJiem+6nQkkAgCQ4ripCQLJTX3Iu/a5KEDICJA0ZQEK4wwWoJRNE6BhogUCNGUbFKLsCMPtqkRJn0OiwkInRKXhXogaFvmWbRoeBchqAU77wJjJhMP+HmVWYBkdK3RQqLbOHYtd+m/NYEHRO+xendbkHX+rC59NmCK9L0IpU4DF5tnd7kbn9piG7bbf4nB8TPundxvsVXyFlT4lIdPgG8Oevu+g//8uAA==");
 
 export default ObjectIntersect;

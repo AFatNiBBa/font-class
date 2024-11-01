@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile-halo` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile-halo?s=sharp-duotone-solid face-smile-halo}
  * @preview ![face-smile-halo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/face-smile-halo.svg)
  */
-const FaceSmileHalo: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M16 272c0 132.5 107.5 240 240 240s240-107.5 240-240c0-41.9-10.7-81.3-29.6-115.5C413.9 178.3 339 192 256 192s-157.9-13.7-210.4-35.5C26.7 190.7 16 230.1 16 272zm104 32c0-40 28-80 56-80s56 40 56 80c0 0-28-32-56-32s-56 32-56 32zm9.7 55.2l28.6-14.3c8.7 17.5 41.3 55.2 97.7 55.2s88.9-37.7 97.7-55.2l28.6 14.3C369.7 384.3 327.6 432 256 432s-113.7-47.7-126.3-72.8zM280 304c0-40 28-80 56-80s56 40 56 80c0 0-28-32-56-32s-56 32-56 32z" />
-        <path d="M256 160c141.4 0 256-35.8 256-80S397.4 0 256 0S0 35.8 0 80s114.6 80 256 80zm0-48C150 112 64 97.7 64 80s86-32 192-32s192 14.3 192 32s-86 32-192 32zM176 224c-28 0-56 40-56 80c0 0 28-32 56-32s56 32 56 32c0-40-28-80-56-80zm104 80s28-32 56-32s56 32 56 32c0-40-28-80-56-80s-56 40-56 80z" />
-    </Icon>
-);
+const FaceSmileHalo = createIcon("face-smile-halo", true, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABwgAAALJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhByDLAsIAAE2AiQDCgQgBYMtB1ob2AXIjtMlNCBgJLzg+Ufv674kAzhjed1BFY3K7T9bqRYIsN39h/QB5pOC/WSh/abbUEoyIf7/XJPv3fNrwG90KNHYa5AMzHw+sAaMxvIdjnw40hnYBueNOMDQGMqfQJNX6jKMQNmmvATWuP8BlC+4WQYKZioAAGILAADkNtdXctcgBkVe/r8I8pIKQAAkDwCdACqgAp4EgAwqAnjS0IGGhoBB+d/AIP+bDgIAYozzRgXAGDAHTgFPAAANAAUNDSAO5V4Ozg4WRlZak/PcvP19s8h7n93Pu6Y3DW88d91vG2V5kchj5y3nE4sVhY+cNtaH5g0HXUWOum7ZRPmhZVO/PR9fG6sJkSY3ybGbmt/GipwrFXnW+L78RfyFd3/cxY0blxc9Tjo7N+4IF9nB08q2afNweK3Whd/iGxwQvKkcO67sJ8ZA2RpytD4OO56bF132O56Of74vh17y32eCYics7uzry5XmBG2VbSTmaoEWL6+Wljoksc3V0zXfwcRarP7W1sbpYv3dpGa4Gk8A52Y59gZszpD3Fb52Q3ceeXR3f/1Kns396ZbW7OzWlun7NsM+1ibwvabG5Lu1/LXaysV+2XxLbJ6atWTduiWzpm6x7MfHkRkffyzblLTqdQAQQKDBNNzQbZPx1dRCAeDD9f9z/kPi/10F5ThgigKAgBrxP4IOBQAFBAAAAFBkHn4RwJYAKq1o4IQlm5FTE+aAiIgx5jCh4sG2Bg1zwsEIb4nCyuP1qIhmhuCoE4KCJTNBJcl80HB0AYzI8CRqjGNQr1/p6pP+HtOL2mjhOj02KkZP0ycrSvmSFPRkur7aCJnHO0LhVYaYZoo5DDLAKHNazCwqE3OZpGgOK+SD6GJFiaFLo++u39ebcHQWsxkdV/dPk04/PxJi3nz/UGgrBKxxdqioIIqoLm+HGTn761EQOdI7MR35LvR0G1NvfAA=");
 
 export default FaceSmileHalo;

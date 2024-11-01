@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-circle-arrow-right` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-circle-arrow-right?s=duotone building-circle-arrow-right}
  * @preview ![building-circle-arrow-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/building-circle-arrow-right.svg)
  */
-const BuildingCircleArrowRight: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 48C0 21.5 21.5 0 48 0L336 0c26.5 0 48 21.5 48 48l0 184.2c-39.1 32.3-64 81.1-64 135.8c0 49.5 20.4 94.2 53.3 126.2C364.5 505.1 351.1 512 336 512l-96 0 0-80c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 80-96 0c-26.5 0-48-21.5-48-48L0 48zm64 64l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16L80 96c-8.8 0-16 7.2-16 16zm0 128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm96-128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm0 128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm96-128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16zm0 128l0 32c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-32 0c-8.8 0-16 7.2-16 16z" />
-        <path d="M496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm19.3-211.3l56 56c6.2 6.2 6.2 16.4 0 22.6l-56 56c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L521.4 384 432 384c-8.8 0-16-7.2-16-16s7.2-16 16-16l89.4 0-28.7-28.7c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0z" />
-    </Icon>
-);
+const BuildingCircleArrowRight = createIcon("building-circle-arrow-right", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAAB1AAAAKLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDcAsIAAE2AiQDCgQgBYMtB3IbNAbIjsK2eXNEMmXI4QMYDDuCaL/f7N37YnjDs1nCQ8VLJDRCMwmNUulU80omf4vWsurZAMFcgFARgwJSiSVCB/Qg1ArzrF7t/F/z+QEf4Oc7wPNDyVo2VjzPfD6BvYFFevOAEmigiTgcoc+2HDrc8vC4RDyPWFlJwybYsERrKJJ9HkKJdMPewVH/H8D4Y2wIkloGQHQBgPXdtAQ8iiEmem+fEvfiQUBsABhByMgYQGCJIDBAzggoFIJvJknwTZLEIYAoox8zgzIaeAJ8A6AASVIp5EwHXHTk1FTl1eUyVeVVSkaCiW7cD6jfbT/oWmU44NJlF4eue4FXqlkpqSljesk0ajBu6EwqNG4wYahKTjFuOKEvzBgSTdir05r+mDHo9sbqh5RJGxUimjYYt1vVGzUChPU5ykRIAbnQV6UJGn7cQIVG9WC+Icvfw2pba/uH7L3y3a9wewZpZtTOTubJmL3KgaPne5ckTU932dpaULfYJ2poiMQgFGH2w7HwAe8eHB7vH/kSz4w5Rpzsa3Exkm0ToBBKRrHVsShxIWJZIxA1OG7cZ36iqPfE5wACwV3J/40izZB/JVUG+L3+9Y8Pbj+mPrYNqhII8njbRX7qA4AM4EGl6IRV6qNiQCC7RoXcatMlAoQ6AiRldQGyfloIFOrGECgZ4otAWd0mQRTKCH0KJkiaDkC2qBsU+pyAkiVP4bK+EDKcyU/m+zIxUkMRg7inmwcP4oc5g01aqvUG88tGh05T40grUalJo3YVytVoV3CrhFiHBpEeNuK+nCc3HrggPFzcipkq3KpNzT4f7ycYf97roNNv7kgWRnBnzckykUiwrgHV9W+gLNeS1tamrjeF6lozLdsyXyYAAAA=");
 
 export default BuildingCircleArrowRight;

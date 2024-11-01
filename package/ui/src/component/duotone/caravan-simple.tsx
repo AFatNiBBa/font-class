@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `caravan-simple` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/caravan-simple?s=duotone caravan-simple}
  * @preview ![caravan-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/caravan-simple.svg)
  */
-const CaravanSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 160l0 64c0 17.7 14.3 32 32 32l128 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L96 128c-17.7 0-32 14.3-32 32zm48 272a80 80 0 1 0 160 0 80 80 0 1 0 -160 0zM320 160l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M80 32C35.8 32 0 67.8 0 112L0 336c0 44.2 35.8 80 80 80l1.1 0c7.8-54.3 54.4-96 110.9-96s103.1 41.7 110.9 96L576 416l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32 0 0-160c0-88.4-71.6-160-160-160L80 32zM64 160c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32L96 256c-17.7 0-32-14.3-32-32l0-64zm288-32l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const CaravanSimple = createIcon("caravan-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABrAAAAJjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDEAsIAAE2AiQDCgQgBYMtB1gbugXIhof/t+v7fe6t7vWmaowamBHsrwxWxlDOOMg+sl4/lOKeuOb5nz89YNkTPFKXPkiBVawSJzCh0igq8IHNNqKZ6KzN4YM4yMuD0yPi12fasF3D2NABijQ236VBej5dxqPlfwDjVwPcRdIpA4juAFi+Y8s6X7aileJy+13isrUIiBWgFsjIGCzAIllgsEKNQiFopXabVrTbNQFEU7lfBk104HW8AyhAkuWimDBQLuwysGp0KbZXjXLPu+Mi3hgsXh7/5uwqXp349tz39AcP6VI92O/ZuL3vM2UZEd8v+Xx7562394t4tqriwT5PE7f1fqos44G+z0QcqcrKEOIq9tlqj3AbeYPapUYSHpj4Qrtenv/Rwk+GvbLg43kfDo5PG/FW97d+H375+GUbXu1+jO3REtuPdQ+nfvrltdd++elUj7rrffd1rbvVXhMrL19eGRu73dr1Pu7rehtTXMZ884cNW7ZsmXZFjqXHpSuRqd06n7jxxhOdac5r3TbcDgLBw9tmzTvQbdH/HVUCP3/857/46vZ76bb0FjokEORJ7Un2ptuA8AH4KW4ywnmrZQLZfpm8amfPCBBKBEiaSgGyQboLUChNFKBhqNkCNJW2yKLoJPS2r8FJZ5fgbI6b4UJv78ANi3zlNfWOjFgGb8z3YuKaHli9rJ4+ZVq9oD7NKAtCKo8vrKfNcTeltvFhq+MuOO8Gxxx1yg0ddJ114Y3OWeOBq31QbboppqktUC+Xj+u3O+Y61zvlgvO8yEL18+44N/m9xwcnEcIZVmeZSJH7Hjl03Q+GlcmwVyejv1t/i3/TAQAAAA==");
 
 export default CaravanSimple;

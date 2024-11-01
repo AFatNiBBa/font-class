@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hashtag-lock` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hashtag-lock?s=sharp-duotone-solid hashtag-lock}
  * @preview ![hashtag-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hashtag-lock.svg)
  */
-const HashtagLock: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M3.1 384L16 384l74.2 0-16 96 64.9 0 16-96 95.1 0-16 96 64.9 0 16-96 4.9 0 0-96 11.1 0 16-96 38.5 0c14.5-14.2 32.9-24.6 53.5-29.2l5.8-34.8L432 128l-74.2 0 16-96-64.9 0-16 96-95.1 0 16-96-64.9 0-16 96L48 128l-2.2 0L35.1 192 48 192l74.2 0L100.9 320 16 320l-2.2 0L3.1 384zm162.7-64l21.3-128 95.1 0L260.9 320l-95.1 0z" />
-        <path d="M432 272l0 48 64 0 0-48c0-17.7-14.3-32-32-32s-32 14.3-32 32zm-48 48l0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48 32 0 0 192-224 0 0-192 32 0z" />
-    </Icon>
-);
+const HashtagLock = createIcon("hashtag-lock", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgwAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCLgsIAAE2AiQDCgQgBYMtB1QbVAXIFkrLw9da1fuZ1R07VctQy0zngFCRQ1bjDo1AUucuouf/cs9vLTqge5+P4FDmbtnGNkdzPk8gjnpZvoECKpE0Q+ttQ/MFYVOCSiWi8YzGqjuGxeEFivg/36NBejF9i8fL/wDGn/q5h6QtA4iuAFi6e/tG7d/Fdym+bX1IfGsDAmIZqAUyMgYKsEAWGKhQo1AIvkutFt9Fq1UTQDQxmQVN/NjruB9QgCRJRdG1z/y2qtGp2FU1yuNCFRF39n6ufKjnMxaEeGn8G7M/GvvaIFGFKCOiGl6V1Y6oYndUgUi0vzF6SJTlbiBihwFCWUdVVXfv3rG76o8Pe73r638P/fbUt955Zwp3LDFF5wce6Jycls/FrpNdu57cFVPU2n2nXW1yp067uxy21HOHSbXhiIoOHm3nL9t0WmfLGpHeSfW8HeNXF5Nak8N8wWEgELyepr96uMuC/zpUCfzw+b9/4PO51Z6WpNfRQQJBntCa4EBaIpM4gB+V4hbD0pI4IgtkKyT8rh09J0AoESBpKgXIBugqQKE0XoCGwWYK0FTaLouiTejpYANJR1dBNsutoNDTB6BhgS+qTT0jB6AePvr3L2eV0Mp99dRJU+p5tdklRkypeXt+vZyMuWVTY+GsUy675IaTTjjrBvw1Gxs3XbTK41b6otpUk0xRm6feHjw6u6hec91Z3drfZb76fH6MW/zFYyGTsOQ0J7JMpMg9n1zlxtHTE19HMDGWZ3tPrGsLAAAA");
 
 export default HashtagLock;

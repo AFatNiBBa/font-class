@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pig` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pig?s=sharp-light pig}
  * @preview ![pig](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pig.svg)
  */
-const Pig: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M480 32l-2.4 0-2.3 .7L416.6 50.8C399.7 56 385.5 66.4 375.5 80L240 80C162.6 80 98 135 83.2 208l-35.8 0c-8.5 0-15.4-6.9-15.4-15.4c0-7.1 4.8-13.3 11.7-15l8.2-2 15.5-3.9-7.8-31-15.5 3.9-8.2 2C14.8 151.8 0 170.8 0 192.6C0 218.8 21.2 240 47.4 240L80 240l0 16c0 53.4 29.1 100 72.2 124.8l31.6 88.6 3.8 10.6 11.3 0 73.1 0 16 0 0-16 0-48 32 0 48 0 0 48 0 16 16 0 73.1 0 11.3 0 3.8-10.6L494 408.5c26.2-9.1 49.3-25.9 65.9-48.5l64.2 0 16 0 0-16 0-128 0-16-16 0-42.7 0c-5.9-4-11.2-8.8-15.8-14.2C591.9 166.5 608 135.5 608 102l0-6 0-16-16 0-64 0 0-32 0-16-16 0-32 0zM112 256l0-16c0-70.7 57.3-128 128-128l140.5 0c1.1 0 2.2 0 3.4 0l9.6 .2 4.7-8.4c5.9-10.6 15.7-18.8 27.9-22.5L482.4 64 496 64l0 26.1c0 12.5-4.5 24.1-12 33.3l-10.9 13.1 13.8 10c17.9 13 33.5 29.3 45.8 48.5c9.1 14.2 21.3 26 35.7 34.7l3.8 2.3 4.4 0 31.4 0 0 96-56.6 0-8.8 0-4.7 7.4c-14 22-35.7 37.9-60.6 44.8l-8 2.2-2.8 7.8L445.9 448 400 448l0-48 0-16-16 0-64 0-48 0-16 0 0 16 0 48-45.9 0-29.9-83.7-2.1-5.9-5.6-2.9c-36-18.7-60.5-56.2-60.5-99.5zM525.1 112l50.2 0c-2.7 19.2-13.1 36.5-28.5 47.9c-8.7-10.9-18.4-20.8-28.9-29.7c3.1-5.7 5.6-11.8 7.3-18.2zM468 256a20 20 0 1 0 0-40 20 20 0 1 0 0 40z" />
-    </Icon>
-);
+const Pig = createIcon("pig", false, "data:font/woff2;base64,d09GMgABAAAAAAM4AAoAAAAABqAAAALsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDTwsGAAE2AiQDCAQgBYMtByobyQXIrgdsYxJ+P5imKE5M1VyH3TRXVLwtleLnQwT/pO1/52azbyCLhGG/eDBf1LUT6007s0rUey0Zql9i8DyMy/fPsxyN0C4OTFYoc2jKS85SusyI40yWkIUGONrsXzHM1WTWILXg//7nms/v+TXQvc9HJ3RoUViL0gzsfD6BAUfxmiaUPhuojH3mtjiDBlFmEpEhOKb6fCgL7csfgNVvQQzmsOIS2JnvSj9xYgcYbAQAgDwAANC7oaaM+/dyL/LaIOg1JYAA1AeAgIAI80sRAN2IED8ASwAsFsFXMZz+A4EAQDnojQwAFsgBL4FPAIAFwGCtnV1ubJTE1e0EE7VbaGziUhkk245Oj1PPg9MB+4MFBSqQYkkllX22+1iw298gEdoSdLHzeLGTJJEEHJFXIG3lWsRYIDl3wP5WvSa6PWcJOp5xb6CJbDUZNzFRgRwNGCqnDNvUM2eDDjfIy3IulQuxDwYycfAgumeC2Jc5p5zPqdXEODkU+L70cXsuRxqeKFz8+XXP+XO/vC53t6ZQmMBu5p5HWN/aPPLlvZnJsWF+MEClqNxW0evLSC88TTKCqWigC8lkSzJCZIbH1yYzlU2zmZaWbMESH7K+c0qlweMzPfH46S+Wlj5ul1M5CZIcHdnit4oaFFP74iK3bIZ+hriiic66AYzuGaaAwbQkw+P1noyWlNWQR2/u/hu9vDOauN1X3zyJO2sh3CRAMG71xb3RIvVblwHg++nru3r1/xR6xSFQBQOAIGpuYJpCD+DZAgAxow3UFT5IgOEhKihQjQO7CeGggyGHg4gSPFgczSCmnPaCUh+rwmWrBlKmOzBUYzVEdGAjWFIuQUw3nkVzpBLZs2SN0udkej5H8mZ5RrXMQpcwrWiyiQpxsmtQG4EbQkcT7GQBK1nBOuYzj8WsY/QahifWs5wBEtqfLxJoTUsyAl0I2/XHzROYzxrWspiVrEjTdCXcDzRmg9y/CWwD8bYhaDD81ti7qrsTAAA=");
 
 export default Pig;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `retweet` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/retweet?s=duotone retweet}
  * @preview ![retweet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/retweet.svg)
  */
-const Retweet: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M272 128c0-17.7 14.3-32 32-32l112 0c53 0 96 43 96 96l0 128 32 0c12.9 0 24.6 7.8 29.6 19.8s2.2 25.7-6.9 34.9l-64 64c-12.5 12.5-32.8 12.5-45.3 0l-64-64c-9.2-9.2-11.9-22.9-6.9-34.9s16.6-19.8 29.6-19.8l32 0 0-128c0-17.7-14.3-32-32-32l-112 0c-17.7 0-32-14.3-32-32z" />
-        <path d="M304 384c0 17.7-14.3 32-32 32l-112 0c-53 0-96-43-96-96l0-128-32 0c-12.9 0-24.6-7.8-29.6-19.8s-2.2-25.7 6.9-34.9l64-64c12.5-12.5 32.8-12.5 45.3 0l64 64c9.2 9.2 11.9 22.9 6.9 34.9s-16.6 19.8-29.6 19.8l-32 0 0 128c0 17.7 14.3 32 32 32l112 0c17.7 0 32 14.3 32 32z" />
-    </Icon>
-);
+const Retweet = createIcon("retweet", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABfwAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCBAsIAAE2AiQDCgQgBYMtB0obIAXIHge5yfRWNi60FqFfPHyv6/XcJ+3Ot2QGGRgrIqoAKFzjtglX6bjoDW2AO0MH/INjjP2TS+O/6TfggbzjXPGPT/DdsalUgcbr3TapecAK1GqK1W1iT0cpvSESuCI6nrDj7AZ5vMyuqJHeS7/gvvwPYPyqiyskzTIA0RoAs9esWOS7Z5788uZz4hcLERBzQCWQIUN3AabJBLrLVcjlgmepeBZVEUDUyWdnoI4cu3EQkIMkRJ6PHFnWWuSry1qx40L7iCdFEV8OafSMKOKjru93WuGd8naHZd7q/G6/IsSFDm+VZdyuiT0XO4XTTxlfDP60hyjjwy7vtV/qSXGr43Jvd/tgYBkRFzu+XRRxi/qPPo3Wjd97/7L7FyNntrzBjZZHXWg0mi6ozLq0/ekb77Zo8e4bT7dfmlW5AMtQTmvVavptEAh+Smu+pdW0/5vKBF58++e//GKk+amBJgkE2bA3w2xMswD5hhI8pJDitD7fFa0FMiMl7VpzbwsQChSSugIy3bSGXGEo1PQ0/npdYYVM5M2E9jYpJM0dg8wEZyHX3mdQM833aV37yGJNjRT1p5e1wCLzt1WjR4yqplRuqWvhI5fVqdVyNOh0HhlMR+12xGEn7bLTPieNeNyi4pRDFiB6vh+qjDbCKJUpqu3mcf9quxx3wj5HHOZNpqrOx4OcxtMH024SYMwtXc2IFFmr47tOntm16+TwN+u3scbjBAA=");
 
 export default Retweet;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-exhaling` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-exhaling?s=thin face-exhaling}
  * @preview ![face-exhaling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/face-exhaling.svg)
  */
-const FaceExhaling: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 16C123.5 16 16 123.5 16 256s107.5 240 240 240c43.7 0 84.6-11.6 119.8-32c3.8-2.2 8.7-.9 10.9 2.9s.9 8.7-2.9 10.9C346.2 499.6 302.5 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0C391.7 0 502.7 105.5 511.4 238.9c.3 4.4-3 8.2-7.5 8.5s-8.2-3-8.5-7.5C487.2 114.9 383.2 16 256 16zm0 400a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-80a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm54.6-91.9c10.9 19.3 26.4 27.9 41 27.9s30.2-8.6 41-27.9c2.2-3.9 7-5.2 10.9-3.1s5.2 7 3 10.9c-13.1 23.4-33.6 36.1-55 36.1s-41.8-12.7-55-36.1c-2.2-3.9-.8-8.7 3.1-10.9s8.7-.8 10.9 3.1zM159.6 272c14.6 0 30.2-8.6 41-27.9c2.2-3.9 7-5.2 10.9-3.1s5.2 7 3.1 10.9c-13.1 23.4-33.6 36.1-55 36.1s-41.8-12.7-55-36.1c-2.2-3.9-.8-8.7 3.1-10.9s8.7-.8 10.9 3.1c10.9 19.3 26.4 27.9 41 27.9zm335.2 24c23.3 0 42.3 18.3 43.8 41.3C556 345.5 568 363.4 568 384s-12 38.5-29.4 46.7c-1.6 23-20.5 41.3-43.8 41.3c-13.4 0-25.4-6.1-33.4-15.6c-3.1 .7-6.2 1-9.5 1c-24.4 0-44-19.9-44-44.4c0-.4 0-.9 0-1.3l-66.2-20.1c-3.4-1-5.7-4.1-5.7-7.7s2.3-6.6 5.7-7.7l66.6-20.2c2.9-21.6 21.2-38.3 43.5-38.3c1.7 0 3.3 .1 4.9 .3c7.6-13.2 21.7-22.1 38-22.1zm-26 34c-1.5 3.8-5.6 5.9-9.6 4.8c-2.3-.6-4.8-1-7.3-1c-15.4 0-27.9 12.6-27.9 28.4c0 3.5-2.3 6.6-5.7 7.7L371.6 384l47.3 14.4c3.9 1.2 6.3 5.2 5.5 9.2c-.3 1.8-.5 3.6-.5 5.5c0 15.8 12.6 28.4 28 28.4c3.4 0 6.7-.6 9.8-1.8c3.6-1.3 7.6 0 9.6 3.2c5 7.9 13.7 13.1 23.6 13.1c15.4 0 27.9-12.6 27.9-28.4c0-.6 0-1.2-.1-1.8c-.2-3.6 2-6.9 5.4-8.1c13.9-4.7 23.9-18 23.9-33.8s-10.1-29-23.9-33.8c-3.4-1.2-5.6-4.5-5.4-8.1c0-.6 .1-1.2 .1-1.8c0-15.8-12.6-28.4-27.9-28.4c-11.8 0-21.9 7.4-26 18z" />
-    </Icon>
-);
+const FaceExhaling = createIcon("face-exhaling", false, "data:font/woff2;base64,d09GMgABAAAAAAN4AAoAAAAABzwAAAMuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHyEBAsGAAE2AiQDCAQgBYMtBzQbCAbIrgp4MtfQQRhQMClxVFPTgJl4mX5uRDw87O/x3Pfex0w0sG5pa1sEWMHkEMEG6//8uHz/IP6bzQSlLZ1QB6E5u6/t/27+O21toIQDaxt31lg2tZf4oDaNcXNYSCToGuGyLiLZS3l91dYr8PxfUy8K5AC/+PmhRGPprSmTMp/v+fBAZxtGCq1tdiAD5LFucN7kQwhJIT19D1n8WohMsgef2OQ+NN6oY5lEmgJAVAYAhswqL4THh/Ew4r2UuGwcEBBDARpDSJGiPgT6IwrUR9IYyGSCh1Eqsf/AxiCAyIP/UxKQoQzu4CsgA4lCRgqvxq5SxTeSmWOTqsrlGPW3SxTPnSMO/dedyd22v2lqmEXv69ff8bL/yTo8x1tt0bxF1VckH/u343UaCisiqoWRyiZYVcPMRGuGXWbzWFc4lE7v6iOt1vx3SNuNOA+ySIsBFXVubHXruhoozMaa2uVhE5kYkxpVpKoFERQGD2jVsW9OMTOjBjPAdEJV9QjUI3bI82dFxKtSKzakC3NDG0qH10qI8OpWR91tm7f93+Tyd4KSodAM5nzjm6HSvn0jDVI1Tc30WlaNhGwLW+QyyJZdm+sXsiHD7EqxIA0rzC3mqc1Dk6KBZ2xmY7C6Iq5h+fbh52fP/h2GX+lZX37pXFXYNs1rxhva856aaanXpFou3NSSiVJ6Ay5W3uOFG93cCFKu2ly1S2/VwpBqoDSfL00vweev+YT0tNZ7tjQm5aeXs/Kl98A7U/MJsZF+mLOmePwfi2stYQaipM6WsZohFCHKdS9nNZ4LIBDUPWFebOb6fyuWIwA8vvDhNztfadI7OQoUJSBI25faa0gGA8UJVwj8aBJT3KDXAolbCuAbo7ydAoSyCJDIKytAqh4eBDJltYNATkOREMgraxqiyOgQqmusQKK8ZSDV0wzIVHcCcvp7iuZVj/RSly5U6UMzPauJZrphFxSC4/BoTSFfvYKejceLDTPFe3zhWugybMiETh16TTToMYWJSYOyppiZ3mKhgoTA4uDNzbt6FY6OGdc7rG6fJx4+3vExNT3cF9oEPmtXVYmESNjv0ULgu6Kn9YeZ");
 
 export default FaceExhaling;

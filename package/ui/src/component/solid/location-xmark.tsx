@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `location-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/location-xmark?s=solid location-xmark}
  * @preview ![location-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/location-xmark.svg)
  */
-const LocationXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM111 111c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const LocationXmark = createIcon("location-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABaAAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBRQsGAAE2AiQDCAQgBYMtBzUbygTIjtROecqBiCCye/rq2T3Ae5QykBkjKoKzi87fiKhI2cuv09qJy53/3IDL3n1Of5CGxnOeJ9B53mVjU4lkgb0oZu3sfBj0skqf8kmGSTdsrpDH7uyIMqRz6V2crD8av2vgCEmFDEBUB8DwuTMne/pNfBPxTmniHRMREMNBIZAhQ2MBBskEGssVyOWCb6JUSv+BBQFEWQ1P4lyeHIOpgBwkKc+bNK9Upko+J36m4uz7IyNe9Ix43OzzGR/P+XTah7MudX84/FnnU5WO1ltQ68ExNERzrv6gGByam22GxKDQnG80NIbEMy1uVb/1Z/N3l73rix5Xl7PsN75uHNNnz54ONmbPPqLx178tW371QtWqF1YcrlLlL38B+uGH6F+62veBQPDz4hMl1Qb9U75SAt89+ft/fV3pWRxIt1BeAkHWqdTJojgAQR9ALcU2LZyKBZIhErRvrey0AKEiAiRlVRQg00h1AXIVdRSgjKZ6C1BWRTNlIq8g1LZ4yEllG+VMH3vlXG2P5TIGeaNWVu3IqGQRwfrJ5Y+xwOhtRfcu3YoBxbKt2+wwyvrAYjtvty2PtcdBy6y3zhZLLbHSFiNtMrm51VpjPGa0ChW666KbwgDFce95/xxLbbLZSuut000GKu6X7WzzZ7fHbhKgxyO0JCJV5WDReQfvAA==");
 
 export default LocationXmark;

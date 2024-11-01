@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-stars` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-stars?s=light face-grin-stars}
  * @preview ![face-grin-stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/face-grin-stars.svg)
  */
-const FaceGrinStars: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm90-166.2c-22.6 23.6-54.5 38.3-89.9 38.3s-67.3-14.7-89.9-38.3c28.5 5.4 58.7 8.3 89.9 8.3s61.4-2.9 89.9-8.3zm33.8-41.1c-37.3 11.1-79.3 17.4-123.8 17.4s-86.4-6.3-123.8-17.4c-12.3-3.7-24.2 7-19.1 18.7c24.1 54.6 79 92.7 142.8 92.7s118.7-38.1 142.8-92.7c5.2-11.7-6.8-22.4-19.1-18.7zM160 104c-6.2 0-11.8 3.5-14.4 9.1l-19.3 40.4-44.4 5.9c-6.1 .8-11.2 5.1-13.1 10.9s-.3 12.3 4.2 16.5l32.5 30.9-8.2 44.1c-1.1 6.1 1.3 12.2 6.3 15.9s11.6 4.1 17 1.1L160 257.4l39.4 21.4c5.4 2.9 12 2.5 17-1.1s7.5-9.8 6.3-15.9l-8.2-44.1 32.5-30.9c4.5-4.2 6.1-10.7 4.2-16.5s-7-10.1-13.1-10.9l-44.4-5.9-19.3-40.4c-2.7-5.6-8.3-9.1-14.4-9.1zm0 53.2l8.6 18c2.3 4.9 7 8.3 12.3 9l19.8 2.6-14.5 13.7c-3.9 3.7-5.7 9.2-4.7 14.5l3.6 19.6-17.6-9.5c-4.8-2.6-10.5-2.6-15.3 0l-17.6 9.5 3.6-19.6c1-5.3-.8-10.8-4.7-14.5l-14.5-13.7 19.8-2.6c5.4-.7 10-4.1 12.3-9l8.6-18zM352 104c-6.2 0-11.8 3.5-14.4 9.1l-19.3 40.4-44.4 5.9c-6.1 .8-11.2 5.1-13.1 10.9s-.3 12.3 4.2 16.5l32.5 30.9-8.2 44.1c-1.1 6.1 1.3 12.2 6.3 15.9s11.6 4.1 17 1.1L352 257.4l39.4 21.4c5.4 2.9 12 2.5 17-1.1s7.4-9.8 6.3-15.9l-8.2-44.1 32.5-30.9c4.5-4.2 6.1-10.7 4.2-16.5s-7-10.1-13.1-10.9l-44.4-5.9-19.3-40.4c-2.7-5.6-8.3-9.1-14.4-9.1zm0 53.2l8.6 18c2.3 4.9 7 8.3 12.3 9l19.8 2.6-14.5 13.7c-3.9 3.7-5.7 9.2-4.7 14.5l3.6 19.6-17.6-9.5c-4.8-2.6-10.5-2.6-15.3 0l-17.6 9.5 3.6-19.6c1-5.3-.8-10.8-4.7-14.5l-14.5-13.7 19.8-2.6c5.4-.7 10-4.1 12.3-9l8.6-18z" />
-    </Icon>
-);
+const FaceGrinStars = createIcon("face-grin-stars", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAAB1QAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRCEGQsGAAE2AiQDCAQgBYMtBzYbHwbInoUp3NAd8go3WprW3zvnEg/fr5V/7pte6jCT2kQjWqTy7AD5IzqQqS/n/x/33vshvg9oRoLVoNOhEAG37fSVqpCWWLXvCfwJMHXqeSwXDeBYAqGtMVidOKdtKrU053kEChjrPXVMK/C0WlEjYN2d7UBa0z5Ja5qE45zjcoIs7kRXdNLp9BYHy5fGPxpZJckKAKImADBqQVUlvP8ev0e8LZZ4awoQEKMBWkIUUEBTCIaiCjRF0xLIZILfo1iM/4EtQQBRiuFkW4Yc/+J/tD1JeZY1acKu18mIRW5JtWx+fux8ybNJEa96XYJdPc9LXo59Pvl178u4u89V+ZsJ6bsZER/GPIndox9Pfz//66lvRz60a9Sjae/mLXge+3z4Ne7eAdmf+Z7JJ+puyU9SD4U3hjwFdhU7sto9db3YN46N8ilsGkjaVqbjoNCMggG7hA1UxLF7nMg1aqzeltuwbmhUY/s4UdeKTUpcgR3IcgNt3Q2ehtxgPhQdfrd6u/Kt4rqCbn99PWTI11/dur6Llgj+fZw1Dg/R5Y/RDVlfG4dahW3DmbbtM6PnAoE91aJ2NBePzJvn7FQ/Ef4WcnWsqVz+6WU+cCBcO9zR1VvdXhXr161U6rGybj17q38rO3VcvzZQMu+3e2n3gPHevs1r0AbY1q5la0M57z+9jQ/Y/db3iIq9qrPK+lDrQip/uR9AIPiu/YxsRY2hX8qrJPDn7b9Ux0hRki6iXAJBoWuxq+YEEgEASLGBOUEg+Vs5/tSqTggQcgRISuUCFDQhgiCT6wJBieZiEJTKzUEVWYVQV0vHkqpWYwX9zWGZuq6wEkN9lEvVjYLTu1zW9efMXyShwnWklz9I0ojZ0tx+bOBqOlkOdJxNIy4AQq8xo6b16DZgWqCTKmszRhTNuIW/JUL8gog0ZLu73lyrx6QpA8aMkpV05H7GaXY+3QVhClbsrSlJRKrxpOp8q9YMjPqeKg==");
 
 export default FaceGrinStars;

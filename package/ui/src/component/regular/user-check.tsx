@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-check` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-check?s=regular user-check}
  * @preview ![user-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/user-check.svg)
  */
-const UserCheck: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 48a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm0 208A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 96l91.4 0c65.7 0 120.1 48.7 129 112L49.3 464c8.9-63.3 63.3-112 129-112zm0-48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0zM625 177c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L625 177z" />
-    </Icon>
-);
+const UserCheck = createIcon("user-check", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfgAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCCwsGAAE2AiQDCAQgBYMtBzEbDAXIhofn86o/9yU1SHWGTPcQ+KSWsrbkCq6xS+Mff1ogZ/RoY9OaIAvkac2OeAUarw+/+Fmn1gpWUezblkchKTyOCBGSiMbL8YKQxz9xqRrpuvQWLulfGj/q6UySWgYgOgBg3pYNqzz3WXwW8WbjYeJNKxAQ80AlkCFDHwFmygT6yFXI5YLPotHA/8CKAKIVgU4gR2vsjcOBR0tSy/Oyd7tuneq1Mt9crxU7PDzq7pF3TXxk9D1j7p3ighERd464M04bfgfTxflDb6OdOux2xPWN9aL+8rTHm5vixhlPLomP1ka8t/HUrlfVy7ig+zXxyfoPNhd73NDrloEbY3Yo/LU918XNQ7a03NHhjp+b39r7LZ9e8tzRW7Yc/Vy59N6A53iub9nSUvZ97rkBpoTeqF12FPQdZo8+dGeHjp7dYezyaKZTLC/PObY8U3nsOWUs79S8PHZ85uT33ivLgw/2i7KsSkNvcsopQCBY+8yR3+7SfuZvbeoJfPHEr7+jtzWeS6ekO9BGAkE2sjHSjulURDpFAABSHK0lOBWSndXIpza5WoBQIEDSSiFAprcOAuQKIwSo6WeSAK0UNshE3lboYqcJkiaHgcxkJ4FcFw+CmpleTVrpElm28bnCf/ZSFlts0bFq3Oix1fRqWRpCArG8P6Pa1oceTaNhcNXeDnGwI+1lT/s50hCHW5Uf5SCLI3yRH6qMM9pYlemq42Z/frO9HO4I+znEwe2QGar78VBHx8vDwEqEcbxCkohUPFFtVNYCAA==");
 
 export default UserCheck;

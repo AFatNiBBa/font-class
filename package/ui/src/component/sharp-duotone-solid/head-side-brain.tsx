@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-brain` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-brain?s=sharp-duotone-solid head-side-brain}
  * @preview ![head-side-brain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/head-side-brain.svg)
  */
-const HeadSideBrain: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 224.2C0 100.6 100.2 0 224 0l32 0C358.1 0 441.6 79.7 447.7 180.3L505 252l7 8.8 0 11.2 0 16 0 32-32 0-32 0 0 96 0 32-32 0-96 0 0 32 0 32-32 0L96 512l-32 0 0-32 0-98.8c-41-41.9-64-98.3-64-157zM64 176c0 20.9 13.4 38.7 32.1 45.3c0 .9-.1 1.8-.1 2.7c0 26.5 21.5 48 48 48l16 0 0 48 64 0 0-48 16 0c26.5 0 48-21.5 48-48l0-16 48 0c26.5 0 48-21.5 48-48s-21.5-48-48-48c-.9 0-1.8 0-2.7 .1C326.7 93.4 308.9 80 288 80c-8.6 0-16.6 2.2-23.5 6.2C255.9 72.8 241 64 224 64s-31.9 8.8-40.5 22.2c-7-3.9-15-6.2-23.5-6.2c-26.5 0-48 21.5-48 48c-26.5 0-48 21.5-48 48z" />
-        <path d="M336 208l-48 0 0 16c0 26.5-21.5 48-48 48l-16 0 0 48-64 0 0-48-16 0c-26.5 0-48-21.5-48-48c0-.9 0-1.8 .1-2.7C77.4 214.7 64 196.9 64 176c0-26.5 21.5-48 48-48c0-26.5 21.5-48 48-48c8.6 0 16.6 2.2 23.5 6.2C192.1 72.8 207 64 224 64s31.9 8.8 40.5 22.2c7-3.9 15-6.2 23.5-6.2c20.9 0 38.7 13.4 45.3 32.1c.9 0 1.8-.1 2.7-.1c26.5 0 48 21.5 48 48s-21.5 48-48 48zM159.9 178.7c0 0 0 0 .1 0l0-2.7c0 .9 0 1.8-.1 2.7z" />
-    </Icon>
-);
+const HeadSideBrain = createIcon("head-side-brain", true, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABsQAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1iDIwsIAAE2AiQDCgQgBYMtB1obzwXIngfZ2eSUjJQXH1sf8fC9zddz39sv2yszrF0xcYj7VIDQAbMmJVeZlFpvXplSxKJp2etV/u0qgiBRmo+NyzEQ1Qznr7IB9P1/rqkX1nSA3w5AMp+frgoo8/kEBliBkbQ30sMBTXwGtsF5gw8qlCGUn6GIL/MNWki3pY8bw/8BjD/1cgNJmwwgOgJgzqZ1K7zeiEaKj5uX+NhyBMRcUAlkZPQVYLos0FehQqEQNFKzSSOazYoAoiYkMqeGXvACXgYUIElSUUxtNWZKvaVdsZE+X+4r66W4tWt9NkQZEWU83J034urflww8olifmcKvV2Gsz24tjwbpWvGta8QD4yBeWBbx0aJ6fLPmiw0bolsIIcqyeCAi4vH+B+NdleFat3Vr5ULUI3DskR5ygqPUuYl0Iqn2CKbRtQacHR6X/Qd+fPBjq/4dLZId5U9+DopGm200XPrzJznSTx0XxOxAu4fevrevbwKvBIgNEb3xmWtkkTTafckbI+jXqKyINXNryycvclhdR5Wq2l0QuyukEc0+//7fakSz408R4ksBuh5fGOmV8Dd9fW9vP2QqZnwgbhpbv/zbXR2m/9e6nsDvL/5H9UPSfD1Jj6O1BII8vDnc9gQSAQBIcZFBidkIZEclYbatm8Wj2RIhwpoSZrM+OnZQKA2DFv1NEA+uXyeLoo3Q1Q4ISVtnIJvoSih09QK0mO69VE3XyEZXNnjyn2PGwiG+YFo1ZuToamq1WtYoplH0xqdVh4PBF/G2IXCvg0456bwD9jvi/IA7a0X2ghMWbrELfFBljJFGq0xVXa49NTbi1FnnHFnWrk8yTfV8ONhF272HwAgTYKx4QZaJFLmHATdHaG9rhAN2RtiDrr2WNE0P");
 
 export default HeadSideBrain;

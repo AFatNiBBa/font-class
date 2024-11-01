@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camera-rotate` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camera-rotate?s=regular camera-rotate}
  * @preview ![camera-rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/camera-rotate.svg)
  */
-const CameraRotate: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M263.1 32c-24.1 0-45.5 15.4-53.1 38.3l22.8 7.6-22.8-7.6L201.4 96 128 96c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64l-73.4 0-8.6-25.7C422.4 47.4 401 32 376.9 32L263.1 32zm-7.6 53.5c1.1-3.3 4.1-5.5 7.6-5.5l113.9 0c3.4 0 6.5 2.2 7.6 5.5l14 42.1c3.3 9.8 12.4 16.4 22.8 16.4l90.7 0c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16l-384 0c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l90.7 0c10.3 0 19.5-6.6 22.8-16.4l14-42.1zM362.4 237.6l-15 15c-2.1 2.1-3.3 5-3.3 8c0 6.2 5.1 11.3 11.3 11.3l60.7 0c8.8 0 16-7.2 16-16l0-60.7c0-6.2-5.1-11.3-11.3-11.3c-3 0-5.9 1.2-8 3.3l-16.1 16.1C375.1 185.8 348 176 320 176c-32 0-62.6 12.7-85.3 35.3L231 215c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l3.7-3.7C282.3 231.6 300.8 224 320 224c15.3 0 30.1 4.8 42.4 13.6zM208 380.7c0 6.2 5.1 11.3 11.3 11.3c3 0 5.9-1.2 8-3.3l16.1-16.1C264.9 390.2 292 400 320 400c32 0 62.6-12.7 85.3-35.3L409 361c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-3.7 3.7C357.7 344.4 339.2 352 320 352c-15.3 0-30.1-4.8-42.4-13.6l15-15c2.1-2.1 3.3-5 3.3-8c0-6.2-5.1-11.3-11.3-11.3L224 304c-8.8 0-16 7.2-16 16l0 60.7z" />
-    </Icon>
-);
+const CameraRotate = createIcon("camera-rotate", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABmwAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCcAsGAAE2AiQDCAQgBYMtBzQbdAXIBp6nvOr9SqVRmXF6wFqbNxFH6ERe19k9mu3Tn3qeaaEAPpMEbSxcGpAxKR1jnFeggC3Wv3YJLrCKRMhrbstT0CDImsgUnfqMD23wIT0BWv7IWlxQ29RdYE35UnlDNgtB4ToAAEgKAADQpFe3DlwMJBC5Ez8Ncod2gABIEwAsAjiAA+QhANTHQYA8NBbQaAQCicfjf6AFAQAJQa+kANBACNgJ7AcANAAKrXVFW7yo5ybqnp5rRi33RTZmlZCSkiVGDpY+mqVkW5ljJRLlSLkTuY5sL3u8pJEc2Z6x2Ri7xfNkRSxfNsW8cF7JRj9BNmc4siXTc/nCHn6mv5Gl0tmCJy/3fblQ82p9X7ZmHyqVKSe8FSW6b4qtyMyU896NRpmyI+dwcV+OmuUlM2XLdY2NbPQpejzl+Lsid0feJbQn7TU86jyKUSyjDXtTUw2Y1NS9c/m6Niyj86PXaVNHxNyphGKPGPixH0ESJAVza6UfHyc+GrPlPZ0o6kbXNuBlYgNA6BaNk703pUg1Hj5MTKxG84LMCttWSxI55fz3qPgg6W4ABBA4EVNPByXX/xbxFACvLnz47utbNB6oxuo4EEEBIOCUj5env5pLURqrxggAtSmZSVE1FxGKjegRCBLYrE0EAwxFCAOHXFKgMZSDSwE1CEIYuuEgOorgMwCGIoEpcKjJLGh8TsKlPjfCEL44BqqZl/Z7mN1ypFocs1UqVrZ17bav6Tan5P169rFTemaaK4OLjGQSE5nOCIYzhumDOJUOyQwm0PIktOCHWKpQkcpY6mLVo2e7ZwinMo0xsqk/pB72/aA0M8+ry8BXkGxV2hQKRCV+YuUKUydNHzJ9BAA=");
 
 export default CameraRotate;

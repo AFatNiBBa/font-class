@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tire-pressure-warning` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tire-pressure-warning?s=light tire-pressure-warning}
  * @preview ![tire-pressure-warning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/tire-pressure-warning.svg)
  */
-const TirePressureWarning: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M416 0c-8.8 0-16 7.2-16 16l0 11.6c0 42.2 9.8 83.9 28.7 121.6l5 9.9c.2 .3 .3 .6 .5 .9c18 30.9 36.4 73.1 35.8 120.5c-.6 45.5-18.7 97.9-76.2 151.4l-275.6 0C60.7 378.5 42.6 326.1 42 280.6c-.6-47.4 17.8-89.7 35.8-120.5c.2-.3 .3-.6 .5-.9l5-9.9C102.2 111.4 112 69.8 112 27.6L112 16c0-8.8-7.2-16-16-16S80 7.2 80 16l0 11.6c0 37.3-8.7 74-25.3 107.3l-4.7 9.5C30.7 177.5 9.3 225.5 10 281c.7 55 23.1 115.3 86 174.1c0 .3 0 .6 0 .9l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32 64 0 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32 64 0 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32 64 0 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40c0-.3 0-.6 0-.9c63-58.8 85.3-119.1 86-174.1c.7-55.5-20.7-103.5-39.9-136.6l-4.7-9.5C440.7 101.6 432 64.8 432 27.6L432 16c0-8.8-7.2-16-16-16zM256 96c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128c0-8.8-7.2-16-16-16zm24 224a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const TirePressureWarning = createIcon("tire-pressure-warning", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABkwAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCZQsGAAE2AiQDCAQgBYMtBzwbcQXIFkrLw/c63859kj2JvoOsMOMidkhcp6Vql6uk9fxf8/k9PzrAb0d2aFExkGiQTIJ8nqWlA9+bDWymE7C9bRhooxCvFESFiGNK45Sdy+EKeXwWg1RIj6TfcRd/aPytg1tJ8gxANAfA9LUrF/v6fJyP+L3+AfG7hQiIGaAUyJChswCTZAKd5UrkcsH5qNfpP7AkgKiSV04gRwUP4QlADpIsz69q0rih0iRf01Ap9t7fWtw4vE3c5KZ4pMMjbhz0+qRafDnkzbip02Odboqbol28FxEPtjWtG9Y6Hu78uBsHvzHZPH3xQJuH2kU0KB7gfjX0rZ7T9cmObePdIH4V4id8evrqR/s83/6R3i916vFq81f/7f77nt899dX5pjXTfp5PcPbNN3v1qFQfau2haqVHL1x/ljDfz9Nqmp43XR538zx/vPvtgP6TBv4t6LcbrDRNqcv6Ifw9cFL/Aa7oH/PcPC5IfWpr5W6cpKx259osX96G0EA81OOGe+7c2mzSpUYNCVz89P9L5WdU1L+Oy+lVNJJAkA2qD7IpUSjisgAApDijR6IQSO6S4XeteVCAUCBAUlUIkOmkuQC5wkABKroaLUBVYaVM5I2F1jYPkNQcB5kxrgO51t4DFZP8FK1qHVlqkolF/gzj5gjNnlQOHzKsnFAe85TKNrz1TyzNWr8z1fWHk/Y46ohTdttlv1MgJyxOnHbYnBs82xeVhhtimNIEpbv0yq0hesJJ+/cS/wAmKsVH+jlzb90fzEQwR9ifJCK1ObX/xO7BmSwNfhMAAAA=");
 
 export default TirePressureWarning;

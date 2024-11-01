@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fish` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fish?s=thin fish}
  * @preview ![fish](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/fish.svg)
  */
-const Fish: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M141.5 306.7l-11.7 6.8L40.1 365.8c-6.3 3.6-14.2 2.6-19.3-2.5s-6.2-13-2.6-19.3l45.8-80.1 4.5-7.9-4.5-7.9L18.1 167.9c-3.6-6.3-2.5-14.2 2.6-19.3s13.1-6.1 19.3-2.5l89.7 52.3 11.7 6.8 8.7-10.4c11.6-14 25.3-28.1 40.7-41.2C228.2 122.2 277.5 96 336 96s107.8 26.2 145.1 57.8c37.3 31.5 63.8 69.2 77.1 94.9c2.4 4.6 2.4 10.1 0 14.7c-13.2 25.7-39.8 63.4-77.1 94.9C443.8 389.8 394.5 416 336 416s-107.8-26.2-145.2-57.8c-15.4-13-29.1-27.2-40.7-41.2l-8.7-10.4zm-3.6 20.6c12.2 14.6 26.5 29.4 42.7 43.1c39.2 33.1 92 61.5 155.5 61.5s116.3-28.5 155.5-61.5c39.1-33 66.9-72.4 81-99.8c4.7-9.2 4.7-20.1 0-29.3c-14.1-27.4-41.9-66.8-81-99.8C452.3 108.5 399.4 80 336 80s-116.3 28.5-155.5 61.5c-16.2 13.7-30.5 28.5-42.7 43.1L48.1 132.4c-12.5-7.3-28.4-5.3-38.7 4.9S-3 163.3 4.2 175.9L50 256 4.2 336.1c-7.2 12.6-5 28.4 5.3 38.6s26.1 12.2 38.7 4.9l89.7-52.3zM448 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-32-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Fish = createIcon("fish", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABmQAAAKKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCWQsGAAE2AiQDCAQgBYMtBysbVAXIngPuziJAEzDaxrJ8ng+AyJC6cZwIvvYr+82fIwDFIByWP6E4lrji0Pm4FSaANipC7f3P6d0YCvjHzApRJUU9IHJrhazrngfU6YUkMGYdEqbPb+rU80wLBWQNsqCNhUtncSzrlfbgChQwod57p0UkYLWKYs+2vTkiXmk3QuEOOb5ppk/6mErA21Cp+IdrjqQoAEQzAID986IceNGiNrBUviRKsoCAOAAYhigwoB+CLbrC8A56hoEsC34jw/j/QAICiEpxyQlkVOINPgEySHLOm762xqYVDfnMfFB73s62K0a6U8ouQzaysDSkXTL7ErQf5O3P7Yddh12GXHrsBgFXYid33ykKvgi+Cr3y3PNkcRZ6I25DrqPuvQ5lfBlLiXv3Iu9CL8JvcE4pbo3LuSVYHEWpm25lTdMsxHe1L9tpuN8hMX3VJcNJiT1tJ2XJ2I57Vnvv3Dqsv76KARVBQD8by/TJgzRpbJZ5b5GeeXrLC+0XN3F5Jyd5cTfX4R5UaCjlEX6t7m+yW3Zizart6ys1qkg3ens3MiJVGlSsnmVVBEPG4BvtkwdpSv+30PSFpFos8bwxGhJUWWth8VsJIJ5q+PJ5us4y+r+aBP7efebfZCIdpT1USyAo5hlv1Sl+Ay9/Fr5ULe444m8SSJ7I4qrWeydAqEWApFKtAIU+VhBkteYgqDAoBIJKtY7pilwjtKvp2KTeJVtYMc5m7c7ZClte65XaQxcoDZAy/glzU4dQyjUS4OtPIsnqUGPCmWaPo8hhz31ULnlgILTq02tYi2YdhgfkoJzWiB6pW0SKHyIC+PJHRCKXJ09vl2oxaEiHPr3+kijk+cjd6PZmDxzqiFUXDCSJSPnzAg==");
 
 export default Fish;

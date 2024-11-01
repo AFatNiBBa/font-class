@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `album-circle-plus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/album-circle-plus?s=sharp-light album-circle-plus}
  * @preview ![album-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/album-circle-plus.svg)
  */
-const AlbumCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M416 64L32 64l0 384 243.2 0c5.9 11.4 12.9 22.2 21 32L32 480 0 480l0-32L0 64 0 32l32 0 384 0 32 0 0 32 0 128.7c-5.3-.5-10.6-.7-16-.7s-10.7 .2-16 .7L416 64zM224 96c69.3 0 128.3 44 150.5 105.6c-10.2 3.5-20 8-29.3 13.2C328.1 164.3 280.3 128 224 128c-70.7 0-128 57.3-128 128s57.3 128 128 128c11.2 0 22-1.4 32.4-4.1c.7 10.9 2.4 21.5 5 31.7c-12 2.9-24.5 4.4-37.4 4.4c-88.4 0-160-71.6-160-160s71.6-160 160-160zm0 136a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM544 368a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160-64l0 48 48 0 16 0 0 32-16 0-48 0 0 48 0 16-32 0 0-16 0-48-48 0-16 0 0-32 16 0 48 0 0-48 0-16 32 0 0 16z" />
-    </Icon>
-);
+const AlbumCirclePlus = createIcon("album-circle-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAMkAAoAAAAABogAAALaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDDwsGAAE2AiQDCAQgBYMtBzgblwXILgfs5sNvWFYAq57ISVFGZS7lDpVWePs1QVG6rEenu7IlM6yB+Dkj4IgRc8III0qtk/sFb/R5coQkojIKmnF/aRBoQDiiIY188Hzden+7rvFbtFvkwiyDXfAIAo5LIwAud//4umZz8BAKKdI44B8ggUMuTKiWOB5rllrgf/N/Tb14flQgn4/gUDpXwQXU/XwCe564edN0ICc0YJry1E0NCj0E6dNDJIiWIfv3lB3PYFdg653y8YK1LXwAa1qk9BNZCAvbAwCAQgAAgJZ71/bc/eWz9LJZ0EsKEIBaAWAI8EBPIAqoTyHkCjYG2NgIPkvz9h9YEADIh/48FgA24AccBRcAgA2Ahc+2E9P88/gU1wm0e7heZ2RAYIAlV9vSgFDySHIDEdoc6UTLozaQa9eNEbtrj1c+HAazr+FW2xX5psiDzts49Xg1zz05VG5NPxy3I2vwVJLtu8OO3hyM2crcclvGIdfsj8TvUDzvLjnzuuGax7WCU8y9nKy+6ujn9cLT2hGuixwHIUeS5DiS60qSK1J/Icd/738e+5mrH9UfZnJjmMswX8M8k3y/SfPmtmiYWf393vt/aV3udcpbJ/Rb1hQe3povX0prtTa2lJa+IyM7l1NekvQdfL82SYmCqlPGOVkLMHFYZmZYuDFZ0obUnqZiLYYYQixFCIF04fcBECAonOZ8PlL/z7cFwNf7D15uTi2s48APCwCBJ78Z+qkWAJkuAChbmkGqs0MBFns9/KgGsJkAEA4gACx8OAgAD/FCCAAbhzwCwEuSCgLAh0NXPMj2R0ToP4BFAJOBh0qzgE2EC8BLvSclHxGBFa9itImfi2ntGG27zZQUFptas23rUgjydb3OXPayZ8hYDi4ygolMYBrDGcZophE+hfbV6YynnYe15YsYJQoVM2qZ496z1oNKU5jK6LVyvkkdc38u2wx/dg5CC2UsVWNhgazQt8Yq+LNHLwh5");
 
 export default AlbumCirclePlus;

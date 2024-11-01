@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-circle-bolt` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-circle-bolt?s=duotone car-circle-bolt}
  * @preview ![car-circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/car-circle-bolt.svg)
  */
-const CarCircleBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 256L0 400l0 48c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-48 226.9 0c-1.9-10.4-2.9-21.1-2.9-32c0-88.8 65.8-162.3 151.3-174.3L437.2 96.3C423.7 57.8 387.4 32 346.6 32L165.4 32c-40.8 0-77.1 25.8-90.6 64.3L39.6 196.8C16.4 206.4 0 229.3 0 256zm128 32a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm-18.9-96l26.1-74.6c4.5-12.8 16.6-21.4 30.2-21.4l181.2 0c13.6 0 25.7 8.6 30.2 21.4L402.9 192l-293.8 0z" />
-        <path d="M352 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm194.5-66.2c2.8-5 1.7-11.1-2.6-14.9s-10.6-4-15.1-.6l-96 72c-4.1 3.1-5.8 8.5-4.2 13.4s6.2 8.2 11.4 8.2l35.6 0-30.1 54.2c-2.8 5-1.7 11.1 2.6 14.9s10.6 4 15.1 .6l96-72c4.1-3.1 5.8-8.5 4.2-13.4s-6.2-8.2-11.4-8.2l-35.6 0 30.1-54.2z" />
-    </Icon>
-);
+const CarCircleBolt = createIcon("car-circle-bolt", true, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABnwAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCXQsIAAE2AiQDCgQgBYMtB1obiQXIBp4vm/r+7kmx78ywBoYQYpeJwgRtJi1XBLV8nss9v2lHB/j5CA5tLJythWv5nM8TCDBrU9uyPNE0gsQ9a6ePSKJbJElCkmHzw6acgaUy9BJcoHaqN8D6cES+Es0SUPhqACQI+BsgTf17d+XBe3mv5I33CsgbugACIM0AGATQgAbiEABq0QgQh4UBLCwE3iuvF96L12tAAEDc4L01AG6gDbAa2AsAWAAoFNqyYuNyQ/0dl7/Vz3HZoxcWiJyvue2srrqZdxZP7pnKG/aq6lv556T/9ohtYX1kS/jWcEcKUzCyv7SrbFtKBAHxqF/nOLI6cruIOLJN3jXc799PdmWfsm1ZlXkiqo8cCdtCX0+YyBZ7VcQ2WRi53VkdvpV+/fv0353hyNHovuKXfCro1PekN+PeMLx7hgETGpKeHhJqTEaGKac9aqocO3bO8PaMzUifkcpb2o+bO8ayGT6JLzzYgMpCAlasCDDxCYV8oiCIlvP7G32TRrLHMzPxGokzPXuSxxBx/nzYgsSFBKwIoDqdChke3UkXze5xjR6z00tIBwABBErqOz8aHlj738dRAHy89fMv4mHvA+VRpwAfFAACOtebyxDlAZBCAYAvpWQeycojIwABNF3Q4Jgf2xAABBsKFG5saGIJgoVNDlwkUHbcjU1vNGL5IoQxVEDhx0xoypkPizAuw0Utz9NuwkTzpcJVyrMws11NtF1mivILTbUZ1mWV1SQ3X2OWrcx5pi+LtjKO6UxjDmMZw0TmVPwsuubmMpV2M64tH8RQRD6FGKox263b9f0YyyxmM5HpTPOL1GDORzOZNx+dRa4CosUc0WgQJTpy9MhZeT94avJGTZ8yJ++SD43u6TcaAAA=");
 
 export default CarCircleBolt;

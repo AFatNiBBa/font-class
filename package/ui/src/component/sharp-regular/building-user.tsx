@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-user` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-user?s=sharp-regular building-user}
  * @preview ![building-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/building-user.svg)
  */
-const BuildingUser: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M48 48l0 416 96 0 0-112 96 0 0 112 96 0 0-416L48 48zM0 0L48 0 336 0l48 0 0 48 0 311L317.1 512 48 512 0 512l0-48L0 48 0 0zM88 88l80 0 0 80-80 0 0-80zm208 0l0 80-80 0 0-80 80 0zM88 216l80 0 0 80-80 0 0-80zm208 0l0 80-80 0 0-80 80 0zm120 56a80 80 0 1 1 160 0 80 80 0 1 1 -160 0zM584 384l56 128-288 0 56-128 176 0z" />
-    </Icon>
-);
+const BuildingUser = createIcon("building-user", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcgAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCCwsGAAE2AiQDCAQgBYMtBzQbDwXIjsQ4JvGLKEzi4fu1Ps993R97ZhG7VjGSAvK7isCRQnQBFPJXbCoyiqZC3uf/mnpRdg34jQ7pelUaRVEWFbg3gYmFt200oNlwNlGctakcNkSUGxwaBfKEkGHLD1tOkMc/cU0d6Vb6GVfLh8afurpCUpcBiDYAmLZmxSLfWqIl4qfaa+InCxAQ00ApkCFDDwEmygR6yJXI5YKWqNX8f2BJAFGPT0sgRzN24hggB0ljnrdt28T8alNRV81X1+LmDSlLRURYWH4WlclFc3UwKVZ6m2OjYhVUyClaCHlzFCvtI1Y9mPBx3Pued8e+G/+h16pVq1dVYk0UfZ62efqXn3f/bMjVh0xsdVQ89FBZGzr0wlBjTL+pOgo9NHTNmqW0cq7f2/rfzu9VZ8ZU9pw6tadSYo+OjDlvPCW8xDMgEHxuVXzY0nri341FAn98WLi79i1dSE/RKIEgG1gbaGO6AFgTmEpxWh/hiwLJRo3wrhXXBQjNCJDUaxYg010bAXLNBghQp5dRAtRrtkIm8iahg00TJBXHQGa0syDXwUtQZ6LvkvU6RKZtmq5oP3tZZ6/orF3lsMFDy/HlZVPXFUhJyxPK296+p8NQPxy12xGHnbTLTvucXMTjFmVOOWS2RM/yQ6VhBhuqNF75uPO5f7VdjjthnyMO520mKN8P9nVantwPgYSSw9UliUjV79E2SE0BAA==");
 
 export default BuildingUser;

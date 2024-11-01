@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-divide` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-divide?s=regular square-divide}
  * @preview ![square-divide](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-divide.svg)
  */
-const SquareDivide: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm224 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM136 232l176 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-176 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm56 120a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const SquareDivide = createIcon("square-divide", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABewAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBgsGAAE2AiQDCAQgBYMtBzQbCgXIngV2y0eIh6I1eojaptGxKH4XYxHB70ebfXKuaIbk0ojaiDQNjXiNZo18iSxaoYQPlQz1WzWm+2HQuYli0okjKCAoIEXAwtSx8LW50WGEYhAYZDbfkqtJU/s+/5d7fs+PDvADn8ChjDUDGZPGWppAYr28OKGxwDJNwNqdzbEdTPukNQqS45vjdIKWfVpBp7xtf3iZPzR/bZul6BUAWQIA1x/kEvgYMiS/Y+Sn2yCQ6wCOYKioOICBS7iCA3iOgKYJQ8YR/wMJAmQC8uAFNEziEXgMoIGiN55qR6tYne1yXlHaJZUbg5NNlWfbudky2a39y3I/5bnct8HJzropWa7OXXLvzSvLJl6sbfCcbdGUb0teOiO9jJ2S5Cr3Z6HVWQhfacGzjPv97h/9a/mFq08HxTUohmtK/sjLsPxOUSfLask1SJZL/g2KPdhbSC3ol1pfpCij+sx7hC1nR8eXAwThx+8vahcv/ZsSDuDPh//zz8g45FvZB1MKCPX4+FTlG+SbAABKRmDMNwTFQ3xyrXNeCYgZBBQTZgRUu1QYaGYcw0B3iB8DE2bcwZUmRqypVlDMeQ6qM8ZAs+YddJd8Jiespfoa7Sn0Ty8hbqHYPnI7XBShYUtl3IeMq1HaNkwjNGKGo2jRq8eQZk3aDRlkQCIzrFt8Bsd8EXFzcCERdNy9P1zUbMCgdr16eJcoup8wGZlPN4PNIZgn1BSFFPlzle1+DwAA");
 
 export default SquareDivide;

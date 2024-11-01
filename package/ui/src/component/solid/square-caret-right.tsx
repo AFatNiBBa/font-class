@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-caret-right` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-caret-right?s=solid square-caret-right}
  * @preview ![square-caret-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/square-caret-right.svg)
  */
-const SquareCaretRight: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 96c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320zM320 256c0 6.7-2.8 13-7.7 17.6l-112 104c-7 6.5-17.2 8.2-25.9 4.4s-14.4-12.5-14.4-22l0-208c0-9.5 5.7-18.2 14.4-22s18.9-2.1 25.9 4.4l112 104c4.9 4.5 7.7 10.9 7.7 17.6z" />
-    </Icon>
-);
+const SquareCaretRight = createIcon("square-caret-right", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABXgAAAHqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBIQsGAAE2AiQDCAQgBYMtBzkbqgTIHoex22RJF81QPq5EPPy/3fftc6ta1f3p+pIimBGUgxhm40gIQkezJlT2kpnwLt9q36e/+eedRwE+jiC0PTSQBbbneQKJdXl/CX36ts4TxW/uaql5iO4nraUsyePFPF4OyON2tirSzQTny5vGX9o5R1KXAYimAJi6bNFCX/wSv0R8V4n4znwExFRQCmTI0FGACTKBjnIlcrngl6hU+D+wJICoBl8CufBDIzEBkIMk5Xn7FvVVjfKl9VXFtlv9Il71aognfV60TXGz78uejeJ5/9cdssWnWi6OK62vtY643uZ6qyVxVbdXTV/93dVWPl9XNKPZgykeNGtWTFE0k2edvF+0b5uXf37Z+GeNv/zzpW2OFUAgyN4b1X1dkwn/1NYn8NtH/18fV/klvkivUCuBIBtQGWB1fAGMDsBOcVQ342SBZKAEeNUG1wQIBQIk1QoBMh00FSBX6C9Alc5GClCtsEgm8jqhpTUCkgYHQGaU4yDX0oegygRf2dVaRuY45LGT/7a4WRqauVYOHTSkHFcOY43yBTzNx5fTWp+jsdaXdm21z16HbbHZDocVctBC74g9ZlnwTCcqDTXIEKVxyuXsfnupLQ46ZId99uYl45X7rT6O2t19yUyAOYwvSURqfvn4gW4pHn57");
 
 export default SquareCaretRight;

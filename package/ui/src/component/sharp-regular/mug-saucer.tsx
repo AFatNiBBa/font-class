@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mug-saucer` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-saucer?s=sharp-regular mug-saucer}
  * @preview ![mug-saucer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/mug-saucer.svg)
  */
-const MugSaucer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M432 80l0 256-288 0 0-256 288 0zM144 32L96 32l0 48 0 256 0 48 48 0 288 0 48 0 0-48 0-48 32 0c70.7 0 128-57.3 128-128s-57.3-128-128-128l-32 0-32 0-16 0L144 32zM512 240l-32 0 0-160 32 0c44.2 0 80 35.8 80 80s-35.8 80-80 80zM24 432L0 432l0 48 24 0 528 0 24 0 0-48-24 0L24 432z" />
-    </Icon>
-);
+const MugSaucer = createIcon("mug-saucer", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABZAAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBRwsGAAE2AiQDCAQgBYMtBzEbyATIjsQ4JvGLKEzi4cnu8c+d3RfsizGx2UF9UonVB9SBRSuXv2K+h2DM/zX1go6ODvDbhXsUnkVrPT+rWj2fwJ6PorxFy4azieLMW45ZkrJfkhVN0uOVPX6doIy/47oa6Xb6AtfKh8bvOrpKUisARAsAzFi3aomPvolvIj7//3Xic4sQEDNAFihQoIsAkxUCXZQySqXgm/j/f/4PzAQQDcjjJlCiAeZhKaAESVmWjTu3qNdrTcu19Vq1LxWpSRTRdGdVr0QKUW8aEVGPj6d92OvJ1A/mVmuqejUkXx/wdNd7/Z8avZ0g9zSPqHo+0+KZP/9i7xdePIaM3H3YcNEQseHLb5YtnzW6Vhs9a3nu/nXO+ZGsxZ61EWv3tPj5w+AP16E/yEBcd3rK5q+3NZ/8V6N6At+9g3r3/9+ki+kZNJJAUAz+f7DN6SIwM4AwxVk9jS8KJNOU5F2buCFAqBAgaaASoNBZCwFKlUEC1HQzRoAGKqsUomwstLGlg6SJE6Aw1jlQauNVUDPZx0EDbaLwJd4T+K9cylyNzlmURwwdnifmZaoJ7sGm2Ul5W+1/NrQG4Ki9jjnqtD12O+C0Ik5aEp9xxFwLn+OHshGGGi6bKB8Xz/vX2uOkUw445mieZ5J83+7vrD08AMtJgJGvAKXVkaojZ/YNObXjzK49JwE=");
 
 export default MugSaucer;

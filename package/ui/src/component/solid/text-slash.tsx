@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `text-slash` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/text-slash?s=solid text-slash}
  * @preview ![text-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/text-slash.svg)
  */
-const TextSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L355.7 253.5 400.2 96 503 96 497 120.2c-4.3 17.1 6.1 34.5 23.3 38.8s34.5-6.1 38.8-23.3l11-44.1C577.6 61.3 554.7 32 523.5 32L376.1 32l-.3 0L204.5 32c-22 0-41.2 15-46.6 36.4l-6.3 25.2L38.8 5.1zm168 131.7c.1-.3 .2-.7 .3-1L217 96l116.7 0L301.3 210.8l-94.5-74.1zM243.3 416L192 416c-17.7 0-32 14.3-32 32s14.3 32 32 32l160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-42.2 0 17.6-62.1L272.9 311 243.3 416z" />
-    </Icon>
-);
+const TextSlash = createIcon("text-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABcgAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCAAsGAAE2AiQDCAQgBYMtBzEbAQXIjpQu7hIP3+t6PfdJ+8fWmkFmxo44gNQlnasw13/SYgW8mZ9bO//X1IuyowP8RocWZdfWWOC9Kp7AdEB78/XzvYFE4WyiuN3ZnkmiXWppkU1y+na8HhvI45/ssgrpkfQp7iofGj9q7zJJwwxANAPAtDUrFnmzPuojPqlFfGIBAmIaKAUyZOgkwESZQCe5ErlcUB+1Gv4HlgQQdejpEshRwTYcBuQgyfJ8cJPO1UrjfHW1Umx4sdXDrY/FC20fa7M91kQ12sX9rR9o/UDbh9p2jcc6PNq7iIgibra6v1W7WL3qQkRciK5RjZWxel1RLYaa89agWo3b7KfGhTYPFkWMiMWxsvurzV79udunuz/V+9aAX1//f8kXKtXi+ws9YY81Bu5f/87XLz4w8TVzvnrz6P14TfOPPpqyztG1L10S8JBTyuM2zevRZgRFTa5fbxKdp/H5+mtsvc57gUBw58he27Y0nfhbg2oCP9z69U88sqZ2upZeRQMJBNnA2kAb03kFMlPcM4rTusM3CSTrZOhaG3lQgFAgQFKnECDTUTMBcoUBAlR0MUqAOoUVMpE3FFrZ1EDSyDGQGe0MyLXyBqiY6IO4TqvIHE1wE+GZlzpborMWlcMGDy3Hl9Mci77DpckJ5bLe93To6Adr7XbEYSftstM+JwVz3KLslENma/QsP1QaZrChSuOV29X96tV2Oe6EfY44nOeZoDzv9nVa798PrIRYh1uSJCIVP1zEJw5uO7EXAA==");
 
 export default TextSlash;

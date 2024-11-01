@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `faucet-drip` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/faucet-drip?s=sharp-solid faucet-drip}
  * @preview ![faucet-drip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/faucet-drip.svg)
  */
-const FaucetDrip: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0l0 44.8L384 32l0 64L256 83.2l-31.2-3.1L224 80s0 0 0 0s0 0 0 0l-.8 .1L192 83.2 64 96l0-64L192 44.8 192 0l64 0zM128 192l32-32 32 0 0-44.6 32-3.2 32 3.2 0 44.6 32 0 32 32 32 0c88.4 0 160 71.6 160 160l0 32-128 0 0-32c0-17.7-14.3-32-32-32l-36.1 0c-20.2 29-53.9 48-91.9 48s-71.7-19-91.9-48L0 320 0 192l128 0zM448 416l27.8 48.7c2.7 4.8 4.2 10.2 4.2 15.7c0 17.5-14.2 31.6-31.6 31.6l-.8 0c-17.5 0-31.6-14.2-31.6-31.6c0-5.5 1.4-10.9 4.2-15.7L448 416z" />
-    </Icon>
-);
+const FaucetDrip = createIcon("faucet-drip", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABcQAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSCEwsGAAE2AiQDCAQgBYMtBzIbFQXIHgd2ow/rcZEsYfHLiuB7W2m/P7NXp1kxjJg5AsJQ6UWSnZkjc+pYkBo43gSpfU/m3saLU89zHgrgGwVtbFqa87EA1257XoGCjjGtVgpYwWpaAavfTv4M3CB6A4N0+SVpN9ywuUAen2dXVUiv0s94ED80ftXBVZJGGYBoDoDpa1cu9s37eB/xUy3iJwsRENNBKZAhQ2cBJskEOsuVyOWC91Gruf9ABBB10HYCOSo4iLOAHCRZnvcc3KpaaZKvqVaKjcLaEGuiTxRxyT5ZRK9YFRGrI6K6amC/gdWI6Bu9Q1SjP5/0y+RXiyIiLrV9XhTxxaxvp4gh1e3DRwx/5mLrp8Td7i+OS+1G9mho3vB7d3uofT0Y+oXGpkk7PwoA4aORZ7BpF76u4cUM9o9/DFaqYWb8/HPMLF1UanrzZtNemrx+3eSqiy5OffcG8pj6gUx+T/2YN0Ag+LVnS7Y2m/R/fTWBj5/9O/4V1b5JUgPqJRBkg2qDbEogEQCAFGf0SBBIdsqgjcaeCxAKBEjqFAJkOmkuQK4wsEJFV6MvqFNYKRN5I6G1zQiSxo5DZoxzkGvtU6iY5DujTuvINI7SF+rDFz9HIrMHlcOHDCsnlFNfoZWI8L0Ty22p3xnO9TdL7XHUEafstst+pwR2wmL7tMPmrNDZvqg03BDDlCYoj6Pb+WvsdsJJ+x11JPQzUXlf6+fMurq/URPgjiCmJxidqnu2n965+9TgXSf2HwM=");
 
 export default FaucetDrip;

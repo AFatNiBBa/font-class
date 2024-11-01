@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-8` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-8?s=sharp-regular square-8}
  * @preview ![square-8](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-8.svg)
  */
-const Square_8: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M400 80l0 352L48 432 48 80l352 0zM48 32L0 32 0 80 0 432l0 48 48 0 352 0 48 0 0-48 0-352 0-48-48 0L48 32zm184 96l-16 0c-39.8 0-72 32.2-72 72c0 15.7 5 30.1 13.5 42c-18 14.7-29.5 37-29.5 62c0 44.2 35.8 80 80 80l32 0c44.2 0 80-35.8 80-80c0-25-11.5-47.4-29.5-62c8.5-11.8 13.5-26.3 13.5-42c0-39.8-32.2-72-72-72zm-16 96c-13.2 0-24-10.8-24-24s10.7-24 24-24l16 0c13.3 0 24 10.7 24 24s-10.7 24-24 24c0 0 0 0 0 0l-16 0s0 0 0 0zm0 48c0 0 0 0 0 0l16 0c0 0 0 0 0 0l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0z" />
-    </Icon>
-);
+const Square_8 = createIcon("square-8", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfAAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCLAsGAAE2AiQDCAQgBYMtBy8bKwXIHoexm6UWk/5j4SQe/n9N8r4/k2x2sgyzAIwFVGzLikAhC5dT21NZHdsc0a9XY9DQXxDNzjVGiNK7iWue//nTAybxo0RT5CI1EiPifAIT+5tFa3PawGY6AdtuQyY4g26sGORyEDG0GaJryOP1eFGF9Gr6DS/wh8a/untIUskARDsAzNuyYZWvGtGI+LX5CfGrFQiIeaAUyJChlwAzZQK95ErkckEjmk38DywJIKrk3hLI0QLXcBeQg6SS5y079uncv15pnW+uV4ojKUutIovW+4t6IVKIeuuILCKKje0x3xi63bj79uphbxLisxG/7wyveG34Daa3etQQxJvdc6DEvSjChN2LsN563IODn+ls7nbSooinu3jc6xr1ev/32t1//nb4Ny+c2St4e+3dM2YsSbCxxr7oentPO5i3MWFCm25//1CNzYfaldod2hzVT7+mzSC70XbPus6d17UTnaEdGEuRqabNk0+2CXLJt6gBgeD9r9u1p+3M/2tI4J8vH/6Kmo34Kr2HmgSCbGRzpJ3xFcRXAgCQ4rL+8RUCyTkV8q6tvCRAKBAgqSoEyPTUToBcYYQAFX1MEqCqsEEm8pZCJ7synLRyDs5MdgvOdfIRXDHTj5GqTpGpH6s87OcvaXENLJpWjhs9tpxeTssSp1G0H59RbqtDL7u2YTDTYWecdtEhBx1zsYLOWxW/5JTFK3CRLyqNM9pYpenK49q982aHnHfBMWecpklmKO/7h7q87j0MjEQIx8tLEpFqL1gbNRUAAAA=");
 
 export default Square_8;

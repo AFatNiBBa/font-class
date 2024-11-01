@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `excavator` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/excavator?s=sharp-duotone-solid excavator}
  * @preview ![excavator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/excavator.svg)
  */
-const Excavator: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 432c0-44.2 35.8-80 80-80l256 0c44.2 0 80 35.8 80 80s-35.8 80-80 80L80 512c-44.2 0-80-35.8-80-80zm64 0c0 8.8 7.2 16 16 16l256 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 416c-8.8 0-16 7.2-16 16zM416 160L576 0l64 0 0 320 0 64 0 48c0 44.2-35.8 80-80 80l-112 0 0-48L576 336l0-208L416 288l0-128z" />
-        <path d="M128 0L96 0l0 32 0 128L0 160 0 320l384 0 0-96 0-56 0-8 0-2.2-5.9-8.3-96-136L272.6 0 256 0 128 0zM307.2 160L160 160l0-96 79.4 0 67.8 96z" />
-    </Icon>
-);
+const Excavator = createIcon("excavator", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgwAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCHQsIAAE2AiQDCgQgBYMtB04bPQXIjsO44TuyxVKGeIyH/9/Pt33ufT/9APAKjAo4aXkIQDHJghxCByxk1kiSo5PMqu/zf029eH50gJ+P4NCisBKvN9qeZz6fwECrqW1WPrDZTHG7s62QZO2TJLWRHJ8dn88RijQ3P6WJ9FaCF+h/AOMfI54iackAohsA22tH9vm+HvUUvzY+Jn61FwGxA5QCGRnjAmySBcYVShQKQT01GtSj0SgJICro/hlUMA0340FAAZIkF8VEy1DHWFtTR1GlQ62nWttahWgN0RFgDUY1Sq3HhPdEtMWx+GBhxKW1HfHJ/AsT7847v6o9Pl1wcbLttYGOeGPo9cH2eLX/2trRWlukEEKOWyOihtDR8TMudl/8b7prePS7knM85jIf5tXrNEtqzj3rOT0rPngFzrzMATvP6Y4qV3fTfXU1olrzt3XWqXeic67rA5S3cfIyM4++zTKPPupPH3zgMSAQPP3kuzvOdW36v7ktgb++/G/l5sb36bEUmiUQ5EWNRU6nx8ATA8ikuMcM5ZsEsq0y/tR2rwsQWhEgqWgVIBvTLUCh1UIBmkxaLUBFqyOyKFqEfmcaSNrdDrI1HgaFfh+BJpv8kFT0R7Y7xmqYZ1/inh7dPapcvmRZuaEUCyprSlQa3FguS/PuCQ3zYa1r3OoWd7naVa53V4ffYV/2bjfbo2G7/VBpuSWWKW1Qbpcfl1dd7Q53ut6tbsnDbFSe9+a5R28/H9SESVeYm2UiRe65+r7/H/y7br1j8Q1u6Bv4uwoA");
 
 export default Excavator;

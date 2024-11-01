@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `envelope-open` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/envelope-open?s=thin envelope-open}
  * @preview ![envelope-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/envelope-open.svg)
  */
-const EnvelopeOpen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M232 23.9L35.4 169.5C23.2 178.6 16 192.9 16 208.1l0 8.4 1.6 1.3L232.7 394.5c6.6 5.4 14.8 8.3 23.3 8.3s16.7-2.9 23.3-8.3L494.4 217.8l1.6-1.3 0-8.4c0-15.2-7.2-29.5-19.4-38.6L280 23.9C273 18.8 264.6 16 256 16s-17 2.8-24 7.9zM16 237.2L16 448c0 26.5 21.5 48 48 48l384 0c26.5 0 48-21.5 48-48l0-210.8L289.4 406.9c-9.4 7.7-21.2 12-33.4 12s-24-4.2-33.4-12L16 237.2zM222.5 11C232.2 3.9 243.9 0 256 0s23.8 3.9 33.5 11L486.1 156.7c16.3 12.1 25.9 31.1 25.9 51.4L512 448c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 208.1c0-20.3 9.6-39.4 25.9-51.4L222.5 11z" />
-    </Icon>
-);
+const EnvelopeOpen = createIcon("envelope-open", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABbwAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBbwsGAAE2AiQDCAQgBYMtBzQb8wTIjsK2eZOJkAwX0wWGb0TQWlk9uw+E+lk/C03yJSdGRBgCG5cYHQnkAC2BPv95Pfxzk1RByVcIK8AN5NROgCfwm5M8wbPn/5rP7/nRAX6jQ4uyTI0CrFg+n8BAR0XpG3DZwGY6AdvubGRE015piaXlOHd8rlDnHAqoQLnP3QdX+4fmKxMDQMFXACC9AGDnMDUel9/lU3K/cQR5IhYEyC5gFoEKVGASAdbxCEwSMFATEHyixn/8D2QQgDSD71sANWgCh+AYQA0o+FqwHDGVmhQhoz64mLuXmbZmDBrKfm5LQ0aZGUloxiEjd8RB/TRk2mDcXsmm0aQZJS23xEHDjMNJacggPQ9NQPectuzkbLjsmFJmXTPnd7R3vlnfL7rvw+bj4bJ5Sq0N2p7smlSUScpo06A2teNsSm/z6aPXfEz19N1KD7zePahee7jtpZ7ey6g9e/8m7fp87bo+rZ/Evr6lHkvoi79oXbHdDAgInJcHLUda6//VJQ7Al7M/f4WfERqXC+4RoBUHCFQLDTd5BVAgAABKmtgUIKBIxON37TQBAoQIAihUiQhQMaONADWRKwI0seSPAM1EqXhUa4Doy5+AI6sFvACdQKDvAKgIcytQpZ/KvwjvIL53sRESCl/HvD28WAg75gbpMlhbDmXXvFNT7jnDXhSpVqVBoQKlGgRSJz5uVClCg8N9EePNgxcmBDNXr9szFKpTr1S1KlolFHtvO2nSJzuDxGHUNYcLDlKUwstNhRXVNYXuvgcA");
 
 export default EnvelopeOpen;

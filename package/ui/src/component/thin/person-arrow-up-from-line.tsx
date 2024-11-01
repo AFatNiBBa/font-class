@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-arrow-up-from-line` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-arrow-up-from-line?s=thin person-arrow-up-from-line}
  * @preview ![person-arrow-up-from-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-arrow-up-from-line.svg)
  */
-const PersonArrowUpFromLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M232 56a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zm-96 0a56 56 0 1 1 112 0A56 56 0 1 1 136 56zM122.7 175.7L55.2 315.5c-1.9 4-6.7 5.6-10.7 3.7s-5.6-6.7-3.7-10.7l67.5-139.8c12-24.9 37.2-40.7 64.8-40.7l37.8 0c27.6 0 52.8 15.8 64.8 40.7l67.5 139.8c1.9 4 .3 8.8-3.7 10.7s-8.8 .3-10.7-3.7L261.3 175.7C252 156.3 232.4 144 210.9 144l-37.8 0c-21.5 0-41.1 12.3-50.4 31.7zM128 240c4.4 0 8 3.6 8 8l0 232c0 8.8 7.2 16 16 16s16-7.2 16-16l0-120c0-13.3 10.7-24 24-24s24 10.7 24 24l0 120c0 8.8 7.2 16 16 16s16-7.2 16-16l0-232c0-4.4 3.6-8 8-8s8 3.6 8 8l0 232c0 5.8-1.6 11.3-4.3 16L632 496c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 512c-4.4 0-8-3.6-8-8s3.6-8 8-8l116.3 0c-2.7-4.7-4.3-10.2-4.3-16l0-232c0-4.4 3.6-8 8-8zm51.7 256l24.6 0c-2.7-4.7-4.3-10.2-4.3-16l0-120c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 120c0 5.8-1.6 11.3-4.3 16zM597.9 138.6c3 3.2 2.8 8.3-.5 11.3s-8.3 2.8-11.3-.5L504 60.5 504 408c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-347.5-82.1 89c-3 3.2-8.1 3.4-11.3 .5s-3.4-8.1-.5-11.3l96-104c1.5-1.6 3.6-2.6 5.9-2.6s4.4 .9 5.9 2.6l96 104z" />
-    </Icon>
-);
+const PersonArrowUpFromLine = createIcon("person-arrow-up-from-line", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABpgAAAKfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0yDAwsGAAE2AiQDCAQgBYMtB0AbkwXIHge5SetKKE56Mj2ZU3yFEC1bZm6f1l0rClRVrfjSJMIiHA6JqgphwSJ0FfLAIvy//7zc67kf4guEicb218QT3XZOtnIZuoGTULrMf38q53IeCuC3DIKgvKRjTuo+3/O8Aj1f28amVqRWsIpiDZr3HMzKC20XKPEbLfjkM+cVuHO+NP6ZrZCqCgAxAADYuSjOxUNNr4NetZ5AfMgGAbELYAqhQoUxBNZxBcbwTIGiCOr4/1/5D2RAANEG7+0JCjrwgldAAamt8ORyR4TKJuXLeWXGTkn1tveR54Fpy+vQ59gq2SGQ6c2bDeg4zFJSUl6yalg3ltN1jJSeBJXSms44pIy2oyX02OS2pgfd6zeMRAtAkZbAhT7HjU5OU1Z1Clo3qEEprVNvsFQqkebQBiaMq9v38nNoVeeGuVRCJ126IXXpS93PVGef3LbFm1tBQFxcgCCmNiiv7++vlUHZeLLLnx9V1OyV5MLhmzduD13//ElTVM+5aKq8oWrmNwjeUtS1YgL6o0L9hBt8S3Bl+8VrI0iBqQas4AiiO3vtEf9NHhSqiQnYxJLdlsjU5JLCclQ391aj8BLFeylR9e3QFJ4meR0QCH5+R9UrE7+KpBzA3/uXX5BPtx44C5wz0CFBUC3+D0RNLgAKO4BoxhjcR0YYSI8u+6f2eBAgdCFAatMlQGWUCoGiywICDROiEGjT5QRXFDHCiNoSpR7XqLJmFhUjHqGGdU8jbUaCi1QxzsQ/iinS6njqMBYWHMri2WBeLgGfYPYnsNkG3zG1zo/uRZt+fUa0atFppEYOyY2P6pU2RqT6ISZMsFBMPLa6dFtRxv1DhqlCv3T9IAnY/h5fY+Ot/aiZw+NckpaSSDOwFwQ1Dg31jweNDgQBWxkEaQAAAA==");
 
 export default PersonArrowUpFromLine;

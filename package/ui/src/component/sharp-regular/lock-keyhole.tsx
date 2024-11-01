@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `lock-keyhole` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/lock-keyhole?s=sharp-regular lock-keyhole}
  * @preview ![lock-keyhole](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/lock-keyhole.svg)
  */
-const LockKeyhole: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 48c44.2 0 80 35.8 80 80l0 64-160 0 0-64c0-44.2 35.8-80 80-80zM96 128l0 64-48 0L0 192l0 48L0 464l0 48 48 0 352 0 48 0 0-48 0-224 0-48-48 0-48 0 0-64C352 57.3 294.7 0 224 0S96 57.3 96 128zM48 240l352 0 0 224L48 464l0-224zm200 80l0-24-48 0 0 24 0 64 0 24 48 0 0-24 0-64z" />
-    </Icon>
-);
+const LockKeyhole = createIcon("lock-keyhole", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZgAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgViBXwsGAAE2AiQDCAQgBYMtBzMb4gTIHgfO+SmOyk6oRU3Ql3j4Z63ffTOzX1ZQnUMSW9ylQzJtfKJ50xKscojkbWYMXsgNEUL8bv6vqRfPjw7w8534oUVhaWNhxbKeT2Bi4ZUis4FNJ2izdrofXhH9JkkKkmHzhskOsrgTUyC5lcDV+KHxV0dXSBRSANECABOXL57r86/4FfGj9oL4YTYCYiLIBVKk6CLAGKlAF5kcmUzwK2o1/g/MCSDqyIsTkKEOi7EKkIFElmUt88aWpUIlW+auL65+0SviSVdRjIgHfZ4OXyIUi0KIUiUgFTv7Ph73cVpjni+plCuiHLE0RDGm4Di1R1OLpn/axs+rbGVZTPDQBLFsa4vz8ycQVA37pap6LW2oTlAYMnnBgslDCgP2bwDplw1+fZlfoaqDCTrA8yAQtK4t6bi++Zj/DaUE/Hn7zNm1z/E5aUKDBARp31pfa+IzMDGAn5TEMT3iMwKJ2TL0rmXXBQhFBEjUKQqQ6qyFAJmiPgIUdDNUgDpFi6UiaxTaWFtAouwgSA1zFmTaeAYKxvji1mkTqV6xWsF+65Km1ejUVfnA/tV8VN5tyJyq0H5xdL4s9zxmB3phq2322+eIrbbY6UiFHzI3OGqvaSNsqi/KDdRfVW6UfLt9u36ZrQ45bKf99oVlRsvP6z0dG4/vBS0hlINkEgmRlC+802/31pPvGwAAAA==");
 
 export default LockKeyhole;

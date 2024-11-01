@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `melon` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/melon?s=solid melon}
  * @preview ![melon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/melon.svg)
  */
-const Melon: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512c-38.5 0-75-8.5-107.7-23.7c67.1-5.8 149.8-48.2 220.8-119.2s113.4-153.8 119.2-220.8C503.5 181 512 217.5 512 256c0 141.4-114.6 256-256 256zM74.7 436.8c-19.1-19.4-26.8-55.8-11.9-108c14.6-51.2 49.6-110.2 102.7-163.3s112.1-88.1 163.3-102.7c52.4-15 88.9-7.1 108.2 12.2s27.2 55.9 12.2 108.2c-14.6 51.2-49.6 110.2-102.7 163.3s-112.1 88.1-163.3 102.7c-52.1 14.9-88.6 7.2-108-11.9c-.2-.2-.4-.4-.5-.5zm-51-73.1C8.5 331 0 294.5 0 256C0 114.6 114.6 0 256 0c38.5 0 75 8.5 107.7 23.7c-67.1 5.8-149.8 48.2-220.8 119.2s-113.4 153.8-119.2 220.8z" />
-    </Icon>
-);
+const Melon = createIcon("melon", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbAAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBVQsGAAE2AiQDCAQgBYMtBywb0QTInoexY6JJRCKzK+GtRFA/9tu7dx8R75A0qUW8RCIl0SxUUqUUhkoJGDQO7wfxR6kJSotzo1AZ11Rf7xWCP/83ex5FUYDfKLSxaWkgY4LM/TyBRKbnBR51d2BnegJ25i0zilLul2Simcm/xx6/DqhYYKwGM/nJcAh47R8afxBXDaTeBoAYAQAcPgR4YfWVvBJy8D8FxDc8QEAcAlhB0NCwgIAdjAILmKyAUoIf8v+f/gMpEEB0AdcmKHRwDZ4AFEitmASlBTmZuZmCy1M5ghrddzwOAi4MJhTGcGm76nkYGNwf0qUzYrNisWByo9YX2K45aLloOmt4qV5BKkjwOLlx2PA5CWly23Td9T3VHaXy/Xz9Xw5jD/FvYy6q0NkRFHT3pp9hDpcZ8eYKF0y6/wp6dbe05Oe2tCR6C578CHoLOL7W7yX4ArB+YSzAfR6AQHD78lyJ1/KbjZMB8Dv/+Bnhf5UB+QXokSBoa/+aiExAEgCAjFzIJxBIxxjhHgPeQEDoQ4DUpU+AZh4fAkqfVQR0LDFCgOdvMIpiR5gQtUAa8AyabSWgTJgAHTt2tC4TwRhSZECQP7o4Zwk5TVE9bV1qTo+BSUUJXocW1Cyq5uaCGu0iVppU2WJES5At0ExeZo4Uzhri5IsoPdp0UeaoO35fDxYjU5YEaVLbGAv0vqoqV69XI4UBMNcJ+QTeZE6JSU5LBQA=");
 
 export default Melon;

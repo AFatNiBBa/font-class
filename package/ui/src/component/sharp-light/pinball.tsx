@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pinball` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pinball?s=sharp-light pinball}
  * @preview ![pinball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/pinball.svg)
  */
-const Pinball: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 128a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-160 0a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM76.2 348.9c0 0 0 0 0 0l282.2 90.9 4.9-9.2L137.1 239c0 0 0 0 0 0C110 216.3 69.7 219.8 47 246.9s-19.2 67.5 7.9 90.2c6.1 5.1 13.2 9.1 21.3 11.8zm-9.9 30.4c-12.1-3.9-22.8-10-32-17.7c-40.6-34.1-46-94.7-11.9-135.3s94.6-45.9 135.2-11.8l246 208.3-29.6 55.7L66.3 379.3zM72 288a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Pinball = createIcon("pinball", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABegAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBQsGAAE2AiQDCAQgBYMtBy4bAwXIBuLJv6peY2YB9OJMTXaSFtFBzKTU+v7HqeeZFgrgt5AF5WUs2hqKLQ+OzsEVKHCp9QlcsIW1imIvt22I+Mwa9Y9QOAMjm6U0FtRGdRtY3n2ovCGZOaAwGgAAiQIAABp069SG8y/lpcht7wjIbVoBAiANAXAIoAENpCEA1EYjQBoGBxgMAi/F87L/QAcCAOJjeBIFgAH8wGBgLABgAFBYY8JTU6OCQ2246RpqQ4ZtK5lX/EDa1hIHS+VnhsxMFdlcbH/o4iJ7kzcyI2lD7p6QRUX3pWySzjNFZKYMkETpGiF38/hwgUa9xNr4pH0JeRnbbOvVjpXoIuVlYLcSFZzgcEZ2XlTeu6zbQ2+zvZ5+/enTa70e25FyBa70Hp2cPLr3lSspRCN70KGnAJDck+a8OgdA/ZUz40xyUoP5h7bGP35ctcjywkEdf367zwMqDbI94zt0iJ+VACBX3fXbov0ia38LClUAvD754dN+p/fPeyXnVR4QhAJAQJf2StNbzitE2Iq8aiYBsvEXCaDojWVIw1jnWgkhcJPCRwhpUokiQwilyJJBlTN8hNAJjZhghDj6cJMijAmkqcpUMsRxiCy1uZb7iBMNaiagmH96eU1Jpsk+V6FseVfTSRunBT16vV7LGYfFA/lYCXyCoYxjLJMZwmBG7CDkibSppjCGpiqpCT/EUYGylMdRE+fcm/W6Eli9SSQIf6z7LrVw4dPiBNSzS+BEMahW5JBCgSj/+BFjvx0AAA==");
 
 export default Pinball;

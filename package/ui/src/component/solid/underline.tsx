@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `underline` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/underline?s=solid underline}
  * @preview ![underline](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/underline.svg)
  */
-const Underline: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M16 64c0-17.7 14.3-32 32-32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-16 0 0 128c0 53 43 96 96 96s96-43 96-96l0-128-16 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-16 0 0 128c0 88.4-71.6 160-160 160s-160-71.6-160-160L64 96 48 96C30.3 96 16 81.7 16 64zM0 448c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32z" />
-    </Icon>
-);
+const Underline = createIcon("underline", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABdAAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCBQsGAAE2AiQDCAQgBYMtBzAbBQXIjsQ4JvGLKEwi+H6t9/vcmd0A0FQUMCtgcoBYPhtJ7HBVSL+KTX359WbIO/709+78L/wb8Pmn7zDX+ccx+esazfMEOs+7tMsTygLLrEvA2p3tmWPRimdpkSUcFzs+D8jjQXZSiXQvVXElvWn808FJkgYZgGgOgImL5s31qS7qIr7XnhPfzUZATASFQIYMnQUYIxPoLFcglwvqolbD/8CCAKKMv9QEcuTYiF2AHCQpz6e3a1Rqki9sVGq47Fi7iDuNGsWFNrccbX2zYcMQj3o+Hvqy95NuEQ3jfNvbcaydyfs15t38P+M+LLQW78CamI17d3evNK/8p7qxqtmRpmc523S1pmfPNs3c5o6qX6kcPRrWP6o5tZpJTK5WJxciqlVlQjmDHFXkeSAQvBr/o7yq2Zj/6zdK4O+bxp+RWl18ShXUl0CQ9an1sTw+QXwSAIAUB3WPTwgkKyX8qo3dFiA0RICkrKEAmU6aC5BrqLcAJV0NFaCsoXkykTcQWltRQdLYHpAZ5hDItfYUlIzxOStrHZmrSY4i/fTSp2lo6rliYL8BxahiWBPZewQ6Hl1M+z0OhllPuGmjXXbab4P1ttiv2L3mlgfsMM3Cp/qgwkD9DFAYpVjubq8vtMFe+2yxy854ymjF+aCHg/bmnnCZBBh0SZVEpAYvGw==");
 
 export default Underline;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `star-and-crescent` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/star-and-crescent?s=light star-and-crescent}
  * @preview ![star-and-crescent](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/star-and-crescent.svg)
  */
-const StarAndCrescent: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 256c0 118.4 91.9 215.4 208.3 223.5C151.1 444.4 88 357.6 88 256S151.1 67.6 240.3 32.5C123.9 40.6 32 137.6 32 256zM349.6 17.7c7.4 2.9 11.5 10.7 9.8 18.4s-8.8 13-16.7 12.4c-4.8-.3-9.7-.5-14.6-.5c-114.9 0-208 93.1-208 208s93.1 208 208 208c4.9 0 9.8-.2 14.6-.5c7.9-.5 15 4.7 16.7 12.4s-2.4 15.5-9.8 18.4C320.6 505.7 289 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0c33 0 64.6 6.3 93.6 17.7zm16.6 138.5l.3-.5 3.4-6.9 5.5-11.2c3.5-7.1 13.7-7.1 17.2 0l5.5 11.2 3.4 6.9 .3 .5 22.2 45.1c1.4 2.8 4.1 4.8 7.2 5.3l49.7 7.2 .6 .1 7.7 1.1 12.4 1.8c7.9 1.1 11 10.8 5.3 16.4l-9 8.7-5.5 5.4-.4 .4-36 35.1c-2.3 2.2-3.3 5.4-2.8 8.5l8.5 49.5 .1 .6 1.3 7.6 2.1 12.3c1.3 7.8-6.9 13.8-13.9 10.1l-11.1-5.8-6.8-3.6-.5-.3-44.5-23.4c-2.8-1.5-6.1-1.5-8.9 0L335 361.7l-.5 .3-6.8 3.6-11.1 5.8c-7 3.7-15.3-2.3-13.9-10.1l2.1-12.3 1.3-7.6 .1-.6 8.5-49.5c.5-3.1-.5-6.3-2.8-8.5l-36-35.1-.4-.4-5.5-5.4-9-8.7c-5.7-5.6-2.6-15.2 5.3-16.4l12.4-1.8 7.7-1.1 .6-.1 49.7-7.2c3.1-.5 5.8-2.4 7.2-5.3l22.2-45.1zm6.5 59.2c-6.1 12.3-17.8 20.8-31.3 22.8l-25.5 3.7 18.4 18c9.8 9.6 14.3 23.3 12 36.8L341.9 322l22.8-12c12.1-6.4 26.6-6.4 38.7 0l22.8 12-4.4-25.4c-2.3-13.5 2.2-27.3 12-36.8l18.4-18-25.5-3.7c-13.5-2-25.3-10.5-31.3-22.8L384 192.3l-11.4 23.1z" />
-    </Icon>
-);
+const StarAndCrescent = createIcon("star-and-crescent", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABtAAAALgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDYgsGAAE2AiQDCAQgBYMtBzgb6gVRlO5JiewjITex+qaEOLYNpdzxJh6+nwv/3JfsFoBSZnREjtB2KgwQCA9foqpeH37N/TexP3FPQ0xPKlIh1IvsEmbNvNG0mpW0qVPPcx4K4CQOylq0zp8zQEJzEkYgm0M0agWraUG8Cn3b0KGjCK+FRFlE4wmN1Ql5PIusEulmesH58qbxt2ZOkeQZgKgLgLGL58/0+id+RnyvPCC+m46AGAcKgQwZWgowQibQUq5ALhf8jEqF/gMLAogyuVICOcr4gb8AOUjyPN+3xBb8VK6TTVO5hvkdAz6n/tqfpv87npmf0Y/JmXXrmmZDU+kJTUCkoq1z7zR/w28LOyPvjFg3RTXUAQc2nQMbbAByWLd1gcLQSm9PW2EFQSPWSAgYHFvX7HbYAdRjw1oB4NPZ2HBcIQMRCPZmFmnUNhlQ9EB/4UJoKxpFCutOJxI4jsXgxo4jgziO3G44w2fGs1roZf6FBO7BXxKyz6o6PNVdMmjwdrXDzSr3L8E31Q68Wd2iksHZGRgwZ2cMlCpdxntwW+4hwrLLSXr0NHUtCz2kfGtYAhA30jQdy+WO0wzCCg3HNBbWeGNObut/zgKhn3al46iihdL4fvPuWI9P+vb9hPXumNdvfMmjCo4rtesnLHBO/0b5nDfWCI2Nabhi2+V5J9XzX8chtuvadbshOv5Xz0nzL911FwgE989O2be6TuMfFU3g99P//6BvUeU1KukMVSUQZD0qWSsSQUQFAAApDmmXIJB8kJNXremaAKE6AiRl1QXItFBXgFx13QUoaW2gAGXVzZeJvJrQ0MqGJjXtRTODHEZzDd1DS0b4ZJc1jCyy+bjk/5Upkyw0cazo26tPMayYBlQIVjYNhxfbepdDXOgKuzbZbZcDNtpgqwMG2Wemd9BOkzx4og8q9NVLH4VhiuP4XllkwD77MTsWznXDKf6+q4tD/PquYCVC2Y8vSUSq9/L8Pdfu2tBz/b6N+184AAA=");
 
 export default StarAndCrescent;

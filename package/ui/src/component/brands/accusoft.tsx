@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `accusoft` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/accusoft?s=brands accusoft}
  * @preview ![accusoft](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/accusoft.svg)
  */
-const Accusoft: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M322.1 252v-1l-51.2-65.8s-12 1.6-25 15.1c-9 9.3-242.1 239.1-243.4 240.9-7 10 1.6 6.8 15.7 1.7.8 0 114.5-36.6 114.5-36.6.5-.6-.1-.1.6-.6-.4-5.1-.8-26.2-1-27.7-.6-5.2 2.2-6.9 7-8.9l92.6-33.8c.6-.8 88.5-81.7 90.2-83.3zm160.1 120.1c13.3 16.1 20.7 13.3 30.8 9.3 3.2-1.2 115.4-47.6 117.8-48.9 8-4.3-1.7-16.7-7.2-23.4-2.1-2.5-205.1-245.6-207.2-248.3-9.7-12.2-14.3-12.9-38.4-12.8-10.2 0-106.8.5-116.5.6-19.2.1-32.9-.3-19.2 16.9C250 75 476.5 365.2 482.2 372.1zm152.7 1.6c-2.3-.3-24.6-4.7-38-7.2 0 0-115 50.4-117.5 51.6-16 7.3-26.9-3.2-36.7-14.6l-57.1-74c-5.4-.9-60.4-9.6-65.3-9.3-3.1.2-9.6.8-14.4 2.9-4.9 2.1-145.2 52.8-150.2 54.7-5.1 2-11.4 3.6-11.1 7.6.2 2.5 2 2.6 4.6 3.5 2.7.8 300.9 67.6 308 69.1 15.6 3.3 38.5 10.5 53.6 1.7 2.1-1.2 123.8-76.4 125.8-77.8 5.4-4 4.3-6.8-1.7-8.2z" />
-    </Icon>
-);
+const Accusoft = createIcon("accusoft", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAABqAAAALPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SDCgsGAAE2AiQDCAQgBYMtBy8biQUjEXZqDiqR/SMxNuZ5VNAiBiIX9+vsvFIvJo8lwfO8f9m57/+ZiTDI+gXwT5ZQBWCwFKrtWKncKiKw3e+2G+8STigQCz2y8p3ff+Ka+nH+9IBF/kjR1IEx0E6ewABfF9g2guFswD6VDc6bDyuCIekCzKiRrdigrnoLbFHfVD6NWAnFlgAAyAAAAK0H9u3Ow2/yTeRtwzXIoysgADkANAIMYICmCAALg4CmmDRgMgm+SUMD+w/UEABIo79WATCBDZwElwCACUAxymy2IL8q1BZuDhAfChkryABZ5vQ6vdZN66N11+kNDXiWSSD1BE9rHJT88KxnoAQyz2QGPP19oSI+T6kbcPtRmnO++j7HBFrIelR/NGRZiN/pdfmq7rV+hEiu/n63iLs+6SjUnN460oCEmnKcS53eoqtYdno1LHVtEF/xtfbPFN3lQ4pnGumM84O4E05Hnf4X/3bCW1o/EZGC1jBn9K52RJ6O6j8+poPZ6gjoEydvntQAYA9zKMfoYfFEr17dts6BhXscMGps3pnbd27rtiUlxQlffi1Z8utLwqDRs6MdjRs13upAPo7pvbFdSOObv3tUF+0U/QMOLVV379y5m3d05cpJZZ2ZvWL7KPuc1k2ysqzWEjXbNLSQd+vV3bOvv7bSeYcePfTGf/70+VH++GVcABAgiFxba0ZGWv+DQhUAP26r4Z5suIFaqU4DQRQAgbEbsgxTSyuAtiIzm8cCCfCTEKAcZNDPhvETACIERJhiF4IZmhCFmUJkYjbNKWYanumLQSoY4WQ4EFPCzMYMJSzCTE6uYDYWLwo7pxhHK3escc+KycMdknD7fTo/J09X6NK2gD8AGWm9UjfW0hZwY+nwIBPMNMM8440z2bwEOkf3xnzTdahC2vsiLV+OPFoF3bl3Vh6QcOeYyzHFYvddKunhozQLqmenQ1OhUxZoUigQFfTPXObeBgAAAA==");
 
 export default Accusoft;

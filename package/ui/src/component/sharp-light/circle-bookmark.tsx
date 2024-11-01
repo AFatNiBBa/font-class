@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-bookmark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-bookmark?s=sharp-light circle-bookmark}
  * @preview ![circle-bookmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/circle-bookmark.svg)
  */
-const CircleBookmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm17.8-218.6L256 281.5l-17.8 11.8L192 324.2 192 160l128 0 0 164.2-46.2-30.8zM160 384l32-21.3L256 320l64 42.7L352 384l0-38.5L352 160l0-32-32 0-128 0-32 0 0 32 0 185.5 0 38.5z" />
-    </Icon>
-);
+const CircleBookmark = createIcon("circle-bookmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeQAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCBAsGAAE2AiQDCAQgBYMtBzYbCgXIhofn7fo691V1D6AamxkUS9Ey+tHKCK2eOvU856EAvlHQxhw81nk693kFKtaLd4mVagGraQWs1k23fJLPbUle9JKG7Ye1bpDHw9FLiXQjvYJztafxjRbOkOQZgKgPgPFLF872xBfxRcQrlXuJV8xEQEwAhUCGDK0FGCUTaC1XIJcLvohKRf4DCwKIMvY+gRxlbMIeQA6SPM9btarXrFapTr6kVqnmymenR7zY/04n+t0x7YVJz814acBdcXLg3TNfnprenxvx+sSn4+SEp+a8tuSdWa+Me8KJ8U/OfnXx0i6du3SKYRFRK8SIRT279Zwbs6N78PWaNYXQoap+1XftX9nyispNT/Si99fvjBz5zte9ez1hRqT7i8nOc2Fk64kTW4+8cH4yHTVug49asuEztzuRk8/2r/gV7/nb337VxUMKxc2Fh3QBAsGnd509sLbeqN+q10rgq4d++En7FVWeSFIVqksgyHpVelmVQCIAACmO6JAgkKySw6fWdlWAUBMBkrKaAmRaqS9ArqaeApS0NViAspoWykReQ2hs9QBJbftBZoijINfY3aBklOfTssaRhRoRKMRDL3aKhSZfKvr36VeMKJYjnYwerJyOLLbVbkfSSnd02mKvPQ7ZbJPtDhnkgNnFYbtN8eDJvqjQXx/9FEYojqfP15fY7ICDtttrj54zUnE/7OaIv707jISoA7SSRKR6P3Kk3gELAA==");
 
 export default CircleBookmark;

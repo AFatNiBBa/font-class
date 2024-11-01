@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-r` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-r?s=sharp-regular circle-r}
  * @preview ![circle-r](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/circle-r.svg)
  */
-const CircleR: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM160 128l0 24 0 112 0 96 0 24 48 0 0-24 0-72 42.9 0 61.3 96 57 0-62.7-98.1c35.3-8.3 61.6-40 61.6-77.9c0-44.2-35.8-80-80-80l-104 0-24 0zm48 112l0-64 80 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-24 0-56 0z" />
-    </Icon>
-);
+const CircleR = createIcon("circle-r", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfAAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCGgsGAAE2AiQDCAQgBYMtBy8bGQXIhofvdb6d+yR7fuQwKKkAABcIW0Js/2y3XG3t+b/m83t+dIAf7MQOJRorQSK9lvF8AgNfe+mJbA020wnYzF1tj0ma7idpEUkevz2+HCGPt+J2FdID6Wvclj80/tLJ1SSVDEC0BMCUVcsWeL8xGiO+qr9CfGUeAmIKKAUyZOgqwHiZQFe5Erlc0Bj1uvwHlgQQVXjFBHJUcRBnATlI8jzv0qVni1qlWb6yVinW3TQm4o0hL7g8+PnRrxc3jn1z6ItxxbCXxr1VS78tivhu2kdxxdQPF3678uf5X09+3+UpHyz4ZsVaQQhRC+AsrJCVK+Oxfk/Fo32fHFmsGNdxU7t7XG57d1H0erLlk//0/Hrn1+q3jfmLP99/ftSo59//868xpiKHv5/hdu4Y13XatK7j7rh9Bq2yselSR9Rw2GYdDdbRbP2M32SMiVu8mufdYuWOlrs7HJqMzGLNr7++eUR1BOKymx5r/semFuP/b6gl8Pub//2n/Irq7yfpSTRIIMj61/tbn0AiAAApTuqVIJDslMO1NnWvAKFAgKSqECDTRUsBcoV+AlR0N0KAqsIymcibCG1taCBp6gjIjHQB5Np6CVSM95lX1TYyr6N9hn7zJcy00Ixl5ZCBg8ux5bRSGUci0/y4clvsfTL09aGDdjrkoON22G6P4wY5akF4wgEzV/AMX1QaYqDBSmOVx6373SvtcNQxexxyUBcZp7zv9nZyPboPKQkwh8oliUgNn3OkAUcBAA==");
 
 export default CircleR;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gavel` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gavel?s=duotone gavel}
  * @preview ![gavel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/gavel.svg)
  */
-const Gavel: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 432c0 8.2 3.1 16.4 9.4 22.6l48 48c6.2 6.2 14.4 9.4 22.6 9.4s16.4-3.1 22.6-9.4l112-112c12.5-12.5 12.5-32.8 0-45.3l-1.4-1.4 81.4-81.4c-15.1-15.1-30.2-30.2-45.3-45.3L168 298.7l-1.4-1.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112C3.1 415.6 0 423.8 0 432z" />
-        <path d="M273.4 9.4c12.5-12.5 32.8-12.5 45.3 0l16 16c12.5 12.5 12.5 32.8 0 45.3l-4 4L437.4 181.4l4-4c12.5-12.5 32.8-12.5 45.3 0l16 16c12.5 12.5 12.5 32.8 0 45.3l-120 120c-12.5 12.5-32.8 12.5-45.3 0l-16-16c-12.5-12.5-12.5-32.8 0-45.3l4-4L218.6 186.6l-4 4c-12.5 12.5-32.8 12.5-45.3 0l-16-16c-12.5-12.5-12.5-32.8 0-45.3l120-120z" />
-    </Icon>
-);
+const Gavel = createIcon("gavel", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABfQAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCCQsIAAE2AiQDCgQgBYMtB0YbIQXIhof/Xyu771d1D3YQK8CoiEgBobBjE1ZxWVIr1Jy1BLqmTj3PeSiAD+DZE0OhsTg0Vsc6L+A8L0hpbKtQC7xMa2D128knxaBkk/T8rusyTO6GzQny+Dm7rkJ6k37Co/w/gPGr7q6TNGQAoh0A5q1fvdTX1mhN8VP5jvjJEgTEfFAIZMjQS4CZMoFecgVyuaA1lSWtUZYFAURVfpIMVJFjL04BcpCEyPPpA5oqtXxdU6Vx/6umiHudO8cLlzt1irXRNV414etr4nnj3S5d4mVc6do11kUnTK6Py51nxQse1thXiG3Y9dHt0jJ8TVAoA5fdrH9Lu5bf+/207yftPryuUXtdulOr3Zng4EETjHSY+fx5r2uE0652p0zG8eN+SzsrV1i7UPsVK4Xl/UAg+OHfi6e2t535f31TAr98+fPf+kNSfk1SC+olEGQjy5G2JJAIAECKc/onHiOQmS4pj9rspQChEQGSqkYBMj21EyDXaIQAFX1MEqCq0WqZyBuETrZ2kDQ7CTKTXQC5Tt6Cipm+eVWdIrM20lbIz17cYoQWrSrGjR5bTC+OmUYZEJ4mZxRsbei52DHMbbTPccecsdceB50B5JSl4VlHLabgRb6oMM5oYxWmK8TlM7cOvFNOO7hn5NPMUNy3hzpH9x/m1pMA498plREpspo2W0dGaa3YFhjtBA==");
 
 export default Gavel;

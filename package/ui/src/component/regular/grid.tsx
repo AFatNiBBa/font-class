@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grid` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid?s=regular grid}
  * @preview ![grid](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/grid.svg)
  */
-const Grid: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M88 72l0 48-48 0 0-48 48 0zM40 32C17.9 32 0 49.9 0 72l0 48c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40L40 32zM88 232l0 48-48 0 0-48 48 0zM40 192c-22.1 0-40 17.9-40 40l0 48c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0zm0 200l48 0 0 48-48 0 0-48zM0 392l0 48c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40zM248 72l0 48-48 0 0-48 48 0zM200 32c-22.1 0-40 17.9-40 40l0 48c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0zm0 200l48 0 0 48-48 0 0-48zm-40 0l0 48c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40zm88 160l0 48-48 0 0-48 48 0zm-48-40c-22.1 0-40 17.9-40 40l0 48c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0zM360 72l48 0 0 48-48 0 0-48zm-40 0l0 48c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40zm88 160l0 48-48 0 0-48 48 0zm-48-40c-22.1 0-40 17.9-40 40l0 48c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0zm0 200l48 0 0 48-48 0 0-48zm-40 0l0 48c0 22.1 17.9 40 40 40l48 0c22.1 0 40-17.9 40-40l0-48c0-22.1-17.9-40-40-40l-48 0c-22.1 0-40 17.9-40 40z" />
-    </Icon>
-);
+const Grid = createIcon("grid", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAAB6gAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXCFTwsGAAE2AiQDCAQgBYMtBysbygbIjsM4hvxiKkO8RDz8M/d6X5JSfoEHlE0xkgJSzL6Vc1V1QyN6ZncmQf5krn2f/8s9P+AD/Hyga6Os1tZ8bI3GmtTrebbAjhqbEsqyiBOirJ0pSKTfJH3iEsqwvXYXyOJdPFZB8ib5iUfpQ+O3Pu6QqEgBRCMA5m3ZsEp3T/RE/ChH/LACATEPFAIpUvQXYKZUoL9MgUwm6Ily2f4HFgQQlejiBGRoJRYQK0G7K4nmLKvpGwKlirpss/8N8x1CHhGl2XdbI54TN9pelEpxr9eriLjZ/jLPN42TlPKScItzAax93G19bscBipuY30GNjiEdjR1/BjvMlitjyczs/9/USVfTWE1dnU1jNXXWAcd8wY6v2jw0p4MydfT/5+yQuOXTyD/1MoXf8joQCKrWl5/taZj5t7qUgF9d/8vPK/dEd9KBagkI0pHlkXZGN1hkAOEkLhsCrMGWmqEZvWutlwKEHAESlXIBUv00CpDJjRCgwkCTBKiU2yAVWY3QalcEiVrnQGqyqyDT6jOoMNOXUKXWSOVJlQb1O5t5MYcWrSrGjR5bTC+GaUUTETm0zyim3UMvu7JhStdhZ5x20SEHHXORweetil5yymKEXvTdwjijjVWYrljO3Zo3s9B5FxzrG9fnmaE47x/qMq49TPkSJDheSiIhkuzZAA==");
 
 export default Grid;

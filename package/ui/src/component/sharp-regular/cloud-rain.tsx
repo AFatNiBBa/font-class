@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-rain` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-rain?s=sharp-regular cloud-rain}
  * @preview ![cloud-rain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/cloud-rain.svg)
  */
-const CloudRain: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M368 128l0 48 48 0c26.5 0 48 21.5 48 48l0 48-48 0L96 272l-48 0 0-48c0-20.8 13.3-38.7 32-45.3l32-11.3 0-33.9 0-21.5c0-35.3 28.7-64 64-64c21.6 0 40.7 10.7 52.4 27.2l26.7 37.9 38.8-25.3c7.5-4.9 16.4-7.7 26.2-7.7c26.5 0 48 21.5 48 48zM0 320l48 0 48 0 320 0 48 0 48 0 0-48 0-48c0-53-43-96-96-96c0-53-43-96-96-96c-19.3 0-37.3 5.7-52.4 15.5C247.3 18.8 213.9 0 176 0C114.1 0 64 50.1 64 112l0 21.5C26.7 146.6 0 182.2 0 224l0 48 0 48zm96 48L55.1 436.1c-4.7 7.8-7.1 16.7-7.1 25.8l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8L96 368zm160 0l-40.9 68.1c-4.7 7.8-7.1 16.7-7.1 25.8l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8L256 368zm119.1 68.1c-4.7 7.8-7.1 16.7-7.1 25.8l0 2.1c0 26.5 21.5 48 48 48s48-21.5 48-48l0-2.1c0-9.1-2.5-18-7.1-25.8L416 368l-40.9 68.1z" />
-    </Icon>
-);
+const CloudRain = createIcon("cloud-rain", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABlAAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCYgsGAAE2AiQDCAQgBYMtBzEbYwXIjsN0OyvTPJsgOcXD83Z9nfuq+qN6jBq5BlIEK5uV0BvK2TqWUiFivgeHTFzu/G3T+zZ6tDFt6bYJspr7PAskwI+61y7anmeBZZqAdbXu4Icc2s6H5jPk8Xrcoka6N32Em90PjR/0dAVJLQMQHQAwf8Oa1d75Nr6N+PD/F4kPrURAzAelQIYMfQSYJRPoI1cilwu+jf//F/+BJQFEEx9MXp6jGTfjEUAOklqeDx/QtWuXeq1tvr5eKw4I9Xiy6509RdEm4uFhw8I/eP+o54a9OGJMzIy76xOxnfWi/VD40MjGlKjuusFvLXlh+DN9xBOyvoewbu2GtXcQ984khjzd/e7eOy/ttr7eM3udaoq1AxsdGj/10f6PnJhb+ZHqy4+z5OKTlQ5f/C3dFB07PtKh55MOerp99eVXXU68XVWssKXRuESe1vdE20d/9V/7bl7t3ty+Uu0YN3whzh1pl2Qff1kd5yftjnQWeqR33nlHEz4PAsG21z95R/tZf7XUE/j+NWS/ov/fSVIDLRIIstH/j7Y1gUQAAFKcNzBBILlajf+ubdwlQCgQIGlSCJDprYMAucIoAWr6mSxAk8IamchbhS62VWzSxik2M8UFNtfF82zNLO/GTbpEBpkiXInXhWlLmsDifeX4sVU5oxztKCRg463NmeViY/h5OTECN9rvhOPO2mevQ8428NNWZ+ccs2QKW+yLSuONVSnNUG7u3z2+3j6nnXHICcedbWYqj3eGOz89fwS2E59zgkqSiFT8olAfc/oAAAAA");
 
 export default CloudRain;

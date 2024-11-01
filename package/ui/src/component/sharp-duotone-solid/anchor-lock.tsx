@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `anchor-lock` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor-lock?s=sharp-duotone-solid anchor-lock}
  * @preview ![anchor-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/anchor-lock.svg)
  */
-const AnchorLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 352l64 0 0 128 0 32 32 0 192 0 96 0 0-64-64 0 0-208 32 0 32 0 0-64-32 0-10.9 0C367 158.8 384 129.4 384 96c0-53-43-96-96-96s-96 43-96 96c0 33.4 17 62.8 42.9 80L224 176l-32 0 0 64 32 0 32 0 0 208-128 0 0-96 64 0L96 256 0 352zM320 96a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M496 272l0 48 64 0 0-48c0-17.7-14.3-32-32-32s-32 14.3-32 32zm-48 48l0-48c0-44.2 35.8-80 80-80s80 35.8 80 80l0 48 32 0 0 192-224 0 0-192 32 0z" />
-    </Icon>
-);
+const AnchorLock = createIcon("anchor-lock", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCJgsIAAE2AiQDCgQgBYMtB1IbSgXIhofv13o793XP1E93GF6AUSUKCJddqiYLCA4AHZFQUytZre7p7935t00f8NlfjnOfr8Jl4Z7nCXTetmxsDbiE0gytwXmDDzmUKbRfoExTi1u1SE+lH/FA/D+A8ZcRbiXpVQCI/gBYv3v7Nl93o5vix+Z94kdbERAbQBYoUGC0AKsUAqOVMkqloJuahm40TSaAaIvhgtNG73ojrgBKkCSpLPsPWziobvUpd9Wt6rhQR8TVoY9Xdw9+1KoQL8x8bekH018ZI+oQVUTUUVe1EHWfmBk13lx9NvH5Ga8ueX/ay6NfWh4bNtSzr90VO453Bkc8Wt099PG4OuyJ+p4hj5nwav9X/xn/46kf/ffWvHnz1pmn75139i2MZnpg7DrZv//JXTFP9rWur2VH1sW7OrKc11nn14bHnPqeQT2vvtrppHsG3VMvtuVfdRyxzuHDqmBt0/dOXlUxFYj73rzjxd8P91v1f0+dwB+f/ven5unm69RJr6JHAkExq5nlQOoAYwfwo1LcZELqxIsIFLZI0k/t7XEBQoUASVslQGGU/gKUKjMFaBlrsQBtle0KUfYSBjs4gKS3a0FhiSugNNh7oGWVbzJtg6OwfLLVkX/9MrZMoc3z8vw58/KKvFvVKfZJDKZX5svBtJsWXdPhXqdcdskNTjrhrBsm5HW25W900ZYjYrMvyuabY55shfy48dLYhTPXud7Zbe35LCvl78NpbjoePB0uJgEWaFtRQaQoBvkLc7bPcGY7454hS83FAgAAAA==");
 
 export default AnchorLock;

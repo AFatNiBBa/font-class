@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-bounty-hunter` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-bounty-hunter?s=light user-bounty-hunter}
  * @preview ![user-bounty-hunter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-bounty-hunter.svg)
  */
-const UserBountyHunter: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M80 0C71.2 0 64 7.2 64 16l0 248c0 1 .1 2 .3 3l-.2 3.5c-.8 12 7.5 22.7 19.2 25.1l114.6 22.9c16.2 3.2 36.1 3.2 52.3 0l114.6-22.9c11.8-2.4 20-13.1 19.2-25.1l-8.3-128.2C370.5 62.2 304.1 0 224 0C170.5 0 123.1 27.7 96 70l0-38c8.8 0 16-7.2 16-16s-7.2-16-16-16L80 0zm21.1 193.1c7.3 4.5 15.8 10.5 24.4 17.9c18.8 16.4 36.3 39.1 41.2 68.5l-70.2-14 4.7-72.4zm98.5 93.1c-3.3-45.3-28.9-78.1-53.1-99.2c-13-11.4-25.9-19.7-35.6-25.2c-1.1-.6-2.1-1.2-3.1-1.7L208 160l0 127.7c-1.3-.2-2.6-.4-3.9-.7l-4.5-.9zm40.4 1.6L240 160l100.2 0c-1 .5-2 1.1-3.1 1.7c-9.7 5.5-22.6 13.9-35.6 25.2c-24.2 21.1-49.8 53.9-53.1 99.2l-4.5 .9c-1.3 .3-2.5 .5-3.9 .7zm41.3-8.2c4.9-29.5 22.4-52.1 41.2-68.5c8.5-7.4 17.1-13.4 24.4-17.9l4.7 72.4-70.2 14zM341.6 128L224 128l-117.6 0C117.6 72.9 166.3 32 224 32s106.4 40.9 117.6 96zM134.4 384l179.2 0c54.4 0 98.9 42.4 102.2 96l-105.2 0L241 410.3c-9.4-9.4-24.6-9.4-33.9 0L137.4 480 32.2 480c3.3-53.6 47.8-96 102.2-96zM224 438.6L265.4 480l-82.7 0L224 438.6zM25.6 512L144 512l160 0 118.4 0c14.1 0 25.6-11.5 25.6-25.6C448 412.2 387.8 352 313.6 352l-179.2 0C60.2 352 0 412.2 0 486.4C0 500.5 11.5 512 25.6 512z" />
-    </Icon>
-);
+const UserBountyHunter = createIcon("user-bounty-hunter", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABpAAAAL7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDDAsGAAE2AiQDCAQgBYMtBzkblQUjEbZqLiqR/SPBtlWzNguNxhvNjQPFxsY4LJZhOGhjIQYI4UJw6CSyeRI8z+f5nfvyqqQd5sMZGOmIaUdA/ghcQl7PSl6DBB/7tX3/7nBtqhmvppHGEBKpkAjlSiCZlkATTSZ/f7O5QXrYmNpWivxfgGv4Ok80kLiJc53vfDTAsk18aNFUSbMoHfVHn7/Ai6Q3+YMNlB7oFX5vkRmdZN8kqcmkx2fJP92Ajp3RIwC1k1zB2vSh8qDeIhSdAgBAygAAQLO1pRl71/jLkMf/O3JlCgQgkwAOAQYwQDYB0JBBQDbNAZomeBn/f/MfCBAASA70PRQADSywH04DgAagRNK6pdJh2w5HU0NFrEBMJ6yA2XuTjfjyEX6rJ4fbk3I0EnJg9Gp8Rd3zZUW21m5JNb3NKcdzEpL09mSK7Gg7kbpFVtRYgmwpSK0liCUrqvLtTWUPpW/LtotdZ28FSdGT7knTMgP2ZJ0z5Y7ndJcsRzAlIUdaugvVLXuNGjcypYl3Y0cbN/42ptwevuxsL1X8RKET34o93rjC5q69LPABF0RTtNSkVDZuT0qlVNGQr8/Wrc/LKdWpNC9LSl6W2dezLz42bgyj9aA+1T7wYVYfMMEQfIVU1Ym+7w9BwM1Ale/vYFVUoaU7f1xkdWvisYZbp037in59TtPPL/T837bT/sOLdUfiusRirstI6l586PesvWzZsq4sO269NW3VxLSw5/mn8Ve8cNpENgAECK593O26OvzKiQqA17svH3z7/4FfT05AmAIgMHr+PX1iDzD4AECkYpomZmQEKNvlAyiI2iJNhYkCK0EmbMhSCNZMFeCAXLWoyePdpEg6grD1BViJmggbapsLa7ZTcEBD96IgO0h1ZZSN+SwmzsRrwD3kDFau6tR3hrXMaiAVdxs400rHNDtTDq4yzHjjTDHUECNNqaBJOqRTjRXnQNeIHLFABCRA3N2KCYwmmWxkn5fvk4L1gaXml9ugK0Q6pJJIiMQ44nKl97JwysxKm9cfAAAA");
 
 export default UserBountyHunter;

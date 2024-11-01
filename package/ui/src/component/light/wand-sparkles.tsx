@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wand-sparkles` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wand-sparkles?s=light wand-sparkles}
  * @preview ![wand-sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/wand-sparkles.svg)
  */
-const WandSparkles: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M472.8 0c-9.6 0-18.9 3.5-26 9.9L169.9 256 136 256c-22.1 0-40 17.9-40 40l0 27.1L17.7 393C6.5 403.1 0 417.5 0 432.6c0 14.1 5.6 27.6 15.6 37.6l26.2 26.2c10 10 23.5 15.6 37.6 15.6c15.1 0 29.5-6.4 39.6-17.6L391.1 192l24.9 0c17.7 0 32-14.3 32-32l0-26.4 55.3-69.1c5.6-7 8.7-15.8 8.7-24.8l0-.5C512 17.5 494.5 0 472.8 0zM468 33.8c1.3-1.2 3-1.8 4.8-1.8c4 0 7.2 3.2 7.2 7.2l0 .5c0 1.7-.6 3.4-1.7 4.8L419.5 118c-2.3 2.8-3.5 6.4-3.5 10l0 32-32 0c-4.5 0-8.9 1.9-11.9 5.3L95.2 473c-4 4.5-9.8 7-15.8 7c-5.6 0-11-2.2-15-6.2L38.2 447.6c-4-4-6.2-9.3-6.2-14.9c0-6 2.6-11.7 7.1-15.8l83.6-74.6c3.4-3 5.3-7.4 5.3-11.9l0-34.3c0-4.4 3.6-8 8-8l40 0c3.9 0 7.7-1.4 10.6-4L468 33.8zM256 32c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 32-32 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0-32zM96 80c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48zM448 304c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0 0-48z" />
-    </Icon>
-);
+const WandSparkles = createIcon("wand-sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAABqwAAAJ6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDRAsGAAE2AiQDCAQgBYMtBzQbyAXIjsO44fsSS+FuGSIenmym78+udOeVGcZXmQGCBGUqwAq4TGdoQ1zJlvdFXUFSPQxQhjKxbPN/zef3/BqwSI4OJRqLCiQXHNE2nU+sdKPWDzIb2EwnYNtd2QoP0T4eS0sM8vit7vG6C5TxvoxQIz2pX+P+8qHxoz5uISkLANEZAHM3r1/pk7NxNuLr5iO+thwBMQ9kgQIF+gswQyHQXymjVArORrMZ/gMzAUQdgUugRAs+xfeAEiS1shw5IufcqHUoNzVq1eG7uu+JKuCqR4gN8Qpu6DE0Ho27z+FoxN18PCI2hzvjxnms6v9449EWN9SGeAROjANc6nfNsHhMbuSS/TiPivZveqznI911obIe7dEIwXq8V0QjhOE2VcQGjctecG1vdX7r58F7aP3wcac362+06fL2e136WbnQoN49mk9q9uj9e47UR8c7bse+Ji1wV8fQeQFs57ldijW1kLpOXWJ8PctaFnQfb1PVevBJm1qrg+uXWdDSpr5niPr83v//6Hj2bMcsO9uRpdBI2s+P9vgYYyRshOvsPjN9HQgEV+x8etLuTjP+tkYC59/79W/8GWl+kqS3QKsEgmJEc4QdCSQCAJDiMm0JAsm7auhd23tMgFAhQFJXCVDop7MApcpwAWoGmihAXWW9QpTthO52Nipp70KqMMm1VKm7d6iaGT6L6rpHYcqKISo/kpmLJLRwVx47akyelqc1rFqnlGan521ryGWxZygcdchpp1zioAOOukSQF1mZXuqkRRq80BdlY40yRjZNvm7e79/koItc7KjTTuVNpsvvwyEu04cPBTch3nFOJIlIHS7fe+rAyIu/Fu/EwYsB");
 
 export default WandSparkles;

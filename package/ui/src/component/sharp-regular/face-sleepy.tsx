@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-sleepy` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-sleepy?s=sharp-regular face-sleepy}
  * @preview ![face-sleepy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-sleepy.svg)
  */
-const FaceSleepy: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 464c47 0 90.4-15.6 125.2-41.9c2.7 14.8 2.8 29.6 2.8 41.9c0 4.5 .4 8.9 1.1 13.1C347.2 499.3 303.1 512 256 512C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256c0 37-7.8 72.1-22 103.9c-7.4-6.2-15.1-11.8-22.7-16.7c-5.8-3.8-11.8-7.3-17.9-10.6C458.8 308.9 464 283 464 256c0-114.9-93.1-208-208-208S48 141.1 48 256s93.1 208 208 208zm-91-45c4.1-39.8 43.1-71 90.6-71s86.5 31.2 90.6 71c-25.4-14.5-56.8-23-90.6-23s-65.2 8.5-90.6 23zM311.7 245.7c20 27.1 59.8 27.1 79.8 0l32.2 23.8c-36 48.7-108.2 48.7-144.2 0l32.2-23.8zm-112.2 0l32.2 23.8c-36 48.7-108.2 48.7-144.2 0l32.2-23.8c20 27.1 59.8 27.1 79.8 0zM512 464c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-21.7 0-61.1-20-92.1l20-20c47 20.3 96 59.2 96 112.1z" />
-    </Icon>
-);
+const FaceSleepy = createIcon("face-sleepy", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABjAAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCNgsGAAE2AiQDCAQgBYMtBzIbOAXILgbslmMMKRbrkMWaKqOMPavSHg3DP+Ph/9f+t8+deV+8mTumJdFYZKpHFqG9VNFmVsnksWote+4BONmKAgBHyA7IRSG4sANgzy46OhPX/Ch7/bfnyo2aK3A2oJ2PR9FgA67Ar9CBJzjk5hdpnniAFHNYX4SkvJu45vmff3sbPUoVlT5IgTxVLs4nMMBZePPO1zawmU7AtrjtaklQC20QGjvI4zQmSpBeJQvPw4fGP61GSQQZAIgmALB758YlV6/4HfFalHjjHAQQu4AeBDKQgQ4E2MBDoAMfAzk+gt9gcfEfKAiAqEC6vQTIQSV4CJ4AckAiyPk+jUqloVag4OfWlqQ5n2pb86DhrZ1UndK9m5YfNbcXV+zirTPynDHyS69Scj3oRnWvHTf8Tve1B9H28r7bpuUk9pntbWUgjY270U7NeMpD6jbmVnWa48Wmio2eaGpgzThjXbQuWJFw4jyHy5Z6609rYAEFGfFLnEgwfgTEGXpJmzMR12IZH1KHq1fKdofDxW9gXnmr56Aol+Xu9PsT0cPweEceGc7VML41s503Bc3Zv5Dlbv8PlqSgm+PF1UK+wO/4Lss/dsZt5V0DUt8eACBAwODHUtQnN/4TcAD+7l/5FRXXhCujCgcIyCYKK06ABAEAIEUvlwQQIGkjkN61zowABCkIQCIkRYCMjRoBclIeCFDiJAgBKkhl4aFcAqJX0rEcuQ6WJ1gfy6e3ywpEegyE9MGDQRmC5D/AjKMhcLisx8/bl4Wz1VSjgJVo5yPYYdu1V7bc8Fa12rTqVqNag+4B3ikl7tEidguM8UWMH2++mHDscvF0fa4anbo0aNPqF4nAnvdd9W4Pu2GPkzjnJBIOIslecGvymzcfAQAAAA==");
 
 export default FaceSleepy;

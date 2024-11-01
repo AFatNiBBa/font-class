@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fish-fins` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fish-fins?s=sharp-duotone-solid fish-fins}
  * @preview ![fish-fins](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/fish-fins.svg)
  */
-const FishFins: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 160l48 96L0 352l32 32 114.9-57.5c22.6 24.4 52.8 50 90.6 67.6C266 407.4 298.8 416 336 416c3.1 0 6.3-.1 9.4-.2C499.1 409.8 576 256 576 256s-76.9-153.8-230.6-159.8c-3.1-.1-6.2-.2-9.4-.2c-37.2 0-70 8.6-98.5 21.9c-37.7 17.5-67.9 43.1-90.6 67.6L32 128 0 160zm448 96a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M237.5 394.1C266 407.4 298.8 416 336 416c3.1 0 6.3-.1 9.4-.2L272 480l-48-32 13.5-53.9zM345.4 96.2c-3.1-.1-6.2-.2-9.4-.2c-37.2 0-70 8.6-98.5 21.9L224 64l48-32 73.4 64.2z" />
-    </Icon>
-);
+const FishFins = createIcon("fish-fins", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABewAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBbQsIAAE2AiQDCgQgBYMtB04bDQXIhof3dX2e+57ng2cZvMgUpA4I+1TAXK3SjlISdZE8dep5bFMA3zIIgrYHJucTJLQ79nkFCtgLtb4Bq0uoNbXuzraDQxbFIS3BkuOzHI8TFPF/vkWD9GT6FvfT/wDGLwa6haQzA4geAFixb9cWH7aileLb+lXiW5sRECtBJZCRMUSAxbLAEIUKhULQSnVNK+q6IoBoQ3BmteFz7MYZQAGSJBVFWY7p3Wx0LfY2G+W+t9bc3dwdC2PUobvKT+ePjEWxJ+/Zu2d3TIh98d6G0eCP236Y9kLcOPX5rd/vXXjYl4v3xvgTN/SJeKS8q99jcWP/x5t3933UyKd7PP3biG/P+dZvcx65rFGsX6Z29oIJReOyR86q8aiadiyW1K6Yr+89kr2bG2Pm3vJIzo/cMndM5YUH7u5/xQL1B8e63cEd3XLFUIG47ql+nf8e6774v45mAj+9/cfP/N11Ky1PT6NDAkGeXE92OC0HZAeQpLjGyN4PtRDI5kvCp3bxmAChRICkTSlANlgPAQqlSQI0DDNHgDalXbIoOoU+jlSQdHE5yOa6FhT6eAU0LPZF2qZPZP0StUP83qWt5dCaXdWMqdOrhdWwUiSV4d3mokrsjb/GTkyAo85xqUtc5YzTzncVI6+wpbjaxdbOiDW+qDLDVNNVFqq221ttL0uvcKXz+8r+NotU5+PxrpnPnwBhEjhnGsgykSL3fCrqlBRfcuWUmzrRu1HuJAAAAA==");
 
 export default FishFins;

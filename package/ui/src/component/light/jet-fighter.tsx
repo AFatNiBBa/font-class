@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `jet-fighter` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jet-fighter?s=light jet-fighter}
  * @preview ![jet-fighter](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/jet-fighter.svg)
  */
-const JetFighter: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 32l23.9 0L352.6 176 224 176l0-144zM384.2 208l106 0c1.9 0 3.8 .3 5.6 1l107.6 40.3c2.8 1 4.6 3.7 4.6 6.6s-1.8 5.6-4.6 6.6L495.8 303c-1.8 .7-3.7 1-5.6 1l-106 0-.4 0L208 304l-48 0c-4.2 0-8.3 1.7-11.3 4.7l-38.6 38.6c-3 3-7.1 4.7-11.3 4.7L80 352c-8.8 0-16-7.2-16-16l0-64 80 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-80 0 0-64c0-8.8 7.2-16 16-16l18.7 0c4.2 0 8.3 1.7 11.3 4.7l38.6 38.6c3 3 7.1 4.7 11.3 4.7l48 0 175.8 0 .4 0zM32 272l0 64c0 26.5 21.5 48 48 48l18.7 0c12.7 0 24.9-5.1 33.9-14.1L166.6 336l25.4 0 0 144c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 47.8 0 .4 0 47.8 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16.6 0L392.1 336l98.1 0c5.8 0 11.5-1 16.9-3.1l107.6-40.3c15.3-5.7 25.4-20.3 25.4-36.6s-10.1-30.9-25.4-36.6L507.1 179.1c-5.4-2-11.1-3.1-16.9-3.1l-98.1 0L287.4 32 304 32c8.8 0 16-7.2 16-16s-7.2-16-16-16L256.2 0l-.4 0L208 0 192 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l0 144-25.4 0-33.9-33.9c-9-9-21.2-14.1-33.9-14.1L80 128c-26.5 0-48 21.5-48 48l0 64-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0zM224 480l0-144 128.6 0L247.9 480 224 480z" />
-    </Icon>
-);
+const JetFighter = createIcon("jet-fighter", false, "data:font/woff2;base64,d09GMgABAAAAAALUAAoAAAAABmgAAAKHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDIQsGAAE2AiQDCAQgBYMtBzIbowXIhofn7f79tc/Mvck9854jTOSJ8UlUBDqwaOCKVaqv6e+n/ijrAT7+Ex9KVIOUtWWeT2DgEQG02/lsOJsobmreEwMcmq7vDGX8HXO1SHenL3Cj+9D4zWhXk5QFgOgDwMb99trFRz/EDxFf/P868YWdEBCbQC1QoMA4AdYoBMYp1SiVgh/i///Zf2BNANEWvDKBEm28hA8BJUjKsuysPKRTtbrLfatWPqjK1T6RI/bx9muH89W3u3zY3nFbzhGR8zXD1tCsO0ZEVHHnSMfmCHsV66C1+irIjcOFu4ffPq3rGLl+gd5i0bDbh1dVOPeLcXk668mx90zfN+7IOfaFyguUa2MixzqU/Niw20aJfEJgn0Dn7h158jN9z/wx6Ytjv/D9g6MC6eNvdIWbHnzxxNyiPnGGja3WxuywujgRLzVDlhxjS3vQDz0b7E6onh+oDeYMam85xpIhzUsOW78hGF18+U0zaPCPfqPdtCbW19CUC/sdf6Mjdc48aYYLO50LRfDMzpEDpv45R2MV0rf+JqP1+3bYoOabL4sN+k7xf/j1TYHxisXPGAUEgu5rf110WO+arUOrBH5656+t8of//yhdnp7BUAkExdz/5zo4XQ5MHEAsxbkmz3xRIHlKKXjXLncIEDICJG1ZgMJYfQKUsjkCtEywVIC2bC+FKDvCMIfUIOlyBigscwkoDfMqaFnj42jbsChuXPVtp/5vzLBtG91mWL1wflOvqifzSs29qNT9q+vVjpnn8rpZcKFjneZUZzvG0U5wdktypl0S5zjFtnP0Nn6ottB8jdoq9e7S/dn7OsaZznKC05xqB1mtPj8y07nzrWdBdxLIXGRikohUnXjM2fO+XAAAAA==");
 
 export default JetFighter;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crown` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crown?s=sharp-duotone-solid crown}
  * @preview ![crown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/crown.svg)
  */
-const Crown: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 136a40 40 0 1 0 80 0A40 40 0 1 0 0 136zM248 72a40 40 0 1 0 80-.1A40 40 0 1 0 248 72zm248 64a40 40 0 1 0 80 0 40 40 0 1 0 -80 0z" />
-        <path d="M504 160L384 256 309 106c-6.1 3.8-13.3 6-21 6s-14.9-2.2-21-6L192 256 72 160c-7.2 9.5-18.5 15.8-31.3 16L96 480l384 0 55.3-304c-12.8-.2-24.1-6.5-31.3-16z" />
-    </Icon>
-);
+const Crown = createIcon("crown", true, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABdQAAAHsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBUQsIAAE2AiQDCgQgBYMtB0Yb6QTIjtRWd6RJHiKoX+vt2bf/AkAbIlLAqAA1kUZUUXFsxFUkK+BLZkWG+b/m87OmA/x8wMeH0jWdR+OsEycw0GhumtCE1oY8a2evJEEsSlxCkmHzw2ZzgDz+phOqyK5kcMr/D2B81MIJMjUSgKgPgPEL5sz2ohzlLN5VnhHvzEJATACFQEJCawFGSQKt5QrkckE5q1QoR6VSEECUeDixSuKSqZgPyEEmpDxvXocitarq5PPN7Job5i6YOz/O17zp3NC/6rQo6sSSuNE0Xel8vevNVle73Oh0rfmCijZvT4c79e98bm89P9odWBGzZ1xwsnYnE1tyPOg3pK8j7JJ+Dwwr9Rw+vGdJjvljLNwOBILKrjH/V9Qb9a16rQy8f/71g7tepZyNy+6gugwEqVell6XZOBDUAKJZ7Neh90TdEUi6SsK91nZRgFATATIlNQVIWqkvQK6mngJUaWuwACU1zZFEXkNobFkBmdp2gWSIgyDX2FNQZZSXsZLGkThK5AfxQZc2BaHJ04r+ffoVI4phXpaYhDf9I4tlr9t+Vdeddlpvh+32WmetTfYCudvs5D7bTJkRkz1Qob8++imMUGyXbrX5ENttj019ZX+SkYrz4W72z1t3p1AmMA6wIklEFqnO94xW75tp1gPlBgIAAA==");
 
 export default Crown;

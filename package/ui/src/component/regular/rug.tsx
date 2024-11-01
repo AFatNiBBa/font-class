@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rug` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rug?s=regular rug}
  * @preview ![rug](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/rug.svg)
  */
-const Rug: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M24 64C10.7 64 0 74.7 0 88s10.7 24 24 24l8 0 0 40-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 32-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 32-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l8 0 0 40-8 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l32 0 24 0 480 0 24 0 32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-40 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-32 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-32 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0 0-40 8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-32 0-24 0L80 64 56 64 24 64zm56 48l48 0 0 288-48 0 0-64 0-80 0-80 0-64zM464 400l-288 0 0-288 288 0 0 288zm48 0l0-288 48 0 0 64 0 80 0 80 0 64-48 0z" />
-    </Icon>
-);
+const Rug = createIcon("rug", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABhAAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCTgsGAAE2AiQDCAQgBYMtByobSAXIngNu0zzioVjTfpPSRBK+aUenThgP/6397pvZ3Y+IRZXkmYRXQiUkbyoxUwqHSgn40X7tze4/3RPNN6eKSzPxRqMUyHiEUGieKtGkA8B1/8MGHHEuA9hikW9fnHqe81AAnygYtLFw7q59vheVqvWIdg3DYq1CPa8I1dzVtcZDaT8tCZbk8dvjqzyhiG+PStJXesZDftH40++QpMwAiDYAwPZxTxtuU3j6L/FtBwTENoAxhIyMIQTWSIEhmjFQKAQ//vAfOAYBRAX5aRMoUOEGT4ACJEWhjdrr7Upn1fpVaR456TsKq0A0kGZbzwePI3FbIkWoO1ENSpCZ6OScpdkiyUpCSSEVgZ9tCFw5rl4w6j3b9Xq76owzUpwxzljfWG7TeJ+bl1pGTr1ODuvPfAwBEOYLN/oGOYBAsHl9XUzY117rGgXgdzuuTufpCnUSCPL0/7TRRBuxAiSfYh8BvJNAcqWAU03eBQgNVEgqDZANckChwRSURpScrjTYJ0VhQugyViFpcgrZqgModLmB0pq7fKUrsj/S3kS/BhNaW6QljvOZHFfyskUZFyPTahVvi7H9OBLHTszbsG7XnFlLdhtsW1tpz5pWC23xQSwvI4dV4uPuvdBP+W07lubc+SZV+L4bs29Pj0MRhHBROkm+Jba29xYA");
 
 export default Rug;

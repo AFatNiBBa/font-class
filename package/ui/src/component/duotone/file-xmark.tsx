@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-xmark` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-xmark?s=duotone file-xmark}
  * @preview ![file-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-xmark.svg)
  */
-const FileXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 288c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM104 384c0 6.1 2.3 12.3 7 17s10.8 7 17 7s12.3-2.3 17-7c15.7-15.7 31.4-31.4 47-47l47 47c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9l-47-47c15.7-15.7 31.3-31.3 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47c-15.7-15.7-31.3-31.3-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l47 47c-15.7 15.7-31.4 31.4-47 47c-4.7 4.7-7 10.8-7 17z" />
-        <path d="M384 160l-128 0c-17.7 0-32-14.3-32-32L224 0 384 160zM111 239c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const FileXmark = createIcon("file-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABlQAAAJYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCNgsIAAE2AiQDCgQgBYMtB1AbWAXIjoRyO7KTJJOVF0Npefj/tbL7flWoOgw1IQLFACqjgjKrVsUtgVBz1hLoPry2pNvQLsDmA5nwF1ikRk1c7vzXogdcADhXa4KMSV0053kCnYfboygrkIQyzcAanDfpkEIZQnx2Ioc75HEm69QjvUzf4n78P4Dxqw6ukDTKAERzAExbvniRT3VRl+Lb6mfEtxYiIKaDUiBDhs4CTJQJdJYrkcsFdalapS6q1ZIAor4Yz/j10bvO4iogB0mS8rxS03VAxTfJl1V8sb2A4lbbKSKWbnjTi0KCi9b2GBSiozcHhmjrJMHxqN0HaP2hD2hxoc1YqUSKF32fnkG/7v91tHmZvd1uPkbRNewdOf4BWHT1xPj6P2/pQDG0fvoOur9v/v1e8+22b53vduHChaY3bjS94NWr5qlJ/MMfAPrjj+gf+k6PulC0oEVtrQseREqRhDLUVm1FtV2Ksq1gLdU/jh//Q6fcShzb/gq57firZs6qabGtUCAQPDrQ/7y+Gf7fEBL45fM//21+SKqf4kJ6j4YSCLKB1YHWRAVxQQAAUhzTPSobEcjMk6Sf2tgzAUKBAEl9hQCZTpoLkCsMEKCerkYJUF9hsUzkjYTW1g5c0thBLjPaWS7X2keunom+KNXXOqwn1LyQ9guYPVtg1r5y2OCh5fhyt6vT/ZWityeUl6N9jzXVD960zX77HLHVFjsdgT1kUfWovWYfMbN8UWmYwYYqjVc+Hry0l1E65LCd2+bzXSYovy/2dex4cT94mAQYbn0dGZEiaxngY4NOeFh/kHeebj03Ay4AAA==");
 
 export default FileXmark;

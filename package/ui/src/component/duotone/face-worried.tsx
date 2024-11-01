@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-worried` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-worried?s=duotone face-worried}
  * @preview ![face-worried](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-worried.svg)
  */
-const FaceWorried: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm100.3-69.1c-6-6.5-5.7-16.6 .8-22.6c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1c8.8 0 16 7.2 16 16s-7.2 16-16 16c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8c-6.5 6-16.6 5.7-22.6-.8zM208.4 272a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM161.3 398.1c16-36.6 52.4-62.1 94.8-62.1s78.8 25.6 94.8 62.1c5.4 12.3-8.7 21.6-21.1 16.4c-22.4-9.5-47.4-14.8-73.7-14.8s-51.3 5.3-73.7 14.8c-12.4 5.2-26.5-4.1-21.1-16.4zM304 144c0-8.8 7.2-16 16-16c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2c3.4 3.2 5.1 7.4 5.1 11.7c0 3.9-1.4 7.8-4.3 10.9c-6 6.5-16.2 6.8-22.6 .8c-15.5-14.5-34.8-24-56.1-26.8c-4.3-.6-8.6-.9-13-.9c-8.8 0-16-7.2-16-16zm64.4 128a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M192 160c-4.4 0-8.8 .3-13 .9c-21.2 2.8-40.6 12.4-56.1 26.8c-6.5 6-16.6 5.7-22.6-.8s-5.7-16.6 .8-22.6c20.1-18.7 45.5-31.5 73.7-35.2c5.6-.7 11.4-1.1 17.2-1.1c8.8 0 16 7.2 16 16s-7.2 16-16 16zm-15.6 80a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm160 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM333 160.9c-4.3-.6-8.6-.9-13-.9c-8.8 0-16-7.2-16-16s7.2-16 16-16c5.8 0 11.6 .4 17.2 1.1c28.2 3.7 53.7 16.4 73.7 35.2c6.5 6 6.8 16.2 .8 22.6s-16.2 6.8-22.6 .8c-15.5-14.5-34.8-24-56.1-26.8z" />
-    </Icon>
-);
+const FaceWorried = createIcon("face-worried", true, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAAB0QAAAKjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGCDYgsIAAE2AiQDCgQgBYMtB1QbCAbIhofv7f6/tU/3A9wfZmSMpRBWpFuTCuHU/Z9r6gVIA937PsD5UKIDy6NKJzDgKK8kn8gRzMA2OG/SQXSG9APk8VV2sQrSHekTXGf/D2D8osfFJDUZgGgGwLLtm9d6oxSlFJ+UnyE+sQYBsRwUAhky9AuwUCbQL1cglwtKqVymFOVyQQBRyf5oBipRj0/wPSAHSa4yz1va2lr6bIGutra6ioZ824W1u69sf3jszZ23dj0157a6Wzpubt9yVUfELc5vv7n2yjai87auLnV177Zba1Nxq/vZcbdgvjqfHB3fLot4c+2ndVet/3zF29u/W/7Wus9qr1zzydI3tmxfWb6Teit0RXAJSbnFlrsmRDyVe8c90bNV9LnaK2eeyLB9fZvzuXTHajM/MfzJ5id/G/bJoZ94fahqw7+nvPDEVXf++sjxNaXGxlLT+sbLuTxTXx4gDVhDl/vr0bRuQ9XYq2qOf+TXO6964oVT/vWGVTX0PP3mihVvPt1TY5VdykYOWrmDfEfzUVvgCFy69QOTz/n4fM4vivPP/3jcwQffODh27OCNBx887tr/j4murKqcyaUHT1ly3lL+gEDw1t4JM/drWvhfdV0CP7/0xz/Jr7D8RpKeRLUEgmxieaI9CSQCAJDiVMMTuxHInO0ycfVuFclQSwFJpVrI9GmGXK0JUGHQLOnE9ZtlIq8R2u2FkNQ7ATKznQO5dk9DhYXej1Vqj+zWlt+Y8h/LNKur+Kp5xbTJU4v5RW9JprhbpXp0QTHZMvZU3jIO7nWo4xzrZIc42BFOrrAnWps8xTFWDwmv+m5hmsmmKsxXLK7e3L7NIU50kiMc51hrlgWK7QNjnTrcfRy0J67I6RZkMiJF1v7h5E867bgTTzzikIMnvSXtnS2qDwIAAAA=");
 
 export default FaceWorried;

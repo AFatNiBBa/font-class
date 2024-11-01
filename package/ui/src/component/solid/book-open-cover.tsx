@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `book-open-cover` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/book-open-cover?s=solid book-open-cover}
  * @preview ![book-open-cover](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/book-open-cover.svg)
  */
-const BookOpenCover: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M304 32l0 376L96 368 96 34.7C96 14.9 113.8-.2 133.3 3.1L304 32zM89.7 405.1L320 451.2l230.3-46.1c15-3 25.7-16.1 25.7-31.4l0-345 25.7-5.1C621.5 19.7 640 34.8 640 55l0 366.7c0 15.3-10.8 28.4-25.7 31.4L320 512 25.7 453.1C10.8 450.2 0 437 0 421.8L0 55C0 34.8 18.5 19.7 38.3 23.7L64 28.8l0 345c0 15.3 10.8 28.4 25.7 31.4zM336 408l0-376L506.7 3.1C526.2-.2 544 14.9 544 34.7L544 368 336 408z" />
-    </Icon>
-);
+const BookOpenCover = createIcon("book-open-cover", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABagAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBUQsGAAE2AiQDCAQgBYMtBzYb1wTIrgbsxmKLggXvVNVmGAfYR0Rjr161kCuC7/f77bnvfsQ9afJGx0sUK41mifpCJkRohMRQNZH//67pT3IlkJUpENjWnSowuHYoJAuDdsLMAao9j8IT0eRO9IGiFkGAkEgdAAj+Tye3/fLtIp+nHFCAoeblQ7j4xannOQ8F8DkX4aCsRUsDskBCa3WdV6Aie9pYIsVaRbHmrlY2RbSfJClr5PG8x88OcvxzVUhP6Ql39UPjS+yT1BcAEG0AwO5xnIWbDwoeq0e8WSAgdgHGIBQoMASBDURgCGMMyLLgI17+AwMCiBrQyyaQUcEecAJABkmRGYmuWcSRMKn0MGE7EZwKgo57j7uTJ8lUMo3OBwnSx3H3YTdGJ1OVqMXZwLafFmF0Op0sMEmHEYmJq7arH+X3k3m+1VmvhSV7LLsaepvv5jUs+7IOfJalMcXVdAiYWoljsrL8wKn2j0PK/054Lx+xXmcBBILXxXsvyyL/Mgb4fPn70c6uPkxXqJNAUCxVSyFtg+ADcFKsqIwvCiQ7CJ3Z5F6A0IABSY0GKAySQ9ZgESpGeBln/31EZAGELkWCpMkZFNatIetyDRUbbu0aXUEAxcGB+88lx2Yk2os6bQ4aottA5zHC5M4wdWuGVSwYaSy0jI0sNDV0LSZshvWWhmIWGvVDlJONAxVCr+PX4SlNM3NdY6PSTRh9bxms7HojmZiSLvMliUgytClWqKlWJAM=");
 
 export default BookOpenCover;

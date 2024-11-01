@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-line` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-line?s=sharp-thin users-line}
  * @preview ![users-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/users-line.svg)
  */
-const UsersLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M321.6 208a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm0-144a80 80 0 1 1 0 160 80 80 0 1 1 0-160zM440.9 368l-36-96-169.8 0-36 96 241.8 0zM224 256l192 0 42 112 6 16-17.1 0-253.8 0L176 384l6-16 42-112zM8 448l624 0 8 0 0 16-8 0L8 464l-8 0 0-16 8 0zM195.2 128a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm-112 0a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM496 176a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm0-112a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM75.5 240L54.2 304l117.6 0-6 16-117 0L32 320l5.3-16L64 224l137.8 0-6 16L75.5 240zm392.6 64l117.6 0-21.3-64-120.3 0-6-16L576 224l26.7 80 5.3 16-16.9 0-117 0-6-16z" />
-    </Icon>
-);
+const UsersLine = createIcon("users-line", false, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABpAAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDBgsGAAE2AiQDCAQgBYMtBzEbhwVRlM3JDNnPBNtYZsNPAJQGC/HHoQcx2a28iYfn7fg89838v4BmQSHutgrVwV3SLdrAFdP89eu6YRXFdaT1C8Gj1ESROdfx2xMYu1xpJGsAaf6v+fzSjg7w20WJHUqtqYPaI1Jgzye6N1vb3sDahrOJ4ha33RwxCWmEyB7y+NsKJaS76UtcDh8aP6jnBEmWAYiqABg6e/pEHz+OxxFf/P8lvjAeATEUFAIZMjQUYIBMoKFcgVwueBz//y/+AwsCiFLxNRPIUQnP4GVADpKCbDsSCUUUiW8+VUNOxC7JYf/PZzrdDxzwePAdV7nob97W/VVLxRJRgEqiisgEw7koF2LRmAFGAdVHbVc2bli3fR855zMe0wQOdMrdoX0cNhRhH3hsx3dJEXb9YWVz0+sEOxDSQeaijKa4KyofRLavv7Eds81O9vSbfunGqi8N/aVLpypVOnUZUgiHXPl41+jRuz7+VmHBzs0XK/tDJOX37zd/HBe23WyxalUWi0q++2jLlj1VlY0q3h1cftP+/ZvKU+qW7Olvvz3NJA86P++ttzxP3dKlU5Mmnbr4X7q4cJfFdlabrL4sOGexPacH78JqlbTYuRlF4tV2Xg4CwU9bHh1cXGXAX6ZCAk/f/eUH5Iz/f01H0kOUlUCQdfhfLLAJcOwA0il2aYa/ikByUwXxu1Z0S4BQHgGSUuUFyDRQVYBcee0FKNFYTwFKlTddJvJyQk0LO5BUtBVkejkIcjW9BkoM8EmmVM3IYNUAaYY/xayjhtDIVUXXTl2KfsVqQ2MEP80u9i8OO9rskgNt8VqrbLbJDiutsNaOAbnNxPxOG43aIkb6oUJXnXRR6Ke43H5qn4UqhX07ry0bry+jv+L5SBu7tse3xe4klu2mLElEKg/6to4fMwA=");
 
 export default UsersLine;

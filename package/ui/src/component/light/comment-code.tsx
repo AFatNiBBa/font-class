@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-code` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-code?s=light comment-code}
  * @preview ![comment-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/comment-code.svg)
  */
-const CommentCode: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 240c0-91.4 93.8-176 224-176s224 84.6 224 176s-93.8 176-224 176c-32 0-63-5.9-93.5-16.2c-9.9-3.3-20.7-1.8-29.2 4.2c-15.4 10.7-31.4 20-48.4 27.4L91.2 446l-6.4-14.7c-10.5 4.6-21.5 8.6-32.7 11.5c.5-.9 1.1-1.8 1.6-2.6C68 416.5 76.3 391 79.4 363.9c1-9.2-2.1-17.7-7.4-23.9c-24.5-29.4-40-62.9-40-100zM256 32C114.5 32 0 125.2 0 240c0 46.6 19.6 87.1 47.4 120.5c0 .1 .1 .1 .1 .2c-2.6 22.6-9.5 43.5-21.3 63.1c-6.5 10.8-13.5 20.8-21.7 29c-4.5 4.6-5.9 11.5-3.4 17.4s8.3 9.8 14.8 9.8c28.7 0 57.6-8.9 81.6-19.3c19.2-8.4 37.1-18.7 53.9-30.5c.2-.1 .5-.2 .7-.1C185.5 441.3 220 448 256 448c141.5 0 256-93.2 256-208S397.5 32 256 32zM219.3 187.3c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0l-64 64c-6.2 6.2-6.2 16.4 0 22.6l64 64c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6L166.6 240l52.7-52.7zm96-22.6c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L345.4 240l-52.7 52.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l64-64c6.2-6.2 6.2-16.4 0-22.6l-64-64z" />
-    </Icon>
-);
+const CommentCode = createIcon("comment-code", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjQAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCPwsGAAE2AiQDCAQgBYMtBzMbQgXIhuD5urB6v3sm0iBxx/ACOhknArfgusJxZ/4v9/ymHS2Qb3Qoa9jS27YD2ZsTSKyXjUl5z7MwC9RizdwWKycq6sQkMhSHPF8/udD+DHm8GkOUSHekz3BdftP4WSdXkOQZgGgLgJnrVy/11tE4GvFZ43niM4sRELNAIZAhQ1cBpsgEusoVyOWCo9Fo4D+wIIAo45+VQI4yLsJ1gBwkeZ73Hdq+fYtSq3xdi1Lz9T+ujvh2/fcrv1773Yqv1lw57tbKfX2qUYub+9wWl9af7HFb7Y1e679bEPHRlIjXiu9nXhqXtrh7wM2Vm6u3tHhx8oODr4qP5/64+NPpb/a+Z9obiz5Zt+a22q2VFXFzdWXcUr+ttipWr7+1IoSZg7k6aK9ej7R95Neen+37TI8vY947fLsravjtOzFP8HjiiC//+enkK7fZ5r9cMGtCq3M31498Od+V3NWd7s3S3GcQI7te99r+AQubP73itUtD2xUqBw5as1Zx15Xz9bmTg4cfbkhMw8MP52OM2V71A9YPg0Aw/rdNv29vM+Xfpi0SOP7K7/+GOxv/N44m6RE0lUCQDWkMsSUpOCvFd8Rxll70QYHkLDl+1ZZuFSA0R4CkrLkAmS7aCpBrbrAAJd2NFaCsudUykTcTKrYOkLR0KsiMcyHIVTwLSqb4MCmrRGaHkhVJv4Hp8yQ0d1MxctiIYlKxbeiyaQlxcXJxbA44yw0MpJ32OdlJzrDXHgedIcjTLM3PdKJ5GjHXFxVGGmaEwiTF4/bz9nX2Os3pDjrZSWmdyYr33QHO0scPJCdh1lGqkkSkljffGHpBAQA=");
 
 export default CommentCode;

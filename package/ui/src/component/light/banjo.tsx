@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `banjo` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/banjo?s=light banjo}
  * @preview ![banjo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/banjo.svg)
  */
-const Banjo: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M445.7 33c.6-.6 1.5-1 2.3-1s1.7 .3 2.3 1L479 61.7c.6 .6 1 1.5 1 2.3s-.3 1.7-1 2.3l-39 39-42.9 9.5L406.6 72l39-39zM376.4 60.5l-15 67.5-62.4 62.4c-25.2-20.8-56.6-34.4-90.9-37.7l0-8.8c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 8.8c-34.4 3.2-65.8 16.9-90.9 37.7l-6.2-6.2c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l6.2 6.2C41.6 238.2 28 269.6 24.8 304L16 304c-8.8 0-16 7.2-16 16s7.2 16 16 16l8.8 0c3.2 34.4 16.9 65.8 37.7 90.9l-6.2 6.2c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l6.2-6.2c25.2 20.8 56.6 34.4 90.9 37.7l0 8.8c0 8.8 7.2 16 16 16s16-7.2 16-16l0-8.8c34.4-3.2 65.8-16.9 90.9-37.7l6.2 6.2c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-6.2-6.2c20.8-25.2 34.4-56.6 37.7-90.9l8.8 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-8.8 0c-3.2-34.4-16.9-65.8-37.7-90.9L384 150.6l67.5-15c3-.7 5.7-2.2 7.8-4.3L501.7 89c6.6-6.6 10.3-15.6 10.3-25s-3.7-18.3-10.3-25L473 10.3C466.3 3.7 457.4 0 448 0s-18.3 3.7-25 10.3L380.7 52.7c-2.2 2.2-3.6 4.9-4.3 7.8zM192 184a136 136 0 1 1 0 272 136 136 0 1 1 0-272zM124.7 316.7c-6.2 6.2-6.2 16.4 0 22.6l48 48c6.2 6.2 16.4 6.2 22.6 0s6.2-16.4 0-22.6l-48-48c-6.2-6.2-16.4-6.2-22.6 0z" />
-    </Icon>
-);
+const Banjo = createIcon("banjo", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABoAAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDCQsGAAE2AiQDCAQgBYMtBywbhQXIBgrSmbMn2U8k+4EUAIYK2BAkfwDJRRvk6tP6f675/J4flfU3OrRoKo1tGMmdzycwsWwbycAmdkA25uk2cYcdUfh0REiQSMjf4fF1A7ZuqzoeMLtNFNjaP1S/yGU9GGwLAAClAwAAbQb168GD93ovRWNXQVG6AQJQWwBcBFiABRQgAJpjIaAAGxewsRG8VyzG/4EuCADkRX6SAcAGvMAJ4CIAYANgsG07c3x+SpInxR6Y5EmcFE7a6KuiIKud5qqvYrXq339Q/9661VEK+QMOetLYr5AT8Pl0x01UwAn6knS4haOAL5idrZsdUNAXzpaeN/MpmB32+3W+XJLC2SF/oo7U7KdB66VWCmuNv6pCiRuc5go4/TdWkSJVIqyufKqSiRuqlpBaU+10Kql/wNci4sKWCjllS9JL/pSJToxy9wASUQY9kQh7Eh3yU9siUt8wq34Cqe/fpyZQf9YATt3YuGEC3nYJvE9NfZ9AO+8ENmy8cWoAMxt4qAF87bft/xvapVK7XITdaWm7ozhpD3Xt60srfIAPtYrLly+u9eFDBVXDJW3X79kTIxLB+wAgQJCyIW/lqLTmpfFJBoCPt/6Vlogg9sBgSoB4DAACq3qsOsMNAAaEpIwWUtawdMQOYDdBJpkQivQTYYHBSyJY5JMONolUAw9FNBCdRj8XKTsB32EEwJDMHLBoyAqwcbgMHprzPOnFkZWscqrJf8WMjhrpsMitU7O229Q91kwl/8Q628x125UXlp4qtJaJzGIm85nAeKYwX2Fz6ZFZwAw6WmgHvohLHWpSG5emuNfN9+UDmcBc5jGFWcxs8zTDjfcrs9AeXoU8gwjWxTJPUGw8Y8fMnDoL");
 
 export default Banjo;

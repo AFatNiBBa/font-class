@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-music` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-music?s=regular file-music}
  * @preview ![file-music](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-music.svg)
  */
-const FileMusic: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 464c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16l160 0 0 80c0 17.7 14.3 32 32 32l80 0 0 288c0 8.8-7.2 16-16 16L64 464zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-293.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0L64 0zM304 208c0-5.2-2.6-10.2-6.9-13.2s-9.8-3.7-14.7-1.8l-128 48c-6.2 2.3-10.4 8.3-10.4 15l0 32 0 81.8c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-100.9 96-36 0 74.7c-5-1.2-10.4-1.8-16-1.8c-26.5 0-48 14.3-48 32s21.5 32 48 32s48-14.3 48-32l0-128 0-32z" />
-    </Icon>
-);
+const FileMusic = createIcon("file-music", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABewAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCEAsGAAE2AiQDCAQgBYMtBzEbEQXIjsM4hvwSSymOIh6+t/l67tvVn++VGdYAxDJwCDuiMl0qdwEsXWrSYpW0Sota5vm/5vN7fg34jQ6likoPpECOMrbnEyiBsARqoCiwmU7ApttEAjui8IuIYSQhHZ8dZzvI43q8pkJ6P/2MV9uHxp+6uU9SyQBEWwDM3bx+pef1qEf81Ij4yXIExFxQCmTI0FOAGTKBnnIlcrmgHo0G/weWBBBN5EkTyFHBCZwH5CDJ8rxzz3HVSqt8U7VSLHxHFu92qYaodXq7Wo0Ub3VsmX0yJOKLrineH/rlwFbx+fCve2RxZ9im+KooNt7xTscN8VZHId4pnnZ8q+PbrtmedXm3S8RmvVr0+6rtV3/3/dAa9dY1resfWJOQx49bKyUs9PsH7WhX1BTt2n0A0LyPgXr027pVv+6f/ftb84ED526Pdq8orXO2ueOL71u1+v5Fxz7VQbv7W764TE0JBIJXvnjz3u42M/5rribwx7f//o9+RY3nUUtfoVkCQTaiMcKOqEHUBAAgxSX9ooZAckBGrrWldwQIBQIkTQoBMj20FSBXGC5ARW8TBWhSWC8TeQuho50TJC2dBZlJboJcR9+Aihm+c5p0jCzg+HDhv3spixBaOK4cO2pMOa3choYQQ2wZnl4e60Mu5dJQWuqQ00654KADjroA5Dkr/YtOWmTBC31RaaxRxihNU7qT9fxNDjrnvKNOO1VHma68bw9xyW4eSlYilOMEkkSk4m1rI58iAAAA");
 
 export default FileMusic;

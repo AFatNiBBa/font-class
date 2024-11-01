@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-holding-circle` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding-circle?s=sharp-regular hands-holding-circle}
  * @preview ![hands-holding-circle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hands-holding-circle.svg)
  */
-const HandsHoldingCircle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 256A128 128 0 1 0 320 0a128 128 0 1 0 0 256zM144 64l-24 0L24 64 0 64 0 88 0 392l0 9.9 7 7 84.8 84.8 17 17 33.9-33.9-17-17L48 382.1 48 112l48 0 0 200 0 9.9 7 7 7 7 17 17 40 40 16 16 1 1 16 16L233.9 392l-16-16-1-1-16-16-23-23L208 305.9l88 88 0 94.1 0 24 24 0 24 0 0-24 0-94.1 88-88L462.1 336l-23 23c0 0 0 0 0 0l-16 16-17 17L440 425.9l17-17 16-16c0 0 0 0 0 0l40-40 17-17 7-7 7-7 0-9.9 0-200 48 0 0 270.1-77.8 77.8-17 17 33.9 33.9 17-17L633 409l7-7 0-9.9 0-304 0-24-24 0-96 0-24 0 0 24 0 214.1-47-47-17-17-17 17-95 95-95-95-17-17-17 17-47 47L144 88l0-24z" />
-    </Icon>
-);
+const HandsHoldingCircle = createIcon("hands-holding-circle", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABlwAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDMQsGAAE2AiQDCAQgBYMtBzsbvAXIHgnZWcxdEQPrLxE8Pxc27yelbAlSTolIEbIqK5J1cECO1xV13aEld4q2Qt7rq9bn/37yP98yQJLmWnGXxwdSNJDM4xPY8bTiKB7gA5tNFKdORxQ3YQz6hSGlYBnF45Lq8QheII9/4qEmpKfpPR6QqPhdV7dImmQAoi0A5qxduUL9l/gl4l0j8c4yBMQcUAlkQA9lMd2lgR5yFXK54JdoNPp/YEUA0ZQwSTZfH/warwA5SFKed39ca9IqX7PtL3beGRbx0bCP4vrQl7tV3B783HJtyIu3amuKWiFSiE6xOobErBgaayKLWrBUJ8xgcFFnRWf/0BgWq4NVq0X418aQGBzXUx2RmuGgi8KsEaxhqdUixSoHa+2pLCKKQoiZMTQGA2tYnB7yQN+XbV/+6f2e92b90K9OvWervn1b9azX+6mG8vHPfijLh6XRCnusWoV2WLFCa6O9VthjD85qoKEdz+7xo7VrbVEqy9KWhh+naFY7QAjiJBdeG621FSvQDqtW2aMwWqk8V/rgL7Bliy1bwF8+KIFA8KzHZw1tpv/dvJbAb18PPt2op2vpJZpLIMiGN4bblK5BCQygkuKMvs4XBZIvJUJqS48ECAUCJE0VAmS6aytArjBMgCZ6mSBAU4WVMpG3EDrafNhJS8ftzESX7VxHX9lNTPeq3FTHyBI4mn7R78dSCzW9YFU1ZuToamp12jBiORlui9Oq6eLgM3VgCE7a46gjTtltl/1OKf2EFbXTDlvoiQv8UGWMkUarTFWF29vDa+x2wkn7HXWkLzNNdX1psDP++CFYTwKMvfV1iUgd37DsiCciO+J3HwAAAA==");
 
 export default HandsHoldingCircle;

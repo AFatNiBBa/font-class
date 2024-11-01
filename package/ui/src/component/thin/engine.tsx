@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `engine` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/engine?s=thin engine}
  * @preview ![engine](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/engine.svg)
  */
-const Engine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M416 72c0 4.4-3.6 8-8 8l-96 0 0 48 24 0 60.6 0c12.6 0 25 3.7 35.5 10.7L483.5 173c17.8 11.9 28.5 31.9 28.5 53.3L512 384c0 35.3-28.7 64-64 64l-168.8 0c-15 0-29.5-5.2-41-14.8l-59-49.2L112 384c-26.5 0-48-21.5-48-48l0-72-48 0 0 80c0 4.4-3.6 8-8 8s-8-3.6-8-8L0 168c0-4.4 3.6-8 8-8s8 3.6 8 8l0 80 48 0 0-72c0-26.5 21.5-48 48-48l48 0 136 0 0-48-96 0c-4.4 0-8-3.6-8-8s3.6-8 8-8l104 0 104 0c4.4 0 8 3.6 8 8zM80 248l0 16 0 72c0 17.7 14.3 32 32 32l67.2 0c3.7 0 7.4 1.3 10.2 3.7l59 49.2c8.6 7.2 19.5 11.1 30.7 11.1L448 432c26.5 0 48-21.5 48-48l0-157.7c0-16-8-31-21.4-39.9l-51.4-34.3c-7.9-5.3-17.1-8.1-26.6-8.1L336 144l-32 0-144 0-48 0c-17.7 0-32 14.3-32 32l0 72zm176 8a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm96-48a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm16 32a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-240 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm384-64c-8.8 0-16 7.2-16 16l0 192c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-192c0-8.8-7.2-16-16-16l-32 0zm-32 16c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 192c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-192z" />
-    </Icon>
-);
+const Engine = createIcon("engine", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABzwAAAK2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQCELAsGAAE2AiQDCAQgBYMtBy0bKQbIhof/12ndJymazFfChhnWLKGzyFgBoL2AXKVbLhr22ZbJ//+9O/5t4eK2YB7KXLe1KGsfH2PpEwiw86m1MJB0WVYiiXGKzo27A1I8C/cLFPGP4wyR3ZN9jFvcN41vzHclmTwHEBMA2PrAfXc3249+xMeDN4iP7YqA2AbUAjlyLBJgM7nAIoUahULQj8FA/QfWBBAlH8/sKzCC3/E/XT4yqSh2Xnl6rpU9saAaGi0OMO44nXhnI4Woqhuau8czi8Xdqzy9QorrV9onUjzZ6i6ISCHubHRbEb32XU1RRcR97d7KVRWRotvqtavqruZRgri0eVdVxQ3NvcMwPrVAZmHEvSvtsTCldH3jTva/rB3Rq24AuLSp7M5vdWPFXrvburNxV/NAjERAuUiprPMHUXvttIU79s6GQLOKFkTAk1ZY5qoCLgFXCtwilnt24tnvln18wsceurA86igd8zaf/nvGYx6UJicffkZ7ycO21fn8k3wnHXtZ4C5fTpTVgo6d5J983ulc23GUjnIATjqJB/Z8acJft5Oxa68d21a57sM+nXxmNc+DhreY8dbY5v3hwE4vzUkBKJMSJRj0x8b6045ce0SrUPtjP66CS7ZMYBaomnUw01VTrllUX/0MBII7ysPWPnJ8s9+Gqwx8/e4Pf2dXZJdmz2JYBoJ8jcEaDssunZgozl4sLrAc/aJA5nuJ/6ojugKEhACZUhIgt9CEAIVkdQGGLLG+AKVkX7ko5goNh1fizIizxbkNXCQuNLwmHrKZ9+KlRuSPv/bh1f58ZtqhiW0/q55Zq1NvUo+WFLonWm2Nblovdq5yAVpWpUud4ExnOM/xjnOy8xr0OXZPne90O0zJb//Z2oy1dNQ2UW+u3oUDcGUC53LUw/rtKJuqj4+u4oLp7qtST8ZXuI6cTEZk5fcH");
 
 export default Engine;

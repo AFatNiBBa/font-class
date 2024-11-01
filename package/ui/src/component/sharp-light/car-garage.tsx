@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-garage` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-garage?s=sharp-light car-garage}
  * @preview ![car-garage](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/car-garage.svg)
  */
-const CarGarage: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M328.5 10.5L320 5.1l-8.5 5.4-304 192 17.1 27.1L320 42.9 615.5 229.5l17.1-27.1-304-192zM203.9 176l-3.3 11.6L171.9 288 160 288l-32 0 0 32 0 96 0 16 0 32 0 48 32 0 0-48 320 0 0 48 32 0 0-48 0-32 0-16 0-96 0-32-32 0-11.9 0L439.4 187.6 436.1 176 424 176l-208 0-12.1 0zM480 320l0 96 0 16-320 0 0-16 0-96 320 0zM411.9 208l22.9 80-229.6 0 22.9-80 183.9 0zM208 400a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm248-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const CarGarage = createIcon("car-garage", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeQAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCIwsGAAE2AiQDCAQgBYMtBzEbJAXIjsO44TuyxVL+4+F5u77OfVVf1T10DWDFkzHmbipnTgJQtcU8cU3+b/sGTH3RR4mcVYOsdZZ5PoE/X1ljUojMBjZR3OC8UQmnukP7BfL4OwaoId1Lcct9aXytnRskeQYgmgJg6urlC735QXwQ8f7/zxHvm4+AmAZKgQwZOgowQSbQUa5ELhd8EP//z/4DSwKIWuHtCeSoxyFcBeQgqc3zZgMbNTQ0VGoa5avUU8Xu1q1at4wt0Te2x9boH9tWtGzTckUUhRClSkQ08g7UpmSronUUK0lRNWRw1Up0rojVUVnxuMP9Xg/a3uu5Omr17d2ebvr0t13vas6zN8OBkwa/odDrZb1fVjHJCw/7wxMdt6uWpS2aKg2RwBSrqmlqi1JZnVHVX3X0rS0h09SUvvyU6YdbL9bBz3CFF997Y2mrVkvx39tY1etAIPhulzubm0z4tb6SwEcvf/9jerz+/zfT2fQ06iUQZAP+H2BDuqJe3YSvgJBPcUo3uEyBZJfT+KlVtwUIBQIktQoBMh00FSBX6C9Ajc5GClCrsFwm8gahpY0Vn1Qd5TOjXORzLT3D15jgrXytlpF9edZ3Y/34FZjVhGb6lUMHDSnHlaN1hf0xGXp+fLk41OcU7+sLD9rlsENO2GmHvU40uGMWlk46aNYUMdMPlYYaZIjSOOXm1t3dq+x0zHF7HXbILjJeeXyuj1PTo/vCaBJUh9meJCIV27ceG7hbprfu3gkAAAA=");
 
 export default CarGarage;

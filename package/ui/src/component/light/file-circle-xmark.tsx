@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-xmark` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-xmark?s=light file-circle-xmark}
  * @preview ![file-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-circle-xmark.svg)
  */
-const FileCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 480l232.2 0c9.8 11.8 21 22.3 33.5 31.3c-3.2 .5-6.4 .7-9.7 .7L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L220.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 129.9c9 9 14.1 21.2 14.1 33.9l0 34.7c-11.2 3.2-21.9 7.4-32 12.6l0-19.2-112 0c-26.5 0-48-21.5-48-48l0-112L64 32C46.3 32 32 46.3 32 64l0 384c0 17.7 14.3 32 32 32zM351.5 160c-.7-2.8-2.1-5.4-4.2-7.4L231.4 36.7c-2.1-2.1-4.6-3.5-7.4-4.2L224 144c0 8.8 7.2 16 16 16l111.5 0zM544 368a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm203.3-36.7L454.6 368l36.7 36.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L432 390.6l-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L409.4 368l-36.7-36.7c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L432 345.4l36.7-36.7c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const FileCircleXmark = createIcon("file-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABoQAAAKhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0CCfwsGAAE2AiQDCAQgBYMtBzgbhwXIjpMlBh4Zg6h0Wc9KMkh3Rp0BZSKKHjgDIMwAK2cIHR/C8BZwIAGGFltMHfgT1zz/86cCiSJ7lMhFlEbZbtTBExjg48+iaTousNlEcdbmfB0cfPUWB5En+iekYesbpugIdHkr2Rig9qiXwKZGkr9EWl5Q6BrAkCB4WmgY0KeHx5/kk8hL7w2Ql3QBAiCNADgE0AANiCEAVNMQIIaOA3R0BD6J1wv8H+iAAID4gCdWAOiAL3AUOAsA6AAoDF0vdUVHJ1qGW+9vGWaHZVp7UrabLjmZeTZKk31Z59IsWefpJztAjtsippwM2xmVzNba21Gy2LPDGrUzrL/0SmSHx+q3RHn03tST5trk4xG7WRy5J+WEtS7tVPQ+cS3JE7lUdc9aV3En5wKLs8+X3zbXVt7NvSgDquuqa2SHvT2sVqqlknaG10mtkHZ5aqRO+GaYeDbo7P+ElyNf4v0F48/Z9QYcDg42F2PGLQ/vx37TpvHeTkT/Gcpk8u+VFliLCVi9OiATXxeaqG+R2JMI+DT50Zu43/D74MbFMfr7d1yctsxIK3AyJDU1JNRx0nIdRZ4nF6OavXvPnGmiicHPJcXI+wFAAIFvnq8PJ7C6189SAHy5+3v5dryPVb06C/ihABDQsr3ZDFX1AGmJgJySmSQaXySAYi8G+FQXOxEABBMQABQ+mAgAGtGCCAA6JlkEAIM4JQQAH0z6oCG6P4Jt2MIULqZgGqUWYDq2a5hBtSdZH+zQ/FT2MvkzMUurBFrWOQW5+U6lo9ZNxfXEMl/lXPakz8x9GbSRkUxiItMZwXDGMF1AU+kpzGACrRbYwg9xFMiVz1HJ2W59tPQX2alMY8y5tr9KFef+RLqZ9ugM8ivAWahGoUBU8DvhyPmjx5sz+7EGAA==");
 
 export default FileCircleXmark;

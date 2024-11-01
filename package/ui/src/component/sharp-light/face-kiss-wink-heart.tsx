@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-kiss-wink-heart` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-kiss-wink-heart?s=sharp-light face-kiss-wink-heart}
  * @preview ![face-kiss-wink-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/face-kiss-wink-heart.svg)
  */
-const FaceKissWinkHeart: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M325.2 469.1C303.4 476.2 280.2 480 256 480C132.3 480 32 379.7 32 256S132.3 32 256 32s224 100.3 224 224c0 25.9-4.4 50.8-12.5 73.9c10.9 1.2 21.2 4.5 30.6 9.5c9-26.2 13.9-54.2 13.9-83.4C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512c26.9 0 52.8-4.1 77.2-11.8l-2.1-8.2-5.8-22.8zm-65.6-90.4c5.3 2.6 8.8 5.1 10.8 7.2c1.1 1.1 1.4 1.8 1.6 2.1c-.1 .3-.5 1-1.6 2.1c-2 2.1-5.5 4.6-10.8 7.2c-10.5 5.1-24.8 9-37.9 10.8l4.5 31.7c15.4-2.2 33.1-6.7 47.5-13.8c7.2-3.5 14.3-8 19.9-13.9c5.6-5.9 10.4-14.1 10.4-24.2s-4.8-18.3-10.4-24.2c-4.5-4.7-10.1-8.6-15.9-11.8c5.8-3.2 11.4-7.1 15.9-11.8c5.6-5.9 10.4-14.1 10.4-24.2s-4.8-18.3-10.4-24.2c-5.6-5.8-12.7-10.3-19.9-13.9c-14.4-7.1-32.1-11.6-47.5-13.8l-4.5 31.7c13.1 1.8 27.3 5.7 37.9 10.8c5.3 2.6 8.8 5.1 10.8 7.2c1.1 1.1 1.4 1.8 1.6 2.1c-.1 .3-.5 1-1.6 2.1c-2 2.1-5.5 4.6-10.8 7.2c-10.5 5.2-24.8 9-37.9 10.8l0 31.7c13.1 1.8 27.3 5.7 37.9 10.8zm12.4 9.5s0 0 0 0c0 0 0 0 0-.1c0 0 0 0 0 .1s0 0 0 0zm0-.3c0-.1 0-.1 0-.1l0 .1zm0-71.7l0-.1c0 .1 0 .1 0 .1zm-.2-.4a.1 .1 0 1 1 .2 .1 .1 .1 0 1 1 -.2-.1zM176.4 232a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm202.8 5.6l25.6-19.2c-34.4-45.9-103.2-45.9-137.6 0l25.6 19.2c21.6-28.8 64.8-28.8 86.4 0zm62.1 123.5c-7.4-29-36.5-47.3-65.8-39.2c-28.9 8.1-45.1 38.6-37.7 67.4L362.1 484l4.1 15.8 15.8-4.4L472.5 470c28.9-8.1 45.1-38.6 37.7-67.4c-7.4-29-36.5-47.3-65.8-39.2l-2.4 .7-.8-3zm-57.1-8.3c10.8-3 22.9 3.5 26.1 16.3l4.8 18.9 4.1 15.8 15.8-4.4 18.1-5.1c10.8-3 22.9 3.5 26.1 16.3c3.3 13-4.2 25.5-15.3 28.6l-74.9 21-20.2-78.8c-3.3-13 4.2-25.5 15.3-28.6z" />
-    </Icon>
-);
+const FaceKissWinkHeart = createIcon("face-kiss-wink-heart", false, "data:font/woff2;base64,d09GMgABAAAAAANUAAoAAAAABxwAAAMIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSEGAsGAAE2AiQDCAQgBYMtBzsbIwZRlA1GnuxHQuamj2ZbL9sxHKw92K6VaFECP1HaWwjRGpbZ2yI4PFkAFpbACHZ19XUkbG0d+D4JTyjUq4fIbTdI5SH7JUIjuVkt6vZz4sZj71rhX1/P2u99U5UrkiJQB2UA4g2Sg8Krnf5+6sKa5vlMNpQfNcvkaBtlnk8gz6OtE3S6m08UNzhvOKBJoR0hfQU5nskbFaR7zmvAdfNW8ReMKyDJBYBoBgBrO2vj/0Rmog+WWyA+IAsCYh2gFCjgKzoFWFQIdMpKZFnwKSyW9D9QIICo1LGSj86ox0/wD4AMktqcHwWGaUUisVhhq5fy5bxSKV/ScFPyNPNl4HXH3aAbWa/SnmS8CLjm0G89r9+kr4kPc9+Wfs5+HX+/+EvCg5w3JVNhBmJL5/XzGKAB3Zxuz5mhQ7dF46JxwbBgwA0OXE2072KgANlQP0BEAz0cYzEuJKOZSw+tVlz3TMsuJV7uXheSSW8POpVOeZRwnEQHzrDDElNCejJSGWkpV9kUYsN1ZEg9ZJiU5vYKZtm5mEppxc3xRHXyLb1ufY1kncTZbOP98INC8eGht4357Ox2/dfXr95IMzHTA2mLEAPTjIkgD3fPMqI0vqLJUUUAascmYWIcBjv3xscVivHW4eHW8ovxvc7BOCQKG50M2maPRME9dLLSEVJXVKDXF+TGl/xZuP81D49rs+CzLD+mr4QFvEpaZ2ZSjLWIw18qTSgl+pWyns0qcMacmhJ5HXVwbHI2ZOqgzRXCej0QCH6+LP7bldH/RNIEvjz9+AX2w//7gZseANUSCIpBy4LDBAXtf10BnSvFBTL8sUDykQRgv3o3IBAGzPAmlWpPUOjQDLJaA6BCtynEcPiGKHKN0O4IgqTeMShMuwRZu0dQYdGrq1J7xJseu2WxX84UlWSWehIwPFrOl9KoHb+PkbJ6oTRWuV+kWX1wKpdXN50OZhKCoXk/j6riFz8kxgwbVZpXOidmFRvhGpyJSfdaFpThbb0u1IX7oDbo5I6LSBKR2r+oftpl7tpt/dbPDwAA");
 
 export default FaceKissWinkHeart;

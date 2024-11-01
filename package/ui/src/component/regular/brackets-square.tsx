@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brackets-square` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brackets-square?s=regular brackets-square}
  * @preview ![brackets-square](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/brackets-square.svg)
  */
-const BracketsSquare: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M56 32C25.1 32 0 57.1 0 88L0 424c0 30.9 25.1 56 56 56l64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0c-4.4 0-8-3.6-8-8L48 88c0-4.4 3.6-8 8-8l64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L56 32zm336 0l-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0c4.4 0 8 3.6 8 8l0 336c0 4.4-3.6 8-8 8l-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0c30.9 0 56-25.1 56-56l0-336c0-30.9-25.1-56-56-56z" />
-    </Icon>
-);
+const BracketsSquare = createIcon("brackets-square", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABagAAAHpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBTAsGAAE2AiQDCAQgBYMtBzYb0gTIjsM4JjzSReMu4uH/1/63z5355pgM7tpodDGrNNJrWCl/UTVB5CVzLeT/3Ox5z6MAv1FoY9nUQMbyPZ8nkNjGPErswM70BOx0m4zAjij8IkIKxaLj83i7IY8HkQrSvQRX2ofGD11dJqnIAEQzAOZsWrdCqT3aI76VJ75ZhoCYAwqBDBl6CDBdJtBDrkAuF7RHuUz/gQUBRCX2JJBL3uVYDfJdJCnP+/atq2jIN9ZV1G572SHiZpcU9zreGlAXb7rfH1gbtztlcaczuRtq62pfdrmneG51THGzQ23g9Ted73TP4n6n2wP7vm9+/6uPg0x6cvo/f6pWq/rz//Rsazp2XDPb7srVKncLYfVsTttxjhh6DgSCs3t7Xd3VNP1vdV0C3z/++dd/RsrtUUrvUS2BIBteHm57lCBKAgCQ4qK+UUIgmS/hy3q3BQi1mJBUqoVMd82QqzUMKvQygXBerJOJvEboYAdAUu8MZCa6BLkOPkCF6T5plTpEFk5UMFCfufiFElmwVIwZObqYWqiRQUcIUabTCrc4+GKuDMGug0456bwD9jvivMDOWmFecMJCC13giwpjjDRaYariOn1d3+iAs8454pSTdc40xXt1sIt2+xAoCeOOdZ0kIjXtPbtn37ED58+NCEsA");
 
 export default BracketsSquare;

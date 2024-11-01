@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scanner-touchscreen` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scanner-touchscreen?s=regular scanner-touchscreen}
  * @preview ![scanner-touchscreen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/scanner-touchscreen.svg)
  */
-const ScannerTouchscreen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 24l0 40 48 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24zm176 0l0 40 48 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24zM240 0c-8.8 0-16 7.2-16 16l0 48 32 0 0-48c0-8.8-7.2-16-16-16zM384 16l0 256c0 8.8 7.2 16 16 16s16-7.2 16-16l0-256c0-8.8-7.2-16-16-16s-16 7.2-16 16zM488 0c-13.3 0-24 10.7-24 24l0 240c0 13.3 10.7 24 24 24s24-10.7 24-24l0-240c0-13.3-10.7-24-24-24zM64 144l224 0c8.8 0 16 7.2 16 16l0 288c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-288c0-8.8 7.2-16 16-16zm0-48C28.7 96 0 124.7 0 160L0 448c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 96zm40 80c-13.3 0-24 10.7-24 24l0 208c0 13.3 10.7 24 24 24l144 0c13.3 0 24-10.7 24-24l0-208c0-13.3-10.7-24-24-24l-144 0z" />
-    </Icon>
-);
+const ScannerTouchscreen = createIcon("scanner-touchscreen", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABjgAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCQgsGAAE2AiQDCAQgBYMtBzobTAXIhof/1/v/n2snV8kz8mx9uSIrkJVQlGf8VizP/1yO793zowP8Rocy1q54TArnfJ5AmBZNzCMJLJMpYA3bRtbC7PGIsbxBHh/G3RpIj6RvcZd70PhZd7eQNGQAoh0A5m3ZsMpntahFfFN/m/jGCgTEPFAJZMjQS4CZMoFechVyuaAW9Tr7D6wIIBqFF5hAjgI34VZADpLmPG/VqmzTukOPdmVD63xz2VDsEMqIeHTwU93Kobj8/k6C7nuwy6aUpQc6P9Q1g+SGuGW7STwy6NmeVwp7y6JUZoo1qbBmFida4qmhEc91S+z6sOcHlfHsiBd7ZvHo8BcGF5tuuWXwI0X/F9q98Gu/bw9/6/pnh4bdYw3Ved26zq8Np/6vtRmrMlab2l1tiW6tDTGPtD2Q/jhmUfTsXbVgt6nWVc2xsY+1p31RKdq3f6xmIjBzyJobyI/+3fD9IBBMm/n55j1tZ/7bXCbw0we//wf8iuqfJekFNEsgyEbWR9qZQCIAACku0z9BILlKs3C1lQcFCAUwJI0KyPTUDnKFEdCgj0n0xSsbZCJvETrZBULSyjnITHYt5Dp5ExrM9EWxUafIUiKbjtj/wKTFU3TRtmrc6LHV9Gq3reMSF63XZ1SXraGX8bFh8KTDzjjtokMOOubiBD9vVeWSUxYfYYs8UWWc0caqTFc97r2UNuPieRcc2xaebzJD9X021GXHs4dBNwmE4x1IEpE6XjhQ353zo+oCm1YBAAAA");
 
 export default ScannerTouchscreen;

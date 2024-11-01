@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sheet-plastic` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sheet-plastic?s=duotone sheet-plastic}
  * @preview ![sheet-plastic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/sheet-plastic.svg)
  */
-const SheetPlastic: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 64L0 448c0 35.3 28.7 64 64 64l160 0 0-128c0-17.7 14.3-32 32-32l128 0 0-288c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64zm52.7 84.7l96-96c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-96 96c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6zm32 96l160-160c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6l-160 160c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6z" />
-        <path d="M224 512L384 352H256c-17.7 0-32 14.3-32 32V512z" />
-    </Icon>
-);
+const SheetPlastic = createIcon("sheet-plastic", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABegAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBYAsIAAE2AiQDCgQgBYMtB1YbCAXIhof/t/n7feZOsiB5qA/iWvEqxKUylRYqKjq+FT3SfvE68385v7NNB/ifn/ChjDXbtjSe83kCgR/leeALJM00A2u3IdsYBkEsBpEhfgxtakjeII8D6YQS2d3sF1x2/wMYv2rnBJmGCUA0BcDUBXPqffoaX7P4pfaB+MVsBMQ0UAgkJHQUYIIk0FGuQC4XfM1qNb5GrVYQQJQ5JLHK+GD1WAHIQSakPK92bty4WmqUz6+WKvMWzF1QiXMtb5CylN3t+7ZnNSKOtrldrUaKe/3e9aqLF33etO36wO1WN1vOjRutb7UR1d3eNX33e9df1v/iy+THRD+i8ZkzjY84MlRp1uzJE5lfkClPQqcyYu4Kar59e+8e6DjssmKaTyxC7gcCQWnilZ9WNJnwf4NqBr5//PNf/iGpfYoj2Ts0kIEgDagNsDSOQBwRAIAs9usWR3xFIBkn8e9a55YAoYIAmbKKAEkHTQXIVfQXoKSzkQKUVcyRRN5QaGkZgUydXSAZ5SDItfQelEzwuVvWMpJmiXoh/uvSZkl45qVi6KAhxbiiOhIlZeHt6fhi2Ouz36z0havW22G7vdZZa5O9gtqtfrDPNrNa5ExfVBhqkCEK4xTL03NtPnV322NTWVk/Z7xif62P/e3tfSHMeMZhKpJEZJFaXWNr4Bu2Bh7SDW0KyoEE");
 
 export default SheetPlastic;

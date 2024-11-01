@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `taxi-bus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/taxi-bus?s=light taxi-bus}
  * @preview ![taxi-bus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/taxi-bus.svg)
  */
-const TaxiBus: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M192 32c79 0 124.2 20.8 146.2 38.1c7 5.5 11.1 14.4 12.9 25.9L192 96 33 96c1.7-11.5 5.9-20.3 12.9-25.9C67.8 52.8 113 32 192 32zM32 224l0-96 144 0 0 96L32 224zm0 128l0-96 160 0 83.8 0 9.1-32L208 224l0-96 136.6 0c8.4-14.5 22.3-25.4 38.9-29.8C381.8 79.5 375.6 59 358 45C329.2 22.2 276.5 0 192 0S54.8 22.2 26 45C4.5 62.1 0 88.9 0 110.2L0 352c0 23.7 12.9 44.4 32 55.4L32 464c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 160 0 0-32L64 384c-17.7 0-32-14.3-32-32zm96-40a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM488 160c4.4 0 8 3.6 8 8l0 8-96 0 0-8c0-4.4 3.6-8 8-8l80 0zm-120 8l0 9.2c-23.3 4.5-42.6 21.8-49.3 45.2L297 298.1c-24.5 13.7-41 39.9-41 69.9l0 48 0 16 0 32 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32 320 0 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32 0-32 0-16 0-48c0-30-16.6-56.2-41-69.9l-21.6-75.7c-6.7-23.5-26-40.7-49.3-45.2l0-9.2c0-22.1-17.9-40-40-40l-80 0c-22.1 0-40 17.9-40 40zm16 40l128 0 3.8 0c14.3 0 26.8 9.5 30.8 23.2L562.8 288c-.9 0-1.9 0-2.8 0l-224 0c-.9 0-1.9 0-2.8 0l16.2-56.8c3.9-13.7 16.5-23.2 30.8-23.2l3.8 0zM608 432l-320 0 0-16 0-48c0-26.5 21.5-48 48-48l224 0c26.5 0 48 21.5 48 48l0 48 0 16zM360 376a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm200 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const TaxiBus = createIcon("taxi-bus", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAABwQAAAL6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEiECwsGAAE2AiQDCAQgBYMtBy8bCgbIhoePnNr7kkySk3Vm7ACqxO4CAh4B4YyF4zLN/zWf3/OjA/x85xpJYVEeBZKrfD6BPV9bJthAZsPZQAZIY5l5piiN6NixR0RFWLfW+vjl8dsJsvg75qqQ3JJ8gKv0ReNrQ84nkaUAogWAdXbabguvLIpFER/8/yTxgc0QEOuCUiBFilEBVpcKjMqUyGSCRfH///U/sCSAqMJ1CcjQxFL8QPwpJPIs62ss32iuOtBpNIpKT7ZjUcl3e3OFiCc7Nwzl+W0DN6309EbbhyhC5EIUxUjkEVHEbTNunf3oik9t+MbyT8y8fvBm4o5Z4obOTQMRRUTkcWn/jbHTrdPvH7xl2kMj+93QEXlE3DRQbC88Mbp9PDMqhJgReoyCfOeqO8rBK0ac039jnsel7esHx4q8eGBoUlyanxNwnTglbptR7NDsaUaEiAM3cTwe6NwwJOy4l9tBqHLr5Edbj3476YMDP/DyXXfPYdV/H27ddVfr4X9XnXP3XS/vjcjV9nb12ccud29/lS3s7RJv3tRz4TqXX75o0TlxnX/WWaf1k/anq+j1h/R23a10t96LL+7da0Znm206hDnopr2rdXsLVffe+qRaA0s2fryzmQPHu1pK5ZxVWtseUWrpGj+ws5nHN27oe+6xvq31Pfao388++/y9T/hDhFgkRPzhhL2zr75aG8TzTemHn3cX6X7+YdrV+n2l7eLbAxfVvwcEgttWueX9vZZZ/dd6kYAlz33/q979/yvJ2cmjqEtAkM79f67dk7OhogNwkjjR5MEbBRKfyeFZm24UIOQIkKjKBUiNaAmQyc0RoGLcCgJU5baTiqwhtO3RQaLpGJBa0Rkg0/Y4qFjd23ZVO9Jsp3KV+tmM39BDG/QrF87vlquWtymjE5ho3auVr6WZJ3LVLJrrQEc50vEOsL9DHO+QY23hneAIG47gDXxQaaH5ukqrKpcLR37HIh/rOMZJOHK9l9WU3xsznThuPIsGkQCWzROCZ0VSP36fkw+Zt+8JxwE=");
 
 export default TaxiBus;

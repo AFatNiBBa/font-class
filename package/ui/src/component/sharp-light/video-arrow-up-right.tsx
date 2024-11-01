@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `video-arrow-up-right` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/video-arrow-up-right?s=sharp-light video-arrow-up-right}
  * @preview ![video-arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/video-arrow-up-right.svg)
  */
-const VideoArrowUpRight: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M352 96l0 320L32 416 32 96l320 0zM32 64L0 64 0 96 0 416l0 32 32 0 320 0 32 0 0-32 0-64 0-192 0-64 0-32-32 0L32 64zM416 332.2l0 35.8 128 64 32 16 0-35.8 0-312.4L576 64 544 80 416 144l0 35.8 128-64 0 280.4-128-64zM160 160l-16 0 0 32 16 0 73.4 0L100.7 324.7 89.4 336 112 358.6l11.3-11.3L256 214.6l0 73.4 0 16 32 0 0-16 0-112 0-16-16 0-112 0z" />
-    </Icon>
-);
+const VideoArrowUpRight = createIcon("video-arrow-up-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbQAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBfwsGAAE2AiQDCAQgBYMtBzsbCgXILgdscOcDemraDZbLohDmGlP6hn92XBrPP+1HO/fNrH1ZQz1B0oSHijexJF4qzUIl5Q0NvBI69vzYvEOS/gYkHuIysWRJzJJYSxDXSLSVSinLP5k53xkcLPaxjWWyvoJor5D4RKjlnTgXb22jgUTZxIfSHxHnCdR9/gID/Sh/0iiwEb0Iv7WzXxg+3KAkQT7JsHnD5Ao935iAmfqSAB/8l+Yf3H6g9AYg6wCAq7O6gsmUU3JLB2QLSyCQa4DDiIaG/QguMAr2MzkMui78ptbmP1AgQBbhUQp0LOIeeAagg9J7X9nl9ljMc781LgxPq9WUlvnBMA5SkXEOpMNddDNOEG/ZeZxrkdup3Lq1GhrHprCdUToHHntwLgxHh4Y5Zmc7EKOjUx5REkXI+SYlVZYANr+3oQVUBGjsCUTAldIjhR8TqP7+wdixkZ/HAkUotxQFEIT/97TjuPDPUuDv+KG2rtRXsGy2M7RTOmEzrxAsEVCsvOcjmwXlDhPQrU4+IogBAWXRIKDZRyHoBicRLDioiGDR4Dqj9BWx3VZhy+QV25z3ynbb/bILLvgrLtoeRj0ztMT45uWeraEZK8mmMlKTaUs2VUfj1boshyPPdiRKF3HsxrVHRw6deazIeyuVJ1dmJWKGjURWSoaoke3u/ekNR+49OHPj2q1TJ+fzEc/y9CjFDCB7WlUpUtuvXm1y7/7+5iX5dPtWAQAAAA==");
 
 export default VideoArrowUpRight;

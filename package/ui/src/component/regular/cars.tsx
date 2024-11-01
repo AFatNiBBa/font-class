@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cars` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cars?s=regular cars}
  * @preview ![cars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/cars.svg)
  */
-const Cars: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M137.8 48l140.3 0c10.1 0 19.2 6.4 22.6 15.9L317.9 112 98.1 112l17.2-48.1c3.4-9.6 12.5-15.9 22.6-15.9zM41.4 127.9c-.2 .5-.3 .9-.5 1.4C16.2 146.7 0 175.5 0 208l0 32 0 16 0 32 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 172.1 0c5.3-6.6 11.3-12.7 17.8-18.2L248.5 240 48 240l0-32c0-26.5 21.5-48 48-48l190.8 0c19.2-20 46.1-32 75.1-32l12.8 0c0 0 0 0 0-.1L346 47.8C335.7 19.1 308.6 0 278.2 0L137.8 0C107.4 0 80.3 19.1 70 47.8L41.4 127.9zM112 224a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm249.8-16l140.3 0c10.1 0 19.2 6.4 22.6 15.9L541.9 272l-219.9 0 17.2-48.1c3.4-9.6 12.5-15.9 22.6-15.9zm-96.4 79.9c-.2 .5-.3 .9-.5 1.4C240.2 306.7 224 335.5 224 368l0 32 0 16 0 32 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 320 0 0 40c0 13.3 10.7 24 24 24s24-10.7 24-24l0-40 0-32 0-16 0-32c0-32.5-16.2-61.3-40.9-78.7c-.1-.5-.3-.9-.5-1.4L570 207.8c-10.2-28.7-37.4-47.8-67.8-47.8l-140.3 0c-30.4 0-57.6 19.1-67.8 47.8l-28.6 80.1zM544 320c26.5 0 48 21.5 48 48l0 32-320 0 0-32c0-26.5 21.5-48 48-48l224 0zM336 384a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm216-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const Cars = createIcon("cars", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABqgAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDTwsGAAE2AiQDCAQgBYMtBysbygXIhofn9f77tU/ylDtGxsQX3EmVqNac/3M93/PRAL9NcLYhRFPr9jzK9kZ1VVp0QAcY7ZFCZYdnJ4p3tu3NEZPQboTCHvL4Oy5WRbomvYKLqg+Nr7V2OklVBiAaAWDSiiXzPPFFfBHx8v/3Ei+bg4CYBEqBDBnaCTBWJtBOrkQuF3wR//8v/gNLAohq8WkJ5CjwLN5hOoWkNs8bjK7zsSZ1dZWq+vlyeUexplJUrmjeL4oYEFe1XHqKiFPigVKo6DXdbmkbUZmX2q7Piriu5VU9KnHHiIresjyu7X5zUcS5XW9stXSZJAdk1XdNtxW3Yekh1/dsPPD60aeQNZtuah5xRWtR70156f1sSfand7690e3fdnpl+yvOuej8+LF+2N/QJxra/8PGBQL2NCk1Uuqp+aJFzXu60zFX3eVFpezVTwY+7rMn6qPdAke069vyfC37tjui3YLpGxY1b75I9/7Z8EFC68kTG3ZpXJM9gqxuu6B5x4Gf8GpWmvi29cXrE14x3m9ZkRkaiNPuP31qpw0Nx/5aW0ngq4e+/w2++P8n0snpdtRKIMj6/t/X2nQyiP4gdlIcqfPGFwWSR9WK37WeKwUIBQIk1QoBMm01EiBX6CNAlQ6GCVCtsEQm8jqhmXUdSOo5BGSGOwHkmrkbVBnrebtas8jgmYVG9ncyafoQmjapHNR/YDm6XE01HIjStndMeVjteaSs6YV32O6A/Q63zVa7KnKAHGqed4R9pm/B0/xQaZD+BiqNVl4unm5ebptDHWaXA/b7UcYonzd7OnK7eS9sJDHuYIkkESn/cAEA");
 
 export default Cars;

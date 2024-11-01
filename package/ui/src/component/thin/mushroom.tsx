@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mushroom` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mushroom?s=thin mushroom}
  * @preview ![mushroom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/mushroom.svg)
  */
-const Mushroom: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M135.5 82c12.8 27.2 40.4 46 72.5 46c43.6 0 79.1-35 80-78.4c-8.5-1.1-17.3-1.6-26.1-1.6l-11.8 0c-42.3 0-81.6 12.5-114.6 34zm-13.2 9.4C72.3 129.7 40 190.1 40 258.1C40 283.5 60.5 304 85.9 304l340.2 0c25.3 0 45.9-20.5 45.9-45.9c0-19.5-2.6-38.3-7.6-56.2C452.7 215.4 435.3 224 416 224c-35.3 0-64-28.7-64-64c0-29.3 19.6-53.9 46.5-61.6c-26.6-22.8-58.9-39-94.6-46.2C301.7 103.3 259.6 144 208 144c-37.4 0-69.9-21.4-85.7-52.7zM413 112.1c-25.1 1.6-45 22.4-45 47.9c0 26.5 21.5 48 48 48c18.2 0 34-10.1 42.2-25c-10.2-26.7-25.7-50.7-45.2-70.9zM24 258.1C24 133.2 125.2 32 250.1 32l11.8 0C386.8 32 488 133.2 488 258.1c0 34.2-27.7 61.9-61.9 61.9L85.9 320C51.7 320 24 292.3 24 258.1zm144.5 184L185.4 352l16.3 0-17.4 93.1c-.9 4.7 .4 9.5 3.4 13.2s7.6 5.8 12.3 5.8l112 0c4.8 0 9.3-2.1 12.3-5.8s4.3-8.5 3.4-13.2L310.3 352l16.3 0 16.9 90.1c1.8 9.4-.7 19-6.8 26.3s-15.1 11.6-24.6 11.6l-112 0c-9.5 0-18.5-4.2-24.6-11.6s-8.6-17-6.8-26.3zM128 256a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-80a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
-    </Icon>
-);
+const Mushroom = createIcon("mushroom", false, "data:font/woff2;base64,d09GMgABAAAAAAMUAAoAAAAABqgAAALHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDHwsGAAE2AiQDCAQgBYMtBy8bngXIjpQuM9gEz/e/pec+WAmsTok4Sc3EqH6LGzLkvlAzCFgz4tTznIcC+B7xoIxtUwOyxnnStQV6XsCxbfoCXEIVKxCWtYvbbo6YhDZC4gx0OUo7LlCLlQPMDG8lr4llHCg0DQAACQEAAKVXtzqnHsgDEef/fhCHqkAApAwANgJoeH4CAkAxNGR4Bjo2oKMj8ED+//f/gTYIAIib+CcpAHQgAtgBHAMAdAAUHl0PZwwmpqbxmy6/3sB0GU0XpxdZbx7MujV5gWHIuWrWoWwi2xgVOd/0y9TohTI6blO6DVm2xI2OX5jxRIVlmTblm5JhQ1zrdZbIPBZHzk+/MX5FllZr84rsrSpytaIp5ytfzr07ZVGmTel8cilev2G9hqbU28sK0zSf2yOqgZhSX+Zb8wxDpkQtiG4wQxdZKKOjFhhThJdjsj52ccwidee4JfFLM6ZuCW15m+J0cJjYfVxRyBYTql8/dNrv40PozZtAk1qOY9WjeJjEIdbNVeGwEXXqRoXRTTNsXtwroUfzi6lWigOOpV27k+vUxef3xs0O3Ibb2SH7Ax8Psme/fTsQIaFZ9ZgVkohZB4ONk6lhws1wly/v6YUHa+6eHmZhH3JMWRrsRXDplByZDgcmwaQAKYh8rVXPDh58tgpfDgACCEQf/9C+ZbDYV6+pAHh05P0v+SVi/j+QF2oL4EUBIKBl+5+NZoEYYuQFQuwqGUDqhrAIxQY8VWLHx4KrgWBAB4UbAxrxhKBjkBUuksjPH1xdl4boEQgWzTEUPnpDowDDoWOxFy6KcdF1Y4kGtyLUib+NaRWGRPlJdu4cuewi9mqhkUCRt6NF7cNGpgGyJTPeSQc99dBPe+101m9A9VE96K+7CltkeR9kk5sc5MKmCPbl6lOtwYAttL6eX5auj0NR7OedTAzY7p4Z24qYMQ9zFQpEebv379vp4wAAAAA=");
 
 export default Mushroom;

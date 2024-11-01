@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-plus` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-plus?s=light trash-plus}
  * @preview ![trash-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/trash-plus.svg)
  */
-const TrashPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M164.2 39.5L148.9 64l150.3 0L283.8 39.5c-2.9-4.7-8.1-7.5-13.6-7.5l-92.5 0c-5.5 0-10.6 2.8-13.6 7.5zM311 22.6L336.9 64l47.1 0L416 64l16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-18.3 0L388.2 452.6C385.9 486.1 358 512 324.4 512l-200.8 0c-33.6 0-61.4-25.9-63.8-59.4L34.3 96 16 96C7.2 96 0 88.8 0 80s7.2-16 16-16l16 0 32.1 0 47.1 0L137 22.6C145.8 8.5 161.2 0 177.7 0l92.5 0c16.6 0 31.9 8.5 40.7 22.6zM66.4 96L91.7 450.3C92.9 467 106.8 480 123.6 480l200.8 0c16.8 0 30.7-13 31.9-29.7L381.6 96 66.4 96zM208 384l0-80-80 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l80 0 0-80c0-8.8 7.2-16 16-16s16 7.2 16 16l0 80 80 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-80 0 0 80c0 8.8-7.2 16-16 16s-16-7.2-16-16z" />
-    </Icon>
-);
+const TrashPlus = createIcon("trash-plus", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABggAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCJQsGAAE2AiQDCAQgBYMtBzEbJgXIhod/9Pr/fZLMrHeTa+QZ+lIHooRaqJrusynseub/cs9v2tEBfqNDGdvWfj7Bx6z9PIEAv3YcbaGsF0imCVjWzv4Vg+gWgyQ9hGHzw+YMWbwc01RIXky+xOPxTeNXfe4hkaUAohUAqw/u3a72VXwV8WX9PeJLWxEQa0ApkCLFoADLpAKDMiUymeCrqNftf2BJAFGFz05AhipuxB2ADCSyLGue0jamqDRlB4pKfrR3oLeI/nguz+OhzoPTZ0wvime7nunM41C8MOnVcXm8PuHt/iORx3Pdz/cUxcx4eWIRr/XtO3zk8LNdzxZFPNzzfM/RaDwcJvyIYLZDCvGMLpgV4WPebn3799FfXvjSK8//CPhzfrSx4ZiGjU+1voALZs76qrn5q3Z95/S2jjzxqSdGWnv7zmknzbTufMH3TxzzxPf/beo77SGN9z/Q9KmmB+5vLKllj47sgjDHJnIXNrPUUD8PBIKHv3lr98mWZf+PKhLwzcd//h9+Ruq1qCVvY5QEBOm0+jTHogZREwCAJG4xJmoIJK6Uwas2ek6AkCNAoioXIDWgVYBMbqoAFcPmC1CV2ysVWYPQ6XgBiUbXg9QCt4JMp3dAxTKfZFWdkaqeqDjizy9tg0HWHytnz5hVLim7lSxpE+/3l5bLxqRb3GQynXTBta5xk/POueymir7B9vJmV9swotb7otJsM8xSWqLcbm+1Aya7wY0uy8r+IUuV95NJbhmvnkx2AoxzzCQSIslvuuH0jZemP10A");
 
 export default TrashPlus;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clipboard-list` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clipboard-list?s=solid clipboard-list}
  * @preview ![clipboard-list](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/clipboard-list.svg)
  */
-const ClipboardList: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M192 0c-41.8 0-77.4 26.7-90.5 64L64 64C28.7 64 0 92.7 0 128L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64l-37.5 0C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM72 272a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm104-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zM72 368a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm88 0c0-8.8 7.2-16 16-16l128 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const ClipboardList = createIcon("clipboard-list", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABgwAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCFQsGAAE2AiQDCAQgBYMtBzUbGgXIjsQ4RvENxULEw//b9d8+t+qp+hv1KWWCB2I42TgDg7TXpHLW/WVWy2/icud//vSAm/RRxtogXxujOc8TCPCti7eVBZQFlmkC1uC8UW071aFQfoY8zmXX1ZGeTd/iYfeh8ZPOrpM0ZQCiFQBmbVizzOfVqEZ8U4v4xhIExCxQCmTI0E2AqTKBbnIlcrmgGrUa+w8sCSDqhacnkKMRB3AckIOkPs/7tW1q0dS8Utc8X69Kii1vDIx4p1MRmMKnpHh20Lv9msfbQ97vmsVzg9/rX4AXutc+4kmX2z1R3O3wVFzp+HRl7fMD3uz8TN+3umyoFJUn2z/RroinOjzdsU2qFEEl9D2932v13i+9vvVbn332+2GOPN/fK61bFzMVePsVqLyf948c/n1mi9vcbgG7GOHUD+1XrWof7Wp5ObRVW7SoXoaCXYdajY11Bj4OBIIhP/wkLaf+01hJ4McPf/s//gjVPo/L6T00SiDIhtaG2hqXIS4LAECKk3rHZQSSHfbfuzbzlAChQICkXiFApqtWAuQKQwSo08M4AeoV1shE3iS0s62Ak2aOwJnxLsC5dj6A60z1RVGvXWSPHPfAcH98yfOrwLx95ajhI8vJZW9Xxj9FjN6eUk62B57kU4PgUTsdctBxO2y3x/EKdNSy2gkHzB8C5/mi0ijDjVSarFw8uHl4vR2OOmaPQw7aXaYot88HOjm8eBD0kkA6WkeSiNTie2dvSGXYfQsAAAA=");
 
 export default ClipboardList;

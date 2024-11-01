@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `smoking` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/smoking?s=light smoking}
  * @preview ![smoking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/smoking.svg)
  */
-const Smoking: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M464 0c-8.8 0-16 7.2-16 16l0 27c0 46.7 18.5 91.4 51.5 124.5l21 21c15 15 23.4 35.4 23.4 56.6l0 27c0 8.8 7.2 16 16 16s16-7.2 16-16l0-27c0-29.7-11.8-58.2-32.8-79.2l-21-21C495.2 117.8 480 81.2 480 43l0-27c0-8.8-7.2-16-16-16zM624 288c8.8 0 16-7.2 16-16l0-27c0-46.7-18.5-91.4-51.5-124.5l-21-21C552.4 84.5 544 64.2 544 43l0-27c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 27c0 29.7 11.8 58.2 32.8 79.2l21 21c27 27 42.2 63.6 42.2 101.8l0 27c0 8.8 7.2 16 16 16zM64 384l128 0 0 96L64 480c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32zm160 0l256 0 0 96-256 0 0-96zM64 512l144 0 288 0c8.8 0 16-7.2 16-16l0-128c0-8.8-7.2-16-16-16l-288 0L64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64zM560 352c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128c0-8.8-7.2-16-16-16zm64 0c-8.8 0-16 7.2-16 16l0 128c0 8.8 7.2 16 16 16s16-7.2 16-16l0-128c0-8.8-7.2-16-16-16z" />
-    </Icon>
-);
+const Smoking = createIcon("smoking", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABkQAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwiCWQsGAAE2AiQDCAQgBYMtBy4bVwXIhofv7fr/tU/3VffMPKof5Q8gkhyRGRgpnPqpEGnm/5p6GXSAn4/g0K5n1SAF1P18AgOO5CrwsuFsorjdaRKHaI9DJjLI8dnx2UAe/8QkbaQH0he4LX5o/GiAq0nyDEB0B8DyvTs3+6gZzYgvWq8TX9iIgFgBKoEMGQYLsEgmMFiuQi4XNKPVsv+BFQFEO2SSh8rRhVtwHyAHSUeeDxnSs6tvvV621fM9ZVtx8t29xTfbx8cLQ8Q9fe7rF/HolAnxwYiIe/vup9S3O5gXQ52jHpnMvD/80DPKohRF3Nj33oi4ot99ZVmv1UUtYldZ1PfU+XW14ulxz/cXD4x/YfTxd/eOerepJKeMeLH7iz8P/+KkL3z9YbMxiLWjVtljkEbTOeu/GebGwvvYsBHUS+Hi4cGpRy/H9GNcrnH99Y0qHfY4jsExj112++0vNRuXazSr2x/v0aOoFCr6+K+PtTo0LSP3A4GgNX/O90e7Lfq7s0zgh3d+/Tscr/VRujy9iE4JBNmk1iSH0uWg5QEkUlxkBPNFgeQaHfBda+4VIBQIkLQrBMgM0l2AXGGiAG2Gmi1Au8JOmci7hN4OF5DUnAsyc1wCcr29Ctos8nG8Xe/IhFIXKf1PmGNNja4eVU2fMq1aUA0LsiFnqh9cWC27xl3kGsbDSic521kucKITnOqCSjrP5tSFzrSGE1f7ocp0U0xTWaA6Lt8u3uNE5znfqc52Vhhmoep+bJyL+PbjwZug4gzjkkSkjvPPPPt1AwAAAA==");
 
 export default Smoking;

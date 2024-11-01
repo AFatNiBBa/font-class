@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice-d20` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice-d20?s=thin dice-d20}
  * @preview ![dice-d20](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dice-d20.svg)
  */
-const DiceD20: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M242.9 22.5L58 133.5l83.6 62.7L242.9 22.5zM48 146l0 213.9 85.6-149.7L48 146zM68.4 384.8L248 492.5l0-100.8L68.4 384.8zM264 492.5L443.6 384.8 264 391.7l0 100.8zM464 359.9L464 146l-85.5 64.2L464 359.9zM454 133.5l-185-111L370.4 196.2 454 133.5zM243.7 3.4c7.6-4.6 17.1-4.6 24.7 0l200 120c7.2 4.3 11.7 12.1 11.7 20.6l0 224c0 8.4-4.4 16.2-11.7 20.6l-200 120c-7.6 4.6-17.1 4.6-24.7 0l-200-120C36.4 384.2 32 376.4 32 368l0-224c0-8.4 4.4-16.2 11.7-20.6l200-120zm-2.6 372L144.4 223.5l-82.9 145 179.6 6.9zM353.4 216l-194.9 0L256 369.1 353.4 216zM256 31.9L157.9 200l196.1 0L256 31.9zm14.9 343.5l179.6-6.9-82.9-145L270.9 375.4z" />
-    </Icon>
-);
+const DiceD20 = createIcon("dice-d20", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCPQsGAAE2AiQDCAQgBYMtBy8bPAXIhuB5u6h6v3tmAfVuJGmwgu9iMnUGK5671Pz/793xb5v+b/gzCuW+X5v2oD1ozuMJBBotXksoCyzTBKzBeSMOMET27yGPZ21XIt2Z3sP17kPja91cS5JlAKItAGbUVy3xUiMaEe/9/zjxnkUIiJmgEMiQoacAk2UCPeUK5HJBI/7/n/0HFgQQZQGZ3JyjFXbiPkAOkhZ53gQYusJIi1KrvEYym6+r1CvVIBVCPWrVKtGHhzZwkQRFJTi0sb+gXru9UzVuJS53rMQtnWtxW0Rc6VJfPYVXyOvNWzTHu4ItorYmhWpnVPo91Pahb/u+t/M9Pz3w1MGwYtUU2x955ewXpLZ6q+q0Dt89ug9Gdni0/GqugtGyHW9eO1tYmaZya7MvN4HQ8as/vvr442+e8mSrhlZPFvNPPNEKp2ObbwsrVt7g0dKh+14hzs134OHNT265PzS+hodb1x4tQTwNa14HAsHOede9vanN5F+btkjgq2e+/yv/GRX/PxeN9BCaSiDIBv8/2PpEoYiGAACkOKlfohBINmoheNeWbhMgNEeApKy5AJke2gqQa26QACW9jRGgrLlVMpE3EzraUKOkpSMoM9YFlOvoUVQy2Zuxso6RXYaqi0j1F5h+bpuYs6wYMXR4MbGYrCvVV5ao5ycVq039T/K+AXCrnQ456LgdttvjeIs/aknyhAPmznFzfFFhhKGGK0xU7G7dX1+zw1HH7HHIQbvIJMX5vv5Ozo8eAK1JoHCkmiQRqel3Jjxk+8jhAA==");
 
 export default DiceD20;

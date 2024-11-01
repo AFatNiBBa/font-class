@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-dots` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-dots?s=sharp-thin hand-dots}
  * @preview ![hand-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hand-dots.svg)
  */
-const HandDots: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M216 0l8 0 80 0 8 0 0 8 0 24 72 0 8 0 0 8 0 56 72 0 8 0 0 8 0 240c0 92.8-75.2 168-168 168l-8.5 0c-63.7 0-124.7-25.3-169.7-70.3L36.5 352.3 8.2 324.1l-5.7-5.7 5.7-5.7 56.6-56.6 5.7-5.7 5.7 5.7 28.3 28.3L136 316.1 136 40l0-8 8 0 72 0 0-24 0-8zm96 184l0 64 0 8-16 0 0-8 0-208 0-8 0-16-64 0 0 16 0 8 0 8 0 200 0 8-16 0 0-8 0-200-64 0 0 287.4-13.7 5.7L93 295.8 70.4 273.1 25.1 318.4 47.8 341l89.4 89.4c42 42 99 65.6 158.4 65.6l8.5 0c83.9 0 152-68.1 152-152l0-232-64 0 0 136 0 8-16 0 0-8 0-144 0-8 0-48-64 0 0 136zM208 324a12 12 0 1 1 0 24 12 12 0 1 1 0-24zm64 32a12 12 0 1 1 0 24 12 12 0 1 1 0-24zm116 12a12 12 0 1 1 24 0 12 12 0 1 1 -24 0zm-20 52a12 12 0 1 1 0 24 12 12 0 1 1 0-24zM260 432a12 12 0 1 1 24 0 12 12 0 1 1 -24 0zm-84-44a12 12 0 1 1 0 24 12 12 0 1 1 0-24zm148-52a12 12 0 1 1 24 0 12 12 0 1 1 -24 0z" />
-    </Icon>
-);
+const HandDots = createIcon("hand-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABsAAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASDaQsGAAE2AiQDCAQgBYMtBzAb6QXIhof/12Xe9yX7aDTLoGXGLkDUbcq4C0KHXDqpiNvM/1zz+ZXd0QF+o0OrWqZVWkQ9n8CEypobdD6f6QRsZ9teBREN8UYonCGP1x3WRHoqfYQHwvr4RU+3kmSZBKIDXmrBtk1rvNMarREfNl4kPrQKAbEAVAIZ8oo+AsyWCfSRq5DLBa3RaMj/wIoAohl5WQI56vgc3wNykNTyfMaGWhKrN7XNtxYflrvqZV2IennIV7Pf2FzG3TNfm7s1Rka36B6bhLdrjBDeLOLEuojYIogyknAZiFHOilN0ibkxMmZfim+JZ2a8yiPfznt728nmm2s2P9b10S6Pd3ui+4pG3qJ5Zho/wzfjW/Ft+w1s6dDy24CPjn7k27eLYn+hh+VFiUy/7Z9i6R//L43ChKef7bh9hw8tsdidltjidQ1dFIrlPRT7Xp6flBQ6KHzGa/N7f+E9yZLy+fr72keO5hdt365x441jCvOj5amY/6P57jyWeFBh/Ljg2D3XyvIaMTUa76V6yVhimjQlTrk2jeLkI5OuBwLB4199M3hf+9n/FfUEfnjtj1/ozyhrvBPfpRYUEgiy0Y3Rdicyw+M7AQBIcdXARCaQvK8medc2HhcglAiQNCsFyPTWQYBcaZQATfqZIkCz0iaZyGtCF3t6SNq4AJmproNcF89Dk9neTTTrEhlw86DJ/1umLB0jS1ZVE8aOr2ZWmw2tAK+sXZxVnbYOvyoHRuCdjjrnrMuOOOyEyyP6ojXpK85Yukct8UWVCcYarzJTdbv9vHSrIy665MS6yf1lZqneDw53dX/8COxIEsaJSpJEpNq3kBhz+NzlSwAAAA==");
 
 export default HandDots;

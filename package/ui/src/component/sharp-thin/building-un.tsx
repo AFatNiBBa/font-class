@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-un` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-un?s=sharp-thin building-un}
  * @preview ![building-un](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/building-un.svg)
  */
-const BuildingUn: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 16l0 480 128 0 0-112 0-16 16 0 64 0 16 0 0 16 0 112 128 0 0-480L16 16zM160 496l64 0 0-112-64 0 0 112zm-16 16L16 512 0 512l0-16L0 16 0 0 16 0 368 0l16 0 0 16 0 480 0 16-16 0-128 0-16 0-64 0-16 0zM80 232l64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8 8 0zm8 64l48 0 0-48-48 0 0 48zm144-64l8 0 64 0 8 0 0 8 0 64 0 8-8 0-64 0-8 0 0-8 0-64 0-8zm16 16l0 48 48 0 0-48-48 0zM104 64l0 64c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64 0-8 16 0 0 8 0 64c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-64 0-8 16 0 0 8zm120-8l8 0 4.9 0 2.2 4.4L280 142.1 280 64l0-8 16 0 0 8 0 96 0 8-8 0-8 0-4.9 0-2.2-4.4L232 81.9l0 78.1 0 8-16 0 0-8 0-96 0-8 8 0z" />
-    </Icon>
-);
+const BuildingUn = createIcon("building-un", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABlAAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCDMAsGAAE2AiQDCAQgBYMtBzIbsgXIHgflpjNL2iji3UZEr/Or50n+K0sL8hLqHwDhUn7AQcQUESWJ61KMLnYzA6kqrm/5iWuevzU9YBI/WgfFEguo+3wgUQLt8wENZw820wnYFrddrRkqIY0QeUKdJ91kRHmjwHMhofnLGtspqgpAegAcf+mFZ/t2mmnyx+xz8oczEcjxYBBUqLBewFEqwXq1AbVamGY2E/+BAwEyJyWygBodvsT3gBoU47peMV62bDwZz+/ajRbVl3Sj9spSlS5J0nUiXaosvLxru6SN5W3XJlWSbpGUSHtL13Yi0rY5Zc3vHXvpMmOF6FJxiXhj5zfX2bMR2bz85XYrX70snEuvyMV98YZ4ZS6pZt550w7v9O/8M+8Wlnw4nU43u0+vP693n82mrnvOcR13n+PcN9u8+fneVK+/zzmbVi3XndY4TqPB7rP7JRVff+7YpjlvxZ4J58vjUn7F+eevIGCvZvLNu5PJu99MJuceXdA0i5bZ7XznsK2u05CvA0E48e0XXbvkqP+broA/v/nvr/wzMvs2m8vRKCBUe832clU2QzYLAKDkETtkM4LiQ2PpUxd6VUC0CCjmtAIq6/QCaq09BYxsdLCAOa0LVVKPxXJXd0Sx0P1E5RBPE7XlPiVGjvJLYc7yVAAsgJ/w+5h6yhA4+dSw/z77DUcMq01VhEnOLh85HHZ3e0QO7Y4fusW97vGQm93kdg8N8AecXX7Y3U7Zwk72RYP97WM/gyMMlztP1Uto4QEPun3Zcn2VIw3Pp3bzyPbk3XFQJNYD1BWFlO4LD/d++B4=");
 
 export default BuildingUn;

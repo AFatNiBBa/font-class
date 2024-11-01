@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blinds-raised` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blinds-raised?s=sharp-thin blinds-raised}
  * @preview ![blinds-raised](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/blinds-raised.svg)
  */
-const BlindsRaised: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M16 16l0 64 480 0 0-64L16 16zM0 0L16 0 496 0l16 0 0 16 0 64 0 16-16 0L152 96l0 80 0 16 0 80 0 16 0 128c0 .2 0 .4 0 .7c22.7 3.8 40 23.5 40 47.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-23.8 17.3-43.5 40-47.3c0-.2 0-.4 0-.7l0-128 0-16 0-80 0-16 0-80L16 96 0 96 0 80 0 16 0 0zM104 176l0 16-86.9 0L0 192l6-16 18-48 17.1 0-18 48 80.9 0zm80 16l0-16 304.9 0-18-48 17.1 0 18 48 6 16-17.1 0L184 192zm304.9 80l-18-48 17.1 0 18 48 6 16-17.1 0L184 288l0-16 304.9 0zM104 272l0 16-86.9 0L0 288l6-16 18-48 17.1 0-18 48 80.9 0zm40 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const BlindsRaised = createIcon("blinds-raised", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABjwAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCewsGAAE2AiQDCAQgBYMtBzQbfwXIhofn7eo791X1oDFkfUJLItoIUrYOsnUqxO3zfz/1B32KBeC1kQ0tMniNEXl8QJ8G+miJkYQDm+kEbNbmOIRXUOWGHCoeIX2kYXwals6Qx4dOUSI9mb7B/e1D41f9biHJMgDRBoA1h/bt8NlP8VPE1/W3ia9tQ0CsAYVAhgxDAiyXCQzJFcjlgp+iXpf/wIIAogFvSyBHM57Cs4wEksY8b17ViqLOSqmWHzz2l48WahFR7amUW4WEclWgbtzv6e5HPdH1yPhneh4buLH38UlhJCgrlyN1QLj29sasqMT0qBwIUYuZsX5GdEd5/8wZMyFVjahVF0134654PG7seax8V9cjbuh+tDL2hbYXfh/zzWnfaH11Nck/We2nelubNqt17vBujbx5A0T66KWO7NvvZs/+7tus46WPkuAGbQzeK9o2Qqe/2kbyofbjjWo3as+uVm2fI0XHay/tGqW+SCxqM+fG1ZJJP7bcwR0tvUVUgbjt4r+mHnd86/L/myoJ/PLBn7+qv6L6Z0l6AU0SCLLp9emOSSARAIAUlxmbIJA8rhFPVj0mQCjjRtKgjMygNuTKpqFkxAKN8cQ+mcibhS7HApKqC5FZ6FrkuryJkuU+TzfoisxLdT6m+0nMvFGzGzYVc2bOLpYWjy2n3vE0eXVZYXZPviyOTMFepznfeS5xqlOc6RKlvMiO3KXOtXHGb/BFhTlmmq2wVLHdfdx+0KkucrEzne+8us4yxfvxyS6bT58CX0K1c51KEpFqJ51z5nmnXDzjywAA");
 
 export default BlindsRaised;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane-lock` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane-lock?s=thin plane-lock}
  * @preview ![plane-lock](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/plane-lock.svg)
  */
-const PlaneLock: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M256 0c-19.8 0-35.8 16.2-46.3 33.3C199 50.8 192 72.6 192 89.2l0 86.8 0 1.3L20.7 271.9C7.9 278.9 0 292.3 0 306.9L0 355c0 15.9 15.1 27.4 30.4 23.1L192 333.5l0 18.5 0 44-54.4 40.8c-6 4.5-9.6 11.6-9.6 19.2l0 34.1c0 12.1 9.8 21.9 21.9 21.9c2.2 0 4.4-.3 6.4-1L256 480.4 355.6 511c2.1 .6 4.3 1 6.4 1c2 0 4-.3 5.9-.8l0-21.1c0 3.3-2.6 5.9-5.9 5.9c-.6 0-1.2-.1-1.7-.3l-2.4 7.6 2.4-7.6-102-31.4c-1.5-.5-3.2-.5-4.7 0l-102 31.4c-.6 .2-1.1 .3-1.7 .3c-3.3 0-5.9-2.6-5.9-5.9l0-34.1c0-2.5 1.2-4.9 3.2-6.4l57.6-43.2c2-1.5 3.2-3.9 3.2-6.4l0-48 0-29 0-141 0-6.1 0-86.8c0-13 5.7-31.9 15.3-47.5C233.2 25.6 245.1 16 256 16c11.3 0 23.2 9.6 33 25.6c9.5 15.6 15 34.5 15 47.5l0 86.8 0 6.1s0 0 0 0L304 323l0 29 0 48c0 2.5 1.2 4.9 3.2 6.4l57.6 43.2c2 1.5 3.2 3.9 3.2 6.4l0-24-48-36 0-44 0-18.5 64 17.7c.1-5.5 .8-10.9 2.2-16L320 316.9l0-121.3 98.2 54.2c1.1-5.4 2.6-10.7 4.4-15.8L320 177.3l0-1.3 0-86.8c0-16.6-6.7-38.3-17.3-55.8C292.3 16.2 276.2 0 256 0zM28.4 285.9L192 195.6l0 121.3L26.1 362.7C21 364.1 16 360.3 16 355l0-48.1c0-8.7 4.8-16.8 12.4-21zM528 208c26.5 0 48 21.5 48 48l0 64-96 0 0-64c0-26.5 21.5-48 48-48zm-64 48l0 64-16 0c-17.7 0-32 14.3-32 32l0 128c0 17.7 14.3 32 32 32l160 0c17.7 0 32-14.3 32-32l0-128c0-17.7-14.3-32-32-32l-16 0 0-64c0-35.3-28.7-64-64-64s-64 28.7-64 64zm-16 80l16 0 16 0 96 0 16 0 16 0c8.8 0 16 7.2 16 16l0 128c0 8.8-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const PlaneLock = createIcon("plane-lock", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABvgAAALvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDiEKwsGAAE2AiQDCAQgBYMtBzEbLAbIhof/z5ne9yUrU3kYFGKnwOT0MNISYVde7IDBv39p/OJHM/74luAhjdXSxI1rLIHGK/pTndYdPy/WKopdNofJRS2UEdIPkMc/DlAj3ZrextXBh8Y3RlxAkmUAohsAGzR32sarH8aHEW+3niLethUCYkNQCWTIMC7A2jKBcbkKuVzwYbRa4j+wIoAoRLZNIMc0/EwUgBwktTy/trNnXm+91pHvWq+Vu1/WH3FD/yPDQuwcDwyLcwZuHGqGEFvHDcStsy/vh3eJG+tU3ldZXlb2x1DsGtixc+q6LCLWuUPbxc2BiHPHbp/74MithDiXY+rPGdgmbhSx7rpjixPiXSNil7h5aFf0baM3Dd5ULm/u3BQ7xw2D4YX3f3AgDDMiyj23D908d2uhjMv6b/DJcL0el88oz8nHnOUFtlvw2JwH5j0yvHO9rN84IG7oL+OmwYibh2Y81v3Yd9PfPuhtrVe6nuPRM9rLpvDYXtYqGtovuujxexfqtchyN7XP0Lcsq/aflLiqrEYNqNUiBg06cEpK/jsjimKGfPrtpucNE65UaBr88k/dX3452FSAK01o7HjUsF8s0utHbUMb9DjVvqsYmnvQ6kJT+e8Zzz3X9cnE/bsFl57qwcXOaWvofPqXbRrv8k62vn2sL3vn3UZr/Si/W+cll3Sek0/e01Z2W1/Z03PPPV5u2bVdd/c9H076P7xHeT0QCI55/LWt9u5a+7e2egIfP//D3+gSrVfTOekxtEkgyBa1FtnDRMBjBxBNcZIZ+KsIJF+rid7V7iYBQokASaEUIDOmG0OutBBqJq1yQKG0k0zkKwj99tRC0u5YyKzqTMj1ewJq1vZarNAfGfRrsKv9fObYtI9tsqtatqRRrVktdtQ6QCt2c61qt3veSXJiPkY6yNGOcoIDHeBQJ/SI42yTPNGRNl3DN/FDlWWWaKisqTrdf1y/qwMd53iHzuvnt7GW6v7APCetz5+PfUkkuaK6JBGpdKnOxS4TAAAA");
 
 export default PlaneLock;

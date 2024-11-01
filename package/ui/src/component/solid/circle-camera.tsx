@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-camera` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-camera?s=solid circle-camera}
  * @preview ![circle-camera](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/circle-camera.svg)
  */
-const CircleCamera: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM196 160l6.2-16.4c3.5-9.4 12.5-15.6 22.5-15.6l62.7 0c10 0 19 6.2 22.5 15.6L316 160l36 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32l-192 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32l36 0zm108 96a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const CircleCamera = createIcon("circle-camera", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcQAAAIMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBZQsGAAE2AiQDCAQgBYMtBzQb6QTIjpQuZyQRfK8r6/el2bI1ZpABEA8A4uMUGNOtSwniqRD8+b/Z855HAX6j0PbQQBbYns8TSGxqnlAW2JmegB3LWTedpx9Sbk1e9JKG8TUs0QV5vJ7dqEJ6LH2Be+pL41ft3UjSMAMQzQAwbc2KRd6pj/qIz2svEp9bgICYBkqBDBk6CTBRJtBJrkQuF9RHrZZ+A0sCiDr8axPIUcEqbAHkIMnyvGOvxtVK43x1tVKs+nlJxNcz3o9r099b/NXqHxZ+MfUdV6e9u+jLVevbtmr7SNtqPNm6dVTjjtYPEVdbPVgUcXubhyPiWttHqtVVj/d+qucT7R7r9WSfpzt2f67Zc7/7YvcXalNmuZf7JnSaMaPThPvunWWWe406YQvODv81mc1b9NTk1lubXJXqO93b88CW4vCFC4cL3AcCwcQbu5Zbmk78v0E1gV9e+7N+jdTeSdJzaCCBIBtYG2hjAokAAKQ4rXuCQLJIhk9t5GEBQoEASZ1CgExHzQTIFQYIUNHFKAHqFFbIRN5QaGWTgKSRYyAz2iWQa+V5UDHRx1adVpGFFhEYxMsudraFZi2VwwYPLceX00gjowXL0wnlstr3tFb6YdduRxx20i477XPSIMctck85ZLYHz/JBpWEGG6o0XrmdPq6vtstxJ+xzxOEyZ4LyvNnXab+9H4yEqMP5kkSkxj9whEEXBAAA");
 
 export default CircleCamera;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `line-columns` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/line-columns?s=regular line-columns}
  * @preview ![line-columns](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/line-columns.svg)
  */
-const LineColumns: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M24 40C10.7 40 0 50.7 0 64S10.7 88 24 88l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 40zm0 128c-13.3 0-24 10.7-24 24s10.7 24 24 24l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 168zM0 320c0 13.3 10.7 24 24 24l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 296c-13.3 0-24 10.7-24 24zM24 424c-13.3 0-24 10.7-24 24s10.7 24 24 24l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 424zM288 192c0 13.3 10.7 24 24 24l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-176 0c-13.3 0-24 10.7-24 24zM312 40c-13.3 0-24 10.7-24 24s10.7 24 24 24l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L312 40zM288 320c0 13.3 10.7 24 24 24l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-176 0c-13.3 0-24 10.7-24 24zm24 104c-13.3 0-24 10.7-24 24s10.7 24 24 24l176 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-176 0z" />
-    </Icon>
-);
+const LineColumns = createIcon("line-columns", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABgwAAAHYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCFgsGAAE2AiQDCAQgBYMtBzMbGQXIngNu0zyijpJHE5HSRPM0eUSXXUWQrOXsHpTQAdlWoWKh2aGsQqPrSNgqAmFrzKe2urXnP4zLd4DaP8AZYMOIBoWuPNdFN6a8ZIY8T2309/m/nN4APsAvfmugjE1bzzf47cZ8nkAaUC8un8BZz5dpAtbubMq0NO2RJAlJjm/luDxOUMZLpCLvErgKTxq/DM5JVQGA6AcAG7utCj5b0Yr4a16JbyUQEBsAJjFQoMAoBljGEhjFNglKpaAVTYP/gQQBRA25W4ISnTgBlwBKkNpLtlgssYmII2F36UXh6EZ/ZRXF/ci1Tai4W2hHZ7xDhGN8b6695SOm7+VP/1Pm6G4aGk3jARE9RiEbCyGs6xZYyHviYoOe7nyAQPCnft2XLf/xu5iAn6//089IU8p7tEsQFLPNrHGCJAAAGfswJQTSMT551G7XAoROBEi1TgEKI+QYoNRpBgNUxkUxQK3TJpYoBQjDJgWkbqegsOQAlIY9g8qyr6w2HIXO6Rqjv/hysjWa2UZBX4BSNKxkQ41Uv56mZd+x78accBBzG9btmplaslth2yrlnjXZGS7zRSTIJ4Ck0HZ7u79rZtuOJRvWeZM0Oh877M9nOyFiEsk5O1ISKf6FwrjQAAA=");
 
 export default LineColumns;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left-to-bracket` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-to-bracket?s=duotone left-to-bracket}
  * @preview ![left-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/left-to-bracket.svg)
  */
-const LeftToBracket: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 128L0 384c0 53 43 96 96 96l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L96 32C43 32 0 75 0 128z" />
-        <path d="M171.3 283.3L294.1 406.1c6.4 6.4 15 9.9 24 9.9c18.7 0 33.9-15.2 33.9-33.9l0-62.1 128 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-128 0 0-62.1c0-18.7-15.2-33.9-33.9-33.9c-9 0-17.6 3.6-24 9.9L171.3 228.7c-7.2 7.2-11.3 17.1-11.3 27.3s4.1 20.1 11.3 27.3z" />
-    </Icon>
-);
+const LeftToBracket = createIcon("left-to-bracket", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABfwAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBdwsIAAE2AiQDCgQgBYMtB1obIwXIhoentX89d2b/DwBtogBBJQoAuGVVVceqQgVkgfUz4tTznIcC+ACeMS0537hA5u46r0DPp2Zgz2s1qGkNrG86VOYYgeytIWEio+NKj68XFPFLPqqKdCv9jAvyP4Dxq1aOktTKAKIhAMbMmDLZt+/iXYqfK18TP5uEgBgLSoGMjLYCDJcF2iqUKBSCd6lS4V1UKiUBRDV5cwbVKDAfKwAFSEIUReeedarqFdNlq/aMadOnXatzpsWNiKgTiEPNr9euvXm66dS46mCznHK61+XVAJ9n+TSrkRetB3WM9a87v2zb6XXD1793/Hn5z14/3T2tW/Xr3xrRkQ6qf/Jk/dHdOWgkopH2ZGG6xY1GzdevD2IudMLi+UMHX7+uCQSCwZ99vL+gwfD/a9ZJ4MM3f/6Lf0eVd0l6jZoSCHL3SndzE0gEACDFdp0SDxHIekrmZl3XBQi1QUiq1UbWRkMUauuGKu0NYIMbU2RR1BKamgeQ1LUJ2UD7UGjqK1QZ7ju3WtPIRcaXCP+PlzJRExMulX169i6Hlo+5U6gb9jgdVoa1ztt7rwvMWm6D9bZaZqlVtipqs8nBNutM9MgJvqjUR0+9lYYqt6vvynRyN9tilS3tnzNM+b7e2XZ/ugtcJwH6fp5QJlLkFpn3pMfWDT0Wb160ZM2yS8jY0VaWlJ4=");
 
 export default LeftToBracket;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `potato` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/potato?s=light potato}
  * @preview ![potato](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/potato.svg)
  */
-const Potato: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 144c0-61.9-50.1-112-112-112c-31 0-59 12.5-79.3 32.9c-29.6 29.7-65.7 56.7-102.4 76.8c-18.8 10.3-34.3 25.8-44.6 44.6C121.6 223 94.6 259.1 64.9 288.7C44.5 309 32 337 32 368c0 61.9 50.1 112 112 112c23.6 0 45.4-7.3 63.4-19.6c30.5-21 65.4-38.4 100.4-50.2c34.4-11.6 62.4-39.6 72.4-77.2c10.7-39.9 34.1-78.9 64.3-107.2C466.4 205.3 480 176.3 480 144zm32 0c0 41.5-17.6 78.9-45.7 105.2c-25.8 24.2-46.1 57.9-55.2 92.1c-12.9 48.3-49 84.3-93.1 99.2c-32.3 10.9-64.4 26.9-92.5 46.2C202.4 502.7 174.3 512 144 512C64.5 512 0 447.5 0 368c0-39.8 16.2-75.9 42.3-102C69.8 238.6 95 205 113.6 170.9c13.2-24.1 33.1-44 57.3-57.3C205 95 238.6 69.8 266 42.3C292.1 16.2 328.2 0 368 0c79.5 0 144 64.5 144 144zM180 264a20 20 0 1 1 0-40 20 20 0 1 1 0 40zM168 396a20 20 0 1 1 -40 0 20 20 0 1 1 40 0zM364 200a20 20 0 1 1 0-40 20 20 0 1 1 0 40z" />
-    </Icon>
-);
+const Potato = createIcon("potato", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABgwAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCAAsGAAE2AiQDCAQgBYMtBy0b/QTIHoPjbokhGIaYYii4ev4XK4JorazunXsAdkjq2b6EoIyLi1EMwkbICB3hURLYrMGPe+99ehCUHCLBEhaVllTd6H9/6nnOQx/wGQVlT/0gGSChNTvOK1CR6dOW0ASraQWs5i73GaW0n9BaSEt/tcfXHkochCk6+Tof8bB8aHwxqoNUKgBEDwA4uhgThtMP8SHisd4i3jkBAXEMYAZBhQoTCNhFFZhAMwOKIvgQdU3/gZoQQDSBHylBQTOugesACkiNQtOaZrPZXDqfFs9tcAqGjQmZ39k0PAycVFx1nVUdMpqz2zE5CJkxWVDZ8DjQ4Y7uHmoOGs7aXjru2l67H2tPeJzYrLg8YFvA1d6RVua08oDBlFKvbmziu5mgztKeF81/aD3mP3q/Kvznx8+fXx6c/PS/m2i619r4V1Svjk6L2rsG0ZzerX971tOkIjyafT272aiq2jh/YevjOt99FnBIg5gRt70XXVz0ErgoENz7vCHNEO7+Y7VTAJ/efn2rv6L6NOUbtEgQVEu1qdQESQAAMuqhnUAgXUUH3OGFNQ5tDEhN2qAyTgRFm0VomGLHHq4+RRWFjTAgDZA63IDKjjYoBmxAw66boMlAUB2NdxP+m5fiLwm/ZZpW5paazprLVBN8h83zLprHjmF9bBlhJ/JVKFcrT64itQJVC4vrlPHfkX6+SJMVc5Y0OdM0F2slXgTVahTNTfZFXGjex4bq98NG8CmYcoOWT5BIRmVFbVZtBQAAAA==");
 
 export default Potato;

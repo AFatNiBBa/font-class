@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `barcode-scan` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/barcode-scan?s=sharp-solid barcode-scan}
  * @preview ![barcode-scan](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/barcode-scan.svg)
  */
-const BarcodeScan: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M128 32L64 32l0 160 64 0 0-160zM64 480l64 0 0-160-64 0 0 160zm96 0l32 0 0-160-32 0 0 160zm64 0l64 0 0-160-64 0 0 160zm0-288l64 0 0-160-64 0 0 160zm96 288l64 0 0-160-64 0 0 160zm0-288l64 0 0-160-64 0 0 160zM448 480l32 0 0-160-32 0 0 160zm0-288l32 0 0-160-32 0 0 160zm64 288l64 0 0-160-64 0 0 160zm0-288l64 0 0-160-64 0 0 160zm-352 0l32 0 0-160-32 0 0 160zM0 232l0 48 640 0 0-48L0 232z" />
-    </Icon>
-);
+const BarcodeScan = createIcon("barcode-scan", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABfAAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCPgsGAAE2AiQDCAQgBYMtBzMbQQXIHoex82RJFZpQfhzGw/drr+e+3dD+FPmViBQwOWBLoBJdC6Tq0JhMbSeyCptZ9Rdmrb4PXU5/DnrAM3q0sduLF/BeHAUUaJivoQFlYRZQYtzbNBWKEMIjiIiIchEdn8e7a9tBGb+L2+pILxLcS28aP/Vxm6SpABCdAbB4y4b1PrVFW8T3/2+I79YiIBaDLFCgQH8B5ikE+itllEpBW/z/7/8DMwFEPWGSn5XohCu4CyhB0qEsm1ygVjdYm/PmakdVq0QtYmutotVVqEWimPw2Ipof3Sh0ioiOQ152rn2ww1xrWbRoUatFWheeC3tzzghl3yL0ZVi8ZxDHrg166ss4ZOGGeS/RMnLypOsmuQ4EghGfH9jTad6vxloCPz5uL+f735aup9AogaAY93+cnek6+AUBSykuG6J8UCC5pAN41WZPBQgVAiT1KgEK/XQWoFQZK0CdgaYLUK+yQSHKJqG7XQ0kzc6BwgxXQKm7V6DOPJ+L9bpHYYeaFWlvgdkrenT5ujx5wqQ8Jy9rqm5aCs/OzdvBUZdDz2jY6rAzTrvokIOOudhJ562vXHLKCk1c7ouyySaYJJsjHzcf7c1UPO+CY3Of82Xmyvezo1zWh4+GSCKyU1QliUjNv4+QOXPw0Kf0nNM=");
 
 export default BarcodeScan;

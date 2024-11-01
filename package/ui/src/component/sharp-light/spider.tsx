@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spider` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spider?s=sharp-light spider}
  * @preview ![spider](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/spider.svg)
  */
-const Spider: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 146.6l0-14.1 26.1-8.7 5.1 15.2 21.3 63.8 110 28.9L76.3 138.9 68.9 131l4.6-9.8 56-120 29 13.5L107.1 125 176 199.3l0-47.3c0-32.2 19-59.9 46.3-72.6L236 73.1l7.2 13.3L256 110.3l12.9-23.9L276 73.1l13.7 6.4C317 92.1 336 119.8 336 152l0 47.3L404.9 125 353.5 14.8l29-13.5 56 120 4.6 9.8-7.3 7.9-86.2 92.8 110-28.9 21.3-63.8 5.1-15.2 26.1 8.7 0 14.1-.8 2.5-24 72-2.7 8.2-8.4 2.2L382.9 256l93.2 24.5 8.4 2.2 2.7 8.2 24 72 .8 2.5 0 14.1-26.1 8.7-5.1-15.2-21.3-63.8L367.2 285 437 382.7l4.9 6.8-2.8 7.9-40 112-30.1-10.8 37.2-104.1L367.9 341c-2.6 59.5-51.7 107-111.9 107s-109.3-47.5-111.9-107l-38.2 53.5 37.2 104.1-30.1 10.8-40-112-2.8-7.9 4.9-6.8L144.8 285 52.4 309.3 31.2 373.1l-5.1 15.2L0 379.5l0-14.1 .8-2.5 24-72 2.7-8.2 8.4-2.2L129.1 256 35.9 231.5l-8.4-2.2-2.7-8.2-24-72L0 146.6zm270.1 5L256 177.7l-14.1-26.2-18.7-34.7c-9.4 8.8-15.2 21.3-15.2 35.1l0 104s0 0 0 0l0 .4 0 7.2-5.4 4.8C186.3 283 176 304.3 176 328l0 8c0 44.2 35.8 80 80 80s80-35.8 80-80l0-8c0-23.7-10.3-45-26.7-59.6l-5.4-4.8 0-7.2 0-.4s0 0 0 0l0-104c0-13.8-5.9-26.3-15.2-35.1l-18.7 34.7z" />
-    </Icon>
-);
+const Spider = createIcon("spider", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABsAAAALWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhASEGgsGAAE2AiQDCAQgBYMtBy0bFwYR1ZplyT4SqpvrMWUMRwhPUMYRybfxPP/+Sb/PzRsyGQufrtVT3XdHq5wVeOLH3Ls/MbuJo5bM0qQh4onUKI1GKCuVUPDpTz3PeTbgBwtQFMd86cJ5PjaOMc4rUNBaS2thsZ6rQE0rYB22DaOC6udiXM9Q5VEZqwXlevMaXNp7Kr9KuYSiqgFIZwAs2tHZ46m/fJW81ryfvGYHgSwGBgpqEfpCLHORIlEZyCathK+k2fwPVAKkpREl8lX5nT9AKkAFilJVd063a9Gh2p69rm0tMiI9MinbpC/x1LNDqtkqPZFcmLmxXk+P9EqfVIlbU9eDx/alnoile7ZC4cnUpSFCdFPo6BHVy9D0zORsl7Vrxa5l+W7cMfVA6678wvSk4jPRlbF05yIQEptCd3pG6w81+jR6Z3yuSsqFE+LusjuycnPzzukH23cXkltaPZOEt+mG+NjBdwXv+h/02vGvGe44vuE61jvgtL627+UEq8y4wOtMnmbpKiZoPHvPqvfdeZEBdz5g855nGxPIicmneR2xollOsG2v6hMbrHedjqK+Qt1F9tbtbTjLCCQVnVzr5bk9dcsOsdxwI87wMZUTbDPu92NvvXXs93HbWudjYni45SKKvmJTuFYnfoSzxbqzwx2qj8cPVPK59USA1pa4pmot28+DnY/bLk7VNStaA05UfT4YCMLMcvbnYWDp/9btCvjm98+/Hb+i5rNGuQtaKyDUxjbH2luAQgAAJeczuEBQfIERebW9awREWwQULbUVUNNHZwGVtsYIaKG/aQJaamuLmlRtBI6y/xDD65lYzPBFrKL8EJslBkm7qFhCvRZmtX/O7HWYWlul4yNjuqDMhksPyAp3cVGlQ42PYqAZbeWCRx5445wzrnmDxBf2Mu/cs86j1/giyjgjjKEsoNrtcbsPhV94LRS6ob/MImo/3uCDP74ZGR8oP7kQCpOWFPvr0/XZ+Qs=");
 
 export default Spider;

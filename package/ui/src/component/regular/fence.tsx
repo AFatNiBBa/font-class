@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `fence` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/fence?s=regular fence}
  * @preview ![fence](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/fence.svg)
  */
-const Fence: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 32c7.8 0 15 3.7 19.5 10.1l40 56c2.9 4.1 4.5 8.9 4.5 13.9l0 48 64 0 0-48c0-5 1.6-9.9 4.5-13.9l40-56C241 35.7 248.2 32 256 32s15 3.7 19.5 10.1l40 56c2.9 4.1 4.5 8.9 4.5 13.9l0 48 64 0 0-48c0-5 1.6-9.9 4.5-13.9l40-56C433 35.7 440.2 32 448 32s15 3.7 19.5 10.1l40 56c2.9 4.1 4.5 8.9 4.5 13.9l0 336c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-48-64 0 0 48c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-48-64 0 0 48c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32L0 112c0-5 1.6-9.9 4.5-13.9l40-56C49 35.7 56.2 32 64 32zM320 352l64 0 0-144-64 0 0 144zM192 208l-64 0 0 144 64 0 0-144zM48 119.7L48 432l32 0 0-312.3L64 97.3 48 119.7zm192 0L240 432l32 0 0-312.3L256 97.3l-16 22.4zM432 432l32 0 0-312.3L448 97.3l-16 22.4L432 432z" />
-    </Icon>
-);
+const Fence = createIcon("fence", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABjAAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCcAsGAAE2AiQDCAQgBYMtBywbbAXIHge5KfNWojnKm4kIvtdV9vvSTM1Kx6C7CAjADOGmzswZJ8GWU5dDbzqFyly17/N/uef3/OgAv9GhjbXoaK3iOQEDDAPNA4kCygIrwBNMwHrb8HiM8IWFSElY/MBxu0MeP8TbaqRP0t94q75p/KuvRyS1DEB0AcD8rRtX+7Ut2iL+aiL+shIBMR9UAhkyDBBglkxggFyFXC5oi2YT/wMrAog6flwCORr4FN8CcpDU83xvS0vJPVTrmG8pa8XOlz3nxwdEGRH3ey+Mj0rzvSnu9Xi/KOJFrw8joggoZqFoe1mUc2ZL44tz8ZaUpdI76xd9yo7t4KW3Ig1t7dL635BHmvtVh+tXTW6MM884jcVXHe9g2ut0evas07yKO7NqcV3Iac6dx8Nvm+ftu2+J89bWaXClMk279l/J+WVqBbg8wzQgELz5ba+9nWf93ygT+Of77fgj1GxLUisaEgiyUc1RdiWQCABAiiuGJggk73rsV+3gQwFCgQBJXSFApr8uAuQKIwWoGWSyAHWFjTKRtwg97B4g6eA8yExxG+R6+A7UzPJbUtcjsgQl0ov4HsYu0dDiS9X4MeOqGdVyRMicw+h0ZrWtDrtiVobDTUecdcYlhx1y3CWFXLA6v+y0JR682AdVxhtjnMoMVXi6Zbeo5IKLjs9FccdMOMP9cJgr/vbhYCSMOgGfnqCZakcOnzl4GA==");
 
 export default Fence;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-check` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-check?s=sharp-thin comment-check}
  * @preview ![comment-check](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/comment-check.svg)
  */
-const CommentCheck: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M71.9 376.4l3.6-9.6-7.3-7.3C35.2 326.3 16 284.7 16 240C16 136.9 120.2 48 256 48s240 88.9 240 192s-104.2 192-240 192c-30 0-58.6-4.4-85-12.4l-4.6-1.4-4.6 1.4L42.3 455.4l29.6-79zM16 480l19.3-5.8 131.1-39.3c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 49.6 21.3 95.1 56.9 130.8L23.1 461.2 16 480zM357.7 181.7l5.7-5.7L352 164.7l-5.7 5.7L224 292.7l-58.3-58.3-5.7-5.7L148.7 240l5.7 5.7 64 64 5.7 5.7 5.7-5.7 128-128z" />
-    </Icon>
-);
+const CommentCheck = createIcon("comment-check", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdwAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCCAsGAAE2AiQDCAQgBYMtBzQbDAXIhofv1/o893UvAPcS8sASkWKHCcupOGK3qIL2Vyyq6Jk69TzTQgF8o6CsRWti0u1jzPMKFPAx9Z6v81KtYDWtgFXdlFK0qk/Ao8goYxMpO756nLtCHt/aoxHpWXqLR/qh8Zdu7pBkGYBoC4C51fUr/dQQDRFv6p8TbyxHQMwFhUCGDD0FmCET6ClXIJcLGqJez/+BBQFEY7htAjkaYSsuAXKQZHneq0+3Fo1a5ZUGa17t0rFL5/i58ke1kL+VyV9Lz7s7qXN0jFJUS4MHDK7G5y3+WP5m9o/9P571w7LXlV+XvJzxXfHb2lJ03e/jt6x1oWGnWDsKu0S1X61t7Z++b/e9tXjxFDSf09/8WD1vUiL3B8+skaVg5OW5xjrfT69Vk/cPBPzWIJ+MXuzuO717N2tWs3fuLsaQWL6v70a7ykMX4nU1JRcvea6kZqG6kpLr14FA0HPXh7e2t5nxf9MWCfz5zX9/0V9RvSFJNTSVQJCNqI+wJYFEAABSnNMvQSApy9C7tvRYgNAcAZLGmguQ6aGtALnmhgvQSG8TBWisufUykTcTOtp6gaSlkyAzyVWQ6+hT0MgML6qNdYws2MRQEX/10hZZZOG5YuyoMcW04nVoSvHD9+PpxbY55JwsDaWL9jnumDP22uOgM4Y+ZWXjrKMWraiFvqgw1ihjFKYp3JPvWoXDU04L/yz7T5mu+D4d4tx681ByEjCO05MkIrU63cbIUwsAAA==");
 
 export default CommentCheck;

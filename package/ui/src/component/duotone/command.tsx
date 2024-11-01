@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `command` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/command?s=duotone command}
  * @preview ![command](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/command.svg)
  */
-const Command: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 416c0 53 43 96 96 96s96-43 96-96l0-32 0-64 0-128-64 0 0 128-32 0c-53 0-96 43-96 96zm64 0c0-17.7 14.3-32 32-32l32 0 0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32zM320 96l0 32 0 64 0 128 64 0 0-128 32 0c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96zm64 0c0-17.7 14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32l-32 0 0-32z" />
-        <path d="M0 96C0 43 43 0 96 0s96 43 96 96l0 32 128 0 0 64-128 0-64 0-32 0c0 0 0 0 0 0C43 192 0 149 0 96zM320 320l64 0 32 0c53 0 96 43 96 96s-43 96-96 96s-96-43-96-96l0-32-128 0 0-64 128 0zM128 128l0-32c0-17.7-14.3-32-32-32S64 78.3 64 96s14.3 32 32 32l32 0zM384 384l0 32c0 17.7 14.3 32 32 32s32-14.3 32-32s-14.3-32-32-32l-32 0z" />
-    </Icon>
-);
+const Command = createIcon("command", true, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABrwAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDLAsIAAE2AiQDCgQgBYMtB0obyAXIjsO48RpQ/MXBJILv1/6tz535NBOGW1GAoBIFTI7BAeu8yCV0rFLrA3Zr5erheXL3vqoUchT7NsXJM9mpUTD/13x+z4/av9GhZC0bG6xL14ADX/ssCnATnOkMbMO2GVVUjgU6lico431xXRvpWfobj7r/AYx/DXadpKsAEL0AsGTDmtV+/RgfU/zdfEn8bRUCYinIAgUKDBNgvkJgmFJGqRR8TE3Dx2iaTADRbnjTArSjwtf4GVCCpFSW5dCBvXsP7TukT93WvVxft1XFm3GJd7OeMddwUYeoqitxJb4eO0ZsdVWTEsfoPh08J1FFRL0+xJUBrbrbr7jcv9b1OnEE7w3cseureDUm8XbGO+4emcFfhfI1X47uw+YrAxNP6jrE5X6lujugxRZBiDoi6pBYPseOmZzkvf7VS6qIUa1e47/17/1/29nZonX5cqvVmV222OWdACYXfVi8eOdB00uz/F9+yUvucft2j3lsbhpkRDapL86dcigvZjrJTaK5ZlHOuTVZlARLjd4PBIJ/3o/Zu6Pn/P876wQ+f//9+w9J82uSWuiUQFCMb8bbmkAiAAApzhs1AYHCZqXhM7p5LECoECBpVwlQGKqXAKXKOAHajDBDQLx9jUKUXUI/226QdHMKFGa6AEr9fAHazPdbsl2/FO6Xd33832PKShBasSpPmTg5z83UolNwkmw9PC8L20efz5vGhEftd8JxZ+2z1yFnAeS01ZlzjlnJglf4omyKiSbL5srKlVFlPZA87YxDZEl9mnmy+fBo59mdx4SuZKCcakuhIFIUPd9YY8J3YPYGJQ8PAA==");
 
 export default Command;

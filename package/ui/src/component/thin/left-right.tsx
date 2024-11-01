@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-right?s=thin left-right}
  * @preview ![left-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/left-right.svg)
  */
-const LeftRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M504 236.7c5.1 5.1 8 12.1 8 19.3s-2.9 14.2-8 19.3L404.3 375c-5.7 5.7-13.5 9-21.7 9c-16.9 0-30.6-13.7-30.6-30.6l0-49.4-192 0 0 49.4c0 16.9-13.7 30.6-30.6 30.6c-8.1 0-15.9-3.2-21.7-9L8 275.3c-5.1-5.1-8-12.1-8-19.3s2.9-14.2 8-19.3L107.7 137c5.7-5.7 13.5-9 21.7-9c16.9 0 30.6 13.7 30.6 30.6l0 49.4 192 0 0-49.4c0-16.9 13.7-30.6 30.6-30.6c8.1 0 15.9 3.2 21.7 9L504 236.7zM496 256c0-3-1.2-5.9-3.3-8L393 148.3c-2.7-2.7-6.5-4.3-10.3-4.3c-8.1 0-14.6 6.5-14.6 14.6l0 57.4c0 4.4-3.6 8-8 8l-208 0c-4.4 0-8-3.6-8-8l0-57.4c0-8.1-6.5-14.6-14.6-14.6c-3.9 0-7.6 1.5-10.3 4.3L19.3 248l-5.7-5.7 5.7 5.7c-2.1 2.1-3.3 5-3.3 8s1.2 5.9 3.3 8l-5.7 5.7 5.7-5.7L119 363.7c2.7 2.7 6.5 4.3 10.3 4.3c8.1 0 14.6-6.6 14.6-14.6l0-57.4c0-4.4 3.6-8 8-8l208 0c4.4 0 8 3.6 8 8l0 57.4c0 8.1 6.6 14.6 14.6 14.6c3.9 0 7.6-1.5 10.3-4.3L492.7 264c2.1-2.1 3.3-5 3.3-8z" />
-    </Icon>
-);
+const LeftRight = createIcon("left-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfwAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCLgsGAAE2AiQDCAQgBYMtBzEbLwXIHgnZGeZ9EUuNxknEw/+v/es+dyDJTBhmPRVgVEhYQGG/rSs7YCGJZVflz1rp9wrRn7jc+dNv+vNp9EhjrNq4QaI5CaZg79ED5llgASWegKVuihXaTwoeKhKGC0M8vo4d1x6Qxwf2KUjvpq/xsrxp/G2AeyRZBiC6A2DBxrVrfPpD/BDxdTvia6sQEAtBI5Ahw2ABZssEBss1yOWCH6K9Xf8DGwKIkkOJnecnXcZ9QA6SlOeT59RFl3xDXVR733Sr97p4o3rS962IqELc6g3ehrC82/02xtv10z5vEnUEClJe3/82aVVv9BaVrOKtvtF80ntd9Ht94g23+vSOfrE+3qzfVi2ErOPNPoynhwpHq61727++PvC1/7tY1xf37vWoc5dHj7pM8KkJxqmdH+3da106U7S02KTy+y4zlLu+t6ucocunHSbt3WuJJVpF0WoTOPh9ybPvAYFg2u9TOuzsNvu/jnUCP71/+Q0lqQ0dJRBko9tH25ZAIgAAKS5oJQgkpyX+qp29JUCoECApVQJkBukuQK4ySoDCUFMEKFXWykTeSeht+2STzk6zmamus7ne3mMLs33WKfWOLP6k6JH+/tKXIrDkVjNh7PhmZnM7NOSQEujxrOaxP/yCLY1IuQ446YRz9tvnsHNAnLGmf95xSxm+xAc1JhhrvMZMzfbkq74BSmecNWEt759glsb52nAX+OYRKUqcc6KBJBGpeiWlrxcA");
 
 export default LeftRight;

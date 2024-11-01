@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `language` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/language?s=regular language}
  * @preview ![language](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/language.svg)
  */
-const Language: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l208 0 32 0 16 0 256 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L320 64l-16 0-32 0L64 64zm512 48c8.8 0 16 7.2 16 16l0 256c0 8.8-7.2 16-16 16l-256 0 0-288 256 0zM178.3 175.9l64 144c4.5 10.1-.1 21.9-10.2 26.4s-21.9-.1-26.4-10.2L196.8 316l-73.6 0-8.9 20.1c-4.5 10.1-16.3 14.6-26.4 10.2s-14.6-16.3-10.2-26.4l64-144c3.2-7.2 10.4-11.9 18.3-11.9s15.1 4.7 18.3 11.9zM179 276l-19-42.8L141 276l38 0zM456 164c-11 0-20 9-20 20l0 4-52 0c-11 0-20 9-20 20s9 20 20 20l72 0 35.1 0c-7.3 16.7-17.4 31.9-29.8 45l-.5-.5-14.6-14.6c-7.8-7.8-20.5-7.8-28.3 0s-7.8 20.5 0 28.3L430 298.3c-5.9 3.6-12.1 6.9-18.5 9.8l-3.6 1.6c-10.1 4.5-14.6 16.3-10.2 26.4s16.3 14.6 26.4 10.2l3.6-1.6c12-5.3 23.4-11.8 34-19.4c4.3 3 8.6 5.8 13.1 8.5l18.9 11.3c9.5 5.7 21.8 2.6 27.4-6.9s2.6-21.8-6.9-27.4l-18.9-11.3c-.9-.5-1.8-1.1-2.7-1.6c17.2-18.8 30.7-40.9 39.6-65.4L534 228l2 0c11 0 20-9 20-20s-9-20-20-20l-16 0-44 0 0-4c0-11-9-20-20-20z" />
-    </Icon>
-);
+const Language = createIcon("language", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABlgAAAKdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCXwsGAAE2AiQDCAQgBYMtBy8bXgUR1ZoJyX4kZG7oaz6gTyenz11XhbLwSVDgWlWdZA4ycwSk4AnIvntLhBpB3gr3gIoVATLhxnFsIRwYbsDl7n+39tCysYH2sAQDe24KpJE0/5d7fs+PDvDzERzaWLgmyG1tjPE8gUCjMZZYFmYBBYYxZ+30EoNwJkmf8iTD+MNmB5x+axcBmMMmBuzML6oP5FkHhsACAKBUAABg4PTJY3n4Sq+kvv/XoD5GAwLQQACUEmABCxQSAD0sAgo5SoHDIXil///9f2ApCAAUB36ZAcAB8cAu4BgA4AAwBM7lR7nxgyVBkpsmCfxsoVa6lGt0uO6yL0y62HDVYnWk/oo/mnrLMtqXGckqacFg2tTDmef0+fLK1b7qA5bpOpizXze1uam5UeFiIRd5ncs97AvDQ7VStg5k7tNlaV9mpvbl7Q/k6OLhCVXan3NQX63V/oCuluQo1MWCI37vJftQ+RXllX9ZbFmM/ncqDdICPi3t1K/1lGpsgP8tr5Ih+RWUYnv//jvriPaPYOdaRrGWncGPCTwGox4+HMXiegyiusvT0hyd0rDCiIpLHvjM06f37t1h/do2dqM7g1Zyfoqbyvf7yvf1SHDsSSam6KmNrn0PAAQIuvcunK/o+ZoQGgDe3P7yzZxpVpkrQAIGAIFt/N/IHLMKwKMFAK7RCpQLbyTAsIkAPGvEAQSA8IAAMMThEQCWAqkEgMPTQAAEFOsiAOLwTMYil4jINHcAQwTdAwp5XAENLT6AQRVfh4WWsHpJahX5LYwbxqGh/Urb4kln2bnM6pSq4bG74jzmay+hKkRjmdjaOBkbmTsx5KDhn63VJbjmg5xIIY4knCjDeV14Hj40dnA0t7VJvVTgfG8HcZEbh0giAcx2pBmQgMgEXQUA");
 
 export default Language;

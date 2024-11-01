@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `diamond-turn-right` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/diamond-turn-right?s=regular diamond-turn-right}
  * @preview ![diamond-turn-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/diamond-turn-right.svg)
  */
-const DiamondTurnRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M50.9 249L249 50.9c1.9-1.9 4.4-2.9 7-2.9s5.2 1 7 2.9L461.1 249c1.9 1.9 2.9 4.4 2.9 7s-1 5.2-2.9 7L263 461.1c-1.9 1.9-4.4 2.9-7 2.9s-5.2-1-7-2.9L50.9 263c-1.9-1.9-2.9-4.4-2.9-7s1-5.2 2.9-7zM215 17L17 215C6.1 225.9 0 240.6 0 256s6.1 30.1 17 41L215 495c10.9 10.9 25.6 17 41 17s30.1-6.1 41-17L495 297c10.9-10.9 17-25.6 17-41s-6.1-30.1-17-41L297 17C286.1 6.1 271.4 0 256 0s-30.1 6.1-41 17zM315.3 148.7c-4.6-4.6-11.5-5.9-17.4-3.5s-9.9 8.3-9.9 14.8l0 40-48 0c-35.3 0-64 28.7-64 64l0 48c0 13.3 10.7 24 24 24s24-10.7 24-24l0-48c0-8.8 7.2-16 16-16l48 0 0 40c0 6.5 3.9 12.3 9.9 14.8s12.9 1.1 17.4-3.5l64-64c6.2-6.2 6.2-16.4 0-22.6l-64-64z" />
-    </Icon>
-);
+const DiamondTurnRight = createIcon("diamond-turn-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdwAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCAwsGAAE2AiQDCAQgBYMtBzkbDAXIngU5mdc44klEHA9pG+iyM5+mWRpB/H7/m9177hezJIomzySxBqF6tqZaIREidLHQzaPEZ8HYvMe1PmJSoaktubU1QvK6hsWFItb/CZJmq/Z97NL4x59m/IwebUxbunAD7hV/gYo19YqV1gKraQWsbxsK1ojC04gQQ4loTBurPZR4RtdRkw8Eb3GtfWj8MmpCqisA0QMAdh9uVfDxPt5HvGkg3tgDAmI3YAahQoUJBLYRCkwQmQFFEbyPhvQfyBBANOEjSlBQ4xg4AaCAVJUyNuZU1p3lULu47fDhdm+lvGTu0AJnB9o0V1y0dGlJ56xLu73B2QUStp4V6NFeC34UdngAb2dpmg+A2uKxdzMCeuBaj1PcsypDnDUvhlu0sjTtu57dn9m3J29tfP7L1lwpc70HaY++mYSREeTAvRxeOPmkeVFvvXrFOvPehjkKzft1Xorb0/HwISAQtJ5+9/+otvi3RZng49P/0K+o8ZHyCWiRIKiWG0HjBCQBAMg4w54QSEcI8bV2uCtAaEOA1KRNgMo4HQJFmyUEalNSCDRps59QlFZhwMEEqcNxUNnqFRQD3kFtm3+3yUBUkcbECfPRSyxLqLSJY+Eo59lMDDZ4qLIs8LbsfckNH+zEiVs3nhw7cu5JIA8qwbNrZQ8u+SIWExbF8vg4X2/vOvbg0blbN3VNAd/XvV78fh9oAky6USglkX2PWwoFOPNYAQ==");
 
 export default DiamondTurnRight;

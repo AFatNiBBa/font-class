@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transporter-3` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transporter-3?s=sharp-thin transporter-3}
  * @preview ![transporter-3](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/transporter-3.svg)
  */
-const Transporter_3: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M56 8l0-8L40 0l0 8 0 32L8 40 0 40 0 56l8 0 32 0 0 32 0 8 16 0 0-8 0-32 32 0 8 0 0-16-8 0L56 40 56 8zM472 328l0-8-16 0 0 8 0 32-32 0-8 0 0 16 8 0 32 0 0 32 0 8 16 0 0-8 0-32 32 0 8 0 0-16-8 0-32 0 0-32zM104 448l-8 0 0 8 0 48 0 8 16 0 0-8 0-40 288 0 0 40 0 8 16 0 0-8 0-48 0-8-8 0-304 0zM288 48a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM256 0a48 48 0 1 0 0 96 48 48 0 1 0 0-96zM168 384l-8 0 0 16 8 0 176 0 8 0 0-16-8 0-176 0zm-8-64l0 16 8 0 176 0 8 0 0-16-8 0-176 0-8 0zm-56-64l-8 0 0 16 8 0 304 0 8 0 0-16-8 0-304 0zm24-64l0 16 8 0 240 0 8 0 0-16-8 0-240 0-8 0zm72-64l-8 0 0 16 8 0 112 0 8 0 0-16-8 0-112 0z" />
-    </Icon>
-);
+const Transporter_3 = createIcon("transporter-3", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABmwAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDPAsGAAE2AiQDCAQgBYMtBzQbwAXIhofn9fr/tU9ylXlGnqRK4ifVuSkAdjP/l9Mbk47m809yeki7NWnZ2NamvS2Bw0DTXtYWyALLNAFrcN7kQwiJofwMebxtixrSnekzXO8+NH7S3iUkWQYgmgFg2vLFi3zweXwe8Wn1VeJTCxAQ00ApkCFDJwEmygQ6yZXI5YLPo1pl/4ElAUQt/6UJ5GiEd/ARIAdJkefdunVt2bjSQDOVmsb5MtlQrA5RBAwVYqUiHOErlSO6O8XWUYsNRaUQfcONKwVdvuqCVhG3FFe1uS0ubHt75erWtxr8SLs72t/Z6/GOd3e4q/eKtdoxiWVCrnfhxlKbVHti96eaPfVLt8+2fWbM6/X19c3UK5UZVK7Wa+50/5RJev/xeL2hQ1DfsL5W69bWH7++yRVc0SRpYqXVB759/fVvH4Dh5ef3d7yB8q9PadasWeH57VTHWORqOwD/jz8Pn3gcCAR/vz/8nvVNJ/5TX0ngy7d++yn7Gal+kKSnUC+BIBtYHWhNAokAAKQ4pnuCQPKKgv+ujdwmQCgQIKlVCJDpqJkAucIAAWp0MUqAWoXFMpE3CK2srUDSyEGQGe0syLXyMqgx0Ye5Wq0iu4z1i1D/icwxu4nOsiqHDR5aji9HmwrjylT18oRycaDvsc5QP3jUNvvtc8RWW+x0pMEesqh41F6zp5hZvqg0zGBDlcYrN3fuOpY1cocctnPYtn2fCcrj430dm57cD4YTX3a4A0kiUuMvT+TQoBEA");
 
 export default Transporter_3;

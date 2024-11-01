@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ant` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ant?s=light ant}
  * @preview ![ant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/ant.svg)
  */
-const Ant: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M513.9 36.7c3-3 7.1-4.7 11.3-4.7L592 32c8.8 0 16-7.2 16-16s-7.2-16-16-16L525.3 0c-12.7 0-24.9 5.1-33.9 14.1L456.2 49.2C406.2 56.8 368 99.9 368 152c0 14.3 2.9 27.9 8.1 40.3c-2.7-.2-5.4-.3-8.1-.3c-27.4 0-52.2 11.5-69.7 30c-16.5-54.4-67.1-94-126.9-94l-6.1 0C74 128 0 202 0 293.3C0 343.4 40.6 384 90.7 384l34.9 0L66.1 488.1c-4.4 7.7-1.7 17.4 6 21.8s17.4 1.7 21.8-6L162.4 384l29.6 0c4.8 0 9.5-.3 14.1-.9l-60 104.9c-4.4 7.7-1.7 17.4 6 21.8s17.4 1.7 21.8-6l78.7-137.7c12.6-8.1 23.4-18.6 31.8-30.9c4.6 8.1 10.3 15.5 17 21.9l-11.2 18.6-.2 .3s0 0 0 0l-64 112c-4.4 7.7-1.7 17.4 6 21.8s17.4 1.7 21.8-6l63.9-111.9 10.1-16.8c12.2 5.6 25.8 8.7 40.1 8.7c12.3 0 24-2.3 34.9-6.5L443.4 418c4.6 4.6 8.2 10.1 10.6 16.1l27.1 67.8c3.3 8.2 12.6 12.2 20.8 8.9s12.2-12.6 8.9-20.8l-27.1-67.8c-4-10.1-10-19.2-17.7-26.9l-35-35c6.8-5.9 12.7-12.7 17.6-20.3l85.1 60.8c8.3 5.9 14.4 14.3 17.6 23.9l25.4 76.3c2.8 8.4 11.9 12.9 20.2 10.1s12.9-11.9 10.1-20.2l-25.4-76.3c-5.3-16-15.6-30-29.4-39.8L461.5 310c1.7-7.1 2.5-14.4 2.5-22c0-11.6-2-22.6-5.8-32.9c4.5 .6 9.1 .9 13.8 .9l61.3 0c41.2 0 74.7-33.4 74.7-74.7c0-64.9-46.4-119-107.8-130.9l13.8-13.8zM400 152c0-39.8 32.2-72 72-72l2.7 0c56 0 101.3 45.4 101.3 101.3c0 23.6-19.1 42.7-42.7 42.7L472 224c-39.8 0-72-32.2-72-72zm32 136a64 64 0 1 1 -128 0 64 64 0 1 1 128 0zM165.3 160l6.1 0C227 160 272 205 272 260.6l0 11.4c0 44.2-35.8 80-80 80L90.7 352C58.3 352 32 325.7 32 293.3C32 219.7 91.7 160 165.3 160zM496 164a20 20 0 1 0 0-40 20 20 0 1 0 0 40z" />
-    </Icon>
-);
+const Ant = createIcon("ant", false, "data:font/woff2;base64,d09GMgABAAAAAAN8AAoAAAAABwQAAAMyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDcwsGAAE2AiQDCAQgBYMtByob7QXIrgfMw2j4G2sSZZiM2imLnMjGS3mcdcPnSpjg+fLv69x+PYC7JoIdQVxntDIi/7Wpc8LzMC7fP2MC2paUnOAkpyWoEqGBFUq7Orc15+OB52x/50HjPR/gaAMfz8KMSzDhgHt5N1DgkIO2gsTiK5dEteJTN3/Y79a0wmgvixILmLsSYSCgeP99nss9P5AN+MXPD+l22Vjbs7k57nmiN7BFdZgfSEvYGrbNrEW2YzKeeQI6+B3YQZ0UD2DzZiMP/laAoiM4gPTgViiubajnyZu8BfLqH+SqDBCALAAYAixggVACII9FQCjNAE0T2MTb8h84ggBAUsrzFAANHMBn4CvIis0pu1iv8XXz0xvt3HSz0c557qLRKLt9d9nOss6VJwdxZ8Il3joC7zrU3iud5dN88azHny1cpFF2uHc6LeIi631p9+nAnVagiCy1dITIvnE2Nl90vibhX91tN8sunwJZ9G3qyX0xzU7KhM9OapTTieeDY9mlMqBxNVHkfKyL3Iw/Gy0xdxCDnEo45zetxZ0Bvviwi6gq9BudXUx+ZPLmq0tj9vnHp8dX0+nAfekJd28SeU6d+8If/oCcSzSl2CwW24rPazTPjmv9e1V6y8Wtn/87Uy7fb1Kq2TPdGEnugc6Ty9ltmHAOe2EnZ3VPk3h5l3cAKDzOIjDegt/gbT/CcF5AKZOeq+Liid3nEewZq8rjTqV/GZ2Pl8l+tayprC8iuLI3NDrk8wsPPno+n3r73FMh9S6OXNwbHIOdoxhbZqZ76CT++P2+jxkWa7Zzj9xfECOytXm2scT6JU3Vs2osr4LgIQGCK6+y0GDN+1cFwJez/996839hs+Ic4EgBEFiTFzoVS4Bwyx5E1VTBAiLLHxKgvEatTLvaFdsWzqBQ7DnDEsITmrNY2AmXLnnaNGCR2Anhq4sSiqvZsGRYCM3XddjJ87RhzzdQ5nAlfyoXmHkreKL8mElPSDI5xtiD1Uwrzbu5xtsft6CfiS4NGWaGaeYxxCBjzOO4OdS35zNFhY1f/l0jWYIkRg4TPVz2NnPNOcxlTK/GHyKXOT8dZYF9eXQZUg7BFBVF+dFxoq9rHg==");
 
 export default Ant;

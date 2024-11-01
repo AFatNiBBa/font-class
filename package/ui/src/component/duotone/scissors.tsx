@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scissors` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scissors?s=duotone scissors}
  * @preview ![scissors](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/scissors.svg)
  */
-const Scissors: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 112c0 61.9 50.1 112 112 112c14.3 0 27.9-2.7 40.5-7.5L192 256c21.3-21.3 42.7-42.7 64-64l-39.5-39.5c4.9-12.6 7.5-26.2 7.5-40.5C224 50.1 173.9 0 112 0S0 50.1 0 112zm160 0a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm96 208L396.8 460.8C410.9 474.9 429.5 482 448 482s37.1-7.1 51.2-21.2c3.5-3.5 5.3-8.2 5.3-12.8s-1.8-9.3-5.3-12.8L320 256l-64 64z" />
-        <path d="M216.5 359.5L499.2 76.8c7.1-7.1 7.1-18.5 0-25.6c-28.3-28.3-74.1-28.3-102.4 0L152.5 295.5c-12.6-4.9-26.2-7.5-40.5-7.5C50.1 288 0 338.1 0 400s50.1 112 112 112s112-50.1 112-112c0-14.3-2.7-27.9-7.5-40.5zM64 400a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const Scissors = createIcon("scissors", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABjQAAAJCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCEAsIAAE2AiQDCgQgBYMtB0wbLgXIjtEnJ4gynnnmiSCqXkTVqmX1DN+jTvG5X6H5jTnhUFgcEo9GWRThMWID+wrH+PDr6v35s5pZnvgPYttLBBMygOR6TUpXClj3Lk49z3kogG8UtD0sF5AFPud5BCKwWh0TpOAFrWkNrNbOfkGJ3iTpie+SYXvD6AI9L+0ZC1Cv3B14yf8DmC+WximKBgCyDQC4nacl4GLKVLkbJ+RDPAiQOwAHCGiggR0EcIEiYAePgY5HYKoxYMoYDAKQReQPbIBFsATuwSOADigc2nkblaVKI0pUfKYoEbKqyqtmzPaFCfd0si2cuO/aLHnshZx7HdiPWKUvuO24bFnOOm+6blvRJQ9C9kIm3WLIgVcsWSDLnvuhqCRqFPZaRkZmxp446TVjPm2WSZId97X7bw53lXd4nVtalVMOD9NtbdN/fh3OPj8MGo3h77MumJXMugmNfX2NgtOQvNTwG2aulfgflUpnUGU12EWPU0zce6NeKtUfHWEAAYGHp6KnIk30n1zkAHy+ffyg/o7Ge/5rHyzjAIF29u8tvwAqBgEAUOmEYwEQ0ISgOFg3LZgjQIciJUBjTQudwAsW2Akh0noainQFCBMFBBylFqBCDQDPxDFIRLt0pUxCLY6yF+q/Fx8nEf0cC/D1Z5FsG2q0ERFxHMVg3b3TlzzoKCo1adSuQrka7QJrlRB0aBCnoXpfxATw5Y+JxI6TZz5TuK3a1KzZ8ylR2H3HXafe7EEWh3HPXdNQSBGqbSuraWtram3zMV3VaGDfKA==");
 
 export default Scissors;

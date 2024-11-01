@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-plus` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-plus?s=sharp-duotone-solid plug-circle-plus}
  * @preview ![plug-circle-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/plug-circle-plus.svg)
  */
-const PlugCirclePlus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 160l32 0 320 0 32 0 0 38.6C310.1 219.5 256 287.4 256 368c0 11.4 1.1 22.5 3.1 33.3c-11.1 5.1-22.9 9-35.1 11.5l0 99.2-64 0 0-99.2C87 398 32 333.4 32 256l0-32L0 224l0-64zM64 0l64 0 0 32 0 96-64 0 0-96L64 0zM256 0l64 0 0 32 0 96-64 0 0-96 0-32z" />
-        <path d="M288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm160-80l-32 0 0 16 0 48-48 0-16 0 0 32 16 0 48 0 0 48 0 16 32 0 0-16 0-48 48 0 16 0 0-32-16 0-48 0 0-48 0-16z" />
-    </Icon>
-);
+const PlugCirclePlus = createIcon("plug-circle-plus", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiQAAAJAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCMgsIAAE2AiQDCgQgBYMtB1wbYAXIjtRWcxRJchPB19hv3919lYZm04SHIloymUYoNLwFjZTAUCkBP9qP9eYLsovLIOKSoARPomeazksgn6ZryPyfzbfnowF+HsHQ7ov2BnKBn3ecQMBZ8U0J3aBZAWXEjW67WhNUQvN1xg5K3Knb0ElPyg/AnfsfwPiDo20gaWQARB8AcHBVVYKPt3Sr0I/Hp0B8oxgExCGAWYSMjEkEtqkCkzSzoCiCH+XxEfihx0cGAogq3CtkUEUNN+AWAAUkSS6as4erqanUTbVaqYuujTCiy6Q3cjfhVcg51oPP4l+KncTXoRdUJ6RAiKZAtCRCtAjwUulC8K2qFKaIr+S3vG577A1qe59S33uSduqkmA81a9Kf4HlicfLH40fvD7gf+TEwO7Ly9bWyZvajEfZZe2XMbIFw4X2GxUo4LDD7S7O87oe1nWBTyzBD6y6k67I0lygYLH1vLz09ndEuXTt+w5cDBILD19z8NvPk/0ZSAfy+/vczno//j0q6cgKoSyDIC4/BaE7pAAxLwPenmIVnSicGBLJtKrBrbbsHgdBEgKSqKUA2wQKBomkegYppMQhUNZ1RRTFGGGspQdJ2DbItK6AYewIqtn32qsahHoLUAUR9AMbn1uGcVRwRGs6JPBjJ9FFF6GkSz9b9Z3klAG5ErzGjpvXoNmC6hk4qCWeMyB1DcrwRixAqHEvEq9PbfC32Jk0Z6GfXL5OE93f9zY63B0BLEXDXrMkykUh1eDfIIT/r8CGlPRVyPC90Gu9kT14AAA==");
 
 export default PlugCirclePlus;

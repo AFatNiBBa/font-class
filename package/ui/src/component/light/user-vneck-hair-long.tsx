@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-vneck-hair-long` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-vneck-hair-long?s=light user-vneck-hair-long}
  * @preview ![user-vneck-hair-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-vneck-hair-long.svg)
  */
-const UserVneckHairLong: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M320 128c0-5.5-.5-10.8-1.3-16l-30.1 0c-14.9 0-29.1-5.9-39.6-16.4l-6.3-6.3C223.4 113.5 194 128 162.3 128L128 128l0 16c0 53 43 96 96 96s96-43 96-96l0-16zM224 0c70.7 0 128 57.3 128 128c0 35.3 16.6 68.4 44.8 89.6l4.3 3.2c9.4 7.1 14.9 18.1 14.9 29.9c0 20.6-16.7 37.3-37.3 37.3L320 288c-8.8 0-16-7.2-16-16s7.2-16 16-16l58.7 0c2.9 0 5.3-2.4 5.3-5.3c0-1.7-.8-3.3-2.1-4.3l-4.3-3.2c-15.8-11.9-28.8-26.7-38.4-43.4C318.5 242.6 274.7 272 224 272s-94.5-29.4-115.2-72.2c-9.6 16.7-22.6 31.5-38.4 43.4l-4.3 3.2c-1.3 1-2.1 2.6-2.1 4.3c0 2.9 2.4 5.3 5.3 5.3l58.7 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-58.7 0C48.7 288 32 271.3 32 250.7c0-11.8 5.5-22.8 14.9-29.9l4.3-3.2C79.4 196.4 96 163.3 96 128C96 57.3 153.3 0 224 0zm4.7 52.7c6.2-6.2 16.4-6.2 22.6 0L271.6 73c4.5 4.5 10.6 7 17 7l18.6 0C290.6 51.3 259.5 32 224 32c-41.8 0-77.4 26.7-90.5 64l28.9 0c26.7 0 51.2-15 63.2-38.9c.8-1.6 1.8-3.1 3.1-4.5zM185.6 418.1l-48-64C77.9 365.2 32.6 417.3 32 480l384 0c-.6-62.7-45.9-114.8-105.6-125.8l-48 64c-19.2 25.6-57.6 25.6-76.8 0zM143.7 321c5.3-.6 10.5 1.9 13.7 6.2l53.9 71.8c6.4 8.5 19.2 8.5 25.6 0l53.9-71.8c3.2-4.3 8.4-6.7 13.7-6.2C385.1 329.7 448 398.2 448 481.3c0 17-13.8 30.7-30.7 30.7L30.7 512C13.8 512 0 498.2 0 481.3C0 398.2 62.9 329.7 143.7 321z" />
-    </Icon>
-);
+const UserVneckHairLong = createIcon("user-vneck-hair-long", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAABrAAAALiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDGgsGAAE2AiQDCAQgBYMtBzsbpQXIjsK2vfEpgiSchZEMnn/y8u/LJEWmSOVUwjd2EL2c09UX1+GB/r79ub22BbTJ0kCisvQFsu5k7YBN4DWeBVz//8819eL50QF+PoJDi6bS8wY5il4/n8CAo7xxNK7C2URxu7Mpdoh2eKSljLQcz+S4LIEqWyQFDZRNylNgRf5Q+UqQuaCg2gAAEAMAAKjsdmrDyyEOkafWOZCnNIMASBUAkwA2wAaEEgBK2BAglIoJVFQEHGJZ4T/QBAEAcYJeTwFABZyBE8BFAEAFQEFT1cD6AN8we8pd7WrX9AGz/PWwOM5fHjW6INsSD+VeSD4SIfG9UgnXIneV+smRmb5rdV3W+28IsIclMsvfX+7BGxMO5ixOcnvwlQMz7XZZ57fWVw+L/dfLrIAAeUbvKb9RH7nBL1GOA3tz3H597/xWgfZwIX1DQPeqyqqzKUdD3cP2tON5FbJRXxzcdQ7pEg7oJhvs90qvRZ5T3ZQYjduMOmwc/h75dPCU8qZLJpyASszXiMLgcvjwzJmHD7sY/Wa0r0ZOKn06iy8+xqHNRjEODw9HMZpm88pi1L/15nX/+Dcf69OoLLyilCYdg3E7ZPh8aXDaScupbl9z6FA1g7w391p6h/waud4Syq4a8UoaalnWx9uvPGfi+er2R4vWgIDWev+Rdbn1vJ+Woa3cgylLPdwXLnSfjT+Qx9IpHwBAAIGxuavO/TxL/rvYFQBaL//8D+5sveSmchhwQQFAwJZipdA73AQAqgCAp8h4asIXCaBwAA0K3FiPaFo6NFBwQgcbIQxQ0UkGjXC5zOLkTiJEdUXw1QdAwY1RYCPPNFDxdQY0SjxwnfANkdVyNsf9GZPrOF47yMxMyzCLzGGk8obIxN5ic1lLGI+VRFjIwNLCTl/P2I6RG51gb64tES0/VJUpTQZTEXM7vZ8d69vYGltapH6KmfpWgvFy80QwExBtlpCCAqL43nQ9dfzrVlJfrpJ6vQE=");
 
 export default UserVneckHairLong;

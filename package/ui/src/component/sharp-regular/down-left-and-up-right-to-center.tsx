@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `down-left-and-up-right-to-center` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/down-left-and-up-right-to-center?s=sharp-regular down-left-and-up-right-to-center}
  * @preview ![down-left-and-up-right-to-center](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/down-left-and-up-right-to-center.svg)
  */
-const DownLeftAndUpRightToCenter: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M478.1 129.9l-4.1 4.1L440 168l6.1 6.1 27.9 27.9L480 208l-33.9 33.9L432 256l-128 0-48 0 0-48 0-128 14.1-14.1L304 32l6.1 6.1 27.9 27.9L344 72l33.9-33.9 4.1-4.1L416 0l33.9 33.9 28.1 28.1L512 96l-33.9 33.9zM256 256l0 48 0 128-14.1 14.1L208 480l-6.1-6.1-27.9-27.9L168 440l-33.9 33.9-4.1 4.1L96 512 62.1 478.1 33.9 449.9 0 416l33.9-33.9 4.1-4.1L72 344l-6.1-6.1L38.1 310.1 32 304l33.9-33.9L80 256l128 0 48 0zm150.1-54.1L372.1 168l33.9-33.9L444.1 96 416 67.9l-38.1 38.1L344 139.9l-33.9-33.9L304 99.9 304 208l108.1 0-6.1-6.1zM105.9 310.1L139.9 344l-33.9 33.9L67.9 416 96 444.1l38.1-38.1L168 372.1l33.9 33.9 6.1 6.1L208 304 99.9 304l6.1 6.1z" />
-    </Icon>
-);
+const DownLeftAndUpRightToCenter = createIcon("down-left-and-up-right-to-center", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABiwAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCWQsGAAE2AiQDCAQgBYMtB0cbcAXILgdscH1DiMUxRIZlDsuJy+I5v8Viyo/4h/2+zblPVkzqOpY8E7USkoVGpLEJCfWHSCfxQ0Urmfz+//t57zr1nVFE2J+NosuijKbDtgSe0w3nLL7+ZusNGSEh2u/zvSakzPr6qxb42PxfUy+eHx3gNzqkjkVa5vNMLYEEifT5ZgOaDWwznIDt4dxUXlVDhHq9QZtLrnXUlxrjQ3rT/LPlSOkaAMgiAPDoRSwKz9/5nfwGyXePgUAeAXAI0aDBLgR30QW7GA6BViv8zjCo/8ALAqSH4sEFWvS4xidAC0rbMkxnajV/CRlJt4XXSrUiiJUWx5nM5iEiquO+7Br6JMvjU8iCOHPyqEwOS9UiZoxisUgpFDaiOUxRQwKUB1UvpRTq+Ds+9ImVgTxUHp+Mamzsx72bDocUEi6ekfp7d3kJWz/k7+MgJXWxRPrjpdU6M8nhFM+3l4qyQJWb6OtLnPTG7gcQhPXRs8D/k0ED+PuV8DMyVGqESQVCczqcyhegCACgsoSmgKC81ypeddZHATGNgNKbFtDYIYGgNe0Egs4+FwS9aU/QpeVCrCrUoMx6Cxp3rEBr1Rl07nolequZQMmAFPNPmBhpo9QiYjNbiZ9MlpUsnFF+PEBWm9qlbtPRq9A0MjTXUNcxb+FT0fTCQGQOo3wQYWNmRfiR3bX755MapmY6RoZxngByflBrOd9bRx00BeENhaVIXabS6FpqqryqmxZvMDtkmr82IQg=");
 
 export default DownLeftAndUpRightToCenter;

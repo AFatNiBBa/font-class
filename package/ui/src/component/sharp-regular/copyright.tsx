@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `copyright` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/copyright?s=sharp-regular copyright}
  * @preview ![copyright](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/copyright.svg)
  */
-const Copyright: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM176 256c0-44.2 35.8-80 80-80c28.7 0 53.8 15.1 68 37.8l40.8-25.4C342.2 152.2 301.9 128 256 128c-70.7 0-128 57.3-128 128s57.3 128 128 128c45.9 0 86.2-24.2 108.7-60.5L324 298.2c-14.2 22.8-39.3 37.8-68 37.8c-44.2 0-80-35.8-80-80z" />
-    </Icon>
-);
+const Copyright = createIcon("copyright", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABegAAAIqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyBfAsGAAE2AiQDCAQgBYMtBzAb/ATIjtEnI2owc8Tjc8TFJB6KNX5v9+SLaFfHo0oUb4QGWSVUSmHIhIpHyOQ7GlczJ+fnHvlGktDMUJRE1s/++5vn//zTB3xGoY2FSwNZwHOfJ5BY9z3SscAyTcBiSd3Gyw2irImcIXhEDG2hOkMZOzgEdPIj5RbP+03jnzFtIFUFAEQvAHDkcnQoHH7ir4ibZg0gvjoOBMQRgFmIAgUmIdhHFZhEMwuUSsEvbBr/BhIQQNSAf5SgRIVrwH0ASpCKkmY9IeXS+bS4joqT/NgNccu8BE3Li66bnB73bcsyNjuseOxwKR+nMR6OneAj/+Ow+7jXkFvfQ3h45Cj0LjZuVIs447Km98BpxTTndH+XjHvtBfVqJ7TuOOu4rpm2k0yLpn/Ft3m30Ay6fYO/h4suLouHX99ubt9BfwyCIfByzyYgwMZjeCgI2O/bCG8iDtzqPcruBqvPi9KIAEc63fFYhHTxwKobsr+IcuMQCAQd37+NpAv3/7O4FIA/2///4zXSHKb8BKBVgqCYb3RSEiQBAMioI0lAIF1FhaV2egdBaEeAVGsXoDBBBEGp3RwElWlOENTanUcVJRvCoNSA1OkBFDbVQ2nQClT2XVi1waDKjBcJ/8lLCWYUNEbMBhNxJ1vfFJTD1r4HOVZVdSWnNirkKVemRq4chWqIVAl1a5UKznCQBxFmBiaEO3IdvU7HyVWlWqFyZW2IB/LeVKnLq9VmUIBxlSclkWwtAg==");
 
 export default Copyright;

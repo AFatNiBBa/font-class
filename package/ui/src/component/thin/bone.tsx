@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bone` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bone?s=thin bone}
  * @preview ![bone](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bone.svg)
  */
-const Bone: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M408 192c13.6 0 23.2-10.8 24.3-22.4c3.2-32.3 30.5-57.6 63.7-57.6c35.3 0 64 28.7 64 64c0 24.7-14 46.2-34.6 56.9c-7.6 3.9-13.4 12-13.4 21.7l0 2.8c0 9.7 5.8 17.8 13.4 21.7C546 289.8 560 311.3 560 336c0 35.3-28.7 64-64 64c-33.2 0-60.5-25.3-63.7-57.6C431.2 330.8 421.6 320 408 320l-240 0c-13.6 0-23.2 10.8-24.3 22.4C140.5 374.7 113.2 400 80 400c-35.3 0-64-28.7-64-64c0-24.7 14-46.2 34.6-56.9c7.6-3.9 13.4-12 13.4-21.7l0-2.8c0-9.7-5.8-17.8-13.4-21.7C30 222.2 16 200.7 16 176c0-35.3 28.7-64 64-64c33.2 0 60.5 25.3 63.7 57.6c1.1 11.6 10.7 22.4 24.3 22.4l240 0zM168 176c-4.4 0-8-3.6-8.4-8c-4-40.4-38.1-72-79.6-72C35.8 96 0 131.8 0 176c0 30.9 17.6 57.8 43.3 71.1c2.8 1.5 4.7 4.3 4.7 7.5l0 2.8c0 3.2-1.9 6-4.7 7.5C17.6 278.2 0 305.1 0 336c0 44.2 35.8 80 80 80c41.5 0 75.6-31.6 79.6-72c.4-4.4 4-8 8.4-8l240 0c4.4 0 8 3.6 8.4 8c4 40.4 38.1 72 79.6 72c44.2 0 80-35.8 80-80c0-30.9-17.6-57.8-43.3-71.1c-2.8-1.5-4.7-4.3-4.7-7.5l0-2.8c0-3.2 1.9-6 4.7-7.5C558.4 233.8 576 206.9 576 176c0-44.2-35.8-80-80-80c-41.5 0-75.6 31.6-79.6 72c-.4 4.4-4 8-8.4 8l-240 0z" />
-    </Icon>
-);
+const Bone = createIcon("bone", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABnAAAAJTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCVQsGAAE2AiQDCAQgBYMtBysbUAXIHoVxw12CMllissD7m+iI/34/tuf+h0rzakkTHqqWTGhEmkqJlMZ0IkOlBI7G1cxB3JeZIDQoxANfbGD65tAcCpivQvT/55p6UXZ0gJ/vnKPwnp9XAPWin09gzzdMi7aJFm40oInxdJvsscfCN0KChkjHFR5fB2h51IFOvVAegKvxovmjtkTpOgDIOACAg7OaMrh6y1vw4f+EfCkBAjkEwCJEhw6zEGyjCmbRLAJNE37Q45H/QAICpBfsngs0NFzjAdBAqUbLLOTS+bR6Lp3TvqN1BuwEbAXtqV2JJhngg/xCbwvc9d3239Y4/Dm4qbL5bvpuB+9rVlKsSkSL4tLgDDkI2PLbUtv9uPUWhSN43/84cFc35xNmkAtZXAgfS3txOyEHWpuLZrldGb+zlcZ5jcPfgojzyh2tE5dTTPzmbVQmGcd7X7T/7qHrgfW/ShpoNM6tisUcBZ4IKTD2iQoOZrM6ZzQGSqu+gG36KWxhpNfUfIk661F5eBiUTadAz2HQ/Gwl1neKvmpq0hktX8B/BoLwrR2uaham/rO4FIDfy896Ze1T9oF+BUK36lnVUJkACB8BrzIF3uSNgnKpmDXsMRvEIAtKr0HozBBBM2gFesyLE4Pzj1ClsSGmNQLKsHPobJmGZtoR9Nh27faaDrUk5YKSf4QZ+R7Pm0SiwiNJMjlmplJlIh1NIWEzcKq1BGEtdBk2ZEKnDr0mHDemLJg0KJ+xeb6IiBIuEpGMpMv35fU6jRnXa9hQHycFuW8FmuLdgzAdCmDtMZFKp2htw0OdAAAA");
 
 export default Bone;

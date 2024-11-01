@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tty` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tty?s=regular tty}
  * @preview ![tty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tty.svg)
  */
-const Tty: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M368 188.8l0 25.8 78.6 17.1 15.8-53.6c3.3-11.2-.3-17.4-2.5-19.4C421 123.4 349.4 80 256 80s-165 43.4-203.9 78.6c-2.2 2-5.8 8.2-2.5 19.4l15.8 53.6L144 214.5l0-25.8c0-19.3 11.6-36.8 29.5-44.3c52.8-22.1 112.3-22.1 165.1 0c17.8 7.5 29.5 24.9 29.5 44.3zm-48 25.8l0-25.8c-40.9-17.2-87.1-17.2-128 0l0 25.8c0 22.6-15.7 42.1-37.8 46.9L75.6 278.5c-24.6 5.3-49.1-9.2-56.2-33.3L3.5 191.7c-7.2-24.5-2.6-51.4 16.3-68.6C64.9 82.2 147.6 32 256 32s191.1 50.2 236.2 91.1c18.9 17.2 23.5 44.1 16.3 68.6l-15.8 53.6c-7.1 24.1-31.7 38.6-56.2 33.3l-78.6-17.1c-22.1-4.8-37.8-24.3-37.8-46.9zM32 336c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm0 96c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM144 320l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm112-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm16 80l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM128 432c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16l0-32z" />
-    </Icon>
-);
+const Tty = createIcon("tty", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABwwAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFSEAwsGAAE2AiQDCAQgBYMtByob/QXIjtRG91IW4uF5u39/7TMTzX2hTyx8AJ1VgZ3cxV1+xbD6cnUTHxxh4Jy6fnhpilehbY0PKo0C78A34MFPpyy/td1+oAvq/XZ+T4KUbjCQLp1LMow3bH/5Syjj03hUI9Jz6TQeqW8aP+rsfpJGBYBoBYBZG9Ys89W5OBdxqv4+ccoSBMQskAUKFOgmwFSFQDeljFIpOBf1evgPzAQQjZEwmVSiAd/iV9aRJFVZ9h7aqlWbEqw1al6uz1dSHRDWRZ94psNbi0+uP7vw+MAnO/eKDRHxwoAPaw+Me7XzxBAnF4q72z3Zd2280uHpLr3j5SGfLjm14etFJya92S3Hs6K0//p47Ydi5zMda/FUe/Fkuyqe7hD44IZaVfNs7Kq7Lmtfp23nBXq/1eqtn3ud3n/aValLly7LW7lsxOxvJk6YF/NiwsRvZuXLlrfSRYszdw0ectfnLf4/YP9v02n9zovFslZ6/2f1JR9+1vOzT1dF4j7tK7/+l9X/abO8tfTiO6173tziXHauRebRnSjZVVflnPNITVe01A1sab3lCnAEeo50OJ0lEMwasbbc0XLq39USuPDJr/9gx7r6qWl6C00lEBRD60NtTRRAC4HCKW7UG98kkJxVwas2eFqAUCFA0lglQKGrVgKUKkMEaKSHcQI0VlmjEGUzoZ1tU5U0uEZVGO8OVamdd1WNTHUs3Fi7KCydtFPyQzNuPofnDcujho/Mk/M2blDGi5f6KfnYPvDGmDcIY+13lStdb5+9Drmeia61LHaDK8zX1Od9NhtluJGyyfJ16pVbz8LXus4hmbnvZIr83jfQjXrpQXAlZHM0f5L88Nh9/fW3AAAAAA==");
 
 export default Tty;

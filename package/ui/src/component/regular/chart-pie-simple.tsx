@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-pie-simple` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-pie-simple?s=regular chart-pie-simple}
  * @preview ![chart-pie-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/chart-pie-simple.svg)
  */
-const ChartPieSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M495.4 240c9 0 16.6-7 16.6-16C512 100.3 411.7 0 288 0c-9 0-16 7.6-16 16.6L272 240l223.4 0zM176 288c0 26.5 21.5 48 48 48l197.1 0C394.7 410.6 323.6 464 240 464C134 464 48 378 48 272c0-83.6 53.4-154.7 128-181.1L176 288zM224 66.7c0-18.5-15.7-33.3-33.8-29.5C81.5 60.1 0 156.5 0 272C0 404.6 107.5 512 240 512c115.5 0 211.9-81.5 234.8-190.2c3.8-18.1-11-33.8-29.5-33.8L272 288l-48 0 0-48 0-173.3z" />
-    </Icon>
-);
+const ChartPieSimple = createIcon("chart-pie-simple", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABbAAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBUwsGAAE2AiQDCAQgBYMtBzcb2gTIjtEnY4Qyc8znQNREVIbS8vBwv/fc++Kvyiqoita2aYsOcECzAv2C04GudVb8rF4Ofy8QX1LZ7tzBbdIRmt4fl6fnOQ8F8I2C1m5cWpAFtPd5BSrWi4c0QjUtiFehujmWZWIVg3A55yGOh/I6dDiUsRgtKvIxj8CtCxXf5NVBqgoAxAAAOLwM9sXaW3xEHDbTxDNvEBCHAKYQCjDGENjBKcyByxQolYIPahr+AxkEEDXiSyUoUeEEXAEoQSpKLhGZCUFuYa4wQW6B5G7ZPqMJrwO3DilQd0KvNFHnvCCN7Sy53ARdhPXbr3oj/EaGqGvkKuAs5Npw3HM/9Db4MrxbpktAQICI1NtiAx9qR2lH+Dz9mBA5f1pUfnvve/dqp895DC8G2/D4+fkOpNBQChTVX6nb1n8SvefhPEjC357C4fT/Hx/vhPD481ciSLm5UnR41QDDAIGgf/H4PV7U5p9PkAPwtfD1H9+iZi1lGx0SBMVisygmAUkAADLKoJ5AIB3hBFF73CFA6EKAVOsSoDBKDIFSlwUEKhNMEah1OcUpSn6EEbEFqcc1FLbVQmnEJFR27Pq1keBUlKIH5UOX6TZyvWKGegbMii0LqYpEsqM127Y0ygw0wUSafHlKpEqRqSRSxDcqlcttwq4exBjSY4Cxwo7r+32YVEWKZcqXxzPW2H1PQ9k8rwmXQ1DXxVISKfaWQt2CzFRdWQIAAA==");
 
 export default ChartPieSimple;

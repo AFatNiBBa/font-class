@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `crate-apple` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/crate-apple?s=sharp-thin crate-apple}
  * @preview ![crate-apple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/crate-apple.svg)
  */
-const CrateApple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M213.7 21.7l-32 32L176 59.3 164.7 48l5.7-5.7 32-32L208 4.7 219.3 16l-5.7 5.7zm192 0l-32 32L368 59.3 356.7 48l5.7-5.7 32-32L400 4.7 411.3 16l-5.7 5.7zM160 98.3L224 80c43.6 0 64 47.8 64 91.4c0 7-.4 13.9-1.2 20.6l-16.1 0c.9-6.6 1.4-13.5 1.4-20.6c0-19.6-4.7-39.4-13.3-53.8c-8-13.3-18.8-20.9-32.6-21.6l-61.7 17.6-4.4 1.3-4.4-1.3L93.9 96.1c-13.8 .7-24.6 8.4-32.6 21.6C52.7 132 48 151.8 48 171.4c0 7.1 .5 14 1.4 20.6l-16.1 0c-.8-6.7-1.2-13.5-1.2-20.6C32 127.8 52.4 80 96 80l64 18.3zM478.8 192l-16.1 0c.9-6.6 1.4-13.5 1.4-20.6c0-19.6-4.7-39.4-13.3-53.8c-8-13.3-18.8-20.9-32.6-21.6l-61.7 17.6-4.4 1.3-4.4-1.3-43.2-12.3c-1.5-2.9-3-5.8-4.7-8.5c-2.5-4.1-5.2-8-8.3-11.8L352 98.3 416 80c43.6 0 64 47.8 64 91.4c0 7-.4 13.9-1.2 20.6zM496 376L16 376l0 120 480 0 0-120zm0-16l0-120L16 240l0 120 480 0zm16 0l0 8 0 8 0 120 0 16-16 0L16 512 0 512l0-16L0 376l0-8 0-8L0 240l0-16 16 0 480 0 16 0 0 16 0 120zM64 304a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm368-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM64 432a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm368-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const CrateApple = createIcon("crate-apple", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABtQAAAJvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDUAsGAAE2AiQDCAQgBYMtBzIb0gXIhof/t+u/fW7VY3U/sr6k6HsE52I6TuWIymtNJEfqiWOmi7LRAJN4KNVB0UkDms4q/unvscXT3/QF7AfnnRh1KDSF9EfI43VnaSI9mj7G3fyDxo+G3UWSZQCiCwBbjh484J0qqoiPGi8SH9mHgNgCSoEMGcYEWC8TGJMrkcsFVTQaxf/AkgCiGXjfBHLU8S6+AOQgKfK8u3tO2dY23gacRVM9P0K2tp84e97svhiIwZiXLe2PvsJ50KF9u/e9OPyo2/ra4+G4feSxmbtj1rk3nhh6ZALQD3hozejjq/ac3l60x8aV8dAAtO6JfbE36nCtXhP1ACZRC4VfCMJkey3i+4q6cMbDgw/2P9D30MCZjGjWPq3ePPW5rud+nvLxOR/75tkGiDvkOTs08JrvOMq/9/0OnhA//DO1aOvSVky8+8LmLyy22Be2PP/uxETE1H9+iN83ntwVZy0eeUNv74od7/jdUeHLFcC9TuW6ruvwK9epulp/7jpdun7rcp1WVtjbqzqqqmNEXNpJ7fpcerf/eiAQHHrmvO9O7Vz/d2uRwLev/foj/zPSeCdJz6FVAkE2vzHfSQkkAgCQ4hpTEwSStxTAvTUPCRDakaKTZu3ozKgudK7dPHSTCSvIG48flIm8TehzcoxOai5HZ1a6GZ3r8zy6yXrvuZv1RXZDU29H6u9krJ02eMeqcsnCxeXacjZD0u5Rctu5rtwsmn1NWTEnvuocl7rEVc52lvNdZaGucMB3tYvtXELu8ItKSyy0WGmt8nB+n3UkdV/hSudPU48DLLJOeb1utmuW68+JpQkguFRskohUnPnmcBZ8RwAAAA==");
 
 export default CrateApple;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bell-ring` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bell-ring?s=thin bell-ring}
  * @preview ![bell-ring](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/bell-ring.svg)
  */
-const BellRing: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 0c-4.4 0-8 3.6-8 8l0 24 0 .2C163.4 36.4 96 106.3 96 192l0 36.6c0 41.8-14.2 82.3-40.3 114.9L38.9 364.5c-4.5 5.6-6.9 12.6-6.9 19.8C32 401.8 46.2 416 63.7 416l384.6 0c17.5 0 31.7-14.2 31.7-31.7c0-7.2-2.4-14.2-6.9-19.8l-16.7-20.9C430.2 311 416 270.4 416 228.6l0-36.6c0-85.7-67.4-155.6-152-159.8l0-.2 0-24c0-4.4-3.6-8-8-8zM112 192c0-79.5 64.5-144 144-144s144 64.5 144 144l0 36.6c0 45.4 15.5 89.5 43.8 124.9l16.7 20.9c2.2 2.8 3.4 6.2 3.4 9.8c0 8.7-7 15.7-15.7 15.7L63.7 400C55 400 48 393 48 384.3c0-3.6 1.2-7 3.4-9.8l16.7-20.9C96.5 318.1 112 274.1 112 228.6l0-36.6zm88 248c-4.4 0-8 3.6-8 8c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3c0-4.4-3.6-8-8-8s-8 3.6-8 8c0 12.7-5.1 24.9-14.1 33.9s-21.2 14.1-33.9 14.1s-24.9-5.1-33.9-14.1s-14.1-21.2-14.1-33.9c0-4.4-3.6-8-8-8zM100.3 21.9c3.3-3 3.5-8 .5-11.3s-8-3.5-11.3-.5C44.4 51 16 110.2 16 176c0 4.4 3.6 8 8 8s8-3.6 8-8c0-61.1 26.3-116 68.3-154.1zM422.5 10.1c-3.3-3-8.3-2.7-11.3 .5s-2.7 8.3 .6 11.3C453.7 60 480 114.9 480 176c0 4.4 3.6 8 8 8s8-3.6 8-8c0-65.8-28.4-125-73.5-165.9z" />
-    </Icon>
-);
+const BellRing = createIcon("bell-ring", false, "data:font/woff2;base64,d09GMgABAAAAAAMgAAoAAAAABmAAAALVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCZQsGAAE2AiQDCAQgBYMtBzAbZQXIPgxvjIJ7WkFsBw3JhhHpFYZbuuR0YVXDw6elCJ63e/w5u/e9ANrA7FLB6mBVcZeSLtHlqxU6me222w1sMhvZKApI06waSAIBBvYdAGHWzWz3s93tNqAZrFIJS+u880wjD5OWHS5JllBYplGaSNjAVwNeV+OB53L/Jo6t5yNK16Co55kGHiWaRZYmlGNcE46TPSjuIw0OuQ7ecr5ZxQI8ca7znY8GmDrRoVRQChXIKJNwwKPgAeWHvz3Ymz6APPPvzvZsh7AHaa2FJMe5HI8VUjywUInsQniQY+lN40duN5k8BxA1ATByyu3q6ZcX/PH/GfFRR0CMAoVAjhxNBRgiF2gqKZAkwXcBgP+BQQBRxr8kAwkVcBLXAQlkSil1LxrVqlWlVC1NrlKqPOO0QUR8GrImiuvbDnHa9rZX0TjUS/QuxPNWHF+GnckREWe7tNPEk8ur1W4J8Xmk4ozTjYuzHTWI8WIKJp221lGrzHFZWnB1ufLohppXnaj7u2xnWmlA3V/nkh2up10PbdftDvJ3as6feRuU5YYYke49KbVVY36ypEr1/Q9ryrNlSTK/Rlsx8tKIREPlucfKK+z79LVpW8beELRJqn+3Hd9l2jq5YWzbKU/buFWrxkgoz52b1v16KRlZ8Gp9JpZFp4G9RgvdGtT/J+OEicuxf303c5teAzs1BwLB9l98z4f8zZiBH9737WvkPz+cqCgDQd7lf2Zm1FQz+A0AgCw2axVSUyBzUAm/alVnBQiVESBTVlmAXBM1BUgq6yxASXN9BSirbIJcpEpCXbMEzlS1Ds71swVO6roPlwzxxiqrG+SuyTkW9zNMPmvgNDT07NajGFRMfZ33Nib0BxfbWofNlOsIsxZbY7WNFllomY0KWm+8u8kq41bgWB9U6KmbHgqDFMfRVp6sqCJviMyYP9cMxuj7jg42W1d3BDPDpL14MhmRVXqYyvy0AAA=");
 
 export default BellRing;

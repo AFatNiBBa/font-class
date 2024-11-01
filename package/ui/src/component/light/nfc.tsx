@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc?s=light nfc}
  * @preview ![nfc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/nfc.svg)
  */
-const Nfc: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 64c17.7 0 32 14.3 32 32l0 320c0 17.7-14.3 32-32 32L64 448c-17.7 0-32-14.3-32-32L32 96c0-17.7 14.3-32 32-32l320 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zm0 96l0 256c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-256c0-17.7-14.3-32-32-32L240 96c-17.7 0-32 14.3-32 32l0 82.7c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48s48-21.5 48-48c0-20.9-13.4-38.7-32-45.3l0-82.7 112 0 0 256L96 384l0-256 48 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L96 96c-17.7 0-32 14.3-32 32zM224 272a16 16 0 1 1 0-32 16 16 0 1 1 0 32z" />
-    </Icon>
-);
+const Nfc = createIcon("nfc", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABiQAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCPgsGAAE2AiQDCAQgBYMtByobOAVRlMzFDNnHYeOwslGNT0vEJUt+Iqhf6yvrdc8sAPWuAmbFiHcsgdR3x0LhxFkCPaZnvdhawtCqYCX8/zKvP//XfH7Pjw7w2wXBoURbUlk0eK3q+QQGuNlmVcJRYCeKU6ejBLJjz2BHGVpkRh0eX49XcA95PI6eSqSH6Vtc9x+NX7VxhiTPAERjAIybP3uWmkpUIr6tfkR8awYCYjwoBDJkaC/ASJlAe7kCuVxQiWqV/4EFAURZ+8AEcpRxGhcBOUhCeZ637aPrSKlBPq9eqe76yxa4SylO6B2OcaneQ4iTfl/SqjdO4J2W8PC+uxrg7ff9keHR896uTylLJ+yupLjs969SD+YyxyW9Q+KN+XCqrLe5cDzbgXqRon5k7t73e1VLcyu1W/uu3dEu75X3/s4mv133rePHG17gQsOxUMalYzq9aEKTumPVbdLkxVhBpLUCXQC049bZvm+cffdD374/fJc1/n62HYC+Kg0bVvqa9vw6mI4G4rTJHX79a3ke+X9tSeCXz//8n19crURNeg+1JRBkPaufJVEDJAYQp9ini6hZIDksB9xrffcECHURICmrK0CmncYC5OrqIUBJR4MEKKtrtkzkdYTmlm4gqW8nyAx2FOSa+wCUjPRFXNY8sjzksoj7CkyeHKFJs4p+vfsWw4vT3OBTi6mTI4rbatd9paObrbDOdtvssdYaG50KyC6zsr22mqzgSWpU6Ke3vgrDFcvVR3ke4l122zgX16cZoXjf6Wqf7t/NjKSR9ucnye+IzW3rVgMA");
 
 export default Nfc;

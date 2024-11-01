@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-sun` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-sun?s=solid cloud-sun}
  * @preview ![cloud-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/cloud-sun.svg)
  */
-const CloudSun: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M294.2 1.2c5.1 2.1 8.7 6.7 9.6 12.1l14.1 84.7 84.7 14.1c5.4 .9 10 4.5 12.1 9.6s1.5 10.9-1.6 15.4l-38.5 55c-2.2-.1-4.4-.2-6.7-.2c-23.3 0-45.1 6.2-64 17.1l0-1.1c0-53-43-96-96-96s-96 43-96 96s43 96 96 96c8.1 0 15.9-1 23.4-2.9c-36.6 18.1-63.3 53.1-69.8 94.9l-24.4 17c-4.5 3.2-10.3 3.8-15.4 1.6s-8.7-6.7-9.6-12.1L98.1 317.9 13.4 303.8c-5.4-.9-10-4.5-12.1-9.6s-1.5-10.9 1.6-15.4L52.5 208 2.9 137.2c-3.2-4.5-3.8-10.3-1.6-15.4s6.7-8.7 12.1-9.6L98.1 98.1l14.1-84.7c.9-5.4 4.5-10 9.6-12.1s10.9-1.5 15.4 1.6L208 52.5 278.8 2.9c4.5-3.2 10.3-3.8 15.4-1.6zM144 208a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM639.9 431.9c0 44.2-35.8 80-80 80l-271.9 0c-53 0-96-43-96-96c0-47.6 34.6-87 80-94.6l0-1.3c0-53 43-96 96-96c34.9 0 65.4 18.6 82.2 46.4c13-9.1 28.8-14.4 45.8-14.4c44.2 0 80 35.8 80 80c0 5.9-.6 11.7-1.9 17.2c37.4 6.7 65.8 39.4 65.8 78.7z" />
-    </Icon>
-);
+const CloudSun = createIcon("cloud-sun", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABkgAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCSwsGAAE2AiQDCAQgBYMtBzAbSwXIBuJ5ve/n3GQBZ0l/uhNZQSpatdabOub5sgHfaCgVFNkWFTyBAUcEjgY2G84milvcdnNEvNIWGo0L0OWPtggzUNvVU2Bt+FB5gxeLQGGlAQAgjgAAQGF7cy03X8pLkSemcyBPqAYEQAoBMBBAAzTAFwEgBw0BfNExAB0dgZdiMon/QAMEAMScGK14lg6YAYuBzQCADoBC0/VKu3AbMzu9zYRZj97s1iqKQQ/f7FogK6xXRIjsiTqRdjbimO/uyOOpKz0ONdGeEbLJfYt7mxDBFof2aEd5bCW2y1a0W6vbrWVv9MndYr9dwhx1wn+wjBQ5lmIr53vMWW26SBG5MvSw11Gbc3vU81wP4yd5BZ1wPPEu8Omop4Ren+5h10KLHVPTw8va0LXgm4LliRPz5gmRpd9he+B0hEf9PEZMm+5p13xIk1hGaikLT586CrdrwWP6tBEzQsiEEdM2P9def/r0WtMjPryQkdDm6Mhjdr2jM+zp13v3VN/N9XYc2SZWHvdc3ewAQACBO7PWbul3yPlmaaMAeH35w8/qQdN/0001T50ALFEACGgxphh61LwNJPRF3sYmswjCXySAYjYa8bvasgUBQLAGBACFOdYIABo+OCIA6FgTjQBghj+pCADmWNOMhuhWCK70dkBhy1SgkcZsoOPKGWBGDg+85riKBo0cWOJ8DCYsG0JKhxmJcQlGlrGa1XABjGW7s43DkohZsioSL2UUk5nEDEYygrHMGNCmURuYyUTKtgil/BCDROJIwCAL43Lh6fw2RjKN6YxlMpP8INkYzxsimLXdOBLLFTHdJFIUCkRZ/ZbQGjt95iQAAA==");
 
 export default CloudSun;

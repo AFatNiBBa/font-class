@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dinosaur` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dinosaur?s=sharp-solid dinosaur}
  * @preview ![dinosaur](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/dinosaur.svg)
  */
-const Dinosaur: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 0L424 0 408 32 368 48l0 80 80 0 32 0c35.3 0 64 28.7 64 64l0 64-53.3 0-66.1-49.6c-40.2-30.1-89-46.4-139.2-46.4c-57.7 0-113.4 21.5-156.1 60.3L10.5 328.3 0 337.8 0 352 0 480l0 32 32 0 160 0 32 0 16 0 16 0 32 0 0-50.4L109.4 431.8 96 429.6 96 416l0-48 0-16 32 0 0 16 0 34.4 178.6 29.8 13.4 2.2 0 13.6 0 15.3c5.3 .4 10.6 .7 16 .7c16.6 0 32.7-2.1 48-6l0 54 128 0 0-87.9c76.5-35.9 128-113.5 128-201.5l0-30.6C640 86 554 0 448 0zm0 48a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z" />
-    </Icon>
-);
+const Dinosaur = createIcon("dinosaur", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABbwAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCCCAsGAAE2AiQDCAQgBYMtBy8bBwXIjtRG+UVWEsH3un/dc6VPkhlkZuyAOjtAWCYdEFbhNuMyFb2qfZ869TznoQC+ZbiPTeFczif4nOcRyHloLB8dVKBSawWLKPZtSwQdkfUiQoQkonHCcdshj3+y6+pID6UvcIf8aPyls+skTRmAaAWAWRvWLPPO7/F7xOc1xOeWICBmgUogQ4ZuAkyVCXSTq5DLBb9HrUb/gRUBRL32yQnkyLEPZwA5SFKer20q65rn68u64kBRFp1ibIiyfG7QS51FEevjq/U/rF0b7UIIUTaPWB8dIkmlVdZFe9TuK28MAC+I+HzO+xsiflr93XoPdLyv/b3t7u/Q++VWL9/q9cX+L7z9did8X80lK62snmzduphpnFmj/LzMRrMnnzviJS1cVqmM9kp372phpFYqrfSWJ1s62dh533iXbfRI33Zm9xSr1q1bFSNb/P57i4oG4rZmDz55bUfLqX83lgn8+dpb+sO1d9Ll9DIaJRBkQ2tDbU2XgYgB6CnO6+1cLJBskwC/tZn7BQgFAiT1CgEyXbUSIFcYIkCdHsYJUK+wRibyJqGdbRMkzZwCmfEugFw7r4I6U32s12sXWbDRoUJ/9RLma2heWzVq+MhqcrW0DSZ+yFyfUm3LA89zbBBs2u+E487aZ69DzirktGXWOcfM9+B5LlQZZbiRKpNVx952eb19TjvjkBOOlyZTVPfVgc772YOgiwQY/Uwk90Vq3Hvo+Ikzu86dBgAAAA==");
 
 export default Dinosaur;

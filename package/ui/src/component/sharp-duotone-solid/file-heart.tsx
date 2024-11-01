@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-heart` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-heart?s=sharp-duotone-solid file-heart}
  * @preview ![file-heart](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-heart.svg)
  */
-const FileHeart: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 0L224 0l0 160 160 0 0 352L0 512 0 0zM80 299.2c0 16.1 6.6 31.5 18.2 42.7l82.8 79.6L192 432.1l11.1-10.7 82.8-79.6c11.6-11.2 18.2-26.6 18.2-42.7c0-32.7-26.5-59.2-59.2-59.2l-2.4 0c-15.9 0-31.2 6.2-42.7 17.2l-7.7 7.4-7.7-7.4c-11.5-11-26.8-17.2-42.7-17.2l-2.4 0C106.5 240 80 266.5 80 299.2z" />
-        <path d="M384 160l-160 0L224 0 384 160zM80 299.2c0-32.7 26.5-59.2 59.2-59.2l2.4 0c15.9 0 31.2 6.2 42.7 17.2l7.7 7.4 7.7-7.4c11.5-11 26.8-17.2 42.7-17.2l2.4 0c32.7 0 59.2 26.5 59.2 59.2c0 16.1-6.6 31.5-18.2 42.7l-82.8 79.6L192 432.1l-11.1-10.7L98.2 341.8C86.6 330.7 80 315.3 80 299.2z" />
-    </Icon>
-);
+const FileHeart = createIcon("file-heart", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfQAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghSCAAsIAAE2AiQDCgQgBYMtB1AbIgXIhofvdX6e+57s9UrLoAXGCjmAqEDFHZNTJlWq3wWbwpOS0dPf/PNsU4APRJrjPJAFEs15nkDneRcuL+A/QL5+029gf3eaHTvU8klCLC3Ho+04nVDEfflRLdLz6Us8zf8DGN+Y6FGSwRlAjADAjpNH9xvoRS/Fl/2PiC/tQ0DsBLVARsYUATbLAlMUahQKQS/1+/Si368JINoYztR2fPyLcB2gAEmSimLQrKEzqtbQ4kTVKq8sqzLi+EUvTo54d14Vjy8YG+Pjg6qKt+c8P7GZfyzGxLg4Ed3IVVmJKlIMidbpZsHxOBJOkj9emPTO3DIemw/bumUZb81+bsLM7ojudzO+vOJLD05/Ld/q1VeXPdb5keFNNmHEne40YkLWDP+xM3HkkYPe13XkgJETDfTCJ17zmos0HFwoLHV+HN4kE0fc4Q7tdSAQDKn+vu/C4Zt/61QJfPXxD1+XH5L+QDSpi44Egry4v9i5aCAaAQBIcYeZ0TiEQLZUgu86xDMChBIBkrZSgGyyEQIUSosEaJlmjQBtpaOyKAYLY5xvIBniZpCtdT8ojPEhaNnsE7ttTGRLY+yE+ecl7u2hPVP1iqXL6431NlBZ46HScFN9bM6/gwoLYNUVbnSD21zuMle7rSNvsd+73fX2SsQeX1RbYanlahvV6vhZPIH2LW519ZrXj9mkvm/Nd4dcvwDmSYCVb+TLRIo8yqvlJf6uLrHZ4piR904A");
 
 export default FileHeart;

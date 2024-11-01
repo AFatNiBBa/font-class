@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `traffic-light` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/traffic-light?s=regular traffic-light}
  * @preview ![traffic-light](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/traffic-light.svg)
  */
-const TrafficLight: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M64 48c-8.8 0-16 7.2-16 16l0 288c0 61.9 50.1 112 112 112s112-50.1 112-112l0-288c0-8.8-7.2-16-16-16L64 48zM0 64C0 28.7 28.7 0 64 0L256 0c35.3 0 64 28.7 64 64l0 288c0 88.4-71.6 160-160 160S0 440.4 0 352L0 64zM160 424a48 48 0 1 1 0-96 48 48 0 1 1 0 96zm48-168a48 48 0 1 1 -96 0 48 48 0 1 1 96 0zm-48-72a48 48 0 1 1 0-96 48 48 0 1 1 0 96z" />
-    </Icon>
-);
+const TrafficLight = createIcon("traffic-light", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABegAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiBcAsGAAE2AiQDCAQgBYMtBzQb9ATIjpQuV0Tx8LxdX+e+qq8xawApm9xeh3LGDlchgHC6zIb/53LP7/nYIB/sxA5tDz3fYLs5PIHEenneYSBZYIklpFk7++QNet1gkdCTZNjeMHpAHqvivArSjVTCufSh8YuWzpJUZACiAQAmLFs0x3tfxpcRH5dfJj42CwExARQCGTK0EWC0TKCNXIFcLvgyymX+DywIICphtARyVGEFNgNykFTkeaMWdZHWrqibL82vq7XqcpMUd3o8N+TVXi+0z+Jqs1qTb/WKeKFb7Xiqx3MtU3wy+q3Fn419Z2m24ulWN1vf6vZUyxstrndexv7jrh13q9szXdaWquN3fL7B8791KCkZd+7LeoX6T/74888/ntQv1PvyvXKthjS8/577DRvWKsSkUmmSw6JUqhf3tt3//tVXv7/vef2eqbX31Km9tc76TdOfBwJB8f0v1tUf/V917QS+fuOP/+VHKL8X49PzqJZAkPUu97Y6jkKMF2Ak1ejIFoJkgYopeNc6rgoQaiFAUqmWAJnWGgiQq6WXABXaGSJApVoWyUReIzSxpkJSxwHIDHUGck28CBVGez+v1CQyA5PNQ/7eZUxtkSnXigF9+xcji2mvKDYjxtNRxXbQ/WhY6UF3bbXPXodtsdkOhxv6oDnVEXtMXaFTfFFhgL76K4xUHE8fby+1xUGH7LDPXrlklOJ+0t3R9fYeFCcQHKiRJCLVfbFWH7sDAA==");
 
 export default TrafficLight;

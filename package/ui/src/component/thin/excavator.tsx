@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `excavator` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/excavator?s=thin excavator}
  * @preview ![excavator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/excavator.svg)
  */
-const Excavator: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M136 16l117.3 0c8.7 0 16.6 4.7 20.9 12.2L349.9 162c-4.4-1.3-9-2-13.9-2l-208 0 0-136c0-4.4 3.6-8 8-8zm-24 8l0 136-64 0c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l288 0c26.5 0 48-21.5 48-48l0-48 0-16 0-3.4c0-9.7-2.5-19.1-7.2-27.6L288.2 20.3C281.1 7.8 267.8 0 253.3 0L136 0c-13.3 0-24 10.7-24 24zM336 176c17.7 0 32 14.3 32 32l0 16 0 48c0 17.7-14.3 32-32 32L48 304c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l72 0 216 0zM80 368l256 0c35.3 0 64 28.7 64 64s-28.7 64-64 64L80 496c-35.3 0-64-28.7-64-64s28.7-64 64-64zM0 432c0 44.2 35.8 80 80 80l256 0c44.2 0 80-35.8 80-80s-35.8-80-80-80L80 352c-44.2 0-80 35.8-80 80zm128 0a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm80 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm112-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM576 161.5l0 157.4L450.2 450.2C443.6 457 440 466 440 475.5c0 20.2 16.4 36.5 36.5 36.5l75.5 0c48.6 0 88-39.4 88-88l0-40 0-64 0-48 0-228.8C640 19.4 620.6 0 596.8 0c-10.1 0-19.9 3.5-27.7 10L416 137.6l0 20.8L579.3 22.3c4.9-4.1 11.1-6.3 17.4-6.3c15 0 27.2 12.2 27.2 27.2L624 272l0 48 0 64 0 40c0 39.8-32.2 72-72 72l-75.5 0c-11.3 0-20.5-9.2-20.5-20.5c0-5.3 2-10.4 5.7-14.2L589.8 327.6c1.4-1.5 2.2-3.5 2.2-5.5L592 144c0-3.1-1.8-6-4.7-7.3s-6.2-.8-8.6 1.2L416 279l0 21.2L576 161.5z" />
-    </Icon>
-);
+const Excavator = createIcon("excavator", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABzAAAAL+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHSEJwsGAAE2AiQDCAQgBYMtBzAbJwbIjsN04ytHkSR3vkKI1jKzdw9YVuxbhaosLFp2LFxlXR25Og/CMQlZ45Prnbnz7hn7BYV0KbGDiy4u81IJ099P/b2BDPDxQOdDiQ6MAss8n8AAMygLeBYpbDvb9iaI6vqFRmIKefzGGHrSmeY5OPJuNL4ErQGSLANAtAIAZpd7d8XDt3wbfP5/DYhLnUFAzAEYQGTI0INgglagh84AyOWCe/7/L/4DFRBAFBFMl0COGv6ACOhz5mqo5DpHasTnNwcX7yr1Vl0/qReDpZCbvX25XQiSO/zJoGoc9WwNgGfebSlWnvDvCDMIWenrx92pM4pA3+WDyW1AiAPPVmHhJt92/2j+HVL2sVqsxzJOBXemn0y28Hjm6dCerDNpffZlkKdKrLyRdSa+f8BRauFVXCsit/u2erZ5d/j7RpxK1r/XfDBoIbZihXeblFt05BtqbhebPH2IWOYOqTnCJcR9kBCEMHOUs4ojaieedpz+nPB83HOsvzA32NA2ufNajCy9tgGGlfkbNmyoR/71C209tFfX+apeLh8OWi1bA/bi8oi56Nn1ZodtA3BocyCfYAixEmh9rfa0B4Bzp1MIkXaQTuxex37AZivQutmP7IfcK2xv722Y3N3OcXW79r7hv3Vf8HxLV2G33X5qt6Mz6g836NJRL98nuC7uuhy3di6Hx+H1mFuV8+fLT/LVS2cbKXrbGQlt5r7L18CVXYZ+tqDw8BZ4HdgIQCC4P5SVPNxe/dUkNYDH219+IV/5/6FmheY0oCyBIBv6n40haQWAoCbgSTEPiTM/FEjeYBZca90xCEIVAZKiqgCZbg4EuapBBAV9ShAUVc3TityM0GloDZK6fZAZtxTkOl0BBRMeuYs6Qwv7HMjlfHombG2jLdVUQW6+qlSTYSUXnFm2vEqtVqbP66Vl4L4YZ7pp5hhrjInmtCizdPXNNVXrHG3Ld5UCufIpldTu2H1hP+qeZbaJ4zL7K6mizremmzefOwNrNAK6w1oliUjmsQtG/wVQNX0W");
 
 export default Excavator;

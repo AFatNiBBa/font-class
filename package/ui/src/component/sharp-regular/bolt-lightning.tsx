@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bolt-lightning` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt-lightning?s=sharp-regular bolt-lightning}
  * @preview ![bolt-lightning](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/bolt-lightning.svg)
  */
-const BoltLightning: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M234.7 96l10.7-48L256 0 206.8 0 32 0 5.3 240 0 288l48.3 0 78.6 0 49.1 0-10.3 48-16.3 76L128 512l65.8-78.2L384 208l0-16 0-48-48 0-62.8 0L224 144l10.7-48zm100.1 96L215.3 333.9l7.7-35.8L235.4 240 176 240 53.6 240 75 48l121.2 0-19 85.6-13 58.4 59.8 0 110.7 0z" />
-    </Icon>
-);
+const BoltLightning = createIcon("bolt-lightning", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABWgAAAHjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBMwsGAAE2AiQDCAQgBYMtBzUbuATIhuD5uXLeT/YKQCkAgyVFqh4AHBtxrWRVvdPffG2cRwE+znVs7DyQdZ7NeZ5A51nbt2bRp28fLFH8U/Oeapp8naGtbYU8jscVJdKN9A2X3Y/GL81cICllAKIuAMYunj/Th8qojPhafkp8NR0BMRYUAhkytBRghEygpVyBXC6ojHKZ/QcWBBAVwuMJ5MgxDFMBOUhSnrdpUKNUK19Uo1R9eZuWbdpE9eoLomXUqNEyFlB4MRTUgKnNwgWLF7SJ9oVUUo3+2SJqtLtV99aftt82ffNz9c1wy3197zf/Z7Y+Z26qO13D9cbO9Pa7uvros+f++tWHL9JP7PfS8GMN3zuq/kKfjQACwdFqT2J1nRH/q9ZI4Merf//Ey+UPcSbdQlUJBFmPcg8r4gwwYgBqikPaTbwskPSTIHxrTVcFCNURIKlQXYBMC3UFyFXXXYCS1gYKUKG6+TKRVxMaWlmBpKa9IDPISZBr6DEoGeGjWqFhZG8Qe//ZD7ikSU10YlPRt1efYlgxasncS0Hr6vBisdzlEI90hYs22W2XAzbaYKsDDXyfmcZBO02awiZ6UaGvXvooDFNsdu9OL7LRPvtttdsuW2e44nili0PT6V1hOwnQ79x3JSLVXrd7x4GezxX3WwkAAAA=");
 
 export default BoltLightning;

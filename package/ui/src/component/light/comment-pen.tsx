@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-pen` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-pen?s=light comment-pen}
  * @preview ![comment-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/comment-pen.svg)
  */
-const CommentPen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 240c0-91.4 93.8-176 224-176s224 84.6 224 176s-93.8 176-224 176c-32 0-63-5.9-93.5-16.2c-9.9-3.3-20.7-1.8-29.2 4.2c-15.4 10.7-31.4 20-48.4 27.4L91.2 446l-6.4-14.7c-10.5 4.6-21.5 8.6-32.7 11.5c.5-.9 1.1-1.8 1.6-2.6C68 416.5 76.3 391 79.4 363.9c1-9.2-2.1-17.7-7.4-23.9c-24.5-29.4-40-62.9-40-100zM256 32C114.5 32 0 125.2 0 240c0 46.6 19.6 87.1 47.4 120.5c0 .1 .1 .1 .1 .2c-2.6 22.6-9.5 43.5-21.3 63.1c-6.5 10.8-13.5 20.8-21.7 29c-4.5 4.6-5.9 11.5-3.4 17.4s8.3 9.8 14.8 9.8c28.7 0 57.6-8.9 81.6-19.3c19.2-8.4 37.1-18.7 53.9-30.5c.2-.1 .5-.2 .7-.1C185.5 441.3 220 448 256 448c141.5 0 256-93.2 256-208S397.5 32 256 32zm60.3 147.7c4.9 4.9 4.9 12.9 0 17.8l-8.1 8.1-17.8-17.8 8.1-8.1c4.9-4.9 12.9-4.9 17.8 0zM207.1 271.1l60.7-60.7 17.8 17.8L224.8 289c-2.1 2.1-4.6 3.5-7.4 4.2L198 298l4.9-19.5c.7-2.8 2.2-5.4 4.2-7.4zM275.8 157l-91.4 91.5c-6.1 6.2-10.5 13.9-12.6 22.3l-11.3 45.3c-1.4 5.5 .2 11.2 4.2 15.2s9.7 5.6 15.2 4.2l45.3-11.3c8.4-2.1 16.2-6.5 22.3-12.6l91.4-91.5c17.4-17.4 17.4-45.6 0-63c-17.4-17.4-45.7-17.4-63.1 0z" />
-    </Icon>
-);
+const CommentPen = createIcon("comment-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAL0AAoAAAAABlwAAAKoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCZwsGAAE2AiQDCAQgBYMtBzIbaQXILgpjcL9QYhAGLIPIjdM31K8Inl9L5/3dS4GAFYFKHZJj10pAC0C2ttF3/Lj37nv2GygkEM0OdXW19Z7/2AANUgvub/6v+fzSjg7wGx1KNJY2FmAtg/cmMLEOwLbZcDZQGvN0m/jYEcXAQyIkSCo6TjuudpDHEWqgk85TbnG0vmn800ADSZ4BQFQHAEbM8/eE89/xO+K2KPHcJCAgRgI0h8iQoTEEg1EFGqNpDuRywe8o4v9AQABRAviVCeQoh6O4CshBUshpil04qjfkKHDRgioV2IM/zcJ4mfc242nO6/TH2W19hwSnFYSwbpxSGMZakTWZYeFTueD34zEuB0cck7cRtVHLMaEyIDggNMixZz6n3o5XYz4m3Qx7JD9pdep2PTdwsLYgdox6cVYoYJaPv2pMj1OCCtgozooEzw4OGKgtiXuaiLGl5XysFR5ibxOUW+Rd/GvxfO2tZq9i7FPercSV8e5pjDUMX7D7q/9va1sKUf5zwcj+VXYvEvn1ahy0cbEpQNMKyfEOokfj7uN1KhMq3vY5PhxQfbpLM81yBVllvG0cmJ8sKSkGPs12lm4Ou8W0Gm61HN6aHVrL0TvC8bSWzsdQfs6cmmeeHhEOdzVq3n2vWeMXCARXDjTti+YZXFa+EgXg791leqKVpFtAeQkEWediZxGJg6eHgCBFETn6oEBSqoBetbIzAoSKCJCUqChAphFeCHIVdYKgoClDCEpUNAtV5GwQaovsIKlsB8j0VQlytW2BgsEu/BK1I4tNPrL4r2GKk4UcB5EeWjrEjEwzTQg3Nnebk2W1fVGqUqUxkCRblgKJEqQqbcg8nlGhTE4e4eiLCF1adBBmyHHhcXiQRHnypcqWVfoxR+6bKor8xqpkUICyp1iSiMTxGjzN7WuyAAAA");
 
 export default CommentPen;

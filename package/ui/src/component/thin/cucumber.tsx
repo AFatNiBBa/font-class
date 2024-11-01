@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cucumber` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cucumber?s=thin cucumber}
  * @preview ![cucumber](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cucumber.svg)
  */
-const Cucumber: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M219.2 463.3c5.6 1.8 11.8 .4 16.2-3.9c4.3-4.3 5.7-10.6 4-16.1c-1.8-5.7-.2-11.9 4-16.1L427.2 243.2c4.2-4.2 10.4-5.7 16.1-4c5.5 1.7 11.8 .4 16.1-4c4.4-4.4 5.7-10.6 3.9-16.2c-1.7-5.4-.4-11.4 3.4-15.6c40.2-43.9 39-112.2-3.5-154.7c-43.7-43.7-114.7-43.7-158.4 0l-124 124c-4.2 4.2-10.4 5.7-16.1 4c-5.5-1.7-11.8-.4-16.1 4s-5.7 10.6-4 16.1c1.8 5.7 .2 11.9-4 16.1l-92 92c-43.7 43.7-43.7 114.7 0 158.4c42.5 42.5 110.8 43.7 154.7 3.5c4.2-3.9 10.2-5.2 15.6-3.4zM474.5 37.5c48.6 48.6 49.9 126.6 4 176.8c3.5 11 .9 23.6-7.9 32.3c-8.7 8.7-21.2 11.3-32.2 7.9L254.6 438.5c3.4 11 .8 23.5-7.9 32.2c-8.7 8.7-21.3 11.4-32.3 7.9c-50.2 45.9-128.2 44.6-176.8-4c-50-50-50-131 0-181l92-92c-3.4-11-.8-23.5 7.9-32.2s21.2-11.3 32.2-7.9l124-124c50-50 131-50 181 0zM336 128a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm16 112a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM160 304a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Cucumber = createIcon("cucumber", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABjQAAAJiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCLwsGAAE2AiQDCAQgBYMtBy8bLgURlZp5yD4SqtteNBOONEHzniJN8U1ED/fm7LtW6ah0O8CSohKgcDjoAUzXcPjD8/922H2DYCbGD40FUWVbuQNYSe369Kz996eeZ1oogN8oKHu1tU1rAM15XoECfut97T3sEIpQTStgNaeLo99QKwFRCHiWWkpwGDNsArRzh2lM1Kv2ArzsucofgXai6C0AZA4AD31dLTz8Il9EXvy/BnmjCQTkEbAl0AJhSYALnWAAg4I2g+Bb/v9v/4EKAaSLgAtoQw+ewDPQYyhm20g7OQNim65Gr21aPXv89/nt9e+Tfb6KuxB2NPW+NVPcLbsp9tk9sH300btsvd7KuVa0z3foXoTIieIDPrtju+V88m7to9L7sq2sTw7674vpkwf2rpLuff57fHf77PXrSfI97G7QyNMep79FvJj9gndu22fPjg/ovXGDWdvKnbeW/dMjJcVjw4ZnbWgIiU1xP34xFMT/J3NAFg+vvvpcv0H5NT7hQVdfVtZKo+PTB1+TTOOrZgbcvnxxO3j3JfpWelCWPwcIBO8h/U/H3Iv/nWwN8Hv7x6/8M9I80EQ7Dfo0IGidm2TDGmj+a4IAAFRWE1lAoCzBJHkd20uAsCBAcWARoCWYBwHaLEkE6AiTQ4AuSxc6aTsjfIwEpHGxDOlybUIGH1eQqdjjtgOf6P6ne4/++5ejapmquaUyUtNVoXqdUMOl1HpZpJaT+NVlIwFEZltisZVmmTbPShKXa+mtskjtTKjxRUqGVOmUQso8v3d6qb3cCvPGIfs1RdT35Xir5/sTUNCIZCaMppBymlqVGosmZy0H");
 
 export default Cucumber;

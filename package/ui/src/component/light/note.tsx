@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `note` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/note?s=light note}
  * @preview ![note](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/note.svg)
  */
-const Note: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 64c17.7 0 32 14.3 32 32l0 208-96 0c-26.5 0-48 21.5-48 48l0 96L64 448c-17.7 0-32-14.3-32-32L32 96c0-17.7 14.3-32 32-32l320 0zm18.7 272L304 434.7l0-82.7c0-8.8 7.2-16 16-16l82.7 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l213.5 0c17 0 33.3-6.7 45.3-18.7L429.3 354.7c12-12 18.7-28.3 18.7-45.3L448 96c0-35.3-28.7-64-64-64L64 32zm64 344a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM104 112a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm24 144a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const Note = createIcon("note", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfAAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCDQsGAAE2AiQDCAQgBYMtBysbCAXIjtRG+UVWMpSWh+/Xvjz3dQ8A9zKjCxHLuKhxQVBhm4pc/av2ff6v+fzSjg7wGx1KRK5AInGU+XwCJ7px5fPpbGAnirN29tEXilskUeKTDJsfNtk5DPaQxysxXhnppfQNnog/Gv/pci9JngGIRgAs2bVtg8G/4++Ib0qIb6xDQCwFhUCGDL0CzJcJ9MoVyOWCv6NU4v/AggCiHN6eQI5KnMQ1QA6S8jzvr+qtqqqqKavLd/qd1aceaYt4jqiOd1uf7TQffLj9+cjiro4Xaur2bN+1PeKFjpqT746O+LAzxUtjPhpRE4+M2xWfRMTLYz8eWbvn5ZHvdr404oOevZbuzR3urKEfN378/5BvTn7jjjvqH+TB+h8cNvn3b7PDKk0064tzrrnhKG7bpv7vbVsnvdlEU/Vi1U1Nb/6me+iZM4b2/No3L160q23LlraEd1TwMex4YnwdCASNN56pOtQw/1ZlTQL/fvZWOV/p7xhMH6NSAkE2vjTe/hgEThSAYoqbhgopCyQHlQO+tdbzAoRqBEjKVQuQ6dEoQK7aOAHK9JshQLlq22QirxJaHWggqXUFZGa6DeRafQrKzPd5sVxrZOrGKwv/20tZKbQiqZgycXIxt1i2VUGD2LA+r9h2Rt98bAxtddIlF113wnFnXIe8akPlhgtWSsQKKSpMMdFkhbmK496jsrPiVdecmZvON5mnuF8Y7aY8ewz5CSinakkSkfLXCwAAAA==");
 
 export default Note;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-bullet` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-bullet?s=duotone chart-bullet}
  * @preview ![chart-bullet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/chart-bullet.svg)
  */
-const ChartBullet: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M160 64l0 64 80 0 0-64-80 0zm0 96l0 64 80 0 0-64-80 0zm96 128l0 64 80 0 0-64-80 0zm0 96l0 64 80 0 0-64-80 0zM288 64l0 64 160 0 0 32-160 0 0 64 176 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48L288 64zm96 224l0 64 64 0 0 32-64 0 0 64 80 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-80 0z" />
-        <path d="M264 32c-13.3 0-24 10.7-24 24l0 176c0 13.3 10.7 24 24 24s24-10.7 24-24l0-176c0-13.3-10.7-24-24-24zM48 64C21.5 64 0 85.5 0 112l0 64c0 26.5 21.5 48 48 48l112 0 0-160L48 64zm0 224c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l208 0 0-160L48 288zm336-8c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 176c0 13.3 10.7 24 24 24s24-10.7 24-24l0-176z" />
-    </Icon>
-);
+const ChartBullet = createIcon("chart-bullet", true, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABnwAAAI3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCewsIAAE2AiQDCgQgBYMtB1QboQXIHoVxm9N54xRyt+X0hR4P/+33v31m7ndcLmL+0GQmjUZXT5o0kWhmGa8sIvk1AOnf9Qx5n5//y+mN+fwAv/j52RnO3VzUBpzzeQKBt7V3IFFACUWRZ2BNuXswkCs0LF0RFPE1n1ZDupbe44zxP4DxV2enSRoygGgFgJmrli3w8lf8SvG++px4bz4CYhYoBTIyugkwVRboplCiUAh+pWqVX1GtlgQQtYynZlCLZriBe4ACJIXaomjepk2zBtDduXNTTfNipfFQ4646iWv97neNuN5/ee0iLhZK7S/1a6L80Ujb1kXtXlsnQCUiVhAkAwJFvSnud7yySrbD5f7dhldG6P2o1aN/3u98r+7OkvaPtV/if+U9R37jQ67IH76NPOyuw79K8OfC50V1XQV06c4qlcpiFYs3yyWbinTPGRfvKt1V8djIb7OlH2/6WQtX4Ap78SsWA4Gg9e/tjze1nPq/vimBPy9a+Cus/krSI9RLIMhDq0OtTyARAIAUJ/VOcFcgW2mbv2szlwUIjQiQ1GoUIOuqlQCFRkMEqNHDOAFqNVomi6JBaGdDCpJmjoBsvFOg0M4zUGOqV/Va7SLfptJNJn0lps/Lo3MPlaOGjywnl409sXznCerulLK3P/AknxkE79rpkIOO22G7PY7nmKMWtE44YF4ba+4HlUYZbqTSZOXooeUjVtrhqGP21Cvj95minD8/0Mn25YNgLLE4RzuSZSJFbveGOsN+jbSH3fHzHSrUqxsAAAA=");
 
 export default ChartBullet;

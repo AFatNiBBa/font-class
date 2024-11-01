@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `renren` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/renren?s=brands renren}
  * @preview ![renren](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/renren.svg)
  */
-const Renren: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M214 169.1c0 110.4-61 205.4-147.6 247.4C30 373.2 8 317.7 8 256.6 8 133.9 97.1 32.2 214 12.5v156.6zM255 504c-42.9 0-83.3-11-118.5-30.4C193.7 437.5 239.9 382.9 255 319c15.5 63.9 61.7 118.5 118.8 154.7C338.7 493 298.3 504 255 504zm190.6-87.5C359 374.5 298 279.6 298 169.1V12.5c116.9 19.7 206 121.4 206 244.1 0 61.1-22 116.6-58.4 159.9z" />
-    </Icon>
-);
+const Renren = createIcon("renren", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABWwAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBMQsGAAE2AiQDCAQgBYMtBy0brgTIHqnl/ljxiBF8v1b2+zO7AaAJM7qoxCcKSBgAUizvEnsVi4rcVsh+mZ9P3TzvPArwAbwxbfjiNkdznifQeT58WolkgSWK+e383iWKyCZJdAdp18+w/RXyeB5nlUgX02ecCS+N79o4TVLKAERjAExeuXS+NzVRE/G58pD4bC4CYgooBDJkaC/AOJlAe7kCuVxQE5WK/gcWBBBl8d4EcpQwBAsAOUiyPG/YoFG9UoN8hXXUXVu1LEKpX1Z8XannrP4y5/nA252u9r85+v2ylR0xgvjq5YTyJ7tca3ztp887PqtuaWnPSfSaPLkYOSXWxfpRU3BmdaMrvRZMMu/6369f//N83mSvVkwuek1mULX0ChYfQYmPdQvXgUDw9tSquRsbjftTu14C3579ns7XrryP/+kaaksgyPpV+lmXqK22MCggailO6IKPBZI+MsBT6zsnQKiLAElZXQEy7TQWIFdXXwFKOhouQFldS2UiryM0t76ApL7DIDPCSZBr7j4oGeedVtY8sgdEfn7y/y1uRg1NHyoGDxhUjClYT6beBO66Y4tpodcJk+mNRTscdMAx222z27EKOWK+edx+MyR4ug8VBhtgkMIYxXZ4O73CdkcctdtBB3yfsYrzUi8n5PLeGCMBhlw9btyRyke2Hziy/QA=");
 
 export default Renren;

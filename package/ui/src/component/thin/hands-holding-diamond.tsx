@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-holding-diamond` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding-diamond?s=thin hands-holding-diamond}
  * @preview ![hands-holding-diamond](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hands-holding-diamond.svg)
  */
-const HandsHoldingDiamond: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M308.7 20.7c6.2-6.2 16.4-6.2 22.6 0l96 96c6.2 6.2 6.2 16.4 0 22.6l-96 96c-6.2 6.2-16.4 6.2-22.6 0l-96-96-10.9 10.9 10.9-10.9c-6.2-6.2-6.2-16.4 0-22.6l96-96zM342.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96c12.5 12.5 32.8 12.5 45.3 0l96-96c12.5-12.5 12.5-32.8 0-45.3l-96-96zM96 112c0-26.5-21.5-48-48-48S0 85.5 0 112L0 344.2c0 27.6 11 54 30.5 73.5l91.9 91.9c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L41.8 406.5C25.3 390 16 367.6 16 344.2L16 112c0-17.7 14.3-32 32-32s32 14.3 32 32l0 147c0 20.7 8.2 40.6 22.9 55.2l19.5 19.5 55.9 55.9s0 0 0 0l8 8c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3l-8-8s0 0 0 0l-55.9-55.9s0 0 0 0c-10.6-10.6-11.3-27.6-1.5-39.1c10.9-12.7 30.3-13.5 42.2-1.6l92.8 92.7c13.3 13.3 20.8 31.4 20.8 50.3l0 79.2c0 4.4 3.6 8 8 8s8-3.6 8-8l0-79.2c0-23.1-9.2-45.3-25.5-61.6l-92.8-92.8c-18.4-18.4-48.7-17.3-65.6 2.5c-6.2 7.2-9.7 15.9-10.6 24.7C100.8 286.7 96 273.1 96 259l0-147zM592 64c-26.5 0-48 21.5-48 48l0 147c0 14.1-4.8 27.8-13.5 38.7c-.9-8.8-4.4-17.5-10.6-24.7c-17-19.8-47.2-21-65.6-2.5l-92.7 92.8c-16.3 16.3-25.5 38.5-25.5 61.6l0 79.2c0 4.4 3.6 8 8 8s8-3.6 8-8l0-79.2c0-18.9 7.5-37 20.8-50.3l92.8-92.7c11.8-11.9 31.3-11.1 42.2 1.6c9.8 11.4 9.1 28.4-1.5 39.1c0 0 0 0 0 0l-55.9 55.9s0 0 0 0l-8 8c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l8-8 55.9-55.9 19.5-19.5C551.8 299.5 560 279.7 560 259l0-147c0-17.7 14.3-32 32-32s32 14.3 32 32l0 232.2c0 23.3-9.3 45.7-25.8 62.2l-91.9 91.9c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l91.9-91.9c19.5-19.5 30.5-46 30.5-73.5L640 112c0-26.5-21.5-48-48-48z" />
-    </Icon>
-);
+const HandsHoldingDiamond = createIcon("hands-holding-diamond", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAAByAAAAL9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiEJgsGAAE2AiQDCAQgBYMtBzwbMgZRVE3SZF8c2HQ4j1WL3fDymeKPz8LSdLKwEW8ieN5mOu/vngxAawCmRHKIizYVda7chXThEpgMnMvcI4Ye2RkgxwNjW7vZAqthpvXqYatqfTvghmrrPPczXdCaovTzJj6UyLYKiyiBPZ9gNkXa2dlhlCjeqN4gVRjyO//WkMffdqghPZWqeCB7o/G1dm6QZBmAaAqAqauXL3Tng/ggovo/omo+AmIaKAQyZOgowASZQEe5Arlc8EH8/7/3P7AggCgp4MmsHCV8T9SAukhy80Jx2jw/nywmjvlk7tVmBybdM/gRhYAlTlk54M1UEY2hyL+bDjZ0JmEeR/T0gxqSCBdkhbAJDqqLlDEyREYwkxDaYoENdDBLyEezjm3r8Fq2YLsOfgkhC9jcF4iWR1bugxrUAx69Clg1QpMWt6a7637aQkp/lQrys8qVqwjX9Q8oDGYKgR1W+MPu5mC+JwtOJFBvUY9b06GqqP9BdVfVCPX7e7kQz2vYo1kRBYS2nKJAGj0ZuVUaNap4DDATuMBvu7Ja3hky5J3a7Av131vX8uUjR65fp5J/oXG53LimfUSxq7vTsGmMlAIv9uPb5Wcaljc0o/NipS1bSotlZzds8E2Lpu/davR660e+HzzkHWqzR7S+0+nWe01bfLu+SsYJazjiuHLDZ8pv/wS7cNrMmdOXn3Zad7uKR47g/EJWUVOMHJkxO+Wr9cHn1L4zBAgEL3au3t5swq918wl8dPv7v8QH/z9dSU+jrgSCbMD/A2xIV8CjDsCb4pRujHcUSD6XK15rQ48LEOojQFJSX4BMB00FyNXXX4AanY0UoKS+5TKR1xNa2jgDSUNHgcwoF4FcS88DNSZ4wVPSMrJzn3Pmcv48E84CoTN7FUMHDSnGFdSMkXs6s+LO8YWwss8pv6KvOdAuhx1ywk477HUCwB6z0H/SQbNYmJn+UGGoQYYojFMo50eFqwBGKziesslc9W6MV6xv7eMUu35f05wo6A4TlyQitbo5pQOfJenAjw4A");
 
 export default HandsHoldingDiamond;

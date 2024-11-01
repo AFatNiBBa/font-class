@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chess-queen` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chess-queen?s=sharp-solid chess-queen}
  * @preview ![chess-queen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chess-queen.svg)
  */
-const ChessQueen: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M200 56a56 56 0 1 1 112 0A56 56 0 1 1 200 56zM64 480l48-48 288 0 48 48 0 32L64 512l0-32zM424 192c20.6 0 39-9.7 50.7-24.9L512 192 400 400l-288 0L0 192l37.3-24.9C49 182.3 67.4 192 88 192c35.3 0 64-28.7 64-64l42 0c6.2 24 26 42.6 50.7 47c3.4 .6 7.2 1 11.3 1s7.8-.3 11.3-1c24.7-4.4 44.5-23 50.7-47l42 0c0 35.3 28.7 64 64 64z" />
-    </Icon>
-);
+const ChessQueen = createIcon("chess-queen", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABZwAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBQwsGAAE2AiQDCAQgBYMtBzIbxQTIrgpsOlxcC1FE0UNOu2ZteONvzJhvu/g0omK/z559cISOHQQIZBTKOLBxZ1wcgSOjUrEo7FUsgf7+P+v6+2ZmpbRn21t+2ElIViOypOYSNrX/jfmOiyEFhbOvfshhfldItf3w+vvv/24+v+dHB/iNDq02LlogC3zO5wkkNjXxKDuwTBOwrJ3dD4ToV+lTPslqu2FzQZtncRQd9VD4A3cbo/nKYpQy0gAg0wDg7PX8PHy4s5X8DpL3ckAgZwGrCA0aLCJwgihYJFkFrVbYosHhH7gKAdJDWS/QosNFcAlAC0rTSjqdfazTSUVjnbr8ce/nLi/ETu1JyekTCbrERcaJ6l5uFF3JOBXleF479/dYNVkNm8UZ871psuh1mLYjOnrvZj4nOH9PYE3s/5jjf6sGrd5a+bVG22ecb8zk8evFjEm9ze7mGXmfuLk7UM/MbAAIwrsp3Tc48X8YBcCXp1/6yAZvS70BwwqEZsfgVBQoAgCo9LIVBOUkUZ467p6AGEVA6Y0KaCwwItAatR2BzrIwBHqjLhOlVSHmVQ4o4+5A45A+aM27hs4Jn15vPg2TBB4IH7nUdIvSlnivfyBH8zLSRXJwZRrD29p6b6x4YRe12rTqVqNag25DOuWFPVqkezjNi1gQf4FYND5On9eL1OjUpUGb1jonBt93PfX67V4wBUrd56QUKU3V7ZquLj8SAw==");
 
 export default ChessQueen;

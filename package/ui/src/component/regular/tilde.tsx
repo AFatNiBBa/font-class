@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tilde` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tilde?s=regular tilde}
  * @preview ![tilde](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tilde.svg)
  */
-const Tilde: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M100.5 176c-29 0-52.5 23.5-52.5 52.5L48 320c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-91.5C0 173 45 128 100.5 128c29.6 0 57.6 13 76.7 35.6L307.4 317.4c10 11.8 24.6 18.6 40.1 18.6c29 0 52.5-23.5 52.5-52.5l0-91.5c0-13.3 10.7-24 24-24s24 10.7 24 24l0 91.5C448 339 403 384 347.5 384c-29.6 0-57.6-13-76.7-35.6L140.6 194.6c-10-11.8-24.6-18.6-40.1-18.6z" />
-    </Icon>
-);
+const Tilde = createIcon("tilde", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABWgAAAHZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBIwsGAAE2AiQDCAQgBYMtBywbnwTIhod/9Pr/fZLMPEB5gNFDLMXfSatnK7V36uZ5uAbgk6Q4FnYeyJhAc54nkFiXR5oF9kIPxDFm7ewQg8gqfeSSrBb9sLkhi8txQoHkYvIFjueXxi/qOEaikAKIygAYPHPqeB/9GD9GfF7yjPjcWATEYJALpEhRX4B+UoH6MjkymeDHKCnx/8CcAKKofEUCMqToif6ADCQiyzqWK1TIZpQrlJ17p3rEmdriQrN7dSOut33c81n76XGx3P1a5+tFXG55t4640upBt+cdZsSlsk0eVX70W+MvVnxhWaVFv/F9ca4akyfXmKvs289vfPPd4Qv+rjPpt+8L80bMPGXwEz8iUBsIBC1Lrd2zsFK//0qXS8DPr//43yIZHyWPUFoCgrRdSTvz4iOIjwTGTWKHJgSyQKKjBPDU8s4JEMoiQKKorACpeioLkCmrrQAFDXUXoKisqVKRlRGqm99AorzNINXDfpCp7gko6Odjt6h6pJqjvrv6ccsaIbHhR3nnDp3yPvk0UzVlkOO2b75st9oROq1xaYWNNthmuWVW2ybELcYH2603gtHDQZTrrINOcn3k2+X9+QzLbbHVahttSHv6ys87rezg462hX1C6SxISiUsnhW2r1y1bDgA=");
 
 export default Tilde;

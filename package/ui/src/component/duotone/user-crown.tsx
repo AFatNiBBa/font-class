@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-crown` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-crown?s=duotone user-crown}
  * @preview ![user-crown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/user-crown.svg)
  */
-const UserCrown: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M96 128l32 0 16 0 160 0 16 0 32 0c0 70.7-57.3 128-128 128s-128-57.3-128-128z" />
-        <path d="M352 80l0 48-32 0-16 0-160 0-16 0-32 0 0-48 0-37.7c0 0 0-.1 0-.1L96 39l0-23c0-8.8 7.2-16 16-16l2.4 0c3.6 0 7.2 1.2 10 3.5L140 16l3 2.4c.3 .2 .6 .4 .8 .6l.1 .1c10.2 7.5 23.8 8.3 34.9 2L209.1 4c4.6-2.6 9.7-4 14.9-4s10.4 1.4 14.9 4l30.2 17.2c11 6.3 24.7 5.5 34.9-2l.1-.1c.3-.2 .6-.4 .8-.6l3-2.4L323.6 3.5c2.8-2.3 6.4-3.5 10-3.5L336 0c8.8 0 16 7.2 16 16l0 23 0 3.2c0 0 0 .1 0 .1L352 80zM0 472c0-92.8 75.2-168 168-168l112 0c92.8 0 168 75.2 168 168l0 8c0 17.7-14.3 32-32 32L32 512c-17.7 0-32-14.3-32-32l0-8z" />
-    </Icon>
-);
+const UserCrown = createIcon("user-crown", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgwAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCIAsIAAE2AiQDCgQgBYMtB1AbQgXIjtRWOTlhEg//Pxd5309mzmyyDFlgVESgCIvkCGyrygrZzqlFVUWTITPzI6dy+61U/9w63h9/2u48G90bn8DiA5l/oGXx0QBritudzWKH2udYQizJ8WiO0+UKebyW3VIjPZe+xCP8P4Dxm15ukbTJAERHACzctG6Fj5rRTPFl623iS8sREItAJZAhQ18B5sgE+spVyOWCZmq1aEarVRFA1PFnM1BHDWdwCZCDJIk8X9y7bVlrl28sa8UhoSgiIq57IETP9CjjgW7dov1aGfHK8NGNVQZ7pBQRD0QPlFxvGU91E+Zz+3+ZT/iHm6if5r6/wW93fbJoG/d3fzpiW1m0e37Oe0s+nvfBoEFvdnzzD18e/NKuUxMmTKiaEwwDmR7aN5P65H8QQdHzW/sajX3f6lUSBvlH9aTZvocMDNt1N5b9xf/L4rRl8f9fsayh/b177a+l9zfsml9ValMWr169eEoNCARPTNvx564Oc/5ulAn8+s5fo5dbH8VH6U00JBBkY1pjbI+PAIQBlCkuGqRUbbdAZocE/lptPS1AKBAgqSsEyPTRUYBcYbQANf1NFaCusE4m8jZCVzsyn7R1hs9Mc5nPdfUWXzPHJ2Vd18gsT7Mb7d2XvayElp6qJo6bUM2qhgOiG5MSD2dX0/GIi7QwEi466JSTzjtgvyPOF+RZKxoXnLBMI5aqUGWicSaozFItj2/tjViedc6Rvrl+zGzV/mSEi/r6kXCeBJh0Zn0ZkSLrfF39sR85+mNteLFrbd5WAAA=");
 
 export default UserCrown;

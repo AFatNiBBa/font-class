@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `audible` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/audible?s=brands audible}
  * @preview ![audible](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/audible.svg)
  */
-const Audible: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M640 199.9v54l-320 200L0 254v-54l320 200 320-200.1zm-194.5 72l47.1-29.4c-37.2-55.8-100.7-92.6-172.7-92.6-72 0-135.5 36.7-172.6 92.4h.3c2.5-2.3 5.1-4.5 7.7-6.7 89.7-74.4 219.4-58.1 290.2 36.3zm-220.1 18.8c16.9-11.9 36.5-18.7 57.4-18.7 34.4 0 65.2 18.4 86.4 47.6l45.4-28.4c-20.9-29.9-55.6-49.5-94.8-49.5-38.9 0-73.4 19.4-94.4 49zM103.6 161.1c131.8-104.3 318.2-76.4 417.5 62.1l.7 1 48.8-30.4C517.1 112.1 424.8 58.1 319.9 58.1c-103.5 0-196.6 53.5-250.5 135.6 9.9-10.5 22.7-23.5 34.2-32.6zm467 32.7z" />
-    </Icon>
-);
+const Audible = createIcon("audible", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABbQAAAIsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBawsGAAE2AiQDCAQgBYMtBy4b6QTIhuB5Pah5P1nAWcCocBKrlcqTW3P+L/f8ph0d4OcjOLSxcE2QBbRmYz1PILFevi0r72Vhlihm7mqTKaL7SktZksdzj48cIY+/40YlSHela7ihfWh8rY5jJCUyAFEZAINnTh3v1BfxRcS1/18jrhmLgBgCCoEMGeoL0E8mUF+uQC4XfBH//y//gQUBREm4cwI5SmIi1gBykOR5XqF6hTrlSlTIZ+RXL7tRWBRLImJxLJ3Wt1ff5/u8XfZ4rzfblYs7ar0//d3p054pd75/37i7xeNlz/Wb8f7MiPenR7w7vUaMjTMz3pvxzrR3Bt3TssnTlZ/+tvG1Fdcc/L1Hjx4DLxp4UQ/BPj3yGzz7yqVLPXq+eelyaNJlRM9JZSaX7TXik6o3F4MrfOK3kycbnG646/CQruNKM770yIaMbNRlGBVcN6jZ4KYTRHxQ08fc/2MHIBD8ce7Kwwsr9fu1dLkEvnr7+7/xzf//lQ6lp1FaAkHW7v925qVDINQAohQ7NDG+KJCMlMO7lne7AKEsAiQllRUgU09lAXJltRWghIa6C1BSWVNlIi8jVDd/gKS8zSDTw36Qq+4VUEI/F8OSqkfmXZxvcJ+75BEaGr6r6NyhU9GnWFY67zBM2exbbCutdqSJ1nTQChttsM1yy6y2TZFbjE+2W2+ERQz3Q4XOOuik0Edx3D7vn2G5LbZabaMNdZu+ivtBKzvs+a1JT0DbRSpJRCr1lOUuWbccAAA=");
 
 export default Audible;

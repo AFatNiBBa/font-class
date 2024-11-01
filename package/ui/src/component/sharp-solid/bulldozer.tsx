@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bulldozer` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bulldozer?s=sharp-solid bulldozer}
  * @preview ![bulldozer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/bulldozer.svg)
  */
-const Bulldozer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 32l32 0 128 0 19.8 0 8.8 17.7L291.8 192l28.2 0 0-64 0-32 64 0 0 32 0 64 64 0 0 96 64 0 0-64 0-11.2 7-8.8 64-80 50 40-57 71.2 0 52.8 0 64 0 50.7 54.6 54.6-45.3 45.3-64-64-9.4-9.4 0-13.3 0-64-42.8 0c6.9 14.5 10.8 30.8 10.8 48c0 61.9-50.1 112-112 112l-256 0C50.1 512 0 461.9 0 400c0-30.5 12.2-58.2 32-78.4L32 256l0-64L32 64l0-32zm80 320c-26.5 0-48 21.5-48 48s21.5 48 48 48l256 0c26.5 0 48-21.5 48-48s-21.5-48-48-48l-256 0zM172.2 96L96 96l0 96 124.2 0-48-96zM120 376a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm216 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm-56-24a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM176 400a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const Bulldozer = createIcon("bulldozer", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABlQAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCdgsGAAE2AiQDCAQgBYMtBzAbdgXIjsM4Jtw5s4g1guft/qvO7f6AeyyumUJOoWiydSylQqSX74kDf3/qeaZlA77zCAdlzO7lG2jv8woE+FsHTmsBe16wiGLNrXEMHCLIxCBK1qgh0uO3x7dHN8jjn25XRnokfYy76o/Gj7rcTlKVAYhGACzasWWdC9/FdxEfld4gPrIGAbEIFAIZMvQKMFcm0CtXIJcLvotSKf0HFgQQ5eTeBHJU4VG8BBZBUpHnG9qrUK0pq8u3b6jqPTXVNV2xLWoCauEFS7d3xI5YF1tDk2+KubE52iOuV8cjHh/58tTaeHP0q/1PjQn63K7nWyPu73yk7YFhdfFSx0M9j7Y/OLx2R3VNtaiJ7Ttf6Hp46Ivdj43YxuYZXW3IrfcPfrXx1Z8HfXz8YwNPFcXrt1h+h14LFb200EH+hhonLdigw8zlplloimO+VrI6C43xQnfD/37jN/831P+y2EI3KzYsmPgVn2TZJ19NZFgpP6e0VpAHXW/CgSkdm9raNmX60w6TolddqRPvA4Fg6F8vXH2gYe7flTUJ/PCun/fXlS6ka9KrqJRAkI0tjbU33YwKx1OA1FNcaTB8FkjuVQG4WutBAUI1BiTlqiHToxFy1cZAmX7T9MkrW2QirxJa7QNIal0CmelugFyr16DMXO/Vy7VGFqNmhJlfiAWWa2yZVzFp/MRidvE4cFhhp5fDOcV0YuSVvDAKJx13kfMud8xRp1yupEuta13hnOUes4yPCpOMN1FhtmJ5vA1sp/qlLnPqPmr9mDmK9ysjXemvH4V0IoqT9SSJSFW/xK0fvejaY5cCAAAA");
 
 export default Bulldozer;

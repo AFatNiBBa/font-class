@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-to-bracket` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-to-bracket?s=solid up-to-bracket}
  * @preview ![up-to-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/up-to-bracket.svg)
  */
-const UpToBracket: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M374.1 294.1L251.3 171.3c-7.2-7.2-17.1-11.3-27.3-11.3s-20.1 4.1-27.3 11.3L73.9 294.1c-6.4 6.4-9.9 15-9.9 24C64 336.8 79.2 352 97.9 352l62.1 0 0 128c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-128 62.1 0c18.7 0 33.9-15.2 33.9-33.9c0-9-3.6-17.6-9.9-24zM64 160l0-64c0-17.7 14.3-32 32-32l256 0c17.7 0 32 14.3 32 32l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64c0-53-43-96-96-96L96 0C43 0 0 43 0 96l0 64c0 17.7 14.3 32 32 32s32-14.3 32-32z" />
-    </Icon>
-);
+const UpToBracket = createIcon("up-to-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABcQAAAIBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBdQsGAAE2AiQDCAQgBYMtBzQb+QTIjpQuZyQRfL9W9vszh2GaigJmxUQ6tTZhtS5oxFUsquitEPz5v9zzs00H+O2ETmluu92gsXnv5wkEPhbngaRZYJkmYL1NMcuOMHw8YtQwGbF3n8e3B+TxLDuvivQk/cCt/qHxSwfnSeoyANEcABMXzZur3BANEd8rb4nvZiMgJoJCIEOGzgKMkQl0liuQywUNUanQf2BBAFFN4MTM8TUrsQmQgyTleY9+jaqa5AsbVdWvW7hg4cP6q63nx32n2zxo1CgEUq61exQRuTNt1wZkON2oSVxzDL5Al172Kg1rHG96vOrMONy91Lz0x4+NPxx4clSYhSmM5jxp2vQJNY5zWtPLl5tOgOxp4xhM8oZemCDcOm0njNraUuk0p3Wq1ngeCAR1nWY2XdVszP/aRgn8/PQv/4xUylFOJdRKIMj6VPpYHmWIsgAApDioe5QRSBZK5F0beyhAqEeApFq9AJlOmguQq9dbgCpdDRWgWr15MpHXCa2tuEDS2B6QGeYEyLX2GlQZ43OhWuvIQkwIEOEPL3XaDE3dVwzsN6AYVWy7hhg1XNseXTx2exysUz3hpo122Wm/DdbbYv9E7jW3fMAO0zxiqi8qDNTPAIVRiuPBd3UhMqruY86WzncZrXg/7uGgv7gnSB9IP6gekpTvpSYHdvfdv6vv2r1r1m3bsB8A");
 
 export default UpToBracket;

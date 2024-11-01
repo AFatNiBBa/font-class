@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grid-4` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grid-4?s=sharp-light grid-4}
  * @preview ![grid-4](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/grid-4.svg)
  */
-const Grid_4: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M24 56l0 41.6 41.6 0 0-41.6L24 56zm0 119.5l0 41.6 41.6 0 0-41.6-41.6 0zM0 270.9l24 0 41.6 0 24 0 0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24zm65.6 65.6l0-41.6-41.6 0 0 41.6 41.6 0zM24 414.4L24 456l41.6 0 0-41.6-41.6 0zM89.6 32l0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24L0 56 0 32l24 0 41.6 0 24 0zm0 119.5l0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24 24 0 41.6 0 24 0zm0 238.9l0 24 0 41.6 0 24-24 0L24 480 0 480l0-24 0-41.6 0-24 24 0 41.6 0 24 0zM143.5 56l0 41.6 41.6 0 0-41.6-41.6 0zm0 119.5l0 41.6 41.6 0 0-41.6-41.6 0zm-24 95.5l24 0 41.6 0 24 0 0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24zm65.6 65.6l0-41.6-41.6 0 0 41.6 41.6 0zm-41.6 77.9l0 41.6 41.6 0 0-41.6-41.6 0zM209.1 32l0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24 24 0 41.6 0 24 0zm0 119.5l0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24 24 0 41.6 0 24 0zm0 238.9l0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24 24 0 41.6 0 24 0zM304.5 56l-41.6 0 0 41.6 41.6 0 0-41.6zm0 119.5l-41.6 0 0 41.6 41.6 0 0-41.6zM238.9 294.9l0-24 24 0 41.6 0 24 0 0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6zm24 41.6l41.6 0 0-41.6-41.6 0 0 41.6zm41.6 77.9l-41.6 0 0 41.6 41.6 0 0-41.6zm0-382.4l24 0 0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24 24 0 41.6 0zm0 119.5l24 0 0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24 24 0 41.6 0zm0 238.9l24 0 0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24 24 0 41.6 0zM382.4 56l0 41.6 41.6 0L424 56l-41.6 0zm0 119.5l0 41.6 41.6 0 0-41.6-41.6 0zm-24 95.5l24 0 41.6 0 24 0 0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24zM424 336.5l0-41.6-41.6 0 0 41.6 41.6 0zm-41.6 77.9l0 41.6 41.6 0 0-41.6-41.6 0zM448 32l0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24 24 0L424 32l24 0zm0 119.5l0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24 24 0 41.6 0 24 0zm0 238.9l0 24 0 41.6 0 24-24 0-41.6 0-24 0 0-24 0-41.6 0-24 24 0 41.6 0 24 0z" />
-    </Icon>
-);
+const Grid_4 = createIcon("grid-4", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAACDAAAAJbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhnSHRwsGAAE2AiQDCAQgBYMtBy0bxAfIjsO44SvCBbGUoXyKh//2M++bP6H5BXK7bEugCBwBG1vHHtCxWt9U+JxaAh2IaE0npNhl407+bhg34YKqYiMBFRlb4WtEZZXKxOX0f9f5tDEt0DyUsbavgdHcPrEs0DG5TV0CWVYsAQbIrbpNDBP5S36OkONRzJEiPUhduJO8aHxV4oMkVwBiGgCs2XNxzkQvehHd/hui6xQBsRaMEkOFCoPEwHISAoMkjYIsC3rR74v/wIAAosl9WAIZ4xCviU8AGSSjydzpTJdinJuoZ2JlNZhuTM67w03lgFBHRJGm7axLLWxaKRHaXVY8RL2zf/yAIAaLelftO44IlboIaZRO7QxRY+bcutRh3NVfW51DToqqf9+D5o8/Lzw/jnVPdxW/zeXDsEc9wFCseCdyJRiCLBOn+winnlmT/iYiukRqHhqowlr3SOgP52bmNXQvUCFFL2F3LtxwRufcuXgnqOML1PEF6sCP8mHK9Wb7vYjI0mrwpIjvUguFtFcggOaf8jv35695P0Ag+Lx1z/+Rqcv/t+sEvnz8+Tu5Xb8XE+k52hIIqjn9OW5iAgjBGBBJcdv4wAcFUjw2ivusk9wVIBQESJqKAJUBCsRAVswmBhqG6RIDTcUOlcgdYRa3BSeZ5Bqnsow3TjaLX07Dcv7CTbNiFSzLIVH+K51mW4U3s0Kz1gij0JuVKcBTanSPw2RLdC+rFO/ltCsuu+mUk865WSFdtyl2yyUbh4Q3vHeUJjUaBEaExYWbmt2Ucd0N55yXLe9nTNg+EHE/3FixPXFFLiIjSURqfrKs1Q4AAAA=");
 
 export default Grid_4;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mobile-button` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mobile-button?s=regular mobile-button}
  * @preview ![mobile-button](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mobile-button.svg)
  */
-const MobileButton: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M80 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16l224 0c8.8 0 16-7.2 16-16l0-384c0-8.8-7.2-16-16-16L80 48zM16 64C16 28.7 44.7 0 80 0L304 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L80 512c-35.3 0-64-28.7-64-64L16 64zM192 392a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const MobileButton = createIcon("mobile-button", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABYQAAAHmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBLAsGAAE2AiQDCAQgBYMtBzQbsATIjsO44TuyxVKGeIyg3tZrz9u9X9KeGFZIlAFiCgRGjpSZkkCQuhza6SXz1/vUzfPOowDfIgttLFwayJi853kCCZYvgTgLs0Qx85YZ6xEZvZIzNUmPT6bHrw3yOBFXVUj3ElwpD41/tHWRpJIBiCYAmLJq2QJv38f7iL9rPxJ/m4eAmAJKgQwZOggwXibQQa5ELhe8j1pN/oElAUQdPZdAjgrGYTL2viRZnjdpV79aaZivrFaKdTdbpLjVshp3Wmdxu1Ux/UG/iM97VeNVn0/bprjb+5PuRbzu+1m7bM2rtne7v273oFfXz5p89m8Xm1l05X2jsxq9f4+XakVTmj5972nTpsVZwIjj61lLWrZcUtFAnLr09buuNR7/X71qAh9/+3++rkntbexNn6GeBIKsf62/9XFWE01irwAApDisq/OiQDJMRu/awG0BQoEASZ1CgEx7TQTIFfoJUNHJCAHqFJbJRF5faGFDB0kD+0BmpFMg18L3oGK835U6LSILH/Lyyc9b3EyEZsyVQwYOLseW01CjIgLP43HlMt/7cCr1oVWb7bHbQZtstM1BQPZboB+yy0wPnuFDpSEGGqw0VrmdbLmVoOx3wLYxsz9lnPK83Nthv7kPSYliDuVKEpEahhf1gAA=");
 
 export default MobileButton;

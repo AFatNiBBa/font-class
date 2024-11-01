@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-doc` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-doc?s=sharp-regular file-doc}
  * @preview ![file-doc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/file-doc.svg)
  */
-const FileDoc: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 464l-64 0L48 48l176 0 0 112 112 0 0 144 48 0 0-176L256 0 48 0 0 0 0 48 0 464l0 48 48 0 64 0 0-48zm64-112l-16 0 0 16 0 128 0 16 16 0 32 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-32 0zm16 128l0-96 16 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16l-16 0zM456 352c-22.1 0-40 17.9-40 40l0 80c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-8 0-16-32 0 0 16 0 8c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 8 0 16 32 0 0-16 0-8c0-22.1-17.9-40-40-40l-16 0zM288 392l0 80c0 22.1 17.9 40 40 40l16 0c22.1 0 40-17.9 40-40l0-80c0-22.1-17.9-40-40-40l-16 0c-22.1 0-40 17.9-40 40zm40-8l16 0c4.4 0 8 3.6 8 8l0 80c0 4.4-3.6 8-8 8l-16 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8z" />
-    </Icon>
-);
+const FileDoc = createIcon("file-doc", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABlwAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCDHwsGAAE2AiQDCAQgBYMtBy8bngXIHgnZGeZ9gMZCOlzj4f91ovd9yY4jBeQQKsQKMBcQJqAJcSLEs5fXno6dDTtgMTZ0SHf5u4lrnv/5t7fRo0Va5dIKJCLOJzDA6TCSBjR8G9hMJ2CzNocIOljPbRLxlL7f0TB+w9QF8vhAd9EiPewfcad8aPxrpJtJWhmAqACw/ujB3T79K/6K+KH3FvGDnQiI9aAWyJBhjACrZAJj5GrkcsFf0euV/8CaAKINb00gRwev4X1ADpJ2no8f3n/FqEFlq39+pGwVh4uyyKIMuTbiSBSFSCoo4+gMEYjymT84OvfIHphKCL5j7q+4L8XptyTiPsT1vV/UW1f0QLEIYUHxwOwH7+UZHu037IGiOCSIfFMbt+Q+S8uiXO14un/i89Xz//HjWT+6eOA6PPsor7rEJe7SeNV11/m1aTyq0axr1l5cIR2uV6nq5refsnWyn35r6oHXnXLKKZW/Bqwz4K+qz3XdF3i/u0/3/Re6le4L73c7KrVKR/uUyintfV0ZiT7/mWn7oBDddPHqqqp2ZXsdCASfP5EnD1z1f6dM4J/3v/+M9D619Dx0JBBks3uznZBAIgAAKa4yMUEgeU4b0trPAwKEAgGStkKAzGiVALnCLAFaxlksQFvhoEzkfYUhTjzZpJ9L2cwS17C5Id5gW1b5ptQ2JLK4FaNO/G1M26KBzbvq+XObekU97TikUOTb5srabUy/qk7MSAed5WIXucKZznCuKxR+md3VK11oiwVu9kW1+eZq1Fao6f5X7UguXeZy544VfpuV6veT6a6y589IdgLOBWqSRKTON1KYc8bFpwMAAA==");
 
 export default FileDoc;

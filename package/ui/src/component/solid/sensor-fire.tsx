@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sensor-fire` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sensor-fire?s=solid sensor-fire}
  * @preview ![sensor-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sensor-fire.svg)
  */
-const SensorFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l273.6 0c-31-34.7-49.6-80.6-49.6-129.9c0-35.2 16.3-73.6 37.2-107.4c21.7-35.2 51.9-71.2 87.3-102.8c10-8.9 23-12.8 35.5-11.7L448 96c0-35.3-28.7-64-64-64L64 32zm48 88l0 144c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-144c0-13.3 10.7-24 24-24s24 10.7 24 24zm96 0l0 144c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-144c0-13.3 10.7-24 24-24s24 10.7 24 24zm297.7 88.1l-19-19.9c-2-2.1-4-4.4-6-6.7c0 0 0 0 0 0c-9-10.2-18.6-21.3-32.7-21.6c-7.3-.2-14.6 2.3-20.3 7.5c-23.4 21.1-50 48.9-70.9 80.2C336 278.6 320 314.7 320 352c0 88.6 70.4 159.8 160 159.8c88.7 0 160-71.2 160-159.8c0-30-11-60.9-26.2-88.1c-15.2-27.4-35.3-52.3-55-70.6c-5.6-5.2-12.8-7.8-19.9-7.8c-7.6 0-15.5 2.8-20.9 8.9l-12.3 13.8zM544 400c0 35.3-28.7 64-64 64s-64-28.7-64-64c0-36.5 37-73 54.8-88.4c5.4-4.7 13.1-4.7 18.5 0C507 327 544 363.5 544 400z" />
-    </Icon>
-);
+const SensorFire = createIcon("sensor-fire", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABkAAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCPwsGAAE2AiQDCAQgBYMtBzIbQQXIhuB7XWW/L82BZklHqENCAxFN6nK65RQjgvm/5vOjo2vAz0dwaFGYMY7U7ucTmOgsGjhpNpzNaAI8a2cWQukGBukSnzCMP0zsIY+/s0vVSHelBm5Ibxo/6O1Sks4ZgGgDwKIdW9b5sD3aI775/zXiG2sQEItAJZAhQz8B5soE+slVyOWC9vj/f/sfWBFAdIDfn0COjrgQ1wJykNTyvGppGdG9XmvOt9drxZ5HR0Y82SvFXaOeGtYcH2+/qO89fT/ZcsewiLtHPz28aZtw59DH+0TcM+Kx3nXKO2j0qNG394jwRbFWcffwq7u9O/fd6tt57237bsEHO+4f/7wgF73Xbdud568z9PHRT/e5Z8wzPe/oftuop3oPfrrt6Z8GNQ5vWPDAgyVlsVBRlg928Wus6fv0PX903/jjxCokFk7YcSOKum/a1P1GZfBAckbtGIJ126IEES9Nrl++sXXAyFjybmNpRqPReH7/s8768Yp605XvDfugKCkffLAsi74jRvxw+eU/jBjRFwgE3W+Ys/mA1rm/dqon8P3bv/zBX/z/h+nC9DQ6SSDIxv4/1t50IVh6AKkUpxssfFAgOVMNXrXJ7QKEAgGSDgoBMn21CZArjBGgZoBpAnRQ2CITeWehm30NJE1OApnpzgO5bl4BNXN9keygW2R6yGsR/w1MWc7QsmXVpPETq9nVtK4KqsXG+TnVsjrydNc3yqx0uBMc71SHOdRRTiXqZOsypznOcglZ5osqk4w3UWW2art1r2yn5MlOcdRY2l9kjup+ONLp8uhRxkjAOFlJkohUf8XyTjh5nFIDAA==");
 
 export default SensorFire;

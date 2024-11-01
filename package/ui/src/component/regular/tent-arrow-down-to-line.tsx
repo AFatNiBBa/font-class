@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tent-arrow-down-to-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tent-arrow-down-to-line?s=regular tent-arrow-down-to-line}
  * @preview ![tent-arrow-down-to-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tent-arrow-down-to-line.svg)
  */
-const TentArrowDownToLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M241.8 111.9c8.9 9.9 8.1 25-1.8 33.9l-80 72c-9.1 8.2-23 8.2-32.1 0l-80-72c-9.9-8.9-10.7-24-1.8-33.9s24-10.7 33.9-1.8l39.9 36L120 24c0-13.3 10.7-24 24-24s24 10.7 24 24l0 122.1 39.9-36c9.9-8.9 25-8.1 33.9 1.8zM369.3 133c8.6-6.7 20.7-6.7 29.4 0L565.2 261.7c10.7 8.3 18 20.1 20.7 33.3l33.9 169.3C631.2 466.1 640 476 640 488c0 13.3-10.7 24-24 24l-16 0-432 0L24 512c-13.3 0-24-10.7-24-24s10.7-24 24-24l124.3 0 33.8-169c2.6-13.2 10-25.1 20.7-33.3L369.3 133zm-172 331L360 464l0-263.1L232.1 299.7c-1.5 1.2-2.6 2.9-3 4.8L197.3 464zM472 464l98.7 0L538.8 304.4c-.4-1.9-1.4-3.6-3-4.8L408 200.9 408 336l64 128z" />
-    </Icon>
-);
+const TentArrowDownToLine = createIcon("tent-arrow-down-to-line", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABcgAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBbQsGAAE2AiQDCAQgBYMtBz4b+wTIjpMlZn6Jh/9fI73vzywAz4aRiywRVVjWVSWqaMSeOgCo0dr5v9zze350gJ+P4FDGtj1sNzCaU6DnAabhmED5sjBLFLM2h4g6CHIgIlZP6hNPw3g0LB0hj7/jBSWkN9PneL58aHytw9MkJRmAqAfAwu2b17ozEAMRn/2f+MxqBMRCUAhkyNAtwByZQLdcgVwuGIj//4//gQUBRCk8YgI5SrEVxwA5SPI87+qsqqkqqcm3VZVU7n6zeUu80rotXut6fejciHh7+NUOMT+ut2x9vWVrXO3wVW8Mqay91jm3qmL7tnb7jqrKqiwsuE2oOYjMt9YdxdZBt+pvfdv/+bHP/bj+7vfrl/v773D193f/677sQS0bN7Y86LLu/x5t/vLLq4+rntx/Q3PjSqxfkPAmPewqTq6emrdXwaYyjx3SkPreazqMpO99qV7e6TnzHwMCQe/N/kP76+b8Wl6VwBcffv+bfvP/d9Lj6RbKJRBkY/4fY096HCI6gCzFvQYpXxRI1srhXau9JkCoRICkVKUAmS71AuQqjRagRK+pApSqtFkm8gqh2d4TJNUugsw0j4Bcsw9AiTk+Sks1R0Yvmhz0313CMgktXVdMHDehmFVsmwbDGDIvzy4eSyPuTUMj3VbHnHfOFUcdcdIVgVyytrjHWcs0eKkfKkw0zgSFWQpz57uwTWSXXHZyzdhXMVvxvjfCvfrkkU5NgDlJQ5KI1PZV1Y89eOnS+fvG0i4ee+X8WBoCAA==");
 
 export default TentArrowDownToLine;

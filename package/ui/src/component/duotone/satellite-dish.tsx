@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `satellite-dish` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/satellite-dish?s=duotone satellite-dish}
  * @preview ![satellite-dish](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/satellite-dish.svg)
  */
-const SatelliteDish: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M192 32c0 17.7 14.3 32 32 32c123.7 0 224 100.3 224 224c0 17.7 14.3 32 32 32s32-14.3 32-32C512 128.9 383.1 0 224 0c-17.7 0-32 14.3-32 32zm0 96c0 17.7 14.3 32 32 32c70.7 0 128 57.3 128 128c0 17.7 14.3 32 32 32s32-14.3 32-32c0-106-86-192-192-192c-17.7 0-32 14.3-32 32z" />
-        <path d="M60.6 220.6c-14.5-14.5-38.8-11.8-46.3 7.3C5.1 251.5 0 277.1 0 304C0 418.9 93.1 512 208 512c26.9 0 52.5-5.1 76.1-14.4c19-7.5 21.8-31.8 7.3-46.3L187.3 347.3l28.4-28.4c2.6 .7 5.4 1.1 8.3 1.1c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32c0 2.9 .4 5.6 1.1 8.3l-28.4 28.4L60.6 220.6z" />
-    </Icon>
-);
+const SatelliteDish = createIcon("satellite-dish", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABjAAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCHQsIAAE2AiQDCgQgBYMtB1gbRwXIhof/t4u671d1D6AamxmghfPeSBHEuM+kC8c9cbnzP396wAXAc9ucjc1znyfQeSB5nuVTKNMMLGtbIcIaRPmSyOKzihiSN6HdFfL4IbukRHomfYW7/n8A41ftXCKplwGIpgCYunr5Qu9Vo5riq9rrxFcWICCmgUIgQ4aOAkyQCXSUK5DLBdVUq1GNWq0ggCjzD5+BMko4gDOAHCQh5Xm/Lh0alBrlqxqU6q9+smXEo5bP+3np9ytvjn6qzVOtV0X/eKLBzTZPxfnWT9a/0fKRc636xKr151rFqOnjuZ8PfaVrJUX9l1URd5LZwcS3yVj2A92zW6Vp5feuX+36yoTHb3zP9wd/6BurK5XV0XfgL506vbx7ty8NyRtfu9Y4B3n2lh7m3ZcaX6NR7TTgg+91i8U9p/Saksyei3Fxy0K6ZPqIErXF0pUrl0a5HQgEPU7Ek5ubTPi/boMEHr/x57/0Q1J7L0kV1JVAkA2oDbAhgUQAAFKc0i3BewKZcZLwqQ09KUCojwBJWX0BMh00FSBXX38BSjobKUBZfctlIq8ntLSxwklDR+HMKKfhXEuvwSUTfFqWtYwMdyRqyN++uFkcmHmqGDpoSDGumA4UCkq4PRxfbGt9TpmFvuqiXQ475ISddtjrBIOOWVg76aBZEjjTFxWGGmSIwjjF8fiWW8XKY47bO2bOjxmvuO/0cUpe31edJwGGvVhfRqTIWoO0Z+COvcf3DMTwqrY95oMFAAAA");
 
 export default SatelliteDish;

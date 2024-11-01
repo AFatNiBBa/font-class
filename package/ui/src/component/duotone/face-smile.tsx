@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-smile` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-smile?s=duotone face-smile}
  * @preview ![face-smile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-smile.svg)
  */
-const FaceSmile: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm139.9 90.5c-5.8-6.7-5.1-16.8 1.6-22.6s16.8-5.1 22.6 1.6C182 346.2 212.6 368 256 368s74-21.8 91.9-42.5c5.8-6.7 15.9-7.4 22.6-1.6s7.4 15.9 1.6 22.6C349.8 372.1 311.1 400 256 400s-93.8-27.9-116.1-53.5zM208.4 208a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm160 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-        <path d="M176.4 240a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm160 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceSmile = createIcon("face-smile", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABnwAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCUQsIAAE2AiQDCgQgBYMtB1AbcwXIHge5afSOKG8R0zdFxAO137+e3b2fOAQ3wKiIwAGxiiRyUeEi2IDtVHWqn82NRoMQErlwEMo7s9POAMR99z/X1Ivn14Df6FA6VokNfrgKncAAKyh9Mx+OdAa2wXmTDzg09z8hC7+nY4qIt+OPuOj+BzD8o7ljRGUJQKgFwLj5s6d6/Tl8juHHwiX8aAoChPEgF5CQ0EoAIyUBrWRyZDKBz7FQ4HMoFHICEIq5dyZQjFKcwlVABqIoy7KGhpbNUa2iqCqbR7+jfP7ZphRuhsNNvPxMI2uExqioaJPhr3HZN1N/6l8x/ZcJ7+b/Pf7ttJ/55Sk/jn09Z+6NptEYnWrQ7zLFqUbbMQe+zt1dbUTh2oJqE28SIqg4y+eoaF/R/kHt+bfdj+t+9PSX6lOcqk4EhlRhVX3uohu8NqmM5i/fTJjw5iVikoiza88uOvvg3oNPSzazecmnB905m3755ZA4myacOWiCQ6QD+9xtvw4EBNYt7f5iec3I/7kigq+v/i/7ISm8juIDlIogkHoWeloSQSQAAGLYp33kEgKSRTJ+u9IN4dB2OYIoFSuH7aSl2goy5XpAkTYGSQv3z5aErEzQyFIIUaWdkAy2HzKNvIQiI33TKNYopCtSuZ6UH8LMyU180rK8X++++fB8NFaoF5mkJ0fki8Ou+3hHN3jWOttts8daa2y0p8HtMrW911aTp4hJPijXT2995YbLN/fVNefhxi67bRzWty8yQn58qat90/27wWTk8/a3IUmEGFL9CR/12v09cHtd252N2vppDAA=");
 
 export default FaceSmile;

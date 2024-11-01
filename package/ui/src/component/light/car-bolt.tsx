@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-bolt` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-bolt?s=light car-bolt}
  * @preview ![car-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/car-bolt.svg)
  */
-const CarBolt: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M113.6 98.2L85.3 192.6c3.5-.4 7.1-.6 10.7-.6l32 0 0 32-32 0c-7.4 0-14.5 1.3-21.2 3.6l-.1 .3-.5-.1C49.6 236.7 32 260.3 32 288l0 96 448 0 0-96c0-27.7-17.6-51.3-42.3-60.2l-.5 .1-.1-.3c-6.6-2.3-13.8-3.6-21.2-3.6l-32 0 0-32 32 0c3.6 0 7.2 .2 10.7 .6L398.4 98.2c-6.1-20.3-24.8-34.2-46-34.2L159.6 64c-21.2 0-39.9 13.9-46 34.2zM48.3 204.7l.4-1.3L83 89c10.2-33.8 41.3-57 76.6-57l192.8 0c35.3 0 66.5 23.2 76.6 57l34.3 114.4 .4 1.3C492.6 221.2 512 252.3 512 288l0 96 0 16 0 16 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48L32 416l0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-16 0-16 0-96c0-35.7 19.4-66.8 48.3-83.3zM104 272a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm280 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM299.3 123.3L230.6 192l89.4 0c6.5 0 12.3 3.9 14.8 9.9s1.1 12.9-3.5 17.4l-96 96c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L281.4 224 192 224c-6.5 0-12.3-3.9-14.8-9.9s-1.1-12.9 3.5-17.4l96-96c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const CarBolt = createIcon("car-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABnAAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDFwsGAAE2AiQDCAQgBYMtBy8blgXIjtFjMxjkOHJZDMl48uLh/9d+v8+deYiv7h2Pok2s4SWQkkloYt0TjRJmUfEveex5/97mfPIh8Q0Et8bKlTtX7f5xP89/2qelP6OhRQdVa+b5BAZYYRk88IHNdAI2RefWjA6MEoX7HvL4TP7kkE4l/8B2/KHxztY6iSwDANECACaXywrwo6Ai4l/5iXiVBwKIKQCdCGQgA60IMEKKQCsZBnIyBEWUpfgPZBAAUQXn/QmQg2pwhgdADkjkuSxySF3rVF/Ryyq1ck1deVX5kVZLoDra5Qhb3XP7EI1EtCIcemqC6FBDNtTSHl9Jp5Ga+GhTLnJiFZ15PdG2xHo82FYQH/CfQLjZB9yhQKFL+VCv2I8WVwxxH7s/2iXiFpXPvJXlVeXrmg+48pFe4VCsOgUvlhzV17g+Nz3/3/Wv85+RTYdGl10sZ+7Q7kPwvP3ON+OHZvzzG08C+/V9avnSuM3xpusHXG5TeonIZQszC0X2P2C/WDhTOI3UvbzYN8PEJJihKAz9fqTcFnMz+97EuqjUEp4v8UlR5Ofe8pdp6e7wGmimfTqbmvDs/PTUrgd/HSBAwMbPzqsmY/x/Vb0EwNvd9//4Z6QsEskFqCEBBGTdpb/6BCBBAABIMQnXBARIrlU44QaHYs2wBoTiUNAgnLFnyiGn4QcVTiK4I2eXkaJcDcJpAEjojIBUpAWQ4XwAuXg/AwpcZN8s/4vj/zImySwjGYNYSGAwi2WdOangM+TqvXFstMZ7Utb4YCU6DRk0rkO7HuMl2qiC8IQBmX1Uhi9iQgQKxsRis4vXJZU0MGpMT7tofj9x2PoOb5P9zX2gl3A4DpKlSzAmqdpaRgNah/rHAQAA");
 
 export default CarBolt;

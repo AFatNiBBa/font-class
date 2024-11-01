@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tie` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie?s=sharp-thin user-tie}
  * @preview ![user-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/user-tie.svg)
  */
-const UserTie: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 240a112 112 0 1 0 0-224 112 112 0 1 0 0 224zM352 128A128 128 0 1 1 96 128a128 128 0 1 1 256 0zM168.5 304l15.5 0 80 0 15.5 0-9 12.6-37.2 52.1 23.2 46.3L304 320l80 0 58.7 176 5.3 16-16.9 0-205.2 0-3.8 0L16.9 512 0 512l5.3-16L64 320l80 0 47.5 95.1 23.2-46.3-37.2-52.1-9-12.6zm80 16l-48.9 0 23.2 32.5 1.2-2.4 1.2 2.4L248.5 320zM209.7 487.2L134.1 336l-58.6 0L22.2 496l191.9 0-4.4-8.8zm-9.2-54.2l14.6 29.2L224 480l8.9-17.9 14.6-29.2L224 385.9l-23.5 47.1zM233.9 496l191.9 0L372.5 336l-58.6 0L238.3 487.2l-4.4 8.8z" />
-    </Icon>
-);
+const UserTie = createIcon("user-tie", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAABjQAAAKBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCYQsGAAE2AiQDCAQgBYMtBy8bYAURlZq1yD4SYzfcH2cGHWITLcHzvN7XuS8ZJWNkaC7RGR3M6ncL9+tuXW39A+Dq0vEff2ogy0/waKVh004tTe8ptY1HIIClW+lA0S4UjaDFnC5u6Eebcp1EQlAMIg6bGTYPQJdjzOAA6oh6DRyYHyW/CGIrKDQNAADxBAAAKvu7W7F9la8ir+wPkFc0AwIglQBYCKBhcigCQAkaYg9AxwJ0dAS+it0u/4EWAgDiCO9ZAaADLsA+4BQAoAOgcNL1kJBI03QzTQc3vc90MPr3xItcCjkmm4KPxl00dsecDzzMxqAjsRfM/o0JIpcTLhu7k64mWjYlX6PNPYlXjqTHNExfqZBU6RdTesVPDNcAzUmXKvHv9RSjqgGnSHpPX2+fIT0N8Y8KCg4KkpCVTJOUStMw+2Rs6Bt11fPqn8jXc6+/vAs/CSd//AgPF/rkyfBwWVduWBbtCq4f3kdFvf/g6hpd8rDzw1seHsv20s060sbooOgW7Xjdaq+jO0gfYwnV7G33yOSkCRSK5XEXmw+mEUXknsJGwbaPGLWJTfxmPUvdbQxyTlGMdxMKAEAAgZsHzmeOe5T8dzYVAN+f/vvFdrXdJjZ1FXBGASCgpdhTRsQGkJkCAD9JyVqixAYIoNiGE0RdOYgAADOOA1A4YiAAaITgqaBjkAwOhJN7gCMG3WiI7oLgyygKCldWgEYe60DHl3vgQAnPIkd8RQtMIayE/8JUWWex2mFWZlqGVWRd5u1irHG9v9i6rSWsLXWJWMvcsqWrZ2cWrDbEytb0miV1Hl77RSszLcMqsh6XPi7vm125asGypTJIsfW+lbDWb50IU0HWrIRCgSjnr9lPXb1gFgA=");
 
 export default UserTie;

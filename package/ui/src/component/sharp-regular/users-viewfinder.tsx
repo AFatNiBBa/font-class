@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users-viewfinder` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users-viewfinder?s=sharp-regular users-viewfinder}
  * @preview ![users-viewfinder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/users-viewfinder.svg)
  */
-const UsersViewfinder: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 0L0 24 0 136l0 24 48 0 0-24 0-88 88 0 24 0 0-48L136 0 24 0 0 0zM640 0L616 0 504 0 480 0l0 48 24 0 88 0 0 88 0 24 48 0 0-24 0-112 0-24zM24 512l112 0 24 0 0-48-24 0-88 0 0-88 0-24L0 352l0 24L0 488l0 24 24 0zm616 0l0-24 0-112 0-24-48 0 0 24 0 88-88 0-24 0 0 48 24 0 112 0 24 0zM260.1 288L224 288l-20 80-12 48 49.5 0 157 0 49.5 0-12-48-20-80-36.1 0L320 288l-59.9 0zm14.6-48a72 72 0 1 0 90.5-112.1A72 72 0 1 0 274.7 240zm-13.3 96l117 0 8 32-133 0 8-32zM320 160a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm200 96l-79 0 6.1 24.2L461 336l83 0-24-80zm-400 0L96 336l83 0L193 280.2 199 256l-79 0zm55.8-32a48 48 0 1 0 0-96 48 48 0 1 0 0 96zM512 176a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const UsersViewfinder = createIcon("users-viewfinder", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABowAAAKfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDMgsGAAE2AiQDCAQgBYMtBzcbuQXIjtRGecSPxMP3uvTPfdJ64icTaGNPohB/AKCOoGOsGMuk/ICwz47IQy6gVN4teSDudtPfu/NvaxbI4whCG3Pb8jGmF1AU6Jg4JuV5FmaJYqPbrhYdk9AOoTDOUMY/cY0W6db0Lq52HxrfaLuMpFUAiAEAbLznrtt78cP4MOKdziPesS0CYmPQCBQoMCnAegqBSaUGpVLwYXQ67D+wIYDoEuDktSX68BReBZQg6SnL4eHR4f7e7u6q6u2tWr3lHlUrF4IQVYQ5VRWRe3OV5ZKpSJxUZanJJZpDaLI/KAeavF+9xzH3bjHJD50We0Te4/41//RcuKvdZCzAKldtOm9iz7vbMnum+jzaSbZjxj2xR89ue+5WxayYiLztvRM+1eZWLW2dw1E4s6s29bypB+CBgf1uxrtHvOvFuq5PUltJbS971Sr8Z13fRmx77YXUlqYd2TnppKvcGPVR51y/fDA7pA/v6AWrvP+CmDv7qGV/Hn/gkVt+LVy9B54eFl3ocheu8+jOo6M7S9cbB+4IU/e0wq7Gd7yGS8jOXa2wpx0vvG35G28sv+22z/2Kz2/bcVk+4dxzT8jgeSAQzDxutxsP7F/vtylVAh8//cMP/HGdF9NF6QFMkUBQLO4stl+6CKBoAPEUZ5i58kWB5CE9wrv2uEmAkBEg6ZIFKEwYEKCULRKgZZrVBeiS7aoQZbcwYv8Ckh4ng8IazgelEU+ClvW8EesyEkUPlvU/2f9j6i1aaPNZzcpLV2rWaRZLkrxTSvTous1u8/wzeMsCuNcRTnSC0xzuMEc7reFOsX3ydMfbYo3Y3A81VrbUShrraE5XH6v3aFynOJVL5pXnJ1lXc79/vjPWuy+AtiSIXUVWkog08EJoljzm2iM+f2lOAQAAAA==");
 
 export default UsersViewfinder;

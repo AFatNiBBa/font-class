@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vial-virus` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vial-virus?s=sharp-thin vial-virus}
  * @preview ![vial-virus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/vial-virus.svg)
  */
-const VialVirus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 32l8 0 24 0 16 0 160 0 16 0 24 0 8 0 0 16-8 0-24 0 0 160.5-16 16 0-16.5L48 208l0 176c0 44.2 35.8 80 80 80c18.2 0 35-6.1 48.4-16.3l.2 .5 11 11c-16.4 13-37.1 20.8-59.7 20.8c-53 0-96-43-96-96L32 48 8 48 0 48 0 32zM48 48l0 144 160 0 0-144L48 48zM465.1 272.8c-20.4 20.4-6 55.2 22.8 55.2l24.1 0 0 48-24 0c-28.8 0-43.2 34.8-22.9 55.2l17 17-33.9 33.9-17-17c-20.3-20.3-55-6-55.2 22.7l0 24.2-48 0 0-23.8 0-.2c0-28.8-34.8-43.2-55.2-22.9l-17 17-33.9-33.9 17-17c20.4-20.4 5.9-55.2-22.9-55.2l-24 0 0-48 24.1 0c28.8 0 43.2-34.8 22.8-55.2l-17-17 33.9-33.9 17 17c20.4 20.4 55.2 5.8 55.2-23l0-23.9 48 0 0 24.2c.1 28.7 34.9 43 55.2 22.7l17-17 33.9 33.9-17 17zM487.9 344c-43-.1-64.6-52.1-34.1-82.5l5.7-5.7-11.3-11.3-5.7 5.7c-30.4 30.4-82.3 9-82.5-33.9c0 0 0-.1 0-.1l0-8.2-16 0 0 7.9c0 42.9-51.9 64.9-82.5 34.3l-5.7-5.7-11.3 11.3 5.7 5.7c30.4 30.4 8.9 82.4-34.1 82.5l-8.1 0 0 16 8 0c43.1 0 64.6 52.1 34.2 82.5l-5.7 5.7 11.3 11.3 5.7-5.7c30.4-30.4 82.5-8.9 82.5 34.1l0 8 16 0 0-8.3c0-6.6 1.3-12.8 3.6-18.3c5.3-13 16-22.4 28.4-26.9c16.4-5.9 35.9-3.3 50.5 11.3l5.7 5.7 11.3-11.3-5.7-5.7c-13.5-13.5-16.8-31.2-12.5-46.7c4.6-16.8 18-31.1 36.8-34.8c3.2-.6 6.5-1 9.9-1l8 0 0-16-8.1 0zM320 336a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm0-48a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm80 96a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-48 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const VialVirus = createIcon("vial-virus", false, "data:font/woff2;base64,d09GMgABAAAAAAOMAAoAAAAAB3gAAANCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhTiEeQsGAAE2AiQDCAQgBYMtBzEbegbIrgpsY/lgvQgCCUQdy5QG6Y5xyNf2ggj++Z8r7/vJLCSLwK4E6IgwWyZFcHzZVlcPBLG2FjFNLkm0kU2SRmukAJHIXMNeW/lQPmTgoT/1ZW0a+i82Fm+LphO8QPVoUff5FyjR5G5vnEmUcGQJBxtwxIly8D7cIGa1/+a5n+k6AZsGOB/KX5SlRjVlPp/AADuxr8UP9QTslrnRsxsw+njy9wJsPWM6H5hjYgns8TbpHy42gsGygIChCCCVzhk2gNd/In696OM70Ec6QADqBCADARb0I1IQAC1YCEjBJgOwsRH8Fr2H/4GAAEABBBjDPhtwQGmgXJAHgyHItvODh4+CLbbL9YXaI82XOJbrhCLHQTGSHKFT0WvFHWFXsbpaeBjz/NZAhGoRrrloytklHQu6Qo4uOlsphUqLinQ5IESSKFAdD9GUAqVNxTrhpiLZ5OqKB/MUKe0q1KWwSDKhY0GcVqy0qmDEh3tBSjxeiVOMri60+9eJ9pNwngxcjMUpMZZrzqMFicvVA9exCFe8+oOXfBnSOseJ8JUomOLkeWrNEY2b6ow8OQ7bD1oPmYod5kYdYq31oPphPyzaHUc0VwEMKpyWSgKAZImfyDyj949UclHaRBCUcA4/Js5yG41cRHgXBY8DxrWCF3QgwY7wX3D9WfZy9vK7W1jSCVSQwJCd8g0igdC4+FiOgdg0CQCYliVwS34TwuLl4sy4VfQL3qDLU3ocEp5FAJxqExFPYdMI+uk1+n8lg4Qe0yaNsAkWEeI0LCtdDwB+GlVzO76pGxBxRfHX63/HoZlwK2zVQxbWbXM1gAu5jwOAAMH3m5lH5f9KjQHg78+X/xnh/4kxHhCEAUBglfiL8QHAgAAAAACjlWSpAAKM4ggi4ArhMMIvHKgZhgAchkUyEQwbh2KGjzRqRRM3DGMhOxgRwwSYYQhhCcOijlUMmxjuMXy08NYTQIxiPSSSS1zyj5qyrw3t7ZeRbTrRi96sUnrdi+zuQUxWR+5QleOlzLTIQsvNMN0cy1v0pQb4V1igb4i/93czqKSMCjJoImNxYVk5knqWWmaOXr68l2YyttcXsHK4cSHWGQKBVYw3GJBxVm6mzC/9+gA=");
 
 export default VialVirus;

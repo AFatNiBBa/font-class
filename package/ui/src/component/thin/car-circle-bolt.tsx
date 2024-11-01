@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-circle-bolt` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-circle-bolt?s=thin car-circle-bolt}
  * @preview ![car-circle-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/car-circle-bolt.svg)
  */
-const CarCircleBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M160.3 48l191.4 0c25 0 47 16.6 53.8 40.6L435.7 194c-6.4-1.3-12.9-2-19.7-2L96 192c-6.7 0-13.3 .7-19.7 2L106.4 88.6c6.9-24 28.8-40.6 53.8-40.6zM91 84.2L58 199.8C23.9 214.5 0 248.5 0 288l0 96 0 16 0 48c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-48 226.9 0c-1-5.3-1.7-10.6-2.2-16L96 384l-16 0-64 0 0-96c0-44.2 35.8-80 80-80l320 0c2 0 4.1 .1 6.1 .2c9.9-4.6 20.3-8.3 31.2-11L421 84.2C412.1 53.3 383.9 32 351.7 32L160.3 32C128.1 32 99.9 53.3 91 84.2zM80 400l0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48 64 0zM96 272a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm400-80a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 272a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm36.5-230.6c-3-2-6.9-1.8-9.7 .6l-112 96c-2.5 2.2-3.5 5.7-2.3 8.8s4.2 5.2 7.5 5.2l58.2 0-17.8 53.5c-1.1 3.4 .1 7.2 3.1 9.2s6.9 1.8 9.7-.6l112-96c2.5-2.2 3.5-5.7 2.3-8.8s-4.2-5.2-7.5-5.2l-58.2 0 17.8-53.5c1.1-3.4-.1-7.2-3.1-9.2zM437.6 376l73.7-63.1-12.2 36.6c-.8 2.4-.4 5.1 1.1 7.2s3.9 3.3 6.5 3.3l47.7 0-73.7 63.1 12.2-36.6c.8-2.4 .4-5.1-1.1-7.2s-3.9-3.3-6.5-3.3l-47.7 0z" />
-    </Icon>
-);
+const CarCircleBolt = createIcon("car-circle-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAANkAAoAAAAABywAAAMXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiEGwsGAAE2AiQDCAQgBYMtBzYbIQZRVC3aZB8JuYnWS0QIhKUsQ5ShlMKF1xFUY2XP7D4QeCIFJAl1hIxwrONI2SiUEZ5Q6NT5z+f1njso3hsjI2cKGEkFZFcuVn9VEP9zuedH93yBfL4DPD+T47VbOJaNZb2j5hLoeYBrYZtKoIAKmGJtct2oTwCuL7THCWr8NoCWfJX38cytjn/GLCCVggCiF3hR9u/at4TymT5H3G+cJz46AgFxAJhFKCiYRGCLWmCSxiyoquBzNBrmP1CAAKIZ8HcmqOjAL/wHUEFqq5oDRxV9WavX67dzrV7TiWtZd874cvtGd0eSmI6W2TrTVqfMO3To3GGfaxMQCDTHvpFzWu6UiYiTRIwR7cwcrayn5Vx2dqIt8QOM0bLoPlcXEDbYGEkOIt55o32DTXLITix3Esk01yGxZbYN2Gpq/+UposOpw3iQPKRJtix9hKS5maNRrlpevZt+tXCS5uZPVLtyuMql7DE8yB2vepl3lmwdaMNNdDEtcHYm2SFprTz0dOicWL6RYAcK9t4VPmI68jZ0f9B97FytKIq15FU7/xCsZXXA1maudq9KrA0iwvjk0Jbv3wJ9YIIIw5IlBsE9RcRjOMs8bNMH1GmgqQ7U6mefg2MwKJd3KXDlc4NYdTFMMzwQ8MAgoo5xtvYZHggu0bAElhgMS7audj6LKPBmSh8O6/2KEqmVsG2mhApyJRSPh4oqVQKWwCOiz9qVH90b5Qdt2mqw0xweSLRGXTbatV69mtRKis7JgbCmAJTAWYU8DggET8v0D72NW1/LcBXg6+v3v4i7G0o+yCNolSAo8/+zeuQDYNQAUhmThEe+KJA+aRPetdNzAUI7AqRm7QIUE0wIVO3mEGgyrSICzdpdUYtaFmFQzxJSp/tQbJoJ1aCz0GTLrWSzwVDHejHOig+daY3qSMNJQjEvCtWEwZJcisi8Hq0uzPYmJ/GWFNyJQUYbZYKBBhhqQg0bp2VmopEajTEbflZQlCcSVCOsrt7WOtVS44w3tF9aP47qhP1DSZPGu6dgQCWwrlqZkkhj/3vjcr8HJXP9Ro+YAAAAAA==");
 
 export default CarCircleBolt;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-inner` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-inner?s=thin border-inner}
  * @preview ![border-inner](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/border-inner.svg)
  */
-const BorderInner: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M216 472c0 4.4 3.6 8 8 8s8-3.6 8-8l0-208 208 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-208 0 0-208c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 208L8 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l208 0 0 208zM32 464a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm384 0a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM32 368a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm384 0a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm16-208a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM32 176a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM432 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM48 64A16 16 0 1 0 16 64a16 16 0 1 0 32 0zm288 0a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM320 464a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM144 64a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM128 464a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const BorderInner = createIcon("border-inner", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABqQAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2SCbwsGAAE2AiQDCAQgBYMtBzMbcgXIHoVxM33EKipNNN4uHw9fa+j7exsgtIlCRW1tJbIHss34MkkgSSrj0dXe1KKqPr9nbnezLFb/WxJHNG9tCUnQXBqNlqiEQqMlMqRWf+Ka519FD1j2BI8StWprjATq0gmMR9NZNMFsOBvIi/mO5j00UCFeH3SFHM+cJZOepHXcsj80fhnwIikKANGOAOw8MKjoW0YZsV5FrNuNBMQuhHGMAgWGMVgkCgyTjCNZFpRRVeI/ECiAqOXiifMZbbiP14AMkpacxxtQqKmm4dof7mnc98B65EQ0BRU9tBsjQnTfxI2hdOaawn6hFYGWdPTphu+AUFjgJIHPBJpTuCVwcHj0YXLU5Ft997e+WPejr/bkSWXbtkjJNNGqWvelrmxtLYPAarr62ol6rG1LKDRxq61J3zoXWE3h8UTbrQlrPt8izgGB4E26//lE2+L/+qYEfn7/d/JyVcZaeod6CQTFdDVtEmsgpAEUUlzlDnxRILmuhfuuzR4KEBoRIKnVKEBhiIpB1mgKgxqjmhjUarSHKHKD0G1acEmzC1xhwZPLun24Got++VrdUcCnAV3G7WHusgoU25AnGXrobchMkNOMxT4mh72HHPDxQVo4OriZm1m7VdiLqnS3Vw4xhR+CXCIDPVjcvuke0/zF1bo7YPkmfdg+6XkMj/dxTODKztgxSURq3nVl/0AYAAA=");
 
 export default BorderInner;

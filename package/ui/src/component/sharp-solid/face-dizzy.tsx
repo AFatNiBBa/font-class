@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-dizzy` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-dizzy?s=sharp-solid face-dizzy}
  * @preview ![face-dizzy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-dizzy.svg)
  */
-const FaceDizzy: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm320 96a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zM123.3 132.7L112 121.4 89.4 144l11.3 11.3L137.4 192l-36.7 36.7L89.4 240 112 262.6l11.3-11.3L160 214.6l36.7 36.7L208 262.6 230.6 240l-11.3-11.3L182.6 192l36.7-36.7L230.6 144 208 121.4l-11.3 11.3L160 169.4l-36.7-36.7zm192 0L304 121.4 281.4 144l11.3 11.3L329.4 192l-36.7 36.7L281.4 240 304 262.6l11.3-11.3L352 214.6l36.7 36.7L400 262.6 422.6 240l-11.3-11.3L374.6 192l36.7-36.7L422.6 144 400 121.4l-11.3 11.3L352 169.4l-36.7-36.7z" />
-    </Icon>
-);
+const FaceDizzy = createIcon("face-dizzy", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABhwAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCPwsGAAE2AiQDCAQgBYMtBzEbQAXIHge5mekqwpmHaYUqHv5/De2+P1MAnlYBATlAHZAFWiBWObHLQuWbKinlUsxxs+MFosn9cUskiwDipr935//80wd8Rh9tLFwTZExcu7HOE0isyzeVSBZYFnGXgGTuap8povtI0loZyeNnj58j5PEmO68a6V76CrfKi8afWjlPUisDEA0DwJhF82Z4ryIqIr6sekZ8aRoCYgwoBDJkaCvAcJlAW7kCuVxQEVVV/B9YEEBUhwcnkKM6zuIaIAdJnudtOrcO1csXxl+U2vHruIgPZ31b59qMr8e8v+Cn0e9N/6r21ZnfjP1g4ZrHVda5pO2jLqXdyjssbN6seedwo5kUznDfs04opm0t3TJlDcv+7vjVxq+8Z0ItWj15f9y495+0qgUTZJUzo1Zllf//X5lV9aM/yvHRG73WX3+vbVRunHHK6ZW8t3Q/EAguzn2qqxoMP5YEKl//+3f7Gql6L0llqCmBIOv+3S1PIBEAgBQHdUqAQHJUDs9a120BQm0ESKqrLUCmjYYC5GrrJkA17Q0QoLra5slEXktoasUASV17QGagEyDX1BNQzXCf2tU1DfRDwouIb2DsRAlN2FX06dm7GFpMK510LSxtDiu2uc4Hw0QXOmijXXbab4P1ttgvkL1meAfsMNGCJ3ijQh899VYYqjhu1/sX2mCvfbbYZWfeZpjivtXZQXt+FxIToPaVSBKRar/yWI/1W44ePQIAAAA=");
 
 export default FaceDizzy;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-export` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-export?s=duotone file-export}
  * @preview ![file-export](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/file-export.svg)
  */
-const FileExport: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 128-168 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l168 0 0 112c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64z" />
-        <path d="M384 160L224 0l0 128c0 17.7 14.3 32 32 32l128 0zm105 55c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l39 39L216 288c-13.3 0-24 10.7-24 24s10.7 24 24 24l278.1 0-39 39c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9l-80-80z" />
-    </Icon>
-);
+const FileExport = createIcon("file-export", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABewAAAImAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBaAsIAAE2AiQDCgQgBYMtB1IbDAXIHomxLYr9iihMHy0evt/vX9c+9743yWe8YUZH5KKgDLJVVXEl9n9qO5V1gQx5n8//fOCpU89zng34AJ45bS1bIEn3Oq9AzwtSm+AFilBNa2Ddnc0xh5KHktaCJcej7TjlDXk8z+4qkV5PP+FR/B/A+Fe7uyT9MwBRB4AF2zat8awv+lL89Opr4ierERALQSGQIUOXALNlAl1yBXK5oC+9Ql+8UhBAlMXOZ6CMErZgPyAHSRJ5XtkxvLJUnW+tLFUc27plq7jZ/Liycssng19rnxNV8VHb60OqY3a81v7xsG3xZsfW7M1REV8OqwxRHqJCgFSGV4d/NrgqPhn5RUc28Iu6L/7z09Gf3Oh9191/U83DhzU3j0+trv7tt6NabGhu3tDiKEIxe926QmP/zYp66t97jzB302dLyWfO61Po8F7+RMVNIBD0/F03f1/t7P/7VSbwzzftf0helZalL9BPAkE2+tVou9N8Xp2WCQBAiqsGpvmeIZAZLkldrfJEgFCBAElZhQCZTnUC5CqMEqCkxxQByipskom8v9BkTwNJlQsgM9U1kGvyFSiZ7duirCky7eJ0g3vbJS+l0JJLxYSx44uZxXCk8grDhNNZhdgeftWvjICbjjrnrMuOOOyEy4S8aE19xRlLZ/ASX1SYYKzxCjMV29O5vJUUF11yoi/unzNLcT4c7up8+wi4TgJMvJdGRqTIGi1ZH/N7Rh9jp2vNXDRJ");
 
 export default FileExport;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-ski-lift` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-ski-lift?s=sharp-light person-ski-lift}
  * @preview ![person-ski-lift](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/person-ski-lift.svg)
  */
-const PersonSkiLift: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 16l0 194.8c-1.9 .3-3.7 .6-5.6 1.1L240 218.5 240 16l0-16 32 0 0 16zM128 88A24 24 0 1 0 80 88a24 24 0 1 0 48 0zM48 88a56 56 0 1 1 112 0A56 56 0 1 1 48 88zm71.2 82.5l7.2 14.3 42.3 84.5 115.5-28.9L304 256l0 146.8 176-69.7 0-29.1 0-16 32 0 0 16 0 40 0 10.9-10.1 4L304 437.2l0 2.8-7.1 0L117.9 510.9l-11.8-29.8L272 415.5l0-139-95.7 23.9c-14.6 3.6-29.7-3.3-36.4-16.7L97.7 199.2l-7.2-14.3 28.6-14.3zM1.6 182.9l28.8-13.8 90.2 188 75.1-20.5 15.4-4.2 8.4 30.9-15.4 4.2-88 24-12.9 3.5-5.8-12-96-200z" />
-    </Icon>
-);
+const PersonSkiLift = createIcon("person-ski-lift", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfQAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCMAsGAAE2AiQDCAQgBYMtBzYbNgXIjsQ4JvGLKEzi4f/n/nOfm3wAzjCjm1FQJkuARqDrqqx+GfIeP3IqN42XyqVPWrTz6V0rPW/3f3wCAx5dHH6g0Wxg0wnaBueNTLocmkL6GfL4LMYqIz2TfsdD7kPjX11ukeQZgGgEwKIdW9b5+o/4I+L30gfE79YgIBaDQiBDhl4B5soEeuUK5HLBH1Eqsf/AggCiXHh0AjkqcA13A3KQlOV5Q1XdlLaasrp8u6qsPiHc2zo04FNqwtZnhz/f+cywl3qqnxvx0rAXup4e+vzwF7u3tbW3bYsdMSxgfh0bvdbYioBqtXty+9Z4vnt7tMeIrSOGjlgfdETXCrl1ZMf2wa82vvqf34//ruGt70IxK570m0aFpDy0om3TpjZp43j81VdvNVh3+eZz4cToLS73WuAxby3Tt/VBRqrxmB/WyVR4d7kvvLDQfQ60u/r+qK3O+eJqzRfwRbs/s7rFP276244O39njwE9AIHioPs4eaJj7f2VNAn992unyKH2TpFdRKYEgG1saa28iYAj8pBTXDU6EQHJOmfCutZ4UIFQjQFKuWoBMj0YBctXGCFCm3zQBylXbIhN5ldBqX4MmtS6hmeluoLlW76Fl5vopKdca2Q3I3T7c71/y8i64bFMxafzEYnYx21L4e4rRq3OKzdrI63xkFNzruAvOu+qYo0652oEvW5dfc87yJWiZLypMMt5EhdmKw92H8nacXHbFqWnx+DpzFNdHI11fnj4KmkmgnawmSURquF+TcVfOnBr3nQIAAAA=");
 
 export default PersonSkiLift;

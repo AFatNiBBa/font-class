@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `0` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/0?s=sharp-light 0}
  * @preview ![0](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/0.svg)
  */
-const $0: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M0 192C0 103.6 71.6 32 160 32s160 71.6 160 160l0 128c0 88.4-71.6 160-160 160S0 408.4 0 320L0 192zM160 64C89.3 64 32 121.3 32 192l0 128c0 70.7 57.3 128 128 128s128-57.3 128-128l0-128c0-70.7-57.3-128-128-128z" />
-    </Icon>
-);
+const $0 = createIcon("0", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABWQAAAHVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBJgsGAAE2AiQDCAQgBYMtBygbngTIHgl27MhWxHD7Yzz8/1rZfb+qJwBUAcQOITsgT6BIjo1DLhmwc9buWbm6q/Y9Q4Lj//7m+T//9AEfiPw2dr5xgc95nkDn+fA8oSywTCe4p9tEhHlE4dsxgiSiP8LjbYU8tsQwFdKjVOJGO2j8q4vrJHkGIFoDYPaGNcu8a4iGiLKGKC1BQMwBhUCGDN0FmCYT6C5XIJcLGqJWwz+wIICo4x+WQI4c4zEbkIMk5XnHTs0qLfL1zSpNs78zI95u+D399Trxa9qrtX9mvFkfGz5Ni3hViKfTX8/7OvNt34hnM97M71Pfuv4/5f6SqJaU1ahGWUb1sqiWNPP40soq4yqXVcZVV4LHdiAQ3P7W+h2tpv3fuFkC/7w4LiO1hpiV6tFYAkE2rDbM1jgPMUsAAFKc1ydmIZAMl/hem7svQGiKAEmdpgJkumktQK6poQJU9DRegDpNrZGJvInQ3jaFpLlTkJngAuTaew4V03y16rSPLHfYl2d/bknzGc0bKkaPGFVMKaaezqUDLd2pxbI86LxlBsui/U447qx99jrkLJHTlrnnHDM/wvOcqDDaCKMUpii2w8fp9fY57YxDTjhe+0xVnFcGOR+XD5YxEmDMrVMzI8UoAA==");
 
 export default $0;

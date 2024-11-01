@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-rain` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-rain?s=sharp-solid cloud-rain}
  * @preview ![cloud-rain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/cloud-rain.svg)
  */
-const CloudRain: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 320L0 320l0-96c0-41.8 26.7-77.4 64-90.5L64 112C64 50.1 114.1 0 176 0c43.1 0 80.5 24.3 99.2 60c14.7-17.1 36.5-28 60.8-28c44.2 0 80 35.8 80 80l0 16c53 0 96 43 96 96l0 96-96 0L96 320zm0 48l40.9 68.1c4.7 7.8 7.1 16.7 7.1 25.8l0 2.1c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-2.1c0-9.1 2.5-18 7.1-25.8L96 368zm160 0l40.9 68.1c4.7 7.8 7.1 16.7 7.1 25.8l0 2.1c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-2.1c0-9.1 2.5-18 7.1-25.8L256 368zm119.1 68.1L416 368l40.9 68.1c4.7 7.8 7.1 16.7 7.1 25.8l0 2.1c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-2.1c0-9.1 2.5-18 7.1-25.8z" />
-    </Icon>
-);
+const CloudRain = createIcon("cloud-rain", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABfwAAAISAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCGgsGAAE2AiQDCAQgBYMtBzEbGwXIHoex2+SKaigflbCN4Pu1/+xzZz7NX4ZZIlLA5IAcIMoQurAwwDK1MjYvmaFg8v0LfuJy53/+9L7tyR5tTFsTZAHO1ThPINCoz/MFngUWRpqAtTo3JHdk4ZoLx1fI47PsjCrS7fQjLoY3jX+1dYakLgMQTQAwZenCBb7+M/6M+KHyAfGDeQiIKaAUyJChgwDjZQId5ErkcsGfUamI/8CSAKJaunMCOaqxE0cBOUjyPO/WsmWr+qqG+RKzUiwt6ouIu/3e9op4SOBRZ/s8b0v6oM/rjuJbi3WLlyy+Ttxqca37i1Y32kWcbL20vsdevHSRmwx/uuubJm/edbGFtcfXpSdoXNP6k1Ya/+8ulx7+vOMmm5dEEyfevKldZ92kQb2n8dWdjZLsp18H9+tPWdJoZ2fRo17pCGPppJHbgUDwz8/fX63x+P9q6xP4+1Pvsp+RytdJeoNaCQRZ/0p/qxJIBAAgxRFdEwSSjXLpVRu4IUAoECCpVgiQaa+JALlCPwGqdDJCgGqFhTKR1wktrK6IpIH9RGako0SuhfeIKuN9E1ZrERnUsTDDXvMlzWwCM46VQwYOLseWo4WCAyTa7o8rFyu9j8hBH3zRFnvtcchmm2x3qAEdsCA5bLeZU+AMH1QaYqDBSmOVm+u755fY7ICDtttrjz9knPL4oLcj0/N9sJ4kyqFSSSJS8ftBecCpAQ==");
 
 export default CloudRain;

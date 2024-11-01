@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-s` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-s?s=duotone square-s}
  * @preview ![square-s](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/square-s.svg)
  */
-const SquareS: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96zm127.4 98.8c.2-2.3 .5-4.7 1-7c4.7-26.3 23.1-43.3 45-52c13.7-5.4 29.3-7.8 45.5-7.8c8.9 0 18 .7 27.1 2.1c8.1 1.2 24.4 4.8 32 6.7c12.8 3.3 20.6 16.4 17.3 29.2s-16.4 20.6-29.2 17.3c-6.7-1.7-21.3-4.9-27.3-5.7c-20.3-3.1-36.8-1.4-47.8 2.9c-10.3 4.1-14.2 9.6-15.4 15.8c-1.1 6.4-.2 9.7 .6 11.6c1 2 2.9 4.6 7.4 7.7c10.1 6.8 25.7 11.5 46.8 17.4c.7 .2 1.3 .4 2 .6c18.4 5.2 41.4 11.7 58.6 23.2c9.5 6.4 18.5 15.1 24.1 27.2c3.8 8.3 5.7 17.1 5.7 26.4c0 4.5-.4 9.2-1.3 13.9c-4.7 26.3-23.1 43.3-45 52c-21.3 8.4-47 9.6-72.7 5.7c-16.3-2.6-43.7-10.7-57.3-15.1c-12.6-4-19.6-17.6-15.5-30.2s17.6-19.6 30.2-15.5c13.9 4.5 37.8 11.4 50 13.4c20.2 3 36.8 1.4 47.7-2.9c10.3-4.1 14.2-9.6 15.4-15.8c1.1-6.4 .2-9.7-.6-11.6c-1-2-2.9-4.6-7.4-7.7c-10.1-6.8-25.7-11.5-46.8-17.4l-2-.6c-18.4-5.2-41.4-11.7-58.6-23.2c-9.5-6.4-18.5-15.1-24.1-27.2c-1.9-4.1-3.3-8.4-4.3-12.8c-.5-2.2-.8-4.4-1-6.7c-.1-1.1-.2-2.3-.3-3.4c-.1-2.3-.1-4.6 0-6.9c.1-1.1 .1-2.3 .2-3.5z" />
-        <path d="M191 180.4c-10.3 4.1-14.2 9.6-15.4 15.8c-1.1 6.4-.2 9.7 .6 11.6c1 2 2.9 4.6 7.4 7.7c10.1 6.8 25.7 11.5 46.8 17.4c.7 .2 1.3 .4 2 .6c18.4 5.2 41.4 11.7 58.6 23.2c9.5 6.4 18.5 15.1 24.1 27.2c5.7 12.3 7 25.9 4.4 40.3c-4.7 26.3-23.1 43.3-45 52c-21.3 8.4-47 9.6-72.6 5.7l-.1 0s0 0 0 0c-16.3-2.6-43.7-10.7-57.3-15.1c-12.6-4-19.6-17.6-15.5-30.2s17.6-19.6 30.2-15.5c13.9 4.5 37.8 11.4 50 13.4c20.2 3 36.8 1.4 47.7-2.9c10.3-4.1 14.2-9.6 15.4-15.8c1.1-6.4 .2-9.7-.6-11.6c-1-2-2.9-4.6-7.4-7.7c-10.1-6.8-25.7-11.5-46.8-17.4c-.7-.2-1.3-.4-2-.6c-18.4-5.2-41.4-11.7-58.6-23.2c-9.5-6.4-18.5-15.1-24.1-27.2c-5.7-12.3-7-25.9-4.4-40.3c4.7-26.3 23.1-43.3 45-52c21.3-8.4 47-9.6 72.6-5.7c8.1 1.2 24.4 4.8 32 6.7c12.8 3.3 20.6 16.4 17.3 29.2s-16.4 20.6-29.2 17.3c-6.7-1.7-21.3-4.9-27.3-5.7l3.6-23.7-3.6 23.7c-20.3-3.1-36.8-1.4-47.8 2.9z" />
-    </Icon>
-);
+const SquareS = createIcon("square-s", true, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAAB0AAAALCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGSDYQsIAAE2AiQDCgQgBYMtB0wb/wXILgpsY9rgRTgIcADGFouFb6zp46xl8fD/++Pb5973IaU/chLSNCYoFKsLWc5QnwYlKc6a/Pz4cfXmz4on/oOdNh2crEY0wJF128GhI5lpzQZv7lj36l4HL4aBJxJoQPwulv9RNX/cT/3NUQN5PNDdcEjR1NoWpbPM8wabWESLDGigM7Qtbrsoop5oO6GwhyIu8DSoIF1C7zjh/Q9g/NVjmqQmAyCaAcCC1aU22D/FpxTv5cRLy0BALAQMI2Rk9CMwGwv0UxgGhULwKZX4FKVhCCAq4b07g0pU4DU+AgqQhFQoynvX1FUYFRVeoq72rLMda+FldAkugatj18KtYLe4q4gm4ARcZ+feebxD525xz/iGv+Gte+tsAi5KE/A8XY+244P6sRSyYJOtv0XyDLc4JyxYbCVX1EgX2U3MtJ1eMwOdisug/EIspy/kpVSpdtIe4DgSMrAGDrfLHK536Uioa/NESMHP8L9lXD8jAp7W/dd0t4rGX1uI+HuwHxlbzz2bAF4UxXFTeHzx5a+vTk2Vb6urhWj4/ROBeLNuXf3Q+olTL03avDx3YkvFqBC/VdbPtxJ1LS2HrcMU0aXUvtGNnDcMlPQ0/Ei1U/r9CQ6QSX1jlWoj82xyVC93wYS3IkhdWFAgYwUCx0uB4H7VzLDOPPt/dZ0AfHn4/ZNfXH6K5+kWoFoCQZ5Q5uriOQj5AH5UimH+YbcfBLJdBDK33nkBQi1qSCrVQtbHAoVa46HCoCTtyjnLsSi0CO3q1ZDU2wLZLCNQaHcLFWZ7ClVqD4ZsPVzqfyyzFLfxomFyanSsTJeTKaUBWLV2a4ZcbR8zLEvC8EQ069FtUJNGbQZbQj9bdEiX4jnFou9KcaLFktLJ3dn7oys06TegTY9ut50M8nx3qOH5qmHY9ILKp82BLBOJ2GI83FHbJn4iVoeOyTAA");
 
 export default SquareS;

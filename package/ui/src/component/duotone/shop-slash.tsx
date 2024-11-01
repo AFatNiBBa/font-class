@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shop-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shop-slash?s=duotone shop-slash}
  * @preview ![shop-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/shop-slash.svg)
  */
-const ShopSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 155.2c0-7.3 2.2-14.4 6.2-20.4L21 112.5 121.8 192l-85 0C16.5 192 0 175.5 0 155.2zM64 224l64 0 0 160 192 0 0-35.9 64 50.4 0 65.5c0 26.5-21.5 48-48 48l-224 0c-26.5 0-48-21.5-48-48l0-80 0-160zM74.1 32.8l7.6-11.4C90.7 8 105.6 0 121.7 0L518.3 0c16.1 0 31 8 39.9 21.4l75.6 113.3c4 6.1 6.2 13.2 6.2 20.4c0 20.3-16.5 36.8-36.8 36.8l-325.9 0C209.5 138.9 141.8 85.9 74.1 32.8zM320 224l64 0 0 51.7-64-50.2 0-1.5zm192 0l64 0 0 202.2c-21.3-16.7-42.7-33.4-64-50.2l0-152z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const ShopSlash = createIcon("shop-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABhAAAAJSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCEgsIAAE2AiQDCgQgBYMtB1AbNAXIjlQ1fzz8v13f73Nvda/3qmbcA9eI/rZDIqMiOBLS35WbP/+X0xvPjw7wGx3aHrp4LLCx29xLIOAsGxsksCzMMsV2Z2viUGsfEmK0HN8cpwsUaWy+RIN0Z3of19P/AMYvBriEpDMDiB4AWL77zs3e/C6+S/F++1nifZsQECtALZCRMViARbLAYIUahULwXWq3+S7a7ZoAook+PoMmOnA4TgUUIAmNoujadVDfzqpqdC12qxrl3rePPjFu7X/LmJPitkH5wn6DYtco46q+t8WuVVmJKiK2h7ijdcuoMh7re9vAiNi9X6vf3WO7xqMDdo1bXdC6pewSX+62De2Qqnz1bX2fmhAjnurx1G/D3z/sfcXzf0zc+pH/n/YHGF3t8bNDtthVj7ue7LF01TJ84AFvGuVvy+UPvpr2nWlffZC3eaDz9bP52M9uuMYNn2080R5Vjyfv6rHGIVsP3fLf64rcLH9Jb+aXveu227dvuwMIBMc+vmO//bsv+q+jSuCHl//4xz3Z3pYuT0+hQwJBntSeZJ90gQBdI3CQ4jQj4LsQyHZogHft4jYBQokASVMpQDZIDwEKpYkCNAw1W4Cm0k5ZFJ1Cy74VJF2cCLI5zgWFlmdAwyJvBU2tyCZHGwz94UtY06Krt9XTp0yrF9TLQmGsiIyrC+tjY9xpYTAe9jrM8Y5zikMd4kinNPhJNsenOtYaCVvth2rTTTFNbYFaXT8Ku2FwkpMdOef0myxU33fGOU2ePh7shAln2JFlIkXu9cb9yScfc2BSJhvvsNVzzxQ=");
 
 export default ShopSlash;

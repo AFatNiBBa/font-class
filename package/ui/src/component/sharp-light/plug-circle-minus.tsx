@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plug-circle-minus` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plug-circle-minus?s=sharp-light plug-circle-minus}
  * @preview ![plug-circle-minus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/plug-circle-minus.svg)
  */
-const PlugCircleMinus: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M128 16l0-16L96 0l0 16 0 96 32 0 0-96zm160 0l0-16L256 0l0 16 0 96 32 0 0-96zM16 144L0 144l0 32 16 0 16 0 0 64c0 83 63.1 151.2 144 159.2l0 96.8 0 16 32 0 0-16 0-96.8c17.3-1.7 33.7-6.2 48.9-12.9c-.6-6-.9-12.1-.9-18.3c0-6 .3-11.8 .9-17.6c-19 11.2-41.2 17.6-64.9 17.6c-70.7 0-128-57.3-128-128l0-64 256 0 0 56.2c9.8-8.1 20.6-15.2 32-21l0-35.2 16 0 16 0 0-32-16 0-16 0-32 0L64 144l-32 0-16 0zM432 256a112 112 0 1 1 0 224 112 112 0 1 1 0-224zm0 256a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm80-128l0-32-16 0-128 0-16 0 0 32 16 0 128 0 16 0z" />
-    </Icon>
-);
+const PlugCircleMinus = createIcon("plug-circle-minus", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABjwAAAJoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCYwsGAAE2AiQDCAQgBYMtBzgbawXIjsK25RMVZeYQT3hzxfN8c5/3TWYpf4EcsEMokDCARtdoALCsTI3YU1tdHf9R7v1zH5QincAUMCZz6hcwCys4/9d8fs+PDvDzERxSVCy1sCnz+QT2PC28OYFmAxvRAAfOG9VrPZA/mJ97qPmYdXLKW8lr8Fh70/xjaBooagOAjAOAy3ezUnD/G50mr7srkD+SQCBXAIsIDRrMInCOVDBLZhFUVTilrmP/gQICpB/G9xVQMYgXgPcAqKDorzJtba8ZYzWTa8tye3JNUZCWEOkRsUSyvGWaIJchX0PuxBTg+Bcds9ugCf3jmqcX7loSaRPy2o6IMSJNzn0boiOG2xg32LI+1MzYHjXaoQnjXbtjTDIbRHTL7RxNuJ4NvKmZ8b/ufBrjLmcCbrC8IK0G6Vl+4yd/W7yufY2x35xzAa6cUP4FW2Nj9Frj4dC9P/SmApzAVVhpUKnVqger6VHe8nBw7KdqRbt1F9vMDoBP37+bmdnewYEZqmDbYFeg7CzZ2lp4SCR2sAJ6V8eE8SS+JMABgvDwQXt9mW7wfxWTAP7e/Pvfv1x3X3KpnAQMKiA0652z4hIOMDQB6ZJeljVzDIoHmMyvOuwVCESLgKJfK6AxgyNQtdYQ6DPPB4F+rZukUtWIaSUxKIbdA41DI6Cadgn0OedZqt90pHsmtV9RN4bxsWkoZpbwcHUXgaKyIqR3NkKeDBKtdfte3uEAd6JWm1bdalRr0J1COqVke7SIrYNjfJDgwZU7IZDoXT+/OVeNTl0atGlVpwkixo/a663v7wAtCQNzV1lRSNG7ZMgu7/DILr+0F7oAAAA=");
 
 export default PlugCircleMinus;

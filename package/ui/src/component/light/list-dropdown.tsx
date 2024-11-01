@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `list-dropdown` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/list-dropdown?s=light list-dropdown}
  * @preview ![list-dropdown](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/list-dropdown.svg)
  */
-const ListDropdown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 64 448 0 0-64c0-17.7-14.3-32-32-32L64 64zM32 192l0 224c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-224L32 192zM0 96C0 60.7 28.7 32 64 32l384 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM128 256l256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-256 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 96l256 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-256 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zM352.2 90.3L384 109.3l31.8-19.1c7.6-4.5 17.4-2.1 21.9 5.5s2.1 17.4-5.5 22l-40 24c-5.1 3-11.4 3-16.5 0l-40-24c-7.6-4.5-10-14.4-5.5-22s14.4-10 21.9-5.5z" />
-    </Icon>
-);
+const ListDropdown = createIcon("list-dropdown", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABhgAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCJgsGAAE2AiQDCAQgBYMtBzQbKgXIhof/t+u/fW5V9wNUX1JEjBmJCAEH+dSaVIj74tTznIcC+BTCoIy1QRZIuud5BSpam+AVKVhNNzj3bVMFG0F4IhoSJRGNZ2N2hTw+jJkqpMfST7in3Gn8asCNJHkGINoBsG7/7l0+K6OM+Kn2NvGTHQiI9aAQyJBhWICVMoFhuQK5XFBGrSb/gQUBRJX++gRy1ONyXAXIQVLN886OwdbW7qZKS76vqdJ4+PbuiAeJloi4rvfhxuY9wrU9DzW1xB19j0RE874nZkS8MaUlXpr22kCKR6e+OrE5Xp7++mC2t6W55aGeB7ub4+HeR/qYIw5Pmz5tRjzS81D30niwd3k83CdHj3+9/fXfx/10xk/WXNN6K7e2rvWZtYAU3LVj15RlKavHlD4bO97YQcez13q2o6NxLRa4+ZpnULa2ljR7gqKfK//o7X19x5H3rnTppVd678gdXwOB4KJxp08/3rby//qmBH754M//tWdRrUzS66iXQJDNrM10JIFEAABSXGF8gkByvio8vtnDAoRGBEiqzAlkhrRDrtEMqBi16IqqRrtlIm8Quh0FkDS7GDKLXQW5bm9CxUrf5lXdkcUeGznszy9ps0U27SvmzZ5bLC+WXZ0LJzpvryi2ralXpKlpeNAZLnSBy5zuNGe7zGCX2FVd7nybPXSTByrMM9tcheWK48GjtI/zS1zq7LlwvssKxf1sqiv8xdPQTZRwvlqSiNTydPVZ7xYAAA==");
 
 export default ListDropdown;

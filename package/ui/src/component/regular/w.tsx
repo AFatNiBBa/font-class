@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `w` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/w?s=regular w}
  * @preview ![w](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/w.svg)
  */
-const W: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M15.9 33.4c12.5-4.5 26.2 2 30.7 14.5L165.9 379.4 265 49.1C268.1 39 277.4 32 288 32s19.9 7 23 17.1l99.1 330.3L529.4 47.9c4.5-12.5 18.2-18.9 30.7-14.5s18.9 18.2 14.5 30.7l-144 400c-3.5 9.7-12.9 16.1-23.2 15.9s-19.4-7.2-22.3-17.1L288 139.5 191 462.9c-3 9.9-12 16.8-22.3 17.1s-19.7-6.1-23.2-15.9L1.4 64.1c-4.5-12.5 2-26.2 14.5-30.7z" />
-    </Icon>
-);
+const W = createIcon("w", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVQAAAHTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSCBFQsGAAE2AiQDCAQgBYMtBygbjQTIHge5afRGumhciDC8eHhY99+5M/PBpWYlJZgJSmZzhdI2hghVqb76Yi5w/vk/ly5oNBrgR5pRJO5541pnURfNJ3DPq71S5OzAThRvcN7gw2gM7XvI4k2cVERyKYkT5pfGF40cIlGUAoiaABg5a9pUzz7Gx4jXhQfEa5MRECNBLpAiRVMBhkgFmsrkyGSCj1EosP/AnACimP3OBGRI0RUDARlIRJa1rSiqymaqueXzbjWaE/PiQvsb9fDMK21vNJwdZ9ucrz83AFb38AWX27e6W/Put5ZXVuP6mDM7J1k60SIWESq348yYgWNOnLDRT4tHcYOLftZy8oS654FAsHvYgf9qDPlXWpGAz09//I8uLCxIxiR3USoBQdql0MX8ZEQHtKc4pRk7tYIhgURbjxyfWum8AKEcARLFygVINVFTgEy5zgIUaa6vAMXKTZOKrEyoa0EGEpW2gFQ/u0GmrnugyBDPrWJ1I/1k2AfO/rEljSuiYwflPbv1yAflrZGE+wporXNwPljusJNXdIQ7rbTJRtutsNwa2wvEVlPdHTYY14WP9UO5nrrpITdIPjm9unmmFbbaZo1NNhr9DJYvr3Sws7t+RzicBNDrYkOJGUnsAgAAAA==");
 
 export default W;

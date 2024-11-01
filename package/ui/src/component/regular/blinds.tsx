@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blinds` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blinds?s=regular blinds}
  * @preview ![blinds](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/blinds.svg)
  */
-const Blinds: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 24C0 10.7 10.7 0 24 0L488 0c13.3 0 24 10.7 24 24c0 8.6-4.5 16.2-11.4 20.4l11 57.6c.3 1.4 .4 2.7 .4 4.1c0 12.1-9.8 21.9-21.9 21.9L224 128l0-48 234.6 0-6.1-32L192 48l0 116.1c28 9.9 48 36.6 48 67.9c0 39.8-32.2 72-72 72s-72-32.2-72-72c0-31.3 20-58 48-67.9L144 48 59.5 48 53.4 80 112 80l0 48-90.1 0C9.8 128 0 118.2 0 106.1c0-1.4 .1-2.8 .4-4.1l11-57.6C4.5 40.2 0 32.6 0 24zM66.8 208C65 215.7 64 223.7 64 232s1 16.3 2.8 24l-44.9 0C9.8 256 0 246.2 0 234.1c0-1.4 .1-2.8 .4-4.1l13.3-70 48.9 0-9.1 48 13.3 0zm202.4 48c1.8-7.7 2.8-15.7 2.8-24s-1-16.3-2.8-24l189.3 0-9.1-48 48.9 0 13.3 70c.3 1.4 .4 2.7 .4 4.1c0 12.1-9.8 21.9-21.9 21.9l-220.9 0zM168 336l290.6 0-9.1-48 48.9 0 13.3 70c.3 1.4 .4 2.7 .4 4.1c0 12.1-9.8 21.9-21.9 21.9L21.9 384C9.8 384 0 374.2 0 362.1c0-1.4 .1-2.8 .4-4.1l13.3-70 48.9 0-9.1 48L168 336zM13.7 416l48.9 0-9.1 48 405.1 0-9.1-48 48.9 0 13.3 70c.3 1.4 .4 2.7 .4 4.1c0 12.1-9.8 21.9-21.9 21.9L21.9 512C9.8 512 0 502.2 0 490.1c0-1.4 .1-2.8 .4-4.1l13.3-70zM168 256a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const Blinds = createIcon("blinds", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABmgAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyDEgsGAAE2AiQDCAQgBYMtBy0bjwXIhuB5u/6rc7vnofEBas0UckpEcuqU0W46E9fUj/OnB4wie7SoRWtxJAV18KxxgNEeBTJNG9hMJ2DbXSUlpdiLpBlmcf3VHt/bQR7vxd0apEfSV7grfmj8qbfbSRoZgOgEgMU7t6738W/xW8SXzTeIL61FQCwGgwQyZOgnwDyZQD+5Qcjlgt+i2XT/gYMIIFrAfSWQow0v401ADpKWPF/YpUvf3u1lo853lI0ie2xkHS/0vr/b4LjZw8OqiCijT1RhMvERD496ediLY17tc0tfSXxEEb2iDEV9kSyIofFgj+33u7m713aOY/pFuf2huKVHBQbYY/u9kWJbXdW2pNr0bCuLMrevY3WrnS/1fXTE870eGT7k1U6v/j34qxNfebn75u9s7l49+IqUuk4uTPKngxout/L7T3p1mDr1t9+ipUOvdtXKy21zkbkm2WNy15Re8WC15K2xVTV2PJ5RLzfZXerPJ1LSh54ymXDT8/OxjUPBdZdJXclPYs+lj2ycDN3u8gA26pGnNnfvvjmxgTjujjHX9DzYcd5/bWUCf7z77//Kb7D5cZJeRZsEgmxcc5x9CSQCAJDiSkMSBJKnvf67Vh4UIBQIkLQoBMj01UmAXGGsAA0DTBegRWGrTOTtQjf7G5ZULsEyM9yA5bp5DWuY51Nvi26Raayob+L/YtoKDC8fN2jyhEmD5gxaJlVJCfnQPHeQ2DrqSlI02mx1wkUuuNxxx5x2OUIvtT5whfNWcMhyXzTIZBNMMsgcg44zU20H8l7qMqfnynkncw363jnKlXzl0caRAOcU+vQECanlyLnTF45dBgA=");
 
 export default Blinds;

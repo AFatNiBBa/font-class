@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-water` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-water?s=sharp-duotone-solid house-water}
  * @preview ![house-water](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/house-water.svg)
  */
-const HouseWater: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 240l0 47.6 64.1 0 0 103.3c3.8-2.6 7.8-5.5 12.2-8.7c.4-.3 .8-.5 1.1-.8L96 368l18.6 13.4 1.1 .8c13.9 10 23.6 17 35.5 22.5c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5c.4-.3 .8-.5 1.1-.8L288 368l19.7 14.2c13.9 10 23.6 17 35.5 22.5c13.1 6 27.7 10.3 40.7 10.3s27.6-4.3 40.7-10.3c12-5.5 21.7-12.5 35.5-22.5L480 368l19.7 14.2c4.5 3.3 8.6 6.2 12.5 8.9l-.5-103.5 64.2 0 0-47.6L288.4 0 0 240zm224-24c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24l0-80z" />
-        <path d="M272.4 493.1c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9l0-64c-19.3 0-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7c-15.4 7-34.7 13.1-54 13.1s-38.6-6.1-54-13.1c-14.9-6.8-26.9-15.4-40-24.7c-.7-.5-1.4-1-2.1-1.5c-.7 .5-1.4 1-2.1 1.5c-13.1 9.3-25.1 17.9-40 24.7C38.6 441.9 19.3 448 0 448l0 64c31.9 0 60.6-9.9 80.4-18.9c5.8-2.7 11.1-5.3 15.6-7.7c4.5 2.4 9.7 5.1 15.6 7.7c19.8 9 48.5 18.9 80.4 18.9s60.6-9.9 80.4-18.9z" />
-    </Icon>
-);
+const HouseWater = createIcon("house-water", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABqwAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iDCwsIAAE2AiQDCgQgBYMtB1IbrwXIhnj4tdB5f/cuALQh5iKAKtuwKqmquALKuoAsKuCbuOb5nz8VSNmLFkrFOrF9mHk+gYFXUVuCDmw2kJn5bMvx/uMo0iIRctQR0rC9w9YB6vxbPaNFead8hdftfwDzo2GeoehWAUhfAKw9vH+n02dztuSrzsfkKzsQyDrQCCpUGClghUowUq1BrRbOlk6Hs+l0GgKkzW5dgTZaOIH3ATUootT13tV9e7R61YdsSvcr3xryxqCjGz+dLMnk2CRD38yT3UkvDXzJkQkqMN5M6Mm8SYEn/VLloyCiRyQnX86TWaGJGSSpo4OOTjzOI5Of7IHFKia+9NqkR5KrcsXh9yb3yNFh8vaE7jk2PONO9T3189ivrvtKnxlPX33107+W8muctMZ3D28dhSSRjNr68HeTzr6ZoYTM3Hrzd2tUeQn6bo5ftcb19h8ImWEGmPXHljlztvwxS3DYSl2x0koH9l9vjTnG/HrMOTNk0N499g7aI34GgvD9O8+Ou7zPit+69ijg/Ce//hBXd06XNeUUuiogVDM6M1xS1oBSA+RK7jOOfJKgslfh79rTmwKiOwKKtu4CKiP0FVDrbrqAltEWCmjrbr9K6m5ioEsvrOjpTqyyyKNYbaCPsJYVPs20DUzVrnKzyX+LGZsysHFcM3fWnGZZ81h0Kh0o0uHlzWvXlPugaepY6Tq3u809rnWNG92ToLvszN/rVpsYuNEXNeaaZY7GMk25MhqHZugud2fxXq2PslzzfWyK+3jnqcNbOOc8EyoVKakG9LJlZkfbZu78lkGobXIA");
 
 export default HouseWater;

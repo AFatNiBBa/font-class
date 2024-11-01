@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hammer-crash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer-crash?s=thin hammer-crash}
  * @preview ![hammer-crash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hammer-crash.svg)
  */
-const HammerCrash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M72 32c-6.1 0-11.6 3.4-14.3 8.8l-40 80c-4 7.9-.7 17.5 7.2 21.5l288 144c7.9 4 17.5 .7 21.5-7.2l64-128c4-7.9 .7-17.5-7.2-21.5l-192-96c-2.2-1.1-4.7-1.7-7.2-1.7L72 32zM43.4 33.7C48.8 22.8 59.9 16 72 16l120 0c5 0 9.9 1.2 14.3 3.4l192 96c15.8 7.9 22.2 27.1 14.3 42.9l-64 128c-7.9 15.8-27.1 22.2-42.9 14.3l-97.9-48.9s0 0 0 0l-14.3-7.2s0 0 0 0l-57.2-28.6s0 0 0 0L122 208.8s0 0 0 0L17.7 156.6C1.9 148.7-4.5 129.5 3.4 113.7l40-80zM5.1 442.5L107.7 237.4l14.3 7.2L19.4 449.7c-7.9 15.8-1.5 35 14.3 42.9l-7.2 14.3C2.8 495.1-6.8 466.3 5.1 442.5zm21.5 64.4l7.2-14.3c15.8 7.9 35 1.5 42.9-14.3L179.2 273.2l14.3 7.2L90.9 485.5c-11.9 23.7-40.7 33.3-64.4 21.5zM282.9 380.3L295.1 331c5 2.1 10.2 3.6 15.4 4.3l-12.1 48.8 97.1-48.9c3.3-1.7 7.3-.9 9.7 1.9l66.5 77.8 22.3-97.8c.8-3.7 4.2-6.3 7.9-6.2l108.7 2-69.3-83.8c-2.4-3-2.4-7.2 0-10.2l69.3-83.8-108.7 2c-3.8 .1-7.1-2.5-7.9-6.2L471.8 33.1 421.3 92c-2.7-1.9-5.6-3.7-8.7-5.3L407.1 84l52.5-61.3c8.5-10 24.8-6 27.8 6.8L508.2 121l102.2-1.8c13.7-.2 21.3 15.7 12.6 26.2L558 224l65.1 78.7c8.7 10.5 1.1 26.4-12.6 26.2L508.2 327l-20.9 91.4c-2.9 12.8-19.2 16.8-27.8 6.8l-62.4-73-91.5 46.1c-12.2 6.2-26-4.9-22.7-18.1z" />
-    </Icon>
-);
+const HammerCrash = createIcon("hammer-crash", false, "data:font/woff2;base64,d09GMgABAAAAAANIAAoAAAAABrAAAAL+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3CDUAsGAAE2AiQDCAQgBYMtBzMb0wXIngVOmT06XDG3pDCRpuPjNDr6WATBXDmbyzOWUmZ0QA5BtbqWFCogW00kJMLz/H7u3Km/96eSSeJNvYl4JtLEM14h0ehU+hKNkOfznOtvLbY3in5eoBOaYOllgh118PyIKhLk6/3/v5/6o+zTB3wA/u5f9fG0Cnq4LN6ZwI6vbbMK6uMFNpsozqpt74jJIjb9QmUNafxmQR7JTdMPOF99VPwi5hQkcjkAUQkAxi6eP9PTqlRF3tRmEG/oRUCMAzKBHJ/eUoARcmK4hlSGVCp4L7V/8B8IAUS++AkTkKIAD8EHAClI5KVprV1dPcPNlKWL3Ezx8rPImDTUrDSNSWnrCWm5XB36FbecVuPSVNfAFblaMqWJSVuOngYL2DlF3xiTU4sXLK6LK3A0PhLP8YdEXUNtw1Xjdt4sNtEpPpYnC1n7KDUbk9JW4wXlhqMYAgrk9IQEnV/rGAWWa6F9FjfGZkBF9B+Ayqj3nzF/J/D+L2Zhhs5brgZpNiueC2V+N/yjrHx2SNv05LvihMJ5Pf+D5ubps6dtv/vxOdsHfAOnAe8Am/tvSKnMLt1YepskXFh6g94x+WBT17nDx6d3xsZ7RxPWN77BH4DAuVKN/6OhWHxvz1PM9jG2/7h+dWupy98QTJyvQ4ccWld+3czi3fTrO48ZNp/Y7Vq7jI2B2/UNiztmSZMXDxl8YSkQPLrr3tPlUVNY1tPlg43NQCBo+nteVOFceXcCPn79qvb8f/5b06FpAAolIMj1+OusSBIgwd2BEIeTOEQ7/kWCxD2s+KeWuoaAUIwAiXzFAuS0UClAqlh3AfK0NlCAfMXmy4m0SKi1skOJUntRziCHUarWXZRnhOehfLVhJmgtOWp/JzNNGrITe2V9e/XJhmWraY2ORlXYPjzb7epyyCrrymfaZLddDthog60ODJR9ZkYP2mkSkif6oUxfvfSRGSY7nXtqWjQI77Pf1mX9+W6Gy+53d3EI1+7K+5MA+pECWPMiKd0yu3Pnxn091++t3b8F");
 
 export default HammerCrash;

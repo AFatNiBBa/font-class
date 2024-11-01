@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-rows` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-rows?s=light table-rows}
  * @preview ![table-rows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/table-rows.svg)
  */
-const TableRows: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 96c0-17.7 14.3-32 32-32l64 0 0 176 0 32 0 176-64 0c-17.7 0-32-14.3-32-32L32 96zM160 272l320 0 0 144c0 17.7-14.3 32-32 32l-288 0 0-176zm320-32l-320 0 0-176 288 0c17.7 0 32 14.3 32 32l0 144zM0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416z" />
-    </Icon>
-);
+const TableRows = createIcon("table-rows", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABawAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBXQsGAAE2AiQDCAQgBYMtBzEb3gTIhofn7cI/981Ei5ATmx3gjwpk56IP2q8q9f7PNZ/f86MD/EaHUkWVIAVUtcjnExj4Gst3BAOb6QRs5rY4BioqsiaGIVNkfIgX2r8gj++jnzqkl9JfuD0+NP7WxgWSPAMQjQEweeXS+X55Ek8i/qp9SfxlLgJiCigEMmRoL8A4mUB7uQK5XPAkarX0H1gQQNSlIyeQoy6WYDUgB0me5y2r1bblOtV8RT1UWnu2VcQL5XIo95biWstHkS2vVqriTPMHpUrE1kpVrlTjeouHbHqpd8S73c24b/d9v10WL/d5r0cl3uj1TuvU5b3G7/3b+a8df+m0seEVrjSc5BOFT0ySSdinP56k8p1OOsrETkL4SHH9zuOPS01o8soZrzRpUpoElfQ+CAR/Lhw4fWOjcc/rlxN49t3/z81fUe1Jkt5DfQkEWb9aP+sSSAQAIMUJXRIEkjlyGlQ8iiahhEBSVwky7TSGXElfqKOj4dTj6aUykTcQmlsPSCoOQ2aEk5Br7nOoY5xfw7qaR0YrhhTMX13iDItM31cMHjCoGFMcK4tlCtW2xxbPSq8Teao3btrhoAOO2W6b3Y4Z7Ij5yXH7zbih031RYbABBimMUYTbd3GFhEcctdvn47uMVXwf9HLivrg39ERxh0gliUglxkn9eQ8=");
 
 export default TableRows;

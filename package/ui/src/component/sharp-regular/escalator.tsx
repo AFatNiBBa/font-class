@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `escalator` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/escalator?s=sharp-regular escalator}
  * @preview ![escalator](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/escalator.svg)
  */
-const Escalator: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M208 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm206.9 64l9 0 24 0 104 0 64 0 24 0 0 24 0 128 0 24-24 0-64 0-70.9 0L249.9 490.2l-18.1 15.8-6.8 5.9-9 0-24 0L88 512l-64 0L0 512l0-24L0 360l0-24 24 0 64 0 70.9 0L390.1 133.8l18.1-15.8 6.8-5.9zm18 48l-11.3 9.9L183.8 378.1 177 384l-9 0-80 0-40 0 0 80 40 0 104 0 15 0 11.3-9.9L456.2 245.9 463 240l9 0 80 0 40 0 0-80-40 0-104 0-15 0zM320 128l0 24.5-128 112L192 128l128 0z" />
-    </Icon>
-);
+const Escalator = createIcon("escalator", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABaQAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBbQsGAAE2AiQDCAQgBYMtBzAb7QTIhofn13o99+3sh9kwTICAVKLYhi23Kq5AthJJVeH8n+v5nq8BP49gSNmXgQXU/fwEBn7tDXScQrMT1NudjbJDtEcSQ5bkOHdcnCCLv+OWMule+hQ341fFr1q6TFIuAYgGAJiwbNEc776KryI++f8V8YlZCIgJoBAogdaGIYx2BZ4gUyCTCb6K//9P/4EFAUQVerYEMlRhOTYBMpBkWVa3Q8vaSrlutrRSzlc96Paky6OWdzs/7Pq41ZJKXhFC5Pni6BxNghawtlJZFt2ieZ8mzZssnil6pHksY6wcsbBUWLxzQsfnDZ7/3uHTrZ/64ma+99SpvXn6kc/H1dZ+3cJ5LbS49sNH2tui9svObv+M3N+/mHodn6/7sWea6I/tW5qHndvnhvNAIDhXW2fiuvqj/6qpJPDN+3/+Kd/9/7t0Pj1HjQSCUu//e1udzoOjBlBIcVRHwWeBZL4M6FvruC1AyBEgqZILUNJaAwEyuV4ClLUzRIAquUVKIqsVmlhTQVLHAVAy1BmQaeIFKBvtg0KVJlFSL145+N9dylQOTfEqBvTtX4wslk1F0BjWL48qtp3uR3GoBxy11T57HbbFZjscZuRBc8pH7DFVgqfwUWGAvvorjFQcdx73L7XFQYfssM/esMooxf1Ud0flyT0gmBDtQJVJIlLtlret/IbD+w4C");
 
 export default Escalator;

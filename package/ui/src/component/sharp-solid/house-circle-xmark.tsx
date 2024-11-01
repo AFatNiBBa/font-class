@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-circle-xmark` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-circle-xmark?s=sharp-solid house-circle-xmark}
  * @preview ![house-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/house-circle-xmark.svg)
  */
-const HouseCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M520.5 193.7L288.4 0 0 240l0 47.6 64.1 0 0 224.4L224 512l0-160 96.7 0c8.1-89.7 83.5-160 175.3-160c8.3 0 16.5 .6 24.5 1.7zM496 512a144 144 0 1 0 0-288 144 144 0 1 0 0 288zm59.3-180.7L518.6 368l36.7 36.7L566.6 416 544 438.6l-11.3-11.3L496 390.6l-36.7 36.7L448 438.6 425.4 416l11.3-11.3L473.4 368l-36.7-36.7L425.4 320 448 297.4l11.3 11.3L496 345.4l36.7-36.7L544 297.4 566.6 320l-11.3 11.3z" />
-    </Icon>
-);
+const HouseCircleXmark = createIcon("house-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdQAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyCBQsGAAE2AiQDCAQgBYMtBzkbDgXIjsN0eyOPIknSfMdDNfZ7u3dfEW3eRTw08ch0SIlmpVE6Q+gMlZAZ7Pkxd28qmP4hop6gFLKIJdFIXQRPJJ04G+92PhrgZyMY0vO9IFsB/f95Aol9/FNpF2dhFiaImbfMWI+U9Upmokl6PO/xiw5Q45s7g0++5y3gub5p/MLYDKROAUAMAgCOrrJTcaYlLdHN/zYQn0gGAXEEYBqhoGAcgV1cgXE806Cqgm/6/5f/QAYEEE3o8xJUNPAAHgFUkErlGZk6SvlyXp6UL2nPy82rIEQPA/Swx/SH/Dn9grlgosOFVZqcXwk6kMxu7rksYWJuOXBfmh8SHhJK+uRABhRGIaRHTmRI4YY3IGfSp1DK73ckPasF1cK75rbuFqK/p/N2L8tPeIigxbx5lQSnMmksyc6NQu05kEsaOzuNJ4dj75o4Ctry0V/AgTqLokVbVOeAj/l2QCD4+ArXL1eGfImkHMDPwec7+tX/Z5yJXABtCYIy+++CkpwAhEhAkdEHq+CDAukel75qrxcEQhcBUlNXgGKMCoGqawaBhkm+CDR1neGKKkYYVWpI6vWEFOtGkWrUJtKw6yJvGg0u1FigsC+9pDgPxq5jnm4eLIgtmwaHHjovB7Nty6EvDTnSTtRp16ZHrRqNehzcJbXcq1VcBMX6IsaTGw9MEHbced6cp1aXbo3atZVVgrH7mYO+eLIjuRxKuqwiJZE6MNRcP+XYrgPIBAAA");
 
 export default HouseCircleXmark;

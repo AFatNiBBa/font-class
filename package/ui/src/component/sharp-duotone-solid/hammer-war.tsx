@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hammer-war` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer-war?s=sharp-duotone-solid hammer-war}
  * @preview ![hammer-war](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/hammer-war.svg)
  */
-const HammerWar: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M160 0l0 32 0 24.9c10.7 2.4 21.3 4.7 32 7.1l32-7.1L224 32l0-32L160 0zm0 263.1L160 480l0 32 64 0 0-32 0-216.9L192 256l-32 7.1z" />
-        <path d="M0 288V32H48L192 64 336 32h48V288H336L192 256 48 288H0z" />
-    </Icon>
-);
+const HammerWar = createIcon("hammer-war", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABZQAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBNgsIAAE2AiQDCgQgBYMtB1Ab2ATILgt4Q2r0G2IAkiGt1e6oVe8HYce2WEU8z/9+3/a5942oNLM0g1gyC5VKaIRG0jYl46tTwl9EyPz67tuvzez+c2tzJgokcUuinUdIdCqh0DyUS2bVk0SJucswM738b4fIQNr3qVPPc54N+BzXtSi2QRb4nOcRyHl8aLutVqAKxRQ7OG/yAXeH+Bs0ua7PeiifC7xz/wOYfxY8UwxUAMg4AHDz1fgYfHbSKflvI7/dBwK5BbAOUVGxDMEFLlgmWAcajdApLTpprYMA6QX36Qp60YNL4B4ADSiiNIJpQjMkUglT7kU5csYVOJnpKJChHKcyEfk8JO9nBBKGbkFMG6pd5sn25nu/Ia5w6GUtrMeU8fZz3ezZYOXJq64FpNY3BEz6RWSoqwsE4eO9B8ua0v/+IQbw58t/0bfbX3lbRr8CQt1tdy3kHhg1gFdyxTFxtitBtY7B/axhHwTEIAKKXoMCqiVaCBqDdiDosSoNQa9Bz3BpZBDTFitQDHsDqnM3oDHtA/S48OX1mk59ifhXgP+FS+k0ofYSFYlRgUYjhfBesHpapMW6K17xw0PYcuzIhU0bdl00yDNj4aVDnSm47UQkLiKGFNDm9O72lE1nzu06dmTnFNHxrs/VdLsfrsMAx6f/nkoKcv1rh4ebZ+GdhV/HqrEtfXgAAA==");
 
 export default HammerWar;

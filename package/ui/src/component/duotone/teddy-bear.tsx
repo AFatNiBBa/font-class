@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `teddy-bear` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/teddy-bear?s=duotone teddy-bear}
  * @preview ![teddy-bear](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/teddy-bear.svg)
  */
-const TeddyBear: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M128 56c0-30.9 25.1-56 56-56c24.2 0 44.7 15.3 52.6 36.7c-41.5 8.5-72.8 29.1-81.9 67C138.7 93.9 128 76.2 128 56zm64 360c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l-192 0zm32-240c0-26.5 28.7-48 64-48s64 21.5 64 48s-28.7 48-64 48s-64-21.5-64-48zm32-8c0 13.3 14.3 24 32 24s32-10.7 32-24s-14.3-24-32-24s-32 10.7-32 24zM339.4 36.7C347.3 15.3 367.8 0 392 0c30.9 0 56 25.1 56 56c0 20.2-10.7 37.9-26.7 47.7c-9.1-37.9-40.4-58.5-81.9-67z" />
-        <path d="M288 256c-75.1 0-136-57.3-136-128s60.9-96 136-96s136 25.3 136 96s-60.9 128-136 128zM240 128a16 16 0 1 0 0-32 16 16 0 1 0 0 32zm112-16a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm0 64c0-26.5-28.7-48-64-48s-64 21.5-64 48s28.7 48 64 48s64-21.5 64-48zm-32-8c0 13.3-14.3 24-32 24s-32-10.7-32-24s14.3-24 32-24s32 10.7 32 24zM50.3 178.3c20.8-16.4 51-12.8 67.4 8L143.5 219c73.7 93.5 215.4 93.5 289.1 0l25.8-32.7c16.4-20.8 46.6-24.4 67.4-8s24.4 46.6 8 67.4l-25.8 32.7c-17.7 22.4-37.9 41.3-59.9 56.7l0 64.9 16.6 0c3.9-27.1 27.2-48 55.4-48c30.9 0 56 25.1 56 56c0 2.7-.2 5.4-.6 8l-13 53.3c-5.8 23.8-26.3 40.9-50.4 42.6l0 .1-4 0-28 0L96 512l-28 0-4 0 0-.1c-24.1-1.7-44.6-18.8-50.4-42.6L.6 416c-.4-2.6-.6-5.3-.6-8c0-30.9 25.1-56 56-56c28.2 0 51.6 20.9 55.4 48l16.6 0 0-64.9c-22-15.4-42.3-34.3-59.9-56.7L42.3 245.7c-16.4-20.8-12.8-51 8-67.4zM256 352c-35.3 0-64 28.7-64 64l192 0c0-35.3-28.7-64-64-64l-64 0z" />
-    </Icon>
-);
+const TeddyBear = createIcon("teddy-bear", true, "data:font/woff2;base64,d09GMgABAAAAAAOsAAoAAAAAB9AAAANfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXCEUQsIAAE2AiQDCgQgBYMtB1AbcwbIHomxrYK9DWVQnPgoEfzz+VfdV1Wt/3vGGaxFkAqRcmcAx84Wwsk36rMpQxAe/vf33z73PonpGyM1SIlugOtMMqpXh+t/+Q9M+8f9PP+xoAZ8PND5UDq1KRKH3TaBAVZgRADON2PbqF6FgczPf3Pg9EfeghJMr/QSOGv9D6A+4eUQGCIWAAAlAgAASyaNG8Hdr+KrJN7WAr1lOCAALQUgGwEWsEA6AqAdi4B0HNmAwyGISTUQEzUREAAoiEW2nDEIxIMcKAkAcAAYQgScS9FGUuzjTOZ4I8DoB+LcSrKnt/Fxq9D92HjTnZ4nDbejI813uycedHe5LjkuO1dxbvF99KWkqdREYsLTm5xMTqen/YUbHNIl3S5Xl9jo7tbvdl5m6sWkNOmsEPd6HvU9aSuL7rRsf9nb6ykWC/XIV/8gbh8XTbePiHoclxKSF5WmXF2+XNFlkNInW/iSbpdKRZ8fBq04l5FmPH7BkZtLeeuUVhqgvxY8xHpTvjVH89J82tdkdtbrrTqalqbTk8lJb0+ikziVohRtcE6+rN/t7hYbXV26XY5LTDpZtztXE/tSV8m9Ypn7Hn05+yXhBwfGwSalvGXCgQMTZsvKTeMOlPd+NZliPnGJWZi3apeDkD5yKpAhMyFr9V23DY6YTEe26aAQfogx4udA7vsDTB45atTIxRt4HYvqP8dst05yWtWBlfzP311Lh36qFe4pHR+eR8HdhaQPH6oPkV3o29BS1/dvCStLUI2e5JYt99ur66eskOQ9RJdkPdXO+u0jtMBbTHv/f9SUhSfNbXPa9MC5iMfqD/88pX3spvfTzvAy8/DCKaP+A4AAQZlbM3+Kufm/Rm8A+Hjn51/ijf8vtUtXgDAGAIEtrxVYL7UDMFYBAG6jXcR6fmofArAsoMbZK0oXAgDhAQLAEMQjB0saieDwKIMAmTTwR/ZfhoxcBJHKBgiGKFvB0shucKRyBQK088IVJFX2iRBez8If0mS9ZaSnWaRaqkQaI50hqegi5+vSpshoXWY1T8nCscxmCYtZySxmMo+VJeZyRnhXsYjePvae70aooZJqsmkle3b0umwidi1nBfPaJfMbaSN7fVMxu/qzl0CjhMOxlokWCzKyyStnzZy5rvjFUBWfrVRHVXIbAQAAAA==");
 
 export default TeddyBear;

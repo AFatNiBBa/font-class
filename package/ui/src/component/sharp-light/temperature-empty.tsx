@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-empty` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-empty?s=sharp-light temperature-empty}
  * @preview ![temperature-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/temperature-empty.svg)
  */
-const TemperatureEmpty: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M85.3 284.5L96 275l0-14.3L96 32l128 0 0 228.7 0 14.3 10.7 9.5c23 20.6 37.3 50.3 37.3 83.5c0 61.9-50.1 112-112 112S48 429.9 48 368c0-33.2 14.4-62.9 37.3-83.5zM256 0L224 0 96 0 64 0l0 32 0 228.7C34.5 287.1 16 325.4 16 368c0 79.5 64.5 144 144 144s144-64.5 144-144c0-42.6-18.5-81-48-107.3L256 32l0-32zM128 368a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 0A64 64 0 1 0 96 368a64 64 0 1 0 128 0z" />
-    </Icon>
-);
+const TemperatureEmpty = createIcon("temperature-empty", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABdAAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBcAsGAAE2AiQDCAQgBYMtBzgb+ATIhofvbb6e+3alz6Sx10RUAYWJlRKA64xLrgLcWj79zfPOowCfUWhj09IP0rB/3lznCYSBdfn3SALLNAHLJd0mJugRhW+EBElIx7eOMwZ5HBWTlUhPpJ9xX79p/GrAzSR5BiDaAbBi59YtPt8X+yJ+rr1D/GwTAmIlKAQyZKgIsFgmUJErkMsF+6JWk29gQQBRZn9DAjnKOAonAXKQ5Hle6etqaSq15DuaSo07+7r7IiKaQoie+GDE0+Nfn/3uxOqwlxYd1djUKMTH215Y8sma75Z9NuqXpRGx64a+iMea7up5xPXdDzfe2ftoND07sTr+9cozE96Y9ObwkdX26u8jfj71Z9tefOONN1oddr3DWr1hWWo78udff/15pC0tq1aK4vPCYXtjReXy27744rbLK7Fi72HFdee13s7tra23M318duDvvw9k5ToQCL69pb9yXNvi/+ubEjjw4Z9/62vUXvs8ZqYq6iUQZJNrkx0dl2rXHjMFACDFpUbGcu0CyVY5Js0ezdKhEaGOslMEmSHtyDWahJJh5jCUNdoqE3mD0O0YE0mzC5CZ6xrkur2FksW+C8q6IwOYAg/le5e51nNrtooZU6cXC4ttYqiYkepyUXHsjL9UGxPo1KnOc66LneJkZ7jYCRfaEl/iHGsjfo0HFWaYarrCQkU6fz3e4RQXusgZznNuW7NIcZ+Md2ncP4H8xERn2k0SkTqwZ0956QA=");
 
 export default TemperatureEmpty;

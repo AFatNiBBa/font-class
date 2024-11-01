@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `left-from-bracket` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/left-from-bracket?s=solid left-from-bracket}
  * @preview ![left-from-bracket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/left-from-bracket.svg)
  */
-const LeftFromBracket: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M352 416l64 0c17.7 0 32-14.3 32-32l0-256c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0c53 0 96 43 96 96l0 256c0 53-43 96-96 96l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32zm-217.9-9.9L11.3 283.3C4.1 276.1 0 266.2 0 256s4.1-20.1 11.3-27.3L134.1 105.9c6.4-6.4 15-9.9 24-9.9c18.7 0 33.9 15.2 33.9 33.9l0 62.1 128 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-128 0 0 62.1c0 18.7-15.2 33.9-33.9 33.9c-9 0-17.6-3.6-24-9.9z" />
-    </Icon>
-);
+const LeftFromBracket = createIcon("left-from-bracket", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcgAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBdQsGAAE2AiQDCAQgBYMtBzgb/QTILgZyMppX4kEQQSmhFItz/mV1paZXQ2l5+H7t9dy7bwPAEkGxjkQHrGOrIuPqSNivbKfCZ2o7ldV7Maf/SUok3F8VILgqAB6gA1KrHdD5LXZXNXQszMrtPQN0wSsEf/6v+fyeHx3gtyM7lApKi6LIDSMCU2CAs715gQ5klj7TCdj8dn53AwP0FumSdIT+sLlh+3XonKDEc3WqJn/mH77mB42/Jp2SOisAiAEA4PQ6l4WPfUb8NkvilzMgIE4BFiAqVJiB4AArMIOzABRF8Klp3H8ggQCiDXDzBAUFN8ArAAWkLJxlUVYruGJ3Le11d8kW41fB4tHYZZcUzwgXvP+sW4bLpcdZJu4XH3YVr3hVKLJUQl+xGL0gujGi3kfOu6SIb+7X8gP8P3/DP7fzJyhSfnz0gQLFaMkftlodoIMG3hX9v/MLHF6t5tmHmz7ljVuOODz0Dh1RcEYDcd3k73u3qoP/YhkD8KfVX1FzyhY6JAiq1WZVPUESAICMXdqEQLrCwL32+CZA6EKA1KZLgMo0NQRFlxUIanPcELTpco4VRQJhRKOB1OMNVPbtgWLEE6gd+AzbjERlYrSB0H94CZmh9C7astgoQNMGYayGDItB2pYXdw3o6SgMrVm1baBvYjtkUzbZsSKzgtO+iNhZ2JAAum4/Hi4a2LRlYs1q2iaIvjd1dtfj9aQxgLmtJCWRmmcnmh9jiflhs9ObDbYBAAA=");
 
 export default LeftFromBracket;

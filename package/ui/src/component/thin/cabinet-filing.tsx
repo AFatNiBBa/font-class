@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cabinet-filing` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cabinet-filing?s=thin cabinet-filing}
  * @preview ![cabinet-filing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cabinet-filing.svg)
  */
-const CabinetFiling: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M432 248L16 248 16 64c0-26.5 21.5-48 48-48l320 0c26.5 0 48 21.5 48 48l0 184zM0 256l0 8L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-184 0-8 0-8 0-184c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 248l0 8zM432 448c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-184 416 0 0 184zM144 120c0-4.4 3.6-8 8-8l144 0c4.4 0 8 3.6 8 8l0 16c0 4.4 3.6 8 8 8s8-3.6 8-8l0-16c0-13.3-10.7-24-24-24L152 96c-13.3 0-24 10.7-24 24l0 16c0 4.4 3.6 8 8 8s8-3.6 8-8l0-16zm8 232c-13.3 0-24 10.7-24 24l0 16c0 4.4 3.6 8 8 8s8-3.6 8-8l0-16c0-4.4 3.6-8 8-8l144 0c4.4 0 8 3.6 8 8l0 16c0 4.4 3.6 8 8 8s8-3.6 8-8l0-16c0-13.3-10.7-24-24-24l-144 0z" />
-    </Icon>
-);
+const CabinetFiling = createIcon("cabinet-filing", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABjwAAAI1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCSwsGAAE2AiQDCAQgBYMtBzUbUAXIHgl27MhWxHD7Yzw86PX9uUke4Kyt30mV6Om+i44ut56qfc8QUP2pU8/DuVAA3ygoYywKyPKxuzZOgV6Bak293qtArGA1rYDVb+cndUj0Fkm6FC4Zxsuw/O0/IYuHHFRC8kDyDW7LHxr/6nADiTQFEPUAmLdlwyqFn+KniG+KiG+sQEDMB7lAihTdAsyUCnTL5Mhkgp+iWKT/wJwAohR6mYAMZbgFtwMykCjJsoZBjd3dVSU12eaqksoD1TXVEQ+13TekJp5puafDXkE8MOyFQTXx3IiXugLvenD4i4Or4+mhz7cL++5vjrh7YHU823pvZ0RNOHxfW1Xc0yLgjRDqgytJaWfaJrs4BLf7v1j/4v++OfyN1z4Pne9Lv/1u7Fxjv/s2ff+1snIk31fZ0PD4XI+X6yrfV67coL/22b6H6/C49/uWlO693d7SepUkvWUdg9e1eGV/+iV2XgeB4M5bp1/eUzfzcnlVAn758PKvqFiIQvIiyiUgSEcWR9oZBYiCAAAkcYX+UUAgcY0S6Gu1ewUIlQiQKFUpQKpLvQCZSiMEKNFrkgClKm2QiqxCaLarg0S1cyA12ZUg0+wtUGKmz4NSzZFqI61L9MdgwmIOLbqUjxs9Np+eTxuNUTAy7s7IxcbQK9zMMPPQYWecdtEhBx1zkaHnrYovOWXxClnki3LjjDZWbrr8ePh4f7NDzrvgmDNOp3NmyO/7Q12xXj7M2AlgjldKJERS+373Rh0+9lNLAA==");
 
 export default CabinetFiling;

@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `9` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/9?s=duotone 9}
  * @preview ![9](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/9.svg)
  */
-const $9: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M64 192a96 96 0 1 0 192 0A96 96 0 1 0 64 192zm87.5 159.8C67.1 347.4 0 277.5 0 192C0 103.6 71.6 32 160 32s160 71.6 160 160c0 2.6-.1 5.3-.2 7.9c-1.7 35.7-15.2 70-38.4 97.4l-145 171.4c-11.4 13.5-31.6 15.2-45.1 3.8s-15.2-31.6-3.8-45.1l63.9-75.6z" />
-    </Icon>
-);
+const $9 = createIcon("9", true, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABaAAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBQQsIAAE2AiQDCgQgBYMtBz4b0QTIhoeHvMj3k8wsoCwEVuCJzrXtcXEtfJ6/v3n+z/9vAT4QqY2dB7LA5zxPoPN0euLRAg8kggysvWkmSazeyaQm03G1HV8bZDEvvaBE8khS4C76D2D8qpkLJKqlAKIuAMYunj/TZzfiRhJF5X2iMAMBMQ7kAilStBRghFSgpUyOTCa4kVQq3IhKJSeAKKObpKCMDGMxC5CBBEmWtWhdo1QrW1SjVH3xmWYRj3R8ocZtnV9q8Vicbf5opxerX+vwfNOHLfx5VMQni34Z/enin0Z+vPCMp0csiPsb3t/4wfRSk8XtXq376u9ti02F0ZXmX/P1ih3Nmu1Y8fXXzZt/PZYWPzUme53HYmyML4rxjURR7JBlnYbe/Zqrb3/28sM1ah4bPQ0IBGubtn9ydZ0R/1etkYBbH/z5b/mQVK7HmORVVJWAIO1R6WFFHIIYIwAASRzSLsaAQGqoRD9qTQ8KEKojQKKsugCpFuoKkKmuuwAlrQ0UoKy6+VKRVRMaWomQqGkvpAY5CZmG3oOSEb41yxpGGkliHIgfubRJEk3sy/v26pMPy7culoKDr+3h+bHe5VBOdYVVm+y2ywEbbbDVAcHtM9M5aKdJGp7oQbm+eukjN0xuDp61RWjus9/WtWLvMlx+3+jikF7cFYZJAP3eYCQlkkirDe3pj2oNVrwOAAAA");
 
 export default $9;

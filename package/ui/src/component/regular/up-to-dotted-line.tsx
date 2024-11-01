@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `up-to-dotted-line` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/up-to-dotted-line?s=regular up-to-dotted-line}
  * @preview ![up-to-dotted-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/up-to-dotted-line.svg)
  */
-const UpToDottedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M114.2 288L224 178 333.8 288 280 288c-13.3 0-24 10.7-24 24l0 120-64 0 0-120c0-13.3-10.7-24-24-24l-53.8 0zM224 128c-11.5 0-22.5 4.6-30.6 12.7L77.6 256.8C68.9 265.5 64 277.3 64 289.6c0 25.6 20.8 46.4 46.4 46.4l33.6 0 0 96c0 26.5 21.5 48 48 48l64 0c26.5 0 48-21.5 48-48l0-96 33.6 0c25.6 0 46.4-20.8 46.4-46.4c0-12.3-4.9-24.1-13.6-32.8L254.6 140.7c-8.1-8.1-19.1-12.7-30.6-12.7zM416 32a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm-96 0a32 32 0 1 0 0 64 32 32 0 1 0 0-64zM192 64a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zM128 32a32 32 0 1 0 0 64 32 32 0 1 0 0-64zM0 64a32 32 0 1 0 64 0A32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const UpToDottedLine = createIcon("up-to-dotted-line", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABmwAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyiDBQsGAAE2AiQDCAQgBYMtBzgbjQXIjsK25RPzEMIUMQccHlTief73+7bPffeNKGKWNHmFhFdCE6sMzcRCpc+f0PDGooR//H7zjk8Te5D0ENcmM9O2llbN2zxEC0XSVpm4pn6cfwOWvcDjUKIxCyuAunQDH2ikRlGBzyJtojhrV2nDQzRFSSyXpesez338bgU1D3NNS7lfOriarjT/zXZA0TYAMgkAwM5DrVW4/8Kv4Hj3hIzbDQSyE2ARRIMG8yDYghPMw7cIqKrwGxtd9x9IIEB64GwFVPTjOb4CKih6a51qZfAK2uF6sPQdOHSorbMdB/JqFvIkD1bMcy4o9ueW+9NvCwYjETBz3s68q0qAi3F4dsbB3DkBA47JH8QkMIDuH1OqRsm2+1uw62L8kg/SD9/614lXOPZ0HkeGiObpW3K2KPdsnn8q76yswjvjdSaYAYZwE999Ob7vb9wQA8asjL3TU6/yu8GRc5wbGTmXyxye25xZaGvQPTkcCMKmf10/g5Itf32CAv5e/v7X/XW/cl8O0aeA0KxrrNOXb+D4AQIlpxmELwqK+3rhUofcERADCCh6DAhozCWFoBqwFoLWAmEIegzYh5PaL6bp73Qx5Bjd2GyfrqY5oltbPPh7TEujqnJFk/8ppqlwuNyL/B4fJWib0BTaJw2NSbrW2jZ8gd3MhQmLFqwZN2baGqNWVEPr5lUkpOyHiJ+HD0mg1+nX6R3GrVg1bdFC7CSJvnfabMjl7cbAA5HrLVYUUiavH3WvHXGPHVlbGx9z6zM=");
 
 export default UpToDottedLine;

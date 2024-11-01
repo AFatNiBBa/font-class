@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-holding-dollar` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-holding-dollar?s=solid hand-holding-dollar}
  * @preview ![hand-holding-dollar](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/hand-holding-dollar.svg)
  */
-const HandHoldingDollar: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M312 24l0 10.5c6.4 1.2 12.6 2.7 18.2 4.2c12.8 3.4 20.4 16.6 17 29.4s-16.6 20.4-29.4 17c-10.9-2.9-21.1-4.9-30.2-5c-7.3-.1-14.7 1.7-19.4 4.4c-2.1 1.3-3.1 2.4-3.5 3c-.3 .5-.7 1.2-.7 2.8c0 .3 0 .5 0 .6c.2 .2 .9 1.2 3.3 2.6c5.8 3.5 14.4 6.2 27.4 10.1l.9 .3s0 0 0 0c11.1 3.3 25.9 7.8 37.9 15.3c13.7 8.6 26.1 22.9 26.4 44.9c.3 22.5-11.4 38.9-26.7 48.5c-6.7 4.1-13.9 7-21.3 8.8l0 10.6c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-11.4c-9.5-2.3-18.2-5.3-25.6-7.8c-2.1-.7-4.1-1.4-6-2c-12.6-4.2-19.4-17.8-15.2-30.4s17.8-19.4 30.4-15.2c2.6 .9 5 1.7 7.3 2.5c13.6 4.6 23.4 7.9 33.9 8.3c8 .3 15.1-1.6 19.2-4.1c1.9-1.2 2.8-2.2 3.2-2.9c.4-.6 .9-1.8 .8-4.1l0-.2c0-1 0-2.1-4-4.6c-5.7-3.6-14.3-6.4-27.1-10.3l-1.9-.6c-10.8-3.2-25-7.5-36.4-14.4c-13.5-8.1-26.5-22-26.6-44.1c-.1-22.9 12.9-38.6 27.7-47.4c6.4-3.8 13.3-6.4 20.2-8.2L264 24c0-13.3 10.7-24 24-24s24 10.7 24 24zM568.2 336.3c13.1 17.8 9.3 42.8-8.5 55.9L433.1 485.5c-23.4 17.2-51.6 26.5-80.7 26.5L192 512 32 512c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l36.8 0 44.9-36c22.7-18.2 50.9-28 80-28l78.3 0 16 0 64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l120.6 0 119.7-88.2c17.8-13.1 42.8-9.3 55.9 8.5zM193.6 384c0 0 0 0 0 0l-.9 0c.3 0 .6 0 .9 0z" />
-    </Icon>
-);
+const HandHoldingDollar = createIcon("hand-holding-dollar", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABnwAAALcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzSDDQsGAAE2AiQDCAQgBYMtBzoblwXIPg1vjFD9FzLJiCDY5EaQ1oQNz+5Ax7fRVR6+PomCf3C/13OTlPLKkP4CDgAdAStCkJtEdlPAfnL68cBztr+T7+fDrRIIMBol1vNxeh1cwIFdAnlUejJKFDLb40tQmJhMyAbPLalwRnWBthv/GhFAByfcKglQDgfwo98pB1iQeCIt0UjOr4D3ZDDzqxD8BuGs/VfA/lOnnuc8FMD3iAdlT12Y3dZyT51LoOcBLRbHEuu2gkUUa22OXxQR7JZ4RCT0e55omK5h6gRc8C07SGAO5hPCYf1RfTE7MNIiAACUAQAAA/oxw3j28Vv6+KEXCQTQFIBAwAILyglAb5ZAOScAxxF+B/HpPxAIAErBexkADiSBe3AfABwAw8ZuZpeMKCnDjY+oX4CcrM/ipv7y+/ILloZgq7ZqS0FZx/p+N+vOkqG2yAfa116lUKcKM3+qttwq6+vKKBYV5EW1RFRuLqzqlW7VO0pzQ10Edb4hFCUvqBL6+nuI+7ahpK13m6NI/fQwAm5/QclQFZ60S2UB0wTVBWqne9jyb2+PEveyv3+uN17dH3pkdbvMHSfS11ZLRgCo2V4HAcjrNiDn0MmVUTDrgojPK0KZ6T7kQpOdXf/bnGphwaBFbTZ57RIkDuzY0mExL1WAdo/n9JhcuSL37JH9OaE6XvLJ8BrMwsz+rXf8vdb3fPn9HQOAAAKAgLDgdj/o/2UGgL/36c0xDzQfSGUACHYch6mhB3GjCgFoiQnWk5CaETCuiQD41nSnBADEAwEwknkCYJXJJgCO10IAklTqQgCSeWNYitOQfNMGMNKtAlZXG4GT7wFI0tvbJFl+YOnKko39W0waOiNDqkKHtu1Dz7Bt6xwD6breK7itxvV5rEl2Mt8Ky601z1yLrJ2w1Ybl6ywz1EKHqFHQQVvtBT2FcO8rPN48q62xaK2Jb6KX8LzXaL09u0lcA4QdQYaBwjx2a23or7b5cgEAAA==");
 
 export default HandHoldingDollar;

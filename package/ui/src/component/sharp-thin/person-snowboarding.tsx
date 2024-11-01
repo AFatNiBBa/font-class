@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-snowboarding` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-snowboarding?s=sharp-thin person-snowboarding}
  * @preview ![person-snowboarding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-snowboarding.svg)
  */
-const PersonSnowboarding: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M349.7 82.1l6 4.6 144 112 12.6 9.8 12.6 9.8L515.1 231l-19.6 25.3-9.8 12.6L473 259.1l-12.6-9.8-72.1-56.1L333 217.7l-16.3 7.2 13.7 11.4 42.1 35.1L387.6 284l-4.4 19.2-24 104-3.6 15.6L352 438.4l-15.6-3.6-31.2-7.2L289.6 424l3.6-15.6 3.6-15.6L316.4 308 272 271l-16-13.3 0 20.8 0 9.5 0 23.1-21.9 7.3-96 32-15.2 5.1-15.2 5.1-5.1-15.2L92.6 314.9l-5.1-15.2 15.2-5.1 15.2-5.1L192 264.9l0-53.2c0-24.2 13.7-46.4 35.4-57.2l21.9-10.9 23.3-11.7-22.8-4.6-2.7-.5-12.6-2.5-7-14L194.5 44.6l-7.2-14.3 14.3-7.2L230.3 8.8l14.3-7.2L251.8 16l25.8 51.7 64.7 12.9 7.4 1.5zM489.8 211.4l-144-112-3-2.3-3.7-.7L274.5 83.4l-7.7-1.5-3.5-7L237.5 23.2 208.8 37.5l32.8 65.7 3.5 7 7.7 1.5 22.8 4.6 45.7 9.1-41.7 20.9-45.2 22.6C218.3 177 208 193.6 208 211.8l0 53.2 0 11.5-10.9 3.6-74.1 24.7-15.2 5.1 10.1 30.4 15.2-5.1 96-32 10.9-3.6 0-11.5 0-30.3 0-34.2 26.2 21.9 60.4 50.3 7.6 6.3-2.2 9.6-19.6 84.8L308.8 412l31.2 7.2 3.6-15.6 24-104 2.2-9.6-7.6-6.3-55.8-46.5-19.8-16.5 23.5-10.4 71.5-31.8 8.8-3.9 7.6 5.9 72.1 56.1 12.6 9.8 19.6-25.3-12.6-9.8zM464 48a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-80 0a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM20 292.5l25.8 53.2L425.5 496l62.5 0 8 0 0 16-8 0-64 0c-1 0-2-.2-2.9-.6l-384-152c-1.9-.7-3.4-2.1-4.3-3.9l-27.2-56-3.5-7.2 14.4-7 3.5 7.2z" />
-    </Icon>
-);
+const PersonSnowboarding = createIcon("person-snowboarding", false, "data:font/woff2;base64,d09GMgABAAAAAANcAAoAAAAAB0gAAAMPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQCEewsGAAE2AiQDCAQgBYMtBzobhQbIjsK25TOHiJkh6lARVDzjef7367fPnfdNDJfQTKom63gTiyxSJUQJiWTeII8P7e+/M/dBmg8YyQu4QoobipU0/f3UrXEN+IyGFhG/bFXF451PtLBtXg0+UdyUu4cDfTvnWkKVyxpxoLwq78AL86Xym8EiFKwaAEg3ADh6tiALNz6QD8nj+lnIWxkgQI4CphFQg/LxAoMDclJczEZBhY3Ah9T/B/+BFAKQRtj7LoAKNEGGIFsBVICCU7EHLqo6DG0cCbtYpQhbBgY1RdEISB1XLtVCqDipCaRJFIL0KTR4TVJnJNUxqCTRiRxQPd9BNQYRsn+/C4GYc4QL8Rohl+hgsF+Sojl9BvNq5cltVv84ZnWXU4ISil1HhkFA3rxyw3wGXWyfW/KiaSQ7RWqTHee4ZHLNIgfyiPbMg0FCtrU+7t9idmBr25Oh7WndvXR84ejIjvkji8dGa7du86uLSATSKlwarM+2Qf8DHlQze6r71F+7J81PVF0rLCxcv4GLHtgj1IqHHkrZrdVvbxzyUTzdVT6ifffNi+R+lKec8ccAAZ1iNVNeeSnHXtleeiVtSBBuzwUTGrHc0sV2xLTXrnqty2Z/3Hxyf73Hge345r9FsAXP0COc9WnwwKLnVtt3EjskbdhLe71UM+UQMSt7W93UxEB1irfXoumuMhgyzUe7lEkDhqTs9oCriyOHOh/Cw86giEUfa+2+NdEthJaOf1vsi01sFd0sxz9SMPMSzXEhXnMBCAgsNWx+XyOL/N8sYgB8ev3lg7EbU7/BdDCnQDMGEKit1z1VFnTgfowAYbtLhtlDPVIYSwYO29NuGwJ9IQQGCi4hqDGRg4qQB2hgFcQbKC0YxCCVAFOrQoAh1gdYgk0BNrXTgCPSfTeXOqy7RHCOC35SkyYXiUmT6FZvXxpOW4sS4YnP04Yj6GDt8jBvcoNT0axHt0FNGrUZLHD6ZfmGdEnuoiX5IcqPN19UODq5chUq1hRIB4q8ZuH0cUSgy2Ouhrs7u0EDw+a6TVbBQIrqppJ5vX/4n9F49z4AAAA=");
 
 export default PersonSnowboarding;

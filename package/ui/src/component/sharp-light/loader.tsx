@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `loader` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/loader?s=sharp-light loader}
  * @preview ![loader](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/loader.svg)
  */
-const Loader: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M272 16l0 96 0 16-32 0 0-16 0-96 0-16 32 0 0 16zm0 384l0 96 0 16-32 0 0-16 0-96 0-16 32 0 0 16zM0 240l16 0 96 0 16 0 0 32-16 0-96 0L0 272l0-32zm400 0l96 0 16 0 0 32-16 0-96 0-16 0 0-32 16 0zM448.3 86.3L437 97.6l-67.9 67.9-11.3 11.3-22.6-22.6 11.3-11.3L414.4 75l11.3-11.3 22.6 22.6zM165.5 369.1L97.6 437 86.3 448.3 63.7 425.7 75 414.4l67.9-67.9 11.3-11.3 22.6 22.6-11.3 11.3zM86.3 63.7L97.6 75l67.9 67.9 11.3 11.3-22.6 22.6-11.3-11.3L75 97.6 63.7 86.3 86.3 63.7zM369.1 346.5L437 414.4l11.3 11.3-22.6 22.6L414.4 437l-67.9-67.9-11.3-11.3 22.6-22.6 11.3 11.3z" />
-    </Icon>
-);
+const Loader = createIcon("loader", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABggAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCTwsGAAE2AiQDCAQgBYMtBy0bTAXIHoNt6/GYjzRD67ZOfQ48Xh0rnqffLz337Q8QqpRQJSyLINkSqE6FIRCWVVnYGLFTW129h2u7YfqP1oPkFq2RxK3RKIVE3yKNRKMlLRbm+b/c83t+NJ9/o0Nag9bmDbSa83kUHSZ4nwskCigLLNMErMVtV0FEQxwh8YAqfwhiyntBPA0fmn/GXCiqGoD0AgBr5/I5eNZTTzYb38imQ0Ag6wCzCGqoYRIBi4SCSSKzQKUS6mk0xH8gggBpljyxgArteIK3gAoUrVXV1ydX9iWpUtxVnS2a7dcR0h58tSPKhLrU0d6RtKergaXj3OCIoZDBOGJOOe/br5wuF4awGC4ODRuLGYotppRw33n1TKmIh2Kcpxx9W47q+dpJahzE6ai3Pp54PTdugSHejdlnq9rGprhdV5bckUoBdc3D+gY8nBkbTyVMN4DZWAfmGnrM9xvzpzxUkwJzZhyr6ynTiTdfcg0DgrC8UnnZ1i7+lykL+Pv7+w8/I41nUT4ArQoIte0NGgUUAgAoucdaAEHxiEzyrp3eCIh2BBTN2gXUTOAQUGm3DQFNpoUR0KzdKUKp2sSgZg+KTjdBzUFnUBl0B00WvfJmgxHCIw9N/O9gSnaMZG7hHo8PE7g51gogxtrzJJ7WF05yzY6hMLK2cjA0MHUYYTu56mgpu4dmfBHy8/BBCXh79rxeMrSzN10X71+ShO/HNqf93XZsCSS0ezWKQkrzZwUA");
 
 export default Loader;

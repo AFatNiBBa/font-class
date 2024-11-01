@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-one-thirty` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-one-thirty?s=duotone clock-one-thirty}
  * @preview ![clock-one-thirty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clock-one-thirty.svg)
  */
-const ClockOneThirty: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm232 0c0-4.7 1.4-9.4 4-13.3l64-96c7.4-11 22.3-14 33.3-6.7c6.9 4.6 10.7 12.2 10.7 20c0 4.6-1.3 9.2-4 13.3l-60 90L280 392c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-136z" />
-        <path d="M256 416c13.3 0 24-10.7 24-24l0-128.7 60-90c7.4-11 4.4-25.9-6.7-33.3s-25.9-4.4-33.3 6.7l-64 96c-2.6 3.9-4 8.6-4 13.3l0 136c0 13.3 10.7 24 24 24z" />
-    </Icon>
-);
+const ClockOneThirty = createIcon("clock-one-thirty", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABdwAAAIlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBVAsIAAE2AiQDCgQgBYMtB1wbAgURlZoNyD4SY7dR55yl4U408SWCSFdZPdLeA5AeCNnmDDA9R44AIH2ITBhvAFycep7zUAAfBDIWBsfCDbT3eQRyHl31ghe4wCXpeQ2sbxOxxyOIvkFIU6TjCSP+6Al5fJtdUCI9mz7Hbfc/gPGrZi6QVMsARF0AjF08f6a3H8bDFJ+X3xSfm4GAGAcKgQwZWgowQibQUq5ALhc8TOWyh1EuFwQQFdw7ZKACJUzDYkAOkpDyvEGLhjVKtfJFNUrVF7/aImJxPN/plaYL4gni2Y7xw9iId2Z+UeP67K/Gv7f4x3Hvzvqy+rUZn495e0GNs014ZscnnWmIXy2e6fBK82j3Rt03fm/7+abPldvMbXTW8KVeaNXtm9GrDaxyRaO53jaxGs0q3xk//p3KZtVMNLEaEX+qMtAYX3d9tWbEZfzZ+dfMbXQFCAQfPIhLq+uM+L9qjQQev/Xnv+F3VH47SW+gqgSCrEe5hxUJJAIAkOKQdomfEMj0lni1pqfEXqhOhqRCdci0UBdy1XWHktYGEszj+TKRVxMaWgmQ1LQXMoOchFxDlVAywkd2hYaR6RSlEdSPLh5PosjEraJvrz7FsKKbSLSaEHY5vGALXQ5hoys8tGn3rgMbN2w9QLB9M72DOyeN0IkfLPr26lMMK8T5Jb+I2Pv2b22z8jXDi/Vql0Pj/q6wTwL02w1fRqTIml5Ap+fuXRt7vlGpB472VNDu5lX2NAIA");
 
 export default ClockOneThirty;

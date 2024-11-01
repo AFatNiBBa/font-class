@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrows-minimize` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrows-minimize?s=solid arrows-minimize}
  * @preview ![arrows-minimize](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrows-minimize.svg)
  */
-const ArrowsMinimize: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M9.4 9.4C21.9-3.1 42.1-3.1 54.6 9.4L160 114.7 160 64c0-17.7 14.3-32 32-32s32 14.3 32 32l0 128c0 17.7-14.3 32-32 32L64 224c-17.7 0-32-14.3-32-32s14.3-32 32-32l50.7 0L9.4 54.6C-3.1 42.1-3.1 21.9 9.4 9.4zm448 0c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L397.3 160l50.7 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32l0-128c0-17.7 14.3-32 32-32s32 14.3 32 32l0 50.7L457.4 9.4zM32 320c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32l0 128c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-50.7L54.6 502.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L114.7 352 64 352c-17.7 0-32-14.3-32-32zm256 0c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-50.7 0L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L352 397.3l0 50.7c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-128z" />
-    </Icon>
-);
+const ArrowsMinimize = createIcon("arrows-minimize", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABoAAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDIwsGAAE2AiQDCAQgBYMtBzYbqQXIngV240sRDrhRQ01/Ilt8DIoQD/+/37d9zrsjJlmSKZBNo0mEkESbSag/YhU6U8Isqibyuxib/5iH+Edyy9BI5jYLZSGuL6p3CEoMvg440gU//9d8ftZ0gN/vneihXC+6wTtpbwIDjvIqodnAZjoB2+W2IeoTvf4QCnsocVc91ER+yD08yz80fhlzILVVABC9AMCh834fPN9+xF/9hfjhMBAQhwBmISpUmIRgG1NgEsssUBTBvrr2/wMJBBDNUMLp/IJmfMQ3QAGpFJZ6zksKm8SsUEQVxN91BF4NnXXidmRh/cVviLuDr9vb8XL47THcgaGwtF14tDfuDp7RgQq/kNZ4/upijqDK4yU+WwMxsU/W81gMXXgKXtFgvIHffw7lNfJGb+MP/6U9rV/fd9H1/uYtMJM8fdrd9N0V8NaSJdWbcNHVdfEdk5/HvnUTO6ly62Z1GoPrSXDdJUANs7Q61i1u2OsgEKwf6/VCz/b/1g4GwM/92/Arqp9TNtAqQVAt1BqJBEkAADJG5AmB1FCU79rprQChHQFSs3YBKhNkEBTt5iFoMs0KQbN2pzFF4UMYlFxA6nQbVFYtQTHoFjTZ9pVuNhgV5IpwJ/44pvJuIc8sSmcgF93mTRIw8km/m4hNjoI6pbUTStpaBooKqgYbsseXG2ryPhEeX0SMdAyICzGXPM4RUtTTV71WsE/jRuJ9CqPn1krLylAyLpqTkkhp9s6Hpda+7mxknhUBAAAA");
 
 export default ArrowsMinimize;

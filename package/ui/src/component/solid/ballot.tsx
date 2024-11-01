@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ballot` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ballot?s=solid ballot}
  * @preview ![ballot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/ballot.svg)
  */
-const Ballot: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-384c0-35.3-28.7-64-64-64L64 0zm0 112c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm0 128c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM80 352l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm112 32c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16zm16-272l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zM192 256c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const Ballot = createIcon("ballot", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABiAAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCNQsGAAE2AiQDCAQgBYMtBy0bMgXIHgl27MhWxHD741Bagvq1/7fn7D4A3k9EisAxKEAPRJFxYccqQt2KTUVG36xNf++QL1p8U6dyFocC+AThoOypAZlga7X7fINVtD6tQrWCxawCWttmWHEQLS4hERIpEQ2jw/bT16FzgzyeZTdVkJ6kv3BLvjT+1eMmSU0GIJoBsGz75k1+KUUp4s8y4k8bEBDLQCGQIUO/AAtlAv1yBXK5oBTlMv4DCwKISvzjJpCjBhdxE5CDpCrPe5ubWxsaG+oqGvJtdRW1u9+PjfjcneLJuC+jGuLThG/6sng6/uvoeo+66uJBh7jfXhsPO0Ofbq2rrStyWPrWykPbnXjQIG15YfjX5q//8deBvyz5+XULLbVX1ba0vF5KScieaiwVSo0Fwa5i0qaTRVFonuyTQxl6zfe0qen169ftrLHUdMt4HwgEH/8umxb+X12XwD/fvbyu/Ev8kr6iWgJBNrE80Z74Bfq5gMMUFwx3JhZIzqkC/tR6DwUItQiQVKoVINOnWYBcrQkCVBg0S4BKtTbLRF4jtNs7QVLvNMjMdgnk2n0LKiz0a1ipPbIQ5AOI/wJMWT2y6lIxbfLUYn5hloYQVWzbXlAcO2MvGI2jqw446YRz9tvnsHMRZ2xKzjtutYevMqHCNJNNVZivuG5elW2FZ5x1eC/d77JA8T4Y64K/eBz5CVNOl0kSkSr/p6ieAwAAAA==");
 
 export default Ballot;

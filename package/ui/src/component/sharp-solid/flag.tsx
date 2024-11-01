@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flag` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flag?s=sharp-solid flag}
  * @preview ![flag](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/flag.svg)
  */
-const Flag: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 32L64 0 0 0 0 32 0 64 0 368 0 480l0 32 64 0 0-32 0-128 64.3-16.1c41.1-10.3 84.6-5.5 122.5 13.4c44.2 22.1 95.5 24.8 141.7 7.4L448 336l0-320L393.6 43.2c-46.3 23.2-100.8 23.2-147.1 0c-35.1-17.6-75.4-22-113.5-12.5L64 48l0-16z" />
-    </Icon>
-);
+const Flag = createIcon("flag", false, "data:font/woff2;base64,d09GMgABAAAAAAIcAAoAAAAABUgAAAHPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRCBHAsGAAE2AiQDCAQgBYMtBysblwTILgps9xRLmAmDV8ZvC2RvjIf/9vvfPnMHER/ctYlVFk28WxJLr2Gl/EUlU7nJrEjYECAh7XqJirlaE5nVvp/+5p93HgX4OILQxsKlgSyQaM7zBAJv+7ZEsvHPv35B+9ZNf0NRPr8mL3pJw5Ib1mbI8axKM9KTBA/aTeOvXu6RtKoAREcALNy+ea1GUzRF/K5H/LYaAbEQFIEKFfoKMEcl0FdWkGVBU9R1+g+UAKI5OzOBjAqTMQuQQRI5j27TrF3eVhpb7w7ROoRIENoEPm55fF/5dqKKFfGl9bN+MWLQa16fMv+VpSxQFBNcUCxQ3FL7/0Yreh2xwC4Thw0bePIddAQCwf166Pr9Heb8a9kmgT/fPj1cN6KRXqOlBIJqTD3GnmgA0AH8pBTXDIoGAsloCa7a1kMBQmsESJprLUClj44CZK2NFqCZ/qYK0Fxrm1UitxK62jtA0tZFUJnmOsi6eg+ameO70lzXqGhDPjr5aYtb5qGldWXiuAllVlmaOsUEvJZnl21+xLUcGimTjjnvnCuOOuKkKw65ZK1+1VnLInipLyomGmeCYpZy7DwPb3PUJZeddN45rTJbuS+PcC1OHilSYpiTGJJEpExOAAAA");
 
 export default Flag;

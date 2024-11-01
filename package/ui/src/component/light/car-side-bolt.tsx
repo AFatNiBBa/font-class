@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `car-side-bolt` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/car-side-bolt?s=light car-side-bolt}
  * @preview ![car-side-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/car-side-bolt.svg)
  */
-const CarSideBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M126.8 94.2L87.6 192l72.4 0 0 32-96 0c-17.7 0-32 14.3-32 32l0 112 33.3 0c7.6-45.4 47.1-80 94.7-80s87.1 34.6 94.7 80l130.7 0c7.6-45.4 47.1-80 94.7-80s87.1 34.6 94.7 80l33.3 0 0-48c0-53-43-96-96-96l-64 0 0-32 30.7 0-88-110c-9.1-11.4-22.9-18-37.5-18L171.3 64c-19.6 0-37.3 11.9-44.6 30.2zM52.8 193L97.1 82.3C109.2 51.9 138.6 32 171.3 32l181.9 0c24.3 0 47.3 11 62.5 30L519.9 192.2C586.9 196.3 640 252 640 320l0 48c0 17.7-14.3 32-32 32l-33.3 0c-7.6 45.4-47.1 80-94.7 80s-87.1-34.6-94.7-80l-130.7 0c-7.6 45.4-47.1 80-94.7 80s-87.1-34.6-94.7-80L32 400c-17.7 0-32-14.3-32-32L0 256c0-31.5 22.8-57.7 52.8-63zM418 368c-1.3 5.1-2 10.5-2 16s.7 10.9 2 16c7.1 27.6 32.2 48 62 48s54.9-20.4 62-48c1.3-5.1 2-10.5 2-16s-.7-10.9-2-16c-7.1-27.6-32.2-48-62-48s-54.9 20.4-62 48zM96 384c0 5.5 .7 10.9 2 16c7.1 27.6 32.2 48 62 48s54.9-20.4 62-48c1.3-5.1 2-10.5 2-16s-.7-10.9-2-16c-7.1-27.6-32.2-48-62-48s-54.9 20.4-62 48c-1.3 5.1-2 10.5-2 16zM347.3 123.3L278.6 192l89.4 0c6.5 0 12.3 3.9 14.8 9.9s1.1 12.9-3.5 17.4l-96 96c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6L329.4 224 240 224c-6.5 0-12.3-3.9-14.8-9.9s-1.1-12.9 3.5-17.4l96-96c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const CarSideBolt = createIcon("car-side-bolt", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABugAAAK7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCiDXQsGAAE2AiQDCAQgBYMtBzQb4QXIjsM4hryUEC2GNgTFLR7+X/f99rnJWN53yRdxx9Qr06YYaFmUVAoPsd98iFhTv44njmrRdFuIWlfxPs/QFhol/IW0ZDL/l3t+044O8POJLrSxcOm1sI3hnM8TCHDMJZSFWZQnkgCn26QjuwK9RCqKRoRH/B5fG8jjb1FcFenx9Cu4V580/sDFdSR5BiCaAGDKqmULfFkvEkSiX/93iF+pIiCmgpJAhgwdCDCeTKADuRJyuaA+/v/pP9CNAKIa/5QEctTgZ6gHyEFSledjR7dt26kia5ivrFQV65avWl4JUcQdLeZEJZ7t9zhq1+e+o4VFPNP3YSTWAjVYGU8URbzUprZKwp4M3VYqgRepx3fZpy7E5Rbzooinet8N35/mdLKIO1otI+JK+/oFOg9x2bZpeV25s9eq/SqutNq2uinu6D5v015Zc++1urPlokUtHmq1bN18VFDt0bm9940mD396DsMDp1t6yiKzlWzW6LbbGh3Wha0PLwani7n10vDCjVM8DKb2jTcuT6akM6sO+K31Xv2vlW6/Exn7SDzb9hOL7xpd0N3cPEu7JCbJ/wNthOfe0TsOpbL18n90jtYNf2qNVmwcB3u+pOXp0niNYk6f4aZNXr9/4ok+V74fCATLh12dbjUe/5dSk8DvX7y86vH8L4jP0xuolUCQ9f8/zvp0GYgagC/FSV3BCwWSr8nwozbwCAFCgQBJtUKATHuaECBX6EeAKp0YQYBqhWUykdcJLdjQQNLAEZAZyQWQa8GHoMp4fvBWayGShLUYlOKvMm3mCM2oV2YGDi7HltsokyKVh9XjymM9fLJk9UlD7XTIQcftsN0exwfyqAWBEw6YiYgZ3qhkCAMZTMlYyuvEc/+VdjjqmD0OOVhrGUfpb/fmJC7cJ1kJcw6lZZKI1HDblqMDAt87oHto/3EAAAA=");
 
 export default CarSideBolt;

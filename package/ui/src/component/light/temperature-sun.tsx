@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-sun` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-sun?s=light temperature-sun}
  * @preview ![temperature-sun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/temperature-sun.svg)
  */
-const TemperatureSun: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M336 101.1l-18.1-3L303.8 13.4c-.9-5.4-4.5-10-9.6-12.1s-10.9-1.5-15.4 1.6L208 52.5 137.2 2.9c-4.5-3.2-10.3-3.8-15.4-1.6s-8.7 6.7-9.6 12.1L98.1 98.1 13.4 112.2c-5.4 .9-10 4.5-12.1 9.6s-1.5 10.9 1.6 15.4L52.5 208 2.9 278.8c-3.2 4.5-3.8 10.3-1.6 15.4s6.7 8.7 12.1 9.6l84.7 14.1 14.1 84.7c.9 5.4 4.5 10 9.6 12.1s10.9 1.5 15.4-1.6L208 363.5l69 48.3c-3.2-13.7-4.9-27.9-5-42.6l-54.8-38.4c-5.5-3.9-12.8-3.9-18.4 0l-59.2 41.4-11.8-71c-1.1-6.7-6.4-12-13.2-13.2l-71-11.8 41.4-59.2c3.9-5.5 3.9-12.8 0-18.4L43.7 139.6l71-11.8c6.7-1.1 12-6.4 13.2-13.2l11.8-71 59.2 41.4c5.5 3.9 12.8 3.9 18.4 0l59.2-41.4 11.8 71c1.1 6.7 6.4 12 13.2 13.2l34.6 5.8 0-32.4zM208 264a56 56 0 1 1 0-112 56 56 0 1 1 0 112zm-88-56a88 88 0 1 0 176 0 88 88 0 1 0 -176 0zM400 96c0-35.3 28.7-64 64-64s64 28.7 64 64l0 156.7c0 14.9 7 27.7 16 36.9c19.8 20.2 32 47.9 32 78.4c0 61.9-50.1 112-112 112s-112-50.1-112-112c0-30.5 12.2-58.2 32-78.4c9-9.2 16-22 16-36.9L400 96zM464 0c-53 0-96 43-96 96l0 156.7c0 4.6-2.2 9.8-6.8 14.5C335.7 293.1 320 328.8 320 368c0 79.5 64.5 144 144 144s144-64.5 144-144c0-39.3-15.7-74.9-41.2-100.8c-4.6-4.7-6.8-9.9-6.8-14.5L560 96c0-53-43-96-96-96zM432 368a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 0c0-29.8-20.4-54.9-48-62l0-210c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 210c-27.6 7.1-48 32.2-48 62c0 35.3 28.7 64 64 64s64-28.7 64-64z" />
-    </Icon>
-);
+const TemperatureSun = createIcon("temperature-sun", false, "data:font/woff2;base64,d09GMgABAAAAAAOYAAoAAAAABzwAAANLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhHiEEgsGAAE2AiQDCAQgBYMtBzYbGAbIvgzYxjSs+wscAYpQoBUPGaU4olgu6rEH9uwvwfOff9h98yeAJzAregF1AGOWK3Zgv1VO2kXRCJ6PcfX+HqUEevq5iQlwPrdLUkgbykF5k8VhoRV+maXBBpyONuEi+Nz5jheQIcH16Q8P3P8A8A8LpPbvTz1PNm3Ah7Gcx4OStBvnxm6tzcm9ChSLY/uk3teC11ph69m2V0FEQ7sRGleg5U+wATWkeABuhg+VH9hwDhTaAgBA3AEAgPLSljreKkUp8lkV5DOZgABIBQAGASzAAoIRAIqwECAYjQE0GoFVURH/gUAAQGxJGMU70YADsAb8AQA0AAo7rdsMXEKdvIKcNFx0u56N43ZPj5h26bfsN28Vwpjf41rlHmvRxljc59rkPmPVERmWnH1vrZw28upKGbCskA4ZWHfVUZ9VwykU2SKte7bDdiNeczZD1oPu7Zsxz+JeuE3HPo9+6rx52U9kZRWhz5INMmSx5DDqvRj+2HfZccJvwE5Kj71FFu2RU+YvnacSXiVfJ3mpIrFfRMbp2sjOPiuRAb0Ji/uozfd0xy37Re+0rUi/Z/6k5T1zZNZ8kEWfJY8FvxW7iGXj5Xe1RG6FZ7LBpQi/ttYtNenIzJbWw36TilYDDkZ5MU8KJFPjFXWQOM48nUZVEFWWzZwfOkCvhoTJFD2uUFZ2hRQ97vh4D4vr3Dm6++O3LAjv2friZ6UqNhk6O1s0ecZvv64HeGxsmHg4rqLx+8PQ6L9fu0eosZq0vvcIlrVX0drW7RTcPXLVyPZ63S12Y2gvH/U67Te8BJcMcY24rs7qBb4lj+Gq0vCN5OcXK0xefx0ABBC4aDY6U2tU9K8UAGuXrp9EijrFMmCPAkDASlKhV3Fqh855DkKSV3KMCPxDAii+owVOONN/lxMc/YjMY4sjvQKLINxB40gi2BBKtuWku+XUHtEOCN70QUDhzEGwyOE4aLx5ADYU8S5ni7eoQbwNXm3/m7lrxlj1MhOSkmYKzGZNawdii50tNKc93sdkTzy+yDb2s48jbGULOzkykg9RVzzKXmr2tNXfNaSTQhqGAszt5nN3O80f4jA71x33FynEvJ+I49j+8HjsVyS6GaxUKBDl9jFkk9s69gEAAAA=");
 
 export default TemperatureSun;

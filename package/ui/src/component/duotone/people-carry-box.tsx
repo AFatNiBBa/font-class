@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-carry-box` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-carry-box?s=duotone people-carry-box}
  * @preview ![people-carry-box](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/people-carry-box.svg)
  */
-const PeopleCarryBox: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M224 160l0 76.2 46.3 23.2c15.8 7.9 22.2 27.1 14.3 42.9c-.7 1.4-1.5 2.7-2.3 3.9s-1.8 2.4-2.8 3.5c-2 2.2-4.2 4-6.7 5.5c-4.9 3-10.5 4.7-16.2 4.8l126.7 0c-11.5-.2-22.5-6.7-28-17.7c-7.9-15.8-1.5-35 14.3-42.9c15.4-7.7 30.9-15.4 46.3-23.2l0-76.2c0-17.7-14.3-32-32-32l-128 0c-17.7 0-32 14.3-32 32z" />
-        <path d="M176 48A48 48 0 1 0 80 48a48 48 0 1 0 96 0zM144 306.7l0-65.1 19 28.5c4.6 7 11 12.6 18.5 16.3l60.2 30.1c15.8 7.9 35 1.5 42.9-14.3s1.5-35-14.3-42.9l-56.4-28.2L166.5 160c-13.3-20-35.8-32-59.9-32C74.2 128 48 154.2 48 186.6l0 88.1c0 17 6.7 33.3 18.7 45.3l79.4 79.4 14.3 85.9c2.9 17.4 19.4 29.2 36.8 26.3s29.2-19.4 26.3-36.8l-15.2-90.9c-1.6-9.9-6.3-19-13.4-26.1l-51-51zM2.3 468.1c-6.6 16.4 1.4 35 17.8 41.6s35-1.4 41.6-17.8l37.6-94L50.1 348.6 2.3 468.1zM464 48a48 48 0 1 0 96 0 48 48 0 1 0 -96 0zm32 258.7l-51 51c-7.1 7.1-11.8 16.2-13.4 26.1l-15.2 90.9c-2.9 17.4 8.9 33.9 26.3 36.8s33.9-8.9 36.8-26.3l14.3-85.9L573.3 320c12-12 18.7-28.3 18.7-45.3l0-88.1c0-32.4-26.2-58.6-58.6-58.6c-24.1 0-46.5 12-59.9 32l-47.4 71.1-56.4 28.2c-15.8 7.9-22.2 27.1-14.3 42.9s27.1 22.2 42.9 14.3l60.2-30.1c7.5-3.7 13.8-9.4 18.5-16.3l19-28.5 0 65.1zM637.7 468.1L589.9 348.6l-49.2 49.2 37.6 94c6.6 16.4 25.2 24.4 41.6 17.8s24.4-25.2 17.8-41.6z" />
-    </Icon>
-);
+const PeopleCarryBox = createIcon("people-carry-box", true, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAAB1AAAAMDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGSDbAsIAAE2AiQDCgQgBYMtB1wbGgbIHgVuOwNaQV05jSt46nS+BCmIyO776pl9B3CPYvRNxwBS2uf/3t339/BZGyywMSnL2gKBZYEskP/SrZ86Huj0Dxa73QUSWMCBa0YvEu9/rqkXdM8P8D8/sPNDiVqnZ2Lm8wkMMNqriTekGeiUoZNU1FIxfh3/dsBQUWsJPKid6jGw3vkfQPmFL0sAha0GAEBcAACAkq62Bq4PmeaxFJDH1AMCIKUAmAigAQ0EIADkoxEgAAMTMDAQeF8F3kcDIAAgVjhv1ABYAbbAU+AbAGAAoLBCDMMxZasJsfYWR6NTfb9d367isfAjPjsjjkYd9+8WJCZbPWtkq/d27+1e27xqpVNOZR4J3+GDLIjpkA4iKqZOQbS1fYsvrYwuaZX24VuI2xX0NLc1b/HahcsKiw2nRWSX37HIK9HtUi1EVEx1gkCc0NHpNzevH+pDyKnZPLYIFDt7Oea3zXv7zcejRBZ6bbOzk1UeW4hOuZz6E2aTDOc3duNmzx5nF7uCW2L8CHGMunKGppdHt/Lyrs1GYiWDzQvM/9IIv9DGRhw7SNh27PpzvnBw7iXoVOjaA/l1UHv1Qfd9yQCQNO3Jbk1VKMyngia+1GHUyJfX4zbQqYPGRkL9urH5b66bu0mVzOZaI69u9OX0ylMcWdQoESxJ03wzWBP7jtBbp1Yzn3enbWjfTpsprpHQO8VmHi4bzjmvZOhjU4/TihVOC+LHAUAAgZKfr9XYOf9LqgLg43v/1TPNPTOL1CmADQoAAR1vHf1qAUFyAtKMF1IyjVB8F4MAmj0QQNSBbSCb+u2gBIUVdqDxxwUM7IgDC0Fk8BOXt6ERwxbBgwGAwoGJoMlkLhh4cBks5HMvZIWH6OtbvDrFf5epK+t4xTgzJTHZzDUHi3LpkuXpcJ452Rw9TW2KwVaGMZ5xTGEoQxjJlBo5iYboVMZSyegVnzVJIZFkTHIxF1dsm+mshSYxmZH9yvJR8jC390czjXeOgU3hMaayQKNBlGifV0Kb8JYLvyvSw9Ler1N5MwAAAAA=");
 
 export default PeopleCarryBox;

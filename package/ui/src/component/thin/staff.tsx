@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `staff` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/staff?s=thin staff}
  * @preview ![staff](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/staff.svg)
  */
-const Staff: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M67.8 499.8L57 489c-9.4 9.4-24.6 9.4-33.9 0L11.9 500.1 23 489c-9.4-9.4-9.4-24.6 0-33.9l79.6-79.6c6-6 9.4-14.1 9.4-22.6l0-48.8 48.8 0c8.5 0 16.6-3.4 22.6-9.4l41.7-41.7c6.7-6.7 15.1-11.6 24.2-14.2l175.4-50.1c13.7-3.9 23.2-16.5 23.2-30.8L448 96c0-17.7-14.3-32-32-32l-37.4 0c-12.1 0-23.2 6.8-28.6 17.7l-.5 1c-5.9 11.9-20.3 16.7-32.2 10.7s-16.7-20.3-10.7-32.2L313.7 47c9.5-19 28.9-31 50.1-31L440 16c30.9 0 56 25.1 56 56l0 103.9c0 25-16.6 47-40.6 53.8l-15.2 4.3c-8.1 2.3-14.9 7.7-19.1 15l-21.5 38.1-37.2-21c-7.5-4.2-16.3-5.3-24.5-2.9l-69.3 19.8c-5.2 1.5-10 4.3-13.8 8.1L57 489l10.8 10.8zM363.8 0c-27.3 0-52.2 15.4-64.4 39.8l-7.2 14.3c-9.9 19.8-1.9 43.8 17.9 53.7s43.8 1.9 53.7-17.9l.5-1c2.7-5.4 8.3-8.8 14.3-8.8L416 80c8.8 0 16 7.2 16 16l0 61.8c0 7.1-4.7 13.4-11.6 15.4L245 223.3c-11.8 3.4-22.5 9.7-31.1 18.3l-41.7 41.7c-3 3-7.1 4.7-11.3 4.7L112 288c-8.8 0-16 7.2-16 16l0 48.8c0 4.2-1.7 8.3-4.7 11.3L11.7 443.7c-15.6 15.6-15.6 40.9 0 56.6s40.9 15.6 56.6 0L266 302.5c1.9-1.9 4.3-3.3 6.9-4.1l69.3-19.8c4.1-1.2 8.5-.7 12.3 1.5l37.2 21c7.7 4.3 17.5 1.6 21.8-6.1L435 257c2.1-3.7 5.5-6.4 9.5-7.5l15.2-4.3c30.9-8.8 52.2-37.1 52.2-69.2L512 72c0-39.8-32.2-72-72-72L363.8 0z" />
-    </Icon>
-);
+const Staff = createIcon("staff", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABnQAAALdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyDCwsGAAE2AiQDCAQgBYMtBywbhwXIrod3pI2CJsNmw974jkz54KNTv6IWS0FIFA/f23w99wnGXvnLtDLgmhEDHQJVAFw0xFUmZfIRZLcf7WgnPFJiWSKJpDnlisNU2wW/I14hkJOdKpBsQpcyYgIbcE/7IL7biMEGXMKLLZDhwLxj3Li82Pmguu0GR1rkgXmUByktT3/vzr9tWiAPwP+cNmY6B84p0HnngeSJRxM40wAo1vambbQjEh1JJjWTjivruLpCOV61V4V0R/oM16W7ij91djFJqQQg2gBg1oY1y7z1nXwX8dkP8ZklCIjZQCFQAqObYJjKCG4sK1Cm9uC7aP7wHwgCiKoMJ1a5vNFjeBlQBkkql1dcrdJUXm+VbF02OjzcP4+OcWfXDb4tImpxVccZcVvHDX6sa8QFHW7Nsni4k7i9/6NdO8ZdE2rxSOOWzuL8/Oa+edycD43JcWu+trFQaBx4j6zGcn/H2zpG3FarRTfM/YfzqcHLMgzF+VbX+QamdlXHDXzxG5PCro3ov61jPNb1roi4c/CT/bPeT7Z58m92a86YJ5+cmp70pK++2nFF0yijNF1+B+741rWhOl398svdz8gJLyzImfNfRCf/fw7Sfj2TH/HSYa31yDuyU+ve3zw54J87J5Yv//XB08Ksn+/q02UPPVuN88ytjvJdfZTq3Fnh1TZtXsWbvz9619zatXqu96+Sfo3939w61ceM+S4AgeDMQY/Wd/jUf6kEfnjlV79GmqvSk2ghgaA0tLltTSARAIAUZ9M7IZDcJ0n32sqtAoQMAZKqTICSrtoIUJYZIkBFD+MEqMqsURLllkJuG4GklVOgZLxzQFnuJVAx1YfFqjxK3ir6mvhZTJsvoXmnilHDRxaTi+VAkxyQj4dTCrM38GxeGAQX7XfCcWfaZ69DzhTkacsqZzlmvkbM80GFUYYbqTBZsT1+1NaTf9oZzM8t+8eYojifDHS2vn4QnCcBRt9zSyJS5ZUBAA==");
 
 export default Staff;

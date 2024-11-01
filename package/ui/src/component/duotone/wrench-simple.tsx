@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wrench-simple` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wrench-simple?s=duotone wrench-simple}
  * @preview ![wrench-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/wrench-simple.svg)
  */
-const WrenchSimple: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M96 342.3c14.1 8.2 29.4 14.6 45.5 19c8 2.2 16.3 3.9 24.7 5c4.2 .6 8.5 1 12.8 1.3c2.1 .1 4.3 .3 6.5 .3s4.3 .1 6.5 .1c35 0 67.8-9.4 96-25.7L288 464c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-121.7z" />
-        <path d="M203.3 212.7c-6.2 6.2-16.4 6.2-22.6 0l-48-48c-3-3-4.7-7.1-4.7-11.3l0-135.8c0-11-10.9-18.7-20.8-13.8C43.7 35 0 100.4 0 176C0 282 86 368 192 368s192-86 192-192c0-75.6-43.7-141-107.2-172.3C266.9-1.2 256 6.5 256 17.6l0 135.8c0 4.2-1.7 8.3-4.7 11.3l-48 48z" />
-    </Icon>
-);
+const WrenchSimple = createIcon("wrench-simple", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeAAAAIdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXiBVAsIAAE2AiQDCgQgBYMtB1Yb/ATIhocnu6j3q3pmAfXCjECepBRgtNlp5qxQDnv6+3n+tegDPv6u2eeFDV61Op/AzgdS2DbAKIFvinvbUJCIwNWJkDAJaZzQMTtAERfmK9VI96UGbuH/AYyf9XIlSasMIDoCYOGmdSuc+D6+T9GoXiQaliMgFoFSICOjrwBzZIG+CiUKheD7VFV8H1VVEkDU8V1nUEeB5dgIKEASoiiG9W9Ta1dsbFNrvenO7vPi7oi4rPvdXV8d82T5yZoPNny27qNN9497etbdXe8kLu06Z9NDQ+/qRvANbfw3Zot7dW9I63jYcYveMejxjo//OrBxsOHtnx59tLKkxTVa7Vt/xv+NZstYs2HDmi4GkfBrLZuN/89Yv6/VNVosqew6svyqF57dvToi5UiRFjx6vtz8esJuE75u5vOBQNCcecrxXR3m/NuyTQI/vv773+rV1Ym4ND2OlhII8phqjO1xKSAxgDDF2QYZY9stkA2TwB+rrbsFCK0RIKlrLUDWR0cBCq2NFqCmv6kC1LW2ThZFK6GrHRMkbZ0GsmkuAoWuXgA1c7wR1nWNHFNsRLA/uqRlElq6qpw4bkI5q9ymBhcmdFucXR5bI84urZGw0UGnONmZDtjviDMFfroVyVlOsszClhpRaaJxJijNUrqLV2mjCE93hiO64F9mtvK+PcLZ9vBIWE8CTHqNfZlIkbudc/qBk/cdHpuX2tj07OmhCKkIAA==");
 
 export default WrenchSimple;

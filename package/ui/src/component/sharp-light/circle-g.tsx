@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-g` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-g?s=sharp-light circle-g}
  * @preview ![circle-g](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/circle-g.svg)
  */
-const CircleG: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM160 256c0-53 43-96 96-96c24.6 0 47 9.2 64 24.4l11.9 10.7 21.3-23.8-11.9-10.7C318.7 140.3 288.8 128 256 128c-70.7 0-128 57.3-128 128s57.3 128 128 128s128-57.3 128-128l0-16-16 0-80 0-16 0 0 32 16 0 62.7 0c-7.6 45.4-47.1 80-94.7 80c-53 0-96-43-96-96z" />
-    </Icon>
-);
+const CircleG = createIcon("circle-g", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABgAAAAJGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCEAsGAAE2AiQDCAQgBYMtBy8bDwXIHgk2bnG9OCEpcAnx8P92Uff9qh6ANTYzKDcyaWGkg3DPhsq6tt+TJST+f2893/PRAL/R0NaNlwZyAd7X8wQS682jQALKAss0AYsldZsvN4iyJnKG4BExtIeqO+TxbnRVIl1K3+FEu2n8pbHjJHkGIGoBYNSCOdN89DyeR3xXfp34zhQExGhQCGTI0EyAoTKBZnIFcrngeZTL+g0sCCAqwN9KIEcJW7AXkIMky/OmTbtVLVXP51ctVVny+aSIr3s9cbjn44lfjf1i8je9n8aRPs+mfDsh/Tkj4scxn8aR0Z9M/2H+b1O/G/mRw6M+nvb9vPk3ukTcG/B6p/rRJRrEO+M/G/pecWvY++O+HPFhm4gqVUTVqlc73u77Rue7LVrfrXX3775b/53yjY/Q7dVvQ4b89qpb148+6mr85+Oc5NSQZmPGNBty6uQ4HNcDK8qV7nL38Mzz75jgbT1qzRzTt1TqO2ZmP7+WWisLtUasPneu5+G7dysBgaDqhP+tqDn0n0pVE3j5ztNrpPxRku6ikgSCrGuZpQkkAgCQYr/WCQLJGhlctZrzAoQqCJBUUEWATFO1BMhV0UWAkhb6CVBBFXNkIq8s1LPMIKlmF2T6OwC5ep5ByVBfOhXUiyzgxHARn3tp4xmNWyt6de9ZDC6WsSHFECvzIcW23nF/rnUSrvV22G6vddbaZC+R3ab5+2wz3sPjPKjQS3c9FQYrjrPn7fnW2W2PTXbYXpcMUdy3O9rvd3cSKwG1t0CSiFTpX47RbQM=");
 
 export default CircleG;

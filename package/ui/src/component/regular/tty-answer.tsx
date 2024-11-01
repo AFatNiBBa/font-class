@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `tty-answer` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/tty-answer?s=regular tty-answer}
  * @preview ![tty-answer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/tty-answer.svg)
  */
-const TtyAnswer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M329 286.7c11.3-13.8 30.3-18.5 46.7-11.4l112 48c17.6 7.5 27.4 26.5 23.4 45.1l-24 112c-4 18.4-20.3 31.6-39.1 31.6c0 0 0 0 0 0c-6.1 0-12.2-.1-18.2-.4c0 0-.1 0-.1 0c0 0 0 0 0 0c-10-.4-19.8-1.1-29.6-2.2C175.2 485.6 0 295.2 0 64c0 0 0 0 0 0C0 45.1 13.2 28.8 31.6 24.9l112-24c18.7-4 37.6 5.8 45.1 23.4l48 112c7 16.4 2.4 35.4-11.4 46.7l-40.6 33.2c26.7 46 65.1 84.4 111.1 111.1L329 286.7zm133.8 78.1l-100.4-43L333 357.6c-14.9 18.2-40.8 22.9-61.2 11.1c-53.3-30.9-97.7-75.3-128.6-128.6c-11.8-20.4-7.1-46.3 11.1-61.2l35.9-29.4-43-100.4L48.1 70.5C51.5 286.2 225.8 460.5 441.5 464l21.3-99.2zM304 64l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM288 176c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM400 64l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM592 64l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zM576 176c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM400 160l128 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-128 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16z" />
-    </Icon>
-);
+const TtyAnswer = createIcon("tty-answer", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABuwAAAJ+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCyDfwsGAAE2AiQDCAQgBYMtBzEbAAbIjpQuZyQRPF9XFe9ntqp66BzTK+kq4lqzV7NDuM7tTVzz/KvowVL4F4UWhWtq6vNZB09ggNFUQQMvG84mirM2x/2gyGN9U8RjhoeEw/gNU0fI4++4ShXp5vQertw+NL7WxnkkVRmAaAyAySuXzvdSJSoR7/7/OPGuuQiIyaAQyJChvQDjZALt5QrkckEl/v8//QcWBBDVDE825SjjY/xOP42kLs+HdWjaWGPlqgb5irKytPXe7svj+hbXN18WN3U7O+C6pKTRG1p+sQJGj93ac2XcSEe2WB439xoXny+fuHyFxPvFdd2u2zNvaHdjq7GxIpY9GiW2ck25VJ6zG0mbl+KGlhH2ZaW7HPf6K6Hacrll8isercs9je/5lvd2vGfWXcPvPjjQ6/vW9m910OnHoK4OKscO168et3r80I3DNjoOOn55sJVPHn/DgQfdsvSQXtOn96o5f/62PsfKVz2Xfvp90cCBi64sJr47joyxpYW0b9jKoSv1iGH7U/Mtd/QriqLSsNCwUjj9jQ66Gf0PHuR6FzZqsdEK7sFGZ511FnTW/UAgOOHF19vYaNyvteUEvnrm++V2/7+Uzkr3oFYCQdbv/37WpbMg9QmWTHGCLuSLAsnb6uBd690gQCghQFKtJECmncYC5Er6ClClo+ECVCtZKhN5ndDceueTeof5zAin87nmHuWrjPNmolrzyOLcHKXm38wcM1pg+rBi8IBBxZhimHVZQteo3WOLaWevE3JVb6y1w0EHHGe7bXY7rmGPmJ8+3n4zGDPdDxUGG2CQwhjF68L98hW2O+Ko3Q46UAcZq1gf6OUE3rg3PIkZHGJmkohUOu64k/t/VA==");
 
 export default TtyAnswer;

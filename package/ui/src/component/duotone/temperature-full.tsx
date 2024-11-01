@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-full` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-full?s=duotone temperature-full}
  * @preview ![temperature-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/temperature-full.svg)
  */
-const TemperatureFull: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path class={generic.secondary} d="M16 368c0 79.5 64.5 144 144 144s144-64.5 144-144c0-33.2-11.2-63.8-30.1-88.1c-.9-1.2-1.5-2.2-1.7-2.8c-.1-.3-.2-.5-.2-.6L272 112C272 50.2 221.9 0 160 0S48 50.2 48 112l0 164.4c0 .1-.1 .3-.2 .6c-.2 .6-.8 1.6-1.7 2.8C27.2 304.2 16 334.8 16 368zm64 0c0-18.5 6.2-35.4 16.7-48.9c8.2-10.6 15.3-25.2 15.3-42.5L112 112c0-26.5 21.5-48 48-48s48 21.5 48 48l0 164.5c0 17.3 7.1 31.9 15.3 42.5C233.8 332.6 240 349.5 240 368c0 44.2-35.8 80-80 80s-80-35.8-80-80z" />
-        <path d="M176 112c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 210.7c-18.6 6.6-32 24.4-32 45.3c0 26.5 21.5 48 48 48s48-21.5 48-48c0-20.9-13.4-38.7-32-45.3L176 112z" />
-    </Icon>
-);
+const TemperatureFull = createIcon("temperature-full", true, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABhgAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyBeQsIAAE2AiQDCgQgBYMtB1wbJwXIHgl2DOVfCFMipe0aSkvwvU1037+TDHQGlj1nYKyIKeESGUvUpM2kyqSN8h3vP+Ef/P/+5vk///QBH4j81j4PZIHPeZ5AOEHywANKKNNAOFEJxG38VXgXg+rRY0h+oVmHzgl5LMuuUSHdlb7FDfYfwPhbV9eQNMsARAGAWauXL/RhPeopvm28SnxrAQJiNigFMmSoCTBVJlCTK5HLBfXUmHo0Lgkgquy7ZKCKCrZgFyAHSUh53mFAjxaVVvmqFpXm62/vdGsH8Wjtro639Xui8x3d7+8fqx+aFvHevC9mfNDn4eG3d7oyroyI+wc/Pf7VgU/WxJWujFs7PFu2uHLIHd0j7ul8x4DHOt7WVdzV8Sn3Dnxy7OuDn+7Z++ni6X96fbvrWy8sbl2vt/7Fr0X23W8jR/72XVb8+os2i2tnuP6jj66vlj4N8Jg2/8M9SiA+TTNr+Q9dH3N29WO6/pDXYtXOoti5KoBAcHb0lJc3t5n6X9MWCfz1tn/1RSoaH8bo9DSaSiDIhjaG2hCnFIoYLQAAKU7pHTMdUQhk5kr0ri3dLkBojgBJVXMBMt0VAuSaGyJARU/jBKhqbrlM5M2EDjY2SFo6CpnxLkKug1egYqovnKoOkVHGMsJ+8pLmj+ZNlaOGjywnl8tA5cChZTil3LYGnlIYJId2OeyQE3baYa8TkWMW+icdNN/D8zyoNMpwI5UmK8PxvbQq55jj9s6F+Jgpyvv2QKf8+kGyTwKMfp/ZjEiRdSFQHpaR2jBkq7sNhQQFAAAA");
 
 export default TemperatureFull;

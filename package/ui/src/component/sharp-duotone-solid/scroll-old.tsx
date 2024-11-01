@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scroll-old` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scroll-old?s=sharp-duotone-solid scroll-old}
  * @preview ![scroll-old](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/scroll-old.svg)
  */
-const ScrollOld: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 32l352 0c35.3 0 64 28.7 64 64l0 16 0 16-32 32 32 32 0 16 0 16-32 32 32 32 0 16 0 48-48 0-16 0-32 32-32-32-16 0-48 0 0 48c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-128 0-16 32-32-32-32 0-16 0-16 0-64c0-35.3-28.7-64-64-64z" />
-        <path d="M128 160l0-64c0-35.3-28.7-64-64-64S0 60.7 0 96l0 64 128 0zM288 352l0 48c0 44.2-35.8 80-80 80l272 0c53 0 96-43 96-96l0-32-144 0-16 0-32 32-32-32-16 0-48 0z" />
-    </Icon>
-);
+const ScrollOld = createIcon("scroll-old", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABhAAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCFgsIAAE2AiQDCgQgBYMtB1AbOAXIhofv13o793XP1M9AEDvAqBIFTA7IJ4ppImGBHRsxtZLVuq3q6e/n+bcqwMff9f9FUmSdd54n4M7TdrNomg5kQgOaGW9w3qRDCmUI8RfI4//shgrpXvoNN+P/AYw/9XODpFMGILoCYOnGtWv80I52it/Kj8RvViMgloFCIEOGgQIskAkMlCuQywXtVJa0oywLAoiqGM68vYoKTuA8IAdJEnnepc+SeqWZb6hXaltD3B/XGvVyzNu+or5eeIh/NqMZn49/PySiVhsT46K2tdlovhr7rp8QY2JsIPm+vSZueT8b1xrMqIjxslTy8fZhra6tv4f+duA3l4csgdFat25Pn8rs2hJXnnw/BR4aG/Z37epKq9VRuNW1VOpq8ZNdQHIi2FVXc0XjnGIKEh5p0fn9G+LKBf0Sr78OBIKvT744s7PLgv866gn8/tW/fzTPK9tpSWqhQwJBNqGcYFtaAowfQDzFBcMOtNhSZJZIpJ/acFuAUEOApKomQGaArgLkasYLUDHYTAGqatbKRN5J6Gn7AJKG0yAzy0WQ6+kDqFjgx3hVz8g8nczLyH75Uq+aQisXFVMnTSnmFbslndwfSfTo/OKybswF3jIW7nXASSecs98+h52bcGesSZ133KojYqUvKkw1yRSFeYrH1Ze7N9jvjLMOO+lENM58xfeuMS4cdx8Ll5MA06wrJyNSZN09o2piYdo30fu29pwrAyoAAAA=");
 
 export default ScrollOld;

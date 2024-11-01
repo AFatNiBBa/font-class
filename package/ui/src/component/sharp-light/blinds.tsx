@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blinds` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blinds?s=sharp-light blinds}
  * @preview ![blinds](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/blinds.svg)
  */
-const Blinds: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 0L16 0 496 0l16 0 0 16 0 64 0 16-16 0L160 96l0 162.7c18.6 6.6 32 24.4 32 45.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3L128 96 16 96 0 96 0 80 0 16 0 0zM32 32l0 32 448 0 0-32L32 32zM96 192l0 32-63 0L0 224l8-32 16-64 33 0L41 192l55 0zm96 32l0-32 279 0-16-64 33 0 16 64 8 32-33 0-287 0zM65.6 288c-1 5.2-1.6 10.5-1.6 16s.6 10.8 1.6 16L33 320 0 320l8-32 8-32 33 0-8 32 24.6 0zm156.8 32c1-5.2 1.6-10.5 1.6-16s-.6-10.8-1.6-16L471 288l-8-32 33 0 8 32 8 32-33 0-256.6 0zM144 384l327 0-8-32 33 0 8 32 8 32-33 0L33 416 0 416l8-32 8-32 33 0-8 32 103 0zM512 512l-33 0L33 512 0 512l8-32 8-32 33 0-8 32 430 0-8-32 33 0 8 32 8 32zM144 320a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Blinds = createIcon("blinds", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABlwAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCDDwsGAAE2AiQDCAQgBYMtBy0bjAXIhqDS2X/PSnadJYMesfwI6BNBBpQTcvY5iIBShMjzf03+754fHWCV+CHVIto6KfP5BAZ6OC/fwMoGNtMJ2KzNcYsOgh5ERNQR/isSe8MPWyfI452Yr0G6K32OG+qHxo/GuZ4kzwBEBYAtRxyynw+/i+8iPh+8RnxuHwTEVlALZMgwUYD1MoGJcjVyueC7GAzSf2BNANHEx0wgR4kn8BIgB0krz6e1er2qGjOqVTY6+eFlo8jKoieEKNrisUl3jrx1+uOjbx//wKyIoggS5giduEn7MKEoJsS0KKOO8rAQnZgaZfRjXBQn3urqURaYAMZW3hHXjC5jvFjGlUSn3bk52iPJk4qyC3tn8v4n3zHm9tG3jrxt1NSnq6d/7n9++uc+rCqVzSrVgY/4ssq++Grx4q++yKovH3Fh1XUOago+VPtw0wO19qb+VQb6BladMAW2MaJxlf69m8YMDY3pm+Cq7FXG3TOl2f5P0h7cf9MuGsT+7VDDGRdc1e9DzPPcqgs++K7b/W5jAnHdkdOO3nJCb/3fQ2UCP7z96++OX9HgwyQ9jSEJBNn8wXzHJpAIAECKy01NEEge0MJ3bbtdgFAgQNJUCJCZoBIgV5gnQMNkKwRoKhwiE3lLGOm4C03aLkIzK12B5kZ6BW1Y76Ns08jI4lWNNvV3MdNOhXYcqpcsXFyvrc2eUxeCctldV0+7Zl+eZ+bgqNNd4HyXOs2pznKpIBfbr3CZ8+z04B2+qLbEQovV1qqXhz9Nh0v2Ypc4q29Y32ed+v3YbJf7y+fAm1B0KUv6BF2pefK5Z51/6iUA");
 
 export default Blinds;

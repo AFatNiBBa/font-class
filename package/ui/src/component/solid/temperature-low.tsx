@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `temperature-low` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/temperature-low?s=solid temperature-low}
  * @preview ![temperature-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/temperature-low.svg)
  */
-const TemperatureLow: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM320 96a96 96 0 1 1 192 0A96 96 0 1 1 320 96zM144 64c-26.5 0-48 21.5-48 48l0 164.5c0 17.3-7.1 31.9-15.3 42.5C70.2 332.6 64 349.5 64 368c0 44.2 35.8 80 80 80s80-35.8 80-80c0-18.5-6.2-35.4-16.7-48.9c-8.2-10.6-15.3-25.2-15.3-42.5L192 112c0-26.5-21.5-48-48-48zM32 112C32 50.2 82.1 0 144 0s112 50.1 112 112l0 164.4c0 .1 .1 .3 .2 .6c.2 .6 .8 1.6 1.7 2.8c18.9 24.4 30.1 55 30.1 88.1c0 79.5-64.5 144-144 144S0 447.5 0 368c0-33.2 11.2-63.8 30.1-88.1c.9-1.2 1.5-2.2 1.7-2.8c.1-.3 .2-.5 .2-.6L32 112zM192 368c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-50.7c0-8.8 7.2-16 16-16s16 7.2 16 16l0 50.7c18.6 6.6 32 24.4 32 45.3z" />
-    </Icon>
-);
+const TemperatureLow = createIcon("temperature-low", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABmAAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCXgsGAAE2AiQDCAQgBYMtBzYbZAXIjsK22TNyEJJDXhZrrRATz/+3ht73ZzZJAcC3ChXrSjS6LjJxZZRsTFnh8UAWVW3Wf35/de78AZd8OwshocEJUiIq4ZAciuJOnXqe81AA3ygoY9vUTRt8ToGcBwOY2CppbZ3XtABU1r5t2LARhUeiIWEm1XiO2w16jrhmDNRt3jMutgfNL+s0Q5nXAJClAODQiZgwnH/R9+Rp3CFvHQaBHAKwFaGhYSMCe3GCjfi2gq4L32kc8T+QQYBMgH5lgY5JXAG3AXRQhs7X3GBqpSsbFPx42SDNbtCh9Eo7tboxo90j69LtI2mDIWXIek7WZTmjP4AZvX6LaWmn1azBIMVPa1G69UC3tOZx33bBc89+ybTBrteAMqjTaxU7Zk9Z8t6xXTAGzWKWerRXzMYDjoNvg06VU859ug3UQBTXf0GwmN22DcasKQrm2Al6YKxcVFv8NnvOesazZJVTcEqFQ7hWb3ADbxIK9PULEm5uDEQI337N1OUN3nMPMO9b35jjmWpqmfG0sX9cN4P2/rNLsbPqHP/+/v7NqU5DkNe1cbrt4qJt2oj3OuDB2Nhe+Ozi8vbCLf3kDpXv31V2elUDIAhv0v3Ck1X3/hfLeICfh//++9fIeF7qKZhSILTto4OEAkUAAJUqKAuCcgYDuteFbiAg5iOgTJgvoNlADYFuvm0IDDbzRGDCfEdw0iWIlRITKAudBM0eNaBbaQsM9rpzJ6xMi0sqqqhfYXyohELmmKuTC/Njy9CgQ40oY3/mFm2qcskWNpGlWJEKmTLkqhBImbCgUqFQCw7xQYwrJy4YP+w4eebjBcZ8eSV0+nwKf+y9aqPKbrYFhYdQd1gsRUo1ZC3HguJq");
 
 export default TemperatureLow;

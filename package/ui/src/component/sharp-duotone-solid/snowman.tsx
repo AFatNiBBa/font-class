@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snowman` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snowman?s=sharp-duotone-solid snowman}
  * @preview ![snowman](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/snowman.svg)
  */
-const Snowman: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M96 384c0 52.3 25.1 98.8 64 128l192 0c38.9-29.2 64-75.7 64-128c0-48.2-21.3-91.4-55.1-120.8c3.9-10.5 6.3-21.8 6.9-33.6c0-.8 .1-1.7 .1-2.5c0-2 0-2.6 0-3.1c0-3.8-.2-7.6-.6-11.4c-.4-3.7-.9-7.3-1.6-10.9c-1.4-7.2-3.6-14.1-6.3-20.7c-5.3-12.7-12.8-24.2-22.1-34c9.3-14.8 14.7-32.3 14.7-51c0-53-43-96-96-96s-96 43-96 96c0 18.7 5.4 36.2 14.7 51c-9.3 9.8-16.8 21.3-22.1 34c-5.5 13.2-8.6 27.8-8.6 43c0 1.9 0 3.7 .1 5.6c.6 11.8 3 23.1 6.9 33.6C117.3 292.6 96 335.8 96 384zM208 80c0-8.8 7.2-16 16-16c4.4 0 8.4 1.8 11.3 4.7c1.4 1.4 2.6 3.2 3.4 5.1c.4 1 .7 2 .9 3c.1 .5 .2 1.1 .2 1.6s.1 1 .1 1.8c0 .5 0 1-.1 1.5c-.1 .5-.1 1-.2 1.6c-.2 1-.5 2-.9 3c-.8 1.9-2 3.6-3.4 5.1c-2.9 2.9-6.9 4.7-11.3 4.7c-8.8 0-16-7.2-16-16zm32 40c0-8.8 7.2-16 16-16s16 7.2 16 16l0 .3c0 2.9-.8 5.8-2.3 8.3L256 152l-13.7-23.4c-1.5-2.5-2.3-5.4-2.3-8.3l0-.3zm0 88l32 0c0 10.7 0 21.3 0 32l-32 0c0-10.7 0-21.3 0-32zm0 64l32 0c0 10.7 0 21.3 0 32l-32 0c0-10.7 0-21.3 0-32zm0 64l32 0c0 10.7 0 21.3 0 32l-32 0c0-10.7 0-21.3 0-32zM272 80c0-8.8 7.2-16 16-16c4.4 0 8.4 1.8 11.3 4.7c1.4 1.4 2.6 3.2 3.4 5.1c.4 1 .7 2 .9 3c.1 .5 .2 1.1 .2 1.6s.1 1 .1 1.8c0 .5 0 1-.1 1.5c-.1 .5-.1 1-.2 1.6c-.2 1-.5 2-.9 3c-.8 1.9-2 3.6-3.4 5.1c-2.9 2.9-6.9 4.7-11.3 4.7c-8.8 0-16-7.2-16-16z" />
-        <path d="M224 64a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm48 144l0 32-32 0 0-32 32 0zm0 64l0 32-32 0 0-32 32 0zm-32 64l32 0 0 32-32 0 0-32zM272 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zM104 96l0 24 0 40.2L152.6 181c-5.5 13.2-8.6 27.8-8.6 43c0 1.9 0 3.7 .1 5.6L70.5 198.1l-56-24-22.1-9.5 18.9-44.1 22.1 9.5L56 139.6 56 120l0-24 48 0zM368 224c0-15.2-3-29.8-8.6-43L408 160.2l0-40.2 0-24 48 0 0 24 0 19.6 22.5-9.7 22.1-9.5 18.9 44.1-22.1 9.5-56 24-73.6 31.5c.1-1.9 .1-3.7 .1-5.6z" />
-    </Icon>
-);
+const Snowman = createIcon("snowman", true, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAAB5wAAALzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhUCFBgsIAAE2AiQDCgQgBYMtB0obogbIngV2ywu9Ss/SEPHl2NJi7PAR0dN+bPbeYV61eSKKNs3USCZ2KmSzTP7wz/9aet/MLM0kvAS/zKx6MnsSVxtgW0JVta6oUKarWlXduGkEwEfmGaL+PnBOXf/HBCzB+1GiGiv11G0XGPAtosEP9BvbL7ftE64zwbpfZws93+w2Qmj31ldwl/4PYP7IaIMmVgDIPACc3e7aQqWqqqWvwTvkgc0QkHPAOkFBwTIBh2yCZQ4DnUN4toIAzwoCgwAySvq2AkZhHllGdgE60EREuhNDbIWVOaWGurjSVKjW2Zvu5R7qSLTHO5NdqT2IG8mjT5g+5XrIk+2TiDRW242QC3XjszcbNTbTMqYAFfZOlLObBr0AcOOyKRmd9dqtsvb5U6TnEzw9nfZSv7Z25cpCQPIJncneZJ8GJz6Z+278o7yfaU9349OT+Lr7UFfqQaIj4SNEpDLxaqc93u6aKKbsaS3Jj6eVTaeEN+n5+LhOc8fq2AdjRz5pePLPz37ld0u1rq5a2afN+HIKzWmPDaa1QM6rbA/r0/7543G0pmx7fYl7zptkvwvi0qaPtaRaHcaPo6TFXXDAZOfdo/dMuzh2Mh54rPATNrNxyzEUVIR72Mle3Bz6k/fkSVVB+c+hmytM59iNNl6bVleNzF5okkQhDpLStDA7Uq37f6w4GFl6ovA3j7B/PQejZCNa63Ksj9Kw6P0AgeBm/+/XY/WL/3kW4PX9dScGw0GlRa0nYJwFBLU7THa4IQGGcRHIgy13GQm/xXGC8pwI+NRpnQgIFwI0YS4BJaeBgM41iYARRXMIGOXaxaYeQ+KOTAxLjRsM21z3GY64t4yQxT4Ew+KxbxbRqS76VU2+FofX4JkZU6ebhUaYMojPf4G0dZHR1o+/65VMgJGcdc1Vt51x2gW3MfpNWyJ3XLFWxrnmu8YMU01nLGSss9PyvVjwplsu8KX2gyxilnePd1defQKYLDnXPUOKjTTZ9d8gz5UTV6c8dJpGXPp0AQAAAA==");
 
 export default Snowman;

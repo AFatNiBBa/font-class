@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `spade` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/spade?s=duotone spade}
  * @preview ![spade](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/spade.svg)
  */
-const Spade: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 289.3c0 31.6 11.6 63.3 35.1 88c48.6 51.3 129.6 53.5 181 4.9l8-7.6L224 256c0-17.7 14.3-32 32-32s32 14.3 32 32l0 118.6 8 7.6c24.8 23.4 56.4 35.1 88 35.1c33.9 0 67.8-13.4 92.9-40c23.4-24.8 35.1-56.4 35.1-88c0-33.9-13.4-67.8-40-92.9L344 75.1 278 12.5c-6.2-5.8-14.1-8.8-22-8.8s-15.8 2.9-22 8.8L168 75.1 40 196.3c-26.6 25.2-40 59-40 92.9z" />
-        <path d="M256 224c17.7 0 32 14.3 32 32l0 192 32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l32 0 0-192c0-17.7 14.3-32 32-32z" />
-    </Icon>
-);
+const Spade = createIcon("spade", true, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdgAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggCBbwsIAAE2AiQDCgQgBYMtB0YbBwXIjtMlNOabMB7+f+1/+9yZb4rZIK4JkoskyL9CwpsnQrHKIrHIr79Gi99NXPP8z58esPBdM61B6jxqGecT2HnTmhpsI5/pDGy7i5o9ljTxFEtn8nixx88N8vieXVBGepq+4bb/H8D4o4MLJFUZgGgEwPTF8+f58DN+pvhWekl8MxcBMQMUAhkydBZgkkygs1yBXC74mUolfkapVBBAlPMfzUA5cizDekAOkhB53ntwTVldvqimrHrx9TYRD4ma4GseOtP6QXV1XGv7KM62e1xTE2FycWby29lNbVeSU3jRJt7WXJ/63pyyKCLmUfW11gvihTd6tDS2/O3+bdM3pR/1V7hS/0Gh/gqSrJ1hp/CBdnk2vM+iYd0PHHK4HT/skHXDRx/ug1tOHzF9sie1tU8sUbzj8GggEJzd5wIaJv2vrEng96v/uR+S0ocktaBSAkE2qDTIigQSAQBIcUiPxHMEMoMl4VKtRwKEajKclKuGM500wrlqA+EyXY0mFi+YLxN5ldDaSoCTWnvhzBgn4VxrL+Ayk3z0y7WOTMFo9aD/dwlzJDB7XjF8yLBiQtGtJEZnSDc9sVg2+h2irv5w0Ca77XLARhtsdUBA+8yLDtppzgic7YsKww0xTGGCYrtxLSxCf5/9tra5/VkmKs57/RwaD+4Pi0mAEVdzISNSZHX796zdsHHwQ5UbBPcgAQAAAA==");
 
 export default Spade;

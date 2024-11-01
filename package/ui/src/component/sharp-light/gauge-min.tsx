@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gauge-min` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gauge-min?s=sharp-light gauge-min}
  * @preview ![gauge-min](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/gauge-min.svg)
  */
-const GaugeMin: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 32a224 224 0 1 1 0 448 224 224 0 1 1 0-448zm0 480A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM280 96a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 0c0-35.3-28.7-64-64-64c-17.5 0-33.4 7-44.9 18.4L104.2 242.3 90.5 234 74 261.5l13.7 8.2 106.8 64.1c-1.7 5.8-2.6 11.9-2.6 18.2c0 35.3 28.7 64 64 64s64-28.7 64-64zM168 144a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM416 280a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM392 144a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const GaugeMin = createIcon("gauge-min", false, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABngAAAJpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzyCaQsGAAE2AiQDCAQgBYMtBzAbaQXIhuB5u/+qc7s/4B6ZCyIDhHQQrhS++T/b8z0fDfAbDeU+dcPrpOHZdTxPIOBsWLcllAWWaQAcS1PznhjA6wxtF8jjtRirjHRL+hxXuTeNn3U5nyTPAEQjABbtsWWdt3fEjojPSy8Qn1uDgFgMCoEMGXoFmCsT6JUrkMsFO6JUYv+BBQFEueA3JpCjGtfiHkAOkso87+mpaumrqqqqKavLt9eUVe/zwaqITyY94+yJT6/8eOmHqz+d/GycM+W5NZ+tSD9tiPhqyXtxzuJ313+5/fu1ny9829mL3ln3xbZ9bh1+f+ctwx7q2XpOR8RNNZe13eDs1uurL22/MWpuHR3x6PD7R26P9hgZbbEtrnfLqEeGPTTmsZ7tm7htkqrY3gODH2189NdBnx/+udJdb49l3O7v58z5fve4sW/7GhvesczVXDOnd8mS3jnXXL2MraNSx11tmza1xZUZpfqLubie1+ARB1Y30XT33Y1HL/CRGj/x2siqEZxh2Km+6auN1v8X5W7bpo6L8PNAIKj4rScd0DD338qaBHa9+vuf8Guk9HaSHkWlBIJsbGmsfRNIBAAgxekGJwgkl6oUvGqtGwUI1QiQlKsWINOjUYBctTEClOk3TYBy1bbIRF4ltNqvBkmtk0BmujNArtVzoMxcH4XlWiP7OKlPi/o3jF/ehpbtKyaNn1jMLiZrJf29EXp7TrFaH3k6nxoFBx3uBMc71WEOdZRTW8jJ1iWnOc7yOXiZDypMMt5EhdmK3d19fjsOT3aKo8bZ/bvMUZxvj3T6/OJR0EoC1MnEdAkOpaojDjrtiMPGHXfU8QA=");
 
 export default GaugeMin;

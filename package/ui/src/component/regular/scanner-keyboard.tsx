@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `scanner-keyboard` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/scanner-keyboard?s=regular scanner-keyboard}
  * @preview ![scanner-keyboard](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/scanner-keyboard.svg)
  */
-const ScannerKeyboard: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 24l0 40 48 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24zm176 0l0 40 48 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24zM240 0c-8.8 0-16 7.2-16 16l0 48 32 0 0-48c0-8.8-7.2-16-16-16zM384 16l0 256c0 8.8 7.2 16 16 16s16-7.2 16-16l0-256c0-8.8-7.2-16-16-16s-16 7.2-16 16zM488 0c-13.3 0-24 10.7-24 24l0 240c0 13.3 10.7 24 24 24s24-10.7 24-24l0-240c0-13.3-10.7-24-24-24zM64 144l224 0c8.8 0 16 7.2 16 16l0 288c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-288c0-8.8 7.2-16 16-16zm0-48C28.7 96 0 124.7 0 160L0 448c0 35.3 28.7 64 64 64l224 0c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 96zm40 80c-13.3 0-24 10.7-24 24l0 32c0 13.3 10.7 24 24 24l144 0c13.3 0 24-10.7 24-24l0-32c0-13.3-10.7-24-24-24l-144 0zM96 304c-8.8 0-16 7.2-16 16l0 16c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-48 0zM80 400l0 16c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm128-96c-8.8 0-16 7.2-16 16l0 16c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-48 0zm-16 96l0 16c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const ScannerKeyboard = createIcon("scanner-keyboard", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABtwAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBiDUgsGAAE2AiQDCAQgBYMtBzcb2QXIhof/14ne96WQ5CArzFyiHYmnDpNPV8LR/3Mu3vZ8tOf1jYayXVRjBVBUChweRvthEtzzMj0Bu6l5TyWMCs3Xd4Y83o9bNCHdm37Aze5J42dd3UTSJAMQbQAwZ9O6FT6pRz3i+8abxPeWISDmgEogQ4YeAkyXCfSQq5DLBfVoNNh/YEUA0VR4dAI5WuEr/AjIQVLL81qtbNWyXbc2bdpRf9mkZb5RvlhsE8qIuG/gE13KKrj0jg6Crrqr04aUpTs73t05g9yAbNNwkrh3wNPdl/h2l0WpdCn65IXVZTHjknhicMQzXVLcO+TZAWU8Pez57lncN/S5gcWGVaYyuK5Yv0InrLyE8oBcc1Qgshirb5Nc3ve5Ns/92ueHgz+49unBYfFog3Vcs6bjK9Wp/+utRquM1qp+c2uiqd6K6A61npD/MS1C9qdvrgdDq6pfJR0b/Uhb2haVom3bR+oa0ko3aNUKpDLfAuuaXWvQNmqQbL2rTZs2JYb6vHbX9P1AILj8i4f37Go9/d/mZQI/vff7f+hnpPFJkp5DcwkE2fDGcNsTSAQAIMVFfRMEko/UhItq7hIgFAiQNFWoINNdG8gVhkETvUwQLNy9TibyFkIHOyAkNWcgM9HVkOvgdWhiuq+DTXWI7IwWnY+i/8nkC5vYgnnVmJGjq6nVaEohPkkFunVatVg/+CIvGQJPOuiUk847YL8jzjeIs1ZELjhh4RS+wBdVxhhptMpU1ebsXflGHDzrnCPD0u2zTFMd7x7s4nT1IdCUBNax1iSJSG3O7ftuhM6OOHbg8lMeAAA=");
 
 export default ScannerKeyboard;

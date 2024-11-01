@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `jar-wheat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/jar-wheat?s=sharp-solid jar-wheat}
  * @preview ![jar-wheat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/jar-wheat.svg)
  */
-const JarWheat: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M32 0L288 0l0 64L32 64 32 0zM0 96l320 0 0 416L0 512 0 96zM192 320c35.3 0 64-28.7 64-64l-48 0c-19.1 0-36.3 8.4-48 21.7c-11.7-13.3-28.9-21.7-48-21.7l-48 0c0 35.3 28.7 64 64 64l16 0 32 0 16 0zm0-96c35.3 0 64-28.7 64-64l-48 0c-19.1 0-36.3 8.4-48 21.7c-11.7-13.3-28.9-21.7-48-21.7l-48 0c0 35.3 28.7 64 64 64l16 0 32 0 16 0zm0 192c35.3 0 64-28.7 64-64l-48 0c-19.1 0-36.3 8.4-48 21.7c-11.7-13.3-28.9-21.7-48-21.7l-48 0c0 35.3 28.7 64 64 64l16 0 0 32 0 16 32 0 0-16 0-32 16 0z" />
-    </Icon>
-);
+const JarWheat = createIcon("jar-wheat", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABcwAAAH3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBfwsGAAE2AiQDCAQgBYMtBzAb/wTIHoPjbgkl8j+iLHn9MSHKolU8T+33eu6+/cRxKdtElRS9CF0g1cq4orF15AnG8/hUeLKoqr//z37zPswr/jCTJXFNa6Tw637dWR5tlVRIZsmvqVM5l/NswLeIBYM2Fi7NRTf4nOcRCHDS6Qu457WCFStYrYD1bUOEGpb5IkKEJKIxpXG6QM21ZoYO5bEEuM8vml/MZhSDBkDmAGDn0uoK5t/zPdlb/5I9ExDIDuAQQoMG+xA4RSrYR+YQqKrwPet1+g9kCJAueWgBFT3cALsAKig6tQ4GGxuslU/qxZF8eG2im8g4Od+g8mHNhedbRK+tGnoSFP0aehz69mk3LdO6QyKIJvmOR16ZxKXr6wXOL6AF7cHDttkUtIQv34QFsBgmLTY2FkmaxUIwJQ6J6c8GK3SA3PeurmhW/d/XFvDz/b+l/itaz6ktIugrIDTb6217+QDSIgBAyT3uNEFQXCXHzzr2QEAMEVB0DQU0NpkQqIa2EOg4IIdA19A5UqkDsWF/gmLsJmic9AWqDT+g45R/r2sj0jgTokT45qX2Ndxb4lQ8yWVeRoYYOhxNK7ytBT9yJQRnceHRgzfnzlx7U9SLlfDdvb6H9LwRS4lLYmV8nG6Pbzj34tW1Rw91TgXft4I+/PYQmBLCetR6UUgZ7F5/iX2+CAAAAA==");
 
 export default JarWheat;

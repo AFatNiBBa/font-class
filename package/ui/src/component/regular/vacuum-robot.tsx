@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `vacuum-robot` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/vacuum-robot?s=regular vacuum-robot}
  * @preview ![vacuum-robot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/vacuum-robot.svg)
  */
-const VacuumRobot: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm335-79c-43.6-43.6-114.4-43.6-158.1 0c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9c62.4-62.4 163.5-62.4 225.9 0s62.4 163.5 0 225.9c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9c43.6-43.6 43.6-114.4 0-158.1zM212.7 212.7c6.2-6.2 16.4-6.2 22.6 0l64 64c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-64-64c-6.2-6.2-6.2-16.4 0-22.6zm-80 16c6.2-6.2 16.4-6.2 22.6 0l128 128c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-128-128c-6.2-6.2-6.2-16.4 0-22.6zm-16 102.6c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0l64 64c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-64-64z" />
-    </Icon>
-);
+const VacuumRobot = createIcon("vacuum-robot", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABkAAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCQAsGAAE2AiQDCAQgBYMtBzMbQwXIhof/t+u/fW5VP4D1KQ+siIxlpb0mZTST9vxf0++s6QC/0aFUUGpjgVcsn09gAlGaNvCygc10ArapeS8P8HWHthPk8XbcqUR6KH2DO9yHxp963URSygBECwBW7Nu1xQflKEd8XXmV+NomBMQKUAhkyDAgwGKZwIBcgVwuKEelwv4DCwKIKj6S3JyjBtfiNkAOkqo87/cfqrGxob7UmO+tL9WdeP3UiOc2flV38/ovJj/juinPbviy/pZNX097Php+XxXx8bbv62/Z8u2KD/f8svyDzd/U3bz1u5Uf7T3xvbqImxc/Mvbh/rHwQ9ctr/a/H9cv3f1A5464r+Perp1xfzeF90B7GSkP3zDyqZan/h7xzSnf+P79Be/xXEP9vHn1Dc+9t8Bk2P4frKml9+UPV6368OXeWmtwFu3eurVlClNaGht/+KFp+fKmcqSV8cqYMiUuH/XkkxUPP2z1bc3YuPZaKqZ288mDgrofBIIlj1zUeKx58X819Qn88da//+O/wcoHSXoKNRIIssmVyQ4nkAgAQIpLjEwQSC51Ut+1wf0ChDoESKrUCZDp1yJArs4kAUqGzBGgSp1dMpHXCh2OVCBpcD7IzHU1yHV4GZQs9nlUpSOyB1F4jITfwNS1TXjNsmLG1OnFwmI0U4jPFqfnFxWLjfGX8M4EuNcpznWOi5zsJKe7qEFdYEt6sbOtnSLX+KLCDFNNV1io2FzeVffi6AIXOn1Y3r7IIsXxzniXTI+eAO3Ep53pWJKI1HDJ8SdefPHZU74n");
 
 export default VacuumRobot;

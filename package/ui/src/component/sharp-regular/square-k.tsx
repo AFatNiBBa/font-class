@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-k` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-k?s=sharp-regular square-k}
  * @preview ![square-k](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/square-k.svg)
  */
-const SquareK: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M48 80l0 352 352 0 0-352L48 80zM0 32l48 0 352 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32zm337.1 96l-1 1.1L238.3 238.3 330 376.7l4.8 7.3-57.6 0L205.1 275.2 176 307.7l0 52.3 0 24-48 0 0-24 0-61.5L128 152l0-24 48 0 0 24 0 83.8L190.1 220l82.5-92 64.5 0z" />
-    </Icon>
-);
+const SquareK = createIcon("square-k", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABXwAAAHjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBUAsGAAE2AiQDCAQgBYMtBy8bzwTIjsQ4JvKLKOwiHv5/v3773Pfmu6BvkcQGN2sk9dB+pZGmoaFbZRHJk++1IRennuc8FMD3iAdtbFoakAW253kEIjJxabhgpYLVtAJWdRsL+iDKmogcwXPE0G6I3pDHh3iqRHqXfuBJ+9D4q989klIGINoAsHD75rUqv+JXxPfqxHerERALQSGQIcMQAebIBIbIFcjlgl9Rreb/wIIAogbfPoEcJazGFkAOkizP69tHNZaa822NpYbdKUvNkUXTvMaGZpFCNDRFZBEHu3q7tsTW6I6G2BZjQ4iGoNSoD/TG9mgcMdA28K8fx36YcP4ABAlfLZcrZQeUpaf96Yb9OHjG7vuWmWX5GRVT9CnrM9cLeeEWP23abQEQCOLJ7d/7W+f8r2tM4M8n4FdU/RWVNIA6CQTZ2OpYe6ICUREAgBTXjIgKAsliGT5p8lqA0IAASY2GCZnB2iDXYAyUDDOVdM5vlom8XuiyF5A0uQiZae5CrstHKJnjs1GjK7KAosOB/s4lLNPI0qli4vhyMavYBgYTI2QZzi7c8shrUhiFXcecd84VRx1x0hWFXbLWvuqsZRa61BcVJhqvrDBLcRy/rm9z1CWXnXTeuTpmtuK+PtI1u34UtISEkziSRKS6N6mMOw0AAAA=");
 
 export default SquareK;

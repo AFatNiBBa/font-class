@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `snake` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/snake?s=sharp-regular snake}
  * @preview ![snake](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/snake.svg)
  */
-const Snake: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M417 202.2L512 160l0-96L368 0 284 48 168 48C84.1 48 16 116.1 16 200c0 59.5 34.2 111.1 84 136c20.5 10.2 43.5 16 68 16l88 0c0 0 0 0 0 0s0 0 .1 0s0 0 0 0l36.1 0 27.7 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-27.7 0-36.2 0-.1 0-88 0-72 0-2.5 1.7L43.3 419.2 0 448l43.3 28.8L96 512l79.9 0 .1 0 144 0c79.5 0 144-64.5 144-144c0-44.6-20.3-84.5-52.2-110.9c-11.7-9.7-25-17.6-39.4-23.2c-2.7-1.1-5.5-2-8.3-2.9c-13.9-4.5-28.7-6.9-44.1-6.9l-36 0-12.7 0L168 224c-13.3 0-24-10.7-24-24s10.7-24 24-24l116 0 36 20.6L368 224l49-21.8zm-46.2-32l-62.9-35.9L296.7 128 284 128l-116 0c-39.8 0-72 32.2-72 72s32.2 72 72 72l152 0c53 0 96 43 96 96s-43 96-96 96l-143.9 0c0 0 0 0-.1 0c0 0-.1 0-.1 0c0 0 0 0-.1 0l-65.3 0-24-16 24-16L256 432s0 0 0 0c0 0 0 0 .1 0l63.9 0c35.3 0 64-28.7 64-64s-28.7-64-64-64l-152 0c-57.4 0-104-46.6-104-104s46.6-104 104-104l116 0 12.7 0 11.1-6.3 62.9-35.9L464 95.2l0 33.6-93.3 41.5zM384 88a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm-16 64a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Snake = createIcon("snake", false, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAABqAAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDVQsGAAE2AiQDCAQgBYMtBywb0QURlZq1yX4kZG7eaFYRCuJs2RWUqVuWXdUDddH4Jnj+86+6r351n56qkZ3OAk4BhiQyaRCuIrghojWdvRApIHb5WCaXlNnp2taqD4D5P9fzPR8N8NtKfCiZVwUSSYfZfgIDnF1QlGjbgZ1JCtipm5KKioqlj4dIERTZtn9Hj287oOWSLMcFaoN6DCzjB5WPRLEIFC4HAAAJBAAAmg49O3O9VVpFHnnPII9oAQRAmgBIRAAHcIBYBIBaHASIRZMIaDQCreL1hv/ABAIA4kZeqAJAA27gIfAKANAAKLTW/Q8+Ptblp/s4XGbkoVdfkT7SS4w8rb3ca0vekao91sp8v761a7yrQ41dxJhQmUqltGUmViS63mu4lvK8y970teF7DRXuDW3KsFJFK020eecu4WI3uwv7IzdkHUizcqbZcZvVZKm52cFIuuTlNXcr+8qHYjZmH0w3ctbZ8dvcihXWESEL6S1Ir8Pa8NWha8LWRSQyz0uS/wMPfk56POYx278di/mkz1jWQM86k2iUjX/S6Ox52eNrWj8AAABSI7q/f2tsKvQbJhHIYQ7TTDdgOTeWTouVbjB2KGr0IzJf3cO8q0mU8tv0oUNK9+A3SS8pcbsTSV/PvIMHPR7CvOUAkWbmErIS8hvZHhRkt2O93/Ucf/vE2idvj0/y20MHgwok+yLnyt3a6g/dm2igAUCOu71urBnqqf3msQqA9otfv1J+Rd7rCnUQ8KAAEHByvbmDFAAKBAAAAFAyhWQFIIDiJhq+V1/WIgAIBhAAFG4MAoBDDIEIABpDDgKAi3jKEADcGHriINoHIZTBAyh8GQ8cypkNNKGcAi5quZd0EyoGk+YNkv+jTFF9DfWcEs1aI6EllmVdsFK2jHcSx57CT2wrYiE3ry9f11f3Xwr5mGW+n/s7uPfERLPWSGiJy7Xn2fvrj8/715c6TSfxfKLws+9dhF8hlC1NfYJiZfp8OX+8Bg==");
 
 export default Snake;

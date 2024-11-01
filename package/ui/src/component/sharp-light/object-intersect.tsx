@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `object-intersect` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/object-intersect?s=sharp-light object-intersect}
  * @preview ![object-intersect](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/object-intersect.svg)
  */
-const ObjectIntersect: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M96 32L32 32l0 64L0 96 0 32 0 0 32 0 96 0l0 32zm32 0l0-32 96 0 0 32-96 0zM0 128l32 0 0 96L0 224l0-96zM320 32l-64 0 0-32 64 0 32 0 0 32 0 96-32 0 0-96zm0 128l32 0 0 32 0 64 0 64 0 32-32 0-96 0-32 0-32 0 0-32 0-64 0-64 0-32 32 0 96 0 32 0zM160 384l32 0 0 96 64 0 0 32-64 0-32 0 0-32 0-96zm-32-32l-96 0L0 352l0-32 0-64 32 0 0 64 96 0 0 32zM384 192l0-32 96 0 32 0 0 32 0 64-32 0 0-64-96 0zM288 512l0-32 96 0 0 32-96 0zm192 0l-64 0 0-32 64 0 0-64 32 0 0 64 0 32-32 0zm32-128l-32 0 0-96 32 0 0 96zM320 192l-128 0 0 128 128 0 0-128z" />
-    </Icon>
-);
+const ObjectIntersect = createIcon("object-intersect", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABjAAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyDFQsGAAE2AiQDCAQgBYMtBzcbnAXIHgPuzIhHyRAxnKZp8onPcbQI4/nvl7VzX/9NPbMhkYIGFRXZIqNcoZEoVjhcUqykxpKiQmHEFDYF3WaM6acIqjZXBQiuCpA3ByTdJDsWfs3M8plz/i/H93oeBfiNQruxlrXWwCmQ6HleIllgmSZgjeqNKDQrf7Pj8QNanhMx9bDgbvSh+WqvR0rrAJAVAHDpZqmIj2mmyd/wjHx2BQRyGXAEoUOHAwicJRQcIHIENE2YZhis/0CGAJkFeGWBhiU8xhNAA2XcRFq5XGtYBqJcL5JKsVpUJe2KVj9SID2BcqUSoyCu2JfrGKVJjVqRmEmega6IqikIsMq+/KiGsYzQiOY6uRmTfVLUV2CVy2K9YtLXShJuCAgBZJysTL4fNYWtRylgg7k2X2RQ3wfr3+kl0oVep8RoZlCkt7tVpAYLO4ly+N/TUvpJQ99gzZvu4+GGwBV9K7k0+9EQHEA/fGNYH963Ac18HgTh9qfFetqz/2VKAeDL65+/8V/R8FFqgnkFQnd8SLtAEQBA5ZKxICg7xsC7jt0TED0CyqxeQGc/HQJN7xgCMw7xIzCrd5VQmhyxoZOBMnYLdM64As2GJzDjrM/0rI10UhaVcOgVY1ShGMrfY7fDxRFuHUowWQj7x1EeLJku7SWzGoipna2zibGFcyFyVMxd2Ch0hfO+iLk5uLAInjy5SlULmaOTRTM+/ZYoXt4zuezebFZVARD1hK5SpHQnBm9/3wH//y4=");
 
 export default ObjectIntersect;

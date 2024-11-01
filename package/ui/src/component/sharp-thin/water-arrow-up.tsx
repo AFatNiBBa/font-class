@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `water-arrow-up` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/water-arrow-up?s=sharp-thin water-arrow-up}
  * @preview ![water-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/water-arrow-up.svg)
  */
-const WaterArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M296 256l0-8 0-212.7 74.3 74.3 5.7 5.7L387.3 104l-5.7-5.7-88-88L288 4.7l-5.7 5.7-88 88-5.7 5.7L200 115.3l5.7-5.7L280 35.3 280 248l0 8 16 0zM96 298l-.6 .9c-4.3 6.1-8.5 12.2-13.3 17.9c-4.8 5.8-11.8 13.5-20.2 21.2C44.6 353.8 22.5 368 0 368l0 16c28.7 0 54.6-17.8 72.6-34.1c10.2-9.2 18.2-18.4 23.4-24.8c5.2 6.4 13.3 15.6 23.4 24.8c18 16.3 43.9 34.1 72.6 34.1s54.6-17.8 72.6-34.1c10.2-9.2 18.2-18.4 23.4-24.8c5.2 6.4 13.3 15.6 23.4 24.8c18 16.3 43.9 34.1 72.6 34.1s54.6-17.8 72.6-34.1c10.2-9.2 18.2-18.4 23.4-24.8c5.2 6.4 13.3 15.6 23.4 24.8c18 16.3 43.9 34.1 72.6 34.1l0-16c-22.5 0-44.6-14.2-61.8-29.9c-8.5-7.7-15.4-15.4-20.2-21.2c-4.8-5.8-9-11.8-13.3-17.9c0 0 0 0 0 0l-.6-.9-.6 .9c-4.3 6.1-8.5 12.1-13.3 17.9c-4.8 5.8-11.8 13.5-20.2 21.2C428.5 353.8 406.5 368 384 368s-44.6-14.2-61.8-29.9c-8.5-7.7-15.4-15.4-20.2-21.2c-4.8-5.8-9-11.8-13.3-17.9l-.6-.9-.6 .9s0 0 0 0c-4.3 6.1-8.5 12.1-13.3 17.9c-4.8 5.8-11.8 13.5-20.2 21.2C236.5 353.8 214.5 368 192 368s-44.6-14.2-61.8-29.9c-8.5-7.7-15.4-15.4-20.2-21.2c-4.8-5.8-9-11.8-13.3-17.9L96 298zM96.6 427L96 426l-.6 .9c-4.3 6.1-8.5 12.2-13.3 17.9c-4.8 5.8-11.8 13.5-20.2 21.2C44.6 481.8 22.5 496 0 496l0 16c28.7 0 54.6-17.8 72.6-34.1c10.2-9.2 18.2-18.4 23.4-24.8c5.2 6.4 13.3 15.6 23.4 24.8c18 16.3 43.9 34.1 72.6 34.1s54.6-17.8 72.6-34.1c10.2-9.2 18.2-18.4 23.4-24.8c5.2 6.4 13.3 15.6 23.4 24.8c18 16.3 43.9 34.1 72.6 34.1s54.6-17.8 72.6-34.1c10.2-9.2 18.2-18.4 23.4-24.8c5.2 6.4 13.3 15.6 23.4 24.8c18 16.3 43.9 34.1 72.6 34.1l0-16c-22.5 0-44.6-14.2-61.8-29.9c-8.5-7.7-15.4-15.4-20.2-21.2c-4.8-5.8-9-11.8-13.3-17.9l-.6-.9-.6 .9c-4.3 6.1-8.5 12.1-13.3 17.9c-4.8 5.8-11.8 13.5-20.2 21.2C428.5 481.8 406.5 496 384 496s-44.6-14.2-61.8-29.9c-8.5-7.7-15.4-15.4-20.2-21.2c-4.8-5.8-9-11.8-13.3-17.9c-.2-.3-.4-.6-.6-.9l-.6 .9c-4.3 6.1-8.5 12.2-13.3 17.9c-4.8 5.8-11.8 13.5-20.2 21.2C236.5 481.8 214.5 496 192 496s-44.6-14.2-61.8-29.9c-8.5-7.7-15.4-15.4-20.2-21.2c-4.8-5.8-9-11.8-13.3-17.9z" />
-    </Icon>
-);
+const WaterArrowUp = createIcon("water-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAAB7AAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhWyEawsGAAE2AiQDCAQgBYMtBzUbcAbIhof/15nd9yVPiDSehBUApAWA03NL3JGnTbXLLVZY+X+u+fzs/AA/Xz4/P9ETyhVVglzoIvp55PMo3XDjBh7obDqcoE2djqDUYyK9FClBa5Hidlxjx+MF8vjOARXSq6kZT29vGr/p5gGSLAMQHQEwd/P6lb78OX6OqNXfI2qWIyDmglIgQ4aeAsyQCfSUK5HLBT9HvS7/gSUBRANFk9fnqBBdiX6AHCRZnve/eqFNpV2+qU2l9f4QERujMZqiGpuiGkVsiIL9m0NhtNlQNBV3ihe+qbV4Y/AbTS83vdj44sDXBpoW8Vj1JaB3I6Ia4jH5HD9YDVFx7NHGamO1iLol1rTcxQzxQrEe7vd2x7f/6Nt8qNngL1rq+XuWLrPB2xbavNkGG3Z1obdtuD12T0sdvxqKmH/SkVrtv/86dbSm29Dv/7x69c/vh3ZbYxd31Om//2q1I4e3BCBEbDmcz/P5BIzwDm1LbbkegcWiTHcHj2z4/4PdHWb83bJNAr9+/NdvjqfrX6Y56W20lECQjaiPsCPNAcEHoKW4pF9gC5qro4xqbb0kYITWCCQNWkOmh46Qa204VPQ28YIGra2XibyVUNjJIGnrLGQmuQm5wjtQMcNXaoMistEh9W3p5zTLIkYWLirHjhpTTisfc065wwuld3r52j7k0lIzFCcdctopFxx0wFEXCDtnpXHRSYsi9sLPlsYaZYzSNGW6+NWyibRzzjvqK/l+piu/Dw9xKW4+FK5EOcdJShKR2g+exJF7z507fXnkxTMA");
 
 export default WaterArrowUp;

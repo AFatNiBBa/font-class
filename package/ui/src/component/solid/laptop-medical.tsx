@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `laptop-medical` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/laptop-medical?s=solid laptop-medical}
  * @preview ![laptop-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/laptop-medical.svg)
  */
-const LaptopMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 96c0-35.3 28.7-64 64-64l384 0c35.3 0 64 28.7 64 64l0 256-64 0 0-256L128 96l0 256-64 0L64 96zM0 403.2C0 392.6 8.6 384 19.2 384l601.6 0c10.6 0 19.2 8.6 19.2 19.2c0 42.4-34.4 76.8-76.8 76.8L76.8 480C34.4 480 0 445.6 0 403.2zM288 160c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" />
-    </Icon>
-);
+const LaptopMedical = createIcon("laptop-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABcAAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBbQsGAAE2AiQDCAQgBYMtBzUb8gTIhofn10F/7ptZwLM2G9QhRihtcwn+AC9OPc95KBZ9DkHQxsKlAVngc55HICJjldYmKNZqWAGsecscRSn7JjM6SY/n9Pi0gzz+zg4oQTqd3uBgf9P4Wh0HSMpkAKIyAAbPnDres7fxNuL1/w+I18YiIAaDQiBDhvoC9JMJ1JcrkMsFb+P//9N/YEEAUZK+NoEcJTAXiwE5SLI8r1ulVbkSFfIZZcuyc8+2jbjbskJcb327ToqykUX5wA2zzrasFNfrnGt1q1v5eNjmTsOlJ2uVi+M1BPBj1csGfqJmBEV/zGhyp/Kdbxu/WfHGwIVlq1Dl0h6XqlQpyyDswSAGdqkcc0Rlw6f5jGHTNfqp4tvC24qddPK2YqHi20468c+DQPD09OS/F1bq92vpcgm8f/r9H3D2/2/TnnQHpSUQZO3+b2de2gMgBmCk2KEJ+aBAMlVGN5V3QoBQlglJSWUhU09lyJXVFkpoqDu12T1VJvIyQnXzBZLyNkOmh52Qq+4elNDPc72k6pGFFxMczO8ucYRFhrcVnTt0KvoUS9tgI4aq9b7FttRqR461lkkrbLTBNssts9o2g20x3tpuvREMHe6LCp110Emhj+LY2w/PsNwWW6220YbWpK/ivtbKDp7dWtRESbvYlCQiVVy3eNO2jZvavzYA");
 
 export default LaptopMedical;

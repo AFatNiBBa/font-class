@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-arrow-up` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-arrow-up?s=solid file-arrow-up}
  * @preview ![file-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-arrow-up.svg)
  */
-const FileArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM216 408c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-102.1-31 31c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l72-72c9.4-9.4 24.6-9.4 33.9 0l72 72c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-31-31L216 408z" />
-    </Icon>
-);
+const FileArrowUp = createIcon("file-arrow-up", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZQAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBRwsGAAE2AiQDCAQgBYMtBzQbywTIhof/n6u67ydNqWHIADDvshtSS6CQHLCQfdaiIlcT5zrf+aiwjYYSjaUDKZBR5vkEJrYb/jfYA0WBvekL2Ju7mrI9hHspraVI8vjZ42cPeVzKbqshPUo/4vnyofG7jm6TNGQAogUAZqxbtcTXjdEY8UP1A+IHixAQM0ApkCFDFwEmywS6yJXI5YLGqFb5P7AkgKiFB0ogRw3mYRkgB0mW593qOlVqmuZrKzXFplf6R7zRIcWjAW/2aRqvD3q7cxZFPNXufkQUFaESa9c/7P1ap4j+8Urfx53Xxet91sSjDnrewNDzrRZv/dnjx70/mvbVCy1pWVxXtGz5AoK2LEpYsyeeaHZd//o6NnHtWr8HbVesaLvXX5o2/fXXefMax2xlw0X+shcIBAuvvPPttuaT/6mvJPDbp3//H39Gql/H9fQW6iUQZIOrg22O6xDXBQAgxVk94zoCyTQZXGsT9wUIBQIktQoBMp21ECBXGCRAjW7GCFCrsEom8gahjS1KJ02coDNjXaFzbbxH15jsG6dWm8h8SfQE8SuXNtcCc+bKEUOHlxPLaahL7sGn8aRyW+9/VkoDaNVexxx12h67HXDaQCct8c84Yu4KnOOLSiMMNVxpovI4eVxea4+TTjngmKN5yiTlfbu/s+vmAWQlYBwpkCQiNX23wSE7Tp48dm7ImeMAAA==");
 
 export default FileArrowUp;

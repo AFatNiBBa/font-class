@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `money-bill-1-wave` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/money-bill-1-wave?s=sharp-regular money-bill-1-wave}
  * @preview ![money-bill-1-wave](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/money-bill-1-wave.svg)
  */
-const MoneyBill_1Wave: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M276.1 405.2l5.6-1.4s0 0 0 0c55.2-14.1 117.5-30 182.8-28.1c4.1-31.4 30.9-55.7 63.5-55.7l0-176c-35.3 0-63.9-28.6-64-63.9c-49.9-1.8-103.1 11.1-164.1 26.6l-5.6 1.4c-55.2 14.1-117.5 30-182.8 28.1C107.4 167.7 80.5 192 48 192l0 176c35.3 0 63.9 28.6 64 63.9c49.9 1.8 103.1-11.1 164.1-26.6zM0 60.3c16 8.2 32 14.3 48 18.7c80 22.1 160 1.7 240-18.7c96-24.5 192-48.9 288 0l0 338.7 0 52.8c-16-8.2-32-14.3-48-18.7c-80-22.1-160-1.7-240 18.7c-96 24.5-192 48.9-288 0L0 113.1 0 60.3zM384 256c0 61.9-43 112-96 112s-96-50.1-96-112s43-112 96-112s96 50.1 96 112zM256 192l0 32 16 0 0 64-8 0-16 0 0 32 16 0 8 0 32 0 8 0 16 0 0-32-16 0-8 0 0-80 0-16-16 0-16 0-16 0z" />
-    </Icon>
-);
+const MoneyBill_1Wave = createIcon("money-bill-1-wave", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABigAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCPwsGAAE2AiQDCAQgBYMtBzgbRwXIhofn7ao/91V1D9SzYq3l7wyKADBl9OOe/8s9v2lHB/j5psi9QxrbVmP5Btr7eQIBXlTnTQxsW5iFCWL2Oz+Gk4TbJKG8JMP4/GH5O8jjp7hciXRD+hiXpTeNv3R2AUkpAxAVAMzasGaZ13+P3yM+qj5DfGQJAmIWKAQyZOgmwFSZQDe5Arlc8HtUq/gPLAggynhcAjnKOAuXMV8BSZ7ng3u37dhQasrXN5Tq93Rs1/HcODeem/DcvJsG3Dcg4t7BD3a5cG27eHrs0/Ov73t3X3HPoAc6X7Rh/zXtI/KWdxa8t+S7Dd+tSyGu7YDLvjv37YVfr/16fRax6+aBEfePfXbwgz1uG/LQhGcGPdB9vdAQor5eNDREcSIQ3PvByoP/9Pp4/8faDl7JH4ELv/++MqBn8zmPu721tX7xpi4rx9C2G595mqeffPW55x9f0HZBOWR7rTFOliB4/rnAs99qeZTHzjnnsUdbqor42TMKrqmYqbZSqMz0eO1KvgoQxx347IELdrRM/b+2IYE/X/zvP/bs6o9pZnoQtRIIsqHVobammQBqAIUUZ+gtfFAgOUOOr9roWgFCPQIkZfUCZLqqCJCrN0SAkh7GCVBWb41M5HVCO9saSBqdDDLjnQly7TwFSqZ6L1/WLjI9VLVI/Q3Mmt9D81YVo4aPLCYXy4aqqZYcFqcU287AM9zAIBNqvxOOO80+ex1yWkeeYlnpdMfMl4h5vqgwynAjFSYrjtvPm9fb5xSnOuSE43GZKYr7mYHOkMcPMn5C0dHKkkSkVq21h30WyWGjhr0QAAA=");
 
 export default MoneyBill_1Wave;

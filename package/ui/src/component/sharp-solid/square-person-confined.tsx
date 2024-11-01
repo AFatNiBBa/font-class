@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-person-confined` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-person-confined?s=sharp-solid square-person-confined}
  * @preview ![square-person-confined](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/square-person-confined.svg)
  */
-const SquarePersonConfined: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M0 32l448 0 0 448L0 480 0 32zM256 144a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm18.7 48l-9.4 9.4-16 16-9.4 9.4 0 13.3 0 66.7-41.4-41.4-51.2 8.3-24 48-12 24-12 24-12 24L76.2 416l71.6 0 8.8-17.7 12-24 12-24 4.1-8.3 54.7 54.7c12.4 12.4 29.1 19.3 46.6 19.3c36.4 0 65.9-29.5 65.9-65.9L352 224l0-32-32 0-32 0-13.3 0z" />
-    </Icon>
-);
+const SquarePersonConfined = createIcon("square-person-confined", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABawAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBUwsGAAE2AiQDCAQgBYMtBz0b4ATIjsQ4JvJIF00cxMP/r/3rPncmADxBIgfMKg4Y1XMhY/6KTdqq6tfMX6eE/+dyz+/5bcBvdEh76YGMZbeb83kCgUa9PPCAssAyTcDanW3Ldoj2OKakSHJ8dnzyhDyuZVOJdCXBhfyh8Uczp0iqZQCiLgDGLp4/U6kiKiJ+lT8Qv0xHQIwFhUCGDC0FGCETaClXIJcLKqJc5v/AggCiMn3fBHJUwmzMB+QgyfK8Wq2+NSrVyhfVqFQ9q1WzVoqakS282ulhh/tNr3R80PlRi54NmzRsGA1DiFExIXpE00DWiBbVJjE3ntR492eVxdvV2z2t+/SfttZwu6Qq6pS3Vt9y8OCW6sXpfRnLZefVMh7iIY76RPEDUxy31w+2SL8Wr9vWr3FEoQACwaGVP/pXZ8T/VWsk8Pvrf//gX1G5IkrpKapKIMh6lHtYESWIkgAApNijXZQQSCbLaFzTRYFpqI5AUll1yLRQF3LVdYdKWhvILZbny0RerQsbWomQ1LQdMoMchlxD76CSEb5FlTWMzKMEfxAedKmTWmTitaJvrz7FsGI4ZqKTcPF8eLHsdtkja13hoTW22mKX1VZZb1dD7zAz3W2zSTN0oi8q9NVLH4Vhiu3Z/f1FVtthp/W22pIuGa44H3axZ767KwSJMvbTSRKRGt9Ko+clXO/5GQM=");
 
 export default SquarePersonConfined;

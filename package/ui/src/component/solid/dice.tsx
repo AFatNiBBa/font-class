@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dice` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dice?s=solid dice}
  * @preview ![dice](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/dice.svg)
  */
-const Dice: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M274.9 34.3c-28.1-28.1-73.7-28.1-101.8 0L34.3 173.1c-28.1 28.1-28.1 73.7 0 101.8L173.1 413.7c28.1 28.1 73.7 28.1 101.8 0L413.7 274.9c28.1-28.1 28.1-73.7 0-101.8L274.9 34.3zM200 224a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM96 200a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM224 376a24 24 0 1 1 0-48 24 24 0 1 1 0 48zM352 200a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM224 120a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm96 328c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-192c0-35.3-28.7-64-64-64l-114.3 0c11.6 36 3.1 77-25.4 105.5L320 413.8l0 34.2zM480 328a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Dice = createIcon("dice", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABiQAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCLgsGAAE2AiQDCAQgBYMtBysbKQXIjsM4hvwSSxniJeLh+7Uvz33dQ/2XoReAQbEjCLILOzZiKjYVSZDMte//c83nV0UH+PkIDqVXrQOJxFGXTmBChV2gA5tNFGduCw0zOOVAUESH4BjPh7bwofwa8vg7u66K9DD9iLt1cvysreskdRlANMFbTVm1bIGv66M+4of/I34wDwExBZQCmfiODgKMlwl0kCuRywX18f//6T+wJICoBjo5PkeB47gOyEFSm+ft6vDmDnWVqob5ykpVsevtIuJG7+Xxpst9VsRblZv9VsU7caXvyuWPe73W9kH319ut7MruWMEae1Yd+Mqb1jzsE/FWj0q80e+d9hGP+r7ds4iHbR70Xh6Mi3d9u8nbv3Sxk2ZPl3ek4/IbN8zo2HFGV2QuZcz9ouWSJS0buau1wcMufUD4opmbZhVNafriay+aNi2+JpQ48ahz69atOHZM1+enLLcDgSA/dX7Opsbjf62tJPDTp/8xDm/4/9fpcnobtRIIsv7/97c+XdYQkgYQTXFSV+WLAsl+tfCpDdwTIBQIkFQrBMi010SAXKGfAFU6GSFAtcIymcjrhBY2LEgaOAKZkS5AroVPoMp430SqtYjM/wzvMf7+ss+UyIxx5ZCBg8ux5TVnmi6l5d5xpdnf+2Sq6RPm2umQg47bYbs9jgvxqAXxEw6YqQkz/FBpiIEGK41VPi5+Tl9ph6OO2eOQg2WUccr3w72d1Jv3CaEEskNlJYlI+QcGAA==");
 
 export default Dice;

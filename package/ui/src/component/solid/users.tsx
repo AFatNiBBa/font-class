@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users?s=solid users}
  * @preview ![users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/users.svg)
  */
-const Users: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192l42.7 0c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0L21.3 320C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7l42.7 0C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3l-213.3 0zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352l117.3 0C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7l-330.7 0c-14.7 0-26.7-11.9-26.7-26.7z" />
-    </Icon>
-);
+const Users = createIcon("users", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiAAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCNgsGAAE2AiQDCAQgBYMtBywbMgXIhofn7b4691U14OoBtHQ0MLK1EU22TBnBf+Ka53/+VCBlT/BoUZZaXJ61qPMJ7Hy+m0ULjWYDG9DEeLuzObZjkUcSmoykX+14XSCPf7LzlJFuTp/hyvCh8aMu55FUZQCiEQBHLZx7mre+i+8iPi09T3zqFATEUaAQyJChV4BDZQK9cgVyueC7KJXwP7AggCgXL0sgRyVOx/lIXvtVeZ7X1XW097TUlNXlC2rKqpc+P/7xcY9Ne2HCExOfnFnXPLPuzrERj86siUuHX+fuw86Os6M6HuhefXYEHvjm0LPbH6ypiedHP9x307DqBWf3RNw6UoQuHX5/183O6iTnvupLRqySbolF9x4R0glr6PuHvT6o1MbggiGPND7y8+BnGz5z5ZtvHVi48MBbaWxX83xpTN3XfP3VGJ0nddd0nwcHDTZf1wqc5x45qXOMr77+uq558OBzK7vf5/1l27q6ti17//1uLuGLVuYV85m/64Bd8+dXdJ59srM7gUCw/LnKf1c2HPpbZU0CP7zy65/y06W30lnpEVRKIMjGlcZZls4CpAbgpThgiLLFQLLfe75rrRsECNUIkJSrFiDTo1GAXLWxApTpN12ActXmykReJbRaXrGk1m4sM8PpWK7Vs1iZQ33olmuNzAY5C+J+gMnH98Bxm4rJEyYVc4ppqfBmxfDqIcW2OuoAjYyGvTbYaYd91ltns30dtMdpwX7bHa+Bx/miwmQTTFKYozhulrsXWG+PvTbbaYdf5xDFfXOUA/r00WAkkXaKRJKIVGbSAA==");
 
 export default Users;

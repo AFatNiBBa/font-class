@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-digging` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-digging?s=thin person-digging}
  * @preview ![person-digging](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-digging.svg)
  */
-const PersonDigging: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M256 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm0-80a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm92.8 409.6c-3 4-7.8 6.4-12.8 6.4l-32 0c-6.1 0-11.6 3.4-14.3 8.8l-16 32c-2.5 5-2.2 10.9 .7 15.6s8.1 7.6 13.6 7.6l256 0c5.8 0 11.1-3.1 13.9-8.1s2.8-11.2-.2-16.1l-96-160c-2.7-4.6-7.6-7.5-12.9-7.7s-10.4 2.1-13.6 6.4L348.8 425.6zM449.6 288c10.6 .5 20.3 6.4 25.8 15.5l96 160c5.9 9.9 6.1 22.2 .4 32.2s-16.3 16.2-27.8 16.2l-256 0c-11.1 0-21.4-5.7-27.2-15.2s-6.4-21.2-1.4-31.1l16-32c5.4-10.8 16.5-17.7 28.6-17.7l32 0 26.2-35L20.1 191c-3.9-2.1-5.3-7-3.1-10.9s7-5.3 10.9-3.1l39.4 21.9 16.3-27.1C99.9 144.6 129.3 128 161 128c51.4 0 97 32.9 113.3 81.7l39 117 3.6 10.9 55 30.5 50.5-67.3c6.4-8.5 16.6-13.3 27.2-12.8zm-153.4 38L259.1 214.7C245 172.5 205.5 144 161 144c-26.1 0-50.3 13.7-63.7 36.1l-16 26.6L296.2 326.1zM55.9 288.9l10.6-35.5 14.3 8-9.6 32.1L40.7 395.4l-24 80c-2.5 8.5 2.3 17.4 10.7 19.9s17.4-2.3 19.9-10.7l24-80 19-63.3c1.4-4.7 4.9-8.4 9.4-10.3s9.6-1.5 13.9 1L167.9 363c5 2.8 8.1 8.2 8.1 13.9L176 480c0 8.8 7.2 16 16 16s16-7.2 16-16l0-121.7 0-26.4 16 8.9 0 17.5L224 480c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-103.1L119.9 354l-14.3-8.1-4.7 15.7L86.7 409.2l-24 80c-5.1 16.9-22.9 26.5-39.8 21.5S-3.7 487.7 1.4 470.8l24-80L55.9 288.9z" />
-    </Icon>
-);
+const PersonDigging = createIcon("person-digging", false, "data:font/woff2;base64,d09GMgABAAAAAANYAAoAAAAABugAAAMNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhCSDYgsGAAE2AiQDCAQgBYMtBzUb5wXIjsJxbyiFTYgolghDcxD8Q+P+O3dmPuD5kJZIFhPZxU6kDWXbgwjs/p39BDvYndXagVW+Nkn7qt+FvP+5pl48PzrAb3Qo0bjQA1l0894E9rzaMjCBBzZQG+sG5006qKzQvgFOn2khCMwpDRVwwP5Q/cOerWCwFgAAxQIAAN3LhwzmkVrUIu+Uh6B3ZAMCUA8APAIsYIFMBEAHFgGZODzgcAh+iBJg/4EeBAAKxt3MAOCAUOAt8BuawtBPCnYuwdgh3DjbMCjKDTcMCh8zays5IdM2xw1mrI4yZX3MUC7an7I76XXJ4bTjGd9RRw0MtNsqVdasjxkaa4/tCZvhOm6z22roiGPWw3TM6qhXpFyyOW6bIbu+EVItTXLc9oR1qwTK1fTb/ledhylJMmWEnDAsKRs2/HTANYNbQalSWpbj5GotTlIiQ9e1sR2hetnkttb9dQwE6UKRu16SILTR6qjBjM1xEbWJjVgtkI82aUZDZskiIzwumF17566arkKZEL0TdppEMcy14NjR3btHx+DxNdupep7wFoXmmPQwCOsbG1t/gbSusN6lS6bu+rhQesfi5IEZxM4vdigcdPMcpvQxxT7RTdMI56r5xL+vX/n00cY8apO4YX7Ku6DD6337xKrHxqbfvBn44HXSnfOWJZxbSMmn6tWvnPiGaoqaJk8Zz1L9GUT/UJuMkM5/zFnNJQPbWc578vm2wG/Q6dMvXlZXVeT3yG4FAAGCuO83mifEdHwLNTQA/Hrw4bc4MvA/8MSkaFwDQjEACGyFUsFYjW4DyN86CNdgtJw82EoEMDzlLqmRHF9qFuFQgCGYcLBkEAuOcMohiGwa2Ynjh2CRC0MkMg6CIZJFYGliHTgSuQ9BdPDSEEyiaD7Z/HPJ/1em9KnivZv58JAwtwS33phMeFhZXZvoNlnjN8Bz/OFcprOA+SxlGlOZxdIKuZjB5mXMo88Q0Zsv4qmliho8bfjFyZvKcGxYzBJmdUvLG2nHb6+WsHy4eCnUG1zKOkIMBmSiP4SAypZZM2bMmj8DAA==");
 
 export default PersonDigging;

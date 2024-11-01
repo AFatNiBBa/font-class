@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-x` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-x?s=duotone circle-x}
  * @preview ![circle-x](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-x.svg)
  */
-const CircleX: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM144 360c0-5.5 1.9-11 5.7-15.5c25-29.5 49.9-59 74.9-88.5l-74.9-88.5c-8.6-10.1-7.3-25.3 2.8-33.8c4.5-3.8 10-5.7 15.5-5.7c6.8 0 13.6 2.9 18.3 8.5c23.2 27.5 46.5 54.9 69.7 82.3c23.2-27.5 46.5-54.9 69.7-82.3c4.7-5.6 11.5-8.5 18.3-8.5c5.5 0 11 1.9 15.5 5.7c10.1 8.6 11.4 23.7 2.8 33.8c-25 29.5-49.9 59-74.9 88.5c25 29.5 49.9 59 74.9 88.5c8.6 10.1 7.3 25.3-2.8 33.8s-25.3 7.3-33.8-2.8c-23.2-27.5-46.5-54.9-69.7-82.3c-23.2 27.5-46.5 54.9-69.7 82.3c-8.6 10.1-23.7 11.4-33.8 2.8c-5.6-4.7-8.5-11.5-8.5-18.3z" />
-        <path d="M152.5 133.7c10.1-8.6 25.3-7.3 33.8 2.8L256 218.8l69.7-82.3c8.6-10.1 23.7-11.4 33.8-2.8s11.4 23.7 2.8 33.8L287.4 256l74.9 88.5c8.6 10.1 7.3 25.3-2.8 33.8s-25.3 7.3-33.8-2.8L256 293.2l-69.7 82.3c-8.6 10.1-23.7 11.4-33.8 2.8s-11.4-23.7-2.8-33.8L224.6 256l-74.9-88.5c-8.6-10.1-7.3-25.3 2.8-33.8z" />
-    </Icon>
-);
+const CircleX = createIcon("circle-x", true, "data:font/woff2;base64,d09GMgABAAAAAAK0AAoAAAAABlgAAAJqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCOAsIAAE2AiQDCgQgBYMtB0wbVgXIHoNt8/hIxEv6Xp/JguGYrHj4fu313LcQILCJYnKExkbGAxUcCRtbY+M69X9qq6vXr1/Tt/8uSQFgUwAmZTs+VUCoK0zZZ9vRBsFuoBEmuBbLnisOvvm/5vNLOzrADwKXhZF2vYF0PZ/AnqcOC3xABT7TGdgG3QVp0vGg46w75PGc3aMg/RQf+Nr9D2D8M2CNpCEDQLQDgO3r0nwcflAtxW21RXw4AAGxA2AcIUOGYQTWSALDZOMglwtqoqqgRlXFEECU6D4xAyUK3IFPgBwkIeWyeihcvzCUK/SLXu2mZadB6e42Qp2mxbZSEjKPsB+ktKzxzzbh0eGd/lvhQ+pJ5XvKccG93mvebdJhWfmy9fdNaQExaYnl9XZLQMkscpvjNeLXmzYWPZ+wAi41C/MImnw3eZ/q245b/Fiu3+nFmE5++30d51Qi5wZHX52dXoIw/nLQHkEU7qJjLQ6x3wAGfh2lph5pbMk+2J7Vfe3UUSv3geG8qV2Hu7p79vZ7avbuuvSp/evY0j2UrTSrPUTxvn3Ihj4QCH7XBE41Grf/OiwAf7e//7H/jqrDJL2DegkE2XTlpy4BJAIAkGICLokXBDInhOFZm30TIDQiQFJqFCAzxASBXKMpBAqjwhEoNToniVwXoVv9DZJmtyCzYB7kumlAYc1FVuqOzBeyfoj9BkzKAKH0bRwcEMQxTG07OY9F1+uxLGx5TeRj3uFZdBg0YEy7Nt3GAHJEfjmuXwaLSPdFLFiAICwGK/dGpQogGzGqmyyobxKLzfteJtizvcPdCMCM/TVkRCLJ5G8d33/K3zsbZpDw3gI=");
 
 export default CircleX;

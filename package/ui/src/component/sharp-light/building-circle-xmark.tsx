@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-circle-xmark` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-circle-xmark?s=sharp-light building-circle-xmark}
  * @preview ![building-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/building-circle-xmark.svg)
  */
-const BuildingCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M32 32l320 0 0 234.8c9.1-12.9 19.9-24.5 32-34.6L384 32l0-32L352 0 32 0 0 0 0 32 0 480l0 32 32 0 96 0 32 0 64 0 32 0 96 0 32 0 0-8.2c-12.1-10-22.9-21.7-32-34.6l0 10.8-96 0 0-80 0-32-32 0-64 0-32 0 0 32 0 80-96 0L32 32zM160 480l0-80 64 0 0 80-64 0zM64 96l0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0L80 96 64 96zm32 32l32 0 0 32-32 0 0-32zM240 96l-16 0 0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0-64 0zm16 64l0-32 32 0 0 32-32 0zM64 224l0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0-64 0-16 0zm32 32l32 0 0 32-32 0 0-32zm144-32l-16 0 0 16 0 64 0 16 16 0 64 0 16 0 0-16 0-64 0-16-16 0-64 0zm16 64l0-32 32 0 0 32-32 0zm128 80a112 112 0 1 1 224 0 112 112 0 1 1 -224 0zm256 0a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-84.7-36.7L566.6 320 544 297.4l-11.3 11.3L496 345.4l-36.7-36.7L448 297.4 425.4 320l11.3 11.3L473.4 368l-36.7 36.7L425.4 416 448 438.6l11.3-11.3L496 390.6l36.7 36.7L544 438.6 566.6 416l-11.3-11.3L518.6 368l36.7-36.7z" />
-    </Icon>
-);
+const BuildingCircleXmark = createIcon("building-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAMcAAoAAAAAByAAAALRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiEVAsGAAE2AiQDCAQgBYMtBzwbYAbILgbslrNLWp4irax8vjlrF78xj4apIcbD/6/9b5+Z+R+Yh8tFXJuKdZp4M29480YoLJqGpCCTu2BJ1TyixAOUhMLg33b/WbtuQFkKGcdFlgceJJBIPIjv17bvnwsikkVDg0a8RsmQE0xH58ZDIyRCzUAgoW5OZ1WtwYnL6VfnUYC/qIQ22piTNtCYW6DAwvK5gKaFWaLY2xSRCuoRdsgQcSZDdnyxjmtsDkX8lrWqyC6qK5zlD40fUmeQKXIAUV8AjH/OnurNF3nwKTaJT2oIiAlAEsiRo7UAo+QCrRUSCoXgS0TU/8A+AohqdMMMFKhH1CAaCihApk5R9LTEMnS1SveKYfjzxq7l4sCvIy7PIBFlbZGFqNSJuNGkKMMBSqYo84XXzO5ZRNDUlQidw7JbKeNjvuuVwpeOS5B/zv3M/bQgl2etMielhTkh2inLMa0tPfzkFvLgcMux272GEzWHn8o8vr4rWq1xsx6Rc+JCyZyCs6BzFtS4IgtWlFx2qnfq9195X3/8+rjbuB9s20NIK/recKhN28+eVjDDEcwQ+5vj3weRjDODcdXx+gHjqK/+jBgq/vcJLUln23ERJh14PTYz6fi97Tf4di1MDv1dV0XJNHVNpEYNu3Rp2CilrhAF+jnjZ+Qe7jKxoO+yjmcMavAMezoIBMd61ydV9U4/eRn4+uw/vPH/n+pqQU0ZCPJesWaJeoNKHIA3i310CL4okPmPo3et7RwBQokAmWqlALlW6gtQKPUUoEpbgwWoVppNLopaQmNLBczUthPMDXEULDT2FKwyyltPtcahvRLsBc3+IE0wReMmj0r9+/RLI9I06uSscuaoHpluK7rta1ndYaZ1bGcbe1jLGjayRxF2MdW/l61MifCT+SFJf330k4yQ0omtYB56drGbjT4vP8xI6XlLN/viwt1BnSGGA4RlMiJrsmckvf8eUvY+sIUAAA==");
 
 export default BuildingCircleXmark;

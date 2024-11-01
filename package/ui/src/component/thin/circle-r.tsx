@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-r` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-r?s=thin circle-r}
  * @preview ![circle-r](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-r.svg)
  */
-const CircleR: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 16a240 240 0 1 1 0 480 240 240 0 1 1 0-480zm0 496A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM184 128c-13.3 0-24 10.7-24 24l0 128 0 96c0 4.4 3.6 8 8 8s8-3.6 8-8l0-88 92.3 0 77.6 93.1c2.8 3.4 7.9 3.9 11.3 1s3.9-7.9 1-11.3l-70.4-84.4c36.6-7.3 64.2-39.7 64.2-78.4c0-44.2-35.8-80-80-80l-88 0zm88 144l-96 0 0-120c0-4.4 3.6-8 8-8l88 0c35.3 0 64 28.7 64 64s-28.7 64-64 64z" />
-    </Icon>
-);
+const CircleR = createIcon("circle-r", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABgwAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCIgsGAAE2AiQDCAQgBYMtBy8bIQXIjtNlNiNieYfS8vD/dVX3/YhSZBvRNobYG9zWma28y/wJ0f/7m+f/PArwgSUW2li4NJAFuNd5AgFm3feGJvKFMk3AYkndxuKRy5qIyMEjYmgLVevQ2SGPV+xWQ7opfYorKlHxk44uJ8kyANECADPWrVrizcZojPi0+hzxqUUIiJmgFMiA6SLAZJnwDrkSuVzQGNWqfwNLAohavJZAjlocx8XEH0uS53nnzmWrSk3TfG2lptj03YKIj2Y85eLhb87/cPX3Cz+e+XRcMuqdRZ+sSz8si/hi1jtxycy3l36+9tvFn05/08Uz3lry2ZqN93YQ4rq2N7SPqMSauK79De3WxgODHul8+8CHxxZrikoRcUP7Stw34KGON/Z/sHfPh1s8/Euf7v1U9YnpjnKs7n/+rzt2dLrpjk743+e4kqsmdZk1q8ukq66cQxQ3zbtoRduLbVe7fXvtepst2Wz2qtlj5qz2XJu8aazd02L9uiu2c+1stdvXu7Nly6Iwxp1AXNty+bXrtjWf/E99JYEfX/5t7S2qvpmkh1EvgSAbXB1scwKJAACkOFPPBIFkvxxJbeJ6AUKBAEmtQoBMZy0EyBUGCVCjmzEC1Cqskom8QWhjy4CkiROQGesCyLXxDNSY7AO7VpvIlCfoRnj3pc4dzVkqRwwdXk4sl5Euiokr00nlttb/TJUBwNrrmKNO22O3A05Hn7TEO8MRczNqjgeVRhhquNJE5XF63F5rj5NOOeCYoz5nkvK+1d+ZefsAmAlZR/IliUj1H3T0IScBAA==");
 
 export default CircleR;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rectangle-ad` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rectangle-ad?s=sharp-regular rectangle-ad}
  * @preview ![rectangle-ad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/rectangle-ad.svg)
  */
-const RectangleAd: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M48 80l0 352 480 0 0-352L48 80zM0 32l48 0 480 0 48 0 0 48 0 352 0 48-48 0L48 480 0 480l0-48L0 80 0 32zM192.3 160l15.7 0 4 0 16.1 0 6.1 14.8L307.4 352l-51.9 0-9.9-24-73.9 0-10.4 24-52.3 0L186 174.4l6.3-14.4zm.2 120l33.3 0-16.2-39.2L192.4 280zM392 256a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm24-43.9l0-28.1 0-24 48 0 0 24 0 96 0 48 0 24-48 0 0-4.1c-7.5 2.7-15.6 4.1-24 4.1c-39.8 0-72-32.2-72-72s32.2-72 72-72c8.4 0 16.5 1.4 24 4.1z" />
-    </Icon>
-);
+const RectangleAd = createIcon("rectangle-ad", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdAAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCCwsGAAE2AiQDCAQgBYMtBzMbDgXIjsQ4JvGLKEzi4fu1Ps993Z96lqEXgMFhCCQQOxYOp2JTkYmdCnn//Vvz5lGAj3M/Lqt5IL/yFp3nPIHmabfeQIG3wBLF/HZ+j3IJsukGkQvZ1e+G7a+Qx2/xmDrS8+lXPMovjX90dpekLgMQrQAwa8OaZb6vRjXil9onxC+WICBmgVIgQ4ZuAkyVCXSTK5HLBdWo1dw/sCSAqFcekECORhzASUAOkvo8b2rdvqGprNQ1z9dX6ootKUvNI4tm0ytFS5FCFC0isoh1laLSPtZFEV2iiE5RxIboONjWI4ZueLnT8/1e6/pC/xEhIiohnCsi4qni1cFvdnlxyFsD7rXv/WarN//16/5fjTix0yxX7VStjRw5c6SdRhrZqp757karVn23W/i+MZ612GvGWvqBbS70gvl/HX7ouKp9+1VeutINaicjddql2Jh7qXl1zJgWLew91eYvAYHg6LAfR+1oOfW/xkoCf3+5eLlWTTPTm2iUQJANrQ21Nc0ERw5ATXFeb6HFQLLD06nNPCNYDwUESb0CMl21glxhCNTpYRy12L1GJvImoZ1tgKSZU5AZ7xrk2vkI6kz1A6rXLjJtY3SF+dlLnN9i85rKUcNHlpPLqYVZBaJCdUq5LA88T5FBmLTfCcedtc9eh5xtiNOW6eccM1/C5/lQaZThRipNVh6798Pr7XPaGYeccDzVmaK8rwx0Xk4fhDYSYPR3omguUrPT+/ac3XX8wNF9w3btBQAA");
 
 export default RectangleAd;

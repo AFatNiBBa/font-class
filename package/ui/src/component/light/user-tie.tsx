@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-tie` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-tie?s=light user-tie}
  * @preview ![user-tie](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/user-tie.svg)
  */
-const UserTie: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 32a96 96 0 1 1 0 192 96 96 0 1 1 0-192zM96 128a128 128 0 1 0 256 0A128 128 0 1 0 96 128zm96 176c-8.8 0-16 7.2-16 16s7.2 16 16 16l9.8 0-21.7 65-32.1-69.5c-2.9-6.3-9.5-10-16.3-8.8C56.8 336.5 0 402.3 0 481.3c0 17 13.8 30.7 30.7 30.7l386.6 0c17 0 30.7-13.8 30.7-30.7c0-79-56.8-144.7-131.8-158.6c-6.8-1.3-13.4 2.5-16.3 8.8L267.9 401l-21.7-65 9.8 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0-32 0zm17.5 160.5l-9.7-21.1L224 370.6l24.3 72.8-9.7 21.1c-5.7 12.4-23.3 12.4-29.1 0zm-29.1 13.4c.3 .7 .7 1.4 1 2.1L32 480c.6-58.1 39.5-107.1 92.7-122.8l55.7 120.7zM416 480l-149.4 0c.3-.7 .7-1.4 1-2.1l55.7-120.7c53.2 15.7 92.1 64.6 92.7 122.8z" />
-    </Icon>
-);
+const UserTie = createIcon("user-tie", false, "data:font/woff2;base64,d09GMgABAAAAAALYAAoAAAAABlgAAAKMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCbAsGAAE2AiQDCAQgBYMtBy8bawXIjsK2nTOKpJwvaYzRQ2mJ6PdD995/QVLsE4UKUDhgY2I8sSRl46gVrlNbI2qg3Pt3rZMaKcQNnCh8Gjt3Tp3f/J/r+Z6PCuQbDS0Ks6lBRpf1fAITvMNomp220InimbfcZ0Zkj3pUJjVJ/rEez/LQGR2gZj8DoUt51voAuIxflX+wNwcUtQFA+gEA6/u5OXjyi7/ID5qbkE9kgUA2AEwhGkhjFM4SMRxAxxSoqvCHGk3+D1QQIK2Q5gqoaMcd4B0AFRStVcfRMdBEYqlrrFOQGhOlq17kSfu9mLLb43lCrHifctjHacf9Pqdl3pQfedbvrFwNOM84p/3P4WLF98zFyL+z2mktmccC7rJ6kfhATVnvlMZctd3NY8mPUnty+EiSu2132Yg8B3uHQubTjjvEio3nKphpiBwOuRyTny+kmOa0LOTNoIvO7ufMzv11+9DwAT8PO5QBJx+v7O1fvSwrc1AttHay0sMIun9/cXf/8tXIyAMtuKHy8i8Tk18CI2tw3ULmy76ETGm8tGQ8g1ySmQn7jma4pswkYSlQxkd2immbBtvOI73TMP0bCXIPeTW1Fj30mxcQSb0X1qa2SIAgXFw/db7SNHHDQGoB/t77v4Ev/v8kT7TOAdoVEJoZTaCyPAGgWhAoLRmAuyGJqugMV/2t3R5AEJ0IKFp1CmiMMkNQdZpG0GJCFIJWnbZpSzVEDCtvoOh2ChqLxkE17DposeR12mo42u5JOxf9OUxILZRSp8KCQ1W8mrYUxuPIsJqglkXfASN+2IgGnTr0qVenWV+QHjlFv3apFpzih5QwwUIp8dR2914oiNmjFzlm96skUOddXwP2dD8oWoRwVqkopBg86Sior7keAAA=");
 
 export default UserTie;

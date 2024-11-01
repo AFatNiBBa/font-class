@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-snowboarding` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-snowboarding?s=regular person-snowboarding}
  * @preview ![person-snowboarding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/person-snowboarding.svg)
  */
-const PersonSnowboarding: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M204.3 3c11.6-6.4 26.2-2.3 32.6 9.3l31.9 57.4c1.3 2.3 3.6 3.8 6.2 4.1l33.8 3.4c24.1 2.4 46.9 12 65.4 27.6L503.5 213.6c10.1 8.5 11.4 23.7 2.9 33.8s-23.7 11.4-33.8 2.9l-68.2-57.5-82.3 43.9 24.7 18.9c24.9 19 34.6 51.9 24.1 81.4l-28.2 79c-1.4 3.8-3.6 7-6.3 9.6l93.3 35.7c4.6 1.8 9.4 2.6 14.3 2.6l28.2 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-28.2 0c-10.8 0-21.4-2-31.5-5.8L60.1 371.3c-11.5-4.4-22-11.2-30.8-20L7 329c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l22.4 22.4c4 4 8.7 7.1 14 9.1l19.4 7.4c-2.9-11.4 2.9-23.4 14-28.1L192 272l0-68.2c0-21.2 12-40.6 31-50.1L284.4 123l-14.1-1.4c-18.3-1.8-34.5-12.5-43.4-28.5L195 35.7c-6.4-11.6-2.3-26.2 9.3-32.6zm91.8 407.2c-.3-3.4 .1-6.9 1.3-10.3l28.2-79c3.5-9.8 .3-20.8-8-27.1L240 234.4l0 42.9c0 16.1-9.7 30.7-24.6 36.9L134 348.2l162.1 62.1zM259.6 189l20.5 15.7 84.6-45.1-17.2-14.5L259.6 189zM384 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
-    </Icon>
-);
+const PersonSnowboarding = createIcon("person-snowboarding", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABjAAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCQAsGAAE2AiQDCAQgBYMtBzobSgXIhofv7fr/tU/3XID9CH4TGRnBlVsRo/mfa+rF86MD/EaHFkmp5w0WvWjem8AAZ40V4JE+myjOvOVeU1n26ZFMNJMev8k/WkIer8WNSqS70ke4oS6K33S7lKSUQSCacJ+W7Nq2wdtfx9cRH5ZfID60DgGxBBQCGTL0CTBfJtAnVyCXC76Ocrn9BxYEEBVwcQnkqMB5uAmQgyTP801N1fW1pfp8Z22pZp8nuqfEbe0z4oUxO+K2rltH7oztMSYe676ra3vc2jartbVq+p3Da+LqjoPj8Y6xcXfvEyPG+KePiLtH7YqIB0ati454vGcqj9pzUeeuuKNjZ4g8aXvs2Dli5IhdMTK277pnVKJPKI+OdH3e0Kebnv5jyEeHf+TD11c/87+WyS2WvXTRsf5856++5bNtGediE3YcdnrvRu3L9hvq4Mo+W9rbt/Rp+uHAy5W+2OGzz+rrd9px8kxTuzYPsVx89YnPPPfzfy7t3ef2Ut630aJXN8wzTvXZS+uhBcM+XySLto/XYNe4c66tOf6cc46vaecDgeCpX4ZNPaBx/t9VtQl8++pf/9CO5f/Lb6fK9DSqJBBk48vj7ZsYyP99BHFSnG4ovkkgOU0Oj1rndgFCDQIkFWoEyPRqEiBXY5wAJQNmCFChxjaZyKuFNvsNSOqcBJmZzoNcm+egZL53nQptkQUiG0bsNzBppcZXDCumTJxczC2Wic7FFl165xVudfTpVDMGUx3uBMc71WEOdZRTFXmyDf5pjrPSIlb4ocIUE01WmKvYzp/H73SYk53iKCc4ngeZpzhvjna63XwMjEQopwokiUitcStPuOLMSxV9vQA=");
 
 export default PersonSnowboarding;

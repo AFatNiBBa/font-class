@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `rocket` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/rocket?s=sharp-thin rocket}
  * @preview ![rocket](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/rocket.svg)
  */
-const Rocket: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M181.4 409.8s17.2-7 42.6-17.9L224 496l0 12.9 11.6-5.8 144-72 4.4-2.2 0-4.9 0-111.9c4-2.5 7.7-4.9 11.3-7.3C527.1 215.4 519.9 78.3 502.7 9.3c-68.9-17.2-206-24.5-295.4 107.4c-2.4 3.6-4.9 7.3-7.3 11.3L88 128l-4.9 0-2.2 4.4-72 144L3.1 288 16 288l102.5 0c-10.9 24.4-17.9 40.9-17.9 40.9l80.8 80.8zM240 483.1l0-98.3c38.5-17 88.9-40.6 128-63.1l0 97.4-128 64zM190.2 144c-22.9 39.2-47 89.7-64.5 128l-96.8 0 64-128 97.3 0zM119.6 325.3c1.6-3.7 3.6-8.2 5.9-13.5c6.4-14.5 15.3-34.6 25.7-56.7c20.9-44.6 47.1-96.6 69.3-129.3C300.5 7.7 421 8 489.3 22.7C504 91 504.3 211.5 386.3 291.5c-32.7 22.2-85 47.9-130 68.4c-22.3 10.2-42.6 18.9-57.2 25.1c-5.5 2.3-10.1 4.3-13.9 5.8l-65.6-65.6zM408 144a40 40 0 1 1 -80 0 40 40 0 1 1 80 0zM368 88a56 56 0 1 0 0 112 56 56 0 1 0 0-112z" />
-    </Icon>
-);
+const Rocket = createIcon("rocket", false, "data:font/woff2;base64,d09GMgABAAAAAALsAAoAAAAABlgAAAKgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxyCXgsGAAE2AiQDCAQgBYMtBy0bWwVRlA5GiexHQnaGeUOwIYYpTZcu4tZNz9zFj3j4b7//7XNm3nwzmomErF0s4lkjiyYikQSR+EPF68/ke2Cnd6ELf1LAWAWP5Na53dkA8Pr75v9mz3sebf8WWWhj4dJAFkg05/MEAo16+bROz7Yd2JmegN3ubEtWFu1xSEtZyPHNcVqgxjcnUckH+QzcKR8aM5R0kUoBEOMAwMFjkcFw/if+REx3x8S0QCAgDgJYAFFQMAeCPcgCc1AsAKoq+BNdF/8DCRBANHLxBBX9uI0ngApSq3XRBjZnCZc71BupR9PY4LFRR0BABYwNDF7hnsKH5aFmu/oJ69rvPqodhiQs1iyMQgmyhz5DdHQArjqeGgJGJbw3QvysyNoj2YdHFQ5Masya7hpeBT7ZnlpPq06Z7QUt2Z1ZHWkNSfjGY07c11rSWVGe1F3VXlbyeK04pjSuvaoyqTyhI9sQbHxLn3Oe4UibKDuLC8fQ6wvmQIUyiPQ4sHakh2zVaWdF1J1b6wattMp6YvDthUTg5sqTQsN2+R3Hl/gh0HhPh1ZX84gRBKTndHBtle79BclAJO75/xfJGPWK9M8vvQ4T9bJrY71Sqal6/gKB+0a3g/OP3DTDnTtXt0q9ap/nAYHg78uv86n8Pf/72Qn+ff2doZ8Rufue8iP6JQjKms5IUlJIAgCQcQVZUgTSLQ2+67C7AoRBBEjNoADFbAIIqkGrIeiZxxqCZtAhZFEHhFmSO0jDzoNim2ZQzXIIeva4M5tZUfyS8yruV5jsoyHvIcJ83YYFuxZMPY13NYa7uxcsK3pXKLMSZiFHqRJVsmXJV6WQCsFOtWI+FuztiwjmTJghOCCOw8fpGNkqVMpXqiT3cUTcN/TU2OX6oJMI7SaulES2d65mVwEAAA==");
 
 export default Rocket;

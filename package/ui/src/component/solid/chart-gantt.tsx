@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chart-gantt` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chart-gantt?s=solid chart-gantt}
  * @preview ![chart-gantt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/chart-gantt.svg)
  */
-const ChartGantt: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 32c17.7 0 32 14.3 32 32l0 336c0 8.8 7.2 16 16 16l400 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L80 480c-44.2 0-80-35.8-80-80L0 64C0 46.3 14.3 32 32 32zm96 96c0-17.7 14.3-32 32-32l96 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-96 0c-17.7 0-32-14.3-32-32zm96 64l128 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32zm160 96l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32z" />
-    </Icon>
-);
+const ChartGantt = createIcon("chart-gantt", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABegAAAH5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCEQsGAAE2AiQDCAQgBYMtBzIbEwXIjsQ4JvGLKEzi4Xubv3PfbjKQ4LJQuUonphX9bzGt8KbI0DKU1MmQd/zp7+f5P/8N+Iw+WhRlgNQKI+J8AhOdpQ+0rXmmE7DtzrZjK4qVS0KM5DiX47GHPN5nF5RIT9Nv3A53Gn91dIGkcQYgWgBg8sql832pRS3iV/0l8ctcBMRkUAhkyNBFgHEygS5yBXK5oBb1Ov0HFgQQZXKMCeQoYx+OAnKQ5Hneo327dtVS03xFtVRZe71txEMpHrZtGtfbPnSmzYNKk3jVp6FbFmfbP64ud0oEy9XJh5W41u5RLK9Wqh272Hqwbs+GFg3//N7xW/dnza5wpdkizWp3EnblSrOiO1psXxGLFGPjRlXepLDZ2TjxjPCtdQY6zzZOQj5ak+DhQCA4sH3k143Nx/1vVE3gz7umn5F6LUkNaCSBIOtX72ddAokAAKQ4oWeCQLJNTm61iUcChAoCJGUVATKdtRAgV9FXgJJuhgtQVrFUJvLGQhvrC0iaOAwyI5wEuTaeg5JxvkVlbSIzONZc2P9e0owamr6sGDxgUDGmmNZlzoZoPz+22FZ7neC+3rDSDgcdcMx22+x2rCKPmJ8et98MDZ7uiwqDDTBIYYziuHVfusJ2Rxy1e8yfLzJWcT/s5YQ+ujcYiVAOUZIkIlWfWkH/nZsPHDsGAA==");
 
 export default ChartGantt;

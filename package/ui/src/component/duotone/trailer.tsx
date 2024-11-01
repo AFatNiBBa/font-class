@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trailer` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trailer?s=duotone trailer}
  * @preview ![trailer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/trailer.svg)
  */
-const Trailer: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 112l0 152.2c9.8-8.1 20.6-15.2 32-21L96 112c0-8.8-7.2-16-16-16s-16 7.2-16 16zM96 400a80 80 0 1 0 160 0A80 80 0 1 0 96 400zm64-288l0 112.7c5.3-.5 10.6-.7 16-.7s10.7 .2 16 .7L192 112c0-8.8-7.2-16-16-16s-16 7.2-16 16zm96 0l0 131.2c11.4 5.9 22.2 12.9 32 21L288 112c0-8.8-7.2-16-16-16s-16 7.2-16 16zm96 0l0 192c0 8.8 7.2 16 16 16s16-7.2 16-16l0-192c0-8.8-7.2-16-16-16s-16 7.2-16 16zm96 0l0 192c0 8.8 7.2 16 16 16s16-7.2 16-16l0-192c0-8.8-7.2-16-16-16s-16 7.2-16 16z" />
-        <path d="M48 32C21.5 32 0 53.5 0 80L0 336c0 26.5 21.5 48 48 48l17.1 0c7.8-54.3 54.4-96 110.9-96s103.1 41.7 110.9 96L488 384l8 0 112 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-240c0-26.5-21.5-48-48-48L48 32zM80 96c8.8 0 16 7.2 16 16l0 131.2c-11.4 5.9-22.2 12.9-32 21L64 112c0-8.8 7.2-16 16-16zm96 128c-5.4 0-10.7 .2-16 .7L160 112c0-8.8 7.2-16 16-16s16 7.2 16 16l0 112.7c-5.3-.5-10.6-.7-16-.7zm80 19.2L256 112c0-8.8 7.2-16 16-16s16 7.2 16 16l0 152.2c-9.8-8.1-20.6-15.2-32-21zM368 96c8.8 0 16 7.2 16 16l0 192c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-192c0-8.8 7.2-16 16-16zm112 16l0 192c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-192c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const Trailer = createIcon("trailer", true, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABwwAAAKUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDCDSAsIAAE2AiQDCgQgBYMtB0ob5AXIhof/96+vfe59vz6g1zBmIoAK5YzV4cC1Ohwhrr8/9TznoQBOCkFQXn52x5jWfb7neW1jwUPxTlrgBavVFDs4b+IhheJQfoIizcrXaSA9nKq40/kfwPjVsOtImjOA6ALAlgP33d3HtailqNZfJ6p2Q0BsBaVARsaYAOtlgTGFEoVCUEv1OrWo10sCiArnvRlU0IGPUQUUIKmoFMXc1va29g5e2dHR2tBeHMDf3nLoc30R9w2leLj//hmt8eS8V1e9Mefl8dbWWwcfjKsHHmhpiYhHBh6Y2bbk/n4xM/vg4P63WNSAwcT+ofTMPBBn7+t7YGBGQkDQxzhUeHAW1KFtfPDja95Z997kE2vfXf32WGes9dZ+ftgqPF+uvb//wUH+tqmvdL3y+5TqCVWLnlz8AzsyeccPi7ud/O0vTz31y7cnf3ZRx003dYTRzf7qN/+4Xuu4VtOvD+moHXll01lnp9CqPNtZTXv2XOuhCnSzf206855ax8dSHDqz82MsYYRSNu35EIr+2nRtrWpysu3E888/sQ2FNk2ejQJnNW3qOupaKBwklcoGnezjQCDYWRzSdmTn+v+bWhPY+e6f/6b3q3+ZrkqvoEkCQZ5fn++wdBUwbgD5FBeYOvKFmwWyk52ZT23zgAChBQGSihYBslFdAhRazBOgwYQVAlS02FcWRbPQ5/CSTNqcTWYrXU4W+rxGNljvk1xFX+SrWboWpX/J9F3r2C7HyiULF5dry8GmXL5AkV5eV852z76AD82Bpk5wpjOc53jHOdl5NeIcuxfPd7pdx/Bd/FBpiYUWK61Vru7c1g+o5c9xrpP7lfWrrFPuH5/tgvHJc6Av8XiXMsgykSJ3fk/ix5+z4K1wdNfV2x8AAA==");
 
 export default Trailer;

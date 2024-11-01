@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brain` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brain?s=sharp-thin brain}
  * @preview ![brain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/brain.svg)
  */
-const Brain: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M152.5 57.1l-1 6.9-7 0-.5 0c-26.5 0-48 21.5-48 48c0 7.7 1.8 14.9 5 21.3l4.8 9.7L95 144.7C68.4 149 48 172.1 48 200c0 12.3 4 23.6 10.7 32.9l5.9 8.2-9.3 3.9C32.2 254.6 16 277.4 16 304c0 28.8 19 53.2 45.3 61.2l7.7 2.4-2.4 7.7C64.9 380.5 64 386.2 64 392c0 30.9 25.1 56 56 56c5.1 0 10-.7 14.7-1.9l8.6-2.3 1.4 8.7c4 24.7 25.5 43.5 51.3 43.5l52 0 0-48 0-4 0-380 0-48-48 0c-24.2 0-44.2 17.9-47.5 41.1zM248 512l-52 0c-30.9 0-57-20.6-65.2-48.8c-3.5 .5-7.1 .8-10.8 .8c-39.8 0-72-32.2-72-72c0-4.8 .5-9.5 1.4-14.1C20.4 365.9 0 337.3 0 304c0-29.9 16.4-56 40.7-69.7C35.1 224.1 32 212.4 32 200c0-32.4 21.4-59.8 50.9-68.9C81 125.1 80 118.7 80 112c0-33.3 25.4-60.7 57.9-63.7C145 20.5 170.1 0 200 0l48 0 8 0 8 0 48 0c29.9 0 55 20.5 62.1 48.3C406.6 51.3 432 78.7 432 112c0 6.7-1 13.1-2.9 19.1c29.5 9 50.9 36.4 50.9 68.9c0 12.4-3.1 24.1-8.7 34.3C495.6 248 512 274.1 512 304c0 33.3-20.4 61.9-49.4 73.9c.9 4.6 1.4 9.3 1.4 14.1c0 39.8-32.2 72-72 72c-3.7 0-7.2-.3-10.8-.8C373 491.4 346.9 512 316 512l-52 0-8 0-8 0zm16-16l52 0c25.8 0 47.3-18.8 51.3-43.5l1.4-8.7 8.6 2.3c4.7 1.3 9.6 1.9 14.7 1.9c30.9 0 56-25.1 56-56c0-5.8-.9-11.5-2.5-16.7l-2.4-7.7 7.7-2.4c26.2-8 45.3-32.4 45.3-61.2c0-26.6-16.2-49.4-39.3-59.1l-9.3-3.9 5.9-8.2C460 223.6 464 212.3 464 200c0-27.9-20.4-51-47-55.3L406.2 143l4.8-9.7c3.2-6.4 5-13.6 5-21.3c0-26.5-21.5-48-48-48l-.5 0-7 0-1-6.9C356.2 33.9 336.2 16 312 16l-48 0 0 48 0 380 0 4 0 48z" />
-    </Icon>
-);
+const Brain = createIcon("brain", false, "data:font/woff2;base64,d09GMgABAAAAAANsAAoAAAAABwgAAAMfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCDdgsGAAE2AiQDCAQgBYMtBywb8gVRlA5GiuxnQU5GzUt5yCayF73yEOu7izcrGXUrArGhFmQRd7faHeoi8xNB/Ni32X1yoqh0syRmmdDwUmkWKp4h0ryaJzLE+/4/+7k7MX9/IoJLErc0GofoIe10PJQlTCspYvX76W3C9wJEEsdHRqiU/B9foQKupIBZ1wFLYBsYX4ANOIFEN0zEpi5O1YxloYDk7gnCQRkb1+jibt/7vAIFTC31iBS8YDUtiFeh6nQLheYYjD47ihTRKUWPq3h8llDjOWbxyHvsK9wabxp/LXIIpFIAxDQA2H2xpxvl7/ge8WpwBMQrR0FA7AawEgsFBUuxwDYcgaW4VoKqCr7H4F//AwkIIDp7eYKKhu/4A6gglVoPXD96cKzpFaWxxl1zDTbmRe2gq2y3w8ZyAbljceYM4p5uKN7rdIKyp0LAGDkSRk+usEM8xj3eZc8gLwfXPRWn54xjpnIYFctEcqITjQnnipAHvZ4h95J7zF22AaGCM3/ZNRoborv+1ViPQ/oWmSH4SmoY8b4jqb0ijYrDgdBYsYwA7nCCM0DHeYDh+DmZQawEsTjvm9br4TfpDaNHXaVSI/13zRkvHlbCxnevOs1WGy7Qn1zPddzuZrqh5xtRN2c2NZeuMGI+P2nTFMdVFBeneXWhGn9Ip/Muva+vrn/flDKoVe0vfk126Rj3/cO8X6xtVfVf74wXDLIfq7W0nJr/+TZpBiS76fF8kD9kyKXelafOL5W50qZ8Pm97emaMtGVq+PJMUz3i9NK2zNNbh3Znp9dw0KXG/nqbLNFhbePl+nMcUONjXl5q4hRXFIRrPUAg+P+92D6hqPqnEQl+Pmue9Fs0KLPlfcCwBEFZPRhGE5AEACDjJpwJBNJ7hVXH3c52wigbpG4UiiWUUI1aBc1ymRLdqLM4oo4Ic41pkMZdgWKrA6jmuodmm8dmNzc4Na5VqPaHmd0S8eZ7lIjGqYJOp1wvW6VfV9Jtx7/PrQCeYt6GdbvmzFqyG7ht3Z09a1pWbLMPIglRcaQCpRfv7X5Jtu1QPjbzt1Si56t+++vDAfhsJrrRQEoi2zcOAAAA");
 
 export default Brain;

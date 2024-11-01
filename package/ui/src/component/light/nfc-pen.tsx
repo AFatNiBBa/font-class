@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `nfc-pen` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/nfc-pen?s=light nfc-pen}
  * @preview ![nfc-pen](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/nfc-pen.svg)
  */
-const NfcPen: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M384 64L64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l202.3 0-8 32L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 124.2-32 32L416 96c0-17.7-14.3-32-32-32zm0 64l0 156.2-32 32L352 128l-112 0 0 82.7c18.6 6.6 32 24.4 32 45.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-82.7c0-17.7 14.3-32 32-32l112 0c17.7 0 32 14.3 32 32zM276.2 408.3l-1.9 7.7L96 416c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-48 0 0 256 190.7 0c-4.8 7.4-8.4 15.6-10.5 24.3zM224 240a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm294.8 24c-6.2-6.2-16.4-6.2-22.6 0l-24.8 24.8 40 40L536.2 304c6.2-6.2 6.2-16.4 0-22.6L518.8 264zM342.5 417.7c-2.1 2.1-3.5 4.6-4.2 7.4l-12.3 49 49-12.3c2.8-.7 5.4-2.2 7.4-4.2L488.7 351.4l-40-40L342.5 417.7zM473.5 241.4c18.7-18.7 49.1-18.7 67.9 0l17.4 17.4c18.7 18.7 18.7 49.1 0 67.9L405.1 480.3c-6.2 6.2-13.9 10.5-22.3 12.6l-74.9 18.7c-5.5 1.4-11.2-.2-15.2-4.2s-5.6-9.7-4.2-15.2l18.7-74.9c2.1-8.4 6.5-16.1 12.6-22.3L473.5 241.4z" />
-    </Icon>
-);
+const NfcPen = createIcon("nfc-pen", false, "data:font/woff2;base64,d09GMgABAAAAAAMQAAoAAAAABqgAAALEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2yDMgsGAAE2AiQDCAQgBYMtBy4bsAXIHge5KeuOKKJCs3XxJeLh//f7ts99b8y/IOYJjxC9kUyTeJxJiGoTkZDEKotI/oaN6V3bAfBnCpgVIavWDpgksVCs3LoKs/bdxOX0x/nTAy58x7Vo7eKxLZrzPIHO2xYXUOBjgWWagHW5bWKI6DwU7kPlDHl8xihKpGPpM/aUHxp/dTdKkmcAiFYAMGtRSjKuf8WviPdKxGdzQUDMBvRDZMjQC8FUUoFeZPqBXC74FZWK+A/sBwFENeoXSSBHHe7hLSAHSU0ucxlkraapbdmgpCVLb6hSr2hs0pQXxqQYLI43NNA01LkxYqeHlLMjd4dqcX34dndwWJBDpYl6wrZLnYhLvacKY4M2Hvwei0M1ennSc5eiOG5xoWyoTvmTHRn1x4tjl7SEGpzk9ITeX3iyPFEqOlywY3A4xmTJIfVgQTA2jpQzYnqkLppsCCqK9hy3u5AaBzu9NPHM6HYPuN6686//52Wf7doVVldod3Y2zzTs/miXW2fb9NTDqA/AErtV9fp3koV8sj6t4rENUny2Zh/fxo37+pK1fp2n0TYM+uoy0U5WDSGN89fc/FcDz2wdNXGzYnPKkPLV1U6b3OvxE+4cmyA90mDcgOpV6FC1avju9w4ofG/z09Hxc0xdL+e0G1qIaVuCwK5jx4BAMKbHfO2Slqn/axskgD8P/2/6FVWepmlpB7USCLJRlVFy00yQpWAEAKRoZ5vCQCC5o0Z5rY0OCxDqESCpVi9ApiddBLl6IxFU6cMbQbV680hFroZQkLdhSaONWGaKPixXcIpVmeopU60QUgjm4Y//f0yJOcLRy8R4FzcRIF7rFgEoWe18oLDWh7XLPnt8FOUa1GtVplSV1gPaLDnfpk6MDon2RYI7F26EAMK75VWXTjPNWlQ98/6ARQKJ+LGddv1oe7wKCWDCt2flgUgq9ctKnDcsrQcAAA==");
 
 export default NfcPen;

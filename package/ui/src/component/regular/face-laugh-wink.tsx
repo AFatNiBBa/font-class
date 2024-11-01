@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-laugh-wink` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-laugh-wink?s=regular face-laugh-wink}
  * @preview ![face-laugh-wink](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/face-laugh-wink.svg)
  */
-const FaceLaughWink: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm130.7 57.9c-4.2-13.6 7.1-25.9 21.3-25.9l212.5 0c14.2 0 25.5 12.4 21.3 25.9C369 368.4 318.2 408 258.2 408s-110.8-39.6-127.5-94.1zM144.4 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm165.8 21.7c-7.6 8.1-20.2 8.5-28.3 .9s-8.5-20.2-.9-28.3c14.5-15.5 35.2-22.3 54.6-22.3s40.1 6.8 54.6 22.3c7.6 8.1 7.1 20.7-.9 28.3s-20.7 7.1-28.3-.9c-5.5-5.8-14.8-9.7-25.4-9.7s-19.9 3.8-25.4 9.7z" />
-    </Icon>
-);
+const FaceLaughWink = createIcon("face-laugh-wink", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABigAAAJmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCLAsGAAE2AiQDCAQgBYMtBzYbMgXIjtEnYwRTc8TjwVETPx7+f79v+5x334h4F5M84KFBZE2iDpOm0SxU8RLJdBaVrOn//3K/+z6V9GqyvQFcKQ1Lp621kVPjjZcK+MiLcj4+ffxASvfGK1Dg/vnlgYxGG9hMJ2B729BhIwyhEQ4pEonGszE7Q4k11Aw1+ZpwDjxvHxq/SCgn1RUARA8AcPzQxw22v9F3oLPGAvGNCxAQxwAzECpUmIDAHqLABJIZoCiCH+j/n/4DMQggmkDePUFBM54C14ACUl1IUuMiQnxmzSb5t9eMmGfqKCadTxm1jseq43A1P+F0wqxzOdOYQqynUxR7F1fMOrcLqx2/e8tt13NGrful9a6/X6cYii4mE9WJdAj3Gy7rLhqvygZ0LUgy4WqgPYQR7RT1axcVxkBQCpBK4D3CCqO80R/58/hzuNoy2gQfOpgGm8yOyU0j46PT12DXyujXHRubnTkJunP24wOujZT9AR63f8d8+Ej5RVzi+lpC/IRV1HkDbjo51dWcTgBBTxkQeXvdmMyTk4ub3Hh9q+HxawAEgsv/3v0R3L3fLUwCwM/V3z/jV9TYTsg3QIsEQTXXUBWaIAkAQEY+hYRAeoJMXrXDCwFCGwKkJm0CVMbxIFC0mYVAbYoeBJq0uYsoCh3CgDCEU4dLuLKhDC4GzMG1PUdWk4Go0o9JHubzl2hvAbsxrKWuiY3x1qdsRlG1b4LDkmJ+ySnBSYiXIV2uOLGS5Boom5ubJ429B9r5IkyLOk2YMXwcPe/7i5MtR5IM6TzEBL6vKcr3q5VAJRDcFZ6URHLf9pRaalReQqJaQVJ6Cg==");
 
 export default FaceLaughWink;

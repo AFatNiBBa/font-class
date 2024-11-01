@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-up-right` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-up-right?s=thin circle-up-right}
  * @preview ![circle-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/circle-up-right.svg)
  */
-const CircleUpRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 496a240 240 0 1 0 0-480 240 240 0 1 0 0 480zM256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zm96 168c0-4.4-3.6-8-8-8l-127 0c-5 0-9 4-9 9c0 2.4 .9 4.7 2.6 6.3l35 35c3.1 3.1 3.1 8.2 0 11.3L163.3 304c-2.1 2.1-3.3 5-3.3 8s1.2 5.9 3.3 8L192 348.7c2.1 2.1 5 3.3 8 3.3s5.9-1.2 8-3.3l82.3-82.3c3.1-3.1 8.2-3.1 11.3 0l35 35c1.7 1.7 4 2.6 6.3 2.6c5 0 9-4 9-9l0-127zm-8-24c13.3 0 24 10.7 24 24l0 127c0 13.8-11.2 25-25 25c-6.6 0-13-2.6-17.7-7.3L296 283.3 219.3 360c-5.1 5.1-12.1 8-19.3 8s-14.2-2.9-19.3-8L152 331.3c-5.1-5.1-8-12.1-8-19.3s2.9-14.2 8-19.3L228.7 216l-29.4-29.4c-4.7-4.7-7.3-11-7.3-17.7c0-13.8 11.2-25 25-25l127 0z" />
-    </Icon>
-);
+const CircleUpRight = createIcon("circle-up-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjgAAAJlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSCRwsGAAE2AiQDCAQgBYMtBzYbTQXIjtMd8UYkmWQieN6u7+vc7pm3AHoBI8KXY0fKBKbW5E9R7dSpmnEeCuAbBWlsm4uTbhpjnlegYr3nbqACLfCaVsBq7ewWBn39ok984pMM42dYlBPk8YiNSqTb0qu4Rp4qvtHcRZIsAxD1ADBuyYJZnvwyvox4tTLxqhkIiPGgEMgAaSXASJmgT5ArkMsFX0alQv+BBQFEGX9sAjnKOI8bADlI8jxv2bJjUbNUO19cs1Rj0QczIl6Z8FCc6//09JcXvzv1xbH3O9vvqWkvLcremxXx2rinnB375MxXF74/+/XxT8e5Cc/MeWPJopub1IgbG51tPCpuarQwblSQbhU1LzddErf0sJq3NI0WdzYXt3a81KR7mEoNcW+Oc2Bw7x1dara/r95937V7dfOrKn3G2s2eqj/5s2rP7rF0d4D/mGu5bkSrCRNajbju2qAbR665u7z2jL1Vebv2Bg2aP0/7Uqn9q7l63nwLFrTXIDeOOnNkXuMzmqyrcfg1M2c6UrPmkVdBN8mnttQYPuAMEAg23Tdm9pq6I3+rVjOBrx/+4W/5Gak8maT7UE0CQdaz0tPKBBIBAEhxWPsEgeS4HD9rLTcLEGogQFJWQ4BMS/UEyNXQQ4CSNgYJUFbDApnIqwuNrKogqWUfyAx2CuQaeQiUjPRCWtYoMl/kPIl7CiZP1vikfUW/3n2L4cW0q/DuxaTtEcWy2vVwnOoGqM322O2gTTba5qAi95uVP2SXyRYxyRcV+umtr8Jwxfbg/vBim+x3wDZ77KZdRijOh10dthd3g5EwZX8tSSJS3S87Qa9Dey8zAA==");
 
 export default CircleUpRight;

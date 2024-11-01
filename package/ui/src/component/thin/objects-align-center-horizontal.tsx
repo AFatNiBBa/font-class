@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `objects-align-center-horizontal` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/objects-align-center-horizontal?s=thin objects-align-center-horizontal}
  * @preview ![objects-align-center-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/objects-align-center-horizontal.svg)
  */
-const ObjectsAlignCenterHorizontal: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M264 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56L80 64c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l168 0 0 64-104 0c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48l104 0 0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 104 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48l-104 0 0-64 168 0c26.5 0 48-21.5 48-48l0-64c0-26.5-21.5-48-48-48L264 64l0-56zm-8 296l112 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-112 0-112 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l112 0zm0-96L80 208c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l352 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-176 0z" />
-    </Icon>
-);
+const ObjectsAlignCenterHorizontal = createIcon("objects-align-center-horizontal", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABjwAAAIcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmiCSgsGAAE2AiQDCAQgBYMtB0YbYAXIjsQ4JvGLKEzi4f/n/nOfm3xKhiFDRAqYHBBrbBWiKwtXtl2V1S9D3vX/uHfn//zTAnlGH20PXaOxfa/zzsPEuvyDJxJYFlDgJWANzpt0SKENIb2EPL60Qx3pefoFd+MnjX91dokkywBEKwDMWr18me/+ir8ifql9TPxiCQJiNqgEMmToJsBUmUA3uQq5XPBX1GrsP7AigKiXfgcJ5KjDDdwF5CDJ8nxp165lXfN8VVlX7H7S4VE7UcTLdo86ieftH/crY/rWj9s/7RhRxpuOT7tGvOjwpH8R08qasihvng6JczfFIiVvdHgS4vn9y7KMohyfNo8zn9j73Vbv/ueXXb9o+LR+y5b6id4a+duv2UzZr7+NfGumPTrZYyI1aWPTzAfhxIYBR9KeFteutZipGh/MLe+hkeRkC/SA94BA0HrzpPGbW079v7FM4J8vuvkZVbXv4q/0LholEGRDa0NtSFSq+EsAAFKc0jtRCSQXZFKvmSdPm6EAQ1KvgExXrSBXGAJ1ehhXol5huUzkTUI7GwFImjkKmfFOQ66dD6HOVN/X6rWLzDaydon9F0yaP0XmXatGDR9ZTa52RzrOgtH6dEp12Rp4iq8MgnftctghJ+y0w14nJtgxy5onHTT/CJ3nhSqjDDdSZbLq8fTl7VV2Oua4vQ47FJ0zRfW9N9Cp4+2DoJuklKP1JYlIPW2qMswzqsOCxMowKwsAAA==");
 
 export default ObjectsAlignCenterHorizontal;

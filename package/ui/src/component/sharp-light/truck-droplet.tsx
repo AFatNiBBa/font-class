@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-droplet` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-droplet?s=sharp-light truck-droplet}
  * @preview ![truck-droplet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/truck-droplet.svg)
  */
-const TruckDroplet: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M384 32l0 352-133.5 0c-13.2-37.3-48.7-64-90.5-64s-77.4 26.7-90.5 64L32 384 32 32l352 0zM32 416l32 0c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0 16 0 16 0 0-32-16 0-16 0 0-160 0-5.9-3.9-4.5-96-112L503.4 96 496 96l-80 0 0-64 0-32L384 0 32 0 0 0 0 32 0 384l0 32 32 0zM416 128l72.6 0 82.3 96L416 224l0-96zm0 216.4l0-88.4 160 0 0 128-5.5 0c-13.2-37.3-48.7-64-90.5-64c-24.6 0-47 9.2-64 24.4zM160 352a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm256 64a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM256 211c0 23.7-20.3 45-48 45s-48-21.3-48-45c0-2.9 2.1-11.8 9.4-27.2c6.7-14.1 15.9-29.9 25.6-45.1c4.4-6.9 8.8-13.6 13-19.7c4.2 6.2 8.6 12.8 13 19.7c9.7 15.2 18.9 31 25.6 45.1c7.3 15.4 9.4 24.3 9.4 27.2zm-128 0c0 42.5 35.8 77 80 77s80-34.5 80-77c0-28.8-36.6-85.9-60.3-119.8C216.4 74.9 208 64 208 64s-8.4 10.9-19.7 27.1C164.6 125.1 128 182.2 128 211z" />
-    </Icon>
-);
+const TruckDroplet = createIcon("truck-droplet", false, "data:font/woff2;base64,d09GMgABAAAAAAMMAAoAAAAABrQAAALBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDIwsGAAE2AiQDCAQgBYMtBzQbpwXIjsK22XPIWoesHBIj8pd4+H+7/9rnVn09NFkNMxOcgZGd9mSzJmXGt/KBGNH/2m9/LmpNvdG1MlSNZJpmNmREZB9D+h4yIX7xTkhMXPP8z58Km1vsURZtld5A3ecTGGC0ZYhF4WyiuMVtN0PMQxqEwgry+DsGqyPdF10AV/0PjR9gdh5I8gxAtADAjBVL5nn9Mz6Jard7iBoyCIiZgEIgQ4YuAkyWCXSRK5DLBZ/S7X/xH1gQQNQL7zSBHCW8CHgZADlIGvO89ZgmQ1Xbvn1ZWs2Xq6WlHSJxKsWDCO+76X/ooKIsqlvVqvLj8HHM4yChu5oqnzqiVAqwiHaRV3tdShWRQpR37DAuo6FBxxPixA53/bP3A479D6MfjG+QMC43NzIP7TrpfzitW561Ibrl27XrRc867txv32077Dhso5qGiZ6bfTT0PJC36/Q/DD518LzQgv/krm2vofl0Y3jhBULl4K+/Hjz0sC822rjhVOEqGjlnjHMFQyUfWVyLFs/IjLLhgDkaFqYUitMFNjrHKWc6ZC3a4CFK7xaDzzBITx2w8M7/DcOHdu8+dHgm+n9a9n397fPs7uYX04dQS02vvbbKetv/8sqVu7/e3hEzZNnWwrAtq13PkQMHMGDgyJ7tgEBwsTG8taF57K/GcgKfv/xypfv7//XERBzQKIEgG/z/YGsTA8BMAoIpjqPnwhcFkudQCK+14g4IhBICJPVKAmQ6ayFArmSQAHW6GSNAvZIlMpE3CW2sa+ik4hCdGesEnWvjJbrOZG8E6rUJMeSq4E7145h+bheY066IDh1eTCxmkyo1MCps86RiszF0XBYNwFNtd8B+R22z1S5HO9Bh88LH7DN3CZzjhwojDDVcYaLicObh+OW2OeyIXQ7Y77UySXG9t7/jy5UHYEsSSo4UkSQiVT9Nw5A3x7V321EA");
 
 export default TruckDroplet;

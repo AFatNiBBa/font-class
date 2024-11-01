@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `anchor` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/anchor?s=sharp-thin anchor}
  * @preview ![anchor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/anchor.svg)
  */
-const Anchor: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M352 80A64 64 0 1 1 224 80a64 64 0 1 1 128 0zM288 0c-44.2 0-80 35.8-80 80c0 41.5 31.6 75.6 72 79.6c0 .1 0 .3 0 .4l0 48-80 0-8 0 0 16 8 0 80 0 0 272L88 496l0-204.7 58.3 58.3 11.3-11.3-72-72L80 260.7l-5.6 5.6s0 0 0 0l-72 72 11.3 11.3L72 291.3 72 504l0 8 8 0 208 0 208 0 8 0 0-8 0-212.7 58.3 58.3 11.3-11.3-72-72c0 0 0 0 0 0l-5.6-5.6-5.7 5.7-72 72 11.3 11.3L488 291.3 488 496l-192 0 0-272 80 0 8 0 0-16-8 0-80 0 0-48c0-.1 0-.3 0-.4c40.4-4 72-38.1 72-79.6c0-44.2-35.8-80-80-80z" />
-    </Icon>
-);
+const Anchor = createIcon("anchor", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABeQAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiiCMQsGAAE2AiQDCAQgBYMtBy0bLgXIjpQuH7Tx8P9rYvf9meSkkzJMmVER2DpgibJL5JZl1QJJAp1Amf9r6mXQAX6jQ4paF0iBdT5vsInOI/1Gs9lwNlHc7myttoO0R0ISS8txLsfjAHl8Y48K6V76CrfSh8avOrlOkmUAoiUAZq5fvdQnP8aPEV823iS+tBgBMROUAhkydBVgikygq1yJXC74MRoN+g8sCSCqhEl8OT7pPG4AcpCkPG+2v15plq+rV4r9D58NetH9yeCXA593W/dGxLOu95qjfa/ElRBFIer1FEVErIwOsS7aR9u4EmuiXawOIerNYq2cq5pFqSIyIxSRIuIDTwe/7PJ40ItxvV60fPF7z6/2fWX78eznv//+OcuvnL685V7WRYuxY3+BEVbUWqqtaOkTX7vvffPnW2MN5s/3vvteq6k9q3mNKTCxpvS1T7S84PQI8MvYsS1i3d6WQCC4eeuL49tbTPm/Vk/g5/f+/LVcnhqfpGnpBWoSCLIhjSG2pBmShNsCKaQ4pxd8USA5I4F3beq2AKFAgKSqECDTRUsBcoXBAlR0N1aAqsJqmcibCG1t7SBp6iTIjHMB5Np6BSqm+DRf1TYyB9TdR///5Zo3onN3lSOHjSgnldu6aviUGuYnl8ehAee4byDstc9xx5yx1x4HnRmkU5aWzjpqnibO9UOlkYYZoTRJaW49u9Zh6pTTrKwt+yKTlfdzA5zTRw+EaCKyo5QliUjVpwE=");
 
 export default Anchor;

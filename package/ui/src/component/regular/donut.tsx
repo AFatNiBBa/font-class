@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `donut` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/donut?s=regular donut}
  * @preview ![donut](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/donut.svg)
  */
-const Donut: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M48 289.9c7.7 5 14.4 11.5 19.5 19.2c9.4 13 22 23.4 36.5 30.2c14.7 6.8 30.8 9.7 46.9 8.4l.6 0 .6 0c17.7-.2 35.3 3.3 51.7 10.1l.1 0c16.4 7 34.1 10.5 51.9 10.3l.3 0s0 0 0 0c17.8 .2 35.5-3.3 51.9-10.3l.1 0s0 0 0 0c16.4-6.8 34-10.2 51.7-10.1l.6 0 .6 0c16.1 1.3 32.2-1.5 46.9-8.3c14.6-6.7 27.1-17.1 36.5-30.1c5.1-7.8 11.8-14.3 19.5-19.3l0 14c0 21.7-14.2 48.5-52.4 72.4C374 399.9 319.1 416 256 416s-118-16.1-155.6-39.6C62.2 352.5 48 325.7 48 304l0-14.1zM256 48C114.6 48 0 119.6 0 208l0 96c0 88.4 114.6 160 256 160s256-71.6 256-160l0-96c0-88.4-114.6-160-256-160zm64 144c0 17.7-28.7 32-64 32s-64-14.3-64-32s28.7-32 64-32s64 14.3 64 32zM283.3 84.7c6.2 6.2 6.2 16.4 0 22.6l-16 16c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l16-16c6.2-6.2 16.4-6.2 22.6 0zm-112 38.6l-32 32c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l32-32c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6zm224 9.4l32 32c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-32-32c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zM64 192l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm331.3 36.7l32 32c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-32-32c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zm-240 16l32 32c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0l-32-32c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0zm176 38.6l-32 32c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l32-32c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
-    </Icon>
-);
+const Donut = createIcon("donut", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABuwAAAKdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhDSDYQsGAAE2AiQDCAQgBYMtBywb3QXIjsK25RMDDlH15SNGSTw83Ps7977x/29vL5q0gadwgGHb1uDAw6g0n5ZA/vP7+2/tD/F8wEhkhtiggeK8UAas9+ePGa+aCuQbDeUtMqmCItonMMBo6gtr0BM60xOwU9QtHdANUcuvx8cDyrigMVTkNd8z4Nz7UfEHVf2QqgIA0QMA2NyLi8Atj3hET9wR8YYwEBCbAGYQCqgmWjxWPBqYIGAGlErBJ3Gc+z+QQQBRI6CmcyU68Ar4BfobSW2lgK2yvKQUQuKCkgKJyWmxpGnFeYMlI3EiWjEgWiqCPTRopBQrtV6cxi9aUZ9VBt2HP8d/jnzVjqSP8USxH/SRQPKXJB7R58RPSZjSJ1oUGzBcVpo1WhEfNFhSTJxWUKAppRllZZpVjDc2M64xZjDmTzAxNUmhrTclCcjOFhcTn1acUhAjbJxVzhnvjW/1JpzwLbrrMuvfdN4Ln2F1f9z2ISW1h8DTAByqA4wfgvO6cJCa8qH1RAp920vZlE1L8XJSb36VU5A5EPP4/LIBAEJPKOtgqdeopAowMq6uoiKpiVmkX7qwwFlbY6LKgOO4BsDwVdQFAYSmMLWHurIggyclxWMwG6o/M/tDutln55i3AwSCUxfP5Sxp93/Ndj7A9/mP//mfkf+fKZ9BU4KgmOPMpScgCQBARiN0EwikF7QJ4h0uEGfG2xDKU2tDvDBOpkalNrOoMsVBuHL3Fn5RiiIMyABKHfZRYVkHKg04QJUVd5HaQPB/2OLPUvxfmSKwjQtYxGwsrZkrm6wqJd+q0J52Y6sNxo2yywQnUKhKpXoF8pXk0GLXiog3qBA4xwrwixgblqwxrtjuxv3DiQrUqlOiSqU7jxt2vsdY4/xgE5j5BHznqfISZKZgflVlQz0A");
 
 export default Donut;

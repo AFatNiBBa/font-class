@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-square-triangle` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-square-triangle?s=solid arrow-up-square-triangle}
  * @preview ![arrow-up-square-triangle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-up-square-triangle.svg)
  */
-const ArrowUpSquareTriangle: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M183.6 42.4C177.5 35.8 169 32 160 32s-17.5 3.8-23.6 10.4l-88 96c-11.9 13-11.1 33.3 2 45.2s33.3 11.1 45.2-2L128 146.3 128 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-301.7 32.4 35.4c11.9 13 32.2 13.9 45.2 2s13.9-32.2 2-45.2l-88-96zM320 80l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-96 0c-26.5 0-48 21.5-48 48zM443.1 303c-5.8-9.4-16.1-15-27.1-15s-21.3 5.7-27.1 15l-80 128c-6.2 9.9-6.5 22.3-.9 32.5s16.4 16.5 28 16.5l160 0c11.6 0 22.3-6.3 28-16.5s5.3-22.6-.9-32.5l-80-128z" />
-    </Icon>
-);
+const ArrowUpSquareTriangle = createIcon("arrow-up-square-triangle", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABeQAAAIwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBcwsGAAE2AiQDCAQgBYMtBz8bAgXIhofn7fo691X1AKyBzDUiIfrZOoigVM76f675/J4fHeA3OrSoXGD54bKeT2CiVV7Aw/SZTsC2N81UkjI6kiQrMx3njiedII+vsvNKpMfSF7hVHjR+0tR5kqoZgKgDgDGL5s1Q8X18H/F5+V3ic9MQEGNAIZAhQwsBhssEWsgVyOWC76Nc9v+BBQFEJXRvCeQoYTk2AnKQZHneuVm96qWa+cLqpWrLHla72mB+3G/4oOGDxo807hUpTjd8UP1a40ciix7BpB5ptHCB8FjMdqger4TFzSMeb/SwY7V4scH9JgseVntRLTXN3BOyW7R9vc7rv7T5YuMX3n/wWK1ajy1a5Wr1GldefaPi0b/0VOvy5Vo13dNfHq1449UrPHd1713qsJo+yr78uvdqvb/+Mltt7HP026fremrWKbd2P13nWXWe3n3LnQ0CwYX5D4+tqj38nyrVE/jxo9/+bz+jtuXvU4P0OqpIIMi6l7tbnkZrq3tqIAAAKQ5qm0brJJDMl6GVNTwUIFQDQlJJNcg0Vwdy1XSDklYGEMIV82Qiryo0sAJAUsMeyAx0AnINvA0lw31cqKRBZBZG2Qf1wYufOCMTZhV9evYuhhbbik4bDZEmhxVivfPB0NEF5tpol53222C9LfZP2F4zygfsMPGETvBFhT566q0wVKGuv/ILsbDXPlt4Vj/NMMX9uLOD5/5dwEoIt6/VSSJSkzV79+461OPA7h6WKvZ4P8vv3LR9AwAA");
 
 export default ArrowUpSquareTriangle;

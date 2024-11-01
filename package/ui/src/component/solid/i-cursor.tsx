@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `i-cursor` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/i-cursor?s=solid i-cursor}
  * @preview ![i-cursor](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/i-cursor.svg)
  */
-const ICursor: typeof Icon = x => (
-    <Icon viewBox="0 0 256 512" {...x}>
-        <path d="M.1 29.3C-1.4 47 11.7 62.4 29.3 63.9l8 .7C70.5 67.3 96 95 96 128.3L96 224l-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0 0 95.7c0 33.3-25.5 61-58.7 63.8l-8 .7C11.7 449.6-1.4 465 .1 482.7s16.9 30.7 34.5 29.2l8-.7c34.1-2.8 64.2-18.9 85.4-42.9c21.2 24 51.2 40 85.4 42.9l8 .7c17.6 1.5 33.1-11.6 34.5-29.2s-11.6-33.1-29.2-34.5l-8-.7C185.5 444.7 160 417 160 383.7l0-95.7 32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-32 0 0-95.7c0-33.3 25.5-61 58.7-63.8l8-.7c17.6-1.5 30.7-16.9 29.2-34.5S239-1.4 221.3 .1l-8 .7C179.2 3.6 149.2 19.7 128 43.7c-21.2-24-51.2-40-85.4-42.9l-8-.7C17-1.4 1.6 11.7 .1 29.3z" />
-    </Icon>
-);
+const ICursor = createIcon("i-cursor", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABgAAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCGAsGAAE2AiQDCAQgBYMtBy8bFwXIHoVxM93ESOWK4e0iHj7mPv/cJIukSpkqQHBVDKjZ1gGAkDu1gP/rd7ntRzT5/aShKeG5cH1DI41aCIkOgavFN//X1AtrOsBvcH4G0XjPzyMBe9G8N4Hx2vZmGWKzw9lEcbpN9tgRhdAREiIkER1PeJx1hCwGpvuhiOSK8wE4VSsa30j7SZSlAKIWAMMnjRvrSXM0R7wvRLy3ICCGg1wgRYqWAgySCrSUyZHJBM1RKNB/YE4AUYyxRNUzpFiHjYAMJCLLllUUVWUTK4rK0/PI4gJiXJenhCiPo7mB3U3WqwhxWRyVG+dzgxYtUbwe+rDDuEA77XzjbtxQl2JREcdoZ3v45pZHxDV9txTuii3P48WgRz0Pud/kxZ34/fmw8IOn6gjY/HS1M3/+lM6Wqz68Vjc7N1up3fZsqaebj1S1PLx/Ua+iol6rfbl8qOUGTxxKnSXOrGYfOt4HEAjO9/xKZtUM+r+0IgFf7/266wW+5XH0SO4ApRIQpJ0KnUyPjQ5UGCIgnsRGbQO+SSCxTAKfWumiAKEcARLFygVItVArQKZcRwGKtNZbgGLlxklFViY0mjFAotIakOpjB8g0uguKDPLaLdYYadDJISN/+TLGaHT0uLx7l275gHyaECWOxDw4MF82221MDe2x0UKrrLTeAvMtsV4xa40NNlhhjEeP9kO57rroJjdAvp1v10+0wFrrLLHKyjLKQPl5q52Nfvv2mE0C6HFdEyVEUrqk8zsU");
 
 export default ICursor;

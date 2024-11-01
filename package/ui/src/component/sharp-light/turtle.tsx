@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turtle` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turtle?s=sharp-light turtle}
  * @preview ![turtle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/turtle.svg)
  */
-const Turtle: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M200 64C124.9 64 64 124.9 64 200l0 40 0 16-32 0 0-16 0-40c0-92.8 75.2-168 168-168s168 75.2 168 168l0 40 0 16-32 0 0-16 0-40c0-75.1-60.9-136-136-136zm200 48l16 0 56 0c57.4 0 104 46.6 104 104l0 56 0 16-16 0-64 0 0 80 0 16-16 0-128 0 0 80 0 16-16 0-96 0-16 0 0-16 0-80-32 0 0 80 0 16-16 0-96 0-16 0 0-16 0-80-48 0L0 384l0-16 0-64 0-16 16 0 384 0 0-160 0-16zM256 448l64 0 0-32 0-32 0-32 144 0 0-80 0-16 16 0 64 0 0-40c0-39.8-32.2-72-72-72l-40 0 0 160 0 16-16 0-96 0-64 0-96 0-64 0-64 0 0 32 64 0 0 32 0 32 0 32 64 0 0-32 0-32 0-32 96 0 0 32 0 32 0 32zM480 192a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const Turtle = createIcon("turtle", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjAAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnSDDQsGAAE2AiQDCAQgBYMtBy0bigURlZp5yH4kZCeZF40Ti0zi2CWyBGKnSd8E//zb/bvPnfvgiTzxBzA/sOq4g3qp+itV8qpALIVZaYX2vwBQt4nBktfK36yG5IWDKtx9/q+pV17x/NuFe66CmrJwlPl8Avd8djSNAjqg2cBOFHdtDjz5VPCQdh/a7sDqvYoIgTlmngN79I/qK73YjcE6AADIBQAA2ubOnMztQIH0PHcBPWciIACNAMBDgAM4QF8EQBMOAvpi8QCLRRAolxP/gUAAoDD2NQOABcLASTjH1V0wWGuH19bHEqGUnZMIxRfeb5KuewjFJUmvW2/Nfdl8YzbC8UTLzTGzE/HEhfxT/dRKfCAkxbSZWJQSqcC8HHNvEChROl6QHRZdSKLEEiEU1dH9uYe6Hex6uPuRHoOybvb7wOdrnvNo2945sDqWh4uHSx4a87NDNUYdPzXm4Tpiq+fsfVTquuNOf3iRqMPF9acN6Ha7te40PLZGmevih6D21J6pvk16PLw37ODnpSsrgzzaw0UPn5A1Ycv6PueCdDropACgl+50H9i2NNP0P5owAHy5+vM3/jwXGN9kgSgGAIFTlCtaZHwAoRYA1I02MyjgMQIM7RaAfmuSwwJAxAEBYAgTRwA49MFFAFjiFCIAQvSnGgEQJs5MHGRjiK4s3oAhyTrgUMMWYOnKORCiiUf1MF3lgKsBbMbfYgGlR1TsUF5S5jV4r0OLCYFa8LjRS07kbZZL+fhiWe/SpvPARm/l0RAuHqK8pMxr8IonXwODNuL7s1V+SqPXPp+3Obw5H5+nAgAVHxoygzKNGdwGAAA=");
 
 export default Turtle;

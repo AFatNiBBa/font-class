@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-dashed` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-dashed?s=light circle-dashed}
  * @preview ![circle-dashed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-dashed.svg)
  */
-const CircleDashed: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M18.8 232c8.2 0 15.1-6.2 16.5-14.3C41 184.4 54.1 153.6 72.8 127c4.7-6.7 4.3-16-1.5-21.8C64.6 98.5 53.5 99 48 106.7c-22.5 31.4-38.2 68-44.6 107.7C1.8 223.8 9.3 232 18.8 232zM127 72.8c26.5-18.7 57.3-31.8 90.6-37.6C225.8 33.9 232 27 232 18.8c0-9.5-8.2-17-17.5-15.4C174.7 9.8 138.1 25.5 106.7 48c-7.7 5.5-8.2 16.6-1.5 23.3c5.8 5.8 15.1 6.3 21.8 1.5zM280 493.2c0 9.5 8.2 17 17.5 15.4c39.7-6.5 76.4-22.1 107.7-44.6c7.7-5.5 8.2-16.6 1.5-23.3c-5.8-5.8-15.1-6.3-21.8-1.5c-26.5 18.7-57.3 31.8-90.6 37.6c-8.1 1.4-14.3 8.2-14.3 16.5zM439.2 385c-4.7 6.7-4.3 16 1.5 21.8c6.7 6.7 17.8 6.2 23.3-1.5c22.5-31.4 38.2-68 44.6-107.7c1.5-9.4-5.9-17.5-15.4-17.5c-8.2 0-15.1 6.2-16.5 14.3c-5.7 33.3-18.8 64.1-37.6 90.6zM105.2 440.7c-6.7 6.7-6.2 17.8 1.5 23.3c31.4 22.5 68 38.2 107.7 44.6c9.4 1.5 17.5-5.9 17.5-15.4c0-8.2-6.2-15.1-14.3-16.5c-33.3-5.7-64.1-18.8-90.6-37.6c-6.7-4.7-16-4.3-21.8 1.5zM48 405.3c5.5 7.7 16.6 8.2 23.3 1.5c5.8-5.8 6.3-15.1 1.5-21.8C54.1 358.4 41 327.6 35.3 294.3C33.9 286.2 27 280 18.8 280c-9.5 0-17 8.2-15.4 17.5C9.8 337.3 25.5 373.9 48 405.3zm358.8-334c6.7-6.7 6.2-17.8-1.5-23.3c-31.4-22.5-68-38.2-107.7-44.6C288.2 1.8 280 9.3 280 18.8c0 8.2 6.2 15.1 14.3 16.5C327.6 41 358.4 54.1 385 72.8c6.7 4.7 16 4.3 21.8-1.5zM439.2 127c18.7 26.5 31.8 57.3 37.6 90.6c1.4 8.1 8.2 14.3 16.5 14.3c9.5 0 17-8.2 15.4-17.5c-6.5-39.7-22.1-76.4-44.6-107.7c-5.5-7.7-16.6-8.2-23.3-1.5c-5.8 5.8-6.3 15.1-1.5 21.8z" />
-    </Icon>
-);
+const CircleDashed = createIcon("circle-dashed", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABjgAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgniCHwsGAAE2AiQDCAQgBYMtBzQbIwXIHoNt6/GYP2bFutVjWRjzuXzx8P1+tHPveytmTZMjXplNWGRo6iGSSKYlb4NknbpQyRt3/t+PzYdKSPCP5JahmXhjJh2LM5GWlzZ16r9mTZ0bE05akl6FQo+tjmXB+qY1BQoy/+dyz882HeA3OrS5WwvXoDG2JxBgmkebAw8s0wSso3kvDkKIF9pwgRq7ESCQb/OJF8GHxn8TFki1AIh+AOD0JbcV3l5wL+J3Myd+OwsExBmAeRgUFEzDgGNwAtPw5oGqCvZg04j/QAUEEK0iND1c0Ym7wDMAKkjttfZE6a6Wnnoxu7rz0mt5Mx5LI+FJmRH9u82hPMKOx3riUA6+xC8nZ7N3RU/wj1Kv+qzUhNaChAw9l91NIeknX5FtNjWWTjSaHoCvx/Oi5qXREYbidzYVUhyr7h1jWJ8YCQORd8AcvBee7d9g8M82QJcbz9eHnEPm78anytkTc30//26mk5vJJpf9wN29nZnApxs72N3hne3pdBnDpX9brDadmj+8Xy1fUPD2Z1b3cjvE/J9il18HAIHgB8Lry/Sx/XY8wb/Nd7/8GZXmexzkDO0SBGW1CUSSosSBAABkPMZLikC6iix6pNsrAUInAqRWnS0UU9hQdVqBFrM07M7QOTjfVjuEYVECqds9KLb0oRp2CS2O+c22Go4CdzzU8I99KRaPmI+hVCpHRrTYUwugxNpdE9rtOD05I8BnIaeupiMro6jTo1usha4qyxpl9kWIgpQcYoRODx8rPhpqaUt23nT+EBN0f5yvt75cgH1YEeOatpRE9vyeUy1pXWkXshk=");
 
 export default CircleDashed;

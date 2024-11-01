@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `smoke` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/smoke?s=sharp-light smoke}
  * @preview ![smoke](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/smoke.svg)
  */
-const Smoke: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 128c0 28.1 12 53.3 31.2 70.8c-11.2 3.2-21.9 7.5-32.1 12.8C43.7 189.2 32 160 32 128C32 57.3 89.3 0 160 0c40.1 0 75.9 18.4 99.3 47.3C277.4 37.5 298.1 32 320 32c44.3 0 83.4 22.5 106.4 56.8c-9.1 5.8-17.5 12.4-25.3 19.8C384.1 81.8 354.1 64 320 64c-20.8 0-40 6.6-55.7 17.8l-13.8 9.9-9-14.4C224.5 50 194.3 32 160 32c-53 0-96 43-96 96zm448 0c-41.3 0-76.6 26.1-90.1 62.8l-9.7 26.3-17.7-21.7C376.8 173.8 350 160 320 160c-38.7 0-72.1 22.9-87.3 56c-9.2-5.4-18.9-9.9-29-13.6C224 158.5 268.4 128 320 128c31.4 0 60.1 11.3 82.3 30c22.4-37.1 63.1-62 109.7-62c70.7 0 128 57.3 128 128c0 42.2-20.4 79.6-51.9 102.9c-5.5-9.2-11.9-17.8-19.2-25.6C592.6 283.9 608 255.7 608 224c0-53-43-96-96-96zM144 256C82.1 256 32 306.1 32 368l0 112 112 0 320 0 80 0 0-80c0-44.2-35.8-80-80-80c-11.7 0-22.7 2.5-32.7 7l-15.5 6.9-6-15.9c-13.7-36.3-48.8-62-89.8-62c-28.9 0-54.8 12.8-72.4 33l-11.4 13.1-12.1-12.4C203.7 268.9 175.4 256 144 256zM0 368c0-79.5 64.5-144 144-144c34.5 0 66.2 12.1 90.9 32.3C257.5 236.2 287.3 224 320 224c49.1 0 91.8 27.7 113.2 68.3c9.8-2.8 20.1-4.3 30.8-4.3c61.9 0 112 50.1 112 112l0 96 0 16-16 0-96 0-320 0L16 512 0 512l0-16L0 368z" />
-    </Icon>
-);
+const Smoke = createIcon("smoke", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABnAAAAKeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziCagsGAAE2AiQDCAQgBYMtBywbZgXIBuLpN23esiStU3N64iLkXPSrdnHqec5DAXyO+1i4NCBjYmjO8wjkPDotHYu8WCs4VKG7szm2Q+SRpLUyaMejHa8r0JIkOTBBLVXXgNn5TeUrUUwAhTYAABALAAAo27h+TU69klci19L2g1yjOiAAUg4AGwEMwABiEQBKYCBALBob0GgEXklaGv4H2iAAIC7KdQoADbiApcBqkLTG6fB0+pzp431Nf93I1/RpvjLrhtAd6daXPln5fMnNvtMzbsy6gNsrTcsSKuHSntyXZUus/7QsIlsiIyWb7Cg0LcOGyEXhq7N7Cu8v6kHO98B2PHFM5JIs0nM0/apsTqE2+xbdsYivv0gWp4WacMu67LPP7kihButLi5ysfL7o0crTs26NWuy7v/4QcQjiEyAi6RzL+Z54rdM1Spf2eao/3sEsUL7O7RonEtPtPOF96ciRsnbfx8zCqTvGcbxOJfSFPp6lhLHrdlzvXocevn/19m2bX7G+p06lr1O+gGk/edx3pKe65eU4Y3qP/vUTUgP70GdOHaRRRyv4wwda4+nTJ+HUzmMc5dev2b1jh8Dk02Va5bIy3rmd+tb69TM1sA0WVh6LMQAggEDhdPdetA4s8d/LVwHw5sjP39DLaafUGOUAXigABIwcaTloocYAAF4AQFMyiHTKBwmgmIumGH4sQiwVHxigcOEDBjFYoPEhO5jEU5DYnK+PgWhvhFBaAij86AsGhRgJmlD2gkkJLqouQsXwTsq3qL9hfCWOVByz8+bKYxezp75OOxwR+8XtbSHLIMplhV060ZteDKAjHejKAIb1o6YxkJ5U0tCKfBGbvOQiDzbFsK+j5XojOtKP/nSlN73SkOLY9koWBunVWWEKBQDke1eCPKLM/j17d+8I");
 
 export default Smoke;

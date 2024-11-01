@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-down-long` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-down-long?s=solid arrow-down-long}
  * @preview ![arrow-down-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/arrow-down-long.svg)
  */
-const ArrowDownLong: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M169.4 502.6c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 402.7 224 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 370.7L86.6 329.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128z" />
-    </Icon>
-);
+const ArrowDownLong = createIcon("arrow-down-long", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABVwAAAHTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBGwsGAAE2AiQDCAQgBYMtBzYboQTIHge5afSO6R+FXURQv/zW83YvhARbqJCzyiEIR53FoXDZiCsshUT/TPqD7pDad3xTN887jwJ8y3JZwzoPZIFEc54n0Hk0lk9LKAuzRLGpeU8M4HWGthXyuJzdUUb6mH7juXto/NXlDklVBiAaATBv/epVvg7EQMSvksQvKxAQ80AhkCFDrwAzZQK9cgVyuWAgSiX2DywIIMoFN0ggR4bxmA7IQRJ5PrymrC5fV1NWvfZtTcTjjvXxPm62v6t+1LomshL1Rop1cepG29oh/Y39//i977dPkz/UUffheh7W1T2UODMu5bT6Bw/qY+m0JjlCzhALLoNA8HLVl7Y3zPxfWZPAny+dny9KX2NH6kelBIJsZGmkLXFDoUAYAWAhxTlDXhRIhkuCu9Z6J0CoRoCkXLUAmR6NAuSqjRCgzCCTBChXbbVM5FVCq601SGqdBJnJroJcq8+gzEzflHKtkX019DOnf9oSFrehRXXFuNFji+nFpKlkPgRSl2cUq6Wh53hoGFy0z3HHnLHXHgedaSGnrNLPOmrxHLzIhwrjjDZWYbpit3N/ep29TjntoOOO2SozFOfLQ52bTx4Gm0mA8de7NRGpYeepU8fPj3qXxFEfFwAAAA==");
 
 export default ArrowDownLong;

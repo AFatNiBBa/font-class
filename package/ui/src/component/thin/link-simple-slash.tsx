@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link-simple-slash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-simple-slash?s=thin link-simple-slash}
  * @preview ![link-simple-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/link-simple-slash.svg)
  */
-const LinkSimpleSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M13 1.7C9.5-1 4.5-.4 1.7 3S-.4 11.5 3 14.3l624 496c3.5 2.7 8.5 2.2 11.2-1.3s2.2-8.5-1.3-11.2L13 1.7zM608 256c0-88.4-71.6-160-160-160l-88 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l88 0c79.5 0 144 64.5 144 144c0 36.3-13.5 69.5-35.7 94.9l12.6 9.9C593.3 332.7 608 296.1 608 256zm-136 8c4.4 0 8-3.6 8-8s-3.6-8-8-8l-45.9 0 20.3 16 25.7 0zM193.7 248L168 248c-4.4 0-8 3.6-8 8s3.6 8 8 8l45.9 0-20.3-16zm-110-86.9l-12.6-9.9C46.7 179.3 32 215.9 32 256c0 88.4 71.6 160 160 160l88 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-88 0c-79.5 0-144-64.5-144-144c0-36.3 13.5-69.5 35.7-94.9z" />
-    </Icon>
-);
+const LinkSimpleSlash = createIcon("link-simple-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABeAAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBdQsGAAE2AiQDCAQgBYMtBzgb/QTIjlQ1fwSVzSqrZ6Q9wSHPMeIDs0feug9A8h7sjXfRAlb5+k+dqhnnoQC+UVDGWt24PFfagytQsV59DbFasFZR7O5sqTk07ZqkpYzkc9rxOUIe/ziqRHouNfBIzmj8qLc7SbIMQHQCwKIdW9b5oC3aIhrNV4mGNQiIxaAQyJChnwBzZQL95ArkckFbNJv4H1gQQJRxNhLI0YLdOAnIQVLK83rvaq1XrdQ+314rVfc83e3J7pfiqZ7P9Lh87vv5Ee9tr8aT3Z7qXotP57076Pm53eP9IVuf6fl0j2oMi9rhaq1qpIZv79G9xzvFdxO5bbWg4z+b/97glxYMbu3U+vOgxvGG+rtblk5beuFXcufm/2JJg8aS2OlguXxwpw/vubZfy/Av7anf09KlxlugT/eOfZhT4bntXwJpUDud8X0gEHyz6/7XDnSc+1u7WgI/vPXr3+XG5qZ0e2pFOwkE2djmWHvTrQG6UVyxElcbDN8kkGxWwp9a97QAoYoASVlVgExfnQTIVY0RoGSAaQKUVW2RibwidLOvgaTuEshMdxPIdfMyKJnr82pZt8hcjHUQ9oeXtFyjy3YVk8ZPLGYXw5bKeQ2dVucUy9bIq+PIKDjouAvOu9IxR51ypcIvW9e4yjnLLWyZHypMMt5EhdmK7e79/u2OuewKp1xwnraZozifH+lqe/oocBMmnKwpSUTq/JLVca+UlMrZQ1ecBA==");
 
 export default LinkSimpleSlash;

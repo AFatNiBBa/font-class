@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `salad` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/salad?s=sharp-solid salad}
  * @preview ![salad](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/salad.svg)
  */
-const Salad: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M416 96c2.6 0 5.2 .1 7.8 .2C406.2 76.5 380.5 64 352 64c-8.7 0-17.2 1.2-25.3 3.4C309.5 27.7 270 0 224 0s-85.5 27.7-102.7 67.4c-8-2.2-16.5-3.4-25.3-3.4C43 64 0 107 0 160s43 96 96 96l73.4 0L84.7 171.3 73.4 160 96 137.4l11.3 11.3L208 249.4 208 112l0-16 32 0 0 16 0 144 52 0c-2.6-10.2-4-21-4-32c0-70.7 57.3-128 128-128zm96 192L0 288l0 24c0 67 39.2 124.9 96 151.8L96 512l320 0 0-48.2c56.8-27 96-84.8 96-151.8l0-24zm0-64c0-53-43-96-96-96s-96 43-96 96c0 11.2 1.9 22 5.5 32l181.1 0c3.5-10 5.5-20.8 5.5-32z" />
-    </Icon>
-);
+const Salad = createIcon("salad", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABdAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCAgsGAAE2AiQDCAQgBYMtBywb/gTIjtMV8cpNCRNBtFYVWd2zB0B9zOiYFMJTP6B6diwsW1SvpxGgvmpNnXqe81AA3yhoY9rSnE+QMcZ5BCK2OEBJh24rWE0rYDW3EVc0vFeHDMEhw9AWqtEN8vgiu6BCepB+xu3+ofGXNi6Q1MkARGMATF65dL5vf4/fI36qTvxkLgJiMigEMmRoL8A4mUB7uQK5XPB7VKvpP7AggKjBG0ggRwXbsQ+QgyTL85EtmtSrNMhX1KvU3Xm9XjniWvOHfcq613q93fpu3c+w3v5J73eG14sV0TL6RotYHlDqhYAd7sarid/MXN6wUUPxov/7o0WDiPhi4IddI572iShHuG/6TIt6cS+6lI3Lfzr/vONnzzbm+dcfNfjklxcvu3Z9+eKXTxqcKcvatcvyzGxLl/ncDu/attVVjRUau2OYCU0qw6a68Ru0lu7dez3IJIO8FnNqPYmS8sy4WpMNW9AECASpOn5Pjcb9T70E/vz8v3/UX1H12ySVqC2BIOtX7WddAokAAKQ4oUuCQLJehu9a310BQl0ESGrUFSDTTmMBcnX1FaCio+EC1KhrqUzkdYTm1k+Q1HcYZEY4CXLNfQoqxvlOrdE8skgj4oR458XO0ND0sWLwgEHFmGLrEzJ4sNIfWxzzvU7kXG8s2uGgA47ZbpvdjinkiPnGcfvNsODpvqgw2ACDFMYo3NHr9ArbHXHUbgcdaEPGKu7LvZywq3tDSog6hCdJRKp8HoHbBgA=");
 
 export default Salad;

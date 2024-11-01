@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `xing` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/xing?s=brands xing}
  * @preview ![xing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/xing.svg)
  */
-const Xing: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M162.7 210c-1.8 3.3-25.2 44.4-70.1 123.5-4.9 8.3-10.8 12.5-17.7 12.5H9.8c-7.7 0-12.1-7.5-8.5-14.4l69-121.3c.2 0 .2-.1 0-.3l-43.9-75.6c-4.3-7.8.3-14.1 8.5-14.1H100c7.3 0 13.3 4.1 18 12.2l44.7 77.5zM382.6 46.1l-144 253v.3L330.2 466c3.9 7.1.2 14.1-8.5 14.1h-65.2c-7.6 0-13.6-4-18-12.2l-92.4-168.5c3.3-5.8 51.5-90.8 144.8-255.2 4.6-8.1 10.4-12.2 17.5-12.2h65.7c8 0 12.3 6.7 8.5 14.1z" />
-    </Icon>
-);
+const Xing = createIcon("xing", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABWwAAAH4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBNgsGAAE2AiQDCAQgBYMtBysbsQTIhocPu74/t6fn1W7PLN27EexIdERlQgpF8kcMpYx+tJo6VTPOQwvkSQIak7Ex54vHtFh2xzzfYAUt9eKdWtsWoYpirZ3dpww62SR95JOsph9WR0hjexxXJLmQfMCx3Kn4SwMHSBQLAKI6AAZNHj/Ok9/j94gP3+4RH4xBQAwGuUABLY0F6Ksg6COkcqRSwe/x7Rv/A3MCiArl8QlIkaIvRgNSkEjStGHDUrFKOqlUzCafbhtxs+PpLIuz9SbHoWwSoZJdZ+LkCYmdUxPjTO19B+tOinNtnk8+Vyrpu7a4Xf32P80/LPrg8j81t1G+uD0b5GmfoVtFtBljzI+DlFa0HfvTlWOf5YtMu27M00HK02fcVLOczbiyPBvsaR8gEMzo9/DL7Gp9/69USsCfj//7VG/89uXb77E/uY1KEhAU2n5ra0bsMaAv2wJxktikBVICia5kRlfLzgoQMgRIVMgEKGikugCpTBsBiprqJkCFzHgFkVYWapvZQaJsLSjobidI1XYHFPX12qlQOwo+JHqA+INLG67RYbvyTu075r3zZaZJbsGn+T75tt5yU+xrhVaLrLbKBgstsNQGha8zzt9opeEWNswP5Tppr6Ncb/lx+Xh4koXWWW+p1VZxkT7y+0ZLm+zRrSA/kL5zHBJJSCTplqWrFgMAAA==");
 
 export default Xing;

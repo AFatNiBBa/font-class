@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `users` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/users?s=thin users}
  * @preview ![users](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/users.svg)
  */
-const Users: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 80a64 64 0 1 1 128 0A64 64 0 1 1 80 80zm144 0A80 80 0 1 0 64 80a80 80 0 1 0 160 0zm96 64a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm0 176a96 96 0 1 0 0-192 96 96 0 1 0 0 192zm-58.7 48l117.3 0C443.5 368 496 420.5 496 485.3c0 5.9-4.8 10.7-10.7 10.7l-330.7 0c-5.9 0-10.7-4.8-10.7-10.7C144 420.5 196.5 368 261.3 368zm0-16C187.7 352 128 411.7 128 485.3c0 14.7 11.9 26.7 26.7 26.7l330.7 0c14.7 0 26.7-11.9 26.7-26.7C512 411.7 452.3 352 378.7 352l-117.3 0zM512 16a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm0 144A80 80 0 1 0 512 0a80 80 0 1 0 0 160zm24 48c48.6 0 88 39.4 88 88c0 4.4 3.6 8 8 8s8-3.6 8-8c0-57.4-46.6-104-104-104l-92 0c1.3 5.2 2.4 10.6 3 16l89 0zm-343 0c.7-5.4 1.7-10.8 3-16l-92 0C46.6 192 0 238.6 0 296c0 4.4 3.6 8 8 8s8-3.6 8-8c0-48.6 39.4-88 88-88l89 0z" />
-    </Icon>
-);
+const Users = createIcon("users", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABswAAAK3AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhBSDGgsGAAE2AiQDCAQgBYMtBywblgXIjsM4RjyL5swi4uFBr//OzWTmAcq3uQAruBNUdOvWHDy3UTwIb3grlaqa/2s+P2s6wG8XJXZo1xtlY5R3C+z5BG++5uIEm00Up25KVeyhSh4RGWV0TsTjKzu+bSGNv+2UJ7k1+Qg31I+Kr7W4lEQuByCqATBtzYpFXvsivoj46P+V+MgCBMR0kAnk6BLtAkyUE2iXypBKBV/E///zf2BGAFEAOHF0inI8gqcAKUiUpmkFQm21ta68vrYsX5GuDo9euuHuAXW/ssPpW/SvOum7xl9jj3Z33Dnh7uKfHtQObEZug7sh/RhwTR8Y97bZcVGr1Tsrvbpn0my4sMXslZYtLCste3vSy92UeiZuaoyn/HPirYkRL2VmL/b90dHkb3bphqf7lX2LkVv/akA9Bjw7pB/cjV4GNoPaUZxqA+P+DrVBb/L6V6OpGC66nENUPLXqbFccftmG7v5AdfVtt492f2TJkdxXP/74Va5Rbyzfc+rUnnLJlimvnV6z5vRrdo+1Cmx8+52Wlnfe3rixVTRF16OncbFqouTG+W4sCaqrj65iVVHzRfNd1IxWrTp6+q8lQwd3dQ0e6kduPHreBVOv5Mq0sHVroezjTx7bqKlo3Zqipo0e++TjMuVe6ZVXTl0HBILuZz09VK6a+CumE/DVC9//pR/x/2vJhckDKJaAIDfw/4E2ljRkdgCZJE7rTl9FIHGPUvjUcjcJEEoRIFFQKkBOm2oBUqUGCJDXaZQABaVWyIm0RKi36QKJcsdAzmjngVS9J0HeRO9mC+ojZ7WazWn/jDlmS2jWumzY4KHZ+OyxaeiGqKTlCdmyu+9pHupHG+12xGEn7bLTPicFedyiwimHzJ4Rs/xQZpjBhsqMl213vjtWi9BxJ9hJ1/dXMUF2Pt7X6fnkfuRLQHa4ikRCJPmPAAAAAA==");
 
 export default Users;

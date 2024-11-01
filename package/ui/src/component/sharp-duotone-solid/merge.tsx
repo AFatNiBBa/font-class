@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `merge` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/merge?s=sharp-duotone-solid merge}
  * @preview ![merge](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/merge.svg)
  */
-const Merge: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 384l0 64 32 0 128 0 15.4 0 9.6-12L303.4 288 288 288l-15.4 0L263 276c-5.3-6.7-10.7-13.3-16-20L144.6 384 32 384 0 384z" />
-        <path d="M160 64l15.4 0L185 76 303.4 224l80.6 0 0-64 32 0 96 96-96 96-32 0 0-64-96 0-15.4 0L263 276 144.6 128 32 128 0 128 0 64l32 0 128 0z" />
-    </Icon>
-);
+const Merge = createIcon("merge", true, "data:font/woff2;base64,d09GMgABAAAAAAIoAAoAAAAABYgAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBOQsIAAE2AiQDCgQgBYMtB0Yb0QTIjsO44TuyxVL+I4hfe519d6H7ZbhElYkdoUL0sa2qqmNVXZasqhPME9c8f2t6wALQDk4toP91nE9gWGHznU+kwCc08InYxs2hmuBq6xra22+Qx8fsgirSg4Rr7o3jl84ukNRlAKIVACavXDrfq2/xLcWHphfEB/MQEFNAKZAhQzcBxskEusmVyOWCb6mpiW/B/vlKAohqiDtnoBo5JmA2IAdJiDyvb1+pap6v4GeLtZWi0j6WRyWC0JfHsigi4qJDrMBstyBUKh1jJbXvdojM+OmGxlaNf+p3eHa6pbr8yPFbFpuktHEjV8pK39QHHi6VSdgrr7XYucow9B3bTzsMBIJPV/sc2Nhy3P/aSgI/Xv77mX5FSWpErQSCrF9TP+sSSAQAIMUJDQkIZOol8FGbuStAKBAgqVYIkOmqlQC5Ql8BqvQwXIBqhaUykdcJ7ayviKSZw0RmhJNErp3nRJVxXifV2kX2FvHvAP8RlzKjCUxfVg4eMKgcU47WFcKLwer5seVip9cJ3tcbXrXDQQccs902ux1r4EfMz4/bb8YUNt0HlQYbYJDSGOXm1l1lRSM54qjdw9L2RcYqj/d7OTE9ujfcTQIMOf8rMyJF1vznl0b/p1Fv2ZCeOgAA");
 
 export default Merge;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hourglass-end` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass-end?s=sharp-thin hourglass-end}
  * @preview ![hourglass-end](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/hourglass-end.svg)
  */
-const HourglassEnd: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M0 0L8 0 376 0l8 0 0 16-8 0-24 0 0 128 0 4-3.3 2.4L205.5 256l130.3 96 .2 0 0 .2 12.7 9.4L352 364l0 4 0 128 24 0 8 0 0 16-8 0L8 512l-8 0 0-16 8 0 24 0 0-128 0-4 3.3-2.4L48 352.2l0-.2 .2 0 130.3-96L35.3 150.4 32 148l0-4L32 16 8 16 0 16 0 0zM53.5 368L48 372l0 124 288 0 0-124-5.5-4-277 0zm255.3-16L192 265.9 75.2 352l233.6 0zM48 16l0 124L192 246.1 336 140l0-124L48 16z" />
-    </Icon>
-);
+const HourglassEnd = createIcon("hourglass-end", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABbQAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXSCEgsGAAE2AiQDCAQgBYMtBzQbFgXIjsO44TuyxVKG+BLx8P9r6X0zP7RQTIEnVQCEmkhYYFcVVzImp5JkbbeZVWvfz/81+d49PzrAb3RoUZhN0XpUq3o+gQm0zwecNrCZTsBm7fS+Z1D6TZLEJRm2L8PkCiku26OO7EUG9/KHxm893CGT5wCiAwBmrl+9VGtbtEX8qI34YTECYiYoBHLk6C3AFLlAb0mBJAnaolYL/4EFAUQ9vZsMJNTjAC4AEsiklGZWG8rlumpaV64r5eVSVZRKQjTHmlgbERFdBFItl0WpEoxPuG4e12R9rIuu9c5KpdjY3K1ZVCOia1TWr1u7bk2U9wlrY31EVPq/7PDyb4t9tDY23uigsfsNSYu7B93cDr5pkdzQvRFMXIAnv4Fb2907yGljj6/m/VcUrpity//2Z9ZK6FdafoX0ewdFHN0OAsHbx9O7bm8/5V9jOQM/P/+38iuqtcaNLDTKQJAPqQ2xJW5A3BAAgCzO6R83EMjskPC7VjwVIJQQIFOvJECulw4CJCWDBajT11gB6pWslovUJDTb2kCm4iTIjXMVJM0+gTpTfInrNUducaS9kP+9uHk9PHdXMXLYiGJSsWxUyojwtDm52OYHnIsTA+mifY475oy99jjoTIeesjQ766h5CJnriwojDTNCYZLiuH/k1nF8ymkH58z5NpMV9+0BzuH5A0nKKOYotUxGZNX3RDywYOjeY3sAAAA=");
 
 export default HourglassEnd;

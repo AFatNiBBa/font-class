@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `piano` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/piano?s=duotone piano}
  * @preview ![piano](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/piano.svg)
  */
-const Piano: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 352l0 96c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-96-64 0 0 96L64 448l0-96L0 352z" />
-        <path d="M0 192L0 352l96 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 32 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 32 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 64 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 32 0 0 48c0 8.8 7.2 16 16 16s16-7.2 16-16l0-48 96 0 0-24.4c0-24.2-13.7-46.4-35.4-57.2l-58.4-29.2c-21-10.5-34.2-31.9-34.2-55.4C384 83.2 300.8 0 198.3 0L192 0C86 0 0 86 0 192z" />
-    </Icon>
-);
+const Piano = createIcon("piano", true, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABfgAAAH9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCEAsIAAE2AiQDCgQgBYMtB0YbKAXIjtIcNPJNpZgaQf1ab8/bvatPQd4wowPyUUSOXaKi4pD0VWwqCvQls+37xannOQ8F8EEkc5wHJJtDc55HIOfpsG7b1CtxseSlGlh1m7rHI/TriBChiOh4wo6zM+TxNbukRLqR4LL9D2D81s4lktoMQDQFwNTVyxd6WYlKivfV58R7CxAQ00AhkCFDRwEmyAQ6yhXI5YJKqlapRLVaEECU2bcpA2Xk2I/jgBwkIfJ8Xrv6UqN8VX2pLhPqQ1xpda1NhL4s4u64efGi889lX1fVxfcln1eEcKPvo56N4kH/Jx0i6kI0BNZ2e9z08Z+udr3nPt61xRCNK5XGQxSomxIf2KKtcvOnIo9FI6YvirKlsXJlLLUF3rpmze6fc7/667aYYotz5HkQCP418NLmJhP+19Qn8OvFf9HvqPoySY9RI4EgG1AdYEMCiQAApDilWwICmXkSnGpwVYBQR4ekrA4yHTSFXJ3+UNLZyNNldZbLRF4rtLSRIGlwFDKjnIZcS8+gZIJXRlnLyDKOzBfyvxc3yyMzp4qhg4YU44phoFFJhJfh+GJZ63NKCn15p10OO+SEnXbY64TDjllon3TQrBk60wcVhhpkiMI4xXZ83LzKTscct9dhh3TMeMV5vY9T8/q+PE8CDLurExmRImt0ZO/WQ4cHPlyxiWMeKAA=");
 
 export default Piano;

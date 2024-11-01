@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `building-ngo` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/building-ngo?s=duotone building-ngo}
  * @preview ![building-ngo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/building-ngo.svg)
  */
-const BuildingNgo: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M0 48L0 464c0 26.5 21.5 48 48 48l96 0 0-80c0-26.5 21.5-48 48-48s48 21.5 48 48l0 80 96 0c26.5 0 48-21.5 48-48l0-416c0-26.5-21.5-48-48-48L48 0C21.5 0 0 21.5 0 48zM32 80c0-7.1 4.6-13.3 11.4-15.3s14 .6 17.9 6.4c11.6 17.3 23.1 34.7 34.7 52L96 80c0-8.8 7.2-16 16-16s16 7.2 16 16l0 96c0 7.1-4.6 13.3-11.4 15.3s-14-.6-17.9-6.4c-11.6-17.3-23.1-34.7-34.7-52L64 176c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96zM64 240c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM152 80c0-8.8 7.2-16 16-16c16 0 32 0 48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16c-10.7 0-21.3 0-32 0l0 64c5.3 0 10.7 0 16 0l0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 24c0 13.3-10.7 24-24 24c-10.7 0-21.3 0-32 0c-13.3 0-24-10.7-24-24l0-88zm8 160c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm96-128c0-26.5 21.5-48 48-48s48 21.5 48 48l0 32c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-32zm0 128c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm32-128l0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-32c0-8.8-7.2-16-16-16s-16 7.2-16 16z" />
-        <path d="M61.3 71.1c-3.9-5.9-11.2-8.5-17.9-6.4S32 72.9 32 80l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-43.2 34.7 52c3.9 5.9 11.2 8.5 17.9 6.4s11.4-8.3 11.4-15.3l0-96c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 43.2-34.7-52zM152 80l0 88c0 13.3 10.7 24 24 24l32 0c13.3 0 24-10.7 24-24l0-24c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 16-16 0 0-64 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zM304 96c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16zm-48 16l0 32c0 26.5 21.5 48 48 48s48-21.5 48-48l0-32c0-26.5-21.5-48-48-48s-48 21.5-48 48z" />
-    </Icon>
-);
+const BuildingNgo = createIcon("building-ngo", true, "data:font/woff2;base64,d09GMgABAAAAAANAAAoAAAAACAwAAAL0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhiiFGgsIAAE2AiQDCgQgBYMtB1QbwAbIHoexe2TPgfIxkC/bePhvrd77unqpZz9yfWBUwBxkRTQTZJuoKGLhaE5sdHSb7GgNCwrWXY9+gBAnknoZ8j4//TFfF0AJWNbnu+lQ3jICu3Q0oN0Ao7xFC+iDNhF/C/QMcYH7MTYNU09QxgPpCemgeE1/x3PW7vjPCE9Q6EksbPTHvwFaf2DPNl+3o13E7/WXxO+2IiA2gCyQkDBagFWSwGiljFIpaBd1TTvqOhNAdMIDJtCJvsR0YjGgBIVSd1mOzn2GTsv9p/Qf2r9vo6NPub/RUR1p2ssmXsktRqyPV9hiRBPFXRv2Ca9NbsQnXXBWEUEJWmyiCuG+ASKhqYngxYtapgx5ZX7ClrzydTTXh/ZySUUqKoKNiHijUrk/yoxVyOwO8KTuDdk5vcWWwHLY43DHNL2MJscbHbJP24gqVRUUckD5VOBBAVDlk55TC8Ifpn51FKd83Ab43mDECkAHAnt5fIwmQ0bB4F/BH074PH3+/X7+d6vuufj+qU7q2273nWkiYjzcfRCZQ3Zlu4YMLxb11986WQJ40byAphXbfbO+bWWdsSP98ee8eX/+kTLe6Pl3wbYdJ+0sAbz6JEnybkGSszV1dd7Bt++V+2ZONukkqhz3TqjO5uFFogM5US/YGxF1A7FOKelvuocbsqs4d9eQg11DljzxcPqDLU7Kj7Qxjns4A2T8w/0eEAjK3X8/cKLfqv+7GwX496uO7q6/do/o50K3AgRpVj3L0XhEIBEH8EkVcZcJ8YhkBJJvdcO79moKECoEKHSqBEhG6S9AqTJTgA5jLRagU2WPJMoeYbBjGbbQ6xY2WeJBbGmwL7AdVvkp3GlwpNeGe9Nz/7Qm2kLhmxfl+XPm5RW5tiThvQlsfXRl7qyadpfcMp096rwbrrvDOWddcgfB3GZb7E7XbGmi3/yx2XxzzJOtkAdXL4r288bb3C6zqwXDZ1kpT2+b5q7m7tNZbQFMF9iRJKKINPjDEs6WdTdmv4HtQ0sEHxsAAA==");
 
 export default BuildingNgo;

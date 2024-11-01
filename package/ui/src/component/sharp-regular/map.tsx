@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `map` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/map?s=sharp-regular map}
  * @preview ![map](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/map.svg)
  */
-const Map: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M168 373.4l-120 40 0-282.8 120-40 0 282.8zm192 48l-144-48 0-282.8 144 48 0 282.8zm48 0l0-282.8 120-40 0 282.8-120 40zM0 480l48-16 144-48 192 64 192-64 0-333.4L576 32 528 48 384 96 192 32 0 96 0 429.4 0 480z" />
-    </Icon>
-);
+const Map = createIcon("map", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXAAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTiBQAsGAAE2AiQDCAQgBYMtByobugTILgpsY9rgRTggckgMrW1WfyuQd0IExX6ve/cgQKAQFNvEsU2EjFKJIqHSVkgeX2P+1FZ2qp///3O7b3+YVJYQkzzaEuLSaMTG6dA0RFqgmU/uzDbEi067fK8Nmbic/jh/esBlT/AoY9ta7YnZnOcJlNDiTSWShVmimLU5bnkFUQ4UVOyReiIath/WoDOU8YtnFfme8FQ+NP6acCVVBQCiHwCc3RUkPFrRivg2E79dgIA4A8wjFCgwjcAhJjCNNw9KpaAVTSP/gfMQQNTgKxKUqHEILgGUIJUEVA2mrkrHl5unrlxHMotKZOmWGUApqWEc081UvE/tpSqBKa0FEcXjOm7r6SQsfuHLGR/nd4k2CZQJv3yCNgkkCFsCuRNF815ryO7G/STvlMT8HZ8HBIJ/b813+g7/t3dxgD9f0R9uWnmaX9AuQVCsNWuaeQoIlYByxpnV+KJA2sPju3Z7ESB0IkCqdQpQmGJEoNRpFYHKrAQCtU5XmChVCMNaC0vdHrHCgQtWGnbDKoeepdpwFI4kuIHwGZea17C4zbwdDJuz5su2KfoGl9Zz5tv60jmMeXAUYxtrRyNDM0eF7knVk5W8hYh+yCwiKMwsy/y4976/bGTvYGZjnTfJMb8fdTvbsz2wOKTdkUvpf8LB6mELAAA=");
 
 export default Map;

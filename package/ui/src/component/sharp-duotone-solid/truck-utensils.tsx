@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-utensils` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-utensils?s=sharp-duotone-solid truck-utensils}
  * @preview ![truck-utensils](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/truck-utensils.svg)
  */
-const TruckUtensils: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M96 432a80 80 0 1 0 160 0A80 80 0 1 0 96 432zm288 0a80 80 0 1 0 160 0 80 80 0 1 0 -160 0z" />
-        <path d="M0 0L416 0l0 96 64 0 13.3 0 9.4 9.4 96 96 9.4 9.4 0 13.3 0 32 0 32 0 64 32 0 0 64-32 0-32 0-1.1 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96l-66.3 0c-7.8-54.3-54.4-96-110.9-96s-103.1 41.7-110.9 96L0 416 0 0zM416 256l128 0 0-18.7L466.7 160 416 160l0 96zM81.2 151.7c-.8 4.8-1.2 9.6-1.2 14.5c0 27.9 21 50.9 48 54.2l0 51.6 0 16 32 0 0-16 0-51.6c27-3.2 48-26.3 48-54.2c0-4.9-.4-9.7-1.2-14.5L192 64l-16 0-5.3 94.9-10.7 0L152 64l-16 0-8 94.9-10.7 0L112 64 96 64 81.2 151.7zM320 112l0-48-12 0s-52 20.2-52 90.9l0 69 32 0 0 80 0 16 32 0 0-16 0-80 0-96 0-16z" />
-    </Icon>
-);
+const TruckUtensils = createIcon("truck-utensils", true, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABpgAAAJ9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgzCDFAsIAAE2AiQDCgQgBYMtB1gbvgXIngd2rGyoslm47KbgefLv7dyZ+XoIOYFZreAOVpdkW7mDipKlq+2U/+AB9ZDdIcPZ6v7nmn5nTQf4+QgOJRqXwZHe9XwCA6zEpr09n1iUKW5x200QlVAGocEOGFWk9xAAdVG9BY57/wMo30hlDygiGgAAiQEAAHqmThzN80+y6u3/2yBvGQUIgPQCYBFAAxrIQABoRyNABgYLGAwCnxTwSbAgACBBPExz4yAQBoaAewCAAUBhUMbUuOWZvu8GfDPFDTja93zEdRNlsiQK/C1XEMe5Vnqz8XbxcIYj5S56vuu4IlPEERacYUfi2YLFYpAylHxediaNG5P8/Nw1VWDphxLOpFzIQNwblOCDqVdbHrQ9yr7W+rD5fobfGJp7M+bmD94uecvzG3iHeXT7F5g7l4P4WCzdOpiz/NeZ2NeW91Im9HDj+v8dwVXjGTWKOuaNWRoMJX1411tPDJYY6ul5/yEpFIyaSgxmDi6hORgJIYYfdP4sqg5me8i9F95SA1jG7dsyjnnEMDfaW7p581IvrbONywFAAIGxf0rb52r/HXYVAF8e/to9n/931A51EwijABDQ5f/LmaV2ABC2AEBYyRZyZ+5qHgJo9mIIfB7ndkcFB2pQBHFAk04MGBzKIEAWDeLK2RPRiIkgJDAbg8JjPWga2QqGBG5BgHZehIIkiIZZGeLkL8aMwTY6MMjWVFbbVjuZUypgKNreNrvaVLxF1pTglSxhLWvYxGIWsZxNLWYDo6ObWc3gHD3AD7HUUEk1llbs7uJ9YwoNbWAjy8e1/f20Yc/3FbNlvnkJtioCzlomaDSIEp30VtorNv8N4lu1sQL+G6UMac86AA==");
 
 export default TruckUtensils;

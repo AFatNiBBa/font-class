@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `reflect-horizontal` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/reflect-horizontal?s=duotone reflect-horizontal}
  * @preview ![reflect-horizontal](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/reflect-horizontal.svg)
  */
-const ReflectHorizontal: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 128L0 384c0 12.9 7.8 24.6 19.8 29.6c4 1.6 8.1 2.4 12.2 2.4c8.3 0 16.5-3.3 22.6-9.4l128-128c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9S0 115.1 0 128zM329.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l128 128c6.1 6.1 14.3 9.4 22.6 9.4c4.1 0 8.3-.8 12.2-2.4c12-5 19.8-16.6 19.8-29.6l0-256c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-128 128z" />
-        <path d="M256 0c13.3 0 24 10.7 24 24l0 464c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-464c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const ReflectHorizontal = createIcon("reflect-horizontal", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABcwAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBPwsIAAE2AiQDCgQgBYMtB2Ab8QTIhoev/fo8t/vNLAC9ZUYFgGEbtokKOyKhfkURy62Z/3M93/PRAL/R0Dq0eA2Y+fwETiSxsMBL6EzPwG5vkUX2iNknSU239Pg18u8CRfyQr6qQXkpf4QH9D2D8qoOrJA0ygGgOgOlrVy72SV3Upfiq9i7xlUUIiBmgFMjI6CzAJFmgs0KJQiGoS7UadVGrlQQQVfTkGVRRwXQsBBQgCakomrRt26jSpFjTqNJw42sdUrzY6/WOOV7pm1NOL/V+rtGddmvjhbjUdk083+vV9tufirjYZnVUr3mjU46X+7zeelWPt5u//Xv3r/Z8pfbx8jbfabPcH2Eain7Lq01evHDBrSZNbtnYsz79inn7Mh10XmxSXY7YjNrnmXkcBIIVI89O2Nps0v/1GyXw43t//iv8jmqfJOlt1JdAkAfVBtmUQCIAACnO6JH4CYFskIQ/tbHnBQgNESCpaihA1klzAQoNDRSgoqvRAlQ1tFIWRQOhtc0JJI0dB9kY50ChtXdAxSSfulWtIysSoQbEPy52joRmryuHDxlWTii7iUjqBuaWE8tltd8ZbPSHg/Y46ohTdttlv1MCOWFxcNphc0bwbF9UGm6IYUoTlNv5JbtGuCectL9N768yUXne7OfMuL8/GAmjjrAhy0SK3PElaQy+aOJgtezrXKdvIQ==");
 
 export default ReflectHorizontal;

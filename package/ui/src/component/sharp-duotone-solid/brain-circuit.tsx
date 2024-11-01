@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `brain-circuit` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/brain-circuit?s=sharp-duotone-solid brain-circuit}
  * @preview ![brain-circuit](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/brain-circuit.svg)
  */
-const BrainCircuit: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 304c0 34.2 21.4 63.4 51.6 74.8C49.3 385.4 48 392.6 48 400c0 35.3 28.7 64 64 64c5.6 0 11.1-.7 16.3-2.1c2.9 28.2 26.8 50.1 55.7 50.1l56 0 0-56 0-184-64 0 0 50.7c18.6 6.6 32 24.4 32 45.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-66.7 0-16 16 0 80 0 0-80-34.7 0c-6.6 18.6-24.4 32-45.3 32c-26.5 0-48-21.5-48-48s21.5-48 48-48c20.9 0 38.7 13.4 45.3 32l34.7 0 0-72 0-56L184 0c-28.9 0-52.7 21.9-55.7 49.9C100.6 56.9 80 82.1 80 112c0 6 .8 11.9 2.4 17.4C53.6 135.7 32 161.3 32 192c0 15 5.1 28.8 13.8 39.7C18.7 244.5 0 272.1 0 304zM272 0l0 56 0 72 80 0 16 0 0 16 0 34.7c18.6 6.6 32 24.4 32 45.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-18.7-64 0 0 192 34.7 0c6.6-18.6 24.4-32 45.3-32c26.5 0 48 21.5 48 48s-21.5 48-48 48c-20.9 0-38.7-13.4-45.3-32L272 384l0 72 0 56 56 0c28.9 0 52.7-21.9 55.7-50.1c5.2 1.4 10.7 2.1 16.3 2.1c35.3 0 64-28.7 64-64c0-7.4-1.3-14.6-3.6-21.2C490.6 367.4 512 338.2 512 304c0-31.9-18.7-59.5-45.8-72.3C474.9 220.8 480 207 480 192c0-30.7-21.6-56.3-50.4-62.6c1.6-5.5 2.4-11.4 2.4-17.4c0-29.9-20.6-55.1-48.3-62.1C380.6 21.9 356.9 0 328 0L272 0z" />
-        <path d="M240 456l0-184-64 0 0 50.7c18.6 6.6 32 24.4 32 45.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-66.7 0-16 16 0 80 0 0-80-34.7 0c-6.6 18.6-24.4 32-45.3 32c-26.5 0-48-21.5-48-48s21.5-48 48-48c20.9 0 38.7 13.4 45.3 32l34.7 0 0-72 32 0 0 72 80 0 16 0 0 16 0 34.7c18.6 6.6 32 24.4 32 45.3c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3l0-18.7-64 0 0 192 34.7 0c6.6-18.6 24.4-32 45.3-32c26.5 0 48 21.5 48 48s-21.5 48-48 48c-20.9 0-38.7-13.4-45.3-32L272 384l0 72-32 0zM160 128a16 16 0 1 0 0 32 16 16 0 1 0 0-32zM144 368a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm192 0a16 16 0 1 0 32 0 16 16 0 1 0 -32 0zm0-144a16 16 0 1 0 32 0 16 16 0 1 0 -32 0z" />
-    </Icon>
-);
+const BrainCircuit = createIcon("brain-circuit", true, "data:font/woff2;base64,d09GMgABAAAAAAMoAAoAAAAACDQAAALbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhkyFOQsIAAE2AiQDCgQgBYMtB1Yb4QbIHgd2Y9dMKHWUD4s7gsrm+z27J/npZIYzAnwiiAAxBOQQDdknCF26370dHyUxhRKnNxqQrDe4T/KXHS47k8Fv2tOEoYFz8tYgA6xf6H6UTi2OpGMmnc4VgBWUdJvAgU73pDTSH7kL8j0YhkV7Byji23y1Gunu9DluzP4HMH7Vx9UkjQwgOgNg8c6t6729O3an+Lz1PPG5dQiIJaASyMjoL8A8WaC/QoVCIdidWi12R6tVEUDUZexlUEeDmE8sBxQgqUlFcUijYOegA5q1DsWOZq3cHqIM8fiAxDSnymgHIqLZDJzprmkguJqeF5gYAzY7XlWZcMe9M4dwmL4BppUH3tadRU3Ud4JMhykG6y/vA3H3cIK7R+8VLQvvW6mIC4ngyGu6k3dOcHmP7i3Yp2bHCVcVwYOu7aXJ+OTYm0FX1nJF37JbQDeSXVR6OeQZOn/w58d+7s92LxdHLTLV953zFz9MmvTDF7nz90t11nnTJkO9EUCEvTTeGGpWqayyqTMZytu2m0Xe9oI2rtzdsePuGu/0p2TWvR2gN71Abur7s+/42Vh26fJQPWP43+9mmeVlpxLxDu25//fhy7/6ulej1/av29BeX69+9t3enSbOKpJ1XbmStWe0PdTFls3Zx+/7rm/vd59drczx9fZerbV8tfx0TwOB4OG/zrvwsE7z/m/DBPa++ucv6W9ovZ2kZ9AmgSCPa41zcAKJUFypFOcakjgdgex5NcWptneHAKFEgKSuFCDrp7MAhdJYAWoGmi5AXWmrLIqG0N0hM5m0dwaZzXAJWejuObJmno+cdd0jP0WSZ0DyE5tyxRpaPqh6EyZVcypi2Ch9MERx+dyK23jPBWmjzZWOdZpTne0YRzvB2SviTOs95zjFChrv8vNWJptgksoclXRsOGKHY5zpLCfAy+WrmavSbx3lXHru0aYlKfhOMSHLRIrc4zOiHf8q0o6/I7P0wsjvPgAAAA==");
 
 export default BrainCircuit;

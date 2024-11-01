@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `democrat` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/democrat?s=sharp-solid democrat}
  * @preview ![democrat](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/democrat.svg)
  */
-const Democrat: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M64 32C64 12.1 80 0 80 0l48 45.7L176 0s16 12.1 16 32c0 26.5-21.9 42-29.5 46.6L248 160l232 0 64 0 14.3 0 9.5 10.6 72 80-47.6 42.8-49.4-54.9L544 240l0 80-352 0L144 208 72 256 0 184 87.6 74.6C78.1 67.4 64 53.2 64 32zM448 352l96 0 0 64 0 96-96 0 0-96-160 0 0 96-96 0 0-96 0-64 96 0 160 0zM269.3 234.7L256.1 208 243 234.7l-30.2 3.9 22.1 20.4L229.4 288l26.8-14.1L282.9 288l-5.5-29.1 22.1-20.4-30.2-3.9zM368.1 208L355 234.7l-30.2 3.9 22.1 20.4L341.4 288l26.8-14.1L394.9 288l-5.5-29.1 22.1-20.4-30.2-3.9L368.1 208zm125.1 26.7L480.1 208 467 234.7l-30.2 3.9 22.1 20.4L453.4 288l26.8-14.1L506.9 288l-5.5-29.1 22.1-20.4-30.2-3.9z" />
-    </Icon>
-);
+const Democrat = createIcon("democrat", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABiAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCXwsGAAE2AiQDCAQgBYMtBy8bXgXIjtRG+UVWEs/D23117qv6reqha0AvIMWDaLONJnO2DOVQqNr3+b+c3nh+dICfD/z00MYagSzwOb0skDCwXjY2FeC2MAssMc3c1VrmIbqfJJS15PHc46dsoc7f1UM6lNfLATxb3jQ/GeMhit4KQAYDYPOpJx5t1+f5PNn/P7LfkQhkM2gFFSqMF7BOJRiv1qJWC5/n///lP7AlQLrgYgXU6MazeBtQg6JT14tHjcCLNJ0B9SlNp+/MV0clrzbrszFPjnh5xGvDXxp+cppmRE7OupyQEZH+nJKTckpOzSsjXxl5cdPXiPQl6eOfSppTxo4ZOzrTMjujMzPTMzZzM+PU0eNGzyMz9mTTdUzZNnjbL5MPXHLAxncHXspl+de/ctmlA6vt20486TjfH/OGQ4/1pw6Oc56F1zp0oUMPdepVbr79ikH3bjwPySbnBe29Cm2Kht60D0v40InOstNOZ7nQVxeMXcn2TbTvrrG284EgXPDZyMXnDlr3a09TwJcf/IVP9/+ucl/Zhh4FhGre//OcVe4DIQbIldxiivJBQfGoDrxqv1cERB8Cii59AirjDBZQ6zNXQMdEywV06XOiSupeMdzZHRT9rgeVFe4GteHeBx3r7M52GZ7KL1mvYp+FSYeM6MHT2sULFrVr2m1R41yNTsNrW7M165bYNJsWusS1rnGTi13kcjcN+A2OLtzsaodo2MG+qLXYAou01miPK6/zT3GxG9zocte6Jo+zVns/M8steufZ5BagXGJGUUjp+dcIAAA=");
 
 export default Democrat;

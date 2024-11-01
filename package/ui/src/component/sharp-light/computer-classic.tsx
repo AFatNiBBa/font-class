@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `computer-classic` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-classic?s=sharp-light computer-classic}
  * @preview ![computer-classic](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/computer-classic.svg)
  */
-const ComputerClassic: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 32l0 368L32 400 32 32l384 0zM32 0L0 0 0 32 0 400l0 32 32 0 0 48 0 32 32 0 320 0 32 0 0-32 0-48 32 0 0-32 0-368 0-32L416 0 32 0zM64 432l320 0 0 48L64 480l0-48zM352 96l0 128L96 224 96 96l256 0zM96 64L64 64l0 32 0 128 0 32 32 0 256 0 32 0 0-32 0-128 0-32-32 0L96 64zM224 320l0 32 16 0 128 0 16 0 0-32-16 0-128 0-16 0zM96 360a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const ComputerClassic = createIcon("computer-classic", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdQAAAIRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCCDQsGAAE2AiQDCAQgBYMtBzcbFAXIHoVxs/Oki+Yoi8JzZ1k8fL/W57mv+9PAIvYyowPyuwoIkriocUEjfsWmIqOnWJg7pPY93vxfUy+eHxXIt0vhQ4laJ0hZVD6fwIBnZ1uLlw1sphOw+e3kO08MoisZJOmbDOMZJhfI43HQQHqY4k740PhXd7dJ8gxAtAPAvC0bVqm1RmvE33WJv61AQMwHhUCGDL0EmCkT6CVXIJcLWqNeN/+BBQFEI36gBHK04AjOAXKQNOV5S9+Wlo4tLeWGar653FA6krJUiSyq+0vlkkghyoGoakRAYc9gUTpYrVRFJeKIoKVldHPHWlVEaaNQ9oeW9r7v+Wjwm24PB/X/1O7Tfzzc8+dnWXDdWdev9S1qnFUojE3uvVZrY3u+zwVvrLnG9l1zvYDr1Pfh6yb81+rY1+5uoV3bIes6d14X6UDcN+n+td572s78v7mcwD+/NvUrqteilj6hWQJBNrLOzqhB1AQAIMVl/aOGQLJHE37XinsChBICJI1KAmR6aidArmSEAA36mCRAo5INMpG3CJ3sKiCpOAcyk10BuU5+AQ1m+i3TqFNk4qYJi/bby764RhftKsaNHltML4YdWZcgxW3OKLb9Qy/biWFk6bAzTrvokIOOuVjh563KX3LK4hm2yBcVxhltrMJ0xXH/1r4ZmfMuONY3z7eZobifHuryfP4wCiUsOl5LkojUTnLdo544AA==");
 
 export default ComputerClassic;

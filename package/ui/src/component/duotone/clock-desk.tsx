@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `clock-desk` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/clock-desk?s=duotone clock-desk}
  * @preview ![clock-desk](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/clock-desk.svg)
  */
-const ClockDesk: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M448 224A224 224 0 1 1 0 224a224 224 0 1 1 448 0zM200 120l0 104c0 6.4 2.5 12.5 7 17l48 48c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-41-41 0-94.1c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
-        <path d="M248 120c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 104c0 6.4 2.5 12.5 7 17l48 48c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-41-41 0-94.1zM448 224c0 123.7-100.3 224-224 224S0 347.7 0 224L0 464c0 26.5 21.5 48 48 48l352 0c26.5 0 48-21.5 48-48l0-240z" />
-    </Icon>
-);
+const ClockDesk = createIcon("clock-desk", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABiAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCCgsIAAE2AiQDCgQgBYMtB1AbLAXIFkpL8KD31LwkCzhrs5NcscKZ9bkVy+8T9/P8W9MHfCDyMyy2gRRQ9/kEdl6tu/lAUrBMcdbO3vAlkU0S4pNuWPQyTOrQuUAW99M9ipBcTD7F8fA/gPGzGvaQKJECiPIA6D914mhv/hA/JPFp4TnxqVEIiAEgF0iRorYAvaQCtWVyZDLBD0mhwA9RKOQEEEUFMmUXNecsxVpABhJelmUV69aqXKpImWyKvUHJmZea3KkudlTpHXebXq7ZJ2LyjXYRj4dFfDjo/REfd3jaQFyscrZxmbhf7XytWCjEPix5iN++3fHZyE9KHR7+Ufsn9acICCOgr9XgUflHv9b/dMmn/h9aZfz4KsuUXFJQpsyXXx4w54OlZb/i7VbU+eGHOq3e/qrsH9LPvmk3T7tvPkv/8Mb3pd/m6z6je/Yc3efrt0tXJRz8v3RZLMUYwNcDgeCD01/emFuu17/FSyXgpxe//51up/BmvJk8QnEJCNJWhVZmxZsQbwoAQBJbNBAMjFQ7SZWYKe2cWEuUpCBRVEmkaimPTEktUURdnQW/e6JUZCWEymYTEqWtR6qLrchU9gxF9PJBsqjKkaqbpCzSZy99yMTgSXn7Nu3yHvm0JMsaJLjRnvmy32yLluZ00hJrrbHJYosstyl+g9GZzVYbInGD/VCuvTbayfWQb1fv9SklN9ho+VjdH6enHJ9oZovcvTlNJwF0OKislEgirfg2jdZv3W6tuK2VW/WKAgA=");
 
 export default ClockDesk;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `plane` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/plane?s=sharp-solid plane}
  * @preview ![plane](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/plane.svg)
  */
-const Plane: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L256 512l-96 0 54.9-192L112 320 64 384 0 384 32 256 0 128l64 0 48 64 102.9 0L160 0l96 0L365.7 192l116.6 0z" />
-    </Icon>
-);
+const Plane = createIcon("plane", false, "data:font/woff2;base64,d09GMgABAAAAAAIsAAoAAAAABUQAAAHiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBHQsGAAE2AiQDCAQgBYMtBywbmQTIHgVuywMv59QVck2GuhSKHnVG8P1+vz333a/SwOOHpMlD1ulevVSahSapQmhilRKw79d0X4htFCEoUikAurooW7RA6lxxfOVlfKaq+iMObgehDBPP5M3/NfXi+dEBfroiOLRoKk2MnHY/n8BE58lRz2fD2URxu7NZUSztlZZmaTkuHJ8d5HgTTiAmPQheATf1Q+MPehNIagWA6AIAtqbfA8cTT/TCHiFe0AEBsQVgGqFAgXEEVgkFxolMgywLvomx+B9ohACijF+eQEaBBbAKIIMkch4pxa28pxTXDy5dQU/6e+ejtU47pIh91DeROCJlbJES2j3b7J3ueWb6WX81ZdwP8OP2THnu1F6xKF5sYIoMmyuLmA1xFdp7wClAIDi9X++CNvtfbSTw+/Y3C6fg/1NRcAeoSiAo5pnXmAIAYhIQpriGGb4KAsmIAL9r0y0CoY4ASVldgMIYHQJZ3RwCJZNiCJTVbROKXBOG5jpIms5AYcUFyIbuQcmq96hsGOGzEQ5d+LWl1iVa22QM+YPGtHHa0sSXwJXVjHHZcJ6nERdsxboD+06tWbXlVODHeumZPXULq/khoxC/IKM0o7v7qI4wOnZiSxf8kHUyjPsdp3N7ugtsAWZdUJUkIpWuOA==");
 
 export default Plane;

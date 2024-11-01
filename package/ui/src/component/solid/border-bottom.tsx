@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-bottom` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-bottom?s=solid border-bottom}
  * @preview ![border-bottom](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/border-bottom.svg)
  */
-const BorderBottom: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M448 448c0 17.7-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32zm-64-96a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM64 352A32 32 0 1 1 0 352a32 32 0 1 1 64 0zm128 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM448 160a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM0 160a32 32 0 1 1 64 0A32 32 0 1 1 0 160zm256 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm128 96a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM64 256A32 32 0 1 1 0 256a32 32 0 1 1 64 0zm128 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM448 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM0 64a32 32 0 1 1 64 0A32 32 0 1 1 0 64zm256 0a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zm32 192a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM352 64a32 32 0 1 1 -64 0 32 32 0 1 1 64 0zM96 64a32 32 0 1 1 64 0A32 32 0 1 1 96 64zm64 192a32 32 0 1 1 -64 0 32 32 0 1 1 64 0z" />
-    </Icon>
-);
+const BorderBottom = createIcon("border-bottom", false, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAACBwAAAH2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhlyFZwsGAAE2AiQDCAQgBYMtBzQb6wbIHoex2+RKNEMR5e0/IijWyp7dfcbQVhQQk3Bv48KOjfiKTUVGXzLXvlcI/v9c8/nZeXsF6L338VCiVqXzBh9V63DPx+crqiCfTWSoB8qzzYaPrkcxhIKxQGQzkbHH02efbpDF2/SaIpLXyW88LB8af7W5RqIsBRC1AJi8cul8XzujM+JXIeKXuQiIySAXSJGiqwDjpAJdZXJkMkFnFAr4D8wJIIoxmjiWoYFYSKxGhyNRl2UtDVSpKKrKVtynl1ddaox4Vl4Zd5pfxOWWlxVVcbfpuRUPHfGywhyasJGqdPmwAVQAK4FKoCp6y5e1fw6w/JSeHbUd/9jB1+pb3Kq+pJqw4bbSxI09F+41YFIBLi0ofNkGfCVA1C6uG9QjNGiiHoc3PwOBYGTRqSkba8b9L61IwJ/3r28XOuNr0oFSCQjSfoV+1sVXgDaAehIn9DSSIVaaqQ6LKr0QmqGck0kUK2dSXdQymXJ9mSLdDbedm5dKRVYmNFpPTKLSYSY1wnkm0+gdU2Scb7VijZHmlpsZ7q9t8RkSmb4uHzxgUD4mH7Y0L13sY3ps7s73OrF39aaDdjjogGO222a3YwI7Yn7zuP1mWPrp380NNsAguTHy8EA6vkLUjzhqd9+PLzNWPr/cywl7cG8qJdhwiBCJhEiqProB");
 
 export default BorderBottom;

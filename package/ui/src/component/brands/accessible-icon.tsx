@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `accessible-icon` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/accessible-icon?s=brands accessible-icon}
  * @preview ![accessible-icon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/accessible-icon.svg)
  */
-const AccessibleIcon: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M423.9 255.8L411 413.1c-3.3 40.7-63.9 35.1-60.6-4.9l10-122.5-41.1 2.3c10.1 20.7 15.8 43.9 15.8 68.5 0 41.2-16.1 78.7-42.3 106.5l-39.3-39.3c57.9-63.7 13.1-167.2-74-167.2-25.9 0-49.5 9.9-67.2 26L73 243.2c22-20.7 50.1-35.1 81.4-40.2l75.3-85.7-42.6-24.8-51.6 46c-30 26.8-70.6-18.5-40.5-45.4l68-60.7c9.8-8.8 24.1-10.2 35.5-3.6 0 0 139.3 80.9 139.5 81.1 16.2 10.1 20.7 36 6.1 52.6L285.7 229l106.1-5.9c18.5-1.1 33.6 14.4 32.1 32.7zm-64.9-154c28.1 0 50.9-22.8 50.9-50.9C409.9 22.8 387.1 0 359 0c-28.1 0-50.9 22.8-50.9 50.9 0 28.1 22.8 50.9 50.9 50.9zM179.6 456.5c-80.6 0-127.4-90.6-82.7-156.1l-39.7-39.7C36.4 287 24 320.3 24 356.4c0 130.7 150.7 201.4 251.4 122.5l-39.7-39.7c-16 10.9-35.3 17.3-56.1 17.3z" />
-    </Icon>
-);
+const AccessibleIcon = createIcon("accessible-icon", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABiQAAAJsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCLAsGAAE2AiQDCAQgBYMtBzYbMgXIjsQ4RvKL2JQlgijv6asnyVtAWZvf5hXgUah3+fm/nN5YdrRAvtGhrGFLz8fEw2uO5wkcBtbLJ0dZ28IsUWx3bs92iLZLEsqSHN84PjvI46o4X0G6Ir2N89KHxk+aOZmkyABEXQCMXTx/puc/j88j3v7/EeJt0xEQ40ApkCFDSwFGyARaypXI5YLP4///6T+wJICokDtNIEeBQzgFkIMky/NxDZrVKGrli2oU1dcvWLzg8oYXN740FseAuML1I0bFfa2v7XbnoDO7jIqnBi+OYTEjLJGhJuFtHS8Z+oRSjS5xGi5Yts7KlUW3NYm4rMWV01Knmxte3PSKnu+45NFuZ7izdcS1vUfF3eU7I5+Z+MrsUXF79XZ31r3zl7Zvb3rbbc/VvFov0P6br997r2G1I5zgv061zzzk+U6N7rrq+c5PbNbmu+kL3aanv7/5dtboT8aPULNr3QYJTmn7WO/W9wwda2uh9ulX1BpzxZxP+KQoPvlkTlHpqg+uO+E2Lh/P/LmH/F6JcaeffsqlgzY7vg0QCD7e/d/VdUb8WrVGAl8+6W84ren/T8Yd6U5UlUCQ9fi/hxXxvEFp0ihA4hSHtMNvEkh2yci71nSpAKE6AiQV1QXItFBXgFx13QUotDZQgIrq5stEXk1oaGUFSU17QWaQY0CuoYdAYYTX4oqGkbmf6jzq5y9rUotObCr79upTDiuntaJ5lByWh5fLTpdDPNQVt9pkt10O2GiDrQ40zD4zs4N2mmTRE/1Qqa9e+igNU253HjcvstE++2212664ynDl+aCLQ/bkrugnItjPmiQRqc4LsXteagAA");
 
 export default AccessibleIcon;

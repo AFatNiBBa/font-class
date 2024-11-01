@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bolt` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bolt?s=sharp-thin bolt}
  * @preview ![bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/bolt.svg)
  */
-const Bolt: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M291.4 203.7l52.9-178L352 0 330.5 16.1 32 240l0 48 112.7 3.9 16.5 .6-4.7 15.8-52.9 178L96 512l21.5-16.1L416 272l0-48-112.7-3.9-16.5-.6 4.7-15.8zM400 239.5l0 24.5L125.1 470.2 176.6 297l5.9-19.8-20.7-.7L48 272.5 48 248 322.9 41.9 271.4 215l-5.9 19.8 20.7 .7L400 239.5z" />
-    </Icon>
-);
+const Bolt = createIcon("bolt", false, "data:font/woff2;base64,d09GMgABAAAAAAI4AAoAAAAABWwAAAHrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTSBRwsGAAE2AiQDCAQgBYMtBysbwgTIHoPjbkzqf6jndfJ6PhQMkxVRtffXs3c/JKB8LI9Ck4X/hREohULjks0WYTEiWSTln8GPe+++NegNkNpCFvKq429zSkJeqTL/cfPPO28DPpIUx8LOAxkTaM7zBBLbmJcHGmZfFP/ubAVF1j6JtdqSvL4dnxN6DgyQQ91WcIMvzR83W1CkDQBkCwBwfllfCed3vpPH4RLyqRwEyDmAfQQNNLCNgCNSBNtkBOhkCN8ZhvQfKCAAGYNuLUAHHVyANYAOKJIu83XTyvWypvKEpr+5odmDAewhuKadNjbQlcHsJ9lEDV0aUU+a6UENm0j2q9uBbPQ7M3nzPZTff8I7Lq6iWtgXYsw0fMoiZES6W6jLpPrK35WOLM+If0I9u9kGNyuRL+YyICBw/Xhz3W3M+FNpJQB+Pz5e+nNicOaugCkJINAO/iN0xEkQOUUAAJUl+BkfIihpJOhwaRsBoQETioIGGg8m6DTCYcRbIrt5UE+KXQ2y6QQgoTMLUkk2QcbmHOQy3OoKtkh9ifcE/iuXUsSRwikRGxUj0oQaGIJ7sHWYLrbVkKVcCIVVDJk2ZcGgAaMWGD2n0lo0qchCC/2QECtKDCGNOI6X800GzZk3atpUG5NO3NdCLNn1oSA+kPnQC0USfCXrm55YAAAAAA==");
 
 export default Bolt;

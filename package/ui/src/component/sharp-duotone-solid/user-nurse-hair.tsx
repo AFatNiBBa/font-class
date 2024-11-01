@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `user-nurse-hair` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/user-nurse-hair?s=sharp-duotone-solid user-nurse-hair}
  * @preview ![user-nurse-hair](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/user-nurse-hair.svg)
  */
-const UserNurseHair: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M97 176l127 0 64-32 32 16 32 0c0 70.7-57.3 128-128 128c-65.3 0-119.1-48.9-127-112z" />
-        <path d="M224 176l64-32 32 16 32 0 0-112L224 0 96 48l0 128 128 0zM208 64l0-24 32 0 0 24 24 0 0 32-24 0 0 24-32 0 0-24-24 0 0-32 24 0zm16 360L126.1 320 64 320 0 512l448 0L384 320l-62.1 0L224 424z" />
-    </Icon>
-);
+const UserNurseHair = createIcon("user-nurse-hair", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABdQAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBagsIAAE2AiQDCgQgBYMtB1obFgXIhofv13zP3bfJ/CZl2DKjA/J15OpIguKosvCsWFXv1Knnb5kUwOdchIO0l21Ou4HmPK9AgWvFMYGWV6haQ+uwbWQtzB6PGMsT5HE/3VAhu5t9wk33P4DxSxc3yDRLAKI1AGZvXLtc40t8yeJT+ZT4ZBkCYg4oBBISugswTRLoLlcglwu+ZGXJlyjLggCiKiCJVUXvWou9gBxkksjzNl1ata1XWuQb6pXa1qWLlvaPekRsiHUh6huoBEENREN984b1G2rHWotLXNO0tV6rL417+92b9mLemynPevZ51PrRn96fDnzyuVUZmhVOuTySq1cIo9XJzp07Fzp38lGrg7th0wwzX2tId4ZJblery+HRpVKhMm7uqtYjRp4EAsHjH72672w17X9TPQPfnv372dyvbEQje4QmGQjSsHKYbdEARg/gR2VxQZ9oYLdAMlkSPrW5WwKEGgJkqmoCJN20FiBXM1SAip7GC1BVs1YSeTOhve0DzDR3GiYTXIS59p7AimneFlXtIyUvMXGIP3dpC6Zg/qZi9IhRxZRit6WTUgyvV6cWl71BF/jIYLjTASedcM5++xx2bkKdsbxy3nELjsj5vqgw2gijFKYoHndfahsmxRlnHd5Wnq8zVfF9MsiF4+mDYZgJrGNsSRKRReqUJ/PhJ86fifrwOmYNz6oTu2wp+RIAAA==");
 
 export default UserNurseHair;

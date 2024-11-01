@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `qrcode` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/qrcode?s=regular qrcode}
  * @preview ![qrcode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/qrcode.svg)
  */
-const Qrcode: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M144 80l0 96-96 0 0-96 96 0zM48 32C21.5 32 0 53.5 0 80l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48L48 32zm96 304l0 96-96 0 0-96 96 0zM48 288c-26.5 0-48 21.5-48 48l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-96 0zM304 80l96 0 0 96-96 0 0-96zm-48 0l0 96c0 26.5 21.5 48 48 48l96 0c26.5 0 48-21.5 48-48l0-96c0-26.5-21.5-48-48-48l-96 0c-26.5 0-48 21.5-48 48zM72 120l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16zM88 360c-8.8 0-16 7.2-16 16l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0zM328 120l0 16c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-16c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16zM256 304l0 160c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16s7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-96c0-8.8-7.2-16-16-16s-16 7.2-16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM368 448a16 16 0 1 0 0 32 16 16 0 1 0 0-32zm64 0a16 16 0 1 0 0 32 16 16 0 1 0 0-32z" />
-    </Icon>
-);
+const Qrcode = createIcon("qrcode", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABxQAAAJJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFiEBQsGAAE2AiQDCAQgBYMtBy0bAgbIjsM4RjyyK1dR8fCPztf7JNknXw6DQkQTMG3ZsgPRSryF57Ts0xWndnUyQz77PJfje+d3dICL/FD+jdUeIGPpGJOjgAIcVL4poSzMIk6EsnAbegOfY/JoiCMkzpDFpUiJ5EICx6o3jT+1cZREKQUQjQEwecmC+d5XoxrxpfaE+GIuAmIyKARSpGgvwDipQHuZAplMUI1aDf+BBQFEGT87ARka4nf8BZalJOpnWV3b/Ads2rhpr7q6SqlBtrhSylcIeURUFt9uHnG6tbjQ4kz3Stxrda5dxMWWZ3vky/aLllTyimCbc4Ew4w4gWCicabHrXKuIsy3zON18kVwU89FLyKbzqNE1EAB8K2+MVwAAcFXa/V0eNn74d+evmzm2Zy23xEfXDBz0C9/StdJvvwxaa2IA690eoGpjAJr3jCHyrGdjXtGw2li1YWNNuNG/g+qv/vdfOjLz2XWOjCiISTCANWlwrh1ChYVvzzEo0NvngUCw7O25DmsajfuvXiUBf7z89//ocbVqvE8eop4EBGm/Wj8r4z1gReDpJA7rQnxQIPFdffxV6zsrQMgRIFGWC5Bqp7EAmVxfAUo6Gi5AWW6BVGR1QnOrBjZR3z42NcIRNtPcI7ZknA+psuaROnXVoap/mlkzpuT0bcXgAYOKMcVuQ6e5XjlfHFuc9vY6zAZ6+ydstsduB22y0bYGE2a/+dlDdplB0dN9UWGwAQYpjFHcbr+0Fk9S+x2wbdu4v85YxfvJXg7T43v7gQQXHeJAIiGS8r79HwAA");
 
 export default Qrcode;

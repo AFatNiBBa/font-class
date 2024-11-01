@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ant` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ant?s=sharp-duotone-solid ant}
  * @preview ![ant](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/ant.svg)
  */
-const Ant: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M46.7 512l2.1-3.7L128.9 368l47.1 0c2.8 0 5.6-.1 8.4-.3L101.9 512l-55.3 0zm80 0l2.2-3.8L212.4 362c10.2-3.5 19.7-8.4 28.4-14.6c4.3-3.1 8.4-6.4 12.2-10.1c1.9-1.8 3.8-3.7 5.6-5.6c.9-1 1.8-2 2.6-3s1.7-2 2.5-3.1c3.3 7.7 7.5 14.8 12.6 21.3L181.9 512l-55.3 0zm79.8 0l2.2-3.9 78.2-136.9 .3-.4 4.7-7.9c12.5 10.1 27.6 17 44.1 19.8l-7.5 12.6L261.7 512l-55.3 0zM390.2 376.1c15.1-6.6 28.2-16.9 38.1-29.8L473 391l3.6 3.6 1.8 4.8L521.1 512l-51.3 0-34.4-90.7-45.2-45.2zm44.1-38.7c4.3-7.2 7.7-15 10.1-23.2c1.2-4.1 2.1-8.4 2.7-12.7c.3-2.2 .5-4.4 .7-6.6c.1-1.1 .1-2.2 .2-3.3s.1-2.2 .1-3.4l5.9 4.3 112 80 6.5 4.7 2.4 7.7 40 127.2-50.3 0-33-105.1-97.2-69.4z" />
-        <path d="M512 0L498.4 0l-7 11.7L458.6 66.4C415.9 76.1 384 114.3 384 160c0 14.8 3.3 28.8 9.3 41.3c-12.5-6-26.5-9.3-41.3-9.3c-27 0-51.4 11.1-68.8 29.1C268 167.6 218.9 128 160.7 128C72 128 0 200 0 288.7L0 368l176 0c35.5 0 67.2-16.5 87.7-42.3C278.3 360 312.4 384 352 384c53 0 96-43 96-96c0-14.8-3.3-28.8-9.3-41.3c12.5 6 26.5 9.3 41.3 9.3l128 0 0-64c0-59.2-40.1-108.9-94.6-123.6L525.6 48 584 48l24 0 0-48L584 0 512 0zm0 136a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
-    </Icon>
-);
+const Ant = createIcon("ant", true, "data:font/woff2;base64,d09GMgABAAAAAAM0AAoAAAAABrQAAALqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDLgsIAAE2AiQDCgQgBYMtB0IbwgXIrgd4Q1q8D2jRWlo1hadoIbFE1DgOOyGm/CnBP+nv27lJ3p/9eeuSdUFVO1GvVCsqKrxk+h16hooaHqBj77v7kQur8OimstlmyaNqHMhAB1xEm86/Uw6rBUQhB3ag+xE+eHP3dkCi84ESKPNnGEgiiQUcBw65pR5GXKAa2bsqk5eZG1wFmpAHSROe/7Qsf9zP829NH/AZfaTsRYNEYUSdT2CgG1UCjSa285nOwDY4b2TS5dAU0p/AxXp8lBTMm3nggvsfQP2pcRQjmQAAQJUAAABGbM+awqcPj/pZGv1YBQJoGoBAwAILSgnAYJZAKScAxxF6BXqJZggASuNQ6+0JkARv4TMA4AAYRpR0g2RaQcwMcZTm5saRX+djnws74IeGJ6UHix55ePX9gR/7/nKzgQr6MmHtw/hufl5xqBhs0JLut73qWyL5sJ/9sOZmzaPiO/UjqrKCeSHWmXiVj3ngRkFkXeha3liRVAAf1uaqVzDvcd0Q5eGKOfKaq6HzWvuA7GTj0pa5VVfmsz8td6WVhxdt4h8s9Uf5Z0P+xecr8WY0/PkTMo039jNPt23l+7Ohue8gk1JfLvUMV3dQuHC9leczfNhfh7XT7nVwyRkXDGy2n5n56v9zobIQABMPlzwY/ZgpNzBO28UmMPKM/h8n8v7oYTUd6Va152fS5gljQUGYCLNs22C1AvXnuoQDK2YBQEBoeO+6vcwP/oQNAL/7v9Lv6P+hmWcghQEg2NY/i+NBUBTXIQAAAGDCXqriQdBOwFojgk+lui4AEI8GjAQPVolMcLxmiJTrw248YRZLySSSawkEI9UOsPraB06u9xAZ7EsyITfYG1i4/YTfx9SxXWTMqjC1dYSBYbahiPckpxcHhc1uuZcPNMKdrLXNVrutsdoGuzv0TlMye2wxdoka44uCTm06BAOFw+2H6lyc3GmXDdPy8WUGCdcnGuxdHt8I/UZg7HLCslCUjVds3d36GWhpjfy0Aw==");
 
 export default Ant;

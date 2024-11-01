@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-caret-right` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-caret-right?s=light circle-caret-right}
  * @preview ![circle-caret-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-caret-right.svg)
  */
-const CircleCaretRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M480 256A224 224 0 1 1 32 256a224 224 0 1 1 448 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm352 0c0-9.6-4-18.7-11-25.2L238.2 135.3c-5.1-4.7-11.8-7.3-18.7-7.3c-15.2 0-27.5 12.3-27.5 27.5l0 201c0 15.2 12.3 27.5 27.5 27.5c6.9 0 13.6-2.6 18.7-7.3L341 281.2c7-6.5 11-15.6 11-25.2zm-32.7-1.7c.5 .4 .7 1.1 .7 1.7s-.3 1.3-.7 1.7L224 346.2l0-180.3 95.3 88.4z" />
-    </Icon>
-);
+const CircleCaretRight = createIcon("circle-caret-right", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeQAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBfAsGAAE2AiQDCAQgBYMtBzkbBQXIhqDe5lvP00rlv5KR18wcAUV8gBlF/tEBc2pIjyLHmjr1POehAL5R0PbQgCzAvc4jEODserxCEappBaws3Z0tRWjscWgtZUmOb+W4uCGL92OwMun59APulEfF3zq6RpKVAEQLAMxYt2qJT+7H/Ygf6m8SP1iEgJgJCoESLHcRYLKSkDdkCmQywf2o1/E3sCCAqKC/KIEMFWzDIUAGkizLOndun1fLTbO11XK+64XhEa/M/ya/vvC7ka/1fHnU64u+r95Y8O2IV3vU/pwR8emSH6s3lv086/N1f838bOlP+fXFP0z/ZHXTy+3WxjP59TZPEZfaPl290X5dPBtjn3apzeqIWNOzsUXjvz1+2PuDex/XPuO3qUsmTVoy9bfParXP+PV9cxro+Pqns2Z9+nrHBnNc2L/a3vzu3m3O5rVz52rfqjY1P1uX7jYPEbau80Z6HwSCPgc+Orat+eRHTaoJPHzv/0fit6j+SZIa0UQCQWlwfbDNCSQCAJDirJ4JAsk6GXpqzTMChBwBkopcgJLOWgiQyQ0SoKybMQJU5FYpiaxBaGMLg6TmBCgZ6zzItPE6KJvsa6uiTZTMjDAS4pEXO1dCc+aKEUOHFxOLaaiTloPl8aRiWe1/NpQGwEt7HXPUaXvsdsBpgZy0xD3jiLkaPMcHFUYYarjCRMV28ni+1h4nnXLAMUdxyiTFebO/s3rzADASQh3JkyQitfqNww0xYuH0RQUAAA==");
 
 export default CircleCaretRight;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-xmark` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-xmark?s=solid folder-xmark}
  * @preview ![folder-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/folder-xmark.svg)
  */
-const FolderXmark: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M448 480L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l128 0c20.1 0 39.1 9.5 51.2 25.6l19.2 25.6c6 8.1 15.5 12.8 25.6 12.8l160 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64zM175 207c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
-    </Icon>
-);
+const FolderXmark = createIcon("folder-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABagAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBSwsGAAE2AiQDCAQgBYMtBzMbzgTILgt4Q/qoGyJYUBmyNJ1iaAXCjo+deDoRz3/s97+1z5Vv2gwRSWIWCZmUSNrIJJqFSilvqCb5/v/r+ntnZqXQ3pm0ANJu27oJQoNKED4Uf3SDdXIHvD5uyyCVBDMLqUrmWsJEicErM+gKwZ+45vlX0QMW+aNVLnUga4zI8wkMMFrXNqHZwGY6AZt5y5mWZNk3mVGSHr/2+HWFNg9NOup1Ac/ah+YrmVMmGgDIPABw9vH9m15HGSVfw+SzBAI5C7ARokGDVQhOoAWrGBuBViuMMgz8H7gRBEgPihevpSevA3cAaEGplmE3iToJE0nnClPTM+LL3bdGZ73nLkS52KXC51Pl2I2oLHZee/6VfHgiLLqIAJ6MaG1+PB3RpXvxVJazt7xdMBvGmv1mQSE8Q4h1h/IL2Mwf4AE5lP//4QCdmUFPQ/s6gCBsf9fvn8yd+D8+RQF8+fTlZ2QYlXqLcQVCs3fYK1qgCACg0scWBOU8ir7rtBcCYhIBpTcpoLFCDkFr0h4IOutsEPQm3UdLK4BYFhtcmfaUaxw34FrL7rnOCW/x3nKaaFJjQf3MZV0i4OKijemNxE2mNV0LELnOesh2SD/3qHBSXkNdV05WSdewbeFUT01oxQR9EWGiZ0S4kePm/nBETltHSUNd5vEg92NK/fVwFaIUlTysuBQpcf4hh/cdeQ==");
 
 export default FolderXmark;

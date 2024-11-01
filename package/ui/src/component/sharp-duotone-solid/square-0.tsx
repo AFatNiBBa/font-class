@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-0` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-0?s=sharp-duotone-solid square-0}
  * @preview ![square-0](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/square-0.svg)
  */
-const Square_0: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 32L0 480l448 0 0-448L0 32zM128 224c0-53 43-96 96-96s96 43 96 96l0 64c0 53-43 96-96 96s-96-43-96-96l0-64zm48 0l0 64c0 26.5 21.5 48 48 48s48-21.5 48-48l0-64c0-26.5-21.5-48-48-48s-48 21.5-48 48z" />
-        <path d="M128 224c0-53 43-96 96-96s96 43 96 96l0 64c0 53-43 96-96 96s-96-43-96-96l0-64zm96-48c-26.5 0-48 21.5-48 48l0 64c0 26.5 21.5 48 48 48s48-21.5 48-48l0-64c0-26.5-21.5-48-48-48z" />
-    </Icon>
-);
+const Square_0 = createIcon("square-0", true, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABigAAAIIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCEAsIAAE2AiQDCgQgBYMtB0wbLgXIhof/36/Xfe59fwJAL8CoEgVMDsgDwURiy+MKuHxZsqqe+b/c83t+dIDf6NDGojlAFvheehRQAtunlUhCEaYZWG8TkciOQHxFKrZ0fHacXaCI5/mcBtLN9C3O0/8Axl+6OEfSJAOI1gCYvXzxIrXf4rcU39bfEN9aiICYA0qBjIzuAkyTBborlCgUgt9Svc5vUa+XBBAV9PoMKmiEXTgIKECS5KLo2KlJx47NGloUy+hrN11+f2jEq4lvB7/sIe4MejHu3ZBqz1j+pH3Elc7iZoer/Z93ut4t4lbHawNyyqlF5Gi+1LChmbD80JP2Vzr3qbau/tP7223fOvlr4yrVU6eq1cazKIkn1o8c9RPf5Vnydz+NAgoMD2rMissnPz/iR83i8DopzwOBYMGPPzRd32ra/42bJfDHR//9iT8k9d+ilqpoLIEgD6sPsyZqEDUBAEhxTJ+oOYVANl7G79rcNQFCUwRIKpoKkHXTWoBCU0MFaNDTeAEqmlosi6KJ0N5aBUlzB0E2wXFQaO81aDDNF25F+8geR/gL8d+LXVBC87eVo0eMKqeUw5CQToTl8dRyWxh0LJUGw1nb7LfPEVttsdORAjlkUXDUXgtm8HwfVBpthFFKU5Tm5JZdFtxDDtvZp+1rpirvO4McmzcPBjlh1DF2ZJlIkVu/Wmf4qOGuy7Wt6DcKAAA=");
 
 export default Square_0;

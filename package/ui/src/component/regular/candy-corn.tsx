@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `candy-corn` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/candy-corn?s=regular candy-corn}
  * @preview ![candy-corn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/candy-corn.svg)
  */
-const CandyCorn: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M612.6 18.1C570.4 4.2 524.1 0 480 0c-44 0-90 4.4-132.2 17.9C331.4 23.4 320 38.8 320 56c0 20.1 7 52 15.6 84c9.1 33.8 21.4 73 34.7 110.4c13.2 37.2 27.9 73.6 41.6 101.3c13.4 27 32.9 64.3 68.1 64.3s54.6-37.3 68.1-64.3c13.8-27.7 28.4-64.1 41.6-101.3C603 213 615.3 173.8 624.4 140C633 108 640 76.1 640 56c0-17.2-11-32.5-27.4-37.9zM480 280c14.2 0 32.1 2.4 45.4 4.6c-6.9 17-13.8 32.6-20.3 45.7c-7 14-12.8 24.8-19.3 32.3c-2.9 3.4-4.9 4.8-5.7 5.2l-.1 .1-.1-.1c-.8-.5-2.8-1.8-5.7-5.2c-6.5-7.5-12.3-18.3-19.3-32.3c-6.5-13.1-13.4-28.7-20.3-45.7c13.3-2.2 31.2-4.6 45.4-4.6zM583.2 107.4C556.2 102.6 512.4 96 480 96s-76.2 6.6-103.2 11.4c-4.7-19.2-7.7-35-8.5-45.5C402.6 51.7 441 48 480 48c39.2 0 77.7 3.6 111.7 13.8c-.9 10.6-3.9 26.4-8.5 45.6zM191.7 122.3c-39.6 20.1-75.4 49.9-106.6 81C54 234.5 24.5 270.1 4.3 309.5c-7.7 15.4-4.9 34.4 7.3 46.6c14.2 14.2 41.8 31.8 70.4 48.3c30.3 17.5 66.8 36.5 102.6 53.6c35.7 16.9 71.8 32.4 101 42.2c28.6 9.6 68.7 22.2 93.6-2.7s12.2-65 2.7-93.6c-9.8-29.3-25.2-65.4-42.2-101c-17-35.9-36.1-72.3-53.6-102.6c-16.5-28.7-34.2-56.2-48.3-70.4c-12.2-12.2-30.8-15.2-46.2-7.5zm91.4 279c10-10 24.4-21 35.4-28.8c7.2 16.9 13.3 32.8 18 46.7c5 14.8 8.5 26.6 9.2 36.5c.3 4.5-.1 6.9-.3 7.8l0 .1-.1 0c-.9 .3-3.3 .7-7.8 .3c-9.9-.7-21.7-4.3-36.5-9.2c-13.9-4.7-29.7-10.8-46.7-18c7.8-10.9 18.8-25.3 28.8-35.4zM234 206.3c-22.5 15.8-58.1 42-81 64.9s-49.2 58.5-64.9 81c-16.9-10.3-30.1-19.3-38.2-26.2c17.1-31.4 41.6-61.2 69.2-88.8c27.7-27.7 57.5-52.4 88.8-69.2c6.8 8.1 15.9 21.4 26.2 38.3z" />
-    </Icon>
-);
+const CandyCorn = createIcon("candy-corn", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABpAAAAK1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CCbQsGAAE2AiQDCAQgBYMtBzEbbgXIBp7/7893nxt8QO/LKI2kIoddnWpm53+u+fzSjg7wGx1axSILZNTBE9jzak8cDmRCA/WxbHDeqEeywqE8/Qr08kdWYgBlUo+BFe6j5A0+zAWFQQcAgDgDAADFHVrruf5cnos8spwBeUQtIABSDICGADp4wR8BIA8dQv4K9GiAHj0Cz8Visf+BGggAiJHwOgWAHrAG1gO7AAA9AAqjXh/g4RbM03YGB317HrYd87RNvHW395bgHckn4k0+pvB9fpv8jqWeCt0VZI7ouCd8o/dG97XuIiLrPdf7mn33RXbYGyGy13Zx2O4ws+e9cnB+rXfPx3mXizZGrwvfE36h+kG69uyJPdQvvDXlZAJMmz0PhnUakjP5mDxmTnJpse36iL0Rm/za744S2R8VPeO91/NY4bXcdT4hB50Pvgt+3P8xfY8UuZZSAl5v8uPlk6zq2rVfv65cyX7e2trqrCcvsTPNNfRs3bhm7ZJSAChdsnbNxtae/Q+XnIJbPj63TpUMDWrYfrwgaOh8x+Mf/tvtDzvoF9fl9eRBzzquXq25ZUeP+7d+39EzN04eLFnc2dMpduPYfoFGARDji/YV5psfk276N0EvZxej5/GtF4+azK82/wQAAQRKr+5d1sMp75u1nQLg5cUP3+2Tll+WK2qmOghYowAQ0MVZ4uiqZraQMBFZvJiMJwTOUQDFcrZ1wJ71YwuCLaSgMGILOvxwBj22xIKBQNLZnodb0SF6GwR3ukFQ2DMKdGQwDfS4cwoM5HEva8RddLcnf3PxX4cpFXmkfJaWnJCk5WiNJbFwx7F6NFfrbYkaz1ui4UX6M4LhjKUffRnE2Bw9mvrCOIZR0UaV80U0kkkgCY0ctNHVy6fb04/RjGEQIxhup8lFmz8Qxfj27tHQrgiMKRQrFIiy7fMK6/F/xQMA");
 
 export default CandyCorn;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sparkles` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sparkles?s=thin sparkles}
  * @preview ![sparkles](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/sparkles.svg)
  */
-const Sparkles: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M432 40c-4.4 0-8 3.6-8 8l0 56-56 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l56 0 0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 56 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-56 0 0-56c0-4.4-3.6-8-8-8zm0 288c-4.4 0-8 3.6-8 8l0 56-56 0c-4.4 0-8 3.6-8 8s3.6 8 8 8l56 0 0 56c0 4.4 3.6 8 8 8s8-3.6 8-8l0-56 56 0c4.4 0 8-3.6 8-8s-3.6-8-8-8l-56 0 0-56c0-4.4-3.6-8-8-8zM130.1 201.9c3.5-1.6 6.2-4.4 7.8-7.8L190.6 80l52.7 114.1c1.6 3.5 4.4 6.2 7.8 7.8l114.1 52.7L251 307.2c-3.5 1.6-6.2 4.4-7.8 7.8L190.6 429.1 137.9 315c-1.6-3.5-4.4-6.2-7.8-7.8L16 254.6l114.1-52.7zm75-128.6c-2.6-5.7-8.3-9.3-14.5-9.3s-11.9 3.6-14.5 9.3L123.3 187.4 9.3 240C3.6 242.6 0 248.3 0 254.6s3.6 11.9 9.3 14.5l114.1 52.7L176 435.8c2.6 5.7 8.3 9.3 14.5 9.3s11.9-3.6 14.5-9.3l52.7-114.1 114.1-52.7c5.7-2.6 9.3-8.3 9.3-14.5s-3.6-11.9-9.3-14.5L257.8 187.4 205.1 73.3z" />
-    </Icon>
-);
+const Sparkles = createIcon("sparkles", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABhgAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglyCTAsGAAE2AiQDCAQgBYMtBy8bSwXILgpjcE9TgkIsslrWs9LPge9qWsTz1Fr5fk8fzQGApTAIi8JEmLVRqImUjY2NEVuxxG78h3H2/uS4tT8IFUzzQWpQuqtD6AdGN8dwvfCgyqzBzGrRZciXvs9zOb0xm7RAbhGHcr/b2No8vRfN+TyBRLPpJZIFlmkClrk15kNEIwchYXFMN0R6/Pb49oCaZ7eJKW/LH3h8fmg+MTijaBoAZAoAXLlVq+Kjn37y10U+KINArgK2EBo0WEPgPKFgjcgWqKrQT9fF/8AtCJBB8IsLqBjEfbwBVFDUKjJu61k5oBY1c49i/sUcqKWg6s0rg6gGixQlqfoLihBtJVDdqafUSmOoX/F6unNec6BTs3Wr354DZMrdOczU6MVSs5VBjo9LmjuXU5df7O5eM5iQ0ATJhJAwErfaUi/Y379qiWwK91iu9iLYPAZCQgUSYe3x0t3TirYAwz3r3mlCbRRauQzIz54GBOHR74fvM/NnGAHg47tv3z8j3flfwrACQrPX7RkpwHD+BQBQssdUICjuEOF3HfNKQLQIKAa1AhqrdAhUrV0EBmyIIjCodY1QqhwxZ/SVijE9qXHSvlTNeZIGnPfZGjSXxh1NZzJ/BvNySGdPcdAX4BSrA93ysGQ5TPNyyrEnFpx0FnPWrdkxa8aiHYhsqXZ3rcpZ4awvYkE+ASyFt8dLtwlo3jZi7uwfk8bf1xz27PVOygpwwqP6i0KKbNvfyyuz2wAAAA==");
 
 export default Sparkles;

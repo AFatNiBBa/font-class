@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `florin-sign` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/florin-sign?s=sharp-thin florin-sign}
  * @preview ![florin-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/florin-sign.svg)
  */
-const FlorinSign: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M323 32c-29.3 0-55.6 17.7-66.7 44.8L189.9 240 32 240l0 16 151.4 0L112.8 429.1C104.2 450.2 83.7 464 61 464L8 464l-8 0 0 16 8 0 53 0c29.3 0 55.6-17.7 66.7-44.8l73-179.2L352 256l0-16-144.8 0 64-157.1C279.8 61.8 300.3 48 323 48l53 0 8 0 0-16-8 0-53 0z" />
-    </Icon>
-);
+const FlorinSign = createIcon("florin-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVgAAAHZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRiBIwsGAAE2AiQDCAQgBYMtBzIbpQTIjsO44TuymcqziId/5r68L8lQsgxZIlKErAC5qnVVdWjMnFoC/ZO5VnXq5nnnUYDPuY+FnU+c4HOeJ9B5NJZPSyiwLFCPJWtnNxl4/SbpEp+kXfphs0IWJ21SRfIogRv5VvGrti6RSFMA0QQAU5YuXOC7+qiP+Lky8bN5CIgpoBRI0d5BgPFSwStkSmQyQX1UKvIPLAkgqun3JCBDipGYCMhAIrJsYFHVMFtSVOVbL3ePeNtmUeQhilgUT4fnuSiKK70+tF8aRUTksTRejCqKiLzr5yaff+9iC1NftGpP+0tTXnuuiQdmfOWvISNqm6gd0ap9+0uzv/ZAE7dMejq6DgSCPjNGnFjbePz/tUUCfvn2z1/LGZX6OJeEWgkI0v6V/lZBhoQOQEniiK54FIHEQAm9awP3BQg5AiSq5QKk2msiQCbXT4AqnYwQoFpuoVRkdUILqxtINLAfpEY6DTItfAOqjPe9Wq1FpJ5DvDvxcYudydCMunLIwMHl2HJqqqQzYLE8rlzmeh8JoT5YtMVeexyy2SbbHSLkgAXGYbvNtOAZXlQaYqDBSmOV28799BKbHXDQdnvtkSrjlOf53o7YyX3QTAIYeuftCZEUW3btPbB9zwCvAwA=");
 
 export default FlorinSign;

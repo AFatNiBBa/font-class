@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `toilet` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/toilet?s=solid toilet}
  * @preview ![toilet](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/toilet.svg)
  */
-const Toilet: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48l8 0 0 148.9c-1.9 1.4-3.8 2.9-5.6 4.4C10.9 214.5 0 232.9 0 256c0 46.9 14.3 84.1 37 112.5c14.2 17.7 31.1 31.3 48.5 41.8L65.6 469.9c-3.3 9.8-1.6 20.5 4.4 28.8s15.7 13.3 26 13.3l256 0c10.3 0 19.9-4.9 26-13.3s7.7-19.1 4.4-28.8l-19.8-59.5c17.4-10.5 34.3-24.1 48.5-41.8c22.7-28.4 37-65.5 37-112.5c0-23.1-10.9-41.5-26.4-54.6c-1.8-1.5-3.7-3-5.6-4.4L416 48l8 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L24 0zM384 256.3c0 1-.3 2.6-3.8 5.6c-4.8 4.1-14 9-29.3 13.4C320.5 284 276.1 288 224 288s-96.5-4-126.9-12.8c-15.3-4.4-24.5-9.3-29.3-13.4c-3.5-3-3.8-4.6-3.8-5.6l0-.3c0 0 0-.1 0-.1c0-1 0-2.5 3.8-5.8c4.8-4.1 14-9 29.3-13.4C127.5 228 171.9 224 224 224s96.5 4 126.9 12.8c15.3 4.4 24.5 9.3 29.3 13.4c3.8 3.2 3.8 4.8 3.8 5.8c0 0 0 .1 0 .1l0 .3zM328.2 384l-.2 .5 0-.5 .2 0zM112 64l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const Toilet = createIcon("toilet", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfwAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCHQsGAAE2AiQDCAQgBYMtBy0bGgXIjsQ4JvGLKEzi4R+9/2+fJA9wPiCPKrOC2LmdNa1cTn0z5B1/4prnj0nvze8ajY8JEkl/T73o8wnsfCDvSxp4FPB0gra9aSY7suxJksmapOPKjq8dZPFEepsikseS73BPeaj4R5vbSJSlAKIWALM2rFnmix/jx4hvC+8S31qCgJgFcoEUejoFmCoV9A4yOTKZ4McoFPg/MCeAKCafl4AMxTiFy4AMJLIsG9m3pLqiqCpbX1FUvuWZ1sf6VYR4sPGFzu+nvdhvZDzY9FBFVdzR8kjz6Hh+yOcbnh78cHNERTzf8Xj/yl0PNT7Y953y28c/1/xwS8TNiWu5Rwa8X3HHuGebbEFfWawVImJzRXnFQ00PNpbHw82PtPR+qfal/3y3/zstn69qalpV6iG9ep2pN2/yptemWH7Xk7XUPnnX8iGe3jTZvOSW3r0eUmrv0HsPFGLOvvX/rlz57/p9cwIwl8G5zAk3QnB+mJFnfqyu/jFXLwcCweD/lv2xo2bq/6UVCfj5o6bzFb6IL5KXUCoBQTq0MNTW+AKAHcBPSuK83vEFAolDMviolR4WIJQjQKJYuQCpDrUCZMoNEaBIt3ECFCu3RiqyMqHRtsEkKp1iUuNdYzKN3maKTPWlV6wx0rCTgkb69aXP18C8Tfmo4SPzyfmy1OVIEvLqlHzbGHieRgZBr/1OOO6sffY65KzCTlsWnnPMfA+d54tyoww3Um6y/Lh51tejedoZEmzlfJ0p8vvuQOf96YNgGwlg9IMJVIyk+OyJQ0f3nQUAAA==");
 
 export default Toilet;

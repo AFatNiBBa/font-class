@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `camcorder` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/camcorder?s=duotone camcorder}
  * @preview ![camcorder](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/camcorder.svg)
  */
-const Camcorder: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M0 224L0 416c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-36.2 0-119.6 0-36.2c0-35.3-28.7-64-64-64L96 160l0-32c0-17.7 14.3-32 32-32l160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L128 32c-53 0-96 43-96 96l0 40.6C12.9 179.6 0 200.3 0 224zm64 16c0-8.8 7.2-16 16-16l224 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 256c-8.8 0-16-7.2-16-16z" />
-        <path d="M559.1 163.8c10.4 5.6 16.9 16.4 16.9 28.2l0 256c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6L384 379.8l0-119.6 142.2-94.8c9.8-6.5 22.4-7.2 32.9-1.6zM80 224l224 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 256c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const Camcorder = createIcon("camcorder", true, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhgAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCDAsIAAE2AiQDCgQgBYMtB04bLAXIhofvbb6e+3Ylf6/MsAbGyq6IIUwVsKGKq1TuAlyjJi2Tpr935982fcDHn+CjjbEa52Pr3ucJBJh20ZiUQJdQmVrWzu6FQekHi/QJ8Rm2N4wukMe/2VUV0rPpAzyc/wcwvtHVVZLmGYBoA4A5K5Ysdqce9RQfNG4TH1iEgJgLSoEMGXoIMF0m0EOuRC4X1FOjQT0ajZIAoorhjF6ld9yJg4AcJEnK87atxresVVrmy2uV4siTXVM80+HlTssjYkU8PWBjrag92fGJDkU81enpziE8O+SNAS3jtWE3ugcyzw29PrBw5Zc6P12rxf1hd1zq9FRRxO3Br/cQTlpwEtTi/Pi+19tc/67PB9s/MLL7n4n0Z9NfD653Usn82ezLaXW2WrWCwkfqd6i8aNv2eZ5HddHfSf3J2rpSq3vuafU8uNp88fr1piE+7dBQMvQ6EAgu3ur55YbW039rqiXw9Vs//BKf1/gszU7X0SSBIBveGG5tmg2gBpBJcVzf0Q/NRiAzR8Kf2sJTAoQCAZKqQoBMd20EyBWGCVDRywQBqgpLZCJvLnSwroGkhUMgM9E5kOvgTVAx3dvZqg6R2RtnLdxvL3mhhBZsK8eMHF1OLadtlTchJq1PK7ftwcfj2BDstd0B+x21zVa7HBXkYYsLx+yzcEUs8EWlMUYarTRVqe7dy8tF9rAjdo1F/SbTlPfTgx1fzx4CL2HasQ5kMiJF1nbLpn1bbFEf8XDH2nfiEwUA");
 
 export default Camcorder;

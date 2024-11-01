@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `paragraph-left` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/paragraph-left?s=light paragraph-left}
  * @preview ![paragraph-left](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/paragraph-left.svg)
  */
-const ParagraphLeft: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M320 32l16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16L224 0 208 0 176 0 144 0C82.1 0 32 50.1 32 112s50.1 112 112 112l48 0 0 80c0 8.8 7.2 16 16 16s16-7.2 16-16l0-80 0-16 0-176 64 0 0 272c0 8.8 7.2 16 16 16s16-7.2 16-16l0-272zM192 32l0 160-48 0c-44.2 0-80-35.8-80-80s35.8-80 80-80l32 0 16 0zM122.2 348.3c6.8-5.7 7.7-15.7 2-22.5s-15.7-7.7-22.5-2l-96 80C2.1 406.7 0 411.3 0 416s2.1 9.3 5.8 12.3l96 80c6.8 5.7 16.9 4.7 22.5-2s4.7-16.9-2-22.5L60.2 432 368 432c8.8 0 16-7.2 16-16s-7.2-16-16-16L60.2 400l62.1-51.7z" />
-    </Icon>
-);
+const ParagraphLeft = createIcon("paragraph-left", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABdAAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggyBcAsGAAE2AiQDCAQgBYMtBzUb9QTIjtRG90UWZIqH/18ru+9XDVUPBKESBUC0jlkCoGO1EabPWiKZjvexS+Mff3rAM3qUsXFuXCBPY3fHK1CxgWvEG29qBatpBay7c9vBsWiXkpayhONbjo8j5HE5hqgjPZ1+xIP5Q+MX3d1DkmcAoh0AZq5fvdTX1ahG/Fj7gPjRYgTELFAKZMjQS4ApMoFeciVyuaAatVr4DywJIOrJKyWQow5bsBuQgyTL84FtvSp1Lfm6Sl2xv1JUnuz6RJeieH/Ay72eH/jK2EqIxzs/2TUAU1C6NiuEIj4c9GqfFwe/Nr6y4ckuT3RaE4+50XltPN4VwlXREls2Nsfq/q+2e/W3fj/u+9H0F9vRo9XW1uqJFX/ebWu7++cIK7RWq60rtPO2GdqR3u7GS7jzCO32rotYt7ddOXbyK/c+8/H25dY0NKwpmY+fufeVO8Y485wx7gCB4P8tP/2xvW3Kf42VBH7+9D/8K6p9FjfSq2iUQJANqQ2xJW5A3BAAgBTn9I8bCCRrZORdmz0hQCgQIKlXCJDpqZ0AucJgAer0MVaAeoXVMpE3CZ1sbSBpdhJkxrkKcp28B+pM8U1Ur1NkDka5B/W8i5+nobmrypHDRpSTymGu0j5D8OLkcloYcC72BuJW+xx3zBl77XHQGYWcsjQ966h5FjzXF5VGGmaE0iTlcnW/fp29TjntoOOOpWUmK887A5yzxw9EORHUUTJJIlLrXWW+OpCXDwAAAA==");
 
 export default ParagraphLeft;

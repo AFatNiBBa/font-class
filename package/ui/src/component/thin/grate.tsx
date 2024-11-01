@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grate` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grate?s=thin grate}
  * @preview ![grate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/grate.svg)
  */
-const Grate: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm88 0l64 0 72 0 72 0 64 0c13.3 0 24 10.7 24 24l0 136 0 136c0 13.3-10.7 24-24 24l-64 0-72 0-72 0-64 0c-13.3 0-24-10.7-24-24l0-136 0-136c0-13.3 10.7-24 24-24zm-8 24l0 128 64 0 0-136-56 0c-4.4 0-8 3.6-8 8zm80 128l56 0 0-136-56 0 0 136zm72 0l56 0 0-136-56 0 0 136zm72 0l64 0 0-128c0-4.4-3.6-8-8-8l-56 0 0 136zm0 16l0 136 56 0c4.4 0 8-3.6 8-8l0-128-64 0zm-16 0l-56 0 0 136 56 0 0-136zm-72 0l-56 0 0 136 56 0 0-136zm-72 0l-64 0 0 128c0 4.4 3.6 8 8 8l56 0 0-136z" />
-    </Icon>
-);
+const Grate = createIcon("grate", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABlgAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCDBAsGAAE2AiQDCAQgBYMtBywbgAXIngU5mWt6pIviWuxnxc+Opizi4fu1Ps993TO1//XMInatYiQFnDgglHFR3wWwfNhGR08CATKr3EYSBf/96jmSkosOqX3XN3Gu852Pdh6FEx9aFK6peM2jfSY//vlEPymtAMsebPaC+tatjGpWIvtLknQrucdv3eN3ByjjLZzQIL2Rx3P1S+M/QzwmKQoA0RsAS3dv36j77/R3xE8diZ+sR0AsA7VAgQLDBVigEBiuVKNUCv6OTof/gTUBRJM+NoESbXyEzwElSKqyHDp0YKurq6qC32iXu9Iz5/0f9494uad4g16Z7fhMXhtFvMmvrtaGt8ZHfBXt+OR8oSle3597Kz69X1pRVbn9iQrxuuf8qUVEvBWDhSoicrzcdla56nNUUX2V5acIVbwmETnnKosqAuorhAtGf1m//Hxqi597v/NzsUTx8++PLDHbyX3o8z4o7/fpk5eQsGfPkiW9tw54Fs8asHXJb4Rv37+f7BxHmpvvzVG22M+uoUzp9zWPzPFs72fZg6XvY0lvuR4IBL2WHs6Hey34v1QJ/PtNt8t1/o7u9CXoIYGgmNCZ4EB0A0sFMEhxy2ijYoHkLRXgU1teFSBkBEiasgCFYXoLUMrGC9Aw0kwBmrLtClF2Cf0dHHjSchUvzHIHL/X3Nd6wwLdBU/8oXJV3NP5HMWXVDKwsq6dOmlLPqx8LXfA+tkzPr4/VMbekayxWOuWyS2446YSzbkzQNRvjmy5aZYErVag21SRT1Oaprxuuql0huOa6s3vpfpH56vedMW7Zg8fCSJRxmnySiNQ4/U0AAAA=");
 
 export default Grate;

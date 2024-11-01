@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `linode` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/linode?s=brands linode}
  * @preview ![linode](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/linode.svg)
  */
-const Linode: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M366.036,186.867l-59.5,36.871-.838,36.871-29.329-19.273-39.384,24.3c2.238,55.211,2.483,59.271,2.51,59.5l-97.2,65.359L127.214,285.748l108.1-62.01L195.09,197.761l-75.417,38.547L98.723,93.015,227.771,43.574,136.432,0,10.737,39.385,38.39,174.3l41.9,32.681L48.445,222.062,69.394,323.457,98.723,351.11,77.774,363.679l16.76,78.769L160.733,512c-10.8-74.842-11.658-78.641-11.725-78.773l77.925-55.3c16.759-12.57,15.083-10.894,15.083-10.894l.838,24.3,33.519,28.491-.838-77.093,46.927-33.519,26.815-18.435-2.514,36.033,25.139,17.6,6.7-74.579,58.657-43.575Z" />
-    </Icon>
-);
+const Linode = createIcon("linode", false, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABZwAAAINAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWCBawsGAAE2AiQDCAQgBYMtBy0b6ATIjpQuZyTx8LzdV+e+qgFcA5ghgKij4SrqbKUQiqBo0/0Vsv/7t7j9eRTgA5G6sXnzEyQ6z3kCzfOW//n3ODtOSxQzb9mORSl9k4km6fHK9PiEIY97cVkF0p30GS6VlcafmjhHUiEDELUBMHrh3OnKf46fIz4rvSU+MxUBMQYUAhkyNBdgmEyguVyBXC74OUol+QcWBBAVVZIJ5MgwHxsBOUgiz6dXq1AjXxBxq26cNnNa8+gSg+KBGw3nxYJYGEMC1AJ9fgyPdkCdic6Ppw1vWhi3Gt2qejqaxOCIGBldo3l0joUxs01Z7bK/fbbhM9vz5zhs7lubNKpaxapRam60dbjDprRX/6JTvSzt6lgHTS+47H/11/nONLWnGz3e/uYt0vQB3qtdO6ikuum+9kQ9p1Sc7B4QCH57sf7DlbWG/Ve5WgK/fvBvnq9aqTzepjJUlkCQdSt1syzKVVMt3goAQIoD2hgvCiTTJbzU6m4KEKoiQFJRVQEyzdQWIFdVVwEqaKm/ABVVNVcm8ipCfcs7JNXthswAxyFX32uoYJgPjYrqR+ZdvG/wn7uUCRqN7yt69+hVDCmmriY4DJvaQ4tltdOBkOpMkzbYaYd91ltns32K2WO6vd92Eyx6vA8Veuuhl8IQxXbwOL7AenvstdlOO3KXoYrzWicH7OLONEwC9LkXRyJSxW2bHxkA");
 
 export default Linode;

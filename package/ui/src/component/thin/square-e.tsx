@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-e` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-e?s=thin square-e}
  * @preview ![square-e](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/square-e.svg)
  */
-const SquareE: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 48C37.5 48 16 69.5 16 96l0 320c0 26.5 21.5 48 48 48l320 0c26.5 0 48-21.5 48-48l0-320c0-26.5-21.5-48-48-48L64 48zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm152 32l160 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-160 0c-4.4 0-8 3.6-8 8l0 96 128 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-128 0 0 96c0 4.4 3.6 8 8 8l160 0c4.4 0 8 3.6 8 8s-3.6 8-8 8l-160 0c-13.3 0-24-10.7-24-24l0-104 0-104c0-13.3 10.7-24 24-24z" />
-    </Icon>
-);
+const SquareE = createIcon("square-e", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABeAAAAIrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCAgsGAAE2AiQDCAQgBYMtBy8bAQXILgacMn30jB1qMxEjXOuZrI9XR4+HEsbD136v5+7ufwFgnShUQDIq7MJlVSOr4gquukJWZaob4cq2GvhZMDb/ENNHXBMkS9DwmTSxFJZXF8raWpoPf673/6p1OIUKoRF1XZAe4CXzF1DWer+PnBovlfoBn5WgaOf8DWQ//m98AhOdf6ABzQpWUZy1s0v5QXSLQZ/EJxm2N4zuUGKgK2LSCwFcl5LGVyM+SXIGQHQjAJvHsyn9fsKniF+NeGsHCYgtEKYBGRnjAFYIBcaJTCNFEXyKuo7/gYwCiAosZQIFDdxFHiFQQJILa4/GlWKNdZWGHJ39BKWNojNXIQ2PtXEy6C11WJ0MswTfiIYr9rZTtNFXUMUd/ziYhdKqVObSJKM0AW1ENQQZ2e0gfGuION+6z/+Mu6xfZ//c5g0Ib99lkxXtrWUL9bwE46vHUnShIG2mVvbkVZWvKnKGV7DKTQOPL+4OHByYdxEEgjdP2l678k1UUsCX1/8mH9efcJNeEc0SCPJcnbSKGwA7gEaKAn6jYoHkhBD4q+2eChBaESCptAqQjdEBKFrNAmiYVAJQabVPKIqE0G+tZNLuMZkteyKLfj9kw4q/RqU/hJ4m+on4z0sb98DoGufSWa7zcqxJzsOn8wZve9FHWYvhJu1cuXRva+PoviNuTdsPLowtaKRCLCcti9Xx8exRW4b01p3wc+X8kga+X496tHfHEAqQc15fkogkPlY/tQUAAAA=");
 
 export default SquareE;

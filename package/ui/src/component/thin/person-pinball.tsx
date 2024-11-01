@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-pinball` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-pinball?s=thin person-pinball}
  * @preview ![person-pinball](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-pinball.svg)
  */
-const PersonPinball: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M91.4 226.4c-6.7 2-11.4 8.3-11.4 15.3l0 65.1c0 4.2 1.7 8.3 4.7 11.3L134.6 368c6 6 9.4 14.1 9.4 22.6l0 89.4c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-82.7c0-4.2-1.7-8.3-4.7-11.3L30.1 308.7c-9-9-14.1-21.2-14.1-33.9l0-88.1C16 163.1 35.1 144 58.6 144c18.7 0 36.2 9.3 46.5 24.9l42.6 64c3 4.5 8 7.1 13.3 7.1l46.9 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-55.4 0c-10.7 0-20.7-5.3-26.6-14.3l-16.6-24.9c-3.9-5.9-11.2-8.5-17.9-6.4zM112 265.7l.6 .9c8.9 13.4 23.9 21.4 39.9 21.4l55.4 0 0 120 0 96c0 4.4 3.6 8 8 8s8-3.6 8-8l0-88 400 0 0 88c0 4.4 3.6 8 8 8s8-3.6 8-8l0-96 0-208 0-176c0-13.3-10.7-24-24-24L504 0c-13.3 0-24 10.7-24 24l0 37.5c0 2.5 .4 4.9 1.1 7.2l45.3 143.4L237.8 267.7c1.4-3.6 2.2-7.5 2.2-11.7c0-17.7-14.3-32-32-32l-46.9 0-42.6-64c-13.3-20-35.8-32-59.9-32C26.2 128 0 154.2 0 186.6l0 88.1c0 17 6.7 33.3 18.7 45.3L96 397.3 96 480c0 17.7 14.3 32 32 32s32-14.3 32-32l0-89.4c0-12.7-5.1-24.9-14.1-33.9L96 306.7l0-36.2 0-28.8 16 24zM80 16a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm48 32A48 48 0 1 0 32 48a48 48 0 1 0 96 0zM624 193.4l-81.8 15.7L496.4 63.9c-.2-.8-.4-1.6-.4-2.4L496 24c0-4.4 3.6-8 8-8l112 0c4.4 0 8 3.6 8 8l0 169.4zM224 400l0-113.4 400-76.9L624 400l-400 0zm96-80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zM0 480c0 17.7 14.3 32 32 32s32-14.3 32-32c0 0 0 0 0 0l0-69.5-16-16L48 480c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-117.5-16-16L0 480z" />
-    </Icon>
-);
+const PersonPinball = createIcon("person-pinball", false, "data:font/woff2;base64,d09GMgABAAAAAANMAAoAAAAABzAAAAMBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGyEMgsGAAE2AiQDCAQgBYMtBzUbNwbIhoeH2rT3B0LJkDhQMarmdEXMb6bn6nVd+J9r6gXIbQ3yeaDzoV0kLbStiiLi+QQGPEqK0mjdOIVxw7aRpa7uXWO5gGz84yB1JLcnn+BaNy2+0dlFJDIZBIgWPKZZG9Ys897e2BvxSe1l4hNLEBCzQUUggwy6CTBVRqCbrAqysoK9UauZ/8AKAUQOfOUEZJHiN6IDIAsS+Wx2zKb2xtb6+h6Fusbs+kJduuGmojivtCpuJm4q3lKOOL+8Pm6JiPM73lp4eNCsuLlQiJtLNxXTuKI8OG4pDiuVS7f3K4QQN5du7RjRmJIw4o7+aTzUacVZ1kU1bo3zy7ekacyOJ8Y/1Pe2NmQQ2aO9uXBlRyG4tHrOpM7rryxF3Oy84k3pFeVb9p590h39H+n7UKfb+z084NGuO9duWLs+zo+IWzseZ5xqiANDNGy4pXxT0RLV80r0otL5oyzluBKZbqn3Ey1PfNfrk0M+sXnXjYVZcnNbXda0SdPevU1rSndZutSu4kZtb37S9l6HZ83Pj7C3qWnvBK135x12/wJ8fd0Ep6nKVau5ja6zEe666gvPKa06zqpSf5nM0Gv0nKCUa7rssqYR7rV95XnNP+Y36tJ76VJrNJHJ9E2Ku1r11d0fPf9qugzIwthaesyZZx6TctcP161qNsOHXSeiv1z1ONXc49d+dnyIu3apd1y3Y8UVSN814951BsA8Neu0Cien57gYCAT3jPply47mqb/lCwnY/8YPf2Mb1N5LzkueQF4CgszQ2lBb25xgdANwJ3GK3lDCIfGdfIHwrA1uESCkCJDISQXI6KpFgKzUEAHq9DBOgJzUGhmRrReKtuWQaHA8ZIx3NmQVvQh1pnrfk1OMzBtA37/0/2fC/DI+r19l1PCRlcmVzqyUualJ3T2lMto48BReNQiOdIhjHeMkBzvI4U4qqU6wzH+yo83v05/324pRhhupYrLK7MJ1YX0p4gQnOlw7O7+XKSrrWwc6pb/xIGhJBIOjJSUSIml6YVzDjjv8mK8aAA==");
 
 export default PersonPinball;

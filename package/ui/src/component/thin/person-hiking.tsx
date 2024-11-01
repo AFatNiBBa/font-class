@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-hiking` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-hiking?s=thin person-hiking}
  * @preview ![person-hiking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/person-hiking.svg)
  */
-const PersonHiking: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M208 48a32 32 0 1 0 64 0 32 32 0 1 0 -64 0zm32 48a48 48 0 1 1 0-96 48 48 0 1 1 0 96zm-70.9 86.7l-20.4 84c-3.9 16.3 .9 33.4 12.7 45.3l76.3 76.3c1.5 1.5 2.3 3.5 2.3 5.7l0 86.1c0 8.8 7.2 16 16 16s16-7.2 16-16l0-89.4c0-8.5-3.4-16.6-9.4-22.6l-52.9-52.9c-2-2-2.8-4.9-2.1-7.6l24.6-98.3c.8-3.1 3.3-5.4 6.4-5.9s6.3 .8 8 3.4l23.3 35c5.9 8.9 15.9 14.2 26.6 14.2l55.4 0c8.8 0 15.9-7.1 16-15.9l0-.3c-.1-8.8-7.2-15.9-16-15.9l-51.2 0c-2.7 0-5.2-1.3-6.7-3.6l-30.8-46.3c-8.7-13-21.9-22.3-37-26.1c-25.4-6.4-51.1 9.2-57.3 34.7zm198.9 85c-4.7 2.7-10.2 4.3-16 4.3l-55.4 0c-16 0-31-8-39.9-21.4l-13.3-20L224.2 307l49.7 49.7c9 9 14.1 21.2 14.1 33.9l0 89.4c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-82.7-73.9-73.9c-15.8-15.8-22.2-38.6-16.9-60.3l20.4-84c8.3-34.1 42.7-54.9 76.7-46.4c19 4.8 35.6 16.4 46.4 32.7L305.1 208l46.9 0c5.8 0 11.3 1.6 16 4.3l0-44.3c0-4.4 3.6-8 8-8s8 3.6 8 8l0 71.8 0 .2 0 .2L384 504c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-236.3zM117.3 334c3 4.2 6.4 8.2 10.1 11.9l2.6 2.6L96.5 475.9c-2.2 8.5 2.9 17.3 11.4 19.5s17.3-2.9 19.5-11.4l28.8-109.3 13.1 13.1L142.9 488.1c-4.5 17.1-22 27.3-39.1 22.8s-27.3-22-22.8-39.1L117.3 334zM109.1 88l4.2 0c20.8 0 36.1 19.6 31 39.8L109.1 268.4c-4 16.2-19.8 26.5-36.3 23.8l-47.9-8c-18.7-3.1-30.6-21.7-25.6-40l24.9-91.4C34.6 114.6 69.4 88 109.1 88zM39.6 157.1L14.7 248.5c-2.5 9.1 3.5 18.4 12.8 20l47.9 8c8.2 1.4 16.1-3.8 18.2-11.9l35.2-140.7c2.5-10.1-5.1-19.9-15.5-19.9l-4.2 0c-32.5 0-60.9 21.7-69.5 53.1z" />
-    </Icon>
-);
+const PersonHiking = createIcon("person-hiking", false, "data:font/woff2;base64,d09GMgABAAAAAAOcAAoAAAAAByQAAANQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGSEHAsGAAE2AiQDCAQgBYMtBzQbIAbIrgd4Qxr1DzgWEiUAViK0wnvtUPywN2D7E/zzP4fe9/MLwDlR7YAAk5QdkJwwc8QWCNXg+Wc/d9/MsIlKKFhjJBHPmjjdEoRGKQsZ8fwTpDVMnp6UlGACSZakoSXw/u2BnfkEuOuyRCOK2/I8psTiCjDwQH/7LlqsNdYORrfv+h8ANGj58v9xP89/YmwDfOLzoURjUST+sGHneYNNpMtnlSCbsM3aHOfgD1r8EiFyST4iDu1PDVMrYLWTRSLAlKtuAmf3t9IHPBwCg+MAAKBkAACgf5s4msuKKCI3/wPdpA8IQAMAcBHgoE8+AqAXDoJXwOICFovgqfzb/gPDIABQJLqyAcACMcBrkABoHxgMUdamWbt05nrT4yIS7BQzxs7cd0iB+aSrVPY7Q9MJu0+hzlvhq0zVesrdZfFJk6ZOKstMVoMCR6lL2u+coO2aquM66WitwBwn2T10xuqEs40qknVx3z3ZN8WqzpurSZLSoH32LO8dKRRpirzQVE2qPlGbaa04nXRIpa7AgSTJyLeHTk06cWRokixH4JqqMtLuO0Nn6Jo6JY7iAkdgv5q7SFhNrtn8SMp3dFby7MlYnYjXuL2m1qZmOl8+5+qYY3DMdoRF3/9/mr0Br8NpA/lTpqfWR5LqTCHxqWIbI+F4L56TNU96vwiZp7qtK3eDUHi3RkRak7uluPGfP7gQo5y7u7SPJIVH9jHW72MiwwvbevoAy+us4DE2KBGzME/kvNnIACC6Hv5/jcEe7h5aP7zt929yE89CetWd7bM+3ip2XP8LwH69Zu8k+eB0fd3ubbR2z+DU3Fxh76DsiXCBNi/PXNejB7SlWHLaFCwFAAGCtjZ5a26SvRrYAPC88X/uKLJP1QREYwAQOK3+88wKZZDRjEDgjLbg4YcEMDxGj3LxhAgEEQsVDJHEgkMeyWCJpSVEUEhn5WD7iRxkYxDpzAYY4lkPDl3YDZZ0LkEEvbjCRpIux+3VTqv+6cwwhJHBrdxKm3ZuD7cbVjSerEzlPd1hY3qLpJWgL0ustcYmiy2y3CaSbDBa2Gy1IZb04O+6tKcN7XDpgTsduzVMIXaDjZbf6+Yr6Ym73lHMFjt3CSwGldkBP4MBmYS3xNp6dfkXBAAA");
 
 export default PersonHiking;

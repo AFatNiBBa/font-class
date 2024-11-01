@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hourglass` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hourglass?s=sharp-light hourglass}
  * @preview ![hourglass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/hourglass.svg)
  */
-const Hourglass: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 0L0 0 0 32l16 0 16 0 0 112 0 7.8 6.2 4.8L165.9 256 38.2 355.4 32 360.2l0 7.8 0 112-16 0L0 480l0 32 16 0 32 0 288 0 32 0 16 0 0-32-16 0-16 0 0-112 0-7.8-6.2-4.8L218.1 256l127.8-99.4 6.2-4.8 0-7.8 0-112 16 0 16 0 0-32L368 0 336 0 48 0 16 0zM320 32l0 104.2L192 235.7 64 136.2 64 32l256 0zM192 276.3l128 99.6L320 480 64 480l0-104.2 128-99.6z" />
-    </Icon>
-);
+const Hourglass = createIcon("hourglass", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABYwAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBagsGAAE2AiQDCAQgBYMtBzAb6gTIHgd2w9cRljEuiv94+H6u99yX7M7+pAxpFTArQvZ1ZDSxKhvxp5ZAbzKrGqVqDMrUqZzLeSiAz7kIB2VsW9s3xUJjdwv0vKL1TQWeVrCIYndn20Qo7ZMkzZIc38pxOUEeF2KYGuleglvlR+Ornm6S5BmA6ACA2WtWLPemNVojPjcfEp8tRUDMAZVAhgx9BJgmE+gjVyGXC1qj2fT/gRUBRB0/WwI5aliFnYAcJFmeTyzLstY2X13Wig1FWYiyFKJrrIqV0SWEKApRtg2UAnDdYnWsie5BClAZTRJWulsi2q5ctXqVaBMRawbq4PsAu2n/ugPKlVg4qmGlK9tdbqWGo6RVj8pycy87V3agcC9X/lY6xXuxd34YBILNb0+0pf20/40ygS/Pfv7G+zXfxNU0GhIIsmHNYTbGVfDYAOIUpw1UZhZIlsuAv7WN2wKEAgGSukKATG8dBMgVhgpQ0894AeoKK2QibxG62NRB0sYxkJngEsh1cR/UTPMurusSmXWxtsH+7ZIWjPD8Q9UjRlVTqmWpcQZD592p1bbS6TAaDEftdsRhJ+2y0z4nB/S45dkphyzQkPlmVBlthFEqU1THzbO0mpzjTgRa5s73MVV1PxjktL58MOgJE45RSBKRWt4O85gAAAAA");
 
 export default Hourglass;

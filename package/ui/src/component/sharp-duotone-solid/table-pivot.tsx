@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `table-pivot` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/table-pivot?s=sharp-duotone-solid table-pivot}
  * @preview ![table-pivot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/table-pivot.svg)
  */
-const TablePivot: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 192l128 0 0 224 320 0 0-256-288 0 0-128 352 0 0 448L0 480 0 192z" />
-        <path d="M128 32L0 32 0 160l128 0 0-128zM368 192l-48 48 0 16 32 0 0 64-64 0 0-32-16 0-48 48 48 48 16 0 0-32 80 0 16 0 0-16 0-80 32 0 0-16-48-48z" />
-    </Icon>
-);
+const TablePivot = createIcon("table-pivot", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABagAAAHvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBSwsIAAE2AiQDCgQgBYMtB1Ib7wQRlZonyD4WY1s17JEtlvJfPHwt+/253bNbvFlyGHKOLiSPSwr/LCgULiuK8lvIn4KeZH7on7iZ13nU+VjkoY2FSzufmM95nkDgUbiE1j+90Ju+gf3eNJnJyL4kM7WSjq8dXwcU8T0/0yC9TvC8/A9g/GqQZyQdGUD0BMDK/bu3+tCOdopv9Tvimy0IiFWgEsjIGCrAEllgqEKFQiFop7qmHXVdEUA0ydkZNNHARmwHFCBJoig6RvdrNboV+1qN8nDZKkUrYu+S5UvYEmVEoi+JpdGKYBGIhWW5VbZEt8jRNSKvSNE98qjOnp2/j3SOh28eCd0jj/58U1s9VVYgUumpZrW3o2dPO0ix+I62Fag8csIHVEAg+OvIP4635P8urQR+vv/zF/V3VLeT1IkuEgjylHqKIwkkAgCQ4p5RCQhkUyTyqV29ECCUCJA0lQJkQ/QUoFCaLEDDcHMFaCrtlkXRIfR1tBNJVzeJbJ77RKGvt0TDEvyj3dQ3cjjxwcD/5lLWaXDtVDVz2oxqUTUNNCFCWB4urrbVCfeoMBEWnXPdNXecdcZFdxR8y1bvrqvWedBaX1SZaZoZKotUx/FW2afsW267OJbOxyxW3TcnuOfXTwQjEcZZZrJMpMh9Qs0/9cbFe9fvTH2ZpX5WeoQAAAA=");
 
 export default TablePivot;

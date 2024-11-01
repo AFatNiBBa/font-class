@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sprinkler-ceiling` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sprinkler-ceiling?s=sharp-light sprinkler-ceiling}
  * @preview ![sprinkler-ceiling](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/sprinkler-ceiling.svg)
  */
-const SprinklerCeiling: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M0 0L32 0l0 83.8L128 110l0 33.2L11.8 111.4 0 108.2 0 96 0 0zM256 110l96-26.2L352 0l32 0 0 96 0 12.2-11.8 3.2L256 143.1l0-33.2zM208 32l0 16 0 176 96 0 16 0 0 32-16 0-112 0L80 256l-16 0 0-32 16 0 96 0 0-176 0-16 32 0zM144 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM80 384a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm144-48a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm-32 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-64 80a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm112-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm112 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm-48-80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM0 464a16 16 0 1 1 32 0A16 16 0 1 1 0 464z" />
-    </Icon>
-);
+const SprinklerCeiling = createIcon("sprinkler-ceiling", false, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABnAAAAItAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyyCbAsGAAE2AiQDCAQgBYMtBzgbdAXIjsQ4hvIdSxkiHv5/zbxvZraQpMh/qwAQHYGtXFVwVXVsRE4tgW3StLZ6/q/5/JL+0QF+vhA9tKpFUmE/j6jnExgOqLwpCmw2nE0UdzTv4UEO7UKdt1DE2einjuxp9gm33Q+NLzq5RqbIAURLAExeuXS+N9WoRnyqRXwyFwExBSSBHDm6CjBOLtBVIaFQCKpRq4n/wEQA0Yj/ugwUaI47eAYoQKZSFK1atWvqJ8p1zYoV8dVLeblUFstDrIj2ERHLVy5bGVEOIdrGsogVgiiXRakU2hshlqx62O5B20ftH3dYpPWVWmaufh18Gb4SX46vwDcd27OhZcO3+k87PnmTUlpmYyf1jvbwUsWm2n4lBvnLJJtUvByM1w+c39LPeW5Ty6TlT01ues6TJvaoNm9eddXywO2BLFxt3gYTF4YOtuDgYAswcCEYuPB8IBB8/b+NLcb9a1LOwOfXP36R09WqcSlrQBMZCPJ+tX7WxSUQzADSWZzQc+KLAplbKvx3rXgkQCghQKaRkgC5LloKUCjpK0Cd7oYL0EjJUrkomgptra9gpuIwzI1wHhbaegXrjPM21UjbyMFTBi755DBjRhOZPi8NHjAojUmjVYUCcaI1PTYt9vY6Ibt64412OOiAY7bbZrdjDfqI+dnj9psxRU33Q8lgAwySjJE2N+4aK2jqiKN2D7tsn2WsdHyklxPTg3vjQMYXHKIokxFZq6tXFuzdt/1I/63bd//mEgA=");
 
 export default SprinklerCeiling;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `game-board` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/game-board?s=regular game-board}
  * @preview ![game-board](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/game-board.svg)
  */
-const GameBoard: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M384 80c8.8 0 16 7.2 16 16l0 320c0 8.8-7.2 16-16 16L64 432c-8.8 0-16-7.2-16-16L48 96c0-8.8 7.2-16 16-16l320 0zM64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM304 96l-80 0 0 80-80 0 0-80L64 96l0 80 80 0 0 80-80 0 0 80 80 0 0 80 80 0 0-80 80 0 0 80 80 0 0-80-80 0 0-80 80 0 0-80-80 0 0-80zM224 256l0 80-80 0 0-80 80 0zm0 0l0-80 80 0 0 80-80 0z" />
-    </Icon>
-);
+const GameBoard = createIcon("game-board", false, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABdwAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCJAsGAAE2AiQDCAQgBYMtBzEbJQXIjsQ4JvJIF0fx8P2aX+e+7vyZ3xmGHmZUgJ5hASWQils0IrUW1a5NMkNCTX/vzv/5pwH0jD7a2LQmjgnyae3qPIEEy4sTytZ5pglY5q62mIfSnsQSWvL43ePrCnm8jFVIzxPcLU8af+ruDkklAxDtADBvy4ZVavWoR/zW+Ib4zQoExDxQCmTI0EuAmTKBXnIlcrmgHo2G/AeWBBBN9LMSyNECl3AFkIOkkufteoxrbq5WWuebq5XiyOPOKR51ahVPumTxtGvr/R8NjfisW4rnwz4f1Do+HfFlzyxeDP9icKtNRbUQRUQUIaqBsWoEWkT4G4WR9t7U/4t2X/zdz+HfXT9TbzNXm/pcfHbOmHftaV/MVbRv/24uw4r175x0V6Kx5q2brfeDQPD38vld97Sd+V/LagJ//Pjv/8KvqFGPWvoCLSUQZCMbI+2MGkRNAABSXNY/aggkp1Too7byRIBQIEDSpBAg01M7AXKFEQJU9DFJgCaFDTKRNwud7OogaeUcyEx2FeQ6+QpUzPRT0qRTZNCjgEN9/OIXW2jRqXLc6LHl9HJbajSaiHw4o3RLQy+n0TC66LAzTrvokIOOuWiQ81bll5yy+AQv8kWlcUYbqzRded0885tNct4Fx9bs/TEzlO+9oS6fl4eRmijueIUkEakArTgKmA==");
 
 export default GameBoard;

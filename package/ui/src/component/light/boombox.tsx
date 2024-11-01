@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `boombox` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boombox?s=light boombox}
  * @preview ![boombox](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/boombox.svg)
  */
-const Boombox: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M144 32l352 0c26.5 0 48 21.5 48 48l0 80L96 160l0-80c0-26.5 21.5-48 48-48zM64 80l0 80c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l512 0c35.3 0 64-28.7 64-64l0-224c0-35.3-28.7-64-64-64l0-80c0-44.2-35.8-80-80-80L144 0C99.8 0 64 35.8 64 80zM80 192l480 0 16 0c17.7 0 32 14.3 32 32l0 224c0 17.7-14.3 32-32 32L64 480c-17.7 0-32-14.3-32-32l0-224c0-17.7 14.3-32 32-32l16 0zM96 336a80 80 0 1 1 160 0A80 80 0 1 1 96 336zm192 0A112 112 0 1 0 64 336a112 112 0 1 0 224 0zm176-80a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm0 192a112 112 0 1 0 0-224 112 112 0 1 0 0 224zM208 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0z" />
-    </Icon>
-);
+const Boombox = createIcon("boombox", false, "data:font/woff2;base64,d09GMgABAAAAAAL8AAoAAAAABwwAAAKvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhFCDXwsGAAE2AiQDCAQgBYMtBy4b3QXIHoPjbokBnsfzYT76ZYjNiofv117PfftCmw1gGRWqskVSQLLsUwsEihULA2iJVKa6+h/s7737IJbMujVCaauSXptDYxUTj27eP7bmFCijgBMMQJr/a+qFNcVAPoAvEm9eGOndGA2259VUQRtg2/BsojhzW9yBM4i68uEZMnCIfIgL7feQ4xsrVNJF/A7Hx5fGP4M0gyQXABDtAMCCdUE+QPzC28Dz2jrxziIgIBYCjIQoUGAoBLORBYaiGAlkWfAr/mvyH2gAAUQ9KJasyqjwEZ/ww0jKTBGNN+mmrmhiU7mU0HlbVlQLhzsut+uAFSL2qp1pMKA7plMa4MV8OubHZDlrYvQUM0mBBowLJ9YC3gq5gVohuJc+qY1oxRalAwU2qJ1kc8h1j9192+7bto4dh33QwOhJJohD0ZjWBX3K7nicPJxOmr1o3WOr+Wpu2mgW2sUVvBajik9DinA2npG0y+zoVDsUVrMNHn2Xm/mN71LP4fhgvC62vbwg+yMsR37/zXaZjb+6DgmFxC/lU/QB2/YGXLtdEA+C7aHIz/t1+8p7X94vKACe7W3HqZ0HStI4GEAM7wf91wZ0OhHd3emGq+j16CJKw8JKCbbqroG9im7/cbc83u1IzGQTrgcQCP6eCb+P43v+Z5AkgD8vXr765WpEqsd3gUYJBMXUmqXoVA9gS0CtKUqZBAIKJC+V8KmVcxAglAiQ1CsFKAwhgCArTYGgznBOENQrrUIWmQmhW4yBpLIHFGapAVm3VVBntiNLve4o8lqelfLfyjTeK+rVzmDXdN7hbQNeRapKW+HpHfOmT03IsRRS5clVLEWyDMULU8jHXiKHd0R7+SEDO9ZsGbgzXIf380OlKFQkQ57cXo0Hw/c6U6VxejN0hgSYlhFQGhGJnrgrLycxrxwAAAA=");
 
 export default Boombox;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mars-stroke-up` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mars-stroke-up?s=regular mars-stroke-up}
  * @preview ![mars-stroke-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/mars-stroke-up.svg)
  */
-const MarsStrokeUp: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M175.6 5.8c-9-7.7-22.3-7.7-31.2 0l-56 48c-10.1 8.6-11.2 23.8-2.6 33.8s23.8 11.2 33.8 2.6l16.4-14 0 51.8-32 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l32 0 0 17.8C59 205.4 0 271.8 0 352c0 88.4 71.6 160 160 160s160-71.6 160-160c0-80.2-59-146.6-136-158.2l0-17.8 32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-32 0 0-51.8 16.4 14c10.1 8.6 25.2 7.5 33.8-2.6s7.5-25.2-2.6-33.8l-56-48zM160 240a112 112 0 1 1 0 224 112 112 0 1 1 0-224z" />
-    </Icon>
-);
+const MarsStrokeUp = createIcon("mars-stroke-up", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdQAAAI4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBcwsGAAE2AiQDCAQgBYMtBzUb+AQRlZqdyH4m2OAy+neaxLNSmRczS4vJPJrEX+Lhw2Z7f3dzcyQniFll5h29d2KViVcuaRnaGzq8gg4SALlf6wFBm+NI6SM2qxahrS4kl9+/Nf/zTx0gD0Q6j3kgl8bnOU+gefPyPKEssEwD8BjanW0HSmkXSUssLcelHZ9nB2SxMHbLkRxJithVbhrfNbGFRC4FELUBMHzuzMme1URNxMfS4qOJCIjhoLVAihTNBRgkFWgu0xqZTFATpVL4ByKAKENfnoAMGRZjGSADiSTLBjQr5CqzOYVcfuHB+pNif5MDnRqFyMf5xkc6FEK8GvSo9afq8ezPQ5/OPTvkyZiIQlxqdrRjPiIaxIVGxxpOmbWtQ8SFJkdsaHy4/fn81o4Xmx6Njc2OdbpUaHu19tWfbYp90a37rP/9/H/zf3ppbXqDBtNbq+vKgoUVMbJYHBkjo1iMkRULF1ypK2338k/z/89/r6/+2vIkJ79WqWWiT56spTjOA4Hg75uxG5dWD/pTXkjAlwe//7bXSOlZDEuuolwCgrR7qfuiWAMxTAAAklijbQxDIDFbgq5a4aAAIY8AiTJ5AVLN1BYgk9dNgJyWegtQJm+mVGS1hPoWIyQqLIdUH2shU989yBnkrVumfqQWxtkH98FLdoEjv0QWp+RsI503GiZPC45t9ceKhl3RH/vbtdPLiLsOvi1I2D9IFqfkqNNnuWHu/UxrUT+n4L6jfrldwzoS0ONtQgmRVDnjNSIPue7SRd8JAAA=");
 
 export default MarsStrokeUp;

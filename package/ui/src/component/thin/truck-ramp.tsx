@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `truck-ramp` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/truck-ramp?s=thin truck-ramp}
  * @preview ![truck-ramp](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/truck-ramp.svg)
  */
-const TruckRamp: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M424 0c-39.8 0-72 32.2-72 72l0 325.1L5.8 496.3c-4.2 1.2-6.7 5.6-5.5 9.9s5.6 6.7 9.9 5.5L416.1 395.4c-.1 1.5-.1 3-.1 4.6c0 61.9 50.1 112 112 112s112-50.1 112-112s-50.1-112-112-112c-54.4 0-99.7 38.8-109.9 90.2L368 392.5 368 72c0-30.9 25.1-56 56-56l208 0c4.4 0 8-3.6 8-8s-3.6-8-8-8L424 0zM528 304a96 96 0 1 1 0 192 96 96 0 1 1 0-192z" />
-    </Icon>
-);
+const TruckRamp = createIcon("truck-ramp", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABcQAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBYQsGAAE2AiQDCAQgBYMtBzEb4gTIjsM4FrzyIthp8fC93f+39ul+uu8b/SVFsDLQERRiJqTDCacmNTtAF/zf/F/z+VnTAX6jQ+vQAym/XubzCZzY3iySJhaFs4nizFvOtGTKvsnEkvR4To9Pe8jjb6uUkW6mj3G+fWh8rakjJFkGIOoAYMzcmTO8XhR8/P9L4mPTEBBjQSGQIUMLAYbLBFrIFcjlgi95/g8sCCDKKZxoOZ05G4sAOUhSnvdtXl1WM5+TXrS09n7niMdNUiyLKw2vNl4ZB9zt8mTAq92etb7X9enAF50ftxgfWdxufL1TdVxvfK1Raf7pDhEPmt50oMmN9vdLpzo+bHYrDja/3elRddundZ5+2+bjNR979Fr96FdrgvkrrCjvuOzqLlmq/d/3P/zw/X+1S/zCF+8fa2WMCrv2ts8tKy9f9vnaXs0Wseidd5s2ffedRYuacR1fDgSCwW3/eG9p7eG/VlYn8JXf/0Xi/3rOa+lAeopKCQRZ9/+7W5QOONWkAwIySLFHW/miQDJDgmut4ZoAoYQASbmSAJnm6giQK+kmQJlWBghQrmSmTORVQgOLB0hq2A4yA+0FuQaegzLDveeXaxBZYLFhwf7rkiZaaEJV0adn72Jo4dZ1LlZomR9WbFud9+S+Llhpja222GW1VdbbZcgdZkS7bTZxRUzwQ4U+euqtMFRx3HpePsdqO+y03lZb6iLDFPe9zvasR3eBmyhlX5kkEan0cvweO5Zv3gYAAA==");
 
 export default TruckRamp;

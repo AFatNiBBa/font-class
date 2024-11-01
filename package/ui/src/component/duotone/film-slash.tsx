@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `film-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/film-slash?s=duotone film-slash}
  * @preview ![film-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/film-slash.svg)
  */
-const FilmSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M64 146.4L64 416c0 35.3 28.7 64 64 64l359.4 0-87-68.5c-4.8 2.9-10.4 4.5-16.4 4.5l-128 0c-17.7 0-32-14.3-32-32l0-64c0-14.1 9.1-26.1 21.8-30.3l-71.1-56c.8 2 1.3 4.1 1.3 6.4l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c.9 0 1.9 .1 2.8 .2L64 146.4zM89.5 44.9C134.3 80 179.2 115.1 224 150.3l0-22.3c0-17.7 14.3-32 32-32l128 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-65.9 0c85.7 67.2 171.5 134.4 257.2 201.6c.5-3.1 .7-6.3 .7-9.6l0-320c0-35.3-28.7-64-64-64L128 32c-14.4 0-27.8 4.8-38.5 12.9zM112 368c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zM464 112c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32zm0 128c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const FilmSlash = createIcon("film-slash", true, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABpgAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgziDAAsIAAE2AiQDCgQgBYMtB1AbogXIHomxrYh95YwI/eLhP7v/fp+qvnc9AD0SvsCMVkbkg/DD2SD/wQMqN3/omvpBT08PeCSvjxZp31QbVmsHT2DAG22cCZJgs5nizK0xQXwIMh8aEafUVsPHbz6ezaFI4/KVKqT70te4pfwPYPyq15UktRlAtABgxUH77eHTLXHq691vEl/bjIBYCUqBjIwBARbLAgMKJQqFYEuCLUFJAFFVzplBFTV4CC8BCpCESlE0TpnUwo9WX2ksDqyv1B12z5hz4q6eO8eeG3f3H5Zyum/Cc2Ma48C4s64uru+6OyIeGHdg3EXc2VEXd3dF3NNdHzfUH3jQU2MiPloScVn3PfWT3Cmrl3ZYZn+zxy8H3BM57p/4/NiGuL7jEL11V+f3RschmUVGPt/y/O8jvj7xa8Xbf07a6zu7Xu93s2xKU1NTXWvroyc5cJXjai/VdO21TctV166dJ+VS05bSlqY4OdKxe/Qev2wvft7epeK0TItZacMhGxdWf1FZblnWpbp2dK60ssego3YPjS7F44FAsPfpZy0+qnnx/zX1CWx7/89/w4bulq5Jz6NGAkGevHuyw9OlAhQTtTiQ4kIj6bssF8iuVUGf2uBuAUIdAiRVdQJk/VoEKNSZJEDFkDkCVNXZTxZFrdDhiAskDc4B2VwXgUKHN0DFYp8FqjoieyrrZ+x/YtJaRNeMKmdMnV4uLB9zTs756Ny7qHytjL8w1UygqU50ljOd7wTHO8X5QJxrj/AFzrBWwtf4odIMU01XWqg0F5+lAyFwrvOcci/Yh1mkXG+Pd6HcfALpCVPONCbLRIrcts/Tp5x3+jHnnTzF52s7RmF3AwA=");
 
 export default FilmSlash;

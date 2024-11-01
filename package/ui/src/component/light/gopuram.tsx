@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gopuram` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gopuram?s=light gopuram}
  * @preview ![gopuram](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/gopuram.svg)
  */
-const Gopuram: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M112 0c8.8 0 16 7.2 16 16l0 16 64 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16 64 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16 64 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 16 0 32 0 16 0 48 0 2.7c18.6 6.6 32 24.4 32 45.3l0 48c0 .9 0 1.8-.1 2.7c18.7 6.6 32.1 24.4 32.1 45.3l0 80c0 .9 0 1.8-.1 2.7c18.7 6.6 32.1 24.4 32.1 45.3l0 64c0 26.5-21.5 48-48 48l-144 0-32 0-64 0-32 0L48 512c-26.5 0-48-21.5-48-48l0-64c0-20.9 13.4-38.7 32.1-45.3c-.1-.9-.1-1.8-.1-2.7l0-80c0-20.9 13.4-38.8 32.1-45.3c-.1-.9-.1-1.8-.1-2.7l0-48c0-20.9 13.4-38.7 32-45.3l0-2.7 0-48 0-16 0-32 0-16c0-8.8 7.2-16 16-16zM224 480l64 0c0-17.7-14.3-32-32-32s-32 14.3-32 32zm96 0l64 0 0-96-32 0-48 0-32 0-32 0-32 0-48 0-32 0 0 96 64 0c0-35.3 28.7-64 64-64s64 28.7 64 64zM128 80l0 48 256 0 0-48 0-16L128 64l0 16zm-16 80c-8.8 0-16 7.2-16 16l0 48 64 0 0-64-32 0-16 0zm48 96l0 96 48 0 0-16c0-26.5 21.5-48 48-48s48 21.5 48 48l0 16 48 0 0-96-32 0-48 0-32 0-48 0-32 0zm112-48l0 16 48 0 0-64-128 0 0 64 48 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16zm0 144l0-16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 16 32 0zM416 224l0-48c0-8.8-7.2-16-16-16l-16 0-32 0 0 64 64 0zm0 32l-32 0 0 96 64 0 0-80c0-8.8-7.2-16-16-16l-16 0zm0 224l48 0c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0-32 0 0 96zM128 256l-32 0-16 0c-8.8 0-16 7.2-16 16l0 80 64 0 0-96zM96 384l-32 0-16 0c-8.8 0-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16l48 0 0-96z" />
-    </Icon>
-);
+const Gopuram = createIcon("gopuram", false, "data:font/woff2;base64,d09GMgABAAAAAANEAAoAAAAAB0wAAAL6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRCEdAsGAAE2AiQDCAQgBYMtBy4bcgbIrgd4w3Z0PUTRyggr/Lq6ZeJ03L1Wj6K4CYQIvteF7vuS6evQhDKxTCxj5xBQRwily2AXLiq8SZtJmfrgeW+9T7Qh4E8wUSAIUVfKhXalXjun3FYeUQpRBjH/ibDw7hjXYAuuA9Dqmzwy4SZQohb4jzC5L6LUYok0LrbaIQSm3sDpdOfSLcCnCYdy/rH76R9OYIJLH3BAWWBphBOwBucNPujo0P6AMr4Sm0B63Rw8a35o/Kt6CElZAIgBAA7W6cd9fxlF/DoexK8uAuIQqAUKFJgvwF6FwHylGqVSMML42X9gEkBMZItDCZToE7OIJYASJN2yvLIzvZtnTa+qbrfqVhO65VnVhHz+yxVVRLyqiUnj+biJ+8CCr6WXluXOJ+WVuRHvjvsDjhjusGtf1XNdru4f4skb7OWyGyNyFlW8Ob9c+fHqz+ecR+gGbOmEMzob5/OZQqzpQ+iryRkvz6lD95/JcUD/K2WS/eyUzDkuV1vYopRR5aqfPZq9LmPGLZxnpN6XM/9RS74YfPGfv3a8+wy0BnojAdY1jcLvDIhI8CnPtRS//bGfGzR/vG0NfkdwCgcbG6FfvUDk5jt2rvfYh7Qmy1yiHkHlVh4O33svk7/7w3aDAQL9k0e+0WrViy5+oK5Ot5KO9Q40LlGPI9a1l+9zNIe0Plc1Hjby7L3ZKr3RoG5pU7eN9xQl66gpN1Krmb6kT1vInKLFgBgbX9O4BAgET+bE7ovD3v+VwD99kVg0PiN9ASZLICjWjZcLAiQCAJDiLksSBFL0ddnv2vEKASEjQDJRFqAwz0CAUrZWgAkW2ibARNnpClFOEaa7EMuSjltlhe3ulpWmOyGbYK8fChNNj+ITMTzghh/UrMeK8FG+2huaenfdOpQYn3qddrynHuzVXXxpNbzqKje7yR2udIVr3VGQ3uZ4+U43OtZFHfVFtU02aNR2qydPrlrPwpnb3I7rmk3TL9mjXj65yl3dm1fDQGKr3cyeTsFgmnT1zbfcedulNwI=");
 
 export default Gopuram;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-dotted` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-dotted?s=sharp-solid face-dotted}
  * @preview ![face-dotted](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/face-dotted.svg)
  */
-const FaceDotted: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M163 88C131.5 105.5 105.5 131.5 88 163L28.2 139C52.7 91.5 91.5 52.7 139 28.2L163 88zM304.5 70.2C289 66.1 272.7 64 256 64s-33 2.1-48.5 6.2L183.6 10.4C206.6 3.6 230.9 0 256 0s49.4 3.6 72.4 10.4L304.5 70.2zM424 163C406.5 131.5 380.5 105.5 349 88L373 28.2C420.5 52.7 459.3 91.5 483.8 139L424 163zm17.8 141.5c4-15.5 6.2-31.7 6.2-48.5s-2.1-33-6.2-48.5l59.8-23.9c6.8 23 10.4 47.3 10.4 72.4s-3.6 49.4-10.4 72.4l-59.8-23.9zM349 424c31.5-17.5 57.5-43.5 74.9-74.9L483.8 373c-24.4 47.5-63.3 86.4-110.8 110.8L349 424zM207.5 441.8c15.5 4 31.7 6.2 48.5 6.2s33-2.1 48.5-6.2l23.9 59.8c-23 6.8-47.3 10.4-72.4 10.4s-49.4-3.6-72.4-10.4l23.9-59.8zM88 349c17.5 31.5 43.5 57.5 74.9 74.9L139 483.8C91.5 459.3 52.7 420.5 28.2 373L88 349zM70.2 304.5L10.4 328.4C3.6 305.4 0 281.1 0 256s3.6-49.4 10.4-72.4l59.8 23.9C66.1 223 64 239.3 64 256s2.1 33 6.2 48.5zM176.4 176a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm160 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM184 328l144 0 24 0 0 48-24 0-144 0-24 0 0-48 24 0z" />
-    </Icon>
-);
+const FaceDotted = createIcon("face-dotted", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABlQAAAJxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCYwsGAAE2AiQDCAQgBYMtBzIbZQXIHoVxw13iqgyx/R8tMx6+X3s99+1+2pcSkyMJ6FvNGhhkdMtC5suCzdR2Igt8/Dj/bltz3GuDkMEE4ANuVoPUfu+9Ar+b/2vqhWWAfDuCQsmVpZZV0d7Rsp5PYGLhUSADmQ1sprOB43ZnO0xLtEeSRmjJ8dnxOUIZ74oTaqS7qY3L6U3ji2HmSFoFgOgLAKzbHg7BX3d0R3T9f0F02QQExDqAsRAFCoyEYCWqwEg0Y4FSKeiO///xP3AsCCDqGEseL9EL5/EYUIIkl2Wzw7X2HjCAnmu9ym30K1S7X8/046ft8+In1bmJBnyVzy/SRW+WG/HD1vXR/Tg6PIAPHRnpj3zO8eH7LfMjx/n8FD0+r84tNsaul+nw47ZNGm/AexRHx/jwjiPD4vODMG46MnCjOjd4a/D2kO2c+2dsyVUWVRWRx3f2vegZ197T9mzvL1/BpPVe8ehiv35CqqNAJktI60Dm9hfImmZf+y1uRyX26mpu9WXmsJZZ6FfF+1s1o4PRES/s6Pa8gm3DSLw51fsMZ3pnC6FeCHPGk953+/bKypkOuKAGEJdtOPHwJt9n5ddmTuDz23uUb9H/ktSJpgSCYub/mTIJJAIAkOIwQYJAclzGr9rhlgChQoCkrhKgMAIHglJlBgQ1o5khqKtsRhVlSxgo20DSYR8oLDYOSgM9gpqV/ot1A6OwTM+uvI9hEbdEXdt4eo2O5+At22rA2Jyw7uSpY7IBPyaHg1DTqUOfqoqmPiH2CFX6tXPvaJcP4tHT0OFx4B33HnfHVPXo1dSpI27ixLufkhnYz5ZDkoJN5/MliUj53TerK519fdUKAA==");
 
 export default FaceDotted;

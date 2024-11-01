@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-zipper` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-zipper?s=solid file-zipper}
  * @preview ![file-zipper](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-zipper.svg)
  */
-const FileZipper: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM96 48c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zm-6.3 71.8c3.7-14 16.4-23.8 30.9-23.8l14.8 0c14.5 0 27.2 9.7 30.9 23.8l23.5 88.2c1.4 5.4 2.1 10.9 2.1 16.4c0 35.2-28.8 63.7-64 63.7s-64-28.5-64-63.7c0-5.5 .7-11.1 2.1-16.4l23.5-88.2zM112 336c-8.8 0-16 7.2-16 16s7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0z" />
-    </Icon>
-);
+const FileZipper = createIcon("file-zipper", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABhQAAAIvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglSCKwsGAAE2AiQDCAQgBYMtBzIbLQXIjtRG+UVWEg/fr/V57uv+1LMMvUSkkClMMi7s2Iip2FQkuana94nLnf/52LiNHm0sXLp4VxjNeZ5AwGPZmFYiWWCRhglY6jZe/nCUGR5ERbiIGJoPzTPkcT67oY70RvoDj/Obxl86u0HSlAGIVgCYtXr5Mj9Voxrxew3xuyUIiFmgFMiQoZsAU2UC3eRK5HJBNWo1/g8sCSDq4WkJ5GjCKVwB5CBpyPMeDc3x3XVoVqlrnq+q1BXrPx4Y8XmnFG8M+qJf8/hsyFddsyjiXodXEVFUhEqsWvFax0q8bP+iXRGvOuigFW8N2OuTzivjpdcHft7308FfdrnacfXKF+1cqhKvdbyn6P1lqy//7vXHrj/M+PH91rQurihat34fpVoXJbrFnTstrlg/XcEyly+/N6JFtVRtYYPN7ObXLdh1pIUjuzqu1rHxmsRhY8cOq4viK/Y4CARvpMXl5pZT/2msJPDnN/8nv6LaT3ElfYlGCQTZ0NpQG+IKxBUBAEhxSu+4gkBySAO8ajOvBAgFAiT1CgEyXbUSIFcYIkCdHsYJUK+wXCbyJqGdjU1ImjkqZMa7KOTa+VqoM9XPUb12kUWfEjvK5y9z/gjMm1WOGj6ynFy6FVUNKEknp5Tb1sBT0jGIdtrlsENO2GmHvU4M+DHL0pMOmr8C5/mg0ijDjVSarDyuP29eZadjjtvrsENpminK+95Ap9b9B5GbQHS0siQRqfLSS4ed23vkyM5jAAAA");
 
 export default FileZipper;

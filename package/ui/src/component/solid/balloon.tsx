@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `balloon` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/balloon?s=solid balloon}
  * @preview ![balloon](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/balloon.svg)
  */
-const Balloon: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M0 192C0 86 86 0 192 0S384 86 384 192c0 102.6-102.8 194.9-143.6 227.5c-9.3 7.4-12.5 20.4-7.1 31l21.4 42.7c.9 1.8 1.4 3.8 1.4 5.8c0 7.1-5.8 12.9-12.9 12.9l-102.1 0c-7.1 0-12.9-5.8-12.9-12.9c0-2 .5-4 1.4-5.8l21.4-42.7c5.3-10.6 2.1-23.6-7.1-31C102.8 386.9 0 294.6 0 192zm96-16c0-44.2 35.8-80 80-80c8.8 0 16-7.2 16-16s-7.2-16-16-16C114.1 64 64 114.1 64 176c0 8.8 7.2 16 16 16s16-7.2 16-16z" />
-    </Icon>
-);
+const Balloon = createIcon("balloon", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABZgAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVyBQAsGAAE2AiQDCAQgBYMtBy4bvgTIjpQuZyTx8H1dX+e+zPoNKBswtu2RlgB3ACtmK2ynKgR/+pt/3nkU4OMIQhsLlwayAPc6TyCxLt9i2/r/nyeK37xlxvVIue9kokl6/PbJvwHyOJldUiLdmd7H1f7Q+EULl0hqZACiPgDGL10425vlKEe8V3mOeM9MBMR4UAhkyNBagFEygdZyBXK5oByVCv7/CgKIKjRIIFfjJMwCvyWSlOfdG9Uq1cmX1CrVzL5aGPHZ0i/mf7L4gV6Pjnq12y0tesetbmlcM25rer5Z37i76cNjXu/zeIel9/eMeGTo7c1ua/pstwdb39rEfqvDw/Uf/s37W94n5i9m8fyYH4sXx/xG9zwWDeZ9v365lNV6cosna2UNp1v//bwG8dg9jdbWiyVsrl+uW7f85x//16tbLtcFAsHlrl/uW1tv1H/VayXw88t/hNWVN+NcehjVJRBkvSq9rIpzAHQASoojOgQvCySjJOBda7tNgFATAZIqNQXItFJfgFxNPQUoaWuwAFVqWigTeQ2hsdUDJLXtB5khToNcY8+AklHeUqo0jiyRyDQgv3FxUzw0ua3o36dfMaJY2ozKDbzWRxbbfLcjJdZdem2x1x6HbLbJdocccsBs/bDdpkTwZC8q9NdHP4URimPvuXuJzQ44aLu99rQmIxX35W6OxNndRUqIOYAhSUSq9igCAA==");
 
 export default Balloon;

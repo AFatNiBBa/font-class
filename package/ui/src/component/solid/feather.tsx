@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `feather` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/feather?s=solid feather}
  * @preview ![feather](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/feather.svg)
  */
-const Feather: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M278.5 215.6L23 471c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l57-57 68 0c49.7 0 97.9-14.4 139-41c11.1-7.2 5.5-23-7.8-23c-5.1 0-9.2-4.1-9.2-9.2c0-4.1 2.7-7.6 6.5-8.8l81-24.3c2.5-.8 4.8-2.1 6.7-4l22.4-22.4c10.1-10.1 2.9-27.3-11.3-27.3l-32.2 0c-5.1 0-9.2-4.1-9.2-9.2c0-4.1 2.7-7.6 6.5-8.8l112-33.6c4-1.2 7.4-3.9 9.3-7.7C506.4 207.6 512 184.1 512 160c0-41-16.3-80.3-45.3-109.3l-5.5-5.5C432.3 16.3 393 0 352 0s-80.3 16.3-109.3 45.3L139 149C91 197 64 262.1 64 330l0 55.3L253.6 195.8c6.2-6.2 16.4-6.2 22.6 0c5.4 5.4 6.1 13.6 2.2 19.8z" />
-    </Icon>
-);
+const Feather = createIcon("feather", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABaQAAAIFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBTwsGAAE2AiQDCAQgBYMtBy4bzQTIjpQu7hLB83b/Ved2D+D+A9gZsXK2EaBsU4DZq1r//7nZ855HAX6j0MbCbYEskGjO5wkEPpYtigIL5MDO9ATsdmdLbSLaJ2nEkhznjkcuyOOF7LRypFvpQ1zIHxo/aeQ0SaUMQNQEwIh5s6Z49fP4POKDEuIDkxAQI0AhkCFDUwEGywSayhXI5YLPo1TC/8CCAKI8fjKBHBkmYi4gB0nk+cgq5arlc8OOyqtmz5t9s9Gj7WZFlfhs2o36173tRIN5caNBpxBq5aAdd+KhofXj5bFvDp4dL3Z+hphs17tWt+VTNZ/6pezDtR+q/12pu/3pp9WqnTfaJN/tadfu4vYKFWZMb6BH2Vrr+vd/oNC9vq3MitalNjVenOOD33//YN06vboO7dXPSy964on9C4FA8OhXD99cVmPwPxWrJPDl87/9X35GlUrPJekpVJRAkHUudbY4UYlEAABS7NUyUUkgGSnh/VVdFyBURoCkvKAQMk3UhFxlnaCc5vpcKK+yWTKRVxLqWqJBUtUOyPR1BHJ1PQvlDPaOXl7dyOyJsgbqOxc/ViJjuooeXbsXA4ulo9ImQsTmoGJbaL+XEh1g1VrbbLXbGqttsFtgO02x9thirIaO8UWFHrrqrjBQcew/zs+1xk67bLDN1tRmkOK+1t5ePb8DyAnj9tSXJCJVWLtmxXsWAA==");
 
 export default Feather;

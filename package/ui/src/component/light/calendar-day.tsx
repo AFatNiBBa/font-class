@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-day` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-day?s=light calendar-day}
  * @preview ![calendar-day](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/calendar-day.svg)
  */
-const CalendarDay: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48L64 64C28.7 64 0 92.7 0 128l0 32 0 32L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-32 0-32c0-35.3-28.7-64-64-64l-32 0 0-48c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 48L128 64l0-48zM32 192l384 0 0 256c0 17.7-14.3 32-32 32L64 480c-17.7 0-32-14.3-32-32l0-256zM64 96l320 0c17.7 0 32 14.3 32 32l0 32L32 160l0-32c0-17.7 14.3-32 32-32zm40 160l80 0c4.4 0 8 3.6 8 8l0 80c0 4.4-3.6 8-8 8l-80 0c-4.4 0-8-3.6-8-8l0-80c0-4.4 3.6-8 8-8zm-40 8l0 80c0 22.1 17.9 40 40 40l80 0c22.1 0 40-17.9 40-40l0-80c0-22.1-17.9-40-40-40l-80 0c-22.1 0-40 17.9-40 40z" />
-    </Icon>
-);
+const CalendarDay = createIcon("calendar-day", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABjAAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCCUAsGAAE2AiQDCAQgBYMtBzMbUwXIhocvm9n7PSPZHmnXSG0kPgDgSNlhEqgu5MixJq7Jf3/+9IBN+ijR2KukijifwEQSyxNsPLCZTsCmTkc20MMpeTyGxKGlFo+vHqdXKOPlmK5GejH9gce3D42/DXUPSVkAiD4AWHNo3w6tdrQj/uh8S/xhGwJiLcgCBQqMEGC5QmCEUkapFLSj05n+AzMBRB3fL4ESPfAwngKUIKmV5fy+/foNa9S6yoONWnXsuUHPDBBVvDP5gyFCpHhxyocTuuL9aR8PL4K4l6Z+NLEK0XVK7O9qdqW4Y8AzVTMeGvRcFIdOuIcHPkscj7hz8PONA42q8exA8cyAKlIa8fzg+cIdtr/RiIctdqUfvbCq4qEBzxj7UZ+P/h3zx3l/uP3z7na7e7bsjb59qyyj6tv3jdUKAHM4m82V0jL71Od3MJvuBx7oXr37jT61GmwnZXfI7JNe342aM+q71c/YrSnXD5V9f/q47259P/6pScftQCD4647dtVO9l5/u2Ujgz5/+P11/RjqtaKWP0FMCQTG9M93xaEG0BAAgxXXGRguB5G41JDU9J8RDRUGSugopDNcHKVWmITWjLGCd2/cpRNlLGOAEkKTpSqSw0K1IaYCvkZrlfo7UDYgiIfl04n8HUzYquGFTnjNzdl6ab1u6kGPssrosu9XJ180jU3DUeS53mWuc6xwXukbgq+yIX+tSGy1ogy/K5phptmypHO4+KgfFf5WrKXstxtdZJr/vmew6e/oUGAkp52pIEpGan2twxjln3ggAAAA=");
 
 export default CalendarDay;

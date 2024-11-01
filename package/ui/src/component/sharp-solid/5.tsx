@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `5` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/5?s=sharp-solid 5}
  * @preview ![5](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/5.svg)
  */
-const $5: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M36.4 32L64 32l192 0 32 0 0 64-32 0L91.6 96 74.9 208 184 208c75.1 0 136 60.9 136 136s-60.9 136-136 136l-78.1 0c-43.4 0-82.2-26.9-97.4-67.5L2 395.2 62 372.8 68.4 390c5.9 15.6 20.8 26 37.5 26l78.1 0c39.8 0 72-32.2 72-72s-32.2-72-72-72L37.8 272 .6 272l5.5-36.7 26.2-176L36.4 32z" />
-    </Icon>
-);
+const $5 = createIcon("5", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABWQAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTCBKwsGAAE2AiQDCAQgBYMtBygbowTInge2TWq71CwmDePZYTx8zP3buUk+5ZUhv0jgGFxdFSEssjFv1u5Uriskc+9MOoW1ZsnX+//dfH7Pjw7wk5ziaGG6QMYCm/N5AonmicVZmAUOKaTbRJE6guiNGGES0tsTHl8HZLEyPaCC5EICx+pN4z8tHSBRkwKIBgAYv3ThbD+Woxzxz5c3xD9mIiDGg0IgRYo2AoySCrSRKZDJBOX48iX9AwsCiErtAyQgQ4qRGA/IQCKybGCpom62pFSRryzlJZHni6IUv42+9vqobyflcbDHw1atYma0jAudS3Gv56PWF3s87JLn7WNptO7wsMHDD7XW0fFamzYfxyluN9huq+NL1tbUrF1ynNqTN84b89y/Tnlg9eoNHFg+aZKWz4wAAsE3nX8/XP1R/1eXEvDv13/g8+JLOcYlD1EtAUHa60svq2KfIMYJAEAS+3TQHhRIDJTgq9ZxVoCQI0CiUi5AqrUGAmRyPQWo0M5gASrlFkpFViM0sXpAoo6dkBpiP2SaeAUVRvnDqdQk0ugRby8+b2lTEE3eKvr36VeMKJaJLgUEK8uRxbbebV9udKdd62y3zR5rrbHRHiC7zPb32mqKhSd7UaG/PvopjFC48+f4EmvtshuZLvvXjFSct7vZZ/d3J/mC9AFxSCRiJDEYAAA=");
 
 export default $5;

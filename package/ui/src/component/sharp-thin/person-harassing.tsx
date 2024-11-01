@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-harassing` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-harassing?s=sharp-thin person-harassing}
  * @preview ![person-harassing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-harassing.svg)
  */
-const PersonHarassing: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M232 56a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zm-96 0a56 56 0 1 1 112 0A56 56 0 1 1 136 56zM104 248l0 248 32 0 0-152 0-8 8 0 32 0 8 0 0 8 0 152 32 0 0-248 0-8 16 0 0 8 0 256 0 8-8 0-48 0-8 0 0-8 0-152-16 0 0 152 0 8-8 0-48 0-8 0 0-8 0-256 0-8 16 0 0 8zM95.9 128l5 0 118.2 0 4.3 0 2.4 3.6 100.9 152 4.4 6.7-13.3 8.9-4.4-6.7L214.8 144l-108.8 0L23.2 315.5l-3.5 7.2-14.4-7 3.5-7.2 84.9-176 2.2-4.5zM463.4 492.7l-42.7-42.7L408.8 438l-7.5 15.1-14 27.9-7.2 14.3-7.2 14.3-14.3-7.2L330 488.2 315.7 481l7.2-14.3 7.2-14.3 41.4-82.7 51.2-8.3L448 386.7l16 16 0-22.6 0-44.1 0-13.3 9.4-9.4 16-16 9.4-9.4 13.3 0 32 0 16 0 16 0 0 16 0 16 0 126.1c0 36.4-29.5 65.9-65.9 65.9c-17.5 0-34.3-6.9-46.6-19.3zm-90.5-18.8l21.5-43 9.9-19.9 15.7 15.7 54.7 54.7c9.4 9.4 22.1 14.6 35.3 14.6c27.6 0 49.9-22.4 49.9-49.9L560 320l0-16-16 0-32 0-6.6 0-4.7 4.7-16 16-4.7 4.7 0 6.6 0 66.7 0 38.6-27.3-27.3-35.6-35.6L382 384.2l-37.7 75.4-7.2 14.3 28.6 14.3 7.2-14.3zM464 240a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm-32-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96zM296 40l8 0 56 0 8 0 0 16-8 0-56 0-8 0 0-16zm-12.4 64.8l48 24 7.2 3.6-7.2 14.3-7.2-3.6-48-24-7.2-3.6 7.2-14.3 7.2 3.6z" />
-    </Icon>
-);
+const PersonHarassing = createIcon("person-harassing", false, "data:font/woff2;base64,d09GMgABAAAAAAOEAAoAAAAAB1gAAAM4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRSEdwsGAAE2AiQDCAQgBYMtBzcbfgbIHgPuDG64uonVZCOSJ6/49EYQv1+bff/deRKaNrMoViGRrF3DQydBEy1BtJG6w/NkV71f3aPqGa9QC53FiAglZ+cYjuBIWd1zP+9+9toin3dTA00/yThKq4imAx2Nt/+5nN6w8wbItxZgHspY26I1hsA9D/C0uajwBLKEsdFtN0VU1hmh0LhCljdM+CDtVM8A586Xxnc8VkPCcQAQcQCwutm/Jw9+5aPIU3sV4ildCCDaAhgkoAAF6CWABQ4CerkYyLgI/Ia17D/QIADCj0ckaM+gCZEJUQkgAxLadSORhvnNaqcioYTni7iDRFoP35Qfgjv3OrSPHH3CbiXOzJ5VQ9yR6h0SPPGyPA9BSkQ0ihNaI1oB9U7/JYMagpcuA9EhaZIhg1CQAcadKYNDwYlLi60yJE2yZB268k4p9zQxNl3u6TKp/LxXkB2Vp+A0Pp4ar50r6dIX597xzKUPRbgubQ8dOFxNWkmDg5Ay6sEnGSjb9Ma0GSxPn41sWoO1jnrW7lXw4N34tpEbyq4cHJCea3pNXbN7XJNefEq7fIueTXrG59RfvWnT6v6Yc4z6vH//fMxdeP/vFRs7CBKsDFq28V8oLghtrEkgbkepp/8zgcU0vSxgwj0NPVI39oaZ+j1Q7pOEAS+kHR/u8jbdZqk3bLO88PLON1RtqLQBK1MNEXDMDiJtNHFLecmiCz7/sNaaR8tmrIne97T5eucuhbj4UAOs9gK0V+4U9ZUpWzfTc/bO1+h6OIvGDSzTHvh0/fqnA5B63fZgsIsm2EZrtPl5FePMMt8/9m0gQMBHVq87Opb7E/QU4P/z93fwOm0fqDbEBVRRgICihq1hRCqBDxC/AISTLILiEZ3USMXQeOEm2xAYDTQwSPjRUJArDhlNdShRoKF0pqb/LLa4IQJpRiJQhJkLDo0sAZc0l8FHCw9DftLCeUfkT7j8EzVNpzrecZmZqVXHNDODDbnisZfqxeZmtmV4ER+ogiuZZLZZFphogqkW1Bjz9IwuNFOnMeGOvzXqqqUOoxmzun1bM6jmnmc+l/Ur1pPRnNk/UGnR+PgqaFd4ImdVJBSEir9SWTV3u/PGzv97AgAA");
 
 export default PersonHarassing;

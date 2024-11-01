@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wheat-awn` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wheat-awn?s=sharp-regular wheat-awn}
  * @preview ![wheat-awn](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/wheat-awn.svg)
  */
-const WheatAwn: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M493.8 52.2l17-17L476.8 1.3l-17 17L330.4 147.7c-.8-8-2.3-15.9-4.5-23.6L329 121l64-64 17-17L376 6.1 359 23 302.5 79.5c-1.5-1.9-3.1-3.7-4.7-5.5c-1.1-1.2-2.3-2.5-3.5-3.7l-.9-.9L264 40 231.2 72.8l-.9 .9-.3 .3c-16.9 17.4-27 38.9-30.4 61.2L184 120l-30.5 28.6c-19.4 18.2-30.8 41.6-34.2 66L104 200 74.4 227.8C28.2 271.1 27.1 344 71.8 388.7l8.7 8.7c0 0 0 0 0 0L18.2 459.8l-17 17 33.9 33.9 17-17 62.4-62.4 8.8 8.8c44.7 44.7 117.5 43.6 160.8-2.5L312 408l-9.1-9.5c18.1-4 35.3-13.4 49-27.9L392 328l-10-10.3c16.8-3.9 32.8-12.5 45.9-25.6l10.2-10.2L472 248l-29.5-29.5c-1.5-1.5-3-2.9-4.5-4.3c-1.8-1.6-3.6-3.2-5.5-4.7L489 153l17-17L472 102.1l-17 17-64 64-3.1 3.1c-7.7-2.3-15.6-3.8-23.6-4.5L493.8 52.2zm-388 302.6c-24.4-24.4-24.9-63.3-2.1-88.4c24.3 26.6 27.4 65.7 9.2 95.5l-7.1-7.1zm139.8 53.5c-25 22.9-64 22.3-88.4-2L150 399c29.9-18.2 69-15.1 95.6 9.3zM184.9 275.6c-24.6-24.6-24.9-64-1.5-89c24.5 26.8 27.5 66.4 8.8 96.3l-7.3-7.3zm140.6 53.1l-8.5 9.1c-18.6 19.7-49.7 20.2-68.9 1.1L229 319.7c30-18.8 69.7-15.8 96.5 8.9zM263.8 108.1c23 26.9 25.3 65.5 6.8 94.7l-5.5-5.5c-24.6-24.6-25-64.1-1.3-89.2zm45.4 133.3c29.2-18.5 67.8-16.2 94.7 6.8l-10 10c-18.7 18.7-49.1 18.7-67.9 0l-16.8-16.8z" />
-    </Icon>
-);
+const WheatAwn = createIcon("wheat-awn", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABsgAAAK4AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDUwsGAAE2AiQDCAQgBYMtBzAb0wURVZp7yX4klHE51juuOUil1ihyRxm/xMPzeV+d+5ISUj+FNJVqDr0CqJWMrbCdBAAEbY6jrbSPE62Qoa2ui8jFqZzLeSiAbxSUz5rdA8fSMYZAz3NeK6113vMCFqzgUIWebXsVRDTEG6HwhDyeicu0ka5P7+LS8KHxi8pZJG0ZgBgEwDrbbrmxF3+MHyPeaR4T79gQAbEOmCaQIcMkAVaXCUySm4ZcLvgxmkb8ByKAaJe8PoEcXXgLnwFykHTk+ZG9fb39ff09bX35Nuae7n3refWaMS+2imtGRmPLqGNEbIby1EgsiNWjjIj7Jo3EvLL82Uk3rTEcp6fqZqPQGlHfQL/tuZWeWKuOkbi3Xqt0jobUF7yAsuVFtZQ3bbvXAxMiTq/vr64fG9n6vu6ICxactpl99/xtHojFmnK0vKr7gpEFHOeuCKnENRTK1jNnhPSUsfebzXhg8IHfpr+7z7u/XYgCp5+up56hocBxZgwVBe8CLljn/299s8Hv3yj6elvngt9R4HfHWfrih8VzzvP4+ie43tXLXa/wrgLTi+NQoJnh4QdPP/3MRUOdVFlZzf98nwuXX1JRzdjHwVdcvs7qZ86sqNLMCdXn+1y0/Hnnnfd7q/xthoMvv33dNb7NKzpf39pQZ9UaP+ug07h87ev91mr9BggE/v3y810HVv+vsyeBn5/+44/6fdG8FE16AJ0SCLLxZnynRIhoBAAgxTFmuE0heUmH5FSvawQI3fSQtOuGzESDkOtWQ5spVmBPnrClTORdQmlnDEmvwyGzopMhV3oE2qzujUy7MjKIFuBR+KFM5XZMGjuyOEWx2dKKQMrZVc1pl/vJEQ/vEN2+PW0z1jiirzz/rnaPMl8ki1MUt7vP1WKEpXp7bl28v47m/Zj77U/3sFdKGJdVJolIzv/lpaPy3wAAAA==");
 
 export default WheatAwn;

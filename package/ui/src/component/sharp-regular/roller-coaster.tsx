@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `roller-coaster` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/roller-coaster?s=sharp-regular roller-coaster}
  * @preview ![roller-coaster](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/roller-coaster.svg)
  */
-const RollerCoaster: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M104 91.7C70.7 109.1 48 143.9 48 184l0 272 0 24L0 480l0-24L0 184C0 100.1 68.1 32 152 32l5.1 0c49.8 0 96.4 24.4 124.8 65.3L398.4 265c23.9 34.4 63.2 55 105.1 55l8.5 0c44.2 0 80-35.8 80-80l0-8c0-40.3-27.1-74.2-64-84.7l0 138c-5 1.8-10.4 2.7-16 2.7l-8.5 0c-8 0-15.9-1-23.5-2.9l0-140c-16.2 2.2-31.8 7.6-45.9 16L416 172l0 62.3-58-83.5 51.4-30.9c26.1-15.7 56-23.9 86.4-23.9l8.1 0c75.1 0 136 60.9 136 136l0 8 0 216 0 24-48 0 0-24 0-116.1c-16 12.8-35.1 21.9-56 25.8l0 90.2 0 24-48 0 0-24 0-88.7c-16.6-1.5-32.7-5.3-48-11.2l0 99.9 0 24-48 0 0-24 0-127.8c-12.5-10.2-23.6-22.2-33.1-35.8L344 270.9 344 456l0 24-48 0 0-24 0-254.2-48-69.1L248 456l0 24-48 0 0-24 0-366.7c-13.3-6-27.9-9.3-42.9-9.3L152 80l0 376 0 24-48 0 0-24 0-364.3z" />
-    </Icon>
-);
+const RollerCoaster = createIcon("roller-coaster", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABiQAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmCCcAsGAAE2AiQDCAQgBYMtBzUbdQXIhof/t4u671d1n57qMWoMLITIiEaIFmDIENTFqec5DwXwOaILbSxclgvIpk1rt8UpUNH6BipQrLVaRbF705J1RPYlM6mZScczHV8XyOPvuEWFdG96Cze3N42vtXMtSSUDEE0BMHX18oWe+yA+iHjz/4eJN81HQEwFpUCGDB0FmCAT6ChXIpcLPoj//8f/wJIAooo+OIEcGR7AAUAOksjzO+qVRvmqeqVYv79txD1SiCIisnhv8rOr63H92CN9V8aRngfq9Xi0/7EuEff1O9pL3FEUcV3riP09eoRYFfPjyXo9Xp74dFfB70cc7oGJB3tttm9v2FgVF7cOFoVYcrejTY9+2/WtXW/Zvf2Gz/mjc1NtDdFWUzHlyH1ToqKXHzadc0jfE8+UNU13roqaxtVWj13n7FpNo703uHpBe5OMXWaQCwbX3LJqZbua90+45zr7t3UMa121Z0fwSoPe/sTjKfCfwTNMz8EzjGlTcSG84lQgEJz7we33bm4y4ddaPYGPnvj+e/3p/z9IV6ajqEkgyAb8P8CGdCUgPgA7xfm6KV8USO6Q0FIbukuAUCBAUlUIkOmgqQC5Qn8BKjobKUBVYblM5A2EljYyJA2dBZlRLoNcSw9CxQSvWlUtIwtQLry472HyLInMPFUOHTSkHFduM4OPOaZuji/NSp/zS6cvnLXLGU53rp12OMm5AjvbQvc8p5mloTP9UGmoQYYojVO6y+f0Kjud7RwnrUX/MeOV580+ztfH+4KeEO0wqSQRqfETM3aePfBdqDvPBg==");
 
 export default RollerCoaster;

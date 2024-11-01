@@ -1,15 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment?s=duotone comment}
  * @preview ![comment](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/comment.svg)
  */
-const Comment: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M512 240c0 114.9-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6C73.6 471.1 44.7 480 16 480c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c0 0 0 0 0 0s0 0 0 0s0 0 0 0c0 0 0 0 0 0l.3-.3c.3-.3 .7-.7 1.3-1.4c1.1-1.2 2.8-3.1 4.9-5.7c4.1-5 9.6-12.4 15.2-21.6c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208z" />
-    </Icon>
-);
+const Comment = createIcon("comment", true, "data:font/woff2;base64,d09GMgABAAAAAAJAAAoAAAAABaAAAAH1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBRwsIAAE2AiQDCgQgBYMtB0ob4wTIjtRG9VVixcPzdn2d+6p+j91TYzODImfibiQpH4QLp9vxP/+Xe37Tjg7wg8jN8fxAFsjePd9gPQ8kn5hIGmVZhpq1s2Og5HfpEp9kmPwPmwvk8UN2WhXpavoKF+V/AOMXLZwmqZEBiPoAGLdkwSzv3Y/7Kb6qvER8ZSYCYjwoBDJkaC3ASJlAa7kCuVxwP1W4H5WCAKJEnpuBEjJMwRxADhIiz8fUqqqTL5afqbnhzsiIt6ZGfLbwzPDHh7428EzTS81ORJYims0u492fbPvB4sfGvDvjyyU/T/t81Nvt2j9R/4nf2n21+SuVb2uUKV/nzBRD/+pVzH2+5rRumwEAAjTosPlIjYmPTKxRLl8/M8UUZ66XyzWAQHD9+rMvrak38r/qtRJ4+MYf/+DB/yv3k/QEqksgyHpWelqZKDiHguBLcVj7RP2UQGaMBF61tksChJoIkJTUFCDTSn0BcjX1EKBK2SABSmpaIBN5DaGxVR0kte0DmcGOgFxjL4IqI31qlzSOzJkYV2D+comTGZp0rOjXu28xvFimGusfVFkdUWybXQ+nVjectdkeux20yUbbHCRyv1neIbtM1ohJvqjQT299FYYrjotHcTHZ+x2wbc6frzNCcd/q6rA+3A2nSYD+zxDJiBRZPftVe1ml1oB58wMA");
 
 export default Comment;

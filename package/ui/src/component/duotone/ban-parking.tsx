@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `ban-parking` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/ban-parking?s=duotone ban-parking}
  * @preview ![ban-parking](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/ban-parking.svg)
  */
-const BanParking: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M168 261.3l0 26.7 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-26.7-64-64zm14.5-124L237.3 192l42.7 0c17.7 0 32 14.3 32 32c0 11.6-6.2 21.7-15.4 27.4L342.3 297c20.6-17.6 33.7-43.8 33.7-73c0-53-43-96-96-96l-72 0c-9.7 0-18.6 3.5-25.5 9.2z" />
-        <path d="M367.2 412.5L99.5 144.8C77.1 176.1 64 214.5 64 256c0 106 86 192 192 192c41.5 0 79.9-13.1 111.2-35.5zm45.3-45.3C434.9 335.9 448 297.5 448 256c0-106-86-192-192-192c-41.5 0-79.9 13.1-111.2 35.5L412.5 367.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
-    </Icon>
-);
+const BanParking = createIcon("ban-parking", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABigAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCDQsIAAE2AiQDCgQgBYMtB1IbMQXIjtRWd+eIiofn7ao/973q3pmqNWoJfgiZEcHpIp0fUYq79v7n/5rP7/nRAX6jQ4vCSqwGitz6+QQmlFY0kAEV+ExnYNNt4hUhiV9ULKGI6Pj0+LpBEe/kazVI96bXcIf8D2D8aoBrSdozgOgOgOV7d2721FfxVYrXWg8Tr9mEgFgBaoGMjMECLJIFBivUKBSCr1IrX0VrTQDRJJ+dQROdcCIuBRQgyVJRdC4H9ehfNboUe6pGedKpp5z6WP3+9rd3v7h06ZMjP9jxzp7nFp1y4ocrI57d+mZ1y+bXlz+9+71lT216rbx5yxsrntmzVxBX9rmzuqXf3RGxY+/2HduruGW6zz29F8ejwx6acGROGTf3HnGk+5Hfh7926mvOHVFWvHNq19i+e/f2+Orvz4f18/6pygfOtbqdAR1Pr1z5dMeAdquxAurBRwZpYZmuN97YNWcGaXW1h/iJ4NHx0euqzm1Hjly5Trd7gEDw0WNX/nBct0X/t1UJfPPIn//WH5LWU0k6gjYJBHlSa5KjE0gEACDFpUYkOCSQTZfps3Z2lwChRICkqRQgG6S7AIXSRAEahpotQFNppyyKdqG3YwZIOrsAZHNcBgq9dYCGRV4MmnpHjjciWojvXuwahFZvq6dPmVYvqJelRoYQxusL62Nu3KVpNJ6OOtV5znWxU5zsDBcDcqHN8SXOsWYHr/ZFtemmmKa2QH3dbPfvcYoLXeQM5zm3bLJQ/d4a59L97PEkJoo6w4ksEylyrxNPOHeyT9tnnHvaZNed6GNpLwUAAAA=");
 
 export default BanParking;

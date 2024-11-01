@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `peapod` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peapod?s=sharp-thin peapod}
  * @preview ![peapod](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/peapod.svg)
  */
-const Peapod: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M416 16C195.1 16 16 195.1 16 416l0 80 80 0c220.9 0 400-179.1 400-400l0-80-80 0zm0-16l80 0 16 0 0 16 0 80c0 229.8-186.2 416-416 416l-80 0L0 512l0-16 0-80C0 186.2 186.2 0 416 0zM304 144a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zm64 48a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm-112 0a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm48 64a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM144 304a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm48 64a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z" />
-    </Icon>
-);
+const Peapod = createIcon("peapod", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABmAAAAI7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCZAsGAAE2AiQDCAQgBYMtBy0bYQXIjsM4JjzSxV30eHjerq9zX9VX9Rg1gLxQNtkKzhwqteMuZvH5v+bzs6YC+XYlfih3y9Z5JUUFTmBie+fLAJ4NbKYTsKmbUpR4SKWIHjJEaxlj/IMe79aQx1t2qiHdkeBq+dD4VXs3kGQZgGgGgGlrVizy/lfxVcQn1VeITyxAQEwDpUCGDJ0EmCgT6CRXIpcLvopqFf+BJQFELXlZAjkK3IJHATlI6vO8XYfGEqjUNM5Xt4xiz2crI2KKqMSXayCOKKJSVAT82cpoUUTEYa+V9w14qt8Tne/u+3j/J7sseqzjXR3u7P1wu9vb39GreEWT4Rr5Ksmma8w0hXm058PtXI/04f5Wqkd3f7LZk793s/tT9z13xLpRrBs5ch2j1jmy1FKrBnqoNFu6dGszSzkxZtPoTdU95sSmasg7cjX799+zzq7e/8Nrr/1wP/vo0MFduw4eyq4Why9cOFzMd9+Q/e1AIJjacukrW5pO/L++ksA3b/75K/+MVN9P0pOol0CQDawOtDGBRAAAUpzWPUEguUY9eddGbhUgFAiQ1CoEyHTUTIBcYYAANboYJUCtwgqZyBuEVjZdIGnkGMiMdgnkWnkJ1Jjog1CtVpG5ps6xdD+GmWfP0Kxl5bDBQ8vx5bFs6L1Nk8cnlLfdfU+ntn6karcjDjtpl532OTmRxy2KnnLIbIuY5YtKwww2VGm88nHtdfVquxx3wj5HHOZFJijf9/d12u7dj3yJSA5nTZ8gK9Ue3bXt6JGdAAAA");
 
 export default Peapod;

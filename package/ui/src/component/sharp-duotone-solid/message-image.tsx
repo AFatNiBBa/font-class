@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-image` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-image?s=sharp-duotone-solid message-image}
  * @preview ![message-image](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/message-image.svg)
  */
-const MessageImage: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 0L512 0l0 416-208 0L160 512l0-96L0 416 0 0zM96 280.5l0 9.1 0 8 0 24 24 0 56 0 24 0 48 0 24 0 120 0 24 0 0-24 0-8 0-7.6-4.4-6.2-96-136L296 112l-19.6 27.8L219.1 221l-17.1-19.3L184 181.5l-17.9 20.2-64 72L96 280.5zM112 128a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-        <path d="M144 160a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm171.6-20.2L296 112l-19.6 27.8L219.1 221l-17.1-19.3L184 181.5l-17.9 20.2-64 72L96 280.5l0 9.1 0 8 0 24 24 0 56 0 24 0 48 0 24 0 120 0 24 0 0-24 0-8 0-7.6-4.4-6.2-96-136z" />
-    </Icon>
-);
+const MessageImage = createIcon("message-image", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABjgAAAIeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCSgsIAAE2AiQDCgQgBYMtB1YbcgXIhof/9nvffWZuXgDofgYusANCF50qUlVxJRAqq5JV9Zv/az6/50ft3+jQImoBUsCdOqDRQCMtmjYcyIRmOgPb7qqlUGrtI0kSS4PHZx7PuzMU8Xt+QQ3p0/Qj3sb/AYy/9HuBpD4DiDYAbDl17ICJyZhM8WP1K+JH+xEQW0EpkJExJMB6WWBIoUShEEymapXJqFZLAogKfH0GFdTiebwHKECS5KLonNY6rbOxprk4iY81nHu9N+LjeLbno4bXuj7wTPeHjafmzpk7O47HXE+beFcAsrE5YkZPnMytLa0pGgZSxEn5jMByMkGee+qZ7ogPG1/vvbOPqeNt4/9M+fHmj94ebXmFV1pino0+61zn32P1YUmnTpt2OalenT59s/vUqbPCpZdNYMyv3r7ksjFjl/rqqfjEsHXWjGj95NzzQCBY8/nGvZda1/9f15jAH1//92f6IalOJGkcdRII8vzqfOcTSAQAIMUTpiYuI5DtkNGnNvlIgNCAAElFgwDZoDYBCg3mCVBjxAoBKhock0VRL3S5UEDS5GGQrfQkKHT5EtRY75tURVdkdWSVif0YTNpZQzumlUsWLi7XlsO8zGkYHfrXldPW7Cdc3RzY6aYHPeAxN1x3x2MV8ogD2cfdbycH7/BFpSUWWqy0Viku3UonTeoRj7rTF+TjrFPuT872BN96DrgJUS61IstEitytpdz/PNqCl92ktyO8Yg==");
 
 export default MessageImage;

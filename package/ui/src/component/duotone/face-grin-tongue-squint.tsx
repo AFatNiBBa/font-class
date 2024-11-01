@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-grin-tongue-squint` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-grin-tongue-squint?s=duotone face-grin-tongue-squint}
  * @preview ![face-grin-tongue-squint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/face-grin-tongue-squint.svg)
  */
-const FaceGrinTongueSquint: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256C0 368.9 73.1 464.7 174.5 498.8C165.3 484 160 466.6 160 448l0-47.3c-24-17.5-43.1-41.4-54.8-69.2c-5-11.8 7-22.5 19.3-18.7c39.7 12.2 84.5 19 131.8 19s92.1-6.8 131.8-19c12.3-3.8 24.3 6.9 19.3 18.7c-11.8 28-31.1 52-55.4 69.6l0 46.9c0 18.6-5.3 36-14.5 50.8C438.9 464.7 512 368.9 512 256C512 114.6 397.4 0 256 0S0 114.6 0 256zM116 141.1c0-6.9 5.7-11.9 11.9-11.9c1.9 0 3.8 .4 5.6 1.4c30 16 59.9 32 89.9 47.9c10.7 5.7 10.7 21.1 0 26.8c-30 16-59.9 32-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6c12-14.4 24-28.8 36-43.2c-12-14.4-24-28.8-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6zm172.6 37.4c30-16 59.9-32 89.9-47.9c7.9-4.2 17.5 1.5 17.5 10.5c0 2.8-1 5.5-2.8 7.6c-12 14.4-24 28.8-36 43.2c12 14.4 24 28.8 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5c-30-16-59.9-32-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8z" />
-        <path d="M133.5 130.7c-7.9-4.2-17.5 1.5-17.5 10.5c0 2.8 1 5.5 2.8 7.6l36 43.2-36 43.2c-1.8 2.1-2.8 4.8-2.8 7.6c0 9 9.6 14.7 17.5 10.5l89.9-47.9c10.7-5.7 10.7-21.1 0-26.8l-89.9-47.9zm245 0l-89.9 47.9c-10.7 5.7-10.7 21.1 0 26.8l89.9 47.9c7.9 4.2 17.5-1.5 17.5-10.5c0-2.8-1-5.5-2.8-7.6l-36-43.2 36-43.2c1.8-2.1 2.8-4.8 2.8-7.6c0-9-9.6-14.7-17.5-10.5zM320 448l0-45.4c0-14.7-11.9-26.6-26.6-26.6l-2 0c-11.3 0-21.1 7.9-23.6 18.9c-2.8 12.6-20.8 12.6-23.6 0c-2.5-11.1-12.3-18.9-23.6-18.9l-2 0c-14.7 0-26.6 11.9-26.6 26.6l0 45.4c0 35.3 28.7 64 64 64s64-28.7 64-64z" />
-    </Icon>
-);
+const FaceGrinTongueSquint = createIcon("face-grin-tongue-squint", true, "data:font/woff2;base64,d09GMgABAAAAAANcAAoAAAAAB0gAAAMPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhEyDZAsIAAE2AiQDCgQgBYMtB2obIAZRlA5GkezngW1MbbgIhkmItoXDYViEAzSB8Ys3ckLj4hrB9/v99px7UWl45ics4aFqiWIh0WkWKiEyhGKJkDzRLL+/P/Wv8wC+hPbixEKLElur22pFK0itf+zn3pupNEwlzri+HxlJPIlL82Sh0TgSVVX4x/08X4K0P1oCzofyo4ZZGInDTC2BAXaeR4oPdQa2Ub2CA52/OK6docZLOddG3uQzcBH8D2B8U/qQugqAGIQAbOwVOfq94mvGc3NMPCuDBMQmhGkYBQXjMFhGBcYx05CqCl6zaXiNppmGAoh2wQcKaEcnHoAvACpIRan1gkql82vNbCqX0hCMZrVOSRAnIC5NxzSUMClvxGkkZAuOusa6gbQeJ+XODMycRDavaULAORsLlxUTrISsXgA469ywrrm31PgJ0/g5RLz0TR3zS5/qv0v9PpOS7STAuOK7MZ77lfNY8d7wUfaadV/XOC0fWdhbepE8CXHJhOQ8aUI2hYR8y73pmsJ6IIN4lTotRSF/Uoq3yAaH7DJl02VMm4LN35nXgVeY1pMDUEOnmlIgBUxUek1OT5MfYkxmrHD8N/tjrIOIVqjJ2eKrSUnzRvEKggSCbMfqHEe2gASEwgssoXB+PlVnwT3+LIB9ylU/Gj+UKJ31/WMHBQrhYKyOT1aW+EHzM4+sIfw+UA+FCuUoUagQiFGlAgpjUdY82bhyghhjMoZWTgF7nl4ikUolZsq2dfUEAAXfCVDMieFEhGTEl3Qn+980xGDGVEIQCF5/7n2d/OX/TnaC97u/X+XvqLlPeYtOCYLSalqaBEkAADLOCMkJJFDso6K1vS4FCN1oIbXrhmIMB1W3WWgzycN2rtlCRe0SRrUgpF6HUCx5QzXqC22W/YPtRqOobUJlEn+W6bI+K+0FQd2EGBaTalK5Ym5zArv1jhcvkuBCNDgdHnqd2aMnuMkjT7tsTTP9LrDoTCAGpzOPdTUO3tzN8/T5bhJwv1v0Wq8sQRMRaZ0zpChERpmyOf20weh8aEOhY3y2tljkSc0Pza5Uxa/RlgMAAAA=");
 
 export default FaceGrinTongueSquint;

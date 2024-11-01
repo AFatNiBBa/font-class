@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `galaxy` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/galaxy?s=sharp-thin galaxy}
  * @preview ![galaxy](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/galaxy.svg)
  */
-const Galaxy: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 184c0-92.8 75.2-168 168-168l27.3 0-9.8 8.9c-31.4 28.6-52.7 66.1-61.2 107l-3.1 14.9 14-5.9c19.9-8.3 41.8-13 64.8-13c92.8 0 168 75.2 168 168l0 27.3-8.9-9.8c-28.6-31.4-66.1-52.7-107-61.2l-14.9-3.1 5.9 14c8.3 19.9 13 41.8 13 64.8c0 92.8-75.2 168-168 168l-27.3 0 9.8-8.9c31.4-28.6 52.7-66.1 61.2-107l3.1-14.9-14 5.9c-19.9 8.3-41.8 13-64.8 13C91.2 384 16 308.8 16 216l0-27.3 8.9 9.8c28.6 31.4 66.1 52.7 107 61.2l14.9 3.1-5.9-14c-8.3-19.9-13-41.8-13-64.8zM296 0C194.4 0 112 82.4 112 184c0 19.7 3.1 38.7 8.8 56.5c-32-9.4-61.2-27.5-84-52.7L13.9 162.6 0 147.3 0 168l0 48C0 317.6 82.4 400 184 400c19.7 0 38.7-3.1 56.5-8.8c-9.4 32-27.5 61.2-52.7 84l-25.2 22.9L147.3 512l20.7 0 48 0c101.6 0 184-82.4 184-184c0-19.7-3.1-38.7-8.8-56.5c32 9.4 61.2 27.5 84 52.7l22.9 25.2L512 364.7l0-20.7 0-48c0-101.6-82.4-184-184-184c-19.7 0-38.7 3.1-56.5 8.8c9.4-32 27.5-61.2 52.7-84l25.2-22.9L364.7 0 344 0 296 0zM244.7 307.3L256 318.6l11.3-11.3 40-40L318.6 256l-11.3-11.3-40-40L256 193.4l-11.3 11.3-40 40L193.4 256l11.3 11.3 40 40zM256 296l-11.3-11.3-17.4-17.4L216 256l11.3-11.3 17.4-17.4L256 216l11.3 11.3 17.4 17.4L296 256l-11.3 11.3-17.4 17.4L256 296z" />
-    </Icon>
-);
+const Galaxy = createIcon("galaxy", false, "data:font/woff2;base64,d09GMgABAAAAAALoAAoAAAAABpgAAAKbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1yDPgsGAAE2AiQDCAQgBYMtBy0buwXIjsN02yOHjBjJ4TI+jcTz8Pv7b+3z7h9RSUoS64QyTaEpyl1sTFCaRP+//da7qI6c3yYiIk0sNCiVxpqGIsksbkXSqrWd/t6dfx0b8Jn8r99obJqTRgMkmvM8gS6xPO/CzrPAMg2EUs3a6Qf/g3CLQfqEJO3qh9UNqtyySR3lbHmInExvmq80axS1GoC0QACmLF042/33eZ88+H+FPNBFIFNAD0ANNXQBMJ5e0IVBD6RSCe/z/z//ByoUIPXg1yigQj3cwjMEKlBUVTVtoqbZjU2rJY3rGq18Mwm4t7Rx2mTSg0HmovGrCdPF0i6zme3As+/l+MmiRmmfeW8JltNGryfOliRtM53RFiIHWfpyHvJ00VLH+4khiFDk1fyvxbv9D8cHwGJv/Gbhz9LlTncTguBBktcLvpfs9DmZFIaMbVlbwSXqkRGpRYSlEhaeanvBxa1IJpwJnqDFEp/Q67rF9feer1teLdbPzJ/o30x0tuX322H05793I/9+ZmZn2nb3+0dDj3pvWD9mMb89Xx90cW12RqPR6XfbadZ3m3e4BMwene6n27n3Czb8xUc4gVm3m8JnnkYbRt2gctRNXx91UdMv4MKWdO2Ccj8Iwt9PJ76udY//1cBewMebP7+Sb9H/+0W5gAYKCLUh/yMGBRQCACg5olchBMUlFbxqE6cERCMEFPU0ElDTmQdApZHBAOp0kwVQTyML1aRqKNoYNlA0sR/UjDMGlTZuQZ3xHjr1tInejiUrlH6R6TM1NONcj2QsoUpqOlRl0xTCcVltW4GRLAXpqi322uOQzTbZ7pBiDpjdP2y3mStshg/qISkmQSlRx5N7fYmKDjgowlg5P6VM3c8CRuvNQXILcI5ilicYKPW2rt+1/thxAAAA");
 
 export default Galaxy;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-turn-up` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-turn-up?s=sharp-light arrow-turn-up}
  * @preview ![arrow-turn-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/arrow-turn-up.svg)
  */
-const ArrowTurnUp: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M16 480L0 480l0 32 16 0 176 0 16 0 0-16 0-441.4L308.7 155.3 320 166.6 342.6 144l-11.3-11.3-128-128L192-6.6 180.7 4.7l-128 128L41.4 144 64 166.6l11.3-11.3L176 54.6 176 480 16 480z" />
-    </Icon>
-);
+const ArrowTurnUp = createIcon("arrow-turn-up", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABUQAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBFAsGAAE2AiQDCAQgBYMtBzQbmATIHoVxMz2yO8pHYRfx8P3e3Lnvv7QtCbV8Wmuq1e5xzWHJShRRcVQjMlgGid7iZO6Q2vd483/N5/f8GvAbHVoUFhVIgWc+P4ETK6vnW4sMbKA8ppm7Wi1i0b7SIkvy+OgeXyfkeBwztZA+pnhbPzT+Gu4NSS4ARD8ArNu/e5fevuiL+N2U+G0HAmI9KAUKFBglwEqFwChZiSwL+qLZDP+BJQFEK71kAhkF5mAxIIMkcp5SbannfXljZXilWhHVakQRe2NwzIghsY/RQbHnxtNiaOyPFJXx3f26//H7XM1+/fqV+vX289WZ0xrO6fH8uYZGsnuc05i+57NPQCBY/q7N8a6V/9urCfzpafKjm72xP3WjXQJBMbM505F4gWmxXwAAUtwzPl4gkEyRAAAA1LwTIFQQIGlVEaAwUj8BsooZArQYY5EArSp2K0TuEAY52kFScxMUFnsKskG+gBYrfbNbDYoCMuyDsx+2pM0W2jRWzps9t1xeLn2NQwEt/RXltjz1XsxNo0XnXHfNHWedcdEdQ96yy7vrqs0evMkXleaZba7ScuVx9Di9z1m33HbRddfKkBXK+9ZU9/zqaaQlSjnfSpKIVD9569b1+7OAqs+6ewMAAA==");
 
 export default ArrowTurnUp;

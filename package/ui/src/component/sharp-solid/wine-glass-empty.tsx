@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wine-glass-empty` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wine-glass-empty?s=sharp-solid wine-glass-empty}
  * @preview ![wine-glass-empty](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/wine-glass-empty.svg)
  */
-const WineGlassEmpty: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M78.2 198.5C73.9 246.5 111.7 288 160 288s86.1-41.5 81.8-89.5L229.6 64 90.4 64 78.2 198.5zm-63.7-5.8L32 0 288 0l17.5 192.7C312.3 267.3 262 332.9 192 348.5l0 99.5 80 0 0 64-112 0L48 512l0-64 80 0 0-99.5C58 332.9 7.7 267.3 14.5 192.7z" />
-    </Icon>
-);
+const WineGlassEmpty = createIcon("wine-glass-empty", false, "data:font/woff2;base64,d09GMgABAAAAAAIwAAoAAAAABWgAAAHlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBJgsGAAE2AiQDCAQgBYMtBzcbrQTIhofv7f77tU/30+0xegApm5pImRSCH4rEJHj1Q0fC9Df/vPMowAcizXEeyJhAc54n0Hne5YlH7Q/2Tb+AfWtnT/wgskqf8kl26WKYrJDHuuyiKtKt9C2upQ+NH7R1kaQuAxBNADBl1bIFPqyP+ohv/n+b+MY8BMQUUApkyNBBgPEygQ5yJXK5oD7+/9//B5YEENXysxPIkWMkJgNykKQ8b9KpqGqYryyqKqvu9ol4POLdfk87rYxKLJ+5avmqhrEiHvV/Nl0UISqViCIiPh/4olvXJ02e/NTl253fWvBHi92cmTz5zO4WxSWXFZd+bfqhkzGb6f39X+u3WWyyw4cnW2yb9X99PxoIBOWrj5dsajz+19oige8++OUn/hkV/38YI9IT1EogyPr/39/6OKlQxAgBAEhxUteYrBBIBkrsXhu4LkCoIEBSrSJApr0mAuQq+glQpZMRAlSrWCYTeZ3QwoYKkgaOgMxIF0CuhTdBlfG+0Kq1iAw7+MnjP7eYmRKaMVYOGTi4HFt2fYWAAxr648phpfdJzvWhRTsdctBxO2y3x3GBHLXAPOGAmRo8wxeVhhhosNJY5XR0O7/SDkcds8chB+OQccr1am8n9eo+NE0CDN11TyJSk7fKDbgr3AAQAwA=");
 
 export default WineGlassEmpty;

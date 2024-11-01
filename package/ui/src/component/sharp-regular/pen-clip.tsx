@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `pen-clip` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/pen-clip?s=sharp-regular pen-clip}
  * @preview ![pen-clip](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/pen-clip.svg)
  */
-const PenClip: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M10.2 461L0 512l51-10.2L160 480 399 241s0 0 0 0L433 207s0 0 0 0l45.1-45.1L512 128 478.1 94.1 448.4 64.4 448 64l-.4-.4L417.9 33.9 384 0 350.1 33.9 305 79 257 31l-17-17L223 31 103 151l-17 17L120 201.9l17-17 103-103 31 31L32 352 10.2 461zM305 146.9L365.1 207 136.3 435.8l-75.1 15 15-75.1L305 146.9z" />
-    </Icon>
-);
+const PenClip = createIcon("pen-clip", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABYQAAAHqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUiBXgsGAAE2AiQDCAQgBYMtBy8b3QTIjsO44TuyxVL+I4jWyurZfQ7DhpkVkCcW6m0IHes4IIcq+pIZ8mficvz3509/Po0eZazts/O35jpPIMAuS7tsi2SBZZqA5bfzu06I6E0iXYqQYbv+sP0L5PE0Vka6meB8/tD4paVzJGUZgGgAgAnLFs3x6mt8jXhfuk+8NwsBMQEUAhkytBFgtEygjVyBXC74GqWS/Q8sCCDK4aUJ5MgxH2sBOUhSno+pqSmrmy8NreqmRadiWizzwGk9pggZGz0j5J5NHk2MjLvH4hSPiV6bco9eLt62YOGCwpwe7FjboPZPB1u5cwnX9rC7qb9/QUPwQUMNfQKf+LwPSuDYMTTE1q3+HhRNd3cd8RTtnz/NrKfeTPVpEAgGHf94cV390f8raxL4/uTfP/MzUnqVpFpUSiDIepd6W51AIgAAKY7qmCCQTJfgXeu4JkCoRoCkXLUAmdYaCJCr1kuAMu0MEaBctUUykVcJTazpRFLHASIz1HEi18Rdosxor6tyTSLTK04ruL+65KkSnLKvGNC3fzGymHY1XlWYuD2q2La7H3VTPeikrfbZ67AtNtvhsIAPmtM5Yo+pK2iKLyoM0Fd/hZGK68GjvJSRgw7ZYe6932WU4n3e3dH14h7kJSAd6GiSiFS5f8vePp81");
 
 export default PenClip;

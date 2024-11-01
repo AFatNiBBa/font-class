@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `computer-speaker` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/computer-speaker?s=thin computer-speaker}
  * @preview ![computer-speaker](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/computer-speaker.svg)
  */
-const ComputerSpeaker: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M288 96L80 96c-8.8 0-16 7.2-16 16l0 224c0 8.8 7.2 16 16 16l208 0 0-16L80 336l0-224 208 0 0-16zm0 304L64 400c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48l236.8 0c3.3-5.7 7.2-11.1 11.6-16L64 32C28.7 32 0 60.7 0 96L0 352c0 35.3 28.7 64 64 64l224 0 0-16zm12.8 64L104 464c-4.4 0-8 3.6-8 8s3.6 8 8 8l208.4 0c-4.4-4.9-8.3-10.3-11.6-16zM576 48c26.5 0 48 21.5 48 48l0 320c0 26.5-21.5 48-48 48l-192 0c-26.5 0-48-21.5-48-48l0-320c0-26.5 21.5-48 48-48l192 0zM384 32c-35.3 0-64 28.7-64 64l0 320c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L384 32zm96 368a80 80 0 1 1 0-160 80 80 0 1 1 0 160zm-96-80a96 96 0 1 0 192 0 96 96 0 1 0 -192 0zM496 128a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zM480 96a32 32 0 1 0 0 64 32 32 0 1 0 0-64zm0 240a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm-32-16a32 32 0 1 0 64 0 32 32 0 1 0 -64 0z" />
-    </Icon>
-);
+const ComputerSpeaker = createIcon("computer-speaker", false, "data:font/woff2;base64,d09GMgABAAAAAAMEAAoAAAAABywAAAK6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGiDfgsGAAE2AiQDCAQgBYMtBzcbBQbIBp7PnPa+5GRaOSmiu0TEpz2RFwjzP+fShc0H+Hmg86FEXoUWVlhEPT+BE0nKFDk8a1G/wXkjDjA0hvI1sOQPHfCAWqpuALPzB5U3xDMBFFoDACBhAABA2cb1a3LGFVfkRuAgyA2qAwIg5QBwEEADGkhCACiBRoAkLBzAwkLAlUCA/Qc6IAAgXgJCMcsC/MAD4AX0J4LCtqzoNF9Cgj8xOFJ7bI/faiSnms7GNguikIXRtogYgtgaNXDipphFCVqWxy7ObMviWCMbsmyJU7I069aMtkjaDp79viim88ZokYXxSpZELchgxKqNYI8IvrvN2bcnalmWbVsm0/RQrl25dxc+mHNnjh0FGo2JF1macaM9PfPmxOUyNmFZpk1mWoYNcUtovCBqUczi2IXRCdOiRBYwJnqhPT12sYyNWWQYZWfVTCM9IpxdNWkB6baFbXuXdqPTDVJb3wncbogLj7tDGHdwyc153GDePPduatA37+V5R5VGP1kTHm7AmIg1LmG3L0J3G6+3zTp3oyoRq4kZOF7GfIaWwsynQ3eYgeNlzGfACk5p3fvMoMaNB51JJ7aunXARLrboER/fo8XFiwkoB8X0Ph3iuiFxZCBkCkwJwTlQ/3GUhcXs7QAggECRCY+Gtg4t8S3IVgA8Pvbhd344AVeNUduAIBQAAjpHIAct1BgARhUA8CsZRLqZFxJAcRebwOFj0d6gYKAGhRcDmkTCwMKQHTykUJBfObw+GrGCEaJoCUHhoy9oCjESLKLYDx5KcNnnJUr0dS5epeJfZppKbbziICdvrjxOMWcyp5QuXV73FndWW7IM4jVZ4RQ60ZteDKAjHeiasy2yHzWDA+lJpTl6xec65CUXeXAohrO7eF/TCLOp2t/y48r+forjnO/IwqD55lmhXREw5iNDoUBU2CNjyPlZBA==");
 
 export default ComputerSpeaker;

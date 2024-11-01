@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-dashed` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-dashed?s=light square-dashed}
  * @preview ![square-dashed](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/square-dashed.svg)
  */
-const SquareDashed: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M88 32l24 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L88 64c-30.9 0-56 25.1-56 56l0 24c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-24C0 71.4 39.4 32 88 32zM16 192c8.8 0 16 7.2 16 16l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16zm416 0c8.8 0 16 7.2 16 16l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96c0-8.8 7.2-16 16-16zm0-32c-8.8 0-16-7.2-16-16l0-24c0-30.9-25.1-56-56-56l-24 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l24 0c48.6 0 88 39.4 88 88l0 24c0 8.8-7.2 16-16 16zm16 208l0 24c0 48.6-39.4 88-88 88l-24 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l24 0c30.9 0 56-25.1 56-56l0-24c0-8.8 7.2-16 16-16s16 7.2 16 16zM32 368l0 24c0 30.9 25.1 56 56 56l24 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-24 0c-48.6 0-88-39.4-88-88l0-24c0-8.8 7.2-16 16-16s16 7.2 16 16zM176 480c-8.8 0-16-7.2-16-16s7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0zM160 48c0-8.8 7.2-16 16-16l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16z" />
-    </Icon>
-);
+const SquareDashed = createIcon("square-dashed", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABpAAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg1CDAgsGAAE2AiQDCAQgBYMtBzQbhgXIhod/5nq7L8mn4XLKKREpYFi3DgHUdwskbM5aVLWd+b/m83t+1P6NDiVyFRpRGBFWAhNob2rQjYazieIWt90cMQlphMgOsngxpuogeT75DY+GD42/DXYXiSwFEC0ArNq9fZveMsqI39pfE7/ZgoBYDQqBFCmGCbBUKjBMpkAmE5TRbov/wIIAolP8hgnIUMEb+ACQgUR3lg2p1wcPGVKrVzvq2a5qR2V/tVJ9esBT/SvxVv+ncvFU/2cGRrw65cMFO54e0B97dlBdKKMMvDDwmfGVhqZJ1fh60vvD13J2Ci9NfG/ukvPdQc8O3b3w6QE14fkBT4+rxkvubyZ/MGJRuXOfELT7Gvb0c0d/0Prg31G/nfrN7lfzPC8bjTJ35fb/XblGWTZy2X33rdzwatk4olEWTa/1lMV2Wtf/t6/krpEr77svCzb/zPOcj8zdqHhtsex+Z9l49PLEdERhbn7a8vhyIBCse7gzO9xcequ7moC/fvj/ljxfu4ze5AN0S0CQTm1PdSB6AY8IcSiJO4ze+KJA4gXd8KvWPCNAqCBAolNFgNRQLQEyFVME6DDCPAE6VWyXiqxH6O9gBxI1V0FqvjtBpr8vQYelfgx26h8ppPJwxv8nplg/hNbNK2ZNn1ksLlYLGgH4WDu4pDhsmHiHbJiEtzrlsktuOOmEs24MkGu2RW66aP0WvM4PFWaZbqbCYsXl8lPFLhq85rqzy1rXZ1mieN4y0R3b7SdhcyKmnC0jkRBJ/WNPnnbi6PUzJ08AAAA=");
 
 export default SquareDashed;

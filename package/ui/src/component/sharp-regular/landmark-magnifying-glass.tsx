@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `landmark-magnifying-glass` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/landmark-magnifying-glass?s=sharp-regular landmark-magnifying-glass}
  * @preview ![landmark-magnifying-glass](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/landmark-magnifying-glass.svg)
  */
-const LandmarkMagnifyingGlass: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 288c-16.7 0-32.8-2.6-48-7.3L400 384l-64 0 0-141.7c-5.8-5.7-11.1-11.8-16-18.3l-32 0 0 160-64 0 0-160-48 0 0 160-64 0 0-160-48 0 0 160-8 0-24 0 0 48 24 0 400 0 24 0 0-48-24 0-8 0 0-96zM256 0L0 144l0 48 48 0 253.3 0c-6.5-14.9-10.8-31.1-12.5-48L97.9 144 256 55.1l40.1 22.6c5.1-15.4 12.5-29.8 21.8-42.8L256 0zM0 464l0 48 24 0 464 0 24 0 0-48-24 0L24 464 0 464zM448 48.1a80 80 0 1 1 0 160 80 80 0 1 1 0-160zm0 208c26.7 0 51.5-8.2 72-22.1l63.1 62.7 17 16.9 33.8-34-17-16.9-63-62.6c13.9-20.5 22.1-45.3 22.1-71.9c0-70.7-57.3-128-128-128s-128 57.3-128 128s57.3 128 128 128z" />
-    </Icon>
-);
+const LandmarkMagnifyingGlass = createIcon("landmark-magnifying-glass", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABgwAAAJQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCKgsGAAE2AiQDCAQgBYMtB0AbOgXIhofn9f77tU+Sh9wxMnIG9jdcSSoaqvqV7sQ1z//86QGT+NGiqPXPK+wpen3eYBNLTbDW2XA2kwn4dqdNzSGsXJKUJTm+yXE57CGPf+IaBenW9DGujm8av+nrApIiAxBdALB459b1Xv86vo74qPkM8ZG1CIjFoBLIkGGAAPNkAgPkKuRywdfRbNJ/YEUA0YKfnUCOVpyEcwE5SIo8H9u9vWP/RtEx39Eoyv0vGynKiLipVxklbXGlaHQMI3bbtnNb2tm4rV8ZO2N23N5/wy6C8Ct3e2bCI+MfnvbsxEcnPTbTc+M2x5hYGGNjSzw0+L4Fr654e97L1b3zX1k+9MEuD/4x5OODPvba3X0POtgiV7n40Mo9FrlHjYG2PrU+9+dQ2z6vDW5eTVev1f/d2Pc1d+7iJCd99WXzs7qu+/xc6zPq7jdO3LnzpNdfP2nnzhPf+Pyc7/9EV/xpQ1sxdenmzUunFi14iU1AILj4vkU/7t153t9tjQS+ffGvv5izm6+n09KDaJNAkI1vjrdHOgctwqIArRQnGQofFEiOUuBX7eAmAUKJAEmLUoBMf10EyJXGCVAYZLoALUpbZSJvF3rYs8JJB8fCmRnOhHM9PAUX5nnPbNEjMu2jdYd++yWsaIHly6rJE+tqTjVMFEahSD86t5qWR5/kGmNgo4Mc7SgnONABDnVCAx1nvXOiI62QwOW+qDLZRLXKHNVyfr96hwMd53iHOtpRYZy5qv36aCfJ3ceAljDhFLEkEanvOSX1VJzwg27koFMPPergCZcOAAA=");
 
 export default LandmarkMagnifyingGlass;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chromecast` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chromecast?s=brands chromecast}
  * @preview ![chromecast](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/chromecast.svg)
  */
-const Chromecast: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M447.8,64H64c-23.6,0-42.7,19.1-42.7,42.7v63.9H64v-63.9h383.8v298.6H298.6V448H448c23.6,0,42.7-19.1,42.7-42.7V106.7 C490.7,83.1,471.4,64,447.8,64z M21.3,383.6L21.3,383.6l0,63.9h63.9C85.2,412.2,56.6,383.6,21.3,383.6L21.3,383.6z M21.3,298.6V341 c58.9,0,106.6,48.1,106.6,107h42.7C170.7,365.6,103.7,298.7,21.3,298.6z M213.4,448h42.7c-0.5-129.5-105.3-234.3-234.8-234.6l0,42.4 C127.3,255.6,213.3,342,213.4,448z" />
-    </Icon>
-);
+const Chromecast = createIcon("chromecast", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABbAAAAIaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBZgsGAAE2AiQDCAQgBYMtBzEb5wTIjpQuZyQR1Nt863m7UtkrGXn9IzNxBhQRHIaXncIjzoA4I4h/hexPnXqe81AA3yhoY+HSjQtsz/MIBDA2fGKt571asVZRrLWz+4FB9Iv06VM+ybC9DJMd8ngxbquQHknv4Fb50PhVN1dIKhmAaAuA6WtXLvbaD/FDxDvNTxPvWIiAmAFKgQwZegowSSbQU65ELhf8EM3N4T+wJICo4hdNIEcVq7EVkIMkz/OmVq3b1iqt8jW1SrG33qp+teP9rqIWEa0iRRGiFte6PNQji0c7P1jsihj0iwMahTzM0/0f71WLx6a8Mmd1rah9NuKJBW+tEZ8u/3B1U6Nt43fv7HnHq+cv0J32L70Y0ww0zQUDPGCgB7R/8aUYIOp6+8ZUTDNNz77telg9APMffPtdfaDejz7y16v3B/LzTfvlvylLpxtoeaxeHcuBQHDm3a8Obm0z6f8WtQR+euHP7X4n4tfUQAsJBNmg5kE2JTrpZEwKICPFGU34JoFksRzete5BAUKBAElVIUCmh7YC5AoDBajobbQAVYWVMpG3FDra3EFSdxxkxjgLch09CSomed2o6hiZbxGeQfzsYudoaPZUOXzIsHJCOQ0I6S5YGk4sl7l+Z2KhPzbtcdQRp+y2y36nFHLCYvu0w+ZY8Gw/VBpuiGFKE5Tb8ePyGrudcNJ+Rx3JYyYqz0v9nLHr+0NMGHUER5KIVFxN7CUA");
 
 export default Chromecast;

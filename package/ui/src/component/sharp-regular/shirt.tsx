@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shirt` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shirt?s=sharp-regular shirt}
  * @preview ![shirt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/shirt.svg)
  */
-const Shirt: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M203.7 0l8.7 0L224 0l8.4 0 21.9 0 2 21.8C259.2 54.4 286.6 80 320 80s60.8-25.6 63.7-58.2l2-21.8 21.9 0L416 0l11.6 0 8.7 0L443 5.6l8.9 7.4 144 120L621 154l18.9 15.7-16.2 18.5-21.6 24.7-56 64-20.6 23.5L510.1 318l-18-15L480 292.9 480 488l0 24-24 0-272 0-24 0 0-24 0-195.1L147.9 303l-18 15-15.4-17.6L93.9 276.9l-56-64L16.3 188.2 .1 169.7 19 154l25.2-21 144-120 8.9-7.4L203.7 0zm10.7 53.5L74.9 169.9l-6.3 5.2 5.4 6.2 56 64 5.1 5.9 6-5 27.5-22.9L208 190.4l0 51.2L208 464l224 0 0-222.3 0-51.2 39.4 32.8 27.5 22.9 6 5 5.1-5.9 56-64 5.4-6.2-6.3-5.2L425.5 53.5C410.1 96.9 368.7 128 320 128s-90.1-31.1-105.5-74.5z" />
-    </Icon>
-);
+const Shirt = createIcon("shirt", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABgAAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCSAsGAAE2AiQDCAQgBYMtBywbRAXIjpOlDphJKh6et/t/1z4z9wGcbyNJBap1BbGo2catESbXOW6epYlD3NSp57FNAXzOdFiLwrmAjEm50pznFeh5QYpjUsHXwFpFsdbOvqv/gWSTJHiSYdEPqzXk8bf7lEiPp29xb/jQ+Fmnm0hKGYBoCAAWbNu0xoc/xA8R3/z/GvGNVQiIBaAQyJChR4DZMoEeuQK5XPBD/P/8H1gQQJSJT5VAjhy34n5ADpKU56smZ6k231pdqtpVXVXd6fEhTw95dtiz3d1RXd2q1ZYYYYgOw62P4ToM1UaIqpqIiBaDdRlpIwQsMMwo26Jde2/etrlFqw1ktnfseetwdbgzjHDmJpx2m63x1PDnJr8+8oW+gS80vPDrgG+PfuubDyoqJpbh/fX33VffP63aeo64xb1Xuck4f9ruWlP9qc9bPtGhY3iHT7ylz5+mutZ2fxrnpuXcLY48fMclf9RmS1xric1et99k3/nBdyY553Xjojsu+fCVV+bPB+9FIHZ7/K9H2vbVz76K6gR+evv336WD//8wXZdeQIUEgmz0j7Y7XQdMDSBIcaWByhcFkmsl8VprPCJAqEKApEyVAJluDQLkqowSoKTPFAHKVNkkE3ml0GJPAUmNCyAz1dUg1+IVUDLbF36ZlsiMUTEl5SuYubSGlkwrduz4YmYxLcuqfUlufFax7cyV0jaC5jrqnLMuO+KwEy5X5EVroiucsVQjlvihwgRjjVeYqTiu3Zpb4V90yYmxfj7JLMV9b7gr9d4jaBYJMPEZTVISqXTp+ImLlwEAAAA=");
 
 export default Shirt;

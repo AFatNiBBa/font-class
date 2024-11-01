@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trowel` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trowel?s=sharp-light trowel}
  * @preview ![trowel](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/trowel.svg)
  */
-const Trowel: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M398.6 209.4L376 232l-22.6-22.6-14.1-14.1-112 112 70.1 70.1L320 400l-22.6 22.6L280 440 35.4 502.9 0 512l9.1-35.4L72 232l17.4-17.4L112 192l22.6 22.6 70.1 70.1 112-112-14.1-14.1L280 136l22.6-22.6 90.7-90.7L416 0l22.6 22.6 50.7 50.7L512 96l-22.6 22.6-90.7 90.7zM466.7 96L416 45.3 325.3 136 376 186.7 466.7 96zM263.6 411.2L274.7 400 112 237.3l-11.2 11.2L44.5 467.5l219.1-56.3z" />
-    </Icon>
-);
+const Trowel = createIcon("trowel", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABaAAAAIGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBagsGAAE2AiQDCAQgBYMtBy0b5wTIjtRG945V4uH5tW/nvpn/EbFhk2DqCXZQS2IZmlXiEml485BEq2t91U6dep7zUADfE+GgjU1r+tiadK/zClSs997zsYBqBatpBay7sznQZHZ4pCWWpF/teJ0gj2vRX4V0MT3EWfrQeK2b0yR5BiDaAmDKqmUL3H4RLyIe/k88NA8BMRUUAhky9BRgvEygp1yBXC54Ef//+//AggCiis+bQI4KlqEE5CDJ8nxUsxYtKq3ylQhtvrG2X219dI7lsSLqojYSl8fw6BOrop9YNxFXKWJ9l1dJeclGZfmqpUuWLif8qtVdOnZZGR0DsqqmsW3j274Py4fOvCv5Rp7avduMGUolvkxU66SJX1AqzZhh925PsW3NGqVSO2dP21PD4dq1alT7/thGeOmlSy4b9cij0UAgWNz/1z1txn9t2iKBV1fff1R+Rf9vJ6kRTSUQZP3/97c+gUQAAFIcUpMgkMyTgXdt6ZwAoTkCJFXNBcj00FaAXHP9BKjobYQAVc0tk4m8mdDRhg6SlvaCzEhHQK6jK6BivDtxVcfIrIuxDeZvlzhTIjMOFUMGDi7GFsuexhoMlXbHFdtK7aEwUwdQpd12OaDBJlsdENg+C7KDdpqpoTN8UWGIgQYrjFUcDx+Pr9Rgn/222m1X3mec4n5Q65C+vA70hEmHktMT1FL1wL7dhxt2AA==");
 
 export default Trowel;

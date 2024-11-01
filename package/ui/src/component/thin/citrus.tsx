@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `citrus` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/citrus?s=thin citrus}
  * @preview ![citrus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/citrus.svg)
  */
-const Citrus: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M384 112c44.2 0 80-35.8 80-80l0-16-80 0c-44.2 0-80 35.8-80 80l0 16 80 0zm0 16l-80 0c-8.8 0-16-7.2-16-16l0-16c0-15.8 3.8-30.8 10.6-43.9C284.8 49.4 270.6 48 256 48C132.3 48 32 148.3 32 272s100.3 224 224 224s224-100.3 224-224c0-46.6-14.2-89.8-38.5-125.6c4.8-2.4 9.4-5.1 13.8-8.1C481 176.5 496 222.5 496 272c0 132.5-107.5 240-240 240S16 404.5 16 272S123.5 32 256 32c17.8 0 35.1 1.9 51.8 5.6C325.3 14.7 353 0 384 0l80 0c8.8 0 16 7.2 16 16l0 16c0 53-43 96-96 96z" />
-    </Icon>
-);
+const Citrus = createIcon("citrus", false, "data:font/woff2;base64,d09GMgABAAAAAAJ8AAoAAAAABdwAAAIyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCBeAsGAAE2AiQDCAQgBYMtBy0b9QTIHgduTM1ytD4lHr7X+Xnukz7JC1piLQMFCOpUiFx70hKUGevkxA4qn4fY62GrCtGfOvU8timAD+DZ2wKS3ere5xXIeb1XGxOsQKUWLKLY3dlaSNAeSVrKkhyPdnxygzxed0QT6db0BW7IPxq/6OU6kiwDECUAFm7fvNY79ahHfNF4kfjCagTEIlAJZMjQV4A5MoG+chVyuaAejYb9D6wIIJoRnOg5vrgPpwBykKQ877yk1tQ+32a+rTj+8uiIxwdEFPHCiEf6ipqiVtzUPeLqPg8VH6zQhGeqeyc+u7KW5mpPfn7wT4uix7tbd8IzK7TlVvWk57b95OdXezuHPj29Fjd2E3eMeGTKoMfKx37zxbFx5fryKNuitEF51FvlBryp3qHU8/7FqPcb8963HTp8+96YfvV+gmXLDm25xCqL/vtv//5FFilUDCzidX2uf/6vDXbf0/rYY1cBgeDsMf/9v7/jnP9aawn8/Nof6+tl4534Mz2GVgkE2ZjGGHsSpVIoFUBRigsMgooFkm0SwKe2c5MAoUCApFkhQKaPUoBcYbQATfqbKkCzwmaZyNuErvZ2kLRzNshMcznIdfU8aDLHx1GzrpEpGaci3BcveRmHlpZVE8dNqGZV067G6w0TtmdXy/aIC9zUSDjqmDOd4TxHHXHSeYw8x9r0fKdbJhFLVagy0TgTVGaptgePh7c56hznOulMZ6RdZqvOhyNcIC8eCftJgEnX05CI1Hz45GsX");
 
 export default Citrus;

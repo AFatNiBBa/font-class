@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `deer` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/deer?s=solid deer}
  * @preview ![deer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/deer.svg)
  */
-const Deer: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M240 0c8.8 0 16 7.2 16 16l0 24c0 13.3 10.7 24 24 24l8 0 8 0c13.3 0 24-10.7 24-24l0-24c0-8.8 7.2-16 16-16s16 7.2 16 16l0 24c0 8.6-1.9 16.7-5.4 24l30.6 0L416 64c13.3 0 24-10.7 24-24l0-24c0-8.8 7.2-16 16-16s16 7.2 16 16l0 24c0 21.7-12.3 40.4-30.3 49.8c.6 .5 1.1 1.1 1.7 1.6l55.3 55.3c8.5 8.5 13.3 20 13.3 32c0 25-20.3 45.3-45.3 45.3L416 224l-5.3 0L384 304l0 64 0 112c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-112-36.3 0c-28.8 0-55.3-9.8-76.3-26.4c-2.1 16.9-9.8 32.6-21.9 44.8L142.9 397c-4.6 4.6-6.2 11.5-4 17.7l19.3 54.7c7.3 20.8-8.1 42.6-30.2 42.6l-33.9 0c-13.6 0-25.7-8.6-30.2-21.4l-15.5-44c-11.4-32.4-7.4-67.8 10-96.3C65 339.4 65 324.9 56 315.9c-3-3-5.7-6.1-8.1-9.5c-1.3 12.9-12.7 22.5-25.7 21.5C8.9 326.9-.9 315.4 .1 302.2L2.4 272c4.2-54.2 49.3-96 103.7-96l7.9 0 14.1 0 64 0c.6 0 1.2 0 1.7 0c.8 0 1.7 0 2.5 0l106.1 0 9.6-32-38 0c-9.9 0-18-8-18-18c0-8.2 5.6-15.4 13.6-17.4L320 96l-24 0-8 0-8 0c-30.9 0-56-25.1-56-56l0-24c0-8.8 7.2-16 16-16zM400 160a16 16 0 1 0 0-32 16 16 0 1 0 0 32z" />
-    </Icon>
-);
+const Deer = createIcon("deer", false, "data:font/woff2;base64,d09GMgABAAAAAALAAAoAAAAABkgAAAJ1AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCagsGAAE2AiQDCAQgBYMtBysbZQVRlMvJDtnDw//nfd8+NyklZeTDaNEjG4PpWz01L07VjPNQOPQWoVjQxrbkPCBzYOc6r0ABo51TsFywmlbAqm6KRSwiiiAeIqG4IrLt29Xj3QXyeDU7Tx3p5vQZriwfGl8bcB5JUwYg2gGwbredtvFWLWoRn/7/PPGprRAQ60AlkCHDsAArZQLDchVyuaAW//8f/gMrAoh69b4EcuS4BXchXyZJeX5xU1nXku8alnXFXtf3iJsnleWDQxE39gHrrO6K2yae3XN27BDXWxnXFTWxcwgxD4pLem+IiCJeWH7T1O64rmde3EzIxGceGByNe+bc2ntD703FAzEUd854dElZXhpnl2d3vRTlIm4YvLFvsyg0rXcI72i7xJdv6L2u+/qe8TY80v7It+M+O/Qz379Za+3Xs0Nj4w49/VprQLVsOTqlWsebcJrPuro+a2sW1A1uZ63jtV50UWvFb3G8iZ5qnNbxiMOmTbL2skuNt/1Jf/vp9ru/XLhwUe9OvSO2ePmTqxq3DUKEI91psh/am98d1t9+/H/fNzxk3HkncyQEOhB33bHrC2P7ta38tbFM4KtXvv8j/4z8/1aSHkGjBIJs5v8z7Z1AIgAAKU41PkEguUZS1ja7QYBQYNIl9QqQGdIOucIMqDNqkbAZ3Ukm8iZhdduHIGl2AmQWOx1y3Z6FOit9aNfrjsw6JduS/g3TN0V8k0XVvNlzq+XVZc2QDU5IsyuqbXPqqdwzzS11qOMc62SHONgRTgbyRNt4pzjGphqxiS+qzDPbXJXlquPmUt8VuK6flIW1cj7PCtX91lSn6sOnOeUDmedHIUk+lvKDDznkRAA=");
 
 export default Deer;

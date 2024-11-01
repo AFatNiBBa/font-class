@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chf-sign` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chf-sign?s=sharp-solid chf-sign}
  * @preview ![chf-sign](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/chf-sign.svg)
  */
-const ChfSign: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 96c-8.8 0-16 7.2-16 16l0 272 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-16 64 0 0 16c0 44.2-35.8 80-80 80s-80-35.8-80-80l0-16L0 112C0 67.8 35.8 32 80 32s80 35.8 80 80l0 16-64 0 0-16c0-8.8-7.2-16-16-16zM256 32l0 32 0 160 96 0 0-160 0-32 64 0 0 32 0 384 0 32-64 0 0-32 0-160-96 0 0 160 0 32-64 0 0-32 0-384 0-32 64 0zm192 0l32 0 128 0 32 0 0 64-32 0-96 0 0 128 64 0 32 0 0 64-32 0-64 0 0 160 0 32-64 0 0-32 0-384 0-32z" />
-    </Icon>
-);
+const ChfSign = createIcon("chf-sign", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABdQAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCKAsGAAE2AiQDCAQgBYMtBy8bJwXIHoVxMz3SRXOUj4H14+H7td7Ofd0TmAlDJwqA0CNLBvXdkjFTa7ciFziZVUH6Z1P63fxfUy+eXwN+PoJD6dg004eZzycw4Nk0iiY0az5R3O6qWVFEKw9ppFmSx2/3eN4R8vg7u6BEup3gYnnS+EVrF0jqZgCiEQDGLp4/U001qhE//f+B+Ml0BMRYUAhkyNBOgBEygXZyBXK5oBr//+//AyOAqIWeJYEcJRzFKUAOkizPe3ZtWynVzxdVSuXl15qlENeb32wZUQlxr8vjAR+7Pe0QkcXD7s8Gf+j6pL0oR8SNFosFUYmIs3gK0Qh0sJnJPAXlSiyURaVpea/OTxs9/dbJJmavrjZopJEGVfh9jEZi0cZGjTYuikZsjdGbX1EUxSNrVKIwxjmDnddMTVHNAK0JxhRubMzmfhAI/uqZqxuO+LVOJYGfv/4N3Px/NZ1Jo44EgqzH/z2sSGfAswOopjiksxKxQLJXBvSo9dwQIJQRIKmlLECmrUYC5Mq6C1DSwUABaimbLxN5XaGZlQySevaCzCAnQa6Zd6BkhO+qtTSLzPhk05F//TImzejETUXfXn2KYcW2pSv2JKbV4cVx0OVQGOkKO22y2y4HbLTBVgcmZp+ZjYN2mqRhE0Wo0FcvfRSGKa67r8YirO6z31ZZu19nuOJ9ootD+vSuEE+Is5+tSSJSnfVbNvX8bAEAAA==");
 
 export default ChfSign;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `trash-can-undo` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/trash-can-undo?s=thin trash-can-undo}
  * @preview ![trash-can-undo](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/trash-can-undo.svg)
  */
-const TrashCanUndo: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M157.4 27.3L134.4 64l179.1 0-23-36.7c-4.4-7-12.1-11.3-20.4-11.3l-92.5 0c-8.3 0-16 4.3-20.4 11.3zM115.6 64l28.2-45.2C151.1 7.1 163.9 0 177.7 0l92.5 0c13.8 0 26.6 7.1 33.9 18.8L332.4 64 440 64c4.4 0 8 3.6 8 8s-3.6 8-8 8L8 80c-4.4 0-8-3.6-8-8s3.6-8 8-8l107.6 0zM40 112c4.4 0 8 3.6 8 8l0 320c0 30.9 25.1 56 56 56l240 0c30.9 0 56-25.1 56-56l0-320c0-4.4 3.6-8 8-8s8 3.6 8 8l0 320c0 39.8-32.2 72-72 72l-240 0c-39.8 0-72-32.2-72-72l0-320c0-4.4 3.6-8 8-8zm173.9 74.6c3 3.3 2.7 8.3-.5 11.3L140.7 264 248 264c39.8 0 72 32.2 72 72l0 40c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-40c0-30.9-25.1-56-56-56l-107.3 0 72.7 66.1c3.3 3 3.5 8 .5 11.3s-8 3.5-11.3 .5l-88-80c-1.7-1.5-2.6-3.7-2.6-5.9s1-4.4 2.6-5.9l88-80c3.3-3 8.3-2.7 11.3 .5z" />
-    </Icon>
-);
+const TrashCanUndo = createIcon("trash-can-undo", false, "data:font/woff2;base64,d09GMgABAAAAAAK8AAoAAAAABigAAAJwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCNgsGAAE2AiQDCAQgBYMtBzUbOwXInoNxQ18WTcRQWlzkBn/rorWKh6/9Xs/dt0FwBCpfhVRYWBSeSMaRjEJhsa2tylTXiD+1BDbP/2+/dR8i0ub8BKuiAyumaTNicb1p0+Yl4GyjaTQZYNy0+pfcrRD96e/n+T//1P4A/FfQt/YGqmWeT2DnWTrwDSQKbKYTsO1OKxsl2kNJIkKORzteJ8gRNU5Kus//4Cp8aHzldA4kRQGAaAcASxudzfisUjXiv3yB+KwRBMQyYBChQIFeBGaJBXpJDIIsC6pRlvQfyCCAqAW/UgIZtTgFlwDIIMlZonOOudVSraSnSaoarKQmqSklAkVFFyhKTUqNbjVdRTKpyU8fNBTwoNRd11YRhemfarpRsIspqGZB6NwOFV2/+6a8br+lizbdexcgougSRBEPLBV1hx8+76FAOlEvBSnc1/vv3/svdsk5fwa32zJEt3n2ysce2obQ9uEV88ZqZWPvo77dmIo7ysh/vi3/svz2U76ow1hcNzkZJ+OTmbrYc0NWdW055rTqGquuDW0LvXnVU12Vva0QCrGQzlK5CkAg+HTs3xrVF/1XqEWALx9/Bv6Kyk96TQ8G9RIIikpZMRSfQLwiAECKTUJ8gkByQoKvtdkNCIRGBEhqNQpQ6GFAIGs0jkCNftkI1Gq0QiyyEqHbcAFJswNQmHEAsm5PoMasL79Wd4hlkJMg7geYXFND1cNYekoaK2DDvMyLFeP6C9my5to0dW7YC68li9Z5cDPWK2RVc7RhQc0MrvZFTLoUaZgC7Lh0u72Hx6o1M5Ys+kEKsfuOy+a8tRtGIQJMvB5jDkfSrR+Or00nT44vJm8s8iUAAA==");
 
 export default TrashCanUndo;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `volume-high` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/volume-high?s=sharp-solid volume-high}
  * @preview ![volume-high](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/volume-high.svg)
  */
-const VolumeHigh: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M592 256c0 78.5-37.7 148.2-96 192l28.8 38.4C594.7 433.9 640 350.3 640 256.1l0-.1 0-.1c0-94.2-45.3-177.8-115.2-230.3L496 64c58.3 43.8 96 113.5 96 192zM438.4 371.2l28.8 38.4c46.6-35 76.8-90.8 76.8-153.6s-30.2-118.6-76.8-153.6l-28.8 38.4c35 26.3 57.6 68.1 57.6 115.2s-22.6 88.9-57.6 115.2zM400 256c0 15.7-7.5 29.6-19.2 38.4l28.8 38.4C432.9 315.3 448 287.4 448 256s-15.1-59.3-38.4-76.8l-28.8 38.4c11.7 8.8 19.2 22.7 19.2 38.4zM0 160L0 352l128 0L272 480l48 0 0-448-48 0L128 160 0 160z" />
-    </Icon>
-);
+const VolumeHigh = createIcon("volume-high", false, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABbwAAAIjAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBawsGAAE2AiQDCAQgBYMtBzIb7QTIhofn9f77tU/ylDtGxmYH9eOPTlQnlq5+NZr+5p93HgX4OILQxrSlgSywPc8TSKzLN1BA4y+wRPFbO/vSG0Q3kp7ySYbNDZsJ8rienVdFujt9gQvlR+MvrZ0nqcsARCMATFqxZJ53fovfIj6//SLxuTkIiEmgFMiQoZ0AY2UC7eRK5HLBb3H7tv4HlgQQ1fBGCeSoxgpsBuQgyfO8bYv6jStV9fPllariwD0DI54Z2y++HvL8ioiIbwY/N79vvDno2U5L+/Xv9/qAp+NM/6dG941HW9/tdKu7ei6/q2u/eL3LfeOnPdh6s1CJZVGJLIpYGkXnxxo99k+nL7Z/YcHbxRkuPfOhGX/+aDqY/uOfMz70zKUzxd2HP/roo9Ejpg8cOH3E6I/c/8+Nrl1v/HN/t8M17T8yplGjMR9pX3NhwzvvvHPahVMGesfAesRpIBAsu2v93g0Nx/5fW0ngj9f++0fYffuHdDo9hloJBFnf232tTadB0QGoKY7r7DwskCyQA85azx0ChAIBkmqFAJm2GgmQK/QRoEoHwwSoVlgiE3md0My6DpJ6DoHMcCdArpnnQZWxPlarNYuMXSQ3yM9d3HQLTesrB/UfWI4ul65GEQZP7THlttDzeEz1klHbHbDfUdtstctRgxw2zzhmn+kePM2DSoP0N1BptPI4eB5ebpvDjtjlgP25yxjlfaWn435xL5ETYA5mShKRKi+X70dFAAAA");
 
 export default VolumeHigh;

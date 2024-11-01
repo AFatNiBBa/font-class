@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `republican` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/republican?s=light republican}
  * @preview ![republican](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/republican.svg)
  */
-const Republican: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 176C0 96.5 64.5 32 144 32l224 0c79.5 0 144 64.5 144 144l0 96 0 64 0 32c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64c0-26.5 21.5-48 48-48s48 21.5 48 48l0 64c0 61.9-50.1 112-112 112c-32.2 0-61.2-13.6-81.7-35.4C440.8 465 422.1 480 400 480l-64 0c-26.5 0-48-21.5-48-48l0-48-128 0 0 48c0 26.5-21.5 48-48 48l-64 0c-26.5 0-48-21.5-48-48L0 272l0-96zM480 288L32 288l0 144c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-64c0-8.8 7.2-16 16-16l160 0c8.8 0 16 7.2 16 16l0 64c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16l0-64c0-8.8 7.2-16 16-16s16 7.2 16 16c0 44.2 35.8 80 80 80s80-35.8 80-80l0-64c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 26.5-21.5 48-48 48s-48-21.5-48-48l0-32 0-48zm0-32l0-80c0-61.9-50.1-112-112-112L144 64C82.1 64 32 114.1 32 176l0 80 448 0zM160 144l0 16 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16l0 16 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 0-16c0-8.8 7.2-16 16-16zm128 16l0 16 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-16 0 0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-16-16 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l16 0 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16z" />
-    </Icon>
-);
+const Republican = createIcon("republican", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAAB1AAAAKTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRCEPQsGAAE2AiQDCAQgBYMtBzEbPgbIhqBeZ33Pk+zak3fXOmIdsQ+QPjGGQBgCQZCR6qeMf3/qeS6AAfwewHhQXsa0tNXamj7WsAqU59KxqF6vjSWMHWsXpJPa3//WDvL4O6ZrkO5In+C68U7ja0NdRZJnAKIEwOp999zujTrqiE/+f5b4xFYExBpQCWTIMEKAZTKBEXIVcrmgjv//D/4DKwKIpurpEsjRRQTRBchB0szzDcv7jh0zttXoyfdpNYrsoZURr29sxbvLXx0jhLhl4G2DI+4afNukRwbeMlTcPfnxee/NvHnAzUURjw66dVhEEeL2ATePBx1xeHdPt5SuFSG0SmuNAiEg3TPlifnPT3tqtOnWQTcPkBWCzSLEvVOfXFDEM5MfHyF6jhBKEGF3gR6E2f2gZ03yhtR9dSdML25v+euNfbJ88tsxnxzziXLEeVz7Zu3Na88bcZhVKr113btK9ulnnc5nn2artP/7/ofyxxUfvth3FcTZcZkOiwd97nfYl6e+USnXK+lWCWHE78dXQdBZ7HN0WR69T6wybat0ql0Vu8PY2g/f/9fe5Y2Vp5a2n7q3ty6V3DVKYM1D22hMu7lL2xouBwJB8/7tIw9tL/u1q5XAVy99/+t4vv/rdFl6El0SCLLp/093ULoMghqhcqY4x1hGDwPJn47prXa7VYBQIEDSVAiQGa4UIFeYJkDDKPMFaCrsKRN5H2GAg1eUdDsdZRa4GOUGeBo1LPO+o2lAZK8BfxPzf6EpG0Bsfbtq9sxOtaSiRszCnc2mlUsrYW3yOWHGFHuNY5zqFGc52lGOHwEgzrDdfbaTbWBR1/+2MttMHZUlKuX46PJ9HO0MZzreqU7JW1mqMm+c7Bx2/im2Ialo51iQJCIVZxz9UVI9BQAAAA==");
 
 export default Republican;

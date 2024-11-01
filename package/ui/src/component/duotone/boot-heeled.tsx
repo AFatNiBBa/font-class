@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `boot-heeled` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boot-heeled?s=duotone boot-heeled}
  * @preview ![boot-heeled](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/boot-heeled.svg)
  */
-const BootHeeled: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M32 416l0 72c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-15.1 125 34.7c10.5 2.9 21.3 4.4 32.1 4.4L456 512l32 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-8 0-160 0L160 416 32 416z" />
-        <path d="M63.3 0L128 0l0 240c0 8.8 7.2 16 16 16s16-7.2 16-16L160 0 264 0c13.3 0 24 10.7 24 24l0 220.7c0 27.3 15.4 52.2 39.8 64.4l112.4 56.2c24.4 12.2 39.8 37.1 39.8 64.4l0 34.3-160 0L160 416 32 416l0-24.2c0-12.5 1.6-24.8 4.3-36.6C43.2 325.5 56 265.2 56 232C56 154.3 34.6 47.1 32.6 37.4c-.5-2.3-.6-4.3-.6-6.2C32 14 46 0 63.3 0z" />
-    </Icon>
-);
+const BootHeeled = createIcon("boot-heeled", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeAAAAIoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXyBaQsIAAE2AiQDCgQgBYMtB1IbDQXIhqDSVWW1NBN70hEv6ZjRokewmF1ij6332SWwZ/qbf955FOADkdoYTsqWjzHPE+g877Lp6QdZ4N/0G9h/23Q1QulWiJBFNFZK43RBHt9ld6iRnkjf4mH+H8D4VT93kHTIAERXACzYtmmNz3+Kn1J823ib+NZqBMRCUAlkyNAiwGyZQItchVwu+Ck1GvwUjUZFAFHHn5qBOnJsw35ADpIQeT65uax1yreWtWJXWZTikV6P9Yko45V+4pkZW+KDVlHE1igi4tbmp9qfa7617dn+T/Z+NG7t81g5SnhiSBmvNUdsiUfKsqRNTw4tiq1RDHyz65u/D/j26LfmfrYAH/OXzj/91Pkvx23o9b3+m89Ns7l5oOc9N84t+uoxYduhTcXwnSvX7qulrNM993TSWA5crw3rp41dXBvo3673V03utaHpeboNAkHzr7e9u6/L7P+bygR++fDPf/mHVDU+T9KbaJJAkI1ujLY7UZEIAECKqwYmKpVAZrKkPGtHjwoQCgRI6goBMs26CpArjBKgps0UAeoKm2Qi7yD0tKeDpKMLIDPVdZDr6S1QM9sXSl3PyKILjw38cxezVEJLpqoJY8dXM6thoBIBg+bhrGqZHX41FUbgqqPOOeuyIw474bJALlqjX3HGUgte4osqE4w1XmWmajteL291xEWXnHDOWRozS3VeGu6qXT8C50mAifdiyYgUWY8H7Rpz/MiR00cOj3HUUi9N+SQAAA==");
 
 export default BootHeeled;

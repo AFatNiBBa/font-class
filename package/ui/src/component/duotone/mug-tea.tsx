@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mug-tea` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mug-tea?s=duotone mug-tea}
  * @preview ![mug-tea](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/mug-tea.svg)
  */
-const MugTea: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M96 189.3c0-8.5 3.4-16.6 9.4-22.6l29.3-29.3c6-6 9.4-14.1 9.4-22.6L144 64l32 0 0 50.7c0 8.5 3.4 16.6 9.4 22.6l29.3 29.3c6 6 9.4 14.1 9.4 22.6l0 66.7c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-66.7z" />
-        <path d="M144 64l0 50.7c0 8.5-3.4 16.6-9.4 22.6l-29.3 29.3c-6 6-9.4 14.1-9.4 22.6L96 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-66.7c0-8.5-3.4-16.6-9.4-22.6l-29.3-29.3c-6-6-9.4-14.1-9.4-22.6L176 64l208 0 64 0c70.7 0 128 57.3 128 128s-57.3 128-128 128l-32 0 0 32c0 53-43 96-96 96l-192 0c-53 0-96-43-96-96L32 96c0-17.7 14.3-32 32-32l80 0zM416 256l32 0c35.3 0 64-28.7 64-64s-28.7-64-64-64l-32 0 0 128z" />
-    </Icon>
-);
+const MugTea = createIcon("mug-tea", true, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABiQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCJgsIAAE2AiQDCgQgBYMtB0obQgXIhof/7P77far73vWme4wamJGAjwxWNgo/xBhMhUwnl8Y//vSAB/Rue+jCrc9jtjteK0jjBVkLV7wgjdcKanXt7mwOSGmftJZYLMejOU5XKOOf4loN0kPpY9xR3jh+1MO1JK0KANEeAPM3rFnm9e/iuxQf//808bGlCIgFIAsUKNBbgFkKgd5KGaVS8F36/3++C//Plwkgmoi/oQBNNHApLgOUIEmiLOe2y3WjTbm+blRbhCs7D4t7iSu73FfXcUu3ByLiqq4j4v6IqOt3Zr/S/8lZLy+qQjw67OykKp4dcb5vEVd1e6Cud9VVfWbkhV4Pjzg/pApbruo2MnZfUYe4ssvwuI+4svO9VRU3d70/YsD59ud/7v/x/o/dccXEiRPb3Pi1G9ss1PbGG9vOc9ZC/bETfT5v5cJJjcakhSuzrOX8+StfdyWYLVa8le1ey+g/2aFDVaX0k9mVdiTV3Gyio0+DQPDD419cv6PdrL9b6gR+ePHXP+ttmTQvnUeLBIJi1P+jbE3zBJwA8JDiUgM+aqdAYbkEd7V2vwChgiBpqqDQS3soVUZCQ1+TdzdV1ihE2UrobBtB0topKExxGZQ6ewoaZnkvbOochfFRpkN9/eKXcGTxojx+zLg8I08zjbYnIk/PzMv6sEtDZzistN8Jx11sn70OuZhhpy1LLnHMEgld7Iuy8cYYJ5shq8t7fj0LT7vIoTGrn2WmfN4e5lJ58HBYTgJMuLadBZGiaHfskgOjL963a/QjVjpw9rUCAA==");
 
 export default MugTea;

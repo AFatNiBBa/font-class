@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-xmark` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-xmark?s=sharp-duotone-solid calendar-xmark}
  * @preview ![calendar-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/calendar-xmark.svg)
  */
-const CalendarXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 192L0 512l448 0 0-320L0 192zm126.1 96L160 254.1l17 17 47 47 47-47 17-17L321.9 288l-17 17-47 47 47 47 17 17L288 449.9l-17-17-47-47-47 47-17 17L126.1 416l17-17 47-47-47-47-17-17z" />
-        <path d="M160 0L96 0l0 64L0 64 0 192l448 0 0-128-96 0 0-64L288 0l0 64L160 64l0-64zM305 305l17-17L288 254.1l-17 17-47 47-47-47-17-17L126.1 288l17 17 47 47-47 47-17 17L160 449.9l17-17 47-47 47 47 17 17L321.9 416l-17-17-47-47 47-47z" />
-    </Icon>
-);
+const CalendarXmark = createIcon("calendar-xmark", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABiAAAAIOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjiCMwsIAAE2AiQDCgQgBYMtB1gbXQXIjsJxr5ShiBhiKlFwYkVE7ffZs7sHhI4URYV1HKBRrOKufKKAJRmTK39G/IpkFf38/x+b96PSiO+QRKWRLIn5xFuibmnpt2kJjF3K9x//DXj+znPq50HG0tk54xVofGNTrbciFWpqVgOr/7vsERLJTZK2Tb+fw2ne4bYHtHyub8SUN+Ufz8v/AOaXJW9QDFUAmQQAV26XiuDX9ErOug/ImWsgkKsANjFUVKxi4DyhYJXIJmia0BN0HfRY1xEESL9CVMx+84Jn4ARAA0VRWlvakZtHxGPtlrs7fF+hHJbhyFiSYQCXctdqsiaYKbEEYCHMiQMTYU0SmHFLEk4V5PJYakZvJmNJAZGMlVNxQGI8kAS36fr2ZfLyZ+t/8O/T91QtoOUJj35Lyn/Tk9QLF2AK/MXfrly2LO4yft/Ujy5+HgjCyQf3tamN/R9UFvDj89/P9kPS8ZyWb2BQAaHudza1cMipAABKnsIYDoLqKgHzrqNeYiCGEVD0GxZQrdBhoBm2h4E+6/wY6DfsOqG0ITGrPmAx6gGszrmHzax32Oe8r7DfbIQUFAgk/AGmFmY0v4/cDhdF6LWri6zi0naUxK7pEKbMuImBpYWdvp6x3cRsFJO9ucIKy/sg4ubgQiJIPfharurb2Bo/y/pdomh/YHJYLzbjMALAwcdrVVJS54+oZz8R1rTTeZ7hTj67");
 
 export default CalendarXmark;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `treasure-chest` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/treasure-chest?s=solid treasure-chest}
  * @preview ![treasure-chest](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/treasure-chest.svg)
  */
-const TreasureChest: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 160l0 96 128 0 0-224C57.3 32 0 89.3 0 160zM0 432c0 26.5 21.5 48 48 48l80 0 0-192L0 288 0 432zM416 288l-64 0 0 32c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-32-64 0 0 192 256 0 0-192zM528 480c26.5 0 48-21.5 48-48l0-144-128 0 0 192 80 0zm48-320c0-70.7-57.3-128-128-128l0 224 128 0 0-96zM416 256l0-224L160 32l0 224 64 0 0-32c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 32 64 0zM304 240c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8 7.2 16 16 16s16-7.2 16-16l0-64z" />
-    </Icon>
-);
+const TreasureChest = createIcon("treasure-chest", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfgAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCMQsGAAE2AiQDCAQgBYMtBzUbNgXIjsQ4JvKLKOwignpdnz1P+iTtIeuAeI+ITAQRUeqMKYhQ5dTl0PF2SO07vqlTz3MeCuBzCII2Fi4NyJi2d3tegQps31TwZQWLWIW0u7Mpdiza41iILMlxTr+cII/fswe0kV5Nv+Lp9KXxr0EeIOnKAERPAKzYt2uLL+uoI35pSfxiEwJiBagEMmQYKsASmcBQuQq5XFBHqxX+AysCiHb8LAnk6MJtuA+Qg6QjzxvdB3VvDGqUbd3yvWVbkQllRHy75NMqvdov4sWx9QlFOFWUhbin7wtFEY/1f2mwKbpF7HlvQMTLQ8hVHnpzWcTna8UXsTtEI/wLxb0DXi7LeLzfi0S596X+L/QVL/Z7eUCM+rDnh//x69lfVcePH79HbfuqOW09s9/4Y8Z2X7rHM6893Ww2K90feaR7M/+8StOX+PLqL2b8wW/ZM+7xpe3Tl7fNYdX22j2Ov3asrmtqTXvK1T2613VNuMdBIDi+/bkDx3os+b+zTOCfjxve3apTM32ITgkE2ZTWFIdTEwAdgJLiJqOUmQWS63QAf2rDSwKEAgGSdoUAmSF6CpArTBagzXBzBWhX2CUTeZfQ15ECkoZrQWaeO0Gur49AmyV+UNr1jcwASfMh/39xa1tozbpq5rQZ1aJqmhDKpnBaXlwt8xNuwsZEOOqsq13lBmecdsENDXKdLfqNrlirwWvMqDLTNDNUFqm28/v9e51xnetdcLWr4iqLVeflCW7S+yeClDDmLL4kEan7Yx9+LRxTT50/c/0NAAA=");
 
 export default TreasureChest;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `peace` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/peace?s=regular peace}
  * @preview ![peace](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/peace.svg)
  */
-const Peace: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M232 462.6l0-156L111.3 405.4c32 31 74 51.9 120.7 57.2zM80.9 368.3L232 244.6l0-195.3C128.4 61.3 48 149.2 48 256c0 41.4 12.1 79.9 32.9 112.3zm319.8 37.1L280 306.6l0 156c46.7-5.4 88.7-26.2 120.7-57.2zm30.4-37.1C451.9 335.9 464 297.4 464 256c0-106.8-80.4-194.7-184-206.6l0 195.3L431.1 368.3zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" />
-    </Icon>
-);
+const Peace = createIcon("peace", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABagAAAITAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBXgsGAAE2AiQDCAQgBYMtBywb2gTIjsQ4JvJI50bEw/N2fZ37qmoA1sjqPzCziZyBu5vCGeQUQNrJXAs5/bk/3/logM9oaFGWWlxA3QI7H+BuNiz/QlFg3/QL2Ndt4pEdRfhFxBCTiI7PjrMT8ngmUpBuJrjaPjR+0dZ5kiIDEE0AMKVm2QIvfhlfRrxTnXjHPATEFFAKZMjQQYDxMoEOciVyueDLqFb5P7AkgKhFHj6BHLUxB5sBOUiKPK/ToE699vWLhnmlflFvRYjl8d6KSs3ymohPF3+4/IEhmyorKuKLRYOe6vb50o8rYsXmL6ZFvLLog/oXF7w35aUVn05+cf679S4sfH/qy5WuDzZ58Lcutr/rh0Z3ZOHkJp1n1r22/trpNPuqhfVG944ljf6c1N3EiLvD0Tp/+mcjzfUeXblX+RsePWBGXdo+9dK0aS891bauGRjiy0EgONi1/c4Njcf/V6d+Al8//cf/+q+o+mKSHkQdCQRZ/2p/axNIBAAgxXFdEwSSKQpyrQ1cEyDUQ4CklnoCZNprIkCunn4CFDoZIUAt9SyTibyu0MK6CZIGDoHMSOdAroWnQGG8N/RaWkQWV0RUEL+62JkIzZgqhwwcXI4tl4FBhgpWhuPKbb738VzoQ6u2O2C/o7bZapejgBy2wDpmn5kePMMXlYYYaLDSWOVxvOYqQDvsCMRs8nyMccr7cm/H/fo+JCWCOpQtSUQqnigAAAA=");
 
 export default Peace;

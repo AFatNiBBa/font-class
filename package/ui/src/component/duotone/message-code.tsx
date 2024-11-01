@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-code` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-code?s=duotone message-code}
  * @preview ![message-code](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/message-code.svg)
  */
-const MessageCode: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 64C0 28.7 28.7 0 64 0L448 0c35.3 0 64 28.7 64 64l0 288c0 35.3-28.7 64-64 64l-138.7 0L185.6 508.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3l0-80-96 0c-35.3 0-64-28.7-64-64L0 64zM112 208c0 6.1 2.3 12.3 7 17l64 64c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9c-4.7-4.7-10.8-7-17-7s-12.3 2.3-17 7l-64 64c-4.7 4.7-7 10.8-7 17zm183-81c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9c4.7 4.7 10.8 7 17 7s12.3-2.3 17-7l64-64c4.7-4.7 7-10.8 7-17s-2.3-12.3-7-17l-64-64c-4.7-4.7-10.8-7-17-7s-12.3 2.3-17 7z" />
-        <path d="M217 127c9.4 9.4 9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9l64-64c9.4-9.4 24.6-9.4 33.9 0zm78.1 0c9.4-9.4 24.6-9.4 33.9 0l64 64c9.4 9.4 9.4 24.6 0 33.9l-64 64c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z" />
-    </Icon>
-);
+const MessageCode = createIcon("message-code", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABmQAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwCCRQsIAAE2AiQDCgQgBYMtB1QbawXIjtRW94yJjIfn7b46973qP9PVY9TAjESvI9AhFG0kRkLKaOPKEN/5+b/c83t+G/CDnOiBHdGejeXbPzbX8wQCHNumFwaSUKYZWLbZOIQsAttHImLNJkN6/Obj1wOK+C7fpon0WPoC98j/AMZferqNpDkDiA4AWLBx7XIf/h6/p/iifov4wjIExEJQCWRk9BFgtizQR6FCoRD8nuqa36OuKwKIBnl9Bg20wm24E1CAJMlF0bnz4J49W5raFhsEKrc+1mN2zAld9eLQNfF477XxypCW1Vj98FcF88jMi7nWO/IToyLeGNY2XhrxWs8Ujw5/dXAZ6+LBbg9HRBkvj3y9V15/U9fV8VDLHd2f6DU35oUWHy5v77LKh2x8tOecmB0QO4y18Ujc3G1NXDDw9Q6v/+OLA1/4fv433/zrX8Dbtq39Gvet2FQ66aayIx2fvcmzHTuWlYNfdt7hyjbnbr21XGWXBZ28pzxQO1CqGuFJbDgPNr+zSh16HggEH/20duLO9rP/b92SwJ8f/Pf5Q1KXpNfRWgJBHl2Pti2BRAAAUlwwMHEYgWyDrHxqGw8LEEoESBpKAbLeOghQKI0SoEk/UwRoKK2VRdEsdLH9Bkkbp0E21XVQ6OJN0GS2j8sNXSLnopxJ8q9gxtIaWbKsmjB2fDWz6tZdSnqJ+/ysajgYfoH7RuCsA0464Zz99jnsXEWfsbx23nFLPXSJL6pMMNZ4lZmqcOvW2ECZM86y+K7GF5ml+r4w3AV/9AjESWGdaE+WiRS5S4qaY2apMyatB7sZ2hQG");
 
 export default MessageCode;

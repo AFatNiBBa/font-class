@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial-off` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-off?s=light dial-off}
  * @preview ![dial-off](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/dial-off.svg)
  */
-const DialOff: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 56a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM272 288l0 127c-63.1-7.9-112-61.7-112-127c0-70.7 57.3-128 128-128s128 57.3 128 128c0 65.3-48.9 119.1-112 127l0-127c0-8.8-7.2-16-16-16s-16 7.2-16 16zm16 160a160 160 0 1 0 0-320 160 160 0 1 0 0 320zM568 288a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM32 312a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM120 96A24 24 0 1 0 72 96a24 24 0 1 0 48 0zm360 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM120 480a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zm360 24a24 24 0 1 0 0-48 24 24 0 1 0 0 48z" />
-    </Icon>
-);
+const DialOff = createIcon("dial-off", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABlQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCOwsGAAE2AiQDCAQgBYMtBy8bOgXIjtEnY4Qyc8wRD44wVYmgWsuevf0QO/ZAIBQaTRJd4uJImQjNwl/FxpG+/1/ud9+ng18/Gxs01UpwJ6dOU83/NZ9f4dEBfpLTQ+teNEU+73w+gRPduCmBZ8PZRHHmtlixCHKgICJj6tBpiAvt0x8gx32MIJOeCFfAXfrQ+CajniQXABAdAMDmUYgf7L2gMuKqWiY++AABsQWAIQgFCvRBYAVRoA/JEJBlQYmqKvwHYhBA1AFel0BGM86BW0AGSWMm0WV76cgzyWxSeLkzI2NUrkN9SLpdLRSQ57EZ8aDDrsex3bZyn+6UKUItkk2isEYbhDYNZlHNqs56g9FguTZugOvRaat1ZootNSqXe0OPEGgSeepe8QRv4kf5Kv0KlG6CJCSCcoT7fYXr/3/eUM10OzDQxZSM3n7+q3DKktPeq+MKsLvvpq0dTVcd1hFMqd4z9tyXkrrjR1xLLIMiI+N2AAgEnxO7eglc238akwDwtfH7Vy+nVS9pIU0ADRIIipFqRGxyBJoGJRQCFFOUg5i+SSA5Q4d3bXEvQGhCgKROkwCFXjwIZE2GIVAzwAwCdZrsIYpMh9AjroOkxTEozKkAWY9FULPitFinJ4heyPoQ+xGY5M4htzBspG+IrfGyo3GORcdNG7xtaZaLCS3aCekK5CuVJlWWUkYU86uUyeOu4W5+CDOizxBmDZv7SymcFYuVyJrr7NvYwO+Tmsr1+VrkEoBySlOSiET7SUBOryA9HQAAAA==");
 
 export default DialOff;

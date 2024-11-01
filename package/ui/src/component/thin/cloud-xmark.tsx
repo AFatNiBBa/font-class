@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-xmark` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-xmark?s=thin cloud-xmark}
  * @preview ![cloud-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cloud-xmark.svg)
  */
-const CloudXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M522.7 220.8c3.4-8.9 5.3-18.6 5.3-28.8c0-44.2-35.8-80-80-80c-16.5 0-31.7 5-44.4 13.5c-3.7 2.5-8.2 3.3-12.5 2.3s-8-3.8-10.2-7.6C355.9 77 309.3 48 256 48c-79.5 0-144 64.5-144 144c0 2.5 .1 4.9 .2 7.3c.4 7.1-4 13.5-10.7 15.9C51.7 232.7 16 280.2 16 336c0 70.7 57.3 128 128 128l368 0c61.9 0 112-50.1 112-112c0-54.2-38.5-99.4-89.6-109.8c-4.6-.9-8.6-3.9-10.9-8s-2.6-9.1-.9-13.4zM256 32c53.6 0 101 26.3 130 66.7c3.1 4.3 6 8.8 8.7 13.4c3.5-2.4 7.2-4.5 11-6.4C418.5 99.5 432.8 96 448 96c53 0 96 43 96 96c0 6.6-.7 13-1.9 19.2c-1.1 5.3-2.6 10.5-4.5 15.4c5.3 1.1 10.5 2.5 15.5 4.2C603.6 247.9 640 295.7 640 352c0 70.7-57.3 128-128 128l-368 0C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160zM242.3 210.3c3.1-3.1 8.2-3.1 11.3 0L320 276.7l66.3-66.3c3.1-3.1 8.2-3.1 11.3 0s3.1 8.2 0 11.3L331.3 288l66.3 66.3c3.1 3.1 3.1 8.2 0 11.3s-8.2 3.1-11.3 0L320 299.3l-66.3 66.3c-3.1 3.1-8.2 3.1-11.3 0s-3.1-8.2 0-11.3L308.7 288l-66.3-66.3c-3.1-3.1-3.1-8.2 0-11.3z" />
-    </Icon>
-);
+const CloudXmark = createIcon("cloud-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAALIAAoAAAAABlgAAAJ7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCUwsGAAE2AiQDCAQgBYMtBzIbVQXIjsK2eXNEMlkyZcCBfzzUj7W3+/9h3ryeJCyJZZI2QtPpGkkmsVMCc5US7uf3954ziHeQlNiUYL401h/K6KlTz3MeCuAPC0HQxrKpAVmAe51HIGK5WMekgi+wWkWx5rZY0SDqEEREhuA4x4f2C+3bn6DGN8RjJH+SAp4KFv9E1XupFGAgJgCelt1TPw/YpgUtkOotEL/cgIDYA8ASREHBHAQb6AXmMFgCqir4w/9/0P8DCQgg+oCeN0FFA4/4AVSQSmXQ0ZJhZ+RkCGRnZMvqxb7WqGGrfJdQj9Ck6Srb/sY6qYaHqJ6ZVx6WGLTYcODEpfaYNCD3hB2EY9tMEFea3YK9wkPsC80Ryap2CQh1QWPKA3c723Pg4dambL/WlFEN3mxvBfn3CgZgEHasW8AfAxDrEgpEf8R6hIMwED9VdpRn9FaGSqSArXvAjYEJPKIavtExCoSOXnmnqViCgR6MvJ1nZbEx6tt5Z8PD/R83S8dNcbSigSLbehPB5JmDoa2vinD16CgLm4iwcHZsenQVyJr34e58m2JgQDuK2kfOmUM/G1touN+hgYGtDcgwUvfHASAQvIx/n0dxm7+ysNMBdFfvv+h+6NGyOkcxIEFQOv/qwrMaAj0AJ6MQZJUvCqQHBVsjPq1eGGKB1GcIFLN4QDWkDRoWGLCgcgj5o7JCmBGxQBpxDYp1FaCaMQcaNhzZfWaC3iN5f+I/CFMcJeGwRHQ0tYkpOUam4GRsmpoRWFMujBUV2oREWTLlSxAvRb6gcnl4BTI4aqSDHyJ0aNJGmCLm9H09UIJceVJkycxzzJDnLWWFersKmXSYcZkvJZHsvybUNYrfXgAAAA==");
 
 export default CloudXmark;

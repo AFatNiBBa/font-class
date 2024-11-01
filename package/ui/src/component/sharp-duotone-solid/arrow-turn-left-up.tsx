@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-turn-left-up` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-turn-left-up?s=sharp-duotone-solid arrow-turn-left-up}
  * @preview ![arrow-turn-left-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/arrow-turn-left-up.svg)
  */
-const ArrowTurnLeftUp: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M160 122.5c10.7-10.7 21.3-21.3 32-32c10.7 10.7 21.3 21.3 32 32L224 448l128 0 32 0 0 64-32 0-160 0-32 0 0-32 0-357.5z" />
-        <path d="M365.3 173.3l-22.6-22.6-128-128L192 0 169.4 22.6l-128 128L18.7 173.3 64 218.5l22.6-22.6L192 90.5 297.4 195.9 320 218.5l45.3-45.3z" />
-    </Icon>
-);
+const ArrowTurnLeftUp = createIcon("arrow-turn-left-up", true, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABZQAAAHwAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBHgsIAAE2AiQDCgQgBYMtB2Ab0ATIngV2LJtWW4U9hgdRKR7+mb67L0lXfpk7VI05FFWsOT1qKtC1oFB1bOF7kKCxtP8DwAEnREV7XbyPnRZvvFTAA5F2Y+PFNbU0Z7wCjW9a/PHaL36wtzfF351tDoc2p6RFluSXJsflBlk8SF8oI3mX/MRL/h/A+GudFySqUgCxFABju7fPmJvvST8XPhE/bUNAjINCIEWKjQIMSgU2yhTIZIL5BOaDggCiHF+cgnJkaMMAIAOJEFm2bmmpbFG2i1fz0/V19buiPmpjh7tsKBpid+yMuhjZ/8arkiiVRJ5HpDWzZt/689RPF5bvRPvjx045JTp2+uWUM2fIfsov7yfhXac8KUYVc4WTQCCo+/88P7xk8F9lKQG/P/+T3rdiYa4ls6iUgCBtXGh0IJ5YQTwRAIAkbqlRvuqDQGqdBH5qtdcChBwBEuVyAVIbLBUgk2sQoMxmXQKUy22XiqxKWOlgAYlqV0Gq20OQWekjKDPoi1JuZaSGgx87/m2LmZbQVF/R1txa9BddVyZsAQ3tgWKYrb3lU3Vw6JTLLrnhpBPOuiGQa2b0my6a1uApP1Ro06xVoV8xHVxv73LSNdedddkl6jKgWM/VuqUX18EwCaB9y09SIol0/dFr1y7fbrJX7FXxTTevNJlh0cY2dekAAAA=");
 
 export default ArrowTurnLeftUp;

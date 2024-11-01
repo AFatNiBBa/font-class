@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-headphones` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-headphones?s=sharp-duotone-solid head-side-headphones}
  * @preview ![head-side-headphones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/head-side-headphones.svg)
  */
-const HeadSideHeadphones: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M224.3 0C100.4 0 0 100.4 0 224.3c0 58.7 23 115 64 156.9L64 480l0 32 32 0 192 0 32 0 0-32 0-32 96 0 32 0 0-32 0-96 32 0 32 0 0-32 0-16 0-11.2-7-8.8-57.3-71.7C441.6 79.7 358.1 0 256 0L224.3 0zm0 0L256 0l0 32 0 74.8c37.8 18 64 56.5 64 101.2c0 61.9-50.1 112-112 112s-112-50.1-112-112c0-44.7 26.2-83.2 64-101.2L160 32l0-22.6C180.4 3.3 202 0 224.3 0z" />
-        <path d="M224.3 0L256 0l0 32 0 74.8c37.8 18 64 56.5 64 101.2c0 61.9-50.1 112-112 112s-112-50.1-112-112c0-44.7 26.2-83.2 64-101.2L160 32l0-22.6C180.4 3.3 202 0 224.3 0zM272 208a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-96 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" />
-    </Icon>
-);
+const HeadSideHeadphones = createIcon("head-side-headphones", true, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABoQAAAJcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxCCZwsIAAE2AiQDCgQgBYMtB2QbnQXIjsQ4hvIjLVjx8ORf9edWve7BWrUEPsQMdCY6XUSfyKbzXfx/4nLnf/4bcJE/2h76IAt8zvMEAi0LFy6hwLIyjEBiztrpf2CArNITkmRYXIbFBar4Ol+sRrojfYrrwv8Axs/6uJikJQOIzgBYvHPrem/uiT0pPm08S3xqHQJiCSgCGRn9BZgnC/RXKahUgj2pMXuicSGAqAs/ZAZ1NOFm3AuoQJKlqhrYodukge1qHaod7WqtB7RrbSfEfaMfcveoB6c9P+bhgReMfWRkRMQD7bbfO+bhUQ/2v2f0Q2MfGdR6Qa+I29pd1eMW53e/ufXKnrfGAe+uivhwUsST5fzx94wWol27iHAvH9EzdsT3W77e0RqHdg95uPPDvw7+9OhP7X6j8PXW+qyl75BObf74Q1unIX1bPlurlx8GT/wi7/vzzzLTD+14OZd3TOlj7X7jy/EM+IqvO4xv+t8RirJHwQ4tjkKf31k7x5q1Un3dks3rozj3OBAIprVdMuWQTvP+bW6XwL6Xf//Jf5E03kzSw2iWQJDHNcY5MIFEAABSnG1I4lAEsg2y+Kzt3SpAaEWApK5VgKyfzgJUWo0VoGag6QLUtdoqi6pF6O6gTCTtnUZkM5xDVLp7hqiZ54OwrntkcPLQ4v+GKSsksHxbmTxhUplTuqkk4I2167ll2hl1tmmNpoOOdoqTnekoRzrOmQI/3frkLCdZMQKXe6NisgkmKeYoy8W1skOEpzvDcW1pfZO5yv5glLPHw6PJTyLjFHuyTKTI/SGsjr/A6vjEv3RjPNblgWVRR7rbAAA=");
 
 export default HeadSideHeadphones;

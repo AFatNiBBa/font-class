@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `boxing-glove` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxing-glove?s=sharp-duotone-solid boxing-glove}
  * @preview ![boxing-glove](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/boxing-glove.svg)
  */
-const BoxingGlove: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M32 400l131.2 0-28 18.7-13.3 8.9 17.8 26.6 13.3-8.9L192 419.2l39.1 26.1 13.3 8.9 17.8-26.6-13.3-8.9-28-18.7L352 400l0 112L32 512l0-112z" />
-        <path d="M384 0L0 0 0 352l32 32 0 16 131.2 0-28-18.7-13.3-8.9 17.8-26.6 13.3 8.9L192 380.8l39.1-26.1 13.3-8.9 17.8 26.6-13.3 8.9-28 18.7L352 400l0-16 96-96 0-128-16 0-48 0-80 0 0 32 0 64 32 0 16 0 0 32-16 0-48 0-16 0 0-16 0-80-160 0-5.3 0-4.3-3.2-32-24-12.8-9.6 19.2-25.6 12.8 9.6L117.3 160 272 160l0-16 0-16 16 0 96 0L384 0z" />
-    </Icon>
-);
+const BoxingGlove = createIcon("boxing-glove", true, "data:font/woff2;base64,d09GMgABAAAAAAJwAAoAAAAABfwAAAIkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiCJAsIAAE2AiQDCgQgBYMtB1QbSgXIFiFJJ/GErtd9ku7GPp3HMrHsChAqxBBAn46xROiMTfEnJVeZlJr+5p93HgX4OPc5Pd/n2ZznCXQeyP80tm6gCZwp/hJA1M3CRUGxq4jUrxZ1WCQ3jLeDKp+UL+pRvFZcwUv0P4D50zQvUhhdAkgDgB0nj+7320hGilzpviJX7EMgO0ErKFFipoDNSsFMlRaVShgpuo6RdF1LgPTRD5SgjwoP40lABQqRqjo4p+6NqU7UvcEtwzHDIgsidRZmchZlUjZkU6ZkQSZmfuokJ5MMBiJ1LfLh8mQtv0DBRvBkWT2o52dibU7Jpmzw2qIsrVRHhsm8z5vP/5575eYrnvn12ftcq9N4wRcumOaC29yWL/qFFzSuucazmmdb27VNq9neOOTd3k7/+958F3zoDU0wrn1W94LoI09zr+3uBYKw+tD57deM3fzfqLoAv//w7x/S2d1v+a34HKMUIJSLu8XO5Tew6ABWkYfNE+bWCkoHFaCXNfSygBggoNA3EFCaoRFQGVgkoGe2NQL6Bo4qpRotJrqqgMLQfaC01lOgMtGXoGez81bfxJTYI5BD/PnF7uXQnrF2xdLl7cZ26ssknLDQ39Sq1fkPu9wCs9DN7nG3B93kRrd5kCH32+8+5C57JXiPGbVWWGq51kbtdnTLnmDW/R5w25jeH7JJe1+f72G5eoGZpgCsfLWlJSlSTrz+nkdvu/uWJbeAU1wC4+LkDv3FAgAA");
 
 export default BoxingGlove;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-slash` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-slash?s=duotone cloud-slash}
  * @preview ![cloud-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cloud-slash.svg)
  */
-const CloudSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336c0 79.5 64.5 144 144 144l343.4 0L97.2 172.6c-.8 6.4-1.2 12.9-1.2 19.4c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336zM138.6 83.3L600 445c24.6-23.3 40-56.3 40-93c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32c-46.4 0-88.2 19.8-117.4 51.3z" />
-        <path d="M5.1 9.2C13.3-1.2 28.4-3.1 38.8 5.1l592 464c10.4 8.2 12.3 23.3 4.1 33.7s-23.3 12.3-33.7 4.1L9.2 42.9C-1.2 34.7-3.1 19.6 5.1 9.2z" />
-    </Icon>
-);
+const CloudSlash = createIcon("cloud-slash", true, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABdAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBRAsIAAE2AiQDCgQgBYMtB1Ib6ATIHoexe2TLOaMI/eLh+7q+zn2ZVQ0oGxKH3kqI/Y/ZCjvlP3hA5ebP/8208TwK8IOUYGhj4dJAFuZzPk8gkeltgSw8OztTvLcNcQQJ4o0QKQlpPB2z0wp56pidUyLdkz7HTfw/gPGjJs6RVMkARG0AjF44d7q3Kzr1+f/PE5+bhoAYAwqBDBmaCzBMJtBcrkAuF1QkqAgKAogy/vQMlFHCGMwE5CAJKc9rNGhcrVQjX1CtVHXpXe13xx2Nb++wJ+5sFo8Mj3hjfI3YELc75XQ83+3x5gvXb1j/VtsHezw54L54sMujA660e3LIqwO+H9Xm0dqP/tz68w2fy1/8tevMr/z3bL9jV/NDXHxnofN9VK6a5zx12221rvzz+WZ6aG7jms+8+/KsupUfffRUy51z+/d7e2K8DQSCj/u1WLKy1rC/K1dL4IdXf/0TL/q/dDE9isoSCLJu/3ezLJ1yoCQBECHFAW2+C4FMd4m8tbo7BQhVESApqypAppnaAuSq6ipASUv9BSiraq5M5FWE+pZPkFS3G2QGOA5y9T0HSob5yCirH1kusZnAvuSSJmh0fF/Ru0evYkixdQ0uPWhqDy2O5U4HWqozLNpgpx32WW+dzfYpfI/p9n7bTfCw8X6o0FsPvRSGKMLBVlqAxh57bV4L8S5DFff1Tg74xZ1BS4Syj4FMRqTI6v0q6Oy+d9vqvZu6V2WmgRUKEAAAAA==");
 
 export default CloudSlash;

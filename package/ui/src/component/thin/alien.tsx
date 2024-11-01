@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `alien` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/alien?s=thin alien}
  * @preview ![alien](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/alien.svg)
  */
-const Alien: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 16C109.1 16 16 109.1 16 224c0 61.9 34.2 120.2 76.1 168c41.7 47.5 89.1 82.6 111.6 98c5.7 3.9 12.7 6 20.3 6s14.6-2.1 20.3-6c22.4-15.4 69.9-50.5 111.6-98c42-47.8 76.2-106.1 76.2-168c0-114.9-93.1-208-208-208zM0 224C0 100.3 100.3 0 224 0S448 100.3 448 224c0 135.3-148.8 247.7-194.7 279.2c-8.6 5.9-18.9 8.8-29.3 8.8s-20.7-2.9-29.3-8.8C148.8 471.7 0 359.3 0 224zm368 0l-32 0c-44.2 0-80 35.8-80 80l32 0c44.2 0 80-35.8 80-80zm-32-16l32 0c8.8 0 16 7.2 16 16c0 53-43 96-96 96l-32 0c-8.8 0-16-7.2-16-16c0-53 43-96 96-96zM112 224l-32 0c0 44.2 35.8 80 80 80l32 0c0-44.2-35.8-80-80-80zm96 80c0 8.8-7.2 16-16 16l-32 0c-53 0-96-43-96-96c0-8.8 7.2-16 16-16l32 0c53 0 96 43 96 96z" />
-    </Icon>
-);
+const Alien = createIcon("alien", false, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABlAAAAKDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCTwsGAAE2AiQDCAQgBYMtBywbSwXIjtFLzzuDmTBJQXhhKh6+36+d+/5bR6zhGZImlaolExKRaBLqlrRD9pCsksn/SI7dBfGzuUFTrRZHaevvTz3PeWiBPADPmPgtE2RMHLNrnlcg5120vN5gr9wKVRQ7OG9yBg91h/YH5KiFSNSkJ4o94MJdjj/8ikFSFOAg+oDPtHbi4QRLT/gdsVeOg3jhAATEOgAmIAoUGIFgEaXACCoTQJYF31iW5j+QgACiCvC1CWTUcQ7cApBBUs1UopMsHD3sLWpmKm/GCkPAmSvG0WG9Uj89K9ctVc5Yytup0KsyCPoXvXA/8fZs1UAcdcDY3Vm321YbFjszXTKckyxjKOHpMF4wX/FmbjIyjMl2CTHi5BpNVJox18q562hEkwEreBo50vGcouvlurXONMj3aHuVcTHghI+IVPIy4nivB2HxHraeD7G96D14HPTBNkA7fFj2/P/+np8Fs5i6sgQVk97lb8cSPj01vvj1zvIJnhUBRr+fhBVXjlnCws/3crNxi41tq3Hz0tcPN1IJIWxR3jjBqKXNPbHUe3ryCWD0yFon0DuKjQC+EOLC8j0B+e0eOvQ8gECwv3RzF8K6+F9npAD4nfn6B5eVneikNoC6tOFsMV0qCowOAHVCYE6KbBCf2KdAcubkfmuXewhCEwGSqqYAhWFsEGRNUxBUjNGCoKrpAKXI9BCGBCVIupxCYUEOZENGoWLRplM1FJTfo/A1Cb+DqdYlZtVF1JRViT4ZrQXxE+P0tgFZjGSz+ZQcvAvRUiTLFCVSnMyCSOfkZ0liPYVb+SFCjTJVhD6yeXCremMtXQbnhuXtuxggx9uysqcXy8F9UABmniTHU5GowxLjopIBAAAA");
 
 export default Alien;

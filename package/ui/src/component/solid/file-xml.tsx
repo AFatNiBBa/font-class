@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-xml` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-xml?s=solid file-xml}
  * @preview ![file-xml](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/file-xml.svg)
  */
-const FileXml: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 144-208 0c-35.3 0-64 28.7-64 64l0 144-48 0c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM192 368c0 7.3 2.2 14.4 6.2 20.4l9.8 14.7 9.8-14.7c4-6.1 6.2-13.2 6.2-20.4c0-8.8 7.2-16 16-16s16 7.2 16 16c0 13.6-4 26.9-11.6 38.2L227.2 432l17.2 25.8C252 469.1 256 482.4 256 496c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-7.3-2.2-14.4-6.2-20.4L208 460.8l-9.8 14.7c-4 6.1-6.2 13.2-6.2 20.4c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-13.6 4-26.9 11.6-38.2L188.8 432l-17.2-25.8C164 394.9 160 381.6 160 368c0-8.8 7.2-16 16-16s16 7.2 16 16zM448 496l0-128c0-8.8 7.2-16 16-16s16 7.2 16 16l0 112 16 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16zM299.7 352.6c6.9-1.9 14.3 1 18 7.2L352 416.9l34.3-57.1c3.7-6.2 11.1-9.1 18-7.2s11.7 8.2 11.7 15.4l0 128c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-70.2-18.3 30.5c-2.9 4.8-8.1 7.8-13.7 7.8s-10.8-2.9-13.7-7.8L320 425.8l0 70.2c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-128c0-7.2 4.8-13.5 11.7-15.4z" />
-    </Icon>
-);
+const FileXml = createIcon("file-xml", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABlwAAAJuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgyCCcQsGAAE2AiQDCAQgBYMtBy8bcAXIjsM4hnygxVLOIh6et+vr3FfVqvpGjbQgIok1KzJbZ3AQ9mzKSFkjE24lRBe5WBOX0x/nvwE36QM92djW3Di2RXMKdB54VNh1voZngWWagKVuikXUs1+VEoaLo+w4u+PaHvL4LLtVg/RU+hEP2IfG76bdStLJAMQQAPY86rBDfd2NbsQPvSd+cDACYk9QCWTIMCfALjKBObkKuVzQjV6v/QdWBBBN+voEcrTwDF4B5CBp5PnS1pZjK8pGf35k2SiyZ9ZFvLOqDFGPP1aKoIhXV785ddHX1749k51SlEXEEYfX4+MxGU/EE5OPjddTq2NNPOXRsccnNk5MxFg86jWz62JtPM2jRwRJiTKaTFxF9LIjnxjfM/auwLhHHIciVluxuHtibaB8foilbw+9/eeSnTl1Mczwvag2cOedA7UH/erF4eFC4C3S9U2717q7m2766u/y6Oc97+hyoNsdGP+wo+PDcTd3kv5Nm/rdvZtC6kxdbMjABrrVlkfuf/mcKVPOefnlskbW7Wfe/p3O/vP2wzvVypeBQNCK+Y0nDe7yT7tM4LdP//6f/Yp6XyfpbbQlEGTre+sdn0AiAAAprrS0EEge0aDv2udxAUKBAElTIUBm1pAAucI6ARoWbCtAU+Ewmcg7wpgTnE76XEJntnMDnRvzCd2wi2+yTWPJElRPL/3/MGc/hPddVW252RbVTtVtwzJyTqWLO1eP3auv7ANrygZnusiFLneG051jMlCXOrRwhQvsx5B9fVFlS5vZQmUnVbj91TkSspe6zDl7M76MnVXvx1e7ko9fU3yJim6lLklEan8MmQ1XX3A+");
 
 export default FileXml;

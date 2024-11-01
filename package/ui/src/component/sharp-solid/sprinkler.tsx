@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sprinkler` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sprinkler?s=sharp-solid sprinkler}
  * @preview ![sprinkler](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/sprinkler.svg)
  */
-const Sprinkler: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M24 0a24 24 0 1 1 0 48A24 24 0 1 1 24 0zM0 128a24 24 0 1 1 48 0A24 24 0 1 1 0 128zM0 232a24 24 0 1 1 48 0A24 24 0 1 1 0 232zM64 72a24 24 0 1 1 48 0A24 24 0 1 1 64 72zm24 88a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm40-32a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm360 80a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm24-80a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM488 0a24 24 0 1 1 0 48 24 24 0 1 1 0-48zM448 72a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm-24 88a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm-40-32a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM288 64l0 32 0 160 128 0 0 40-96 88 0 128-128 0 0-128L96 296l0-40 128 0 0-160 0-32 64 0z" />
-    </Icon>
-);
+const Sprinkler = createIcon("sprinkler", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABoAAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SCbAsGAAE2AiQDCAQgBYMtBzAbbAXIjsK25RMjBofDhJhD4EUlnv9+v9e1z7tBUkAKFVWx0IDjq1nXIrroCFkcH2P+1FZXv7MxvS9oInVFwAGBAzKCwS7zdUNlm01cTn8O+vNp9Cj/jblwgY0xMYEAFxUHHlAWWCARJGAtbrsKIhraQoUHtPzojg1R3+oPeBPeNP+IHFPGOgCZBQCu3KwVoDfIIDnrP8iZHBDIFQBsIOjQYQUB51EFK2g2gKYJg/S9+A9EECDDEqp8vWEG73ACaKBMtTaGEqsT9JnjRnFq/O6j6ET+JD5X1YWl84HAWr7GPubzjc08rUoPvibB6lgd855rAiETkWu5OJ7kBjBhkne3Tplvfcnf9B/Bn8oSr4IJwZ6l982qWOiaxwStI3YWnynd8pcItrevKmUTIyFMrtzAU9tGbsI+NxpQ/awTG8IAgvD83mB/hHH+/+hEgb/f//vYr6jvlTrFqAKh2+/3DRYoAgCoPAFpAYLyzJTkVSd9FhDjCCjDxgV0ljER0IzbQ8CQNQ4EDBt3FVXamFg01Ktl0n21c86O2ix6V4ec91kethgqeFqAy/JxmDM5hhPH0GI0oxc321orxJnsug9PB9XbckyDb8K0Fcs2TZk0Z3MkrCvUtixJ7vEJH4QsjMyQF97uPXc2qbhuw5x/+f4hPvh+Vm17f7YGRygSzQN1pUiN/b1SWlicWgcAAAA=");
 
 export default Sprinkler;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `inbox-full` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/inbox-full?s=light inbox-full}
  * @preview ![inbox-full](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/inbox-full.svg)
  */
-const InboxFull: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M32 327.9L32 416c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-88.1c0-2.6-.3-5.2-1-7.8l0-.1-101.1 0-23.2 46.3c-5.4 10.8-16.5 17.7-28.6 17.7l-140.2 0c-12.1 0-23.2-6.8-28.6-17.7L134.1 320 33 320l0 .1c-.6 2.5-1 5.1-1 7.8zM421.1 88.2C417.5 74 404.7 64 390 64L122 64c-14.7 0-27.5 10-31 24.2L41 288l93.1 0c12.1 0 23.2 6.8 28.6 17.7L185.9 352l140.2 0 23.2-46.3c5.4-10.8 16.5-17.7 28.6-17.7l93.1 0L421.1 88.2zM0 416l0-88.1c0-5.2 .6-10.4 1.9-15.5l58-231.9C67 52 92.6 32 122 32L390 32c29.4 0 55 20 62.1 48.5l58 231.9c1.3 5.1 1.9 10.3 1.9 15.5l0 88.1c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64zM176 144l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm-32 80l224 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-224 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const InboxFull = createIcon("inbox-full", false, "data:font/woff2;base64,d09GMgABAAAAAAKoAAoAAAAABiQAAAJeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCRwsGAAE2AiQDCAQgBYMtBzEbSAVR1Ky5p0T2EHyv8/09V3okO8gKI38mrLgpkKqUGc//Nf3u+dEBfqNDicoFRwJlPp/AAM8WPE/gKLABTXwCNnNbnMUg6pUF0alMHvnQfqH9DvL4OIaoIz2Yvsft5U3jb51cQ5JnAKIlAGauX73UFz/EDxHf194lvrcYATELlAIZMnQVYIpMoKtciVwu+CFqNfkPLAkg6vFBEsjRgGtwByAHSV2ef/fr2Kt580pds3xdpa5YL1zR7t5Ks7i5w/0RcWX7iCKGxAN9iniu87AoIuIeux/qV41nOq6JSjzbaSg2DI+H+1di3Z4QV3ZYP4j3X/PtjG+vjXuJBwa80Kcazw16qfPmSlG5t909bYu4r/39Hdao5F4vtXzp357f7/tej/M3sKb5DTc0v4KcZYM8Y6+j7ihvUd5x1F5k+TX/7ztRdWLfyK9s3Um32PpWk//M/A3c1Nhh4m/WVs92qOpwtrp2SOrQuEHRqtUTV3hCssXrLZ5gzQ/Nm//wBAQ9lv8AvOIBsj8QCM6ZN+7L7S2mnGmssCbw00f/n4k/I7UfkvQSGiUQZENqQ2xJIBEAgBTn6ZUgkFyiDi+16j4BQoEASb1CgEwXLQXIFQYLUKe7sQLUK6yWibxJyGlrawdJ1UmQGedSkGvrbVBniq9y9dpG5ou0J9G/ggnzNDx3WTly2IhyUmnWNca9yDQ/uXxsDDgv9g3ERvscd8w59trjoHMUesrS4rmOmndC5vqg0kjDjFCapLxuva5eZ69TTjvouGN5kcnK91MDnHcePRB2QsxRtiSJSMXBY7uOXzD0mwU=");
 
 export default InboxFull;

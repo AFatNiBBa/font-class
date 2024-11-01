@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gamepad-modern` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gamepad-modern?s=solid gamepad-modern}
  * @preview ![gamepad-modern](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/gamepad-modern.svg)
  */
-const GamepadModern: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M0 369.4l0 2.8C0 431.7 48.3 480 107.8 480c49.5 0 92.6-33.7 104.6-81.7L216 384l208 0 3.6 14.3c12 48 55.1 81.7 104.6 81.7C591.7 480 640 431.7 640 372.2l0-2.8c0-6.3-.5-12.5-1.6-18.7L605.7 159.8c-8.6-50.2-40.9-93.2-90.3-105.5C469.5 42.9 403.8 32 320 32s-149.5 10.9-195.3 22.3C75.2 66.6 42.9 109.6 34.3 159.8L1.6 350.7C.5 356.9 0 363.1 0 369.4zM432 232a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm24-56a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm-240-8l0 32 32 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-32 0 0 32c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-32-32 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l32 0 0-32c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
-    </Icon>
-);
+const GamepadModern = createIcon("gamepad-modern", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABhwAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCJQsGAAE2AiQDCAQgBYMtBzUbKgXIhuB5u6h6v3tmAfXajqRMOEUywlV6ioT//94d/2tEAT5rEIRyG8vGHhjNeTyBBLZvKoyyLMwSxSy37QgQGPAEws+dDn4ODfENySPk8Xd2XIl0LX2KM/VD4weNHCeplAGImgAYOX/2VG/ejJsRn/z/HPGJyQiIkaAQyJChqQBDZAJN5QrkcsHN+P//+B9YEECUCZu8NkcZe3AIkIMkz/Me1aq1qlKqls+rUqocwt0dH+r7QudHWjSIKlEv6CERR+rPi3s6Pdzv+3nfznm2w4NN58RFq+9rdK3h1Tb3N76jyZ3texfLA20bRMu97VAzT6gSpHlQs7ZEKAywI1UiAjB9RquHaz78U8tP131qepZl1X66/uWM5947PtSXhjr+3nMzvrz+U7VMpYYtXrdu85aFY2ofSB1CdOGWzevOaxpWeuL0iqcvXHh6BWT3lzsPHNi57P2lQiEZM+vVmwm6AApowfcDgWDrrRl/Lq8x5NeKVRK4/fIvf5Tb/X8zHU4Po6IEgqzL/10sSYchKAeQT7FPK+OLAskWOXnXqi4LECojQFJWWYBMEzUFyFXWWYCS5voKUFbZbJnIKwl1LT1QUtVOlOnnAMrV9QwqGeKDXFndyFxP5zi6P7/M4xgbu6ro2a1HMahYNqjemzR5cXBx29phXxroiIPW2W6bPdZaY6M9JN1lanGvrcZZkrF+qNBTNz0UBim221/N88i7y27WzA37ywxWvB/sYJ89viMciajspS5JRKrutIkdK9d0/UYAAA==");
 
 export default GamepadModern;

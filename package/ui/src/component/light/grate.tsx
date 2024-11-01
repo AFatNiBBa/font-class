@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `grate` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/grate?s=light grate}
  * @preview ![grate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/grate.svg)
  */
-const Grate: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm96 0l56 0 72 0 72 0 56 0c17.7 0 32 14.3 32 32l0 128 0 128c0 17.7-14.3 32-32 32l-56 0-72 0-72 0-56 0c-17.7 0-32-14.3-32-32l0-128 0-128c0-17.7 14.3-32 32-32zm0 32l0 112 40 0 0-112-40 0zm72 112l40 0 0-112-40 0 0 112zm72 0l40 0 0-112-40 0 0 112zm72 0l40 0 0-112-40 0 0 112zm0 32l0 112 40 0 0-112-40 0zm-32 0l-40 0 0 112 40 0 0-112zm-72 0l-40 0 0 112 40 0 0-112zm-72 0l-40 0 0 112 40 0 0-112z" />
-    </Icon>
-);
+const Grate = createIcon("grate", false, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABkQAAAIzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyDAgsGAAE2AiQDCAQgBYMtBywbfgXIjsM4hvwSSxniJeLh+7U+z33d8+tv9zL0EpECJgfIIXRxq8YFjfgVm4pcPclc+z5yarzxUgEfVrxI59O1fj3PmtK5O0+Hy+ITnV0fPYGBzXQCNnVTtLYeIuQrImVg3WTHV3Z8u0Ee72KUGulN+geP9EPjPz1cJ8kzANEeAPM3rFmt3hItEf80Iv6xEgGxAFQCGTL0FmCWTKC3XIVcLmiJRkP+AysCiCZ4XAI52uBr/ADIQVLmec+efVvh/WWtTb6+rBVb7naOeC7F5S4vyjZxr9uryOJK15dF62XvRkb8MrRNfDf8px4pXg/7cVDr+H7Ezz2zsiza3NvNE+Jy5+cFhLtdCghXnmZKQjm9Yl1Z6O4ilMz7clGwImoDnTTg5/Y//9/ffuZeanub223nKXWSbhQd6PClwXzZoUMxDy/GzmnT1sZll3Vj2h8kVyeBG+akYUtPDCPzdieXMb8xZ1XuBwLBnuZfP+1oN+tzc5nAv5/+TD8jjZaop5/RLIEgG9UYZWvUIeoCAJDivAFRRyB5q4RHtfZSgFAgQNKkECDTS/sM5woj4Zq+Jt/QpLBGJvJWQmfbTDhp7RScmeICnOvsN7hmlt/9Jp0ji1Qmzpj/xMQlFlh8qBo/Zlw1o1qWBht8VFufWd1Whp2vo+HpqP1OOO6sffY65KyBTlsdnXPMEg9c7Isq440xTmWG6rj5KqwnjNPOOGQ57nwfM1XvW8Oc92cPT3oCwgmKSSJS7cAnAQAAAA==");
 
 export default Grate;

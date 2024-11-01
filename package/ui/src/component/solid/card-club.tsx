@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `card-club` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/card-club?s=solid card-club}
  * @preview ![card-club](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/card-club.svg)
  */
-const CardClub: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M0 64C0 28.7 28.7 0 64 0L320 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64zM130.1 208.3C101.9 211.3 80 235.1 80 264c0 30.9 25.1 56 56 56c15.7 0 29.8-6.4 40-16.8l0 32.8-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0 0-32.8c10.2 10.4 24.3 16.8 40 16.8c30.9 0 56-25.1 56-56c0-28.9-21.9-52.7-50.1-55.7c1.4-5.2 2.1-10.7 2.1-16.3c0-35.3-28.7-64-64-64s-64 28.7-64 64c0 5.6 .7 11.1 2.1 16.3z" />
-    </Icon>
-);
+const CardClub = createIcon("card-club", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABcAAAAIgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggSBYgsGAAE2AiQDCAQgBYMtBzAb4gQRlZoxyH4kxsbyGu9YE9qtdNDxEj6J4Pm1f51zdz8AbwAIix4IZV1VXFHokC2p2LwAyJBa/KlTz2ObAvggkjnO42tQLrRG53kFcl6Q8gZbXitYRLG2zZDoGoJoiYiQMCn5YXn8YfwL5HEne1UZ6YP0F14rPxp/6/IqSVUGIBoBsGjHlnUePI7HEX+WEn9ag4BYBAqBDBl6BZgrE+iVK5DLBY+jVMJ/YCGAKFfhRM3DgzuwB5CDJOV597Sasrp8e/xgdfbRmIifRtTFN6N+6Erx/sjvh9bGt6N/7M62fd0a8bYP2t4Z9l2HqI63W99pq4n3Ot5tr44IIftez0vt7w5/Lz48NYZ/bXqo88W2wT82/vivv47/9WJ1E02f83lTU/WLGI9zX3pt80OP2iv+f37xYkmjx/X1jxc2u9EgJSH//P+K9kcPN3dU3lB4SmUHEAjutT07faBh7rPKmgSe/vL/+sOlB/Fi+hGVEgiysaWxe+NFwKwAuCmuG6wsLJBskIC+tda7AoRqBEjKVQuQ6dEoQK7aGAHK9JsmQLlqW2QirxJa7ZsgqXUJZKa7B3KtfgZl5vrVLdcamWcxfsH81yWS5RxaNldMGj+xmF1sC4N1FirvzymOzZHX02AUnXT8wvmrx46eusrIy+uCa+eWa8SyBYtJ4ycWswtz/SpuZ+7lK6dk3n7InOJ5a+R1ffUoOk4CTH4nqUSkKieWxn2xAAA=");
 
 export default CardClub;

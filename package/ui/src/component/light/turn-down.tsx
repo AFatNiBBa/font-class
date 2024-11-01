@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `turn-down` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/turn-down?s=light turn-down}
  * @preview ![turn-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/turn-down.svg)
  */
-const TurnDown: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M128 352l-57.3 0c-3.7 0-6.7 3-6.7 6.7c0 1.9 .8 3.7 2.2 5L192 476.2 317.8 363.7c1.4-1.3 2.2-3.1 2.2-5c0-3.7-3-6.7-6.7-6.7L256 352c-17.7 0-32-14.3-32-32l0-176c0-61.9-50.1-112-112-112L48 32c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l64 0c26.5 0 48 21.5 48 48l0 176c0 17.7-14.3 32-32 32zm78 154.7c-3.8 3.4-8.8 5.3-14 5.3s-10.1-1.9-14-5.3L44.9 387.5C36.7 380.2 32 369.7 32 358.7C32 337.3 49.3 320 70.7 320L96 320l32 0 0-32 0-144c0-8.8-7.2-16-16-16l-64 0C21.5 128 0 106.5 0 80L0 48C0 21.5 21.5 0 48 0l64 0c79.5 0 144 64.5 144 144l0 144 0 32 32 0 25.3 0c21.4 0 38.7 17.3 38.7 38.7c0 11-4.7 21.5-12.9 28.8L206 506.7z" />
-    </Icon>
-);
+const TurnDown = createIcon("turn-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABeAAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCEQsGAAE2AiQDCAQgBYMtBzAbEQXIHgm2TZr1iziTPIXx8KWrfL+l2dqTjqGPkUxEGULGFGTm1OXwUk/hvVct/Mip2hMv1T+InGuNF+RcoHvjFWi83k3fFxptYDOdgM1vJ98pbtDpNkmSf4ZJb9jsoIzrY4wG6dn0Cx4OHxr/6uUOkrIAEB0BsHD75rW++Cv+ivilifjFagTEIpAFChToK8AchUBfpYxSKfgrmk33H5gJIFro+yVQosQZXAkoQZLKcsKUutGu3FY3qu1VXT3R9ZZuW2N7PB1Pda/ivu5PRcRLo96YVsUTXcWT3ep4uduTvcQtXZ+otj5R3dd9WzwVt/Z4uq7riNgAXgF6S8/X7uF1fDv304GCibq+X2JWbBn0Rsc3/hv4y7Ff3Lx/pno3NIpON57H13YqGhtman/PPe3f0+H/F/irfdb+rwUm/PZr8V7zqLXPbWlt3XLHVX7u1OmNNzr1ytkj/Q2y4tffJizw5d36PiLLvaza6efZ50EgGP7ShHf2d5hzqbVO4J+PXhJ/Rc0v4kB6A60SCIoxzTH2xC3IcUAAAFJcZVDcgkByRKKv2tZTAoQKAZIWlQCFPjoKUKqMFqChv6kCtKhsVoiyjdDV3kwnbV2kC9PcSJe6+pBumON7vUXXKADHwYX77yUvK+GlU3niuAl5Vu4GEo8hxg9n52V1xFVcGElrHXPeOVc46oiTrijQy6y1rnTWshGy1BdlE40zQTZLPo6vl7c56jKXO+m8czJmtnxfG+Gqcf1ImicBJj2VLxGpDcaVsSgEAA==");
 
 export default TurnDown;

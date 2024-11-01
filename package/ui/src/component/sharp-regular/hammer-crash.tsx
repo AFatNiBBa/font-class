@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hammer-crash` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hammer-crash?s=sharp-regular hammer-crash}
  * @preview ![hammer-crash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/hammer-crash.svg)
  */
-const HammerCrash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M283.9 344.9l3-21.7 47.4 23.7 13.1-26.1 21.1-8 29.9-11.4 22 23.2 24.6 25.9 10.9-34 9.8-30.4 31.8-2.7 35.5-3.1-19.8-29.7L495.4 224l17.7-26.6 19.8-29.7-35.5-3.1-31.8-2.7-9.8-30.4-5.4-16.7 .5-1.1-1-.5-5-15.7-8.5 8.9L391.5 84l36.6-38.6L465.8 5.6l16.7 52.1 18.9 59.1 61.8 5.3 54.6 4.7-30.3 45.6L553.1 224l34.4 51.6 30.3 45.6-54.6 4.7-61.8 5.3-18.9 59.1-16.7 52.1-37.7-39.7-42.7-45-58 22-51.2 19.4 7.6-54.2zM64.4 122.5L298.5 239.6l45.1-90.1L172.7 64l-79 0L64.4 122.5zM42.9 165.5L0 144l21.5-42.9L64 16l120 0 181.1 90.5L408 128l-21.5 42.9-45.1 90.1L320 304l-42.9-21.5-89.2-44.6L64.5 484.7 21.5 463.3 144.9 216.5l-102-51z" />
-    </Icon>
-);
+const HammerCrash = createIcon("hammer-crash", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABgwAAAJfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCVAsGAAE2AiQDCAQgBYMtBzMbVwXIHoVxw31ki6WMj0Fx+FLx8GDX++fOzL4AmgDabADtRmQlfLqDqt+xTfWNUmhmltbS+Y4d8sf95Hf//Pd5nn/XaPqYIAsaSKaWwM6byqJwwBU4myjO3NVZmcjykyRlSR4f7fG1gSz+jqsKJPcSuCIfGj9p4RyJQgog6gNgbGX+TG9/Hp9HfPD/q8QHpiMgxoJcIEWK1gKUpAKtZXJkMsHn8f///j8wJ4CoUo6bgAwFXMYDgAwk0iyr1GpXq1AnK8cJNde2at5qeLSKrgG62+26OzR6AHoyQ6JLtMSbRVOmcRRjNPSHieJeMSbGRu+YAP1gFEzBOpYXLl2JctSMfr2Kw4t9oxK1YmEMj16xgN1ilCtWjMr4Di/Uf+GXbKDVhs5yqt95T8UHKi573CO+NEBJSy2VDPClh80Bs1z0qiHKUi3dt87HOuroY+vc11Kq7CW3dLD/o09+3EfjWuyFhWb7cNpwF0t0X+CQV5Z4yjS9F5vmKYt6OfKbpx351foBQCD4875fWa/0a/VaCfjyLdDB/3+UbEleQHUJCNJe/2dZcgpNlVbBJUjigA74okDitBSutbbbAoSaCJCoUlOAVCv1BcjU1FOAgrYGC1ClpvlSkdUQGlvehURtu4XUEMeFTGMvCwUl70SqNI7UJBWDUj6EmZNGZGKvvH+ffnkxXyY11cqk1Dwi33a6HeCi7phrg5122Ge9dTbbN9B7zIzvt90kDZ3oh3L99dFPrig/zjxPL1tvj70222lH7maE/H7YzQG9cnf0IwEMeEyJF0VSe9Pq7dvX7+m9ds/qvZsAAAAA");
 
 export default HammerCrash;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gopuram` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gopuram?s=sharp-solid gopuram}
  * @preview ![gopuram](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/gopuram.svg)
  */
-const Gopuram: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M144 0l0 24 0 8 40 0 0-8 0-24 48 0 0 24 0 8 48 0 0-8 0-24 48 0 0 24 0 8 40 0 0-8 0-24 48 0 0 24 0 8 0 32 0 24 0 40 32 0 0 96 32 0 0 128 32 0 0 160-96 0 0-160-32 0 0-128-32 0 0-96-32 0 0 96 32 0 0 128 32 0 0 160-80 0 0-48c0-26.5-21.5-48-48-48s-48 21.5-48 48l0 48-80 0 0-160 32 0 0-128 32 0 0-96-32 0 0 96-32 0 0 128-32 0 0 160L0 512 0 352l32 0 0-128 32 0 0-96 32 0 0-40 0-24 0-32 0-8L96 0l48 0zM256 272c-17.7 0-32 14.3-32 32l0 48 64 0 0-48c0-17.7-14.3-32-32-32zm-32-80l0 32 64 0 0-32c0-17.7-14.3-32-32-32s-32 14.3-32 32z" />
-    </Icon>
-);
+const Gopuram = createIcon("gopuram", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABiwAAAIXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnCDLwsGAAE2AiQDCAQgBYMtBy4brQXIhocnu/86t7oHcI3cQzMDuIoY/XQBB9k6ZbTxmzr1PBfOBnwL2TbcU9MWN8gY47wCFUx9EdUKFtJiBazmmdLSqjKhj5kTdauK2XuPPH67QxkfFFfVI72YfsSD40PjL51cJWlUAIiWAJixbtUSn/4ev0f8UHuL+MEiBMQMkAUKFOgqwGSFQFeljFIp+D1qtfIfmAkg6tOvM4ES9fAhPgeUICnK8kmrlk3qNSvXNqnXeJMgmkRERJMQ8E1jQ9Q4Yhrre6n9c/1eb/u0o/GbJHHjII5oAkdvkw2320Y8hQxdav9c47UCJF70VK+6lnX/9Pxx748efNJRaw0N0LCOKikjlQ3szqyjAbLtsouyl233MmxulzKWqxQ//VxVP/9UVJZvzHK2B+gov1RwrEXzm9xsXpmuAqnUeyzLOTcoK4MOxGvtHv1Zt63F5P8bNkngz/f/+8f5K6p9mqQ6NJRAUAypDbE5gUQAAFKc1StBIHlTQd+1qecECI0RIKmvsQCFLloKUGpssAD1dDdGgPoaW6UQZSOhrS0ASVMnQGGsc6DU1hugnsm+adbXNor41aJP+33MnmuhOdfyiGFVnphvxy49JJV+PilvxwPO1rWBctNexxx12h67HXDaUCct6ZxxxNwVMkeJshGGqWQTZffs2V5rmiedcoCb/ksmyc/nA5xd7x4oWaKMI7npE3SnBvuOHT9zcscRAAAA");
 
 export default Gopuram;

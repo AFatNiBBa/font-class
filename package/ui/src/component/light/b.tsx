@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `b` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/b?s=light b}
  * @preview ![b](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/b.svg)
  */
-const B: typeof Icon = x => (
-    <Icon viewBox="0 0 320 512" {...x}>
-        <path d="M48 32C21.5 32 0 53.5 0 80L0 240 0 432c0 26.5 21.5 48 48 48l144 0c70.7 0 128-57.3 128-128c0-52.8-32-98.2-77.7-117.7C270 213.9 288 181 288 144c0-61.9-50.1-112-112-112L48 32zM192 256c53 0 96 43 96 96s-43 96-96 96L48 448c-8.8 0-16-7.2-16-16l0-176 144 0 16 0zm-16-32L32 224 32 80c0-8.8 7.2-16 16-16l128 0c44.2 0 80 35.8 80 80s-35.8 80-80 80z" />
-    </Icon>
-);
+const B = createIcon("b", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZgAAAH/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWSBTgsGAAE2AiQDCAQgBYMtBygbxgTIjpMlZn6Jhwe9/js3yVPmG/k2O6gHvFMt1a2Lbt0K7U591f7+rfmff/qAD0TqxuY3XuDnOU+ged7yE6zFLQss0wQsa2eX+h9ENkkf+STDohtWM2SxJvqqIrmVfI0L+aHxi9bOk8hSANEIAJNWLJnn0x/jx4ivK4mvzUFATAaFQIoU7QQYKxVoJ1Mgkwl+jEpF/oEFAUS1cqEEZKjCXCwCZCCRZlnRpEmpqn62vFSVr3naLOJqKyFuNb/WrRSfTfiky/3e5eEfYF++7K1eEa+0v9vz5dA8rreIKEVeyiNutCzFnJHTO5cblX/r9PX2rw14MPBbvkkf+lT6zbcDL1o4ZWhVzfz5Az5p3fD/P/48feGH02XKtbXl8umLfmzwqovFxXCwBj+e1mjb8ojl2xoBgeDRjrM1HPtfbSkBP7//x3/1M1L5MSYmZdRKQJD2rfS1No5DTBQAgCSO6xwTEUhMlcJd67kuQMgRIFEtFyDVViMBMrk+AlTpYJgA1XJLpCKrE5pZ1yFRzyFIDXcCMs28AVXG+sys1ixSPjFsYH5zidMtmtZXDOo/sBhdLF2NpQgV22OKbanncU31wqTtDtjvqG222uWoIYfNc47ZZ7qHp3lRYZD+BiqMVhwHj+PLbXPYEbscsD91GaO4L/d03C/uhSESwOCXoNSIJDYDAAAA");
 
 export default B;

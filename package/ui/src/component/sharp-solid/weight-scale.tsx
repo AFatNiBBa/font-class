@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `weight-scale` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/weight-scale?s=sharp-solid weight-scale}
  * @preview ![weight-scale](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/weight-scale.svg)
  */
-const WeightScale: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 176a128 128 0 1 1 256 0 128 128 0 1 1 -256 0zM391.8 64C359.5 24.9 310.7 0 256 0S152.5 24.9 120.2 64L0 64 0 512l512 0 0-448L391.8 64zM296 224c0-10.6-4.1-20.2-10.9-27.4l33.6-78.3 6.3-14.7L295.6 91l-6.3 14.7L255.7 184c-22 .1-39.7 18-39.7 40c0 22.1 17.9 40 40 40s40-17.9 40-40z" />
-    </Icon>
-);
+const WeightScale = createIcon("weight-scale", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABagAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBWQsGAAE2AiQDCAQgBYMtBzMb3ATIhofv1/w693UnA0A9AAwKSc0sUH6tInYEwv1ai2p1pm6edx4tkDcKbSxcGkj7fM/zBALMujwvDCQLLNMErN1pyYislUPKUiQ5zuV47JDHF9kNJdKL9DPu0UPjL+3cIKmXAYimAJi6evlC39ZGbcRP1Y+In8xHQEwFhUCGDB0FmCAT6ChXIJcLaqNaxX9gQQBRxucmkKOEJVgDyEGS5XmHlu0alBrlq+Jy/fVX+0fU9K9pcKvvewF3pc+7eP2b/SrO2F4ZF/F5d/WYT/vUjxRNIov6K662Xh1tole0jBXxZsvHrrR60uBWm2fRrdK08k/Xn3f97HKT7g1p+Mfv3br9/kfDht1dCE+tc/hOQdG3b1HcOeNbfOvM5pdNK10X2ehnhxQLqXzerNnnNYWvqceBQFC+/v7IzU0m/F+3QQJ/fv7fP+YzUv02SRXUlUCQDagOsCGBRAAAUpzSLUEgmSNDd23oqQChPgIkZfUFyHTQVIBcff0FKOlspABl9S2Xibye0NJGC5KGjoLMKBdBrqUPQMkE32llLSNTKlol6D9dwiwJzZwrhg4aUowrpqHG6AmZxuOLbbHPKV/qC5t2OeyQE3baYa8TAjlmoXnSQbNW8EwvKgw1yBCFcYrj5HF9lZ2OOW6vww7lKeMV99U+Tq2b+4KSMOEwriQRqaEa0u8C");
 
 export default WeightScale;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `motorcycle` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/motorcycle?s=sharp-thin motorcycle}
  * @preview ![motorcycle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/motorcycle.svg)
  */
-const Motorcycle: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M264 32l-8 0 0 16 8 0 83.1 0 20.2 39.4-111.6 79-30.3-18.9c-20.3-12.7-43.9-19.5-67.8-19.5L40 128c-4.4 0-8 3.6-8 8l0 48 0 8 8 0 71.8 0c94.2 0 171.7 74.2 175.8 168.4l.3 8 .3 7.7 7.7 0 48 0 8 0 0-8 0-16c0-59.2 32.2-110.9 79.9-138.6L446.6 242C409.1 264.3 384 305.2 384 352c0 70.7 57.3 128 128 128s128-57.3 128-128s-57.3-128-128-128c-18.2 0-35.5 3.8-51.2 10.6L406.1 128l97.9 0 8 0 0-8 0-80 0-8-8 0-56 0-2.5 0-2.1 1.5L380.5 78 359.1 36.3 356.9 32 352 32l-88 0zm-3.4 150.5l114-80.8 50 97.4C371.7 229.5 336 286.6 336 352l0 8-32.3 0 0-.3C299.2 257 214.6 176 111.8 176L48 176l0-32 109.6 0c21 0 41.6 5.9 59.4 17l34.8 21.8 4.5 2.8 4.3-3.1zM496 112l-98.1 0L387.9 92.4 450.5 48 496 48l0 64zM453.9 256.2l51 99.4 3.7 7.1 14.2-7.3-3.6-7.1-51-99.4c13.5-5.7 28.3-8.9 43.9-8.9c61.9 0 112 50.1 112 112s-50.1 112-112 112s-112-50.1-112-112c0-40.6 21.6-76.1 53.9-95.8zM239.7 344l-48.2 0c-3.9-31.6-30.9-56-63.5-56c-35.3 0-64 28.7-64 64s28.7 64 64 64c32.6 0 59.6-24.4 63.5-56l48.2 0c-4.1 58.1-52.6 104-111.7 104C66.1 464 16 413.9 16 352s50.1-112 112-112c59.2 0 107.6 45.9 111.7 104zm-64.4 0L128 344l-8 0 0 16 8 0 47.3 0c-3.8 22.7-23.6 40-47.3 40c-26.5 0-48-21.5-48-48s21.5-48 48-48c23.8 0 43.5 17.3 47.3 40zM128 480a128 128 0 1 0 0-256 128 128 0 1 0 0 256z" />
-    </Icon>
-);
+const Motorcycle = createIcon("motorcycle", false, "data:font/woff2;base64,d09GMgABAAAAAAOEAAoAAAAAB1wAAAM5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhRyETAsGAAE2AiQDCAQgBYMtBzEbTQbIBiJ899qsbCeuHAaVgPj9lZjv/ueazw/4AD/eO9DzQ6ncmiItiqLi+QQGHEnRtAPeO7BN2Da67aoJEcnsoXEFtvyhDQ6oheosMD3bLG+IZQwoLIsAEgIYk5L1a1fF91Aeipz5fy/IGSoDAiAlATAIYAEWkIAAUAQLARKwMYCNjcBD+f9/8x9oQABA/IAGVADYQAoQQKIBABsAhb9t103pJaWLifecQLue5+j22tOI52WVOpJJNmktcyIQxPOuVT1Xt5AF3j4y+/bCsbIhwwZWFj1a9kTx46lXFTtWblKaelO7RLSOkCqSTaJE16mvc+vKgSxbDKJN6Hqty/WyvZ5MzlhQIiW6vvZ0nFRvhalTt15dSq95rp6s9/Zm3Ji4JMOGPPsybUoaGb84fR3t6UXp1qVbY60xC4fT065Pvz7ek8nQ8syb8y826RccuSBijl4XNS9ucfT89JMj58bWmZxZZPMMq4ycSXGXnpTh6dIIS/HP8VJtCtn0LuXZdmfxX+66bghu7Xx0q8YjnqTpRwu/HLi4FcpLUJJd3sXFLeASQtbatfO8wRcQkNrJU7pGjdJ5nGxB/KB8nWjlutSwBwql5A4NCcdpNK9njahHzhaM699eXAzgVCtdq5qUwNANsyItuSj1ulyrsGg2b8hKiYzTc7WG5+TjBvnI1YoK0R8//Bcc/N+Hj1lq8sub067VzxGy8wcnjVgRGqq13LRiRFJw/hwU+fvWN0/yVfoVKZk9e/4Q3OzmzOmwHHfPWda5uznCTp8x2can9oEvMTBVqsBEny81r4LvA4AAAkXqlNjbPLjIN9dTADw+9OFN9jr/P1Qj1CbARQEgYGX5PwtN1AgAhhcAiCrpR6qJHxJA8RN/gjeAeVsLBA0IPIofmgqDRTwhYKPJDA5J5GUWrq+NhdgpECJoCkERQE+wyMdQsIlgNzgU4UTEjwixkgP3MXM/o8nlmkjZeSZnthymkBmtKvgvnNHThc1iW4Z+vCsj3EM7utONPrSlDR0zqoH2omq8L10pN0Us+11DTrKRA0MhzObG3e31aEsvetOR7nSzsxTGHO/NQL/pwRmhUxFIc1GgUCBKJ3w2GQIA");
 
 export default Motorcycle;

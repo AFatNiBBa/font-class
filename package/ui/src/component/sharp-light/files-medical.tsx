@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `files-medical` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/files-medical?s=sharp-light files-medical}
  * @preview ![files-medical](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/files-medical.svg)
  */
-const FilesMedical: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M416 384l0-240-96 0-16 0 0-16 0-96L128 32l0 352 288 0zM390 112L336 57.5l0 54.5 54 0zM128 0L324 0 448 125l0 259 0 32-32 0-288 0-32 0 0-32L96 32 96 0l32 0zM32 96l0 16 0 368 304 0 16 0 0 32-16 0L16 512 0 512l0-16L0 112 0 96l32 0zm213.3 64l53.3 0 16 0 0 16 0 37.3 37.3 0 16 0 0 16 0 53.3 0 16-16 0-37.3 0 0 37.3 0 16-16 0-53.3 0-16 0 0-16 0-37.3-37.3 0-16 0 0-16 0-53.3 0-16 16 0 37.3 0 0-37.3 0-16 16 0zm16 69.3l0 16-16 0-37.3 0 0 21.3 37.3 0 16 0 0 16 0 37.3 21.3 0 0-37.3 0-16 16 0 37.3 0 0-21.3-37.3 0-16 0 0-16 0-37.3-21.3 0 0 37.3z" />
-    </Icon>
-);
+const FilesMedical = createIcon("files-medical", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABgAAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCXgsGAAE2AiQDCAQgBYMtBzQbYgXIHgVu0zPipXmE4YRFl46+RJomnud/v2/73Pe+zH2IaIKkCa8iGpJJKDRI4n1CJGmcyOqzqCb5+/Hj6v1F4qTNszAbnADdXYNicN92zczCZ3Picvrj/Le9LvJH27sJsoD2Pk8g4OjzPKEssAQDneCe363eGIpS3i3J5ysdbqM9nPYCbV4kcsqzAg/9nearhT4o2gZAZgCAXSdaFdwmM5lMjP7IhD0gkN2AFQQaNFhCgK2kgiVkVoBWK0xmNFL/gQwB0oefWECLIR7hOaAFRb9tpw9mz3boFPKp7fGuV69Eak2SmpKppw83mhDd5a52x1IidUrSJOmOEkqmdqVxbKMu0jEttZJJRBN1WWMJtXpdW3F5sWp8xvj3lRa82fELOSMijHy6iBdqOuCFEe4dP524f0itwDuZnyy+MCSiE7wzGHSQ8GIG/pxZuEwwMc0ghBFaawKhuji9OAORSdsLTAJgML8eIAh/XvfKhelb/w+7Ar68/fmbXkZG7/KujGOogNCsH6WXd5B3AgAouUWfG4LigT7c6hSPBURFQNFXBTQWIwK0qnUE6FkmRIC+6giptGNijn5iiimuMo0tHpnWHD9Mz1b/tb45kcqlLFXyX2FGmeHSMfa5vRznYV9URE20+wneDqwPes5GZ7FwdHBnbmbtLqMuKs17e+UZUvJAzMfNi8Xx8eja6DLv4mrNO5wfksD3q1YP89U2iiUguEFLUUiZ+hgc11cKAA==");
 
 export default FilesMedical;

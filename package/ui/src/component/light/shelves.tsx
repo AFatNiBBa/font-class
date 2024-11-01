@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `shelves` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/shelves?s=light shelves}
  * @preview ![shelves](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/shelves.svg)
  */
-const Shelves: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M16 0c8.8 0 16 7.2 16 16l0 144 576 0 0-144c0-8.8 7.2-16 16-16s16 7.2 16 16l0 160 0 256 0 64c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48L32 448l0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64L0 176 0 16C0 7.2 7.2 0 16 0zM32 416l576 0 0-224L32 192l0 224zM448 32l-64 0 0 64 64 0 0-64zM384 0l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32zM128 288l0 64 64 0 0-64-64 0zm-32 0c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64zm192 0l0 64 64 0 0-64-64 0zm-32 0c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-64z" />
-    </Icon>
-);
+const Shelves = createIcon("shelves", false, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABlAAAAIZAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSDAwsGAAE2AiQDCAQgBYMtBy4bgQXIhof/n/u3fW7yKSlDWgVAKZECJscwDO7bIXRsxFtjUVUNvIlrnv/505/n+RM8SuWqqQK8gwcWxaMoi6YCnw1nE8VZOxN8BvpNnz5xSYZJP2yOkMc/MU4L6fX0K57WD43fDXSLJM8ARA8ALNq8fp3vG9GI+LX5CfGrNQiIxaASyJBhiADzZAJD5CrkckEjms30H1gRQLTi1yWQo8CH6ATkIGnP89EdHYNiqGzpmm/KU4vtL/cV3SPi1f6yKoV4qc8r/SK6iZwB79bu3bpPHnu4KAtRRqwui/Jh35eJa31eKop40O+ViLje/9Vyi1BGRFEofQS1LmOnynK95cjOHp1/jvj10K+6f9fo9pzac7o1BH0PNTpJbRJc4z1793drJjTUGu9erUVRbLYxu927162WrM3huGPV7R6BZP39/UAgGPrtkMbu7vOetZcJ/Pbl38/87Zrfp2upE+0SCLJxzXF2pGvgWwSOprhkJPiiQPKmdvyuXbwiQCgQIGlVCJAZrIcAucJYAVoMM12AVoX1MpF3CH3s7HjSxVk8M8NlPNfHR3iLeX6ItOoTmaUydsZ8FBOXa2DZsGryhEnVnGqZIKzxUbBxbrVtGHWJCka7jQ457ZQLDjrgqAsKOmdd/KKTliNwmR+qTDbBJJU5quP04+pNDjrnvKNOO1Xamau67xnlEi4/2k0iAaa8MUVTIrWdP3LwxKWD5wEA");
 
 export default Shelves;

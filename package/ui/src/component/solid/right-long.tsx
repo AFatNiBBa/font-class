@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `right-long` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/right-long?s=solid right-long}
  * @preview ![right-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/right-long.svg)
  */
-const RightLong: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M334.5 414c8.8 3.8 19 2 26-4.6l144-136c4.8-4.5 7.5-10.8 7.5-17.4s-2.7-12.9-7.5-17.4l-144-136c-7-6.6-17.2-8.4-26-4.6s-14.5 12.5-14.5 22l0 72L32 192c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l288 0 0 72c0 9.6 5.7 18.2 14.5 22z" />
-    </Icon>
-);
+const RightLong = createIcon("right-long", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABUwAAAHnAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQyBCwsGAAE2AiQDCAQgBYMtBzEbjATILgfsltmLJZIYsyRaulwp13Xy/C/pDj/GnCQeqrHf2737ptBEo1nykLVkQmNINJKGSqpUhsxQGfxiv/b23PKeqGGSTJJbM89QyjWGJNY8Mp1SyL8BMpacOsblw7i+qEy8ncwsCB3goAu+vx5r302dqhnnoQC+UdDGwqUBWeBznkcgGM+22WUVqRWsQgWvgHV3tlkU0V5pKUtyXOz4PE6o8Sg+gZR8F/2Ap/Km8YecQOoUAMQYAHBx29eLt/sj+haC+MRAQFwAlhEKCuYROCYWmCexDKoq+CHc/wcaAogm+JkJKgrWwS6AClJUiVPd0EoG4zrV5LOGvNKhbdCL5XoW1KcrB3n03nrT0xLi2epojBv/McNXfu89x0y3O0Pd91+tA9M9Xuhq9C2MDrpvgEDwkLcCPP4PIsDvHv6GUn4A2hIEZUPYeIIkAAAZOxwJgbRGhF+17wWB0EWA1NQVoJhjQKDqWkegYVEagaauS2JRlQizJhpIfXegOLILqll3oOHYu9Y0G8Va6LOmH2sJbRJtbeJ4JMYFHloqYwBkqhZ5WvTthIgfFjFj1Yot06bM2xL4hl5z27I2DWv1QSwuIoYV8LJ7Pz1o2oZN81at5DpFvF/12dHT/aCIMOGelpREqj7eJa8UAAAA");
 
 export default RightLong;

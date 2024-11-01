@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `transformer-bolt` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/transformer-bolt?s=sharp-duotone-solid transformer-bolt}
  * @preview ![transformer-bolt](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/transformer-bolt.svg)
  */
-const TransformerBolt: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path class={generic.secondary} d="M48 32l0 32 16 0 24 0 48 0 24 0 16 0 0-32-16 0-24 0 0-8 0-24L88 0l0 24 0 8L64 32 48 32zm0 64l0 32 16 0 96 0 16 0 0-32-16 0L64 96 48 96zM96 352l70.5 5c-7.5 35.7-15 71.3-22.5 107L288 320l-70.5-5L240 208 96 352zM208 32l0 32 16 0 24 0 48 0 24 0 16 0 0-32-16 0-24 0 0-8 0-24L248 0l0 24 0 8-24 0-16 0zm0 64l0 32 16 0 96 0 16 0 0-32-16 0-96 0-16 0z" />
-        <path d="M0 160l32 0 320 0 32 0 0 64-32 0 0 224 32 0 0 64-32 0L32 512 0 512l0-64 32 0 0-224L0 224l0-64zm240 48L96 352l70.5 5L144 464 288 320l-70.5-5L240 208z" />
-    </Icon>
-);
+const TransformerBolt = createIcon("transformer-bolt", true, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABiAAAAIiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjSCQAsIAAE2AiQDCgQgBYMtB1wbbgXIHoPjbgnR7i2v5+XGoxBKTFY8zzf9dt/MJGd/kr/0YltTpStklaBxrQkPqik8Sq8Re3B0hdvi98zpv7KMbKvuVTFaQAVMrjwjZvymxm7GRrkks+rj/F9TL54fHeDnIziUzIVFhXfbBCa2d7go2kTm8zPFXW6batpQC+0JieMKLe/kLzrKlwK8D/8DmF90XihmFUA2AoCr9/M5/IkkFlpafydLsiCQawAOIlRU7EXgArlgL4WDoGnCskxah2WS1hkCpBc+WkGPGV6DD4AGiqJrbdd822yDTI/dvN2TJwx1HOYyRMbIMIVCOSm5WygXilSgMpWoXAcZZ6GB3XDJMePgDHUkXCq+ajMbd6CCPPHwt43/OWQEfJBvVzARrJgPO98/R6ks3rD9EbCFmwra5nJ8PWwjbBjCTo2dnLSMsT4TvSzFW07Vaqnacapuv77s3wcIwo8vKw82RP9rxgK+f/z7aV7H+h/dylhQQKhH160auYEgBsiWvIBhw2knEapblAhfa/JRQAwIKHqDgGoPAYFmcASBzn4+BHqD2+TSZmKrZgeKyWNQnXcGzVZvoHPBf7a3NRUSOTji/gOT40M0dohddieHebWp4YGLscsRPuwynuSQCdtiZG3lYGhg6jDAd3KFo6X4FhbjIOZi58TC+HLn6fGSoZ29qbWV3yeCnw8YnbYnm7BXJpGe9mNVSUnd+V2ucWfrrRcHG1iP18+K7zA=");
 
 export default TransformerBolt;

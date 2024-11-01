@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `strikethrough` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/strikethrough?s=light strikethrough}
  * @preview ![strikethrough](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/strikethrough.svg)
  */
-const Strikethrough: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M129.7 132c4.8-25.9 22-44.8 49.7-56.2c28.3-11.7 67-15 111-8.4c13.8 2.1 56.1 10 69.7 13.5c8.6 2.2 17.3-3 19.5-11.5s-3-17.3-11.5-19.5c-15.1-3.9-58.6-12-72.9-14.1c-47.7-7.2-92.7-4.1-127.9 10.5c-35.7 14.7-62.1 41.6-69.1 80.6c-.1 .3-.1 .6-.1 .9c-2.8 22.9 .6 42.7 9.5 59.7c8.8 16.8 22.4 29.6 37.9 39.8c18.7 12.2 41.6 21.2 65.2 28.9L16 256c-8.8 0-16 7.2-16 16s7.2 16 16 16l480 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-176.6 0c-18.1-6.6-37-12.1-55.3-17.3l-1.2-.3c-39-11.2-74.8-21.6-100.2-38.1c-12.5-8.1-21.5-17.2-27.1-27.8c-5.4-10.4-8.1-23.3-6.1-40.5zM379 336.8c4.7 10.8 6.6 24.5 3.4 42.7c-4.7 26.1-21.9 45.2-49.8 56.6c-28.3 11.7-66.9 15-110.9 8.4c-22.1-3.5-59.5-15.7-88-25.1c0 0 0 0 0 0s0 0 0 0c-6.1-2-11.8-3.9-16.8-5.5c-8.4-2.7-17.4 1.9-20.1 10.4s1.9 17.4 10.4 20.1c4.4 1.4 9.6 3.1 15.3 5c28.3 9.3 69.3 22.8 94.4 26.7c0 0 .1 0 .1 0c47.7 7.2 92.7 4.1 127.9-10.5c35.7-14.7 62.1-41.6 69.1-80.6c4.2-23.3 2.2-43.7-5.6-61.3c-.6-1.3-1.2-2.7-1.9-4l-38.7 0c4.9 5.2 8.6 10.8 11.3 16.8z" />
-    </Icon>
-);
+const Strikethrough = createIcon("strikethrough", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABggAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCHQsGAAE2AiQDCAQgBYMtBzQbIQXIhiCyWVbP7gPwPgBDDCadzdFjZgBWZHMmO8UII/1xP8+/NX3AZ/TRuhfFdR5R5xOY6G4adZ6gA5vpBGxH814chBAvtGEPebwdA9QiPZXKuBV8aPymnRskeQYgmgJg6urlC31QiUpEufoqUTYfATENFAIZMnQUYIJMoKNcgVwuqES1Kv4DCwKI2iI0MXJ65jGcB+QgSXk+eniDWo3yVfzx9de/MP7tlU/0vNPqiTY1rUu97rb+Yc4XxVVX49l2T/V8MLJ+PN7yiVaNoqZNqXX9uNurdXw27m7rUoeVT7R9dswbq+72UvjViJXqlyZjLR9vtTV31Z2epOxqfD//6+4vtJ+NRf2YeUe3h00f/tG1vKvs6vhdt1+cVvfDFdtf+mVhp+8+OrH9wzn1d5z8SjD05x8vvTjvY5XGjSuVfOeLHrzGe6f6X77Z9v/y5Xnnbmx++tRqgCJbOvWbDYM+2XZVrKqpGcZNd132ZojobfcYIBAMbPDwwuYmE/6u2yCBX9/662/lr6j6c5Ieoq4EgmxAdYANCSQCAJDilG4JAsk+SVRqqCTuLNVHqHRt9XEp00HTFnL19YdaOhvJ7owtl/m6vJ7Q0kYCSUNHITPKRci19DLUMsHn+dpaRgZ2PNDwT30pszwyc1MxdNCQYlyx2FILkMTa1fHFbqfPKTnSF2+1y2GHnLDTDnud6NHHLCyddNCsNWqmLyoMNcgQhXGK093HyioaO+a4ZOel8+uMV9yf7uPU+vS+2E8ixmHqkkSkRn9BCaALAAAA");
 
 export default Strikethrough;

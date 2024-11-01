@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `claw-marks` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/claw-marks?s=sharp-regular claw-marks}
  * @preview ![claw-marks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/claw-marks.svg)
  */
-const ClawMarks: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M67.2 1.3l17 17L193 127l7 7 0 9.9 0 40 40 0 9.9 0 7 7L385 319l7 7 0 9.9 0 40 40 0 9.9 0 7 7 76.8 76.8 17 17-33.9 33.9-17-17L422.1 424 368 424l-24 0 0-24 0-54.1L230.1 232 176 232l-24 0 0-24 0-54.1L50.2 52.2l-17-17L67.2 1.3zm0 224l17 17L161 319l7 7 0 9.9 0 40 40 0 9.9 0 7 7 76.8 76.8 17 17-33.9 33.9-17-17L198.1 424 144 424l-24 0 0-24 0-54.1L50.2 276.2l-17-17 33.9-33.9zm241-207L321 31l7 7 0 9.9 0 40 40 0 9.9 0 7 7 64 64 7 7 0 9.9 0 40 40 0 9.9 0 7 7 12.8 12.8 17 17-33.9 33.9-17-17-5.8-5.8L432 264l-24 0 0-24 0-54.1L358.1 136 304 136l-24 0 0-24 0-54.1-5.8-5.8-17-17L291.2 1.3l17 17z" />
-    </Icon>
-);
+const ClawMarks = createIcon("claw-marks", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABiQAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmSCfgsGAAE2AiQDCAQgBYMtBzEbfwXIHoVxs/Oki+Yoi8J8FxF8v9b7fe7MvkpmwzAvzKiAFJKKB/wOSAEJA2QJ9AZzvteGTJ16nguHAvhGQdtDw2NrLJ3jfAIGvNsnWIFqY1pBClwRrTodFZmHCPmi1CHYdOLxFY/PDeTxbdxSIT1OuMkzjV+1d5mkkgGIZgCYunr5Qh//FD9FfFmb+NJ8BMRUUApkyNBJgAkygU5yJXK54Keo1dp/YEkAUQc/J4EcFTzBS0AOkizPx/YcW600zldVK8X6vv36rozWIUS12jr8/r4xIfrFqiiKiKDdLyYbKi2SwsTq1m1at/qlKtwabiMtI99m5OvRt9vTZk9/b5dpH+LAAbsU+uhT7HLu3GmrBQvQHDNnGtWunVGOHt3TO3ei+U8IZafxKUHzv75BRumrcemrtLRylprzaCvRHCAQ3Ol+ZermphP+b1BN4Jd34eH1tU9S1/QUDSQQZANqA2xIU9SrD3IFwEtxSjd7J4HkoQxOtZEHAoQCAZI6hQCZjpoJkCv0F6Cii5EC1Cksl4m8odDKRgdJI0dBZpQzINfKO6Bigk+9Oq0iq1Oyysi/xLhZPTQzrxw6aEg5rrzNHFTp4Wv/+DKt9Tm11PW1tXY57JATdtphrxMdeszC8KSDZkXITB9UGmqQIUrjlI9LX5evstMxx+112KFtkPHK960+TsWt+5qZAHOY6UkiUrH9wNbTA78rAAA=");
 
 export default ClawMarks;

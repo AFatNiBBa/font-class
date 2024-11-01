@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stars` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stars?s=duotone stars}
  * @preview ![stars](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/stars.svg)
  */
-const Stars: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M256 80c0 4.7 3.1 8.9 7.7 10.2L312 104l13.8 48.3c1.3 4.6 5.5 7.7 10.2 7.7s8.9-3.1 10.2-7.7L360 104l48.3-13.8c4.6-1.3 7.7-5.5 7.7-10.2s-3.1-8.9-7.7-10.2L360 56 346.2 7.7C344.9 3.1 340.7 0 336 0s-8.9 3.1-10.2 7.7L312 56 263.7 69.8c-4.6 1.3-7.7 5.5-7.7 10.2zM384 224c0 3.8 2.5 7.1 6.2 8.2l38.6 11 11 38.6c1 3.6 4.4 6.2 8.2 6.2s7.1-2.5 8.2-6.2l11-38.6 38.6-11c3.6-1 6.2-4.4 6.2-8.2s-2.5-7.1-6.2-8.2l-38.6-11-11-38.6c-1-3.6-4.4-6.2-8.2-6.2s-7.1 2.5-8.2 6.2l-11 38.6-38.6 11c-3.6 1-6.2 4.4-6.2 8.2z" />
-        <path d="M213.4 157.4c-8.8-17.9-34.3-17.9-43.1 0l-46.3 94L20.5 266.5C.9 269.3-7 293.5 7.2 307.4l74.9 73.2L64.5 483.9c-3.4 19.6 17.2 34.6 34.8 25.3l92.6-48.8 92.6 48.8c17.6 9.3 38.2-5.7 34.8-25.3L301.6 380.6l74.9-73.2c14.2-13.9 6.4-38.1-13.3-40.9L259.7 251.4l-46.3-94z" />
-    </Icon>
-);
+const Stars = createIcon("stars", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABiAAAAI2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCLAsIAAE2AiQDCgQgBYMtB0YbRAXIjtRG9VVixcP3a+Wf+7qnA0C9q8LEChDKo01U8smxQhuwn8BtTfxPXPP8074BCwB7FedpkRidAjsfyMZJJTCw2Ww4M53vtp5ZDMoQi4g8f0PGhXJMLqQ7Qh7fZ+dUSI/Td7jJ/wMYv+jgHEmDDEA0B8CEZYvm+OJ9vE/xXfU18Z3ZCIiJoBTIkKGzAKNlAp3lSuRywftU5X1USwKIAj86AwUqOIzzgBwkIeV5z5qaRpUm+VI+3HDVg4YRV1ovjsVxr/W9Nkucv839dsvCi1HwsO3SWBbGBy5+6apTbYZEl4Wg0dV23WJYYpxuOzS6xoOGSrxzDJ7Kku3zal82f/lbzXdbv/Nj7e6mND3WZ42tzfw9evSTmTM036rrs+c/r+4v+35+/qxrJ81+8sno2R+3NtN3jeq++gfqvNOufv1279Q5UB+/8OTNYsFOT7UpijZP7bSgwNuBQFC77v8b65qN/q9+owQ+vvnjn3JlXfWTJL1EfQkEWe9qb6sTAWWFkIIpjqql9woCmYkSetXGHggQGiJAUmgoQKaT5gLkGuolQEVXQwQoNLRIJvIGQmtrGps0doDNDHWczbX2iq0Y7ctgoXVk9qdaj/r3l3EqAlO2lQP69i9HltuCqpmUHAZHlcfO7kd9Qw/aa6t99jpsi812OAzMQXMiR+wxVcKm+KDSAH31VxqpVJcfjUsheNAhO9Z6/SajlM+7ujsqt+9Bu0mAgW8uLSNSZE0+GGufa2xpBvrrCg==");
 
 export default Stars;

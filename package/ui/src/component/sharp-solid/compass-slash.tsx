@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `compass-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/compass-slash?s=sharp-solid compass-slash}
  * @preview ![compass-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/compass-slash.svg)
  */
-const CompassSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M320 512C178.6 512 64 397.4 64 256c0-33.6 6.5-65.8 18.3-95.2L228.1 275.7 192 384l121.9-40.6L468.1 464.8C426.3 494.5 375.2 512 320 512zM536 393.4l84.9 65.9 19 14.7-29.4 37.9-19-14.7L19 52.7 0 38 29.4 .1l19 14.7 85 66C180.1 31.1 246.4 0 320 0C461.4 0 576 114.6 576 256c0 50.6-14.7 97.7-40 137.4zM270.4 187.2l125.4 97.3L448 128 270.4 187.2z" />
-    </Icon>
-);
+const CompassSlash = createIcon("compass-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABZQAAAIUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVSBVwsGAAE2AiQDCAQgBYMtBzQb2wTIjsQ4JvKLmDQ9Hr5f4/XctxsA3gAweGKhvgsQKqj9U9uJaxUmQvn7/F/z+T0/OsDPR3Ao0Vj5PFfc+XwCA4301ua04WyiuN3ZUnOItgtpxEKOc8dnDXn8nZ1ShnQ1fcHp9KHxhwZOkVTIAER1AAyfO3OyF6VRGvH5/7vEZxMREMNBIZAhQ2MBBskEGssVyOWC0vj/f/wPLAggyqI7TCBHGYzBMkAOkizP6xXlKpWpks+pVKbi8p9TIr6NiHg153jX2TEr5sbs+DJr7uw5s1tHp2gTO5zZNVpPRj8f+LjSj8lfh7+c/X3YCu3oc2NWi5LqJb+af1nzxdChYx3nbAPqG9uz0dkdWm60v52r+/070297Zg3n9C7e6mLQYwXvPL3/rN8ZjgSmmrSxwtfDy/lWPW+4OQAIBA++tHq2tNqgv1RK4PdH/5IP/v9FOpZKUF4CQdbp/04WpWOA6ACCFHu0UL4okAyRoXet7JIAoSICJGVVFCDTSHUBchV1FKCMpnoLUFZFM2UiryDUtriBpLLtINPHYZCr7TYoY5D3flm1I7Mp2iLoL13CGAmNHlZ079KtGFAs8ypjJmToH1hsi+32+Lr2sNIaW22xy2qrrLdLIDtMjnbbbIwGj/ZDhe666KYwQHFdelw8x2o77LTeVlviIAMV79129uit24OSEGYP45JEpCort24225TOOzct37kOAAA=");
 
 export default CompassSlash;

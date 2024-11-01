@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `square-fragile` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/square-fragile?s=regular square-fragile}
  * @preview ![square-fragile](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/square-fragile.svg)
  */
-const SquareFragile: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 80c-8.8 0-16 7.2-16 16l0 320c0 8.8 7.2 16 16 16l320 0c8.8 0 16-7.2 16-16l0-320c0-8.8-7.2-16-16-16L64 80zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm128 38.3c0-12.3 10-22.3 22.3-22.3l25.7 0 32 64-32 32 80 64-32-64 48-32-32-64 57.7 0c12.3 0 22.3 10 22.3 22.3l0 89.7c0 47.6-34.6 87.1-80 94.7l0 49.3 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16l32 0 0-49.3c-45.4-7.6-80-47.1-80-94.7l0-89.7z" />
-    </Icon>
-);
+const SquareFragile = createIcon("square-fragile", false, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABeAAAAInAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyBfwsGAAE2AiQDCAQgBYMtBzUbBAXIhof/t5ne92e0xx6tkccIWiNDB9QjhLAEqtQFm0InLVZJq4tTz3MeCoUfOAJBG4s2LR/b1+4+r0DFeuUGvJTzDrCaVsD6tiFCjTBsNEIkSiIaL8drtkAer+OBCull+h3384fGn/q4R1LJAERnACzcvnmteiMaEb81vyF+sxoBsRCUAhky9Bdgjkygv1yJXC5oRLMZ/gNLAogW/DQJ5KjgCE4BcpBked65b1u10iHfVq0Uu590T/G0R4d43iuLZz1bl7weG/HlyA7x8ejP+6R4MeqzYa3xyZgv+mZbX4+sRi1GxdZoi9m4TjU+7iPejPpsiqjG0x5PuhfxrOfzXtWI+HbMFwNjyBedv/h78O/Hfjf/fKPjAh0bC2CyWXShy3tCeK9Ll2KBokv65vButb6aBV8/X/OeWWrddsl27hxRU2p07Ng4UJ1SzYjBQ7JdQCDodOf81P2d5vzXrprAHz/++z/6FTUbUU9foJ0Egmxcc5w9UYeoCwBAimuGRB2BZI8Mr9HqmQChQICkRSFApp/OAuQKYwUqBpq6oEVhs0zk7YXu9hJIWl2EzDTXIdfdV1Axx09ei+6R+RnjJcwzL3GZRpZeKmsTJpWzymmlsa5DpdPZ5bIy6lqcjIabjjnvnCuOOuKkKwq7ZG141VnLLHSpLyrVTDBJaZZyu72/vs1Rl1x20nnn6JzZyvP2KNfs7aNBT5i0TSZJROp4V6Xxfx8wTp45CgAAAA==");
 
 export default SquareFragile;

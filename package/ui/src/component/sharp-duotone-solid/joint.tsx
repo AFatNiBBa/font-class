@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `joint` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/joint?s=sharp-duotone-solid joint}
  * @preview ![joint](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/joint.svg)
  */
-const Joint: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M384 0l0 43c0 55.2 21.9 108.1 60.9 147.1l21 21c9 9 14.1 21.2 14.1 33.9l0 43 64 0 0-43c0-29.7-11.8-58.2-32.8-79.2l-21-21C463.2 117.8 448 81.2 448 43l0-43L384 0zm96 0l0 43c0 29.7 11.8 58.2 32.8 79.2l21 21c27 27 42.2 63.6 42.2 101.8l0 43 64 0 0-43c0-55.2-21.9-108.1-60.9-147.1l-21-21c-9-9-14.1-21.2-14.1-33.9l0-43L480 0z" />
-        <path d="M234.6 354.5C89.6 368 0 432 0 432s112 80 288 80l77.8 0L234.6 354.5zM407.5 512l56.5 0 61.8 0L392.5 352 336 352l-48 0c-4.6 0-9.2 .1-13.7 .2L407.5 512zM624 512l16 0 0-160-205.8 0L567.5 512l56.5 0z" />
-    </Icon>
-);
+const Joint = createIcon("joint", true, "data:font/woff2;base64,d09GMgABAAAAAAJ0AAoAAAAABfQAAAIpAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghyCFQsIAAE2AiQDCgQgBYMtB0YbLQXIhocnu74/t6pn3m73Gr0Ev6yIigBkkEIpnqFz6SJpNMDjEQwt8iO1+BswE1Mgwb69KVpT6E3xd2dLzbGsfZIWLMnxmeOyhCKNypdqkG5N7+IG/h/A+FVfl5K0zwCiCwCW7Nq2wes/xo8p3m09TbxrPQJiKagFMjIGCDBfFhigUKNQCH5MrRY/RqtVE0A08dNm0EQbjsSZgAIkWSqKPlXVt2/V6FjsrBrlrk9XR7w5POIBERfFhXNeWPPZjip27qjKameU5dXljipAcanYEdURwmdbxsSNRBURd00cG68OjSgr4c4JY+KVIV3q8630TfGooQ92efD3Ie8e/q5f9l3dXMqU1/ggIKYN/Wdx9102uviOh++YPfv0S+82Z3Jb22V3f9lF/Pd4X4kx2wWvjYN5dry83Hc9xllsnI5/JfrqUj9wqFKjcRb2B4HgiUtn/3dA5/n/t6sS+PnFP3+Rd269ni5MD6KdBII8vjXevulCQG4AgRSnG2qYA4eUTZXJt3ZwkwChRICkqRQg66+LAIXSOAEaBpkhQFNpmyyK9kIP+1WQdHASyGY6DxR6eAo0zPdGoKlHZJ+TPEb68qWv1OiKbvWUiZPrufU0rshuJFD9vHrZMfr0mDcGFjrcCY53qsMc6iinKvZkG8KnOc5Ki1nhh2pTTDRZba56O3Wr71SBk53iqLG638k89XnPaKfbpceAOxHeqUZkmUiRO749y4S7a+6s1DsKAA==");
 
 export default Joint;

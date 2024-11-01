@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sandwich` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sandwich?s=solid sandwich}
  * @preview ![sandwich](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/sandwich.svg)
  */
-const Sandwich: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 96C0 78.3 14.3 64 32 64l448 0c17.7 0 32 14.3 32 32l0 48c0 17.7-14.3 32-32 32L32 176c-17.7 0-32-14.3-32-32L0 96zM303.9 382.6c10 5.8 22.3 5.8 32.2 0l70.2-40.9c6.4-3.7 13.6-5.7 20.9-5.7l4.8 0 48 0c17.7 0 32 14.3 32 32l0 48c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32l0-48c0-17.7 14.3-32 32-32l176 0 4.8 0c7.4 0 14.6 2 20.9 5.7l70.2 40.9zM32 304c-17.7 0-32-14.3-32-32s14.3-32 32-32c7.2 0 15.8-3.7 35.4-13c16.6-7.8 40.6-19 68.6-19c30.6 0 53 10.2 70.1 18l1.9 .9c17.2 7.8 29.7 13.1 48.1 13.1s30.9-5.3 48.1-13.1l1.9-.9c17-7.8 39.4-18 70.1-18c28 0 52.1 11.3 68.6 19c19.6 9.2 28.2 13 35.4 13c17.7 0 32 14.3 32 32s-14.3 32-32 32c-22.7 0-44.3-10.3-58.8-17.2c0 0 0 0 0 0c-1.3-.6-2.6-1.2-3.8-1.8c-17.4-8.2-29.4-13-41.4-13c-16.2 0-27.5 5-45.4 13.1c0 0 0 0-.1 0c-18 8.2-41.4 18.9-74.5 18.9s-56.6-10.7-74.5-18.9c0 0 0 0-.1 0C163.5 277 152.2 272 136 272c-12 0-23.9 4.7-41.4 13c-1.2 .6-2.5 1.2-3.8 1.8C76.3 293.7 54.7 304 32 304z" />
-    </Icon>
-);
+const Sandwich = createIcon("sandwich", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABlAAAAJWAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCcgsGAAE2AiQDCAQgBYMtBy8bcQXIjsK25RMjjHKJ8AC+IhFkwza7d0frrnte0VQXuhqNcC+hq1LdK4KRONBogsUI/Ce57P3Qs5t4ArgmVbFaFE0ENYVL3bnb+b8m3zs6ugb8RodSQZVLLJBR5vMJTHSWNLG05hmVgM3cFlfOYJlpPHLIFBkf2sKH8luocSA/jEY+yj2CG7/Q+GNkGNJgAUBMAAD2jpNicPpET0EP/1vEpygQEHuAJYSCgjkENskLzFGwBKoq+CGZjP+BHAKIPtieJahoeAU9ABWkUhWMbdLUm6ZC6nBTkx8QEknVNWmUiSG6BiI1DRoRSIhKboVpIYv6SGhASCOlUEkiybKj9lL7GfUtW0ZTtjP2QprxH7WdYgMUsjw5qgLlB+vqtOg2DEQ2kzTtpiN+QUQG3NUyVvM68x+Wj6Vf8sdO4VTrlLOEPJT5rLv5v38hDhCrK3rECrKriuriraMdm+a5g8rilaKAnU/ooKrbX6WDiXMmULyCdxXweCe67++bABPGdFk3wDdjRoa27Bq4ZLrdOjpA78+7LgCBoHzc/MjT3vyjoi4H+N3/+u+/oZRvYECCoHRkHdkJkgAAZLSySiCQblHYuY64Q4AwhACpz5AAxSwdBKohywg0C3wR6DNkn7yoqggzciZII05AsaEHVDM2QLPpptBnJuQrVKwv8f8wLVThkHnc082DB/Ft1SMVHd+ng/m16dDauhyxEKXq1GpWoliFZqEbxZRb1Ag9oSFeiPPkxgMXhKcbr1qqFBo1qYiV/CzB+PspB63nwY5w5BjjioqURKp8D/JtFUXl");
 
 export default Sandwich;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-v` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-v?s=duotone circle-v}
  * @preview ![circle-v](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-v.svg)
  */
-const CircleV: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm130.5-77.3c-5.9-11.9-1.1-26.3 10.7-32.2s26.3-1.1 32.2 10.7c27.5 55 55 110 82.5 165.1c27.5-55 55-110 82.5-165.1c5.9-11.9 20.3-16.7 32.2-10.7c8.4 4.2 13.3 12.7 13.3 21.5c0 3.6-.8 7.3-2.5 10.7c-34.7 69.3-69.3 138.7-104 208c-4.1 8.1-12.4 13.3-21.5 13.3s-17.4-5.1-21.5-13.3c-34.7-69.3-69.3-138.7-104-208z" />
-        <path d="M141.3 146.5c11.9-5.9 26.3-1.1 32.2 10.7L256 322.3l82.5-165.1c5.9-11.9 20.3-16.7 32.2-10.7s16.7 20.3 10.7 32.2l-104 208c-4.1 8.1-12.4 13.3-21.5 13.3s-17.4-5.1-21.5-13.3l-104-208c-5.9-11.9-1.1-26.3 10.7-32.2z" />
-    </Icon>
-);
+const CircleV = createIcon("circle-v", true, "data:font/woff2;base64,d09GMgABAAAAAAKAAAoAAAAABfQAAAI0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghiBbQsIAAE2AiQDCgQgBYMtB0wbCwXIjpSuztRQWoLn7aLq/e6ZBdQLGJF0jKzoIkDpIjw4nvj/+1PPcx4K4AORZFN+zj9IBsgY4zwCOY8mbXEO0YLXtAZWa2e/+nyZJCH0LsPED5uSHcvhAHl8n11QIj2avsQ1+R/A+FUzF0iqZQCiLgDGLp4/07t3426KLytvE1+agYAYBwqBDBlaCjBCJtBSrkAuF9xNFe5GpSCAKJPPyEAZJczHZkAOkpDyvFGLFjVKtfJFNUrVlz/XbGEsjsc7PtN0Qdxu+FDjRfFY5/hpbMR7M7+qcWn2N+M/WPzzuPdnfV394owvx7y7YPFjndXolZ6MflnsTXecafjjgpd7INf/vKjdi3Vf/L3tl5u+dLnH5DfmPm3e056c3OLA5m9s//bu9rc60N27Jlaj2VvvjR//3lvNqpmov7jh3IwDzSc/MWXqkCld5naZ9+bkT2qXO7QZU4zpNGgd9d8c3gcCwYMn+36+us6I/6vWSOD+O3/+G39IKu8m6UVUlUCQ9aj0sCKBRAAAUhzSLnEMgcwgicM1PQQboToZkrLqkGmhLuSq6w4lrQ2klfPzZSKvJjS0kiCpaS9kBjkJuYbegpIRPlHLGkZmX6x1sM+7pEkSE8eKvr36FMOKoS9xJkNzf3ihVrocKteVNtpkt10O2GiDrQ5A7TPTOGinSTNyoi8q9NVLH4VhCji6lRah7rPf1r6ADxmu2I+7ODSv7krTJEC/k3FkRIqs7j8c3PNQT0OV61fClQQAAA==");
 
 export default CircleV;

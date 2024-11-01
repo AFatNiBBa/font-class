@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flask` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flask?s=sharp-thin flask}
  * @preview ![flask](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/flask.svg)
  */
-const Flask: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M288 219.9l2.8 4.1 66.4 96L90.7 320l66.4-96 2.8-4.1 0-5L160 16l128 0 0 198.9 0 5zM368.3 336L432 427.9l0 68.1L16 496l0-68.1L79.7 336l.3 0 288 0 .3 0zM304 214.9L304 16l24 0 8 0 0-16-8 0L304 0 288 0 160 0 144 0 120 0l-8 0 0 16 8 0 24 0 0 198.9L0 422.9 0 496l0 16 16 0 416 0 16 0 0-16 0-73.1-144-208z" />
-    </Icon>
-);
+const Flask = createIcon("flask", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABXQAAAHxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgTyBVQsGAAE2AiQDCAQgBYMtBywb0QTIngXu3iVkRMLQ7Fr1RJiIh3/2q933Zc8ys6h/RFw6zSRvQhppGmKVaJbJ08wID9oLor1q3ycud/7nv30bPdLYtPb5avHeAp0HWNhznudZYJkmYO3OZmWk2KEkRCQ5zh0XD8jinu1ykjsJ3PAfGv+0dZ1EmgKIJgCYsmrZApXP8TnibRXx1jwExBRQCKRI0UGA8VKBDjIFMpngc1Sr+j+wIICowS9NQIYc87AGkIFEmmUtm3Ys5w2zleW8tK1lq5Yroi5WRevgG+UQVqxYucJAD4IiGoYrgy3KEaVSKsTy0PGKp+td69XvYiedv3XjfMomJbGum9xLl72ULzo2aZ1pm+6x6QKBgnn6JXa0qYnaT7auzUs3PpqjiSZPmFM9DwLBmt9rvmnj/1dOwNcX/8FfUbUSlaQetRIQpP2r/a2PCkRFAACSOKlrVBBITJPCd61zU4BQQoBEjZIAqfaaCJAp6SdArpMRAtQoWSYVWQOhhQ2FTdQ5wqZGusBmWnjO5sZ7WdRoEalISQIh/ejSZ7bAjEvFkIGDi7HFdCTLUiK403HFttX7JK30gbt2OuSg43bYbo/jDX7UgsYJB8xcgTN8UWGIgQYrjFUcT+/1lUgcdcyezEHn5xinuJ/1dnK9vQ+4CeYcqiuREEn+KmXsAwA=");
 
 export default Flask;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mountain` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mountain?s=duotone mountain}
  * @preview ![mountain](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/mountain.svg)
  */
-const Mountain: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M135.7 191.7l59.5 79.3c.4 .5 .8 1 1.3 1.5s.9 .9 1.4 1.3c1 .8 2 1.5 3.1 2c.6 .3 1.1 .5 1.7 .7s1.2 .4 1.7 .5c1.2 .3 2.4 .4 3.6 .4c4.8 0 9.6-2.1 12.8-6.4c8.5-11.4 17.1-22.8 25.6-34.1c6-8.1 15.5-12.8 25.6-12.8l124.6 0L286.8 49c-6.6-10.6-18.3-17-30.8-17s-24.1 6.4-30.8 17L135.7 191.7z" />
-        <path d="M396.6 224L272 224c-10.1 0-19.6 4.7-25.6 12.8l-25.6 34.1c-6.4 8.5-19.2 8.5-25.6 0l-59.5-79.3L8.6 394.4C3 403.3 0 413.6 0 424.1C0 455 25 480 55.9 480l400.2 0c30.9 0 55.9-25 55.9-55.9c0-10.5-3-20.8-8.6-29.7L396.6 224z" />
-    </Icon>
-);
+const Mountain = createIcon("mountain", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABcQAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWiBUAsIAAE2AiQDCgQgBYMtB0wb7gTIhofn7fo691V1f6hGbozIHmnpDGRGRhtJHW2QDNKF0+mJa54/VgA26aN16IMU+LLOJzChskixtdBMZ2Dz28l3JIO6bJLO79Jl2J5hdIQ8fsnuUSK9mJp4nP8HMH41zD0kHRmAKACwav+ebb44G2dTNFufEU1bERCrQUUgQ4aRAiyVCYyUqyCXC86mVouz0WpVCCDK+CkzUEaOjWgAcpCEyPNR9a5ST97oKnWe7uzqfGjg1HhmcCP2xjNeHPTsuJ54c8jzI+4c3Ni/r7HvzkEBe3bQw6J4uOvhIc9v29UVjXhu/GsD99beKd75vdq8pOmRM7fStcUrd2o2F293248eLdr+vHDdE6678Gdb8ejlb7u/NZUdCFaEG6XUvu7VV+r9XyludfUHPpw588MDjwGBYGX1687jfUv/b+9K4Pznf/5bfilaZ5P0DtolEGRTW1MdSSARAIAUt6gleEAgU5egT+32nAChEwGSsk4BMiMUAuQ6TRGgZLR5ApR12iMTeYcw0NHGJN2uZzLz3crkBvqUKVnq+7xsYGSIUvGg/uey1ktg3aLKrOkzK4sr25qqgUROs0sqx9HEW2LPJNroEte6xk0udpHL3SToG2yrbna19Rq6zhdVzDLdTBWLVczNR6vh8xvc6PK1YZ9nicr9bKJb9OGTKE2y5GxLMhmRIiug6U2DZtC/M94gAAAA");
 
 export default Mountain;

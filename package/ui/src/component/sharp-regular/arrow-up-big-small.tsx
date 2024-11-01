@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-up-big-small` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-up-big-small?s=sharp-regular arrow-up-big-small}
  * @preview ![arrow-up-big-small](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/arrow-up-big-small.svg)
  */
-const ArrowUpBigSmall: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M368 208l0-128 128 0 0 128-128 0zm-48 48l48 0 128 0 48 0 0-48 0-128 0-48-48 0L368 32l-48 0 0 48 0 128 0 48zM160 33.3l-17 17-96 96-17 17L64 197.1l17-17 55-55L136 456l0 24 48 0 0-24 0-330.9 55 55 17 17 33.9-33.9-17-17-96-96-17-17zM432 432l-64 0 0-64 64 0 0 64zm-64 48l64 0 48 0 0-48 0-64 0-48-48 0-64 0-48 0 0 48 0 64 0 48 48 0z" />
-    </Icon>
-);
+const ArrowUpBigSmall = createIcon("arrow-up-big-small", false, "data:font/woff2;base64,d09GMgABAAAAAAJIAAoAAAAABbQAAAH+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBfQsGAAE2AiQDCAQgBYMtBzkbBgXIhofn53o79yXzISlDSpwiswLSoEjVf1VaVOtYOAKFavVcnHqe81AA30MRCdrYtCbIAp/zPAIRjbbRXM8DWqzVKqg1d21deCjtJ2mJhTyee/yckMf38UyD9Cp9h6flTeMv/T0maWQAohsAlu7evtEXv8QvEd82PyK+tR4BsRRUAhkyDBJggUxgkFyFXC74JZrN+B9YEUC0kNsTyNGKozgLyEHSyPP27iPae5aNzvmuslEcD1GGKBaURRn0eFEIYdfYCWN3xNhYGBNie6QQ1q9msTXGxeIYH7ti/MmiLCLKsOHwKMrhHd06/hn23anvXP7vvogCvlnXv9Tuq+U39errn3D4MLrjlPX6qfWz3il0XzhdnyyBCEIThCu1JWr160AgODuly5+Huy74v61M4LfP//uP7hvS/CVVqQNtEgiyic2JDqQlhqhSJQAAKW4ZbnxQINmrAVc6eS5AKBAgaVF0yAzUDXKFCdAwxMwTLQrbZSJvF3o5iCDp5CpkZrkDuV7eQ8MCX4YtekXmZoyTML+8xFUaWblXTZ1cV/OqZaqxnkPl9fxqWxl7K7XG8aFTLrvkhpNOOOuGwq7ZmNx00SoLXemLKlNNVqvMU10Xj+IuhNdcd3bO32+Zr3ofjHXLHh7HeiKk0zyXJCL1OHrt2uXbk25emXTs7OlJPgg=");
 
 export default ArrowUpBigSmall;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `language` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/language?s=light language}
  * @preview ![language](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/language.svg)
  */
-const Language: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M304 96l0 320L64 416c-17.7 0-32-14.3-32-32l0-256c0-17.7 14.3-32 32-32l240 0zm32 0l240 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-240 0 0-320zm304 32c0-35.3-28.7-64-64-64L64 64C28.7 64 0 92.7 0 128L0 384c0 35.3 28.7 64 64 64l512 0c35.3 0 64-28.7 64-64l0-256zM174.9 170.1C172.4 164 166.5 160 160 160s-12.4 4-14.9 10.1l-64 160c-3.3 8.2 .7 17.5 8.9 20.8s17.5-.7 20.8-8.9l8.8-21.9 80.7 0 8.8 21.9c3.3 8.2 12.6 12.2 20.8 8.9s12.2-12.6 8.9-20.8l-64-160zm-14.9 49L187.6 288l-55.1 0L160 219.1zM496 176c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 16-64 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l80 0 41.2 0-.2 .6c-8.2 22.6-21.4 42.9-38.2 59.4l-.8-.8-22.6-22.6c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l20.9 20.9c-5 3.2-10.1 6.2-15.5 8.8l-17.3 8.6c-7.9 4-11.1 13.6-7.2 21.5s13.6 11.1 21.5 7.2l17.3-8.6c9.1-4.6 17.8-9.8 26-15.7c5.9 4.4 12.1 8.6 18.4 12.4l18.9 11.3c7.6 4.5 17.4 2.1 21.9-5.5s2.1-17.4-5.5-21.9l-18.9-11.3c-3.4-2-6.7-4.1-9.9-6.4c19.1-19.4 34.1-42.9 43.6-69l4.2-11.6 4.8 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-16 0-48 0 0-16z" />
-    </Icon>
-);
+const Language = createIcon("language", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABoAAAAK8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0SDBwsGAAE2AiQDCAQgBYMtBy8bhgXIngPuzoVxaLARWxsdcOZZWoTgn8+u/r6qnpnd6jX628woRwDiOT8VIsLzsrb30zkuUawzmum6rUMlRM+sU0nl0pWAVxL51G3j6SCY9r+a5OJLsEdjtEbbrHb63/T38/xb0wd8/Ak+ShX9XhQXjSLqfAI73/lm0YC7cRTYhCbEG5w3+YC7Q/sWePotRQjMNnkCrHEfqg/EWQgGzwIAoCQAAKBJr24duBGVu8gTV9AThoAA1BSAAAEWsEAeAqA+FgF5eASAh4cgKnf2HzhAAKAwPmw4rwfEAAeAswCAB4Ah7HnJyTkZkaZ+KN7r6YfcKGON03LfLKt5scX3n8D5K2wTRnO50TnZIduL0vGZoIN5NMto2zpWIlFH9olcO3izvpzdtdE2ZebKV7Y2xZaMnkGPnj2ceg3bHNmYhpw2clO676OdmaGy2syN6WW6evE1sVLaEhN6CZtZUpv9RGGmfMx4c51T0eNJxz/lHRxqq8Z++lf60ush8X3NfVheX4JTqdAlQ/IV9vqTHRCZLfuiTN+5No320MBus6Mzixj/2m56gWiyFVy6FjmtTmUTonePj8ZEEzzRWUHcXAojOHY7n1uYPi2GewPWbxTeXd1fStxdMX9FmjZ9+m0QWvwTvnoSAAgQZGwvPFbe+r+0GQDeX//9sxPNXDkOiMEAILDl/xf9zVwAjCoASBjNpOjEDAUYdnDirzWOzQgA4QABYAjjEACWXJIQAB6OcgiAEAXUQACEcXTDIi8WkcaAChjimAIsNZkFPNK4AELU5348TJrYb1X40oRfxdSWTajFtKBKxcpB3WC0rBA/P06P1wsWG6Vn8rYycCEjmcREpjOC4YxheoOcSofUDCbQcopowRcJqEJFKhNQl2Bz7a7aE8enMo0xw/L2SeoRHB8uzczp3mWgbfBpq1JkMCAT8/0CAAA=");
 
 export default Language;

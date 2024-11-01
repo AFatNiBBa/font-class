@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `flying-disc` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/flying-disc?s=sharp-solid flying-disc}
  * @preview ![flying-disc](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/flying-disc.svg)
  */
-const FlyingDisc: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M23.7 456.3C-1.5 431.1-5.9 389.6 7.1 341.4c3.2 9.5 8.4 18.5 16.2 26.3c15.6 15.6 36 20.7 55 20.5c18.8-.1 38.8-5.3 58.2-13.3c39-16.1 82-46 121.2-85.1s69-82.2 85.1-121.2c8-19.4 13.2-39.4 13.3-58.2c.1-19-5-39.5-20.5-55c-7.8-7.8-16.8-13-26.3-16.2c48.2-13 89.8-8.6 114.9 16.6c55.3 55.3 10.5 189.8-100.2 300.5S79 511.6 23.7 456.3zM235.1 267.1C161.4 340.9 76.7 375.8 46 345s4.1-115.4 77.9-189.2S282.3 47.2 313 77.9s-4.1 115.4-77.9 189.2z" />
-    </Icon>
-);
+const FlyingDisc = createIcon("flying-disc", false, "data:font/woff2;base64,d09GMgABAAAAAAJMAAoAAAAABZAAAAICAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgVCBLgsGAAE2AiQDCAQgBYMtBzIbsATIjsK2tXNMICiTJoDjIyOefr/fnvsEEa2WNKlFLZlESGSalUbplMIQoYR/OI5uD3EPSA3KUqNcjfm/pl5Y0wF+pDPLet641lkHT2DPR1FeiQOZDWyiuN1pyXaIlGtJZEkujyTHZwd1KqtsDeWzrODVf2n+zcim6KkAIMMAAI4eHaxg4gJdBC13esm3GyCQIwAsQ6hQYR4CuwgF84gsA7Va+EH///gfiEGAtBCwwqz1ibvAMQA1KEpNxMdI2VATOZtXUAiNuRQzN4rUiyw7bG9WclaKl7DsazXiOtkO243LhdOZVRfKRWhhtUmhuxndLK80Vt/H30TXdMu3Erzi+YLR3Lo5Z3PieGB5pGiUitt16MacMXFYT/bzLyWlvYaIcXhrJM8J4OzF1dEplQV8HACCcPWVZ+5Dq/naTUkA8Dt0f6vO/H/unGSmNKFbAaFa/5fkmQkB+hkpy8dJBn7IExRbkR2f2u9NQPQioGj1CqjMoYNArdcaBBqLlCDQ6nWLUGpyiHFeCRT9nkBlRxaojesGjV3zidZ4qvsjnL7we0s1zlGjSVhOWhar42YBi1eCs4MauNsVTaYGMdgKwWJESxQkUJjEjIlnlU4SxViijfwQJkeaLEwdHi5frncWJF6CMDGi3Tga8HxPVLLcXgymQwDY2PnZhRTK4Mi0sOgQqecL");
 
 export default FlyingDisc;

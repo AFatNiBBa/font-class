@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `bag-shopping-plus` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/bag-shopping-plus?s=duotone bag-shopping-plus}
  * @preview ![bag-shopping-plus](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/bag-shopping-plus.svg)
  */
-const BagShoppingPlus: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M0 208c0-26.5 21.5-48 48-48l64 0 48 0 128 0 48 0 64 0c26.5 0 48 21.5 48 48l0 208c0 53-43 96-96 96L96 512c-53 0-96-43-96-96L0 208zM120 336c0 13.3 10.7 24 24 24l56 0 0 56c0 13.3 10.7 24 24 24s24-10.7 24-24l0-56 56 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-56 0 0-56c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 56-56 0c-13.3 0-24 10.7-24 24z" />
-        <path d="M224 48c-35.3 0-64 28.7-64 64l0 48-48 0 0-48C112 50.1 162.1 0 224 0s112 50.1 112 112l0 48-48 0 0-48c0-35.3-28.7-64-64-64zM120 336c0-13.3 10.7-24 24-24l56 0 0-56c0-13.3 10.7-24 24-24s24 10.7 24 24l0 56 56 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-56 0 0 56c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-56-56 0c-13.3 0-24-10.7-24-24z" />
-    </Icon>
-);
+const BagShoppingPlus = createIcon("bag-shopping-plus", true, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABlwAAAJPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgmyCQQsIAAE2AiQDCgQgBYMtB14bcQXIjoTcROtfxIUWeygtD//Y9XVfVX1Vj1F/YEWSIihyZPaEu446W/Dk61RIp/MdFGLimudfRQ+YABa5aE6LxIg8n853nlSWPqEJzXQGtt1FbUpJxFOS7iX9bY+f7BwML8jiZXpBDcnt5Etc8/8DGL/q6AKJhhRAtADA9BVL5qn8FD8l8WX1XeJLcxEQM0AhkCJFFwEmSQW6yBTIZIKfkmqVn6JaLQggank85anFR87jIiADiT6WZd0bOzWWappmy82L+Zpn/SJedRB5RDwc+Gbse/1fdy2O3RlQ7rPybt9SRFjR846iFKJbvfIQkhedIvJI3G0fcXMi3vR52+sV3uv3alSTeJ9U3C2W3e5dCqFELztHlCJ0p8/BUJ9nl2R8qEe5Rfn3xi+3f+nHa7ekZT5MrGr+1l9/edu8OJq3bPloR/e2i8YZB9FFbdFx2rpb/ZV+xXfDphXDvvsq/VZ9uXyGM7Be/bcnTm++DwJB/z9vtKH5pP/rSwn45WP/cr+jaiUqSRn1EhCkg6qDrI0KREUAAJI4rkdUHEQgNU0ifGoTNwQIOQIkauUCpDprIUAmN1CAGt2MFqBWbolUZA1CG+syl2jiEJca4ySXaeMdrsYkn6RqtYlUEnU50j+COeYIzN5UDB8yrJhQdJuSIVyqXZ5YLAf6HX+oP1y13QH7HbXNVrschT1sXvaYfeaMmNm+qDDcEMMUJijInWvHclKHHbGrbdFXmag4H+7n+Hhyf9hOAhjxhidTIom04+ZNOwbzrnOwNHsG8/WEzk2LiwEAAAA=");
 
 export default BagShoppingPlus;

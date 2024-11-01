@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gem` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gem?s=duotone gem}
  * @preview ![gem](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/gem.svg)
  */
-const Gem: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M4.7 185.8c-6.8 9.2-6.1 21.9 1.5 30.4l232 256c4.5 5 11 7.9 17.8 7.9s13.2-2.9 17.8-7.9l232-256c4.1-4.6 6.2-10.3 6.2-16.1c0-5-1.5-10-4.7-14.2l-112-152C390.8 27.6 383.6 24 376 24L136 24c-7.6 0-14.8 3.6-19.3 9.8l-112 152zm51.5 12.7c.1-.5 .2-1 .4-1.4c.4-.9 .9-1.7 1.5-2.5c1.3-1.4 3.1-2.4 5.2-2.6c49.1-4.1 98.1-8.2 147.2-12.3L153.1 84.1c-2.1-3.5-1.2-8.1 2.1-10.5s7.9-2 10.7 1c30 32.5 60.1 65.1 90.1 97.6c30-32.5 60.1-65.1 90.1-97.6c2.8-3 7.4-3.4 10.7-1s4.2 7 2.1 10.5c-19.1 31.9-38.3 63.8-57.4 95.6c49.1 4.1 98.1 8.2 147.2 12.3c4.1 .3 7.3 3.8 7.3 8s-3.2 7.6-7.3 8c-64 5.3-128 10.7-192 16c-.2 0-.4 0-.7 0s-.4 0-.7 0c-64-5.3-128-10.7-192-16c-2.1-.2-3.9-1.1-5.2-2.6c-.7-.7-1.2-1.6-1.6-2.5c-.2-.5-.3-.9-.4-1.4c0-.2-.1-.5-.1-.7s0-.5 0-.9c0-.2 0-.4 0-.7s.1-.5 .1-.7z" />
-        <path d="M165.9 74.6c-2.8-3-7.4-3.4-10.7-1s-4.2 7-2.1 10.5l57.4 95.6L63.3 192c-4.1 .3-7.3 3.8-7.3 8s3.2 7.6 7.3 8l192 16c.4 0 .9 0 1.3 0l192-16c4.1-.3 7.3-3.8 7.3-8s-3.2-7.6-7.3-8L301.5 179.8l57.4-95.6c2.1-3.5 1.2-8.1-2.1-10.5s-7.9-2-10.7 1L256 172.2 165.9 74.6z" />
-    </Icon>
-);
+const Gem = createIcon("gem", true, "data:font/woff2;base64,d09GMgABAAAAAALQAAoAAAAABmgAAAKEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxSCZAsIAAE2AiQDCgQgBYMtB0IbeAXILgpsY3rgN4ih5WZheGyxVoth5SeCaC6qepLdA6AcMzoghaSILLG6R/VCEenXu92IMLc7sSqR1UDdE7InEprWseXGL/JhCw+EvJOoGmIwm6P5Px9S4PsTlzv/jWPa9gBfsbGpbA1c3kdzcpdA52v7mCCdF1CWKaawOYZd1ENBQvwR8vgpO2Ul0q3xIy7E/wMY/2nmFEm1DEDUBcDYxfNn+vIzfk7xY+UF8aMZCIhxoBDIkKGlACNkAi3lCuRywc+pgp+joiCAKItfnIEySriAe4AcJCHleYem02tArXxRDai+/Lo4SuRgCRY2HOfisNKkIL5UbeK0/CovPFMYjgvq1eO0b+Lxyjjj68e0NHa+6Jui8zAiS7SadS54JELdPu+E434cMPSvk17dNRXa47e3e7bG34+bfvTwwIT54zsOXe1KDXPKYc7nKQjfPFl8mYas1nH8/AlL18gX5aXb319srhE302cWVcOJu2/Y1ppfza27b7QX6mfr5rXrN/RGYvOSzYtj8/s5Y/sePjxuXL9xzifs27//gAAxfsK9N6svCAgBQCD4rveKf1fXSf8jE/j13bu50ookPTOqSiDIelTaiuQOUAYIqT7FIe0SQ6IvCmTWS/CuNV0XIFRHgKSsugCZFuoKkKuuuwAlrQ0UoKy6+TKRVxMaWjmoSU171cwgh9VcQ8/VkhG+SZY1jMxsWk2W9c8w16QpMHFU0bdXn2JYsZvX2YybOegfXlz2djnk1HXFQZvstssBG22w1YEJvc/MzEE7TTrSTPyhQl+99FEYpnhceulaNEnus9/WbcfzYYYrvg93cei4dVeMJwH6qerGjEiR1di8cWdPG+6uNTgsMgAA");
 
 export default Gem;

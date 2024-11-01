@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `drumstick` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/drumstick?s=sharp-light drumstick}
  * @preview ![drumstick](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/drumstick.svg)
  */
-const Drumstick: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M237.3 320l98.7 0c79.5 0 144-64.5 144-144s-64.5-144-144-144s-144 64.5-144 144l0 98.7L237.3 320zM160 281.4L160 176C160 78.8 238.8 0 336 0s176 78.8 176 176s-78.8 176-176 176l-105.4 0-40.5 40.5C201.2 405.2 208 421.8 208 440c0 39.8-32.2 72-72 72c-37.2 0-67.8-28.2-71.6-64.4C28.2 443.8 0 413.2 0 376c0-39.8 32.2-72 72-72c18.2 0 34.8 6.8 47.5 17.9L160 281.4zm19.3 25.9l-49.2 49.2-13.9 13.9L105.4 354C98.2 343.1 86 336 72 336c-22.1 0-40 17.9-40 40s17.9 40 40 40l8 0 16 0 0 16 0 8c0 22.1 17.9 40 40 40s40-17.9 40-40c0-14-7.1-26.2-18-33.4l-16.4-10.8 13.9-13.9 49.2-49.2-25.4-25.4z" />
-    </Icon>
-);
+const Drumstick = createIcon("drumstick", false, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABfwAAAJDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkCCFgsGAAE2AiQDCAQgBYMtBzAbFgXIjpOlZpI1gvi8/776JPcNoAxAfFIrSFuzIziI98//NZ/f86MD/EaHVEHZeM1Hy3o+gQFHWdJA5mUDm+kEbLuzRdsB7aK1JCQ5vpXjcoU8nohOSqTL0is4J39ofK2BE0nyDEBUB8DwuTMne/aL+CLilf8fIl4xEQExAhQCGTI0FmCQTKCxXIFcLvgi/v8f/wMLAogy/PgJ5ChhM/YBcpBkeV6rfftKpSr5nEqlinMrVaz0/NBnWl4/5OkxG/RkIQbPCfH+zLfnvjv9zdnvTHtjVsUYFLc1uLTdra1u7nB7Q3f8FR3vaHtT+6Htp82cVjvqxuVtTq99oWN1LqoEkRBinlHvktFRdaNezIwOLW6vfvu3zV9Z84pvjq7kynOn7KvxvlOeq6WVXpnUZj0YMaE6YV6IguMZ650qVaras+cXzzbvPuCGWjUr6y33dtvXPiI+cY9rp7njcTUev0P56tWVh3h3z1LFv3yKy4BAcO3Ur1habdCv5Ssl8NXj3/8o/or+fzZJt6O8BIKs0/+dLEogEQCAFHu0SBBIVsvwu1Z2sQChIgIkZSoKkGmkugC5ijoKUNJUbwHKVDRTJvIKQm2LFSSVbQeZPg6DXG0PgJJBno/L1I7M5kiLIX98cWNaaPSionuXbsWAYlojlBnhYXZgsS2220M97eGgNbbaYpfVVllvV4PsMDnbbbMxK3i0Lyp010U3hQGK4+b97jlW22Gn9bbakuYZqLjvtrNnPbw9KAmj9rA8SUSqsGrH7s073xQAAAA=");
 
 export default Drumstick;

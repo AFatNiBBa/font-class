@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `poop` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/poop?s=solid poop}
  * @preview ![poop](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/poop.svg)
  */
-const Poop: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M254.4 6.6c3.5-4.3 9-6.5 14.5-5.7C315.8 7.2 352 47.4 352 96c0 11.2-1.9 22-5.5 32l5.5 0c35.3 0 64 28.7 64 64c0 19.1-8.4 36.3-21.7 48l13.7 0c39.8 0 72 32.2 72 72c0 23.2-11 43.8-28 57c34.1 5.7 60 35.3 60 71c0 39.8-32.2 72-72 72L72 512c-39.8 0-72-32.2-72-72c0-35.7 25.9-65.3 60-71c-17-13.2-28-33.8-28-57c0-39.8 32.2-72 72-72l13.7 0C104.4 228.3 96 211.1 96 192c0-35.3 28.7-64 64-64l16.2 0c44.1-.1 79.8-35.9 79.8-80c0-9.2-1.5-17.9-4.3-26.1c-1.8-5.2-.8-11.1 2.8-15.4z" />
-    </Icon>
-);
+const Poop = createIcon("poop", false, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABagAAAIDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgXCBSQsGAAE2AiQDCAQgBYMtBysbxATIjsO44fvhKlgMS5SIh/fXes99MwXgKTM6IA+EktixEZvayp/KZq2d648/PEIepZxYlGVdZTVyarzxfsBPWrR/tCDnAv2dH5/AAGdbvfGCjSo00wnYrJvOD6lcfk1e9JLsDT9szZDHh+yUSqSr6TdOt1XFX82cIqmWAYi6ABi7eP5MX0tRivhVfkX8Mh0BMRYUAhkmWgowQibYGXIFcrmgFOUy/wMLAURlumQCOTJMx2xADpLI8/E1KtXKF5Xn1ZdfNq/G03RMasTDjPkrcG9AtKvm7ZNWMx51exaux+f9mV6fcGsERKpvsHA+bi+5ds/42a2/N/32/+2iY2fb1rzerEru1KtXvdbY2kr9+9fOHlxIFdVrMyjtIat6RbrwIPtEbWNrVa9X7w6ru3FR1B7eeREQCPpU6LfVdUb8oxoJ/Hn/vvyMlL8m6RmqSiDIepSXFQkkAgCQ4pB2CQLJeImutaZLAoTqCJBUVl2ATAt1BchV112ASlobKEBl1c2Xibya0NDKQSQ17SUygxwmcg29ICoZ4VtcWcPIgkkMBfEvlzZJgImPit2rTzGsWDa6FB98vR1ebHs4lHa6YtImu+1ywEYbbHXA4PvMzA7aaZIHTvRFhb566aMwTHHcP79eZKN99ttqt128Z7jiftTFIf94V4SJcvZjpCeopXzP7t17AAAAAA==");
 
 export default Poop;

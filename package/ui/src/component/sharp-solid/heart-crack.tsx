@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `heart-crack` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/heart-crack?s=sharp-solid heart-crack}
  * @preview ![heart-crack](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/heart-crack.svg)
  */
-const HeartCrack: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M224 208l64 112L160 208l80-80L175.7 38c-12.8-4-26.3-6-40-6C60.8 32 0 92.8 0 167.8c0 36 14.3 70.5 39.8 96L64 288 256 480 448 288l24.2-24.2c25.5-25.5 39.8-60 39.8-96C512 92.8 451.2 32 376.2 32c-27.6 0-54.4 8.4-76.8 23.8L320 128l-96 80z" />
-    </Icon>
-);
+const HeartCrack = createIcon("heart-crack", false, "data:font/woff2;base64,d09GMgABAAAAAAI8AAoAAAAABVQAAAHyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgRSBFwsGAAE2AiQDCAQgBYMtBzIbmQTILgd4MoyXIQKohNpU79186An4BEQqXhEP9fvxO7v3fjPFPKskQsYjIdIsFC3lT6cEqwyRIT6r30/3BXn8BYhVfhQQldC1quMjbCtjK9mh0k1mYsJ842WuMsUO0AV/V2a1U6ee5zwUwDcK2li4dPGYuvd5BCKWi+ZCoViBagWraQWs1s5ugIhuk/Qpn2SY9MPmghovJS3kx4S39UPjjwkPpI4CgOgHAFceNkr4LH5G/DWJ766CgLgCmMdQUDCNgfP4AtME5kFVBT9pGv8fOA8BRCv4ZIKKgh1wDkAFKarA2tWiFLSTKuvcb8dD9jAexKfOz0ePWSe7L+9sxdHSU+6de7oV9xb3mv3/wvjxJTj35gyVm8g/Fh3etUnbNq/xceRe/9qmrWP1YLdpNxRNbgIQCP47df9Eff5fexcP8Nv/ar+ippTf0C5BULabbcMESQAAMm6ZEgJpBQ/ftds7AUInAqRWnQIUUzQYqDptYaDFrCgGWnW6iy+qFGHYaIDU7SkoTroD1bBn0OK8L63VcBSbIV6c+LLFchIqbFHQF6AULROdNAMsL9O0zTluQ8OJQ6ydOXVtZenAtUAulcwbJzgNLvgiEuQTQFLoOH/eb1u5dOXAmdOyJo3uSw63er8TIg9RD/lSEik3W4938Wy2OAI=");
 
 export default HeartCrack;

@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dochub` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dochub?s=brands dochub}
  * @preview ![dochub](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/dochub.svg)
  */
-const Dochub: typeof Icon = x => (
-    <Icon viewBox="0 0 416 512" {...x}>
-        <path d="M397.9 160H256V19.6L397.9 160zM304 192v130c0 66.8-36.5 100.1-113.3 100.1H96V84.8h94.7c12 0 23.1.8 33.1 2.5v-84C212.9 1.1 201.4 0 189.2 0H0v512h189.2C329.7 512 400 447.4 400 318.1V192h-96z" />
-    </Icon>
-);
+const Dochub = createIcon("dochub", false, "data:font/woff2;base64,d09GMgABAAAAAAIgAAoAAAAABUAAAAHUAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgQSBDwsGAAE2AiQDCAQgBYMtBy0bjATIHoVx41PiKy7lXtRElFL0snie//2+7XPffSPvzQyujZ+whFeiJpJGsVJGE9ImYZkkmn9jkUcqi0hS+2du9zesWSjcI7nlrSGaxKSJxUYoayRW7fvUTf1xHgW4AHgs7DyQBRLNeZ5A5/nwxNsWWKYJWOYtZ2yPKf2STDRJ/skevxaomc6ClvKsDDGfH5oftvlStA2ArAUAZ6/UizCWZTkZ/o8MnQeBnAPsJWjQYCcBJ6iCnUz2gqoKy/n/n/+BhAAZUfZSQEXFABwBUEFRah3d1beT9XLfdre6vksuXYT43nVp0md6U/K8owoy0e1/vfb1z33D6dDsnjmwZ8xOX3W/V3XtXg9VPa6VBmX9B3zw7etdHyAIS2+EevYTv2x9Aatv/61+Rf+NLJTXGFNAaAb/B9pZxNosCACg5BFPFhEUBylw1wmPBUSHgGJEJ6Cxg4OAqnOIgNZuKQJGdC5QpY6LjTpEFRPuUo3jblS10Y9qnfA3RmxMEy/CawvftVTdYq2PsXCUeU5dTQwBTtsFLmveq6R8mMXUztbZxNjC2ZBHRftiQ/cIzYsoJiyK8rgdPI63TBydLOxsU5cCnte9rn6xD8MogMM3DYozZeT67dH8MgQAAA==");
 
 export default Dochub;

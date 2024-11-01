@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-arrow-down` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-arrow-down?s=thin folder-arrow-down}
  * @preview ![folder-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/folder-arrow-down.svg)
  */
-const FolderArrowDown: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M496 416c0 26.5-21.5 48-48 48L64 464c-26.5 0-48-21.5-48-48L16 96c0-26.5 21.5-48 48-48l133.5 0c12.7 0 24.9 5.1 33.9 14.1l35.9 35.9c9 9 21.2 14.1 33.9 14.1L448 112c26.5 0 48 21.5 48 48l0 256zM64 480l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L301.3 96c-8.5 0-16.6-3.4-22.6-9.4L242.7 50.7c-12-12-28.3-18.7-45.3-18.7L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64zM264 184c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 188.7-74.3-74.3c-3.1-3.1-8.2-3.1-11.3 0s-3.1 8.2 0 11.3l88 88c3.1 3.1 8.2 3.1 11.3 0l88-88c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0L264 372.7 264 184z" />
-    </Icon>
-);
+const FolderArrowDown = createIcon("folder-arrow-down", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfAAAAJHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCBwsGAAE2AiQDCAQgBYMtBzgbDwURlZq3yL5I4A2pf/IOFjEs2DWKYWeoVnVxczMifomH/9/Pt33ufclqA2WyRKrsUDHpskMAV3aYL1xpxqIanQDw/R39F5YE27r0OC0gTCGjLDb3fEoXJx4hQ1tdFdEOOanVN/+Xe37Pjw7wGx3K2Lh08Zi69/MEAh7LAw8oCyzTACzG3jY0sCGVN8KEJKLxcrweUMQbrFIiXVANHKtvGn/pbjdJzgCiHQAmzZ05w8ff8Tui0Uw0TENATAb9BDIyegkwVhbopdAPhULwO5pN+g+EAKJMfnMCBUpYg7WAAiS5KAYM6FEt1Ys51VJl5XmKOJ1rcVfOxhyX3LlWjUM8Ls6YatzhMyEtq9fq99ajlOPifFgrcVDGx0Ndidv9vk9xYTwoC8/KaRJz4iyd5tlxxs2Nc3KWZkUMeGgffhprGvRf39zC92HbMex7S54ot3wfthcdf4z0o9Mpq3s2YTt4r7dvX6GSDl2/6vuPAT33AKGJ95/lZcvK7zBlqpkzR4+eO5dxwhqG+PyMd0AgaDm7tpG3Hft/q2oCf77+b/4WNX+z9BC0kkCQBzX3ogQSAQBIsdmABIFkiUxeteasAKGCAElZRYCsp3YCFCoGClDSx2gByipmyqJoLXSyeICkZh3IxtgCCp28AiVjfTLKOkWONSpSqK9evDYa0vsQBxEklplOhw/BW4Vtwfpyx4a71O3b0zbjo5Artd/VeLD+IOIggsRxub2etdc97lvZReG+Yn3+uA0yE9QkzBiJ1L575kG/vK7994MQAAAA");
 
 export default FolderArrowDown;

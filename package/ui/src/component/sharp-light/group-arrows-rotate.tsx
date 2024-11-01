@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `group-arrows-rotate` icon from the `sharp-light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/group-arrows-rotate?s=sharp-light group-arrows-rotate}
  * @preview ![group-arrows-rotate](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-light/group-arrows-rotate.svg)
  */
-const GroupArrowsRotate: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M196.6 56.6c-14.2 4.2-27.8 10-40.6 17c2.6 7 4 14.5 4 22.4c0 35.3-28.7 64-64 64c-7.9 0-15.4-1.4-22.4-4c-7 12.8-12.7 26.4-17 40.6l-30.7-9.1c5.2-17.6 12.4-34.3 21.3-50C37.7 126.3 32 111.8 32 96c0-35.3 28.7-64 64-64c15.8 0 30.3 5.7 41.5 15.3c15.6-8.9 32.4-16.1 50-21.3l9.1 30.7zm258.8 140c-4.2-14.2-10-27.8-17-40.6c-7 2.6-14.5 4-22.4 4c-35.3 0-64-28.7-64-64c0-7.9 1.4-15.4 4-22.4c-12.8-7-26.4-12.7-40.6-17l9.1-30.7c17.6 5.2 34.3 12.4 50 21.3C385.7 37.7 400.2 32 416 32c35.3 0 64 28.7 64 64c0 15.8-5.7 30.3-15.3 41.5c8.9 15.6 16.1 32.4 21.3 50l-30.7 9.1zM56.6 315.4c4.2 14.2 10 27.8 17 40.6c7-2.6 14.5-4 22.4-4c35.3 0 64 28.7 64 64c0 7.9-1.4 15.4-4 22.4c12.8 7 26.4 12.7 40.6 17l-9.1 30.7c-17.6-5.2-34.3-12.4-50-21.3C126.3 474.3 111.8 480 96 480c-35.3 0-64-28.7-64-64c0-15.8 5.7-30.3 15.3-41.5c-8.9-15.6-16.1-32.4-21.3-50l30.7-9.1zm258.8 140c14.2-4.2 27.8-10 40.6-17c-2.6-7-4-14.5-4-22.4c0-35.3 28.7-64 64-64c7.9 0 15.4 1.4 22.4 4c7-12.8 12.7-26.4 17-40.6l30.7 9.1c-5.2 17.6-12.4 34.3-21.3 50c9.5 11.2 15.3 25.7 15.3 41.5c0 35.3-28.7 64-64 64c-15.8 0-30.3-5.7-41.5-15.3c-15.6 8.9-32.4 16.1-50 21.3l-9.1-30.7zM96 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm32 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM416 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm32 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM144.8 152.8l16 0 56 0 16 0 0 16 0 56 0 16-32 0 0-16 0-13.3c-10 12.4-16 28.1-16 45.3c0 28 15.9 52.2 39.3 64.2l-14.6 28.5c-33.6-17.2-56.7-52.2-56.7-92.7c0-27.6 10.8-52.8 28.4-71.4l.2-.2 .2-.2 .3-.3-21 0-16 0 0-32zm208 208l-56 0-16 0 0-16 0-56 0-16 32 0 0 16 0 11.7c10-12.4 16-28.1 16-45.3c0-28-15.9-52.2-39.3-64.2l14.6-28.5c33.6 17.2 56.7 52.2 56.7 92.7c0 27.6-10.8 52.8-28.4 71.4l-.2 .2-.2 .2-1.9 1.9 22.6 0 16 0 0 32-16 0z" />
-    </Icon>
-);
+const GroupArrowsRotate = createIcon("group-arrows-rotate", false, "data:font/woff2;base64,d09GMgABAAAAAANMAAoAAAAAB5wAAAL/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhVSEZQsGAAE2AiQDCAQgBYMtBzobbwbIjsJxr/mYhEMMtrYE//B27//acyc6c6kk8wSXANzBpdQD/r8OD/yfv7sNZGA/f4J7Ntoq/n/doyIMO1HYxDX57+2tFtg+wPlQOikSIykirXHne7BRUZ/PijegBhxPSGdurX0SRGSREEFj6DHWHk/z8WkPbF1XVXLA2m09BDbW2fpGyjKwsD1UkoJcJ61GXevxWq+lhyUXQQ/pAgJQawAuAR7AA2QJgKY8CMiycYGNjeC1SkrKf2AJAgDlQpDFKhvwgoKgQtBRYGFsO0tAJLhcBSfHZ/dohzV9j5Xdzq6Kp8quie9KltfezB7trXK2wtpyJyukBu9JbzMnKp9JL06cKJ/RcT3NOV7pdGpRcneq7KCs3Cmk0Z42KaQ8ZpJm7NoKg33KHQFBsb2ZctplFYZz8Zpl033WJqSdWhzfYdZEt7Eott3p/eiQEnfI3ZsfaQgb4RgHHbCR9t7F/kZJnUjv0cEqkiPJGHU3DrioHCG0N3OgcUbHU7tT+ypKUlSOg0zpM8EzP6qHIx5yc8WgciOvCYUOebce6f6ZOc83SbF9smjcyQ1a2/3IVu+hUMh4G1XufoCd8/zJDS/55vacz+vvmbGBk+OKcF7fmf1Fa99kfGH26/UH/nk7NzyL/lWwyu9fdXapuFhHVs8NBnsFaYgA9ys+/qYzbZ6z/9OvMOdAQCx3nzxp2LCjgezlXQHLM/Z9evvNDQqEJI5BEAACBOVDowsDA03/z3csAN5e+3yvH5H+P9VH6wyQjwWAwFO1pCr9UkhLJx8R7LY0gxqYCDFWPga+VS87EADCAALAIheDAPCQESQAbAxVCIAcitQjAHIxdJUhuwAR1b8wLbxMZnqobz7TJuo8M4em7rhziSaepSGc2MI/02RRgs2kslb1mm5jd5hxi2Y7H3Y2cc26ijNSRSVaauHo4GZuZu0mCBet724vIvbmvqVaqqvJ1Zjrzq9lQ+G+uFr3Jf5RmnDjrRXNwPUrkTGFOdYWZ2GBrMh3YwqDpyxeaWiu2/g2BwAAAA==");
 
 export default GroupArrowsRotate;

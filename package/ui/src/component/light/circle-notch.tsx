@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-notch` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-notch?s=light circle-notch}
  * @preview ![circle-notch](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/circle-notch.svg)
  */
-const CircleNotch: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M207.4 20.4c2.4 8.5-2.6 17.3-11.2 19.7C101.5 66.2 32 153 32 256c0 123.7 100.3 224 224 224s224-100.3 224-224c0-103-69.5-189.8-164.3-215.9c-8.5-2.4-13.5-11.2-11.2-19.7s11.2-13.5 19.7-11.2C432.5 39.1 512 138.2 512 256c0 141.4-114.6 256-256 256S0 397.4 0 256C0 138.2 79.5 39.1 187.7 9.2c8.5-2.4 17.3 2.6 19.7 11.2z" />
-    </Icon>
-);
+const CircleNotch = createIcon("circle-notch", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABYwAAAIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUyBNQsGAAE2AiQDCAQgBYMtBzMbuATIHoVx49MoL9uxWAkcy3YoRYt4+P/9vu1z7p1BxG5EXJNKiN5odJNQhzgNmlqk/UXVRH5T61qUdO3mkhSK9EIEMP1zUyLbT918fBuzcBh0KSZSnGbT56AfQmFTp57nPBTANwrK2DY1IGP6XucRiFguPjFWoFrBaloB69uGjYjC8EmEiElEYzpe0A41nsdCfeST/AS41T80fiHcJNUCIMYCYNvxbBysetGL+NR1xCcRICC2A2gCBQUzBdioCMxUNVRV0Iuuy/+BjQCiHz2ZoKJgHQ4BoIIUtS4b0TeqHqs3h59+MFHrfa5YViXvnS26tMHImmMhm5ILky+47YrdOZt4teCKCcPb4QAuv+BT8wbnp4u1x3c/idHfXyyc1fvPWvjiNloIP3Zw6ykevGWUtl014EneVOJOGvMs7/iePQoDzMScl9xiAEAg2HAxsy2hjf/hiAQ/n/378a+o61MOYKgEQVnYLXQmQRIAgIzrqIRAWibRu470UIAwHAFSv+ECFDOMFaAaboEAfWZbJUC/4Q7Dog4TJjo7QRrpEihWuwGqiQZBn43eav0mRgkhKgCoF1y8KyFniVQWL23r2zIy6Kgg2nRD2xbp66oyDzZA08jQXENdhzGBTMXNhQHXgx1fRFpmsaWa9dpxul4vaJia6RgZ4pwN2n11rut++zxQEEJdzpeSyJE/bTzCcDSvtQEAAA==");
 
 export default CircleNotch;

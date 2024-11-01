@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-8` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-8?s=duotone circle-8}
  * @preview ![circle-8](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-8.svg)
  */
-const Circle_8: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm160 48c0-25 11.5-47.4 29.5-62C181 230.1 176 215.7 176 200c0-39.8 32.2-72 72-72l16 0c39.8 0 72 32.2 72 72c0 15.7-5 30.1-13.5 42c18 14.7 29.5 37 29.5 62c0 44.2-35.8 80-80 80l-32 0c-44.2 0-80-35.8-80-80zm48 0c0 17.7 14.3 32 32 32l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-8 0-16 0-8 0c-17.7 0-32 14.3-32 32zm16-104c0 13.2 10.7 24 24 24l16 0c13.3 0 24-10.8 24-24c0-13.3-10.7-24-24-24l-16 0c-13.3 0-24 10.7-24 24z" />
-        <path d="M336 200c0-39.8-32.2-72-72-72l-16 0c-39.8 0-72 32.2-72 72c0 15.7 5 30.1 13.5 42c-18 14.7-29.5 37-29.5 62c0 44.2 35.8 80 80 80l32 0c44.2 0 80-35.8 80-80c0-25-11.5-47.4-29.5-62c8.5-11.8 13.5-26.3 13.5-42zm-72 72l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0c0 0 0 0 0 0l16 0c0 0 0 0 0 0zm0-48L248 224c-13.2 0-24-10.8-24-24s10.7-24 24-24l16 0c13.3 0 24 10.7 24 24s-10.7 24-24 24z" />
-    </Icon>
-);
+const Circle_8 = createIcon("circle-8", true, "data:font/woff2;base64,d09GMgABAAAAAALwAAoAAAAABtAAAAKlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg3SDKQsIAAE2AiQDCgQgBYMtB0wbxwXIjpPlJmbiUFqC73VW/b5k14w0oGV7UUtER0AZQ8ScAlPsupQw9NuGJ0rPa6zlGaZh1db6n2s+vyo6wE9+gRa9aGuMBMl+PpDZRBLLS3hgM52BbXe2S1Las0NCaA3ltxyPUofOHfL4NrtGg3RP+hy3+/8BjJ+1XUPSmwGICgAbDz1wr7c70Unxefd54nN7EBCbQC2QIcNYAdbIBMbK1cjlgk7qdulEt1sTQDT5z8tAE714Dm8BcpBk8jyfMGlgzLhR/WWjPz+kbBQn3jsL4tlpGI/PiBa3Y+yZmUspXpr9J9xZKw4qi/LmEcMVw6Uo4qaRGleOsrKMK+PKoPdHURZPjl7TKZ5ozynww8aId/Z+Ud6871eb3zv0x03v7vNlcdOezze8fdDBD832uG/2Z719Zra5leP2jFiC8eKsN56uGAFxR1nGzaMsrhypRVHcNFwces9UiqfG+G5PbvVnq/frxM9P+dy+/w8sZnGn0lm8eKD1zYfNOOTkqladfEg0X3yntX17DxYGbrhhwKZqIdYD6Qq5oGraf8SI/St0gbdt7aX93DubN7/zXLvZenvS8tD88uE3rYHF66TvvLi9YOAGlngtSA2eOlqjx4FAsN/dq/DYwTX/1jKBn179/W/zQ9J9O0nPokcCQTanO8dRCSQCAJDiEpMSDyOQOUoO033uFFdCQYSkqYDMGBXkCrOhYbylGnP/gTKR9wrDHQ2Q9DkfMstcCrnhnoOGNT4qNg2PTHsN3TMej7nbRrbuqhfOW1CvqpttwVRIza2vrtnRGZcYmwlnneJc57jIyU5yuosSL7C3crGzbesJW31RbaF5FqitUot7l+4hFS9wodPrtnyT1er56Rku6c+eCYkEVRfZk8mIFFn1yyc9d8XcaxAemtkHHgA=");
 
 export default Circle_8;

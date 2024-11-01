@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `blanket-fire` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/blanket-fire?s=sharp-regular blanket-fire}
  * @preview ![blanket-fire](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/blanket-fire.svg)
  */
-const BlanketFire: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M24 0L0 0 0 24 0 224l0 24 0 24L0 424l0 24 24 0 289.8 0c-8.6-14.9-15.3-31-19.7-48L48 400l0-128 258 0c7.8-17.4 17.6-33.5 28.1-48L48 224 48 48l352 0 0 107.1c11.3-9.2 21.9-16.7 31-22.4l17-10.6L448 24l0-24L424 0 24 0zM288 351.8c0-13.7 1.6-27 4.5-39.8L120 312l-24 0 0 48 24 0 168.2 0c-.1-2.7-.2-5.4-.2-8.2zM448 160c-42.7 26.7-128 102.4-128 192c0 88.4 71.6 160 160 160s160-71.6 160-160c0-26.7-19.2-96-96-160l-32 32-64-64zm96 240.2c0 35.3-28.7 64-64 64s-64-28.7-64-64c0-48 64-96 64-96s64 48 64 96z" />
-    </Icon>
-);
+const BlanketFire = createIcon("blanket-fire", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABfAAAAJMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjCCHwsGAAE2AiQDCAQgBYMtBzMbIgXIjsM4JvyniMIu4uF5ve9/7ZOMcsfIg/QJVYQqqyUrK/leGzL/l3t+z48O8Bsdyti4aIGMiXtVzxMIPMq3RtlRFlimCVi7szVIK+1xSEsjyfFZjscZ8vgnLlZHuia9hYvyh8Y3BpxOUpcBiHYArLn91pt67rP4LOLNauJNGyMg1gSlQIYMwwKslAkMy5XI5YLPoqrCf2BJAFGPV0sgRz2OxPGAHCR5ns+qDfbV6lry7Wp1xc5FrRD88VrLtYNFRLTEdUPNGBB39U0JflqxwylDRSFqtVNi+9unRtw9M+L+4bdXPb3tu6s/u/11sx/campste3V6oPFudPvHbxu6Lq+q/qu6Lli4JqB8fe23/tdb+33lr5n+yHkNf36XV1eOP7lA393suTx30Y9bA8Ha3m3sJd+/Wft3rPWA/1z9d+d5zc9e+ibfLgt+zXH2m+9tXYQBphbvW7FJkdUqt0VHXQODXV2FA2/ff3dv/z73de/NQCB4Nh3fnpx97aVvzXWEvjiCdLPSPVcOiXdi0YJBNnMaqZd0slUVTpFAABSHGd8OhmB5EA5ftdmVwoQCgRI6hUCZIa0C5ArzBCgzqhFAtQrbC0TeZPQbdcGkmZHgsxiJ4Bct8dAnZVeNep1R2Z3lNVQ37749SS07qFy3uy55fJymKu0KRG0u6JcFqYeF3vT4KT9HO4wx9jXPg50jECOsql9rEOtN4PX9UWleWabq7RcuV3d89uhcZSjHaiz+/usUJ7XpzpuPj0N5IRR54skiUjNj1DZ95hZtxgAAA==");
 
 export default BlanketFire;

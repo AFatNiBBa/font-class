@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `head-side-cough-slash` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/head-side-cough-slash?s=sharp-solid head-side-cough-slash}
  * @preview ![head-side-cough-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/head-side-cough-slash.svg)
  */
-const HeadSideCoughSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M448 325l46 35.7c6.5 1.7 11.9 6 15 11.7l46.1 35.8c8.7 1.1 16 7 19.2 14.9L616.7 456c10.7 .3 19.6 7.6 22.4 17.4l.8 .6-29.4 37.9-19-14.7L18.9 52.7 0 38 29.4 .1l19 14.7 40 31.1C126.1 17.1 173.2 0 224.3 0L256 0C358.1 0 441.6 79.7 447.6 180.3L505 252l7 8.8 0 11.2 0 16 0 32-32 0-32 0 0 5zM0 224.3c0-38.7 9.8-75.2 27.1-107L341.8 365.3 320 368l0 40 82.5 5.2L448 449l0 31-128 0 0 32-32 0-32 0L96 512l-32 0 0-32 0-98.8C23 339.3 0 283 0 224.3zM616 360a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm-64-48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm40-24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
-    </Icon>
-);
+const HeadSideCoughSlash = createIcon("head-side-cough-slash", false, "data:font/woff2;base64,d09GMgABAAAAAAKcAAoAAAAABgwAAAJRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkSCJgsGAAE2AiQDCAQgBYMtBzwbMgXIjsK25RMzY9QQ5VRxGPGKh+/3+9/a58pXQ1WimKXfiJCseSlmSTSUB5UhMsRnyZjeFwDcF2gMsp0CVkDggIQisAxydQNS8xNmqRzQ1KnnOQ8FKPeci3DQ9tCNC+QpSdc8r0ABo53LyvVasVZR7OK2q0XFLLQRIokz5PEtnFaQ7qUH3AwfGn/0NU1SlwEgWgHA0t2l+QhX6DXovnpOfLQeBMRSwBCEDBkGILCAUGAAkSEglwsq8f8v/gMZAogS6dkJ5KjBBdALyEFS5KLkgXK5XClWiyoMrGhYuCh3viuXGHm9y0wx4Y3+U+LDE5nxvLshXrZ+L99JXQFRW6/A/kfJdTEiEAv4wkDUS5S27Aw6iK4n9qURG/1WRxdkMVuzrN6507rz1/HQ/Amvrv+kJ83k/cSP9fcRm+CDSXKemURfP2ptI5YfW5dJNsxZrZVSK8ZDxFcH627Ne1fCryT3zmDjhuAKo0HkvzT2yI3irq7iqFexeEWwHgYI6G2/Bl2u26Nd8K9WKQD8fhp5Q3i4Gk7jaQe1EgiyCdUYlakXBDGANMUw58YXBZITxNK7NrotQKhHgKRUL0CmPx0CuXrjESgMkopAqd52QpHLETpVNZA0Ogcys4yAXKdTUFjgOil1hhD2WMhhv/ySQkMkOI+nxiVwFq8WCgdOtJ3O5sPWmGHZFcAL0axHt0FNGrUZHGD98vMhXUJbaNAPsURxErAsfLnxVKqgSb8Bbcu667Nk4+c9v+HtwQHsCiTKaaAkEckMoHLs28n+uc9saa3xybqBVgA=");
 
 export default HeadSideCoughSlash;

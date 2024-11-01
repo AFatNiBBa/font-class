@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `arrow-left-long` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/arrow-left-long?s=duotone arrow-left-long}
  * @preview ![arrow-left-long](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/arrow-left-long.svg)
  */
-const ArrowLeftLong: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M77.3 256c10.7-10.7 21.3-21.3 32-32L480 224c17.7 0 32 14.3 32 32s-14.3 32-32 32l-370.7 0c-10.7-10.7-21.3-21.3-32-32z" />
-        <path d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L77.3 256 182.6 361.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-128-128z" />
-    </Icon>
-);
+const ArrowLeftLong = createIcon("arrow-left-long", true, "data:font/woff2;base64,d09GMgABAAAAAAJEAAoAAAAABawAAAH6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUCBMgsIAAE2AiQDCgQgBYMtB1ob3gTIngV2c8dXsZE8ghE2KBkpHr7fj3bu+39dsT8kUUlsQtySmIcEWyHhzSykHSpDJG//B4ATTuav9wwBmp869TznoQA+gGdMmgNkgc95HoGej0UtdmNFKlShgtfAujvjcFA7OCTWjCS/YxyfwxXy+J1NCelx+oqb8D+A8VeHcyQVGYCoB8DsZYu6vO/pqa+9L4ivFiIg5oBCIEOGvgJMkwn0lSuQywU9CXqCggCiFLw4A6XIMRXzATlIQuR5/5aqkpp8KZxZuexBRJxuWxYPq6623HeqeXEsCb3lXuWV1qXLHrZFWKUmeJQ+Vx0PWgd213f/YyvlTy/XUHP55EmPamoeFagxd2zncYsTrHpi4bvF83n25JDaS5dqw3cc0gsIBIOv/qi6af/LqxL48/LjryhJ3SiXQJAN6x1mdQKJAACkOGpggi6BTH8JvGu1BwKESgRISlUKkOmjXoBcpaEClOhvvAClKi2SibxCaLYmg6TaAZCZ4DjINXsOSkzzwSvVHJkIkQJAPuDiFmBo/qJi9IhRxZSiGUmUVOBuOrUYFgcdJZXB6qit9tnrsC022+EwQg7qCo/YY0EPnu+DCqONMEphimI6nXJLkXfQITt4Zn7OVMV6d5Cj/fbBajkJMGbzD2dEiqxtw8GD+47dLn74/7nUcWzs4JizBw==");
 
 export default ArrowLeftLong;

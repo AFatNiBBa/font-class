@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `house-chimney-window` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/house-chimney-window?s=duotone house-chimney-window}
  * @preview ![house-chimney-window](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/house-chimney-window.svg)
  */
-const HouseChimneyWindow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path class={generic.secondary} d="M64 270.5L64.1 448c0 35.3 28.7 64 64 64l320.4 0c35.4 0 64-28.7 64-64c-.1-59.2-.3-118.3-.4-177.4L288 74.5 64 270.5zM224 264c0-13.3 10.7-24 24-24l80 0c13.3 0 24 10.7 24 24l0 80c0 13.3-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24l0-80z" />
-        <path d="M309.1 7.9C297-2.6 279-2.6 266.9 7.9l-256 224c-13.3 11.6-14.6 31.9-3 45.2s31.9 14.6 45.2 3L288 74.5 522.9 280.1c13.3 11.6 33.5 10.3 45.2-3s10.3-33.5-3-45.2L512 185.5 512 64c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32l0 37.5L309.1 7.9z" />
-    </Icon>
-);
+const HouseChimneyWindow = createIcon("house-chimney-window", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABgQAAAI+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKghCBbgsIAAE2AiQDCgQgBYMtB2QbJAXIjsO48VqJS/kxiYfvdb2e+6TdsfW/kWVmDiJXhEVvKINVusyomUOA509/P/XH+acP+AD8Z54vMBIjkncT2Hm1V4Im2GymOOtWjR5FdiV6JCtayT0+Z+7xvDXk8X92ixrpyfQ77tf/AYw/dXILSdMMQLQEwMz1q5f6+mJcTPF79QnxuyUIiFmgFMiQoasAU2QCXeVK5HLBxVRVXIyqKgkg6vTeGaijhvXYA8hBElKeD2rXsqHWLF+nw4r9r/VZE4+0faTdo9nRYX2sjSI8jqD2j7VfFhE3ir0o4i7nMYh164UnB77Zt1m8PvjtLs/FjbEu1qx/un9DvNpJPNGniNc6R6+3Wr71d/Yx5vPly6sLnmhsvPPOr/fEHzThiUEYYpnwxFJXaX7HHc3LHtTPoa2mf/BhDSxatXphphcQVDQMHTLkwnfynOfr7VausLLdCnI1CAQn5n/0zPYWU/5r0pDA5a/+fRCqeMjXaWZ6C00kEGRDqiG2pBkOVLUQ4EpxTi98lxkCmUESfGqjxwQIBQIkdYUAmS5aCpArDBagpruxAtQVVstE3lRoa+sESaOTIDPOtSDX1segZoqfXHVtIyMYQw/m9y5xnkXndipHDhtRTiq3SYPlDFWaJ5fH5oBzqWggVtrnuGPO2GuPg84Y/JSl3rOOmudhc/1QaaRhRihNUl5nXhevs9cppx103DFpZ7LyecsA5/zKA9GdBBj1aiIyIkXWlX3RQ3cfOHj02N4rh/JTHcrXyt03/OcJ");
 
 export default HouseChimneyWindow;

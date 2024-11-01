@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-arrow-up` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-arrow-up?s=sharp-duotone-solid cloud-arrow-up}
  * @preview ![cloud-arrow-up](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/cloud-arrow-up.svg)
  */
-const CloudArrowUp: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336L0 480l144 0 368 0 128 0 0-128c0-59.6-40.8-109.8-96-124l0-36c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192l0 8.2C40.1 220 0 273.3 0 336zm206.1-56l17-17 80-80 17-17 17 17 80 80 17 17L400 313.9l-17-17-39-39L344 392l0 24-48 0 0-24 0-134.1-39 39-17 17L206.1 280z" />
-        <path d="M206.1 280l17-17 80-80 17-17 17 17 80 80 17 17L400 313.9l-17-17-39-39L344 392l0 24-48 0 0-24 0-134.1-39 39-17 17L206.1 280z" />
-    </Icon>
-);
+const CloudArrowUp = createIcon("cloud-arrow-up", true, "data:font/woff2;base64,d09GMgABAAAAAAJkAAoAAAAABhQAAAIYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCHwsIAAE2AiQDCgQgBYMtB1gbSQXIhuB5u6h6v3tmAfXCjAydGMnROePsOWYoxTP/13x+aUcH+Plco/GepxZg5fr5BPa8GiNpE5nQdMOZ0W4nda4Y1GWRpMuXnmHihs3mBHnqnp1XIj2aKrhF/wMYv2rlPEmtDEA0BMDERfNm+OjH+DFFpfo2UTEdATEJFAIZMrQVYIxMoK1cgVwu+DFVq/wY1WpBAFFGz85AGSXsxnFADpKQ8rxzp851SvXyhTSz9qLePXovit7RMxbg3DHRK8aFELVD0RzugdepZz3V79Vh/pv2enHY1S6vjnpn2Hdj3psv3u7zctsFl3R6seGLv3esbKy4/xxmzcLu3QgbXdTSAC1dtBGN7L7tfv9fp9W7/exjXdR88cXT7XfNGzrko8lRqcTkml67d6/B/eFrHgeBYPD3Xz+zqsGY/2vWSeDnd/78Rbi7+mM6nV5ETQkEWZ9qH8vTadDUAD5UioM6pdO+QCAzVYKvWtdDAoTaCJCU1RYg00ZDAXK19RagpL2hApTVNk8m8lpCUysSSOraAzLDnAC5pt4CJWN8bJc1jUzweLHh330p0zg0dVAxsN+AYlTRjERBlljbO7oYVnscNJWesNNGu+y03wbrbbGfkXvN8A7YYVqPmOqNCgP1M0BhlGI6PVcWor3XPlvq0nw/oxX7tR4O9pv3hOEkwKAj82VEiqz5F4Qr+q7Zu3fXob4HdvcV4kYtS9KNBQAA");
 
 export default CloudArrowUp;

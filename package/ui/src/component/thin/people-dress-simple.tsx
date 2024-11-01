@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `people-dress-simple` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/people-dress-simple?s=thin people-dress-simple}
  * @preview ![people-dress-simple](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/people-dress-simple.svg)
  */
-const PeopleDressSimple: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M128 16a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112A64 64 0 1 0 128 0a64 64 0 1 0 0 128zm-15.7 48l31.4 0c21.4 0 40.3 14.2 46.2 34.8L229 347.6c2.9 10.2-4.8 20.4-15.4 20.4L192 368l-48 0-32 0-48 0-21.6 0c-10.6 0-18.3-10.2-15.4-20.4L66.1 210.8C72 190.2 90.8 176 112.3 176zM120 384l16 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96 13.6 0c21.3 0 36.6-20.3 30.8-40.8L205.3 206.4c-7.9-27.5-33-46.4-61.5-46.4l-31.4 0c-28.6 0-53.7 18.9-61.5 46.4L11.7 343.2C5.8 363.7 21.2 384 42.4 384L56 384l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96zm64 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96 32 0 0 96zm-80-96l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96 32 0zM384 16a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 112A64 64 0 1 0 384 0a64 64 0 1 0 0 128zm-15.7 48l31.4 0c21.4 0 40.3 14.2 46.2 34.8L485 347.6c2.9 10.2-4.8 20.4-15.4 20.4L448 368l-48 0-32 0-48 0-21.6 0c-10.6 0-18.3-10.2-15.4-20.4l39.1-136.8c5.9-20.6 24.7-34.8 46.2-34.8zM376 384l16 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96 13.6 0c21.3 0 36.6-20.3 30.8-40.8L461.3 206.4c-7.8-27.5-33-46.4-61.5-46.4l-31.4 0c-28.6 0-53.7 18.9-61.5 46.4L267.7 343.2c-5.8 20.4 9.5 40.8 30.8 40.8l13.6 0 0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96zm64 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96 32 0 0 96zm-80-96l0 96c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-96 32 0z" />
-    </Icon>
-);
+const PeopleDressSimple = createIcon("people-dress-simple", false, "data:font/woff2;base64,d09GMgABAAAAAALMAAoAAAAAB3AAAAKAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhSiEPQsGAAE2AiQDCAQgBYMtBzobRwbIngV2y0eIl4ZodB2zLBZjpmpW+ihGPPwabd7fPTGjQtKEV9Vq2StEEU1UyBDqhY5qFLv/sXkft8oh4hmaeBKTRtOQyMvUaaTtLS3FJRMDrnkfFRjFgS9SqL9NozRKN8Ul8+DD1KnnsXgA3yKwKReEtbu2r8F7nlegApu29ypQq0WkXKNiAb2D8yYeYkjsv0Gdp9iDTrlJzuK886L5ZMQWiqoCkG4AACu3Z+NweZ7nyez/H5m1GghkFQDTCCpUGEfAElTBOJppoFYLz/P/n/0HIgiQRh5cHKvRiR+kjfZ6iva67ujo93G4KNnW0FFvIw9v3X0bOfnH5B6eo0uO+/pTvdtv8SxfTczltJ12ds6Ym4nIeRjNud+NKCzHeVI67R0IL9yW6+lBd8qtbC+25lRy9Ydcmb8okRnprdv+vTsvZxui8nX7z6SZ3jDnrL//Km2OPXrw9v7+7VWMnjrtSqXdefgfp1H09JDUH9FdFCeyWyYfG9xzt1dWJTixdEouf6fvp08vz47Y0vbHRZC3c7dkRyw/vfkugDnJvtL5/LlTDVRdX6lWq7XfHJqczVbH/QCC8OzI7ysteW3mFvDyyctX+iGa/1/ygzyDZgWEat6/VbHQrDk/EF665CjUI84Liu/a4T2tdtcQEK0IKBq1CqiMESGg1mouAhpM8iGgUavNqFK3iH6lEhTtDoDKYhtQ63cNGizxmG7UH+pjIF7E4l9oWqwORVehy+7EMA425NKVzevFCM72GNd8wAQPQtvE2FJLU8+yhszFcysjsTFs1FnkYueEwnB1+/bugpa5hZ6JsV0mAvdPGK3Hx5ugn8JjnK+iKKT03TmG7bNi2u4mAAA=");
 
 export default PeopleDressSimple;

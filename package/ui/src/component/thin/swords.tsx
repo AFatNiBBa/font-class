@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `swords` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/swords?s=thin swords}
  * @preview ![swords](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/swords.svg)
  */
-const Swords: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M142.1 278.6l11.3 11.3L119.3 324 188 392.7l34.1-34.1 11.3 11.3L199.3 404l19 19c9.4 9.4 9.4 24.6 0 33.9l-12.9 12.9c-7 7-17.6 9-26.7 5l-56.9-25.3L67.3 504c-5.1 5.1-12.1 8-19.3 8s-14.2-2.9-19.3-8L8 483.3c-5.1-5.1-8-12.1-8-19.3s2.9-14.2 8-19.3l54.5-54.5L37.2 333.3c-4-9.1-2.1-19.7 5-26.7L55 293.7c9.4-9.4 24.6-9.4 33.9 0l19 19 34.1-34.1zm216.6-56.6L467.8 112.8c8.3-8.3 13.7-18.9 15.6-30.4l10.8-64.7L429.5 28.5c-11.5 1.9-22.1 7.4-30.4 15.6L289.9 153.4l-11.3-11.3L387.8 32.8c10.6-10.6 24.3-17.6 39.1-20.1L502.7 .1c2.6-.4 5.1 .4 7 2.2s2.7 4.4 2.2 7L499.3 85.1c-2.5 14.8-9.5 28.5-20.1 39.1L369.9 233.4l-11.3-11.3zM77.7 305c-3.1-3.1-8.2-3.1-11.3 0L53.4 317.9c-2.3 2.3-3 5.9-1.7 8.9l27.5 62c1.3 3 .7 6.6-1.7 8.9L19.3 456c-2.1 2.1-3.3 5-3.3 8s1.2 5.9 3.3 8L40 492.7c2.1 2.1 5 3.3 8 3.3s5.9-1.2 8-3.3l58.3-58.3c2.3-2.3 5.9-3 8.9-1.7l62 27.5c3 1.3 6.6 .7 8.9-1.7L207 445.7c3.1-3.1 3.1-8.2 0-11.3L77.7 305zM.1 9.3c-.4-2.5 .4-5.1 2.2-7S6.8-.3 9.3 .1L85.1 12.7c14.8 2.5 28.5 9.5 39.1 20.1L381.4 290.1l-11.3 11.3L112.8 44.2C104.6 35.9 94 30.4 82.5 28.5L17.7 17.7 28.5 82.5c1.9 11.5 7.4 22.1 15.6 30.4L301.4 370.1l-11.3 11.3L32.8 124.2C22.2 113.5 15.2 99.9 12.7 85.1L.1 9.3zM457 293.7l12.9 12.9c7 7 9 17.6 5 26.7l-25.3 56.9L504 444.7c5.1 5.1 8 12.1 8 19.3s-2.9 14.2-8 19.3L483.3 504c-5.1 5.1-12.1 8-19.3 8s-14.2-2.9-19.3-8l-54.5-54.5-56.9 25.3c-9.1 4-19.7 2.1-26.7-5L293.7 457c-9.4-9.4-9.4-24.6 0-33.9L423 293.7c9.4-9.4 24.6-9.4 33.9 0zM434.3 305L305 434.3c-3.1 3.1-3.1 8.2 0 11.3l12.9 12.9c2.3 2.3 5.9 3 8.9 1.7l62-27.5c3-1.3 6.6-.7 8.9 1.7L456 492.7c2.1 2.1 5 3.3 8 3.3s5.9-1.2 8-3.3L492.7 472c2.1-2.1 3.3-5 3.3-8s-1.2-5.9-3.3-8l-58.3-58.3c-2.3-2.3-3-5.9-1.7-8.9l27.5-62c1.3-3 .7-6.6-1.7-8.9L445.7 305c-3.1-3.1-8.2-3.1-11.3 0z" />
-    </Icon>
-);
+const Swords = createIcon("swords", false, "data:font/woff2;base64,d09GMgABAAAAAANQAAoAAAAABygAAAMDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhGyEHgsGAAE2AiQDCAQgBYMtBy0bGwZRlA1KnezjsCm7K2JZzhlqqBjigTpn8ckJm9pixEP8vW9n5t3UYt1bo3TQKtxBg7EG+gETwHzgtLa7uPyM0Kn/QRSkLMshBEUqkVykqXdyCTbzXFSBN9zQNPa6Z+7OE9fUZdDO0198aJGB0RaRAjsfeDZYAkWBjWTnE7BZm+OXd1DhhuCQeMRETMr9adjaQYl7eyWTt9kEl3zT+GOVS5CqCkD0A4Dtw6UZfHzmc0SzfgPRNAUCYgcwiahQYRTBmkSBUUkmQVEEz1HX+h84CQFEK2DSsoJ2fEIU6mcgtZaycIOjWFFLM5Ozk/TM5AxDlMRuLrOPIrtZwWCRQI80yXl6Mm5IlfTRLS+xkT5Z5v2SCvYZhmb41zg5zDuCRokG/WUGb4reYY0BBe70CQI9YgP587TDEisCIPOmvES/OCGXZXFI+ma3bEYs865oUqCLvlKdBhGcvlo3RUn0DtdzgV5YQvke+kWOM0iSGFpjJHmxpt08okivPEW/uHA/qEpB94jBJzdlvsS9Cqrdb/9zhF1Ntx/Ytp2P4WHkw0Y+VMTjYdgr12DiXGbmuWGd6kIA2+0wsrNV5H9vP4yQt45nfin4VgywcUz4v2cqC0kONTFrCq3/G9sULWpamFN4QnA+pCYnq8Px+0MaB34YaAxjZMSyZsqSCtT6qSzs+Y8GwENCfwYy+qG8BQ2AujVr6vNoOBy2t1+D/i6yiWtYiY7HLQvZ2QctuEdGvmlaXxp6UvJwjzOFoWniAQgEF1+3X+zIXfvfnpng9e7nL/wV1R8zsgHaJQiq6Xra1kT9PykAABnn1IRAepQCl9rtCkHoRIDUqlOAyog8BEWnKQQtxrUgaNVpV6IoHcKwbSc9dTuiV1adpxfDXtFbrPnkajUcld+zvZb915lg1EJHOikNtfVKp3KZUjiuzIytXcqwovxsKKmQsXA55qjTTHsdcNqQTprxnnHEaI844oMUDWrVU3RSprPX0TrTSaccaHPm29FFWW8pd7ZfvULUCcBwUXRKIltPvg8AAAA=");
 
 export default Swords;

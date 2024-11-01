@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `sickle` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/sickle?s=regular sickle}
  * @preview ![sickle](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/sickle.svg)
  */
-const Sickle: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M218.2 90.2c56.2-56.2 147.4-56.2 203.6 0c2.3 2.3 4.5 4.7 6.7 7.1c-16.4-6-34-9.3-52.5-9.3c-83.9 0-152 68.1-152 152c0 17.8 3.1 35 8.7 50.9l-8.7 8.7-5.8-5.8c-56.2-56.2-56.2-147.4 0-203.6zM455.8 56.2c-75-75-196.5-75-271.5 0s-75 196.5 0 271.5L207 350.6c9.4 9.4 24.6 9.4 33.9 0l37.1-37.1c7.3-7.3 9.1-18.4 4.6-27.6C275.8 272.1 272 256.5 272 240c0-57.4 46.6-104 104-104c38.7 0 72.5 21.1 90.5 52.6c5.6 9.8 17.3 14.4 28 11s17.7-13.8 16.7-25.1c-3.9-43.2-22.4-85.3-55.4-118.4zM121 311c-9.4-9.4-24.6-9.4-33.9 0L71 327c-9.4 9.4-9.4 24.6 0 33.9l7 7L7 439c-9.4 9.4-9.4 24.6 0 33.9l32 32c9.4 9.4 24.6 9.4 33.9 0l71-71 7 7c9.4 9.4 24.6 9.4 33.9 0l16-16c9.4-9.4 9.4-24.6 0-33.9l-24-24-32-32-24-24z" />
-    </Icon>
-);
+const Sickle = createIcon("sickle", false, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABeAAAAI9AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiSCBAsGAAE2AiQDCAQgBYMtBy0bAQXIHqnN/hjBxcPzevGd+5KZDygfgJdWB6llte2mQuwrN3/+r/n80o4O8NuRHVoUZm4WpaMOnsDE9uYpWoWzieKsnd3iB9HLIEniSUbbl2GygTxej2tUSLemj3C1/9D4UysXkFQyANEQABOXL57rnd/it4gPyxeJD81GQEwEhUCGDG0FGCMTaCtXIJcLfouyNP+BBQFEFT9pAjkq2IL9gBwkWZ636lzUqdTLl9Wp1F79dp2Iy8fe2Oyh2l+NeWPJOa2aRvN4K84dv/yL2hGXLfjMOQt7xoPdx8fNzW+Lu3s/Pvzyrg+2urH7w62/WbThoS5N45ZWzWIJmAlneTRDWYu4vXWvCMfa6bGGj/3to20f+X7r+yMZ+X7nQZe0nRC3PRoT2lx8iaXuGDnyjr89PJe5D5+aO/fUNvXqTfHEugda1fn4p2fanXnWt3c1qUZlUjbv/3r1Sp99ts20aTYp1atH+jad+LhSpIDYaVzPbePXNxjzX806Cfzx2r/TgeVSkh5DTQkEWZ+yjzWJgDNX3DQdx3TCFwWSNTJ8rXXdJECojQBJVW0BMm00FCBXW28BKtobKkBVbYtlIq8lNLW2gKSugyAzzJkg19TzoGKMdzNVTSNTNU5RuI9e8rQamrqsGNhvQDGqGFZlXnsYOz26WFZ6HKOunlhrm/32OWKrLXY6UpGHzM0ftdc0iZjqhwoD9TNAYZRiu3G7epmtDjlsp/32uUVGK84HPRyTB/eEnjDtIBVJIlL1Cat7tgIA");
 
 export default Sickle;

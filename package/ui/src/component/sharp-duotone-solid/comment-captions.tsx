@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-captions` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-captions?s=sharp-duotone-solid comment-captions}
  * @preview ![comment-captions](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/comment-captions.svg)
  */
-const CommentCaptions: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 240c0 49.6 21.3 95.1 56.9 130.8L16 480l150.4-45.1c27.9 8.5 58.1 13.1 89.6 13.1c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240zm96-32l24 0 144 0 24 0 0 48-24 0-144 0-24 0 0-48zm0 80l24 0 48 0 24 0 0 48-24 0-48 0-24 0 0-48zm128 0l24 0 144 0 24 0 0 48-24 0-144 0-24 0 0-48zm96-80l24 0 48 0 24 0 0 48-24 0-48 0-24 0 0-48z" />
-        <path d="M96 208l24 0 144 0 24 0 0 48-24 0-144 0-24 0 0-48zm224 0l24 0 48 0 24 0 0 48-24 0-48 0-24 0 0-48zM96 288l24 0 48 0 24 0 0 48-24 0-48 0-24 0 0-48zm128 0l24 0 144 0 24 0 0 48-24 0-144 0-24 0 0-48z" />
-    </Icon>
-);
+const CommentCaptions = createIcon("comment-captions", true, "data:font/woff2;base64,d09GMgABAAAAAAJYAAoAAAAABhgAAAILAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCHQsIAAE2AiQDCgQgBYMtB1wbSwXIhuB5u6h6v3tmAfUCRuRIvnMqZ2S4CI/RxTN1KmcsCgXwjYK2pwXHBE+69nkFKjJteq4CFappDay+23oWxCDIQOGDDH/ovNB8od0L8vg5u6BEup2+xTX/P4Dxl2YukFTLAERdAIxdPH+mz5/FsxTfVt4mvjUDATEOFAIZMrQUYIRMoKVcgVwueJYqFZ5FpVIQQJT5t2WgjBrYjqOAHCS5Up5XY6pFtbxGqVa+KJ6qvrhG9RqievWokfEFeI0+8dvcBbE43qnxx/RvRn/W/smoT6d9vejXKV+O+Lg4xeE18MW3tXuz7pv/tP1207dW/9e06ed9NH29zzOC1qRT+jydbawz49v8GNM3ddnheg/3+kx28W7r1tWqheTuxclEtLrN3uI5Snv1tf5AIDj64OW6q+uM+L9qjQRefPjfn+mHpPIsSW+iqgSCrEelhxUJJAIAkOKQdok1CGRGK+FPremGAKE6AiRl1QXItFBXgFx13QUoaW2gAGXVzZeJvJrQ0MoKkpr2gswgJ0GuobdAyQhflGUNI8OdgBrhty91kkQmHir69upTDCumrSJCiXO7w4ttt8shO9OVrtpkt10O2GiDrQ4IZp+ZzUE7TVrRE31Roa9e+igMU6iHt+oiUe6z39axrN9nuOL7uItD6+VdKUiYtZ8jmYxIkTV96mZPmIf7e4J4cfOu/GQBAAAA");
 
 export default CommentCaptions;

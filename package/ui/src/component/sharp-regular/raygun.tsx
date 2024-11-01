@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `raygun` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/raygun?s=sharp-regular raygun}
  * @preview ![raygun](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/raygun.svg)
  */
-const Raygun: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M288 64l-96 0L64 0l0 74.8C26.2 92.8 0 131.3 0 176c0 61.9 50.1 112 112 112L53.5 405.1 32 448l42.9 21.5 42.1 21.1L160 512l21.5-42.9L272 288l16 0 0 8 0 24 48 0 0-24 0-8 0-48 0-128 0-48 0-8 0-24-48 0 0 24 0 8zM218.3 288L138.5 447.6 96.4 426.5 165.7 288l52.7 0zM136 240l-24 0c-35.3 0-64-28.7-64-64s28.7-64 64-64l176 0 0 128-32 0-13.7 0-2.3 0-104 0zM416 64l-48 0 0 24 0 176 0 24 48 0 0-24 0-56 64 0 96 48 0-160-96 48-64 0 0-56 0-24zM112 200a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm120-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-    </Icon>
-);
+const Raygun = createIcon("raygun", false, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABhQAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCWgsGAAE2AiQDCAQgBYMtBy0bVwXIHoVxs/OkUx1lUZjMNx6+30/y3BeY5GcZ/gIBlZDUurJQQLZTWds089cn/H4PUY46cU39KPsGTHriN8sVvi6K2v+elnU+gZ1Xe9Nw57vZwCaKm5r31ABdV6g7QzF+iYeUSE8neNB9afyjreskpQKAaAKAKauWLXD3z/gz4sf658SP5iEgpoBcoIACOggwXkGgg6IcRUXBn1Gvs//AnACiLLxNAkVUcA+eAxRBUi4Wx1SbdqxWa6WGxZW1UrYrq2UrQ7zW+y3P93l7xPLoH2OoclCsilrQ1iKoLOSWL1+1fOz82pVZLXuj7zvtnu33bq+tTraq12oXXYsV4eWRyS2b32z/TM/X2jzdY1Wut5d3fafJO/9mJ50vbQ6vvjTJPD9X23Vt/L+POW6t1z3mNWut+UwTFW0M1kbFYJcNptMz/lg47X7NjHsMXzKoTci81LRplkn3Sx+5LH/xw8Ew1sZHWz2jTbZpkJfSdZON1mbQrSUtWy7BxKnWdvM8EAj++uyr8fj/KrUE/v6G4nH1u2lyegcVCQSF/vX+1qfJwNQB5FOc1HVhioHkqjv8qQ08IUDIECApywQoaK+JAEWZfgKUdDJCgLLMMgVRrAotbGiEpIEjQsFIF4SiFj4VSsb7NlfWIgpfpf1N2f+EhWZ24RmT8iEDB+dj89mSyvehmXp0XL7Z6X2St/SBJ+10yEHH7bDdHsc7/FELiiccMHOJnOGHckMMNFhurPxw9eHhlXY46pg9Djloxxknvz7W28nl7n3gdBJg6PMEkjdS+eiWM7tOHAQA");
 
 export default Raygun;

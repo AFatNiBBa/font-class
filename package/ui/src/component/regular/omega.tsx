@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `omega` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/omega?s=regular omega}
  * @preview ![omega](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/omega.svg)
  */
-const Omega: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M224 80C126.8 80 48 158.8 48 256c0 63.7 33.8 119.5 84.6 150.4c11.4 7 19.4 19.6 19.4 34.2c0 21.8-17.6 39.4-39.4 39.4L24 480c-13.3 0-24-10.7-24-24s10.7-24 24-24l61.4 0C33.4 391 0 327.4 0 256C0 132.3 100.3 32 224 32s224 100.3 224 224c0 71.4-33.4 135-85.4 176l61.4 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-88.6 0c-21.8 0-39.4-17.6-39.4-39.4c0-14.6 8-27.2 19.4-34.2C366.2 375.5 400 319.7 400 256c0-97.2-78.8-176-176-176z" />
-    </Icon>
-);
+const Omega = createIcon("omega", false, "data:font/woff2;base64,d09GMgABAAAAAAJgAAoAAAAABaQAAAIVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgWyBTQsGAAE2AiQDCAQgBYMtBywbyQTIhocPnej7kuxL7DAozLgBTUwTlojXwFqa2tVXt8Zv/OgAl+TU7vqx8UCeF+h9xxMIMGvywAPKAss0AIsx85YxJSn7JZnUZPr2u8evA7K4GecUSK4n3+FsvWn8qbHjJAopgKgFgFEL5kzz0aN4FPFt5XXiW1MQEKNALpAiRTMBhkoFmsnkyGSCR1GphH9gTgBRJJ+agAwppmAOIAOJyLIx5UL1bH65UFry28yIn+be7vb8oHuND9e7VCrF/SY3O5Tjne4vxJ0+r075dsLnk77u9XKrw12fG1iOe42vtS3FiQZX4maHd3u82PKP2b/Mb/1MrWf+bvXd+u883DE5gloxueaC9eubFmu982ytRWbVrz9rmO3btvav8fMnXZs/etS86yc/1+i/ddv2YevVRWo9+06tYtP16xfUdLF0RgCB4K+7fSavqDn0vyrlBDx559//tbeo8ig+Sp5BFQkI0q6VrpbGRxAfCQBAEvu1jo8QSIyRkKtWc0WAUEKARFFJgFRTtQTIlHQRoKCFfgIUlcyRiqyqUM+yAYlqdkGqvwOQqedVKBjqS7OoXqRwEsEg/ubSxms0binv1b1nPjjfRrqEEJ6nQ/JjveP+WOlEu9bbYbu91llrk72K7DbN2Web8RYe50G5XrrrKTdY7k6ft+dbZ7c9Ntlhe5kzRH7f6Gi/3d6J5AfSewchkXA4KezYtm7DKgA=");
 
 export default Omega;

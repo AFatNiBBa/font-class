@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `mouse-field` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/mouse-field?s=sharp-solid mouse-field}
  * @preview ![mouse-field](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/mouse-field.svg)
  */
-const MouseField: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M396.2 113.6c2.5-8.1 3.8-16.7 3.8-25.6c0-48.6-39.4-88-88-88s-88 39.4-88 88c0 29.8 14.8 56.1 37.4 72l-5.4 0c-88.4 0-160 71.6-160 160l0 48-24 0c-39.8 0-72 32.2-72 72s32.2 72 72 72l384 0 24 0 0-48-24 0L72 464c-13.3 0-24-10.7-24-24s10.7-24 24-24l24 0 136 0 8 0 19 0 133 0 24 0 0-24 0-16 0-16.8-15.8-5.7-49.9-18.2 23.8-63.5c2 .1 4 .2 6 .2L512 272l0-23.1c0-43-19.8-81.4-50.8-106.5C473 127.4 480 108.5 480 88c0-46.4-35.9-84.4-81.4-87.8C419.2 20.6 432 48.8 432 80c0 14.5-2.8 28.4-7.8 41.1c-8.9-3.4-18.3-6-28-7.5zM400 196a20 20 0 1 1 40 0 20 20 0 1 1 -40 0zM312 48c22.1 0 40 17.9 40 40l0 40-40 0c-22.1 0-40-17.9-40-40s17.9-40 40-40z" />
-    </Icon>
-);
+const MouseField = createIcon("mouse-field", false, "data:font/woff2;base64,d09GMgABAAAAAAKUAAoAAAAABfwAAAJKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCGAsGAAE2AiQDCAQgBYMtBzIbGgXIjpQuUybx8P86y/u+NCQPg5aQgoQVcLXLZQg7dJmT2klLULsxFieJTX/vzv/5pw/4jD7KWjQXz9Ix1nkCAWZdNs/HOu+ywDJNwNqd2zOHrJVraREkxzeOzxHy+Cx7QgPpjVTFy/yh8ashT5C0ZACiEwCbzj59n69rUYv4of4B8YM9CIhNoBTIkGFUgLUygVG5ErlcUIt6nf4DSwKIRvLSCeRowM24B5CDJMvzPS09lYa2/KxKQ3H1a/Hu7JPL3595fPSdVUX8uPbzM0QRh2ceH3xj1olpbZWIovXo8FszKm0BBf2xO5bE85VmFD/tPzWymX9i7JHBV/vPnAiPDL0+dfJEZ9kX8QpRxHP9r8ajA69VJp/sPPn7pOpVVc/vW9uWP/PMxo15q3xsVoMtUa3GloUG1ZYsaW8Hq/bIoLnnI4f6+g6xEZ26/KfbQ7LsCQNic1N/e3b12VPqHf23/XN2qItXnl3XKT7tmmkmxehJXZ+e6gICwbl/PVq9uGPt/82VBH759M/fwa+o/nWSTqJZAkE2tz7XBQkkAgCQ4i6TEwSSq2XkXVu9KkAoECBpVAiQGdEpQK4wR4AG45YJ0KhwukzkLUKvCwtIWt0KMss9CHK93gMN1vomatQbmdNRLkN9+eK3W2jbsnLR/IXl6rJbp7QfEXF+Tbkszbwr9M3Cja5ys5vc4UpXuNYdBrnNvvRON9o+grf5otIi8y1UWq3cbl2vP8uVbnO7a93sprTIGuV5b6a7xqNnoZoI6mIlSSJS5cmJ8+4j");
 
 export default MouseField;

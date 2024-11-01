@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `boxes-packing` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/boxes-packing?s=light boxes-packing}
  * @preview ![boxes-packing](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/boxes-packing.svg)
  */
-const BoxesPacking: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M592 32L304 32c-8.8 0-16 7.2-16 16l0 80-32 0 0-80c0-26.5 21.5-48 48-48L592 0c26.5 0 48 21.5 48 48l0 416c0 26.5-21.5 48-48 48l-210.7 0c1.8-5 2.7-10.4 2.7-16l0-16 208 0c8.8 0 16-7.2 16-16l0-416c0-8.8-7.2-16-16-16zM555.3 316.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L496 302.6 496 432c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-129.4-36.7 36.7c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l64-64c6.2-6.2 16.4-6.2 22.6 0l64 64zM352 192L32 192l0 64 32 0 256 0 32 0 0-64zM0 256l0-64c0-17.7 14.3-32 32-32l320 0c17.7 0 32 14.3 32 32l0 64c0 17.7-14.3 32-32 32l0 192c0 17.7-14.3 32-32 32L64 512c-17.7 0-32-14.3-32-32l0-192c-17.7 0-32-14.3-32-32zm64 32l0 192 256 0 0-192L64 288zm80 32l96 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z" />
-    </Icon>
-);
+const BoxesPacking = createIcon("boxes-packing", false, "data:font/woff2;base64,d09GMgABAAAAAAKsAAoAAAAABkwAAAJhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCYAsGAAE2AiQDCAQgBYMtBzQbZAXIjpQuD9Tx8P92/bfPrepe77U+dT+goRQBagydQpGVqtekjH40KPCEuZCHEOv/55rPz5oO8NOl+KHkytLWGK3dzydwz4eNkZTACTxRnG5T93hE5RshQRIRfyAdXzso459YoUZ6xF/hvjI9fjfNzSRlQYEY69HY9ejDD/TeMIYRX1VvEF/ZHwGxG8gCBXjITAF2UAjMVMoolYJhVBX5D8wEEHVAk+8vMYIH8SigBEm9LJdNH1002mnW2uVRzVrj8la71UU0IuKxDRa344X0pqV4mO6CRgwuohmDFdHvMb2J3ck7hejSnxyxQ3Tbn3J4DHLoUa12SzTbcUqIGzZoU+5Kj7iebgPMVtzZfkR4X6GdH986stlo9tKd2Ih+B1PmvTr21T/nfnXWVw5+Kuc87BwiO0Tx9U9rsjU/fV08Tev+aPHIWN8Zdp5WZ7hg5qOPvvLK7m4geZBh352RYasQqr64ehdNk/MuJ+9cDTq3f2cXQN5rVe3VeyriPQ6ec0rGsNMZngKXA4Gg/XF1wsljdtg20kzgt3f/3ibnq95L1/tVMSKBoFhRrXBCul5gYQDRFFeZ50wwkNzpkp+1pS9AaCBAUtcQoDDDWAFKDcsFqJltowB1DYcrRDkqTHRih6TlUihscg2UJnoNanbwaaRuYhSBqYeV/i3MtpdF9jTKa1etydvlaUkzxZqaRrfPy44lV0nLUl7pLBe7yBXOdIZzXWHoyxwYv9KF9vKoPf1QttYqa2TbydvVx8VHOdNlLneui12Ux9lePu9b4iq/+1J2Jyq5TlaSiNR+sp6Vl5z6jgEA");
 
 export default BoxesPacking;

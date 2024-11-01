@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-jpg` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-jpg?s=sharp-solid file-jpg}
  * @preview ![file-jpg](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/file-jpg.svg)
  */
-const FileJpg: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M0 0L224 0l0 160 160 0 0 144-272 0 0 208L0 512 0 0zM384 128l-128 0L256 0 384 128zM208 512c-26.5 0-48-21.5-48-48l0-16 0-16 32 0 0 16 0 16c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96 0-16 32 0 0 16 0 96c0 26.5-21.5 48-48 48zM456 352l16 0c22.1 0 40 17.9 40 40l0 16-32 0 0-16c0-4.4-3.6-8-8-8l-16 0c-4.4 0-8 3.6-8 8l0 80c0 4.4 3.6 8 8 8l16 0c4.4 0 8-3.6 8-8l0-8-16 0 0-32 16 0 16 0 16 0 0 16 0 24c0 22.1-17.9 40-40 40l-16 0c-22.1 0-40-17.9-40-40l0-80c0-22.1 17.9-40 40-40zm-168 0l16 0 32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32 0 16-32 0 0-16 0-48 0-80 0-16zm32 80l16 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48z" />
-    </Icon>
-);
+const FileJpg = createIcon("file-jpg", false, "data:font/woff2;base64,d09GMgABAAAAAAKwAAoAAAAABjgAAAJkAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgnyCfgsGAAE2AiQDCAQgBYMtBy8bfQXIjtMF9SWLu8TD/9v1/T63qlU1uG/EGhBfZgZFgrPvDM7AXj8V0ulkrr2f/n7qj/NPBfKMPkoVVa4szzfKPJ/AQIdVpLOBDWSCKWCzLYcQ3RA9Tj3xHFniS8MmNExdoYy3i+u1SPenz3Bru9P41UTXk/QKAJEBsNMRh+zng370Iz4dRHxqHwTETqARKFBgigCbFQJTlBqUSkE/BoP1P7AhgGjTl5dAiS4ex/OAEiTtshzqzFo/ua5bw8vD61ZV1FUt6hDDQlTROqmqq4jDjnxmXMQ9kyIi6hDi7rH3jqf8fWPumn3EXO7GsXeboSLuGWfeNSZi1gGtAlJDVy+tqrhh3D0Rcc34exMMoKe1iXlmp4QQVT3MPubZyQ/MrcLMF/ILv89wOh/0ZeVjHnOb7CsXctVVVyt7rHn1quU/8HmRZY2lPKLfH3EibTtR8fkPy3805zz04ltDhtE+0XTaB3arq1U02QRDb73ocyH9wLHtuZyXX7jjz07nzx0XZo2ss9yB8vQDcs4HjR17ED8NBIJFX5f/njBy8//dOoFf3vrz9/4rGnyQpBfQlUBQLB4sdmwCiQAApLjczASB5H5teqvD3CNAqBAgaasEKEyWBShVFgnQMs0aAdoqhyhE2RPGOG6AZJiLQGGtK0BpjDdBy2YfFtrGRFGnQpUJf4mpuzO626JmxdLlzcbmseYUS4/bZjc1YWP+5ehZICud7gLnu9RpTnWWSwm/2H7ly5xndw/bzQM1VlhqucZGTbr5VT2c/ItdAu5ezs+zSfN+Mt/l/vAFYidKu1JVkojU/SRyS86+8AwAAA==");
 
 export default FileJpg;

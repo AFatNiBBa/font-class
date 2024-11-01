@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `stretcher` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/stretcher?s=light stretcher}
  * @preview ![stretcher](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/stretcher.svg)
  */
-const Stretcher: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M27.3 68.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L145.9 232.6c15 15 35.4 23.4 56.6 23.4L624 256c8.8 0 16-7.2 16-16s-7.2-16-16-16l-95.8 0-.4 0-319.6 0-.4 0-5.3 0c-12.7 0-24.9-5.1-33.9-14.1L27.3 68.7zM224 448a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 0c0-8.8-1.8-17.3-5-24.9l53-40.6 53 40.6c-3.2 7.7-5 16.1-5 24.9c0 35.3 28.7 64 64 64s64-28.7 64-64s-28.7-64-64-64c-14.9 0-28.6 5.1-39.5 13.6l-46.2-35.3L491.6 288l-52.7 0L368 342.2 297.1 288l-52.7 0 97.2 74.4-46.2 35.3C284.6 389.1 270.9 384 256 384c-35.3 0-64 28.7-64 64s28.7 64 64 64s64-28.7 64-64zm160-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const Stretcher = createIcon("stretcher", false, "data:font/woff2;base64,d09GMgABAAAAAAKYAAoAAAAABhQAAAJOAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgliCPAsGAAE2AiQDCAQgBYMtBzAbPAVRlMzFDNmPw9jxUhv3FJbuM4Xw9/Hw/Droz30zC3h2E+xEsZkVSmKo+v9Hpk3UberrXt2C7qJKePi/+ee2BqWJZp3A5jBKX9rm+nP+L/f8ph0d4Dc6tDFt6dEaoGs0tvY8DLztk+JAsjAL1GPJ3GWtphTtK6Rcwttnj69yhjy+RytBOp0+4nh60/hbHXtI8gxAVAZAv/GjR3n6Nb5GfPx9n/hoBAKiPygEMmSoL0BPmUB9uQK5XPA1fv+W/8CCAKIk/S0J5CiJ7TgMyEHSyHPFrxZ4tuoqja1a45ZL1XzhsmujBTiAhWDT7xTsmGu1HbmE4Ob2xJSYxU7f73r//7zeb4uMaLGoaLCoCWOL+3wGXmnngvXnTNphvsmdynf+bfxx3kd1N92+febMkaPWNb7ua8WKX2egL0qq9unokZebKh7gQEXOyJEZFUYMMcSICmWrVLl0ycll44ZaP/8yc5hOBge5U+X85acQzQsuNtr0OBAInpfdc2B6pZ7fSiOBP5/8/43u/P3999O0I91BaQkEWcvfbUraAXDmiluYsU4T+qBAsl5OX7W8EwKEsgiQlFRWgEw9lQXIldVCgBIa6iRASWWNlom8jFDd1AKS8laCTGdbQa66u6CEnt4EJVWPzAxZI2IfgUmDW2jQuqJd67ZF92KYyZxl0XC6RzGtNF3nO83opHmWW2aNueZYaE1DrjIqXmupwYgY5IsK7bTWVqG7Yrm8PzzOXKusttByy+IyPRTnjabW4cHNSE+Usr1EkohU5qfbYM3sBXNXAQ==");
 
 export default Stretcher;

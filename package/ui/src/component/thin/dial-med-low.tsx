@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `dial-med-low` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/dial-med-low?s=thin dial-med-low}
  * @preview ![dial-med-low](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/dial-med-low.svg)
  */
-const DialMedLow: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M272 32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM186.2 186.2l.4-.4-.8 .8 .4-.4zm0 203.6C131.8 335.5 130 248.5 180.7 192L282.3 293.7c3.1 3.1 8.2 3.1 11.3 0s3.1-8.2 0-11.3L192 180.7c56.5-50.7 143.5-48.8 197.8 5.5c56.2 56.2 56.2 147.4 0 203.6s-147.4 56.2-203.6 0zm-11.3-215A160 160 0 1 0 401.1 401.1 160 160 0 1 0 174.9 174.9zM544 272a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM16 288a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0A32 32 0 1 0 0 288a32 32 0 1 0 64 0zM96 80a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM464 96a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM96 464a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm0 48a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm368-32a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm48 0a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
-    </Icon>
-);
+const DialMedLow = createIcon("dial-med-low", false, "data:font/woff2;base64,d09GMgABAAAAAALEAAoAAAAAB7AAAAJ5AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhXCEXwsGAAE2AiQDCAQgBYMtBzMbYgbIjpQuZyRBPG9X1fvdYy37JEXkzJLRwYwG4QFaZCeljC6eDunW9/c/13x+dn7vgD4faC+SdBxNpedLkKjA4Z5PpJM2gXu+KFHf6LarIOKhfYRCYgd0+UQcE6hTqgU44AbLL2JsBYWm4XDxIkwmLJw7h4ff5btIS/YaSAuzAAGQiQAYCKABGpCHADAaDQHy0DEAHR2B75LNmv9AAwQAxAxEFct0IABiA4nA+AdQ+HTdFrDk5toC2u0wufQFUsj24hORY6GjweNhx6awyHH77uBRNoaOOfZETsg8h90RFOF+R5HL4+bLsciJ8AJ5MOXZmHtsHH3XvnvsgmSeyNn8cz1SQ64Nu9ErU3ih4HzP9NDrg692X33lLSci7ImInJBN4YvLrXqw3IVn2K4VR3xix7Q3/YeWohY8F9zfv7tTTf3dO2Gn273zCttOiQhIy24zWJbGE8ydO2RIIs61mlXJsyNGnH0FVnxlf/v3JiRT6S+mT+/e8/ebN9O3W3cmvWfPvy3ae7VpKtuup/DZdgvbT7GuVsuF6ssBQACBf51qPqz0jP5vdSgAft7+V3k+2YdqvEoDVhQAAlrvbG+WqfEAjCgA4FPSRMcVm/S6EnxEvJPjZwOCHVpQmLGDRi5e0LHTC0wUMES7s/9cNES3IQRZDkHhpBY0hrIOdIJcAROjeeE1ExTtvdCHav1naZapfWRKL2NA3/7GSGMxrjYEda2uH2Xstndv4nk94FiKqKaKBhLEKaWhh9UxJ9BIJVPXyFOeazCAvvTHYCTG6dTj4QtIUEc9pVRTZTsZhXE/352m9dI9oEsRyR1IhEKBKOdvC4L6VCbifSqqmwEA");
 
 export default DialMedLow;

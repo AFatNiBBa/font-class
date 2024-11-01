@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-xmark` icon from the `regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-xmark?s=regular file-xmark}
  * @preview ![file-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/regular/file-xmark.svg)
  */
-const FileXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 384 512" {...x}>
-        <path d="M64 464c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16l160 0 0 80c0 17.7 14.3 32 32 32l80 0 0 288c0 8.8-7.2 16-16 16L64 464zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-293.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0L64 0zm47 239c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z" />
-    </Icon>
-);
+const FileXmark = createIcon("file-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAJcAAoAAAAABcgAAAIPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiBbAsGAAE2AiQDCAQgBYMtBzEb7QTIhqDe1mvP271f0p4YVkAAmdiMIVCkzIBBeOUUIzu9iWuef9o3YJE/SjSWPkiBPFUuzicwsbD0CUWBzXQCNnXbb7hBLq8iQ1BEDG2G6BnyuBQPVUgvp5/xoH5o/Kmj2ySVDEC0AMCMdauWeF6LWsRP9S+InyxCQMwApUCGDF0EmCwT6CJXIpcLalGv239gSQDRIB4ngRwVbMJ2QA6SLM/bdelRrTTN11YrxZwX2mXxYvtqiOttn1WrkeJpmybZe/0jPuqQ4uUBH/dpGh8O+rRzFjcGro1PimLNSx2nxORQwfv9psWUELzaaWpMC8EHvSfH1Nir5yctPvm7x897f1avNbuuWe0tywW/f7+ZXcJWv7/VkpbFdUXLlm8hku3RR+eeGzbo2emDof/8/vs//pHQpk3RfxTi5UAgmDTyUI9tzSf/16iawB/f/vu//4zUn8f19AkaSSDIBtcH2xzXIa4LAECKs3rGdQSSVTJxrU28IEAoECBpUAiQ6ayFALnCIAEquhkjQIPCKpnIGwttbOls0sQJNjPWFTbXxmdsxWTfhQ3aREYvjRza5y57LgJz1pUjhg4vJ5bTTNMZo5TlSeW20/9s7gzQnfY65qjT9tjtgNPAnLQkOeOIuStsji8qjTDUcKWJyuPycfNae5x0ygHHHPVVJinvB/2dXY8PUD8J0ZFSSSJS8ZLdIeeZCAAAAA==");
 
 export default FileXmark;

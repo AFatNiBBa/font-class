@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `industry-windows` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/industry-windows?s=solid industry-windows}
  * @preview ![industry-windows](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/industry-windows.svg)
  */
-const IndustryWindows: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M32 64c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 151.4L316.6 131c16-8.6 35.4 3 35.4 21.1l0 63.2L508.6 131c16-8.6 35.4 3 35.4 21.1L544 304l0 128c0 26.5-21.5 48-48 48L80 480c-26.5 0-48-21.5-48-48l0-80 0-48L32 64zM264 312c-8.8 0-16 7.2-16 16l0 48c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16l0-48c0-8.8-7.2-16-16-16l-48 0zM120 328l0 48c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16l0-48c0-8.8-7.2-16-16-16l-48 0c-8.8 0-16 7.2-16 16zm272-16c-8.8 0-16 7.2-16 16l0 48c0 8.8 7.2 16 16 16l48 0c8.8 0 16-7.2 16-16l0-48c0-8.8-7.2-16-16-16l-48 0z" />
-    </Icon>
-);
+const IndustryWindows = createIcon("industry-windows", false, "data:font/woff2;base64,d09GMgABAAAAAAJUAAoAAAAABeQAAAIHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiCCDwsGAAE2AiQDCAQgBYMtBzcbFgXIHodxTLEpgzvRxsP3dk+d+7oHcI/cQzMDtWIKRZutK18PwoXjnw7n9xWC/z+Xe37Pj+75+kaHsndt36B7cgIHXNumLg80zBLFdmemCKV9EtIsLcdnOR43yOOH7LQqpAfpG1zLHxq/auE0SY0MQNQHwLglC2b57Ek8ifi68gHxtRkIiHGgEMiQobUAI2UCreUK5HLBk6hU3H9gQQBRFb44gRxVsR0HADlI8jwv6zesX6tKnXxxPKXmihPNIu7VqhWXmtwhlsQ9izaxWtxvfLtT7Xiz6d2WAblFtxsLMlkr7kmi7zatuVDolVgN2hBO6vBu/Xd/983mb7Q75jzn645VGLfjnscLfPDmG3XGhPvuOy779sfyZeWP32Zzlf7qJ0p1n5QAv1avLMse1KJ69fjngUCw8rtez9fUG/l/9VoJPPv0z/C+ovIkFeldVJdAkPWq9LIyjVUoUiEAACkO68B8USBZL4f31HZXgFATAZKqajbItFIfcjX1hCraGnRDVTUtkIm8htDYKg2S2vZBZrAjkGvsPahipM8LVTWOTN8EbRG+e6mTR2RSVNGvT1kML5Y1VVQhLs2OKLbdbod9T3dz1GZ77HbQJhttc3DA9ptVPmSXyRw6yQ8V+umjVBiuEDef1cW2sN8B22hZvswIxflsN4f54d1NkCBtfxVJIlL9q2j2flEAAAA=");
 
 export default IndustryWindows;

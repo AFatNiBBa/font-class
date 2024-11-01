@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hand-dots` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hand-dots?s=thin hand-dots}
  * @preview ![hand-dots](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/hand-dots.svg)
  */
-const HandDots: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M264 16c17.7 0 32 14.3 32 32l0 24 0 8 0 168c0 4.4 3.6 8 8 8s8-3.6 8-8l0-168c0-17.7 14.3-32 32-32s32 14.3 32 32l0 56 0 8 0 56 0 48c0 4.4 3.6 8 8 8s8-3.6 8-8l0-48 0-56c0-17.7 14.3-32 32-32s32 14.3 32 32l0 200c0 83.9-68.1 152-152 152l-8.5 0c-59.4 0-116.4-23.6-158.4-65.6L25.4 318.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l67.7 67.7c2.3 2.3 5.7 3 8.7 1.7s4.9-4.2 4.9-7.4L152 80c0-17.7 14.3-32 32-32s32 14.3 32 32c0 0 0 0 0 0l0 168c0 4.4 3.6 8 8 8s8-3.6 8-8l0-176c0 0 0 0 0 0l0-24c0-17.7 14.3-32 32-32zm47.9 28.3C310 19.5 289.3 0 264 0s-46 19.5-47.9 44.3C207.6 36.7 196.4 32 184 32c-26.5 0-48 21.5-48 48l0 236.1L81.9 262.1c-18.7-18.7-49.1-18.7-67.9 0s-18.7 49.1 0 67.9L125.8 441.7c45 45 106.1 70.3 169.7 70.3l8.5 0c92.8 0 168-75.2 168-168l0-200c0-26.5-21.5-48-48-48c-12.3 0-23.5 4.6-32 12.2L392 80c0-26.5-21.5-48-48-48c-12.4 0-23.6 4.7-32.1 12.3zM208 348a12 12 0 1 0 0-24 12 12 0 1 0 0 24zm64 32a12 12 0 1 0 0-24 12 12 0 1 0 0 24zm140-12a12 12 0 1 0 -24 0 12 12 0 1 0 24 0zm-44 76a12 12 0 1 0 0-24 12 12 0 1 0 0 24zm-84-12a12 12 0 1 0 -24 0 12 12 0 1 0 24 0zM176 412a12 12 0 1 0 0-24 12 12 0 1 0 0 24zm172-76a12 12 0 1 0 -24 0 12 12 0 1 0 24 0z" />
-    </Icon>
-);
+const HandDots = createIcon("hand-dots", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAAB0AAAAK0AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhQSEJgsGAAE2AiQDCAQgBYMtBzAbJgYRlZoTyT4SclOsVzEzc/ghmvgSD8/b9XXuq+r+gGpgrogMcgQyG2cruANg/q/Jd720Avni86FEllViRDyfwACjKdomNJsNdQI2c2veoO0hgSCxosYwGeLjJz1+XSGP5x2sRLopbcQV+qHxjR7nkmQZgGgGwLLddtrGKx/GhxEbK0+KjbZCQCwHhUCGDP0CLJQJ9MsVyOWCD6NS4f/AQgBRVqjJoRx1+IGAX0FSk+fHzavBs3WlhnzXulLtYZd0RFxHCHFdxw1dEWd13VC3S6gMFbL+1YUv7FwbF89/bvyucX1y7BLXaXlAcRaVTROItDlr3s2dEdfXXtx+bfcB3eERO9rdzuzYJV6c92xdXbyx5OXdIkKG60ezTDfsfkPX9Z3Xtl/XscWm2Y0FT93ODt+1+679J4ff13zfd8M2Hrqx6uHGC7mwsVu1e5T33798DwhYVLlzVVNPbfinmitHrhVL7715aVSbdOaZleOOdVFDw0U3UumNy1eYsWx5qRLyYmLWI6CbzPindQPvtrW9u+Gc0Tb13U3Zt3bxnTV89369/f3jjtPy6K3Tqq2O/3+I1WuzTe9ObdvQrxmHTbmltvYW6CrZckkdBW6pnbCVJ3ZiHtXGvH+r14FA8MKvd3bv17Twt+q6BD5+7oe/8TOqvBJvpvtQLYEgm1iZuHeCsfGmAACkONXwBIHkCzXKu9a7XoBQiwBJWa0AmT7NAuRqTRCgZNAsAcpq7SQTeY3Qbp8bJPVOAJnZTgO5do+DkoXWRMraI1v7kpUr+fNMSVZbZNW0YtrkqcX84rXski5nUR5fUISNY0+VtnHY49Djjj35kIOPUIFhnbhN/JRjVvd4V323mDZ5ajG/GK7ts3c95MSTjmjLxydZUMz3jj2133scLEnhOz0rSUSq+VQikw4+7uSTAAAA");
 
 export default HandDots;

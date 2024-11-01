@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-arrow-down` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-arrow-down?s=duotone cloud-arrow-down}
  * @preview ![cloud-arrow-down](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/cloud-arrow-down.svg)
  */
-const CloudArrowDown: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M0 336c0 79.5 64.5 144 144 144l368 0c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336zm216-40c0-6.1 2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l39 39L296 184c0-13.3 10.7-24 24-24s24 10.7 24 24l0 134.1 39-39c9.4-9.4 24.6-9.4 33.9 0c4.7 4.7 7 10.8 7 17s-2.3 12.3-7 17l-80 80c-4.7 4.7-10.8 7-17 7s-12.3-2.3-17-7l-80-80c-4.7-4.7-7-10.8-7-17z" />
-        <path d="M223 279c-9.4 9.4-9.4 24.6 0 33.9l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39L344 184c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 134.1-39-39c-9.4-9.4-24.6-9.4-33.9 0z" />
-    </Icon>
-);
+const CloudArrowDown = createIcon("cloud-arrow-down", true, "data:font/woff2;base64,d09GMgABAAAAAAKgAAoAAAAABjQAAAJVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkiCGQsIAAE2AiQDCgQgBYMtB1wbRwXIhofn86Q/9yXtAMoA8geAHbfCumOXxj/+9IDH7zp3/PM+pu8Vr0DjBalvarEgFapWqCZav5u8ix9xWpOnn5yGqW7Y2jpBnjpn5yiRbkyf4HL+H8D4VTPnkFTLAERdAIxdPH+mN36Kn1J8UnmG+MQMBMQ4UAhkyNBSgBEygZZyBXK54KdUqfBTVCoFAUQZPzsDZZSwE0cBOUhCyvMWXdvWKNXKF/EN1Rff0Gxh3Nt5cdzc/L4OIyLipk73NBWjAl4Yd46MeHVirXh/9Ovtb+v12KCb47ZuDw26qMNjw14a9M2IVxac4cx4pscjLRef2eT+jiMj4ubO9zYTowPuv9YZDRfENdUvarworot2D9V96Pe2n2z6xA8PfPHF7Nlq1TJYxsKP3eQ8jebObXSeTWrVsqflEc5/c4854weUaj/51gtz6ld96KEzWu+eP3DAG+Pjk09ifJ7z+NVX1/m+c/VNUm1T9dqcPZt5HAgEwzs9N2p1nRH/V62RwC8v/fmvvV/lp3RGeghVJRBkPSo9rEhngEMH8KVSHNIuneFLBDLTJOlda7pOgFAdAZKy6gJkWqgrQK667gKUtDZQgLLq5stEXk1oaGUBSU17QWaQkyDX0NOgZIT3rbKGkWkdpTPUoy9+EkIT9xV9e/UphhXDTKYViYjb4cWy3uWQ73SlozbZbZcDNtpgqwOA7DPTPWinSTN4og8q9NVLH4VhCnF5zS8Ca5/9tvZZ+S7DFfuNLg7Nx7vSYRKg33nFMiJF1vT/wWjPtfv27T7c8z7KPVV4uHmTvbAA");
 
 export default CloudArrowDown;

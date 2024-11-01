@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-dashed-line` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-dashed-line?s=sharp-duotone-solid file-dashed-line}
  * @preview ![file-dashed-line](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/file-dashed-line.svg)
  */
-const FileDashedLine: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path class={generic.secondary} d="M128 0l0 256 384 0 0-96-160 0L352 0 128 0zm0 368l0 144 384 0 0-144-384 0zM384 0l0 128 128 0L384 0z" />
-        <path d="M32 288l24 0 112 0 24 0 0 48-24 0L56 336l-24 0 0-48zm224 0l24 0 80 0 24 0 0 48-24 0-80 0-24 0 0-48zm192 0l24 0 112 0 24 0 0 48-24 0-112 0-24 0 0-48z" />
-    </Icon>
-);
+const FileDashedLine = createIcon("file-dashed-line", true, "data:font/woff2;base64,d09GMgABAAAAAAJQAAoAAAAABbAAAAIEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgUSBPgsIAAE2AiQDCgQgBYMtB1wb7ATIngVOmT0aUcSpo4mmieZL+FXEJ6+htATVsvXs3sfgIFtekRRZ4aN9iUWoP4kDlRQohzAY8YUEjT4/2G++wzyKHWJSIZlPzJpYCuRft7T027QEkhnyvSEwYNpNncq5nIdC4T+PcNDGwqUbF0hozvPRFqxaHcunVahgtZLVRKvbZHZK4hdRYCQRHZ8dZ0916FyhSMH8pkZ6T8CT/A9g/LF4I2llAMQQAJzfDVoQF7RM8V99EN+aICAuAJsIGRmrCByRCqyS2QSFQrCUVBUsqaoYAog65NdnUEcTZ+ASQAGSLBcytVqtVyu1cr1s3JFrJh2NFtHWkJb9y0kq0RORJlkShO453TLSifG2gPCWPVwfmufB/NiCoCftPiWa83j8Qmlu7tPyIsWVnpXVeYlZLPBKIJgd9m/WjbX/ZkcC+Pn8tzzPlZjmSUBTAkGeVTEr6ckmdlYR5KS448FHPQlka6Twrl0vAoQ2AiR1bQGyFSYECm07CNSsyyNQ13ZFKgo1wtRqA0nXA8gO3YPC1DuoOfJl101DGkh0GNDPuITGcH0dpxMprvA0UJnYIHlY5WUxdKcQxkXsOXfmxq4dh25Cr7S8W6caHlL3RSwtIYVV8Ha8PT2268q1Q+fO8pgqPq+G3Pn1YSgSSrhrS5aJRFLzpd0Q39m8Ptjdif8wwURltXXIXUEAAA==");
 
 export default FileDashedLine;

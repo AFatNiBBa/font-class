@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `comment-arrow-up-right` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/comment-arrow-up-right?s=solid comment-arrow-up-right}
  * @preview ![comment-arrow-up-right](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/comment-arrow-up-right.svg)
  */
-const CommentArrowUpRight: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 448c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9c-5.5 9.2-11.1 16.6-15.2 21.6c-2.1 2.5-3.7 4.4-4.9 5.7c-.6 .6-1 1.1-1.3 1.4l-.3 .3c0 0 0 0 0 0c0 0 0 0 0 0s0 0 0 0s0 0 0 0c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c28.7 0 57.6-8.9 81.6-19.3c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9zM200 160l112 0c13.3 0 24 10.7 24 24l0 112c0 13.3-10.7 24-24 24s-24-10.7-24-24l0-54.1-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87L200 208c-13.3 0-24-10.7-24-24s10.7-24 24-24z" />
-    </Icon>
-);
+const CommentArrowUpRight = createIcon("comment-arrow-up-right", false, "data:font/woff2;base64,d09GMgABAAAAAAKEAAoAAAAABdQAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKggiCAAsGAAE2AiQDCAQgBYMtBz0bDQURlZopyH4kxm6QPcbUd+KjE1fi4Xm7vs59VV/VY9TYjqCIK0ZgRmVkOggXTrcDoELw5/9yz28tOsBvdGQHNEdTA2nrGOt5AgFmvXxNkSyMShSzbmWlRMp8kmQsrZx73H/PPV63hTzeza6oIT2WvsA97U3jF+1dIWnIAEQzAExbs2KRj27FrYjPq6+Lzy1AQEwDpUCGDJ0EmCgT6CRXIpcLbkW1mv4DSwFELZCJn4cjd+AQIAdJyvMpnSo1jfPV8cii8c8LIj6fEvFhj6cmfzD/s9U/zP1k4nvlj9Oe7PtgqyzuQnFRxMUnPNj6ocqbE97s83ZlfaWoPNtePNrzuQ4RK+OZ3o93XBNF0JlP9On+UrOXfvPF7i+Y4ypPdKFLQ0OXLk9cnaOkJNGXzbw7s+Hs7h7NIwSs3t1vXvHy0iGD/xo7putR5C1rfVTrZb1wtNWrNW78zTdRWhJL+n4gEDS7dX7ZlqYT/6uvJHDnnT+OI6v/V28l6SXUSyDIBlYHbkwMnOaPSKU4rbt8UCDZIMGrNvKwAKFAgKRWIUCmo2YC5AoDBKjRxSgBahVWyETeILSyaYGkkWMgM9pZkGvlVVBjoo+TtVpF5miam2i/edl8NkOzlpXDBg8tx5fbuqn7jlLmJ5THkb6nVV8/2Wj3kcMnd+3cd5L444sypw7NtrhZPyyHDR5aji8vt9brV+86fmLfkcN1kQnl/Ym+p+3R/SSeQHB4RZKI1ObNLh+07fjxI2cGnTr6sQI=");
 
 export default CommentArrowUpRight;

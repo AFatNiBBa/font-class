@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `person-circle-xmark` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/person-circle-xmark?s=sharp-thin person-circle-xmark}
  * @preview ![person-circle-xmark](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/person-circle-xmark.svg)
  */
-const PersonCircleXmark: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M160 96a40 40 0 1 0 0-80 40 40 0 1 0 0 80zm0-96a56 56 0 1 1 0 112A56 56 0 1 1 160 0zM95.9 128l5 0 118.2 0 5 0 2.2 4.5 63.5 131.7c-3.7 5-7.1 10.2-10.2 15.6L214.1 144l-108.1 0L23.2 315.5l-3.5 7.2-14.4-7 3.5-7.2 84.9-176 2.2-4.5zM104 248l0 248 32 0 0-152 0-8 8 0 32 0 8 0 0 8 0 152 32 0 0-248 0-8 16 0 0 8 0 256 0 8-8 0-48 0-8 0 0-8 0-152-16 0 0 152 0 8-8 0-48 0-8 0 0-8 0-256 0-8 16 0 0 8zM560 368a128 128 0 1 0 -256 0 128 128 0 1 0 256 0zm-272 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm205.7-50.3L443.3 368l50.3 50.3 5.7 5.7L488 435.3l-5.7-5.7L432 379.3l-50.3 50.3-5.7 5.7L364.7 424l5.7-5.7L420.7 368l-50.3-50.3-5.7-5.7L376 300.7l5.7 5.7L432 356.7l50.3-50.3 5.7-5.7L499.3 312l-5.7 5.7z" />
-    </Icon>
-);
+const PersonCircleXmark = createIcon("person-circle-xmark", false, "data:font/woff2;base64,d09GMgABAAAAAAMAAAoAAAAABsgAAAK2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhACDXwsGAAE2AiQDCAQgBYMtBzob6QXIjtEn41E1Yjg8YaZMReLh+/1+v/a5B5WGNxEPWSNDiCSoYo1mIWsnFPnfs1ilhOc/Pw7/3EF8s52gtEXJTcjra+AHp7+f+sOayv89WxAMJapBCqNKYOcDHL5xpQ5kNpxNFHe5DZUnTQULaRAKxw5yPMjETbrluAKX6EPjnbwWSIoCANEIAFjbjgjCyV/6G3FZ2oT4KAAExBqAboQCBdoRWMQp0I5LN8iy4G+U/jf/gQwCiHIAkbw2owpfwQ8AGSQVmUtYWN5KUVFPkFuYK1qQWyBhWrFfoU97Qq5HvleLJgc1dmtOSWrNxTqRNQKC0hRFHVLRIUCRJEUyJEsxJBuF1ARkCQoiBEPIklqiWiAhQMjtnOa1u4f6RHP6cwKtujObiIa+WVGwzWC+kIQaTYiWHfb5re12jRbRMLhguyPQar9nvEQxoRGhYSR9byKcQu+3RDAtkqQpjCL2kVKfE5t76rnKvjK8k7rW3r6W2si8/vr9+9fr6S71ZdwNUnA5QszM2jkKhd9B2yNrkU+Qqqj5AcUMPfhU9vIVIvNDshEfKjabENPD7MzQl32NWqj9/k1d/e5eqFZjbmAwMR0GdLdIaGtLSDKmkzfkkWszNYDDy5xIEiREmuNFadM+DQgEF6e/046o41dlDQfg//PLOzqfu3SSVjnmAJUSCIrB/4MSkyu4aZQJSKWohrrjiwLJC17wrrWuEAjVCJCUqxag0EYMgazaAAJlOlkhUK7aOk6R+RFaJTGQ1NoDhWm1IGu1DsosOk2Waw3OdK1PlfrPyizeIu61io0ZmzJ7Zm0ghqSqHRcdWLCnt7od0Ms3IluJYpWyZMpTKXDlgjJVini7WC8/xJgxZoqxx3a3Vy3RQqpchTyzYf8yHLDzE7qq3eP1cj8HUDmuIklEknwNHEa/AHmNDp4D");
 
 export default PersonCircleXmark;

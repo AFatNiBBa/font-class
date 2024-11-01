@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `border-outer` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/border-outer?s=light border-outer}
  * @preview ![border-outer](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/border-outer.svg)
  */
-const BorderOuter: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M64 64C46.3 64 32 78.3 32 96l0 320c0 17.7 14.3 32 32 32l320 0c17.7 0 32-14.3 32-32l0-320c0-17.7-14.3-32-32-32L64 64zM0 96C0 60.7 28.7 32 64 32l320 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm224 88a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm-72 72a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zm72 24a24 24 0 1 1 0-48 24 24 0 1 1 0 48zm120-24a24 24 0 1 1 -48 0 24 24 0 1 1 48 0zM224 376a24 24 0 1 1 0-48 24 24 0 1 1 0 48z" />
-    </Icon>
-);
+const BorderOuter = createIcon("border-outer", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABgwAAAIfAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgkyCEAsGAAE2AiQDCAQgBYMtBzMbEwXIHoPjbvmvDMTV46V5BJcPC6JCiJYts7tfi4KuH1UVXdiqkUgQBovDNYcUCFeaRb8+K9b0NgjyowBRkiI09l1SIgukw7JlFVe0te0L06mQMWibhzfa8xXxRgnwiWRVdfNWl+Imrnn+Sf/0gGVP8GhR2PZeAZSrOJ/AeGCzaCoayGxgL4rTbeKzJxChICpESiI6Po+noxOUuOHchKQX/gt54B+Nf4xdkpRMADFEAI4vsxR/Dlzgq7on3pRBQJwQsAbIyFgCsIcvsERgDSmK4AfrCv+BehRA1EnelkBBC9fgFkABSaMIdAtS8eRCpaBZPi3rHU+BU6TYJGdyJU7oBfjY0s5lisLNDFh6SoyDOcPDpT8zKzAJFzp+Y7JwYxszl+Y6xK4YuAXXdzIuNIu/9a/xS+5OPYR7VZ64Dtl1W4tGr4rx02pleVJQ+L2sEFLJKGMiOYxa7Eux7/dxAALB+4/1u1Kn580Oj+Dv5X9e71dxWKUFaEogyBuVWz9WCLABBClYMp2OBZIrCsi3dj1SgNBGgKSuLUC2SAOgaJsBqFkRAVDXdkoQRUphajDIpOuGzHYNyWLqlqzZ8xrUTYMfcGK4iN+9tEQD8To98vr1Sf2y1KQY4tNySr+t+6wZctBWjC6nl0Fv8VLEQxq/HRIPj3VIF+Dlp5ekP262WqmCh6dlrpyvkqK/79qx/mQHWTzh3LRhkoikeIoKrvdreAAAAAA=");
 
 export default BorderOuter;

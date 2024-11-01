@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `folder-user` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/folder-user?s=duotone folder-user}
  * @preview ![folder-user](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/folder-user.svg)
  */
-const FolderUser: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 96L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64L288 96c-10.1 0-19.6-4.7-25.6-12.8L243.2 57.6C231.1 41.5 212.1 32 192 32L64 32C28.7 32 0 60.7 0 96zM144 405.3c0-29.5 23.9-53.3 53.3-53.3l117.3 0c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7l-202.7 0c-5.9 0-10.7-4.8-10.7-10.7zM320 256a64 64 0 1 1 -128 0 64 64 0 1 1 128 0z" />
-        <path d="M256 320a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-58.7 32c-29.5 0-53.3 23.9-53.3 53.3c0 5.9 4.8 10.7 10.7 10.7l202.7 0c5.9 0 10.7-4.8 10.7-10.7c0-29.5-23.9-53.3-53.3-53.3l-117.3 0z" />
-    </Icon>
-);
+const FolderUser = createIcon("folder-user", true, "data:font/woff2;base64,d09GMgABAAAAAAKQAAoAAAAABjQAAAJEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKglCCDgsIAAE2AiQDCgQgBYMtB1IbMgXIhqDe5mfPeyvdaf8x7DGSKQOKCDFyxpGDSPVTA6fWxannOQ8F8I2CMrbNydnnq3OdV6Dg3Ta94gWtaQ2sts1ysSEIhxxCQiri+GHTYfwXFPFzvkuN9FT6CQ/0/wGMX/R3F0kjA4huAFi2Z8cm3zSjmeKn1qfETzYiIJaDSiAjY5AAC2WBQQoVCoWgmVotmtFqVQQQdfJZGdTRAedwFVCAJMlF0bnH8J6d22qdi91ttXLPFxPeGf/27E/HvjnurVlrX+0V8Wi/x3q3xRN9b+/z+Ogyp5yeGvfWqM7xxoR3BuZ4evzbo8u4u8/4IOFVIOq375m+LD0xhm94rfdj/R/tVcbjffY8O/bN8W8PeaEQ0CuDh7/d7e3fhv10+ietW6dOHjp08lS97YOtv/N7rfHgDx5s9Pn/9603OrpUymX37i/e5kVySqzyom7PjjX2T+88MLMGWFtvAlJ88Ee3NT54NLf/9Vd71veBQPDKG4fnH+m68L+ObQm0f/3HP/WHpNVM0tvoKIEgT2xNdDCBRAAAUtxkeOJBBLLlMvE7eRzOQolBUldCNlA3KJQmQM0Qs16oK+2QRdEQejnEIOnkGmSz3QyFXj6BmoW+jet6RQ44JlyY373E1Suyalc1bfLUan517JhsDFFtc0H1LI+9qU6Mo6tOu+KyG5xy0jk3LNh1NmU3umT1DV3liyrTTDZVZb4K7u/t3U6pc71zex7fZoHqe3+sm+7zx5GWCO50+7JMpMg9T+e6PenG6webulO9PZ+lAAA=");
 
 export default FolderUser;

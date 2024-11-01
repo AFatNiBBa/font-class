@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `calendar-week` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/calendar-week?s=thin calendar-week}
  * @preview ![calendar-week](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/calendar-week.svg)
  */
-const CalendarWeek: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M128 8c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56L64 64C28.7 64 0 92.7 0 128l0 48 0 16L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-16 0-48c0-35.3-28.7-64-64-64l-48 0 0-56c0-4.4-3.6-8-8-8s-8 3.6-8 8l0 56L128 64l0-56zM16 192l416 0 0 256c0 26.5-21.5 48-48 48L64 496c-26.5 0-48-21.5-48-48l0-256zM112 80l0 40c0 4.4 3.6 8 8 8s8-3.6 8-8l0-40 192 0 0 40c0 4.4 3.6 8 8 8s8-3.6 8-8l0-40 48 0c26.5 0 48 21.5 48 48l0 48L16 176l0-48c0-26.5 21.5-48 48-48l48 0zM96 272l256 0c8.8 0 16 7.2 16 16l0 64c0 8.8-7.2 16-16 16L96 368c-8.8 0-16-7.2-16-16l0-64c0-8.8 7.2-16 16-16zM64 288l0 64c0 17.7 14.3 32 32 32l256 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32L96 256c-17.7 0-32 14.3-32 32z" />
-    </Icon>
-);
+const CalendarWeek = createIcon("calendar-week", false, "data:font/woff2;base64,d09GMgABAAAAAAKkAAoAAAAABmQAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgySCdgsGAAE2AiQDCAQgBYMtBzQbegXIjpQuZyTx8Lze/7f2SR7gfDkfUgV4wE5EKXfjohu3Qn0rRH/+z8UrHs3zh41gaLtMjaLI5x3PT+BEmrNED2yieOp0ZIeCiuSTIkW2GorHV/G43EEeTziuivRY+gb37D8av+pzI0mWAYhWAKzctW2rz36KnyK+qbxNfGMzAmIVKAQyZBgUYIlMYFCuQC4X/BSVyvQfWBBAVOOrE8hRg6fxEiAHSVWez2kb197fUNWU71wurt/3cPeDnaI+Xpz4aq8QKR6b9Nq4pnhlyhsDWQB7fPLr4+vDLD0c25sam1I82vng2MZ4ufvh/myX8FDXIz0RDSFs20tdD/WJxoh4oueRCQ0J7KEu8WBn9OHuiBv8WOHaaENT3DH8ekRc1/1wfWPc3vmg0a+3vv67b05+45p3qw8frl6g9GxbW32pFfVtbc+u8ASqTJYWkAo+s+Cid5/lWrJvvytXKL/7NnPooonUImJicCJzlP106VmltrRs+RQ/Na/Q/NPhraxgSfOttzazUSsYT0Mg+Kfzo6OHWpb8X9uQwC8f/Fk7u/JZfJZeR60EgmxqZar98RlAGUAqxZVGBzoLJA+rAtoaQUU21HOCpFo9yAxoBbl6U0CVYXM1cfE2mcjrhE4HAJJGl4DMPFeBXKc3QZUlPk9V64ysRo0VZvxDzLbOU2vnFTOnl8WiYlhlprLT1unFheybeOXcNQkbnXSRC13uhOPOuNxxl9qavcIF1kXsWjoqzDRdqbBIkW58te106Utd5kzfnJ9lseL50ERXxoMnIZhQdZayJBGp6Q22T/sIAA==");
 
 export default CalendarWeek;

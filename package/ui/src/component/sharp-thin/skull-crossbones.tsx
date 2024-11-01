@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `skull-crossbones` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/skull-crossbones?s=sharp-thin skull-crossbones}
  * @preview ![skull-crossbones](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/skull-crossbones.svg)
  */
-const SkullCrossbones: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path d="M295.8 220.7C330.3 200.2 352 165.9 352 128c0-60.1-55.5-112-128-112S96 67.9 96 128c0 37.9 21.7 72.2 56.2 92.7l7.8 4.7 0 9.1 0 37.6 128 0 0-37.6 0-9.1 7.8-4.7zM368 128c0 44.4-25.4 83.5-64 106.4l0 37.6 0 16-16 0-128 0-16 0 0-16 0-37.6c-38.6-23-64-62.1-64-106.4C80 57.3 144.5 0 224 0s144 57.3 144 128zM176 112a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm96 0a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-80 32a16 16 0 1 0 -32 0 16 16 0 1 0 32 0zm80 16a16 16 0 1 0 0-32 16 16 0 1 0 0 32zM436.1 511L224 393.2 11.9 511 4.1 497 207.5 384 4.1 271l7.8-14L224 374.8 436.1 257l7.8 14L240.5 384 443.9 497l-7.8 14z" />
-    </Icon>
-);
+const SkullCrossbones = createIcon("skull-crossbones", false, "data:font/woff2;base64,d09GMgABAAAAAAK4AAoAAAAABlwAAAJrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgxiCdAsGAAE2AiQDCAQgBYMtBzcbewXIhocHvfo/N8kqs0YerU+rBdz9oqGqV8/8X05vLLsN+I0ObUxbena0K6A5nycQYDY1agNuC7MAs4S0wXmjDig0hfQNZPGooypIHk6+w53uReNvXa4jkaYAohEAi3ZsWeejH+KHiG/LrxPfWoOAWAQKgRQpegWYKxXolSmQyQQ/RLnM/gMLAohK4fwJyFCDB/AyIAOJqiwr+lpaamq6ShV12Xa1VX7kxZ6IR+OJ+e8s/2zme71XdT08rC2EKAVc0bHjqpERL40UIs8HX/PK6Ffi2QUfrvh83vuDtt/aFnG/q1rvy29pfyCu7niwVKIztj7Qfl/r/W0PdmyL1XrZru3btm+N9tgR26Mjtgm2LbZeYOvgVxpf+XfQdyd8Z8RPT/7O7311EyecddaEiXV9v//+5Llyw1xlmNy5K/YO7qb00XCNGu9qNNxHpe7Bbedd+9FH157X9mFD/U3cVM/KWI+D/ZINA/U//FAPqQ0NahM+u//7803kct+eRZ3LtRQJfYN8czIIBKsfvPT4gYa5x6tLCfjpnf//Ln5EVv443kteQbUEBOnY8lh74yOZLN4TQpTEBQYvvJNA4g5V4LPWekCAkCNAolIuQKpHowCZ3BgBKvSbJkCl3BapyGqEVvsakKh1NkhNdznItHoVVJjry6hSa6S3qHqDqT+IWcu76LJpxaTxE4vZxWxZpd11sh6fU2x2Rl7A20bBpU5wpjOc55ijTnZeRzzHuvR8p1u+RC/zQYVJxpuoMFtxuPZw/nbHnONcJzvTGXaSOYrrg5EuWO49CvqJIDnZmkRCJI3nnnr+aaeN+8bsw68AAAAA");
 
 export default SkullCrossbones;

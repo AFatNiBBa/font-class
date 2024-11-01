@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `hands-holding` icon from the `sharp-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/hands-holding?s=sharp-solid hands-holding}
  * @preview ![hands-holding](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-solid/hands-holding.svg)
  */
-const HandsHolding: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M80 104l0 8 0 32 0 80 0 66.7 84.1 84.1L205.8 347l-36.4-36.4L146.7 288l-9.4-9.4L114.7 256 160 210.7l22.6 22.6 9.4 9.4 22.6 22.6 64 64 9.4 9.4 0 13.3 0 64 0 32 0 32 0 32-32 0-96 0-13.3 0-9.4-9.4-128-128L0 365.3 0 352 0 224l0-64 0-32 0-24L0 64l80 0 0 40zm480 0l0-40 80 0 0 40 0 24 0 32 0 64 0 128 0 13.3-9.4 9.4-128 128-9.4 9.4L480 512l-96 0-32 0 0-32 0-32 0-32 0-64 0-13.3 9.4-9.4 64-64L448 242.7l9.4-9.4L480 210.7 525.3 256l-22.6 22.6-9.4 9.4-22.6 22.6L434.2 347l41.7 27.8L560 290.7l0-66.7 0-80 0-32 0-8z" />
-    </Icon>
-);
+const HandsHolding = createIcon("hands-holding", false, "data:font/woff2;base64,d09GMgABAAAAAAJsAAoAAAAABewAAAIhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCVAsGAAE2AiQDCAQgBYMtBzQbWAXIHgVuc/NUcoTLI0k48h/Gw9da+X7PHC0EsetUmNgxOBbubFxUHBuxFRsdRdvMqrXvEyKkfeJy+sM2/fnkJ8gkHHvR2DTGPE8gwC57bCyggLIwSxRb3Ha19KMe0iA0LlDGn+KeFtLbBC/Dh8YvA90j6SgARA8ALNy+ea1PjWhEfG+O+G41AmIhyAIFCgwRYI5CYIhSRqkUNKLZFP+BmQCiVUISc0kffIFXgBIkqSwXL6621Mtt/KjKbkEIsTVmx7wYFf0wPT9GRl/9RmnlpFcq/WJb9Isoq4Z6sJ3Y3ye2yGilEinVPzbHaC8j9NwYEX3yc2JmbF/a39ml6xxj/fb2JJptsNjmzd5bbJs3hP7hqMeNTY/VLZBF5uwbN28Ojbdk5QAjbDCiMSLJ80EDZAvcUvd4D/AmeSvLVCHMzQvNPx549WLvbd5ssQ2ydiAQNCt67O8+53d7NYGfH395XvNTupVCuwSCYkxzjD3pFghhAJkU13SufFEgeSBJ71rzSoBQQYCkVUWAwmA9BChVjBagxTBTBWhVsVkhyg6hj70tn9Rc5AvTXOdLfXzgW8zxOd2qTxQgqQIo1Q9h+mV9eOmuPHHchDwrL3bUaihT2M3Zebd9xDU5MRKLOua8c6446oiTrvSoS9bmrjpr2Rq51A9lE40zQTZLPt1/rN9G6UsuO2k9d36b2fL94RGurc8fiV1JkjhJXZKIVP9mzGNfcQA=");
 
 export default HandsHolding;

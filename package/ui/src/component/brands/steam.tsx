@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `steam` icon from the `brands` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/steam?s=brands steam}
  * @preview ![steam](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/brands/steam.svg)
  */
-const Steam: typeof Icon = x => (
-    <Icon viewBox="0 0 496 512" {...x}>
-        <path d="M496 256c0 137-111.2 248-248.4 248-113.8 0-209.6-76.3-239-180.4l95.2 39.3c6.4 32.1 34.9 56.4 68.9 56.4 39.2 0 71.9-32.4 70.2-73.5l84.5-60.2c52.1 1.3 95.8-40.9 95.8-93.5 0-51.6-42-93.5-93.7-93.5s-93.7 42-93.7 93.5v1.2L176.6 279c-15.5-.9-30.7 3.4-43.5 12.1L0 236.1C10.2 108.4 117.1 8 247.6 8 384.8 8 496 119 496 256zM155.7 384.3l-30.5-12.6a52.79 52.79 0 0 0 27.2 25.8c26.9 11.2 57.8-1.6 69-28.4 5.4-13 5.5-27.3.1-40.3-5.4-13-15.5-23.2-28.5-28.6-12.9-5.4-26.7-5.2-38.9-.6l31.5 13c19.8 8.2 29.2 30.9 20.9 50.7-8.3 19.9-31 29.2-50.8 21zm173.8-129.9c-34.4 0-62.4-28-62.4-62.3s28-62.3 62.4-62.3 62.4 28 62.4 62.3-27.9 62.3-62.4 62.3zm.1-15.6c25.9 0 46.9-21 46.9-46.8 0-25.9-21-46.8-46.9-46.8s-46.9 21-46.9 46.8c.1 25.8 21.1 46.8 46.9 46.8z" />
-    </Icon>
-);
+const Steam = createIcon("steam", false, "data:font/woff2;base64,d09GMgABAAAAAALgAAoAAAAABjwAAAKVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwSCSQsGAAE2AiQDCAQgBYMtBywbRQVRVC6KZD8OcpPWlYgQJeLQppatR1xOetnXfPESD/+t/e6bmV1EPPMTlvBK1EjIxB8JCZLFviVwqCZ5LRprs/+PiB/u2sQSVJMkniCJJVFJeIYcDK0dOTXeeKmAz75Y0c6zqwXpx6Z03s6LT2CAGy2z860i2werKG53th0ji3YpSWKNHOeOzxFKzMWdivSUGtyWH41Xc9pIqgyAGAUAR5fRoVh7pOeI3XaicQIC4hiwipCRsYjALq7AIp5VUBTBM7Ut/QcyCCBqSMsJFNS4wT2ggKQUnuO8jIwInxgvGpduEs4+9SBaCyHajTmPO46LpT7dUZEO42mKJ9xGY9hoym7eYEIVFENjOnF0EV9WnIXuea7HZujp6tmi+uMqA8r9euuoLnXJdcl2Ylw+vt2IaEp54BQj0mE4qdS7XJjGFYh6VPrlu/VGVA1NplfQ1ZqSnPpca/J28b0KHwFAoAKo8EEceVj8yoel6cHf3FxZ3cZGI9oZhlOTggJ9kxkVk30CBKdYVLi02UEo08fd2z2HfFBRISAAn+jG9/f3ZvkAe/02P9Ucasv/3tJCw8rezt5mm1WkAP19JLWgLEVCwhibl7BoaLh5t7GwuG1kZSPDAoC46K6b4NXI7n+vCAfwsvD9x7ej3aSvNIVeCQS503akxBdAeAKcFHW0lI4Fki4eyL0Ouhcg9CNAUusXIFsgiUDRbx2ByjJbBGr9TnFFEUKYlNrhZNA1nO2oh4tJc3Bl14ZTmwyuMwquJPwFU/1GwHcRszSzYE5sm2qif3E868zMukFd6DGEjchTrkyNXDkK1QxQlVC/Vik/DfTVIcaSGQuME3ZdPK+Pk6tKtULlyvI8zth720CdPtwQLA5h3ZBMEpH4ql0aAA==");
 
 export default Steam;

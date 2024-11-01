@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `gingerbread-man` icon from the `sharp-duotone-solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/gingerbread-man?s=sharp-duotone-solid gingerbread-man}
  * @preview ![gingerbread-man](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-duotone-solid/gingerbread-man.svg)
  */
-const GingerbreadMan: typeof Icon = x => (
-    <Icon viewBox="0 0 448 512" {...x}>
-        <path class={generic.secondary} d="M16 176l0 128 64 0 48 0 0 24.8-80 96L48 512l94 0 82-98.4L306 512l94 0 0-87.2-80-96 0-24.8 48 0 64 0 0-128-64 0-90.9 0C303 158.8 320 129.4 320 96c0-53-43-96-96-96s-96 43-96 96c0 33.4 17 62.8 42.9 80L80 176l-64 0zM208 80a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm32 144a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm0 64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zm0 64a16 16 0 1 1 -32 0 16 16 0 1 1 32 0zM272 80a16 16 0 1 1 -32 0 16 16 0 1 1 32 0z" />
-        <path d="M208 224a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm0 128a16 16 0 1 1 32 0 16 16 0 1 1 -32 0zm16-80a16 16 0 1 1 0 32 16 16 0 1 1 0-32z" />
-    </Icon>
-);
+const GingerbreadMan = createIcon("gingerbread-man", true, "data:font/woff2;base64,d09GMgABAAAAAAKIAAoAAAAABngAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCQQsIAAE2AiQDCgQgBYMtB1obbQXIjsQ4JvGLWNDi4Z+51/uS9LcdYwaMiggckAMAtZ2okRo7AqFIkpz+9f4//9fUaz06wE9yeigdq8QGz3w+gT0fVeDetGzPB16muMF5Ew+hO7THnyGLe+kxFSRXk4847fwPYPzR3DES1SmAqAeAcfNnT/X6R/xI4mP5CfHRFATEeJALpEjRSoCRUoFWMjkymeBHUs6PKM8JIEqch6aghJrYj+OADCRSpSyrrq7uVe3lalbUzuZFm2rMv9z0YuMLjS41kZnzGVvdv1ioWVPMCVEz5sdcFYuYx7Sa2ckaNZ51uNW9GPyk6/1Wd4fVmD+fXWfPzegRiw+2L+oV/9p9XPfRl+91fvyoE9qHYLDudMKirLp1D3mLx/Ztbvpy8y0zcyWPLzO/cWlzfcceMnbx8YZVRXHoUFFUNTy++ODyLcJtT+fO2EzpJ+peDwSCY98WFcvrjvxfVTMBv576rZ5Xr/w6HiQFqiQgSHuWe1oSr9VTLx4IAEAS+7S30Nd5CqQWOayvWsslAUINBEiU1BAg1VI9ATI19BCgQhuDBCipYbZUZNVCI0tLkKhlJ0gNth9kGnkMKoz0plDSKNI3UXyPxA/BtMl1dNKsvF/vvvnwfLAil14uXk+OyGd7Xffxjm5wr3W222aPtdbYaE+N2mVqea+tJo+Rk/xQrp/e+soNl6+u215gnrV22W1jv7J+mhHy/VNd7Rvv3w0GEx5jf2+lUiKJtOn6jdvWr931nwLlXltXbuv1WPds3qc8wwAA");
 
 export default GingerbreadMan;

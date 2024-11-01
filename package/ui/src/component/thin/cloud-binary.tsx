@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `cloud-binary` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/cloud-binary?s=thin cloud-binary}
  * @preview ![cloud-binary](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/cloud-binary.svg)
  */
-const CloudBinary: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M522.7 220.8c3.4-8.9 5.3-18.6 5.3-28.8c0-44.2-35.8-80-80-80c-16.5 0-31.7 5-44.4 13.5c-3.7 2.5-8.2 3.3-12.5 2.3s-8-3.8-10.2-7.6C355.9 77 309.3 48 256 48c-79.5 0-144 64.5-144 144c0 2.5 .1 4.9 .2 7.3c.4 7.1-4 13.5-10.7 15.9C51.7 232.7 16 280.2 16 336c0 70.7 57.3 128 128 128l368 0c61.9 0 112-50.1 112-112c0-54.2-38.5-99.4-89.6-109.8c-4.6-.9-8.6-3.9-10.9-8s-2.6-9.1-.9-13.4zM256 32c53.6 0 101 26.3 130 66.7c3.1 4.3 6 8.8 8.7 13.4c3.5-2.4 7.2-4.5 11-6.4C418.5 99.5 432.8 96 448 96c53 0 96 43 96 96c0 6.6-.7 13-1.9 19.2c-1.1 5.3-2.6 10.5-4.5 15.4c5.3 1.1 10.5 2.5 15.5 4.2C603.6 247.9 640 295.7 640 352c0 70.7-57.3 128-128 128l-368 0C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160zM168 224c0-17.7 14.3-32 32-32l16 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-16 0c-17.7 0-32-14.3-32-32l0-32zm32-16c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-16 0zm96-8c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 80c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-72-8 0c-4.4 0-8-3.6-8-8zm128-8l16 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-16 0c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32zm-16 32l0 32c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16zM184 328c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 80c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-72-8 0c-4.4 0-8-3.6-8-8zm224 0c0-4.4 3.6-8 8-8l16 0c4.4 0 8 3.6 8 8l0 80c0 4.4-3.6 8-8 8s-8-3.6-8-8l0-72-8 0c-4.4 0-8-3.6-8-8zm-96-8l16 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-16 0c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32zm-16 32l0 32c0 8.8 7.2 16 16 16l16 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-16 0c-8.8 0-16 7.2-16 16z" />
-    </Icon>
-);
+const CloudBinary = createIcon("cloud-binary", false, "data:font/woff2;base64,d09GMgABAAAAAAMsAAoAAAAAB8QAAALhAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhgSFCwsGAAE2AiQDCAQgBYMtBzMbjgbIjtRe8cUEchCPutd7sj7JYVAKiDABo/eOgbUMzndovP+5Jt87Oy+Qzwd6fihVdKu2Km+q0tHeng+Ho6IKKuANaMK4s21vjojcPkRGKDROQMsfRhAAtVd5wOawXN6QzgpQOA4pKXF8Jk17d+/I/QIpEPH8KyAe7QEBkGYAWARwAAfIQgBogIMAWWgsoNEIFIjvu/9ACwIAEgRjim0aiAYpDlIZlptA4WpdtXJGXGJGQmIScwPRuhd/o5m8Ww6VO1lrXYkdKbtSzta7aR43uG2XsFSWJF0uczzraMM7LaPlWvlTuRe0XeKG1GHr64rcKLszeXfqMfdK2RPZS5J2JO1MvlKx047cu7tFlDxtdLfY4crnai+V143v9e6xNFVkt+vK+uSdICcXGyPrUnaJlN6RhDivK7sPI7tSTO9Gd6cRZEeS8IqY5eTernEh82Vp6m43DQHGX2/RI2nhzrvVK9q3FjsZd/JdnjfKwxR1jJVeI+PSK3YbMrSkVU6ZB6vL0g5EbZ84ebIJ1GjeZQof/Y8Nb1w4Z0ipmqXM7bIC8YNa1mrWrWzqkpMnwyYtNXXKsAlDFl8UwDvGbt9+Tmtp7nnNpfe9mDWwJiaOhhOIVQebXzANFsRBI4NDwSEhMiTYBcwJqg1hPItDcWlNkDREfWstUGxG5I9OWhTMuzY43uMAIIBAwZ0LB8c2+BZ2FQBFN/2m9+MXqCXqJBBGASDgVPArMEAtARB0AYCkklkUOzBlMlUmLmkwil3QtGBgAEUQAw6ZxIHGUB4C5FBTuKh3v0SJjhBMYiABRRRTwaEWC0GTxCUI0IBniSBJ4rwt0rMufaymt5qiLWfZqpWq2Hp2t6KTXwDB9te3l60ysxZ1ZfFGRjGZScxgJCMYy4wJPo2O6ZlMpNURs+VvLVWpRBUs9bDgliy9vRhZadOnwrYKH6c+Nn6wDLOOW5fFDkXKWo0ihQJRUb9NLKw4bOykodPmAgA=");
 
 export default CloudBinary;

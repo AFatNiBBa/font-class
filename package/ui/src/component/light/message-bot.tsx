@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `message-bot` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/message-bot?s=light message-bot}
  * @preview ![message-bot](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/message-bot.svg)
  */
-const MessageBot: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M224 384c17.7 0 32 14.3 32 32l0 48 98.1-73.6c5.5-4.2 12.3-6.4 19.2-6.4L480 384c17.7 0 32-14.3 32-32l0-160 0-128c0-17.7-14.3-32-32-32L160 32c-17.7 0-32 14.3-32 32l0 128 0 160c0 17.7 14.3 32 32 32l64 0zM544 64l0 112 36.3 0c5.5-9.6 15.9-16 27.7-16c17.7 0 32 14.3 32 32s-14.3 32-32 32c-11.8 0-22.2-6.4-27.7-16L544 208l0 144c0 35.3-28.7 64-64 64l-106.7 0L249.6 508.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3l0-48 0-32-32 0-32 0c-35.3 0-64-28.7-64-64l0-144-36.3 0c-5.5 9.6-15.9 16-27.7 16c-17.7 0-32-14.3-32-32s14.3-32 32-32c11.8 0 22.2 6.4 27.7 16L96 176 96 64c0-35.3 28.7-64 64-64L480 0c35.3 0 64 28.7 64 64zM208 128c-8.8 0-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16l224 0c8.8 0 16-7.2 16-16l0-96c0-8.8-7.2-16-16-16l-224 0zm-48 16c0-26.5 21.5-48 48-48l224 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-224 0c-26.5 0-48-21.5-48-48l0-96zm56 48a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm176-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-    </Icon>
-);
+const MessageBot = createIcon("message-bot", false, "data:font/woff2;base64,d09GMgABAAAAAALcAAoAAAAABswAAAKSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKhAyDVQsGAAE2AiQDCAQgBYMtBzIb1wXIhofvbb6e+3al+X77GdZ2iADkdOlIkxYrVwHN/zWfnzUd4OcjOLTqZWMURoXtTWDPp+lN8/PZwCaKG3SXPSno1vH1dYUy/okVNEj3phZuBl8av5twBUlZAIh+AGy69+47+qQd7YhW502iZXsExGagFihQYFqADRQC00o1SqWgHZ1O8B9YE0A0VXBieYkutPAjoARJsyyX265/cmioavSUe1WNvPf1IxF3EnvH3VUV14/dHZY1l47elbvjuuE7CHHJyJ1VdbRQxd1LXz9yp0uG78hPjeYQ9yzzzBI59og7Ru8KqyDnp5Z7bhLE444lrhNfuHTs7urJkSoi7l/++aV74slln5045I5hcadffPdYxF2jeY37QezupasYlXfnhLhneJ4vx1NhYjJ2vFRpVPsxq3GnFWlm62cWPNf/3J/zW0e1/Lpx7zVc07uKQ7d1ZT6enbqm9xGXAHWTIHSJRxjfxhufUiWWcFNtM+0T9U1LuEUeGHjkeOcd4IzLL8+rqNX1I/zGfItx0CmOTRgO7Lxxu/cQve02cK5TLOKnVdpW+WlRcQhGDFIX917DBmK75uU58X0gEMyd8MNLB/dtsLirSuC39/5eDF7X+Shdkp5DlwSCYoXOCg5Il0BADSCV4iwLDHsMJF+4Pp/a7S4BQkaApCkLUJjSL0ApW16AhllrCtCU7a4Q5Txh2IEEJN1OBYW1XAhKw14HDRv4Otk0HMUrzb2Q3Bdl8lYstOWuetWVVqnXq7UNiH9LmXRx/XqyfZmzwoFl7YuOcrKTnOFIRzjWGQx5mh0zZzrRViZiSz9UW9VKVlFbT724vSjvxSRPc7pj1eLybdZXbx9exlnm8cvarqSiXU1VkohUvej8TyEA");
 
 export default MessageBot;

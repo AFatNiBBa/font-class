@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `wave-pulse` icon from the `sharp-thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/wave-pulse?s=sharp-thin wave-pulse}
  * @preview ![wave-pulse](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-thin/wave-pulse.svg)
  */
-const WavePulse: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M308.5 0l6.7 0 9.6 0 6.4 0 1.4 6.2L420.8 393l51.7-147.6 1.9-5.4 5.7 0 152 0 8 0 0 16-8 0-146.3 0L431.6 410.6l-1.9 5.4-5.7 0-8 0-6.4 0-1.4-6.2L320.3 24.4 231.9 505.4l-1.2 6.6-6.7 0-8 0-6.4 0-1.4-6.3L153.6 256 8 256l-8 0 0-16 8 0 152 0 6.4 0 1.4 6.3 51.9 237L307.3 6.6 308.5 0z" />
-    </Icon>
-);
+const WavePulse = createIcon("wave-pulse", false, "data:font/woff2;base64,d09GMgABAAAAAAI0AAoAAAAABWQAAAHoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgSSBMQsGAAE2AiQDCAQgBYMtBzEbsgTIjtMF9cyWl0QQP/fvz57kpq+5ZUirgFkROAZHqJD1UwVXdiwckG2/JMiv2vepU89zng34HIKgjYVrno9tCXWu8wpUrFffWCpPK9YqitVtsg47ovALESmSiI4rPL72kMff1qqRrqf3ONs+NH7o7DhJlgGIVgCYumzRQi+/xteId/9HvDMfATEVVAIZMnQTYIJMoJtchVwu+Br//0//gRUBRIHvIYEcGcZjNiAHSeT58Hqteb60Xis31Mt6+1gRy6Jj1OuiLBdHO6QdYmUsF3kpnIj6DrIkVl2pd2Orxl96vV//3ogXRdGhvWVHDb8oV9xrpeHCyBvaKVrMakcs+6rQRMORf7rQ4Nz0TnvDf1r6QQcgEIw5c3+dlhN+bagn8P3xP/SL/3+ZDqdGNEggyAb8P8DqdBiIGkCcYr/e6YsCyXAJv2szVwQIJQIkhVKATFetBMiV+gtQ08NIAQqlRTKRNxXaWaMgaWYXyIxyAOTaeQRqJngVFdpFFkDc83P/t+RZFpq5qRo6aEg1rlq2CB8TTFkdX20rffbnkb7Yab0dtttrnbU22WvI3Ram+2wzy4Nn+qHKUIMMURmnOu4+bl9qnd322GSH7XWd8ar7QR/7/el9oSdMO0wjSUQqY7oycOe+rXvWAQAA");
 
 export default WavePulse;

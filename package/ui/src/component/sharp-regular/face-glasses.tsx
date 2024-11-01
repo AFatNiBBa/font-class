@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `face-glasses` icon from the `sharp-regular` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/face-glasses?s=sharp-regular face-glasses}
  * @preview ![face-glasses](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/sharp-regular/face-glasses.svg)
  */
-const FaceGlasses: typeof Icon = x => (
-    <Icon {...x}>
-        <path d="M256 464C141.1 464 48 370.9 48 256c0-22.3 3.5-43.8 10-64l6 0 0 96 0 16 16 0 144 0 16 0 0-16 0-96 32 0 0 96 0 16 16 0 144 0 16 0 0-16 0-96 6 0c6.5 20.2 10 41.7 10 64c0 114.9-93.1 208-208 208zM256 0C148.6 0 56.6 66.2 18.6 160L16 160 0 160l0 32 8.1 0C2.8 212.5 0 233.9 0 256C0 397.4 114.6 512 256 512s256-114.6 256-256c0-22.1-2.8-43.5-8.1-64l8.1 0 0-32-16 0-2.6 0C455.4 66.2 363.4 0 256 0zM240 160l0-16-16 0L80.7 144c37-57.7 101.7-96 175.3-96s138.3 38.3 175.3 96L288 144l-16 0 0 16-32 0zm16 256c61.9 0 112-36.8 132-66.7L348 322.7C336 340.8 300.1 368 256 368s-80-27.2-92-45.3L124 349.3c19.9 29.9 70 66.7 132 66.7zm48-144l0-96 112 0 0 96-112 0zM96 176l112 0 0 96L96 272l0-96zm96.4 48a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm160 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
-    </Icon>
-);
+const FaceGlasses = createIcon("face-glasses", false, "data:font/woff2;base64,d09GMgABAAAAAAMIAAoAAAAABqAAAAK+AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2CDQAsGAAE2AiQDCAQgBYMtBzMbwwXIhuD7nGW/L9nlkQa0xFqiANAihADolMrRU6dqxnkogO8RD8rYNjGh2AIJzVWcAgWu1ca0gT2vFaza8wBXQGttExHeIOgFQeQQfWXIFtLDQlrbEfJ4Ms7TIF2e3sK56U3jT4OcRNLIAEQFgPU3XTTHc9/FdxFvth8m3jQLAbE+qAUyZBgqwFoygaFyNXK54Ltot+U/sCaAaMIPkUCOAk/gPUAOklaeTxzfZ0BHR58+ZaMrX1o2iiWfLIz4YOnxQ8oQoiwjIvjwy300/73F2UezI95aXBSijMt8vP7zc95e8um8dzd8cdPjB5cRURSfzH1n6eIghHvXfHLay6s/PnVbUSx5dM2IJ4esEReNuWmlR8bd0n+1uFy3V940PHJlsbQsSlFELDm+f8QlxRl9L+p7cb+LyzMHXBpLihIRqGlIxjjqjuqOv0e+tctb2j2bxh3cEZuOurppO5Xqusp2aj616epRsekdd2wa7y3wJ38MnZZVtZZjRpo2cND5x08zzfHnDxpo2shjWmpVNnTaH38u0HNthfud++Tnr+2332ufP3luVal72t+Noe//hzv7nGOq6phzzj7cr2PGfLfsuduBsJ/t7Pfutvup2+HabZftPo3TurtOO60rQ91m97UjRpqidjsQCLa56Zs3t+1Z679WmcAPT/z7bx2v9nNJugMtCQTZlPYUWyWQCMBXSnGIUQkCyQNa8KqdLhEgFAiQNBUCZIaoBMgVJgvQMNzKAjQVFslE3iH0tTVB0ml/kFnF0SDX14OgYS2vOk19IzNkzgy5z8jkTXp041X18sssV69RL0ONt00mTq5ZX1YnHBJKE91Gu9jXPg6ys53s7qAOP8Ac/2B722SHbeyDastbxnJqa6iPk0d5qXcOcKDddfF8mTXV91sTHLJvnuiMBKQrCCSJSJ1vydTUXff6fQM=");
 
 export default FaceGlasses;

@@ -1,16 +1,11 @@
 
-import { Icon, generic } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `circle-book-open` icon from the `duotone` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/circle-book-open?s=duotone circle-book-open}
  * @preview ![circle-book-open](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/duotone/circle-book-open.svg)
  */
-const CircleBookOpen: typeof Icon = x => (
-    <Icon {...x}>
-        <path class={generic.secondary} d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm128-70.7c0-5.8 3.1-11.1 8.3-13.5c10.4-4.7 29.1-11.9 47.7-11.9s37.2 7.1 47.7 11.9c5.2 2.4 8.3 7.7 8.3 13.5l0 160.7c0 3.3-2.7 5.9-5.9 5.9c-1.3 0-2.6-.4-3.7-1.2C225 347.1 207.1 336 184 336s-41 11.1-46.3 14.8c-1.1 .8-2.4 1.2-3.7 1.2c-3.3 0-5.9-2.7-5.9-5.9l0-160.7zm144 0c0-5.8 3.1-11.1 8.3-13.5c10.4-4.7 29.1-11.9 47.7-11.9s37.2 7.1 47.7 11.9c5.2 2.4 8.3 7.7 8.3 13.5l0 160.7c0 3.3-2.7 5.9-5.9 5.9c-1.3 0-2.6-.4-3.7-1.2C369 347.1 351.1 336 328 336s-41 11.1-46.3 14.8c-1.1 .8-2.4 1.2-3.7 1.2c-3.3 0-5.9-2.7-5.9-5.9l0-160.7z" />
-        <path d="M230.3 350.8C225 347.1 207.1 336 184 336s-41 11.1-46.3 14.8c-1.1 .8-2.4 1.2-3.7 1.2c-3.3 0-5.9-2.7-5.9-5.9l0-160.7c0-5.8 3.1-11.1 8.3-13.5c10.4-4.7 29.1-11.9 47.7-11.9s37.2 7.1 47.7 11.9c5.2 2.4 8.3 7.7 8.3 13.5l0 160.7c0 3.3-2.7 5.9-5.9 5.9c-1.3 0-2.6-.4-3.7-1.2zm144 0C369 347.1 351.1 336 328 336s-41 11.1-46.3 14.8c-1.1 .8-2.4 1.2-3.7 1.2c-3.3 0-5.9-2.7-5.9-5.9l0-160.7c0-5.8 3.1-11.1 8.3-13.5c10.4-4.7 29.1-11.9 47.7-11.9s37.2 7.1 47.7 11.9c5.2 2.4 8.3 7.7 8.3 13.5l0 160.7c0 3.3-2.7 5.9-5.9 5.9c-1.3 0-2.6-.4-3.7-1.2z" />
-    </Icon>
-);
+const CircleBookOpen = createIcon("circle-book-open", true, "data:font/woff2;base64,d09GMgABAAAAAAJ4AAoAAAAABrQAAAIuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg0iCcQsIAAE2AiQDCgQgBYMtB1wbnwXIFkpL8Lx/fdW593UPoDcwIwkZFFHhzK7T39FECyh0JMQ9/9d8fmnXgN/o0Dr0QAr8epHPJ3AiKyyfzyfUIgObge1tQ5qB+CIkSkXC8XS8oDp0zlDEF/myCulx+gg38X8A41ddXCZpkgFEawDMXrNikde+j+9TfFSvER9ZiICYA0qBjIzuAkyTBborlCgUgu9Tvc73Ua+XBBBVeP0MqmiEx3gOUIAkyUXRq1e37t2bVVoUq5tVmq550DHiwYDn299rf68pP8OFTi8NfKH/feJ80ysdm2lkfD37U68v+rjZ1SWfzn1zzTdz3lj8SdMrCz+a9drKNS78XvvlBx0Dpm0mfxN9Xm396u+9P9r9kV+2jq1Ra926VhvbOs0qnmhyosvnn3c50eSJajW52Q7wmvlN6NLw+ty5rzd0aWL+xWXp3AJvbzErtR5bi5n2lnw5EAierf3wuy2tpv3fuFkCPz7789/xQ1J/LUmvorEEgjysPszGBBIBAEhxWp/EeQSyFTK61eYeCBCaIkBS1VSArJvWAhSaGipARU/jBahqaoUsiiZCe5sYJM0dA9kEZ0ChvQZQMc27SVX7yBUq1Zf0QExfMDS/rxw9YlQ5pVQLUy46oS9PLd3+oNOGBsNeux1x2Em77LTPybjjFuWnHLLAIua7o9JoI4xSmqK8rt/11SXHnbBPVu9XmaqMjwc5bU8eDFFCvGOsyTKRInf+yWMMz2FjeALbw8t9fNejmtw=");
 
 export default CircleBookOpen;

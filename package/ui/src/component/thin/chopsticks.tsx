@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `chopsticks` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/chopsticks?s=thin chopsticks}
  * @preview ![chopsticks](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/chopsticks.svg)
  */
-const Chopsticks: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M17.7 484.3L335.3 29.9C342 21.4 352.2 16 363.7 16C383.6 16 400 32.4 400 53c0 8.6-2.9 16.5-7.7 22.7L28.4 493l-.2 .2-.1 .2c-2.3 3-6.5 3.5-9.4 1.2c-3-2.4-3.5-6.8-1.2-9.9c0 0 0 0 0 0l.2-.3zM363.7 0c-16.7 0-31.6 8-41.2 20.3c0 0 0 0 0 0l-.2 .3L4.7 475c-7.5 9.9-5.8 24.2 4 32c9.9 7.9 24.1 6.2 31.9-3.7l364-417.3 .2-.2 .1-.2c7-9 11.1-20.4 11.1-32.7c0-29.2-23.3-53-52.3-53zM146.7 483.7l416.3-395c6.5-5.4 14.8-8.7 23.9-8.7c20.5 0 37 16.4 37 36.6c0 11-4.9 20.9-12.8 27.6L155.9 494.1s0 0 0 0l-.3 .3c-3 2.5-7.4 2.2-9.9-.7c-2.5-2.9-2.2-7.1 .8-9.6c0 0 0 0 0 0l.3-.3zM587 64c-13.1 0-25.2 4.8-34.5 12.6c0 0 0 0 0 0l-.3 .3-416.3 395c-9.5 8.2-10.6 22.6-2.3 32.1c8.2 9.5 22.6 10.6 32.2 2.6L621.2 156.8s0 0 0 0l.3-.3c11.3-9.6 18.5-23.9 18.5-39.9C640 87.5 616.2 64 587 64z" />
-    </Icon>
-);
+const Chopsticks = createIcon("chopsticks", false, "data:font/woff2;base64,d09GMgABAAAAAAKMAAoAAAAABfwAAAI/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgjyCLAsGAAE2AiQDCAQgBYMtBzEbLQXIjtRgzZpD8fC83n+/9kmecsfIAPAXWUGVWJRWJRQz9vxfk+/ajgokiQ8t0mpRIBfgy3reYAP+tqNF4WhgBzabKM7cGoegohjuFVIj6hijx2/Q49UN8vjbVlWk29MHuHbLVfygtYtIsgxANALApBVL5nnl0/g04oP/nyM+MAcBMRmUAhnA7QQYKxP6BrkSuVzwafz///gPLAkgqs03J5CjGkdxCSAHSZ7nrdu2b1upqp8vb1lFvx1bd9za48rmNzuv2dbAaTe1uKXl+dFyx0Otzo/zo1lsjduaP3x2A+Vb4w7iFyvtcAW6TTUYQ12VHVc0y14UHu6m1jf3kJ0flXi0bUb3zk80euKnTrZ/oOnYN+Xlpxo1vOPxRvVP7bkPDJ08tStWfXHd5wBN3f9T5ZcKeLpp9cc/t/jFvVdI5bYGjXwveumtdYAlQ4ZOBS882OxDCIbYz6/8VNTPhYY11T//tBAIBP03f71gQ8Oxv9ZWEvj85V/+2u3/5ZWX0nnpCdRKIMj6/t/X2nQeIdkXIE5xXGd8SyDZKwd5recWAUKBAEm1QoBMW40EyBX6CFClg2ECVCsskYm8Tmhm3cEn9RziM8OdzeeaeYavMtbbUbVmkYWfHjz6z1/OdI1MO1QO6j+wHF0+Ni0jotS+PKY0ez2Pl6FeOGq7A/Y7aputdjmq6MPmpcfsM51R0/xQaZD+BiqNVro7X53lKTrsiF33ln+VMcr3Gz0d55N7IUym4mDgJBGp2LLzwMEjn5d7BAAAAA==");
 
 export default Chopsticks;

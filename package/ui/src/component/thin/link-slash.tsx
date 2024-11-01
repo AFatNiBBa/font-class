@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `link-slash` icon from the `thin` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/link-slash?s=thin link-slash}
  * @preview ![link-slash](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/thin/link-slash.svg)
  */
-const LinkSlash: typeof Icon = x => (
-    <Icon viewBox="0 0 640 512" {...x}>
-        <path d="M13 1.7C9.5-1 4.5-.4 1.7 3S-.4 11.5 3 14.3l624 496c3.5 2.7 8.5 2.2 11.2-1.3s2.2-8.5-1.3-11.2L13 1.7zM580.2 244.7c50-50 50-131 0-181s-131-50-181 0l-17 17c-3.1 3.1-3.1 8.2 0 11.3s8.2 3.1 11.3 0l17-17c43.7-43.7 114.7-43.7 158.4 0s43.7 114.7 0 158.4l-71.2 71.2 12.6 10 69.9-69.9zM398.7 409.9L383.6 398c-37.5 10.3-79.4 .7-108.9-28.8c-22.8-22.8-33.7-53.1-32.7-83l-15.1-11.9c-4.6 37.8 7.5 77.2 36.5 106.2c36.6 36.6 89.8 46.4 135.3 29.4zM376.6 131.5C340 95 286.8 85.2 241.3 102.1L256.4 114c37.5-10.3 79.4-.7 108.9 28.8c22.8 22.8 33.7 53.1 32.7 83l15.1 11.9c4.6-37.8-7.5-77.2-36.5-106.2zm-63.5 27.3l1.1 .8c-.3-.3-.7-.6-1.1-.8zM129.6 197.5L59.8 267.3c-50 50-50 131 0 181s131 50 181 0l17-17c3.1-3.1 3.1-8.2 0-11.3s-8.2-3.1-11.3 0l-17 17c-43.7 43.7-114.7 43.7-158.4 0s-43.7-114.7 0-158.4l71.2-71.2-12.6-10zM326.9 353.2l-1.1-.9c.3 .3 .7 .6 1.1 .9z" />
-    </Icon>
-);
+const LinkSlash = createIcon("link-slash", false, "data:font/woff2;base64,d09GMgABAAAAAALkAAoAAAAABkwAAAKYAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgwyCTgsGAAE2AiQDCAQgBYMtBzEbTwVRlKzJPtmfDjgZg9f4NdMQGCI9S2sZGBiDRfuLbSz4IFoRsRyKU/x1uBSXalrzgHciopatZ2+JQZF9SipkoaJGyKyQeFQ0AiQOh3wjKCxCAhGstdl797YvuFfxJG6NRktUvJHw1EzyJWAPT08IqjLrAF3wf7lAZZmkyvpts7mur3z9rZpzNgTyziapImU6HkhoFqpvE0u2wL5VD+uN+hfB/2IzgY3MFP9LTOb/mnphTQf4jQ4tCq/pQCLxKJaJDTbgs3mD7A3kwGYD1bHtbUMkGlLYjJAwCXE8G7ML1PxbYKO8GYPH3qj8kXJC0TQAMggA9s77+7hNElrmBdKiBwLZB8wQNFA/QcAmi8gLWM1AVYUfvv0HKgRIO8aK317RhQc8ASooOmrtnQlH7O3MHrupM+NG66M1HdBIx8eNEUCYhvL1UVMjIxisVAVNQDKPie/juXRlnPVzfnf1rQf+m/Dqj6kK4WZjYhIwaT6RWGHlI3Tc5j4klKaj8Dl4kIlP2DtN39+MeFka71f/YV3r9if01vqf4VVYPVusqTmEtfWBARicL1UpK5P2Dm4cHZ2r1/u7+0H8r6x/RENpLPZcD8V5Rat7H5LP/KPWseZwTdzLvoUECMLYRdHsdKB/pwJ+/RyfvMnQCDoVEJo5c46JwoAeE9AruSMDn4SguOfATe31LCC6EVC06xbQGBckoOo2S0CbKXUEtOt2zCK1S4yaXKDodQkaG45BNeoMtNl077UbjSUfhWwSfoOp7RJtO6VV5ZXarMfCFFOMo/kWvdYKj2pfEZxlybYtBxYtWHUgmD194aFN7Rbd5otUlXKVVDN1t97VIfT27FvVBT9kkxYa7xY6skcXgWlg1hW5opDS/eozZfsbs/srAAA=");
 
 export default LinkSlash;

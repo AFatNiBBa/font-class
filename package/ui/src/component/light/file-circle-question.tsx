@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `file-circle-question` icon from the `light` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/file-circle-question?s=light file-circle-question}
  * @preview ![file-circle-question](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/light/file-circle-question.svg)
  */
-const FileCircleQuestion: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M64 480l232.2 0c9.8 11.8 21 22.3 33.5 31.3c-3.2 .5-6.4 .7-9.7 .7L64 512c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L220.1 0c12.7 0 24.9 5.1 33.9 14.1L369.9 129.9c9 9 14.1 21.2 14.1 33.9l0 34.7c-11.2 3.2-21.9 7.4-32 12.6l0-19.2-112 0c-26.5 0-48-21.5-48-48l0-112L64 32C46.3 32 32 46.3 32 64l0 384c0 17.7 14.3 32 32 32zM351.5 160c-.7-2.8-2.1-5.4-4.2-7.4L231.4 36.7c-2.1-2.1-4.6-3.5-7.4-4.2L224 144c0 8.8 7.2 16 16 16l111.5 0zM544 368a112 112 0 1 0 -224 0 112 112 0 1 0 224 0zm-256 0a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144 48a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm-64-86.4c0-23 18.6-41.6 41.6-41.6l40.5 0c25.4 0 45.9 20.6 45.9 45.9c0 17.1-9.5 32.7-24.5 40.6l-23.7 12.5c-1.4 7.4-7.9 12.9-15.7 12.9c-8.8 0-16-7.2-16-16l0-6.8c0-5.9 3.3-11.4 8.6-14.2l32-16.8c4.6-2.4 7.4-7.2 7.4-12.3c0-7.7-6.2-13.9-13.9-13.9l-40.5 0c-5.3 0-9.6 4.3-9.6 9.6l0 6.4c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-6.4z" />
-    </Icon>
-);
+const FileCircleQuestion = createIcon("file-circle-question", false, "data:font/woff2;base64,d09GMgABAAAAAAM8AAoAAAAABrAAAALyAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKg2iDIwsGAAE2AiQDCAQgBYMtBzsbrgXILos3RsMOwTCnHysk2rGRW5XiNL/wg3cp+Af9+zo3L195Y2QlVYNqAXe0Org3yq2HALjmLaIscS+4KEqDtUAkEM8NLqACiyyj1HOf1slFUQs0pUBrnlgpBPIgcMgtkIguEKhkHlmOcfng90K24efDw/+5v2/DYVInBoBMaAT9jxdIg/35v6ZePD8qkG8XBIdWsbWmRuIo8/kE9jzxZtGgwwqwieKm3L0U5J3D1LUBVm8EETC7JIAN9pfqDy2WYrABAABKAwAAuu1WSw+/YtLzqqLnzIEA1B2AR0AABEARAqAjAQKKsHjAYhF8FD/7DxQEAIrinrMBwAJx4ArcBQALgCFqbeukwsJE/TCSbCszEdcv48Jd0VYnOp6fLgi0pzhTJ9QavSK0DTqqSU7Hje0FyG61tpWwFurbwrwblSEnE23Tw4prz+l3x8ddh0fzdnJp7ap1LJzkROEeyaJGujDeCae/1egcl8HZtjddD7cbn5ff9K1Z23N25FZeTWmHclzWNp79mmpzSwRqoIlMd1WL5szqp9NO//PzgH/d2b+yawwOltLdQtLRggf3ovqq8k6rjv2RyXRNnycD2kL5lRMj1iWzev8C1dtpUj5O3wd/kV/zXGKom12iFnbUccGrGbVrZ2R6X4fnwawNTT6qP+LH6lJRXnGnXJesKzQ3Za/B5a0YiaV/TSY9rMvCJJPy8bUdBQABgpu/3Bmmjv+TMAB8Xv6So6sSTvg0iGMAEAQNqzA43BXAuAKAmNFc1QdGKMBwxmm41SS2CwEgHCAADFEcAiCgkDQEgMXRAAEQoYRWCIAojjIBsglEFkMKYEhiBghozTxgyeIKiNCRR9EoWSJ4cqXnTvpwTB9V0eGwdte4qW/ve/My+WEUdH8HP9mTzuV19eBcY00z1WxjjDbB7Ao+06DEHFP0HsJ6+SFPMxrTFE97/OLSTb2yEp1plgnd6vJBOuC3D9Rl7nDretBvcHmbk2MwIJP1ljiCf3ycwQMO");
 
 export default FileCircleQuestion;

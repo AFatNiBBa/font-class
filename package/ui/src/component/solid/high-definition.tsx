@@ -1,15 +1,11 @@
 
-import { Icon } from "../../index";
+import { createIcon } from "../../index";
 
 /**
  * A component that renders the `high-definition` icon from the `solid` section of Font Awesome 6.6 Pro
  * @see {@link https://fontawesome.com/icons/high-definition?s=solid high-definition}
  * @preview ![high-definition](https://corsproxy.io/?https://site-assets.fontawesome.com/releases/v6.6.0/svgs/solid/high-definition.svg)
  */
-const HighDefinition: typeof Icon = x => (
-    <Icon viewBox="0 0 576 512" {...x}>
-        <path d="M0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zm304 88l0 144c0 13.3 10.7 24 24 24l56 0c53 0 96-43 96-96s-43-96-96-96l-56 0c-13.3 0-24 10.7-24 24zm80 24c26.5 0 48 21.5 48 48s-21.5 48-48 48l-32 0 0-96 32 0zM160 184c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72 0 72c0 13.3 10.7 24 24 24s24-10.7 24-24l0-48 64 0 0 48c0 13.3 10.7 24 24 24s24-10.7 24-24l0-72 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 48-64 0 0-48z" />
-    </Icon>
-);
+const HighDefinition = createIcon("high-definition", false, "data:font/woff2;base64,d09GMgABAAAAAAJoAAoAAAAABfAAAAIbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgkIKgiyCDAsGAAE2AiQDCAQgBYMtBzYbEgXIhofv1/w693Un9aczDD3M6IA8whJk5C6rcctCAVlU5DL9uT/f+WiAj0cwtCisBCnfjTLPv0AJfa8S+lbnE8Wv28THiCD2hYSISUTHZ8fZDvL4PruhQnqcvsXN/qbxuy5ukDTLAERrAMzeuHa5l7/ELxHfND4ivrEUATEblAIZMnQXYJpMoLtciVwu+CUaDf4PLAkgqvDrCeSo4ghOAXKQ5HnetX3rfrVKi3xDrVJkT4dGvBjYIt4e/H6XFI8GvdevebwzpN412y087l+LT4a+6PXKkPqEIt7qvP7tDhH3uzxqf69fERG1DU8GvNVZiMf93+0WURMpwj2piOhTb13/s/e3B761q2hDm9deeq1Nm2IWxbA2cuMtBDusnuRKvd7UVC++MsnqDis7jfqB77Lsux9GlXYpf+7UYfXqDossMjYYZZZRzPMgEEz+8vSuna2m/dNUS+C3z//+H53d+CXNSnU0SSDIhjWG2ZZmAaMDcFJc0CeYWSDZIwe8anMPBAgFAiRVhQCZbloLkCsMFaCip/ECVBXWykTeTGhv+wRJc6dBZoKLINfeB6Bimi+cqvaRpRuZLORnL26BhuYvK0ePGFVOKZcRoTIIb9Op5TY/6EKpDKatDjjphHP22+ewcwo5Y7l/3nELIni+GZVGG2GU0hTlcbrlNijnjLMO+8z5IlOV9+1BLsTtg0lKgDlGKElEavUuK8OTEwAAAA==");
 
 export default HighDefinition;
